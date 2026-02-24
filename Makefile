@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc docx-to-md md-to-docx import-docx export-docx export-all-docx
+.PHONY: help check-pandoc docx-to-md md-to-docx import-docx export-docx export-all-docx clean-import-md
 
 PANDOC ?= pandoc
 
@@ -11,12 +11,14 @@ help:
 	@echo "  make import-docx"
 	@echo "  make export-docx DIR=path/to/book-folder"
 	@echo "  make export-all-docx"
+	@echo "  make clean-import-md"
 	@echo ""
 	@echo "Notes:"
 	@echo "  - If OUT is omitted, output is created next to IN."
 	@echo "  - import-docx converts every ./**/import.docx to ./**/import.md."
 	@echo "  - export-docx combines DIR/index.md plus linked .md files into DIR/export.docx."
 	@echo "  - export-all-docx runs export-docx for every ./**/index.md."
+	@echo "  - clean-import-md deletes every ./**/import.md file."
 	@echo "  - Requires pandoc installed and available in PATH."
 
 check-pandoc:
@@ -45,6 +47,15 @@ import-docx: check-pandoc
 	fi; \
 	echo "$$files" | while IFS= read -r file; do \
 		out="$${file%.docx}.md"; \
+		index="$$(dirname "$$file")/index.md"; \
+		if [ -f "$$out" ]; then \
+			echo "Skipped $$file (already imported: $$out)"; \
+			continue; \
+		fi; \
+		if [ -f "$$index" ]; then \
+			echo "Skipped $$file (index exists: $$index)"; \
+			continue; \
+		fi; \
 		"$(PANDOC)" "$$file" -t gfm -o "$$out"; \
 		echo "Created $$out"; \
 	done
@@ -76,4 +87,15 @@ export-all-docx: check-pandoc
 	echo "$$indexes" | while IFS= read -r index; do \
 		dir="$$(dirname "$$index")"; \
 		$(MAKE) --no-print-directory export-docx DIR="$$dir"; \
+	done
+
+clean-import-md:
+	@files="$$(find . -type f -name 'import.md')"; \
+	if [ -z "$$files" ]; then \
+		echo "No import.md files found."; \
+		exit 0; \
+	fi; \
+	echo "$$files" | while IFS= read -r file; do \
+		rm "$$file"; \
+		echo "Removed $$file"; \
 	done
