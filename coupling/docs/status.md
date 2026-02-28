@@ -6,11 +6,12 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Current Unit
 
-`part-02-software-as-early-laboratory/09-dora-measuring-coupling.md`
+`part-02-software-as-early-laboratory/10-shift-left-temporal-compression.md`
 
 ## In Progress
 
-- Chapter 9 placeholder is next for drafting.
+- Chapter 10 placeholder is next for drafting.
+- Chapter 9 approved and locked as current baseline (v1.1).
 - Chapter 8 approved and locked as current baseline (v1.1).
 - Chapter 7 approved and locked as current baseline (v1.1).
 - Chapter 6 approved and locked as current baseline.
@@ -44,6 +45,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - `part-02-software-as-early-laboratory/06-agile-increasing-cohesion-of-teams.md` (approved)
 - `part-02-software-as-early-laboratory/07-devops-restoring-operational-coupling.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/08-heart-of-agile-returning-to-essentials.md` (approved v1.1)
+- `part-02-software-as-early-laboratory/09-dora-measuring-coupling.md` (approved v1.1)
 
 ## Back Matter Established
 
@@ -68,11 +70,11 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Next Step
 
-`part-02-software-as-early-laboratory/09-dora-measuring-coupling.md`
+`part-02-software-as-early-laboratory/10-shift-left-temporal-compression.md`
 
 Then move to:
 
-`part-02-software-as-early-laboratory/10-shift-left-temporal-compression.md`
+`part-02-software-as-early-laboratory/11-hexagonal-architecture-boundary-discipline-at-scale.md`
 
 ## Open Decisions / Questions
 
