@@ -108,6 +108,24 @@ In this book, DevOps is used in a software engineering sense.
 
 DevOps refers to practices and operating norms that reduce the distance between software implementation and operations so that delivery, reliability, and learning stay structurally connected.
 
+## Waterfall
+
+In this book, Waterfall is used in a software engineering sense.
+
+Waterfall refers to a phase-sequenced development model where requirements, design, implementation, testing, and release are treated as largely distinct stages with formal handoffs and review gates.
+
+## Agile
+
+In this book, Agile is used in a software engineering sense.
+
+Agile refers to iterative development approaches that shorten feedback cycles, emphasize incremental delivery, and increase team-level ownership of ongoing change.
+
+## DORA
+
+In this book, DORA is used in a software engineering sense.
+
+DORA refers to research-backed software delivery metrics and practices (for example, lead time for changes and change failure rate) used to evaluate learning-loop quality between development and operations.
+
 ## Invariant
 
 A condition that should remain stable across contexts and scale if a system is to stay healthy. In this book, the invariant is that responsibility should remain cohesive and consequence should remain intentionally coupled.

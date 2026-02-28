@@ -12,10 +12,10 @@ In software history, method changes are not only cultural stories. They are desi
 
 This part treats software as an early laboratory for the full book's claim:
 
-- Waterfall as long-loop temporal coupling.
-- Agile as a partial restoration of team-level cohesion.
+- **Waterfall** as long-loop temporal coupling.
+- **Agile** as a partial restoration of team-level cohesion.
 - DevOps as operational recoupling between builders and runtime consequence.
-- DORA as measurable signal about learning-loop quality.
+- **DORA** as measurable signal about learning-loop quality.
 - Shift-left practice as temporal compression of correction.[^p2b-dora]
 
 The aim is not nostalgia or methodology advocacy. The aim is to show, in concrete sequence, how systems move when consequence arrives too late, and how they recover when consequence returns sooner.

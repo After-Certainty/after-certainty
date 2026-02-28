@@ -10,7 +10,7 @@ This document defines the drafting workflow for building the book in a structure
 - Create each part branch from the latest `main` before drafting that part.
 - Keep all bridge/chapter work for that part on its corresponding part branch.
 - After each chapter or bridge is approved, create a commit for that unit.
-- Push the part branch after each approved-unit commit so progress is continuously backed up and reviewable.
+- Push the part branch at the end of the part (or when explicitly requested), not after every chapter/bridge commit.
 - Open one pull request per part branch into `main` when that part is complete and approved.
 
 ## Step 1: Refactor the Skeleton
@@ -153,7 +153,7 @@ Once a part bridge or chapter is approved, move to the next unit and repeat the 
 11. Review
 12. Revise
 13. Approve
-14. Commit the approved unit on the current `coupling-part-N` branch and push
+14. Commit the approved unit on the current `coupling-part-N` branch
 
 Continue until the full manuscript structure is complete.
 

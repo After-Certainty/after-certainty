@@ -10,13 +10,14 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## In Progress
 
-- Chapter 5 placeholder is next for drafting.
+- Chapter 5 revised to v1.1 after focused self-critique micro-pass; pending author review/revision.
 - Part II bridge approved and locked as current baseline.
 - Chapter 4 approved and locked as current baseline.
 - Chapter 3 approved and locked as current baseline.
 - Chapter 1 and Chapter 2 approved and locked as current baseline.
 - Glossary-term bolding normalized to manuscript-level first occurrence (post-Typographical Conventions).
 - Glossary expanded to cover Chapter 3 terminology: temporal coupling, operational coupling, governance coupling, shift left, and DevOps.
+- Glossary expanded for Part II terminology introduced so far: Waterfall, Agile, and DORA.
 - Citation quality pass completed for Chapters 1-3: placeholders removed and footnotes normalized to bibliography-backed source language.
 - Citation format normalized to stable, chapter-scoped footnote IDs in Chapters 1-4, with rules/process aligned for `.docx`/Kindle conversion compatibility.
 
@@ -34,6 +35,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - `part-01-the-structural-grammar/03-consequence-as-coupling.md` (approved)
 - `part-01-the-structural-grammar/04-scale-and-abstraction.md` (approved)
 - `part-02-software-as-early-laboratory/bridge.md` (approved)
+- `part-02-software-as-early-laboratory/05-waterfall-low-temporal-coupling.md` (draft v1.1)
 
 ## Back Matter Established
 
@@ -45,7 +47,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - Echo pass after each draft
 - Editorial pass after each draft
 - Focused self-critique pass after editorial pass
-- One branch and PR per part (`coupling-part-N`), with chapter/bridge commits after each approved unit
+- One branch and PR per part (`coupling-part-N`), with chapter/bridge commits after each approved unit and branch push at part-end
 - Glossary pass with first-use bolding by manuscript reading order (starting after Typographical Conventions)
 - Repeated glossary-term mentions are not bolded unless explicit emphasis is needed
 - Pull-quote check: each chapter ends with a pull-quote
@@ -56,6 +58,10 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 ## Next Step
 
 `part-02-software-as-early-laboratory/05-waterfall-low-temporal-coupling.md`
+
+Then move to:
+
+`part-02-software-as-early-laboratory/06-agile-increasing-cohesion-of-teams.md`
 
 ## Open Decisions / Questions
 
