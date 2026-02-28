@@ -1,4 +1,4 @@
-# 10. The Frictionless Illusion
+# 12. The Frictionless Illusion
 
 - Vibe coding
 - Acceleration without cohesion

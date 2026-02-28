@@ -1,4 +1,4 @@
-# 17. Bureaucracy as Scar Tissue
+# 20. Bureaucracy as Scar Tissue
 
 - Why structure forms
 - When it restores cohesion

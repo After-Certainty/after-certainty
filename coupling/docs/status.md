@@ -6,11 +6,14 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Current Unit
 
-`part-02-software-as-early-laboratory/05-waterfall-low-temporal-coupling.md`
+`part-02-software-as-early-laboratory/07-devops-restoring-operational-coupling.md`
 
 ## In Progress
 
+- Chapter 7 placeholder is next for drafting.
+- Chapter 6 approved and locked as current baseline.
 - Chapter 5 revised to v1.1 after focused self-critique micro-pass; pending author review/revision.
+- Manuscript structure expanded to 25 chapters with Part II split into dedicated Heart of Agile and DORA chapters plus a Hexagonal Architecture chapter, and Part III expanded with a dedicated guardrails chapter.
 - Part II bridge approved and locked as current baseline.
 - Chapter 4 approved and locked as current baseline.
 - Chapter 3 approved and locked as current baseline.
@@ -36,6 +39,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - `part-01-the-structural-grammar/04-scale-and-abstraction.md` (approved)
 - `part-02-software-as-early-laboratory/bridge.md` (approved)
 - `part-02-software-as-early-laboratory/05-waterfall-low-temporal-coupling.md` (draft v1.1)
+- `part-02-software-as-early-laboratory/06-agile-increasing-cohesion-of-teams.md` (approved)
 
 ## Back Matter Established
 
@@ -47,7 +51,10 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - Echo pass after each draft
 - Editorial pass after each draft
 - Focused self-critique pass after editorial pass
-- One branch and PR per part (`coupling-part-N`), with chapter/bridge commits after each approved unit and branch push at part-end
+- One branch and PR per part (`coupling-part-N`)
+- Chapter/bridge commits only after explicit author approval of that unit
+- Branch push only after explicit author approval of the full part
+- Part-level coherence gate required before requesting part approval
 - Glossary pass with first-use bolding by manuscript reading order (starting after Typographical Conventions)
 - Repeated glossary-term mentions are not bolded unless explicit emphasis is needed
 - Pull-quote check: each chapter ends with a pull-quote
@@ -57,11 +64,11 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Next Step
 
-`part-02-software-as-early-laboratory/05-waterfall-low-temporal-coupling.md`
+`part-02-software-as-early-laboratory/07-devops-restoring-operational-coupling.md`
 
 Then move to:
 
-`part-02-software-as-early-laboratory/06-agile-increasing-cohesion-of-teams.md`
+`part-02-software-as-early-laboratory/08-heart-of-agile-returning-to-essentials.md`
 
 ## Open Decisions / Questions
 

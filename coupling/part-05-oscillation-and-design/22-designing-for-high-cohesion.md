@@ -1,4 +1,4 @@
-# 19. Designing for High Cohesion
+# 22. Designing for High Cohesion
 
 - Clear domains
 - Role integrity

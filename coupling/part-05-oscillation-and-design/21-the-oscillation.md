@@ -1,4 +1,4 @@
-# 18. The Oscillation
+# 21. The Oscillation
 
 - Reform -> acceleration -> entropy -> stabilization
 - Why systems swing

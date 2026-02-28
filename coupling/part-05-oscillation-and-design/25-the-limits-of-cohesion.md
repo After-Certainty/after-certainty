@@ -1,4 +1,4 @@
-# 22. The Limits of Cohesion
+# 25. The Limits of Cohesion
 
 - When distance is necessary
 - Scaling tradeoffs

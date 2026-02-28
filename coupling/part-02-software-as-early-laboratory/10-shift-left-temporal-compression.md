@@ -1,4 +1,4 @@
-# 9. Shift Left: Temporal Compression
+# 10. Shift Left: Temporal Compression
 
 - Earlier testing
 - Earlier security

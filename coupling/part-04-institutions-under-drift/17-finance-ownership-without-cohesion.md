@@ -1,4 +1,4 @@
-# 14. Finance: Ownership Without Cohesion
+# 17. Finance: Ownership Without Cohesion
 
 - Proxy voting
 - Index abstraction
