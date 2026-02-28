@@ -126,6 +126,12 @@ In this book, DORA is used in a software engineering sense.
 
 DORA refers to research-backed software delivery metrics and practices (for example, lead time for changes and change failure rate) used to evaluate learning-loop quality between development and operations.
 
+## Hexagonal Architecture
+
+In this book, hexagonal architecture is used in a software engineering sense.
+
+Hexagonal architecture (also called ports and adapters) is a boundary pattern that keeps domain logic insulated from external technologies by routing integration concerns through explicit interface ports and adapter implementations.
+
 ## Invariant
 
 A condition that should remain stable across contexts and scale if a system is to stay healthy. In this book, the invariant is that responsibility should remain cohesive and consequence should remain intentionally coupled.

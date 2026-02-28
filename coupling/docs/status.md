@@ -6,11 +6,12 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Current Unit
 
-`part-02-software-as-early-laboratory/11-hexagonal-architecture-boundary-discipline-at-scale.md`
+`part-03-ai-and-structural-entropy/bridge.md`
 
 ## In Progress
 
-- Chapter 11 placeholder is next for drafting.
+- Part III bridge is next for drafting.
+- Chapter 11 approved and locked as current baseline (v1.1).
 - Chapter 10 approved and locked as current baseline (v1.1).
 - Chapter 9 approved and locked as current baseline (v1.1).
 - Chapter 8 approved and locked as current baseline (v1.1).
@@ -48,6 +49,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - `part-02-software-as-early-laboratory/08-heart-of-agile-returning-to-essentials.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/09-dora-measuring-coupling.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/10-shift-left-temporal-compression.md` (approved v1.1)
+- `part-02-software-as-early-laboratory/11-hexagonal-architecture-boundary-discipline-at-scale.md` (approved v1.1)
 
 ## Back Matter Established
 
@@ -72,11 +74,11 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Next Step
 
-`part-02-software-as-early-laboratory/11-hexagonal-architecture-boundary-discipline-at-scale.md`
+`part-03-ai-and-structural-entropy/bridge.md`
 
 Then move to:
 
-`part-03-ai-and-structural-entropy/bridge.md`
+`part-03-ai-and-structural-entropy/12-the-frictionless-illusion.md`
 
 ## Open Decisions / Questions
 

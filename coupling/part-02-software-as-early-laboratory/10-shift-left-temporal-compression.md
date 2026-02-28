@@ -59,7 +59,7 @@ Across domains, the structural lesson is stable: earlier consequence visibility 
 
 Shift left improves timing, but timing alone does not solve boundary fragility. Teams may detect issues earlier and still struggle if core domain logic is tightly entangled with external systems.
 
-Chapter 11 turns to hexagonal architecture as a boundary-discipline response: how to preserve cohesive decision logic while keeping external dependencies intentionally coupled and replaceable.[^c10-bridge-hex]
+Chapter 11 turns to **Hexagonal architecture** as a boundary-discipline response: how to preserve cohesive decision logic while keeping external dependencies intentionally coupled and replaceable.[^c10-bridge-hex]
 
 [^c10-late-detection]: Barry W. Boehm, *Software Engineering Economics* (Englewood Cliffs, NJ: Prentice-Hall, 1981), on the rising cost of correction as defect discovery shifts later in the lifecycle.
 [^c10-shift-left-origin]: Murugiah Souppaya, Karen Scarfone, and Donna Dodson, *Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities*, NIST SP 800-218 (2022), https://csrc.nist.gov/pubs/sp/800/218/final.
