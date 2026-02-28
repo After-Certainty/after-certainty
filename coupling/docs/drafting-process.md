@@ -4,6 +4,16 @@
 
 This document defines the drafting workflow for building the book in a structured, review-driven way.
 
+## Branch and PR Workflow (Applies Throughout)
+
+- Use one branch per part, named `coupling-part-N` where `N` is the part number.
+- Create each part branch from the latest `main` before drafting that part.
+- Keep all bridge/chapter work for that part on its corresponding part branch.
+- When the author explicitly marks a chapter or bridge as approved, create a commit for that unit.
+- When the author explicitly marks a part as approved, push the part branch.
+- Do not push after every chapter/bridge commit unless explicitly requested.
+- Open one pull request per part branch into `main` when that part is complete and approved.
+
 ## Step 1: Refactor the Skeleton
 
 Start by refactoring `skeleton.md` into `index.md` and splitting the content into the proper part and chapter file structure.
@@ -144,8 +154,24 @@ Once a part bridge or chapter is approved, move to the next unit and repeat the 
 11. Review
 12. Revise
 13. Approve
+14. If the author approves the unit, commit it on the current `coupling-part-N` branch
 
 Continue until the full manuscript structure is complete.
+
+## Step 12.5: Part-Level Coherence Gate (Before Part Approval)
+
+After all units in a part are drafted and chapter/bridge-approved, run a part-level coherence pass before requesting part approval.
+
+At minimum:
+
+- Check bridge-to-chapter continuity across the full part
+- Check chapter-to-chapter progression so each chapter advances rather than restates
+- Check recurring terms for consistent meaning and confidence level across the part
+- Check example distribution to avoid redundant case patterns inside the part
+- Check citation distribution so major structural pivots in each chapter are grounded
+- Check part ending/transition quality into the next part
+
+Only after this pass is complete should the part be presented for explicit part approval (which then triggers branch push).
 
 ## Step 13: Final Editorial Passes (After Full Draft)
 

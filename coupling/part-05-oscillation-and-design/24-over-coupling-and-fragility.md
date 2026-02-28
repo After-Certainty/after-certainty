@@ -1,4 +1,4 @@
-# 21. Over-Coupling and Fragility
+# 24. Over-Coupling and Fragility
 
 - When tight coupling causes cascade failure
 - Brittleness

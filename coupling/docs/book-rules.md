@@ -25,7 +25,7 @@ This is not a marketing brief. It is an architectural constraint document.
 ### Structural Rules
 
 - 5 parts
-- 18-22 chapters
+- 24-25 chapters
 - Chapters 3,000-5,000 words each
 - No chapter longer than 6,000 words
 - No filler case studies

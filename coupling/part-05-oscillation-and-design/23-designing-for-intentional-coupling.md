@@ -1,4 +1,4 @@
-# 20. Designing for Intentional Coupling
+# 23. Designing for Intentional Coupling
 
 - Proximal feedback
 - Measured recovery

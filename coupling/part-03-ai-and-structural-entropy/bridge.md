@@ -6,3 +6,4 @@ Focus:
 
 - Test the invariant under faster generation cycles
 - Expose where speed outpaces ownership and consequence
+- Introduce guardrails as an emergent constraint architecture
