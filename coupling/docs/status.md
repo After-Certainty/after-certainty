@@ -6,11 +6,13 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Current Unit
 
-`part-01-the-structural-grammar/04-scale-and-abstraction.md`
+`part-02-software-as-early-laboratory/05-waterfall-low-temporal-coupling.md`
 
 ## In Progress
 
-- Chapter 4 revised to v1.1 after focused self-critique pass; pending author review/revision.
+- Chapter 5 placeholder is next for drafting.
+- Part II bridge approved and locked as current baseline.
+- Chapter 4 approved and locked as current baseline.
 - Chapter 3 approved and locked as current baseline.
 - Chapter 1 and Chapter 2 approved and locked as current baseline.
 - Glossary-term bolding normalized to manuscript-level first occurrence (post-Typographical Conventions).
@@ -30,7 +32,8 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - `part-01-the-structural-grammar/01-coupling-and-cohesion-technical-origins.md` (approved)
 - `part-01-the-structural-grammar/02-responsibility-as-cohesion.md` (approved)
 - `part-01-the-structural-grammar/03-consequence-as-coupling.md` (approved)
-- `part-01-the-structural-grammar/04-scale-and-abstraction.md` (draft v1.1)
+- `part-01-the-structural-grammar/04-scale-and-abstraction.md` (approved)
+- `part-02-software-as-early-laboratory/bridge.md` (approved)
 
 ## Back Matter Established
 
@@ -42,6 +45,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - Echo pass after each draft
 - Editorial pass after each draft
 - Focused self-critique pass after editorial pass
+- One branch and PR per part (`coupling-part-N`), with chapter/bridge commits after each approved unit
 - Glossary pass with first-use bolding by manuscript reading order (starting after Typographical Conventions)
 - Repeated glossary-term mentions are not bolded unless explicit emphasis is needed
 - Pull-quote check: each chapter ends with a pull-quote
@@ -51,9 +55,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Next Step
 
-Review Chapter 4 v1.1, collect revision notes, and apply targeted edits. Then move to:
-
-`part-02-software-as-early-laboratory/bridge.md`
+`part-02-software-as-early-laboratory/05-waterfall-low-temporal-coupling.md`
 
 ## Open Decisions / Questions
 
