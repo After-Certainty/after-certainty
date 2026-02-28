@@ -17,7 +17,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - Chapter 8 approved and locked as current baseline (v1.1).
 - Chapter 7 approved and locked as current baseline (v1.1).
 - Chapter 6 approved and locked as current baseline.
-- Chapter 5 revised to v1.1 after focused self-critique micro-pass; pending author review/revision.
+- Chapter 5 approved and locked as current baseline (v1.1).
 - Manuscript structure expanded to 25 chapters with Part II split into dedicated Heart of Agile and DORA chapters plus a Hexagonal Architecture chapter, and Part III expanded with a dedicated guardrails chapter.
 - Part II bridge approved and locked as current baseline.
 - Chapter 4 approved and locked as current baseline.
@@ -43,7 +43,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - `part-01-the-structural-grammar/03-consequence-as-coupling.md` (approved)
 - `part-01-the-structural-grammar/04-scale-and-abstraction.md` (approved)
 - `part-02-software-as-early-laboratory/bridge.md` (approved)
-- `part-02-software-as-early-laboratory/05-waterfall-low-temporal-coupling.md` (draft v1.1)
+- `part-02-software-as-early-laboratory/05-waterfall-low-temporal-coupling.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/06-agile-increasing-cohesion-of-teams.md` (approved)
 - `part-02-software-as-early-laboratory/07-devops-restoring-operational-coupling.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/08-heart-of-agile-returning-to-essentials.md` (approved v1.1)

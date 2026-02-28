@@ -28,5 +28,5 @@ By the end of Part II, the reader should be able to track software practice chan
 
 Chapter 5 begins with Waterfall, where long planning horizons and late integration often produce low temporal coupling between design decisions and operational consequence.
 
-[^p2b-method-history]: Martin Fowler, Robert C. Martin, and Alistair Cockburn writings on software-method evolution as changes in design boundaries and feedback loops.
-[^p2b-dora]: DORA research reports and Gene Kim et al. on lead time, change failure rate, and operational learning loops as measurable consequence-return signals.
+[^p2b-method-history]: Winston W. Royce, "Managing the Development of Large Software Systems" (1970); Kent Beck et al., "Manifesto for Agile Software Development" (2001); and Alistair Cockburn, *Agile Software Development* (Addison-Wesley, 2002), on method evolution as shifts in feedback boundaries and decision cadence.
+[^p2b-dora]: Nicole Forsgren, Jez Humble, and Gene Kim, *Accelerate: The Science of Lean Software and DevOps* (IT Revolution Press, 2018); and Gene Kim, Jez Humble, Patrick Debois, and John Willis, *The DevOps Handbook*, 2nd ed. (IT Revolution Press, 2021), on delivery metrics and operational learning loops.
