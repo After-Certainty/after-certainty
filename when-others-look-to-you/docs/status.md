@@ -2,26 +2,27 @@
 
 ## Current Phase
 
-Part II merged to `main`. Part III is drafted, audited, and approved on
-branch `when-others-look-to-you-part-3`.
+Part III merged to `main`. Back matter drafting and audit are now active
+on branch `when-others-look-to-you-back-matter`.
 
 ## Current Branch
 
-`when-others-look-to-you-part-3`
+`when-others-look-to-you-back-matter`
 
 ## Approved (Merged to `main`)
 
 - Front matter batch (`front-matter/*`)
 - Part I (`parts/part-1-attention-and-early-formation/*`)
 - Part II (`parts/part-2-legitimacy-harm-and-circulation/*`)
-- `back-matter/appendix-a-legitimacy-transfer.md`
+- Part III (`parts/part-3-scale-tradeoffs-and-renewal/*`)
 
-## Approved (Current Branch, Ready to Commit/Push)
+## Drafted on Current Branch (Pending Approval)
 
-- `parts/part-3-scale-tradeoffs-and-renewal/bridge.md`
-- `parts/part-3-scale-tradeoffs-and-renewal/chapter-8-scale-and-drift.md`
-- `parts/part-3-scale-tradeoffs-and-renewal/chapter-9-tradeoffs-under-pressure.md`
-- `parts/part-3-scale-tradeoffs-and-renewal/chapter-10-what-happens-next.md`
+- `back-matter/epilogue.md`
+- `back-matter/appendix-a-legitimacy-transfer.md` (expanded from scaffold to
+  full prose)
+- `back-matter/bibliography.md` (expanded from placeholder to substantive
+  reference list)
 
 ## Key Model and Guardrail Updates Landed
 
@@ -35,16 +36,19 @@ branch `when-others-look-to-you-part-3`.
 
 ## Back Matter Status
 
-- `back-matter/appendix-a-legitimacy-transfer.md` established and included
-  in manuscript index
-- `back-matter/epilogue.md` remains scaffolded for final drafting pass
-- `back-matter/bibliography.md` remains a working map for final citation
-  completion pass
+- Back matter links are present and valid in `index.md`
+- Epilogue drafted in full (boundary conditions + practical close)
+- Appendix A drafted in full (post-9/11 presidential sequence plus
+  non-presidential contrast)
+- Bibliography drafted as a substantive source list
+- Linkage and citation-integrity sweep completed (no broken links, no
+  unresolved citation placeholders)
 
 ## Next Step
 
-Create one consolidated Part III commit, push
-`when-others-look-to-you-part-3`, and open PR to `main`.
+Run human review on back matter. If approved, create one consolidated
+back-matter commit, push `when-others-look-to-you-back-matter`, and open
+PR to `main`.
 
 ## Open Decisions / Questions
 
