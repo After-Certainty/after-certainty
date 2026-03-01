@@ -102,7 +102,7 @@ conditions step in, adjust locally, and feed learning back to the center.
 
 When circulation weakens, decay usually appears before leaders can name it.
 
-Part III now tests what happens to these renewal conditions under scale
+Part III now tests what happens to these conditions under scale
 pressure, where distance and abstraction make circulation harder to
 sustain.
 

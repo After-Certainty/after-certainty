@@ -1,28 +1,25 @@
 # **Bridge — From Circulation to Scale Pressure**
 
-This bridge transitions from Part II decomposition into Part III
-integration.
+Part II separated harm, effectiveness, legitimacy, and circulation so each
+lens could be seen clearly.
 
-Part II separated harm, effectiveness, legitimacy, and circulation so
-each could be seen clearly.
+Part III puts them back together under harder conditions: larger reach,
+greater distance from consequence, and faster pressure cycles.
 
-Part III holds these lenses together under pressure:
+At small scale, correction is often visible and personal. At institutional
+scale, signals travel farther, slower, and with more distortion. That does
+not make vitality impossible. It makes vitality work harder.
 
-- How scale changes what leaders can see and what they can hide
-- How tradeoffs alter moral posture over time
-- How integrated judgment differs from single-metric judgment
+Carry forward the Chapter 2 model as you read:
 
-Part III should also carry forward the Chapter 2 vitality model:
+- Two capacities: scalability and adjustability.
+- Four states: vital, nimble, brittle, stagnant.
+- Vitality and decay as structural directions, not moral rankings.
 
-- Two capacities: scalability and adjustability
-- Four practical states: vital, nimble, brittle, stagnant
-- Vitality/decay as umbrella directions, not moral rankings
+At scale, selective followership also changes form. Open dissent can turn
+into quiet divergence, local workarounds, and formal compliance without
+real alignment.
 
-At scale, selective followership often becomes less visible: open dissent
-can convert into quiet divergence, local workarounds, and narrative
-compliance.
-
-The next chapters should make one contrast explicit throughout:
-human-scale leadership (visible consequence, direct correction, bounded
-authority) versus institutional-scale leadership (abstracted harm,
-distance from consequence, slower correction).
+The next chapters track this shift in sequence: first scale and drift,
+then tradeoffs under pressure, then integrated judgment about what remains
+possible when repair is partial and time is short.

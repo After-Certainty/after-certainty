@@ -1,147 +1,97 @@
 # **Chapter 8 — Scale and Drift**
 
+### **What Scale Changes**
+
 Human scale and institutional scale differ structurally.
 
-At human scale:
+At human scale, harm is easier to see, correction is faster, and
+accountability is harder to evade. At institutional scale, harm can
+abstract, signals can attenuate, and revision can slow under layers of
+distance.[^c8-scale-distance]
 
-- Harm is visible.
+Scale does not cause decay by itself. It amplifies what the structure is
+already capable of producing.
 
-- Correction is immediate.
+### **The Regional Network**
+>
+> A neighborhood congregation grows into a regional network with shared
+> branding, shared training, and shared donor strategy. Local leaders
+> notice that a mentoring program is creating burnout and quiet exclusion
+> for younger volunteers.
+>
+> In the local setting, concerns used to be discussed in person and changed
+> quickly. In the regional structure, feedback now moves through formal
+> reporting cycles. The program still expands, but local adaptation slows.
+> Public updates highlight growth and consistency.
 
-- Legitimacy is personal.
+The network did not become harmful because it grew. It became riskier
+because reach expanded faster than usable correction pathways.
 
-At institutional scale:
+### **Two Capacities at Scale**
 
-- Harm abstracts.
-
-- Circulation attenuates.
-
-- Blindness increases.
-
-Scale does not cause decay, but it amplifies risk.
-
-This chapter should explicitly use the two vitality capacities:
+Use two capacities to read scale effects:
 
 - **Scalability:** can coordinated action grow in reach?
-- **Adjustability:** can influence still change direction under pressure?
+- **Adjustability:** can influence still change direction when reality
+  pushes back?
 
-Use these capacities to distinguish four practical states at scale:
+These capacities generate four practical states:
 
-- **Vital:** high scalability and high adjustability
-- **Nimble:** lower scalability and high adjustability
-- **Brittle:** high scalability and low adjustability
-- **Stagnant:** low scalability and low adjustability
+- **Vital:** high scalability, high adjustability.
+- **Nimble:** lower scalability, high adjustability.
+- **Brittle:** high scalability, low adjustability.
+- **Stagnant:** low scalability, low adjustability.
 
-## **Example-Based Legitimacy at Scale**
+At larger scale, brittle patterns can look impressive for longer. Reach
+can expand while correction weakens.
 
-At human scale:
+### **Legitimacy Forms Under Scale**
 
-- Visible and renewable.
+Different legitimacy forms respond differently to scale:
 
-At institutional scale:
+- **Example-based legitimacy** is strong at human scale but harder to
+  preserve as distance grows.
+- **Procedural legitimacy** becomes necessary at institutional scale, but
+  can become symbolic if challenge is formal rather than real.
+- **Office-based legitimacy** stabilizes continuity, but can transfer
+  permission faster than accountability transfers.
+- **Sacralized legitimacy** becomes easier to entrench as systems abstract
+  and dissent diffuses.[^c8-legitimacy]
 
-- Harder to observe directly.
+Scale does not eliminate judgment. It changes where judgment gets lost.
 
-- Often replaced by narrative reputation.
+### **Selective Followership at Scale**
 
-- Vulnerable to sedimentation.
+At small scale, selective refusal is often visible and discussable.
 
-Large systems require mediation to preserve example visibility.
+At larger scale, selective followership can go quiet: local
+reinterpretations, hidden workarounds, and formal alignment without shared
+reality.[^c8-hidden-transcripts]
 
-Without mediation, example decays into story.
+This is one reason circulation matters so much at scale. If concern cannot
+travel back with enough force to change direction, reach can grow while
+learning shrinks.
 
-## **Procedural Legitimacy at Scale**
+### **Human Scale as a Contrast**
 
-At human scale:
+Human scale is not automatically better. It is clearer.
 
-- Feels thin.
+Consequences are harder to hide. Boundaries are easier to name. Repair can
+be negotiated in direct contact rather than delayed through layers.
 
-- People still look to personal credibility.
+At institutional scale, those same functions require explicit design:
+feedback paths, role clarity, bounded authority, and protected revision
+time.
 
-At institutional scale:
+### **Connection to Chapter 9**
 
-- Becomes dominant.
+Scale introduces the conditions. Pressure tests them.
 
-- Role replaces person.
+Chapter 9 examines how crisis and urgency force tradeoffs across harm,
+effectiveness, legitimacy, and circulation.
 
-- Office stabilizes continuity.
+> "Scale can increase reach faster than it increases correction."
 
-Procedural legitimacy becomes necessary at scale — but also easier to
-hide behind.
-
-## **Office-Based Legitimacy at Scale**
-
-At human scale:
-
-- Weak. History is short.
-
-At institutional scale:
-
-- Powerful.
-
-- Permission attaches to office.
-
-- Authority transfers by default.
-
-Office-based legitimacy can preserve coherence across generations.
-
-But it can also slow correction.
-
-## **Sacralized Legitimacy at Scale**
-
-At human scale:
-
-- Difficult to sustain long-term.
-
-- Dissent remains visible.
-
-At institutional scale:
-
-- Easier to entrench.
-
-- Dissent diffuses.
-
-- Correction mechanisms weaken.
-
-Scale amplifies sacralization risk.
-
-## **Structural Insight**
-
-Different legitimacy transfers respond differently to scale.
-
-Example-based legitimacy struggles at scale without circulation.
-
-Procedural legitimacy becomes necessary at scale but can mask decay.
-
-Office-based legitimacy stabilizes large systems but increases inertia.
-
-Sacralization becomes easier as systems abstract.
-
-Scale does not doom leadership.
-
-But it increases the structural work required to preserve vitality.
-
-## **Selective Followership at Scale**
-
-At small scale, selective refusal is often visible and conversational.
-At large scale, it can become statistical and quiet: policy workarounds,
-local reinterpretations, metric gaming, and silent non-adoption.
-
-This chapter should distinguish vital/nimble distributed judgment from
-brittle/stagnant trust fracture that hides behind formal compliance.
-
-## **Human Scale as a Contrast Lens**
-
-This chapter should make the human-scale contrast explicit, not implied.
-
-At minimum, include:
-
-- Why harm is harder to hide at human scale
-- Why boundary-setting is clearer and more personal at human scale
-- Why "effectiveness" at human scale looks like containment and endurance,
-  not dramatic transformation
-- Why scale increases the temptation to confuse administrative order with
-  moral seriousness
-
-The chapter should use this contrast to prepare an integrated view in
-Chapters 9-10.
+[^c8-scale-distance]: Charles Perrow, *Normal Accidents: Living with High-Risk Technologies* (New York: Basic Books, 1984).
+[^c8-legitimacy]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
+[^c8-hidden-transcripts]: James C. Scott, *Domination and the Arts of Resistance: Hidden Transcripts* (New Haven, CT: Yale University Press, 1990).
