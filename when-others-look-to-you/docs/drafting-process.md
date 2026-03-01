@@ -44,6 +44,8 @@ Within the active part, progress in sequence:
 
 Do not switch to the next part until the current part is fully approved.
 
+## Phase A: Section Draft and Audit (Before Approval)
+
 ## Step 3: Rule Compliance Check During Part Drafting
 
 After drafting each section within the active part (bridge/chapter), run a compliance check against `docs/book-rules.md`.
@@ -76,6 +78,7 @@ At minimum, check for:
 - Redundant modifiers and filler phrasing
 - Punctuation and consistency issues that reduce clarity
 - Pull-quote formatting consistency when pull-quotes are used (for example, no bold text inside pull-quotes)
+- Pull-quote confidence calibration against chapter evidence (avoid absolute pull-quote claims unless clearly justified)
 
 ## Step 5.5: Literary-Flow Micro-Pass
 
@@ -91,6 +94,60 @@ At minimum:
 - In scene-based openings, check for accidental staccato and merge into sustained paragraphs unless brief fragmentation is intentionally structural.
 - Flag repeated sentence stems (for example, "They learned..." repeated 3+ times) and consolidate unless repetition is deliberately structural.
 - Read revised passages aloud and rewrite any section that still sounds like line-by-line emphasis.
+
+## Step 5.75: Plain-Language and Reader-Prose Pass
+
+After the literary-flow micro-pass, run a plain-language pass to reduce
+technical and process-heavy phrasing.
+
+At minimum:
+
+- Replace avoidable jargon with common reader-facing wording.
+- Rewrite process-language phrasing ("test," "mechanism," "diagnostic," "run pass") into natural prose where possible.
+- Keep core conceptual terms only when they are necessary to meaning.
+- Convert abstract phrasing into concrete language without flattening precision.
+- Confirm the section reads like book prose for readers, not internal workflow language.
+- Check for meta prose drift in analytical paragraphs (for example:
+  "this chapter," "this section," "in this book") and rewrite into direct
+  claim language unless the line is an explicit navigation/handoff.
+- Run a vitality/decay neutrality check: ensure plain-language edits do
+  not convert structural descriptors into moral praise/blame (for
+  example: avoid replacing structural terms with "good/bad people" or
+  equivalent moral framing).
+- Check local terminology consistency (for example, avoid unnecessary drift between near-synonyms such as "group"/"organization" when no meaning difference is intended).
+- Keep domain-specific terms primarily inside vignette scene blocks; in
+  non-vignette prose, prefer domain-agnostic wording unless the argument
+  depends on a specific domain.
+- Allow domain-specific wording in clearly marked concrete-example
+  passages when it materially improves clarity; keep surrounding analytic
+  prose domain-agnostic.
+- Run a domain-language lexicon scan on non-vignette prose (for example:
+  business shorthand such as "metrics," "dashboard," "frontline,"
+  "campaign," "quarter," "rollout," "executive").
+- For each hit in non-vignette prose, assign disposition:
+  - Keep-Protected-Example (author-approved illustrative wording),
+  - Keep (justified), or
+  - Rewrite (domain-agnostic replacement).
+- If any hit is kept, record a one-line rationale in the section audit
+  summary before approval.
+- If "Keep-Protected-Example" is used, include the quoted passage and note
+  "protected unless author requests revision" in the section audit summary.
+
+## Step 5.9: Late-Addition Continuity Guardrail
+
+When adding new material after a section is already drafted, run a
+continuity placement check before finalizing.
+
+At minimum:
+
+- Place substantive new claims in the best-fit core section, not in a
+  connection/handoff section.
+- Keep "Connection to next chapter" sections transitional and concise.
+- If a new paragraph introduces a fresh concept, move it to the relevant
+  analytical section and leave only the handoff line in the connection
+  section.
+- Re-check chapter ending rhythm: final transition line then pull-quote,
+  without late conceptual detours.
 
 ## Step 6: Focused Self-Critique Pass
 
@@ -128,16 +185,20 @@ At minimum:
 - Confirm renamed files do not leave stale links behind
 - Confirm internal links use the current canonical filenames
 
-## Step 9: Status Update
+## Step 9: Section Audit Summary (Before Review)
 
-After each section draft/revision cycle within the active part, update `docs/status.md` so progress is explicit and easy to resume.
+After completing Steps 3-8 for a section, prepare a concise audit summary
+for review. This summary should be used in the human review loop.
 
 At minimum:
 
-- Current part being drafted
-- Completed sections
-- Next part
-- Any open decisions or unresolved questions
+- Overall alignment status against `docs/book-rules.md`
+- Top quality risks or weak spots (if any)
+- Recommended fixes applied or pending
+
+Do not mark a section as approved in `docs/status.md` at this stage.
+
+## Phase B: Human Review and Revision (Approval Gate)
 
 ## Step 10: Human Review and Revision Loop
 
@@ -150,6 +211,13 @@ After each drafted section and compliance summary:
 
 Do not move to the next section until revisions are complete and approved.
 
+## Step 10.5: Post-Approval Actions
+
+Only after explicit approval:
+
+- Update `docs/status.md` to record section/part approval state.
+- If the full part is approved, create one consolidated part commit, then push the part branch.
+
 ## Step 11: Move Through the Current Part
 
 Once a section in the active part is approved, move to the next section in that same part and repeat the cycle:
@@ -159,16 +227,18 @@ Once a section in the active part is approved, move to the next section in that 
 3. Run echo pass against drafted material
 4. Run editorial pass
 5. Run literary-flow micro-pass
-6. Run focused self-critique pass
-7. Run citation pass
-8. Run linkage check
-9. Update `docs/status.md`
-10. Summarize alignment and quality findings
-11. Review
-12. Revise
-13. Approve
-14. If the section belongs to an in-progress part, keep iterating without committing yet
-15. When the full part is explicitly approved, create one consolidated part commit and push
+6. Run plain-language and reader-prose pass
+7. Run late-addition continuity guardrail
+8. Run focused self-critique pass
+9. Run citation pass
+10. Run linkage check
+11. Summarize alignment and quality findings
+12. Review
+13. Revise
+14. Approve
+15. Update `docs/status.md` (post-approval only)
+16. If the section belongs to an in-progress part, keep iterating without committing yet
+17. When the full part is explicitly approved, create one consolidated part commit and push
 
 Continue until the full part is complete, then start the next part.
 

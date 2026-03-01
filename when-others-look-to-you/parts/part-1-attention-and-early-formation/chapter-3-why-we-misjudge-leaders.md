@@ -14,8 +14,8 @@ blindness.
 
 ### **Outcome Bias**
 
-Outcome bias happens when results substitute for evaluation of process
-and structure.[^c3-outcome-bias]
+Outcome bias happens when results stand in for judging how decisions were
+made and how influence was organized.[^c3-outcome-bias]
 
 If an initiative appears to work, observers assume leadership was sound.
 If it fails, observers assume leadership was poor. In both cases, the
@@ -35,7 +35,7 @@ theater, not reliable stewardship.
 
 Structural blindness happens when observers miss how influence is
 organized while they focus on personality, intention, or rhetoric.
-I use this term as a practical shorthand for patterns documented in research
+I use this term as a practical shorthand for patterns described in research
 on organizational defenses, structural secrecy, and suppressed correction
 signals.[^c3-structural-blindness]
 
@@ -61,7 +61,7 @@ assume that because they meant well, the structure must be healthy.
 
 Intent matters for ethics. It does not settle the question.
 
-Leadership should be evaluated by what influence repeatedly produces:
+Leadership should be judged by what influence repeatedly produces:
 how correction works, how harm is allocated, how disagreement survives,
 and how learning is retained across pressure cycles.
 
@@ -79,8 +79,9 @@ privately diverge. They may even invert instructions under pressure to
 preserve autonomy.[^c3-reactance]
 
 This does not automatically mean disloyalty. It can mean active judgment.
-In healthy systems, selective dissent is visible and usable. In unhealthy
-systems, it goes quiet and becomes hidden workarounds.
+In more vital or nimble systems, selective dissent is visible and usable.
+In brittle or stagnant systems, it goes quiet and becomes hidden
+workarounds.
 
 When observers collapse all this into a single category - "they are with
 the leader" or "they are against the leader" - they miss the structure
@@ -99,6 +100,25 @@ complexity too quickly. It penalizes leaders who keep uncertainty visible
 long enough to make better decisions.[^c3-ambiguity-and-sensemaking]
 
 Confidence can be valuable. Overconfidence in closed systems is costly.
+
+### **The Principal's Turnaround**
+>
+> A school principal takes over a low-performing campus and launches a
+> strict attendance and test-prep program. Within a year, scores rise and
+> district leaders celebrate a turnaround.
+>
+> Teachers, however, quietly stop reporting disciplinary incidents because
+> the numbers are used in performance evaluations. Students with the
+> highest support needs are informally steered toward transfer pathways.
+> Parent complaints increase, but most are handled privately to protect
+> the public narrative.
+
+From the outside, this looks like evidence of strong leadership. Inside
+the school, correction channels are narrowing and harm is being displaced.
+
+The vignette shows why outcome bias and structural blindness reinforce
+each other: visible success can hide degrading conditions until repair
+becomes expensive.
 
 ### **What to Watch Instead**
 
@@ -134,15 +154,15 @@ The practical standard is not "Did the leader succeed?" It is:
 
 Did this leadership structure remain open to correction while carrying influence?
 
-Corrigibility means errors can be surfaced, authority can be questioned,
-and adjustments can occur before harm scales.
+Being open to correction means errors can be surfaced, authority can be
+questioned, and adjustments can occur before harm scales.
 
 That standard is less dramatic than hero stories. It is also more
 reliable.
 
 Part II applies this lens to legitimacy, harm, and authority circulation.
 
-> "We misjudge leaders when we treat outcomes as proof and structure as background."
+> "We often misjudge leaders when we treat outcomes as proof and structure as background."
 
 [^c3-outcome-bias]: Jonathan Baron and John C. Hershey, "Outcome Bias in Decision Evaluation," *Journal of Personality and Social Psychology* 54, no. 4 (1988): 569-579.
 [^c3-psychological-safety]: Amy C. Edmondson, "Psychological Safety and Learning Behavior in Work Teams," *Administrative Science Quarterly* 44, no. 2 (1999): 350-383.

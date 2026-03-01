@@ -1,164 +1,108 @@
 # **Chapter 6 — Legitimacy Over Time**
 
-## **Why Do People Continue to Look?**
+### **Why People Continue to Look**
 
-Leadership persists because attention persists.
+Leadership persists because attention persists. But attention does not
+persist for one reason.
 
-But attention does not persist for a single reason.
+People continue to look when they believe authority is justified enough
+to follow. That belief is legitimacy.[^c6-weber]
 
-When others look to someone, they do so because legitimacy has formed.
-Over time, that legitimacy can renew, stabilize, harden, or detach.
+Legitimacy is not static. It can renew, transfer, harden, or detach from
+current reality. Different forms of legitimacy create different links
+between authority and accountability across time and leadership handoffs.
+Those forms also shape two vitality capacities: whether influence stays
+adjustable under pressure and whether coordinated action can scale without
+becoming brittle.
 
-Not all legitimacy is the same.
+### **Example-Based Legitimacy**
 
-Different forms preserve different relationships between authority and
-accountability.
+People look because visible behavior supports the claim to lead.
 
-This chapter examines four structural forms of legitimacy.
+Actions match language. Harm is addressed in view. Correction changes
+future behavior. Influence remains earned in real time.
 
-## **1️⃣ Example-Based Legitimacy**
+This form is the most renewal-friendly because it must be repeatedly
+reproduced through conduct.
 
-People look because the leader’s visible actions align with stated
-values and produce credible outcomes.
+### **Procedural Legitimacy**
 
-Authority renews through example.
+People look because authority is conferred and constrained by process.
 
-- Actions match words.
+Election, appointment, rank, office, and succession can stabilize
+direction across time. Process makes continuity possible beyond any
+single person.
 
-- Harm is handled visibly.
+Procedural legitimacy can support vitality when real challenge is possible.
+When process becomes symbolic, it can hide decay.
 
-- Correction alters behavior.
+### **Office-Based Legitimacy**
 
-- Influence remains earned.
+People look because permission attaches to the office itself.
 
-Example-based legitimacy is dynamic.
+Office-based legitimacy protects continuity at scale. It also allows
+authority to be inherited even when current behavior is weaker than the
+founding example.
 
-It must be renewed.
+This is where transfer risk rises: authority travels forward by default,
+while accountability often remains tied to earlier decisions.
 
-If the example weakens, attention fades.
+### **Sacralized Legitimacy**
 
-This is high vitality.
+Authority persists and becomes morally exempt from ordinary challenge.
 
-## **2️⃣ Institutional Legitimacy**
+Sacralized legitimacy grows through fear of dissent, identity fusion,
+narrative closure, and social penalties for correction.[^c6-arendt]
 
-People look because the role carries recognized authority.
+From the inside, sacralization can feel like unity. From the outside, it
+can look like strength. Structurally, it is decay because critique no
+longer changes direction.
 
-This includes:
+### **How Legitimacy Transfers and Shifts**
 
-- Elected office.
+A common arc is:
 
-- Appointment through process.
+Example-based -> Procedural -> Office-based -> Sacralized
 
-- Military rank.
+This movement is not inevitable, but it is common. Groups that stay adaptive find
+ways to cycle back toward example-based renewal before sacralization
+hardens.
 
-- Corporate role.
+Crisis periods are especially important for transfer dynamics: they can
+expand office-based authority quickly, while emergency permissions are
+often harder to contract later.
 
-- Religious succession.
+### **Selective Followership as a Probe**
 
-Institutional legitimacy stabilizes direction.
+Selective followership helps reveal which form of legitimacy is active.
 
-It allows authority to persist beyond personality.
-
-But institutional legitimacy does not guarantee renewal.
-
-If example weakens, the institution may continue to command attention —
-but vitality depends on what happens beneath it.
-
-Institutional legitimacy is neutral.
-
-It can support renewal or mask decay.
-
-## **3️⃣ Sedimented Legitimacy**
-
-People look because of accumulated history.
-
-- “This organization has always led.”
-
-- “They built this.”
-
-- “That family has always represented us.”
-
-- “This is how it’s done.”
-
-Sedimented legitimacy forms through narrative and time.
-
-It is not necessarily reverent.
-
-It is habitual.
-
-It carries inertia.
-
-Sediment can stabilize institutions during transition.
-
-But it can also delay correction.
-
-Vitality weakens when historical memory replaces present renewal.
-
-## **4️⃣ Insulated Legitimacy**
-
-Authority persists despite weakened renewal.
-
-Insulation can form through:
-
-- Reverence.
-
-- Identity fusion.
-
-- Fear of dissent.
-
-- Structural protection.
-
-- Narrative enclosure.
-
-- Suppression of correction.
-
-In insulated legitimacy, critique no longer meaningfully alters
-authority.
-
-This is decay.
-
-Insulation may appear strong.
-
-It may even appear unified.
-
-But vitality declines because renewal has slowed or stopped.
-
-## **Structural Arc**
-
-Legitimacy often moves through these forms over time:
-
-Example-Based → Institutional → Sedimented → Insulated
-
-This progression is not inevitable.
-
-But it is common.
-
-Vitality depends on whether authority can return to example-based
-renewal.
-
-When it cannot, authority may persist — but accountability weakens.
-
-## **Selective Followership as a Legitimacy Probe**
-
-Selective followership is not a side phenomenon. It is diagnostic.
-
-When people can disagree openly while remaining inside shared purpose,
+If people can disagree openly while staying inside shared purpose,
 legitimacy is likely renewing.
 
-When people comply performatively and diverge privately, legitimacy is
-likely hardening toward insulation.
+If people comply publicly but diverge privately, legitimacy is likely
+hardening toward office-based or sacralized forms. In that state, surface
+order can hide deeper trust loss.
 
-This chapter should treat selective followership as a practical test
-across all four legitimacy forms.
+### **Legitimacy and Accountability**
 
-## **Connection to the Larger Argument**
+A leader can retain attention after legitimacy weakens. Titles persist.
+Narratives persist. Habits persist.
 
-Return to the definition:
+The practical question is whether authority remains accountable to those
+affected by its decisions.
 
-> A leader is someone others look to when deciding what to do next.
+If legitimacy cannot be renewed through visible correction, influence may
+continue but decay deepens.
 
-The question is not whether others look.
+### **Connection to Chapter 7**
 
-The question is why they continue to look.
+If legitimacy asks why people continue to look, circulation asks whether
+influence can move both ways: outward from formal leaders and back through
+people who temporarily step in to lead when the moment requires it.
 
-Legitimacy determines whether leadership renews or decays.
+Chapter 7 turns to that shared return-and-step-in path.
+
+> "Legitimacy is not proven once; it is renewed or weakened by repeated contact with correction."
+
+[^c6-weber]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
+[^c6-arendt]: Hannah Arendt, "What Is Authority?" in *Between Past and Future* (New York: Viking Press, 1961).

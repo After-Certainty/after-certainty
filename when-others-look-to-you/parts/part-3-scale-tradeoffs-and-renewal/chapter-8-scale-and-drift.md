@@ -20,6 +20,18 @@ At institutional scale:
 
 Scale does not cause decay, but it amplifies risk.
 
+This chapter should explicitly use the two vitality capacities:
+
+- **Scalability:** can coordinated action grow in reach?
+- **Adjustability:** can influence still change direction under pressure?
+
+Use these capacities to distinguish four practical states at scale:
+
+- **Vital:** high scalability and high adjustability
+- **Nimble:** lower scalability and high adjustability
+- **Brittle:** high scalability and low adjustability
+- **Stagnant:** low scalability and low adjustability
+
 ## **Example-Based Legitimacy at Scale**
 
 At human scale:
@@ -38,7 +50,7 @@ Large systems require mediation to preserve example visibility.
 
 Without mediation, example decays into story.
 
-## **Institutional Legitimacy at Scale**
+## **Procedural Legitimacy at Scale**
 
 At human scale:
 
@@ -54,10 +66,10 @@ At institutional scale:
 
 - Office stabilizes continuity.
 
-Institutional legitimacy becomes necessary at scale — but also easier to
+Procedural legitimacy becomes necessary at scale — but also easier to
 hide behind.
 
-## **Sedimented Legitimacy at Scale**
+## **Office-Based Legitimacy at Scale**
 
 At human scale:
 
@@ -67,15 +79,15 @@ At institutional scale:
 
 - Powerful.
 
-- Tradition stabilizes authority.
+- Permission attaches to office.
 
-- Narrative accumulates.
+- Authority transfers by default.
 
-Sediment can preserve coherence across generations.
+Office-based legitimacy can preserve coherence across generations.
 
 But it can also slow correction.
 
-## **Insulated Legitimacy at Scale**
+## **Sacralized Legitimacy at Scale**
 
 At human scale:
 
@@ -91,7 +103,7 @@ At institutional scale:
 
 - Correction mechanisms weaken.
 
-Scale amplifies insulation.
+Scale amplifies sacralization risk.
 
 ## **Structural Insight**
 
@@ -99,11 +111,11 @@ Different legitimacy transfers respond differently to scale.
 
 Example-based legitimacy struggles at scale without circulation.
 
-Institutional legitimacy becomes necessary at scale but can mask decay.
+Procedural legitimacy becomes necessary at scale but can mask decay.
 
-Sediment stabilizes large systems but increases inertia.
+Office-based legitimacy stabilizes large systems but increases inertia.
 
-Insulation becomes easier as systems abstract.
+Sacralization becomes easier as systems abstract.
 
 Scale does not doom leadership.
 
@@ -115,5 +127,21 @@ At small scale, selective refusal is often visible and conversational.
 At large scale, it can become statistical and quiet: policy workarounds,
 local reinterpretations, metric gaming, and silent non-adoption.
 
-This chapter should distinguish healthy distributed judgment from
-large-scale trust fracture that hides behind formal compliance.
+This chapter should distinguish vital/nimble distributed judgment from
+brittle/stagnant trust fracture that hides behind formal compliance.
+
+## **Human Scale as a Contrast Lens**
+
+This chapter should make the human-scale contrast explicit, not implied.
+
+At minimum, include:
+
+- Why harm is harder to hide at human scale
+- Why boundary-setting is clearer and more personal at human scale
+- Why "effectiveness" at human scale looks like containment and endurance,
+  not dramatic transformation
+- Why scale increases the temptation to confuse administrative order with
+  moral seriousness
+
+The chapter should use this contrast to prepare an integrated view in
+Chapters 9-10.

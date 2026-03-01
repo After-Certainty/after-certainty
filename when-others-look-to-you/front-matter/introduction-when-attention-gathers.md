@@ -25,20 +25,21 @@ but structure often matters more.
 ### **The Central Tension**
 
 When others continue to look to someone, authority forms.
-Over time, that authority can move in two directions:
-
-- Toward renewal, where influence remains open to correction.
-- Toward decay, where influence hardens and feedback weakens.
+Over time, that authority can strengthen, or it can decay.
 
 Both can appear stable for a while.
-Only one remains reliably alive over time, because only one stays open to
-renewal.
+Over time, authority is usually more durable when it stays open to
+correction.
 
 ### **How This Book Proceeds**
 
 The chapters follow one structural throughline: Attention → Influence →
-Structure → Renewal or Decay. Each chapter examines one segment of that
-chain under pressure: harm, legitimacy, circulation, scale, and tradeoff.
+Structure → Vitality or Decay. Each chapter examines one segment of that
+chain under pressure: harm, effectiveness, legitimacy, circulation, scale,
+and tradeoff.
+
+Crisis is treated as a recurring thread across the manuscript, with its
+primary integration in Part III.
 
 The aim is not to condemn people. The aim is to clarify dynamics.
 

@@ -45,7 +45,7 @@ analysis and ties the scene back to the chapter's central claim.
 
 Example:
 
-### Vignette — The Meeting Pause
+### **The Meeting Pause**
 > The room goes quiet after a mistake is named. No one speaks first.
 > Then someone says, "Let's move on," and the room accepts it.
 

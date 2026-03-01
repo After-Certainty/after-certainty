@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Part I approved. Transitioning to Part II drafting workflow.
+Part I merged. Part II drafting workflow is now active.
 
 ## Current Part
 
@@ -19,6 +19,8 @@ Part I approved. Transitioning to Part II drafting workflow.
 - Front matter drafted in one pass for integrated review: Author's Note, Preface, Typographical Conventions, Introduction, Prologue, and Copyright.
 - Part I drafting audits completed: rule compliance, echo pass, editorial pass, literary-flow micro-pass, focused self-critique, citation pass, linkage check, and part-level coherence gate.
 - Part I explicitly approved by author.
+- Part I consolidated commit was completed and merged to `main`.
+- Part II branch created from latest `main`: `when-others-look-to-you-part-2`.
 
 ## Drafted Sections (Pending Approval)
 
@@ -76,9 +78,7 @@ Part I approved. Transitioning to Part II drafting workflow.
 
 ## Next Step
 
-Create one consolidated Part I commit and push `when-others-look-to-you-part-1`.
-
-Then begin Part II at:
+Begin Part II at:
 
 `parts/part-2-legitimacy-harm-and-circulation/bridge.md`
 

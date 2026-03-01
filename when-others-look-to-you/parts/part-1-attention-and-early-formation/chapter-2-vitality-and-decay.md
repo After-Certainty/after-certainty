@@ -2,36 +2,58 @@
 
 ### **Two Directions, One Structure**
 
-Leadership structures do not stand still.[^c2-adaptive-systems]
+Leadership patterns do not stand still.[^c2-adaptive-systems]
 
 Chapter 1 established the opening condition: attention can gather without
 guaranteeing obedience, and influence can be high while compliance is
 partial. The next question is what that influence repeatedly produces.
 
-Once attention gathers around someone, the surrounding system moves in
-one of two directions. It can remain open to correction, shared
-responsibility, and learning. Or it can narrow toward insulation,
-defensiveness, and protected error.[^c2-organizational-defenses]
+Once attention gathers around someone, the surrounding group moves in one
+of two directions. It can stay open to course correction and keep
+coordinated action coherent as reach grows. Or it can narrow toward
+insulation, where correction weakens and reach starts to break down.[^c2-organizational-defenses]
 
-This chapter calls those directions vitality and decay.
+These two directions are vitality and decay.
 
-These describe how a system behaves, not whether a leader is good or bad. A leader can have
+These describe how a group behaves, not whether a leader is good or bad. A leader can have
 good intentions and still produce decay. A leader can carry personal
 flaws and still sustain vitality. The distinction is not about purity.
-It is about what the system does when pressure rises.
+It is about what the group does when pressure rises.
+
+Vitality and decay are structural descriptions, not moral rankings of
+leaders or followers.
+
+A practical way to read vitality and decay is to track two capacities:
+scalability and adjustability.
+
+- **Scalability:** can coordinated action grow in reach?
+- **Adjustability:** can influence change direction when reality pushes back?
+
+Decay appears when either capacity shrinks.
+
+These capacities create four practical states:
+
+- **Vital:** high scalability and high adjustability.
+- **Nimble:** lower scalability and high adjustability.
+- **Brittle:** high scalability and low adjustability.
+- **Stagnant:** low scalability and low adjustability.
+
+Vital and nimble sit on the vitality side. Brittle and stagnant sit on the
+decay side.
 
 ### **What Vitality Looks Like**
 
-Vitality appears when influence stays open to correction.[^c2-high-reliability]
+Vitality appears when influence can sustain coordinated action as reach
+grows.[^c2-high-reliability]
 
 People closest to consequences can still speak. Disagreement is possible
 without social exile. Early warnings are not treated as betrayal.
 Mistakes are surfaced before they become identity threats.
 
-Vital systems do not avoid failure. They shorten the time between signal
-and response. They correct earlier, at lower cost, with less theater.
+High-vitality groups do not avoid failure. They shorten the time between signal
+and response. They correct earlier, at lower cost, with less drama.
 
-In these systems, authority does not disappear. It becomes more precise.
+In these groups, authority does not disappear. It becomes more precise.
 Responsibility is clear. Escalation paths are clear. Repair is clear.
 People know who must decide, and they also know how decision-makers can
 be challenged when needed.[^c2-voice-and-correction]
@@ -42,16 +64,21 @@ apparent inefficiency is often what prevents larger collapse later.
 
 ### **What Decay Looks Like**
 
-Decay appears when influence becomes insulated from correction.[^c2-groupthink]
+Decay appears when one or both capacities shrink: influence no longer
+changes direction under pressure, coordinated action no longer sustains
+reach, or both.[^c2-groupthink]
 
 People stop surfacing inconvenient information. Errors are reframed as
 exceptions. Harm is translated into abstract language and moved away from
-decision-makers. The system preserves confidence by suppressing
+decision-makers. The group preserves confidence by suppressing
 contradiction.
 
 Decay rarely announces itself. It is assembled through ordinary choices:
-who gets interrupted, who gets promoted, which metrics count, which
+who gets interrupted, who gets promoted, which measures count, which
 stories are repeated, which failures are forgiven, and which are hidden.
+
+Some decaying groups still scale for long periods. What drops first is
+usually revisability.
 
 Over time, the structure learns a dangerous lesson: image protection is
 more important than correction. Once that lesson settles, bad outcomes
@@ -65,10 +92,11 @@ becomes smoother. But permeability falls, and the cost of truth rises.
 
 Vitality and decay create different cost patterns over time.
 
-Vital systems accept small costs early. They absorb discomfort,
-reputation risk, and rework while problems are still tractable.
+High-vitality groups accept small costs early. They absorb discomfort,
+reputation risk, and rework while problems are still tractable, protecting
+both scalability and adjustability.
 
-Decaying systems defer those costs. They preserve short-term smoothness,
+Decaying groups defer those costs. They preserve short-term smoothness,
 then pay later in larger forms: preventable harm, brittle coordination,
 high-trust collapse, and expensive repair.
 
@@ -79,13 +107,14 @@ Decay tends to borrow against the future.[^c2-normal-accidents]
 
 One practical test is harm allocation.
 
-In vital systems, those with authority are more likely to absorb a
+In high-vitality groups, those with authority are more likely to absorb a
 portion of the cost of their own decisions. They do not always absorb all
 of it, but there is visible linkage between decision rights and
 accountability.
 
-In decaying systems, costs move downward or outward. Frontline people,
-customers, or peripheral groups absorb the effects, while central
+In decaying groups, costs move downward or outward. Those closest to the
+consequences, people affected by the decision, or peripheral groups absorb
+the effects, while central
 decision-makers preserve narrative control. This displacement is often
 framed as necessity, but repeated displacement is an early warning,
 not an unfortunate accident.
@@ -94,14 +123,14 @@ not an unfortunate accident.
 
 Not all refusal means disorder.
 
-In vital systems, selective refusal can function as correction. People can
+In high-vitality groups, selective refusal can function as correction. People can
 say, "I agree with the goal, but not this method," without becoming
 enemies of the group. That kind of bounded resistance protects judgment
 and keeps authority connected to consequences.
 
-In decaying systems, selective refusal turns covert. People perform
+In decaying groups, selective refusal turns covert. People perform
 agreement while quietly routing around decisions they do not trust. The
-organization still appears aligned, but shared reality weakens.
+group still appears aligned, but shared reality weakens.
 
 The same behavior can signal different things depending on structure.
 Open selective dissent often indicates vitality. Hidden selective
@@ -130,7 +159,7 @@ Three indicators usually appear before obvious breakdown:
 - **Learning collapse:** known issues repeat without durable correction.
 
 None of these proves failure by itself. But together they indicate that
-the system is drifting from vitality toward decay.
+the group is drifting from vitality toward decay.
 
 ### **A Practical Discipline**
 

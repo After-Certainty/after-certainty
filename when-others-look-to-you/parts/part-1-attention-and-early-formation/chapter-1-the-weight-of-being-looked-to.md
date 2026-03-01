@@ -84,7 +84,7 @@ unchallenged story.[^c1-ordinary-administration]
 
 When others are looking, very little is neutral.
 
-### **The Structural Question**
+### **The Core Question**
 
 The question is less whether others will look, and more what happens
 next.
