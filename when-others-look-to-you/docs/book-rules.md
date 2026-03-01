@@ -182,18 +182,52 @@ If removing a line break strengthens coherence, remove it.
 
 - Do not use bold formatting inside pull-quotes.
 
+- Pull-quotes must match the chapter's actual evidence posture; avoid
+  absolute claims unless the chapter explicitly justifies that confidence.
+
+- Prefer calibrated wording in pull-quotes (for example: "often," "can,"
+  "tends to") when claims are pattern-level rather than universal.
+
 ### **Vignette Convention**
 
 - Vignettes are optional and should be used selectively to make abstract claims concrete.
 
 - Start each vignette with a literal sub-heading in this format:
-  `### **Vignette — <short title>**`.
+  `### **<short title>**`.
+
+- Do not include the word "Vignette" in the sub-heading; rely on typography
+  (heading plus blockquote scene text) for visual distinction.
 
 - Vignette scene text should be set as blockquote lines (`>`) so it is visually distinct from analytical prose.
+
+- Keep the sub-heading outside the blockquote; only scene text should be blockquoted.
 
 - Keep vignettes concise (typically 1-3 short paragraphs) and avoid turning them into standalone mini-chapters.
 
 - Immediately after each vignette, return to normal prose and tie the scene back to the active structural claim.
+
+- Domain-specific language is allowed inside vignette scene text when it
+  improves realism and clarity.
+
+- Outside vignette scene blocks, default to domain-agnostic wording so
+  claims travel across contexts (for example: family, civic, religious,
+  political, organizational).
+
+- If domain-specific terms are used in non-vignette prose, use them only
+  when the chapter's claim depends on that domain and name that dependency
+  clearly.
+
+- Domain-specific language is also allowed in clearly signposted
+  concrete-example passages (for example, short runs of illustrative
+  examples) when domain realism materially improves comprehension.
+
+- Vignette domains must be intentionally diverse across the manuscript; avoid repeating the same domain for multiple vignettes unless the repetition is structurally necessary.
+
+- If a domain is reused, include a brief drafting note in `docs/status.md` explaining why reuse clarifies a distinct concept rather than repeating an example pattern.
+
+- Prefer domain spread that improves conceptual clarity (for example: family/household, healthcare, education, civic/government, military, software/product teams, manufacturing/operations, faith/community organizations).
+
+- Use each vignette to illuminate a different structural mechanism, not just a different storyline in the same domain.
 
 ## **Vocabulary Constraints**
 
@@ -216,6 +250,47 @@ Prefer:
 - Structurally precise but accessible phrasing.
 
 - Concrete examples before abstraction.
+
+### **Domain-Language Guardrail**
+
+- Keep analytic prose domain-agnostic by default.
+
+- Prefer universal role language in analytic prose (for example: "people
+  affected by the decision," "those closest to the consequences,"
+  "those making the decision") over domain-bound terms when no specific
+  domain is required.
+
+- Avoid business-specific shorthand in analytic prose unless the section
+  is explicitly business-specific and that specificity is necessary to the
+  claim.
+
+- Exception: in concrete-example passages, domain-specific wording is
+  acceptable when it clarifies the point faster than a domain-agnostic
+  substitute and does not overtake the chapter's overall universality.
+
+- Exception (protected illustrative run): a brief, intentionally
+  mixed-domain or domain-leaning example sequence in non-vignette prose is
+  allowed when it is clearly functioning as illustration rather than
+  analytic argument.
+
+- If a concrete-example run is intentionally preserved for voice, rhythm,
+  or recognizability (for example: "A quarter closes strong. A campaign
+  lands. A crisis appears contained."), treat it as protected wording and
+  do not rewrite it in later audits unless the author explicitly requests a
+  change.
+
+- Outside vignette and clearly signposted concrete-example passages,
+  domain-heavy shorthand should be treated as a rewrite trigger, not a
+  stylistic preference.
+
+- During audit, any domain-heavy term found in non-vignette prose must be
+  dispositioned as either:
+  - Keep-Protected-Example (author-approved illustrative wording),
+  - Keep (justified by chapter-specific dependency), or
+  - Rewrite (replace with domain-agnostic wording).
+
+- If "Keep" is chosen, include a one-line rationale in the section audit
+  summary before approval.
 
 ### **Book-Identity Terminology Guardrail**
 
@@ -257,6 +332,37 @@ The book must:
 - Avoid partisan implication.
 
 The book analyzes structure, not people.
+
+### **Vitality/Decay Neutrality Guardrail**
+
+- Treat vitality and decay as structural descriptors, not moral verdicts.
+
+- Do not equate vitality with moral goodness or decay with moral evil.
+
+- Prefer structural wording (for example: "more revisable," "more
+  insulated," "more one-directional," "more open to correction") over
+  moralized shorthand (for example: "healthier," "better people,"
+  "worse people") when describing vitality/decay dynamics.
+
+- In plain-language revisions, preserve neutrality: simplify wording
+  without converting structural claims into moral praise or blame.
+
+### **Vitality/Decay Canonical Lexicon**
+
+- Use vitality/decay as umbrella directions.
+
+- Use these two capacities when precision is needed:
+  - **Scalability**: can coordinated action grow in reach?
+  - **Adjustability**: can influence change direction when reality pushes back?
+
+- Use these four state terms for directional classification:
+  - **Vital**: high scalability, high adjustability
+  - **Nimble**: lower scalability, high adjustability
+  - **Brittle**: high scalability, low adjustability
+  - **Stagnant**: low scalability, low adjustability
+
+- Prefer capacity words when discussing one dimension only; prefer state
+  words when both dimensions are implied.
 
 ## **Universality Constraint**
 
@@ -405,6 +511,19 @@ Not a person trying to win.
 - Avoid AI-directed phrasing in manuscript prose (for example: "check," "validate," "run pass," "ensure compliance").
 
 - Keep operational instructions in `docs/book-rules.md`, `docs/drafting-process.md`, and `docs/status.md` only.
+
+### **Meta-Language Guardrail (Manuscript Prose)**
+
+- In reader-facing manuscript prose, avoid meta/book-process wording such
+  as "this chapter," "this section," "in this book," "draft," "workflow,"
+  or "process" when making analytical claims.
+
+- Prefer direct claim language over structural self-reference (for example:
+  "Selective followership matters when judging effectiveness," not
+  "Selective followership matters in this chapter.").
+
+- Exception: explicit navigation/handoff lines and headings are allowed
+  when they orient the reader between sections or chapters.
 
 ## **Footnote and Citation Rules**
 
