@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc docx-to-md md-to-docx import-docx export-docx export-all-docx clean-import-md
+.PHONY: help check-pandoc docx-to-md md-to-docx import-docx import-docx-dir export-docx export-all-docx clean-import-md
 
 PANDOC ?= pandoc
 
@@ -9,6 +9,7 @@ help:
 	@echo "  make docx-to-md IN=path/to/input.docx [OUT=path/to/output.md]"
 	@echo "  make md-to-docx IN=path/to/input.md [OUT=path/to/output.docx]"
 	@echo "  make import-docx"
+	@echo "  make import-docx-dir DIR=path/to/folder [OVERWRITE=1]"
 	@echo "  make export-docx DIR=path/to/book-folder"
 	@echo "  make export-all-docx"
 	@echo "  make clean-import-md"
@@ -16,6 +17,8 @@ help:
 	@echo "Notes:"
 	@echo "  - If OUT is omitted, output is created next to IN."
 	@echo "  - import-docx converts every ./**/import.docx to ./**/import.md."
+	@echo "  - import-docx-dir converts every .docx under DIR to side-by-side .md."
+	@echo "  - import-docx-dir skips existing .md files unless OVERWRITE=1."
 	@echo "  - export-docx combines DIR/index.md plus linked .md files into DIR/export.docx."
 	@echo "  - export-all-docx runs export-docx for every ./**/index.md."
 	@echo "  - clean-import-md deletes every ./**/import.md file."
@@ -54,6 +57,24 @@ import-docx: check-pandoc
 		fi; \
 		if [ -f "$$index" ]; then \
 			echo "Skipped $$file (index exists: $$index)"; \
+			continue; \
+		fi; \
+		"$(PANDOC)" "$$file" -t gfm -o "$$out"; \
+		echo "Created $$out"; \
+	done
+
+import-docx-dir: check-pandoc
+	@test -n "$(DIR)" || { echo "Usage: make import-docx-dir DIR=path/to/folder [OVERWRITE=1]"; exit 1; }
+	@test -d "$(DIR)" || { echo "Error: directory not found: $(DIR)"; exit 1; }
+	@files="$$(find "$(DIR)" -type f -name '*.docx')"; \
+	if [ -z "$$files" ]; then \
+		echo "No .docx files found under $(DIR)."; \
+		exit 0; \
+	fi; \
+	echo "$$files" | while IFS= read -r file; do \
+		out="$${file%.docx}.md"; \
+		if [ -f "$$out" ] && [ "$(OVERWRITE)" != "1" ]; then \
+			echo "Skipped $$file (already exists: $$out)"; \
 			continue; \
 		fi; \
 		"$(PANDOC)" "$$file" -t gfm -o "$$out"; \
