@@ -6,7 +6,14 @@ This document defines the drafting workflow for building the book in a structure
 
 ## Branch and PR Workflow (Applies Throughout)
 
-- Use one branch per part, named `when-others-look-to-you-part-N` where `N` is the part number.
+- Use one branch per part.
+- Branch naming convention is mandatory: `<book-slug>-part-<N>`.
+- For this manuscript, `<book-slug>` is `when-others-look-to-you`.
+- Part branch names for this manuscript must therefore be:
+  - `when-others-look-to-you-part-1`
+  - `when-others-look-to-you-part-2`
+  - `when-others-look-to-you-part-3`
+- `<N>` is the numeric part number (no word forms such as `one`).
 - Create each part branch from the latest `main` before drafting that part.
 - Keep all chapter (and bridge, if present) work for that part on its corresponding part branch.
 - Do not commit per chapter or per bridge.

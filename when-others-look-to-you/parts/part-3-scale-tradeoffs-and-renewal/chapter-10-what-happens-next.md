@@ -16,6 +16,9 @@ The question is what happens when they do.
 
 - Does circulation narrow?
 
+- Does selective followership remain a correction channel, or become
+  silent fracture?
+
 Vitality is not permanence.
 
 Vitality is renewal under attention.

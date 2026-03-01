@@ -2,21 +2,23 @@
 
 ## Current Phase
 
-Part-at-a-time drafting loop active. Front matter is in batch review.
+Part I approved. Transitioning to Part II drafting workflow.
 
 ## Current Part
 
-`front-matter/*` (batched review set)
+`parts/part-2-legitimacy-harm-and-circulation/*` (next active drafting set)
 
 ## In Progress
 
 - `skeleton.md` was refactored into `index.md` with a full manuscript file graph.
 - Front matter, part bridges, chapters, and back matter are now split into separate markdown files.
-- Chapter 1 was promoted from the former sample chapter into Part I as the current drafting baseline.
+- Part I bridge and Chapters 1-3 are now drafted in full.
 - `docs/sample-chapter.md` was retired to avoid duplicate source-of-truth drift.
 - Structural throughline is now tracked as a rule constraint in `docs/book-rules.md` (not back matter).
 - Book rules expanded for sub-headings, chapter-end pull-quotes, footnote conventions, citation density guidance, and source-lineage/originality guardrails.
 - Front matter drafted in one pass for integrated review: Author's Note, Preface, Typographical Conventions, Introduction, Prologue, and Copyright.
+- Part I drafting audits completed: rule compliance, echo pass, editorial pass, literary-flow micro-pass, focused self-critique, citation pass, linkage check, and part-level coherence gate.
+- Part I explicitly approved by author.
 
 ## Drafted Sections (Pending Approval)
 
@@ -27,13 +29,16 @@ Part-at-a-time drafting loop active. Front matter is in batch review.
 - `front-matter/introduction-when-attention-gathers.md`
 - `front-matter/prologue.md`
 - `front-matter/copyright.md`
-- `parts/part-1-attention-and-early-formation/chapter-1-the-weight-of-being-looked-to.md` (draft baseline with footnotes and pull-quote)
+
+## Approved Sections
+
+- `parts/part-1-attention-and-early-formation/bridge.md`
+- `parts/part-1-attention-and-early-formation/chapter-1-the-weight-of-being-looked-to.md`
+- `parts/part-1-attention-and-early-formation/chapter-2-vitality-and-decay.md`
+- `parts/part-1-attention-and-early-formation/chapter-3-why-we-misjudge-leaders.md`
 
 ## Structure Established (Scaffolded Sections)
 
-- `parts/part-1-attention-and-early-formation/bridge.md`
-- `parts/part-1-attention-and-early-formation/chapter-2-vitality-and-decay.md`
-- `parts/part-1-attention-and-early-formation/chapter-3-why-we-misjudge-leaders.md`
 - `parts/part-2-legitimacy-harm-and-circulation/bridge.md`
 - `parts/part-2-legitimacy-harm-and-circulation/chapter-4-harm-under-influence.md`
 - `parts/part-2-legitimacy-harm-and-circulation/chapter-5-effectiveness-and-its-illusions.md`
@@ -71,12 +76,12 @@ Part-at-a-time drafting loop active. Front matter is in batch review.
 
 ## Next Step
 
-Review and revise front matter batch (`front-matter/*`) until explicit approval.
+Create one consolidated Part I commit and push `when-others-look-to-you-part-1`.
 
-Then move to:
+Then begin Part II at:
 
-`parts/part-1-attention-and-early-formation/bridge.md`
+`parts/part-2-legitimacy-harm-and-circulation/bridge.md`
 
 ## Open Decisions / Questions
 
-- Sequential drafting order confirmed after front matter: Part I bridge first, then Chapter 2.
+- None currently open.

@@ -54,8 +54,24 @@ the more influence consolidates. The more influence consolidates, the
 more people look. Authority emerges from repetition.[^c1-legitimacy-and-repetition]
 
 Most leaders believe they are acting for good. That belief is not
-unusual. What matters is what happens structurally when others begin to
+unusual. What matters is what happens in practice when others begin to
 orient around them.
+
+### **Attention Is Not Obedience**
+
+Being looked to does not mean being obeyed.
+
+People often follow selectively. They accept direction in one domain and
+withhold it in another. They nod in the meeting and adapt downstream.
+They respect a leader's intent while quietly resisting a specific
+instruction that feels unsafe, ungrounded, or illegitimate.[^c1-selective-followership]
+
+Sometimes the response is stronger. Under pressure, people may move into
+reflexive opposition, doing the opposite of what they are told as a way
+to protect agency.[^c1-reactance]
+
+This matters because influence can be high while compliance is partial.
+Attention gathers first. Interpretation comes next.
 
 ### **Ordinary Decisions, Structural Consequences**
 
@@ -73,11 +89,14 @@ When others are looking, very little is neutral.
 The question is less whether others will look, and more what happens
 next.
 
-Does influence remain permeable to correction? Does belief renew through
-example? Does authority drift into insulation?[^c1-correction-and-insulation]
+Does influence stay open to correction? Does belief renew through
+example? Does authority drift toward insulation?[^c1-correction-and-insulation]
 
 Leadership begins when attention gathers. Vitality or decay begins with
 what follows.
+
+Chapter 2 names those two paths directly and shows how they appear before
+obvious success or failure.
 
 > "When others look to you, your posture becomes part of their world."
 
@@ -87,5 +106,7 @@ what follows.
 [^c1-norm-formation]: Robert B. Cialdini, Raymond R. Reno, and Carl A. Kallgren, "A Focus Theory of Normative Conduct," *Journal of Personality and Social Psychology* 58, no. 6 (1990): 1015-1026.
 [^c1-silence-and-accountability]: Amy C. Edmondson, "Psychological Safety and Learning Behavior in Work Teams," *Administrative Science Quarterly* 44, no. 2 (1999): 350-383.
 [^c1-legitimacy-and-repetition]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
+[^c1-selective-followership]: Michael Uhl-Bien, Ronald E. Riggio, Kelly Lowe, and Gerard B. Carsten, "Followership Theory: A Review and Research Agenda," *The Leadership Quarterly* 25, no. 1 (2014): 83-104.
+[^c1-reactance]: Jack W. Brehm, *A Theory of Psychological Reactance* (New York: Academic Press, 1966).
 [^c1-ordinary-administration]: Hannah Arendt, *Eichmann in Jerusalem: A Report on the Banality of Evil* (New York: Viking Press, 1963).
 [^c1-correction-and-insulation]: Chris Argyris, *Overcoming Organizational Defenses* (Boston: Allyn and Bacon, 1990).

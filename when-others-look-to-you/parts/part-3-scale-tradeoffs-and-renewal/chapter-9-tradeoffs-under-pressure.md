@@ -10,5 +10,9 @@ This chapter explores structural tradeoffs:
 
 - Continuity and correction
 
+- Principled refusal and coordinated action
+
+- Open dissent and covert obstruction
+
 Every belief system faces these tensions. The danger emerges when
 insulation replaces renewal.

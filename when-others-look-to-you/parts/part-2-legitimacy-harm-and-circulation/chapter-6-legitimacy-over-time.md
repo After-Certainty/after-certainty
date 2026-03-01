@@ -138,6 +138,19 @@ renewal.
 
 When it cannot, authority may persist — but accountability weakens.
 
+## **Selective Followership as a Legitimacy Probe**
+
+Selective followership is not a side phenomenon. It is diagnostic.
+
+When people can disagree openly while remaining inside shared purpose,
+legitimacy is likely renewing.
+
+When people comply performatively and diverge privately, legitimacy is
+likely hardening toward insulation.
+
+This chapter should treat selective followership as a practical test
+across all four legitimacy forms.
+
 ## **Connection to the Larger Argument**
 
 Return to the definition:

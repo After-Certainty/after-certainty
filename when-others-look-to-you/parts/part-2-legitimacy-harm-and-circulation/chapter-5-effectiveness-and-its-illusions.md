@@ -12,4 +12,7 @@ The chapter explores:
 
 - Deferred effectiveness
 
+- Performative compliance vs real alignment (and how hidden refusal
+  distorts effectiveness signals)
+
 Results do not settle structural questions.
