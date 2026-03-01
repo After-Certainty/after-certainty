@@ -136,6 +136,16 @@ Clarity before cleverness.
 
 - Avoid visual fragmentation that resembles a manifesto or sermon.
 
+- Prefer fuller paragraphs over line-by-line emphasis, especially in front and back matter.
+
+- Even scene-based openings should favor coherent paragraph flow over sentence-by-sentence staccato, unless a brief staccato beat is structurally necessary.
+
+- Avoid repeating the same sentence opener three or more times in a row unless deliberate repetition is structurally essential.
+
+- When adjacent short sentences can be merged without losing clarity, prefer consolidation.
+
+- Selective bulleted lists are allowed when they materially improve scanability (for example, short sets of examples, contrasts, or structural options), but should not replace sustained prose as the default mode.
+
 Prose should feel breathable but grounded — not staccato.
 
 ### **Rhythm Guidance**
@@ -145,6 +155,8 @@ Prose should feel breathable but grounded — not staccato.
 - Let emphasis emerge from structure, not formatting.
 
 - Do not manufacture gravity through spacing.
+
+- Read scene and argument passages aloud during revision; if they sound like line-by-line emphasis rather than sustained prose, rewrite into fuller paragraph flow.
 
 If removing a line break strengthens coherence, remove it.
 
@@ -170,6 +182,19 @@ If removing a line break strengthens coherence, remove it.
 
 - Do not use bold formatting inside pull-quotes.
 
+### **Vignette Convention**
+
+- Vignettes are optional and should be used selectively to make abstract claims concrete.
+
+- Start each vignette with a literal sub-heading in this format:
+  `### **Vignette — <short title>**`.
+
+- Vignette scene text should be set as blockquote lines (`>`) so it is visually distinct from analytical prose.
+
+- Keep vignettes concise (typically 1-3 short paragraphs) and avoid turning them into standalone mini-chapters.
+
+- Immediately after each vignette, return to normal prose and tie the scene back to the active structural claim.
+
 ## **Vocabulary Constraints**
 
 Avoid:
@@ -191,6 +216,12 @@ Prefer:
 - Structurally precise but accessible phrasing.
 
 - Concrete examples before abstraction.
+
+### **Book-Identity Terminology Guardrail**
+
+- When referring to this book's method, use "lens" (or "lenses"), not "framework."
+
+- "Framework" may be used for external theories, cited models, or source materials, but not as the identity label for this manuscript.
 
 If a concept is complex, define it in plain language first.
 
@@ -362,6 +393,18 @@ Not a person trying to win.
 - Keep framing durable and non-promotional.
 
 - Avoid manifesto tone in prefatory sections.
+
+- Favor sustained, literary paragraph flow over punchy, fragmented cadence.
+
+### **Reader-Facing Language Guardrail (Front and Back Matter)**
+
+- Front and back matter must read as book prose for readers, not internal process instructions.
+
+- Do not include drafting metadata, workflow commands, or editorial control language in reader-facing text (for example: "next step," "draft in sequence," "if this section does not belong, remove it").
+
+- Avoid AI-directed phrasing in manuscript prose (for example: "check," "validate," "run pass," "ensure compliance").
+
+- Keep operational instructions in `docs/book-rules.md`, `docs/drafting-process.md`, and `docs/status.md` only.
 
 ## **Footnote and Citation Rules**
 

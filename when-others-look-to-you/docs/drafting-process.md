@@ -9,9 +9,9 @@ This document defines the drafting workflow for building the book in a structure
 - Use one branch per part, named `when-others-look-to-you-part-N` where `N` is the part number.
 - Create each part branch from the latest `main` before drafting that part.
 - Keep all chapter (and bridge, if present) work for that part on its corresponding part branch.
-- When the author explicitly marks a chapter or bridge as approved, create a commit for that unit.
-- When the author explicitly marks a part as approved, push the part branch.
-- Do not push after every chapter/bridge commit unless explicitly requested.
+- Do not commit per chapter or per bridge.
+- When the author explicitly marks a full part as approved, create one consolidated commit for that part, then push the part branch.
+- For front matter, draft and review as one batch and create one consolidated commit when explicitly approved.
 - Open one pull request per part branch into `main` when that part is complete and approved.
 
 ## Step 1: Refactor the Skeleton
@@ -21,21 +21,25 @@ Start by refactoring `skeleton.md` into `index.md` and splitting the content int
 Requirements:
 
 - `index.md` becomes the hub document.
-- `index.md` links all manuscript units together (parts/bridges if used, plus chapters).
+- `index.md` links all manuscript sections together (parts/bridges if used, plus chapters).
 - The manuscript structure must follow the file and style rules in `docs/book-rules.md`.
 
-## Step 2: Draft Sequentially
+## Step 2: Draft Sequentially (Part-at-a-Time)
 
-Draft one unit at a time for review:
+Draft one full part at a time for review.
 
-- Either one part-level bridge section (if used)
-- Or one chapter
+Within the active part, progress in sequence:
 
-Only one unit is drafted at a time before moving forward.
+1. Part bridge (if used)
+2. Chapter 1 in the part
+3. Chapter 2 in the part
+4. Continue until all chapters in the part are drafted
 
-## Step 3: Rule Compliance Check After Each Draft
+Do not switch to the next part until the current part is fully approved.
 
-After drafting each chapter or part bridge, run a compliance check against `docs/book-rules.md`.
+## Step 3: Rule Compliance Check During Part Drafting
+
+After drafting each section within the active part (bridge/chapter), run a compliance check against `docs/book-rules.md`.
 
 For each check, provide:
 
@@ -46,7 +50,7 @@ For each check, provide:
 
 ## Step 4: Echo Pass (Repetition Check)
 
-After each draft, run an echo pass against previously drafted material to prevent heavy repetition.
+After each section draft in the active part, run an echo pass against previously drafted material to prevent heavy repetition.
 
 For each echo pass:
 
@@ -56,7 +60,7 @@ For each echo pass:
 
 ## Step 5: Editorial Pass (Clarity and Mechanics)
 
-After each draft, run an editorial pass focused on readability and standard prose quality.
+After each section draft in the active part, run an editorial pass focused on readability and standard prose quality.
 
 At minimum, check for:
 
@@ -66,9 +70,24 @@ At minimum, check for:
 - Punctuation and consistency issues that reduce clarity
 - Pull-quote formatting consistency when pull-quotes are used (for example, no bold text inside pull-quotes)
 
+## Step 5.5: Literary-Flow Micro-Pass
+
+After each section-level editorial pass, run a literary-flow micro-pass
+to prevent punchy fragmentation and preserve sustained prose rhythm.
+
+At minimum:
+
+- Merge unnecessary one-line paragraphs into fuller, coherent paragraphs.
+- Remove line breaks used only for emphasis.
+- Keep sentence rhythm varied while avoiding manifesto-style cadence.
+- Ensure front and back matter read as continuous reader-facing prose.
+- In scene-based openings, check for accidental staccato and merge into sustained paragraphs unless brief fragmentation is intentionally structural.
+- Flag repeated sentence stems (for example, "They learned..." repeated 3+ times) and consolidate unless repetition is deliberately structural.
+- Read revised passages aloud and rewrite any section that still sounds like line-by-line emphasis.
+
 ## Step 6: Focused Self-Critique Pass
 
-After each draft and editorial pass, run a focused self-critique before moving to review.
+After each section draft and editorial pass, run a focused self-critique before moving to review.
 
 At minimum:
 
@@ -104,49 +123,51 @@ At minimum:
 
 ## Step 9: Status Update
 
-After each draft/revision cycle, update `docs/status.md` so progress is explicit and easy to resume.
+After each section draft/revision cycle within the active part, update `docs/status.md` so progress is explicit and easy to resume.
 
 At minimum:
 
-- Current unit being drafted
-- Completed units
-- Next unit
+- Current part being drafted
+- Completed sections
+- Next part
 - Any open decisions or unresolved questions
 
 ## Step 10: Human Review and Revision Loop
 
-After each drafted unit and compliance summary:
+After each drafted section and compliance summary:
 
 - Pause for author review
 - Collect revision feedback
-- Apply revisions to that same unit
-- Repeat until the unit is approved
+- Apply revisions to that same section
+- Repeat until the section is approved
 
-Do not move to the next unit until revisions are complete and approved.
+Do not move to the next section until revisions are complete and approved.
 
-## Step 11: Move to Next Unit
+## Step 11: Move Through the Current Part
 
-Once a part bridge or chapter is approved, move to the next unit and repeat the same cycle:
+Once a section in the active part is approved, move to the next section in that same part and repeat the cycle:
 
 1. Draft
 2. Check against `docs/book-rules.md`
 3. Run echo pass against drafted material
 4. Run editorial pass
-5. Run focused self-critique pass
-6. Run citation pass
-7. Run linkage check
-8. Update `docs/status.md`
-9. Summarize alignment and quality findings
-10. Review
-11. Revise
-12. Approve
-13. If the author approves the unit, commit it on the current `when-others-look-to-you-part-N` branch
+5. Run literary-flow micro-pass
+6. Run focused self-critique pass
+7. Run citation pass
+8. Run linkage check
+9. Update `docs/status.md`
+10. Summarize alignment and quality findings
+11. Review
+12. Revise
+13. Approve
+14. If the section belongs to an in-progress part, keep iterating without committing yet
+15. When the full part is explicitly approved, create one consolidated part commit and push
 
-Continue until the full manuscript structure is complete.
+Continue until the full part is complete, then start the next part.
 
 ## Step 11.5: Part-Level Coherence Gate (Before Part Approval)
 
-After all units in a part are drafted and chapter/bridge-approved, run a part-level coherence pass before requesting part approval.
+After all sections in a part are drafted and approved, run a part-level coherence pass before requesting part approval.
 
 At minimum:
 

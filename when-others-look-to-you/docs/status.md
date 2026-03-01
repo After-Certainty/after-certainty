@@ -2,11 +2,11 @@
 
 ## Current Phase
 
-Step 1 skeleton refactor complete. Preparing Step 2 sequential drafting loop (unit-by-unit drafting and review).
+Part-at-a-time drafting loop active. Front matter is in batch review.
 
-## Current Unit
+## Current Part
 
-`front-matter/authors-note.md`
+`front-matter/*` (batched review set)
 
 ## In Progress
 
@@ -16,20 +16,21 @@ Step 1 skeleton refactor complete. Preparing Step 2 sequential drafting loop (un
 - `docs/sample-chapter.md` was retired to avoid duplicate source-of-truth drift.
 - Structural throughline is now tracked as a rule constraint in `docs/book-rules.md` (not back matter).
 - Book rules expanded for sub-headings, chapter-end pull-quotes, footnote conventions, citation density guidance, and source-lineage/originality guardrails.
+- Front matter drafted in one pass for integrated review: Author's Note, Preface, Typographical Conventions, Introduction, Prologue, and Copyright.
 
-## Completed Units
+## Drafted Sections (Pending Approval)
 
 - `index.md` (manuscript hub and canonical link graph)
-- `front-matter/introduction-when-attention-gathers.md`
-- `parts/part-1-attention-and-early-formation/chapter-1-the-weight-of-being-looked-to.md` (draft baseline with footnotes and pull-quote)
-
-## Structure Established (Scaffolded Units)
-
 - `front-matter/authors-note.md`
 - `front-matter/preface.md`
 - `front-matter/typographical-conventions.md`
+- `front-matter/introduction-when-attention-gathers.md`
 - `front-matter/prologue.md`
 - `front-matter/copyright.md`
+- `parts/part-1-attention-and-early-formation/chapter-1-the-weight-of-being-looked-to.md` (draft baseline with footnotes and pull-quote)
+
+## Structure Established (Scaffolded Sections)
+
 - `parts/part-1-attention-and-early-formation/bridge.md`
 - `parts/part-1-attention-and-early-formation/chapter-2-vitality-and-decay.md`
 - `parts/part-1-attention-and-early-formation/chapter-3-why-we-misjudge-leaders.md`
@@ -53,26 +54,28 @@ Step 1 skeleton refactor complete. Preparing Step 2 sequential drafting loop (un
 ## Process Rules Added
 
 - One branch and PR per part (`when-others-look-to-you-part-N`)
-- Chapter/bridge commits only after explicit author approval of that unit
+- No chapter/bridge commits during part drafting
+- One consolidated commit per approved part
 - Branch push only after explicit author approval of the full part
 - Part-level coherence gate required before requesting part approval
-- Rule compliance check after each draft against `docs/book-rules.md`
-- Echo pass after each draft
-- Editorial pass after each draft
-- Focused self-critique pass after editorial pass
-- Citation pass after each draft/revision
-- Linkage check after each draft/revision
+- Rule compliance check after each section draft against `docs/book-rules.md`
+- Echo pass after each section draft
+- Editorial pass after each section draft
+- Literary-flow micro-pass after each section editorial pass
+- Focused self-critique pass after each section editorial pass
+- Citation pass after each section draft/revision
+- Linkage check after each section draft/revision
 - Pull-quote check: each chapter ends with a pull-quote
 - Pull-quote formatting check: no bold text inside pull-quotes
-- Status update after each draft/revision cycle
+- Status update after each section draft/revision cycle
 
 ## Next Step
 
-`front-matter/authors-note.md`
+Review and revise front matter batch (`front-matter/*`) until explicit approval.
 
 Then move to:
 
-`front-matter/preface.md`
+`parts/part-1-attention-and-early-formation/bridge.md`
 
 ## Open Decisions / Questions
 
