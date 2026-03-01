@@ -108,3 +108,12 @@ Insulation becomes easier as systems abstract.
 Scale does not doom leadership.
 
 But it increases the structural work required to preserve vitality.
+
+## **Selective Followership at Scale**
+
+At small scale, selective refusal is often visible and conversational.
+At large scale, it can become statistical and quiet: policy workarounds,
+local reinterpretations, metric gaming, and silent non-adoption.
+
+This chapter should distinguish healthy distributed judgment from
+large-scale trust fracture that hides behind formal compliance.

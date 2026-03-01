@@ -15,4 +15,10 @@ The chapter examines:
 
 - Temporary contraction vs permanent insulation
 
+- Open selective dissent vs covert counter-signaling as circulation
+  indicators
+
+- Whether refusal remains corrigible (inside the system) or becomes
+  silent exit (outside the system)
+
 Circulation is the structural mechanism of vitality.
