@@ -4,47 +4,76 @@ Return to the definition:
 
 > A leader is someone others look to when deciding what to do next.
 
-The question is not whether others look.
+The final question is not whether others look. It is what that looking
+builds over time.
 
-The question is what happens when they do.
+### **The Integrated View**
 
-- Does harm normalize?
+Part II separated the lenses for clarity. Integration asks how they move
+together:
 
-- Does effectiveness mask brittle or stagnant drift?
+- **Harm:** where cost lands.
+- **Effectiveness:** what gets amplified.
+- **Legitimacy:** why people continue to look.
+- **Circulation:** whether correction can return to authority.
 
-- Does legitimacy fossilize?
+No lens is sufficient alone. A group can look effective while displacing
+harm. It can look legitimate while circulation narrows. It can report
+alignment while selective followership turns covert.
 
-- Does circulation narrow?
+A short set of cross-domain examples helps keep this concrete:
 
-- Does selective followership remain a correction channel, or become
-  silent fracture?
+- A household appears calm because one person absorbs conflict privately.
+- A civic office appears effective because complaints are rerouted rather
+  than resolved.
+- A congregation appears unified because disagreement moves off-record.
 
-Vitality is not permanence.
+Each case can look stable on the surface while the underlying structure
+drifts toward brittle or stagnant conditions.
 
-Vitality is sustained reach with usable adjustment under attention.
+### **Two Arcs**
 
-Use vitality/decay as umbrella directions and make state labels explicit
-where claims sharpen:
+Across lenses, two arcs become visible:
 
-- Vital and Nimble on the vitality side
-- Brittle and Stagnant on the decay side
+- **Unbounded arc:** authority travels farther than accountability.
+- **Bounded arc:** authority retains constraints and correction pathways.
 
-This chapter should function as the integrated model chapter for this
-manuscript.
+These are not personality types. They are structural trajectories.
 
-At minimum, synthesize:
+### **States Inside the Arcs**
 
-- Harm: where cost lands
-- Effectiveness: what gets amplified
-- Legitimacy: why people continue to look
-- Circulation: whether correction can return to authority
+Use vitality and decay as umbrella directions:
 
-Use this integration to distinguish two arcs:
+- **Vital** and **Nimble** sit on the vitality side.
+- **Brittle** and **Stagnant** sit on the decay side.
 
-- Unbounded arc (authority travels farther than accountability)
-- Bounded arc (authority retains constraints and correction pathways)
+Movement between states is possible. The issue is whether movement remains
+revisable.
 
-Close by setting up the epilogue:
+### **After Boundary Conditions Are Crossed**
 
-- What remains possible after key boundary conditions are crossed
-- What renewal looks like when reversal is partial, slow, or local
+When boundary conditions are crossed, full reversal is often unlikely in
+the near term.
+
+But partial repair is still possible:
+
+- reduce harm concentration,
+- reopen specific correction paths,
+- rebind authority to visible consequence,
+- prevent temporary exceptions from hardening into permanent baseline.
+
+Repair at this stage is usually uneven, local, and slow. That does not
+make it trivial. It makes it realistic.
+
+### **What Happens Next**
+
+What happens next depends less on one decision than on repeated choices
+about visibility, correction, and limits.
+
+Vitality is not permanence. It is sustained reach with usable adjustment
+under attention.
+
+The epilogue turns to the boundary condition directly: what remains
+possible when slowdown is still possible but full restoration is not.
+
+> "What follows attention is not fate. It is structure repeated."
