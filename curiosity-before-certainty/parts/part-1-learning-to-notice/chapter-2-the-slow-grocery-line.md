@@ -18,7 +18,7 @@ truth, but neither explains why the same weird outcome keeps happening in
 similar conditions.
 
 When I paid closer attention, the situation looked different. A line is
-not just a count of people. It is a mix of hidden factors: full
+more than a count of people. It is a mix of hidden factors: full
 carts versus baskets, price checks, payment issues, produce without
 stickers, loyalty apps that do not load, children helping bag groceries,
 and the cadence of the cashier.

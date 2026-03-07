@@ -2,11 +2,11 @@
 
 Most mystery stories make it look like detectives solve cases through
 sudden brilliance. One person stares at a wall, notices a tiny clue, and
-the entire truth appears. It is dramatic, but it is not usually how real
-investigation works.
+the entire truth appears. It is dramatic, but real investigation usually
+works differently.
 
 Real investigation is often slower and less glamorous. A detective starts
-with possibilities, not certainty. Then each interview, timeline check,
+with possibilities and open questions. Then each interview, timeline check,
 and physical detail narrows the field. The process is less "aha" and more
 "rule out."
 

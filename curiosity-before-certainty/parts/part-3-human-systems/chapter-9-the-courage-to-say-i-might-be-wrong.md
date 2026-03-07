@@ -20,22 +20,21 @@ freeze curiosity before it has a chance to work.
 
 A more helpful approach is to treat beliefs as working models, not
 identity badges. A working model should earn trust by predicting well and
-improving with evidence. When it fails, updating it is not betrayal. It is
-maintenance.
+improving with evidence. When it fails, updating it is maintenance.
 
 In practical terms, humility can be specific. You can say, "My current
 view is X, but I would change it if Y happened." You can ask, "What would
 count as evidence that I am wrong?" You can invite challenge from people
 who see the situation from different positions.
 
-This does not mean becoming indecisive or passive. You still act. You make
-the best decision available with current information. The difference is
-that you hold the decision loosely enough to revise, not as absolute truth.
+You can stay decisive and still revise. You make the best decision
+available with current information, then hold it loosely enough to update
+as evidence improves.
 
 Curiosity needs that kind of room. If every belief must be defended at all
 costs, learning slows down. If beliefs can be refined without shame,
-learning speeds up. "I might be wrong" is not the end of clear thinking.
-It is often where clearer thinking starts.
+learning speeds up. "I might be wrong" often marks the start of clearer
+thinking.
 
 In Part IV, we widen this from individual mindset to group structure and
 ask what curiosity looks like inside real leadership systems.

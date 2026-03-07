@@ -12,7 +12,7 @@ the model as a thinking partner, pushing, testing, and revising as new
 information appears.
 
 At first I thought the difference was mainly technical skill. Better
-prompts, better results. That matters, but it is not the full story. The
+prompts, better results. That matters, but it is only part of the story. The
 deeper difference is mindset: certainty-seeking versus curiosity-seeking.
 
 Certainty-seeking prompts often sound like, "Prove this point," "Show why
@@ -35,9 +35,9 @@ make our thinking habits visible in real time. That visibility is useful.
 It gives us a chance to choose curiosity deliberately instead of drifting
 into confirmation by default.
 
-As these tools become normal in daily life, the core skill is not just
-prompting. It is staying willing to revise. In that sense, AI does not
-solve uncertainty. It invites us to practice navigating it.
+As these tools become normal in daily life, the core skill goes beyond
+prompting. It is staying willing to revise. In that sense, AI invites us
+to practice navigating uncertainty.
 
 That practice depends on one sentence many of us resist saying out loud:
 "I might be wrong." The next chapter is about why that sentence matters.

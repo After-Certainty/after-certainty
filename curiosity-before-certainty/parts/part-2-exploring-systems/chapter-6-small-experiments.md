@@ -20,18 +20,17 @@ evidence where assumptions had gone stale.
 
 A useful experiment has a few qualities. It is specific. It is reversible.
 It has a short feedback cycle. And it asks a clear question: "If we change
-this one variable, what happens?" You are not trying to prove a worldview.
-You are trying to gather better evidence.
+this one variable, what happens?" You are testing a practical question and
+gathering better evidence.
 
 Many people resist this approach because it feels too modest. We are drawn
 to large transformations. But in complex environments, durable change often
 arrives through accumulated small wins. Each experiment updates your map.
 Each update improves the next move.
 
-This is how exploration works in unfamiliar terrain. You do not sprint
-blindly toward a distant point. You test footing, adjust direction, and
-keep moving with attention. Curiosity makes progress through contact, not
-through certainty.
+This is how exploration works in unfamiliar terrain. You move in measured
+steps, test footing, adjust direction, and keep moving with attention.
+Curiosity makes progress through contact and feedback.
 
 By now we have a practical loop: notice friction, ask a clearer question,
 test a bounded change, learn from the result. In the next part, we bring
