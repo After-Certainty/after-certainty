@@ -18,7 +18,7 @@ truth, but neither explains why the same weird outcome keeps happening in
 similar conditions.
 
 When I paid closer attention, the situation looked different. A line is
-not just a count of people. It is a sequence of hidden variables: full
+not just a count of people. It is a mix of hidden factors: full
 carts versus baskets, price checks, payment issues, produce without
 stickers, loyalty apps that do not load, children helping bag groceries,
 and the cadence of the cashier.
@@ -29,7 +29,7 @@ items. Sometimes I chose the cashier with the smoothest rhythm rather
 than the fewest customers. None of these worked perfectly. Together, they
 worked much better.
 
-That was my first practical encounter with system dynamics in daily life.
+That was my first practical encounter with system behavior in daily life.
 Complex systems rarely reward one-variable thinking. They respond to
 interactions, bottlenecks, and timing. The surface view can look simple
 while the underlying process is anything but.

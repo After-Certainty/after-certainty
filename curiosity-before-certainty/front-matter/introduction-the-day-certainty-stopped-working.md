@@ -94,7 +94,7 @@ systems you can explore.
 
 Over time I realized something that changed how I think about learning.
 Understanding the world isn’t really about having the right answers.
-It’s about staying curious long enough to learn.
+It is about staying curious long enough to learn.
 
 Curiosity often begins in a very simple moment. Something doesn’t quite
 make sense. You notice it. You wonder why. You test a guess and see what

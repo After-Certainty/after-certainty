@@ -11,7 +11,7 @@ and physical detail narrows the field. The process is less "aha" and more
 "rule out."
 
 That pattern appears in ordinary life too. When something breaks at work
-or home, we often jump to the most available story. We decide too early
+or home, we often jump to the first story that comes to mind. We decide too early
 why it happened, then search for details that confirm our first guess.
 That feels efficient, but it can lock us into the wrong trail.
 

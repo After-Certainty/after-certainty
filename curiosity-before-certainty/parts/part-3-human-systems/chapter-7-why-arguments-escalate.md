@@ -13,7 +13,7 @@ hears criticism, the first hears defensiveness, and within minutes both
 are reacting to tone rather than content. The original topic is still in
 the room, but it is no longer leading.
 
-Our first explanation is usually character-based. "They are stubborn."
+Our first explanation usually blames personality. "They are stubborn."
 "They are overreacting." Sometimes that is partly true. Often it misses
 the deeper dynamic: people are operating with different assumptions about
 what the conversation is for.

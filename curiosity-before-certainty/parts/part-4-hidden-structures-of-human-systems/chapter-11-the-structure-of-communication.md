@@ -7,7 +7,7 @@ relationship.
 
 You can see this in a simple team update. Two people present the same
 facts. One creates clarity; the other creates anxiety. The difference is
-not just vocabulary. It is signal quality: what is emphasized, what is
+not just vocabulary. It is signal quality in practice: what is emphasized, what is
 uncertain, what is named early, and what is hidden until late.
 
 My first explanation for miscommunication used to be "people are not
@@ -32,7 +32,7 @@ then, is partly a relationship outcome.
 
 Curiosity helps across all of this. It asks, "What did they likely hear?"
 "What context am I assuming?" "What signal am I sending unintentionally?"
-These questions reduce blame and increase precision.
+These questions reduce blame and make communication more precise.
 
 When communication becomes more observable, groups become easier to
 navigate. You see fewer conversations as fixed battles and more as systems

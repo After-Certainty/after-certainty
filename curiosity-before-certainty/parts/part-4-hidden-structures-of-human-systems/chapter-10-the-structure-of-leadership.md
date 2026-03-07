@@ -13,8 +13,8 @@ similar from outside. The internal dynamics are very different.
 
 One structural signal is how a group responds when harm appears. Do people
 near decision-making absorb some visible cost, or does cost get pushed
-downward to those with least power? Repeated displacement usually predicts
-drift, even when short-term outcomes look successful.
+downward to those with least power? When this happens repeatedly, teams
+usually drift, even when short-term outcomes look successful.
 
 Another signal is effectiveness over time. Some leaders can generate quick
 movement through pressure, but the group becomes brittle and dependent.
@@ -22,7 +22,7 @@ Others create conditions where more people can act with clarity. The first
 style can look strong in the moment. The second is usually stronger across
 longer horizons.
 
-Trust is another moving part. Trust is not just sentiment. It is a flow of
+Trust is another moving part. Trust is not just sentiment. It is the flow of
 practical confidence: who shares concerns early, who withholds bad news,
 who believes correction is possible, and who assumes feedback is risky.
 When trust narrows, information narrows with it.
