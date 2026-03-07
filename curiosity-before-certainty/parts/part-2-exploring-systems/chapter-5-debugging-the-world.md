@@ -17,8 +17,8 @@ live? What assumptions are implicit? Which components depend on timing?
 
 The first explanation is usually too simple. "The API is down." "The
 frontend is broken." "The user did something wrong." These guesses are
-rarely fully false, but they are rarely complete. Complex failures tend to
-cross boundaries.
+rarely fully false, but they are rarely complete. Complex failures often
+span several layers at once.
 
 Good debugging starts with small, testable steps. Reproduce the issue.
 Change one variable. Observe the result. Add instrumentation. Narrow the
@@ -31,7 +31,7 @@ friction is a bug worth tracing. In policy and process, predictable
 failure points are bugs worth tracing. The specifics change, but the
 curiosity posture is the same.
 
-The deeper lesson is gentle but powerful: breakdown is not just
+The practical lesson is simple: breakdown is not just
 inconvenience. It is information. When a system fails, it reveals where
 its structure is brittle, where assumptions are outdated, and where small
 repairs can create disproportionate gains.

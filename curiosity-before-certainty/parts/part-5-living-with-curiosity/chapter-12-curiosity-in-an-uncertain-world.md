@@ -12,8 +12,8 @@ instead of partial.
 
 Complex organizations add another layer. Decisions are distributed across
 teams, tools, and incentives that few people can see all at once. Local
-optimization can look successful while system-wide costs accumulate out of
-view. Curiosity is what helps reconnect those levels.
+optimization can look successful while hidden costs build elsewhere.
+Curiosity helps reconnect those levels.
 
 AI-assisted reasoning now sits inside this mix. These tools can accelerate
 learning, but they can also accelerate confident error. They increase the
@@ -23,7 +23,7 @@ less. Fast answers are useful only when paired with careful revision.
 In this world, curiosity is not a luxury trait. It is a civic skill. It
 helps citizens evaluate claims without collapsing into cynicism. It helps
 teams disagree productively. It helps leaders act decisively while staying
-open to correction. It helps individuals resist the pressure to perform
+open to correction. It helps individuals resist the pressure to pretend
 certainty at all times.
 
 The practice can stay simple. Notice what does not fit. Ask better

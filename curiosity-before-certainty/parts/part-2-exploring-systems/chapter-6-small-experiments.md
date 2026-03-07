@@ -6,7 +6,7 @@ real systems, that delay costs more than a small imperfect step would.
 
 Small experiments are how curiosity moves forward without pretending to
 know everything. They are low-risk tests designed to learn quickly. Not
-big declarations. Not identity-level commitments. Just deliberate probes.
+big declarations. Not major commitments. Just deliberate probes.
 
 If your commute is unreliable, a small experiment might be leaving ten
 minutes earlier for one week and comparing stress, not just arrival time.
@@ -21,7 +21,7 @@ evidence where assumptions had gone stale.
 A useful experiment has a few qualities. It is specific. It is reversible.
 It has a short feedback cycle. And it asks a clear question: "If we change
 this one variable, what happens?" You are not trying to prove a worldview.
-You are trying to get better signal.
+You are trying to gather better evidence.
 
 Many people resist this approach because it feels too modest. We are drawn
 to large transformations. But in complex environments, durable change often

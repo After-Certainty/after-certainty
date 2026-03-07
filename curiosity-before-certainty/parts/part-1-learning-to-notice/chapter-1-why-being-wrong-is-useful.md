@@ -21,7 +21,7 @@ That explanation felt comforting because it asked nothing from me.
 Unfortunately, it also taught me nothing. If every surprise is random,
 there is nothing to notice and nothing to improve.
 
-Curiosity invited a different response. Instead of only asking, "Why was
+Curiosity led to a different response. Instead of only asking, "Why was
 today worse?" I started asking, "What pattern might I be missing?" I kept
 small notes. I watched how timing changed flow by five- or ten-minute
 increments. I tested alternate routes without expecting a perfect answer.
@@ -31,10 +31,10 @@ sensitive. Small conditions pushed it into different states, and each
 state had its own rhythm. My wrong guesses were not proof that I was bad
 at thinking. They were evidence that my previous model was too simple.
 
-That shift matters beyond traffic. We often assume competence means being
-right early. In complex settings, competence is often the opposite: being
-willing to update quickly. A wrong guess can be the start of better
-understanding if we treat it as signal instead of embarrassment.
+That shift matters beyond traffic. We often assume skill means getting the
+answer right early. In messy situations, skill often means updating fast
+when new evidence appears. A wrong guess can start better understanding if
+we treat it as signal instead of embarrassment.
 
 The goal is not to avoid being wrong forever. The goal is to notice what
 the mismatch is trying to teach. Once you begin seeing wrong guesses as

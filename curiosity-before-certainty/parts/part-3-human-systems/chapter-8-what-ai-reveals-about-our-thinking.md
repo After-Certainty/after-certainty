@@ -13,7 +13,7 @@ information appears.
 
 At first I thought the difference was mainly technical skill. Better
 prompts, better results. That matters, but it is not the full story. The
-deeper difference is posture: certainty-seeking versus curiosity-seeking.
+deeper difference is mindset: certainty-seeking versus curiosity-seeking.
 
 Certainty-seeking prompts often sound like, "Prove this point," "Show why
 I am right," or "Give me the best argument against them." Curiosity-seeking
@@ -28,7 +28,7 @@ value comes less from any single output and more from the iterative loop.
 This is why AI can be such a clear mirror. It amplifies our cognitive
 habits. If we want quick certainty, it can help us feel certain faster. If
 we want better understanding, it can help us explore more angles with less
-friction. The tool is the same; the epistemic posture changes the result.
+friction. The tool is the same; our thinking posture changes the result.
 
 None of this means AI replaces human judgment. It does not. But it can
 make our thinking habits visible in real time. That visibility is useful.

@@ -25,12 +25,12 @@ maintenance.
 
 In practical terms, humility can be specific. You can say, "My current
 view is X, but I would change it if Y happened." You can ask, "What would
-count as disconfirming evidence?" You can invite challenge from people who
-see the system from different positions.
+count as evidence that I am wrong?" You can invite challenge from people
+who see the situation from different positions.
 
 This does not mean becoming indecisive or passive. You still act. You make
 the best decision available with current information. The difference is
-that you hold the decision with revisability, not with absolute certainty.
+that you hold the decision loosely enough to revise, not as absolute truth.
 
 Curiosity needs that kind of room. If every belief must be defended at all
 costs, learning slows down. If beliefs can be refined without shame,

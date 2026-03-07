@@ -23,16 +23,16 @@ drops, wind shifts, cloud textures, humidity changes. The system is
 complex, yet not featureless.
 
 Our first explanation for these cases is often "randomness." That word is
-sometimes correct, but we also use it when we simply have not looked long
-enough. Random can become a placeholder for "I do not yet see the
-pattern."
+sometimes correct, but we also use it when we have not looked long enough.
+In those moments, "random" can really mean "I do not yet see the pattern."
 
 Curiosity asks us to linger one step longer. Notice what repeats. Compare
 days that feel similar. Pay attention to transitions, not just outcomes.
 Try small predictions and see where they fail. Every mismatch sharpens the
 next observation.
 
-This is the point where many readers start feeling a change in posture.
+This is the point where many readers start feeling a shift in how they
+approach problems.
 You stop waiting for certainty before you engage. You engage first, and
 let clearer understanding emerge through contact with the system. The
 world starts to feel less like a locked box and more like a landscape
