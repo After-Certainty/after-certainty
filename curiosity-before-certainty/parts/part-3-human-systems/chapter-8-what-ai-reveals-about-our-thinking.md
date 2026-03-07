@@ -40,4 +40,4 @@ prompting. It is staying willing to revise. In that sense, AI invites us
 to practice navigating uncertainty.
 
 That practice depends on one sentence many of us resist saying out loud:
-"I might be wrong." The next chapter is about why that sentence matters.
+"I might be wrong." Next we look at why that sentence matters.

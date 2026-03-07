@@ -1,8 +1,8 @@
 # **Chapter 7 — Why Arguments Escalate**
 
-I used to think arguments escalated because one person refused to be
-reasonable. That explanation felt clean and emotionally satisfying,
-especially when I was sure I was the reasonable one.
+Many arguments look, at first glance, like one person refusing to be
+reasonable. That explanation can feel clean and emotionally satisfying,
+especially when you are sure you are the reasonable one.
 
 Then I noticed something that clashed with that view. Some conversations exploded
 even when both people were trying to help. Nobody entered the discussion
@@ -38,5 +38,5 @@ The gentle principle here is simple. Escalation is often a system effect
 more than a moral verdict. When assumptions stay invisible, conflict grows.
 When assumptions become visible, curiosity has room to work.
 
-In the next chapter, we look at a newer conversational system that makes
-these habits easy to see: everyday interaction with AI tools.
+Next we look at a newer conversational system that makes these habits easy
+to see: everyday interaction with AI tools.

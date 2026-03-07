@@ -40,5 +40,5 @@ Curiosity treats failure as useful data. Once you learn to debug one kind
 of system, you begin seeing the method
 everywhere.
 
-The next step is learning to act on that insight with low-risk moves:
-small experiments that trade certainty for faster learning.
+From here, we turn that insight into low-risk action: small experiments
+that trade certainty for faster learning.

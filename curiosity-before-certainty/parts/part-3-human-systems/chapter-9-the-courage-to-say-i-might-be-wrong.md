@@ -3,8 +3,9 @@
 There is a sentence that sounds small but can feel surprisingly hard to
 say: "I might be wrong."
 
-I used to hear that sentence as weakness, as if uncertainty meant low
-confidence or poor preparation. Over time, I started seeing the opposite.
+For a long time, that sentence sounded like weakness to me, as if
+uncertainty meant low confidence or poor preparation. Later I started
+seeing the opposite.
 In complex situations, admitting uncertainty is often a sign that someone
 is paying attention to reality rather than to image.
 

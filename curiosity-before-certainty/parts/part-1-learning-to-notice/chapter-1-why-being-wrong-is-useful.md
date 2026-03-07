@@ -40,5 +40,5 @@ The goal is to learn from being wrong. Once you begin seeing wrong guesses
 as information, you start looking at everyday surprises differently - and
 that is where curiosity begins to compound.
 
-In the next chapter, we apply the same move to a mundane frustration that
+With that in mind, we apply the same move to a mundane frustration that
 turns out to be an excellent systems lesson: the grocery checkout line.
