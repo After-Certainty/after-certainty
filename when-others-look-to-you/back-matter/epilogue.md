@@ -21,10 +21,10 @@ not failure. It is often the only honest starting point.
 
 In this phase, progress can look modest:
 
-- fewer harms pushed to the edge,
-- more decisions reopened before they harden,
-- clearer limits on emergency permissions,
-- stronger protection for dissent and correction.
+- Fewer harms pushed to the edge.
+- More decisions reopened before they harden.
+- Clearer limits on emergency permissions.
+- Stronger protection for dissent and correction.
 
 These shifts rarely feel dramatic. They are still structural gains.
 
@@ -37,10 +37,10 @@ leadership morally pure. It makes feedback harder to ignore.
 Institutional reform still matters. But human-scale practice is where
 durable renewal habits are built:
 
-- naming harm without rhetorical cover,
-- refusing false urgency when correction is still possible,
-- separating visible success from structural health,
-- and keeping authority revisable in public.
+- Naming harm without rhetorical cover.
+- Refusing false urgency when correction is still possible.
+- Separating visible success from structural health.
+- Keeping authority revisable in public.
 
 None of this guarantees a happy ending.
 

@@ -112,10 +112,10 @@ portion of the cost of their own decisions. They do not always absorb all
 of it, but there is visible linkage between decision rights and
 accountability.
 
-In decaying groups, costs move downward or outward. Those closest to the
+In decaying groups, costs move downward or outward: those closest to the
 consequences, people affected by the decision, or peripheral groups absorb
-the effects, while central
-decision-makers preserve narrative control. This displacement is often
+the effects while central decision-makers preserve narrative control. This
+displacement is often
 framed as necessity, but repeated displacement is an early warning,
 not an unfortunate accident.
 

@@ -1,6 +1,6 @@
 # **Appendix A — Legitimacy Transfer in Practice**
 
-This appendix applies the book's lenses to a visible public case
+This appendix applies the book's lenses to a publicly visible case
 sequence. It is not a ranking of leaders and not a partisan scorecard.
 The goal is structural clarity: how legitimacy transfers, hardens, and
 sometimes resists contraction across leadership handoffs.
@@ -18,6 +18,12 @@ At scale, powers exercised under one administration can become expected
 baseline for the next. Permission travels forward faster than constraint
 unless constraints are actively renewed.
 
+Taxonomy key used below (from Chapter 6):
+
+- **Procedural legitimacy:** authority justified by formal process and role.
+- **Office-based legitimacy:** authority justified by inherited office permission.
+- **Sacralization pressure:** challenge becomes morally or identity-coded as disloyalty.
+
 ### **Case Sequence: Post-9/11 to Present**
 
 #### **George W. Bush: Emergency Expansion**
@@ -29,6 +35,13 @@ Some measures were framed as temporary. Several became durable precedents.
 This is a classic transfer moment: authority exercised under crisis remains
 available after the crisis frame softens.
 
+Transfer taxonomy in this phase:
+
+- **Primary form:** procedural legitimacy.
+- **Transfer dynamic:** procedural emergency permissions convert into a
+  higher office-based baseline.
+- **Direction of movement:** procedural -> office-based expansion.
+
 #### **Barack Obama: Restraint Without Full Retraction**
 
 The next phase emphasized procedural restoration and deliberative tone.
@@ -37,6 +50,14 @@ available.
 
 The lesson is not hypocrisy or bad faith. The lesson is structural:
 restraint in use does not automatically unwind inherited permissions.
+
+Transfer taxonomy in this phase:
+
+- **Primary form:** procedural legitimacy (restorative emphasis).
+- **Transfer dynamic:** partial use-constraint without full structural
+  contraction of inherited office-based permissions.
+- **Direction of movement:** office-based carryover with limited
+  procedural re-bounding.
 
 #### **Donald Trump: Personalization on an Inherited Base**
 
@@ -48,6 +69,13 @@ No entirely new constitutional design was required for this shift.
 Accumulated office-based permissions made personalization easier to press
 at speed.
 
+Transfer taxonomy in this phase:
+
+- **Primary form:** office-based legitimacy.
+- **Transfer dynamic:** inherited office-based permissions are used for
+  personalization, increasing sacralization pressure around challenge.
+- **Direction of movement:** office-based -> sacralization pressure.
+
 #### **Joe Biden: Procedural Restoration Under Inertia**
 
 The next phase renewed procedural language and institutional norms.
@@ -56,14 +84,21 @@ Professional process and formal restraint received stronger emphasis.
 Structural inertia remained. Many inherited authorities persisted in the
 office even where rhetoric shifted toward normalization.
 
+Transfer taxonomy in this phase:
+
+- **Primary form:** procedural legitimacy (renewed in language and process).
+- **Transfer dynamic:** procedural restoration occurs inside an office-based
+  permission set that contracts slowly.
+- **Direction of movement:** procedural repair over office-based inertia.
+
 ### **What the Sequence Shows**
 
 Across these handoffs, a pattern appears:
 
-- crisis expands authority quickly,
-- restraint can slow misuse but may not reverse transfer,
-- personalization can exploit inherited permissions,
-- restoration of norms can outpace restoration of limits.
+- Crisis expands authority quickly.
+- Restraint can slow misuse but may not reverse transfer.
+- Personalization can exploit inherited permissions.
+- Restoration of norms can outpace restoration of limits.
 
 This is the asymmetry of legitimacy transfer: expansion is easier than
 contraction unless active constraint work is sustained over time.

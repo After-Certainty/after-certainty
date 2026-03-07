@@ -64,9 +64,9 @@ A common arc is:
 
 Example-based -> Procedural -> Office-based -> Sacralized
 
-This movement is not inevitable, but it is common. Groups that stay adaptive find
-ways to cycle back toward example-based renewal before sacralization
-hardens.
+This movement is not inevitable, but it is common. Groups that stay
+adaptive find ways to cycle back toward example-based renewal before
+sacralization hardens.
 
 Crisis periods are especially important for transfer dynamics: they can
 expand office-based authority quickly, while emergency permissions are

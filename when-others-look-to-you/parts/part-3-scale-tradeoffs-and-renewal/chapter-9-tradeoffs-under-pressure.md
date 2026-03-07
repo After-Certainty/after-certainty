@@ -36,10 +36,10 @@ This is why crisis is a diagnostic, not only a disruption.
 
 Crisis periods can:
 
-- increase tolerance for harm displacement,
-- reward short-term effectiveness while shrinking correction time,
-- accelerate legitimacy transfer through emergency precedent,
-- normalize temporary authority expansions into durable baseline
+- Increase tolerance for harm displacement.
+- Reward short-term effectiveness while shrinking correction time.
+- Accelerate legitimacy transfer through emergency precedent.
+- Normalize temporary authority expansions into durable baseline
   governance.[^c9-crisis-precedent]
 
 Crisis does not create these dynamics from nothing. It reveals and
