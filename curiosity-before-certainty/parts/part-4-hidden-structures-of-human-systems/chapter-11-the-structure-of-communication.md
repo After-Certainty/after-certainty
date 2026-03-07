@@ -1,6 +1,6 @@
 # **Chapter 11 — The Structure of Communication**
 
-Most of us think communication is about what was said. In practice, it is
+It is easy to assume communication is about what was said. In practice, it is
 often about what was heard, what was implied, and what was left unsaid.
 Meaning travels through words, but also through timing, tone, context, and
 relationship.

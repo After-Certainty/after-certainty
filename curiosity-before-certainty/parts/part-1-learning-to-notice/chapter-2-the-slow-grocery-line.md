@@ -1,18 +1,18 @@
 # **Chapter 2 — The Slow Grocery Line**
 
-I used to believe the grocery line problem had a clear rule: pick the
-shortest line and you will get out fastest. It sounds obvious. Most of us
-have played that tiny game in our heads while balancing a basket and
-watching the registers.
+At the grocery store, I once relied on a clear rule: pick the shortest
+line and you will get out fastest. It sounds obvious. Most of us have
+played that tiny game in our heads while balancing a basket and watching
+the registers.
 
-Then I kept ending up in the wrong line.
+Yet I kept ending up in the wrong line.
 
 Not once in a while. Repeatedly. I would choose a line with two people
 and somehow wait longer than the line with six. It felt unfair at first,
 almost personal, as if the checkout universe had decided to mock my
 confidence.
 
-The first explanation was easy: I am unlucky. The second was also easy:
+My earliest explanation was easy: I am unlucky. The second was also easy:
 cashiers vary, and that is just life. Both explanations contain a little
 truth, but neither explains why the same weird outcome keeps happening in
 similar conditions.
@@ -40,5 +40,5 @@ learning to read a living system in real time. The same move will show up
 again in larger settings, where the cost of simplistic assumptions is
 higher.
 
-The next chapter expands that lens beyond checkout counters and into
-patterns we encounter every day in traffic, crowds, and weather.
+From checkout counters, we widen the lens to patterns we encounter every
+day in traffic, crowds, and weather.

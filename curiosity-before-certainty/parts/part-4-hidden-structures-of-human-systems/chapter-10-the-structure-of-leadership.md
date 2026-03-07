@@ -39,5 +39,5 @@ and everyday decisions. Curiosity helps by asking structural questions
 instead of personality questions alone.
 
 Once you start seeing leadership this way, you notice another layer: the
-system around leadership is shaped by communication. The next chapter turns
-to that terrain.
+system around leadership is shaped by communication. The chapter that
+follows turns to that terrain.

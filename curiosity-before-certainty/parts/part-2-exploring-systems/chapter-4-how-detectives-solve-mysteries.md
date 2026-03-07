@@ -39,5 +39,5 @@ closer to reality than the first story your mind offered.
 Once you start working this way, mystery no longer feels like a barrier.
 It becomes a terrain you can navigate - one observation at a time.
 
-The next chapter takes this same investigative posture into software,
-where failure often reveals structure faster than success does.
+From detective work, we carry this same investigative posture into
+software, where failure often reveals structure faster than success does.
