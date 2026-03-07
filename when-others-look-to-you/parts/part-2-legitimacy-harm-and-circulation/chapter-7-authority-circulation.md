@@ -19,7 +19,7 @@ drift toward brittle or stagnant patterns.
 
 Circulation is easiest to read through three patterns:
 
-- **One-way authority:** influence moves outward only. Input is collected,
+- **One-way authority:** influence moves outward only; input is collected,
   but decisions are effectively set at the center.
 - **Voice-only circulation:** concerns can travel upward and sometimes
   adjust plans, but leadership still stays fixed at the top.
@@ -27,8 +27,8 @@ Circulation is easiest to read through three patterns:
   People closest to the issue can temporarily step in to lead a response,
   then return to their usual role.[^c7-guest-leadership]
 
-The third pattern is the two-way pattern. It keeps authority connected to
-ground truth without requiring permanent role upheaval.
+The third pattern keeps authority connected to ground truth without
+requiring permanent role upheaval.
 
 Guest leadership also shapes what others attempt next. When temporary
 step-in leadership is trusted, more people use it openly. When it is

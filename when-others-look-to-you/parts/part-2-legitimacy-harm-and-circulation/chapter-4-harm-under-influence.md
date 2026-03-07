@@ -23,8 +23,8 @@ These postures are structural descriptions, not moral rankings.
 Harm-absorbing leadership accepts visible cost near decision rights.
 
 Leaders who choose risky direction absorb part of the downside: they
-acknowledge error early, protect those closest to the consequences from avoidable fallout,
-and adjust scope when warning signals appear. This posture does not
+acknowledge error early, protect those closest to the consequences from
+avoidable fallout, and adjust scope when warning signals appear. This posture does not
 eliminate loss, but it ties authority to accountability.[^c4-just-culture]
 
 ### **Harm-Tolerant**

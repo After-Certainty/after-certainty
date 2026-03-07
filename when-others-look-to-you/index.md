@@ -28,7 +28,7 @@
 - [Chapter 6 — Legitimacy Over Time](parts/part-2-legitimacy-harm-and-circulation/chapter-6-legitimacy-over-time.md)
 - [Chapter 7 — Authority Circulation](parts/part-2-legitimacy-harm-and-circulation/chapter-7-authority-circulation.md)
 
-## Part III — Scale, Tradeoffs, and Integration
+## Part III — Scale, Tradeoffs, and Renewal
 
 - [Bridge — From Circulation to Scale Pressure](parts/part-3-scale-tradeoffs-and-renewal/bridge.md)
 - [Chapter 8 — Scale and Drift](parts/part-3-scale-tradeoffs-and-renewal/chapter-8-scale-and-drift.md)

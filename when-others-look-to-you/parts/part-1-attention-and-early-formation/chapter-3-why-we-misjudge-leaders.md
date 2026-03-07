@@ -83,8 +83,9 @@ In more vital or nimble systems, selective dissent is visible and usable.
 In brittle or stagnant systems, it goes quiet and becomes hidden
 workarounds.
 
-When observers collapse all this into a single category - "they are with
-the leader" or "they are against the leader" - they miss the structure
+When observers collapse all this into a single category - whether "they
+are with the leader" or "they are against the leader" - they miss the
+structure
 that actually predicts vitality or decay.
 
 ### **Why Confidence Is So Persuasive**

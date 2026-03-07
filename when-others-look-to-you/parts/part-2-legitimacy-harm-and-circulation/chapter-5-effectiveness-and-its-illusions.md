@@ -63,9 +63,9 @@ larger loss later.
 
 Performance indicators can hide real alignment problems.
 
-People can produce favorable numbers while privately withdrawing trust. They can
-repeat approved language while silently routing around decisions they do
-not believe in. In these conditions, the group appears coordinated, but
+People can produce favorable numbers while privately withdrawing trust.
+They can repeat approved language while silently routing around decisions
+they do not believe in. In these conditions, the group appears coordinated, but
 its ability to act together is already splitting underneath.
 
 This is why selective followership matters when judging effectiveness.

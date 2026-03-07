@@ -57,10 +57,10 @@ the near term.
 
 But partial repair is still possible:
 
-- reduce harm concentration,
-- reopen specific correction paths,
-- rebind authority to visible consequence,
-- prevent temporary exceptions from hardening into permanent baseline.
+- Reduce harm concentration.
+- Reopen specific correction paths.
+- Rebind authority to visible consequence.
+- Prevent temporary exceptions from hardening into permanent baseline.
 
 Repair at this stage is usually uneven, local, and slow. That does not
 make it trivial. It makes it realistic.
