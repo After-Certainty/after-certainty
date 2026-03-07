@@ -41,3 +41,7 @@ with paths you can learn to read.
 Once hidden patterns become visible in ordinary scenes, curiosity begins
 to feel practical. It is no longer a personality trait. It is a method
 you can use anywhere.
+
+Part II begins by showing how investigators make this method explicit:
+they do not guess once and defend it; they test explanations until only
+the strongest remain.

@@ -36,3 +36,6 @@ Curiosity needs that kind of room. If every belief must be defended at all
 costs, learning slows down. If beliefs can be refined without shame,
 learning speeds up. "I might be wrong" is not the end of clear thinking.
 It is often where clearer thinking starts.
+
+In Part IV, we widen this from individual mindset to group structure and
+ask what curiosity looks like inside real leadership systems.

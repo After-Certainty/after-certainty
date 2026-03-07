@@ -121,3 +121,6 @@ The habit of asking better questions.
 Because curiosity, in the end, turns out to be far more powerful than
 certainty—especially when the world is more complicated than it first
 appears.
+
+The first chapter starts with a simple place where this shift begins for
+almost everyone: being wrong about something ordinary.

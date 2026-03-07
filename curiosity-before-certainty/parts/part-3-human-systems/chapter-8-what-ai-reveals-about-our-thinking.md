@@ -38,3 +38,6 @@ into confirmation by default.
 As these tools become normal in daily life, the core skill is not just
 prompting. It is staying willing to revise. In that sense, AI does not
 solve uncertainty. It invites us to practice navigating it.
+
+That practice depends on one sentence many of us resist saying out loud:
+"I might be wrong." The next chapter is about why that sentence matters.

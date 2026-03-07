@@ -39,3 +39,6 @@ instructive. You are no longer trying to "beat" randomness. You are
 learning to read a living system in real time. The same move will show up
 again in larger settings, where the cost of simplistic assumptions is
 higher.
+
+The next chapter expands that lens beyond checkout counters and into
+patterns we encounter every day in traffic, crowds, and weather.

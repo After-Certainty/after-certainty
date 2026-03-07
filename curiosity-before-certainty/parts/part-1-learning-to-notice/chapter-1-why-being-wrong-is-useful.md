@@ -40,3 +40,6 @@ The goal is not to avoid being wrong forever. The goal is to notice what
 the mismatch is trying to teach. Once you begin seeing wrong guesses as
 information, you start looking at everyday surprises differently - and
 that is where curiosity begins to compound.
+
+In the next chapter, we apply the same move to a mundane frustration that
+turns out to be an excellent systems lesson: the grocery checkout line.
