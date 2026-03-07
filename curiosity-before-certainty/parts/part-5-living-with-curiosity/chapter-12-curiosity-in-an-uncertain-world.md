@@ -6,7 +6,8 @@ attention before evidence has time to settle. In that environment,
 certainty can feel comforting even when it is premature.
 
 A fragmented media landscape makes this harder. We do not all see the same
-facts in the same order. Different feeds produce different worlds. If we
+facts in the same order. Different feeds create different versions of the
+same moment. If we
 are not careful, we begin treating unfamiliar perspectives as irrational
 instead of partial.
 
@@ -28,9 +29,8 @@ certainty at all times.
 
 The practice can stay simple. Notice what does not fit. Ask better
 questions. Run small tests where possible. Update your map when evidence
-changes. Repeat. Over time, this creates a steadier kind of confidence -
-not confidence that you already know, but confidence that you can keep
-learning.
+changes. Repeat. Over time, this creates a steadier kind of confidence:
+confidence that you can keep learning.
 
 Curiosity does not remove uncertainty from the landscape. It teaches us how
 to move through uncertainty with less fear and more skill. That may be the

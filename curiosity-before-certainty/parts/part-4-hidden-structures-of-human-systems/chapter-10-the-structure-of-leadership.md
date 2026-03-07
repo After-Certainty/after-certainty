@@ -2,7 +2,7 @@
 
 Leadership is often described as personality. We ask who is charismatic,
 who is decisive, who can command attention. Those qualities can matter,
-but they do not tell the whole story. Over time, I have found it more
+but they tell only part of the story. Over time, I have found it more
 useful to watch structure: how influence and responsibility actually move
 through a group.
 
@@ -22,19 +22,19 @@ Others create conditions where more people can act with clarity. The first
 style can look strong in the moment. The second is usually stronger across
 longer horizons.
 
-Trust is another moving part. Trust is not just sentiment. It is the flow of
-practical confidence: who shares concerns early, who withholds bad news,
+Trust is another moving part. Trust is practical as well as emotional. It
+shows up in who shares concerns early, who withholds bad news,
 who believes correction is possible, and who assumes feedback is risky.
 When trust narrows, information narrows with it.
 
 I have also seen leadership shift temporarily in healthy systems. The
-person with formal authority does not need to lead every moment. In
+person with formal authority can step back at times. In
 specific situations, influence can move to the person with closest contact
 to the problem, then return when the moment passes. That flexibility often
 improves both learning and outcomes.
 
-None of these patterns require formal theory language to recognize. You
-can observe them directly in meetings, project handoffs, incident reviews,
+You can spot these patterns without formal theory language. You can observe
+them directly in meetings, project handoffs, incident reviews,
 and everyday decisions. Curiosity helps by asking structural questions
 instead of personality questions alone.
 

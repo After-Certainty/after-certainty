@@ -28,17 +28,16 @@ increments. I tested alternate routes without expecting a perfect answer.
 
 Over time, a pattern emerged. The system was not random. It was
 sensitive. Small conditions pushed it into different states, and each
-state had its own rhythm. My wrong guesses were not proof that I was bad
-at thinking. They were evidence that my previous model was too simple.
+state had its own rhythm. My wrong guesses were evidence that my previous
+model was too simple.
 
 That shift matters beyond traffic. We often assume skill means getting the
 answer right early. In messy situations, skill often means updating fast
 when new evidence appears. A wrong guess can start better understanding if
 we treat it as signal instead of embarrassment.
 
-The goal is not to avoid being wrong forever. The goal is to notice what
-the mismatch is trying to teach. Once you begin seeing wrong guesses as
-information, you start looking at everyday surprises differently - and
+The goal is to learn from being wrong. Once you begin seeing wrong guesses
+as information, you start looking at everyday surprises differently - and
 that is where curiosity begins to compound.
 
 In the next chapter, we apply the same move to a mundane frustration that

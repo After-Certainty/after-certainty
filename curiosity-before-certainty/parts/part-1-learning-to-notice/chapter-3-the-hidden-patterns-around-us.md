@@ -2,8 +2,7 @@
 
 One of the most useful moments in learning is surprisingly quiet. It is
 the moment you realize that what looked chaotic might actually have
-structure. Not rigid structure, not perfect rules, but repeatable
-patterns hiding in plain sight.
+structure: not rigid rules, but repeatable patterns hiding in plain sight.
 
 You can see this in traffic waves. You are on a highway, everything slows
 to a crawl, and you expect to find a crash. Then traffic clears and there
@@ -20,7 +19,7 @@ doorways.
 Weather teaches the same lesson. We still cannot predict every local
 change with precision, but we can observe recurring signals: pressure
 drops, wind shifts, cloud textures, humidity changes. The system is
-complex, yet not featureless.
+complex, yet still patterned.
 
 Our first explanation for these cases is often "randomness." That word is
 sometimes correct, but we also use it when we have not looked long enough.

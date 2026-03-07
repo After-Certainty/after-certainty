@@ -4,7 +4,7 @@ I used to think arguments escalated because one person refused to be
 reasonable. That explanation felt clean and emotionally satisfying,
 especially when I was sure I was the reasonable one.
 
-Then I noticed something that did not fit. Some conversations exploded
+Then I noticed something that clashed with that view. Some conversations exploded
 even when both people were trying to help. Nobody entered the discussion
 wanting conflict, yet tension still rose quickly.
 
@@ -34,8 +34,8 @@ text-message exchanges. The turning point is usually the same: someone
 stops arguing long enough to investigate. That pause creates enough space
 for a better map of the conversation.
 
-The gentle principle here is simple. Escalation is often a system effect,
-not a moral verdict. When assumptions stay invisible, conflict grows.
+The gentle principle here is simple. Escalation is often a system effect
+more than a moral verdict. When assumptions stay invisible, conflict grows.
 When assumptions become visible, curiosity has room to work.
 
 In the next chapter, we look at a newer conversational system that makes

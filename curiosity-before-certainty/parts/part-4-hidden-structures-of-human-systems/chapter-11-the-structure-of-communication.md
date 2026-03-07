@@ -7,7 +7,7 @@ relationship.
 
 You can see this in a simple team update. Two people present the same
 facts. One creates clarity; the other creates anxiety. The difference is
-not just vocabulary. It is signal quality in practice: what is emphasized, what is
+more than vocabulary. It is signal quality in practice: what is emphasized, what is
 uncertain, what is named early, and what is hidden until late.
 
 My first explanation for miscommunication used to be "people are not
@@ -20,7 +20,7 @@ time. The challenge is matching compression to stakes. Low-stakes updates
 can be brief. High-stakes transitions usually need fuller context,
 including assumptions and tradeoffs.
 
-Restraint matters too. Good communicators do not react to every signal at
+Restraint matters too. Good communicators avoid reacting to every signal at
 full volume. They leave room for clarification before escalation. They ask
 one more question before making one more accusation. That pause often
 prevents unnecessary conflict.
