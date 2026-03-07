@@ -37,3 +37,6 @@ for a better map of the conversation.
 The gentle principle here is simple. Escalation is often a system effect,
 not a moral verdict. When assumptions stay invisible, conflict grows.
 When assumptions become visible, curiosity has room to work.
+
+In the next chapter, we look at a newer conversational system that makes
+these habits easy to see: everyday interaction with AI tools.

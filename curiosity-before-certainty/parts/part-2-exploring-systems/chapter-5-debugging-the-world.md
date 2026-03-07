@@ -39,3 +39,6 @@ repairs can create disproportionate gains.
 Curiosity does not celebrate failure, but it can use failure well. And
 once you learn to debug one kind of system, you begin seeing the method
 everywhere.
+
+The next step is learning to act on that insight with low-risk moves:
+small experiments that trade certainty for faster learning.

@@ -35,3 +35,6 @@ learning.
 Curiosity does not remove uncertainty from the landscape. It teaches us how
 to move through uncertainty with less fear and more skill. That may be the
 most practical form of wisdom available in complex times.
+
+The closing reflection returns to this simple orientation and leaves the
+reader with a practice to carry forward.
