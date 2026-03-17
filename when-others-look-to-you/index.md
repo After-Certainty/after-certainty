@@ -7,12 +7,11 @@
 ## Front Matter
 
 - [Title Page](front-matter/title-page.md)
+- [Copyright](front-matter/copyright.md)
+- [Typographical Conventions](front-matter/typographical-conventions.md)
 - [Author's Note](front-matter/authors-note.md)
 - [Preface](front-matter/preface.md)
-- [Typographical Conventions](front-matter/typographical-conventions.md)
 - [Introduction — When Attention Gathers](front-matter/introduction-when-attention-gathers.md)
-- [Prologue](front-matter/prologue.md)
-- [Copyright](front-matter/copyright.md)
 
 ## Part I — Attention and Early Formation
 

@@ -14,6 +14,16 @@ This document defines the drafting workflow for building the book in a structure
   one, not in reader-facing manuscript prose.
 - Recommended export command:
   `make export-docx DIR=when-others-look-to-you`
+- Kindle-friendly export command:
+  `make export-kindle-epub DIR=when-others-look-to-you`
+- Flattened Kindle-safe export command (strips custom-style blocks to
+  plain Kindle-friendly semantics):
+  `make export-kindle-epub-flat DIR=when-others-look-to-you`
+- Kindle exports use `BookCover.png` as EPUB cover metadata and remove
+  the inline cover image from in-book reading flow so title-page text
+  appears first.
+- Post-processing removes the generated EPUB cover page from spine order
+  while keeping the metadata cover, so readers open to title-page text.
 
 ## Branch and PR Workflow (Applies Throughout)
 

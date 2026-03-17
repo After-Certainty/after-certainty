@@ -39,7 +39,7 @@ correction channels narrow.
 
 ### **When Failure Strengthens Renewal**
 
-Failure is not always a erosion signal.
+Failure is not always an erosion signal.
 
 Some failures force honest review, clarify limits, and reopen correction
 paths. Groups that can learn publicly from failure often grow more

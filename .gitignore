@@ -1,4 +1,5 @@
 *.docx
+*.epub
 !when-others-look-to-you/docs/reference.docx
 .DS_Store
 .obsidian/workspace.json

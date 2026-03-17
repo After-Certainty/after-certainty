@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc docx-to-md md-to-docx import-docx import-docx-dir export-docx export-all-docx clean-import-md
+.PHONY: help check-pandoc docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-kindle-epub-flat export-all-docx clean-import-md
 
 PANDOC ?= pandoc
 
@@ -11,6 +11,8 @@ help:
 	@echo "  make import-docx"
 	@echo "  make import-docx-dir DIR=path/to/folder [OVERWRITE=1]"
 	@echo "  make export-docx DIR=path/to/book-folder"
+	@echo "  make export-kindle-epub DIR=path/to/book-folder"
+	@echo "  make export-kindle-epub-flat DIR=path/to/book-folder"
 	@echo "  make export-all-docx"
 	@echo "  make clean-import-md"
 	@echo ""
@@ -20,6 +22,8 @@ help:
 	@echo "  - import-docx-dir converts every .docx under DIR to side-by-side .md."
 	@echo "  - import-docx-dir skips existing .md files unless OVERWRITE=1."
 	@echo "  - export-docx combines DIR/index.md plus linked .md files into DIR/export.docx."
+	@echo "  - export-kindle-epub creates DIR/export-kindle.epub from linked manuscript files."
+	@echo "  - export-kindle-epub-flat flattens custom blocks for Kindle and creates DIR/export-kindle-flat.epub."
 	@echo "  - export-all-docx runs export-docx for every ./**/index.md."
 	@echo "  - clean-import-md deletes every ./**/import.md file."
 	@echo "  - Requires pandoc installed and available in PATH."
@@ -102,6 +106,38 @@ export-docx: check-pandoc
 	else \
 		"$(PANDOC)" "$$@" --resource-path="$$DIR" -o "$$out"; \
 	fi; \
+	echo "Created $$out"
+
+export-kindle-epub: check-pandoc
+	@test -n "$(DIR)" || { echo "Usage: make export-kindle-epub DIR=path/to/book-folder"; exit 1; }
+	@index="$$DIR/index.md"; \
+	test -f "$$index" || { echo "Error: $$index not found."; exit 1; }; \
+	prep="$$DIR/export-kindle.md"; \
+	out="$$DIR/export-kindle.epub"; \
+	cover="$$DIR/BookCover.png"; \
+	python3 tools/kindle-flatten.py --book-dir "$$DIR" --index "$$index" --out "$$prep"; \
+	if [ -f "$$cover" ]; then \
+		"$(PANDOC)" "$$prep" --resource-path="$$DIR" --toc --toc-depth=3 --epub-title-page=false --metadata=toc-title:"Table of Contents" --epub-cover-image="$$cover" -o "$$out"; \
+	else \
+		"$(PANDOC)" "$$prep" --resource-path="$$DIR" --toc --toc-depth=3 --epub-title-page=false --metadata=toc-title:"Table of Contents" -o "$$out"; \
+	fi; \
+	python3 tools/epub-postprocess.py --epub "$$out"; \
+	echo "Created $$out"
+
+export-kindle-epub-flat: check-pandoc
+	@test -n "$(DIR)" || { echo "Usage: make export-kindle-epub-flat DIR=path/to/book-folder"; exit 1; }
+	@index="$$DIR/index.md"; \
+	test -f "$$index" || { echo "Error: $$index not found."; exit 1; }; \
+	flat="$$DIR/export-kindle-flat.md"; \
+	out="$$DIR/export-kindle-flat.epub"; \
+	cover="$$DIR/BookCover.png"; \
+	python3 tools/kindle-flatten.py --book-dir "$$DIR" --index "$$index" --out "$$flat" --flatten-custom-blocks; \
+	if [ -f "$$cover" ]; then \
+		"$(PANDOC)" "$$flat" --resource-path="$$DIR" --toc --toc-depth=3 --epub-title-page=false --metadata=toc-title:"Table of Contents" --epub-cover-image="$$cover" -o "$$out"; \
+	else \
+		"$(PANDOC)" "$$flat" --resource-path="$$DIR" --toc --toc-depth=3 --epub-title-page=false --metadata=toc-title:"Table of Contents" -o "$$out"; \
+	fi; \
+	python3 tools/epub-postprocess.py --epub "$$out"; \
 	echo "Created $$out"
 
 export-all-docx: check-pandoc

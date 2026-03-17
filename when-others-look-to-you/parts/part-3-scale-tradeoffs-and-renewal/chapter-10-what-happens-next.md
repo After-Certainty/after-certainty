@@ -2,7 +2,9 @@
 
 Return to the definition:
 
-> A leader is someone others look to when deciding what to do next.
+::: {custom-style="Pull Quote Block"}
+A leader is someone others look to when deciding what to do next.
+:::
 
 The final question is not whether others look. It is what that looking
 builds over time.
