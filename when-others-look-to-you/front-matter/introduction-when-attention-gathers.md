@@ -25,7 +25,7 @@ but structure often matters more.
 ### **The Central Tension**
 
 When others continue to look to someone, authority forms.
-Over time, that authority can strengthen, or it can decay.
+Over time, that authority can strengthen, or it can erosion.
 
 Both can appear stable for a while.
 Over time, authority is usually more durable when it stays open to
@@ -34,7 +34,7 @@ correction.
 ### **How This Book Proceeds**
 
 The chapters follow one structural throughline: Attention → Influence →
-Structure → Vitality or Decay. Each chapter examines one segment of that
+Structure → Renewal or Erosion. Each chapter examines one segment of that
 chain under pressure: harm, effectiveness, legitimacy, circulation, scale,
 and tradeoff.
 

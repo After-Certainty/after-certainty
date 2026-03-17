@@ -9,20 +9,22 @@ accountability is harder to evade. At institutional scale, harm can
 abstract, signals can attenuate, and revision can slow under layers of
 distance.[^c8-scale-distance]
 
-Scale does not cause decay by itself. It amplifies what the structure is
+Scale does not cause erosion by itself. It amplifies what the structure is
 already capable of producing.
 
 ### **The Regional Network**
->
-> A neighborhood congregation grows into a regional network with shared
-> branding, shared training, and shared donor strategy. Local leaders
-> notice that a mentoring program is creating burnout and quiet exclusion
-> for younger volunteers.
->
-> In the local setting, concerns used to be discussed in person and changed
-> quickly. In the regional structure, feedback now moves through formal
-> reporting cycles. The program still expands, but local adaptation slows.
-> Public updates highlight growth and consistency.
+
+::: {custom-style="Vignette Block"}
+A neighborhood congregation grows into a regional network with shared
+branding, shared training, and shared donor strategy. Local leaders
+notice that a mentoring program is creating burnout and quiet exclusion
+for younger volunteers.
+
+In the local setting, concerns used to be discussed in person and changed
+quickly. In the regional structure, feedback now moves through formal
+reporting cycles. The program still expands, but local adaptation slows.
+Public updates highlight growth and consistency.
+:::
 
 The network did not become harmful because it grew. It became riskier
 because reach expanded faster than usable correction pathways.
@@ -32,17 +34,17 @@ because reach expanded faster than usable correction pathways.
 Use two capacities to read scale effects:
 
 - **Scalability:** can coordinated action grow in reach?
-- **Adjustability:** can influence still change direction when reality
+- **Adaptability:** can influence still change direction when reality
   pushes back?
 
 These capacities generate four practical states:
 
-- **Vital:** high scalability, high adjustability.
-- **Nimble:** lower scalability, high adjustability.
-- **Brittle:** high scalability, low adjustability.
-- **Stagnant:** low scalability, low adjustability.
+- **Regenerative:** high scalability, high adaptability.
+- **Adaptive:** lower scalability, high adaptability.
+- **Entrenched:** high scalability, low adaptability.
+- **Stalled:** low scalability, low adaptability.
 
-At larger scale, brittle patterns can look impressive for longer. Reach
+At larger scale, entrenched patterns can look impressive for longer. Reach
 can expand while correction weakens.
 
 ### **Legitimacy Forms Under Scale**
@@ -90,8 +92,9 @@ Scale introduces the conditions. Pressure tests them.
 Chapter 9 examines how crisis and urgency force tradeoffs across harm,
 effectiveness, legitimacy, and circulation.
 
-> "Scale can increase reach faster than it increases correction."
-
+::: {custom-style="Pull Quote Block"}
+Scale can increase reach faster than it increases correction.
+:::
 [^c8-scale-distance]: Charles Perrow, *Normal Accidents: Living with High-Risk Technologies* (New York: Basic Books, 1984).
 [^c8-legitimacy]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
 [^c8-hidden-transcripts]: James C. Scott, *Domination and the Arts of Resistance: Hidden Transcripts* (New Haven, CT: Yale University Press, 1990).

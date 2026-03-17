@@ -13,9 +13,15 @@ congregation listens for tone before interpreting a difficult moment. A
 company waits for direction when performance falters.
 
 Attention gathers. Leadership begins there.[^c1-attention-and-leadership] It does not require a title,
-charisma, or intention. It requires
-orientation. When others orient themselves around you, your influence
-multiplies.
+charisma, or intention. It requires orientation: when others orient
+themselves around you, your influence multiplies.
+
+::: {custom-style="Pattern Block"}
+**Pattern - Attention Gathering**
+
+Under uncertainty, attention concentrates quickly, and that concentration
+creates influence before formal authority is named.
+:::
 
 When no one is looking, your decisions affect only you. When others are
 looking, your decisions ripple. Your pace becomes their pace. Your
@@ -41,6 +47,13 @@ In small settings, these lessons are immediate. In large settings, they
 accumulate quietly. Either way, the signal travels. People rarely wait
 for formal instruction. They read patterns.
 
+::: {custom-style="Pattern Block"}
+**Pattern - Tone Sets the Room**
+
+The first visible response to error or tension sets boundaries faster
+than policy and teaches people what is safe to surface.
+:::
+
 ### **Belief and Repetition**
 
 When others look to someone repeatedly, something else forms: belief.
@@ -52,6 +65,13 @@ Belief does not require perfection. It requires predictability. Over
 time, attention and belief reinforce each other. The more people look,
 the more influence consolidates. The more influence consolidates, the
 more people look. Authority emerges from repetition.[^c1-legitimacy-and-repetition]
+
+::: {custom-style="Pattern Block"}
+**Pattern - The One We Default To**
+
+Repeated deference hardens into habit, and one person becomes the
+automatic decision point even without new formal authority.
+:::
 
 Most leaders believe they are acting for good. That belief is not
 unusual. What matters is what happens in practice when others begin to
@@ -92,14 +112,15 @@ next.
 Does influence stay open to correction? Does belief renew through
 example? Does authority drift toward insulation?[^c1-correction-and-insulation]
 
-Leadership begins when attention gathers. Vitality or decay begins with
+Leadership begins when attention gathers. Renewal or erosion begins with
 what follows.
 
 Chapter 2 names those two paths directly and shows how they appear before
 obvious success or failure.
 
-> "When others look to you, your posture becomes part of their world."
-
+::: {custom-style="Pull Quote Block"}
+When others look to you, your posture becomes part of their world.
+:::
 [^c1-working-definition]: Foundational references for authority and legitimacy framing: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*; Hannah Arendt, "What Is Authority?" in *Between Past and Future*.
 [^c1-attention-and-leadership]: Alistair Cockburn, "How to Step Up Stepping Up: Promoting Guest Leadership for Successful Collaboration," Cutter Business Technology Journal, Vol. 30, No. 1 (2017), https://www.cutter.com/article/how-step-stepping-promoting-guest-leadership-successful-collaboration-494516.
 [^c1-modeling-and-signals]: Albert Bandura, *Social Learning Theory* (Englewood Cliffs, NJ: Prentice Hall, 1977).

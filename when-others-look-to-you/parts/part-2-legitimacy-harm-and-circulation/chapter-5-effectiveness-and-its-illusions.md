@@ -39,7 +39,7 @@ correction channels narrow.
 
 ### **When Failure Strengthens Renewal**
 
-Failure is not always a decay signal.
+Failure is not always a erosion signal.
 
 Some failures force honest review, clarify limits, and reopen correction
 paths. Groups that can learn publicly from failure often grow more
@@ -90,8 +90,9 @@ follow.
 
 Chapter 6 examines how legitimacy forms, hardens, and renews over time.
 
-> "A result can prove capability without proving vitality."
-
+::: {custom-style="Pull Quote Block"}
+A result can prove capability without proving renewal.
+:::
 [^c5-performance-paradox]: Chris Argyris and Donald A. Schon, *Organizational Learning II: Theory, Method, and Practice* (Reading, MA: Addison-Wesley, 1996).
 [^c5-escalation]: Barry M. Staw, "Knee-Deep in the Big Muddy: A Study of Escalating Commitment to a Chosen Course of Action," *Organizational Behavior and Human Performance* 16, no. 1 (1976): 27-44.
 [^c5-learning]: Amy C. Edmondson, *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth* (Hoboken, NJ: Wiley, 2018).

@@ -21,7 +21,7 @@ From that anchor, each chapter studies a different pressure on
 leadership:
 
 - Attention and consequence
-- Vitality and decay
+- Renewal and erosion
 - Legitimacy over time
 - Harm under influence
 - Circulation and insulation

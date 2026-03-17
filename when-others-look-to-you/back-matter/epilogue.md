@@ -16,7 +16,7 @@ local repair.
 
 That distinction matters.
 
-Slowing damage is not the same as restoring vitality. But slowing damage is
+Slowing damage is not the same as restoring renewal. But slowing damage is
 not failure. It is often the only honest starting point.
 
 In this phase, progress can look modest:

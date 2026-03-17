@@ -26,10 +26,10 @@ on branch `when-others-look-to-you-back-matter`.
 
 ## Key Model and Guardrail Updates Landed
 
-- Vitality/decay canonical lexicon added to `docs/book-rules.md`:
-  - Capacities: scalability, adjustability
-  - States: vital, nimble, brittle, stagnant
-- Vitality/decay neutrality guardrail tightened (structural, non-moral)
+- Renewal/erosion canonical lexicon added to `docs/book-rules.md`:
+  - Capacities: scalability, adaptability
+  - States: regenerative, adaptive, entrenched, stalled
+- Renewal/erosion neutrality guardrail tightened (structural, non-moral)
 - Protected illustrative example guardrail added
 - Meta-language guardrail added (avoid chapter/process prose drift)
 - Domain-language guardrails tightened (vignette boundary + disposition rules)

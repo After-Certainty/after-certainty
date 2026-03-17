@@ -24,7 +24,7 @@ for direction:
 - How influence spreads through example, silence, and repetition.
 - How harm is absorbed, displaced, or normalized.
 - How authority remains open to correction or drifts toward insulation.
-- How leadership renews itself or decays over time.
+- How leadership renews itself or erodes over time.
 
 The core argument is simple: leadership is less about inner identity and
 more about outer structure.
@@ -43,6 +43,6 @@ named as leaders.
 Read slowly when needed. The aim is not speed; the aim is clarity. The
 movement of the book is cumulative, and each chapter adds one structural
 layer while returning to the same throughline: Attention → Influence →
-Structure → Renewal or Decay.
+Structure → Renewal or Erosion.
 
 That chain is the thread you will see running through the chapters.

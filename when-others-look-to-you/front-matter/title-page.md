@@ -1,6 +1,10 @@
+![Book Cover](BookCover.png){ width=100% }
+
+\newpage
+
 # **When Others Look to You**
 
-## **Vitality and Decay in Leadership**
+## **Renewal and Erosion in Leadership**
 
 ### Kevin Steffensen
 
