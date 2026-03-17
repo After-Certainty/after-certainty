@@ -96,7 +96,7 @@ High-renewal groups accept small costs early. They absorb discomfort,
 reputation risk, and rework while problems are still tractable, protecting
 both scalability and adaptability.
 
-Decaying groups defer those costs. They preserve short-term smoothness,
+Eroding groups defer those costs. They preserve short-term smoothness,
 then pay later in larger forms: preventable harm, entrenched coordination,
 high-trust collapse, and expensive repair.
 

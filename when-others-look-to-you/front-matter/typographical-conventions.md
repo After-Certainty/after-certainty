@@ -18,9 +18,9 @@ core structural takeaway.
 
 Example:
 
-## Part II — Legitimacy, Harm, and Circulation
-### Bridge — From Misjudgment to Structural Tests
-# Chapter 6 — Legitimacy Over Time
+- Part II — Legitimacy, Harm, and Circulation
+- Bridge — From Misjudgment to Structural Tests
+- Chapter 6 — Legitimacy Over Time
 
 ### **Pull-Quotes**
 

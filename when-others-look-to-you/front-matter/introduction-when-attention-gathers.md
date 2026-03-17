@@ -25,7 +25,7 @@ but structure often matters more.
 ### **The Central Tension**
 
 When others continue to look to someone, authority forms.
-Over time, that authority can strengthen, or it can erosion.
+Over time, that authority can strengthen, or it can erode.
 
 Both can appear stable for a while.
 Over time, authority is usually more durable when it stays open to
