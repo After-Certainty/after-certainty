@@ -6,14 +6,14 @@ Leadership persists because attention persists. But attention does not
 persist for one reason.
 
 People continue to look when they believe authority is justified enough
-to follow. That belief is legitimacy.[^c6-weber]
+to follow; that belief is legitimacy.[^c6-weber]
 
 Legitimacy is not static. It can renew, transfer, harden, or detach from
 current reality. Different forms of legitimacy create different links
 between authority and accountability across time and leadership handoffs.
-Those forms also shape two vitality capacities: whether influence stays
-adjustable under pressure and whether coordinated action can scale without
-becoming brittle.
+Those forms also shape two renewal capacities: whether influence stays
+adaptable under pressure and whether coordinated action can scale without
+becoming entrenched.
 
 ### **Example-Based Legitimacy**
 
@@ -33,8 +33,8 @@ Election, appointment, rank, office, and succession can stabilize
 direction across time. Process makes continuity possible beyond any
 single person.
 
-Procedural legitimacy can support vitality when real challenge is possible.
-When process becomes symbolic, it can hide decay.
+Procedural legitimacy can support renewal when real challenge is possible.
+When process becomes symbolic, it can hide erosion.
 
 ### **Office-Based Legitimacy**
 
@@ -55,8 +55,15 @@ Sacralized legitimacy grows through fear of dissent, identity fusion,
 narrative closure, and social penalties for correction.[^c6-arendt]
 
 From the inside, sacralization can feel like unity. From the outside, it
-can look like strength. Structurally, it is decay because critique no
+can look like strength. Structurally, it is erosion because critique no
 longer changes direction.
+
+::: {custom-style="Pattern Block"}
+**Pattern - Authority Becomes Untouchable**
+
+When challenge is recoded as disloyalty, authority becomes harder to
+revise and correction pathways begin to close.
+:::
 
 ### **How Legitimacy Transfers and Shifts**
 
@@ -92,7 +99,7 @@ The practical question is whether authority remains accountable to those
 affected by its decisions.
 
 If legitimacy cannot be renewed through visible correction, influence may
-continue but decay deepens.
+continue but erosion deepens.
 
 ### **Connection to Chapter 7**
 
@@ -102,7 +109,8 @@ people who temporarily step in to lead when the moment requires it.
 
 Chapter 7 turns to that shared return-and-step-in path.
 
-> "Legitimacy is not proven once; it is renewed or weakened by repeated contact with correction."
-
+::: {custom-style="Pull Quote Block"}
+Legitimacy is not proven once; it is renewed or weakened by repeated contact with correction.
+:::
 [^c6-weber]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
 [^c6-arendt]: Hannah Arendt, "What Is Authority?" in *Between Past and Future* (New York: Viking Press, 1961).

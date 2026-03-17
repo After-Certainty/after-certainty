@@ -29,7 +29,7 @@ A short set of cross-domain examples helps keep this concrete:
 - A congregation appears unified because disagreement moves off-record.
 
 Each case can look stable on the surface while the underlying structure
-drifts toward brittle or stagnant conditions.
+drifts toward entrenched or stalled conditions.
 
 ### **Two Arcs**
 
@@ -42,10 +42,10 @@ These are not personality types. They are structural trajectories.
 
 ### **States Inside the Arcs**
 
-Use vitality and decay as umbrella directions:
+Use renewal and erosion as umbrella directions:
 
-- **Vital** and **Nimble** sit on the vitality side.
-- **Brittle** and **Stagnant** sit on the decay side.
+- **Regenerative** and **Adaptive** sit on the renewal side.
+- **Entrenched** and **Stalled** sit on the erosion side.
 
 Movement between states is possible. The issue is whether movement remains
 revisable.
@@ -70,10 +70,12 @@ make it trivial. It makes it realistic.
 What happens next depends less on one decision than on repeated choices
 about visibility, correction, and limits.
 
-Vitality is not permanence. It is sustained reach with usable adjustment
+Renewal is not permanence. It is sustained reach with usable adjustment
 under attention.
 
 The epilogue turns to the boundary condition directly: what remains
 possible when slowdown is still possible but full restoration is not.
 
-> "What follows attention is not fate. It is structure repeated."
+::: {custom-style="Pull Quote Block"}
+What follows attention is not fate. It is structure repeated.
+:::

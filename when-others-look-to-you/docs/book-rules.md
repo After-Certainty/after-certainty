@@ -198,9 +198,12 @@ If removing a line break strengthens coherence, remove it.
 - Do not include the word "Vignette" in the sub-heading; rely on typography
   (heading plus blockquote scene text) for visual distinction.
 
-- Vignette scene text should be set as blockquote lines (`>`) so it is visually distinct from analytical prose.
+- Vignette scene text should be wrapped in a custom-style block so it is
+  visually distinct from analytical prose:
+  `::: {custom-style="Vignette Block"}` ... `:::`.
 
-- Keep the sub-heading outside the blockquote; only scene text should be blockquoted.
+- Keep the sub-heading outside the custom-style block; only scene text
+  should appear inside the vignette block.
 
 - Keep vignettes concise (typically 1-3 short paragraphs) and avoid turning them into standalone mini-chapters.
 
@@ -333,33 +336,33 @@ The book must:
 
 The book analyzes structure, not people.
 
-### **Vitality/Decay Neutrality Guardrail**
+### **Renewal/Erosion Neutrality Guardrail**
 
-- Treat vitality and decay as structural descriptors, not moral verdicts.
+- Treat renewal and erosion as structural descriptors, not moral verdicts.
 
-- Do not equate vitality with moral goodness or decay with moral evil.
+- Do not equate renewal with moral goodness or erosion with moral evil.
 
 - Prefer structural wording (for example: "more revisable," "more
   insulated," "more one-directional," "more open to correction") over
   moralized shorthand (for example: "healthier," "better people,"
-  "worse people") when describing vitality/decay dynamics.
+  "worse people") when describing renewal/erosion dynamics.
 
 - In plain-language revisions, preserve neutrality: simplify wording
   without converting structural claims into moral praise or blame.
 
-### **Vitality/Decay Canonical Lexicon**
+### **Renewal/Erosion Canonical Lexicon**
 
-- Use vitality/decay as umbrella directions.
+- Use renewal/erosion as umbrella directions.
 
 - Use these two capacities when precision is needed:
   - **Scalability**: can coordinated action grow in reach?
-  - **Adjustability**: can influence change direction when reality pushes back?
+  - **Adaptability**: can influence change direction when reality pushes back?
 
 - Use these four state terms for directional classification:
-  - **Vital**: high scalability, high adjustability
-  - **Nimble**: lower scalability, high adjustability
-  - **Brittle**: high scalability, low adjustability
-  - **Stagnant**: low scalability, low adjustability
+  - **Regenerative**: high scalability, high adaptability
+  - **Adaptive**: lower scalability, high adaptability
+  - **Entrenched**: high scalability, low adaptability
+  - **Stalled**: low scalability, low adaptability
 
 - Prefer capacity words when discussing one dimension only; prefer state
   words when both dimensions are implied.
@@ -444,7 +447,7 @@ All chapters must relate back to:
 
 - Revision or insulation.
 
-- Vitality or decay.
+- Renewal or erosion.
 
 No conceptual drift.
 
@@ -452,7 +455,7 @@ No conceptual drift.
 
 The manuscript's governing throughline is:
 
-Attention → Influence → Structure → Renewal or Decay
+Attention → Influence → Structure → Renewal or Erosion
 
 This throughline is a rule constraint, not a back matter section.
 

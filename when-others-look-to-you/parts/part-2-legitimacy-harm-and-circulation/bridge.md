@@ -10,7 +10,7 @@ error? Who is protected? Who is exposed? Harm allocation is not a side
 effect. It is a core signal of what leadership is becoming.
 
 The second focus is effectiveness over time. Short-term wins can coexist
-with long-term decay. Visible success can hide shrinking correction paths.
+with long-term erosion. Visible success can hide shrinking correction paths.
 
 The third focus is legitimacy. Why do people continue to look to someone?
 Because legitimacy can be example-based, procedural, office-based, or
@@ -25,8 +25,8 @@ paths for dissent, warning, and revision.
 
 This part carries forward a key claim from Part I: being looked to does
 not mean uniform obedience. Selective followership can function as
-correction in vital or nimble systems, or become quiet fracture in brittle
-or stagnant ones.
+correction in regenerative or adaptive systems, or become quiet fracture in entrenched
+or stalled ones.
 
 Across these chapters, track one continuity thread: crisis pressure often
 compresses judgment and makes displacement easier to justify. Part III

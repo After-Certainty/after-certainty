@@ -8,13 +8,13 @@ greater distance from consequence, and faster pressure cycles.
 
 At small scale, correction is often visible and personal. At institutional
 scale, signals travel farther, slower, and with more distortion. That does
-not make vitality impossible. It makes vitality work harder.
+not make renewal impossible. It makes renewal work harder.
 
 Carry forward the Chapter 2 model as you read:
 
-- Two capacities: scalability and adjustability.
-- Four states: vital, nimble, brittle, stagnant.
-- Vitality and decay as structural directions, not moral rankings.
+- Two capacities: scalability and adaptability.
+- Four states: regenerative, adaptive, entrenched, stalled.
+- Renewal and erosion as structural directions, not moral rankings.
 
 At scale, selective followership also changes form. Open dissent can turn
 into quiet divergence, local workarounds, and formal compliance without

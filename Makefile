@@ -86,7 +86,7 @@ export-docx: check-pandoc
 	@index="$$DIR/index.md"; \
 	test -f "$$index" || { echo "Error: $$index not found."; exit 1; }; \
 	out="$$DIR/export.docx"; \
-	set -- "$$index"; \
+	set --; \
 	links="$$(sed -n 's/.*](\([^)]*\.md\)).*/\1/p' "$$index")"; \
 	for rel in $$links; do \
 		file="$$DIR/$$rel"; \
@@ -96,7 +96,12 @@ export-docx: check-pandoc
 			echo "Warning: linked file not found: $$file"; \
 		fi; \
 	done; \
-	"$(PANDOC)" "$$@" -o "$$out"; \
+	ref="$$DIR/docs/reference.docx"; \
+	if [ -f "$$ref" ]; then \
+		"$(PANDOC)" "$$@" --resource-path="$$DIR" --reference-doc="$$ref" -o "$$out"; \
+	else \
+		"$(PANDOC)" "$$@" --resource-path="$$DIR" -o "$$out"; \
+	fi; \
 	echo "Created $$out"
 
 export-all-docx: check-pandoc

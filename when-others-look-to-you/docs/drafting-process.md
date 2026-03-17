@@ -4,6 +4,17 @@
 
 This document defines the drafting workflow for building the book in a structured, review-driven way.
 
+## Export and Production Notes
+
+- Use `docs/reference.docx` as the canonical Word template for `.docx`
+  exports.
+- The template defines the `Pattern Block`, `Pull Quote Block`, and
+  `Vignette Block` styles used by manuscript display blocks.
+- Keep technical export/configuration instructions in docs files like this
+  one, not in reader-facing manuscript prose.
+- Recommended export command:
+  `make export-docx DIR=when-others-look-to-you`
+
 ## Branch and PR Workflow (Applies Throughout)
 
 - Use one branch per part.
@@ -16,6 +27,8 @@ This document defines the drafting workflow for building the book in a structure
 - `<N>` is the numeric part number (no word forms such as `one`).
 - Create each part branch from the latest `main` before drafting that part.
 - Keep all chapter (and bridge, if present) work for that part on its corresponding part branch.
+- Back matter may use a dedicated branch when explicitly scoped as a
+  separate drafting phase (current: `when-others-look-to-you-back-matter`).
 - Do not commit per chapter or per bridge.
 - When the author explicitly marks a full part as approved, create one consolidated commit for that part, then push the part branch.
 - For front matter, draft and review as one batch and create one consolidated commit when explicitly approved.
@@ -110,7 +123,7 @@ At minimum:
 - Check for meta prose drift in analytical paragraphs (for example:
   "this chapter," "this section," "in this book") and rewrite into direct
   claim language unless the line is an explicit navigation/handoff.
-- Run a vitality/decay neutrality check: ensure plain-language edits do
+- Run a renewal/erosion neutrality check: ensure plain-language edits do
   not convert structural descriptors into moral praise/blame (for
   example: avoid replacing structural terms with "good/bad people" or
   equivalent moral framing).

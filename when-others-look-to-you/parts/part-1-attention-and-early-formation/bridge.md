@@ -11,8 +11,8 @@ This part follows that shift.
 Chapter 1 establishes the base condition: leadership begins when
 attention gathers around someone and direction is inferred.
 
-Chapter 2 names the two paths that follow: vitality and
-decay. Vitality is not charisma. Decay is not scandal. Both are formed
+Chapter 2 names the two paths that follow: renewal and
+erosion. Renewal is not charisma. Erosion is not scandal. Both are formed
 through repeated decisions about correction, harm, and responsibility.
 
 Chapter 3 asks why observers so often miss what is happening. We confuse

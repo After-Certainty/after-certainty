@@ -30,9 +30,34 @@ They summarize structure, not personality.
 They are not slogans, and they should be read as compression of the
 chapter's argument rather than as standalone aphorisms.
 
+They appear as short emphasized display blocks so they remain visually
+distinct from body paragraphs and from vignette scenes. Their formatting
+is intentionally compact so the quote reads as emphasis, not as a large
+callout box.
+
 Example:
 
-> "When others look to you, your posture becomes part of their world."
+::: {custom-style="Pull Quote Block"}
+When others look to you, your posture becomes part of their world.
+:::
+
+### **Pattern Blocks**
+
+Pattern insertions in chapters use a dedicated visual block so readers can
+recognize recurring structures without interrupting the prose flow.
+
+These blocks use subtle visual emphasis (such as light shading and a
+soft border) so they remain distinct from both normal prose and
+vignettes without overpowering the page.
+
+Example:
+
+::: {custom-style="Pattern Block"}
+**Pattern - Example Name**
+
+One to two sentences describing a recurring structural dynamic in the
+current context.
+:::
 
 ### **Vignettes**
 
@@ -46,8 +71,10 @@ analysis and ties the scene back to the chapter's central claim.
 Example:
 
 ### **The Meeting Pause**
-> The room goes quiet after a mistake is named. No one speaks first.
-> Then someone says, "Let's move on," and the room accepts it.
+::: {custom-style="Vignette Block"}
+The room goes quiet after a mistake is named. No one speaks first.
+Then someone says, "Let's move on," and the room accepts it.
+:::
 
 This scene shows how silence and response set an implicit boundary for
 what gets corrected.

@@ -10,8 +10,7 @@ systemic loss for many people. That is why where harm lands is central to
 leadership, not a late-stage ethical add-on.
 
 Most leaders believe they are acting for good. The practical question is
-not intent alone. It is where the costs of decisions land when pressure
-rises.
+not intent alone, but where decision costs land when pressure rises.
 
 ### **Four Harm Postures**
 
@@ -72,20 +71,29 @@ necessary, and displacement is treated as temporary even when it becomes
 habit.
 
 ### **The Friday Release**
->
-> A product team has one week left in the quarter. A known security flaw
-> is still unresolved. An engineer raises concern in the release meeting.
-> The director replies, "Log it and ship. We cannot miss guidance again."
->
-> The release goes out on time. Dashboard metrics look strong. Two weeks
-> later, customer support absorbs the fallout. Frontline staff manage
-> anger they did not create. The engineer who raised the warning is told
-> to be "more solution-oriented" next cycle.
+
+::: {custom-style="Vignette Block"}
+A product team has one week left in the quarter. A known security flaw
+is still unresolved. An engineer raises concern in the release meeting.
+The director replies, "Log it and ship. We cannot miss guidance again."
+
+The release goes out on time. Dashboard metrics look strong. Two weeks
+later, customer support absorbs the fallout. Frontline staff manage
+anger they did not create. The engineer who raised the warning is told
+to be "more solution-oriented" next cycle.
+:::
 
 This scene is not unusual. It shows harm displacement in compact form:
 risk moves outward to people affected by the decision and downward to
 those closest to the consequences while leadership protects a short-term
 story of success.
+
+::: {custom-style="Pattern Block"}
+**Pattern - Someone Else Pays**
+
+Decision benefits often stay near authority while decision costs move
+outward, weakening accountability and normalizing avoidable harm.
+:::
 
 If this pattern repeats, leadership shifts from harm-absorbing toward
 harm-tolerant or harm-instrumental leadership, even when leaders describe
@@ -117,7 +125,7 @@ Selective followership is one of the earliest harm indicators.
 In healthier settings, people can say, "This direction creates avoidable
 damage," and be heard. Selective refusal functions as warning.
 
-In decaying settings, people stop naming harm directly. They comply in
+In eroding settings, people stop naming harm directly. They comply in
 public, reroute work in private, and protect themselves through quiet
 workarounds. What looks like alignment can mask widening harm pathways.
 
@@ -138,10 +146,11 @@ drifting toward tolerance or blindness.
 Harm is the first check because it reveals reality quickly.
 
 Chapter 5 turns to the second focus: why short-term effectiveness can hide
-long-term decay.
+long-term erosion.
 
-> "Where harm lands often reveals what leadership is protecting."
-
+::: {custom-style="Pull Quote Block"}
+Where harm lands often reveals what leadership is protecting.
+:::
 [^c4-risk-distribution]: Ulrich Beck, *Risk Society: Towards a New Modernity* (London: Sage, 1992).
 [^c4-just-culture]: Sidney W. A. Dekker, *Just Culture: Restoring Trust and Accountability in Your Organization* (3rd ed., Boca Raton, FL: CRC Press, 2016).
 [^c4-power-harm]: Michel Foucault, *Discipline and Punish: The Birth of the Prison* (New York: Vintage Books, 1977).

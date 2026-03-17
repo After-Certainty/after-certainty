@@ -1,11 +1,12 @@
 # **When Others Look to You**
 
-## **Vitality and Decay in Leadership**
+## **Renewal and Erosion in Leadership**
 
 ### **Manuscript Index**
 
 ## Front Matter
 
+- [Title Page](front-matter/title-page.md)
 - [Author's Note](front-matter/authors-note.md)
 - [Preface](front-matter/preface.md)
 - [Typographical Conventions](front-matter/typographical-conventions.md)
@@ -17,7 +18,7 @@
 
 - [Bridge — From Attention to Pattern](parts/part-1-attention-and-early-formation/bridge.md)
 - [Chapter 1 — The Weight of Being Looked To](parts/part-1-attention-and-early-formation/chapter-1-the-weight-of-being-looked-to.md)
-- [Chapter 2 — Vitality and Decay](parts/part-1-attention-and-early-formation/chapter-2-vitality-and-decay.md)
+- [Chapter 2 — Renewal and Erosion](parts/part-1-attention-and-early-formation/chapter-2-renewal-and-erosion.md)
 - [Chapter 3 — Why We Misjudge Leaders](parts/part-1-attention-and-early-formation/chapter-3-why-we-misjudge-leaders.md)
 
 ## Part II — Legitimacy, Harm, and Circulation
@@ -39,4 +40,5 @@
 
 - [Epilogue](back-matter/epilogue.md)
 - [Appendix A — Legitimacy Transfer in Practice](back-matter/appendix-a-legitimacy-transfer.md)
+- [Appendix B — Leadership Patterns](back-matter/appendix-b-leadership-patterns.md)
 - [Bibliography](back-matter/bibliography.md)
