@@ -52,11 +52,14 @@ socially expensive to surface.[^c3-psychological-safety] People close to
 problems often carry the highest local risk for naming them.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Bad News Travels**
+**Pattern - You Can Bring Them Bad News**
 
 When dissent and risk signals can move upward in time, correction stays
 possible; when they cannot, failure grows in the dark.
 :::
+
+When that pathway closes, **You Can Bring Them Bad News** is no longer
+true in practice.
 
 ### **The Intention Trap**
 
@@ -90,7 +93,7 @@ In more regenerative or adaptive systems, selective dissent is visible and usabl
 In entrenched or stalled systems, it goes quiet and becomes hidden
 workarounds.
 
-When observers collapse all this into a single category - whether "they
+When observers collapse all this into a single category - either "they
 are with the leader" or "they are against the leader" - they miss the
 structure that actually predicts renewal or erosion.
 
@@ -130,11 +133,14 @@ each other: visible success can hide degrading conditions until repair
 becomes expensive.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Consequences Don't Come Back**
+**Pattern - Consequences Don’t Come Back**
 
 When decision-makers are buffered from downstream effects, negative
 feedback weakens and structural drift continues behind strong narratives.
 :::
+
+In that condition, **Consequences Don’t Come Back** becomes a structural
+condition, not an isolated error.
 
 ### **What to Watch Instead**
 

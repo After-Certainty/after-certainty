@@ -15,9 +15,9 @@ The second chapter names the two paths that follow: renewal and
 erosion. Renewal is not charisma. Erosion is not scandal. Both are formed
 through repeated decisions about correction, harm, and responsibility.
 
-The third chapter asks why observers so often miss what is happening. We confuse
-outcomes with legitimacy. We miss insulation while it is being built. We
-treat confidence as evidence and repetition as proof.
+The third chapter asks why observers so often miss what is happening: we
+confuse outcomes with legitimacy, miss insulation while it is being
+built, and treat confidence as evidence and repetition as proof.
 
 The sequence matters. We begin with attention, then track what that
 attention rewards, and then examine why our judgments fail.

@@ -6,6 +6,8 @@ Return to the definition:
 A leader is someone others look to when deciding what to do next.
 :::
 
+That is the moment **Attention Comes Into Focus**.
+
 The final question is not whether others look. It is what that looking
 builds over time.
 
@@ -32,6 +34,8 @@ A short set of cross-domain examples helps keep this concrete:
 
 Each case can look stable on the surface while the underlying structure
 drifts toward entrenched or stalled conditions.
+Within that drift, **Consequences Don’t Come Back** can still look like calm
+coordination from the outside.
 
 ### **Two Arcs**
 
@@ -62,7 +66,8 @@ But partial repair is still possible:
 - Reduce harm concentration.
 - Reopen specific correction paths.
 - Rebind authority to visible consequence.
-- Prevent temporary exceptions from hardening into permanent baseline.
+- Prevent temporary exceptions from hardening into a permanent baseline,
+  the drift described by **Exceptions Are Forever**.
 
 Repair at this stage is usually uneven, local, and slow. That does not
 make it trivial. It makes it realistic.
@@ -76,7 +81,8 @@ Renewal is not permanence. It is sustained reach with usable adjustment
 under attention.
 
 The epilogue turns to the boundary condition directly: what remains
-possible when slowdown is still possible but full restoration is not.
+possible when slowdown is still possible but full restoration is not yet
+available.
 
 ::: {custom-style="Pull Quote Block"}
 What follows attention is not fate. It is structure repeated.

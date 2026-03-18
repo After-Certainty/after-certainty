@@ -30,7 +30,7 @@ Pressure response often reveals state more clearly than routine conditions:
 - **Entrenched:** reach still holds, but revision narrows.
 - **Stalled:** neither reach nor revision holds with reliability.
 
-This is why crisis is a diagnostic, not only a disruption.
+This is why crisis is a diagnostic, not just a disruption.
 
 ### **Crisis Across the Lenses**
 
@@ -56,6 +56,8 @@ In the first week, response speed improves and visible disruption drops.
 Frontline teams also report repeated blind spots in neighborhood access,
 but route corrections are delayed because the temporary command protocol
 blocks local overrides.
+In crisis, this is one way **Tone Sets the Room** against correction
+signals.
 
 Months later, the storm is over, but the centralized approval path
 remains. Officials describe it as "proven under pressure."
@@ -65,7 +67,7 @@ The tradeoff was initially practical, but drift came later when temporary
 exception logic became default governance.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Temporary Becomes Permanent**
+**Pattern - Exceptions Are Forever**
 
 Exceptions introduced under urgency tend to persist, and temporary
 permissions can harden into the new operating baseline.
@@ -95,11 +97,15 @@ You can often see the crossing in sequence:
 
 At that point, pressure is no longer the cause. It has become the
 explanation for a new baseline.
+Then **Exceptions Are Forever** is no longer a warning; it is a
+governing condition.
 
 ### **Connection to Chapter 10**
 
 Tradeoffs under pressure show trajectories. Chapter 10 asks what remains
 possible once trajectories are visible but reversal is incomplete.
+It also asks what remains possible once **Exceptions Are Forever** has
+begun to shape the baseline.
 
 ::: {custom-style="Pull Quote Block"}
 Pressure does not choose for us. It reveals what we are willing to lock in.

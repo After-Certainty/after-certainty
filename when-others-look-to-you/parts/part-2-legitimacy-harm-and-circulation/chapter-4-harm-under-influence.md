@@ -76,6 +76,7 @@ habit.
 A product team has one week left in the quarter. A known security flaw
 is still unresolved. An engineer raises concern in the release meeting.
 The director replies, "Log it and ship. We cannot miss guidance again."
+That first response is where **Tone Sets the Room** for what follows.
 
 The release goes out on time. Dashboard metrics look strong. Two weeks
 later, customer support absorbs the fallout. Frontline staff manage
@@ -95,7 +96,7 @@ Decision benefits often stay near authority while decision costs move
 outward, weakening accountability and normalizing avoidable harm.
 :::
 
-If this pattern repeats, leadership shifts from harm-absorbing toward
+As **Someone Else Pays** repeats, leadership can shift from harm-absorbing toward
 harm-tolerant or harm-instrumental leadership, even when leaders describe
 the decision as necessary.
 
@@ -138,8 +139,9 @@ When evaluating leadership under influence, ask:
 - Who can surface harm without retaliation?
 - What changed after harm was named?
 
-If these questions cannot be answered clearly, the group is likely
-drifting toward tolerance or blindness.
+If these questions cannot be answered clearly, **Someone Else Pays** is
+likely becoming normalized and the group is drifting toward tolerance or
+blindness.
 
 ### **Connection to Part II**
 

@@ -7,7 +7,7 @@ when it appears, what is happening, and what tends to follow.
 These patterns are not prescriptions; they are observable conditions
 that recur across domains, from small groups to large institutions.
 
-### **Attention Gathering**
+## **Attention Comes Into Focus**
 
 **Context:**
 
@@ -28,13 +28,13 @@ will lead.
 
 **Observation:**
 
-Attention concentrates around a person, and others begin orienting their
-behavior in response to that person's actions, tone, or timing.
+Attention comes into focus around a person, and others begin orienting
+their behavior in response to that person’s actions, tone, or timing.
 
 **Effect:**
 
-Influence multiplies immediately, and the person being looked to
-becomes structurally significant whether or not they claim authority.
+Influence multiplies immediately. The person being looked to becomes
+structurally significant, whether or not they claim authority.
 
 **Resulting Context:**
 
@@ -43,10 +43,9 @@ reinforces attention, and authority begins to consolidate.
 
 **Related Patterns:**
 
-- Tone Sets the Room
-- The One We Default To
+Tone Sets the Room; The One We Default To
 
-### **Tone Sets the Room**
+## **Tone Sets the Room**
 
 **Context:**
 
@@ -66,25 +65,24 @@ are absent or incomplete.
 
 **Observation:**
 
-Others watch how the leader responds and use that response to interpret
-what is acceptable.
+People take their cues from how the leader responds, not what is
+formally stated.
 
 **Effect:**
 
-Norms form quickly without explicit agreement, and they shape how truth,
-error, and risk are handled.
+Norms form quickly without explicit agreement, shaping how truth, error,
+and risk are handled.
 
 **Resulting Context:**
 
-Behavior becomes patterned, and future situations are interpreted
-through the established tone.
+Behavior becomes patterned. Future situations are interpreted through
+the established tone.
 
 **Related Patterns:**
 
-- Attention Gathering
-- Bad News Travels
+Attention Comes Into Focus; You Can Bring Them Bad News
 
-### **The One We Default To**
+## **The One We Default To**
 
 **Context:**
 
@@ -104,12 +102,12 @@ distributed.
 
 **Observation:**
 
-The group defers to the same person automatically, even in situations
+The group defaults to the same person automatically, even in situations
 where no formal authority exists.
 
 **Effect:**
 
-Authority consolidates through repetition and becomes harder to
+Authority forms through repetition and becomes difficult to
 redistribute.
 
 **Resulting Context:**
@@ -119,10 +117,9 @@ leadership pathways weaken.
 
 **Related Patterns:**
 
-- Attention Gathering
-- Authority Becomes Untouchable
+Attention Comes Into Focus; No One Pushes Back
 
-### **Someone Else Pays**
+## **Someone Else Pays**
 
 **Context:**
 
@@ -142,7 +139,7 @@ aligned.
 
 **Observation:**
 
-The cost of decisions is absorbed by people other than the
+The cost of decisions is carried by people other than the
 decision-maker.
 
 **Effect:**
@@ -151,15 +148,14 @@ Accountability weakens, and harm becomes easier to normalize or repeat.
 
 **Resulting Context:**
 
-Costs are displaced across the system, reducing trust while increasing
-the hidden accumulation of risk.
+Costs are displaced across the system, reducing trust and increasing
+hidden accumulation of risk.
 
 **Related Patterns:**
 
-- Consequences Don't Come Back
-- Authority Becomes Untouchable
+Consequences Don’t Come Back; No One Pushes Back
 
-### **Bad News Travels**
+## **You Can Bring Them Bad News**
 
 **Context:**
 
@@ -179,13 +175,13 @@ decision-makers.
 
 **Observation:**
 
-In healthier systems, bad news moves upward and reaches authority in
-time to influence decisions.
+In healthier systems, people can bring bad news to decision-makers and
+be heard in time to influence decisions.
 
 **Effect:**
 
-Early correction remains possible, and the scale and cost of failure can
-stay lower.
+Early correction remains possible, reducing the scale and cost of
+failure.
 
 **Resulting Context:**
 
@@ -194,10 +190,9 @@ problems grow before they are addressed.
 
 **Related Patterns:**
 
-- Tone Sets the Room
-- Consequences Don't Come Back
+Tone Sets the Room; Consequences Don’t Come Back
 
-### **Authority Becomes Untouchable**
+## **No One Pushes Back**
 
 **Context:**
 
@@ -217,13 +212,13 @@ Maintaining authority begins to compete with maintaining correctness.
 
 **Observation:**
 
-Questioning becomes difficult, and dissent is reduced, softened, or
-avoided.
+Dissent disappears or is softened to the point that it no longer
+meaningfully challenges decisions.
 
 **Effect:**
 
-Correction pathways narrow, and the risk of hidden errors and delayed
-failure increases.
+Correction pathways narrow, increasing the risk of hidden errors and
+delayed failure.
 
 **Resulting Context:**
 
@@ -232,10 +227,9 @@ accelerates.
 
 **Related Patterns:**
 
-- The One We Default To
-- Consequences Don't Come Back
+The One We Default To; Consequences Don’t Come Back
 
-### **Consequences Don't Come Back**
+## **Consequences Don’t Come Back**
 
 **Context:**
 
@@ -257,12 +251,12 @@ decision-makers.
 **Observation:**
 
 Those making decisions do not directly feel or receive the full impact
-of the outcomes.
+of outcomes.
 
 **Effect:**
 
-Feedback loops weaken, and decisions drift away from reality while
-appearing stable.
+Feedback loops weaken. Decisions drift away from reality while appearing
+stable.
 
 **Resulting Context:**
 
@@ -271,10 +265,9 @@ expensive.
 
 **Related Patterns:**
 
-- Someone Else Pays
-- Bad News Travels
+Someone Else Pays; You Can Bring Them Bad News
 
-### **Temporary Becomes Permanent**
+## **Exceptions Are Forever**
 
 **Context:**
 
@@ -295,13 +288,13 @@ conditions stabilize.
 
 **Observation:**
 
-Practices introduced as temporary responses persist beyond the original
+Exceptions introduced under pressure persist beyond the original
 conditions.
 
 **Effect:**
 
-Exception logic becomes default structure, and deliberate re-evaluation
-stops happening by default.
+Temporary decisions become permanent structure without deliberate
+evaluation.
 
 **Resulting Context:**
 
@@ -310,5 +303,4 @@ over time.
 
 **Related Patterns:**
 
-- Authority Becomes Untouchable
-- Consequences Don't Come Back
+No One Pushes Back; Consequences Don’t Come Back

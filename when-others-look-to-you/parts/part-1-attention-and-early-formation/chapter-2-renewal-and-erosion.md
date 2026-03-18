@@ -8,15 +8,16 @@ Chapter 1 established the opening condition: attention can gather without
 guaranteeing obedience, and influence can be high while compliance is
 partial. The next question is what that influence repeatedly produces.
 
-Once attention gathers around someone, the surrounding group moves in one
-of two directions. It can stay open to course correction and keep
+Once **Attention Comes Into Focus**, the surrounding group moves in one of
+two directions. It can stay open to course correction and keep
 coordinated action coherent as reach grows. Or it can narrow toward
 insulation, where correction weakens and reach starts to break down.[^c2-organizational-defenses]
 
 These two directions are renewal and erosion.
 
-These describe how a group behaves, not whether a leader is good or bad. A leader can have
-good intentions and still produce erosion. A leader can carry personal
+These directions describe how a group behaves, not whether a leader is
+good or bad. A leader can have good intentions and still produce
+erosion. A leader can carry personal
 flaws and still sustain renewal. The distinction is not about purity.
 It is about what the group does when pressure rises.
 
@@ -38,8 +39,8 @@ These capacities create four practical states:
 - **Entrenched:** high scalability and low adaptability.
 - **Stalled:** low scalability and low adaptability.
 
-Regenerative and adaptive sit on the renewal side. Entrenched and stalled sit on the
-erosion side.
+Regenerative and adaptive sit on the renewal side. Entrenched and
+stalled sit on the erosion side.
 
 ### **What Renewal Looks Like**
 
@@ -50,8 +51,9 @@ People closest to consequences can still speak. Disagreement is possible
 without social exile. Early warnings are not treated as betrayal.
 Mistakes are surfaced before they become identity threats.
 
-High-renewal groups do not avoid failure. They shorten the time between signal
-and response. They correct earlier, at lower cost, with less drama.
+High-renewal groups do not avoid failure. They shorten the time between
+signal and response. They correct earlier, at lower cost, with less
+drama.
 
 In these groups, authority does not disappear. It becomes more precise.
 Responsibility is clear. Escalation paths are clear. Repair is clear.
@@ -76,6 +78,7 @@ contradiction.
 Erosion rarely announces itself. It is assembled through ordinary choices:
 who gets interrupted, who gets promoted, which measures count, which
 stories are repeated, which failures are forgiven, and which are hidden.
+Over time, repeated deference can harden into **The One We Default To**.
 
 Some eroding groups still scale for long periods. What drops first is
 usually revisability.
@@ -84,8 +87,8 @@ Over time, the structure learns a dangerous lesson: image protection is
 more important than correction. Once that lesson settles, bad outcomes
 can increase while internal certainty also increases.
 
-This is why erosion often looks like stability to insiders. The same people
-stay in place. Meetings run on time. Plans look coherent. Language
+This is why erosion often looks like stability to insiders. The same
+people stay in place. Meetings run on time. Plans look coherent. Language
 becomes smoother. But permeability falls, and the cost of truth rises.
 
 ### **The Cost Gradient**
@@ -113,18 +116,17 @@ of it, but there is visible linkage between decision rights and
 accountability.
 
 In eroding groups, costs move downward or outward: those closest to the
-consequences, people affected by the decision, or peripheral groups absorb
-the effects while central decision-makers preserve narrative control. This
-displacement is often
-framed as necessity, but repeated displacement is an early warning,
-not an unfortunate accident.
+consequences, people affected by the decision, or peripheral groups
+absorb the effects while central decision-makers preserve narrative
+control. This displacement is often framed as necessity, but repeated
+displacement is an early warning, not an unfortunate accident.
 
 ### **Selective Followership as a Signal**
 
 Not all refusal means disorder.
 
-In high-renewal groups, selective refusal can function as correction. People can
-say, "I agree with the goal, but not this method," without becoming
+In high-renewal groups, selective refusal can function as correction.
+People can say, "I agree with the goal, but not this method," without becoming
 enemies of the group. That kind of bounded resistance protects judgment
 and keeps authority connected to consequences.
 

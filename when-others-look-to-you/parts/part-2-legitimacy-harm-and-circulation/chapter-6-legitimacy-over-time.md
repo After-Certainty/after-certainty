@@ -43,6 +43,7 @@ People look because permission attaches to the office itself.
 Office-based legitimacy protects continuity at scale. It also allows
 authority to be inherited even when current behavior is weaker than the
 founding example.
+At scale, this can solidify who becomes **The One We Default To**.
 
 This is where transfer risk rises: authority travels forward by default,
 while accountability often remains tied to earlier decisions.
@@ -59,17 +60,20 @@ can look like strength. Structurally, it is erosion because critique no
 longer changes direction.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Authority Becomes Untouchable**
+**Pattern - No One Pushes Back**
 
 When challenge is recoded as disloyalty, authority becomes harder to
 revise and correction pathways begin to close.
 :::
 
+Once that shift takes hold, **No One Pushes Back** can persist even when
+formal process remains intact.
+
 ### **How Legitimacy Transfers and Shifts**
 
 A common arc is:
 
-Example-based -> Procedural -> Office-based -> Sacralized
+Example-based -> procedural -> office-based -> sacralized
 
 This movement is not inevitable, but it is common. Groups that stay
 adaptive find ways to cycle back toward example-based renewal before
@@ -89,6 +93,7 @@ legitimacy is likely renewing.
 If people comply publicly but diverge privately, legitimacy is likely
 hardening toward office-based or sacralized forms. In that state, surface
 order can hide deeper trust loss.
+If uncorrected, groups drift toward **No One Pushes Back**.
 
 ### **Legitimacy and Accountability**
 

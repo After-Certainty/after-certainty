@@ -8,6 +8,7 @@ whether influence can move back in.
 Authority circulation means warnings, dissent, and on-the-ground
 information can reach decision-makers and change direction without
 punishment.[^c7-voice]
+In practice, that is the operating condition of **You Can Bring Them Bad News**.
 
 Circulation is one of the clearest practical markers of whether a group is
 regenerative, adaptive, entrenched, or stalled.
@@ -78,6 +79,8 @@ practical divergence in day-to-day operations.
 
 That split is one of the clearest indicators that authority has become
 more one-directional and less revisable.
+It is also where **Consequences Don’t Come Back** begins to govern daily
+operations.
 
 ### **Four Circulation Questions**
 
