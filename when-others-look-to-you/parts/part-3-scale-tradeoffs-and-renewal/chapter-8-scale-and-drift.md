@@ -58,7 +58,7 @@ Different legitimacy forms respond differently to scale:
 - **Office-based legitimacy** stabilizes continuity, but can transfer
   permission faster than accountability transfers.
 - **Sacralized legitimacy** becomes easier to entrench as systems abstract
-  and dissent diffuses.[^c8-legitimacy]
+  and dissent diffuses, which can slide toward **No One Pushes Back**.[^c8-legitimacy]
 
 Scale does not eliminate judgment. It changes where judgment gets lost.
 
@@ -73,6 +73,8 @@ reality.[^c8-hidden-transcripts]
 This is one reason circulation matters so much at scale. If concern cannot
 travel back with enough force to change direction, reach can grow while
 learning shrinks.
+When this repeats, **Consequences Don’t Come Back** becomes a
+practical operating risk.
 
 ### **Human Scale as a Contrast**
 

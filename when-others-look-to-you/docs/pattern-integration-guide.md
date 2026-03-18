@@ -78,7 +78,7 @@ moments.
 
 Use these exact names:
 
-1.  Attention Gathering
+1.  Attention Comes Into Focus
 
 2.  Tone Sets the Room
 
@@ -86,13 +86,13 @@ Use these exact names:
 
 4.  Someone Else Pays
 
-5.  Bad News Travels
+5.  You Can Bring Them Bad News
 
-6.  Authority Becomes Untouchable
+6.  No One Pushes Back
 
-7.  Consequences Don't Come Back
+7.  Consequences Don’t Come Back
 
-8.  Temporary Becomes Permanent
+8.  Exceptions Are Forever
 
 Do not rename or vary phrasing.
 
@@ -168,6 +168,9 @@ Patterns should not be repeated across multiple weak contexts.
 
 If a pattern appears more than twice, it is likely overused.
 
+Note: this cap applies to **pattern blocks**. Inline bolded anchors are
+governed by the Inline Pattern Anchors section and should remain sparse.
+
 ### **Rule 6 — Maintain Flow**
 
 The paragraph before and after the pattern should read naturally if the
@@ -216,13 +219,103 @@ When considering inserting a pattern:
 
 If no pattern is clearly dominant, do not insert one.
 
+## **Inline Pattern Anchors (Bolded Mentions)**
+
+Use inline anchors to reinforce pattern recall inside normal prose.
+
+Inline anchors are not pattern blocks. They are short in-sentence uses of
+the canonical pattern names in bold:
+
+- `**Attention Comes Into Focus**`
+- `**Tone Sets the Room**`
+- `**The One We Default To**`
+- `**Someone Else Pays**`
+- `**You Can Bring Them Bad News**`
+- `**No One Pushes Back**`
+- `**Consequences Don’t Come Back**`
+- `**Exceptions Are Forever**`
+
+### **Inline Anchor Rules**
+
+1. **Sequence rule (required):** do not use a pattern name inline before
+   that pattern has been introduced in a pattern block earlier in the
+   book.
+2. **Use canonical spelling exactly:** same capitalization, apostrophe
+   style, and wording as the canonical list.
+3. **Keep anchors sparse:** usually 0-2 inline anchors per chapter.
+4. **No stacked anchors:** do not place multiple bolded pattern names in
+   the same sentence.
+5. **No label format inline:** do not write `Pattern - ...` in body prose.
+   Use only the bolded name.
+6. **Flow first:** the sentence must read naturally if the bolding is
+   removed.
+
+### **Introduction Sequence (for Inline Eligibility)**
+
+Patterns become eligible for inline use only after these introduction
+chapters:
+
+- After **Chapter 1**:
+  - Attention Comes Into Focus
+  - Tone Sets the Room
+  - The One We Default To
+- After **Chapter 3**:
+  - You Can Bring Them Bad News
+  - Consequences Don’t Come Back
+- After **Chapter 4**:
+  - Someone Else Pays
+- After **Chapter 6**:
+  - No One Pushes Back
+- After **Chapter 9**:
+  - Exceptions Are Forever
+
+### **Inline Syntax Pattern**
+
+Preferred form:
+
+- "...this is where **Someone Else Pays** becomes visible."
+- "...the group drifts toward **No One Pushes Back**."
+- "...what looks stable can mask **Consequences Don’t Come Back**."
+
+### **Grammar Rule for Inline Anchors**
+
+Treat each pattern name as a fixed title and insert it where a noun phrase
+fits naturally in the sentence.
+
+- Use with a determiner when needed: "the pattern **Someone Else Pays**,"
+  "a drift toward **No One Pushes Back**."
+- Keep subject-verb agreement with the surrounding sentence:
+  "**Consequences Don’t Come Back** is visible here" (not "are visible").
+- Keep tense and preposition logic in the host sentence:
+  "drifts toward **No One Pushes Back**," "slides into
+  **Exceptions Are Forever**," "shows **You Can Bring Them Bad News**."
+- If the sentence becomes awkward, rewrite the sentence; do not bend the
+  pattern name.
+
+Good:
+
+- "In this section, the pattern **Someone Else Pays** becomes visible."
+- "Over time, the group drifts toward **No One Pushes Back**."
+- "What looks stable can mask **Consequences Don’t Come Back**."
+
+Avoid:
+
+- "This is **Someone Else Pays**."
+- "They are **No One Pushes Back**."
+- "The system is **You Can Bring Them Bad News**."
+
+Avoid:
+
+- "Pattern - Someone Else Pays"
+- "this is an example of Someone Else Pays pattern dynamics occurring..."
+
 ## **Placement Guidance by Chapter (Canonical)**
 
 ### **Chapter 1 — Formation**
 
 Primary:
 
-- Attention Gathering
+- Attention Comes Into Focus
 
 - Tone Sets the Room
 
@@ -232,9 +325,9 @@ Primary:
 
 Primary:
 
-- Bad News Travels
+- You Can Bring Them Bad News
 
-- Consequences Don't Come Back
+- Consequences Don’t Come Back
 
 ### **Chapter 4 — Harm**
 
@@ -244,45 +337,161 @@ Primary:
 
 Optional:
 
-- Consequences Don't Come Back (only if strongly demonstrated)
+- Consequences Don’t Come Back (only if strongly demonstrated)
 
 ### **Chapter 5 — Effectiveness**
 
 Optional:
 
-- Consequences Don't Come Back (only if strongest example occurs here)
+- Consequences Don’t Come Back (only if strongest example occurs here)
 
 ### **Chapter 6 — Legitimacy**
 
 Primary:
 
-- Authority Becomes Untouchable
+- No One Pushes Back
 
 ### **Chapter 7 — Circulation**
 
 Optional:
 
-- Bad News Travels (only if not already strongly placed)
+- You Can Bring Them Bad News (only if not already strongly placed)
 
 ### **Chapter 8 — Scale**
 
 Optional:
 
-- Consequences Don't Come Back (only if strongest example occurs here)
+- Consequences Don’t Come Back (only if strongest example occurs here)
 
 ### **Chapter 9 — Tradeoffs / Crisis**
 
 Primary:
 
-- Temporary Becomes Permanent
+- Exceptions Are Forever
 
 ### **Chapter 10 / Epilogue**
 
 Optional (light reinforcement only):
 
-- Temporary Becomes Permanent
+- Exceptions Are Forever
 
-- Consequences Don't Come Back
+- Consequences Don’t Come Back
+
+## **Opportunity Map for Inline Anchors (Before Manuscript Edits)**
+
+This map identifies strong candidate places to add bolded inline anchors
+throughout the manuscript while following the sequence rule above.
+
+### **Chapter 2 — Renewal and Erosion**
+
+Eligible patterns: Attention Comes Into Focus; Tone Sets the Room; The One
+We Default To.
+
+Strong opportunities:
+
+- In the opening transition from Chapter 1's attention dynamic into
+  renewal/erosion framing.
+- In "What Renewal Looks Like," where early warnings remain discussable
+  (**Tone Sets the Room**).
+- In "What Erosion Looks Like," where repetition hardens authority
+  (**The One We Default To**).
+
+### **Chapter 3 — Why We Misjudge Leaders**
+
+Eligible patterns (newly introduced here): You Can Bring Them Bad News;
+Consequences Don’t Come Back.
+
+Strong opportunities:
+
+- In "Structural Blindness," where dissent channels narrow
+  (**You Can Bring Them Bad News**).
+- In the principal vignette analysis, where effects are buffered from
+  decision-makers (**Consequences Don’t Come Back**).
+
+### **Chapter 4 — Harm Under Influence**
+
+Eligible patterns (newly introduced here): Someone Else Pays.
+
+Strong opportunities:
+
+- In "How Harm Gets Displaced," where costs move downward/outward
+  (**Someone Else Pays**).
+- In the post-vignette interpretation paragraph, where leadership protects
+  short-term narrative at others' expense.
+
+### **Chapter 5 — Effectiveness and Its Illusions**
+
+Eligible patterns: Someone Else Pays; You Can Bring Them Bad News;
+Consequences Don’t Come Back.
+
+Strong opportunities:
+
+- In "When Success Accelerates Insulation," where critical signals arrive
+  later or not at all (**You Can Bring Them Bad News**).
+- In "Performative Compliance vs Real Alignment," where visible results
+  mask hidden structural drift (**Consequences Don’t Come Back**).
+
+### **Chapter 6 — Legitimacy Over Time**
+
+Eligible patterns (newly introduced here): No One Pushes Back.
+
+Strong opportunities:
+
+- In the sacralization discussion where critique no longer changes
+  direction (**No One Pushes Back**).
+- In "Selective Followership as a Probe," when disagreement collapses into
+  public compliance and private divergence.
+
+### **Chapter 7 — Authority Circulation**
+
+Eligible patterns: You Can Bring Them Bad News; No One Pushes Back;
+Consequences Don’t Come Back.
+
+Strong opportunities:
+
+- In "The Return Path," where warnings must travel back to change
+  direction (**You Can Bring Them Bad News**).
+- In "The Quiet Workaround," where formal alignment masks practical
+  divergence (**Consequences Don’t Come Back**).
+
+### **Chapter 8 — Scale and Drift**
+
+Eligible patterns: Consequences Don’t Come Back; No One Pushes Back.
+
+Strong opportunities:
+
+- In "Selective Followership at Scale," where feedback cannot return with
+  enough force (**Consequences Don’t Come Back**).
+- In legitimacy-at-scale discussion where dissent diffuses and entrenchment
+  grows (**No One Pushes Back**).
+
+### **Chapter 9 — Tradeoffs Under Pressure**
+
+Eligible patterns (newly introduced here): Exceptions Are Forever.
+
+Strong opportunities:
+
+- In "Boundary Conditions," at the transition from temporary exception to
+  default practice (**Exceptions Are Forever**).
+- In post-vignette commentary where emergency logic becomes baseline
+  governance.
+
+### **Chapter 10 and Epilogue**
+
+Eligible patterns: all patterns.
+
+Strong opportunities:
+
+- In "Two Arcs" and "After Boundary Conditions Are Crossed," where
+  transfer, insulation, and delayed feedback converge
+  (**Consequences Don’t Come Back**, **No One Pushes Back**).
+- In epilogue sections on emergency permissions and damage containment
+  (**Exceptions Are Forever**, **Someone Else Pays**).
+
+### **Bridges (Light Use Only)**
+
+Use at most one inline anchor per bridge, and only when it improves
+recall without sounding repetitive.
 
 ## **Anti-Patterns (What to Avoid)**
 

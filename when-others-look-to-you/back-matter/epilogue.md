@@ -23,7 +23,8 @@ In this phase, progress can look modest:
 
 - Fewer harms pushed to the edge.
 - More decisions reopened before they harden.
-- Clearer limits on emergency permissions.
+- Clearer limits on emergency permissions, so **Exceptions Are Forever**
+  does not become the default mode of governance.
 - Stronger protection for dissent and correction.
 
 These shifts rarely feel dramatic. They are still structural gains.
@@ -46,6 +47,8 @@ None of this guarantees a happy ending.
 
 It does something quieter and more realistic: it reduces how much harm can
 be normalized, inherited, and repeated.
+Without that work, **Someone Else Pays** can become a durable norm rather
+than an intermittent failure.
 
 If the lens from this book changes what you tolerate, what you reward, and
 what you refuse to excuse, then the structure is already moving.

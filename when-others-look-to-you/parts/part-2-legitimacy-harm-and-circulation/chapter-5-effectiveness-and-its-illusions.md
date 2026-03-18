@@ -29,6 +29,8 @@ It can also reduce correction.
 After visible wins, dissent can look unnecessary. Critical voices are
 reframed as blockers. Signals that conflict with the success narrative
 arrive later, softer, or not at all.[^c5-escalation]
+In practice, this is how **Tone Sets the Room** under the pressure of success.
+Under those conditions, **You Can Bring Them Bad News** is already weakening.
 
 This is one of leadership's recurring traps: success narrows the very
 channels needed to prevent future failure.
@@ -67,6 +69,8 @@ People can produce favorable numbers while privately withdrawing trust.
 They can repeat approved language while silently routing around decisions
 they do not believe in. In these conditions, the group appears coordinated, but
 its ability to act together is already splitting underneath.
+In that split, **Consequences Don’t Come Back** can hide behind strong
+reporting.
 
 This is why selective followership matters when judging effectiveness.
 Open disagreement can strengthen results. Quiet divergence usually

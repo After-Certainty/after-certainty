@@ -17,7 +17,7 @@ charisma, or intention. It requires orientation: when others orient
 themselves around you, your influence multiplies.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Attention Gathering**
+**Pattern - Attention Comes Into Focus**
 
 Under uncertainty, attention concentrates quickly, and that concentration
 creates influence before formal authority is named.
