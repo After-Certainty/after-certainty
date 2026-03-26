@@ -17,16 +17,14 @@ influence is still forming.
 The book uses one durable definition as its anchor, introduced directly in
 the Introduction.
 
-From that anchor, each chapter studies a different pressure on
-leadership:
+From that anchor, the chapters move in three passes:
 
-- Attention and consequence
-- Renewal and erosion
-- Legitimacy over time
-- Harm under influence
-- Circulation and insulation
-- Scale and drift
-- Tradeoffs under pressure
+- **Part I:** how attention becomes influence; renewal and erosion; why
+  observers so often misjudge leaders from outcomes and confidence alone.
+- **Part II:** harm, effectiveness, legitimacy, and circulation—each a
+  separate lens on what influence is producing.
+- **Part III:** scale and drift; tradeoffs under pressure; and what can
+  still change once the lenses are combined.
 
 The language stays simple on purpose. The ideas are serious, but they do
 not require ornate phrasing to be useful.

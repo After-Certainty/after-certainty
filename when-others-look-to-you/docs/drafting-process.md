@@ -160,6 +160,13 @@ At minimum:
 - If "Keep-Protected-Example" is used, include the quoted passage and note
   "protected unless author requests revision" in the section audit summary.
 
+- Run **`docs/editorial-vocabulary.md`** as a mandatory checklist for *When
+  Others Look to You* after this step: it encodes approved outcomes from
+  recent passes (Chapter 2 renewal/erosion wording, Chapter 6 look/follow
+  and legitimacy plain speak, Chapters 4–5 harm/effectiveness domain and
+  jargon swaps, Part III definition echo rules). Update that file when a new
+  house rule is adopted.
+
 ## Step 5.9: Late-Addition Continuity Guardrail
 
 When adding new material after a section is already drafted, run a

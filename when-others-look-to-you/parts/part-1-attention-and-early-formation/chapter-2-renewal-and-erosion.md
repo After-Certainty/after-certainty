@@ -1,8 +1,8 @@
 # **Chapter 2 — Renewal and Erosion**
 
-### **Two Directions, One Structure**
+### **Two Directions**
 
-Leadership patterns do not stand still.[^c2-adaptive-systems]
+What a group does under attention does not freeze in place.[^c2-adaptive-systems]
 
 Chapter 1 established the opening condition: attention can concentrate
 without guaranteeing obedience, and influence can be high while compliance is
@@ -10,25 +10,22 @@ partial. The next question is what that influence repeatedly produces.
 
 Once **Attention Comes Into Focus**, the surrounding group moves in one of
 two directions. It can stay open to course correction and keep
-coordinated action coherent as reach grows. Or it can narrow toward
+common effort working together as reach grows. Or it can narrow toward
 insulation, where correction weakens and reach starts to break down.[^c2-organizational-defenses]
 
 These two directions are renewal and erosion.
 
-These directions describe how a group behaves, not whether a leader is
+They describe how a group behaves, not whether a leader or follower is
 good or bad. A leader can have good intentions and still produce
-erosion. A leader can carry personal
-flaws and still sustain renewal. The distinction is not about purity.
-It is about what the group does when pressure rises.
-
-Renewal and erosion are structural descriptions, not moral rankings of
-leaders or followers.
+erosion. A leader can carry personal flaws and still sustain renewal.
+The distinction is not about purity. It is about what the group does
+when pressure rises.
 
 A practical way to read renewal and erosion is to track two capacities:
 scalability and adaptability.
 
-- **Scalability:** can coordinated action grow in reach?
-- **Adaptability:** can coordinated action change direction when reality
+- **Scalability:** can common effort grow in reach?
+- **Adaptability:** can common effort change direction when reality
   pushes back?
 
 Erosion appears when either capacity shrinks.
@@ -45,7 +42,7 @@ stalled sit on the erosion side.
 
 ### **What Renewal Looks Like**
 
-Renewal appears when influence can sustain coordinated action as reach
+Renewal appears when influence can sustain common effort as reach
 grows.[^c2-high-reliability]
 
 People closest to consequences can still speak. Disagreement is possible
@@ -55,7 +52,7 @@ climate, **Your Example Becomes the Rule** that difficult news stays
 speakable—not that it stays hidden.
 
 High-renewal groups do not avoid failure. They shorten the time between
-signal and response. They correct earlier, at lower cost, with less
+warning and response. They correct earlier, at lower cost, with less
 drama.
 
 In these groups, authority does not disappear. It becomes more precise.
@@ -74,7 +71,7 @@ changes direction under pressure, coordinated action no longer sustains
 reach, or both.[^c2-groupthink]
 
 People stop surfacing inconvenient information. Errors are reframed as
-exceptions. Harm is translated into abstract language and moved away from
+exceptions. Harm gets buried in vague wording and moved away from
 decision-makers. The group preserves confidence by suppressing
 contradiction.
 
@@ -84,27 +81,28 @@ stories are repeated, which failures are forgiven, and which are hidden.
 Over time, repeated deference can harden into **The One We Default To**.
 
 Some eroding groups still scale for long periods. What drops first is
-usually revisability.
+usually room to change plans once they are in motion.
 
-Over time, the structure learns a dangerous lesson: image protection is
+Over time, the group learns a dangerous lesson: protecting the image is
 more important than correction. Once that lesson settles, bad outcomes
 can increase while internal certainty also increases.
 
 This is why erosion often looks like stability to insiders. The same
 people stay in place. Meetings run on time. Plans look coherent. Language
-becomes smoother. But permeability falls, and the cost of truth rises.
+becomes smoother. But fewer channels stay open for bad news, and telling the
+truth costs more.
 
 ### **The Cost Gradient**
 
 Renewal and erosion create different cost patterns over time.
 
 High-renewal groups accept small costs early. They absorb discomfort,
-reputation risk, and rework while problems are still tractable, protecting
+reputation risk, and rework while problems are still small enough to fix, protecting
 both scalability and adaptability.
 
 Eroding groups defer those costs. They preserve short-term smoothness,
-then pay later in larger forms: preventable harm, entrenched coordination,
-high-trust collapse, and expensive repair.
+then pay later in larger forms: preventable harm, coordination that is hard
+to undo, collapsed trust, and expensive repair.
 
 In other words, renewal tends to spend early to preserve capacity.
 Erosion tends to borrow against the future.[^c2-normal-accidents]
@@ -120,8 +118,8 @@ accountability.
 
 In eroding groups, costs move downward or outward: those closest to the
 consequences, people affected by the decision, or peripheral groups
-absorb the effects while central decision-makers preserve narrative
-control. This displacement is often framed as necessity, but repeated
+absorb the effects while central decision-makers keep control of the public
+story. This displacement is often framed as necessity, but repeated
 displacement is an early warning, not an unfortunate accident.
 
 ### **Selective Followership as a Signal**
@@ -130,15 +128,15 @@ Not all refusal means disorder.
 
 In high-renewal groups, selective refusal can function as correction.
 People can say, "I agree with the goal, but not this method," without becoming
-enemies of the group. That kind of bounded resistance protects judgment
+enemies of the group. That kind of limited pushback protects judgment
 and keeps authority connected to consequences.
 
 In eroding groups, selective refusal turns covert. People perform
 agreement while quietly routing around decisions they do not trust. The
 group still appears aligned, but shared reality weakens.
 
-The same behavior can signal different things depending on structure.
-Open selective dissent often indicates renewal. Hidden selective
+The same behavior can mean different things depending on whether the group
+is renewing or eroding. Open selective dissent often indicates renewal. Hidden selective
 resistance often indicates trust fracture.
 
 ### **Why Erosion Feels Rational**
@@ -146,22 +144,22 @@ resistance often indicates trust fracture.
 Erosion persists because it often feels reasonable in the moment.
 
 Leaders under pressure narrow channels to "move faster." Teams avoid
-dissent to "stay aligned." Organizations simplify narratives to "reduce
+dissent to "stay aligned." Leaders simplify stories to "reduce
 confusion." Each move can be defended locally. Together, they create
 insulation globally.
 
-This is why erosion should be read as pattern, not event. Any single
-decision can look pragmatic. The pattern becomes visible only through
+This is why erosion should be read as a pattern over time, not one bad
+call. Any single choice can look pragmatic. The pattern becomes visible only through
 repetition.
 
 ### **Early Indicators**
 
 Three indicators usually appear before obvious breakdown:
 
-- **Signal suppression:** bad news arrives late, softened, or filtered.
-- **Role inversion:** people spend more effort protecting status than
-  improving work.
-- **Learning collapse:** known issues repeat without durable correction.
+- **Bad news arrives late:** it is softened, filtered, or never sent.
+- **Status outweighs the work:** people spend more effort protecting status than
+  improving what actually gets done.
+- **Known problems repeat:** the same issues come back without lasting repair.
 
 None of these proves failure by itself. But together they indicate that
 the group is drifting from renewal toward erosion.

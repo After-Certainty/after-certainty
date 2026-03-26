@@ -34,9 +34,9 @@ correction.
 ### **How This Book Proceeds**
 
 The chapters follow one structural throughline: Attention → Influence →
-Structure → Renewal or Erosion. Each chapter examines one segment of that
-chain under pressure: harm, effectiveness, legitimacy, circulation, scale,
-and tradeoff.
+Structure → Renewal or Erosion. After Part I establishes that chain, later
+chapters take up harm, effectiveness, legitimacy, circulation, scale,
+tradeoffs under pressure, and finally how those lenses fit together.
 
 Appendix B names recurring **leadership patterns** in four groups—**Forming**,
 **Renewing**, **Eroding**, and **Circulating**. As a map of how they relate:
@@ -54,8 +54,8 @@ The aim is not to condemn people. The aim is to clarify dynamics.
 ### **Reading Posture**
 
 Read this book as a set of diagnostic lenses, not a set of slogans. Use
-it on institutions you distrust, institutions you admire, and your own
-decisions.
+it on teams, communities, and workplaces you know—including your own
+choices.
 
 The question is not whether leadership exists, but what leadership is
 becoming while others are watching.

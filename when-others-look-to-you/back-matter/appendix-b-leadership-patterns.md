@@ -1,53 +1,52 @@
 # **Appendix B — Leadership Patterns**
 
-This appendix summarizes recurring structural patterns described
-throughout the book. Patterns are grouped into four kinds—**forming**,
-**renewing**, **eroding**, and **circulating**—each a compact diagnostic:
-when it appears, what is happening, and what tends to follow.
+This appendix summarizes recurring patterns described throughout the
+book—how leadership forms, renews, erodes, and spreads. Patterns are
+grouped into four kinds—**forming**, **renewing**, **eroding**, and
+**circulating**. Each is a short snapshot: when it appears, what is
+happening, and what tends to follow.
 
-These patterns are not prescriptions; they are observable conditions
-that recur across domains, from small groups to large institutions.
+These patterns are not prescriptions. They are conditions you can observe
+again and again, from small groups to large institutions.
 
 ## **Forming**
 
-_Patterns that describe how attention, example, and habit concentrate
-leadership when direction is still taking shape._
+_Patterns where attention, example, and habit pull leadership into focus
+while direction is still taking shape._
 
 ## **Attention Comes Into Focus**
 
 **Context:**
 
-A group encounters uncertainty, ambiguity, or a moment requiring
-direction.
+A group hits uncertainty, ambiguity, or a moment that needs direction.
 
 **Problem:**
 
-Coordination is required, but no explicit structure has yet defined who
-will lead.
+Coordination is needed, but no clear process has named who will lead.
 
 **Forces:**
 
 - People seek orientation under uncertainty
 - Silence creates pressure for someone to act
-- Early signals carry disproportionate weight
+- Early signals carry extra weight
 - Leadership can emerge without intention
 
 **Observation:**
 
-Attention comes into focus around a person, and others begin orienting
-their behavior in response to that person’s actions, tone, or timing.
+Attention settles on one person. Others start lining up their behavior
+with that person’s actions, tone, or timing.
 
 > "Alright—attention is coming into focus on you. What do you think?"
 
 **Effect:**
 
-Influence multiplies immediately. The person being looked to becomes
-structurally significant, whether or not they claim authority.
+Influence multiplies immediately. The person being looked to becomes hard
+to ignore in the life of the group, whether or not they claim authority.
 
 **Resulting Context:**
 
-A reinforcing loop forms: attention leads to influence, influence
-reinforces attention, and authority begins to consolidate.
+A loop forms: attention feeds influence, influence feeds attention, and
+authority starts to lock in.
 
 **Related Patterns:**
 
@@ -61,8 +60,8 @@ A leader reacts to a mistake, tension, or ambiguity in a shared setting.
 
 **Problem:**
 
-Group members need to interpret what is acceptable, but explicit rules
-are absent or incomplete.
+Group members need to read what is acceptable, but clear rules are
+missing or thin.
 
 **Forces:**
 
@@ -80,13 +79,13 @@ others believe is acceptable.
 
 **Effect:**
 
-Norms form quickly without explicit agreement, shaping how truth, error,
-and risk are handled.
+Norms form fast with no formal vote, shaping how truth, error, and risk
+are handled.
 
 **Resulting Context:**
 
-Behavior becomes patterned. Future situations are interpreted through
-the established example.
+Behavior settles into habit. People read the next situation through the
+example already set.
 
 **Related Patterns:**
 
@@ -100,15 +99,15 @@ A group repeatedly turns to the same person when decisions are unclear.
 
 **Problem:**
 
-Decision-making responsibility is not formally assigned or consistently
-distributed.
+Decision responsibility is unclear on paper—or it is assigned, but the
+work still slides to the same person.
 
 **Forces:**
 
 - Repetition creates familiarity and trust
 - Speed favors known decision paths
 - Avoidance of ambiguity reinforces habit
-- Informal authority can be easier than formal delegation
+- Unofficial authority can be easier than formal delegation
 
 **Observation:**
 
@@ -119,13 +118,12 @@ where no formal authority exists.
 
 **Effect:**
 
-Authority forms through repetition and becomes difficult to
-redistribute.
+Authority forms through repetition and becomes hard to share or hand off.
 
 **Resulting Context:**
 
-The person becomes the default decision-maker, and alternative
-leadership pathways weaken.
+The person becomes the default decision-maker. Other paths for leading
+grow weaker.
 
 **Related Patterns:**
 
@@ -133,19 +131,18 @@ Attention Comes Into Focus; No One Pushes Back
 
 ## **Renewing**
 
-_Patterns that keep decisions connected to reality, correction, and
+_Patterns that keep decisions tied to reality, correction, and
 accountability._
 
 ## **Bring Bad News**
 
 **Context:**
 
-Problems, risks, or failures emerge within a group or system.
+Problems, risks, or failures emerge within a group or setting.
 
 **Problem:**
 
-Timely correction depends on whether negative information can reach
-decision-makers.
+Correction in time depends on whether bad news can reach decision-makers.
 
 **Forces:**
 
@@ -156,15 +153,13 @@ decision-makers.
 
 **Observation:**
 
-Problems are surfaced early so reality can reach decision-makers in
-time.
+Problems surface early so reality can reach decision-makers in time.
 
 > "Just bring bad news—don't filter it."
 
 **Effect:**
 
-Early correction remains possible, reducing the scale and cost of
-failure.
+Early correction stays possible. Failure stays smaller and cheaper.
 
 **Resulting Context:**
 
@@ -179,13 +174,13 @@ Your Example Becomes the Rule; Feedback Gap
 
 **Context:**
 
-New information, visible risk, or failed assumptions appear after a
-direction has already been set.
+New facts, visible risk, or bad assumptions show up after direction is
+already set.
 
 **Problem:**
 
-The group must decide whether to adjust or to protect continuity of
-narrative and commitment.
+The group must decide whether to adjust or to protect the public story and
+ongoing commitment.
 
 **Forces:**
 
@@ -196,19 +191,18 @@ narrative and commitment.
 
 **Observation:**
 
-The group adjusts direction in response to new information or emerging
-risk.
+The group shifts direction based on new facts or new risk.
 
 > "We're going to change course based on what we just learned."
 
 **Effect:**
 
-Structure stays aligned with reality instead of with an outdated story.
+Plans stay tied to reality instead of to an outdated story.
 
 **Resulting Context:**
 
-Correction remains legitimate; the system preserves room to revise
-when facts change.
+Correction stays legitimate; the group keeps room to revise when facts
+change.
 
 **Related Patterns:**
 
@@ -218,35 +212,34 @@ Bring Bad News; We Own the Outcome
 
 **Context:**
 
-A decision creates cost, risk, or benefit within a system.
+A decision creates cost, risk, or benefit for people in a group.
 
 **Problem:**
 
-The location of decision-making and the location of consequence can
-drift apart.
+Where decisions are made and where costs land can drift apart.
 
 **Forces:**
 
 - Incentives favor visible success over visible cost
-- Systems distribute impact unevenly
+- In large settings, impact lands unevenly
 - Distance makes harm easier to overlook
-- Passing responsibility downstream is often convenient
+- Pushing responsibility downhill is often easier
 
 **Observation:**
 
-Those making decisions remain connected to the consequences of those
-decisions.
+The people who decide stay tied to what their decisions do to others.
 
 > "We own the outcome on this—no passing it off."
 
 **Effect:**
 
-Accountability stays visible; harm is harder to normalize or repeat
-without acknowledgment.
+Accountability stays in view. Harm is harder to shrug off or repeat
+without owning it.
 
 **Resulting Context:**
 
-Costs are not silently displaced; trust in correction pathways can hold.
+Costs do not quietly slide onto someone else. Trust that correction will
+work can hold.
 
 **Related Patterns:**
 
@@ -254,8 +247,7 @@ Bring Bad News; Feedback Gap
 
 ## **Eroding**
 
-_Patterns that describe how feedback, dissent, and boundaries weaken
-over time._
+_Patterns where feedback, dissent, and boundaries weaken over time._
 
 ## **No One Pushes Back**
 
@@ -266,31 +258,29 @@ validation.
 
 **Problem:**
 
-Maintaining authority begins to compete with maintaining correctness.
+Protecting the leader starts to rival protecting accuracy.
 
 **Forces:**
 
-- Success increases confidence and reduces perceived need for challenge
+- Success builds confidence and lowers the felt need for challenge
 - Social cost of dissent rises
 - Loyalty signals are rewarded over correction signals
-- Narratives stabilize around leadership identity
+- Stories about who we are harden around the leader
 
 **Observation:**
 
-Dissent disappears or is softened to the point that it no longer
-meaningfully challenges decisions.
+Dissent fades or softens until it no longer really challenges decisions.
 
 > "I'm noticing no one pushes back anymore."
 
 **Effect:**
 
-Correction pathways narrow, increasing the risk of hidden errors and
-delayed failure.
+Paths for correction narrow. Hidden errors and late failure grow more
+likely.
 
 **Resulting Context:**
 
-Authority becomes insulated from feedback, and structural drift
-accelerates.
+Authority pulls away from feedback, and drift speeds up.
 
 **Related Patterns:**
 
@@ -300,37 +290,34 @@ The One We Default To; Feedback Gap
 
 **Context:**
 
-Decisions are made at a distance from where their effects are
-experienced.
+Decision-makers sit far from where effects actually show up.
 
 **Problem:**
 
-Information about real-world outcomes does not reliably reach
-decision-makers in time.
+Word from the ground does not reliably reach decision-makers in time.
 
 **Forces:**
 
-- Scale increases distance from impact
-- Reporting systems filter or delay signals
+- Size increases distance from impact
+- Formal reporting filters or delays signals
 - Negative outcomes are costly to surface
 - Success signals travel more easily than failure signals
 
 **Observation:**
 
-Those making decisions do not receive a timely, accurate picture of
-what their choices are doing.
+Decision-makers do not get a timely, accurate read on what their choices
+are doing.
 
 > "There's a feedback gap—we're not hearing what's really happening."
 
 **Effect:**
 
-Feedback loops weaken. Decisions drift away from reality while appearing
-stable.
+Feedback loops weaken. Decisions drift away from what is actually
+happening while still looking steady.
 
 **Resulting Context:**
 
-Errors repeat, harm accumulates, and correction becomes delayed and more
-expensive.
+Errors repeat, harm piles up, and correction arrives late and costs more.
 
 **Related Patterns:**
 
@@ -353,24 +340,21 @@ conditions stabilize.
 - Urgency justifies bypassing constraints
 - Short-term success reinforces the exception
 - Reversal requires effort and coordination
-- New practices quickly become normalized
+- New practices quickly turn into habit
 
 **Observation:**
 
-Temporary workarounds and shortcuts become permanent parts of the
-system.
+Workarounds and shortcuts turn into how the group works day to day.
 
 > "Let's be careful—exceptions are forever."
 
 **Effect:**
 
-Temporary decisions become permanent structure without deliberate
-evaluation.
+Temporary decisions turn into permanent habit without a deliberate review.
 
 **Resulting Context:**
 
-Authority expands, constraints weaken, and structural drift increases
-over time.
+Authority expands, constraints weaken, and drift builds over time.
 
 **Related Patterns:**
 
@@ -378,8 +362,7 @@ No One Pushes Back; Feedback Gap
 
 ## **Circulating**
 
-_Patterns that describe how leadership norms spread beyond the original
-setting._
+_Patterns where leadership norms spread beyond the original setting._
 
 ## **Copy What Works Here**
 
@@ -390,20 +373,20 @@ rewarded, what gets punished, what gets ignored.
 
 **Problem:**
 
-Those behaviors are observed not only as personal style but as a model
-for “how things work here,” and they travel.
+People read those behaviors as personal style and as the local model for
+“how things work here”—and the model travels.
 
 **Forces:**
 
-- Imitation is faster than explicit instruction
-- Success is attributed to visible behavior, not to hidden structure
+- Copying is faster than being taught step by step
+- People credit what they can see, not hidden setup
 - New members learn from example before they learn from rules
 - What survives selection is what gets copied
 
 **Observation:**
 
-Leadership behaviors and norms are imitated, shaping how future
-leadership forms.
+People copy leadership habits and norms. That shapes how the next round
+of leadership forms.
 
 > "People will just copy what works here, whether we like it or not."
 
@@ -413,8 +396,8 @@ Local habits become templates. Strengths and pathologies both replicate.
 
 **Resulting Context:**
 
-Formation elsewhere begins to resemble this cluster—forming and eroding
-patterns can spread without anyone intending a “system design.”
+Other places start to look like this one. Forming and eroding patterns
+can spread with no one meaning to write a playbook.
 
 **Related Patterns:**
 

@@ -56,7 +56,7 @@ Information about real-world outcomes fails to reach decision-makers in time.
 
 Exceptions are forever
 
-Temporary workarounds and shortcuts become permanent parts of the system.
+Temporary workarounds and shortcuts become permanent parts of how the group operates.
 
 > "Let's be careful---exceptions are forever."
 

@@ -22,7 +22,7 @@ If it fails, observers assume leadership was poor. In both cases, the
 judgment is compressed into a single variable: what happened.
 
 But outcomes are noisy. They include luck, timing, hidden subsidies,
-external market movement, inherited capacity, and the delayed effects of
+forces no one controls, inherited capacity, and the delayed effects of
 past decisions. Good outcomes can be produced by entrenched structures.
 Bad outcomes can emerge from disciplined structures under difficult
 conditions.
@@ -44,7 +44,7 @@ as evidence. Meanwhile, dissent channels narrow, bad news is filtered,
 and decision costs are displaced to people with less power.
 
 Nothing in that pattern requires overt malice. It can arise from habit,
-status anxiety, speed pressure, or organizational routine. The effect is
+status anxiety, speed pressure, or the weight of routine. The effect is
 the same: structure drifts while language remains polished.
 
 Structural blindness is common because many of the relevant signals are
@@ -64,7 +64,7 @@ When that pathway closes, **Bring Bad News** fails in practice.
 
 A third distortion sits beneath the first two: the intention trap.
 
-Observers hear a leader's stated purpose and treat sincerity as
+Observers hear a leader’s stated purpose and treat sincerity as
 sufficient evidence of legitimacy. Leaders themselves do this too. They
 assume that because they meant well, the structure must be healthy.
 
@@ -88,8 +88,8 @@ privately diverge. They may even invert instructions under pressure to
 preserve autonomy.[^c3-reactance]
 
 This does not automatically mean disloyalty. It can mean active judgment.
-In more regenerative or adaptive systems, selective dissent is visible and usable.
-In entrenched or stalled systems, it goes quiet and becomes hidden
+In more regenerative or adaptive groups, selective dissent is visible and usable.
+In entrenched or stalled groups, it goes quiet and becomes hidden
 workarounds.
 
 When observers collapse all this into a single category - either "they
@@ -108,7 +108,7 @@ This preference makes groups vulnerable. It rewards leaders who reduce
 complexity too quickly. It penalizes leaders who keep uncertainty visible
 long enough to make better decisions.[^c3-ambiguity-and-sensemaking]
 
-Confidence can be valuable. Overconfidence in closed systems is costly.
+Confidence can be valuable. Overconfidence when challenge is unwelcome is costly.
 
 ### **The Principal's Turnaround**
 
@@ -134,8 +134,8 @@ becomes expensive.
 ::: {custom-style="Pattern Block"}
 **Pattern - Feedback Gap**
 
-When decision-makers are buffered from downstream effects, negative
-feedback weakens and structural drift continues behind strong narratives.
+When decision-makers are buffered from what people on the ground experience,
+negative feedback weakens and drift continues behind strong narratives.
 :::
 
 In that condition, **Feedback Gap** is the structure—not a one-off blind
@@ -182,7 +182,8 @@ questioned, and adjustments can occur before harm scales.
 That standard is less dramatic than hero stories. It is also more
 reliable.
 
-Part II applies this lens to legitimacy, harm, and authority circulation.
+Part II applies this lens to harm, effectiveness, legitimacy, and
+authority circulation.
 
 ::: {custom-style="Pull Quote Block"}
 We often misjudge leaders when we treat outcomes as proof and structure as background.
