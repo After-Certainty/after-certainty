@@ -1,4 +1,4 @@
-# **Introduction — When Attention Gathers**
+# **Introduction — When Attention Comes into Focus**
 
 > A leader is someone others look to when deciding what to do next.
 
@@ -12,7 +12,7 @@ That shift can happen quietly: a room pauses, one person speaks first,
 others calibrate, and direction begins. Most leadership language starts
 later, after outcomes. This book starts earlier, at formation.
 
-### **What Changes When Attention Gathers**
+### **What Changes When Attention Comes into Focus**
 
 When others look to you, your behavior stops being private in effect. It
 may still feel private to you, but it is now instructional to others.
@@ -37,6 +37,14 @@ The chapters follow one structural throughline: Attention → Influence →
 Structure → Renewal or Erosion. Each chapter examines one segment of that
 chain under pressure: harm, effectiveness, legitimacy, circulation, scale,
 and tradeoff.
+
+Appendix B names recurring **leadership patterns** in four groups—**Forming**,
+**Renewing**, **Eroding**, and **Circulating**. As a map of how they relate:
+Forming sets the live conditions; from there a structure can move toward
+Renewing or Eroding; both paths shape what later gets circulated and
+imitated; Circulating in turn feeds the next round of formation.
+
+![Diagram: leadership pattern groups](export-assets/diagrams/pattern-groups.png)
 
 Crisis is treated as a recurring thread across the manuscript, with its
 primary integration in Part III.

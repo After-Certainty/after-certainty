@@ -9,7 +9,7 @@ it leaves a pattern.
 This part follows that shift.
 
 The first chapter establishes the base condition: leadership begins when
-attention gathers around someone and direction is inferred.
+attention comes into focus around someone and direction is inferred.
 
 The second chapter names the two paths that follow: renewal and
 erosion. Renewal is not charisma. Erosion is not scandal. Both are formed

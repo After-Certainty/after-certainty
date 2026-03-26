@@ -29,8 +29,9 @@ It can also reduce correction.
 After visible wins, dissent can look unnecessary. Critical voices are
 reframed as blockers. Signals that conflict with the success narrative
 arrive later, softer, or not at all.[^c5-escalation]
-In practice, this is how **Tone Sets the Room** under the pressure of success.
-Under those conditions, **You Can Bring Them Bad News** is already weakening.
+Success pressure turns **Your Example Becomes the Rule** against dissent:
+the live lesson is what not to raise, and the pattern **Bring Bad News**
+weakens.
 
 This is one of leadership's recurring traps: success narrows the very
 channels needed to prevent future failure.
@@ -50,6 +51,13 @@ reliable than groups that avoid visible failure at all costs.[^c5-learning]
 The issue is not whether failure occurs. The issue is whether learning
 follows.
 
+::: {custom-style="Pattern Block"}
+**Pattern - We Change Course**
+
+When new information or visible risk arrives, direction can still revise;
+when it cannot, commitment hardens ahead of reality.
+:::
+
 ### **Deferred Effectiveness**
 
 Some of the most effective decisions look costly in the short term.
@@ -68,9 +76,8 @@ Performance indicators can hide real alignment problems.
 People can produce favorable numbers while privately withdrawing trust.
 They can repeat approved language while silently routing around decisions
 they do not believe in. In these conditions, the group appears coordinated, but
-its ability to act together is already splitting underneath.
-In that split, **Consequences Don’t Come Back** can hide behind strong
-reporting.
+its ability to act together is already splitting underneath—and
+**Feedback Gap** can hide behind strong reporting.
 
 This is why selective followership matters when judging effectiveness.
 Open disagreement can strengthen results. Quiet divergence usually

@@ -52,14 +52,13 @@ socially expensive to surface.[^c3-psychological-safety] People close to
 problems often carry the highest local risk for naming them.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - You Can Bring Them Bad News**
+**Pattern - Bring Bad News**
 
 When dissent and risk signals can move upward in time, correction stays
 possible; when they cannot, failure grows in the dark.
 :::
 
-When that pathway closes, **You Can Bring Them Bad News** is no longer
-true in practice.
+When that pathway closes, **Bring Bad News** fails in practice.
 
 ### **The Intention Trap**
 
@@ -133,14 +132,14 @@ each other: visible success can hide degrading conditions until repair
 becomes expensive.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Consequences Don’t Come Back**
+**Pattern - Feedback Gap**
 
 When decision-makers are buffered from downstream effects, negative
 feedback weakens and structural drift continues behind strong narratives.
 :::
 
-In that condition, **Consequences Don’t Come Back** becomes a structural
-condition, not an isolated error.
+In that condition, **Feedback Gap** is the structure—not a one-off blind
+spot.
 
 ### **What to Watch Instead**
 

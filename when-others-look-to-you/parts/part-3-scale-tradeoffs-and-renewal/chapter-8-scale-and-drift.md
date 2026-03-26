@@ -28,14 +28,19 @@ Public updates highlight growth and consistency.
 
 The network did not become harmful because it grew. It became riskier
 because reach expanded faster than usable correction pathways.
+**Copy What Works Here** widens that gap when shared playbooks and a
+consistent public story travel faster than local revision.
 
 ### **Two Capacities at Scale**
 
 Use two capacities to read scale effects:
 
 - **Scalability:** can coordinated action grow in reach?
-- **Adaptability:** can influence still change direction when reality
+- **Adaptability:** can coordinated action change direction when reality
   pushes back?
+
+At scale, that adaptability question is whether **We Change Course**
+remains structurally available.
 
 These capacities generate four practical states:
 
@@ -45,7 +50,9 @@ These capacities generate four practical states:
 - **Stalled:** low scalability, low adaptability.
 
 At larger scale, entrenched patterns can look impressive for longer. Reach
-can expand while correction weakens.
+can expand while correction weakens. Formal routing can also harden
+**The One We Default To**—the escalation point everyone learns to wait for
+before a problem is treated as real.
 
 ### **Legitimacy Forms Under Scale**
 
@@ -72,9 +79,8 @@ reality.[^c8-hidden-transcripts]
 
 This is one reason circulation matters so much at scale. If concern cannot
 travel back with enough force to change direction, reach can grow while
-learning shrinks.
-When this repeats, **Consequences Don’t Come Back** becomes a
-practical operating risk.
+learning shrinks. When this repeats, **Feedback Gap** becomes a practical
+operating risk.
 
 ### **Human Scale as a Contrast**
 

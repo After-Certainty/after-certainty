@@ -76,25 +76,47 @@ moments.
 
 ## **Pattern List (Canonical)**
 
-Use these exact names:
+Use these exact names (grouped as in Appendix B and the patterns
+glossary):
+
+**Forming**
 
 1.  Attention Comes Into Focus
 
-2.  Tone Sets the Room
+2.  Your Example Becomes the Rule
 
 3.  The One We Default To
 
-4.  Someone Else Pays
+**Renewing**
 
-5.  You Can Bring Them Bad News
+4.  Bring Bad News
 
-6.  No One Pushes Back
+5.  We Change Course
 
-7.  Consequences Don’t Come Back
+6.  We Own the Outcome
 
-8.  Exceptions Are Forever
+**Eroding**
+
+7.  No One Pushes Back
+
+8.  Feedback Gap
+
+9.  Exceptions Are Forever
+
+**Circulating**
+
+10. Copy What Works Here
 
 Do not rename or vary phrasing.
+
+**Manuscript migration:** older drafts used *Tone Sets the Room* (now
+*Your Example Becomes the Rule*), *You Can Bring Them Bad News* (now
+*Bring Bad News*), *Consequences Don’t Come Back* (now *Feedback Gap*),
+and *Someone Else Pays* (now named through *We Own the Outcome*—the
+structural connection or disconnection between decisions and who bears
+consequences). When updating chapters, swap to the canonical names
+above and adjust the surrounding sentence so the pattern reads as a
+title, not as awkward grammar.
 
 ## **Insertion Rules**
 
@@ -136,10 +158,11 @@ Format:
 Example:
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Someone Else Pays**
+**Pattern - We Own the Outcome**
 
-When decisions scale, costs often land on people other than the
-decision-maker, weakening accountability and obscuring harm.
+When decision-makers stay connected to consequences, accountability
+stays visible; when that connection breaks, costs and harm drift out of
+view.
 :::
 
 ### **Rule 4 — Keep It Short**
@@ -227,13 +250,15 @@ Inline anchors are not pattern blocks. They are short in-sentence uses of
 the canonical pattern names in bold:
 
 - `**Attention Comes Into Focus**`
-- `**Tone Sets the Room**`
+- `**Your Example Becomes the Rule**`
 - `**The One We Default To**`
-- `**Someone Else Pays**`
-- `**You Can Bring Them Bad News**`
+- `**Bring Bad News**`
+- `**We Change Course**`
+- `**We Own the Outcome**`
 - `**No One Pushes Back**`
-- `**Consequences Don’t Come Back**`
+- `**Feedback Gap**`
 - `**Exceptions Are Forever**`
+- `**Copy What Works Here**`
 
 ### **Inline Anchor Rules**
 
@@ -257,15 +282,19 @@ chapters:
 
 - After **Chapter 1**:
   - Attention Comes Into Focus
-  - Tone Sets the Room
+  - Your Example Becomes the Rule
   - The One We Default To
 - After **Chapter 3**:
-  - You Can Bring Them Bad News
-  - Consequences Don’t Come Back
+  - Bring Bad News
+  - Feedback Gap
 - After **Chapter 4**:
-  - Someone Else Pays
+  - We Own the Outcome
+- After **Chapter 5**:
+  - We Change Course
 - After **Chapter 6**:
   - No One Pushes Back
+- After **Chapter 7**:
+  - Copy What Works Here
 - After **Chapter 9**:
   - Exceptions Are Forever
 
@@ -273,41 +302,41 @@ chapters:
 
 Preferred form:
 
-- "...this is where **Someone Else Pays** becomes visible."
+- "...this is where **We Own the Outcome** breaks down."
 - "...the group drifts toward **No One Pushes Back**."
-- "...what looks stable can mask **Consequences Don’t Come Back**."
+- "...what looks stable can mask **Feedback Gap**."
 
 ### **Grammar Rule for Inline Anchors**
 
 Treat each pattern name as a fixed title and insert it where a noun phrase
 fits naturally in the sentence.
 
-- Use with a determiner when needed: "the pattern **Someone Else Pays**,"
+- Use with a determiner when needed: "the pattern **We Own the Outcome**,"
   "a drift toward **No One Pushes Back**."
 - Keep subject-verb agreement with the surrounding sentence:
-  "**Consequences Don’t Come Back** is visible here" (not "are visible").
+  "**Feedback Gap** is visible here" (not "are visible").
 - Keep tense and preposition logic in the host sentence:
   "drifts toward **No One Pushes Back**," "slides into
-  **Exceptions Are Forever**," "shows **You Can Bring Them Bad News**."
+  **Exceptions Are Forever**," "room for **Bring Bad News**."
 - If the sentence becomes awkward, rewrite the sentence; do not bend the
   pattern name.
 
 Good:
 
-- "In this section, the pattern **Someone Else Pays** becomes visible."
+- "In this section, **We Own the Outcome** is hard to find."
 - "Over time, the group drifts toward **No One Pushes Back**."
-- "What looks stable can mask **Consequences Don’t Come Back**."
+- "What looks stable can mask **Feedback Gap**."
 
 Avoid:
 
-- "This is **Someone Else Pays**."
+- "This is **We Own the Outcome**."
 - "They are **No One Pushes Back**."
-- "The system is **You Can Bring Them Bad News**."
+- "The system is **Bring Bad News**."
 
 Avoid:
 
-- "Pattern - Someone Else Pays"
-- "this is an example of Someone Else Pays pattern dynamics occurring..."
+- "Pattern - We Own the Outcome"
+- "this is an example of We Own the Outcome pattern dynamics occurring..."
 
 ## **Placement Guidance by Chapter (Canonical)**
 
@@ -317,7 +346,7 @@ Primary:
 
 - Attention Comes Into Focus
 
-- Tone Sets the Room
+- Your Example Becomes the Rule
 
 - The One We Default To
 
@@ -325,25 +354,29 @@ Primary:
 
 Primary:
 
-- You Can Bring Them Bad News
+- Bring Bad News
 
-- Consequences Don’t Come Back
+- Feedback Gap
 
 ### **Chapter 4 — Harm**
 
 Primary:
 
-- Someone Else Pays
+- We Own the Outcome
 
 Optional:
 
-- Consequences Don’t Come Back (only if strongly demonstrated)
+- Feedback Gap (only if strongly demonstrated)
 
 ### **Chapter 5 — Effectiveness**
 
+Primary (when the chapter’s strongest example supports it):
+
+- We Change Course
+
 Optional:
 
-- Consequences Don’t Come Back (only if strongest example occurs here)
+- Feedback Gap (only if strongest example occurs here)
 
 ### **Chapter 6 — Legitimacy**
 
@@ -353,15 +386,31 @@ Primary:
 
 ### **Chapter 7 — Circulation**
 
+Primary:
+
+- Copy What Works Here
+
 Optional:
 
-- You Can Bring Them Bad News (only if not already strongly placed)
+- Bring Bad News (only if not already strongly placed)
+
+- Feedback Gap (only if strongly demonstrated)
 
 ### **Chapter 8 — Scale**
 
-Optional:
+Optional (manuscript uses inline anchors where replication, routing, and
+adaptability are already on the page):
 
-- Consequences Don’t Come Back (only if strongest example occurs here)
+- Feedback Gap
+
+- No One Pushes Back
+
+- Copy What Works Here (secondary to Chapter 7; replication outrunning local
+  revision)
+
+- We Change Course (same adaptability test as Chapter 2, named at scale)
+
+- The One We Default To (formal escalation and default reference points)
 
 ### **Chapter 9 — Tradeoffs / Crisis**
 
@@ -375,7 +424,9 @@ Optional (light reinforcement only):
 
 - Exceptions Are Forever
 
-- Consequences Don’t Come Back
+- Feedback Gap
+
+- We Own the Outcome
 
 ## **Opportunity Map for Inline Anchors (Before Manuscript Edits)**
 
@@ -384,52 +435,54 @@ throughout the manuscript while following the sequence rule above.
 
 ### **Chapter 2 — Renewal and Erosion**
 
-Eligible patterns: Attention Comes Into Focus; Tone Sets the Room; The One
-We Default To.
+Eligible patterns: Attention Comes Into Focus; Your Example Becomes the
+Rule; The One We Default To.
 
 Strong opportunities:
 
 - In the opening transition from Chapter 1's attention dynamic into
   renewal/erosion framing.
 - In "What Renewal Looks Like," where early warnings remain discussable
-  (**Tone Sets the Room**).
+  (**Your Example Becomes the Rule**).
 - In "What Erosion Looks Like," where repetition hardens authority
   (**The One We Default To**).
 
 ### **Chapter 3 — Why We Misjudge Leaders**
 
-Eligible patterns (newly introduced here): You Can Bring Them Bad News;
-Consequences Don’t Come Back.
+Eligible patterns (newly introduced here): Bring Bad News; Feedback Gap.
 
 Strong opportunities:
 
 - In "Structural Blindness," where dissent channels narrow
-  (**You Can Bring Them Bad News**).
+  (**Bring Bad News**).
 - In the principal vignette analysis, where effects are buffered from
-  decision-makers (**Consequences Don’t Come Back**).
+  decision-makers (**Feedback Gap**).
 
 ### **Chapter 4 — Harm Under Influence**
 
-Eligible patterns (newly introduced here): Someone Else Pays.
+Eligible patterns (newly introduced here): We Own the Outcome.
 
 Strong opportunities:
 
-- In "How Harm Gets Displaced," where costs move downward/outward
-  (**Someone Else Pays**).
+- In "How Harm Gets Displaced," where costs move downward/outward and
+  decision-makers lose contact with who bears them (**We Own the Outcome**
+  as the broken connection).
 - In the post-vignette interpretation paragraph, where leadership protects
   short-term narrative at others' expense.
 
 ### **Chapter 5 — Effectiveness and Its Illusions**
 
-Eligible patterns: Someone Else Pays; You Can Bring Them Bad News;
-Consequences Don’t Come Back.
+Eligible patterns: We Own the Outcome; Bring Bad News; Feedback Gap; We
+Change Course (once introduced here).
 
 Strong opportunities:
 
 - In "When Success Accelerates Insulation," where critical signals arrive
-  later or not at all (**You Can Bring Them Bad News**).
+  later or not at all (**Bring Bad News**).
 - In "Performative Compliance vs Real Alignment," where visible results
-  mask hidden structural drift (**Consequences Don’t Come Back**).
+  mask hidden structural drift (**Feedback Gap**).
+- Where the text names an explicit pivot after new information (**We Change
+  Course**).
 
 ### **Chapter 6 — Legitimacy Over Time**
 
@@ -444,24 +497,35 @@ Strong opportunities:
 
 ### **Chapter 7 — Authority Circulation**
 
-Eligible patterns: You Can Bring Them Bad News; No One Pushes Back;
-Consequences Don’t Come Back.
+Eligible patterns (newly introduced here): Copy What Works Here; also Bring
+Bad News; No One Pushes Back; Feedback Gap.
 
 Strong opportunities:
 
+- In sections on imitation, transfer of norms, or how the next generation
+  learns to lead (**Copy What Works Here**).
 - In "The Return Path," where warnings must travel back to change
-  direction (**You Can Bring Them Bad News**).
+  direction (**Bring Bad News**).
 - In "The Quiet Workaround," where formal alignment masks practical
-  divergence (**Consequences Don’t Come Back**).
+  divergence (**Feedback Gap**).
 
 ### **Chapter 8 — Scale and Drift**
 
-Eligible patterns: Consequences Don’t Come Back; No One Pushes Back.
+Eligible patterns: Feedback Gap; No One Pushes Back; also **Copy What Works
+Here**, **We Change Course**, and **The One We Default To** only as
+secondary reinforcement where the vignette or scale mechanics already show
+replication, adaptability under pressure, or default escalation hubs.
 
 Strong opportunities:
 
+- After the regional vignette, where shared playbooks travel faster than
+  local revision (**Copy What Works Here**).
+- Immediately after the adaptability capacity definition, tying the test to
+  named pattern (**We Change Course**).
+- After the four-state list, where formal routing concentrates who counts as
+  the real escalation point (**The One We Default To**).
 - In "Selective Followership at Scale," where feedback cannot return with
-  enough force (**Consequences Don’t Come Back**).
+  enough force (**Feedback Gap**).
 - In legitimacy-at-scale discussion where dissent diffuses and entrenchment
   grows (**No One Pushes Back**).
 
@@ -484,9 +548,9 @@ Strong opportunities:
 
 - In "Two Arcs" and "After Boundary Conditions Are Crossed," where
   transfer, insulation, and delayed feedback converge
-  (**Consequences Don’t Come Back**, **No One Pushes Back**).
+  (**Feedback Gap**, **No One Pushes Back**).
 - In epilogue sections on emergency permissions and damage containment
-  (**Exceptions Are Forever**, **Someone Else Pays**).
+  (**Exceptions Are Forever**, **We Own the Outcome**).
 
 ### **Bridges (Light Use Only)**
 
@@ -499,11 +563,11 @@ recall without sounding repetitive.
 
 Bad:
 
-"Pattern - Someone Else Pays: This occurs when..."
+"Pattern - We Own the Outcome: This occurs when..."
 
 Good:
 
-"Pattern - Someone Else Pays"
+"Pattern - We Own the Outcome"
 
 Short. Recognizable. Move on.
 
@@ -543,7 +607,7 @@ The two should complement, not duplicate.
 
 When prompting Cursor, use instructions like:
 
-- "Insert the pattern 'Someone Else Pays' after this paragraph using the
+- "Insert the pattern 'We Own the Outcome' after this paragraph using the
   guide"
 
 - "Add a pattern block here following pattern-integration-guide.md
@@ -581,7 +645,7 @@ After full integration, verify:
 - No pattern is overused
 
 - Total pattern insertions remain limited and context-earned (often
-  fewer than ~10-14 total)
+  fewer than ~14-18 total, given the expanded pattern set)
 
 ## **Summary**
 

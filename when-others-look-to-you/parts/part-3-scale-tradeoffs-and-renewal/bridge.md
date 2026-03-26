@@ -10,6 +10,10 @@ At small scale, correction is often visible and personal. At institutional
 scale, signals travel farther, slower, and with more distortion. That does
 not make renewal impossible. It makes renewal work harder.
 
+Scale also amplifies **Copy What Works Here**: what gets rewarded or
+punished travels faster than written rules, so the next cohort often
+learns from example before it learns from policy.
+
 Carry forward the Chapter 2 model as you read:
 
 - Two capacities: scalability and adaptability.

@@ -47,11 +47,13 @@ None of this guarantees a happy ending.
 
 It does something quieter and more realistic: it reduces how much harm can
 be normalized, inherited, and repeated.
-Without that work, **Someone Else Pays** can become a durable norm rather
-than an intermittent failure.
+Without that work, **We Own the Outcome** may never take hold—costs keep
+landing far from the decision—and harm becomes a durable norm rather than an
+intermittent failure.
 
 If the lens from this book changes what you tolerate, what you reward, and
-what you refuse to excuse, then the structure is already moving.
+what you refuse to excuse, then **Copy What Works Here** is already
+shifting for anyone who takes cues from how you lead.
 
 Not all change arrives as reversal.
 

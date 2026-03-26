@@ -93,7 +93,7 @@ legitimacy is likely renewing.
 If people comply publicly but diverge privately, legitimacy is likely
 hardening toward office-based or sacralized forms. In that state, surface
 order can hide deeper trust loss.
-If uncorrected, groups drift toward **No One Pushes Back**.
+If uncorrected, the group can drift into **No One Pushes Back**.
 
 ### **Legitimacy and Accountability**
 

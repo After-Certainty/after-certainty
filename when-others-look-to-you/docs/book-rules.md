@@ -356,7 +356,8 @@ The book analyzes structure, not people.
 
 - Use these two capacities when precision is needed:
   - **Scalability**: can coordinated action grow in reach?
-  - **Adaptability**: can influence change direction when reality pushes back?
+  - **Adaptability**: can coordinated action change direction when reality
+    pushes back?
 
 - Use these four state terms for directional classification:
   - **Regenerative**: high scalability, high adaptability
