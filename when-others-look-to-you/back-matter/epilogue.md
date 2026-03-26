@@ -10,8 +10,9 @@ accountability?
 Some readers arrive here hoping for a clean reversal strategy. Sometimes
 reversal is possible. Sometimes it is not.
 
-When boundary conditions are crossed, the immediate task may not be full
-restoration. It may be damage containment, constraint rebuilding, and
+When the baseline has already shifted—when temporary exceptions have become
+normal practice, as Chapter 9 described—the immediate task may not be
+full restoration. It may be damage containment, constraint rebuilding, and
 local repair.
 
 That distinction matters.
@@ -24,10 +25,11 @@ In this phase, progress can look modest:
 - Fewer harms pushed to the edge.
 - More decisions reopened before they harden.
 - Clearer limits on emergency permissions, so **Exceptions Are Forever**
-  does not become the default mode of governance.
+  does not become the usual way decisions get made.
 - Stronger protection for dissent and correction.
 
-These shifts rarely feel dramatic. They are still structural gains.
+These shifts rarely feel dramatic. They still change how people are
+treated.
 
 The work also returns, again, to human scale.
 
@@ -35,13 +37,13 @@ At human scale, consequences are harder to abstract. Claims are easier to
 test. Repair is harder to postpone. This does not make human-scale
 leadership morally pure. It makes feedback harder to ignore.
 
-Institutional reform still matters. But human-scale practice is where
+Formal rules and policy still matter. But day-to-day practice is where
 durable renewal habits are built:
 
 - Naming harm without rhetorical cover.
 - Refusing false urgency when correction is still possible.
-- Separating visible success from structural health.
-- Keeping authority revisable in public.
+- Separating visible success from whether correction still works.
+- Keeping authority open to change in public.
 
 None of this guarantees a happy ending.
 

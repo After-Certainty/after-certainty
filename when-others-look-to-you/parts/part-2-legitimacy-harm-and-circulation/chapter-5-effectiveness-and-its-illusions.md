@@ -4,9 +4,9 @@
 
 Effectiveness matters. But results alone do not settle leadership quality.
 
-A team can hit targets while suppressing warning signals. An institution
-can win short-term while borrowing against trust, learning, and future
-capacity.[^c5-performance-paradox]
+A team can hit its goals while suppressing warning signals. A congregation
+or workplace can look successful for a season while borrowing against trust,
+learning, and future capacity.[^c5-performance-paradox]
 
 The key distinction is visible performance versus long-term health.
 
@@ -14,16 +14,18 @@ The key distinction is visible performance versus long-term health.
 
 Short-term success is easy to overread.
 
-A quarter closes strong. A campaign lands. A crisis appears contained.
+The semester’s scores look strong. A neighborhood drive clears its goal. A
+public crisis appears contained.
 Observers infer sound leadership. Sometimes that inference is correct.
 Sometimes it is not.
 
 Performance can be real and still fragile. The deeper question is whether
-the result came from renewable conditions or from one-time extraction.
+the result came from renewable conditions or from a one-time squeeze of
+trust and capacity.
 
 ### **When Success Accelerates Insulation**
 
-Success often increases a leader's authority. That can help coordination.
+Success often increases a leader’s authority. That can help coordination.
 It can also reduce correction.
 
 After visible wins, dissent can look unnecessary. Critical voices are
@@ -33,7 +35,7 @@ Success pressure turns **Your Example Becomes the Rule** against dissent:
 the live lesson is what not to raise, and the pattern **Bring Bad News**
 weakens.
 
-This is one of leadership's recurring traps: success narrows the very
+This is one of leadership’s recurring traps: success narrows the very
 channels needed to prevent future failure.
 
 In crisis contexts, effectiveness claims gain extra persuasive force.
@@ -62,32 +64,32 @@ when it cannot, commitment hardens ahead of reality.
 
 Some of the most effective decisions look costly in the short term.
 
-Leaders may slow implementation, absorb political discomfort, or expose weak
+Leaders may slow implementation, absorb awkward public moments, or expose weak
 assumptions early. These choices can look inefficient today while
 protecting capacity tomorrow.
 
-Deferred effectiveness is disciplined patience: spending now to avoid
-larger loss later.
+Deferred effectiveness is patient judgment: paying a smaller cost now to
+avoid a larger one later.
 
 ### **Performative Compliance vs Real Alignment**
 
-Performance indicators can hide real alignment problems.
+What gets measured can hide whether people are actually with you.
 
-People can produce favorable numbers while privately withdrawing trust.
+People can produce good-looking counts while privately withdrawing trust.
 They can repeat approved language while silently routing around decisions
 they do not believe in. In these conditions, the group appears coordinated, but
 its ability to act together is already splitting underneath—and
-**Feedback Gap** can hide behind strong reporting.
+**Feedback Gap** can hide behind paperwork that looks tidy.
 
 This is why selective followership matters when judging effectiveness.
 Open disagreement can strengthen results. Quiet divergence usually
-degrades them over time.
+wears them down over time.
 
 ### **A Better Effectiveness Test**
 
 Ask four questions alongside outcomes:
 
-- Were correction paths open during execution?
+- Were correction paths open while the work was underway?
 - Did concerns change decisions, or only decorate meetings?
 - Did success increase learning capacity or reduce it?
 - Did the group preserve trust while achieving results?
@@ -97,7 +99,7 @@ Without these checks, results can mislead.
 ### **Connection to Chapter 6**
 
 Effectiveness asks what worked. Legitimacy asks why people continue to
-follow.
+look—and what makes that sustainable.
 
 Chapter 6 examines how legitimacy forms, hardens, and renews over time.
 

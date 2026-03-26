@@ -36,29 +36,27 @@ Each case can look stable on the surface while the underlying structure
 drifts toward entrenched or stalled conditions—where **Feedback Gap** can
 still look like calm coordination from the outside.
 
-### **Two Arcs**
+### **Two Trajectories**
 
-Across lenses, two arcs become visible:
+Taken together, repeated choices tend to push structure one of two ways:
 
-- **Unbounded arc:** authority travels farther than accountability.
-- **Bounded arc:** authority retains constraints and correction pathways.
+- **Authority stretches ahead of accountability:** reach, permission, and
+  narrative travel while costs, dissent, and consequence lag or drop out of
+  view.
+- **Authority stays tethered:** power remains tied to visible consequence
+  and to paths where correction can still change direction.
 
-These are not personality types. They are structural trajectories.
+These are not personality types. They are where decisions accumulate over
+time—not a single switch you flip once, but a direction you reinforce or
+interrupt. Movement between them is possible. The issue is whether
+**We Change Course** remains possible in practice when reality pushes back.
 
-### **States Inside the Arcs**
+### **When the Baseline Has Already Shifted**
 
-Use renewal and erosion as umbrella directions:
-
-- **Regenerative** and **Adaptive** sit on the renewal side.
-- **Entrenched** and **Stalled** sit on the erosion side.
-
-Movement between states is possible. The issue is whether **We Change Course**
-remains structurally available when reality pushes back.
-
-### **After Boundary Conditions Are Crossed**
-
-When boundary conditions are crossed, full reversal is often unlikely in
-the near term.
+Chapter 9 described one common threshold: emergency logic becomes normal
+logic—temporary exception, then repeated exception, then default. That
+sequence is a way the first trajectory deepens. Once it has settled, full
+reversal is often unlikely in the near term.
 
 But partial repair is still possible:
 
@@ -79,10 +77,11 @@ about visibility, correction, and limits.
 Renewal is not permanence. It is sustained reach with usable adjustment
 under attention.
 
-The epilogue turns to the boundary condition directly: what remains
-possible when slowdown is still possible but full restoration is not yet
-available.
+The epilogue turns to that slower phase: what remains possible when
+containment and local repair are realistic, but quick full restoration is
+not.
 
 ::: {custom-style="Pull Quote Block"}
-What follows attention is not fate. It is structure repeated.
+What follows attention is not fate. It is what gets repeated until it
+hardens.
 :::

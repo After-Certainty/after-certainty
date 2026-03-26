@@ -39,8 +39,8 @@ Crisis periods can:
 - Increase tolerance for harm displacement.
 - Reward short-term effectiveness while shrinking correction time.
 - Accelerate legitimacy transfer through emergency precedent.
-- Normalize temporary authority expansions into durable baseline
-  governance.[^c9-crisis-precedent]
+- Normalize temporary authority expansions into a lasting baseline for how
+  decisions get made.[^c9-crisis-precedent]
 
 Crisis does not create these dynamics from nothing. It reveals and
 amplifies what the structure already permits.
@@ -56,6 +56,7 @@ In the first week, response speed improves and visible disruption drops.
 Frontline teams also report repeated blind spots in neighborhood access,
 but route corrections are delayed because the temporary command protocol
 blocks local overrides.
+
 In crisis, that trade is one version of **Your Example Becomes the Rule**
 set against correction signals.
 
@@ -79,8 +80,8 @@ Restraint can look weak in the moment.
 
 Leaders who slow, verify, and reopen challenge channels may appear less
 decisive than leaders who centralize control and close debate. But over
-time, restraint often preserves adaptability and limits downstream
-harm.[^c9-escalation]
+time, restraint often preserves adaptability and limits harm that shows up
+later.[^c9-escalation]
 
 The question is not whether urgency is real. The question is what gets
 locked in after urgency passes—and whether the group can still authorize

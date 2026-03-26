@@ -234,6 +234,12 @@ If removing a line break strengthens coherence, remove it.
 
 ## **Vocabulary Constraints**
 
+**When Others Look to You — enforced checklist:** After plain-language or
+echo passes on this manuscript, run the chapter-aware targets in
+`editorial-vocabulary.md` (same `docs/` folder) so vocabulary choices
+(**look** vs **follow**, harm vignette domain, renewal/erosion plain labels,
+Part III echo rules, etc.) stay consistent.
+
 Avoid:
 
 - Excessive academic jargon.
@@ -277,10 +283,11 @@ Prefer:
   analytic argument.
 
 - If a concrete-example run is intentionally preserved for voice, rhythm,
-  or recognizability (for example: "A quarter closes strong. A campaign
-  lands. A crisis appears contained."), treat it as protected wording and
-  do not rewrite it in later audits unless the author explicitly requests a
-  change.
+  or recognizability, treat it as protected wording and do not rewrite it
+  in later audits unless the author explicitly requests a change.
+  Current approved triad in **Chapter 5** (short-term success): semester
+  scores, neighborhood drive, public crisis—keep mixed-domain spread; do
+  not default to finance-quarter-only imagery unless the author restores it.
 
 - Outside vignette and clearly signposted concrete-example passages,
   domain-heavy shorthand should be treated as a rewrite trigger, not a
@@ -339,13 +346,18 @@ The book analyzes structure, not people.
 ### **Renewal/Erosion Neutrality Guardrail**
 
 - Treat renewal and erosion as structural descriptors, not moral verdicts.
+  In running prose, parallel plain glosses are allowed (for example: "how
+  the group is behaving," "how the group handles harm") when they preserve
+  neutrality—see `editorial-vocabulary.md`.
 
 - Do not equate renewal with moral goodness or erosion with moral evil.
 
-- Prefer structural wording (for example: "more revisable," "more
-  insulated," "more one-directional," "more open to correction") over
+- Prefer structural wording (for example: "more open to correction," "more
+  insulated," "more one-directional," "room to revise plans") over
   moralized shorthand (for example: "healthier," "better people,"
-  "worse people") when describing renewal/erosion dynamics.
+  "worse people") when describing renewal/erosion dynamics. Avoid rarefied
+  one-word abstractions (*revisability*, *permeability*) in Chapter 2-style
+  exposition unless the author explicitly restores them.
 
 - In plain-language revisions, preserve neutrality: simplify wording
   without converting structural claims into moral praise or blame.
@@ -367,6 +379,11 @@ The book analyzes structure, not people.
 
 - Prefer capacity words when discussing one dimension only; prefer state
   words when both dimensions are implied.
+
+- **Echo guardrail (Part III / scale):** Do not paste the full four-state
+  bullet matrix again in **Chapter 8**; summarize and point readers to
+  **Chapter 2**. Keep the **Part III bridge** recap of the model to a
+  single sentence unless the author expands it deliberately (`editorial-vocabulary.md`).
 
 ## **Universality Constraint**
 

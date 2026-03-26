@@ -17,7 +17,7 @@ Because legitimacy can be example-based, procedural, office-based, or
 sacralized, and each form carries different renewal risks.
 
 Part II also tracks transfer: legitimacy does not change only during one
-leader's tenure; it can travel across leadership handoffs.
+leader’s tenure; it can travel across leadership handoffs.
 
 The fourth focus is circulation. Can influence flow back toward power, or
 does it stop at the edge of authority? Renewal requires usable return
@@ -25,7 +25,7 @@ paths for dissent, warning, and revision.
 
 This part carries forward a key claim from Part I: being looked to does
 not mean uniform obedience. Selective followership can function as
-correction in regenerative or adaptive systems, or become a quiet
+correction in regenerative or adaptive groups, or become a quiet
 fracture in entrenched or stalled ones.
 
 Across these chapters, track one continuity thread: crisis pressure often

@@ -331,7 +331,7 @@ Avoid:
 
 - "This is **We Own the Outcome**."
 - "They are **No One Pushes Back**."
-- "The system is **Bring Bad News**."
+- "The group is in **Bring Bad News**."
 
 Avoid:
 
@@ -546,7 +546,7 @@ Eligible patterns: all patterns.
 
 Strong opportunities:
 
-- In "Two Arcs" and "After Boundary Conditions Are Crossed," where
+- In "Two Trajectories" and "When the Baseline Has Already Shifted," where
   transfer, insulation, and delayed feedback converge
   (**Feedback Gap**, **No One Pushes Back**).
 - In epilogue sections on emergency permissions and damage containment
@@ -556,6 +556,16 @@ Strong opportunities:
 
 Use at most one inline anchor per bridge, and only when it improves
 recall without sounding repetitive.
+
+## **Manuscript vocabulary alignment**
+
+When inserting or revising pattern blocks in *When Others Look to You*, keep
+surrounding prose aligned with the book’s enforced plain-language and echo
+rules—not only pattern naming. After substantive edits, cross-check
+`docs/editorial-vocabulary.md` (look vs follow, harm vignette domain,
+renewal/erosion labels in Chapter 2, Part III definition echo limits) so
+pattern callouts do not reintroduce deprecated jargon or duplicate the full
+four-state model where the manuscript says not to.
 
 ## **Anti-Patterns (What to Avoid)**
 

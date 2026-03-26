@@ -13,12 +13,12 @@ literal and navigational.
 Sub-headings are used when the argument makes a meaningful shift.
 They are meant to orient you, not to dramatize the prose.
 
-Each chapter closes with a short pull-quote that distills the chapter's
-core structural takeaway.
+Each chapter closes with a short pull-quote that distills the chapter’s
+core takeaway.
 
 Example:
 
-- Part II — Legitimacy, Harm, and Circulation
+- Part II — Harm, Effectiveness, Legitimacy, and Circulation
 - Bridge — From Misjudgment to Structural Tests
 - Chapter 6 — Legitimacy Over Time
 
@@ -28,7 +28,7 @@ Pull-quotes are brief and plain-language by design.
 They summarize structure, not personality.
 
 They are not slogans, and they should be read as compression of the
-chapter's argument rather than as standalone aphorisms.
+chapter’s argument rather than as standalone aphorisms.
 
 They appear as short emphasized display blocks so they remain visually
 distinct from body paragraphs and from vignette scenes. Their formatting
@@ -66,7 +66,7 @@ These are brief scenes, visually separated from the surrounding analysis.
 
 When a vignette appears, it is there to clarify a structural point through
 a human-scale moment. After the vignette, the prose returns directly to
-analysis and ties the scene back to the chapter's central claim.
+analysis and ties the scene back to the chapter’s central claim.
 
 Example:
 

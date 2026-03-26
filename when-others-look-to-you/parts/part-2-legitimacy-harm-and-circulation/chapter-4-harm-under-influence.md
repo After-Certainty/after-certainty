@@ -4,9 +4,9 @@
 
 Leadership does not remove harm. It directs where harm goes.[^c4-risk-distribution]
 
-When others look to someone for direction, decisions scale. Benefits can
-scale, but costs scale too. A missed warning in one role can become a
-systemic loss for many people. That is why where harm lands is central to
+When others look to someone for direction, decisions reach farther. Benefits can
+spread, but costs can too. A missed warning in one role can become
+widespread loss for many people. That is why where harm lands is central to
 leadership, not a late-stage ethical add-on.
 
 Most leaders believe they are acting for good. The practical question is
@@ -15,7 +15,7 @@ not intent alone, but where decision costs land when pressure rises.
 ### **Four Harm Postures**
 
 Leaders and groups usually settle into one of four recurring postures.
-These postures are structural descriptions, not moral rankings.
+These postures describe how the group handles harm, not moral rankings.
 
 ### **Harm-Absorbing**
 
@@ -38,7 +38,7 @@ small preventable harms become expected background conditions.
 ### **Harm-Instrumental**
 
 Harm-instrumental leadership treats some people as expendable to protect
-strategic goals.
+a prized goal or timeline.
 
 The logic sounds efficient: keep momentum, protect those at the center,
 and pass the cost outward. But when that pattern repeats, trust erodes,
@@ -70,18 +70,19 @@ Under crisis pressure, this pattern often sharpens: harm is reframed as
 necessary, and displacement is treated as temporary even when it becomes
 habit.
 
-### **The Friday Release**
+### **The Ribbon Date**
 
 ::: {custom-style="Vignette Block"}
-A product team has one week left in the quarter. A known security flaw
-is still unresolved. An engineer raises concern in the release meeting.
-The director replies, "Log it and ship. We cannot miss guidance again."
+A community center has one week before a ribbon cutting the mayor’s office
+scheduled. A facilities volunteer notices a handrail on the stairs is
+still loose. She raises it at the prep meeting. The site lead replies,
+"Note it and open anyway—we can't miss that date."
 That first response is where **Your Example Becomes the Rule** for what follows.
 
-The release goes out on time. Dashboard metrics look strong. Two weeks
-later, customer support absorbs the fallout. Frontline staff manage
-anger they did not create. The engineer who raised the warning is told
-to be "more solution-oriented" next cycle.
+The building opens on time. Photos for the town newsletter look great. Two
+weeks later, front-desk volunteers field angry calls after someone stumbles.
+The volunteer who raised the warning is told to be "more of a team player"
+next time.
 :::
 
 This scene is not unusual. It shows harm displacement in compact form:
@@ -109,16 +110,16 @@ Taking on cost can be responsible. It can also become distortion if it
 removes other people from responsibility they still need to carry.
 
 If a leader repeatedly absorbs every consequence, teams may stop naming
-risk, peers may stop correcting decisions, and institutions may stop
-repairing weak structures. In that case, harm is not being reduced. It is
+risk, peers may stop correcting decisions, and people farther from the
+front line may stop fixing what is broken. In that case, harm is not being reduced. It is
 being deferred and concentrated.
 
 A useful boundary question is this: does harm absorption increase shared
 responsibility, or replace it?
 
 When it increases shared responsibility, it builds trust and capacity.
-When it replaces responsibility, it weakens agency and makes future harm
-more likely.
+When it replaces responsibility, it weakens everyone else’s room to act and
+makes future harm more likely.
 
 ### **Selective Followership and Harm**
 
@@ -144,7 +145,7 @@ If these questions cannot be answered clearly, **We Own the Outcome** is
 probably absent, harm displacement is normalizing, and the group is
 drifting toward tolerance or blindness.
 
-### **Connection to Part II**
+### **Connection to Chapter 5**
 
 Harm is the first check because it reveals reality quickly.
 

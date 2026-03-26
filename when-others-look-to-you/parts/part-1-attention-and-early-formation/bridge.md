@@ -1,6 +1,6 @@
 # **Bridge — From Attention to Pattern**
 
-Attention is not yet a system. It is a moment.
+Attention is not yet a habit. It is a moment.
 
 A person looks at another person to decide what to do next. The moment
 can be small. It can pass without language. But if that moment repeats,

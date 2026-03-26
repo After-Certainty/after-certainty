@@ -9,8 +9,8 @@ Authority circulation means warnings, dissent, and on-the-ground
 information can reach decision-makers and change direction without
 punishment.[^c7-voice] While that remains true, **Bring Bad News** holds.
 
-Circulation is one of the clearest practical markers of whether a group is
-regenerative, adaptive, entrenched, or stalled.
+Circulation is a practical check. It shows whether the group lines up with
+Chapter 2’s four states: regenerative, adaptive, entrenched, or stalled.
 
 Without circulation, authority still exists, but learning slows and groups
 drift toward entrenched or stalled patterns.
@@ -20,7 +20,7 @@ drift toward entrenched or stalled patterns.
 Circulation is easiest to read through three patterns:
 
 - **One-way authority:** influence moves outward only; input is collected,
-  but decisions are effectively set at the center.
+  but the center still decides.
 - **Voice-only circulation:** concerns can travel upward and sometimes
   adjust plans, but leadership still stays fixed at the top.
 - **Shared circulation (guest leadership):** influence moves both ways.
@@ -61,7 +61,7 @@ When selective dissent is open and discussable, circulation is still
 working. When people shift to quiet workarounds, private refusal, and
 strategic silence, circulation is weakening.
 
-Open refusal can still support correction inside the system. Covert refusal
+Open refusal can still support correction where others can see it. Covert refusal
 often signals a shift toward silent exit.[^c7-exit]
 
 ### **The Quiet Workaround**
@@ -72,19 +72,18 @@ leadership. Nurses report that the rule creates unsafe handoff gaps on
 night shifts. The issue is raised twice and acknowledged, but no change
 follows.
 
-After that, charge nurses stop escalating. They build an informal swap
-system to close the gaps. Reports still show formal compliance with the
+After that, charge nurses stop escalating. They arrange informal swaps among
+themselves to close the gaps. Reports still show formal compliance with the
 central rule, but local practice quietly diverges.
 :::
 
 This is a circulation failure, not simply local resistance.
 
-Upward voice was attempted and produced no adjustment, so correction moved
-off-record. The group now has apparent alignment in formal reporting and
-practical divergence in day-to-day operations.
+People raised the issue; nothing changed. So fixes moved off the books.
 
-That split is one of the clearest indicators that authority has become
-more one-directional and less revisable.
+On paper, the group aligns. In daily work, practice drifts.
+
+That gap usually means authority runs one way and is harder to change.
 It is also where **Feedback Gap** begins to govern daily
 operations.
 
@@ -104,25 +103,23 @@ If the answer to most is no, authority is becoming one-way.
 
 Circulation keeps authority in contact with consequence.
 
-It allows institutions to spot drift early, adjust before harm scales,
-and preserve legitimacy under pressure. It does not remove conflict. It
-keeps conflict available for revision.
+It lets a growing organization spot drift early. It buys time to adjust
+before harm spreads. It helps legitimacy hold under pressure. It does not
+remove conflict. It keeps conflict open to revision.
 
-Circulation also helps groups scale by letting people closest to changing
-conditions step in, adjust locally, and feed learning back to the center.
+Circulation also helps groups grow. People nearest the shifting facts can
+step in, fix things locally, and send what they learned back to the center.
 
 When circulation weakens, erosion usually appears before leaders can name it.
 
-Part III now tests what happens to these conditions under scale
-pressure, where distance and abstraction make circulation harder to
-sustain.
+Part III now tests what happens under scale. Distance and abstraction make
+circulation harder to sustain.
 
-It will also examine a crisis-specific risk: temporary circulation
-contraction can become a durable governance norm if recovery is not
-deliberately rebuilt.
+It also looks at a crisis risk. A short-lived tight grip on circulation can
+harden into habit if no one deliberately opens feedback again.
 
 ::: {custom-style="Pull Quote Block"}
-Circulation is not a promise. It helps groups adjust and scale, but only when feedback can still change decisions.
+Circulation is not a promise. It helps groups adjust as they grow, but only when feedback can still change decisions.
 :::
 [^c7-voice]: Albert O. Hirschman, *Exit, Voice, and Loyalty* (Cambridge, MA: Harvard University Press, 1970).
 [^c7-exit]: James C. Scott, *Domination and the Arts of Resistance: Hidden Transcripts* (New Haven, CT: Yale University Press, 1990).
