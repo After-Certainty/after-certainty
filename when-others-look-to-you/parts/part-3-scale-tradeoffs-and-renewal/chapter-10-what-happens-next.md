@@ -33,9 +33,8 @@ A short set of cross-domain examples helps keep this concrete:
 - A congregation appears unified because disagreement moves off-record.
 
 Each case can look stable on the surface while the underlying structure
-drifts toward entrenched or stalled conditions.
-Within that drift, **Consequences Don’t Come Back** can still look like calm
-coordination from the outside.
+drifts toward entrenched or stalled conditions—where **Feedback Gap** can
+still look like calm coordination from the outside.
 
 ### **Two Arcs**
 
@@ -53,8 +52,8 @@ Use renewal and erosion as umbrella directions:
 - **Regenerative** and **Adaptive** sit on the renewal side.
 - **Entrenched** and **Stalled** sit on the erosion side.
 
-Movement between states is possible. The issue is whether movement remains
-revisable.
+Movement between states is possible. The issue is whether **We Change Course**
+remains structurally available when reality pushes back.
 
 ### **After Boundary Conditions Are Crossed**
 

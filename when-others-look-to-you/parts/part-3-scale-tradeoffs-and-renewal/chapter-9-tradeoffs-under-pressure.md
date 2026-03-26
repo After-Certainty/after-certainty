@@ -56,8 +56,8 @@ In the first week, response speed improves and visible disruption drops.
 Frontline teams also report repeated blind spots in neighborhood access,
 but route corrections are delayed because the temporary command protocol
 blocks local overrides.
-In crisis, this is one way **Tone Sets the Room** against correction
-signals.
+In crisis, that trade is one version of **Your Example Becomes the Rule**
+set against correction signals.
 
 Months later, the storm is over, but the centralized approval path
 remains. Officials describe it as "proven under pressure."
@@ -83,7 +83,8 @@ time, restraint often preserves adaptability and limits downstream
 harm.[^c9-escalation]
 
 The question is not whether urgency is real. The question is what gets
-locked in after urgency passes.
+locked in after urgency passes—and whether the group can still authorize
+**We Change Course** once the emergency story stops dominating meetings.
 
 ### **Boundary Conditions**
 
@@ -103,9 +104,8 @@ governing condition.
 ### **Connection to Chapter 10**
 
 Tradeoffs under pressure show trajectories. Chapter 10 asks what remains
-possible once trajectories are visible but reversal is incomplete.
-It also asks what remains possible once **Exceptions Are Forever** has
-begun to shape the baseline.
+possible once trajectories are visible but reversal is incomplete, and
+once **Exceptions Are Forever** has begun to shape the baseline.
 
 ::: {custom-style="Pull Quote Block"}
 Pressure does not choose for us. It reveals what we are willing to lock in.

@@ -4,8 +4,8 @@
 
 Leadership patterns do not stand still.[^c2-adaptive-systems]
 
-Chapter 1 established the opening condition: attention can gather without
-guaranteeing obedience, and influence can be high while compliance is
+Chapter 1 established the opening condition: attention can concentrate
+without guaranteeing obedience, and influence can be high while compliance is
 partial. The next question is what that influence repeatedly produces.
 
 Once **Attention Comes Into Focus**, the surrounding group moves in one of
@@ -28,7 +28,8 @@ A practical way to read renewal and erosion is to track two capacities:
 scalability and adaptability.
 
 - **Scalability:** can coordinated action grow in reach?
-- **Adaptability:** can influence change direction when reality pushes back?
+- **Adaptability:** can coordinated action change direction when reality
+  pushes back?
 
 Erosion appears when either capacity shrinks.
 
@@ -49,7 +50,9 @@ grows.[^c2-high-reliability]
 
 People closest to consequences can still speak. Disagreement is possible
 without social exile. Early warnings are not treated as betrayal.
-Mistakes are surfaced before they become identity threats.
+Mistakes are surfaced before they become identity threats. In that
+climate, **Your Example Becomes the Rule** that difficult news stays
+speakable—not that it stays hidden.
 
 High-renewal groups do not avoid failure. They shorten the time between
 signal and response. They correct earlier, at lower cost, with less
@@ -165,7 +168,7 @@ the group is drifting from renewal toward erosion.
 
 ### **A Practical Discipline**
 
-If leadership begins when attention gathers, renewal depends on what
+If leadership begins when attention comes into focus, renewal depends on what
 happens next when attention is tested.
 
 The practical discipline is simple:

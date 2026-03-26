@@ -22,6 +22,10 @@ This document defines the drafting workflow for building the book in a structure
 - Kindle exports use `BookCover.png` as EPUB cover metadata and remove
   the inline cover image from in-book reading flow so title-page text
   appears first.
+- Fixed-layout figures (e.g. the pattern-groups triangle in the introduction)
+  live as SVG under `docs/diagrams/` and are rasterized to
+  `export-assets/diagrams/*.png` during the same step. Install **librsvg**
+  (`rsvg-convert`) or **ImageMagick** (`magick`) for that conversion.
 - Post-processing removes the generated EPUB cover page from spine order
   while keeping the metadata cover, so readers open to title-page text.
 

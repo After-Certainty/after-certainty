@@ -1,11 +1,17 @@
 # **Appendix B — Leadership Patterns**
 
 This appendix summarizes recurring structural patterns described
-throughout the book. Each pattern is presented as a compact diagnostic:
+throughout the book. Patterns are grouped into four kinds—**forming**,
+**renewing**, **eroding**, and **circulating**—each a compact diagnostic:
 when it appears, what is happening, and what tends to follow.
 
 These patterns are not prescriptions; they are observable conditions
 that recur across domains, from small groups to large institutions.
+
+## **Forming**
+
+_Patterns that describe how attention, example, and habit concentrate
+leadership when direction is still taking shape._
 
 ## **Attention Comes Into Focus**
 
@@ -31,6 +37,8 @@ will lead.
 Attention comes into focus around a person, and others begin orienting
 their behavior in response to that person’s actions, tone, or timing.
 
+> "Alright—attention is coming into focus on you. What do you think?"
+
 **Effect:**
 
 Influence multiplies immediately. The person being looked to becomes
@@ -43,9 +51,9 @@ reinforces attention, and authority begins to consolidate.
 
 **Related Patterns:**
 
-Tone Sets the Room; The One We Default To
+Your Example Becomes the Rule; The One We Default To
 
-## **Tone Sets the Room**
+## **Your Example Becomes the Rule**
 
 **Context:**
 
@@ -59,14 +67,16 @@ are absent or incomplete.
 **Forces:**
 
 - People look for social cues under uncertainty
-- Tone is faster and more influential than formal policy
+- Example is faster and more influential than formal policy
 - Early reactions shape perceived boundaries
 - Silence and emphasis both carry meaning
 
 **Observation:**
 
-People take their cues from how the leader responds, not what is
-formally stated.
+What the leader does—especially under pressure—quickly defines what
+others believe is acceptable.
+
+> "Careful—your example is becoming the rule here."
 
 **Effect:**
 
@@ -76,11 +86,11 @@ and risk are handled.
 **Resulting Context:**
 
 Behavior becomes patterned. Future situations are interpreted through
-the established tone.
+the established example.
 
 **Related Patterns:**
 
-Attention Comes Into Focus; You Can Bring Them Bad News
+Attention Comes Into Focus; Bring Bad News
 
 ## **The One We Default To**
 
@@ -105,6 +115,8 @@ distributed.
 The group defaults to the same person automatically, even in situations
 where no formal authority exists.
 
+> "We've made you the one we default to on this."
+
 **Effect:**
 
 Authority forms through repetition and becomes difficult to
@@ -119,43 +131,12 @@ leadership pathways weaken.
 
 Attention Comes Into Focus; No One Pushes Back
 
-## **Someone Else Pays**
+## **Renewing**
 
-**Context:**
+_Patterns that keep decisions connected to reality, correction, and
+accountability._
 
-A decision creates cost, risk, or harm within a system.
-
-**Problem:**
-
-The location of decision-making and the location of consequence are not
-aligned.
-
-**Forces:**
-
-- Incentives favor visible success over visible cost
-- Systems distribute impact unevenly
-- Those closest to harm often have less influence
-- Harm is easier to ignore when indirect
-
-**Observation:**
-
-The cost of decisions is carried by people other than the
-decision-maker.
-
-**Effect:**
-
-Accountability weakens, and harm becomes easier to normalize or repeat.
-
-**Resulting Context:**
-
-Costs are displaced across the system, reducing trust and increasing
-hidden accumulation of risk.
-
-**Related Patterns:**
-
-Consequences Don’t Come Back; No One Pushes Back
-
-## **You Can Bring Them Bad News**
+## **Bring Bad News**
 
 **Context:**
 
@@ -175,8 +156,10 @@ decision-makers.
 
 **Observation:**
 
-In healthier systems, people can bring bad news to decision-makers and
-be heard in time to influence decisions.
+Problems are surfaced early so reality can reach decision-makers in
+time.
+
+> "Just bring bad news—don't filter it."
 
 **Effect:**
 
@@ -190,7 +173,89 @@ problems grow before they are addressed.
 
 **Related Patterns:**
 
-Tone Sets the Room; Consequences Don’t Come Back
+Your Example Becomes the Rule; Feedback Gap
+
+## **We Change Course**
+
+**Context:**
+
+New information, visible risk, or failed assumptions appear after a
+direction has already been set.
+
+**Problem:**
+
+The group must decide whether to adjust or to protect continuity of
+narrative and commitment.
+
+**Forces:**
+
+- Public commitment makes reversal costly
+- Momentum favors staying the course
+- Admitting error threatens legitimacy
+- Small updates are easier than full reversals
+
+**Observation:**
+
+The group adjusts direction in response to new information or emerging
+risk.
+
+> "We're going to change course based on what we just learned."
+
+**Effect:**
+
+Structure stays aligned with reality instead of with an outdated story.
+
+**Resulting Context:**
+
+Correction remains legitimate; the system preserves room to revise
+when facts change.
+
+**Related Patterns:**
+
+Bring Bad News; We Own the Outcome
+
+## **We Own the Outcome**
+
+**Context:**
+
+A decision creates cost, risk, or benefit within a system.
+
+**Problem:**
+
+The location of decision-making and the location of consequence can
+drift apart.
+
+**Forces:**
+
+- Incentives favor visible success over visible cost
+- Systems distribute impact unevenly
+- Distance makes harm easier to overlook
+- Passing responsibility downstream is often convenient
+
+**Observation:**
+
+Those making decisions remain connected to the consequences of those
+decisions.
+
+> "We own the outcome on this—no passing it off."
+
+**Effect:**
+
+Accountability stays visible; harm is harder to normalize or repeat
+without acknowledgment.
+
+**Resulting Context:**
+
+Costs are not silently displaced; trust in correction pathways can hold.
+
+**Related Patterns:**
+
+Bring Bad News; Feedback Gap
+
+## **Eroding**
+
+_Patterns that describe how feedback, dissent, and boundaries weaken
+over time._
 
 ## **No One Pushes Back**
 
@@ -215,6 +280,8 @@ Maintaining authority begins to compete with maintaining correctness.
 Dissent disappears or is softened to the point that it no longer
 meaningfully challenges decisions.
 
+> "I'm noticing no one pushes back anymore."
+
 **Effect:**
 
 Correction pathways narrow, increasing the risk of hidden errors and
@@ -227,9 +294,9 @@ accelerates.
 
 **Related Patterns:**
 
-The One We Default To; Consequences Don’t Come Back
+The One We Default To; Feedback Gap
 
-## **Consequences Don’t Come Back**
+## **Feedback Gap**
 
 **Context:**
 
@@ -238,8 +305,8 @@ experienced.
 
 **Problem:**
 
-Feedback from real-world consequences does not reliably reach
-decision-makers.
+Information about real-world outcomes does not reliably reach
+decision-makers in time.
 
 **Forces:**
 
@@ -250,8 +317,10 @@ decision-makers.
 
 **Observation:**
 
-Those making decisions do not directly feel or receive the full impact
-of outcomes.
+Those making decisions do not receive a timely, accurate picture of
+what their choices are doing.
+
+> "There's a feedback gap—we're not hearing what's really happening."
 
 **Effect:**
 
@@ -265,7 +334,7 @@ expensive.
 
 **Related Patterns:**
 
-Someone Else Pays; You Can Bring Them Bad News
+We Own the Outcome; Bring Bad News
 
 ## **Exceptions Are Forever**
 
@@ -288,8 +357,10 @@ conditions stabilize.
 
 **Observation:**
 
-Exceptions introduced under pressure persist beyond the original
-conditions.
+Temporary workarounds and shortcuts become permanent parts of the
+system.
+
+> "Let's be careful—exceptions are forever."
 
 **Effect:**
 
@@ -303,4 +374,48 @@ over time.
 
 **Related Patterns:**
 
-No One Pushes Back; Consequences Don’t Come Back
+No One Pushes Back; Feedback Gap
+
+## **Circulating**
+
+_Patterns that describe how leadership norms spread beyond the original
+setting._
+
+## **Copy What Works Here**
+
+**Context:**
+
+A group has stabilized around visible leadership behaviors—what gets
+rewarded, what gets punished, what gets ignored.
+
+**Problem:**
+
+Those behaviors are observed not only as personal style but as a model
+for “how things work here,” and they travel.
+
+**Forces:**
+
+- Imitation is faster than explicit instruction
+- Success is attributed to visible behavior, not to hidden structure
+- New members learn from example before they learn from rules
+- What survives selection is what gets copied
+
+**Observation:**
+
+Leadership behaviors and norms are imitated, shaping how future
+leadership forms.
+
+> "People will just copy what works here, whether we like it or not."
+
+**Effect:**
+
+Local habits become templates. Strengths and pathologies both replicate.
+
+**Resulting Context:**
+
+Formation elsewhere begins to resemble this cluster—forming and eroding
+patterns can spread without anyone intending a “system design.”
+
+**Related Patterns:**
+
+Your Example Becomes the Rule; The One We Default To

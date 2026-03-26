@@ -8,7 +8,7 @@ does not. It begins with attention.
 The moment other people look to someone when deciding what to do next,
 leadership is already present. It may be formal or informal. It may be
 visible or quiet. It may happen in a family, a team, a congregation, or
-an institution. But the structure is the same: attention gathers, and
+an institution. But the structure is the same: attention comes into focus, and
 consequence follows.
 
 I wrote this book because that moment is common and under-described. We

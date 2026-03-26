@@ -24,6 +24,7 @@ help:
 	@echo "  - export-docx combines DIR/index.md plus linked .md files into DIR/export.docx."
 	@echo "  - export-kindle-epub creates DIR/export-kindle.epub from linked manuscript files."
 	@echo "  - export-kindle-epub-flat flattens custom blocks for Kindle and creates DIR/export-kindle-flat.epub."
+	@echo "  - SVG under DIR/docs/diagrams/ rasterize to DIR/export-assets/diagrams/ (rsvg-convert or magick)."
 	@echo "  - export-all-docx runs export-docx for every ./**/index.md."
 	@echo "  - clean-import-md deletes every ./**/import.md file."
 	@echo "  - Requires pandoc installed and available in PATH."

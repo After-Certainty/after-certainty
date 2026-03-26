@@ -11,7 +11,7 @@
 - [Typographical Conventions](front-matter/typographical-conventions.md)
 - [Author's Note](front-matter/authors-note.md)
 - [Preface](front-matter/preface.md)
-- [Introduction — When Attention Gathers](front-matter/introduction-when-attention-gathers.md)
+- [Introduction — When Attention Comes into Focus](front-matter/introduction-when-attention-comes-into-focus.md)
 
 ## Part I — Attention and Early Formation
 

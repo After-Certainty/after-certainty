@@ -12,7 +12,7 @@ when uncertainty rises and looks toward someone who has spoken before. A
 congregation listens for tone before interpreting a difficult moment. A
 company waits for direction when performance falters.
 
-Attention gathers. Leadership begins there.[^c1-attention-and-leadership] It does not require a title,
+Attention comes into focus. Leadership begins there.[^c1-attention-and-leadership] It does not require a title,
 charisma, or intention. It requires orientation: when others orient
 themselves around you, your influence multiplies.
 
@@ -48,10 +48,10 @@ accumulate quietly. Either way, the signal travels. People rarely wait
 for formal instruction. They read patterns.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Tone Sets the Room**
+**Pattern - Your Example Becomes the Rule**
 
-The first visible response to error or tension sets boundaries faster
-than policy and teaches people what is safe to surface.
+What you do under pressure defines acceptable behavior faster than
+policy and teaches people what is safe to surface.
 :::
 
 ### **Belief and Repetition**
@@ -91,7 +91,7 @@ reflexive opposition, doing the opposite of what they are told as a way
 to protect agency.[^c1-reactance]
 
 This matters because influence can be high while compliance is partial.
-Attention gathers first. Interpretation comes next.
+Attention comes into focus first. Interpretation comes next.
 
 ### **Ordinary Decisions, Structural Consequences**
 
@@ -112,7 +112,7 @@ next.
 Does influence stay open to correction? Does belief renew through
 example? Does authority drift toward insulation?[^c1-correction-and-insulation]
 
-Leadership begins when attention gathers. Renewal or erosion begins with
+Leadership begins when attention comes into focus. Renewal or erosion begins with
 what follows.
 
 Chapter 2 names those two paths directly and shows how they appear before

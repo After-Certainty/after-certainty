@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 import argparse
 import re
+import sys
 from pathlib import Path
+
+_TOOLS_DIR = Path(__file__).resolve().parent
+if str(_TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(_TOOLS_DIR))
+
+from diagram_rasterize import rasterize_book_diagrams  # noqa: E402
 
 
 def flatten_custom_blocks(text: str) -> str:
@@ -84,7 +91,11 @@ def main() -> None:
             text = flatten_custom_blocks(text)
         chunks.append(text.strip())
 
-    out_path.write_text("\n\n".join(chunks).strip() + "\n")
+    combined = "\n\n".join(chunks).strip() + "\n"
+    n_diagrams = rasterize_book_diagrams(book_dir)
+    if n_diagrams:
+        print(f"diagram_pngs={n_diagrams}")
+    out_path.write_text(combined)
     print(f"prepared_files={len(files)}")
 
 
