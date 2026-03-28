@@ -48,10 +48,10 @@ accumulate quietly. Either way, the signal travels. People rarely wait
 for formal instruction. They read patterns.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Your Example Becomes the Rule**
+**Pattern - Behavior Becomes the Rule**
 
-What you do under pressure defines acceptable behavior faster than
-policy and teaches people what is safe to surface.
+Visible behavior under pressure defines what others treat as acceptable
+faster than policy and teaches people what is safe to surface.
 :::
 
 ### **Belief and Repetition**
@@ -67,7 +67,7 @@ the more influence consolidates. The more influence consolidates, the
 more people look. Authority emerges from repetition.[^c1-legitimacy-and-repetition]
 
 ::: {custom-style="Pattern Block"}
-**Pattern - The One We Default To**
+**Pattern - People Look to One Person**
 
 Repeated deference hardens into habit, and one person becomes the
 automatic decision point even without new formal authority.

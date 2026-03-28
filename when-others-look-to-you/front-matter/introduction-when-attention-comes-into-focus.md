@@ -39,9 +39,9 @@ chapters take up harm, effectiveness, legitimacy, circulation, scale,
 tradeoffs under pressure, and finally how those lenses fit together.
 
 Appendix B names recurring **leadership patterns** in four groups—**Forming**,
-**Renewing**, **Eroding**, and **Circulating**. As a map of how they relate:
+**Adjusting**, **Eroding**, and **Circulating**. As a map of how they relate:
 Forming sets the live conditions; from there a structure can move toward
-Renewing or Eroding; both paths shape what later gets circulated and
+Adjusting or Eroding; both paths shape what later gets circulated and
 imitated; Circulating in turn feeds the next round of formation.
 
 ![Diagram: leadership pattern groups](export-assets/diagrams/pattern-groups.png)

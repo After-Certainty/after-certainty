@@ -21,6 +21,7 @@ Example:
 - Part II — Harm, Effectiveness, Legitimacy, and Circulation
 - Bridge — From Misjudgment to Structural Tests
 - Chapter 6 — Legitimacy Over Time
+- Part III — Scale, Tradeoffs, and What Happens Next
 
 ### **Pull-Quotes**
 

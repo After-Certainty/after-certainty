@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 928 748" role="img" aria-labelledby="pat-title pat-desc">
   <title id="pat-title">Leadership pattern groups</title>
-  <desc id="pat-desc">Forming at top; Renewing bottom left; Eroding bottom right; Circulating at the center; arrows show how groups connect.</desc>
+  <desc id="pat-desc">Forming at top; Adjusting bottom left; Eroding bottom right; Circulating at the center; arrows show how groups connect.</desc>
   <defs>
     <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
       <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
@@ -9,7 +9,7 @@
     <style>
       .frame { fill: #dcd4c8; stroke: #8f7f6e; stroke-width: 2.25; }
       .box-forming { fill: #eef4ef; stroke: #9aaa9a; stroke-width: 1.5; }
-      .box-renewing { fill: #eaedf5; stroke: #949db8; stroke-width: 1.5; }
+      .box-adjusting { fill: #eaedf5; stroke: #949db8; stroke-width: 1.5; }
       .box-eroding { fill: #f3eaec; stroke: #b8949a; stroke-width: 1.5; }
       .box-circulating { fill: #f2efe6; stroke: #a89b7a; stroke-width: 1.5; }
       .title { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 15px; font-weight: 600; fill: #1a1a1a; }
@@ -23,7 +23,7 @@
 
   <!-- Group boxes (distinct tints, drawn before edges so arrows stay on top) -->
   <rect class="box-forming" x="230" y="36" width="460" height="168" rx="6"/>
-  <rect class="box-renewing" x="48" y="548" width="268" height="168" rx="6"/>
+  <rect class="box-adjusting" x="48" y="548" width="268" height="168" rx="6"/>
   <rect class="box-eroding" x="604" y="548" width="268" height="168" rx="6"/>
   <rect class="box-circulating" x="330" y="400" width="260" height="72" rx="6"/>
 
@@ -37,19 +37,19 @@
   <!-- Labels -->
   <text class="title" x="460" y="62" text-anchor="middle">Forming</text>
   <text class="line" x="250" y="88">Attention Comes Into Focus</text>
-  <text class="line" x="250" y="112">Your Example Becomes the Rule</text>
-  <text class="line" x="250" y="136">The One We Default To</text>
+  <text class="line" x="250" y="112">Behavior Becomes the Rule</text>
+  <text class="line" x="250" y="136">People Look to One Person</text>
 
   <text class="title" x="460" y="426" text-anchor="middle">Circulating</text>
-  <text class="line" x="345" y="450">Copy What Works Here</text>
+  <text class="line" x="345" y="450">People Copy What Works</text>
 
-  <text class="title" x="182" y="574" text-anchor="middle">Renewing</text>
-  <text class="line" x="64" y="600">Bring Bad News</text>
-  <text class="line" x="64" y="624">We Change Course</text>
-  <text class="line" x="64" y="648">We Own the Outcome</text>
+  <text class="title" x="182" y="574" text-anchor="middle">Adjusting</text>
+  <text class="line" x="64" y="600">Bad News Moves Early</text>
+  <text class="line" x="64" y="624">Plans Can Change</text>
+  <text class="line" x="64" y="648">Decisions Stay Connected</text>
 
   <text class="title" x="738" y="574" text-anchor="middle">Eroding</text>
   <text class="line" x="620" y="600">No One Pushes Back</text>
-  <text class="line" x="620" y="624">Feedback Gap</text>
+  <text class="line" x="620" y="624">Feedback is Distorted</text>
   <text class="line" x="620" y="648">Exceptions Are Forever</text>
 </svg>

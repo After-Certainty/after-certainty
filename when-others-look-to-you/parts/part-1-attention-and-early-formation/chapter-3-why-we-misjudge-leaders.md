@@ -52,13 +52,14 @@ socially expensive to surface.[^c3-psychological-safety] People close to
 problems often carry the highest local risk for naming them.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Bring Bad News**
+**Pattern - Bad News Moves Early**
 
 When dissent and risk signals can move upward in time, correction stays
 possible; when they cannot, failure grows in the dark.
 :::
 
-When that pathway closes, **Bring Bad News** fails in practice.
+When that pathway closes, **Bad News Moves Early** collapses in practice—bad news
+stops moving early enough to matter.
 
 ### **The Intention Trap**
 
@@ -132,13 +133,13 @@ each other: visible success can hide degrading conditions until repair
 becomes expensive.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Feedback Gap**
+**Pattern - Feedback is Distorted**
 
 When decision-makers are buffered from what people on the ground experience,
 negative feedback weakens and drift continues behind strong narratives.
 :::
 
-In that condition, **Feedback Gap** is the structure—not a one-off blind
+In that condition, you are looking at **Feedback is Distorted**, not a one-off blind
 spot.
 
 ### **What to Watch Instead**
@@ -183,7 +184,7 @@ That standard is less dramatic than hero stories. It is also more
 reliable.
 
 Part II applies this lens to harm, effectiveness, legitimacy, and
-authority circulation.
+circulation.
 
 ::: {custom-style="Pull Quote Block"}
 We often misjudge leaders when we treat outcomes as proof and structure as background.

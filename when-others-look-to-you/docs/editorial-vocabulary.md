@@ -29,7 +29,7 @@ For global tone and universality rules, see `book-rules.md`. For pattern blocks 
 
 ### **Echo control (definitions)**
 
-- **Chapter 8** does **not** re-list the four state bullets; point to **Chapter 2** and name risk at scale in prose.
+- **Chapter 8** does **not** re-list the four state bullets (or duplicate Chapter 2’s scalability/adaptability bullet pair); point to **Chapter 2** in prose and name risk at scale there.
 - **Part III bridge** summarizes Chapter 2’s model in **one sentence**, not three recap bullets.
 
 ---
@@ -88,7 +88,7 @@ For global tone and universality rules, see `book-rules.md`. For pattern blocks 
 ## Chapters 9–10 and epilogue (recent related edits)
 
 - **Trajectories** language (not “unbounded/bounded arc”); **baseline shifted** ties to **Chapter 9** exception sequence.
-- **Chapter 10** dropped the redundant four-state recap section; keep **We Change Course** on the trajectory paragraph.
+- **Chapter 10** dropped the redundant four-state recap section; keep **Plans Can Change** on the trajectory paragraph.
 - Epilogue: prefer **usual way decisions get made**, **how people are treated**, **formal rules and policy**, **whether correction still works** over *governance / structural gains* where those edits already landed.
 
 ---

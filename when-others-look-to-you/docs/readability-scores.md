@@ -3,7 +3,7 @@
 > **Generated file.** Do not edit by hand. Regenerate with:
 > `python3 scripts/readability_scores.py`
 
-**Last generated:** 2026-03-26 06:04 UTC
+**Last generated:** 2026-03-28 00:14 UTC
 
 ## Method
 
@@ -25,23 +25,23 @@
 | Front matter | Preface | 9.4 | 9.3 | 11.2 | 51.1 | 21 | 279 |
 | Front matter | Introduction | 9.6 | 9.6 | 12.4 | 49.2 | 26 | 334 |
 | Front matter | Prologue | 8.3 | 8.3 | 10.7 | 57.5 | 18 | 222 |
-| Front matter | Typographical conventions | 11.1 | 10.6 | 13.7 | 44.9 | 17 | 281 |
+| Front matter | Typographical conventions | 11.2 | 10.6 | 13.6 | 45.3 | 17 | 289 |
 | Part I | Bridge | 7.5 | 7.7 | 10.0 | 59.1 | 17 | 171 |
 | Part I | Ch 1 — The Weight of Being Looked To | 9.4 | 7.8 | 12.7 | 42.1 | 95 | 765 |
-| Part I | Ch 2 — Renewal and Erosion | 9.9 | 8.9 | 13.6 | 41.6 | 114 | 1124 |
-| Part I | Ch 3 — Why We Misjudge Leaders | 10.5 | 9.3 | 14.3 | 38.2 | 99 | 1010 |
+| Part I | Ch 2 — Renewal and Erosion | 10.0 | 9.0 | 13.6 | 41.2 | 114 | 1126 |
+| Part I | Ch 3 — Why We Misjudge Leaders | 10.5 | 9.3 | 14.2 | 38.3 | 99 | 1018 |
 | Part II | Bridge | 9.2 | 8.4 | 12.0 | 47.8 | 22 | 234 |
-| Part II | Ch 4 — Harm Under Influence | 9.6 | 8.9 | 13.1 | 47.5 | 62 | 729 |
-| Part II | Ch 5 — Effectiveness and Its Illusions | 9.9 | 8.4 | 13.7 | 41.8 | 55 | 536 |
-| Part II | Ch 6 — Legitimacy Over Time | 10.2 | 9.0 | 12.6 | 43.1 | 53 | 637 |
-| Part II | Ch 7 — Authority Circulation | 10.4 | 8.6 | 14.4 | 38.6 | 56 | 561 |
-| Part III | Bridge | 8.7 | 7.6 | 12.0 | 51.9 | 16 | 174 |
-| Part III | Ch 8 — Scale and Drift | 10.3 | 8.4 | 13.2 | 41.3 | 45 | 508 |
-| Part III | Ch 9 — Tradeoffs Under Pressure | 10.6 | 9.1 | 14.5 | 36.6 | 42 | 411 |
-| Part III | Ch 10 — What Happens Next | 10.6 | 9.9 | 14.0 | 38.8 | 36 | 404 |
-| Back matter | Epilogue | 8.5 | 8.3 | 11.2 | 52.1 | 38 | 386 |
-| Back matter | Appendix A — Legitimacy transfer | 11.2 | 9.0 | 14.1 | 32.3 | 64 | 631 |
-| Back matter | Appendix B — Leadership patterns | 11.4 | 10.2 | 14.1 | 41.1 | 83 | 1286 |
+| Part II | Ch 4 — Harm Under Influence | 9.7 | 9.1 | 13.3 | 46.5 | 62 | 730 |
+| Part II | Ch 5 — Effectiveness and Its Illusions | 9.9 | 8.4 | 13.6 | 41.5 | 55 | 538 |
+| Part II | Ch 6 — Legitimacy Over Time | 10.3 | 9.1 | 12.7 | 43.0 | 53 | 644 |
+| Part II | Ch 7 — Authority Circulation | 10.4 | 8.6 | 14.4 | 38.6 | 56 | 563 |
+| Part III | Bridge | 8.8 | 7.8 | 11.9 | 51.7 | 16 | 177 |
+| Part III | Ch 8 — Scale and Drift | 10.3 | 8.4 | 13.2 | 41.2 | 45 | 510 |
+| Part III | Ch 9 — Tradeoffs Under Pressure | 10.7 | 9.1 | 14.5 | 36.0 | 42 | 409 |
+| Part III | Ch 10 — What Happens Next | 10.6 | 9.9 | 13.9 | 39.2 | 36 | 405 |
+| Back matter | Epilogue | 8.8 | 8.6 | 11.5 | 50.4 | 38 | 390 |
+| Back matter | Appendix A — Legitimacy transfer | 11.3 | 9.1 | 14.1 | 31.9 | 66 | 664 |
+| Back matter | Appendix B — Leadership patterns | 11.6 | 10.4 | 14.2 | 39.8 | 83 | 1292 |
 | Back matter | Bibliography | 9.9 | 6.3 | 12.0 | 32.7 | 67 | 310 |
 
 ## Source paths
@@ -64,10 +64,10 @@
 | Ch 5 — Effectiveness and Its Illusions | `parts/part-2-legitimacy-harm-and-circulation/chapter-5-effectiveness-and-its-illusions.md` |
 | Ch 6 — Legitimacy Over Time | `parts/part-2-legitimacy-harm-and-circulation/chapter-6-legitimacy-over-time.md` |
 | Ch 7 — Authority Circulation | `parts/part-2-legitimacy-harm-and-circulation/chapter-7-authority-circulation.md` |
-| Bridge | `parts/part-3-scale-tradeoffs-and-renewal/bridge.md` |
-| Ch 8 — Scale and Drift | `parts/part-3-scale-tradeoffs-and-renewal/chapter-8-scale-and-drift.md` |
-| Ch 9 — Tradeoffs Under Pressure | `parts/part-3-scale-tradeoffs-and-renewal/chapter-9-tradeoffs-under-pressure.md` |
-| Ch 10 — What Happens Next | `parts/part-3-scale-tradeoffs-and-renewal/chapter-10-what-happens-next.md` |
+| Bridge | `parts/part-3-scale-tradeoffs-and-what-happens-next/bridge.md` |
+| Ch 8 — Scale and Drift | `parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-8-scale-and-drift.md` |
+| Ch 9 — Tradeoffs Under Pressure | `parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-9-tradeoffs-under-pressure.md` |
+| Ch 10 — What Happens Next | `parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-10-what-happens-next.md` |
 | Epilogue | `back-matter/epilogue.md` |
 | Appendix A — Legitimacy transfer | `back-matter/appendix-a-legitimacy-transfer.md` |
 | Appendix B — Leadership patterns | `back-matter/appendix-b-leadership-patterns.md` |

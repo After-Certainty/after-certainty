@@ -31,9 +31,9 @@ It can also reduce correction.
 After visible wins, dissent can look unnecessary. Critical voices are
 reframed as blockers. Signals that conflict with the success narrative
 arrive later, softer, or not at all.[^c5-escalation]
-Success pressure turns **Your Example Becomes the Rule** against dissent:
-the live lesson is what not to raise, and the pattern **Bring Bad News**
-weakens.
+Success pressure turns **Behavior Becomes the Rule** against dissent:
+the live lesson is what not to raise, and **Bad News Moves Early** erodes along
+with it.
 
 This is one of leadership’s recurring traps: success narrows the very
 channels needed to prevent future failure.
@@ -54,7 +54,7 @@ The issue is not whether failure occurs. The issue is whether learning
 follows.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - We Change Course**
+**Pattern - Plans Can Change**
 
 When new information or visible risk arrives, direction can still revise;
 when it cannot, commitment hardens ahead of reality.
@@ -78,8 +78,8 @@ What gets measured can hide whether people are actually with you.
 People can produce good-looking counts while privately withdrawing trust.
 They can repeat approved language while silently routing around decisions
 they do not believe in. In these conditions, the group appears coordinated, but
-its ability to act together is already splitting underneath—and
-**Feedback Gap** can hide behind paperwork that looks tidy.
+its ability to act together is already splitting underneath—and distorted
+feedback can hide behind paperwork that looks tidy (**Feedback is Distorted**).
 
 This is why selective followership matters when judging effectiveness.
 Open disagreement can strengthen results. Quiet divergence usually

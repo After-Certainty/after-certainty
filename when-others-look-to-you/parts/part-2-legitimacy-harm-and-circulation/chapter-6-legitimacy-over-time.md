@@ -48,7 +48,8 @@ who sits in it right now.
 Office-based legitimacy protects continuity at scale. It also lets
 authority pass forward even when today's behavior is weaker than the
 founding example.
-At scale, this can solidify who becomes **The One We Default To**.
+At scale, this can reinforce **People Look to One Person**, locking in whoever
+becomes the default route for decisions.
 
 Handoff risk rises here: authority moves forward by default, while
 accountability often stays tied to earlier decisions.

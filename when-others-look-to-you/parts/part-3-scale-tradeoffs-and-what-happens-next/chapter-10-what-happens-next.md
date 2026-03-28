@@ -13,7 +13,7 @@ builds over time.
 
 ### **The Integrated View**
 
-Part II separated the lenses for clarity. Integration asks how they move
+Each Part II chapter isolated a lens. Integration asks how they move
 together:
 
 - **Harm:** where cost lands.
@@ -33,8 +33,8 @@ A short set of cross-domain examples helps keep this concrete:
 - A congregation appears unified because disagreement moves off-record.
 
 Each case can look stable on the surface while the underlying structure
-drifts toward entrenched or stalled conditions—where **Feedback Gap** can
-still look like calm coordination from the outside.
+drifts toward entrenched or stalled conditions, with distorted feedback still
+looking like calm coordination from the outside (**Feedback is Distorted**).
 
 ### **Two Trajectories**
 
@@ -49,7 +49,7 @@ Taken together, repeated choices tend to push structure one of two ways:
 These are not personality types. They are where decisions accumulate over
 time—not a single switch you flip once, but a direction you reinforce or
 interrupt. Movement between them is possible. The issue is whether
-**We Change Course** remains possible in practice when reality pushes back.
+**Plans Can Change** is still possible in practice when reality pushes back.
 
 ### **When the Baseline Has Already Shifted**
 

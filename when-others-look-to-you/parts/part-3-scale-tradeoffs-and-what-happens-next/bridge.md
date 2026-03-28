@@ -10,7 +10,7 @@ At small scale, correction is often visible and personal. At larger scale,
 signals travel farther and slower. They also distort more. That does not
 make renewal impossible. It makes renewal harder work.
 
-Scale also widens **Copy What Works Here**. What gets rewarded or punished
+Scale also widens the reach of **People Copy What Works**. What gets rewarded or punished
 travels faster than written rules. The next cohort often learns from
 example before it learns from policy.
 

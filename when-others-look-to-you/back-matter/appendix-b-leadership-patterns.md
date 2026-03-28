@@ -2,7 +2,7 @@
 
 This appendix summarizes recurring patterns described throughout the
 book—how leadership forms, renews, erodes, and spreads. Patterns are
-grouped into four kinds—**forming**, **renewing**, **eroding**, and
+grouped into four kinds—**forming**, **adjusting**, **eroding**, and
 **circulating**. Each is a short snapshot: when it appears, what is
 happening, and what tends to follow.
 
@@ -50,9 +50,9 @@ authority starts to lock in.
 
 **Related Patterns:**
 
-Your Example Becomes the Rule; The One We Default To
+Behavior Becomes the Rule; People Look to One Person
 
-## **Your Example Becomes the Rule**
+## **Behavior Becomes the Rule**
 
 **Context:**
 
@@ -66,7 +66,7 @@ missing or thin.
 **Forces:**
 
 - People look for social cues under uncertainty
-- Example is faster and more influential than formal policy
+- Observable behavior is faster and more influential than formal policy
 - Early reactions shape perceived boundaries
 - Silence and emphasis both carry meaning
 
@@ -75,7 +75,7 @@ missing or thin.
 What the leader does—especially under pressure—quickly defines what
 others believe is acceptable.
 
-> "Careful—your example is becoming the rule here."
+> "Careful—behavior is becoming the rule here."
 
 **Effect:**
 
@@ -89,9 +89,9 @@ example already set.
 
 **Related Patterns:**
 
-Attention Comes Into Focus; Bring Bad News
+Attention Comes Into Focus; Bad News Moves Early
 
-## **The One We Default To**
+## **People Look to One Person**
 
 **Context:**
 
@@ -129,12 +129,12 @@ grow weaker.
 
 Attention Comes Into Focus; No One Pushes Back
 
-## **Renewing**
+## **Adjusting**
 
 _Patterns that keep decisions tied to reality, correction, and
 accountability._
 
-## **Bring Bad News**
+## **Bad News Moves Early**
 
 **Context:**
 
@@ -168,9 +168,9 @@ problems grow before they are addressed.
 
 **Related Patterns:**
 
-Your Example Becomes the Rule; Feedback Gap
+Behavior Becomes the Rule; Feedback is Distorted
 
-## **We Change Course**
+## **Plans Can Change**
 
 **Context:**
 
@@ -206,9 +206,9 @@ change.
 
 **Related Patterns:**
 
-Bring Bad News; We Own the Outcome
+Bad News Moves Early; Decisions Stay Connected
 
-## **We Own the Outcome**
+## **Decisions Stay Connected**
 
 **Context:**
 
@@ -243,7 +243,7 @@ work can hold.
 
 **Related Patterns:**
 
-Bring Bad News; Feedback Gap
+Bad News Moves Early; Feedback is Distorted
 
 ## **Eroding**
 
@@ -284,9 +284,9 @@ Authority pulls away from feedback, and drift speeds up.
 
 **Related Patterns:**
 
-The One We Default To; Feedback Gap
+People Look to One Person; Feedback is Distorted
 
-## **Feedback Gap**
+## **Feedback is Distorted**
 
 **Context:**
 
@@ -308,7 +308,7 @@ Word from the ground does not reliably reach decision-makers in time.
 Decision-makers do not get a timely, accurate read on what their choices
 are doing.
 
-> "There's a feedback gap—we're not hearing what's really happening."
+> "The feedback is distorted—we're not hearing what's really happening."
 
 **Effect:**
 
@@ -321,7 +321,7 @@ Errors repeat, harm piles up, and correction arrives late and costs more.
 
 **Related Patterns:**
 
-We Own the Outcome; Bring Bad News
+Decisions Stay Connected; Bad News Moves Early
 
 ## **Exceptions Are Forever**
 
@@ -358,13 +358,13 @@ Authority expands, constraints weaken, and drift builds over time.
 
 **Related Patterns:**
 
-No One Pushes Back; Feedback Gap
+No One Pushes Back; Feedback is Distorted
 
 ## **Circulating**
 
 _Patterns where leadership norms spread beyond the original setting._
 
-## **Copy What Works Here**
+## **People Copy What Works**
 
 **Context:**
 
@@ -401,4 +401,4 @@ can spread with no one meaning to write a playbook.
 
 **Related Patterns:**
 
-Your Example Becomes the Rule; The One We Default To
+Behavior Becomes the Rule; People Look to One Person

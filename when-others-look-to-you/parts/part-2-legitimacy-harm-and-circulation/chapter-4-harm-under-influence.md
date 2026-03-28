@@ -77,7 +77,7 @@ A community center has one week before a ribbon cutting the mayor’s office
 scheduled. A facilities volunteer notices a handrail on the stairs is
 still loose. She raises it at the prep meeting. The site lead replies,
 "Note it and open anyway—we can't miss that date."
-That first response is where **Your Example Becomes the Rule** for what follows.
+That first response is where **Behavior Becomes the Rule** for what follows.
 
 The building opens on time. Photos for the town newsletter look great. Two
 weeks later, front-desk volunteers field angry calls after someone stumbles.
@@ -91,14 +91,14 @@ those closest to the consequences while leadership protects a short-term
 story of success.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - We Own the Outcome**
+**Pattern - Decisions Stay Connected**
 
 When decision-makers stay connected to consequences, accountability stays
 visible; when that connection breaks, costs move outward and harm is easier
 to normalize.
 :::
 
-When the pattern **We Own the Outcome** breaks down repeatedly, leadership
+When **Decisions Stay Connected** breaks down repeatedly, leadership
 can shift from harm-absorbing toward harm-tolerant or harm-instrumental
 leadership, even when leaders describe the decision as necessary.
 
@@ -141,8 +141,8 @@ When evaluating leadership under influence, ask:
 - Who can surface harm without retaliation?
 - What changed after harm was named?
 
-If these questions cannot be answered clearly, **We Own the Outcome** is
-probably absent, harm displacement is normalizing, and the group is
+If these questions cannot be answered clearly, **Decisions Stay Connected**
+has probably broken down, harm displacement is normalizing, and the group is
 drifting toward tolerance or blindness.
 
 ### **Connection to Chapter 5**
