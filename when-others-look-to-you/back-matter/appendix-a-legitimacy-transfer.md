@@ -124,8 +124,8 @@ The names, politics, and sector differ. The transfer pattern does not.
 
 ### **Closing**
 
-Legitimacy transfer is not inherently illegitimate. Continuity requires
-some transfer.
+Legitimacy transfer is not wrong in itself. Continuity requires some
+transfer.
 
 The risk appears when transfer becomes automatic while limits become
 optional.

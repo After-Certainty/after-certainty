@@ -35,6 +35,7 @@ theater, not reliable stewardship.
 
 Structural blindness happens when observers miss how influence is
 organized while they focus on personality, intention, or rhetoric.
+
 I use this term as a practical shorthand for patterns described in research
 on organizational defenses, structural secrecy, and suppressed correction
 signals.[^c3-structural-blindness]
@@ -44,7 +45,9 @@ as evidence. Meanwhile, dissent channels narrow, bad news is filtered,
 and decision costs are displaced to people with less power.
 
 Nothing in that pattern requires overt malice. It can arise from habit,
-status anxiety, speed pressure, or the weight of routine. The effect is
+status anxiety, speed pressure, or the weight of routine. In **closed
+systems**—where signals rarely leave the room they arose in—the same drift
+can accelerate while everyone still sounds reasonable. The effect is
 the same: structure drifts while language remains polished.
 
 Structural blindness is common because many of the relevant signals are
@@ -52,14 +55,14 @@ socially expensive to surface.[^c3-psychological-safety] People close to
 problems often carry the highest local risk for naming them.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Bad News Moves Early**
+**Pattern - Dissent is Welcomed**
 
 When dissent and risk signals can move upward in time, correction stays
 possible; when they cannot, failure grows in the dark.
 :::
 
-When that pathway closes, **Bad News Moves Early** collapses in practice—bad news
-stops moving early enough to matter.
+When that pathway closes, **Dissent is Welcomed** stops holding in
+practice—bad news stops moving early enough to matter.
 
 ### **The Intention Trap**
 
@@ -93,8 +96,8 @@ In more regenerative or adaptive groups, selective dissent is visible and usable
 In entrenched or stalled groups, it goes quiet and becomes hidden
 workarounds.
 
-When observers collapse all this into a single category - either "they
-are with the leader" or "they are against the leader" - they miss the
+When observers collapse all this into a single category—either "they
+are with the leader" or "they are against the leader"—they miss the
 structure that actually predicts renewal or erosion.
 
 ### **Why Confidence Is So Persuasive**
@@ -109,7 +112,8 @@ This preference makes groups vulnerable. It rewards leaders who reduce
 complexity too quickly. It penalizes leaders who keep uncertainty visible
 long enough to make better decisions.[^c3-ambiguity-and-sensemaking]
 
-Confidence can be valuable. Overconfidence when challenge is unwelcome is costly.
+Confidence can be valuable; overconfidence when challenge is unwelcome is
+costly.
 
 ### **The Principal's Turnaround**
 
@@ -133,14 +137,14 @@ each other: visible success can hide degrading conditions until repair
 becomes expensive.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Feedback is Distorted**
+**Pattern - Learning Collapses**
 
 When decision-makers are buffered from what people on the ground experience,
 negative feedback weakens and drift continues behind strong narratives.
 :::
 
-In that condition, you are looking at **Feedback is Distorted**, not a one-off blind
-spot.
+In that condition, you are not looking at a one-off blind spot; you are
+looking at **Learning Collapses**.
 
 ### **What to Watch Instead**
 
@@ -183,16 +187,20 @@ questioned, and adjustments can occur before harm scales.
 That standard is less dramatic than hero stories. It is also more
 reliable.
 
-Part II applies this lens to harm, effectiveness, legitimacy, and
-circulation.
+We often misjudge leaders when we ignore whether influence still flows both
+ways—whether dissent and bad news can still change direction before harm spreads.
+
+Part II applies this lens to harm, effectiveness, and legitimacy, with
+**authority circulation** threaded through each: whether correction can still
+return to those who hold power while the work is underway.
 
 ::: {custom-style="Pull Quote Block"}
 We often misjudge leaders when we treat outcomes as proof and structure as background.
 :::
-[^c3-outcome-bias]: Jonathan Baron and John C. Hershey, "Outcome Bias in Decision Evaluation," *Journal of Personality and Social Psychology* 54, no. 4 (1988): 569-579.
-[^c3-psychological-safety]: Amy C. Edmondson, "Psychological Safety and Learning Behavior in Work Teams," *Administrative Science Quarterly* 44, no. 2 (1999): 350-383.
-[^c3-structural-blindness]: Diane Vaughan, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA* (Chicago: University of Chicago Press, 1996); Chris Argyris, *Overcoming Organizational Defenses* (Boston: Allyn and Bacon, 1990); Karl E. Weick, Kathleen M. Sutcliffe, and David Obstfeld, "Organizing and the Process of Sensemaking," *Organization Science* 16, no. 4 (2005): 409-421.
-[^c3-selective-followership]: Michael Uhl-Bien et al., "Followership Theory: A Review and Research Agenda," *The Leadership Quarterly* 25, no. 1 (2014): 83-104.
+[^c3-outcome-bias]: Jonathan Baron and John C. Hershey, "Outcome Bias in Decision Evaluation," *Journal of Personality and Social Psychology* 54, no. 4 (1988): 569–579.
+[^c3-psychological-safety]: Amy C. Edmondson, "Psychological Safety and Learning Behavior in Work Teams," *Administrative Science Quarterly* 44, no. 2 (1999): 350–383.
+[^c3-structural-blindness]: Diane Vaughan, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA* (Chicago: University of Chicago Press, 1996); Chris Argyris, *Overcoming Organizational Defenses* (Boston: Allyn and Bacon, 1990); Karl E. Weick, Kathleen M. Sutcliffe, and David Obstfeld, "Organizing and the Process of Sensemaking," *Organization Science* 16, no. 4 (2005): 409–421.
+[^c3-selective-followership]: Michael Uhl-Bien et al., "Followership Theory: A Review and Research Agenda," *The Leadership Quarterly* 25, no. 1 (2014): 83–104.
 [^c3-reactance]: Jack W. Brehm, *A Theory of Psychological Reactance* (New York: Academic Press, 1966).
-[^c3-ambiguity-and-sensemaking]: Karl E. Weick, Kathleen M. Sutcliffe, and David Obstfeld, "Organizing and the Process of Sensemaking," *Organization Science* 16, no. 4 (2005): 409-421.
+[^c3-ambiguity-and-sensemaking]: Karl E. Weick, Kathleen M. Sutcliffe, and David Obstfeld, "Organizing and the Process of Sensemaking," *Organization Science* 16, no. 4 (2005): 409–421.
 [^c3-normalization-of-deviance]: Diane Vaughan, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA* (Chicago: University of Chicago Press, 1996).

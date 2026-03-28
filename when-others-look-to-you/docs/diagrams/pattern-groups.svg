@@ -1,55 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 928 748" role="img" aria-labelledby="pat-title pat-desc">
-  <title id="pat-title">Leadership pattern groups</title>
-  <desc id="pat-desc">Forming at top; Adjusting bottom left; Eroding bottom right; Circulating at the center; arrows show how groups connect.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 980" role="img" aria-labelledby="pat-title pat-desc">
+  <title id="pat-title">Leadership pattern relationships</title>
+  <desc id="pat-desc">Forming patterns top center: Attention Finds a Focus, Examples Accumulate, Leadership Coalesces. Circulating: Leadership Reproduces Itself at center. Adjusting bottom left: Dissent is Welcomed, Feedback Drives Change, Leaders Feel the Consequences. Eroding bottom right: Disagreement is Suppressed, Learning Collapses, Exceptions are Forever. Arrows show selected relationships among these patterns.</desc>
   <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#4a4a4a"/>
     </marker>
     <style>
-      .frame { fill: #dcd4c8; stroke: #8f7f6e; stroke-width: 2.25; }
-      .box-forming { fill: #eef4ef; stroke: #9aaa9a; stroke-width: 1.5; }
-      .box-adjusting { fill: #eaedf5; stroke: #949db8; stroke-width: 1.5; }
-      .box-eroding { fill: #f3eaec; stroke: #b8949a; stroke-width: 1.5; }
-      .box-circulating { fill: #f2efe6; stroke: #a89b7a; stroke-width: 1.5; }
-      .title { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 15px; font-weight: 600; fill: #1a1a1a; }
-      .line { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12.5px; fill: #2d2d2d; }
-      .edge { stroke: #3d3d3d; stroke-width: 1.8; fill: none; marker-end: url(#arrow); }
+      .edge { stroke: #5c5c5c; stroke-width: 1.35; fill: none; marker-end: url(#arrow); opacity: 0.88; }
+      .oval-forming { fill: #eef4ef; stroke: #6a9a6e; stroke-width: 2.1; }
+      .oval-adjusting { fill: #eaedf5; stroke: #6a7aac; stroke-width: 2.1; }
+      .oval-eroding { fill: #f3eaec; stroke: #b06a78; stroke-width: 2.1; }
+      .oval-circulating { fill: #f2efe6; stroke: #9a8548; stroke-width: 2.1; }
+      .pat-text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 9.5px; fill: #1a1a1a; text-anchor: middle; }
+      .leg-text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12.5px; fill: #1a1a1a; }
+      .leg-swatch { stroke-width: 1.5; }
+      .diagram-title { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 14px; font-weight: 600; fill: #222; }
     </style>
   </defs>
 
-  <!-- Single outer frame: contains all groups so connectors read clearly -->
-  <rect class="frame" x="10" y="8" width="908" height="732" rx="16"/>
+  <rect x="0" y="0" width="1080" height="980" fill="#faf8f5"/>
 
-  <!-- Group boxes (distinct tints, drawn before edges so arrows stay on top) -->
-  <rect class="box-forming" x="230" y="36" width="460" height="168" rx="6"/>
-  <rect class="box-adjusting" x="48" y="548" width="268" height="168" rx="6"/>
-  <rect class="box-eroding" x="604" y="548" width="268" height="168" rx="6"/>
-  <rect class="box-circulating" x="330" y="400" width="260" height="72" rx="6"/>
+  <g transform="translate(20, 0)">
+  <text class="diagram-title" x="32" y="36">Pattern groups</text>
+  <rect class="leg-swatch oval-forming" x="32" y="48" width="28" height="16" rx="3"/>
+  <text class="leg-text" x="68" y="61">Forming</text>
+  <rect class="leg-swatch oval-adjusting" x="180" y="48" width="28" height="16" rx="3"/>
+  <text class="leg-text" x="216" y="61">Adjusting</text>
+  <rect class="leg-swatch oval-eroding" x="328" y="48" width="28" height="16" rx="3"/>
+  <text class="leg-text" x="364" y="61">Eroding</text>
+  <rect class="leg-swatch oval-circulating" x="476" y="48" width="28" height="16" rx="3"/>
+  <text class="leg-text" x="518" y="61">Circulating</text>
 
-  <!-- Edges between groups (above fills; marker heads stay inside frame) -->
-  <path class="edge" d="M 320 204 Q 210 360 182 548"/>
-  <path class="edge" d="M 600 204 Q 710 360 738 548"/>
-  <path class="edge" d="M 300 548 Q 380 480 360 472"/>
-  <path class="edge" d="M 620 548 Q 540 480 560 472"/>
-  <path class="edge" d="M 460 400 L 460 204"/>
+  <!-- Selected relationships (see pattern-integration-guide / manuscript) -->
+  <g class="edges" aria-hidden="true">
+    <path class="edge" d="M 520.0,186.0 L 520.0,229.0"/>
+    <path class="edge" d="M 520.0,301.0 L 520.0,339.0"/>
+    <path class="edge" d="M 220.0,656.0 L 220.0,699.0"/>
+    <path class="edge" d="M 220.0,771.0 L 220.0,814.0"/>
+    <path class="edge" d="M 820.0,656.0 L 820.0,699.0"/>
+    <path class="edge" d="M 820.0,771.0 L 820.0,814.0"/>
+    <path class="edge" d="M 478.7,408.7 L 261.3,586.3"/>
+    <path class="edge" d="M 561.3,408.7 L 778.7,586.3"/>
+    <path class="edge" d="M 289.7,591.0 L 450.3,524.0"/>
+    <path class="edge" d="M 750.3,591.0 L 589.7,524.0"/>
+    <path class="edge" d="M 520.0,459.0 L 520.0,411.0"/>
+  </g>
 
-  <!-- Labels -->
-  <text class="title" x="460" y="62" text-anchor="middle">Forming</text>
-  <text class="line" x="250" y="88">Attention Comes Into Focus</text>
-  <text class="line" x="250" y="112">Behavior Becomes the Rule</text>
-  <text class="line" x="250" y="136">People Look to One Person</text>
+  <g class="nodes">
+    <!-- Forming: top center -->
+    <ellipse class="oval-forming" cx="520" cy="150" rx="118" ry="36"/>
+    <text class="pat-text" x="520" y="146">Attention Finds a Focus</text>
+    <ellipse class="oval-forming" cx="520" cy="265" rx="118" ry="36"/>
+    <text class="pat-text" x="520" y="261">Examples Accumulate</text>
+    <ellipse class="oval-forming" cx="520" cy="375" rx="118" ry="36"/>
+    <text class="pat-text" x="520" y="371">Leadership Coalesces</text>
 
-  <text class="title" x="460" y="426" text-anchor="middle">Circulating</text>
-  <text class="line" x="345" y="450">People Copy What Works</text>
+    <!-- Circulating: center -->
+    <ellipse class="oval-circulating" cx="520" cy="495" rx="118" ry="36"/>
+    <text class="pat-text" x="520" y="491">Leadership Reproduces Itself</text>
 
-  <text class="title" x="182" y="574" text-anchor="middle">Adjusting</text>
-  <text class="line" x="64" y="600">Bad News Moves Early</text>
-  <text class="line" x="64" y="624">Plans Can Change</text>
-  <text class="line" x="64" y="648">Decisions Stay Connected</text>
+    <!-- Adjusting: bottom left -->
+    <ellipse class="oval-adjusting" cx="220" cy="620" rx="118" ry="36"/>
+    <text class="pat-text" x="220" y="616">Dissent is Welcomed</text>
+    <ellipse class="oval-adjusting" cx="220" cy="735" rx="118" ry="36"/>
+    <text class="pat-text" x="220" y="731">Feedback Drives Change</text>
+    <ellipse class="oval-adjusting" cx="220" cy="850" rx="118" ry="36"/>
+    <text class="pat-text" x="220" y="846">Leaders Feel the Consequences</text>
 
-  <text class="title" x="738" y="574" text-anchor="middle">Eroding</text>
-  <text class="line" x="620" y="600">No One Pushes Back</text>
-  <text class="line" x="620" y="624">Feedback is Distorted</text>
-  <text class="line" x="620" y="648">Exceptions Are Forever</text>
+    <!-- Eroding: bottom right -->
+    <ellipse class="oval-eroding" cx="820" cy="620" rx="118" ry="36"/>
+    <text class="pat-text" x="820" y="616">Disagreement is Suppressed</text>
+    <ellipse class="oval-eroding" cx="820" cy="735" rx="118" ry="36"/>
+    <text class="pat-text" x="820" y="731">Learning Collapses</text>
+    <ellipse class="oval-eroding" cx="820" cy="850" rx="118" ry="36"/>
+    <text class="pat-text" x="820" y="846">Exceptions are Forever</text>
+  </g>
+  </g>
 </svg>

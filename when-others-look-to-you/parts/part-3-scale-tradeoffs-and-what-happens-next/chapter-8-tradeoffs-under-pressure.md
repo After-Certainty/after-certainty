@@ -1,4 +1,4 @@
-# **Chapter 9 — Tradeoffs Under Pressure**
+# **Chapter 8 — Tradeoffs Under Pressure**
 
 ### **When Pressure Reorders Judgment**
 
@@ -10,20 +10,24 @@ after the emergency passes.
 
 The core tension is simple: what helps now can damage later.
 
-### **Four Lenses, One Moment**
+### **Three Lenses, One Moment**
 
-Pressure changes each lens at once:
+Pressure changes harm, effectiveness, and legitimacy at once—and
+**circulation** with them: whether dissent and warning can still move fast
+enough to matter.
 
 - **Harm:** displacement becomes easier to justify.
 - **Effectiveness:** visible control can outrank durable capacity.
 - **Legitimacy:** temporary permission can harden into inherited baseline.
-- **Circulation:** dissent can narrow from open signal to quiet workaround.
+
+Under pressure, circulation often narrows first: dissent moves from open
+signal to quiet workaround.
 
 These shifts can happen in any state, but not with equal cost.
 
 ### **States Under Pressure**
 
-Pressure response often reveals state more clearly than routine conditions:
+Pressure response often reveals which state a group is in more clearly than routine conditions:
 
 - **Regenerative:** reach and adjustment both hold under load.
 - **Adaptive:** adjustment holds locally, but broader coordination strains.
@@ -40,7 +44,7 @@ Crisis periods can:
 - Reward short-term effectiveness while shrinking correction time.
 - Accelerate legitimacy transfer through emergency precedent.
 - Normalize temporary authority expansions into a lasting baseline for how
-  decisions get made.[^c9-crisis-precedent]
+  decisions get made.[^c8-crisis-precedent]
 
 Crisis does not create these dynamics from nothing. It reveals and
 amplifies what the structure already permits.
@@ -57,8 +61,8 @@ Frontline teams also report repeated blind spots in neighborhood access,
 but route corrections are delayed because the temporary command protocol
 blocks local overrides.
 
-In crisis, that trade is one version of **Behavior Becomes the Rule**
-set against correction signals.
+In crisis, that trade is one way **Examples Accumulate** can run against
+correction signals.
 
 Months later, the storm is over, but the centralized approval path
 remains. Officials describe it as "proven under pressure."
@@ -68,7 +72,7 @@ The tradeoff was initially practical, but drift came later when temporary
 exception logic became default governance.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Exceptions Are Forever**
+**Pattern - Exceptions are Forever**
 
 Exceptions introduced under urgency tend to persist, and temporary
 permissions can harden into the new operating baseline.
@@ -81,11 +85,11 @@ Restraint can look weak in the moment.
 Leaders who slow, verify, and reopen challenge channels may appear less
 decisive than leaders who centralize control and close debate. But over
 time, restraint often preserves adaptability and limits harm that shows up
-later.[^c9-escalation]
+later.[^c8-escalation]
 
-The question is not whether urgency is real. The question is what gets
-locked in after urgency passes—and whether **Plans Can Change** is still
-possible once the emergency story stops dominating meetings.
+The question is not whether urgency is real. The question is what gets locked
+in after urgency passes—and whether **Feedback Drives Change** can still happen
+once the emergency story stops dominating meetings.
 
 ### **Boundary Conditions**
 
@@ -98,18 +102,17 @@ You can often see the crossing in sequence:
 3. Default practice.
 
 At that point, pressure is no longer the cause. It has become the
-explanation for a new baseline.
-Then **Exceptions Are Forever** is no longer a warning; it is a
-governing condition.
+explanation for a new baseline. Then the pattern **Exceptions are Forever**
+is no longer a warning; it is a governing condition.
 
-### **Connection to Chapter 10**
+### **Connection to Chapter 9**
 
-Tradeoffs under pressure show trajectories. Chapter 10 asks what remains
+Tradeoffs under pressure show trajectories. Chapter 9 asks what remains
 possible once trajectories are visible but reversal is incomplete, and
-once **Exceptions Are Forever** has begun to shape the baseline.
+once the **Exceptions are Forever** pattern has begun to shape the baseline.
 
 ::: {custom-style="Pull Quote Block"}
 Pressure does not choose for us. It reveals what we are willing to lock in.
 :::
-[^c9-crisis-precedent]: Giorgio Agamben, *State of Exception*, trans. Kevin Attell (Chicago: University of Chicago Press, 2005).
-[^c9-escalation]: Barry M. Staw, "Knee-Deep in the Big Muddy: A Study of Escalating Commitment to a Chosen Course of Action," *Organizational Behavior and Human Performance* 16, no. 1 (1976): 27-44.
+[^c8-crisis-precedent]: Giorgio Agamben, *State of Exception*, trans. Kevin Attell (Chicago: University of Chicago Press, 2005).
+[^c8-escalation]: Barry M. Staw, "Knee-Deep in the Big Muddy: A Study of Escalating Commitment to a Chosen Course of Action," *Organizational Behavior and Human Performance* 16, no. 1 (1976): 27–44.

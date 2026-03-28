@@ -23,17 +23,26 @@ Harm-absorbing leadership accepts visible cost near decision rights.
 
 Leaders who choose risky direction absorb part of the downside: they
 acknowledge error early, protect those closest to the consequences from
-avoidable fallout, and adjust scope when warning signals appear. This posture does not
-eliminate loss, but it ties authority to accountability.[^c4-just-culture]
+avoidable fallout, and adjust scope when warning signals appear. This posture
+does not eliminate loss, but it ties authority to accountability.[^c4-just-culture]
 
 ### **Harm-Tolerant**
 
 Harm-tolerant leadership accepts recurring damage as the price of
 continuity.
 
-The group notices harm but normalizes it. Language shifts from repair to
+In **stagnant** groups, attention narrows to **tasks** and to relationships
+inside the in-group; what happens outside that ring is easier to mute.
+Harm still shows up—missed cues, tired people, side effects—but the group
+learns to treat it as background noise so the scoreboard can stay green.
+Someone focused **only on task achievement** can do enormous relational
+damage here: the work keeps moving while trust frays.
+
+In **vibrant** groups, more of the relationship field stays in view; harm
+is harder to file away without someone naming it. Either way, the posture
+is the same trade: continuity over repair. Language shifts from repair to
 rationalization: "This is just how things are at this scale." Over time,
-small preventable harms become expected background conditions.
+small preventable harms settle in as normal.
 
 ### **Harm-Instrumental**
 
@@ -77,7 +86,7 @@ A community center has one week before a ribbon cutting the mayor’s office
 scheduled. A facilities volunteer notices a handrail on the stairs is
 still loose. She raises it at the prep meeting. The site lead replies,
 "Note it and open anyway—we can't miss that date."
-That first response is where **Behavior Becomes the Rule** for what follows.
+That first response is where **Examples Accumulate** for what follows.
 
 The building opens on time. Photos for the town newsletter look great. Two
 weeks later, front-desk volunteers field angry calls after someone stumbles.
@@ -91,15 +100,16 @@ those closest to the consequences while leadership protects a short-term
 story of success.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Decisions Stay Connected**
+**Pattern - Leaders Feel the Consequences**
 
 When decision-makers stay connected to consequences, accountability stays
 visible; when that connection breaks, costs move outward and harm is easier
-to normalize.
+to treat as unremarkable.
 :::
 
-When **Decisions Stay Connected** breaks down repeatedly, leadership
-can shift from harm-absorbing toward harm-tolerant or harm-instrumental
+When the **Leaders Feel the Consequences** pattern fails repeatedly—when
+decision-makers lose contact with who bears the cost—the group can shift from
+harm-absorbing leadership toward harm-tolerant or harm-instrumental
 leadership, even when leaders describe the decision as necessary.
 
 ### **Boundaries and Agency**
@@ -111,8 +121,8 @@ removes other people from responsibility they still need to carry.
 
 If a leader repeatedly absorbs every consequence, teams may stop naming
 risk, peers may stop correcting decisions, and people farther from the
-front line may stop fixing what is broken. In that case, harm is not being reduced. It is
-being deferred and concentrated.
+front line may stop fixing what is broken. In that case, harm is not being
+reduced—it is being deferred and concentrated.
 
 A useful boundary question is this: does harm absorption increase shared
 responsibility, or replace it?
@@ -132,6 +142,36 @@ In eroding settings, people stop naming harm directly. They comply in
 public, reroute work in private, and protect themselves through quiet
 workarounds. What looks like alignment can mask widening harm pathways.
 
+Harm is also where circulation failures show up first: people raise real
+risk; nothing changes; the cost stays in place or moves to someone who
+cannot refuse.
+
+### **When Escalation Stops**
+
+::: {custom-style="Vignette Block"}
+A hospital unit adopts a new scheduling rule designed by central
+leadership. Nurses report that the rule creates unsafe handoff gaps on
+night shifts. The issue is raised twice and acknowledged, but no change
+follows.
+
+After that, charge nurses stop escalating. They arrange informal swaps among
+themselves to close the gaps. Reports still show formal compliance with the
+central rule, but local practice quietly diverges.
+:::
+
+This is a circulation failure, not simply local resistance.
+
+People raised the issue; nothing changed. So fixes moved off the books.
+
+On paper, the group aligns. In daily work, practice drifts.
+
+That gap usually means authority runs one way and is harder to change.
+Distorted feedback is often already governing daily operations there. That is
+**Learning Collapses**.
+
+Open refusal can still support correction where others can see it. Covert refusal
+often signals a shift toward silent exit.[^c4-exit]
+
 ### **A Practical Harm Check**
 
 When evaluating leadership under influence, ask:
@@ -141,9 +181,9 @@ When evaluating leadership under influence, ask:
 - Who can surface harm without retaliation?
 - What changed after harm was named?
 
-If these questions cannot be answered clearly, **Decisions Stay Connected**
-has probably broken down, harm displacement is normalizing, and the group is
-drifting toward tolerance or blindness.
+If these questions cannot be answered clearly, the **Leaders Feel the
+Consequences** pattern has probably broken down, harm displacement is settling
+in as habit, and the group is drifting toward tolerance or blindness.
 
 ### **Connection to Chapter 5**
 
@@ -158,3 +198,4 @@ Where harm lands often reveals what leadership is protecting.
 [^c4-risk-distribution]: Ulrich Beck, *Risk Society: Towards a New Modernity* (London: Sage, 1992).
 [^c4-just-culture]: Sidney W. A. Dekker, *Just Culture: Restoring Trust and Accountability in Your Organization* (3rd ed., Boca Raton, FL: CRC Press, 2016).
 [^c4-power-harm]: Michel Foucault, *Discipline and Punish: The Birth of the Prison* (New York: Vintage Books, 1977).
+[^c4-exit]: James C. Scott, *Domination and the Arts of Resistance: Hidden Transcripts* (New Haven, CT: Yale University Press, 1990).

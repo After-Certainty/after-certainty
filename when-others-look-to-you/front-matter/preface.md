@@ -21,8 +21,8 @@ From that anchor, the chapters move in three passes:
 
 - **Part I:** how attention becomes influence; renewal and erosion; why
   observers so often misjudge leaders from outcomes and confidence alone.
-- **Part II:** harm, effectiveness, legitimacy, and circulation—each a
-  separate lens on what influence is producing.
+- **Part II:** harm, effectiveness, and legitimacy—each a lens on what
+  influence is producing, with circulation tested throughout.
 - **Part III:** scale and drift; tradeoffs under pressure; and what can
   still change once the lenses are combined.
 
@@ -32,8 +32,8 @@ not require ornate phrasing to be useful.
 ### **What This Book Is Not**
 
 This is not a promise that better lenses eliminate uncertainty.
-It is not a claim that good intentions guarantee good structure.
-It is not a claim that outcomes alone settle questions of legitimacy.
+Nor is it a claim that good intentions guarantee good structure.
+Nor is it a claim that outcomes alone settle questions of legitimacy.
 
 Leadership remains difficult, even under clear analysis, but difficulty is
 not an excuse for blindness.

@@ -25,6 +25,8 @@ Patterns are additive, not transformative.
 
 - Only name and clarify patterns already present
 
+**Approved exception (circulation restructure):** A project-wide edit removed the standalone Part II chapter on authority circulation and merged that material into Chapters 4–6. That change **updates primary pattern placements** and **introduction order** for **Leadership Reproduces Itself** (now primary in Chapter 5). Follow the current **Placement Guidance by Chapter** and **Introduction Sequence** tables below; see `docs/circulation-cross-cutting.md`.
+
 ### **2. Preserve the Author's Voice**
 
 The book is:
@@ -81,38 +83,38 @@ glossary):
 
 **Forming**
 
-1.  Attention Comes Into Focus
+1.  Attention Finds a Focus
 
-2.  Behavior Becomes the Rule
+2.  Examples Accumulate
 
-3.  People Look to One Person
+3.  Leadership Coalesces
 
 **Adjusting**
 
-4.  Bad News Moves Early
+4.  Dissent is Welcomed
 
-5.  Plans Can Change
+5.  Feedback Drives Change
 
-6.  Decisions Stay Connected
+6.  Leaders Feel the Consequences
 
 **Eroding**
 
-7.  No One Pushes Back
+7.  Disagreement is Suppressed
 
-8.  Feedback is Distorted
+8.  Learning Collapses
 
-9.  Exceptions Are Forever
+9.  Exceptions are Forever
 
 **Circulating**
 
-10. People Copy What Works
+10. Leadership Reproduces Itself
 
 Do not rename or vary phrasing.
 
 **Manuscript migration:** older drafts used *Tone Sets the Room* (now
-*Behavior Becomes the Rule*), *You Can Bring Them Bad News* (now
-*Bad News Moves Early*), *Consequences Don’t Come Back* (now *Feedback is Distorted*),
-and *Someone Else Pays* (now named through *Decisions Stay Connected*—the
+*Examples Accumulate*), *You Can Bring Them Bad News* (now
+*Dissent is Welcomed*), *Consequences Don’t Come Back* (now *Learning Collapses*),
+and *Someone Else Pays* (now named through *Leaders Feel the Consequences*—the
 structural connection or disconnection between decisions and who bears
 consequences). When updating chapters, swap to the canonical names
 above and adjust the surrounding sentence so the pattern reads as a
@@ -158,7 +160,7 @@ Format:
 Example:
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Decisions Stay Connected**
+**Pattern - Leaders Feel the Consequences**
 
 When decision-makers stay connected to consequences, accountability
 stays visible; when that connection breaks, costs and harm drift out of
@@ -249,16 +251,16 @@ Use inline anchors to reinforce pattern recall inside normal prose.
 Inline anchors are not pattern blocks. They are short in-sentence uses of
 the canonical pattern names in bold:
 
-- `**Attention Comes Into Focus**`
-- `**Behavior Becomes the Rule**`
-- `**People Look to One Person**`
-- `**Bad News Moves Early**`
-- `**Plans Can Change**`
-- `**Decisions Stay Connected**`
-- `**No One Pushes Back**`
-- `**Feedback is Distorted**`
-- `**Exceptions Are Forever**`
-- `**People Copy What Works**`
+- `**Attention Finds a Focus**`
+- `**Examples Accumulate**`
+- `**Leadership Coalesces**`
+- `**Dissent is Welcomed**`
+- `**Feedback Drives Change**`
+- `**Leaders Feel the Consequences**`
+- `**Disagreement is Suppressed**`
+- `**Learning Collapses**`
+- `**Exceptions are Forever**`
+- `**Leadership Reproduces Itself**`
 
 ### **Inline Anchor Rules**
 
@@ -281,62 +283,74 @@ Patterns become eligible for inline use only after these introduction
 chapters:
 
 - After **Chapter 1**:
-  - Attention Comes Into Focus
-  - Behavior Becomes the Rule
-  - People Look to One Person
+  - Attention Finds a Focus
+  - Examples Accumulate
+  - Leadership Coalesces
 - After **Chapter 3**:
-  - Bad News Moves Early
-  - Feedback is Distorted
+  - Dissent is Welcomed
+  - Learning Collapses
 - After **Chapter 4**:
-  - Decisions Stay Connected
+  - Leaders Feel the Consequences
 - After **Chapter 5**:
-  - Plans Can Change
+  - Feedback Drives Change
+  - Leadership Reproduces Itself
 - After **Chapter 6**:
-  - No One Pushes Back
-- After **Chapter 7**:
-  - People Copy What Works
-- After **Chapter 9**:
-  - Exceptions Are Forever
+  - Disagreement is Suppressed
+- After **Chapter 8**:
+  - Exceptions are Forever
+
+Within a chapter, use inline bold for a pattern only **after** its pattern
+block has appeared **earlier in the manuscript** (reading order). If two
+patterns are first introduced in the same chapter, follow the order they
+appear in that chapter’s pattern blocks.
 
 ### **Inline Syntax Pattern**
 
 Preferred form:
 
-- "...this is where **Decisions Stay Connected** breaks down."
-- "...the group drifts toward **No One Pushes Back**."
-- "...what looks stable can hide **Feedback is Distorted**."
+- "...this is where the **Leaders Feel the Consequences** pattern fails repeatedly."
+- "...open challenge can give way to **Disagreement is Suppressed**."
+- "...what looks stable can hide what **Learning Collapses** names."
+
+When a title-shaped pattern reads like a full clause in the host sentence,
+paraphrase with **what [Pattern] names**, **the pattern [Pattern]**, or **the
+drift that [Pattern] names** rather than forcing the bold title into subject
+position.
 
 ### **Grammar Rule for Inline Anchors**
 
 Treat each pattern name as a fixed title and insert it where a noun phrase
 fits naturally in the sentence.
 
-- Use with a determiner when needed: "the dynamic called **Decisions Stay Connected**,"
-  "a drift toward **No One Pushes Back**."
+- Use with a determiner when needed: "the dynamic called **Leaders Feel the Consequences**,"
+  "a drift toward **Disagreement is Suppressed**."
 - Keep subject-verb agreement with the surrounding sentence:
-  "Distorted feedback is visible here (**Feedback is Distorted**)."
+  "Distorted feedback is visible here (**Learning Collapses**)."
 - Keep tense and preposition logic in the host sentence:
-  "drifts toward **No One Pushes Back**," "slides into
-  **Exceptions Are Forever**," "room for **Bad News Moves Early**."
+  "drifts toward **Disagreement is Suppressed**," "slides into
+  **Exceptions are Forever**," "room for **Dissent is Welcomed**."
 - If the sentence becomes awkward, rewrite the sentence; do not bend the
   pattern name.
 
 Good:
 
-- "In this section, **Decisions Stay Connected** is hard to find."
-- "Over time, the group drifts toward **No One Pushes Back**."
-- "What looks stable can hide **Feedback is Distorted**."
+- "In this section, the pattern **Leaders Feel the Consequences** is hard to find."
+- "Over time, open challenge can give way to **Disagreement is Suppressed**."
+- "When that pathway closes, **Dissent is Welcomed** stops holding in practice."
+- "While that remains true, **Dissent is Welcomed** still describes the group."
+- "Distorted feedback is already governing daily operations there. That is **Learning Collapses**."
+- "What looks stable can hide what **Learning Collapses** names."
 
 Avoid:
 
-- "This is **Decisions Stay Connected**."
-- "They are **No One Pushes Back**."
-- "The group is in **Bad News Moves Early**."
+- "This is **Leaders Feel the Consequences**."
+- "They are **Disagreement is Suppressed**."
+- "The group is in **Dissent is Welcomed**."
 
 Avoid:
 
-- "Pattern - Decisions Stay Connected"
-- "this is an example of **Decisions Stay Connected** dynamics occurring..."
+- "Pattern - Leaders Feel the Consequences"
+- "this is an example of **Leaders Feel the Consequences** dynamics occurring..."
 
 ## **Placement Guidance by Chapter (Canonical)**
 
@@ -344,89 +358,89 @@ Avoid:
 
 Primary:
 
-- Attention Comes Into Focus
+- Attention Finds a Focus
 
-- Behavior Becomes the Rule
+- Examples Accumulate
 
-- People Look to One Person
+- Leadership Coalesces
 
 ### **Chapter 3 — Misjudgment**
 
 Primary:
 
-- Bad News Moves Early
+- Dissent is Welcomed
 
-- Feedback is Distorted
+- Learning Collapses
 
 ### **Chapter 4 — Harm**
 
 Primary:
 
-- Decisions Stay Connected
+- Leaders Feel the Consequences
 
 Optional:
 
-- Feedback is Distorted (only if strongly demonstrated)
+- Learning Collapses (only if strongly demonstrated)
+
+- Dissent is Welcomed (only if strongly demonstrated; circulation merge material)
 
 ### **Chapter 5 — Effectiveness**
 
+Primary:
+
+- Leadership Reproduces Itself
+
 Primary (when the chapter’s strongest example supports it):
 
-- Plans Can Change
+- Feedback Drives Change
 
 Optional:
 
-- Feedback is Distorted (only if strongest example occurs here)
+- Learning Collapses (only if strongest example occurs here)
+
+- Dissent is Welcomed (only if not already strongly placed)
 
 ### **Chapter 6 — Legitimacy**
 
 Primary:
 
-- No One Pushes Back
-
-### **Chapter 7 — Circulation**
-
-Primary:
-
-- People Copy What Works
+- Disagreement is Suppressed
 
 Optional:
 
-- Bad News Moves Early (only if not already strongly placed)
+- Dissent is Welcomed; Learning Collapses (only if merge sections strongly demonstrate them)
 
-- Feedback is Distorted (only if strongly demonstrated)
-
-### **Chapter 8 — Scale**
+### **Chapter 7 — Scale** (Part III)
 
 Optional (manuscript uses inline anchors where replication, routing, and
 adaptability are already on the page):
 
-- Feedback is Distorted
+- Learning Collapses
 
-- No One Pushes Back
+- Disagreement is Suppressed
 
-- People Copy What Works (secondary to Chapter 7; replication outrunning local
+- Leadership Reproduces Itself (secondary to Chapter 5 primary; replication outrunning local
   revision)
 
-- Plans Can Change (same adaptability test as Chapter 2, named at scale)
+- Feedback Drives Change (same adaptability test as Chapter 2, named at scale)
 
-- People Look to One Person (formal escalation and default reference points)
+- Leadership Coalesces (formal escalation and default reference points)
 
-### **Chapter 9 — Tradeoffs / Crisis**
+### **Chapter 8 — Tradeoffs / Crisis** (Part III)
 
 Primary:
 
-- Exceptions Are Forever
+- Exceptions are Forever
 
-### **Chapter 10 / Epilogue**
+### **Chapter 9 / Epilogue** (Part III)
 
 Optional (light reinforcement only):
 
-- Exceptions Are Forever
+- Exceptions are Forever
 
-- Feedback is Distorted
+- Learning Collapses
 
-- Decisions Stay Connected
+- Leaders Feel the Consequences
 
 ## **Opportunity Map for Inline Anchors (Before Manuscript Edits)**
 
@@ -435,108 +449,106 @@ throughout the manuscript while following the sequence rule above.
 
 ### **Chapter 2 — Renewal and Erosion**
 
-Eligible patterns: Attention Comes Into Focus; Behavior Becomes the Rule;
-People Look to One Person.
+Eligible patterns: Attention Finds a Focus; Examples Accumulate;
+Leadership Coalesces.
 
 Strong opportunities:
 
 - In the opening transition from Chapter 1's attention dynamic into
   renewal/erosion framing.
 - In "What Renewal Looks Like," where early warnings remain discussable
-  (**Behavior Becomes the Rule**).
+  (**Examples Accumulate**).
 - In "What Erosion Looks Like," where repetition hardens authority
-  (**People Look to One Person**).
+  (**Leadership Coalesces**).
 
 ### **Chapter 3 — Why We Misjudge Leaders**
 
-Eligible patterns (newly introduced here): Bad News Moves Early; Feedback is Distorted.
+Eligible patterns (newly introduced here): Dissent is Welcomed; Learning Collapses.
 
 Strong opportunities:
 
 - In "Structural Blindness," where dissent channels narrow
-  (**Bad News Moves Early**).
+  (**Dissent is Welcomed**).
 - In the principal vignette analysis, where effects are buffered from
-  decision-makers (**Feedback is Distorted**).
+  decision-makers (**Learning Collapses**).
 
 ### **Chapter 4 — Harm Under Influence**
 
-Eligible patterns (newly introduced here): Decisions Stay Connected.
+Eligible patterns (newly introduced here): Leaders Feel the Consequences.
 
 Strong opportunities:
 
 - In "How Harm Gets Displaced," where costs move downward/outward and
-  decision-makers lose contact with who bears them (**Decisions Stay Connected**
+  decision-makers lose contact with who bears them (**Leaders Feel the Consequences**
   as the broken connection).
 - In the post-vignette interpretation paragraph, where leadership protects
   short-term narrative at others' expense.
+- In circulation-related material on late surfacing, punishment, or workarounds
+  where bad news or distorted feedback is structurally visible (**Dissent is Welcomed**,
+  **Learning Collapses**).
 
 ### **Chapter 5 — Effectiveness and Its Illusions**
 
-Eligible patterns: Decisions Stay Connected; Bad News Moves Early; Feedback is Distorted; Plans Can Change (once introduced here).
+Eligible patterns (newly introduced here): **Leadership Reproduces Itself**. Also:
+Leaders Feel the Consequences; Dissent is Welcomed; Learning Collapses; Feedback Drives Change
+(once introduced here).
 
 Strong opportunities:
 
+- In sections on imitation, norms, or how the next cohort learns what leadership
+  looks like (**Leadership Reproduces Itself**).
 - In "When Success Accelerates Insulation," where critical signals arrive
-  later or not at all (**Bad News Moves Early**).
+  later or not at all (**Dissent is Welcomed**).
 - In "Performative Compliance vs Real Alignment," where visible results
-  mask hidden structural drift (**Feedback is Distorted**).
-- Where the text names an explicit pivot after new information (**Plans Can Change**).
+  mask hidden structural drift (**Learning Collapses**).
+- Where the text names an explicit pivot after new information (**Feedback Drives Change**).
+- Where circulation-rich vs constricted dynamics or guest leadership appear in merged
+  material.
 
 ### **Chapter 6 — Legitimacy Over Time**
 
-Eligible patterns (newly introduced here): No One Pushes Back.
+Eligible patterns (newly introduced here): Disagreement is Suppressed.
 
 Strong opportunities:
 
 - In the sacralization discussion where critique no longer changes
-  direction (**No One Pushes Back**).
+  direction (**Disagreement is Suppressed**).
 - In "Selective Followership as a Probe," when disagreement collapses into
   public compliance and private divergence.
+- In merged circulation material: selective followership as signal, four practical
+  questions, renewal/erosion tie to return paths.
 
-### **Chapter 7 — Authority Circulation**
+### **Chapter 7 — Scale and Drift** (Part III)
 
-Eligible patterns (newly introduced here): People Copy What Works; also Bad News Moves Early; No One Pushes Back; Feedback is Distorted.
-
-Strong opportunities:
-
-- In sections on imitation, transfer of norms, or how the next generation
-  learns to lead (**People Copy What Works**).
-- In "The Return Path," where warnings must travel back to change
-  direction (**Bad News Moves Early**).
-- In "The Quiet Workaround," where formal alignment masks practical
-  divergence (**Feedback is Distorted**).
-
-### **Chapter 8 — Scale and Drift**
-
-Eligible patterns: Feedback is Distorted; No One Pushes Back; also **People Copy What Works**, **Plans Can Change**, and **People Look to One Person** only as
+Eligible patterns: Learning Collapses; Disagreement is Suppressed; also **Leadership Reproduces Itself**, **Feedback Drives Change**, and **Leadership Coalesces** only as
 secondary reinforcement where the vignette or scale mechanics already show
 replication, adaptability under pressure, or default escalation hubs.
 
 Strong opportunities:
 
 - After the regional vignette, where shared playbooks travel faster than
-  local revision (**People Copy What Works**).
+  local revision (**Leadership Reproduces Itself**).
 - Immediately after the adaptability capacity definition, tying the test to
-  named pattern (**Plans Can Change**).
-- After the four-state list, where formal routing concentrates who counts as
-  the real escalation point (**People Look to One Person**).
+  named pattern (**Feedback Drives Change**).
+- After the four-state list, where **Leadership Coalesces** narrows who counts
+  as the real escalation gate.
 - In "Selective Followership at Scale," where feedback cannot return with
-  enough force (**Feedback is Distorted**).
+  enough force (**Learning Collapses**).
 - In legitimacy-at-scale discussion where dissent diffuses and entrenchment
-  grows (**No One Pushes Back**).
+  grows (**Disagreement is Suppressed**).
 
-### **Chapter 9 — Tradeoffs Under Pressure**
+### **Chapter 8 — Tradeoffs Under Pressure** (Part III)
 
-Eligible patterns (newly introduced here): Exceptions Are Forever.
+Eligible patterns (newly introduced here): Exceptions are Forever.
 
 Strong opportunities:
 
 - In "Boundary Conditions," at the transition from temporary exception to
-  default practice (**Exceptions Are Forever**).
+  default practice (**Exceptions are Forever**).
 - In post-vignette commentary where emergency logic becomes baseline
   governance.
 
-### **Chapter 10 and Epilogue**
+### **Chapter 9 and Epilogue** (Part III)
 
 Eligible patterns: all patterns.
 
@@ -544,9 +556,9 @@ Strong opportunities:
 
 - In "Two Trajectories" and "When the Baseline Has Already Shifted," where
   transfer, insulation, and delayed feedback converge
-  (**Feedback is Distorted**, **No One Pushes Back**).
+  (**Learning Collapses**, **Disagreement is Suppressed**).
 - In epilogue sections on emergency permissions and damage containment
-  (**Exceptions Are Forever**, **Decisions Stay Connected**).
+  (**Exceptions are Forever**, **Leaders Feel the Consequences**).
 
 ### **Bridges (Light Use Only)**
 
@@ -569,11 +581,11 @@ four-state model where the manuscript says not to.
 
 Bad:
 
-"Pattern - Decisions Stay Connected: This occurs when..."
+"Pattern - Leaders Feel the Consequences: This occurs when..."
 
 Good:
 
-"Pattern - Decisions Stay Connected"
+"Pattern - Leaders Feel the Consequences"
 
 Short. Recognizable. Move on.
 
@@ -613,7 +625,7 @@ The two should complement, not duplicate.
 
 When prompting Cursor, use instructions like:
 
-- "Insert the pattern 'Decisions Stay Connected' after this paragraph using the
+- "Insert the pattern 'Leaders Feel the Consequences' after this paragraph using the
   guide"
 
 - "Add a pattern block here following pattern-integration-guide.md

@@ -1,18 +1,19 @@
-# **Bridge — From Circulation to Scale Pressure**
+# **Bridge — From Structure to Scale Pressure**
 
-Part II separated harm, effectiveness, legitimacy, and circulation. Each
-lens could be seen on its own.
+Part II used three lenses—harm, effectiveness, and legitimacy—with **authority
+circulation** threaded through each: whether warning, dissent, and revision
+could still change direction under pressure.
 
-Part III puts them back together under harder conditions: larger reach,
+Part III puts those lenses back together under harder conditions: larger reach,
 more distance from consequence, and faster pressure cycles.
 
 At small scale, correction is often visible and personal. At larger scale,
-signals travel farther and slower. They also distort more. That does not
+signals travel farther, take longer to arrive, and distort more. That does not
 make renewal impossible. It makes renewal harder work.
 
-Scale also widens the reach of **People Copy What Works**. What gets rewarded or punished
-travels faster than written rules. The next cohort often learns from
-example before it learns from policy.
+Scale also gives **Leadership Reproduces Itself** more room to run. What gets
+rewarded or punished travels faster than written rules. The next cohort often
+learns from example before it learns from policy.
 
 Chapter 2’s model—capacities, four states, renewal and erosion—still
 applies. Part III asks how scale and pressure change the risks, not the
