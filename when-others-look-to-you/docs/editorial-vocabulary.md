@@ -29,8 +29,20 @@ For global tone and universality rules, see `book-rules.md`. For pattern blocks 
 
 ### **Echo control (definitions)**
 
-- **Chapter 8** does **not** re-list the four state bullets (or duplicate Chapter 2’s scalability/adaptability bullet pair); point to **Chapter 2** in prose and name risk at scale there.
+- **Chapter 7** (Part III — Scale) does **not** re-list the four state bullets (or duplicate Chapter 2’s scalability/adaptability bullet pair); point to **Chapter 2** in prose and name risk at scale there.
 - **Part III bridge** summarizes Chapter 2’s model in **one sentence**, not three recap bullets.
+
+### **Vitality, vibrant, stagnant, decaying**
+
+- **Vitality** (noun) — the group’s **health**: whether relationships, correction, and learning stay **alive** under pressure. Prefer over vague “health” when the contrast is **renewal vs erosion**.
+- **Vibrant** (adjective) — describes a group or pattern where **relationships across the whole field** (not only the in-group) and **rich circulation** stay in view; close to vitality, not a synonym.
+- **Stagnant** / **decaying** — the cold side: task-only or in-group optimization, **constricted circulation**, normalization of harm, or scoreboard myopia. Use **decaying** when tracking **over time** (parallel to Chapter 2 erosion language).
+- Do not stack all four in one sentence; pick the lightest word that fits.
+
+### **Circulation rich vs constricted**
+
+- **Circulation rich** — dissent, bad news, and temporary leadership can still **move** and **change decisions**; aligns with **vibrant** health.
+- **Constricted circulation** — dissent **narrows** from open signal to **quiet workaround**; aligns with **decaying** erosion. Use when Part II (Ch. 4–6) or Part III discuss feedback paths, not as jargon in every chapter.
 
 ---
 
@@ -39,7 +51,7 @@ For global tone and universality rules, see `book-rules.md`. For pattern blocks 
 - Section heading: **Two Directions** (not “One Structure”).
 - Opening line: **What a group does under attention does not freeze in place** (footnote on adaptive organizing unchanged).
 - Prefer **common effort** alongside **coordinated action** where the formal capacity bullets still use the latter.
-- **Erosion:** *revisability* → **room to change plans once they are in motion**; *permeability* → **fewer channels stay open for bad news; telling the truth costs more**.
+- **Erosion:** where a technical term helps, **revisability** may appear **with** the gloss **room to change plans once they are in motion** (not as a hard replacement); *permeability* → **fewer channels stay open for bad news; telling the truth costs more**.
 - **Harm in erosion:** *abstract language* → **vague wording** (or equally concrete).
 - **Cost / harm:** *tractable* → **small enough to fix**; *narrative control* → **control of the public story**; *entrenched coordination* → **coordination that is hard to undo**.
 - **Early indicators** use plain labels, not jargon headers:
@@ -85,10 +97,10 @@ For global tone and universality rules, see `book-rules.md`. For pattern blocks 
 
 ---
 
-## Chapters 9–10 and epilogue (recent related edits)
+## Chapters 8–9 and epilogue (Part III; recent related edits)
 
-- **Trajectories** language (not “unbounded/bounded arc”); **baseline shifted** ties to **Chapter 9** exception sequence.
-- **Chapter 10** dropped the redundant four-state recap section; keep **Plans Can Change** on the trajectory paragraph.
+- **Trajectories** language (not “unbounded/bounded arc”); **baseline shifted** ties to **Chapter 8** (Tradeoffs) exception sequence.
+- **Chapter 9** (What Happens Next) dropped the redundant four-state recap section; keep **Feedback Drives Change** on the trajectory paragraph.
 - Epilogue: prefer **usual way decisions get made**, **how people are treated**, **formal rules and policy**, **whether correction still works** over *governance / structural gains* where those edits already landed.
 
 ---
@@ -103,8 +115,9 @@ For global tone and universality rules, see `book-rules.md`. For pattern blocks 
 
 | Pass | Focus | Primary files |
 |------|--------|----------------|
-| 1 | Renewal/erosion model wording | `chapter-2-renewal-and-erosion.md`, Part III bridge, Ch 8 state echo |
+| 1 | Renewal/erosion model wording | `chapter-2-renewal-and-erosion.md`, Part III bridge, Ch 7 (Scale) state echo |
 | 2 | Legitimacy plain speak + look/follow | `chapter-6-legitimacy-over-time.md` |
 | 3 | Harm + effectiveness domains & jargon | `chapter-4-harm-under-influence.md`, `chapter-5-effectiveness-and-its-illusions.md` |
+| Alistair alignment | Vitality/vibrant/stagnant language; task vs relationship spine; circulation rich/constricted; pattern relationship diagram | `editorial-vocabulary.md`, Part I–II bridges, Ch 1–6 selected, `appendix-b-leadership-patterns.md`, `docs/diagrams/pattern-groups.svg`, pattern docs |
 
 Update this file when a future pass changes a **deliberate** house rule (not one-off stylistic tweaks).

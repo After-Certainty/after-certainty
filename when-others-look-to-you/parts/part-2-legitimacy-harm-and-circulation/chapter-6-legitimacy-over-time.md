@@ -2,8 +2,8 @@
 
 ### **Why People Continue to Look**
 
-Leadership persists because attention persists. But attention does not
-persist for one reason.
+Leadership persists because attention persists. But attention does not rest on
+a single explanation.
 
 People continue to look when they believe authority is justified enough
 to follow; that belief is legitimacy.[^c6-weber]
@@ -20,7 +20,8 @@ common effort can grow without getting stuck.
 ### **Example-Based Legitimacy**
 
 People look because what they can see lines up with the claim that someone
-should lead.
+should lead. Visible behavior supports the claim to lead: permission is
+read off real-time conduct, not only from promises.
 
 Actions match language. Harm is addressed in view. Correction changes
 future behavior. Influence remains earned in real time.
@@ -48,8 +49,8 @@ who sits in it right now.
 Office-based legitimacy protects continuity at scale. It also lets
 authority pass forward even when today's behavior is weaker than the
 founding example.
-At scale, this can reinforce **People Look to One Person**, locking in whoever
-becomes the default route for decisions.
+At scale, this can deepen **Leadership Coalesces**, locking in whoever becomes
+the default route for decisions.
 
 Handoff risk rises here: authority moves forward by default, while
 accountability often stays tied to earlier decisions.
@@ -68,20 +69,20 @@ like strength. In practice, it is still erosion: critique no longer changes
 direction.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - No One Pushes Back**
+**Pattern - Disagreement is Suppressed**
 
 When challenge is recoded as disloyalty, authority becomes harder to
 revise and correction pathways begin to close.
 :::
 
-Once that shift takes hold, **No One Pushes Back** can persist even when
-formal process remains intact.
+Once that shift takes hold, **Disagreement is Suppressed** may be in place even
+when formal process remains intact.
 
 ### **How Legitimacy Transfers and Shifts**
 
 A common arc is:
 
-Example-based -> procedural -> office-based -> sacralized
+Example-based → procedural → office-based → sacralized
 
 In plain terms: people trust what they can see, then the rules, then the
 title, and sometimes the role becomes too holy to question.
@@ -105,7 +106,7 @@ If people comply publicly but diverge privately, legitimacy is likely
 hardening toward office-based or sacralized forms. In that state, calm
 surfaces can hide deeper trust loss.
 
-If uncorrected, the group can drift into **No One Pushes Back**.
+If uncorrected, open challenge can give way to **Disagreement is Suppressed**.
 
 ### **Legitimacy and Accountability**
 
@@ -118,16 +119,61 @@ its decisions affect.
 If legitimacy cannot renew through visible correction, influence may
 continue, but erosion deepens.
 
-### **Connection to Chapter 7**
+### **Circulation and Legitimate Authority**
 
 If legitimacy asks why people continue to look, circulation asks whether
 influence can move both ways—out from formal leaders and back toward them
 through people who step up for a moment, then step back.
 
-Chapter 7 turns to that two-way path.
+### **Circulation Signals**
+
+Selective followership is a circulation signal.
+
+When selective dissent is open and discussable, circulation is still
+working. When people shift to quiet workarounds, private refusal, and
+strategic silence, circulation is weakening.
+
+### **Four Circulation Questions**
+
+Ask four practical questions:
+
+- Can bad news travel upward without career penalty?
+- Can dissent change a decision before execution, including temporary
+  step-in leadership by people closest to the problem?
+- Do leaders explain revision when they change course?
+- After conflict, does trust increase or contract?
+
+If the answer to most is no, authority is becoming one-way.
+
+### **How Circulation Shapes Renewal and Erosion**
+
+Circulation keeps authority in contact with consequence.
+
+It lets a growing organization spot drift early. It buys time to adjust
+before harm spreads. It helps legitimacy hold under pressure. It does not
+remove conflict. It keeps conflict open to revision.
+
+Circulation also helps groups grow. People nearest the shifting facts can
+step in, fix things locally, and send what they learned back to the center.
+
+When circulation weakens, erosion usually appears before leaders can name it.
+
+### **Connection to Part III**
+
+Part III now tests what happens under scale. Distance and abstraction make
+circulation harder to sustain.
+
+It also looks at a crisis risk. A short-lived tight grip on circulation can
+harden into habit if no one deliberately opens feedback again.
+
+Chapter 7 opens Part III with scale and drift.
+
+Circulation is not a promise. It helps groups adjust as they grow—but only
+when feedback can still change decisions.
 
 ::: {custom-style="Pull Quote Block"}
-Legitimacy is not proven once; it is renewed or weakened by whether correction keeps showing up in real decisions.
+Legitimacy is not proven once; it is renewed or weakened by whether correction
+keeps showing up in real decisions.
 :::
 [^c6-weber]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
 [^c6-arendt]: Hannah Arendt, "What Is Authority?" in *Between Past and Future* (New York: Viking Press, 1961).

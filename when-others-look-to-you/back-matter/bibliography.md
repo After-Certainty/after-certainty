@@ -43,7 +43,7 @@
 
 - Staw, Barry M. "Knee-Deep in the Big Muddy: A Study of Escalating
   Commitment to a Chosen Course of Action." *Organizational Behavior and
-  Human Performance* 16, no. 1 (1976): 27-44.
+  Human Performance* 16, no. 1 (1976): 27–44.
 
 - Vaughan, Diane. *The Challenger Launch Decision: Risky Technology,
   Culture, and Deviance at NASA*. Chicago: University of Chicago Press,
@@ -62,4 +62,4 @@
 
 - Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld. "Organizing
   and the Process of Sensemaking." *Organization Science* 16, no. 4
-  (2005): 409-421.
+  (2005): 409–421.

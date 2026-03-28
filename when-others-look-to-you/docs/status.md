@@ -2,7 +2,11 @@
 
 ## Current Phase
 
-Part III merged to `main`. Back matter drafting and audit are now active
+**Structural edit in progress:** Authority circulation is merged into Part II
+Chapters 4–6 (no standalone circulation chapter); Part III renumbers to
+Chapters 7–9. See `docs/circulation-cross-cutting.md`.
+
+Previously: Part III merged to `main`. Back matter drafting and audit were active
 on branch `when-others-look-to-you-back-matter`.
 
 ## Current Branch

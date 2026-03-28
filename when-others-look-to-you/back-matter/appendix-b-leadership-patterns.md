@@ -1,10 +1,9 @@
 # **Appendix B — Leadership Patterns**
 
-This appendix summarizes recurring patterns described throughout the
-book—how leadership forms, renews, erodes, and spreads. Patterns are
-grouped into four kinds—**forming**, **adjusting**, **eroding**, and
-**circulating**. Each is a short snapshot: when it appears, what is
-happening, and what tends to follow.
+This appendix summarizes recurring patterns from the book: how leadership
+forms, renews, erodes, and spreads. They fall under four labels—**forming**,
+**adjusting**, **eroding**, and **circulating**. Each entry is a short snapshot:
+when it appears, what is happening, and what tends to follow.
 
 These patterns are not prescriptions. They are conditions you can observe
 again and again, from small groups to large institutions.
@@ -14,7 +13,7 @@ again and again, from small groups to large institutions.
 _Patterns where attention, example, and habit pull leadership into focus
 while direction is still taking shape._
 
-## **Attention Comes Into Focus**
+## **Attention Finds a Focus**
 
 **Context:**
 
@@ -36,7 +35,7 @@ Coordination is needed, but no clear process has named who will lead.
 Attention settles on one person. Others start lining up their behavior
 with that person’s actions, tone, or timing.
 
-> "Alright—attention is coming into focus on you. What do you think?"
+> "Attention finds a focus—then direction follows."
 
 **Effect:**
 
@@ -50,9 +49,9 @@ authority starts to lock in.
 
 **Related Patterns:**
 
-Behavior Becomes the Rule; People Look to One Person
+Examples Accumulate; Leadership Coalesces
 
-## **Behavior Becomes the Rule**
+## **Examples Accumulate**
 
 **Context:**
 
@@ -75,7 +74,7 @@ missing or thin.
 What the leader does—especially under pressure—quickly defines what
 others believe is acceptable.
 
-> "Careful—behavior is becoming the rule here."
+> "Careful—examples accumulate faster than announcements."
 
 **Effect:**
 
@@ -89,9 +88,9 @@ example already set.
 
 **Related Patterns:**
 
-Attention Comes Into Focus; Bad News Moves Early
+Attention Finds a Focus; Dissent is Welcomed
 
-## **People Look to One Person**
+## **Leadership Coalesces**
 
 **Context:**
 
@@ -127,14 +126,14 @@ grow weaker.
 
 **Related Patterns:**
 
-Attention Comes Into Focus; No One Pushes Back
+Attention Finds a Focus; Disagreement is Suppressed
 
 ## **Adjusting**
 
 _Patterns that keep decisions tied to reality, correction, and
 accountability._
 
-## **Bad News Moves Early**
+## **Dissent is Welcomed**
 
 **Context:**
 
@@ -155,11 +154,11 @@ Correction in time depends on whether bad news can reach decision-makers.
 
 Problems surface early so reality can reach decision-makers in time.
 
-> "Just bring bad news—don't filter it."
+> "Dissent is welcomed here—say it early."
 
 **Effect:**
 
-Early correction stays possible. Failure stays smaller and cheaper.
+Early correction remains possible. Failure stays smaller and cheaper.
 
 **Resulting Context:**
 
@@ -168,9 +167,9 @@ problems grow before they are addressed.
 
 **Related Patterns:**
 
-Behavior Becomes the Rule; Feedback is Distorted
+Examples Accumulate; Learning Collapses
 
-## **Plans Can Change**
+## **Feedback Drives Change**
 
 **Context:**
 
@@ -201,14 +200,14 @@ Plans stay tied to reality instead of to an outdated story.
 
 **Resulting Context:**
 
-Correction stays legitimate; the group keeps room to revise when facts
+Correction keeps its legitimacy; the group still has room to revise when facts
 change.
 
 **Related Patterns:**
 
-Bad News Moves Early; Decisions Stay Connected
+Dissent is Welcomed; Leaders Feel the Consequences
 
-## **Decisions Stay Connected**
+## **Leaders Feel the Consequences**
 
 **Context:**
 
@@ -243,13 +242,13 @@ work can hold.
 
 **Related Patterns:**
 
-Bad News Moves Early; Feedback is Distorted
+Dissent is Welcomed; Learning Collapses
 
 ## **Eroding**
 
 _Patterns where feedback, dissent, and boundaries weaken over time._
 
-## **No One Pushes Back**
+## **Disagreement is Suppressed**
 
 **Context:**
 
@@ -284,9 +283,9 @@ Authority pulls away from feedback, and drift speeds up.
 
 **Related Patterns:**
 
-People Look to One Person; Feedback is Distorted
+Leadership Coalesces; Learning Collapses
 
-## **Feedback is Distorted**
+## **Learning Collapses**
 
 **Context:**
 
@@ -308,12 +307,12 @@ Word from the ground does not reliably reach decision-makers in time.
 Decision-makers do not get a timely, accurate read on what their choices
 are doing.
 
-> "The feedback is distorted—we're not hearing what's really happening."
+> "Learning collapses when the ground story never reaches the room."
 
 **Effect:**
 
-Feedback loops weaken. Decisions drift away from what is actually
-happening while still looking steady.
+Feedback loops weaken. Decisions drift away from what is actually happening
+while the surface still looks steady.
 
 **Resulting Context:**
 
@@ -321,9 +320,9 @@ Errors repeat, harm piles up, and correction arrives late and costs more.
 
 **Related Patterns:**
 
-Decisions Stay Connected; Bad News Moves Early
+Leaders Feel the Consequences; Dissent is Welcomed
 
-## **Exceptions Are Forever**
+## **Exceptions are Forever**
 
 **Context:**
 
@@ -358,13 +357,13 @@ Authority expands, constraints weaken, and drift builds over time.
 
 **Related Patterns:**
 
-No One Pushes Back; Feedback is Distorted
+Disagreement is Suppressed; Learning Collapses
 
 ## **Circulating**
 
 _Patterns where leadership norms spread beyond the original setting._
 
-## **People Copy What Works**
+## **Leadership Reproduces Itself**
 
 **Context:**
 
@@ -388,7 +387,7 @@ People read those behaviors as personal style and as the local model for
 People copy leadership habits and norms. That shapes how the next round
 of leadership forms.
 
-> "People will just copy what works here, whether we like it or not."
+> "Leadership reproduces itself—people copy what gets rewarded."
 
 **Effect:**
 
@@ -396,9 +395,9 @@ Local habits become templates. Strengths and pathologies both replicate.
 
 **Resulting Context:**
 
-Other places start to look like this one. Forming and eroding patterns
+Other places start to look like this one. **Forming** and **Eroding** dynamics
 can spread with no one meaning to write a playbook.
 
 **Related Patterns:**
 
-Behavior Becomes the Rule; People Look to One Person
+Examples Accumulate; Leadership Coalesces

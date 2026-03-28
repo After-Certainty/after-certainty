@@ -381,7 +381,7 @@ The book analyzes structure, not people.
   words when both dimensions are implied.
 
 - **Echo guardrail (Part III / scale):** Do not paste the full four-state
-  bullet matrix again in **Chapter 8**; summarize and point readers to
+  bullet matrix again in **Chapter 7** (Part III — Scale); summarize and point readers to
   **Chapter 2**. Keep the **Part III bridge** recap of the model to a
   single sentence unless the author expands it deliberately (`editorial-vocabulary.md`).
 

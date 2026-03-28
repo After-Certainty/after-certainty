@@ -8,7 +8,7 @@ Chapter 1 established the opening condition: attention can concentrate
 without guaranteeing obedience, and influence can be high while compliance is
 partial. The next question is what that influence repeatedly produces.
 
-Once **Attention Comes Into Focus**, the surrounding group moves in one of
+Once **Attention Finds a Focus**, the surrounding group moves in one of
 two directions. It can stay open to course correction and keep
 common effort working together as reach grows. Or it can narrow toward
 insulation, where correction weakens and reach starts to break down.[^c2-organizational-defenses]
@@ -48,7 +48,7 @@ grows.[^c2-high-reliability]
 People closest to consequences can still speak. Disagreement is possible
 without social exile. Early warnings are not treated as betrayal.
 Mistakes are surfaced before they become identity threats. In that
-climate, **Behavior Becomes the Rule**: difficult news stays
+climate, **Examples Accumulate**: difficult news stays
 speakable—not hidden.
 
 High-renewal groups do not avoid failure. They shorten the time between
@@ -64,6 +64,10 @@ Renewal feels slower at first because it includes friction. Questions
 take time. Clarifications take time. Dissent takes time. But this
 apparent inefficiency is often what prevents larger collapse later.
 
+**Circulation** is the practical name for whether influence can move back
+toward formal leadership as well as outward from it—whether warnings and
+revision still have a usable path.
+
 ### **What Erosion Looks Like**
 
 Erosion appears when one or both capacities shrink: influence no longer
@@ -78,15 +82,18 @@ contradiction.
 Erosion rarely announces itself. It is assembled through ordinary choices:
 who gets interrupted, who gets promoted, which measures count, which
 stories are repeated, which failures are forgiven, and which are hidden.
-Over time, repeated deference can harden until **People Look to One Person** is
-simply how the group operates.
+Over time, repeated deference can harden until **Leadership Coalesces** sets in
+as the default: one route for decisions becomes the route people know how to
+use.
 
 Some eroding groups still scale for long periods. What drops first is
-usually room to change plans once they are in motion.
+usually **revisability**—room to change plans once they are in motion.
 
 Over time, the group learns a dangerous lesson: protecting the image is
-more important than correction. Once that lesson settles, bad outcomes
-can increase while internal certainty also increases.
+more important than correction. Inconvenient facts are easier to let slide;
+what gets buried does not disappear—it shows up later as cost. Once that
+lesson settles, bad outcomes can increase while internal certainty also
+increases.
 
 This is why erosion often looks like stability to insiders. The same
 people stay in place. Meetings run on time. Plans look coherent. Language
@@ -98,8 +105,9 @@ truth costs more.
 Renewal and erosion create different cost patterns over time.
 
 High-renewal groups accept small costs early. They absorb discomfort,
-reputation risk, and rework while problems are still small enough to fix, protecting
-both scalability and adaptability.
+reputation risk, and rework while problems are still small enough to fix. That
+keeps plans adjustable under pressure and protects both scalability and
+adaptability.
 
 Eroding groups defer those costs. They preserve short-term smoothness,
 then pay later in larger forms: preventable harm, coordination that is hard
@@ -137,8 +145,8 @@ agreement while quietly routing around decisions they do not trust. The
 group still appears aligned, but shared reality weakens.
 
 The same behavior can mean different things depending on whether the group
-is renewing or eroding. Open selective dissent often indicates renewal. Hidden selective
-resistance often indicates trust fracture.
+is renewing or eroding. Open selective dissent often signals renewal; hidden
+selective resistance often signals trust fracture.
 
 ### **Why Erosion Feels Rational**
 

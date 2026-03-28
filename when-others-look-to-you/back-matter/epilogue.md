@@ -11,7 +11,7 @@ Some readers arrive here hoping for a clean reversal strategy. Sometimes
 reversal is possible. Sometimes it is not.
 
 When the baseline has already shifted—when temporary exceptions have become
-normal practice, as Chapter 9 described—the immediate task may not be
+normal practice, as Chapter 8 described—the immediate task may not be
 full restoration. It may be damage containment, constraint rebuilding, and
 local repair.
 
@@ -24,14 +24,14 @@ In this phase, progress can look modest:
 
 - Fewer harms pushed to the edge.
 - More decisions reopened before they harden.
-- Clearer limits on emergency permissions, so **Exceptions Are Forever**
-  does not become the usual way decisions get made.
+- Clearer limits on emergency permissions, so urgency does not permanently
+  rewrite the operating baseline (**Exceptions are Forever**).
 - Stronger protection for dissent and correction.
 
 These shifts rarely feel dramatic. They still change how people are
 treated.
 
-The work also returns, again, to human scale.
+The work returns to human scale once more.
 
 At human scale, consequences are harder to abstract. Claims are easier to
 test. Repair is harder to postpone. This does not make human-scale
@@ -49,13 +49,13 @@ None of this guarantees a happy ending.
 
 It does something quieter and more realistic: it reduces how much harm can
 be normalized, inherited, and repeated.
-Without that work, **Decisions Stay Connected** may never become
-the norm—costs keep landing far from the decision—and harm becomes a durable norm rather than an
-intermittent failure.
+Without that work, decisions may never reconnect with who bears the cost—the
+point of **Leaders Feel the Consequences**—and harm becomes a durable norm
+rather than an intermittent failure.
 
-If the lens from this book changes what you tolerate, what you reward, and
-what you refuse to excuse, then what **People Copy What Works** describes is
-already shifting for anyone who takes cues from how you lead.
+If this book’s lens changes what you tolerate, what you reward, and what you
+refuse to excuse, then the dynamics **Leadership Reproduces Itself** tracks
+are already shifting for anyone who takes cues from how you lead.
 
 Not all change arrives as reversal.
 

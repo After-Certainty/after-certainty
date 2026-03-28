@@ -13,12 +13,12 @@ literal and navigational.
 Sub-headings are used when the argument makes a meaningful shift.
 They are meant to orient you, not to dramatize the prose.
 
-Each chapter closes with a short pull-quote that distills the chapter’s
+Most chapters close with a short pull-quote that distills the chapter’s
 core takeaway.
 
 Example:
 
-- Part II — Harm, Effectiveness, Legitimacy, and Circulation
+- Part II — Harm, Effectiveness, and Legitimacy
 - Bridge — From Misjudgment to Structural Tests
 - Chapter 6 — Legitimacy Over Time
 - Part III — Scale, Tradeoffs, and What Happens Next
@@ -59,6 +59,10 @@ Example:
 One to two sentences describing a recurring structural dynamic in the
 current context.
 :::
+
+In body prose, the same pattern names may appear **in bold** as short
+anchors (not inside a Pattern block). Bolded names are titles, not ordinary
+nouns; the sentence should still read naturally if the bolding is removed.
 
 ### **Vignettes**
 

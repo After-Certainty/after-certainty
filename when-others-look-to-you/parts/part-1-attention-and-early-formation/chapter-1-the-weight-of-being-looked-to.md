@@ -12,19 +12,24 @@ when uncertainty rises and looks toward someone who has spoken before. A
 congregation listens for tone before interpreting a difficult moment. A
 company waits for direction when performance falters.
 
-Attention comes into focus. Leadership begins there.[^c1-attention-and-leadership] It does not require a title,
-charisma, or intention. It requires orientation: when others orient
-themselves around you, your influence multiplies.
+Attention comes into focus. Leadership begins there.[^c1-attention-and-leadership]
+It does not require a title, charisma, or intention. It requires orientation:
+when others orient themselves around you, your influence multiplies.
+
+What others can see buys an early claim on their attention; **sustaining** that
+claim is a longer test—whether visible behavior still supports the permission
+people are extending.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Attention Comes Into Focus**
+**Pattern - Attention Finds a Focus**
 
 Under uncertainty, attention concentrates quickly, and that concentration
 creates influence before formal authority is named.
 :::
 
 When no one is looking, your decisions affect only you. When others are
-looking, your decisions ripple. Your pace becomes their pace. Your
+looking, your decisions ripple—and your behavior stops being private in the
+ways that shape the group. Your pace becomes their pace. Your
 tolerance becomes their tolerance. Your silence becomes a signal. Your
 reaction becomes instruction.[^c1-modeling-and-signals]
 
@@ -48,10 +53,10 @@ accumulate quietly. Either way, the signal travels. People rarely wait
 for formal instruction. They read patterns.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Behavior Becomes the Rule**
+**Pattern - Examples Accumulate**
 
 Visible behavior under pressure defines what others treat as acceptable
-faster than policy and teaches people what is safe to surface.
+faster than policy does, and it teaches people what is safe to surface.
 :::
 
 ### **Belief and Repetition**
@@ -67,7 +72,7 @@ the more influence consolidates. The more influence consolidates, the
 more people look. Authority emerges from repetition.[^c1-legitimacy-and-repetition]
 
 ::: {custom-style="Pattern Block"}
-**Pattern - People Look to One Person**
+**Pattern - Leadership Coalesces**
 
 Repeated deference hardens into habit, and one person becomes the
 automatic decision point even without new formal authority.
@@ -75,7 +80,8 @@ automatic decision point even without new formal authority.
 
 Most leaders believe they are acting for good. That belief is not
 unusual. What matters is what happens in practice when others begin to
-orient around them.
+orient around them—including how visible responses to dissent, bad news, or
+cost land. Those responses train what others will try next.
 
 ### **Attention Is Not Obedience**
 
@@ -100,7 +106,7 @@ Attention comes into focus first. Interpretation comes next.
 Leadership changes the environment. It alters how harm is distributed,
 how correction is handled, how disagreement survives, how success is
 interpreted, and how failure is absorbed. These changes do not require
-dramatic moments. They accumulate through ordinary decisions — a tone in
+dramatic moments. They accumulate through ordinary decisions—a tone in
 a meeting, a hiring choice, a promotion, a tolerated shortcut, an
 unchallenged story.[^c1-ordinary-administration]
 
@@ -114,8 +120,8 @@ next.
 Does influence stay open to correction? Does belief renew through
 example? Does authority drift toward insulation?[^c1-correction-and-insulation]
 
-Leadership begins when attention comes into focus. Renewal or erosion begins with
-what follows.
+Leadership begins when attention comes into focus. Renewal or erosion starts
+with what follows.
 
 Chapter 2 names those two paths directly and shows how they appear before
 obvious success or failure.
@@ -126,10 +132,10 @@ When others look to you, your posture becomes part of their world.
 [^c1-working-definition]: Foundational references for authority and legitimacy framing: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*; Hannah Arendt, "What Is Authority?" in *Between Past and Future*.
 [^c1-attention-and-leadership]: Alistair Cockburn, "How to Step Up Stepping Up: Promoting Guest Leadership for Successful Collaboration," Cutter Business Technology Journal, Vol. 30, No. 1 (2017), https://www.cutter.com/article/how-step-stepping-promoting-guest-leadership-successful-collaboration-494516.
 [^c1-modeling-and-signals]: Albert Bandura, *Social Learning Theory* (Englewood Cliffs, NJ: Prentice Hall, 1977).
-[^c1-norm-formation]: Robert B. Cialdini, Raymond R. Reno, and Carl A. Kallgren, "A Focus Theory of Normative Conduct," *Journal of Personality and Social Psychology* 58, no. 6 (1990): 1015-1026.
-[^c1-silence-and-accountability]: Amy C. Edmondson, "Psychological Safety and Learning Behavior in Work Teams," *Administrative Science Quarterly* 44, no. 2 (1999): 350-383.
+[^c1-norm-formation]: Robert B. Cialdini, Raymond R. Reno, and Carl A. Kallgren, "A Focus Theory of Normative Conduct," *Journal of Personality and Social Psychology* 58, no. 6 (1990): 1015–1026.
+[^c1-silence-and-accountability]: Amy C. Edmondson, "Psychological Safety and Learning Behavior in Work Teams," *Administrative Science Quarterly* 44, no. 2 (1999): 350–383.
 [^c1-legitimacy-and-repetition]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
-[^c1-selective-followership]: Michael Uhl-Bien, Ronald E. Riggio, Kelly Lowe, and Gerard B. Carsten, "Followership Theory: A Review and Research Agenda," *The Leadership Quarterly* 25, no. 1 (2014): 83-104.
+[^c1-selective-followership]: Michael Uhl-Bien, Ronald E. Riggio, Kelly Lowe, and Gerard B. Carsten, "Followership Theory: A Review and Research Agenda," *The Leadership Quarterly* 25, no. 1 (2014): 83–104.
 [^c1-reactance]: Jack W. Brehm, *A Theory of Psychological Reactance* (New York: Academic Press, 1966).
 [^c1-ordinary-administration]: Hannah Arendt, *Eichmann in Jerusalem: A Report on the Banality of Evil* (New York: Viking Press, 1963).
 [^c1-correction-and-insulation]: Chris Argyris, *Overcoming Organizational Defenses* (Boston: Allyn and Bacon, 1990).

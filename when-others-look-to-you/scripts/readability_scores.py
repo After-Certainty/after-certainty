@@ -69,26 +69,21 @@ ORDERED: list[tuple[str, str, str]] = [
         "Ch 6 — Legitimacy Over Time",
         "parts/part-2-legitimacy-harm-and-circulation/chapter-6-legitimacy-over-time.md",
     ),
-    (
-        "Part II",
-        "Ch 7 — Authority Circulation",
-        "parts/part-2-legitimacy-harm-and-circulation/chapter-7-authority-circulation.md",
-    ),
     ("Part III", "Bridge", "parts/part-3-scale-tradeoffs-and-what-happens-next/bridge.md"),
     (
         "Part III",
-        "Ch 8 — Scale and Drift",
-        "parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-8-scale-and-drift.md",
+        "Ch 7 — Scale and Drift",
+        "parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-7-scale-and-drift.md",
     ),
     (
         "Part III",
-        "Ch 9 — Tradeoffs Under Pressure",
-        "parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-9-tradeoffs-under-pressure.md",
+        "Ch 8 — Tradeoffs Under Pressure",
+        "parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-8-tradeoffs-under-pressure.md",
     ),
     (
         "Part III",
-        "Ch 10 — What Happens Next",
-        "parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-10-what-happens-next.md",
+        "Ch 9 — What Happens Next",
+        "parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-9-what-happens-next.md",
     ),
     ("Back matter", "Epilogue", "back-matter/epilogue.md"),
     (

@@ -31,9 +31,8 @@ The scale changes. The structure does not.
 
 ### **Why Begin Here**
 
-Many leadership conversations begin with identity:
-Who is the leader, what kind of person are they, and what values do they
-claim?
+Many leadership conversations begin with identity—who the leader is, what kind
+of person they are, what values they claim.
 
 Those questions matter, but they are incomplete. This book begins with a
 different question: what happens to everyone else when others look to this

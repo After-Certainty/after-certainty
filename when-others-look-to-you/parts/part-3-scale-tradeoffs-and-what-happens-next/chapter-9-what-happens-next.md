@@ -1,4 +1,4 @@
-# **Chapter 10 — What Happens Next**
+# **Chapter 9 — What Happens Next**
 
 Return to the definition:
 
@@ -6,20 +6,22 @@ Return to the definition:
 A leader is someone others look to when deciding what to do next.
 :::
 
-That is the moment **Attention Comes Into Focus**.
+That is the moment **Attention Finds a Focus**.
 
 The final question is not whether others look. It is what that looking
 builds over time.
 
 ### **The Integrated View**
 
-Each Part II chapter isolated a lens. Integration asks how they move
+Part II used three lenses—harm, effectiveness, and legitimacy—with
+circulation threaded through each. Integration asks how they move
 together:
 
 - **Harm:** where cost lands.
 - **Effectiveness:** what gets amplified.
 - **Legitimacy:** why people continue to look.
-- **Circulation:** whether correction can return to authority.
+- **Circulation:** whether correction can return to authority (the
+  cross-cutting check that runs alongside all three).
 
 No lens is sufficient alone. A group can look effective while displacing
 harm. It can look legitimate while circulation narrows. It can report
@@ -32,9 +34,9 @@ A short set of cross-domain examples helps keep this concrete:
   than resolved.
 - A congregation appears unified because disagreement moves off-record.
 
-Each case can look stable on the surface while the underlying structure
-drifts toward entrenched or stalled conditions, with distorted feedback still
-looking like calm coordination from the outside (**Feedback is Distorted**).
+Each case can look stable on the surface while the underlying structure drifts
+toward entrenched or stalled conditions. Distorted feedback can still look like
+calm coordination from the outside—the composed surface that **Learning Collapses** names.
 
 ### **Two Trajectories**
 
@@ -49,22 +51,22 @@ Taken together, repeated choices tend to push structure one of two ways:
 These are not personality types. They are where decisions accumulate over
 time—not a single switch you flip once, but a direction you reinforce or
 interrupt. Movement between them is possible. The issue is whether
-**Plans Can Change** is still possible in practice when reality pushes back.
+**Feedback Drives Change** can still happen in practice when reality pushes back.
 
 ### **When the Baseline Has Already Shifted**
 
-Chapter 9 described one common threshold: emergency logic becomes normal
+Chapter 8 described one common threshold: emergency logic becomes normal
 logic—temporary exception, then repeated exception, then default. That
 sequence is a way the first trajectory deepens. Once it has settled, full
 reversal is often unlikely in the near term.
 
-But partial repair is still possible:
+But partial repair remains possible:
 
 - Reduce harm concentration.
 - Reopen specific correction paths.
 - Rebind authority to visible consequence.
 - Prevent temporary exceptions from hardening into a permanent baseline,
-  the drift described by **Exceptions Are Forever**.
+  the drift described by **Exceptions are Forever**.
 
 Repair at this stage is usually uneven, local, and slow. That does not
 make it trivial. It makes it realistic.
