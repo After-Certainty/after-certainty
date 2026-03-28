@@ -7,10 +7,10 @@ whether influence can move back in.
 
 Authority circulation means warnings, dissent, and on-the-ground
 information can reach decision-makers and change direction without
-punishment.[^c7-voice] While that remains true, **Bring Bad News** holds.
+punishment.[^c7-voice] While that remains true, **Bad News Moves Early** still holds.
 
-Circulation is a practical check. It shows whether the group lines up with
-Chapter 2’s four states: regenerative, adaptive, entrenched, or stalled.
+Circulation is a practical check: it shows where the group sits on Chapter 2’s
+map of renewal and erosion.
 
 Without circulation, authority still exists, but learning slows and groups
 drift toward entrenched or stalled patterns.
@@ -35,7 +35,7 @@ step-in leadership is trusted, more people use it openly. When it is
 punished, people retreat to silence or workaround behavior.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Copy What Works Here**
+**Pattern - People Copy What Works**
 
 What gets rewarded or punished locally becomes a template; people imitate
 it when they step into leadership next.
@@ -84,8 +84,7 @@ People raised the issue; nothing changed. So fixes moved off the books.
 On paper, the group aligns. In daily work, practice drifts.
 
 That gap usually means authority runs one way and is harder to change.
-It is also where **Feedback Gap** begins to govern daily
-operations.
+Distorted feedback is often already governing daily operations there—**Feedback is Distorted**.
 
 ### **Four Circulation Questions**
 

@@ -83,36 +83,36 @@ glossary):
 
 1.  Attention Comes Into Focus
 
-2.  Your Example Becomes the Rule
+2.  Behavior Becomes the Rule
 
-3.  The One We Default To
+3.  People Look to One Person
 
-**Renewing**
+**Adjusting**
 
-4.  Bring Bad News
+4.  Bad News Moves Early
 
-5.  We Change Course
+5.  Plans Can Change
 
-6.  We Own the Outcome
+6.  Decisions Stay Connected
 
 **Eroding**
 
 7.  No One Pushes Back
 
-8.  Feedback Gap
+8.  Feedback is Distorted
 
 9.  Exceptions Are Forever
 
 **Circulating**
 
-10. Copy What Works Here
+10. People Copy What Works
 
 Do not rename or vary phrasing.
 
 **Manuscript migration:** older drafts used *Tone Sets the Room* (now
-*Your Example Becomes the Rule*), *You Can Bring Them Bad News* (now
-*Bring Bad News*), *Consequences Don’t Come Back* (now *Feedback Gap*),
-and *Someone Else Pays* (now named through *We Own the Outcome*—the
+*Behavior Becomes the Rule*), *You Can Bring Them Bad News* (now
+*Bad News Moves Early*), *Consequences Don’t Come Back* (now *Feedback is Distorted*),
+and *Someone Else Pays* (now named through *Decisions Stay Connected*—the
 structural connection or disconnection between decisions and who bears
 consequences). When updating chapters, swap to the canonical names
 above and adjust the surrounding sentence so the pattern reads as a
@@ -158,7 +158,7 @@ Format:
 Example:
 
 ::: {custom-style="Pattern Block"}
-**Pattern - We Own the Outcome**
+**Pattern - Decisions Stay Connected**
 
 When decision-makers stay connected to consequences, accountability
 stays visible; when that connection breaks, costs and harm drift out of
@@ -250,15 +250,15 @@ Inline anchors are not pattern blocks. They are short in-sentence uses of
 the canonical pattern names in bold:
 
 - `**Attention Comes Into Focus**`
-- `**Your Example Becomes the Rule**`
-- `**The One We Default To**`
-- `**Bring Bad News**`
-- `**We Change Course**`
-- `**We Own the Outcome**`
+- `**Behavior Becomes the Rule**`
+- `**People Look to One Person**`
+- `**Bad News Moves Early**`
+- `**Plans Can Change**`
+- `**Decisions Stay Connected**`
 - `**No One Pushes Back**`
-- `**Feedback Gap**`
+- `**Feedback is Distorted**`
 - `**Exceptions Are Forever**`
-- `**Copy What Works Here**`
+- `**People Copy What Works**`
 
 ### **Inline Anchor Rules**
 
@@ -282,19 +282,19 @@ chapters:
 
 - After **Chapter 1**:
   - Attention Comes Into Focus
-  - Your Example Becomes the Rule
-  - The One We Default To
+  - Behavior Becomes the Rule
+  - People Look to One Person
 - After **Chapter 3**:
-  - Bring Bad News
-  - Feedback Gap
+  - Bad News Moves Early
+  - Feedback is Distorted
 - After **Chapter 4**:
-  - We Own the Outcome
+  - Decisions Stay Connected
 - After **Chapter 5**:
-  - We Change Course
+  - Plans Can Change
 - After **Chapter 6**:
   - No One Pushes Back
 - After **Chapter 7**:
-  - Copy What Works Here
+  - People Copy What Works
 - After **Chapter 9**:
   - Exceptions Are Forever
 
@@ -302,41 +302,41 @@ chapters:
 
 Preferred form:
 
-- "...this is where **We Own the Outcome** breaks down."
+- "...this is where **Decisions Stay Connected** breaks down."
 - "...the group drifts toward **No One Pushes Back**."
-- "...what looks stable can mask **Feedback Gap**."
+- "...what looks stable can hide **Feedback is Distorted**."
 
 ### **Grammar Rule for Inline Anchors**
 
 Treat each pattern name as a fixed title and insert it where a noun phrase
 fits naturally in the sentence.
 
-- Use with a determiner when needed: "the pattern **We Own the Outcome**,"
+- Use with a determiner when needed: "the dynamic called **Decisions Stay Connected**,"
   "a drift toward **No One Pushes Back**."
 - Keep subject-verb agreement with the surrounding sentence:
-  "**Feedback Gap** is visible here" (not "are visible").
+  "Distorted feedback is visible here (**Feedback is Distorted**)."
 - Keep tense and preposition logic in the host sentence:
   "drifts toward **No One Pushes Back**," "slides into
-  **Exceptions Are Forever**," "room for **Bring Bad News**."
+  **Exceptions Are Forever**," "room for **Bad News Moves Early**."
 - If the sentence becomes awkward, rewrite the sentence; do not bend the
   pattern name.
 
 Good:
 
-- "In this section, **We Own the Outcome** is hard to find."
+- "In this section, **Decisions Stay Connected** is hard to find."
 - "Over time, the group drifts toward **No One Pushes Back**."
-- "What looks stable can mask **Feedback Gap**."
+- "What looks stable can hide **Feedback is Distorted**."
 
 Avoid:
 
-- "This is **We Own the Outcome**."
+- "This is **Decisions Stay Connected**."
 - "They are **No One Pushes Back**."
-- "The group is in **Bring Bad News**."
+- "The group is in **Bad News Moves Early**."
 
 Avoid:
 
-- "Pattern - We Own the Outcome"
-- "this is an example of We Own the Outcome pattern dynamics occurring..."
+- "Pattern - Decisions Stay Connected"
+- "this is an example of **Decisions Stay Connected** dynamics occurring..."
 
 ## **Placement Guidance by Chapter (Canonical)**
 
@@ -346,37 +346,37 @@ Primary:
 
 - Attention Comes Into Focus
 
-- Your Example Becomes the Rule
+- Behavior Becomes the Rule
 
-- The One We Default To
+- People Look to One Person
 
 ### **Chapter 3 — Misjudgment**
 
 Primary:
 
-- Bring Bad News
+- Bad News Moves Early
 
-- Feedback Gap
+- Feedback is Distorted
 
 ### **Chapter 4 — Harm**
 
 Primary:
 
-- We Own the Outcome
+- Decisions Stay Connected
 
 Optional:
 
-- Feedback Gap (only if strongly demonstrated)
+- Feedback is Distorted (only if strongly demonstrated)
 
 ### **Chapter 5 — Effectiveness**
 
 Primary (when the chapter’s strongest example supports it):
 
-- We Change Course
+- Plans Can Change
 
 Optional:
 
-- Feedback Gap (only if strongest example occurs here)
+- Feedback is Distorted (only if strongest example occurs here)
 
 ### **Chapter 6 — Legitimacy**
 
@@ -388,29 +388,29 @@ Primary:
 
 Primary:
 
-- Copy What Works Here
+- People Copy What Works
 
 Optional:
 
-- Bring Bad News (only if not already strongly placed)
+- Bad News Moves Early (only if not already strongly placed)
 
-- Feedback Gap (only if strongly demonstrated)
+- Feedback is Distorted (only if strongly demonstrated)
 
 ### **Chapter 8 — Scale**
 
 Optional (manuscript uses inline anchors where replication, routing, and
 adaptability are already on the page):
 
-- Feedback Gap
+- Feedback is Distorted
 
 - No One Pushes Back
 
-- Copy What Works Here (secondary to Chapter 7; replication outrunning local
+- People Copy What Works (secondary to Chapter 7; replication outrunning local
   revision)
 
-- We Change Course (same adaptability test as Chapter 2, named at scale)
+- Plans Can Change (same adaptability test as Chapter 2, named at scale)
 
-- The One We Default To (formal escalation and default reference points)
+- People Look to One Person (formal escalation and default reference points)
 
 ### **Chapter 9 — Tradeoffs / Crisis**
 
@@ -424,9 +424,9 @@ Optional (light reinforcement only):
 
 - Exceptions Are Forever
 
-- Feedback Gap
+- Feedback is Distorted
 
-- We Own the Outcome
+- Decisions Stay Connected
 
 ## **Opportunity Map for Inline Anchors (Before Manuscript Edits)**
 
@@ -435,54 +435,52 @@ throughout the manuscript while following the sequence rule above.
 
 ### **Chapter 2 — Renewal and Erosion**
 
-Eligible patterns: Attention Comes Into Focus; Your Example Becomes the
-Rule; The One We Default To.
+Eligible patterns: Attention Comes Into Focus; Behavior Becomes the Rule;
+People Look to One Person.
 
 Strong opportunities:
 
 - In the opening transition from Chapter 1's attention dynamic into
   renewal/erosion framing.
 - In "What Renewal Looks Like," where early warnings remain discussable
-  (**Your Example Becomes the Rule**).
+  (**Behavior Becomes the Rule**).
 - In "What Erosion Looks Like," where repetition hardens authority
-  (**The One We Default To**).
+  (**People Look to One Person**).
 
 ### **Chapter 3 — Why We Misjudge Leaders**
 
-Eligible patterns (newly introduced here): Bring Bad News; Feedback Gap.
+Eligible patterns (newly introduced here): Bad News Moves Early; Feedback is Distorted.
 
 Strong opportunities:
 
 - In "Structural Blindness," where dissent channels narrow
-  (**Bring Bad News**).
+  (**Bad News Moves Early**).
 - In the principal vignette analysis, where effects are buffered from
-  decision-makers (**Feedback Gap**).
+  decision-makers (**Feedback is Distorted**).
 
 ### **Chapter 4 — Harm Under Influence**
 
-Eligible patterns (newly introduced here): We Own the Outcome.
+Eligible patterns (newly introduced here): Decisions Stay Connected.
 
 Strong opportunities:
 
 - In "How Harm Gets Displaced," where costs move downward/outward and
-  decision-makers lose contact with who bears them (**We Own the Outcome**
+  decision-makers lose contact with who bears them (**Decisions Stay Connected**
   as the broken connection).
 - In the post-vignette interpretation paragraph, where leadership protects
   short-term narrative at others' expense.
 
 ### **Chapter 5 — Effectiveness and Its Illusions**
 
-Eligible patterns: We Own the Outcome; Bring Bad News; Feedback Gap; We
-Change Course (once introduced here).
+Eligible patterns: Decisions Stay Connected; Bad News Moves Early; Feedback is Distorted; Plans Can Change (once introduced here).
 
 Strong opportunities:
 
 - In "When Success Accelerates Insulation," where critical signals arrive
-  later or not at all (**Bring Bad News**).
+  later or not at all (**Bad News Moves Early**).
 - In "Performative Compliance vs Real Alignment," where visible results
-  mask hidden structural drift (**Feedback Gap**).
-- Where the text names an explicit pivot after new information (**We Change
-  Course**).
+  mask hidden structural drift (**Feedback is Distorted**).
+- Where the text names an explicit pivot after new information (**Plans Can Change**).
 
 ### **Chapter 6 — Legitimacy Over Time**
 
@@ -497,35 +495,33 @@ Strong opportunities:
 
 ### **Chapter 7 — Authority Circulation**
 
-Eligible patterns (newly introduced here): Copy What Works Here; also Bring
-Bad News; No One Pushes Back; Feedback Gap.
+Eligible patterns (newly introduced here): People Copy What Works; also Bad News Moves Early; No One Pushes Back; Feedback is Distorted.
 
 Strong opportunities:
 
 - In sections on imitation, transfer of norms, or how the next generation
-  learns to lead (**Copy What Works Here**).
+  learns to lead (**People Copy What Works**).
 - In "The Return Path," where warnings must travel back to change
-  direction (**Bring Bad News**).
+  direction (**Bad News Moves Early**).
 - In "The Quiet Workaround," where formal alignment masks practical
-  divergence (**Feedback Gap**).
+  divergence (**Feedback is Distorted**).
 
 ### **Chapter 8 — Scale and Drift**
 
-Eligible patterns: Feedback Gap; No One Pushes Back; also **Copy What Works
-Here**, **We Change Course**, and **The One We Default To** only as
+Eligible patterns: Feedback is Distorted; No One Pushes Back; also **People Copy What Works**, **Plans Can Change**, and **People Look to One Person** only as
 secondary reinforcement where the vignette or scale mechanics already show
 replication, adaptability under pressure, or default escalation hubs.
 
 Strong opportunities:
 
 - After the regional vignette, where shared playbooks travel faster than
-  local revision (**Copy What Works Here**).
+  local revision (**People Copy What Works**).
 - Immediately after the adaptability capacity definition, tying the test to
-  named pattern (**We Change Course**).
+  named pattern (**Plans Can Change**).
 - After the four-state list, where formal routing concentrates who counts as
-  the real escalation point (**The One We Default To**).
+  the real escalation point (**People Look to One Person**).
 - In "Selective Followership at Scale," where feedback cannot return with
-  enough force (**Feedback Gap**).
+  enough force (**Feedback is Distorted**).
 - In legitimacy-at-scale discussion where dissent diffuses and entrenchment
   grows (**No One Pushes Back**).
 
@@ -548,9 +544,9 @@ Strong opportunities:
 
 - In "Two Trajectories" and "When the Baseline Has Already Shifted," where
   transfer, insulation, and delayed feedback converge
-  (**Feedback Gap**, **No One Pushes Back**).
+  (**Feedback is Distorted**, **No One Pushes Back**).
 - In epilogue sections on emergency permissions and damage containment
-  (**Exceptions Are Forever**, **We Own the Outcome**).
+  (**Exceptions Are Forever**, **Decisions Stay Connected**).
 
 ### **Bridges (Light Use Only)**
 
@@ -573,11 +569,11 @@ four-state model where the manuscript says not to.
 
 Bad:
 
-"Pattern - We Own the Outcome: This occurs when..."
+"Pattern - Decisions Stay Connected: This occurs when..."
 
 Good:
 
-"Pattern - We Own the Outcome"
+"Pattern - Decisions Stay Connected"
 
 Short. Recognizable. Move on.
 
@@ -617,7 +613,7 @@ The two should complement, not duplicate.
 
 When prompting Cursor, use instructions like:
 
-- "Insert the pattern 'We Own the Outcome' after this paragraph using the
+- "Insert the pattern 'Decisions Stay Connected' after this paragraph using the
   guide"
 
 - "Add a pattern block here following pattern-integration-guide.md

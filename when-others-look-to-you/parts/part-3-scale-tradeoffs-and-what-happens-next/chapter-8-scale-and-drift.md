@@ -27,32 +27,29 @@ Public updates highlight growth and consistency.
 
 The network did not become harmful because it grew. It became riskier
 because reach grew faster than paths people could use to fix what was wrong.
-**Copy What Works Here** widens that gap when shared playbooks and a
+That gap widens under **People Copy What Works** when shared playbooks and a
 consistent public story travel faster than local revision.
 
 ### **Two Capacities at Scale**
 
-Use two capacities to read scale effects:
+Chapter 2 named **scalability** and **adaptability** as the two useful
+measures: whether common effort can grow in reach, and whether it can change
+direction when reality pushes back. Those questions stay the same at
+institutional scale; only the distance and delay change.
 
-- **Scalability:** can common effort grow in reach?
-- **Adaptability:** can common effort change direction when reality
-  pushes back?
+At scale, the adaptability side shows up as whether **Plans Can Change** still
+holds in practice.
 
-At scale, that adaptability question is whether **We Change Course** stays
-available in practice.
-
-Those two capacities line up with Chapter 2’s four states: regenerative,
-adaptive, entrenched, and stalled. The words stay the same. Scale only
-changes how long each state can look solid from a distance.
+The same two capacities still sort groups into the four states Chapter 2
+defined. Scale only changes how long each state can look solid from a distance.
 
 At larger scale, entrenched patterns can look impressive for longer. Reach
-can expand while correction weakens. Official channels can also harden
-**The One We Default To**—the escalation point everyone learns to wait for
-before a problem is treated as real.
+can expand while correction weakens. Official channels can also harden around **People Look to One Person**—the
+escalation point everyone learns to wait for before a problem is treated as real.
 
 ### **Legitimacy Forms Under Scale**
 
-Different legitimacy forms respond differently to scale:
+The legitimacy forms from Chapter 6 meet scale as follows:
 
 - **Example-based legitimacy** is strong at human scale but harder to
   preserve as distance grows.
@@ -77,8 +74,8 @@ day-to-day reality does not.[^c8-hidden-transcripts]
 
 This is one reason circulation matters so much at scale. If concern cannot
 travel back with enough force to shift direction, reach can grow while
-learning shrinks. When that keeps happening, **Feedback Gap** becomes a
-practical operating risk.
+learning shrinks. When that keeps happening, distorted feedback turns into a
+practical operating risk—the situation **Feedback is Distorted** names.
 
 ### **Human Scale as a Contrast**
 

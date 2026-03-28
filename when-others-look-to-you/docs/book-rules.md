@@ -313,7 +313,7 @@ If a concept is complex, define it in plain language first.
 ## **Concept Introduction Pattern**
 
 When introducing a technical concept (e.g., outcome bias, structural
-blindness, authority circulation):
+blindness, circulation):
 
 1.  Begin with a simple human observation.
 

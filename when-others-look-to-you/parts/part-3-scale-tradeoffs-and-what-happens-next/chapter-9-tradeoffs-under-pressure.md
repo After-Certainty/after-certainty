@@ -57,7 +57,7 @@ Frontline teams also report repeated blind spots in neighborhood access,
 but route corrections are delayed because the temporary command protocol
 blocks local overrides.
 
-In crisis, that trade is one version of **Your Example Becomes the Rule**
+In crisis, that trade is one version of **Behavior Becomes the Rule**
 set against correction signals.
 
 Months later, the storm is over, but the centralized approval path
@@ -84,8 +84,8 @@ time, restraint often preserves adaptability and limits harm that shows up
 later.[^c9-escalation]
 
 The question is not whether urgency is real. The question is what gets
-locked in after urgency passes—and whether the group can still authorize
-**We Change Course** once the emergency story stops dominating meetings.
+locked in after urgency passes—and whether **Plans Can Change** is still
+possible once the emergency story stops dominating meetings.
 
 ### **Boundary Conditions**
 

@@ -24,7 +24,11 @@ Terms used below (from Chapter 6):
 - **Office-based legitimacy:** authority backed by what the office is
   allowed to do, inherited from earlier use.
 - **Sacralization pressure:** challenge starts to sound like disloyalty—to
-  the person, the party, or the national story.
+  the person, the party, or the national story. (This pressure is how
+  **sacralized legitimacy** from Chapter 6 often shows up at scale.)
+
+Chapter 6 also names **example-based legitimacy**; it matters less in this
+appendix’s office-centered sequence, but it completes the same map.
 
 ### **Case Sequence: Post-9/11 to Present**
 

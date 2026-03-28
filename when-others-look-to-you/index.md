@@ -20,7 +20,7 @@
 - [Chapter 2 — Renewal and Erosion](parts/part-1-attention-and-early-formation/chapter-2-renewal-and-erosion.md)
 - [Chapter 3 — Why We Misjudge Leaders](parts/part-1-attention-and-early-formation/chapter-3-why-we-misjudge-leaders.md)
 
-## Part II — Legitimacy, Harm, and Circulation
+## Part II — Harm, Effectiveness, Legitimacy, and Circulation
 
 - [Bridge — From Misjudgment to Structural Tests](parts/part-2-legitimacy-harm-and-circulation/bridge.md)
 - [Chapter 4 — Harm Under Influence](parts/part-2-legitimacy-harm-and-circulation/chapter-4-harm-under-influence.md)
@@ -28,12 +28,12 @@
 - [Chapter 6 — Legitimacy Over Time](parts/part-2-legitimacy-harm-and-circulation/chapter-6-legitimacy-over-time.md)
 - [Chapter 7 — Authority Circulation](parts/part-2-legitimacy-harm-and-circulation/chapter-7-authority-circulation.md)
 
-## Part III — Scale, Tradeoffs, and Renewal
+## Part III — Scale, Tradeoffs, and What Happens Next
 
-- [Bridge — From Circulation to Scale Pressure](parts/part-3-scale-tradeoffs-and-renewal/bridge.md)
-- [Chapter 8 — Scale and Drift](parts/part-3-scale-tradeoffs-and-renewal/chapter-8-scale-and-drift.md)
-- [Chapter 9 — Tradeoffs Under Pressure](parts/part-3-scale-tradeoffs-and-renewal/chapter-9-tradeoffs-under-pressure.md)
-- [Chapter 10 — What Happens Next](parts/part-3-scale-tradeoffs-and-renewal/chapter-10-what-happens-next.md)
+- [Bridge — From Circulation to Scale Pressure](parts/part-3-scale-tradeoffs-and-what-happens-next/bridge.md)
+- [Chapter 8 — Scale and Drift](parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-8-scale-and-drift.md)
+- [Chapter 9 — Tradeoffs Under Pressure](parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-9-tradeoffs-under-pressure.md)
+- [Chapter 10 — What Happens Next](parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-10-what-happens-next.md)
 
 ## Back Matter
 

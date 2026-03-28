@@ -42,14 +42,15 @@ literal and navigational.
 Sub-headings are used when the argument makes a meaningful shift.
 They are meant to orient you, not to dramatize the prose.
 
-Each chapter closes with a short pull-quote that distills the chapter's
-core structural takeaway.
+Each chapter closes with a short pull-quote that distills the chapter’s
+core takeaway.
 
 Example:
 
-- Part II — Legitimacy, Harm, and Circulation
+- Part II — Harm, Effectiveness, Legitimacy, and Circulation
 - Bridge — From Misjudgment to Structural Tests
 - Chapter 6 — Legitimacy Over Time
+- Part III — Scale, Tradeoffs, and What Happens Next
 
 ### **Pull-Quotes**
 
@@ -57,7 +58,7 @@ Pull-quotes are brief and plain-language by design.
 They summarize structure, not personality.
 
 They are not slogans, and they should be read as compression of the
-chapter's argument rather than as standalone aphorisms.
+chapter’s argument rather than as standalone aphorisms.
 
 They appear as short emphasized display blocks so they remain visually
 distinct from body paragraphs and from vignette scenes. Their formatting
@@ -93,7 +94,7 @@ These are brief scenes, visually separated from the surrounding analysis.
 
 When a vignette appears, it is there to clarify a structural point through
 a human-scale moment. After the vignette, the prose returns directly to
-analysis and ties the scene back to the chapter's central claim.
+analysis and ties the scene back to the chapter’s central claim.
 
 Example:
 
@@ -105,7 +106,7 @@ Example:
 This scene shows how silence and response set an implicit boundary for
 what gets corrected.
 
-# **Author's Note**
+# **Author’s Note**
 
 ### **Why This Book**
 
@@ -115,7 +116,7 @@ does not. It begins with attention.
 The moment other people look to someone when deciding what to do next,
 leadership is already present. It may be formal or informal. It may be
 visible or quiet. It may happen in a family, a team, a congregation, or
-an institution. But the structure is the same: attention comes into focus, and
+an institution. But the pattern is the same: attention comes into focus, and
 consequence follows.
 
 I wrote this book because that moment is common and under-described. We
@@ -125,8 +126,7 @@ an attempt to make that pattern easier to see.
 
 ### **What This Book Tries to Do**
 
-It is a structural account of what changes when others look to someone
-for direction:
+It is an account of what changes when others look to someone for direction:
 
 - How influence spreads through example, silence, and repetition.
 - How harm is absorbed, displaced, or normalized.
@@ -148,9 +148,9 @@ formal role, it still applies. People can be looked to before they are
 named as leaders.
 
 Read slowly when needed. The aim is not speed; the aim is clarity. The
-movement of the book is cumulative, and each chapter adds one structural
-layer while returning to the same throughline: Attention → Influence →
-Structure → Renewal or Erosion.
+movement of the book is cumulative, and each chapter adds one layer while
+returning to the same throughline: Attention → Influence → Structure →
+Renewal or Erosion.
 
 That chain is the thread you will see running through the chapters.
 
@@ -173,16 +173,14 @@ influence is still forming.
 The book uses one durable definition as its anchor, introduced directly in
 the Introduction.
 
-From that anchor, each chapter studies a different pressure on
-leadership:
+From that anchor, the chapters move in three passes:
 
-- Attention and consequence
-- Renewal and erosion
-- Legitimacy over time
-- Harm under influence
-- Circulation and insulation
-- Scale and drift
-- Tradeoffs under pressure
+- **Part I:** how attention becomes influence; renewal and erosion; why
+  observers so often misjudge leaders from outcomes and confidence alone.
+- **Part II:** harm, effectiveness, legitimacy, and circulation—each a
+  separate lens on what influence is producing.
+- **Part III:** scale and drift; tradeoffs under pressure; and what can
+  still change once the lenses are combined.
 
 The language stays simple on purpose. The ideas are serious, but they do
 not require ornate phrasing to be useful.
@@ -246,14 +244,14 @@ correction.
 ### **How This Book Proceeds**
 
 The chapters follow one structural throughline: Attention → Influence →
-Structure → Renewal or Erosion. Each chapter examines one segment of that
-chain under pressure: harm, effectiveness, legitimacy, circulation, scale,
-and tradeoff.
+Structure → Renewal or Erosion. After Part I establishes that chain, later
+chapters take up harm, effectiveness, legitimacy, circulation, scale,
+tradeoffs under pressure, and finally how those lenses fit together.
 
 Appendix B names recurring **leadership patterns** in four groups—**Forming**,
-**Renewing**, **Eroding**, and **Circulating**. As a map of how they relate:
+**Adjusting**, **Eroding**, and **Circulating**. As a map of how they relate:
 Forming sets the live conditions; from there a structure can move toward
-Renewing or Eroding; both paths shape what later gets circulated and
+Adjusting or Eroding; both paths shape what later gets circulated and
 imitated; Circulating in turn feeds the next round of formation.
 
 ![Diagram: leadership pattern groups](export-assets/diagrams/pattern-groups.png)
@@ -347,10 +345,10 @@ In small settings, these lessons are immediate. In large settings, they
 accumulate quietly. Either way, the signal travels. People rarely wait
 for formal instruction. They read patterns.
 
-**Pattern - Your Example Becomes the Rule**
+**Pattern - Behavior Becomes the Rule**
 
-What you do under pressure defines acceptable behavior faster than
-policy and teaches people what is safe to surface.
+Visible behavior under pressure defines what others treat as acceptable
+faster than policy and teaches people what is safe to surface.
 
 
 ### **Belief and Repetition**
@@ -365,7 +363,7 @@ time, attention and belief reinforce each other. The more people look,
 the more influence consolidates. The more influence consolidates, the
 more people look. Authority emerges from repetition.[^c1-legitimacy-and-repetition]
 
-**Pattern - The One We Default To**
+**Pattern - People Look to One Person**
 
 Repeated deference hardens into habit, and one person becomes the
 automatic decision point even without new formal authority.
@@ -382,7 +380,8 @@ Being looked to does not mean being obeyed.
 People often follow selectively. They accept direction in one domain and
 withhold it in another. They nod in the meeting and adjust what they do
 once the room empties.
-They respect a leader's intent while quietly resisting a specific
+
+They respect a leader’s intent while quietly resisting a specific
 instruction that feels unsafe, ungrounded, or illegitimate.[^c1-selective-followership]
 
 Sometimes the response is stronger. Under pressure, people may move into
@@ -447,20 +446,17 @@ insulation, where correction weakens and reach starts to break down.[^c2-organiz
 
 These two directions are renewal and erosion.
 
-These directions describe how a group behaves, not whether a leader is
+They describe how a group behaves, not whether a leader or follower is
 good or bad. A leader can have good intentions and still produce
-erosion. A leader can carry personal
-flaws and still sustain renewal. The distinction is not about purity.
-It is about what the group does when pressure rises.
-
-Renewal and erosion describe how the group is behaving, not moral rankings of
-leaders or followers.
+erosion. A leader can carry personal flaws and still sustain renewal.
+The distinction is not about purity. It is about what the group does
+when pressure rises.
 
 A practical way to read renewal and erosion is to track two capacities:
 scalability and adaptability.
 
-- **Scalability:** can coordinated action grow in reach?
-- **Adaptability:** can coordinated action change direction when reality
+- **Scalability:** can common effort grow in reach?
+- **Adaptability:** can common effort change direction when reality
   pushes back?
 
 Erosion appears when either capacity shrinks.
@@ -483,8 +479,8 @@ grows.[^c2-high-reliability]
 People closest to consequences can still speak. Disagreement is possible
 without social exile. Early warnings are not treated as betrayal.
 Mistakes are surfaced before they become identity threats. In that
-climate, **Your Example Becomes the Rule** that difficult news stays
-speakable—not that it stays hidden.
+climate, **Behavior Becomes the Rule**: difficult news stays
+speakable—not hidden.
 
 High-renewal groups do not avoid failure. They shorten the time between
 warning and response. They correct earlier, at lower cost, with less
@@ -513,7 +509,8 @@ contradiction.
 Erosion rarely announces itself. It is assembled through ordinary choices:
 who gets interrupted, who gets promoted, which measures count, which
 stories are repeated, which failures are forgiven, and which are hidden.
-Over time, repeated deference can harden into **The One We Default To**.
+Over time, repeated deference can harden until **People Look to One Person** is
+simply how the group operates.
 
 Some eroding groups still scale for long periods. What drops first is
 usually room to change plans once they are in motion.
@@ -679,19 +676,20 @@ Structural blindness is common because many of the relevant signals are
 socially expensive to surface.[^c3-psychological-safety] People close to
 problems often carry the highest local risk for naming them.
 
-**Pattern - Bring Bad News**
+**Pattern - Bad News Moves Early**
 
 When dissent and risk signals can move upward in time, correction stays
 possible; when they cannot, failure grows in the dark.
 
 
-When that pathway closes, **Bring Bad News** fails in practice.
+When that pathway closes, **Bad News Moves Early** collapses in practice—bad news
+stops moving early enough to matter.
 
 ### **The Intention Trap**
 
 A third distortion sits beneath the first two: the intention trap.
 
-Observers hear a leader's stated purpose and treat sincerity as
+Observers hear a leader’s stated purpose and treat sincerity as
 sufficient evidence of legitimacy. Leaders themselves do this too. They
 assume that because they meant well, the structure must be healthy.
 
@@ -757,13 +755,13 @@ The vignette shows why outcome bias and structural blindness reinforce
 each other: visible success can hide degrading conditions until repair
 becomes expensive.
 
-**Pattern - Feedback Gap**
+**Pattern - Feedback is Distorted**
 
 When decision-makers are buffered from what people on the ground experience,
 negative feedback weakens and drift continues behind strong narratives.
 
 
-In that condition, **Feedback Gap** is the structure—not a one-off blind
+In that condition, you are looking at **Feedback is Distorted**, not a one-off blind
 spot.
 
 ### **What to Watch Instead**
@@ -807,7 +805,8 @@ questioned, and adjustments can occur before harm scales.
 That standard is less dramatic than hero stories. It is also more
 reliable.
 
-Part II applies this lens to legitimacy, harm, and authority circulation.
+Part II applies this lens to harm, effectiveness, legitimacy, and
+circulation.
 
 > We often misjudge leaders when we treat outcomes as proof and structure as background.
 
@@ -838,7 +837,7 @@ Because legitimacy can be example-based, procedural, office-based, or
 sacralized, and each form carries different renewal risks.
 
 Part II also tracks transfer: legitimacy does not change only during one
-leader's tenure; it can travel across leadership handoffs.
+leader’s tenure; it can travel across leadership handoffs.
 
 The fourth focus is circulation. Can influence flow back toward power, or
 does it stop at the edge of authority? Renewal requires usable return
@@ -931,7 +930,7 @@ habit.
 > scheduled. A facilities volunteer notices a handrail on the stairs is
 > still loose. She raises it at the prep meeting. The site lead replies,
 > "Note it and open anyway—we can't miss that date."
-> That first response is where **Your Example Becomes the Rule** for what follows.
+> That first response is where **Behavior Becomes the Rule** for what follows.
 >
 > The building opens on time. Photos for the town newsletter look great. Two
 > weeks later, front-desk volunteers field angry calls after someone stumbles.
@@ -944,14 +943,14 @@ risk moves outward to people affected by the decision and downward to
 those closest to the consequences while leadership protects a short-term
 story of success.
 
-**Pattern - We Own the Outcome**
+**Pattern - Decisions Stay Connected**
 
 When decision-makers stay connected to consequences, accountability stays
 visible; when that connection breaks, costs move outward and harm is easier
 to normalize.
 
 
-When the pattern **We Own the Outcome** breaks down repeatedly, leadership
+When **Decisions Stay Connected** breaks down repeatedly, leadership
 can shift from harm-absorbing toward harm-tolerant or harm-instrumental
 leadership, even when leaders describe the decision as necessary.
 
@@ -994,11 +993,11 @@ When evaluating leadership under influence, ask:
 - Who can surface harm without retaliation?
 - What changed after harm was named?
 
-If these questions cannot be answered clearly, **We Own the Outcome** is
-probably absent, harm displacement is normalizing, and the group is
+If these questions cannot be answered clearly, **Decisions Stay Connected**
+has probably broken down, harm displacement is normalizing, and the group is
 drifting toward tolerance or blindness.
 
-### **Connection to Part II**
+### **Connection to Chapter 5**
 
 Harm is the first check because it reveals reality quickly.
 
@@ -1038,17 +1037,17 @@ trust and capacity.
 
 ### **When Success Accelerates Insulation**
 
-Success often increases a leader's authority. That can help coordination.
+Success often increases a leader’s authority. That can help coordination.
 It can also reduce correction.
 
 After visible wins, dissent can look unnecessary. Critical voices are
 reframed as blockers. Signals that conflict with the success narrative
 arrive later, softer, or not at all.[^c5-escalation]
-Success pressure turns **Your Example Becomes the Rule** against dissent:
-the live lesson is what not to raise, and the pattern **Bring Bad News**
-weakens.
+Success pressure turns **Behavior Becomes the Rule** against dissent:
+the live lesson is what not to raise, and **Bad News Moves Early** erodes along
+with it.
 
-This is one of leadership's recurring traps: success narrows the very
+This is one of leadership’s recurring traps: success narrows the very
 channels needed to prevent future failure.
 
 In crisis contexts, effectiveness claims gain extra persuasive force.
@@ -1066,7 +1065,7 @@ reliable than groups that avoid visible failure at all costs.[^c5-learning]
 The issue is not whether failure occurs. The issue is whether learning
 follows.
 
-**Pattern - We Change Course**
+**Pattern - Plans Can Change**
 
 When new information or visible risk arrives, direction can still revise;
 when it cannot, commitment hardens ahead of reality.
@@ -1090,8 +1089,8 @@ What gets measured can hide whether people are actually with you.
 People can produce good-looking counts while privately withdrawing trust.
 They can repeat approved language while silently routing around decisions
 they do not believe in. In these conditions, the group appears coordinated, but
-its ability to act together is already splitting underneath—and
-**Feedback Gap** can hide behind paperwork that looks tidy.
+its ability to act together is already splitting underneath—and distorted
+feedback can hide behind paperwork that looks tidy (**Feedback is Distorted**).
 
 This is why selective followership matters when judging effectiveness.
 Open disagreement can strengthen results. Quiet divergence usually
@@ -1111,7 +1110,7 @@ Without these checks, results can mislead.
 ### **Connection to Chapter 6**
 
 Effectiveness asks what worked. Legitimacy asks why people continue to
-follow.
+look—and what makes that sustainable.
 
 Chapter 6 examines how legitimacy forms, hardens, and renews over time.
 
@@ -1131,9 +1130,11 @@ persist for one reason.
 People continue to look when they believe authority is justified enough
 to follow; that belief is legitimacy.[^c6-weber]
 
-Legitimacy is not static. It can renew, transfer, harden, or detach from
-current reality. Different forms of legitimacy create different links
-between authority and accountability across time and leadership handoffs.
+Legitimacy is not static. It can renew, transfer, harden, or slip out of
+step with what is actually happening. Each form ties authority to
+accountability a little differently. That plays out over time and when
+leadership changes hands.
+
 Those forms also shape two renewal questions you already met in Chapter 2:
 whether influence can still change direction under pressure, and whether
 common effort can grow without getting stuck.
@@ -1146,8 +1147,8 @@ should lead.
 Actions match language. Harm is addressed in view. Correction changes
 future behavior. Influence remains earned in real time.
 
-This form is the most renewal-friendly because it must be repeatedly
-earned again in real behavior.
+This form is the easiest to renew because it must be earned again and
+again in real behavior.
 
 ### **Procedural Legitimacy**
 
@@ -1166,13 +1167,14 @@ People look because the title itself carries permission—not only the person
 holding it today. They often follow the office too, whatever they think of
 who sits in it right now.
 
-Office-based legitimacy protects continuity at scale. It also allows
-authority to be inherited even when current behavior is weaker than the
+Office-based legitimacy protects continuity at scale. It also lets
+authority pass forward even when today's behavior is weaker than the
 founding example.
-At scale, this can solidify who becomes **The One We Default To**.
+At scale, this can reinforce **People Look to One Person**, locking in whoever
+becomes the default route for decisions.
 
-This is where handoff risk rises: authority travels forward by default,
-while accountability often stays tied to earlier decisions.
+Handoff risk rises here: authority moves forward by default, while
+accountability often stays tied to earlier decisions.
 
 ### **Sacralized Legitimacy**
 
@@ -1209,9 +1211,9 @@ This movement is not inevitable, but it is common. Groups that stay
 adaptable find ways to move back toward example-based renewal before that
 last step hardens.
 
-Crises matter especially when leadership changes hands: they can expand
-office-based authority quickly, while emergency permissions are often
-harder to pull back later.
+Crises matter most when leadership changes hands. They can widen
+office-based authority fast. Emergency permissions are often harder to
+pull back later.
 
 ### **Selective Followership as a Probe**
 
@@ -1223,18 +1225,19 @@ legitimacy is likely renewing.
 If people comply publicly but diverge privately, legitimacy is likely
 hardening toward office-based or sacralized forms. In that state, calm
 surfaces can hide deeper trust loss.
+
 If uncorrected, the group can drift into **No One Pushes Back**.
 
 ### **Legitimacy and Accountability**
 
-A leader can retain attention after legitimacy weakens. Titles persist.
+A leader can keep attention after legitimacy weakens. Titles persist.
 Stories about who we are persist. Habits persist.
 
-The practical question is whether authority remains accountable to those
-affected by its decisions.
+The practical question is whether authority still answers to the people
+its decisions affect.
 
-If legitimacy cannot be renewed through visible correction, influence may
-continue but erosion deepens.
+If legitimacy cannot renew through visible correction, influence may
+continue, but erosion deepens.
 
 ### **Connection to Chapter 7**
 
@@ -1258,10 +1261,10 @@ whether influence can move back in.
 
 Authority circulation means warnings, dissent, and on-the-ground
 information can reach decision-makers and change direction without
-punishment.[^c7-voice] While that remains true, **Bring Bad News** holds.
+punishment.[^c7-voice] While that remains true, **Bad News Moves Early** still holds.
 
-Circulation is one of the clearest practical markers of whether a group is
-regenerative, adaptive, entrenched, or stalled.
+Circulation is a practical check: it shows where the group sits on Chapter 2’s
+map of renewal and erosion.
 
 Without circulation, authority still exists, but learning slows and groups
 drift toward entrenched or stalled patterns.
@@ -1271,7 +1274,7 @@ drift toward entrenched or stalled patterns.
 Circulation is easiest to read through three patterns:
 
 - **One-way authority:** influence moves outward only; input is collected,
-  but decisions are effectively set at the center.
+  but the center still decides.
 - **Voice-only circulation:** concerns can travel upward and sometimes
   adjust plans, but leadership still stays fixed at the top.
 - **Shared circulation (guest leadership):** influence moves both ways.
@@ -1285,7 +1288,7 @@ Guest leadership also shapes what others attempt next. When temporary
 step-in leadership is trusted, more people use it openly. When it is
 punished, people retreat to silence or workaround behavior.
 
-**Pattern - Copy What Works Here**
+**Pattern - People Copy What Works**
 
 What gets rewarded or punished locally becomes a template; people imitate
 it when they step into leadership next.
@@ -1328,14 +1331,12 @@ often signals a shift toward silent exit.[^c7-exit]
 
 This is a circulation failure, not simply local resistance.
 
-Upward voice was attempted and produced no adjustment, so correction moved
-off-record. The group now has apparent alignment in formal reporting and
-practical divergence in day-to-day operations.
+People raised the issue; nothing changed. So fixes moved off the books.
 
-That split is one of the clearest indicators that authority has become
-more one-directional and less revisable.
-It is also where **Feedback Gap** begins to govern daily
-operations.
+On paper, the group aligns. In daily work, practice drifts.
+
+That gap usually means authority runs one way and is harder to change.
+Distorted feedback is often already governing daily operations there—**Feedback is Distorted**.
 
 ### **Four Circulation Questions**
 
@@ -1353,22 +1354,20 @@ If the answer to most is no, authority is becoming one-way.
 
 Circulation keeps authority in contact with consequence.
 
-It allows a growing organization to spot drift early, adjust before harm spreads,
-and preserve legitimacy under pressure. It does not remove conflict. It
-keeps conflict available for revision.
+It lets a growing organization spot drift early. It buys time to adjust
+before harm spreads. It helps legitimacy hold under pressure. It does not
+remove conflict. It keeps conflict open to revision.
 
-Circulation also helps groups scale by letting people closest to changing
-conditions step in, adjust locally, and feed learning back to the center.
+Circulation also helps groups grow. People nearest the shifting facts can
+step in, fix things locally, and send what they learned back to the center.
 
 When circulation weakens, erosion usually appears before leaders can name it.
 
-Part III now tests what happens to these conditions under scale
-pressure, where distance and abstraction make circulation harder to
-sustain.
+Part III now tests what happens under scale. Distance and abstraction make
+circulation harder to sustain.
 
-It will also examine a crisis-specific risk: temporary circulation
-contraction can become a lasting habit if recovery is not deliberately
-rebuilt.
+It also looks at a crisis risk. A short-lived tight grip on circulation can
+harden into habit if no one deliberately opens feedback again.
 
 > Circulation is not a promise. It helps groups adjust as they grow, but only when feedback can still change decisions.
 
@@ -1378,44 +1377,44 @@ rebuilt.
 
 # **Bridge — From Circulation to Scale Pressure**
 
-Part II separated harm, effectiveness, legitimacy, and circulation so each
-lens could be seen clearly.
+Part II separated harm, effectiveness, legitimacy, and circulation. Each
+lens could be seen on its own.
 
 Part III puts them back together under harder conditions: larger reach,
-greater distance from consequence, and faster pressure cycles.
+more distance from consequence, and faster pressure cycles.
 
 At small scale, correction is often visible and personal. At larger scale,
-signals travel farther, slower, and with more distortion. That does
-not make renewal impossible. It makes renewal work harder.
+signals travel farther and slower. They also distort more. That does not
+make renewal impossible. It makes renewal harder work.
 
-Scale also amplifies **Copy What Works Here**: what gets rewarded or
-punished travels faster than written rules, so the next cohort often
-learns from example before it learns from policy.
+Scale also widens the reach of **People Copy What Works**. What gets rewarded or punished
+travels faster than written rules. The next cohort often learns from
+example before it learns from policy.
 
-Keep Chapter 2’s capacities, four states, and renewal/erosion framing in
-view; Part III asks how scale and pressure alter the risk, not the labels.
+Chapter 2’s model—capacities, four states, renewal and erosion—still
+applies. Part III asks how scale and pressure change the risks, not the
+labels.
 
-At scale, selective followership also changes form. Open dissent can turn
-into quiet divergence, local workarounds, and formal compliance without
-real alignment.
+At scale, selective followership also changes shape. Open dissent can turn
+into quiet divergence, local workarounds, and paperwork that aligns while
+day-to-day reality does not.
 
-The next chapters track this shift in sequence: first scale and drift,
-then tradeoffs under pressure, then integrated judgment about what remains
-possible when repair is partial and time is short.
+The next chapters follow that shift: first scale and drift, then tradeoffs
+under pressure, then what judgment can still do when repair is only partial
+and time is short.
 
 # **Chapter 8 — Scale and Drift**
 
 ### **What Scale Changes**
 
-Human scale and institutional scale differ structurally.
+Human scale and institutional scale are not the same structurally.
 
 At human scale, harm is easier to see, correction is faster, and
-accountability is harder to evade. At institutional scale, harm can
-abstract, signals can attenuate, and revision can slow under layers of
-distance.[^c8-scale-distance]
+accountability is harder to evade. At institutional scale, harm can turn
+abstract. Signals weaken. Revision slows across layers of distance.[^c8-scale-distance]
 
-Scale does not cause erosion by itself. It amplifies what the structure is
-already capable of producing.
+Scale does not cause erosion by itself. It widens what the structure was
+already likely to produce.
 
 ### **The Regional Network**
 
@@ -1425,49 +1424,47 @@ already capable of producing.
 > for younger volunteers.
 >
 > In the local setting, concerns used to be discussed in person and changed
-> quickly. In the regional structure, feedback now moves through formal
+> quickly. In the regional setup, feedback now moves through paperwork and fixed
 > reporting cycles. The program still expands, but local adaptation slows.
 > Public updates highlight growth and consistency.
 
 
 The network did not become harmful because it grew. It became riskier
-because reach expanded faster than usable correction pathways.
-**Copy What Works Here** widens that gap when shared playbooks and a
+because reach grew faster than paths people could use to fix what was wrong.
+That gap widens under **People Copy What Works** when shared playbooks and a
 consistent public story travel faster than local revision.
 
 ### **Two Capacities at Scale**
 
-Use two capacities to read scale effects:
+Chapter 2 named **scalability** and **adaptability** as the two useful
+measures: whether common effort can grow in reach, and whether it can change
+direction when reality pushes back. Those questions stay the same at
+institutional scale; only the distance and delay change.
 
-- **Scalability:** can coordinated action grow in reach?
-- **Adaptability:** can coordinated action change direction when reality
-  pushes back?
+At scale, the adaptability side shows up as whether **Plans Can Change** still
+holds in practice.
 
-At scale, that adaptability question is whether **We Change Course**
-remains structurally available.
-
-Those capacities combine into the four states Chapter 2 already
-defined—regenerative, adaptive, entrenched, and stalled. The vocabulary is
-the same; scale changes how much room each state has to look stable from
-the outside.
+The same two capacities still sort groups into the four states Chapter 2
+defined. Scale only changes how long each state can look solid from a distance.
 
 At larger scale, entrenched patterns can look impressive for longer. Reach
-can expand while correction weakens. Formal routing can also harden
-**The One We Default To**—the escalation point everyone learns to wait for
-before a problem is treated as real.
+can expand while correction weakens. Official channels can also harden around **People Look to One Person**—the
+escalation point everyone learns to wait for before a problem is treated as real.
 
 ### **Legitimacy Forms Under Scale**
 
-Different legitimacy forms respond differently to scale:
+The legitimacy forms from Chapter 6 meet scale as follows:
 
 - **Example-based legitimacy** is strong at human scale but harder to
   preserve as distance grows.
 - **Procedural legitimacy** becomes necessary at institutional scale, but
-  can become symbolic if challenge is formal rather than real.
-- **Office-based legitimacy** stabilizes continuity, but can transfer
-  permission faster than accountability transfers.
+  can become mostly for show if people can challenge only on paper, not in
+  practice.
+- **Office-based legitimacy** keeps continuity steady, but can pass
+  permission forward faster than accountability moves with it.
 - **Sacralized legitimacy** becomes easier to entrench as layers build,
-  distance grows, and dissent diffuses, which can slide toward **No One Pushes Back**.[^c8-legitimacy]
+  distance grows, and dissent thins out. That can slide toward **No One
+  Pushes Back**.[^c8-legitimacy]
 
 Scale does not eliminate judgment. It changes where judgment gets lost.
 
@@ -1475,25 +1472,24 @@ Scale does not eliminate judgment. It changes where judgment gets lost.
 
 At small scale, selective refusal is often visible and discussable.
 
-At larger scale, selective followership can go quiet: local
-reinterpretations, hidden workarounds, and formal alignment without shared
-reality.[^c8-hidden-transcripts]
+At larger scale, selective followership can go quiet: people reading rules
+their own way locally, hidden workarounds, and paperwork that aligns while
+day-to-day reality does not.[^c8-hidden-transcripts]
 
 This is one reason circulation matters so much at scale. If concern cannot
-travel back with enough force to change direction, reach can grow while
-learning shrinks. When this repeats, **Feedback Gap** becomes a practical
-operating risk.
+travel back with enough force to shift direction, reach can grow while
+learning shrinks. When that keeps happening, distorted feedback turns into a
+practical operating risk—the situation **Feedback is Distorted** names.
 
 ### **Human Scale as a Contrast**
 
 Human scale is not automatically better. It is clearer.
 
 Consequences are harder to hide. Boundaries are easier to name. Repair can
-be negotiated in direct contact rather than delayed through layers.
+happen face to face instead of waiting on layers.
 
-At larger scale, those same functions require explicit design: clear ways
-for feedback to travel, role clarity, bounded authority, and protected
-time for revision.
+At larger scale, those same functions need deliberate design: clear paths
+for feedback, clear roles, bounded authority, and protected time to revise.
 
 ### **Connection to Chapter 9**
 
@@ -1565,7 +1561,8 @@ amplifies what the structure already permits.
 > Frontline teams also report repeated blind spots in neighborhood access,
 > but route corrections are delayed because the temporary command protocol
 > blocks local overrides.
-> In crisis, that trade is one version of **Your Example Becomes the Rule**
+>
+> In crisis, that trade is one version of **Behavior Becomes the Rule**
 > set against correction signals.
 >
 > Months later, the storm is over, but the centralized approval path
@@ -1591,8 +1588,8 @@ time, restraint often preserves adaptability and limits harm that shows up
 later.[^c9-escalation]
 
 The question is not whether urgency is real. The question is what gets
-locked in after urgency passes—and whether the group can still authorize
-**We Change Course** once the emergency story stops dominating meetings.
+locked in after urgency passes—and whether **Plans Can Change** is still
+possible once the emergency story stops dominating meetings.
 
 ### **Boundary Conditions**
 
@@ -1634,7 +1631,7 @@ builds over time.
 
 ### **The Integrated View**
 
-Part II separated the lenses for clarity. Integration asks how they move
+Each Part II chapter isolated a lens. Integration asks how they move
 together:
 
 - **Harm:** where cost lands.
@@ -1654,8 +1651,8 @@ A short set of cross-domain examples helps keep this concrete:
 - A congregation appears unified because disagreement moves off-record.
 
 Each case can look stable on the surface while the underlying structure
-drifts toward entrenched or stalled conditions—where **Feedback Gap** can
-still look like calm coordination from the outside.
+drifts toward entrenched or stalled conditions, with distorted feedback still
+looking like calm coordination from the outside (**Feedback is Distorted**).
 
 ### **Two Trajectories**
 
@@ -1670,7 +1667,7 @@ Taken together, repeated choices tend to push structure one of two ways:
 These are not personality types. They are where decisions accumulate over
 time—not a single switch you flip once, but a direction you reinforce or
 interrupt. Movement between them is possible. The issue is whether
-**We Change Course** remains possible in practice when reality pushes back.
+**Plans Can Change** is still possible in practice when reality pushes back.
 
 ### **When the Baseline Has Already Shifted**
 
@@ -1750,19 +1747,19 @@ durable renewal habits are built:
 - Naming harm without rhetorical cover.
 - Refusing false urgency when correction is still possible.
 - Separating visible success from whether correction still works.
-- Keeping authority revisable in public.
+- Keeping authority open to change in public.
 
 None of this guarantees a happy ending.
 
 It does something quieter and more realistic: it reduces how much harm can
 be normalized, inherited, and repeated.
-Without that work, **We Own the Outcome** may never take hold—costs keep
-landing far from the decision—and harm becomes a durable norm rather than an
+Without that work, **Decisions Stay Connected** may never become
+the norm—costs keep landing far from the decision—and harm becomes a durable norm rather than an
 intermittent failure.
 
 If the lens from this book changes what you tolerate, what you reward, and
-what you refuse to excuse, then **Copy What Works Here** is already
-shifting for anyone who takes cues from how you lead.
+what you refuse to excuse, then what **People Copy What Works** describes is
+already shifting for anyone who takes cues from how you lead.
 
 Not all change arrives as reversal.
 
@@ -1779,118 +1776,123 @@ That is still leadership.
 
 This appendix applies the book's lenses to a publicly visible case
 sequence. It is not a ranking of leaders and not a partisan scorecard.
-The goal is structural clarity: how legitimacy transfers, hardens, and
-sometimes resists contraction across leadership handoffs.
+The goal is clarity about how legitimacy transfers, hardens, and sometimes
+fails to shrink again when leadership changes hands.
 
 ### **Baseline: Procedural Legitimacy**
 
-The U.S. presidency is designed as a procedural office. Authority is
-time-bound, regularly renewed, and legally constrained through separation
-of powers.
+The U.S. presidency is designed as a procedural office. Terms end and
+restart. Law and separate branches are supposed to limit what any one
+president can do.
 
-That design does not prevent transfer dynamics. It makes them easier to
-see.
+That design does not stop transfer from happening. It makes transfer easier
+to see.
 
-At scale, powers exercised under one administration can become expected
-baseline for the next. Permission travels forward faster than constraint
-unless constraints are actively renewed.
+At scale, powers used under one administration can become the expected
+baseline for the next. Permission moves forward faster than limits do,
+unless people actively renew those limits.
 
-Taxonomy key used below (from Chapter 6):
+Terms used below (from Chapter 6):
 
-- **Procedural legitimacy:** authority justified by formal process and role.
-- **Office-based legitimacy:** authority justified by inherited office permission.
-- **Sacralization pressure:** challenge becomes morally or identity-coded as disloyalty.
+- **Procedural legitimacy:** authority backed by formal process and role.
+- **Office-based legitimacy:** authority backed by what the office is
+  allowed to do, inherited from earlier use.
+- **Sacralization pressure:** challenge starts to sound like disloyalty—to
+  the person, the party, or the national story. (This pressure is how
+  **sacralized legitimacy** from Chapter 6 often shows up at scale.)
+
+Chapter 6 also names **example-based legitimacy**; it matters less in this
+appendix’s office-centered sequence, but it completes the same map.
 
 ### **Case Sequence: Post-9/11 to Present**
 
 #### **George W. Bush: Emergency Expansion**
 
-After September 11, emergency logic widened executive discretion and
-normalized exceptional measures in the name of speed and security.
+After September 11, emergency logic widened executive discretion and made
+exceptional measures routine in the name of speed and security.
 
 Some measures were framed as temporary. Several became durable precedents.
-This is a classic transfer moment: authority exercised under crisis remains
-available after the crisis frame softens.
+This is a classic transfer moment: authority used in crisis stays on the
+table after the crisis story fades.
 
-Transfer taxonomy in this phase:
+This phase in brief:
 
-- **Primary form:** procedural legitimacy.
-- **Transfer dynamic:** procedural emergency permissions convert into a
-  higher office-based baseline.
-- **Direction of movement:** procedural -> office-based expansion.
+- **Main form:** procedural legitimacy.
+- **What shifted:** emergency permissions granted by process widened what
+  people treated the office as allowed to do next.
+- **Direction:** procedural toward office-based expansion.
 
 #### **Barack Obama: Restraint Without Full Retraction**
 
-The next phase emphasized procedural restoration and deliberative tone.
-Some expanded powers were constrained in use. Many remained structurally
-available.
+The next phase emphasized procedural restoration and a slower, more careful
+tone. Some expanded powers were used more lightly. Many were still
+available on paper.
 
-The lesson is not hypocrisy or bad faith. The lesson is structural:
-restraint in use does not automatically unwind inherited permissions.
+The lesson is not hypocrisy or bad faith. The lesson is about design.
+Holding back in use does not by itself roll back what the office already
+inherited.
 
-Transfer taxonomy in this phase:
+This phase in brief:
 
-- **Primary form:** procedural legitimacy (restorative emphasis).
-- **Transfer dynamic:** partial use-constraint without full structural
-  contraction of inherited office-based permissions.
-- **Direction of movement:** office-based carryover with limited
-  procedural re-bounding.
+- **Main form:** procedural legitimacy (restore-the-rules emphasis).
+- **What shifted:** tighter use of inherited powers without a full rollback
+  of what the office had gained.
+- **Direction:** office-based carryover with little procedural pull-back.
 
 #### **Donald Trump: Personalization on an Inherited Base**
 
-The following phase intensified personalization pressures. Contestation was
-more often framed as disloyalty, and procedural criticism was more often
-treated as status conflict.
+The following phase intensified personalization. Disagreement was more
+often framed as disloyalty. Criticism of process was more often treated as
+a status fight.
 
-No entirely new constitutional design was required for this shift.
-Accumulated office-based permissions made personalization easier to press
-at speed.
+No entirely new constitutional design was required. The office already held
+wide permissions. That made it easier to personalize power at speed.
 
-Transfer taxonomy in this phase:
+This phase in brief:
 
-- **Primary form:** office-based legitimacy.
-- **Transfer dynamic:** inherited office-based permissions are used for
-  personalization, increasing sacralization pressure around challenge.
-- **Direction of movement:** office-based -> sacralization pressure.
+- **Main form:** office-based legitimacy.
+- **What shifted:** inherited office permissions were used to personalize
+  power. Challenge started to sound like betrayal.
+- **Direction:** office-based toward sacralization pressure.
 
 #### **Joe Biden: Procedural Restoration Under Inertia**
 
 The next phase renewed procedural language and institutional norms.
-Professional process and formal restraint received stronger emphasis.
+Professional process and formal restraint were stressed again.
 
-Structural inertia remained. Many inherited authorities persisted in the
-office even where rhetoric shifted toward normalization.
+Inertia remained. Many inherited authorities stayed with the office even
+as talk shifted toward "back to normal."
 
-Transfer taxonomy in this phase:
+This phase in brief:
 
-- **Primary form:** procedural legitimacy (renewed in language and process).
-- **Transfer dynamic:** procedural restoration occurs inside an office-based
-  permission set that contracts slowly.
-- **Direction of movement:** procedural repair over office-based inertia.
+- **Main form:** procedural legitimacy (renewed in language and process).
+- **What shifted:** procedural restoration ran inside office permissions that
+  only shrank slowly.
+- **Direction:** procedural repair on top of office-based inertia.
 
 ### **What the Sequence Shows**
 
 Across these handoffs, a pattern appears:
 
-- Crisis expands authority quickly.
-- Restraint can slow misuse but may not reverse transfer.
-- Personalization can exploit inherited permissions.
-- Restoration of norms can outpace restoration of limits.
+- Crisis widens authority fast.
+- Restraint can slow misuse but may not undo transfer.
+- Personalization can ride on inherited permissions.
+- Norms can come back before hard limits do.
 
-This is the asymmetry of legitimacy transfer: expansion is easier than
-contraction unless active constraint work is sustained over time.
+The pattern is lopsided: expansion is easier than contraction unless people
+keep doing the work of limiting power over time.
 
 ### **Non-Presidential Contrast**
 
 A comparable pattern appears in large hospital networks.
 
 A network grants emergency exception authority during a capacity surge:
-procurement shortcuts, staffing overrides, and centralized incident command
-approvals. Throughput improves in the acute phase.
+faster purchasing, staffing overrides, and sign-off from a central command
+post. Patient flow improves while the surge lasts.
 
-Months later, surge conditions ease, but exception pathways remain in place
-"for flexibility." Local teams now work inside a higher baseline of
-centralized permission than before the emergency.
+Months later, the surge eases, but the exception paths stay open "for
+flexibility." Local teams now work under more centralized permission than
+before the emergency.
 
 The names, politics, and sector differ. The transfer pattern does not.
 
@@ -1899,68 +1901,67 @@ The names, politics, and sector differ. The transfer pattern does not.
 Legitimacy transfer is not inherently illegitimate. Continuity requires
 some transfer.
 
-The structural risk appears when transfer becomes automatic while
-constraint becomes optional.
+The risk appears when transfer becomes automatic while limits become
+optional.
 
-Where authority can expand without deliberate re-bounding, accountability
+Where authority can expand without deliberate rollback, accountability
 tends to lag. Over time, that lag is where harm accumulates.
 
 # **Appendix B — Leadership Patterns**
 
-This appendix summarizes recurring structural patterns described
-throughout the book. Patterns are grouped into four kinds—**forming**,
-**renewing**, **eroding**, and **circulating**—each a compact diagnostic:
-when it appears, what is happening, and what tends to follow.
+This appendix summarizes recurring patterns described throughout the
+book—how leadership forms, renews, erodes, and spreads. Patterns are
+grouped into four kinds—**forming**, **adjusting**, **eroding**, and
+**circulating**. Each is a short snapshot: when it appears, what is
+happening, and what tends to follow.
 
-These patterns are not prescriptions; they are observable conditions
-that recur across domains, from small groups to large institutions.
+These patterns are not prescriptions. They are conditions you can observe
+again and again, from small groups to large institutions.
 
 ## **Forming**
 
-_Patterns that describe how attention, example, and habit concentrate
-leadership when direction is still taking shape._
+_Patterns where attention, example, and habit pull leadership into focus
+while direction is still taking shape._
 
 ## **Attention Comes Into Focus**
 
 **Context:**
 
-A group encounters uncertainty, ambiguity, or a moment requiring
-direction.
+A group hits uncertainty, ambiguity, or a moment that needs direction.
 
 **Problem:**
 
-Coordination is required, but no explicit structure has yet defined who
-will lead.
+Coordination is needed, but no clear process has named who will lead.
 
 **Forces:**
 
 - People seek orientation under uncertainty
 - Silence creates pressure for someone to act
-- Early signals carry disproportionate weight
+- Early signals carry extra weight
 - Leadership can emerge without intention
 
 **Observation:**
 
-Attention comes into focus around a person, and others begin orienting
-their behavior in response to that person’s actions, tone, or timing.
+Attention settles on one person. Others start lining up their behavior
+with that person’s actions, tone, or timing.
 
 > "Alright—attention is coming into focus on you. What do you think?"
 
 **Effect:**
 
-Influence multiplies immediately. The person being looked to becomes
-structurally significant, whether or not they claim authority.
+Influence multiplies immediately. The person being looked to becomes hard
+to ignore in the life of the group, whether or not they claim authority.
 
 **Resulting Context:**
 
-A reinforcing loop forms: attention leads to influence, influence
-reinforces attention, and authority begins to consolidate.
+A loop forms: attention feeds influence, influence feeds attention, and
+authority starts to lock in.
 
 **Related Patterns:**
 
-Your Example Becomes the Rule; The One We Default To
+Behavior Becomes the Rule; People Look to One Person
 
-## **Your Example Becomes the Rule**
+## **Behavior Becomes the Rule**
 
 **Context:**
 
@@ -1968,13 +1969,13 @@ A leader reacts to a mistake, tension, or ambiguity in a shared setting.
 
 **Problem:**
 
-Group members need to interpret what is acceptable, but explicit rules
-are absent or incomplete.
+Group members need to read what is acceptable, but clear rules are
+missing or thin.
 
 **Forces:**
 
 - People look for social cues under uncertainty
-- Example is faster and more influential than formal policy
+- Observable behavior is faster and more influential than formal policy
 - Early reactions shape perceived boundaries
 - Silence and emphasis both carry meaning
 
@@ -1983,23 +1984,23 @@ are absent or incomplete.
 What the leader does—especially under pressure—quickly defines what
 others believe is acceptable.
 
-> "Careful—your example is becoming the rule here."
+> "Careful—behavior is becoming the rule here."
 
 **Effect:**
 
-Norms form quickly without explicit agreement, shaping how truth, error,
-and risk are handled.
+Norms form fast with no formal vote, shaping how truth, error, and risk
+are handled.
 
 **Resulting Context:**
 
-Behavior becomes patterned. Future situations are interpreted through
-the established example.
+Behavior settles into habit. People read the next situation through the
+example already set.
 
 **Related Patterns:**
 
-Attention Comes Into Focus; Bring Bad News
+Attention Comes Into Focus; Bad News Moves Early
 
-## **The One We Default To**
+## **People Look to One Person**
 
 **Context:**
 
@@ -2007,15 +2008,15 @@ A group repeatedly turns to the same person when decisions are unclear.
 
 **Problem:**
 
-Decision-making responsibility is not formally assigned or consistently
-distributed.
+Decision responsibility is unclear on paper—or it is assigned, but the
+work still slides to the same person.
 
 **Forces:**
 
 - Repetition creates familiarity and trust
 - Speed favors known decision paths
 - Avoidance of ambiguity reinforces habit
-- Informal authority can be easier than formal delegation
+- Unofficial authority can be easier than formal delegation
 
 **Observation:**
 
@@ -2026,24 +2027,23 @@ where no formal authority exists.
 
 **Effect:**
 
-Authority forms through repetition and becomes difficult to
-redistribute.
+Authority forms through repetition and becomes hard to share or hand off.
 
 **Resulting Context:**
 
-The person becomes the default decision-maker, and alternative
-leadership pathways weaken.
+The person becomes the default decision-maker. Other paths for leading
+grow weaker.
 
 **Related Patterns:**
 
 Attention Comes Into Focus; No One Pushes Back
 
-## **Renewing**
+## **Adjusting**
 
-_Patterns that keep decisions connected to reality, correction, and
+_Patterns that keep decisions tied to reality, correction, and
 accountability._
 
-## **Bring Bad News**
+## **Bad News Moves Early**
 
 **Context:**
 
@@ -2051,8 +2051,7 @@ Problems, risks, or failures emerge within a group or setting.
 
 **Problem:**
 
-Timely correction depends on whether negative information can reach
-decision-makers.
+Correction in time depends on whether bad news can reach decision-makers.
 
 **Forces:**
 
@@ -2063,15 +2062,13 @@ decision-makers.
 
 **Observation:**
 
-Problems are surfaced early so reality can reach decision-makers in
-time.
+Problems surface early so reality can reach decision-makers in time.
 
 > "Just bring bad news—don't filter it."
 
 **Effect:**
 
-Early correction remains possible, reducing the scale and cost of
-failure.
+Early correction stays possible. Failure stays smaller and cheaper.
 
 **Resulting Context:**
 
@@ -2080,19 +2077,19 @@ problems grow before they are addressed.
 
 **Related Patterns:**
 
-Your Example Becomes the Rule; Feedback Gap
+Behavior Becomes the Rule; Feedback is Distorted
 
-## **We Change Course**
+## **Plans Can Change**
 
 **Context:**
 
-New information, visible risk, or failed assumptions appear after a
-direction has already been set.
+New facts, visible risk, or bad assumptions show up after direction is
+already set.
 
 **Problem:**
 
-The group must decide whether to adjust or to protect continuity of
-narrative and commitment.
+The group must decide whether to adjust or to protect the public story and
+ongoing commitment.
 
 **Forces:**
 
@@ -2103,25 +2100,24 @@ narrative and commitment.
 
 **Observation:**
 
-The group adjusts direction in response to new information or emerging
-risk.
+The group shifts direction based on new facts or new risk.
 
 > "We're going to change course based on what we just learned."
 
 **Effect:**
 
-Structure stays aligned with reality instead of with an outdated story.
+Plans stay tied to reality instead of to an outdated story.
 
 **Resulting Context:**
 
-Correction remains legitimate; the group preserves room to revise
-when facts change.
+Correction stays legitimate; the group keeps room to revise when facts
+change.
 
 **Related Patterns:**
 
-Bring Bad News; We Own the Outcome
+Bad News Moves Early; Decisions Stay Connected
 
-## **We Own the Outcome**
+## **Decisions Stay Connected**
 
 **Context:**
 
@@ -2129,40 +2125,38 @@ A decision creates cost, risk, or benefit for people in a group.
 
 **Problem:**
 
-The location of decision-making and the location of consequence can
-drift apart.
+Where decisions are made and where costs land can drift apart.
 
 **Forces:**
 
 - Incentives favor visible success over visible cost
-- Systems distribute impact unevenly
+- In large settings, impact lands unevenly
 - Distance makes harm easier to overlook
-- Passing responsibility downstream is often convenient
+- Pushing responsibility downhill is often easier
 
 **Observation:**
 
-Those making decisions remain connected to the consequences of those
-decisions.
+The people who decide stay tied to what their decisions do to others.
 
 > "We own the outcome on this—no passing it off."
 
 **Effect:**
 
-Accountability stays visible; harm is harder to normalize or repeat
-without acknowledgment.
+Accountability stays in view. Harm is harder to shrug off or repeat
+without owning it.
 
 **Resulting Context:**
 
-Costs are not silently displaced; trust in correction pathways can hold.
+Costs do not quietly slide onto someone else. Trust that correction will
+work can hold.
 
 **Related Patterns:**
 
-Bring Bad News; Feedback Gap
+Bad News Moves Early; Feedback is Distorted
 
 ## **Eroding**
 
-_Patterns that describe how feedback, dissent, and boundaries weaken
-over time._
+_Patterns where feedback, dissent, and boundaries weaken over time._
 
 ## **No One Pushes Back**
 
@@ -2173,75 +2167,70 @@ validation.
 
 **Problem:**
 
-Maintaining authority begins to compete with maintaining correctness.
+Protecting the leader starts to rival protecting accuracy.
 
 **Forces:**
 
-- Success increases confidence and reduces perceived need for challenge
+- Success builds confidence and lowers the felt need for challenge
 - Social cost of dissent rises
 - Loyalty signals are rewarded over correction signals
-- Narratives stabilize around leadership identity
+- Stories about who we are harden around the leader
 
 **Observation:**
 
-Dissent disappears or is softened to the point that it no longer
-meaningfully challenges decisions.
+Dissent fades or softens until it no longer really challenges decisions.
 
 > "I'm noticing no one pushes back anymore."
 
 **Effect:**
 
-Correction pathways narrow, increasing the risk of hidden errors and
-delayed failure.
+Paths for correction narrow. Hidden errors and late failure grow more
+likely.
 
 **Resulting Context:**
 
-Authority becomes insulated from feedback, and structural drift
-accelerates.
+Authority pulls away from feedback, and drift speeds up.
 
 **Related Patterns:**
 
-The One We Default To; Feedback Gap
+People Look to One Person; Feedback is Distorted
 
-## **Feedback Gap**
+## **Feedback is Distorted**
 
 **Context:**
 
-Decisions are made at a distance from where their effects are
-experienced.
+Decision-makers sit far from where effects actually show up.
 
 **Problem:**
 
-Information about real-world outcomes does not reliably reach
-decision-makers in time.
+Word from the ground does not reliably reach decision-makers in time.
 
 **Forces:**
 
-- Scale increases distance from impact
+- Size increases distance from impact
 - Formal reporting filters or delays signals
 - Negative outcomes are costly to surface
 - Success signals travel more easily than failure signals
 
 **Observation:**
 
-Those making decisions do not receive a timely, accurate picture of
-what their choices are doing.
+Decision-makers do not get a timely, accurate read on what their choices
+are doing.
 
-> "There's a feedback gap—we're not hearing what's really happening."
+> "The feedback is distorted—we're not hearing what's really happening."
 
 **Effect:**
 
-Feedback loops weaken. Decisions drift away from reality while appearing
-stable.
+Feedback loops weaken. Decisions drift away from what is actually
+happening while still looking steady.
 
 **Resulting Context:**
 
-Errors repeat, harm accumulates, and correction becomes delayed and more
-expensive.
+Errors repeat, harm piles up, and correction arrives late and costs more.
 
 **Related Patterns:**
 
-We Own the Outcome; Bring Bad News
+Decisions Stay Connected; Bad News Moves Early
 
 ## **Exceptions Are Forever**
 
@@ -2260,35 +2249,31 @@ conditions stabilize.
 - Urgency justifies bypassing constraints
 - Short-term success reinforces the exception
 - Reversal requires effort and coordination
-- New practices quickly become normalized
+- New practices quickly turn into habit
 
 **Observation:**
 
-Temporary workarounds and shortcuts become permanent parts of how the
-group operates.
+Workarounds and shortcuts turn into how the group works day to day.
 
 > "Let's be careful—exceptions are forever."
 
 **Effect:**
 
-Temporary decisions become permanent structure without deliberate
-evaluation.
+Temporary decisions turn into permanent habit without a deliberate review.
 
 **Resulting Context:**
 
-Authority expands, constraints weaken, and structural drift increases
-over time.
+Authority expands, constraints weaken, and drift builds over time.
 
 **Related Patterns:**
 
-No One Pushes Back; Feedback Gap
+No One Pushes Back; Feedback is Distorted
 
 ## **Circulating**
 
-_Patterns that describe how leadership norms spread beyond the original
-setting._
+_Patterns where leadership norms spread beyond the original setting._
 
-## **Copy What Works Here**
+## **People Copy What Works**
 
 **Context:**
 
@@ -2297,20 +2282,20 @@ rewarded, what gets punished, what gets ignored.
 
 **Problem:**
 
-Those behaviors are observed not only as personal style but as a model
-for “how things work here,” and they travel.
+People read those behaviors as personal style and as the local model for
+“how things work here”—and the model travels.
 
 **Forces:**
 
-- Imitation is faster than explicit instruction
-- Success is attributed to visible behavior, not to hidden structure
+- Copying is faster than being taught step by step
+- People credit what they can see, not hidden setup
 - New members learn from example before they learn from rules
 - What survives selection is what gets copied
 
 **Observation:**
 
-Leadership behaviors and norms are imitated, shaping how future
-leadership forms.
+People copy leadership habits and norms. That shapes how the next round
+of leadership forms.
 
 > "People will just copy what works here, whether we like it or not."
 
@@ -2320,12 +2305,12 @@ Local habits become templates. Strengths and pathologies both replicate.
 
 **Resulting Context:**
 
-Formation elsewhere begins to resemble this cluster—forming and eroding
-patterns can spread without anyone intending a formal blueprint.
+Other places start to look like this one. Forming and eroding patterns
+can spread with no one meaning to write a playbook.
 
 **Related Patterns:**
 
-Your Example Becomes the Rule; The One We Default To
+Behavior Becomes the Rule; People Look to One Person
 
 # **Bibliography**
 

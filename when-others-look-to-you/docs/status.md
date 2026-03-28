@@ -14,7 +14,7 @@ on branch `when-others-look-to-you-back-matter`.
 - Front matter batch (`front-matter/*`)
 - Part I (`parts/part-1-attention-and-early-formation/*`)
 - Part II (`parts/part-2-legitimacy-harm-and-circulation/*`)
-- Part III (`parts/part-3-scale-tradeoffs-and-renewal/*`)
+- Part III (`parts/part-3-scale-tradeoffs-and-what-happens-next/*`)
 
 ## Drafted on Current Branch (Pending Approval)
 

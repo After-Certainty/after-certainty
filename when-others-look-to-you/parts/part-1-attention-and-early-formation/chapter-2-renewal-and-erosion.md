@@ -48,8 +48,8 @@ grows.[^c2-high-reliability]
 People closest to consequences can still speak. Disagreement is possible
 without social exile. Early warnings are not treated as betrayal.
 Mistakes are surfaced before they become identity threats. In that
-climate, **Your Example Becomes the Rule** that difficult news stays
-speakable—not that it stays hidden.
+climate, **Behavior Becomes the Rule**: difficult news stays
+speakable—not hidden.
 
 High-renewal groups do not avoid failure. They shorten the time between
 warning and response. They correct earlier, at lower cost, with less
@@ -78,7 +78,8 @@ contradiction.
 Erosion rarely announces itself. It is assembled through ordinary choices:
 who gets interrupted, who gets promoted, which measures count, which
 stories are repeated, which failures are forgiven, and which are hidden.
-Over time, repeated deference can harden into **The One We Default To**.
+Over time, repeated deference can harden until **People Look to One Person** is
+simply how the group operates.
 
 Some eroding groups still scale for long periods. What drops first is
 usually room to change plans once they are in motion.

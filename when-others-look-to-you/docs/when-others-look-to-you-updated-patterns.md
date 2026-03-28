@@ -2,39 +2,39 @@
 
 ## **Forming**
 
-Attention comes into focus
+Attention Comes Into Focus
 
 In moments of uncertainty, people begin orienting toward one person for direction.
 
 > "Alright---attention is coming into focus on you. What do you think?"
 
-Your example becomes the rule
+Behavior Becomes the Rule
 
-What you do---especially under pressure---quickly defines what others believe is acceptable.
+What people see others do---especially under pressure---quickly defines what they believe is acceptable.
 
-> "Careful---your example is becoming the rule here."
+> "Careful---behavior is becoming the rule here."
 
-The one we default to
+People Look to One Person
 
 Repeated reliance on one person concentrates decision-making around them.
 
 > "We've made you the one we default to on this."
 
-## **Renewing**
+## **Adjusting**
 
-Bring bad news
+Bad News Moves Early
 
 Problems are surfaced early so reality can reach decision-makers in time.
 
 > "Just bring bad news---don't filter it."
 
-We change course
+Plans Can Change
 
 The group adjusts direction in response to new information or emerging risk.
 
 > "We're going to change course based on what we just learned."
 
-We own the outcome
+Decisions Stay Connected
 
 Those making decisions remain connected to the consequences of those decisions.
 
@@ -42,19 +42,19 @@ Those making decisions remain connected to the consequences of those decisions.
 
 ## **Eroding**
 
-No one pushes back
+No One Pushes Back
 
 Dissent fades, and decisions go unchallenged even when risks are visible.
 
 > "I'm noticing no one pushes back anymore."
 
-Feedback gap
+Feedback is Distorted
 
-Information about real-world outcomes fails to reach decision-makers in time.
+Information from the ground no longer matches what decision-makers hear or believe in time.
 
-> "There's a feedback gap---we're not hearing what's really happening."
+> "The feedback is distorted---we're not hearing what's really happening."
 
-Exceptions are forever
+Exceptions Are Forever
 
 Temporary workarounds and shortcuts become permanent parts of how the group operates.
 
@@ -62,7 +62,7 @@ Temporary workarounds and shortcuts become permanent parts of how the group oper
 
 ## **Circulating**
 
-Copy what works here
+People Copy What Works
 
 Leadership behaviors and norms are imitated, shaping how future leadership forms.
 
