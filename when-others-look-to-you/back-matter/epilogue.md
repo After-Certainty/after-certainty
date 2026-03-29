@@ -17,7 +17,7 @@ local repair.
 
 That distinction matters.
 
-Slowing damage is not the same as restoring renewal. But slowing damage is
+Slowing damage is not the same as restoring vitality. But slowing damage is
 not failure. It is often the only honest starting point.
 
 In this phase, progress can look modest:
@@ -38,7 +38,7 @@ test. Repair is harder to postpone. This does not make human-scale
 leadership morally pure. It makes feedback harder to ignore.
 
 Formal rules and policy still matter. But day-to-day practice is where
-durable renewal habits are built:
+durable habits that sustain vitality are built:
 
 - Naming harm without rhetorical cover.
 - Refusing false urgency when correction is still possible.
@@ -49,13 +49,14 @@ None of this guarantees a happy ending.
 
 It does something quieter and more realistic: it reduces how much harm can
 be normalized, inherited, and repeated.
-Without that work, decisions may never reconnect with who bears the cost—the
-point of **Leaders Feel the Consequences**—and harm becomes a durable norm
+Without that work, decisions may never reconnect with who bears the cost. That
+is the point of **Leaders Feel the Consequences**. Harm becomes a durable norm
 rather than an intermittent failure.
 
 If this book’s lens changes what you tolerate, what you reward, and what you
-refuse to excuse, then the dynamics **Leadership Reproduces Itself** tracks
-are already shifting for anyone who takes cues from how you lead.
+refuse to excuse, then the dynamics **Leadership Reproduces Itself** tracks are
+already shifting. Anyone who takes cues from how you lead is caught in that
+movement.
 
 Not all change arrives as reversal.
 

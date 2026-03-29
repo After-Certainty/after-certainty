@@ -1,5 +1,9 @@
 # **Leadership Patterns --- Glossary**
 
+Quick reference for canonical titles. For **Pattern Block** production,
+**positive-only** renewing bodies, placement, and inline anchors, see
+`book-rules.md` and `pattern-integration-guide.md`.
+
 ## **Forming**
 
 Attention Finds a Focus

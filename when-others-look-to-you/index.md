@@ -11,7 +11,8 @@
 - [Typographical Conventions](front-matter/typographical-conventions.md)
 - [Author's Note](front-matter/authors-note.md)
 - [Preface](front-matter/preface.md)
-- [Introduction — When Attention Comes into Focus](front-matter/introduction-when-attention-comes-into-focus.md)
+- [Acknowledgements](front-matter/acknowledgements.md)
+- [Introduction — Attention Finds a Focus](front-matter/introduction-attention-finds-a-focus.md)
 
 ## Part I — Attention and Early Formation
 
@@ -39,4 +40,5 @@
 - [Epilogue](back-matter/epilogue.md)
 - [Appendix A — Legitimacy Transfer in Practice](back-matter/appendix-a-legitimacy-transfer.md)
 - [Appendix B — Leadership Patterns](back-matter/appendix-b-leadership-patterns.md)
+- [Glossary](back-matter/glossary.md)
 - [Bibliography](back-matter/bibliography.md)

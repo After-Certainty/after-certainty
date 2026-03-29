@@ -36,7 +36,7 @@ A short set of cross-domain examples helps keep this concrete:
 
 Each case can look stable on the surface while the underlying structure drifts
 toward entrenched or stalled conditions. Distorted feedback can still look like
-calm coordination from the outside—the composed surface that **Learning Collapses** names.
+calm coordination from the outside—that shows **Learning Collapse**.
 
 ### **Two Trajectories**
 
@@ -50,8 +50,9 @@ Taken together, repeated choices tend to push structure one of two ways:
 
 These are not personality types. They are where decisions accumulate over
 time—not a single switch you flip once, but a direction you reinforce or
-interrupt. Movement between them is possible. The issue is whether
-**Feedback Drives Change** can still happen in practice when reality pushes back.
+interrupt. Movement between them is possible. The issue is whether direction
+can still revise when reality pushes back. **Feedback Drives Change** still
+applies.
 
 ### **When the Baseline Has Already Shifted**
 

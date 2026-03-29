@@ -28,18 +28,18 @@ Public updates highlight growth and consistency.
 The network did not become harmful because it grew. It became riskier
 because reach grew faster than paths people could use to fix what was wrong.
 That gap widens when shared playbooks and a consistent public story travel
-faster than local revision—one face of **Leadership Reproduces Itself** at
-scale.
+faster than local revision. That is one face of **Leadership Reproduces Itself**
+at scale.
 
 ### **Two Capacities at Scale**
 
 Chapter 2 named **scalability** and **adaptability** as the two useful
-measures: whether common effort can grow in reach, and whether it can change
+measures: whether coordinated action can grow in reach, and whether it can change
 direction when reality pushes back. Those questions stay the same at
 institutional scale; only the distance and delay change.
 
-At scale, the adaptability side shows up as whether **Feedback Drives Change**
-still holds true in practice.
+At scale, the test for adaptability is whether **Feedback Drives Change** still
+holds true in practice.
 
 The same two capacities still sort groups into the four states Chapter 2
 defined. Scale only changes how long each state can look solid from a distance.
@@ -79,7 +79,7 @@ travel back with enough force to shift direction, reach can grow while
 learning shrinks.
 
 When that keeps happening, distorted feedback turns into a practical operating
-risk—the failure mode **Learning Collapses** describes.
+risk—**Learning Collapse** often follows.
 
 ### **Human Scale as a Contrast**
 

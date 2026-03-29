@@ -9,18 +9,19 @@ weak, good or bad, successful or failed. By that point, many of the
 important structural choices have already hardened. Patterns are already
 being copied. Harm has already been distributed.
 
-This book works earlier in the sequence and asks what can be seen while
+This book works earlier in the sequence. It asks what can be seen while
 influence is still forming.
 
 ### **The Frame**
 
-The book uses one durable definition as its anchor, introduced directly in
-the Introduction.
+The book uses one durable definition as its anchor. The Introduction
+introduces it directly.
 
 From that anchor, the chapters move in three passes:
 
-- **Part I:** how attention becomes influence; renewal and erosion; why
-  observers so often misjudge leaders from outcomes and confidence alone.
+- **Part I:** how attention becomes influence; renewal and erosion; whether
+  influence can circulate back; why observers so often misjudge leaders from
+  outcomes and confidence alone.
 - **Part II:** harm, effectiveness, and legitimacy—each a lens on what
   influence is producing, with circulation tested throughout.
 - **Part III:** scale and drift; tradeoffs under pressure; and what can
@@ -40,8 +41,8 @@ not an excuse for blindness.
 
 ### **Who This Is For**
 
-This book is for people who are looked to by others, and for people who
-must decide whether to keep looking.
+This book is for people who find themselves looked to, and for people who
+look to others and wonder whether to continue.
 
 It is for:
 

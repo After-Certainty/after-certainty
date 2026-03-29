@@ -8,7 +8,7 @@ does not. It begins with attention.
 The moment other people look to someone when deciding what to do next,
 leadership is already present. It may be formal or informal. It may be
 visible or quiet. It may happen in a family, a team, a congregation, or
-an institution. But the pattern is the same: attention comes into focus, and
+an institution. But the pattern is the same: **Attention Finds a Focus**, and
 consequence follows.
 
 I wrote this book because that moment is common and under-described. We
@@ -40,8 +40,8 @@ formal role, it still applies. People can be looked to before they are
 named as leaders.
 
 Read slowly when needed. The aim is not speed; the aim is clarity. The
-movement of the book is cumulative, and each chapter adds one layer while
-returning to the same throughline: Attention → Influence → Structure →
-Renewal or Erosion.
+movement of the book is cumulative. Each chapter adds one layer. Each one
+returns to the same throughline: Attention → Influence → Structure →
+Renewal or Erosion → Circulation.
 
 That chain is the thread you will see running through the chapters.

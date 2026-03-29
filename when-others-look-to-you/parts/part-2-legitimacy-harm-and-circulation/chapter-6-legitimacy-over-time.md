@@ -13,9 +13,9 @@ step with what is actually happening. Each form ties authority to
 accountability a little differently. That plays out over time and when
 leadership changes hands.
 
-Those forms also shape two renewal questions you already met in Chapter 2:
+Those forms also shape two vitality questions you already met in Chapter 2:
 whether influence can still change direction under pressure, and whether
-common effort can grow without getting stuck.
+coordinated action can grow without getting stuck.
 
 ### **Example-Based Legitimacy**
 
@@ -38,7 +38,7 @@ Those processes can stabilize direction over time and make continuity
 possible beyond any single person.
 
 Procedural legitimacy can support renewal when real challenge is still
-allowed. When the rules are mostly for show, they can hide erosion.
+allowed. When the rules are mostly for show, they can hide decay.
 
 ### **Office-Based Legitimacy**
 
@@ -59,17 +59,16 @@ accountability often stays tied to earlier decisions.
 
 Authority persists and becomes morally exempt from ordinary challenge.
 
-Sacralized legitimacy grows when raising doubt feels disloyal, when people
-merge who they are with the leader or the group story, when the public
-story is treated as settled, and when trying to correct someone costs you
-socially.[^c6-arendt]
+Sacralized legitimacy grows when raising doubt feels disloyal. People merge
+who they are with the leader or the group story. The public story is treated
+as settled. Trying to correct someone costs you socially.[^c6-arendt]
 
 From the inside, that can feel like unity. From the outside, it can look
 like strength. In practice, it is still erosion: critique no longer changes
 direction.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Disagreement is Suppressed**
+**Disagreement is Suppressed**
 
 When challenge is recoded as disloyalty, authority becomes harder to
 revise and correction pathways begin to close.
@@ -117,13 +116,13 @@ The practical question is whether authority still answers to the people
 its decisions affect.
 
 If legitimacy cannot renew through visible correction, influence may
-continue, but erosion deepens.
+continue, but decay deepens.
 
 ### **Circulation and Legitimate Authority**
 
 If legitimacy asks why people continue to look, circulation asks whether
-influence can move both ways—out from formal leaders and back toward them
-through people who step up for a moment, then step back.
+influence can move both ways. Can it move out from formal leaders and back
+toward them through people who step up for a moment, then step back?
 
 ### **Circulation Signals**
 
@@ -156,7 +155,7 @@ remove conflict. It keeps conflict open to revision.
 Circulation also helps groups grow. People nearest the shifting facts can
 step in, fix things locally, and send what they learned back to the center.
 
-When circulation weakens, erosion usually appears before leaders can name it.
+When circulation weakens, decay usually appears before leaders can name it.
 
 ### **Connection to Part III**
 

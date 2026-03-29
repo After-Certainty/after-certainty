@@ -8,6 +8,11 @@ the manuscript When Others Look to You.
 The goal is to increase recognition, recall, and portability without
 changing the book's core voice, structure, or intent.
 
+**Terminology:** In reader-facing manuscript, these are **named dynamics**
+(bold titles), not “patterns” attached to a label—see `book-rules.md`,
+**Named dynamics**. This guide uses *pattern* as a working word for editors
+and integrators; it means the same canonical titles as Appendix B.
+
 Patterns are diagnostic lenses, not prescriptions. They should clarify
 structure, not introduce advice or techniques.
 
@@ -25,7 +30,7 @@ Patterns are additive, not transformative.
 
 - Only name and clarify patterns already present
 
-**Approved exception (circulation restructure):** A project-wide edit removed the standalone Part II chapter on authority circulation and merged that material into Chapters 4–6. That change **updates primary pattern placements** and **introduction order** for **Leadership Reproduces Itself** (now primary in Chapter 5). Follow the current **Placement Guidance by Chapter** and **Introduction Sequence** tables below; see `docs/circulation-cross-cutting.md`.
+**Approved exception (circulation restructure):** A project-wide edit removed the standalone Part II chapter on circulation and merged that material into Chapters 4–6. That change **updates primary pattern placements** and **introduction order** for **Leadership Reproduces Itself** (now primary in Chapter 5). Follow the current **Placement Guidance by Chapter** and **Introduction Sequence** tables below; see `docs/circulation-cross-cutting.md`.
 
 ### **2. Preserve the Author's Voice**
 
@@ -152,34 +157,38 @@ disruptive.
 Format:
 
 ::: {custom-style="Pattern Block"}
-**Pattern - \[Pattern Name\]**
+**\[Bold title — same wording as canonical list\]**
 
-\[1-2 sentence structural description\]
+\[Short structural description—see body rules below\]
 :::
 
-Example:
+**Block bodies:** For **forming / adjusting / accountability-holding**
+titles, keep the body **positive-only** (what holds when the dynamic is
+alive). Do not split the block into “when it works / when it breaks.” Put
+break cases in surrounding prose, negated-title echoes, or an **Eroding**
+block. **Eroding-titled** blocks describe the named narrowing or cost
+directly. Full rule: `book-rules.md`, **Pattern Block
+bodies—positive-only for renewing dynamics**.
+
+Example (renewing dynamic—positive only):
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Leaders Feel the Consequences**
+**Leaders Feel the Consequences**
 
-When decision-makers stay connected to consequences, accountability
-stays visible; when that connection breaks, costs and harm drift out of
-view.
+People who decide stay tied to what their choices do to others. Costs and
+benefits stay visible where decisions are made. Accountability stays in view;
+costs do not quietly slide onto someone else.
 :::
 
 ### **Rule 4 — Keep It Short**
 
 Each pattern block should be:
 
-- 1-2 sentences
+- A few short sentences (often two to four), each doing one job
 
-- Maximum 3 lines
+- No bullets inside the block
 
-- No bullets
-
-- No extended explanation
-
-The appendix holds the full version.
+- No extended explanation (Appendix B holds the full version)
 
 ### **Rule 5 — No Redundancy**
 
@@ -264,16 +273,17 @@ the canonical pattern names in bold:
 
 ### **Inline Anchor Rules**
 
-1. **Sequence rule (required):** do not use a pattern name inline before
-   that pattern has been introduced in a pattern block earlier in the
+1. **Sequence rule (required):** do not use a bold title inline before
+   that title has been introduced in a callout block earlier in the
    book.
 2. **Use canonical spelling exactly:** same capitalization, apostrophe
    style, and wording as the canonical list.
 3. **Keep anchors sparse:** usually 0-2 inline anchors per chapter.
-4. **No stacked anchors:** do not place multiple bolded pattern names in
+4. **No stacked anchors:** do not place multiple bolded titles in
    the same sentence.
 5. **No label format inline:** do not write `Pattern - ...` in body prose.
-   Use only the bolded name.
+   Use only the bolded name. See `book-rules.md` (**Named dynamics**): do not
+   call these titles “patterns” in running prose.
 6. **Flow first:** the sentence must read naturally if the bolding is
    removed.
 
@@ -299,46 +309,61 @@ chapters:
 - After **Chapter 8**:
   - Exceptions are Forever
 
-Within a chapter, use inline bold for a pattern only **after** its pattern
+Within a chapter, use inline bold for a title only **after** its callout
 block has appeared **earlier in the manuscript** (reading order). If two
-patterns are first introduced in the same chapter, follow the order they
-appear in that chapter’s pattern blocks.
+titles are first introduced in the same chapter, follow the order they
+appear in that chapter’s callout blocks.
 
 ### **Inline Syntax Pattern**
 
-Preferred form:
+Preferred form (vary; do not repeat the same connective in every chapter):
 
-- "...this is where the **Leaders Feel the Consequences** pattern fails repeatedly."
 - "...open challenge can give way to **Disagreement is Suppressed**."
 - "...what looks stable can hide what **Learning Collapses** names."
+- "When it can, **Feedback Drives Change** still holds."
+- "**Feedback Drives Change** still applies."
+- "That calm is a common face of **Learning Collapse.**"
+- "**Learning Collapse** often follows."
+- "If these questions cannot be answered clearly, **Leaders Do Not Feel the Consequences.**"
 
-When a title-shaped pattern reads like a full clause in the host sentence,
-paraphrase with **what [Pattern] names**, **the pattern [Pattern]**, or **the
-drift that [Pattern] names** rather than forcing the bold title into subject
-position.
+When a title-shaped anchor reads like a full clause in the host sentence,
+**prefer letting the title complete the thought** with natural grammar—not
+the same “If so / This is where / That is when” line every time—before
+wrapping it in meta phrases. If you need a gloss, paraphrase with **what [Title] names**, **the
+dynamic [Title] names**, or **the drift that [Title] names** rather than forcing
+the bold title into a strained subject slot. **Do not** lean on “what **[Title]**
+names” in every nearby paragraph, and avoid stacking “shorthand for,” “label
+for,” “refers to,” or “is about” when a completion reads cleanly (see
+`book-rules.md`, **Named dynamics**).
 
 ### **Grammar Rule for Inline Anchors**
 
-Treat each pattern name as a fixed title and insert it where a noun phrase
+Treat each bold title as a fixed label and insert it where a noun phrase
 fits naturally in the sentence.
+
+**Learning Collapses** remains the canonical title (Pattern Blocks, appendix,
+lists). In running prose, when you need a singular noun, use **Learning
+Collapse** so subject–verb agreement and phrasing stay natural (see
+`book-rules.md`, **Callout blocks** / **Learning Collapses** vs **Learning
+Collapse**).
 
 - Use with a determiner when needed: "the dynamic called **Leaders Feel the Consequences**,"
   "a drift toward **Disagreement is Suppressed**."
 - Keep subject-verb agreement with the surrounding sentence:
-  "Distorted feedback is visible here (**Learning Collapses**)."
+  "Distorted feedback is visible here (**Learning Collapse**)."
 - Keep tense and preposition logic in the host sentence:
   "drifts toward **Disagreement is Suppressed**," "slides into
   **Exceptions are Forever**," "room for **Dissent is Welcomed**."
 - If the sentence becomes awkward, rewrite the sentence; do not bend the
-  pattern name.
+  bold title.
 
 Good:
 
-- "In this section, the pattern **Leaders Feel the Consequences** is hard to find."
+- "In this section, **Leaders Feel the Consequences** is hard to find."
 - "Over time, open challenge can give way to **Disagreement is Suppressed**."
-- "When that pathway closes, **Dissent is Welcomed** stops holding in practice."
-- "While that remains true, **Dissent is Welcomed** still describes the group."
-- "Distorted feedback is already governing daily operations there. That is **Learning Collapses**."
+- "When that pathway closes, **Dissent is No Longer Welcomed** in practice."
+- "While that remains true, **Dissent is Welcomed** still holds."
+- "Distorted feedback may already govern daily operations there. That shows **Learning Collapse.**"
 - "What looks stable can hide what **Learning Collapses** names."
 
 Avoid:
@@ -349,8 +374,14 @@ Avoid:
 
 Avoid:
 
-- "Pattern - Leaders Feel the Consequences"
+- `**Pattern - …**` as the first line inside callout blocks (use the bold title
+  only—see `book-rules.md`, **Named dynamics**).
 - "this is an example of **Leaders Feel the Consequences** dynamics occurring..."
+- A positive-then-negative split **inside** the same Pattern Block for
+  **forming / adjusting** dynamics (for example **Dissent is Welcomed**,
+  **Leaders Feel the Consequences**). State the break case in surrounding prose
+  or via negated-title echoes; see `book-rules.md`, **Pattern Block
+  bodies—positive-only for renewing dynamics**.
 
 ## **Placement Guidance by Chapter (Canonical)**
 
@@ -456,9 +487,9 @@ Strong opportunities:
 
 - In the opening transition from Chapter 1's attention dynamic into
   renewal/erosion framing.
-- In "What Renewal Looks Like," where early warnings remain discussable
+- In "What Vitality Looks Like," where early warnings remain discussable
   (**Examples Accumulate**).
-- In "What Erosion Looks Like," where repetition hardens authority
+- In "What Decay Looks Like," where repetition hardens authority
   (**Leadership Coalesces**).
 
 ### **Chapter 3 — Why We Misjudge Leaders**
@@ -470,7 +501,7 @@ Strong opportunities:
 - In "Structural Blindness," where dissent channels narrow
   (**Dissent is Welcomed**).
 - In the principal vignette analysis, where effects are buffered from
-  decision-makers (**Learning Collapses**).
+  decision-makers (**Learning Collapse**).
 
 ### **Chapter 4 — Harm Under Influence**
 
@@ -485,7 +516,7 @@ Strong opportunities:
   short-term narrative at others' expense.
 - In circulation-related material on late surfacing, punishment, or workarounds
   where bad news or distorted feedback is structurally visible (**Dissent is Welcomed**,
-  **Learning Collapses**).
+  **Learning Collapse**).
 
 ### **Chapter 5 — Effectiveness and Its Illusions**
 
@@ -495,12 +526,12 @@ Leaders Feel the Consequences; Dissent is Welcomed; Learning Collapses; Feedback
 
 Strong opportunities:
 
-- In sections on imitation, norms, or how the next cohort learns what leadership
+- In sections on imitation, norms, or how people who come later learn what leadership
   looks like (**Leadership Reproduces Itself**).
 - In "When Success Accelerates Insulation," where critical signals arrive
   later or not at all (**Dissent is Welcomed**).
 - In "Performative Compliance vs Real Alignment," where visible results
-  mask hidden structural drift (**Learning Collapses**).
+  mask hidden structural drift (**Learning Collapse**).
 - Where the text names an explicit pivot after new information (**Feedback Drives Change**).
 - Where circulation-rich vs constricted dynamics or guest leadership appear in merged
   material.
@@ -533,7 +564,7 @@ Strong opportunities:
 - After the four-state list, where **Leadership Coalesces** narrows who counts
   as the real escalation gate.
 - In "Selective Followership at Scale," where feedback cannot return with
-  enough force (**Learning Collapses**).
+  enough force (**Learning Collapse**).
 - In legitimacy-at-scale discussion where dissent diffuses and entrenchment
   grows (**Disagreement is Suppressed**).
 
@@ -556,7 +587,7 @@ Strong opportunities:
 
 - In "Two Trajectories" and "When the Baseline Has Already Shifted," where
   transfer, insulation, and delayed feedback converge
-  (**Learning Collapses**, **Disagreement is Suppressed**).
+  (**Learning Collapse**, **Disagreement is Suppressed**).
 - In epilogue sections on emergency permissions and damage containment
   (**Exceptions are Forever**, **Leaders Feel the Consequences**).
 
@@ -571,8 +602,10 @@ When inserting or revising pattern blocks in *When Others Look to You*, keep
 surrounding prose aligned with the book’s enforced plain-language and echo
 rules—not only pattern naming. After substantive edits, cross-check
 `docs/editorial-vocabulary.md` (look vs follow, harm vignette domain,
-renewal/erosion labels in Chapter 2, Part III definition echo limits) so
-pattern callouts do not reintroduce deprecated jargon or duplicate the full
+renewal/erosion labels in Chapter 2, Part III definition echo limits) and
+`docs/book-rules.md` (**Pattern Block bodies—positive-only**,
+**Learning Collapses** / **Learning Collapse**, **Word valence**) so
+callouts do not reintroduce deprecated jargon or duplicate the full
 four-state model where the manuscript says not to.
 
 ## **Anti-Patterns (What to Avoid)**
@@ -581,13 +614,13 @@ four-state model where the manuscript says not to.
 
 Bad:
 
-"Pattern - Leaders Feel the Consequences: This occurs when..."
+`Pattern - Leaders Feel the Consequences: This occurs when...` (never use
+the `Pattern -` prefix in the callout heading; see `book-rules.md`.)
 
 Good:
 
-"Pattern - Leaders Feel the Consequences"
-
-Short. Recognizable. Move on.
+Heading line is **`Leaders Feel the Consequences`** only; body stays short
+(positive-only for renewing titles). Short. Recognizable. Move on.
 
 ### **❌ Do Not Stack Patterns**
 

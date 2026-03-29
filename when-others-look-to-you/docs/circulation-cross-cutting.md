@@ -1,6 +1,6 @@
 # Circulation cross-cutting restructure (editorial anchor)
 
-This document records the **approved structural change** to *When Others Look to You*: **authority circulation** is no longer a standalone Part II chapter. It is **woven through** Chapters 4–6 (harm, effectiveness, legitimacy), **previewed** in Part I, and **reframed** in Part III (now Chapters 7–9) where integration prose already treated circulation as a cross-cutting pressure.
+This document records the **approved structural change** to *When Others Look to You*: **circulation** is no longer a standalone Part II chapter. It is **woven through** Chapters 4–6 (harm, effectiveness, legitimacy), **previewed** in Part I, and **reframed** in Part III (now Chapters 7–9) where integration prose already treated circulation as a cross-cutting pressure.
 
 ---
 
@@ -102,3 +102,13 @@ Footnote prefixes in Part III files: `c8`→`c7`, `c9`→`c8`, `c10`→`c9` (and
 - **Length:** Ch. 4–6 grow; keep circulation as **threads**, not three mini-chapters.
 - **Pattern sequence:** No inline **Leadership Reproduces Itself** before its first block in Ch. 5.
 - **Overlap:** One clear use of “circulation” in Ch. 2; avoid repeating full old Ch. 7 taxonomy in Part I.
+
+---
+
+## Maintainer note
+
+This file is the **structural migration record** for the circulation weave.
+Ongoing terminology (for example plain *circulation*, Pattern Block bodies,
+**Learning Collapse** vs **Learning Collapses**) is governed by
+`docs/book-rules.md`; if anything here ever disagrees, **book-rules wins** and
+this file should be edited to match.
