@@ -2,7 +2,7 @@
 
 This checklist captures **approved wording and pass outcomes** for *When Others Look to You*. Use it during **Step 5.75** (and any focused echo pass) so new drafts and revisions stay aligned.
 
-For global tone and universality rules, see `book-rules.md`. For pattern blocks only, see `pattern-integration-guide.md`.
+For global tone and universality rules, see `book-rules.md`. For where to place Pattern Blocks and inline anchors, see `pattern-integration-guide.md`. For **Pattern Block** production rules (heading line only, **positive-only** bodies for renewing dynamics, **Learning Collapse** vs **Learning Collapses**, negated-title capitalization), see `book-rules.md` (**Callout blocks** through **Learning Collapses** / **Learning Collapse**).
 
 ---
 
@@ -15,6 +15,16 @@ For global tone and universality rules, see `book-rules.md`. For pattern blocks 
   - **Chapter 6 — Procedural legitimacy:** people follow whoever rules and roles put in charge.
   - **Chapter 6 — Office-based:** after “title carries permission,” note that people **often follow the office** even when the person in the chair is a poor fit.
 - Do not use **follow** to collapse **Chapter 1’s** distinction (looking ≠ obeying) in sections about selective followership or attention.
+
+### **Valence (forming vs eroding)**
+
+- In **forming / adjusting** dynamics, avoid negative-loaded words that imply
+  submission or blame unless the line is explicitly about harm or drift (see
+  **Word valence** in `book-rules.md`). Prefer **look to**, **turn to**,
+  **repetition**, **default**, **habit** over *deference*, *compliance* (when it
+  means obedience), or *failure* for neutral structure.
+- In **eroding** dynamics, stronger negative wording is appropriate when it names
+  structural cost.
 
 ### **System**
 
@@ -32,12 +42,12 @@ For global tone and universality rules, see `book-rules.md`. For pattern blocks 
 - **Chapter 7** (Part III — Scale) does **not** re-list the four state bullets (or duplicate Chapter 2’s scalability/adaptability bullet pair); point to **Chapter 2** in prose and name risk at scale there.
 - **Part III bridge** summarizes Chapter 2’s model in **one sentence**, not three recap bullets.
 
-### **Vitality, vibrant, stagnant, decaying**
+### **Direction vs state (renewal/erosion and vitality/decay)**
 
-- **Vitality** (noun) — the group’s **health**: whether relationships, correction, and learning stay **alive** under pressure. Prefer over vague “health” when the contrast is **renewal vs erosion**.
-- **Vibrant** (adjective) — describes a group or pattern where **relationships across the whole field** (not only the in-group) and **rich circulation** stay in view; close to vitality, not a synonym.
-- **Stagnant** / **decaying** — the cold side: task-only or in-group optimization, **constricted circulation**, normalization of harm, or scoreboard myopia. Use **decaying** when tracking **over time** (parallel to Chapter 2 erosion language).
-- Do not stack all four in one sentence; pick the lightest word that fits.
+- **Direction:** *renewal*, *renewing*, *erosion*, *eroding* — which way the group is **moving** (paths, drift, “renewal and erosion,” “toward erosion”).
+- **State:** *vitality* (noun), *vibrant* (adjective), *decay* (noun), *decaying* (adjective) — how things **are** at a time (“vibrant groups,” “decaying settings,” Chapter 2’s **What Vitality Looks Like** / **What Decay Looks Like**).
+- Full rule and Appendix B naming: `book-rules.md`, *Direction vs state* and **Word valence**.
+- **Stagnant** — optional cold-side gloss where **decaying** would over-claim; do not stack with vitality/vibrant/decay in one sentence unless necessary.
 
 ### **Circulation rich vs constricted**
 
@@ -48,9 +58,12 @@ For global tone and universality rules, see `book-rules.md`. For pattern blocks 
 
 ## Chapter 2 — Renewal and erosion (Pass 1)
 
+- Direction vs state: headings **What Vitality Looks Like** and **What Decay Looks Like**; use *renewal*/*erosion* for movement, *vitality*/*vibrant*/*decay*/*decaying* for condition (see `book-rules.md`).
+- **Opening of the chapter:** After naming **renewal** and **erosion**, add the bridge to **vitality** and **decay** (sustained renewal tends toward vitality; sustained erosion toward decay; direction ≠ condition). Bold **renewal**, **erosion**, **vitality**, and **decay** in Chapter 2 running prose; pull quotes stay plain.
+- **A Practical Discipline:** **Vitality depends** on what happens next when attention is tested; when conditions weaken, **decay has already begun** (state), not “erosion has already begun.”
 - Section heading: **Two Directions** (not “One Structure”).
 - Opening line: **What a group does under attention does not freeze in place** (footnote on adaptive organizing unchanged).
-- Prefer **common effort** alongside **coordinated action** where the formal capacity bullets still use the latter.
+- **Scalability** / **Adaptability** bullets and related prose: use **coordinated action** (aligned with `book-rules.md` canonical lexicon), not *common effort*.
 - **Erosion:** where a technical term helps, **revisability** may appear **with** the gloss **room to change plans once they are in motion** (not as a hard replacement); *permeability* → **fewer channels stay open for bad news; telling the truth costs more**.
 - **Harm in erosion:** *abstract language* → **vague wording** (or equally concrete).
 - **Cost / harm:** *tractable* → **small enough to fix**; *narrative control* → **control of the public story**; *entrenched coordination* → **coordination that is hard to undo**.
@@ -64,7 +77,8 @@ For global tone and universality rules, see `book-rules.md`. For pattern blocks 
 
 ## Chapter 6 — Legitimacy (Pass 2)
 
-- Opening: tie renewal questions to **Chapter 2** in plain words (change direction under pressure; common effort without getting stuck).
+- Direction vs state: where the claim is **accumulating condition** (rules hiding rot, circulation weak, legitimacy sliding), prefer **decay** over *erosion*; keep *erosion* / *renewal* when naming **drift** or the two-way frame.
+- Opening: tie vitality questions to **Chapter 2** in plain words (change direction under pressure; coordinated action without getting stuck).
 - **Example-based:** visible behavior → **what they can see**; *conduct* → **real behavior**.
 - **Procedural:** rules and roles; *symbolic process* → **rules mostly for show**.
 - **Sacralized:** prefer **plain clauses** (doubt feels disloyal; merge identity with leader or group story; public story treated settled; correction costs socially) over compact theory labels in body prose. Keep **Arendt** footnote.
@@ -87,10 +101,12 @@ For global tone and universality rules, see `book-rules.md`. For pattern blocks 
 
 ## Chapter 5 — Effectiveness (Pass 3)
 
+- Subheading **When Failure Strengthens Vitality** (state); circulation opening uses **Vitality depends** where the claim is about condition, not direction.
 - Short-term success **triad** in Chapter 5 should stay **mixed-domain** (e.g. school / neighborhood / public crisis), not finance-quarter-default.
 - Prefer: **one-time squeeze of trust and capacity** over *one-time extraction*.
 - *Political discomfort* → **awkward public moments** where used.
 - *Deferred effectiveness* gloss → **patient judgment** / **smaller cost now** vs larger later.
+- **Pressure Test:** permanent closure **locks in decay** (state), not *erosion*.
 - **Performative compliance:** *performance indicators / favorable numbers / strong reporting* → **what gets measured / good-looking counts / paperwork that looks tidy** unless a section must stay technical.
 - *Degrades* (results) → **wears down** where tone fits.
 - *During execution* → **while the work was underway** in checklist questions.
@@ -99,6 +115,7 @@ For global tone and universality rules, see `book-rules.md`. For pattern blocks 
 
 ## Chapters 8–9 and epilogue (Part III; recent related edits)
 
+- Epilogue: **restoring vitality** (not *renewal*) when naming what comes back after damage containment.
 - **Trajectories** language (not “unbounded/bounded arc”); **baseline shifted** ties to **Chapter 8** (Tradeoffs) exception sequence.
 - **Chapter 9** (What Happens Next) dropped the redundant four-state recap section; keep **Feedback Drives Change** on the trajectory paragraph.
 - Epilogue: prefer **usual way decisions get made**, **how people are treated**, **formal rules and policy**, **whether correction still works** over *governance / structural gains* where those edits already landed.

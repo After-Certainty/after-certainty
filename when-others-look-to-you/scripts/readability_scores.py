@@ -26,12 +26,12 @@ ORDERED: list[tuple[str, str, str]] = [
     ("Front matter", "Copyright", "front-matter/copyright.md"),
     ("Front matter", "Author's note", "front-matter/authors-note.md"),
     ("Front matter", "Preface", "front-matter/preface.md"),
+    ("Front matter", "Acknowledgements", "front-matter/acknowledgements.md"),
     (
         "Front matter",
         "Introduction",
-        "front-matter/introduction-when-attention-comes-into-focus.md",
+        "front-matter/introduction-attention-finds-a-focus.md",
     ),
-    ("Front matter", "Prologue", "front-matter/prologue.md"),
     (
         "Front matter",
         "Typographical conventions",

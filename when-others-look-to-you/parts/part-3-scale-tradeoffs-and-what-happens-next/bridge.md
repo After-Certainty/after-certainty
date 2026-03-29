@@ -1,19 +1,15 @@
 # **Bridge — From Structure to Scale Pressure**
 
-Part II used three lenses—harm, effectiveness, and legitimacy—with **authority
-circulation** threaded through each: whether warning, dissent, and revision
-could still change direction under pressure.
-
-Part III puts those lenses back together under harder conditions: larger reach,
+Part III carries the same lenses forward under harder conditions: larger reach,
 more distance from consequence, and faster pressure cycles.
 
 At small scale, correction is often visible and personal. At larger scale,
 signals travel farther, take longer to arrive, and distort more. That does not
-make renewal impossible. It makes renewal harder work.
+make vitality impossible. It makes vitality harder to sustain.
 
 Scale also gives **Leadership Reproduces Itself** more room to run. What gets
-rewarded or punished travels faster than written rules. The next cohort often
-learns from example before it learns from policy.
+rewarded or punished travels faster than written rules. People who come after
+often learn from example before they learn from policy.
 
 Chapter 2’s model—capacities, four states, renewal and erosion—still
 applies. Part III asks how scale and pressure change the risks, not the

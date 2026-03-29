@@ -46,23 +46,23 @@ and decision costs are displaced to people with less power.
 
 Nothing in that pattern requires overt malice. It can arise from habit,
 status anxiety, speed pressure, or the weight of routine. In **closed
-systems**—where signals rarely leave the room they arose in—the same drift
-can accelerate while everyone still sounds reasonable. The effect is
-the same: structure drifts while language remains polished.
+systems**, signals rarely leave the room they arose in. The same drift can
+accelerate while everyone still sounds reasonable. The effect is the same:
+structure drifts while language remains polished.
 
 Structural blindness is common because many of the relevant signals are
 socially expensive to surface.[^c3-psychological-safety] People close to
 problems often carry the highest local risk for naming them.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Dissent is Welcomed**
+**Dissent is Welcomed**
 
-When dissent and risk signals can move upward in time, correction stays
-possible; when they cannot, failure grows in the dark.
+Dissent and risk signals can reach decision-makers in time. Correction
+stays possible.
 :::
 
-When that pathway closes, **Dissent is Welcomed** stops holding in
-practice—bad news stops moving early enough to matter.
+When that pathway closes, **Dissent is No Longer Welcomed** in practice.
+Bad news stops moving early enough to matter.
 
 ### **The Intention Trap**
 
@@ -82,11 +82,11 @@ and how learning is retained across pressure cycles.
 
 A common misunderstanding follows from the same errors.
 
-Observers assume that if people continue to look to a leader, they are
-also consistently following that leader. In practice, followership is
-often selective.[^c3-selective-followership]
+Observers assume that if people continue to look to a leader, they must
+also be going along in full. In practice, that alignment is often
+selective.[^c3-selective-followership]
 
-People may comply with strategic direction while resisting tactics. They
+People may go along with strategic direction while resisting tactics. They
 may trust competence but not moral judgment. They may publicly align and
 privately diverge. They may even invert instructions under pressure to
 preserve autonomy.[^c3-reactance]
@@ -137,14 +137,13 @@ each other: visible success can hide degrading conditions until repair
 becomes expensive.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Learning Collapses**
+**Learning Collapses**
 
-When decision-makers are buffered from what people on the ground experience,
-negative feedback weakens and drift continues behind strong narratives.
+Ground experience stops reaching decision-makers in time. Negative feedback
+weakens. Drift continues behind strong narratives.
 :::
 
-In that condition, you are not looking at a one-off blind spot; you are
-looking at **Learning Collapses**.
+In that condition, this shows **Learning Collapse**, not a one-off blind spot.
 
 ### **What to Watch Instead**
 
@@ -166,9 +165,9 @@ They do not require private motives. They require observable patterns.
 Misjudgment compounds.
 
 When outcome bias and structural blindness combine, leaders receive credit
-for short-term wins while erosion deepens underneath. By the time external
-failure appears, correction capacity has already shrunk and repair costs
-have already risen.
+for short-term wins while decay deepens underneath. By the time external
+failure appears, correction capacity has already shrunk. Repair costs have
+already risen.
 
 This is why late-stage collapse often feels sudden to outsiders and
 inevitable to insiders. The warning signs were present, but the main way
@@ -188,11 +187,12 @@ That standard is less dramatic than hero stories. It is also more
 reliable.
 
 We often misjudge leaders when we ignore whether influence still flows both
-ways—whether dissent and bad news can still change direction before harm spreads.
+ways. We miss whether dissent and bad news can still change direction before
+harm spreads.
 
-Part II applies this lens to harm, effectiveness, and legitimacy, with
-**authority circulation** threaded through each: whether correction can still
-return to those who hold power while the work is underway.
+Part II applies this lens to harm, effectiveness, and legitimacy. It tracks
+circulation in each chapter: whether correction can still return
+to those who hold power while the work is underway.
 
 ::: {custom-style="Pull Quote Block"}
 We often misjudge leaders when we treat outcomes as proof and structure as background.

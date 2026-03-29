@@ -5,9 +5,9 @@
 Leadership does not remove harm. It directs where harm goes.[^c4-risk-distribution]
 
 When others look to someone for direction, decisions reach farther. Benefits can
-spread, but costs can too. A missed warning in one role can become
-widespread loss for many people. That is why where harm lands is central to
-leadership, not a late-stage ethical add-on.
+spread, but costs can too. A missed warning in one role can become widespread
+loss for many people. Where harm lands is central to leadership. It is not a
+late-stage ethical add-on.
 
 Most leaders believe they are acting for good. The practical question is
 not intent alone, but where decision costs land when pressure rises.
@@ -50,7 +50,7 @@ Harm-instrumental leadership treats some people as expendable to protect
 a prized goal or timeline.
 
 The logic sounds efficient: keep momentum, protect those at the center,
-and pass the cost outward. But when that pattern repeats, trust erodes,
+and pass the cost outward. But when that behavior repeats, trust erodes,
 quiet refusal grows, and the group's ability to act weakens.[^c4-power-harm]
 
 ### **Harm-Blind**
@@ -75,7 +75,7 @@ Harm displacement usually follows predictable channels:
 These channels can coexist. The more they repeat, the harder correction
 becomes.
 
-Under crisis pressure, this pattern often sharpens: harm is reframed as
+Under crisis pressure, displacement often sharpens: harm is reframed as
 necessary, and displacement is treated as temporary even when it becomes
 habit.
 
@@ -100,17 +100,17 @@ those closest to the consequences while leadership protects a short-term
 story of success.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Leaders Feel the Consequences**
+**Leaders Feel the Consequences**
 
-When decision-makers stay connected to consequences, accountability stays
-visible; when that connection breaks, costs move outward and harm is easier
-to treat as unremarkable.
+People who decide stay tied to what their choices do to others. Costs and
+benefits stay visible where decisions are made. Accountability stays in view;
+costs do not quietly slide onto someone else.
 :::
 
-When the **Leaders Feel the Consequences** pattern fails repeatedly—when
-decision-makers lose contact with who bears the cost—the group can shift from
-harm-absorbing leadership toward harm-tolerant or harm-instrumental
-leadership, even when leaders describe the decision as necessary.
+When **Leaders Do Not Feel the Consequences**, decision-makers lose contact
+with who bears the cost. The group can shift from harm-absorbing leadership
+toward harm-tolerant or harm-instrumental leadership, even when leaders describe
+the decision as necessary.
 
 ### **Boundaries and Agency**
 
@@ -138,7 +138,7 @@ Selective followership is one of the earliest harm indicators.
 In healthier settings, people can say, "This direction creates avoidable
 damage," and be heard. Selective refusal functions as warning.
 
-In eroding settings, people stop naming harm directly. They comply in
+In decaying settings, people stop naming harm directly. They comply in
 public, reroute work in private, and protect themselves through quiet
 workarounds. What looks like alignment can mask widening harm pathways.
 
@@ -166,8 +166,8 @@ People raised the issue; nothing changed. So fixes moved off the books.
 On paper, the group aligns. In daily work, practice drifts.
 
 That gap usually means authority runs one way and is harder to change.
-Distorted feedback is often already governing daily operations there. That is
-**Learning Collapses**.
+Distorted feedback may already govern daily operations there. That shows
+**Learning Collapse**.
 
 Open refusal can still support correction where others can see it. Covert refusal
 often signals a shift toward silent exit.[^c4-exit]
@@ -181,16 +181,16 @@ When evaluating leadership under influence, ask:
 - Who can surface harm without retaliation?
 - What changed after harm was named?
 
-If these questions cannot be answered clearly, the **Leaders Feel the
-Consequences** pattern has probably broken down, harm displacement is settling
-in as habit, and the group is drifting toward tolerance or blindness.
+If these questions cannot be answered clearly, **Leaders Do Not Feel the
+Consequences.** Harm displacement is settling in as habit. The group is drifting
+toward tolerance or blindness.
 
 ### **Connection to Chapter 5**
 
 Harm is the first check because it reveals reality quickly.
 
 Chapter 5 turns to the second focus: why short-term effectiveness can hide
-long-term erosion.
+long-term decay.
 
 ::: {custom-style="Pull Quote Block"}
 Where harm lands often reveals what leadership is protecting.

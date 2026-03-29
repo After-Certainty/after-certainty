@@ -71,10 +71,12 @@ Example:
 When others look to you, your posture becomes part of their world.
 :::
 
-### **Pattern Blocks**
+### **Callout blocks (bold titles)**
 
-Pattern insertions in chapters use a dedicated visual block so readers can
-recognize recurring structures without interrupting the prose flow.
+Some chapters use a dedicated visual block so you can spot recurring
+structural dynamics without interrupting the prose flow. Each block opens with
+a short **bold title**. The book names these ideas with those titles; it does
+not describe them with the word *pattern*.
 
 These blocks use subtle visual emphasis (such as light shading and a
 soft border) so they remain distinct from both normal prose and
@@ -83,15 +85,17 @@ vignettes without overpowering the page.
 Example:
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Example Name**
+**Example Name**
 
 One to two sentences describing a recurring structural dynamic in the
 current context.
 :::
 
-In body prose, the same pattern names may appear **in bold** as short
-anchors (not inside a Pattern block). Bolded names are titles, not ordinary
-nouns; the sentence should still read naturally if the bolding is removed.
+In body prose, the same bold titles may appear again as short anchors (outside
+these blocks). They work like fixed titles, not ordinary nouns: the sentence
+should still read naturally if you imagine the emphasis removed. Where the same
+idea returns, the book usually repeats the title rather than calling it a
+“pattern.”
 
 ### **Vignettes**
 
@@ -123,7 +127,7 @@ does not. It begins with attention.
 The moment other people look to someone when deciding what to do next,
 leadership is already present. It may be formal or informal. It may be
 visible or quiet. It may happen in a family, a team, a congregation, or
-an institution. But the pattern is the same: attention comes into focus, and
+an institution. But the pattern is the same: **Attention Finds a Focus**, and
 consequence follows.
 
 I wrote this book because that moment is common and under-described. We
@@ -155,9 +159,9 @@ formal role, it still applies. People can be looked to before they are
 named as leaders.
 
 Read slowly when needed. The aim is not speed; the aim is clarity. The
-movement of the book is cumulative, and each chapter adds one layer while
-returning to the same throughline: Attention → Influence → Structure →
-Renewal or Erosion.
+movement of the book is cumulative. Each chapter adds one layer. Each one
+returns to the same throughline: Attention → Influence → Structure →
+Renewal or Erosion → Circulation.
 
 That chain is the thread you will see running through the chapters.
 
@@ -172,18 +176,19 @@ weak, good or bad, successful or failed. By that point, many of the
 important structural choices have already hardened. Patterns are already
 being copied. Harm has already been distributed.
 
-This book works earlier in the sequence and asks what can be seen while
+This book works earlier in the sequence. It asks what can be seen while
 influence is still forming.
 
 ### **The Frame**
 
-The book uses one durable definition as its anchor, introduced directly in
-the Introduction.
+The book uses one durable definition as its anchor. The Introduction
+introduces it directly.
 
 From that anchor, the chapters move in three passes:
 
-- **Part I:** how attention becomes influence; renewal and erosion; why
-  observers so often misjudge leaders from outcomes and confidence alone.
+- **Part I:** how attention becomes influence; renewal and erosion; whether
+  influence can circulate back; why observers so often misjudge leaders from
+  outcomes and confidence alone.
 - **Part II:** harm, effectiveness, and legitimacy—each a lens on what
   influence is producing, with circulation tested throughout.
 - **Part III:** scale and drift; tradeoffs under pressure; and what can
@@ -203,8 +208,8 @@ not an excuse for blindness.
 
 ### **Who This Is For**
 
-This book is for people who are looked to by others, and for people who
-must decide whether to keep looking.
+This book is for people who find themselves looked to, and for people who
+look to others and wonder whether to continue.
 
 It is for:
 
@@ -215,7 +220,47 @@ It is for:
 If you have ever felt that something was wrong in a group before results
 made it obvious, this lens is for that feeling.
 
-# **Introduction — When Attention Comes into Focus**
+# **Acknowledgements**
+
+This book did not come from a single moment. It came from many small ones,
+repeated over time.
+
+### **To my wife, Brittany**
+
+Thank you for your constant encouragement and belief. You have not only
+supported this work, you have lived it. You’ve taught me these patterns in
+ways I could not have learned on my own, and you’ve given me the space to
+try, fail, and try again.
+
+### **To my children**
+
+You’ve helped me see what it means for decisions to stay connected to
+outcomes. You respond to what I do far more than what I say, and through you
+I’ve learned that my example becomes the rule whether I intend it or not.
+
+### **To my parents**
+
+You’ve shown me, over time, that plans can change and that people copy what
+works. Not through instruction, but through how you’ve lived. Those lessons
+have stayed with me longer than anything that could have been said directly.
+
+### **To Alistair Cockburn**
+
+Thank you for teaching me how to see and speak in patterns. Your influence is
+present throughout this book, not just in what is written, but in how it is
+shaped.
+
+### **To Anderson Shen, Herb Collins, Jeremy Smith, Dee Grey, Daniel Bean, Tyler Chapman, and Justin Kenlon**
+
+Your examples make this real. The ideas in this book are not abstract to me
+because I’ve seen them lived out through you.
+
+And to the many moments—small and easy to miss—where attention came into
+focus, something happened, and someone learned from it.
+
+This book is an attempt to notice those moments more clearly.
+
+# **Introduction — Attention Finds a Focus**
 
 > A leader is someone others look to when deciding what to do next.
 
@@ -229,7 +274,7 @@ That shift can happen quietly: a room pauses, one person speaks first,
 others calibrate, and direction begins. Most leadership language starts
 later, after outcomes. This book starts earlier, at formation.
 
-### **What Changes When Attention Comes into Focus**
+### **What Changes When Attention Finds a Focus**
 
 When others look to you, your behavior is no longer merely private. It may
 still feel private to you, but others read it as instruction.
@@ -252,41 +297,41 @@ correction.
 ### **How the Dynamics Stack**
 
 Early on, **Attention Finds a Focus**: under uncertainty, people start looking
-to one person for direction. What that person rewards, punishes, or ignores is
-how **Examples Accumulate**—often faster than anything on paper. Over time,
-**Leadership Coalesces**: one path for decisions becomes the path everyone
-knows.
+to one person for direction. **Examples Accumulate** from what that person
+rewards, punishes, or ignores. That often moves faster than anything on paper.
+Over time, **Leadership Coalesces**: one path for decisions becomes the path
+everyone knows.
 
 When the group can still correct course, **Dissent is Welcomed** early enough to
 matter. **Feedback Drives Change** when new facts can still steer the work.
 **Leaders Feel the Consequences** of their choices where others can see it.
 
 When that breaks down, **Disagreement is Suppressed** and challenge starts to
-sound like disloyalty. **Learning Collapses** when what people on the ground
-know no longer reaches those who decide. **Exceptions are Forever**: what was meant
-to be temporary becomes how things are done.
+sound like disloyalty. **Learning Collapses** when people on the ground can no
+longer get their knowledge to those who decide. People notice that
+**Exceptions are Forever** when temporary changes become how things are done.
 
 It does not stay in one room. **Leadership Reproduces Itself** as people copy
-what gets rewarded; the next cohort learns what leadership is allowed to look
-like here.
+what gets rewarded. The people who come after learn what kind of leadership
+this place treats as normal.
+
+![Diagram: leadership pattern groups](export-assets/diagrams/pattern-groups.png)
 
 ### **How This Book Proceeds**
 
 The chapters follow one structural throughline: Attention → Influence →
-Structure → Renewal or Erosion. After Part I establishes that chain, Part II
-takes up harm, effectiveness, and legitimacy—with **authority circulation**
-threaded through each (whether warning and dissent can still change
-direction). Part III then takes up scale, tradeoffs under pressure, and
-finally how those lenses fit together under harder conditions.
+Structure → Renewal or Erosion → Circulation.
 
-You will see those bold names again in chapter pattern blocks and in Appendix B.
-Appendix B groups recurring **leadership patterns** under **Forming**,
-**Adjusting**, **Eroding**, and **Circulating**. Forming is where live
-conditions get set; from there a structure can move toward Adjusting or
-Eroding; both paths shape what later gets copied and passed on; Circulating
-feeds the next round of formation.
+Part I establishes that chain. Part II takes up harm, effectiveness, and
+legitimacy. Circulation runs through that part: whether warning
+and dissent can still change direction. Part III takes up scale, tradeoffs
+under pressure, and how those lenses fit together under harder conditions.
 
-![Diagram: leadership pattern groups](export-assets/diagrams/pattern-groups.png)
+Those dynamics also gather into four shapes: **Forming**, **Adjusting**,
+**Eroding**, and **Circulating**. **Forming** is where live conditions get
+set. From there a structure can move toward **Adjusting** or **Eroding**—both
+paths shape what later gets copied and passed on. **Circulating** is that
+copying and passing on; it feeds the next round of formation.
 
 Crisis is treated as a recurring thread across the manuscript, with its
 primary integration in Part III.
@@ -306,31 +351,26 @@ becoming while others are watching.
 
 Attention is not yet a habit. It is a moment.
 
-A person looks at another person to decide what to do next. The moment
+People look to another person to decide what to do next. The moment
 can be small. It can pass without language. But if that moment repeats,
 it leaves a pattern.
 
 This part follows that shift.
 
 The first chapter establishes the base condition: leadership begins when
-attention comes into focus around someone and direction is inferred.
+**Attention Finds a Focus** around someone and direction is inferred.
 
 The second chapter names the two paths that follow: renewal and
-erosion. Renewal is not charisma. Erosion is not scandal. Both are formed
-through repeated decisions about correction, harm, and responsibility—each
-round carrying an implicit boundary for what may still be corrected next.
+erosion. Renewal is not charisma. Erosion is not scandal. Both are formed through repeated decisions about correction, harm, and
+responsibility. Each round carries an implicit boundary for what may still be
+corrected next.
 
-The third chapter asks why observers so often miss what is happening: we
-confuse outcomes with legitimacy, miss insulation while it is being
-built, and treat confidence as evidence and repetition as proof.
+The third chapter asks why observers so often miss what is happening.
+We confuse outcomes with legitimacy. We miss insulation while it is being
+built. We treat confidence as evidence and repetition as proof.
 
 The sequence matters. We begin with attention, then track what that
 attention rewards, and then examine why our judgments fail.
-
-Part II will stress-test whether signals can still change direction once
-harm, effectiveness, and legitimacy come under pressure—including whether
-influence can move back toward those who hold formal power, not only outward
-from them.
 
 This is not a search for perfect leaders. It is a practical way to read
 structure while it is still changing.
@@ -349,7 +389,7 @@ when uncertainty rises and looks toward someone who has spoken before. A
 congregation listens for tone before interpreting a difficult moment. A
 company waits for direction when performance falters.
 
-Attention comes into focus. Leadership begins there.[^c1-attention-and-leadership]
+**Attention Finds a Focus**. Leadership begins there.[^c1-attention-and-leadership]
 It does not require a title, charisma, or intention. It requires orientation:
 when others orient themselves around you, your influence multiplies.
 
@@ -358,15 +398,15 @@ claim is a longer test—whether visible behavior still supports the permission
 people are extending.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Attention Finds a Focus**
+**Attention Finds a Focus**
 
-Under uncertainty, attention concentrates quickly, and that concentration
-creates influence before formal authority is named.
+Under uncertainty, attention gathers quickly. Influence forms before formal
+authority is named.
 :::
 
 When no one is looking, your decisions affect only you. When others are
-looking, your decisions ripple—and your behavior stops being private in the
-ways that shape the group. Your pace becomes their pace. Your
+looking, your decisions ripple. Your behavior stops being private in the ways
+that shape the group. Your pace becomes their pace. Your
 tolerance becomes their tolerance. Your silence becomes a signal. Your
 reaction becomes instruction.[^c1-modeling-and-signals]
 
@@ -390,10 +430,12 @@ accumulate quietly. Either way, the signal travels. People rarely wait
 for formal instruction. They read patterns.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Examples Accumulate**
+**Examples Accumulate**
 
-Visible behavior under pressure defines what others treat as acceptable
-faster than policy does, and it teaches people what is safe to surface.
+What a leader rewards, punishes, or ignores teaches others what is acceptable
+faster than policy does. Under pressure those signals get louder—silence
+included—and people read them to learn what is safe to surface or safer to
+leave alone.
 :::
 
 ### **Belief and Repetition**
@@ -409,22 +451,22 @@ the more influence consolidates. The more influence consolidates, the
 more people look. Authority emerges from repetition.[^c1-legitimacy-and-repetition]
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Leadership Coalesces**
+**Leadership Coalesces**
 
-Repeated deference hardens into habit, and one person becomes the
-automatic decision point even without new formal authority.
+When others keep looking to the same person, that repetition hardens into
+habit. One person becomes the automatic decision point even without new formal
+authority.
 :::
 
 Most leaders believe they are acting for good. That belief is not
-unusual. What matters is what happens in practice when others begin to
-orient around them—including how visible responses to dissent, bad news, or
-cost land. Those responses train what others will try next.
+unusual. What matters is what happens in practice when others begin to orient around
+them. That includes how visible responses to dissent, bad news, or cost land. Those responses train what others will try next.
 
 ### **Attention Is Not Obedience**
 
 Being looked to does not mean being obeyed.
 
-People often follow selectively. They accept direction in one domain and
+People often go along selectively. They accept direction in one domain and
 withhold it in another. They nod in the meeting and adjust what they do
 once the room empties.
 
@@ -435,14 +477,14 @@ Sometimes the response is stronger. Under pressure, people may move into
 reflexive opposition, doing the opposite of what they are told as a way
 to protect agency.[^c1-reactance]
 
-This matters because influence can be high while compliance is partial.
-Attention comes into focus first. Interpretation comes next.
+This matters because influence can be high even when people go along only in part.
+**Attention Finds a Focus** first. Interpretation comes next.
 
 ### **Ordinary Decisions, Structural Consequences**
 
 Leadership changes the environment. It alters how harm is distributed,
 how correction is handled, how disagreement survives, how success is
-interpreted, and how failure is absorbed. These changes do not require
+interpreted, and how setbacks are absorbed. These changes do not require
 dramatic moments. They accumulate through ordinary decisions—a tone in
 a meeting, a hiring choice, a promotion, a tolerated shortcut, an
 unchallenged story.[^c1-ordinary-administration]
@@ -457,11 +499,11 @@ next.
 Does influence stay open to correction? Does belief renew through
 example? Does authority drift toward insulation?[^c1-correction-and-insulation]
 
-Leadership begins when attention comes into focus. Renewal or erosion starts
+Leadership begins when **Attention Finds a Focus**. Renewal or erosion starts
 with what follows.
 
 Chapter 2 names those two paths directly and shows how they appear before
-obvious success or failure.
+outcomes are obvious.
 
 ::: {custom-style="Pull Quote Block"}
 When others look to you, your posture becomes part of their world.
@@ -483,31 +525,38 @@ When others look to you, your posture becomes part of their world.
 
 What a group does under attention does not freeze in place.[^c2-adaptive-systems]
 
-Chapter 1 established the opening condition: attention can concentrate
-without guaranteeing obedience, and influence can be high while compliance is
-partial. The next question is what that influence repeatedly produces.
+Chapter 1 established the opening condition. Attention can concentrate
+without guaranteeing that everyone will do what is asked. Influence can be
+high even when people go along only in part. The next question is what that influence repeatedly produces.
 
 Once **Attention Finds a Focus**, the surrounding group moves in one of
 two directions. It can stay open to course correction and keep
-common effort working together as reach grows. Or it can narrow toward
+coordinated action working as reach grows. Or it can narrow toward
 insulation, where correction weakens and reach starts to break down.[^c2-organizational-defenses]
 
-These two directions are renewal and erosion.
+These two directions are **renewal** and **erosion**.
+
+**Renewal** and **erosion** name which way influence is moving. **Vitality**
+and **decay** name the condition that tends to show up when that movement
+holds: sustained **renewal** tends toward **vitality**; sustained **erosion**
+tends toward **decay**. Direction and condition are not the same thing—a
+group can be shifting in either direction—but the four terms answer different
+questions, and this chapter uses all of them on purpose.
 
 They describe how a group behaves, not whether a leader or follower is
 good or bad. A leader can have good intentions and still produce
-erosion. A leader can carry personal flaws and still sustain renewal.
+**erosion**. A leader can carry personal flaws and still sustain **renewal**.
 The distinction is not about purity. It is about what the group does
 when pressure rises.
 
-A practical way to read renewal and erosion is to track two capacities:
+A practical way to read **renewal** and **erosion** is to track two capacities:
 scalability and adaptability.
 
-- **Scalability:** can common effort grow in reach?
-- **Adaptability:** can common effort change direction when reality
+- **Scalability:** can coordinated action grow in reach?
+- **Adaptability:** can coordinated action change direction when reality
   pushes back?
 
-Erosion appears when either capacity shrinks.
+**Erosion** appears when either capacity shrinks.
 
 These capacities create four practical states:
 
@@ -516,12 +565,14 @@ These capacities create four practical states:
 - **Entrenched:** high scalability and low adaptability.
 - **Stalled:** low scalability and low adaptability.
 
-Regenerative and adaptive sit on the renewal side. Entrenched and
-stalled sit on the erosion side.
+Regenerative and adaptive sit on the **renewal** side. Entrenched and
+stalled sit on the **erosion** side.
 
-### **What Renewal Looks Like**
+![Diagram: renewal, erosion, capacities, and states](export-assets/diagrams/renewal-erosion-map.png)
 
-Renewal appears when influence can sustain common effort as reach
+### **What Vitality Looks Like**
+
+**Vitality** shows when influence can sustain coordinated action as reach
 grows.[^c2-high-reliability]
 
 People closest to consequences can still speak. Disagreement is possible
@@ -530,7 +581,7 @@ Mistakes are surfaced before they become identity threats. In that
 climate, **Examples Accumulate**: difficult news stays
 speakable—not hidden.
 
-High-renewal groups do not avoid failure. They shorten the time between
+Vibrant groups do not avoid failure. They shorten the time between
 warning and response. They correct earlier, at lower cost, with less
 drama.
 
@@ -539,7 +590,7 @@ Responsibility is clear. Escalation paths are clear. Repair is clear.
 People know who must decide, and they also know how decision-makers can
 be challenged when needed.[^c2-voice-and-correction]
 
-Renewal feels slower at first because it includes friction. Questions
+**Vitality** feels slower at first because it includes friction. Questions
 take time. Clarifications take time. Dissent takes time. But this
 apparent inefficiency is often what prevents larger collapse later.
 
@@ -547,9 +598,9 @@ apparent inefficiency is often what prevents larger collapse later.
 toward formal leadership as well as outward from it—whether warnings and
 revision still have a usable path.
 
-### **What Erosion Looks Like**
+### **What Decay Looks Like**
 
-Erosion appears when one or both capacities shrink: influence no longer
+**Decay** shows when one or both capacities shrink: influence no longer
 changes direction under pressure, coordinated action no longer sustains
 reach, or both.[^c2-groupthink]
 
@@ -558,53 +609,53 @@ exceptions. Harm gets buried in vague wording and moved away from
 decision-makers. The group preserves confidence by suppressing
 contradiction.
 
-Erosion rarely announces itself. It is assembled through ordinary choices:
+**Erosion** rarely announces itself. It is assembled through ordinary choices:
 who gets interrupted, who gets promoted, which measures count, which
 stories are repeated, which failures are forgiven, and which are hidden.
-Over time, repeated deference can harden until **Leadership Coalesces** sets in
-as the default: one route for decisions becomes the route people know how to
+Over time, repeated looking to the same person can harden until **Leadership Coalesces** sets in
+as the default. One route for decisions becomes the route people know how to
 use.
 
-Some eroding groups still scale for long periods. What drops first is
+Some decaying groups still scale for long periods. What drops first is
 usually **revisability**—room to change plans once they are in motion.
 
 Over time, the group learns a dangerous lesson: protecting the image is
-more important than correction. Inconvenient facts are easier to let slide;
-what gets buried does not disappear—it shows up later as cost. Once that
+more important than correction. Inconvenient facts are easier to let slide. What gets buried does not
+disappear—it shows up later as cost. Once that
 lesson settles, bad outcomes can increase while internal certainty also
 increases.
 
-This is why erosion often looks like stability to insiders. The same
+This is why **erosion** often looks like stability to insiders. The same
 people stay in place. Meetings run on time. Plans look coherent. Language
 becomes smoother. But fewer channels stay open for bad news, and telling the
 truth costs more.
 
 ### **The Cost Gradient**
 
-Renewal and erosion create different cost patterns over time.
+**Renewal** and **erosion** create different cost patterns over time.
 
-High-renewal groups accept small costs early. They absorb discomfort,
+Vibrant groups accept small costs early. They absorb discomfort,
 reputation risk, and rework while problems are still small enough to fix. That
 keeps plans adjustable under pressure and protects both scalability and
 adaptability.
 
-Eroding groups defer those costs. They preserve short-term smoothness,
+Decaying groups defer those costs. They preserve short-term smoothness,
 then pay later in larger forms: preventable harm, coordination that is hard
 to undo, collapsed trust, and expensive repair.
 
-In other words, renewal tends to spend early to preserve capacity.
-Erosion tends to borrow against the future.[^c2-normal-accidents]
+In other words, **renewal** tends to spend early to preserve capacity.
+**Erosion** tends to borrow against the future.[^c2-normal-accidents]
 
 ### **How Harm Moves**
 
 One practical test is harm allocation.
 
-In high-renewal groups, those with authority are more likely to absorb a
+In vibrant groups, those with authority are more likely to absorb a
 portion of the cost of their own decisions. They do not always absorb all
 of it, but there is visible linkage between decision rights and
 accountability.
 
-In eroding groups, costs move downward or outward: those closest to the
+In decaying groups, costs move downward or outward: those closest to the
 consequences, people affected by the decision, or peripheral groups
 absorb the effects while central decision-makers keep control of the public
 story. This displacement is often framed as necessity, but repeated
@@ -614,29 +665,29 @@ displacement is an early warning, not an unfortunate accident.
 
 Not all refusal means disorder.
 
-In high-renewal groups, selective refusal can function as correction.
+In vibrant groups, selective refusal can function as correction.
 People can say, "I agree with the goal, but not this method," without becoming
 enemies of the group. That kind of limited pushback protects judgment
 and keeps authority connected to consequences.
 
-In eroding groups, selective refusal turns covert. People perform
+In decaying groups, selective refusal turns covert. People perform
 agreement while quietly routing around decisions they do not trust. The
 group still appears aligned, but shared reality weakens.
 
 The same behavior can mean different things depending on whether the group
-is renewing or eroding. Open selective dissent often signals renewal; hidden
-selective resistance often signals trust fracture.
+is **renewing** or **eroding**. Open selective dissent often signals **renewal**; hidden
+selective resistance often signals **erosion**.
 
 ### **Why Erosion Feels Rational**
 
-Erosion persists because it often feels reasonable in the moment.
+**Erosion** persists because it often feels reasonable in the moment.
 
 Leaders under pressure narrow channels to "move faster." Teams avoid
 dissent to "stay aligned." Leaders simplify stories to "reduce
 confusion." Each move can be defended locally. Together, they create
 insulation globally.
 
-This is why erosion should be read as a pattern over time, not one bad
+This is why **erosion** should be read as a pattern over time, not one bad
 call. Any single choice can look pragmatic. The pattern becomes visible only through
 repetition.
 
@@ -650,11 +701,11 @@ Three indicators usually appear before obvious breakdown:
 - **Known problems repeat:** the same issues come back without lasting repair.
 
 None of these proves failure by itself. But together they indicate that
-the group is drifting from renewal toward erosion.
+the group is drifting from **renewal** toward **erosion**.
 
 ### **A Practical Discipline**
 
-If leadership begins when attention comes into focus, renewal depends on what
+If leadership begins with **Attention Finds a Focus**, **vitality** depends on what
 happens next when attention is tested.
 
 The practical discipline is simple:
@@ -665,7 +716,7 @@ The practical discipline is simple:
 
 When these conditions hold, authority can renew.
 
-When these conditions weaken, erosion has already begun.
+When these conditions weaken, **decay** has already begun.
 
 Chapter 3 turns to a harder question: if these patterns are present, why
 do observers still misjudge leaders so consistently?
@@ -728,23 +779,23 @@ and decision costs are displaced to people with less power.
 
 Nothing in that pattern requires overt malice. It can arise from habit,
 status anxiety, speed pressure, or the weight of routine. In **closed
-systems**—where signals rarely leave the room they arose in—the same drift
-can accelerate while everyone still sounds reasonable. The effect is
-the same: structure drifts while language remains polished.
+systems**, signals rarely leave the room they arose in. The same drift can
+accelerate while everyone still sounds reasonable. The effect is the same:
+structure drifts while language remains polished.
 
 Structural blindness is common because many of the relevant signals are
 socially expensive to surface.[^c3-psychological-safety] People close to
 problems often carry the highest local risk for naming them.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Dissent is Welcomed**
+**Dissent is Welcomed**
 
-When dissent and risk signals can move upward in time, correction stays
-possible; when they cannot, failure grows in the dark.
+Dissent and risk signals can reach decision-makers in time. Correction
+stays possible.
 :::
 
-When that pathway closes, **Dissent is Welcomed** stops holding in
-practice—bad news stops moving early enough to matter.
+When that pathway closes, **Dissent is No Longer Welcomed** in practice.
+Bad news stops moving early enough to matter.
 
 ### **The Intention Trap**
 
@@ -764,11 +815,11 @@ and how learning is retained across pressure cycles.
 
 A common misunderstanding follows from the same errors.
 
-Observers assume that if people continue to look to a leader, they are
-also consistently following that leader. In practice, followership is
-often selective.[^c3-selective-followership]
+Observers assume that if people continue to look to a leader, they must
+also be going along in full. In practice, that alignment is often
+selective.[^c3-selective-followership]
 
-People may comply with strategic direction while resisting tactics. They
+People may go along with strategic direction while resisting tactics. They
 may trust competence but not moral judgment. They may publicly align and
 privately diverge. They may even invert instructions under pressure to
 preserve autonomy.[^c3-reactance]
@@ -819,14 +870,13 @@ each other: visible success can hide degrading conditions until repair
 becomes expensive.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Learning Collapses**
+**Learning Collapses**
 
-When decision-makers are buffered from what people on the ground experience,
-negative feedback weakens and drift continues behind strong narratives.
+Ground experience stops reaching decision-makers in time. Negative feedback
+weakens. Drift continues behind strong narratives.
 :::
 
-In that condition, you are not looking at a one-off blind spot; you are
-looking at **Learning Collapses**.
+In that condition, this shows **Learning Collapse**, not a one-off blind spot.
 
 ### **What to Watch Instead**
 
@@ -848,9 +898,9 @@ They do not require private motives. They require observable patterns.
 Misjudgment compounds.
 
 When outcome bias and structural blindness combine, leaders receive credit
-for short-term wins while erosion deepens underneath. By the time external
-failure appears, correction capacity has already shrunk and repair costs
-have already risen.
+for short-term wins while decay deepens underneath. By the time external
+failure appears, correction capacity has already shrunk. Repair costs have
+already risen.
 
 This is why late-stage collapse often feels sudden to outsiders and
 inevitable to insiders. The warning signs were present, but the main way
@@ -870,11 +920,12 @@ That standard is less dramatic than hero stories. It is also more
 reliable.
 
 We often misjudge leaders when we ignore whether influence still flows both
-ways—whether dissent and bad news can still change direction before harm spreads.
+ways. We miss whether dissent and bad news can still change direction before
+harm spreads.
 
-Part II applies this lens to harm, effectiveness, and legitimacy, with
-**authority circulation** threaded through each: whether correction can still
-return to those who hold power while the work is underway.
+Part II applies this lens to harm, effectiveness, and legitimacy. It tracks
+circulation in each chapter: whether correction can still return
+to those who hold power while the work is underway.
 
 ::: {custom-style="Pull Quote Block"}
 We often misjudge leaders when we treat outcomes as proof and structure as background.
@@ -899,22 +950,15 @@ error? Who is protected? Who is exposed? Harm allocation is not a side
 effect. It is a core signal of what leadership is becoming.
 
 The second focus is effectiveness over time. Short-term wins can coexist
-with long-term erosion. Visible success can hide shrinking correction paths.
+with long-term decay. Visible success can hide shrinking correction paths.
 
 The third focus is legitimacy: why people keep looking, and what kind of
 permission they extend when they do. Legitimacy can be example-based,
 procedural, office-based, or sacralized, and each form carries different
-renewal risks.
+vitality risks.
 
 Part II also tracks transfer: legitimacy does not change only during one
 leader’s tenure; it can travel across leadership handoffs.
-
-Throughout all three focuses, **authority circulation** runs underneath:
-whether influence can flow back toward those who hold power—whether warnings,
-dissent, and revision can still change direction—or stop at the edge of
-formal authority.
-Renewal requires usable return paths; each chapter tests them from a different
-angle.
 
 Throughout Part II, keep one plain tension in view: **tasks** (what must ship,
 what gets measured) versus **relationships** (who is held in view when costs
@@ -922,7 +966,7 @@ land). Neither word is moral by itself; the balance between them shapes whether
 harm and correction stay real.
 
 This part carries forward a key claim from Part I: being looked to does
-not mean uniform obedience. Selective followership can function as
+not mean everyone does what they are told. Selective followership can function as
 correction in regenerative or adaptive groups, or become a quiet
 fracture in entrenched or stalled ones.
 
@@ -937,9 +981,9 @@ will bring this thread together across the lenses.
 Leadership does not remove harm. It directs where harm goes.[^c4-risk-distribution]
 
 When others look to someone for direction, decisions reach farther. Benefits can
-spread, but costs can too. A missed warning in one role can become
-widespread loss for many people. That is why where harm lands is central to
-leadership, not a late-stage ethical add-on.
+spread, but costs can too. A missed warning in one role can become widespread
+loss for many people. Where harm lands is central to leadership. It is not a
+late-stage ethical add-on.
 
 Most leaders believe they are acting for good. The practical question is
 not intent alone, but where decision costs land when pressure rises.
@@ -982,7 +1026,7 @@ Harm-instrumental leadership treats some people as expendable to protect
 a prized goal or timeline.
 
 The logic sounds efficient: keep momentum, protect those at the center,
-and pass the cost outward. But when that pattern repeats, trust erodes,
+and pass the cost outward. But when that behavior repeats, trust erodes,
 quiet refusal grows, and the group's ability to act weakens.[^c4-power-harm]
 
 ### **Harm-Blind**
@@ -1007,7 +1051,7 @@ Harm displacement usually follows predictable channels:
 These channels can coexist. The more they repeat, the harder correction
 becomes.
 
-Under crisis pressure, this pattern often sharpens: harm is reframed as
+Under crisis pressure, displacement often sharpens: harm is reframed as
 necessary, and displacement is treated as temporary even when it becomes
 habit.
 
@@ -1032,17 +1076,17 @@ those closest to the consequences while leadership protects a short-term
 story of success.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Leaders Feel the Consequences**
+**Leaders Feel the Consequences**
 
-When decision-makers stay connected to consequences, accountability stays
-visible; when that connection breaks, costs move outward and harm is easier
-to treat as unremarkable.
+People who decide stay tied to what their choices do to others. Costs and
+benefits stay visible where decisions are made. Accountability stays in view;
+costs do not quietly slide onto someone else.
 :::
 
-When the **Leaders Feel the Consequences** pattern fails repeatedly—when
-decision-makers lose contact with who bears the cost—the group can shift from
-harm-absorbing leadership toward harm-tolerant or harm-instrumental
-leadership, even when leaders describe the decision as necessary.
+When **Leaders Do Not Feel the Consequences**, decision-makers lose contact
+with who bears the cost. The group can shift from harm-absorbing leadership
+toward harm-tolerant or harm-instrumental leadership, even when leaders describe
+the decision as necessary.
 
 ### **Boundaries and Agency**
 
@@ -1070,7 +1114,7 @@ Selective followership is one of the earliest harm indicators.
 In healthier settings, people can say, "This direction creates avoidable
 damage," and be heard. Selective refusal functions as warning.
 
-In eroding settings, people stop naming harm directly. They comply in
+In decaying settings, people stop naming harm directly. They comply in
 public, reroute work in private, and protect themselves through quiet
 workarounds. What looks like alignment can mask widening harm pathways.
 
@@ -1098,8 +1142,8 @@ People raised the issue; nothing changed. So fixes moved off the books.
 On paper, the group aligns. In daily work, practice drifts.
 
 That gap usually means authority runs one way and is harder to change.
-Distorted feedback is often already governing daily operations there. That is
-**Learning Collapses**.
+Distorted feedback may already govern daily operations there. That shows
+**Learning Collapse**.
 
 Open refusal can still support correction where others can see it. Covert refusal
 often signals a shift toward silent exit.[^c4-exit]
@@ -1113,16 +1157,16 @@ When evaluating leadership under influence, ask:
 - Who can surface harm without retaliation?
 - What changed after harm was named?
 
-If these questions cannot be answered clearly, the **Leaders Feel the
-Consequences** pattern has probably broken down, harm displacement is settling
-in as habit, and the group is drifting toward tolerance or blindness.
+If these questions cannot be answered clearly, **Leaders Do Not Feel the
+Consequences.** Harm displacement is settling in as habit. The group is drifting
+toward tolerance or blindness.
 
 ### **Connection to Chapter 5**
 
 Harm is the first check because it reveals reality quickly.
 
 Chapter 5 turns to the second focus: why short-term effectiveness can hide
-long-term erosion.
+long-term decay.
 
 ::: {custom-style="Pull Quote Block"}
 Where harm lands often reveals what leadership is protecting.
@@ -1158,7 +1202,7 @@ Performance can be real and still fragile. The deeper question is whether
 the result came from renewable conditions or from a one-time squeeze of
 trust and capacity.
 
-When the **only** scoreboard is the task—dates, metrics, deliverables—
+When the **only** scoreboard is the task—dates, counts, deliverables—
 relationships and side effects can drop out of what the group knows how to
 see. That is not a moral failure every time; it is a common way **capability
 without vitality** shows up: the work still ships while the social fabric
@@ -1172,9 +1216,8 @@ It can also reduce correction.
 After visible wins, dissent can look unnecessary. Critical voices are
 reframed as blockers. Signals that conflict with the success narrative
 arrive later, softer, or not at all.[^c5-escalation]
-Success pressure skews what **Examples Accumulate** teaches: the live lesson
-becomes what not to raise. In the same motion, **Dissent is Welcomed** loses
-ground.
+Under success pressure, **Examples Accumulate** flips: the live lesson becomes
+what not to raise. In the same motion, **Dissent is No Longer Welcomed**.
 
 This is one of leadership’s recurring traps: success narrows the very
 channels needed to prevent future failure.
@@ -1185,13 +1228,13 @@ correction channels narrow.
 
 ### **Circulation and Effectiveness**
 
-Influence usually moves outward from leadership. Renewal depends on
+Influence usually moves outward from leadership. Vitality depends on
 whether influence can move back in.
 
-Authority circulation means warnings, dissent, and on-the-ground
+Circulation means warnings, dissent, and on-the-ground
 information can reach decision-makers and change direction without
 punishment.[^c5-voice] While that remains true, **Dissent is Welcomed** still
-describes the group.
+holds.
 
 Circulation is a practical check: it shows where the group sits on Chapter 2’s
 map of renewal and erosion.
@@ -1204,9 +1247,9 @@ still move and revise direction. **Decaying** groups tend toward **constricted
 circulation**: the same care may exist privately, but the public path for
 changing a decision narrows until only workarounds remain.
 
-### **A Simple Circulation Pattern**
+### **Three Circulation Shapes**
 
-Circulation is easiest to read through three patterns:
+Circulation is easiest to read through three shapes:
 
 - **One-way authority:** influence moves outward only; input is collected,
   but the center still decides.
@@ -1216,15 +1259,13 @@ Circulation is easiest to read through three patterns:
   People closest to the issue can temporarily step in to lead a response,
   then return to their usual role.[^c5-guest-leadership]
 
-The third pattern keeps authority connected to ground truth without
+The third keeps authority connected to ground truth without
 requiring permanent role upheaval.
 
 Guest leadership also shapes what others attempt next. When temporary
 step-in leadership is trusted, more people use it openly.
 
-::: {custom-style="Pull Quote Block"}
 When guest leadership is punished, people retreat.
-:::
 
 The retreat shows up as silence or workaround behavior. Offers to step in get
 shorter and more guarded; influence routes through formal channels only; help
@@ -1233,7 +1274,7 @@ being treated as stepping out of line, embarrassing the role-holder, or
 making defense too costly.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Leadership Reproduces Itself**
+**Leadership Reproduces Itself**
 
 What gets rewarded or punished locally becomes a template; people imitate
 it when they step into leadership next.
@@ -1249,11 +1290,11 @@ period passes, including room for temporary step-in leadership, or does
 emergency posture become permanent?
 
 Temporary contraction can preserve function. Permanent closure locks in
-erosion.
+decay.
 
-### **When Failure Strengthens Renewal**
+### **When Failure Strengthens Vitality**
 
-Failure is not always an erosion signal.
+Failure is not always a signal of structural erosion.
 
 Some failures force honest review, clarify limits, and reopen correction
 paths. Groups that can learn publicly from failure often grow more
@@ -1263,10 +1304,10 @@ The issue is not whether failure occurs. The issue is whether learning
 follows.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Feedback Drives Change**
+**Feedback Drives Change**
 
-When new information or visible risk arrives, direction can still revise;
-when it cannot, commitment hardens ahead of reality.
+New information and visible risk can still steer direction. Commitment stays
+open to revision when reality pushes back.
 :::
 
 ### **Deferred Effectiveness**
@@ -1289,9 +1330,9 @@ They can repeat approved language while silently routing around decisions
 they do not believe in.
 
 In these conditions, the group appears coordinated, but its ability to act
-together is already splitting underneath—and distorted feedback can hide
-behind paperwork that looks tidy while the ground story goes missing. That
-tidy surface is often how **Learning Collapses** shows up.
+together is already splitting underneath. Distorted feedback can hide behind
+paperwork that looks tidy while the ground story goes missing. That combination
+often shows **Learning Collapse.**
 
 This is why selective followership matters when judging effectiveness.
 Open disagreement can strengthen results. Quiet divergence usually
@@ -1316,7 +1357,7 @@ look—and what makes that sustainable.
 Chapter 6 examines how legitimacy forms, hardens, and renews over time.
 
 ::: {custom-style="Pull Quote Block"}
-A result can prove capability without proving renewal—or vitality.
+A result can prove capability without proving vitality.
 :::
 [^c5-performance-paradox]: Chris Argyris and Donald A. Schon, *Organizational Learning II: Theory, Method, and Practice* (Reading, MA: Addison-Wesley, 1996).
 [^c5-escalation]: Barry M. Staw, "Knee-Deep in the Big Muddy: A Study of Escalating Commitment to a Chosen Course of Action," *Organizational Behavior and Human Performance* 16, no. 1 (1976): 27–44.
@@ -1339,9 +1380,9 @@ step with what is actually happening. Each form ties authority to
 accountability a little differently. That plays out over time and when
 leadership changes hands.
 
-Those forms also shape two renewal questions you already met in Chapter 2:
+Those forms also shape two vitality questions you already met in Chapter 2:
 whether influence can still change direction under pressure, and whether
-common effort can grow without getting stuck.
+coordinated action can grow without getting stuck.
 
 ### **Example-Based Legitimacy**
 
@@ -1364,7 +1405,7 @@ Those processes can stabilize direction over time and make continuity
 possible beyond any single person.
 
 Procedural legitimacy can support renewal when real challenge is still
-allowed. When the rules are mostly for show, they can hide erosion.
+allowed. When the rules are mostly for show, they can hide decay.
 
 ### **Office-Based Legitimacy**
 
@@ -1385,17 +1426,16 @@ accountability often stays tied to earlier decisions.
 
 Authority persists and becomes morally exempt from ordinary challenge.
 
-Sacralized legitimacy grows when raising doubt feels disloyal, when people
-merge who they are with the leader or the group story, when the public
-story is treated as settled, and when trying to correct someone costs you
-socially.[^c6-arendt]
+Sacralized legitimacy grows when raising doubt feels disloyal. People merge
+who they are with the leader or the group story. The public story is treated
+as settled. Trying to correct someone costs you socially.[^c6-arendt]
 
 From the inside, that can feel like unity. From the outside, it can look
 like strength. In practice, it is still erosion: critique no longer changes
 direction.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Disagreement is Suppressed**
+**Disagreement is Suppressed**
 
 When challenge is recoded as disloyalty, authority becomes harder to
 revise and correction pathways begin to close.
@@ -1443,13 +1483,13 @@ The practical question is whether authority still answers to the people
 its decisions affect.
 
 If legitimacy cannot renew through visible correction, influence may
-continue, but erosion deepens.
+continue, but decay deepens.
 
 ### **Circulation and Legitimate Authority**
 
 If legitimacy asks why people continue to look, circulation asks whether
-influence can move both ways—out from formal leaders and back toward them
-through people who step up for a moment, then step back.
+influence can move both ways. Can it move out from formal leaders and back
+toward them through people who step up for a moment, then step back?
 
 ### **Circulation Signals**
 
@@ -1482,7 +1522,7 @@ remove conflict. It keeps conflict open to revision.
 Circulation also helps groups grow. People nearest the shifting facts can
 step in, fix things locally, and send what they learned back to the center.
 
-When circulation weakens, erosion usually appears before leaders can name it.
+When circulation weakens, decay usually appears before leaders can name it.
 
 ### **Connection to Part III**
 
@@ -1506,20 +1546,16 @@ keeps showing up in real decisions.
 
 # **Bridge — From Structure to Scale Pressure**
 
-Part II used three lenses—harm, effectiveness, and legitimacy—with **authority
-circulation** threaded through each: whether warning, dissent, and revision
-could still change direction under pressure.
-
-Part III puts those lenses back together under harder conditions: larger reach,
+Part III carries the same lenses forward under harder conditions: larger reach,
 more distance from consequence, and faster pressure cycles.
 
 At small scale, correction is often visible and personal. At larger scale,
 signals travel farther, take longer to arrive, and distort more. That does not
-make renewal impossible. It makes renewal harder work.
+make vitality impossible. It makes vitality harder to sustain.
 
 Scale also gives **Leadership Reproduces Itself** more room to run. What gets
-rewarded or punished travels faster than written rules. The next cohort often
-learns from example before it learns from policy.
+rewarded or punished travels faster than written rules. People who come after
+often learn from example before they learn from policy.
 
 Chapter 2’s model—capacities, four states, renewal and erosion—still
 applies. Part III asks how scale and pressure change the risks, not the
@@ -1563,18 +1599,18 @@ Public updates highlight growth and consistency.
 The network did not become harmful because it grew. It became riskier
 because reach grew faster than paths people could use to fix what was wrong.
 That gap widens when shared playbooks and a consistent public story travel
-faster than local revision—one face of **Leadership Reproduces Itself** at
-scale.
+faster than local revision. That is one face of **Leadership Reproduces Itself**
+at scale.
 
 ### **Two Capacities at Scale**
 
 Chapter 2 named **scalability** and **adaptability** as the two useful
-measures: whether common effort can grow in reach, and whether it can change
+measures: whether coordinated action can grow in reach, and whether it can change
 direction when reality pushes back. Those questions stay the same at
 institutional scale; only the distance and delay change.
 
-At scale, the adaptability side shows up as whether **Feedback Drives Change**
-still holds true in practice.
+At scale, the test for adaptability is whether **Feedback Drives Change** still
+holds true in practice.
 
 The same two capacities still sort groups into the four states Chapter 2
 defined. Scale only changes how long each state can look solid from a distance.
@@ -1614,7 +1650,7 @@ travel back with enough force to shift direction, reach can grow while
 learning shrinks.
 
 When that keeps happening, distorted feedback turns into a practical operating
-risk—the failure mode **Learning Collapses** describes.
+risk—**Learning Collapse** often follows.
 
 ### **Human Scale as a Contrast**
 
@@ -1655,7 +1691,7 @@ The core tension is simple: what helps now can damage later.
 
 ### **Three Lenses, One Moment**
 
-Pressure changes harm, effectiveness, and legitimacy at once—and
+Pressure changes harm, effectiveness, and legitimacy at once. It changes
 **circulation** with them: whether dissent and warning can still move fast
 enough to matter.
 
@@ -1715,7 +1751,7 @@ The tradeoff was initially practical, but drift came later when temporary
 exception logic became default governance.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Exceptions are Forever**
+**Exceptions are Forever**
 
 Exceptions introduced under urgency tend to persist, and temporary
 permissions can harden into the new operating baseline.
@@ -1731,8 +1767,9 @@ time, restraint often preserves adaptability and limits harm that shows up
 later.[^c8-escalation]
 
 The question is not whether urgency is real. The question is what gets locked
-in after urgency passes—and whether **Feedback Drives Change** can still happen
-once the emergency story stops dominating meetings.
+in after urgency passes. Once the emergency story stops dominating meetings,
+can new information still revise direction? When it can, **Feedback Drives Change**
+still holds.
 
 ### **Boundary Conditions**
 
@@ -1745,14 +1782,14 @@ You can often see the crossing in sequence:
 3. Default practice.
 
 At that point, pressure is no longer the cause. It has become the
-explanation for a new baseline. Then the pattern **Exceptions are Forever**
-is no longer a warning; it is a governing condition.
+explanation for a new baseline. **Exceptions are Forever** is no longer only
+a warning. It is a governing condition.
 
 ### **Connection to Chapter 9**
 
 Tradeoffs under pressure show trajectories. Chapter 9 asks what remains
-possible once trajectories are visible but reversal is incomplete, and
-once the **Exceptions are Forever** pattern has begun to shape the baseline.
+possible once trajectories are visible but reversal is incomplete. It also asks
+what remains once **Exceptions are Forever** has begun to shape the baseline.
 
 ::: {custom-style="Pull Quote Block"}
 Pressure does not choose for us. It reveals what we are willing to lock in.
@@ -1798,7 +1835,7 @@ A short set of cross-domain examples helps keep this concrete:
 
 Each case can look stable on the surface while the underlying structure drifts
 toward entrenched or stalled conditions. Distorted feedback can still look like
-calm coordination from the outside—the composed surface that **Learning Collapses** names.
+calm coordination from the outside—that shows **Learning Collapse**.
 
 ### **Two Trajectories**
 
@@ -1812,8 +1849,9 @@ Taken together, repeated choices tend to push structure one of two ways:
 
 These are not personality types. They are where decisions accumulate over
 time—not a single switch you flip once, but a direction you reinforce or
-interrupt. Movement between them is possible. The issue is whether
-**Feedback Drives Change** can still happen in practice when reality pushes back.
+interrupt. Movement between them is possible. The issue is whether direction
+can still revise when reality pushes back. **Feedback Drives Change** still
+applies.
 
 ### **When the Baseline Has Already Shifted**
 
@@ -1869,7 +1907,7 @@ local repair.
 
 That distinction matters.
 
-Slowing damage is not the same as restoring renewal. But slowing damage is
+Slowing damage is not the same as restoring vitality. But slowing damage is
 not failure. It is often the only honest starting point.
 
 In this phase, progress can look modest:
@@ -1890,7 +1928,7 @@ test. Repair is harder to postpone. This does not make human-scale
 leadership morally pure. It makes feedback harder to ignore.
 
 Formal rules and policy still matter. But day-to-day practice is where
-durable renewal habits are built:
+durable habits that sustain vitality are built:
 
 - Naming harm without rhetorical cover.
 - Refusing false urgency when correction is still possible.
@@ -1901,13 +1939,14 @@ None of this guarantees a happy ending.
 
 It does something quieter and more realistic: it reduces how much harm can
 be normalized, inherited, and repeated.
-Without that work, decisions may never reconnect with who bears the cost—the
-point of **Leaders Feel the Consequences**—and harm becomes a durable norm
+Without that work, decisions may never reconnect with who bears the cost. That
+is the point of **Leaders Feel the Consequences**. Harm becomes a durable norm
 rather than an intermittent failure.
 
 If this book’s lens changes what you tolerate, what you reward, and what you
-refuse to excuse, then the dynamics **Leadership Reproduces Itself** tracks
-are already shifting for anyone who takes cues from how you lead.
+refuse to excuse, then the dynamics **Leadership Reproduces Itself** tracks are
+already shifting. Anyone who takes cues from how you lead is caught in that
+movement.
 
 Not all change arrives as reversal.
 
@@ -2458,6 +2497,85 @@ can spread with no one meaning to write a playbook.
 **Related Patterns:**
 
 Examples Accumulate; Leadership Coalesces
+
+# **Glossary**
+
+When a word appears in **bold** in the main text, it usually marks a term the
+book is using in a precise, structural sense—**renewal** and **erosion**,
+**circulation**, **harm**, **legitimacy**, and others. This glossary collects
+those terms in one place so you can look them up without hunting backward
+through the chapters.
+
+**Adaptability.** The capacity of coordinated action to change direction when reality
+pushes back. One of two capacities (with **scalability**) used to read **renewal**
+and **erosion**; together they yield the four states **Adaptive**,
+**Entrenched**, **Regenerative**, and **Stalled**.
+
+**Adaptive.** A practical state in the scalability–adaptability grid: lower
+**scalability** with high **adaptability**. Sits on the **renewal** side with
+**Regenerative**.
+
+**Circulation.** The extent to which warnings, dissent, and revision can reach
+and move those who hold formal power, and influence can travel toward formal
+leadership as well as outward from it. The book uses plain *circulation* (not
+“authority circulation”).
+
+**Circulation rich; constricted circulation.** Shorthand for how **vibrant**
+versus **decaying** groups tend to route influence: rich circulation keeps
+warnings and dissent able to move and revise direction; constricted circulation
+narrows those paths.
+
+**Decay.** The state of a group when capacities shrink: influence no longer
+revises readily under pressure, coordinated action no longer sustains reach, or
+both. Contrasts with **vitality**; sustained **erosion** tends toward **decay**.
+
+**Effectiveness.** The dimension of the argument that tracks
+what gets amplified, deferred, or mistaken for control when people look to
+leadership—not the same as morality or intent.
+
+**Entrenched.** A practical state in the scalability–adaptability grid: high
+**scalability** with low **adaptability**. Sits on the **erosion** side with
+**Stalled**.
+
+**Erosion.** The direction in which a group moves when **scalability** or
+**adaptability** shrinks—toward insulation, narrowed correction, and broken
+reach. Contrasts with **renewal**; it describes structure, not moral worth.
+
+**Guest leadership.** **Shared circulation**: people closest to an issue can
+temporarily step in to lead a response, then return to their usual role. The
+phrase follows usage in the guest-leadership literature (see Bibliography).
+
+**Harm.** The dimension of the argument that tracks where cost
+lands when influence is exercised: who absorbs it, who is kept in view, and
+what displacement is treated as acceptable.
+
+**Legitimacy.** What makes authority feel usable to those who
+look: standing grounded in conduct, procedure, office, or something closer to
+identity and story.
+
+**Regenerative.** A practical state in the scalability–adaptability grid:
+high **scalability** and high **adaptability**. Sits on the **renewal** side
+with **Adaptive**.
+
+**Renewal.** The direction in which a group stays open to course correction
+and keeps coordinated action working as reach grows. Contrasts with
+**erosion**; sustained **renewal** tends toward **vitality**.
+
+**Revisability.** Room to change plans once they are in motion—often what drops
+first as **decay** sets in.
+
+**Scalability.** The capacity of coordinated action to grow in reach. One of two
+capacities (with **adaptability**) used to read **renewal** and **erosion**;
+together they yield **Adaptive**, **Entrenched**, **Regenerative**, and
+**Stalled**.
+
+**Stalled.** A practical state in the scalability–adaptability grid: low
+**scalability** and low **adaptability**. Sits on the **erosion** side with
+**Entrenched**.
+
+**Vitality.** The state of a group when influence can sustain coordinated action
+as reach grows—how open, revisable, and workable the group is in the moment.
+Contrasts with **decay**; sustained **renewal** tends toward **vitality**.
 
 # **Bibliography**
 

@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-**Structural edit in progress:** Authority circulation is merged into Part II
+**Structural edit in progress:** Circulation (cross-cutting thread) is merged into Part II
 Chapters 4–6 (no standalone circulation chapter); Part III renumbers to
 Chapters 7–9. See `docs/circulation-cross-cutting.md`.
 
@@ -30,6 +30,10 @@ on branch `when-others-look-to-you-back-matter`.
 
 ## Key Model and Guardrail Updates Landed
 
+- `docs/book-rules.md` is the **precedence** doc for house rules; other
+  `docs/*.md` files should be cross-checked against it when guidance overlaps
+  (Pattern Block positive-only renewing bodies, **Learning Collapse** prose
+  variant, negated-title capitalization, word valence).
 - Renewal/erosion canonical lexicon added to `docs/book-rules.md`:
   - Capacities: scalability, adaptability
   - States: regenerative, adaptive, entrenched, stalled

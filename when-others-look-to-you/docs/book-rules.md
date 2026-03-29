@@ -45,7 +45,7 @@ framing.
 
 ### **Front Matter and Back Matter Files**
 
-- Each front matter section must be in its own markdown file (for example: Author's Note, Preface, Typographical Conventions, Introduction, Prologue, Copyright).
+- Each front matter section must be in its own markdown file (for example: Author's Note, Preface, Acknowledgements, Typographical Conventions, Introduction, Copyright).
 
 - Each back matter section must be in its own markdown file (for example: Epilogue, Bibliography, Notes).
 
@@ -122,6 +122,48 @@ This book should be substantially informed by:
 - Avoid dramatic metaphors.
 
 Clarity before cleverness.
+
+### **Editorial pass: complicated sentences**
+
+Run this pass **chapter by chapter** (or over the full manuscript) when prose
+has drifted toward long, chained clauses. The goal is the same as **Sentence
+Discipline** above: shorter, more direct sentences that carry one clear claim
+at a time.
+
+**Look for**
+
+- Sentences that stack several clauses with *and*, *that*, or similar
+  connectors so the reader has to hold multiple moves at once.
+- Abstract nouns doing the work verbs could do (for example, “that
+  concentration creates…” instead of stating the second idea in its own
+  sentence).
+- Nominalizations or filler that can drop without losing meaning.
+
+**Do**
+
+- Split into short declarative sentences where each sentence advances one
+  step.
+- Prefer simple, concrete verbs over layered abstract ones when both are
+  accurate.
+- Preserve technical or house terms (for example “formal authority”) when they
+  are already part of the book’s vocabulary; simplify the *grammar*, not the
+  conceptual anchor.
+
+**Example (Chapter 1, named-dynamics callout — attention under uncertainty)**
+
+Before:
+
+> Under uncertainty, attention concentrates quickly, and that concentration
+> creates influence before formal authority is named.
+
+After:
+
+> Under uncertainty, attention gathers quickly. Influence forms before formal
+> authority is named.
+
+The revision removes the “X, and that X creates Y” chain, uses a plainer verb
+(*gathers*), and gives influence its own sentence so the sequence reads in the
+same direct cadence as the rest of the book.
 
 ### **Paragraph Grouping Rules**
 
@@ -232,12 +274,186 @@ If removing a line break strengthens coherence, remove it.
 
 - Use each vignette to illuminate a different structural mechanism, not just a different storyline in the same domain.
 
+### **Named dynamics (bold titles): do not call them *patterns* in prose**
+
+The recurring bold titles (for example **Attention Finds a Focus**, **Leaders
+Feel the Consequences**, **Exceptions are Forever**) are **structural labels**
+for readers. Treat them like short titles, not a separate class of object
+called “patterns.”
+
+- In running prose, **do not** attach the word *pattern* to these titles. Avoid
+  phrasing such as “the **X** pattern,” “the **X** pattern fails,” “when the
+  **X** pattern breaks,” or “the **X** pattern has broken down.”
+- **Do** state the condition in plain language, or **negate or qualify the bold
+  title** when that reads cleanly (for example: “When **Leaders Do Not Feel the
+  Consequences**,” rather than “When the **Leaders Feel the Consequences**
+  pattern fails repeatedly”).
+- If avoiding *pattern* requires a **small rewrite** of the sentence, prefer
+  that over keeping a formulaic “pattern” phrase.
+
+**Let the title finish the sentence when you can.** Bold titles do not have to
+be crammed into noun slots (“the label for,” “what **[Title]** refers to,”
+“**[Title]** is about,” “is likely already true”). If the thought can end on
+the title itself—as a diagnosis, a condition that holds, or the answer to a
+prior question—do that.
+
+**Vary how titles land.** Do not lean on one completion habit (“If so, …”
+“This is where …” “That is when …”) across nearby sections or chapters. Mix
+integrated grammar (the title still holds or still applies after a plain setup),
+state sentences (“**Learning Collapse** often follows”), descriptive verbs (“this shows **Learning Collapse**”), descriptive phrases (“That calm is a
+common face of …”), and subject-led verbs (“Under pressure, **Examples
+Accumulate** flips …”). Read aloud: if two completions sound like the same
+template, rewrite one.
+
+**Readability with clause-shaped titles:** Some bold titles read like full
+clauses (**Feedback Drives Change**, **Dissent is Welcomed**). Do not wedge
+them into awkward frames such as “Can **[Title]** still happen?” or “Does
+**[Title]** occur?” when the title is not logically a noun-like event. Prefer
+plain language for the question or claim, then connect with whatever fits:
+“whether **[Title]** still holds,” “**[Title]** still applies,” a follow-up
+sentence that ends on the title, or a short gloss—**not** the same connective
+every time.
+
+**When completion is not enough, vary the anchor.** Repeating “That is what
+**[Title]** names” in close succession sounds mechanical. Prefer completion
+first; otherwise rotate among options that still read as prose, for example
+inline **what [Title] names** or a short gloss (see `docs/pattern-integration-guide.md`,
+**Inline Anchor Rules**). Avoid stacking meta labels (“shorthand for,” “label for
+that check,” “refers to,” “is about”) unless nothing else fits.
+
+**Generic** uses of *pattern* remain fine when they do **not** label one of
+these bold titles: for example “cost patterns over time,” “when that behavior
+repeats,” “erosion read as a pattern over time,” “a harmful pattern emerges” in
+ordinary English.
+
+**Callout blocks:** Manuscript files use `::: {custom-style="Pattern Block"}`
+for production. Inside the block, the heading line should be **the bold title
+only** (for example `**Leaders Feel the Consequences**`), not `**Pattern -
+…**`. The word *Pattern* in the custom-style name is an implementation label,
+not reader-facing vocabulary.
+
+**Pattern Block bodies—positive-only for renewing dynamics:** For dynamics
+that describe **forming, adjusting, or accountability-holding** conditions
+(for example **Dissent is Welcomed**, **Leaders Feel the Consequences**,
+**Feedback Drives Change**), keep the body **only** to what holds when that
+dynamic is alive—short, concrete sentences. **Do not** add a contrasting
+half inside the same block (“when that breaks…,” “when the connection
+fails…,” “otherwise…”). Put the break case in surrounding prose, in a paired
+negated-title line where the book uses one (**Dissent is No Longer Welcomed**,
+**Leaders Do Not Feel the Consequences**), or under a separate **Eroding**
+Pattern Block. **Eroding-titled** blocks (**Learning Collapses**,
+**Disagreement is Suppressed**, **Exceptions are Forever**) name structural
+cost or narrowing; their bodies describe that named condition and do **not**
+need a positive mirror.
+
+**Learning Collapses** (canonical) vs **Learning Collapse** (prose): The
+registered title is **Learning Collapses**—use it in Pattern Block headings,
+appendix section titles, and anywhere you list the dynamics by name. In running
+prose, when grammar calls for a singular noun (*collapse* as event or condition),
+use **Learning Collapse** instead so sentences stay fluent (for example
+“this shows **Learning Collapse**,” “**Learning Collapse** often follows”). It is the same dynamic; the singular is a reader-facing shorthand,
+not a second pattern.
+
+When prose names the *negation* of a canonical title (the dynamic no longer
+holding), bold the echo with the same capitalization style as the originals:
+major words capitalized, short linking words such as *is* lowercase—for example
+**Dissent is No Longer Welcomed**, not **Dissent is no longer Welcomed**;
+**Leaders Do Not Feel the Consequences**, not **Leaders do not Feel the
+Consequences**. Use only when the phrase clearly refers to that named dynamic.
+
+Back matter that catalogs these titles (Appendix B) may still use collection
+wording such as “related dynamics” in later passes; keep terminology aligned
+across appendix headings and cross-references when you change them.
+
+### **Direction vs state (renewal/erosion and vitality/decay)**
+
+Use **different word pairs** depending on whether you mean **which way things
+are moving** or **what things are like now**:
+
+- Direction (movement over time): *renewal*, *renewing*, *erosion*,
+  *eroding*. Use for paths, tendencies, and the two-way chapter frame (“renewal
+  and erosion,” “drifting toward erosion,” “sustaining renewal,” “the erosion
+  side of the map”).
+
+- State (condition at a time): *vitality* (noun), *vibrant* (adjective),
+  *decay* (noun), *decaying* (adjective). Use for how a group **is** in the
+  moment (“vibrant groups,” “decaying settings,” “vitality holds,” “decay
+  deepens,” “decay has already begun,” “locks in decay”). If the sentence is
+  about **drift** or **which way things are heading**, use *erosion* / *renewal*
+  instead.
+
+Do not use *renewal* / *renewing* as stand-ins for “healthy group” when the
+sentence is really about state—that is what *vitality* / *vibrant* are
+for. Appendix B’s **Eroding** category label stays **Eroding** (dynamics
+along the erosion direction); Pattern Block rules that say “eroding-titled”
+are unchanged.
+
+**Chapter 2 setup:** The chapter names the link between pairs early—**renewal**
+tends toward **vitality**, **erosion** toward **decay**—and bolds those four
+words in running prose so direction and condition stay visually distinct. **Do
+not** bold them inside pull quotes (see **Chapter-End Pull-Quote Convention**).
+Elsewhere in the manuscript, bold the same four terms when they carry that
+structural sense if doing so stays readable; do not bold every grammatical
+variant (*renewing*, *eroding*, *vibrant*, *decaying*) by default.
+
+### **Circulation (not *authority circulation*)**
+
+The cross-cutting idea—whether warnings, dissent, and revision can still reach
+and move those who hold formal power—is simply **circulation**. Context
+already ties it to authority; the extra modifier *authority* reads redundant.
+
+- In reader-facing manuscript, use plain *circulation* (no bold unless a
+  heading or list label calls for emphasis). **Do not** use the phrase *authority
+  circulation* or bold **Authority circulation**.
+
+### **Word valence: forming and adjusting vs eroding**
+
+Appendix B groups dynamics under **Forming**, **Adjusting**, **Eroding**, and
+**Circulating**. The first two cover how attention gathers, examples land, paths
+for correction stay open, and similar **structurally neutral or renewal-leaning**
+moves. **Eroding** covers insulation, displacement, and breakdown.
+
+- When you are in **forming or adjusting** territory (early attention, examples,
+  coalescence, dissent welcomed, feedback, consequences visible, guest leadership,
+  circulation holding), **avoid negative-loaded words** that imply submission,
+  blame, or failure unless the sentence is explicitly tracking harm or drift.
+  Examples of words that often mis-color neutral formation: *deference*
+  (implies hierarchy/submission), *compliance* when you mean obedience,
+  *failure* or *failure mode* for a dynamic that is not yet framed as erosion.
+  Prefer the book’s anchor vocabulary: **look to**, **turn to**, **repetition**,
+  **correction**, **circulation**, **default**, **habit**, where accurate.
+
+- When you are in **eroding** territory (suppression, collapse, tolerance of
+  harm, insulation, **Learning Collapses**, **Disagreement is Suppressed**),
+  **negative valence fits**: the prose is already naming cost, narrowing, or
+  loss of revisability.
+
+- **Circulating** / handoff material can lean either way depending on whether
+  the emphasis is renewal paths staying open or channels closing; match
+  valence to the claim.
+
+This is separate from the **renewal/erosion neutrality** guardrail (structural,
+not moral). Here the point is **lexical tone**: do not make neutral formation
+sound like weakness or moral fault.
+
 ## **Vocabulary Constraints**
+
+**Documentation map (*When Others Look to You*):** `book-rules.md` (this file)
+is the **single source of truth** for tone, sentence discipline, named
+dynamics, Pattern Block rules, circulation wording, valence, and
+cross-cutting vocabulary guardrails. Use `editorial-vocabulary.md` as the
+**chapter-aware checklist** after plain-language passes. Use
+`pattern-integration-guide.md` for **placement** and introduction sequence of
+bold titles (editor workflow). Use `drafting-process.md` for **section workflow**
+and which passes to run. Use `circulation-cross-cutting.md` for the archived
+decision to weave circulation through Part II (no standalone chapter). If
+guidance in another doc disagrees with this file, **follow this file** and
+update the other doc.
 
 **When Others Look to You — enforced checklist:** After plain-language or
 echo passes on this manuscript, run the chapter-aware targets in
 `editorial-vocabulary.md` (same `docs/` folder) so vocabulary choices
-(**look** vs **follow**, harm vignette domain, renewal/erosion plain labels,
+(**look** vs **follow**, harm vignette domain, renewal/erosion vs vitality/decay,
 Part III echo rules, etc.) stay consistent.
 
 Avoid:
@@ -343,19 +559,24 @@ The book must:
 
 The book analyzes structure, not people.
 
-### **Renewal/Erosion Neutrality Guardrail**
+### **Renewal, erosion, vitality, and decay (neutrality guardrail)**
 
-- Treat renewal and erosion as structural descriptors, not moral verdicts.
-  In running prose, parallel plain glosses are allowed (for example: "how
+- Treat **renewal**, **erosion**, **vitality**, and **decay** (and their
+  **-ing** / adjective forms where appropriate) as **structural** descriptors,
+  not moral verdicts. See the *Direction vs state* section above for when to use which
+  pair.
+
+- In running prose, parallel plain glosses are allowed (for example: "how
   the group is behaving," "how the group handles harm") when they preserve
   neutrality—see `editorial-vocabulary.md`.
 
-- Do not equate renewal with moral goodness or erosion with moral evil.
+- Do not equate renewal or vitality with moral goodness, or erosion or decay
+  with moral evil.
 
 - Prefer structural wording (for example: "more open to correction," "more
   insulated," "more one-directional," "room to revise plans") over
   moralized shorthand (for example: "healthier," "better people,"
-  "worse people") when describing renewal/erosion dynamics. Avoid rarefied
+  "worse people") when describing these dynamics. Avoid rarefied
   one-word abstractions (*revisability*, *permeability*) in Chapter 2-style
   exposition unless the author explicitly restores them.
 
@@ -473,7 +694,7 @@ No conceptual drift.
 
 The manuscript's governing throughline is:
 
-Attention → Influence → Structure → Renewal or Erosion
+Attention → Influence → Structure → Renewal or Erosion → Circulation
 
 This throughline is a rule constraint, not a back matter section.
 
@@ -505,7 +726,7 @@ Not a person trying to win.
 
 ### **Front Matter Depth**
 
-- Front matter sections (for example: Author's Note, Preface, Introduction, Typographical Conventions, Prologue) must be substantive drafts, not placeholder blurbs.
+- Front matter sections (for example: Author's Note, Preface, Acknowledgements, Introduction, Typographical Conventions) must be substantive drafts, not placeholder blurbs.
 
 - Each front matter section should clearly perform its distinct role in the reading sequence.
 
@@ -591,6 +812,12 @@ Avoid:
 - The manuscript must include `bibliography.md`.
 
 - Add other back matter sections (for example: Epilogue, Notes) only when they add structural clarity.
+
+- Optional `glossary.md` may define **structural vocabulary** bolded in running
+  prose (for example **renewal**, **erosion**, **vitality**, **decay**,
+  **circulation**, **harm**, **effectiveness**, **legitimacy**). **Do not**
+  duplicate Appendix B’s catalog of
+  **named dynamics** (Pattern Block titles); point readers there instead.
 
 ### **Bibliography Integrity**
 

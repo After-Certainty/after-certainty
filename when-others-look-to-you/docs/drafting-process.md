@@ -101,7 +101,32 @@ After each section draft in the active part, run an editorial pass focused on re
 At minimum, check for:
 
 - Stacked negation and avoidable double negatives
-- Awkward sentence constructions
+- Awkward sentence constructions; for multi-clause chains, apply the
+  **complicated-sentence pass** in `docs/book-rules.md` (includes a
+  before/after example from Chapter 1)
+- Bold-titled dynamics: do not call them “patterns” in prose; use negation or
+  plain conditions (see **Named dynamics** in `docs/book-rules.md`)
+- **Pattern Block bodies:** for renewing/adjusting titles, **positive-only**
+  inside the block; no “when it breaks” second half (see **Pattern Block
+  bodies—positive-only for renewing dynamics** in `docs/book-rules.md`)
+- **Negated titles** in prose use title-case echoes (**Dissent is No Longer
+  Welcomed**, **Leaders Do Not Feel the Consequences**—see `docs/book-rules.md`
+  (paragraph beginning “When prose names the *negation*”)
+- Running prose may use **Learning Collapse** (singular) for fluency; Pattern
+  Block headings and lists stay **Learning Collapses** (see **Learning
+  Collapses** vs **Learning Collapse** in `docs/book-rules.md`)
+- **Word valence:** forming/adjusting territory vs eroding—avoid
+  obedience-loaded or blame-loaded wording in neutral formation unless the line
+  is explicitly about harm or drift (see **Word valence** in `docs/book-rules.md`
+  and **Valence** in `docs/editorial-vocabulary.md`)
+- Say **circulation**, not *authority circulation* (see **Circulation** in
+  `docs/book-rules.md`)
+- Bold titles: let titles **complete** sentences with varied wording—**not** the
+  same “If so / This is where / That is when” habit in every section (see
+  **Vary how titles land** in `docs/book-rules.md`); avoid meta wrappers (“the
+  label for,” “refers to,” “is about”) when a natural completion works; do not
+  force clause-shaped titles into “Can **[Title]** still happen?” (see **Named
+  dynamics** in `docs/book-rules.md`)
 - Redundant modifiers and filler phrasing
 - Punctuation and consistency issues that reduce clarity
 - Pull-quote formatting consistency when pull-quotes are used (for example, no bold text inside pull-quotes)
@@ -137,10 +162,12 @@ At minimum:
 - Check for meta prose drift in analytical paragraphs (for example:
   "this chapter," "this section," "in this book") and rewrite into direct
   claim language unless the line is an explicit navigation/handoff.
-- Run a renewal/erosion neutrality check: ensure plain-language edits do
+- Run a renewal/erosion/vitality/decay neutrality check: ensure plain-language edits do
   not convert structural descriptors into moral praise/blame (for
   example: avoid replacing structural terms with "good/bad people" or
-  equivalent moral framing).
+  equivalent moral framing). Use direction words (renewal, erosion, …) and
+  state words (vitality, vibrant, decay, decaying) as in `book-rules.md`,
+  **Direction vs state**.
 - Check local terminology consistency (for example, avoid unnecessary drift between near-synonyms such as "group"/"organization" when no meaning difference is intended).
 - Keep domain-specific terms primarily inside vignette scene blocks; in
   non-vignette prose, prefer domain-agnostic wording unless the argument
@@ -162,10 +189,14 @@ At minimum:
 
 - Run **`docs/editorial-vocabulary.md`** as a mandatory checklist for *When
   Others Look to You* after this step: it encodes approved outcomes from
-  recent passes (Chapter 2 renewal/erosion wording, Chapter 6 look/follow
+  recent passes (Chapter 2 direction vs state wording, Chapter 6 look/follow
   and legitimacy plain speak, Chapters 4–5 harm/effectiveness domain and
   jargon swaps, Part III definition echo rules). Update that file when a new
   house rule is adopted.
+- Confirm any new or revised **Pattern Block** matches `docs/book-rules.md`
+  (positive-only bodies for renewing titles; canonical **Learning Collapses**
+  in the heading vs **Learning Collapse** in running prose when grammar
+  needs the singular).
 
 ## Step 5.9: Late-Addition Continuity Guardrail
 

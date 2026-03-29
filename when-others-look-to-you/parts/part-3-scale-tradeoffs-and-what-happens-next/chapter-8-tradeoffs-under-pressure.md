@@ -12,7 +12,7 @@ The core tension is simple: what helps now can damage later.
 
 ### **Three Lenses, One Moment**
 
-Pressure changes harm, effectiveness, and legitimacy at once—and
+Pressure changes harm, effectiveness, and legitimacy at once. It changes
 **circulation** with them: whether dissent and warning can still move fast
 enough to matter.
 
@@ -72,7 +72,7 @@ The tradeoff was initially practical, but drift came later when temporary
 exception logic became default governance.
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Exceptions are Forever**
+**Exceptions are Forever**
 
 Exceptions introduced under urgency tend to persist, and temporary
 permissions can harden into the new operating baseline.
@@ -88,8 +88,9 @@ time, restraint often preserves adaptability and limits harm that shows up
 later.[^c8-escalation]
 
 The question is not whether urgency is real. The question is what gets locked
-in after urgency passes—and whether **Feedback Drives Change** can still happen
-once the emergency story stops dominating meetings.
+in after urgency passes. Once the emergency story stops dominating meetings,
+can new information still revise direction? When it can, **Feedback Drives Change**
+still holds.
 
 ### **Boundary Conditions**
 
@@ -102,14 +103,14 @@ You can often see the crossing in sequence:
 3. Default practice.
 
 At that point, pressure is no longer the cause. It has become the
-explanation for a new baseline. Then the pattern **Exceptions are Forever**
-is no longer a warning; it is a governing condition.
+explanation for a new baseline. **Exceptions are Forever** is no longer only
+a warning. It is a governing condition.
 
 ### **Connection to Chapter 9**
 
 Tradeoffs under pressure show trajectories. Chapter 9 asks what remains
-possible once trajectories are visible but reversal is incomplete, and
-once the **Exceptions are Forever** pattern has begun to shape the baseline.
+possible once trajectories are visible but reversal is incomplete. It also asks
+what remains once **Exceptions are Forever** has begun to shape the baseline.
 
 ::: {custom-style="Pull Quote Block"}
 Pressure does not choose for us. It reveals what we are willing to lock in.

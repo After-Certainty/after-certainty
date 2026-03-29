@@ -42,10 +42,12 @@ Example:
 When others look to you, your posture becomes part of their world.
 :::
 
-### **Pattern Blocks**
+### **Callout blocks (bold titles)**
 
-Pattern insertions in chapters use a dedicated visual block so readers can
-recognize recurring structures without interrupting the prose flow.
+Some chapters use a dedicated visual block so you can spot recurring
+structural dynamics without interrupting the prose flow. Each block opens with
+a short **bold title**. The book names these ideas with those titles; it does
+not describe them with the word *pattern*.
 
 These blocks use subtle visual emphasis (such as light shading and a
 soft border) so they remain distinct from both normal prose and
@@ -54,15 +56,17 @@ vignettes without overpowering the page.
 Example:
 
 ::: {custom-style="Pattern Block"}
-**Pattern - Example Name**
+**Example Name**
 
 One to two sentences describing a recurring structural dynamic in the
 current context.
 :::
 
-In body prose, the same pattern names may appear **in bold** as short
-anchors (not inside a Pattern block). Bolded names are titles, not ordinary
-nouns; the sentence should still read naturally if the bolding is removed.
+In body prose, the same bold titles may appear again as short anchors (outside
+these blocks). They work like fixed titles, not ordinary nouns: the sentence
+should still read naturally if you imagine the emphasis removed. Where the same
+idea returns, the book usually repeats the title rather than calling it a
+“pattern.”
 
 ### **Vignettes**
 
