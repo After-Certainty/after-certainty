@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 512" role="img" aria-labelledby="re-title re-desc">
+  <title id="re-title">Renewal, erosion, capacities, and states</title>
+  <desc id="re-desc">Renewal tends toward vitality; erosion tends toward decay. Two capacities, scalability and adaptability, define four states in a grid: Adaptive and Regenerative on the renewal side; Stalled and Entrenched on the erosion side. Axes show adaptability on the vertical axis and scalability on the horizontal axis.</desc>
+  <defs>
+    <marker id="re-arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7,3 z" fill="#1a1a1a"/>
+    </marker>
+    <marker id="axis-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,7 L7,3.5 z" fill="#333333"/>
+    </marker>
+    <style>
+      .re-bg { fill: #ffffff; }
+      .re-title { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 15px; font-weight: 600; fill: #111111; }
+      .re-sub { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11px; fill: #333333; }
+      .re-label { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11.5px; font-weight: 600; fill: #0a0a0a; text-anchor: middle; }
+      .re-small { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 9.5px; fill: #2a2a2a; text-anchor: middle; }
+      .re-axis-title { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; font-weight: 600; fill: #222222; }
+      .pair-renewal { fill: #e8e8e8; stroke: #1a1a1a; stroke-width: 2.2; }
+      .pair-erosion { fill: #b8b8b8; stroke: #1a1a1a; stroke-width: 2.2; }
+      .edge { stroke: #333333; stroke-width: 1.5; fill: none; marker-end: url(#re-arrow); }
+      .axis-stroke { stroke: #333333; stroke-width: 2; fill: none; marker-end: url(#axis-arrow); }
+    </style>
+  </defs>
+
+  <rect class="re-bg" x="0" y="0" width="920" height="512"/>
+
+  <text class="re-title" x="24" y="34">Renewal, erosion, capacities, and states</text>
+  <text class="re-sub" x="24" y="54">Directions tend toward conditions; capacities define four practical states.</text>
+
+  <!-- Direction to condition -->
+  <g transform="translate(0, 4)">
+    <rect class="pair-renewal" x="48" y="78" width="118" height="36" rx="6"/>
+    <text class="re-label" x="107" y="100">Renewal</text>
+    <line class="edge" x1="174" y1="96" x2="228" y2="96"/>
+    <rect class="pair-renewal" x="234" y="78" width="118" height="36" rx="6"/>
+    <text class="re-label" x="293" y="100">Vitality</text>
+
+    <rect class="pair-erosion" x="420" y="78" width="118" height="36" rx="6"/>
+    <text class="re-label" x="479" y="100">Erosion</text>
+    <line class="edge" x1="546" y1="96" x2="600" y2="96"/>
+    <rect class="pair-erosion" x="606" y="78" width="118" height="36" rx="6"/>
+    <text class="re-label" x="665" y="100">Decay</text>
+  </g>
+
+  <text class="re-sub" x="24" y="148">Two capacities (scalability and adaptability)</text>
+
+  <!-- Grid + L-shaped axes (same vertical offset as grid cells) -->
+  <g transform="translate(0, 8)">
+    <rect class="pair-renewal" x="256" y="176" width="200" height="124" rx="8"/>
+    <text class="re-label" x="356" y="208">Adaptive</text>
+    <text class="re-small" x="356" y="228">Low scalability</text>
+    <text class="re-small" x="356" y="244">High adaptability</text>
+
+    <rect class="pair-renewal" x="468" y="176" width="200" height="124" rx="8"/>
+    <text class="re-label" x="568" y="208">Regenerative</text>
+    <text class="re-small" x="568" y="228">High scalability</text>
+    <text class="re-small" x="568" y="244">High adaptability</text>
+
+    <rect class="pair-erosion" x="256" y="308" width="200" height="124" rx="8"/>
+    <text class="re-label" x="356" y="340">Stalled</text>
+    <text class="re-small" x="356" y="360">Low scalability</text>
+    <text class="re-small" x="356" y="376">Low adaptability</text>
+
+    <rect class="pair-erosion" x="468" y="308" width="200" height="124" rx="8"/>
+    <text class="re-label" x="568" y="340">Entrenched</text>
+    <text class="re-small" x="568" y="360">High scalability</text>
+    <text class="re-small" x="568" y="376">Low adaptability</text>
+
+    <!-- Axes inset from grid by equal margin (grid left x=256, bottom y=432) -->
+    <!-- Y-axis: adaptability -->
+    <line class="axis-stroke" x1="238" y1="450" x2="238" y2="176"/>
+    <!-- X-axis: scalability (to outer edge of right column: 468+200+~half stroke) -->
+    <line class="axis-stroke" x1="238" y1="450" x2="670" y2="450"/>
+
+    <!-- Axis titles -->
+    <text class="re-axis-title" x="208" y="307" text-anchor="middle" transform="rotate(-90 208 307)">Adaptability</text>
+    <text class="re-axis-title" x="454" y="478" text-anchor="middle">Scalability</text>
+  </g>
+</svg>
