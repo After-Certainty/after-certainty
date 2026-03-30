@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Pitch 84; edges on ellipses (rx=104, ry=32). viewBox min-x balances outer margins to side ovals (116 and 924) vs right edge 945. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="135 76 810 637" role="img" aria-labelledby="pat-title pat-desc">
+  <title id="pat-title">Leadership pattern relationships</title>
+  <desc id="pat-desc">Forming patterns top center: Attention Finds a Focus, Examples Accumulate, Leadership Coalesces. Repeating: Leadership Reproduces Itself at center. Adjusting bottom left: Dissent is Welcomed, Feedback Drives Change, Leaders Feel the Consequences. Eroding bottom right: Disagreement is Suppressed, Learning Collapses, Exceptions are Forever. Selected directed links: Leadership Coalesces to Dissent is Welcomed and to Disagreement is Suppressed; Dissent is Welcomed and Disagreement is Suppressed each to Leadership Reproduces Itself; Leadership Reproduces Itself to Leadership Coalesces (not the reverse); vertical stacks within each group. Grayscale styling: four groups differ by fill value and stroke weight.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#1a1a1a"/>
+    </marker>
+    <style>
+      .edge { stroke: #404040; stroke-width: 1.45; fill: none; marker-end: url(#arrow); }
+      /* Forming: white fill, solid stroke */
+      .oval-forming { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2.4; }
+      /* Adjusting: light gray fill, solid stroke */
+      .oval-adjusting { fill: #e6e6e6; stroke: #1a1a1a; stroke-width: 2.4; }
+      /* Eroding: mid-gray fill, solid stroke */
+      .oval-eroding { fill: #b0b0b0; stroke: #1a1a1a; stroke-width: 2.4; }
+      /* Repeating: off-white fill, thick solid stroke (distinct at center without color) */
+      .oval-repeating { fill: #f2f2f2; stroke: #1a1a1a; stroke-width: 3.2; }
+      .pat-text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 9.5px; fill: #0a0a0a; text-anchor: middle; dominant-baseline: middle; }
+      .leg-text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12.5px; fill: #111111; dominant-baseline: middle; }
+      .leg-swatch { stroke-width: 1.5; }
+      .diagram-title { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 14px; font-weight: 600; fill: #111111; }
+    </style>
+  </defs>
+
+  <rect x="135" y="76" width="810" height="637" fill="#ffffff"/>
+
+  <g transform="translate(20, 0)">
+  <g transform="translate(520, 455) scale(0.94) translate(-520, -455)">
+  <g class="pattern-legend" transform="translate(46, 52)">
+  <text class="diagram-title" x="56" y="34">Pattern groups</text>
+  <!-- Swatches x=56, labels x=94; whole group shifted via parent transform -->
+  <rect class="leg-swatch oval-forming" x="56" y="50" width="28" height="16" rx="3"/>
+  <text class="leg-text" x="94" y="58">Forming</text>
+  <rect class="leg-swatch oval-adjusting" x="56" y="74" width="28" height="16" rx="3"/>
+  <text class="leg-text" x="94" y="82">Adjusting</text>
+  <rect class="leg-swatch oval-eroding" x="56" y="98" width="28" height="16" rx="3"/>
+  <text class="leg-text" x="94" y="106">Eroding</text>
+  <rect class="leg-swatch oval-repeating" x="56" y="122" width="28" height="16" rx="3"/>
+  <text class="leg-text" x="94" y="130">Repeating</text>
+  </g>
+
+  <!-- Segment ends on ellipse boundaries. Cross-links: Coalesces→top side; side→Reproduces; Reproduces→Coalesces (vertical). -->
+  <g class="edges" aria-hidden="true">
+    <!-- Center stack: cy 148,232,316,400 — forming chain downward -->
+    <path class="edge" d="M 520,180 L 520,200"/>
+    <path class="edge" d="M 520,264 L 520,284"/>
+    <!-- Leadership Reproduces Itself → Leadership Coalesces (not reverse) -->
+    <path class="edge" d="M 520,368 L 520,348"/>
+    <!-- Leadership Coalesces → top Adjusting / Eroding ovals -->
+    <path class="edge" d="M 472.1,344.4 L 267.9,465.6"/>
+    <path class="edge" d="M 567.9,344.4 L 772.1,465.6"/>
+    <!-- Side stacks: cy 494,578,662 -->
+    <path class="edge" d="M 220,526 L 220,546"/>
+    <path class="edge" d="M 220,610 L 220,630"/>
+    <path class="edge" d="M 820,526 L 820,546"/>
+    <path class="edge" d="M 820,610 L 820,630"/>
+    <!-- Dissent / Disagreement → Leadership Reproduces Itself only -->
+    <path class="edge" d="M 292.9,471.2 L 447.1,422.8"/>
+    <path class="edge" d="M 747.1,471.2 L 592.9,422.8"/>
+  </g>
+
+  <g class="nodes">
+    <!-- Forming: top center — pitch 84 -->
+    <ellipse class="oval-forming" cx="520" cy="148" rx="104" ry="32"/>
+    <text class="pat-text" x="520" y="148">Attention Finds a Focus</text>
+    <ellipse class="oval-forming" cx="520" cy="232" rx="104" ry="32"/>
+    <text class="pat-text" x="520" y="232">Examples Accumulate</text>
+    <ellipse class="oval-forming" cx="520" cy="316" rx="104" ry="32"/>
+    <text class="pat-text" x="520" y="316">Leadership Coalesces</text>
+
+    <!-- Repeating: center -->
+    <ellipse class="oval-repeating" cx="520" cy="400" rx="104" ry="32"/>
+    <text class="pat-text" x="520" y="400">Leadership Reproduces Itself</text>
+
+    <!-- Adjusting: bottom left — pitch 84 -->
+    <ellipse class="oval-adjusting" cx="220" cy="494" rx="104" ry="32"/>
+    <text class="pat-text" x="220" y="494">Dissent is Welcomed</text>
+    <ellipse class="oval-adjusting" cx="220" cy="578" rx="104" ry="32"/>
+    <text class="pat-text" x="220" y="578">Feedback Drives Change</text>
+    <ellipse class="oval-adjusting" cx="220" cy="662" rx="104" ry="32"/>
+    <text class="pat-text" x="220" y="662">Leaders Feel the Consequences</text>
+
+    <!-- Eroding: bottom right — pitch 84 -->
+    <ellipse class="oval-eroding" cx="820" cy="494" rx="104" ry="32"/>
+    <text class="pat-text" x="820" y="494">Disagreement is Suppressed</text>
+    <ellipse class="oval-eroding" cx="820" cy="578" rx="104" ry="32"/>
+    <text class="pat-text" x="820" y="578">Learning Collapses</text>
+    <ellipse class="oval-eroding" cx="820" cy="662" rx="104" ry="32"/>
+    <text class="pat-text" x="820" y="662">Exceptions are Forever</text>
+  </g>
+  </g>
+  </g>
+</svg>
