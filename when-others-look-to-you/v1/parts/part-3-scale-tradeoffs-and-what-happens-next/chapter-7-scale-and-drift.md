@@ -2,13 +2,14 @@
 
 ### **What Scale Changes**
 
-Human scale and institutional scale are not the same structurally.
+A small group and a large institution are not the same structure.
 
-At human scale, harm is easier to see, correction is faster, and
-accountability is harder to evade. At institutional scale, harm can turn
-abstract. Signals weaken. Revision slows across layers of distance.[^c7-scale-distance]
+At human scale, [**Harm**](../../back-matter/glossary.md#harm) is easier to see, [**Correction**](../../back-matter/glossary.md#correction) is faster, and
+accountability is harder to evade. At institutional scale, [**Harm**](../../back-matter/glossary.md#harm) can get hard to
+see clearly. Information weakens on the way up. Plans are slower to change
+across layers of distance.[^c7-scale-distance]
 
-Scale does not cause erosion by itself. It widens what the structure was
+Scale does not cause [**erosion**](../../back-matter/glossary.md#erosion) by itself. It widens what the structure was
 already likely to produce.
 
 ### **The Regional Network**
@@ -27,31 +28,30 @@ Public updates highlight growth and consistency.
 
 The network did not become harmful because it grew. It became riskier
 because reach grew faster than paths people could use to fix what was wrong.
-That gap widens when shared playbooks and a consistent public story travel
-faster than local revision. That is one face of **Leadership Reproduces Itself**
-at scale.
+That gap widens when shared scripts and a single public story move faster than
+local fixes. That is one face of **Leadership Reproduces Itself** at scale.
 
 ### **Two Capacities at Scale**
 
-Chapter 2 named **scalability** and **adaptability** as the two useful
-measures: whether coordinated action can grow in reach, and whether it can change
-direction when reality pushes back. Those questions stay the same at
-institutional scale; only the distance and delay change.
+[**scalability**](../../back-matter/glossary.md#scalability) and [**adaptability**](../../back-matter/glossary.md#adaptability) are the two measures:
+whether coordinated action can grow in reach, and whether it can change direction
+when reality pushes back. At institutional scale, those questions stay the
+same—only distance and delay change.
 
-At scale, the test for adaptability is whether **Feedback Drives Change** still
-holds true in practice.
+At scale, the test for [**adaptability**](../../back-matter/glossary.md#adaptability) is whether **Feedback Drives Change**
+still holds in practice.
 
-The same two capacities still sort groups into the four states Chapter 2
-defined. Scale only changes how long each state can look solid from a distance.
+The same two capacities sort groups on the grid—the [**vibrant group**](../../back-matter/glossary.md#vibrant-group) or [**decaying group**](../../back-matter/glossary.md#decaying-group). Scale changes how long each state can look solid from a distance.
 
 At larger scale, entrenched patterns can look impressive for longer. Reach
-can expand while correction weakens. **Leadership Coalesces** can also narrow
-who counts as the real escalation point—the gate everyone learns to wait for
-before a problem is treated as real.
+can expand while [**Correction**](../../back-matter/glossary.md#correction) weakens.
+
+**Leadership Coalesces** can also narrow who counts as the real escalation
+point—the place everyone waits on before a problem is treated as real.
 
 ### **Legitimacy Forms Under Scale**
 
-The legitimacy forms from Chapter 6 meet scale as follows:
+Those four forms of [**legitimacy**](../../back-matter/glossary.md#legitimacy) meet scale as follows:
 
 - Example-based legitimacy is strong at human scale but harder to
   preserve as distance grows.
@@ -64,22 +64,24 @@ The legitimacy forms from Chapter 6 meet scale as follows:
   distance grows, and dissent thins out. That can slide toward
   **Disagreement is Suppressed**.[^c7-legitimacy]
 
-Scale does not eliminate judgment. It changes where judgment gets lost.
+Scale does not eliminate judgment. It changes how easily good judgment reaches
+the people who decide.
 
 ### **Selective Followership at Scale**
 
-At small scale, selective refusal is often visible and discussable.
+At small scale, selective refusal is visible and discussable.
 
-At larger scale, selective followership can go quiet: people reading rules
-their own way locally, hidden workarounds, and paperwork that aligns while
-day-to-day reality does not.[^c7-hidden-transcripts]
+At larger scale, selective followership can go quiet: people reading rules their
+own way locally, hidden workarounds, and paperwork that looks aligned while
+day-to-day reality is not aligned.[^c7-hidden-transcripts]
 
-This is one reason circulation matters so much at scale. If concern cannot
-travel back with enough force to shift direction, reach can grow while
-learning shrinks.
+[**Correction**](../../back-matter/glossary.md#correction) matters at scale because if information from the ground cannot
+get back with enough force to change the plan, reach can grow while learning
+shrinks.
 
-When that keeps happening, distorted feedback turns into a practical operating
-risk—**Learning Collapse** often follows.
+When that keeps happening, what leaders hear no longer matches what people on
+the ground are experiencing—that gap becomes a practical operating risk.
+**Learning Collapse** follows.
 
 ### **Human Scale as a Contrast**
 
@@ -88,19 +90,18 @@ Human scale is not automatically better. It is clearer.
 Consequences are harder to hide. Boundaries are easier to name. Repair can
 happen face to face instead of waiting on layers.
 
-At larger scale, those same functions need deliberate design: clear paths
-for feedback, clear roles, bounded authority, and protected time to revise.
+At larger scale, those same functions need deliberate design: clear paths for
+feedback, clear roles, clear limits on who can decide what, and protected time
+to revise.
 
-### **Connection to Chapter 8**
+### **When Pressure Enters**
 
-Scale introduces the conditions. Pressure tests them.
-
-Chapter 8 examines how crisis and urgency force tradeoffs across harm,
-effectiveness, and legitimacy—with circulation narrowing or holding at the
+Scale sets the conditions; pressure tests them. Crisis and urgency force tradeoffs
+across [**Harm**](../../back-matter/glossary.md#harm), [**Effectiveness**](../../back-matter/glossary.md#effectiveness), and [**Legitimacy**](../../back-matter/glossary.md#legitimacy)—with [**Correction**](../../back-matter/glossary.md#correction) narrowing or holding at the
 same time.
 
 ::: {custom-style="Pull Quote Block"}
-Scale can increase reach faster than it increases correction.
+Scale can increase reach faster than it increases [Correction](../../back-matter/glossary.md#correction).
 :::
 [^c7-scale-distance]: Charles Perrow, *Normal Accidents: Living with High-Risk Technologies* (New York: Basic Books, 1984).
 [^c7-legitimacy]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).

@@ -4,7 +4,7 @@
 
 Pressure does not eliminate tradeoffs. It compresses them.
 
-Under urgency, groups often trade slower correction for faster action.
+Under urgency, groups trade slower [**Correction**](../../back-matter/glossary.md#correction) for faster action.
 Sometimes this is necessary. Sometimes it becomes a shortcut that survives
 after the emergency passes.
 
@@ -12,42 +12,48 @@ The core tension is simple: what helps now can damage later.
 
 ### **Three Lenses, One Moment**
 
-Pressure changes harm, effectiveness, and legitimacy at once. It changes
-**circulation** with them: whether dissent and warning can still move fast
+Pressure changes [**Harm**](../../back-matter/glossary.md#harm), [**Effectiveness**](../../back-matter/glossary.md#effectiveness), and [**Legitimacy**](../../back-matter/glossary.md#legitimacy) at once.
+[**Correction**](../../back-matter/glossary.md#correction) moves with them: whether dissent and warning can still move fast
 enough to matter.
 
-- **Harm:** displacement becomes easier to justify.
-- **Effectiveness:** visible control can outrank durable capacity.
-- **Legitimacy:** temporary permission can harden into inherited baseline.
+- [**Harm**](../../back-matter/glossary.md#harm): pushing cost onto someone else becomes easier to justify.
+- [**Effectiveness**](../../back-matter/glossary.md#effectiveness): looking in control can beat building lasting capacity.
+- [**Legitimacy**](../../back-matter/glossary.md#legitimacy): temporary permission can harden into a new default people
+  later treat as normal.
 
-Under pressure, circulation often narrows first: dissent moves from open
-signal to quiet workaround.
+Under pressure, [**Correction**](../../back-matter/glossary.md#correction) narrows first. Dissent moves from open signal
+to quiet workaround.
 
 These shifts can happen in any state, but not with equal cost.
 
 ### **States Under Pressure**
 
-Pressure response often reveals which state a group is in more clearly than routine conditions:
+Pressure response reveals which state a group is in more clearly than routine conditions:
 
-- **Regenerative:** reach and adjustment both hold under load.
-- **Adaptive:** adjustment holds locally, but broader coordination strains.
-- **Entrenched:** reach still holds, but revision narrows.
-- **Stalled:** neither reach nor revision holds with reliability.
+- [**Regenerative**](../../back-matter/glossary.md#regenerative): reach and adjustment both hold under load.
+- [**Adaptive**](../../back-matter/glossary.md#adaptive): adjustment holds locally, but broader coordination strains.
+- [**Entrenched**](../../back-matter/glossary.md#entrenched): reach still holds, but changing course gets harder.
+- [**Stalled**](../../back-matter/glossary.md#stalled): neither reach nor course change holds reliably.
 
-This is why crisis is a diagnostic, not just a disruption.
+Under pressure, the [**vibrant group**](../../back-matter/glossary.md#vibrant-group) and [**decaying group**](../../back-matter/glossary.md#decaying-group) pay different costs when course change must happen fast.
+
+Crisis is a diagnostic, not only a disruption.
 
 ### **Crisis Across the Lenses**
 
 Crisis periods can:
 
-- Increase tolerance for harm displacement.
-- Reward short-term effectiveness while shrinking correction time.
-- Accelerate legitimacy transfer through emergency precedent.
+- Increase tolerance for shifting [**Harm**](../../back-matter/glossary.md#harm) onto others.
+- Reward short-term [**Effectiveness**](../../back-matter/glossary.md#effectiveness) while shrinking the time [**Correction**](../../back-matter/glossary.md#correction) has to matter.
+- Accelerate [**Legitimacy**](../../back-matter/glossary.md#legitimacy) transfer through emergency precedent.
 - Normalize temporary authority expansions into a lasting baseline for how
   decisions get made.[^c8-crisis-precedent]
 
-Crisis does not create these dynamics from nothing. It reveals and
-amplifies what the structure already permits.
+Crisis does not invent these dynamics; it reveals and amplifies what the
+structure already permits.
+
+Under pressure, what gets rewarded or punished also travels fast as a template
+for who leads next—**Leadership Reproduces Itself**.
 
 ### **The Emergency Order**
 
@@ -62,21 +68,16 @@ but route corrections are delayed because the temporary command protocol
 blocks local overrides.
 
 In crisis, that trade is one way **Examples Accumulate** can run against
-correction signals.
+signals that [**Correction**](../../back-matter/glossary.md#correction) is still working.
 
 Months later, the storm is over, but the centralized approval path
 remains. Officials describe it as "proven under pressure."
 :::
 
-The tradeoff was initially practical, but drift came later when temporary
-exception logic became default governance.
-
-::: {custom-style="Pattern Block"}
-**Exceptions are Forever**
-
-Exceptions introduced under urgency tend to persist, and temporary
-permissions can harden into the new operating baseline.
-:::
+The tradeoff worked at first; drift came when rules meant for emergencies became
+the everyday way decisions get made. That is **Exceptions are Forever**:
+exceptions introduced under urgency tend to persist. Temporary permissions
+harden into the new normal for how things run.
 
 ### **Restraint Under Urgency**
 
@@ -84,33 +85,33 @@ Restraint can look weak in the moment.
 
 Leaders who slow, verify, and reopen challenge channels may appear less
 decisive than leaders who centralize control and close debate. But over
-time, restraint often preserves adaptability and limits harm that shows up
+time, restraint preserves [**adaptability**](../../back-matter/glossary.md#adaptability) and limits [**Harm**](../../back-matter/glossary.md#harm) that shows up
 later.
 
-The question is not whether urgency is real. The question is what gets locked
-in after urgency passes.[^c8-escalation] Once the emergency story stops dominating meetings,
-can new information still revise direction? When it can, **Feedback Drives Change**
-still holds.
+Urgency can be real; what matters is what gets locked in after it passes.[^c8-escalation]
+
+Once the emergency story stops dominating meetings, can new information still
+change the plan? When it can, **Feedback Drives Change** still holds.
 
 ### **Boundary Conditions**
 
-Groups cross boundary conditions when emergency logic becomes normal logic.
+Groups cross a line when the rules for emergencies become the everyday rules.
 
-You can often see the crossing in sequence:
+The crossing shows up in sequence:
 
 1. Temporary exception.
 2. Repeated exception.
 3. Default practice.
 
-At that point, pressure is no longer the cause. It has become the
-explanation for a new baseline. **Exceptions are Forever** is no longer only
-a warning. It is a governing condition.
+At that point, pressure is no longer the cause. It has become the explanation for
+a new baseline. **Exceptions are Forever** is no longer only a warning. It
+describes how things are actually run.
 
-### **Connection to Chapter 9**
+### **What Remains Possible**
 
-Tradeoffs under pressure show trajectories. Chapter 9 asks what remains
-possible once trajectories are visible but reversal is incomplete. It also asks
-what remains once **Exceptions are Forever** has begun to shape the baseline.
+Tradeoffs under pressure show trajectories. The live question is what remains
+possible once trajectories are visible but reversal is incomplete—and once
+**Exceptions are Forever** has begun to shape the baseline.
 
 ::: {custom-style="Pull Quote Block"}
 Pressure does not choose for us. It reveals what we are willing to lock in.

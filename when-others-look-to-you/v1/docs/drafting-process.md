@@ -119,8 +119,8 @@ At minimum, check for:
   obedience-loaded or blame-loaded wording in neutral formation unless the line
   is explicitly about harm or drift (see **Word valence** in `docs/book-rules.md`
   and **Valence** in `docs/editorial-vocabulary.md`)
-- Say **circulation**, not *authority circulation* (see **Circulation** in
-  `docs/book-rules.md`)
+- Distinguish **Correction** and **Circulation** (see
+  `docs/book-rules.md`); avoid lowercase *circulation* for structural claims—use the glossary terms or plain English that cannot be mistaken for them
 - Bold titles: let titles **complete** sentences with varied wording—**not** the
   same “If so / This is where / That is when” habit in every section (see
   **Vary how titles land** in `docs/book-rules.md`); avoid meta wrappers (“the

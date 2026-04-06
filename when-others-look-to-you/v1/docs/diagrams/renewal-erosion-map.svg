@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 512" role="img" aria-labelledby="re-title re-desc">
   <title id="re-title">Renewal, erosion, capacities, and states</title>
-  <desc id="re-desc">Renewal tends toward vitality; erosion tends toward decay. Two capacities, scalability and adaptability, define four states in a grid: Adaptive and Regenerative on the renewal side; Stalled and Entrenched on the erosion side. Axes show adaptability on the vertical axis and scalability on the horizontal axis.</desc>
+  <desc id="re-desc">Renewal tends toward vitality; erosion tends toward decay. Two capacities, scalability and adaptability, define four states in a grid: Adaptive and Regenerative in the vibrant group; Stalled and Entrenched in the decaying group. Axes show adaptability on the vertical axis and scalability on the horizontal axis.</desc>
   <defs>
     <marker id="re-arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
       <path d="M0,0 L0,6 L7,3 z" fill="#1a1a1a"/>
@@ -16,6 +16,7 @@
       .re-label { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11.5px; font-weight: 600; fill: #0a0a0a; text-anchor: middle; }
       .re-small { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 9.5px; fill: #2a2a2a; text-anchor: middle; }
       .re-axis-title { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; font-weight: 600; fill: #222222; }
+      .re-group { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; font-weight: 600; fill: #1a1a1a; text-anchor: middle; }
       .pair-renewal { fill: #e8e8e8; stroke: #1a1a1a; stroke-width: 2.2; }
       .pair-erosion { fill: #b8b8b8; stroke: #1a1a1a; stroke-width: 2.2; }
       .edge { stroke: #333333; stroke-width: 1.5; fill: none; marker-end: url(#re-arrow); }
@@ -66,6 +67,9 @@
     <text class="re-label" x="568" y="340">Entrenched</text>
     <text class="re-small" x="568" y="360">High scalability</text>
     <text class="re-small" x="568" y="376">Low adaptability</text>
+
+    <text class="re-group" x="462" y="164">Vibrant group</text>
+    <text class="re-group" x="462" y="444">Decaying group</text>
 
     <!-- Axes inset from grid by equal margin (grid left x=256, bottom y=432) -->
     <!-- Y-axis: adaptability -->

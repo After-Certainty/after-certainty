@@ -72,8 +72,8 @@ Harm displacement usually follows predictable channels:
 - Forward: costs are deferred to future teams.
 - Inward: costs are hidden as burnout, fear, and silence.
 
-These channels can coexist. The more they repeat, the harder correction
-becomes.
+These channels can coexist. The more they repeat, the harder [**Correction**](../../back-matter/glossary.md#correction)
+becomes. Repetition also teaches what the next person in charge is likely to copy—**Leadership Reproduces Itself**.
 
 Under crisis pressure, displacement often sharpens: harm is reframed as
 necessary, and displacement is treated as temporary even when it becomes
@@ -82,7 +82,7 @@ habit.
 ### **The Ribbon Date**
 
 ::: {custom-style="Vignette Block"}
-A community center has one week before a ribbon cutting the mayor’s office
+A community center has one week before a ribbon cutting that the mayor’s office
 scheduled. A facilities volunteer notices a handrail on the stairs is
 still loose. She raises it at the prep meeting. The site lead replies,
 "Note it and open anyway—we can't miss that date."
@@ -99,13 +99,9 @@ risk moves outward to people affected by the decision and downward to
 those closest to the consequences while leadership protects a short-term
 story of success.
 
-::: {custom-style="Pattern Block"}
-**Leaders Feel the Consequences**
-
-People who decide stay tied to what their choices do to others. Costs and
-benefits stay visible where decisions are made. Accountability stays in view;
-costs do not quietly slide onto someone else.
-:::
+**Leaders Feel the Consequences** means people who decide stay tied to what
+their choices do to others. Costs and benefits stay visible where decisions are
+made. Accountability stays in view and does not quietly slide onto someone else.
 
 When **Leaders Do Not Feel the Consequences**, decision-makers lose contact
 with who bears the cost. The group can shift from harm-absorbing leadership
@@ -142,7 +138,7 @@ In decaying settings, people stop naming harm directly. They comply in
 public, reroute work in private, and protect themselves through quiet
 workarounds. What looks like alignment can mask widening harm pathways.
 
-Harm is also where circulation failures show up first: people raise real
+Harm is also where [**Correction**](../../back-matter/glossary.md#correction) failures show up first: people raise real
 risk; nothing changes; the cost stays in place or moves to someone who
 cannot refuse.
 
@@ -159,7 +155,7 @@ themselves to close the gaps. Reports still show formal compliance with the
 central rule, but local practice quietly diverges.
 :::
 
-This is a circulation failure, not simply local resistance.
+This is a [**Correction**](../../back-matter/glossary.md#correction) failure, not simply local resistance.
 
 People raised the issue; nothing changed. So fixes moved off the books.
 
@@ -167,10 +163,10 @@ On paper, the group aligns. In daily work, practice drifts.
 
 That gap usually means authority runs one way and is harder to change.
 Distorted feedback may already govern daily operations there. That shows
-**Learning Collapse**.
+**Learning Collapse** is already in play.
 
-Open refusal can still support correction where others can see it. Covert refusal
-often signals a shift toward silent exit.[^c4-exit]
+Open refusal can still support [**Correction**](../../back-matter/glossary.md#correction) where others can see it.
+Covert refusal often signals a shift toward silent exit.[^c4-exit]
 
 ### **A Practical Harm Check**
 
@@ -185,12 +181,11 @@ If these questions cannot be answered clearly, **Leaders Do Not Feel the
 Consequences.** Harm displacement is settling in as habit. The group is drifting
 toward tolerance or blindness.
 
-### **Connection to Chapter 5**
+### **Where the Argument Turns Next**
 
 Harm is the first check because it reveals reality quickly.
 
-Chapter 5 turns to the second focus: why short-term effectiveness can hide
-long-term decay.
+The next focus is why short-term effectiveness can hide long-term decay.
 
 ::: {custom-style="Pull Quote Block"}
 Where harm lands often reveals what leadership is protecting.

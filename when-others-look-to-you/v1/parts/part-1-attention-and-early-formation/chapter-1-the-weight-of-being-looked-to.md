@@ -7,8 +7,8 @@
 A leader is someone others look to when deciding what to do next.[^c1-working-definition]
 
 This happens more often than we notice. A child hesitates before
-crossing a street and glances at a parent. A team pauses in a meeting
-when uncertainty rises and looks toward someone who has spoken before. A
+crossing a street and glances at a parent. A team pauses in a meeting as
+uncertainty rises and people look toward someone who has spoken before. A
 congregation listens for tone before interpreting a difficult moment. A
 company waits for direction when performance falters.
 
@@ -35,8 +35,8 @@ reaction becomes instruction.[^c1-modeling-and-signals]
 
 The effect is rarely announced. It accumulates. People calibrate
 themselves against what you appear to allow, resist, or reward. If you
-dismiss harm, harm becomes easier to dismiss. If you absorb cost, others
-learn what restraint looks like. If you avoid correction, others learn
+dismiss [**Harm**](../../back-matter/glossary.md#harm), [**Harm**](../../back-matter/glossary.md#harm) becomes easier for others to dismiss. If you absorb cost, others
+learn what restraint looks like. If you avoid [**Correction**](../../back-matter/glossary.md#correction), others learn
 that stability matters more than truth. Leadership does not amplify
 intention. It amplifies posture.[^c1-norm-formation]
 
@@ -81,9 +81,10 @@ habit. One person becomes the automatic decision point even without new formal
 authority.
 :::
 
-Most leaders believe they are acting for good. That belief is not
-unusual. What matters is what happens in practice when others begin to orient around
-them. That includes how visible responses to dissent, bad news, or cost land. Those responses train what others will try next.
+Most leaders believe they are acting for good. What matters is what happens
+in practice once others begin to orient around them—including how visible
+responses to dissent, bad news, or cost land. Those responses train what
+others will try next.
 
 ### **Attention Is Not Obedience**
 
@@ -105,8 +106,8 @@ This matters because influence can be high even when people go along only in par
 
 ### **Ordinary Decisions, Structural Consequences**
 
-Leadership changes the environment. It alters how harm is distributed,
-how correction is handled, how disagreement survives, how success is
+Leadership changes the environment. It alters how [**Harm**](../../back-matter/glossary.md#harm) is distributed,
+how [**Correction**](../../back-matter/glossary.md#correction) is handled, how disagreement survives, how success is
 interpreted, and how setbacks are absorbed. These changes do not require
 dramatic moments. They accumulate through ordinary decisions—a tone in
 a meeting, a hiring choice, a promotion, a tolerated shortcut, an
@@ -119,13 +120,13 @@ When others are looking, very little is neutral.
 The question is less whether others will look, and more what happens
 next.
 
-Does influence stay open to correction? Does belief renew through
+Does influence stay open to [**Correction**](../../back-matter/glossary.md#correction)? Does belief renew through
 example? Does authority drift toward insulation?[^c1-correction-and-insulation]
 
-Leadership begins when **Attention Finds a Focus**. Renewal or erosion starts
+Leadership begins when **Attention Finds a Focus**. [**Renewal**](../../back-matter/glossary.md#renewal) or [**erosion**](../../back-matter/glossary.md#erosion) starts
 with what follows.
 
-Chapter 2 names those two paths directly and shows how they appear before
+What comes next names those two paths directly and traces how they show up before
 outcomes are obvious.
 
 ::: {custom-style="Pull Quote Block"}

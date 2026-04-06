@@ -2,8 +2,8 @@
 
 ## Current Phase
 
-**Structural edit in progress:** Circulation (cross-cutting thread) is merged into Part II
-Chapters 4–6 (no standalone circulation chapter); Part III renumbers to
+**Structural edit in progress:** Correction and Circulation (cross-cutting threads) are merged into Part II
+Chapters 4–6 (no standalone chapter on generic “circulation”; use **Correction** and **Circulation**); Part III renumbers to
 Chapters 7–9. See `docs/circulation-cross-cutting.md`.
 
 Previously: Part III merged to `main`. Back matter drafting and audit were active

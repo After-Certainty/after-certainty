@@ -8,6 +8,10 @@ For global tone and universality rules, see `book-rules.md`. For where to place 
 
 ## Cross-cutting
 
+### **Transitions (no part or chapter labels)**
+
+- In chapter body prose and part bridges, do not use navigational signposts such as **Part II** or **Chapter 8**; hand the reader with ideas, lenses, or questions instead. Full rule and exceptions (index, preface, title lines, appendix): **Transitions (no part or chapter labels)** in `book-rules.md`.
+
 ### **Look vs follow**
 
 - **Look / look to** stays the book’s anchor (opening definition, attention, formation).
@@ -49,10 +53,10 @@ For global tone and universality rules, see `book-rules.md`. For where to place 
 - Full rule and Appendix B naming: `book-rules.md`, *Direction vs state* and **Word valence**.
 - **Stagnant** — optional cold-side gloss where **decaying** would over-claim; do not stack with vitality/vibrant/decay in one sentence unless necessary.
 
-### **Circulation rich vs constricted**
+### **Correction rich vs constricted correction**
 
-- **Circulation rich** — dissent, bad news, and temporary leadership can still **move** and **change decisions**; aligns with **vibrant** health.
-- **Constricted circulation** — dissent **narrows** from open signal to **quiet workaround**; aligns with **decaying** erosion. Use when Part II (Ch. 4–6) or Part III discuss feedback paths, not as jargon in every chapter.
+- **Correction rich** — dissent and bad news can still **move** and **change decisions**; aligns with **vibrant** health. (Temporary step-in leadership is **Circulation**, not the same label.)
+- **Constricted correction** — dissent **narrows** from open signal to **quiet workaround**; aligns with **decaying** erosion. Use when Part II (Ch. 4–6) or Part III discuss feedback paths, not as jargon in every chapter.
 
 ---
 
@@ -77,7 +81,7 @@ For global tone and universality rules, see `book-rules.md`. For where to place 
 
 ## Chapter 6 — Legitimacy (Pass 2)
 
-- Direction vs state: where the claim is **accumulating condition** (rules hiding rot, circulation weak, legitimacy sliding), prefer **decay** over *erosion*; keep *erosion* / *renewal* when naming **drift** or the two-way frame.
+- Direction vs state: where the claim is **accumulating condition** (rules hiding rot, **Correction** weak, legitimacy sliding), prefer **decay** over *erosion*; keep *erosion* / *renewal* when naming **drift** or the two-way frame.
 - Opening: tie vitality questions to **Chapter 2** in plain words (change direction under pressure; coordinated action without getting stuck).
 - **Example-based:** visible behavior → **what they can see**; *conduct* → **real behavior**.
 - **Procedural:** rules and roles; *symbolic process* → **rules mostly for show**.
@@ -101,7 +105,7 @@ For global tone and universality rules, see `book-rules.md`. For where to place 
 
 ## Chapter 5 — Effectiveness (Pass 3)
 
-- Subheading **When Failure Strengthens Vitality** (state); circulation opening uses **Vitality depends** where the claim is about condition, not direction.
+- Subheading **When Failure Strengthens Vitality** (state); **Correction** opening uses **Vitality depends** where the claim is about condition, not direction.
 - Short-term success **triad** in Chapter 5 should stay **mixed-domain** (e.g. school / neighborhood / public crisis), not finance-quarter-default.
 - Prefer: **one-time squeeze of trust and capacity** over *one-time extraction*.
 - *Political discomfort* → **awkward public moments** where used.
@@ -135,6 +139,6 @@ For global tone and universality rules, see `book-rules.md`. For where to place 
 | 1 | Renewal/erosion model wording | `chapter-2-renewal-and-erosion.md`, Part III bridge, Ch 7 (Scale) state echo |
 | 2 | Legitimacy plain speak + look/follow | `chapter-6-legitimacy-over-time.md` |
 | 3 | Harm + effectiveness domains & jargon | `chapter-4-harm-under-influence.md`, `chapter-5-effectiveness-and-its-illusions.md` |
-| Alistair alignment | Vitality/vibrant/stagnant language; task vs relationship spine; circulation rich/constricted; pattern relationship diagram | `editorial-vocabulary.md`, Part I–II bridges, Ch 1–6 selected, `appendix-b-leadership-patterns.md`, `docs/diagrams/pattern-groups.svg`, pattern docs |
+| Alistair alignment | Vitality/vibrant/stagnant language; task vs relationship spine; Correction rich/constricted; pattern relationship diagram | `editorial-vocabulary.md`, Part I–II bridges, Ch 1–6 selected, `appendix-b-leadership-patterns.md`, `docs/diagrams/pattern-groups.svg`, pattern docs |
 
 Update this file when a future pass changes a **deliberate** house rule (not one-off stylistic tweaks).

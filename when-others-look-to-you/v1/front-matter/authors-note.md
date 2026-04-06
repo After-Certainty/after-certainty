@@ -22,7 +22,7 @@ It is an account of what changes when others look to someone for direction:
 
 - How influence spreads through example, silence, and repetition.
 - How harm is absorbed, displaced, or normalized.
-- How authority remains open to correction or drifts toward insulation.
+- How authority remains open to [**Correction**](../back-matter/glossary.md#correction) or drifts toward insulation.
 - How groups renew or erode over time.
 
 The core argument is simple: leadership is less about inner identity and
@@ -39,22 +39,22 @@ director, or teammate, the frame should still apply. If you hold no
 formal role, it still applies. People can be looked to before they are
 named as leaders.
 
-Read slowly when needed. The aim is not speed; the aim is clarity. The
-movement of the book is cumulative. Each chapter adds one layer. Each one
-returns to the same throughline: Attention → Influence → Structure →
-Renewal or Erosion → Circulation.
+Read slowly when needed. The aim is not speed; it is clarity. The movement
+of the book is cumulative. Each chapter adds one layer. Each one returns to
+the same throughline: Attention → Influence → Structure → Renewal or
+Erosion → [**Circulation**](../back-matter/glossary.md#circulation) and [**Correction**](../back-matter/glossary.md#correction).
 
 That chain is the thread you will see running through the chapters.
 
-### **A companion edition**
+### **A Companion Edition**
 
-There is a second book that uses the same pattern language—the same
-named dynamics you will meet here—but tells a different story with a
-different spine. It is subtitled Forming, Renewing, Eroding, Repeating,
-walks one pattern per chapter in order, and follows how moments chain into
-habit and how habit travels. It is not a summary of this volume and not a
-sequel; it is a companion you can read before, after, or alongside. If you
-want the patterns in a single clear throughline, start there; if you want the
-thematic development of harm, legitimacy, scale, and circulation developed
-here, you are already in the right place—and the other book will still speak
-in the same vocabulary when you turn to it.
+There is a second book that uses the same pattern language—the same named
+dynamics you will meet here—but tells a different story with a different
+spine. It is subtitled *Forming, Renewing, Eroding, Repeating*. It walks one
+pattern per chapter, in order, and follows how moments chain into habit and
+how habit travels. It is not a summary of this volume and not a sequel; it is
+a companion you can read before, after, or alongside.
+
+If you want the patterns in a single clear throughline, start there. If you
+want the thematic development of harm, legitimacy, scale,
+[**Circulation**](../back-matter/glossary.md#circulation), and [**Correction**](../back-matter/glossary.md#correction) that this book develops, you are already in the right place. The other book will still speak in the same vocabulary when you turn to it.
