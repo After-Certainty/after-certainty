@@ -429,7 +429,7 @@ The manuscript distinguishes two structural senses that older drafts sometimes f
 - **Circulation** — whether influence can move through temporary or shared leadership (including guest leadership) so leadership scales and reproduces itself; what **Leadership Reproduces Itself** tracks when people imitate what last worked.
 - **Correction** — whether warnings, dissent, and on-the-ground information can reach decision-makers and change direction without punishment (return paths for feedback and revision).
 
-- In reader-facing manuscript, use the precise term the sentence needs; bold **Circulation** and **Correction** when they carry structural sense (same convention as other glossary anchors). **Do not** use lowercase *circulation* for the structural ideas—it reads like the old umbrella word. Use **Circulation** (scaling, guest leadership, imitation) or **Correction** (return paths for dissent and warning), or ordinary English (*feedback*, *revision*) when you do not mean the glossary terms.
+- In reader-facing manuscript, use the precise term the sentence needs; bold **Circulation** and **Correction** when they carry structural sense (same convention as other glossary terms). **Do not** use lowercase *circulation* for the structural ideas—it reads like the old umbrella word. Use **Circulation** (scaling, guest leadership, imitation) or **Correction** (return paths for dissent and warning), or ordinary English (*feedback*, *revision*) when you do not mean the glossary terms. **Do not** wrap glossary terms in links to `glossary.md` (bold only); links were distracting in ePub and are not used.
 
 ### **Word valence: forming and adjusting vs eroding**
 

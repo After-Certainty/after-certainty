@@ -4,7 +4,7 @@
 
 Pressure does not eliminate tradeoffs. It compresses them.
 
-Under urgency, groups trade slower [**Correction**](../../back-matter/glossary.md#correction) for faster action.
+Under urgency, groups trade slower **Correction** for faster action.
 Sometimes this is necessary. Sometimes it becomes a shortcut that survives
 after the emergency passes.
 
@@ -12,16 +12,16 @@ The core tension is simple: what helps now can damage later.
 
 ### **Three Lenses, One Moment**
 
-Pressure changes [**Harm**](../../back-matter/glossary.md#harm), [**Effectiveness**](../../back-matter/glossary.md#effectiveness), and [**Legitimacy**](../../back-matter/glossary.md#legitimacy) at once.
-[**Correction**](../../back-matter/glossary.md#correction) moves with them: whether dissent and warning can still move fast
+Pressure changes **Harm**, **Effectiveness**, and **Legitimacy** at once.
+**Correction** moves with them: whether dissent and warning can still move fast
 enough to matter.
 
-- [**Harm**](../../back-matter/glossary.md#harm): pushing cost onto someone else becomes easier to justify.
-- [**Effectiveness**](../../back-matter/glossary.md#effectiveness): looking in control can beat building lasting capacity.
-- [**Legitimacy**](../../back-matter/glossary.md#legitimacy): temporary permission can harden into a new default people
+- **Harm**: pushing cost onto someone else becomes easier to justify.
+- **Effectiveness**: looking in control can beat building lasting capacity.
+- **Legitimacy**: temporary permission can harden into a new default people
   later treat as normal.
 
-Under pressure, [**Correction**](../../back-matter/glossary.md#correction) narrows first. Dissent moves from open signal
+Under pressure, **Correction** narrows first. Dissent moves from open signal
 to quiet workaround.
 
 These shifts can happen in any state, but not with equal cost.
@@ -30,12 +30,12 @@ These shifts can happen in any state, but not with equal cost.
 
 Pressure response reveals which state a group is in more clearly than routine conditions:
 
-- [**Regenerative**](../../back-matter/glossary.md#regenerative): reach and adjustment both hold under load.
-- [**Adaptive**](../../back-matter/glossary.md#adaptive): adjustment holds locally, but broader coordination strains.
-- [**Entrenched**](../../back-matter/glossary.md#entrenched): reach still holds, but changing course gets harder.
-- [**Stalled**](../../back-matter/glossary.md#stalled): neither reach nor course change holds reliably.
+- **Regenerative**: reach and adjustment both hold under load.
+- **Adaptive**: adjustment holds locally, but broader coordination strains.
+- **Entrenched**: reach still holds, but changing course gets harder.
+- **Stalled**: neither reach nor course change holds reliably.
 
-Under pressure, the [**vibrant group**](../../back-matter/glossary.md#vibrant-group) and [**decaying group**](../../back-matter/glossary.md#decaying-group) pay different costs when course change must happen fast.
+Under pressure, the **vibrant group** and **decaying group** pay different costs when course change must happen fast.
 
 Crisis is a diagnostic, not only a disruption.
 
@@ -43,9 +43,9 @@ Crisis is a diagnostic, not only a disruption.
 
 Crisis periods can:
 
-- Increase tolerance for shifting [**Harm**](../../back-matter/glossary.md#harm) onto others.
-- Reward short-term [**Effectiveness**](../../back-matter/glossary.md#effectiveness) while shrinking the time [**Correction**](../../back-matter/glossary.md#correction) has to matter.
-- Accelerate [**Legitimacy**](../../back-matter/glossary.md#legitimacy) transfer through emergency precedent.
+- Increase tolerance for shifting **Harm** onto others.
+- Reward short-term **Effectiveness** while shrinking the time **Correction** has to matter.
+- Accelerate **Legitimacy** transfer through emergency precedent.
 - Normalize temporary authority expansions into a lasting baseline for how
   decisions get made.[^c8-crisis-precedent]
 
@@ -68,7 +68,7 @@ but route corrections are delayed because the temporary command protocol
 blocks local overrides.
 
 In crisis, that trade is one way **Examples Accumulate** can run against
-signals that [**Correction**](../../back-matter/glossary.md#correction) is still working.
+signals that **Correction** is still working.
 
 Months later, the storm is over, but the centralized approval path
 remains. Officials describe it as "proven under pressure."
@@ -85,7 +85,7 @@ Restraint can look weak in the moment.
 
 Leaders who slow, verify, and reopen challenge channels may appear less
 decisive than leaders who centralize control and close debate. But over
-time, restraint preserves [**adaptability**](../../back-matter/glossary.md#adaptability) and limits [**Harm**](../../back-matter/glossary.md#harm) that shows up
+time, restraint preserves **adaptability** and limits **Harm** that shows up
 later.
 
 Urgency can be real; what matters is what gets locked in after it passes.[^c8-escalation]

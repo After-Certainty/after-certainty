@@ -20,8 +20,8 @@ introduces it directly.
 From that anchor, the chapters move in three passes:
 
 - Part I: how attention becomes influence; renewal and erosion; whether
-  [**Correction**](../back-matter/glossary.md#correction) and [**Circulation**](../back-matter/glossary.md#circulation) still hold; and why observers so often misjudge leaders from outcomes and confidence alone.
-- Part II: harm, effectiveness, and legitimacy—each a lens on what influence is producing, with [**Circulation**](../back-matter/glossary.md#circulation) and [**Correction**](../back-matter/glossary.md#correction) tested throughout.
+  **Correction** and **Circulation** still hold; and why observers so often misjudge leaders from outcomes and confidence alone.
+- Part II: harm, effectiveness, and legitimacy—each a lens on what influence is producing, with **Circulation** and **Correction** tested throughout.
 - Part III: scale and drift; tradeoffs under pressure; and what can still change once the lenses are combined.
 
 The language stays simple on purpose. The ideas are serious, but they do

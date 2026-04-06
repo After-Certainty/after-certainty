@@ -35,8 +35,8 @@ reaction becomes instruction.[^c1-modeling-and-signals]
 
 The effect is rarely announced. It accumulates. People calibrate
 themselves against what you appear to allow, resist, or reward. If you
-dismiss [**Harm**](../../back-matter/glossary.md#harm), [**Harm**](../../back-matter/glossary.md#harm) becomes easier for others to dismiss. If you absorb cost, others
-learn what restraint looks like. If you avoid [**Correction**](../../back-matter/glossary.md#correction), others learn
+dismiss **Harm**, **Harm** becomes easier for others to dismiss. If you absorb cost, others
+learn what restraint looks like. If you avoid **Correction**, others learn
 that stability matters more than truth. Leadership does not amplify
 intention. It amplifies posture.[^c1-norm-formation]
 
@@ -106,8 +106,8 @@ This matters because influence can be high even when people go along only in par
 
 ### **Ordinary Decisions, Structural Consequences**
 
-Leadership changes the environment. It alters how [**Harm**](../../back-matter/glossary.md#harm) is distributed,
-how [**Correction**](../../back-matter/glossary.md#correction) is handled, how disagreement survives, how success is
+Leadership changes the environment. It alters how **Harm** is distributed,
+how **Correction** is handled, how disagreement survives, how success is
 interpreted, and how setbacks are absorbed. These changes do not require
 dramatic moments. They accumulate through ordinary decisions—a tone in
 a meeting, a hiring choice, a promotion, a tolerated shortcut, an
@@ -120,10 +120,10 @@ When others are looking, very little is neutral.
 The question is less whether others will look, and more what happens
 next.
 
-Does influence stay open to [**Correction**](../../back-matter/glossary.md#correction)? Does belief renew through
+Does influence stay open to **Correction**? Does belief renew through
 example? Does authority drift toward insulation?[^c1-correction-and-insulation]
 
-Leadership begins when **Attention Finds a Focus**. [**Renewal**](../../back-matter/glossary.md#renewal) or [**erosion**](../../back-matter/glossary.md#erosion) starts
+Leadership begins when **Attention Finds a Focus**. **Renewal** or **erosion** starts
 with what follows.
 
 What comes next names those two paths directly and traces how they show up before

@@ -5,7 +5,7 @@
 Most people do not misjudge leaders because they are careless. They
 misjudge because the most visible signals are often the least reliable.
 
-A plan succeeds, and we infer [**legitimacy**](../../back-matter/glossary.md#legitimacy). A crisis resolves, and we infer
+A plan succeeds, and we infer **legitimacy**. A crisis resolves, and we infer
 competence. A confident narrative holds, and we infer integrity. These
 inferences are understandable. They are also frequently wrong.
 
@@ -37,7 +37,7 @@ organized while they focus on personality, intention, or rhetoric.
 
 I use this term as a practical shorthand for patterns described in research
 on organizational defenses, structural secrecy, and suppressed paths for
-[**Correction**](../../back-matter/glossary.md#correction).[^c3-structural-blindness]
+**Correction**.[^c3-structural-blindness]
 
 A leader says the right words about accountability. Observers treat this
 as evidence. Meanwhile, dissent channels narrow, bad news is filtered,
@@ -60,13 +60,13 @@ When **Dissent is Welcomed** no longer holds—that is, when **Dissent is No Lon
 A third distortion sits beneath the first two: the intention trap.
 
 Observers hear a leader’s stated purpose and treat sincerity as
-sufficient evidence of [**legitimacy**](../../back-matter/glossary.md#legitimacy). Leaders themselves do this too. They
+sufficient evidence of **legitimacy**. Leaders themselves do this too. They
 assume that because they meant well, the structure must be healthy.
 
 Intent matters for ethics. It does not settle the question.
 
 Leadership should be judged by what influence repeatedly produces:
-how [**Correction**](../../back-matter/glossary.md#correction) works, how [**Harm**](../../back-matter/glossary.md#harm) is allocated, how disagreement survives,
+how **Correction** works, how **Harm** is allocated, how disagreement survives,
 and how learning is retained across pressure cycles.
 
 ### **Selective Followership and Misread Signals**
@@ -83,13 +83,13 @@ privately diverge. They may even invert instructions under pressure to
 preserve autonomy.[^c3-reactance]
 
 This does not automatically mean disloyalty. It can mean active judgment.
-In the [**vibrant group**](../../back-matter/glossary.md#vibrant-group), selective dissent is visible and usable.
-In the [**decaying group**](../../back-matter/glossary.md#decaying-group), it goes quiet and becomes hidden
+In the **vibrant group**, selective dissent is visible and usable.
+In the **decaying group**, it goes quiet and becomes hidden
 workarounds.
 
 When observers collapse all this into a single category—either "they
 are with the leader" or "they are against the leader"—they miss the
-structure that actually predicts [**renewal**](../../back-matter/glossary.md#renewal) or [**erosion**](../../back-matter/glossary.md#erosion).
+structure that actually predicts **renewal** or **erosion**.
 
 ### **Why Confidence Is So Persuasive**
 
@@ -121,7 +121,7 @@ the public narrative.
 :::
 
 From the outside, this looks like evidence of strong leadership. Inside
-the school, paths for [**Correction**](../../back-matter/glossary.md#correction) are narrowing and [**Harm**](../../back-matter/glossary.md#harm) is being displaced.
+the school, paths for **Correction** are narrowing and **Harm** is being displaced.
 
 The vignette shows why outcome bias and structural blindness reinforce
 each other: visible success can hide degrading conditions until repair
@@ -136,9 +136,9 @@ If outcomes and rhetoric are insufficient, what should observers assess?
 
 Use four recurring tests:
 
-- [**Correction**](../../back-matter/glossary.md#correction) test: can decisions be challenged without social
+- **Correction** test: can decisions be challenged without social
   punishment?
-- [**Harm**](../../back-matter/glossary.md#harm) test: who absorbs costs when decisions fail?
+- **Harm** test: who absorbs costs when decisions fail?
 - Learning test: do known problems recur, or are they repaired?
 - Boundary test: does authority stay connected to consequences?
 
@@ -150,8 +150,8 @@ They do not require private motives. They require observable patterns.
 Misjudgment compounds.
 
 When outcome bias and structural blindness combine, leaders receive credit
-for short-term wins while [**decay**](../../back-matter/glossary.md#decay) deepens underneath. By the time external
-failure appears, capacity for [**Correction**](../../back-matter/glossary.md#correction) has already shrunk. Repair costs have
+for short-term wins while **decay** deepens underneath. By the time external
+failure appears, capacity for **Correction** has already shrunk. Repair costs have
 already risen.
 
 This is why late-stage collapse often feels sudden to outsiders and
@@ -162,21 +162,21 @@ people were judging did not prioritize them.[^c3-normalization-of-deviance]
 
 The practical standard is not "Did the leader succeed?" It is this:
 
-Did this leadership structure remain open to [**Correction**](../../back-matter/glossary.md#correction) while carrying
+Did this leadership structure remain open to **Correction** while carrying
 real influence?
 
-Being open to [**Correction**](../../back-matter/glossary.md#correction) means errors can be surfaced, authority can be
-questioned, and adjustments can occur before [**Harm**](../../back-matter/glossary.md#harm) scales.
+Being open to **Correction** means errors can be surfaced, authority can be
+questioned, and adjustments can occur before **Harm** scales.
 
 That standard is less dramatic than hero stories. It is also more
 reliable.
 
 We often misjudge leaders when we ignore whether influence still flows both
 ways. We miss whether dissent and bad news can still change direction before
-[**Harm**](../../back-matter/glossary.md#harm) spreads.
+**Harm** spreads.
 
-The argument turns next to [**Harm**](../../back-matter/glossary.md#harm), [**effectiveness**](../../back-matter/glossary.md#effectiveness), and [**legitimacy**](../../back-matter/glossary.md#legitimacy). It tracks
-[**Correction**](../../back-matter/glossary.md#correction) and [**Circulation**](../../back-matter/glossary.md#circulation) throughout—whether warnings and dissent can still return
+The argument turns next to **Harm**, **effectiveness**, and **legitimacy**. It tracks
+**Correction** and **Circulation** throughout—whether warnings and dissent can still return
 to those who hold power while the work is underway, and whether influence can move through temporary leadership as well as formal roles.
 
 Each chapter also asks what gets rewarded or punished and copied forward when

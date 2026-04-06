@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 """
-Wrap glossary **terms** in manuscript markdown with links to back-matter/glossary.md# anchors.
-Skips terms already inside a markdown link ([**term**](...)).
+DEPRECATED: The v1 manuscript no longer links glossary terms to `glossary.md`
+(bold only; see `docs/book-rules.md`, **Circulation and Correction**). This
+script remains for historical reference or one-off experiments—do not run it
+to “restore” links without an explicit decision.
+
+Previously: wrap glossary **terms** in manuscript markdown with links to
+back-matter/glossary.md# anchors. Skips terms already inside a markdown link.
 Only touches .md under v1/parts, v1/front-matter, v1/back-matter (including glossary).
 
 List labels must keep the colon outside bold for matching: use `- [**Scalability**](...):` not `- **Scalability:**`.

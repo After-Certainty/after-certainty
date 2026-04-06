@@ -4,12 +4,12 @@
 
 A small group and a large institution are not the same structure.
 
-At human scale, [**Harm**](../../back-matter/glossary.md#harm) is easier to see, [**Correction**](../../back-matter/glossary.md#correction) is faster, and
-accountability is harder to evade. At institutional scale, [**Harm**](../../back-matter/glossary.md#harm) can get hard to
+At human scale, **Harm** is easier to see, **Correction** is faster, and
+accountability is harder to evade. At institutional scale, **Harm** can get hard to
 see clearly. Information weakens on the way up. Plans are slower to change
 across layers of distance.[^c7-scale-distance]
 
-Scale does not cause [**erosion**](../../back-matter/glossary.md#erosion) by itself. It widens what the structure was
+Scale does not cause **erosion** by itself. It widens what the structure was
 already likely to produce.
 
 ### **The Regional Network**
@@ -33,25 +33,25 @@ local fixes. That is one face of **Leadership Reproduces Itself** at scale.
 
 ### **Two Capacities at Scale**
 
-[**scalability**](../../back-matter/glossary.md#scalability) and [**adaptability**](../../back-matter/glossary.md#adaptability) are the two measures:
+**scalability** and **adaptability** are the two measures:
 whether coordinated action can grow in reach, and whether it can change direction
 when reality pushes back. At institutional scale, those questions stay the
 same—only distance and delay change.
 
-At scale, the test for [**adaptability**](../../back-matter/glossary.md#adaptability) is whether **Feedback Drives Change**
+At scale, the test for **adaptability** is whether **Feedback Drives Change**
 still holds in practice.
 
-The same two capacities sort groups on the grid—the [**vibrant group**](../../back-matter/glossary.md#vibrant-group) or [**decaying group**](../../back-matter/glossary.md#decaying-group). Scale changes how long each state can look solid from a distance.
+The same two capacities sort groups on the grid—the **vibrant group** or **decaying group**. Scale changes how long each state can look solid from a distance.
 
 At larger scale, entrenched patterns can look impressive for longer. Reach
-can expand while [**Correction**](../../back-matter/glossary.md#correction) weakens.
+can expand while **Correction** weakens.
 
 **Leadership Coalesces** can also narrow who counts as the real escalation
 point—the place everyone waits on before a problem is treated as real.
 
 ### **Legitimacy Forms Under Scale**
 
-Those four forms of [**legitimacy**](../../back-matter/glossary.md#legitimacy) meet scale as follows:
+Those four forms of **legitimacy** meet scale as follows:
 
 - Example-based legitimacy is strong at human scale but harder to
   preserve as distance grows.
@@ -75,7 +75,7 @@ At larger scale, selective followership can go quiet: people reading rules their
 own way locally, hidden workarounds, and paperwork that looks aligned while
 day-to-day reality is not aligned.[^c7-hidden-transcripts]
 
-[**Correction**](../../back-matter/glossary.md#correction) matters at scale because if information from the ground cannot
+**Correction** matters at scale because if information from the ground cannot
 get back with enough force to change the plan, reach can grow while learning
 shrinks.
 
@@ -97,11 +97,11 @@ to revise.
 ### **When Pressure Enters**
 
 Scale sets the conditions; pressure tests them. Crisis and urgency force tradeoffs
-across [**Harm**](../../back-matter/glossary.md#harm), [**Effectiveness**](../../back-matter/glossary.md#effectiveness), and [**Legitimacy**](../../back-matter/glossary.md#legitimacy)—with [**Correction**](../../back-matter/glossary.md#correction) narrowing or holding at the
+across **Harm**, **Effectiveness**, and **Legitimacy**—with **Correction** narrowing or holding at the
 same time.
 
 ::: {custom-style="Pull Quote Block"}
-Scale can increase reach faster than it increases [Correction](../../back-matter/glossary.md#correction).
+Scale can increase reach faster than it increases **Correction**.
 :::
 [^c7-scale-distance]: Charles Perrow, *Normal Accidents: Living with High-Risk Technologies* (New York: Basic Books, 1984).
 [^c7-legitimacy]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).

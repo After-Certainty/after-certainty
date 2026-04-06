@@ -2,7 +2,7 @@
 
 ### **Results Are Not the Whole Story**
 
-[**Effectiveness**](../../back-matter/glossary.md#effectiveness) matters. But results alone do not settle leadership quality.
+**Effectiveness** matters. But results alone do not settle leadership quality.
 
 A team can hit its goals while suppressing warning signals. A congregation
 or workplace can look successful for a season while borrowing against trust,
@@ -27,13 +27,13 @@ trust and capacity.
 When the only scoreboard is the task—dates, counts, deliverables—
 relationships and side effects can drop out of what the group knows how to
 see. That is not a moral failure every time; it is a common way capability
-without [**vitality**](../../back-matter/glossary.md#vitality) shows up: the work still ships while the social fabric
+without **vitality** shows up: the work still ships while the social fabric
 thins.
 
 ### **When Success Accelerates Insulation**
 
 Success often increases a leader’s authority. That can help coordination.
-It can also narrow [**Correction**](../../back-matter/glossary.md#correction).
+It can also narrow **Correction**.
 
 After visible wins, dissent can look unnecessary. Critical voices are
 reframed as blockers. Signals that conflict with the success narrative
@@ -46,40 +46,40 @@ This is one of leadership’s recurring traps: success narrows the very
 channels needed to prevent future failure. The same season of wins also trains
 what the next cohort will treat as normal leadership here—**Leadership Reproduces Itself**.
 
-In crisis contexts, [**effectiveness**](../../back-matter/glossary.md#effectiveness) claims gain extra persuasive force.
+In crisis contexts, **effectiveness** claims gain extra persuasive force.
 This can make short-term control look like long-term leadership even as
-[**Correction**](../../back-matter/glossary.md#correction) narrows.
+**Correction** narrows.
 
 ### **Correction and Effectiveness**
 
-Influence usually moves outward from leadership. [**Vitality**](../../back-matter/glossary.md#vitality) depends on
+Influence usually moves outward from leadership. **Vitality** depends on
 whether influence can move back in.
 
-[**Correction**](../../back-matter/glossary.md#correction) means warnings, dissent, and on-the-ground
+**Correction** means warnings, dissent, and on-the-ground
 information can reach decision-makers and change direction without
 punishment.[^c5-voice] While that remains true, **Dissent is Welcomed** still
 holds.
 
-[**Correction**](../../back-matter/glossary.md#correction) is a practical check. It shows where the group sits on the
-map of [**renewal**](../../back-matter/glossary.md#renewal) and [**erosion**](../../back-matter/glossary.md#erosion)—including whether the pattern reads as the [**vibrant group**](../../back-matter/glossary.md#vibrant-group) or the [**decaying group**](../../back-matter/glossary.md#decaying-group).
+**Correction** is a practical check. It shows where the group sits on the
+map of **renewal** and **erosion**—including whether the pattern reads as the **vibrant group** or the **decaying group**.
 
-Without [**Correction**](../../back-matter/glossary.md#correction), authority still exists, but learning slows and groups
-drift toward the [**decaying group**](../../back-matter/glossary.md#decaying-group).
+Without **Correction**, authority still exists, but learning slows and groups
+drift toward the **decaying group**.
 
-**Vibrant** groups tend toward [**Correction rich**](../../back-matter/glossary.md#correction-rich-constricted-correction): warnings and dissent can
-still move and revise direction. **Decaying** groups tend toward [**constricted
-correction**](../../back-matter/glossary.md#correction-rich-constricted-correction): the same care may exist privately, but the public path for
+**Vibrant** groups tend toward **Correction rich**: warnings and dissent can
+still move and revise direction. **Decaying** groups tend toward **constricted
+correction**: the same care may exist privately, but the public path for
 changing a decision narrows until only workarounds remain.
 
 ### **Three Shapes: Correction and Circulation**
 
-[**Correction**](../../back-matter/glossary.md#correction) and [**Circulation**](../../back-matter/glossary.md#circulation) are easiest to read through three shapes:
+**Correction** and **Circulation** are easiest to read through three shapes:
 
 - One-way authority: influence moves outward only; input is collected,
   but the center still decides.
-- Voice-only [**Correction**](../../back-matter/glossary.md#correction): concerns can travel upward and sometimes
+- Voice-only **Correction**: concerns can travel upward and sometimes
   adjust plans, but leadership still stays fixed at the top.
-- Shared [**Circulation**](../../back-matter/glossary.md#circulation) (guest leadership): influence moves both ways.
+- Shared **Circulation** (guest leadership): influence moves both ways.
   People closest to the issue can temporarily step in to lead a response,
   then return to their usual role.[^c5-guest-leadership]
 
@@ -103,21 +103,21 @@ into leadership next.
 
 ### **Pressure Test**
 
-In high-pressure moments, [**Correction**](../../back-matter/glossary.md#correction) may narrow briefly. That can be
+In high-pressure moments, **Correction** may narrow briefly. That can be
 necessary.
 
-The key question is recovery. Does [**Correction**](../../back-matter/glossary.md#correction) reopen after the acute
+The key question is recovery. Does **Correction** reopen after the acute
 period passes, including room for temporary step-in leadership, or does
 emergency posture become permanent?
 
 Temporary contraction can preserve function. Permanent closure locks in
-[**decay**](../../back-matter/glossary.md#decay).
+**decay**.
 
 ### **When Failure Strengthens Vitality**
 
-Failure is not always a signal of structural [**erosion**](../../back-matter/glossary.md#erosion).
+Failure is not always a signal of structural **erosion**.
 
-Some failures force honest review, clarify limits, and reopen [**Correction**](../../back-matter/glossary.md#correction).
+Some failures force honest review, clarify limits, and reopen **Correction**.
 Groups that can learn publicly from failure often grow more
 reliable than groups that avoid visible failure at all costs.[^c5-learning]
 
@@ -158,7 +158,7 @@ wears them down over time.
 
 Ask four questions alongside outcomes:
 
-- Were the conditions for [**Correction**](../../back-matter/glossary.md#correction) open while the work was underway?
+- Were the conditions for **Correction** open while the work was underway?
 - Did concerns change decisions, or only decorate meetings?
 - Did success increase learning capacity or reduce it?
 - Did the group preserve trust while achieving results?
@@ -167,13 +167,13 @@ Without these checks, results can mislead.
 
 ### **Legitimacy Next**
 
-[**Effectiveness**](../../back-matter/glossary.md#effectiveness) asks what worked. [**Legitimacy**](../../back-matter/glossary.md#legitimacy) asks why people keep
+**Effectiveness** asks what worked. **Legitimacy** asks why people keep
 following—and what makes that sustainable.
 
-The argument turns next to [**legitimacy**](../../back-matter/glossary.md#legitimacy)—how it forms, hardens, and renews over time.
+The argument turns next to **legitimacy**—how it forms, hardens, and renews over time.
 
 ::: {custom-style="Pull Quote Block"}
-A result can prove capability without proving [vitality](../../back-matter/glossary.md#vitality).
+A result can prove capability without proving **vitality**.
 :::
 [^c5-performance-paradox]: Chris Argyris and Donald A. Schon, *Organizational Learning II: Theory, Method, and Practice* (Reading, MA: Addison-Wesley, 1996).
 [^c5-escalation]: Barry M. Staw, "Knee-Deep in the Big Muddy: A Study of Escalating Commitment to a Chosen Course of Action," *Organizational Behavior and Human Performance* 16, no. 1 (1976): 27–44.

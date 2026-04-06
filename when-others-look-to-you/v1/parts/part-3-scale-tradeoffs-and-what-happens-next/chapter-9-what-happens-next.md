@@ -13,21 +13,21 @@ builds over time.
 
 ### **The Integrated View**
 
-The argument took up three lenses—[**Harm**](../../back-matter/glossary.md#harm), [**Effectiveness**](../../back-matter/glossary.md#effectiveness), and [**Legitimacy**](../../back-matter/glossary.md#legitimacy)—with
-[**Correction**](../../back-matter/glossary.md#correction) and [**Circulation**](../../back-matter/glossary.md#circulation) alongside them throughout.
+The argument took up three lenses—**Harm**, **Effectiveness**, and **Legitimacy**—with
+**Correction** and **Circulation** alongside them throughout.
 
-- [**Harm**](../../back-matter/glossary.md#harm): where the cost falls when someone leads.
-- [**Effectiveness**](../../back-matter/glossary.md#effectiveness): what gets louder, deferred, or mistaken for control.
-- [**Legitimacy**](../../back-matter/glossary.md#legitimacy): why people keep following.
-- [**Correction**](../../back-matter/glossary.md#correction): whether warnings and dissent can still change decisions without punishment.
-- [**Circulation**](../../back-matter/glossary.md#circulation): whether people can step in, share the lead, and hand it off so the work can grow without fixing every role at the top.
+- **Harm**: where the cost falls when someone leads.
+- **Effectiveness**: what gets louder, deferred, or mistaken for control.
+- **Legitimacy**: why people keep following.
+- **Correction**: whether warnings and dissent can still change decisions without punishment.
+- **Circulation**: whether people can step in, share the lead, and hand it off so the work can grow without fixing every role at the top.
 
 None of these is enough on its own. A group can look effective while displacing
-[**Harm**](../../back-matter/glossary.md#harm). It can look legitimate while [**Correction**](../../back-matter/glossary.md#correction) narrows. It can report
+**Harm**. It can look legitimate while **Correction** narrows. It can report
 alignment while followership goes quiet or selective—what people actually do no
 longer matches what the story says.
 
-[**Circulation**](../../back-matter/glossary.md#circulation) can stall at the same time: only official channels count,
+**Circulation** can stall at the same time: only official channels count,
 step-in leadership is treated as out of line, and the lead stops passing around
 when that flexibility matters most.
 
@@ -43,7 +43,7 @@ Examples:
 - A workplace appears disciplined because coordination outside the official chain
   is shut down—temporary or shared leadership never gets room to form.
 
-Each can look stable while the shape of the group slides toward the [**decaying group**](../../back-matter/glossary.md#decaying-group).
+Each can look stable while the shape of the group slides toward the **decaying group**.
 Feedback that no longer matches what is happening on the ground can still look
 like calm coordination from the outside—that shows how **Learning Collapses**.
 
@@ -55,9 +55,9 @@ Repeated choices push structure one of two ways:
   they tell move faster than costs, pushback, and consequences people can see.
 - Authority stays tied down: power still connects to consequences people can see.
 
-  - [**Correction**](../../back-matter/glossary.md#correction) can still change direction when warnings and dissent can
+  - **Correction** can still change direction when warnings and dissent can
     get through.
-  - [**Circulation**](../../back-matter/glossary.md#circulation) still lets people step in and share the lead when the
+  - **Circulation** still lets people step in and share the lead when the
     work demands it.
 
 These are not personality types. They are where decisions accumulate—a direction
@@ -76,9 +76,9 @@ Once that has settled, rolling everything back is unlikely in the near term.
 
 Partial repair is still possible:
 
-- Spread [**Harm**](../../back-matter/glossary.md#harm) out so it does not pile up on a few.
-- Reopen paths for [**Correction**](../../back-matter/glossary.md#correction).
-- Reopen [**Circulation**](../../back-matter/glossary.md#circulation): room for temporary and shared leadership and
+- Spread **Harm** out so it does not pile up on a few.
+- Reopen paths for **Correction**.
+- Reopen **Circulation**: room for temporary and shared leadership and
   guest-style handoffs so influence can move between people without fixing every role
   at the top.
 - Tie authority back to consequences people can see.
@@ -89,11 +89,11 @@ Repair at this stage is uneven, local, and slow—realistic, not trivial.
 
 ### **What Happens Next**
 
-Repeated choices about who can see what is going on, whether [**Correction**](../../back-matter/glossary.md#correction)
-and [**Circulation**](../../back-matter/glossary.md#circulation) still have room, and where the edges fall matter more
+Repeated choices about who can see what is going on, whether **Correction**
+and **Circulation** still have room, and where the edges fall matter more
 than any single decision.
 
-[**Renewal**](../../back-matter/glossary.md#renewal) is not something you lock in once. It means coordinated action
+**Renewal** is not something you lock in once. It means coordinated action
 keeps working as reach grows, and the group can still change course when reality
 pushes back.
 
