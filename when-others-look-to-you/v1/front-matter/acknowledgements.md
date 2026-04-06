@@ -36,7 +36,7 @@ shaped.
 Your examples make this real. The ideas in this book are not abstract to me
 because I’ve seen them lived out through you.
 
-And to the many moments—small and easy to miss—where people suddenly knew
-where to look, something happened, and someone learned from it.
+And to the many small, easy-to-miss moments when people suddenly knew where to
+look, something happened, and someone learned from it.
 
 This book is an attempt to notice those moments more clearly.

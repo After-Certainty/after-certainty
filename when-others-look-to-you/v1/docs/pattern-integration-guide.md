@@ -30,7 +30,7 @@ Patterns are additive, not transformative.
 
 - Only name and clarify patterns already present
 
-**Approved exception (circulation restructure):** A project-wide edit removed the standalone Part II chapter on circulation and merged that material into Chapters 4–6. That change **updates primary pattern placements** and **introduction order** for **Leadership Reproduces Itself** (now primary in Chapter 5). Follow the current **Placement Guidance by Chapter** and **Introduction Sequence** tables below; see `docs/circulation-cross-cutting.md`.
+**Approved exception (Part II weave):** A project-wide edit removed the standalone Part II chapter on circulation and merged **Correction** / **Circulation** material into Chapters 4–6. **Leadership Reproduces Itself** is defined as a Pattern Block in **Chapter 2** (after the Adjusting and Eroding trios). Follow the current **Placement Guidance by Chapter** and **Introduction Sequence** tables below; see `docs/circulation-cross-cutting.md`.
 
 ### **2. Preserve the Author's Voice**
 
@@ -214,32 +214,23 @@ Patterns are insertions, not structural dependencies.
 
 ### **Rule 7 — Each Pattern Has a Primary Location**
 
-Each pattern must have one primary chapter where it appears in its
-strongest, most undeniable form.
+Each named dynamic has **one** manuscript home for its **Pattern Block** callout (see **Placement Guidance by Chapter**): Chapter 1 for the Forming trio; Chapter 2 for the Adjusting and Eroding sextet plus **Leadership Reproduces Itself** (Circulating). Later chapters demonstrate the same titles in context using **inline bold** only—do not add a second Pattern Block for a title already defined.
 
-- The primary location is where the pattern is most clearly demonstrated
-
-- This is the preferred and often only placement
-
-Secondary placement is optional and should only occur if:
-
-- The pattern is equally strong in that location
-
-- It adds clarity, not redundancy
-
-Avoid placing patterns in multiple weak contexts.
+Stronger illustrations in later chapters are welcome in prose; they are not a second callout box for the same title.
 
 ### **Rule 8 — No Pattern Stacking**
 
-Never place multiple pattern blocks adjacent to each other.
+Never place multiple pattern blocks adjacent to each other **except in Chapter 2**.
 
-- Only one pattern may appear at a given insertion point
+- **Chapter 2 exception:** In **What Vitality Looks Like** and **What Decay Looks Like**, the manuscript defines the **Adjusting** trio (**Dissent is Welcomed**, **Feedback Drives Change**, **Leaders Feel the Consequences**) and the **Eroding** trio (**Disagreement is Suppressed**, **Learning Collapses**, **Exceptions are Forever**) as Pattern Blocks. Immediately after the **Eroding** trio, Chapter 2 defines **Leadership Reproduces Itself** as a seventh Pattern Block. Place **one short sentence of prose between each block** in the two trios so blocks are not literally back-to-back. **Do not** repeat any of those seven titles as a Pattern Block in Chapters 3–9—use inline bold after the Chapter 2 definitions.
 
-- If multiple patterns seem applicable, choose the strongest one
+- In all other chapters: only one pattern may appear at a given insertion point.
 
-- Prefer omission over stacking
+- If multiple patterns seem applicable, choose the strongest one (outside the Chapter 2 definitional sets).
 
-Stacking reduces clarity and weakens pattern recognition.
+- Prefer omission over stacking outside Chapter 2.
+
+Stacking reduces clarity and weakens pattern recognition when it is not this deliberate Chapter 2 map.
 
 ## **Pattern Selection Rule**
 
@@ -296,18 +287,14 @@ chapters:
   - Attention Finds a Focus
   - Examples Accumulate
   - Leadership Coalesces
-- After **Chapter 3**:
+- After **Chapter 2**:
   - Dissent is Welcomed
-  - Learning Collapses
-- After **Chapter 4**:
-  - Leaders Feel the Consequences
-- After **Chapter 5**:
   - Feedback Drives Change
-  - Leadership Reproduces Itself
-- After **Chapter 6**:
+  - Leaders Feel the Consequences
   - Disagreement is Suppressed
-- After **Chapter 8**:
+  - Learning Collapses
   - Exceptions are Forever
+  - Leadership Reproduces Itself
 
 Within a chapter, use inline bold for a title only **after** its callout
 block has appeared **earlier in the manuscript** (reading order). If two
@@ -385,6 +372,8 @@ Avoid:
 
 ## **Placement Guidance by Chapter (Canonical)**
 
+**Pattern Block callouts (the `::: {custom-style="Pattern Block"}` production blocks) appear only where a title is first defined:** Chapter 1 (Forming trio) and Chapter 2 (Adjusting + Eroding sextet + **Leadership Reproduces Itself**). Everywhere else, use **inline bold** for the same titles after their defining block has appeared—do not repeat Pattern Blocks for titles already defined.
+
 ### **Chapter 1 — Formation**
 
 Primary:
@@ -395,37 +384,43 @@ Primary:
 
 - Leadership Coalesces
 
+### **Chapter 2 — Renewal and Erosion**
+
+Primary (definitional Pattern Blocks):
+
+- **What Vitality Looks Like:** Dissent is Welcomed; Feedback Drives Change; Leaders Feel the Consequences
+
+- **What Decay Looks Like:** Disagreement is Suppressed; Learning Collapses; Exceptions are Forever
+
+- After the decay trio: **Leadership Reproduces Itself** (Circulating; copies what gets rewarded or punished forward)
+
+Optional inline anchors: Attention Finds a Focus; Examples Accumulate; Leadership Coalesces (already introduced in Chapter 1).
+
 ### **Chapter 3 — Misjudgment**
 
 Primary:
 
-- Dissent is Welcomed
-
-- Learning Collapses
+- None (use inline anchors and negated-title echoes; definitions live in Chapter 2)
 
 ### **Chapter 4 — Harm**
 
-Primary:
+Pattern Block: none (titles defined in Chapter 2). Use inline **bold** in the harm illustration (for example **Leaders Feel the Consequences**, **Leaders Do Not Feel the Consequences**).
 
-- Leaders Feel the Consequences
-
-Optional:
+Optional inline anchors:
 
 - Learning Collapses (only if strongly demonstrated)
 
-- Dissent is Welcomed (only if strongly demonstrated; circulation merge material)
+- Dissent is Welcomed (only if strongly demonstrated; Part II **Correction** / **Circulation** weave material)
 
 ### **Chapter 5 — Effectiveness**
 
-Primary:
+Pattern Block: none (all titles defined in Chapter 1–2). Strong inline opportunities:
 
-- Leadership Reproduces Itself
+- **Leadership Reproduces Itself** when guest leadership, imitation, or “what gets copied” is on the page
 
-Primary (when the chapter’s strongest example supports it):
+- **Feedback Drives Change** when the failure-and-learning passage supports it
 
-- Feedback Drives Change
-
-Optional:
+Optional inline:
 
 - Learning Collapses (only if strongest example occurs here)
 
@@ -433,9 +428,7 @@ Optional:
 
 ### **Chapter 6 — Legitimacy**
 
-Primary:
-
-- Disagreement is Suppressed
+Pattern Block: none (titles defined in Chapter 2). Use inline **bold** (for example **Disagreement is Suppressed** in the sacralization arc).
 
 Optional:
 
@@ -450,8 +443,7 @@ adaptability are already on the page):
 
 - Disagreement is Suppressed
 
-- Leadership Reproduces Itself (secondary to Chapter 5 primary; replication outrunning local
-  revision)
+- Leadership Reproduces Itself (replication outrunning local revision; title defined in Chapter 2)
 
 - Feedback Drives Change (same adaptability test as Chapter 2, named at scale)
 
@@ -459,13 +451,11 @@ adaptability are already on the page):
 
 ### **Chapter 8 — Tradeoffs / Crisis** (Part III)
 
-Primary:
-
-- Exceptions are Forever
+Pattern Block: none (titles defined in Chapter 2). Use inline **bold** after the crisis vignette (for example **Exceptions are Forever**, **Feedback Drives Change**, **Examples Accumulate**).
 
 ### **Chapter 9 / Epilogue** (Part III)
 
-Optional (light reinforcement only):
+Optional (light inline reinforcement only):
 
 - Exceptions are Forever
 
@@ -481,31 +471,36 @@ throughout the manuscript while following the sequence rule above.
 ### **Chapter 2 — Renewal and Erosion**
 
 Eligible patterns: Attention Finds a Focus; Examples Accumulate;
-Leadership Coalesces.
+Leadership Coalesces; **Dissent is Welcomed**; **Feedback Drives Change**;
+**Leaders Feel the Consequences**; **Disagreement is Suppressed**;
+**Learning Collapses**; **Exceptions are Forever**; **Leadership Reproduces Itself**
+(Pattern Block definitions in **What Vitality Looks Like**, **What Decay Looks Like**, then replication after the decay trio).
 
 Strong opportunities:
 
 - In the opening transition from Chapter 1's attention dynamic into
   renewal/erosion framing.
 - In "What Vitality Looks Like," where early warnings remain discussable
-  (**Examples Accumulate**).
+  (**Examples Accumulate**), and where the adjusting trio is defined as Pattern Blocks.
 - In "What Decay Looks Like," where repetition hardens authority
-  (**Leadership Coalesces**).
+  (**Leadership Coalesces**), and where the eroding trio is defined as Pattern Blocks.
+- After the decay trio, where copying and “what the next leader learns” belongs
+  (**Leadership Reproduces Itself**).
 
 ### **Chapter 3 — Why We Misjudge Leaders**
 
-Eligible patterns (newly introduced here): Dissent is Welcomed; Learning Collapses.
+Eligible patterns (introduced in Chapter 2): all Adjusting, Eroding, and **Leadership Reproduces Itself** titles; use **inline anchors** and negated-title echoes (**Dissent is No Longer Welcomed**, **Learning Collapse**) rather than new Pattern Blocks.
 
 Strong opportunities:
 
 - In "Structural Blindness," where dissent channels narrow
-  (**Dissent is Welcomed**).
+  (**Dissent is Welcomed** / **Dissent is No Longer Welcomed**).
 - In the principal vignette analysis, where effects are buffered from
   decision-makers (**Learning Collapse**).
 
 ### **Chapter 4 — Harm Under Influence**
 
-Eligible patterns (newly introduced here): Leaders Feel the Consequences.
+Eligible patterns (introduced in Chapter 2): **Leaders Feel the Consequences** and related titles; use inline anchors.
 
 Strong opportunities:
 
@@ -514,15 +509,14 @@ Strong opportunities:
   as the broken connection).
 - In the post-vignette interpretation paragraph, where leadership protects
   short-term narrative at others' expense.
-- In circulation-related material on late surfacing, punishment, or workarounds
+- In **Correction**-related material on late surfacing, punishment, or workarounds
   where bad news or distorted feedback is structurally visible (**Dissent is Welcomed**,
   **Learning Collapse**).
 
 ### **Chapter 5 — Effectiveness and Its Illusions**
 
-Eligible patterns (newly introduced here): **Leadership Reproduces Itself**. Also:
-Leaders Feel the Consequences; Dissent is Welcomed; Learning Collapses; Feedback Drives Change
-(once introduced here).
+Eligible patterns (introduced in Chapter 2): **Leadership Reproduces Itself**;
+Leaders Feel the Consequences; Dissent is Welcomed; Learning Collapses; Feedback Drives Change.
 
 Strong opportunities:
 
@@ -533,7 +527,7 @@ Strong opportunities:
 - In "Performative Compliance vs Real Alignment," where visible results
   mask hidden structural drift (**Learning Collapse**).
 - Where the text names an explicit pivot after new information (**Feedback Drives Change**).
-- Where circulation-rich vs constricted dynamics or guest leadership appear in merged
+- Where Correction rich vs constricted correction dynamics or guest leadership appear in merged
   material.
 
 ### **Chapter 6 — Legitimacy Over Time**
@@ -546,7 +540,7 @@ Strong opportunities:
   direction (**Disagreement is Suppressed**).
 - In "Selective Followership as a Probe," when disagreement collapses into
   public compliance and private divergence.
-- In merged circulation material: selective followership as signal, four practical
+- In merged **Correction** material: selective followership as signal, four practical
   questions, renewal/erosion tie to return paths.
 
 ### **Chapter 7 — Scale and Drift** (Part III)
@@ -695,8 +689,9 @@ After full integration, verify:
 
 - No pattern is overused
 
-- Total pattern insertions remain limited and context-earned (often
-  fewer than ~14-18 total, given the expanded pattern set)
+- Total pattern insertions remain limited and context-earned outside
+  Chapter 2’s six definitional blocks (often fewer than ~14-18 total
+  elsewhere, given the expanded pattern set)
 
 ## **Summary**
 

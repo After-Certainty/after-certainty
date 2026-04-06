@@ -11,7 +11,7 @@ Some readers arrive here hoping for a clean reversal strategy. Sometimes
 reversal is possible. Sometimes it is not.
 
 When the baseline has already shifted—when temporary exceptions have become
-normal practice, as Chapter 8 described—the immediate task may not be
+normal practice—the immediate task may not be
 full restoration. It may be damage containment, constraint rebuilding, and
 local repair.
 
@@ -26,7 +26,7 @@ In this phase, progress can look modest:
 - More decisions reopened before they harden.
 - Clearer limits on emergency permissions, so urgency does not permanently
   rewrite the operating baseline (**Exceptions are Forever**).
-- Stronger protection for dissent and correction.
+- Stronger protection for dissent and [**Correction**](./glossary.md#correction).
 
 These shifts rarely feel dramatic. They still change how people are
 treated.
@@ -41,22 +41,22 @@ Formal rules and policy still matter. But day-to-day practice is where
 durable habits that sustain vitality are built:
 
 - Naming harm without rhetorical cover.
-- Refusing false urgency when correction is still possible.
-- Separating visible success from whether correction still works.
+- Refusing false urgency when [**Correction**](./glossary.md#correction) is still possible.
+- Separating visible success from whether [**Correction**](./glossary.md#correction) still works.
 - Keeping authority open to change in public.
 
 None of this guarantees a happy ending.
 
 It does something quieter and more realistic: it reduces how much harm can
 be normalized, inherited, and repeated.
+
 Without that work, decisions may never reconnect with who bears the cost. That
-is the point of **Leaders Feel the Consequences**. Harm becomes a durable norm
-rather than an intermittent failure.
+disconnect is what **Leaders Feel the Consequences** is meant to track. Harm
+becomes a durable norm rather than an intermittent failure.
 
 If this book’s lens changes what you tolerate, what you reward, and what you
-refuse to excuse, then the dynamics **Leadership Reproduces Itself** tracks are
-already shifting. Anyone who takes cues from how you lead is caught in that
-movement.
+refuse to excuse, then what **Leadership Reproduces Itself** tracks is already
+shifting. Anyone who takes cues from how you lead is caught in that movement.
 
 Not all change arrives as reversal.
 
@@ -64,7 +64,7 @@ Some arrives as limits that hold.
 
 Some arrives as damage that no longer spreads.
 
-Some arrives as people who keep correction alive when certainty would be
+Some arrives as people who keep [**Correction**](./glossary.md#correction) alive when certainty would be
 easier.
 
 That is still leadership.

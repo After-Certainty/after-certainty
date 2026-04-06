@@ -20,24 +20,21 @@ introduces it directly.
 From that anchor, the chapters move in three passes:
 
 - Part I: how attention becomes influence; renewal and erosion; whether
-  influence can circulate back; why observers so often misjudge leaders from
-  outcomes and confidence alone.
-- Part II: harm, effectiveness, and legitimacy—each a lens on what
-  influence is producing, with circulation tested throughout.
-- Part III: scale and drift; tradeoffs under pressure; and what can
-  still change once the lenses are combined.
+  [**Correction**](../back-matter/glossary.md#correction) and [**Circulation**](../back-matter/glossary.md#circulation) still hold; and why observers so often misjudge leaders from outcomes and confidence alone.
+- Part II: harm, effectiveness, and legitimacy—each a lens on what influence is producing, with [**Circulation**](../back-matter/glossary.md#circulation) and [**Correction**](../back-matter/glossary.md#correction) tested throughout.
+- Part III: scale and drift; tradeoffs under pressure; and what can still change once the lenses are combined.
 
 The language stays simple on purpose. The ideas are serious, but they do
 not require ornate phrasing to be useful.
 
 ### **What This Book Is Not**
 
-This is not a promise that better lenses eliminate uncertainty.
-Nor is it a claim that good intentions guarantee good structure.
-Nor is it a claim that outcomes alone settle questions of legitimacy.
+This is not a promise that better lenses eliminate uncertainty, or that good
+intentions guarantee good structure, or that outcomes alone settle questions of
+legitimacy.
 
-Leadership remains difficult, even under clear analysis, but difficulty is
-not an excuse for blindness.
+Leadership remains difficult, even under clear analysis. Difficulty is not an
+excuse for blindness.
 
 ### **Who This Is For**
 

@@ -2,8 +2,8 @@
 
 ### **Purpose**
 
-This section explains how the book is visually organized so you can move
-through it easily and know what each section is doing.
+This section explains how the book is laid out so you can move through it
+easily and see what each section is doing.
 
 ### **Headings and Structure**
 
@@ -28,8 +28,8 @@ Example:
 Pull-quotes are brief and plain-language by design.
 They summarize structure, not personality.
 
-They are not slogans, and they should be read as compression of the
-chapter’s argument rather than as standalone aphorisms.
+They are not slogans. Read them as compression of the chapter’s argument,
+not as standalone aphorisms.
 
 They appear as short emphasized display blocks so they remain visually
 distinct from body paragraphs and from vignette scenes. Their formatting
@@ -62,9 +62,9 @@ One to two sentences describing a recurring structural dynamic in the
 current context.
 :::
 
-In body prose, the same bold titles may appear again as short anchors (outside
-these blocks). They work like fixed titles, not ordinary nouns: the sentence
-should still read naturally if you imagine the emphasis removed. Where the same
+In body prose, the same bold titles may appear again as short anchors outside
+these blocks. They work like fixed titles, not ordinary nouns: the sentence
+should still read naturally if you imagine the emphasis removed. When the same
 idea returns, the book usually repeats the title rather than calling it a
 “pattern.”
 

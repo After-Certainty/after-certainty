@@ -2,11 +2,11 @@
 
 This appendix summarizes recurring patterns from the book: how leadership
 forms, renews, erodes, and spreads. They fall under four labels—**forming**,
-**adjusting**, **eroding**, and **circulating**. Each entry is a short snapshot:
-when it appears, what is happening, and what tends to follow.
+**adjusting**, **eroding**, and **circulating**. Each entry is a short snapshot
+of when it appears, what is happening, and what tends to follow.
 
-These patterns are not prescriptions. They are conditions you can observe
-again and again, from small groups to large institutions.
+These patterns are not prescriptions. They are conditions you can observe again
+and again, from small groups to large institutions.
 
 ## **Forming**
 
@@ -35,7 +35,7 @@ Coordination is needed, but no clear process has named who will lead.
 Attention settles on one person. Others start lining up their behavior
 with that person’s actions, tone, or timing.
 
-> "Attention finds a focus—then direction follows."
+> "When nobody knows the next move, attention finds a focus fast—then direction follows whether anyone planned it or not."
 
 **Effect:**
 
@@ -74,7 +74,7 @@ missing or thin.
 What the leader does—especially under pressure—quickly defines what
 others believe is acceptable.
 
-> "Careful—examples accumulate faster than announcements."
+> "Careful what we model in the room; examples accumulate faster than anything we post on the wiki."
 
 **Effect:**
 
@@ -113,7 +113,7 @@ work still slides to the same person.
 The group defaults to the same person automatically, even in situations
 where no formal authority exists.
 
-> "We've made you the one we default to on this."
+> "It's not on the chart, but leadership coalesces around you—every time it's fuzzy, the call still comes back to you."
 
 **Effect:**
 
@@ -130,7 +130,7 @@ Attention Finds a Focus; Disagreement is Suppressed
 
 ## **Adjusting**
 
-_Patterns that keep decisions tied to reality, correction, and
+_Patterns that keep decisions tied to reality, [**Correction**](glossary.md#correction), and
 accountability._
 
 ## **Dissent is Welcomed**
@@ -141,7 +141,7 @@ Problems, risks, or failures emerge within a group or setting.
 
 **Problem:**
 
-Correction in time depends on whether bad news can reach decision-makers.
+[**Correction**](glossary.md#correction) in time depends on whether bad news can reach decision-makers.
 
 **Forces:**
 
@@ -154,11 +154,11 @@ Correction in time depends on whether bad news can reach decision-makers.
 
 Problems surface early so reality can reach decision-makers in time.
 
-> "Dissent is welcomed here—say it early."
+> "If you see a problem, say it now. Dissent is welcomed here—we can't fix what we don't surface while it's still small."
 
 **Effect:**
 
-Early correction remains possible. Failure stays smaller and cheaper.
+Early [**Correction**](glossary.md#correction) remains possible. Failure stays smaller and cheaper.
 
 **Resulting Context:**
 
@@ -192,7 +192,7 @@ ongoing commitment.
 
 The group shifts direction based on new facts or new risk.
 
-> "We're going to change course based on what we just learned."
+> "We're not wed to yesterday's plan—feedback drives change, and what we learned this morning changes what we ship."
 
 **Effect:**
 
@@ -200,7 +200,7 @@ Plans stay tied to reality instead of to an outdated story.
 
 **Resulting Context:**
 
-Correction keeps its legitimacy; the group still has room to revise when facts
+[**Correction**](glossary.md#correction) keeps its legitimacy; the group still has room to revise when facts
 change.
 
 **Related Patterns:**
@@ -228,7 +228,7 @@ Where decisions are made and where costs land can drift apart.
 
 The people who decide stay tied to what their decisions do to others.
 
-> "We own the outcome on this—no passing it off."
+> "If we called it, we sit with the fallout. Leaders feel the consequences on this; we're not sliding the pain down a layer."
 
 **Effect:**
 
@@ -237,7 +237,7 @@ without owning it.
 
 **Resulting Context:**
 
-Costs do not quietly slide onto someone else. Trust that correction will
+Costs do not quietly slide onto someone else. Trust that [**Correction**](glossary.md#correction) will
 work can hold.
 
 **Related Patterns:**
@@ -270,11 +270,11 @@ Protecting the leader starts to rival protecting accuracy.
 
 Dissent fades or softens until it no longer really challenges decisions.
 
-> "I'm noticing no one pushes back anymore."
+> "I keep asking where the challenge is, and I'm not hearing it. Disagreement is suppressed—even when the risk is staring at us."
 
 **Effect:**
 
-Paths for correction narrow. Hidden errors and late failure grow more
+Paths for [**Correction**](glossary.md#correction) narrow. Hidden errors and late failure grow more
 likely.
 
 **Resulting Context:**
@@ -307,7 +307,7 @@ Word from the ground does not reliably reach decision-makers in time.
 Decision-makers do not get a timely, accurate read on what their choices
 are doing.
 
-> "Learning collapses when the ground story never reaches the room."
+> "We're steering off summaries again. Learning collapses when the ground story never really reaches this room."
 
 **Effect:**
 
@@ -316,7 +316,7 @@ while the surface still looks steady.
 
 **Resulting Context:**
 
-Errors repeat, harm piles up, and correction arrives late and costs more.
+Errors repeat, harm piles up, and [**Correction**](glossary.md#correction) arrives late and costs more.
 
 **Related Patterns:**
 
@@ -345,7 +345,7 @@ conditions stabilize.
 
 Workarounds and shortcuts turn into how the group works day to day.
 
-> "Let's be careful—exceptions are forever."
+> "Let's be careful carving out another exception—exceptions are forever, and this one will outlive the emergency we made it for."
 
 **Effect:**
 
@@ -387,7 +387,7 @@ People read those behaviors as personal style and as the local model for
 People copy leadership habits and norms. That shapes how the next round
 of leadership forms.
 
-> "Leadership reproduces itself—people copy what gets rewarded."
+> "Watch what gets praised in public—that's what people will imitate. Leadership reproduces itself through what last looked successful."
 
 **Effect:**
 

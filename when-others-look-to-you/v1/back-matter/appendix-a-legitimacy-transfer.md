@@ -1,9 +1,9 @@
 # **Appendix A — Legitimacy Transfer in Practice**
 
-This appendix applies the book's lenses to a publicly visible case
-sequence. It is not a ranking of leaders and not a partisan scorecard.
-The goal is clarity about how legitimacy transfers, hardens, and sometimes
-fails to shrink again when leadership changes hands.
+This appendix applies the book's lenses to a visible case sequence. It is not a
+ranking of leaders and not a partisan scorecard. The goal is clarity about how
+legitimacy transfers, hardens, and sometimes fails to shrink again when
+leadership changes hands.
 
 ### **Baseline: Procedural Legitimacy**
 
@@ -18,16 +18,16 @@ At scale, powers used under one administration can become the expected
 baseline for the next. Permission moves forward faster than limits do,
 unless people actively renew those limits.
 
-Terms used below (from Chapter 6):
+Terms used below (aligned with the book’s four legitimacy forms):
 
 - Procedural legitimacy: authority backed by formal process and role.
 - Office-based legitimacy: authority backed by what the office is
   allowed to do, inherited from earlier use.
 - Sacralization pressure: challenge starts to sound like disloyalty—to
   the person, the party, or the national story. (This pressure is how
-  sacralized legitimacy from Chapter 6 often shows up at scale.)
+  sacralized legitimacy as defined in the main text often shows up at scale.)
 
-Chapter 6 also names example-based legitimacy; it matters less in this
+The main text also names example-based legitimacy; it matters less in this
 appendix’s office-centered sequence, but it completes the same map.
 
 ### **Case Sequence: Post-9/11 to Present**
@@ -45,7 +45,7 @@ This phase in brief:
 
 - Main form: procedural legitimacy.
 - What shifted: emergency permissions granted by process widened what
-  people treated the office as allowed to do next.
+  the office was treated as allowed to do next.
 - Direction: procedural toward office-based expansion.
 
 #### **Barack Obama: Restraint Without Full Retraction**
@@ -127,8 +127,7 @@ The names, politics, and sector differ. The transfer pattern does not.
 Legitimacy transfer is not wrong in itself. Continuity requires some
 transfer.
 
-The risk appears when transfer becomes automatic while limits become
-optional.
+The risk appears when transfer becomes automatic while limits become optional.
 
-Where authority can expand without deliberate rollback, accountability
-tends to lag. Over time, that lag is where harm accumulates.
+Where authority can expand without deliberate rollback, accountability tends to
+lag. Over time, that lag is where harm accumulates.
