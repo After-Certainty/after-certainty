@@ -6,14 +6,14 @@ Leadership persists because attention persists. But no one explanation stays
 enough on its own.
 
 People keep following when they believe authority remains justified; that belief
-is [**legitimacy**](../../back-matter/glossary.md#legitimacy).[^c6-weber]
+is **legitimacy**.[^c6-weber]
 
-[**Legitimacy**](../../back-matter/glossary.md#legitimacy) is not static. It can renew, transfer, harden, or slip out of
+**Legitimacy** is not static. It can renew, transfer, harden, or slip out of
 step with what is actually happening. Each form ties authority to
 accountability a little differently. That shows up in ordinary years and again
 when leadership changes hands.
 
-Those forms also bear on two [**vitality**](../../back-matter/glossary.md#vitality) questions tied to [**renewal**](../../back-matter/glossary.md#renewal) and [**erosion**](../../back-matter/glossary.md#erosion):
+Those forms also bear on two **vitality** questions tied to **renewal** and **erosion**:
 whether influence can still change direction under pressure, and whether
 coordinated action can grow without getting stuck.
 
@@ -35,7 +35,7 @@ they inherit. At transfer, example-based legitimacy still turns on whether
 conduct matches that inheritance—not only on what was said when authority
 passed.
 
-When actions match language, people can see where [**Harm**](../../back-matter/glossary.md#harm) lands, and [**Correction**](../../back-matter/glossary.md#correction)
+When actions match language, people can see where **Harm** lands, and **Correction**
 can still change what happens next. Influence stays earned in real time.
 
 This form is the easiest to renew because it has to be re-earned in what
@@ -104,7 +104,7 @@ like strength. In practice, it is still erosion: critique no longer changes
 direction.
 
 Challenge is recoded as disloyalty. Authority becomes harder to revise, and
-paths for [**Correction**](../../back-matter/glossary.md#correction) begin to close—that is **Disagreement is Suppressed**.
+paths for **Correction** begin to close—that is **Disagreement is Suppressed**.
 
 Once that shift takes hold, it can outlast the formal process on paper.
 
@@ -149,26 +149,26 @@ Stories about who we are persist. Habits persist.
 The practical question is whether authority still answers to the people
 affected by its decisions.
 
-If legitimacy cannot renew through visible [**Correction**](../../back-matter/glossary.md#correction), influence may
+If legitimacy cannot renew through visible **Correction**, influence may
 continue, but decay deepens.
 
 ### **Correction and Circulation**
 
-If legitimacy asks why people keep following, [**Correction**](../../back-matter/glossary.md#correction) asks whether
+If legitimacy asks why people keep following, **Correction** asks whether
 warnings and dissent can still reach those who hold power and change a
 decision without punishment.
 
-[**Circulation**](../../back-matter/glossary.md#circulation) asks whether influence can still move out from formal
+**Circulation** asks whether influence can still move out from formal
 leaders and back toward them through people who step up for a moment, then step
 back.
 
 ### **Correction Signals**
 
-Selective followership is a [**Correction**](../../back-matter/glossary.md#correction) signal.
+Selective followership is a **Correction** signal.
 
-When selective dissent is open and discussable, [**Correction**](../../back-matter/glossary.md#correction) is still
+When selective dissent is open and discussable, **Correction** is still
 working. When people shift to quiet workarounds, private refusal, and
-strategic silence, [**Correction**](../../back-matter/glossary.md#correction) is weakening.
+strategic silence, **Correction** is weakening.
 
 ### **Four Questions**
 
@@ -184,33 +184,33 @@ If the answer to most is no, authority is becoming one-way.
 
 ### **How Correction and Circulation Shape Renewal and Erosion**
 
-[**Correction**](../../back-matter/glossary.md#correction) keeps authority in contact with consequence.
+**Correction** keeps authority in contact with consequence.
 
 It lets a growing organization spot drift early and buy time to adjust before
 harm spreads. It helps legitimacy hold under pressure. It does not remove
 conflict; it keeps conflict open to revision.
 
-[**Circulation**](../../back-matter/glossary.md#circulation) also helps groups grow. People nearest the shifting facts can
+**Circulation** also helps groups grow. People nearest the shifting facts can
 step in, fix things locally, and send what they learned back to the center.
 
-When [**Correction**](../../back-matter/glossary.md#correction) weakens, decay usually appears before leaders can name it.
-What got rewarded or punished while [**Correction**](../../back-matter/glossary.md#correction) narrowed is what the next
+When **Correction** weakens, decay usually appears before leaders can name it.
+What got rewarded or punished while **Correction** narrowed is what the next
 leaders will have learned to copy—**Leadership Reproduces Itself**.
 
 ### **Scale and Distance**
 
-Under scale, distance and abstraction make [**Correction**](../../back-matter/glossary.md#correction) harder to sustain.
-A short-lived tight grip on [**Correction**](../../back-matter/glossary.md#correction) during crisis can also harden into
+Under scale, distance and abstraction make **Correction** harder to sustain.
+A short-lived tight grip on **Correction** during crisis can also harden into
 habit if no one deliberately opens feedback again.
 
 The next questions concern scale and drift—how reach grows and how structure
 moves when people are far from consequence.
 
-[**Correction**](../../back-matter/glossary.md#correction) is not a promise. It helps groups adjust as they grow—but only
+**Correction** is not a promise. It helps groups adjust as they grow—but only
 when feedback can still change decisions.
 
 ::: {custom-style="Pull Quote Block"}
-Legitimacy is not proven once; it is renewed or weakened by whether [Correction](../../back-matter/glossary.md#correction)
+Legitimacy is not proven once; it is renewed or weakened by whether **Correction**
 keeps showing up in real decisions.
 :::
 [^c6-weber]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).

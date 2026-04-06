@@ -130,7 +130,7 @@ Attention Finds a Focus; Disagreement is Suppressed
 
 ## **Adjusting**
 
-_Patterns that keep decisions tied to reality, [**Correction**](glossary.md#correction), and
+_Patterns that keep decisions tied to reality, **Correction**, and
 accountability._
 
 ## **Dissent is Welcomed**
@@ -141,7 +141,7 @@ Problems, risks, or failures emerge within a group or setting.
 
 **Problem:**
 
-[**Correction**](glossary.md#correction) in time depends on whether bad news can reach decision-makers.
+**Correction** in time depends on whether bad news can reach decision-makers.
 
 **Forces:**
 
@@ -158,7 +158,7 @@ Problems surface early so reality can reach decision-makers in time.
 
 **Effect:**
 
-Early [**Correction**](glossary.md#correction) remains possible. Failure stays smaller and cheaper.
+Early **Correction** remains possible. Failure stays smaller and cheaper.
 
 **Resulting Context:**
 
@@ -200,7 +200,7 @@ Plans stay tied to reality instead of to an outdated story.
 
 **Resulting Context:**
 
-[**Correction**](glossary.md#correction) keeps its legitimacy; the group still has room to revise when facts
+**Correction** keeps its legitimacy; the group still has room to revise when facts
 change.
 
 **Related Patterns:**
@@ -237,7 +237,7 @@ without owning it.
 
 **Resulting Context:**
 
-Costs do not quietly slide onto someone else. Trust that [**Correction**](glossary.md#correction) will
+Costs do not quietly slide onto someone else. Trust that **Correction** will
 work can hold.
 
 **Related Patterns:**
@@ -274,7 +274,7 @@ Dissent fades or softens until it no longer really challenges decisions.
 
 **Effect:**
 
-Paths for [**Correction**](glossary.md#correction) narrow. Hidden errors and late failure grow more
+Paths for **Correction** narrow. Hidden errors and late failure grow more
 likely.
 
 **Resulting Context:**
@@ -316,7 +316,7 @@ while the surface still looks steady.
 
 **Resulting Context:**
 
-Errors repeat, harm piles up, and [**Correction**](glossary.md#correction) arrives late and costs more.
+Errors repeat, harm piles up, and **Correction** arrives late and costs more.
 
 **Related Patterns:**
 

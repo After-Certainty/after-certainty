@@ -72,7 +72,7 @@ Harm displacement usually follows predictable channels:
 - Forward: costs are deferred to future teams.
 - Inward: costs are hidden as burnout, fear, and silence.
 
-These channels can coexist. The more they repeat, the harder [**Correction**](../../back-matter/glossary.md#correction)
+These channels can coexist. The more they repeat, the harder **Correction**
 becomes. Repetition also teaches what the next person in charge is likely to copy—**Leadership Reproduces Itself**.
 
 Under crisis pressure, displacement often sharpens: harm is reframed as
@@ -138,7 +138,7 @@ In decaying settings, people stop naming harm directly. They comply in
 public, reroute work in private, and protect themselves through quiet
 workarounds. What looks like alignment can mask widening harm pathways.
 
-Harm is also where [**Correction**](../../back-matter/glossary.md#correction) failures show up first: people raise real
+Harm is also where **Correction** failures show up first: people raise real
 risk; nothing changes; the cost stays in place or moves to someone who
 cannot refuse.
 
@@ -155,7 +155,7 @@ themselves to close the gaps. Reports still show formal compliance with the
 central rule, but local practice quietly diverges.
 :::
 
-This is a [**Correction**](../../back-matter/glossary.md#correction) failure, not simply local resistance.
+This is a **Correction** failure, not simply local resistance.
 
 People raised the issue; nothing changed. So fixes moved off the books.
 
@@ -165,7 +165,7 @@ That gap usually means authority runs one way and is harder to change.
 Distorted feedback may already govern daily operations there. That shows
 **Learning Collapse** is already in play.
 
-Open refusal can still support [**Correction**](../../back-matter/glossary.md#correction) where others can see it.
+Open refusal can still support **Correction** where others can see it.
 Covert refusal often signals a shift toward silent exit.[^c4-exit]
 
 ### **A Practical Harm Check**

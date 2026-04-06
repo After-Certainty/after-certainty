@@ -26,7 +26,7 @@ In this phase, progress can look modest:
 - More decisions reopened before they harden.
 - Clearer limits on emergency permissions, so urgency does not permanently
   rewrite the operating baseline (**Exceptions are Forever**).
-- Stronger protection for dissent and [**Correction**](./glossary.md#correction).
+- Stronger protection for dissent and **Correction**.
 
 These shifts rarely feel dramatic. They still change how people are
 treated.
@@ -41,8 +41,8 @@ Formal rules and policy still matter. But day-to-day practice is where
 durable habits that sustain vitality are built:
 
 - Naming harm without rhetorical cover.
-- Refusing false urgency when [**Correction**](./glossary.md#correction) is still possible.
-- Separating visible success from whether [**Correction**](./glossary.md#correction) still works.
+- Refusing false urgency when **Correction** is still possible.
+- Separating visible success from whether **Correction** still works.
 - Keeping authority open to change in public.
 
 None of this guarantees a happy ending.
@@ -64,7 +64,7 @@ Some arrives as limits that hold.
 
 Some arrives as damage that no longer spreads.
 
-Some arrives as people who keep [**Correction**](./glossary.md#correction) alive when certainty would be
+Some arrives as people who keep **Correction** alive when certainty would be
 easier.
 
 That is still leadership.
