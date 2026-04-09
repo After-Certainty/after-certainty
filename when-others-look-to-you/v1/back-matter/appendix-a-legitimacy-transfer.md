@@ -1,44 +1,43 @@
 # **Appendix A — Legitimacy Transfer in Practice**
 
 This appendix applies the book's lenses to a visible case sequence. It is not a
-ranking of leaders and not a partisan scorecard. The goal is clarity about how
-legitimacy transfers, hardens, and sometimes fails to shrink again when
-leadership changes hands.
+ranking of leaders and not a partisan scorecard. The goal is to show how
+legitimacy transfers, hardens, and can stay expanded after leadership changes
+hands.
 
 ### **Baseline: Procedural Legitimacy**
 
-The U.S. presidency is designed as a procedural office. Terms end and
-restart. Law and separate branches are supposed to limit what any one
-president can do.
+The U.S. presidency is designed around formal process. Terms end and restart.
+Law and separate branches are meant to limit what any one president can do.
 
-That design does not stop transfer from happening. It makes transfer easier
-to see.
+That design does not stop transfer. It makes transfer easier to see.
 
 At scale, powers used under one administration can become the expected
-baseline for the next. Permission moves forward faster than limits do,
+baseline for the next. Permission can move forward faster than limits do,
 unless people actively renew those limits.
 
-Terms used below (aligned with the book’s four legitimacy forms):
+Terms used below (aligned with the book's four legitimacy forms):
 
 - Procedural legitimacy: authority backed by formal process and role.
 - Office-based legitimacy: authority backed by what the office is
   allowed to do, inherited from earlier use.
 - Sacralization pressure: challenge starts to sound like disloyalty—to
   the person, the party, or the national story. (This pressure is how
-  sacralized legitimacy as defined in the main text often shows up at scale.)
+  sacralized legitimacy as defined earlier in the book often shows up at scale.)
 
-The main text also names example-based legitimacy; it matters less in this
-appendix’s office-centered sequence, but it completes the same map.
+The chapters also name example-based legitimacy. This appendix centers on
+the office, so that form matters less here—but it still belongs on the same map.
 
 ### **Case Sequence: Post-9/11 to Present**
 
 #### **George W. Bush: Emergency Expansion**
 
-After September 11, emergency logic widened executive discretion and made
-exceptional measures routine in the name of speed and security.
+After September 11, emergency logic widened how much the president could do
+outside usual limits and made exceptional measures routine in the name of speed
+and security.
 
-Some measures were framed as temporary. Several became durable precedents.
-This is a classic transfer moment: authority used in crisis stays on the
+Some measures were framed as temporary. Several became lasting precedents.
+This is a familiar transfer shape: authority used in crisis stays on the
 table after the crisis story fades.
 
 This phase in brief:
@@ -54,7 +53,7 @@ The next phase emphasized procedural restoration and a slower, more careful
 tone. Some expanded powers were used more lightly. Many were still
 available on paper.
 
-The lesson is not hypocrisy or bad faith. The lesson is about design.
+The lesson is not hypocrisy or bad faith. It is about design.
 Holding back in use does not by itself roll back what the office already
 inherited.
 
@@ -83,8 +82,9 @@ This phase in brief:
 
 #### **Joe Biden: Procedural Restoration Under Inertia**
 
-The next phase renewed procedural language and institutional norms.
-Professional process and formal restraint were stressed again.
+The next phase renewed procedural language and familiar public expectations
+about how the office should behave. Professional process and formal restraint
+were stressed again.
 
 Inertia remained. Many inherited authorities stayed with the office even
 as talk shifted toward "back to normal."
@@ -129,5 +129,5 @@ transfer.
 
 The risk appears when transfer becomes automatic while limits become optional.
 
-Where authority can expand without deliberate rollback, accountability tends to
-lag. Over time, that lag is where harm accumulates.
+Where authority can grow without people deliberately pulling it back,
+accountability tends to lag. Over time, that lag is where harm piles up.

@@ -1,63 +1,56 @@
-# When Others Look to You - Drafting Status
+# When Others Look to You — drafting status
 
-## Current Phase
+## Current phase
 
-**Structural edit in progress:** Correction and Circulation (cross-cutting threads) are merged into Part II
-Chapters 4–6 (no standalone chapter on generic “circulation”; use **Correction** and **Circulation**); Part III renumbers to
-Chapters 7–9. See `docs/circulation-cross-cutting.md`.
+**Structural rewrite (v1):** Manuscript follows `docs/rewrite-plan.md`. Part II is
+**Renewal**, **Erosion**, and a dedicated **Circulation** chapter; misjudgment
+moves to Part IV; closing is Chapter 11. Part and file layout match `index.md`.
 
-Previously: Part III merged to `main`. Back matter drafting and audit were active
-on branch `when-others-look-to-you-back-matter`.
+An earlier editorial pass wove **Correction** and **Circulation** through the
+harm / effectiveness / legitimacy chapters without a standalone circulation
+chapter; that phase is **superseded** by the current plan (see
+`docs/circulation-cross-cutting.md` for terminology history).
 
-## Current Branch
+## Branch / workflow
 
-`when-others-look-to-you-back-matter`
+Update this line when you merge or branch: active work may be on a feature
+branch; **`index.md` is the source of truth** for reading order and paths.
 
-## Approved (Merged to `main`)
+## Approved structure (v1)
 
-- Front matter batch (`front-matter/*`)
-- Part I (`parts/part-1-attention-and-early-formation/*`)
-- Part II (`parts/part-2-legitimacy-harm-and-circulation/*`)
-- Part III (`parts/part-3-scale-tradeoffs-and-what-happens-next/*`)
+- **Front matter** (`front-matter/*`)
+- **Part I — How Influence Forms** (`parts/part-1-how-influence-forms/*`)
+- **Part II — Renewal, Erosion, and Circulation**
+  (`parts/part-2-renewal-erosion-circulation/*`)
+- **Part III — Harm, Effectiveness, and Legitimacy**
+  (`parts/part-3-harm-effectiveness-legitimacy/*`)
+- **Part IV — Scale, Pressure, and Misjudgment**
+  (`parts/part-4-scale-pressure-misjudgment/*`)
+- **Part V** — What Remains (`parts/part-5-closing/*`)
+- **Back matter** (`back-matter/*`)
 
-## Drafted on Current Branch (Pending Approval)
+## Key docs (precedence)
 
-- `back-matter/epilogue.md`
-- `back-matter/appendix-a-legitimacy-transfer.md` (expanded from scaffold to
-  full prose)
-- `back-matter/bibliography.md` (expanded from placeholder to substantive
-  reference list)
+- `docs/book-rules.md` — house rules and tone (wins on conflict).
+- `docs/rewrite-plan.md` — structural and migration guide for this edition.
+- `docs/pattern-integration-guide.md` — Pattern Block placement and inline anchors.
+- `docs/editorial-vocabulary.md` — chapter-aware vocabulary passes.
 
-## Key Model and Guardrail Updates Landed
+## Back matter
 
-- `docs/book-rules.md` is the **precedence** doc for house rules; other
-  `docs/*.md` files should be cross-checked against it when guidance overlaps
-  (Pattern Block positive-only renewing bodies, **Learning Collapse** prose
-  variant, negated-title capitalization, word valence).
-- Renewal/erosion canonical lexicon added to `docs/book-rules.md`:
-  - Capacities: scalability, adaptability
-  - States: regenerative, adaptive, entrenched, stalled
-- Renewal/erosion neutrality guardrail tightened (structural, non-moral)
-- Protected illustrative example guardrail added
-- Meta-language guardrail added (avoid chapter/process prose drift)
-- Domain-language guardrails tightened (vignette boundary + disposition rules)
+Epilogue, Appendix A, Appendix B, glossary, and bibliography are linked from
+`index.md`. Re-run link checks when paths or filenames change.
 
-## Back Matter Status
+## Next steps (editorial)
 
-- Back matter links are present and valid in `index.md`
-- Epilogue drafted in full (boundary conditions + practical close)
-- Appendix A drafted in full (post-9/11 presidential sequence plus
-  non-presidential contrast)
-- Bibliography drafted as a substantive source list
-- Linkage and citation-integrity sweep completed (no broken links, no
-  unresolved citation placeholders)
+`rewrite-plan.md` structural and chapter-level items are now implemented through
+Chapter 11 (including the Chapter 10 culmination frame and the circulation vs.
+correction close).
 
-## Next Step
+Remaining work is housekeeping only: optional appendix/grid placement choices,
+export/script checks, and publication formatting passes.
 
-Run human review on back matter. If approved, create one consolidated
-back-matter commit, push `when-others-look-to-you-back-matter`, and open
-PR to `main`.
+## Open decisions
 
-## Open Decisions / Questions
-
-- None currently open.
+None recorded here—use `docs/rewrite-plan.md` or issue tracker for active
+questions.

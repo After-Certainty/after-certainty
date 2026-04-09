@@ -1,21 +1,45 @@
-# **Chapter 4 — Harm Under Influence**
+# **Chapter 5 — Harm Under Influence**
 
 ### **Harm Is a Leadership Signal**
 
-Leadership does not remove harm. It directs where harm goes.[^c4-risk-distribution]
+Leadership does not remove harm. It directs where harm goes.[^c5-risk-distribution]
 
-When others look to someone for direction, decisions reach farther. Benefits can
-spread, but costs can too. A missed warning in one role can become widespread
-loss for many people. Where harm lands is central to leadership. It is not a
+When others look to someone for direction, decisions reach farther. Benefits
+spread, but costs do too. A missed warning in one role can become widespread
+loss for many people. Where harm lands is central to leadership, not a
 late-stage ethical add-on.
 
 Most leaders believe they are acting for good. The practical question is
 not intent alone, but where decision costs land when pressure rises.
 
+### **How Harm Moves**
+
+One practical test is **harm** allocation.
+
+In vibrant groups, those with authority are more likely to absorb some of
+the cost of their own decisions. They do not absorb all of it, but the linkage
+between decision rights and accountability stays visible.
+
+In **decaying** groups, costs move downward or outward: those closest to the
+consequences, people affected by the decision, or peripheral groups
+absorb the effects while central decision-makers keep control of the public
+story. This displacement is often framed as necessity, but repeated
+displacement is an early warning, not an unfortunate accident.
+
+That allocation pattern is where the four postures below separate in practice:
+whether leadership absorbs, tolerates, instrumentalizes, or simply misses harm.
+
 ### **Four Harm Postures**
 
 Leaders and groups usually settle into one of four recurring postures.
 These postures describe how the group handles harm, not moral rankings.
+When **circulation** is open, these postures are easier to interrupt: more
+people can surface risk, hold temporary authority, and route cost information
+back before harm hardens. When **circulation** is captured, the same postures
+lock in faster: harm-absorbing work stays concentrated in a few people,
+harm-tolerant routines normalize, harm-instrumental tradeoffs spread outward,
+and harm-blind leadership keeps operating with delayed or filtered consequence
+signals.
 
 ### **Harm-Absorbing**
 
@@ -24,7 +48,7 @@ Harm-absorbing leadership accepts visible cost near decision rights.
 Leaders who choose risky direction absorb part of the downside: they
 acknowledge error early, protect those closest to the consequences from
 avoidable fallout, and adjust scope when warning signals appear. This posture
-does not eliminate loss, but it ties authority to accountability.[^c4-just-culture]
+does not eliminate loss, but it ties authority to accountability.[^c5-just-culture]
 
 ### **Harm-Tolerant**
 
@@ -38,11 +62,11 @@ learns to treat it as background noise so the scoreboard can stay green.
 Someone focused only on task achievement can do enormous relational
 damage here: the work keeps moving while trust frays.
 
-In **vibrant** groups, more of the relationship field stays in view; harm
-is harder to file away without someone naming it. Either way, the posture
-is the same trade: continuity over repair. Language shifts from repair to
-rationalization: "This is just how things are at this scale." Over time,
-small preventable harms settle in as normal.
+In **vibrant** groups, more of the relationship field stays in view, so harm is
+harder to file away without someone naming it. Either way, the trade is the
+same: continuity over repair. Language shifts from repair to rationalization:
+"This is just how things are at this scale." Over time, small preventable harms
+settle in as normal.
 
 ### **Harm-Instrumental**
 
@@ -51,7 +75,7 @@ a prized goal or timeline.
 
 The logic sounds efficient: keep momentum, protect those at the center,
 and pass the cost outward. But when that behavior repeats, trust erodes,
-quiet refusal grows, and the group's ability to act weakens.[^c4-power-harm]
+quiet refusal grows, and the group's ability to act weakens.[^c5-power-harm]
 
 ### **Harm-Blind**
 
@@ -72,7 +96,7 @@ Harm displacement usually follows predictable channels:
 - Forward: costs are deferred to future teams.
 - Inward: costs are hidden as burnout, fear, and silence.
 
-These channels can coexist. The more they repeat, the harder **Correction**
+These channels can coexist. The more they repeat, the harder **correction**
 becomes. Repetition also teaches what the next person in charge is likely to copy—**Leadership Reproduces Itself**.
 
 Under crisis pressure, displacement often sharpens: harm is reframed as
@@ -86,7 +110,8 @@ A community center has one week before a ribbon cutting that the mayor’s offic
 scheduled. A facilities volunteer notices a handrail on the stairs is
 still loose. She raises it at the prep meeting. The site lead replies,
 "Note it and open anyway—we can't miss that date."
-That first response is where **Examples Accumulate** for what follows.
+That first response is where **Examples Accumulate** for everything that
+happens afterward.
 
 The building opens on time. Photos for the town newsletter look great. Two
 weeks later, front-desk volunteers field angry calls after someone stumbles.
@@ -138,7 +163,7 @@ In decaying settings, people stop naming harm directly. They comply in
 public, reroute work in private, and protect themselves through quiet
 workarounds. What looks like alignment can mask widening harm pathways.
 
-Harm is also where **Correction** failures show up first: people raise real
+Harm is also where **correction** failures show up first: people raise real
 risk; nothing changes; the cost stays in place or moves to someone who
 cannot refuse.
 
@@ -155,7 +180,7 @@ themselves to close the gaps. Reports still show formal compliance with the
 central rule, but local practice quietly diverges.
 :::
 
-This is a **Correction** failure, not simply local resistance.
+This is a **correction** failure, not simply local resistance.
 
 People raised the issue; nothing changed. So fixes moved off the books.
 
@@ -165,8 +190,8 @@ That gap usually means authority runs one way and is harder to change.
 Distorted feedback may already govern daily operations there. That shows
 **Learning Collapse** is already in play.
 
-Open refusal can still support **Correction** where others can see it.
-Covert refusal often signals a shift toward silent exit.[^c4-exit]
+Open refusal can still support **correction** where others can see it.
+Covert refusal often signals a shift toward silent exit.[^c5-exit]
 
 ### **A Practical Harm Check**
 
@@ -181,19 +206,19 @@ If these questions cannot be answered clearly, **Leaders Do Not Feel the
 Consequences.** Harm displacement is settling in as habit. The group is drifting
 toward tolerance or blindness.
 
-### **Where the Argument Turns Next**
+### **Effectiveness as the Next Check**
 
 Harm is the first check because it reveals reality quickly.
 
-The next focus is why short-term effectiveness can hide long-term decay.
+The next question is why short-term effectiveness can hide long-term decay.
 
 ::: {custom-style="Pull Quote Block"}
-Where harm lands often reveals what leadership is protecting.
+Follow the damage path; it usually traces the protected edge.
 :::
-[^c4-risk-distribution]: Ulrich Beck, *Risk Society: Towards a New Modernity* (London: Sage, 1992).
-[^c4-just-culture]: Sidney W. A. Dekker, *Just Culture: Restoring Trust and Accountability in Your Organization* (3rd ed., Boca Raton, FL: CRC Press, 2016).
-[^c4-power-harm]: Michel Foucault, *Discipline and Punish: The Birth of the Prison* (New York: Vintage Books, 1977).
-[^c4-exit]: On exit when voice is costly or ineffective, see Albert O.
+[^c5-risk-distribution]: Ulrich Beck, *Risk Society: Towards a New Modernity* (London: Sage, 1992).
+[^c5-just-culture]: Sidney W. A. Dekker, *Just Culture: Restoring Trust and Accountability in Your Organization* (3rd ed., Boca Raton, FL: CRC Press, 2016).
+[^c5-power-harm]: Michel Foucault, *Discipline and Punish: The Birth of the Prison* (New York: Vintage Books, 1977).
+[^c5-exit]: On exit when voice is costly or ineffective, see Albert O.
   Hirschman, *Exit, Voice, and Loyalty* (Cambridge, MA: Harvard University
   Press, 1970). On covert refusal and off-stage resistance, see James C.
   Scott, *Domination and the Arts of Resistance: Hidden Transcripts* (New Haven,

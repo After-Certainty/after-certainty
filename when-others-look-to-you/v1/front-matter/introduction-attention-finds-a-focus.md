@@ -29,7 +29,7 @@ When others continue to look to someone, authority forms.
 Over time, that authority can strengthen, or it can erode.
 
 Either path can look stable for a while. In the long run, authority is usually more durable when
-**Correction** still works.
+**correction** still works.
 
 ### **How the Dynamics Stack**
 
@@ -57,22 +57,23 @@ this place treats as normal.
 ### **How This Book Proceeds**
 
 The chapters follow one structural throughline: Attention → Influence →
-Structure → Renewal or Erosion → **Circulation** and **Correction**.
+Structure → Renewal or Erosion → Circulation.
 
-Part I establishes that chain. Part II takes up harm, effectiveness, and
-legitimacy. **Circulation** and **Correction** run through that part—whether influence can move through temporary leadership so leadership scales, and whether warning and dissent can still change direction.
+Part I establishes that chain. Part II names **renewal**, **erosion**, and **circulation**—what it looks like when influence opens, narrows, or moves through people. Part III takes up harm, effectiveness, and legitimacy as tests of what influence is producing. **Circulation** and **correction** run through those parts—whether influence can move through temporary leadership so leadership scales, and whether warning and dissent can still change direction.
 
-Part III takes up scale, tradeoffs under pressure, and how those lenses fit
-together under harder conditions.
+Part IV takes up scale, tradeoffs under pressure, and why observers misjudge leaders when signals travel far and late. Part V (What Remains) asks what is still possible when structures drift and judgment fails anyway.
 
 Those dynamics also gather into four shapes: **Forming**, **Adjusting**,
 **Eroding**, and **Circulating**. **Forming** is where live conditions get
 set. From there a structure can move toward **Adjusting** or **Eroding**. Both
-paths shape what later gets copied and passed on. **Circulating** is that
-copying and passing on—**Circulation** in the sense of what spreads and gets imitated. It feeds the next round of formation.
+paths shape what later gets copied and passed on. **Circulating** includes what
+spreads through imitation, and **circulation** in the stronger sense the book
+develops later: whether someone may hold the center for a phase—temporary or
+shared leadership—and who is treated as *allowed* to steer before titles
+change. Copied habit and copied permission both feed the next round of formation.
 
 Crisis is treated as a recurring thread across the manuscript, with its
-primary integration in Part III.
+strongest integration where scale and pressure enter—late in the arc.
 
 The aim is not to condemn people; it is to clarify dynamics.
 

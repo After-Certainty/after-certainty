@@ -1,21 +1,21 @@
-# **Chapter 6 — Legitimacy Over Time**
+# **Chapter 7 — Legitimacy Over Time**
 
 ### **Why People Continue to Follow**
 
-Leadership persists because attention persists. But no one explanation stays
+Leadership persists because attention persists. But no one explanation is
 enough on its own.
 
 People keep following when they believe authority remains justified; that belief
-is **legitimacy**.[^c6-weber]
+is **legitimacy**.[^c7-weber]
 
 **Legitimacy** is not static. It can renew, transfer, harden, or slip out of
 step with what is actually happening. Each form ties authority to
-accountability a little differently. That shows up in ordinary years and again
-when leadership changes hands.
+accountability a little differently. You can see that in ordinary years and
+again when leadership changes hands.
 
-Those forms also bear on two **vitality** questions tied to **renewal** and **erosion**:
-whether influence can still change direction under pressure, and whether
-coordinated action can grow without getting stuck.
+Those forms also bear on two **vitality** questions tied to **renewal** and
+**erosion**: whether influence can still change direction under pressure, and
+whether coordinated action can grow without getting stuck.
 
 ### **Example-Based Legitimacy**
 
@@ -35,7 +35,7 @@ they inherit. At transfer, example-based legitimacy still turns on whether
 conduct matches that inheritance—not only on what was said when authority
 passed.
 
-When actions match language, people can see where **Harm** lands, and **Correction**
+When actions match language, people can see where **harm** lands, and **correction**
 can still change what happens next. Influence stays earned in real time.
 
 This form is the easiest to renew because it has to be re-earned in what
@@ -91,7 +91,7 @@ Sacralized legitimacy grows when raising doubt feels disloyal. People merge
 who they are with the leader or the group story. The public story is treated
 as settled. The same immunity often reaches transfer: who leads next, or how
 authority is supposed to pass, is treated as foreordained—part of a line the
-group is not meant to reopen. Trying to correct someone costs you socially.[^c6-arendt]
+group is not meant to reopen. Trying to correct someone costs you socially.[^c7-arendt]
 
 A simple case: someone asks whether the named successor is still the right fit,
 or whether the succession rule should be reopened before authority passes. The
@@ -104,7 +104,7 @@ like strength. In practice, it is still erosion: critique no longer changes
 direction.
 
 Challenge is recoded as disloyalty. Authority becomes harder to revise, and
-paths for **Correction** begin to close—that is **Disagreement is Suppressed**.
+paths for **correction** begin to close—that is **Disagreement is Suppressed**.
 
 Once that shift takes hold, it can outlast the formal process on paper.
 
@@ -114,8 +114,8 @@ A common arc is:
 
 Example-based → procedural → office-based → sacralized
 
-You can say it in one breath: visible example, then rules and roles, then the
-office, then a story that ordinary challenge cannot easily reach.
+In one breath: visible example, then rules and roles, then the office, then a
+story ordinary challenge cannot easily reach.
 
 In plain terms, people trust what they can see, then the rules, then the
 title, and sometimes the role becomes too holy to question.
@@ -131,15 +131,26 @@ pull back later.
 ### **Selective Followership as a Probe**
 
 Selective followership helps reveal which form of legitimacy is active.
+It also shows what kind of **correction** is still possible.
 
-If people can disagree openly while staying inside shared purpose,
-legitimacy is probably still renewing.
+Not all refusal means disorder. In vibrant groups, selective refusal can function as **correction**.
+People can say, "I agree with the goal, but not this method," without becoming
+enemies of the group. That kind of limited pushback protects judgment
+and keeps authority connected to consequences.
 
-If people comply publicly but diverge privately, legitimacy is likely
-sliding toward office-based or sacralized forms. In that state, calm
-surfaces can hide deeper trust loss.
+In decaying groups, selective refusal turns covert. People perform
+agreement while quietly routing around decisions they do not trust. The
+group still appears aligned, but shared reality weakens.
 
-If uncorrected, open challenge can give way to **Disagreement is Suppressed**.
+The same behavior can mean different things depending on whether the group
+is in **renewal** or **erosion**. Open selective dissent often signals
+**renewal**. Hidden selective resistance often signals **erosion**.
+
+In practice, open disagreement inside shared purpose usually means legitimacy
+is still renewing. Public compliance paired with private divergence usually
+means legitimacy is sliding toward office-based or sacralized forms. In that
+state, calm surfaces can hide deeper trust loss, and open challenge can give
+way to **Disagreement is Suppressed**.
 
 ### **Legitimacy and Accountability**
 
@@ -149,12 +160,12 @@ Stories about who we are persist. Habits persist.
 The practical question is whether authority still answers to the people
 affected by its decisions.
 
-If legitimacy cannot renew through visible **Correction**, influence may
+If legitimacy cannot renew through visible **correction**, influence may
 continue, but decay deepens.
 
 ### **Correction and Circulation**
 
-If legitimacy asks why people keep following, **Correction** asks whether
+If legitimacy asks why people keep following, **correction** asks whether
 warnings and dissent can still reach those who hold power and change a
 decision without punishment.
 
@@ -164,11 +175,11 @@ back.
 
 ### **Correction Signals**
 
-Selective followership is a **Correction** signal.
+Selective followership is a **correction** signal.
 
-When selective dissent is open and discussable, **Correction** is still
+When selective dissent is open and discussable, **correction** is still
 working. When people shift to quiet workarounds, private refusal, and
-strategic silence, **Correction** is weakening.
+strategic silence, **correction** is weakening.
 
 ### **Four Questions**
 
@@ -193,25 +204,24 @@ conflict; it keeps conflict open to revision.
 **Circulation** also helps groups grow. People nearest the shifting facts can
 step in, fix things locally, and send what they learned back to the center.
 
-When **Correction** weakens, decay usually appears before leaders can name it.
-What got rewarded or punished while **Correction** narrowed is what the next
+When **correction** weakens, decay usually appears before leaders can name it.
+What got rewarded or punished while **correction** narrowed is what the next
 leaders will have learned to copy—**Leadership Reproduces Itself**.
 
 ### **Scale and Distance**
 
-Under scale, distance and abstraction make **Correction** harder to sustain.
-A short-lived tight grip on **Correction** during crisis can also harden into
+Under scale, distance and abstraction make **correction** harder to sustain.
+A short-lived tight grip on **correction** during crisis can also harden into
 habit if no one deliberately opens feedback again.
 
-The next questions concern scale and drift—how reach grows and how structure
-moves when people are far from consequence.
+Scale and drift cover how reach grows and how structure moves when people are far
+from consequence.
 
 **Correction** is not a promise. It helps groups adjust as they grow—but only
 when feedback can still change decisions.
 
 ::: {custom-style="Pull Quote Block"}
-Legitimacy is not proven once; it is renewed or weakened by whether **Correction**
-keeps showing up in real decisions.
+Legitimacy survives through repeated accountability, not one-time assent.
 :::
-[^c6-weber]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
-[^c6-arendt]: Hannah Arendt, "What Is Authority?" in *Between Past and Future* (New York: Viking Press, 1961).
+[^c7-weber]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
+[^c7-arendt]: Hannah Arendt, "What Is Authority?" in *Between Past and Future* (New York: Viking Press, 1961).

@@ -18,10 +18,10 @@ core takeaway.
 
 Example:
 
-- Part II — Harm, Effectiveness, and Legitimacy
-- Bridge — From Misjudgment to Structural Tests
-- Chapter 6 — Legitimacy Over Time
-- Part III — Scale, Tradeoffs, and What Happens Next
+- Part III — Harm, Effectiveness, and Legitimacy
+- Bridge — From Pattern to Test
+- Chapter 7 — Legitimacy Over Time
+- Part IV — Scale, Pressure, and Misjudgment
 
 ### **Pull-Quotes**
 
@@ -46,8 +46,9 @@ When others look to you, your posture becomes part of their world.
 
 Some chapters use a dedicated visual block so you can spot recurring
 structural dynamics without interrupting the prose flow. Each block opens with
-a short **bold title**. The book names these ideas with those titles; it does
-not describe them with the word *pattern*.
+the label *Pattern:* and then a short **bold title**. The book names these
+ideas with those titles in running prose; it does not describe them with the
+word *pattern*.
 
 These blocks use subtle visual emphasis (such as light shading and a
 soft border) so they remain distinct from both normal prose and
@@ -56,7 +57,7 @@ vignettes without overpowering the page.
 Example:
 
 ::: {custom-style="Pattern Block"}
-**Example Name**
+Pattern: **Example Name**
 
 One to two sentences describing a recurring structural dynamic in the
 current context.

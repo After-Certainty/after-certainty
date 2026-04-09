@@ -17,12 +17,13 @@ influence is still forming.
 The book uses one durable definition as its anchor. The Introduction
 introduces it directly.
 
-From that anchor, the chapters move in three passes:
+From that anchor, the chapters move in layers:
 
-- Part I: how attention becomes influence; renewal and erosion; whether
-  **Correction** and **Circulation** still hold; and why observers so often misjudge leaders from outcomes and confidence alone.
-- Part II: harm, effectiveness, and legitimacy—each a lens on what influence is producing, with **Circulation** and **Correction** tested throughout.
-- Part III: scale and drift; tradeoffs under pressure; and what can still change once the lenses are combined.
+- **Part I** — How influence forms: attention, pattern, and the weight of being looked to.
+- **Part II** — **renewal**, **erosion**, and **circulation**: what it looks like when influence opens, narrows, or moves through people.
+- **Part III** — **harm**, **effectiveness**, and **legitimacy**: tests of what influence is producing, with **correction** and **circulation** threaded throughout.
+- **Part IV** — Scale, tradeoffs under pressure, and why observers misjudge leaders when signals travel far and late.
+- **Part V** — What Remains: what is still possible when structures drift and judgment fails anyway.
 
 The language stays simple on purpose. The ideas are serious, but they do
 not require ornate phrasing to be useful.

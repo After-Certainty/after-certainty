@@ -1,10 +1,10 @@
-# **Chapter 8 — Tradeoffs Under Pressure**
+# **Chapter 9 — Tradeoffs Under Pressure**
 
 ### **When Pressure Reorders Judgment**
 
 Pressure does not eliminate tradeoffs. It compresses them.
 
-Under urgency, groups trade slower **Correction** for faster action.
+Under urgency, groups trade slower **correction** for faster action.
 Sometimes this is necessary. Sometimes it becomes a shortcut that survives
 after the emergency passes.
 
@@ -12,16 +12,16 @@ The core tension is simple: what helps now can damage later.
 
 ### **Three Lenses, One Moment**
 
-Pressure changes **Harm**, **Effectiveness**, and **Legitimacy** at once.
+Pressure changes **harm**, **effectiveness**, and **legitimacy** at once.
 **Correction** moves with them: whether dissent and warning can still move fast
 enough to matter.
 
-- **Harm**: pushing cost onto someone else becomes easier to justify.
-- **Effectiveness**: looking in control can beat building lasting capacity.
-- **Legitimacy**: temporary permission can harden into a new default people
+- **harm**: pushing cost onto someone else becomes easier to justify.
+- **effectiveness**: looking in control can beat building lasting capacity.
+- **legitimacy**: temporary permission can harden into a new default people
   later treat as normal.
 
-Under pressure, **Correction** narrows first. Dissent moves from open signal
+Under pressure, **correction** narrows first. Dissent moves from open signal
 to quiet workaround.
 
 These shifts can happen in any state, but not with equal cost.
@@ -30,10 +30,10 @@ These shifts can happen in any state, but not with equal cost.
 
 Pressure response reveals which state a group is in more clearly than routine conditions:
 
-- **Regenerative**: reach and adjustment both hold under load.
-- **Adaptive**: adjustment holds locally, but broader coordination strains.
-- **Entrenched**: reach still holds, but changing course gets harder.
-- **Stalled**: neither reach nor course change holds reliably.
+- **regenerative**: reach and adjustment both hold under load.
+- **adaptive**: adjustment holds locally, but broader coordination strains.
+- **entrenched**: reach still holds, but changing course gets harder.
+- **stalled**: neither reach nor course change holds reliably.
 
 Under pressure, the **vibrant group** and **decaying group** pay different costs when course change must happen fast.
 
@@ -43,11 +43,11 @@ Crisis is a diagnostic, not only a disruption.
 
 Crisis periods can:
 
-- Increase tolerance for shifting **Harm** onto others.
-- Reward short-term **Effectiveness** while shrinking the time **Correction** has to matter.
-- Accelerate **Legitimacy** transfer through emergency precedent.
+- Increase tolerance for shifting **harm** onto others.
+- Reward short-term **effectiveness** while shrinking the time **correction** has to matter.
+- Accelerate **legitimacy** transfer through emergency precedent.
 - Normalize temporary authority expansions into a lasting baseline for how
-  decisions get made.[^c8-crisis-precedent]
+  decisions get made.[^c9-crisis-precedent]
 
 Crisis does not invent these dynamics; it reveals and amplifies what the
 structure already permits.
@@ -68,7 +68,7 @@ but route corrections are delayed because the temporary command protocol
 blocks local overrides.
 
 In crisis, that trade is one way **Examples Accumulate** can run against
-signals that **Correction** is still working.
+signals that **correction** is still working.
 
 Months later, the storm is over, but the centralized approval path
 remains. Officials describe it as "proven under pressure."
@@ -85,10 +85,10 @@ Restraint can look weak in the moment.
 
 Leaders who slow, verify, and reopen challenge channels may appear less
 decisive than leaders who centralize control and close debate. But over
-time, restraint preserves **adaptability** and limits **Harm** that shows up
+time, restraint preserves **adaptability** and limits **harm** that shows up
 later.
 
-Urgency can be real; what matters is what gets locked in after it passes.[^c8-escalation]
+Urgency can be real; what matters is what gets locked in after it passes.[^c9-escalation]
 
 Once the emergency story stops dominating meetings, can new information still
 change the plan? When it can, **Feedback Drives Change** still holds.
@@ -114,10 +114,10 @@ possible once trajectories are visible but reversal is incomplete—and once
 **Exceptions are Forever** has begun to shape the baseline.
 
 ::: {custom-style="Pull Quote Block"}
-Pressure does not choose for us. It reveals what we are willing to lock in.
+Pressure clarifies commitments; it does not absolve them.
 :::
-[^c8-crisis-precedent]: Giorgio Agamben, *State of Exception*, trans. Kevin Attell (Chicago: University of Chicago Press, 2005).
-[^c8-escalation]: Barry M. Staw, "Knee-Deep in the Big Muddy: A Study of Escalating
+[^c9-crisis-precedent]: Giorgio Agamben, *State of Exception*, trans. Kevin Attell (Chicago: University of Chicago Press, 2005).
+[^c9-escalation]: Barry M. Staw, "Knee-Deep in the Big Muddy: A Study of Escalating
   Commitment to a Chosen Course of Action," *Organizational Behavior and Human
   Performance* 16, no. 1 (1976): 27–44, on escalating commitment to a course after
   direction has hardened—the pattern that restraint, verification, and reopened

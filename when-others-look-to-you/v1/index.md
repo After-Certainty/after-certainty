@@ -14,26 +14,36 @@
 - [Acknowledgements](front-matter/acknowledgements.md)
 - [Introduction — Attention Finds a Focus](front-matter/introduction-attention-finds-a-focus.md)
 
-## Part I — Attention and Early Formation
+## Part I — How Influence Forms
 
-- [Bridge — From Attention to Pattern](parts/part-1-attention-and-early-formation/bridge.md)
-- [Chapter 1 — The Weight of Being Looked To](parts/part-1-attention-and-early-formation/chapter-1-the-weight-of-being-looked-to.md)
-- [Chapter 2 — Renewal and Erosion](parts/part-1-attention-and-early-formation/chapter-2-renewal-and-erosion.md)
-- [Chapter 3 — Why We Misjudge Leaders](parts/part-1-attention-and-early-formation/chapter-3-why-we-misjudge-leaders.md)
+- [Bridge — From Attention to Pattern](parts/part-1-how-influence-forms/bridge.md)
+- [Chapter 1 — The Weight of Being Looked To](parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md)
 
-## Part II — Harm, Effectiveness, and Legitimacy
+## Part II — Renewal, Erosion, and Circulation
 
-- [Bridge — From Misjudgment to Structural Tests](parts/part-2-legitimacy-harm-and-circulation/bridge.md)
-- [Chapter 4 — Harm Under Influence](parts/part-2-legitimacy-harm-and-circulation/chapter-4-harm-under-influence.md)
-- [Chapter 5 — Effectiveness and Its Illusions](parts/part-2-legitimacy-harm-and-circulation/chapter-5-effectiveness-and-its-illusions.md)
-- [Chapter 6 — Legitimacy Over Time](parts/part-2-legitimacy-harm-and-circulation/chapter-6-legitimacy-over-time.md)
+- [Bridge — From Formation to Movement](parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md)
+- [Chapter 2 — Renewal](parts/part-2-renewal-erosion-circulation/chapter-2-renewal.md)
+- [Chapter 3 — Erosion](parts/part-2-renewal-erosion-circulation/chapter-3-erosion.md)
+- [Chapter 4 — Circulation](parts/part-2-renewal-erosion-circulation/chapter-4-circulation.md)
 
-## Part III — Scale, Tradeoffs, and What Happens Next
+## Part III — Harm, Effectiveness, and Legitimacy
 
-- [Bridge — From Structure to Scale Pressure](parts/part-3-scale-tradeoffs-and-what-happens-next/bridge.md)
-- [Chapter 7 — Scale and Drift](parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-7-scale-and-drift.md)
-- [Chapter 8 — Tradeoffs Under Pressure](parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-8-tradeoffs-under-pressure.md)
-- [Chapter 9 — What Happens Next](parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-9-what-happens-next.md)
+- [Bridge — From Movement to Lenses](parts/part-3-harm-effectiveness-legitimacy/bridge-from-movement-to-lenses.md)
+- [Chapter 5 — Harm Under Influence](parts/part-3-harm-effectiveness-legitimacy/chapter-5-harm-under-influence.md)
+- [Chapter 6 — Effectiveness and Its Illusions](parts/part-3-harm-effectiveness-legitimacy/chapter-6-effectiveness-and-its-illusions.md)
+- [Chapter 7 — Legitimacy Over Time](parts/part-3-harm-effectiveness-legitimacy/chapter-7-legitimacy-over-time.md)
+
+## Part IV — Scale, Pressure, and Misjudgment
+
+- [Bridge — From Structure to Scale and Judgment](parts/part-4-scale-pressure-misjudgment/bridge-from-structure-to-scale-and-judgment.md)
+- [Chapter 8 — Scale and Drift](parts/part-4-scale-pressure-misjudgment/chapter-8-scale-and-drift.md)
+- [Chapter 9 — Tradeoffs Under Pressure](parts/part-4-scale-pressure-misjudgment/chapter-9-tradeoffs-under-pressure.md)
+- [Chapter 10 — Why We Misjudge Leaders](parts/part-4-scale-pressure-misjudgment/chapter-10-why-we-misjudge-leaders.md)
+
+## Part V — What Remains
+
+- [Bridge — From Misjudgment to What Remains](parts/part-5-closing/bridge-from-misjudgment-to-what-remains.md)
+- [Chapter 11 — What Happens Next](parts/part-5-closing/chapter-11-what-happens-next.md)
 
 ## Back Matter
 

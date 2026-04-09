@@ -1,34 +1,34 @@
 # **Appendix B — Leadership Patterns**
 
-This appendix summarizes recurring patterns from the book: how leadership
-forms, renews, erodes, and spreads. They fall under four labels—**forming**,
-**adjusting**, **eroding**, and **circulating**. Each entry is a short snapshot
-of when it appears, what is happening, and what tends to follow.
+This appendix lists patterns from the book: how leadership forms, renews,
+erodes, and spreads. Four groups—**forming**, **adjusting**, **eroding**, and
+**circulating**—hold the entries. Each one notes when it shows up, what is
+happening, and what often comes next.
 
-These patterns are not prescriptions. They are conditions you can observe again
-and again, from small groups to large institutions.
+These are not prescriptions. They are things you can watch for in small groups,
+workplaces, and public life.
 
 ## **Forming**
 
-_Patterns where attention, example, and habit pull leadership into focus
-while direction is still taking shape._
+_Attention, example, and habit pull leadership into focus while the group is
+still finding direction._
 
 ## **Attention Finds a Focus**
 
 **Context:**
 
-A group hits uncertainty, ambiguity, or a moment that needs direction.
+The group faces unclear next steps. It needs direction.
 
 **Problem:**
 
-Coordination is needed, but no clear process has named who will lead.
+People need to work together. No clear process has named who will lead.
 
 **Forces:**
 
-- People seek orientation under uncertainty
-- Silence creates pressure for someone to act
-- Early signals carry extra weight
-- Leadership can emerge without intention
+- People want a steer when things are unclear
+- Silence pushes someone to act
+- Early signals weigh extra
+- Leadership can show up without anyone planning it
 
 **Observation:**
 
@@ -39,13 +39,13 @@ with that person’s actions, tone, or timing.
 
 **Effect:**
 
-Influence multiplies immediately. The person being looked to becomes hard
-to ignore in the life of the group, whether or not they claim authority.
+Influence grows fast. The person others look to is hard to ignore in the
+group. That holds whether or not they claim formal authority.
 
 **Resulting Context:**
 
-A loop forms: attention feeds influence, influence feeds attention, and
-authority starts to lock in.
+A loop forms. Attention feeds influence. Influence feeds attention. Authority
+starts to lock in.
 
 **Related Patterns:**
 
@@ -55,31 +55,30 @@ Examples Accumulate; Leadership Coalesces
 
 **Context:**
 
-A leader reacts to a mistake, tension, or ambiguity in a shared setting.
+A leader reacts to a mistake, tension, or unclear ground in a shared setting.
 
 **Problem:**
 
-Group members need to read what is acceptable, but clear rules are
-missing or thin.
+People need to know what counts as OK. Clear rules are missing or thin.
 
 **Forces:**
 
-- People look for social cues under uncertainty
-- Observable behavior is faster and more influential than formal policy
-- Early reactions shape perceived boundaries
-- Silence and emphasis both carry meaning
+- People watch others when things are unclear
+- What people see moves faster than written rules
+- Early reactions set what feels allowed
+- Silence and emphasis both send a signal
 
 **Observation:**
 
-What the leader does—especially under pressure—quickly defines what
-others believe is acceptable.
+What the leader does—especially under pressure—quickly sets what others
+treat as acceptable.
 
 > "Careful what we model in the room; examples accumulate faster than anything we post on the wiki."
 
 **Effect:**
 
-Norms form fast with no formal vote, shaping how truth, error, and risk
-are handled.
+Norms form fast. No vote is needed. They shape how truth, error, and risk
+get handled.
 
 **Resulting Context:**
 
@@ -98,26 +97,26 @@ A group repeatedly turns to the same person when decisions are unclear.
 
 **Problem:**
 
-Decision responsibility is unclear on paper—or it is assigned, but the
-work still slides to the same person.
+On paper, who decides is unclear. Or the role is assigned, but the work still
+slides to the same person.
 
 **Forces:**
 
-- Repetition creates familiarity and trust
-- Speed favors known decision paths
-- Avoidance of ambiguity reinforces habit
-- Unofficial authority can be easier than formal delegation
+- Repetition builds familiarity and trust
+- Speed favors the usual decision path
+- Dodging unclear ground reinforces habit
+- Informal authority can feel easier than formal handoff
 
 **Observation:**
 
-The group defaults to the same person automatically, even in situations
-where no formal authority exists.
+The group defaults to the same person. That can happen even when no formal
+authority exists.
 
 > "It's not on the chart, but leadership coalesces around you—every time it's fuzzy, the call still comes back to you."
 
 **Effect:**
 
-Authority forms through repetition and becomes hard to share or hand off.
+Authority forms through repetition. It gets hard to share or hand off.
 
 **Resulting Context:**
 
@@ -130,40 +129,40 @@ Attention Finds a Focus; Disagreement is Suppressed
 
 ## **Adjusting**
 
-_Patterns that keep decisions tied to reality, **Correction**, and
-accountability._
+_These keep decisions tied to what is real, to **correction**, and to who
+answers for outcomes._
 
 ## **Dissent is Welcomed**
 
 **Context:**
 
-Problems, risks, or failures emerge within a group or setting.
+Problems, risks, or failures show up inside a group or setting.
 
 **Problem:**
 
-**Correction** in time depends on whether bad news can reach decision-makers.
+Timely **correction** depends on whether bad news can reach those who decide.
 
 **Forces:**
 
-- Social and professional risk discourages speaking up
-- Hierarchies filter or delay information
-- Positive signals are easier to share than negative ones
-- People adapt to what is safe to say
+- Speaking up can cost people socially or at work
+- Reporting lines filter or delay information
+- Good news travels easier than bad news
+- People learn what is safe to say
 
 **Observation:**
 
-Problems surface early so reality can reach decision-makers in time.
+Problems show up early. Reality reaches those who decide in time.
 
 > "If you see a problem, say it now. Dissent is welcomed here—we can't fix what we don't surface while it's still small."
 
 **Effect:**
 
-Early **Correction** remains possible. Failure stays smaller and cheaper.
+Early **correction** remains possible. Failure stays smaller and cheaper.
 
 **Resulting Context:**
 
-When this pattern weakens, signals are delayed or suppressed, and
-problems grow before they are addressed.
+When this pattern weakens, signals arrive late or get buried. Problems grow
+before anyone addresses them.
 
 **Related Patterns:**
 
@@ -173,20 +172,19 @@ Examples Accumulate; Learning Collapses
 
 **Context:**
 
-New facts, visible risk, or bad assumptions show up after direction is
-already set.
+New facts, visible risk, or bad assumptions show up after direction is set.
 
 **Problem:**
 
-The group must decide whether to adjust or to protect the public story and
-ongoing commitment.
+The group must choose: change course or protect the public story and what
+people already signed up for.
 
 **Forces:**
 
-- Public commitment makes reversal costly
+- Going public makes reversal costly
 - Momentum favors staying the course
-- Admitting error threatens legitimacy
-- Small updates are easier than full reversals
+- Saying we were wrong can threaten legitimacy
+- Small fixes are easier than full reversals
 
 **Observation:**
 
@@ -200,7 +198,7 @@ Plans stay tied to reality instead of to an outdated story.
 
 **Resulting Context:**
 
-**Correction** keeps its legitimacy; the group still has room to revise when facts
+**correction** still matters. The group still has room to revise when facts
 change.
 
 **Related Patterns:**
@@ -211,33 +209,33 @@ Dissent is Welcomed; Leaders Feel the Consequences
 
 **Context:**
 
-A decision creates cost, risk, or benefit for people in a group.
+A decision creates cost, risk, or gain for people in a group.
 
 **Problem:**
 
-Where decisions are made and where costs land can drift apart.
+Where people decide and where costs land can drift apart.
 
 **Forces:**
 
-- Incentives favor visible success over visible cost
-- In large settings, impact lands unevenly
-- Distance makes harm easier to overlook
-- Pushing responsibility downhill is often easier
+- Incentives favor visible wins over visible cost
+- In large settings, effects land unevenly
+- Distance makes harm easier to miss
+- Pushing pain downhill is often easier
 
 **Observation:**
 
-The people who decide stay tied to what their decisions do to others.
+Those who decide stay tied to what their choices do to others.
 
 > "If we called it, we sit with the fallout. Leaders feel the consequences on this; we're not sliding the pain down a layer."
 
 **Effect:**
 
-Accountability stays in view. Harm is harder to shrug off or repeat
-without owning it.
+Accountability stays in view. Harm is harder to shrug off. It is harder to
+repeat harm without owning it.
 
 **Resulting Context:**
 
-Costs do not quietly slide onto someone else. Trust that **Correction** will
+Costs do not quietly slide onto someone else. Trust that **correction** will
 work can hold.
 
 **Related Patterns:**
@@ -246,24 +244,24 @@ Dissent is Welcomed; Learning Collapses
 
 ## **Eroding**
 
-_Patterns where feedback, dissent, and boundaries weaken over time._
+_Feedback, dissent, and boundaries weaken over time._
 
 ## **Disagreement is Suppressed**
 
 **Context:**
 
-A leader or leadership structure gains stability, success, or repeated
-validation.
+A leader or leadership setup gains stability, success, or repeated proof that
+they are right.
 
 **Problem:**
 
-Protecting the leader starts to rival protecting accuracy.
+Guarding the leader can matter as much as getting the facts right.
 
 **Forces:**
 
-- Success builds confidence and lowers the felt need for challenge
-- Social cost of dissent rises
-- Loyalty signals are rewarded over correction signals
+- Success builds confidence. Challenge feels less needed.
+- Speaking against the line costs more socially
+- Loyalty is rewarded over pushback
 - Stories about who we are harden around the leader
 
 **Observation:**
@@ -274,7 +272,7 @@ Dissent fades or softens until it no longer really challenges decisions.
 
 **Effect:**
 
-Paths for **Correction** narrow. Hidden errors and late failure grow more
+Paths for **correction** narrow. Errors stay hidden. Late failure grows more
 likely.
 
 **Resulting Context:**
@@ -289,34 +287,33 @@ Leadership Coalesces; Learning Collapses
 
 **Context:**
 
-Decision-makers sit far from where effects actually show up.
+Those who decide sit far from where effects show up.
 
 **Problem:**
 
-Word from the ground does not reliably reach decision-makers in time.
+News from the ground does not reliably reach them in time.
 
 **Forces:**
 
-- Size increases distance from impact
+- Size adds distance from impact
 - Formal reporting filters or delays signals
-- Negative outcomes are costly to surface
-- Success signals travel more easily than failure signals
+- Bad news is costly to surface
+- Good news travels easier than bad news
 
 **Observation:**
 
-Decision-makers do not get a timely, accurate read on what their choices
-are doing.
+They do not get a clear read in time on what their choices are doing.
 
 > "We're steering off summaries again. Learning collapses when the ground story never really reaches this room."
 
 **Effect:**
 
-Feedback loops weaken. Decisions drift away from what is actually happening
-while the surface still looks steady.
+Feedback weakens. Decisions drift away from what is really happening. The
+surface can still look steady.
 
 **Resulting Context:**
 
-Errors repeat, harm piles up, and **Correction** arrives late and costs more.
+Errors repeat, harm piles up, and **correction** arrives late and costs more.
 
 **Related Patterns:**
 
@@ -326,20 +323,19 @@ Leaders Feel the Consequences; Dissent is Welcomed
 
 **Context:**
 
-A group adopts emergency measures or exceptions during a crisis or
-period of urgency.
+A group adopts emergency measures or exceptions during a crisis or rush.
 
 **Problem:**
 
-Actions taken for speed or survival are not automatically reversed when
-conditions stabilize.
+Moves made for speed or survival do not always roll back when things calm
+down.
 
 **Forces:**
 
-- Urgency justifies bypassing constraints
-- Short-term success reinforces the exception
-- Reversal requires effort and coordination
-- New practices quickly turn into habit
+- Urgency justifies skipping normal limits
+- Short-term wins reinforce the exception
+- Rolling back takes effort and coordination
+- New ways of working turn into habit fast
 
 **Observation:**
 
@@ -349,11 +345,11 @@ Workarounds and shortcuts turn into how the group works day to day.
 
 **Effect:**
 
-Temporary decisions turn into permanent habit without a deliberate review.
+Temporary choices turn into permanent habit. No one stops to review.
 
 **Resulting Context:**
 
-Authority expands, constraints weaken, and drift builds over time.
+Authority grows. Limits weaken. Drift builds over time.
 
 **Related Patterns:**
 
@@ -361,42 +357,43 @@ Disagreement is Suppressed; Learning Collapses
 
 ## **Circulating**
 
-_Patterns where leadership norms spread beyond the original setting._
+_How leadership habits spread beyond where they started._
 
 ## **Leadership Reproduces Itself**
 
 **Context:**
 
-A group has stabilized around visible leadership behaviors—what gets
-rewarded, what gets punished, what gets ignored.
+A group has settled on visible leadership habits—what gets rewarded, what
+gets punished, what gets ignored.
 
 **Problem:**
 
-People read those behaviors as personal style and as the local model for
-“how things work here”—and the model travels.
+People read those habits as personal style and as the local picture of
+“how things work here.” That picture travels.
 
 **Forces:**
 
 - Copying is faster than being taught step by step
 - People credit what they can see, not hidden setup
 - New members learn from example before they learn from rules
-- What survives selection is what gets copied
+- What gets rewarded and repeated is what gets copied
 
 **Observation:**
 
-People copy leadership habits and norms. That shapes how the next round
-of leadership forms.
+People copy leadership habits and norms. That shapes how the next round of
+leaders forms.
 
 > "Watch what gets praised in public—that's what people will imitate. Leadership reproduces itself through what last looked successful."
 
 **Effect:**
 
-Local habits become templates. Strengths and pathologies both replicate.
+Local habits become templates. What helps and what hurts both copy
+forward.
 
 **Resulting Context:**
 
-Other places start to look like this one. **Forming** and **Eroding** dynamics
-can spread with no one meaning to write a playbook.
+Other places start to look like this one. **Forming** and **Eroding** habits
+can spread. No one has to mean to write a playbook.
 
 **Related Patterns:**
 

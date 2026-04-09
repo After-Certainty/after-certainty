@@ -1,4 +1,4 @@
-# **Chapter 3 — Why We Misjudge Leaders**
+# **Chapter 10 — Why We Misjudge Leaders**
 
 ### **The Judgment Problem**
 
@@ -12,10 +12,14 @@ inferences are understandable. They are also frequently wrong.
 Two distortions drive this pattern: outcome bias and structural
 blindness.
 
+Scale stretches feedback paths. Pressure narrows judgment windows.
+Those forces are familiar by now. Misjudgment is what accumulates on top of
+them. It is not the same as one observer simply misreading a leader.
+
 ### **Outcome Bias**
 
 Outcome bias happens when results stand in for judging how decisions were
-made and how influence was organized.[^c3-outcome-bias]
+made and how influence was organized.[^c10-outcome-bias]
 
 If an initiative appears to work, observers assume leadership was sound.
 If it fails, observers assume leadership was poor. In both cases, the
@@ -35,9 +39,9 @@ theater, not stewardship.
 Structural blindness happens when observers miss how influence is
 organized while they focus on personality, intention, or rhetoric.
 
-I use this term as a practical shorthand for patterns described in research
-on organizational defenses, structural secrecy, and suppressed paths for
-**Correction**.[^c3-structural-blindness]
+I use this term as shorthand for patterns described in research
+on organizational defenses, hidden information, and suppressed paths for
+**correction**.[^c10-structural-blindness]
 
 A leader says the right words about accountability. Observers treat this
 as evidence. Meanwhile, dissent channels narrow, bad news is filtered,
@@ -50,7 +54,7 @@ accelerate while everyone still sounds reasonable. The effect is the same:
 structure drifts while language remains polished.
 
 Structural blindness is common because many of the relevant signals are
-socially expensive to surface.[^c3-psychological-safety] People close to
+socially expensive to surface.[^c10-psychological-safety] People close to
 problems often carry the highest local risk for naming them.
 
 When **Dissent is Welcomed** no longer holds—that is, when **Dissent is No Longer Welcomed**—bad news stops moving early enough to matter.
@@ -66,8 +70,24 @@ assume that because they meant well, the structure must be healthy.
 Intent matters for ethics. It does not settle the question.
 
 Leadership should be judged by what influence repeatedly produces:
-how **Correction** works, how **Harm** is allocated, how disagreement survives,
+how **correction** works, how **harm** is allocated, how disagreement survives,
 and how learning is retained across pressure cycles.
+
+### **Why Erosion Feels Rational**
+
+**Erosion** persists because it often feels reasonable in the moment.
+
+Leaders under pressure narrow channels to "move faster." Teams avoid
+dissent to "stay aligned." Leaders simplify stories to "reduce
+confusion." Each move can be defended locally. Together, they create
+insulation globally.
+
+This is why **erosion** should be read as a pattern over time, not one bad
+call. Any single choice can look pragmatic. The pattern becomes visible only through
+repetition.
+
+Structural blindness explains why *observers* miss erosion.
+This is the interior counterpart: why *leaders* can produce it without noticing.
 
 ### **Selective Followership and Misread Signals**
 
@@ -75,12 +95,12 @@ A common misunderstanding follows from the same errors.
 
 Observers assume that if people continue to look to a leader, they must
 also be going along in full. In practice, that alignment is often
-selective.[^c3-selective-followership]
+selective.[^c10-selective-followership]
 
 People may go along with strategic direction while resisting tactics. They
 may trust competence but not moral judgment. They may publicly align and
 privately diverge. They may even invert instructions under pressure to
-preserve autonomy.[^c3-reactance]
+preserve autonomy.[^c10-reactance]
 
 This does not automatically mean disloyalty. It can mean active judgment.
 In the **vibrant group**, selective dissent is visible and usable.
@@ -101,7 +121,7 @@ A strong claim feels more usable than a carefully limited claim.
 
 This preference makes groups vulnerable. It rewards leaders who reduce
 complexity too quickly. It penalizes leaders who keep uncertainty visible
-long enough to make better decisions.[^c3-ambiguity-and-sensemaking]
+long enough to make better decisions.[^c10-ambiguity-and-sensemaking]
 
 Confidence can be valuable; overconfidence when challenge is unwelcome is
 costly.
@@ -121,7 +141,7 @@ the public narrative.
 :::
 
 From the outside, this looks like evidence of strong leadership. Inside
-the school, paths for **Correction** are narrowing and **Harm** is being displaced.
+the school, paths for **correction** are narrowing and **harm** is being displaced.
 
 The vignette shows why outcome bias and structural blindness reinforce
 each other: visible success can hide degrading conditions until repair
@@ -136,14 +156,41 @@ If outcomes and rhetoric are insufficient, what should observers assess?
 
 Use four recurring tests:
 
-- **Correction** test: can decisions be challenged without social
+- **correction** test: can decisions be challenged without social
   punishment?
-- **Harm** test: who absorbs costs when decisions fail?
+- **harm** test: who absorbs costs when decisions fail?
 - Learning test: do known problems recur, or are they repaired?
 - Boundary test: does authority stay connected to consequences?
 
+Three early indicators often appear before obvious breakdown.
+Each is easy to dismiss alone. Together they are harder to ignore:
+
+- Bad news arrives late: it is softened, filtered, or never sent.
+- Status outweighs the work: people spend more effort protecting status than
+  improving what actually gets done.
+- Known problems repeat: the same issues come back without lasting repair.
+
 These tests are concrete, repeatable, and resistant to image management.
 They do not require private motives. They require observable patterns.
+
+### **Misjudgment at Scale**
+
+At larger reach, the signals that would reveal misjudgment travel farther,
+arrive later, and warp more on the way. What would be visible in a room
+becomes partial in a dashboard, delayed in a memo, and diluted in a summary.
+
+Pressure amplifies this distortion. Under compressed timelines, groups favor
+signals that are quick to read and easy to defend: output, confidence, and
+narrative coherence. Signals that would challenge direction usually arrive
+slower and with higher social cost.
+
+This is where outcome bias and structural blindness reinforce one another.
+Outcome bias supplies a clean story of success; structural blindness removes
+the pathways that would challenge that story from inside the system.
+
+That is why misjudgment belongs in view here, after scale and pressure. The conditions
+that make **decay** hard to diagnose are not accidental background noise; they
+are built into how influence expands and how institutions manage urgency.
 
 ### **Misjudgment Over Time**
 
@@ -151,44 +198,40 @@ Misjudgment compounds.
 
 When outcome bias and structural blindness combine, leaders receive credit
 for short-term wins while **decay** deepens underneath. By the time external
-failure appears, capacity for **Correction** has already shrunk. Repair costs have
+failure appears, capacity for **correction** has already shrunk. Repair costs have
 already risen.
 
 This is why late-stage collapse often feels sudden to outsiders and
 inevitable to insiders. The warning signs were present, but the main way
-people were judging did not prioritize them.[^c3-normalization-of-deviance]
+people were judging did not prioritize them.[^c10-normalization-of-deviance]
 
 ### **A Better Standard**
 
 The practical standard is not "Did the leader succeed?" It is this:
 
-Did this leadership structure remain open to **Correction** while carrying
+Did this leadership structure remain open to **correction** while carrying
 real influence?
 
-Being open to **Correction** means errors can be surfaced, authority can be
-questioned, and adjustments can occur before **Harm** scales.
+Being open to **correction** means errors can be surfaced, authority can be
+questioned, and adjustments can occur before **harm** scales.
 
 That standard is less dramatic than hero stories. It is also more
 reliable.
 
 We often misjudge leaders when we ignore whether influence still flows both
 ways. We miss whether dissent and bad news can still change direction before
-**Harm** spreads.
+**harm** spreads.
 
-The argument turns next to **Harm**, **effectiveness**, and **legitimacy**. It tracks
-**Correction** and **Circulation** throughout—whether warnings and dissent can still return
-to those who hold power while the work is underway, and whether influence can move through temporary leadership as well as formal roles.
-
-Each chapter also asks what gets rewarded or punished and copied forward when
-people step into leadership next—**Leadership Reproduces Itself**.
+What comes next is what still stays possible when structures drift and signals
+misfire. Clearer judgment alone rarely repairs what has hardened.
 
 ::: {custom-style="Pull Quote Block"}
-We often misjudge leaders when we treat outcomes as proof and structure as background.
+Outcome stories are loud; structural signals are decisive.
 :::
-[^c3-outcome-bias]: Jonathan Baron and John C. Hershey, "Outcome Bias in Decision Evaluation," *Journal of Personality and Social Psychology* 54, no. 4 (1988): 569–579.
-[^c3-psychological-safety]: Amy C. Edmondson, "Psychological Safety and Learning Behavior in Work Teams," *Administrative Science Quarterly* 44, no. 2 (1999): 350–383.
-[^c3-structural-blindness]: Diane Vaughan, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA* (Chicago: University of Chicago Press, 1996); Chris Argyris, *Overcoming Organizational Defenses* (Boston: Allyn and Bacon, 1990); Karl E. Weick, Kathleen M. Sutcliffe, and David Obstfeld, "Organizing and the Process of Sensemaking," *Organization Science* 16, no. 4 (2005): 409–421.
-[^c3-selective-followership]: Michael Uhl-Bien et al., "Followership Theory: A Review and Research Agenda," *The Leadership Quarterly* 25, no. 1 (2014): 83–104.
-[^c3-reactance]: Jack W. Brehm, *A Theory of Psychological Reactance* (New York: Academic Press, 1966).
-[^c3-ambiguity-and-sensemaking]: Karl E. Weick, Kathleen M. Sutcliffe, and David Obstfeld, "Organizing and the Process of Sensemaking," *Organization Science* 16, no. 4 (2005): 409–421.
-[^c3-normalization-of-deviance]: Diane Vaughan, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA* (Chicago: University of Chicago Press, 1996).
+[^c10-outcome-bias]: Jonathan Baron and John C. Hershey, "Outcome Bias in Decision Evaluation," *Journal of Personality and Social Psychology* 54, no. 4 (1988): 569–579.
+[^c10-psychological-safety]: Amy C. Edmondson, "Psychological Safety and Learning Behavior in Work Teams," *Administrative Science Quarterly* 44, no. 2 (1999): 350–383.
+[^c10-structural-blindness]: Diane Vaughan, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA* (Chicago: University of Chicago Press, 1996); Chris Argyris, *Overcoming Organizational Defenses* (Boston: Allyn and Bacon, 1990); Karl E. Weick, Kathleen M. Sutcliffe, and David Obstfeld, "Organizing and the Process of Sensemaking," *Organization Science* 16, no. 4 (2005): 409–421.
+[^c10-selective-followership]: Michael Uhl-Bien et al., "Followership Theory: A Review and Research Agenda," *The Leadership Quarterly* 25, no. 1 (2014): 83–104.
+[^c10-reactance]: Jack W. Brehm, *A Theory of Psychological Reactance* (New York: Academic Press, 1966).
+[^c10-ambiguity-and-sensemaking]: Karl E. Weick, Kathleen M. Sutcliffe, and David Obstfeld, "Organizing and the Process of Sensemaking," *Organization Science* 16, no. 4 (2005): 409–421.
+[^c10-normalization-of-deviance]: Diane Vaughan, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA* (Chicago: University of Chicago Press, 1996).
