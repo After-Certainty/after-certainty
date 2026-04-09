@@ -35,7 +35,8 @@ framing.
 
 ### **Manuscript Layout**
 
-- The manuscript is organized into front matter, three parts, and back matter.
+- The manuscript is organized into front matter, sequential parts (see
+  `index.md`: Part I through closing Chapter 11), and back matter.
 
 - Each chapter must live in its own markdown file.
 
@@ -55,9 +56,8 @@ framing.
 
 - Chapters must be grouped under part directories.
 
-- Each part directory must contain:
-  - One bridge file.
-  - The chapter files assigned to that part.
+- Each part directory contains the bridge(s) and chapter files listed in
+  `index.md` (some transitions use more than one bridge file).
 
 - Bridge files should frame the transition between parts without pre-drafting full chapter prose.
 
@@ -344,10 +344,21 @@ repeats,” “erosion read as a pattern over time,” “a harmful pattern emer
 ordinary English.
 
 **Callout blocks:** Manuscript files use `::: {custom-style="Pattern Block"}`
-for production. Inside the block, the heading line should be **the bold title
-only** (for example `**Leaders Feel the Consequences**`), not `**Pattern -
-…**`. The word *Pattern* in the custom-style name is an implementation label,
-not reader-facing vocabulary.
+for production. Inside the block, the heading line should be **`Pattern:` plus
+the bold title** (for example `Pattern: **Leaders Feel the Consequences**`).
+Use that exact prefix so reader-facing typography matches the implementation
+label (*Pattern Block*) without attaching the word *pattern* to the title in
+running prose (see **Named dynamics** above). Do not use a `**Pattern - …**`
+heading or other variants.
+
+**Appendix B vs Pattern Block callouts (do not conflate):** The catalog in
+`back-matter/appendix-b-leadership-patterns.md` uses normal markdown section
+headings (`## **Attention Finds a Focus**`, etc.) and the long **Context /
+Problem / Forces** template. **Do not** add the `Pattern:` prefix to those
+headings, and **do not** wrap appendix entries in `::: {custom-style="Pattern
+Block"}`. The `Pattern:` prefix and Pattern Block custom-style apply **only** to
+the short definitional callouts in Chapters 1–3. Two formats on purpose: the
+appendix is a reference catalog; the chapters use production callouts.
 
 **Pattern Block bodies—positive-only for renewing dynamics:** For dynamics
 that describe **forming, adjusting, or accountability-holding** conditions
@@ -364,7 +375,8 @@ cost or narrowing; their bodies describe that named condition and do **not**
 need a positive mirror.
 
 **Learning Collapses** (canonical) vs **Learning Collapse** (prose): The
-registered title is **Learning Collapses**—use it in Pattern Block headings,
+registered title is **Learning Collapses**—use it in Pattern Block heading lines
+(after the `Pattern:` prefix),
 appendix section titles, and anywhere you list the dynamics by name. In running
 prose, when grammar calls for a singular noun (*collapse* as event or condition),
 use **Learning Collapse** instead so sentences stay fluent (for example
@@ -380,7 +392,9 @@ Consequences**. Use only when the phrase clearly refers to that named dynamic.
 
 Back matter that catalogs these titles (Appendix B) may still use collection
 wording such as “related dynamics” in later passes; keep terminology aligned
-across appendix headings and cross-references when you change them.
+across appendix headings and cross-references when you change them. (Heading
+format for Appendix B stays `## **Title**` without `Pattern:`—see **Appendix B
+vs Pattern Block callouts** above.)
 
 ### **Direction vs state (renewal/erosion and vitality/decay)**
 
@@ -429,7 +443,7 @@ The manuscript distinguishes two structural senses that older drafts sometimes f
 - **Circulation** — whether influence can move through temporary or shared leadership (including guest leadership) so leadership scales and reproduces itself; what **Leadership Reproduces Itself** tracks when people imitate what last worked.
 - **Correction** — whether warnings, dissent, and on-the-ground information can reach decision-makers and change direction without punishment (return paths for feedback and revision).
 
-- In reader-facing manuscript, use the precise term the sentence needs; bold **Circulation** and **Correction** when they carry structural sense (same convention as other glossary terms). **Do not** use lowercase *circulation* for the structural ideas—it reads like the old umbrella word. Use **Circulation** (scaling, guest leadership, imitation) or **Correction** (return paths for dissent and warning), or ordinary English (*feedback*, *revision*) when you do not mean the glossary terms. **Do not** wrap glossary terms in links to `glossary.md` (bold only); links were distracting in ePub and are not used.
+- In reader-facing manuscript, use the precise term the sentence needs; bold **circulation** and **correction** (and other glossary terms) when they carry the book’s fixed structural sense—the same convention as **renewal**, **harm**, **legitimacy**, and the rest: follow normal capitalization (**Correction** at the start of a sentence, **correction** in the middle; likewise **Circulation** / **circulation**). Use ordinary English (*feedback*, *revision*, *circulating*) when you do not mean the glossary terms. **Do not** wrap glossary terms in links to `glossary.md` (bold only); links were distracting in ePub and are not used.
 
 ### **Word valence: forming and adjusting vs eroding**
 
@@ -440,13 +454,13 @@ moves. **Eroding** covers insulation, displacement, and breakdown.
 
 - When you are in **forming or adjusting** territory (early attention, examples,
   coalescence, dissent welcomed, feedback, consequences visible, guest leadership,
-  **Circulation** and **Correction** holding), **avoid negative-loaded words** that imply submission,
+  **circulation** and **correction** holding), **avoid negative-loaded words** that imply submission,
   blame, or failure unless the sentence is explicitly tracking harm or drift.
   Examples of words that often mis-color neutral formation: *deference*
   (implies hierarchy/submission), *compliance* when you mean obedience,
   *failure* or *failure mode* for a dynamic that is not yet framed as erosion.
   Prefer the book’s anchor vocabulary: **look to**, **turn to**, **repetition**,
-  **correction** (ordinary English), **Correction**, **Circulation**, **default**, **habit**, where accurate.
+  *correction* (ordinary English), **correction** / **circulation** (glossary, sentence-cased), **default**, **habit**, where accurate.
 
 - When you are in **eroding** territory (suppression, collapse, tolerance of
   harm, insulation, **Learning Collapses**, **Disagreement is Suppressed**),
@@ -465,21 +479,21 @@ sound like weakness or moral fault.
 
 **Documentation map (*When Others Look to You*):** `book-rules.md` (this file)
 is the **single source of truth** for tone, sentence discipline, named
-dynamics, Pattern Block rules, **Circulation** and **Correction** wording, valence, and
+dynamics, Pattern Block rules, **circulation** / **correction** wording, valence, and
 cross-cutting vocabulary guardrails. Use `editorial-vocabulary.md` as the
 **chapter-aware checklist** after plain-language passes. Use
 `pattern-integration-guide.md` for **placement** and introduction sequence of
 bold titles (editor workflow). Use `drafting-process.md` for **section workflow**
-and which passes to run. Use `circulation-cross-cutting.md` for the archived
-decision to weave **Correction** and **Circulation** through Part II (no standalone chapter). If
-guidance in another doc disagrees with this file, **follow this file** and
-update the other doc.
+and which passes to run. Use `circulation-cross-cutting.md` for terminology and
+structure notes on **correction** / **circulation** (see also
+`docs/rewrite-plan.md`). If guidance in another doc disagrees with this file,
+**follow this file** and update the other doc.
 
 **When Others Look to You — enforced checklist:** After plain-language or
 echo passes on this manuscript, run the chapter-aware targets in
 `editorial-vocabulary.md` (same `docs/` folder) so vocabulary choices
 (**look** vs **follow**, harm vignette domain, renewal/erosion vs vitality/decay,
-Part III echo rules, etc.) stay consistent.
+Part III / IV echo rules, etc.) stay consistent.
 
 Avoid:
 
@@ -526,7 +540,7 @@ Prefer:
 - If a concrete-example run is intentionally preserved for voice, rhythm,
   or recognizability, treat it as protected wording and do not rewrite it
   in later audits unless the author explicitly requests a change.
-  Current approved triad in **Chapter 5** (short-term success): semester
+  Current approved triad in **Chapter 6** (short-term success): semester
   scores, neighborhood drive, public crisis—keep mixed-domain spread; do
   not default to finance-quarter-only imagery unless the author restores it.
 
@@ -626,10 +640,11 @@ The book analyzes structure, not people.
 - Prefer capacity words when discussing one dimension only; prefer state
   words when both dimensions are implied.
 
-- **Echo guardrail (Part III / scale):** Do not paste the full four-state
-  bullet matrix again in the **Scale** chapter; summarize and point readers back
-  to the **renewal and erosion** treatment instead of repeating the grid. Keep
-  the Part III **bridge** recap of the model to a single sentence unless the
+- **Echo guardrail (scale / Part IV):** Do not paste the full four-state
+  bullet matrix again in the **Scale and Drift** chapter; summarize and point
+  readers back to the effectiveness / renewal material where the grid lives
+  instead of repeating it. Keep the bridge before scale (**From Structure to
+  Scale and Judgment**) recap of the model to a single sentence unless the
   author expands it deliberately (`editorial-vocabulary.md`). (Manuscript prose
   should follow **Transitions (no part or chapter labels)** above; this bullet
   names files/chapters only for author orientation.)
@@ -722,7 +737,9 @@ No conceptual drift.
 
 The manuscript's governing throughline is:
 
-Attention → Influence → Structure → Renewal or Erosion → Circulation and Correction
+Attention → Influence → Structure → Renewal or Erosion → Circulation
+
+Repeat this schematic the same way wherever it appears in reader-facing text: plain words (no bold glossary styling on the links), Title Case on each step, Unicode arrows as above. **Correction** is cross-cutting in the argument but is not the final link in this chain.
 
 This throughline is a rule constraint, not a back matter section.
 
@@ -843,9 +860,11 @@ Avoid:
 
 - Optional `glossary.md` may define **structural vocabulary** bolded in running
   prose (for example **renewal**, **erosion**, **vitality**, **decay**,
-  **Circulation**, **Correction**, **harm**, **effectiveness**, **legitimacy**). **Do not**
+  **circulation**, **correction**, **harm**, **effectiveness**, **legitimacy**—sentence-cased like ordinary words). **Do not**
   duplicate Appendix B’s catalog of
   **named dynamics** (Pattern Block titles); point readers there instead.
+
+- **Repeatable tooling:** Any script that sentence-cases bold glossary terms in chapter files must **exclude** `back-matter/glossary.md` (or exempt glossary entry lines: `**Term** — …`); otherwise definition titles such as **Scalability** can be lowercased by mistake because line breaks are not reliable sentence boundaries.
 
 ### **Bibliography Integrity**
 

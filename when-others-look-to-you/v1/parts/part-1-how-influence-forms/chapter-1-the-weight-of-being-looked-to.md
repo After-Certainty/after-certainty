@@ -21,7 +21,7 @@ claim is a longer test—whether visible behavior still supports the permission
 people are extending.
 
 ::: {custom-style="Pattern Block"}
-**Attention Finds a Focus**
+Pattern: **Attention Finds a Focus**
 
 Under uncertainty, attention gathers quickly. Influence forms before formal
 authority is named.
@@ -33,12 +33,12 @@ that shape the group. Your pace becomes their pace. Your
 tolerance becomes their tolerance. Your silence becomes a signal. Your
 reaction becomes instruction.[^c1-modeling-and-signals]
 
-The effect is rarely announced. It accumulates. People calibrate
-themselves against what you appear to allow, resist, or reward. If you
-dismiss **Harm**, **Harm** becomes easier for others to dismiss. If you absorb cost, others
-learn what restraint looks like. If you avoid **Correction**, others learn
-that stability matters more than truth. Leadership does not amplify
-intention. It amplifies posture.[^c1-norm-formation]
+The effect is rarely announced. It accumulates. People calibrate themselves
+against what you appear to allow, resist, or reward. If you dismiss **harm**,
+others dismiss it more easily. If you absorb cost, others learn what restraint
+looks like. If you avoid **correction**, others learn that stability matters
+more than truth. Leadership does not amplify intention. It amplifies
+posture.[^c1-norm-formation]
 
 ### **What Silence Teaches**
 
@@ -53,7 +53,7 @@ accumulate quietly. Either way, the signal travels. People rarely wait
 for formal instruction. They read patterns.
 
 ::: {custom-style="Pattern Block"}
-**Examples Accumulate**
+Pattern: **Examples Accumulate**
 
 What a leader rewards, punishes, or ignores teaches others what is acceptable
 faster than policy does. Under pressure those signals get louder—silence
@@ -74,7 +74,7 @@ the more influence consolidates. The more influence consolidates, the
 more people look. Authority emerges from repetition.[^c1-legitimacy-and-repetition]
 
 ::: {custom-style="Pattern Block"}
-**Leadership Coalesces**
+Pattern: **Leadership Coalesces**
 
 When others keep looking to the same person, that repetition hardens into
 habit. One person becomes the automatic decision point even without new formal
@@ -101,13 +101,14 @@ Sometimes the response is stronger. Under pressure, people may move into
 reflexive opposition, doing the opposite of what they are told as a way
 to protect agency.[^c1-reactance]
 
-This matters because influence can be high even when people go along only in part.
+This matters because influence can stay high even when people go along only in
+part.
 **Attention Finds a Focus** first. Interpretation comes next.
 
 ### **Ordinary Decisions, Structural Consequences**
 
-Leadership changes the environment. It alters how **Harm** is distributed,
-how **Correction** is handled, how disagreement survives, how success is
+Leadership changes the environment. It alters how **harm** is distributed,
+how **correction** is handled, how disagreement survives, how success is
 interpreted, and how setbacks are absorbed. These changes do not require
 dramatic moments. They accumulate through ordinary decisions—a tone in
 a meeting, a hiring choice, a promotion, a tolerated shortcut, an
@@ -120,17 +121,16 @@ When others are looking, very little is neutral.
 The question is less whether others will look, and more what happens
 next.
 
-Does influence stay open to **Correction**? Does belief renew through
+Does influence stay open to **correction**? Does belief renew through
 example? Does authority drift toward insulation?[^c1-correction-and-insulation]
 
-Leadership begins when **Attention Finds a Focus**. **Renewal** or **erosion** starts
-with what follows.
-
-What comes next names those two paths directly and traces how they show up before
-outcomes are obvious.
+Leadership begins when **Attention Finds a Focus**. From there, the live
+question is whether influence tilts toward **renewal** or **erosion**, and
+whether **circulation** carries it through others or keeps locking it to the same
+gate—patterns visible in ordinary choices long before the scoreboard settles.
 
 ::: {custom-style="Pull Quote Block"}
-When others look to you, your posture becomes part of their world.
+Being looked to turns posture into shared conditions.
 :::
 [^c1-working-definition]: Foundational references for authority and legitimacy framing: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*; Hannah Arendt, "What Is Authority?" in *Between Past and Future*.
 [^c1-attention-and-leadership]: Alistair Cockburn, "How to Step Up Stepping Up: Promoting Guest Leadership for Successful Collaboration," Cutter Business Technology Journal, Vol. 30, No. 1 (2017), https://www.cutter.com/article/how-step-stepping-promoting-guest-leadership-successful-collaboration-494516.

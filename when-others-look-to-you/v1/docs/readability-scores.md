@@ -3,7 +3,7 @@
 > **Generated file.** Do not edit by hand. Regenerate with:
 > `python3 scripts/readability_scores.py`
 
-**Last generated:** 2026-03-29 06:09 UTC
+**Last generated:** 2026-04-09 04:38 UTC
 
 ## Method
 
@@ -21,27 +21,31 @@
 |---|---|--:|--:|--:|--:|--:|--:|
 | Front matter | Title page | — | — | — | — | — | *insufficient text (1 words)* |
 | Front matter | Copyright | 13.2 | 12.3 | 15.7 | 24.8 | 6 | 82 |
-| Front matter | Author's note | 7.7 | 7.7 | 10.1 | 58.2 | 29 | 300 |
-| Front matter | Preface | 9.2 | 9.1 | 11.4 | 51.5 | 23 | 287 |
-| Front matter | Acknowledgements | 6.1 | 6.2 | 6.8 | 78.0 | 16 | 239 |
-| Front matter | Introduction | 8.6 | 8.8 | 11.9 | 53.9 | 44 | 508 |
-| Front matter | Typographical conventions | 10.3 | 9.8 | 12.6 | 50.9 | 22 | 365 |
-| Part I | Bridge | 6.9 | 7.4 | 9.5 | 61.4 | 21 | 184 |
-| Part I | Ch 1 — The Weight of Being Looked To | 9.2 | 7.9 | 12.4 | 44.3 | 99 | 829 |
-| Part I | Ch 2 — Renewal and Erosion | 9.7 | 8.9 | 13.3 | 43.7 | 123 | 1264 |
-| Part I | Ch 3 — Why We Misjudge Leaders | 10.2 | 9.1 | 13.9 | 40.6 | 105 | 1087 |
-| Part II | Bridge | 9.0 | 8.3 | 11.9 | 53.4 | 20 | 256 |
-| Part II | Ch 4 — Harm Under Influence | 9.1 | 8.4 | 12.5 | 50.7 | 82 | 947 |
-| Part II | Ch 5 — Effectiveness and Its Illusions | 10.4 | 8.9 | 14.5 | 39.5 | 88 | 950 |
-| Part II | Ch 6 — Legitimacy Over Time | 9.9 | 8.7 | 12.7 | 43.6 | 81 | 883 |
-| Part III | Bridge | 9.7 | 8.1 | 12.7 | 48.3 | 13 | 165 |
-| Part III | Ch 7 — Scale and Drift | 10.4 | 8.5 | 13.3 | 42.2 | 45 | 541 |
-| Part III | Ch 8 — Tradeoffs Under Pressure | 10.3 | 8.7 | 14.2 | 37.5 | 48 | 446 |
-| Part III | Ch 9 — What Happens Next | 10.6 | 9.8 | 14.4 | 38.9 | 38 | 423 |
-| Back matter | Epilogue | 8.8 | 8.5 | 11.7 | 49.4 | 41 | 394 |
-| Back matter | Appendix A — Legitimacy transfer | 11.2 | 9.0 | 14.0 | 32.8 | 66 | 665 |
-| Back matter | Appendix B — Leadership patterns | 12.0 | 10.8 | 15.1 | 36.3 | 82 | 1258 |
-| Back matter | Bibliography | 9.9 | 6.3 | 12.0 | 32.7 | 67 | 310 |
+| Front matter | Author's note | 7.9 | 8.0 | 9.8 | 59.1 | 37 | 426 |
+| Front matter | Preface | 9.2 | 9.0 | 11.7 | 51.4 | 24 | 296 |
+| Front matter | Acknowledgements | 8.0 | 7.5 | 7.4 | 71.5 | 16 | 305 |
+| Front matter | Introduction | 9.2 | 9.3 | 12.4 | 52.3 | 47 | 611 |
+| Front matter | Typographical conventions | 9.8 | 9.4 | 12.2 | 52.9 | 23 | 366 |
+| Part I | Bridge | 7.7 | 7.8 | 9.8 | 59.0 | 13 | 139 |
+| Part I | Ch 1 — The Weight of Being Looked To | 9.3 | 8.1 | 12.6 | 43.7 | 96 | 840 |
+| Part II | Bridge — From Formation to Movement | 10.1 | 9.8 | 14.0 | 43.3 | 12 | 140 |
+| Part II | Ch 2 — Renewal | 10.1 | 9.3 | 14.1 | 42.7 | 43 | 486 |
+| Part II | Ch 3 — Erosion | 9.0 | 9.1 | 12.7 | 50.2 | 31 | 344 |
+| Part II | Ch 4 — Circulation | 10.5 | 9.9 | 11.8 | 49.7 | 49 | 822 |
+| Part III | Bridge — From Movement to Lenses | 8.9 | 9.4 | 12.1 | 50.3 | 8 | 86 |
+| Part III | Ch 5 — Harm Under Influence | 9.9 | 9.1 | 13.1 | 46.9 | 95 | 1204 |
+| Part III | Ch 6 — Effectiveness and Its Illusions | 10.3 | 8.8 | 14.6 | 39.6 | 114 | 1190 |
+| Part III | Ch 7 — Legitimacy Over Time | 10.4 | 9.6 | 12.7 | 44.6 | 107 | 1441 |
+| Part IV | Bridge — From Structure to Scale and Judgment | 8.9 | 8.6 | 12.5 | 58.5 | 7 | 107 |
+| Part IV | Ch 8 — Scale and Drift | 9.8 | 8.5 | 12.4 | 47.8 | 44 | 565 |
+| Part IV | Ch 9 — Tradeoffs Under Pressure | 9.8 | 8.8 | 13.7 | 43.8 | 50 | 539 |
+| Part IV | Ch 10 — Why We Misjudge Leaders | 9.8 | 8.8 | 13.6 | 43.9 | 133 | 1407 |
+| Part V | Bridge — From Misjudgment to What Remains | 6.0 | 6.0 | 7.9 | 74.5 | 5 | 63 |
+| Part V | Ch 11 — What Happens Next | 9.6 | 9.6 | 12.4 | 51.2 | 54 | 762 |
+| Back matter | Epilogue | 8.6 | 8.4 | 11.4 | 50.9 | 41 | 401 |
+| Back matter | Appendix A — Legitimacy transfer | 10.7 | 8.8 | 13.4 | 36.9 | 67 | 692 |
+| Back matter | Appendix B — Leadership patterns | 8.7 | 8.2 | 12.1 | 55.3 | 112 | 1401 |
+| Back matter | Bibliography | 9.4 | 6.0 | 10.8 | 35.1 | 100 | 426 |
 
 ## Source paths
 
@@ -54,18 +58,22 @@
 | Acknowledgements | `front-matter/acknowledgements.md` |
 | Introduction | `front-matter/introduction-attention-finds-a-focus.md` |
 | Typographical conventions | `front-matter/typographical-conventions.md` |
-| Bridge | `parts/part-1-attention-and-early-formation/bridge.md` |
-| Ch 1 — The Weight of Being Looked To | `parts/part-1-attention-and-early-formation/chapter-1-the-weight-of-being-looked-to.md` |
-| Ch 2 — Renewal and Erosion | `parts/part-1-attention-and-early-formation/chapter-2-renewal-and-erosion.md` |
-| Ch 3 — Why We Misjudge Leaders | `parts/part-1-attention-and-early-formation/chapter-3-why-we-misjudge-leaders.md` |
-| Bridge | `parts/part-2-legitimacy-harm-and-circulation/bridge.md` |
-| Ch 4 — Harm Under Influence | `parts/part-2-legitimacy-harm-and-circulation/chapter-4-harm-under-influence.md` |
-| Ch 5 — Effectiveness and Its Illusions | `parts/part-2-legitimacy-harm-and-circulation/chapter-5-effectiveness-and-its-illusions.md` |
-| Ch 6 — Legitimacy Over Time | `parts/part-2-legitimacy-harm-and-circulation/chapter-6-legitimacy-over-time.md` |
-| Bridge | `parts/part-3-scale-tradeoffs-and-what-happens-next/bridge.md` |
-| Ch 7 — Scale and Drift | `parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-7-scale-and-drift.md` |
-| Ch 8 — Tradeoffs Under Pressure | `parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-8-tradeoffs-under-pressure.md` |
-| Ch 9 — What Happens Next | `parts/part-3-scale-tradeoffs-and-what-happens-next/chapter-9-what-happens-next.md` |
+| Bridge | `parts/part-1-how-influence-forms/bridge.md` |
+| Ch 1 — The Weight of Being Looked To | `parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md` |
+| Bridge — From Formation to Movement | `parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md` |
+| Ch 2 — Renewal | `parts/part-2-renewal-erosion-circulation/chapter-2-renewal.md` |
+| Ch 3 — Erosion | `parts/part-2-renewal-erosion-circulation/chapter-3-erosion.md` |
+| Ch 4 — Circulation | `parts/part-2-renewal-erosion-circulation/chapter-4-circulation.md` |
+| Bridge — From Movement to Lenses | `parts/part-3-harm-effectiveness-legitimacy/bridge-from-movement-to-lenses.md` |
+| Ch 5 — Harm Under Influence | `parts/part-3-harm-effectiveness-legitimacy/chapter-5-harm-under-influence.md` |
+| Ch 6 — Effectiveness and Its Illusions | `parts/part-3-harm-effectiveness-legitimacy/chapter-6-effectiveness-and-its-illusions.md` |
+| Ch 7 — Legitimacy Over Time | `parts/part-3-harm-effectiveness-legitimacy/chapter-7-legitimacy-over-time.md` |
+| Bridge — From Structure to Scale and Judgment | `parts/part-4-scale-pressure-misjudgment/bridge-from-structure-to-scale-and-judgment.md` |
+| Ch 8 — Scale and Drift | `parts/part-4-scale-pressure-misjudgment/chapter-8-scale-and-drift.md` |
+| Ch 9 — Tradeoffs Under Pressure | `parts/part-4-scale-pressure-misjudgment/chapter-9-tradeoffs-under-pressure.md` |
+| Ch 10 — Why We Misjudge Leaders | `parts/part-4-scale-pressure-misjudgment/chapter-10-why-we-misjudge-leaders.md` |
+| Bridge — From Misjudgment to What Remains | `parts/part-5-closing/bridge-from-misjudgment-to-what-remains.md` |
+| Ch 11 — What Happens Next | `parts/part-5-closing/chapter-11-what-happens-next.md` |
 | Epilogue | `back-matter/epilogue.md` |
 | Appendix A — Legitimacy transfer | `back-matter/appendix-a-legitimacy-transfer.md` |
 | Appendix B — Leadership patterns | `back-matter/appendix-b-leadership-patterns.md` |
