@@ -67,8 +67,8 @@ Frontline teams also report repeated blind spots in neighborhood access,
 but route corrections are delayed because the temporary command protocol
 blocks local overrides.
 
-In crisis, that trade is one way **Examples Accumulate** can run against
-signals that **correction** is still working.
+In crisis, that trade is one way **Examples Accumulate** can undercut evidence
+that **correction** is still working.
 
 Months later, the storm is over, but the centralized approval path
 remains. Officials describe it as "proven under pressure."
@@ -91,7 +91,7 @@ later.
 Urgency can be real; what matters is what gets locked in after it passes.[^c9-escalation]
 
 Once the emergency story stops dominating meetings, can new information still
-change the plan? When it can, **Feedback Drives Change** still holds.
+change the plan? When it can, **Feedback Drives Change**—plans still move with the facts.
 
 ### **Boundary Conditions**
 

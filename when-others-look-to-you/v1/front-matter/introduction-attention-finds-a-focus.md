@@ -14,7 +14,7 @@ later, after outcomes. This book starts earlier, at formation.
 
 ### **What Changes When Attention Finds a Focus**
 
-When others look to you, your behavior is no longer merely private. It may
+When others look to you, your behavior is no longer private. It may
 still feel private to you, but others read it as instruction.
 
 Your pace teaches pace, your tolerance teaches tolerance, your silence
@@ -61,16 +61,16 @@ Structure → Renewal or Erosion → Circulation.
 
 Part I establishes that chain. Part II names **renewal**, **erosion**, and **circulation**—what it looks like when influence opens, narrows, or moves through people. Part III takes up harm, effectiveness, and legitimacy as tests of what influence is producing. **Circulation** and **correction** run through those parts—whether influence can move through temporary leadership so leadership scales, and whether warning and dissent can still change direction.
 
-Part IV takes up scale, tradeoffs under pressure, and why observers misjudge leaders when signals travel far and late. Part V (What Remains) asks what is still possible when structures drift and judgment fails anyway.
+Part IV takes up scale, tradeoffs under pressure, and why observers misjudge leaders when signals travel far and late. Part V asks what is still possible when structures drift and judgment fails anyway.
 
 Those dynamics also gather into four shapes: **Forming**, **Adjusting**,
 **Eroding**, and **Circulating**. **Forming** is where live conditions get
 set. From there a structure can move toward **Adjusting** or **Eroding**. Both
 paths shape what later gets copied and passed on. **Circulating** includes what
-spreads through imitation, and **circulation** in the stronger sense the book
-develops later: whether someone may hold the center for a phase—temporary or
-shared leadership—and who is treated as *allowed* to steer before titles
-change. Copied habit and copied permission both feed the next round of formation.
+spreads through imitation. It is also about who may hold the center
+for a phase—temporary or shared leadership—and who is treated as *allowed* to
+steer before titles change. Copied habit and copied permission both feed the
+next round of formation.
 
 Crisis is treated as a recurring thread across the manuscript, with its
 strongest integration where scale and pressure enter—late in the arc.

@@ -21,7 +21,7 @@ claim is a longer test—whether visible behavior still supports the permission
 people are extending.
 
 ::: {custom-style="Pattern Block"}
-Pattern: **Attention Finds a Focus**
+**Pattern: Attention Finds a Focus**
 
 Under uncertainty, attention gathers quickly. Influence forms before formal
 authority is named.
@@ -53,7 +53,7 @@ accumulate quietly. Either way, the signal travels. People rarely wait
 for formal instruction. They read patterns.
 
 ::: {custom-style="Pattern Block"}
-Pattern: **Examples Accumulate**
+**Pattern: Examples Accumulate**
 
 What a leader rewards, punishes, or ignores teaches others what is acceptable
 faster than policy does. Under pressure those signals get louder—silence
@@ -74,7 +74,7 @@ the more influence consolidates. The more influence consolidates, the
 more people look. Authority emerges from repetition.[^c1-legitimacy-and-repetition]
 
 ::: {custom-style="Pattern Block"}
-Pattern: **Leadership Coalesces**
+**Pattern: Leadership Coalesces**
 
 When others keep looking to the same person, that repetition hardens into
 habit. One person becomes the automatic decision point even without new formal
@@ -127,10 +127,10 @@ example? Does authority drift toward insulation?[^c1-correction-and-insulation]
 Leadership begins when **Attention Finds a Focus**. From there, the live
 question is whether influence tilts toward **renewal** or **erosion**, and
 whether **circulation** carries it through others or keeps locking it to the same
-gate—patterns visible in ordinary choices long before the scoreboard settles.
+gate—patterns visible in ordinary choices long before the outcome is clear.
 
 ::: {custom-style="Pull Quote Block"}
-Being looked to turns posture into shared conditions.
+Once people are watching, your behavior teaches what counts as normal.
 :::
 [^c1-working-definition]: Foundational references for authority and legitimacy framing: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*; Hannah Arendt, "What Is Authority?" in *Between Past and Future*.
 [^c1-attention-and-leadership]: Alistair Cockburn, "How to Step Up Stepping Up: Promoting Guest Leadership for Successful Collaboration," Cutter Business Technology Journal, Vol. 30, No. 1 (2017), https://www.cutter.com/article/how-step-stepping-promoting-guest-leadership-successful-collaboration-494516.

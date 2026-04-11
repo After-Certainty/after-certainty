@@ -4,101 +4,64 @@
 
 A small group and a large-scale setting do not run the same way.
 
-At human scale, **harm** is easier to see, **correction** is faster, and
-accountability is harder to evade. At larger scale, **harm** can be harder to
-see clearly. Information weakens on the way up. Plans are slower to change
-across layers of distance.[^c8-scale-distance]
+At human scale, **harm** is easier to see, **correction** is faster, and accountability is harder to evade. At larger scale, **harm** can be harder to see clearly. Information weakens on the way up. Plans are slower to change across layers of distance.[^c8-scale-distance]
 
-Scale does not cause **erosion** by itself. It widens what the structure was
-already likely to produce.
+Scale does not cause **erosion** by itself. It widens what the structure was already likely to produce.
 
 ### **The Regional Network**
 
 ::: {custom-style="Vignette Block"}
-A neighborhood congregation grows into a regional network with shared
-branding, shared training, and shared donor strategy. Local leaders
-notice that a mentoring program is creating burnout and quiet exclusion
-for younger volunteers.
+A neighborhood congregation grows into a regional network with shared branding, shared training, and shared donor strategy. Local leaders notice that a mentoring program is creating burnout and quiet exclusion for younger volunteers.
 
-In the local setting, concerns used to be discussed in person and changed
-quickly. In the regional setup, feedback now moves through paperwork and fixed
-reporting cycles. The program still expands, but local adaptation slows.
-Public updates highlight growth and consistency.
+In the local setting, concerns used to be discussed in person and changed quickly. In the regional setup, feedback now moves through paperwork and fixed reporting cycles. The program still expands, but local adaptation slows. Public updates highlight growth and consistency.
 :::
 
-The network did not become harmful because it grew. It became riskier
-because reach grew faster than paths people could use to fix what was wrong.
-That gap widens when shared scripts and a single public story move faster than
-local fixes. That is one face of **Leadership Reproduces Itself** at scale.
+The network did not become harmful because it grew. It became riskier because reach grew faster than paths people could use to fix what was wrong. That gap widens when shared scripts and a single public story move faster than local fixes. **Leadership Reproduces Itself** copies that pattern forward at scale.
 
 ### **Two Capacities at Scale**
 
-**Scalability** and **adaptability** are the two measures:
-whether coordinated action can grow in reach, and whether it can change direction
-when reality pushes back. At larger scale, those questions stay the
-same—only distance and delay change.
+**Scalability** and **adaptability** are the two measures: whether coordinated action can grow in reach, and whether it can change direction when reality pushes back. At larger scale, those questions stay the same—only distance and delay change.
 
-At scale, the test for **adaptability** is whether **Feedback Drives Change**
-still holds in practice.
+At scale, the test for **adaptability** is whether plans still move when the facts do—**Feedback Drives Change**.
 
 The same two capacities sort groups on the grid—the **vibrant group** or **decaying group**. Scale changes how long each state can look solid from a distance.
 
-At larger scale, entrenched patterns can look impressive for longer. Reach
-can expand while **correction** weakens.
+At larger scale, entrenched patterns can look impressive for longer. Reach can expand while **correction** weakens.
 
-**Leadership Coalesces** can also narrow who counts as the real escalation
-point—the place everyone waits on before a problem is treated as real.
+**Leadership Coalesces** can also narrow who counts as the real escalation point—the place everyone waits on before a problem is treated as real.
 
 ### **Legitimacy Forms Under Scale**
 
 These four forms of **legitimacy** shift under scale:
 
-- Example-based legitimacy is strong at human scale but harder to
-  preserve as distance grows.
-- Procedural legitimacy becomes necessary at larger scale, but
-  can become mostly for show when people can challenge only on paper, not in
-  practice.
-- Office-based legitimacy keeps continuity steady, but can pass
-  permission forward faster than accountability moves with it.
-- Sacralized legitimacy becomes easier to entrench as layers build,
-  distance grows, and dissent thins out. That can slide toward
-  **Disagreement is Suppressed**.[^c8-legitimacy]
+- Example-based legitimacy is strong at human scale but harder to preserve as distance grows.
+- Procedural legitimacy becomes necessary at larger scale, but can become mostly for show when people can challenge only on paper, not in practice.
+- Office-based legitimacy keeps continuity steady, but can pass permission forward faster than accountability moves with it.
+- Sacralized legitimacy becomes easier to entrench as layers build, distance grows, and dissent thins out. That can slide toward **Disagreement is Suppressed**.[^c8-legitimacy]
 
-Scale does not eliminate judgment. It changes how easily good judgment reaches
-the people who decide.
+Scale does not eliminate judgment. It changes how easily good judgment reaches the people who decide.
 
 ### **Selective Followership at Scale**
 
 At small scale, selective refusal is visible and discussable.
 
-At larger scale, selective followership can go quiet: people reading rules their
-own way locally, hidden workarounds, and paperwork that looks aligned while
-day-to-day reality is not aligned.[^c8-hidden-transcripts]
+At larger scale, selective followership can go quiet: people reading rules their own way locally, hidden workarounds, and paperwork that looks aligned while day-to-day reality is not aligned.[^c8-hidden-transcripts]
 
-**Correction** matters at scale because if information from the ground cannot
-get back with enough force to change the plan, reach can grow while learning
-shrinks.
+**Correction** matters at scale because if information from the ground cannot get back with enough force to change the plan, reach can grow while learning shrinks.
 
-When that keeps happening, what leaders hear no longer matches what people on
-the ground are experiencing—that gap becomes a practical operating risk.
-**Learning Collapse** follows.
+When that keeps happening, what leaders hear no longer matches what people on the ground are experiencing—that gap becomes a practical operating risk. **Learning Collapse** follows.
 
 ### **Human Scale as a Contrast**
 
 Human scale is not automatically better. It is clearer.
 
-Consequences are harder to hide. Boundaries are easier to name. Repair can
-happen face to face instead of waiting on layers.
+Consequences are harder to hide. Boundaries are easier to name. Repair can happen face to face instead of waiting on people far from the work.
 
-At larger scale, those same functions need deliberate design: clear paths for
-feedback, clear roles, clear limits on who can decide what, and protected time
-to revise.
+At larger scale, those same functions need deliberate design: clear paths for feedback, clear roles, clear limits on who can decide what, and protected time to revise.
 
 ### **When Pressure Enters**
 
-Scale sets the conditions; pressure tests them. Crisis and urgency force tradeoffs
-across **harm**, **effectiveness**, and **legitimacy**—with **correction** narrowing or holding at the
-same time.
+Scale sets the conditions; pressure tests them. Crisis and urgency force tradeoffs across **harm**, **effectiveness**, and **legitimacy**—with **correction** narrowing or holding at the same time.
 
 ::: {custom-style="Pull Quote Block"}
 Reach scales faster than self-correction unless it is designed in.

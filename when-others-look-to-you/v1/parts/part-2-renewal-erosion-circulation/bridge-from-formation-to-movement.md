@@ -12,8 +12,8 @@ or whether every decision keeps returning to the same gate.
 One way to read that movement is through two capacities: **scalability** (can
 coordinated action grow in reach?) and **adaptability** (can it still change
 course under pressure?). Together they form four practical states—**adaptive**,
-**regenerative**, **entrenched**, and **stalled**—developed later as an
-effectiveness diagnostic.
+**regenerative**, **entrenched**, and **stalled**—developed later as a
+structural diagnostic.
 
 ![Diagram: renewal, erosion, capacities, and states](export-assets/diagrams/renewal-erosion-map.png)
 

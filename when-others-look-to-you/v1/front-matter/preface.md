@@ -14,7 +14,7 @@ influence is still forming.
 
 ### **The Frame**
 
-The book uses one durable definition as its anchor. The Introduction
+The book uses one durable definition as its anchor. The introduction
 introduces it directly.
 
 From that anchor, the chapters move in layers:

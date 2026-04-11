@@ -30,7 +30,7 @@ Patterns are additive, not transformative.
 
 - Only name and clarify patterns already present
 
-**Approved exception (split definitional chapters):** **Chapter 2 — Renewal** defines the **Adjusting** trio as Pattern Blocks. **Chapter 3 — Erosion** defines the **Eroding** trio and **Leadership Reproduces Itself**. **Chapter 4 — Circulation** develops **Circulation** in prose (no new Pattern Blocks for the ten named dynamics). Follow the **Placement Guidance by Chapter** and **Introduction Sequence** tables below; see `docs/rewrite-plan.md` and `docs/circulation-cross-cutting.md`.
+**Approved exception (split definitional chapters):** **Chapter 2 — Renewal** defines the **Adjusting** trio as Pattern Blocks. **Chapter 3 — Erosion** defines the **Eroding** trio. **Chapter 4 — Circulation** develops **Circulation** in prose and defines **Leadership Reproduces Itself** as a Pattern Block under **Leadership Reproduces Itself — The Circulation Version**. Follow the **Placement Guidance by Chapter** and **Introduction Sequence** tables below; see `docs/circulation-cross-cutting.md`.
 
 ### **2. Preserve the Author's Voice**
 
@@ -157,7 +157,7 @@ disruptive.
 Format:
 
 ::: {custom-style="Pattern Block"}
-Pattern: **\[Bold title — same wording as canonical list\]**
+**Pattern: \[Bold title — same wording as canonical list\]**
 
 \[Short structural description—see body rules below\]
 :::
@@ -173,7 +173,7 @@ bodies—positive-only for renewing dynamics**.
 Example (renewing dynamic—positive only):
 
 ::: {custom-style="Pattern Block"}
-Pattern: **Leaders Feel the Consequences**
+**Pattern: Leaders Feel the Consequences**
 
 People who decide stay tied to what their choices do to others. Costs and
 benefits stay visible where decisions are made. Accountability stays in view;
@@ -214,7 +214,7 @@ Patterns are insertions, not structural dependencies.
 
 ### **Rule 7 — Each Pattern Has a Primary Location**
 
-Each named dynamic has **one** manuscript home for its **Pattern Block** callout (see **Placement Guidance by Chapter**): Chapter 1 for the Forming trio; Chapter 2 for the **Adjusting** trio; Chapter 3 for the **Eroding** trio plus **Leadership Reproduces Itself**. Later chapters demonstrate the same titles in context using **inline bold** only—do not add a second Pattern Block for a title already defined.
+Each named dynamic has **one** manuscript home for its **Pattern Block** callout (see **Placement Guidance by Chapter**): Chapter 1 for the Forming trio; Chapter 2 for the **Adjusting** trio; Chapter 3 for the **Eroding** trio; Chapter 4 for **Leadership Reproduces Itself**. Later chapters demonstrate the same titles in context using **inline bold** only—do not add a second Pattern Block for a title already defined.
 
 Stronger illustrations in later chapters are welcome in prose; they are not a second callout box for the same title.
 
@@ -224,7 +224,8 @@ Never place multiple pattern blocks adjacent to each other **except in Chapters 
 
 - **Chapter 2:** In **What Vitality Looks Like**, the **Adjusting** trio (**Dissent is Welcomed**, **Feedback Drives Change**, **Leaders Feel the Consequences**) appears as Pattern Blocks. Place **one short sentence of prose between each block** so they are not back-to-back.
 
-- **Chapter 3:** In **What Decay Looks Like**, the **Eroding** trio (**Disagreement is Suppressed**, **Learning Collapses**, **Exceptions are Forever**) appears as Pattern Blocks, then **Leadership Reproduces Itself**. Same spacing rule.
+- **Chapter 3:** In **What Decay Looks Like**, the **Eroding** trio (**Disagreement is Suppressed**, **Learning Collapses**, **Exceptions are Forever**) appears as Pattern Blocks. Same spacing rule.
+- **Chapter 4:** Under **Leadership Reproduces Itself — The Circulation Version**, **Leadership Reproduces Itself** appears as a Pattern Block (definitional home for that title).
 
 - **Do not** repeat any of those seven titles as a Pattern Block in later chapters—use inline bold after the Chapter 2–3 definitions.
 
@@ -377,7 +378,7 @@ Avoid:
 
 ## **Placement Guidance by Chapter (Canonical)**
 
-**Pattern Block callouts (the `::: {custom-style="Pattern Block"}` production blocks) appear only where a title is first defined:** Chapter 1 (Forming trio), Chapter 2 (Adjusting trio), Chapter 3 (Eroding trio + **Leadership Reproduces Itself**). Each such block’s first line is `Pattern: **Canonical Title**` (see `book-rules.md`, **Callout blocks**). **Appendix B** is different: it uses `## **Title**` sections and the long catalog template—**do not** add `Pattern:` there or convert appendix entries into Pattern Block divs. Everywhere else in the manuscript, use **inline bold** for the same titles after their defining block has appeared—do not repeat Pattern Blocks for titles already defined.
+**Pattern Block callouts (the `::: {custom-style="Pattern Block"}` production blocks) appear only where a title is first defined:** Chapter 1 (Forming trio), Chapter 2 (Adjusting trio), Chapter 3 (Eroding trio), Chapter 4 (**Leadership Reproduces Itself**). Each such block’s first line is `**Pattern: Canonical Title**` (see `book-rules.md`, **Callout blocks**). **Appendix B** is different: it uses `## **Title**` sections and the long catalog template—**do not** add `Pattern:` there or convert appendix entries into Pattern Block divs. Everywhere else in the manuscript, use **inline bold** for the same titles after their defining block has appeared—do not repeat Pattern Blocks for titles already defined.
 
 ### **Chapter 1 — Formation**
 
@@ -403,15 +404,17 @@ Primary (definitional Pattern Blocks):
 
 - **What Decay Looks Like:** Disagreement is Suppressed; Learning Collapses; Exceptions are Forever
 
-- After the eroding trio: **Leadership Reproduces Itself** (copies what gets rewarded or punished forward)
-
 ### **Chapter 4 — Circulation**
 
-Pattern Block: none for the ten named dynamics (defined in Chapters 1–3). Use inline **bold** for **correction**, **circulation**, **Leadership Reproduces Itself**, and other already-defined titles where the argument requires it (glossary terms follow normal sentence capitalization; named dynamics stay Title Case).
+Primary (definitional Pattern Block):
+
+- **Leadership Reproduces Itself — The Circulation Version:** Leadership Reproduces Itself
+
+**Circulation** is developed in prose throughout the chapter; no other new Pattern Blocks for the remaining named dynamics. Use inline **bold** for **correction**, **circulation**, and other already-defined titles where the argument requires it (glossary terms follow normal sentence capitalization; named dynamics stay Title Case).
 
 ### **Chapter 5 — Harm Under Influence**
 
-Pattern Block: none (titles defined in Chapters 2–3). Use inline **bold** in the harm illustration (for example **Leaders Feel the Consequences**, **Leaders Do Not Feel the Consequences**).
+Pattern Block: none (titles defined in Chapters 1–4). Use inline **bold** in the harm illustration (for example **Leaders Feel the Consequences**, **Leaders Do Not Feel the Consequences**).
 
 Optional inline anchors:
 
@@ -421,7 +424,7 @@ Optional inline anchors:
 
 ### **Chapter 6 — Effectiveness and Its Illusions**
 
-Pattern Block: none (all titles defined in Chapters 1–3). Strong inline opportunities:
+Pattern Block: none (all titles defined in Chapters 1–4). Strong inline opportunities:
 
 - **Leadership Reproduces Itself** when guest leadership, imitation, or “what gets copied” is on the page
 
@@ -435,7 +438,7 @@ Optional inline:
 
 ### **Chapter 7 — Legitimacy Over Time**
 
-Pattern Block: none (titles defined in Chapters 2–3). Use inline **bold** (for example **Disagreement is Suppressed** in the sacralization arc).
+Pattern Block: none (titles defined in Chapters 1–4). Use inline **bold** (for example **Disagreement is Suppressed** in the sacralization arc).
 
 Optional:
 
@@ -450,7 +453,7 @@ adaptability are already on the page):
 
 - Disagreement is Suppressed
 
-- Leadership Reproduces Itself (replication outrunning local revision; title defined in Chapter 3)
+- Leadership Reproduces Itself (replication outrunning local revision; title defined in Chapter 4)
 
 - Feedback Drives Change (same adaptability test as Part II, named at scale)
 
@@ -458,13 +461,13 @@ adaptability are already on the page):
 
 ### **Chapter 9 — Tradeoffs Under Pressure** (Part IV)
 
-Pattern Block: none (titles defined in Chapters 2–3). Use inline **bold** after the crisis vignette (for example **Exceptions are Forever**, **Feedback Drives Change**, **Examples Accumulate**).
+Pattern Block: none (titles defined in Chapters 1–4). Use inline **bold** after the crisis vignette (for example **Exceptions are Forever**, **Feedback Drives Change**, **Examples Accumulate**).
 
 ### **Chapter 10 — Why We Misjudge Leaders**
 
 Primary:
 
-- None (use inline anchors and negated-title echoes; definitional blocks live in Chapters 2–3)
+- None (use inline anchors and negated-title echoes; definitional blocks live in Chapters 1–4)
 
 ### **Chapter 11 / Epilogue**
 
@@ -496,23 +499,21 @@ Strong opportunities:
 ### **Chapter 3 — Erosion**
 
 Eligible patterns (plus Chapter 2 adjusting titles once defined): **Disagreement is Suppressed**;
-**Learning Collapses**; **Exceptions are Forever**; **Leadership Reproduces Itself**
-(Pattern Blocks in **What Decay Looks Like**, then replication).
+**Learning Collapses**; **Exceptions are Forever** (Pattern Blocks in **What Decay Looks Like**).
 
 Strong opportunities:
 
 - In **What Decay Looks Like**, where repetition hardens authority
   (**Leadership Coalesces** inline), and where the eroding trio is defined as Pattern Blocks.
-- After the eroding trio and vignette, where copying and “what the next leader learns” belongs
-  (**Leadership Reproduces Itself**).
 
 ### **Chapter 4 — Circulation**
 
-Eligible patterns: all titles already introduced in Chapters 1–3; **Correction** and **Circulation** as vocabulary. Use inline bold sparingly—this chapter names permission and handoffs, not new Pattern Blocks.
+Eligible patterns: all titles already introduced in Chapters 1–3, plus **Leadership Reproduces Itself**
+(definitional Pattern Block under **Leadership Reproduces Itself — The Circulation Version**); **Correction** and **Circulation** as vocabulary. Use inline bold elsewhere as needed—do not add Pattern Blocks beyond **Leadership Reproduces Itself** for the ten named dynamics.
 
 ### **Chapter 5 — Harm Under Influence**
 
-Eligible patterns (introduced in Chapters 2–3): **Leaders Feel the Consequences** and related titles; use inline anchors.
+Eligible patterns (introduced in Chapters 1–4): **Leaders Feel the Consequences** and related titles; use inline anchors.
 
 Strong opportunities:
 
@@ -527,7 +528,7 @@ Strong opportunities:
 
 ### **Chapter 6 — Effectiveness and Its Illusions**
 
-Eligible patterns (introduced in Chapters 2–3): **Leadership Reproduces Itself**;
+Eligible patterns (introduced in Chapters 1–4): **Leadership Reproduces Itself**;
 Leaders Feel the Consequences; Dissent is Welcomed; Learning Collapses; Feedback Drives Change.
 
 Strong opportunities:
@@ -539,7 +540,7 @@ Strong opportunities:
 - In "Performative Compliance vs Real Alignment," where visible results
   mask hidden structural drift (**Learning Collapse**).
 - Where the text names an explicit pivot after new information (**Feedback Drives Change**).
-- Where Correction rich vs constricted correction dynamics or guest leadership appear in merged
+- Where correction rich vs constricted correction dynamics or guest leadership appear in merged
   material.
 
 ### **Chapter 7 — Legitimacy Over Time**
@@ -587,7 +588,7 @@ Strong opportunities:
 
 ### **Chapter 10 — Why We Misjudge Leaders**
 
-Eligible patterns (introduced in Chapters 2–3): all Adjusting, Eroding, and **Leadership Reproduces Itself** titles; use **inline anchors** and negated-title echoes (**Dissent is No Longer Welcomed**, **Learning Collapse**) rather than new Pattern Blocks.
+Eligible patterns (introduced in Chapters 1–4): all Adjusting, Eroding, and **Leadership Reproduces Itself** titles; use **inline anchors** and negated-title echoes (**Dissent is No Longer Welcomed**, **Learning Collapse**) rather than new Pattern Blocks.
 
 Strong opportunities:
 

@@ -266,7 +266,7 @@ Guarding the leader can matter as much as getting the facts right.
 
 **Observation:**
 
-Dissent fades or softens until it no longer really challenges decisions.
+Dissent fades or softens until it no longer challenges decisions.
 
 > "I keep asking where the challenge is, and I'm not hearing it. Disagreement is suppressed—even when the risk is staring at us."
 
@@ -304,7 +304,7 @@ News from the ground does not reliably reach them in time.
 
 They do not get a clear read in time on what their choices are doing.
 
-> "We're steering off summaries again. Learning collapses when the ground story never really reaches this room."
+> "We're steering off summaries again. Learning collapses when the ground story never reaches this room."
 
 **Effect:**
 

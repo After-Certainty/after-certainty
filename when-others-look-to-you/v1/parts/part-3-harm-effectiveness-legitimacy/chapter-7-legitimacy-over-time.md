@@ -13,8 +13,8 @@ step with what is actually happening. Each form ties authority to
 accountability a little differently. You can see that in ordinary years and
 again when leadership changes hands.
 
-Those forms also bear on two **vitality** questions tied to **renewal** and
-**erosion**: whether influence can still change direction under pressure, and
+Those forms also bear on the same two questions **renewal** and **erosion**
+turn on: whether influence can still change direction under pressure, and
 whether coordinated action can grow without getting stuck.
 
 ### **Example-Based Legitimacy**
@@ -133,18 +133,18 @@ pull back later.
 Selective followership helps reveal which form of legitimacy is active.
 It also shows what kind of **correction** is still possible.
 
-Not all refusal means disorder. In vibrant groups, selective refusal can function as **correction**.
+Not all refusal means disorder. In **vibrant** groups, selective refusal can function as **correction**.
 People can say, "I agree with the goal, but not this method," without becoming
 enemies of the group. That kind of limited pushback protects judgment
 and keeps authority connected to consequences.
 
-In decaying groups, selective refusal turns covert. People perform
+In **decaying** groups, selective refusal turns covert. People perform
 agreement while quietly routing around decisions they do not trust. The
 group still appears aligned, but shared reality weakens.
 
 The same behavior can mean different things depending on whether the group
-is in **renewal** or **erosion**. Open selective dissent often signals
-**renewal**. Hidden selective resistance often signals **erosion**.
+is in **renewal** or **erosion**. Open selective dissent usually tracks
+**renewal**. Hidden selective resistance usually tracks **erosion**.
 
 In practice, open disagreement inside shared purpose usually means legitimacy
 is still renewing. Public compliance paired with private divergence usually
