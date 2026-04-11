@@ -109,7 +109,7 @@ workarounds.
 
 When observers collapse all this into a single category—either "they
 are with the leader" or "they are against the leader"—they miss the
-structure that actually predicts **renewal** or **erosion**.
+structure that predicts **renewal** or **erosion**.
 
 ### **Why Confidence Is So Persuasive**
 
@@ -167,7 +167,7 @@ Each is easy to dismiss alone. Together they are harder to ignore:
 
 - Bad news arrives late: it is softened, filtered, or never sent.
 - Status outweighs the work: people spend more effort protecting status than
-  improving what actually gets done.
+  improving what gets done.
 - Known problems repeat: the same issues come back without lasting repair.
 
 These tests are concrete, repeatable, and resistant to image management.

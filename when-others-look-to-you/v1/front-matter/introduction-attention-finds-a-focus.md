@@ -14,7 +14,7 @@ later, after outcomes. This book starts earlier, at formation.
 
 ### **What Changes When Attention Finds a Focus**
 
-When others look to you, your behavior is no longer merely private. It may
+When others look to you, your behavior is no longer private. It may
 still feel private to you, but others read it as instruction.
 
 Your pace teaches pace, your tolerance teaches tolerance, your silence
