@@ -2,9 +2,10 @@
 
 ### **What Decay Looks Like**
 
-**Decay** shows when one or both capacities shrink: influence no longer
+**Erosion** shows when one or both capacities shrink: influence no longer
 changes direction under pressure, coordinated action no longer sustains
-reach, or both.[^c3-groupthink]
+reach, or both.[^c3-groupthink] **Decay** is the condition that tends to show
+when that keeps going.
 
 People stop surfacing inconvenient information. Errors are reframed as
 exceptions. **Harm** gets buried in vague wording and moved away from
@@ -32,25 +33,29 @@ truth costs more.
 
 When **decay** deepens, three eroding dynamics often show:
 
+The first dynamic is **Disagreement is Suppressed**.
+
 ::: {custom-style="Pattern Block"}
-Pattern: **Disagreement is Suppressed**
+**Pattern: Disagreement is Suppressed**
 
 Challenge starts to sound like disloyalty. Open disagreement narrows to performances that protect the center.
 :::
 
 Even when talk continues, what people on the ground know may stop steering
-decisions in time. That is **Learning Collapse** in practice.
+decisions in time. This leads to our second dynamic—**Learning Collapse**.
 
 ::: {custom-style="Pattern Block"}
-Pattern: **Learning Collapses**
+**Pattern: Learning Collapses**
 
 Ground experience stops reaching decision-makers in time. Negative feedback weakens. Drift continues behind strong narratives.
 :::
 
-Under pressure, temporary fixes can outlast the emergency that justified them. That drift is **Exceptions are Forever**.
+Under pressure, temporary fixes can outlast the emergency that justified them.
+
+The third dynamic is **Exceptions are Forever**.
 
 ::: {custom-style="Pattern Block"}
-Pattern: **Exceptions are Forever**
+**Pattern: Exceptions are Forever**
 
 Exceptions introduced under urgency tend to persist. Temporary permissions harden into the new operating baseline.
 :::
@@ -66,15 +71,6 @@ Three years later, the same two names appear on every fast spend. When someone a
 No single choice in that chain required bad faith. Each reuse sounded
 reasonable. Together, they trained the group that normal process is optional
 whenever someone invokes the emergency loudly enough.
-
-These dynamics do not stay in one room. They also copy forward: what gets rewarded or punished becomes what the next people in charge learn to treat as normal leadership here.
-
-::: {custom-style="Pattern Block"}
-Pattern: **Leadership Reproduces Itself**
-
-What gets rewarded or punished locally becomes a template; people imitate
-it when they step into leadership next.
-:::
 
 ::: {custom-style="Pull Quote Block"}
 Erosion starts the day correction carries a penalty.

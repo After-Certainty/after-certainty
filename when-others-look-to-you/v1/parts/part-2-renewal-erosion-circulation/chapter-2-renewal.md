@@ -23,8 +23,8 @@ intentions can still yield **erosion**, and flawed people can still sustain
 Read the movement through two capacities: **scalability** (can coordinated
 action grow in reach?) and **adaptability** (can it change direction when
 reality pushes back?). **Erosion** shows when either capacity shrinks. How
-those capacities combine into named states is an effectiveness question; here
-the focus is what **renewal** looks like when **vitality** holds.
+those capacities combine into named states is a structural question; here
+the focus is what **vitality** looks like when **renewal** holds.
 
 ### **What Vitality Looks Like**
 
@@ -34,7 +34,7 @@ Mistakes are surfaced before they become identity threats. In that
 climate, **Examples Accumulate**: difficult news stays
 speakable—not hidden.
 
-**Vibrant** groups do not avoid failure. They shorten the time between warning
+In **vibrant** groups, people do not avoid failure. They shorten the time between warning
 and response.[^c2-high-reliability] They correct earlier, at lower cost, with
 less drama.
 
@@ -52,25 +52,27 @@ without punishment. **Circulation** names whether influence can move through tem
 
 When **vitality** holds, three adjusting dynamics often line up:
 
+The first dynamic is **Dissent is Welcomed**.
+
 ::: {custom-style="Pattern Block"}
-Pattern: **Dissent is Welcomed**
+**Pattern: Dissent is Welcomed**
 
 Dissent and risk signals can reach decision-makers in time. **Correction**
 stays possible.
 :::
 
-**Feedback Drives Change** is whether new facts can still change direction before commitments harden.
+The second dynamic is **Feedback Drives Change**.
 
 ::: {custom-style="Pattern Block"}
-Pattern: **Feedback Drives Change**
+**Pattern: Feedback Drives Change**
 
 New information can still steer the work. Plans remain revisable while reality is still pushing back.
 :::
 
-**Leaders Feel the Consequences** is whether people with decision rights stay visible when costs land.
+The third dynamic is **Leaders Feel the Consequences**.
 
 ::: {custom-style="Pattern Block"}
-Pattern: **Leaders Feel the Consequences**
+**Pattern: Leaders Feel the Consequences**
 
 Decision-makers remain in view when costs land. Accountability stays linked to authority.
 :::

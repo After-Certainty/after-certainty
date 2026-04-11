@@ -13,6 +13,8 @@ literal and navigational.
 Sub-headings are used when the argument makes a meaningful shift.
 They are meant to orient you, not to dramatize the prose.
 
+**Capitalization.** Sub-headings use title case (Chicago): capitalize principal words; lowercase articles (*a*, *an*, *the*), coordinating conjunctions (*and*, *but*, *or*), and short prepositions (*as*, *at*, *by*, *in*, *of*, *on*, *to*) in the middle of the title unless they are first or last. Category names that are lowercase in prose still take title case in headings (for example: *Vibrant Group* / *Decaying Group* in `Circulation in the Vibrant Group`). **Appendix B** keeps Pattern titles exactly as defined. Full rule: `book-rules.md`, **Heading capitalization (manuscript)**.
+
 Most chapters close with a short pull-quote that distills the chapter’s
 core takeaway.
 
@@ -42,13 +44,13 @@ Example:
 When others look to you, your posture becomes part of their world.
 :::
 
-### **Callout blocks (bold titles)**
+### **Callout Blocks (Bold Titles)**
 
 Some chapters use a dedicated visual block so you can spot recurring
 structural dynamics without interrupting the prose flow. Each block opens with
-the label *Pattern:* and then a short **bold title**. The book names these
-ideas with those titles in running prose; it does not describe them with the
-word *pattern*.
+a single bold line that includes the word *Pattern:* and the dynamic’s title.
+The book names these ideas with those titles in running prose; it does not
+describe them with the word *pattern*.
 
 These blocks use subtle visual emphasis (such as light shading and a
 soft border) so they remain distinct from both normal prose and
@@ -57,7 +59,7 @@ vignettes without overpowering the page.
 Example:
 
 ::: {custom-style="Pattern Block"}
-Pattern: **Example Name**
+**Pattern: Example Name**
 
 One to two sentences describing a recurring structural dynamic in the
 current context.

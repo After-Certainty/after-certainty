@@ -4,7 +4,7 @@
 
 ## Current edition (v1)
 
-Authoritative structure and migration live in **`docs/rewrite-plan.md`** and **`index.md`**.
+Authoritative structure lives in **`index.md`** (reading order and paths).
 
 - **Part II** includes a dedicated **Chapter 4 — Circulation** (full chapter), after **Renewal** and **Erosion**.
 - **correction** and **circulation** remain **cross-cutting**: they are defined early, developed in Part II, and **tested** through harm, effectiveness, and legitimacy (Part III), then stressed under scale and pressure (Part IV).
@@ -19,4 +19,5 @@ Part I and the introduction **seed** both dynamics; the Part I bridge and Chapte
 
 ## Maintainer note
 
-If this file disagrees with **`docs/book-rules.md`** or **`docs/rewrite-plan.md`**, **book-rules** and **rewrite-plan** win; update this file to match.
+If this file disagrees with **`docs/book-rules.md`** or **`index.md`**, those
+sources win; update this file to match.

@@ -2,7 +2,7 @@
 
 This checklist captures **approved wording and pass outcomes** for *When Others Look to You*. Use it during **Step 5.75** (and any focused echo pass) so new drafts and revisions stay aligned.
 
-For global tone and universality rules, see `book-rules.md`. For where to place Pattern Blocks and inline anchors, see `pattern-integration-guide.md`. For **Pattern Block** production rules (heading line `Pattern: **Title**`, **positive-only** bodies for renewing dynamics, **Learning Collapse** vs **Learning Collapses**, negated-title capitalization), see `book-rules.md` (**Callout blocks** through **Learning Collapses** / **Learning Collapse**).
+For global tone and universality rules, see `book-rules.md`. For where to place Pattern Blocks and inline anchors, see `pattern-integration-guide.md`. For **Pattern Block** production rules (heading line `**Pattern: Title**`, **positive-only** bodies for renewing dynamics, **Learning Collapse** vs **Learning Collapses**, negated-title capitalization), see `book-rules.md` (**Callout blocks** through **Learning Collapses** / **Learning Collapse**).
 
 ---
 
@@ -12,7 +12,7 @@ For global tone and universality rules, see `book-rules.md`. For where to place 
 
 - In chapter body prose and part bridges, do not use navigational signposts such as **Part II** or **Chapter 8**; hand the reader with ideas, lenses, or questions instead. Full rule and exceptions (index, preface, title lines, appendix): **Transitions (no part or chapter labels)** in `book-rules.md`.
 
-### **Look vs follow**
+### **Look vs Follow**
 
 - **Look / look to** stays the book’s anchor (opening definition, attention, formation).
 - Use **follow** where the mechanism is **going along with role-based authority**:
@@ -53,7 +53,7 @@ For global tone and universality rules, see `book-rules.md`. For where to place 
 - Full rule and Appendix B naming: `book-rules.md`, *Direction vs state* and **Word valence**.
 - **Stagnant** — optional cold-side gloss where **decaying** would over-claim; do not stack with vitality/vibrant/decay in one sentence unless necessary.
 
-### **Correction rich vs constricted correction**
+### **Correction Rich vs Constricted Correction**
 
 - **Correction rich** — dissent and bad news can still **move** and **change decisions**; aligns with **vibrant** health. (Temporary step-in leadership is **circulation**, not the same label.)
 - **Constricted correction** — dissent **narrows** from open signal to **quiet workaround**; aligns with **decaying** erosion. Use when Part III (Ch. 5–7) discusses feedback paths, not as jargon in every chapter.
@@ -66,14 +66,14 @@ Split across **`chapter-2-renewal.md`** and **`chapter-3-erosion.md`**. Directio
 
 **Chapter 2 (Renewal):** **Two Directions** frames the fork; **What Vitality Looks Like** and the adjusting trio Pattern Blocks. Bold **renewal**, **erosion**, **vitality**, **decay** in running prose where definitions land; pull quotes stay plain. **Scalability** / **adaptability**: prefer **coordinated action** (canonical lexicon). Full four-state grid lives in **Chapter 6**, not here.
 
-**Chapter 3 (Erosion):** **What Decay Looks Like**, eroding trio + **Leadership Reproduces Itself** Pattern Blocks. **Revisability** may appear with gloss **room to change plans once they are in motion**; *permeability* → **fewer channels stay open for bad news; telling the truth costs more**. **Harm** in decay: *abstract language* → **vague wording** where helpful. **Cost / harm:** *tractable* → **small enough to fix**; *narrative control* → **control of the public story**. **Early indicators**, **why erosion feels rational**, and **a practical discipline** belong in later chapters per `rewrite-plan.md`—do not re-expand them here.
+**Chapter 3 (Erosion):** **What Decay Looks Like** and the eroding trio Pattern Blocks (**Leadership Reproduces Itself** is defined in **Chapter 4**). Prefer plain wording for whether plans can still change once they are in motion; *permeability* → **fewer channels stay open for bad news; telling the truth costs more**. **Harm** in decay: *abstract language* → **vague wording** where helpful. **Cost / harm:** *tractable* → **small enough to fix**; *narrative control* → **control of the public story**. **Early indicators**, **why erosion feels rational**, and **a practical discipline** belong in later chapters as written—do not re-expand them here.
 
 ---
 
 ## Chapter 7 — Legitimacy (Pass 2)
 
 - Direction vs state: where the claim is **accumulating condition** (rules hiding rot, **correction** weak, legitimacy sliding), prefer **decay** over *erosion*; keep *erosion* / *renewal* when naming **drift** or the two-way frame.
-- Opening: tie vitality questions to **Part II renewal/erosion** in plain words (change direction under pressure; coordinated action without getting stuck).
+- Opening: tie the two questions **renewal** and **erosion** turn on to **Part II** in plain words (change direction under pressure; coordinated action without getting stuck).
 - **Example-based:** visible behavior → **what they can see**; *conduct* → **real behavior**.
 - **Procedural:** rules and roles; *symbolic process* → **rules mostly for show**.
 - **Sacralized:** prefer **plain clauses** (doubt feels disloyal; merge identity with leader or group story; public story treated settled; correction costs socially) over compact theory labels in body prose. Keep **Arendt** footnote.
@@ -86,7 +86,7 @@ Split across **`chapter-2-renewal.md`** and **`chapter-3-erosion.md`**. Directio
 
 ## Chapter 5 — Harm (Pass 3)
 
-- Primary harm vignette: **The Ribbon Date** — **community center** reopening, **loose handrail**, **mayor’s date**, **town newsletter**, **front-desk volunteers**, **team player** coaching. **Do not revert** to product/quarter/dashboard/security-ship framing for this slot without an explicit author decision.
+- Primary harm vignette: **The Tournament Weekend** — **youth soccer club** hosting, **unanchored goal**, **bracket/hotel pressure**, **sponsor photos**, **team player** coaching. **Do not revert** to product/quarter/dashboard/security-ship framing for this slot without an explicit author decision.
 - **Four harm postures** intro: **how the group handles harm**, not “structural descriptions.”
 - **Harm-instrumental:** *strategic goals* → **prized goal or timeline** (or similar plain goal language).
 - **Boundaries:** *institutions / weak structures* → **people farther from the front line / fixing what is broken** (or equivalent plain chain).
@@ -119,7 +119,7 @@ Split across **`chapter-2-renewal.md`** and **`chapter-3-erosion.md`**. Directio
 
 ## Appendix B
 
-- **Format (do not drift):** Appendix B headings stay `## **Title**` with no `Pattern:` prefix and no `::: {custom-style="Pattern Block"}` wrapper. The `Pattern: **Title**` + Pattern Block div is **only** for definitional callouts in Chapters 1–3 (`book-rules.md`, **Appendix B vs Pattern Block callouts**).
+- **Format (do not drift):** Appendix B headings stay `## **Title**` with no `Pattern:` prefix and no `::: {custom-style="Pattern Block"}` wrapper. The `**Pattern: Title**` + Pattern Block div is **only** for definitional callouts in Chapters 1–3 (`book-rules.md`, **Appendix B vs Pattern Block callouts**).
 - Appendix prose should stay aligned with Ch 5–7 plain targets for **system**, **group**, **how the group operates**, **formal reporting**, etc., when those strings appear in pattern definitions.
 
 ---

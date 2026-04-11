@@ -23,9 +23,6 @@ GLOSSARY = V1 / "back-matter" / "glossary.md"
 
 # (display substring in **bold**, anchor slug). Longer phrases first.
 TERMS: list[tuple[str, str]] = [
-    ("Correction rich; constricted correction", "correction-rich-constricted-correction"),
-    ("correction rich", "correction-rich-constricted-correction"),
-    ("constricted correction", "correction-rich-constricted-correction"),
     ("Circulation", "circulation"),
     ("Correction", "correction"),
     ("vibrant group", "vibrant-group"),
@@ -39,8 +36,6 @@ TERMS: list[tuple[str, str]] = [
     ("scalability", "scalability"),
     ("Scalability", "scalability"),
     ("adaptability", "adaptability"),
-    ("revisability", "revisability"),
-    ("Revisability", "revisability"),
     ("Effectiveness", "effectiveness"),
     ("effectiveness", "effectiveness"),
     ("Legitimacy", "legitimacy"),

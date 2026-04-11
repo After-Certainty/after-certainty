@@ -308,7 +308,7 @@ They do not get a clear read in time on what their choices are doing.
 
 **Effect:**
 
-Feedback weakens. Decisions drift away from what is happening. The
+Feedback weakens. Decisions drift away from what is really happening. The
 surface can still look steady.
 
 **Resulting Context:**

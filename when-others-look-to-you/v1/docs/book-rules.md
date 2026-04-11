@@ -231,6 +231,22 @@ If removing a line break strengthens coherence, remove it.
 
 - Avoid heading density that fragments prose into isolated fragments.
 
+### **Heading capitalization (manuscript)**
+
+Use one predictable scheme for `#` / `##` / `###` / `####` headings in chapter files, front matter, and back matter, except where a different rule applies below.
+
+- **Default — title case (Chicago):** Capitalize the first and last word. Capitalize nouns, pronouns, verbs, adjectives, and adverbs. Lowercase articles (*a*, *an*, *the*), coordinating conjunctions (*and*, *but*, *or*, *nor*, *for*), and short prepositions (*as*, *at*, *by*, *in*, *of*, *on*, *to*, *up*) when they fall in the middle of the heading—unless they are the first or last word, part of a proper name, or part of a fixed book term that is capitalized differently.
+
+- **Em dash (—) in headings:** Treat each side as a readable phrase. Example already in use: `What Circulation Is — and What It Isn't` (lowercase *and*; capitalize *It* in *It Isn't*).
+
+- ***vs* in headings:** Lowercase *vs* with spaces: `Performative Compliance vs Real Alignment`.
+
+- **Glossary terms in headings:** In running prose, bold phrases such as **vibrant group** and **decaying group** stay lowercase. In **sub-headings** (`###` / `##`), use ordinary title case on the category: *Vibrant Group*, *Decaying Group* (for example: `Circulation in the Vibrant Group`). Do not use all-lowercase *vibrant group* in a chapter sub-heading.
+
+- **Appendix B — Leadership Patterns:** Section headings that match canonical **Pattern** or category titles keep the same capitalization as those titles (including sentence-style dynamics such as **Dissent is Welcomed**). Do not re-title-case Pattern names for appendix display.
+
+- **Bridge and chapter titles:** `# **Bridge — From Formation to Movement**` and `# **Chapter N — Subtitle**`: use title case on the bridge phrase and subtitle; *to* stays lowercase when it is a medial preposition (*From Formation to Movement*).
+
 ### **Chapter-End Pull-Quote Convention**
 
 - Each chapter should end with a pull-quote.
@@ -344,12 +360,13 @@ repeats,” “erosion read as a pattern over time,” “a harmful pattern emer
 ordinary English.
 
 **Callout blocks:** Manuscript files use `::: {custom-style="Pattern Block"}`
-for production. Inside the block, the heading line should be **`Pattern:` plus
-the bold title** (for example `Pattern: **Leaders Feel the Consequences**`).
-Use that exact prefix so reader-facing typography matches the implementation
-label (*Pattern Block*) without attaching the word *pattern* to the title in
-running prose (see **Named dynamics** above). Do not use a `**Pattern - …**`
-heading or other variants.
+for production. Inside the block, the heading line is **one fully bold span**
+that includes *Pattern:* and the title—for example
+`**Pattern: Leaders Feel the Consequences**` in markdown source. Use that exact
+form so reader-facing typography matches the implementation label (*Pattern
+Block*) without attaching the word *pattern* to the title in running prose
+(see **Named dynamics** above). Do not use a `**Pattern - …**` heading or
+other variants.
 
 **Appendix B vs Pattern Block callouts (do not conflate):** The catalog in
 `back-matter/appendix-b-leadership-patterns.md` uses normal markdown section
@@ -357,7 +374,7 @@ headings (`## **Attention Finds a Focus**`, etc.) and the long **Context /
 Problem / Forces** template. **Do not** add the `Pattern:` prefix to those
 headings, and **do not** wrap appendix entries in `::: {custom-style="Pattern
 Block"}`. The `Pattern:` prefix and Pattern Block custom-style apply **only** to
-the short definitional callouts in Chapters 1–3. Two formats on purpose: the
+the short definitional callouts in Chapters 1–4. Two formats on purpose: the
 appendix is a reference catalog; the chapters use production callouts.
 
 **Pattern Block bodies—positive-only for renewing dynamics:** For dynamics
@@ -376,12 +393,14 @@ need a positive mirror.
 
 **Learning Collapses** (canonical) vs **Learning Collapse** (prose): The
 registered title is **Learning Collapses**—use it in Pattern Block heading lines
-(after the `Pattern:` prefix),
+(the bold `**Pattern: Learning Collapses**` line),
 appendix section titles, and anywhere you list the dynamics by name. In running
 prose, when grammar calls for a singular noun (*collapse* as event or condition),
 use **Learning Collapse** instead so sentences stay fluent (for example
 “this shows **Learning Collapse**,” “**Learning Collapse** often follows”). It is the same dynamic; the singular is a reader-facing shorthand,
 not a second pattern.
+
+**Pattern names in prose:** Use bold dynamics as ordinary grammar—subject, verb, object, complement—not as catalog labels. Write sentences that would still read naturally if the term were plain English. Prefer naming the dynamic directly (for example “**Learning Collapse** often follows”) over meta-frames whose main job is to *point at* the label (for example “that combination signals **Learning Collapses**”). Prefer **Learning Collapse** (singular) in running prose when the sentence names a condition or event; keep **Learning Collapses** for Pattern Block heading lines, appendix section titles, and explicit lists of canonical titles.
 
 When prose names the *negation* of a canonical title (the dynamic no longer
 holding), bold the echo with the same capitalization style as the originals:
@@ -427,14 +446,15 @@ Elsewhere in the manuscript, bold the same four terms when they carry that
 structural sense if doing so stays readable; do not bold every grammatical
 variant (*renewing*, *eroding*, *vibrant*, *decaying*) by default.
 
-In **What Vitality Looks Like** and **What Decay Looks Like**, Chapter 2 also
-defines the six **Adjusting** and **Eroding** dynamics as **Pattern Blocks**
-(three each), with a short sentence of prose between blocks so they are not
-adjacent without connective tissue. Immediately after the **Eroding** trio,
-Chapter 2 defines **Leadership Reproduces Itself** (Circulating) as a seventh
-**Pattern Block**. Later chapters refer to these titles by inline anchor or
-absence; they do not repeat Pattern Blocks for titles already defined (see
-`pattern-integration-guide.md`, **Rule 8**).
+In **What Vitality Looks Like**, Chapter 2 defines the three **Adjusting**
+dynamics as **Pattern Blocks**, with a short sentence of prose between blocks
+so they are not adjacent without connective tissue. In **What Decay Looks
+Like**, Chapter 3 defines the three **Eroding** dynamics the same way.
+**Chapter 4 — Circulation** defines **Leadership Reproduces Itself** (the
+**Circulating** shape) as a seventh **Pattern Block** under **Leadership
+Reproduces Itself — The Circulation Version**. Later chapters refer to these
+titles by inline anchor or absence; they do not repeat Pattern Blocks for
+titles already defined (see `pattern-integration-guide.md`, **Rule 8**).
 
 ### **Circulation and Correction**
 
@@ -465,7 +485,7 @@ moves. **Eroding** covers insulation, displacement, and breakdown.
 - When you are in **eroding** territory (suppression, collapse, tolerance of
   harm, insulation, **Learning Collapses**, **Disagreement is Suppressed**),
   **negative valence fits**: the prose is already naming cost, narrowing, or
-  loss of revisability.
+  loss of room to revise plans.
 
 - **Circulating** / handoff material can lean either way depending on whether
   the emphasis is renewal paths staying open or channels closing; match
@@ -485,8 +505,7 @@ cross-cutting vocabulary guardrails. Use `editorial-vocabulary.md` as the
 `pattern-integration-guide.md` for **placement** and introduction sequence of
 bold titles (editor workflow). Use `drafting-process.md` for **section workflow**
 and which passes to run. Use `circulation-cross-cutting.md` for terminology and
-structure notes on **correction** / **circulation** (see also
-`docs/rewrite-plan.md`). If guidance in another doc disagrees with this file,
+structure notes on **correction** / **circulation**. If guidance in another doc disagrees with this file,
 **follow this file** and update the other doc.
 
 **When Others Look to You — enforced checklist:** After plain-language or
@@ -616,7 +635,7 @@ The book analyzes structure, not people.
   insulated," "more one-directional," "room to revise plans") over
   moralized shorthand (for example: "healthier," "better people,"
   "worse people") when describing these dynamics. Avoid rarefied
-  one-word abstractions (*revisability*, *permeability*) in Chapter 2-style
+  one-word abstractions such as *permeability* in Chapter 2-style
   exposition unless the author explicitly restores them.
 
 - In plain-language revisions, preserve neutrality: simplify wording
