@@ -28,6 +28,11 @@ This document defines the drafting workflow for building the book in a structure
   (`rsvg-convert`) or **ImageMagick** (`magick`) for that conversion.
 - Post-processing removes the generated EPUB cover page from spine order
   while keeping the metadata cover, so readers open to title-page text.
+- EPUB navigation uses ``--toc-depth=1``: the table of contents lists Part
+  headings (from ``index.md``), each file’s top-level ``#`` title (bridges,
+  chapters, front/back matter), and omits ``##``/``###`` subsection titles.
+  Part labels are inserted by ``tools/kindle-flatten.py`` before the first
+  linked file in each ``## Part …`` block.
 
 ## Branch and PR Workflow (Applies Throughout)
 

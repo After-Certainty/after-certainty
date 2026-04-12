@@ -109,6 +109,7 @@ export-docx: check-pandoc
 	fi; \
 	echo "Created $$out"
 
+# Kindle EPUB: toc-depth=1 keeps nav TOC to # headings only; kindle-flatten injects Part # lines from index.md.
 export-kindle-epub: check-pandoc
 	@test -n "$(DIR)" || { echo "Usage: make export-kindle-epub DIR=path/to/book-folder"; exit 1; }
 	@index="$$DIR/index.md"; \
@@ -118,9 +119,9 @@ export-kindle-epub: check-pandoc
 	cover="$$DIR/BookCover.png"; \
 	python3 tools/kindle-flatten.py --book-dir "$$DIR" --index "$$index" --out "$$prep"; \
 	if [ -f "$$cover" ]; then \
-		"$(PANDOC)" "$$prep" --resource-path="$$DIR" --toc --toc-depth=3 --epub-title-page=false --metadata=toc-title:"Table of Contents" --epub-cover-image="$$cover" -o "$$out"; \
+		"$(PANDOC)" "$$prep" --resource-path="$$DIR" --toc --toc-depth=1 --epub-title-page=false --metadata=toc-title:"Table of Contents" --epub-cover-image="$$cover" -o "$$out"; \
 	else \
-		"$(PANDOC)" "$$prep" --resource-path="$$DIR" --toc --toc-depth=3 --epub-title-page=false --metadata=toc-title:"Table of Contents" -o "$$out"; \
+		"$(PANDOC)" "$$prep" --resource-path="$$DIR" --toc --toc-depth=1 --epub-title-page=false --metadata=toc-title:"Table of Contents" -o "$$out"; \
 	fi; \
 	python3 tools/epub-postprocess.py --epub "$$out"; \
 	echo "Created $$out"
@@ -134,9 +135,9 @@ export-kindle-epub-flat: check-pandoc
 	cover="$$DIR/BookCover.png"; \
 	python3 tools/kindle-flatten.py --book-dir "$$DIR" --index "$$index" --out "$$flat" --flatten-custom-blocks; \
 	if [ -f "$$cover" ]; then \
-		"$(PANDOC)" "$$flat" --resource-path="$$DIR" --toc --toc-depth=3 --epub-title-page=false --metadata=toc-title:"Table of Contents" --epub-cover-image="$$cover" -o "$$out"; \
+		"$(PANDOC)" "$$flat" --resource-path="$$DIR" --toc --toc-depth=1 --epub-title-page=false --metadata=toc-title:"Table of Contents" --epub-cover-image="$$cover" -o "$$out"; \
 	else \
-		"$(PANDOC)" "$$flat" --resource-path="$$DIR" --toc --toc-depth=3 --epub-title-page=false --metadata=toc-title:"Table of Contents" -o "$$out"; \
+		"$(PANDOC)" "$$flat" --resource-path="$$DIR" --toc --toc-depth=1 --epub-title-page=false --metadata=toc-title:"Table of Contents" -o "$$out"; \
 	fi; \
 	python3 tools/epub-postprocess.py --epub "$$out"; \
 	echo "Created $$out"
