@@ -40,7 +40,7 @@ stay consistent across new drafting and revision.
   cues**, **read** (what is allowed or rewarded), **gather** (attention)—over
   *orient*, *calibrate*, or *concentrate* when the meaning is the same.
 - **Straight questions**: *real question*, *what follows*, *this stretch of
-  the book*—over *the live question*, *the next movement traces*, or other
+  the book*—over *the real question*, *the next movement traces*, or other
   meta scaffolding unless tone calls for it.
 - **Parallel clarity** where the book already fixed a phrase: for example
   influence that **stays strong** when people **only partly go along** (align

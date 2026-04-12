@@ -34,6 +34,6 @@ These entries define words used in a precise, structural sense throughout this a
 
 **Stalled** — A practical state: low **scalability** and low **adaptability**. Part of the **decaying group** with **entrenched**.
 
-**Vibrant group** — The **renewal**-side pair **regenerative** and **adaptive**: together they cover high or lower **scalability** with high **adaptability**.
+**Vibrant group** — The **renewal**-side pair **regenerative** and **adaptive**: together they cover high or low **scalability** with high **adaptability**.
 
 **Vitality** — The state of a group when influence can sustain coordinated action as reach grows—how open the group is to revision and how workable coordination remains in the moment. Contrasts with **decay**; sustained **renewal** tends toward **vitality**.

@@ -17,5 +17,5 @@ grid.
 
 ![Diagram: renewal, erosion, capacities, and states](export-assets/diagrams/renewal-erosion-map.png)
 
-Together these are live questions: what the group reinforces, what it shuts
+Together these are the real questions: what the group reinforces, what it shuts
 down, and what it trains people to repeat. They are not personality types.

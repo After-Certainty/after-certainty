@@ -95,5 +95,5 @@ Read this book as a set of lenses, not a set of slogans. Use
 it on teams, communities, and workplaces you know—including your own
 choices.
 
-Whether leadership exists is rarely the puzzle. The live question is what it
+Whether leadership exists is rarely the puzzle. The real question is what it
 is becoming while others watch—and what you can still see in the meantime.
