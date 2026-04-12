@@ -73,7 +73,7 @@ In reader-facing files, the implied “you” is the **reader** of the book, not
 From the repository root, search reader-facing trees for common leakage patterns (adjust path if needed):
 
 ```bash
-rg -n 'docs/book-rules|docs/editorial-vocabulary|docs/pattern-integration|docs/drafting-process|docs/revision-plan|docs/expansion-plan|manuscript sources|Do not edit by hand|Generated file' \
+rg -n 'docs/book-rules|docs/editorial-vocabulary|docs/pattern-integration|docs/drafting-process|docs/revision-plan|docs/expansion-plan|manuscript sources|Do not edit by hand|Generated file|\bthe manuscript\b|\bacross the manuscript\b' \
   when-others-look-to-you/v1/index.md \
   when-others-look-to-you/v1/front-matter \
   when-others-look-to-you/v1/parts \

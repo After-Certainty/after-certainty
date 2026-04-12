@@ -72,8 +72,8 @@ for a phase—temporary or shared leadership—and who is treated as *allowed* t
 steer before titles change. Copied habit and copied permission both feed the
 next round of formation.
 
-Crisis is treated as a recurring thread across the manuscript, with its
-strongest integration where scale and pressure enter—late in the arc.
+Crisis runs as a recurring thread through the book, with its strongest
+integration where scale and pressure enter—late in the arc.
 
 The aim is not to condemn people; it is to clarify dynamics.
 

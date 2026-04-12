@@ -3,7 +3,7 @@
 > **Generated file.** Do not edit by hand. Regenerate with:
 > `python3 scripts/readability_scores.py`
 
-**Last generated:** 2026-04-12 16:22 UTC
+**Last generated:** 2026-04-12 16:31 UTC
 
 ## Method
 
@@ -22,10 +22,10 @@
 | Front matter | Title page | — | — | — | — | — | *insufficient text (1 words)* |
 | Front matter | Copyright | 13.2 | 12.3 | 15.7 | 24.8 | 6 | 82 |
 | Front matter | Author's note | 8.1 | 8.0 | 10.5 | 56.5 | 30 | 334 |
-| Front matter | Preface | 9.1 | 8.9 | 11.7 | 51.9 | 24 | 297 |
+| Front matter | Preface | 9.1 | 8.9 | 11.7 | 52.0 | 24 | 298 |
 | Front matter | Acknowledgements | 8.0 | 7.5 | 7.4 | 71.5 | 16 | 305 |
-| Front matter | Introduction | 8.9 | 9.0 | 12.0 | 54.2 | 48 | 609 |
-| Front matter | Typographical conventions | 10.3 | 10.1 | 12.3 | 49.3 | 28 | 445 |
+| Front matter | Introduction | 8.8 | 9.0 | 11.9 | 54.7 | 48 | 608 |
+| Front matter | Typographical conventions | 10.4 | 10.2 | 11.9 | 50.5 | 27 | 455 |
 | Part I | Bridge | 7.6 | 7.8 | 9.7 | 59.4 | 13 | 138 |
 | Part I | Ch 1 — The Weight of Being Looked To | 9.3 | 8.0 | 12.6 | 44.0 | 96 | 840 |
 | Part II | Bridge — From Formation to Movement | 9.8 | 9.7 | 13.5 | 45.7 | 12 | 140 |
