@@ -113,10 +113,12 @@ extra bold in Pattern Block bodies after the `**Pattern: …**` title line.
 
 At minimum, check for:
 
-- Stacked negation and avoidable double negatives
-- Awkward sentence constructions; for multi-clause chains, apply the
-  **complicated-sentence pass** in `docs/book-rules.md` (includes a
+- **Sentence length and running sentences:** Prefer short, direct sentences as
+  the house default; avoid long running sentences that pile clauses or steps.
+  Split or simplify for clarity where possible (see **Sentence Discipline** and
+  **Editorial pass: complicated sentences** in `docs/book-rules.md`; includes a
   before/after example from Chapter 1)
+- Stacked negation and avoidable double negatives
 - Bold-titled dynamics: do not call them “patterns” in prose; use negation or
   plain conditions (see **Named dynamics** in `docs/book-rules.md`)
 - **Pattern Block bodies:** for renewing/adjusting titles, **positive-only**
@@ -359,6 +361,9 @@ Once all front matter, bridges (if used), chapters, and back matter are drafted 
 ### 12.3 Editorial and Copy Pass
 
 - Run a full manuscript edit for clarity, grammar, punctuation, and rhythm
+- Apply **Sentence Discipline** and the **Editorial pass: complicated sentences**
+  checks in `docs/book-rules.md`: prefer short sentences, break up long running
+  sentences where clarity improves
 - Remove residual stacked negation, filler phrasing, and awkward transitions
 - Ensure terminology usage is consistent across chapters
 - Run **`docs/typography-check.md`** across the full manuscript paths (mechanical Pull Quote / Vignette / Pattern Block checks) and fix any violations
