@@ -114,6 +114,8 @@ Alongside outcomes, watch whether the conditions for **correction** stayed open 
 
 Without that read, results can mislead.
 
+### **Legitimacy Next**
+
 **Effectiveness** asks what worked. **Legitimacy** asks why people keep following—and what makes that sustainable.
 
 **Legitimacy** comes next: how it forms, hardens, and renews over time.
