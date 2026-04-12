@@ -9,13 +9,12 @@ weak, good or bad, successful or failed. By that point, many of the
 important structural choices have already hardened. Patterns are already
 being copied. Harm has already been distributed.
 
-This book works earlier in the sequence. It stays with what can be seen while
-influence is still forming.
+This book begins while influence is still forming. It stays with what you can
+see in that window.
 
 ### **The Frame**
 
-The book uses one durable definition as its anchor. The introduction
-introduces it directly.
+The book uses one durable definition as its anchor. The introduction states it outright.
 
 From that anchor, the chapters move in layers:
 

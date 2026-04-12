@@ -3,7 +3,7 @@
 ### **Purpose**
 
 This section explains how the book is laid out so you can move through it
-easily and see what each section is doing. It follows the introduction so the
+easily and see what each part is doing. It comes after the introduction so the
 book opens with the argument first, not the layout notes.
 
 ### **Headings and Structure**
@@ -12,7 +12,7 @@ Part titles, bridge sections, and chapter headings are written to be
 literal and navigational.
 
 Sub-headings are used when the argument makes a meaningful shift.
-They are meant to orient you, not to dramatize the prose.
+They mark where the argument turns—not a flourish for its own sake.
 
 **Capitalization.** Sub-headings use title case (Chicago): capitalize principal words; lowercase articles (*a*, *an*, *the*), coordinating conjunctions (*and*, *but*, *or*), and short prepositions (*as*, *at*, *by*, *in*, *of*, *on*, *to*) in the middle of the title unless they are first or last. Category names that are lowercase in prose still take title case in headings (for example, *Vibrant Group* and *Decaying Group* in a title such as *Circulation in the Vibrant Group*).
 

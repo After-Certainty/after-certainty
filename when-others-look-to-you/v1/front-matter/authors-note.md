@@ -11,11 +11,10 @@ visible or quiet. It may happen in a family, a team, a congregation, or
 an institution. But the pattern is the same: **Attention Finds a Focus**, and
 consequence follows.
 
-I wrote this book because that moment is common and under-described. We
-read leadership through results, confidence, or narrative identity before
-we read the structure underneath. Those surface signals can matter, but they
-can also hide the deeper pattern. This book is an attempt to make that pattern
-easier to see.
+I wrote this book because that moment is common and hard to name. We judge
+leadership from results, confidence, or story before we see the structure
+underneath. Those surface signals can matter, but they can also hide the deeper
+pattern. This book is an attempt to make that pattern easier to see.
 
 ### **What This Book Tries to Do**
 
@@ -50,4 +49,6 @@ Erosion → Circulation.
 
 That chain is the thread you will see running through the chapters.
 
-The Epilogue names a companion volume in the same pattern vocabulary. It is organized pattern-by-pattern rather than along this book’s spine, for readers who want that path.
+The Epilogue names a companion volume that uses the same pattern vocabulary.
+That book is organized pattern-by-pattern—not along this book’s spine—for
+readers who want that path.

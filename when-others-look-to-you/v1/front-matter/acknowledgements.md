@@ -14,8 +14,8 @@ try, fail, and try again.
 
 You’ve helped me see what it means to feel the consequences of what I
 decide—not as an idea on paper, but in how it lands on the people closest to
-me. You respond to what I do far more than what I say, and the examples
-accumulate in small moments until they outweigh anything I could announce.
+me. You respond to what I do far more than what I say. The examples add up in
+small moments until they outweigh anything I could announce.
 
 **To my parents**
 
