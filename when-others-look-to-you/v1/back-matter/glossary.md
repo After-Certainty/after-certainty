@@ -2,7 +2,7 @@
 
 **Bold** in the chapters marks terms this book uses in a fixed sense—**renewal** and **erosion**, **vibrant group** and **decaying group**, **circulation** and **correction**, **harm**, **legitimacy**, and others. Use this glossary to look them up without rereading earlier chapters.
 
-**Circulation** — Whether influence can move through temporary or shared leadership (including **guest leadership**) so that leadership can scale without fixing every role at the top—how leadership spreads and reproduces itself, including what **Leadership Reproduces Itself** tracks when people imitate what last worked. Not the same as **correction**: who may step in to lead is a different question than whether warnings and dissent can change decisions without punishment.
+**Circulation** — Whether influence can move through temporary or shared leadership (including **guest leadership**) so that leadership can scale without fixing every role at the top—how leadership spreads and reproduces itself, including what **Leadership Reproduces Itself** tracks when people imitate what last worked. The **permission question**—whether stepping in, being credited, and stepping back are safe in practice—is often settled by accumulated example before anyone tests it formally. Not the same as **correction**: who may step in to lead is a different question than whether warnings and dissent can change decisions without punishment.
 
 **Correction** — Whether warnings, dissent, and on-the-ground information can reach decision-makers and change direction without punishment—return paths for feedback and revision. Contrasts with narrow or one-way channels; not the same as **circulation**.
 
