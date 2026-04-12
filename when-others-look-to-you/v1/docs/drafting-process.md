@@ -17,6 +17,10 @@ This document defines the drafting workflow for building the book in a structure
 - Kindle EPUB (only export path; custom-style blocks are flattened for device
   readers, shallow nav TOC):
   `make export-kindle-epub DIR=when-others-look-to-you/v1`
+  In the prep step (`tools/kindle-flatten.py --flatten-custom-blocks`),
+  **Pattern Block**, **Pull Quote Block**, and **Vignette Block** are all
+  converted to Markdown blockquotes (`>`) so boundaries read clearly in EPUB;
+  Word exports keep the named styles from `reference.docx`.
 - Kindle exports use `BookCover.png` as EPUB cover metadata and remove
   the inline cover image from in-book reading flow so title-page text
   appears first.

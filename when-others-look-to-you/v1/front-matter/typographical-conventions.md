@@ -12,6 +12,13 @@ find your place. Sub-headings mark a real turn in the argument, not decoration.
 **Appendix B** lists **Pattern** titles exactly as they appear there; the same
 titles show up in the chapters.
 
+### **Kindle EPUB**
+
+In the reflowable Kindle edition, **pattern blocks**, **pull-quotes**, and
+**vignettes** all use the same **indented quotation** treatment so you can see
+where each block begins and ends. Print and Word use the book’s styled blocks
+instead.
+
 ### **Pull-quotes**
 
 Most chapters end with a short pull-quote. It compresses the chapter’s
