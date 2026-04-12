@@ -1,12 +1,12 @@
 # **Glossary**
 
-These entries define words the book uses in a precise, structural sense. Many of them also appear in ordinary speech; here each one names a specific idea in the argument, not a loose synonym for “healthy,” “toxic,” or “effective.” Where two terms contrast—**renewal** and **erosion**, **circulation** and **correction**—the entries spell out how they differ.
+These entries define words used in a precise, structural sense throughout this argument. Many of them also appear in ordinary speech; here each one names a specific idea, not a loose synonym for “healthy,” “toxic,” or “effective.” Where two terms contrast—**renewal** and **erosion**, **circulation** and **correction**—the entries spell out how they differ.
 
-**Circulation** — Whether influence can move through temporary or shared leadership (including **guest leadership**) so that leadership can scale without fixing every role at the top: how leadership spreads and reproduces itself, including what **Leadership Reproduces Itself** points to when people imitate what last worked. The **permission question**—whether stepping in, being credited, and stepping back are safe in practice—is often settled by accumulated example before anyone tests it formally. Not the same as **correction**: who may step in to lead is a different question than whether warnings and dissent can change decisions without punishment.
+**Circulation** — Whether influence can move through temporary or shared leadership (including **guest leadership**) so that leadership can scale without fixing every role at the top: how leadership spreads and reproduces itself, including what **Leadership Reproduces Itself** points to when people imitate what last worked. The **permission question**—whether stepping in, being credited, and stepping back are safe in practice—is often settled by accumulated example before anyone tests it formally. Not the same as **correction**, which is a different structural problem: whether warnings and dissent can change decisions without punishment.
 
 **Correction** — Whether warnings, dissent, and on-the-ground information can reach decision-makers and change direction without punishment—return paths for feedback and revision. Contrasts with narrow or one-way channels; not the same as **circulation**.
 
-**Adaptability** — The capacity of coordinated action to change direction when reality pushes back. Together with **scalability**, it sorts groups into the four states **adaptive**, **entrenched**, **regenerative**, and **stalled**, and underpins how the book describes **renewal** and **erosion**.
+**Adaptability** — The capacity of coordinated action to change direction when reality pushes back. Together with **scalability**, it sorts groups into the four states **adaptive**, **entrenched**, **regenerative**, and **stalled**, and underpins how **renewal** and **erosion** are read.
 
 **Adaptive** — A practical state: lower **scalability** with high **adaptability**. Part of the **vibrant group** with **regenerative**.
 
@@ -30,7 +30,7 @@ These entries define words the book uses in a precise, structural sense. Many of
 
 **Renewal** — The direction in which a group stays open to course correction and keeps coordinated action working as reach grows. Contrasts with **erosion**; sustained **renewal** tends toward **vitality**.
 
-**Scalability** — The capacity of coordinated action to grow in reach. Together with **adaptability**, it sorts groups into **adaptive**, **entrenched**, **regenerative**, and **stalled**, and underpins how the book describes **renewal** and **erosion**.
+**Scalability** — The capacity of coordinated action to grow in reach. Together with **adaptability**, it sorts groups into **adaptive**, **entrenched**, **regenerative**, and **stalled**, and underpins how **renewal** and **erosion** are read.
 
 **Stalled** — A practical state: low **scalability** and low **adaptability**. Part of the **decaying group** with **entrenched**.
 

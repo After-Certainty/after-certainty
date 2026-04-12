@@ -1,7 +1,7 @@
 # **Appendix A — Legitimacy Transfer in Practice**
 
-This appendix applies the book's lenses to a visible case sequence. It is not a
-ranking of leaders and not a partisan scorecard. The goal is to show how
+This appendix uses the same lenses—**harm**, **effectiveness**, **legitimacy**—on a visible case sequence. It is not a
+ranking of leaders and not a partisan scorecard. The aim is to show how
 legitimacy transfers, hardens, and can stay expanded after leadership changes
 hands.
 
@@ -16,14 +16,14 @@ At scale, powers used under one administration can become the expected
 baseline for the next. Permission can move forward faster than limits do,
 unless people actively renew those limits.
 
-The terms below match the book's four legitimacy forms. **Procedural
+The terms below match the four legitimacy forms developed in the main text. **Procedural
 legitimacy** names authority backed by formal process and role.
 **Office-based legitimacy** names authority backed by what the office is allowed
 to do, inherited from earlier use. **Sacralization pressure** names the moment
 when challenge starts to sound like disloyalty—to the person, the party, or the
 national story—a common way sacralized legitimacy shows up at scale.
 
-The chapters also name example-based legitimacy. This appendix centers on the
+The main text also names example-based legitimacy. This appendix centers on the
 office, so that form matters less here—but it still belongs on the same map.
 
 ### **Case Sequence: Post-9/11 to Present**

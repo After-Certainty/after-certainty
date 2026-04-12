@@ -3,7 +3,7 @@
 > **Generated file.** Do not edit by hand. Regenerate with:
 > `python3 scripts/readability_scores.py`
 
-**Last generated:** 2026-04-12 16:33 UTC
+**Last generated:** 2026-04-12 16:35 UTC
 
 ## Method
 
@@ -42,9 +42,9 @@
 | Part IV | Ch 10 — Why We Misjudge Leaders | 9.5 | 8.8 | 13.1 | 46.5 | 132 | 1441 |
 | Part V | Bridge — From Misjudgment to What Remains | 8.9 | 7.2 | 9.4 | 67.0 | 4 | 80 |
 | Part V | Ch 11 — What Happens Next | 9.9 | 9.8 | 12.3 | 51.6 | 55 | 839 |
-| Back matter | Epilogue | 10.0 | 9.7 | 12.1 | 47.9 | 33 | 458 |
-| Back matter | Appendix A — Legitimacy transfer | 11.3 | 9.4 | 13.8 | 34.7 | 58 | 677 |
-| Back matter | Appendix B — Leadership patterns | 8.6 | 8.2 | 12.0 | 55.4 | 112 | 1397 |
+| Back matter | Epilogue | 10.0 | 9.7 | 12.1 | 47.7 | 33 | 456 |
+| Back matter | Appendix A — Legitimacy transfer | 11.4 | 9.5 | 13.8 | 34.0 | 58 | 685 |
+| Back matter | Appendix B — Leadership patterns | 8.6 | 8.2 | 12.1 | 55.3 | 112 | 1400 |
 | Back matter | Bibliography | 9.4 | 6.0 | 10.8 | 35.1 | 100 | 426 |
 
 ## Source paths

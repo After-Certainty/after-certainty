@@ -1,6 +1,6 @@
 # **Appendix B — Leadership Patterns**
 
-This appendix lists patterns from the book: how leadership forms, renews,
+This appendix lists the patterns that run through the argument: how leadership forms, renews,
 erodes, and spreads. Four groups—**forming**, **adjusting**, **eroding**, and
 **circulating**—hold the entries. Each one notes when it shows up, what is
 happening, and what comes next.
