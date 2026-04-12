@@ -3,7 +3,7 @@
 > **Generated file.** Do not edit by hand. Regenerate with:
 > `python3 scripts/readability_scores.py`
 
-**Last generated:** 2026-04-12 17:17 UTC
+**Last generated:** 2026-04-12 17:19 UTC
 
 ## Method
 
@@ -32,11 +32,11 @@
 | Part II | Ch 2 — Renewal | 9.8 | 9.1 | 13.5 | 45.0 | 44 | 490 |
 | Part II | Ch 3 — Erosion | 8.9 | 8.9 | 13.1 | 49.9 | 30 | 314 |
 | Part II | Ch 4 — Circulation | 9.7 | 9.3 | 11.4 | 53.4 | 112 | 1752 |
-| Part III | Bridge — From Movement to Lenses | 9.1 | 9.3 | 12.1 | 53.3 | 7 | 93 |
+| Part III | Bridge — From Movement to Lenses | 7.7 | 7.3 | 11.5 | 53.9 | 11 | 87 |
 | Part III | Ch 5 — Harm Under Influence | 9.3 | 8.8 | 12.6 | 49.6 | 107 | 1282 |
 | Part III | Ch 6 — Effectiveness and Its Illusions | 10.3 | 8.9 | 14.4 | 41.1 | 106 | 1168 |
 | Part III | Ch 7 — Legitimacy Over Time | 10.0 | 9.3 | 12.4 | 47.3 | 115 | 1563 |
-| Part IV | Bridge — From Structure to Scale and Judgment | 8.7 | 8.3 | 12.2 | 60.1 | 7 | 107 |
+| Part IV | Bridge — From Structure to Scale and Judgment | 6.8 | 6.8 | 11.5 | 65.2 | 10 | 106 |
 | Part IV | Ch 8 — Scale and Drift | 9.6 | 8.4 | 12.3 | 48.4 | 45 | 567 |
 | Part IV | Ch 9 — Tradeoffs Under Pressure | 9.7 | 8.9 | 13.2 | 46.4 | 50 | 585 |
 | Part IV | Ch 10 — Why We Misjudge Leaders | 9.4 | 8.7 | 13.0 | 46.8 | 135 | 1444 |

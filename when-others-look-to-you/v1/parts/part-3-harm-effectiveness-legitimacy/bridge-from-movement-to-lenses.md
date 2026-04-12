@@ -1,14 +1,9 @@
 # **Bridge — From Movement to Lenses**
 
-**Renewal**, **erosion**, and **circulation**—open or captured—describe how influence moves in structural terms.
+**Renewal**, **erosion**, and **circulation** describe how influence moves in structural terms. Each can be open or captured.
 
-The chapters ahead look at the same movement through three lenses—**harm**,
-**effectiveness**, and **legitimacy**. Each one sharpens what the others leave
-soft; none of them is enough on its own.
+The chapters ahead use three lenses—**harm**, **effectiveness**, and **legitimacy**. Each sharpens what the others leave soft. Together they complete the picture.
 
-**Harm** is where cost lands when influence scales. **Effectiveness** is what
-success is borrowing from, and what it is still preserving. **Legitimacy** is
-why people keep following, and what kind of permission they keep extending over
-time.
+**Harm** is where cost lands when influence scales. **Effectiveness** is what success borrows from and what it still preserves. **Legitimacy** is why people keep following. It is also what kind of permission they keep extending over time.
 
-Read them together—what one lens softens, another can still surface.
+Read them together. What one lens softens, another can still surface.
