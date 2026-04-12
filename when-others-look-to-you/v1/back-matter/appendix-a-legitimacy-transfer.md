@@ -14,7 +14,7 @@ At transfer, example-based legitimacy asks whether the new authority holder’s 
 
 Procedural legitimacy asks whether the rules and roles that govern transfer are still functioning as real constraints or mostly as ceremony.
 
-Office-based legitimacy asks what the position itself now carries: what permissions have accumulated in the role that move forward automatically with the title.
+Office-based legitimacy asks what the position itself now carries: what permissions have built up in the role that move forward automatically with the title.
 
 Sacralized legitimacy asks whether the transfer itself has become exempt from ordinary challenge—whether questioning who leads next sounds like attacking something the group is not supposed to reopen.
 
@@ -48,7 +48,7 @@ The pattern here is not unique to healthcare. It is what office-based legitimacy
 
 ### **Religious Institutions and Congregational Networks**
 
-The baseline in most established religious communities combines procedural and example-based legitimacy. A founding pastor, a long-tenured rabbi, a senior elder who has led through formative moments—these figures accumulate authority through visible example over time. The role they hold and the person holding it become difficult to separate. When others look to them, they are looking to the office and the example simultaneously.
+The baseline in most established religious communities combines procedural and example-based legitimacy. A founding pastor, a long-tenured rabbi, a senior elder who has led through formative moments—these figures build authority through visible example over time. The role they hold and the person holding it become difficult to separate. When others look to them, they are looking to the office and the example simultaneously.
 
 Transfer becomes complex precisely because of that fusion. When a long-tenured leader steps down or dies, what passes to the successor is a title, a role, and a set of expectations shaped by everything the prior leader made the role mean. The successor inherits the expanded expectations alongside the formal authority. Example-based legitimacy, which has to be re-earned in visible conduct, can quietly convert to office-based legitimacy—people following because of what the position represents rather than because of what they have witnessed the current holder do. If the founding example was compelling enough, the office can carry that weight for a long time after the behavior that built it has changed or disappeared.
 

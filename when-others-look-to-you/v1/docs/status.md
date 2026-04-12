@@ -31,7 +31,7 @@ branch; **`index.md` is the source of truth** for reading order and paths.
 
 ## Key docs (precedence)
 
-- `docs/book-rules.md` — house rules and tone (wins on conflict).
+- `docs/book-rules.md` — house rules, tone, and **Plain speak (house style)** (wins on conflict).
 - `docs/pattern-integration-guide.md` — Pattern Block placement and inline anchors.
 - `docs/editorial-vocabulary.md` — chapter-aware vocabulary passes.
 

@@ -1,20 +1,21 @@
 # **Bridge — From Formation to Movement**
 
-Influence does not stay neutral once people begin to look in one direction.
-It starts moving.
+Influence does not stay neutral once people start looking the same way.
+It moves.
 
 This part names that movement in three forms: **renewal**, **erosion**, and
-**circulation**. **Renewal** tracks whether a group can keep changing course under
-pressure. **Erosion** tracks what happens when **correction** narrows and exceptions
-quietly harden. **Circulation** tracks whether leadership can move through people,
-or whether every decision keeps returning to the same gate.
+**circulation**. **Renewal** is whether a group can still change course under
+pressure. **Erosion** is what happens when **correction** narrows and exceptions
+quietly harden. **Circulation** is whether leadership can pass through more
+people—or whether every decision keeps returning to the same gate.
 
-One way to read that movement is through two capacities: **scalability** (can
-coordinated action grow in reach?) and **adaptability** (can it still change
-course under pressure?). Together they form four practical states—**adaptive**,
-**regenerative**, **entrenched**, and **stalled**—developed later as a
-structural read.
+You can also read the movement through two capacities: **scalability** (can
+coordinated action grow?) and **adaptability** (can it still change course
+under pressure?). Together they yield four states—**adaptive**,
+**regenerative**, **entrenched**, and **stalled**—laid out later as a structural
+grid.
 
 ![Diagram: renewal, erosion, capacities, and states](export-assets/diagrams/renewal-erosion-map.png)
 
-Taken together, they read as live pattern questions: what this group is reinforcing, what it is suppressing, and what it is teaching people to repeat. They are not personality types.
+Together these are the real questions: what the group reinforces, what it shuts
+down, and what it trains people to repeat. They are not personality types.

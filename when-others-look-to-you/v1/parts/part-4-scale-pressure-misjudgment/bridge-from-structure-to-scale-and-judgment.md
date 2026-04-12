@@ -2,8 +2,13 @@
 
 The same structure reads differently at scale.
 
-As reach grows, distance from consequence grows with it. Information from the ground travels farther, arrives later, and warps more on the way. Signals that look obvious up close can disappear inside reporting layers, timing gaps, and pressure cycles.
+As reach grows, people get farther from the consequences of what they decide.
+News from the ground travels farther, arrives later, and bends more on the way.
+What looked obvious up close can vanish in reports, timing gaps, and pressure.
 
-The model still applies—**renewal**, **erosion**, **vitality**, and **decay**. The read gets harder. Scale and pressure keep the core dynamics in place. They change how quickly drift compounds. They change how hard the pattern is to see from outside.
+**Renewal**, **erosion**, **vitality**, and **decay** still describe what is
+happening, and scale and pressure only make the read harder, accelerate drift,
+and hide the pattern from anyone watching from a distance.
 
-The next movement takes up scale and drift, tradeoffs under pressure, and the judgment failures those conditions make easier to miss.
+What follows takes up scale and drift, tradeoffs under pressure, and the kinds
+of misjudgment those conditions make easy to miss.

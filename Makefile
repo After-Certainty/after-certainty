@@ -1,6 +1,9 @@
-.PHONY: help check-pandoc docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-all-docx clean-import-md
+.PHONY: help check-pandoc docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-all-docx clean-import-md spellcheck
 
 PANDOC ?= pandoc
+CODESPELL ?= codespell
+# Default book tree for spellcheck; override for another volume, e.g. SPELLCHECK_DIR=other-book/v1
+SPELLCHECK_DIR ?= when-others-look-to-you/v1
 
 help:
 	@echo "Pandoc conversion helpers"
@@ -14,6 +17,7 @@ help:
 	@echo "  make export-kindle-epub DIR=path/to/book-folder"
 	@echo "  make export-all-docx"
 	@echo "  make clean-import-md"
+	@echo "  make spellcheck [SPELLCHECK_DIR=when-others-look-to-you/v1] [CODESPELL=codespell]"
 	@echo ""
 	@echo "Notes:"
 	@echo "  - If OUT is omitted, output is created next to IN."
@@ -25,7 +29,9 @@ help:
 	@echo "  - SVG under DIR/docs/diagrams/ rasterize to DIR/export-assets/diagrams/ (rsvg-convert or magick)."
 	@echo "  - export-all-docx runs export-docx for every ./**/index.md."
 	@echo "  - clean-import-md deletes every ./**/import.md file."
+	@echo "  - spellcheck runs codespell on SPELLCHECK_DIR using that dir's .codespellrc."
 	@echo "  - Requires pandoc installed and available in PATH."
+	@echo "  - spellcheck requires codespell (pip install codespell). If it is not on PATH, set CODESPELL to the full path."
 
 check-pandoc:
 	@command -v "$(PANDOC)" >/dev/null 2>&1 || { \
@@ -145,3 +151,11 @@ clean-import-md:
 		rm "$$file"; \
 		echo "Removed $$file"; \
 	done
+
+spellcheck:
+	@command -v "$(CODESPELL)" >/dev/null 2>&1 || { \
+		echo "Error: codespell not found. Install with: pip install codespell"; \
+		exit 1; \
+	}
+	@test -f "$(SPELLCHECK_DIR)/.codespellrc" || { echo "Error: $(SPELLCHECK_DIR)/.codespellrc not found."; exit 1; }
+	@$(CODESPELL) --config "$(SPELLCHECK_DIR)/.codespellrc" "$(SPELLCHECK_DIR)"

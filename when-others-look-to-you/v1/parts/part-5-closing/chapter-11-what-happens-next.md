@@ -8,7 +8,7 @@ A leader is someone others look to when deciding what to do next.
 
 That is the moment **Attention Finds a Focus**.
 
-The live issue is not whether others look. It is what that looking builds over time.
+The real issue is not whether others look. It is what that looking builds over time.
 
 ### **The Integrated View**
 
@@ -18,7 +18,7 @@ Seen together, the five elements read less like a to-do list and more like a map
 
 The reckoning is that a **decaying** structure can look competent for a long time. Results can hold while costs are displaced. Alignment can look clean while followership goes quiet or selective. Confidence can remain high while learning shrinks.
 
-This is why late recognition is common: by the time failure is obvious, the pathways that would have surfaced trouble early are already narrowed. From outside, the pattern can still look like stability. Inside, **Learning Collapse** is already underway.
+This is why late recognition is common: by the time failure is obvious, the pathways that would have caught trouble early are already narrowed. From outside, the pattern can still look like stability. Inside, **Learning Collapse** is already underway.
 
 ### **Two Trajectories**
 
@@ -30,7 +30,7 @@ Repeated choices push structure one of two ways:
   - **correction** can still change direction when warnings and dissent can get through.
   - **circulation** still lets people step in and share the lead when the work demands it.
 
-These are not personality types. They are where decisions accumulate—a direction you reinforce or interrupt, not a one-time switch.
+These are not personality types. They are where decisions add up—a direction you reinforce or interrupt, not a one-time switch.
 
 **Feedback Drives Change** when plans can still move because the facts push back.
 
@@ -82,7 +82,7 @@ Repeated choices about who can see what is going on, whether **correction** and 
 
 **Renewal** is not something you lock in once. It means coordinated action keeps working as reach grows, and the group can still change course when reality pushes back.
 
-The slower question is what remains possible when keeping damage from spreading and fixing what you can locally are realistic, while a quick return to how things were before is not.
+The harder question is what remains possible when keeping damage from spreading and fixing what you can locally are realistic, while a quick return to how things were before is not.
 
 ::: {custom-style="Pull Quote Block"}
 Focused attention is not destiny; repetition is.

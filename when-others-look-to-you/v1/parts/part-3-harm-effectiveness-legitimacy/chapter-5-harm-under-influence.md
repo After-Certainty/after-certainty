@@ -10,11 +10,11 @@ Most leaders believe they are acting for good. The practical question is not int
 
 ### **How Harm Moves**
 
-One practical read is **harm** allocation.
+One way to read it is **harm** allocation.
 
 In **vibrant** groups, those with authority are more likely to absorb some of the cost of their own decisions. They do not absorb all of it, but the linkage between decision rights and accountability stays visible.
 
-In **decaying** groups, costs move downward or outward: those closest to the consequences, people affected by the decision, or peripheral groups absorb the effects while central decision-makers keep control of the public story. This displacement is framed as necessity, but repeated displacement is an early warning, not an unfortunate accident.
+In **decaying** groups, costs move downward or outward: those closest to the consequences, people affected by the decision, or peripheral groups absorb the effects while central decision-makers keep control of the public story. People frame that displacement as necessity, but repeated displacement is an early warning, not an unfortunate accident.
 
 That allocation pattern is where the four postures below separate in practice: whether leadership absorbs, tolerates, instrumentalizes, or simply misses harm.
 
@@ -73,9 +73,10 @@ A youth soccer club is one week out from hosting a regional tournament. A volunt
 The tournament finishes on schedule. Sponsor photos look great. Two weeks later, angry calls roll in after a collision in front of a net that shifts. The volunteer who raised the warning is told to be “more of a team player” next time.
 :::
 
-This scene is not unusual. **Examples Accumulate** there: what gets rewarded or punished in that first beat trains everyone watching. It shows harm displacement in compact form: risk moves outward to people affected by the decision and downward to those closest to the consequences while leadership protects a short-term story of success.
+This scene is not unusual. **Examples Accumulate** there: what gets rewarded or punished in that first beat teaches everyone watching.
+It shows harm displacement in compact form: risk moves outward to people affected by the decision and downward to those closest to the consequences while leadership protects a short-term story of success.
 
-**Leaders Feel the Consequences** means people who decide stay tied to what their choices do to others. Costs and benefits stay visible where decisions are made. Accountability stays in view and does not quietly slide onto someone else.
+**Leaders Feel the Consequences** means people who decide stay tied to what their choices do to others. Costs and benefits stay visible where decisions are made. Accountability stays in view—it does not quietly slide onto someone else.
 
 When **Leaders Do Not Feel the Consequences**, decision-makers lose contact with who bears the cost. The group can shift from harm-absorbing leadership toward harm-tolerant or harm-instrumental leadership, even when leaders describe the decision as necessary.
 
@@ -87,7 +88,7 @@ Taking on cost can be responsible. It can also become distortion if it removes o
 
 If a leader repeatedly absorbs every consequence, teams may stop naming risk, peers may stop correcting decisions, and people farther from the front line may stop fixing what is broken. In that case, harm is not being reduced—it is being deferred and concentrated.
 
-One boundary read: does harm absorption increase shared responsibility, or replace it?
+One question to ask: does harm absorption increase shared responsibility, or replace it?
 
 When it increases shared responsibility, it builds trust and capacity. When it replaces responsibility, it weakens everyone else’s room to act and makes future harm more likely.
 
@@ -123,11 +124,11 @@ Open refusal can still support **correction** where others can see it. Covert re
 
 The harm pattern in a group is readable before anyone names it out loud. Watch where cost lands when something goes wrong—not who apologizes, but who absorbs. Watch who stays protected from consequence while still holding decision rights. Watch whether the person who named the harm is still in the room six months later, and in what capacity. Watch what actually changed after harm was surfaced, not what was said about it.
 
-When those patterns have no clear read, **Leaders Do Not Feel the Consequences.** That opacity is itself the signal. Harm displacement rarely announces itself—it becomes harder and harder to trace who decided and who paid.
+When those patterns have no clear read, **Leaders Do Not Feel the Consequences**. That opacity is itself the signal. Harm displacement rarely announces itself. It gets harder to trace who decided and who paid.
 
 ### **Effectiveness Next**
 
-Harm comes first in this sequence because it reveals reality quickly.
+Harm comes first in this sequence because it shows reality quickly.
 
 The next lens is why short-term effectiveness can hide long-term decay.
 

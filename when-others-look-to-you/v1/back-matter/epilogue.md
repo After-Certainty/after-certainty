@@ -2,7 +2,7 @@
 
 This book began with a simple definition: a leader is someone others look to when deciding what to do next.
 
-By the end, the issue is no longer abstract. It is practical: what happens when authority has already traveled farther than accountability?
+By the end, the question is concrete: what happens when authority has already traveled farther than accountability?
 
 Some readers arrive here hoping for a clean reversal strategy. Reversal is not always possible.
 
@@ -20,7 +20,8 @@ The work returns to human scale once more.
 
 At human scale, consequences are harder to wave away, claims are easier to check, and repair is harder to postpone. That does not make human-scale leadership morally pure; it makes feedback harder to ignore.
 
-Formal rules and policy still matter. Day-to-day practice is still where durable habits that sustain vitality are built. That means naming harm in plain words, refusing false urgency when **correction** is still possible, separating visible success from whether **correction** still works, and keeping authority open to change in public.
+Formal rules and policy still matter. Day-to-day practice is still where durable habits that sustain vitality are built.
+That takes naming harm in plain words, refusing false urgency when **correction** is still possible, separating visible success from whether **correction** still works, and keeping authority open to change in public.
 
 None of this guarantees a happy ending.
 
@@ -46,4 +47,4 @@ That is still leadership.
 
 A second book shares this pattern vocabulary—the same named dynamics—but follows a different spine: *Forming, Renewing, Eroding, Repeating*, one pattern per chapter in order, tracing how moments chain into habit and how habit travels. It is not a summary of this volume or a sequel.
 
-Read it before, after, or alongside when you want that vocabulary in one clear throughline.
+Read it before, after, or alongside this book when you want that vocabulary in one clear throughline.

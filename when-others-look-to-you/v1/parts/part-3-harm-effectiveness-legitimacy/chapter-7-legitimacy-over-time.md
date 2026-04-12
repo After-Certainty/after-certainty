@@ -13,7 +13,7 @@ step with what is actually happening. Each form ties authority to
 accountability a little differently. You can see that in ordinary years and
 again when leadership changes hands.
 
-Those forms also bear on the same two questions **renewal** and **erosion**
+Those forms also connect to the same two questions **renewal** and **erosion**
 turn on: whether influence can still change direction under pressure, and
 whether coordinated action can grow without getting stuck.
 
@@ -157,7 +157,7 @@ way to **Disagreement is Suppressed**.
 A leader can keep attention after legitimacy weakens. Titles persist.
 Stories about who we are persist. Habits persist.
 
-The practical question is whether authority still answers to the people
+The real question is whether authority still answers to the people
 affected by its decisions.
 
 If legitimacy cannot renew through visible **correction**, influence may
@@ -169,19 +169,22 @@ continue, but decay deepens.
 warnings and dissent can still reach those who hold power and change a
 decision without punishment.
 
-**Circulation** is whether influence can still move out from formal
-leaders and back toward them through people who step up for a moment, then step
-back. How those episodes are treated feeds **legitimacy** as well as throughput:
-**permission**—what the room teaches after someone leads without being the usual
-name—accumulates in the same **vibrant** or **decaying** habits **circulation**
-describes, so who counts as a leader and who people will still follow do not stay
+**Circulation** is whether influence can still move out from formal leaders and
+back toward them through people who step up for a moment, then step back.
+
+How those episodes are treated feeds **legitimacy** as well as throughput.
+**Permission**—what the room teaches after someone leads without being the usual
+name—adds up in the same **vibrant** or **decaying** habits **circulation**
+describes. Who counts as a leader and who people will still follow do not stay
 separate questions for long.
 
 ### **Correction Signals**
 
-Beyond **selective followership**, other **correction** signals show up in what you can watch over time. Watch whether bad news travels upward without career penalty. Watch whether dissent can change a decision before execution. Watch whether leaders explain revision when they change course. Watch whether, after conflict, trust increases or contracts.
+Beyond **selective followership**, other **correction** signals show up in what you can watch over time.
+Watch whether bad news travels upward without career penalty. Watch whether dissent can change a decision before execution. Watch whether leaders explain revision when they change course. Watch whether, after conflict, trust increases or contracts.
 
-**Circulation** leaves a different set of traces. Feedback reaching the center is only part of the read. Watch what the room teaches after someone who is not the usual name holds it. Watch whether step-ins are credited and named. Watch whether people are welcome back into the decision ring. Watch whether the afterward story reads as useful work or as damage control. Those are **permission** signals. They narrow or widen before the next crisis tests who may steer.
+**Circulation** leaves a different set of traces. Feedback reaching the center is only part of the read.
+Watch what the room teaches after someone who is not the usual name holds it. Watch whether step-ins are credited and named. Watch whether people are welcome back into the decision ring. Watch whether the afterward story reads as useful work or as damage control. Those are **permission** signals. They narrow or widen before the next crisis tests who may steer.
 
 When most of those **correction** signals read as closed, authority is becoming one-way. When **permission** reads cold, people still learn to wait for the usual gate—even when the work has already moved on.
 

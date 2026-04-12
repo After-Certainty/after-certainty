@@ -33,12 +33,9 @@ def flatten_custom_blocks(text: str) -> str:
             i += 1
 
         content = "\n".join(block).strip("\n")
-        if style == "Pattern Block":
-            # Keep as plain text emphasis block.
-            out_lines.append(content)
-            out_lines.append("")
-        elif style in {"Pull Quote Block", "Vignette Block"}:
-            # Convert to simple blockquote for broad Kindle compatibility.
+        if style in {"Pattern Block", "Pull Quote Block", "Vignette Block"}:
+            # Convert to simple blockquote for broad Kindle/EPUB compatibility so
+            # callout boundaries are visible (same treatment for all three).
             for bl in content.splitlines():
                 if bl.strip():
                     out_lines.append("> " + bl)

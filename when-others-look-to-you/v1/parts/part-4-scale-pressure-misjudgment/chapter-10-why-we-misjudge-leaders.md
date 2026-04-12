@@ -4,11 +4,11 @@
 
 Most people do not misjudge leaders because they are careless. They misjudge because the most visible signals are the least reliable.
 
-A plan succeeds, and we infer **legitimacy**. A crisis resolves, and we infer competence. A confident narrative holds, and we infer integrity. These inferences are understandable. They are also frequently wrong.
+A plan succeeds, and we treat that as evidence of **legitimacy**. A crisis resolves, and we treat that as evidence of competence. A confident narrative holds, and we treat that as evidence of integrity. Those leaps are understandable. They are also frequently wrong.
 
 Two distortions drive this pattern: outcome bias and structural blindness.
 
-Scale stretches feedback paths. Pressure narrows judgment windows. Those forces are familiar by now. Misjudgment is what accumulates on top of them. It is not the same as one observer simply misreading a leader.
+Scale stretches feedback paths. Pressure narrows judgment windows. Those forces are familiar by now. Misjudgment is what adds up on top of them. It is not the same as one observer simply misreading a leader.
 
 ### **Outcome Bias**
 
@@ -28,7 +28,7 @@ A leader says the right words about accountability. Observers treat this as evid
 
 That pattern does not require anyone to mean harm. It can come from habit, worry about rank, rush, or "how we do things here." In a tight circle, the first news of trouble may never leave the room where it started. Drift can worsen while everyone still sounds reasonable. How things really work keeps shifting. The words stay polished anyway.
 
-Structural blindness is common because many of the relevant signals are socially expensive to surface.[^c10-psychological-safety] People close to problems carry the highest local risk for naming them.
+Structural blindness is common because many of the relevant signals are socially expensive to raise.[^c10-psychological-safety] People close to problems carry the highest local risk for naming them.
 
 When bad news stops moving early enough to matter, **Dissent is No Longer Welcomed**.
 
@@ -40,7 +40,7 @@ Observers hear a leader’s stated purpose and treat sincerity as sufficient evi
 
 Intent matters for ethics. It does not settle the question.
 
-The durable read is what influence repeatedly produces: how **correction** works, how **harm** is allocated, how disagreement survives, and how learning is retained across pressure cycles.
+What lasts is what influence repeatedly produces: how **correction** works, how **harm** is allocated, how disagreement survives, and how learning is retained across pressure cycles.
 
 ### **Why Erosion Feels Rational**
 
@@ -86,7 +86,7 @@ From the outside, this looks like evidence of strong leadership. Inside the scho
 
 The vignette shows why outcome bias and structural blindness reinforce each other: visible success can hide degrading conditions until repair becomes expensive.
 
-**Learning Collapse** is what that looks like—not a one-off blind spot—when ground knowledge no longer reaches those who decide in time.
+**Learning Collapse** is what that looks like—not a one-off blind spot—when what people on the ground know no longer reaches those who decide in time.
 
 ### **What to Watch Instead**
 
@@ -124,9 +124,9 @@ This is why late-stage collapse feels sudden to outsiders and inevitable to insi
 
 ### **A Clearer Read**
 
-The practical read is not only "Did the leader succeed?" It is whether this leadership structure stayed open to **correction** while carrying real influence.
+The plain read is not only "Did the leader succeed?" It is whether this leadership structure stayed open to **correction** while carrying real influence.
 
-Being open to **correction** means errors can be surfaced, authority can be questioned, and adjustments can occur before **harm** scales.
+Being open to **correction** means errors can be raised, authority can be questioned, and adjustments can occur before **harm** scales.
 
 That read is less dramatic than hero stories. It is also more reliable.
 

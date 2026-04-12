@@ -14,9 +14,9 @@ Short-term success is easy to overread.
 
 The semester’s scores look strong. A neighborhood drive clears its goal. A public crisis appears contained.
 
-Observers infer sound leadership. Sometimes they are right. Sometimes they are not.
+People infer sound leadership. Sometimes they are right. Sometimes they are not.
 
-Performance can be real and still fragile. The deeper read is whether the result came from renewable conditions or from a one-time squeeze of trust and capacity.
+Performance can be real and still fragile. What matters next is whether the result came from renewable conditions or from a one-time squeeze of trust and capacity.
 
 When the only measure of success is the task—dates, counts, deliverables—relationships and side effects can drop out of what the group knows how to see. That is not a moral failure every time; it is a common way capability without **vitality** shows up: the job still gets done while the social fabric thins.
 
@@ -46,17 +46,17 @@ In crisis contexts, **effectiveness** claims gain extra persuasive force. This c
 
 Influence moves outward from leadership. **Vitality** depends on whether influence can move back in.
 
-**Correction** means warnings, dissent, and on-the-ground information can reach decision-makers and change direction without punishment.[^c6-voice] **Dissent is Welcomed** means people can still challenge without exile.
+**Correction** means warnings, dissent, and what people on the ground see can reach decision-makers and change direction without punishment.[^c6-voice] **Dissent is Welcomed** means people can still challenge without exile.
 
-**Correction** is one practical read. It shows where the group sits on the map of **renewal** and **erosion**. It shows whether conditions still read as the **vibrant group** or have drifted toward the **decaying group**.
+**Correction** is one way to read the group. It shows where the group sits on the map of **renewal** and **erosion**. It shows whether conditions still read as the **vibrant group** or have drifted toward the **decaying group**.
 
 Without **correction**, authority still exists, but learning slows. Groups drift toward the **decaying group**.
 
-In **vibrant** groups, **correction** tends to stay correction rich: warnings and dissent can still move and revise direction. In **decaying** groups, **correction** tends toward constricted correction. The same care may exist privately, but the public path for changing a decision narrows until only workarounds remain.
+In **vibrant** groups, **correction** tends to stay correction-rich: warnings and dissent can still move and revise direction. In **decaying** groups, **correction** narrows. The same care may exist privately, but the public path for changing a decision narrows until only workarounds remain.
 
 ### **Three Shapes: Correction and Circulation**
 
-**Correction** and **circulation** are easiest to read through three shapes:
+**Correction** and **circulation** are easiest to see through three shapes:
 
 - One-way authority: influence moves outward only; input is collected, but the center still decides.
 - Voice-only **correction**: concerns can travel upward and sometimes adjust plans, but leadership still stays fixed at the top.
@@ -78,7 +78,7 @@ Retreat shows up as silence or workaround behavior. Offers to step in get shorte
 
 In high-pressure moments, **correction** may narrow briefly. That can be necessary.
 
-The live read is recovery: whether **correction** reopens after the acute period passes—including room for temporary step-in leadership—or emergency posture becomes permanent.
+The real question is recovery: whether **correction** reopens after the acute period passes—including room for temporary step-in leadership—or emergency posture becomes permanent.
 
 Temporary contraction can preserve function. Permanent closure locks in **decay**.
 

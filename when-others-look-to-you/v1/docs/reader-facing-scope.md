@@ -28,8 +28,8 @@ Treat everything under these roots as **reader-facing**, including navigation an
 
 **Notes:**
 
-- **Glossary** (`back-matter/glossary.md`) defines terms for readers; it should not explain production conventions (bolding rules live in `book-rules.md` and `front-matter/typographical-conventions.md`).
-- **Typographical conventions** is reader-facing: it tells the reader how the book is formatted on the page, not how to edit the repo.
+- **Glossary** (`back-matter/glossary.md`) defines terms for readers; it should not explain production conventions (bolding rules live in `book-rules.md`; the reader-facing conventions page is a short map only).
+- **Typographical conventions** is reader-facing: a **brief** map of pull quotes, Pattern blocks, and vignettes. Full production rules live in `book-rules.md` (**Plain speak (house style)** scopes how short that page stays).
 - **Appendix B** is reader-facing **reference** material (catalog layout by design). It still should not address editors (“do not add a second Pattern Block here”) in body text; production rules belong in `book-rules.md` / `pattern-integration-guide.md`.
 - **Copyright / title page** stay reader-facing; legal and catalog metadata only.
 
