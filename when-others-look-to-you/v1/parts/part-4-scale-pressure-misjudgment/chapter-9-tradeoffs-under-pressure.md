@@ -29,7 +29,7 @@ Pressure response reveals which state a group is in more clearly than routine co
 
 Under pressure, the **vibrant group** and **decaying group** pay different costs when course change must happen fast.
 
-Crisis is a diagnostic, not only a disruption.
+Crisis sharpens what you can read from the structure; it is not only a disruption.
 
 ### **Crisis Across the Lenses**
 

@@ -8,7 +8,7 @@ A leader is someone others look to when deciding what to do next.
 
 That is the moment **Attention Finds a Focus**.
 
-The final question is not whether others look. It is what that looking builds over time.
+The live issue is not whether others look. It is what that looking builds over time.
 
 ### **The Integrated View**
 
@@ -32,7 +32,7 @@ Repeated choices push structure one of two ways:
 
 These are not personality types. They are where decisions accumulate—a direction you reinforce or interrupt, not a one-time switch.
 
-**Feedback Drives Change**: can plans change when the facts push back?
+**Feedback Drives Change** when plans can still move because the facts push back.
 
 ### **When the Baseline Has Already Shifted**
 

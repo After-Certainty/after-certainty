@@ -16,7 +16,7 @@ The semester’s scores look strong. A neighborhood drive clears its goal. A pub
 
 Observers infer sound leadership. Sometimes they are right. Sometimes they are not.
 
-Performance can be real and still fragile. The deeper question is whether the result came from renewable conditions or from a one-time squeeze of trust and capacity.
+Performance can be real and still fragile. The deeper read is whether the result came from renewable conditions or from a one-time squeeze of trust and capacity.
 
 When the only measure of success is the task—dates, counts, deliverables—relationships and side effects can drop out of what the group knows how to see. That is not a moral failure every time; it is a common way capability without **vitality** shows up: the job still gets done while the social fabric thins.
 
@@ -48,7 +48,7 @@ Influence moves outward from leadership. **Vitality** depends on whether influen
 
 **Correction** means warnings, dissent, and on-the-ground information can reach decision-makers and change direction without punishment.[^c6-voice] **Dissent is Welcomed** means people can still challenge without exile.
 
-**Correction** is a practical check. It shows where the group sits on the map of **renewal** and **erosion**. It shows whether conditions still read as the **vibrant group** or have drifted toward the **decaying group**.
+**Correction** is one practical read. It shows where the group sits on the map of **renewal** and **erosion**. It shows whether conditions still read as the **vibrant group** or have drifted toward the **decaying group**.
 
 Without **correction**, authority still exists, but learning slows. Groups drift toward the **decaying group**.
 
@@ -78,7 +78,7 @@ Retreat shows up as silence or workaround behavior. Offers to step in get shorte
 
 In high-pressure moments, **correction** may narrow briefly. That can be necessary.
 
-The live read is recovery. Does **correction** reopen after the acute period passes, including room for temporary step-in leadership, or does emergency posture become permanent?
+The live read is recovery: whether **correction** reopens after the acute period passes—including room for temporary step-in leadership—or emergency posture becomes permanent.
 
 Temporary contraction can preserve function. Permanent closure locks in **decay**.
 

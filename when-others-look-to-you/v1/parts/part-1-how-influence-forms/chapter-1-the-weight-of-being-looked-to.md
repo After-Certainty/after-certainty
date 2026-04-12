@@ -118,7 +118,7 @@ When others are looking, very little is neutral.
 
 ### **The Core Question**
 
-The question is less whether others will look, and more what happens
+The live question is less whether others will look, and more what happens
 next.
 
 Does influence stay open to **correction**? Does belief renew through

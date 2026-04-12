@@ -40,7 +40,7 @@ Observers hear a leader’s stated purpose and treat sincerity as sufficient evi
 
 Intent matters for ethics. It does not settle the question.
 
-Leadership should be judged by what influence repeatedly produces: how **correction** works, how **harm** is allocated, how disagreement survives, and how learning is retained across pressure cycles.
+The durable read is what influence repeatedly produces: how **correction** works, how **harm** is allocated, how disagreement survives, and how learning is retained across pressure cycles.
 
 ### **Why Erosion Feels Rational**
 

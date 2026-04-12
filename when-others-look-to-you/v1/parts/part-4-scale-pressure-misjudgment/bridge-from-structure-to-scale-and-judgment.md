@@ -7,7 +7,7 @@ ground travels farther, arrives later, and warps more on the way. Signals that
 look obvious up close can disappear inside reporting layers, timing gaps, and
 pressure cycles.
 
-The model still applies—**renewal**, **erosion**, **vitality**, and **decay**—but the diagnosis gets harder. Scale and pressure do not change the
+The model still applies—**renewal**, **erosion**, **vitality**, and **decay**—but the read gets harder. Scale and pressure do not change the
 core dynamics; they change how quickly drift compounds and how difficult it is
 to see from outside.
 

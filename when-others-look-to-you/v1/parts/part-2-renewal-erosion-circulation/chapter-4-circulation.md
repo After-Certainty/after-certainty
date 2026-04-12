@@ -4,7 +4,7 @@
 
 **Circulation** is not a calendar for who sits in which chair next. Delegation hands off a task; succession names an heir; rotation swaps names on a roster. Those can be orderly without ever letting influence move *through* people in the middle of the work. What those mechanisms often miss, even when they run smoothly, is **permission**: whether anyone besides the usual holder may actually lead when it counts—not only carry a task, but hold the live decision point.
 
-**Circulation** asks whether the permission structure allows someone to lead temporarily, share the lead, and hand it off when the problem demands it—without treating every step as a challenge to formal authority. Influence needs to move *through* the group, not only *outward from* a fixed center, if coordinated action is to stay revisable as reach grows.
+**Circulation** names whether the permission structure allows someone to lead temporarily, share the lead, and hand it off when the problem demands it—without treating every step as a challenge to formal authority. Influence needs to move *through* the group, not only *outward from* a fixed center, if coordinated action is to stay revisable as reach grows.
 
 Guest leadership—stepping up for a stretch, then stepping back—depends on that permission.[^c4-guest-leadership] In collaborative work it often shows up as a role that passes with the problem, not a permanent claim on every decision. What makes it possible is still the group's answer to the permission question—whether stepping back is as safe as stepping up was welcome. Where **circulation** is narrow, the org chart can look healthy while every real decision still waits for the same gate.
 
@@ -30,7 +30,7 @@ Nobody made a rule about this. The rule was already there.
 
 Those two checks can come apart. **Correction** can be working. People can raise problems. The formal leader can still change course. Every decision that matters may still wait on that same leader. No one else is allowed to lead when it counts.
 
-The failure mode is not "they didn't hear you." It is "only one name is permitted to steer." **Circulation** asks whether someone else can take that role for a stretch and step back when the moment passes—without paying later for having stepped in. Over time, that narrow gate does not only frustrate individuals; it hollows out what the group could otherwise practice at the edges—judgment under pressure, early warning, a bench that has held the center before.
+The failure mode is not "they didn't hear you." It is "only one name is permitted to steer." **Circulation** names whether someone else can take that role for a stretch and step back when the moment passes—without paying later for having stepped in. Over time, that narrow gate does not only frustrate individuals; it hollows out what the group could otherwise practice at the edges—judgment under pressure, early warning, a bench that has held the center before.
 
 ### **What Atrophies Without Circulation**
 

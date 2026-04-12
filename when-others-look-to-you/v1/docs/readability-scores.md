@@ -3,7 +3,7 @@
 > **Generated file.** Do not edit by hand. Regenerate with:
 > `python3 scripts/readability_scores.py`
 
-**Last generated:** 2026-04-12 16:31 UTC
+**Last generated:** 2026-04-12 16:33 UTC
 
 ## Method
 
@@ -27,21 +27,21 @@
 | Front matter | Introduction | 8.8 | 9.0 | 11.9 | 54.7 | 48 | 608 |
 | Front matter | Typographical conventions | 10.4 | 10.2 | 11.9 | 50.5 | 27 | 455 |
 | Part I | Bridge | 7.6 | 7.8 | 9.7 | 59.4 | 13 | 138 |
-| Part I | Ch 1 — The Weight of Being Looked To | 9.3 | 8.0 | 12.6 | 44.0 | 96 | 840 |
-| Part II | Bridge — From Formation to Movement | 9.8 | 9.7 | 13.5 | 45.7 | 12 | 140 |
-| Part II | Ch 2 — Renewal | 9.9 | 9.3 | 13.6 | 44.5 | 42 | 486 |
+| Part I | Ch 1 — The Weight of Being Looked To | 9.3 | 8.0 | 12.6 | 44.0 | 96 | 841 |
+| Part II | Bridge — From Formation to Movement | 9.8 | 9.7 | 13.8 | 45.7 | 12 | 140 |
+| Part II | Ch 2 — Renewal | 9.9 | 9.3 | 13.6 | 44.6 | 42 | 488 |
 | Part II | Ch 3 — Erosion | 9.3 | 9.4 | 13.3 | 48.9 | 27 | 315 |
-| Part II | Ch 4 — Circulation | 10.6 | 9.9 | 11.5 | 51.4 | 97 | 1761 |
-| Part III | Bridge — From Movement to Lenses | 8.3 | 9.0 | 11.3 | 57.5 | 8 | 99 |
-| Part III | Ch 5 — Harm Under Influence | 9.5 | 8.9 | 12.6 | 49.1 | 101 | 1270 |
-| Part III | Ch 6 — Effectiveness and Its Illusions | 10.2 | 8.9 | 14.3 | 41.4 | 107 | 1174 |
+| Part II | Ch 4 — Circulation | 10.6 | 9.9 | 11.5 | 51.3 | 97 | 1761 |
+| Part III | Bridge — From Movement to Lenses | 8.0 | 8.5 | 11.2 | 58.5 | 8 | 95 |
+| Part III | Ch 5 — Harm Under Influence | 9.5 | 8.9 | 12.6 | 49.1 | 101 | 1268 |
+| Part III | Ch 6 — Effectiveness and Its Illusions | 10.3 | 8.9 | 14.4 | 41.2 | 106 | 1173 |
 | Part III | Ch 7 — Legitimacy Over Time | 10.4 | 9.6 | 12.6 | 46.1 | 107 | 1555 |
-| Part IV | Bridge — From Structure to Scale and Judgment | 8.9 | 8.6 | 12.5 | 58.5 | 7 | 107 |
+| Part IV | Bridge — From Structure to Scale and Judgment | 8.7 | 8.3 | 12.2 | 60.1 | 7 | 107 |
 | Part IV | Ch 8 — Scale and Drift | 9.9 | 8.6 | 12.4 | 47.7 | 43 | 566 |
-| Part IV | Ch 9 — Tradeoffs Under Pressure | 10.0 | 9.1 | 13.4 | 45.0 | 46 | 559 |
-| Part IV | Ch 10 — Why We Misjudge Leaders | 9.5 | 8.8 | 13.1 | 46.5 | 132 | 1442 |
+| Part IV | Ch 9 — Tradeoffs Under Pressure | 10.0 | 9.0 | 13.3 | 45.6 | 46 | 566 |
+| Part IV | Ch 10 — Why We Misjudge Leaders | 9.5 | 8.8 | 13.1 | 46.5 | 132 | 1441 |
 | Part V | Bridge — From Misjudgment to What Remains | 8.9 | 7.2 | 9.4 | 67.0 | 4 | 80 |
-| Part V | Ch 11 — What Happens Next | 9.9 | 9.8 | 12.3 | 51.5 | 55 | 837 |
+| Part V | Ch 11 — What Happens Next | 9.9 | 9.8 | 12.3 | 51.6 | 55 | 839 |
 | Back matter | Epilogue | 10.0 | 9.7 | 12.1 | 47.9 | 33 | 458 |
 | Back matter | Appendix A — Legitimacy transfer | 11.3 | 9.4 | 13.8 | 34.7 | 58 | 677 |
 | Back matter | Appendix B — Leadership patterns | 8.6 | 8.2 | 12.0 | 55.4 | 112 | 1397 |

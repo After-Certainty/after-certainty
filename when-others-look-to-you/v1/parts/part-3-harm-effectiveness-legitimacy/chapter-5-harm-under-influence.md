@@ -83,7 +83,7 @@ Taking on cost can be responsible. It can also become distortion if it removes o
 
 If a leader repeatedly absorbs every consequence, teams may stop naming risk, peers may stop correcting decisions, and people farther from the front line may stop fixing what is broken. In that case, harm is not being reduced—it is being deferred and concentrated.
 
-A useful boundary question is this: does harm absorption increase shared responsibility, or replace it?
+One boundary read: does harm absorption increase shared responsibility, or replace it?
 
 When it increases shared responsibility, it builds trust and capacity. When it replaces responsibility, it weakens everyone else’s room to act and makes future harm more likely.
 
@@ -121,11 +121,11 @@ The harm pattern in a group is readable before anyone names it out loud. Watch w
 
 When those patterns have no clear read, **Leaders Do Not Feel the Consequences.** That opacity is itself the signal. Harm displacement rarely announces itself—it becomes harder and harder to trace who decided and who paid.
 
-### **Effectiveness as the Next Check**
+### **Effectiveness Next**
 
-Harm is the first check because it reveals reality quickly.
+Harm comes first in this sequence because it reveals reality quickly.
 
-The next question is why short-term effectiveness can hide long-term decay.
+The next lens is why short-term effectiveness can hide long-term decay.
 
 ::: {custom-style="Pull Quote Block"}
 Follow the damage path; it traces the protected edge.
