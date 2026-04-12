@@ -2,7 +2,7 @@
 
 ### **When Pressure Reorders Judgment**
 
-Pressure does not eliminate tradeoffs. It compresses them.
+Pressure does not remove tradeoffs. It compresses them.
 
 Under urgency, groups trade slower **correction** for faster action.
 Sometimes this is necessary. Sometimes it becomes a shortcut that survives
@@ -16,7 +16,9 @@ Pressure changes **harm**, **effectiveness**, and **legitimacy** at once.
 **Correction** moves with them: whether dissent and warning can still move fast
 enough to matter.
 
-At the same moment, pushing **harm** onto someone else gets easier to justify; **effectiveness** can mean looking in control more than building lasting capacity; and temporary **legitimacy** can harden into a default people later treat as normal.
+At the same moment, pushing **harm** onto someone else gets easier to justify.
+**Effectiveness** can mean looking in control more than building lasting capacity.
+Temporary **legitimacy** can harden into a default people later treat as normal.
 
 Under pressure, **correction** narrows first. Dissent moves from open signal
 to quiet workaround.
@@ -25,7 +27,11 @@ These shifts can happen in any state, but not with equal cost.
 
 ### **States Under Pressure**
 
-Pressure response reveals which state a group is in more clearly than routine conditions. In a **regenerative** read, reach and adjustment both hold under load. In an **adaptive** read, adjustment holds locally while broader coordination strains. In an **entrenched** read, reach still holds but changing course gets harder. In a **stalled** read, neither reach nor reliable course change holds.
+Pressure response reveals which state a group is in more clearly than routine conditions.
+In a **regenerative** read, reach and adjustment both hold under load.
+In an **adaptive** read, adjustment holds locally while broader coordination strains.
+In an **entrenched** read, reach still holds but changing course gets harder.
+In a **stalled** read, neither reach nor reliable course change holds.
 
 Under pressure, the **vibrant group** and **decaying group** pay different costs when course change must happen fast.
 
@@ -95,7 +101,7 @@ describes how things are actually run.
 
 ### **What Remains Possible**
 
-Tradeoffs under pressure show trajectories. The live question is what remains
+Tradeoffs under pressure show trajectories. The real question is what remains
 possible once trajectories are visible but reversal is incomplete—and once
 **Exceptions are Forever** has begun to shape the baseline.
 
