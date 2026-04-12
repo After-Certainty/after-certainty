@@ -16,10 +16,7 @@ Pressure changes **harm**, **effectiveness**, and **legitimacy** at once.
 **Correction** moves with them: whether dissent and warning can still move fast
 enough to matter.
 
-- **harm**: pushing cost onto someone else becomes easier to justify.
-- **effectiveness**: looking in control can beat building lasting capacity.
-- **legitimacy**: temporary permission can harden into a new default people
-  later treat as normal.
+At the same moment, pushing **harm** onto someone else gets easier to justify; **effectiveness** can mean looking in control more than building lasting capacity; and temporary **legitimacy** can harden into a default people later treat as normal.
 
 Under pressure, **correction** narrows first. Dissent moves from open signal
 to quiet workaround.
@@ -28,12 +25,7 @@ These shifts can happen in any state, but not with equal cost.
 
 ### **States Under Pressure**
 
-Pressure response reveals which state a group is in more clearly than routine conditions:
-
-- **regenerative**: reach and adjustment both hold under load.
-- **adaptive**: adjustment holds locally, but broader coordination strains.
-- **entrenched**: reach still holds, but changing course gets harder.
-- **stalled**: neither reach nor course change holds reliably.
+Pressure response reveals which state a group is in more clearly than routine conditions. In a **regenerative** read, reach and adjustment both hold under load. In an **adaptive** read, adjustment holds locally while broader coordination strains. In an **entrenched** read, reach still holds but changing course gets harder. In a **stalled** read, neither reach nor reliable course change holds.
 
 Under pressure, the **vibrant group** and **decaying group** pay different costs when course change must happen fast.
 
@@ -41,13 +33,7 @@ Crisis is a diagnostic, not only a disruption.
 
 ### **Crisis Across the Lenses**
 
-Crisis periods can:
-
-- Increase tolerance for shifting **harm** onto others.
-- Reward short-term **effectiveness** while shrinking the time **correction** has to matter.
-- Accelerate **legitimacy** transfer through emergency precedent.
-- Normalize temporary authority expansions into a lasting baseline for how
-  decisions get made.[^c9-crisis-precedent]
+Crisis periods widen tolerance for shifting **harm** onto others, reward short-term **effectiveness** while shrinking the time **correction** has to matter, accelerate **legitimacy** transfer through emergency precedent, and normalize temporary authority expansions into a lasting baseline for how decisions get made.[^c9-crisis-precedent]
 
 Crisis does not invent these dynamics; it reveals and amplifies what the
 structure already permits.

@@ -31,9 +31,7 @@ people stay in place. Meetings run on time. Plans look coherent. Language
 becomes smoother. But fewer channels stay open for bad news, and telling the
 truth costs more.
 
-When **decay** deepens, three eroding dynamics often show:
-
-The first dynamic is **Disagreement is Suppressed**.
+When **decay** deepens, **Disagreement is Suppressed**, **Learning Collapse**, and **Exceptions are Forever** often stack: challenge starts to sound like disloyalty, what people on the ground know stops steering decisions in time, and temporary fixes outlast the emergency that justified them.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Disagreement is Suppressed**
@@ -41,18 +39,11 @@ The first dynamic is **Disagreement is Suppressed**.
 Challenge starts to sound like disloyalty. Open disagreement narrows to performances that protect the center.
 :::
 
-Even when talk continues, what people on the ground know may stop steering
-decisions in time. This leads to our second dynamic—**Learning Collapse**.
-
 ::: {custom-style="Pattern Block"}
 **Pattern: Learning Collapses**
 
 Ground experience stops reaching decision-makers in time. Negative feedback weakens. Drift continues behind strong narratives.
 :::
-
-Under pressure, temporary fixes can outlast the emergency that justified them.
-
-The third dynamic is **Exceptions are Forever**.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Exceptions are Forever**
