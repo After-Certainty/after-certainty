@@ -85,6 +85,10 @@ For each check, provide:
 - Confirm **interpretive register** alignment (**Interpretive register (watch, not checklist)** in `book-rules.md`): observation language over checklist-style bullets, tests-as-headings, or evaluator framing in chapters and bridges
 - If pull-quotes are used in this manuscript, confirm expected pull-quote usage/placement for the chapter
 
+## Step 3a: Reader-facing leakage check (when relevant)
+
+When editing **glossary**, **typographical conventions**, **index.md**, **back matter**, or any prose where writer instructions could creep in, run the grep sweeps in **`docs/reader-facing-scope.md`** (**Pass: keep reader-facing prose reader-facing**). That file also lists which paths are reader-facing vs writer-facing for v1.
+
 ## Step 4: Echo Pass (Repetition Check)
 
 After each section draft in the active part, run an echo pass against previously drafted material to prevent heavy repetition.

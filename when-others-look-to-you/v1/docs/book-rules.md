@@ -587,7 +587,9 @@ guardrails. Use `editorial-vocabulary.md` as the
 `pattern-integration-guide.md` for **placement** and introduction sequence of
 bold titles (editor workflow). Use `drafting-process.md` for **section workflow**
 and which passes to run. Use `circulation-cross-cutting.md` for terminology and
-structure notes on **correction** / **circulation**. If guidance in another doc disagrees with this file,
+structure notes on **correction** / **circulation**. Use `reader-facing-scope.md`
+for **which paths are reader-facing vs writer-facing** and a **grep pass** to
+keep production language out of shipped prose. If guidance in another doc disagrees with this file,
 **follow this file** and update the other doc.
 
 **When Others Look to You — enforced checklist:** After plain-language or
