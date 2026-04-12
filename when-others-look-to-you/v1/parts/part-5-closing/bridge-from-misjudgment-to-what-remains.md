@@ -1,10 +1,11 @@
 # **Bridge — From Misjudgment to What Remains**
 
-Knowing how misjudgment works does not repair a structure by itself.
+Knowing how misjudgment works does not fix a structure by itself.
 
-It does change what you can still notice: which excuses you stop recycling,
-which early signals you treat as real, and whether a channel for **correction**
-can stay open—or be pried back open—after the baseline has shifted.
+It does change what you can still notice: which excuses you stop repeating,
+which early signals you take seriously, and whether a path for **correction**
+can stay open—or be opened again—after the ground has shifted.
 
-What follows is what remains worth doing when no lens delivers a neat verdict.
-Repair is more than a slogan. The pattern can take shapes other than collapse.
+What follows is what still matters when no lens gives a clean verdict.
+Repair is more than a slogan. Collapse is not the only shape the pattern can
+take.
