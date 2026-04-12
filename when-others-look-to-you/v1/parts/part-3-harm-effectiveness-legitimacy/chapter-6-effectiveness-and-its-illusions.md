@@ -62,7 +62,7 @@ In **vibrant** groups, **correction** tends to stay correction rich: warnings an
 - Voice-only **correction**: concerns can travel upward and sometimes adjust plans, but leadership still stays fixed at the top.
 - Shared **circulation** (guest leadership): influence moves both ways. People closest to the issue can temporarily step in to lead a response, then return to their usual role.[^c6-guest-leadership]
 
-Shared **circulation** keeps authority connected to what people closest to the work can see, without requiring a permanent reshuffle of formal roles.
+Shared **circulation** keeps authority connected to what people closest to the work can see, without requiring a permanent reshuffle of formal roles. It still turns on **permission** in practice—what the group does after someone steps in, not only what the chart says about temporary lead.
 
 Guest leadership also shapes what others attempt next. When temporary step-in leadership is trusted, more people use it openly.
 

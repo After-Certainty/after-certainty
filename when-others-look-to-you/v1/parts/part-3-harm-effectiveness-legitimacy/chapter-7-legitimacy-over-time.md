@@ -171,13 +171,11 @@ decision without punishment.
 
 **Circulation** is whether influence can still move out from formal
 leaders and back toward them through people who step up for a moment, then step
-back. That movement has a **legitimacy** dimension, not only an effectiveness
-one: credited temporary leadership widens who the group believes may hold the
-center; uncredited or punished step-ins narrow that belief. **Permission**—what
-the room teaches after someone leads without being the usual name—accumulates
-in the same **vibrant** or **decaying** habits **circulation** describes, so
-who counts as a leader and who people will still follow do not stay separate
-questions for long.
+back. How those episodes are treated feeds **legitimacy** as well as throughput:
+**permission**—what the room teaches after someone leads without being the usual
+name—accumulates in the same **vibrant** or **decaying** habits **circulation**
+describes, so who counts as a leader and who people will still follow do not stay
+separate questions for long.
 
 ### **Correction Signals**
 
@@ -195,8 +193,9 @@ It lets a growing organization spot drift early and buy time to adjust before
 harm spreads. It helps legitimacy hold under pressure. It does not remove
 conflict; it keeps conflict open to revision.
 
-**Circulation** also helps groups grow. People nearest the shifting facts can
-step in, fix things locally, and send what they learned back to the center.
+**Circulation** also helps groups grow when **permission** lets people nearest
+the shifting facts step in, fix things locally, and send what they learned back
+to the center.
 
 When **correction** weakens, decay appears before leaders can name it.
 What got rewarded or punished while **correction** narrowed is what the next

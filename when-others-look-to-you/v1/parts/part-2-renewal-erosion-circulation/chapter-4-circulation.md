@@ -94,9 +94,11 @@ It is not only mimicry of mannerisms. It copies permission. If stepping in was t
 
 You can read the group without the org chart in front of you—less by interrogating it than by watching what it does when someone holds the center for a stretch.
 
-Watch treatment and aftermath together: whether the room reads the step-in as useful work or as a problem to manage; whether work still moves when the formal lead is away; who gets offered temporary turns—only people already aligned with the center, or people who might disagree and still be trusted; and whether handing off authority with the title leaves **correction** open or quietly signals that only certain people may steer.
+Watch treatment and aftermath: whether the room reads the step-in as useful work or as a problem to manage; whether work still moves when the formal lead is away; who gets offered temporary turns—only people already aligned with the center, or people who might disagree and still be trusted.
 
-When that read skews narrow, **circulation** is likely captured even when **correction** still works on paper. What gets reproduced next is not a mystery. It is whatever this group just taught about who may lead, for how long, and at what price—lesson and muscle together, long before the next title changes hands.
+Watch, too, what the title carries when it passes: open paths for **correction**, or the quiet habit that only certain names may steer.
+
+When that read skews narrow, **circulation** is likely captured even when **correction** still works on paper. People have often been watching already—calibrating what the last step-in cost—before anyone names the pattern out loud. What reproduces is whatever this room has been teaching about who may lead, for how long, and at what price.
 
 ::: {custom-style="Pull Quote Block"}
 Circulation copies permission before it ever copies a title.

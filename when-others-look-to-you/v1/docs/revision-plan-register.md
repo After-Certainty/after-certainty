@@ -66,6 +66,8 @@ Chapter endings should resolve into a sharper way of seeing — one question, on
 
 **The transformation:** Weave into prose. Reframe from questions you ask to things you watch for. The close proximity of two lists makes this section feel more like a rubric than a lens — merging them into a single prose passage would help.
 
+**Status (April 2026):** Addressed. **Correction Signals** is watch prose; correction watches and circulation/**permission** traces are split. The **Correction and Circulation** definitional block is tightened so it does not repeat the signal list.
+
 ---
 
 ### Chapter 4 — "A Practical Circulation Check"
@@ -75,6 +77,8 @@ Chapter endings should resolve into a sharper way of seeing — one question, on
 **The transformation:** Keep the opening instruction. Convert the questions to prose that matches its register. The opening is actually the model for the whole section — let it set the tone for what follows rather than giving way to bullets.
 
 **Note:** The closing line — "Circulation copies permission before it ever copies a title" — is excellent and should be the chapter's final note. Build toward it.
+
+**Status (April 2026):** Addressed (circulation expansion pass). Practical check uses layered **watch** sentences; closing builds through cohort calibration before the pull quote.
 
 ---
 

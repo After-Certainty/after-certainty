@@ -48,7 +48,7 @@ Repair at this stage is uneven, local, and slow—realistic, not trivial.
 
 **Correction** can interrupt error. It helps a center hear what it would rather not hear and change course before damage spreads.
 
-But **correction** alone does not redistribute who gets to lead. A group can accept criticism and still route every consequential decision through the same few people. That can produce local repair without structural renewal. Meanwhile the **permission** structure still teaches who may steer through every credited or punished step-in—often before anyone tests it in a crisis—and judgment at the edges stays unpracticed until pressure arrives.
+But **correction** alone does not redistribute who gets to lead. A group can accept criticism and still route every consequential decision through the same few people. That can produce local repair without structural renewal. Meanwhile the **permission** structure still teaches who may steer through every credited or punished step-in—often before anyone tests it under pressure—and judgment at the edges stays unpracticed until the test arrives.
 
 **Circulation** changes that condition. When leadership can be shared, temporarily handed off, and returned without penalty, people learn leadership from inside the role. What gets reproduced is not only compliance with a center, but distributed capacity to notice, decide, and adjust.
 
@@ -70,4 +70,4 @@ The slower question is what remains possible when keeping damage from spreading 
 Focused attention is not destiny; repetition is.
 :::
 
-What outlasts any single leader still turns on whether **circulation** stays open—in who is permitted to hold the floor when it counts, not only on the chart.
+What outlasts any single leader still turns on whether **circulation** stays open—on **permission** for who may hold the floor when it counts, not only on the chart.
