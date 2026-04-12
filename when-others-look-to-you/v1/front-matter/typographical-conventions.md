@@ -3,7 +3,8 @@
 ### **Purpose**
 
 This section explains how the book is laid out so you can move through it
-easily and see what each section is doing.
+easily and see what each section is doing. It follows the introduction so the
+book opens with the argument first, not the layout notes.
 
 ### **Headings and Structure**
 

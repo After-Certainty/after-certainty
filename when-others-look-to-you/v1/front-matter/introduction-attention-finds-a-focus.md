@@ -33,6 +33,9 @@ Either path can look stable for a while. In the long run, authority is more dura
 
 ### **How the Dynamics Stack**
 
+You do not need to memorize the names below on a first read; later chapters
+take them up when they matter.
+
 Early on, **Attention Finds a Focus**: under uncertainty, people start looking
 to one person for direction. **Examples Accumulate** from what that person
 rewards, punishes, or ignores. That moves faster than anything on paper.
@@ -40,8 +43,8 @@ Over time, **Leadership Coalesces**: one path for decisions becomes the path
 everyone knows.
 
 When the group can still correct course, **Dissent is Welcomed** early enough to
-matter. **Feedback Drives Change** when new facts can still steer the work.
-**Leaders Feel the Consequences** of their choices where others can see it.
+matter, new facts can still steer the work, and **Leaders Feel the Consequences**
+of their choices where others can see it.
 
 When that breaks down, **Disagreement is Suppressed** and challenge starts to
 sound like disloyalty. **Learning Collapses** when people on the ground can no

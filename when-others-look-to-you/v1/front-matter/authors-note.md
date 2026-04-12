@@ -26,6 +26,9 @@ It is an account of what changes when others look to someone for direction:
 - How authority remains open to **correction** or drifts toward insulation.
 - How groups renew or erode over time.
 
+Here **correction** means whether warnings and dissent can still change what
+gets decided before it hardens—not punishment, editing, or personal rebuke.
+
 The core argument is simple: leadership is less about inner identity and
 more about outer structure.
 

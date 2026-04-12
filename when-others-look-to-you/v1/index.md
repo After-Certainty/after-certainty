@@ -8,11 +8,11 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
-- [Typographical Conventions](front-matter/typographical-conventions.md)
 - [Author's Note](front-matter/authors-note.md)
 - [Preface](front-matter/preface.md)
 - [Acknowledgements](front-matter/acknowledgements.md)
 - [Introduction — Attention Finds a Focus](front-matter/introduction-attention-finds-a-focus.md)
+- [Typographical Conventions](front-matter/typographical-conventions.md)
 
 ## Part I — How Influence Forms
 
