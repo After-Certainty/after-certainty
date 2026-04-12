@@ -30,7 +30,7 @@ points travel? If the example carries across the transfer, legitimacy carries.
 If the story outruns the behavior, people reach for procedure, office, or a
 polished narrative instead of fresh behavior they can still witness.
 
-The successor often leads partly in the name of the prior leader or the story
+The successor leads partly in the name of the prior leader or the story
 they inherit. At transfer, example-based legitimacy still turns on whether
 conduct matches that inheritance—not only on what was said when authority
 passed.
@@ -81,7 +81,7 @@ That arrangement can harden until one decision route becomes the default and
 whoever holds it is the gate everyone waits for—**Leadership Coalesces**.
 
 Handoff risk rises here: authority moves forward by default, while
-accountability often stays tied to earlier decisions.
+accountability stays tied to earlier decisions.
 
 ### **Sacralized Legitimacy**
 
@@ -89,7 +89,7 @@ Authority persists and becomes morally exempt from ordinary challenge.
 
 Sacralized legitimacy grows when raising doubt feels disloyal. People merge
 who they are with the leader or the group story. The public story is treated
-as settled. The same immunity often reaches transfer: who leads next, or how
+as settled. The same immunity reaches transfer: who leads next, or how
 authority is supposed to pass, is treated as foreordained—part of a line the
 group is not meant to reopen. Trying to correct someone costs you socially.[^c7-arendt]
 
@@ -125,7 +125,7 @@ adaptable find ways to move back toward example-based renewal before that
 last step hardens.
 
 Crises matter most when leadership changes hands. They can widen
-office-based authority fast. Emergency permissions are often harder to
+office-based authority fast. Emergency permissions are harder to
 pull back later.
 
 ### **Selective Followership as a Probe**
@@ -143,12 +143,12 @@ agreement while quietly routing around decisions they do not trust. The
 group still appears aligned, but shared reality weakens.
 
 The same behavior can mean different things depending on whether the group
-is in **renewal** or **erosion**. Open selective dissent usually tracks
-**renewal**. Hidden selective resistance usually tracks **erosion**.
+is in **renewal** or **erosion**. Open selective dissent tracks
+**renewal**. Hidden selective resistance tracks **erosion**.
 
-In practice, open disagreement inside shared purpose usually means legitimacy
-is still renewing. Public compliance paired with private divergence usually
-means legitimacy is sliding toward office-based or sacralized forms. In that
+In practice, open disagreement inside shared purpose means legitimacy
+is still renewing. Public compliance paired with private divergence means
+legitimacy is sliding toward office-based or sacralized forms. In that
 state, calm surfaces can hide deeper trust loss, and open challenge can give
 way to **Disagreement is Suppressed**.
 
@@ -165,11 +165,11 @@ continue, but decay deepens.
 
 ### **Correction and Circulation**
 
-If legitimacy asks why people keep following, **correction** asks whether
+**Legitimacy** is why people keep following. **Correction** is whether
 warnings and dissent can still reach those who hold power and change a
 decision without punishment.
 
-**Circulation** asks whether influence can still move out from formal
+**Circulation** is whether influence can still move out from formal
 leaders and back toward them through people who step up for a moment, then step
 back.
 
@@ -192,7 +192,7 @@ conflict; it keeps conflict open to revision.
 **Circulation** also helps groups grow. People nearest the shifting facts can
 step in, fix things locally, and send what they learned back to the center.
 
-When **correction** weakens, decay usually appears before leaders can name it.
+When **correction** weakens, decay appears before leaders can name it.
 What got rewarded or punished while **correction** narrowed is what the next
 leaders will have learned to copy—**Leadership Reproduces Itself**.
 

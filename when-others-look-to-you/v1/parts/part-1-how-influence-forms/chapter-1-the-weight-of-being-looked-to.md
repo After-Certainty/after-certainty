@@ -90,7 +90,7 @@ others will try next.
 
 Being looked to does not mean being obeyed.
 
-People often go along selectively. They accept direction in one domain and
+People go along selectively. They accept direction in one domain and
 withhold it in another. They nod in the meeting and adjust what they do
 once the room empties.
 

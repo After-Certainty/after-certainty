@@ -2,7 +2,7 @@
 
 ### **The Judgment Problem**
 
-Most people do not misjudge leaders because they are careless. They misjudge because the most visible signals are often the least reliable.
+Most people do not misjudge leaders because they are careless. They misjudge because the most visible signals are the least reliable.
 
 A plan succeeds, and we infer **legitimacy**. A crisis resolves, and we infer competence. A confident narrative holds, and we infer integrity. These inferences are understandable. They are also frequently wrong.
 
@@ -28,7 +28,7 @@ A leader says the right words about accountability. Observers treat this as evid
 
 That pattern does not require anyone to mean harm. It can come from habit, worry about rank, rush, or "how we do things here." In a tight circle, the first news of trouble may never leave the room where it started. Drift can worsen while everyone still sounds reasonable. How things really work keeps shifting. The words stay polished anyway.
 
-Structural blindness is common because many of the relevant signals are socially expensive to surface.[^c10-psychological-safety] People close to problems often carry the highest local risk for naming them.
+Structural blindness is common because many of the relevant signals are socially expensive to surface.[^c10-psychological-safety] People close to problems carry the highest local risk for naming them.
 
 When bad news stops moving early enough to matter, **Dissent is No Longer Welcomed**.
 
@@ -44,7 +44,7 @@ Leadership should be judged by what influence repeatedly produces: how **correct
 
 ### **Why Erosion Feels Rational**
 
-**Erosion** persists because it often feels reasonable in the moment.
+**Erosion** persists because it feels reasonable in the moment.
 
 Leaders under pressure narrow channels to "move faster." Teams avoid dissent to "stay aligned." Leaders simplify stories to "reduce confusion." Each move can be defended locally. Together, they create insulation globally.
 
@@ -56,7 +56,7 @@ Structural blindness explains why *observers* miss erosion. This is the interior
 
 A common misunderstanding follows from the same errors.
 
-Observers assume that if people continue to look to a leader, they must also be going along in full. In practice, that alignment is often selective.[^c10-selective-followership]
+Observers assume that if people continue to look to a leader, they must also be going along in full. In practice, that alignment is selective.[^c10-selective-followership]
 
 People may go along with strategic direction while resisting tactics. They may trust competence but not moral judgment. They may publicly align and privately diverge. They may even invert instructions under pressure to preserve autonomy.[^c10-reactance]
 
@@ -68,7 +68,7 @@ When observers collapse all this into a single category—either "they are with 
 
 Confidence is persuasive because it lowers uncertainty for observers.
 
-When people are stressed, they often prefer directional certainty over deeper uncertainty. A clear answer feels safer than a careful answer. A strong claim feels more usable than a carefully limited claim.
+When people are stressed, they prefer directional certainty over deeper uncertainty. A clear answer feels safer than a careful answer. A strong claim feels more usable than a carefully limited claim.
 
 This preference makes groups vulnerable. It rewards leaders who reduce complexity too quickly. It penalizes leaders who keep uncertainty visible long enough to make better decisions.[^c10-ambiguity-and-sensemaking]
 
@@ -90,7 +90,7 @@ The vignette shows why outcome bias and structural blindness reinforce each othe
 
 ### **What to Watch Instead**
 
-Outcomes and rhetoric are the loudest signals, but they are often the least reliable ones. What actually reveals the structure is quieter and slower.
+Outcomes and rhetoric are the loudest signals, but they are the least reliable ones. What actually reveals the structure is quieter and slower.
 
 Watch whether decisions can be challenged before they harden—not in theory, not on paper, but in the room where the challenge would have to happen and cost something. Watch who absorbs the loss when something goes wrong, and whether that person was also the one who decided. Watch whether known problems come back. Recurrence is one of the clearest signals available: it means the **correction** either never happened or didn't hold. Watch whether authority stays connected to what it produces, or whether distance—physical, organizational, narrative—has opened between the decision and its consequences.
 
@@ -102,7 +102,7 @@ None of these requires knowing anyone's motives. They only require watching what
 
 At larger reach, the signals that would reveal misjudgment travel farther, arrive later, and warp more on the way. What would be visible in a room becomes partial in a dashboard, delayed in a memo, and diluted in a summary.
 
-Pressure amplifies this distortion. Under compressed timelines, groups favor signals that are quick to read and easy to defend: output, confidence, and narrative coherence. Signals that would challenge direction usually arrive slower and with higher social cost.
+Pressure amplifies this distortion. Under compressed timelines, groups favor signals that are quick to read and easy to defend: output, confidence, and narrative coherence. Signals that would challenge direction arrive slower and with higher social cost.
 
 This is where outcome bias and structural blindness reinforce one another. Outcome bias supplies a clean story of success; structural blindness removes the pathways that would challenge that story from inside the system.
 
@@ -114,19 +114,17 @@ Misjudgment compounds.
 
 When outcome bias and structural blindness combine, leaders receive credit for short-term wins while **decay** deepens underneath. By the time external failure appears, capacity for **correction** has already shrunk. Repair costs have already risen.
 
-This is why late-stage collapse often feels sudden to outsiders and inevitable to insiders. The warning signs were present, but the main way people were judging did not prioritize them.[^c10-normalization-of-deviance]
+This is why late-stage collapse feels sudden to outsiders and inevitable to insiders. The warning signs were present, but the main way people were judging did not prioritize them.[^c10-normalization-of-deviance]
 
-### **A Better Standard**
+### **A Clearer Read**
 
-The practical standard is not "Did the leader succeed?" It is this:
-
-Did this leadership structure remain open to **correction** while carrying real influence?
+The practical read is not only "Did the leader succeed?" It is whether this leadership structure stayed open to **correction** while carrying real influence.
 
 Being open to **correction** means errors can be surfaced, authority can be questioned, and adjustments can occur before **harm** scales.
 
-That standard is less dramatic than hero stories. It is also more reliable.
+That read is less dramatic than hero stories. It is also more reliable.
 
-We often misjudge leaders when we ignore whether influence still flows both ways. We miss whether dissent and bad news can still change direction before **harm** spreads.
+What remains to watch is whether influence still flows both ways—whether dissent and bad news can still change direction before **harm** spreads.
 
 What comes next is what still stays possible when structures drift and signals misfire. Clearer judgment alone rarely repairs what has hardened.
 

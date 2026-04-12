@@ -12,7 +12,7 @@ The final question is not whether others look. It is what that looking builds ov
 
 ### **The Integrated View**
 
-Seen together, the five elements read less like a to-do list and more like a diagnosis of what the structure is reproducing.
+Seen together, the five elements read less like a to-do list and more like a map of what the structure is reproducing.
 
 **Harm** shows where costs land when leadership acts. **Effectiveness** shows what gets rewarded now and deferred later. **Legitimacy** shows why people keep following. **Correction** shows whether warning and dissent can still alter direction in time. **Circulation** shows whether leadership can move through people rather than stay fixed at one gate.
 
@@ -56,7 +56,7 @@ That is the closing distinction: **correction** is a mechanism of repair. **Circ
 
 ### **A Practical Discipline**
 
-The same small tests that framed **renewal** still apply when you are deciding what to do next: keep paths for **correction** open, keep **harm** visible near decision rights, and keep disagreement usable enough to steer work before commitments harden. When those conditions no longer hold, **decay** has usually already begun—whether the group says so out loud or not. The discipline does not replace structural repair; it tells you where repair will bite first.
+The same focal points that framed **renewal** still apply when you are deciding what to do next: keep paths for **correction** open, keep **harm** visible near decision rights, and keep disagreement usable enough to steer work before commitments harden. When those conditions no longer hold, **decay** has already begun—whether the group says so out loud or not. The discipline does not replace structural repair; it tells you where repair will bite first.
 
 ### **What Happens Next**
 
@@ -70,4 +70,4 @@ The slower question is what remains possible when keeping damage from spreading 
 Focused attention is not destiny; repetition is.
 :::
 
-What outlasts any single leader is whether **circulation** stays open.
+What outlasts any single leader still turns on whether **circulation** stays open—in who is permitted to hold the floor when it counts, not only on the chart.

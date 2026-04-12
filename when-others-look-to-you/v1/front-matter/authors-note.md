@@ -12,7 +12,7 @@ an institution. But the pattern is the same: **Attention Finds a Focus**, and
 consequence follows.
 
 I wrote this book because that moment is common and under-described. We
-often read leadership through results, confidence, or narrative identity before
+read leadership through results, confidence, or narrative identity before
 we read the structure underneath. Those surface signals can matter, but they
 can also hide the deeper pattern. This book is an attempt to make that pattern
 easier to see.

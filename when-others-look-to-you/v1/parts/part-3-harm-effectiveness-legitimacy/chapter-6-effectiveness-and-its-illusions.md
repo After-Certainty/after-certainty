@@ -32,7 +32,7 @@ In other words, **renewal** tends to spend early to preserve capacity. **Erosion
 
 ### **When Success Accelerates Insulation**
 
-Success often increases a leader’s authority. That can help coordination. It can also narrow **correction**.
+Success increases a leader’s authority. That can help coordination. It can also narrow **correction**.
 
 After visible wins, dissent can look unnecessary. Critical voices are reframed as blockers. Signals that conflict with the success narrative arrive later, softer, or not at all.[^c6-escalation]
 
@@ -44,7 +44,7 @@ In crisis contexts, **effectiveness** claims gain extra persuasive force. This c
 
 ### **Correction and Effectiveness**
 
-Influence usually moves outward from leadership. **Vitality** depends on whether influence can move back in.
+Influence moves outward from leadership. **Vitality** depends on whether influence can move back in.
 
 **Correction** means warnings, dissent, and on-the-ground information can reach decision-makers and change direction without punishment.[^c6-voice] **Dissent is Welcomed** means people can still challenge without exile.
 
@@ -86,7 +86,7 @@ Temporary contraction can preserve function. Permanent closure locks in **decay*
 
 Failure is not always a signal of structural **erosion**.
 
-Some failures force honest review, clarify limits, and reopen **correction**. Groups that can learn publicly from failure often grow more reliable than groups that avoid visible failure at all costs.[^c6-learning]
+Some failures force honest review, clarify limits, and reopen **correction**. Groups that can learn publicly from failure grow more reliable than groups that avoid visible failure at all costs.[^c6-learning]
 
 The issue is not whether failure occurs. The issue is whether learning follows. When **Feedback Drives Change**, new information and visible risk can still steer direction. Commitment stays open to revision when reality pushes back.
 
@@ -104,9 +104,9 @@ What gets measured can hide whether people are actually with you.
 
 People can produce good-looking counts while privately withdrawing trust. They can repeat approved language while silently routing around decisions they do not believe in.
 
-In these conditions, the group appears coordinated, but its ability to act together is already splitting underneath. Distorted feedback can hide behind paperwork that looks tidy while the ground story goes missing. **Learning Collapse** often follows.
+In these conditions, the group appears coordinated, but its ability to act together is already splitting underneath. Distorted feedback can hide behind paperwork that looks tidy while the ground story goes missing. **Learning Collapse** follows.
 
-This is why selective followership matters when reading effectiveness. Open disagreement can strengthen results. Quiet divergence usually wears them down over time.
+This is why selective followership matters when reading effectiveness. Open disagreement can strengthen results. Quiet divergence wears them down over time.
 
 ### **What to Watch Alongside Outcomes**
 
@@ -116,7 +116,7 @@ Without that read, results can mislead.
 
 ### **Legitimacy Next**
 
-**Effectiveness** asks what worked. **Legitimacy** asks why people keep following—and what makes that sustainable.
+**Effectiveness** tracks what worked. **Legitimacy** tracks why people keep following—and what makes that sustainable.
 
 **Legitimacy** comes next: how it forms, hardens, and renews over time.
 

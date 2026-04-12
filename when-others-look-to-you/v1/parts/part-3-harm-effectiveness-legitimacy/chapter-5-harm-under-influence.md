@@ -14,13 +14,13 @@ One practical read is **harm** allocation.
 
 In **vibrant** groups, those with authority are more likely to absorb some of the cost of their own decisions. They do not absorb all of it, but the linkage between decision rights and accountability stays visible.
 
-In **decaying** groups, costs move downward or outward: those closest to the consequences, people affected by the decision, or peripheral groups absorb the effects while central decision-makers keep control of the public story. This displacement is often framed as necessity, but repeated displacement is an early warning, not an unfortunate accident.
+In **decaying** groups, costs move downward or outward: those closest to the consequences, people affected by the decision, or peripheral groups absorb the effects while central decision-makers keep control of the public story. This displacement is framed as necessity, but repeated displacement is an early warning, not an unfortunate accident.
 
 That allocation pattern is where the four postures below separate in practice: whether leadership absorbs, tolerates, instrumentalizes, or simply misses harm.
 
 ### **Four Harm Postures**
 
-Leaders and groups usually settle into one of four recurring postures. These postures describe how the group handles harm, not moral rankings. When **circulation** is open, these postures are easier to interrupt: more people can surface risk, hold temporary authority, and route cost information back before harm hardens. When **circulation** is captured, the same postures lock in faster: harm-absorbing work stays concentrated in a few people, harm-tolerant routines normalize, harm-instrumental tradeoffs spread outward, and harm-blind leadership keeps operating with delayed or filtered consequence signals.
+Leaders and groups settle into one of four recurring postures. These postures describe how the group handles harm, not moral rankings. When **circulation** is open, these postures are easier to interrupt: more people can surface risk, hold temporary authority, and route cost information back before harm hardens. When **circulation** is captured, the same postures lock in faster: harm-absorbing work stays concentrated in a few people, harm-tolerant routines normalize, harm-instrumental tradeoffs spread outward, and harm-blind leadership keeps operating with delayed or filtered consequence signals.
 
 ### **Harm-Absorbing**
 
@@ -46,11 +46,11 @@ The logic sounds efficient: keep momentum, protect those at the center, and pass
 
 Harm-blind leadership does not track consequences where they are actually felt.
 
-Things may look fine on the surface while people's lives get harder. Leaders see what is easy to track but miss what people are carrying. Groups are not always cruel; they are often blind. But blind groups still cause harm.
+Things may look fine on the surface while people's lives get harder. Leaders see what is easy to track but miss what people are carrying. Groups are not always cruel; they can be blind without intending cruelty. Blind groups still cause harm.
 
 ### **How Harm Gets Displaced**
 
-Harm displacement usually follows predictable channels:
+Harm displacement follows predictable channels:
 
 - Downward: costs move to people with less voice.
 - Outward: costs move to people affected by the decision or peripheral groups.
@@ -59,7 +59,7 @@ Harm displacement usually follows predictable channels:
 
 These channels can coexist. The more they repeat, the harder **correction** becomes. Repetition also teaches what the next person in charge is likely to copy—**Leadership Reproduces Itself**.
 
-Under crisis pressure, displacement often sharpens: harm is reframed as necessary, and displacement is treated as temporary even when it becomes habit.
+Under crisis pressure, displacement sharpens: harm is reframed as necessary, and displacement is treated as temporary even when it becomes habit.
 
 ### **The Tournament Weekend**
 
@@ -111,15 +111,15 @@ People raised the issue; nothing changed. So fixes moved off the books.
 
 On paper, the group aligns. In daily work, practice drifts.
 
-That gap usually means authority runs one way and is harder to change. Distorted feedback may already govern daily operations there. **Learning Collapse** is often already in play.
+That gap signals authority runs one way and is harder to change. Distorted feedback may already govern daily operations there. **Learning Collapse** may already be in play.
 
-Open refusal can still support **correction** where others can see it. Covert refusal often means a shift toward silent exit.[^c5-exit]
+Open refusal can still support **correction** where others can see it. Covert refusal points toward silent exit.[^c5-exit]
 
 ### **How Harm Reads**
 
-The harm pattern in a group is usually readable before anyone names it out loud. Watch where cost lands when something goes wrong—not who apologizes, but who absorbs. Watch who stays protected from consequence while still holding decision rights. Watch whether the person who named the harm is still in the room six months later, and in what capacity. Watch what actually changed after harm was surfaced, not what was said about it.
+The harm pattern in a group is readable before anyone names it out loud. Watch where cost lands when something goes wrong—not who apologizes, but who absorbs. Watch who stays protected from consequence while still holding decision rights. Watch whether the person who named the harm is still in the room six months later, and in what capacity. Watch what actually changed after harm was surfaced, not what was said about it.
 
-When those patterns have no clear read, **Leaders Do Not Feel the Consequences.** That opacity is itself the signal. Harm displacement doesn't usually announce itself—it just becomes harder and harder to trace who decided and who paid.
+When those patterns have no clear read, **Leaders Do Not Feel the Consequences.** That opacity is itself the signal. Harm displacement rarely announces itself—it becomes harder and harder to trace who decided and who paid.
 
 ### **Effectiveness as the Next Check**
 
@@ -128,7 +128,7 @@ Harm is the first check because it reveals reality quickly.
 The next question is why short-term effectiveness can hide long-term decay.
 
 ::: {custom-style="Pull Quote Block"}
-Follow the damage path; it usually traces the protected edge.
+Follow the damage path; it traces the protected edge.
 :::
 [^c5-risk-distribution]: Ulrich Beck, *Risk Society: Towards a New Modernity* (London: Sage, 1992).
 [^c5-just-culture]: Sidney W. A. Dekker, *Just Culture: Restoring Trust and Accountability in Your Organization* (3rd ed., Boca Raton, FL: CRC Press, 2016).

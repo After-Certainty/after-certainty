@@ -44,7 +44,7 @@ and how decision-makers can still be challenged when needed.[^c2-voice-and-corre
 
 **Vitality** feels slower at first because it includes friction. Questions
 take time. Clarifications take time. Dissent takes time. But this
-apparent inefficiency is often what prevents larger collapse later.
+apparent inefficiency is what prevents larger collapse later.
 
 **Correction** names whether warnings, dissent, and
 on-the-ground information can reach decision-makers and change direction

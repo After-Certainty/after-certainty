@@ -21,21 +21,21 @@ Your pace teaches pace, your tolerance teaches tolerance, your silence
 teaches limits, and your corrections teach what can still be revised.
 
 This is why leadership cannot be reduced to intention. Intention matters,
-but structure often matters more.
+but structure matters more.
 
 ### **The Central Tension**
 
 When others continue to look to someone, authority forms.
 Over time, that authority can strengthen, or it can erode.
 
-Either path can look stable for a while. In the long run, authority is usually more durable when
+Either path can look stable for a while. In the long run, authority is more durable when
 **correction** still works.
 
 ### **How the Dynamics Stack**
 
 Early on, **Attention Finds a Focus**: under uncertainty, people start looking
 to one person for direction. **Examples Accumulate** from what that person
-rewards, punishes, or ignores. That often moves faster than anything on paper.
+rewards, punishes, or ignores. That moves faster than anything on paper.
 Over time, **Leadership Coalesces**: one path for decisions becomes the path
 everyone knows.
 
@@ -59,7 +59,7 @@ this place treats as normal.
 The chapters follow one structural throughline: Attention → Influence →
 Structure → Renewal or Erosion → Circulation.
 
-Part I establishes that chain. Part II names **renewal**, **erosion**, and **circulation**—what it looks like when influence opens, narrows, or moves through people. Part III takes up harm, effectiveness, and legitimacy as tests of what influence is producing. **Circulation** and **correction** run through those parts—whether influence can move through temporary leadership so leadership scales, and whether warning and dissent can still change direction.
+Part I establishes that chain. Part II names **renewal**, **erosion**, and **circulation**—what it looks like when influence opens, narrows, or moves through people. Part III takes up harm, effectiveness, and legitimacy as lenses on what influence is producing. **Circulation** and **correction** run through those parts—whether influence can move through temporary leadership so leadership scales, and whether warning and dissent can still change direction.
 
 Part IV takes up scale, tradeoffs under pressure, and why observers misjudge leaders when signals travel far and late. Part V asks what is still possible when structures drift and judgment fails anyway.
 
@@ -79,9 +79,9 @@ The aim is not to condemn people; it is to clarify dynamics.
 
 ### **Reading Posture**
 
-Read this book as a set of diagnostic lenses, not a set of slogans. Use
+Read this book as a set of lenses, not a set of slogans. Use
 it on teams, communities, and workplaces you know—including your own
 choices.
 
-The question is not whether leadership exists, but what leadership is
-becoming while others are watching.
+The live question is not whether leadership exists, but what leadership is
+becoming while others are watching—and what you can still see while it does.
