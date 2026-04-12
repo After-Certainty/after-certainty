@@ -6,8 +6,8 @@
 
 Authoritative structure lives in **`index.md`** (reading order and paths).
 
-- **Part II** includes a dedicated **Chapter 4 — Circulation** (full chapter), after **Renewal** and **Erosion**.
-- **correction** and **circulation** remain **cross-cutting**: they are defined early, developed in Part II, and **tested** through harm, effectiveness, and legitimacy (Part III), then stressed under scale and pressure (Part IV). **Permission** (what the room teaches after step-ins) is the thread for reading **circulation** in Part III—especially effectiveness (Ch. 6), legitimacy (Ch. 7), and the closing distinction in Ch. 11—not a third glossary pillar beside **correction** and **circulation**.
+- **Part II** includes **Chapter 2 — The Two Groups** (definitions and grid), **Chapter 3 — Renewal**, **Chapter 4 — Erosion**, and a dedicated **Chapter 5 — Circulation** (full chapter).
+- **correction** and **circulation** remain **cross-cutting**: they are defined early, developed in Part II, and **tested** through harm, effectiveness, and legitimacy (Part III), then stressed under scale and pressure (Part IV). **Permission** (what the room teaches after step-ins) is the thread for reading **circulation** in Part III—especially effectiveness (Ch. 7), legitimacy (Ch. 8), and the closing distinction in Ch. 12—not a third glossary pillar beside **correction** and **circulation**.
 
 ## Historical note (superseded weave)
 
