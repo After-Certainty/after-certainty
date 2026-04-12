@@ -1,12 +1,12 @@
 # **Glossary**
 
-**Bold** in the chapters marks terms this book uses in a fixed sense—**renewal** and **erosion**, **vibrant group** and **decaying group**, **circulation** and **correction** (including **permission** and the **permission question** as spelled out under **Circulation**), **harm**, **legitimacy**, and others. Use this glossary to look them up without rereading earlier chapters.
+These entries define words the book uses in a precise, structural sense. Many of them also appear in ordinary speech; here each one names a specific idea in the argument, not a loose synonym for “healthy,” “toxic,” or “effective.” Where two terms contrast—**renewal** and **erosion**, **circulation** and **correction**—the entries spell out how they differ.
 
-**Circulation** — Whether influence can move through temporary or shared leadership (including **guest leadership**) so that leadership can scale without fixing every role at the top—how leadership spreads and reproduces itself, including what **Leadership Reproduces Itself** tracks when people imitate what last worked. The **permission question**—whether stepping in, being credited, and stepping back are safe in practice—is often settled by accumulated example before anyone tests it formally. Not the same as **correction**: who may step in to lead is a different question than whether warnings and dissent can change decisions without punishment.
+**Circulation** — Whether influence can move through temporary or shared leadership (including **guest leadership**) so that leadership can scale without fixing every role at the top: how leadership spreads and reproduces itself, including what **Leadership Reproduces Itself** points to when people imitate what last worked. The **permission question**—whether stepping in, being credited, and stepping back are safe in practice—is often settled by accumulated example before anyone tests it formally. Not the same as **correction**: who may step in to lead is a different question than whether warnings and dissent can change decisions without punishment.
 
 **Correction** — Whether warnings, dissent, and on-the-ground information can reach decision-makers and change direction without punishment—return paths for feedback and revision. Contrasts with narrow or one-way channels; not the same as **circulation**.
 
-**Adaptability** — The capacity of coordinated action to change direction when reality pushes back. One of two capacities (with **scalability**) used to read **renewal** and **erosion**; together they yield the four states **adaptive**, **entrenched**, **regenerative**, and **stalled**.
+**Adaptability** — The capacity of coordinated action to change direction when reality pushes back. Together with **scalability**, it sorts groups into the four states **adaptive**, **entrenched**, **regenerative**, and **stalled**, and underpins how the book describes **renewal** and **erosion**.
 
 **Adaptive** — A practical state: lower **scalability** with high **adaptability**. Part of the **vibrant group** with **regenerative**.
 
@@ -14,15 +14,15 @@
 
 **Decaying group** — The **erosion**-side pair **entrenched** and **stalled**: together they cover high or low **scalability** with low **adaptability**.
 
-**Effectiveness** — In this book, attention to what gets amplified, deferred, or mistaken for control when people look to leadership—not the same as morality or intent.
+**Effectiveness** — What gets amplified, deferred, or mistaken for control when people look to leadership—not the same as morality or intent.
 
 **Entrenched** — A practical state: high **scalability** with low **adaptability**. Part of the **decaying group** with **stalled**.
 
-**Erosion** — The direction in which a group moves when **scalability** or **adaptability** shrinks—toward insulation, narrowed **correction**, and broken reach. Contrasts with **renewal**; it describes structure, not moral worth.
+**Erosion** — The direction in which a group moves when **scalability** or **adaptability** shrinks—toward insulation, narrowed **correction**, and broken reach. Contrasts with **renewal**; it names structure, not moral worth.
 
-**Guest leadership** — Depends on **circulation**: people closest to an issue can temporarily step in to lead a response, then return to their usual role. Aligns with standard use in guest-leadership writing (see Bibliography).
+**Guest leadership** — A form of **circulation**: people closest to an issue can temporarily step in to lead a response, then return to their usual role. The bibliography cites standard guest-leadership sources.
 
-**Harm** — In this book, attention to where cost lands when influence is exercised: who absorbs it, who is kept in view, and what displacement is treated as acceptable.
+**Harm** — Where cost lands when influence is exercised: who absorbs it, who is kept in view, and what displacement is treated as acceptable.
 
 **Legitimacy** — What makes authority feel usable to those who follow: grounding in real behavior, in rules and roles, in the office itself, or in something closer to identity and shared story.
 
@@ -30,7 +30,7 @@
 
 **Renewal** — The direction in which a group stays open to course correction and keeps coordinated action working as reach grows. Contrasts with **erosion**; sustained **renewal** tends toward **vitality**.
 
-**Scalability** — The capacity of coordinated action to grow in reach. One of two capacities (with **adaptability**) used to read **renewal** and **erosion**; together they yield **adaptive**, **entrenched**, **regenerative**, and **stalled**.
+**Scalability** — The capacity of coordinated action to grow in reach. Together with **adaptability**, it sorts groups into **adaptive**, **entrenched**, **regenerative**, and **stalled**, and underpins how the book describes **renewal** and **erosion**.
 
 **Stalled** — A practical state: low **scalability** and low **adaptability**. Part of the **decaying group** with **entrenched**.
 
