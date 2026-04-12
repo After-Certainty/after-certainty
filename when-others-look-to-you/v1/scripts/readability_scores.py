@@ -124,6 +124,7 @@ ORDERED: list[tuple[str, str, str]] = [
         "Appendix B — Leadership patterns",
         "back-matter/appendix-b-leadership-patterns.md",
     ),
+    ("Back matter", "Glossary", "back-matter/glossary.md"),
     ("Back matter", "Bibliography", "back-matter/bibliography.md"),
 ]
 
@@ -240,7 +241,7 @@ def render_markdown(rows: list, generated_iso: str) -> str:
         "- **SMOG / Coleman–Liau:** Secondary grade estimates.",
         "- **Flesch reading ease (FRE):** 0–100, higher = easier (very rough).",
         "",
-        "**Limits:** Syllable counting is heuristic; sentence splits mishandle some abbreviations and citations. Short files (copyright, bridges) yield noisy ratios. Bibliography and appendices are not comparable to narrative chapters.",
+        "**Limits:** Syllable counting is heuristic; sentence splits mishandle some abbreviations and citations. Short files (copyright, bridges) yield noisy ratios. Bibliography (citation list), glossary (term definitions), and appendices are not directly comparable to narrative chapters.",
         "",
         "## Scores",
         "",
