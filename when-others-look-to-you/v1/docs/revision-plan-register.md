@@ -146,9 +146,9 @@ For any bridge that summarizes rather than advances: either cut it or find the i
 
 ---
 
-### Appendix A — Presidential Sequence
+### Appendix A — Legitimacy transfer (multi-institutional)
 
-The bullet-point "in brief" summaries for each administration are the most diagnostic writing in the book. If the appendix stays in its current form, convert these to prose. See the separate Appendix A revision plan for the full restructuring recommendation.
+**Status (April 2026):** Addressed. The appendix now frames legitimacy transfer as structural, adds a **Transfer Pattern** section that names the four legitimacy forms at handoff (replacing the old presidential-only terminology block), and runs three parallel sequences—government at scale (compressed presidential arc in prose), healthcare networks (expanded), and religious institutions and congregational networks (new)—before a comparative closing that draws on all three. See **`docs/revision-plan-appendix-a.md`** for the full architecture. The former "in brief" bullet summaries per administration are gone.
 
 ---
 
