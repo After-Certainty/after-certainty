@@ -16,9 +16,7 @@ company waits for direction when performance falters.
 It does not require a title, charisma, or intention. It requires orientation:
 when others orient themselves around you, your influence multiplies.
 
-What others can see buys an early claim on their attention; sustaining that
-claim is a longer test—whether visible behavior still supports the permission
-people are extending.
+What people can see draws attention quickly.  Keeping it is harder—it depends on whether behavior continues to earn the permission people give.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Attention Finds a Focus**
