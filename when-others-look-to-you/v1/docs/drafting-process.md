@@ -103,6 +103,14 @@ For each echo pass:
 
 After each section draft in the active part, run an editorial pass focused on readability and standard prose quality.
 
+**Typographical conventions (mandatory for every editorial pass):** Read
+`front-matter/typographical-conventions.md` and apply the detailed rules in
+`docs/book-rules.md` (pull quotes, Pattern Blocks, vignettes, glossary bold,
+named dynamics). Run the mechanical scans in **`docs/typography-check.md`** on
+the edited files (or the full manuscript paths listed there) before treating the
+pass as complete. Expect zero `**` inside Pull Quote and Vignette blocks and no
+extra bold in Pattern Block bodies after the `**Pattern: …**` title line.
+
 At minimum, check for:
 
 - Stacked negation and avoidable double negatives
@@ -134,7 +142,7 @@ At minimum, check for:
   dynamics** in `docs/book-rules.md`)
 - Redundant modifiers and filler phrasing
 - Punctuation and consistency issues that reduce clarity
-- Pull-quote formatting consistency when pull-quotes are used (for example, no bold text inside pull-quotes)
+- Pull-quote formatting consistency when pull-quotes are used (for example, no bold text inside pull-quotes; confirm with **`docs/typography-check.md`**)
 - Pull-quote confidence calibration against chapter evidence (avoid absolute pull-quote claims unless clearly justified)
 - **Interpretive register:** no new **ask:** + bullet question lists, stacked rubric lists, or **test/check** subheadings in chapter/bridge body prose unless the section is reference material (see **Interpretive register (watch, not checklist)** in `book-rules.md`)
 
@@ -267,6 +275,7 @@ for review. This summary should be used in the human review loop.
 At minimum:
 
 - Overall alignment status against `docs/book-rules.md`
+- **Typographical conventions:** confirm `docs/typography-check.md` scans are clean (or list exceptions mid-edit)
 - Top quality risks or weak spots (if any)
 - Recommended fixes applied or pending
 
@@ -299,7 +308,7 @@ Once a section in the active part is approved, move to the next section in that 
 1. Draft
 2. Check against `docs/book-rules.md`
 3. Run echo pass against drafted material
-4. Run editorial pass
+4. Run editorial pass (includes typographical conventions and `docs/typography-check.md` mechanical scans)
 5. Run literary-flow micro-pass
 6. Run plain-language and reader-prose pass
 7. Run late-addition continuity guardrail
@@ -352,6 +361,7 @@ Once all front matter, bridges (if used), chapters, and back matter are drafted 
 - Run a full manuscript edit for clarity, grammar, punctuation, and rhythm
 - Remove residual stacked negation, filler phrasing, and awkward transitions
 - Ensure terminology usage is consistent across chapters
+- Run **`docs/typography-check.md`** across the full manuscript paths (mechanical Pull Quote / Vignette / Pattern Block checks) and fix any violations
 
 ### 12.4 Citation Integrity and Density Pass
 

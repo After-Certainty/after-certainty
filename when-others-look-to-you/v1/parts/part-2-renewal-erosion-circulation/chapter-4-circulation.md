@@ -14,11 +14,9 @@ Permission is not usually announced. It accumulates in what the group does after
 
 Permission can be open on paper and closed in practice. A formal deputizing structure, a clear chain of command, an explicit invitation to lead in someone's absence—none of these guarantee that the permission is real. The test is what happens after, not what was said before.
 
-### **Reading the Room Before You Step In**
+### **Reading the Room — The Hesitation**
 
 ::: {custom-style="Vignette Block"}
-**The Hesitation**
-
 The project lead is out sick the morning the client calls with a scope question that cannot wait. One person on the team knows the answer—has been closest to that part of the work for two months, has heard every relevant conversation. She also knows what happened six weeks ago when someone else jumped in on a similar call without being asked. That person was thanked afterward in a way that felt like a warning. She drafts a response, reads it twice, and sends it to the project lead's personal phone instead. The client waits three hours for an answer that was already written.
 
 Nobody made a rule about this. The rule was already there.

@@ -1,0 +1,17 @@
+---
+description: Typographical conventions for When Others Look to You manuscript edits
+globs: when-others-look-to-you/v1/**/*.md
+alwaysApply: false
+---
+
+# Typographical conventions (editorial pass)
+
+When editing manuscript Markdown under `when-others-look-to-you/v1/`, treat **typographical conventions** as part of any **editorial pass** (see `v1/docs/drafting-process.md` Step 5).
+
+- **Authority:** `v1/front-matter/typographical-conventions.md` (what readers see); `v1/docs/book-rules.md` (full rules).
+- **Mechanical verification:** run the script in `v1/docs/typography-check.md` after substantive edits.
+- **Pull quotes:** no `**` inside `Pull Quote Block` divs; no glossary-bold renewal/erosion/vitality/decay inside pull quotes when structurally meant (**Chapter-End Pull-Quote Convention** in `book-rules.md`).
+- **Pattern blocks:** first line `**Pattern: Title**` only; renewing dynamics stay **positive-only** in the body; no extra bold spans in the body.
+- **Vignettes:** `### **Short Title**` stays **outside** `Vignette Block`; scene text inside the block has **no** `**` (move labels and analysis after the closing `:::`).
+
+Do not add drive-by bold for glossary terms where the word is ordinary English; follow **Direction vs state** and circulation/correction/permission rules in `book-rules.md`.

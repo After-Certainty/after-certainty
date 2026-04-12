@@ -586,7 +586,8 @@ guardrails. Use `editorial-vocabulary.md` as the
 **chapter-aware checklist** after plain-language passes. Use
 `pattern-integration-guide.md` for **placement** and introduction sequence of
 bold titles (editor workflow). Use `drafting-process.md` for **section workflow**
-and which passes to run. Use `circulation-cross-cutting.md` for terminology and
+and which passes to run; each **editorial pass** includes **`typography-check.md`**
+mechanical scans (Pull Quote / Vignette / Pattern Block formatting). Use `circulation-cross-cutting.md` for terminology and
 structure notes on **correction** / **circulation**. Use `reader-facing-scope.md`
 for **which paths are reader-facing vs writer-facing** and a **grep pass** to
 keep production language out of shipped prose. If guidance in another doc disagrees with this file,

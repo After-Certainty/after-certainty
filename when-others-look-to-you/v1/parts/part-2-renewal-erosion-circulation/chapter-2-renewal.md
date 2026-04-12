@@ -55,8 +55,8 @@ When **vitality** holds, **Dissent is Welcomed**, **Feedback Drives Change**, an
 ::: {custom-style="Pattern Block"}
 **Pattern: Dissent is Welcomed**
 
-Dissent and risk signals can reach decision-makers in time. **Correction**
-stays possible.
+Dissent and risk signals can reach decision-makers in time. Warnings can
+still change direction without punishment.
 :::
 
 ::: {custom-style="Pattern Block"}

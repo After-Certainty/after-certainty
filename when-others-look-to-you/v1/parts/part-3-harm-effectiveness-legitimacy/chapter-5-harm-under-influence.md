@@ -64,12 +64,12 @@ Under crisis pressure, displacement sharpens: harm is reframed as necessary, and
 ### **The Tournament Weekend**
 
 ::: {custom-style="Vignette Block"}
-A youth soccer club is one week out from hosting a regional tournament. A volunteer who helps maintain the fields notices a goal on the secondary pitch is still not anchored to code. She raises it at the coaches’ meeting. The club president answers, “Note it and play—we can’t slip the bracket; hotels are already full.” That first response is where **Examples Accumulate** for everything that happens afterward.
+A youth soccer club is one week out from hosting a regional tournament. A volunteer who helps maintain the fields notices a goal on the secondary pitch is still not anchored to code. She raises it at the coaches’ meeting. The club president answers, “Note it and play—we can’t slip the bracket; hotels are already full.” That first response is where the club learns what will count for everything that happens afterward.
 
 The tournament finishes on schedule. Sponsor photos look great. Two weeks later, angry calls roll in after a collision in front of a net that shifts. The volunteer who raised the warning is told to be “more of a team player” next time.
 :::
 
-This scene is not unusual. It shows harm displacement in compact form: risk moves outward to people affected by the decision and downward to those closest to the consequences while leadership protects a short-term story of success.
+This scene is not unusual. **Examples Accumulate** there: what gets rewarded or punished in that first beat trains everyone watching. It shows harm displacement in compact form: risk moves outward to people affected by the decision and downward to those closest to the consequences while leadership protects a short-term story of success.
 
 **Leaders Feel the Consequences** means people who decide stay tied to what their choices do to others. Costs and benefits stay visible where decisions are made. Accountability stays in view and does not quietly slide onto someone else.
 
