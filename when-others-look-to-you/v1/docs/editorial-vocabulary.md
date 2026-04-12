@@ -76,7 +76,7 @@ Use during **Step 5**, **Step 5.75**, and echo passes after plain-language work.
 
 ## Part II — The Two Groups, Renewal, Erosion (Pass 1)
 
-**Chapter 2 (`chapter-2-the-two-groups.md`):** **Two Directions**, **Two Capacities**, **Four States** (structural grid and diagram), **Vitality and Decay** (orientation only—no pattern blocks). Direction vs state: use *renewal*/*erosion* for movement, *vitality*/*vibrant*/*decay*/*decaying* for condition (see `book-rules.md`). Bold **renewal**, **erosion**, **vitality**, **decay** where definitions land.
+**Chapter 2 (`chapter-2-the-two-groups.md`):** **Two Directions**, **Two Capacities**, **vibrant group** / **decaying group** (pairs of grid corners; structural grid and diagram), **Vitality and Decay** (orientation only—no pattern blocks). Direction vs state: use *renewal*/*erosion* for movement, *vitality*/*vibrant*/*decay*/*decaying* for condition (see `book-rules.md`). Bold **renewal**, **erosion**, **vitality**, **decay** where definitions land.
 
 **Chapter 3 (`chapter-3-renewal.md`):** **What Vitality Opens** leads into the adjusting trio as separate sections (each with Pattern Block and vignette). **Scalability** / **adaptability**: prefer **coordinated action** (canonical lexicon).
 

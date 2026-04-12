@@ -32,29 +32,29 @@ every thread by hand.
 pushes back—whether plans stay revisable after they are in motion.
 
 **Erosion** shows when either capacity shrinks. How those capacities combine
-into named states is the next step; the pattern chapters stay with what each
-direction looks like in practice.
+into two groups—by whether **adaptability** stays high or falls low—is the next
+step; the pattern chapters stay with what each direction looks like in practice.
 
-### **Four States**
+### **The Vibrant Group and the Decaying Group**
 
-Together **scalability** and **adaptability** sort groups into four practical
-states. They are not personality types. They are readings of structure under
-load.
+Together **scalability** and **adaptability** produce four combinations at the
+corners of the grid—**regenerative**, **adaptive**, **entrenched**, and
+**stalled**. They are not personality types. They are readings of structure
+under load.
 
-**Regenerative** — Coordinated action can still grow *and* still change course.
-Reach and revision both hold; the group can scale without locking its plans.
+What matters for the fork in this book is the split down the middle: high
+**adaptability** on one side, low **adaptability** on the other. Each side is a
+*pair* of corners, not a single box.
 
-**Adaptive** — Changing course stays possible even when broad coordination
-strains. The work adjusts locally; wider reach may be uneven, but **correction**
-still moves.
+The **vibrant group** is the **renewal**-side pair: **regenerative** and
+**adaptive**. Together they cover high or low **scalability** as long as
+**adaptability** stays high—coordinated action can still change course when
+reality pushes back, whether reach is broad or still thin.
 
-**Entrenched** — Reach can still hold while changing course gets harder. The
-group can look impressive for a long time while **correction** narrows and
-exceptions quietly harden.
-
-**Stalled** — Neither reliable reach nor reliable revision holds. Coordination
-frays and plans resist adjustment; the group pays in silence, workarounds, or
-both.
+The **decaying group** is the **erosion**-side pair: **entrenched** and
+**stalled**. Together they cover high or low **scalability** when
+**adaptability** is low—changing course is hard or gone; the group may still
+look coordinated for a long time, or coordination itself may be fraying.
 
 ![Diagram: renewal, erosion, capacities, and states](export-assets/diagrams/renewal-erosion-map.png)
 

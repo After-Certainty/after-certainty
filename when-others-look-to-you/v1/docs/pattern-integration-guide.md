@@ -30,7 +30,7 @@ Patterns are additive, not transformative.
 
 - Only name and clarify patterns already present
 
-**Approved exception (split definitional chapters):** **Chapter 3 — Renewal** defines the **Adjusting** trio as Pattern Blocks. **Chapter 4 — Erosion** defines the **Eroding** trio. **Chapter 5 — Circulation** develops **Circulation** in prose and defines **Leadership Reproduces Itself** as a Pattern Block under **Leadership Reproduces Itself — The Circulation Version**. **Chapter 2 — The Two Groups** is definitional prose and the state grid only (no Pattern Blocks for the ten named dynamics). Follow the **Placement Guidance by Chapter** and **Introduction Sequence** tables below; see `docs/circulation-cross-cutting.md`.
+**Approved exception (split definitional chapters):** **Chapter 3 — Renewal** defines the **Adjusting** trio as Pattern Blocks. **Chapter 4 — Erosion** defines the **Eroding** trio. **Chapter 5 — Circulation** develops **Circulation** in prose and defines **Leadership Reproduces Itself** as a Pattern Block under **Leadership Reproduces Itself — The Circulation Version**. **Chapter 2 — The Two Groups** is definitional prose and the capacity grid (vibrant vs decaying pairs) only (no Pattern Blocks for the ten named dynamics). Follow the **Placement Guidance by Chapter** and **Introduction Sequence** tables below; see `docs/circulation-cross-cutting.md`.
 
 ### **2. Preserve the Author's Voice**
 
@@ -393,7 +393,7 @@ Primary:
 
 ### **Chapter 2 — The Two Groups**
 
-Pattern Block: none for the ten named dynamics (orientation, capacities, four states, vitality/decay framing).
+Pattern Block: none for the ten named dynamics (orientation, capacities, vibrant/decaying groups, vitality/decay framing).
 
 ### **Chapter 3 — Renewal**
 
