@@ -1,4 +1,4 @@
-# **Chapter 9 — Tradeoffs Under Pressure**
+# **Chapter 10 — Tradeoffs Under Pressure**
 
 ### **When Pressure Reorders Judgment**
 

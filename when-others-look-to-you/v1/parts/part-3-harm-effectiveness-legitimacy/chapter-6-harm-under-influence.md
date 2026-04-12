@@ -1,4 +1,4 @@
-# **Chapter 5 — Harm Under Influence**
+# **Chapter 6 — Harm Under Influence**
 
 ### **Harm Is a Leadership Signal**
 

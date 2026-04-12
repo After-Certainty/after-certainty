@@ -1,4 +1,4 @@
-# **Chapter 6 — Effectiveness and Its Illusions**
+# **Chapter 7 — Effectiveness and Its Illusions**
 
 ### **Results Are Not the Whole Story**
 

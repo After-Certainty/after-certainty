@@ -1,4 +1,4 @@
-# **Chapter 7 — Legitimacy Over Time**
+# **Chapter 8 — Legitimacy Over Time**
 
 ### **Why People Continue to Follow**
 

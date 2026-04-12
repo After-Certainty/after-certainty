@@ -1,4 +1,4 @@
-# **Chapter 8 — Scale and Drift**
+# **Chapter 9 — Scale and Drift**
 
 ### **What Scale Changes**
 

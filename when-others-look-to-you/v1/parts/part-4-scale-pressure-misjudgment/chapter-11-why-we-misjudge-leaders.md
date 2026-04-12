@@ -1,4 +1,4 @@
-# **Chapter 10 — Why We Misjudge Leaders**
+# **Chapter 11 — Why We Misjudge Leaders**
 
 ### **The Judgment Problem**
 

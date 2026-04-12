@@ -2,8 +2,8 @@
 
 ## Current phase
 
-**Manuscript (v1):** Part II is **Renewal**, **Erosion**, and a dedicated
-**Circulation** chapter; misjudgment sits in Part IV; closing is Chapter 11.
+**Manuscript (v1):** Part II opens with **The Two Groups**, then **Renewal**,
+**Erosion**, and a dedicated **Circulation** chapter; misjudgment sits in Part IV; closing is Chapter 12.
 Part and file layout match `index.md`.
 
 An earlier editorial pass wove **Correction** and **Circulation** through the

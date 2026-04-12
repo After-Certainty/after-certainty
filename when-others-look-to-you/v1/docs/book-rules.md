@@ -162,7 +162,7 @@ framing.
 ### **Manuscript Layout**
 
 - The manuscript is organized into front matter, sequential parts (see
-  `index.md`: Part I through closing Chapter 11), and back matter.
+  `index.md`: Part I through closing Chapter 12), and back matter.
 
 - Each chapter must live in its own markdown file.
 
@@ -515,7 +515,7 @@ headings (`## **Attention Finds a Focus**`, etc.) and the long **Context /
 Problem / Forces** template. **Do not** add the `Pattern:` prefix to those
 headings, and **do not** wrap appendix entries in `::: {custom-style="Pattern
 Block"}`. The `Pattern:` prefix and Pattern Block custom-style apply **only** to
-the short definitional callouts in Chapters 1–4. Two formats on purpose: the
+the short definitional callouts in Chapters 1, 3, 4, and 5. Two formats on purpose: the
 appendix is a reference catalog; the chapters use production callouts.
 
 **Pattern Block bodies—positive-only for renewing dynamics:** For dynamics
@@ -579,7 +579,7 @@ for. Appendix B’s **Eroding** category label stays **Eroding** (dynamics
 along the erosion direction); Pattern Block rules that say “eroding-titled”
 are unchanged.
 
-**Chapter 2 setup:** The chapter names the link between pairs early—**renewal**
+**Part II setup:** **Chapter 2 — The Two Groups** names the link between pairs early—**renewal**
 tends toward **vitality**, **erosion** toward **decay**—and bolds those four
 words in running prose so direction and condition stay visually distinct. **Do
 not** bold them inside pull quotes (see **Chapter-End Pull-Quote Convention**).
@@ -587,11 +587,11 @@ Elsewhere in the manuscript, bold the same four terms when they carry that
 structural sense if doing so stays readable; do not bold every grammatical
 variant (*renewing*, *eroding*, *vibrant*, *decaying*) by default.
 
-In **What Vitality Looks Like**, Chapter 2 defines the three **Adjusting**
-dynamics as **Pattern Blocks**, with a short sentence of prose between blocks
-so they are not adjacent without connective tissue. In **What Decay Looks
-Like**, Chapter 3 defines the three **Eroding** dynamics the same way.
-**Chapter 4 — Circulation** defines **Leadership Reproduces Itself** (the
+In **What Vitality Opens**, **Chapter 3 — Renewal** defines the three **Adjusting**
+dynamics as **Pattern Blocks** (each in its own section with surrounding prose).
+In **What Decay Looks Like**, **Chapter 4 — Erosion** defines the three **Eroding**
+dynamics the same way.
+**Chapter 5 — Circulation** defines **Leadership Reproduces Itself** (the
 **Circulating** shape) as a seventh **Pattern Block** under **Leadership
 Reproduces Itself — The Circulation Version**. Later chapters refer to these
 titles by inline anchor or absence; they do not repeat Pattern Blocks for
@@ -705,7 +705,7 @@ Prefer:
 - If a concrete-example run is intentionally preserved for voice, rhythm,
   or recognizability, treat it as protected wording and do not rewrite it
   in later audits unless the author explicitly requests a change.
-  Current approved triad in **Chapter 6** (short-term success): semester
+  Current approved triad in **Chapter 7** (short-term success): semester
   scores, neighborhood drive, public crisis—keep mixed-domain spread; do
   not default to finance-quarter-only imagery unless the author restores it.
 
@@ -781,7 +781,7 @@ The book analyzes structure, not people.
   insulated," "more one-directional," "room to revise plans") over
   moralized shorthand (for example: "healthier," "better people,"
   "worse people") when describing these dynamics. Avoid rarefied
-  one-word abstractions such as *permeability* in Chapter 2-style
+  one-word abstractions such as *permeability* in renewal- and erosion-chapter
   exposition unless the author explicitly restores them.
 
 - In plain-language revisions, preserve neutrality: simplify wording
