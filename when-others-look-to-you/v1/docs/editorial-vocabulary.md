@@ -2,6 +2,8 @@
 
 This checklist captures **approved wording and pass outcomes** for *When Others Look to You*. Use it during **Step 5.75** (and any focused echo pass) so new drafts and revisions stay aligned.
 
+**Locked-in plain style:** **Plain speak (house style)** in `book-rules.md` (verbs, bridges, typographical-conventions scope, what not to flatten). This file adds **grep targets** and cross-cutting vocabulary; it does not repeat the full style section.
+
 For global tone and universality rules, see `book-rules.md`. For **interpretive register** (watch-not-checklist posture, list discipline, bridges, chapter endings), see **Interpretive register (watch, not checklist)** in `book-rules.md` and worked examples in `revision-plan-register.md`. For where to place Pattern Blocks and inline anchors, see `pattern-integration-guide.md`. For **Pattern Block** production rules (heading line `**Pattern: Title**`, **positive-only** bodies for renewing dynamics, **Learning Collapse** vs **Learning Collapses**, negated-title capitalization), see `book-rules.md` (**Callout blocks** through **Learning Collapses** / **Learning Collapse**).
 
 ---

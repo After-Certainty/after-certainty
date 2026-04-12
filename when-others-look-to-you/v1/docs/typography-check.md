@@ -4,13 +4,13 @@ Use this during **Step 5 — Editorial Pass** and any **final editorial pass** (
 
 ## Authority
 
-- Reader-facing explanation: `front-matter/typographical-conventions.md`
-- Full rules (pull quotes, Pattern Blocks, vignettes, glossary bold, named dynamics): `docs/book-rules.md` (for example **Chapter-End Pull-Quote Convention**, **Callout blocks**, **Vignette Convention**, **Direction vs state**)
+- Reader-facing map (short): `front-matter/typographical-conventions.md`
+- Full rules (pull quotes, Pattern Blocks, vignettes, glossary bold, named dynamics, **Plain speak (house style)**): `docs/book-rules.md` (for example **Chapter-End Pull-Quote Convention**, **Callout blocks**, **Vignette Convention**, **Direction vs state**)
 
 ## What to verify
 
 1. **Pull Quote Block** — No `**` bold inside the block. Do not bold structural vocabulary (including **renewal**, **erosion**, **vitality**, **decay**) inside pull quotes when they carry the glossary sense (**book-rules.md**).
-2. **Pattern Block** — First line only: `**Pattern: Canonical Title**`. Renewing/adjusting titles: body is **positive-only** (no “when it breaks” second half in the same block). No extra `**` in the body (single bold title line per `typographical-conventions.md`).
+2. **Pattern Block** — First line only: `**Pattern: Canonical Title**`. Renewing/adjusting titles: body is **positive-only** (no “when it breaks” second half in the same block). No extra `**` in the body (single bold title line per `book-rules.md`, **Callout blocks**).
 3. **Vignette Block** — Only scene text inside the block; vignette sub-heading (`### **Short Title**`) **outside** the block. No `**` inside scene text (move analysis or glossary/named-dynamic labels to the following prose).
 
 ## Repeatable scan (repo root)

@@ -8,7 +8,8 @@ alwaysApply: false
 
 When editing manuscript Markdown under `when-others-look-to-you/v1/`, treat **typographical conventions** as part of any **editorial pass** (see `v1/docs/drafting-process.md` Step 5).
 
-- **Authority:** `v1/front-matter/typographical-conventions.md` (what readers see); `v1/docs/book-rules.md` (full rules).
+- **Authority:** `v1/front-matter/typographical-conventions.md` (short reader-facing map); `v1/docs/book-rules.md` (full layout rules and **Plain speak (house style)**).
+- **Plain speak:** follow **Plain speak (house style)** in `book-rules.md` (concrete verbs, cue-taking phrasing, bridge plainness) alongside sentence discipline.
 - **Sentence discipline:** prefer short, direct sentences; break up long running sentences for clarity (**Sentence Discipline** and **Editorial pass: complicated sentences** in `book-rules.md`; Step 5 in `drafting-process.md`).
 - **Mechanical verification:** run the script in `v1/docs/typography-check.md` after substantive edits.
 - **Pull quotes:** no `**` inside `Pull Quote Block` divs; no glossary-bold renewal/erosion/vitality/decay inside pull quotes when structurally meant (**Chapter-End Pull-Quote Convention** in `book-rules.md`).

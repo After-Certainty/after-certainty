@@ -22,6 +22,52 @@ The reader should feel capable, not instructed.
 The writing should never sound like a manifesto, a management blog, or a
 social media thread.
 
+## **Plain speak (house style)**
+
+This subsection locks in **plain, direct prose** for the manuscript. It extends
+**Core Tone** and **Sentence Discipline** with word-level habits that should
+stay consistent across new drafting and revision.
+
+**What to prefer**
+
+- **Short sentences by default**; split long chains that stack clauses or
+  qualifications. One clear claim per sentence unless a deliberate parallel
+  belongs in one line (**Editorial pass: complicated sentences** below).
+- **Concrete verbs** over abstract nouns when both are accurate: *gather*,
+  *read*, *shift*, *land*, *hold*, *firm up*—not *concentration creates…* or
+  similar nominal chains.
+- **Everyday phrasing** for attention and cue-taking: prefer **take their
+  cues**, **read** (what is allowed or rewarded), **gather** (attention)—over
+  *orient*, *calibrate*, or *concentrate* when the meaning is the same.
+- **Straight questions**: *real question*, *what follows*, *this stretch of
+  the book*—over *the live question*, *the next movement traces*, or other
+  meta scaffolding unless tone calls for it.
+- **Parallel clarity** where the book already fixed a phrase: for example
+  influence that **stays strong** when people **only partly go along** (align
+  with Chapter 1 rather than mixing *high* / *go along only in part* without
+  reason).
+- **Bridges** stay observational and plain: name what is coming without
+  catalog voice. **Bridge — From Structure to Scale and Judgment** summarizes
+  the renewal/erosion/vitality/decay read at scale in **one sentence**, not
+  several recap-sized fragments (see **Echo control** in
+  `docs/editorial-vocabulary.md`).
+
+**Reader-facing layout prose**
+
+- `front-matter/typographical-conventions.md` is intentionally **short**: it
+  orients the reader, not the production pipeline. Full rules for Pattern Blocks,
+  pull quotes, vignettes, and glossary bold live in this file (**Callout
+  blocks**, **Vignette Convention**, **Chapter-End Pull-Quote Convention**).
+
+**Do not “simplify” away**
+
+- Glossary-bold terms (**renewal**, **erosion**, **correction**, **circulation**,
+  named **Pattern** titles) when the sentence is making a structural claim.
+- The **direction vs state** distinction (**Direction vs state** below).
+- Technical **posture** where the book uses it as a structural term (harm
+  postures, visible stance)—plain glosses may follow, not replace, when the
+  term is doing work.
+
 ## **Interpretive register (watch, not checklist)**
 
 The manuscript trains **attention** and **observation**. It is not a toolkit,
@@ -269,12 +315,13 @@ Before:
 
 After:
 
-> Under uncertainty, attention gathers quickly. Influence forms before formal
-> authority is named.
+> When people are uncertain, attention gathers fast. Influence forms before anyone
+> names formal authority.
 
 The revision removes the “X, and that X creates Y” chain, uses a plainer verb
-(*gathers*), and gives influence its own sentence so the sequence reads in the
-same direct cadence as the rest of the book.
+(*gathers*), names uncertainty in plain words (*when people are uncertain*),
+and gives influence its own sentence so the sequence reads in the same direct
+cadence as the rest of the book (**Plain speak (house style)**).
 
 ### **Paragraph Grouping Rules**
 

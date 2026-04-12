@@ -106,16 +106,20 @@ For each echo pass:
 
 After each section draft in the active part, run an editorial pass focused on readability and standard prose quality.
 
-**Typographical conventions (mandatory for every editorial pass):** Read
-`front-matter/typographical-conventions.md` and apply the detailed rules in
-`docs/book-rules.md` (pull quotes, Pattern Blocks, vignettes, glossary bold,
-named dynamics). Run the mechanical scans in **`docs/typography-check.md`** on
+**Typographical conventions (mandatory for every editorial pass):** Skim
+`front-matter/typographical-conventions.md` (brief reader-facing map). Apply
+full layout and glossary rules in `docs/book-rules.md` (**Plain speak (house
+style)**, pull quotes, Pattern Blocks, vignettes, named dynamics). Run the
+mechanical scans in **`docs/typography-check.md`** on
 the edited files (or the full manuscript paths listed there) before treating the
 pass as complete. Expect zero `**` inside Pull Quote and Vignette blocks and no
 extra bold in Pattern Block bodies after the `**Pattern: …**` title line.
 
 At minimum, check for:
 
+- **Plain speak (house style):** Follow **Plain speak (house style)** in
+  `docs/book-rules.md` (concrete verbs, cue-taking phrasing, bridge plainness,
+  reader-facing conventions scope).
 - **Sentence length and running sentences:** Prefer short, direct sentences as
   the house default; avoid long running sentences that pile clauses or steps.
   Split or simplify for clarity where possible (see **Sentence Discipline** and
@@ -169,10 +173,14 @@ At minimum:
 ## Step 5.75: Plain-Language and Reader-Prose Pass
 
 After the literary-flow micro-pass, run a plain-language pass to reduce
-technical and process-heavy phrasing.
+technical and process-heavy phrasing. **Authoritative habits:** **Plain speak
+(house style)** in `docs/book-rules.md` (word-level defaults, bridges, what not
+to strip).
 
 At minimum:
 
+- Apply **Plain speak (house style)** in `docs/book-rules.md` on top of this
+  checklist (overlap is intentional—this step enforces the locked-in style).
 - Replace avoidable jargon with common reader-facing wording.
 - Rewrite process-language phrasing ("test," "mechanism," "diagnostic," "run pass") into natural prose where possible.
 - Apply **interpretive register** cleanup: prefer **watch / read / notice / track** over **evaluate / assess** framing; convert checklist-shaped bullets into prose where they read as instruments (**Interpretive register (watch, not checklist)** in `book-rules.md`).
@@ -364,9 +372,9 @@ Once all front matter, bridges (if used), chapters, and back matter are drafted 
 ### 12.3 Editorial and Copy Pass
 
 - Run a full manuscript edit for clarity, grammar, punctuation, and rhythm
-- Apply **Sentence Discipline** and the **Editorial pass: complicated sentences**
-  checks in `docs/book-rules.md`: prefer short sentences, break up long running
-  sentences where clarity improves
+- Apply **Plain speak (house style)**, **Sentence Discipline**, and the
+  **Editorial pass: complicated sentences** checks in `docs/book-rules.md`:
+  prefer short sentences, break up long running sentences where clarity improves
 - Remove residual stacked negation, filler phrasing, and awkward transitions
 - Ensure terminology usage is consistent across chapters
 - Run **`docs/typography-check.md`** across the full manuscript paths (mechanical Pull Quote / Vignette / Pattern Block checks) and fix any violations
