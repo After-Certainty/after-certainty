@@ -60,9 +60,9 @@ It is not only mimicry of mannerisms. It copies permission. If stepping in was t
 
 Read the group without the org chart in front of you.
 
-When someone holds the center temporarily, does the room treat it as useful or as a problem to manage? When the formal lead is away, does work keep moving or freeze until the usual name returns? Who gets offered those temporary turns—only people already aligned with the center, or people who might disagree and still be trusted? When authority is handed off, what travels with the title: open paths for **correction**, or a warning that only certain people may steer?
+Watch how the room treats someone who holds the center temporarily—as useful work or as a problem to manage. Watch what happens when the formal lead is away: whether work keeps moving or freezes until the usual name returns. Watch who gets offered those temporary turns—only people already aligned with the center, or people who might disagree and still be trusted. Watch what travels when authority is handed off with the title: open paths for **correction**, or a quiet warning that only certain people may steer.
 
-If the answers skew narrow, **circulation** is likely captured even when **correction** still works on paper. What gets reproduced next is not a mystery. It is whatever this group just taught about who may lead, for how long, and at what price.
+When that read skews narrow, **circulation** is likely captured even when **correction** still works on paper. What gets reproduced next is not a mystery. It is whatever this group just taught about who may lead, for how long, and at what price.
 
 ::: {custom-style="Pull Quote Block"}
 Circulation copies permission before it ever copies a title.

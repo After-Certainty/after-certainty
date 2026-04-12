@@ -110,16 +110,9 @@ This is why selective followership matters when judging effectiveness. Open disa
 
 ### **A Better Effectiveness Test**
 
-Ask four questions alongside outcomes:
+Alongside outcomes, watch whether the conditions for **correction** stayed open while the work was underway. Watch whether concerns changed decisions or only decorated meetings. Watch whether success increased learning capacity or reduced it. Watch whether the group preserved trust while achieving results.
 
-- Were the conditions for **correction** open while the work was underway?
-- Did concerns change decisions, or only decorate meetings?
-- Did success increase learning capacity or reduce it?
-- Did the group preserve trust while achieving results?
-
-Without these checks, results can mislead.
-
-### **Legitimacy Next**
+Without that read, results can mislead.
 
 **Effectiveness** asks what worked. **Legitimacy** asks why people keep following—and what makes that sustainable.
 

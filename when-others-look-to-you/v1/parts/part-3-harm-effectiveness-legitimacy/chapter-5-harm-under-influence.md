@@ -115,16 +115,11 @@ That gap usually means authority runs one way and is harder to change. Distorted
 
 Open refusal can still support **correction** where others can see it. Covert refusal often means a shift toward silent exit.[^c5-exit]
 
-### **A Practical Harm Check**
+### **How Harm Reads**
 
-When evaluating leadership under influence, ask:
+The harm pattern in a group is usually readable before anyone names it out loud. Watch where cost lands when something goes wrong—not who apologizes, but who absorbs. Watch who stays protected from consequence while still holding decision rights. Watch whether the person who named the harm is still in the room six months later, and in what capacity. Watch what actually changed after harm was surfaced, not what was said about it.
 
-- Who pays first when a decision fails?
-- Who is protected from consequence?
-- Who can surface harm without retaliation?
-- What changed after harm was named?
-
-If these questions cannot be answered clearly, **Leaders Do Not Feel the Consequences.** Harm displacement is settling in as habit. The group is drifting toward tolerance or blindness.
+When those patterns have no clear read, **Leaders Do Not Feel the Consequences.** That opacity is itself the signal. Harm displacement doesn't usually announce itself—it just becomes harder and harder to trace who decided and who paid.
 
 ### **Effectiveness as the Next Check**
 

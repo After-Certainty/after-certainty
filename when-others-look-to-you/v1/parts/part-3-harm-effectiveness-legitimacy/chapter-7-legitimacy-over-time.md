@@ -175,23 +175,11 @@ back.
 
 ### **Correction Signals**
 
-Selective followership is a **correction** signal.
+Selective followership is a **correction** signal. When selective dissent is open and discussable, **correction** is still working. When people shift to quiet workarounds, private refusal, and strategic silence, **correction** is weakening.
 
-When selective dissent is open and discussable, **correction** is still
-working. When people shift to quiet workarounds, private refusal, and
-strategic silence, **correction** is weakening.
+The same read shows up in what you can watch over time: whether bad news travels upward without career penalty; whether dissent can change a decision before execution, including temporary step-in leadership by people closest to the problem; whether leaders explain revision when they change course; and whether, after conflict, trust increases or contracts.
 
-### **Four Questions**
-
-Ask four practical questions:
-
-- Can bad news travel upward without career penalty?
-- Can dissent change a decision before execution, including temporary
-  step-in leadership by people closest to the problem?
-- Do leaders explain revision when they change course?
-- After conflict, does trust increase or contract?
-
-If the answer to most is no, authority is becoming one-way.
+When most of that reads as no, authority is becoming one-way.
 
 ### **How Correction and Circulation Shape Renewal and Erosion**
 
