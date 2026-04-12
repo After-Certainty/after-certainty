@@ -3,7 +3,7 @@
 > **Generated file.** Do not edit by hand. Regenerate with:
 > `python3 scripts/readability_scores.py`
 
-**Last generated:** 2026-04-12 16:35 UTC
+**Last generated:** 2026-04-12 16:36 UTC
 
 ## Method
 
@@ -24,7 +24,7 @@
 | Front matter | Author's note | 8.1 | 8.0 | 10.5 | 56.5 | 30 | 334 |
 | Front matter | Preface | 9.1 | 8.9 | 11.7 | 52.0 | 24 | 298 |
 | Front matter | Acknowledgements | 8.0 | 7.5 | 7.4 | 71.5 | 16 | 305 |
-| Front matter | Introduction | 8.8 | 9.0 | 11.9 | 54.7 | 48 | 608 |
+| Front matter | Introduction | 8.8 | 9.0 | 11.9 | 54.6 | 48 | 609 |
 | Front matter | Typographical conventions | 10.4 | 10.2 | 11.9 | 50.5 | 27 | 455 |
 | Part I | Bridge | 7.6 | 7.8 | 9.7 | 59.4 | 13 | 138 |
 | Part I | Ch 1 — The Weight of Being Looked To | 9.3 | 8.0 | 12.6 | 44.0 | 96 | 841 |
@@ -32,7 +32,7 @@
 | Part II | Ch 2 — Renewal | 9.9 | 9.3 | 13.6 | 44.6 | 42 | 488 |
 | Part II | Ch 3 — Erosion | 9.3 | 9.4 | 13.3 | 48.9 | 27 | 315 |
 | Part II | Ch 4 — Circulation | 10.6 | 9.9 | 11.5 | 51.3 | 97 | 1761 |
-| Part III | Bridge — From Movement to Lenses | 8.0 | 8.5 | 11.2 | 58.5 | 8 | 95 |
+| Part III | Bridge — From Movement to Lenses | 9.1 | 9.3 | 12.1 | 53.3 | 7 | 93 |
 | Part III | Ch 5 — Harm Under Influence | 9.5 | 8.9 | 12.6 | 49.1 | 101 | 1268 |
 | Part III | Ch 6 — Effectiveness and Its Illusions | 10.3 | 8.9 | 14.4 | 41.2 | 106 | 1173 |
 | Part III | Ch 7 — Legitimacy Over Time | 10.4 | 9.6 | 12.6 | 46.1 | 107 | 1555 |

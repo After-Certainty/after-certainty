@@ -51,7 +51,7 @@ Plans, status logs, readability tables, and integration guides live here by desi
 
 ## Edge cases
 
-- **`index.md`** — Reader-facing (table of contents). It should only link to manuscript paths, not to `docs/` workflow files.
+- **`index.md`** — Reader-facing (**Contents** list). It should only link to manuscript paths, not to `docs/` workflow files.
 - **Footnotes in chapters** — Reader-facing. Cite external works and URLs; avoid pointing readers at internal repo paths (`docs/…`, `book-rules.md`) unless you intend a private or technical edition.
 - **Cross-edition** — `when-others-look-to-you/v2/` is a separate manuscript tree; if it ships, apply the same reader/writer split under its own `front-matter/`, `parts/`, `back-matter/`, and `docs/`.
 

@@ -11,4 +11,4 @@ success is borrowing from, and what it is still preserving. **Legitimacy** is
 why people keep following, and what kind of permission they keep extending over
 time.
 
-Read them together. Let each lens correct the blind spots of the last.
+Read them together—what one lens softens, another can still surface.
