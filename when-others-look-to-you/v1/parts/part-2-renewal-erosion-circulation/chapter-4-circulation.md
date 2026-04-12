@@ -30,7 +30,7 @@ Influence still moves, but through channels the center already trusts. The peopl
 
 What travels is not flexibility to lead but a template for how leadership is performed here. **Erosion** can persist without a single villain; it only needs each cohort to learn, before they ever hold the title, whether stepping into the gap is safe.
 
-Under acute pressure, the same posture often shows up as “discipline.” Coordination outside the official chain is treated as bypass or leakage, not as the backup the work needs. Temporary leadership never earns room to form; the story stays about alignment with the chart. That is **circulation** captured under another name: pressure spikes, the official chain becomes the only legitimate story, and exceptions harden into habit.
+Under acute pressure, the same posture shows up as “discipline.” Coordination outside the official chain is treated as bypass or leakage, not as the backup the work needs. Temporary leadership never earns room to form; the story stays about alignment with the chart. That is **circulation** captured under another name: pressure spikes, the official chain becomes the only legitimate story, and exceptions harden into habit.
 
 ### **Who Gets Credit**
 
@@ -52,7 +52,7 @@ These dynamics do not stay in one room. They also copy forward—**Leadership Re
 What gets rewarded or punished locally becomes a template; people imitate it when they step into leadership next.
 :::
 
-It is not only mimicry of mannerisms. It copies permission. If stepping in was treated as out of line, the next person to hold formal authority will usually defend the same boundary—often sincerely, because that is what “leading here” was shown to mean. If shared leadership was welcomed and credited, the next person tends to inherit that habit too.
+It is not only mimicry of mannerisms. It copies permission. If stepping in was treated as out of line, the next person to hold formal authority will defend the same boundary—sincerely, because that is what “leading here” was shown to mean. If shared leadership was welcomed and credited, the next person tends to inherit that habit too.
 
 **Circulation** teaches people whether they are allowed to lead before they ever hold the role. By the time someone is promoted, the lesson has already landed.
 
@@ -60,9 +60,9 @@ It is not only mimicry of mannerisms. It copies permission. If stepping in was t
 
 Read the group without the org chart in front of you.
 
-When someone holds the center temporarily, does the room treat it as useful or as a problem to manage? When the formal lead is away, does work keep moving or freeze until the usual name returns? Who gets offered those temporary turns—only people already aligned with the center, or people who might disagree and still be trusted? When authority is handed off, what travels with the title: open paths for **correction**, or a warning that only certain people may steer?
+Watch how the room treats someone who holds the center temporarily—as useful work or as a problem to manage. Watch what happens when the formal lead is away: whether work keeps moving or freezes until the usual name returns. Watch who gets offered those temporary turns—only people already aligned with the center, or people who might disagree and still be trusted. Watch what travels when authority is handed off with the title: open paths for **correction**, or a quiet warning that only certain people may steer.
 
-If the answers skew narrow, **circulation** is likely captured even when **correction** still works on paper. What gets reproduced next is not a mystery. It is whatever this group just taught about who may lead, for how long, and at what price.
+When that read skews narrow, **circulation** is likely captured even when **correction** still works on paper. What gets reproduced next is not a mystery. It is whatever this group just taught about who may lead, for how long, and at what price.
 
 ::: {custom-style="Pull Quote Block"}
 Circulation copies permission before it ever copies a title.

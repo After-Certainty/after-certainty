@@ -2,8 +2,9 @@
 
 Knowing how misjudgment works does not repair a structure by itself.
 
-It does change what you can see, what you can refuse to excuse, and what you
-can still keep open when the baseline has already shifted.
+It does change what you can still notice: which excuses you stop recycling,
+which early signals you treat as real, and whether a channel for **correction**
+can stay open—or be pried back open—after the baseline has shifted.
 
-Next is what remains worth doing when no lens offers a simple verdict.
-Repair is more than a slogan. Collapse is not the only possible ending.
+What follows is what remains worth doing when no lens delivers a neat verdict.
+Repair is more than a slogan; collapse is not the only shape the pattern can take.

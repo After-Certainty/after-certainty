@@ -22,6 +22,86 @@ The reader should feel capable, not instructed.
 The writing should never sound like a manifesto, a management blog, or a
 social media thread.
 
+## **Interpretive register (watch, not checklist)**
+
+The manuscript trains **attention** and **observation**. It is not a toolkit,
+consulting rubric, or assessment instrument dressed as narrative.
+
+### **Governing posture**
+
+- Prefer **watch**, **read**, **notice**, **track**, **signals**, **shows**,
+  **lands**, and similar observation language when guiding the reader.
+- Avoid handing the reader an **evaluator’s tool**: steer away from **ask:**
+  plus bulleted questions, **when evaluating**, **use this test** / **apply
+  this test**, and subheadings built around **test** or **check** when the
+  section is teaching a **lens** (not reference catalog material).
+- Keep the **diagnostic substance**; change the **posture**. For example:
+  bulleted questions become **Watch whether…** prose; *one practical test*
+  becomes *one practical read* or *watch for*.
+
+### **Lists and rubric formatting**
+
+- Default remains **sustained prose** in chapter body and part bridges
+  (**Paragraph Grouping Rules** below).
+- Avoid **paired or stacked bullet lists** in close proximity (questions +
+  verdict, tests + early indicators, two “framework” lists back-to-back). That
+  pattern reads as a **deliverable**, not a lens. Merge into **continuous
+  prose**, or let a **vignette** carry the weight between ideas.
+- Short lists stay acceptable when they improve scanability: crisp examples,
+  contrasts, or mechanical sequences that are **not** formatted as an
+  assessment grid.
+- **Appendix B — Leadership Patterns** uses a **reference layout** by design; it
+  is not bound to the same contract as chapters.
+
+### **Pattern blocks and vignettes**
+
+- **Pattern callout blocks** and **vignettes** are already in the right
+  register. Preserve their formats (see **Callout blocks** and **Vignette
+  Convention** in this file). Do not convert them into checklists.
+
+### **Enumerated dynamics before vignettes**
+
+- When several **Pattern** titles appear in sequence before a vignette, avoid
+  **first / second / third** scaffolding that reads like a checklist. Prefer
+  one lead-in sentence that names the cluster, then the **Pattern** blocks
+  back-to-back, then the vignette.
+
+### **Chapter endings**
+
+- Prefer a closing that **sharpens what the reader still sees** (one vivid
+  question, image, or restatement of the lens) over a **closed verdict** or a
+  **checklist that resolves tension**.
+- **Chapter-End Pull-Quote Convention** still applies as the compressive final
+  beat.
+
+### **Part bridges**
+
+- Bridges should **add to what the reader is seeing**, not only **tell them
+  what is coming next**. If a bridge is pure navigation, cut it or replace it
+  with a concrete observation that earns the transition.
+
+### **Front and back matter**
+
+- Do not **redirect** readers to a **companion volume** before they have entered
+  the book’s argument. Keep companion invitations **late** (for example,
+  **Epilogue**), not as an early “read the other book first” hedge in the
+  **Author’s Note**.
+
+### **Hedges (`often`, `usually`)**
+
+- Treat dense **often** / **usually** stacking in analytic prose as a **rewrite
+  trigger**: many instances only soften claims that read more cleanly as direct
+  statements. Keep hedges where calibration is honestly needed—especially in
+  **pull-quotes** when claims are pattern-level rather than universal (**Chapter-End
+  Pull-Quote Convention**).
+
+### **Canonical examples**
+
+- Tiered chapter-level examples of this shift are documented in
+  `docs/revision-plan-register.md`. When in doubt, match **posture** to
+  finished chapters in **Part III–IV** and the **closing bridges**, not to
+  bullet-first “tests.”
+
 ## **Opening Definition (Anchor Sentence)**
 
 This definition must remain intact in tone and clarity:
@@ -203,7 +283,7 @@ same direct cadence as the rest of the book.
 
 - When adjacent short sentences can be merged without losing clarity, prefer consolidation.
 
-- Selective bulleted lists are allowed when they materially improve scanability (for example, short sets of examples, contrasts, or structural options), but should not replace sustained prose as the default mode.
+- Selective bulleted lists are allowed when they materially improve scanability (for example, short sets of examples, contrasts, or structural options), but should not replace sustained prose as the default mode. If bullets begin to read as an **assessment instrument** or **paired rubric lists**, apply **Interpretive register (watch, not checklist)** in this file and prefer prose.
 
 Prose should feel breathable but grounded — not staccato.
 
@@ -498,9 +578,10 @@ sound like weakness or moral fault.
 ## **Vocabulary Constraints**
 
 **Documentation map (*When Others Look to You*):** `book-rules.md` (this file)
-is the **single source of truth** for tone, sentence discipline, named
-dynamics, Pattern Block rules, **circulation** / **correction** wording, valence, and
-cross-cutting vocabulary guardrails. Use `editorial-vocabulary.md` as the
+is the **single source of truth** for tone, **interpretive register (watch, not
+checklist)**, sentence discipline, named dynamics, Pattern Block rules,
+**circulation** / **correction** wording, valence, and cross-cutting vocabulary
+guardrails. Use `editorial-vocabulary.md` as the
 **chapter-aware checklist** after plain-language passes. Use
 `pattern-integration-guide.md` for **placement** and introduction sequence of
 bold titles (editor workflow). Use `drafting-process.md` for **section workflow**
@@ -825,7 +906,7 @@ Not a person trying to win.
   or "process" when making analytical claims.
 
 - Prefer direct claim language over structural self-reference (for example:
-  "Selective followership matters when judging effectiveness," not
+  "Selective followership matters when reading effectiveness," not
   "Selective followership matters in this chapter.").
 
 - Exception: explicit navigation/handoff lines and headings are allowed

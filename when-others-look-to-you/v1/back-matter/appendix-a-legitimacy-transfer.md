@@ -16,17 +16,15 @@ At scale, powers used under one administration can become the expected
 baseline for the next. Permission can move forward faster than limits do,
 unless people actively renew those limits.
 
-Terms used below (aligned with the book's four legitimacy forms):
+The terms below match the book's four legitimacy forms. **Procedural
+legitimacy** names authority backed by formal process and role.
+**Office-based legitimacy** names authority backed by what the office is allowed
+to do, inherited from earlier use. **Sacralization pressure** names the moment
+when challenge starts to sound like disloyalty—to the person, the party, or the
+national story—a common way sacralized legitimacy shows up at scale.
 
-- Procedural legitimacy: authority backed by formal process and role.
-- Office-based legitimacy: authority backed by what the office is
-  allowed to do, inherited from earlier use.
-- Sacralization pressure: challenge starts to sound like disloyalty—to
-  the person, the party, or the national story. (This pressure is how
-  sacralized legitimacy as defined earlier in the book often shows up at scale.)
-
-The chapters also name example-based legitimacy. This appendix centers on
-the office, so that form matters less here—but it still belongs on the same map.
+The chapters also name example-based legitimacy. This appendix centers on the
+office, so that form matters less here—but it still belongs on the same map.
 
 ### **Case Sequence: Post-9/11 to Present**
 
@@ -40,12 +38,9 @@ Some measures were framed as temporary. Several became lasting precedents.
 This is a familiar transfer shape: authority used in crisis stays on the
 table after the crisis story fades.
 
-This phase in brief:
-
-- Main form: procedural legitimacy.
-- What shifted: emergency permissions granted by process widened what
-  the office was treated as allowed to do next.
-- Direction: procedural toward office-based expansion.
+In brief, the main form stayed **procedural legitimacy**, but emergency
+permissions granted by process widened what the office was treated as allowed to
+do next—the direction runs from procedural toward office-based expansion.
 
 #### **Barack Obama: Restraint Without Full Retraction**
 
@@ -57,28 +52,22 @@ The lesson is not hypocrisy or bad faith. It is about design.
 Holding back in use does not by itself roll back what the office already
 inherited.
 
-This phase in brief:
-
-- Main form: procedural legitimacy (restore-the-rules emphasis).
-- What shifted: tighter use of inherited powers without a full rollback
-  of what the office had gained.
-- Direction: office-based carryover with little procedural pull-back.
+In brief, the emphasis stayed **procedural legitimacy**—restore-the-rules
+rhetoric—while practice meant tighter use of inherited powers without a full
+rollback of what the office had gained: office-based carryover with little
+procedural pull-back.
 
 #### **Donald Trump: Personalization on an Inherited Base**
 
-The following phase intensified personalization. Disagreement was more
-often framed as disloyalty. Criticism of process was more often treated as
-a status fight.
+The following phase intensified personalization. Disagreement was framed as
+disloyalty; criticism of process, as a status fight.
 
 No entirely new constitutional design was required. The office already held
 wide permissions. That made it easier to personalize power at speed.
 
-This phase in brief:
-
-- Main form: office-based legitimacy.
-- What shifted: inherited office permissions were used to personalize
-  power. Challenge started to sound like betrayal.
-- Direction: office-based toward sacralization pressure.
+In brief, **office-based legitimacy** dominated: inherited office permissions
+were used to personalize power, and challenge started to sound like betrayal—the
+direction runs from office-based forms toward sacralization pressure.
 
 #### **Joe Biden: Procedural Restoration Under Inertia**
 
@@ -89,21 +78,15 @@ were stressed again.
 Inertia remained. Many inherited authorities stayed with the office even
 as talk shifted toward "back to normal."
 
-This phase in brief:
-
-- Main form: procedural legitimacy (renewed in language and process).
-- What shifted: procedural restoration ran inside office permissions that
-  only shrank slowly.
-- Direction: procedural repair on top of office-based inertia.
+In brief, **procedural legitimacy** renewed in language and process, but
+procedural restoration ran inside office permissions that only shrank slowly:
+procedural repair layered on top of office-based inertia.
 
 ### **What the Sequence Shows**
 
-Across these handoffs, a pattern appears:
-
-- Crisis widens authority fast.
-- Restraint can slow misuse but may not undo transfer.
-- Personalization can ride on inherited permissions.
-- Norms can come back before hard limits do.
+Across these handoffs, a pattern appears. Crisis widens authority fast.
+Restraint can slow misuse but may not undo transfer. Personalization can ride on
+inherited permissions. Norms can come back before hard limits do.
 
 The pattern is lopsided: expansion is easier than contraction unless people
 keep doing the work of limiting power over time.
@@ -130,4 +113,4 @@ transfer.
 The risk appears when transfer becomes automatic while limits become optional.
 
 Where authority can grow without people deliberately pulling it back,
-accountability tends to lag. Over time, that lag is where harm piles up.
+accountability lags. Over time, that lag is where harm piles up.

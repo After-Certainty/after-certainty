@@ -2,7 +2,7 @@
 
 ### **The Practical Problem**
 
-In real life, leadership is often judged too late.
+In real life, leadership is judged too late.
 
 We wait for visible outcomes, then decide whether someone was strong or
 weak, good or bad, successful or failed. By that point, many of the
@@ -21,7 +21,7 @@ From that anchor, the chapters move in layers:
 
 - **Part I** — How influence forms: attention, pattern, and the weight of being looked to.
 - **Part II** — **renewal**, **erosion**, and **circulation**: what it looks like when influence opens, narrows, or moves through people.
-- **Part III** — **harm**, **effectiveness**, and **legitimacy**: tests of what influence is producing, with **correction** and **circulation** threaded throughout.
+- **Part III** — **harm**, **effectiveness**, and **legitimacy**: lenses on what influence is producing, with **correction** and **circulation** threaded throughout.
 - **Part IV** — Scale, tradeoffs under pressure, and why observers misjudge leaders when signals travel far and late.
 - **Part V** — What Remains: what is still possible when structures drift and judgment fails anyway.
 
@@ -46,7 +46,7 @@ It is for:
 
 - People with formal authority.
 - People with informal influence.
-- People deciding how to evaluate authority in institutions they depend on.
+- People deciding how to read authority in institutions they depend on.
 
 If you have ever felt that something was wrong in a group before results
 made it obvious, this lens is for that feeling.

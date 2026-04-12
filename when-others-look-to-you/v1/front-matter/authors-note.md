@@ -12,9 +12,10 @@ an institution. But the pattern is the same: **Attention Finds a Focus**, and
 consequence follows.
 
 I wrote this book because that moment is common and under-described. We
-often evaluate leadership by results, confidence, or narrative identity.
-Those can matter, but they can also hide the deeper pattern. This book is
-an attempt to make that pattern easier to see.
+read leadership through results, confidence, or narrative identity before
+we read the structure underneath. Those surface signals can matter, but they
+can also hide the deeper pattern. This book is an attempt to make that pattern
+easier to see.
 
 ### **What This Book Tries to Do**
 
@@ -46,15 +47,4 @@ Erosion → Circulation.
 
 That chain is the thread you will see running through the chapters.
 
-### **A Companion Edition**
-
-There is a second book that uses the same pattern language—the same named
-dynamics you will meet here—but tells a different story with a different
-spine. It is subtitled *Forming, Renewing, Eroding, Repeating*. It walks one
-pattern per chapter, in order, and follows how moments chain into habit and
-how habit travels. It is neither a summary of this volume nor a sequel. It is
-a companion you can read before, after, or alongside.
-
-If you want the patterns in a single clear throughline, start there. If you
-want the thematic development of harm, legitimacy, scale,
-**circulation**, and **correction** that this book develops, you are already in the right place. The other book will still speak in the same vocabulary when you turn to it.
+A companion volume in the same pattern vocabulary—organized pattern-by-pattern rather than along this book’s spine—is named in the Epilogue for readers who want that path.

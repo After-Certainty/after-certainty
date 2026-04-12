@@ -44,15 +44,13 @@ and how decision-makers can still be challenged when needed.[^c2-voice-and-corre
 
 **Vitality** feels slower at first because it includes friction. Questions
 take time. Clarifications take time. Dissent takes time. But this
-apparent inefficiency is often what prevents larger collapse later.
+apparent inefficiency is what prevents larger collapse later.
 
 **Correction** names whether warnings, dissent, and
 on-the-ground information can reach decision-makers and change direction
 without punishment. **Circulation** names whether influence can move through temporary or shared leadership—not only outward from formal roles—so leadership can scale and reproduce itself.
 
-When **vitality** holds, three adjusting dynamics often line up:
-
-The first dynamic is **Dissent is Welcomed**.
+When **vitality** holds, **Dissent is Welcomed**, **Feedback Drives Change**, and **Leaders Feel the Consequences** tend to show up together—not as labels in isolation, but as what the group can still do when the work gets hard.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Dissent is Welcomed**
@@ -61,15 +59,11 @@ Dissent and risk signals can reach decision-makers in time. **Correction**
 stays possible.
 :::
 
-The second dynamic is **Feedback Drives Change**.
-
 ::: {custom-style="Pattern Block"}
 **Pattern: Feedback Drives Change**
 
 New information can still steer the work. Plans remain revisable while reality is still pushing back.
 :::
-
-The third dynamic is **Leaders Feel the Consequences**.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Leaders Feel the Consequences**

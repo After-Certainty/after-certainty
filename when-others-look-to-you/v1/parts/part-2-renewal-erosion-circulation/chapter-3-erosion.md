@@ -18,7 +18,7 @@ stories are repeated, which failures are forgiven, and which are hidden.
 Over time, repeated looking to the same person can harden until one decision
 route becomes the default and everyone waits for the same gate—**Leadership Coalesces**.
 
-Some groups deep in **decay** still scale for long periods. What usually drops
+Some groups deep in **decay** still scale for long periods. What drops
 first is room to change plans once they are in motion.
 
 Over time, the group learns a dangerous lesson: protecting the image is
@@ -26,14 +26,12 @@ more important than **correction**. Inconvenient facts are easier to let slide.
 What gets buried does not disappear—it shows up later as cost. Once that lesson
 settles, bad outcomes can increase while internal certainty also increases.
 
-This is why **erosion** often looks like stability to insiders. The same
+This is why **erosion** looks like stability to insiders. The same
 people stay in place. Meetings run on time. Plans look coherent. Language
 becomes smoother. But fewer channels stay open for bad news, and telling the
 truth costs more.
 
-When **decay** deepens, three eroding dynamics often show:
-
-The first dynamic is **Disagreement is Suppressed**.
+When **decay** deepens, **Disagreement is Suppressed**, **Learning Collapse**, and **Exceptions are Forever** stack: challenge starts to sound like disloyalty, what people on the ground know stops steering decisions in time, and temporary fixes outlast the emergency that justified them.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Disagreement is Suppressed**
@@ -41,18 +39,11 @@ The first dynamic is **Disagreement is Suppressed**.
 Challenge starts to sound like disloyalty. Open disagreement narrows to performances that protect the center.
 :::
 
-Even when talk continues, what people on the ground know may stop steering
-decisions in time. This leads to our second dynamic—**Learning Collapse**.
-
 ::: {custom-style="Pattern Block"}
 **Pattern: Learning Collapses**
 
 Ground experience stops reaching decision-makers in time. Negative feedback weakens. Drift continues behind strong narratives.
 :::
-
-Under pressure, temporary fixes can outlast the emergency that justified them.
-
-The third dynamic is **Exceptions are Forever**.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Exceptions are Forever**

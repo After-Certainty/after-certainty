@@ -22,7 +22,7 @@ The network did not become harmful because it grew. It became riskier because re
 
 **Scalability** and **adaptability** are the two measures: whether coordinated action can grow in reach, and whether it can change direction when reality pushes back. At larger scale, those questions stay the same—only distance and delay change.
 
-At scale, the test for **adaptability** is whether plans still move when the facts do—**Feedback Drives Change**.
+At scale, **adaptability** shows in whether plans still move when the facts do—**Feedback Drives Change**.
 
 The same two capacities sort groups on the grid—the **vibrant group** or **decaying group**. Scale changes how long each state can look solid from a distance.
 
@@ -32,12 +32,7 @@ At larger scale, entrenched patterns can look impressive for longer. Reach can e
 
 ### **Legitimacy Forms Under Scale**
 
-These four forms of **legitimacy** shift under scale:
-
-- Example-based legitimacy is strong at human scale but harder to preserve as distance grows.
-- Procedural legitimacy becomes necessary at larger scale, but can become mostly for show when people can challenge only on paper, not in practice.
-- Office-based legitimacy keeps continuity steady, but can pass permission forward faster than accountability moves with it.
-- Sacralized legitimacy becomes easier to entrench as layers build, distance grows, and dissent thins out. That can slide toward **Disagreement is Suppressed**.[^c8-legitimacy]
+Under scale, example-based **legitimacy** stays vivid at human distance but is harder to preserve as people get farther from what they can still witness. Procedural **legitimacy** becomes necessary, yet it can turn mostly for show when challenge is allowed on paper but not in practice. Office-based **legitimacy** steadies continuity, but it can move permission forward faster than accountability travels with it. Sacralized **legitimacy** is easier to entrench as layers build, distance grows, and dissent thins—sliding toward **Disagreement is Suppressed**.[^c8-legitimacy]
 
 Scale does not eliminate judgment. It changes how easily good judgment reaches the people who decide.
 

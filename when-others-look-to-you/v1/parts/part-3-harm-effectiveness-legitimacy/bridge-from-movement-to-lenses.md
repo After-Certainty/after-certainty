@@ -3,12 +3,13 @@
 The prior movement named direction in structural terms: **renewal**,
 **erosion**, and whether **circulation** stays open or gets captured.
 
-This part asks how to test that movement while it is still unfolding. Three
-lenses do that work: **harm**, **effectiveness**, and **legitimacy**.
+The chapters ahead look at the same movement through three lenses—**harm**,
+**effectiveness**, and **legitimacy**. Each one sharpens what the others leave
+soft; none of them is enough on its own.
 
-**Harm** asks where cost lands when influence scales. **Effectiveness** asks
-what success is borrowing from, and what it is preserving. **Legitimacy** asks
-why people continue to follow, and what kind of permission they are
-extending over time.
+**Harm** is where cost lands when influence scales. **Effectiveness** is what
+success is borrowing from, and what it is still preserving. **Legitimacy** is
+why people keep following, and what kind of permission they keep extending over
+time.
 
-None of these stands alone. Read them together.
+Read them together. Let each lens correct the blind spots of the last.
