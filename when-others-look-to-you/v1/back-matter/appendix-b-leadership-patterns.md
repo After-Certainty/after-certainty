@@ -3,7 +3,7 @@
 This appendix lists patterns from the book: how leadership forms, renews,
 erodes, and spreads. Four groups—**forming**, **adjusting**, **eroding**, and
 **circulating**—hold the entries. Each one notes when it shows up, what is
-happening, and what often comes next.
+happening, and what comes next.
 
 These are not prescriptions. They are things you can watch for in small groups,
 workplaces, and public life.
@@ -220,7 +220,7 @@ Where people decide and where costs land can drift apart.
 - Incentives favor visible wins over visible cost
 - In large settings, effects land unevenly
 - Distance makes harm easier to miss
-- Pushing pain downhill is often easier
+- Pushing pain downhill is easier
 
 **Observation:**
 

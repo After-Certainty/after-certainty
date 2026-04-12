@@ -59,9 +59,8 @@ procedural pull-back.
 
 #### **Donald Trump: Personalization on an Inherited Base**
 
-The following phase intensified personalization. Disagreement was more
-often framed as disloyalty. Criticism of process was more often treated as
-a status fight.
+The following phase intensified personalization. Disagreement was framed as
+disloyalty; criticism of process, as a status fight.
 
 No entirely new constitutional design was required. The office already held
 wide permissions. That made it easier to personalize power at speed.
@@ -114,4 +113,4 @@ transfer.
 The risk appears when transfer becomes automatic while limits become optional.
 
 Where authority can grow without people deliberately pulling it back,
-accountability tends to lag. Over time, that lag is where harm piles up.
+accountability lags. Over time, that lag is where harm piles up.

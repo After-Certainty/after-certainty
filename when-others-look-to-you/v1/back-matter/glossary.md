@@ -1,6 +1,6 @@
 # **Glossary**
 
-When a word appears in **bold** in the chapters, it usually marks a term the book uses in a fixed sense—**renewal** and **erosion**, **vibrant group** and **decaying group**, **circulation** and **correction**, **harm**, **legitimacy**, and others. This glossary gathers those terms in one place so you can look them up without rereading earlier chapters.
+**Bold** in the chapters marks terms this book uses in a fixed sense—**renewal** and **erosion**, **vibrant group** and **decaying group**, **circulation** and **correction**, **harm**, **legitimacy**, and others. Use this glossary to look them up without rereading earlier chapters.
 
 **Circulation** — Whether influence can move through temporary or shared leadership (including **guest leadership**) so that leadership can scale without fixing every role at the top—how leadership spreads and reproduces itself, including what **Leadership Reproduces Itself** tracks when people imitate what last worked. Not the same as **correction**: who may step in to lead is a different question than whether warnings and dissent can change decisions without punishment.
 
