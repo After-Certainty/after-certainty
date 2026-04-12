@@ -82,6 +82,7 @@ For each check, provide:
 - A brief summary of overall alignment
 - Any rule mismatches or weak spots
 - Any recommended fixes before review
+- Confirm **interpretive register** alignment (**Interpretive register (watch, not checklist)** in `book-rules.md`): observation language over checklist-style bullets, tests-as-headings, or evaluator framing in chapters and bridges
 - If pull-quotes are used in this manuscript, confirm expected pull-quote usage/placement for the chapter
 
 ## Step 4: Echo Pass (Repetition Check)
@@ -131,6 +132,7 @@ At minimum, check for:
 - Punctuation and consistency issues that reduce clarity
 - Pull-quote formatting consistency when pull-quotes are used (for example, no bold text inside pull-quotes)
 - Pull-quote confidence calibration against chapter evidence (avoid absolute pull-quote claims unless clearly justified)
+- **Interpretive register:** no new **ask:** + bullet question lists, stacked rubric lists, or **test/check** subheadings in chapter/bridge body prose unless the section is reference material (see **Interpretive register (watch, not checklist)** in `book-rules.md`)
 
 ## Step 5.5: Literary-Flow Micro-Pass
 
@@ -156,6 +158,7 @@ At minimum:
 
 - Replace avoidable jargon with common reader-facing wording.
 - Rewrite process-language phrasing ("test," "mechanism," "diagnostic," "run pass") into natural prose where possible.
+- Apply **interpretive register** cleanup: prefer **watch / read / notice / track** over **evaluate / assess** framing; convert checklist-shaped bullets into prose where they read as instruments (**Interpretive register (watch, not checklist)** in `book-rules.md`).
 - Keep core conceptual terms only when they are necessary to meaning.
 - Convert abstract phrasing into concrete language without flattening precision.
 - Confirm the section reads like book prose for readers, not internal workflow language.

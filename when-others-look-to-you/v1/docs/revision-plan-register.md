@@ -190,3 +190,15 @@ Apply these systematically throughout the manuscript.
 1. Complete all Tier 1 revisions as a full pass before touching anything else
 2. These revisions will establish the governing transformation and make Tier 2 easier to execute consistently
 3. Do bridge sections last — you'll have a better sense of what each part has become and the bridges will be easier to write true to that
+
+---
+
+## Preservation in house style
+
+Ongoing editorial work should **keep this register**, not only the specific
+chapter edits listed above. The durable rules live in **`docs/book-rules.md`**
+under **Interpretive register (watch, not checklist)**. Workflow hooks:
+**`docs/drafting-process.md`** (Steps 3, 5, 5.75) and grep-style reminders in
+**`docs/editorial-vocabulary.md`** (**Interpretive register (grep triggers)**).
+This file remains the **worked example / tier log**; when those docs conflict,
+**`book-rules.md` wins** (per the documentation map in that file).

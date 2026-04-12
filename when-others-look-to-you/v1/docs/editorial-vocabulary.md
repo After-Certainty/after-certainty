@@ -2,11 +2,23 @@
 
 This checklist captures **approved wording and pass outcomes** for *When Others Look to You*. Use it during **Step 5.75** (and any focused echo pass) so new drafts and revisions stay aligned.
 
-For global tone and universality rules, see `book-rules.md`. For where to place Pattern Blocks and inline anchors, see `pattern-integration-guide.md`. For **Pattern Block** production rules (heading line `**Pattern: Title**`, **positive-only** bodies for renewing dynamics, **Learning Collapse** vs **Learning Collapses**, negated-title capitalization), see `book-rules.md` (**Callout blocks** through **Learning Collapses** / **Learning Collapse**).
+For global tone and universality rules, see `book-rules.md`. For **interpretive register** (watch-not-checklist posture, list discipline, bridges, chapter endings), see **Interpretive register (watch, not checklist)** in `book-rules.md` and worked examples in `revision-plan-register.md`. For where to place Pattern Blocks and inline anchors, see `pattern-integration-guide.md`. For **Pattern Block** production rules (heading line `**Pattern: Title**`, **positive-only** bodies for renewing dynamics, **Learning Collapse** vs **Learning Collapses**, negated-title capitalization), see `book-rules.md` (**Callout blocks** through **Learning Collapses** / **Learning Collapse**).
 
 ---
 
 ## Cross-cutting
+
+### **Interpretive register (grep triggers)**
+
+Use during **Step 5**, **Step 5.75**, and echo passes after plain-language work. Full rules: **Interpretive register (watch, not checklist)** in `book-rules.md`.
+
+- **`ask:`** followed immediately by bullet questions → usually **checklist register**; convert to **Watch whether…** prose unless the material is internal `docs/` only.
+- **Subheadings** containing **Test** or **Check** (except Appendix B’s structured entries) → consider renaming toward **read / watch** posture (see finished Part III–IV chapters).
+- **`when evaluating`** → prefer **`when watching`** or observation-led phrasing.
+- **`use this test` / `apply this test` / `practical test`** → **`watch for`**, **`notice when`**, **`one practical read`**, or merge into prose.
+- **Stacked bullet lists** (two in a row that read as rubric + indicators) → merge to **one prose passage** or separate with a **vignette**.
+- **First / second / third dynamic** before **Pattern** blocks → prefer **one lead-in sentence** naming the cluster, then blocks, then vignette.
+- Dense **`often` / `usually`** in analytic prose → trim where claims stay accurate without hedging; keep calibration in **pull-quotes** when claims are pattern-level.
 
 ### **Transitions (no part or chapter labels)**
 
