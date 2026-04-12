@@ -237,6 +237,8 @@ At minimum:
 
 After each draft and revision, run a citation pass before the linkage check.
 
+For a **footnote ↔ definition balance check**, **bibliography coverage**, and **URL spot-checks**, see **`docs/citation-audit.md`** (regenerate or update that file when citations change materially).
+
 At minimum:
 
 - Add citation markers at major structural pivots and non-obvious claims
