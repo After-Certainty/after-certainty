@@ -4,9 +4,9 @@ Influence does not stay neutral once people begin to look in one direction.
 It starts moving.
 
 This part names that movement in three forms: **renewal**, **erosion**, and
-**circulation**. **Renewal** asks whether a group can keep changing course under
-pressure. **Erosion** asks what happens when correction narrows and exceptions
-quietly harden. **Circulation** asks whether leadership can move through people,
+**circulation**. **Renewal** tracks whether a group can keep changing course under
+pressure. **Erosion** tracks what happens when **correction** narrows and exceptions
+quietly harden. **Circulation** tracks whether leadership can move through people,
 or whether every decision keeps returning to the same gate.
 
 One way to read that movement is through two capacities: **scalability** (can

@@ -64,12 +64,12 @@ Under crisis pressure, displacement sharpens: harm is reframed as necessary, and
 ### **The Tournament Weekend**
 
 ::: {custom-style="Vignette Block"}
-A youth soccer club is one week out from hosting a regional tournament. A volunteer who helps maintain the fields notices a goal on the secondary pitch is still not anchored to code. She raises it at the coaches’ meeting. The club president answers, “Note it and play—we can’t slip the bracket; hotels are already full.” That first response is where **Examples Accumulate** for everything that happens afterward.
+A youth soccer club is one week out from hosting a regional tournament. A volunteer who helps maintain the fields notices a goal on the secondary pitch is still not anchored to code. She raises it at the coaches’ meeting. The club president answers, “Note it and play—we can’t slip the bracket; hotels are already full.” That first response is where the club learns what will count for everything that happens afterward.
 
 The tournament finishes on schedule. Sponsor photos look great. Two weeks later, angry calls roll in after a collision in front of a net that shifts. The volunteer who raised the warning is told to be “more of a team player” next time.
 :::
 
-This scene is not unusual. It shows harm displacement in compact form: risk moves outward to people affected by the decision and downward to those closest to the consequences while leadership protects a short-term story of success.
+This scene is not unusual. **Examples Accumulate** there: what gets rewarded or punished in that first beat trains everyone watching. It shows harm displacement in compact form: risk moves outward to people affected by the decision and downward to those closest to the consequences while leadership protects a short-term story of success.
 
 **Leaders Feel the Consequences** means people who decide stay tied to what their choices do to others. Costs and benefits stay visible where decisions are made. Accountability stays in view and does not quietly slide onto someone else.
 
@@ -83,7 +83,7 @@ Taking on cost can be responsible. It can also become distortion if it removes o
 
 If a leader repeatedly absorbs every consequence, teams may stop naming risk, peers may stop correcting decisions, and people farther from the front line may stop fixing what is broken. In that case, harm is not being reduced—it is being deferred and concentrated.
 
-A useful boundary question is this: does harm absorption increase shared responsibility, or replace it?
+One boundary read: does harm absorption increase shared responsibility, or replace it?
 
 When it increases shared responsibility, it builds trust and capacity. When it replaces responsibility, it weakens everyone else’s room to act and makes future harm more likely.
 
@@ -121,11 +121,11 @@ The harm pattern in a group is readable before anyone names it out loud. Watch w
 
 When those patterns have no clear read, **Leaders Do Not Feel the Consequences.** That opacity is itself the signal. Harm displacement rarely announces itself—it becomes harder and harder to trace who decided and who paid.
 
-### **Effectiveness as the Next Check**
+### **Effectiveness Next**
 
-Harm is the first check because it reveals reality quickly.
+Harm comes first in this sequence because it reveals reality quickly.
 
-The next question is why short-term effectiveness can hide long-term decay.
+The next lens is why short-term effectiveness can hide long-term decay.
 
 ::: {custom-style="Pull Quote Block"}
 Follow the damage path; it traces the protected edge.

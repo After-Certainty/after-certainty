@@ -3,7 +3,7 @@
 > **Generated file.** Do not edit by hand. Regenerate with:
 > `python3 scripts/readability_scores.py`
 
-**Last generated:** 2026-04-09 04:38 UTC
+**Last generated:** 2026-04-12 16:42 UTC
 
 ## Method
 
@@ -21,30 +21,30 @@
 |---|---|--:|--:|--:|--:|--:|--:|
 | Front matter | Title page | — | — | — | — | — | *insufficient text (1 words)* |
 | Front matter | Copyright | 13.2 | 12.3 | 15.7 | 24.8 | 6 | 82 |
-| Front matter | Author's note | 7.9 | 8.0 | 9.8 | 59.1 | 37 | 426 |
-| Front matter | Preface | 9.2 | 9.0 | 11.7 | 51.4 | 24 | 296 |
+| Front matter | Author's note | 8.1 | 8.0 | 10.5 | 56.5 | 30 | 334 |
+| Front matter | Preface | 9.1 | 8.9 | 11.7 | 52.0 | 24 | 298 |
 | Front matter | Acknowledgements | 8.0 | 7.5 | 7.4 | 71.5 | 16 | 305 |
-| Front matter | Introduction | 9.2 | 9.3 | 12.4 | 52.3 | 47 | 611 |
-| Front matter | Typographical conventions | 9.8 | 9.4 | 12.2 | 52.9 | 23 | 366 |
-| Part I | Bridge | 7.7 | 7.8 | 9.8 | 59.0 | 13 | 139 |
-| Part I | Ch 1 — The Weight of Being Looked To | 9.3 | 8.1 | 12.6 | 43.7 | 96 | 840 |
-| Part II | Bridge — From Formation to Movement | 10.1 | 9.8 | 14.0 | 43.3 | 12 | 140 |
-| Part II | Ch 2 — Renewal | 10.1 | 9.3 | 14.1 | 42.7 | 43 | 486 |
-| Part II | Ch 3 — Erosion | 9.0 | 9.1 | 12.7 | 50.2 | 31 | 344 |
-| Part II | Ch 4 — Circulation | 10.5 | 9.9 | 11.8 | 49.7 | 49 | 822 |
-| Part III | Bridge — From Movement to Lenses | 8.9 | 9.4 | 12.1 | 50.3 | 8 | 86 |
-| Part III | Ch 5 — Harm Under Influence | 9.9 | 9.1 | 13.1 | 46.9 | 95 | 1204 |
-| Part III | Ch 6 — Effectiveness and Its Illusions | 10.3 | 8.8 | 14.6 | 39.6 | 114 | 1190 |
-| Part III | Ch 7 — Legitimacy Over Time | 10.4 | 9.6 | 12.7 | 44.6 | 107 | 1441 |
-| Part IV | Bridge — From Structure to Scale and Judgment | 8.9 | 8.6 | 12.5 | 58.5 | 7 | 107 |
-| Part IV | Ch 8 — Scale and Drift | 9.8 | 8.5 | 12.4 | 47.8 | 44 | 565 |
-| Part IV | Ch 9 — Tradeoffs Under Pressure | 9.8 | 8.8 | 13.7 | 43.8 | 50 | 539 |
-| Part IV | Ch 10 — Why We Misjudge Leaders | 9.8 | 8.8 | 13.6 | 43.9 | 133 | 1407 |
-| Part V | Bridge — From Misjudgment to What Remains | 6.0 | 6.0 | 7.9 | 74.5 | 5 | 63 |
-| Part V | Ch 11 — What Happens Next | 9.6 | 9.6 | 12.4 | 51.2 | 54 | 762 |
-| Back matter | Epilogue | 8.6 | 8.4 | 11.4 | 50.9 | 41 | 401 |
-| Back matter | Appendix A — Legitimacy transfer | 10.7 | 8.8 | 13.4 | 36.9 | 67 | 692 |
-| Back matter | Appendix B — Leadership patterns | 8.7 | 8.2 | 12.1 | 55.3 | 112 | 1401 |
+| Front matter | Introduction | 8.8 | 9.0 | 11.9 | 54.6 | 48 | 609 |
+| Front matter | Typographical conventions | 10.4 | 10.2 | 11.9 | 50.5 | 27 | 455 |
+| Part I | Bridge | 7.6 | 7.8 | 9.7 | 59.4 | 13 | 138 |
+| Part I | Ch 1 — The Weight of Being Looked To | 9.3 | 8.1 | 12.6 | 44.1 | 94 | 838 |
+| Part II | Bridge — From Formation to Movement | 9.8 | 9.7 | 13.8 | 45.7 | 12 | 140 |
+| Part II | Ch 2 — Renewal | 9.9 | 9.3 | 13.6 | 44.6 | 42 | 488 |
+| Part II | Ch 3 — Erosion | 9.3 | 9.4 | 13.3 | 48.9 | 27 | 315 |
+| Part II | Ch 4 — Circulation | 10.6 | 9.9 | 11.5 | 51.3 | 97 | 1761 |
+| Part III | Bridge — From Movement to Lenses | 9.1 | 9.3 | 12.1 | 53.3 | 7 | 93 |
+| Part III | Ch 5 — Harm Under Influence | 9.5 | 9.0 | 12.7 | 49.0 | 102 | 1283 |
+| Part III | Ch 6 — Effectiveness and Its Illusions | 10.3 | 8.9 | 14.4 | 41.2 | 106 | 1173 |
+| Part III | Ch 7 — Legitimacy Over Time | 10.4 | 9.6 | 12.6 | 46.1 | 107 | 1555 |
+| Part IV | Bridge — From Structure to Scale and Judgment | 8.7 | 8.3 | 12.2 | 60.1 | 7 | 107 |
+| Part IV | Ch 8 — Scale and Drift | 9.9 | 8.6 | 12.4 | 47.7 | 43 | 566 |
+| Part IV | Ch 9 — Tradeoffs Under Pressure | 10.0 | 9.1 | 13.3 | 45.5 | 47 | 583 |
+| Part IV | Ch 10 — Why We Misjudge Leaders | 9.5 | 8.8 | 13.1 | 46.5 | 132 | 1441 |
+| Part V | Bridge — From Misjudgment to What Remains | 8.9 | 7.2 | 9.4 | 67.0 | 4 | 80 |
+| Part V | Ch 11 — What Happens Next | 9.9 | 9.8 | 12.3 | 51.6 | 55 | 839 |
+| Back matter | Epilogue | 10.0 | 9.7 | 12.1 | 47.7 | 33 | 456 |
+| Back matter | Appendix A — Legitimacy transfer | 11.4 | 9.5 | 13.8 | 34.0 | 58 | 685 |
+| Back matter | Appendix B — Leadership patterns | 8.6 | 8.2 | 12.1 | 55.3 | 112 | 1400 |
 | Back matter | Bibliography | 9.4 | 6.0 | 10.8 | 35.1 | 100 | 426 |
 
 ## Source paths

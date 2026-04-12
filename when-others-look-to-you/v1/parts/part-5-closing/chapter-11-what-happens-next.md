@@ -8,7 +8,7 @@ A leader is someone others look to when deciding what to do next.
 
 That is the moment **Attention Finds a Focus**.
 
-The final question is not whether others look. It is what that looking builds over time.
+The live issue is not whether others look. It is what that looking builds over time.
 
 ### **The Integrated View**
 
@@ -32,7 +32,7 @@ Repeated choices push structure one of two ways:
 
 These are not personality types. They are where decisions accumulate—a direction you reinforce or interrupt, not a one-time switch.
 
-**Feedback Drives Change**: can plans change when the facts push back?
+**Feedback Drives Change** when plans can still move because the facts push back.
 
 ### **When the Baseline Has Already Shifted**
 
@@ -48,11 +48,11 @@ Repair at this stage is uneven, local, and slow—realistic, not trivial.
 
 **Correction** can interrupt error. It helps a center hear what it would rather not hear and change course before damage spreads.
 
-But **correction** alone does not redistribute who gets to lead. A group can accept criticism and still route every consequential decision through the same few people. That can produce local repair without structural renewal.
+But **correction** alone does not redistribute who gets to lead. A group can accept criticism and still route every consequential decision through the same few people. That can produce local repair without structural renewal. Meanwhile the **permission** structure still teaches who may steer through every credited or punished step-in—often before anyone tests it under pressure—and judgment at the edges stays unpracticed until the test arrives.
 
 **Circulation** changes that condition. When leadership can be shared, temporarily handed off, and returned without penalty, people learn leadership from inside the role. What gets reproduced is not only compliance with a center, but distributed capacity to notice, decide, and adjust.
 
-That is the closing distinction: **correction** is a mechanism of repair. **Circulation** is a mechanism of renewal. Without circulation, gains remain fragile. With it, the next round of leadership can carry different habits than the last.
+That is the closing distinction: **correction** is a mechanism of repair. **Circulation** is a mechanism of renewal—renewal of who can hold the live decision point, not only of the center's next choice. Without circulation, gains remain fragile. With it, the next round of leadership can carry different habits than the last, including a bench that has practiced stepping in and stepping back.
 
 ### **A Practical Discipline**
 
@@ -70,4 +70,4 @@ The slower question is what remains possible when keeping damage from spreading 
 Focused attention is not destiny; repetition is.
 :::
 
-What outlasts any single leader still turns on whether **circulation** stays open—in who is permitted to hold the floor when it counts, not only on the chart.
+What outlasts any single leader still turns on whether **circulation** stays open—on **permission** for who may hold the floor when it counts, not only on the chart.

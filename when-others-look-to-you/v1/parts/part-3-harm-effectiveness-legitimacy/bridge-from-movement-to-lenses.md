@@ -1,7 +1,6 @@
 # **Bridge — From Movement to Lenses**
 
-The prior movement named direction in structural terms: **renewal**,
-**erosion**, and whether **circulation** stays open or gets captured.
+**Renewal**, **erosion**, and **circulation**—open or captured—describe how influence moves in structural terms.
 
 The chapters ahead look at the same movement through three lenses—**harm**,
 **effectiveness**, and **legitimacy**. Each one sharpens what the others leave
@@ -12,4 +11,4 @@ success is borrowing from, and what it is still preserving. **Legitimacy** is
 why people keep following, and what kind of permission they keep extending over
 time.
 
-Read them together. Let each lens correct the blind spots of the last.
+Read them together—what one lens softens, another can still surface.

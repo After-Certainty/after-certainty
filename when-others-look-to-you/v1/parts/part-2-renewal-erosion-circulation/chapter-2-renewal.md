@@ -20,11 +20,11 @@ condition are not the same thing, and neither is a verdict on character: good
 intentions can still yield **erosion**, and flawed people can still sustain
 **renewal**. The distinction is structural—what the group does under pressure—not purity.
 
-Read the movement through two capacities: **scalability** (can coordinated
+Two capacities carry most of the structural read: **scalability** (can coordinated
 action grow in reach?) and **adaptability** (can it change direction when
 reality pushes back?). **Erosion** shows when either capacity shrinks. How
-those capacities combine into named states is a structural question; here
-the focus is what **vitality** looks like when **renewal** holds.
+those capacities combine into named states is a structural question; this
+chapter stays with what **vitality** looks like when **renewal** holds.
 
 ### **What Vitality Looks Like**
 
@@ -55,8 +55,8 @@ When **vitality** holds, **Dissent is Welcomed**, **Feedback Drives Change**, an
 ::: {custom-style="Pattern Block"}
 **Pattern: Dissent is Welcomed**
 
-Dissent and risk signals can reach decision-makers in time. **Correction**
-stays possible.
+Dissent and risk signals can reach decision-makers in time. Warnings can
+still change direction without punishment.
 :::
 
 ::: {custom-style="Pattern Block"}

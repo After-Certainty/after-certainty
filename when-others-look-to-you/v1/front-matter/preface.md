@@ -9,7 +9,7 @@ weak, good or bad, successful or failed. By that point, many of the
 important structural choices have already hardened. Patterns are already
 being copied. Harm has already been distributed.
 
-This book works earlier in the sequence. It asks what can be seen while
+This book works earlier in the sequence. It stays with what can be seen while
 influence is still forming.
 
 ### **The Frame**

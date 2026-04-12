@@ -29,7 +29,7 @@ Pressure response reveals which state a group is in more clearly than routine co
 
 Under pressure, the **vibrant group** and **decaying group** pay different costs when course change must happen fast.
 
-Crisis is a diagnostic, not only a disruption.
+Crisis sharpens what you can read from the structure; it is not only a disruption.
 
 ### **Crisis Across the Lenses**
 
@@ -53,12 +53,12 @@ Frontline teams also report repeated blind spots in neighborhood access,
 but route corrections are delayed because the temporary command protocol
 blocks local overrides.
 
-In crisis, that trade is one way **Examples Accumulate** can undercut evidence
-that **correction** is still working.
-
 Months later, the storm is over, but the centralized approval path
 remains. Officials describe it as "proven under pressure."
 :::
+
+In crisis, that trade is one way **Examples Accumulate** can undercut evidence
+that **correction** is still working.
 
 The tradeoff worked at first; drift came when rules meant for emergencies became
 the everyday way decisions get made. That is **Exceptions are Forever**:

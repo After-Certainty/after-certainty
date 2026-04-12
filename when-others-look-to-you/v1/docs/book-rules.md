@@ -538,12 +538,13 @@ titles already defined (see `pattern-integration-guide.md`, **Rule 8**).
 
 ### **Circulation and Correction**
 
-The manuscript distinguishes two structural senses that older drafts sometimes folded into “circulation”:
+The manuscript distinguishes **correction** from **circulation**—two structural senses older drafts sometimes folded into one word—and spells out how **circulation** reads in practice through **permission** (below):
 
 - **Circulation** — whether influence can move through temporary or shared leadership (including guest leadership) so leadership scales and reproduces itself; what **Leadership Reproduces Itself** tracks when people imitate what last worked.
 - **Correction** — whether warnings, dissent, and on-the-ground information can reach decision-makers and change direction without punishment (return paths for feedback and revision).
+- **Permission** (with **circulation**) — How **circulation** reads in practice is not only what the chart allows but what the group teaches after a step-in: credit, welcome-back, whether the afterward story frames the move as useful work or damage control. The **permission question** (whether stepping in, being credited, and stepping back are safe in practice) is defined under **Circulation** in `glossary.md`. In running prose, bold **permission** when the sentence means that structural read, not ordinary English (*permission to speak*, bureaucratic *permissions*, and similar).
 
-- In reader-facing manuscript, use the precise term the sentence needs; bold **circulation** and **correction** (and other glossary terms) when they carry the book’s fixed structural sense—the same convention as **renewal**, **harm**, **legitimacy**, and the rest: follow normal capitalization (**Correction** at the start of a sentence, **correction** in the middle; likewise **Circulation** / **circulation**). Use ordinary English (*feedback*, *revision*, *circulating*) when you do not mean the glossary terms. **Do not** wrap glossary terms in links to `glossary.md` (bold only); links were distracting in ePub and are not used.
+- In reader-facing manuscript, use the precise term the sentence needs; bold **circulation**, **correction**, and **permission** (when structural, per above) alongside other glossary terms when they carry the book’s fixed structural sense—the same convention as **renewal**, **harm**, **legitimacy**, and the rest: follow normal capitalization (**Correction** at the start of a sentence, **correction** in the middle; likewise **Circulation** / **circulation**). Use ordinary English (*feedback*, *revision*, *circulating*) when you do not mean the glossary terms. **Do not** wrap glossary terms in links to `glossary.md` (bold only); links were distracting in ePub and are not used.
 
 ### **Word valence: forming and adjusting vs eroding**
 
@@ -585,8 +586,11 @@ guardrails. Use `editorial-vocabulary.md` as the
 **chapter-aware checklist** after plain-language passes. Use
 `pattern-integration-guide.md` for **placement** and introduction sequence of
 bold titles (editor workflow). Use `drafting-process.md` for **section workflow**
-and which passes to run. Use `circulation-cross-cutting.md` for terminology and
-structure notes on **correction** / **circulation**. If guidance in another doc disagrees with this file,
+and which passes to run; each **editorial pass** includes **`typography-check.md`**
+mechanical scans (Pull Quote / Vignette / Pattern Block formatting). Use `circulation-cross-cutting.md` for terminology and
+structure notes on **correction** / **circulation**. Use `reader-facing-scope.md`
+for **which paths are reader-facing vs writer-facing** and a **grep pass** to
+keep production language out of shipped prose. If guidance in another doc disagrees with this file,
 **follow this file** and update the other doc.
 
 **When Others Look to You — enforced checklist:** After plain-language or

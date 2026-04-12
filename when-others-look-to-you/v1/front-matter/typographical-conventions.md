@@ -13,7 +13,7 @@ literal and navigational.
 Sub-headings are used when the argument makes a meaningful shift.
 They are meant to orient you, not to dramatize the prose.
 
-**Capitalization.** Sub-headings use title case (Chicago): capitalize principal words; lowercase articles (*a*, *an*, *the*), coordinating conjunctions (*and*, *but*, *or*), and short prepositions (*as*, *at*, *by*, *in*, *of*, *on*, *to*) in the middle of the title unless they are first or last. Category names that are lowercase in prose still take title case in headings (for example: *Vibrant Group* / *Decaying Group* in `Circulation in the Vibrant Group`). **Appendix B** keeps Pattern titles exactly as defined. Full rule: `book-rules.md`, **Heading capitalization (manuscript)**.
+**Capitalization.** Sub-headings use title case (Chicago): capitalize principal words; lowercase articles (*a*, *an*, *the*), coordinating conjunctions (*and*, *but*, *or*), and short prepositions (*as*, *at*, *by*, *in*, *of*, *on*, *to*) in the middle of the title unless they are first or last. Category names that are lowercase in prose still take title case in headings (for example, *Vibrant Group* and *Decaying Group* in a title such as *Circulation in the Vibrant Group*). **Appendix B** keeps each **Pattern** title exactly as it appears in that appendix.
 
 Most chapters close with a short pull-quote that distills the chapter’s
 core takeaway.
@@ -67,7 +67,7 @@ current context.
 
 In body prose, the same bold titles may appear again as short anchors outside
 these blocks. They work like fixed titles, not ordinary nouns: the sentence
-should still read naturally if you imagine the emphasis removed. When the same
+should still read naturally if you read past the emphasis. When the same
 idea returns, the book usually repeats the title rather than calling it a
 “pattern.”
 

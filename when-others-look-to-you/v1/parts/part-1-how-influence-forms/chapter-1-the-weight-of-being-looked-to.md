@@ -118,7 +118,7 @@ When others are looking, very little is neutral.
 
 ### **The Core Question**
 
-The question is less whether others will look, and more what happens
+The live question is less whether others will look, and more what happens
 next.
 
 Does influence stay open to **correction**? Does belief renew through
@@ -133,7 +133,7 @@ gate—patterns visible in ordinary choices long before the outcome is clear.
 Once people are watching, your behavior teaches what counts as normal.
 :::
 [^c1-working-definition]: Foundational references for authority and legitimacy framing: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*; Hannah Arendt, "What Is Authority?" in *Between Past and Future*.
-[^c1-attention-and-leadership]: Alistair Cockburn, "How to Step Up Stepping Up: Promoting Guest Leadership for Successful Collaboration," Cutter Business Technology Journal, Vol. 30, No. 1 (2017), https://www.cutter.com/article/how-step-stepping-promoting-guest-leadership-successful-collaboration-494516.
+[^c1-attention-and-leadership]: Alistair Cockburn, "How to Step Up Stepping Up: Promoting Guest Leadership for Successful Collaboration," *Cutter IT Journal*, https://www.cutter.com/article/how-step-stepping-promoting-guest-leadership-successful-collaboration-494516.
 [^c1-modeling-and-signals]: Albert Bandura, *Social Learning Theory* (Englewood Cliffs, NJ: Prentice Hall, 1977).
 [^c1-norm-formation]: Robert B. Cialdini, Raymond R. Reno, and Carl A. Kallgren, "A Focus Theory of Normative Conduct," *Journal of Personality and Social Psychology* 58, no. 6 (1990): 1015–1026.
 [^c1-silence-and-accountability]: Amy C. Edmondson, "Psychological Safety and Learning Behavior in Work Teams," *Administrative Science Quarterly* 44, no. 2 (1999): 350–383.

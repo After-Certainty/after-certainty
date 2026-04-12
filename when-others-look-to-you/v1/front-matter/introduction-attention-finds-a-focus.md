@@ -61,7 +61,7 @@ Structure → Renewal or Erosion → Circulation.
 
 Part I establishes that chain. Part II names **renewal**, **erosion**, and **circulation**—what it looks like when influence opens, narrows, or moves through people. Part III takes up harm, effectiveness, and legitimacy as lenses on what influence is producing. **Circulation** and **correction** run through those parts—whether influence can move through temporary leadership so leadership scales, and whether warning and dissent can still change direction.
 
-Part IV takes up scale, tradeoffs under pressure, and why observers misjudge leaders when signals travel far and late. Part V asks what is still possible when structures drift and judgment fails anyway.
+Part IV takes up scale, tradeoffs under pressure, and why observers misjudge leaders when signals travel far and late. Part V takes up what is still possible when structures drift and judgment fails anyway.
 
 Those dynamics also gather into four shapes: **Forming**, **Adjusting**,
 **Eroding**, and **Circulating**. **Forming** is where live conditions get
@@ -72,8 +72,8 @@ for a phase—temporary or shared leadership—and who is treated as *allowed* t
 steer before titles change. Copied habit and copied permission both feed the
 next round of formation.
 
-Crisis is treated as a recurring thread across the manuscript, with its
-strongest integration where scale and pressure enter—late in the arc.
+Crisis runs as a recurring thread through the book, with its strongest
+integration where scale and pressure enter—late in the arc.
 
 The aim is not to condemn people; it is to clarify dynamics.
 

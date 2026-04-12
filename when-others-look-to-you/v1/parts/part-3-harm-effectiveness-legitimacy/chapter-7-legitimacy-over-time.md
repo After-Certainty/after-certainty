@@ -171,15 +171,19 @@ decision without punishment.
 
 **Circulation** is whether influence can still move out from formal
 leaders and back toward them through people who step up for a moment, then step
-back.
+back. How those episodes are treated feeds **legitimacy** as well as throughput:
+**permission**—what the room teaches after someone leads without being the usual
+name—accumulates in the same **vibrant** or **decaying** habits **circulation**
+describes, so who counts as a leader and who people will still follow do not stay
+separate questions for long.
 
 ### **Correction Signals**
 
-Selective followership is a **correction** signal. When selective dissent is open and discussable, **correction** is still working. When people shift to quiet workarounds, private refusal, and strategic silence, **correction** is weakening.
+Beyond **selective followership**, other **correction** signals show up in what you can watch over time: whether bad news travels upward without career penalty; whether dissent can change a decision before execution; whether leaders explain revision when they change course; and whether, after conflict, trust increases or contracts.
 
-The same read shows up in what you can watch over time: whether bad news travels upward without career penalty; whether dissent can change a decision before execution, including temporary step-in leadership by people closest to the problem; whether leaders explain revision when they change course; and whether, after conflict, trust increases or contracts.
+**Circulation** leaves a different set of traces—not whether feedback reaches the center, but what the room teaches after someone who is not the usual name holds it. Watch whether step-ins are credited and named, whether people are welcome back into the decision ring, and whether the afterward story reads as useful work or as damage control. Those are **permission** signals. They narrow or widen before the next crisis tests who may steer.
 
-When most of that reads as no, authority is becoming one-way.
+When most of the **correction** list reads as no, authority is becoming one-way. When **permission** reads cold, people still learn to wait for the usual gate—even when the work has already moved on.
 
 ### **How Correction and Circulation Shape Renewal and Erosion**
 
@@ -189,8 +193,9 @@ It lets a growing organization spot drift early and buy time to adjust before
 harm spreads. It helps legitimacy hold under pressure. It does not remove
 conflict; it keeps conflict open to revision.
 
-**Circulation** also helps groups grow. People nearest the shifting facts can
-step in, fix things locally, and send what they learned back to the center.
+**Circulation** also helps groups grow when **permission** lets people nearest
+the shifting facts step in, fix things locally, and send what they learned back
+to the center.
 
 When **correction** weakens, decay appears before leaders can name it.
 What got rewarded or punished while **correction** narrowed is what the next

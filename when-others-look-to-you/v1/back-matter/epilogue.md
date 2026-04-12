@@ -2,7 +2,7 @@
 
 This book began with a simple definition: a leader is someone others look to when deciding what to do next.
 
-By the end, the question is no longer abstract. It is practical: what happens when authority has already traveled farther than accountability?
+By the end, the issue is no longer abstract. It is practical: what happens when authority has already traveled farther than accountability?
 
 Some readers arrive here hoping for a clean reversal strategy. Reversal is not always possible.
 
@@ -24,7 +24,7 @@ None of this guarantees a happy ending.
 
 It does something quieter and more realistic: it reduces how much harm can be normalized, inherited, and repeated.
 
-Without that work, decisions may never reconnect with who bears the cost. That disconnect is what **Leaders Feel the Consequences** is meant to track. Harm becomes a durable norm rather than an intermittent failure.
+Without that work, decisions may never reconnect with who bears the cost. That disconnect is what **Leaders Feel the Consequences** points to. Harm becomes a durable norm rather than an intermittent failure.
 
 If reading this book changes what you tolerate, what you reward, and what you refuse to excuse, you are already changing how **Leadership Reproduces Itself**. Anyone who takes cues from how you lead is caught in that movement.
 

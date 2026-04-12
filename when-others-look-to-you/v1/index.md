@@ -2,7 +2,7 @@
 
 ## **Renewal and Erosion in Leadership**
 
-### **Manuscript Index**
+### **Contents**
 
 ## Front Matter
 
