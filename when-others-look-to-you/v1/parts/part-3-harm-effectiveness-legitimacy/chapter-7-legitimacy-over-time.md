@@ -171,7 +171,13 @@ decision without punishment.
 
 **Circulation** is whether influence can still move out from formal
 leaders and back toward them through people who step up for a moment, then step
-back.
+back. That movement has a **legitimacy** dimension, not only an effectiveness
+one: credited temporary leadership widens who the group believes may hold the
+center; uncredited or punished step-ins narrow that belief. **Permission**—what
+the room teaches after someone leads without being the usual name—accumulates
+in the same **vibrant** or **decaying** habits **circulation** describes, so
+who counts as a leader and who people will still follow do not stay separate
+questions for long.
 
 ### **Correction Signals**
 

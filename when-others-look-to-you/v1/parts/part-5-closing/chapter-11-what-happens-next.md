@@ -48,11 +48,11 @@ Repair at this stage is uneven, local, and slow—realistic, not trivial.
 
 **Correction** can interrupt error. It helps a center hear what it would rather not hear and change course before damage spreads.
 
-But **correction** alone does not redistribute who gets to lead. A group can accept criticism and still route every consequential decision through the same few people. That can produce local repair without structural renewal.
+But **correction** alone does not redistribute who gets to lead. A group can accept criticism and still route every consequential decision through the same few people. That can produce local repair without structural renewal. Meanwhile the **permission** structure still teaches who may steer through every credited or punished step-in—often before anyone tests it in a crisis—and judgment at the edges stays unpracticed until pressure arrives.
 
 **Circulation** changes that condition. When leadership can be shared, temporarily handed off, and returned without penalty, people learn leadership from inside the role. What gets reproduced is not only compliance with a center, but distributed capacity to notice, decide, and adjust.
 
-That is the closing distinction: **correction** is a mechanism of repair. **Circulation** is a mechanism of renewal. Without circulation, gains remain fragile. With it, the next round of leadership can carry different habits than the last.
+That is the closing distinction: **correction** is a mechanism of repair. **Circulation** is a mechanism of renewal—renewal of who can hold the live decision point, not only of the center's next choice. Without circulation, gains remain fragile. With it, the next round of leadership can carry different habits than the last, including a bench that has practiced stepping in and stepping back.
 
 ### **A Practical Discipline**
 

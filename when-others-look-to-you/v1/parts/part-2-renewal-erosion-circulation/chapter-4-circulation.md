@@ -6,7 +6,7 @@
 
 **Circulation** asks whether the permission structure allows someone to lead temporarily, share the lead, and hand it off when the problem demands it—without treating every step as a challenge to formal authority. Influence needs to move *through* the group, not only *outward from* a fixed center, if coordinated action is to stay revisable as reach grows.
 
-Guest leadership—stepping up for a stretch, then stepping back—depends on that permission.[^c4-guest-leadership] The idea is familiar in collaborative work: leadership as a guest role that passes with the problem, not a permanent occupancy of every decision. What makes it possible is still the group's answer to the permission question—whether stepping back is as safe as stepping up was welcome. Where **circulation** is narrow, the org chart can look healthy while every real decision still waits for the same gate.
+Guest leadership—stepping up for a stretch, then stepping back—depends on that permission.[^c4-guest-leadership] In collaborative work it often shows up as a role that passes with the problem, not a permanent claim on every decision. What makes it possible is still the group's answer to the permission question—whether stepping back is as safe as stepping up was welcome. Where **circulation** is narrow, the org chart can look healthy while every real decision still waits for the same gate.
 
 ### **The Permission Question**
 
@@ -46,13 +46,13 @@ A group that hasn't circulated doesn't just produce a thin bench—it produces a
 
 ### **Circulation and Legitimacy**
 
-There is a legitimacy question inside **circulation** that sits beneath the effectiveness one. When someone steps in and is credited—visibly, by name, in the room where it happened—the group learns something about who is allowed to lead. Not from a policy, but from what they witnessed. That witnessing is how informal permission spreads: not through announcement but through accumulated example. The group that circulates leadership is also, quietly, expanding its own sense of who counts as a leader. The group that captures it is narrowing that sense with each uncredited step-in, each person thanked in a way that felt like a warning, each moment where the room closed around someone who held the center and then stepped back.
+There is a legitimacy question inside **circulation** that sits beneath the effectiveness one. When someone steps in and is credited—visibly, by name, in the room where it happened—the group learns something about who is allowed to lead. Not from a policy, but from what they witnessed. That witnessing is how informal permission spreads: not through announcement but through accumulated example. The group that circulates leadership is also, quietly, expanding its own sense of who counts as a leader. The group that captures it narrows that sense with each uncredited step-in and each moment the room closes after someone held the center and stepped back.
 
 When stepping in consistently goes uncredited or is treated as overreach, the group learns that legitimacy belongs only to certain people, that it doesn't transfer through action, that authority is positional rather than earned in the moment. The full framework for **legitimacy** comes later; for now, the point is that **circulation** is not only about whether the work gets done. It is about what the group comes to believe about who may lead—and those beliefs harden long before anyone reads an org chart.
 
 ### **Circulation in the Vibrant Group**
 
-When **circulation** works, temporary leadership reads as legitimate work, not as a coup. Permission reads as open not because it was declared in a meeting but because the examples that accumulated made it readable as open: step-ins credited, people welcomed back into the ring, the story afterward about useful work rather than damage control. The lead passes to whoever is closest to the shifting facts. People cover for each other without turning coverage into humiliation or invisibility: the person who stepped in is visible, credited, and welcome to step back when the crisis passes.
+When **circulation** works, temporary leadership reads as legitimate work, not as a coup. Permission reads as open not because it was declared in a meeting but because conduct over time made it readable as open: step-ins credited, people welcomed back into the ring, the afterward story about useful work rather than damage control. The lead passes to whoever is closest to the shifting facts. People cover for each other without turning coverage into humiliation or invisibility: the person who stepped in is visible, credited, and welcome to step back when the crisis passes.
 
 They learn leadership from inside the role—not only from watching someone else hold it. What spreads is the capacity for **correction**, adaptation, and shared authority. When formal leadership turns over, the new person inherits the position *and* inherits a culture where being challenged in the chair is still normal. **Renewal** at the center and **circulation** through the bench reinforce each other: the center stays revisable because the bench has practiced holding it, and the bench stays trustworthy because the center does not treat every temporary lead as a threat.
 
@@ -62,7 +62,7 @@ They learn leadership from inside the role—not only from watching someone else
 
 Influence still moves, but through channels the center already trusts. The people invited to "step up" are the ones who have shown they will not disturb the pattern. Temporary authority becomes a reward for alignment, not a test of judgment. The group can look busy developing leaders while it rehearses the same blind spots: the same exceptions, the same insulation, the same quiet limits on what may be said.
 
-What travels is not flexibility to lead but a template for how leadership is performed here—and, underneath that, a practiced incapacity. People don't only learn the wrong lesson; they don't practice the right one. The edges never rehearse holding the center, so judgment atrophies where early warning would have lived. **Erosion** can persist without a single villain; it only needs each cohort to learn, before they ever hold the title, whether stepping into the gap is safe.
+What travels is not flexibility to lead but a template for how leadership is performed here—and, underneath that, a practiced incapacity at the edges. People learn the wrong lesson and never rehearse holding the center. **Erosion** can persist without a single villain; it only needs each cohort to learn, before they ever hold the title, whether stepping into the gap is safe.
 
 Under acute pressure, the same posture shows up as "discipline." Coordination outside the official chain is treated as bypass or leakage, not as the backup the work needs. Temporary leadership never earns room to form; the story stays about alignment with the chart. That is **circulation** captured under another name: pressure spikes, the official chain becomes the only legitimate story, and exceptions harden into habit.
 
@@ -94,7 +94,7 @@ It is not only mimicry of mannerisms. It copies permission. If stepping in was t
 
 You can read the group without the org chart in front of you—less by interrogating it than by watching what it does when someone holds the center for a stretch.
 
-Notice how the room treats that person: as useful work or as a problem to manage. Notice what happens when the formal lead is away—whether work keeps moving or freezes until the usual name returns. Notice who gets offered those temporary turns: only people already aligned with the center, or people who might disagree and still be trusted. Notice what travels when authority is handed off with the title—open paths for **correction**, or a quiet warning that only certain people may steer.
+Watch treatment and aftermath together: whether the room reads the step-in as useful work or as a problem to manage; whether work still moves when the formal lead is away; who gets offered temporary turns—only people already aligned with the center, or people who might disagree and still be trusted; and whether handing off authority with the title leaves **correction** open or quietly signals that only certain people may steer.
 
 When that read skews narrow, **circulation** is likely captured even when **correction** still works on paper. What gets reproduced next is not a mystery. It is whatever this group just taught about who may lead, for how long, and at what price—lesson and muscle together, long before the next title changes hands.
 
