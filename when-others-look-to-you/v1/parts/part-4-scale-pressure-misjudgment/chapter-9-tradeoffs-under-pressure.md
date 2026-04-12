@@ -33,7 +33,7 @@ Crisis sharpens what you can read from the structure; it is not only a disruptio
 
 ### **Crisis Across the Lenses**
 
-Crisis periods widen tolerance for shifting **harm** onto others, reward short-term **effectiveness** while shrinking the time **correction** has to matter, accelerate **legitimacy** transfer through emergency precedent, and normalize temporary authority expansions into a lasting baseline for how decisions get made.[^c9-crisis-precedent]
+Crisis periods widen tolerance for shifting **harm** onto others. They reward short-term **effectiveness** while shrinking the time **correction** has to matter. They accelerate **legitimacy** transfer through emergency precedent. They normalize temporary authority expansions into a lasting baseline for how decisions get made.[^c9-crisis-precedent]
 
 Crisis does not invent these dynamics; it reveals and amplifies what the
 structure already permits.

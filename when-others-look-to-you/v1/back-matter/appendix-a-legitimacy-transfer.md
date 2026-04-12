@@ -2,13 +2,21 @@
 
 This appendix uses the same lenses—**harm**, **effectiveness**, **legitimacy**—on how authority changes hands. It is not a ranking of leaders, a partisan scorecard, or a verdict on any one institution. The aim is to show how legitimacy transfers, hardens, and can stay expanded after leadership changes hands.
 
-Legitimacy transfer is not a political phenomenon. It is a structural one. Wherever authority changes hands at scale—in government, in healthcare, in religious institutions, in large organizations—the same pattern tends to appear: what one leader was permitted to do becomes the baseline the next leader inherits. Crisis widens that baseline fast. Restraint can slow its expansion but may not undo it. Personalization can ride on inherited permissions without requiring new ones. And norms can return before hard limits do.
+Legitimacy transfer is not a political phenomenon. It is a structural one. Wherever authority changes hands at scale—in government, in healthcare, in religious institutions, in large organizations—the same pattern tends to appear: what one leader was permitted to do becomes the baseline the next leader inherits.
+
+Crisis widens that baseline fast. Restraint can slow its expansion but may not undo it. Personalization can ride on inherited permissions without requiring new ones. Norms can return before hard limits do.
 
 Three sequences below show that pattern across different institutions. They are not equivalent in stakes or in kind. They share a structure.
 
 ### **The Transfer Pattern**
 
-At transfer, example-based legitimacy asks whether the new authority holder’s visible conduct matches what the role has represented—not just what was said when authority passed. Procedural legitimacy asks whether the rules and roles that govern transfer are still functioning as real constraints or mostly as ceremony. Office-based legitimacy asks what the position itself now carries—what permissions have accumulated in the role that move forward automatically with the title. Sacralized legitimacy asks whether the transfer itself has become exempt from ordinary challenge—whether questioning who leads next sounds like attacking something the group is not supposed to reopen.
+At transfer, example-based legitimacy asks whether the new authority holder’s visible conduct matches what the role has represented—not just what was said when authority passed.
+
+Procedural legitimacy asks whether the rules and roles that govern transfer are still functioning as real constraints or mostly as ceremony.
+
+Office-based legitimacy asks what the position itself now carries: what permissions have accumulated in the role that move forward automatically with the title.
+
+Sacralized legitimacy asks whether the transfer itself has become exempt from ordinary challenge—whether questioning who leads next sounds like attacking something the group is not supposed to reopen.
 
 Each form ties accountability to authority a little differently. Each transfers a little differently too.
 

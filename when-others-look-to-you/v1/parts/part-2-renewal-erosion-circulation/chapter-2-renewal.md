@@ -16,7 +16,7 @@ own treatment once **renewal** is visible.
 
 **Renewal** names which way influence is moving. **Vitality** names the
 condition that tends to appear when that movement holds. Direction and
-condition are not the same thing, and neither is a verdict on character: good
+condition are not the same thing. Neither is a verdict on character: good
 intentions can still yield **erosion**, and flawed people can still sustain
 **renewal**. The distinction is structural—what the group does under pressure—not purity.
 
@@ -48,7 +48,7 @@ apparent inefficiency is what prevents larger collapse later.
 
 **Correction** names whether warnings, dissent, and
 on-the-ground information can reach decision-makers and change direction
-without punishment. **Circulation** names whether influence can move through temporary or shared leadership—not only outward from formal roles—so leadership can scale and reproduce itself.
+without punishment. **Circulation** names whether influence can move through temporary or shared leadership—not only outward from formal roles. That movement is what lets leadership scale and reproduce itself.
 
 When **vitality** holds, **Dissent is Welcomed**, **Feedback Drives Change**, and **Leaders Feel the Consequences** tend to show up together—not as labels in isolation, but as what the group can still do when the work gets hard.
 

@@ -59,15 +59,16 @@ this place treats as normal.
 The chapters follow one structural throughline: Attention → Influence →
 Structure → Renewal or Erosion → Circulation.
 
-Part I establishes that chain. Part II names **renewal**, **erosion**, and **circulation**—what it looks like when influence opens, narrows, or moves through people. Part III takes up harm, effectiveness, and legitimacy as lenses on what influence is producing. **Circulation** and **correction** run through those parts—whether influence can move through temporary leadership so leadership scales, and whether warning and dissent can still change direction.
+Part I establishes that chain. Part II names **renewal**, **erosion**, and **circulation**: what it looks like when influence opens, narrows, or moves through people. Part III takes up harm, effectiveness, and legitimacy as lenses on what influence is producing. **Circulation** and **correction** thread through those lenses. They track whether influence can move through temporary leadership so leadership scales. They track whether warning and dissent can still change direction.
 
 Part IV takes up scale, tradeoffs under pressure, and why observers misjudge leaders when signals travel far and late. Part V takes up what is still possible when structures drift and judgment fails anyway.
 
 Those dynamics also gather into four shapes: **Forming**, **Adjusting**,
 **Eroding**, and **Circulating**. **Forming** is where live conditions get
 set. From there a structure can move toward **Adjusting** or **Eroding**. Both
-paths shape what later gets copied and passed on. **Circulating** includes what
-spreads through imitation. It is also about who may hold the center
+paths shape what later gets copied and passed on.
+
+**Circulating** includes what spreads through imitation. It is also about who may hold the center
 for a phase—temporary or shared leadership—and who is treated as *allowed* to
 steer before titles change. Copied habit and copied permission both feed the
 next round of formation.
@@ -83,5 +84,5 @@ Read this book as a set of lenses, not a set of slogans. Use
 it on teams, communities, and workplaces you know—including your own
 choices.
 
-The live question is not whether leadership exists, but what leadership is
-becoming while others are watching—and what you can still see while it does.
+Whether leadership exists is rarely the puzzle. The live question is what it is
+becoming while others are watching, and what you can still see while it does.

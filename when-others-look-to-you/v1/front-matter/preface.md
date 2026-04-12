@@ -30,9 +30,8 @@ not require ornate phrasing to be useful.
 
 ### **What This Book Is Not**
 
-This is not a promise that better lenses eliminate uncertainty, or that good
-intentions guarantee good structure, or that outcomes alone settle questions of
-legitimacy.
+Better lenses do not remove uncertainty. Good intentions do not guarantee good
+structure. Outcomes alone do not settle questions of legitimacy.
 
 Leadership remains difficult, even under clear analysis. Difficulty is not an
 excuse for blindness.

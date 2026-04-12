@@ -40,7 +40,17 @@ One common threshold returns here: the rules for emergencies become the everyday
 
 Once that has settled, rolling everything back is unlikely in the near term.
 
-Partial repair is still possible, but order matters. If **harm** stays invisible or concentrated, people stop trusting what they see—so start by spreading cost and visibility so punishment is not the only signal people have left. Then widen paths for **correction**. If those paths stay closed, new facts may not change plans even when the trouble is obvious. Then reopen **circulation**: room for temporary and shared leadership and **guest leadership** handoffs so influence can move between people without fixing every role at the top—repair that leaves every fork at the same gate tends to snap back. Tie authority to consequences people can see. Throughout, refuse to let fresh exceptions settle as the new everyday rule—**Exceptions are Forever** is how baseline theft repeats.
+Partial repair is still possible, but order matters.
+
+If **harm** stays invisible or concentrated, people stop trusting what they see. Start by spreading cost and visibility so punishment is not the only signal people have left.
+
+Then widen paths for **correction**. If those paths stay closed, new facts may not change plans even when the trouble is obvious.
+
+Then reopen **circulation**: room for temporary and shared leadership and **guest leadership** handoffs so influence can move between people without fixing every role at the top. Repair that leaves every fork at the same gate tends to snap back.
+
+Tie authority to consequences people can see.
+
+Throughout, refuse to let fresh exceptions settle as the new everyday rule. **Exceptions are Forever** is how baseline theft repeats.
 
 Repair at this stage is uneven, local, and slow—realistic, not trivial.
 
@@ -48,15 +58,23 @@ Repair at this stage is uneven, local, and slow—realistic, not trivial.
 
 **Correction** can interrupt error. It helps a center hear what it would rather not hear and change course before damage spreads.
 
-But **correction** alone does not redistribute who gets to lead. A group can accept criticism and still route every consequential decision through the same few people. That can produce local repair without structural renewal. Meanwhile the **permission** structure still teaches who may steer through every credited or punished step-in—often before anyone tests it under pressure—and judgment at the edges stays unpracticed until the test arrives.
+But **correction** alone does not redistribute who gets to lead. A group can accept criticism and still route every consequential decision through the same few people. That can produce local repair without structural renewal.
+
+Meanwhile the **permission** structure still teaches who may steer through every credited or punished step-in—often before anyone tests it under pressure. Judgment at the edges stays unpracticed until the test arrives.
 
 **Circulation** changes that condition. When leadership can be shared, temporarily handed off, and returned without penalty, people learn leadership from inside the role. What gets reproduced is not only compliance with a center, but distributed capacity to notice, decide, and adjust.
 
-That is the closing distinction: **correction** is a mechanism of repair. **Circulation** is a mechanism of renewal—renewal of who can hold the live decision point, not only of the center's next choice. Without circulation, gains remain fragile. With it, the next round of leadership can carry different habits than the last, including a bench that has practiced stepping in and stepping back.
+That is the closing distinction: **correction** is a mechanism of repair. **Circulation** is a mechanism of renewal—renewal of who can hold the live decision point, not only of the center's next choice.
+
+Without circulation, gains remain fragile. With it, the next round of leadership can carry different habits than the last, including a bench that has practiced stepping in and stepping back.
 
 ### **A Practical Discipline**
 
-The same focal points that framed **renewal** still apply when you are deciding what to do next: keep paths for **correction** open, keep **harm** visible near decision rights, and keep disagreement usable enough to steer work before commitments harden. When those conditions no longer hold, **decay** has already begun—whether the group says so out loud or not. The discipline does not replace structural repair; it tells you where repair will bite first.
+The same focal points that framed **renewal** still apply when you are deciding what to do next: keep paths for **correction** open, keep **harm** visible near decision rights, and keep disagreement usable enough to steer work before commitments harden.
+
+When those conditions no longer hold, **decay** has already begun—whether the group says so out loud or not.
+
+The discipline does not replace structural repair. It tells you where repair will bite first.
 
 ### **What Happens Next**
 
