@@ -49,3 +49,7 @@ Some arrives as damage that no longer spreads.
 Some arrives as people who keep **correction** alive when certainty would be easier.
 
 That is still leadership.
+
+### **A companion on the same map**
+
+There is a second book that uses the same pattern language—the same named dynamics you have met here—but tells a different story with a different spine. It is subtitled *Forming, Renewing, Eroding, Repeating*. It walks one pattern per chapter, in order, and follows how moments chain into habit and how habit travels. It is neither a summary of this volume nor a sequel: a companion to read before, after, or alongside this one, when you want the patterns in a single clear throughline in the same vocabulary.

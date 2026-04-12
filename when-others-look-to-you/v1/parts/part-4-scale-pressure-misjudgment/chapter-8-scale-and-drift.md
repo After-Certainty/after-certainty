@@ -22,7 +22,7 @@ The network did not become harmful because it grew. It became riskier because re
 
 **Scalability** and **adaptability** are the two measures: whether coordinated action can grow in reach, and whether it can change direction when reality pushes back. At larger scale, those questions stay the same—only distance and delay change.
 
-At scale, the test for **adaptability** is whether plans still move when the facts do—**Feedback Drives Change**.
+At scale, **adaptability** shows in whether plans still move when the facts do—**Feedback Drives Change**.
 
 The same two capacities sort groups on the grid—the **vibrant group** or **decaying group**. Scale changes how long each state can look solid from a distance.
 

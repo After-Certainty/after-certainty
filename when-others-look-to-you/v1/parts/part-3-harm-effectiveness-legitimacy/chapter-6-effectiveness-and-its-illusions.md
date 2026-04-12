@@ -74,11 +74,11 @@ Retreat shows up as silence or workaround behavior. Offers to step in get shorte
 
 **Leadership Reproduces Itself** is what that retreat teaches: what gets rewarded or punished locally becomes the template people imitate when they step into leadership next.
 
-### **Pressure Test**
+### **Pressure and Recovery**
 
 In high-pressure moments, **correction** may narrow briefly. That can be necessary.
 
-The key question is recovery. Does **correction** reopen after the acute period passes, including room for temporary step-in leadership, or does emergency posture become permanent?
+The live read is recovery. Does **correction** reopen after the acute period passes, including room for temporary step-in leadership, or does emergency posture become permanent?
 
 Temporary contraction can preserve function. Permanent closure locks in **decay**.
 
@@ -106,9 +106,9 @@ People can produce good-looking counts while privately withdrawing trust. They c
 
 In these conditions, the group appears coordinated, but its ability to act together is already splitting underneath. Distorted feedback can hide behind paperwork that looks tidy while the ground story goes missing. **Learning Collapse** often follows.
 
-This is why selective followership matters when judging effectiveness. Open disagreement can strengthen results. Quiet divergence usually wears them down over time.
+This is why selective followership matters when reading effectiveness. Open disagreement can strengthen results. Quiet divergence usually wears them down over time.
 
-### **A Better Effectiveness Test**
+### **What to Watch Alongside Outcomes**
 
 Alongside outcomes, watch whether the conditions for **correction** stayed open while the work was underway. Watch whether concerns changed decisions or only decorated meetings. Watch whether success increased learning capacity or reduced it. Watch whether the group preserved trust while achieving results.
 

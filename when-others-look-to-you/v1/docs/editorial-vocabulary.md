@@ -101,7 +101,7 @@ Split across **`chapter-2-renewal.md`** and **`chapter-3-erosion.md`**. Directio
 - Prefer: **one-time squeeze of trust and capacity** over *one-time extraction*.
 - *Political discomfort* → **awkward public moments** where used.
 - *Deferred effectiveness* gloss → **patient judgment** / **smaller cost now** vs larger later.
-- **Pressure Test:** permanent closure **locks in decay** (state), not *erosion*.
+- **Pressure and Recovery:** permanent closure **locks in decay** (state), not *erosion*.
 - **Performative compliance:** *performance indicators / favorable numbers / strong reporting* → **what gets measured / good-looking counts / paperwork that looks tidy** unless a section must stay technical.
 - *Degrades* (results) → **wears down** where tone fits.
 - *During execution* → **while the work was underway** in checklist questions.

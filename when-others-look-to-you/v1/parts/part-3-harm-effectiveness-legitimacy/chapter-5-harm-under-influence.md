@@ -10,7 +10,7 @@ Most leaders believe they are acting for good. The practical question is not int
 
 ### **How Harm Moves**
 
-One practical test is **harm** allocation.
+One practical read is **harm** allocation.
 
 In **vibrant** groups, those with authority are more likely to absorb some of the cost of their own decisions. They do not absorb all of it, but the linkage between decision rights and accountability stays visible.
 
