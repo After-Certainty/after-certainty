@@ -5,7 +5,7 @@ erodes, and spreads. Four groups—**forming**, **adjusting**, **eroding**, and
 **circulating**—hold the entries. Each one notes when it shows up, what is
 happening, and what comes next.
 
-These are not prescriptions. They are things you can watch for in small groups,
+These are not prescriptions. They are patterns to watch for in small groups,
 workplaces, and public life.
 
 ## **Forming**
@@ -153,7 +153,7 @@ Timely **correction** depends on whether bad news can reach those who decide.
 
 Problems show up early. Reality reaches those who decide in time.
 
-> "If you see a problem, say it now. Dissent is welcomed here—we can't fix what we don't surface while it's still small."
+> "If you see a problem, say it now. Dissent is welcomed here—we can't fix what we don't raise while it's still small."
 
 **Effect:**
 
@@ -297,7 +297,7 @@ News from the ground does not reliably reach them in time.
 
 - Size adds distance from impact
 - Formal reporting filters or delays signals
-- Bad news is costly to surface
+- Bad news is costly to raise
 - Good news travels easier than bad news
 
 **Observation:**
