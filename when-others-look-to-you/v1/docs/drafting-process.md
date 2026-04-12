@@ -14,11 +14,9 @@ This document defines the drafting workflow for building the book in a structure
   one, not in reader-facing manuscript prose.
 - Recommended export command:
   `make export-docx DIR=when-others-look-to-you/v1`
-- Kindle-friendly export command:
+- Kindle EPUB (only export path; custom-style blocks are flattened for device
+  readers, shallow nav TOC):
   `make export-kindle-epub DIR=when-others-look-to-you/v1`
-- Flattened Kindle-safe export command (strips custom-style blocks to
-  plain Kindle-friendly semantics):
-  `make export-kindle-epub-flat DIR=when-others-look-to-you/v1`
 - Kindle exports use `BookCover.png` as EPUB cover metadata and remove
   the inline cover image from in-book reading flow so title-page text
   appears first.
