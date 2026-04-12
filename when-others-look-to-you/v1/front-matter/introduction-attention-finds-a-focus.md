@@ -47,7 +47,7 @@ matter, new facts can still steer the work, and **Leaders Feel the Consequences*
 of their choices where others can see it.
 
 When that breaks down, **Disagreement is Suppressed** and challenge starts to
-sound like disloyalty. **Learning Collapses** when people on the ground can no
+sound like disloyalty. **Learning Collapse** follows when people on the ground can no
 longer get their knowledge to those who decide. **Exceptions are Forever**
 when what was meant to be temporary becomes the everyday rule.
 

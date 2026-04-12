@@ -124,7 +124,7 @@ Open refusal can still support **correction** where others can see it. Covert re
 
 The harm pattern in a group is readable before anyone names it out loud. Watch where cost lands when something goes wrong—not who apologizes, but who absorbs. Watch who stays protected from consequence while still holding decision rights. Watch whether the person who named the harm is still in the room six months later, and in what capacity. Watch what actually changed after harm was surfaced, not what was said about it.
 
-When those patterns have no clear read, **Leaders Do Not Feel the Consequences.** That opacity is itself the signal. Harm displacement rarely announces itself. It gets harder to trace who decided and who paid.
+When those patterns have no clear read, **Leaders Do Not Feel the Consequences**. That opacity is itself the signal. Harm displacement rarely announces itself. It gets harder to trace who decided and who paid.
 
 ### **Effectiveness Next**
 

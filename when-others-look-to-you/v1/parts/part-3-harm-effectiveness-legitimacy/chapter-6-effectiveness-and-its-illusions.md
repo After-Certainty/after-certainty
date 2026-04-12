@@ -52,7 +52,7 @@ Influence moves outward from leadership. **Vitality** depends on whether influen
 
 Without **correction**, authority still exists, but learning slows. Groups drift toward the **decaying group**.
 
-In **vibrant** groups, **correction** tends to stay correction rich: warnings and dissent can still move and revise direction. In **decaying** groups, **correction** tends toward constricted correction. The same care may exist privately, but the public path for changing a decision narrows until only workarounds remain.
+In **vibrant** groups, **correction** tends to stay correction-rich: warnings and dissent can still move and revise direction. In **decaying** groups, **correction** narrows. The same care may exist privately, but the public path for changing a decision narrows until only workarounds remain.
 
 ### **Three Shapes: Correction and Circulation**
 
