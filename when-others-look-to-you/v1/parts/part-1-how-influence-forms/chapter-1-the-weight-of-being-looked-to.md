@@ -13,16 +13,16 @@ congregation listens for tone before interpreting a difficult moment. A
 company waits for direction when performance falters.
 
 **Attention Finds a Focus**. Leadership begins there.[^c1-attention-and-leadership]
-It does not require a title, charisma, or intention. It requires orientation:
-when others orient themselves around you, your influence multiplies.
+It does not require a title, charisma, or intention. It requires that people
+take their cues from you. When they keep doing that, your influence multiplies.
 
-What people can see draws attention quickly.  Keeping it is harder—it depends on whether behavior continues to earn the permission people give.
+What people can see draws attention quickly. Keeping it is harder—it depends on whether behavior continues to earn the permission people give.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Attention Finds a Focus**
 
-Under uncertainty, attention gathers quickly. Influence forms before formal
-authority is named.
+When people are uncertain, attention gathers fast. Influence forms before anyone
+names formal authority.
 :::
 
 When no one is looking, your decisions affect only you. When others are
@@ -31,12 +31,12 @@ that shape the group. Your pace becomes their pace. Your
 tolerance becomes their tolerance. Your silence becomes a signal. Your
 reaction becomes instruction.[^c1-modeling-and-signals]
 
-The effect is rarely announced. It accumulates. People calibrate themselves
-against what you appear to allow, resist, or reward. If you dismiss **harm**,
+The effect is rarely announced. It accumulates. People read what you appear to
+allow, resist, or reward. If you dismiss **harm**,
 others dismiss it more easily. If you absorb cost, others learn what restraint
 looks like. If you avoid **correction**, others learn that stability matters
 more than truth. Leadership does not amplify intention. It amplifies
-posture.[^c1-norm-formation]
+posture—what you show, not what you meant.[^c1-norm-formation]
 
 ### **What Silence Teaches**
 
@@ -54,9 +54,8 @@ for formal instruction. They read patterns.
 **Pattern: Examples Accumulate**
 
 What a leader rewards, punishes, or ignores teaches others what is acceptable
-faster than policy does. Under pressure those signals get louder—silence
-included—and people read them to learn what is safe to surface or safer to
-leave alone.
+faster than policy does. Under pressure, those signals get louder—silence too.
+People read them to see what is safe to raise and what is safer not to raise.
 :::
 
 ### **Belief and Repetition**
@@ -74,15 +73,15 @@ more people look. Authority emerges from repetition.[^c1-legitimacy-and-repetiti
 ::: {custom-style="Pattern Block"}
 **Pattern: Leadership Coalesces**
 
-When others keep looking to the same person, that repetition hardens into
-habit. One person becomes the automatic decision point even without new formal
+When others keep looking to the same person, that repetition settles into
+habit. One person becomes the default decision point, even without new formal
 authority.
 :::
 
 Most leaders believe they are acting for good. What matters is what happens
-in practice once others begin to orient around them—including how visible
-responses to dissent, bad news, or cost land. Those responses train what
-others will try next.
+in practice once others start taking their cues from them—including what
+others see when dissent surfaces, when the news is bad, or when cost hits.
+Those responses shape what others will try next.
 
 ### **Attention Is Not Obedience**
 
@@ -99,16 +98,15 @@ Sometimes the response is stronger. Under pressure, people may move into
 reflexive opposition, doing the opposite of what they are told as a way
 to protect agency.[^c1-reactance]
 
-This matters because influence can stay high even when people go along only in
-part.
+That matters: influence can stay strong even when people only partly go along.
 **Attention Finds a Focus** first. Interpretation comes next.
 
 ### **Ordinary Decisions, Structural Consequences**
 
-Leadership changes the environment. It alters how **harm** is distributed,
+Leadership shifts how **harm** is distributed,
 how **correction** is handled, how disagreement survives, how success is
-interpreted, and how setbacks are absorbed. These changes do not require
-dramatic moments. They accumulate through ordinary decisions—a tone in
+interpreted, and how setbacks are absorbed. None of that requires
+dramatic moments. It accumulates through ordinary decisions—a tone in
 a meeting, a hiring choice, a promotion, a tolerated shortcut, an
 unchallenged story.[^c1-ordinary-administration]
 
@@ -121,7 +119,11 @@ Others are already looking. The live question is what happens next.
 Does influence stay open to **correction**? Does belief renew through
 example? Does authority drift toward insulation?[^c1-correction-and-insulation]
 
-Leadership begins when **Attention Finds a Focus**. From there, watch whether influence tilts toward **renewal** or **erosion**. Watch whether **circulation** carries it through others or keeps locking it to the same gate. Those patterns show up in ordinary choices long before the outcome is clear.
+Leadership begins when **Attention Finds a Focus**. From there, watch whether
+influence tilts toward **renewal** or **erosion**. Watch **circulation** next:
+whether influence moves through others or stays trapped with the same few
+people. Those patterns show up in ordinary choices long before the outcome is
+clear.
 
 ::: {custom-style="Pull Quote Block"}
 Once people are watching, your behavior teaches what counts as normal.
