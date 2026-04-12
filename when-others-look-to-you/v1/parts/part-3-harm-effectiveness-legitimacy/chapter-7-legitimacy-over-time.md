@@ -179,11 +179,11 @@ separate questions for long.
 
 ### **Correction Signals**
 
-Beyond **selective followership**, other **correction** signals show up in what you can watch over time: whether bad news travels upward without career penalty; whether dissent can change a decision before execution; whether leaders explain revision when they change course; and whether, after conflict, trust increases or contracts.
+Beyond **selective followership**, other **correction** signals show up in what you can watch over time. Watch whether bad news travels upward without career penalty. Watch whether dissent can change a decision before execution. Watch whether leaders explain revision when they change course. Watch whether, after conflict, trust increases or contracts.
 
-**Circulation** leaves a different set of traces—not whether feedback reaches the center, but what the room teaches after someone who is not the usual name holds it. Watch whether step-ins are credited and named, whether people are welcome back into the decision ring, and whether the afterward story reads as useful work or as damage control. Those are **permission** signals. They narrow or widen before the next crisis tests who may steer.
+**Circulation** leaves a different set of traces. Feedback reaching the center is only part of the read. Watch what the room teaches after someone who is not the usual name holds it. Watch whether step-ins are credited and named. Watch whether people are welcome back into the decision ring. Watch whether the afterward story reads as useful work or as damage control. Those are **permission** signals. They narrow or widen before the next crisis tests who may steer.
 
-When most of the **correction** list reads as no, authority is becoming one-way. When **permission** reads cold, people still learn to wait for the usual gate—even when the work has already moved on.
+When most of those **correction** signals read as closed, authority is becoming one-way. When **permission** reads cold, people still learn to wait for the usual gate—even when the work has already moved on.
 
 ### **How Correction and Circulation Shape Renewal and Erosion**
 

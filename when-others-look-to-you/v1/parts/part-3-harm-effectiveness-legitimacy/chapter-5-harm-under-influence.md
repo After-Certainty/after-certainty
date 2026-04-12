@@ -20,7 +20,11 @@ That allocation pattern is where the four postures below separate in practice: w
 
 ### **Four Harm Postures**
 
-Leaders and groups settle into one of four recurring postures. These postures describe how the group handles harm, not moral rankings. When **circulation** is open, these postures are easier to interrupt: more people can surface risk, hold temporary authority, and route cost information back before harm hardens. When **circulation** is captured, the same postures lock in faster: harm-absorbing work stays concentrated in a few people, harm-tolerant routines normalize, harm-instrumental tradeoffs spread outward, and harm-blind leadership keeps operating with delayed or filtered consequence signals.
+Leaders and groups settle into one of four recurring postures. These postures describe how the group handles harm, not moral rankings.
+
+When **circulation** is open, these postures are easier to interrupt. More people can surface risk, hold temporary authority, and route cost information back before harm hardens.
+
+When **circulation** is captured, the same postures lock in faster. Harm-absorbing work stays concentrated in a few people. Harm-tolerant routines normalize. Harm-instrumental tradeoffs spread outward. Harm-blind leadership keeps operating with delayed or filtered consequence signals.
 
 ### **Harm-Absorbing**
 

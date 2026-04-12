@@ -26,6 +26,9 @@ It is an account of what changes when others look to someone for direction:
 - How authority remains open to **correction** or drifts toward insulation.
 - How groups renew or erode over time.
 
+Here **correction** means whether warnings and dissent can still change what
+gets decided before it hardens—not punishment, editing, or personal rebuke.
+
 The core argument is simple: leadership is less about inner identity and
 more about outer structure.
 
@@ -47,4 +50,4 @@ Erosion → Circulation.
 
 That chain is the thread you will see running through the chapters.
 
-A companion volume in the same pattern vocabulary—organized pattern-by-pattern rather than along this book’s spine—is named in the Epilogue for readers who want that path.
+The Epilogue names a companion volume in the same pattern vocabulary. It is organized pattern-by-pattern rather than along this book’s spine, for readers who want that path.

@@ -52,6 +52,47 @@ def flatten_custom_blocks(text: str) -> str:
     return "\n".join(out_lines).strip() + "\n"
 
 
+def parse_index_links_with_part_markers(index_text: str) -> list[tuple[str | None, str]]:
+    """
+    Walk index.md in order: each linked .md path, optionally preceded by a
+    synthetic Part H1 when the link is the first under a ``## Part …`` block.
+
+    Used so Kindle/EPUB ``--toc-depth=1`` can list Part headings plus each
+    document's top-level ``#`` title (bridges, chapters, …) without ``##``/``###``
+    subsection titles in the navigation TOC.
+    """
+    lines = index_text.splitlines()
+    current_part: str | None = None
+    first_in_block = True
+    out: list[tuple[str | None, str]] = []
+
+    for line in lines:
+        if line.startswith("## Front Matter"):
+            current_part = None
+            first_in_block = True
+            continue
+        if line.startswith("## Back Matter"):
+            current_part = None
+            first_in_block = True
+            continue
+        if line.startswith("## Part "):
+            current_part = line[3:].strip()
+            first_in_block = True
+            continue
+
+        m = re.search(r"\]\(([^)]+\.md)\)", line)
+        if not m:
+            continue
+        rel = m.group(1).strip()
+        part_h1: str | None = None
+        if first_in_block and current_part:
+            part_h1 = f"# **{current_part}**"
+        first_in_block = False
+        out.append((part_h1, rel))
+
+    return out
+
+
 def strip_inline_cover_image(text: str) -> str:
     # Keep the image as EPUB metadata cover, not an in-flow first page image.
     lines = []
@@ -80,23 +121,27 @@ def main() -> None:
     index_path = Path(args.index)
     out_path = Path(args.out)
 
-    links = re.findall(r"\]\(([^)]+\.md)\)", index_path.read_text())
-    files = [book_dir / rel for rel in links if (book_dir / rel).exists()]
-
+    indexed = parse_index_links_with_part_markers(index_path.read_text())
     chunks = []
-    for fp in files:
+    for part_h1, rel in indexed:
+        fp = book_dir / rel
+        if not fp.exists():
+            continue
         text = fp.read_text()
         text = strip_inline_cover_image(text)
         if args.flatten_custom_blocks:
             text = flatten_custom_blocks(text)
-        chunks.append(text.strip())
+        body = text.strip()
+        if part_h1:
+            body = f"{part_h1}\n\n{body}"
+        chunks.append(body)
 
     combined = "\n\n".join(chunks).strip() + "\n"
     n_diagrams = rasterize_book_diagrams(book_dir)
     if n_diagrams:
         print(f"diagram_pngs={n_diagrams}")
     out_path.write_text(combined)
-    print(f"prepared_files={len(files)}")
+    print(f"prepared_files={len(chunks)}")
 
 
 if __name__ == "__main__":

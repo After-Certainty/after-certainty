@@ -206,9 +206,18 @@ This book should be substantially informed by:
 
 ### **Sentence Discipline**
 
+- **Short sentences are the default.** Prefer clear, short sentences over long
+  running ones that stack steps, exceptions, or qualifications in a single
+  breath.
+
 - Prefer short declarative sentences.
 
-- Use medium-length sentences intentionally to add rhythm.
+- Avoid long running sentences when the same thought reads more clearly split
+  into two or more sentences. Break them up for clarity wherever doing so does
+  not flatten a deliberate contrast or parallel that truly belongs in one line.
+
+- Use medium-length sentences intentionally to add rhythm—not as the usual
+  shape for dense analytic claims.
 
 - Avoid multi-clause academic constructions.
 
@@ -222,10 +231,15 @@ Clarity before cleverness.
 
 ### **Editorial pass: complicated sentences**
 
-Run this pass **chapter by chapter** (or over the full manuscript) when prose
-has drifted toward long, chained clauses. The goal is the same as **Sentence
-Discipline** above: shorter, more direct sentences that carry one clear claim
-at a time.
+**Every editorial pass** (section-level, part-level, and final manuscript-wide)
+should include a pass for sentence length and complexity—not only when prose has
+already drifted. Scan for long running sentences and multi-clause chains; split
+or simplify where clarity gains. The goal matches **Sentence Discipline** above:
+shorter, more direct sentences that carry one clear claim at a time, with
+medium-length sentences used on purpose for rhythm.
+
+You may also run this as a **dedicated sweep** chapter by chapter or over the
+full manuscript when a section has accumulated dense or chained prose.
 
 **Look for**
 

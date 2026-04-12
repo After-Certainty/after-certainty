@@ -20,8 +20,8 @@ accumulate in small moments until they outweigh anything I could announce.
 **To my parents**
 
 You’ve shown me, over time, that plans can yield when life won’t fit the old
-story—and that there’s honesty in that. I learned more from what you practiced
-than from anything taught step by step; what mattered to you kept showing up in
+story. There is honesty in that. I learned more from what you practiced
+than from anything taught step by step. What mattered to you kept showing up in
 me anyway. Those lessons have stayed with me longer than anything that could have
 been said directly.
 

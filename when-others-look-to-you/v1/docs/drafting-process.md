@@ -14,11 +14,9 @@ This document defines the drafting workflow for building the book in a structure
   one, not in reader-facing manuscript prose.
 - Recommended export command:
   `make export-docx DIR=when-others-look-to-you/v1`
-- Kindle-friendly export command:
+- Kindle EPUB (only export path; custom-style blocks are flattened for device
+  readers, shallow nav TOC):
   `make export-kindle-epub DIR=when-others-look-to-you/v1`
-- Flattened Kindle-safe export command (strips custom-style blocks to
-  plain Kindle-friendly semantics):
-  `make export-kindle-epub-flat DIR=when-others-look-to-you/v1`
 - Kindle exports use `BookCover.png` as EPUB cover metadata and remove
   the inline cover image from in-book reading flow so title-page text
   appears first.
@@ -28,6 +26,11 @@ This document defines the drafting workflow for building the book in a structure
   (`rsvg-convert`) or **ImageMagick** (`magick`) for that conversion.
 - Post-processing removes the generated EPUB cover page from spine order
   while keeping the metadata cover, so readers open to title-page text.
+- EPUB navigation uses ``--toc-depth=1``: the table of contents lists Part
+  headings (from ``index.md``), each file’s top-level ``#`` title (bridges,
+  chapters, front/back matter), and omits ``##``/``###`` subsection titles.
+  Part labels are inserted by ``tools/kindle-flatten.py`` before the first
+  linked file in each ``## Part …`` block.
 
 ## Branch and PR Workflow (Applies Throughout)
 
@@ -113,10 +116,12 @@ extra bold in Pattern Block bodies after the `**Pattern: …**` title line.
 
 At minimum, check for:
 
-- Stacked negation and avoidable double negatives
-- Awkward sentence constructions; for multi-clause chains, apply the
-  **complicated-sentence pass** in `docs/book-rules.md` (includes a
+- **Sentence length and running sentences:** Prefer short, direct sentences as
+  the house default; avoid long running sentences that pile clauses or steps.
+  Split or simplify for clarity where possible (see **Sentence Discipline** and
+  **Editorial pass: complicated sentences** in `docs/book-rules.md`; includes a
   before/after example from Chapter 1)
+- Stacked negation and avoidable double negatives
 - Bold-titled dynamics: do not call them “patterns” in prose; use negation or
   plain conditions (see **Named dynamics** in `docs/book-rules.md`)
 - **Pattern Block bodies:** for renewing/adjusting titles, **positive-only**
@@ -359,6 +364,9 @@ Once all front matter, bridges (if used), chapters, and back matter are drafted 
 ### 12.3 Editorial and Copy Pass
 
 - Run a full manuscript edit for clarity, grammar, punctuation, and rhythm
+- Apply **Sentence Discipline** and the **Editorial pass: complicated sentences**
+  checks in `docs/book-rules.md`: prefer short sentences, break up long running
+  sentences where clarity improves
 - Remove residual stacked negation, filler phrasing, and awkward transitions
 - Ensure terminology usage is consistent across chapters
 - Run **`docs/typography-check.md`** across the full manuscript paths (mechanical Pull Quote / Vignette / Pattern Block checks) and fix any violations

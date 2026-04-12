@@ -17,6 +17,4 @@ structural read.
 
 ![Diagram: renewal, erosion, capacities, and states](export-assets/diagrams/renewal-erosion-map.png)
 
-Taken together, these are not personality labels. They are live pattern
-questions: what this group is reinforcing, what it is suppressing, and what it
-is teaching people to repeat.
+Taken together, they read as live pattern questions: what this group is reinforcing, what it is suppressing, and what it is teaching people to repeat. They are not personality types.

@@ -31,7 +31,7 @@ people stay in place. Meetings run on time. Plans look coherent. Language
 becomes smoother. But fewer channels stay open for bad news, and telling the
 truth costs more.
 
-When **decay** deepens, **Disagreement is Suppressed**, **Learning Collapse**, and **Exceptions are Forever** stack: challenge starts to sound like disloyalty, what people on the ground know stops steering decisions in time, and temporary fixes outlast the emergency that justified them.
+When **decay** deepens, **Disagreement is Suppressed**, **Learning Collapse**, and **Exceptions are Forever** stack. Challenge starts to sound like disloyalty. What people on the ground know stops steering decisions in time. Temporary fixes outlast the emergency that justified them.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Disagreement is Suppressed**

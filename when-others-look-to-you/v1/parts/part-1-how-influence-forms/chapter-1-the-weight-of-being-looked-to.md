@@ -118,16 +118,12 @@ When others are looking, very little is neutral.
 
 ### **The Core Question**
 
-The live question is less whether others will look, and more what happens
-next.
+Others are already looking. The live question is what happens next.
 
 Does influence stay open to **correction**? Does belief renew through
 example? Does authority drift toward insulation?[^c1-correction-and-insulation]
 
-Leadership begins when **Attention Finds a Focus**. From there, the live
-question is whether influence tilts toward **renewal** or **erosion**, and
-whether **circulation** carries it through others or keeps locking it to the same
-gate—patterns visible in ordinary choices long before the outcome is clear.
+Leadership begins when **Attention Finds a Focus**. From there, watch whether influence tilts toward **renewal** or **erosion**. Watch whether **circulation** carries it through others or keeps locking it to the same gate. Those patterns show up in ordinary choices long before the outcome is clear.
 
 ::: {custom-style="Pull Quote Block"}
 Once people are watching, your behavior teaches what counts as normal.

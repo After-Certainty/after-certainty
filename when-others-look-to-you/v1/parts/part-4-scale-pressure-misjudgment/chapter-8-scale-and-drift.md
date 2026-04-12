@@ -32,7 +32,13 @@ At larger scale, entrenched patterns can look impressive for longer. Reach can e
 
 ### **Legitimacy Forms Under Scale**
 
-Under scale, example-based **legitimacy** stays vivid at human distance but is harder to preserve as people get farther from what they can still witness. Procedural **legitimacy** becomes necessary, yet it can turn mostly for show when challenge is allowed on paper but not in practice. Office-based **legitimacy** steadies continuity, but it can move permission forward faster than accountability travels with it. Sacralized **legitimacy** is easier to entrench as layers build, distance grows, and dissent thins—sliding toward **Disagreement is Suppressed**.[^c8-legitimacy]
+Under scale, example-based **legitimacy** stays vivid at human distance. It is harder to preserve as people get farther from what they can still witness.
+
+Procedural **legitimacy** becomes necessary, yet it can turn mostly for show when challenge is allowed on paper but not in practice.
+
+Office-based **legitimacy** steadies continuity, but it can move permission forward faster than accountability travels with it.
+
+Sacralized **legitimacy** is easier to entrench as layers build, distance grows, and dissent thins. It slides toward **Disagreement is Suppressed**.[^c8-legitimacy]
 
 Scale does not eliminate judgment. It changes how easily good judgment reaches the people who decide.
 

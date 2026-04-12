@@ -92,11 +92,17 @@ The vignette shows why outcome bias and structural blindness reinforce each othe
 
 Outcomes and rhetoric are the loudest signals, but they are the least reliable ones. What actually reveals the structure is quieter and slower.
 
-Watch whether decisions can be challenged before they harden—not in theory, not on paper, but in the room where the challenge would have to happen and cost something. Watch who absorbs the loss when something goes wrong, and whether that person was also the one who decided. Watch whether known problems come back. Recurrence is one of the clearest signals available: it means the **correction** either never happened or didn't hold. Watch whether authority stays connected to what it produces, or whether distance—physical, organizational, narrative—has opened between the decision and its consequences.
+Watch whether decisions can be challenged before they harden. Theory and paper are not the test. The test is the room where the challenge would have to happen and cost something.
+
+Watch who absorbs the loss when something goes wrong, and whether that person was also the one who decided.
+
+Watch whether known problems come back. Recurrence is one of the clearest signals available: it means the **correction** either never happened or didn't hold.
+
+Watch whether authority stays connected to what it produces. Watch whether distance—physical, organizational, narrative—has opened between the decision and its consequences.
 
 Before any of that becomes visible as breakdown, three things tend to show up first. Bad news starts arriving late—softened on the way, delayed, or quietly not sent at all. People begin spending more effort protecting their position than improving the work itself. And the same problems keep returning, addressed in language but not in practice.
 
-None of these requires knowing anyone's motives. They only require watching what actually happens over time, not what gets said about it.
+None of these requires knowing anyone's motives. They only require watching what actually happens over time—more than what gets said about it.
 
 ### **Misjudgment at Scale**
 

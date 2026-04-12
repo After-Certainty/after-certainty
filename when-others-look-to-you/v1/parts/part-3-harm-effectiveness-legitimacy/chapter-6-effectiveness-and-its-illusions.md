@@ -88,7 +88,7 @@ Failure is not always a signal of structural **erosion**.
 
 Some failures force honest review, clarify limits, and reopen **correction**. Groups that can learn publicly from failure grow more reliable than groups that avoid visible failure at all costs.[^c6-learning]
 
-The issue is not whether failure occurs. The issue is whether learning follows. When **Feedback Drives Change**, new information and visible risk can still steer direction. Commitment stays open to revision when reality pushes back.
+Failure happens. The question is whether learning follows. When **Feedback Drives Change**, new information and visible risk can still steer direction. Commitment stays open to revision when reality pushes back.
 
 ### **Deferred Effectiveness**
 

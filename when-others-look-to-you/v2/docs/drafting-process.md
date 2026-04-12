@@ -19,8 +19,7 @@ what fits this four-part manuscript.
   Requires `v2/docs/reference.docx` (copy or symlink from `v1/docs/reference.docx` until v2 has its own template).
 
 - **Kindle EPUB:**  
-  `make export-kindle-epub DIR=when-others-look-to-you/v2`  
-  `make export-kindle-epub-flat DIR=when-others-look-to-you/v2`
+  `make export-kindle-epub DIR=when-others-look-to-you/v2`
 
 - **Import Word → Markdown (single file):**  
   `make docx-to-md IN=when-others-look-to-you/v2/import.docx`  

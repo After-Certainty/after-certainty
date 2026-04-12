@@ -17,5 +17,4 @@ This opening movement stays close to formation: how attention settles into
 habit, how belief consolidates, and how early responses to risk and dissent
 teach others what to try next.
 
-This is not a search for perfect leaders. It is a practical way to read
-structure while it is still changing.
+The aim is to read structure while it is still changing.
