@@ -44,13 +44,11 @@ The intention trap sits beneath outcome bias and structural blindness. Observers
 
 Leaders under pressure narrow channels to "move faster." Teams avoid dissent to "stay aligned." Leaders simplify stories to "reduce confusion." Each move can be defended locally. Together, they create insulation globally.
 
-This is why **erosion** should be read as a pattern over time, not one bad call. Any single choice can look pragmatic. The pattern becomes visible only through repetition. The same move, repeated, is how insulation thickens while everyone still sounds reasonable.
+This is why **erosion** should be read as a pattern over time, not one bad call. Any single choice can look pragmatic. Repetition is what shows the pattern—the same move, thickening insulation while everyone still sounds reasonable.
 
 Structural blindness explains why *observers* miss erosion. This is the interior counterpart: why *leaders* can produce it without noticing.
 
 ### **Selective Followership and Misread Signals**
-
-A common misunderstanding follows from the same errors.
 
 Observers assume that if people continue to look to a leader, they must also be going along in full. In practice, that alignment is selective.[^c11-selective-followership]
 
