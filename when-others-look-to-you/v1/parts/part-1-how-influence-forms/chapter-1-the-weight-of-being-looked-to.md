@@ -120,8 +120,8 @@ Does influence stay open to **correction**? Does belief renew through
 example? Does authority drift toward insulation?[^c1-correction-and-insulation]
 
 Leadership begins when **Attention Finds a Focus**. From there, watch whether
-influence tilts toward **renewal** or **erosion**. Watch **circulation** next:
-whether influence moves through others or stays trapped with the same few
+influence tilts toward **renewal** or **erosion**. Watch whether **circulation**
+holds—whether influence moves through others or stays trapped with the same few
 people. Those patterns show up in ordinary choices long before the outcome is
 clear.
 

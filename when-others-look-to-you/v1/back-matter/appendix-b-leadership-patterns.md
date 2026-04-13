@@ -3,7 +3,7 @@
 This appendix lists the patterns that run through the argument: how leadership forms, renews,
 erodes, and spreads. Four groups—**forming**, **adjusting**, **eroding**, and
 **circulating**—hold the entries. Each one notes when it shows up, what is
-happening, and what comes next.
+happening, and what tends to follow.
 
 These are not prescriptions. They are patterns to watch for in small groups,
 workplaces, and public life.
