@@ -33,8 +33,8 @@ Either path can look stable for a while. In the long run, authority is more dura
 
 ### **How the Dynamics Stack**
 
-You do not need to memorize the names below on a first read; later chapters
-take them up when they matter.
+On a first read, treat the names below as a preview; each one earns its place
+when the argument needs it.
 
 Early on, **Attention Finds a Focus**: under uncertainty, people start looking
 to one person for direction. **Examples Accumulate** from what that person
@@ -99,5 +99,5 @@ Read this book as a set of lenses, not a set of slogans. Use
 it on teams, communities, and workplaces you know—including your own
 choices.
 
-Whether leadership exists is rarely the puzzle. The real question is what it
-is becoming while others watch—and what you can still see in the meantime.
+Whether leadership exists is rarely the puzzle. The question is what it is
+becoming while others watch—and what you can still see in the meantime.

@@ -34,7 +34,7 @@ The result is that the concept lands intellectually but doesn't fully open up th
 4. Circulation in the Decaying Group
 5. Who Gets Credit (vignette)
 6. Leadership Reproduces Itself
-7. A Practical Circulation Check
+7. Reading Circulation *(closing section; manuscript title—formerly “A Practical Circulation Check”)*
 
 **Expanded structure:**
 1. What Circulation Is — and What It Isn't *(keep, minor revision)*

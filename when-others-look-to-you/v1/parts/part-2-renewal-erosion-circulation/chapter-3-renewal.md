@@ -21,7 +21,8 @@ small trouble from turning into a full break later.
 
 The three **Adjusting** patterns below follow one chain: dissent reaches
 decision-makers, feedback changes plans while they can still move, and the
-people who decide stay in view when costs land.
+people who decide stay in view when costs land. A later section adds a coda:
+what vitality can look like when things go wrong badly enough to force the room open.
 
 ### **Dissent is Welcomed**
 
@@ -51,8 +52,8 @@ raised it was still treated as allowed to speak.
 
 ### **Feedback Drives Change**
 
-Once dissent can travel, the next question is whether new information can still
-steer the work. **Feedback Drives Change** means revision is normal—not a
+Once dissent can travel, the question is whether new information can still steer
+the work. **Feedback Drives Change** means revision is normal—not a
 verdict on the first plan, and not proof someone failed by not getting it right
 the first time.
 
@@ -104,17 +105,23 @@ This is not heroics. It is structure: the decision-maker does not put on remorse
 for the group. They stay present and named while the group sorts the fallout—so
 **accountability** and **authority** still point to the same person.
 
+### **When Failure Strengthens Vitality**
+
+Failure is not always a signal of structural **erosion**.
+
+Some failures force honest review, clarify limits, and reopen **correction**. Groups that can learn publicly from failure grow more reliable than groups that avoid visible failure at all costs.[^c3-learning-from-failure]
+
+Failure happens. The question is whether learning follows—whether new information and visible risk can still steer direction once the failure is in the room. Commitment stays open to revision when reality pushes back.
+
 ### **Correction, Circulation, and What Holds Together**
 
-**Correction** names whether warnings, dissent, and what people on the ground
-see can reach decision-makers and change direction without punishment.
-**Circulation** names whether influence can move through temporary or shared
-leadership—not only outward from formal roles. That movement is what lets
-leadership scale and reproduce itself.
+**Correction** names whether warnings can still change decisions. **Circulation**
+names whether the center can move when the work demands it—not only outward from
+formal roles. That movement is what lets leadership scale and reproduce itself.
 
 ### **When Vitality Holds**
 
-When **vitality** holds, **Dissent is Welcomed**, **Feedback Drives Change**, and **Leaders Feel the Consequences** tend to show up together—not as slogans, but as what the group can still do when the work gets hard.
+When **vitality** holds, **Dissent is Welcomed**, **Feedback Drives Change**, and **Leaders Feel the Consequences** tend to show up together—not as slogans, but as what the group can still do when the work gets hard. Honest review after a visible failure can surface the same chain when gentler signals did not.
 
 ::: {custom-style="Pull Quote Block"}
 Renewal means bad news can still change the plan before damage sets.
@@ -122,3 +129,4 @@ Renewal means bad news can still change the plan before damage sets.
 
 [^c3-high-reliability]: Karl E. Weick and Kathleen M. Sutcliffe, *Managing the Unexpected: Sustained Performance in a Complex World* (San Francisco: Jossey-Bass, 2001).
 [^c3-voice-and-correction]: Albert O. Hirschman, *Exit, Voice, and Loyalty* (Cambridge, MA: Harvard University Press, 1970).
+[^c3-learning-from-failure]: Amy C. Edmondson, *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth* (Hoboken, NJ: Wiley, 2018).

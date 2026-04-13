@@ -63,6 +63,12 @@ Months later, the storm is over, but the centralized approval path
 remains. Officials describe it as "proven under pressure."
 :::
 
+### **Pressure and Recovery**
+
+The question after the spike is not whether **correction** tightened—it often does. The question is recovery: whether **correction** reopens once the acute period passes—including room for temporary step-in leadership—or emergency posture becomes permanent.
+
+Temporary contraction can preserve function. Permanent closure locks in **decay**.
+
 In crisis, that trade is one way **Examples Accumulate** can undercut evidence
 that **correction** is still working.
 
@@ -101,9 +107,9 @@ describes how things are actually run.
 
 ### **What Remains Possible**
 
-Tradeoffs under pressure show trajectories. The real question is what remains
-possible once trajectories are visible but reversal is incomplete—and once
-**Exceptions are Forever** has begun to shape the baseline.
+Tradeoffs under pressure show trajectories. The question is what remains possible
+once trajectories are visible but reversal is incomplete—and once **Exceptions
+are Forever** has begun to shape the baseline.
 
 ::: {custom-style="Pull Quote Block"}
 Pressure clarifies commitments; it does not absolve them.

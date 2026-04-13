@@ -9,7 +9,7 @@ What those mechanisms often miss, even when they run smoothly, is **permission**
 **Circulation** names whether the permission structure allows someone to lead temporarily, share the lead, and hand it off when the problem demands it—without treating every step as a challenge to formal authority. Influence needs to move *through* the group, not only *outward from* a fixed center.
 Only then does coordinated action stay revisable as reach grows.
 
-Guest leadership—stepping up for a stretch, then stepping back—depends on that permission.[^c5-guest-leadership] In collaborative work it often shows up as a role that passes with the problem, not a permanent claim on every decision. What makes it possible is still the group's answer: whether stepping back is as safe as stepping up was welcome.
+Guest leadership—stepping up for a stretch, then stepping back—depends on that permission.[^c5-guest-leadership] In collaborative work it tends to show up as a role that passes with the problem, not a permanent claim on every decision. What makes it possible is still the group's answer: whether stepping back is as safe as stepping up was welcome.
 
 Where **circulation** is narrow, the org chart can look healthy while every real decision still waits for the same gate.
 
@@ -19,12 +19,12 @@ Permission is not usually announced. It adds up in what the group does after som
 
 By the time a moment arrives that calls for someone to step in, the permission question has usually already been answered. The answer rarely comes from a formal declaration. It comes from what the group has been teaching about the cost of leading without being asked.
 
-Permission can be open on paper and closed in practice. A formal deputizing structure, a clear chain of command, an explicit invitation to lead in someone's absence—none of these guarantee that the permission is real. The test is what happens after, not what was said before.
+Permission can be open on paper and closed in practice. A formal deputizing structure, a clear chain of command, an explicit invitation to lead in someone's absence—none of these guarantee that the permission is real. What matters is what happens after, not what was said before.
 
 ### **Reading the Room — The Hesitation**
 
 ::: {custom-style="Vignette Block"}
-The project lead is out sick the morning the client calls with a scope question that cannot wait. One person on the team knows the answer—has been closest to that part of the work for two months, has heard every relevant conversation. She also knows what happened six weeks ago when someone else jumped in on a similar call without being asked. That person was thanked afterward in a way that felt like a warning. She drafts a response, reads it twice, and sends it to the project lead's personal phone instead. The client waits three hours for an answer that was already written.
+The foreman is off-site the morning the general contractor's superintendent calls the site trailer with a beam-spec question that could hold the pour. One carpenter has been on that span for six weeks; she knows the answer and has heard every relevant conversation about the change order. She also knows what happened six weeks ago when someone else answered a similar call without the foreman in the loop: thanked afterward in the trailer in a way that made clear who was allowed to speak for the crew. She lets the call go to voicemail and texts the foreman. The pour waits two hours for an answer she could have given in two minutes.
 
 Nobody made a rule about this. The rule was already there.
 :::
@@ -38,6 +38,24 @@ Those two checks can come apart. **Correction** can be working. People can raise
 The failure mode is not "they didn't hear you." It is "only one name is permitted to steer." **Circulation** names whether someone else can take that role for a stretch, step back when the moment passes, and not pay later for having stepped in.
 
 Over time, that narrow gate frustrates individuals. It also hollows out what the group could otherwise practice at the edges: judgment under pressure, early warning, and a bench that has held the center before.
+
+### **Three Shapes: Correction and Circulation**
+
+**Correction** and **circulation** are easiest to see through three shapes:
+
+- One-way authority: influence moves outward only; input is collected, but the center still decides.
+- Voice-only **correction**: concerns can travel upward and sometimes adjust plans, but leadership still stays fixed at the top.
+- Shared **circulation** (guest leadership): influence moves both ways. People closest to the issue can temporarily step in to lead a response, then return to their usual role.[^c5-guest-leadership]
+
+Shared **circulation** keeps authority connected to what people closest to the work can see, without requiring a permanent reshuffle of formal roles. It still turns on **permission** in practice—what the group does after someone steps in, not only what the chart says about temporary lead.
+
+Guest leadership also shapes what others attempt next. When temporary step-in leadership is trusted, more people use it openly.
+
+::: {custom-style="Pull Quote Block"}
+When guest leadership is punished, people retreat.
+:::
+
+Retreat shows up as silence or workaround behavior. Offers to step in get shorter and more guarded. Influence routes through formal channels only. Help stays inside official boxes and rarely moves beyond them. Punishment can mean being treated as stepping out of line, embarrassing the role-holder, or making defense too costly.
 
 ### **What Atrophies Without Circulation**
 
@@ -111,9 +129,9 @@ It is not only mimicry of mannerisms. It copies permission. If stepping in was t
 
 **Circulation** teaches people whether they are allowed to lead before they ever hold the role. What gets practiced during that pre-role period shapes permission and capacity. The lesson is whether stepping in is safe—and whether the muscle gets built at all. By the time someone is promoted, the lesson has already landed.
 
-### **A Practical Circulation Check**
+### **Reading Circulation**
 
-You can read the group without the org chart in front of you. Watch what it does when someone holds the center for a stretch.
+You can read the group without the formal chart in front of you. Watch what it does when someone holds the center for a stretch.
 
 Watch treatment and aftermath: whether the room reads the step-in as useful work or as a problem to manage; whether work still moves when the formal lead is away; who gets offered temporary turns—only people already aligned with the center, or people who might disagree and still be trusted.
 

@@ -20,8 +20,11 @@ The work returns to human scale once more.
 
 At human scale, consequences are harder to wave away, claims are easier to check, and repair is harder to postpone. That does not make human-scale leadership morally pure; it makes feedback harder to ignore.
 
-Formal rules and policy still matter. Day-to-day practice is still where durable habits that sustain vitality are built.
-That takes naming harm in plain words, refusing false urgency when **correction** is still possible, separating visible success from whether **correction** still works, and keeping authority open to change in public.
+Formal rules and policy still matter, but day-to-day practice is where durable
+habits that sustain vitality are built. That takes naming harm in plain words,
+refusing false urgency when **correction** is still possible, separating visible
+success from whether **correction** still works, and keeping authority open to
+change in public.
 
 None of this guarantees a happy ending.
 
@@ -29,7 +32,7 @@ It does something quieter and more realistic: it reduces how much harm can be no
 
 Without that work, decisions may never reconnect with who bears the cost. That disconnect is what **Leaders Feel the Consequences** points to. Harm becomes a durable norm rather than an intermittent failure.
 
-If reading this book changes what you tolerate, what you reward, and what you refuse to excuse, you are already changing how **Leadership Reproduces Itself**.
+If what you read here changes what you tolerate, what you reward, and what you refuse to excuse, you are already changing how **Leadership Reproduces Itself**.
 
 Anyone who takes cues from how you lead is caught in that movement.
 

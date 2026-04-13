@@ -80,7 +80,9 @@ Use during **Step 5**, **Step 5.75**, and echo passes after plain-language work.
 
 **Chapter 3 (`chapter-3-renewal.md`):** **What Vitality Opens** leads into the adjusting trio as separate sections (each with Pattern Block and vignette). **Scalability** / **adaptability**: prefer **coordinated action** (canonical lexicon).
 
-**Chapter 4 (`chapter-4-erosion.md`):** **What Decay Looks Like** and the eroding trio (**Leadership Reproduces Itself** is defined in **Chapter 5 — Circulation**). Prefer plain wording for whether plans can still change once they are in motion; *permeability* → **fewer channels stay open for bad news; telling the truth costs more**. **Harm** in decay: *abstract language* → **vague wording** where helpful. **Cost / harm:** *tractable* → **small enough to fix**; *narrative control* → **control of the public story**. **Early indicators**, **why erosion feels rational**, and **a practical discipline** belong in later chapters as written—do not re-expand them here.
+**Chapter 4 (`chapter-4-erosion.md`):** **What Decay Looks Like** and the eroding trio (**Leadership Reproduces Itself** is defined in **Chapter 5 — Circulation**). Prefer plain wording for whether plans can still change once they are in motion; *permeability* → **fewer channels stay open for bad news; telling the truth costs more**. **Harm** in decay: *abstract language* → **vague wording** where helpful. **Cost / harm:** *tractable* → **small enough to fix**; *narrative control* → **control of the public story**. **Early indicators**, **why erosion feels rational**, and **a practical discipline** belong in later chapters as written—do not re-expand them here. Learning Collapses vignette: **The Placement Queue** (community college portal), not *The Field Trip Form*.
+
+**Chapter 5 (`chapter-5-circulation.md`):** Closing section **Reading Circulation** (retitled from “A Practical Circulation Check”). **Three Shapes: Correction and Circulation** after **Why Correction Alone Isn't Enough**—see `edit-effectiveness-chapter.md`.
 
 ---
 
@@ -110,7 +112,7 @@ Use during **Step 5**, **Step 5.75**, and echo passes after plain-language work.
 
 ## Chapter 7 — Effectiveness (Pass 3)
 
-- Subheading **When Failure Strengthens Vitality** (state); **correction**-related opening uses **Vitality depends** where the claim is about condition, not direction.
+- **When Failure Strengthens Vitality** moved to **Chapter 3 — Renewal**; **Pressure and Recovery** moved to **Chapter 10** (`edit-effectiveness-chapter.md`). Chapter 7 keeps **After the Citation** and the effectiveness-throughline sections.
 - Short-term success **triad** in Chapter 7 should stay **mixed-domain** (e.g. school / neighborhood / public crisis), not finance-quarter-default.
 - Prefer: **one-time squeeze of trust and capacity** over *one-time extraction*.
 - *Political discomfort* → **awkward public moments** where used.
@@ -124,10 +126,25 @@ Use during **Step 5**, **Step 5.75**, and echo passes after plain-language work.
 
 ## Chapters 9–10 and epilogue (Part IV; recent related edits)
 
+- **Bridge — From Structure to Scale and Judgment:** substance-led close (reach, feedback, pressure; scale/drift, tradeoffs, misjudgment)—avoid “What follows takes up…” navigation.
+- **Chapter 11 — What to Watch Instead:** prefer **what matters is the room…** over repeated **test** framing; default abstraction **system** → **group** in analytic prose (keep *system office* etc. in vignettes when scene-specific).
+- **Chapter 11** closing: merged **what remains** with judgment-without-handoff line; avoid **What comes next** as a part-to-part signpost.
 - Epilogue: **restoring vitality** (not *renewal*) when naming what comes back after damage containment.
 - **Trajectories** language (not “unbounded/bounded arc”); **baseline shifted** ties to **Chapter 10** (Tradeoffs) exception sequence.
 - **Chapter 12** (What Happens Next) should avoid a redundant four-state recap; keep **Feedback Drives Change** on the trajectory paragraph where it still fits.
 - Epilogue: prefer **usual way decisions get made**, **how people are treated**, **formal rules and policy**, **whether correction still works** over *governance / structural gains* where those edits already landed.
+
+---
+
+## Part I, Part V, and back matter (closing pass)
+
+- **Bridge — From Attention to Pattern:** avoid “What follows tracks…”; plain glance-to-habit beat (“It starts with a glance. Over time, it can settle into a habit.”); “This part stays with formation” instead of “this stretch of the book” or “formation stays in view.”
+- **Chapter 1:** **circulation** watch line uses **holds**—not “Watch **circulation** next” (navigation).
+- **Bridge — From Misjudgment to What Remains:** repair sentence without “What follows is…”
+- **Chapter 12:** closing section **What Still Applies** (retitled from “A Practical Discipline”); “test arrives” → “moment that counts”; avoid *compliance with a center* in favor of **going along with whoever holds the center**.
+- **Epilogue:** “If reading this book…” → “If what you read here…” (grounded, plain; avoids abstract “this argument”).
+- **Appendix B** intro: “what comes next” → “what tends to follow” (reference layout stays watch-led, not checklist-led).
+- **Appendix A** (healthcare): default abstraction **system** → **network** where the scene is a hospital *network*.
 
 ---
 

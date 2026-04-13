@@ -3,8 +3,8 @@
 ### **Two Directions**
 
 What a group does under attention does not freeze in place.[^c2-adaptive-systems]
-People may not all go along; influence can still run strong when compliance is
-only partial. The question is what that influence keeps producing.
+People may not all go along; influence can still run strong when people only
+partly go along. The question is what that influence keeps producing.
 
 Once **Attention Finds a Focus**, the group moves in one of two directions.
 Either the group can still correct course and coordinated action can still grow in
@@ -30,10 +30,9 @@ thread by hand.
 **Adaptability** asks whether the work can still change direction when reality
 pushes back—whether plans stay open to revision after they are in motion.
 
-**Erosion** shows when either capacity shrinks. The next step is how those
-capacities sort into two groups, depending on whether **adaptability** stays
-high or falls low. The pattern chapters then show what each direction looks
-like in practice.
+**Erosion** shows when either capacity shrinks. How those capacities combine
+depends on whether **adaptability** stays high or falls low. That split is what
+separates the two groups on the grid.
 
 ### **The Vibrant Group and the Decaying Group**
 
@@ -42,7 +41,7 @@ corners of the grid—**regenerative**, **adaptive**, **entrenched**, and
 **stalled**. These are not personality types. They describe how the work is set
 up when pressure hits—not what kind of people you are.
 
-This book cares about the split down the middle: high **adaptability** on one
+The argument turns on the split down the middle: high **adaptability** on one
 side, low **adaptability** on the other. Each side is two corners, not one box.
 
 The **vibrant group** is the **renewal**-side pair: **regenerative** and
@@ -65,8 +64,9 @@ and **erosion**. They name how things tend to feel on the ground when **renewal*
 or **erosion** is holding—whether hard conversation still pays off, and whether
 what people on the edges know still matches what the room will hear.
 
-The chapters that follow go into patterns: first what **renewal** looks like when
-**vitality** holds, then what **erosion** looks like when **decay** deepens.
+**Renewal** comes first in the argument—what **vitality** holds open when
+dissent and feedback still move. **Erosion** follows—what **decay** looks like
+when channels narrow and exceptions harden.
 
 ::: {custom-style="Pull Quote Block"}
 Which way the group is moving is not the same as how things feel day to day. Neither one is a score on who is good or bad.
