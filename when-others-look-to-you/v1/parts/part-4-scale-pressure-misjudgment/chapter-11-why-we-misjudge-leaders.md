@@ -12,7 +12,7 @@ Scale stretches feedback paths. Pressure narrows judgment windows. Those forces 
 
 ### **Outcome Bias**
 
-Outcome bias happens when results stand in for judging how decisions were made and how influence was organized.[^c10-outcome-bias]
+Outcome bias happens when results stand in for judging how decisions were made and how influence was organized.[^c11-outcome-bias]
 
 If an initiative appears to work, observers assume leadership was sound. If it fails, observers assume leadership was poor. In both cases, the judgment is compressed into a single variable: what happened.
 
@@ -22,13 +22,13 @@ Short-term outcomes alone reward confidence over uncertainty: performance theate
 
 ### **Structural Blindness**
 
-Structural blindness happens when observers miss how influence is organized while they focus on personality, intention, or rhetoric.[^c10-structural-blindness]
+Structural blindness happens when observers miss how influence is organized while they focus on personality, intention, or rhetoric.[^c11-structural-blindness]
 
 A leader says the right words about accountability. Observers treat this as evidence. Meanwhile, dissent channels narrow, bad news is filtered, and decision costs are displaced to people with less power.
 
 That pattern does not require anyone to mean harm. It can come from habit, worry about rank, rush, or "how we do things here." In a tight circle, the first news of trouble may never leave the room where it started. Drift can worsen while everyone still sounds reasonable. How things really work keeps shifting. The words stay polished anyway.
 
-Structural blindness is common because many of the relevant signals are socially expensive to raise.[^c10-psychological-safety] People close to problems carry the highest local risk for naming them.
+Structural blindness is common because many of the relevant signals are socially expensive to raise.[^c11-psychological-safety] People close to problems carry the highest local risk for naming them.
 
 When bad news stops moving early enough to matter, **Dissent is No Longer Welcomed**.
 
@@ -56,9 +56,9 @@ Structural blindness explains why *observers* miss erosion. This is the interior
 
 A common misunderstanding follows from the same errors.
 
-Observers assume that if people continue to look to a leader, they must also be going along in full. In practice, that alignment is selective.[^c10-selective-followership]
+Observers assume that if people continue to look to a leader, they must also be going along in full. In practice, that alignment is selective.[^c11-selective-followership]
 
-People may go along with strategic direction while resisting tactics. They may trust competence but not moral judgment. They may publicly align and privately diverge. They may even invert instructions under pressure to preserve autonomy.[^c10-reactance]
+People may go along with strategic direction while resisting tactics. They may trust competence but not moral judgment. They may publicly align and privately diverge. They may even invert instructions under pressure to preserve autonomy.[^c11-reactance]
 
 This does not automatically mean disloyalty. It can mean active judgment. In the **vibrant group**, selective dissent is visible and usable. In the **decaying group**, it goes quiet and becomes hidden workarounds.
 
@@ -70,7 +70,7 @@ Confidence is persuasive because it lowers uncertainty for observers.
 
 When people are stressed, they prefer directional certainty over deeper uncertainty. A clear answer feels safer than a careful answer. A strong claim feels more usable than a carefully limited claim.
 
-This preference makes groups vulnerable. It rewards leaders who reduce complexity too quickly. It penalizes leaders who keep uncertainty visible long enough to make better decisions.[^c10-ambiguity-and-sensemaking]
+This preference makes groups vulnerable. It rewards leaders who reduce complexity too quickly. It penalizes leaders who keep uncertainty visible long enough to make better decisions.[^c11-ambiguity-and-sensemaking]
 
 Confidence can be valuable; overconfidence when challenge is unwelcome is costly.
 
@@ -120,7 +120,7 @@ Misjudgment compounds.
 
 When outcome bias and structural blindness combine, leaders receive credit for short-term wins while **decay** deepens underneath. By the time external failure appears, capacity for **correction** has already shrunk. Repair costs have already risen.
 
-This is why late-stage collapse feels sudden to outsiders and inevitable to insiders. The warning signs were present, but the main way people were judging did not prioritize them.[^c10-normalization-of-deviance]
+This is why late-stage collapse feels sudden to outsiders and inevitable to insiders. The warning signs were present, but the main way people were judging did not prioritize them.[^c11-normalization-of-deviance]
 
 ### **A Clearer Read**
 
@@ -137,10 +137,10 @@ What comes next is what still stays possible when structures drift and signals m
 ::: {custom-style="Pull Quote Block"}
 Outcome stories are loud; structural signals are decisive.
 :::
-[^c10-outcome-bias]: Jonathan Baron and John C. Hershey, "Outcome Bias in Decision Evaluation," *Journal of Personality and Social Psychology* 54, no. 4 (1988): 569–579.
-[^c10-psychological-safety]: Amy C. Edmondson, "Psychological Safety and Learning Behavior in Work Teams," *Administrative Science Quarterly* 44, no. 2 (1999): 350–383.
-[^c10-structural-blindness]: Diane Vaughan, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA* (Chicago: University of Chicago Press, 1996); Chris Argyris, *Overcoming Organizational Defenses* (Boston: Allyn and Bacon, 1990); Karl E. Weick, Kathleen M. Sutcliffe, and David Obstfeld, "Organizing and the Process of Sensemaking," *Organization Science* 16, no. 4 (2005): 409–421.
-[^c10-selective-followership]: Michael Uhl-Bien et al., "Followership Theory: A Review and Research Agenda," *The Leadership Quarterly* 25, no. 1 (2014): 83–104.
-[^c10-reactance]: Jack W. Brehm, *A Theory of Psychological Reactance* (New York: Academic Press, 1966).
-[^c10-ambiguity-and-sensemaking]: Karl E. Weick, Kathleen M. Sutcliffe, and David Obstfeld, "Organizing and the Process of Sensemaking," *Organization Science* 16, no. 4 (2005): 409–421.
-[^c10-normalization-of-deviance]: Diane Vaughan, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA* (Chicago: University of Chicago Press, 1996).
+[^c11-outcome-bias]: Jonathan Baron and John C. Hershey, "Outcome Bias in Decision Evaluation," *Journal of Personality and Social Psychology* 54, no. 4 (1988): 569–579.
+[^c11-psychological-safety]: Amy C. Edmondson, "Psychological Safety and Learning Behavior in Work Teams," *Administrative Science Quarterly* 44, no. 2 (1999): 350–383.
+[^c11-structural-blindness]: Diane Vaughan, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA* (Chicago: University of Chicago Press, 1996); Chris Argyris, *Overcoming Organizational Defenses* (Boston: Allyn and Bacon, 1990); Karl E. Weick, Kathleen M. Sutcliffe, and David Obstfeld, "Organizing and the Process of Sensemaking," *Organization Science* 16, no. 4 (2005): 409–421.
+[^c11-selective-followership]: Michael Uhl-Bien et al., "Followership Theory: A Review and Research Agenda," *The Leadership Quarterly* 25, no. 1 (2014): 83–104.
+[^c11-reactance]: Jack W. Brehm, *A Theory of Psychological Reactance* (New York: Academic Press, 1966).
+[^c11-ambiguity-and-sensemaking]: Karl E. Weick, Kathleen M. Sutcliffe, and David Obstfeld, "Organizing and the Process of Sensemaking," *Organization Science* 16, no. 4 (2005): 409–421.
+[^c11-normalization-of-deviance]: Diane Vaughan, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA* (Chicago: University of Chicago Press, 1996).

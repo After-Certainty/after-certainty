@@ -39,7 +39,7 @@ Crisis sharpens what you can read from the structure; it is not only a disruptio
 
 ### **Crisis Across the Lenses**
 
-Crisis periods widen tolerance for shifting **harm** onto others. They reward short-term **effectiveness** while shrinking the time **correction** has to matter. They accelerate **legitimacy** transfer through emergency precedent. They normalize temporary authority expansions into a lasting baseline for how decisions get made.[^c9-crisis-precedent]
+Crisis periods widen tolerance for shifting **harm** onto others. They reward short-term **effectiveness** while shrinking the time **correction** has to matter. They accelerate **legitimacy** transfer through emergency precedent. They normalize temporary authority expansions into a lasting baseline for how decisions get made.[^c10-crisis-precedent]
 
 Crisis does not invent these dynamics; it reveals and amplifies what the
 structure already permits.
@@ -80,7 +80,7 @@ decisive than leaders who centralize control and close debate. But over
 time, restraint preserves **adaptability** and limits **harm** that shows up
 later.
 
-Urgency can be real; what matters is what gets locked in after it passes.[^c9-escalation]
+Urgency can be real; what matters is what gets locked in after it passes.[^c10-escalation]
 
 Once the emergency story stops dominating meetings, can new information still
 change the plan? When it can, **Feedback Drives Change**—plans still move with the facts.
@@ -108,8 +108,8 @@ possible once trajectories are visible but reversal is incomplete—and once
 ::: {custom-style="Pull Quote Block"}
 Pressure clarifies commitments; it does not absolve them.
 :::
-[^c9-crisis-precedent]: Giorgio Agamben, *State of Exception*, trans. Kevin Attell (Chicago: University of Chicago Press, 2005).
-[^c9-escalation]: Barry M. Staw, "Knee-Deep in the Big Muddy: A Study of Escalating
+[^c10-crisis-precedent]: Giorgio Agamben, *State of Exception*, trans. Kevin Attell (Chicago: University of Chicago Press, 2005).
+[^c10-escalation]: Barry M. Staw, "Knee-Deep in the Big Muddy: A Study of Escalating
   Commitment to a Chosen Course of Action," *Organizational Behavior and Human
   Performance* 16, no. 1 (1976): 27–44, on escalating commitment to a course after
   direction has hardened—the pattern that restraint, verification, and reopened

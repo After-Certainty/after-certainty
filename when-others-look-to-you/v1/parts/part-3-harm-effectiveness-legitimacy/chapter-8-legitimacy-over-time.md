@@ -6,7 +6,7 @@ Leadership persists because attention persists. But no one explanation is
 enough on its own.
 
 People keep following when they believe authority remains justified; that belief
-is **legitimacy**.[^c7-weber]
+is **legitimacy**.[^c8-weber]
 
 **Legitimacy** is not static. It can renew, transfer, harden, or slip out of
 step with what is actually happening. Each form ties authority to
@@ -91,7 +91,7 @@ Sacralized legitimacy grows when raising doubt feels disloyal. People merge
 who they are with the leader or the group story. The public story is treated
 as settled. The same immunity reaches transfer: who leads next, or how
 authority is supposed to pass, is treated as foreordained—part of a line the
-group is not meant to reopen. Trying to correct someone costs you socially.[^c7-arendt]
+group is not meant to reopen. Trying to correct someone costs you socially.[^c8-arendt]
 
 A simple case: someone asks whether the named successor is still the right fit,
 or whether the succession rule should be reopened before authority passes. The
@@ -219,5 +219,5 @@ when feedback can still change decisions.
 ::: {custom-style="Pull Quote Block"}
 Legitimacy survives through repeated accountability, not one-time assent.
 :::
-[^c7-weber]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
-[^c7-arendt]: Hannah Arendt, "What Is Authority?" in *Between Past and Future* (New York: Viking Press, 1961).
+[^c8-weber]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
+[^c8-arendt]: Hannah Arendt, "What Is Authority?" in *Between Past and Future* (New York: Viking Press, 1961).

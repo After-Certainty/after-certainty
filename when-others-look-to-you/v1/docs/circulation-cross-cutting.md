@@ -11,7 +11,7 @@ Authoritative structure lives in **`index.md`** (reading order and paths).
 
 ## Historical note (superseded weave)
 
-An intermediate structural pass **removed** a standalone circulation chapter and **wove** Correction/Circulation only through the harm / effectiveness / legitimacy chapters. That layout is **superseded** by the rewrite above. Some footnote IDs (`c5`, `c6`, `c7`, etc.) still reflect numbering from that era; do not renumber footnotes unless doing a dedicated citation pass.
+An intermediate structural pass **removed** a standalone circulation chapter and **wove** Correction/Circulation only through the harm / effectiveness / legitimacy chapters. That layout is **superseded** by the rewrite above. In-source footnote IDs use a chapter-scoped prefix (`[^cN-…]` with **N** matching the chapter number); renumber chapters in `index.md` together with those IDs when doing a citation pass.
 
 ## Part I preview
 
