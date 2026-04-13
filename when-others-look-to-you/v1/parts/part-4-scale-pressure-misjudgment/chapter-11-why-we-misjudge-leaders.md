@@ -62,7 +62,9 @@ When observers collapse all this into a single category—either "they are with 
 
 ### **Why Confidence Is So Persuasive**
 
-Confidence lowers uncertainty for observers—especially under stress. A clear answer feels safer than a careful one; a strong claim feels more usable than a limited one. The same preference shows up at distance: at larger reach, the confident headline often outruns the careful caveat, so relief in a tense room can read as competence from far away.
+Confidence lowers uncertainty for observers—especially under stress. A clear answer feels safer than a tentative one; a strong claim feels more usable than a narrow one.
+
+It travels. At larger reach, the confident headline often outruns the caveat. What steadies a tense room can read as competence from far away.
 
 This preference makes groups vulnerable. It rewards leaders who reduce complexity too quickly. It penalizes leaders who keep uncertainty visible long enough to make better decisions.[^c11-ambiguity-and-sensemaking]
 
