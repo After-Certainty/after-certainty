@@ -936,7 +936,7 @@ Not a person trying to win.
 
 ### **Front Matter Depth**
 
-- Front matter sections (for example: Author's Note, Preface, Acknowledgements, Introduction, Typographical Conventions) must be substantive drafts, not placeholder blurbs.
+- Front matter sections (for example: Author's Note, Preface, Acknowledgements, Typographical Conventions, Introduction) must be substantive drafts, not placeholder blurbs.
 
 - Each front matter section should clearly perform its distinct role in the reading sequence.
 

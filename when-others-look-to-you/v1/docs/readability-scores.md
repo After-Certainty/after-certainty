@@ -58,8 +58,8 @@
 | Author's note | `front-matter/authors-note.md` |
 | Preface | `front-matter/preface.md` |
 | Acknowledgements | `front-matter/acknowledgements.md` |
-| Introduction | `front-matter/introduction-attention-finds-a-focus.md` |
 | Typographical conventions | `front-matter/typographical-conventions.md` |
+| Introduction | `front-matter/introduction-attention-finds-a-focus.md` |
 | Bridge | `parts/part-1-how-influence-forms/bridge.md` |
 | Ch 1 — The Weight of Being Looked To | `parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md` |
 | Bridge — From Formation to Movement | `parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md` |

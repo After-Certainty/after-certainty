@@ -11,8 +11,8 @@
 - [Author's Note](front-matter/authors-note.md)
 - [Preface](front-matter/preface.md)
 - [Acknowledgements](front-matter/acknowledgements.md)
-- [Introduction — Attention Finds a Focus](front-matter/introduction-attention-finds-a-focus.md)
 - [Typographical Conventions](front-matter/typographical-conventions.md)
+- [Introduction — Attention Finds a Focus](front-matter/introduction-attention-finds-a-focus.md)
 
 ## Part I — How Influence Forms
 
