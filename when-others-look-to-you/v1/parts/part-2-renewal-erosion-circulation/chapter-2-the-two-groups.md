@@ -42,7 +42,7 @@ corners of the grid—**regenerative**, **adaptive**, **entrenched**, and
 **stalled**. These are not personality types. They describe how the work is set
 up when pressure hits—not what kind of people you are.
 
-This book cares about the split down the middle: high **adaptability** on one
+The argument turns on the split down the middle: high **adaptability** on one
 side, low **adaptability** on the other. Each side is two corners, not one box.
 
 The **vibrant group** is the **renewal**-side pair: **regenerative** and

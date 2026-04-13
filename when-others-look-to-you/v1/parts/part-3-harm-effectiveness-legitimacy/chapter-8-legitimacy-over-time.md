@@ -157,8 +157,8 @@ way to **Disagreement is Suppressed**.
 A leader can keep attention after legitimacy weakens. Titles persist.
 Stories about who we are persist. Habits persist.
 
-The real question is whether authority still answers to the people
-affected by its decisions.
+The question is whether authority still answers to the people affected by its
+decisions.
 
 If legitimacy cannot renew through visible **correction**, influence may
 continue, but decay deepens.

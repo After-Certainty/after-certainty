@@ -114,7 +114,7 @@ When others are looking, very little is neutral.
 
 ### **The Core Question**
 
-Others are already looking. The real question is what happens next.
+Others are already looking. The question is what happens next.
 
 Does influence stay open to **correction**? Does belief renew through
 example? Does authority drift toward insulation?[^c1-correction-and-insulation]

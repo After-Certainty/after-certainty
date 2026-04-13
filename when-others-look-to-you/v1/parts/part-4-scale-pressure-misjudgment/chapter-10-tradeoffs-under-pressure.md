@@ -107,9 +107,9 @@ describes how things are actually run.
 
 ### **What Remains Possible**
 
-Tradeoffs under pressure show trajectories. The real question is what remains
-possible once trajectories are visible but reversal is incomplete—and once
-**Exceptions are Forever** has begun to shape the baseline.
+Tradeoffs under pressure show trajectories. The question is what remains possible
+once trajectories are visible but reversal is incomplete—and once **Exceptions
+are Forever** has begun to shape the baseline.
 
 ::: {custom-style="Pull Quote Block"}
 Pressure clarifies commitments; it does not absolve them.

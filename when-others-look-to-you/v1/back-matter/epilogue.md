@@ -20,8 +20,11 @@ The work returns to human scale once more.
 
 At human scale, consequences are harder to wave away, claims are easier to check, and repair is harder to postpone. That does not make human-scale leadership morally pure; it makes feedback harder to ignore.
 
-Formal rules and policy still matter. Day-to-day practice is still where durable habits that sustain vitality are built.
-That takes naming harm in plain words, refusing false urgency when **correction** is still possible, separating visible success from whether **correction** still works, and keeping authority open to change in public.
+Formal rules and policy still matter, but day-to-day practice is where durable
+habits that sustain vitality are built. That takes naming harm in plain words,
+refusing false urgency when **correction** is still possible, separating visible
+success from whether **correction** still works, and keeping authority open to
+change in public.
 
 None of this guarantees a happy ending.
 
