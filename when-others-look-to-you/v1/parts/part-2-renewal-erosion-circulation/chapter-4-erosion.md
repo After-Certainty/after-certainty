@@ -74,14 +74,14 @@ What people on the ground know stops reaching decision-makers in time.
 Negative feedback weakens. Drift continues behind strong stories.
 :::
 
-### **The Field Trip Form**
+### **The Placement Queue**
 
 ::: {custom-style="Vignette Block"}
-A school district rolls out a new field-trip approval workflow across seventeen buildings. In the first week, two principals notice the same flaw: a routing rule sends certain permission slips to a queue that nothing in the office checks daily. They log it in their building notes. Their area director adds it to the weekly digest. The central operations team marks it as a “training follow-up” because adoption numbers are on target.
+A community college rolls out a new internship-placement approval portal across nine satellite centers. In the first week, two site coordinators notice the same flaw: a routing rule sends certain placement packets to a queue that nothing at the help desk checks daily. They log it in their center notes. Their dean adds it to the weekly digest. Central IT marks it as a “training follow-up” because adoption numbers are on target.
 
-At the administration building, the superintendent’s briefing shows compliance rates. It does not show the shadow inbox principals keep so trips do not stall. Everyone assumes someone closer to the vendor must have opened a ticket.
+In the president’s briefings to the board, compliance rates look strong. They do not show the shadow spreadsheet coordinators keep so placements do not stall. Everyone assumes someone closer to the vendor must have opened a ticket.
 
-Six weeks later, a trip departs late enough to matter; the story is small but visible. Central asks why nobody flagged the workflow earlier. The flag lived in every weekly digest; it never turned into a decision that could change the rule—only into local workarounds that kept parents from revolting.
+Six weeks later, a cohort shows up out of sequence; the story is small but visible. Central asks why nobody flagged the portal earlier. The flag lived in every weekly digest; it never turned into a decision that could change the rule—only into local workarounds that kept employers from walking away.
 
 Nobody blocked the message on purpose. The structure simply stopped carrying it to the people who could still change the template.
 :::

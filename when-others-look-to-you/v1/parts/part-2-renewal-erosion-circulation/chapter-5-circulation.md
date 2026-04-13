@@ -24,7 +24,7 @@ Permission can be open on paper and closed in practice. A formal deputizing stru
 ### **Reading the Room — The Hesitation**
 
 ::: {custom-style="Vignette Block"}
-The project lead is out sick the morning the client calls with a scope question that cannot wait. One person on the team knows the answer—has been closest to that part of the work for two months, has heard every relevant conversation. She also knows what happened six weeks ago when someone else jumped in on a similar call without being asked. That person was thanked afterward in a way that felt like a warning. She drafts a response, reads it twice, and sends it to the project lead's personal phone instead. The client waits three hours for an answer that was already written.
+The foreman is off-site the morning the general contractor's superintendent calls the site trailer with a beam-spec question that could hold the pour. One carpenter has been on that span for six weeks; she knows the answer and has heard every relevant conversation about the change order. She also knows what happened six weeks ago when someone else answered a similar call without the foreman in the loop: thanked afterward in the trailer in a way that made clear who was allowed to speak for the crew. She lets the call go to voicemail and texts the foreman. The pour waits two hours for an answer she could have given in two minutes.
 
 Nobody made a rule about this. The rule was already there.
 :::

@@ -74,15 +74,15 @@ This preference makes groups vulnerable. It rewards leaders who reduce complexit
 
 Confidence can be valuable; overconfidence when challenge is unwelcome is costly.
 
-### **The Principal's Turnaround**
+### **The Dean's Turnaround**
 
 ::: {custom-style="Vignette Block"}
-A school principal takes over a low-performing campus and launches a strict attendance and test-prep program. Within a year, scores rise and district leaders celebrate a turnaround.
+A dean takes over a struggling community college campus and launches a strict completion campaign: gateway-course attendance minimums, compressed timelines, and visible dashboards for retention. Within a year, completion metrics rise and the system office celebrates a turnaround.
 
-Teachers, however, quietly stop reporting disciplinary incidents because the numbers are used in performance evaluations. Students with the highest support needs are informally steered toward transfer pathways. Parent complaints increase, but most are handled privately to protect the public narrative.
+Faculty, however, quietly stop logging the kinds of support interventions that do not help the dashboard because the counts feed evaluations. Students with the most complex lives are informally steered toward part-time or certificate-only tracks. Student complaints increase, but most are handled in one-on-ones to protect the public narrative.
 :::
 
-From the outside, this looks like evidence of strong leadership. Inside the school, paths for **correction** are narrowing and **harm** is being displaced.
+From the outside, this looks like evidence of strong leadership. On the campus, paths for **correction** are narrowing and **harm** is being displaced.
 
 The vignette shows why outcome bias and structural blindness reinforce each other: visible success can hide degrading conditions until repair becomes expensive.
 
