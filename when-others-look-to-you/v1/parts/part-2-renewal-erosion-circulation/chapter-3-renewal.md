@@ -52,8 +52,8 @@ raised it was still treated as allowed to speak.
 
 ### **Feedback Drives Change**
 
-Once dissent can travel, the next question is whether new information can still
-steer the work. **Feedback Drives Change** means revision is normal—not a
+Once dissent can travel, the question is whether new information can still steer
+the work. **Feedback Drives Change** means revision is normal—not a
 verdict on the first plan, and not proof someone failed by not getting it right
 the first time.
 
@@ -115,10 +115,9 @@ Failure happens. The question is whether learning follows—whether new informat
 
 ### **Correction, Circulation, and What Holds Together**
 
-**Correction** and **circulation** are the two checks the next parts unpack in
-detail: whether warnings can still change decisions, and whether the center can
-move when the work demands it—not only outward from formal roles. That movement is what lets
-leadership scale and reproduce itself.
+**Correction** names whether warnings can still change decisions. **Circulation**
+names whether the center can move when the work demands it—not only outward from
+formal roles. That movement is what lets leadership scale and reproduce itself.
 
 ### **When Vitality Holds**
 

@@ -35,9 +35,9 @@ fixes outlast the emergencies they were meant for.
 
 ### **Disagreement is Suppressed**
 
-**Disagreement is Suppressed** is not always a loud crackdown. Often the room
-has already taught what happens to people who name friction—so the next person
-does the math instead of raising the objection.
+**Disagreement is Suppressed** is not always a loud crackdown. Sometimes the
+room has already taught what happens to people who name friction—so the next
+person does the math instead of raising the objection.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Disagreement is Suppressed**

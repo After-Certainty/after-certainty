@@ -9,7 +9,7 @@ What those mechanisms often miss, even when they run smoothly, is **permission**
 **Circulation** names whether the permission structure allows someone to lead temporarily, share the lead, and hand it off when the problem demands it—without treating every step as a challenge to formal authority. Influence needs to move *through* the group, not only *outward from* a fixed center.
 Only then does coordinated action stay revisable as reach grows.
 
-Guest leadership—stepping up for a stretch, then stepping back—depends on that permission.[^c5-guest-leadership] In collaborative work it often shows up as a role that passes with the problem, not a permanent claim on every decision. What makes it possible is still the group's answer: whether stepping back is as safe as stepping up was welcome.
+Guest leadership—stepping up for a stretch, then stepping back—depends on that permission.[^c5-guest-leadership] In collaborative work it tends to show up as a role that passes with the problem, not a permanent claim on every decision. What makes it possible is still the group's answer: whether stepping back is as safe as stepping up was welcome.
 
 Where **circulation** is narrow, the org chart can look healthy while every real decision still waits for the same gate.
 
@@ -19,7 +19,7 @@ Permission is not usually announced. It adds up in what the group does after som
 
 By the time a moment arrives that calls for someone to step in, the permission question has usually already been answered. The answer rarely comes from a formal declaration. It comes from what the group has been teaching about the cost of leading without being asked.
 
-Permission can be open on paper and closed in practice. A formal deputizing structure, a clear chain of command, an explicit invitation to lead in someone's absence—none of these guarantee that the permission is real. The test is what happens after, not what was said before.
+Permission can be open on paper and closed in practice. A formal deputizing structure, a clear chain of command, an explicit invitation to lead in someone's absence—none of these guarantee that the permission is real. What matters is what happens after, not what was said before.
 
 ### **Reading the Room — The Hesitation**
 
@@ -129,9 +129,9 @@ It is not only mimicry of mannerisms. It copies permission. If stepping in was t
 
 **Circulation** teaches people whether they are allowed to lead before they ever hold the role. What gets practiced during that pre-role period shapes permission and capacity. The lesson is whether stepping in is safe—and whether the muscle gets built at all. By the time someone is promoted, the lesson has already landed.
 
-### **A Practical Circulation Check**
+### **Reading Circulation**
 
-You can read the group without the org chart in front of you. Watch what it does when someone holds the center for a stretch.
+You can read the group without the formal chart in front of you. Watch what it does when someone holds the center for a stretch.
 
 Watch treatment and aftermath: whether the room reads the step-in as useful work or as a problem to manage; whether work still moves when the formal lead is away; who gets offered temporary turns—only people already aligned with the center, or people who might disagree and still be trusted.
 
