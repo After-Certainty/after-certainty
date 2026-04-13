@@ -82,7 +82,7 @@ At a sister plant in the same region, similar drift shows up in logs, but produc
 Inside the halted plant, the stop triggers supplier talks, a slower line everyone on the floor can see, and a clear record of who signed off on each restart. None of that fits the row the regional office reads first.
 :::
 
-From the outside, the red quarter reads as weak leadership. Here, bias punishes visible cost—even when that cost buys time for **correction** and prevents a larger failure later.
+From the outside, the red quarter reads as weak leadership. Here, bias punishes visible cost—even when that cost bought time for a necessary stop and prevented a larger failure later.
 
 The chapter’s familiar misread—success hiding harm—has a mirror image. Here, paths for **correction** were open where the lagging numbers looked worst. The misread still lands as selection pressure: if only the summary line travels, the next person in the role learns to keep the line moving and handle drift where it does not show up on the same chart.
 
@@ -100,7 +100,7 @@ have to happen and cost something.
 
 Watch who absorbs the loss when something goes wrong, and whether that person was also the one who decided.
 
-Watch whether known problems come back. Recurrence is one of the clearest tells available: it means the **correction** either never happened or didn't hold.
+Watch whether known problems come back. Recurrence is one of the clearest tells available: it means **correction** did not take—or did not hold.
 
 Watch whether authority stays connected to what it produces. Watch whether distance—physical, organizational, narrative—has opened between the decision and its consequences.
 
@@ -112,7 +112,7 @@ None of these requires knowing anyone's motives. They only require watching what
 
 At larger reach, misjudgment is harder to catch in time. What would still show clearly in a room turns into fragments on screens, late in writing, and thin in summary.
 
-Pressure amplifies this distortion. Under compressed timelines, groups favor storylines that are quick to defend: output, confidence, and narrative coherence. Challenge to direction tends to reach the table later and cost more socially.
+Urgency amplifies this distortion. Under compressed timelines, groups favor storylines that are quick to defend: output, confidence, and narrative coherence. Challenge to direction tends to reach the table later and cost more socially.
 
 This is where outcome bias and structural blindness reinforce one another. Outcome bias supplies a tidy verdict on the metrics that travel; structural blindness removes the pathways that would challenge that verdict from inside the group—or mislabels challenge as disloyalty when it does arrive.
 
@@ -122,23 +122,23 @@ That is why misjudgment belongs in view here, after scale and pressure. The cond
 
 Misjudgment compounds.
 
-When outcome bias and structural blindness combine, leaders receive credit for short-term wins while **decay** deepens underneath. Once failure surfaces in public, capacity for **correction** has often shrunk already. Repair costs have already risen.
+When outcome bias and structural blindness combine, leaders receive credit for short-term wins while **decay** deepens underneath. Once failure surfaces in public, room for warning to change plans has often shrunk already. Repair costs have already risen.
 
 Late-stage collapse often feels sudden to outsiders and inevitable to insiders: the warning signs were present, but the main way people were judging did not prioritize them.[^c11-normalization-of-deviance]
 
 ### **Misjudgment as Selection Pressure**
 
-When confident, outcome-focused leadership consistently draws more credit than structurally careful leadership, the people who learn to project confidence and manage visible metrics outlast those who keep **correction** channels costly and open. That is not necessarily corruption. It is selection: whatever a group’s judgment system rewards, more of it accumulates over time.
+When confident, outcome-focused leadership consistently draws more credit than structurally careful leadership, the people who learn to project confidence and manage visible metrics outlast those who keep open paths for challenge even when it is expensive. That is not necessarily corruption. It is selection: whatever a group’s judgment system rewards, more of it accumulates over time.
 
-Institutions are not neutral containers. They develop habits—what gets promoted, what gets funded, what counts as a win—and those habits shape who stays in position to lead. Misjudgment does not only misread individuals; it shifts the pool of who is plausible the next time pressure arrives.
+Institutions are not neutral containers. They develop habits—what gets promoted, what gets funded, what counts as a win—and those habits shape who stays in position to lead. Misjudgment does not only misread individuals; it shifts the pool of who is plausible the next time the group is under strain.
 
 That is why “better judgment” is not a self-correcting fix once the wrong signals have compounded. Repair takes deliberate effort because the structure has already been selecting for the wrong strengths long enough that clearer reading alone cannot unwind the pattern.
 
 ### **A Clearer Read**
 
-The plain read is still not only “Did the leader succeed?” It is whether this leadership structure stayed open to **correction** while carrying real influence. Being open to **correction** means errors can be raised, authority can be questioned, and adjustments can occur before **harm** scales.
+The plain read is still not only “Did the leader succeed?” It is whether this leadership structure stayed open to **correction** while carrying real influence—errors raised, authority questioned, adjustments possible before **harm** scales.
 
-Once **decay** is plain to observers, much of what a structural read requires may already be scarce: fewer people practiced open **correction** under live pressure; habits that rewarded confidence and tidy fronts have compounded; early warning often stays local while the public account stays smooth. The next chapter asks what can still be done inside those conditions—not ideal repair, but realistic partial repair—when influence still flows both ways only in patches, or not at all.
+Once **decay** is plain to observers, much of what a structural read requires may already be scarce: fewer people rehearsed raising error when it was costly; habits that rewarded confidence and tidy fronts have compounded; early warning often stays local while the public account stays smooth. The next chapter asks what can still be done inside those conditions—not ideal repair, but realistic partial repair—when influence still flows both ways only in patches, or not at all.
 
 ::: {custom-style="Pull Quote Block"}
 Outcomes are loud; structure is decisive.
