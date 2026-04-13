@@ -114,7 +114,7 @@ At larger reach, misjudgment is harder to catch in time. What would still show c
 
 Urgency amplifies this distortion. Under compressed timelines, groups favor storylines that are quick to defend: output, confidence, and narrative coherence. Challenge to direction tends to reach the table later and cost more socially.
 
-This is where outcome bias and structural blindness reinforce one another. Outcome bias supplies a tidy verdict on the metrics that travel; structural blindness removes the pathways that would challenge that verdict from inside the group—or mislabels challenge as disloyalty when it does arrive.
+This is where outcome bias and structural blindness reinforce one another. Outcome bias supplies a tidy verdict on the metrics that travel; structural blindness removes the pathways that would challenge that verdict from inside the group—or mislabels dissent as disloyalty when it does arrive.
 
 That is why misjudgment belongs in view here, after scale and pressure. The conditions that make **decay** hard to diagnose are not accidental background noise; they are built into how influence expands and how institutions manage urgency.
 
