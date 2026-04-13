@@ -32,7 +32,7 @@ It does something quieter and more realistic: it reduces how much harm can be no
 
 Without that work, decisions may never reconnect with who bears the cost. That disconnect is what **Leaders Feel the Consequences** points to. Harm becomes a durable norm rather than an intermittent failure.
 
-If this argument changes what you tolerate, what you reward, and what you refuse to excuse, you are already changing how **Leadership Reproduces Itself**.
+If what you read here changes what you tolerate, what you reward, and what you refuse to excuse, you are already changing how **Leadership Reproduces Itself**.
 
 Anyone who takes cues from how you lead is caught in that movement.
 

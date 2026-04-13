@@ -138,11 +138,11 @@ Use during **Step 5**, **Step 5.75**, and echo passes after plain-language work.
 
 ## Part I, Part V, and back matter (closing pass)
 
-- **Bridge — From Attention to Pattern:** avoid “What follows tracks…”; use movement-led openers (“The move runs from…”); “formation stays in view” instead of “this stretch of the book.”
+- **Bridge — From Attention to Pattern:** avoid “What follows tracks…”; plain glance-to-habit beat (“It starts with a glance. Over time, it can settle into a habit.”); “This part stays with formation” instead of “this stretch of the book” or “formation stays in view.”
 - **Chapter 1:** **circulation** watch line uses **holds**—not “Watch **circulation** next” (navigation).
 - **Bridge — From Misjudgment to What Remains:** repair sentence without “What follows is…”
 - **Chapter 12:** closing section **What Still Applies** (retitled from “A Practical Discipline”); “test arrives” → “moment that counts”; avoid *compliance with a center* in favor of **going along with whoever holds the center**.
-- **Epilogue:** “If reading this book…” → “If this argument…” for less meta framing.
+- **Epilogue:** “If reading this book…” → “If what you read here…” (grounded, plain; avoids abstract “this argument”).
 - **Appendix B** intro: “what comes next” → “what tends to follow” (reference layout stays watch-led, not checklist-led).
 - **Appendix A** (healthcare): default abstraction **system** → **network** where the scene is a hospital *network*.
 
