@@ -88,11 +88,11 @@ The chapter’s familiar misread—success hiding harm—has a mirror image. Her
 
 The two directions of misjudgment meet in what gets rewarded. A plant that keeps shipping can read as aligned while it waives drift; a plant that stops the line can read as failing before anyone weighs how decisions were made. Different surfaces, same hazard: what would show how influence is organized stays expensive to send and easy to dismiss.
 
-**Learning Collapse** is what that looks like from a distance—not always that nobody on the ground spoke, but that what reaches the decision layer first is still too thin to judge how influence was organized. Sometimes someone did speak and was read as trouble for speaking.
+**Learning Collapse** is what that looks like from a distance—not always that nobody spoke up, but that the first story sturdy enough to cross the gap is still too spare to judge how influence was organized. Sometimes someone did speak and was read as trouble for speaking.
 
 ### **What to Watch Instead**
 
-Outcomes and rhetoric are the loudest signals, but they are the least reliable ones. What actually reveals the structure is quieter and slower.
+Outcomes and rhetoric are the easiest reads from a distance, but they are the least reliable. What actually reveals the structure is quieter and slower.
 
 Watch whether decisions can be challenged before they harden. Theory and paper
 are not enough on their own. What matters is the room where the challenge would
@@ -100,11 +100,11 @@ have to happen and cost something.
 
 Watch who absorbs the loss when something goes wrong, and whether that person was also the one who decided.
 
-Watch whether known problems come back. Recurrence is one of the clearest signals available: it means the **correction** either never happened or didn't hold.
+Watch whether known problems come back. Recurrence is one of the clearest tells available: it means the **correction** either never happened or didn't hold.
 
 Watch whether authority stays connected to what it produces. Watch whether distance—physical, organizational, narrative—has opened between the decision and its consequences.
 
-Before any of that becomes visible as breakdown, three things tend to show up first. Bad news starts arriving late—softened on the way, delayed, or quietly not sent at all. People begin spending more effort protecting their position than improving the work itself. And the same problems keep returning, addressed in language but not in practice.
+Before any of that becomes visible as breakdown, three things tend to show up first. Trouble often reaches the people who decide after it could still have changed the plan—softened in transit, delayed, or left off the record people later trust. People begin spending more effort protecting their position than improving the work itself. And the same problems keep returning, addressed in language but not in practice.
 
 None of these requires knowing anyone's motives. They only require watching what actually happens over time—more than what gets said about it.
 
@@ -112,7 +112,7 @@ None of these requires knowing anyone's motives. They only require watching what
 
 At larger reach, misjudgment is harder to catch in time. What would still read clearly in a room turns into fragments on screens, late in writing, and thin in summary.
 
-Pressure amplifies this distortion. Under compressed timelines, groups favor signals that are quick to read and easy to defend: output, confidence, and narrative coherence. Signals that would challenge direction arrive slower and with higher social cost.
+Pressure amplifies this distortion. Under compressed timelines, groups favor storylines that are quick to defend: output, confidence, and narrative coherence. Challenge to direction tends to reach the table later and cost more socially.
 
 This is where outcome bias and structural blindness reinforce one another. Outcome bias supplies a clean story of success or failure on the metrics that travel; structural blindness removes the pathways that would challenge that story from inside the group—or mislabels challenge as disloyalty when it does arrive.
 
@@ -138,7 +138,7 @@ That is why “better judgment” is not a self-correcting fix once the wrong si
 
 The plain read is still not only “Did the leader succeed?” It is whether this leadership structure stayed open to **correction** while carrying real influence. Being open to **correction** means errors can be raised, authority can be questioned, and adjustments can occur before **harm** scales.
 
-Once **decay** reads clearly to outsiders, much of what that read requires may already be thin: fewer people practiced open **correction** under live pressure; habits that rewarded confidence and clean stories have compounded; early warning often stays local while the public story stays clean. The next chapter asks what can still be done inside those conditions—not ideal repair, but realistic partial repair—when influence still flows both ways only in patches, or not at all.
+Once **decay** reads clearly to outsiders, much of what that read requires may already be scarce: fewer people practiced open **correction** under live pressure; habits that rewarded confidence and clean stories have compounded; early warning often stays local while the public story stays clean. The next chapter asks what can still be done inside those conditions—not ideal repair, but realistic partial repair—when influence still flows both ways only in patches, or not at all.
 
 ::: {custom-style="Pull Quote Block"}
 Outcome stories are loud; structural signals are decisive.
