@@ -19,7 +19,7 @@ The book uses one durable definition as its anchor. The introduction states it o
 From that anchor, the chapters move in layers:
 
 - **Part I** — How influence forms: attention, pattern, and the weight of being looked to.
-- **Part II** — **renewal**, **erosion**, and **circulation**: what it looks like when influence opens, narrows, or moves through people.
+- **Part II** — Capacities and groups on the grid, then **renewal**, **erosion**, and **circulation** in detail: how influence opens, narrows, or moves through people.
 - **Part III** — **harm**, **effectiveness**, and **legitimacy**: lenses on what influence is producing, with **correction** and **circulation** threaded throughout.
 - **Part IV** — Scale, tradeoffs under pressure, and why observers misjudge leaders when signals travel far and late.
 - **Part V** — What Remains: what is still possible when structures drift and judgment fails anyway.

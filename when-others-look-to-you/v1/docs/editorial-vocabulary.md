@@ -63,7 +63,7 @@ Use during **Step 5**, **Step 5.75**, and echo passes after plain-language work.
 ### **Direction vs state (renewal/erosion and vitality/decay)**
 
 - **Direction:** *renewal*, *renewing*, *erosion*, *eroding* — which way the group is **moving** (paths, drift, “renewal and erosion,” “toward erosion”).
-- **State:** *vitality* (noun), *vibrant* (adjective), *decay* (noun), *decaying* (adjective) — how things **are** at a time (“vibrant groups,” “decaying settings,” **What Vitality Looks Like** in Chapter 3 / **What Decay Looks Like** in Chapter 4).
+- **State:** *vitality* (noun), *vibrant* (adjective), *decay* (noun), *decaying* (adjective) — how things **are** at a time (“vibrant groups,” “decaying settings,” **What Vitality Opens** in Chapter 3 / **What Decay Looks Like** in Chapter 4).
 - Full rule and Appendix B naming: `book-rules.md`, *Direction vs state* and **Word valence**.
 - **Stagnant** — optional cold-side gloss where **decaying** would over-claim; do not stack with vitality/vibrant/decay in one sentence unless necessary.
 
