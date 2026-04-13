@@ -62,13 +62,11 @@ When observers collapse all this into a single category—either "they are with 
 
 ### **Why Confidence Is So Persuasive**
 
-Confidence is persuasive because it lowers uncertainty for observers.
-
-When people are stressed, they prefer directional certainty over deeper uncertainty. A clear answer feels safer than a careful answer. A strong claim feels more usable than a carefully limited claim.
+Confidence lowers uncertainty for observers—especially under stress. A clear answer feels safer than a careful one; a strong claim feels more usable than a limited one. The same preference shows up at distance: at larger reach, the confident headline often outruns the careful caveat, so relief in a tense room can read as competence from far away.
 
 This preference makes groups vulnerable. It rewards leaders who reduce complexity too quickly. It penalizes leaders who keep uncertainty visible long enough to make better decisions.[^c11-ambiguity-and-sensemaking]
 
-Confidence can be valuable; overconfidence when challenge is unwelcome is costly.
+Confidence can still be warranted; overconfidence when challenge is unwelcome is costly.
 
 ### **The Missed Quarter**
 
@@ -82,9 +80,7 @@ Inside the halted plant, the stop triggers supplier talks, a slower line everyon
 
 From the outside, the red quarter reads as weak leadership. Here, bias punishes visible cost—even when that cost bought time for a necessary stop and prevented a larger failure later.
 
-The chapter’s familiar misread—success hiding harm—has a mirror image. Here, paths for **correction** were open where the lagging numbers looked worst. The misread still lands as selection pressure: if only the summary line travels, the next person in the role learns to keep the line moving and handle drift where it does not show up on the same chart.
-
-The two directions of misjudgment meet in what gets rewarded. A plant that keeps shipping can look aligned while it waives drift; a plant that stops the line can look like failure before anyone weighs how decisions were made. Different surfaces, same hazard: what would show how influence is organized stays expensive to send and easy to dismiss.
+The familiar misread—success hiding harm—has a mirror image. Paths for **correction** were open where the lagging numbers looked worst. The misread still lands as selection pressure: if only the summary line travels, the next person in the role learns to keep the line moving and handle drift where it does not show up on the same chart. A plant that keeps shipping can look aligned while it waives drift; a plant that stops the line can look like failure before anyone weighs how decisions were made. Different surfaces, same hazard: what would show how influence is organized stays expensive to send and easy to dismiss.
 
 **Learning Collapse** is what that looks like from a distance—not always that nobody spoke up, but that what crosses the gap first is still too spare to judge how influence was organized. Sometimes someone did speak and was treated as trouble for speaking.
 
@@ -126,7 +122,7 @@ Late-stage collapse often feels sudden to outsiders and inevitable to insiders: 
 
 ### **Misjudgment as Selection Pressure**
 
-When confident, outcome-focused leadership consistently draws more credit than structurally careful leadership, the people who learn to project confidence and manage visible metrics outlast those who keep open paths for challenge even when it is expensive. That is not necessarily corruption. It is selection: whatever a group’s judgment system rewards, more of it accumulates over time.
+When confident, outcome-focused leadership consistently draws more credit than structurally careful leadership, that mismatch sorts survivors. Those who learn to project confidence and manage visible metrics outlast those who keep open paths for challenge—even when it is expensive. That is not necessarily corruption. It is selection: whatever a group’s judgment system rewards, more of it accumulates over time.
 
 Institutions are not neutral containers. They develop habits—what gets promoted, what gets funded, what counts as a win—and those habits shape who stays in position to lead. Misjudgment does not only misread individuals; it shifts the pool of who is plausible the next time the group is under strain.
 

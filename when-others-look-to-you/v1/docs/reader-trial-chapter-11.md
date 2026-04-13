@@ -56,7 +56,7 @@ The chapter delivers a clear promise: misjudgment is not only wrong reads—it *
 ## Comprehension checks (honest)
 
 - **“Selection pressure”** appears early and late; a reader who missed the opening may still get it from **Misjudgment as Selection Pressure**—OK redundancy for important term.
-- **“The chapter’s familiar misread”** (line 85) assumes reader remembers **success hiding harm** from earlier in the *book*; if not, it still parses as “the usual misread.” Minor **insider** phrasing—acceptable for Ch. 11.
+- **“The familiar misread”** (post–Missed Quarter) points back to success hiding harm from earlier in the *book*; if not, it still parses as “the usual misread.” Minor **insider** phrasing—acceptable for Ch. 11.
 
 ---
 
@@ -64,9 +64,9 @@ The chapter delivers a clear promise: misjudgment is not only wrong reads—it *
 
 | Priority | Action |
 |----------|--------|
-| **Optional** | Shorten **Confidence** by one sentence, or add **one** concrete image tied to scale/drift (not generic stress)—only if you want uniform “high” attention through the middle. |
-| **Optional** | Merge post-vignette grafs **87–88** or **88–89** into a single tighter paragraph (mirror + selection + two surfaces in one pass). |
-| **Optional** | Split the long **selection** sentence (line 129) for readability. |
+| ~~**Optional**~~ **Done** | **Confidence:** Tightened; added reach/headline vs caveat (bridge to scale). |
+| ~~**Optional**~~ **Done** | **Post-vignette:** Merged mirror + two-plant contrast into one paragraph; dropped redundant “two directions meet” line; shortened “The chapter’s familiar” → “The familiar.” |
+| ~~**Optional**~~ **Done** | **Selection pressure:** Split long opener into two sentences (“sorts survivors” + those who…). |
 | **Leave** | Four **Watch** lines unless beta readers report checklist fatigue. |
 | **Process** | If you run a **live** trial: time the read; mark any paragraph where readers look up or re-read; compare with this map. |
 
