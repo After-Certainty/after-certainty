@@ -63,6 +63,14 @@ Months later, the storm is over, but the centralized approval path
 remains. Officials describe it as "proven under pressure."
 :::
 
+### **Pressure and Recovery**
+
+In high-pressure moments, **correction** may narrow briefly. That can be necessary.
+
+The real question is recovery: whether **correction** reopens after the acute period passes—including room for temporary step-in leadership—or emergency posture becomes permanent.
+
+Temporary contraction can preserve function. Permanent closure locks in **decay**.
+
 In crisis, that trade is one way **Examples Accumulate** can undercut evidence
 that **correction** is still working.
 

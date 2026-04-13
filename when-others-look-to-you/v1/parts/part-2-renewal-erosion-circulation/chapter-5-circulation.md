@@ -39,6 +39,26 @@ The failure mode is not "they didn't hear you." It is "only one name is permitte
 
 Over time, that narrow gate frustrates individuals. It also hollows out what the group could otherwise practice at the edges: judgment under pressure, early warning, and a bench that has held the center before.
 
+### **Three Shapes: Correction and Circulation**
+
+Those two checks — correction and circulation — occupy different positions on a structural spectrum.
+
+**Correction** and **circulation** are easiest to see through three shapes:
+
+- One-way authority: influence moves outward only; input is collected, but the center still decides.
+- Voice-only **correction**: concerns can travel upward and sometimes adjust plans, but leadership still stays fixed at the top.
+- Shared **circulation** (guest leadership): influence moves both ways. People closest to the issue can temporarily step in to lead a response, then return to their usual role.[^c5-guest-leadership]
+
+Shared **circulation** keeps authority connected to what people closest to the work can see, without requiring a permanent reshuffle of formal roles. It still turns on **permission** in practice—what the group does after someone steps in, not only what the chart says about temporary lead.
+
+Guest leadership also shapes what others attempt next. When temporary step-in leadership is trusted, more people use it openly.
+
+::: {custom-style="Pull Quote Block"}
+When guest leadership is punished, people retreat.
+:::
+
+Retreat shows up as silence or workaround behavior. Offers to step in get shorter and more guarded. Influence routes through formal channels only. Help stays inside official boxes and rarely moves beyond them. Punishment can mean being treated as stepping out of line, embarrassing the role-holder, or making defense too costly.
+
 ### **What Atrophies Without Circulation**
 
 Capture doesn't look like failure from inside the group. The work still moves. Decisions still get made. The center still holds.

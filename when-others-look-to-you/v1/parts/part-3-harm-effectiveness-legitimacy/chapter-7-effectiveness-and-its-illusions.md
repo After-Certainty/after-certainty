@@ -42,6 +42,14 @@ This is one of leadership’s recurring traps: success narrows the very channels
 
 In crisis contexts, **effectiveness** claims gain extra persuasive force. This can make short-term control look like long-term leadership even as **correction** narrows.
 
+### **After the Campaign Closed**
+
+::: {custom-style="Vignette Block"}
+The neighborhood food pantry finishes its year-end drive above goal. At the volunteer thank-you night, someone mentions quietly to the board chair that intake forms are still missing a language line the county started requiring in September; two regulars have stopped coming rather than fight the desk. The room is warm with relief about the totals. The chair smiles, thanks everyone for the hard month, and moves on to dessert.
+
+The person who spoke does not raise it again. Nobody told her to stop. The success story in the room just left no shelf for that fact yet.
+:::
+
 ### **Correction and Effectiveness**
 
 Influence moves outward from leadership. **Vitality** depends on whether influence can move back in.
@@ -54,43 +62,9 @@ Without **correction**, authority still exists, but learning slows. Groups drift
 
 In **vibrant** groups, **correction** tends to stay correction-rich: warnings and dissent can still move and revise direction. In **decaying** groups, **correction** narrows. The same care may exist privately, but the public path for changing a decision narrows until only workarounds remain.
 
-### **Three Shapes: Correction and Circulation**
-
-**Correction** and **circulation** are easiest to see through three shapes:
-
-- One-way authority: influence moves outward only; input is collected, but the center still decides.
-- Voice-only **correction**: concerns can travel upward and sometimes adjust plans, but leadership still stays fixed at the top.
-- Shared **circulation** (guest leadership): influence moves both ways. People closest to the issue can temporarily step in to lead a response, then return to their usual role.[^c7-guest-leadership]
-
-Shared **circulation** keeps authority connected to what people closest to the work can see, without requiring a permanent reshuffle of formal roles. It still turns on **permission** in practice—what the group does after someone steps in, not only what the chart says about temporary lead.
-
-Guest leadership also shapes what others attempt next. When temporary step-in leadership is trusted, more people use it openly.
-
-::: {custom-style="Pull Quote Block"}
-When guest leadership is punished, people retreat.
-:::
-
-Retreat shows up as silence or workaround behavior. Offers to step in get shorter and more guarded. Influence routes through formal channels only. Help stays inside official boxes and rarely moves beyond them. Punishment can mean being treated as stepping out of line, embarrassing the role-holder, or making defense too costly.
-
-**Leadership Reproduces Itself** is what that retreat teaches: what gets rewarded or punished locally becomes the template people imitate when they step into leadership next.
-
-### **Pressure and Recovery**
-
-In high-pressure moments, **correction** may narrow briefly. That can be necessary.
-
-The real question is recovery: whether **correction** reopens after the acute period passes—including room for temporary step-in leadership—or emergency posture becomes permanent.
-
-Temporary contraction can preserve function. Permanent closure locks in **decay**.
-
-### **When Failure Strengthens Vitality**
-
-Failure is not always a signal of structural **erosion**.
-
-Some failures force honest review, clarify limits, and reopen **correction**. Groups that can learn publicly from failure grow more reliable than groups that avoid visible failure at all costs.[^c7-learning]
-
-Failure happens. The question is whether learning follows. When **Feedback Drives Change**, new information and visible risk can still steer direction. Commitment stays open to revision when reality pushes back.
-
 ### **Deferred Effectiveness**
+
+Keeping **correction** open is also how a group can absorb short-term cost to protect longer-range capacity—the kind of patience **deferred effectiveness** requires.
 
 Some of the most effective decisions look costly in the short term.
 
@@ -126,6 +100,4 @@ Performance can certify capacity while masking decay.
 [^c7-deferred-costs]: On short-term smoothing, defensive routines, and paying later in larger forms, see Chris Argyris, *Overcoming Organizational Defenses* (Boston: Allyn and Bacon, 1990).
 [^c7-performance-paradox]: Chris Argyris and Donald A. Schon, *Organizational Learning II: Theory, Method, and Practice* (Reading, MA: Addison-Wesley, 1996).
 [^c7-escalation]: Barry M. Staw, "Knee-Deep in the Big Muddy: A Study of Escalating Commitment to a Chosen Course of Action," *Organizational Behavior and Human Performance* 16, no. 1 (1976): 27–44.
-[^c7-learning]: Amy C. Edmondson, *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth* (Hoboken, NJ: Wiley, 2018).
 [^c7-voice]: Albert O. Hirschman, *Exit, Voice, and Loyalty* (Cambridge, MA: Harvard University Press, 1970).
-[^c7-guest-leadership]: Alistair Cockburn, "How to Step Up Stepping Up: Promoting Guest Leadership for Successful Collaboration," *Cutter IT Journal*, https://www.cutter.com/article/how-step-stepping-promoting-guest-leadership-successful-collaboration-494516.
