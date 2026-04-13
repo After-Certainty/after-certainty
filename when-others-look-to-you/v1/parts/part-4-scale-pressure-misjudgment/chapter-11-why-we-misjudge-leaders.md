@@ -18,6 +18,8 @@ If an initiative appears to work, observers assume leadership was sound. If it f
 
 But outcomes are noisy. They include luck, timing, hidden subsidies, forces no one controls, inherited capacity, and the delayed effects of past decisions. Good outcomes can be produced by entrenched structures. Bad outcomes can emerge from disciplined structures under difficult conditions.
 
+The same shortcut runs in reverse. Lagging indicators or visible disruption are easy to read as failure—even when they reflect a costly stop, a real delay, or another form of **correction** that prevented worse harm. Outcome bias does not only crown short-term success.
+
 ### **Structural Blindness**
 
 Structural blindness happens when observers miss how influence is organized while they focus on personality, intention, or rhetoric.[^c11-structural-blindness]
@@ -56,6 +58,8 @@ People may go along with strategic direction while resisting tactics. They may t
 
 This does not automatically mean disloyalty. It can mean active judgment. In the **vibrant group**, selective dissent is visible and usable. In the **decaying group**, it goes quiet and becomes hidden workarounds.
 
+There is a second misread next to selective alignment. Dissent that arrives early and in good faith—loyal to the work, specific about risk—can still be read as disloyalty to the leader or the timeline. The person raising it becomes the problem to manage. Once that label sticks, the structure does not only silence people; it teaches which kind of agreement counts as safe.
+
 When observers collapse all this into a single category—either "they are with the leader" or "they are against the leader"—they miss the structure that predicts **renewal** or **erosion**.
 
 ### **Why Confidence Is So Persuasive**
@@ -82,7 +86,9 @@ From the outside, the red quarter reads as weak leadership. Outcome bias does no
 
 The chapter’s familiar misread—success hiding harm—has a mirror image. Here, paths for **correction** were open where the lagging numbers looked worst. The misread still lands as selection pressure: if the only story that travels is the summary line, the next person in the role learns to keep the line moving and handle drift where it does not show up on the same chart.
 
-**Learning Collapse** is what that looks like from a distance—not always that nobody on the ground spoke, but that what reaches the decision layer first is still too thin to judge how influence was organized.
+The two directions of misjudgment meet in what gets rewarded. A plant that keeps shipping can read as aligned while it waives drift; a plant that stops the line can read as failing before anyone weighs how decisions were made. Different surfaces, same hazard: the signals that would reveal how influence is organized stay expensive to send and easy to dismiss.
+
+**Learning Collapse** is what that looks like from a distance—not always that nobody on the ground spoke, but that what reaches the decision layer first is still too thin to judge how influence was organized. Sometimes someone did speak and was read as trouble for speaking.
 
 ### **What to Watch Instead**
 
@@ -108,7 +114,7 @@ At larger reach, the signals that would reveal misjudgment travel farther, arriv
 
 Pressure amplifies this distortion. Under compressed timelines, groups favor signals that are quick to read and easy to defend: output, confidence, and narrative coherence. Signals that would challenge direction arrive slower and with higher social cost.
 
-This is where outcome bias and structural blindness reinforce one another. Outcome bias supplies a clean story of success; structural blindness removes the pathways that would challenge that story from inside the group.
+This is where outcome bias and structural blindness reinforce one another. Outcome bias supplies a clean story of success or failure on the metrics that travel; structural blindness removes the pathways that would challenge that story from inside the group—or mislabels challenge as disloyalty when it does arrive.
 
 That is why misjudgment belongs in view here, after scale and pressure. The conditions that make **decay** hard to diagnose are not accidental background noise; they are built into how influence expands and how institutions manage urgency.
 

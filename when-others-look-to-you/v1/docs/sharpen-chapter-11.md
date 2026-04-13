@@ -56,6 +56,8 @@ The three-distortion taxonomy (outcome bias, structural blindness, intention tra
  
 **Chosen approach — Replace (Option A):** **The Missed Quarter** (manufacturing). A quality lead halts a run for drift; the site misses quarterly volume and goes red on a regional dashboard while a sister plant waives similar drift to stay green. The scene shows **inverse outcome bias**: visible short-term cost paired with open **correction** on the floor. Analysis ties to selection pressure and **Learning Collapse** as thin signals traveling upward—not only the “success hides harm” direction.
 
+**Pushed further on the same branch:** (1) **Outcome bias** names the reverse shortcut explicitly (lagging indicators read as failure even when they reflect **correction**). (2) **Selective followership** adds dissent misread as disloyalty—early, specific challenge recast as a people problem. (3) Post-vignette prose ties “green” alignment vs “red” stop as two faces of the same hazard; **Learning Collapse** sentence acknowledges speakers who were read as trouble. (4) **Misjudgment at Scale** line links mislabeled challenge to structural blindness at reach.
+
 **Not used on this branch — Option B (reframe dean turnaround):** Keep the dean scenario but end on what praise teaches (feedback loop). Superseded by Option A for diversity of misread direction and domain.
  
 ### 4. Add a short section on misjudgment as selection pressure (new content)
