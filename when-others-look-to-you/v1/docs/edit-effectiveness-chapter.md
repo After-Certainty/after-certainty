@@ -46,7 +46,7 @@ Circulation in the Vibrant Group
 Circulation in the Decaying Group
 Who Gets Credit [vignette]
 Leadership Reproduces Itself — The Circulation Version
-A Practical Circulation Check
+Reading Circulation
 Pull-quote
 ```
 
@@ -66,7 +66,7 @@ Circulation in the Vibrant Group
 Circulation in the Decaying Group
 Who Gets Credit [vignette]
 Leadership Reproduces Itself — The Circulation Version
-A Practical Circulation Check
+Reading Circulation
 Pull-quote
 ```
 

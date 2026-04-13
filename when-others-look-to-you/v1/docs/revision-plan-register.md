@@ -20,7 +20,7 @@ Chapter endings should resolve into a sharper way of seeing — one question, on
 
 ### Chapter 10 — "What to Watch Instead"
 
-**The problem:** Two bullet lists in close proximity — four labeled tests and three early indicators — read as a consulting deliverable. The section comes immediately after the Principal's Turnaround vignette, which is strong writing, so the tonal drop is especially sharp.
+**The problem:** Two bullet lists in close proximity — four labeled tests and three early indicators — read as a consulting deliverable. The section comes immediately after **The Dean's Turnaround** vignette, which is strong writing, so the tonal drop is especially sharp.
 
 **The transformation:** Replace both bullet lists with continuous prose. Remove the labeled test names (correction test, harm test, learning test, boundary test) as standalone headers — the observations remain but are no longer formatted as an assessment instrument. The three early indicators stay intact but lose bullet structure.
 
@@ -70,7 +70,7 @@ Chapter endings should resolve into a sharper way of seeing — one question, on
 
 ---
 
-### Chapter 4 — "A Practical Circulation Check"
+### Chapter 5 — "Reading Circulation" *(formerly "A Practical Circulation Check")*
 
 **The problem:** The opening instruction — "Read the group without the org chart in front of you" — is already interpretive framing. The questions that follow don't match that opening.
 
@@ -78,7 +78,7 @@ Chapter endings should resolve into a sharper way of seeing — one question, on
 
 **Note:** The closing line — "Circulation copies permission before it ever copies a title" — is excellent and should be the chapter's final note. Build toward it.
 
-**Status (April 2026):** Addressed (circulation expansion pass). Practical check uses layered **watch** sentences; closing builds through cohort calibration before the pull quote.
+**Status (April 2026):** Addressed (circulation expansion pass). Section retitled **Reading Circulation**; lead uses "formal chart" instead of org chart; layered **watch** sentences; closing builds through cohort calibration before the pull quote.
 
 ---
 

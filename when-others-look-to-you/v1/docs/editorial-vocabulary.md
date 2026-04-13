@@ -80,7 +80,9 @@ Use during **Step 5**, **Step 5.75**, and echo passes after plain-language work.
 
 **Chapter 3 (`chapter-3-renewal.md`):** **What Vitality Opens** leads into the adjusting trio as separate sections (each with Pattern Block and vignette). **Scalability** / **adaptability**: prefer **coordinated action** (canonical lexicon).
 
-**Chapter 4 (`chapter-4-erosion.md`):** **What Decay Looks Like** and the eroding trio (**Leadership Reproduces Itself** is defined in **Chapter 5 — Circulation**). Prefer plain wording for whether plans can still change once they are in motion; *permeability* → **fewer channels stay open for bad news; telling the truth costs more**. **Harm** in decay: *abstract language* → **vague wording** where helpful. **Cost / harm:** *tractable* → **small enough to fix**; *narrative control* → **control of the public story**. **Early indicators**, **why erosion feels rational**, and **a practical discipline** belong in later chapters as written—do not re-expand them here.
+**Chapter 4 (`chapter-4-erosion.md`):** **What Decay Looks Like** and the eroding trio (**Leadership Reproduces Itself** is defined in **Chapter 5 — Circulation**). Prefer plain wording for whether plans can still change once they are in motion; *permeability* → **fewer channels stay open for bad news; telling the truth costs more**. **Harm** in decay: *abstract language* → **vague wording** where helpful. **Cost / harm:** *tractable* → **small enough to fix**; *narrative control* → **control of the public story**. **Early indicators**, **why erosion feels rational**, and **a practical discipline** belong in later chapters as written—do not re-expand them here. Learning Collapses vignette: **The Placement Queue** (community college portal), not *The Field Trip Form*.
+
+**Chapter 5 (`chapter-5-circulation.md`):** Closing section **Reading Circulation** (retitled from “A Practical Circulation Check”). **Three Shapes: Correction and Circulation** after **Why Correction Alone Isn't Enough**—see `edit-effectiveness-chapter.md`.
 
 ---
 
@@ -110,7 +112,7 @@ Use during **Step 5**, **Step 5.75**, and echo passes after plain-language work.
 
 ## Chapter 7 — Effectiveness (Pass 3)
 
-- Subheading **When Failure Strengthens Vitality** (state); **correction**-related opening uses **Vitality depends** where the claim is about condition, not direction.
+- **When Failure Strengthens Vitality** moved to **Chapter 3 — Renewal**; **Pressure and Recovery** moved to **Chapter 10** (`edit-effectiveness-chapter.md`). Chapter 7 keeps **After the Citation** and the effectiveness-throughline sections.
 - Short-term success **triad** in Chapter 7 should stay **mixed-domain** (e.g. school / neighborhood / public crisis), not finance-quarter-default.
 - Prefer: **one-time squeeze of trust and capacity** over *one-time extraction*.
 - *Political discomfort* → **awkward public moments** where used.

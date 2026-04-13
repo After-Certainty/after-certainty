@@ -119,12 +119,12 @@ Mirror Chapter 3: decay opening from former Ch. 3, three **Eroding** patterns, t
 | Pattern | Vignette title | Notes |
 |--------|----------------|--------|
 | Disagreement is Suppressed | **The Question That Was Not Asked** | New; regional association / meeting |
-| Learning Collapses | **The Field Trip Form** | New; school district workflow (not the hospital harm scene) |
+| Learning Collapses | **The Placement Queue** | Community college internship-placement portal / information gap (not the hospital harm scene) |
 | Exceptions are Forever | **The Vote After the Flood** | Existing mutual aid / flood |
 
 ### Cross-reference for Learning Collapses
 
-- A hospital-style harm illustration may appear in **Chapter 6 — Harm** (formerly Ch. 5). The **Field Trip Form** scene is scoped to the **information gap**, not duplicated harm vignettes in **Chapters 6–8**.
+- A hospital-style harm illustration may appear in **Chapter 6 — Harm** (formerly Ch. 5). The **Placement Queue** scene is scoped to the **information gap**, not duplicated harm vignettes in **Chapters 6–8**.
 
 ---
 

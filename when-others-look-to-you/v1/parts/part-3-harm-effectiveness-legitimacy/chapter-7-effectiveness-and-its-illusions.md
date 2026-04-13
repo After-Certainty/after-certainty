@@ -90,9 +90,9 @@ Without that read, results can mislead.
 
 ### **Legitimacy Next**
 
-**Effectiveness** tracks what worked. **Legitimacy** tracks why people keep following—and what makes that sustainable.
-
-**Legitimacy** comes next: how it forms, hardens, and renews over time.
+**Effectiveness** tracks what worked. **Legitimacy** tracks why people keep
+following—how authority forms, hardens, and renews over time, and what makes
+that sustainable.
 
 ::: {custom-style="Pull Quote Block"}
 Performance can certify capacity while masking decay.

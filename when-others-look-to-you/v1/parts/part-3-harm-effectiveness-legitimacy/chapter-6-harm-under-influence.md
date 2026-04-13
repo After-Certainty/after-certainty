@@ -88,7 +88,7 @@ Taking on cost can be responsible. It can also become distortion if it removes o
 
 If a leader repeatedly absorbs every consequence, teams may stop naming risk, peers may stop correcting decisions, and people farther from the front line may stop fixing what is broken. In that case, harm is not being reduced—it is being deferred and concentrated.
 
-One question to ask: does harm absorption increase shared responsibility, or replace it?
+Watch whether harm absorption increases shared responsibility—or replaces it.
 
 When it increases shared responsibility, it builds trust and capacity. When it replaces responsibility, it weakens everyone else’s room to act and makes future harm more likely.
 
@@ -98,7 +98,7 @@ Selective followership is one of the earliest harm indicators.
 
 In healthier settings, people can say, "This direction creates avoidable damage," and be heard. Selective refusal functions as warning.
 
-In **decaying** settings, people stop naming harm directly. They comply in public, reroute work in private, and protect themselves through quiet workarounds. What looks like alignment can mask widening harm pathways.
+In **decaying** settings, people stop naming harm directly. They go along in public, reroute work in private, and protect themselves through quiet workarounds. What looks like alignment can mask widening harm pathways.
 
 Harm is also where **correction** failures show up first: people raise real risk; nothing changes; the cost stays in place or moves to someone who cannot refuse.
 
@@ -128,9 +128,8 @@ When those patterns have no clear read, **Leaders Do Not Feel the Consequences**
 
 ### **Effectiveness Next**
 
-Harm comes first in this sequence because it shows reality quickly.
-
-The next lens is why short-term effectiveness can hide long-term decay.
+Harm shows where cost lands while the work can still look fine. **Effectiveness**
+is the lens for how short-term wins can hide long-term decay.
 
 ::: {custom-style="Pull Quote Block"}
 Follow the damage path; it traces the protected edge.
