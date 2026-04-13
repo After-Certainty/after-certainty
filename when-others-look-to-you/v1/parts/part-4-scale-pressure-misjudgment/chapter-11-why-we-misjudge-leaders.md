@@ -2,11 +2,11 @@
 
 ### **The Judgment Problem**
 
-Most people do not misjudge leaders because they are careless. They misjudge because the most visible signals are the least reliable.
+Most people do not misjudge leaders because they are careless. They misjudge because the most visible signals are the least reliable—and misjudgment does not stay private. When observers reward what travels well, structures learn to supply more of it. Leaders who receive credit for visible wins while trouble accumulates out of sight learn which moves get celebrated. Misjudgment is not only a reading problem; it feeds back as selection pressure.
 
 A plan succeeds, and we treat that as evidence of **legitimacy**. A crisis resolves, and we treat that as evidence of competence. A confident narrative holds, and we treat that as evidence of integrity. Those leaps are understandable. They are also frequently wrong.
 
-Two distortions drive this pattern: outcome bias and structural blindness.
+Two distortions drive much of this pattern: outcome bias and structural blindness.
 
 Scale stretches feedback paths. Pressure narrows judgment windows. Those forces are familiar by now. Misjudgment is what adds up on top of them. It is not the same as one observer simply misreading a leader.
 
@@ -17,8 +17,6 @@ Outcome bias happens when results stand in for judging how decisions were made a
 If an initiative appears to work, observers assume leadership was sound. If it fails, observers assume leadership was poor. In both cases, the judgment is compressed into a single variable: what happened.
 
 But outcomes are noisy. They include luck, timing, hidden subsidies, forces no one controls, inherited capacity, and the delayed effects of past decisions. Good outcomes can be produced by entrenched structures. Bad outcomes can emerge from disciplined structures under difficult conditions.
-
-Short-term outcomes alone reward confidence over uncertainty: performance theater, not stewardship.
 
 ### **Structural Blindness**
 
@@ -34,13 +32,9 @@ When bad news stops moving early enough to matter, **Dissent is No Longer Welcom
 
 ### **The Intention Trap**
 
-A third distortion sits beneath the first two: the intention trap.
-
-Observers hear a leader’s stated purpose and treat sincerity as sufficient evidence of **legitimacy**. Leaders themselves do this too. They assume that because they meant well, the structure must be healthy.
-
-Intent matters for ethics. It does not settle the question.
-
 What lasts is what influence repeatedly produces: how **correction** works, how **harm** is allocated, how disagreement survives, and how learning is retained across pressure cycles.
+
+The intention trap sits beneath outcome bias and structural blindness. Observers hear a leader’s stated purpose and treat sincerity as sufficient evidence of **legitimacy**. Leaders themselves do this too—they assume that because they meant well, the structure must be healthy. Intent matters for ethics. It does not settle the question.
 
 ### **Why Erosion Feels Rational**
 
@@ -48,7 +42,7 @@ What lasts is what influence repeatedly produces: how **correction** works, how 
 
 Leaders under pressure narrow channels to "move faster." Teams avoid dissent to "stay aligned." Leaders simplify stories to "reduce confusion." Each move can be defended locally. Together, they create insulation globally.
 
-This is why **erosion** should be read as a pattern over time, not one bad call. Any single choice can look pragmatic. The pattern becomes visible only through repetition.
+This is why **erosion** should be read as a pattern over time, not one bad call. Any single choice can look pragmatic. The pattern becomes visible only through repetition. The same move, repeated, is how insulation thickens while everyone still sounds reasonable.
 
 Structural blindness explains why *observers* miss erosion. This is the interior counterpart: why *leaders* can produce it without noticing.
 
@@ -84,9 +78,9 @@ Faculty, however, quietly stop logging the kinds of support interventions that d
 
 From the outside, this looks like evidence of strong leadership. On the campus, paths for **correction** are narrowing and **harm** is being displaced.
 
-The vignette shows why outcome bias and structural blindness reinforce each other: visible success can hide degrading conditions until repair becomes expensive.
+The pressure here is not only that visible success hides degrading conditions. It is what the celebration teaches. Praise for rising completion numbers confirms the campaign’s shape: tighten gateways, compress time, let the dashboard carry the story. Each round of external approval makes the metrics harder to unwind and dissent harder to voice. The dean is not merely misread; the misread feeds a loop—more of what photographs well, less of what would surface cost early.
 
-**Learning Collapse** is what that looks like—not a one-off blind spot—when what people on the ground know no longer reaches those who decide in time.
+**Learning Collapse** is what that looks like when it repeats—not a one-off blind spot—when what people on the ground know no longer reaches those who decide in time.
 
 ### **What to Watch Instead**
 
@@ -124,17 +118,19 @@ When outcome bias and structural blindness combine, leaders receive credit for s
 
 This is why late-stage collapse feels sudden to outsiders and inevitable to insiders. The warning signs were present, but the main way people were judging did not prioritize them.[^c11-normalization-of-deviance]
 
+### **Misjudgment as Selection Pressure**
+
+When confident, outcome-focused leadership consistently draws more credit than structurally careful leadership, the people who learn to project confidence and manage visible metrics outlast those who keep **correction** channels costly and open. That is not necessarily corruption. It is selection: whatever a group’s judgment system rewards, more of it accumulates over time.
+
+Institutions are not neutral containers. They develop habits—what gets promoted, what gets funded, what counts as a win—and those habits shape who stays in position to lead. Misjudgment does not only misread individuals; it shifts the pool of who is plausible the next time pressure arrives.
+
+That is why “better judgment” is not a self-correcting fix once the wrong signals have compounded. Repair takes deliberate effort because the structure has already been selecting for the wrong strengths long enough that clearer reading alone cannot unwind the pattern.
+
 ### **A Clearer Read**
 
-The plain read is not only "Did the leader succeed?" It is whether this leadership structure stayed open to **correction** while carrying real influence.
+The plain read is still not only “Did the leader succeed?” It is whether this leadership structure stayed open to **correction** while carrying real influence. Being open to **correction** means errors can be raised, authority can be questioned, and adjustments can occur before **harm** scales.
 
-Being open to **correction** means errors can be raised, authority can be questioned, and adjustments can occur before **harm** scales.
-
-That read is less dramatic than hero stories. It is also more reliable.
-
-What remains is whether influence still flows both ways—whether dissent and bad
-news can still change direction before **harm** spreads. Clearer judgment alone
-rarely repairs what has hardened once structures drift and signals misfire.
+By the time **decay** is obvious, much of what that read requires may already be thin: fewer people practiced open **correction** under live pressure; habits that rewarded confidence and clean stories have compounded; the signals that would reveal trouble are often the ones that do not travel. The next chapter asks what can still be done inside those conditions—not ideal repair, but realistic partial repair—when influence still flows both ways only in patches, or not at all.
 
 ::: {custom-style="Pull Quote Block"}
 Outcome stories are loud; structural signals are decisive.
