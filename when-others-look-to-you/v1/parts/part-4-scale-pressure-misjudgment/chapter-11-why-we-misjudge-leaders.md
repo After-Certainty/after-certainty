@@ -106,7 +106,7 @@ None of these requires knowing anyone's motives. They only require watching what
 
 ### **Misjudgment at Scale**
 
-At larger reach, the signals that would reveal misjudgment travel farther, arrive later, and warp more on the way. What would be visible in a room becomes partial in a dashboard, delayed in a memo, and diluted in a summary.
+At larger reach, the signals that would reveal misjudgment travel farther, arrive later, and warp more on the way. What would be visible in a room becomes partial on screens, late in writing, and thin in summary.
 
 Pressure amplifies this distortion. Under compressed timelines, groups favor signals that are quick to read and easy to defend: output, confidence, and narrative coherence. Signals that would challenge direction arrive slower and with higher social cost.
 

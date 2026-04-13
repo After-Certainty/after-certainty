@@ -3,7 +3,7 @@
 > **Generated file.** Do not edit by hand. Regenerate with:
 > `python3 scripts/readability_scores.py`
 
-**Last generated:** 2026-04-12 23:54 UTC
+**Last generated:** 2026-04-13 00:09 UTC
 
 ## Method
 
@@ -21,26 +21,26 @@
 |---|---|--:|--:|--:|--:|--:|--:|
 | Front matter | Title page | — | — | — | — | — | *insufficient text (1 words)* |
 | Front matter | Copyright | 13.2 | 12.3 | 15.7 | 24.8 | 6 | 82 |
-| Front matter | Author's note | 7.9 | 7.8 | 10.4 | 58.2 | 32 | 358 |
-| Front matter | Preface | 8.5 | 8.4 | 11.3 | 53.9 | 26 | 293 |
+| Front matter | Author's note | 8.0 | 7.9 | 10.5 | 58.0 | 33 | 376 |
+| Front matter | Preface | 8.6 | 8.4 | 11.3 | 53.5 | 26 | 298 |
 | Front matter | Acknowledgements | 6.7 | 6.8 | 7.0 | 75.3 | 19 | 303 |
-| Front matter | Introduction | 8.5 | 8.7 | 11.4 | 56.6 | 50 | 633 |
+| Front matter | Introduction | 8.7 | 8.8 | 11.5 | 56.4 | 50 | 664 |
 | Front matter | Typographical conventions | 7.4 | 7.4 | 8.5 | 68.5 | 12 | 180 |
 | Part I | Bridge | 6.3 | 7.2 | 8.6 | 69.1 | 12 | 128 |
 | Part I | Ch 1 — The Weight of Being Looked To | 8.9 | 7.8 | 12.2 | 46.7 | 98 | 839 |
-| Part II | Bridge — From Formation to Movement | 9.2 | 9.4 | 12.3 | 51.4 | 10 | 127 |
-| Part II | Ch 2 — The Two Groups | 9.6 | 9.4 | 13.1 | 49.4 | 34 | 448 |
-| Part II | Ch 3 — Renewal | 9.4 | 8.7 | 12.6 | 52.5 | 36 | 508 |
-| Part II | Ch 4 — Erosion | 8.9 | 8.8 | 12.6 | 52.1 | 41 | 485 |
+| Part II | Bridge — From Formation to Movement | 9.3 | 9.6 | 12.6 | 51.8 | 10 | 132 |
+| Part II | Ch 2 — The Two Groups | 9.1 | 8.9 | 11.4 | 54.7 | 36 | 502 |
+| Part II | Ch 3 — Renewal | 8.0 | 7.5 | 11.3 | 61.2 | 38 | 508 |
+| Part II | Ch 4 — Erosion | 8.1 | 8.2 | 11.7 | 57.9 | 42 | 486 |
 | Part II | Ch 5 — Circulation | 9.5 | 9.1 | 11.1 | 55.1 | 112 | 1752 |
-| Part III | Bridge — From Movement to Lenses | 7.8 | 7.5 | 12.0 | 53.4 | 10 | 81 |
+| Part III | Bridge — From Movement to Lenses | 7.5 | 7.5 | 11.6 | 55.5 | 10 | 81 |
 | Part III | Ch 6 — Harm Under Influence | 9.2 | 8.7 | 12.5 | 50.0 | 108 | 1283 |
-| Part III | Ch 7 — Effectiveness and Its Illusions | 10.2 | 8.9 | 14.3 | 41.7 | 106 | 1171 |
+| Part III | Ch 7 — Effectiveness and Its Illusions | 10.1 | 8.9 | 14.2 | 42.1 | 106 | 1173 |
 | Part III | Ch 8 — Legitimacy Over Time | 9.9 | 9.2 | 12.4 | 47.8 | 117 | 1563 |
 | Part IV | Bridge — From Structure to Scale and Judgment | 9.3 | 8.0 | 11.8 | 57.6 | 6 | 99 |
 | Part IV | Ch 9 — Scale and Drift | 9.4 | 8.2 | 12.0 | 50.0 | 45 | 572 |
 | Part IV | Ch 10 — Tradeoffs Under Pressure | 9.5 | 8.7 | 13.0 | 47.1 | 52 | 584 |
-| Part IV | Ch 11 — Why We Misjudge Leaders | 9.3 | 8.7 | 12.9 | 48.0 | 135 | 1460 |
+| Part IV | Ch 11 — Why We Misjudge Leaders | 9.2 | 8.7 | 12.9 | 48.1 | 135 | 1457 |
 | Part V | Bridge — From Misjudgment to What Remains | 7.1 | 6.5 | 8.9 | 71.4 | 5 | 77 |
 | Part V | Ch 12 — What Happens Next | 9.3 | 9.3 | 12.0 | 53.3 | 60 | 838 |
 | Back matter | Epilogue | 9.8 | 9.5 | 12.0 | 48.4 | 34 | 455 |

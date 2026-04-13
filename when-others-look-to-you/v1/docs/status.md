@@ -42,6 +42,9 @@ Epilogue, Appendix A, Appendix B, glossary, and bibliography are linked from
 
 ## Next steps (editorial)
 
+Parts III–IV plain-speak + domain scan are summarized in
+`docs/editorial-pass-part-iii-iv.md`.
+
 Remaining work is housekeeping: optional appendix/grid placement choices,
 export/script checks, and publication formatting passes.
 

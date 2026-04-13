@@ -55,7 +55,7 @@ routes are redirected, procurement rules are suspended, and decisions are
 centralized in a small command group.
 
 In the first week, response speed improves and visible disruption drops.
-Frontline teams also report repeated blind spots in neighborhood access,
+Teams closest to the routes also report repeated blind spots in neighborhood access,
 but route corrections are delayed because the temporary command protocol
 blocks local overrides.
 

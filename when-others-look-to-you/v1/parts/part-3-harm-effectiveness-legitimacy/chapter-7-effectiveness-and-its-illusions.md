@@ -18,7 +18,7 @@ People infer sound leadership. Sometimes they are right. Sometimes they are not.
 
 Performance can be real and still fragile. What matters next is whether the result came from renewable conditions or from a one-time squeeze of trust and capacity.
 
-When the only measure of success is the task—dates, counts, deliverables—relationships and side effects can drop out of what the group knows how to see. That is not a moral failure every time; it is a common way capability without **vitality** shows up: the job still gets done while the social fabric thins.
+When the only measure of success is the task—dates, counts, what must ship—relationships and side effects can drop out of what the group knows how to see. That is not a moral failure every time; it is a common way capability without **vitality** shows up: the job still gets done while the social fabric thins.
 
 ### **The Cost Gradient**
 
