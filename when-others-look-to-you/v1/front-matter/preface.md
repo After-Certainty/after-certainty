@@ -16,13 +16,13 @@ see in that window.
 
 The book uses one durable definition as its anchor. The introduction states it outright.
 
-From that anchor, the chapters move in layers:
+From that anchor, the chapters move in layers. Each movement begins with a bridge, then chapters:
 
-- **Part I** — How influence forms: attention, pattern, and the weight of being looked to.
-- **Part II** — Capacities and groups on the grid, then **renewal**, **erosion**, and **circulation** in detail: how influence opens, narrows, or moves through people.
-- **Part III** — **harm**, **effectiveness**, and **legitimacy**: lenses on what influence is producing, with **correction** and **circulation** threaded throughout.
-- **Part IV** — Scale, tradeoffs under pressure, and why observers misjudge leaders when signals travel far and late.
-- **Part V** — What Remains: what is still possible when structures drift and judgment fails anyway.
+- **How influence forms** — *From Attention to Pattern* leads into Chapter 1 on the weight of being looked to.
+- **Renewal, erosion, and circulation** — *From Formation to Movement* leads into chapters on the two groups, then renewal, erosion, and circulation in turn.
+- **Harm, effectiveness, and legitimacy** — *From Movement to Lenses* leads into three chapters that apply those lenses.
+- **Scale, pressure, and misjudgment** — *From Structure to Scale and Judgment* leads into chapters on scale, tradeoffs under pressure, and why observers misjudge leaders.
+- **What remains** — *From Misjudgment to What Remains* leads into the closing chapter.
 
 The language stays simple on purpose. The ideas are serious, but they do
 not require ornate phrasing to be useful.

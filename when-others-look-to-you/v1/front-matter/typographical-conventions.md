@@ -1,8 +1,8 @@
 # **Typographical Conventions**
 
-This short section sits after the introduction so the book opens with the
-argument first. It only names a few recurring layout choices—nothing you need
-to study before reading.
+This short section sits after the acknowledgements and before the introduction.
+It only names a few recurring layout choices—nothing you need to study before
+reading.
 
 ### **Headings**
 
