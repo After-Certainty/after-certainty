@@ -18,7 +18,7 @@ Seen together, the five elements read less like a to-do list and more like a map
 
 The reckoning is that a **decaying** structure can look competent for a long time. Results can hold while costs are displaced. Alignment can look clean while followership goes quiet or selective. Confidence can remain high while learning shrinks.
 
-This is why late recognition is common: by the time failure is obvious, the pathways that would have caught trouble early are already narrowed. From outside, the pattern can still look like stability. Inside, **Learning Collapse** is already underway.
+This is why late recognition is common: once failure is obvious, the pathways that would have caught trouble early are already narrowed. From outside, the pattern can still look like stability. Inside, **Learning Collapse** is already underway.
 
 ### **Two Trajectories**
 

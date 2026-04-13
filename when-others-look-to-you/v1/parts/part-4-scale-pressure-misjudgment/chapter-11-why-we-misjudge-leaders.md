@@ -82,11 +82,11 @@ At a sister plant in the same region, similar drift shows up in logs, but produc
 Inside the halted plant, the stop triggers supplier talks, a slower line everyone on the floor can see, and a clear record of who signed off on each restart. None of that fits the row the regional office reads first.
 :::
 
-From the outside, the red quarter reads as weak leadership. Outcome bias does not only crown short-term winners; it also punishes visible cost, even when that cost buys time for **correction** and prevents a larger failure later.
+From the outside, the red quarter reads as weak leadership. Here, bias punishes visible cost—even when that cost buys time for **correction** and prevents a larger failure later.
 
 The chapter’s familiar misread—success hiding harm—has a mirror image. Here, paths for **correction** were open where the lagging numbers looked worst. The misread still lands as selection pressure: if the only story that travels is the summary line, the next person in the role learns to keep the line moving and handle drift where it does not show up on the same chart.
 
-The two directions of misjudgment meet in what gets rewarded. A plant that keeps shipping can read as aligned while it waives drift; a plant that stops the line can read as failing before anyone weighs how decisions were made. Different surfaces, same hazard: the signals that would reveal how influence is organized stay expensive to send and easy to dismiss.
+The two directions of misjudgment meet in what gets rewarded. A plant that keeps shipping can read as aligned while it waives drift; a plant that stops the line can read as failing before anyone weighs how decisions were made. Different surfaces, same hazard: what would show how influence is organized stays expensive to send and easy to dismiss.
 
 **Learning Collapse** is what that looks like from a distance—not always that nobody on the ground spoke, but that what reaches the decision layer first is still too thin to judge how influence was organized. Sometimes someone did speak and was read as trouble for speaking.
 
@@ -110,7 +110,7 @@ None of these requires knowing anyone's motives. They only require watching what
 
 ### **Misjudgment at Scale**
 
-At larger reach, the signals that would reveal misjudgment travel farther, arrive later, and warp more on the way. What would be visible in a room becomes partial on screens, late in writing, and thin in summary.
+At larger reach, misjudgment is harder to catch in time. What would still read clearly in a room turns into fragments on screens, late in writing, and thin in summary.
 
 Pressure amplifies this distortion. Under compressed timelines, groups favor signals that are quick to read and easy to defend: output, confidence, and narrative coherence. Signals that would challenge direction arrive slower and with higher social cost.
 
@@ -122,9 +122,9 @@ That is why misjudgment belongs in view here, after scale and pressure. The cond
 
 Misjudgment compounds.
 
-When outcome bias and structural blindness combine, leaders receive credit for short-term wins while **decay** deepens underneath. By the time external failure appears, capacity for **correction** has already shrunk. Repair costs have already risen.
+When outcome bias and structural blindness combine, leaders receive credit for short-term wins while **decay** deepens underneath. Once failure surfaces in public, capacity for **correction** has often shrunk already. Repair costs have already risen.
 
-This is why late-stage collapse feels sudden to outsiders and inevitable to insiders. The warning signs were present, but the main way people were judging did not prioritize them.[^c11-normalization-of-deviance]
+Late-stage collapse often feels sudden to outsiders and inevitable to insiders: the warning signs were present, but the main way people were judging did not prioritize them.[^c11-normalization-of-deviance]
 
 ### **Misjudgment as Selection Pressure**
 
@@ -138,7 +138,7 @@ That is why “better judgment” is not a self-correcting fix once the wrong si
 
 The plain read is still not only “Did the leader succeed?” It is whether this leadership structure stayed open to **correction** while carrying real influence. Being open to **correction** means errors can be raised, authority can be questioned, and adjustments can occur before **harm** scales.
 
-By the time **decay** is obvious, much of what that read requires may already be thin: fewer people practiced open **correction** under live pressure; habits that rewarded confidence and clean stories have compounded; the signals that would reveal trouble are often the ones that do not travel. The next chapter asks what can still be done inside those conditions—not ideal repair, but realistic partial repair—when influence still flows both ways only in patches, or not at all.
+Once **decay** reads clearly to outsiders, much of what that read requires may already be thin: fewer people practiced open **correction** under live pressure; habits that rewarded confidence and clean stories have compounded; early warning often stays local while the public story stays clean. The next chapter asks what can still be done inside those conditions—not ideal repair, but realistic partial repair—when influence still flows both ways only in patches, or not at all.
 
 ::: {custom-style="Pull Quote Block"}
 Outcome stories are loud; structural signals are decisive.
