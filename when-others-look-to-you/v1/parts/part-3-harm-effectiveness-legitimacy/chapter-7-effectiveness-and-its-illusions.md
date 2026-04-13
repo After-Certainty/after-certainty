@@ -42,12 +42,12 @@ This is one of leadership’s recurring traps: success narrows the very channels
 
 In crisis contexts, **effectiveness** claims gain extra persuasive force. This can make short-term control look like long-term leadership even as **correction** narrows.
 
-### **After the Campaign Closed**
+### **After the Citation**
 
 ::: {custom-style="Vignette Block"}
-The neighborhood food pantry finishes its year-end drive above goal. At the volunteer thank-you night, someone mentions quietly to the board chair that intake forms are still missing a language line the county started requiring in September; two regulars have stopped coming rather than fight the desk. The room is warm with relief about the totals. The chair smiles, thanks everyone for the hard month, and moves on to dessert.
+The public library’s literacy program receives a state citation; the director’s photo runs in the paper, and the board’s annual dinner is a warm night. A children’s librarian mentions afterward, in passing, that the new family intake still asks for documents the district stopped accepting in June; two families have already been turned away at the desk. The director thanks everyone for the year, pivots to dessert, and the room follows.
 
-The person who spoke does not raise it again. Nobody told her to stop. The success story in the room just left no shelf for that fact yet.
+She does not press it. Nobody ruled her out of order. The celebration just had no place left for that sentence.
 :::
 
 ### **Correction and Effectiveness**

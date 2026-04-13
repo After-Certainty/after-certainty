@@ -41,8 +41,6 @@ Over time, that narrow gate frustrates individuals. It also hollows out what the
 
 ### **Three Shapes: Correction and Circulation**
 
-Those two checks — correction and circulation — occupy different positions on a structural spectrum.
-
 **Correction** and **circulation** are easiest to see through three shapes:
 
 - One-way authority: influence moves outward only; input is collected, but the center still decides.

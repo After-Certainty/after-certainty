@@ -21,7 +21,8 @@ small trouble from turning into a full break later.
 
 The three **Adjusting** patterns below follow one chain: dissent reaches
 decision-makers, feedback changes plans while they can still move, and the
-people who decide stay in view when costs land.
+people who decide stay in view when costs land. A later section adds a coda:
+what vitality can look like when things go wrong badly enough to force the room open.
 
 ### **Dissent is Welcomed**
 
@@ -110,19 +111,18 @@ Failure is not always a signal of structural **erosion**.
 
 Some failures force honest review, clarify limits, and reopen **correction**. Groups that can learn publicly from failure grow more reliable than groups that avoid visible failure at all costs.[^c3-learning-from-failure]
 
-Failure happens. The question is whether learning follows. When **Feedback Drives Change**, new information and visible risk can still steer direction. Commitment stays open to revision when reality pushes back.
+Failure happens. The question is whether learning follows—whether new information and visible risk can still steer direction once the failure is in the room. Commitment stays open to revision when reality pushes back.
 
 ### **Correction, Circulation, and What Holds Together**
 
-**Correction** names whether warnings, dissent, and what people on the ground
-see can reach decision-makers and change direction without punishment.
-**Circulation** names whether influence can move through temporary or shared
-leadership—not only outward from formal roles. That movement is what lets
+**Correction** and **circulation** are the two checks the next parts unpack in
+detail: whether warnings can still change decisions, and whether the center can
+move when the work demands it—not only outward from formal roles. That movement is what lets
 leadership scale and reproduce itself.
 
 ### **When Vitality Holds**
 
-When **vitality** holds, **Dissent is Welcomed**, **Feedback Drives Change**, and **Leaders Feel the Consequences** tend to show up together—not as slogans, but as what the group can still do when the work gets hard. The same patterns can also surface after a visible failure forces honest review.
+When **vitality** holds, **Dissent is Welcomed**, **Feedback Drives Change**, and **Leaders Feel the Consequences** tend to show up together—not as slogans, but as what the group can still do when the work gets hard. Honest review after a visible failure can surface the same chain when gentler signals did not.
 
 ::: {custom-style="Pull Quote Block"}
 Renewal means bad news can still change the plan before damage sets.

@@ -65,9 +65,7 @@ remains. Officials describe it as "proven under pressure."
 
 ### **Pressure and Recovery**
 
-In high-pressure moments, **correction** may narrow briefly. That can be necessary.
-
-The real question is recovery: whether **correction** reopens after the acute period passes—including room for temporary step-in leadership—or emergency posture becomes permanent.
+The question after the spike is not whether **correction** tightened—it often does. The question is recovery: whether **correction** reopens once the acute period passes—including room for temporary step-in leadership—or emergency posture becomes permanent.
 
 Temporary contraction can preserve function. Permanent closure locks in **decay**.
 
