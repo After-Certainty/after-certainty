@@ -2,44 +2,42 @@
 
 ### **What Decay Looks Like**
 
-**Erosion** shows when one or both capacities shrink: influence no longer
-changes direction under pressure, coordinated action no longer sustains
-reach, or both.[^c4-groupthink] **Decay** is the condition that tends to show
-when that drift continues.
+**Erosion** shows when one or both capacities shrink: influence stops changing
+direction under pressure, coordinated action stops holding reach, or both.[^c4-groupthink]
+**Decay** is what tends to show when that drift keeps going.
 
-People stop raising inconvenient information. Errors are reframed as
-exceptions. **Harm** gets buried in vague wording and moved away from
-decision-makers. The group keeps confidence by shutting down
-contradiction.
+People stop raising inconvenient information. Errors get reframed as
+exceptions. **Harm** gets buried in vague wording and pushed away from
+decision-makers. The group protects its image by shutting down contradiction.
 
-**Erosion** rarely announces itself. It builds from ordinary choices:
-who gets interrupted, who gets promoted, which measures count, which
-stories are repeated, which failures are forgiven, and which are hidden.
-Over time, repeated looking to the same person can settle until one decision
-route becomes the default and everyone waits for the same gate—**Leadership Coalesces**.
+**Erosion** rarely announces itself. It builds from ordinary choices: who gets
+interrupted, who gets promoted, which measures count, which stories get
+repeated, which failures are forgiven, and which are hidden. Over time,
+looking to the same person can settle until one decision route becomes the
+default and everyone waits for the same gate—**Leadership Coalesces**.
 
-Some groups deep in **decay** still scale for long periods. What drops
-first is room to change plans once they are in motion.
+Some groups deep in **decay** still scale for a long time. What goes first is
+room to change plans once they are already moving.
 
 Over time, the group learns a dangerous lesson: protecting the image matters
-more than **correction**. Inconvenient facts are easier to let slide.
-What gets buried does not disappear—it shows up later as cost. Once that lesson
-settles, bad outcomes can rise while confidence inside the group rises too.
+more than **correction**. Inconvenient facts are easier to let slide. What gets
+buried does not vanish—it shows up later as cost. Once that lesson lands, bad
+outcomes can rise while confidence inside the group rises too.
 
-This is why **erosion** looks like stability to insiders. The same
-people stay in place. Meetings run on time. Plans look coherent. Language
-becomes smoother. But fewer channels stay open for bad news, and telling the
-truth costs more.
+That is why **erosion** can look like stability from the inside. The same
+people stay in place. Meetings run on time. Plans look coherent. Language gets
+smoother. But fewer channels stay open for bad news, and telling the truth
+costs more.
 
 The three **Eroding** patterns below follow one chain: challenge gets recoded,
-ground-level knowledge stops steering decisions in time, and temporary fixes
-outlast the emergencies that justified them.
+what people on the ground know stops steering decisions in time, and temporary
+fixes outlast the emergencies they were meant for.
 
 ### **Disagreement is Suppressed**
 
-**Disagreement is Suppressed** is not always a loud crackdown. Often it is a
-room learning what happens to people who name friction—so the next person
-carries the calculation instead of the objection.
+**Disagreement is Suppressed** is not always a loud crackdown. Often the room
+has already taught what happens to people who name friction—so the next person
+does the math instead of raising the objection.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Disagreement is Suppressed**
@@ -60,14 +58,14 @@ The director asks if there are questions. Three people glance at the same blank 
 The tool ships on schedule. The quiet work starts six weeks later.
 :::
 
-The beat is not a villain shutting someone down. It is a shared read of what
-speaking costs—so disagreement narrows before it ever becomes a formal debate.
+There is no villain in the scene. There is a shared sense of what speaking
+costs—so disagreement dies before it ever becomes a real debate.
 
 ### **Learning Collapses**
 
-**Learning Collapses** means knowledge does not disappear; it stops having a
-reliable route upward. The gap between what people on the ground know and what
-decision-makers act on becomes the visible fact.
+**Learning Collapses** does not mean knowledge vanishes. It means knowledge has
+no reliable path up. The gap between what people on the ground know and what
+decision-makers act on is what you can see.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Learning Collapses**
@@ -88,14 +86,14 @@ Six weeks later, a trip departs late enough to matter; the story is small but vi
 Nobody blocked the message on purpose. The structure simply stopped carrying it to the people who could still change the template.
 :::
 
-The failure mode is the channel, not the absence of facts on the ground.
+The channel failed—not the facts on the ground.
 
 ### **Exceptions are Forever**
 
-**Exceptions are Forever** tracks how temporary permissions behave. Under
-pressure, a group often needs a fast bypass. The **erosion** question is what
-happens when the emergency ends—whether the bypass stays because it was
-rewarded once.
+**Exceptions are Forever** is about what happens to temporary permissions.
+Under pressure, a group often needs a fast bypass. The **erosion** question is
+what happens when the emergency ends—whether the shortcut stays because it
+worked once.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Exceptions are Forever**
@@ -112,8 +110,8 @@ Three years later, the same two names appear on every fast spend. When someone a
 :::
 
 No single choice in that chain required bad faith. Each reuse sounded
-reasonable. Together, they taught the group that normal process is optional
-whenever someone invokes the emergency loudly enough.
+reasonable. Together they taught the group that normal rules are optional
+whenever someone shouts “emergency” loud enough.
 
 ### **When Decay Deepens**
 
@@ -123,7 +121,7 @@ steering decisions in time. Temporary fixes outlast the emergency that justified
 them.
 
 ::: {custom-style="Pull Quote Block"}
-Erosion starts the day correction carries a penalty.
+Erosion starts when correction carries a price.
 :::
 
 [^c4-groupthink]: Irving L. Janis, *Groupthink: Psychological Studies of Policy Decisions and Fiascoes* (2nd ed., Boston: Houghton Mifflin, 1982).
