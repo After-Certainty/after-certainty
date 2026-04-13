@@ -1,8 +1,8 @@
-# **Chapter 5 — Harm Under Influence**
+# **Chapter 6 — Harm Under Influence**
 
 ### **Harm Is a Leadership Signal**
 
-Leadership does not remove harm. It directs where harm goes.[^c5-risk-distribution]
+Leadership does not remove harm. It directs where harm goes.[^c6-risk-distribution]
 
 When others look to someone for direction, decisions reach farther. Benefits spread, but costs do too. A missed warning in one role can become widespread loss for many people. Where harm lands is central to leadership, not a late-stage ethical add-on.
 
@@ -30,7 +30,7 @@ When **circulation** is captured, the same postures lock in faster. Harm-absorbi
 
 Harm-absorbing leadership means people with decision power also take on part of the cost—and that stays visible to the group.
 
-Leaders who choose risky direction absorb part of the downside: they acknowledge error early, protect those closest to the consequences from avoidable fallout, and adjust scope when warning signals appear. This posture does not eliminate loss, but it ties authority to accountability.[^c5-just-culture]
+Leaders who choose risky direction absorb part of the downside: they acknowledge error early, protect those closest to the consequences from avoidable fallout, and adjust scope when warning signals appear. This posture does not eliminate loss, but it ties authority to accountability.[^c6-just-culture]
 
 ### **Harm-Tolerant**
 
@@ -44,7 +44,7 @@ In **vibrant** groups, more people and relationships stay in view. **Harm** is h
 
 Harm-instrumental leadership treats some people as expendable to protect a prized goal or timeline.
 
-The logic sounds efficient: keep momentum, protect those at the center, and pass the cost outward. But when that behavior repeats, trust erodes, quiet refusal grows, and the group's ability to act weakens.[^c5-power-harm]
+The logic sounds efficient: keep momentum, protect those at the center, and pass the cost outward. But when that behavior repeats, trust erodes, quiet refusal grows, and the group's ability to act weakens.[^c6-power-harm]
 
 ### **Harm-Blind**
 
@@ -118,7 +118,7 @@ On paper, the group aligns. In daily work, practice drifts.
 
 That gap signals authority runs one way and is harder to change. Distorted feedback may already govern daily operations there. **Learning Collapse** may already be in play.
 
-Open refusal can still support **correction** where others can see it. Covert refusal points toward silent exit.[^c5-exit]
+Open refusal can still support **correction** where others can see it. Covert refusal points toward silent exit.[^c6-exit]
 
 ### **How Harm Reads**
 
@@ -135,7 +135,7 @@ The next lens is why short-term effectiveness can hide long-term decay.
 ::: {custom-style="Pull Quote Block"}
 Follow the damage path; it traces the protected edge.
 :::
-[^c5-risk-distribution]: Ulrich Beck, *Risk Society: Towards a New Modernity* (London: Sage, 1992).
-[^c5-just-culture]: Sidney W. A. Dekker, *Just Culture: Restoring Trust and Accountability in Your Organization* (3rd ed., Boca Raton, FL: CRC Press, 2016).
-[^c5-power-harm]: Michel Foucault, *Discipline and Punish: The Birth of the Prison* (New York: Vintage Books, 1977).
-[^c5-exit]: On exit when voice is costly or ineffective, see Albert O. Hirschman, *Exit, Voice, and Loyalty* (Cambridge, MA: Harvard University Press, 1970). On covert refusal and off-stage resistance, see James C. Scott, *Domination and the Arts of Resistance: Hidden Transcripts* (New Haven, CT: Yale University Press, 1990).
+[^c6-risk-distribution]: Ulrich Beck, *Risk Society: Towards a New Modernity* (London: Sage, 1992).
+[^c6-just-culture]: Sidney W. A. Dekker, *Just Culture: Restoring Trust and Accountability in Your Organization* (3rd ed., Boca Raton, FL: CRC Press, 2016).
+[^c6-power-harm]: Michel Foucault, *Discipline and Punish: The Birth of the Prison* (New York: Vintage Books, 1977).
+[^c6-exit]: On exit when voice is costly or ineffective, see Albert O. Hirschman, *Exit, Voice, and Loyalty* (Cambridge, MA: Harvard University Press, 1970). On covert refusal and off-stage resistance, see James C. Scott, *Domination and the Arts of Resistance: Hidden Transcripts* (New Haven, CT: Yale University Press, 1990).

@@ -6,12 +6,12 @@
 
 Authoritative structure lives in **`index.md`** (reading order and paths).
 
-- **Part II** includes a dedicated **Chapter 4 — Circulation** (full chapter), after **Renewal** and **Erosion**.
-- **correction** and **circulation** remain **cross-cutting**: they are defined early, developed in Part II, and **tested** through harm, effectiveness, and legitimacy (Part III), then stressed under scale and pressure (Part IV). **Permission** (what the room teaches after step-ins) is the thread for reading **circulation** in Part III—especially effectiveness (Ch. 6), legitimacy (Ch. 7), and the closing distinction in Ch. 11—not a third glossary pillar beside **correction** and **circulation**.
+- **Part II** includes **Chapter 2 — The Two Groups** (definitions and grid), **Chapter 3 — Renewal**, **Chapter 4 — Erosion**, and a dedicated **Chapter 5 — Circulation** (full chapter).
+- **correction** and **circulation** remain **cross-cutting**: they are defined early, developed in Part II, and **tested** through harm, effectiveness, and legitimacy (Part III), then stressed under scale and pressure (Part IV). **Permission** (what the room teaches after step-ins) is the thread for reading **circulation** in Part III—especially effectiveness (Ch. 7), legitimacy (Ch. 8), and the closing distinction in Ch. 12—not a third glossary pillar beside **correction** and **circulation**.
 
 ## Historical note (superseded weave)
 
-An intermediate structural pass **removed** a standalone circulation chapter and **wove** Correction/Circulation only through the harm / effectiveness / legitimacy chapters. That layout is **superseded** by the rewrite above. Some footnote IDs (`c5`, `c6`, `c7`, etc.) still reflect numbering from that era; do not renumber footnotes unless doing a dedicated citation pass.
+An intermediate structural pass **removed** a standalone circulation chapter and **wove** Correction/Circulation only through the harm / effectiveness / legitimacy chapters. That layout is **superseded** by the rewrite above. In-source footnote IDs use a chapter-scoped prefix (`[^cN-…]` with **N** matching the chapter number); renumber chapters in `index.md` together with those IDs when doing a citation pass.
 
 ## Part I preview
 

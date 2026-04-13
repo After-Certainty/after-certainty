@@ -50,18 +50,23 @@ ORDERED: list[tuple[str, str, str]] = [
     ),
     (
         "Part II",
-        "Ch 2 — Renewal",
-        "parts/part-2-renewal-erosion-circulation/chapter-2-renewal.md",
+        "Ch 2 — The Two Groups",
+        "parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md",
     ),
     (
         "Part II",
-        "Ch 3 — Erosion",
-        "parts/part-2-renewal-erosion-circulation/chapter-3-erosion.md",
+        "Ch 3 — Renewal",
+        "parts/part-2-renewal-erosion-circulation/chapter-3-renewal.md",
     ),
     (
         "Part II",
-        "Ch 4 — Circulation",
-        "parts/part-2-renewal-erosion-circulation/chapter-4-circulation.md",
+        "Ch 4 — Erosion",
+        "parts/part-2-renewal-erosion-circulation/chapter-4-erosion.md",
+    ),
+    (
+        "Part II",
+        "Ch 5 — Circulation",
+        "parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md",
     ),
     (
         "Part III",
@@ -70,18 +75,18 @@ ORDERED: list[tuple[str, str, str]] = [
     ),
     (
         "Part III",
-        "Ch 5 — Harm Under Influence",
-        "parts/part-3-harm-effectiveness-legitimacy/chapter-5-harm-under-influence.md",
+        "Ch 6 — Harm Under Influence",
+        "parts/part-3-harm-effectiveness-legitimacy/chapter-6-harm-under-influence.md",
     ),
     (
         "Part III",
-        "Ch 6 — Effectiveness and Its Illusions",
-        "parts/part-3-harm-effectiveness-legitimacy/chapter-6-effectiveness-and-its-illusions.md",
+        "Ch 7 — Effectiveness and Its Illusions",
+        "parts/part-3-harm-effectiveness-legitimacy/chapter-7-effectiveness-and-its-illusions.md",
     ),
     (
         "Part III",
-        "Ch 7 — Legitimacy Over Time",
-        "parts/part-3-harm-effectiveness-legitimacy/chapter-7-legitimacy-over-time.md",
+        "Ch 8 — Legitimacy Over Time",
+        "parts/part-3-harm-effectiveness-legitimacy/chapter-8-legitimacy-over-time.md",
     ),
     (
         "Part IV",
@@ -90,18 +95,18 @@ ORDERED: list[tuple[str, str, str]] = [
     ),
     (
         "Part IV",
-        "Ch 8 — Scale and Drift",
-        "parts/part-4-scale-pressure-misjudgment/chapter-8-scale-and-drift.md",
+        "Ch 9 — Scale and Drift",
+        "parts/part-4-scale-pressure-misjudgment/chapter-9-scale-and-drift.md",
     ),
     (
         "Part IV",
-        "Ch 9 — Tradeoffs Under Pressure",
-        "parts/part-4-scale-pressure-misjudgment/chapter-9-tradeoffs-under-pressure.md",
+        "Ch 10 — Tradeoffs Under Pressure",
+        "parts/part-4-scale-pressure-misjudgment/chapter-10-tradeoffs-under-pressure.md",
     ),
     (
         "Part IV",
-        "Ch 10 — Why We Misjudge Leaders",
-        "parts/part-4-scale-pressure-misjudgment/chapter-10-why-we-misjudge-leaders.md",
+        "Ch 11 — Why We Misjudge Leaders",
+        "parts/part-4-scale-pressure-misjudgment/chapter-11-why-we-misjudge-leaders.md",
     ),
     (
         "Part V",
@@ -110,8 +115,8 @@ ORDERED: list[tuple[str, str, str]] = [
     ),
     (
         "Part V",
-        "Ch 11 — What Happens Next",
-        "parts/part-5-closing/chapter-11-what-happens-next.md",
+        "Ch 12 — What Happens Next",
+        "parts/part-5-closing/chapter-12-what-happens-next.md",
     ),
     ("Back matter", "Epilogue", "back-matter/epilogue.md"),
     (

@@ -62,9 +62,13 @@ this place treats as normal.
 The chapters follow one structural throughline: Attention → Influence →
 Structure → Renewal or Erosion → Circulation.
 
-Part I establishes that chain. Part II names **renewal**, **erosion**, and
-**circulation**: what it looks like when influence opens, narrows, or moves
-through people. Part III uses harm, effectiveness, and legitimacy as lenses on
+Part I establishes that chain. Part II first maps the fork—two capacities,
+how combinations sort into **vibrant** and **decaying** groups on the grid, and
+how **vitality** and **decay** feel—then takes **renewal** and **erosion** apart
+pattern by pattern, and ends with **circulation**: what it looks like when
+influence opens, narrows, or moves through people.
+
+Part III uses harm, effectiveness, and legitimacy as lenses on
 what influence is producing. **Circulation** and **correction** run through those
 chapters. They ask whether influence can move through temporary leadership so
 the work can scale. They ask whether warnings and dissent can still change

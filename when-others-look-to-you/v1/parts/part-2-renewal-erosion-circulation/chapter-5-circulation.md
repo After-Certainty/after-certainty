@@ -1,4 +1,4 @@
-# **Chapter 4 — Circulation**
+# **Chapter 5 — Circulation**
 
 ### **What Circulation Is — and What It Isn't**
 
@@ -9,7 +9,7 @@ What those mechanisms often miss, even when they run smoothly, is **permission**
 **Circulation** names whether the permission structure allows someone to lead temporarily, share the lead, and hand it off when the problem demands it—without treating every step as a challenge to formal authority. Influence needs to move *through* the group, not only *outward from* a fixed center.
 Only then does coordinated action stay revisable as reach grows.
 
-Guest leadership—stepping up for a stretch, then stepping back—depends on that permission.[^c4-guest-leadership] In collaborative work it often shows up as a role that passes with the problem, not a permanent claim on every decision. What makes it possible is still the group's answer: whether stepping back is as safe as stepping up was welcome.
+Guest leadership—stepping up for a stretch, then stepping back—depends on that permission.[^c5-guest-leadership] In collaborative work it often shows up as a role that passes with the problem, not a permanent claim on every decision. What makes it possible is still the group's answer: whether stepping back is as safe as stepping up was welcome.
 
 Where **circulation** is narrow, the org chart can look healthy while every real decision still waits for the same gate.
 
@@ -125,4 +125,4 @@ When that read skews narrow, **circulation** is likely captured even when **corr
 Circulation copies permission before it ever copies a title.
 :::
 
-[^c4-guest-leadership]: Alistair Cockburn, "How to Step Up Stepping Up: Promoting Guest Leadership for Successful Collaboration," *Cutter IT Journal*, https://www.cutter.com/article/how-step-stepping-promoting-guest-leadership-successful-collaboration-494516.
+[^c5-guest-leadership]: Alistair Cockburn, "How to Step Up Stepping Up: Promoting Guest Leadership for Successful Collaboration," *Cutter IT Journal*, https://www.cutter.com/article/how-step-stepping-promoting-guest-leadership-successful-collaboration-494516.

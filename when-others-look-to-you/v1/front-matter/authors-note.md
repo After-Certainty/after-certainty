@@ -43,9 +43,10 @@ formal role, it still applies. People can be looked to before they are
 named as leaders.
 
 Read slowly when needed. The aim is not speed; it is clarity. The movement
-of the book is cumulative. Each chapter adds one layer. Each one returns to
-the same throughline: Attention → Influence → Structure → Renewal or
-Erosion → Circulation.
+of the book is cumulative. Each chapter adds one layer. Part II starts with a
+short map of capacities and groups before the renewal and erosion pattern
+chapters. Each chapter returns to the same throughline: Attention → Influence →
+Structure → Renewal or Erosion → Circulation.
 
 That chain is the thread you will see running through the chapters.
 

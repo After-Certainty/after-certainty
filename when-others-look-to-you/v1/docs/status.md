@@ -2,8 +2,8 @@
 
 ## Current phase
 
-**Manuscript (v1):** Part II is **Renewal**, **Erosion**, and a dedicated
-**Circulation** chapter; misjudgment sits in Part IV; closing is Chapter 11.
+**Manuscript (v1):** Part II opens with **The Two Groups**, then **Renewal**,
+**Erosion**, and a dedicated **Circulation** chapter; misjudgment sits in Part IV; closing is Chapter 12.
 Part and file layout match `index.md`.
 
 An earlier editorial pass wove **Correction** and **Circulation** through the
@@ -41,6 +41,9 @@ Epilogue, Appendix A, Appendix B, glossary, and bibliography are linked from
 `index.md`. Re-run link checks when paths or filenames change.
 
 ## Next steps (editorial)
+
+Parts III–IV plain-speak + domain scan are summarized in
+`docs/editorial-pass-part-iii-iv.md`.
 
 Remaining work is housekeeping: optional appendix/grid placement choices,
 export/script checks, and publication formatting passes.

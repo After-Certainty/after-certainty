@@ -1,10 +1,10 @@
-# **Chapter 8 — Scale and Drift**
+# **Chapter 9 — Scale and Drift**
 
 ### **What Scale Changes**
 
 A small group and a large-scale setting do not run the same way.
 
-At human scale, **harm** is easier to see, **correction** is faster, and accountability is harder to evade. At larger scale, **harm** can be harder to see clearly. News from the ground weakens on the way up. Plans are slower to change across layers of distance.[^c8-scale-distance]
+At human scale, **harm** is easier to see, **correction** is faster, and accountability is harder to evade. At larger scale, **harm** can be harder to see clearly. News from the ground weakens on the way up. Plans are slower to change across layers of distance.[^c9-scale-distance]
 
 Scale does not cause **erosion** by itself. It widens what the structure was already inclined to produce.
 
@@ -39,7 +39,7 @@ Procedural **legitimacy** becomes necessary, yet it can turn mostly for show whe
 
 Office-based **legitimacy** steadies continuity, but it can move permission forward faster than accountability travels with it.
 
-Sacralized **legitimacy** is easier to entrench as layers build, distance grows, and dissent thins. It slides toward **Disagreement is Suppressed**.[^c8-legitimacy]
+Sacralized **legitimacy** is easier to entrench as layers build, distance grows, and dissent thins. It slides toward **Disagreement is Suppressed**.[^c9-legitimacy]
 
 Scale does not remove judgment. It changes how easily sound judgment reaches the people who decide.
 
@@ -47,7 +47,7 @@ Scale does not remove judgment. It changes how easily sound judgment reaches the
 
 At small scale, selective refusal is visible and discussable.
 
-At larger scale, selective followership can go quiet: people reading rules their own way locally, hidden workarounds, and paperwork that looks aligned while day-to-day reality is not aligned.[^c8-hidden-transcripts]
+At larger scale, selective followership can go quiet: people reading rules their own way locally, hidden workarounds, and paperwork that looks aligned while day-to-day reality is not aligned.[^c9-hidden-transcripts]
 
 **Correction** matters at scale because if what people on the ground see cannot get back with enough force to change the plan, reach can grow while learning shrinks.
 
@@ -68,6 +68,6 @@ Scale sets the conditions; pressure tests them. Crisis and urgency force tradeof
 ::: {custom-style="Pull Quote Block"}
 Reach scales faster than self-correction unless it is designed in.
 :::
-[^c8-scale-distance]: Charles Perrow, *Normal Accidents: Living with High-Risk Technologies* (New York: Basic Books, 1984).
-[^c8-legitimacy]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
-[^c8-hidden-transcripts]: James C. Scott, *Domination and the Arts of Resistance: Hidden Transcripts* (New Haven, CT: Yale University Press, 1990).
+[^c9-scale-distance]: Charles Perrow, *Normal Accidents: Living with High-Risk Technologies* (New York: Basic Books, 1984).
+[^c9-legitimacy]: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
+[^c9-hidden-transcripts]: James C. Scott, *Domination and the Arts of Resistance: Hidden Transcripts* (New Haven, CT: Yale University Press, 1990).
