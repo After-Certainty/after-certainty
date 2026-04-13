@@ -18,9 +18,9 @@ Chapter endings should resolve into a sharper way of seeing — one question, on
 
 ---
 
-### Chapter 10 — "What to Watch Instead"
+### Chapter 11 — "What to Watch Instead"
 
-**The problem:** Two bullet lists in close proximity — four labeled tests and three early indicators — read as a consulting deliverable. The section comes immediately after **The Dean's Turnaround** vignette, which is strong writing, so the tonal drop is especially sharp.
+**The problem:** Two bullet lists in close proximity — four labeled tests and three early indicators — read as a consulting deliverable. The section comes immediately after **The Missed Quarter** vignette, which is strong writing, so the tonal drop is especially sharp.
 
 **The transformation:** Replace both bullet lists with continuous prose. Remove the labeled test names (correction test, harm test, learning test, boundary test) as standalone headers — the observations remain but are no longer formatted as an assessment instrument. The three early indicators stay intact but lose bullet structure.
 

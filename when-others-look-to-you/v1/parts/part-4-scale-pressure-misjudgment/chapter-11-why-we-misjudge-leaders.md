@@ -68,19 +68,21 @@ This preference makes groups vulnerable. It rewards leaders who reduce complexit
 
 Confidence can be valuable; overconfidence when challenge is unwelcome is costly.
 
-### **The Dean's Turnaround**
+### **The Missed Quarter**
 
 ::: {custom-style="Vignette Block"}
-A dean takes over a struggling community college campus and launches a strict completion campaign: gateway-course attendance minimums, compressed timelines, and visible dashboards for retention. Within a year, completion metrics rise and the system office celebrates a turnaround.
+A plant quality lead halts a production run when in-line checks show temperature drift across batches. The quarter’s shipment volume lands below target, and the regional scorecard puts the site in red.
 
-Faculty, however, quietly stop logging the kinds of support interventions that do not help the dashboard because the counts feed evaluations. Students with the most complex lives are informally steered toward part-time or certificate-only tracks. Student complaints increase, but most are handled in one-on-ones to protect the public narrative.
+At a sister plant in the same region, similar drift shows up in logs, but product keeps moving through waivers and watch plans. That site stays green on the same dashboard.
+
+Inside the halted plant, the stop triggers supplier talks, a slower line everyone on the floor can see, and a clear record of who signed off on each restart. None of that fits the row the regional office reads first.
 :::
 
-From the outside, this looks like evidence of strong leadership. On the campus, paths for **correction** are narrowing and **harm** is being displaced.
+From the outside, the red quarter reads as weak leadership. Outcome bias does not only crown short-term winners; it also punishes visible cost, even when that cost buys time for **correction** and prevents a larger failure later.
 
-The pressure here is not only that visible success hides degrading conditions. It is what the celebration teaches. Praise for rising completion numbers confirms the campaign’s shape: tighten gateways, compress time, let the dashboard carry the story. Each round of external approval makes the metrics harder to unwind and dissent harder to voice. The dean is not merely misread; the misread feeds a loop—more of what photographs well, less of what would surface cost early.
+The chapter’s familiar misread—success hiding harm—has a mirror image. Here, paths for **correction** were open where the lagging numbers looked worst. The misread still lands as selection pressure: if the only story that travels is the summary line, the next person in the role learns to keep the line moving and handle drift where it does not show up on the same chart.
 
-**Learning Collapse** is what that looks like when it repeats—not a one-off blind spot—when what people on the ground know no longer reaches those who decide in time.
+**Learning Collapse** is what that looks like from a distance—not always that nobody on the ground spoke, but that what reaches the decision layer first is still too thin to judge how influence was organized.
 
 ### **What to Watch Instead**
 

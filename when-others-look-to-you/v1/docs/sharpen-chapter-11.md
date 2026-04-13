@@ -8,7 +8,7 @@ Chapter 11 is the weakest chapter in the manuscript for two related reasons:
  
 2. **It occupies an awkward structural position.** Coming after Scale and Drift (Ch. 9) and Tradeoffs Under Pressure (Ch. 10), and before "What Happens Next" (Ch. 12), it sits in a moment where the reader needs momentum toward resolution — not a detour into epistemology. It reads like a speed bump.
  
-The vignette (the dean turnaround) is the most predictable of the set — it doesn't do the work the other vignettes do of making a structural point visible in an unexpected way.
+The vignette was originally a predictable turnaround-in-education story; it has been replaced (Option A) with an inverse-outcome case so misjudgment’s mirror direction is visible, not only “success hides harm.”
  
 ---
  
@@ -52,15 +52,11 @@ The three-distortion taxonomy (outcome bias, structural blindness, intention tra
 - **Intention trap**: Currently three paragraphs. Can be two. The third paragraph ("What lasts is what influence repeatedly produces...") is the point — consider cutting the setup and opening with that instead.
 - **Structural blindness**: Keep as-is. It's doing the most work.
  
-### 3. Replace or sharpen the vignette
+### 3. Vignette (implemented: Option A)
  
-The dean vignette is predictable: a turnaround story that conceals harm, with upward-looking metrics hiding ground-level problems. This is the most-used form of this story in leadership literature. Readers have seen it before it finishes.
- 
-**Option A — Replace**: Find a vignette where misjudgment operates in a less expected direction — e.g., a leader judged as *failing* who was actually running a structurally healthy operation (inverse outcome bias), or a case where the *right* kind of dissent was misread as disloyalty and corrected away. The chapter's argument covers both directions of misjudgment; the current vignette only illustrates one.
- 
-**Option B — Reframe**: Keep the dean scenario but shift what it's showing. Instead of ending on "visible success hides degrading conditions," end on what the dean *learned from the misjudgment itself* — i.e., what getting credit for a structurally broken result teaches a leader to produce more of. This makes the vignette illustrate the feedback loop, not just the distortion.
- 
-Option B is easier and may be sufficient.
+**Chosen approach — Replace (Option A):** **The Missed Quarter** (manufacturing). A quality lead halts a run for drift; the site misses quarterly volume and goes red on a regional dashboard while a sister plant waives similar drift to stay green. The scene shows **inverse outcome bias**: visible short-term cost paired with open **correction** on the floor. Analysis ties to selection pressure and **Learning Collapse** as thin signals traveling upward—not only the “success hides harm” direction.
+
+**Not used on this branch — Option B (reframe dean turnaround):** Keep the dean scenario but end on what praise teaches (feedback loop). Superseded by Option A for diversity of misread direction and domain.
  
 ### 4. Add a short section on misjudgment as selection pressure (new content)
  
@@ -96,7 +92,7 @@ This turns the chapter's close into a setup for the next chapter rather than a l
 | Outcome bias | Trim last paragraph |
 | Intention trap | Tighten to two paragraphs |
 | Structural blindness | Keep as-is |
-| Dean vignette | Reframe to show feedback loop (Option B) or replace with inverse case (Option A) |
+| Vignette | **The Missed Quarter** (Option A: inverse outcome bias / mirror misread) |
 | New section | Add 2–3 paragraphs on misjudgment as selection pressure |
 | Closing | Rewrite to pull toward Ch. 12 rather than summarize |
 | "Why Erosion Feels Rational" | Keep, consider slight expansion |
