@@ -16,13 +16,14 @@ see in that window.
 
 The book uses one durable definition as its anchor. The introduction states it outright.
 
-From that anchor, the chapters move in layers. Each movement begins with a bridge, then chapters:
+From that anchor, the chapters move in layers. Each stretch opens with a
+bridge; the chapters that follow carry the next part of the argument.
 
-- **How influence forms** — *From Attention to Pattern* leads into Chapter 1 on the weight of being looked to.
-- **Renewal, erosion, and circulation** — *From Formation to Movement* leads into chapters on the two groups, then renewal, erosion, and circulation in turn.
-- **Harm, effectiveness, and legitimacy** — *From Movement to Lenses* leads into three chapters that apply those lenses.
-- **Scale, pressure, and misjudgment** — *From Structure to Scale and Judgment* leads into chapters on scale, tradeoffs under pressure, and why observers misjudge leaders.
-- **What remains** — *From Misjudgment to What Remains* leads into the closing chapter.
+- **How influence forms** — *From Attention to Pattern*. Chapter 1 takes up the weight of being looked to.
+- **Renewal, erosion, and circulation** — *From Formation to Movement*. Chapters 2 through 5: the two groups, then renewal, erosion, and circulation.
+- **Harm, effectiveness, and legitimacy** — *From Movement to Lenses*. Chapters 6 through 8 apply those lenses in order.
+- **Scale, pressure, and misjudgment** — *From Structure to Scale and Judgment*. Chapters 9 through 11 take up scale, tradeoffs under pressure, and why we misjudge leaders.
+- **What remains** — *From Misjudgment to What Remains*. Chapter 12 closes the arc.
 
 The language stays simple on purpose. The ideas are serious, but they do
 not require ornate phrasing to be useful.
