@@ -126,6 +126,9 @@ Use during **Step 5**, **Step 5.75**, and echo passes after plain-language work.
 
 ## Chapters 9–10 and epilogue (Part IV; recent related edits)
 
+- **Bridge — From Structure to Scale and Judgment:** substance-led close (reach, feedback, pressure; scale/drift, tradeoffs, misjudgment)—avoid “What follows takes up…” navigation.
+- **Chapter 11 — What to Watch Instead:** prefer **what matters is the room…** over repeated **test** framing; default abstraction **system** → **group** in analytic prose (keep *system office* etc. in vignettes when scene-specific).
+- **Chapter 11** closing: merged **what remains** with judgment-without-handoff line; avoid **What comes next** as a part-to-part signpost.
 - Epilogue: **restoring vitality** (not *renewal*) when naming what comes back after damage containment.
 - **Trajectories** language (not “unbounded/bounded arc”); **baseline shifted** ties to **Chapter 10** (Tradeoffs) exception sequence.
 - **Chapter 12** (What Happens Next) should avoid a redundant four-state recap; keep **Feedback Drives Change** on the trajectory paragraph where it still fits.

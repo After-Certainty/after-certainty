@@ -10,5 +10,7 @@ What looked obvious up close can vanish in reports, timing gaps, and pressure.
 happening, and scale and pressure only make the read harder, accelerate drift,
 and hide the pattern from anyone watching from a distance.
 
-What follows takes up scale and drift, tradeoffs under pressure, and the kinds
-of misjudgment those conditions make easy to miss.
+Reach stretches; feedback thins; pressure arrives. Scale and drift show how
+distance changes the read. Tradeoffs under pressure show what urgency can lock
+in. Misjudgment shows how clean stories can outrun structural signals when both
+are in play.

@@ -92,7 +92,9 @@ The vignette shows why outcome bias and structural blindness reinforce each othe
 
 Outcomes and rhetoric are the loudest signals, but they are the least reliable ones. What actually reveals the structure is quieter and slower.
 
-Watch whether decisions can be challenged before they harden. Theory and paper are not the test. The test is the room where the challenge would have to happen and cost something.
+Watch whether decisions can be challenged before they harden. Theory and paper
+are not enough on their own. What matters is the room where the challenge would
+have to happen and cost something.
 
 Watch who absorbs the loss when something goes wrong, and whether that person was also the one who decided.
 
@@ -110,7 +112,7 @@ At larger reach, the signals that would reveal misjudgment travel farther, arriv
 
 Pressure amplifies this distortion. Under compressed timelines, groups favor signals that are quick to read and easy to defend: output, confidence, and narrative coherence. Signals that would challenge direction arrive slower and with higher social cost.
 
-This is where outcome bias and structural blindness reinforce one another. Outcome bias supplies a clean story of success; structural blindness removes the pathways that would challenge that story from inside the system.
+This is where outcome bias and structural blindness reinforce one another. Outcome bias supplies a clean story of success; structural blindness removes the pathways that would challenge that story from inside the group.
 
 That is why misjudgment belongs in view here, after scale and pressure. The conditions that make **decay** hard to diagnose are not accidental background noise; they are built into how influence expands and how institutions manage urgency.
 
@@ -130,9 +132,9 @@ Being open to **correction** means errors can be raised, authority can be questi
 
 That read is less dramatic than hero stories. It is also more reliable.
 
-What remains to watch is whether influence still flows both ways—whether dissent and bad news can still change direction before **harm** spreads.
-
-What comes next is what still stays possible when structures drift and signals misfire. Clearer judgment alone rarely repairs what has hardened.
+What remains is whether influence still flows both ways—whether dissent and bad
+news can still change direction before **harm** spreads. Clearer judgment alone
+rarely repairs what has hardened once structures drift and signals misfire.
 
 ::: {custom-style="Pull Quote Block"}
 Outcome stories are loud; structural signals are decisive.
