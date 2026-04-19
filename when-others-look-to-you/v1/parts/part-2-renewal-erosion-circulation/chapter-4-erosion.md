@@ -2,6 +2,23 @@
 
 ### **What Decay Looks Like**
 
+::: {custom-style="Vignette Block"}
+A foreman closes the tailgate talk with the chart everyone wants: schedule
+ahead, incidents zero, no holds. Off to the side, a carpenter sees the pour
+date on the sheet and what actually showed up on the rebar truck this week.
+
+He could flag it. He remembers the apprentice who questioned a sequence last
+job: praised in front of the crew, then kept off the lead list. Nobody called
+it punishment. Everyone knew why.
+
+When the superintendent asks for problems, nobody raises a hand. The chart
+holds. The mismatch does not leave the parking lot.
+:::
+
+That is the opening signal in groups where decay deepens. Challenge is still
+imaginable, but it starts to feel costly before anyone speaks. The room keeps
+its image of stability while reality goes unvoiced.
+
 **Erosion** shows when one or both capacities shrink: influence stops changing
 direction under pressure, coordinated action stops holding reach, or both.[^c4-groupthink]
 **Decay** is what tends to show when that drift keeps going.
@@ -29,8 +46,8 @@ people stay in place. Meetings run on time. Plans look coherent. Language gets
 smoother. But fewer channels stay open for bad news, and telling the truth
 costs more.
 
-The three **Eroding** patterns below follow one chain: challenge gets recoded,
-what people on the ground know stops steering decisions in time, and temporary
+The three **Eroding** patterns below follow one chain. Challenge gets recoded.
+What people on the ground know stops steering decisions in time. Temporary
 fixes outlast the emergencies they were meant for.
 
 ### **Disagreement is Suppressed**
@@ -38,6 +55,9 @@ fixes outlast the emergencies they were meant for.
 **Disagreement is Suppressed** is not always a loud crackdown. Sometimes the
 room has already taught what happens to people who name friction—so the next
 person does the math instead of raising the objection.
+
+If that objection dies before it reaches decision-makers, the rest of the chain
+starts to fail.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Disagreement is Suppressed**
@@ -49,17 +69,31 @@ performances that protect whoever holds the center.
 ### **The Question That Was Not Asked**
 
 ::: {custom-style="Vignette Block"}
-A regional association has had three strong years: membership up, press good, the director’s annual letter full of wins. In the March planning meeting, the agenda includes a fast rollout for a new digital tool. Midway through the demo, a program manager notices a mismatch between the vendor’s timeline and the field staff’s capacity—something she saw last quarter in another rollout.
+A regional association has had three strong years: membership up, press good,
+the director's annual letter full of wins.
 
-She draws breath to name it. She also remembers the last person who raised a timing problem in this room: thanked in public, reassigned in spring. Nobody called it retaliation. Everyone learned what “team player” meant.
+In the March planning meeting, the agenda includes a fast rollout for a new
+digital tool. Midway through the demo, a program manager notices a mismatch
+between the vendor's timeline and field staff capacity, something she saw last
+quarter in another rollout.
 
-The director asks if there are questions. Three people glance at the same blank line on their pads. The program manager says nothing. Afterward, two colleagues tell her quietly, in the hallway, that they had the same worry.
+She draws breath to name it. She also remembers the last person who raised a
+timing problem in this room: thanked in public, reassigned in spring. Nobody
+called it retaliation. Everyone learned what "team player" meant.
+
+The director asks if there are questions. Three people glance at the same blank
+line on their pads. The program manager says nothing.
+
+Afterward, two colleagues tell her quietly in the hallway that they had the
+same worry.
 
 The tool ships on schedule. The quiet work starts six weeks later.
 :::
 
-There is no villain in the scene. There is a shared sense of what speaking
+What matters is not villainy in the scene. It is a shared sense of what speaking
 costs—so disagreement dies before it ever becomes a real debate.
+When enough people do that math, the next failure is structural: the signal
+path from the ground to the center starts to break.
 
 ### **Learning Collapses**
 
@@ -77,16 +111,30 @@ Negative feedback weakens. Drift continues behind strong stories.
 ### **The Placement Queue**
 
 ::: {custom-style="Vignette Block"}
-A community college rolls out a new internship-placement approval portal across nine satellite centers. In the first week, two site coordinators notice the same flaw: a routing rule sends certain placement packets to a queue that nothing at the help desk checks daily. They log it in their center notes. Their dean adds it to the weekly digest. Central IT marks it as a “training follow-up” because adoption numbers are on target.
+A community college rolls out a new internship-placement approval portal across
+nine satellite centers.
 
-In the president’s briefings to the board, compliance rates look strong. They do not show the shadow spreadsheet coordinators keep so placements do not stall. Everyone assumes someone closer to the vendor must have opened a ticket.
+In the first week, two site coordinators notice the same flaw: a routing rule
+sends certain placement packets to a queue that nobody at the help desk checks
+daily. They log it in their center notes. Their dean adds it to the weekly
+digest. Central IT marks it as a "training follow-up" because adoption numbers
+are on target.
 
-Six weeks later, a cohort shows up out of sequence; the story is small but visible. Central asks why nobody flagged the portal earlier. The flag lived in every weekly digest; it never turned into a decision that could change the rule—only into local workarounds that kept employers from walking away.
+In the president's briefings to the board, compliance rates look strong. They
+do not show the shadow spreadsheet coordinators keep so placements do not
+stall. Everyone assumes someone closer to the vendor has opened a ticket.
+
+Six weeks later, a cohort shows up out of sequence; the story is small but
+visible. Central asks why nobody flagged the portal earlier. The flag lived in
+every weekly digest. It never turned into a decision that could change the
+rule, only into local workarounds that kept employers from walking away.
 
 Nobody blocked the message on purpose. The structure simply stopped carrying it to the people who could still change the template.
 :::
 
 The channel failed—not the facts on the ground.
+When that channel keeps failing, groups lean harder on workarounds and urgent
+bypasses. What started as temporary starts to harden.
 
 ### **Exceptions are Forever**
 
@@ -104,21 +152,33 @@ Exceptions introduced under urgency tend to stick. Temporary permissions harden 
 ### **The Vote After the Flood**
 
 ::: {custom-style="Vignette Block"}
-A neighborhood mutual aid group spends a winter weekend moving supplies while the river is still rising. The steering committee cannot reach quorum under the bylaws. Two members authorize a large card purchase so trucks can roll Monday morning. The decision is defensible: delay would have cost more than the paperwork.
+A neighborhood mutual aid group spends a winter weekend moving supplies while
+the river is still rising. The steering committee cannot reach quorum under the
+bylaws. Two members authorize a large card purchase so trucks can roll Monday
+morning. The decision is defensible: delay would have cost more than the
+paperwork.
 
-Three years later, the same two names appear on every fast spend. When someone asks for the committee, the answer is always some version of “after the flood we learned we can’t wait.” The flood is gone. The exception never left.
+Three years later, the same two names appear on every fast spend. When someone
+asks for the committee, the answer is always some version of "after the flood
+we learned we can't wait." The flood is gone. The exception never left.
 :::
 
 No single choice in that chain required bad faith. Each reuse sounded
 reasonable. Together they taught the group that normal rules are optional
-whenever someone shouts “emergency” loud enough.
+whenever someone shouts "emergency" loud enough.
 
 ### **When Decay Deepens**
 
-When **decay** deepens, **Disagreement is Suppressed**, **Learning Collapses**, and **Exceptions are Forever** stack.
+When **decay** deepens, **Disagreement is Suppressed**, **Learning Collapses**,
+and **Exceptions are Forever** show up together—not as slogans, but as what the
+group can no longer do when pressure rises.
 Challenge starts to sound like disloyalty. What people on the ground know stops
-steering decisions in time. Temporary fixes outlast the emergency that justified
-them.
+steering decisions in time. Temporary fixes outlast the emergency that
+justified them.
+
+The question is whether **correction** can reopen once these patterns are in
+motion. When that channel stays closed, **erosion** stops looking temporary and
+starts setting the baseline.
 
 ::: {custom-style="Pull Quote Block"}
 Erosion starts when correction carries a price.
