@@ -17,8 +17,8 @@
       .oval-eroding { fill: #b0b0b0; stroke: #1a1a1a; stroke-width: 2.4; }
       /* Circulating: off-white fill, thick solid stroke (distinct at center without color) */
       .oval-circulating { fill: #f2f2f2; stroke: #1a1a1a; stroke-width: 3.2; }
-      .pat-text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11px; font-weight: 500; fill: #0a0a0a; text-anchor: middle; dominant-baseline: middle; text-rendering: geometricPrecision; }
-      .leg-text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12.5px; fill: #111111; dominant-baseline: middle; }
+      .pat-text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; font-weight: 500; fill: #0a0a0a; text-anchor: middle; dominant-baseline: middle; text-rendering: geometricPrecision; }
+      .leg-text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13.5px; fill: #111111; dominant-baseline: middle; }
       .leg-swatch { stroke-width: 1.5; }
       .diagram-title { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 14px; font-weight: 600; fill: #111111; }
     </style>
