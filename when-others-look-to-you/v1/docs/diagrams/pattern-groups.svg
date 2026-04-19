@@ -17,7 +17,7 @@
       .oval-eroding { fill: #b0b0b0; stroke: #1a1a1a; stroke-width: 2.4; }
       /* Circulating: off-white fill, thick solid stroke (distinct at center without color) */
       .oval-circulating { fill: #f2f2f2; stroke: #1a1a1a; stroke-width: 3.2; }
-      .pat-text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 9.5px; fill: #0a0a0a; text-anchor: middle; dominant-baseline: middle; }
+      .pat-text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11px; font-weight: 500; fill: #0a0a0a; text-anchor: middle; dominant-baseline: middle; text-rendering: geometricPrecision; }
       .leg-text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12.5px; fill: #111111; dominant-baseline: middle; }
       .leg-swatch { stroke-width: 1.5; }
       .diagram-title { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 14px; font-weight: 600; fill: #111111; }
@@ -72,7 +72,10 @@
 
     <!-- Circulating: center -->
     <ellipse class="oval-circulating" cx="520" cy="400" rx="104" ry="32"/>
-    <text class="pat-text" x="520" y="400">Leadership Reproduces Itself</text>
+    <text class="pat-text" x="520" y="400">
+      <tspan x="520" y="394">Leadership</tspan>
+      <tspan x="520" y="406">Reproduces Itself</tspan>
+    </text>
 
     <!-- Adjusting: bottom left — pitch 84 -->
     <ellipse class="oval-adjusting" cx="220" cy="494" rx="104" ry="32"/>
@@ -80,11 +83,17 @@
     <ellipse class="oval-adjusting" cx="220" cy="578" rx="104" ry="32"/>
     <text class="pat-text" x="220" y="578">Feedback Drives Change</text>
     <ellipse class="oval-adjusting" cx="220" cy="662" rx="104" ry="32"/>
-    <text class="pat-text" x="220" y="662">Leaders Feel the Consequences</text>
+    <text class="pat-text" x="220" y="662">
+      <tspan x="220" y="656">Leaders Feel the</tspan>
+      <tspan x="220" y="668">Consequences</tspan>
+    </text>
 
     <!-- Eroding: bottom right — pitch 84 -->
     <ellipse class="oval-eroding" cx="820" cy="494" rx="104" ry="32"/>
-    <text class="pat-text" x="820" y="494">Disagreement is Suppressed</text>
+    <text class="pat-text" x="820" y="494">
+      <tspan x="820" y="488">Disagreement is</tspan>
+      <tspan x="820" y="500">Suppressed</tspan>
+    </text>
     <ellipse class="oval-eroding" cx="820" cy="578" rx="104" ry="32"/>
     <text class="pat-text" x="820" y="578">Learning Collapses</text>
     <ellipse class="oval-eroding" cx="820" cy="662" rx="104" ry="32"/>
