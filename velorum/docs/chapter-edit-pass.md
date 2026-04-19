@@ -1,0 +1,185 @@
+# Chapter edit pass — Velorum
+
+Use this document for **repeatable revision passes** so voice, vocabulary, and craft stay aligned across chapters.
+
+**Authority (resolve conflicts in this order):**  
+1. **[project-spec.md](./project-spec.md)** — premise, POV rules, terrain/Velorum mandates, ending requirements, genre anti-patterns  
+2. **[voice-spec.md](./voice-spec.md)** — tone, dialogue, readability, paragraph shape, profanity, ornament  
+3. **[synopsis.md](./synopsis.md)** — plot spine; update if story facts move  
+4. **[act-chapter-index.md](./act-chapter-index.md)** — chapter title, POV, intended beats  
+
+When **project-spec** and **synopsis** disagree, reconcile in **project-spec first**, then patch chapters.
+
+---
+
+## Before you edit
+
+- [ ] Confirm **single POV** for this chapter (Riven / Cael / Lyra only; no mid-chapter hops). Match **[act-chapter-index.md](./act-chapter-index.md)** unless you intentionally revise planning docs everywhere.  
+- [ ] Confirm this chapter still hits its **beat** on the spine (synopsis + index notes).  
+- [ ] Pick a **shape reference**: **[voice-spec.md](./voice-spec.md)** calibration samples and **`act-1-the-choice/chapter-01-the-monument.md`** (opening paragraphs = **place-first**, **plain diction**, woven blocks; character intros = **concrete first-appearance anchors** per **voice-spec → Character introduction**; narration = **clear subjects / literal sense** per **voice-spec → Clear agency**; vocabulary = **contemporary plain English** per **voice-spec → Contemporary lexicon**). Compare flow and density of concrete nouns, not exact wording—until the project adopts a different gold chapter.
+
+---
+
+## Pass A — Facts, POV lens, and chapter job
+
+- [ ] **POV lens:** Cael reads risk/preservation; Riven reads change/resistance to being fixed; Lyra reads truth/naming hurt first. Inner thought matches **that** lens only.  
+- [ ] No **theme lectures** (*stability*, *fate*, cosmology) without a **bodily or environmental** stake in the same beat (project-spec genre anti-pattern).  
+- [ ] **Velorum** proper noun: follow **project-spec** — introduce by name **after** the bond shows **felt consequence** (outer and/or inner), unless oath grammar truly needs it in-scene. Do not front-load theology.
+
+---
+
+## Pass A2 — Close-third attribution
+
+Manuscript chapters do **not** duplicate POV/act labels—those live in **[act-chapter-index.md](./act-chapter-index.md)**. On the page, readers only have close-third cues. This pass ensures **every chapter reads clearly as one character’s camera and judgment**, without slipping into omniscience or ambiguous pronouns.
+
+### World, crowd, and history
+
+- [ ] **Lore / town character / “what people believe”:** either **filter through the POV** (*From up here it felt older than…*, *Everyone in town said… but Riven doubted…*) or **give a sourced line**—not neutral encyclopedia voice.  
+- [ ] Replace anonymous **people / everyone / the town** when the sentence is really **judgment**: use **specific bodies** (*vendors*, *Mara*, *kids in the square*) or tag **who notices** (*To Riven the chimneys didn’t mean X; fine by everyone else*).
+
+### Another character’s mind or “truth” about them
+
+- [ ] Do **not** narrate non-POV psychology as bald fact (**Cael tracked the town the way he always tracked everything…**). Use **POV-mediated** framing: **Riven watched…**, **It looked to Lyra like…**, **She’d catalogued how he…**.  
+- [ ] Habits between two leads (e.g. Cael finishing Riven’s sentences): anchor with **relationship history** (*He’d done this with Riven before…*) instead of generic **you**.  
+- [ ] When describing how **others** misread a non-POV character, say **who** misreads (**strangers**, **passers-by**), not **people** as invisible oracle.
+
+### Pronouns and sentence hygiene
+
+- [ ] After rapid **he said / he moved** exchanges, scrub for **ambiguous “he.”** Prefer **named action** (*Riven looked away*) where two males share the paragraph.  
+- [ ] Replace narrator **you** (*remind you*, *until you tried*) with **POV-aligned** wording (*remind him*, *until he tried*) unless **generic-you** is deliberate and invisible.  
+- [ ] Imagined futures / crowd scenes: **your** (*your own name*) → **POV possessive** (*his own name*) when the chapter won’t ship with POV labeling.  
+- [ ] Closing ** thematic stab lines**: if they could float as epigraph, tag **interior** (*he thought*, *she told herself*) or attach a **physical beat** so they’re clearly filtered.
+
+### Effect and sensation (bond-friendly)
+
+- [ ] Strong beats landing on another character’s confession: show **effect on POV body** (*landed on Riven’s skin*, *heat climbed his throat*)—not only acoustic fact.  
+- [ ] Shared / wrong-seated emotion (**not entirely his own**): keep the **POV skull** owning the sensation so it reads as **his experience of bleed**, not narrator preaching the magic system.
+
+---
+
+## Pass A3 — Agency, attribution, and literal clarity *(anti-poetry in narration)*
+
+See **voice-spec → Clear agency**. This pass catches lines that **sound literary** but **erase who did what**—bad fit for Velorum’s close-third default.
+
+- [ ] **Subjects on stage:** Replace **orphan actors** (*memory threw*, *silence waited*, *something twisted*) with **POV-named thought, body, or cause** (*his thoughts drifted*, *heat shot*, *wrong-sized for Cael’s confession alone*) unless dialogue deliberately performs ornate speech.  
+- [ ] **Objects stay objects:** Avoid landmarks and weather that **watch**, **want**, **judge**, or **peel someone open** without a POV lens. Prefer **stood / rose / blocked / hit**—**literal physics first**, projection second (*To Riven the stone looked like…*).  
+- [ ] **Claims and lore:** Theology, prophecy, “the land chose”—attribute the claim (**pamphlet**, **vendor**, **old tale**) when the sentence would otherwise read as **omniscient narrator certifying canon**.  
+- [ ] **Metaphor check:** If the image hides the referent (*scraps torn off the sky*, *water stopped swimming*), rewrite until **a stranger could diagram the sentence**—who moved, what touched skin, what changed.  
+- [ ] **Tighten without bleaching:** Cutting poetry doesn’t mean flat prose—it means **one clear picture** from **one consciousness** per beat.  
+- [ ] **Idiomatic figures:** Hunt **mixed metaphors**, **noun collisions** (same word, two senses—stew bowl vs livelihood bowl), and **crypto verbs** (*read older*, *inventory grief*) that sound clever but confuse on a cold read. See **voice-spec → Idiomatic figures of speech**.
+
+---
+
+## Pass B — Scene substance (mandatory craft)
+
+From **project-spec** + **voice-spec**:
+
+- [ ] **Terrain OR Velorum manifestation OR bond altering perception/motion** appears in **each scene** (not wallpaper—reader should feel pressure, correction, alignment, delay, or resistance where appropriate).  
+- [ ] **Dialogue:** plenty of exchange—multiple back-and-forth blocks, subtext, conflict; not exposition disguised as debate. Character speech matches **[voice-spec.md](./voice-spec.md)** register tables (Riven heat, Cael control with rare cracks, Lyra flat/cutting).  
+- [ ] **Paragraph fabric:** sustained narration blocks where the voice spec calls for weaving; avoid staccato one-line paragraphs unless the rhythm truly needs a punch.  
+- [ ] **Character introduction:** any **named character who appears for the first time in the manuscript** in this chapter gets a **short concrete anchor** (physical and, if useful, one social read)—see **[voice-spec.md](./voice-spec.md)** → **Character introduction**. Same standard as Chapter 1 for Riven, Cael, Bran; scale length to role. Do **not** re-describe returning characters every entrance unless time, injury, disguise, or crowd demands it.  
+- [ ] **Content boundaries:** no sex on the page (voice-spec).
+
+---
+
+## Pass C — Readability (~7th grade delivery)
+
+See **voice-spec → Readability**.
+
+- [ ] Prefer **short, familiar words** where they do the same job; adult ideas stay; **delivery** stays clear.  
+- [ ] Cut **true run-ons** (unclear referents, accidental “and… and… which…” bags). Long sentences are fine when **each clause earns its place**.  
+- [ ] Replace **stacked abstractions** and **noun piles** with **one concrete image**, then move.  
+- [ ] Heavy profanity stays **dialogue-heavy** where voice-spec assigns it; narration stays comparatively clean.  
+- [ ] **Period / costume lexicon:** Replace historical-trade wallpaper (*hawkers*, *chapbooks*, rare guild nouns) with **clear modern equivalents** unless the word is **Velorum canon**, **dialogue performance**, or **taught in-scene**—see **voice-spec → Contemporary lexicon**.
+
+---
+
+## Pass D — Concrete language (kill floating ideas)
+
+See **voice-spec → Concrete language** and **No ornate varnish**.
+
+- [ ] **Bodies and dirt first:** hands, jaw, rope, dust, breath, temperature—before “cost,” “weight,” “meaning” without anchors.  
+- [ ] Pressure-test abstract nouns: if the sentence could live in a seminar, **ground it**—who wants what, what hits skin, what object proves it.  
+- [ ] Replace **poster wisdom** and **clever consonance** with sensory fact or one plain verb.  
+- [ ] **Seminar sweep:** Hunt **thesis-shaped** narration and dialogue—lines that **sort abstract categories** (*peace*, *failure*, *meaning*, *truth* as slogans), **triads** that sound like debate prompts (*name / face / truth*), or judgment that **floats** without a body on the page. Rewrite until **coin, rope, stone, weather, rent, hands at work** (or another in-scene object/action) carries the same stake. Default swap: **seminar clause → labor, trade, or terrain** filtered through POV.  
+- [ ] **Exceptions:** oath/bond/terrain may rise **one notch** when the ground or ritual is the subject—**one** elevated beat per passage, not a stack.
+
+---
+
+## Pass D2 — Place-first & plain diction *(Chapter 1 exemplar)*
+
+Align narration with **`chapter-01-the-monument.md`** opening: readers should know **who, where, and what** without specialist vocabulary or slogan-shaped lines. See **voice-spec → Place-first narration & plain diction**.
+
+- [ ] **Geography & trade:** New or revisited locations use **plain, physical anchors** (harbor mouth, shallow sand, docks, timber lanes)—not rare nautical or landscape terms unless context teaches them in the same beat. When in doubt, swap to what a POV character would **see from their boots**.  
+- [ ] **No floating mottoes:** Replace **aphoristic one-liners** (*X teaches you Y*) with **image + consequence**—who loses money, who sleeps thin-walled, what fails when weather turns.  
+- [ ] **Optional verdict line:** After a dense place sketch, a short **practical summary** sentence is allowed (see Ch. 1 opening: *That was Greyhaven in practical terms…*)—then move on.  
+- [ ] **Stack concrete nouns** in long sentences when braiding scene; avoid **stacked abstractions** in the same breath.  
+- [ ] **Second read:** If a sentence sounds like a **poster or thesis**, rewrite until **someone’s hands or the ground** carries the idea.
+
+---
+
+## Pass E — Office / modern workplace camouflage
+
+See **voice-spec → Concrete language → kill office creep**.
+
+**Do not use** in default narration or ordinary dialogue (unless an **institutional character** speaks on purpose):
+
+`leverage`, `optics`, `bandwidth`, `circle back`, `takeaway`, `unpack`, `stakeholder`, `pivot`, `granular`, `onboarding`, `actionable`, `synergize`
+
+Also avoid **HR-flavored defaults:** `job description`, `reporting line`, **“role”** (when it sounds like org-chart), **abstract “performance,”** **checking boxes**, **filing** as metaphor—unless you **mean** cold institutional comedy.
+
+**Velorum vocabulary stays in-world:** `alignment`, `bond`, `oath`, `correction`, `sync`—keep them; do **not** swap corporate “alignment” as metaphor.
+
+**Replace with road talk:** *show / act / put on / play brave / lie / pretend / count coins / sweep the yard*—whatever fits the scene.
+
+---
+
+## Pass F — Tightening (line-level)
+
+- [ ] Cut **duplicate observation** (same beat twice—e.g. peddler described three ways). Merge into the stronger image.  
+- [ ] Cut **explanation after you’ve already shown** (trust the concrete beat).  
+- [ ] Prefer **specific dread** (*timber cracks; bridge plank spins off*) over generic collapse (*things fall apart*) unless voice explicitly needs vagueness.  
+- [ ] Watch **callback echoes** (motifs like boots-by-door): keep only if they **gain** meaning; otherwise one beat is enough.
+
+---
+
+## Pass H — Echo & repetition *(wordcraft / fatigue)*
+
+Words and images **repeat accidentally** before they repeat on purpose. This pass reduces **sonic fatigue** and **semantic collisions**—the same noun doing double duty (*bowl* of stew vs small *bowl* of mercy), **stacked synonyms** (*wind… wind… gust* in three lines), or **seven mentions** of the same landmark when three carry the beat.
+
+- [ ] **Spot the stalkers:** Read for **nouns** and **verbs** that recur within a page or paragraph—**wind, grit, stone, square, hands, door, swear, hell**, POV sensation labels (**heat**, **quiet**). Keep intentional refrains (boots-by-door); vary or cut the rest.  
+- [ ] **Rotate vocabulary, not voice:** Swap one occurrence for a **specific alternate** (*lanes / crowd below* for *square*; *dust / sleeve* instead of fourth *grit*; *gust / air* instead of eighth *wind*)—still plain, still place-true.  
+- [ ] **Structural echoes:** Separate **noise climbing** beats, **pause / quiet / stillness** beats, and **pamphlet / chapbook / cheap paper** beats so they don’t pile the same sentence shape twice in a scene.  
+- [ ] **Keep callbacks that deepen:** Motifs (**fused hands → carved knot**) can **trade wording** mid-chapter once the reader has the image—don’t abandon the motif, **refresh** it.  
+- [ ] **Dialogue tags:** Avoid starting three answers in a row with the same flourish (*Cael was quiet… / quiet again*)—vary how silence lands.
+
+Optional: skim with search for a frequent word (*\bwind\b*, *square*, *hands*) when a chapter *feels* spongy.
+
+---
+
+## Pass G — Final skim
+
+- [ ] Read **aloud** or use TTS—catch stiff syntax and accidental jargon.  
+- [ ] Compare opening/closing **density** to your **gold chapter** reference.  
+- [ ] If plot facts changed, patch **synopsis.md** / **act-chapter-index.md** / **project-spec.md** as needed so docs stay the single source of truth.
+
+---
+
+## Quick grep aids (optional)
+
+From the repo root, rough scans (human judgment still required):
+
+```bash
+# Example: office-ish hits in one chapter (adjust path)
+rg -n "leverage|optics|bandwidth|takeaway|unpack|stakeholder|pivot|granular|onboarding|actionable|synergize|circle back|job description|reporting line" velorum/manuscript/path/to/chapter.md
+```
+
+---
+
+## Revision workflow (where this fits)
+
+**Draft** against synopsis + index + project-spec POV and terrain rules.  
+**Revise voice** against voice-spec.  
+**Run passes** A → A2 → **A3** → B → (C / D / **D2** / E / F / **H** as needed) → G. **Pass A3** catches **orphan actors**, **personified landmarks**, **unowned sensations**, **crypto-metaphors**, and **confusing figures of speech**—see **voice-spec → Clear agency** and **Idiomatic figures of speech**. **Pass D** includes the **seminar sweep** (thesis-shaped lines → concrete stakes). Use **D2** when a chapter introduces or revisits a location and narration should match **Chapter 1’s** place-first density. Use **Pass B → Character introduction** when the chapter introduces **new** named faces (same concrete-anchor rule as Chapter 1). Use **Pass H** when a chapter **sounds fine** but reads **monotone or fuzzy**—often stacked *wind*, *square*, *hands*, or repeated silence beats. Run **H** after **F** (tightening) or merge H into a late polish pass with **G**. Re-run **A2** / **A3** when a chapter’s assigned POV changes in **act-chapter-index** or when you add long stretches of another character’s interior or lean hard into lyrical narration.
+
+For full premise, ending rules, and Velorum reader-sequence rules, always return to **[project-spec.md](./project-spec.md)**.
