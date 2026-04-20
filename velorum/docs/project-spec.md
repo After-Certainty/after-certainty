@@ -8,10 +8,10 @@
 You are writing a full-length fantasy novel (~80,000–100,000 words) set in a **mythical land** but told in a **modern narrative voice**: present-day diction, rhythm, and dialogue naturalism—**not** faux-archaic “high fantasy” speech or ornamental thee/thou prose.
 
 This story must feel:
-- inevitable  
+- **inevitable** (pressure and choices close off alternatives—show it through scene logic, not abstract fate language)  
 - emotionally grounded  
 - structurally coherent  
-- vividly immersive  
+- vividly immersive **through concrete detail**, not through layered metaphor in narration  
 
 This is **not only** an adventure story—**crisis, beasts, and rescue** may appear on the surface (in **summary** you can name them plainly; on the page they show as **disaster, set-pieces, and pressure**).  
 It is a story about **what holds the world together—and what people pay for it**—with **Cael**, **Riven**, and **Lyra** caught in **legend, bond, and desire**.
@@ -104,6 +104,13 @@ The book is **fantasy first**: tragedy and myth land *after* readers recognize t
 2. By end of **Chapter 2** ("The Decision"), readers understand why **Cael** commits and why **Riven** follows despite unease.  
 3. By **Chapters 7–13** (Act II), readers feel the pattern clearly: power through sync, civic pressure in **Kestrel Gate**, **Halverin**’s control narrative, **Lyra** as outside witness, and first visible cracks in the bond.
 
+**Status note:** **Chapter 1 ("The Monument") is complete** as the current calibration reference for opening geography, attribution strategy, and behavior-led character context.
+
+Carry-forward style principles from Chapter 1:
+- Dialogue attribution favors **physical action beats** over repeated **said** tags when speaker identity is already clear.
+- New locations open with a **wide-angle geographic establishing shot** before narrowing into close-third perception.
+- Character context should surface through **behavior and situation** in-scene, not detached explanation blocks.
+
 ### Anti-pattern (genre drift)
 
 - Opening with **abstract cosmology** before **sworn pair + stakes** (bodily **or** emotional — **Cael↔Riven** inner channel counts).  
@@ -121,11 +128,11 @@ The book is **fantasy first**: tragedy and myth land *after* readers recognize t
 
 # VOICE AND PROSE *(see voice-spec.md)*
 
-**Tone, dialogue register, profanity guardrails, paragraph shape, dialogue density and quality, narration vs speech, calibration samples, and voice-related anti-patterns** live in **[voice-spec.md](./voice-spec.md)**.
+**Tone, dialogue register, profanity guardrails, paragraph shape, dialogue density and quality, plain dialogue standard, narration vs speech, calibration samples, and voice-related anti-patterns** live in **[voice-spec.md](./voice-spec.md)**.
 
 Draft and revise chapters against **voice-spec** for contemporary mouth, woven narration, and exchange craft; use **this file** for premise, terrain/Velorum mandates, POV rules, world rules, structure, and ending requirements.
 
-**Revision workflow:** keep **[synopsis.md](./synopsis.md)** as the plain-language spine; use **voice-spec** for readability, **place-first / plain diction** (see *Place-first narration*), **first-appearance character anchors** (see *Character introduction*), **clear agency / literal sense** (see *Clear agency*), **idiomatic figures** (see *Idiomatic figures of speech*), **contemporary lexicon over period costume** (see *Contemporary lexicon*), and dialogue craft; use **this file** for world/POV/ending rules. For repeatable chapter passes (readability, concreteness, jargon, **period/costume lexicon scrub** in Pass C, **Pass A3** attribution check, **D2 place pass**, character-intro check in Pass B, tightening, **Pass H echo / repetition**), use **[chapter-edit-pass.md](./chapter-edit-pass.md)**.
+**Revision workflow:** keep **[synopsis.md](./synopsis.md)** as the plain-language spine; use **voice-spec** for readability, **place-first / plain diction** (see *Place-first narration*), **spatial and surface clarity** on terrain (see *Spatial and surface clarity* under *Place-first narration & plain diction*), **first-appearance character anchors** (see *Character introduction*), **clear agency / literal sense** (see *Clear agency*), **plain dialogue on polish** (see *Plain dialogue*), **rapid banter attribution** when exchanges stack short lines (see *Rapid banter attribution* under *Dialogue quality*), **line-level tightening** before a final skim (see *Tightening* / **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass F**), **sparing em dashes** (see *Em dashes*), **idiomatic figures** (see *Idiomatic figures of speech*), **contemporary lexicon** (ordinary English; no **museum-catalog**, unexplained jargon, or unearned period-trade garnish—see *Contemporary lexicon*, including *No museum-catalog or opaque jargon*), and dialogue craft; use **this file** for world/POV/ending rules. For repeatable chapter passes (**Pass C**: readability, **em-dash discipline**, **period/costume lexicon**, **museum/specialist jargon**; **Pass C2**: **dialogue plainness**, **rapid banter** clarity; concreteness; jargon; **Pass A2** pronoun-disambiguation in mixed-character paragraphs; **Pass A3** attribution check; **D2 place pass**; character-intro check in Pass B; **Pass F** tightening; **Pass H echo / repetition**), use **[chapter-edit-pass.md](./chapter-edit-pass.md)**.
 
 ---
 
@@ -136,13 +143,13 @@ Draft and revise chapters against **voice-spec** for contemporary mouth, woven n
 The environment and Velorum are active systems.
 
 ### Requirements:
-- Terrain must feel alive and responsive  
+- Terrain must **change in ways the POV can name**—sound, motion, resistance, wrong-fit—not static mood painting  
 - Use sensory detail:
   - texture (stone, soil, air, water)
   - scent (metal, rain, decay, growth)
   - temperature and resistance  
-- Include subtle motion:
-  - pulsing, settling, shifting, aligning  
+- Include **observable motion** when the beat allows:
+  - gravel shifting, water speeding or slowing, timber groaning, dust hanging wrong, bodies adjusting step  
 
 ### Velorum must be experienced through:
 - tension  
@@ -152,8 +159,8 @@ The environment and Velorum are active systems.
 - resistance  
 
 ### The bond between characters must:
-- always be subtly present  
-- influence **perception, emotion, thought-shaped tension**, movement, and environment (**Cael↔Riven** inner channel per [synopsis.md](./synopsis.md))  
+- stay **present on the page** without lecture—reader feels it through shared sensation, wrong timing, bleed emotion  
+- influence **perception, emotion, tension in the body**, movement, and environment (**Cael↔Riven** inner channel per [synopsis.md](./synopsis.md))  
 
 ### Each scene MUST include:
 - terrain reacting OR  
@@ -307,28 +314,28 @@ Voice, dialogue, and ornamental-prose pitfalls: **[voice-spec.md](./voice-spec.m
 - **Lyra** must remain — **truth-teller**, not **reward** that dissolves the triangle or what people paid  
 - The tone must be quiet  
 
-Final idea:
+Ending note for planners (not mandatory jacket copy):
 
-Velorum held.  
-That is what remains.  
-Not what it required.
+The world stabilizes; **Cael** and **Riven** pay with interior loss; **Lyra** refuses the tidy legend. Say it that plainly in outlines; let the manuscript earn emotion with scene, not slogan.
 
 ---
 
 # OUTPUT INSTRUCTIONS
 
-Write the novel chapter by chapter. Let **[synopsis.md](./synopsis.md)** and **[act-chapter-index.md](./act-chapter-index.md)** drive the plot spine; use **this file** for non-negotiable world/POV/ending rules; use **voice-spec** for voice, dialogue density, and paragraph shape.
+Write the novel chapter by chapter. Let **[synopsis.md](./synopsis.md)** and **[act-chapter-index.md](./act-chapter-index.md)** drive the plot spine; use **this file** for non-negotiable world/POV/ending rules; use **voice-spec** for voice, dialogue density, **plain spoken lines** on polish (**[voice-spec.md](./voice-spec.md)** → **Plain dialogue**), **ordinary contemporary English** without **museum-catalog** diction or opaque jargon unless earned (**[voice-spec.md](./voice-spec.md)** → **Contemporary lexicon**), **spatial and surface clarity** on paths and terrain (**[voice-spec.md](./voice-spec.md)** → **Spatial and surface clarity**), **rapid banter** clarity (**[voice-spec.md](./voice-spec.md)** → **Rapid banter attribution**), **line-level tightening** when revising (**[voice-spec.md](./voice-spec.md)** → **Tightening**; **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass F**), paragraph shape, and punctuation habits (**em dashes sparingly**—see **[voice-spec.md](./voice-spec.md)** → **Em dashes**).
 
 Each manuscript chapter file contains **only** an `# Chapter …` heading and prose—**do not** repeat act or POV labels in the file (those belong in **[act-chapter-index.md](./act-chapter-index.md)**).
 
 Each chapter must:
 - follow a single POV (check **act-chapter-index** for which character)  
 - include terrain/Velorum interaction  
-- **ground place and people in concrete, plain diction** when introducing or revisiting settings—see **[voice-spec.md](./voice-spec.md)** → **Place-first narration & plain diction**; use **Chapter 1**’s opening as the default texture reference  
-- prefer **clear contemporary English** for ordinary narration and dialogue—avoid period-trade jargon unless earned—see **[voice-spec.md](./voice-spec.md)** → **Contemporary lexicon**  
+- **ground place and people in concrete, plain diction** when introducing or revisiting settings—see **[voice-spec.md](./voice-spec.md)** → **Place-first narration & plain diction** and **Spatial and surface clarity**; use **Chapter 1**’s opening and climb as the default texture reference  
+- prefer **clear contemporary English** for ordinary narration and dialogue—avoid period-trade jargon, **museum-catalog** diction, and unexplained specialist jargon unless earned—see **[voice-spec.md](./voice-spec.md)** → **Contemporary lexicon** (including **No museum-catalog or opaque jargon**)  
 - **introduce every named character on first manuscript appearance** with a short concrete anchor (physical detail ± one social read through POV where it matters)—see **[voice-spec.md](./voice-spec.md)** → **Character introduction**; Chapter 1 (Riven, Cael, Bran) is the reference shape  
 - keep **narration legible in close third**—name who feels, who acts, and what literally happens; avoid personified abstractions and crypto-metaphors that hide the subject—see **[voice-spec.md](./voice-spec.md)** → **Clear agency**; run **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass A3** on polish passes; run **Pass H** when repeated words or beats dull the chapter  
-- include **substantial dialogue** woven through the chapter (multiple scenes of exchange, not a few tagged lines)—see **[voice-spec.md](./voice-spec.md)** → **Dialogue quality**  
+- avoid abrupt **interior jump-cuts**; thought pivots should follow a visible trigger (line, sightline, or sound) and still read naturally—not like repeated template scaffolding—see **[voice-spec.md](./voice-spec.md)** → **Clear agency** and **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass A2**  
+- avoid **em-dash overuse** in manuscript prose—see **[voice-spec.md](./voice-spec.md)** → **Em dashes**; run **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass C** em-dash check  
+- include **substantial dialogue** woven through the chapter (multiple scenes of exchange, not a few tagged lines)—see **[voice-spec.md](./voice-spec.md)** → **Dialogue quality**; on revision, align **spoken lines** with **Plain dialogue**, keep **rapid banter** legible (**Rapid banter attribution**), and run **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass C2** when exchange is central to the chapter  
 - use **sustained paragraphs** as the default—see **[voice-spec.md](./voice-spec.md)** → **Paragraph shape**  
 - maintain tone (**[voice-spec.md](./voice-spec.md)** → Tone and style)  
 - build inevitability  
@@ -336,7 +343,7 @@ Each chapter must:
 
 Suggested opening (adjust as you draft):
 
-Chapter 1: The Monument *(POV Riven—see **act-chapter-index**)*  
+Chapter 1: The Monument *(POV Riven; see **act-chapter-index**)*  
 
 Default POV rotation intent remains flexible at chapter scale; follow the **POV listed per chapter in [act-chapter-index.md](./act-chapter-index.md)** unless intentionally revised in both planning docs.
 
