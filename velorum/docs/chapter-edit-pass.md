@@ -16,7 +16,7 @@ When **project-spec** and **synopsis** disagree, reconcile in **project-spec fir
 
 - [ ] Confirm **single POV** for this chapter (Riven / Cael / Lyra only; no mid-chapter hops). Match **[act-chapter-index.md](./act-chapter-index.md)** unless you intentionally revise planning docs everywhere.  
 - [ ] Confirm this chapter still hits its **beat** on the spine (synopsis + index notes).  
-- [ ] Pick a **shape reference**: **[voice-spec.md](./voice-spec.md)** calibration samples and **`act-1-the-choice/chapter-01-the-monument.md`** (opening = **place-first**, **plain diction**, woven blocks; **Cael/Riven ridge exchange** = **plain dialogue** per **voice-spec → Plain dialogue**; character intros = **concrete first-appearance anchors** per **voice-spec → Character introduction**; narration = **literal sequence** per **voice-spec → Plain sense default** and **clear agency** per **voice-spec → Clear agency**; punctuation = **em dashes almost never** except true interruption per **voice-spec → Em dashes**; vocabulary = **contemporary plain English** with no **museum-catalog** or opaque specialist jargon per **voice-spec → Contemporary lexicon**). Compare flow and density, not exact wording—until the project adopts a different gold chapter.
+- [ ] Pick a **shape reference**: **[voice-spec.md](./voice-spec.md)** calibration samples and **`act-1-the-choice/chapter-01-the-monument.md`** (opening = **place-first**, **plain diction**, **camera-observable** narration per **voice-spec → Camera-observable narration**, woven blocks; **Cael/Riven ridge exchange** = **plain dialogue** per **voice-spec → Plain dialogue** with **profanity preserved**; character intros = **concrete first-appearance anchors** per **voice-spec → Character introduction**; narration = **literal sequence** per **voice-spec → Plain sense default** and **clear agency** per **voice-spec → Clear agency**; punctuation = **em dashes almost never** except true interruption per **voice-spec → Em dashes**; vocabulary = **contemporary plain English** with no **museum-catalog** or opaque specialist jargon per **voice-spec → Contemporary lexicon**). Compare flow and density, not exact wording—until the project adopts a different gold chapter.
 
 ---
 
@@ -105,8 +105,19 @@ See **voice-spec → Plain dialogue**. Run after **Pass C** when the chapter has
 - [ ] **Stakes before ornament:** preference order is **consequence, body, plain noun** (*hurt*, *wheel*, *plank*, *coin*) before optional figurative garnish in the same beat.  
 - [ ] **One figure per spoken beat** unless voice is deliberately theatrical (singer, magistrate, ritual); **banter stays short**.  
 - [ ] **Lore / theology in dialogue** stays clearly **what someone claims** (*the old tale says*, *pamphlet says*)—not narrator proving canon (see **Pass A3**).  
+- [ ] **Profanity:** do **not** soften or remove approved swearing to “help” plainness—see **voice-spec → Plain dialogue** (profanity stays on polish) and **voice-spec → Voice guardrails**.  
 - [ ] **Rapid banter:** when short lines volley **three or more times** without narration between, or when a **one-word** reply could belong to either speaker, add **said/asked** or a **named beat** often enough that the chain never blurs—then strip redundant tags where the speaker is already obvious from the prior beat—see **voice-spec → Dialogue quality → Rapid banter attribution**; use **`chapter-01-the-monument.md`** after a banter pass as the bar.  
 - [ ] Compare density to **`chapter-01-the-monument.md`** monument exchange: **direct challenges**, **trade-grounded Cael**, **heat-forward Riven**, attributed tale wording where the spine requires it.
+
+---
+
+## Pass C3 — First-read clarity *(local vocabulary)*
+
+Run when **beta readers or cold reads** bump on **setting labels** they don’t carry from Earth/history-fantasy defaults.
+
+- [ ] Prefer **plain geographic words** on first mention when precision is the same: e.g. *inlet* / *harbor water* before unexplained *reach*; *dock posts* before *pilings*; *streets near the docks* before *lower lanes*—unless the term is **defined by context in the same beat**.  
+- [ ] Keep **spatial logic** unchanged after swaps (same wind direction, same climb)—see **voice-spec → Spatial and surface clarity**.  
+- [ ] **Trade / period garnish:** align with **Pass C** costume lexicon—plain label first, rare trade noun only when earned.
 
 ---
 
@@ -119,6 +130,17 @@ See **voice-spec → Concrete language** and **No ornate varnish**.
 - [ ] Replace **poster wisdom** and **clever consonance** with sensory fact or one plain verb.  
 - [ ] **Seminar sweep:** Hunt **thesis-shaped** narration and dialogue—lines that **sort abstract categories** (*peace*, *failure*, *meaning*, *truth* as slogans), **triads** that sound like debate prompts (*name / face / truth*), or judgment that **floats** without a body on the page. Rewrite until **coin, rope, stone, weather, rent, hands at work** (or another in-scene object/action) carries the same stake. Default swap: **seminar clause → labor, trade, or terrain** filtered through POV.  
 - [ ] **Exceptions:** oath/bond/terrain may rise **one notch** when the ground or ritual is the subject—**one** elevated beat per passage, not a stack.
+
+---
+
+## Pass D3 — Camera-observable narration *(sight-line)*
+
+See **voice-spec → Camera-observable narration**. Use when narration still **sounds literary** after Pass D or when readers report **“too poetic / not visual.”**
+
+- [ ] **Literal subjects:** weather **hits / scatters / dries**; people **see / hear / step**; stone **stands / wears / feels cold**—not *silence waits*, *distance peels*, *town teaches* unless tagged as POV projection.  
+- [ ] **Strip ghost actors:** replace *memory threw*, *the line blurred* **only** when the referent is unclear—prefer *he thought of*, *his eyes unfocused* where agency matters.  
+- [ ] **First establishing shots** for statues, crowds, harbors: **who / what / where** in plain geometry before mood summary.  
+- [ ] **Dialogue:** run **Pass C2** in the same spirit—**without** removing profanity per **voice-spec**.
 
 ---
 
@@ -187,6 +209,17 @@ Optional: skim with search for a frequent word (*\bwind\b*, *square*, *hands*) w
 
 ---
 
+## Pass J — Grammar, punctuation, mechanical proof *(optional; pre-publication / heavy revision)*
+
+Lightweight **copyedit** passes—do **not** substitute for a human proofreader on final manuscript.
+
+- [ ] **Grammar polish:** subject-verb agreement, tense consistency, parallel structure in lists, articles where spoken English expects them.  
+- [ ] **Punctuation consistency:** dialogue commas, tag punctuation, list commas, ellipses vs em dashes for interruption (per **voice-spec → Em dashes**).  
+- [ ] **Mechanical proof:** accidental **repeated words** (*the the*), **homophone** slips (*there/their*, *it’s/its*, *your/you’re*), **missing small words**—human skim or targeted search; judgment required.  
+- [ ] **Scope:** fix errors only—avoid drive-by voice rewrites during this pass.
+
+---
+
 ## Quick grep aids (optional)
 
 From the repo root, rough scans (human judgment still required):
@@ -205,6 +238,6 @@ rg -n "—" velorum/manuscript/path/to/chapter.md
 
 **Draft** against synopsis + index + project-spec POV and terrain rules.  
 **Revise voice** against voice-spec.  
-**Run passes** A → A2 → **A3** → B → (C → **C2** / D / **D2** / E / **F** / **H** as needed) → G. **Pass F** (**voice-spec → Tightening**) is **line-level** cutting and merging after substance passes; use it when the scene is sound but still verbose or repetitive. **Pass C** includes **em-dash discipline** (see **voice-spec → Em dashes**), **period/costume and museum/specialist vocabulary** (see **voice-spec → Contemporary lexicon**), and the **readability** list in that pass. **Pass C2** tightens **spoken lines** (see **voice-spec → Plain dialogue**). **Pass A2** now includes a **required pronoun-disambiguation sweep** in any paragraph where two same-gender named characters are active: replace ambiguous *he/him/his* with names only where a cold read could plausibly misassign reference. **Pass A3** catches **orphan actors**, **personified landmarks**, **unowned sensations**, **crypto-metaphors**, and **confusing figures of speech**—see **voice-spec → Clear agency** and **Idiomatic figures of speech**. **Pass D** includes the **seminar sweep** (thesis-shaped lines → concrete stakes). Use **D2** when a chapter introduces or revisits a location and narration should match **Chapter 1’s** place-first density. Use **Pass B → Character introduction** when the chapter introduces **new** named faces (same concrete-anchor rule as Chapter 1). Use **Pass H** when a chapter **sounds fine** but reads **monotone or fuzzy**—often stacked *wind*, *square*, *hands*, or repeated silence beats. Run **H** after **F** (tightening) or merge H into a late polish pass with **G**. Re-run **A2** / **A3** when a chapter’s assigned POV changes in **act-chapter-index** or when you add long stretches of another character’s interior or lean hard into lyrical narration.
+**Run passes** A → A2 → **A3** → B → (C → **C2** / **C3** / D / **D2** / **D3** / E / **F** / **H** as needed) → G → (**J** optional). **Pass F** (**voice-spec → Tightening**) is **line-level** cutting and merging after substance passes; use it when the scene is sound but still verbose or repetitive. **Pass C** includes **em-dash discipline** (see **voice-spec → Em dashes**), **period/costume and museum/specialist vocabulary** (see **voice-spec → Contemporary lexicon**), and the **readability** list in that pass. **Pass C2** tightens **spoken lines** (see **voice-spec → Plain dialogue**). **Pass A2** now includes a **required pronoun-disambiguation sweep** in any paragraph where two same-gender named characters are active: replace ambiguous *he/him/his* with names only where a cold read could plausibly misassign reference. **Pass A3** catches **orphan actors**, **personified landmarks**, **unowned sensations**, **crypto-metaphors**, and **confusing figures of speech**—see **voice-spec → Clear agency** and **Idiomatic figures of speech**. **Pass D** includes the **seminar sweep** (thesis-shaped lines → concrete stakes). Use **D2** when a chapter introduces or revisits a location and narration should match **Chapter 1’s** place-first density. Use **Pass B → Character introduction** when the chapter introduces **new** named faces (same concrete-anchor rule as Chapter 1). Use **Pass H** when a chapter **sounds fine** but reads **monotone or fuzzy**—often stacked *wind*, *square*, *hands*, or repeated silence beats. Run **H** after **F** (tightening) or merge H into a late polish pass with **G**. Re-run **A2** / **A3** when a chapter’s assigned POV changes in **act-chapter-index** or when you add long stretches of another character’s interior or lean hard into lyrical narration.
 
 For full premise, ending rules, and Velorum reader-sequence rules, always return to **[project-spec.md](./project-spec.md)**.
