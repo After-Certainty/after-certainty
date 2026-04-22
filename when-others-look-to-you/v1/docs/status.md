@@ -16,6 +16,9 @@ chapter; that phase is **superseded** by the current plan (see
 Update this line when you merge or branch: active work may be on a feature
 branch; **`index.md` is the source of truth** for reading order and paths.
 
+Recent feature work: **`plan/chapter-6-harm-rewrite`** — manuscript draft for
+**Chapter 6 — Harm Under Influence** revised per **`docs/plan-chapter-6-harm-rewrite.md`**.
+
 ## Approved structure (v1)
 
 - **Front matter** (`front-matter/*`)
@@ -45,8 +48,13 @@ Epilogue, Appendix A, Appendix B, glossary, and bibliography are linked from
 Parts III–IV plain-speak + domain scan are summarized in
 `docs/editorial-pass-part-iii-iv.md`.
 
+**Mechanical typography scan:** The repeatable script in **`docs/typography-check.md`**
+was run against the full v1 manuscript (**Pull Quote Block**, **Vignette Block**, **Pattern Block**
+rules). Latest result: **0** violations in each category.
+
 Remaining work is housekeeping: optional appendix/grid placement choices,
-export/script checks, and publication formatting passes.
+export/script checks, and publication formatting passes. After substantive edits to
+manuscript Markdown, re-run that script before treating an editorial pass as complete.
 
 ## Open decisions
 
