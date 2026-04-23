@@ -8,7 +8,10 @@ A neighborhood congregation grows into a regional network with shared branding, 
 In the local setting, concerns used to be discussed in person and changed quickly. In the regional setup, feedback now moves through paperwork and fixed reporting cycles. The program still expands, but local adaptation slows. Public updates highlight growth and consistency.
 :::
 
-That is where this chapter starts—not with a definition of scale, but with a recognizable gap. Reach widened faster than the paths people could use to fix what was wrong.
+That is where this chapter starts—not with a definition of scale, but with a
+recognizable gap. Reach widened faster than the paths people could use to fix
+what was wrong. This is also a circulation failure: signal still travels up,
+but permission to adjust does not travel back down where the facts are fresh.
 
 The network did not become harmful because it grew. It became riskier because coordination and story traveled while **correction** lagged. Shared scripts and a single public narrative can move faster than local fixes. **Leadership Reproduces Itself** copies that pattern forward at scale.
 
@@ -54,7 +57,14 @@ At small scale, selective refusal is visible and discussable.
 
 At larger scale, selective followership can go quiet: people reading rules their own way locally, hidden workarounds, and paperwork that looks aligned while day-to-day reality is not aligned.[^c9-hidden-transcripts]
 
-**Correction** matters at scale because if what people on the ground see cannot get back with enough force to change the plan, reach can grow while learning shrinks.
+**Correction** matters at scale because if what people on the ground see cannot
+get back with enough force to change the plan, reach can grow while learning
+shrinks.
+At scale, **correction** and **circulation** can split: warnings travel up, but
+permission to adjust does not travel back down through the same layers.
+As chapter 5 argued, **circulation** is not only information flow. It is
+whether temporary step-in leadership can form, act, and hand back without
+penalty.
 
 When that keeps happening, what leaders hear no longer matches what people on the ground are living—that gap becomes a practical operating risk. **Learning Collapse** follows.
 
@@ -64,7 +74,11 @@ Human scale is not automatically better. It is clearer.
 
 Consequences are harder to hide. Boundaries are easier to name. Repair can happen face to face instead of waiting on people far from the work.
 
-At larger scale, those same functions need deliberate design: clear paths for feedback, clear roles, clear limits on who can decide what, and protected time to revise.
+At larger scale, those same functions need deliberate design: clear paths for
+feedback, clear roles, clear limits on who can decide what, and protected time
+to revise.
+That design includes **circulation** paths, so temporary step-in leadership can
+form where facts are freshest and then hand back cleanly.
 
 ### **When Pressure Enters**
 

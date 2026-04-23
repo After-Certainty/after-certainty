@@ -8,7 +8,9 @@ A plan succeeds, and we treat that as evidence of **legitimacy**. A crisis resol
 
 Two distortions drive much of this pattern: outcome bias and structural blindness.
 
-Scale stretches feedback paths. Pressure shortens the time people have to judge. Those forces are familiar by now. Misjudgment is what adds up on top of them. It is not the same as one observer simply misreading a leader.
+Those conditions are already in view from scale and pressure. Misjudgment is
+what adds up on top of them. It is not the same as one observer simply
+misreading a leader.
 
 ### **Outcome Bias**
 
