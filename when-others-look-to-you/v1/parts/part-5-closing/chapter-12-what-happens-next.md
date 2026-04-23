@@ -1,34 +1,37 @@
 # **Chapter 12 — What Happens Next**
 
-Return to the definition:
+In one tense meeting, the dashboard says targets are holding while side conversations carry what the dashboard leaves out.
 
-::: {custom-style="Pull Quote Block"}
-A leader is someone others look to when deciding what to do next.
-:::
+In another, a frontline warning reaches the table early, the plan is adjusted in the room, and the same risk does not return next week.
 
-That is the moment **Attention Finds a Focus**.
+In one organization, an emergency approval path stays in place after the spike and becomes the route for ordinary decisions.
 
-The real issue is not whether others look. It is what that looking builds over time.
+In another, the same emergency path is closed on schedule, local decision rights reopen for route and staffing changes, and challenge channels are restored.
+
+None of these moments looks dramatic on its own. Together they show what gets reproduced.
+
+That is **Attention Finds a Focus** at work: people take cues in real time, and repeated cues become structure.
 
 ### **The Integrated View**
 
-Seen together, the five elements read less like a to-do list and more like a map of what the structure is reproducing.
+The five elements are not a checklist. They are a structural read of what repeated moments build over time.
 
-**Harm** shows where costs land when leadership acts. **Effectiveness** shows what gets rewarded now and deferred later. **Legitimacy** shows why people keep following. **Correction** shows whether warning and dissent can still alter direction in time. **Circulation** shows whether leadership can move through people rather than stay fixed at one gate.
+**Harm** shows who pays when decisions travel. **Effectiveness** shows what wins now and what is deferred. **Legitimacy** shows why people keep following that direction. **Correction** shows whether warning can still alter plans in time. **Circulation** shows whether leadership capacity moves through people or stays fixed at one gate.
 
-The reckoning is that a **decaying** structure can look competent for a long time. Results can hold while costs are displaced. Alignment can look clean while followership goes quiet or selective. Confidence can remain high while learning shrinks.
+This is why **decay** can look competent for a long stretch. Results can hold while costs are displaced. Alignment can look clean while followership becomes selective or quiet. Confidence can stay high while learning shrinks.
 
-This is why late recognition is common: once failure is obvious, the pathways that would have caught trouble early are already narrowed. From outside, the pattern can still look like stability. Inside, **Learning Collapse** is already underway.
+The same read also shows **renewal** when the pattern runs the other way. Costs stay visible near decision rights, warnings change plans before they harden, and leadership practice circulates beyond the center.
+
+Late recognition is common because by the time failure is obvious, the pathways that could have caught it early are already narrowed. From outside, the pattern still reads as stability. Inside, **Learning Collapse** is already underway.
+
+Early recognition is the contrasting signal. Warning arrives while decisions are still movable, challenge stays usable, and adjustment happens before public failure forces it.
 
 ### **Two Trajectories**
 
-Repeated choices push structure one of two ways:
+Repeated choices push structure in one of two directions:
 
 - Authority stretches ahead of accountability: what leaders can do and the story they tell move faster than costs, pushback, and consequences people can see.
-- Authority stays tied down: power still connects to consequences people can see.
-
-  - **correction** can still change direction when warnings and dissent can get through.
-  - **circulation** still lets people step in and share the lead when the work demands it.
+- Authority stays tied down: power stays linked to visible consequence, **correction** can still change direction, and **circulation** still allows shared and temporary leadership when the work demands it.
 
 These are not personality types. They are where decisions add up—a direction you reinforce or interrupt, not a one-time switch.
 
@@ -36,23 +39,17 @@ These are not personality types. They are where decisions add up—a direction y
 
 ### **When the Baseline Has Already Shifted**
 
-One common threshold returns here: the rules for emergencies become the everyday rules—temporary exception, then repeated exception, then default. That sequence pushes further along the first trajectory.
+One threshold is decisive: emergency permissions become ordinary permissions—temporary exception, then repeated exception, then default.
 
-Once that has settled, rolling everything back is unlikely in the near term.
+At that point, the practical question is sequence, not reset.
 
-Partial repair is still possible, but order matters.
+First, reconnect decision rights to visible **harm** so cost is legible near authority.
 
-If **harm** stays invisible or concentrated, people stop trusting what they see. Start by spreading cost and visibility so punishment is not the only signal people have left.
+Then widen pathways for **correction** so warning can alter plans before commitments harden.
 
-Then widen paths for **correction**. If those paths stay closed, new facts may not change plans even when the trouble is obvious.
+Then reopen **circulation** so leadership can be handed off, practiced, and returned without penalty.
 
-Then reopen **circulation**: room for temporary and shared leadership and **guest leadership** handoffs so influence can move between people without fixing every role at the top. Repair that leaves every fork at the same gate tends to snap back.
-
-Tie authority to consequences people can see.
-
-Throughout, refuse to let fresh exceptions settle as the new everyday rule. **Exceptions are Forever** is how baseline theft repeats.
-
-Repair at this stage is uneven, local, and slow—realistic, not trivial.
+Repair that leaves every consequential fork at the same gate tends to snap back under the next pressure cycle.
 
 ### **What Circulation Makes Possible That Correction Alone Cannot**
 
@@ -60,32 +57,26 @@ Repair at this stage is uneven, local, and slow—realistic, not trivial.
 
 But **correction** alone does not redistribute who gets to lead. A group can accept criticism and still route every consequential decision through the same few people. That can produce local repair without structural renewal.
 
-Meanwhile the **permission** structure still teaches who may steer through every credited or punished step-in—often before anyone tests it under pressure. Judgment at the edges stays unpracticed until the moment that counts.
+Meanwhile, the **permission** structure keeps teaching who may steer through every credited or punished step-in. Judgment at the edges stays unpracticed until the moment that counts.
 
-**Circulation** changes that condition. When leadership can be shared, temporarily handed off, and returned without penalty, people learn leadership from inside the role. What gets reproduced is not only going along with whoever holds the center, but distributed capacity to notice, decide, and adjust.
+**Circulation** changes that condition. When leadership can be shared, temporarily handed off, and returned without penalty, people learn leadership from inside the role. What gets reproduced is not only compliance with the center, but distributed capacity to notice, decide, and adjust.
 
-That is the closing distinction: **correction** is a mechanism of repair. **Circulation** is a mechanism of renewal—renewal of who can hold the live decision point, not only of the center's next choice.
+The distinction is structural: **correction** is a mechanism of repair. **Circulation** is a mechanism of renewal—renewal of who can hold the live decision point, not only of the center's next choice.
 
 Without circulation, gains remain fragile. With it, the next round of leadership can carry different habits than the last, including a bench that has practiced stepping in and stepping back.
 
-### **What Still Applies**
-
-The same focal points that framed **renewal** still apply when you are deciding what to do next: keep paths for **correction** open, keep **harm** visible near decision rights, and keep disagreement usable enough to steer work before commitments harden.
-
-When those conditions no longer hold, **decay** has already begun—whether the group says so out loud or not.
-
-The discipline does not replace structural repair. It tells you where repair will bite first.
-
 ### **What Happens Next**
 
-Repeated choices about who can see what is going on, whether **correction** and **circulation** still have room, and where the edges fall matter more than any single decision.
+What happens next is shaped less by any single decision than by repeated choices about who can see, who can challenge, and who can decide.
 
-**Renewal** is not something you lock in once. It means coordinated action keeps working as reach grows, and the group can still change course when reality pushes back.
+When warning can move, when cost stays legible near authority, and when leadership practice can circulate, **renewal** remains structurally possible.
 
-The harder question is what remains possible when keeping damage from spreading and fixing what you can locally are realistic, while a quick return to how things were before is not.
+Renewal also depends on keeping disagreement usable enough to steer work before commitments harden.
+
+When those conditions close, **erosion** compounds even when visible performance still looks stable.
 
 ::: {custom-style="Pull Quote Block"}
-Focused attention is not destiny; repetition is.
+What outlasts any single leader is not certainty at the center, but whether leadership capacity can move.
 :::
 
-What outlasts any single leader still turns on whether **circulation** stays open—on **permission** for who may hold the floor when it counts, not only on the chart.
+That durability turns on **circulation** and **permission**: who may hold the live decision point when it counts, and whether that permission is practiced across the group or trapped at the top. That is how **Leadership Reproduces Itself**.
