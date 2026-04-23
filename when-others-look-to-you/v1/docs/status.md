@@ -16,8 +16,10 @@ chapter; that phase is **superseded** by the current plan (see
 Update this line when you merge or branch: active work may be on a feature
 branch; **`index.md` is the source of truth** for reading order and paths.
 
-Recent feature work: **`plan/chapter-6-harm-rewrite`** — manuscript draft for
-**Chapter 6 — Harm Under Influence** revised per **`docs/plan-chapter-6-harm-rewrite.md`**.
+Recent feature work:
+
+- **`plan/rewrite-chapter-9`** — **Chapter 9 — Scale and Drift** revised per **`docs/plan-chapter-9-scale-drift-rewrite.md`**: vignette-first flow, fuller **scalability** / **adaptability** definitions in context, legitimacy section bridge to chapter 8, pull quote unchanged. Merge to **main** via open pull request.
+- **`plan/chapter-6-harm-rewrite`** — manuscript draft for **Chapter 6 — Harm Under Influence** revised per **`docs/plan-chapter-6-harm-rewrite.md`**.
 
 ## Approved structure (v1)
 

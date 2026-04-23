@@ -1,13 +1,5 @@
 # **Chapter 9 — Scale and Drift**
 
-### **What Scale Changes**
-
-A small group and a large-scale setting do not run the same way.
-
-At human scale, **harm** is easier to see, **correction** is faster, and accountability is harder to evade. At larger scale, **harm** can be harder to see clearly. News from the ground weakens on the way up. Plans are slower to change across layers of distance.[^c9-scale-distance]
-
-Scale does not cause **erosion** by itself. It widens what the structure was already inclined to produce.
-
 ### **The Regional Network**
 
 ::: {custom-style="Vignette Block"}
@@ -16,12 +8,23 @@ A neighborhood congregation grows into a regional network with shared branding, 
 In the local setting, concerns used to be discussed in person and changed quickly. In the regional setup, feedback now moves through paperwork and fixed reporting cycles. The program still expands, but local adaptation slows. Public updates highlight growth and consistency.
 :::
 
-The network did not become harmful because it grew. It became riskier because reach grew faster than paths people could use to fix what was wrong.
-That gap widens when shared scripts and a single public story move faster than local fixes. **Leadership Reproduces Itself** copies that pattern forward at scale.
+That is where this chapter starts—not with a definition of scale, but with a recognizable gap. Reach widened faster than the paths people could use to fix what was wrong.
+
+The network did not become harmful because it grew. It became riskier because coordination and story traveled while **correction** lagged. Shared scripts and a single public narrative can move faster than local fixes. **Leadership Reproduces Itself** copies that pattern forward at scale.
+
+### **What Scale Changes**
+
+A small group and a large-scale setting do not run the same way.
+
+At human scale, **harm** is easier to see, **correction** is faster, and accountability is harder to evade. At larger scale, **harm** can be harder to see clearly. News from the ground weakens on the way up. Plans are slower to change across layers of distance.[^c9-scale-distance]
+
+Scale does not cause **erosion** by itself. It widens what the structure was already inclined to produce.
 
 ### **Two Capacities at Scale**
 
-**Scalability** and **adaptability** are the two measures: whether coordinated action can grow in reach, and whether it can change direction when reality pushes back. At larger scale, those questions stay the same—only distance and delay change.
+The regional story already carries the tension. **Scalability** asks whether coordinated action can grow in reach—whether more people, sites, or layers can stay aligned without the center holding every thread by hand. **Adaptability** asks whether the work can still change direction when reality pushes back—whether plans stay open to revision after they are in motion.
+
+At larger scale, those two questions stay the same. Only distance and delay change.
 
 At scale, **adaptability** shows in whether plans still move when the facts do—**Feedback Drives Change**.
 
@@ -33,9 +36,11 @@ At larger scale, entrenched patterns can look impressive for longer. Reach can e
 
 ### **Legitimacy Forms Under Scale**
 
-Under scale, example-based **legitimacy** stays vivid at human distance. It is harder to preserve as people get farther from what they can still witness.
+Authority still has to earn followership through the forms the last chapter named—example, procedure, office, sacralized—but distance changes what each form can lean on.
 
-Procedural **legitimacy** becomes necessary, yet it can turn mostly for show when challenge is allowed on paper but not in practice.
+Example-based **legitimacy** stays vivid where people can still watch conduct; it is harder to preserve when presence gives way to reports and dashboards.
+
+Procedural **legitimacy** becomes necessary at scale, yet it can turn mostly for show when challenge is allowed on paper but not in practice.
 
 Office-based **legitimacy** steadies continuity, but it can move permission forward faster than accountability travels with it.
 
