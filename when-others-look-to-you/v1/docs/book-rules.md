@@ -68,6 +68,27 @@ stay consistent across new drafting and revision.
   postures, visible stance)—plain glosses may follow, not replace, when the
   term is doing work.
 
+### **Clarity lock (spoken explanatory style)**
+
+Use this as a standing micro-pass after drafting and revision. Keep concept
+content unchanged; tune wording and flow.
+
+- **Delay abstraction by one beat:** show a concrete action, scene detail, or
+  observed behavior before naming a concept.
+- **Definition sentence rewrite trigger:** when a line starts to sound like
+  dictionary voice (for example, `X tracks whether...`, `X means...`), rewrite
+  to plain explanation in everyday language.
+- **Dense paragraph rewrite trigger:** in high-load analytic sections (especially
+  **correction** and **effectiveness over time**), split paragraph chains into
+  short stepwise lines.
+- **Prefer plain movement verbs:** use wording like *feedback comes back* and
+  *the real story* over abstract phrasing such as *influence moves back in* or
+  *distorted feedback* unless technical precision requires it.
+- **Cut third repetition:** if a point has already landed in two sentences,
+  remove or compress the third restatement.
+- **Spoken cadence over concept voice:** prefer lines that sound natural aloud
+  to formal explanatory scaffolding.
+
 ## **Interpretive register (watch, not checklist)**
 
 The manuscript trains **attention** and **observation**. It is not a toolkit,

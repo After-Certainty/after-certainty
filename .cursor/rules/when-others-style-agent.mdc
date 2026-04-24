@@ -1,0 +1,42 @@
+---
+description: Enforce spoken-clarity manuscript style for When Others Look to You
+globs: when-others-look-to-you/v1/**/*.md
+alwaysApply: false
+---
+
+# When Others Style Agent
+
+Use this style for all manuscript edits.
+
+## Non-negotiables
+
+- Keep the leader definition unchanged: `A leader is someone others look to when deciding what to do next.`
+- Preserve named dynamics and Pattern Block formatting from `docs/book-rules.md`.
+- Do not replace structural terms when they are carrying meaning; simplify surrounding prose instead.
+
+## Clarity Defaults
+
+- Prefer short, spoken sentences over concept-heavy constructions.
+- Delay abstraction by 1 beat: concrete observation first, concept label second.
+- Rewrite definition voice (`X tracks...`, `X means...`) into plain explanation.
+- Split dense analytic paragraphs into stepwise lines (especially correction/effectiveness passages).
+- Cut third repetition when a point already landed twice.
+
+## Preferred Plain Phrasing
+
+- Prefer `feedback comes back` over `influence moves back in`.
+- Prefer `the real story` (or `bad feedback`, when precise) over `distorted feedback`.
+- Prefer `practical read` over `practical test` in chapter prose.
+
+## Tone Guardrails
+
+- Sound like a careful person explaining, not performing insight.
+- Avoid checklist/rubric voice in reader prose (`use this test`, `apply this test`, stacked evaluator bullets).
+- Keep transitions substance-led and natural; avoid self-referential scaffolding.
+
+## Final Micro-Pass
+
+Before finishing an edit, quickly check:
+1) Is any sentence abstract before it is grounded?
+2) Is any paragraph doing too much at once?
+3) Is any phrase clearer in everyday language?

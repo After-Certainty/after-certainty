@@ -36,11 +36,12 @@ the emergency protocol as useful, with a posted sunset and review date.
 The two scenes start with the same pressure and the same first move. They
 diverge on recovery.
 
-Pressure does not remove tradeoffs. It compresses them. The core tension is
-simple: what helps now can damage later.
+Pressure does not remove tradeoffs. It compresses them. The core
+tradeoff is simple: what helps now can damage later.
 
-Under urgency, groups trade slower **correction** for faster action. Sometimes
-this is necessary. The question is what remains temporary after the spike.
+Under urgency, groups move faster.
+They also give up some **correction**. Sometimes this is necessary.
+The question is what remains temporary after the spike.
 
 The closed scene answers that question one way. The reopened scene answers it
 another.
@@ -51,11 +52,13 @@ Pressure changes **harm**, **effectiveness**, and **legitimacy** at once.
 **Correction** moves with them: whether dissent and warning can still move fast
 enough to matter.
 
-In both scenes, someone pays for delay or blind spots. What changes is whether
-those costs are surfaced and reabsorbed, or displaced and normalized.
+In both scenes, someone pays for delay or blind spots. What changes is
+whether those costs are surfaced and reabsorbed, or displaced and
+normalized.
 
-**Effectiveness** can mean restoring access while staying fast, or it can mean
-protecting dashboard stability while access costs move off-screen.
+**Effectiveness** can mean restoring access while staying fast.
+Or it can mean protecting dashboard stability while access costs move
+off-screen.
 Temporary **legitimacy** can remain bounded by emergency terms, or harden into
 a default people later treat as normal.
 
@@ -70,12 +73,12 @@ back down in time to matter.
 
 ### **States Under Pressure**
 
-Pressure response reveals which state a group is in more clearly than routine
-conditions. In a **regenerative** read, reach and adjustment both hold under
-load. In an **adaptive** read, adjustment holds locally while broader
-coordination strains. In an **entrenched** read, reach still holds but changing
-course gets harder. In a **stalled** read, neither reach nor reliable course
-change holds.
+Pressure response reveals group state more clearly than routine
+conditions. In a **regenerative** read, reach and adjustment both hold
+under load. In an **adaptive** read, adjustment holds locally while
+broader coordination strains. In an **entrenched** read, reach still
+holds but changing course gets harder. In a **stalled** read, neither
+reach nor reliable course change holds.
 
 Under pressure, the **vibrant group** and **decaying group** pay different
 costs when course change must happen fast.
@@ -89,11 +92,12 @@ disruption.
 
 ### **Crisis Across the Lenses**
 
-Crisis periods widen tolerance for shifting **harm** onto others. They reward
-short-term **effectiveness** while shrinking the time **correction** has to
-matter. They accelerate **legitimacy** transfer through emergency precedent.
-They normalize temporary authority expansions into a lasting baseline for how
-decisions get made.[^c10-crisis-precedent]
+During crisis, groups become more willing to shift **harm** onto others. They
+reward short-term **effectiveness** while shrinking the time
+**correction** has to matter. They accelerate **legitimacy** transfer
+through emergency precedent. They normalize temporary authority
+expansions into a lasting baseline for how decisions get
+made.[^c10-crisis-precedent]
 
 Crisis does not invent these dynamics; it reveals and amplifies what the
 structure already permits.
@@ -106,27 +110,29 @@ for who leads next—**Leadership Reproduces Itself**.
 
 ### **Pressure and Recovery**
 
-The question after the spike is not whether **correction** tightened. It often
-does. The question is recovery: whether **correction** reopens once the acute
-period passes, including room for temporary step-in leadership, or emergency
-posture becomes permanent.
+The question after the spike is not whether **correction** tightened.
+It often does.
+The question is recovery: whether **correction** reopens
+once the acute period passes, including room for temporary step-in
+leadership, or emergency pattern becomes permanent.
 In practice, recovery means **circulation** reopens: ground signal reaches the
 center, decisions adjust, and revised direction returns to the edge.
 
 Temporary contraction can preserve function. Permanent closure locks in **decay**.
 
 In the reopened scene, temporary contraction preserves function and then
-releases it. In the closed scene, contraction becomes the standing posture.
+releases it. In the closed scene, contraction becomes the standing
+pattern.
 
 In crisis, that trade is one way **Examples Accumulate** can undercut evidence
 that **correction** is still working.
 
-The tradeoff worked at first; drift came when rules meant for emergencies became
+The tradeoff worked at first; failure followed when rules meant for emergencies became
 the everyday way decisions get made. That is **Exceptions are Forever**:
 exceptions introduced under urgency tend to persist. Temporary permissions
 harden into the new normal for how things run.
 
-That shift is visible in the vignette pair: posted sunset and reroute revision
+You can see that shift in the vignette pair: posted sunset and reroute revision
 versus permanent sign-off and unchanged map.
 
 ### **Restraint Under Urgency**
@@ -170,15 +176,16 @@ pressure" as default story.
 
 ### **What Remains Possible**
 
-Tradeoffs under pressure show trajectories. The question is what remains possible
-once trajectories are visible but reversal is incomplete—and once **Exceptions
-are Forever** has begun to shape the baseline.
+Tradeoffs under pressure show where things are heading. The question is what remains
+possible once trajectories are visible but reversal is incomplete—and
+once **Exceptions are Forever** has begun to shape the baseline.
 
-The contrast at the chapter opening is the practical test: can the same group
+The contrast at the chapter opening is the practical read: can the same group
 that centralized in week one also reopen in week two.
 
-When visible control outruns structural signal, judgment drifts. The next
-chapter turns to that read directly.
+When visible control outruns structural signal, judgment moves farther from
+front-line evidence.
+The next chapter turns to that read directly.
 
 ::: {custom-style="Pull Quote Block"}
 Pressure clarifies commitments; it does not absolve them.

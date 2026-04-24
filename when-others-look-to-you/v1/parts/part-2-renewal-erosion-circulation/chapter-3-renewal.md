@@ -22,24 +22,24 @@ People do not dodge failure. They shorten the gap between a warning and a
 response.[^c3-high-reliability] They fix earlier, at lower cost, with less
 drama.
 
-Authority does not vanish; it gets clearer. People know who must decide, how to
-escalate, and how to repair—and how decision-makers can still be challenged when
-that is needed.[^c3-voice-and-correction]
+Authority does not vanish; it gets clearer. People know who must decide,
+how to escalate, and how to repair. They also know how to push back when
+the decision looks wrong.[^c3-voice-and-correction]
 
 **Vitality** feels slow at first because it includes friction. Questions,
 clarifications, and dissent take time. That friction keeps small trouble from
 turning into a full break later.
 
-The three **Adjusting** patterns below follow one chain. Dissent reaches
+The three **Adjusting** dynamics below follow one chain. Dissent reaches
 decision-makers. Feedback changes plans while they can still move. The people
-who decide stay in view when costs land. Later in this chapter, you will see
-the same chain under visible failure.
+who decide stay in view when costs land. The same chain appears again under
+visible failure.
 
 ### **Dissent is Welcomed**
 
-In groups that keep their footing, the first person who sees trouble can still
-get it to the people who decide before the window closes. If that path breaks,
-nothing else in the chain matters.
+In groups where **vitality** holds, the first person who sees trouble can
+still get it to the people who decide before the moment passes. If that
+path breaks, nothing else in the chain matters.
 
 **Dissent is Welcomed** means risk signals still reach the center in time.
 Raising them does not cost you your place in the room.
@@ -68,7 +68,7 @@ raised it stayed in the room.
 
 ### **Feedback Drives Change**
 
-Once dissent can travel, the next test is simple: when Friday's field read
+Once dissent can travel, the next question is simple: when Friday's field read
 contradicts Monday's slide deck, does the plan move?
 
 **Feedback Drives Change** means revision is normal—not a verdict on the first
@@ -120,14 +120,16 @@ At the quarterly review, the numbers are clear. The son does not send the store 
 The next supplier vote is slower. Nobody has to call that a moral victory. It is simply visible who stayed in the room when the bill arrived.
 :::
 
-This is not heroics. It is structure: the decision-maker does not put on remorse
-for the group. They stay present and named while the group sorts the fallout—so
-**accountability** and **authority** still point to the same person.
+This is not heroics. It is structure. The decision-maker does not put on
+remorse for the group. They stay present and named while the group sorts the
+fallout—so **accountability** and **authority** still point to the same
+person.
 
 ### **When Failure Strengthens Vitality**
 
-Sometimes the miss is public, expensive, and impossible to spin away: a launch
-fails, clients leave, or a safety incident forces everything into daylight. That
+Sometimes the miss is public, expensive, and impossible to spin away: a
+launch fails, clients leave, or a safety incident brings everything into
+view. That
 does not always signal structural **erosion**.
 
 What matters is what happens next. Some failures force honest review, clarify
@@ -138,9 +140,9 @@ avoid visible failure at all costs.[^c3-learning-from-failure]
 
 The question is whether learning follows—whether new information and visible
 risk can still steer direction once failure is in the room.
-When that learning channel closes, renewal starts to tilt toward **erosion**.
+When that learning channel closes, **renewal** tilts toward **erosion**.
 
-### **Correction, Circulation, and What Holds Together**
+### **What Keeps the Chain Intact**
 
 When warning signals still move and decisions still adjust, groups absorb
 pressure without sealing off. A lead can revise a call after hearing from the
@@ -148,14 +150,14 @@ floor. People outside formal rank can still shape the next decision.
 
 **Correction** names whether warnings can still change decisions. **Circulation**
 names whether the center can move when the work demands it—not only outward from
-formal roles. That movement is what lets leadership scale and reproduce itself.
+formal roles. That movement lets leadership scale and reproduce itself.
 
 ### **When Vitality Holds**
 
 When **vitality** holds, **Dissent is Welcomed**, **Feedback Drives Change**,
 and **Leaders Feel the Consequences** show up together—not as slogans, but as
 what the group can still do when the work gets hard. Honest review after visible
-failure can surface the same chain when gentler signals did not.
+failure can restore the same chain when gentler signals did not.
 
 ::: {custom-style="Pull Quote Block"}
 Renewal means bad news can still change the plan before damage sets.

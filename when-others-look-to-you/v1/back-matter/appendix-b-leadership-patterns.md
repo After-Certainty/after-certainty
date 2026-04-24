@@ -1,7 +1,8 @@
 # **Appendix B — Leadership Patterns**
 
-This appendix lists the patterns that run through the argument: how leadership forms, renews,
-erodes, and spreads. Four groups—**forming**, **adjusting**, **eroding**, and
+This appendix lists the patterns that run through the argument: how
+leadership forms, renews, erodes, and spreads. Four groups—**forming**,
+**adjusting**, **eroding**, and
 **circulating**—hold the entries. Each one notes when it shows up, what is
 happening, and what tends to follow.
 
@@ -55,7 +56,8 @@ Examples Accumulate; Leadership Coalesces
 
 **Context:**
 
-A leader reacts to a mistake, tension, or unclear ground in a shared setting.
+A leader reacts to a mistake, competing pressures, or unclear ground in
+a shared setting.
 
 **Problem:**
 
@@ -213,7 +215,7 @@ A decision creates cost, risk, or gain for people in a group.
 
 **Problem:**
 
-Where people decide and where costs land can drift apart.
+Where people decide and where costs land can separate.
 
 **Forces:**
 
@@ -277,7 +279,7 @@ likely.
 
 **Resulting Context:**
 
-Authority pulls away from feedback, and drift speeds up.
+Authority pulls away from feedback, and separation speeds up.
 
 **Related Patterns:**
 
@@ -308,12 +310,13 @@ They do not get a clear read in time on what their choices are doing.
 
 **Effect:**
 
-Feedback weakens. Decisions drift away from what is really happening. The
+Feedback weakens. Decisions move away from what is really happening. The
 surface can still look steady.
 
 **Resulting Context:**
 
-Errors repeat, harm piles up, and **correction** arrives late and costs more.
+Errors repeat, harm accumulates, and **correction** arrives late and
+costs more.
 
 **Related Patterns:**
 
@@ -349,7 +352,7 @@ Temporary choices turn into permanent habit. No one stops to review.
 
 **Resulting Context:**
 
-Authority grows. Limits weaken. Drift builds over time.
+Authority grows. Limits weaken. Separation builds over time.
 
 **Related Patterns:**
 

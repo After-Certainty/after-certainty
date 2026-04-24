@@ -12,7 +12,8 @@ takes shape there. Repeated signals turn into expectations, then habits. What
 gets rewarded, ignored, or corrected starts teaching everyone how decisions are
 made here.
 
-This part stays with formation: how attention becomes habit, how belief firms up,
-and how early responses to risk and dissent show others what to try next.
+This bridge stays with formation: how attention becomes habit, how belief
+firms up, and how early responses to risk and dissent show others what to try
+next.
 
-The point is to see structure while it can still move.
+The point is to see what is forming before it sets.

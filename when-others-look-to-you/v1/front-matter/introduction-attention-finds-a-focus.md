@@ -4,7 +4,7 @@
 
 ### **The First Shift**
 
-Leadership begins wherever attention concentrates. It does not require a
+Leadership starts wherever attention concentrates. It does not require a
 title, rank, or intention. The moment others look to someone for
 direction under uncertainty, influence multiplies.
 
@@ -20,21 +20,21 @@ still feel private to you, but others read it as instruction.
 Your pace teaches pace, your tolerance teaches tolerance, your silence
 teaches limits, and your corrections teach what can still be revised.
 
-This is why leadership cannot be reduced to intention. Intention matters,
+Leadership cannot be reduced to intention. Intention matters,
 but structure matters more.
 
-### **The Central Tension**
+### **The Central Structural Risk**
 
 When others continue to look to someone, authority forms.
 Over time, that authority can strengthen, or it can erode.
 
-Either path can look stable for a while. In the long run, authority is more durable when
+Either path can look stable for a while. In the long run, authority lasts longer when
 **correction** still works.
 
 ### **How the Dynamics Stack**
 
-On a first read, treat the names below as a preview; each one earns its place
-when the argument needs it.
+On first read, treat the names below as a preview.
+Each one earns its place when the argument needs it.
 
 Early on, **Attention Finds a Focus**: under uncertainty, people start looking
 to one person for direction. **Examples Accumulate** from what that person
@@ -57,7 +57,7 @@ this place treats as normal.
 
 ![Diagram: leadership pattern groups](export-assets/diagrams/pattern-groups.png)
 
-### **How This Book Proceeds**
+### **How the Book Proceeds**
 
 The chapters follow one structural throughline: Attention → Influence →
 Structure → Renewal or Erosion → Circulation.
@@ -68,15 +68,16 @@ how **vitality** and **decay** feel—then takes **renewal** and **erosion** apa
 pattern by pattern, and ends with **circulation**: what it looks like when
 influence opens, narrows, or moves through people.
 
-Part III uses harm, effectiveness, and legitimacy as lenses on
-what influence is producing. **Circulation** and **correction** run through those
-chapters. They ask whether influence can move through temporary leadership so
-the work can scale. They ask whether warnings and dissent can still change
-direction.
+Part III uses harm, effectiveness, and legitimacy as lenses on what
+influence is producing. **Circulation** and **correction** run through
+those chapters. They ask whether influence can move through temporary
+leadership so the work can scale. They ask whether warnings and dissent
+can still change direction.
 
 Part IV takes up scale, tradeoffs under pressure, and why observers misjudge
 leaders when signals travel far and late. Part V takes up what is still
-possible when structures drift and judgment fails anyway.
+possible when warning signals arrive too late, feedback routes close, and
+judgment fails anyway.
 
 Those dynamics also gather into four shapes: **Forming**, **Adjusting**,
 **Eroding**, and **Circulating**. **Forming** is where live conditions get
@@ -91,13 +92,12 @@ permission both feed what forms next.
 Crisis runs as a recurring thread through the book, with its strongest
 integration where scale and pressure enter—late in the arc.
 
-The aim is not to condemn people; it is to clarify dynamics.
+The aim is not to condemn people. It is to clarify dynamics.
 
-### **Reading Posture**
+### **Reading Stance**
 
-Read this book as a set of lenses, not a set of slogans. Use
-it on teams, communities, and workplaces you know—including your own
-choices.
+Read this book as a set of lenses, not slogans. Use it on teams,
+communities, and workplaces you know—including your own choices.
 
 Whether leadership exists is rarely the puzzle. The question is what it is
 becoming while others watch—and what you can still see in the meantime.

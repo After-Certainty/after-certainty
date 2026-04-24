@@ -36,9 +36,7 @@ allow, resist, or reward. If you dismiss **harm**,
 others dismiss it more easily. If you absorb cost, others learn what restraint
 looks like. If you avoid **correction**, others learn that stability matters
 more than truth. Leadership does not amplify intention. It amplifies
-posture—what you show, not what you meant.[^c1-norm-formation]
-
-### **What Silence Teaches**
+what you showed, not what you meant.[^c1-norm-formation]
 
 Not all leadership is active. Sometimes what shapes direction most is
 what is left unaddressed. A harmful pattern emerges and no one
@@ -62,13 +60,14 @@ People read them to see what is safe to raise and what is safer not to raise.
 
 When others look to someone repeatedly, something else forms: belief.
 Not belief in ideology, but belief in direction. Belief that this person
-knows what to do next. Belief that this posture is stable. Belief that
+knows what to do next. Belief that this approach is stable. Belief that
 this is how decisions are made here.
 
 Belief does not require perfection. It requires predictability. Over
 time, attention and belief reinforce each other. The more people look,
 the more influence consolidates. The more influence consolidates, the
-more people look. Authority emerges from repetition.[^c1-legitimacy-and-repetition]
+more people look. That is how someone with no title can end up running the
+room.[^c1-legitimacy-and-repetition]
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Leadership Coalesces**
@@ -101,7 +100,7 @@ to protect agency.[^c1-reactance]
 That matters: influence can stay strong even when people only partly go along.
 **Attention Finds a Focus** first. Interpretation comes next.
 
-### **Ordinary Decisions, Structural Consequences**
+### **Nothing Is Neutral**
 
 Leadership shifts how **harm** is distributed,
 how **correction** is handled, how disagreement survives, how success is
@@ -116,8 +115,10 @@ When others are looking, very little is neutral.
 
 Others are already looking. The question is what happens next.
 
-Does influence stay open to **correction**? Does belief renew through
-example? Does authority drift toward insulation?[^c1-correction-and-insulation]
+Does influence stay open to **correction**?
+Does belief renew through example?
+Does authority stay tied to consequence?
+Can people still challenge decisions in time?[^c1-correction-and-insulation]
 
 Leadership begins when **Attention Finds a Focus**. From there, watch whether
 influence tilts toward **renewal** or **erosion**. Watch whether **circulation**

@@ -190,6 +190,11 @@ At minimum:
 - Apply **interpretive register** cleanup: prefer **watch / read / notice / track** over **evaluate / assess** framing; convert checklist-shaped bullets into prose where they read as instruments (**Interpretive register (watch, not checklist)** in `book-rules.md`).
 - Keep core conceptual terms only when they are necessary to meaning.
 - Convert abstract phrasing into concrete language without flattening precision.
+- Run a **spoken-style lock pass** (see **Clarity lock (spoken explanatory style)** in `book-rules.md`):
+  - simplify 5-8 definition-style lines (`X tracks...`, `X means...`) into plain explanation;
+  - break 3-5 dense analytic paragraphs into short stepwise claims;
+  - replace 3-5 abstract phrases with everyday alternatives (for example,
+    *feedback comes back*, *the real story*).
 - Confirm the section reads like book prose for readers, not internal workflow language.
 - Check for meta prose drift in analytical paragraphs (for example:
   "this chapter," "this section," "in this book") and rewrite into direct

@@ -15,13 +15,13 @@ When the superintendent asks for problems, nobody raises a hand. The chart
 holds. The mismatch does not leave the parking lot.
 :::
 
-That is the opening signal in groups where decay deepens. Challenge is still
+That is the opening signal. In groups where **decay** deepens, challenge is still
 imaginable, but it starts to feel costly before anyone speaks. The room keeps
 its image of stability while reality goes unvoiced.
 
 **Erosion** shows when one or both capacities shrink: influence stops changing
 direction under pressure, coordinated action stops holding reach, or both.[^c4-groupthink]
-**Decay** is what tends to show when that drift keeps going.
+**Decay** is what tends to show when those limits keep repeating.
 
 People stop raising inconvenient information. Errors get reframed as
 exceptions. **Harm** gets buried in vague wording and pushed away from
@@ -30,8 +30,8 @@ decision-makers. The group protects its image by shutting down contradiction.
 **Erosion** rarely announces itself. It builds from ordinary choices: who gets
 interrupted, who gets promoted, which measures count, which stories get
 repeated, which failures are forgiven, and which are hidden. Over time,
-looking to the same person can settle until one decision route becomes the
-default and everyone waits for the same gate—**Leadership Coalesces**.
+one decision route becomes the default and everyone waits for the same
+gate. That is **Leadership Coalesces**.
 
 Some groups deep in **decay** still scale for a long time. What goes first is
 room to change plans once they are already moving.
@@ -43,18 +43,19 @@ outcomes can rise while confidence inside the group rises too.
 
 That is why **erosion** can look like stability from the inside. The same
 people stay in place. Meetings run on time. Plans look coherent. Language gets
-smoother. But fewer channels stay open for bad news, and telling the truth
-costs more.
+smoother. Fewer channels stay open for bad news. Telling the truth costs
+more.
 
-The three **Eroding** patterns below follow one chain. Challenge gets recoded.
+The three **Eroding** dynamics below follow one chain. Challenge gets recoded.
 What people on the ground know stops steering decisions in time. Temporary
 fixes outlast the emergencies they were meant for.
 
 ### **Disagreement is Suppressed**
 
-**Disagreement is Suppressed** is not always a loud crackdown. Sometimes the
-room has already taught what happens to people who name friction—so the next
-person does the math instead of raising the objection.
+**Disagreement is Suppressed** is not always a loud crackdown. Sometimes
+the room has already taught what happens to people who name the
+problem—so the next person does the math instead of raising the
+objection.
 
 If that objection dies before it reaches decision-makers, the rest of the chain
 starts to fail.
@@ -90,8 +91,8 @@ same worry.
 The tool ships on schedule. The quiet work starts six weeks later.
 :::
 
-What matters is not villainy in the scene. It is a shared sense of what speaking
-costs—so disagreement dies before it ever becomes a real debate.
+What matters is not villainy in the scene. It is a shared sense of what
+speaking costs—so disagreement dies before it becomes a real debate.
 When enough people do that math, the next failure is structural: the signal
 path from the ground to the center starts to break.
 
@@ -105,7 +106,8 @@ decision-makers act on is what you can see.
 **Pattern: Learning Collapses**
 
 What people on the ground know stops reaching decision-makers in time.
-Negative feedback weakens. Drift continues behind strong stories.
+Negative feedback weakens. The same avoidable errors keep repeating behind
+strong stories.
 :::
 
 ### **The Placement Queue**
@@ -132,9 +134,9 @@ rule, only into local workarounds that kept employers from walking away.
 Nobody blocked the message on purpose. The structure simply stopped carrying it to the people who could still change the template.
 :::
 
-The channel failed—not the facts on the ground.
-When that channel keeps failing, groups lean harder on workarounds and urgent
-bypasses. What started as temporary starts to harden.
+The channel failed, not the facts on the ground.
+When that channel keeps failing, groups lean harder on workarounds and
+urgent bypasses. What starts as temporary starts to harden.
 
 ### **Exceptions are Forever**
 
@@ -164,8 +166,8 @@ we learned we can't wait." The flood is gone. The exception never left.
 :::
 
 No single choice in that chain required bad faith. Each reuse sounded
-reasonable. Together they taught the group that normal rules are optional
-whenever someone shouts "emergency" loud enough.
+reasonable. Together they taught the group that normal rules are
+optional whenever someone shouts "emergency" loud enough.
 
 ### **When Decay Deepens**
 
@@ -176,9 +178,9 @@ Challenge starts to sound like disloyalty. What people on the ground know stops
 steering decisions in time. Temporary fixes outlast the emergency that
 justified them.
 
-The question is whether **correction** can reopen once these patterns are in
-motion. When that channel stays closed, **erosion** stops looking temporary and
-starts setting the baseline.
+The question is whether **correction** can reopen once these patterns are
+in motion. When that channel stays closed, **erosion** stops being a
+phase. It becomes the structure.
 
 ::: {custom-style="Pull Quote Block"}
 Erosion starts when correction carries a price.

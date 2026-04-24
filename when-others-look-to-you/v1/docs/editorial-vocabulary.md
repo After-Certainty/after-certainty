@@ -121,6 +121,15 @@ Use during **Step 5**, **Step 5.75**, and echo passes after plain-language work.
 - **Performative compliance:** *performance indicators / favorable numbers / strong reporting* → **what gets measured / good-looking counts / paperwork that looks tidy** unless a section must stay technical.
 - *Degrades* (results) → **wears down** where tone fits.
 - *During execution* → **while the work was underway** in checklist questions.
+- Definition voice cleanup: rewrite lines shaped like `X tracks whether...` and
+  `X means...` into plain explanatory prose where possible.
+- In **Correction as Time-Bound Effectiveness** and **Effectiveness Over Time**,
+  split dense paragraphs into short stepwise claims before naming higher-order
+  abstraction.
+- Preferred swaps in this chapter:
+  - *influence moves back in* → **feedback comes back**
+  - *distorted feedback* → **the real story** / **bad feedback** (choose by
+    sentence tone and specificity)
 
 ---
 
