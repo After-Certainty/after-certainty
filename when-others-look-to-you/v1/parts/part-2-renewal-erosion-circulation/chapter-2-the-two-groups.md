@@ -14,10 +14,10 @@ moves, but blind spots stack up.
 Both teams are under influence. In both teams, people take cues from the same
 few voices. What separates them is what happens when reality pushes back.
 
-That is the pivot in this chapter. Once **Attention Finds a Focus**, influence
-keeps producing one of two directions. The group can still correct course while
+That is the pivot. Once **Attention Finds a Focus**, influence keeps
+producing one of two directions. The group can still correct course while
 coordinated action grows in reach, or insulation sets in and **correction**
-weakens as reach starts to break down.
+weakens as reach gets harder to coordinate.
 
 The first direction is **renewal**.[^c2-adaptive-systems] **Renewal** names
 which way influence is moving. **Vitality** names how things tend to feel when
@@ -27,10 +27,9 @@ The second direction is **erosion**.[^c2-organizational-defenses] **Erosion**
 names which way influence is moving when insulation builds and **correction**
 weakens. **Decay** names how things tend to feel when that movement holds.
 
-Those are different questions. This is not a report card on
-character. Good intentions can still yield **erosion**, and flawed people can
-still sustain **renewal**. What matters is structure under pressure, not
-purity.
+Those are different questions. This is not a report card on character.
+Good intentions can still yield **erosion**, and flawed people can still
+sustain **renewal**. What matters is structure under pressure, not purity.
 
 ### **Two Capacities**
 
@@ -48,9 +47,9 @@ In another network, each clinic interprets the protocol differently, so
 priority decisions drift by location. The dosage warning is passed up, but
 leadership delays changes until the next monthly review.
 
-**Scalability** asks whether coordinated action can grow in reach—whether more
-people, sites, or layers can stay aligned without the center holding every
-thread by hand.
+**Scalability** asks whether coordinated action can grow in reach—whether
+more people, sites, or layers can stay coordinated without the center
+holding every thread by hand.
 In the example above, you see **scalability** when all sites run the same
 protocol with the same standards as the work spreads.
 
@@ -74,10 +73,13 @@ but local teams stop changing course when warning signs surface. In other
 campuses, coordination itself frays as each team improvises around unresolved
 gaps.
 
-Those observation patterns are what this section names. Together
-**scalability** and **adaptability** produce four combinations:
-**regenerative**, **adaptive**, **entrenched**, and **stalled**. These are not
-personality types. They describe how the work is set up when pressure hits.
+Those are the patterns. Together **scalability** and **adaptability**
+produce four combinations:
+**regenerative** (reach holds and plans still adapt), **adaptive**
+(adjustment holds while reach is still narrower), **entrenched** (reach
+holds but change gets hard), and **stalled** (coordination and course
+change both weaken). These are not personality types. They describe how
+the work is set up when pressure hits.
 
 The decisive split is whether **adaptability** stays high or falls low.
 
@@ -94,7 +96,7 @@ coordinated for a long time, or coordination itself may be coming apart.
 ![Diagram: renewal, erosion, capacities, and states](export-assets/diagrams/renewal-erosion-map.png)
 
 ::: {custom-style="Pull Quote Block"}
-Which way the group is moving is not the same as how things feel day to day. Neither one is a score on who is good or bad.
+Direction and day-to-day feeling are not the same thing.
 :::
 
 [^c2-adaptive-systems]: Karl E. Weick, "The Social Psychology of Organizing" (2nd ed., Reading, MA: Addison-Wesley, 1979).
