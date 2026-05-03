@@ -2,6 +2,7 @@
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
+BOOK_STEM_PY ?= python3 tools/book_output_stem.py
 # Default book tree for spellcheck; override for another volume, e.g. SPELLCHECK_DIR=other-book/v1
 SPELLCHECK_DIR ?= when-others-look-to-you/v1
 
@@ -13,8 +14,8 @@ help:
 	@echo "  make md-to-docx IN=path/to/input.md [OUT=path/to/output.docx]"
 	@echo "  make import-docx"
 	@echo "  make import-docx-dir DIR=path/to/folder [OVERWRITE=1]"
-	@echo "  make export-docx DIR=path/to/book-folder"
-	@echo "  make export-kindle-epub DIR=path/to/book-folder"
+	@echo "  make export-docx DIR=path/to/book-folder [OUT_STEM=basename]"
+	@echo "  make export-kindle-epub DIR=path/to/book-folder [OUT_STEM=basename]"
 	@echo "  make export-all-docx"
 	@echo "  make clean-import-md"
 	@echo "  make spellcheck [SPELLCHECK_DIR=when-others-look-to-you/v1] [CODESPELL=codespell]"
@@ -24,8 +25,9 @@ help:
 	@echo "  - import-docx converts every ./**/import.docx to ./**/import.md."
 	@echo "  - import-docx-dir converts every .docx under DIR to side-by-side .md."
 	@echo "  - import-docx-dir skips existing .md files unless OVERWRITE=1."
-	@echo "  - export-docx combines DIR/index.md plus linked .md files into DIR/export.docx."
-	@echo "  - export-kindle-epub creates DIR/export-kindle.epub (flattened custom blocks, shallow nav TOC)."
+	@echo "  - export-docx combines DIR/index.md plus linked .md files into DIR/<stem>.docx."
+	@echo "  - export-kindle-epub creates DIR/<stem>.epub (flattened custom blocks, shallow nav TOC)."
+	@echo "  - <stem> defaults to DIR relative to repo root with path segments joined by '-' (override with OUT_STEM)."
 	@echo "  - SVG under DIR/docs/diagrams/ rasterize to DIR/export-assets/diagrams/ (rsvg-convert or magick)."
 	@echo "  - export-all-docx runs export-docx for every ./**/index.md."
 	@echo "  - clean-import-md deletes every ./**/import.md file."
@@ -91,10 +93,11 @@ import-docx-dir: check-pandoc
 	done
 
 export-docx: check-pandoc
-	@test -n "$(DIR)" || { echo "Usage: make export-docx DIR=path/to/book-folder"; exit 1; }
+	@test -n "$(DIR)" || { echo "Usage: make export-docx DIR=path/to/book-folder [OUT_STEM=basename]"; exit 1; }
 	@index="$$DIR/index.md"; \
 	test -f "$$index" || { echo "Error: $$index not found."; exit 1; }; \
-	out="$$DIR/export.docx"; \
+	stem="$${OUT_STEM:-$$($(BOOK_STEM_PY) "$$DIR")}"; \
+	out="$$DIR/$${stem}.docx"; \
 	set --; \
 	links="$$(sed -n 's/.*](\([^)]*\.md\)).*/\1/p' "$$index")"; \
 	for rel in $$links; do \
@@ -115,11 +118,12 @@ export-docx: check-pandoc
 
 # Kindle EPUB: toc-depth=1 keeps nav TOC to # headings only; kindle-flatten injects Part # lines from index.md.
 export-kindle-epub: check-pandoc
-	@test -n "$(DIR)" || { echo "Usage: make export-kindle-epub DIR=path/to/book-folder"; exit 1; }
+	@test -n "$(DIR)" || { echo "Usage: make export-kindle-epub DIR=path/to/book-folder [OUT_STEM=basename]"; exit 1; }
 	@index="$$DIR/index.md"; \
 	test -f "$$index" || { echo "Error: $$index not found."; exit 1; }; \
+	stem="$${OUT_STEM:-$$($(BOOK_STEM_PY) "$$DIR")}"; \
 	prep="$$DIR/export-kindle.md"; \
-	out="$$DIR/export-kindle.epub"; \
+	out="$$DIR/$${stem}.epub"; \
 	cover="$$DIR/BookCover.png"; \
 	python3 tools/kindle-flatten.py --book-dir "$$DIR" --index "$$index" --out "$$prep" --flatten-custom-blocks; \
 	if [ -f "$$cover" ]; then \

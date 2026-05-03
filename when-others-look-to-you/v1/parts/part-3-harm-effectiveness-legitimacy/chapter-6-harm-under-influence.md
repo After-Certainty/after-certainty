@@ -10,74 +10,96 @@ Friday night before a holiday retail push, a cold-chain supervisor catches a gap
 Elsewhere in the same industry, another site finds the same kind of gap the same night. The site lead could hold the door. A big box count is committed; the forecast is already in the stores’ systems. She approves ship with extra gel packs and a rider for drivers to check on arrival. Nobody records the choice as failure. If product warms in transit, the rework lands on route teams and receiving docks. The center keeps the story of on-time commitment. If something goes wrong, it will show up as field noise, not as a decision in the conference room where the release was judged.
 :::
 
-Two groups under the same pressure. Influence is live in both. What diverges first is where the risk and the cost settle when something could still be stopped.
+Start by pairing the scenes. Two groups face the same pressure, and influence is
+already live in both. Before the outcomes split, what splits first is where risk
+and cost settle while a stop is still possible.
 
-You can read harm’s route early by watching who absorbs, who pays, and
-what the room is allowed to say out loud.
+Then read harm's route early. Watch who absorbs, who pays, and what the room is
+allowed to say out loud.
 
 ### **Leadership Routes Harm**
 
 Leadership does not remove harm. It directs where harm goes.[^c6-risk-distribution]
 
-When others look to someone for direction, decisions reach farther. Benefits spread, but costs do too. A missed warning in one role can become widespread loss for many people. Where harm lands is central to leadership, not a late-stage ethical add-on.
+When others look to someone for direction, trace what follows.
+Decisions reach farther than they would from a single desk. Benefits spread,
+and costs spread with them. A missed warning in one role can widen into loss for
+many people. Where harm lands sits at the center of leadership—not ethics
+bolted on at the end, but part of what directing people actually means.
 
-Most leaders believe they are acting for good. The question is not just
+Most leaders believe they are acting for good. The decisive question is not only
 intent. It is who pays when pressure rises.
 
 ### **How Harm Moves**
 
-One way to see it is where the cost ends up.
+Start with a concrete anchor: follow where the cost ends up.
 
-In **vibrant** groups, those with authority are more likely to absorb some of the cost of their own decisions. They do not absorb all of it, but the linkage between decision rights and accountability stays visible—as in the first opening scene, where stopping the load tied cost to the person who could still say no.
+In **vibrant** groups, people with authority are more likely to absorb part of
+the cost of their own decisions. They do not absorb all of it; what holds is the
+visible link between decision rights and accountability—as in the first opening
+scene, where stopping the load tied cost to the person who could still say no.
 
-In **decaying** groups, costs move downward or outward: those closest to
-the consequences, people affected by the decision, or peripheral groups
-absorb the effects while central decision-makers keep control of the
-public story—as in the second opening scene, where risk traveled toward
-drivers and docks while the commitment story stayed intact. People frame
-that displacement as necessity, but repeated displacement is an early
-warning, not an unfortunate accident.
+In **decaying** groups, costs move downward or outward. Those closest to the
+consequences, people the decision touches, or peripheral groups absorb the
+effects while central decision-makers keep control of the public story—as in the
+second opening scene, where risk traveled toward drivers and docks while the
+commitment story stayed intact. People frame that displacement as necessity, but
+when displacement repeats, read it as an early warning, not an unfortunate
+accident.
 
-You can see the difference in what happens next.
-That's where the four postures below start to separate: whether
-leadership absorbs, tolerates, instrumentalizes, or simply misses harm.
+What happens next surfaces the fork. That is where the four postures below start
+to separate: whether leadership absorbs, tolerates, instrumentalizes, or simply
+misses harm.
 
 ### **How Harm Gets Displaced**
 
-Harm usually moves in a few predictable ways. They often show up
-together.
+Harm usually moves along a few predictable channels. More than one can run at the
+same time.
 
-When costs move **downward**, people with less voice carry the extra load: hourly staff, contractors, satellite sites, anyone who cannot easily refuse a plan that already shipped.
+When costs move **downward**, people with less voice carry the extra load—hourly
+staff, contractors, satellite sites, anyone who cannot easily refuse a plan that
+already shipped.
 
-When costs move **outward**, the people the decision touches pay first—customers, clients, neighbors, patients, students—especially when the group treats their experience as distant from “our” metrics.
+When costs move **outward**, the people the decision touches pay first—customers,
+clients, neighbors, patients, students—especially when the group treats their
+experience as distant from "our" metrics.
 
-When costs move **forward**, tomorrow’s team inherits today’s shortcut: tomorrow’s debt, rework, rebuild, or reputation repair. The deferral reads as manageable until the balance comes due.
+When costs move **forward**, tomorrow's team inherits today's shortcut: tomorrow's
+debt, rework, rebuild, or reputation repair. The deferral reads as manageable until
+the balance comes due.
 
-When costs move **inward**, they hide inside the organization as exhaustion, fear, silence, or off-channel fixes. The surface story can stay polished while daily practice splits from what the official process says.
+When costs move **inward**, they hide inside the organization as exhaustion, fear,
+silence, or off-channel fixes. The surface story can stay polished while daily
+practice splits from what the official process says.
 
-The more these channels repeat, the harder **correction** becomes.
-Repetition also teaches what the next person in charge is likely to
-copy—**Leadership Reproduces Itself**.
+The more these channels repeat, the harder **correction** becomes. Repetition also
+teaches what the next person in charge is likely to copy—**Leadership Reproduces Itself**.
 
-Under crisis pressure, displacement sharpens: harm is reframed as necessary, and displacement is treated as temporary even when it becomes habit.
+Under crisis pressure, displacement sharpens. Harm is reframed as necessary, and
+displacement is treated as temporary even when it has already become habit.
 
 ### **Four Harm Postures**
 
-Leaders and groups settle into four recurring ways of handling harm. These postures describe stance, not moral rankings.
+Leaders and groups settle into four recurring ways of handling harm. Read these
+postures as stance, not as moral rankings.
 
-When **circulation** is open, risk and temporary authority move more
-freely. These patterns are easier to interrupt before harm hardens.
+**Circulation** comes in two states. When **circulation** is open, risk and
+temporary authority move more freely. Patterns are easier to interrupt before harm
+hardens.
 
-When **circulation** is captured, these patterns harden. Absorbing work
-piles onto a few people. Tolerance becomes routine. Instrumental
-tradeoffs spread outward. Blind spots stay in place.
+When **circulation** is captured, those patterns harden instead. Absorbing work
+piles onto a few people. Tolerance becomes routine. Instrumental tradeoffs spread
+outward. Blind spots stay in place.
 
 ### **Harm-Absorbing**
 
-Harm-absorbing leadership means people with decision power also take on
-part of the cost. That linkage stays visible to the group.
+Harm-absorbing leadership means people with decision power also take on part of
+the cost. The group can still see that linkage.
 
-Leaders who absorb acknowledge error early, shield people closest to avoidable fallout where they can, and adjust scope when warning signals appear. This posture does not eliminate loss; it ties authority to accountability.[^c6-just-culture]
+Leaders who absorb follow a small sequence. They acknowledge error early. They
+shield people closest to avoidable fallout where they can. They adjust scope when
+warning signals appear. This posture does not eliminate loss; it ties authority to
+accountability.[^c6-just-culture]
 
 ### **The Rivet Batch**
 
@@ -87,16 +109,27 @@ On a fabrication line, an inspector flags a rivet batch from a new supplier that
 The plant manager stops the panel run anyway. She pulls one shift’s worth of overtime back to swap stock, pushes the ship date, and sends a two-line note to the customer contact she already has on speed dial. That afternoon she sits in the union steward’s office while the overnight crew argues about who eats the overtime hit. She does not offer a speech about values. She stays until the schedule they land on is one she will defend in the same room if the customer pushes back.
 :::
 
-This is harm-absorbing in practice: the person who could authorize risk stays visible when the cost lands, and the group can still see who tied decision rights to the bill.
+Taken together, that read is harm-absorbing in practice. The person who could authorize risk
+stays visible when the cost lands. The group can still see who tied decision
+rights to the bill.
 
 ### **Harm-Tolerant**
 
-Harm-tolerant leadership means the same kinds of harm keep showing up.
-The group treats them as the cost of keeping things moving.
+Harm-tolerant leadership means the same kinds of harm keep showing up. The group
+treats them as the cost of keeping things moving.
 
-In **decaying** groups, attention narrows to tasks and to relationships inside the inner circle. What happens outside that ring is easier to mute. Harm still shows up—missed cues, tired people, side effects. The group learns to treat it as background noise. Outwardly, everything still looks on track. Someone focused only on task achievement can do enormous relational damage. The work keeps moving while trust frays.
+Begin with **decaying** groups. Attention narrows to tasks and to relationships
+inside the inner circle. What happens outside that ring is easier to mute. Harm
+still shows up—missed cues, tired people, side effects—and the group learns to
+treat that pattern as background noise. Outwardly, everything still looks on
+track. Someone focused only on task achievement can still do enormous relational
+damage. The work keeps moving while trust frays.
 
-In **vibrant** groups, more people and relationships stay in view. **Harm** is harder to ignore without someone naming it. Either way, the trade is the same: continuity over repair. Talk shifts from repair to rationalization: “This is just how things are at this scale.” Over time, small preventable harms settle in as normal.
+Compare **vibrant** groups. More people and relationships stay in view. **Harm** is
+harder to ignore without someone naming it. Either way, the trade stays the same:
+continuity over repair. Talk shifts from repair to rationalization: "This is just
+how things are at this scale." Over time, small preventable harms settle in as
+normal.
 
 ### **Peak Numbers Hold**
 
@@ -106,14 +139,18 @@ A regional parcel hub runs the same January surge every year. For the third Janu
 Nobody calls it harm in the meeting. They call it season. The same hurt shows up on new names. The story that matters is still the number on the board.
 :::
 
-Harm-tolerant groups often know something is wrong. What holds is the decision to treat recurrence as normal overhead rather than as a signal to change the plan.
+Harm-tolerant groups often know something is wrong. What holds is the decision to
+treat recurrence as normal overhead rather than as a signal to change the plan.
 
 ### **Harm-Instrumental**
 
-Harm-instrumental leadership treats some people as expendable to protect
-a prized goal or timeline.
+Harm-instrumental leadership treats some people as expendable so a prized goal or
+timeline can stay intact.
 
-The logic sounds efficient: keep momentum, protect those at the center, and pass the cost outward. But when that behavior repeats, trust erodes, quiet refusal grows, and the group’s ability to act weakens.[^c6-power-harm]
+Lay out the logic in the order people hear it. Keep momentum. Protect those at the
+center. Pass cost outward. That recipe sounds efficient. Then watch repetition.
+When the pattern repeats, trust erodes, quiet refusal grows, and the group's
+ability to act weakens.[^c6-power-harm]
 
 ### **The Tournament Weekend**
 
@@ -123,14 +160,18 @@ A youth soccer club is one week out from hosting a regional tournament. A volunt
 The tournament finishes on schedule. Sponsor photos look great. Two weeks later, angry calls roll in after a collision in front of a net that shifts. The volunteer who raised the warning is told to be “more of a team player” next time.
 :::
 
-This is harm-instrumental in compact form: a named schedule and reputation goal win; a named population absorbs the downside. **Examples Accumulate** in that first beat—what gets rewarded or punished teaches everyone watching.
+That vignette is harm-instrumental in compact form: a named schedule and a
+reputation goal win; a named population absorbs the downside. **Examples Accumulate**
+in that first beat—what gets rewarded or punished teaches everyone watching.
 
 ### **Harm-Blind**
 
-Harm-blind leadership does not track consequences where they are
-actually felt.
+Harm-blind leadership does not track consequences where they are actually felt.
 
-Things may look fine on the surface while people’s lives get harder. Leaders see what is easy to track but miss what people are carrying. Groups are not always cruel; they can be blind without intending cruelty. Blind groups still cause harm.
+Move through the pattern in short steps. Things may look fine on the surface while people's lives get
+harder. Leaders see what is easy to track and miss what people are carrying.
+Groups are not always cruel; they can be blind without intending cruelty. Blind
+groups still cause harm.
 
 ### **The Quarterly Looks Healthy**
 
@@ -140,40 +181,54 @@ A software company’s leadership review lives in a dashboard: pipeline, booking
 No one decides to ignore anyone. Leadership asks for confidence each Monday; the evidence they receive is the same green rollup the dashboard already showed. The harm lives in handoffs, retries, and quiet apology calls—channels the scorecard was never built to show.
 :::
 
-Harm-blind leadership differs from tolerance: tolerance often names the
-strain and chooses continuity anyway. Blindness misses the strain in the
-channels where it actually gathers.
+Harm-blind leadership differs from tolerance in where attention goes. Tolerance
+often names the strain and chooses continuity anyway. Blindness misses the strain
+in the channels where it actually gathers.
 
 ### **What the Room Stores**
 
-**Leaders Feel the Consequences** means people who decide stay tied to what their choices do to others when cost becomes visible where decisions are made.
+**Leaders Feel the Consequences** means people who decide stay tied to what their
+choices do to others. The tie shows when cost becomes visible in the same rooms
+where decisions are made.
 
-When **Leaders Do Not Feel the Consequences**, decision-makers lose contact with who bears the cost. The group can slide into harm-tolerant or harm-instrumental routines even when leaders describe decisions as necessary—and harm-blind routines when signals never reach the chart leaders watch.
+When **Leaders Do Not Feel the Consequences**, decision-makers lose contact with
+who bears the cost. The group can slide into harm-tolerant or harm-instrumental
+routines even while leaders describe those decisions as necessary. It can also
+slide into harm-blind routines when signals never reach the chart leaders watch.
 
 ### **Boundaries and Agency**
 
 Harm-absorbing leadership has a boundary.
 
-Taking on cost can be responsible. It can also become distortion if it removes other people from responsibility they still need to carry.
+Taking on cost can be responsible. It can also become distortion when it removes
+other people from responsibility they still need to carry.
 
-If a leader repeatedly absorbs every consequence, teams may stop naming risk, peers may stop correcting decisions, and people farther from the front line may stop fixing what is broken. In that case, harm is not being reduced—it is being deferred and concentrated.
+When one leader absorbs every consequence on repeat, watch what downstream turns
+off. Teams may stop naming risk. Peers may stop correcting decisions. People
+farther from the front line may stop fixing what breaks. Harm is not reduced in
+that pattern—it defers and concentrates.
 
-Watch whether harm absorption increases shared responsibility—or replaces it.
+Then ask what absorption is doing. Watch whether harm absorption increases shared
+responsibility or replaces it.
 
-When it increases shared responsibility, it builds trust and capacity. When it replaces responsibility, it weakens everyone else’s room to act and makes future harm more likely.
+When it increases shared responsibility, trust and capacity grow. When it replaces
+responsibility, everyone else's room to act shrinks and future harm becomes more
+likely.
 
 ### **Selective Followership and Harm**
 
 Selective followership is one of the earliest harm indicators.
 
-In healthier settings, people can say, “This direction creates avoidable damage,” and be heard. Selective refusal functions as warning.
+Place two settings side by side. In healthier ones, people can say, "This direction creates
+avoidable damage," and still be heard. Selective refusal functions as warning.
 
-In **decaying** settings, people stop naming harm directly. They go along in public, reroute work in private, and protect themselves through quiet workarounds. Public agreement can mask widening harm pathways.
+In **decaying** settings, the sequence shifts. People stop naming harm directly.
+They go along in public, reroute work in private, and protect themselves through
+quiet workarounds. Public agreement can mask widening harm pathways.
 
-You can often see **correction** failures first in where the harm shows
-up.
-People raise real risk; nothing changes; the cost stays in place or
-moves to someone who cannot refuse.
+Read **correction** failures early by watching where harm lands. People raise real
+risk; nothing changes; the cost stays in place or moves to someone who cannot
+refuse.
 
 ### **When Escalation Stops**
 
@@ -185,35 +240,36 @@ After that, charge nurses stop escalating. They arrange informal swaps among the
 
 This is a **correction** failure, not simply local resistance.
 
-People raised the issue; nothing changed. So fixes moved off the books.
+Trace what happened next. People raised the issue; nothing changed. Fixes then
+moved off the books.
 
-On paper, the group appears coordinated. In daily work, practice follows a different rule.
+Lay formal coordination beside daily practice. On paper, the group looks coordinated. In
+daily work, practice follows a different rule.
 
-That gap signals one-way authority that is hard to revise. Distorted
-feedback may already govern daily operations there. **Learning
-Collapse** may already be in play.
+That gap signals one-way authority that is hard to revise. Distorted feedback may
+already govern daily operations there. **Learning Collapse** may already be in play.
 
-Open refusal can still support **correction** where others can see it. Covert refusal points toward silent exit.[^c6-exit]
+Open refusal can still support **correction** where others can see it. Covert
+refusal points toward silent exit.[^c6-exit]
 
 ### **How Harm Reads**
 
 The harm picture in a group is readable before anyone names it out loud.
-Watch where cost lands when something goes wrong—not who apologizes, but
-who absorbs. Watch who stays protected from consequence while still
-holding decision rights. Watch whether the person who named the harm is
-still in the room six months later, and in what capacity. Watch what
-actually changed after harm was surfaced, not what was said about it.
 
-When those signs have no clear read, **Leaders Do Not Feel the
-Consequences**. That opacity is itself the signal. Harm displacement
-rarely announces itself. It gets harder to trace who decided and who
-paid.
+Ask four questions in parallel while work still moves. Where cost lands when something goes wrong—not
+who apologizes, but who absorbs. Who stays protected from consequence while still
+holding decision rights. Whether the person who named the harm is still in the
+room six months later, and in what capacity. What actually changed after harm was
+surfaced, not what was said about it.
+
+When none of those watches yields a clear read, **Leaders Do Not Feel the Consequences**. That opacity
+is itself the signal. Harm displacement rarely announces itself. Tracing who
+decided and who paid gets harder.
 
 ### **Effectiveness Next**
 
-Work can look fine on the surface.
-But if you follow where the damage shows up, you can see what is
-actually protected. **Effectiveness** is the lens for how short-term
+Work can look fine on the surface. Follow where the damage shows up; that path
+shows what is actually protected. **Effectiveness** is the lens for how short-term
 wins can hide long-term decay.
 
 ::: {custom-style="Pull Quote Block"}

@@ -2,26 +2,26 @@
 
 ### **What We See First**
 
-Most people do not misjudge leaders because they are careless.
-They misjudge because the easiest signals to read are often the least
-reliable.
+Most people do not misjudge leaders because they are careless. They
+misjudge because the signals that are easiest to see are often the worst
+ones to trust.
 
-A team hits the target, and we read that as strong leadership. A team misses the target, and we read that as weak leadership. A leader sounds certain, and we read that as control.
+A team hits the target, and we call that strong leadership.
+A team misses the target, and we call that weak leadership.
+A leader sounds certain, and we hear control.
 
-Those reads are fast, but thin.
-They tell us what was visible. They do not show how decisions were made,
-who could challenge them, or where risk was pushed.
+Those reads come fast, and they are also thin. They tell you what was
+visible on the surface. They do not tell you how the decision was made, who
+could push back, or where the risk went.
 
-Track two common misreads: outcome bias and structural blindness.
-Together, they turn partial signals into full verdicts.
+Two misreads keep showing up: outcome bias and structural blindness.
+Together, they turn a partial picture into a full verdict.
 
-Those conditions build on the last two chapters. Scale thins signals.
-Pressure shortens time for challenge. Misjudgment is what accumulates on
-top of both.
-
-Misjudgment isn't just about how we read leaders.
-It feeds back into the system as selection pressure: what gets rewarded in
-judgment is what structures learn to produce.
+That rests on what the last two chapters already set up. Scale thins what
+travels. Pressure leaves less room for challenge. Misjudgment piles on top
+of both. Misjudgment is not only about how we read leaders. It feeds back
+into the system as selection pressure. What gets rewarded in judgment is what
+structures learn to produce.
 
 ### **The Fast Desk**
 
@@ -39,17 +39,16 @@ By afternoon, Desk A issues two major corrections and pulls one viral post. Desk
 In the weekly review, leadership praise follows the dashboard: speed, share, and volume. Verification work appears as delay, not as prevented harm.
 :::
 
-Outcome bias happens when results stand in for judging how decisions were made and how influence was organized.[^c11-outcome-bias]
+Outcome bias means letting results answer for how decisions were made—and
+for how influence was organized.[^c11-outcome-bias] Look at the desk scene
+again. Desk A's numbers are not imaginary. They really posted faster and
+reached more people. The mistake is quieter: those outcomes get read as the
+whole judgment about whether the leadership was good.
 
-In this scene, the visible result is not fake. Desk A really moved
-faster and reached more people. The problem is that the result is
-treated as the full story of leadership quality.
-
-Outcomes are noisy.
-They include timing, luck, inherited capacity, and hidden costs.
-A clean-looking win can come from risky decisions.
-A slower quarter can come from disciplined **correction** that prevents
-larger failure.
+Results are noisy. They carry timing, luck, inherited capacity, and costs
+that never make the headline. A tidy-looking win can still come from risky
+choices. A slower-looking stretch can come from disciplined **correction**
+that prevented a larger failure.
 
 ### **The Smooth Board**
 
@@ -65,167 +64,176 @@ Before those notes can change the central flow plan, they must pass through mult
 The next day, the same corridor runs again. Near-miss reports rise in logs, but the top-line performance story stays smooth.
 :::
 
-Structural blindness happens when observers miss how influence is
-organized while they focus on personality, intention, or
-rhetoric.[^c11-structural-blindness]
+Structural blindness means missing how influence is organized—because
+attention stays on personality, intention, or rhetoric.[^c11-structural-blindness]
+Look back at the board scene. From outside, it reads like competent control
+under pressure. Inside, the paths that carry challenge are too narrow—and too
+slow—to get new evidence into decisions while it can still change the plan.
+That gap is easy to miss if you stop at the smooth surface.
 
-From the outside, this looks like competent control under pressure. Inside, challenge paths are too narrow to move new evidence into decisions fast enough.
+You do not need bad intent for this shape to appear. It grows through ordinary
+choices about rank, approvals, and who may interrupt the default plan. The
+pattern stays common because raising a useful signal can cost
+people.[^c11-psychological-safety]
 
-This pattern does not require bad intent. It grows through routine
-choices about rank, approvals, and who can interrupt the default plan.
-It is common because many useful signals are costly for people to
-raise.[^c11-psychological-safety]
-
-Outcome bias and structural blindness reinforce each other. The first rewards what travels. The second blocks what would correct the first.
-
-When bad news stops moving early enough to matter, **Dissent is No Longer Welcomed**.
+Outcome bias and structural blindness reinforce each other. The first rewards
+what travels. The second blocks what would correct the first. When bad news
+stops moving early enough to matter, **Dissent is No Longer Welcomed**.
 
 ### **The Intention Trap**
 
-What lasts is what influence repeatedly produces: how **correction** works, how **harm** is allocated, how disagreement survives, and how learning holds from one pressure cycle to the next.
+What lasts is what influence repeatedly produces. That includes how
+**correction** works, how **harm** is allocated, whether disagreement survives,
+and how learning holds from one pressure cycle to the next.
 
 The intention trap sits beneath outcome bias and structural blindness.
-Observers hear a leader's stated purpose and treat sincerity as
-sufficient evidence of **legitimacy**.
-Leaders do this too. They assume that because they meant well, the
-structure must be healthy.
+Observers hear a leader's stated purpose. They treat sincerity as enough
+evidence of **legitimacy**. Leaders make the same slip. They assume that
+because they meant well, the structure must be healthy.
+
 Intent matters for ethics. It does not settle the question.
 
 ### **Why Erosion Feels Rational**
 
-**Erosion** persists because it feels reasonable in the moment.
+**Erosion** persists because each step can sound sensible. Under pressure,
+leaders narrow channels to "move faster." Teams quiet dissent to "stay
+aligned." Leaders simplify stories to "reduce confusion." Each move has a
+defense up close. Together they build insulation.
 
-Leaders under pressure narrow channels to "move faster." Teams avoid dissent to "stay aligned." Leaders simplify stories to "reduce confusion." Each move can be defended locally. Together, they create insulation globally.
+That is why **erosion** should be read as a pattern over time—not one bad
+call. Any single choice can look pragmatic. Repetition is what exposes the
+pattern: the same move, insulation thickening, while everyone still sounds
+reasonable.
 
-This is why **erosion** should be read as a pattern over time, not one bad call. Any single choice can look pragmatic. Repetition is what shows the pattern—the same move, thickening insulation while everyone still sounds reasonable.
-
-Structural blindness explains why *observers* miss erosion.
-The other half is why *leaders* can produce it without noticing.
+Structural blindness explains why *observers* miss erosion. The other half
+is why *leaders* can produce it without noticing.
 
 ### **Selective Followership and Misread Signals**
 
-Observers assume that if people continue to look to a leader, they must
-also be going along in full. In practice, agreement is often
-selective.[^c11-selective-followership]
+Observers often assume that if people still look to a leader, they must be
+going along in full. In practice, agreement is usually
+selective.[^c11-selective-followership] Someone can support the strategy but
+resist the tactics, trust competence but not moral judgment, or agree in
+public and diverge in private. People may even bend instructions under pressure
+to hold onto autonomy.[^c11-reactance] That does not automatically mean
+disloyalty; it can mean judgment doing its job. In a **vibrant group**,
+selective dissent stays visible enough to use. In a **decaying group**, it goes
+quiet and turns into hidden workarounds.
 
-People may go along with strategic direction while resisting tactics.
-They may trust competence but not moral judgment. They may publicly
-agree and privately diverge. They may even invert instructions under
-pressure to preserve autonomy.[^c11-reactance]
+There is a second misread next to selective agreement. Dissent that arrives
+early and in good faith—loyal to the work, specific about risk—can still be read
+as disloyalty to the leader or the timeline. The person raising it becomes the
+problem to manage. Once that label sticks, the structure does not only silence
+people; it teaches which kind of agreement counts as safe.
 
-This does not automatically mean disloyalty. It can mean active
-judgment. In a **vibrant group**, selective dissent is visible and
-usable. In a **decaying group**, it goes quiet and becomes hidden
-workarounds.
-
-There is a second misread next to selective agreement.
-Dissent that arrives early and in good faith—loyal to the work,
-specific about risk—can still be read as disloyalty to the leader or
-the timeline.
-The person raising it becomes the problem to manage.
-Once that label sticks, the structure does not only silence people; it
-teaches which kind of agreement counts as safe.
-
-When observers collapse all this into a single category—either "they
-are with the leader" or "they are against the leader"—they miss the
-structure that predicts **renewal** or **erosion**.
+When observers collapse all this into a single category—either "they are with
+the leader" or "they are against the leader"—they miss the structure that
+predicts **renewal** or **erosion**.
 
 ### **Why Confidence Is So Persuasive**
 
-Confidence lowers uncertainty for observers, especially under stress.
-A clear answer feels safer than a tentative one; a strong claim feels
-more usable than a narrow one.
+Under stress, confidence lowers uncertainty for observers: a clear answer feels
+safer than a tentative one, and a strong claim feels more usable than a narrow
+one. The confident story travels. At larger reach, the headline that
+sounds sure often outruns the small print. What steadies a tense room nearby can
+read as competence from far away.
 
-It travels. At larger reach, the confident headline often outruns the
-small print. What steadies a tense room can read as competence from far
-away.
-
-This preference makes groups vulnerable. It rewards leaders who reduce
-complexity too quickly. It penalizes leaders who keep uncertainty
-visible long enough to make better decisions.[^c11-ambiguity-and-sensemaking]
-
-Confidence can still be warranted. Overconfidence, when challenge is
-unwelcome, is costly.
+That preference makes groups vulnerable. It rewards leaders who shrink
+complexity too quickly and penalizes leaders who keep uncertainty visible long
+enough to make better decisions.[^c11-ambiguity-and-sensemaking] Confidence can
+still be warranted. Overconfidence is different—when challenge is unwelcome, it
+gets costly.
 
 ### **What to Watch Instead**
 
-Outcomes and rhetoric are the easiest reads from a distance, but they
-are the least reliable.
-What reveals the structure is slower and less polished.
+Outcomes and rhetoric are easy to see. They are also easy to misread. What
+really matters shows up more slowly.
 
-The misread runs both ways. A visible short-term loss can read as weak
-leadership even when it came from disciplined interruption. A team that
-stops a risky process may look worse on this quarter's dashboard while
-avoiding larger failure next quarter. If the summary line is all that
-travels, prevention gets scored as underperformance.
+Misreads go both ways. A short-term loss can look like weak leadership,
+even when someone stopped a bad decision. A team might hurt this quarter's
+numbers by pausing something risky—but that pause can prevent a bigger problem
+later. If people only see the summary, they miss what was avoided.
 
-Start with challenge pathways.
-If decisions cannot be questioned before they harden, formal
-accountability language will not help much in practice.
-The key signal is not the policy text. It is whether someone can raise
-risk in time and still remain credible in the group.
+Start with a simple question: can people speak up? If no one can challenge a
+decision before it is final, accountability on paper does not mean much. What
+matters is whether someone can raise a concern early—and still be heard.
 
-Then track cost and recurrence. When losses keep landing on people who
-did not make the decision, and the same known problems keep returning,
-**correction** either did not happen or did not hold.
+Next, look at who pays the price. If the same problems keep happening,
+**correction** either did not happen or did not hold. And if the people who did
+not make the decision keep dealing with the fallout, that is a sign something
+is off.
 
-Also track distance between authority and consequence. As that gap
-grows, reports become cleaner while ground truth gets rougher. Trouble
-reaches decision-makers later, softened in transit or stripped of the
-detail needed to shift direction.
+Also look at how close leaders are to the results of their decisions. When
+leaders are far from the consequences, reports often look better than reality.
+Problems take longer to reach them—and when they do, they are less clear.
 
-None of this requires reading motives.
-It requires watching what repeats over time and what changes when
-warning appears.
+You do not need to figure out anyone's motives. Just watch what keeps
+happening—and what actually changes when someone raises a concern.
 
 ### **Misjudgment at Scale**
 
-At larger reach, misjudgment is harder to catch in time. What would
-still show clearly in a room turns into fragments on screens, late in
-writing, and thin in summary.
+As reach grows, misjudgment gets harder to catch. What would be obvious in a
+room turns into fragments—messages on screens, delayed write-ups, and short
+summaries that miss context.
 
-Urgency amplifies this distortion. Under compressed timelines, groups reach for what is quick to defend: output, confidence, and one clear story. Challenge to direction tends to reach the table later and cost more socially.
+Urgency makes this worse. When time is tight, groups rely on what is easiest
+to defend: output, confidence, and a clear story. Challenges to the direction
+show up later, and they cost more to raise.
 
-At scale, outcome bias and structural blindness reinforce one another.
-Outcome bias supplies a tidy verdict on the metrics that travel.
-Structural blindness removes the pathways that would challenge that verdict
-from inside the group, or mislabels dissent as disloyalty when it does
-arrive.
+At scale, outcome bias and structural blindness start to reinforce each other.
+Outcome bias gives a clean verdict based on the numbers that travel. Structural
+blindness removes the paths that would challenge that verdict—or treats dissent
+as disloyalty when it does appear.
 
-That is why misjudgment belongs in view here, after scale and pressure. The conditions that make **decay** hard to diagnose are not random; they are built into how influence expands and how institutions manage urgency.
+That is why misjudgment shows up here, after scale and pressure. The conditions
+that make **decay** hard to diagnose are not random. They come from how
+influence grows—and how groups handle urgency.
 
 ### **Misjudgment Over Time**
 
-Misjudgment compounds.
+Misjudgment compounds over time. Outcome bias and structural blindness stack:
+leaders keep collecting credit for short-term wins while **decay** deepens
+underneath the visible story. Once failure breaks into public view, the window
+where warning could still change plans has usually narrowed and repair has
+already gotten expensive.
 
-When outcome bias and structural blindness combine, leaders receive credit for short-term wins while **decay** deepens underneath. Once failure surfaces in public, room for warning to change plans has often shrunk already. Repair costs have already risen.
-
-Late-stage collapse often feels sudden to outsiders and inevitable to
-insiders: the warning signs were there, but people were not weighing
-them when they judged.[^c11-normalization-of-deviance]
+Late-stage collapse then feels sudden to outsiders and inevitable to insiders.
+The warning signs were there; people were not weighing them when they
+judged.[^c11-normalization-of-deviance]
 
 ### **Misjudgment as Selection Pressure**
 
-When confident, outcome-focused leadership consistently draws more credit than structurally careful leadership, that mismatch sorts survivors. Those who learn to project confidence and manage visible metrics outlast those who keep open paths for challenge—even when it is expensive. That is not necessarily corruption. It is selection: whatever a group’s judgment system rewards, more of it accumulates over time.
+When outcome-focused, confident leadership reliably earns more credit than
+leadership that protects structure and challenge, the mismatch sorts who
+survives. People who learn to project confidence and win on visible metrics
+outlast people who keep paths for challenge open—even when keeping those paths
+open costs more. That is not necessarily corruption. It is selection: whatever
+a group's judgment system rewards, more of it accumulates over time.
 
-Institutions are not neutral containers. They develop habits—what gets promoted, what gets funded, what counts as a win—and those habits shape who stays in position to lead. Misjudgment does not only misread individuals; it shifts who looks credible the next time the group is under strain.
+Institutions are not neutral containers. They develop habits—what gets
+promoted, what gets funded, what counts as a win—and those habits shape who
+stays in position to lead. Misjudgment does not only misread individuals; it
+shifts who looks credible the next time the group is under strain.
 
-That is why “better judgment” is not a self-correcting fix once the wrong signals have compounded. Repair takes deliberate effort because the structure has already been selecting for the wrong strengths long enough that seeing more clearly alone cannot unwind the pattern.
+That is why "better judgment" is not a self-correcting fix once the wrong
+signals have compounded. Repair takes deliberate effort because the structure has
+already been selecting for the wrong strengths long enough that seeing more
+clearly alone cannot unwind the pattern.
 
 ### **A Clearer Read**
 
-The plain read is not only "Did the leader succeed?"
-It is whether this leadership structure stayed open to **correction**
-while carrying real influence: errors raised, authority questioned, and
-adjustments possible before **harm** scales.
+The plain read is not only "Did the leader succeed?" It is whether this
+leadership structure stayed open to **correction** while it carried real
+influence: errors raised, authority questioned, and adjustments possible before
+**harm** scales.
 
-Once **decay** is visible to observers, much of what a careful structural read
-asks for may already be scarce: fewer people rehearsed raising error when it
-was costly; habits that rewarded confidence and tidy fronts have compounded;
-early warning often stays local while the public account stays smooth. The
-next chapter asks what can still be done inside those conditions—not ideal
-repair, but realistic partial repair—when influence still flows both ways only
-in patches, or not at all.
+By the time **decay** is visible to observers, much of what a careful structural
+read asks for may already be scarce: fewer people rehearsed raising error when
+it was costly; habits that rewarded confidence and tidy fronts have compounded;
+early warning often stays local while the public account stays smooth. The next
+chapter asks what can still be done inside those conditions—not ideal repair,
+but realistic partial repair—when influence still flows both ways only in
+patches, or not at all.
 
 ::: {custom-style="Pull Quote Block"}
 Outcomes are loud; structure is decisive.
