@@ -1,6 +1,6 @@
 # Velorum — voice specification
 
-Companion to **[project-spec.md](./project-spec.md)**, **[synopsis.md](./synopsis.md)**, and **[act-chapter-index.md](./act-chapter-index.md)**. This file holds **tone, dialogue register, profanity guardrails, paragraph shape, and dialogue craft**—everything that keeps the novel’s **contemporary mouth** consistent while the world stays mythical.
+Companion to **[project-spec.md](./project-spec.md)**, **[synopsis.md](./synopsis.md)**, and **[act-chapter-index.md](./act-chapter-index.md)**. For **first-draft shape and habits** distilled from the gold chapter (without rereading the whole voice spec), see **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)**. For **brief-to-rough drafting** (step 0) and **layered revision roles** (flow, embodiment, dialogue, etc.), see **[agents/README.md](./agents/README.md)**. This file holds **tone, dialogue register, profanity guardrails, paragraph shape, and dialogue craft**—everything that keeps the novel’s **contemporary mouth** consistent while the world stays mythical.
 
 **synopsis.md** holds the **plain-language plot spine** (Greyhaven choice, Kestrel Gate pressure, Halverin collapse, Seeker journey, Greyhaven surrender ending). **project-spec.md** holds world rules, terrain mandates, **single-POV-per-chapter** rules, POV **lenses**, structure, scene-outline beats, ending requirements, and anti-patterns for Velorum/exposition. **act-chapter-index.md** holds the chapter-by-chapter POV/order plan and should stay aligned with both docs.
 

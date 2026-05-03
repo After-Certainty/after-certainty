@@ -1,7 +1,7 @@
 # PROJECT: VELORUM  
 ### A Tragic Mythic Fantasy Novel (Contemporary Voice)
 
-**Voice, dialogue, and prose craft:** **[voice-spec.md](./voice-spec.md)**. This document covers premise, world, terrain/POV requirements, structure, and ending rules.
+**Voice, dialogue, and prose craft:** **[voice-spec.md](./voice-spec.md)**. **Drafting shape** (habits distilled from Chapter 1): **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)**. **Draft + revision agents:** **[agents/README.md](./agents/README.md)** (brief-to-rough **step 0**, then revision passes). This document covers premise, world, terrain/POV requirements, structure, and ending rules.
 
 **Plot spine (living mirror):** **[synopsis.md](./synopsis.md)** — Greyhaven legend hunger → summit encounter with Velorum and the bond curse → rising power and pressure at Kestrel Gate under Halverin’s "alignment" path → Lyra names the loss while Riven/Cael split under shared jealousy and fear → public collapse and Halverin’s exposure → **Halverin’s terminal beat (~Act IV / chapter spine) closes his thread** → Seeker-led march through fractured lands to Velorum again → final threat at Greyhaven demands total surrender → world saved, selves hollowed, Lyra remains witness. Edit the synopsis freely; **when this spec and the synopsis diverge, reconcile here first**, then patch chapters.
 

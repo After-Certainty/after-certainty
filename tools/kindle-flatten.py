@@ -94,7 +94,7 @@ def strip_inline_cover_image(text: str) -> str:
     # Keep the image as EPUB metadata cover, not an in-flow first page image.
     lines = []
     for line in text.splitlines():
-        if re.search(r"!\[[^\]]*\]\(([^)]*BookCover\.png)\)", line):
+        if re.search(r"!\[[^\]]*\]\(([^)]*(?:BookCover|book_cover)\.png)\)", line):
             continue
         lines.append(line)
     cleaned = "\n".join(lines)
