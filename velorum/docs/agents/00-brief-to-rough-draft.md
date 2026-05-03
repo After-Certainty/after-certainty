@@ -25,7 +25,8 @@ Take the **short chapter brief** (from **[act-chapter-index.md](../act-chapter-i
 
 **STYLE:**
 - Sarah Beth Durst–like clarity: accessible, immersive, grounded  
-- Rough draft = **clear and sayable**, not ornate; prefer getting the **scene on the page**
+- Rough draft = **clear and sayable**, not ornate; prefer getting the **scene on the page**  
+- Default mouth is **contemporary plain English**—avoid **bookish** reach (*gaze, leached, hygiene* as wallpaper, thesis-shaped dialogue pairs, debate openers) when a simpler verb or insult does the same job; **agents 01 / 03 / 06** tighten register without stripping Velorum canon words where the brief needs them
 
 **OUTPUT:**
 - **Full rough chapter text** (markdown) as the default deliverable  

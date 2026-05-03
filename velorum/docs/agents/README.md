@@ -8,7 +8,8 @@
 [project-spec.md](../project-spec.md) → [voice-spec.md](../voice-spec.md) → [synopsis.md](../synopsis.md) / [act-chapter-index.md](../act-chapter-index.md)
 
 **Detailed checklists:** [chapter-edit-pass.md](../chapter-edit-pass.md)  
-**Gold-chapter habits:** [exemplar-chapter-01-drafting.md](../exemplar-chapter-01-drafting.md)
+**Gold-chapter habits:** [exemplar-chapter-01-drafting.md](../exemplar-chapter-01-drafting.md)  
+**Bookish register (sayable mouth):** catch early in **[01-flow-clarity-editor.md](./01-flow-clarity-editor.md)** (narration + whole chapter), dialogue-heavy beats in **[03-dialogue-voice.md](./03-dialogue-voice.md)**, final ear in **[06-audio-readaloud.md](./06-audio-readaloud.md)**; rough-draft default in **[00-brief-to-rough-draft.md](./00-brief-to-rough-draft.md)**.
 
 ---
 
