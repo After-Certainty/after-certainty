@@ -125,9 +125,12 @@ export-kindle-epub: check-pandoc
 	stem="$${OUT_STEM:-$$($(BOOK_STEM_PY) "$$DIR")}"; \
 	prep="$$DIR/export-kindle.md"; \
 	out="$$DIR/$${stem}.epub"; \
-	cover="$$DIR/BookCover.png"; \
+	cover=""; \
+	if [ -f "$$DIR/BookCover.png" ]; then cover="$$DIR/BookCover.png"; \
+	elif [ -f "$$DIR/book_cover.png" ]; then cover="$$DIR/book_cover.png"; \
+	fi; \
 	python3 tools/kindle-flatten.py --book-dir "$$DIR" --index "$$index" --out "$$prep" --flatten-custom-blocks; \
-	if [ -f "$$cover" ]; then \
+	if [ -n "$$cover" ]; then \
 		"$(PANDOC)" "$$prep" --resource-path="$$DIR" --toc --toc-depth=1 --epub-title-page=false --metadata=toc-title:"Table of Contents" --epub-cover-image="$$cover" -o "$$out"; \
 	else \
 		"$(PANDOC)" "$$prep" --resource-path="$$DIR" --toc --toc-depth=1 --epub-title-page=false --metadata=toc-title:"Table of Contents" -o "$$out"; \

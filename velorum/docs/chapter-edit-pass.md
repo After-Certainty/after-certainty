@@ -8,6 +8,10 @@ Use this document for **repeatable revision passes** so voice, vocabulary, and c
 3. **[synopsis.md](./synopsis.md)** — plot spine; update if story facts move  
 4. **[act-chapter-index.md](./act-chapter-index.md)** — chapter title, POV, intended beats  
 
+**Drafting aid (not conflict authority):** **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)** — scene bones, habits, and closings distilled from **`chapter-01-the-monument.md`** for first-draft alignment.
+
+**Agents (optional Cursor / human roles):** **[agents/README.md](./agents/README.md)** — **Brief-to-rough draft (step 0)** from index + synopsis, then Flow → Embodiment → Dialogue → Thematic → Pacing → Audio; optional Character + Line precision.
+
 When **project-spec** and **synopsis** disagree, reconcile in **project-spec first**, then patch chapters.
 
 ---
@@ -16,7 +20,7 @@ When **project-spec** and **synopsis** disagree, reconcile in **project-spec fir
 
 - [ ] Confirm **single POV** for this chapter (Riven / Cael / Lyra only; no mid-chapter hops). Match **[act-chapter-index.md](./act-chapter-index.md)** unless you intentionally revise planning docs everywhere.  
 - [ ] Confirm this chapter still hits its **beat** on the spine (synopsis + index notes).  
-- [ ] Pick a **shape reference**: **[voice-spec.md](./voice-spec.md)** calibration samples and **`act-1-the-choice/chapter-01-the-monument.md`** (opening = **place-first**, **plain diction**, **camera-observable** narration per **voice-spec → Camera-observable narration**, woven blocks; **Cael/Riven ridge exchange** = **plain dialogue** per **voice-spec → Plain dialogue** with **profanity preserved**; character intros = **concrete first-appearance anchors** per **voice-spec → Character introduction**; narration = **literal sequence** per **voice-spec → Plain sense default** and **clear agency** per **voice-spec → Clear agency**; punctuation = **em dashes almost never** except true interruption per **voice-spec → Em dashes**; vocabulary = **contemporary plain English** with no **museum-catalog** or opaque specialist jargon per **voice-spec → Contemporary lexicon**). Compare flow and density, not exact wording—until the project adopts a different gold chapter.
+- [ ] Pick a **shape reference**: **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)** (quick **what to aim for** while drafting) and/or **[voice-spec.md](./voice-spec.md)** calibration samples plus **`act-1-the-choice/chapter-01-the-monument.md`** (opening = **place-first**, **plain diction**, **camera-observable** narration per **voice-spec → Camera-observable narration**, woven blocks; **Cael/Riven ridge exchange** = **plain dialogue** per **voice-spec → Plain dialogue** with **profanity preserved**; character intros = **concrete first-appearance anchors** per **voice-spec → Character introduction**; narration = **literal sequence** per **voice-spec → Plain sense default** and **clear agency** per **voice-spec → Clear agency**; punctuation = **em dashes almost never** except true interruption per **voice-spec → Em dashes**; vocabulary = **contemporary plain English** with no **museum-catalog** or opaque specialist jargon per **voice-spec → Contemporary lexicon**). Compare flow and density, not exact wording—until the project adopts a different gold chapter.
 
 ---
 

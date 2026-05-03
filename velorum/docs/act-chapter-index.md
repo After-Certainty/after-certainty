@@ -7,6 +7,7 @@
 
 ### Chapter 1 — The Monument
 **POV:** Riven  
+**Gold chapter / drafting exemplar:** manuscript `act-1-the-choice/chapter-01-the-monument.md`; habits **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)**; revision agents **[agents/README.md](./agents/README.md)**.  
 Riven studies the crumbling statue outside Greyhaven. We see his fear of being forgotten and his desire for meaning. Cael frames the legend as purpose.
 
 ### Chapter 2 — The Decision
