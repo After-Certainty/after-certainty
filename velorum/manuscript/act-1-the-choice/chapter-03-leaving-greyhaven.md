@@ -124,13 +124,13 @@ Cael’s shoulders tightened, barely, then loosened. “I know.”
 
 Cael walked another ten paces before he answered, and Riven could almost hear him choosing words the way he chose lumber, rejecting the warped ones first.
 
-“We’re not hauling for someone else’s tally,” Cael said. “We’re going to listen where the songs stop being convenient.”
+“We’re not hauling for someone else’s tally,” Cael said. “We’re going to listen where the songs stop being clean.”
 
 Riven’s mouth twisted. “That’s a line.”
 
 “It’s true.”
 
-“Truth can still be a line.”
+“Still sounds rehearsed.”
 
 Cael didn’t argue that. The wind filled the space instead, pushing hard enough that Riven had to lean into it, pack shifting again, rope knocking once against his hip like a reminder.
 
@@ -146,7 +146,7 @@ Riven looked longer than he meant to.
 
 “I’m…” Riven searched for a word that wasn’t sentimental and failed. “I’m memorizing,” he admitted, thumb braced on the cold buckle until his skin went numb, angry at himself for saying it.
 
-Cael nodded once, like that was allowed. “Good. Memory’s weight. Keeps you honest.”
+Cael nodded once, like that was allowed. “Good. Memory weighs. Keeps you honest.”
 
 “Or keeps you scared.”
 
@@ -162,13 +162,13 @@ Riven drank because his throat was dry and because stopping meant he could look 
 
 Cael glanced up. “What thing.”
 
-“Making it a job so you don’t have to say what you want.”
+“You’re putting it in job words so you don’t have to say what you want.”
 
 Cael’s jaw worked once. “I want to know.”
 
 “Know what.”
 
-“If the ground answers,” Cael said, and the plainness of it hit Riven harder than any speech about purpose. “If it’s real. If it’s… not only ink.”
+“If the ground answers,” Cael said, and the plainness of it hit Riven harder than any speech about purpose. “If it’s more than ink.”
 
 Riven heard the echo of the yard in it, the ridge, the chalk, the way Cael had sat on cold stone and named distances like nails. He also heard the gap: Cael still wasn’t saying what it would mean to him if the answer was yes, or if the answer was no.
 
@@ -204,7 +204,7 @@ Higher up, the wind turned meaner. The trees leaned with it, branches scraping d
 
 “I’m mad that you sound like you’re doing me a favor by letting me carry my own weight.”
 
-Cael was quiet long enough that Riven thought he’d finally pushed too far. Then Cael said, “I’m not doing you a favor. I’m trying not to lose you on a loose edge because you’re too proud to adjust a strap.”
+Cael was quiet long enough that Riven thought he’d finally pushed too far. Then Cael said, “I’m not doing you a favor. I’m trying not to lose you off a loose edge while you’re too proud to loosen a strap.”
 
 “Same sentence, different packaging.”
 
@@ -220,13 +220,13 @@ Riven swallowed, the heat in his neck refusing to go down. “Don’t.”
 
 “Don’t what.”
 
-“Don’t… soften it,” Riven said, harsher than he meant. “I can’t do soft and also do this.”
+“Don’t… soften it,” Riven said, harsher than he meant. “I can’t do soft talk and still mean this.”
 
 Cael nodded once, face tightening back into its familiar lines. “All right.”
 
 They walked.
 
-By midday the road turned to broken shale that clicked under every step, a sound that got inside Riven’s teeth. Sun came thin through cloud, enough to show dust on Cael’s shoulders, enough to show how far Greyhaven had fallen behind, not far in miles maybe, but far in the way distance always cheated: the town still visible if you looked, but too small to return to without meaning it.
+By midday the road turned to broken shale that clicked under every step, a sound that got inside Riven’s teeth. Sun came thin through cloud, enough to show dust on Cael’s shoulders, enough to show how far Greyhaven had fallen behind, not far in miles maybe, but far in the way distance always cheated: the town still visible if he looked, but too small to return to without meaning it.
 
 Riven didn’t look again.
 
@@ -248,11 +248,11 @@ Riven almost laughed. “There it is.”
 
 “The thing,” Riven said. “You treat caring like something you tighten down so it won’t squeak.”
 
-Cael’s mouth tightened, not quite a smile, not quite a wince. “You treat caring like a fire you have to keep feeding or it means you’re dead inside.”
+Cael’s mouth tightened, not quite a smile, not quite a wince. “You treat caring like a fire you have to keep feeding or you’re dead inside.”
 
 Riven stared at him. “That’s not fair.”
 
-“Maybe not.” Cael wrapped the cloth back around the cheese and knotted it with unnecessary care. “But we’re out here because neither of us could stand another year of being useful without a name attached.”
+“Maybe not.” Cael wrapped the cloth back around the cheese and knotted it with unnecessary care. “But we’re out here because neither of us could stomach another year of useful with no name on it.”
 
 Riven’s throat tightened. He looked away fast, fingers curled into his sleeves, at the road, at the loose stones, at anything that wasn’t Cael’s face reading him the way it always did.
 
@@ -322,4 +322,4 @@ Riven rolled onto his side, cheek cold against the blanket, and watched the fire
 
 Tomorrow would be longer.
 
-He closed his eyes and let the road stay ahead of him where it belonged.
+He closed his eyes and let the road stay ahead of him where it belonged.elonged.
