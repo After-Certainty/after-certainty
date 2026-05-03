@@ -99,6 +99,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    # No checkout in this job; gh needs an explicit repo or it shells out to git and fails.
+    env:
+      GH_REPO: ${{ github.repository }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/download-artifact@v4
         with:
@@ -107,8 +111,6 @@ jobs:
           merge-multiple: true
 
       - name: Fetch existing rolling release assets
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
         run: |
           mkdir -p prior
@@ -131,8 +133,6 @@ jobs:
           ls -la upload
 
       - name: Update latest release
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           gh release delete latest --yes --cleanup-tag 2>/dev/null || true
