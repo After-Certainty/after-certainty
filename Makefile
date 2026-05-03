@@ -98,6 +98,7 @@ export-docx: check-pandoc
 	test -f "$$index" || { echo "Error: $$index not found."; exit 1; }; \
 	stem="$${OUT_STEM:-$$($(BOOK_STEM_PY) "$$DIR")}"; \
 	out="$$DIR/$${stem}.docx"; \
+	python3 tools/diagram_rasterize.py --book-dir "$$DIR"; \
 	set --; \
 	links="$$(sed -n 's/.*](\([^)]*\.md\)).*/\1/p' "$$index")"; \
 	for rel in $$links; do \

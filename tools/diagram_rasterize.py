@@ -7,8 +7,10 @@ Uses rsvg-convert (librsvg) or ImageMagick `magick` when available.
 
 from __future__ import annotations
 
+import argparse
 import shutil
 import subprocess
+import sys
 from pathlib import Path
 
 # (source svg relative to book dir, output png relative to book dir, width px)
@@ -83,3 +85,29 @@ def rasterize_book_diagrams(book_dir: Path, *, quiet: bool = False) -> int:
             done += 1
 
     return done
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        description="Rasterize committed SVG diagrams into export-assets for Pandoc exports.",
+    )
+    parser.add_argument(
+        "--book-dir",
+        type=Path,
+        required=True,
+        help="Book root (the folder that contains index.md and docs/diagrams/).",
+    )
+    parser.add_argument(
+        "--quiet",
+        action="store_true",
+        help="Suppress skip / failure messages (still refreshes when tools are available).",
+    )
+    args = parser.parse_args(argv)
+    n = rasterize_book_diagrams(args.book_dir, quiet=args.quiet)
+    if not args.quiet and n:
+        print(f"diagram_pngs_ready={n}", flush=True)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
