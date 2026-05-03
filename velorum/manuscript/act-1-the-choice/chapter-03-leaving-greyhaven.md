@@ -30,7 +30,7 @@ Riven let out a breath he hadn’t known he was holding, then swallowed the firs
 
 Outside, the harbor air hit him damp and salted. The sky over the water was still a bruised color, not quite day, not quite night. Gulls complained on the pilings. A cart creaked somewhere down toward the docks, early work, the kind of work that didn’t care whether you’d slept.
 
-They took the lower lanes first, keeping to shadows where they could, not because they were sneaking exactly, but because Greyhaven had a way of noticing boys with packs, and noticing turned into questions, and questions turned into someone trying to sell you luck you didn’t have coins for.
+They took the lower lanes first, keeping to shadows where they could, not because they were sneaking exactly, but because a pack before dawn read loud in Greyhaven, and loud turned into questions, and questions turned into someone trying to sell you luck you didn’t have coins for.
 
 The north gate’s iron was cold when Riven pushed it. The hinge whined. On the wall beside the guard’s niche, someone had scratched tallies in the paint, days, maybe, or debts, until the marks looked like teeth.
 
@@ -40,7 +40,7 @@ The guard was half asleep, blanket over his knees, smell of last night’s beer 
 
 “North’s always hiring,” the guard muttered, which wasn’t an answer, and waved them through like flies.
 
-The road began as packed dirt and old wheel ruts, wide enough for two carts if both drivers hated each other a little. Houses thinned. Smoke threads rose behind them, then dropped away as the ground lifted. Sound changed too: the harbor noise turned into wind, steady and blunt, pushing at Riven’s ears until the town felt like a rumor.
+The road began as packed dirt and old wheel ruts, wide enough for two carts if both drivers hated each other a little. Houses thinned. Smoke threads rose behind them, then dropped away as the ground lifted. Sound changed too: the harbor noise turned into wind, steady and blunt, pushing at Riven’s ears until Greyhaven wore down to a line of roofs and smoke behind his shoulder.
 
 Cael set a pace that wasn’t cruel but didn’t forgive, either: long strides, shoulders square, eyes on the line where the road cut into the hills. Riven matched it because not matching would’ve been its own kind of talk, and he wasn’t giving Cael that win this early.
 
@@ -106,7 +106,7 @@ Riven touched the marker with his fingertips as he went by, not for luck; he did
 
 The road narrowed. Trees started in patches, thin and resentful, roots grabbing at the edges. The smell of pine wasn’t clean here; it was resin and old sap and something animal faint underneath, like a warning written in a language his nose understood before his brain did.
 
-“You think Mara put our names on the board already,” Riven said.
+“You think Mara put our names on the board already?” Riven said.
 
 “Yes.”
 
@@ -124,7 +124,7 @@ Cael’s shoulders tightened, barely, then loosened. “I know.”
 
 Cael walked another ten paces before he answered, and Riven could almost hear him choosing words the way he chose lumber, rejecting the warped ones first.
 
-“We’re not hauling for someone else’s tally,” Cael said. “We’re going to listen where the songs stop being clean.”
+“We’re not hauling for someone else’s tally,” Cael said. “We’re going to hear past the verses they sell.”
 
 Riven’s mouth twisted. “That’s a line.”
 
@@ -146,7 +146,7 @@ Riven looked longer than he meant to.
 
 “I’m…” Riven searched for a word that wasn’t sentimental and failed. “I’m memorizing,” he admitted, thumb braced on the cold buckle until his skin went numb, angry at himself for saying it.
 
-Cael nodded once, like that was allowed. “Good. Memory weighs. Keeps you honest.”
+Cael nodded once, like that was allowed. “Good. Let it sit heavy. It keeps you honest.”
 
 “Or keeps you scared.”
 
@@ -168,9 +168,9 @@ Cael’s jaw worked once. “I want to know.”
 
 “Know what.”
 
-“If the ground answers,” Cael said, and the plainness of it hit Riven harder than any speech about purpose. “If it’s more than ink.”
+“If the ground answers,” Cael said, like he was calling out a bad joist before he pulled it. “If it’s more than ink.”
 
-Riven heard the echo of the yard in it, the ridge, the chalk, the way Cael had sat on cold stone and named distances like nails. He also heard the gap: Cael still wasn’t saying what it would mean to him if the answer was yes, or if the answer was no.
+Riven heard the echo of the yard in it, the ridge, the chalk, the way Cael had sat on cold stone and named distances like nails. He also heard the gap: Cael wasn’t naming what came after yes, or what came after no.
 
 “And if it’s real,” Riven said slowly, “you’ll call that proof.”
 
@@ -234,7 +234,7 @@ When they stopped to eat, it was bread and hard cheese wrapped in cloth, the kin
 
 Riven chewed and watched a hawk circle until the bird became a dot and vanished.
 
-“You think people will say we ran,” Riven said.
+“You think people will say we ran?” Riven said.
 
 “They’ll say something,” Cael answered. “People always do.”
 
@@ -322,4 +322,4 @@ Riven rolled onto his side, cheek cold against the blanket, and watched the fire
 
 Tomorrow would be longer.
 
-He closed his eyes and let the road stay ahead of him where it belonged.elonged.
+He closed his eyes and let the road stay ahead of him where it belonged.
