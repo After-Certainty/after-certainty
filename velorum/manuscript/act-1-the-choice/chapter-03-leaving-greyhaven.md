@@ -32,7 +32,7 @@ Outside, the harbor air hit him damp and salted. The sky over the water was stil
 
 They took the lower lanes first, keeping to shadows where they could, not because they were sneaking exactly, but because Greyhaven had a way of noticing boys with packs, and noticing turned into questions, and questions turned into someone trying to sell you luck you didn’t have coins for.
 
-The north gate’s iron was cold when Riven pushed it. The hinge whined. On the wall beside the guard’s niche, someone had scratched tallies in the paint, days maybe, or debts, until the marks looked like teeth.
+The north gate’s iron was cold when Riven pushed it. The hinge whined. On the wall beside the guard’s niche, someone had scratched tallies in the paint, days, maybe, or debts, until the marks looked like teeth.
 
 The guard was half asleep, blanket over his knees, smell of last night’s beer still coming off him in sour little breaths. He lifted his chin at them without interest.
 
@@ -84,7 +84,7 @@ Cael slowed, not much, just enough that Riven didn’t have to half jog to keep 
 
 “Same thing, the way you do it.”
 
-Cael glanced back at him, finally, wind tearing at his dark hair. His eyes were steady in a way that made Riven want to look away and also made him want to shove something into that steadiness until it cracked.
+Cael glanced back at him, finally, wind tearing at his dark hair. His eyes were steady in a way that made Riven want to look away and made him want to shove something into that steadiness until it cracked.
 
 “You want to turn around?” Cael asked. Flat. Practical. The worst tone he had.
 
@@ -152,7 +152,7 @@ Cael nodded once, like that was allowed. “Good. Memory’s weight. Keeps you h
 
 “Same coin.”
 
-Riven almost smiled. Almost. The almost hurt worse than a full laugh would’ve.
+Riven almost smiled, and the almost hurt worse than a full laugh would’ve.
 
 They stopped at a thin runoff where water cut a channel across the road, clear enough to cup and drink if you didn’t mind grit. Cael knelt and rinsed his hands anyway, cold water dripping from his fingers, then wiped them dry on his trousers like ritual mattered more than comfort.
 
@@ -180,7 +180,7 @@ Cael stood, knees popping faintly, water still clinging to his knuckles. “I’
 
 “Yes.”
 
-Riven picked up a pebble from the edge of the channel, rolled it in his palm until it warmed a fraction against his skin, then skipped it off the road into the scrub. It vanished too fast to hear land.
+Riven picked up a pebble from the edge of the channel, rolled it in his palm until it warmed a fraction against his skin, then skipped it off the road into the scrub. It vanished too fast to hear it land.
 
 “That’s what scares me,” Riven said. “Not the hill. You.”
 
@@ -194,7 +194,7 @@ Cael looked past him, down the road where the switchbacks kept climbing, then ba
 
 They started again without a signal, the way they always had, two boys trained by work to move when the other moved, even when the reason wasn’t the same.
 
-Higher up, the wind turned meaner. The trees leaned with it, branches scraping dry sounds together. Riven’s breath came harder, not from weakness, from altitude and anger mixed into something he couldn’t separate cleanly.
+Higher up, the wind turned meaner. The trees leaned with it, branches scraping dry sounds together. Riven’s breath came harder, not from weakness, but from altitude and anger mixed into something he couldn’t separate cleanly.
 
 “You still mad about the coat thing?” Cael asked after a while.
 
@@ -288,7 +288,7 @@ Cael’s hand was there a beat later, not grabbing, not guiding, just present on
 
 They kept climbing.
 
-By the time the light began to fail, Greyhaven was gone even when you looked: hidden behind folds of earth and pine, swallowed by distance and the simple fact that turning around would cost more pride than Riven had left in his pockets.
+By the time the light began to fail, Greyhaven was gone even when he looked back: hidden behind folds of earth and pine, swallowed by distance and the simple fact that turning around would cost more pride than Riven had left in his pockets.
 
 They made camp in a hollow off the road where stone broke the wind. Cael built a small fire with the efficiency of someone who’d done it enough that it wasn’t pride, just habit. Flame caught, snapped, settled into steady heat.
 
