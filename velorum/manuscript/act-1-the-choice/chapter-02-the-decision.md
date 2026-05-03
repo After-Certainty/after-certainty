@@ -28,9 +28,11 @@ Riven watched him dry his hands on his shirt hem, eyes shifting the way they did
 
 Riven let out a breath that wasn’t quite a laugh. “So your plan is we fix the world by walking into a ditch.”
 
+The route had been turning behind Cael’s eyes since they came off the monument path. He didn’t let his gaze snag on the wall again before he said it.
+
 “My plan is we quit treating the monument like scenery,” Cael said. “Something you climb to when you’re already mad.”
 
-Riven exhaled, hard enough to hear. “Steps, not slogans.”
+Riven exhaled, hard enough to hear. “Tell me where we sleep night one. Then you can keep talking.”
 
 His own line had landed flat. Cael slowed himself the way he did on a roof when a joist complained, weight settling even through both soles, then went on. “People keep singing the clean version,” he said. “If that’s all there is, fine. We come back and we know.”
 
@@ -58,13 +60,13 @@ Cael flexed his hand once, feeling the ache in the knuckle he’d taken against 
 
 Riven’s mouth tightened, a line forming at the corner the way it did before he picked a fight with a wall. “We could just stay alive.”
 
-“We stay alive either way,” Cael said.
+“We stay alive either way,” Cael said, and hated how clean it sounded, cleaner than his ribs still felt from the climb.
 
 Riven let out a short laugh with no humor in it. “Christ, listen to you.”
 
 “Say it plainer if you want.” Cael tipped his chin toward the kitchen light. “Rent. Work. No list. You said it on the ridge. I heard you.”
 
-Heat climbed Riven’s neck into his hairline, and Cael could read it the way he read a warped board. Riven looked at the ground instead of at him.
+Heat climbed Riven’s neck into his hairline, and Cael could read it the way he read a warped board. Riven’s eyes dropped to the flags instead. Anywhere but Cael’s face.
 
 “I don’t want to be the idiot who followed you because you talked steady.”
 
@@ -92,7 +94,7 @@ Cael waited, the same wait he used when someone on a crew argued about a brace: 
 
 “She will.” Cael had already counted that cost on the walk down, gravel shifting under his soles, Riven’s boots landing a half beat after his steps. “She always does.”
 
-Riven swallowed, once, hard. “And if we die out there like the song says, ribs and all?”
+The question sat wrong in Riven’s throat before he forced it out. “And if we die out there like the song says, ribs and all?”
 
 “Then we die having done something besides watching a singer getting paid to lie.” Cael heard the edge creep in and shaved it off, unclamping his teeth before the next words. “I’m not asking you to like it. I’m asking you to quit acting like what we said on the ridge didn’t count.”
 
@@ -104,11 +106,11 @@ Riven shook his head once, tight. “That isn’t faith, Cael. That’s you piss
 
 “Call it what you want.” Cael picked up the broom again because his hands wanted work, bristles rough and familiar against his skin. “I’m not preaching at you. I’m figuring a week’s worth of walking.”
 
-He put the broom in the corner and sat before his knees locked up from standing any longer, cold snapping up through his thighs. Riven stayed on his feet one beat longer, then dropped beside him and dragged chalk from his pocket. The first line went down hard. It ran north past the last reliable well Mara would fill for free, then the switchbacks, then a long open stretch of high grass and exposed rock where the wind didn’t stop. The step bit cold through Cael’s trousers. He named distances the way he named lumber, honest and rounded up so nobody talked themselves into a short rope.
+He put the broom in the corner and sat before his knees locked up from standing any longer, cold snapping up through his thighs. Riven stayed on his feet one beat longer, then dropped beside him and dragged chalk from his pocket. The first line went down hard. It ran north past the last reliable well Mara would fill for free, then switchbacks and open rock and high grass where the wind didn’t quit. The step bit cold through Cael’s trousers. He named distances the way he named lumber, rounded up so nobody talked themselves into a short rope.
 
 Riven wrote nothing down. He nodded when the numbers sounded stupid, nodded again when they didn’t.
 
-When the chalk snapped, Riven brushed the dust off his fingers. White still clung in the creases, the same smear cheap pamphlet ink left on his thumb. “I don’t have a coat that’ll hold that wind.”
+When the chalk snapped, Riven brushed the dust off his fingers. White still clung in the creases, pamphlet pale on his thumb. “I don’t have a coat that’ll hold that wind.”
 
 “You’ll borrow mine on the worst stretches.”
 
@@ -124,7 +126,7 @@ Cael opened his palms toward his knees, gravel still caught in the creases, then
 
 Cael looked at Riven’s profile against the kitchen light. “Yes.”
 
-Riven exhaled, slow, like he’d been holding air since the ridge. “All right,” he said. “But if you walk like I’m luggage, I’m turning around.”
+Riven exhaled, slow, like he’d been holding air since the ridge. “All right,” he said, the way he said it when he took a shift he already knew would wreck his sleep. Not brave. Just signed. “But if you walk like I’m luggage, I’m turning around.”
 
 “I won’t.”
 
@@ -132,7 +134,7 @@ Riven’s voice went rough. “You will. Christ, you always move like you alread
 
 Cael finally let himself feel tired, a deep pull down his spine and a dull ache across his shoulders that hadn’t been there at noon. He let his shoulders drop half an inch anyway, like he was done holding the roof line straight. “Then tell me when I do,” he said. “You’re the one who hears me when I’m full of shit.”
 
-Riven blinked, caught off balance, then looked away fast. “Yeah,” he muttered. “Somebody has to.”
+Riven blinked, caught off balance. The kitchen light caught the side of his face; he wasn’t looking at Cael anymore. “Yeah,” he muttered. “Somebody has to.”
 
 Inside, Mara’s counting stopped. A door shut, and the inn settled into its night creaks, timber cooling, ropes in the stable ticking when the wind found them.
 

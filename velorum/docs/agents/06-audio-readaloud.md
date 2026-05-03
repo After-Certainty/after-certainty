@@ -34,4 +34,4 @@ Optimize prose for **listening**: cadence, comprehension **without** visual skim
 - **Targeted edits** from an audio-notes pass (typical)  
 - **Full updated text** when you want a whole-chapter listen polish
 
-**When to use:** 👉 Final pass before calling a chapter **done**.
+**When to use:** 👉 Strong default **before** calling a chapter **done**. For a deeper **audiobook-style cadence** polish (sentence flow, connective smoothness, sustained speakability) without a rewrite, run **[09-read-aloud-cadence-clarity-editor.md](./09-read-aloud-cadence-clarity-editor.md)** after this pass when the bar requires it.
