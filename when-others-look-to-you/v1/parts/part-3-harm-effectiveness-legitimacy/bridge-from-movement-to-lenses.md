@@ -1,14 +1,15 @@
 # **Bridge — From Movement to Lenses**
 
-**Renewal**, **erosion**, and **circulation** describe how influence moves.
-Each can be open or captured.
+Start with movement. **Renewal**, **erosion**, and **circulation** describe how
+influence moves. Each can be open or captured.
 
-**Harm**, **effectiveness**, and **legitimacy** are three lenses on what
-influence is producing. Each shows something the others miss. Together they
-complete the picture.
+Turn to what that movement produces. **Harm**, **effectiveness**, and
+**legitimacy** are three lenses on what influence is producing. Each lens shows
+something the others miss. Together they complete the picture.
 
-**Harm** is where cost lands when reach grows. **Effectiveness** is what
-success borrows from and what it still protects. **Legitimacy** is why people
-keep following—and what permission they keep extending over time.
+Say plainly what each lens emphasizes. **Harm** is where cost lands when reach grows.
+**Effectiveness** is what success borrows from and what it still protects.
+**Legitimacy** is why people keep following—and what permission they keep extending
+over time.
 
-Read them together. Where one lens blurs, another can still sharpen the read.
+Read the lenses as a set. Where one blurs, another can still sharpen the read.

@@ -163,8 +163,8 @@ Early **correction** remains possible. Failure stays smaller and cheaper.
 
 **Resulting Context:**
 
-When this pattern weakens, signals arrive late or get buried. Problems grow
-before anyone addresses them.
+Problems surface before they compound. Early challenge stays credible, and
+**correction** can still reach the table in time.
 
 **Related Patterns:**
 
@@ -200,7 +200,7 @@ Plans stay tied to reality instead of to an outdated story.
 
 **Resulting Context:**
 
-**correction** still matters. The group still has room to revise when facts
+**Correction** still matters. The group still has room to revise when facts
 change.
 
 **Related Patterns:**

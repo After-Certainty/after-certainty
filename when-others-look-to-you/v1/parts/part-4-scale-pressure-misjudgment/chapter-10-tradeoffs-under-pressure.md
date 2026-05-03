@@ -33,159 +33,148 @@ the emergency protocol as useful, with a posted sunset and review date.
 
 ### **What the Contrast Shows**
 
-The two scenes start with the same pressure and the same first move. They
-diverge on recovery.
+Both cities face the same storm and open with the same emergency move:
+centralized reroutes, procurement lifted, and a small command group running the
+plan. They split afterward—on whether the emergency stays bounded or quietly
+becomes how things work.
 
-Pressure does not remove tradeoffs. It compresses them. The core
-tradeoff is simple: what helps now can damage later.
+Pressure never removes tradeoffs; it squeezes them into less time. The blunt
+tension stays the same: what buys responsiveness now can cost later.
 
-Under urgency, groups move faster.
-They also give up some **correction**. Sometimes this is necessary.
-The question is what remains temporary after the spike.
-
-The closed scene answers that question one way. The reopened scene answers it
-another.
+Under urgency, organizations usually move faster and give up some
+**correction**. Sometimes that trade is worth it. What matters is what still
+counts as temporary once the spike passes. The closed vignette answers that
+recovery question one way; the reopened vignette answers it another.
 
 ### **Three Lenses, One Moment**
 
-Pressure changes **harm**, **effectiveness**, and **legitimacy** at once.
-**Correction** moves with them: whether dissent and warning can still move fast
-enough to matter.
+Pressure pulls on **harm**, **effectiveness**, and **legitimacy** together.
+**Correction** moves with them—whether dissent and warning can still arrive fast
+enough to steer decisions.
 
-In both scenes, someone pays for delay or blind spots. What changes is
-whether those costs are surfaced and reabsorbed, or displaced and
-normalized.
+Someone always pays for delay or blind spots in these scenes. The difference is
+whether those costs stay visible and get folded back into choices, or drift out
+of sight until they feel ordinary.
 
-**Effectiveness** can mean restoring access while staying fast.
-Or it can mean protecting dashboard stability while access costs move
-off-screen.
-Temporary **legitimacy** can remain bounded by emergency terms, or harden into
-a default people later treat as normal.
+**Effectiveness** can mean restoring access while staying fast, or it can mean
+keeping dashboards calm while access harm slides off-screen. Temporary
+**legitimacy** can stay pinned to emergency language and sunsets, or harden into a
+default people later treat as normal.
 
-Under pressure, **correction** narrows first. Dissent moves from open signal to
-quiet workaround unless channels are reopened on purpose.
-
-In the reopened vignette, challenge calls become decision force again. In the
-closed vignette, challenge becomes report traffic with no route change.
-
-That is a circulation difference: whether signal still moves up, across, and
-back down in time to matter.
+Under pressure, **correction** narrows first: dissent slides from open signal
+toward quiet workaround unless someone reopens channels on purpose. In the
+reopened vignette, challenge calls carry weight again; in the closed vignette,
+challenge piles up as reporting without route changes. That is a circulation
+difference—whether signal still moves up, across, and back down while there is
+still time to matter.
 
 ### **States Under Pressure**
 
-Pressure response reveals group state more clearly than routine
-conditions. In a **regenerative** read, reach and adjustment both hold
-under load. In an **adaptive** read, adjustment holds locally while
-broader coordination strains. In an **entrenched** read, reach still
-holds but changing course gets harder. In a **stalled** read, neither
-reach nor reliable course change holds.
+Pressure strips away the polish that calm weeks provide. How people respond when
+stakes spike often reveals more about the underlying structure than steady
+routines do.
 
-Under pressure, the **vibrant group** and **decaying group** pay different
-costs when course change must happen fast.
+Start with two checks. Reach is whether warning and facts still travel to the
+places that can act. Adjustment is whether direction can still move when new
+information shows up.
 
-The reopened city reads closer to **regenerative** or **adaptive** under load:
-reach holds, and course change is still possible. The closed city reads toward
-**entrenched**: reach holds, but adjustment hardens.
+Those checks yield four reads that show up often enough to name. In a
+**regenerative** read, reach and adjustment both hold under load. In an
+**adaptive** read, adjustment holds locally while broader coordination strains.
+In an **entrenched** read, reach still holds but changing course gets harder. In
+a **stalled** read, neither reliable reach nor reliable course change holds.
 
-Crisis sharpens what you can read from the structure; it is not only a
-disruption.
+Under pressure, the **vibrant group** and **decaying group** pay different costs
+when course change must happen fast. The reopened city reads closer to
+**regenerative** or **adaptive**: reach holds and course change stays possible.
+The closed city reads toward **entrenched**: reach still appears steady, but
+adjustment hardens. Crisis does more than interrupt the schedule; it widens the
+contrast so reach and adjustment are easier to read before the pressure fades.
 
 ### **Crisis Across the Lenses**
 
-During crisis, groups become more willing to shift **harm** onto others. They
-reward short-term **effectiveness** while shrinking the time
-**correction** has to matter. They accelerate **legitimacy** transfer
-through emergency precedent. They normalize temporary authority
-expansions into a lasting baseline for how decisions get
-made.[^c10-crisis-precedent]
+During crisis, several pulls tighten at once. Groups become more willing to shift
+**harm** onto others. They reach for short-term **effectiveness** and shorten the
+time **correction** has to matter. **Legitimacy** transfers faster along emergency
+precedent. Temporary expansions of authority settle into the baseline for how
+decisions happen afterward.[^c10-crisis-precedent]
 
-Crisis does not invent these dynamics; it reveals and amplifies what the
-structure already permits.
+Crisis does not invent those habits; it reveals what the structure already
+permits and turns up the volume.
 
 That is why both cities can look effective in week one. The divergence appears
-later, when emergency precedent either sunsets or becomes governance.
-
-Under pressure, what gets rewarded or punished also travels fast as a template
-for who leads next—**Leadership Reproduces Itself**.
+later, when emergency precedent either sunsets or becomes governance. Under
+pressure, what gets rewarded or punished travels fast as a template for who leads
+next—**Leadership Reproduces Itself**.
 
 ### **Pressure and Recovery**
 
-The question after the spike is not whether **correction** tightened.
-It often does.
-The question is recovery: whether **correction** reopens
-once the acute period passes, including room for temporary step-in
-leadership, or emergency pattern becomes permanent.
-In practice, recovery means **circulation** reopens: ground signal reaches the
+After the spike, the deciding question is not whether **correction**
+tightened—it usually does—but whether **correction** reopens once the acute
+stretch ends. That includes room for temporary step-in leadership and whether
+the emergency pattern sunsets or becomes permanent.
+
+Recovery in practice means **circulation** reopens: ground signal reaches the
 center, decisions adjust, and revised direction returns to the edge.
 
-Temporary contraction can preserve function. Permanent closure locks in **decay**.
-
-In the reopened scene, temporary contraction preserves function and then
-releases it. In the closed scene, contraction becomes the standing
-pattern.
+Temporary contraction can preserve function; permanent closure locks in **decay**.
+In the reopened vignette, contraction does its job and then releases. In the
+closed vignette, contraction becomes the standing pattern.
 
 In crisis, that trade is one way **Examples Accumulate** can undercut evidence
-that **correction** is still working.
-
-The tradeoff worked at first; failure followed when rules meant for emergencies became
-the everyday way decisions get made. That is **Exceptions are Forever**:
-exceptions introduced under urgency tend to persist. Temporary permissions
-harden into the new normal for how things run.
-
-You can see that shift in the vignette pair: posted sunset and reroute revision
-versus permanent sign-off and unchanged map.
+that **correction** is still working. The tradeoff worked at first; failure
+followed when rules meant for emergencies became the everyday way decisions get
+made. That is **Exceptions are Forever**: exceptions introduced under urgency
+tend to persist. Temporary permissions harden into the new normal for how things
+run. You can see that shift in the vignette pair: posted sunset and reroute
+revision versus permanent sign-off and unchanged map.
 
 ### **Restraint Under Urgency**
 
-Restraint can look weak in the moment.
+Restraint often reads as weakness in the hot moment. Leaders who slow down,
+verify, and reopen challenge can look less decisive than leaders who centralize
+control and close debate, but over time restraint usually preserves
+**adaptability** and limits **harm** that would otherwise show up later.
 
-Leaders who slow, verify, and reopen challenge channels may appear less
-decisive than leaders who centralize control and close debate. But over
-time, restraint preserves **adaptability** and limits **harm** that shows up
-later.
+The reopened city takes that reputational risk, accepts short-term friction, and
+changes course. The closed city protects decisiveness and carries more downstream
+cost.
 
-The reopened city takes that reputational risk, accepts short-term friction,
-and changes course. The closed city protects decisiveness and carries more
-downstream cost.
-
-Urgency can be real; what matters is what gets locked in after it passes.[^c10-escalation]
-
-Once the emergency story stops dominating meetings, can new information still
-change the plan? When it can, **Feedback Drives Change**—plans still move with the facts.
+Urgency can be real; what matters is what gets locked in after it
+passes.[^c10-escalation] Once the emergency story stops dominating meetings,
+the question is whether new information can still change the plan. When it
+can, **Feedback Drives Change** still holds: plans keep moving with the facts.
 
 ### **Boundary Conditions**
 
-Groups cross a line when the rules for emergencies become the everyday rules.
+Groups cross a boundary when emergency rules stop reading as temporary and start
+acting like the everyday rulebook. That slide usually follows three beats: a
+temporary exception, then the same carve-out repeated, then the carve-out
+treated as default practice.
 
-The crossing often shows up in sequence:
+Once that pattern lands, pressure is less often the true cause of what happens;
+it becomes the justification people reach for to defend a new baseline.
+**Exceptions are Forever** stops being only a warning—it describes how things
+actually run.
 
-1. Temporary exception.
-2. Repeated exception.
-3. Default practice.
-
-At that point, pressure is no longer the cause. It has become the explanation for
-a new baseline. **Exceptions are Forever** is no longer only a warning. It
-describes how things are actually run.
-
-Read through circulation, the same sequence is a channel shift: narrowed flow,
-then one-way flow, then captured flow.
-
-The closed vignette already sketches this sequence: overnight centralization
-(temporary), continued post-storm sign-off (repeated), then "proven under
-pressure" as default story.
+Read through **circulation**, the same slide looks like a channel shift:
+narrowed flow, then one-way flow, then captured flow. The closed vignette already
+sketches it—overnight centralization as the temporary move, continued post-storm
+sign-off as the repeated move, then "proven under pressure" as the standing
+story.
 
 ### **What Remains Possible**
 
-Tradeoffs under pressure show where things are heading. The question is what remains
-possible once trajectories are visible but reversal is incomplete—and
-once **Exceptions are Forever** has begun to shape the baseline.
+Tradeoffs under pressure point toward where the structure is drifting. The live
+question is what can still change once the trajectory is clear but reversal is
+still incomplete—and once **Exceptions are Forever** has already begun to shape
+the baseline.
 
 The contrast at the chapter opening is the practical read: can the same group
-that centralized in week one also reopen in week two.
+that centralized in week one also reopen in week two?
 
 When visible control outruns structural signal, judgment moves farther from
-front-line evidence.
-The next chapter turns to that read directly.
+front-line evidence. The next chapter turns to that read directly.
 
 ::: {custom-style="Pull Quote Block"}
 Pressure clarifies commitments; it does not absolve them.

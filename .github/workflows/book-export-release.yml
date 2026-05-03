@@ -1,0 +1,142 @@
+# Monorepo: each folder that contains index.md is a book. Only books touched by a
+# change set (plus Makefile/tools/workflows changes) are rebuilt. Shared parents with
+# multiple editions (e.g. when-others-look-to-you/v1 and v2) fan out when a change
+# is under the parent but not inside one edition path.
+#
+# Runs on pushes to main, pull requests targeting main (verify exports before merge),
+# and workflow_dispatch (full rebuild). Only pushes to main update the rolling release.
+
+name: Book export (DOCX + EPUB)
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: book-export-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set.outputs.matrix }}
+      empty: ${{ steps.set.outputs.empty }}
+      count: ${{ steps.set.outputs.count }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve affected books
+        id: set
+        run: |
+          set -euo pipefail
+          if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
+            python3 tools/ci_affected_books.py --repo . --all > /tmp/books.json
+          elif [ "${GITHUB_EVENT_NAME}" = "pull_request" ]; then
+            export GIT_BEFORE="${{ github.event.pull_request.base.sha }}"
+            export GIT_AFTER="${{ github.event.pull_request.head.sha }}"
+            python3 tools/ci_affected_books.py --repo . > /tmp/books.json
+          else
+            export GIT_BEFORE="${{ github.event.before }}"
+            export GIT_AFTER="${{ github.event.after }}"
+            python3 tools/ci_affected_books.py --repo . > /tmp/books.json
+          fi
+          jq -e . /tmp/books.json
+          {
+            echo "matrix<<BOOK_MATRIX_JSON"
+            jq -c '.include' /tmp/books.json
+            echo "BOOK_MATRIX_JSON"
+            echo "empty=$(jq -r '.empty' /tmp/books.json)"
+            echo "count=$(jq -r '.count' /tmp/books.json)"
+          } >> "$GITHUB_OUTPUT"
+
+  export:
+    name: ${{ matrix.dir }}
+    needs: detect
+    if: needs.detect.outputs.empty != 'true'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJSON(needs.detect.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Pandoc, Python helpers, diagram rasterization
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc librsvg2-bin imagemagick
+
+      - name: Export DOCX and Kindle EPUB
+        run: |
+          set -euo pipefail
+          make export-docx "DIR=${{ matrix.dir }}"
+          make export-kindle-epub "DIR=${{ matrix.dir }}"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: book-${{ matrix.slug }}
+          path: |
+            ${{ matrix.dir }}/${{ matrix.stem }}.docx
+            ${{ matrix.dir }}/${{ matrix.stem }}.epub
+          if-no-files-found: error
+
+  release:
+    needs: [detect, export]
+    if: >
+      always() &&
+      needs.detect.outputs.empty != 'true' &&
+      needs.export.result == 'success' &&
+      github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: book-*
+          path: built
+          merge-multiple: true
+
+      - name: Fetch existing rolling release assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+        run: |
+          mkdir -p prior
+          gh release download latest --pattern '*.docx' --pattern '*.epub' --dir prior || true
+
+      - name: Merge prior assets with new builds
+        run: |
+          set -euo pipefail
+          mkdir -p upload
+          shopt -s nullglob
+          for f in prior/*.docx prior/*.epub; do
+            cp -f "$f" "upload/$(basename "$f")"
+          done
+          find built -type f \( -name '*.docx' -o -name '*.epub' \) -exec cp -f {} upload/ \;
+          count=$(find upload -type f | wc -l | tr -d ' ')
+          if [ "$count" -lt 1 ]; then
+            echo "No files to release."
+            exit 1
+          fi
+          ls -la upload
+
+      - name: Update latest release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          gh release delete latest --yes --cleanup-tag 2>/dev/null || true
+          gh release create latest \
+            --title "Latest book exports" \
+            --notes "Automated exports. This push built ${{ needs.detect.outputs.count }} book(s) at commit ${{ github.sha }}." \
+            upload/*

@@ -13,211 +13,205 @@ No one says the decision is wrong. No one says who can reopen it.
 :::
 
 Leadership transfer is where **legitimacy** becomes easiest to read.[^c8-weber]
-People can see who is followed, why they are followed, and what it now costs to question direction.
+People can see who is followed, why they are followed, and what it now costs to
+question direction.
 
-Start there: with the handoff, not an abstract definition.
-The hospital scene is not an exception case.
-It shows the structure in plain view.
-Here is how to read that structure at transfer.
-After authority passes, people keep following for different reasons.
-Those reasons are different forms of legitimacy, and each one ties authority
-to accountability in a different way.
+Start from the handoff, not from an abstract definition. The hospital scene is
+not an exception case. It shows the structure in plain view. Here is how to read
+that structure at transfer: after authority passes, people keep following for
+different reasons. Those reasons are different forms of legitimacy, and each one
+ties authority to accountability in a different way.
 
 ### **Why People Continue to Follow**
 
-**Legitimacy** changes over time.
-It can renew, transfer, harden, or drift out of step with what is
-actually happening.
+**Legitimacy** changes over time. It can renew, transfer, harden, or drift out of
+step with what is actually happening.
 
-In one transfer, people follow because they can still watch conduct and test it against consequence.
-In another, they follow because procedure assigned the role.
-In another, they follow because the title already carries permission.
-In another, they follow because questioning transfer starts to sound like betrayal.
+Across transfers, the reasons differ. In one, people follow because they can still
+watch conduct and test it against consequence. In another, they follow because
+procedure assigned the role. In another, because the title already carries
+permission. In another, because questioning the transfer starts to sound like
+betrayal.
 
-The same institution can move through all four over time.
-The question is not who has good motives.
-The question is what keeps authority revisable once it changes hands.
+The same institution can move through all four over time. The question is not who
+has good motives. The question is what keeps authority revisable once it changes
+hands.
 
 ### **Example-Based Legitimacy**
 
 In example-based legitimacy, people keep following when they can see the new
-leader's behavior match what leadership asks of others.
+leader's behavior line up with what leadership asks of everyone else.
 
-In the same hospital network, the incoming administrator publicly
-narrows one inherited emergency override after local teams show stable
-performance and clear safety outcomes. She accepts a slower rollout,
-keeps the exception list visible, and names the conditions for reopening
-central control if risk rises.
+Stay with the hospital network. The incoming administrator publicly narrows one
+inherited emergency override after local teams show stable performance and clear
+safety outcomes. She accepts a slower rollout, keeps the exception list visible,
+and names the conditions for reopening central control if risk rises.
 
-People are not following only because she has the role. They are following because they can see conduct tied to consequence in real time.
+People are not following only because she has the role. They follow because they
+can see conduct tied to consequence in real time.
 
-This only holds if what leaders do keeps matching what they say, especially
+That pattern lasts only if what leaders do keeps matching what they say—especially
 under pressure.
 
 ### **Procedural Legitimacy**
 
-In procedural legitimacy, people keep following when transfer rules still
-limit what leaders can do.
+In procedural legitimacy, people keep following when transfer rules still limit
+what leaders can do.
 
-In the same network, the board's transfer protocol requires a published
-review of all surge-era permissions within ninety days, local testimony
-from affected sites, and a recorded vote for each exception that
-remains. The incoming administrator keeps authority because the process
-says she has it, but the process also limits what can pass forward
-without scrutiny.
+Stay in the same network. The board's transfer protocol requires a published review
+of all surge-era permissions within ninety days, local testimony from affected
+sites, and a recorded vote for each exception that remains. The incoming
+administrator keeps authority because the process says she has it, but the
+process also limits what can pass forward without scrutiny.
 
-When the process is real, it keeps things moving without shutting down
-challenge.
-When procedure becomes ceremony, continuity can hide erosion.
+When the process is real, work keeps moving and challenge keeps a door open. When
+procedure becomes ceremony, continuity can hide erosion.
 
 ### **Office-Based Legitimacy**
 
 In office-based legitimacy, people follow because the position already carries
 permissions that transfer with the title.
 
-In the same network, the incoming administrator keeps broad central
-sign-off authority because "that is what this office now includes."
-Local leaders route decisions through the center by default even when
-the original surge condition is gone. Nothing dramatic happens. The path
-simply stays centralized because the role already carries it.
-
-This form can stabilize large systems.
-It can also move authority forward faster than accountability can catch up.
+Stay in the same network. The incoming administrator keeps broad central sign-off
+authority because "that is what this office now includes." Local leaders route
+decisions through the center by default even when the original surge condition is
+gone. Nothing dramatic happens on the surface. The path simply stays centralized
+because the role already carries it. This form can stabilize large systems. It can
+also move authority forward faster than accountability can catch up.
 
 ### **Sacralized Legitimacy**
 
-Sacralized legitimacy appears when questioning the transfer starts to feel
-like a moral or identity threat.[^c8-arendt]
-People follow because challenge to leadership starts to sound like challenge to who "we" are.
+Sacralized legitimacy appears when questioning the transfer starts to feel like a
+moral or identity threat.[^c8-arendt] People follow because challenge to
+leadership starts to sound like challenge to who "we" are.
 
-In the same network, a clinical director asks whether surge-era
-controls should sunset unit by unit. The reply is not about metrics or
-process. It is that reopening transfer decisions now would "undermine
-trust in the mission we held together during crisis." After that
-exchange, fewer people raise transfer questions in public.
+Stay in the same network. A clinical director asks whether surge-era controls
+should sunset unit by unit. The reply is not about metrics or process. It is that
+reopening transfer decisions now would "undermine trust in the mission we held
+together during crisis." After that exchange, fewer people raise transfer questions
+in public.
 
-From the inside, this can feel like unity.
-Structurally, it makes **correction** harder: challenge becomes socially
-costly, then rare.
+From the inside, this can feel like unity. Structurally, it makes **correction**
+harder: challenge becomes socially costly, then rare.
 
 ### **How Legitimacy Transfers and Shifts**
 
-Under pressure, groups often move like this:
+Under pressure, many groups slide along a familiar arc—from example-based
+legitimacy, toward procedural legitimacy, then office-based legitimacy, then
+sacralized legitimacy.
 
-Example-based -> procedural -> office-based -> sacralized
+In plain language, people trust what they can see, then what the rules assign,
+then what the title already carries, and sometimes the role grows too charged to
+question openly.
 
-In plain terms, people trust what they can see, then the rules, then the title, and sometimes the role becomes too holy to question.
+That drift is common; it is not inevitable. Groups in **renewal** deliberately
+reopen transfer decisions before insulation hardens.
 
-This movement is common, not inevitable.
-Groups in **renewal** deliberately reopen transfer decisions before insulation hardens.
-
-Crisis matters because it can widen office permissions quickly.
-Without active rollback, those permissions are what the next leader inherits.
+Crisis matters because it can widen office permissions quickly. Without active
+rollback, those permissions are what the next leader inherits.
 
 ### **Selective Followership as a Probe**
 
-Selective followership helps reveal which form of legitimacy is active.
-It also shows what kind of **correction** is still possible.
+Selective followership works as a probe: it hints which form of legitimacy is
+active and what kind of **correction** still has room.
 
-Not all refusal means disorder. In **vibrant** groups, selective refusal can function as **correction**.
-People can say, "I agree with the goal, but not this method," without becoming
-enemies of the group. That kind of limited pushback protects judgment
-and keeps authority connected to consequences.
+Not all refusal means disorder. In **vibrant** groups, selective refusal can
+function as **correction**. People can say, "I agree with the goal, but not this
+method," without becoming enemies of the group. That limited pushback protects
+judgment and keeps authority connected to consequences.
 
-In **decaying** groups, selective refusal turns covert. People perform
-agreement while quietly routing around decisions they do not trust. The
-group still appears coordinated, but shared reality weakens.
+In **decaying** groups, selective refusal turns covert. People perform agreement
+while quietly routing around decisions they do not trust. The group still looks
+coordinated, but shared reality weakens.
 
-The same behavior can mean different things depending on whether a group is in **renewal** or **erosion**.
-Open selective dissent points to **renewal**.
-Hidden selective resistance points to **erosion**.
+The same outward behavior can track **renewal** or **erosion**. Open selective
+dissent usually points toward **renewal**. Hidden selective resistance usually
+points toward **erosion**.
 
-Open disagreement inside shared purpose usually means legitimacy is still renewing.
-Public compliance paired with private divergence usually means legitimacy is sliding toward office-based or sacralized forms.
-In that state, calm surfaces can hide trust loss, and open challenge can give way to **Disagreement is Suppressed**.
+Open disagreement inside shared purpose usually means legitimacy is still
+renewing. Public compliance paired with private divergence usually means legitimacy
+is sliding toward office-based or sacralized forms. In that state, calm surfaces
+can hide trust loss, and open challenge can give way to **Disagreement is Suppressed**.
 
 ### **Legitimacy and Accountability**
 
-A leader can keep attention after legitimacy weakens. Titles persist.
-Stories about who we are persist. Habits persist.
+A leader can still draw attention after legitimacy weakens. What lingers are the
+titles, the stories about who we are, and the habits that keep repeating.
 
-The question is whether the people making decisions are still accountable to
-the people affected by them.
+The structural question is whether people making decisions remain accountable to
+the people their choices affect.
 
-If legitimacy cannot renew through visible **correction**, influence may
-continue, but decay deepens.
+If legitimacy cannot renew through visible **correction**, influence may continue,
+but decay deepens.
 
 ### **Correction and Circulation**
 
-People continue to follow for different legitimacy reasons.
-**Correction** shows whether warnings and dissent can still reach those who
-hold power and change a decision without punishment.
+People keep following for different legitimacy reasons. **Correction** is the read
+on whether warnings and dissent can still reach the people who hold power and
+change a decision without punishment.
 
-**Circulation** shows whether influence can still move out from formal leaders
-and back through people who step up for a moment, then step back.
+**Circulation** is the read on whether influence can still leave formal leaders,
+pass through people who step up for a moment, and come back without a penalty
+round.
 
 How those episodes are treated feeds **legitimacy** as well as throughput.
 **Permission**—what the room teaches after someone leads without being the usual
 name—adds up in the same **vibrant** or **decaying** habits **circulation**
-describes. Who counts as a leader and who people will still follow do not stay
-separate questions for long.
+describes. Before long, who counts as a leader and who people will still follow
+stop looking like separate questions.
 
 ### **Correction Signals**
 
-Beyond **selective followership**, other **correction** signals are
-visible in ordinary work.
-Watch whether bad news travels upward without career penalty.
-Watch whether dissent can change a decision before execution.
-Watch whether leaders explain revision when they change course.
-Watch whether trust increases or contracts after conflict.
+Beyond **selective followership**, other **correction** signals show up in ordinary
+work. Watch whether bad news travels upward without career penalty, whether
+dissent can change a decision before execution, whether leaders explain revision
+when they change course, and whether trust increases or contracts after conflict.
 
-**Circulation** leaves a different trace. Feedback reaching the center
-is only part of the read.
-Watch what the room teaches after someone who is not the usual name holds it.
-Watch whether step-ins are credited and named.
-Watch whether people are welcome back into the decision ring.
-Watch whether the afterward story reads as useful work or damage control.
-Those are **permission** signals.
-They narrow or widen before the next crisis tests who may steer.
+**Circulation** leaves a different trace. Feedback reaching the center is only
+part of the read. Also watch what the room teaches after someone who is not the
+usual name holds it—whether step-ins are credited and named, whether people are
+welcome back into the decision ring, and whether the afterward story reads as
+useful work or damage control. Those are **permission** signals. They narrow or
+widen before the next crisis tests who may steer.
 
 When most **correction** signals read closed, authority is becoming one-way.
-When **permission** reads cold, people still learn to wait for the usual
-gate, even when the work has already moved on.
+When **permission** reads cold, people still learn to wait for the usual gate,
+even when the work has already moved on.
 
 ### **How Correction and Circulation Shape Renewal and Erosion**
 
-**Correction** keeps authority connected to consequence.
+**Correction** keeps authority connected to consequence. It lets a growing
+organization spot early warnings and adjust before harm spreads. It does not
+erase conflict; it keeps conflict open to revision.
 
-It lets a growing organization spot early warning signals and adjust
-before harm spreads.
-It does not remove conflict; it keeps conflict open to revision.
+**Circulation** also helps groups grow when **permission** lets people nearest the
+shifting facts step in, fix things locally, and send what they learned back to the
+center.
 
-**Circulation** also helps groups grow when **permission** lets people nearest
-the shifting facts step in, fix things locally, and send what they learned back
-to the center.
-
-When **correction** weakens, decay appears before leaders can name it.
-What got rewarded or punished while **correction** narrowed is what the next
-leaders will have learned to copy—**Leadership Reproduces Itself**.
+When **correction** weakens, decay appears before leaders can name it. What got
+rewarded or punished while **correction** narrowed is what the next leaders will
+have learned to copy—**Leadership Reproduces Itself**.
 
 ### **Scale and Distance**
 
-Under scale, distance and abstraction make **correction** harder to sustain.
-A short-lived tight grip on **correction** during crisis can also harden into
-habit if no one deliberately opens feedback again.
+Under scale, distance and abstraction make **correction** harder to sustain. A
+short-lived tight grip on **correction** during crisis can harden into habit if
+nobody deliberately opens feedback again.
 
-As reach grows, structure moves toward insulation when decision-makers are far from consequence.
+As reach grows, decision-makers often sit farther from consequence, and structure
+slides toward insulation.
 
-**Correction** is not a promise. It helps groups adjust as they grow—but only
-when feedback can still change decisions.
+**Correction** is not a promise. It helps groups adjust as they grow—but only when
+feedback can still change decisions.
 
-Return to the hospital handoff. The unresolved line was not whether
-central control existed; it was who could reopen it and on what terms.
-By now the read is clearer.
-Example, process, office carryover, and sacralization pressure each answer that question differently.
-That difference decides whether transfer keeps accountability alive—or seals it.
+Return to the hospital handoff. The unresolved question was never whether central
+control existed; it was who could reopen it and on what terms. By now that read is
+clearer. Example-based, procedural, office-based, and sacralized pressures each
+answer that reopening question differently. That difference decides whether transfer
+keeps accountability alive—or seals it.
 
-Appendix A extends this transfer read across government, healthcare, and religious institutional sequences at larger scale.
+Appendix A extends this transfer read across government, healthcare, and religious
+institutional sequences at larger scale.
 
 ::: {custom-style="Pull Quote Block"}
 Legitimacy survives through repeated accountability, not one-time assent.
