@@ -26,7 +26,7 @@ Cael’s eyes flicked to Mara, then back. “We leave clean,” he said, softer.
 
 Distance. Like miles were the point.
 
-Riven swallowed the first thing that wanted out of his mouth, something sharp about beams and cracks and pretending fear was a schedule, and nodded once because nodding cost less than explaining.
+Riven let out a breath he hadn’t known he was holding, then swallowed the first thing that wanted out of his mouth, something sharp about beams and cracks and pretending fear was a schedule, and nodded once because nodding cost less than explaining.
 
 Outside, the harbor air hit him damp and salted. The sky over the water was still a bruised color, not quite day, not quite night. Gulls complained on the pilings. A cart creaked somewhere down toward the docks, early work, the kind of work that didn’t care whether you’d slept.
 
@@ -66,7 +66,7 @@ They climbed until sweat cooled on Riven’s neck and the wind found the gap at 
 
 Riven loosened the strap one notch, hating that Cael was right, hating worse that Cael could tell without looking.
 
-The road bent and rose again. On the outer edge, the drop wasn’t dramatic enough to call a cliff, but it was honest enough to break something if you stepped wrong. Riven stayed to the inside without deciding to, body doing math his mouth wouldn’t admit.
+The road bent and rose again. On the outer edge, the drop wasn’t dramatic enough to call a cliff, but it was honest enough to break something if you stepped wrong. Riven stayed to the inside without deciding to, his weight on the safer dirt, his feet picking the line before his mouth would say it out loud.
 
 “You remember what you said?” Riven asked when the silence started to feel like a third person walking between them.
 
@@ -114,7 +114,7 @@ The road narrowed. Trees started in patches, thin and resentful, roots grabbing 
 
 “She doesn’t waste time,” Cael said. “She wastes people slower.”
 
-Riven swallowed. The inn board was a joke until it wasn’t, names in chalk, shifts, who owed what, who’d been seen leaving with a pack. It was how Greyhaven kept its stories straight: not with books, with lists.
+Riven swallowed, his throat tight. The inn board was a joke until it wasn’t, names in chalk, shifts, who owed what, who’d been seen leaving with a pack. It was how Greyhaven kept its stories straight: not with books, with lists.
 
 “I keep seeing the dock,” Riven said, and hated that it came out quieter than he meant. “Dusk. Nobody left to say who hauled what.”
 
@@ -144,7 +144,7 @@ Riven looked longer than he meant to.
 
 “You’re measuring.”
 
-“I’m…” Riven searched for a word that wasn’t sentimental and failed. “I’m memorizing,” he admitted, angry at himself for saying it.
+“I’m…” Riven searched for a word that wasn’t sentimental and failed. “I’m memorizing,” he admitted, thumb braced on the cold buckle until his skin went numb, angry at himself for saying it.
 
 Cael nodded once, like that was allowed. “Good. Memory’s weight. Keeps you honest.”
 
@@ -184,7 +184,7 @@ Riven picked up a pebble from the edge of the channel, rolled it in his palm unt
 
 “That’s what scares me,” Riven said. “Not the hill. You.”
 
-Cael blinked, caught off balance for once. “Me.”
+Cael blinked, caught off balance for once, gravel shifting under his boots as he reset his weight. “Me.”
 
 “You don’t stop,” Riven said. “You don’t even slow for maybe. You just… pick a line and go.”
 
@@ -216,7 +216,7 @@ Cael exhaled through his nose. “Riven.”
 
 The words landed wrong-warm in the cold air, like a hand on the back of Riven’s neck he hadn’t asked for and still leaned into.
 
-Riven swallowed. “Don’t.”
+Riven swallowed, the heat in his neck refusing to go down. “Don’t.”
 
 “Don’t what.”
 
@@ -254,7 +254,7 @@ Riven stared at him. “That’s not fair.”
 
 “Maybe not.” Cael wrapped the cloth back around the cheese and knotted it with unnecessary care. “But we’re out here because neither of us could stand another year of being useful without a name attached.”
 
-Riven’s throat tightened. He looked away fast, at the road, at the loose stones, at anything that wasn’t Cael’s face reading him the way it always did.
+Riven’s throat tightened. He looked away fast, fingers curled into his sleeves, at the road, at the loose stones, at anything that wasn’t Cael’s face reading him the way it always did.
 
 “That’s…” Riven started, then stopped, because finishing would’ve turned it into a speech, and speeches were how you lied to yourself prettily.
 
