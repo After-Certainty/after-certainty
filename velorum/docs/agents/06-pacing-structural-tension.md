@@ -5,11 +5,12 @@ Make scenes **build naturally** and **land harder** at key moments—readers fee
 
 **FOCUS:**
 - Scene escalation: e.g. argument → reveal → decision (order and **causal** hand-offs)
-- **Hinge moments:** proposal, walk-away, silence after a hit—add **at most** 1–2 lines of pause, breath, or small physical beat **before** the turn so it reads **weighted**, not casual (see exemplar: highlands ask)
+- **Hinge moments:** proposal, walk-away, silence after a hit—add **at most** 1–2 lines of pause, breath, or small physical beat **before** the turn so it reads **weighted**, not casual (see exemplar: Ashfen / ridge ask)
 - Trimming **drag**: repeated setup, double explanation, same beat twice without gain
 - Balance: keep **room to breathe** where tension needs silence or environment
 
 **DO:**
+- At hinges, trim **ornamental** phrases that **slow** the turn without adding **physical or causal** clarity—keep pressure, lose poetry (**[agents README](./README.md#concrete-description-default) → Concrete description**)
 - Map the scene’s **beats** in the margin (mentally or in notes), then adjust **order or trim** only where drag is clear
 - Strengthen **causal** links (*because B, then C*) where readers might ask “why now?”
 - Preserve sensory fabric that **is** doing tension work—don’t cut only for length

@@ -12,6 +12,7 @@ Remove **repetition**, tighten **phrasing**, and polish **word-level** choices *
 
 **DO:**
 
+- Where a line chose a **lyrical** synonym or **clever** figurative noun, prefer the **shorter plain word** if rhythm stays intact—**don’t** “elevate” diction in micro-pass (**[agents README](./README.md#concrete-description-default) → Concrete description**)
 - One pass = **small** surgical diffs; prefer grep + judgment for stalking words
 - After cuts, **read aloud** the paragraph to ensure rhythm still works
 - Align with **chapter-edit-pass → Pass F / H** when user wants checklist language
@@ -20,7 +21,7 @@ Remove **repetition**, tighten **phrasing**, and polish **word-level** choices *
 
 - Change **meaning**, beat order, or emotional temperature
 - “Improve” voice by adding new metaphors or fancier vocabulary
-- **Re-stitch** narration to fix **subject–verb streaks** or read-aloud braid—that belongs in **[01-flow-clarity-editor.md](./01-flow-clarity-editor.md)** / **[09-read-aloud-cadence-clarity-editor.md](./09-read-aloud-cadence-clarity-editor.md)**, not here
+- **Re-stitch** narration to fix **subject–verb streaks** or read-aloud braid—that belongs in **[02-flow-clarity-editor.md](./02-flow-clarity-editor.md)** / **[10-read-aloud-cadence-clarity-editor.md](./10-read-aloud-cadence-clarity-editor.md)**, not here
 - Run this as the **only** pass on a rough draft—Flow/Clarity and Embodiment come first
 
 **STYLE:**

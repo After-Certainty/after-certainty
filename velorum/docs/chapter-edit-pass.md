@@ -8,9 +8,9 @@ Use this document for **repeatable revision passes** so voice, vocabulary, and c
 3. **[synopsis.md](./synopsis.md)** — plot spine; update if story facts move  
 4. **[act-chapter-index.md](./act-chapter-index.md)** — chapter title, POV, intended beats  
 
-**Drafting aid (not conflict authority):** **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)** — scene bones, habits, and closings distilled from **`chapter-01-the-monument.md`** for first-draft alignment.
+**Drafting aid (not conflict authority):** **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)** — scene bones, habits, and closings distilled from **`chapter-01-heartbridge.md`** for first-draft alignment.
 
-**Agents (optional Cursor / human roles):** **[agents/README.md](./agents/README.md)** — **Brief-to-rough draft (step 0)** from index + synopsis, then Flow → Embodiment → Dialogue → Thematic → Pacing → Audio; optional Character + Line precision.
+**Agents (optional Cursor / human roles):** **[agents/README.md](./agents/README.md)** — **Brief-to-rough draft (step 0)** from index + synopsis, optional **cinematic scene pass (1)** for vivid located scenes, then Flow → Embodiment → Dialogue → Thematic → Pacing → Audio (**agents 2–7**); optional Character + Line precision (**8–9**) and Read-Aloud Cadence (**10**).
 
 When **project-spec** and **synopsis** disagree, reconcile in **project-spec first**, then patch chapters.
 
@@ -20,7 +20,7 @@ When **project-spec** and **synopsis** disagree, reconcile in **project-spec fir
 
 - [ ] Confirm **single POV** for this chapter (Riven / Cael / Lyra only; no mid-chapter hops). Match **[act-chapter-index.md](./act-chapter-index.md)** unless you intentionally revise planning docs everywhere.  
 - [ ] Confirm this chapter still hits its **beat** on the spine (synopsis + index notes).  
-- [ ] Pick a **shape reference**: **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)** (quick **what to aim for** while drafting) and/or **[voice-spec.md](./voice-spec.md)** calibration samples plus **`act-1-the-choice/chapter-01-the-monument.md`** (opening = **place-first**, **plain diction**, **camera-observable** narration per **voice-spec → Camera-observable narration**, woven blocks; **Cael/Riven ridge exchange** = **plain dialogue** per **voice-spec → Plain dialogue** with **profanity preserved**; character intros = **concrete first-appearance anchors** per **voice-spec → Character introduction**; narration = **literal sequence** per **voice-spec → Plain sense default** and **clear agency** per **voice-spec → Clear agency**; punctuation = **em dashes almost never** except true interruption per **voice-spec → Em dashes**; vocabulary = **contemporary plain English** with no **museum-catalog** or opaque specialist jargon per **voice-spec → Contemporary lexicon**). Compare flow and density, not exact wording—until the project adopts a different gold chapter.
+- [ ] Pick a **shape reference**: **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)** (quick **what to aim for** while drafting) and/or **[voice-spec.md](./voice-spec.md)** calibration samples plus **`act-1-the-choice/chapter-01-heartbridge.md`** (opening = **place-first**, **plain diction**, **camera-observable** narration per **voice-spec → Camera-observable narration**, woven blocks; **Cael/Riven ridge exchange** = **plain dialogue** per **voice-spec → Plain dialogue** with **profanity preserved**; character intros = **concrete first-appearance anchors** per **voice-spec → Character introduction**; narration = **literal sequence** per **voice-spec → Plain sense default** and **clear agency** per **voice-spec → Clear agency**; punctuation = **em dashes almost never** except true interruption per **voice-spec → Em dashes**; vocabulary = **contemporary plain English** with no **museum-catalog** or opaque specialist jargon per **voice-spec → Contemporary lexicon**). Compare flow and density, not exact wording—until the project adopts a different gold chapter.
 
 ---
 
@@ -81,7 +81,7 @@ From **project-spec** + **voice-spec**:
 
 - [ ] **Terrain OR Velorum manifestation OR bond altering perception/motion** appears in **each scene** (not wallpaper—reader should feel pressure, correction, alignment, delay, or resistance where appropriate).  
 - [ ] **Dialogue:** plenty of exchange—multiple back-and-forth blocks, subtext, conflict; not exposition disguised as debate. Character speech matches **[voice-spec.md](./voice-spec.md)** register tables (Riven heat, Cael control with rare cracks, Lyra flat/cutting).  
-- [ ] **Paragraph fabric:** sustained narration blocks where the voice spec calls for weaving; avoid staccato one-line paragraphs unless the rhythm truly needs a punch.  
+- [ ] **Paragraph fabric:** sustained narration blocks where the voice spec calls for weaving; avoid staccato one-line paragraphs unless the rhythm truly needs a punch. For a **systematic pass** that merges **single-sentence paragraphs** into **multi-sentence** blocks (narration and, where flow allows, dialogue) while fixing **speaker clarity**, use **[agents/02-flow-clarity-editor.md](./agents/02-flow-clarity-editor.md)** — *Paragraph merge pass* under **FOCUS** / **DO**; ground rules in **voice-spec → Paragraph shape** and **Rapid banter attribution**.  
 - [ ] **Character introduction:** any **named character who appears for the first time in the manuscript** in this chapter gets a **short concrete anchor** (physical and, if useful, one social read)—see **[voice-spec.md](./voice-spec.md)** → **Character introduction**. Same standard as Chapter 1 for Riven, Cael, Bran; scale length to role. Do **not** re-describe returning characters every entrance unless time, injury, disguise, or crowd demands it.  
 - [ ] **Content boundaries:** no sex on the page (voice-spec).
 
@@ -94,7 +94,7 @@ See **voice-spec → Readability** and **voice-spec → Em dashes**.
 - [ ] Prefer **short, familiar words** where they do the same job; adult ideas stay; **delivery** stays clear.  
 - [ ] Cut **true run-ons** (unclear referents, accidental “and… and… which…” bags). Long sentences are fine when **each clause earns its place**.  
 - [ ] Replace **stacked abstractions** and **noun piles** with **one concrete image**, then move.  
-- [ ] **Em dashes:** use **sparingly** (true dialogue interruption, rare aside). Rewrite most as commas, semicolons, colons, parentheses, or sentence breaks so the chapter doesn’t read em-dash padded—see **voice-spec → Em dashes**; compare density to **`chapter-01-the-monument.md`**.  
+- [ ] **Em dashes:** use **sparingly** (true dialogue interruption, rare aside). Rewrite most as commas, semicolons, colons, parentheses, or sentence breaks so the chapter doesn’t read em-dash padded—see **voice-spec → Em dashes**; compare density to **`chapter-01-heartbridge.md`**.  
 - [ ] Heavy profanity stays **dialogue-heavy** where voice-spec assigns it; narration stays comparatively clean.  
 - [ ] **Period / costume lexicon:** Replace historical-trade wallpaper (*hawkers*, *chapbooks*, rare guild nouns) with **clear modern equivalents** unless the word is **Velorum canon**, **dialogue performance**, or **taught in-scene**—see **voice-spec → Contemporary lexicon**.  
 - [ ] **Museum-catalog / specialist jargon:** narration is **ordinary contemporary English**—avoid rare art-, architecture-, or textbook-register words (*plinth*, *effigy*, *socle*, unexplained nautical or heraldic jargon) unless **quoted**, **in-scene teaching**, or an **expert voice** earns them—see **voice-spec → Contemporary lexicon → No museum-catalog or opaque jargon**.
@@ -110,8 +110,8 @@ See **voice-spec → Plain dialogue**. Run after **Pass C** when the chapter has
 - [ ] **One figure per spoken beat** unless voice is deliberately theatrical (singer, magistrate, ritual); **banter stays short**.  
 - [ ] **Lore / theology in dialogue** stays clearly **what someone claims** (*the old tale says*, *pamphlet says*)—not narrator proving canon (see **Pass A3**).  
 - [ ] **Profanity:** do **not** soften or remove approved swearing to “help” plainness—see **voice-spec → Plain dialogue** (profanity stays on polish) and **voice-spec → Voice guardrails**.  
-- [ ] **Rapid banter:** when short lines volley **three or more times** without narration between, or when a **one-word** reply could belong to either speaker, add **said/asked** or a **named beat** often enough that the chain never blurs—then strip redundant tags where the speaker is already obvious from the prior beat—see **voice-spec → Dialogue quality → Rapid banter attribution**; use **`chapter-01-the-monument.md`** after a banter pass as the bar.  
-- [ ] Compare density to **`chapter-01-the-monument.md`** monument exchange: **direct challenges**, **trade-grounded Cael**, **heat-forward Riven**, attributed tale wording where the spine requires it.
+- [ ] **Rapid banter:** when short lines volley **three or more times** without narration between, or when a **one-word** reply could belong to either speaker, add **said/asked** or a **named beat** often enough that the chain never blurs—then strip redundant tags where the speaker is already obvious from the prior beat—see **voice-spec → Dialogue quality → Rapid banter attribution**; use **`chapter-01-heartbridge.md`** after a banter pass as the bar.  
+- [ ] Compare density to **`chapter-01-heartbridge.md`** Heartbridge ridge exchange: **direct challenges**, **trade-grounded Cael**, **heat-forward Riven**, attributed tale wording where the spine requires it.
 
 ---
 
@@ -150,14 +150,14 @@ See **voice-spec → Camera-observable narration**. Use when narration still **s
 
 ## Pass D2 — Place-first & plain diction *(Chapter 1 exemplar)*
 
-Align narration with **`chapter-01-the-monument.md`** opening: readers should know **who, where, and what** without specialist vocabulary or slogan-shaped lines. See **voice-spec → Place-first narration & plain diction** and **voice-spec → Spatial and surface clarity**.
+Align narration with **`chapter-01-heartbridge.md`** opening: readers should know **who, where, and what** without specialist vocabulary or slogan-shaped lines. See **voice-spec → Place-first narration & plain diction** and **voice-spec → Spatial and surface clarity**.
 
 - [ ] **Geography & trade:** New or revisited locations use **plain, physical anchors** (harbor mouth, shallow sand, docks, timber lanes)—not rare nautical or landscape terms unless context teaches them in the same beat. When in doubt, swap to what a POV character would **see from their boots**.  
 - [ ] **No floating mottoes:** Replace **aphoristic one-liners** (*X teaches you Y*) with **image + consequence**—who loses money, who sleeps thin-walled, what fails when weather turns.  
 - [ ] **Optional verdict line:** After a dense place sketch, a short **practical summary** sentence is allowed (see Ch. 1 opening: *That was Greyhaven in practical terms…*)—then move on.  
 - [ ] **Stack concrete nouns** in long sentences when braiding scene; avoid **stacked abstractions** in the same breath.  
 - [ ] **Second read:** If a sentence sounds like a **poster or thesis**, rewrite until **someone’s hands or the ground** carries the idea.  
-- [ ] **Paths, wind, sightlines:** Surfaces and movement read clearly—**full of / underfoot / along / beyond**, plain windbreak physics, anchored sound (**from the slope below**), no ambiguous **it** when wind and face share a sentence—see **voice-spec → Spatial and surface clarity**; compare **`chapter-01-the-monument.md`** after its spatial pass.
+- [ ] **Paths, wind, sightlines:** Surfaces and movement read clearly—**full of / underfoot / along / beyond**, plain windbreak physics, anchored sound (**from the slope below**), no ambiguous **it** when wind and face share a sentence—see **voice-spec → Spatial and surface clarity**; compare **`chapter-01-heartbridge.md`** after its spatial pass.
 
 ---
 
@@ -187,7 +187,7 @@ See **voice-spec → Tightening** (same pass, full standard). **Run F before** f
 - [ ] Prefer **specific dread** (*timber cracks; bridge plank spins off*) over generic collapse (*things fall apart*) unless voice explicitly needs vagueness.  
 - [ ] Watch **callback echoes** (motifs like boots-by-door): keep only if they **gain** meaning; otherwise one beat is enough.  
 - [ ] After cuts, **preserve paragraph fabric**: recombine narration so tightening does not turn into **staccato one-line stacks** unless rhythm truly demands it (**voice-spec → Paragraph shape**).  
-- [ ] Compare density to **`chapter-01-the-monument.md`** after polish: **no double-tap description**, **one earned image** where two weaker ones used to sit.
+- [ ] Compare density to **`chapter-01-heartbridge.md`** after polish: **no double-tap description**, **one earned image** where two weaker ones used to sit.
 
 ---
 
@@ -208,7 +208,7 @@ Optional: skim with search for a frequent word (*\bwind\b*, *square*, *hands*) w
 ## Pass G — Final skim
 
 - [ ] Read **aloud** or use TTS—catch stiff syntax and accidental jargon.  
-- [ ] **Subject–verb streaks:** flag stretches where **many consecutive sentences** open on the same actor + verb (*He… He… Cael… He…*)—**braid** with *when / while / until / as / though / because* or merge beats so read-aloud gets **breath and connective tissue**; full bar in **[agents/09-read-aloud-cadence-clarity-editor.md](./agents/09-read-aloud-cadence-clarity-editor.md)** (**voice-spec → Paragraph shape**). Avoid **double-*until*** or *until* that implies the wrong order of events.  
+- [ ] **Subject–verb streaks:** flag stretches where **many consecutive sentences** open on the same actor + verb (*He… He… Cael… He…*)—**braid** with *when / while / until / as / though / because* or merge beats so read-aloud gets **breath and connective tissue**; full bar in **[agents/10-read-aloud-cadence-clarity-editor.md](./agents/10-read-aloud-cadence-clarity-editor.md)** (**voice-spec → Paragraph shape**). Avoid **double-*until*** or *until* that implies the wrong order of events.  
 - [ ] Compare opening/closing **density** to your **gold chapter** reference.  
 - [ ] If plot facts changed, patch **synopsis.md** / **act-chapter-index.md** / **project-spec.md** as needed so docs stay the single source of truth.
 
@@ -243,6 +243,6 @@ rg -n "—" velorum/manuscript/path/to/chapter.md
 
 **Draft** against synopsis + index + project-spec POV and terrain rules.  
 **Revise voice** against voice-spec.  
-**Run passes** A → A2 → **A3** → B → (C → **C2** / **C3** / D / **D2** / **D3** / E / **F** / **H** as needed) → G → (**J** optional). **Pass G** includes **read-aloud / subject–verb streak** checks (**agents/09-read-aloud-cadence-clarity-editor.md**, **voice-spec → Paragraph shape**). **Pass F** (**voice-spec → Tightening**) is **line-level** cutting and merging after substance passes; use it when the scene is sound but still verbose or repetitive. **Pass C** includes **em-dash discipline** (see **voice-spec → Em dashes**), **period/costume and museum/specialist vocabulary** (see **voice-spec → Contemporary lexicon**), and the **readability** list in that pass. **Pass C2** tightens **spoken lines** (see **voice-spec → Plain dialogue**). **Pass A2** now includes a **required pronoun-disambiguation sweep** in any paragraph where two same-gender named characters are active: replace ambiguous *he/him/his* with names only where a cold read could plausibly misassign reference. **Pass A3** catches **orphan actors**, **personified landmarks**, **unowned sensations**, **crypto-metaphors**, and **confusing figures of speech**—see **voice-spec → Clear agency** and **Idiomatic figures of speech**. **Pass D** includes the **seminar sweep** (thesis-shaped lines → concrete stakes). Use **D2** when a chapter introduces or revisits a location and narration should match **Chapter 1’s** place-first density. Use **Pass B → Character introduction** when the chapter introduces **new** named faces (same concrete-anchor rule as Chapter 1). Use **Pass H** when a chapter **sounds fine** but reads **monotone or fuzzy**—often stacked *wind*, *square*, *hands*, or repeated silence beats. Run **H** after **F** (tightening) or merge H into a late polish pass with **G**. Re-run **A2** / **A3** when a chapter’s assigned POV changes in **act-chapter-index** or when you add long stretches of another character’s interior or lean hard into lyrical narration.
+**Run passes** A → A2 → **A3** → B → (C → **C2** / **C3** / D / **D2** / **D3** / E / **F** / **H** as needed) → G → (**J** optional). **Pass G** includes **read-aloud / subject–verb streak** checks (**agents/10-read-aloud-cadence-clarity-editor.md**, **voice-spec → Paragraph shape**). **Pass F** (**voice-spec → Tightening**) is **line-level** cutting and merging after substance passes; use it when the scene is sound but still verbose or repetitive. **Pass C** includes **em-dash discipline** (see **voice-spec → Em dashes**), **period/costume and museum/specialist vocabulary** (see **voice-spec → Contemporary lexicon**), and the **readability** list in that pass. **Pass C2** tightens **spoken lines** (see **voice-spec → Plain dialogue**). **Pass A2** now includes a **required pronoun-disambiguation sweep** in any paragraph where two same-gender named characters are active: replace ambiguous *he/him/his* with names only where a cold read could plausibly misassign reference. **Pass A3** catches **orphan actors**, **personified landmarks**, **unowned sensations**, **crypto-metaphors**, and **confusing figures of speech**—see **voice-spec → Clear agency** and **Idiomatic figures of speech**. **Pass D** includes the **seminar sweep** (thesis-shaped lines → concrete stakes). Use **D2** when a chapter introduces or revisits a location and narration should match **Chapter 1’s** place-first density. Use **Pass B → Character introduction** when the chapter introduces **new** named faces (same concrete-anchor rule as Chapter 1). Use **Pass H** when a chapter **sounds fine** but reads **monotone or fuzzy**—often stacked *wind*, *square*, *hands*, or repeated silence beats. Run **H** after **F** (tightening) or merge H into a late polish pass with **G**. Re-run **A2** / **A3** when a chapter’s assigned POV changes in **act-chapter-index** or when you add long stretches of another character’s interior or lean hard into lyrical narration.
 
 For full premise, ending rules, and Velorum reader-sequence rules, always return to **[project-spec.md](./project-spec.md)**.
