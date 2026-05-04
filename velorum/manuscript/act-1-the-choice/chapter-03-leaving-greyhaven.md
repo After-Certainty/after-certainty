@@ -71,7 +71,7 @@ Riven loosened the strap one notch, hating that Cael was right, hating worse tha
 
 The road bent and rose again. On the outer edge, the drop wasn’t dramatic enough to call a cliff, but it was honest enough to break something if you stepped wrong. Riven stayed to the inside without deciding to, his weight on the safer dirt, his feet picking the line before his mouth would say it out loud.
 
-“You remember what you said?” Riven asked when the silence started to feel like a third person walking between them.
+“You remember what you said?” Riven asked when the silence felt like a third person walking between them.
 
 Cael didn’t pretend not to know which night he meant. “I remember what you said.”
 
@@ -87,7 +87,7 @@ Cael slowed, not much, just enough that Riven didn’t have to half jog to keep 
 
 “Same thing, the way you do it.”
 
-Cael glanced back at him, finally, wind tearing at his dark hair. His eyes were steady in a way that made Riven want to look away and made him want to shove something into that steadiness until it cracked.
+Cael glanced back at him, finally, wind tearing at his dark hair. His eyes were steady in a way that made Riven want to look away and left him wanting to shove something into that steadiness until it cracked.
 
 “You want to turn around?” Cael asked. Flat. Practical. The worst tone he had.
 
@@ -125,7 +125,7 @@ Cael’s shoulders tightened, barely, then loosened. “I know.”
 
 “So what are we doing out here that isn’t the same thing, just… farther?”
 
-Cael walked another ten paces before he answered, and Riven could almost hear him choosing words the way he chose lumber, rejecting the warped ones first.
+Cael walked another ten paces before he answered; Riven could almost hear him choosing words the way he chose lumber, rejecting the warped ones first.
 
 “We’re not hauling for someone else’s tally,” Cael said. “We’re listening for the verse they didn’t print.”
 
@@ -236,7 +236,7 @@ Riven didn’t look again.
 
 When they stopped to eat, it was bread and hard cheese wrapped in cloth, the kind of meal that tasted like planning. Cael divided it with his knife the way he divided everything, fair, exact, no drama.
 
-Riven chewed and watched a hawk circle until the bird became a dot and vanished.
+Riven chewed and watched a hawk circle until it became a dot and vanished.
 
 “You think people will say we ran?” Riven said.
 
@@ -258,7 +258,7 @@ Riven stared at him. “That’s not fair.”
 
 “Maybe not.” Cael wrapped the cloth back around the cheese and knotted it with unnecessary care. “But we’re out here because neither of us could stomach another year of useful with no name on it.”
 
-Riven’s throat tightened. He looked away fast, fingers curled into his sleeves, at the road, at the loose stones, at anything that wasn’t Cael’s face reading him the way it always did.
+His jaw ached. He looked away fast, fingers curled into his sleeves, at the road, at the loose stones, at anything that wasn’t Cael’s face reading him the way it always did.
 
 “That’s…” Riven started, then stopped, because finishing would’ve turned it into a speech, and speeches were how you lied to yourself prettily.
 
