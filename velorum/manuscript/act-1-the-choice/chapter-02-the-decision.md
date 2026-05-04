@@ -1,151 +1,155 @@
 # Chapter 02 - The Decision
 
-The yard behind Mara’s inn stayed dark long after the square emptied out, the last rough cheer gone from the air. Cael leaned on the broom handle, grain biting his palm where sweat had softened the wood. He swept the last arc of grit toward the drain. Chips of shell and fish scale caught the lamplight from the kitchen window. A bucket sat by the step, water filmed with soap. He’d already washed the worst of the mud off the stones once; this second pass was for Mara’s temper, not because the stones were clean yet. Cold climbed anyway, up through his boots from the flagstones.
+The yard behind Mara's inn stayed dark long after the square emptied out, the last rough cheer gone from the air. They had already come down from the monument through that fading noise—away from the carved hands and back into chores that didn't care whether you'd packed a bag.
 
-Someone’s footsteps crossed the boards inside. Mara’s voice rose, then dropped, then rose again, counting, always counting. A chair scraped. Someone laughed too loud for the hour.
+Cael leaned on the broom handle, grain biting his palm where sweat had softened the wood, and swept the last arc of grit toward the drain while chips of shell and fish scale caught the lamplight from the kitchen window. A bucket sat by the step, water filmed with soap; he'd already washed the worst of the mud off the stones once, and this second pass was for Mara's temper, not because the stones were clean yet. Cold climbed anyway up through his boots from the flagstones.
 
-Riven came around the corner with both hands full: a folded blanket in his arms and a coil of rope riding sloppy on his shoulder, his jaw set in that stubborn line he wore when he hadn’t slept. A fold of wool had worked free at his wrist, the skin underneath already pink from the fibers.
+Inside, someone's footsteps crossed the boards while Mara's voice rose, then dropped, then rose again—counting, always counting—a chair scraped, and someone laughed too loud for the hour.
 
-“She said you could use the loft ladder if you didn’t track dirt,” Riven said.
+Riven came around the corner with both hands full: a folded blanket in his arms and a coil of rope riding sloppy on his shoulder, his jaw set in that stubborn line he wore when he hadn't slept. A fold of wool had worked free at his wrist, the skin underneath already pink from the fibers.
 
-“I didn’t track dirt.”
+"She said you could use the loft ladder if you didn't track dirt," Riven said.
 
-“You did. I saw.” He dropped the rope onto a dry patch and shook out the blanket, more motion than the blanket needed. “Bran told her we swept. She said good, then she said if we’re planning something stupid, we pay for our own bread.”
+"I didn't track dirt."
 
-Cael set the broom aside and rinsed his hands in the bucket, cold water stinging the split skin at the side of his thumb. Soap film slid between his fingers, slick and faintly bitter. “We always pay for our own bread.”
+"You did. I saw." He dropped the rope onto a dry patch and shook out the blanket, more motion than the blanket needed. "Bran told her we swept—without repeating my crack about mothers, small mercy. She said good, then she said if we're planning something stupid, we pay for our own bread."
 
-“She meant extra.”
+Cael set the broom aside and rinsed his hands in the bucket, cold water stinging the split skin at the side of his thumb. Soap film slid between his fingers, slick and faintly bitter. "We always pay for our own bread."
 
-“Then we pay extra.”
+"She meant extra."
 
-Riven watched him dry his hands on his shirt hem, eyes shifting the way they did when he hadn’t decided whether to push or back down. “You weren’t joking,” he said. “Up there. The highlands.”
+"Then we pay extra."
 
-“No.”
+Riven watched him dry his hands on his shirt hem, eyes shifting the way they did when he hadn't decided whether to push or back down. "You weren't joking," he said. "Up there. The highlands."
 
-“The pamphlet calls it consecrated ground, as if ink could keep your boot from sliding.”
+"No."
 
-“The pamphlet calls a lot of things.” Cael hung the rag on its nail and looked past the yard wall. The hills were invisible except where they cut the stars in a thin black line. Wind off the water pushed smoke from the kitchen chimney sideways, then found the gap at his collar and slid down cold against his chest. “North road’s already bad this season. Loose gravel on the switchbacks. Two carts last week with wheels cracked like eggshell.”
+"The pamphlet calls it consecrated ground, as if ink could keep your boot from sliding."
 
-Riven let out a breath that wasn’t quite a laugh. “So your plan is we fix the world by walking into a ditch.”
+"The pamphlet calls a lot of things." Cael hung the rag on its nail and looked past the yard wall. The hills were invisible except where they cut the stars in a thin black line. Wind off the water pushed smoke from the kitchen chimney sideways, then found the gap at his collar and slid down cold against his chest. "North road's already bad this season. Loose gravel on the switchbacks. Two carts last week with wheels cracked like eggshell."
 
-The route had been turning behind Cael’s eyes since they came off the monument path. He didn’t let his gaze snag on the wall again before he said it.
+Riven let out a breath that wasn't quite a laugh. "So your plan is we fix the world by walking into a ditch."
 
-“My plan is we quit treating the monument like scenery,” Cael said. “Something you climb to when you’re already mad.”
+The route had been turning behind Cael's eyes since they came off the monument path. He didn't let his gaze snag on the wall again before he said it.
 
-Riven exhaled, hard enough to hear. “Tell me where we sleep night one. Then you can keep talking.”
+"My plan is we quit treating the monument like scenery," Cael said. "Something you climb to when you're already mad."
 
-His own line had landed flat. Cael slowed himself the way he did on a roof when a joist complained, weight settling even through both soles, then went on. “People keep singing the clean version,” he said. “If that’s all there is, fine. We come back and we know.”
+Riven exhaled, hard enough to hear. "Tell me where we sleep night one. Then you can keep talking."
 
-“And if it isn’t?”
+His own line had landed flat. Cael slowed himself the way he did on a roof when a joist complained, weight settling even through both soles, then went on. "People keep singing the clean version," he said. "If that's all there is, fine. We come back and we know."
 
-“Then we know that too.”
+"And if it isn't?"
 
-Riven picked up the rope and wound it tighter until the coils bit his forearm. His jaw worked once. “You make it sound like checking a beam.”
+"Then we know that too."
 
-“It is checking a beam,” Cael said. “You tap. You listen. You don’t stand under it while you pretend you didn’t hear the crack.”
+Riven picked up the rope and wound it tighter until the coils bit his forearm. His jaw worked once. "You make it sound like checking a beam."
 
-For a moment the only sound was the inn’s back door tapping in the wind, a loose hinge he’d meant to set a shim under for three days. Riven’s eyes flicked to it, then away.
+Tar and salt came off the fibers onto his skin—nothing like the monument's clean lyric about two men on one rope, except it was the same animal under a dirtier name: shared weight until somebody slipped.
 
-“You’re not scared,” Riven said.
+"It is checking a beam," Cael said. "You tap. You listen. You don't stand under it while you pretend you didn't hear the crack."
 
-“I’m scared,” Cael said.
+For a moment the only sound was the inn's back door tapping in the wind, a loose hinge he'd meant to set a shim under for three days. Riven's eyes flicked to it, then away.
 
-“You don’t look it.”
+"You're not scared," Riven said.
 
-Cael flexed his hand once, feeling the ache in the knuckle he’d taken against stone earlier without noticing. “If I stop to look scared, Mara loses us on the morning floor. You go up that hill alone next time.”
+"I'm scared," Cael said.
 
-“That’s not an answer.”
+"You don't look it."
 
-“It’s the answer I’ve got.” He stepped in close, cold air and cheap soap on Riven, same as on the ridge, and felt the faint heat coming off him anyway. “You asked what we do next. This is next. Otherwise it’s you and me circling that statue until we’re too old to climb.”
+Cael flexed his hand once, feeling the ache in the knuckle he'd taken against stone earlier without noticing. "If I stop to look scared, Mara loses us on the morning floor. You go up that hill alone next time."
 
-Riven’s mouth tightened, a line forming at the corner the way it did before he picked a fight with a wall. “We could just stay alive.”
+"That's not an answer."
 
-“We stay alive either way,” Cael said, and hated how clean it sounded, cleaner than his ribs still felt from the climb.
+"It's the answer I've got." He stepped in close, cold air and cheap soap on Riven, same as on the ridge, and felt the faint heat coming off him anyway. "You asked what we do next. This is next. Otherwise it's you and me circling that statue until we're too old to climb."
 
-Riven let out a short laugh with no humor in it. “Christ, listen to you.”
+Riven's mouth tightened, a line forming at the corner the way it did before he picked a fight with a wall. "We could just stay alive."
 
-“Say it plainer if you want.” Cael tipped his chin toward the kitchen light. “Rent. Work. No list. You said it on the ridge. I heard you.”
+"We stay alive either way," Cael said, and hated how clean it sounded, cleaner than his ribs still felt from the climb.
 
-Heat climbed Riven’s neck into his hairline, and Cael could read it the way he read a warped board. Riven’s eyes dropped to the flags instead. Anywhere but Cael’s face.
+Riven let out a short laugh with no humor in it. "Christ, listen to you."
 
-“I don’t want to be the idiot who followed you because you talked steady.”
+"Say it plainer if you want." Cael tipped his chin toward the kitchen light. "Rent. Work. No list. You said it on the ridge. I heard you."
 
-Cael didn’t look away. “Then don’t follow me.”
+Heat climbed Riven's neck into his hairline, and Cael could read it the way he read a warped board. Riven's eyes dropped to the flags instead. Anywhere but Cael's face.
 
-Riven’s head came up fast. “What?”
+"I don't want to be the idiot who followed you because you talked steady."
 
-“I’m not dragging you.” Cael kept his voice even, throat loose, the same looseness he used when a horse shied and you didn’t dare shorten the horse’s reins. “If you stay, you stay. If you come, you come because you chose it. I’m not your keeper.”
+Cael didn't look away. "Then don't follow me."
+
+Riven's head came up fast. "What?"
+
+"I'm not dragging you." Cael kept his voice even, throat loose, the same looseness he used when a horse shied and you didn't dare shorten the horse's reins. "If you stay, you stay. If you come, you come because you chose it. I'm not your keeper."
 
 The hinge tapped again. Somewhere in the lane a dog barked once and quit.
 
-“You’d go anyway,” Riven said.
+"You'd go anyway," Riven said.
 
-“Yes.”
+"Yes."
 
-“Fuck.” Riven dragged his sleeve across his mouth. “Fuck, Cael.”
+"Fuck." Riven dragged his sleeve across his mouth. "Fuck, Cael."
 
-Cael waited, the same wait he used when someone on a crew argued about a brace: give the silence room so the next thing said wasn’t just noise. His boots stayed flat on the swept stone. He didn’t shift them.
+Cael waited, the same wait he used when someone on a crew argued about a brace—give the silence room so the next thing said wasn't just noise—and his boots stayed flat on the swept stone while he refused to shift them.
 
-“I keep seeing the dock,” Riven said finally, quieter. “Dusk. Nobody left to say who hauled what.”
+"I keep seeing the dock," Riven said finally, quieter. "Dusk. Nobody left to say who hauled what."
 
-“I know.”
+"I know."
 
-“If we leave, Mara puts another name on the board.”
+"If we leave, Mara puts another name on the board."
 
-“She will.” Cael had already counted that cost on the walk down, gravel shifting under his soles, Riven’s boots landing a half beat after his steps. “She always does.”
+"She will." Cael had already counted that cost on the walk down, gravel shifting under his soles, Riven's boots landing a half beat after his steps. "She always does."
 
-The question sat wrong in Riven’s throat before he forced it out. “And if we die out there like the song says, ribs and all?”
+The question sat wrong in Riven's throat before he forced it out. "And if we die out there like the song says, ribs and all?"
 
-“Then we die having done something besides watching a singer getting paid to lie.” Cael heard the edge creep in and shaved it off, unclamping his teeth before the next words. “I’m not asking you to like it. I’m asking you to quit acting like what we said on the ridge didn’t count.”
+"Then we die having done something besides watching a singer getting paid to lie." Cael heard the edge creep in and shaved it off, unclamping his teeth before the next words. "I'm not asking you to like it. I'm asking you to quit acting like what we said on the ridge didn't count."
 
-Riven looked at him a long moment. “You think the hill’s going to answer you.”
+Riven looked at him a long moment. "You think the hill's going to answer you."
 
-“The pamphlet says the ground moved once,” Cael said. “Words on cheap paper. Fine. Let it try with two men on it who know loose planks by touch.”
+"The pamphlet says the ground moved once," Cael said. "Words on cheap paper. Fine. Let it try with two men on it who know loose planks by touch."
 
-Riven shook his head once, tight. “That isn’t faith, Cael. That’s you pissed enough to call it purpose.”
+Riven shook his head once, tight. "That isn't faith, Cael. That's you pissed enough to call it purpose."
 
-“Call it what you want.” Cael picked up the broom again because his hands wanted work, bristles rough and familiar against his skin. “I’m not preaching at you. I’m figuring a week’s worth of walking.”
+"Call it what you want." Cael picked up the broom again because his hands wanted work, bristles rough and familiar against his skin. "I'm not preaching at you. I'm figuring a week's worth of walking."
 
-He put the broom in the corner and sat before his knees locked up from standing any longer, cold snapping up through his thighs. Riven stayed on his feet one beat longer, then dropped beside him and dragged chalk from his pocket. The first line went down hard. It ran north past the last reliable well Mara would fill for free, then switchbacks and open rock and high grass where the wind didn’t quit. The step bit cold through Cael’s trousers. He named distances the way he named lumber, rounded up so nobody talked themselves into a short rope.
+He put the broom in the corner and sat before his knees locked up from standing any longer, cold snapping up through his thighs, while Riven stayed on his feet one beat longer, then dropped beside him and dragged chalk from his pocket. The first line went down hard and ran north past the last reliable well Mara would fill for free, then switchbacks and open rock and high grass where the wind didn't quit; the step bit cold through Cael's trousers as he named distances the way he named lumber, rounded up so nobody talked themselves into a short rope.
 
-Riven wrote nothing down. He nodded when the numbers sounded stupid, nodded again when they didn’t.
+Riven wrote nothing down, only nodded when the numbers sounded stupid and again when they didn't.
 
-When the chalk snapped, Riven brushed the dust off his fingers. White still clung in the creases, pamphlet pale on his thumb. “I don’t have a coat that’ll hold that wind.”
+When the chalk snapped, Riven brushed the dust off his fingers. White still clung in the creases, pamphlet pale on his thumb. "I don't have a coat that'll hold that wind."
 
-“You’ll borrow mine on the worst stretches.”
+"You'll borrow mine on the worst stretches."
 
-“I’m not wearing your coat.”
+"I'm not wearing your coat."
 
-“You will if you’re shaking hard enough.”
+"You will if you're shaking hard enough."
 
-Riven almost smiled. Almost. “You really think we have to?”
+Riven almost smiled. Almost. "You really think we have to?"
 
-Cael opened his palms toward his knees, gravel still caught in the creases, then looked at the dark where the hills were. “Last spring those planks held because two men stood in rain all night,” he said. “Not because the song said they should. Because somebody had to.”
+Cael opened his palms toward his knees, gravel still caught in the creases, then looked at the dark where the hills were. "Last spring those planks held because two men stood in rain all night," he said. "Not because the song said they should. Because somebody had to."
 
-“And this time the somebody is us.”
+"And this time the somebody is us."
 
-Cael looked at Riven’s profile against the kitchen light. “Yes.”
+Cael looked at Riven's profile against the kitchen light. "Yes."
 
-Riven exhaled, slow, like he’d been holding air since the ridge. “All right,” he said, the way he said it when he took a shift he already knew would wreck his sleep. Not brave. Just signed. “But if you walk like I’m luggage, I’m turning around.”
+Riven exhaled, slow, like he'd been holding air since the ridge. "All right," he said, the way he said it when he took a shift he already knew would wreck his sleep. Not brave. Just signed. "But if you walk like I'm luggage, I'm turning around."
 
-“I won’t.”
+"I won't."
 
-Riven’s voice went rough. “You will. Christ, you always move like you already see the next step.”
+Riven's voice went rough. "You will. Christ, you always move like you already see the next step."
 
-Cael finally let himself feel tired, a deep pull down his spine and a dull ache across his shoulders that hadn’t been there at noon. He let his shoulders drop half an inch anyway, like he was done holding the roof line straight. “Then tell me when I do,” he said. “You’re the one who hears me when I’m full of shit.”
+Cael finally let himself feel tired, a deep pull down his spine and a dull ache across his shoulders that hadn't been there at noon. He let his shoulders drop half an inch anyway, like he was done holding the roof line straight. "Then tell me when I do," he said. "You're the one who hears me when I'm full of shit."
 
-Riven blinked, caught off balance. The kitchen light caught the side of his face; he wasn’t looking at Cael anymore. “Yeah,” he muttered. “Somebody has to.”
+Riven blinked, caught off balance. The kitchen light caught the side of his face; he wasn't looking at Cael anymore. "Yeah," he muttered. "Somebody has to."
 
-Inside, Mara’s counting stopped. A door shut, and the inn settled into its night creaks, timber cooling, ropes in the stable ticking when the wind found them.
+Inside, Mara's counting stopped. A door shut, and the inn settled into its night creaks, timber cooling, ropes in the stable ticking when the wind found them.
 
 Cael checked the latch on the yard gate, more habit than need, metal biting cold into his palm until he let go. Riven stayed on the step, blanket over one arm, rope hooked on his shoulder, watching the place where the hills should have been.
 
-“We leave before first bell,” Cael said. “If you’re coming.”
+"We leave before first bell," Cael said. "If you're coming."
 
-“I said I was coming.”
+"I said I was coming."
 
-Cael nodded once. “I heard you.” He stepped past Riven toward the kitchen light. Warm air met him, grease and onion and damp wool, and his boots left clean prints on the flagstones. “Then sleep if you can. Tomorrow’s long.”
+Cael nodded once. "I heard you." He stepped past Riven toward the kitchen light. Warm air met him, grease and onion and damp wool, and his boots left clean prints on the flagstones. "Then sleep if you can. Tomorrow's long."
 
-Riven didn’t move right away. Cael didn’t look back to hurry him. The hinge went again, same tired beat, and somewhere high on the north road loose scree slid under its own weight, a small sound lost under the low roll of the harbor.
+When Riven didn't move right away, Cael didn't look back to hurry him, and the hinge went again with the same tired beat while somewhere high on the north road loose scree slid under its own weight, a small sound lost under the low roll of the harbor.
 
-Cael went in to pay for the bread.
+Cael went in to pay for the bread. Coins ticked into Mara's count with the same small finality as the one he'd pressed into Bran's palm—buying silence, buying morning, the only spell Greyhaven ever really trusted.

@@ -1,237 +1,225 @@
 # Chapter 05 - Velorum
 
-The stone under Riven’s boots wasn’t cold anymore. It was wrong-warm, like breath trapped under a blanket, and it climbed through his soles until his legs felt borrowed.
+The stone under Riven's boots wasn't cold anymore. It was wrong-warm, like breath trapped under a blanket, and it climbed through his soles until his legs felt borrowed.
 
-Cael’s hand still clamped his, hard enough to hurt, hard enough to be real.
+Cael's hand still clamped his, hard enough to hurt, hard enough to be real.
 
-“Let go,” Riven said, voice too thin.
+"Let go," Riven said, voice too thin.
 
-“No,” Cael said, not mean, not kind, just certain as a hammer.
+"No," Cael said, not mean, not kind, just certain as a hammer.
 
-The circle lines around them weren’t decoration. They were grooves deep enough to catch grit, deep enough that wind should’ve whistled in them and didn’t. Sound fell away until Riven heard his own blood too loud, then not loud enough, like his body couldn’t decide where the noise belonged.
+The circle lines around them weren't decoration. They were grooves deep enough to catch grit, deep enough that wind should've whistled in them and didn't. Sound fell away until Riven heard his own blood too loud, then not loud enough, like his body couldn't decide where the noise belonged.
 
-The air thickened.
-
-Not smoke, not fog, nothing he could point to and name for Mara’s customers. Pressure, the kind that came before a storm, except the storm never arrived, it just stayed pressed against his ribs from the inside.
+The air thickened until it wasn't smoke or fog or anything he could stick a useful label on for Mara's customers—only pressure, the kind that came before a storm, except the storm never arrived and instead stayed pressed against his ribs from the inside.
 
 Riven tried to step back. His boot lifted half an inch and stuck, not glued, not magnetic, just refused.
 
-“Don’t,” Cael murmured.
+"Don't," Cael murmured.
 
-“I’m not doing anything.”
+"I'm not doing anything."
 
-“You’re fighting it.”
+"You're fighting it."
 
-“There’s nothing to fight.” Even as he said it, the lie tasted like the seep water, metal and wrong.
+"There's nothing to fight." Even as he said it, the lie tasted like the seep water, metal and wrong.
 
-The sky above the dish of stone looked too high and too close at the same time. Clouds didn’t move right. They held, then jumped, like a hand had skipped a line reading.
+The sky above the dish of stone looked too high and too close at the same time. Clouds didn't move right. They held, then jumped, like a hand had skipped a line while reading.
 
-Riven’s heart kicked once, then matched something else, a second rhythm laid over his own like a second drummer who wasn’t quite in time until he was, until Riven couldn’t tell which beat was his.
+Riven's heart kicked once, then matched something else, a second rhythm laid over his own like another drummer who wasn't quite in time until that beat matched his, and Riven couldn't tell which pulse was his.
 
-Cael’s profile was rigid, jaw set, eyes fixed on the center of the rings where nothing stood, nothing carved, nothing to worship like a sane person would want.
+Cael's profile was rigid, jaw set, eyes fixed on the center of the rings where nothing stood, nothing carved, nothing a sane person would want to worship.
 
-“What do you see,” Riven whispered.
+"What do you see?" Riven whispered.
 
-“Nothing,” Cael said.
+"Nothing," Cael said.
 
-“That’s worse.”
+"That's worse."
 
-“Yeah.”
+"I know it is."
 
-The presence didn’t arrive with footsteps. It didn’t speak in a voice that belonged to a mouth. It filled the space between thoughts, the way cold filled a room when someone opened a door you hadn’t noticed was there.
+The presence didn't arrive with footsteps. It didn't speak in a voice that belonged to a mouth. It filled the space between thoughts, the way cold filled a room when someone opened a door he hadn't noticed was there.
 
-Riven’s mind tried to grab language for it because language was how he kept fear in a box. Monster. Spirit. Weather.
+Riven's mind tried to grab language for it because language was how he kept fear in a box—monster, spirit, weather—and none of them stuck.
 
-None stuck.
+It was direction without shape. Weight without hands. Attention without eyes, aimed straight at the soft parts of him that knew he hadn't climbed for spite alone, like a hungry kid with his palm out.
 
-It was direction without shape. Weight without hands. Attention without eyes, aimed straight at the soft parts of him that knew he’d come for meaning like a hungry kid with his palm out.
+The pamphlet had called the dish the first circle and the weight inside Velorum, two names on the same smeared thumbprint of ink.
 
-The pamphlet had called it Velorum like a title on cheap ink.
+On the stone, the second name rose in Riven's head, not spoken, not heard, just there, correct in a way that made his stomach twist.
 
-On the stone, the word rose in Riven’s head anyway, not spoken, not heard, just there, correct in a way that made his stomach twist.
+Not a person, not an answer—only a witness.
 
-Not a person.
+Riven's throat locked. He swallowed twice before air moved right.
 
-Not an answer.
+Cael's fingers twitched around his. Not loosening. Adjusting, the way he reset his grip on the rope when the load shifted.
 
-A witness.
+"I'm here," Cael said, to the empty center, to Riven, or to both. Riven couldn't tell.
 
-Riven’s throat locked. He swallowed twice before air moved right.
+"Cael," Riven got out. "We should—"
 
-Cael’s fingers twitched around his. Not loosening. Adjusting, the way he adjusted a grip on rope when load shifted.
+"Should what."
 
-“I’m here,” Cael said, to the empty center, to Riven, to both, Riven couldn’t tell.
+Riven didn't know. Run. Step off. Spit the metal taste out and pretend they could walk back down and be boys who only climbed monuments for spite.
 
-“Cael,” Riven got out. “We should—”
+His feet wouldn't move backward.
 
-“Should what.”
-
-Riven didn’t know. Run. Step off. Spit the metal taste out and pretend they could walk back down and be boys who only climbed monuments for spite.
-
-His feet wouldn’t move backward.
-
-The presence pressed closer, not on skin, on meaning, like it could read what he wanted and what he feared and didn’t care about the difference.
+The presence pressed closer, not on skin, on the seam between what he wanted and what he feared, like it could read straight through him and didn't care about the difference.
 
 A warning slid through him, not words, not exactly, more like certainty poured in without asking: you will not stay yourselves.
 
-Riven’s eyes burned. He blinked hard, furious at his own body for going soft.
+When his eyes burned, Riven blinked hard, furious at his own body for going soft.
 
-“Did you feel that,” he rasped.
+"Did you feel that?" he rasped.
 
-“Yes,” Cael said.
+"Yes," Cael said.
 
-“What was it.”
+"What was it."
 
-Cael’s voice went flat and calm, the worst sound in the world right then. “Truth.”
+Cael's voice went flat and calm, the worst sound in the world right then. "Truth."
 
-“Truth,” Riven repeated, because repeating kept him from screaming.
+"Truth," Riven repeated, because the word kept him from screaming.
 
-The pressure tightened, not crushing, insisting. Like a hand on the back of his neck forcing him to look at something he’d spent his whole life avoiding: the smallness of his name, the dock at dusk, the way people said Riven like a tool returned to a shelf.
+The pressure tightened—not crushing, insisting. Like a hand on the back of his neck forcing him to look at what he'd spent his whole life avoiding: the smallness of his name, the dock at dusk, the way people said Riven like a tool returned to a shelf, and the same cheap pages that never said whose ground broke when the story stopped being a story.
 
-He hated it.
+He hated it and wanted it to stop, his jaw aching before he'd noticed how hard he'd been clenching; beneath that, stubborn and ugly, he still wanted to matter more than he wanted safety, and the presence found that want in him like a tongue finding a cracked tooth.
 
-He wanted it to stop.
+Riven made a sound he didn't mean to make, half laugh, half choke.
 
-He wanted, beneath that, stubborn and ugly, to matter more than he wanted safety, and the presence found that want like a tongue finding a cracked tooth.
+Cael's head turned a fraction. "Riven."
 
-Riven made a sound he didn’t mean to make, half laugh, half choke.
+"I'm fine."
 
-Cael’s head turned a fraction. “Riven.”
+"You're not."
 
-“I’m fine.”
+"I said I'm fine."
 
-“You’re not.”
+Cael's eyes were too steady. "Then stay fine for ten more seconds."
 
-“I said I’m fine.”
+"What happens in ten seconds."
 
-Cael’s eyes were too steady. “Then stay fine for ten more seconds.”
+"I don't know," Cael said, and that honesty should've been comforting. Riven's chest stayed tight.
 
-“What happens in ten seconds.”
-
-“I don’t know,” Cael said, and that honesty should’ve been comforting. It wasn’t.
-
-The center of the rings wasn’t empty anymore. Not visually. Nothing appeared. But Riven’s mind kept trying to put a shape there anyway, a silhouette, a face, and each attempt slid off like wet hands on glass.
+The center of the rings wasn't empty anymore. Not visually. Nothing appeared. But Riven's mind kept trying to put a shape there, a silhouette, a face, and each attempt slid off like wet hands on glass.
 
 Velorum, his thoughts insisted again, helpless.
 
 He hated that too.
 
-Cael drew breath like he was about to speak into a room full of people who didn’t like him. His shoulders squared.
+Cael drew breath like he was about to speak into a room full of people who didn't like him. His shoulders squared.
 
-“If this is what the stories pointed at,” Cael said, voice rough but clear, “then we’re not here to steal glory. We’re here to hold.”
+"If this is where the stories pointed," Cael said, voice rough but clear, "then we're not here to steal glory. We're here to hold."
 
-Riven stared at him. “Hold what.”
+Riven stared at him. "Hold what."
 
-“What breaks,” Cael said, like it answered.
+"What breaks," Cael said, like it answered.
 
-“That’s not a plan.”
+"That's not a plan."
 
-“It’s enough.”
+"It's enough."
 
 The presence leaned in.
 
-Riven’s skin lifted all over. His heart hammered, then steadied again into that wrong doubled beat.
+Riven's skin lifted all over. His heart hammered, then steadied again into that wrong doubled beat.
 
-Cael lifted his free hand, palm out toward the center, not high, not theatrical, the same gesture he’d used in the yard when he was trying to keep a fight from starting.
+Cael lifted his free hand, palm out toward the center, not high, not theatrical, the same gesture he'd used in the yard when he was trying to keep a fight from starting.
 
-“We hold,” Cael said.
+"We hold," Cael said.
 
 The words dropped into the stone like nails.
 
-Riven felt them land in his own chest too, unwelcome, borrowed.
+Riven felt them land in his own chest, unwelcome, borrowed.
 
-“Don’t,” Riven whispered.
+Another line tried to rise with them from the creased paper riding his strap—living bridge—and tasted worse than the seep, clean as a lie.
 
-Cael didn’t look at him. “If you’re leaving, leave now.”
+"Don't," Riven whispered.
 
-“I can’t,” Riven snapped, because his boots still wouldn’t move back, because Cael’s hand still had him, because turning around had stopped being a clean option somewhere between Greyhaven’s gate and the seep with slow ripples.
+Cael didn't look at him. "If you're leaving, leave now."
 
-“Then you’re here,” Cael said.
+"I can't," Riven snapped. His boots wouldn't move back; Cael's hand still had him; turning around had stopped being a clean option somewhere between Greyhaven's gate and the seep, with its slow ripples.
 
-“I’m here,” Riven heard himself answer, bitter as ash, “and I hate it.”
+"Then you're here," Cael said.
 
-Cael’s mouth twitched, almost a smile, almost pain. “Okay.”
+"I'm here," Riven heard himself answer, bitter as ash, "and I hate it."
 
-The presence didn’t ask permission. It didn’t need to.
+Cael's mouth twitched, almost a smile, almost pain. "Stay, then."
 
-It pressed until Riven’s thoughts stopped lining up in private order, until fear and anger and want stacked together into one bright flare.
+The presence didn't ask permission.
 
-He thought he heard Cael think, not words, just texture: relief, sharp as new-cut wood.
+It pressed until Riven's thoughts stopped lining up in private order, and fear, anger, and want stacked into one bright flare.
 
-Then Riven’s own mind spat back, You don’t get to be relieved, and he didn’t know if he’d thought it or said it until the air moved wrong.
+He thought he heard Cael thinking, not words, just texture: relief, sharp as new-cut wood.
 
-“Riven,” Cael said aloud, sharp.
+Then Riven's own mind spat back, You don't get to be relieved, and he didn't know if he'd thought it or said it out loud until the air moved wrong.
 
-“I didn’t—” Riven stopped. His tongue tasted copper. The sky jumped again, cloud to cloud, a skipped stitch.
+"Riven," Cael said aloud, sharp.
 
-Cael turned his head fully, finally, eyes dark and wide, and for a second Riven saw himself reflected in them too clearly, too close, like he was standing inside Cael’s skull looking out.
+"I didn't—" Riven stopped. His tongue tasted copper. The sky jumped again, cloud to cloud, a skipped stitch.
 
-He jerked.
+Cael turned his head fully, finally, eyes dark and wide, and for a second Riven saw himself reflected in Cael's eyes too clearly, too close, like he was standing inside Cael's skull looking out.
 
-Cael jerked too, same motion, same half inch, like one string pulled two puppets.
+He jerked, and Cael jerked with him—same motion, same half inch, like one string pulled two puppets.
 
-“What was that,” Riven breathed.
+"What was that," Riven breathed.
 
-“I don’t know,” Cael said, and for once he sounded like he meant it.
+"I don't know," Cael said, and for once he sounded like he meant it.
 
 The pressure snapped tight, not outward, inward, a ring closing around the place where he kept his name.
 
-Riven reached for Cael without deciding to, not for comfort, for anchor, fingers clawing into Cael’s sleeve.
+Riven reached for Cael without deciding to, not for comfort, for anchor, fingers clawing into Cael's sleeve.
 
-Cael didn’t shrug him off.
+Cael didn't shrug him off.
 
-“If we stop now—” Riven started.
+"If we stop now—" Riven started.
 
-“We don’t stop,” Cael said, too fast, like he was afraid of the gap after the sentence.
+"We don't stop," Cael said, too fast.
 
-“That’s not—”
+"That's not—"
 
-“I accept,” Cael said, voice hard, each syllable a plank laid down. “Whatever this is. Whatever it costs. I accept.”
+Riven couldn't get the rest out.
+
+"I accept," Cael said, voice hard, each syllable a plank laid down. "Whatever this is. Whatever it costs."
 
 The presence answered without voice: yes.
 
-Riven felt it as heat in his teeth, as shame, as sudden stupid gratitude he didn’t ask for.
+Riven felt it as heat in his teeth, shame hot in his face, and sudden stupid gratitude he didn't ask for.
 
-“Don’t,” Riven said again, weaker.
+"Don't," Riven said again, weaker.
 
-Cael’s eyes locked on his. “Say it.”
+Cael's eyes locked on his. "Say it."
 
-“Say what.”
+"Say what."
 
-“What you’re doing.”
+"Say it for real."
 
-Riven wanted to lie. Wanted to say he was only following, only dragged, only stuck because his boots wouldn’t move.
+Riven wanted to lie. Wanted to say he was only following, only dragged, only stuck because his boots wouldn't move.
 
-His mouth wouldn’t form the lie.
+His mouth wouldn't form the lie.
 
-“I’m not leaving you up here alone,” he got out instead, raw. “I’m not giving you that story to tell.”
+"I'm not leaving you up here alone," he got out instead, raw. "I'm not giving you that story to tell."
 
-Cael’s throat moved. “That’s not a yes.”
+Cael's throat moved. "That's not a yes."
 
-“It’s not a no.”
+"It's not a no."
 
-“Riven.”
+"Riven."
 
 Riven swallowed copper. The doubled heartbeat slid into sync so perfectly it felt like theft.
 
-“I’m here,” he said, and hated that it sounded like surrender, and meant it anyway. “I’m fine. I’m in. Christ. I’m in.”
+"I'm here," he said, and hated that it sounded like surrender, and meant it anyway. "I'm fine. I'm in. Christ. I'm in."
 
 The stone under them vibrated once, a low hum Riven felt in his molars.
 
-The presence filled him until there was no corner left to hide a thought, until even his anger felt watched, weighed, filed away.
+The presence filled him until there was no corner left to hide a thought, and even his anger felt watched, weighed, shelved.
 
-Warning again, clearer this time, almost merciful in how blunt it was: you will not remain yourselves.
+Riven dragged a breath and found still no give until his nape went cold with the warning again, clearer and blunter: you will not remain yourselves, and then his eyes spilled over in hot tears he couldn't blame on wind.
 
-Riven’s eyes spilled over anyway, hot tears he couldn’t blame on wind.
+Cael's hand squeezed once, bruise-hard, not comfort, promise.
 
-Cael’s hand squeezed once, bruise-hard, not comfort, promise.
+"I know," Cael whispered, and Riven didn't know which one of them knew what.
 
-“I know,” Cael whispered, and Riven didn’t know which one of them knew what.
+The world went quiet in a way that wasn't peace.
 
-The world went quiet in a way that wasn’t peace.
+It was the quiet after a door latched, when he realized he wasn't on the side he'd thought he was.
 
-It was the quiet after a door latched, when you realized you weren’t on the side you thought you were.
+Riven gripped Cael's sleeve until his knuckles ached.
 
-Riven gripped Cael’s sleeve until his knuckles ached.
-
-Whatever came next, it had already started listening.
+Whatever came next had already started listening.

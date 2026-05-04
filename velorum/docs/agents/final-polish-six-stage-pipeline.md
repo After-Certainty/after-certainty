@@ -2,7 +2,7 @@
 
 **Use when:** The chapter is already strong; you want **one Cursor session** that applies **minimal, high-impact** edits in a **fixed order** without merging stages.
 
-**Relation to numbered agents:** Each stage aligns with an existing spec—run this pipeline as **one chained instruction**, or run agents **[01](./01-flow-clarity-editor.md) → [02](./02-embodiment-sensory-grounding.md) → [03](./03-dialogue-voice.md) → [04](./04-thematic-signal.md) → [05](./05-pacing-structural-tension.md) → [09](./09-read-aloud-cadence-clarity-editor.md)** as separate passes. **Stage 6** here is the same bar as **[09](./09-read-aloud-cadence-clarity-editor.md)** (audiobook-style cadence); **[06](./06-audio-readaloud.md)** remains the quick listener/TTS tripwire and can run before or alongside that chain.
+**Relation to numbered agents:** Each stage aligns with an existing spec—run this pipeline as **one chained instruction**, or run agents **[01](./01-flow-clarity-editor.md) → [02](./02-embodiment-sensory-grounding.md) → [03](./03-dialogue-voice.md) → [04](./04-thematic-signal.md) → [05](./05-pacing-structural-tension.md) → [09**](./09-read-aloud-cadence-clarity-editor.md) as separate passes. **Stage 6** here is the same bar as **[09](./09-read-aloud-cadence-clarity-editor.md)** (audiobook-style cadence); **[06](./06-audio-readaloud.md)** remains the quick listener/TTS tripwire and can run before or alongside that chain.
 
 ---
 
@@ -59,6 +59,7 @@ Do **not** skip stages. Do **not** merge stages. Apply each one **lightly**.
 - Smooth awkward phrasing
 - Improve sentence transitions
 - Maintain varied sentence length (avoid choppiness or monotony)
+- Reduce **subject–verb streaks** (many bare *He/Name + verb* sentences in a row)—braid with *when/while/until/as…* where beats belong together (**voice-spec → Paragraph shape**)
 
 **DO:**
 
@@ -169,11 +170,12 @@ Do **not** skip stages. Do **not** merge stages. Apply each one **lightly**.
 - Fix ambiguous references (“it,” “they,” unclear nouns)
 - Smooth rhythm for natural speech
 - Reduce noticeable repetition
+- **Subject–verb streaks:** same bar as **[09](./09-read-aloud-cadence-clarity-editor.md)**—connective bridges, breath-sized sentences, no misleading *until* chains
 
 **DO:**
 
 - Adjust sentence structure for breath and flow
-- Vary sentence openings
+- Vary sentence openings (especially away from repeated *He… He…* reportorial stacks)
 - Replace confusing phrasing
 
 **DO NOT:**

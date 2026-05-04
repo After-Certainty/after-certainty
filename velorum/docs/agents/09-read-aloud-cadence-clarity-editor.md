@@ -19,6 +19,12 @@ This is a **final polish** pass, **not** a rewrite.
    - **Vary sentence length** (avoid monotone stacks of all-short or all-long)  
    - Smooth **clunky** constructions; where a line is meant to land in **one breath**, make that speakable without gasping  
 
+   **Subject–verb streaks (read-aloud fatigue):**  
+   - Watch for **many consecutive short sentences** that all open on the same actor + finite verb (*He turned. He looked. Cael swallowed. He stood.*)—they read like **stage directions** and exhaust breath when read aloud.  
+   - **Weave** related beats: lead with **subordinate bridges**—*when, while, until, as, though, because, after, before*—or fold one beat into another so the mouth gets **connective tissue** (articles and small words count; they buy rhythm).  
+   - **Split** if you braided too far: one breathless mega-sentence is as bad as six telegraphic ones—prefer **two or three** clear sentences over a chained pile of *until… until* or a misleading *until* on timing.  
+   - **House alignment:** same standard as **voice-spec → Paragraph shape** (sustained fabric) and **chapter-edit-pass → Pass G**.
+
 3. **Transition smoothness**  
    - Ensure ideas **connect** across sentences and paragraphs  
    - Add **minimal** connective tissue only where comprehension when heard would break  
@@ -30,7 +36,7 @@ This is a **final polish** pass, **not** a rewrite.
    - **Preserve** Riven vs Cael register (**[voice-spec.md](../voice-spec.md)** dialogue tables)  
 
 5. **Repetition tuning**  
-   - Reduce **noticeable** repetition: same sentence openers (*He… He…*), same physical beats stacked without gain  
+   - Reduce **noticeable** repetition: same sentence openers (*He… He…*), same physical beats stacked without gain—see **Subject–verb streaks** under **Sentence cadence** above  
    - Replace with **natural variation** (sensory cue, environment, motion)—not synonym roulette  
 
 6. **Listener anchoring**  

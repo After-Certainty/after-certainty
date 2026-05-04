@@ -111,6 +111,7 @@ Carry-forward style principles from Chapter 1 (see **[voice-spec.md](./voice-spe
 - **Plain dialogue** on polish: speakable under stress, stakes before ornament—**voice-spec → Plain dialogue**; **chapter-edit → Pass C2**. **Do not** replace approved **profanity** with softer wording during plainness passes—**voice-spec → Plain dialogue** (profanity stays on polish) and **Voice guardrails**.
 - **Abstract nouns:** pressure-test narrator judgment words (*peace*, *beauty*, *meaning*)—prefer labor, terrain, and visible outcomes unless a **character** speaks the abstraction (**chapter-edit → Pass D**, **voice-spec → Plain sense default**).
 - **First-read clarity** for setting labels: plain words on first mention when they carry the same image (**chapter-edit → Pass C3**).
+- **Read-aloud rhythm:** avoid long runs of bare *He/Name + verb* sentences (reportorial stacks)—braid with connective clauses—**voice-spec → Paragraph shape** (**subject–verb streaks**); **chapter-edit → Pass G**; deeper bar **agents → [09-read-aloud-cadence-clarity-editor.md](./agents/09-read-aloud-cadence-clarity-editor.md)**.
 - Dialogue attribution favors **physical action beats** over repeated **said** tags when speaker identity is already clear.
 - New locations open with a **wide-angle geographic establishing shot** before narrowing into close-third perception.
 - Character context surfaces through **behavior and situation** in-scene, not detached explanation blocks.
@@ -342,7 +343,7 @@ Each chapter must:
 - avoid abrupt **interior jump-cuts**; thought pivots should follow a visible trigger (line, sightline, or sound) and still read naturally—not like repeated template scaffolding—see **[voice-spec.md](./voice-spec.md)** → **Clear agency** and **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass A2**  
 - avoid **em-dash overuse** in manuscript prose—see **[voice-spec.md](./voice-spec.md)** → **Em dashes**; run **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass C** em-dash check  
 - include **substantial dialogue** woven through the chapter (multiple scenes of exchange, not a few tagged lines)—see **[voice-spec.md](./voice-spec.md)** → **Dialogue quality**; on revision, align **spoken lines** with **Plain dialogue**, keep **rapid banter** legible (**Rapid banter attribution**), and run **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass C2** when exchange is central to the chapter  
-- use **sustained paragraphs** as the default—see **[voice-spec.md](./voice-spec.md)** → **Paragraph shape**  
+- use **sustained paragraphs** as the default—see **[voice-spec.md](./voice-spec.md)** → **Paragraph shape** (same standard covers **subject–verb streaks** / read-aloud bridges—**chapter-edit → Pass G**)  
 - maintain tone (**[voice-spec.md](./voice-spec.md)** → Tone and style)  
 - build inevitability  
 - respect **Content boundaries** in **voice-spec.md** (no sex scenes on the page)  
