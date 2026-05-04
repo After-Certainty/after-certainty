@@ -1,6 +1,6 @@
-# Drafting with Chapter 1 as the exemplar
+# Drafting with Chapter 1 (Heartbridge) as the exemplar
 
-**Manuscript:** `velorum/manuscript/act-1-the-choice/chapter-01-the-monument.md`  
+**Manuscript:** `velorum/manuscript/act-1-the-choice/chapter-01-heartbridge.md`  
 **Use:** first-draft alignment and self-check before deep revision—not a scene-by-scene template for every chapter.
 
 Authority for voice, passes, and world rules stays in **[voice-spec.md](./voice-spec.md)**, **[chapter-edit-pass.md](./chapter-edit-pass.md)**, and **[project-spec.md](./project-spec.md)**. This file names **what Chapter 1 does well** so other chapters can aim at the same **shape, density, and habits** without copying its plot.

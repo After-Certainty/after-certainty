@@ -5,6 +5,8 @@ Catch **drift** in how Riven and Cael read on the page—interior loops, default
 
 **FOCUS:**
 
+- **POV contract:** chapter viewpoint is on **[act-chapter-index.md](../act-chapter-index.md)**—flag stretches where **interior voice or judgment** sounds like the **non-POV** lead unless the bond/exchange beat excuses it (**agents README → POV**)
+- **Narrator voice creep:** stretches that sound like **generic “literary”** narration rather than **this POV’s** mouth and trade vocabulary—restore **character-plain** and **concrete** beats (**[agents README](./README.md#concrete-description-default) → Concrete description**)
 - **Riven’s loop:** usefulness → invisibility / fear of not being named or listed; heat, deflection, humor-bitter under stress (**voice-spec** register)
 - **Cael’s loop:** control → hidden pressure / preservation; consequence-first speech; rare cracks into blunt heat (**voice-spec** register)
 - Cross-chapter habits: how each **enters** conflict, **ends** sentences under threat, **uses** silence

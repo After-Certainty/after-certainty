@@ -16,6 +16,14 @@ This story must feel:
 This is **not only** an adventure story—**crisis, beasts, and rescue** may appear on the surface (in **summary** you can name them plainly; on the page they show as **disaster, set-pieces, and pressure**).  
 It is a story about **what holds the world together—and what people pay for it**—with **Cael**, **Riven**, and **Lyra** caught in **legend, bond, and desire**.
 
+### Named geography (memorable anchors; Greyhaven-style compounds)
+
+| Name | In-world use |
+|------|----------------|
+| **Ashfen** | The upland country north of Greyhaven (north road, scree, wind-bleak hills to the summit). “Highlands” is fine in plain speech; **Ashfen** is the place name on maps and in locals’ mouths. |
+| **Ashring** | The consecrated stone bowl where the oath completes. Stall pamphlets still print **First Circle** in the margin—theological shorthand for the same site. |
+| **Heartbridge** | Local name for **the Greyhaven hill monument** (two men, one rope—visible “bridge” of stone); stall pamphlets reuse the **same word** for the bond promise under the woodcut. Older/cheap copy sometimes says **living bridge**; prefer **Heartbridge** once the term is established. |
+
 ---
 
 # CORE PREMISE
@@ -24,7 +32,7 @@ In this world, reality is stabilized by something known as Velorum.
 
 ### Author-facing model (aligned with [synopsis.md](./synopsis.md))
 
-For **planning, collaborators, and causal clarity**, treat Velorum as a **god**—the power that minds whether things **line up**—who **casts magic** when a pair completes the oath in the **first circle**: a **spell** (the bond) that ties **two inner lives**—**shared thoughts and feelings**, thin privacy, **moods and emotions** passed between **Cael** and **Riven**—while the world outside still **benefits from their alignment**.
+For **planning, collaborators, and causal clarity**, treat Velorum as a **god**—the power that minds whether things **line up**—who **casts magic** when a pair completes the oath in the **Ashring** (pamphlet theology: **first circle**): a **spell** (the bond; pamphlet branding **Heartbridge**) that ties **two inner lives**—**shared thoughts and feelings**, thin privacy, **moods and emotions** passed between **Cael** and **Riven**—while the world outside still **benefits from their alignment**.
 
 **Myth layer:** long ago a **first pair** discovered Velorum, became **legendary heroes**, **died tragically**; **songs and chapbooks praise the bond** and skip the hard parts (jealousy, privacy, what people give up). **Cael** and **Riven** grow up on those legends and **seek** Velorum **wishing to become heroes**—they inherit **glamour**, not a clear warning label.
 
@@ -100,18 +108,18 @@ The book is **fantasy first**: tragedy and myth land *after* readers recognize t
 
 ### Early-chapter checklist (Acts 1–2)
 
-1. By end of **Chapter 1** ("The Monument"), a new reader can say: **Riven** and **Cael** fear obscurity and are pulled toward remembered heroism.  
+1. By end of **Chapter 1** ("Heartbridge"), a new reader can say: **Riven** and **Cael** fear obscurity and are pulled toward remembered heroism.  
 2. By end of **Chapter 2** ("The Decision"), readers understand why **Cael** commits and why **Riven** follows despite unease.  
 3. By **Chapters 7–13** (Act II), readers feel the pattern clearly: power through sync, civic pressure in **Kestrel Gate**, **Halverin**’s control narrative, **Lyra** as outside witness, and first visible cracks in the bond.
 
-**Status note:** **Chapter 1 ("The Monument") is complete** as the current calibration reference for opening geography, attribution strategy, and behavior-led character context.
+**Status note:** **Chapter 1 ("Heartbridge") is complete** as the current calibration reference for opening geography, attribution strategy, and behavior-led character context.
 
 Carry-forward style principles from Chapter 1 (see **[voice-spec.md](./voice-spec.md)** and **[chapter-edit-pass.md](./chapter-edit-pass.md)** for full passes):
 - **Camera-observable narration** as the default for description: sight-line physical sequence before interpretation—**voice-spec → Camera-observable narration**; revision passes **chapter-edit → Pass D3** when narration drifts literary.
 - **Plain dialogue** on polish: speakable under stress, stakes before ornament—**voice-spec → Plain dialogue**; **chapter-edit → Pass C2**. **Do not** replace approved **profanity** with softer wording during plainness passes—**voice-spec → Plain dialogue** (profanity stays on polish) and **Voice guardrails**.
 - **Abstract nouns:** pressure-test narrator judgment words (*peace*, *beauty*, *meaning*)—prefer labor, terrain, and visible outcomes unless a **character** speaks the abstraction (**chapter-edit → Pass D**, **voice-spec → Plain sense default**).
 - **First-read clarity** for setting labels: plain words on first mention when they carry the same image (**chapter-edit → Pass C3**).
-- **Read-aloud rhythm:** avoid long runs of bare *He/Name + verb* sentences (reportorial stacks)—braid with connective clauses—**voice-spec → Paragraph shape** (**subject–verb streaks**); **chapter-edit → Pass G**; deeper bar **agents → [09-read-aloud-cadence-clarity-editor.md](./agents/09-read-aloud-cadence-clarity-editor.md)**.
+- **Read-aloud rhythm:** avoid long runs of bare *He/Name + verb* sentences (reportorial stacks)—braid with connective clauses—**voice-spec → Paragraph shape** (**subject–verb streaks**); **chapter-edit → Pass G**; deeper bar **agents → [10-read-aloud-cadence-clarity-editor.md](./agents/10-read-aloud-cadence-clarity-editor.md)**.
 - Dialogue attribution favors **physical action beats** over repeated **said** tags when speaker identity is already clear.
 - New locations open with a **wide-angle geographic establishing shot** before narrowing into close-third perception.
 - Character context surfaces through **behavior and situation** in-scene, not detached explanation blocks.
@@ -350,7 +358,7 @@ Each chapter must:
 
 Suggested opening (adjust as you draft):
 
-Chapter 1: The Monument *(POV Riven; see **act-chapter-index**)*  
+Chapter 1: Heartbridge *(POV Riven; see **act-chapter-index**)*  
 
 Default POV rotation intent remains flexible at chapter scale; follow the **POV listed per chapter in [act-chapter-index.md](./act-chapter-index.md)** unless intentionally revised in both planning docs.
 

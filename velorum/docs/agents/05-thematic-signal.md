@@ -13,9 +13,11 @@ Strengthen **core themes** through **pattern, image, and recurrence**—reader f
 **DO:**
 - Echo and **vary** motif wording once the image is established (refresh, don’t spam)
 - Prefer **object and labor** to abstract nouns (*meaning*, *truth*, *cost*) in narration; keep abstract words in **dialogue** only when a character would say them aloud
+- Strengthen theme through **recurring concrete things** (rope, chalk, pamphlet ink, boots, stone worn smooth)—**not** narrator-facing metaphor that **labels** the theme (**[agents README](./README.md#concrete-description-default) → Concrete description**)
 - Align with **voice-spec → Clear agency** (no narrator-oracle “the town knows”)
 
 **DO NOT:**
+- Replace concrete motifs with **ornamental figurative** “theme lines” that sound poetic but add no new **seeable** information
 - **Explain** themes in narration or new dialogue
 - Add **exposition** lectures or lore dumps to “clarify” theme
 - Turn subtext into **text** (*what this really means is…*)

@@ -37,9 +37,9 @@ Stacked em dashes read like template prose and tire the eye. Default to **commas
 
 **Do not** lean on em dashes as the primary way to tack one clause onto another across the chapter.
 
-**Revision cue:** Search the chapter for em dashes; if the count feels high on a skim, convert most. **`chapter-01-the-monument.md`** after its punctuation pass is the reference density (essentially **one** em dash kept for interrupted speech).
+**Revision cue:** Search the chapter for em dashes; if the count feels high on a skim, convert most. **`chapter-01-heartbridge.md`** after its punctuation pass is the reference density (essentially **one** em dash kept for interrupted speech).
 
-**Shape reference:** until the manuscript has a settled “gold” chapter, use **Calibration samples** below (same section of this file) and **`chapter-01-the-monument.md` (opening)** for place-first woven narration—compare new work to **density and flow**, not exact sentences.
+**Shape reference:** until the manuscript has a settled “gold” chapter, use **Calibration samples** below (same section of this file) and **`chapter-01-heartbridge.md` (opening)** for place-first woven narration—compare new work to **density and flow**, not exact sentences.
 
 ### Plain sense default *(matches Chapter 1 revision standard)*
 
@@ -56,7 +56,7 @@ Speech should read **sayable at stress**—what a tired person would actually sp
 - **Belief and lore stay in mouths.** Phrasing like *the ground answered* belongs to **quoted tale**, **pamphlet**, or a character stating what people claim—not to narrator omniscience (see **Clear agency → Lore and theology**).  
 - **Keep mythic oath language where in-world:** Velorum / bond / alignment terms stay; do not replace them with clever secular metaphors that obscure the mechanic.  
 - **Profanity stays on polish:** readability and “plain dialogue” passes **do not** replace approved swearing with softer synonyms (*darn*, *heck*, toned-down substitutes) unless a specific scene or audience constraint is documented elsewhere. Flatten **metaphor and thesis-shaped lines**, not **heat**. See **Voice guardrails** for approved registers.  
-- **Exemplar:** **`chapter-01-the-monument.md`** argument blocks on the ridge (Riven/Cael): sharp exchanges, plain nouns, theology only when attributed; revision target for **density of straight talk per page** of dialogue.
+- **Exemplar:** **`chapter-01-heartbridge.md`** argument blocks on the ridge (Riven/Cael): sharp exchanges, plain nouns, theology only when attributed; revision target for **density of straight talk per page** of dialogue.
 
 ### Camera-observable narration *(sight-line standard; calibrated on Chapter 1)*
 
@@ -66,7 +66,7 @@ Use this for **default narration** (not quoted song, pamphlet, or deliberate per
 - **No narrator-as-oracle:** swap abstract nouns (*peace*, *beauty*, *meaning*, *romance*, *failure*) for **visible facts** (*patched roofs*, *blood left off the pamphlet*, *no name on stone*) unless a **character** says the abstract word in dialogue.  
 - **Interior / memory:** when thought drifts off present action, **mark the cut** with a plain trigger (*he saw the counter instead of the roofs*, *the line blurred*) so the jump reads as **attention shift**, not omniscient slide.  
 - **Monuments and objects:** first establishing shot states **subject of the carving** (how many figures, posture, hands, base) in **camera-flat** wording—avoid figurative merge metaphors in narration (*cut two men into one piece*) unless dialogue performs them.  
-- **Exemplar:** **`velorum/manuscript/act-1-the-choice/chapter-01-the-monument.md`** after camera + plainness passes—compare new chapters to **literal subjects**, **physical transitions**, and **density of figurative fog** (aim: low in narration, character-appropriate in dialogue).
+- **Exemplar:** **`velorum/manuscript/act-1-the-choice/chapter-01-heartbridge.md`** after camera + plainness passes—compare new chapters to **literal subjects**, **physical transitions**, and **density of figurative fog** (aim: low in narration, character-appropriate in dialogue).
 
 ### Tightening *(Pass F; line-level)*
 
@@ -76,7 +76,7 @@ After sense, agency, and plain dialogue are in place, **tighten** so every line 
 - **Anchor moment and action before sensation stacks** where a cold read would ask *what moved?* first: who did what, then (if still needed) how it landed in the body.  
 - **Cut echo** (same fear, same object) unless the second pass **adds** new information or pressure.  
 - **Do not** trade tight for staccato: when you cut, **re-braid** into the same **paragraph fabric** the voice spec already calls for (see **Paragraph shape**).  
-- **Exemplar (post-polish density):** **`velorum/manuscript/act-1-the-choice/chapter-01-the-monument.md`** after a full pass A–E and **Pass F**—compare new chapters to its **tightness of observation** and **absence of double-tap description**, not to its exact word count.
+- **Exemplar (post-polish density):** **`velorum/manuscript/act-1-the-choice/chapter-01-heartbridge.md`** after a full pass A–E and **Pass F**—compare new chapters to its **tightness of observation** and **absence of double-tap description**, not to its exact word count.
 
 **Revision cue:** run after concreteness and place passes when a scene *works* but still **sponges**; see **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass F** and final **Pass G** skim.
 
@@ -114,7 +114,7 @@ Used to keep **setting** readable on a **first pass**—especially for readers w
 - **Ground “where” before “why.”** When you introduce or revisit a town, road, harbor, or wild stretch, stack **things people touch and trade**: docks, crates, rope, chimneys, coin, mud, livestock—before mood-only summary. Prefer **sand where it ran shallow near the harbor mouth** over nautical jargon that stops readers cold (*shoal*, unless context teaches it in-scene).
 - **Social logic in bodies, not mottoes.** Avoid standalone **aphorisms** (*the town teaches X*) unless you tether them to **one visible consequence**—someone counting coins **because** theft happens, a wall that’s thin, a bowl that costs what it costs.
 - **One-sentence practical verdict (optional):** After a dense place pass, you may land a short **summarizing judgment** grounded in survival terms (**That was Greyhaven in practical terms: rope, salt, wool, gossip…**) so readers can hold the whole sketch—then move on.
-- **Exemplar chapter:** Until the project names a replacement “gold” chapter, treat **`velorum/manuscript/act-1-the-choice/chapter-01-the-monument.md`**—**opening paragraphs** for place-first narration, **ridge dialogue** for **Plain dialogue**, and **Pass A3** cleanup (no town-as-oracle, attributed lore)—as the default reference for voice alongside calibration samples elsewhere in this file.
+- **Exemplar chapter:** Until the project names a replacement “gold” chapter, treat **`velorum/manuscript/act-1-the-choice/chapter-01-heartbridge.md`**—**opening paragraphs** for place-first narration, **ridge dialogue** for **Plain dialogue**, and **Pass A3** cleanup (no town-as-oracle, attributed lore)—as the default reference for voice alongside calibration samples elsewhere in this file.
 
 ### Spatial and surface clarity *(paths, wind, sightlines)*
 
@@ -127,7 +127,7 @@ Terrain should read **legible on a map-reader skim**: who is **on** what, what t
 - **Pronouns:** If **it** could mean **wind / face / argument / view**, swap in the **noun**, **merge into one sentence**, or use a single clear beat (*Cael’s bulk took the edge off the wind against Riven’s face*) so you don’t repeat the same noun twice awkwardly.  
 - **Echoes:** Don’t stack the same **weather / wind / ridge** twice in one sentence without need—swap one slot for **sky**, **crest**, **reach**, or **gust** when the sentence would otherwise rhyme with itself.  
 - **Articles:** Prefer **the** or a **possessive** when the thing is **this** scene’s element—not headline telegraph: *against **the** weather*, *through **the** wind*, *off **the** stone*, ***his** skin* when it’s Riven’s body. Keep bare forms only where English normally does (*letters worn by weather*, *in wet weather*, *toward dusk*).  
-- **Revision cue:** Run this alongside **Plain sense default** on any paragraph where a cold reader could draw the wrong diagram; **`chapter-01-the-monument.md`** after its spatial pass is the practical reference.
+- **Revision cue:** Run this alongside **Plain sense default** on any paragraph where a cold reader could draw the wrong diagram; **`chapter-01-heartbridge.md`** after its spatial pass is the practical reference.
 
 ### Character introduction *(first on-page appearance)*
 
@@ -209,7 +209,7 @@ Draft and revise so **mouth matches pressure**, not a uniform “fantasy polite.
 - Avoid **staccato stacks** of isolated single-sentence paragraphs unless a line truly needs to land alone (use sparingly).  
 - When speakers alternate, keep the standard rule—**new paragraph per speaker**—but **embed** action, physical detail, and POV reaction *in* those paragraphs instead of stripping beats into separate micro-lines. When **rapid banter** stacks short lines, add enough **tags or beats** that the chain stays legible—see **Rapid banter attribution** under **Dialogue quality** below.  
 - Narration especially should read like continuous fabric: combine related observations, hesitation, and judgment rather than breaking after every clause.  
-- **Subject–verb streaks (read-aloud):** avoid long runs of **bare** *Name/He + verb* sentences in a row (*He stood. He looked. He breathed.*)—they sound reportorial when heard. Where beats belong together, **bridge** with subordinate clauses (*when, while, until, as, though, because*) or merge into fewer sentences; see **[agents/09-read-aloud-cadence-clarity-editor.md](./agents/09-read-aloud-cadence-clarity-editor.md)** and **chapter-edit-pass → Pass G**. Do not trade one problem for another: **over-long fused sentences** still fail read-aloud—split at natural breaths.  
+- **Subject–verb streaks (read-aloud):** avoid long runs of **bare** *Name/He + verb* sentences in a row (*He stood. He looked. He breathed.*)—they sound reportorial when heard. Where beats belong together, **bridge** with subordinate clauses (*when, while, until, as, though, because*) or merge into fewer sentences; see **[agents/10-read-aloud-cadence-clarity-editor.md](./agents/10-read-aloud-cadence-clarity-editor.md)** and **chapter-edit-pass → Pass G**. Do not trade one problem for another: **over-long fused sentences** still fail read-aloud—split at natural breaths.  
 - **Editing passes:** tightening prose must **not** strip paragraph fabric—when cutting repetition or sharpening dialogue, **recombine** beats into sustained blocks (especially narration and POV reaction). Never replace long paragraphs with chains of one-sentence paragraphs unless the rhythm is intentionally climactic—and even then, use sparingly. Applies to **full-chapter revisions** as well as line edits: preserve or restore **woven** narration between dialogue exchanges.
 - **Global revision:** when tightening the whole book for readability, pick **one strong chapter** as the **shape reference** (how long narration blocks run, where dialogue breaks) and measure the rest against it—same standards as **Calibration samples** and the readability rules above.
 
@@ -224,7 +224,7 @@ Dialogue must be:
 - Subtext-driven  
 - Tension-bearing  
 - Varied in rhythm (short strikes, longer runs, interruptions)  
-- **Speakable under pressure:** on a late polish, run **Plain dialogue** (same section)—match the directness of **`chapter-01-the-monument.md`** Cael/Riven ridge exchange; see **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass C2**.
+- **Speakable under pressure:** on a late polish, run **Plain dialogue** (same section)—match the directness of **`chapter-01-heartbridge.md`** Cael/Riven ridge exchange; see **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass C2**.
 
 “Plenty” does not mean filler. Every block should earn its place.
 
@@ -237,7 +237,7 @@ Close-third readers should not have to **infer** the speaker from tone alone whe
 - If tagging makes **“said”** repeat heavy, swap some tags for **micro-beats** that still name who moves (*Cael’s jaw tightened. “Why?”*).  
 - If a line’s speaker is already obvious from the sentence right before it, **drop the extra tag**—prioritize readability over mechanical label-every-line habits.  
 - If a tiny line (**Fuck**, **I know**) gets a tag and the **next** beat would contradict it (*he didn’t answer*), rewrite the narration so silence still means what you intend (*He didn’t follow up. That was answer enough.*).  
-- **Exemplar:** **`chapter-01-the-monument.md`** ridge arguments after a banter pass.
+- **Exemplar:** **`chapter-01-heartbridge.md`** ridge arguments after a banter pass.
 
 ### Character voices (dialogue)
 
@@ -268,7 +268,7 @@ Orchestration and revelation can be **shared** across many lines; characters may
 
 ### Voice & vividness (narration)
 
-*Texture reference—not a plot beat. Same priorities as **`chapter-01-the-monument.md`**: concrete sequence, plain verbs, bond and Velorum named without ornament stacking.*
+*Texture reference—not a plot beat. Same priorities as **`chapter-01-heartbridge.md`**: concrete sequence, plain verbs, bond and Velorum named without ornament stacking.*
 
 The trail dropped until the basin widened below. First the ridge wind quit; then the smell turned from pine to wet stone and shallow water.
 

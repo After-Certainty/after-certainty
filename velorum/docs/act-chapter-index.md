@@ -5,10 +5,10 @@
 ## ACT I — THE CHOICE (Chapters 1–6)
 **Goal:** Establish characters, Greyhaven, the legend, and the curse.
 
-### Chapter 1 — The Monument
+### Chapter 1 — Heartbridge
 **POV:** Riven  
-**Gold chapter / drafting exemplar:** manuscript `act-1-the-choice/chapter-01-the-monument.md`; habits **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)**; revision agents **[agents/README.md](./agents/README.md)**.  
-Riven studies the crumbling statue outside Greyhaven. We see his fear of being forgotten and his desire for meaning. Cael frames the legend as purpose.
+**Gold chapter / drafting exemplar:** manuscript `act-1-the-choice/chapter-01-heartbridge.md`; habits **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)**; revision agents **[agents/README.md](./agents/README.md)**.  
+Riven studies Heartbridge—the hill monument outside Greyhaven. We see his fear of being forgotten and his desire for meaning. Cael frames the legend as purpose.
 
 ### Chapter 2 — The Decision
 **POV:** Cael  
@@ -18,9 +18,9 @@ Cael commits to seeking Velorum. He rationalizes the choice as necessary. Riven 
 **POV:** Riven  
 They leave town. Establish their dynamic: Cael grounded, Riven searching. First hints of tension in why they’re doing this.
 
-### Chapter 4 — The Highlands
+### Chapter 4 — Ashfen
 **POV:** Cael  
-Harsh terrain. Increasing pressure. Velorum’s presence begins to be felt as environmental distortion.
+Ashfen (upland march): harsh terrain. Increasing pressure. Velorum’s presence begins to be felt as environmental distortion.
 
 ### Chapter 5 — Velorum
 **POV:** Riven  

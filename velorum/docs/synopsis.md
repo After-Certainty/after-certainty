@@ -8,7 +8,7 @@ In the wind-worn frontier town of Greyhaven, where most lives pass without recor
 
 Bound by deep loyalty and a shared hunger to matter, they become obsessed with a crumbling monument outside town—two heroes cursed by the god Velorum who died tragically but are remembered forever. Cael sees purpose in the story. Riven sees meaning.
 
-Together, they choose the same path for different reasons and leave Greyhaven to seek Velorum in the desolate highlands. When they find the god, it does not appear as a figure but as a suffocating presence in the air, offering only a warning that they will not remain themselves.
+Together, they choose the same path for different reasons and leave Greyhaven to seek Velorum in desolate **Ashfen**. When they find the god, it does not appear as a figure but as a suffocating presence in the air, offering only a warning that they will not remain themselves.
 
 Cael accepts immediately. Riven hesitates—but refuses to be left behind. The curse takes hold at once: they hear each other’s thoughts and feel each other’s emotions without separation, their inner lives fused into a single, shared experience.
 
