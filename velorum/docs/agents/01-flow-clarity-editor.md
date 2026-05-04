@@ -7,6 +7,7 @@ Make prose **smoother**, **more readable**, and **better for read-aloud**—with
 
 - Sentence flow (connections, order, hand-offs between clauses)
 - Paragraph rhythm (braid related beats; avoid accidental staccato or wall-of-grey)
+- **Subject–verb streaks:** when narration stacks *He/Name + verb* in separate short sentences, consider **bridges** (*when, while, until, as…*) or merging—same habit as **voice-spec → Paragraph shape**; deep pass lives in **[09-read-aloud-cadence-clarity-editor.md](./09-read-aloud-cadence-clarity-editor.md)**
 - Accessibility: **Sarah Beth Durst–style clarity**—plain syntax, concrete through-lines, adult ideas delivered legibly
 - **Bookish sound (narration + line-of-sight prose):** Velorum defaults to **contemporary spoken English** in close-third; catch lines that read like essay, lit-mag, or textbook when **plain verbs and body/work images** carry the same beat (**voice-spec → Plain dialogue** spirit applies to narration too—plain *sense* default)
 

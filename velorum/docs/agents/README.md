@@ -9,7 +9,7 @@
 
 **Detailed checklists:** [chapter-edit-pass.md](../chapter-edit-pass.md)  
 **Gold-chapter habits:** [exemplar-chapter-01-drafting.md](../exemplar-chapter-01-drafting.md)  
-**Bookish register (sayable mouth):** catch early in **[01-flow-clarity-editor.md](./01-flow-clarity-editor.md)** (narration + whole chapter), dialogue-heavy beats in **[03-dialogue-voice.md](./03-dialogue-voice.md)**, listener triage in **[06-audio-readaloud.md](./06-audio-readaloud.md)**, optional sustained cadence polish in **[09-read-aloud-cadence-clarity-editor.md](./09-read-aloud-cadence-clarity-editor.md)**; rough-draft default in **[00-brief-to-rough-draft.md](./00-brief-to-rough-draft.md)**.
+**Bookish register (sayable mouth):** catch early in **[01-flow-clarity-editor.md](./01-flow-clarity-editor.md)** (narration + whole chapter), dialogue-heavy beats in **[03-dialogue-voice.md](./03-dialogue-voice.md)**, listener triage in **[06-audio-readaloud.md](./06-audio-readaloud.md)**, optional sustained cadence polish in **[09-read-aloud-cadence-clarity-editor.md](./09-read-aloud-cadence-clarity-editor.md)** (includes **subject–verb streaks** / connective bridges—**voice-spec → Paragraph shape**); rough-draft default in **[00-brief-to-rough-draft.md](./00-brief-to-rough-draft.md)**.
 
 ---
 
@@ -31,7 +31,7 @@
 |--------|----------|
 | [Character Consistency](./07-character-consistency.md) | Chapters drift on Riven/Cael interior logic |
 | [Line-Level Precision](./08-line-level-precision.md) | **Sparingly**—repetition, micro-tighten without wrecking rhythm |
-| [Read-Aloud Cadence & Clarity](./09-read-aloud-cadence-clarity-editor.md) | **Optional final polish** after **06**—audiobook-style cadence, connective smoothness, sustained speakability (not a rewrite) |
+| [Read-Aloud Cadence & Clarity](./09-read-aloud-cadence-clarity-editor.md) | **Optional final polish** after **06**—audiobook-style cadence, connective smoothness, sustained speakability, **subject–verb streaks** / bridge clauses (not a rewrite) |
 | [Final polish — six-stage pipeline](./final-polish-six-stage-pipeline.md) | **One prompt, six ordered passes** (flow → embodiment → dialogue → theme → pacing → read-aloud); same layers as **01–05 + 09**, with global critical rules and change budget (~5% / ~20% cap) |
 
 If you **already** wrote the chapter by hand, skip **00** and start at **01**.
