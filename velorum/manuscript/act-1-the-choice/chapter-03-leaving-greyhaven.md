@@ -127,7 +127,7 @@ Cael’s shoulders tightened, barely, then loosened. “I know.”
 
 Cael walked another ten paces before he answered, and Riven could almost hear him choosing words the way he chose lumber, rejecting the warped ones first.
 
-“We’re not hauling for someone else’s tally,” Cael said. “We’re going to hear past the verses they sell.”
+“We’re not hauling for someone else’s tally,” Cael said. “We’re listening for the verse they didn’t print.”
 
 Riven’s mouth twisted. “That’s a line.”
 
@@ -149,7 +149,7 @@ Riven looked longer than he meant to.
 
 “I’m…” Riven searched for a word that wasn’t sentimental and failed. “I’m memorizing,” he admitted, thumb braced on the cold buckle until his skin went numb, angry at himself for saying it.
 
-Cael nodded once, like that was allowed. “Good. Let it sit heavy. It keeps you honest.”
+Cael nodded once, like that was allowed. “Good. Don’t shrug it off. It keeps you honest.”
 
 “Or keeps you scared.”
 
@@ -191,7 +191,7 @@ Cael blinked, caught off balance for once, gravel shifting under his boots as he
 
 “You don’t stop,” Riven said. “You don’t even slow for maybe. You just… pick a line and go.”
 
-Cael looked past him, down the road where the switchbacks kept climbing, then back. “You told me to tell you when I do.”
+Cael looked past him, down the road where the switchbacks kept climbing, then back. “I told you to tell me when I do that.”
 
 “Yeah,” Riven muttered. “Somebody has to.”
 
@@ -213,7 +213,7 @@ Cael was quiet long enough that Riven thought he’d finally pushed too far. The
 
 Cael exhaled through his nose. “Riven.”
 
-“What?”
+“What.”
 
 Cael’s stride hitched once. He still didn’t look over. “I’m glad you came.”
 
