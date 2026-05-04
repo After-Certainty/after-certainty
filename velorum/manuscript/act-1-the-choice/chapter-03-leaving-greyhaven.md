@@ -27,7 +27,8 @@ Cael’s eyes flicked to Mara, then back. “We leave clean,” he said, softer.
 Distance. Like miles were the point.
 
 Riven let out a breath he hadn’t known he was holding.
-Then he swallowed the first thing that wanted out of his mouth, something sharp about beams and cracks and pretending fear was a schedule, and nodded once because nodding cost less than explaining.
+Then he swallowed the first thing that wanted out of his mouth, something sharp about beams and cracks and pretending fear was a schedule.
+He nodded once because nodding cost less than explaining.
 
 Outside, the harbor air hit him damp and salted. The sky over the water was still a bruised color, not quite day, not quite night. Gulls complained on the pilings. A cart creaked somewhere down toward the docks, early work, the kind of work that didn’t care whether you’d slept.
 
@@ -41,7 +42,8 @@ The guard was half asleep, blanket over his knees, smell of last night’s beer 
 
 “North’s always hiring,” the guard muttered, which wasn’t an answer, and waved them through like flies.
 
-The road began as packed dirt and old wheel ruts, wide enough for two carts if both drivers hated each other a little. Houses thinned. Smoke threads rose behind them, then dropped away as the ground lifted. Sound changed too: the harbor noise turned into wind, steady and blunt, pushing at Riven’s ears until Greyhaven wore down to a line of roofs and smoke behind his shoulder.
+The road began as packed dirt and old wheel ruts, wide enough for two carts if both drivers hated each other a little. Houses thinned. Smoke threads rose behind them, then dropped away as the ground lifted. Sound changed too: the harbor noise thinned into wind, steady and blunt against Riven’s ears.
+Greyhaven wore down to a line of roofs and smoke behind his shoulder.
 
 Cael set a pace that wasn’t cruel but didn’t forgive, either: long strides, shoulders square, eyes on the line where the road cut into the hills. Riven matched it because not matching would’ve been its own kind of talk, and he wasn’t giving Cael that win this early.
 
@@ -133,7 +135,7 @@ Riven’s mouth twisted. “That’s a line.”
 
 “Still sounds rehearsed.”
 
-Cael didn’t argue. Wind shoved into the gap instead, hard enough that Riven had to lean, pack shifting, rope knocking once against his hip like a reminder.
+Cael didn’t argue. Wind shoved into the quiet instead, hard enough that Riven had to lean, pack shifting, rope knocking once against his hip like a reminder.
 
 They rounded a bend and the whole coast opened for half a heartbeat: Greyhaven small enough to pretend it was harmless, the harbor a dark mouth, the monument a pale tooth on the hill behind the roofs.
 
@@ -157,21 +159,21 @@ Riven almost smiled, and the almost hurt worse than a full laugh would’ve.
 
 They stopped at a thin runoff where water cut a channel across the road, clear enough to cup and drink if you didn’t mind grit. Cael knelt and rinsed his hands anyway, cold water dripping from his fingers, then wiped them dry on his trousers like ritual mattered more than comfort.
 
-Riven drank because his throat was dry and because stopping meant he could look at Cael without the excuse of walking.
+Riven drank to wet his throat and for the chance to look at Cael without the excuse of walking.
 
 “You’re doing the thing,” Riven said.
 
-Cael glanced up. “What thing.”
+Cael glanced up. “What thing?”
 
 “You’re putting it in job words so you don’t have to say what you want.”
 
 Cael’s jaw worked once. “I want to know.”
 
-“Know what.”
+“Know what?”
 
 “If the ground answers,” Cael said, like he was calling out a bad joist before he pulled it. “If it’s more than ink.”
 
-Riven heard the echo of the yard in it, the ridge, the chalk, the way Cael had sat on cold stone and named distances like nails. He also heard the gap: Cael wasn’t naming what came after yes, or what came after no.
+Riven heard the echo of the yard in that answer, the ridge, the chalk, the way Cael had sat on cold stone and named distances like nails. He also heard the gap: Cael wasn’t naming what came after yes, or what came after no.
 
 “And if it’s real,” Riven said slowly, “you’ll call that proof.”
 
@@ -205,13 +207,13 @@ Higher up, the wind turned meaner. The trees leaned with it, branches scraping d
 
 “I’m mad that you sound like you’re doing me a favor by letting me carry my own weight.”
 
-Cael was quiet long enough that Riven thought he’d finally pushed too far. Then Cael said, “I’m not doing you a favor. I’m trying not to lose you off a loose edge while you’re too proud to loosen a strap.”
+Cael was quiet long enough that Riven thought he’d finally pushed too far. Then Cael said, “I’m not doing you a favor. I’m trying not to lose you off a loose edge while you’re too proud to ease the strap.”
 
 “Same sentence, different packaging.”
 
 Cael exhaled through his nose. “Riven.”
 
-“What.”
+“What?”
 
 Cael’s stride hitched once. He still didn’t look over. “I’m glad you came.”
 
@@ -219,7 +221,7 @@ The words landed wrong-warm in the cold air, like a hand on the back of Riven’
 
 Riven swallowed, the heat in his neck refusing to go down. “Don’t.”
 
-“Don’t what.”
+“Don’t what?”
 
 “Don’t… soften it,” Riven said, harsher than he meant. “I can’t do soft talk and still mean this.”
 
@@ -227,7 +229,8 @@ Cael went still long enough that Riven noticed. Then Cael nodded once, face tigh
 
 They walked.
 
-By midday the road turned to broken shale that clicked under every step, a sound that got inside Riven’s teeth. Sun came thin through cloud, enough to show dust on Cael’s shoulders, enough to show how far Greyhaven had fallen behind, not far in miles maybe, but far in the way distance always cheated: the town still visible if he looked, but too small to return to without meaning it.
+By midday the road turned to broken shale that clicked under every step, a sound that got inside Riven’s teeth. Sun came thin through cloud, enough to show dust on Cael’s shoulders.
+Enough to show how far Greyhaven had fallen behind, not far in miles maybe, but far in the way distance always cheated: the town still visible if he looked, but too small to return to without meaning it.
 
 Riven didn’t look again.
 
@@ -245,7 +248,7 @@ Cael’s eyes flicked to him. “I care. I just don’t let it steer.”
 
 Riven almost laughed. “There it is.”
 
-“There what is.”
+“There what is?”
 
 “The thing,” Riven said. “You treat caring like something you tighten down so it won’t squeak.”
 
@@ -265,7 +268,7 @@ They packed up and moved on.
 
 Afternoon dropped into a windless stretch where silence sat heavier than sound. Riven’s calves ached, the pack strap a hot line across his collarbone, and when he shifted the rope again sweat slid cold down his spine.
 
-Cael walked ahead, steady as a metronome, and Riven watched his back and thought, not for the first time, that loyalty could look a lot like being towed.
+Cael walked ahead, stride never changing, and Riven watched his back and thought, not for the first time, that loyalty could look a lot like being towed.
 
 Not fair, his mind echoed, same as at the meal. True anyway.
 
@@ -313,7 +316,7 @@ He listened to Cael’s breathing on the other side of the fire, slow, even, alr
 
 Riven stayed awake longer.
 
-He thought of the monument pale on the hill, the pamphlet ink on his thumb, the guard’s lazy wave, Mara’s coins counting down without mercy. He thought of the dock at dusk. He thought of Cael’s flat yes when asked if he’d go anyway.
+He thought of the monument pale on the hill, pamphlet ink on his thumb, the guard’s lazy wave, Mara’s coins counting down without mercy. The dock at dusk. Cael’s flat yes when asked if he’d go anyway.
 
 Different reasons, Riven told himself. Same road.
 
