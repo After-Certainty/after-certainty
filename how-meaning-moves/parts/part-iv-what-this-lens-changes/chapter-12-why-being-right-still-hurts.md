@@ -1,84 +1,18 @@
 # **Chapter 12 — Why Being Right Still Hurts**
 
-Correct interpretations can still cause damage. Accuracy does not guarantee safety.
+### **When Rightness Repairs**
 
-When compression outruns restraint, truth lands hard. Harm does not require cruelty. It only requires certainty to arrive faster than people can absorb it.[^c12-kruglanski-need-closure]
+::: {custom-style="Vignette Block"}
+She named the mistake plainly. The numbers were wrong, and everyone in the room could see it once she walked through the sheet.
 
-## **Why Correctness Feels Protective**
+No one argued the point.
 
-Being right feels steady. A firm read cuts confusion. It gives footing. It lets the next step happen without wobble. When things feel unstable, correctness feels like solid ground.
+She set her pen down and waited a full breath before assigning causes. Then she asked what each person had been optimizing for and what tradeoff had been invisible at the time.
 
-That is why tense talk pulls toward facts, proofs, and careful wording. Accuracy feels like the safest ground. Safety bought with speed is brittle.
+The correction held. So did the room.
 
-## **When Truth Arrives Too Fast**
-
-Truth never arrives alone. It travels through signal. Listeners compress it. It lands inside **connection**—bonds shaped by history, power, and expectation that outlast any single exchange.
-
-When restraint is thin, accurate words can outrun what people can take in. The listener meets certainty before context, verdict before contact.
-
-The result is impact more than understanding.[^c12-barrett-how-emotions-are-made]
-
-Truth turns into force. The facts may hold—and **Meaning gets distorted** anyway in how they land and how they get heard.
-
-## **Accuracy Versus Integration**
-
-Accuracy asks: *Is this true?*
-
-Integration asks: *What does this do here, now, between us?*—which is another way of asking what truth does to **connection** once today’s meeting ends.
-
-Communication breaks when accuracy is treated as enough on its own. Facts show up without regard for pace, timing, or relationship.
-
-People react less to the abstract truth of a line than to how sharply it hits. That gap is why fair feedback can feel cruel and valid critique can spark defense instead of reflection.
-
-## **How Correctness Accelerates Compression**
-
-Correctness speeds compression because it shuts debate down. Once something counts as settled truth, slower interpretation feels wasteful. People stop exploring and start guarding positions.
-
-Talk slides from coordination toward enforcement. Under that pressure, being right can feel like duty—even when it hurts.[^c12-nickerson-confirmation-bias]
-
-## **Interpretive Violence**
-
-Interpretive violence happens when meaning gets imposed faster than it can be taken in. It does not require yelling or evil intent. It can arrive in a calm voice, with accurate lines and careful grammar.
-
-When people get flattened into conclusions—or pinned by correct observations—hurt can pile up while the facts stay intact.[^c12-fricker-epistemic-injustice]
-
-Someone can feel wounded by a sentence they still believe is true.
-
-## **Why Malice Is Not Required**
-
-Many painful exchanges involve good faith on both sides. Speakers believe they are being straight. Listeners believe they are being rational. Both lean on correctness to defend speed.
-
-Harm often comes from certainty landing before relationship or context can hold it—not from lying.[^c12-ross-ward-naive-realism] The bruise is often in **connection**: the next honest question feels less safe to bring.
-
-That is why “I meant well” rarely heals the bruise by itself.
-
-## **When Being Right Replaces Being Responsible**
-
-Correctness can crowd out responsibility. Once a speaker feels fully right, impact can get treated as the listener’s private problem. Hurt reads as thin skin. Pushback reads as denial.
-
-Truth stops working mainly as information. It starts working as authority. Care for consequence slips behind the shield of being correct.
-
-## **The Moral Limit of Accuracy**
-
-Accuracy has edges. It can establish facts. It can fix mistakes. It cannot, by itself, pick timing, pace, or relational cost. Those call for restraint.
-
-Without restraint, accuracy often amplifies harm by raising speed. With restraint, truth can stay available without turning coercive.
-
-That is not an attack on truth. It is respect for its weight.
-
-## **What Restraint Protects**
-
-Restraint keeps people from being reduced to verdicts. It keeps interpretation open long enough for care to stay plausible. It lets correctness arrive without instantly becoming a ruling. It also protects **connection**—room for the next conversation so it does not begin from fear of another surgical truth.
-
-Care does not erase truth. Pace decides how truth lands.[^c12-arendt-responsibility-judgment]
-
-## **What This Changes**
-
-Seeing limits on correctness changes how harm reads.
-
-Some wounds do not come from misunderstanding. They come from understanding that showed up too fast to be kind. What hurts can be less the proposition than the shrinkage of **connection**—less room left to be wrong together next time.
-
-> *Truth can stay accurate and still land as force—when pace outruns what the bond can hold.*
+People left with clearer facts and enough dignity to keep working the problem together.
+:::
 
 ### **The Cost of Correctness**
 
@@ -107,6 +41,16 @@ She agreed.
 
 She could not explain how much room correctness had taken, or why it still hurt.
 :::
+
+Correct interpretations can still cause damage. Accuracy does not guarantee safety.
+
+Placed side by side, the two scenes show the chapter's distinction. Accuracy asks: *Is this true?* Integration asks: *What does this do here, now, between us?* Truth never arrives alone; it moves through signal, compression, and relationship.[^c12-barrett-how-emotions-are-made] Where that pace outruns restraint, interpretive violence begins: meaning gets imposed faster than people can take it in.[^c12-kruglanski-need-closure]
+
+Correctness can accelerate compression because settled truth invites closure. Slower interpretation starts to look wasteful. Discussion slides from inquiry toward enforcement.[^c12-nickerson-confirmation-bias] Interpretive violence does not require yelling or bad faith. It can happen in calm language with accurate premises.[^c12-fricker-epistemic-injustice] Many painful exchanges involve good intentions on both sides. Speakers believe they are being direct. Listeners believe they are being rational. Both use correctness to justify speed. The bruise often lands in **connection**: the next honest question becomes harder to ask.[^c12-ross-ward-naive-realism]
+
+Being right does not end responsibility. Accuracy can establish facts and correct error. It cannot by itself choose timing, pace, or relational cost. Those require restraint. Without restraint, correctness easily becomes a shield: impact is treated as someone else's private problem. With restraint, truth can stay firm without becoming a ruling that flattens people. Care does not erase truth. It governs how truth is delivered and what remains possible afterward.[^c12-arendt-responsibility-judgment]
+
+> *The moral limit of accuracy is not truth itself, but the speed at which truth is used to close what still needs room.*
 
 [^c12-kruglanski-need-closure]: Kruglanski, Arie W. "The Need for Cognitive Closure." *Psychological Review* (1990).
 [^c12-barrett-how-emotions-are-made]: Barrett, Lisa Feldman. *How Emotions Are Made: The Secret Life of the Brain*. Boston: Houghton Mifflin Harcourt, 2017.
