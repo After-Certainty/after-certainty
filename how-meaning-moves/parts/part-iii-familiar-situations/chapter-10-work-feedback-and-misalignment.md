@@ -43,7 +43,7 @@ The closing line of the scene matters: performance improves while expressive ran
 
 That is how misalignment becomes normal. Work continues. Metrics hold. People coordinate behavior while privately revising what can safely be said.[^c10-perrow-normal-accidents]
 
-Work exposes a durable tradeoff: efficiency asks for compression while understanding asks for contact. Systems optimize the first and assume the second will follow. Often it does not. Then communication frays without looking broken, and the cost lands in **professional connection** long before it appears on a dashboard.
+Work exposes a durable tradeoff: efficiency asks for compression while understanding asks for contact. Systems optimize the first and assume the second will follow. Often it does not. Then communication frays without looking broken, and the cost lands in **connection** long before it appears on a dashboard.
 
 Feedback will never be perfectly safe, and misalignment will never fully vanish. Restraint does not erase pressure. It preserves a small, expensive interval in which meaning can still be revised before it hardens into judgment.
 
