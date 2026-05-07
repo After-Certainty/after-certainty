@@ -24,7 +24,7 @@ Restraint keeps interpretation open long enough for real contact.
 
 When restraint goes missing, speed fills the gap. Answers land before understanding has settled. Meaning gets finished inside each head instead of explored between people. The exchange turns into a race to close rather than a joint effort to coordinate.
 
-Once speed is driving, connection stops being the main job.[^c6-kahneman-thinking-fast-slow]
+Once speed is driving, contact stops being the main job.[^c6-kahneman-thinking-fast-slow]
 
 ## **Corrections Become Escalation**
 
@@ -58,13 +58,13 @@ Ambiguity feels exposed. It stretches the moment. It delays action. It keeps the
 
 When restraint fails, people pick certainty not because it is always right, but because it is easier to carry.[^c6-baumeister-leary-belong]
 
-## **Being Right Replaces Staying Connected**
+## **Being Right Replaces Staying in Contact**
 
 Without restraint, priorities flip. The aim stops being to stay with what is unfolding; the aim becomes locking in one reading.
 
 People defend their version, pile examples, repeat themselves louder. Listening shrinks. Curiosity dries up.
 
-Being right can outweigh staying connected, even for people who love connection.[^c6-edmondson-fearless-organization]
+Being right can outweigh staying in contact, even for people who care about the connection.[^c6-edmondson-fearless-organization]
 
 ## **Why Escalation Feels Inevitable**
 

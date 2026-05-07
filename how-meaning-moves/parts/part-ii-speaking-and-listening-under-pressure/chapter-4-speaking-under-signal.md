@@ -2,7 +2,7 @@
 
 When people speak under pressure, signal leaks into language.
 
-Pressure also reshapes connection. Under strain, people protect the bond, test it, or brace for losing it. Those moves change how words land.
+Pressure also reshapes contact. Under strain, speakers protect the connection, test it, or brace for losing it. Those moves change how words land.
 
 Urgency shortens explanations; fear sharpens edges; authority reduces nuance.
 
@@ -56,7 +56,7 @@ It is easy to blame listeners for jumping to conclusions.
 
 Speakers compress first.
 
-They simplify what they mean before anyone mishears them. They pick wording that feels safer, harder to attack, easier to defend. They shut ambiguity early so the message survives contact.
+They simplify what they mean before anyone mishears them. They pick wording that feels safer, harder to attack, easier to defend. They shut ambiguity early so the message survives first encounter.
 
 By the time a listener hears the sentence, compression is already running.
 

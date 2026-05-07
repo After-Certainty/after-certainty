@@ -32,7 +32,7 @@ If that is the local experience, the next question is structural: what keeps rep
 
 Most systems are built to keep things moving. Deadlines, metrics, incentives, and accountability reward speed, crisp answers, and firm calls. Motion is easy to measure. Restraint is easy to ignore.[^c11-march-simon-organizations]
 
-**Contact**—staying close to what was said and what remains unclear—is easy to skip when calendars run the room. Relational trust pays differently: it appears later, in whether people still raise risk, admit confusion, or lend each other slack. That lagging ledger rarely makes the main dashboard.
+**Contact**—staying close to what was said and what remains unclear—is easy to skip when calendars run the room. **Connection** pays differently: it appears later, in whether people still raise risk, admit confusion, or lend each other slack. That lagging ledger rarely makes the main dashboard.
 
 When only motion gets scored, talk bends toward compression. Across cycles, **Meaning reinforces itself**: older readings become defaults for new moments. This is less a failure of character than a consequence of incentive design.
 

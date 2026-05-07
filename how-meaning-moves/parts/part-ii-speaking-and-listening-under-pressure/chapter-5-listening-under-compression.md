@@ -2,7 +2,7 @@
 
 Listening is not a mailbox. It is active interpretation with a time limit.
 
-Pressure changes connection on the listener side. As stakes rise, people move from open contact toward self-protection. That turn speeds up interpretation.
+Pressure changes contact on the listener side. As stakes rise, listeners move from openness toward self-protection. That turn speeds up interpretation.
 
 Listeners do not get “pure words” first and add meaning second. Meaning is built on the fly, often before a sentence ends. The mind is under pressure to decide what matters and what can be dropped.[^c5-clark-using-language]
 
