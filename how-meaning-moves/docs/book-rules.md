@@ -108,6 +108,207 @@ The book offers a lens for attention, not a checklist for judging people.
 - Keep chapter body prose in sustained paragraphs unless lists clearly improve readability.
 - Close sections by sharpening what the reader can still see, not by forcing final verdicts.
 
+## Attentional Architecture (Audio and Long-Form Listening)
+
+The manuscript is read cover to cover and often **heard** (speech-to-text,
+audiobook-style apps, long sessions). Clarity is not enough: **attention needs
+variation**—in landing rhythm, chapter shape, and density of abstraction—without
+becoming louder, motivational, or TED-like.
+
+This section locks style for **final passes** after line-level clarity is sound.
+
+### Section endings: variety over uniform reflection
+
+Philosophically coherent endings can still **sound the same** if too many
+sections resolve with the same grammatical shape. Over time, listeners
+anticipate the cadence; tension drops.
+
+**Treat as high-frequency defaults to ration across a chapter (not every section):**
+
+- “Seeing this clearly does not X. It explains why/how Y.”
+- “The problem is not X. It is Y.” stacked as the primary landing move.
+- “That does not mean… It means…” as repeated reassurance choreography.
+
+**Prefer rotating among closure types** (same restraint of tone; different
+shape):
+
+- a concrete image or scene residue
+- an unresolved implication left standing
+- a short hard stop (one sentence; no gloss)
+- human consequence named plainly
+- paradox or reversal without embellishment
+- a compressed line that lands and stops
+- an uncomfortable observation without moral packaging
+- escalation (what gets worse next) without drama words
+- silence-like cadence: fewer words, no summary moral
+
+Endings should still **avoid** airport nonfiction triumph, fake profundity,
+and inspiration cadence.
+
+### Chapter openings: vary macro shape across chapters
+
+Structural coherence matters; **identical chapter arcs** across many chapters
+train anticipation and flatten audiobook attention.
+
+Across the manuscript, **selectively vary** how chapters begin:
+
+- **Vignette-first:** scene before framework (high memory anchor).
+- **Contradiction-first:** principle stated vs reward structure or schedule
+  behavior (no hypocrisy accusation required—often *mismatch*).
+- **Concrete failure-first:** the breakdown named before the mechanism.
+- Occasionally **delay** the formal definition until stakes are in the room.
+
+Do not reorganize every chapter; **one or two structural shifts per part** can
+be enough to refresh ear and attention.
+
+### Section headings: avoid stamped templates
+
+Do not default every chapter to the same heading formula (for example repeated
+“**What X Reveals**” or “**What X Makes Unavoidable**” sections). Prefer
+substance-led titles that name **pressure, scene, or turn**, still in calm
+literal language.
+
+Pattern blocks, vignette headings, and canonical terms (**Signal**,
+**Compression**, **Restraint**, named patterns) stay as defined elsewhere in
+this document.
+
+### Abstract noun traffic (especially systemic chapters)
+
+Core terms are **intentional**; stacked abstract nouns in **rapid succession**
+still exhaust audio processing. When a paragraph chains contact, connection,
+compression, meaning, interpretation, consequence, ambiguity—**relieve the stack**.
+
+Translate intermittently into:
+
+- bodies (who stands, who sits, who waits)
+- rooms, hallways, meetings, calendars, threads
+- timing (late, second meeting, next slot)
+- pauses, glances, breath, silence
+- reviews, dashboards, deadlines (when institutions are in view)—**grounded**, not jargon-for-show
+
+Keep precision: do not replace necessary distinctions with vague metaphor.
+
+### Expository tension between vignettes
+
+Vignettes reset attention; exposition still needs **movement**. Between scenes,
+ask whether each paragraph adds **new pressure** or only re-stabilizes the
+same claim. Prefer earlier consequence, asymmetry, identity threat, or relational
+stakes—not more excitement, **more forward pull**.
+
+## Advanced Polish (Publishable-Tier Pass)
+
+At this stage the manuscript is not missing **editing** in the ordinary sense.
+Remaining work is **attentional shaping**: when to stop, how the voice **moves
+on the page and in the ear**, and how late sections **land** without all
+resolving in the same emotional shape. This pass is for refinement after
+clarity, structure, and a first attentional pass are already sound.
+
+### Stop one beat after the line has landed
+
+Strong claims often arrive in **pairs** (for example: “X is not a flaw. It is
+how Y works.” or “The problem is not A. The problem is B.”). A third move—
+another sentence or short paragraph that **re-stabilizes** the same point—can
+arrive one beat after the ear has already accepted the claim. That extra beat
+dulls attention more than it adds precision.
+
+After a cluster that has already landed, ask: does the next sentence add
+**new pressure** or only **reassurance**? When in doubt, **delete the last
+explanatory line** in the cluster, not the thesis.
+
+### Over-resolution and trust (the “third stabilizer”)
+
+The pattern **insight → explanation → explanation of explanation** often appears
+where the author anticipates **moral misunderstanding**, **critique**, or
+**misuse** of the ideas. That protective instinct is understandable; on the
+page it can read as over-stabilization once the book has already earned trust.
+
+**Compress harder** in those spots: one clear move, then stop. The reader who
+has stayed this long does not need the same claim secured three times.
+
+This especially applies to **moral handoff sentences** and **systemic
+chapters** (work, authority, incentives) where the urge to prevent “bad
+readings” is strongest.
+
+### Phenomenological weight (inside the experience)
+
+When the choice is between **schematic** phrasing (“communication as X”) and
+**lived** phrasing (what a moment feels like under pressure, time shortage, or
+consequence), prefer the second **when precision is preserved**. The book
+should read as a **lens someone held long enough to trust**—grounded in what
+people notice, brace for, and live through—not only in category labels.
+
+This is not anti-conceptual: structural terms stay when they do real work. It
+is a **tilt** toward phenomenology: how meaning moves in experience, not only in
+theory.
+
+### Citation rhythm (production and audio)
+
+Footnotes that arrive **too frequently in already dense paragraphs** add
+academic drag—especially in audio, where each note breaks flow. This is a
+**production** concern as much as a credibility concern: the prose now carries
+more authority on its own.
+
+**Options** (use judgment; do not merge sources dishonestly):
+
+- Combine related points under **one** note when the same few sources support a
+  single move (e.g. systems / organizations / risk in one composite note where
+  appropriate).
+- **Space** citations: move a note to a slightly later sentence in a calmer
+  stretch instead of clustering three in one paragraph.
+- Reserve **frequent** citation for claims that are genuinely non-obvious,
+  contested, or source-specific; let integrative synthesis paragraphs breathe.
+
+Run a dedicated pass when the manuscript is close to layout or recording.
+
+### Tonal contour: strategic compression contrast
+
+The home register is **measured, diagnostic, morally restrained**—and must stay
+that way. If **every** paragraph resolves in the same reflective posture, long
+audiobook listening flattens: sameness of **emotional posture** wear as much as
+sameness of sentence shape.
+
+**Strategically** (not constantly) add contrast:
+
+- **Compression spikes**—very short sentence after a longer run.
+- **Hard stops**—end the thought; start fresh in the next paragraph.
+- **Uncomfortable** lines that remain true and non-cruel.
+- **Concrete sensory** detail (pace, stillness, sound in the room) without
+  purple prose.
+- **Rhythm change** in isolated moments—tighter or more abrupt diction for one
+  beat.
+
+A calm book can still **wake the ear** in single lines; avoid sustained
+performative intensity.
+
+### Late architecture: break the “reflective synthesis” rhyme
+
+Many late sections still follow a familiar **emotional shape**: reflective
+synthesis, moral implication, restrained closing. Good sections can keep that
+shape. **Book-wide**, many late sections in the same shape teach the listener to
+anticipate “the summing section.”
+
+**Vary** how chapters and major sections end:
+
+- unresolved image
+- concrete observation (no explicit moral)
+- contradiction left standing
+- very short aphoristic stop
+- **vignette as the last beat** (no interpretive tag after)
+- cooler, flatter closing line
+- one surprising plain sentence
+
+Also vary **section heading patterns** at the end of chapters: not only
+substance-led titles, but **avoid** every final section reading like the same
+“weight class” of synthesis. Some chapters can end on a scene, a question, or a
+chill fact without a final meditative header.
+
+### Abstraction in long runs (continued)
+
+Interleave **embodiment** slightly more often after sustained stretches of
+structural terms: rooms, pauses, people nodding, writing notes, glances,
+silence tightening, bracing. Strong abstract lines still flatten if the **ear**
+has not touched the physical world for many pages.
+
 ## Sentence and Paragraph Discipline
 
 - Short declarative sentences are the default.
@@ -148,6 +349,7 @@ Use these conventions consistently in manuscript files:
 
 - Pull Quote blocks should not contain inline bold formatting.
 - Pattern blocks use one bold heading line in the form `**Pattern: Title**`.
+- Wrap reader-facing pattern blocks in Pandoc fenced divs with **matched three-colon fences**: `::: {custom-style="Pattern Block"}` … `:::` (do not mix three-, four-, or five-colon fences in the same block).
 - Vignette scene text stays inside the vignette block; analysis stays outside.
 - Keep reader-facing typographical explanations short; keep production detail in `docs/`.
 

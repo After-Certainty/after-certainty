@@ -1,13 +1,10 @@
 # **Appendix A — A Pattern Language of Meaning**
 
-This appendix names recurring patterns in how meaning moves between
-people. The patterns are grouped into five clusters: **Formation**,
-**Completion**, **Movement**, **Resolution**, and **Reinforcement**.
-Each entry describes a recognizable dynamic, not a prescription.
+This appendix names recurring patterns in how meaning moves between people. The patterns are grouped into five clusters: **Formation**, **Completion**, **Movement**, **Resolution**, and **Reinforcement**. Each entry describes a recognizable dynamic, not a prescription.
 
-These patterns are most useful as observation tools. They help name what
-is already happening in conversation before anyone has agreed on what it
-means.
+These patterns work best as observation tools. They name what is already happening in conversation before anyone has agreed on what it means.
+
+Use them when the transcript reads innocent but the room did not feel innocent—when something moved before anyone agreed on words.
 
 ## **Formation**
 
@@ -48,7 +45,7 @@ Later words are filtered through early signal.
 
 **Related Patterns:**
 
-Meaning forms early; Words arrive incomplete
+Meaning forms early; Meaning outruns the words
 
 ## **Meaning Forms Early.**
 
@@ -85,7 +82,7 @@ New detail is interpreted through an already-forming frame.
 
 Gaps invite completion; Intent gets assigned
 
-## **Words Arrive Incomplete.**
+## **Meaning Outruns the Words.**
 
 **Context:**
 
@@ -107,8 +104,8 @@ itself.
 Language never carries all of the context, emotion, or intent around
 it.
 
-> Words arrive incomplete, so a sentence can be precise in grammar and
-> still incomplete in life.
+> Meaning outruns the words: a line can be precise in grammar and still
+> short on life.
 
 **Effect:**
 
@@ -221,8 +218,7 @@ actually meant.
 
 Urgency, conflict, and consequence accelerate interpretation.
 
-> As pressure rises, meaning shifts under pressure and the distance from
-> cue to conclusion gets shorter.
+> Pressure shrinks the distance between what people notice and what they treat as settled.
 
 **Effect:**
 
@@ -270,13 +266,13 @@ Disagreement can grow even without new facts.
 
 **Related Patterns:**
 
-Words arrive incomplete; Meaning reinforces itself
+Meaning outruns the words; Meaning reinforces itself
 
 ## **Resolution**
 
 _Patterns where interpretation either reopens or hardens._
 
-## **Meaning Gets Clarified.**
+## **Contact Keeps the Read Open.**
 
 **Context:**
 
@@ -297,8 +293,8 @@ Early interpretation may be useful but still too rough.
 
 Additional context can sharpen understanding without fully resolving it.
 
-> Meaning gets clarified when understanding becomes more precise, even though complexity
-> remains.
+> Contact keeps the read open when understanding tightens without the story
+> having to close.
 
 **Effect:**
 
@@ -310,7 +306,7 @@ People can continue without pretending complete certainty.
 
 **Related Patterns:**
 
-Words arrive incomplete; Meaning gets distorted
+Meaning outruns the words; Meaning gets distorted
 
 ## **Meaning Gets Distorted.**
 

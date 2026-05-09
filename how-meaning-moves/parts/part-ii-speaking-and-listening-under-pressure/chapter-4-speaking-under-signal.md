@@ -2,19 +2,17 @@
 
 When people speak under pressure, signal leaks into language.
 
-Pressure also changes how people relate in the moment. Under strain, speakers protect the connection, test it, or brace for losing it. Those moves change how words land.
+Pressure also changes how people relate in the moment. With bandwidth thin, speakers protect the connection, test it, or brace for losing it. Those moves change how words land.
 
 Urgency shortens explanations; fear sharpens edges; authority reduces nuance.
 
 Most of this is not a plan to dominate. Speakers are usually trying to land quickly enough to matter.
 
-Under pressure, speech narrows before the listener even reacts.[^c4-barrett-how-emotions-are-made]
-
-Before the explanation is finished, speakers are often already trying to make the point land.
+When stakes spike, speech narrows before the listener reacts—and often before the speaker has finished explaining.[^c4-barrett-how-emotions-are-made]
 
 ## **Speaking Is Never Just Expression**
 
-We like to picture speech as sending meaning. In real life, speech also manages risk.
+Speech is not only sending meaning. It also manages risk.
 
 When stakes are low, a speaker can wander, hedge, and leave things open. When stakes rise, speech tightens. Words get picked for speed and punch more than for nuance.
 
@@ -38,7 +36,7 @@ Under fear, speech turns defensive or flat-out certain. Softeners vanish. Statem
 
 That sharp edge is not always aggression; it is protection.
 
-Fear makes some kinds of speech stop feeling safe. Once fear is in the voice, listeners often hear more certainty than the speaker meant to send.[^c4-ledoux-emotional-brain]
+Fear makes some kinds of speech stop feeling safe. Once fear is in the voice, listeners often hear more certainty than the speaker meant to send.[^c4-emotion-and-the-voice]
 
 ## **Authority Reduces Nuance**
 
@@ -58,9 +56,9 @@ Speakers compress first.
 
 They simplify what they mean before anyone mishears them. They pick wording that feels safer, harder to attack, easier to defend. They close ambiguity early so the message survives first encounter.
 
-By the time a listener hears the sentence, compression is already running.
+Before the sentence lands whole, compression is already running.
 
-That is why misunderstanding survives even when listeners are paying attention and acting in good faith.
+The listener meets compression before they meet intent. Misunderstanding survives even when listeners are paying attention and acting in good faith.
 
 ## **Why “Just Say It Better” Fails**
 
@@ -70,9 +68,9 @@ Sometimes that helps. Often it does not.
 
 Clarification adds words. It does not remove signal.
 
-If urgency, fear, or authority are already shaping the voice, more explanation often tightens compression instead of loosening it. More words arrive faster and louder. Listeners settle on what they heard sooner.[^c4-nickerson-confirmation-bias]
+If urgency, fear, or authority are already shaping the voice, more explanation often tightens compression instead of loosening it. More words arrive faster and louder. The first story hardens sooner.[^c4-nickerson-confirmation-bias]
 
-Seeing this does not erase harm. It does explain why nicer wording alone rarely fixes the rupture.
+Nicer wording still rides the same voice.
 
 ## **Good Intent Does Not Neutralize Signal**
 
@@ -98,17 +96,17 @@ Speakers feel more subtlety than they put into words. Listeners hear more finali
 
 Neither side has to be lying. They are already holding different versions of what just happened.
 
-## **What Speaking Under Signal Makes Unavoidable**
+## **Speech Carries Its Conditions**
 
 Speaking is never a neutral broadcast. It carries the conditions it was made under.
 
 Pressure, fear, urgency, and authority leave fingerprints on language. Listeners notice those traces before they weigh the ideas.
 
-Seeing this clearly does not hand anyone a script. It moves the line where responsibility can still be denied.
+Seeing this clearly still leaves you without a script. It narrows where denial still fits comfortably.
 
-Listening under pressure does the same thing from the other side: meaning closes faster there too.
+Listening closes meaning from the other side of the same squeeze—different seat in the room.
 
-> *Under pressure, speech narrows long before the listener responds.*
+> *When stakes spike, speech narrows long before the listener responds.*
 
 ### **The Compressed Directive**
 
@@ -143,7 +141,7 @@ What he felt instead was the quiet awareness that what he had meant and what he 
 :::
 
 [^c4-barrett-how-emotions-are-made]: Barrett, Lisa Feldman. *How Emotions Are Made: The Secret Life of the Brain*. Boston: Houghton Mifflin Harcourt, 2017.
+[^c4-emotion-and-the-voice]: On how embodied emotion shapes speech before parsing finishes and on fear in the voice, see Barrett, Lisa Feldman. *How Emotions Are Made: The Secret Life of the Brain*. Boston: Houghton Mifflin Harcourt, 2017; LeDoux, Joseph. *The Emotional Brain*. New York: Simon & Schuster, 1996.
 [^c4-kahneman-thinking-fast-slow]: Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011.
-[^c4-ledoux-emotional-brain]: LeDoux, Joseph. *The Emotional Brain*. New York: Simon & Schuster, 1996.
 [^c4-french-raven-bases-social-power]: French, John R. P., and Bertram Raven. *The Bases of Social Power*. Ann Arbor: University of Michigan, 1959.
 [^c4-nickerson-confirmation-bias]: Nickerson, Raymond S. "Confirmation Bias." *Review of General Psychology* (1998).

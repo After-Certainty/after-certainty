@@ -1,12 +1,8 @@
 # **How to Read This Book**
 
-This is not a book of advice, and that may feel unusual at first.
+This is not a book of advice; there is no method, checklist, or formula here. Treat it as step-by-step instruction and it will feel unfinished—on purpose.
 
-You will not find a method, a checklist, or a formula for better conversations. If you read it looking for step-by-step instruction, it may feel unfinished.
-
-That is intentional.
-
-The chapters describe forces that are already active in communication, whether we notice them or not. These forces are not puzzles to solve. They are conditions to see clearly.
+The chapters describe forces already active in communication, noticed or not. They are not puzzles to solve. They are conditions to see clearly.
 
 You do not need to agree with every claim for the book to be useful. Its job is to help you notice more of what is happening while people speak and listen.
 
@@ -40,6 +36,8 @@ The aim is not blame. It is to make responsibility harder to deny once these for
 
 You may finish this book without feeling resolved.
 
-Some readers will want clearer instructions. Others will want reassurance that restraint guarantees better outcomes. This book cannot promise either one.
+Some readers will want clearer instructions; others will want reassurance that restraint guarantees better outcomes. This book cannot promise either.
 
-Its claim is simpler: responsibility does not disappear when outcomes do not improve. Sometimes the most honest stopping point is clear sight of failure, without pretending it has been fixed, and without turning away.
+What stays is simpler: responsibility does not disappear when outcomes do not improve.
+
+Sometimes the most honest stopping point is seeing failure clearly—no tidy fix, no look away.

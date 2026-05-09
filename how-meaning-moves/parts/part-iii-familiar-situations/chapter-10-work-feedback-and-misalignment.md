@@ -29,28 +29,27 @@ Fast gets treated as capable, clear as effective. In that air, people expect tal
 
 The scene above is ordinary precisely because no one behaved badly. It shows how misalignment forms through pace.
 
-Here, the manager tries to deliver constructive input. The listener hears consequence first. Feedback at work almost never lands as neutral content. It carries rank, stakes, and comparison. Even careful phrasing can load threat when the room already assumes evaluation.[^c10-edmondson-fearless-organization]
+Here, the manager tries to deliver constructive input. The listener hears consequence first. Feedback at work almost never lands as neutral content: rank, stakes, comparison ride along. Even careful phrasing can load threat when the room already assumes evaluation.
 
-At work, **connection** means mutual reliance under role: whether people trust they can still speak, still risk uncertainty, and still belong after a difficult exchange. When signal gets loud, those worries outrun the literal words.
+At work, **connection** means mutual reliance under role—whether people trust they can still speak, risk uncertainty, and belong after a difficult exchange. When signal gets loud, those worries outrun the literal words.
 
-Once feedback lands as consequence, a second move follows.
+Once feedback lands as consequence, a second move follows. The feedback aims at behavior; the listener hears a verdict about them, not only the work. That shift is not thin skin; it is speed. Under performance pressure, people answer fast: *What does this say about me? Am I still safe here?* Those answers arrive before reflection can test them.[^c10-evaluative-threat-and-identity]
 
-The feedback aims at behavior. The listener hears a verdict about them—not only about the work. That shift is not thin skin; it is speed. Under performance pressure, people answer quickly: *What does this say about me? Am I still safe here?* Those answers arrive before reflection can test them.[^c10-steele-whistling-vivaldi]
-
-Once that reading hardens, clarification often backfires. More detail adds content, not contact. Explanation gets sorted as proof for the first story, and **Meaning gets distorted** even when the facts are fair.[^c10-nickerson-confirmation-bias]
+When that reading hardens, clarification often backfires. More detail adds content, not contact. Explanation gets sorted as proof for the first story, and **Meaning gets distorted** even when the facts are fair.[^c10-nickerson-confirmation-bias]
 
 Once identity is on the line, adaptation starts looking like alignment to anyone grading the surface.
 
-The closing line of the scene matters: performance improves while expressive range narrows. Organizations often read this as success. Fewer questions, cleaner updates, less visible friction. But these can also be signs that candor has withdrawn.
+The closing line of the scene matters: performance improves while expressive range narrows. Organizations often read this as success—fewer questions, cleaner updates, less friction. Those same signs can mean candor has withdrawn.
 
 That is how misalignment becomes normal. Work continues. Metrics hold. People coordinate behavior while privately revising what can safely be said.[^c10-perrow-normal-accidents]
 
-Work exposes a durable tradeoff: efficiency asks for compression while understanding asks for contact. Systems optimize the first and assume the second will follow. Often it does not. Then communication frays without looking broken. The cost lands in **connection** long before it appears in the metrics people trust.
+Work exposes a durable tradeoff: efficiency asks for compression while understanding asks for contact. Systems bet on the first and hope the second catches up. Often it does not. Then communication frays without looking broken. The cost lands in **connection** long before it appears in the metrics people trust.
 
-Feedback will never be perfectly safe, and misalignment will never fully vanish. Restraint does not erase pressure. It preserves a small, expensive interval in which meaning can still be revised before it hardens into a verdict.
+Feedback will never be perfectly safe. Misalignment will not vanish.
+
+Restraint only buys a thin window—meaning still revisable before it turns into a verdict about who you are.
 
 [^c10-march-simon-organizations]: March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley, 1958.
-[^c10-edmondson-fearless-organization]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.
-[^c10-steele-whistling-vivaldi]: Steele, Claude M. *Whistling Vivaldi*. New York: W. W. Norton & Company, 2010.
+[^c10-evaluative-threat-and-identity]: On psychological safety and threat in organizational life, and on how evaluative contexts pull fast identity-level answers, see Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018; Steele, Claude M. *Whistling Vivaldi*. New York: W. W. Norton & Company, 2010.
 [^c10-nickerson-confirmation-bias]: Nickerson, Raymond S. "Confirmation Bias." *Review of General Psychology* (1998).
 [^c10-perrow-normal-accidents]: Perrow, Charles. *Normal Accidents*. Princeton, NJ: Princeton University Press, 1984.

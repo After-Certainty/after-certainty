@@ -12,13 +12,17 @@ and typography consistent.
 3. Run Part I voice alignment check (Chapters 1–3: human-scale, observable, restrained).
 4. Run an echo pass to reduce accidental repetition.
 5. Run an editorial pass (clarity, sentence flow, paragraph flow).
+5b. Run an **attentional architecture pass** (endings variety, chapter-opening
+    shape, heading templates, abstract-noun relief in systemic prose)—see
+    `docs/book-rules.md` → **Attentional Architecture** and `docs/quick-pass-card.md`
+    sections 9–10.
 6. Run vignette emphasis pass (identify narrative scenes and apply `Vignette Block` formatting per `docs/book-rules.md`).
 7. Run typography checks using `docs/typography-check.md`.
 8. Run bibliography/citation checks using `docs/bibliography-pass.md`.
 9. Run linkage check (`index.md` and renamed-path references).
 10. Summarize issues and fixes before review.
 
-For fast line-edit sessions, use `docs/quick-pass-card.md` during steps 3-6.
+For fast line-edit sessions, use `docs/quick-pass-card.md` during steps 3–6 and 5b.
 
 ## Editorial pass minimums
 
@@ -73,3 +77,6 @@ Before final export/release:
 - Run `docs/bibliography-pass.md` integrity checks.
 - Run reader-facing leakage checks from `docs/reader-facing-scope.md`.
 - Reconfirm `index.md` as the canonical reading-order hub.
+- Optional **publishable-tier** pass: `docs/book-rules.md` → **Advanced Polish**;
+  `docs/quick-pass-card.md` section 11 (stopping one beat early, tonal
+  contour, late-section variety, embodiment after long abstract runs).

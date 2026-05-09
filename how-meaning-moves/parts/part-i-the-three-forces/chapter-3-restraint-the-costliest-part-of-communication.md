@@ -6,12 +6,12 @@ It interrupts the rush to decide what something means. It keeps a first read fro
 
 Connection is why restraint matters so much in this chapter. Where relationships carry real consequence, leaving meaning open is both more necessary and more costly.
 
-Without restraint, **Meaning gets distorted**. With restraint, people can revisit what happened and **Meaning gets clarified** without pretending uncertainty has disappeared.
+Without restraint, **Meaning gets distorted**. With restraint, people can revisit what happened and **Contact keeps the read open** without pretending uncertainty has disappeared.
 
 ::: {custom-style="Pattern Block"}
-**Pattern: Meaning gets clarified**
+**Pattern: Contact keeps the read open**
 
-More context and lower reactivity help people read each other better without erasing ambiguity.
+Slowing down lets people revisit what they heard without forcing an immediate verdict.
 :::
 
 ::: {custom-style="Pattern Block"}
@@ -20,17 +20,15 @@ More context and lower reactivity help people read each other better without era
 A first reading hardens after contact drops, so certainty stays active even when it no longer matches what is happening.
 :::
 
-Without restraint, people settle on meaning quickly. With restraint, they leave more room for revision.
+Without restraint, people settle fast. With restraint, they leave room for revision—and pay for that openness.
 
-That openness is why restraint is rare.
+That cost is why restraint stays rare.
 
 ## **Restraint Does Not Eliminate Compression**
 
 Restraint does not stop people from forming a read. It delays closure.
 
-People cannot avoid settling on what they think something means. They naturally move toward conclusions, even when certainty arrives too early. Restraint gives conversations more time before conclusions harden.[^c3-arendt-life-of-mind]
-
-This distinction matters in ordinary moments.
+People cannot avoid settling on what they think something means. They naturally move toward conclusions, even when certainty arrives too early. Restraint gives conversations more time before conclusions harden—not by banning judgment, but by refusing to finalize it too soon.
 
 Restraint is not the absence of judgment. It is refusing to finalize judgment too soon.
 
@@ -70,7 +68,7 @@ You stay quiet when correction feels justified. You leave tension unresolved. Yo
 
 This is difficult. People are pulled to reduce uncertainty and restore a stable story as quickly as possible.[^c3-kruglanski-need-closure] Restraint runs directly against that impulse.
 
-That discomfort is not failure. It is often the clearest sign that restraint is actually occurring.
+When it feels that bad, restraint is usually real.
 
 ## **Restraint Feels Risky Because It Is**
 
@@ -100,19 +98,15 @@ Under these conditions, people rush to:
 
 - control
 
-Not because they are careless, but because certainty feels safer.
+Not because they are careless, but because a closed read steadies the nerves faster than doubt.
 
 Unfortunately, certainty reached too quickly often produces the very harm restraint would have prevented.
 
 ## **Restraint and Moral Responsibility**
 
-Restraint matters morally because it keeps people responsible for how they interpret each other.
+With restraint, a reading stays an act people own—not a fate that arrived from nowhere. Without it, harm gets easier to justify because “that’s just how it was.”
 
-When restraint is present, people remain accountable for how meaning gets formed between them. A reading is treated as an act, not a fact.
-
-When restraint collapses, the story stops feeling chosen and starts feeling obvious. Stories harden. Harm becomes easier to justify because “that’s just how it was.”
-
-Restraint does not make people right. It keeps them answerable.[^c3-arendt-responsibility-judgment]
+Restraint does not make people right. It keeps them answerable.[^c3-arendt-restraint-and-answerability]
 
 ## **The Difference Between Silence and Restraint**
 
@@ -134,11 +128,9 @@ When restraint works, nothing dramatic happens. Conversations slow instead of es
 
 This makes restraint easy to undervalue and easy to abandon, especially in systems that reward speed, clarity, and decisive action.
 
-## **What Restraint Makes Possible**
+## **Space Restraint Buys**
 
-Restraint does not guarantee understanding. It does not prevent harm. It does not resolve conflict.
-
-What it does is preserve space.
+Restraint does not guarantee understanding, safety from harm, or settled conflict. What it preserves is space.
 
 Space for:
 
@@ -150,7 +142,7 @@ Space for:
 
 - accountability without certainty
 
-Restraint leaves room for people to remain more complicated than the first explanation allows.[^c3-weick-sutcliffe-obstfeld-high-reliability]
+Restraint leaves room for people to stay messier than the first story allows.[^c3-weick-sutcliffe-obstfeld-high-reliability]
 
 ## **Why Restraint Must Remain Unfinished**
 
@@ -158,7 +150,7 @@ No rule can fully automate restraint. It cannot be reduced to a checklist or a t
 
 It is always situational, always costly, always imperfect.
 
-Which is why restraint is not something you achieve once and keep. It is something people must choose repeatedly, often without recognition or reward.
+People choose it again and again—usually without applause.
 
 That is not a failure of communication. It is one of its limits.
 
@@ -194,8 +186,7 @@ That was not the whole truth.
 She had chosen to leave meaning unfinished, and to carry the discomfort herself.
 :::
 
-[^c3-arendt-life-of-mind]: Arendt, Hannah. *The Life of the Mind*. New York: Harcourt Brace Jovanovich, 1978.
+[^c3-arendt-restraint-and-answerability]: On keeping judgment revisable and on owning interpretation as an act rather than an inevitability, see Arendt, Hannah. *The Life of the Mind*. New York: Harcourt Brace Jovanovich, 1978; Arendt, Hannah. *Responsibility and Judgment*. New York: Schocken Books, 2003.
 [^c3-kruglanski-need-closure]: Kruglanski, Arie W. "The Need for Cognitive Closure." *Psychological Review* (1990).
 [^c3-edmondson-fearless-organization]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.
-[^c3-arendt-responsibility-judgment]: Arendt, Hannah. *Responsibility and Judgment*. New York: Schocken Books, 2003.
 [^c3-weick-sutcliffe-obstfeld-high-reliability]: Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld. "Organizing for High Reliability." *Academy of Management Journal* (1999).

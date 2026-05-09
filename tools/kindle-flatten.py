@@ -91,7 +91,9 @@ def parse_index_links_with_part_markers(index_text: str) -> list[tuple[str | Non
 
 
 def strip_inline_cover_image(text: str) -> str:
-    # Keep the image as EPUB metadata cover, not an in-flow first page image.
+    # Drop inline BookCover from each chunk (--epub-cover-image supplies the cover).
+    # front-matter/title-page.md must still have real headings/text after this strip,
+    # or the first spine section is empty and readers open on copyright.
     lines = []
     for line in text.splitlines():
         if re.search(r"!\[[^\]]*\]\(([^)]*(?:BookCover|book_cover)\.png)\)", line):

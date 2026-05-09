@@ -15,9 +15,6 @@
 - Bowlby, John. *Attachment and Loss*.
   New York: Basic Books, 1969.
 
-- Bruner, Jerome. *Acts of Meaning*.
-  Cambridge, MA: Harvard University Press, 1990.
-
 - Clark, Herbert H. *Using Language*.
   Cambridge: Cambridge University Press, 1996.
 
@@ -50,12 +47,6 @@
 
 - Gottman, John M. *The Seven Principles for Making Marriage Work*.
   New York: Crown, 1999.
-
-- Grice, H. P. "Logic and Conversation."
-  In *Syntax and Semantics*, vol. 3, 1975.
-
-- Hall, Edward T. *The Hidden Dimension*.
-  New York: Anchor Books, 1966.
 
 - Kahan, Dan M. "Motivated Reasoning."
   *Behavioral and Brain Sciences* (2017).
@@ -102,10 +93,6 @@
 - Ross, Lee, and Andrew Ward. "Naive Realism in Everyday Life."
   *Psychological Review* (1996).
 
-- Sacks, Harvey, Emanuel A. Schegloff, and Gail Jefferson.
-  "A Simplest Systematics for the Organization of Turn-Taking."
-  *Language* (1974).
-
 - Steele, Claude M. *Whistling Vivaldi*.
   New York: W. W. Norton & Company, 2010.
 
@@ -124,6 +111,3 @@
 - Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld.
   "Organizing for High Reliability."
   *Academy of Management Journal* (1999).
-
-- Wegner, Daniel M. *White Bears and Other Unwanted Thoughts*.
-  New York: Guilford Press, 1989.

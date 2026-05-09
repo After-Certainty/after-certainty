@@ -16,8 +16,8 @@ Connection is not a fourth force. It is the relationship context the three force
 
 These are not personality traits or communication styles. They are pressures that show up in almost every conversation and every relationship.
 
-Most communication failures happen not because these forces are absent, but because they are easy to miss. Signal is mistaken for meaning. A fast read is mistaken for full understanding. Restraint is mistaken for weakness or disengagement.
+Most failures happen because these forces are easy to miss. Signal passes for the whole message. A fast read passes for full understanding. Restraint reads as weakness or disengagement.
 
 The chapters that follow separate the forces so they are easier to notice, while keeping Connection present in each chapter's examples and stakes. In real life, the forces work together.
 
-Once you can see them, it becomes easier to notice when meaning outruns understanding, and why good intentions often fail to prevent harm.
+Once you can see them, good intentions rarely catch how far ahead of understanding the story already is.

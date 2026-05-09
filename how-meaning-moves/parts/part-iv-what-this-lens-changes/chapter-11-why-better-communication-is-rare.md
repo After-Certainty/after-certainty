@@ -1,5 +1,9 @@
 # **Chapter 11 — Why Better Communication Is Rare**
 
+Everyone agrees in principle that conversations should slow down when stakes rise. In practice, the schedule usually wins before the principle gets a room.
+
+That is less hypocrisy than mismatch: clarity leaves a clean trail on a calendar; unfinished meaning does not.
+
 ### **The Affordable Pace**
 
 ::: {custom-style="Vignette Block"}
@@ -20,33 +24,33 @@ By then, slowing down would have meant explaining delays, renegotiating commitme
 Better communication had been possible. It had not been affordable.
 :::
 
-Better communication is not rare because people stop caring. It is rare because restraint costs time, comfort, and control.
+Better communication is not rare because people stop caring. It is rare because restraint costs time, comfort, and control—and permission to pause rarely survives what else pushes forward.
+
+The scene above is the familiar split—clear in hindsight, unpayable in the moment.
 
 Most people can tell when a conversation is going wrong: the tempo rises, the room narrows. What they often lack is not insight but permission to pause while everything else pushes forward.
 
-The vignette shows a familiar split. Everyone can see the missed opportunity after the fact. No one can absorb the cost in the moment.
+Restraint asks people to hold uncertainty longer than feels fair—while calendars praise decisiveness and slowing down can feel irresponsible even when it would prevent harm.
 
-Restraint asks people to hold uncertainty longer than feels fair. Ambiguity stays open. Relief waits. Action waits. In cultures that praise decisiveness, slowing down can feel irresponsible even when slowing down prevents harm.[^c11-kruglanski-need-closure]
+Most organizations are built to keep bodies and budgets moving. Deadlines, metrics, incentives, and accountability reward speed, crisp answers, and firm calls. Motion is easy to post on a dashboard. Pausing is easy to skip in silence.[^c11-closure-and-organizational-motion]
 
-If that is the local experience, the next question is structural: what keeps reproducing it?
+**Contact**—staying close to what was said and what remains unclear—is easy to lose when the calendar owns the room: the next slot starts, people stand, the thread sinks.
 
-Most systems are built to keep things moving. Deadlines, metrics, incentives, and accountability reward speed, crisp answers, and firm calls. Motion is easy to measure. Restraint is easy to ignore.[^c11-march-simon-organizations]
+What happens between people afterward runs on a different clock—whether someone still raises risk in the next meeting, admits confusion to a manager, or covers for a teammate so a deadline holds. That cost usually arrives late, and rarely on the sheet anyone is graded against.
 
-**Contact**—staying close to what was said and what remains unclear—is easy to skip when calendars run the room. **Connection** changes on a different clock: it appears later, in whether people still raise risk, admit confusion, or lend each other slack. That cost usually shows up late, and often off the main dashboard.
+When only motion gets scored, talk bends toward fast reads. Across cycles, **Meaning reinforces itself**: yesterday’s shorthand becomes tomorrow’s default—more a product of incentives than of anyone’s character. The drag shows up in hallways and side threads before it shows up on any ledger.
 
-When only motion gets scored, talk bends toward compression. Across cycles, **Meaning reinforces itself**: older readings become defaults for new moments. This is less a failure of character than a consequence of incentive design.
+Closure wins scoreboards. Clarity feels like progress; firm lines invite replies; boxes get filled. Understanding stays slow and hard to summarize.
 
-Once incentive design favors closure, clarity starts to outrank comprehension.
-
-Clarity feels like progress. Sharp lines invite replies. Firm conclusions unlock coordination. Understanding is slower, partial, and hard to summarize quickly.
+Under that scoring, “clear enough” replaces understood. The gap gets blamed on skill—better wording, cleaner facilitation—instead of on what the system rewards.
 
 So clarity wins status even when it arrives early. Over time, clear enough replaces actually understood. People then misdiagnose the gap as an individual skill problem: better wording, cleaner facilitation, tighter listening. Skill helps at the margins. It does not remove the pressure that keeps rewarding early closure.[^c11-gigerenzer-gut-feelings]
 
-That is why goodwill, while necessary, cannot carry the full load.
+Goodwill carries teams until scale or urgency drains it; then incentives win.
 
 Many teams rely on goodwill to absorb the cost of restraint. They hope trusted people will pause when needed. Sometimes that holds, until urgency or scale rises. Then incentives outrun goodwill.[^c11-deming-out-of-crisis]
 
-People who keep meaning unfinished tend to pay a social tax: unclear, indecisive, slow, unprepared. That tax quietly trains people away from restraint even when restraint would have prevented harm.
+Keeping meaning unfinished draws a social tax—unclear, slow, unprepared—and trains people away from restraint.
 
 From there, rarity is no longer surprising. The system keeps producing it.
 
@@ -58,8 +62,8 @@ This lens does not promise nicer outcomes. It makes attribution more accurate. S
 
 So the core line from the scene still holds: Better communication had been possible. It had not been affordable.
 
-[^c11-kruglanski-need-closure]: Kruglanski, Arie W. "The Need for Cognitive Closure." *Psychological Review* (1990).
-[^c11-march-simon-organizations]: March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley, 1958.
+[^c11-closure-and-organizational-motion]: On individual preference for cognitive closure under pressure and on how organizations structurally reward motion over unfinished meaning, see Kruglanski, Arie W. "The Need for Cognitive Closure." *Psychological Review* (1990); March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley, 1958.
 [^c11-gigerenzer-gut-feelings]: Gigerenzer, Gerd. *Gut Feelings: The Intelligence of the Unconscious*. New York: Viking, 2007.
 [^c11-deming-out-of-crisis]: Deming, W. Edwards. *Out of the Crisis*. Cambridge, MA: MIT Press, 1986.
+[^c11-org-systems]: On organizations, incentives, and how systems tolerate ambiguity versus closure, see Deming, *Out of the Crisis*; Perrow, *Normal Accidents* (especially on how “normal” operations hide accumulating risk).
 [^c11-perrow-normal-accidents]: Perrow, Charles. *Normal Accidents*. Princeton, NJ: Princeton University Press, 1984.

@@ -2,19 +2,15 @@
 
 This book does not start with the idea that communication can be fixed.
 
-It starts with something more ordinary: many failures happen even when people are sincere, attentive, and trying to do right by each other. This happens in close families, in competent workplaces, and in conversations where no one means harm.
+It starts with something more ordinary: failures that still happen when people are sincere, attentive, and trying to do right—in families, at work, in conversations where no one means harm.
 
 That repeated pattern is why this book exists.
 
-Most communication advice focuses on skill: say it clearly, listen better, persuade better. That advice can help. But it often assumes the main problem starts after words are chosen and sent.
+Most communication advice focuses on skill: say it clearly, listen better, persuade better. That advice can help. It often assumes the main problem starts after words are chosen and sent.
 
-This book looks earlier.
+This book looks earlier—at what is already moving before words fully land: signal, compression, and restraint. Signal shapes what gets noticed first. Compression settles meaning fast enough to act. Restraint can slow that settling, often at personal cost.
 
-It focuses on what is already moving before words fully land: signal, compression, and restraint. Signal shapes what gets noticed first. Compression settles meaning fast enough to act. Restraint can slow that settling, often at personal cost.
-
-This book does not give scripts for what to say next.
-
-It does not promise resolution, harmony, or mutual understanding. Those outcomes depend on conditions no single speaker controls.
+This book does not give scripts for what to say next. It does not promise resolution, harmony, or mutual understanding. Those outcomes depend on conditions no single speaker controls.
 
 What it offers is a lens.
 
@@ -24,9 +20,7 @@ That lens can be uncomfortable.
 
 Once you see how fast meaning forms, how quickly certainty replaces contact, and how costly restraint can be, familiar explanations start to break down. Some failures stop feeling accidental. Some harms become harder to excuse—including your own.
 
-This is not meant to be a tool for judging other people.
-
-It is easy to use these ideas to explain *their* behavior, *their* failure, *their* mistakes. The harder task is to hold the same lens on yourself without rushing back to certainty.
+These ideas tempt people into explaining *their* behavior, *their* failure, *their* mistakes. The harder task is to hold the same lens on yourself without rushing back to certainty.
 
 Reading this book may not make communication easier.
 
