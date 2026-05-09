@@ -2,15 +2,15 @@
 
 When people speak under pressure, signal leaks into language.
 
-Pressure also reshapes contact. Under strain, speakers protect the connection, test it, or brace for losing it. Those moves change how words land.
+Pressure also changes how people relate in the moment. Under strain, speakers protect the connection, test it, or brace for losing it. Those moves change how words land.
 
 Urgency shortens explanations; fear sharpens edges; authority reduces nuance.
 
 Most of this is not a plan to dominate. Speakers are usually trying to land quickly enough to matter.
 
-Signal pushes speech toward compression before anyone answers back.[^c4-barrett-how-emotions-are-made]
+Under pressure, speech narrows before the listener even reacts.[^c4-barrett-how-emotions-are-made]
 
-From the speaker side, this is where **attention finds a signal** and the channel narrows before the explanation is finished.
+Before the explanation is finished, speakers are often already trying to make the point land.
 
 ## **Speaking Is Never Just Expression**
 
@@ -22,9 +22,9 @@ That is not necessarily manipulation. It is adaptation. The room pushes language
 
 ## **Why Urgency Compresses Speech**
 
-Urgency says: something matters soon.
+When something feels urgent, people start cutting away detail.
 
-When time feels short, speakers strip detail so the point arrives before it gets lost. Sentences get shorter. Background drops away. Open questions feel unsafe.
+When time feels short, the point has to arrive before it gets lost. Sentences get shorter. Background drops away. Open questions feel unsafe.
 
 Under urgency, short often passes for clear.
 
@@ -38,13 +38,13 @@ Under fear, speech turns defensive or flat-out certain. Softeners vanish. Statem
 
 That sharp edge is not always aggression; it is protection.
 
-Fear reads as threat, and threat narrows what still feels allowed. Once fear is in the voice, listeners often hear more certainty than the speaker meant to send.[^c4-ledoux-emotional-brain]
+Fear makes some kinds of speech stop feeling safe. Once fear is in the voice, listeners often hear more certainty than the speaker meant to send.[^c4-ledoux-emotional-brain]
 
 ## **Authority Reduces Nuance**
 
-Authority turns up signal.
+Authority raises the stakes before anyone has parsed the words.
 
-Anyone seen as able to decide, reward, punish, or set direction speaks into that weight before the words get unpacked. Listeners compress faster because waiting feels expensive.
+Anyone seen as able to decide, reward, punish, or set direction speaks into that weight before the words get unpacked. Listeners settle on what they heard faster because waiting feels expensive.
 
 People with authority often feel a second pressure: sound clear, sound decided. Nuance can read as weakness. Hesitation can read as incompetence.
 
@@ -56,7 +56,7 @@ It is easy to blame listeners for jumping to conclusions.
 
 Speakers compress first.
 
-They simplify what they mean before anyone mishears them. They pick wording that feels safer, harder to attack, easier to defend. They shut ambiguity early so the message survives first encounter.
+They simplify what they mean before anyone mishears them. They pick wording that feels safer, harder to attack, easier to defend. They close ambiguity early so the message survives first encounter.
 
 By the time a listener hears the sentence, compression is already running.
 
@@ -70,7 +70,7 @@ Sometimes that helps. Often it does not.
 
 Clarification adds words. It does not remove signal.
 
-If urgency, fear, or authority are already shaping the voice, more explanation often tightens compression instead of loosening it. More words show up faster and louder. Listeners compress sooner.[^c4-nickerson-confirmation-bias]
+If urgency, fear, or authority are already shaping the voice, more explanation often tightens compression instead of loosening it. More words arrive faster and louder. Listeners settle on what they heard sooner.[^c4-nickerson-confirmation-bias]
 
 Seeing this does not erase harm. It does explain why nicer wording alone rarely fixes the rupture.
 
@@ -92,11 +92,11 @@ They carry context, motive, and doubt. They know what they were trying to say an
 
 Listeners get only what came out, filtered through signal and squeezed by pressure.
 
-That gap makes speaking under signal risky.
+That gap is where a lot of misunderstanding begins.
 
 Speakers feel more subtlety than they put into words. Listeners hear more finality than was intended.
 
-Neither side has to be lying. Meaning has already slipped sideways.
+Neither side has to be lying. They are already holding different versions of what just happened.
 
 ## **What Speaking Under Signal Makes Unavoidable**
 
@@ -104,11 +104,11 @@ Speaking is never a neutral broadcast. It carries the conditions it was made und
 
 Pressure, fear, urgency, and authority leave fingerprints on language. Listeners notice those traces before they weigh the ideas.
 
-Naming that pattern does not hand anyone a script. It moves the line where responsibility can still be denied.
+Seeing this clearly does not hand anyone a script. It moves the line where responsibility can still be denied.
 
-That brings us to listening under pressure, where compression speeds up again.
+Listening under pressure does the same thing from the other side: meaning closes faster there too.
 
-> *Signal pushes speech toward compression long before the listener responds.*
+> *Under pressure, speech narrows long before the listener responds.*
 
 ### **The Compressed Directive**
 

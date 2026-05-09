@@ -1,6 +1,6 @@
-# **Chapter 9 — Intimacy and Family**
+# **Chapter 8 — Intimacy and Family**
 
-At human scale, signal is hard to escape. History speaks louder than fresh words. In close bonds, almost nothing lands clean. Each line carries memory, habit, and older fights. What gets said is heard next to what was said before—and next to what never got settled.[^c9-bowlby-attachment-loss] That thickness changes every exchange.
+At human scale, signal is hard to escape. History speaks louder than fresh words. In close bonds, almost nothing lands clean. Each line carries memory, habit, and older fights. What gets said is heard next to what was said before—and next to what never got settled.[^c8-bowlby-attachment-loss] That thickness changes every exchange.
 
 Here **connection** carries the most weight: few bonds let you injure or soothe someone so deeply with so few syllables. Family and intimacy concentrate signal because **what continues between you**—dependence, identity, history—is already in the room before anyone speaks. A careless hour can echo for years; a careful silence can land as abandonment or respect depending on the same history.
 
@@ -12,7 +12,8 @@ At home, **Meaning drifts over time** because each new moment is heard through p
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Meaning drifts over time**
-As memory and context update, the same event is re-read through changing interpretive frames.
+
+As memory and context update, the same moment gets heard through what people already believe happened.
 :::
 
 This speed is not proof people stopped caring. It is what familiarity does. The mind already owns a version of the story. Updating feels easier than opening the story back up.
@@ -21,13 +22,13 @@ This speed is not proof people stopped caring. It is what familiarity does. The 
 
 Intimacy turns signal up. The stakes are personal in the plain sense: belonging, love, safety, selfhood. When those feel shaky, ambiguity can feel unbearable. People want an answer less to “win” and more to feel close again.
 
-Restraint is hardest here—not because people do not care, but because they care so much they want the ache to stop now.[^c9-baumeister-leary-belong]
+Restraint is hardest here—not because people do not care, but because they care so much they want the ache to stop now.[^c8-baumeister-leary-belong]
 
 ## **History as Signal**
 
-In tight relationships, history is part of the signal. Old fights, unmet needs, harm repaired or not—all color how today’s words land. A casual line can nick an old wound. A small tension can feel huge because it carries extra weight.
+In tight relationships, history is part of the signal. Old fights, unmet needs, harm repaired or not—all color how today’s words land. A casual line can nick an old wound. A small tension can feel huge because it is never only about today.
 
-Present talk turns fragile. People answer what this moment resembles, not only what it is.[^c9-goffman-interaction-ritual]
+Small conversations start carrying larger weight. People answer what this moment resembles, not only what it is.[^c8-goffman-interaction-ritual]
 
 ## **Why Listening Looks Different at Human Scale**
 
@@ -35,13 +36,13 @@ Listening at home often does not look like textbook active listening. It often l
 
 ## **Restraint Is Easily Misread**
 
-Because restraint is quiet, it is easy to misread. Restraint can look like pulling away. Silence can sound like coldness. A pause can sound like withholding. That misread pushes people to talk faster and explain harder so they will look engaged. The effort to prove care can speed the very misunderstanding everyone feared.[^c9-gottman-seven-principles]
+Because restraint is quiet, it is easy to misread. Restraint can look like pulling away. Silence can sound like coldness. A pause can sound like withholding. That misread pushes people to talk faster and explain harder so they will look engaged. The effort to prove care can speed the very misunderstanding everyone feared.[^c8-gottman-seven-principles]
 
 ## **Repair Arrives Too Late**
 
 When restraint collapses at home, things escalate fast. Corrections carry extra emotional charge. Assumptions harden into judgments about love, loyalty, or character. Words meant to clear the air reopen old chapters instead.
 
-Repair often shows up after damage. Apologies address what happened, but the tempo that caused it may stay the same. That is why the same fight returns even when both people want change.[^c9-minuchin-families-family-therapy]
+Repair often shows up after damage. Apologies address what happened, but the tempo that caused it may stay the same. That is why the same fight returns even when both people want change.[^c8-minuchin-families-family-therapy]
 
 ## **Why Facts Rarely Help**
 
@@ -51,9 +52,9 @@ When compression is driven by history more than by information, new data rarely 
 
 ## **What Intimacy Reveals**
 
-Intimacy shows the outer edge of what communication can hold. Meaning outruns understanding fast when history is thick and stakes run high. Restraint is most needed and most breakable in the same rooms.
+Intimacy shows how far meaning can move on almost nothing. Meaning outruns understanding quickly when history is thick and stakes run high. Restraint is most needed and most breakable in the same rooms.
 
-Understanding this does not fix family pain. It explains why family pain stays stubborn.
+Seeing this clearly does not fix family pain. It explains why family pain stays stubborn.
 
 ## **What Remains Possible**
 
@@ -81,8 +82,8 @@ By the time they tried to explain, they were no longer talking about the plan. T
 Later, both agreed the conversation had gone badly. Neither could say exactly when the present moment had disappeared—only that it never arrived alone.
 :::
 
-[^c9-bowlby-attachment-loss]: Bowlby, John. *Attachment and Loss*. New York: Basic Books, 1969.
-[^c9-baumeister-leary-belong]: Baumeister, Roy F., and Mark R. Leary. "The Need to Belong." *Psychological Bulletin* (1995).
-[^c9-goffman-interaction-ritual]: Goffman, Erving. *Interaction Ritual*. New York: Pantheon Books, 1967.
-[^c9-gottman-seven-principles]: Gottman, John M. *The Seven Principles for Making Marriage Work*. New York: Crown, 1999.
-[^c9-minuchin-families-family-therapy]: Minuchin, Salvador. *Families and Family Therapy*. Cambridge, MA: Harvard University Press, 1974.
+[^c8-bowlby-attachment-loss]: Bowlby, John. *Attachment and Loss*. New York: Basic Books, 1969.
+[^c8-baumeister-leary-belong]: Baumeister, Roy F., and Mark R. Leary. "The Need to Belong." *Psychological Bulletin* (1995).
+[^c8-goffman-interaction-ritual]: Goffman, Erving. *Interaction Ritual*. New York: Pantheon Books, 1967.
+[^c8-gottman-seven-principles]: Gottman, John M. *The Seven Principles for Making Marriage Work*. New York: Crown, 1999.
+[^c8-minuchin-families-family-therapy]: Minuchin, Salvador. *Families and Family Therapy*. Cambridge, MA: Harvard University Press, 1974.

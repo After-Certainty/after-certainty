@@ -44,11 +44,19 @@ She could not explain how much room correctness had taken, or why it still hurt.
 
 Correct interpretations can still cause damage. Accuracy does not guarantee safety.
 
-Placed side by side, the two scenes show the chapter's distinction. Accuracy asks: *Is this true?* Integration asks: *What does this do here, now, between us?* Truth never arrives alone; it moves through signal, compression, and relationship.[^c12-barrett-how-emotions-are-made] Where that pace outruns restraint, interpretive violence begins: meaning gets imposed faster than people can take it in.[^c12-kruglanski-need-closure]
+Placed side by side, the two scenes show the chapter's key distinction. Accuracy asks: *Is this true?* But another question remains: *What does this do here, now, between us?*
 
-Correctness can accelerate compression because settled truth invites closure. Slower interpretation starts to look wasteful. Discussion slides from inquiry toward enforcement.[^c12-nickerson-confirmation-bias] Interpretive violence does not require yelling or bad faith. It can happen in calm language with accurate premises.[^c12-fricker-epistemic-injustice] Many painful exchanges involve good intentions on both sides. Speakers believe they are being direct. Listeners believe they are being rational. Both use correctness to justify speed. The bruise often lands in **connection**: the next honest question becomes harder to ask.[^c12-ross-ward-naive-realism]
+Truth still moves through signal, compression, and relationship.[^c12-barrett-how-emotions-are-made] When that pace outruns restraint, harm starts even if the facts are correct: meaning hardens faster than people can absorb it.[^c12-kruglanski-need-closure]
 
-Being right does not end responsibility. Accuracy can establish facts and correct error. It cannot by itself choose timing, pace, or relational cost. Those require restraint. Without restraint, correctness easily becomes a shield: impact is treated as someone else's private problem. With restraint, truth can stay firm without becoming a ruling that flattens people. Care does not erase truth. It governs how truth is delivered and what remains possible afterward.[^c12-arendt-responsibility-judgment]
+Correctness can speed compression because settled truth invites closure. Slower interpretation starts to look wasteful. Discussion shifts from inquiry toward enforcement.[^c12-nickerson-confirmation-bias]
+
+This does not require yelling or bad faith. It can happen in calm language with accurate premises.[^c12-fricker-epistemic-injustice] Many painful exchanges involve good intentions on both sides. Speakers believe they are being direct. Listeners believe they are being rational. Both use correctness to justify speed.
+
+The bruise often lands in **connection**: the next honest question becomes harder to ask.[^c12-ross-ward-naive-realism]
+
+Being right does not end responsibility. Accuracy can establish facts and correct error. It cannot choose timing, pace, or relational cost by itself. Those require restraint.
+
+Without restraint, correctness becomes a shield. Impact gets treated as someone else's private problem. With restraint, truth can stay firm without becoming a ruling that flattens people. Care does not erase truth. It shapes how truth is delivered and what remains possible afterward.[^c12-arendt-responsibility-judgment]
 
 > *The moral limit of accuracy is not truth itself, but the speed at which truth is used to close what still needs room.*
 

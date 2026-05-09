@@ -26,7 +26,7 @@ People need orientation before they can process complete information.
 
 **Forces:**
 
-- Salience detection runs faster than interpretation
+- People notice what stands out before they interpret it
 - Tone, timing, and power register before content
 - Social risk pushes attention toward possible consequence
 
@@ -62,9 +62,9 @@ Action pressure makes delayed interpretation feel unsafe or inefficient.
 
 **Forces:**
 
-- Cognitive closure reduces uncertainty quickly
-- Prior belief fills interpretive gaps
-- Emotional arousal accelerates inference
+- People settle uncertainty quickly
+- Prior beliefs fill interpretive gaps
+- Emotion speeds up conclusions
 
 **Observation:**
 
@@ -98,14 +98,14 @@ itself.
 
 **Forces:**
 
-- Context is distributed across environment and history
-- Emotional meaning is largely non-linguistic
-- Social roles load words with additional consequence
+- Context lives in the setting and in shared history
+- Emotion often shows up outside explicit wording
+- Social roles load words with extra consequence
 
 **Observation:**
 
-Language never carries the full structure of context, emotion, or
-intent.
+Language never carries all of the context, emotion, or intent around
+it.
 
 > Words arrive incomplete, so a sentence can be precise in grammar and
 > still incomplete in life.
@@ -173,8 +173,8 @@ Listeners need to decide whether they are safe, respected, or at risk.
 
 **Forces:**
 
-- Attribution converts behavior into motive
-- Threat sensitivity prioritizes defensive interpretation
+- People turn behavior into motive quickly
+- Threat makes defensive readings more likely
 - Relationship history primes expectation
 
 **Observation:**
@@ -208,8 +208,8 @@ Communication occurs under conflict, urgency, authority, or high stakes.
 
 **Problem:**
 
-The need for rapid action competes with the need for interpretive
-fidelity.
+The need for rapid action competes with staying close to what was
+actually meant.
 
 **Forces:**
 
@@ -249,9 +249,9 @@ Interpretation is treated as fixed even though context keeps changing.
 
 **Forces:**
 
-- Memory is reconstructive rather than static
-- Repetition privileges convenient summaries
-- New context retroactively changes what earlier events seem to mean
+- Memory gets rebuilt over time, not replayed exactly
+- Repetition favors convenient summaries
+- New context changes what earlier events seem to mean
 
 **Observation:**
 
@@ -285,20 +285,19 @@ reactivity.
 
 **Problem:**
 
-Early interpretation may be directionally useful but insufficiently
-accurate.
+Early interpretation may be useful but still too rough.
 
 **Forces:**
 
-- Additional context widens interpretive range
-- Lower arousal improves tolerance for ambiguity
-- Restraint keeps meanings revisable
+- Additional context widens what people can see
+- Lower emotional charge improves tolerance for ambiguity
+- Restraint keeps meaning revisable
 
 **Observation:**
 
 Additional context can sharpen understanding without fully resolving it.
 
-> Meaning gets clarified when fit improves, even though complexity
+> Meaning gets clarified when understanding becomes more precise, even though complexity
 > remains.
 
 **Effect:**
@@ -322,13 +321,13 @@ context.
 
 **Problem:**
 
-Coherence is preserved at the expense of fidelity.
+Coherence is preserved at the expense of accuracy.
 
 **Forces:**
 
 - Confirmation bias filters incoming data
 - Social reinforcement rewards consistency
-- Defensive identity processes resist revision
+- Identity defense resists revision
 
 **Observation:**
 
@@ -362,13 +361,13 @@ A group repeats interactions through an existing interpretive frame.
 
 **Problem:**
 
-The frame is no longer treated as a hypothesis.
+The frame no longer feels provisional.
 
 **Forces:**
 
 - Selective attention confirms prior meaning
 - Repetition normalizes prior conclusions
-- Social alignment penalizes interpretive deviation
+- Social alignment penalizes interpretive differences
 
 **Observation:**
 

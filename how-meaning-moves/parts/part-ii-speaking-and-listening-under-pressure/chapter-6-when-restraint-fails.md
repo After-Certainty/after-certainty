@@ -2,11 +2,11 @@
 
 When restraint drops out, conversations heat up even when nobody raises their voice.
 
-Pressure does more than speed interpretation. It changes how people relate. Defense, correction, and control start to stand in for shared contact.
+Pressure does more than make people settle on meaning faster. It changes how people relate. Defense, correction, and control start to stand in for staying in the same conversation.
 
 Corrections come too soon. Assumptions stiffen. Feelings get treated like proof. The exchange speeds up, not because people stopped caring, but because certainty feels safer than not knowing.[^c6-kruglanski-need-closure]
 
-Then **Meaning gets distorted** faster than anyone can walk it back.
+Then **Meaning gets distorted** faster than anyone can correct it.
 
 ## **Failure Without Hostility**
 
@@ -20,15 +20,15 @@ Restraint fails in quiet moments long before the fight looks obvious.
 
 ## **Speed Replaces Contact**
 
-Restraint keeps interpretation open long enough for real contact.
+Restraint keeps meaning open long enough for real contact.
 
-When restraint goes missing, speed fills the gap. Answers land before understanding has settled. Meaning gets finished inside each head instead of explored between people. The exchange turns into a race to close rather than a joint effort to coordinate.
+When restraint goes missing, speed fills the gap. Answers land before understanding has settled. Meaning gets finished inside each head instead of explored between people. The exchange turns into a race to close rather than a joint effort to stay aligned.
 
-Once speed is driving, contact stops being the main job.[^c6-kahneman-thinking-fast-slow]
+Once speed is driving, staying with each other stops being the main job.[^c6-kahneman-thinking-fast-slow]
 
 ## **Corrections Become Escalation**
 
-Lost restraint often attacks correction first.
+Correction is often where restraint goes missing first.
 
 Fast corrections assume shared ground that is not there yet. The speaker means to sharpen meaning. The listener often hears dismissal.
 
@@ -40,7 +40,7 @@ Without restraint, guesses stop feeling tentative. They solidify into statements
 
 It sounds personal.
 
-People argue less about what was meant and more about what it must have meant. The talk shifts from coordination to justification.[^c6-ross-nisbett-person-situation]
+People argue less about what was meant and more about what it must have meant. The talk shifts from trying to understand each other to proving a point.[^c6-ross-nisbett-person-situation]
 
 ## **Emotional Signal Becomes Evidence**
 
@@ -48,11 +48,11 @@ When restraint fails, feelings start counting as proof.
 
 Anger reads as guilt. Hesitation reads as hiding. Confidence reads as bad faith.
 
-Feelings are ambiguous by nature. Under pressure they get squeezed into conclusions that feel final. That squeeze can feel clarifying; usually it distorts.[^c6-barrett-how-emotions-are-made]
+Feelings are ambiguous by nature. Under pressure, feelings stop feeling ambiguous. That shift can feel clarifying; usually it distorts.[^c6-barrett-how-emotions-are-made]
 
 ## **Why Certainty Feels Safer**
 
-Certainty rests the mind. It cuts mental effort. It steadies identity. It lets people act without sitting in doubt. Under stress, certainty can feel like grip.
+Certainty feels stabilizing. It cuts mental effort. It steadies identity. It lets people act without sitting in doubt. Under stress, certainty can feel like control.
 
 Ambiguity feels exposed. It stretches the moment. It delays action. It keeps the door open to being wrong.
 
@@ -76,7 +76,7 @@ Inside the spiral, it feels like reacting to chaos. From outside, it can look li
 
 Nothing theatrical has to happen. Only the tempo changes.
 
-## **The Invisibility of Restraint’s Absence**
+## **There Is No Bell When Restraint Fails**
 
 Restraint is hardest to spot when it is missing.
 
@@ -88,19 +88,19 @@ When restraint holds, the room looks calm. When it breaks, everything looks loud
 
 ## **What Failure Reveals**
 
-Collapsed restraint surfaces something uncomfortable.
+When restraint collapses, something uncomfortable becomes plain.
 
 Communication often breaks without missing care, brains, or goodwill. It breaks because people compress meaning under pressure, and restraint is expensive to hold.
 
-Acknowledging that does not erase injury. It explains why harm so often grows out of everyday talk among people trying their best.
+Seeing this clearly does not erase injury. It explains why harm so often grows out of everyday talk among people trying their best.
 
-Predictability does not erase accountability. It removes the excuse of surprise.
+Knowing the pattern does not erase accountability. It removes the excuse of surprise.
 
 ## **What Remains When Restraint Fails**
 
-Without restraint, communication does not stop; it accelerates.
+Without restraint, communication accelerates.
 
-Meaning keeps moving—faster than understanding can track. The outcome is not quiet withdrawal. It is collision.
+Meaning keeps moving faster than understanding can track.
 
 > *When restraint fails, meaning keeps moving faster than understanding can track.*
 

@@ -14,7 +14,24 @@ In practice, the first move is this: **Attention finds a signal.**
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Attention finds a signal**
+
 The first cue that feels important decides how later words land.
+:::
+
+Meaning does not wait for completeness.
+
+::: {custom-style="Pattern Block"}
+**Pattern: Meaning forms early**
+
+People often settle on what is happening while they still think they are listening.
+:::
+
+Words never carry the whole situation alone.
+
+::: {custom-style="Pattern Block"}
+**Pattern: Words arrive incomplete**
+
+What people actually say never carries the whole situation; listeners fill in the rest.
 :::
 
 This is why the same sentence can produce very different reactions. The words stay the same. The signal changes.
@@ -41,7 +58,7 @@ In connected relationships, this effect is stronger. Shared history and stakes d
 
 Words can be precise. Signal is usually mixed.
 
-Signal rarely arrives clean. It piles up: leftovers from earlier conversations, and the simple fact of who outranks whom in the room. That makes it easy to underestimate, especially if you believe the right wording should be enough.
+Signal rarely arrives clean. It piles up: leftovers from earlier conversations, plus the simple fact of who outranks whom in the room. That makes it easy to underestimate, especially if you believe the right wording should be enough.
 
 Communication often fails not because words are unclear, but because people react before they fully sort out what was said. Signal has usually done its work by then.
 

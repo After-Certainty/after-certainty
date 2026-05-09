@@ -12,12 +12,14 @@ sections.
 
 ### **Meaning forms early.**
 
+- `chapter-1-signal-what-arrives-before-words.md` — Pattern Block immediately after “Attention finds a signal” (first introduction)
 - `introduction-why-communication-fails-before-anyone-is-wrong.md` — opening argument on upstream meaning formation
 - `chapter-2-compression-why-we-decide-what-someone-meant-so-quickly.md` — "Compression happens before we notice it"
 
 ### **Words arrive incomplete.**
 
-- `chapter-1-signal-what-arrives-before-words.md` — signal as environment for interpretation
+- `chapter-1-signal-what-arrives-before-words.md` — Pattern Block in Formation sequence after “Meaning forms early” (first introduction); signal as environment for interpretation
+- `chapter-2-compression-why-we-decide-what-someone-meant-so-quickly.md` — “What Compression Makes Unavoidable” (echoes the pattern without a second Pattern Block)
 - `chapter-5-listening-under-compression.md` — interpretation preceding full language processing
 
 ## **Completion**
@@ -36,13 +38,13 @@ sections.
 
 ### **Meaning shifts under pressure.**
 
-- `chapter-2-compression-why-we-decide-what-someone-meant-so-quickly.md` — "Compression accelerates under pressure"
-- `chapter-7-conflict.md` — "Why escalation feels justified"
+- `chapter-2-compression-why-we-decide-what-someone-meant-so-quickly.md` — Pattern Block under “Compression Accelerates Under Pressure” (first introduction)
+- `chapter-7-conflict.md` — opens by applying the pattern to conflict; no second Pattern Block
 
 ### **Meaning drifts over time.**
 
-- `chapter-8-leadership-and-authority.md` — legitimacy transfer over time
-- `chapter-9-intimacy-and-family.md` — history and accumulated meaning
+- `chapter-8-intimacy-and-family.md` — Pattern Block; history and accumulated meaning (first Pattern Block in Part III sequence before reinforcement)
+- `chapter-9-leadership-and-authority.md` — legitimacy transfer over time
 
 ## **Resolution**
 
@@ -60,5 +62,5 @@ sections.
 
 ### **Meaning reinforces itself.**
 
-- `chapter-8-leadership-and-authority.md` — authority-accelerated repeating interpretations
+- `chapter-9-leadership-and-authority.md` — Pattern Block; authority-accelerated repeating interpretations
 - `chapter-11-why-better-communication-is-rare.md` — systems that reward speed over revision

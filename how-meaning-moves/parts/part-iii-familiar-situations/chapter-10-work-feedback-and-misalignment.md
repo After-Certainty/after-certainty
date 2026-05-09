@@ -23,29 +23,31 @@ She agreed.
 What neither of them named was what had quietly narrowed—or how much of the original work had disappeared in the process.
 :::
 
-Workplaces reward compression. Decisions have to land; feedback has to stick. Fast gets treated as capable, clear as effective. In that air, people expect talk to race from signal to action, ambiguity slows coordination, and delay reads as negligence.[^c10-march-simon-organizations] Pressure reshapes how meaning moves on the job.
+Workplaces reward compression. Decisions have to land; feedback has to stick.
+
+Fast gets treated as capable, clear as effective. In that air, people expect talk to race from signal to action. Ambiguity slows coordination. Delay reads as negligence. Pressure reshapes how meaning moves at work.[^c10-march-simon-organizations]
 
 The scene above is ordinary precisely because no one behaved badly. It shows how misalignment forms through pace.
 
-In the scene, the manager tries to deliver constructive input. The listener hears consequence first. Feedback at work almost never lands as neutral content. It carries rank, stakes, and comparison. Even careful phrasing can load threat when the room already assumes evaluation.[^c10-edmondson-fearless-organization]
+Here, the manager tries to deliver constructive input. The listener hears consequence first. Feedback at work almost never lands as neutral content. It carries rank, stakes, and comparison. Even careful phrasing can load threat when the room already assumes evaluation.[^c10-edmondson-fearless-organization]
 
-At work, **connection** means mutual reliance under role: whether people trust they can still speak, still risk uncertainty, and still belong after a difficult exchange. When signal gets loud, those questions outrun the literal words.
+At work, **connection** means mutual reliance under role: whether people trust they can still speak, still risk uncertainty, and still belong after a difficult exchange. When signal gets loud, those worries outrun the literal words.
 
-That first shift sets up the second.
+Once feedback lands as consequence, a second move follows.
 
-The feedback aims at behavior. The listener updates identity. That shift is not thin skin; it is speed. Under performance pressure, people answer quickly: *What does this say about me? Am I still safe here?* Those answers fire before reflection can test them.[^c10-steele-whistling-vivaldi]
+The feedback aims at behavior. The listener hears a verdict about them—not only about the work. That shift is not thin skin; it is speed. Under performance pressure, people answer quickly: *What does this say about me? Am I still safe here?* Those answers arrive before reflection can test them.[^c10-steele-whistling-vivaldi]
 
 Once that reading hardens, clarification often backfires. More detail adds content, not contact. Explanation gets sorted as proof for the first story, and **Meaning gets distorted** even when the facts are fair.[^c10-nickerson-confirmation-bias]
 
-Once identity is on the line, the organization starts reading adaptation as alignment.
+Once identity is on the line, adaptation starts looking like alignment to anyone grading the surface.
 
 The closing line of the scene matters: performance improves while expressive range narrows. Organizations often read this as success. Fewer questions, cleaner updates, less visible friction. But these can also be signs that candor has withdrawn.
 
 That is how misalignment becomes normal. Work continues. Metrics hold. People coordinate behavior while privately revising what can safely be said.[^c10-perrow-normal-accidents]
 
-Work exposes a durable tradeoff: efficiency asks for compression while understanding asks for contact. Systems optimize the first and assume the second will follow. Often it does not. Then communication frays without looking broken, and the cost lands in **connection** long before it appears on a dashboard.
+Work exposes a durable tradeoff: efficiency asks for compression while understanding asks for contact. Systems optimize the first and assume the second will follow. Often it does not. Then communication frays without looking broken. The cost lands in **connection** long before it appears in the metrics people trust.
 
-Feedback will never be perfectly safe, and misalignment will never fully vanish. Restraint does not erase pressure. It preserves a small, expensive interval in which meaning can still be revised before it hardens into judgment.
+Feedback will never be perfectly safe, and misalignment will never fully vanish. Restraint does not erase pressure. It preserves a small, expensive interval in which meaning can still be revised before it hardens into a verdict.
 
 [^c10-march-simon-organizations]: March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley, 1958.
 [^c10-edmondson-fearless-organization]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.

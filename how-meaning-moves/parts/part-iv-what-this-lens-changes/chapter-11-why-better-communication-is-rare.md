@@ -22,7 +22,7 @@ Better communication had been possible. It had not been affordable.
 
 Better communication is not rare because people stop caring. It is rare because restraint costs time, comfort, and control.
 
-Most people can tell when a conversation is going wrong: the tempo rises, the room narrows. What they often lack is not insight but permission to brake while everything else pushes forward.
+Most people can tell when a conversation is going wrong: the tempo rises, the room narrows. What they often lack is not insight but permission to pause while everything else pushes forward.
 
 The vignette shows a familiar split. Everyone can see the missed opportunity after the fact. No one can absorb the cost in the moment.
 
@@ -32,7 +32,7 @@ If that is the local experience, the next question is structural: what keeps rep
 
 Most systems are built to keep things moving. Deadlines, metrics, incentives, and accountability reward speed, crisp answers, and firm calls. Motion is easy to measure. Restraint is easy to ignore.[^c11-march-simon-organizations]
 
-**Contact**—staying close to what was said and what remains unclear—is easy to skip when calendars run the room. **Connection** pays differently: it appears later, in whether people still raise risk, admit confusion, or lend each other slack. That lagging ledger rarely makes the main dashboard.
+**Contact**—staying close to what was said and what remains unclear—is easy to skip when calendars run the room. **Connection** changes on a different clock: it appears later, in whether people still raise risk, admit confusion, or lend each other slack. That cost usually shows up late, and often off the main dashboard.
 
 When only motion gets scored, talk bends toward compression. Across cycles, **Meaning reinforces itself**: older readings become defaults for new moments. This is less a failure of character than a consequence of incentive design.
 
@@ -40,7 +40,7 @@ Once incentive design favors closure, clarity starts to outrank comprehension.
 
 Clarity feels like progress. Sharp lines invite replies. Firm conclusions unlock coordination. Understanding is slower, partial, and hard to summarize quickly.
 
-So clarity wins status even when it arrives early. Over time, clear enough replaces actually understood. People then misdiagnose the gap as an individual skill problem: better wording, cleaner facilitation, tighter listening. Skill helps at the margins. It does not remove the pressure field that keeps rewarding early closure.[^c11-gigerenzer-gut-feelings]
+So clarity wins status even when it arrives early. Over time, clear enough replaces actually understood. People then misdiagnose the gap as an individual skill problem: better wording, cleaner facilitation, tighter listening. Skill helps at the margins. It does not remove the pressure that keeps rewarding early closure.[^c11-gigerenzer-gut-feelings]
 
 That is why goodwill, while necessary, cannot carry the full load.
 
@@ -48,7 +48,7 @@ Many teams rely on goodwill to absorb the cost of restraint. They hope trusted p
 
 People who keep meaning unfinished tend to pay a social tax: unclear, indecisive, slow, unprepared. That tax quietly trains people away from restraint even when restraint would have prevented harm.
 
-From there, rarity is no longer surprising; it is produced.
+From there, rarity is no longer surprising. The system keeps producing it.
 
 Better communication appears where someone or something absorbs restraint's cost: where delay is permitted, ambiguity is protected, and interpretation can settle before action closes options.[^c11-perrow-normal-accidents]
 
@@ -56,7 +56,7 @@ Those conditions are real but fragile. Most organizations do not stock them by d
 
 This lens does not promise nicer outcomes. It makes attribution more accurate. Some failures stop sounding like private moral collapse. Other failures become harder to dismiss as bad luck. Responsibility expands toward system design without erasing individual consequence.
 
-That is why the core line from the scene is not only descriptive but analytical: Better communication had been possible. It had not been affordable.
+So the core line from the scene still holds: Better communication had been possible. It had not been affordable.
 
 [^c11-kruglanski-need-closure]: Kruglanski, Arie W. "The Need for Cognitive Closure." *Psychological Review* (1990).
 [^c11-march-simon-organizations]: March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley, 1958.
