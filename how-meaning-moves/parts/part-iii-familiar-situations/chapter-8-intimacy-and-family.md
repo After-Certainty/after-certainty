@@ -2,7 +2,9 @@
 
 At human scale, signal is hard to escape. History speaks louder than fresh words. In close bonds, almost nothing lands clean. Each line carries memory, habit, and older fights. What gets said is heard next to what was said before—and next to what never got settled.[^c8-bowlby-attachment-loss] That thickness changes every exchange.
 
-Here **connection** carries the most weight: few bonds let you injure or soothe someone so deeply with so few syllables. Family and intimacy concentrate signal because **what continues between you**—dependence, identity, history—is already in the room before anyone speaks. A careless hour can echo for years; a careful silence can land as abandonment or respect depending on the same history.
+Here **connection** carries the most weight: few bonds let you injure or soothe someone so deeply with so few syllables. Family and intimacy concentrate signal because **what continues between you**—dependence, identity, history—is already in the room before anyone speaks.
+
+A careless hour can echo for years. A careful silence can land as abandonment or respect, depending on that same history.
 
 ## **Why Compression Is Fastest at Home**
 
@@ -13,7 +15,7 @@ At home, **Meaning drifts over time** because each new moment is heard through p
 ::: {custom-style="Pattern Block"}
 **Pattern: Meaning drifts over time**
 
-As memory and context update, the same moment gets heard through what people already believe happened.
+Each new moment gets heard through what people already believe happened.
 :::
 
 This speed is not proof people stopped caring. It is what familiarity does. The mind already owns a version of the story. Updating feels easier than opening the story back up.
@@ -22,7 +24,7 @@ This speed is not proof people stopped caring. It is what familiarity does. The 
 
 Intimacy turns signal up. The stakes are personal in the plain sense: belonging, love, safety, selfhood. When those feel shaky, ambiguity can feel unbearable. People want an answer less to “win” and more to feel close again.
 
-Restraint is hardest here—not because people do not care, but because they care so much they want the ache to stop now.[^c8-baumeister-leary-belong]
+Restraint is hardest here—not because people do not care, but because they care so much they want the ache to stop now.[^c8-bonds-and-belonging-pressure]
 
 ## **History as Signal**
 
@@ -48,19 +50,17 @@ Repair often shows up after damage. Apologies address what happened, but the tem
 
 At home, facts rarely slow a spiral by themselves. Facts compete with memory. Explanations compete with feeling. Accuracy competes with years of meaning already stored.
 
-When compression is driven by history more than by information, new data rarely uproots the story in place. That is why “being right” so often fails to bring relief at home.
+When compression is driven by history more than by information, new data rarely uproots the story in place. “Being right” still often fails to bring relief at home.
 
-## **What Intimacy Reveals**
+## **Small Rooms, Loud Moves**
 
-Intimacy shows how far meaning can move on almost nothing. Meaning outruns understanding quickly when history is thick and stakes run high. Restraint is most needed and most breakable in the same rooms.
+Intimacy shows how far a few syllables can travel on almost nothing. Meaning outruns understanding quickly when history is thick and stakes run high. Restraint is most needed and most breakable in the same rooms.
 
-Seeing this clearly does not fix family pain. It explains why family pain stays stubborn.
+Seeing this clearly does not fix family pain. Family pain stays stubborn—not because love wore out on schedule, but because thick history lets small syllables carry whole archives.
 
-## **What Remains Possible**
+## **Openings Without Guarantees**
 
-Restraint at home does not promise harmony. It can keep contact from collapsing into verdict too soon. It keeps talk from turning people into walking summaries of their worst moments.
-
-> *At home, restraint is most needed and most breakable in the same rooms.*
+Restraint at home does not promise harmony. It can keep people from turning each other into one-sentence verdicts.
 
 ### **The Echoed Comment**
 
@@ -77,13 +77,15 @@ The response landed wrong. It always did.
 
 The space between them tightened. Silence filled in what no one wanted to say out loud.
 
-By the time they tried to explain, they were no longer talking about the plan. They were talking about what it meant to be considered—or overlooked.
+When they finally tried to explain, they were no longer talking about the plan. They were talking about what it meant to be considered—or overlooked.
 
 Later, both agreed the conversation had gone badly. Neither could say exactly when the present moment had disappeared—only that it never arrived alone.
 :::
 
+> *At home, restraint is most needed and most breakable in the same rooms.*
+
 [^c8-bowlby-attachment-loss]: Bowlby, John. *Attachment and Loss*. New York: Basic Books, 1969.
-[^c8-baumeister-leary-belong]: Baumeister, Roy F., and Mark R. Leary. "The Need to Belong." *Psychological Bulletin* (1995).
+[^c8-bonds-and-belonging-pressure]: On how attachment history layers into present speech and on how the need to belong intensifies pressure when closeness feels threatened, see Bowlby, John. *Attachment and Loss*. New York: Basic Books, 1969; Baumeister, Roy F., and Mark R. Leary. "The Need to Belong." *Psychological Bulletin* (1995).
 [^c8-goffman-interaction-ritual]: Goffman, Erving. *Interaction Ritual*. New York: Pantheon Books, 1967.
 [^c8-gottman-seven-principles]: Gottman, John M. *The Seven Principles for Making Marriage Work*. New York: Crown, 1999.
 [^c8-minuchin-families-family-therapy]: Minuchin, Salvador. *Families and Family Therapy*. Cambridge, MA: Harvard University Press, 1974.

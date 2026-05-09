@@ -16,7 +16,7 @@ sections.
 - `introduction-why-communication-fails-before-anyone-is-wrong.md` — opening argument on upstream meaning formation
 - `chapter-2-compression-why-we-decide-what-someone-meant-so-quickly.md` — "Compression happens before we notice it"
 
-### **Words arrive incomplete.**
+### **Meaning outruns the words.**
 
 - `chapter-1-signal-what-arrives-before-words.md` — Pattern Block in Formation sequence after “Meaning forms early” (first introduction); signal as environment for interpretation
 - `chapter-2-compression-why-we-decide-what-someone-meant-so-quickly.md` — “What Compression Makes Unavoidable” (echoes the pattern without a second Pattern Block)
@@ -39,7 +39,7 @@ sections.
 ### **Meaning shifts under pressure.**
 
 - `chapter-2-compression-why-we-decide-what-someone-meant-so-quickly.md` — Pattern Block under “Compression Accelerates Under Pressure” (first introduction)
-- `chapter-7-conflict.md` — opens by applying the pattern to conflict; no second Pattern Block
+- `chapter-7-conflict.md` — applies *Meaning shifts under pressure* in prose (**Speed buys closure before doubt gets air.**); no duplicate Pattern Block
 
 ### **Meaning drifts over time.**
 
@@ -48,7 +48,7 @@ sections.
 
 ## **Resolution**
 
-### **Meaning gets clarified.**
+### **Contact keeps the read open.**
 
 - `chapter-3-restraint-the-costliest-part-of-communication.md` — clarification without closure
 - `chapter-13-what-restraint-makes-possible-and-what-it-doesnt.md` — slowing meaning without stopping action

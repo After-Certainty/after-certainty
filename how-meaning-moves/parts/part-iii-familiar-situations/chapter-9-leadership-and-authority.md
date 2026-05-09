@@ -1,6 +1,8 @@
 # **Chapter 9 — Leadership and Authority**
 
-Authority amplifies signal. When someone leads—or is treated as if they lead—listeners settle on what they heard sooner. Words arrive with weight before they arrive with nuance. People brace for impact, align fast, and strip ambiguity because waiting feels expensive. That happens even when the person up front is careful, sincere, and trying to do right.[^c9-french-raven-bases-social-power] Power changes how fast meaning settles.
+Authority amplifies signal. When someone leads—or is treated as if they lead—listeners commit to a read sooner. Words arrive with weight before they arrive with nuance. People brace for impact, align fast, and strip ambiguity because waiting feels expensive. That happens even when the person up front is careful, sincere, and trying to do right.[^c9-french-raven-bases-social-power]
+
+Power changes how fast a read locks in.
 
 ## **Why Authority Accelerates Compression**
 
@@ -13,7 +15,7 @@ Under steady authority, **Meaning reinforces itself**: yesterday’s read primes
 ::: {custom-style="Pattern Block"}
 **Pattern: Meaning reinforces itself**
 
-Once a reading stabilizes, it primes what people are prepared to notice and conclude next.
+What locked in yesterday quietly trains what people notice tomorrow.
 :::
 
 ## **Weight Arrives Before Intent**
@@ -24,9 +26,9 @@ Listeners meet the words after signal has already loaded. Authority stacks conse
 
 ## **Well-Intentioned Harm**
 
-Harm from authority does not require evil intent. It grows out of loud signal plus fast compression. Someone speaks. Others decide fast what counts, what is safe, and what will be rewarded. Meaning locks before slow correction can catch it.
+Harm from authority does not require evil intent. It grows out of loud signal plus fast compression. Someone speaks. Others decide fast what counts, what is safe, and what will be rewarded. The read locks before slow correction can catch it.
 
-By the time a leader sees the drift, it may already be baked into how work runs.[^c9-weick-sensemaking] Seeing this clearly does not erase harm. It explains how harm persists inside cultures that still mean well.
+When a leader finally spots the drift, it may already be baked into how work runs.[^c9-weick-sensemaking] Cultures that mean well still stockpile harm when signal runs loud and correction arrives late—no villain required for the drift to harden.
 
 ## **The Problem of Legitimacy Transfer**
 
@@ -40,7 +42,7 @@ Over time, fixing mistakes gets harder—not because people refuse, but because 
 
 ## **Restraint Under Authority**
 
-Restraint matters more with authority, and it costs more. To leaders, restraint can look like weakness. To organizations, like drag. To teams, like fog.
+Restraint matters more with authority; it also reads worse—weakness to leaders, drag to org charts, fog to teams.
 
 Still, restraint is what slows automatic legitimacy transfer. It puts pause back where decisions get made. It lets meaning be tested instead of inherited.
 
@@ -48,7 +50,7 @@ Without restraint—whether in rules or in personal habit—authority drifts.
 
 ## **Connection Across Rank**
 
-Institutions run on **connection** stored in roles: whether people trust they will be heard, corrected fairly, and not punished for ambiguity. That is not intimacy—it is mutual reliance with asymmetric consequence.
+Institutions run on **connection** stored in roles: whether people trust they will be heard, corrected fairly, and not punished for ambiguity. That is not intimacy in the small-room sense; it is mutual reliance with asymmetric consequence.
 
 Authority strains this bond when meaning locks from above. Teams often **keep alignment on the surface** while holding real speech back: everyone coordinates behavior, fewer people risk naming trouble early. Connection can look healthy in the numbers and feel brittle face to face—more hedging, goodwill routed through ceremony instead of contact.
 
@@ -71,8 +73,6 @@ That is why leadership failures can look huge next to small words. Tiny misunder
 Authority exposes an uncomfortable fact about communication. The more power someone holds, the less control they have over how people hear them—and the larger the fallout when meaning runs ahead of understanding.
 
 That is not automatically a character flaw. It is built into the structure.
-
-> *Power shortens the distance between signal and consequence.*
 
 ### **The Passing Comment**
 
@@ -99,6 +99,8 @@ He had not.
 
 But by the time the meaning had moved through the room, it no longer mattered.
 :::
+
+> *Power shortens the distance between signal and consequence.*
 
 [^c9-french-raven-bases-social-power]: French, John R. P., and Bertram Raven. *The Bases of Social Power*. Ann Arbor: University of Michigan, 1959.
 [^c9-milgram-obedience-authority]: Milgram, Stanley. *Obedience to Authority*. New York: Harper & Row, 1974.

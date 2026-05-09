@@ -1,12 +1,12 @@
 # **Introduction — Why Communication Fails Before Anyone Is Wrong**
 
-Communication is how people form meaning together. But meaning often forms faster than understanding.
+Communication is how people form meaning together. Meaning often forms faster than understanding.
 
-Most people explain communication failure as disagreement. That is often too late. Failure usually starts earlier. People settle on what something meant before understanding catches up.
+Most people explain communication failure as disagreement. That explanation usually arrives too late. Failure starts earlier: people settle on what something meant before everyone has caught up.
 
-By the time people reply, a lot has already happened. They have already registered urgency, threat, status, and tone. They have already dropped detail to move faster. They have already made early guesses about intent and motive.
+By the time people reply, a lot has already happened: urgency, threat, status, tone registered; detail dropped to move faster; early guesses about intent and motive already in play.
 
-None of this requires bad faith. It is what people normally do under pressure. That is why communication fails between people who are sincere, attentive, and trying to do the right thing.
+None of this requires bad faith. Under pressure, it is what people normally do. That is why communication fails between people who are sincere, attentive, and trying to do the right thing.
 
 When a conversation goes badly, we usually start at the end. We ask who misspoke, who misunderstood, who overreacted, or who failed to listen.
 
@@ -16,14 +16,12 @@ Once meaning feels settled, it is hard to reopen. New information gets filtered 
 
 At that point, talk may continue, but shared understanding does not.
 
-This book is not a guide to saying the right things. It is not a method for winning arguments. It is not a script for sounding calm.
+This book is not advice for sounding calm or winning arguments. It is a lens for noticing how meaning forms between people—and how fast that process outpaces what people can verify together.
 
-It is about noticing how meaning forms between people, and how fast that process outruns understanding.
+Many failures stay sincere: people care, try, and still injure each other by settling on certainty too early.
 
-This book exists because many communication failures are sincere failures. People care. People try.
+Conversation does not get easier. What gets harder to miss is your part in how meaning moved.
 
-People still injure each other by settling on certainty too early.
+Harm includes quieter damage too—when meaning settles too fast to question, repair, or revise—not only overt injury or malice.
 
-What follows is a lens, not a method. It will not make conversation easy. It will make the process more visible—and make your part in it harder to deny.
-
-Harm here does not mean only overt injury, abuse, or malice. It also includes quieter damage that happens when meaning settles too fast to be questioned, repaired, or revised. Communication can be unsafe when it is hostile or incorrect. It can also be unsafe when there is little room left to respond. Understanding has not had time to form.
+Communication can be unsafe when it is hostile or incorrect. It can also be unsafe when there is little room left to respond—when understanding has not had time to form.

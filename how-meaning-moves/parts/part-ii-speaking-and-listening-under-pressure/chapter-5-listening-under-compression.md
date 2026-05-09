@@ -2,7 +2,35 @@
 
 Listening is not a mailbox. People are always deciding what counts while the words are still arriving.
 
-Pressure changes how listeners show up. As stakes rise, listeners move from openness toward self-protection. That turn speeds up deciding what something meant.
+Pressure bends listeners toward self-protection; when stakes rise, the read speeds up.
+
+### **The Listening Shift**
+
+::: {custom-style="Vignette Block"}
+She was still listening when the conclusion arrived.
+
+The words themselves were ordinary. Measured. Reasonable.
+
+What landed first was the tone. Flat. Controlled.
+
+*They’re annoyed. This is criticism.*
+
+She stayed quiet, nodding in the right places. The conversation kept moving, but her attention narrowed. She replayed earlier moments, scanning for signs she might have missed.
+
+By the time the explanation ended, she already knew what it meant.
+
+She asked a question, but it was careful. Defensive. It was not meant to understand. It was meant to confirm.
+
+Later, she mentioned feeling judged.
+
+He looked surprised. “I wasn’t,” he said.
+
+She believed him.
+
+What she couldn’t find was the moment when listening had quietly turned into conclusion.
+:::
+
+Nothing timestamps that slip—not a pause you can clock on a recording, only the afterward: the defensive edge on a question, his surprise when she said she felt judged.
 
 Listeners do not get “pure words” first and add meaning second. People build meaning on the fly, often before a sentence ends. The mind is under pressure to decide what matters and what can be dropped.[^c5-clark-using-language]
 
@@ -16,7 +44,7 @@ We hear a fragment and finish it. We fill holes with old experience. We read ton
 
 This is where **Gaps invite completion** and **Intent gets assigned** before anyone could really know.
 
-None of that requires malice. It is efficient.
+None of that requires malice. It is efficient—whether the exchange is a hallway, a kitchen table, or a thread.
 
 Compression lets people answer fast, watch for threat, and coordinate without waiting for full clarity. Without it, talk would stall.
 
@@ -107,32 +135,6 @@ Seeing this clearly does not make listening comfortable. It makes the deciding s
 Once that step is visible, responsibility shows up too—not because listeners are villains, but because meaning never walks in alone.
 
 > *For listeners, compression rarely feels like deciding. It feels like recognition.*
-
-### **The Listening Shift**
-
-::: {custom-style="Vignette Block"}
-She was still listening when the conclusion arrived.
-
-The words themselves were ordinary. Measured. Reasonable.
-
-What landed first was the tone. Flat. Controlled.
-
-*They’re annoyed. This is criticism.*
-
-She stayed quiet, nodding in the right places. The conversation kept moving, but her attention narrowed. She replayed earlier moments, scanning for signs she might have missed.
-
-By the time the explanation ended, she already knew what it meant.
-
-She asked a question, but it was careful. Defensive. It was not meant to understand. It was meant to confirm.
-
-Later, she mentioned feeling judged.
-
-He looked surprised. “I wasn’t,” he said.
-
-She believed him.
-
-What she couldn’t find was the moment when listening had quietly turned into conclusion.
-:::
 
 [^c5-clark-using-language]: Clark, Herbert H. *Using Language*. Cambridge: Cambridge University Press, 1996.
 [^c5-kahneman-thinking-fast-slow]: Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011.

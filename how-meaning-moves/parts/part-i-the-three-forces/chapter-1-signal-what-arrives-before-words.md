@@ -29,30 +29,30 @@ People often settle on what is happening while they still think they are listeni
 Words never carry the whole situation alone.
 
 ::: {custom-style="Pattern Block"}
-**Pattern: Words arrive incomplete**
+**Pattern: Meaning outruns the words**
 
 What people actually say never carries the whole situation; listeners fill in the rest.
 :::
 
 This is why the same sentence can produce very different reactions. The words stay the same. The signal changes.
 
-Signal is not noise. It shapes the conversation before anyone explains why.
-
 ## **Signal Is Always Present**
 
 There is no signal-free conversation.
 
-Even silence carries signal. Even careful wording carries signal. Even attempts at neutrality carry signal.
+Silence carries signal. Careful wording carries signal. Neutrality carries signal too—people still interpret why neutrality showed up here, now.
 
-The question is not whether signal exists. The question is whether people notice it or pretend it is not there.
+Most people assume words arrive first and interpretation follows.
 
-When someone speaks quickly, we hear urgency before content. When someone hesitates, we notice uncertainty before clarity. When someone with authority speaks, we brace before we sort the nuance.
+Usually the order is reversed.
 
-None of this requires intent. It happens automatically because people detect threat, safety, and relevance faster than they process language.[^c1-ledoux-emotional-brain]
+Someone speaks quickly and urgency lands before the sentence does. A hesitation registers as uncertainty before the listener can say why. Authority shifts the room before anyone has parsed the claim.
 
-This is not a flaw in communication. It is what communication depends on. People have to decide quickly whether something feels safe, dangerous, urgent, or worth attention. Words arrive after that first pass.
+None of this requires intent. The nervous system sorts threat, safety, and relevance faster than language fully processes.[^c1-ledoux-emotional-brain]
 
-In connected relationships, this effect is stronger. Shared history and stakes decide what jumps out first, before anyone can explain themselves.
+That sorting is not a flaw. It is what communication depends on. Words arrive after a first pass: safe or dangerous, urgent or ordinary, worth attention or not.
+
+In connected relationships, the effect is stronger. History and stakes decide what jumps out first, before anyone can explain themselves.
 
 ## **Why Signal Matters More Than We Think**
 
@@ -80,9 +80,9 @@ These statements may be true. They are also often beside the point.
 
 Signal is not about intent. It is about what the other person hears first.
 
-You can mean something gently and still signal urgency. You can intend curiosity and still signal threat. You can aim for clarity and still signal judgment.
+Gentle intent can still carry urgency. Curiosity can still read as threat. Clarity can still read as judgment.
 
-This does not make you dishonest. It makes you human, and it makes communication harder than wording alone.
+That does not make you dishonest. It makes you human—and communication harder than wording alone.
 
 ## **Speakers and Listeners Experience Signal Differently**
 
@@ -96,7 +96,7 @@ Speakers often feel signal as pressure:
 
 - pressure to land a point before it’s lost
 
-Under pressure, speakers shorten. They simplify. They reach for clear wording fast because clear wording feels like relief.[^c1-kahneman-thinking-fast-slow]
+When the room wants speed, speakers shorten. They simplify. They reach for clear wording fast because clear wording feels like relief.
 
 Listeners run a quick check:
 
@@ -130,7 +130,7 @@ But how signal is handled, acknowledged, ignored, or overridden carries moral we
 
 When a workplace, a school, or a court pretends signal does not matter, harm stays easy to miss. When someone plays tone and timing for advantage, nobody checks the power behind it. When a conversation pretends only the words count, people keep talking past each other until that feels normal.
 
-Signal tells us what is already in the room before we argue about what it meant. Ignoring it does not make communication cleaner. It only makes us worse at seeing what is happening.
+Signal names what is already in the room. Ignore it and you stop seeing the room.
 
 ## **The Temptation to Bypass Signal**
 
@@ -152,27 +152,15 @@ But they misread the problem.
 
 Signal does not disappear when ignored. It goes underground, where it keeps shaping what people hear without being named.
 
-This is why conversations that are technically correct still cause damage, and why being right rarely feels like being heard.
-
-## **What Signal Makes Unavoidable**
+## **Signal Drags the Whole Room In**
 
 Signal keeps communication from being only information.
 
-It forces us to deal with:
+It forces us to deal with power, vulnerability, timing, emotional cost—none of which fits neatly into “just the facts.”
 
-- power
+Then comes the next problem in this book: after signal lands, people reach for a stable story so they can act. That move is necessary.[^c1-heuristics-pressure-and-judgment-under-uncertainty]
 
-- vulnerability
-
-- timing
-
-- emotional cost
-
-It also leads to the next problem in this book: people settle quickly on what they think happened.
-
-After signal lands, people reach for a stable story so they can act. That move is necessary.[^c1-tversky-kahneman-judgment-uncertainty]
-
-It is also where they often decide what happened before they have really listened.
+Same move: deciding what happened before listening finishes.
 
 > *By the time words land, signal has already shaped what they can mean.*
 
@@ -199,12 +187,11 @@ Later that afternoon, someone said she didn’t seem confident.
 
 She was not. She had meant to show care.
 
-By the time anyone noticed the difference, the story had already stuck.
+The story had already stuck—before anyone steadied the difference in plain language.
 :::
 
 [^c1-barrett-how-emotions-are-made]: Barrett, Lisa Feldman. *How Emotions Are Made: The Secret Life of the Brain*. Boston: Houghton Mifflin Harcourt, 2017.
 [^c1-ledoux-emotional-brain]: LeDoux, Joseph. *The Emotional Brain*. New York: Simon & Schuster, 1996.
 [^c1-goffman-interaction-ritual]: Goffman, Erving. *Interaction Ritual*. New York: Pantheon Books, 1967.
-[^c1-kahneman-thinking-fast-slow]: Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011.
+[^c1-heuristics-pressure-and-judgment-under-uncertainty]: On fast, heuristic processing under pressure and on stabilizing judgment under uncertainty, see Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011; Tversky, Amos, and Daniel Kahneman. "Judgment under Uncertainty." *Science* (1974).
 [^c1-ross-intuitive-psychologist]: Ross, Lee. "The Intuitive Psychologist and His Shortcomings." *Advances in Experimental Social Psychology* (1977).
-[^c1-tversky-kahneman-judgment-uncertainty]: Tversky, Amos, and Daniel Kahneman. "Judgment under Uncertainty." *Science* (1974).

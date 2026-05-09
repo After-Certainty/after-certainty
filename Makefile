@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-all-docx clean-import-md spellcheck
+.PHONY: help check-pandoc docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -19,6 +19,7 @@ help:
 	@echo "  make export-all-docx"
 	@echo "  make clean-import-md"
 	@echo "  make spellcheck [SPELLCHECK_DIR=when-others-look-to-you/v1] [CODESPELL=codespell]"
+	@echo "  make typography-check-how-meaning-moves"
 	@echo ""
 	@echo "Notes:"
 	@echo "  - If OUT is omitted, output is created next to IN."
@@ -167,3 +168,6 @@ spellcheck:
 	}
 	@test -f "$(SPELLCHECK_DIR)/.codespellrc" || { echo "Error: $(SPELLCHECK_DIR)/.codespellrc not found."; exit 1; }
 	@$(CODESPELL) --config "$(SPELLCHECK_DIR)/.codespellrc" "$(SPELLCHECK_DIR)"
+
+typography-check-how-meaning-moves:
+	@python3 tools/how_meaning_moves_typography_check.py

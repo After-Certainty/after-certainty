@@ -25,20 +25,20 @@ Later, the outcome was mixed. Some things worked. Others did not.
 
 No one could claim certainty.
 
-What remained was the sense that the decision had been owned, not because it was right, but because the meaning had not been closed too early.
+Still hanging there was the sense that the decision had been owned, not because it was right, but because the meaning had not been closed too early.
 :::
 
-Restraint does not promise understanding. It does not prevent harm. It does not end conflict. What it can do is slow meaning enough that responsibility stays in the room.
+Restraint does not promise understanding, prevent harm, or end conflict. It can slow interpretation enough that responsibility stays in the room—you feel it in who speaks next, who checks the time, who names the risk aloud.
 
-That slower pace leaves more room for correction, consent, and repair, even when nobody reaches full certainty.[^c13-arendt-responsibility-judgment] Those are all ways **connection** stays open a little longer.
+That slower pace leaves more room for correction, consent, and repair, even when nobody reaches full certainty.[^c13-arendt-responsibility-judgment] Those are ways **connection** stays open a little longer.
 
-People often misread restraint because they want it to guarantee smooth conversations, prevent misunderstandings, and protect relationships from injury. It cannot reliably do any of that.
+People often misread restraint: they want guarantees—smooth talk, fewer misunderstandings, protection from injury. Restraint cannot reliably supply those.
 
-What continues between people can still fray. Restraint mainly lowers the odds that harm arrives dressed as obviousness. It is not a guarantee of better outcomes. It is a guardrail for accountability.
+Whatever holds between two people can still fray. Restraint mainly lowers the odds that harm arrives dressed as obviousness. Better outcomes are not assured; accountability has a clearer guardrail.
 
-Restraint does not mean freezing. People still decide, act, and respond. It asks them to notice when interpretation is racing ahead of contact, and to stop sealing meaning faster than the situation can carry.
+Restraint is not freezing. People still decide, act, respond. It asks them to notice when interpretation outruns contact, and to stop sealing meaning faster than the situation can carry.
 
-The slowdown is partial and uneven. Moves still get made. Calls still get called. But meaning can stay revisable instead of locked. That gap is where **Meaning gets clarified** without forcing fake closure.
+The slowdown is partial and uneven. Moves still get made. Calls still get called. But meaning can stay revisable instead of locked. That gap is where **Contact keeps the read open** without forcing fake closure.
 
 Responsibility cannot live inside total certainty. Once meaning hardens into a final story, responsibility thins into justification. Action starts to feel like fate. Outcomes start to feel like they could not have gone another way.
 
@@ -58,11 +58,13 @@ Repair is **connection** work: updating what two people can say to each other wi
 
 Restraint’s limits deserve plain language. It cannot ensure understanding. It cannot stop misinterpretation. It cannot guarantee fairness. It cannot make communication safe. Some harm will still land. Some crossed wires will hold. Some fights will stay open. Restraint does not promise a clean ending. It promises that responsibility can keep working.
 
-Restraint is expensive because it keeps people exposed. It asks for tolerance of ambiguity, delay of relief, and presence in moments when certainty would feel better. It often goes unseen and unrewarded.
+Restraint costs exposure: ambiguity tolerated, relief delayed, certainty refused when it would feel best. Often nobody applauds.
 
 Without it, talk collapses into speed, rank, and “I am right,” and responsibility hides behind “it could not be helped.” **Connection** turns transactional: people coordinate words and tasks while backing away from risking more. Restraint is what keeps exchange from turning purely mechanical.
 
-Human talk is fragile because it runs on partial understanding. People move before they are sure. They read under pressure. They hurt without meaning to. Those are not bugs to delete. They are conditions to live inside. Restraint does not solve communication. It keeps it human.
+Human talk is fragile because it runs on partial understanding. People move before they are sure. They read under pressure. They hurt without meaning to. Those are not bugs to delete. They are conditions to live inside.
+
+Restraint does not solve communication. It keeps it human.
 
 [^c13-arendt-responsibility-judgment]: Arendt, Hannah. *Responsibility and Judgment*. New York: Schocken Books, 2003.
 [^c13-arendt-life-of-mind]: Arendt, Hannah. *The Life of the Mind*. New York: Harcourt Brace Jovanovich, 1978.

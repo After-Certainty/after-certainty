@@ -1,6 +1,6 @@
 # **How Meaning Moves**
 
-## **Signal, Compression, Restraint, and How Meaning Moves**
+## **Signal, Compression, Restraint, and the Pace of Understanding**
 
 ### **Contents**
 

@@ -4,15 +4,13 @@ Conflict turns signal up and narrows how much room people leave for doubt. Every
 
 Under conflict, meaning moves faster than calm talk allows. Words land hot. Tone reads as proof. Old history floods in before anyone has time to look at what just happened.[^c7-lazarus-emotion-adaptation]
 
-**Meaning shifts under pressure**. Speed starts narrowing what people can still question.
+**Speed buys closure before doubt gets air.** The read shifts before either side notices the gap.
 
 Conflict does not invent new forces. It turns up the ones already there.
 
 ## **Why Conflict Feels Immediate**
 
-Conflict reads as danger. When people sense threat to identity, values, standing, or belonging, the mind favors speed over subtlety. People settle on meaning faster because waiting feels unsafe. Open questions feel irresponsible.
-
-That is why conflict can feel sudden even when nothing new happened. The emotional weather changed. Meaning started moving faster.
+Conflict reads as danger. When people sense threat to identity, values, standing, or belonging, the mind favors speed over subtlety—waiting feels unsafe; open questions feel irresponsible. Nothing new may have happened; the emotional weather still changed, and meaning moved faster.
 
 ## **How Disagreement Becomes Personal**
 
@@ -20,13 +18,13 @@ In conflict, disagreement compresses into verdict. A gap in view becomes a gap i
 
 Hostility is optional. High emotion plus tight time does the work.
 
-Once disagreement feels personal, the surface topic stops driving the room. What matters is what the fight seems to say about who each person is.[^c7-ross-ward-naive-realism]
+Once disagreement feels personal, the surface topic stops driving the room. What matters is what the fight seems to say about who each person is.
 
 ## **Restraint Looks Like Weakness in Conflict**
 
 Conflict punishes slowing down. Stopping feels like losing ground. Hesitation reads as doubt. Quiet reads as retreat.
 
-People rush answers so they will not be misread or overrun. Restraint costs inwardly and outwardly. That is why restraint is most needed in conflict—and least likely to survive it.[^c7-edmondson-fearless-organization]
+People rush answers so they will not be misread or overrun. Restraint costs inwardly and outwardly, yet conflict is where it is most needed—and least likely to survive it.[^c7-edmondson-fearless-organization]
 
 ## **Compression Turns People Into Caricatures**
 
@@ -34,7 +32,7 @@ Without restraint, each side shrinks the other into a simple figure. Mixed motiv
 
 The other person gets easier to oppose and harder to see clearly.
 
-Once caricature sticks, talk shifts from contact to combat. People answer what the other person stands for, not what they actually said.[^c7-tajfel-turner-social-identity]
+Once caricature sticks, talk shifts from contact to combat. People answer what the other person stands for, not what they actually said.[^c7-identity-and-caricature]
 
 ## **Facts Do Not Slow Conflict Down**
 
@@ -42,9 +40,9 @@ A common move is to pile on facts. It usually helps less than people hope.
 
 Facts need time and trust to land. Conflict burns both.
 
-Under compression, facts travel through stories already chosen. People hear support for what they already believe.[^c7-kahan-motivated-reasoning] Accuracy often survives; the pieces still do not fit together.
+Compression routes facts through stories already chosen. People hear support for what they already believe.[^c7-kahan-motivated-reasoning] Accuracy often survives; the pieces still do not fit together.
 
-That is why fights can continue even when everyone shares correct information in good faith.
+So fights can continue even when everyone shares correct information in good faith.
 
 ## **Why Escalation Feels Justified**
 
@@ -62,21 +60,25 @@ One side outruns what the other can hold. Meaning races ahead of contact. Curios
 
 Then communication fails even when goals and values overlap.[^c7-deutsch-resolution-conflict]
 
-## **What Conflict Does to Connection**
+## **Connection Under Fire**
 
 Conflict stains **connection** faster than it settles the issue on the table.
 
-Once disagreement turns personal, each side updates not only their story about the topic but their sketch of the other: colder, less generous, more predictable in the worst way. **Contact**—what was actually said—often stays disputed; **connection**—who you take each other to be afterward—can shift in one afternoon. People leave with vigilance where curiosity lived. Repair asks for slower contact than either person feels fair offering while still feeling wronged.
+The shift reaches deeper than the topic. Each side updates their sketch of the other: colder, less generous, easier to predict in the worst way.
 
-That is why apologies can miss the mark: they address words while connection has already moved.
+**Contact**—what was actually said—often stays disputed. **Connection**—who you take each other to be afterward—can shift in one afternoon. Vigilance replaces curiosity. Repair needs slower contact than either person feels fair offering while still feeling wronged.
 
-## **What Conflict Reveals**
+Apologies often arrive after connection has already moved.
+
+## **Who You Are Before What To Do**
 
 Conflict shows how brittle understanding is under strain. Meaning snaps to certainty. People turn into symbols. Disagreement starts to feel like identity threat.
 
+The room starts answering *who you are* before it answers *what to do*.
+
 Seeing this clearly does not end the fight. It explains why fights often refuse tidy endings.
 
-> *Most clashes are tempos colliding; what lingers is often an updated story of each other—not only the issue on the table.*
+Tidy endings fail when the tempo changes before the topic does.
 
 ### **The Pace Shift**
 
@@ -101,9 +103,10 @@ By the end, nothing had been resolved. Both left convinced the other had missed 
 The conflict had not failed because they disagreed. It failed because the pace made disagreement feel personal.
 :::
 
+> *Most clashes are tempos colliding; what lingers is often an updated story of each other—not only the issue on the table.*
+
 [^c7-lazarus-emotion-adaptation]: Lazarus, Richard S. *Emotion and Adaptation*. New York: Oxford University Press, 1991.
-[^c7-ross-ward-naive-realism]: Ross, Lee, and Andrew Ward. "Naive Realism in Everyday Life." *Psychological Review* (1996).
 [^c7-edmondson-fearless-organization]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.
-[^c7-tajfel-turner-social-identity]: Tajfel, Henri, and John C. Turner. "The Social Identity Theory of Intergroup Behavior." In *Psychology of Intergroup Relations*, 1979.
+[^c7-identity-and-caricature]: On how fights slide from topic to identity and how each side answers a simplified version of the other, see Ross, Lee, and Andrew Ward. "Naive Realism in Everyday Life." *Psychological Review* (1996); Tajfel, Henri, and John C. Turner. "The Social Identity Theory of Intergroup Behavior." In *Psychology of Intergroup Relations*, 1979.
 [^c7-kahan-motivated-reasoning]: Kahan, Dan M. "Motivated Reasoning." *Behavioral and Brain Sciences* (2017).
 [^c7-deutsch-resolution-conflict]: Deutsch, Morton. *The Resolution of Conflict*. New Haven, CT: Yale University Press, 1973.
