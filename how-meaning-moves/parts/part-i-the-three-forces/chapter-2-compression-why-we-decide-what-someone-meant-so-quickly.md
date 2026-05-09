@@ -2,35 +2,37 @@
 
 Compression is how the mind keeps up with the world.
 
-Connection shapes where compression lands. The more history, dependence, or risk two people share, the faster incomplete signal hardens into a confident story.
+Connection shapes where compression lands. The more history, dependence, or risk two people share, the faster people settle on what they think the other person meant.
 
 There is too much information arriving too quickly for us to hold it all open. So we simplify. We decide what matters now and drop the rest.
 
 Without compression, interaction would stall. We would not know how to respond, what to prioritize, or when to act. Communication would feel paralyzing instead of fluid.[^c2-gigerenzer-gut-feelings]
 
-Compression is not a flaw. It is a survival mechanism.
+Compression is not a flaw. It is how people keep interaction moving.
 
 ## **Compression Happens Before We Notice It**
 
-We like to believe we listen first and interpret later. In practice, interpretation often arrives almost immediately.
+We like to believe we listen first and decide later. In practice, the decision often arrives almost immediately.
 
-We hear a sentence and infer intent. We notice emotion and assign motive. We connect what was said to what we already believe about the person saying it.
+We hear a sentence and decide what tone it carried. We notice emotion and decide what it says about motive. We connect what was said to what we already believe about the person saying it.
 
 In pattern terms, **Gaps invite completion** and **Intent gets assigned** before certainty is possible.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Gaps invite completion**
+
 When meaning is incomplete, people rapidly fill in what is missing so action can continue.
 :::
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Intent gets assigned**
-Listeners infer motive quickly from impact and signal, often before enough context is available.
+
+Listeners infer motive quickly from impact and signal, often before they know enough about what happened.
 :::
 
-This process happens fast, often fast enough to feel like understanding.
+This process happens fast, often quickly enough to feel like understanding.
 
-Psychologically, this speed is an advantage. It allows us to navigate social life without stopping to analyze every interaction in detail. But that same speed makes it hard to notice when we have moved from hearing to concluding.
+This speed helps daily life move. We can answer the text, continue the meeting, or handle the disagreement without stopping to examine every cue. But that same speed makes it hard to notice when we have moved from hearing to concluding.
 
 By the time we think we are listening, compression has already done most of the work.
 
@@ -38,7 +40,7 @@ By the time we think we are listening, compression has already done most of the 
 
 Compression feels satisfying because it produces closure.
 
-Uncertainty is uncomfortable. Open meaning demands attention, patience, and emotional tolerance. Compression resolves that tension quickly by turning ambiguity into story.
+Uncertainty is uncomfortable. Leaving meaning open takes attention, patience, and emotional steadiness. Compression relieves that tension quickly by giving us a clean read on what we think is happening.
 
 We do not just hear words. We decide what they mean.
 
@@ -50,11 +52,11 @@ The problem is not that we compress. The problem is that compression masquerades
 
 Compression does not operate on words alone.
 
-It absorbs signal (tone, urgency, emotion, power) and converts it into narrative. Fear becomes threat. Confidence becomes arrogance. Hesitation becomes evasion.
+It takes in tone, urgency, emotion, and power, then turns them into a conclusion. Fear becomes threat. Confidence becomes arrogance. Hesitation becomes evasion.
 
-Once signal is compressed into story, interpretation hardens quickly. The listener is no longer engaging with what is being said. They are engaging with what they believe is happening.
+Once that conclusion forms, it hardens quickly. The listener is no longer engaging with what is being said. They are engaging with what they believe is happening.
 
-At that point, additional information rarely helps. New words get filtered through the story compression already produced.
+At that point, additional information rarely helps. New words get filtered through what the listener has already decided.
 
 This is how conversations can continue while understanding quietly disappears.
 
@@ -62,23 +64,27 @@ This is how conversations can continue while understanding quietly disappears.
 
 One of the strongest forms of compression is attribution.
 
-When we attribute behavior to character rather than context, we simplify complexity into identity. Instead of asking why something happened, we decide who someone is.[^c2-ross-nisbett-person-situation]
+When we attribute behavior to character rather than circumstance, we simplify complexity into identity. Instead of asking why something happened, we decide who someone is.[^c2-ross-nisbett-person-situation]
 
-This kind of compression is efficient and dangerous.
+This works quickly, but it distorts easily.
 
-It stabilizes meaning quickly, but at the cost of accuracy and openness. Once attribution takes hold, correction feels unnecessary. The story already explains everything.
+It gives people an answer quickly, but makes it harder to stay open. Once attribution takes hold, correction feels unnecessary. The story already explains everything.
 
 ## **Compression Accelerates Under Pressure**
 
 Compression speeds up when stakes are high.
 
-Conflict, authority, time pressure, and emotional arousal all increase the demand for fast interpretation. Under these conditions, ambiguity feels risky and delay feels unsafe.[^c2-easterbrook-cue-utilization]
+Conflict, authority, time pressure, and emotional arousal all increase the demand for fast conclusions. In those moments, waiting feels risky and delay feels unsafe.[^c2-easterbrook-cue-utilization]
 
-So compression intensifies.
+So people settle on meaning faster.
 
-**Meaning shifts under pressure.**
+:::: {custom-style="Pattern Block"}
+**Pattern: Meaning shifts under pressure**
 
-People become more certain. Stories become cleaner. Nuance disappears. The mind trades fidelity for speed because speed feels protective.
+As stakes rise, people decide faster and the path from cue to conclusion gets shorter.
+::::
+
+People become more certain. Stories become cleaner. Nuance disappears. A manager reads a pause as resistance. A partner reads a delayed reply as withdrawal. A short “ok” in a text reads as contempt. Speed feels protective, so detail gets dropped.
 
 This is why moments that matter most are often the moments where understanding is most fragile.
 
@@ -86,7 +92,7 @@ This is why moments that matter most are often the moments where understanding i
 
 Compression becomes harmful when it outruns contact.
 
-Contact requires staying close to what was actually said and to what remains unclear. Compression breaks contact by replacing lived interaction with internal narrative.
+Contact requires staying close to what was actually said and to what remains unclear. Compression breaks contact by replacing live interaction with a private conclusion.
 
 When this happens:
 
@@ -96,7 +102,7 @@ When this happens:
 
 - responses arrive before understanding has stabilized
 
-Meaning collapses into story, and story hardens into certainty.[^c2-weick-sensemaking]
+The story stops feeling like a guess and starts feeling true.[^c2-weick-sensemaking]
 
 At that point, disagreement feels personal, and correction feels like attack.
 
@@ -106,7 +112,7 @@ It is important to be precise here.
 
 Compression is not inherently wrong. It is inherently efficient.
 
-Accuracy requires time, exposure, and restraint. Compression sacrifices those things so that interaction can continue.
+Accuracy requires time, repeated contact, and restraint. People trade depth for speed so the conversation can keep moving.
 
 Most of the time, this tradeoff works well enough. Sometimes, it produces serious harm.
 
@@ -118,17 +124,15 @@ When conversations break down, people often respond by adding more explanation.
 
 But explanation adds content, not contact.
 
-If compression has already hardened into story, new information is absorbed selectively. Facts are interpreted in ways that protect the existing narrative. Clarification becomes escalation.[^c2-kahan-motivated-reasoning]
+If compression has already hardened into a story, new information gets taken in selectively. Facts are interpreted in ways that protect what someone has already decided. Clarification becomes escalation.[^c2-kahan-motivated-reasoning]
 
 This is why being clearer does not always make communication safer, and why correctness alone rarely restores understanding.
 
 ## **What Compression Makes Unavoidable**
 
-Compression ensures that communication is always partial.
+No conversation stays fully open for very long.
 
-We never hear everything. We never hold all interpretations open. We are always deciding what something means before we can be sure.
-
-**Words arrive incomplete.**
+We never hear everything. We never hold every possible reading open. We are always deciding what something means before we can be sure.
 
 This is not a moral failure. It is a human constraint.
 
@@ -147,7 +151,7 @@ He read the message twice. It was short. Careful. Polite.
 
 He felt the shift immediately.
 
-The first read registered uncertainty. The second produced explanation. By the third, the explanation had become a conclusion.
+The first read registered uncertainty. The second produced a guess. By the third, the guess had become a conclusion.
 
 *They don’t trust the work. They’re backing away. This is about something else.*
 

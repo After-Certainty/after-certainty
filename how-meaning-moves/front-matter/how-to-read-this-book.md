@@ -24,7 +24,7 @@ It is easy to use this book to explain other people.
 
 That is a very human move, and it is also the quickest way to miss the point.
 
-This lens matters most when you turn it on yourself: when you notice how fast your own interpretations lock in, how certainty feels calming, or how restraint becomes expensive under pressure.
+This lens matters most when you turn it on yourself: when you notice how fast your own read locks in, how certainty feels calming, or how restraint becomes expensive under pressure.
 
 Those moments are not mistakes in reading. They are where the work begins.
 
@@ -34,7 +34,7 @@ This book does not sort people into “good” and “bad” communicators.
 
 Signal, compression, and restraint are not virtues or sins. They are forces. Everyone is shaped by them, including careful and well-meaning people.
 
-The aim is not blame. It is to make responsibility harder to avoid once these forces are visible.
+The aim is not blame. It is to make responsibility harder to deny once these forces are visible.
 
 ## **Let the Book Remain Unfinished**
 

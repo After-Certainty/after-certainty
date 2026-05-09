@@ -1,21 +1,16 @@
 # **Chapter 7 — Conflict**
 
-Conflict turns signal up and squeezes interpretation. Everything feels urgent. Everything feels personal.
+Conflict turns signal up and narrows how much room people leave for doubt. Everything feels urgent. Everything feels personal.
 
 Under conflict, meaning moves faster than calm talk allows. Words land hot. Tone reads as proof. Old history floods in before anyone has time to look at what just happened.[^c7-lazarus-emotion-adaptation]
 
-In pattern language, **Meaning shifts under pressure**. Speed starts picking what counts as true.
-
-::: {custom-style="Pattern Block"}
-**Pattern: Meaning shifts under pressure**
-As stakes rise, interpretation speeds up and the path from cue to conclusion gets shorter.
-:::
+**Meaning shifts under pressure**. Speed starts narrowing what people can still question.
 
 Conflict does not invent new forces. It turns up the ones already there.
 
 ## **Why Conflict Feels Immediate**
 
-Conflict reads as danger. When people sense threat to identity, values, standing, or belonging, the mind favors speed over subtlety. Compression rises because waiting feels unsafe. Open questions feel irresponsible.
+Conflict reads as danger. When people sense threat to identity, values, standing, or belonging, the mind favors speed over subtlety. People settle on meaning faster because waiting feels unsafe. Open questions feel irresponsible.
 
 That is why conflict can feel sudden even when nothing new happened. The emotional weather changed. Meaning started moving faster.
 
@@ -47,7 +42,7 @@ A common move is to pile on facts. It usually helps less than people hope.
 
 Facts need time and trust to land. Conflict burns both.
 
-Under compression, facts travel through stories already chosen. People hear support for what they already believe.[^c7-kahan-motivated-reasoning] Accuracy often survives; integration fails.
+Under compression, facts travel through stories already chosen. People hear support for what they already believe.[^c7-kahan-motivated-reasoning] Accuracy often survives; the pieces still do not fit together.
 
 That is why fights can continue even when everyone shares correct information in good faith.
 
@@ -57,13 +52,13 @@ In conflict, turning up the volume often feels fair. Each side feels it is fixin
 
 Inside the spiral, escalation feels defensive. From outside, it can look like two people feeding the same machine.
 
-Justification is stabilizing: it lets speed rise without feeling reckless.
+Justification helps escalation feel reasonable: it lets speed rise without feeling reckless.
 
 ## **Conflict as a Failure of Pace, Not Values**
 
 Most clashes are not really about two moral worlds colliding. They are about two tempos colliding.
 
-One side outruns what the other can hold. Interpretation races ahead of contact. Curiosity shrinks. Restraint loses to the push to answer back.
+One side outruns what the other can hold. Meaning races ahead of contact. Curiosity shrinks. Restraint loses to the push to answer back.
 
 Then communication fails even when goals and values overlap.[^c7-deutsch-resolution-conflict]
 
@@ -77,9 +72,9 @@ That is why apologies can miss the mark: they address words while connection has
 
 ## **What Conflict Reveals**
 
-Conflict shows how brittle understanding is under strain. Meaning snaps to certainty. People turn into symbols. Disagreement becomes identity threat.
+Conflict shows how brittle understanding is under strain. Meaning snaps to certainty. People turn into symbols. Disagreement starts to feel like identity threat.
 
-Knowing this does not end the fight. It explains why fights often refuse tidy endings.
+Seeing this clearly does not end the fight. It explains why fights often refuse tidy endings.
 
 > *Most clashes are tempos colliding; what lingers is often an updated story of each other—not only the issue on the table.*
 

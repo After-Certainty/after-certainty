@@ -8,7 +8,7 @@ The only thing that really changes is whether you keep pretending you do not see
 
 When you stop pretending, breakdowns look less like bad luck. A fight that came “out of nowhere” starts to look like something that was building the whole time: meaning settling early, bodies tightening, people answering a story that has not been checked yet.
 
-Certainty stops looking like a prize and starts looking like a shortcut—something you grabbed because waiting felt unsafe.
+Certainty stops looking like a prize and starts looking like a shortcut: something you grabbed because waiting felt unsafe.
 
 That does not make talk easier. It makes it harder to hide behind innocence.
 
@@ -18,11 +18,11 @@ That move is compression wearing a clever disguise. You trade one finished story
 
 Holding the lens is simpler than that, and harder.
 
-It is noticing that you already moved from hearing to verdict. It is noticing when “obvious” arrived before anyone earned it. It is staying in the unfinished part—what you do not yet know about what happened—even when finishing the story would feel better.
+It is noticing that you already moved from hearing to verdict. It is noticing when “obvious” arrived before anyone earned it. It is staying in the unfinished part: what you do not yet know about what happened, even when finishing the story would feel better.
 
 No one masters this. There is no stable posture that removes risk. People who coordinate work, love, repair, and power will sometimes hurt each other without malice, simply because meaning moves faster than contact.
 
-**Connection** is what continues after the talk: the history, care, and consequence you still live in. The forces in this book are not only about a moment in a room. They are about what gets carried into the next one—how much room is left to revisit what happened, and how much has already hardened into “what we know about each other.” Where connection is strong, the same misread can cost more, because the relationship is doing more work.
+**Connection** is what continues after the talk: the history, care, and consequence you still live in. The forces in this book are not only about one moment in one room. They are about what gets carried into the next one: how much room is left to revisit what happened, and how much has already hardened into “what we know about each other.” Where connection is strong, the same misread can cost more, because the relationship is doing more work.
 
 The useful claim is smaller.
 

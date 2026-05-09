@@ -10,7 +10,7 @@ Most communication advice focuses on skill: say it clearly, listen better, persu
 
 This book looks earlier.
 
-It focuses on what is already moving before words fully land: signal, compression, and restraint. Signal shapes what gets noticed. Compression turns ambiguity into certainty. Restraint can slow that process, often at personal cost.
+It focuses on what is already moving before words fully land: signal, compression, and restraint. Signal shapes what gets noticed first. Compression settles meaning fast enough to act. Restraint can slow that settling, often at personal cost.
 
 This book does not give scripts for what to say next.
 
@@ -18,11 +18,11 @@ It does not promise resolution, harmony, or mutual understanding. Those outcomes
 
 What it offers is a lens.
 
-The lens helps you see what is already active in communication, especially when stakes are high and outcomes hurt.
+The lens helps you see what is already active in communication, especially when stakes are high and consequences linger.
 
 That lens can be uncomfortable.
 
-Once you see how fast meaning forms, how quickly certainty replaces contact, and how costly restraint can be, familiar explanations start to break down. Some failures stop feeling accidental. Some harms become harder to excuse, including your own.
+Once you see how fast meaning forms, how quickly certainty replaces contact, and how costly restraint can be, familiar explanations start to break down. Some failures stop feeling accidental. Some harms become harder to excuse—including your own.
 
 This is not meant to be a tool for judging other people.
 

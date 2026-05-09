@@ -2,33 +2,35 @@
 
 Restraint is what slows compression down.
 
-It interrupts the rush to decide what something means. It keeps interpretation from hardening too quickly into certainty.
+It interrupts the rush to decide what something means. It keeps a first read from hardening too quickly into certainty.
 
-Connection is why restraint matters so much in this chapter. Where relationships carry real consequence, holding uncertainty open is both more necessary and more costly.
+Connection is why restraint matters so much in this chapter. Where relationships carry real consequence, leaving meaning open is both more necessary and more costly.
 
-Without restraint, **Meaning gets distorted**. With restraint, meaning can be revisited and **Meaning gets clarified** without pretending uncertainty has disappeared.
-
-::: {custom-style="Pattern Block"}
-**Pattern: Meaning gets distorted**
-Interpretation hardens after contact drops, so certainty stays active even when it no longer tracks reality.
-:::
+Without restraint, **Meaning gets distorted**. With restraint, people can revisit what happened and **Meaning gets clarified** without pretending uncertainty has disappeared.
 
 ::: {custom-style="Pattern Block"}
 **Pattern: Meaning gets clarified**
-Additional context and lower reactivity improve interpretive fit without erasing ambiguity.
+
+More context and lower reactivity help people read each other better without erasing ambiguity.
 :::
 
-Without restraint, communication moves fast. With restraint, communication stays open.
+::: {custom-style="Pattern Block"}
+**Pattern: Meaning gets distorted**
+
+A first reading hardens after contact drops, so certainty stays active even when it no longer matches what is happening.
+:::
+
+Without restraint, people settle on meaning quickly. With restraint, they leave more room for revision.
 
 That openness is why restraint is rare.
 
 ## **Restraint Does Not Eliminate Compression**
 
-Restraint does not stop interpretation. It delays closure.
+Restraint does not stop people from forming a read. It delays closure.
 
-Human beings cannot avoid compressing meaning. We are always moving toward conclusions, stories, and explanations. Restraint creates space between signal and certainty, long enough for contact to remain possible.[^c3-arendt-life-of-mind]
+People cannot avoid settling on what they think something means. They naturally move toward conclusions, even when certainty arrives too early. Restraint gives conversations more time before conclusions harden.[^c3-arendt-life-of-mind]
 
-This distinction matters.
+This distinction matters in ordinary moments.
 
 Restraint is not the absence of judgment. It is refusing to finalize judgment too soon.
 
@@ -48,11 +50,11 @@ It looks like:
 
 Restraint does not announce itself. It shows up as what does not happen.
 
-This is why restraint is often misread as disengagement, weakness, or uncertainty, especially in cultures that reward decisiveness and speed.
+This is why restraint is often misread as disengagement, weakness, or uncertainty, especially where decisiveness and speed get rewarded.
 
 ## **At Human Scale, Restraint Is Expensive**
 
-Restraint costs more than most people realize.
+Restraint often feels terrible in the moment.
 
 It costs:
 
@@ -64,19 +66,19 @@ It costs:
 
 - social ease
 
-When you restrain interpretation, you stay inside ambiguity longer than feels safe. You tolerate not knowing what someone really meant. You resist the relief certainty gives.
+You stay quiet when correction feels justified. You leave tension unresolved. You tolerate not knowing what someone really meant. You resist the relief certainty gives.
 
-Psychologically, this is difficult. The human mind is motivated to reduce uncertainty and restore coherence as quickly as possible.[^c3-kruglanski-need-closure] Restraint runs directly against that impulse.
+This is difficult. People are pulled to reduce uncertainty and restore a stable story as quickly as possible.[^c3-kruglanski-need-closure] Restraint runs directly against that impulse.
 
-That discomfort is not failure. It is the signal that restraint is actually occurring.
+That discomfort is not failure. It is often the clearest sign that restraint is actually occurring.
 
 ## **Restraint Feels Risky Because It Is**
 
-Restraint exposes you.
+Restraint leaves you without the protection certainty usually provides.
 
-Without quick compression, you cannot easily defend yourself, justify a response, or stabilize your position. You stay open to being surprised, corrected, or affected by what emerges next.
+Without quick compression, you cannot easily defend yourself, justify a response, or lock in your position. You stay open to being surprised, corrected, or affected by what emerges next.
 
-This vulnerability is real. In relationships, restraint risks misunderstanding. In conflict, it risks concession. In leadership, it risks loss of authority.
+This vulnerability is real. In relationships, restraint can look like giving less than you feel. In conflict, it can look like losing ground. In leadership, it can look like uncertainty.
 
 The closer the connection, the higher this cost tends to feel.
 
@@ -84,7 +86,7 @@ Which is why restraint is often abandoned precisely when it matters most.[^c3-ed
 
 ## **Why Restraint Collapses Under Pressure**
 
-Pressure accelerates compression.
+Pressure speeds compression.
 
 When stakes are high, uncertainty feels dangerous. Delay feels irresponsible. Restraint starts to look like avoidance rather than care.
 
@@ -98,17 +100,17 @@ Under these conditions, people rush to:
 
 - control
 
-Not because they are careless, but because certainty promises safety.
+Not because they are careless, but because certainty feels safer.
 
-Unfortunately, certainty achieved too quickly often produces the very harm restraint would have prevented.
+Unfortunately, certainty reached too quickly often produces the very harm restraint would have prevented.
 
 ## **Restraint and Moral Responsibility**
 
-Restraint carries moral weight not because it guarantees better outcomes, but because it preserves responsibility.
+Restraint matters morally because it keeps people responsible for how they interpret each other.
 
-When restraint is present, people remain accountable for how meaning is constructed. Interpretation is treated as an act, not a fact.
+When restraint is present, people remain accountable for how meaning gets formed between them. A reading is treated as an act, not a fact.
 
-When restraint collapses, meaning appears inevitable. Stories harden. Harm becomes easier to justify because “that’s just how it was.”
+When restraint collapses, the story stops feeling chosen and starts feeling obvious. Stories harden. Harm becomes easier to justify because “that’s just how it was.”
 
 Restraint does not make people right. It keeps them answerable.[^c3-arendt-responsibility-judgment]
 
@@ -116,7 +118,7 @@ Restraint does not make people right. It keeps them answerable.[^c3-arendt-respo
 
 Silence is ambiguous. Restraint is intentional.
 
-Silence can be avoidance, withdrawal, or disengagement. Restraint is the conscious choice to delay interpretive closure even when action is possible.
+Silence can be avoidance, withdrawal, or disengagement. Restraint is the conscious choice to delay closure even when you could act immediately.
 
 This distinction matters because restraint can coexist with engagement. A person can ask questions, acknowledge emotion, or stay present without rushing to decide what something means.
 
@@ -148,17 +150,17 @@ Space for:
 
 - accountability without certainty
 
-Restraint keeps communication human by refusing to turn complexity into certainty too quickly.[^c3-weick-sutcliffe-obstfeld-high-reliability]
+Restraint leaves room for people to remain more complicated than the first explanation allows.[^c3-weick-sutcliffe-obstfeld-high-reliability]
 
 ## **Why Restraint Must Remain Unfinished**
 
-Restraint cannot be proceduralized completely. It cannot be automated. It cannot be reduced to technique.
+No rule can fully automate restraint. It cannot be reduced to a checklist or a technique.
 
 It is always situational, always costly, always imperfect.
 
-Which is why restraint is not something you achieve once and keep. It is something that must be chosen repeatedly, often without recognition, and often without reward.
+Which is why restraint is not something you achieve once and keep. It is something people must choose repeatedly, often without recognition or reward.
 
-That is not a failure of communication. It is its moral limit.
+That is not a failure of communication. It is one of its limits.
 
 > *Restraint is not silence. It is unfinished interpretation.*
 
@@ -169,7 +171,7 @@ She noticed the misunderstanding almost immediately.
 
 It would have been easy to correct. The words were right there.
 
-She felt the familiar pull toward clarity — the relief that would come from explaining what she meant and why it made sense.
+She felt the familiar pull toward clarity, the relief that would come from explaining what she meant and why it made sense.
 
 Instead, she waited.
 
@@ -189,7 +191,7 @@ Later, someone asked why she hadn’t spoken up.
 
 That was not the whole truth.
 
-She had chosen to let the meaning remain unfinished, and to carry the discomfort herself.
+She had chosen to leave meaning unfinished, and to carry the discomfort herself.
 :::
 
 [^c3-arendt-life-of-mind]: Arendt, Hannah. *The Life of the Mind*. New York: Harcourt Brace Jovanovich, 1978.
