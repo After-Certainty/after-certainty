@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-List book directories (folders containing index.md) affected by a set of changed paths.
+List book directories (those with book.yml) affected by a set of changed paths.
 
-Used by GitHub Actions to scope builds to touched books; Makefile/tools/workflows
-changes rebuild everything.
+Used by GitHub Actions to scope builds to touched books; Makefile, tools, scripts,
+schema, templates, and workflow changes rebuild everything.
 
 Paths match the longest book prefix first. Changes under a shared parent that hosts
-multiple editions (for example when-others-look-to-you/v1 and .../v2) rebuild every
+multiple editions (for example books/when-others-look-to-you/v1 and .../v2) rebuild every
 edition under that parent when the path does not lie inside one edition alone.
 
 Emits JSON on stdout for matrix.include (default) or --dirs for plain lines.
@@ -26,21 +26,29 @@ if str(_TOOLS_DIR) not in sys.path:
     sys.path.insert(0, str(_TOOLS_DIR))
 
 from book_output_stem import stem_for_book_dir  # noqa: E402
+from book_specs import (  # noqa: E402
+    all_books_from_specs,
+    discover_book_spec_paths,
+    load_book_spec,
+    spec_formats,
+    spec_publish_enabled,
+)
 
 
 def find_book_dirs(repo: Path) -> list[Path]:
-    dirs: list[Path] = []
-    for p in repo.rglob("index.md"):
-        if ".git" in p.parts:
-            continue
-        dirs.append(p.parent.resolve())
-    return sorted(set(dirs))
+    return all_books_from_specs(repo)
 
 
 def triggers_full_rebuild(path: str) -> bool:
     if path == "Makefile":
         return True
-    prefixes = ("tools/", ".github/workflows/")
+    prefixes = (
+        "tools/",
+        "scripts/",
+        "schema/",
+        "templates/",
+        ".github/workflows/",
+    )
     return any(path.startswith(p) for p in prefixes)
 
 
@@ -61,7 +69,7 @@ def find_edition_roots(book_rels: list[str]) -> list[str]:
     """
     Parents that contain more than one book folder as a direct child.
 
-    Used when e.g. when-others-look-to-you/v1 and .../v2 are separate pipelines:
+    Used when e.g. books/when-others-look-to-you/v1 and .../v2 are separate pipelines:
     a change under the shared prefix (but not inside v1 or v2 alone) rebuilds both.
     """
     from collections import defaultdict
@@ -122,12 +130,27 @@ def affected_books(repo: Path, changed: list[str], all_books: list[Path]) -> lis
 
 
 def matrix_entries(repo: Path, books: list[Path]) -> list[dict[str, str]]:
+    spec_by_book_rel: dict[str, dict] = {}
+    for spec_path in discover_book_spec_paths(repo):
+        book_rel = spec_path.parent.relative_to(repo).as_posix()
+        spec_by_book_rel[book_rel] = load_book_spec(spec_path)
+
     entries = []
     for book in books:
         rel = book.relative_to(repo).as_posix()
         stem = stem_for_book_dir(rel, root=repo)
         slug = stem.replace("/", "-")
-        entries.append({"dir": rel, "stem": stem, "slug": slug})
+        formats = set(spec_formats(spec_by_book_rel.get(rel, {})))
+        entries.append(
+            {
+                "dir": rel,
+                "stem": stem,
+                "slug": slug,
+                "has_docx": "true" if "docx" in formats else "false",
+                "has_epub": "true" if "epub" in formats else "false",
+                "has_pdf": "true" if "pdf" in formats else "false",
+            }
+        )
     return entries
 
 
@@ -158,6 +181,13 @@ def main() -> None:
         action="store_true",
         help="Print one book directory per line instead of JSON",
     )
+    parser.add_argument(
+        "--format",
+        action="append",
+        dest="formats",
+        default=[],
+        help="Filter to books with build.formats.<name>.enabled=true (repeatable).",
+    )
     args = parser.parse_args()
 
     repo = Path(args.repo).resolve()
@@ -172,6 +202,22 @@ def main() -> None:
         else:
             changed = changed_paths_from_git(repo, before, args.after)
             books = affected_books(repo, changed, all_books)
+
+    # Keep only books enabled for at least one currently-supported CI format.
+    spec_by_book_rel: dict[str, dict] = {}
+    for spec_path in discover_book_spec_paths(repo):
+        book_rel = spec_path.parent.relative_to(repo).as_posix()
+        spec_by_book_rel[book_rel] = load_book_spec(spec_path)
+    requested_formats = {f.strip().lower() for f in args.formats if f.strip()}
+    if not requested_formats:
+        requested_formats = {"docx", "epub", "pdf"}
+    books = [
+        b
+        for b in books
+        if spec_publish_enabled(spec_by_book_rel.get(b.relative_to(repo).as_posix(), {}))
+        and requested_formats
+        & set(spec_formats(spec_by_book_rel.get(b.relative_to(repo).as_posix(), {})))
+    ]
 
     if args.dirs:
         for b in books:

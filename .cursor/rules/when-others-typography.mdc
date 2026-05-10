@@ -1,12 +1,12 @@
 ---
 description: Typographical conventions for When Others Look to You manuscript edits
-globs: when-others-look-to-you/v1/**/*.md
+globs: books/when-others-look-to-you/v1/**/*.md
 alwaysApply: false
 ---
 
 # Typographical conventions (editorial pass)
 
-When editing manuscript Markdown under `when-others-look-to-you/v1/`, treat **typographical conventions** as part of any **editorial pass** (see `v1/docs/drafting-process.md` Step 5).
+When editing manuscript Markdown under `books/when-others-look-to-you/v1/`, treat **typographical conventions** as part of any **editorial pass** (see `v1/docs/drafting-process.md` Step 5).
 
 - **Authority:** `v1/front-matter/typographical-conventions.md` (short reader-facing map); `v1/docs/book-rules.md` (full layout rules and **Plain speak (house style)**).
 - **Plain speak:** follow **Plain speak (house style)** in `book-rules.md` (concrete verbs, cue-taking phrasing, bridge plainness) alongside sentence discipline.

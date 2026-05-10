@@ -3,6 +3,12 @@
 Rasterize committed SVG diagrams into export-assets for Pandoc/Kindle EPUB.
 
 Uses rsvg-convert (librsvg) or ImageMagick `magick` when available.
+
+Discovery order (see schema `assets.diagrams`):
+1. Explicit `entries` from book.yml (when present).
+2. Auto-discover `docs/diagrams/*.svg` → `export-assets/diagrams/<stem>.png` when `auto_discover` is not false.
+3. Legacy built-in catalog **only** when `assets.diagrams` omits both an `entries` key and `auto_discover: false`
+   (backward compatibility for older specs).
 """
 
 from __future__ import annotations
@@ -12,7 +18,9 @@ import shutil
 import subprocess
 import sys
 from pathlib import Path
+from typing import Any
 
+# Legacy catalog when book.yml has no assets.diagrams overrides (exact paths + widths).
 # (source svg relative to book dir, output png relative to book dir, width px)
 DEFAULT_DIAGRAMS: list[tuple[str, str, int]] = [
     (
@@ -28,14 +36,87 @@ DEFAULT_DIAGRAMS: list[tuple[str, str, int]] = [
 ]
 
 
-def rasterize_book_diagrams(book_dir: Path, *, quiet: bool = False) -> int:
+def _diagram_jobs(book_dir: Path, spec: dict[str, Any]) -> list[tuple[str, str, int]]:
+    root = book_dir.resolve()
+    assets = spec.get("assets")
+    assets = assets if isinstance(assets, dict) else {}
+    has_diagrams_key = "diagrams" in assets
+    diagrams_cfg = assets.get("diagrams") if isinstance(assets.get("diagrams"), dict) else {}
+    default_width = int(diagrams_cfg.get("default_width", 1600))
+    auto_discover = diagrams_cfg.get("auto_discover", True)
+    entries_cfg = diagrams_cfg.get("entries")
+
+    by_svg: dict[str, tuple[str, str, int]] = {}
+
+    # Legacy seed only when book.yml does not define assets.diagrams at all.
+    if not has_diagrams_key:
+        for svg_rel, png_rel, width in DEFAULT_DIAGRAMS:
+            if (root / svg_rel).is_file():
+                by_svg[svg_rel] = (svg_rel, png_rel, width)
+
+    if isinstance(entries_cfg, list):
+        for raw in entries_cfg:
+            if not isinstance(raw, dict):
+                continue
+            svg_rel = str(raw.get("svg", "")).strip()
+            png_rel = str(raw.get("png", "")).strip()
+            if not svg_rel or not png_rel:
+                continue
+            w = int(raw.get("width", default_width))
+            by_svg[svg_rel] = (svg_rel, png_rel, w)
+
+    if auto_discover is not False:
+        dd = root / "docs" / "diagrams"
+        if dd.is_dir():
+            for svg_path in sorted(dd.glob("*.svg")):
+                rel = svg_path.relative_to(root).as_posix()
+                if rel in by_svg:
+                    continue
+                png_rel = f"export-assets/diagrams/{svg_path.stem}.png"
+                by_svg[rel] = (rel, png_rel, default_width)
+
+    # Legacy catalog: only when diagrams config does not explicitly opt out.
+    if not by_svg and has_diagrams_key and _legacy_fallback_allowed(diagrams_cfg):
+        for svg_rel, png_rel, width in DEFAULT_DIAGRAMS:
+            if (root / svg_rel).is_file():
+                by_svg[svg_rel] = (svg_rel, png_rel, width)
+
+    return [by_svg[k] for k in sorted(by_svg.keys())]
+
+
+def _legacy_fallback_allowed(diagrams_cfg: dict[str, Any]) -> bool:
+    """Explicit `entries` (even []) or `auto_discover: false` disables legacy paths."""
+    if "entries" in diagrams_cfg:
+        return False
+    if diagrams_cfg.get("auto_discover") is False:
+        return False
+    return True
+
+
+def rasterize_book_diagrams(
+    book_dir: Path,
+    *,
+    spec: dict[str, Any] | None = None,
+    quiet: bool = False,
+) -> int:
     """
     For each configured SVG, write a PNG under export-assets if the SVG exists.
     Returns count of PNGs successfully written or refreshed.
     """
     root = book_dir.resolve()
+    if spec is None:
+        spec_path = root / "book.yml"
+        if spec_path.is_file():
+            from book_specs import load_book_spec
+
+            spec = load_book_spec(spec_path)
+        else:
+            spec = {}
+
+    jobs = _diagram_jobs(root, spec if isinstance(spec, dict) else {})
     done = 0
-    for svg_rel, png_rel, width in DEFAULT_DIAGRAMS:
+
+    for svg_rel, png_rel, width in jobs:
         svg_path = root / svg_rel
         png_path = root / png_rel
         if not svg_path.is_file():

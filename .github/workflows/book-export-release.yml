@@ -1,12 +1,12 @@
 # Monorepo: each folder that contains index.md is a book. Only books touched by a
 # change set (plus Makefile/tools/workflows changes) are rebuilt. Shared parents with
-# multiple editions (e.g. when-others-look-to-you/v1 and v2) fan out when a change
+# multiple editions (e.g. books/when-others-look-to-you/v1 and v2) fan out when a change
 # is under the parent but not inside one edition path.
 #
 # Runs on pushes to main, pull requests targeting main (verify exports before merge),
 # and workflow_dispatch (full rebuild). Only pushes to main update the rolling release.
 
-name: Book export (DOCX + EPUB)
+name: Book export (DOCX + EPUB + PDF)
 
 on:
   push:
@@ -38,6 +38,8 @@ jobs:
         id: set
         run: |
           set -euo pipefail
+          python3 -m pip install --user jinja2 pyyaml jsonschema
+          make validate-book-specs
           if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
             python3 tools/ci_affected_books.py --repo . --all > /tmp/books.json
           elif [ "${GITHUB_EVENT_NAME}" = "pull_request" ]; then
@@ -73,20 +75,33 @@ jobs:
       - name: Install Pandoc, Python helpers, diagram rasterization
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc librsvg2-bin imagemagick
+          sudo apt-get install -y pandoc librsvg2-bin imagemagick texlive-xetex
+          python3 -m pip install --user jinja2 pyyaml jsonschema
 
-      - name: Export DOCX and Kindle EPUB
+      - name: Build configured artifacts via scripts/build.py
         run: |
           set -euo pipefail
-          make export-docx "DIR=${{ matrix.dir }}"
-          make export-kindle-epub "DIR=${{ matrix.dir }}"
+          mkdir -p upload
+          formats=()
+          if [ "${{ matrix.has_docx }}" = "true" ]; then
+            formats+=("--format" "docx")
+          fi
+          if [ "${{ matrix.has_epub }}" = "true" ]; then
+            formats+=("--format" "epub")
+          fi
+          if [ "${{ matrix.has_pdf }}" = "true" ]; then
+            formats+=("--format" "pdf")
+          fi
+          python3 scripts/build.py \
+            --repo . \
+            --book-dir "${{ matrix.dir }}" \
+            --out-dir "upload" \
+            "${formats[@]}"
 
       - uses: actions/upload-artifact@v4
         with:
           name: book-${{ matrix.slug }}
-          path: |
-            ${{ matrix.dir }}/${{ matrix.stem }}.docx
-            ${{ matrix.dir }}/${{ matrix.stem }}.epub
+          path: upload/*
           if-no-files-found: error
 
   release:
@@ -114,17 +129,17 @@ jobs:
         continue-on-error: true
         run: |
           mkdir -p prior
-          gh release download latest --pattern '*.docx' --pattern '*.epub' --dir prior || true
+          gh release download latest --pattern '*.docx' --pattern '*.epub' --pattern '*.pdf' --pattern '*.manifest.json' --dir prior || true
 
       - name: Merge prior assets with new builds
         run: |
           set -euo pipefail
           mkdir -p upload
           shopt -s nullglob
-          for f in prior/*.docx prior/*.epub; do
+          for f in prior/*.docx prior/*.epub prior/*.pdf prior/*.manifest.json; do
             cp -f "$f" "upload/$(basename "$f")"
           done
-          find built -type f \( -name '*.docx' -o -name '*.epub' \) -exec cp -f {} upload/ \;
+          find built -type f \( -name '*.docx' -o -name '*.epub' -o -name '*.pdf' -o -name '*.manifest.json' \) -exec cp -f {} upload/ \;
           count=$(find upload -type f | wc -l | tr -d ' ')
           if [ "$count" -lt 1 ]; then
             echo "No files to release."

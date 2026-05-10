@@ -2,7 +2,7 @@
 """
 Mechanical typography checks for How Meaning Moves reader-facing markdown.
 
-Same rules as how-meaning-moves/docs/typography-check.md — run from repo root:
+Same rules as books/how-meaning-moves/docs/typography-check.md — run from repo root:
   python3 tools/how_meaning_moves_typography_check.py
 
 Exit status: 0 if all checks pass, 1 otherwise (CI-friendly).
@@ -96,8 +96,8 @@ def main(argv: list[str]) -> int:
     parser.add_argument(
         "--book-root",
         type=Path,
-        default=Path("how-meaning-moves"),
-        help="Book folder relative to current working directory (default: how-meaning-moves)",
+        default=Path("books/how-meaning-moves"),
+        help="Book folder relative to current working directory (default: books/how-meaning-moves)",
     )
     args = parser.parse_args(argv)
     book_root = args.book_root

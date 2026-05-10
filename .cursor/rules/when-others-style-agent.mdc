@@ -1,6 +1,6 @@
 ---
 description: Enforce spoken-clarity manuscript style for When Others Look to You
-globs: when-others-look-to-you/v1/**/*.md
+globs: books/when-others-look-to-you/v1/**/*.md
 alwaysApply: false
 ---
 

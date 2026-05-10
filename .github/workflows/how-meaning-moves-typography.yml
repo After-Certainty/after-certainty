@@ -7,13 +7,13 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - "how-meaning-moves/**"
+      - "books/how-meaning-moves/**"
       - "tools/how_meaning_moves_typography_check.py"
       - ".github/workflows/how-meaning-moves-typography.yml"
   push:
     branches: [main]
     paths:
-      - "how-meaning-moves/**"
+      - "books/how-meaning-moves/**"
       - "tools/how_meaning_moves_typography_check.py"
       - ".github/workflows/how-meaning-moves-typography.yml"
   workflow_dispatch:
