@@ -1,0 +1,52 @@
+version: 1
+
+publishing:
+  enabled: true
+
+book:
+  id: how-meaning-moves
+  title: "How Meaning Moves"
+  subtitle: "Signal, Compression, Restraint, and the Pace of Understanding"
+  author:
+    name: "Kevin Steffensen"
+    website: "https://after-certainty.com"
+  language: en
+  copyright_year: 2026
+  title_page_cover: ../BookCover.png
+
+paths:
+  manuscript: "./index.md"
+  output: "."
+
+assets:
+  diagrams:
+    default_width: 1600
+    auto_discover: false
+    entries:
+      - svg: docs/diagrams/pattern-groups.svg
+        png: export-assets/diagrams/pattern-groups.png
+        width: 1600
+
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
+    copyright:
+      repo_template: templates/copyright.md.j2
+      output: front-matter/copyright.md
+
+build:
+  formats:
+    docx:
+      enabled: true
+    epub:
+      enabled: true
+
+github:
+  release: true
+  release_tag: "latest"
+  artifacts:
+    - docx
+    - epub

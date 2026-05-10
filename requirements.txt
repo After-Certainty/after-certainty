@@ -1,0 +1,4 @@
+# Python tooling for book specs, validation, and front-matter generation (see Makefile / CI).
+jinja2>=3.1
+jsonschema>=4
+PyYAML>=6

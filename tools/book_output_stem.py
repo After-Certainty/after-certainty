@@ -2,9 +2,11 @@
 """
 Compute the basename (without extension) for exported .docx / .epub files.
 
-Uses path segments from the repo root so nested editions stay unique, e.g.
-  coupling -> coupling
-  when-others-look-to-you/v1 -> when-others-look-to-you-v1
+Uses path segments from the repo root. A leading `books/` directory is
+omitted from the stem so release filenames stay stable (e.g. `how-meaning-moves.docx`
+not `books-how-meaning-moves.docx`). Nested editions stay unique, e.g.
+  books/coupling -> coupling
+  books/when-others-look-to-you/v1 -> when-others-look-to-you-v1
 """
 
 from __future__ import annotations
@@ -27,7 +29,12 @@ def stem_for_book_dir(book_dir: str, *, root: Path | None = None) -> str:
     if not book.is_absolute():
         book = (root / book).resolve()
     rel = book.relative_to(root)
-    return "-".join(rel.parts)
+    parts = list(rel.parts)
+    if parts and parts[0] == "books":
+        parts = parts[1:]
+    if not parts:
+        return "book"
+    return "-".join(parts)
 
 
 def main() -> None:

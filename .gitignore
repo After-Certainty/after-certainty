@@ -4,9 +4,11 @@
 
 *.docx
 *.epub
+*.pdf
 !when-others-look-to-you/*/docs/reference.docx
 .DS_Store
 .obsidian/workspace.json
 
 # Python
+**/__pycache__/
 tools/__pycache__/

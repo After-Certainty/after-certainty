@@ -16,7 +16,7 @@ import re
 import sys
 from pathlib import Path
 
-BOOK = Path("how-meaning-moves")
+BOOK = Path("books/how-meaning-moves")
 
 # Lowercase substring match unless pattern starts with "(?".)"
 PHRASES: tuple[tuple[str, str], ...] = (

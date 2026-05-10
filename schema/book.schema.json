@@ -1,0 +1,336 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/book.schema.json",
+  "title": "After Certainty Book Spec",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "publishing",
+    "book",
+    "paths",
+    "build",
+    "frontmatter",
+    "github"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "const": 1
+    },
+    "publishing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        }
+      }
+    },
+    "book": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "language",
+        "copyright_year"
+      ],
+      "anyOf": [
+        {
+          "required": [
+            "author"
+          ]
+        },
+        {
+          "required": [
+            "authors"
+          ]
+        }
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "author": {
+          "$ref": "#/$defs/author"
+        },
+        "authors": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/author"
+          }
+        },
+        "description": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string",
+          "minLength": 2
+        },
+        "copyright_year": {
+          "type": "integer",
+          "minimum": 1900
+        },
+        "title_page_cover": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title_page_footer": {
+          "type": "string"
+        },
+        "title_page_newpage_after": {
+          "type": "boolean"
+        }
+      }
+    },
+    "paths": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "manuscript",
+        "output"
+      ],
+      "properties": {
+        "manuscript": {
+          "type": "string",
+          "minLength": 1
+        },
+        "output": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "diagrams"
+      ],
+      "properties": {
+        "diagrams": {
+          "$ref": "#/$defs/assetsDiagrams"
+        }
+      }
+    },
+    "frontmatter": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "generate"
+      ],
+      "properties": {
+        "generate": {
+          "$ref": "#/$defs/frontmatterGenerate"
+        }
+      }
+    },
+    "build": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "formats"
+      ],
+      "properties": {
+        "formats": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "epub": {
+              "$ref": "#/$defs/formatConfig"
+            },
+            "pdf": {
+              "$ref": "#/$defs/pdfFormatConfig"
+            },
+            "docx": {
+              "$ref": "#/$defs/formatConfig"
+            },
+            "html": {
+              "$ref": "#/$defs/formatConfig"
+            }
+          },
+          "minProperties": 1
+        }
+      }
+    },
+    "github": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "release",
+        "release_tag",
+        "artifacts"
+      ],
+      "properties": {
+        "release": {
+          "type": "boolean"
+        },
+        "release_tag": {
+          "type": "string",
+          "minLength": 1
+        },
+        "artifacts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "author": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "website": {
+          "type": "string"
+        }
+      }
+    },
+    "formatConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        }
+      }
+    },
+    "pdfFormatConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "page_size": {
+          "type": "string"
+        },
+        "pdf_engine": {
+          "type": "string"
+        },
+        "margins": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "top": {
+              "type": "string"
+            },
+            "bottom": {
+              "type": "string"
+            },
+            "left": {
+              "type": "string"
+            },
+            "right": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "assetsDiagrams": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "default_width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "auto_discover": {
+          "type": "boolean"
+        },
+        "entries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "svg",
+              "png"
+            ],
+            "properties": {
+              "svg": {
+                "type": "string",
+                "minLength": 1
+              },
+              "png": {
+                "type": "string",
+                "minLength": 1
+              },
+              "width": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "frontmatterGenerate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "title_page": {
+          "$ref": "#/$defs/frontmatterTemplateBlock"
+        },
+        "copyright": {
+          "$ref": "#/$defs/frontmatterTemplateBlock"
+        }
+      }
+    },
+    "frontmatterTemplateBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repo_template",
+        "output"
+      ],
+      "properties": {
+        "repo_template": {
+          "type": "string",
+          "minLength": 1
+        },
+        "output": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

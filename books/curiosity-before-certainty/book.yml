@@ -1,0 +1,46 @@
+version: 1
+
+publishing:
+  enabled: true
+
+book:
+  id: curiosity-before-certainty
+  title: "Curiosity Before Certainty"
+  subtitle: "How Curiosity Helps Us Understand a Complex World"
+  author:
+    name: "Kevin Steffensen"
+    website: "https://after-certainty.com"
+  language: en
+  copyright_year: 2026
+
+paths:
+  manuscript: "./index.md"
+  output: "."
+
+assets:
+  diagrams:
+    auto_discover: false
+
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
+    copyright:
+      repo_template: templates/copyright.md.j2
+      output: front-matter/copyright.md
+
+build:
+  formats:
+    docx:
+      enabled: true
+    epub:
+      enabled: true
+
+github:
+  release: true
+  release_tag: "latest"
+  artifacts:
+    - docx
+    - epub

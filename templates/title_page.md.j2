@@ -1,0 +1,21 @@
+{% if cover_image %}
+![Cover]({{ cover_image }}){ width=100% }
+
+\newpage
+
+{% endif %}
+# **{{ title }}**
+{% if subtitle %}
+
+## **{{ subtitle }}**
+{% endif %}
+
+**{{ author }}**
+{% if title_page_footer %}
+
+{{ title_page_footer }}
+{% endif %}
+{% if title_page_newpage_after %}
+
+\newpage
+{% endif %}
