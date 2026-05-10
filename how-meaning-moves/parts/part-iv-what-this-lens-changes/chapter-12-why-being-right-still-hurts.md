@@ -44,7 +44,7 @@ Correct interpretations can still cause damage. Accuracy does not guarantee safe
 
 Set side by side, the two scenes mark the distinction: accuracy asks *Is this true?* A second question runs underneath: *What does this do here, now, between us?*
 
-Truth still moves through signal, compression, and relationship. When that pace outruns restraint, harm starts even if the facts are correct—the story hardens before people can absorb it. Settled truth invites closure; slower interpretation looks wasteful; discussion slides from inquiry toward enforcement.[^c12-cognition-enforcement]
+Truth still moves through signal, compression, and relationship—and through whatever still binds people once the sentences end. When that pace outruns restraint, harm starts even if the facts are correct—the story hardens before people can absorb it. Settled truth invites closure; slower interpretation looks wasteful; discussion slides from inquiry toward enforcement.[^c12-cognition-enforcement]
 
 This does not require yelling or bad faith. It can happen in calm language with accurate premises.[^c12-fricker-epistemic-injustice] Many painful exchanges involve good intentions on both sides. Speakers believe they are being direct. Listeners believe they are being rational. Both use correctness to justify speed.
 

@@ -20,7 +20,7 @@ It is noticing that you already moved from hearing to verdict. It is noticing wh
 
 No one masters this. There is no stable posture that removes risk. People who coordinate work, love, repair, and power will sometimes hurt each other without malice, simply because meaning moves faster than contact.
 
-**Connection** is what continues after the talk: the history, care, and consequence you still live in.
+**Connection** is what continues after the talk: the history, care, and consequence you still live in—not warmth as proof, but reachability with stakes.
 
 These forces do not stay in one room. They ride into the next conversation—how much room remains to revisit what happened, and how much has hardened into what you think you know about each other. Where **Connection** runs deep, the same misread can cost more, because the relationship is doing more work.
 

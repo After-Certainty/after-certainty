@@ -18,7 +18,7 @@ DEFAULT_DIAGRAMS: list[tuple[str, str, int]] = [
     (
         "docs/diagrams/pattern-groups.svg",
         "export-assets/diagrams/pattern-groups.png",
-        1000,
+        1600,
     ),
     (
         "docs/diagrams/renewal-erosion-map.svg",

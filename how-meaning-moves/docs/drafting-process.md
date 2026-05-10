@@ -22,6 +22,8 @@ and typography consistent.
 9. Run linkage check (`index.md` and renamed-path references).
 10. Summarize issues and fixes before review.
 
+Diagram sources live under `docs/diagrams/` (SVG). `make export-docx` runs `tools/diagram_rasterize.py`, which writes PNGs under `export-assets/diagrams/` for Pandoc; that folder is gitignored—commit the SVG only.
+
 For fast line-edit sessions, use `docs/quick-pass-card.md` during steps 3–6 and 5b.
 
 ## Editorial pass minimums

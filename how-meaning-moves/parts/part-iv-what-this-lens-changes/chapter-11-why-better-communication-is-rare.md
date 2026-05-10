@@ -36,6 +36,8 @@ Most organizations are built to keep bodies and budgets moving. Deadlines, metri
 
 **Contact**—staying close to what was said and what remains unclear—is easy to lose when the calendar owns the room: the next slot starts, people stand, the thread sinks.
 
+**Connection**—ongoing answerability, the persistence of consequence between people—does not respect the same clock either, but it cannot be forwarded like email: if it thins, unfinished meaning loses somewhere sturdy to return to.
+
 What happens between people afterward runs on a different clock—whether someone still raises risk in the next meeting, admits confusion to a manager, or covers for a teammate so a deadline holds. That cost usually arrives late, and rarely on the sheet anyone is graded against.
 
 When only motion gets scored, talk bends toward fast reads. Across cycles, **Meaning reinforces itself**: yesterday’s shorthand becomes tomorrow’s default—more a product of incentives than of anyone’s character. The drag shows up in hallways and side threads before it shows up on any ledger.
@@ -65,5 +67,4 @@ So the core line from the scene still holds: Better communication had been possi
 [^c11-closure-and-organizational-motion]: On individual preference for cognitive closure under pressure and on how organizations structurally reward motion over unfinished meaning, see Kruglanski, Arie W. "The Need for Cognitive Closure." *Psychological Review* (1990); March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley, 1958.
 [^c11-gigerenzer-gut-feelings]: Gigerenzer, Gerd. *Gut Feelings: The Intelligence of the Unconscious*. New York: Viking, 2007.
 [^c11-deming-out-of-crisis]: Deming, W. Edwards. *Out of the Crisis*. Cambridge, MA: MIT Press, 1986.
-[^c11-org-systems]: On organizations, incentives, and how systems tolerate ambiguity versus closure, see Deming, *Out of the Crisis*; Perrow, *Normal Accidents* (especially on how “normal” operations hide accumulating risk).
 [^c11-perrow-normal-accidents]: Perrow, Charles. *Normal Accidents*. Princeton, NJ: Princeton University Press, 1984.

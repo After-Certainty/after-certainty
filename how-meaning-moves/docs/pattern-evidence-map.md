@@ -43,6 +43,7 @@ sections.
 
 ### **Meaning drifts over time.**
 
+- `chapter-5-listening-under-compression.md` — earlier reads press on new listening when the same lives recur
 - `chapter-8-intimacy-and-family.md` — Pattern Block; history and accumulated meaning (first Pattern Block in Part III sequence before reinforcement)
 - `chapter-9-leadership-and-authority.md` — legitimacy transfer over time
 
@@ -51,12 +52,13 @@ sections.
 ### **Contact keeps the read open.**
 
 - `chapter-3-restraint-the-costliest-part-of-communication.md` — clarification without closure
-- `chapter-13-what-restraint-makes-possible-and-what-it-doesnt.md` — slowing meaning without stopping action
+- `chapter-13-reachable-afterward.md` — contact versus connection; consequence after sentences end
+- `chapter-14-what-restraint-makes-possible-and-what-it-doesnt.md` — slowing meaning without stopping action
 
 ### **Meaning gets distorted.**
 
 - `chapter-6-when-restraint-fails.md` — emotional signal treated as evidence
-- `chapter-12-why-being-right-still-hurts.md` — interpretive violence and coercive certainty
+- `chapter-12-why-being-right-still-hurts.md` — interpretive violence and coercive certainty; truth moving through consequence after sentences end
 
 ## **Reinforcement**
 
