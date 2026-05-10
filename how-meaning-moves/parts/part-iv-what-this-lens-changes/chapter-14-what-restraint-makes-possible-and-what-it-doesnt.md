@@ -1,4 +1,4 @@
-# **Chapter 13 — What Restraint Makes Possible (and What It Does Not)**
+# **Chapter 14 — What Restraint Makes Possible (and What It Does Not)**
 
 ### **Holding The Decision Open**
 
@@ -30,7 +30,7 @@ Still hanging there was the sense that the decision had been owned, not because 
 
 Restraint does not promise understanding, prevent harm, or end conflict. It can slow interpretation enough that responsibility stays in the room—you feel it in who speaks next, who checks the time, who names the risk aloud.
 
-That slower pace leaves more room for correction, consent, and repair, even when nobody reaches full certainty.[^c13-arendt-responsibility-judgment] Those are ways **connection** stays open a little longer.
+That slower pace leaves more room for correction, consent, and repair, even when nobody reaches full certainty.[^c14-arendt-responsibility-judgment] Those are ways **connection** stays open a little longer.
 
 People often misread restraint: they want guarantees—smooth talk, fewer misunderstandings, protection from injury. Restraint cannot reliably supply those.
 
@@ -42,19 +42,19 @@ The slowdown is partial and uneven. Moves still get made. Calls still get called
 
 Responsibility cannot live inside total certainty. Once meaning hardens into a final story, responsibility thins into justification. Action starts to feel like fate. Outcomes start to feel like they could not have gone another way.
 
-Harm then reads as “what happened,” not as something people built together. Restraint keeps meaning open long enough for responsibility to stay awake. It keeps a little room for “it could still be otherwise,” and for choices to count.[^c13-arendt-life-of-mind]
+Harm then reads as “what happened,” not as something people built together. Restraint keeps meaning open long enough for responsibility to stay awake. It keeps a little room for “it could still be otherwise,” and for choices to count.[^c14-arendt-life-of-mind]
 
 Correction needs room. It needs a path back to interpretation that does not automatically trigger fight or shutdown. When restraint is present, correction can land as information. When it is absent, correction often lands as attack.
 
-Restraint does not mean people will accept the fix; it means acceptance is not ruled out in advance. Without that room, correction usually arrives too late to change how people hold the story.[^c13-edmondson-fearless-organization]
+Restraint does not mean people will accept the fix; it means acceptance is not ruled out in advance. Without that room, correction usually arrives too late to change how people hold the story.[^c14-edmondson-fearless-organization]
 
 Consent works the same way. It needs time, exposure, and a real option to refuse without instant punishment. When meaning moves too fast, “yes” often means “I can’t afford to push back.”
 
-Alignment becomes performance and **connection** thins into choreography. When interpretation slows, there is more space for a yes or a no that people can own.[^c13-faden-beauchamp-informed-consent] That matters in intimate relationships, workplaces, and any place power runs through the room.
+Alignment becomes performance and **connection** thins into choreography. When interpretation slows, there is more space for a yes or a no that people can own.[^c14-faden-beauchamp-informed-consent] That matters in intimate relationships, workplaces, and any place power runs through the room.
 
 Repair needs harm to be nameable without turning a person into a label. With restraint, damage can be spoken without reducing the other person to one bad act. People can stay answerable without being flattened.
 
-Repair is **connection** work: updating what two people can say to each other without rehearsing the worst version of the story every time. Repair does not delete harm. It keeps harm talkable.[^c13-fricker-epistemic-injustice]
+Repair is **connection** work: updating what two people can say to each other without rehearsing the worst version of the story every time. Repair does not delete harm. It keeps harm talkable.[^c14-fricker-epistemic-injustice]
 
 Restraint’s limits deserve plain language. It cannot ensure understanding. It cannot stop misinterpretation. It cannot guarantee fairness. It cannot make communication safe. Some harm will still land. Some crossed wires will hold. Some fights will stay open. Restraint does not promise a clean ending. It promises that responsibility can keep working.
 
@@ -66,8 +66,8 @@ Human talk is fragile because it runs on partial understanding. People move befo
 
 Restraint does not solve communication. It keeps it human.
 
-[^c13-arendt-responsibility-judgment]: Arendt, Hannah. *Responsibility and Judgment*. New York: Schocken Books, 2003.
-[^c13-arendt-life-of-mind]: Arendt, Hannah. *The Life of the Mind*. New York: Harcourt Brace Jovanovich, 1978.
-[^c13-edmondson-fearless-organization]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.
-[^c13-faden-beauchamp-informed-consent]: Faden, Ruth R., and Tom L. Beauchamp. *A History and Theory of Informed Consent*. New York: Oxford University Press, 1986.
-[^c13-fricker-epistemic-injustice]: Fricker, Miranda. *Epistemic Injustice*. New York: Oxford University Press, 2007.
+[^c14-arendt-responsibility-judgment]: Arendt, Hannah. *Responsibility and Judgment*. New York: Schocken Books, 2003.
+[^c14-arendt-life-of-mind]: Arendt, Hannah. *The Life of the Mind*. New York: Harcourt Brace Jovanovich, 1978.
+[^c14-edmondson-fearless-organization]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.
+[^c14-faden-beauchamp-informed-consent]: Faden, Ruth R., and Tom L. Beauchamp. *A History and Theory of Informed Consent*. New York: Oxford University Press, 1986.
+[^c14-fricker-epistemic-injustice]: Fricker, Miranda. *Epistemic Injustice*. New York: Oxford University Press, 2007.

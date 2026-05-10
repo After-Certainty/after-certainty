@@ -10,7 +10,7 @@ This lens offers no lines or steps. It does not hand out techniques. It changes 
 
 It also changes what we owe **connection**—the relationship that continues after the sentences end. A single exchange can be repaired or forgotten. **Connection** carries what lingers into next time: revised trust, reluctance to speak, or renewed patience. Part IV asks what blame and responsibility look like when harm lives there, not only in one transcript.
 
-The chapters ahead ask what follows from that shift: why “better communication” stays uncommon, why being right can still wound, and why restraint still matters when it fixes nothing tidy.
+The chapters ahead ask what follows from that shift: why “better communication” stays uncommon, why being right can still wound, what unfinished interpretation is still attached to when the calendar moves on, and why restraint still matters when it fixes nothing tidy.
 
 No mastery on offer.
 

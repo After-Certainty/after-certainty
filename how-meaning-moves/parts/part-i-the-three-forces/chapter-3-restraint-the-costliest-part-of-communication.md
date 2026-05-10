@@ -4,7 +4,7 @@ Restraint is what slows compression down.
 
 It interrupts the rush to decide what something means. It keeps a first read from hardening too quickly into certainty.
 
-Connection is why restraint matters so much in this chapter. Where relationships carry real consequence, leaving meaning open is both more necessary and more costly.
+Connection is why restraint matters so much in this chapter—the coupling that survives a conversation and keeps interpretation attached to lives. Where relationships carry real consequence, leaving meaning open is both more necessary and more costly.
 
 Without restraint, **Meaning gets distorted**. With restraint, people can revisit what happened and **Contact keeps the read open** without pretending uncertainty has disappeared.
 

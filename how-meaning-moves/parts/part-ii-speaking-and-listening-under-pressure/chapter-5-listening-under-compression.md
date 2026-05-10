@@ -48,6 +48,8 @@ None of that requires malice. It is efficient—whether the exchange is a hallwa
 
 Compression lets people answer fast, watch for threat, and coordinate without waiting for full clarity. Without it, talk would stall.
 
+When lives recur together—same hallway, same household, same payroll—the listener rarely begins cold. **Connection** stacks weight across encounters: what settled last time presses against what sounds plausible now before compression runs again.
+
 ## **Why Deciding Feels Invisible to Listeners**
 
 To a listener, compression often does not feel like deciding. It feels like seeing what is there.

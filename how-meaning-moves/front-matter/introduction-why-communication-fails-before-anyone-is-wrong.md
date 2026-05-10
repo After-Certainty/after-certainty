@@ -18,6 +18,14 @@ At that point, talk may continue, but shared understanding does not.
 
 This book is not advice for sounding calm or winning arguments. It is a lens for noticing how meaning forms between people—and how fast that process outpaces what people can verify together.
 
+### **How the Patterns Cluster**
+
+The argument uses a small shared vocabulary of named dynamics, grouped into five clusters: **Formation**, **Completion**, **Movement**, **Resolution**, and **Reinforcement**. The labels are observation tools, not steps. Full definitions live in Appendix A.
+
+On first read, treat the figure below as orientation—which titles belong together—not as a sequence you must memorize.
+
+![Diagram: patterns by group](export-assets/diagrams/pattern-groups.png){ width=100% }
+
 Many failures stay sincere: people care, try, and still injure each other by settling on certainty too early.
 
 Conversation does not get easier. What gets harder to miss is your part in how meaning moved.

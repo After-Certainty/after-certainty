@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Appendix A clusters; inner row inset 12px from shell. Pattern names at 20px for exports. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 1080" role="img" aria-labelledby="hm-title hm-desc">
+  <title id="hm-title">Patterns by Group — how meaning moves</title>
+  <desc id="hm-desc">Five stacked frames. Formation contains Attention finds a signal, Meaning forms early, Meaning outruns the words. Completion contains Gaps invite completion and Intent gets assigned. Movement contains Meaning shifts under pressure and Meaning drifts over time. Resolution contains Contact keeps the read open and Meaning gets distorted. Reinforcement contains Meaning reinforces itself.</desc>
+  <defs>
+    <style>
+      .shell-formation { fill: #f7f7f7; stroke: #1a1a1a; stroke-width: 2; }
+      .shell-completion { fill: #ebebeb; stroke: #1a1a1a; stroke-width: 2; }
+      .shell-movement { fill: #dcdcdc; stroke: #1a1a1a; stroke-width: 2; }
+      .shell-resolution { fill: #cfcfcf; stroke: #1a1a1a; stroke-width: 2; }
+      .shell-reinforcement { fill: #bdbdbd; stroke: #1a1a1a; stroke-width: 2; }
+      .pat-box { fill: #ffffff; stroke: #2a2a2a; stroke-width: 1.5; }
+      .group-heading { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 18px; font-weight: 700; fill: #111111; }
+      .pat-label { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 20px; font-weight: 700; fill: #111111; text-anchor: middle; text-rendering: geometricPrecision; }
+      .diagram-title { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 20px; font-weight: 700; fill: #111111; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="920" height="1080" fill="#ffffff"/>
+
+  <text class="diagram-title" x="460" y="44">Patterns by Group</text>
+
+  <!-- Shell x=44 w=832; inner x=56..864 (808px). Pat-box y=52 h=120; shell h=184. -->
+  <!-- Formation: 261 + 12 + 261 + 12 + 262 = 808 -->
+  <g id="group-formation" transform="translate(0, 56)">
+    <rect class="shell-formation" x="44" y="0" width="832" height="184" rx="3"/>
+    <text class="group-heading" x="58" y="34">Formation</text>
+    <rect class="pat-box" x="56" y="52" width="261" height="120" rx="2"/>
+    <text class="pat-label" x="186.5" y="118">
+      <tspan x="186.5" y="104">Attention Finds</tspan>
+      <tspan x="186.5" y="136">a Signal</tspan>
+    </text>
+    <rect class="pat-box" x="329" y="52" width="261" height="120" rx="2"/>
+    <text class="pat-label" x="459.5" y="118">
+      <tspan x="459.5" y="104">Meaning Forms</tspan>
+      <tspan x="459.5" y="136">Early</tspan>
+    </text>
+    <rect class="pat-box" x="602" y="52" width="262" height="120" rx="2"/>
+    <text class="pat-label" x="733" y="118">
+      <tspan x="733" y="104">Meaning Outruns</tspan>
+      <tspan x="733" y="136">the Words</tspan>
+    </text>
+  </g>
+
+  <g id="group-completion" transform="translate(0, 256)">
+    <rect class="shell-completion" x="44" y="0" width="832" height="184" rx="3"/>
+    <text class="group-heading" x="58" y="34">Completion</text>
+    <rect class="pat-box" x="56" y="52" width="398" height="120" rx="2"/>
+    <text class="pat-label" x="255" y="124">
+      <tspan x="255" y="104">Gaps Invite</tspan>
+      <tspan x="255" y="136">Completion</tspan>
+    </text>
+    <rect class="pat-box" x="466" y="52" width="398" height="120" rx="2"/>
+    <text class="pat-label" x="665" y="124">
+      <tspan x="665" y="104">Intent Gets</tspan>
+      <tspan x="665" y="136">Assigned</tspan>
+    </text>
+  </g>
+
+  <g id="group-movement" transform="translate(0, 456)">
+    <rect class="shell-movement" x="44" y="0" width="832" height="184" rx="3"/>
+    <text class="group-heading" x="58" y="34">Movement</text>
+    <rect class="pat-box" x="56" y="52" width="398" height="120" rx="2"/>
+    <text class="pat-label" x="255" y="124">
+      <tspan x="255" y="104">Meaning Shifts</tspan>
+      <tspan x="255" y="136">Under Pressure</tspan>
+    </text>
+    <rect class="pat-box" x="466" y="52" width="398" height="120" rx="2"/>
+    <text class="pat-label" x="665" y="124">
+      <tspan x="665" y="104">Meaning Drifts</tspan>
+      <tspan x="665" y="136">Over Time</tspan>
+    </text>
+  </g>
+
+  <g id="group-resolution" transform="translate(0, 656)">
+    <rect class="shell-resolution" x="44" y="0" width="832" height="184" rx="3"/>
+    <text class="group-heading" x="58" y="34">Resolution</text>
+    <rect class="pat-box" x="56" y="52" width="398" height="120" rx="2"/>
+    <text class="pat-label" x="255" y="124">
+      <tspan x="255" y="104">Contact Keeps</tspan>
+      <tspan x="255" y="136">the Read Open</tspan>
+    </text>
+    <rect class="pat-box" x="466" y="52" width="398" height="120" rx="2"/>
+    <text class="pat-label" x="665" y="124">
+      <tspan x="665" y="104">Meaning Gets</tspan>
+      <tspan x="665" y="136">Distorted</tspan>
+    </text>
+  </g>
+
+  <g id="group-reinforcement" transform="translate(0, 856)">
+    <rect class="shell-reinforcement" x="44" y="0" width="832" height="184" rx="3"/>
+    <text class="group-heading" x="58" y="34">Reinforcement</text>
+    <rect class="pat-box" x="56" y="52" width="808" height="120" rx="2"/>
+    <text class="pat-label" x="460" y="124">
+      <tspan x="460" y="104">Meaning</tspan>
+      <tspan x="460" y="136">Reinforces Itself</tspan>
+    </text>
+  </g>
+</svg>
