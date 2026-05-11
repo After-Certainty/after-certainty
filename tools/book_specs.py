@@ -25,7 +25,9 @@ except ModuleNotFoundError as exc:  # pragma: no cover
 
 SPEC_FILE_NAME = "book.yml"
 SCHEMA_PATH = Path(__file__).resolve().parents[1] / "schema" / "book.schema.json"
+UPCOMING_SCHEMA_PATH = Path(__file__).resolve().parents[1] / "schema" / "upcoming.schema.json"
 _SCHEMA_CACHE: dict[str, Any] | None = None
+_UPCOMING_SCHEMA_CACHE: dict[str, Any] | None = None
 
 
 def _as_dict(value: Any) -> dict[str, Any]:
@@ -45,6 +47,19 @@ def discover_book_spec_paths(repo: Path) -> list[Path]:
     return sorted(set(paths))
 
 
+def discover_upcoming_spec_paths(repo: Path) -> list[Path]:
+    """Discover metadata-backed upcoming manuscripts in `upcoming/**/book.yml`."""
+    upcoming_root = (repo / "upcoming").resolve()
+    if not upcoming_root.is_dir():
+        return []
+    paths = [
+        p.resolve()
+        for p in upcoming_root.rglob(SPEC_FILE_NAME)
+        if ".git" not in p.parts
+    ]
+    return sorted(set(paths))
+
+
 def load_schema() -> dict[str, Any]:
     global _SCHEMA_CACHE
     if _SCHEMA_CACHE is not None:
@@ -56,8 +71,28 @@ def load_schema() -> dict[str, Any]:
     return _SCHEMA_CACHE
 
 
+def load_upcoming_schema() -> dict[str, Any]:
+    global _UPCOMING_SCHEMA_CACHE
+    if _UPCOMING_SCHEMA_CACHE is not None:
+        return _UPCOMING_SCHEMA_CACHE
+    import json
+
+    with UPCOMING_SCHEMA_PATH.open("r", encoding="utf-8") as f:
+        _UPCOMING_SCHEMA_CACHE = json.load(f)
+    return _UPCOMING_SCHEMA_CACHE
+
+
 def validate_book_spec(spec: dict[str, Any], spec_path: Path) -> None:
     schema = load_schema()
+    try:
+        jsonschema.validate(instance=spec, schema=schema)
+    except jsonschema.ValidationError as exc:
+        location = ".".join(str(p) for p in exc.path) or "<root>"
+        raise ValueError(f"{spec_path}: schema validation failed at {location}: {exc.message}") from exc
+
+
+def validate_upcoming_spec(spec: dict[str, Any], spec_path: Path) -> None:
+    schema = load_upcoming_schema()
     try:
         jsonschema.validate(instance=spec, schema=schema)
     except jsonschema.ValidationError as exc:
@@ -71,6 +106,15 @@ def load_book_spec(path: Path) -> dict[str, Any]:
     if not isinstance(data, dict):
         raise ValueError(f"Expected mapping in {path}")
     validate_book_spec(data, path)
+    return data
+
+
+def load_upcoming_spec(path: Path) -> dict[str, Any]:
+    with path.open("r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    if not isinstance(data, dict):
+        raise ValueError(f"Expected mapping in {path}")
+    validate_upcoming_spec(data, path)
     return data
 
 

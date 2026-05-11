@@ -1,0 +1,22 @@
+version: 1
+
+upcoming:
+  status: in_progress
+
+book:
+  id: before-certainty-expires
+  title: "Before Certainty Expires"
+  description: "Essays on the cultural preconditions that made brittle certainty feel normal and what it costs when it breaks."
+  author:
+    name: "Contributors TBD"
+  language: en
+  copyright_year: 2026
+
+build:
+  formats:
+    docx:
+      enabled: false
+    epub:
+      enabled: false
+    pdf:
+      enabled: false

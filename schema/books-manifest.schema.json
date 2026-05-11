@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/books-manifest.schema.json",
+  "title": "After Certainty Aggregate Books Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifestVersion",
+    "generatedAt",
+    "ref",
+    "releaseTag",
+    "books"
+  ],
+  "properties": {
+    "manifestVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "repository": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "releaseTag": {
+      "type": "string",
+      "minLength": 1
+    },
+    "books": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/bookEntry"
+      }
+    }
+  },
+  "$defs": {
+    "formatEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled",
+        "file",
+        "url"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bookEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slug",
+        "source",
+        "status",
+        "title",
+        "authors",
+        "coverImage",
+        "coverImagePath",
+        "bookDir",
+        "docx",
+        "epub",
+        "pdf"
+      ],
+      "properties": {
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "slugAliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "companionOf": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "companionBooks": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "source": {
+          "type": "string",
+          "enum": [
+            "books",
+            "upcoming"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subtitle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "coverImage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "coverImagePath": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "bookDir": {
+          "type": "string",
+          "minLength": 1
+        },
+        "docx": {
+          "$ref": "#/$defs/formatEntry"
+        },
+        "epub": {
+          "$ref": "#/$defs/formatEntry"
+        },
+        "pdf": {
+          "$ref": "#/$defs/formatEntry"
+        }
+      }
+    }
+  }
+}

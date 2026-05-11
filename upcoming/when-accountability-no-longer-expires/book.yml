@@ -1,0 +1,22 @@
+version: 1
+
+upcoming:
+  status: in_progress
+
+book:
+  id: when-accountability-no-longer-expires
+  title: "When Accountability No Longer Expires"
+  description: "A manuscript on durable accountability when institutions optimize for short memory."
+  author:
+    name: "Contributors TBD"
+  language: en
+  copyright_year: 2026
+
+build:
+  formats:
+    docx:
+      enabled: false
+    epub:
+      enabled: false
+    pdf:
+      enabled: false

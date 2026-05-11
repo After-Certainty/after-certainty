@@ -1,0 +1,22 @@
+version: 1
+
+upcoming:
+  status: in_progress
+
+book:
+  id: when-interpretation-no-longer-matters
+  title: "When Interpretation No Longer Matters"
+  description: "A manuscript on meaning collapse when systems reward certainty over interpretation."
+  author:
+    name: "Contributors TBD"
+  language: en
+  copyright_year: 2026
+
+build:
+  formats:
+    docx:
+      enabled: false
+    epub:
+      enabled: false
+    pdf:
+      enabled: false

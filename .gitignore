@@ -12,3 +12,6 @@
 # Python
 **/__pycache__/
 tools/__pycache__/
+
+# Local build outputs (e.g. make generate-books-manifest → build/books-manifest.json)
+build/

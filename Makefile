@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc validate-book-specs build-book docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check-pandoc validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -7,6 +7,9 @@ BOOK_STEM_PY ?= python3 tools/book_output_stem.py
 FORMATS ?= docx epub
 # Default book tree for spellcheck; override for another volume, e.g. SPELLCHECK_DIR=books/other-book/v1
 SPELLCHECK_DIR ?= books/when-others-look-to-you/v1
+MANIFEST_OUT ?= build/books-manifest.json
+MANIFEST_REF ?= main
+MANIFEST_RELEASE_TAG ?= latest
 
 help:
 	@echo "Pandoc conversion helpers"
@@ -22,6 +25,9 @@ help:
 	@echo "  make export-all-docx"
 	@echo "  make build-book DIR=path/from/repo/root [OUT_DIR=build/...] [FORMATS=\"docx epub pdf\"]"
 	@echo "  make validate-book-specs"
+	@echo "  make generate-books-manifest [MANIFEST_OUT=build/books-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
+	@echo "  make validate-books-manifest [MANIFEST=build/books-manifest.json]"
+	@echo "  make verify-books-manifest [MANIFEST_OUT=build/books-manifest.json]"
 	@echo "  make clean-import-md"
 	@echo "  make spellcheck [SPELLCHECK_DIR=books/when-others-look-to-you/v1] [CODESPELL=codespell]"
 	@echo "  make typography-check-how-meaning-moves"
@@ -38,6 +44,9 @@ help:
 	@echo "  - SVG under DIR/docs/diagrams/ rasterize to DIR/export-assets/diagrams/ (rsvg-convert or magick)."
 	@echo "  - export-all-docx runs export-docx for every publish-enabled book.yml that includes docx."
 	@echo "  - build-book runs scripts/build.py for DIR (default FORMATS: docx epub); default OUT_DIR is build/<DIR-with-slashes-as-dashes>."
+	@echo "  - generate-books-manifest aggregates /books and metadata-backed /upcoming entries into MANIFEST_OUT."
+	@echo "  - validate-books-manifest validates MANIFEST JSON against schema/books-manifest.schema.json."
+	@echo "  - verify-books-manifest runs both generation and validation for local CI parity."
 	@echo "  - clean-import-md deletes every ./**/import.md file."
 	@echo "  - spellcheck runs codespell on SPELLCHECK_DIR using that dir's .codespellrc."
 	@echo "  - Requires pandoc installed and available in PATH."
@@ -58,6 +67,21 @@ build-book: check-pandoc
 	@out="$(OUT_DIR)"; \
 	test -n "$$out" || out="build/$$(echo "$(DIR)" | tr '/' '-')"; \
 	python3 scripts/build.py --repo . --book-dir "$(DIR)" --out-dir "$$out" $(foreach f,$(FORMATS),--format $(f))
+
+generate-books-manifest: validate-book-specs
+	@repo="$${GITHUB_REPOSITORY:-$$(git remote get-url origin 2>/dev/null | sed -e 's#^git@github.com:##' -e 's#^https://github.com/##' -e 's#\.git$$##')}"; \
+	python3 tools/generate_books_manifest.py \
+		--repo . \
+		--out "$(MANIFEST_OUT)" \
+		--github-repository "$$repo" \
+		--github-ref "$(MANIFEST_REF)" \
+		--release-tag "$(MANIFEST_RELEASE_TAG)"
+
+validate-books-manifest:
+	@manifest="$${MANIFEST:-$(MANIFEST_OUT)}"; \
+	python3 tools/validate_books_manifest.py --repo . --manifest "$$manifest"
+
+verify-books-manifest: generate-books-manifest validate-books-manifest
 
 docx-to-md: check-pandoc
 	@test -n "$(IN)" || { echo "Usage: make docx-to-md IN=file.docx [OUT=file.md]"; exit 1; }

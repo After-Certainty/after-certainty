@@ -97,6 +97,13 @@ jobs:
             --book-dir "${{ matrix.dir }}" \
             --out-dir "upload" \
             "${formats[@]}"
+          if [ "${{ matrix.has_pdf }}" = "true" ]; then
+            if ! compgen -G "upload/*.pdf" > /dev/null; then
+              echo "Expected a PDF artifact for ${{ matrix.dir }}, but none was produced."
+              ls -la upload || true
+              exit 1
+            fi
+          fi
 
       - uses: actions/upload-artifact@v4
         with:
@@ -114,11 +121,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    # No checkout in this job; gh needs an explicit repo or it shells out to git and fails.
     env:
       GH_REPO: ${{ github.repository }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
+      - uses: actions/checkout@v4
+
       - uses: actions/download-artifact@v4
         with:
           pattern: book-*
@@ -129,23 +137,35 @@ jobs:
         continue-on-error: true
         run: |
           mkdir -p prior
-          gh release download latest --pattern '*.docx' --pattern '*.epub' --pattern '*.pdf' --pattern '*.manifest.json' --dir prior || true
+          gh release download latest --pattern '*.docx' --pattern '*.epub' --pattern '*.pdf' --pattern '*.manifest.json' --pattern 'books-manifest.json' --dir prior || true
 
       - name: Merge prior assets with new builds
         run: |
           set -euo pipefail
           mkdir -p upload
           shopt -s nullglob
-          for f in prior/*.docx prior/*.epub prior/*.pdf prior/*.manifest.json; do
+          for f in prior/*.docx prior/*.epub prior/*.pdf prior/*.manifest.json prior/books-manifest.json; do
             cp -f "$f" "upload/$(basename "$f")"
           done
-          find built -type f \( -name '*.docx' -o -name '*.epub' -o -name '*.pdf' -o -name '*.manifest.json' \) -exec cp -f {} upload/ \;
+          find built -type f \( -name '*.docx' -o -name '*.epub' -o -name '*.pdf' -o -name '*.manifest.json' -o -name 'books-manifest.json' \) -exec cp -f {} upload/ \;
           count=$(find upload -type f | wc -l | tr -d ' ')
           if [ "$count" -lt 1 ]; then
             echo "No files to release."
             exit 1
           fi
           ls -la upload
+
+      - name: Build aggregate books manifest
+        run: |
+          set -euo pipefail
+          python3 -m pip install --user pyyaml jsonschema
+          python3 tools/generate_books_manifest.py \
+            --repo . \
+            --out upload/books-manifest.json \
+            --github-repository "${{ github.repository }}" \
+            --github-ref "main" \
+            --release-tag "latest"
+          python3 tools/validate_books_manifest.py --repo . --manifest upload/books-manifest.json
 
       - name: Update latest release
         run: |

@@ -5,14 +5,19 @@ publishing:
 
 book:
   id: when-others-look-to-you-v1
+  slug_aliases:
+    - when-others-look-to-you
+  companion_books:
+    - when-others-look-to-you-v2
   title: "When Others Look to You"
   subtitle: "Renewal and Erosion in Leadership"
+  description: "A leadership field guide to how influence forms, how trust is renewed, and how erosion begins when responsibility drifts from practice."
   author:
     name: "Kevin Steffensen"
     website: "https://after-certainty.com"
   language: en
   copyright_year: 2026
-  title_page_cover: ../BookCover.png
+  title_page_cover: ./BookCover.png
   title_page_newpage_after: true
 
 paths:

@@ -6,6 +6,7 @@ publishing:
 book:
   id: when-authority-is-misread
   title: "When Authority Is Misread"
+  description: "An examination of what happens when signals of confidence are mistaken for legitimacy, and how that confusion distorts trust and decision-making."
   author:
     name: "Kevin Steffensen"
     website: "https://after-certainty.com"

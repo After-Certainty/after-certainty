@@ -1,0 +1,22 @@
+version: 1
+
+upcoming:
+  status: in_progress
+
+book:
+  id: why-collaboration-is-so-hard
+  title: "Why Collaboration Is So Hard"
+  description: "An examination of coordination failure, misaligned incentives, and fragile trust."
+  author:
+    name: "Contributors TBD"
+  language: en
+  copyright_year: 2026
+
+build:
+  formats:
+    docx:
+      enabled: false
+    epub:
+      enabled: false
+    pdf:
+      enabled: false
