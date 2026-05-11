@@ -145,6 +145,7 @@ jobs:
           mkdir -p upload
           shopt -s nullglob
           for f in prior/*.docx prior/*.epub prior/*.pdf prior/*.manifest.json prior/books-manifest.json; do
+            [ -e "$f" ] || continue
             cp -f "$f" "upload/$(basename "$f")"
           done
           find built -type f \( -name '*.docx' -o -name '*.epub' -o -name '*.pdf' -o -name '*.manifest.json' -o -name 'books-manifest.json' \) -exec cp -f {} upload/ \;
