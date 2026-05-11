@@ -1,0 +1,22 @@
+version: 1
+
+upcoming:
+  status: in_progress
+
+book:
+  id: the-discipline-of-uncertainty
+  title: "The Discipline of Uncertainty"
+  description: "Field notes on judgment, restraint, and decision quality when information is incomplete."
+  author:
+    name: "Contributors TBD"
+  language: en
+  copyright_year: 2026
+
+build:
+  formats:
+    docx:
+      enabled: false
+    epub:
+      enabled: false
+    pdf:
+      enabled: false

@@ -93,6 +93,26 @@
         },
         "title_page_newpage_after": {
           "type": "boolean"
+        },
+        "slug_aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "companion_of": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Book id this edition is a companion to (e.g. a revised edition points at the prior volume)."
+        },
+        "companion_books": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Other book ids that are companions to this work (e.g. related edition)."
         }
       }
     },

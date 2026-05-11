@@ -1,0 +1,22 @@
+version: 1
+
+upcoming:
+  status: in_progress
+
+book:
+  id: when-incentives-become-the-moral-language
+  title: "When Incentives Become the Moral Language"
+  description: "How institutional incentives can crowd out judgment, responsibility, and shared meaning."
+  author:
+    name: "Contributors TBD"
+  language: en
+  copyright_year: 2026
+
+build:
+  formats:
+    docx:
+      enabled: false
+    epub:
+      enabled: false
+    pdf:
+      enabled: false

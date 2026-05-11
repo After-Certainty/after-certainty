@@ -1,0 +1,23 @@
+version: 1
+
+upcoming:
+  status: in_progress
+
+book:
+  id: after-certainty
+  title: "After Certainty"
+  subtitle: "Leadership in an Age of Ambiguity"
+  description: "A provisional exploration of trust, authority, and communication when stable narratives no longer hold."
+  author:
+    name: "Contributors TBD"
+  language: en
+  copyright_year: 2026
+
+build:
+  formats:
+    docx:
+      enabled: false
+    epub:
+      enabled: false
+    pdf:
+      enabled: false

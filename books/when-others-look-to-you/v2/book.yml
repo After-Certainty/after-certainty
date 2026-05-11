@@ -5,14 +5,16 @@ publishing:
 
 book:
   id: when-others-look-to-you-v2
+  companion_of: when-others-look-to-you-v1
   title: "When Others Look to You"
   subtitle: "Forming, Renewing, Eroding, Repeating"
+  description: "A companion edition that extends the leadership cycle across formation, renewal, erosion, and repetition with sharper operational patterns."
   author:
     name: "Kevin Steffensen"
     website: "https://after-certainty.com"
   language: en
   copyright_year: 2026
-  title_page_cover: ../BookCover.png
+  title_page_cover: ./BookCover.png
   title_page_newpage_after: true
 
 paths:

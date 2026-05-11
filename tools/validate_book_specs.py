@@ -8,7 +8,12 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from book_specs import discover_book_spec_paths, load_book_spec
+from book_specs import (
+    discover_book_spec_paths,
+    discover_upcoming_spec_paths,
+    load_book_spec,
+    load_upcoming_spec,
+)
 
 
 def main() -> None:
@@ -17,14 +22,18 @@ def main() -> None:
     args = parser.parse_args()
 
     repo = Path(args.repo).resolve()
-    specs = discover_book_spec_paths(repo)
-    if not specs:
+    book_specs = discover_book_spec_paths(repo)
+    if not book_specs:
         raise SystemExit("No book.yml specs found.")
 
-    for spec_path in specs:
+    for spec_path in book_specs:
         load_book_spec(spec_path)
 
-    print(f"Validated {len(specs)} book specs.")
+    upcoming_specs = discover_upcoming_spec_paths(repo)
+    for spec_path in upcoming_specs:
+        load_upcoming_spec(spec_path)
+
+    print(f"Validated {len(book_specs)} book specs and {len(upcoming_specs)} upcoming specs.")
 
 
 if __name__ == "__main__":

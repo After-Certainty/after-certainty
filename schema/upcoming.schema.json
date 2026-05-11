@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/upcoming.schema.json",
+  "title": "After Certainty Upcoming Manuscript Spec",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "upcoming",
+    "book",
+    "build"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "const": 1
+    },
+    "upcoming": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "forthcoming",
+            "in_progress"
+          ]
+        }
+      }
+    },
+    "book": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "language",
+        "copyright_year"
+      ],
+      "anyOf": [
+        {
+          "required": [
+            "author"
+          ]
+        },
+        {
+          "required": [
+            "authors"
+          ]
+        }
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "author": {
+          "$ref": "#/$defs/author"
+        },
+        "authors": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/author"
+          }
+        },
+        "language": {
+          "type": "string",
+          "minLength": 2
+        },
+        "copyright_year": {
+          "type": "integer",
+          "minimum": 1900
+        },
+        "title_page_cover": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "build": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "formats"
+      ],
+      "properties": {
+        "formats": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "epub": {
+              "$ref": "#/$defs/formatConfig"
+            },
+            "pdf": {
+              "$ref": "#/$defs/formatConfig"
+            },
+            "docx": {
+              "$ref": "#/$defs/formatConfig"
+            }
+          },
+          "minProperties": 1
+        }
+      }
+    }
+  },
+  "$defs": {
+    "author": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "website": {
+          "type": "string"
+        }
+      }
+    },
+    "formatConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
