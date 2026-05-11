@@ -1,0 +1,316 @@
+/**
+ * Atmospheric textures — always subordinate to typography and whitespace.
+ * Opacity guidance (dark theme): grain 3–8%, topology 6–14%, bloom 8–22%.
+ * If anything reads as “texture-forward,” reduce one step.
+ */
+
+:root {
+  --atm-global-grain-opacity: 0.042;
+  --atm-quote-bloom-opacity: 0.09;
+  --atm-quote-grain-opacity: 0.065;
+  --atm-transition-bloom-opacity: 0.06;
+  --atm-footer-grain-opacity: 0.035;
+  --atm-footer-topology-opacity: 0.06;
+  --atm-footer-vignette-opacity: 0.45;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --atm-global-grain-opacity: 0.032;
+    --atm-quote-bloom-opacity: 0.07;
+    --atm-quote-grain-opacity: 0.05;
+    --atm-transition-bloom-opacity: 0.045;
+    --atm-footer-grain-opacity: 0.028;
+    --atm-footer-topology-opacity: 0.05;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --atm-global-grain-opacity: 0.028;
+    --atm-quote-bloom-opacity: 0.06;
+  }
+}
+
+/* Global tactile base: paper + whisper grain (fixed, behind all content) */
+html {
+  min-height: 100%;
+  background-color: var(--bg);
+}
+
+html::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background: var(--texture-paper-dark) center top / cover no-repeat;
+}
+
+html::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: var(--atm-global-grain-opacity);
+  background: var(--texture-grain) center / cover no-repeat;
+  mix-blend-mode: soft-light;
+}
+
+html.light::before,
+html.light::after {
+  display: none;
+}
+
+html.light {
+  background-color: var(--bg);
+}
+
+/* Body: solid wash so paper doesn’t fight elevated surfaces; textures live on html */
+@layer base {
+  body {
+    background-color: transparent;
+    background-image: none;
+  }
+
+  html.light body {
+    background-color: var(--bg);
+  }
+}
+
+/* Texture tiles (used inside sections / heroes) */
+@layer utilities {
+  .bg-texture-grain {
+    background-image: var(--texture-grain);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-texture-topology {
+    background-image: var(--texture-topology);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-texture-topology-fade-start {
+    background-image: var(--texture-topology);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    mask-image: linear-gradient(105deg, rgb(0 0 0 / 0.42) 0%, rgb(0 0 0 / 0.14) 42%, transparent 72%);
+    -webkit-mask-image: linear-gradient(
+      105deg,
+      rgb(0 0 0 / 0.42) 0%,
+      rgb(0 0 0 / 0.14) 42%,
+      transparent 72%
+    );
+  }
+
+  .bg-texture-light-bloom {
+    background-image: var(--texture-light-bloom);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .atm-vignette-soft {
+    background: radial-gradient(
+      ellipse 85% 70% at 50% 45%,
+      transparent 35%,
+      rgb(0 0 0 / 0.22) 100%
+    );
+  }
+
+  .atm-vignette-footer {
+    background: radial-gradient(ellipse 95% 80% at 50% 100%, transparent 20%, rgb(0 0 0 / var(--atm-footer-vignette-opacity)) 100%);
+  }
+
+  .atm-section-glow {
+    background: linear-gradient(
+      180deg,
+      rgb(201 169 98 / 0.04) 0%,
+      transparent 35%,
+      rgb(201 169 98 / 0.025) 100%
+    );
+  }
+
+}
+
+/* Section atmospheres — layers sit behind section content via isolation */
+.atm-section {
+  position: relative;
+  isolation: isolate;
+}
+
+.atm-section--transition::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: var(--atm-transition-bloom-opacity);
+  background: linear-gradient(
+      180deg,
+      rgb(201 169 98 / 0.06) 0%,
+      transparent 22%,
+      transparent 78%,
+      rgb(7 7 8 / 0.35) 100%
+    ),
+    var(--texture-light-bloom);
+  background-size: auto, cover;
+  background-position: center;
+  background-blend-mode: soft-light, normal;
+  mix-blend-mode: soft-light;
+}
+
+.atm-section--transition::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.055;
+  background: var(--texture-topology) center / cover no-repeat;
+  mask-image: radial-gradient(ellipse 70% 55% at 50% 30%, rgb(0 0 0 / 0.35), transparent 70%);
+  -webkit-mask-image: radial-gradient(ellipse 70% 55% at 50% 30%, rgb(0 0 0 / 0.35), transparent 70%);
+}
+
+.atm-section--quote::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  z-index: 0;
+  pointer-events: none;
+  opacity: var(--atm-quote-bloom-opacity);
+  background: var(--texture-light-bloom) center / cover no-repeat;
+  mix-blend-mode: soft-light;
+}
+
+.atm-section--quote::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: var(--atm-quote-grain-opacity);
+  background: var(--texture-grain) center / cover no-repeat;
+  mix-blend-mode: soft-light;
+}
+
+.atm-quote-paper-hint {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.045;
+  background: var(--texture-paper-dark) center / cover no-repeat;
+  mix-blend-mode: multiply;
+}
+
+.atm-section--transition > * {
+  position: relative;
+  z-index: 1;
+}
+
+.atm-section--quote > :not(.atm-quote-paper-hint) {
+  position: relative;
+  z-index: 1;
+}
+
+.atm-footer {
+  position: relative;
+  isolation: isolate;
+}
+
+.atm-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: var(--atm-footer-vignette-opacity);
+  background: radial-gradient(ellipse 120% 90% at 50% 110%, rgb(0 0 0 / 0.55), transparent 55%);
+}
+
+.atm-footer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: var(--atm-footer-topology-opacity);
+  background: var(--texture-topology) center / cover no-repeat;
+  mask-image: linear-gradient(180deg, transparent 0%, rgb(0 0 0 / 0.35) 100%);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, rgb(0 0 0 / 0.35) 100%);
+  mix-blend-mode: overlay;
+}
+
+.atm-footer-grain {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: var(--atm-footer-grain-opacity);
+  background: var(--texture-grain) center / cover no-repeat;
+  mix-blend-mode: soft-light;
+}
+
+.atm-footer__inner {
+  position: relative;
+  z-index: 1;
+}
+
+/*
+ * Homepage hero — light theme: scrim + photo lift only. Hero copy uses Tailwind `light:*`
+ * utilities (see globals `@custom-variant light`) so colors win over `text-fg` / `text-muted`.
+ */
+html.light .hero-home__media img {
+  filter: brightness(1.06) saturate(0.94);
+}
+
+html.light .hero-home__scrim {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 18%,
+    color-mix(in srgb, var(--bg) 38%, transparent) 36%,
+    color-mix(in srgb, var(--bg) 82%, transparent) 56%,
+    color-mix(in srgb, var(--bg) 94%, transparent) 72%,
+    var(--bg) 88%
+  );
+}
+
+html.light .start-page__media img {
+  filter: brightness(1.06) saturate(0.94);
+}
+
+html.light .start-page__scrim {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 18%,
+    color-mix(in srgb, var(--bg) 38%, transparent) 36%,
+    color-mix(in srgb, var(--bg) 82%, transparent) 56%,
+    color-mix(in srgb, var(--bg) 94%, transparent) 72%,
+    var(--bg) 88%
+  );
+}
+
+html.light .books-page__media img {
+  filter: brightness(1.06) saturate(0.94);
+}
+
+html.light .books-page__scrim {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 18%,
+    color-mix(in srgb, var(--bg) 38%, transparent) 36%,
+    color-mix(in srgb, var(--bg) 82%, transparent) 56%,
+    color-mix(in srgb, var(--bg) 94%, transparent) 72%,
+    var(--bg) 88%
+  );
+}

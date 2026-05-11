@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# After Certainty · Site
 
-## Getting Started
+Intellectual commons surface for **After Certainty** — books metadata, podcast hub, patterns library, and collaboration entry points. Books live in separate repositories; this project consumes exported manifests and stays visually restrained (literary, cinematic, dark-first).
 
-First, run the development server:
+## Stack
+
+- **Next.js** (App Router, React Server Components by default)
+- **TypeScript**
+- **Tailwind CSS v4** with `@tailwindcss/typography`
+- **MDX** via `@next/mdx` + `remark-gfm`
+- **next-themes** for appearance (defaults to dark; light tokens included)
+
+## Getting started
 
 ```bash
+npm install
+cp .env.example .env.local   # optional — see NEXT_PUBLIC_SITE_URL
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command          | Purpose                          |
+| ---------------- | -------------------------------- |
+| `npm run dev`    | Local development                |
+| `npm run build`  | Production build                 |
+| `npm run start`  | Serve production build           |
+| `npm run lint`   | ESLint                           |
+| `npm run format` | Prettier write                   |
 
-## Learn More
+## Environment
 
-To learn more about Next.js, take a look at the following resources:
+Set **`NEXT_PUBLIC_SITE_URL`** to your canonical domain so metadata, Open Graph, RSS links, and `sitemap.xml` resolve correctly. Production: `https://www.after-certainty.com` (see `.env.example`).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Content architecture
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Kind             | Location / notes                                             |
+| ---------------- | ------------------------------------------------------------ |
+| Typed models     | `types/content.ts`                                           |
+| Sample manifests | `data/*.json` — replace or sync from CI / books repo output    |
+| MDX pages        | `content/mdx/*.mdx`, imported from routes under `app/`          |
+| Site copy config | `lib/site-config.ts`                                          |
 
-## Deploy on Vercel
+Wire real manifests by swapping JSON under `data/` or pointing loaders in `lib/content-data.ts` at generated artifacts.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment (Vercel)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Connect the repository.
+2. Set **NEXT_PUBLIC_SITE_URL** to `https://www.after-certainty.com` in project Environment Variables.
+3. Defaults assume Node build (`next build`); output is static-first with prerendered routes.
+
+The podcast RSS URL is `siteConfig.podcastRssUrl` (Anchor). The site **fetches that feed on the server** (`lib/podcast-rss.ts`, cached + **revalidated every hour** via `fetch`); episode lists and the home “latest episode” block use that data. If the feed is unreachable (offline dev, CI, etc.), lists fall back to `data/podcast-episodes.json`. `/feed.xml` still redirects to Anchor for podcast apps.
+
+## Design notes
+
+- **Serif display**: Cormorant Garamond (`--font-display-serif`)
+- **Sans body**: Source Sans 3 (`--font-sans-body`)
+- **Accent**: restrained gold via CSS tokens in `styles/tokens.css`
+- Layout primitives: `components/ui/*`, shell in `components/layout/*`
+
+## License
+
+Site content and configuration follow the project policy you adopt for the commons; attribute remixes under **CC BY-SA** where noted in the footer.

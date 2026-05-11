@@ -1,0 +1,29 @@
+/* Design tokens — dark-first, restrained gold, literary palette */
+:root {
+  color-scheme: dark;
+  /* Static paths — deployed from /public/textures */
+  --texture-grain: url("/textures/grain.webp");
+  --texture-topology: url("/textures/topology-overlay.webp");
+  --texture-light-bloom: url("/textures/light-bloom.webp");
+  --texture-paper-dark: url("/textures/paper-dark.webp");
+  --bg: #070708;
+  --bg-elevated: #0e0e10;
+  --fg: #ece8e1;
+  --muted: #a39e94;
+  --border: rgba(236, 232, 225, 0.12);
+  --accent: #c9a962;
+  --accent-soft: rgba(201, 169, 98, 0.14);
+  --glow: rgba(201, 169, 98, 0.08);
+}
+
+.light {
+  color-scheme: light;
+  --bg: #f6f3ec;
+  --bg-elevated: #ffffff;
+  --fg: #141210;
+  --muted: #4a4844;
+  --border: rgba(20, 18, 16, 0.12);
+  --accent: #8a6f2d;
+  --accent-soft: rgba(138, 111, 45, 0.12);
+  --glow: rgba(138, 111, 45, 0.06);
+}
