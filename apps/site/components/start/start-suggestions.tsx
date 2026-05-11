@@ -7,7 +7,7 @@ import { getBooks, getPodcastEpisodes } from "@/lib/content-data";
 const fallbackThumb = "/images/hero/hero-backdrop.png";
 
 export async function StartSuggestions() {
-  const books = getBooks();
+  const books = await getBooks();
   const episodes = await getPodcastEpisodes();
   const episode = episodes[0];
   const essay = books.find((b) => b.slug === "patterns-of-attention") ?? books[0];

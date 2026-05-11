@@ -29,12 +29,13 @@ const WOLTY_STATIC_PATHS = [
  * All pathname segments to expose in sitemap.xml — deduped, stable order.
  * Keeps catalog books, book subsites, unified pattern library, and WoLTY pattern URLs.
  */
-export function getSitemapPaths(): string[] {
+export async function getSitemapPaths(): Promise<string[]> {
   const paths: string[] = [];
 
   paths.push(...TOP_LEVEL_PATHS);
 
-  for (const book of getBooks()) {
+  const books = await getBooks();
+  for (const book of books) {
     paths.push(getBookDetailHref(book.slug));
   }
 
@@ -59,11 +60,12 @@ export function getSitemapPaths(): string[] {
   return unique;
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = resolveDeploymentUrl();
   const lastModified = new Date();
+  const pathList = await getSitemapPaths();
 
-  return getSitemapPaths().map((path) => ({
+  return pathList.map((path) => ({
     url: `${base}${path}`,
     lastModified,
   }));

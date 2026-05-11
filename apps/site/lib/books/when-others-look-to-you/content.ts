@@ -133,9 +133,6 @@ export type PatternCardItem = {
 
 export const site = {
   headerTitle: "WHEN OTHERS LOOK TO YOU",
-  footerTitle: "When Others Look to You",
-  footerSubtitle: "Renewal and Erosion in Leadership",
-  copyrightLine: `© ${new Date().getFullYear()} Kevin Steffensen`,
   nav: [
     { label: "THE IDEA", href: "/books/when-others-look-to-you/idea" },
     { label: "PATTERNS", href: "/books/when-others-look-to-you/patterns" },
@@ -144,20 +141,18 @@ export const site = {
     { label: "RESOURCES", href: "/books/when-others-look-to-you/resources" },
   ],
   headerCta: { label: "READ THE BOOK", href: "/books/when-others-look-to-you/book" },
-  /** Footer Medium icon */
-  mediumProfileHref: "https://medium.com/@steffensen.kevin",
-  /** Footer YouTube channel */
-  youtubeChannelHref: "https://www.youtube.com/@kstefftube",
-  /** Footer LinkedIn profile */
-  linkedInProfileHref: "https://www.linkedin.com/in/ksteffe/",
-  /** Footer GitHub — book source repository */
-  githubRepoHref: "https://github.com/ksteffe/after-certainty",
 } as const;
 
 /** `/book` — retailer / reader links (swap for real destinations when available). */
 export type BookPageLink = {
   label: string;
   href: string;
+};
+
+/** Extra download blocks (e.g. companion edition) — filled from the release manifest at runtime */
+export type BookCompanionDownloadSection = {
+  heading: string;
+  links: readonly BookPageLink[];
 };
 
 export type BookPageContent = {
@@ -167,6 +162,7 @@ export type BookPageContent = {
   paragraphs: readonly string[];
   readLinks: readonly BookPageLink[];
   coverAlt: string;
+  companionDownloadSections?: readonly BookCompanionDownloadSection[];
 };
 
 export const bookPageContent: BookPageContent = {

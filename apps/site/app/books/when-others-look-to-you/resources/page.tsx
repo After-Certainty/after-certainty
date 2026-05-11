@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { SimpleMarketingPage } from "@/components/books/when-others-look-to-you/pages/SimpleMarketingPage";
 import { Button } from "@/components/books/when-others-look-to-you/ui/Button";
-import { bookGithubDownloads, getAllPatterns, woltyBasePath } from "@/lib/books/when-others-look-to-you/content";
+import { getWoltyManifestDownloadUrls } from "@/lib/books/when-others-look-to-you/catalog-downloads";
+import { getAllPatterns, woltyBasePath } from "@/lib/books/when-others-look-to-you/content";
 import { buildPageMetadata } from "@/lib/books/when-others-look-to-you/metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -13,7 +14,9 @@ export async function generateMetadata(): Promise<Metadata> {
   });
 }
 
-export default function ResourcesPage() {
+export default async function ResourcesPage() {
+  const { primary, companions } = await getWoltyManifestDownloadUrls();
+
   const mediumArticles = getAllPatterns().flatMap((pattern) =>
     pattern.detail.mediumArticleHref
       ? [
@@ -58,7 +61,7 @@ export default function ResourcesPage() {
           </p>
           <div className="flex flex-col gap-3 pt-1 sm:flex-row sm:flex-wrap">
             <Button
-              href={bookGithubDownloads.epub}
+              href={primary.epubUrl}
               variant="secondary"
               target="_blank"
               rel="noopener noreferrer"
@@ -67,7 +70,7 @@ export default function ResourcesPage() {
               Download EPUB
             </Button>
             <Button
-              href={bookGithubDownloads.docx}
+              href={primary.docxUrl}
               variant="secondary"
               target="_blank"
               rel="noopener noreferrer"
@@ -76,6 +79,42 @@ export default function ResourcesPage() {
               Download DOCX
             </Button>
           </div>
+
+          {companions.filter((c) => c.epubUrl || c.docxUrl).length > 0
+            ? companions
+                .filter((c) => c.epubUrl || c.docxUrl)
+                .map((c) => (
+                <div key={c.heading} className="space-y-3 border-t border-white/10 pt-6">
+                  <h3 className="font-[family-name:var(--font-heading)] text-base font-semibold text-zinc-200">
+                    {c.heading}
+                  </h3>
+                  <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                    {c.epubUrl ? (
+                      <Button
+                        href={c.epubUrl}
+                        variant="secondary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full justify-center sm:w-auto"
+                      >
+                        Download EPUB
+                      </Button>
+                    ) : null}
+                    {c.docxUrl ? (
+                      <Button
+                        href={c.docxUrl}
+                        variant="secondary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full justify-center sm:w-auto"
+                      >
+                        Download DOCX
+                      </Button>
+                    ) : null}
+                  </div>
+                </div>
+              ))
+            : null}
         </div>
 
         {mediumArticles.length > 0 ? (

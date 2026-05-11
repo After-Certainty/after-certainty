@@ -18,6 +18,21 @@ export function resolveDeploymentUrl(): string {
 /** Default Anchor RSS — override with `PODCAST_RSS_URL` on the server */
 export const DEFAULT_PODCAST_RSS_URL = "https://anchor.fm/s/1126d00c0/podcast/rss";
 
+/** Generated catalog from the books repo release asset — override with `BOOKS_MANIFEST_URL` */
+export const DEFAULT_BOOKS_MANIFEST_URL =
+  "https://github.com/ksteffe/after-certainty/releases/download/latest/books-manifest.json";
+
+/** When set to `1`, skip network fetch and use bundled `data/books-manifest.json` only. */
+export function isBooksManifestOffline(): boolean {
+  return process.env.BOOKS_MANIFEST_OFFLINE?.trim() === "1";
+}
+
+/** Resolved manifest URL for server-side fetch (ISR). Empty env uses GitHub `latest` asset. */
+export function resolveBooksManifestUrl(): string {
+  const envUrl = process.env.BOOKS_MANIFEST_URL?.trim();
+  return envUrl && envUrl.length > 0 ? envUrl : DEFAULT_BOOKS_MANIFEST_URL;
+}
+
 /** Resolved podcast RSS for server-side fetch, `<link rel="alternate">`, redirects */
 export function resolvePodcastRssUrl(): string {
   const envUrl = process.env.PODCAST_RSS_URL?.trim();
@@ -32,7 +47,24 @@ export type PodcastPlatformLinks = {
   githubDiscussions: string;
 };
 
-/** Editorial / directory links — env overrides with sensible fallbacks */
+/** Outbound profile / repo links for the site footer (same defaults as the former WoLTY microsite footer). */
+export type SiteSocialLinks = {
+  github: string;
+  medium: string;
+  linkedIn: string;
+  youtube: string;
+};
+
+export function resolveSiteSocialLinks(): SiteSocialLinks {
+  const gh = "https://github.com/ksteffe/after-certainty";
+  return {
+    github: process.env.NEXT_PUBLIC_SOCIAL_GITHUB_URL?.trim() || gh,
+    medium: process.env.NEXT_PUBLIC_SOCIAL_MEDIUM_URL?.trim() || "https://medium.com/@steffensen.kevin",
+    linkedIn: process.env.NEXT_PUBLIC_SOCIAL_LINKEDIN_URL?.trim() || "https://www.linkedin.com/in/ksteffe/",
+    youtube: process.env.NEXT_PUBLIC_SOCIAL_YOUTUBE_URL?.trim() || "https://www.youtube.com/@kstefftube",
+  };
+}
+
 export function resolvePodcastPlatformLinks(): PodcastPlatformLinks {
   const gh = "https://github.com/ksteffe/after-certainty";
   return {

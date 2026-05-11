@@ -1,87 +1,82 @@
-import { afterEach, beforeEach, describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it } from "vitest";
 
 import {
-  DEFAULT_PODCAST_RSS_URL,
-  resolveDeploymentUrl,
-  resolvePodcastPlatformLinks,
-  resolvePodcastRssUrl,
+  DEFAULT_BOOKS_MANIFEST_URL,
+  isBooksManifestOffline,
+  resolveBooksManifestUrl,
+  resolveSiteSocialLinks,
 } from "@/lib/site-config";
 
-describe("resolveDeploymentUrl", () => {
-  let prevSite: string | undefined;
-  let prevVercel: string | undefined;
-
-  beforeEach(() => {
-    prevSite = process.env.NEXT_PUBLIC_SITE_URL;
-    prevVercel = process.env.VERCEL_URL;
-    delete process.env.NEXT_PUBLIC_SITE_URL;
-    delete process.env.VERCEL_URL;
-  });
-
+describe("resolveBooksManifestUrl", () => {
+  let prev: string | undefined;
   afterEach(() => {
-    process.env.NEXT_PUBLIC_SITE_URL = prevSite;
-    process.env.VERCEL_URL = prevVercel;
+    process.env.BOOKS_MANIFEST_URL = prev;
   });
-
-  it("uses explicit NEXT_PUBLIC_SITE_URL and strips trailing slash", () => {
-    process.env.NEXT_PUBLIC_SITE_URL = "https://example.com/";
-    expect(resolveDeploymentUrl()).toBe("https://example.com");
+  it("uses default GitHub latest asset when env unset", () => {
+    prev = process.env.BOOKS_MANIFEST_URL;
+    delete process.env.BOOKS_MANIFEST_URL;
+    expect(resolveBooksManifestUrl()).toBe(DEFAULT_BOOKS_MANIFEST_URL);
   });
-
-  it("falls back to https://VERCEL_URL when site URL is unset", () => {
-    process.env.VERCEL_URL = "my-app.vercel.app";
-    expect(resolveDeploymentUrl()).toBe("https://my-app.vercel.app");
-  });
-
-  it("defaults to localhost when no env is set", () => {
-    expect(resolveDeploymentUrl()).toBe("http://localhost:3000");
+  it("trims custom BOOKS_MANIFEST_URL", () => {
+    prev = process.env.BOOKS_MANIFEST_URL;
+    process.env.BOOKS_MANIFEST_URL = "  https://example.com/manifest.json  ";
+    expect(resolveBooksManifestUrl()).toBe("https://example.com/manifest.json");
   });
 });
 
-describe("resolvePodcastRssUrl", () => {
-  let prevRss: string | undefined;
-
-  beforeEach(() => {
-    prevRss = process.env.PODCAST_RSS_URL;
-  });
+describe("resolveSiteSocialLinks", () => {
+  const keys = ["NEXT_PUBLIC_SOCIAL_GITHUB_URL", "NEXT_PUBLIC_SOCIAL_MEDIUM_URL", "NEXT_PUBLIC_SOCIAL_LINKEDIN_URL", "NEXT_PUBLIC_SOCIAL_YOUTUBE_URL"] as const;
+  const saved: Record<string, string | undefined> = {};
 
   afterEach(() => {
-    process.env.PODCAST_RSS_URL = prevRss;
+    for (const k of keys) {
+      const v = saved[k];
+      if (v === undefined) delete process.env[k];
+      else process.env[k] = v;
+    }
   });
 
-  it("returns PODCAST_RSS_URL when set", () => {
-    process.env.PODCAST_RSS_URL = "https://feeds.example.com/podcast.xml";
-    expect(resolvePodcastRssUrl()).toBe("https://feeds.example.com/podcast.xml");
+  it("returns defaults when env unset", () => {
+    for (const k of keys) {
+      saved[k] = process.env[k];
+      delete process.env[k];
+    }
+    const s = resolveSiteSocialLinks();
+    expect(s.github).toBe("https://github.com/ksteffe/after-certainty");
+    expect(s.medium).toContain("medium.com");
+    expect(s.linkedIn).toContain("linkedin.com");
+    expect(s.youtube).toContain("youtube.com");
   });
 
-  it("returns default Anchor feed when env is empty", () => {
-    delete process.env.PODCAST_RSS_URL;
-    expect(resolvePodcastRssUrl()).toBe(DEFAULT_PODCAST_RSS_URL);
+  it("honors NEXT_PUBLIC_SOCIAL_GITHUB_URL override", () => {
+    for (const k of keys) {
+      saved[k] = process.env[k];
+      delete process.env[k];
+    }
+    process.env.NEXT_PUBLIC_SOCIAL_GITHUB_URL = "https://github.com/custom/repo";
+    expect(resolveSiteSocialLinks().github).toBe("https://github.com/custom/repo");
   });
 });
 
-describe("resolvePodcastPlatformLinks", () => {
-  let prev: Record<string, string | undefined>;
-
-  beforeEach(() => {
-    prev = {
-      NEXT_PUBLIC_PODCAST_SPOTIFY_URL: process.env.NEXT_PUBLIC_PODCAST_SPOTIFY_URL,
-      NEXT_PUBLIC_GITHUB_DISCUSSIONS_URL: process.env.NEXT_PUBLIC_GITHUB_DISCUSSIONS_URL,
-      PODCAST_RSS_URL: process.env.PODCAST_RSS_URL,
-    };
-    delete process.env.NEXT_PUBLIC_PODCAST_SPOTIFY_URL;
-    delete process.env.NEXT_PUBLIC_GITHUB_DISCUSSIONS_URL;
-    delete process.env.PODCAST_RSS_URL;
-  });
-
+describe("isBooksManifestOffline", () => {
+  let prev: string | undefined;
   afterEach(() => {
-    Object.assign(process.env, prev);
+    process.env.BOOKS_MANIFEST_OFFLINE = prev;
   });
-
-  it("fills rss from resolvePodcastRssUrl and githubDiscussions with default repo path", () => {
-    const links = resolvePodcastPlatformLinks();
-    expect(links.rss).toBe(DEFAULT_PODCAST_RSS_URL);
-    expect(links.githubDiscussions).toBe("https://github.com/ksteffe/after-certainty/discussions");
-    expect(links.spotify).toContain("podcasters.spotify.com");
+  it("is true for 1 and trimmed 1", () => {
+    prev = process.env.BOOKS_MANIFEST_OFFLINE;
+    process.env.BOOKS_MANIFEST_OFFLINE = "1";
+    expect(isBooksManifestOffline()).toBe(true);
+    process.env.BOOKS_MANIFEST_OFFLINE = " 1 ";
+    expect(isBooksManifestOffline()).toBe(true);
+  });
+  it("is false for 0, empty, or unset", () => {
+    prev = process.env.BOOKS_MANIFEST_OFFLINE;
+    process.env.BOOKS_MANIFEST_OFFLINE = "0";
+    expect(isBooksManifestOffline()).toBe(false);
+    process.env.BOOKS_MANIFEST_OFFLINE = "";
+    expect(isBooksManifestOffline()).toBe(false);
+    delete process.env.BOOKS_MANIFEST_OFFLINE;
+    expect(isBooksManifestOffline()).toBe(false);
   });
 });

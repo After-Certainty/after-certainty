@@ -31,6 +31,7 @@ export function BookLanding({ content }: BookLandingProps) {
     paragraphs,
     readLinks,
     coverAlt,
+    companionDownloadSections,
   } = content;
 
   return (
@@ -101,6 +102,39 @@ export function BookLanding({ content }: BookLandingProps) {
                 );
               })}
             </nav>
+
+            {companionDownloadSections?.map((section) => (
+              <section
+                key={section.heading}
+                aria-label={section.heading}
+                className="space-y-3 border-t border-neutral-200/80 pt-8"
+              >
+                <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-neutral-500">
+                  {section.heading}
+                </h2>
+                <div className="flex flex-col gap-3">
+                  {section.links.map((link) => {
+                    const outbound = isOutboundHref(link.href);
+                    const outboundProps = outbound
+                      ? ({
+                          target: "_blank",
+                          rel: "noopener noreferrer",
+                        } as const)
+                      : {};
+                    return (
+                      <Link
+                        key={`${section.heading}-${link.href}-${link.label}`}
+                        href={link.href}
+                        className={cn(secondaryLinkClass, "w-full min-w-0 justify-center whitespace-nowrap")}
+                        {...outboundProps}
+                      >
+                        {link.label}
+                      </Link>
+                    );
+                  })}
+                </div>
+              </section>
+            ))}
           </article>
         </div>
       </Container>

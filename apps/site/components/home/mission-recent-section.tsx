@@ -6,7 +6,7 @@ import { getBookDetailHref, getFeaturedCatalogBook, getPodcastEpisodes } from "@
 const episodeFallbackArt = "/images/hero/hero-backdrop.png";
 
 export async function MissionRecentSection() {
-  const book = getFeaturedCatalogBook();
+  const book = await getFeaturedCatalogBook();
   const episodes = await getPodcastEpisodes();
   const episode = episodes[0];
 

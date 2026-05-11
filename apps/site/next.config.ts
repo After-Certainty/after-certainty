@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
         hostname: "d3t3ozftmdmh3i.cloudfront.net",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "raw.githubusercontent.com",
+        pathname: "/ksteffe/after-certainty/**",
+      },
     ],
   },
   experimental: {

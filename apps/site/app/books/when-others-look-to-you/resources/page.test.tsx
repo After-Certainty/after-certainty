@@ -4,8 +4,9 @@ import { describe, expect, it } from "vitest";
 import ResourcesPage from "./page";
 
 describe("resources page", () => {
-  it("lists Medium articles using pattern names as link text", () => {
-    render(<ResourcesPage />);
+  it("lists Medium articles using pattern names as link text", async () => {
+    const ui = await ResourcesPage();
+    render(ui);
 
     const section = screen.getByRole("heading", { name: /medium articles/i }).closest("section");
 
@@ -20,8 +21,9 @@ describe("resources page", () => {
     );
   });
 
-  it("lists YouTube videos as outbound watch links using pattern names", () => {
-    render(<ResourcesPage />);
+  it("lists YouTube videos as outbound watch links using pattern names", async () => {
+    const ui = await ResourcesPage();
+    render(ui);
 
     const section = screen.getByRole("heading", { name: /youtube videos/i }).closest("section");
 

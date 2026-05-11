@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-import { Footer } from "@/components/books/when-others-look-to-you/layout/Footer";
 import { Header } from "@/components/books/when-others-look-to-you/layout/Header";
 import { fontBody, fontHeading } from "@/lib/books/when-others-look-to-you/fonts";
 import { site, woltyBasePath } from "@/lib/books/when-others-look-to-you/content";
@@ -16,13 +15,6 @@ export default function WhenOthersLookToYouLayout({ children }: { children: Reac
         cta={site.headerCta}
       />
       <div className="relative min-h-0 min-w-0 flex-1 overflow-x-clip">{children}</div>
-      <Footer
-        homeHref={woltyBasePath}
-        bookTitle={site.footerTitle}
-        bookSubtitle={site.footerSubtitle}
-        nav={site.nav}
-        copyrightLine={site.copyrightLine}
-      />
     </div>
   );
 }

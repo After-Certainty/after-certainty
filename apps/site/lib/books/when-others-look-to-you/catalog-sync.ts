@@ -1,7 +1,9 @@
 import { assets, bookGithubDownloads, bookPageContent } from "@/lib/books/when-others-look-to-you/content";
+import { WOLTY_V1_SLUG } from "@/lib/books/generated-manifest";
 import type { Book } from "@/types/content";
 
-const SLUG = "when-others-look-to-you";
+/** Legacy bundled manifest row slug */
+const SLUG_LEGACY = "when-others-look-to-you";
 
 /** Publication year shown in catalog — align with `content.ts` / releases (GitHub). */
 const WOLTY_CATALOG_YEAR = 2026;
@@ -11,7 +13,7 @@ const WOLTY_CATALOG_YEAR = 2026;
  * Keeps catalog themes, links, etc. from JSON while syncing title, subtitle, description, cover art, EPUB URL, and year.
  */
 export function mergeWhenOthersLookToYouCatalog(book: Book): Book {
-  if (book.slug !== SLUG) return book;
+  if (book.slug !== SLUG_LEGACY && book.slug !== WOLTY_V1_SLUG) return book;
 
   return {
     ...book,
@@ -19,7 +21,8 @@ export function mergeWhenOthersLookToYouCatalog(book: Book): Book {
     subtitle: bookPageContent.subtitle,
     description: bookPageContent.paragraphs.join(" "),
     coverImage: assets.bookCover,
-    epubUrl: bookGithubDownloads.epub,
+    epubUrl: book.epubUrl ?? bookGithubDownloads.epub,
+    docxUrl: book.docxUrl ?? bookGithubDownloads.docx,
     year: WOLTY_CATALOG_YEAR,
   };
 }

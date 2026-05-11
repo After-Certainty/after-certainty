@@ -21,11 +21,11 @@ export const metadata: Metadata = createPageMetadata({
     "Long-form works in the After Certainty commons — a curated catalog of books, drafts, and open revision.",
 });
 
-export default function BooksPage() {
-  const allBooks = getBooks();
-  const featured = getFeaturedCatalogBook();
-  const library = getCatalogLibraryBooks();
-  const ongoing = getOngoingWorks();
+export default async function BooksPage() {
+  const allBooks = await getBooks();
+  const featured = await getFeaturedCatalogBook();
+  const library = await getCatalogLibraryBooks();
+  const ongoing = await getOngoingWorks();
   const themes = mergeCatalogThemes(allBooks);
 
   return (

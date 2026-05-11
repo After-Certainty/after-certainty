@@ -40,8 +40,14 @@ export interface Book {
   /** Repo for this title when distinct from site root */
   githubUrl?: string;
   epubUrl?: string;
+  docxUrl?: string;
+  pdfUrl?: string;
   /** Related listening — internal path or absolute URL */
   relatedPodcastHref?: string;
+  /** Alternate slugs from the generated manifest (canonical row is `slug`) */
+  slugAliases?: string[];
+  companionBooks?: string[];
+  companionOf?: string;
 }
 
 /** Works tracked outside the main `books` grid (lighter treatment on `/books`) */
