@@ -73,13 +73,60 @@ def to_repo_relative(repo: Path, candidate: Path) -> str | None:
         return None
 
 
-def resolve_cover_path(repo: Path, spec_path: Path, cover_value: str) -> str | None:
-    if not cover_value.strip():
+def _title_page_markdown_parent(spec: dict, book_dir: Path) -> Path | None:
+    """Directory containing generated title-page markdown, if configured."""
+    fm = spec.get("frontmatter")
+    if not isinstance(fm, dict):
         return None
-    candidate = (spec_path.parent / cover_value).resolve()
-    repo_rel = to_repo_relative(repo, candidate)
-    if repo_rel:
-        return repo_rel
+    gen = fm.get("generate")
+    if not isinstance(gen, dict) or not gen.get("enabled"):
+        return None
+    block = gen.get("title_page")
+    if not isinstance(block, dict):
+        return None
+    out_rel = str(block.get("output", "")).strip()
+    if not out_rel:
+        return None
+    title_md = (book_dir / out_rel).resolve()
+    return title_md.parent
+
+
+def resolve_cover_path(repo: Path, spec_path: Path, spec: dict, cover_value: str) -> str | None:
+    """
+    Resolve `book.title_page_cover` to a repo-relative path for raw.githubusercontent URLs.
+
+    Paths like `../BookCover.png` are authored relative to the generated title page
+    (`frontmatter.generate.title_page.output`), not relative to `book.yml`. Pandoc
+    resolves images from that markdown file's directory; match that here so URLs
+    point at the real asset under the book folder.
+    """
+    book_dir = spec_path.parent.resolve()
+    anchors: list[Path] = []
+
+    tp_parent = _title_page_markdown_parent(spec, book_dir)
+    if tp_parent is not None:
+        anchors.append(tp_parent)
+    anchors.append(book_dir)
+
+    if cover_value.strip():
+        seen: set[Path] = set()
+        for base in anchors:
+            candidate = (base / cover_value).resolve()
+            if candidate in seen:
+                continue
+            seen.add(candidate)
+            if candidate.is_file():
+                rel = to_repo_relative(repo, candidate)
+                if rel:
+                    return rel
+
+    # No `title_page_cover`, or path did not resolve: discover common filenames (EPUB cover convention).
+    for name in ("BookCover.png", "book_cover.png", "book-cover.png"):
+        candidate = (book_dir / name).resolve()
+        if candidate.is_file():
+            rel = to_repo_relative(repo, candidate)
+            if rel:
+                return rel
     return None
 
 
@@ -132,7 +179,7 @@ def build_book_entry(
                 companion_books.append(s)
     enabled_formats = set(spec_formats(spec))
     cover_value = str(book.get("title_page_cover", "")).strip()
-    cover_repo_path = resolve_cover_path(repo, spec_path, cover_value)
+    cover_repo_path = resolve_cover_path(repo, spec_path, spec, cover_value)
 
     entry: dict = {
         "slug": slug,
