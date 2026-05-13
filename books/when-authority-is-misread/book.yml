@@ -37,6 +37,8 @@ build:
       enabled: true
     epub:
       enabled: true
+    pdf:
+      enabled: true
 
 github:
   release: true
@@ -44,3 +46,4 @@ github:
   artifacts:
     - docx
     - epub
+    - pdf

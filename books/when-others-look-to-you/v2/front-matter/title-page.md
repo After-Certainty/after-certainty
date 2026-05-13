@@ -1,4 +1,4 @@
-![Cover](../BookCover.png){ width=100% }
+![Cover](BookCover.png){ width=100% }
 
 \newpage
 
