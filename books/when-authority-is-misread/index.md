@@ -1,6 +1,5 @@
 When Authority Is Misread
-How Communication, Constraint, and Moral Legitimacy Drift from Human
-Scale to History
+How Communication and Moral Judgment Shape Leadership at Scale
 Author: Kevin Steffensen
 
 - [Title Page](front-matter/title-page.md)

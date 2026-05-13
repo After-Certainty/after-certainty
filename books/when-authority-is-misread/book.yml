@@ -6,12 +6,14 @@ publishing:
 book:
   id: when-authority-is-misread
   title: "When Authority Is Misread"
+  subtitle: "How Communication and Moral Judgment Shape Leadership at Scale"
   description: "An examination of what happens when signals of confidence are mistaken for legitimacy, and how that confusion distorts trust and decision-making."
   author:
     name: "Kevin Steffensen"
     website: "https://after-certainty.com"
   language: en
   copyright_year: 2026
+  title_page_cover: book-cover.png
 
 paths:
   manuscript: "./index.md"
