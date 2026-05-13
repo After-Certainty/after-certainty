@@ -95,10 +95,10 @@ def resolve_cover_path(repo: Path, spec_path: Path, spec: dict, cover_value: str
     """
     Resolve `book.title_page_cover` to a repo-relative path for raw.githubusercontent URLs.
 
-    Paths like `../BookCover.png` are authored relative to the generated title page
-    (`frontmatter.generate.title_page.output`), not relative to `book.yml`. Pandoc
-    resolves images from that markdown file's directory; match that here so URLs
-    point at the real asset under the book folder.
+    Values are usually basenames (e.g. `BookCover.png`) at the book root; resolution
+    tries the title-page output directory first, then the book directory, so manifest
+    URLs match the on-disk asset. Pandoc exports pass `--resource-path=<book_dir>`,
+    which resolves those basenames for DOCX/PDF.
     """
     book_dir = spec_path.parent.resolve()
     anchors: list[Path] = []

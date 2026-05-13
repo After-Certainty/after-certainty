@@ -17,7 +17,7 @@ book:
     website: "https://after-certainty.com"
   language: en
   copyright_year: 2026
-  title_page_cover: ./BookCover.png
+  title_page_cover: BookCover.png
   title_page_newpage_after: true
 
 paths:
@@ -52,6 +52,8 @@ build:
       enabled: true
     epub:
       enabled: true
+    pdf:
+      enabled: true
 
 github:
   release: true
@@ -59,3 +61,4 @@ github:
   artifacts:
     - docx
     - epub
+    - pdf

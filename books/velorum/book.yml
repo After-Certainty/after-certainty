@@ -13,7 +13,7 @@ book:
     website: "https://after-certainty.com"
   language: en
   copyright_year: 2026
-  title_page_cover: ../book_cover.png
+  title_page_cover: book_cover.png
   title_page_footer: |
     Author-facing planning and voice rules live under [`docs/`](../docs/); this page is for **exports** only.
 
@@ -41,6 +41,8 @@ build:
       enabled: true
     epub:
       enabled: true
+    pdf:
+      enabled: true
 
 github:
   release: true
@@ -48,3 +50,4 @@ github:
   artifacts:
     - docx
     - epub
+    - pdf
