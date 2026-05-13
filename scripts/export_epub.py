@@ -59,6 +59,8 @@ def main() -> None:
         cover = (book_dir / "BookCover.png").as_posix()
     elif (book_dir / "book_cover.png").exists():
         cover = (book_dir / "book_cover.png").as_posix()
+    elif (book_dir / "book-cover.png").exists():
+        cover = (book_dir / "book-cover.png").as_posix()
 
     cmd = [
         args.pandoc,
