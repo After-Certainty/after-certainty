@@ -6,12 +6,13 @@ upcoming:
 book:
   id: after-certainty
   title: "After Certainty"
-  subtitle: "Leadership in an Age of Ambiguity"
-  description: "A provisional exploration of trust, authority, and communication when stable narratives no longer hold."
+  subtitle: "How to Live and Judge When Understanding is not Enough"
+  description: "Exploring meaning, trust, leadership, and human systems in a world beyond certainty."
   author:
     name: "Contributors TBD"
   language: en
   copyright_year: 2026
+  title_page_cover: book-cover.png
 
 build:
   formats:

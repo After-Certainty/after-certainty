@@ -6,11 +6,13 @@ upcoming:
 book:
   id: when-interpretation-no-longer-matters
   title: "When Interpretation No Longer Matters"
+  subtitle: "Authority After Understanding Collapses"
   description: "A manuscript on meaning collapse when systems reward certainty over interpretation."
   author:
     name: "Contributors TBD"
   language: en
   copyright_year: 2026
+  title_page_cover: book-cover.png
 
 build:
   formats:

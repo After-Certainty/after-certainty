@@ -118,11 +118,29 @@ def load_upcoming_spec(path: Path) -> dict[str, Any]:
     return data
 
 
+def load_any_book_spec(spec_path: Path) -> dict[str, Any]:
+    """
+    Load and validate `book.yml` whether it lives under `books/` (publishable) or
+    `upcoming/` (metadata-only pipeline), based on the presence of an `upcoming` block.
+    """
+    with spec_path.open("r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    if not isinstance(data, dict):
+        raise ValueError(f"Expected mapping in {spec_path}")
+    if isinstance(data.get("upcoming"), dict):
+        validate_upcoming_spec(data, spec_path)
+        return data
+    validate_book_spec(data, spec_path)
+    return data
+
+
 def spec_book_dir(spec_path: Path) -> Path:
     return spec_path.parent.resolve()
 
 
 def spec_publish_enabled(spec: dict[str, Any]) -> bool:
+    if isinstance(spec.get("upcoming"), dict):
+        return False
     publishing = _as_dict(spec.get("publishing"))
     # enabled defaults to true so existing books are publishable by default.
     return publishing.get("enabled", True) is not False
