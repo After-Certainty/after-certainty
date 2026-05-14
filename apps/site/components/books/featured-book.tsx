@@ -29,7 +29,7 @@ export function FeaturedBook({ book }: { book: Book }) {
 
   return (
     <div className="grid gap-12 lg:grid-cols-[minmax(0,340px)_1fr] lg:gap-16 xl:gap-24">
-      <div className="relative mx-auto aspect-[3/4] w-full max-w-sm overflow-hidden rounded-sm border border-border/45 bg-bg-elevated shadow-[0_24px_80px_-24px_rgba(0,0,0,0.55)] lg:mx-0 lg:max-w-none">
+      <div className="relative mx-auto aspect-[2/3] w-full max-w-sm overflow-hidden rounded-sm border border-border/45 bg-bg-elevated shadow-[0_24px_80px_-24px_rgba(0,0,0,0.55)] lg:mx-0 lg:max-w-none">
         {book.coverImage ? (
           <Image src={book.coverImage} alt="" fill className="object-cover" sizes="(max-width:1024px) 90vw, 340px" priority />
         ) : (
