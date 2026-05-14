@@ -1,0 +1,24 @@
+version: 1
+
+upcoming:
+  status: in_progress
+
+book:
+  id: the-economy-we-dont-experience
+  title: "The Economy We Don't Experience"
+  subtitle: "Leadership, Communication, and the Credibility Crisis in Economics and Politics"
+  description: "How economic narratives gain and lose credibility—and how leaders communicate when expert authority meets political pressure."
+  author:
+    name: "Contributors TBD"
+  language: en
+  copyright_year: 2026
+  title_page_cover: book-cover.png
+
+build:
+  formats:
+    docx:
+      enabled: false
+    epub:
+      enabled: false
+    pdf:
+      enabled: false

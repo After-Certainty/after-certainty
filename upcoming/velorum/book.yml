@@ -1,7 +1,7 @@
 version: 1
 
-publishing:
-  enabled: true
+upcoming:
+  status: in_progress
 
 book:
   id: velorum
@@ -13,7 +13,7 @@ book:
     website: "https://after-certainty.com"
   language: en
   copyright_year: 2026
-  title_page_cover: book_cover.png
+  title_page_cover: book-cover.png
   title_page_footer: |
     Author-facing planning and voice rules live under [`docs/`](../docs/); this page is for **exports** only.
 
@@ -38,16 +38,8 @@ frontmatter:
 build:
   formats:
     docx:
-      enabled: true
+      enabled: false
     epub:
-      enabled: true
+      enabled: false
     pdf:
-      enabled: true
-
-github:
-  release: true
-  release_tag: "latest"
-  artifacts:
-    - docx
-    - epub
-    - pdf
+      enabled: false

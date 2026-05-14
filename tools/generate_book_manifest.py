@@ -11,7 +11,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-from book_specs import SPEC_FILE_NAME, load_book_spec
+from book_specs import SPEC_FILE_NAME, load_any_book_spec
 
 
 WORD_RE = re.compile(r"[A-Za-z0-9]+(?:['-][A-Za-z0-9]+)?")
@@ -90,7 +90,7 @@ def main() -> None:
     repo = Path(args.repo).resolve()
     book_dir = (repo / args.book_dir).resolve()
     spec_path = book_dir / SPEC_FILE_NAME
-    spec = load_book_spec(spec_path)
+    spec = load_any_book_spec(spec_path)
 
     book = spec.get("book", {})
     author_names = extract_author_names(book)

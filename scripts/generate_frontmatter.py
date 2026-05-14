@@ -19,7 +19,7 @@ for _p in (_TOOLS, _SCRIPTS):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
 
-from book_specs import SPEC_FILE_NAME, load_book_spec  # noqa: E402
+from book_specs import SPEC_FILE_NAME, load_any_book_spec  # noqa: E402
 from frontmatter_gen import render_template_path, template_context_from_book  # noqa: E402
 
 
@@ -63,7 +63,7 @@ def main() -> None:
         spec_path = (repo / book_rel / SPEC_FILE_NAME).resolve()
         if not spec_path.is_file():
             raise SystemExit(f"Missing {SPEC_FILE_NAME}: {spec_path}")
-        spec = load_book_spec(spec_path)
+        spec = load_any_book_spec(spec_path)
         ctx = template_context_from_book(spec.get("book") or {})
     else:
         ctx = template_context_from_book(_manual_book(args))

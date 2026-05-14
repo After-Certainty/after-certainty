@@ -89,6 +89,54 @@
         "title_page_cover": {
           "type": "string",
           "minLength": 1
+        },
+        "title_page_footer": {
+          "type": "string"
+        },
+        "title_page_newpage_after": {
+          "type": "boolean"
+        }
+      }
+    },
+    "paths": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "manuscript",
+        "output"
+      ],
+      "properties": {
+        "manuscript": {
+          "type": "string",
+          "minLength": 1
+        },
+        "output": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "diagrams"
+      ],
+      "properties": {
+        "diagrams": {
+          "$ref": "#/$defs/assetsDiagrams"
+        }
+      }
+    },
+    "frontmatter": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "generate"
+      ],
+      "properties": {
+        "generate": {
+          "$ref": "#/$defs/frontmatterGenerate"
         }
       }
     },
@@ -107,7 +155,7 @@
               "$ref": "#/$defs/formatConfig"
             },
             "pdf": {
-              "$ref": "#/$defs/formatConfig"
+              "$ref": "#/$defs/pdfFormatConfig"
             },
             "docx": {
               "$ref": "#/$defs/formatConfig"
@@ -144,6 +192,116 @@
       "properties": {
         "enabled": {
           "type": "boolean"
+        }
+      }
+    },
+    "pdfFormatConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "page_size": {
+          "type": "string"
+        },
+        "pdf_engine": {
+          "type": "string"
+        },
+        "margins": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "top": {
+              "type": "string"
+            },
+            "bottom": {
+              "type": "string"
+            },
+            "left": {
+              "type": "string"
+            },
+            "right": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "assetsDiagrams": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "default_width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "auto_discover": {
+          "type": "boolean"
+        },
+        "entries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "svg",
+              "png"
+            ],
+            "properties": {
+              "svg": {
+                "type": "string",
+                "minLength": 1
+              },
+              "png": {
+                "type": "string",
+                "minLength": 1
+              },
+              "width": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "frontmatterGenerate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "title_page": {
+          "$ref": "#/$defs/frontmatterTemplateBlock"
+        },
+        "copyright": {
+          "$ref": "#/$defs/frontmatterTemplateBlock"
+        }
+      }
+    },
+    "frontmatterTemplateBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repo_template",
+        "output"
+      ],
+      "properties": {
+        "repo_template": {
+          "type": "string",
+          "minLength": 1
+        },
+        "output": {
+          "type": "string",
+          "minLength": 1
         }
       }
     }

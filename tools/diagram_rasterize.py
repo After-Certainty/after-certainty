@@ -107,9 +107,9 @@ def rasterize_book_diagrams(
     if spec is None:
         spec_path = root / "book.yml"
         if spec_path.is_file():
-            from book_specs import load_book_spec
+            from book_specs import load_any_book_spec
 
-            spec = load_book_spec(spec_path)
+            spec = load_any_book_spec(spec_path)
         else:
             spec = {}
 

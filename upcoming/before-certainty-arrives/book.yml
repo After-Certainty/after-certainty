@@ -4,13 +4,15 @@ upcoming:
   status: in_progress
 
 book:
-  id: before-certainty-expires
-  title: "Before Certainty Expires"
+  id: before-certainty-arrives
+  title: "Before Certainty Arrives"
+  subtitle: "How Moral Order Forms, Hardens, and Outlives Its Reasons"
   description: "Essays on the cultural preconditions that made brittle certainty feel normal and what it costs when it breaks."
   author:
     name: "Contributors TBD"
   language: en
   copyright_year: 2026
+  title_page_cover: book-cover.png
 
 build:
   formats:

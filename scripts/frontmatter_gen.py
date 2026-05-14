@@ -20,7 +20,7 @@ if str(_TOOLS) not in sys.path:
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined  # noqa: E402
 
-from book_specs import SPEC_FILE_NAME, load_book_spec  # noqa: E402
+from book_specs import SPEC_FILE_NAME, load_any_book_spec  # noqa: E402
 
 
 def _author_display(book: dict[str, Any]) -> str:
@@ -123,7 +123,7 @@ def generate_frontmatter_for_book(repo: Path, book_rel: str) -> list[Path]:
     if not spec_path.is_file():
         return []
 
-    spec = load_book_spec(spec_path)
+    spec = load_any_book_spec(spec_path)
     fm = spec.get("frontmatter") or {}
     gen = fm.get("generate")
     if not isinstance(gen, dict) or not gen.get("enabled"):
