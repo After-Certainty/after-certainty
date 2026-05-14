@@ -26,7 +26,7 @@ export function BookCard({ book }: { book: Book }) {
       href={getBookDetailHref(book.slug)}
       className="group flex h-full flex-col overflow-hidden border border-border/50 bg-bg-elevated/18 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.03)] transition-[transform,box-shadow,border-color] duration-500 ease-out hover:-translate-y-0.5 hover:border-accent/30 hover:shadow-[0_12px_48px_-12px_rgba(0,0,0,0.45),0_0_0_1px_rgba(201,169,98,0.06)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
     >
-      <div className="relative aspect-[3/4] w-full overflow-hidden border-b border-border/45 bg-bg-elevated">
+      <div className="relative aspect-[2/3] w-full overflow-hidden border-b border-border/45 bg-bg-elevated">
         {book.coverImage ? (
           <Image src={book.coverImage} alt="" fill className="object-cover opacity-95 transition-opacity duration-500 group-hover:opacity-100" sizes="(max-width:768px) 100vw, 33vw" />
         ) : (
