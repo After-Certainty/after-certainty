@@ -15,3 +15,6 @@ tools/__pycache__/
 
 # Local build outputs (e.g. make generate-books-manifest → build/books-manifest.json)
 build/
+
+# Phase B draft YAML from extract_semantic_* tools (regenerate locally; do not commit)
+semantic/_drafts/generated/

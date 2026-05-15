@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest render-semantic-glossary docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check-pandoc validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest render-semantic-glossary extract-semantic-glossary-drafts extract-semantic-pattern-drafts docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -33,6 +33,8 @@ help:
 	@echo "  make validate-semantic-manifest [SEMANTIC_MANIFEST=build/semantic-manifest.json]"
 	@echo "  make verify-semantic-manifest [SEMANTIC_MANIFEST_OUT=build/semantic-manifest.json]"
 	@echo "  make render-semantic-glossary MANIFEST=build/semantic-manifest.json OUT=path/to/glossary.md"
+	@echo "  make extract-semantic-glossary-drafts GLOSSARY_IN=books/.../glossary.md BOOK_ID=book-slug-from-book-yml"
+	@echo "  make extract-semantic-pattern-drafts PATTERN_IN=books/.../appendix-....md BOOK_ID=book-slug-from-book-yml"
 	@echo "  make clean-import-md"
 	@echo "  make spellcheck [SPELLCHECK_DIR=books/when-others-look-to-you/v1] [CODESPELL=codespell]"
 	@echo "  make typography-check-how-meaning-moves"
@@ -56,6 +58,7 @@ help:
 	@echo "  - validate-semantic-manifest validates against schema/semantic-manifest.schema.json."
 	@echo "  - verify-semantic-manifest runs semantic generation and validation."
 	@echo "  - render-semantic-glossary renders templates/glossary.md.j2 from a semantic manifest JSON."
+	@echo "  - extract-semantic-glossary-drafts / extract-semantic-pattern-drafts emit reviewable YAML under semantic/_drafts/generated/ (gitignored)."
 	@echo "  - clean-import-md deletes every ./**/import.md file."
 	@echo "  - spellcheck runs codespell on SPELLCHECK_DIR using that dir's .codespellrc."
 	@echo "  - Requires pandoc installed and available in PATH."
@@ -111,6 +114,14 @@ render-semantic-glossary:
 	@test -n "$(MANIFEST)" || { echo "Usage: make render-semantic-glossary MANIFEST=build/semantic-manifest.json OUT=books/.../glossary.md"; exit 1; }
 	@test -n "$(OUT)" || { echo "Usage: make render-semantic-glossary MANIFEST=... OUT=..."; exit 1; }
 	@python3 tools/render_semantic_glossary.py --repo . --manifest "$(MANIFEST)" --out "$(OUT)"
+
+extract-semantic-glossary-drafts:
+	@test -n "$(GLOSSARY_IN)" && test -n "$(BOOK_ID)" || { echo "Usage: make extract-semantic-glossary-drafts GLOSSARY_IN=books/.../glossary.md BOOK_ID=when-others-look-to-you-v1"; exit 1; }
+	@python3 tools/extract_semantic_glossary_drafts.py --repo . --input "$(GLOSSARY_IN)" --book-id "$(BOOK_ID)"
+
+extract-semantic-pattern-drafts:
+	@test -n "$(PATTERN_IN)" && test -n "$(BOOK_ID)" || { echo "Usage: make extract-semantic-pattern-drafts PATTERN_IN=books/.../appendix.md BOOK_ID=how-meaning-moves"; exit 1; }
+	@python3 tools/extract_semantic_pattern_drafts.py --repo . --input "$(PATTERN_IN)" --book-id "$(BOOK_ID)"
 
 docx-to-md: check-pandoc
 	@test -n "$(IN)" || { echo "Usage: make docx-to-md IN=file.docx [OUT=file.md]"; exit 1; }
