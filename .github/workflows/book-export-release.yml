@@ -23,7 +23,31 @@ permissions:
   contents: read
 
 jobs:
+  # Dedicated job so PR checks show "Semantic YAML & book specs" instead of bundling
+  # verify_semantic_yaml into the detect/matrix step.
+  semantic-yaml:
+    name: Semantic YAML & book specs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Python dependencies
+        run: |
+          set -euo pipefail
+          python3 -m pip install --user pyyaml jsonschema
+
+      - name: Validate book.yml specs
+        run: |
+          set -euo pipefail
+          make validate-book-specs
+
+      - name: Verify semantic/*.yml
+        run: |
+          set -euo pipefail
+          python3 tools/verify_semantic_yaml.py --repo . --strict-prose
+
   detect:
+    needs: semantic-yaml
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.set.outputs.matrix }}
@@ -38,9 +62,7 @@ jobs:
         id: set
         run: |
           set -euo pipefail
-          python3 -m pip install --user jinja2 pyyaml jsonschema
-          make validate-book-specs
-          python3 tools/verify_semantic_yaml.py --repo . --strict-prose
+          python3 -m pip install --user pyyaml jsonschema
           if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
             python3 tools/ci_affected_books.py --repo . --all > /tmp/books.json
           elif [ "${GITHUB_EVENT_NAME}" = "pull_request" ]; then

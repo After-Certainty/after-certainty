@@ -1,6 +1,7 @@
 # Ruff (lint + format) and pytest for tools/, scripts/, and tests/ (manifest + pipeline helpers).
+# Split into two jobs so PR checks list "lint" and "test" separately.
 
-name: Python tests
+name: Python lint & tests
 
 on:
   push:
@@ -16,7 +17,8 @@ permissions:
   contents: read
 
 jobs:
-  test:
+  lint:
+    name: Ruff (lint + format)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -31,6 +33,17 @@ jobs:
           set -euo pipefail
           python3 -m ruff check tools scripts tests
           python3 -m ruff format --check tools scripts tests
+
+  test:
+    name: pytest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          set -euo pipefail
+          python3 -m pip install --user -r requirements.txt
 
       - name: Run pytest
         run: |
