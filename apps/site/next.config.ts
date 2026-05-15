@@ -4,6 +4,12 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
   reactStrictMode: true,
+  async redirects() {
+    return [
+      { source: "/patterns", destination: "/explore/patterns", permanent: true },
+      { source: "/patterns/:slug", destination: "/explore/patterns/:slug", permanent: true },
+    ];
+  },
   images: {
     qualities: [60, 65, 70, 75, 85, 90],
     remotePatterns: [

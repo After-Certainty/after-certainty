@@ -314,3 +314,19 @@ html.light .books-page__scrim {
     var(--bg) 88%
   );
 }
+
+html.light .explore-page__media img {
+  filter: brightness(1.06) saturate(0.94);
+}
+
+html.light .explore-page__scrim {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 18%,
+    color-mix(in srgb, var(--bg) 38%, transparent) 36%,
+    color-mix(in srgb, var(--bg) 82%, transparent) 56%,
+    color-mix(in srgb, var(--bg) 94%, transparent) 72%,
+    var(--bg) 88%
+  );
+}

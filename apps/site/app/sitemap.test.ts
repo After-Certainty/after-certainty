@@ -22,7 +22,19 @@ describe("sitemap", () => {
     const entries = await sitemap();
     const urls = entries.map((e) => e.url);
 
-    for (const path of ["/", "/start", "/books", "/podcast", "/patterns", "/collaborators", "/about"] as const) {
+    for (const path of [
+      "/",
+      "/start",
+      "/books",
+      "/explore",
+      "/explore/concepts",
+      "/explore/patterns",
+      "/explore/books",
+      "/explore/sources",
+      "/podcast",
+      "/collaborators",
+      "/about",
+    ] as const) {
       expect(urls).toContain(`https://example.com${path}`);
     }
   });
@@ -35,9 +47,8 @@ describe("sitemap", () => {
     expect(urls.some((u) => u.startsWith("https://example.com/books/") && u.endsWith("/how-meaning-moves"))).toBe(true);
   });
 
-  it("includes unified pattern library and WoLTY pattern URLs", async () => {
+  it("includes WoLTY pattern URLs", async () => {
     const urls = (await sitemap()).map((e) => e.url);
-    expect(urls).toContain("https://example.com/patterns/attention-finds-a-focus");
     expect(urls).toContain("https://example.com/books/when-others-look-to-you/patterns/attention-finds-a-focus");
   });
 

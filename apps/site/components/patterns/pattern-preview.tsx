@@ -53,7 +53,7 @@ export function PatternPreview({ pattern, resolveTitle }: PatternPreviewProps) {
                 return (
                   <li key={slug}>
                     <Link
-                      href={`/patterns/${slug}`}
+                      href={`/explore/patterns/${slug}`}
                       className="text-sm text-accent underline-offset-4 transition-colors hover:text-fg hover:underline"
                     >
                       {label}
@@ -66,7 +66,7 @@ export function PatternPreview({ pattern, resolveTitle }: PatternPreviewProps) {
         ) : null}
         <div className="mt-10 flex flex-wrap gap-4 border-t border-border/35 pt-8">
           <Link
-            href={`/patterns/${pattern.slug}`}
+            href={`/explore/patterns/${pattern.slug}`}
             className="text-xs uppercase tracking-[0.22em] text-accent underline-offset-4 transition-colors hover:text-fg hover:underline"
           >
             Stable detail view →

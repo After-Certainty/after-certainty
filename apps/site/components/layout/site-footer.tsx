@@ -15,7 +15,7 @@ export function SiteFooter() {
     { label: "GitHub", href: siteConfig.githubUrl },
     { label: "RSS / Podcast feed", href: resolvePodcastRssUrl() },
     { label: "Collaborators", href: "/collaborators" },
-    { label: "Patterns library", href: "/patterns" },
+    { label: "Explore patterns", href: "/explore/patterns" },
   ];
 
   const social = resolveSiteSocialLinks();

@@ -48,7 +48,7 @@ export async function StartSuggestions() {
     {
       title: "Featured Essay",
       description: essay?.description ?? "Patterns of attention in institutions and everyday life.",
-      href: essay ? `/books/${essay.slug}` : "/patterns",
+      href: essay ? `/books/${essay.slug}` : "/explore/patterns",
       thumb: null,
     },
   ];

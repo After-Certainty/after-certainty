@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllPatterns } from "@/lib/books/when-others-look-to-you/content";
 import { getBooks, getBookDetailHref } from "@/lib/content-data";
-import { getLibraryPatterns } from "@/lib/patterns/registry";
 import { resolveDeploymentUrl } from "@/lib/site-config";
 
 /** Marketing and section landing pages */
@@ -9,8 +8,12 @@ const TOP_LEVEL_PATHS = [
   "/",
   "/start",
   "/books",
+  "/explore",
+  "/explore/concepts",
+  "/explore/patterns",
+  "/explore/books",
+  "/explore/sources",
   "/podcast",
-  "/patterns",
   "/collaborators",
   "/about",
 ] as const;
@@ -27,7 +30,7 @@ const WOLTY_STATIC_PATHS = [
 
 /**
  * All pathname segments to expose in sitemap.xml — deduped, stable order.
- * Keeps catalog books, book subsites, unified pattern library, and WoLTY pattern URLs.
+ * Keeps catalog books, book subsites, explore landing paths, and WoLTY pattern URLs.
  */
 export async function getSitemapPaths(): Promise<string[]> {
   const paths: string[] = [];
@@ -43,10 +46,6 @@ export async function getSitemapPaths(): Promise<string[]> {
 
   for (const p of getAllPatterns()) {
     paths.push(`/books/when-others-look-to-you/patterns/${p.slug}`);
-  }
-
-  for (const p of getLibraryPatterns()) {
-    paths.push(`/patterns/${p.slug}`);
   }
 
   const seen = new Set<string>();

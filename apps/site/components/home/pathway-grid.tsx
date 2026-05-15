@@ -66,7 +66,7 @@ const pathways = [
     Icon: IconPodcast,
   },
   {
-    href: "/patterns",
+    href: "/explore/patterns",
     title: "Patterns",
     description: "Reusable ideas—named, documented, and open to remix under commons terms.",
     Icon: IconPatterns,

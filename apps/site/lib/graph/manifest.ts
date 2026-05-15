@@ -1,0 +1,115 @@
+import { cache } from "react";
+import { revalidateTag } from "next/cache";
+import type { ZodError } from "zod";
+import fallbackSemantic from "@/data/semantic-manifest.json";
+import {
+  isSemanticManifestOffline,
+  resolveSemanticManifestUrl,
+} from "@/lib/site-config";
+import type { SemanticGraph } from "@/types/semanticGraph";
+import { semanticGraphSchema, toSemanticGraph } from "@/lib/graph/schemas";
+
+/** Next.js fetch / `revalidateTag` cache tag for on-demand graph refresh. */
+export const SEMANTIC_GRAPH_CACHE_TAG = "semantic-graph";
+
+export const SEMANTIC_MANIFEST_REVALIDATE_SECONDS = (() => {
+  const raw = process.env.SEMANTIC_MANIFEST_REVALIDATE_SECONDS?.trim();
+  if (!raw) return 3600;
+  const n = Number.parseInt(raw, 10);
+  return Number.isFinite(n) && n > 0 ? n : 3600;
+})();
+
+const EMPTY_GRAPH: SemanticGraph = {
+  books: [],
+  glossary: [],
+  patterns: [],
+  sources: [],
+  relationships: [],
+};
+
+function logSemanticGraphError(message: string, err?: unknown): void {
+  if (err !== undefined) {
+    console.error(`[semantic-graph] ${message}`, err);
+  } else {
+    console.error(`[semantic-graph] ${message}`);
+  }
+}
+
+/** Bundled fallback is not authoritative; production content comes from the release asset. */
+function loadBundledFallbackGraph(): SemanticGraph {
+  const validated = validateSemanticGraph(fallbackSemantic as unknown);
+  if (validated.success) {
+    return validated.data;
+  }
+  logSemanticGraphError("Bundled semantic-manifest.json failed validation; using hard empty graph.", validated.error);
+  return EMPTY_GRAPH;
+}
+
+export type ValidateSemanticGraphResult =
+  | { success: true; data: SemanticGraph; error?: undefined }
+  | { success: false; data: undefined; error: ZodError | Error };
+
+/**
+ * Runtime validation for arbitrary JSON (e.g. after fetch).
+ * Malformed manifests never throw; callers inspect `success`.
+ */
+export function validateSemanticGraph(raw: unknown): ValidateSemanticGraphResult {
+  const parsed = semanticGraphSchema.safeParse(raw);
+  if (!parsed.success) {
+    return { success: false, data: undefined, error: parsed.error };
+  }
+  return { success: true, data: toSemanticGraph(parsed.data) };
+}
+
+/**
+ * Fetch semantic graph (ISR) or return bundled JSON when offline / on failure.
+ * Exported for unit tests; production pages should call `getSemanticGraph()`.
+ */
+export async function fetchSemanticGraphUncached(): Promise<SemanticGraph> {
+  if (isSemanticManifestOffline()) {
+    return loadBundledFallbackGraph();
+  }
+
+  const url = resolveSemanticManifestUrl();
+
+  try {
+    const res = await fetch(url, {
+      next: {
+        revalidate: SEMANTIC_MANIFEST_REVALIDATE_SECONDS,
+        tags: [SEMANTIC_GRAPH_CACHE_TAG],
+      },
+      headers: { Accept: "application/json, */*" },
+    });
+
+    if (!res.ok) {
+      throw new Error(`semantic manifest HTTP ${res.status}`);
+    }
+
+    const data: unknown = await res.json();
+    const validated = validateSemanticGraph(data);
+    if (!validated.success) {
+      logSemanticGraphError("Remote semantic manifest validation failed; using bundled fallback.", validated.error);
+      return loadBundledFallbackGraph();
+    }
+    return validated.data;
+  } catch (err) {
+    logSemanticGraphError("Semantic manifest fetch failed; using bundled fallback.", err);
+    return loadBundledFallbackGraph();
+  }
+}
+
+const cachedSemanticGraph = cache(fetchSemanticGraphUncached);
+
+/** Per-request deduplicated access to the semantic graph (server components, RSC). */
+export async function getSemanticGraph(): Promise<SemanticGraph> {
+  return cachedSemanticGraph();
+}
+
+/**
+ * Invalidates cached semantic graph fetches for tag {@link SEMANTIC_GRAPH_CACHE_TAG}.
+ * Only effective when called from a server context (Route Handler, Server Action).
+ * Uses stale-while-revalidate semantics per Next.js guidance.
+ */
+export function refreshSemanticGraph(): void {
+  revalidateTag(SEMANTIC_GRAPH_CACHE_TAG, "max");
+}

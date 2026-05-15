@@ -56,7 +56,7 @@ const pathways = [
     Icon: IconPodcast,
   },
   {
-    href: "/patterns",
+    href: "/explore/patterns",
     title: "Patterns",
     description: "A growing library of recurring structures and dynamics across human systems.",
     Icon: IconPatterns,
