@@ -1,0 +1,11 @@
+slug: scale
+title: Scale
+shortDefinition: Scale is coordination beyond direct relational encounter—growth in
+  size, complexity, or abstraction layers that increases distance between decisions
+  and consequences and therefore changes how cohesion, coupling, and feedback must
+  be engineered to stay learnable.
+termKind: core
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling

@@ -1,0 +1,11 @@
+slug: waterfall
+title: Waterfall
+shortDefinition: Waterfall is used in a software engineering sense. Waterfall refers
+  to a phase-sequenced development model where requirements, design, implementation,
+  testing, and release are treated as largely distinct stages with formal handoffs
+  and review gates.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling

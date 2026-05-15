@@ -1,0 +1,25 @@
+slug: meaning-drifts-over-time
+title: Meaning Drifts Over Time
+setup: People revisit events after additional conversations, outcomes, and memory
+  updates.
+problem: Interpretation is treated as fixed even though context keeps changing.
+forces:
+- Memory gets rebuilt over time, not replayed exactly
+- Repetition favors convenient summaries
+- New context changes what earlier events seem to mean
+observation: Interpretation slowly changes as memory, context, and repetition accumulate.
+example: Meaning drifts over time and rarely stays where it first landed.
+relatedConcepts:
+- meaning
+- interpretation
+relatedPatterns:
+- meaning-outruns-the-words
+- meaning-reinforces-itself
+relatedBooks:
+- how-meaning-moves
+relatedSources:
+- easterbrook-j-a-the-effect-of-emotion-on-cue-utilization
+- gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious
+- kruglanski-arie-w-the-need-for-cognitive-closure
+- march-james-g-and-herbert-a-simon-organizations
+- ross-lee-and-andrew-ward-naive-realism-in-everyday-life

@@ -9,11 +9,12 @@ resolves from that root as well.
 
 from __future__ import annotations
 
+import sys
+from collections.abc import Mapping
 from pathlib import Path
-from typing import Any, Mapping
+from typing import Any
 
 _TOOLS = Path(__file__).resolve().parents[1] / "tools"
-import sys
 
 if str(_TOOLS) not in sys.path:
     sys.path.insert(0, str(_TOOLS))

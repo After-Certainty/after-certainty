@@ -1,0 +1,19 @@
+slug: attention-finds-a-signal
+title: Attention Finds a Signal
+setup: An exchange begins under uncertainty, urgency, or social consequence.
+problem: People need orientation before they can process complete information.
+forces:
+- People notice what stands out before they interpret it
+- Tone, timing, and power register before content
+- Social risk pushes attention toward possible consequence
+observation: What stands out first shapes what people notice next.
+example: In practice, attention finds a signal in the first cue, and that cue often
+  decides the channel everything else travels through.
+relatedConcepts:
+- consequence
+- uncertainty
+relatedPatterns:
+- meaning-forms-early
+- meaning-outruns-the-words
+relatedBooks:
+- how-meaning-moves

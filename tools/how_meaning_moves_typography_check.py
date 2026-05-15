@@ -32,8 +32,9 @@ def blocks(style: str):
             r':{3}\s*\{custom-style="Pattern Block"\}\s*\n(.*?)\n:{3}',
             re.DOTALL | re.IGNORECASE,
         )
+    escaped = re.escape(style)
     return re.compile(
-        r':{3,4}\s*\{custom-style="%s"\}\s*\n(.*?)\n:{3,4}' % style,
+        rf":{{3,4}}\s*\{{custom-style=\"{escaped}\"\}}\s*\n(.*?)\n:{{3,4}}",
         re.DOTALL | re.IGNORECASE,
     )
 
@@ -139,9 +140,7 @@ def main(argv: list[str]) -> int:
         for line_no, msg, bad_line in pattern_block_fence_errors(text):
             fence_hits.append((p, line_no, msg, bad_line))
 
-    print(
-        f"Pattern Block fence colon mismatches / malformed openings: {len(fence_hits)}"
-    )
+    print(f"Pattern Block fence colon mismatches / malformed openings: {len(fence_hits)}")
     for p, line_no, msg, bad_line in fence_hits[:40]:
         print(f"  {p}:{line_no}: {msg}")
         if bad_line:

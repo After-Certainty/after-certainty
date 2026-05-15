@@ -1,0 +1,28 @@
+slug: exceptions-are-forever
+title: Exceptions are Forever
+setup: A group adopts emergency measures or exceptions during a crisis or rush.
+problem: Moves made for speed or survival do not always roll back when things calm
+  down.
+forces:
+- Urgency justifies skipping normal limits
+- Short-term wins reinforce the exception
+- Rolling back takes effort and coordination
+- New ways of working turn into habit fast
+observation: Workarounds and shortcuts turn into how the group works day to day.
+example: Let's be careful carving out another exception—exceptions are forever, and
+  this one will outlive the emergency we made it for.
+relatedConcepts:
+- correction
+- coordination
+- decay
+- erosion
+relatedPatterns:
+- disagreement-is-suppressed
+- learning-collapses
+relatedBooks:
+- when-others-look-to-you-v1
+- coupling
+relatedSources:
+- argyris-chris-overcoming-organizational-defenses
+- cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus
+- hirschman-albert-o-exit-voice-and-loyalty

@@ -1,0 +1,12 @@
+slug: interface
+title: Interface
+shortDefinition: Interface is used in a software engineering sense. An interface is
+  the defined boundary through which one component interacts with another (for example,
+  function signatures, API endpoints, message schemas, or protocol expectations).
+  A good interface makes dependencies explicit while minimizing exposure to internal
+  implementation details.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling

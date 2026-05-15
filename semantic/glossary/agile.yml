@@ -1,0 +1,10 @@
+slug: agile
+title: Agile
+shortDefinition: Agile is used in a software engineering sense. Agile refers to iterative
+  development approaches that shorten feedback cycles, emphasize incremental delivery,
+  and increase team-level ownership of ongoing change.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling

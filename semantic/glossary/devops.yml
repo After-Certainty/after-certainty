@@ -1,0 +1,10 @@
+slug: devops
+title: DevOps
+shortDefinition: DevOps is used in a software engineering sense. DevOps refers to
+  practices and operating norms that reduce the distance between software implementation
+  and operations so that delivery, reliability, and learning stay structurally connected.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling

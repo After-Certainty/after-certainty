@@ -23,7 +23,31 @@ permissions:
   contents: read
 
 jobs:
+  # Dedicated job so PR checks show "Semantic YAML & book specs" instead of bundling
+  # verify_semantic_yaml into the detect/matrix step.
+  semantic-yaml:
+    name: Semantic YAML & book specs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Python dependencies
+        run: |
+          set -euo pipefail
+          python3 -m pip install --user pyyaml jsonschema
+
+      - name: Validate book.yml specs
+        run: |
+          set -euo pipefail
+          make validate-book-specs
+
+      - name: Verify semantic/*.yml
+        run: |
+          set -euo pipefail
+          python3 tools/verify_semantic_yaml.py --repo . --strict-prose
+
   detect:
+    needs: semantic-yaml
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.set.outputs.matrix }}
@@ -38,8 +62,7 @@ jobs:
         id: set
         run: |
           set -euo pipefail
-          python3 -m pip install --user jinja2 pyyaml jsonschema
-          make validate-book-specs
+          python3 -m pip install --user pyyaml jsonschema
           if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
             python3 tools/ci_affected_books.py --repo . --all > /tmp/books.json
           elif [ "${GITHUB_EVENT_NAME}" = "pull_request" ]; then
@@ -137,18 +160,18 @@ jobs:
         continue-on-error: true
         run: |
           mkdir -p prior
-          gh release download latest --pattern '*.docx' --pattern '*.epub' --pattern '*.pdf' --pattern '*.manifest.json' --pattern 'books-manifest.json' --dir prior || true
+          gh release download latest --pattern '*.docx' --pattern '*.epub' --pattern '*.pdf' --pattern '*.manifest.json' --pattern 'books-manifest.json' --pattern 'semantic-manifest.json' --dir prior || true
 
       - name: Merge prior assets with new builds
         run: |
           set -euo pipefail
           mkdir -p upload
           shopt -s nullglob
-          for f in prior/*.docx prior/*.epub prior/*.pdf prior/*.manifest.json prior/books-manifest.json; do
+          for f in prior/*.docx prior/*.epub prior/*.pdf prior/*.manifest.json prior/books-manifest.json prior/semantic-manifest.json; do
             [ -e "$f" ] || continue
             cp -f "$f" "upload/$(basename "$f")"
           done
-          find built -type f \( -name '*.docx' -o -name '*.epub' -o -name '*.pdf' -o -name '*.manifest.json' -o -name 'books-manifest.json' \) -exec cp -f {} upload/ \;
+          find built -type f \( -name '*.docx' -o -name '*.epub' -o -name '*.pdf' -o -name '*.manifest.json' -o -name 'books-manifest.json' -o -name 'semantic-manifest.json' \) -exec cp -f {} upload/ \;
           count=$(find upload -type f | wc -l | tr -d ' ')
           if [ "$count" -lt 1 ]; then
             echo "No files to release."
@@ -160,6 +183,7 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m pip install --user pyyaml jsonschema
+          python3 tools/verify_semantic_yaml.py --repo . --strict-prose
           python3 tools/generate_books_manifest.py \
             --repo . \
             --out upload/books-manifest.json \
@@ -167,6 +191,13 @@ jobs:
             --github-ref "main" \
             --release-tag "latest"
           python3 tools/validate_books_manifest.py --repo . --manifest upload/books-manifest.json
+          python3 tools/generate_semantic_manifest.py \
+            --repo . \
+            --out upload/semantic-manifest.json \
+            --github-repository "${{ github.repository }}" \
+            --github-ref "main" \
+            --release-tag "latest"
+          python3 tools/validate_semantic_manifest.py --repo . --manifest upload/semantic-manifest.json
 
       - name: Update latest release
         run: |

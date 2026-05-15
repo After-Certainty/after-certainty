@@ -1,0 +1,65 @@
+version: 1
+terms:
+  - slug: accountability
+    title: Accountability
+    why_it_matters: exposure to consequence
+  - slug: alignment
+    title: Alignment
+    why_it_matters: coordinated behavioral convergence
+  - slug: abstraction
+    title: Abstraction
+    why_it_matters: mediation away from direct encounter
+  - slug: compression
+    title: Compression
+    why_it_matters: reduction of complexity for transmission
+  - slug: distance
+    title: Distance
+    why_it_matters: separation from visible consequence
+  - slug: exposure
+    title: Exposure
+    why_it_matters: degree of consequence contact
+  - slug: renewal
+    title: Renewal
+    why_it_matters: restoration of legitimacy/correction
+  - slug: asymmetry
+    title: Asymmetry
+    why_it_matters: uneven distribution of power/consequence
+  - slug: throughput
+    title: Throughput
+    why_it_matters: optimization for flow/speed
+  - slug: reversibility
+    title: Reversibility
+    why_it_matters: ability to undo movement
+  - slug: constraint
+    title: Constraint
+    why_it_matters: limits preserving stability/corrigibility
+  - slug: adaptation
+    title: Adaptation
+    why_it_matters: local response to pressure
+  - slug: normalization
+    title: Normalization
+    why_it_matters: drift becoming baseline
+  - slug: momentum
+    title: Momentum
+    why_it_matters: continuation detached from renewed judgment
+  - slug: coordination
+    title: Coordination
+    why_it_matters: collective behavioral organization
+  - slug: mediation
+    title: Mediation
+    why_it_matters: interpretation through layered systems
+  - slug: inheritance
+    title: Inheritance
+    why_it_matters: persistence across generations/structures
+  - slug: drift
+    title: Drift
+    why_it_matters: gradual decoupling from original conditions
+  - slug: proximity
+    title: Proximity
+    why_it_matters: relational nearness to consequence
+  - slug: thinking
+    title: Thinking
+    why_it_matters: active interruption of automaticity
+  - slug: bureaucracy
+    title: Bureaucracy
+    why_it_matters: rule-bound institutional coordination and role-bound authority

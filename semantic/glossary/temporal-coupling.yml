@@ -1,0 +1,11 @@
+slug: temporal-coupling
+title: Temporal Coupling
+shortDefinition: The degree to which consequences return quickly enough to shape near-term
+  decisions. Strong temporal coupling shortens the time between action and correction.
+  Weak temporal coupling introduces lag, memory loss, and interpretive noise that
+  can protect failing designs from timely revision.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling

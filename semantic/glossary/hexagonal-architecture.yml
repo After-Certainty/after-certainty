@@ -1,0 +1,11 @@
+slug: hexagonal-architecture
+title: Hexagonal Architecture
+shortDefinition: Hexagonal architecture is used in a software engineering sense. Hexagonal
+  architecture (also called ports and adapters) is a boundary pattern that keeps domain
+  logic insulated from external technologies by routing integration concerns through
+  explicit interface ports and adapter implementations.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling

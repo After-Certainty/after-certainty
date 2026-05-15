@@ -1,0 +1,14 @@
+version: 1
+entries:
+  - slug: circulation
+    preserves: continuity
+  - slug: correction
+    preserves: reality-contact
+  - slug: certainty
+    preserves: coordination stability
+  - slug: judgment
+    preserves: non-automatic evaluation
+  - slug: coupling
+    preserves: exposure to consequence
+  - slug: corrigibility
+    preserves: adaptive recoverability

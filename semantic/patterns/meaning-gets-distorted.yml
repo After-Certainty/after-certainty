@@ -1,0 +1,30 @@
+slug: meaning-gets-distorted
+title: Meaning Gets Distorted
+setup: A provisional interpretation is repeated without re-exposure to source context.
+problem: Coherence is preserved at the expense of accuracy.
+forces:
+- Confirmation bias filters incoming data
+- Social reinforcement rewards consistency
+- Identity defense resists revision
+observation: Interpretation can harden in ways that no longer track reality.
+example: Meaning gets distorted when certainty outlives contact with what was actually
+  said.
+relatedConcepts:
+- meaning
+- interpretation
+- certainty
+- exposure
+- uncertainty
+relatedPatterns:
+- intent-gets-assigned
+- meaning-reinforces-itself
+relatedBooks:
+- how-meaning-moves
+- coupling
+relatedSources:
+- easterbrook-j-a-the-effect-of-emotion-on-cue-utilization
+- edmondson-amy-c-the-fearless-organization
+- gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious
+- kruglanski-arie-w-the-need-for-cognitive-closure
+- ross-lee-and-andrew-ward-naive-realism-in-everyday-life
+- ross-lee-and-richard-nisbett-the-person-and-the-situation

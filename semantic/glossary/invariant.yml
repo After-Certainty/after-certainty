@@ -1,0 +1,10 @@
+slug: invariant
+title: Invariant
+shortDefinition: A condition that should remain stable across contexts and scale if
+  a system is to stay healthy. The invariant is that responsibility should remain
+  cohesive and consequence should remain intentionally coupled.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling

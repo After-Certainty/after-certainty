@@ -1,0 +1,32 @@
+version: 1
+tensions:
+  - source: circulation
+    target: correction
+    description: continuity vs reality-contact
+  - source: authority
+    target: legitimacy
+    description: operational power vs justified recognition
+  - source: meaning
+    target: interpretation
+    description: transmission vs reconstruction
+  - source: consequence
+    target: coupling
+    description: outcomes vs exposure to outcomes
+  - source: certainty
+    target: uncertainty
+    description: coordination stability vs revisability
+  - source: acceleration
+    target: friction
+    description: throughput vs deliberation
+  - source: scale
+    target: moral-density
+    description: abstraction vs visible consequence
+  - source: reciprocity
+    target: asymmetry
+    description: shared exposure vs unequal exposure
+  - source: contestability
+    target: stability
+    description: revisability vs continuity
+  - source: adaptation
+    target: authorization
+    description: response vs normalized permission

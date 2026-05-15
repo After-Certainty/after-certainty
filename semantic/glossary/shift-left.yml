@@ -1,0 +1,10 @@
+slug: shift-left
+title: Shift Left
+shortDefinition: Shift left is used in a software engineering sense. Shift left means
+  moving quality, security, and risk checks earlier in the development lifecycle rather
+  than concentrating detection late in integration or release.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling

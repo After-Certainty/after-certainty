@@ -1,0 +1,10 @@
+slug: cohesion
+title: Cohesion
+shortDefinition: The degree to which responsibility is clearly held within a boundary
+  (team, role, function, or institution). High cohesion means ownership is legible
+  and decisions are not diffusely assigned.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling

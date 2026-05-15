@@ -1,0 +1,11 @@
+slug: dora
+title: DORA
+shortDefinition: DORA is used in a software engineering sense. DORA refers to research-backed
+  software delivery metrics and practices (for example, lead time for changes and
+  change failure rate) used to evaluate learning-loop quality between development
+  and operations.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling

@@ -1,0 +1,10 @@
+slug: authorization
+title: Authorization
+shortDefinition: >-
+  Normalized permission for action that outlasts the local pressures that first produced it; contrasts with one-off adaptation.
+termKind: extended
+relatedConcepts:
+  - adaptation
+  - legitimacy
+relatedPatterns: []
+relatedBooks: []

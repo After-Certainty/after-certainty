@@ -1,0 +1,56 @@
+version: 1
+terms:
+  - slug: authority
+    title: Authority
+    core_concern: operational coordination power
+  - slug: legitimacy
+    title: Legitimacy
+    core_concern: justified recognition of authority
+  - slug: circulation
+    title: Circulation
+    core_concern: transmission and reproduction through systems
+  - slug: correction
+    title: Correction
+    core_concern: reality-contact and revisability
+  - slug: contestability
+    title: Contestability
+    core_concern: ability to challenge without collapse
+  - slug: meaning
+    title: Meaning
+    core_concern: transmitted coordination signal
+  - slug: interpretation
+    title: Interpretation
+    core_concern: localized reconstruction of meaning
+  - slug: consequence
+    title: Consequence
+    core_concern: actual effects in reality
+  - slug: coupling
+    title: Coupling
+    core_concern: attachment between action and consequence
+  - slug: corrigibility
+    title: Corrigibility
+    core_concern: capacity for revision and recovery
+  - slug: reciprocity
+    title: Reciprocity
+    core_concern: shared exposure and mutual constraint
+  - slug: moral-density
+    title: Moral Density
+    core_concern: concentration of visible consequence and relational accountability
+  - slug: friction
+    title: Friction
+    core_concern: resistance that interrupts automatic escalation
+  - slug: acceleration
+    title: Acceleration
+    core_concern: pressure favoring speed/alignment over reflection
+  - slug: judgment
+    title: Judgment
+    core_concern: deliberate evaluation under uncertainty
+  - slug: scale
+    title: Scale
+    core_concern: coordination beyond direct relational encounter
+  - slug: certainty
+    title: Certainty
+    core_concern: stabilized coordination state
+  - slug: uncertainty
+    title: Uncertainty
+    core_concern: unresolved/revisable coordination state
