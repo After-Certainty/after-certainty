@@ -1,0 +1,30 @@
+version: 1
+relationships:
+  - source: scale
+    target: correction
+    relationship: thins
+    description: As scale increases, feedback loops weaken and correction becomes more expensive.
+  - source: circulation
+    target: authority
+    relationship: reproduces
+    description: Circulation allows authority structures to persist beyond individuals.
+  - source: correction
+    target: legitimacy
+    relationship: renews
+    description: Legitimacy remains durable when systems preserve visible correction.
+  - source: acceleration
+    target: judgment
+    relationship: pressures
+    description: Acceleration favors rapid coordination over reflective deliberation.
+  - source: friction
+    target: corrigibility
+    relationship: preserves
+    description: Corrective resistance helps systems remain revisable.
+  - source: certainty
+    target: coordination
+    relationship: stabilizes
+    description: Certainty reduces the cost of ongoing renegotiation.
+  - source: uncertainty
+    target: correction
+    relationship: preserves
+    description: Uncertainty keeps systems open to revision and learning.

@@ -1,0 +1,28 @@
+# **Glossary**
+
+These entries define words used in a precise, structural sense across the project. **Core terms** name recurring coordination dynamics. **Supporting terms** name adjacent distinctions that show up across books. **Further vocabulary** collects book-specific or extended labels that still matter locally.
+
+{% if core_terms %}
+## **Core terms**
+
+{% for g in core_terms %}
+**{{ g.title }}** — {{ g.shortDefinition }}
+
+{% endfor %}
+{% endif %}
+{% if supporting_terms %}
+## **Supporting terms**
+
+{% for g in supporting_terms %}
+**{{ g.title }}** — {{ g.shortDefinition }}
+
+{% endfor %}
+{% endif %}
+{% if extended_terms %}
+## **Further vocabulary**
+
+{% for g in extended_terms %}
+**{{ g.title }}** — {{ g.shortDefinition }}
+
+{% endfor %}
+{% endif %}

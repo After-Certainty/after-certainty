@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check-pandoc validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest render-semantic-glossary docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -8,6 +8,7 @@ FORMATS ?= docx epub
 # Default book tree for spellcheck; override for another volume, e.g. SPELLCHECK_DIR=books/other-book/v1
 SPELLCHECK_DIR ?= books/when-others-look-to-you/v1
 MANIFEST_OUT ?= build/books-manifest.json
+SEMANTIC_MANIFEST_OUT ?= build/semantic-manifest.json
 MANIFEST_REF ?= main
 MANIFEST_RELEASE_TAG ?= latest
 
@@ -28,6 +29,10 @@ help:
 	@echo "  make generate-books-manifest [MANIFEST_OUT=build/books-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
 	@echo "  make validate-books-manifest [MANIFEST=build/books-manifest.json]"
 	@echo "  make verify-books-manifest [MANIFEST_OUT=build/books-manifest.json]"
+	@echo "  make generate-semantic-manifest [SEMANTIC_MANIFEST_OUT=build/semantic-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
+	@echo "  make validate-semantic-manifest [SEMANTIC_MANIFEST=build/semantic-manifest.json]"
+	@echo "  make verify-semantic-manifest [SEMANTIC_MANIFEST_OUT=build/semantic-manifest.json]"
+	@echo "  make render-semantic-glossary MANIFEST=build/semantic-manifest.json OUT=path/to/glossary.md"
 	@echo "  make clean-import-md"
 	@echo "  make spellcheck [SPELLCHECK_DIR=books/when-others-look-to-you/v1] [CODESPELL=codespell]"
 	@echo "  make typography-check-how-meaning-moves"
@@ -47,6 +52,10 @@ help:
 	@echo "  - generate-books-manifest aggregates /books and metadata-backed /upcoming entries into MANIFEST_OUT."
 	@echo "  - validate-books-manifest validates MANIFEST JSON against schema/books-manifest.schema.json."
 	@echo "  - verify-books-manifest runs both generation and validation for local CI parity."
+	@echo "  - generate-semantic-manifest builds semantic-manifest.json (books + glossary + patterns + sources + relationships)."
+	@echo "  - validate-semantic-manifest validates against schema/semantic-manifest.schema.json."
+	@echo "  - verify-semantic-manifest runs semantic generation and validation."
+	@echo "  - render-semantic-glossary renders templates/glossary.md.j2 from a semantic manifest JSON."
 	@echo "  - clean-import-md deletes every ./**/import.md file."
 	@echo "  - spellcheck runs codespell on SPELLCHECK_DIR using that dir's .codespellrc."
 	@echo "  - Requires pandoc installed and available in PATH."
@@ -82,6 +91,26 @@ validate-books-manifest:
 	python3 tools/validate_books_manifest.py --repo . --manifest "$$manifest"
 
 verify-books-manifest: generate-books-manifest validate-books-manifest
+
+generate-semantic-manifest: validate-book-specs
+	@repo="$${GITHUB_REPOSITORY:-$$(git remote get-url origin 2>/dev/null | sed -e 's#^git@github.com:##' -e 's#^https://github.com/##' -e 's#\.git$$##')}"; \
+	python3 tools/generate_semantic_manifest.py \
+		--repo . \
+		--out "$(SEMANTIC_MANIFEST_OUT)" \
+		--github-repository "$$repo" \
+		--github-ref "$(MANIFEST_REF)" \
+		--release-tag "$(MANIFEST_RELEASE_TAG)"
+
+validate-semantic-manifest:
+	@manifest="$${SEMANTIC_MANIFEST:-$(SEMANTIC_MANIFEST_OUT)}"; \
+	python3 tools/validate_semantic_manifest.py --repo . --manifest "$$manifest"
+
+verify-semantic-manifest: generate-semantic-manifest validate-semantic-manifest
+
+render-semantic-glossary:
+	@test -n "$(MANIFEST)" || { echo "Usage: make render-semantic-glossary MANIFEST=build/semantic-manifest.json OUT=books/.../glossary.md"; exit 1; }
+	@test -n "$(OUT)" || { echo "Usage: make render-semantic-glossary MANIFEST=... OUT=..."; exit 1; }
+	@python3 tools/render_semantic_glossary.py --repo . --manifest "$(MANIFEST)" --out "$(OUT)"
 
 docx-to-md: check-pandoc
 	@test -n "$(IN)" || { echo "Usage: make docx-to-md IN=file.docx [OUT=file.md]"; exit 1; }

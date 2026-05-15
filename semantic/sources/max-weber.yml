@@ -1,0 +1,13 @@
+slug: max-weber
+name: Max Weber
+type: person
+summary: >-
+  Sociologist whose work on legitimacy, bureaucracy, and authority informs institutional themes across the project.
+concepts:
+  - authority
+  - legitimacy
+  - bureaucracy
+patterns: []
+relatedBooks:
+  - when-authority-outlives-accountability
+  - coupling
