@@ -6,5 +6,8 @@ relatedConcepts:
   - meaning
   - interpretation
   - compression
+relatedPatterns:
+  - gaps-invite-completion
+  - intent-gets-assigned
 relatedBooks:
   - how-meaning-moves

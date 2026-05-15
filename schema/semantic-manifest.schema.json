@@ -280,7 +280,7 @@
     "patternEntry": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "slug", "title", "summary", "relatedConcepts", "relatedBooks"],
+      "required": ["id", "slug", "title", "summary", "relatedConcepts", "relatedPatterns", "relatedBooks"],
       "properties": {
         "id": {
           "type": "string",
@@ -302,6 +302,13 @@
           "items": {
             "type": "string",
             "pattern": "^concept-[a-zA-Z0-9._-]+$"
+          }
+        },
+        "relatedPatterns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^pattern-[a-zA-Z0-9._-]+$"
           }
         },
         "relatedBooks": {

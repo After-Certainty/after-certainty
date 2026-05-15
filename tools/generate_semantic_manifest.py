@@ -291,6 +291,7 @@ def build_patterns(repo: Path) -> list[dict]:
             "title": str(data.get("title", slug)).strip(),
             "summary": str(data.get("summary", "")).strip(),
             "relatedConcepts": [concept_id(s) for s in _normalize_concept_slugs(data.get("relatedConcepts"))],
+            "relatedPatterns": [pattern_id(s) for s in _normalize_pattern_slugs(data.get("relatedPatterns"))],
             "relatedBooks": [book_id(s) for s in _normalize_book_slugs(data.get("relatedBooks"))],
         }
         out.append(entry)

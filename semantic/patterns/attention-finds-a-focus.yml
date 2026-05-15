@@ -6,5 +6,8 @@ relatedConcepts:
   - meaning
   - coordination
   - uncertainty
+relatedPatterns:
+  - examples-accumulate
+  - leadership-coalesces
 relatedBooks:
   - when-others-look-to-you-v1

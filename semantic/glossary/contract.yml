@@ -1,0 +1,19 @@
+slug: contract
+title: Contract
+shortDefinition: 'In this book, contract is used in a software engineering sense.
+  A contract is the explicit behavioral agreement attached to an interface: what inputs
+  are valid, what outputs are expected, what errors can occur, and what invariants
+  are guaranteed. Strong contracts reduce ambiguity between components and make failures
+  easier to diagnose.'
+longDefinition: 'In this book, contract is used in a software engineering sense.
+
+
+  A contract is the explicit behavioral agreement attached to an interface: what inputs
+  are valid, what outputs are expected, what errors can occur, and what invariants
+  are guaranteed. Strong contracts reduce ambiguity between components and make failures
+  easier to diagnose.'
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling
