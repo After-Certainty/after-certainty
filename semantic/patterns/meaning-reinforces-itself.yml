@@ -1,14 +1,27 @@
 slug: meaning-reinforces-itself
 title: Meaning Reinforces Itself
-summary: A group repeats interactions through an existing interpretive frame. **Problem:**
-  The frame no longer feels provisional. **Forces:** - Selective attention confirms
-  prior meaning - Repetition normalizes prior conclusions - Social alignment penalizes
-  interpretive differences **Observation:** Once established, interpretation begins
-  shaping future interpretation. > Meaning reinforces itself when what we conclude
-  once becomes what we > are prepared to see again.
-relatedConcepts: []
+setup: A group repeats interactions through an existing interpretive frame.
+problem: The frame no longer feels provisional.
+forces:
+- Selective attention confirms prior meaning
+- Repetition normalizes prior conclusions
+- Social alignment penalizes interpretive differences
+observation: Once established, interpretation begins shaping future interpretation.
+example: Meaning reinforces itself when what we conclude once becomes what we are
+  prepared to see again.
+relatedConcepts:
+- meaning
+- alignment
+- inheritance
+- interpretation
 relatedPatterns:
 - meaning-shifts-under-pressure
 - meaning-gets-distorted
 relatedBooks:
 - how-meaning-moves
+relatedSources:
+- easterbrook-j-a-the-effect-of-emotion-on-cue-utilization
+- gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious
+- kruglanski-arie-w-the-need-for-cognitive-closure
+- march-james-g-and-herbert-a-simon-organizations
+- ross-lee-and-andrew-ward-naive-realism-in-everyday-life

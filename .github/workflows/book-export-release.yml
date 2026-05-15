@@ -40,6 +40,7 @@ jobs:
           set -euo pipefail
           python3 -m pip install --user jinja2 pyyaml jsonschema
           make validate-book-specs
+          python3 tools/verify_semantic_yaml.py --repo . --strict-prose
           if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
             python3 tools/ci_affected_books.py --repo . --all > /tmp/books.json
           elif [ "${GITHUB_EVENT_NAME}" = "pull_request" ]; then
@@ -160,6 +161,7 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m pip install --user pyyaml jsonschema
+          python3 tools/verify_semantic_yaml.py --repo . --strict-prose
           python3 tools/generate_books_manifest.py \
             --repo . \
             --out upload/books-manifest.json \

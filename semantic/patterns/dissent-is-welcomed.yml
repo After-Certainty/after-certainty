@@ -1,13 +1,18 @@
 slug: dissent-is-welcomed
 title: Dissent is Welcomed
-summary: Problems, risks, or failures show up inside a group or setting. **Problem:**
-  Timely **correction** depends on whether bad news can reach those who decide. **Forces:**
-  - Speaking up can cost people socially or at work - Reporting lines filter or delay
-  information - Good news travels easier than bad news - People learn what is safe
-  to say **Observation:** Problems show up early. Reality reaches those who decide
-  in time. > "If you see a problem, say it now. Dissent is welcomed here—we can't
-  fix what we don't raise while it's still small."
-relatedConcepts: []
+setup: Problems, risks, or failures show up inside a group or setting.
+problem: Timely correction depends on whether bad news can reach those who decide.
+forces:
+- Speaking up can cost people socially or at work
+- Reporting lines filter or delay information
+- Good news travels easier than bad news
+- People learn what is safe to say
+observation: Problems show up early. Reality reaches those who decide in time.
+example: If you see a problem, say it now. Dissent is welcomed here—we can't fix what
+  we don't raise while it's still small.
+relatedConcepts:
+- correction
+- vitality
 relatedPatterns:
 - examples-accumulate
 - learning-collapses

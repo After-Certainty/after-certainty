@@ -1,14 +1,30 @@
 slug: meaning-shifts-under-pressure
 title: Meaning Shifts Under Pressure
-summary: Communication occurs under conflict, urgency, authority, or high stakes.
-  **Problem:** The need for rapid action competes with staying close to what was actually
-  meant. **Forces:** - Time pressure rewards certainty - Power asymmetry increases
-  defensive reading - Consequence anticipation narrows options **Observation:** Urgency,
-  conflict, and consequence accelerate interpretation. > Pressure shrinks the distance
-  between what people notice and what they treat as settled.
-relatedConcepts: []
+setup: Communication occurs under conflict, urgency, authority, or high stakes.
+problem: The need for rapid action competes with staying close to what was actually
+  meant.
+forces:
+- Time pressure rewards certainty
+- Power asymmetry increases defensive reading
+- Consequence anticipation narrows options
+observation: Urgency, conflict, and consequence accelerate interpretation.
+example: Pressure shrinks the distance between what people notice and what they treat
+  as settled.
+relatedConcepts:
+- meaning
+- consequence
+- asymmetry
+- certainty
+- distance
+- interpretation
 relatedPatterns:
 - meaning-forms-early
 - meaning-gets-distorted
 relatedBooks:
 - how-meaning-moves
+relatedSources:
+- easterbrook-j-a-the-effect-of-emotion-on-cue-utilization
+- gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious
+- kruglanski-arie-w-the-need-for-cognitive-closure
+- march-james-g-and-herbert-a-simon-organizations
+- ross-lee-and-andrew-ward-naive-realism-in-everyday-life

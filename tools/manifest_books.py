@@ -132,7 +132,9 @@ def format_entry(repo_slug: str, release_tag: str, fmt: str, stem: str, enabled:
     return {
         "enabled": enabled,
         "file": filename,
-        "url": release_asset_url(repo_slug, release_tag, filename) if enabled and repo_slug else None,
+        "url": release_asset_url(repo_slug, release_tag, filename)
+        if enabled and repo_slug
+        else None,
     }
 
 
@@ -179,7 +181,9 @@ def build_book_entry(
         "description": str(book.get("description", "")).strip() or None,
         "authors": extract_author_names(book),
         "year": book.get("copyright_year"),
-        "coverImage": raw_content_url(repo_slug, ref, cover_repo_path) if cover_repo_path and repo_slug else None,
+        "coverImage": raw_content_url(repo_slug, ref, cover_repo_path)
+        if cover_repo_path and repo_slug
+        else None,
         "coverImagePath": cover_repo_path,
         "bookDir": book_dir.relative_to(repo).as_posix(),
         "docx": format_entry(repo_slug, release_tag, "docx", stem, "docx" in enabled_formats),

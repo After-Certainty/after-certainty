@@ -1,12 +1,16 @@
 slug: intent-gets-assigned
 title: Intent Gets Assigned
-summary: A statement lands with emotional or relational significance. **Problem:**
-  Listeners need to decide whether they are safe, respected, or at risk. **Forces:**
-  - People turn behavior into motive quickly - Threat makes defensive readings more
-  likely - Relationship history primes expectation **Observation:** People infer motive
-  before certainty is possible. > Intent gets assigned in the same instant impact
-  is noticed.
-relatedConcepts: []
+setup: A statement lands with emotional or relational significance.
+problem: Listeners need to decide whether they are safe, respected, or at risk.
+forces:
+- People turn behavior into motive quickly
+- Threat makes defensive readings more likely
+- Relationship history primes expectation
+observation: People infer motive before certainty is possible.
+example: Intent gets assigned in the same instant impact is noticed.
+relatedConcepts:
+- certainty
+- meaning
 relatedPatterns:
 - gaps-invite-completion
 - meaning-gets-distorted

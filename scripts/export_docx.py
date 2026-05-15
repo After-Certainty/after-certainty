@@ -44,7 +44,13 @@ def main() -> None:
     if not units:
         raise SystemExit(f"No markdown units found from {book_dir / 'index.md'}")
 
-    cmd = [args.pandoc, *[p.as_posix() for p in units], f"--resource-path={book_dir}", "-o", out.as_posix()]
+    cmd = [
+        args.pandoc,
+        *[p.as_posix() for p in units],
+        f"--resource-path={book_dir}",
+        "-o",
+        out.as_posix(),
+    ]
     ref_doc = book_dir / "docs" / "reference.docx"
     if ref_doc.exists():
         cmd.insert(-2, f"--reference-doc={ref_doc}")

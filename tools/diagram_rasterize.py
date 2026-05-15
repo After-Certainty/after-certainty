@@ -123,9 +123,7 @@ def rasterize_book_diagrams(
             continue
         png_path.parent.mkdir(parents=True, exist_ok=True)
 
-        stale = (not png_path.is_file()) or (
-            png_path.stat().st_mtime < svg_path.stat().st_mtime
-        )
+        stale = (not png_path.is_file()) or (png_path.stat().st_mtime < svg_path.stat().st_mtime)
 
         if stale:
             if rsvg := shutil.which("rsvg-convert"):

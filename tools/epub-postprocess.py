@@ -2,8 +2,8 @@
 import argparse
 import re
 from pathlib import Path
-from zipfile import ZIP_DEFLATED, ZipFile
 from xml.etree import ElementTree as ET
+from zipfile import ZIP_DEFLATED, ZipFile
 
 
 def remove_cover_from_spine(epub_path: Path) -> None:

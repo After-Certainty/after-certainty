@@ -23,9 +23,7 @@ except ModuleNotFoundError as exc:  # pragma: no cover
 
 from semantic_extract import repo_relative, slugify_heading
 
-BOLD_START = re.compile(
-    r"^\s*\*\*(?P<title>[^*]+)\*\*\s*(?:[—:\-]|\u2013)\s*(?P<first>.*)\s*$"
-)
+BOLD_START = re.compile(r"^\s*\*\*(?P<title>[^*]+)\*\*\s*(?:[—:\-]|\u2013)\s*(?P<first>.*)\s*$")
 H2 = re.compile(r"^## (?P<title>.+?)\s*$")
 
 
@@ -158,7 +156,11 @@ def main() -> None:
 
     fmt = args.format
     if fmt == "auto":
-        fmt = "bold_emdash" if re.search(r"^\s*\*\*[^*]+\*\*\s*[—:\-\u2013]", text, re.MULTILINE) else "h2"
+        fmt = (
+            "bold_emdash"
+            if re.search(r"^\s*\*\*[^*]+\*\*\s*[—:\-\u2013]", text, re.MULTILINE)
+            else "h2"
+        )
 
     if fmt == "bold_emdash":
         raw_entries = parse_bold_emdash(text)
@@ -184,12 +186,15 @@ def main() -> None:
         )
         if rec.get("longDefinition") is None:
             del rec["longDefinition"]
-        yml = yaml.safe_dump(
-            rec,
-            allow_unicode=True,
-            default_flow_style=False,
-            sort_keys=False,
-        ).rstrip() + "\n"
+        yml = (
+            yaml.safe_dump(
+                rec,
+                allow_unicode=True,
+                default_flow_style=False,
+                sort_keys=False,
+            ).rstrip()
+            + "\n"
+        )
         if args.print:
             print(f"# --- {slug}.yml ---\n{yml}")
         else:

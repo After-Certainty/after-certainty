@@ -1,13 +1,22 @@
 slug: feedback-drives-change
 title: Feedback Drives Change
-summary: 'New facts, visible risk, or bad assumptions show up after direction is set.
-  **Problem:** The group must choose: change course or protect the public story and
-  what people already signed up for. **Forces:** - Going public makes reversal costly
-  - Momentum favors staying the course - Saying we were wrong can threaten legitimacy
-  - Small fixes are easier than full reversals **Observation:** The group shifts direction
-  based on new facts or new risk. > "We''re not wed to yesterday''s plan—feedback
-  drives change, and what we learned this morning changes what we ship."'
-relatedConcepts: []
+setup: New facts, visible risk, or bad assumptions show up after direction is set.
+problem: 'The group must choose: change course or protect the public story and what
+  people already signed up for.'
+forces:
+- Going public makes reversal costly
+- Momentum favors staying the course
+- Saying we were wrong can threaten legitimacy
+- Small fixes are easier than full reversals
+observation: The group shifts direction based on new facts or new risk.
+example: We're not wed to yesterday's plan—feedback drives change, and what we learned
+  this morning changes what we ship.
+relatedConcepts:
+- feedback
+- adaptability
+- legitimacy
+- momentum
+- vitality
 relatedPatterns:
 - dissent-is-welcomed
 - leaders-feel-the-consequences

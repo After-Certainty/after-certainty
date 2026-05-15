@@ -183,12 +183,15 @@ def main() -> None:
             source_path=src.resolve(),
             repo=repo,
         )
-        yml = yaml.safe_dump(
-            rec,
-            allow_unicode=True,
-            default_flow_style=False,
-            sort_keys=False,
-        ).rstrip() + "\n"
+        yml = (
+            yaml.safe_dump(
+                rec,
+                allow_unicode=True,
+                default_flow_style=False,
+                sort_keys=False,
+            ).rstrip()
+            + "\n"
+        )
         if args.print:
             print(f"# --- {slug}.yml ---\n{yml}")
         else:

@@ -1,0 +1,38 @@
+# Ruff (lint + format) and pytest for tools/, scripts/, and tests/ (manifest + pipeline helpers).
+
+name: Python tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: python-tests-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          set -euo pipefail
+          python3 -m pip install --user -r requirements.txt
+
+      - name: Ruff lint and format check
+        run: |
+          set -euo pipefail
+          python3 -m ruff check tools scripts tests
+          python3 -m ruff format --check tools scripts tests
+
+      - name: Run pytest
+        run: |
+          set -euo pipefail
+          python3 -m pytest tests/ -q --tb=short

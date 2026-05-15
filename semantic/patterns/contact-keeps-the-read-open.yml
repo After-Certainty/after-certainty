@@ -1,14 +1,28 @@
 slug: contact-keeps-the-read-open
 title: Contact Keeps the Read Open
-summary: People return to a difficult exchange with more context and lower reactivity.
-  **Problem:** Early interpretation may be useful but still too rough. **Forces:**
-  - Additional context widens what people can see - Lower emotional charge improves
-  tolerance for ambiguity - Restraint keeps meaning revisable **Observation:** Additional
-  context can sharpen understanding without fully resolving it. > Contact keeps the
-  read open when understanding tightens without the story > having to close.
-relatedConcepts: []
+setup: People return to a difficult exchange with more context and lower reactivity.
+problem: Early interpretation may be useful but still too rough.
+forces:
+- Additional context widens what people can see
+- Lower emotional charge improves tolerance for ambiguity
+- Restraint keeps meaning revisable
+observation: Additional context can sharpen understanding without fully resolving
+  it.
+example: Contact keeps the read open when understanding tightens without the story
+  having to close.
+relatedConcepts:
+- meaning
+- interpretation
+- uncertainty
 relatedPatterns:
 - meaning-outruns-the-words
 - meaning-gets-distorted
 relatedBooks:
 - how-meaning-moves
+relatedSources:
+- easterbrook-j-a-the-effect-of-emotion-on-cue-utilization
+- edmondson-amy-c-the-fearless-organization
+- gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious
+- kruglanski-arie-w-the-need-for-cognitive-closure
+- ross-lee-and-andrew-ward-naive-realism-in-everyday-life
+- ross-lee-and-richard-nisbett-the-person-and-the-situation

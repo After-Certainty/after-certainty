@@ -4,12 +4,6 @@ shortDefinition: The degree to which the people who design or decide also remain
   to execution and runtime consequence. Operational coupling is stronger when builders,
   operators, and reviewers share consequence exposure. It is weaker when handoffs
   separate decision authority from incident impact.
-longDefinition: 'The degree to which the people who design or decide also remain close
-  to execution and runtime consequence.
-
-
-  Operational coupling is stronger when builders, operators, and reviewers share consequence
-  exposure. It is weaker when handoffs separate decision authority from incident impact.'
 termKind: extended
 relatedConcepts: []
 relatedPatterns: []

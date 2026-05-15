@@ -39,11 +39,7 @@ def discover_book_spec_paths(repo: Path) -> list[Path]:
     books_root = (repo / "books").resolve()
     if not books_root.is_dir():
         return []
-    paths = [
-        p.resolve()
-        for p in books_root.rglob(SPEC_FILE_NAME)
-        if ".git" not in p.parts
-    ]
+    paths = [p.resolve() for p in books_root.rglob(SPEC_FILE_NAME) if ".git" not in p.parts]
     return sorted(set(paths))
 
 
@@ -52,11 +48,7 @@ def discover_upcoming_spec_paths(repo: Path) -> list[Path]:
     upcoming_root = (repo / "upcoming").resolve()
     if not upcoming_root.is_dir():
         return []
-    paths = [
-        p.resolve()
-        for p in upcoming_root.rglob(SPEC_FILE_NAME)
-        if ".git" not in p.parts
-    ]
+    paths = [p.resolve() for p in upcoming_root.rglob(SPEC_FILE_NAME) if ".git" not in p.parts]
     return sorted(set(paths))
 
 
@@ -88,7 +80,9 @@ def validate_book_spec(spec: dict[str, Any], spec_path: Path) -> None:
         jsonschema.validate(instance=spec, schema=schema)
     except jsonschema.ValidationError as exc:
         location = ".".join(str(p) for p in exc.path) or "<root>"
-        raise ValueError(f"{spec_path}: schema validation failed at {location}: {exc.message}") from exc
+        raise ValueError(
+            f"{spec_path}: schema validation failed at {location}: {exc.message}"
+        ) from exc
 
 
 def validate_upcoming_spec(spec: dict[str, Any], spec_path: Path) -> None:
@@ -97,7 +91,9 @@ def validate_upcoming_spec(spec: dict[str, Any], spec_path: Path) -> None:
         jsonschema.validate(instance=spec, schema=schema)
     except jsonschema.ValidationError as exc:
         location = ".".join(str(p) for p in exc.path) or "<root>"
-        raise ValueError(f"{spec_path}: schema validation failed at {location}: {exc.message}") from exc
+        raise ValueError(
+            f"{spec_path}: schema validation failed at {location}: {exc.message}"
+        ) from exc
 
 
 def load_book_spec(path: Path) -> dict[str, Any]:

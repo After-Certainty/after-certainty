@@ -8,13 +8,12 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 from book_specs import SPEC_FILE_NAME, load_any_book_spec
 from manifest_books import extract_author_names
 from manifest_markdown import resolve_markdown_units
-
 
 WORD_RE = re.compile(r"[A-Za-z0-9]+(?:['-][A-Za-z0-9]+)?")
 
@@ -64,7 +63,7 @@ def main() -> None:
         "formats": [f.strip().lower() for f in args.formats if f.strip()],
         "word_count": count_words(units),
         "chapters": count_chapters(units),
-        "build_date": datetime.now(timezone.utc).date().isoformat(),
+        "build_date": datetime.now(UTC).date().isoformat(),
     }
 
     out_path = Path(args.out).resolve()

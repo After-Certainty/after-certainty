@@ -1,3 +1,10 @@
 slug: judgment
+title: Judgment
+shortDefinition: 'Judgment is deliberate evaluation under uncertainty: slowing automatic
+  escalation long enough to weigh tradeoffs honestly, keep coordination aligned with
+  consequence rather than with speed alone, and preserve room for contestability.'
+termKind: core
+relatedConcepts: []
+relatedPatterns: []
 relatedBooks:
 - coupling

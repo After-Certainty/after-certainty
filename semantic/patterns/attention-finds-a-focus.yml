@@ -1,13 +1,29 @@
 slug: attention-finds-a-focus
 title: Attention Finds a Focus
-summary: >-
-  When next steps are unclear, attention settles on a person or cue; others line up behavior with that focus and influence compounds quickly.
+setup: The group faces unclear next steps. It needs direction.
+problem: People need to work together. No clear process has named who will lead.
+forces:
+- People want a steer when things are unclear
+- Silence pushes someone to act
+- Early signals weigh extra
+- Leadership can show up without anyone planning it
+observation: Attention settles on one person. Others start lining up their behavior
+  with that person's actions, tone, or timing.
+example: When nobody knows the next move, attention finds a focus fast—then direction
+  follows whether anyone planned it or not.
 relatedConcepts:
-  - meaning
-  - coordination
-  - uncertainty
+- meaning
+- coordination
+- uncertainty
+- circulation
+- correction
+- erosion
+- interpretation
+- renewal
 relatedPatterns:
-  - examples-accumulate
-  - leadership-coalesces
+- examples-accumulate
+- leadership-coalesces
 relatedBooks:
-  - when-others-look-to-you-v1
+- when-others-look-to-you-v1
+relatedSources:
+- cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus

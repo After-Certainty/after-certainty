@@ -280,7 +280,21 @@
     "patternEntry": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "slug", "title", "summary", "relatedConcepts", "relatedPatterns", "relatedBooks"],
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "summary",
+        "setup",
+        "problem",
+        "forces",
+        "observation",
+        "example",
+        "relatedConcepts",
+        "relatedPatterns",
+        "relatedBooks",
+        "relatedSources"
+      ],
       "properties": {
         "id": {
           "type": "string",
@@ -295,6 +309,25 @@
           "minLength": 1
         },
         "summary": {
+          "type": "string"
+        },
+        "setup": {
+          "type": "string"
+        },
+        "problem": {
+          "type": "string"
+        },
+        "forces": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "observation": {
+          "type": "string"
+        },
+        "example": {
           "type": "string"
         },
         "relatedConcepts": {
@@ -316,6 +349,13 @@
           "items": {
             "type": "string",
             "pattern": "^book-[a-zA-Z0-9._-]+$"
+          }
+        },
+        "relatedSources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^source-[a-zA-Z0-9._-]+$"
           }
         }
       }

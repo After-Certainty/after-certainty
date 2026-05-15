@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest render-semantic-glossary extract-semantic-glossary-drafts extract-semantic-pattern-drafts docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest render-semantic-glossary extract-semantic-glossary-drafts extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -11,6 +11,10 @@ MANIFEST_OUT ?= build/books-manifest.json
 SEMANTIC_MANIFEST_OUT ?= build/semantic-manifest.json
 MANIFEST_REF ?= main
 MANIFEST_RELEASE_TAG ?= latest
+# Optional space-separated book ids for promote-semantic-source-drafts (default: all draft folders).
+SOURCE_PROMOTE_BOOK_IDS ?=
+# Set to 1 to skip --prune when promoting from all draft folders (keep extra semantic/sources/*.yml).
+SOURCE_PROMOTE_NO_PRUNE ?=
 
 help:
 	@echo "Pandoc conversion helpers"
@@ -25,16 +29,23 @@ help:
 	@echo "  make export-pdf DIR=path/to/book-folder [OUT_STEM=basename]"
 	@echo "  make export-all-docx"
 	@echo "  make build-book DIR=path/from/repo/root [OUT_DIR=build/...] [FORMATS=\"docx epub pdf\"]"
+	@echo "  make test  (pytest: manifest + semantic YAML pipeline smoke tests)"
+	@echo "  make lint  (ruff check + format --check on tools/, scripts/, tests/)"
+	@echo "  make lint-fix  (ruff check --fix + ruff format; writes files)"
 	@echo "  make validate-book-specs"
 	@echo "  make generate-books-manifest [MANIFEST_OUT=build/books-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
 	@echo "  make validate-books-manifest [MANIFEST=build/books-manifest.json]"
 	@echo "  make verify-books-manifest [MANIFEST_OUT=build/books-manifest.json]"
 	@echo "  make generate-semantic-manifest [SEMANTIC_MANIFEST_OUT=build/semantic-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
+	@echo "  make verify-semantic-yaml  (parse + slug checks + prose audit; use before manifest)"
 	@echo "  make validate-semantic-manifest [SEMANTIC_MANIFEST=build/semantic-manifest.json]"
 	@echo "  make verify-semantic-manifest [SEMANTIC_MANIFEST_OUT=build/semantic-manifest.json]"
 	@echo "  make render-semantic-glossary MANIFEST=build/semantic-manifest.json OUT=path/to/glossary.md"
 	@echo "  make extract-semantic-glossary-drafts GLOSSARY_IN=books/.../glossary.md BOOK_ID=book-slug-from-book-yml"
 	@echo "  make extract-semantic-pattern-drafts PATTERN_IN=books/.../appendix-....md BOOK_ID=book-slug-from-book-yml"
+	@echo "  make extract-semantic-source-drafts BIBLIO_IN=books/.../bibliography.md BOOK_ID=book-slug-from-book-yml"
+	@echo "  make promote-semantic-source-drafts [SOURCE_PROMOTE_BOOK_IDS='id1 id2'] [SOURCE_PROMOTE_NO_PRUNE=1]"
+	@echo "  make infer-semantic-source-links"
 	@echo "  make clean-import-md"
 	@echo "  make spellcheck [SPELLCHECK_DIR=books/when-others-look-to-you/v1] [CODESPELL=codespell]"
 	@echo "  make typography-check-how-meaning-moves"
@@ -56,20 +67,34 @@ help:
 	@echo "  - verify-books-manifest runs both generation and validation for local CI parity."
 	@echo "  - generate-semantic-manifest builds semantic-manifest.json (books + glossary + patterns + sources + relationships)."
 	@echo "  - validate-semantic-manifest validates against schema/semantic-manifest.schema.json."
-	@echo "  - verify-semantic-manifest runs semantic generation and validation."
+	@echo "  - verify-semantic-yaml checks all semantic/**/*.yml (excludes _drafts); --strict-prose in target below."
+	@echo "  - verify-semantic-manifest runs verify-semantic-yaml, semantic generation, and validation."
 	@echo "  - render-semantic-glossary renders templates/glossary.md.j2 from a semantic manifest JSON."
-	@echo "  - extract-semantic-glossary-drafts / extract-semantic-pattern-drafts emit reviewable YAML under semantic/_drafts/generated/ (gitignored)."
-	@echo "  - clean-import-md deletes every ./**/import.md file."
+	@echo "  - extract-semantic-glossary-drafts / extract-semantic-pattern-drafts / extract-semantic-source-drafts emit reviewable YAML under semantic/_drafts/generated/ (gitignored)."
+	@echo "  - extract-semantic-source-drafts expects list-style bibliographies like when-others-look-to-you/v1 and how-meaning-moves (Author. *Title* or Author. \"Article.\")."
+	@echo "  - promote-semantic-source-drafts merges semantic/_drafts/generated/sources/<book-id>/ into semantic/sources/ (Author — Title names). Full promote (no SOURCE_PROMOTE_BOOK_IDS) passes --prune unless SOURCE_PROMOTE_NO_PRUNE=1."
+	@echo "  - infer-semantic-source-links scans manuscript markdown for co-mentions (sources: concepts/patterns; patterns: relatedSources). Preview with: python3 tools/infer_semantic_source_links.py --repo . --dry-run"
 	@echo "  - spellcheck runs codespell on SPELLCHECK_DIR using that dir's .codespellrc."
 	@echo "  - Requires pandoc installed and available in PATH."
 	@echo "  - spellcheck requires codespell (pip install codespell). If it is not on PATH, set CODESPELL to the full path."
-	@echo "  - book.yml validation and front-matter generation require Python packages: see requirements.txt (jinja2, pyyaml, jsonschema)."
+	@echo "  - book.yml validation and front-matter generation require Python packages: see requirements.txt (jinja2, pyyaml, jsonschema, pytest, ruff)."
 
 check-pandoc:
 	@command -v "$(PANDOC)" >/dev/null 2>&1 || { \
 		echo "Error: pandoc not found. Install pandoc first."; \
 		exit 1; \
 	}
+
+test:
+	python3 -m pytest tests/ -q
+
+lint:
+	python3 -m ruff check tools scripts tests
+	python3 -m ruff format --check tools scripts tests
+
+lint-fix:
+	python3 -m ruff check --fix tools scripts tests
+	python3 -m ruff format tools scripts tests
 
 validate-book-specs:
 	@python3 tools/validate_book_specs.py --repo .
@@ -95,7 +120,10 @@ validate-books-manifest:
 
 verify-books-manifest: generate-books-manifest validate-books-manifest
 
-generate-semantic-manifest: validate-book-specs
+verify-semantic-yaml:
+	python3 tools/verify_semantic_yaml.py --repo . --strict-prose
+
+generate-semantic-manifest: validate-book-specs verify-semantic-yaml
 	@repo="$${GITHUB_REPOSITORY:-$$(git remote get-url origin 2>/dev/null | sed -e 's#^git@github.com:##' -e 's#^https://github.com/##' -e 's#\.git$$##')}"; \
 	python3 tools/generate_semantic_manifest.py \
 		--repo . \
@@ -122,6 +150,24 @@ extract-semantic-glossary-drafts:
 extract-semantic-pattern-drafts:
 	@test -n "$(PATTERN_IN)" && test -n "$(BOOK_ID)" || { echo "Usage: make extract-semantic-pattern-drafts PATTERN_IN=books/.../appendix.md BOOK_ID=how-meaning-moves"; exit 1; }
 	@python3 tools/extract_semantic_pattern_drafts.py --repo . --input "$(PATTERN_IN)" --book-id "$(BOOK_ID)"
+
+extract-semantic-source-drafts:
+	@test -n "$(BIBLIO_IN)" && test -n "$(BOOK_ID)" || { echo "Usage: make extract-semantic-source-drafts BIBLIO_IN=books/.../bibliography.md BOOK_ID=how-meaning-moves"; exit 1; }
+	@python3 tools/extract_semantic_source_drafts.py --repo . --input "$(BIBLIO_IN)" --book-id "$(BOOK_ID)"
+
+promote-semantic-source-drafts:
+	@prune=; \
+	if [ -z "$(SOURCE_PROMOTE_BOOK_IDS)" ] && [ -z "$(SOURCE_PROMOTE_NO_PRUNE)" ]; then \
+	  prune=--prune; \
+	fi; \
+	if [ -n "$(SOURCE_PROMOTE_BOOK_IDS)" ]; then \
+	  python3 tools/promote_semantic_source_drafts.py --repo . $(foreach id,$(SOURCE_PROMOTE_BOOK_IDS),--book-id $(id)); \
+	else \
+	  python3 tools/promote_semantic_source_drafts.py --repo . $$prune; \
+	fi
+
+infer-semantic-source-links:
+	@python3 tools/infer_semantic_source_links.py --repo .
 
 docx-to-md: check-pandoc
 	@test -n "$(IN)" || { echo "Usage: make docx-to-md IN=file.docx [OUT=file.md]"; exit 1; }

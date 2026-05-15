@@ -1,3 +1,10 @@
 slug: coupling
+title: Coupling
+shortDefinition: Coupling is attachment between action and consequence—how tightly
+  decisions remain traceable to effects, how feedback travels, and whether redesign
+  authority can still bite when scale and abstraction lengthen the chain.
+termKind: core
+relatedConcepts: []
+relatedPatterns: []
 relatedBooks:
 - coupling

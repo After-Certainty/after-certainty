@@ -1,14 +1,26 @@
 slug: gaps-invite-completion
 title: Gaps Invite Completion
-summary: An exchange contains ambiguity, omitted detail, or unresolved tension. **Problem:**
-  Open meaning is hard to sustain under practical or emotional pressure. **Forces:**
-  - Uncertainty creates interpretive discomfort - Fast social coordination rewards
-  quick closure - Memory and expectation supply plausible filler **Observation:**
-  Missing meaning rarely stays open for long. > Because gaps invite completion, the
-  mind usually supplies missing > meaning before the speaker does.
-relatedConcepts: []
+setup: An exchange contains ambiguity, omitted detail, or unresolved tension.
+problem: Open meaning is hard to sustain under practical or emotional pressure.
+forces:
+- Uncertainty creates interpretive discomfort
+- Fast social coordination rewards quick closure
+- Memory and expectation supply plausible filler
+observation: Missing meaning rarely stays open for long.
+example: Because gaps invite completion, the mind usually supplies missing meaning
+  before the speaker does.
+relatedConcepts:
+- meaning
+- certainty
+- coordination
+- uncertainty
 relatedPatterns:
 - meaning-forms-early
 - intent-gets-assigned
 relatedBooks:
 - how-meaning-moves
+relatedSources:
+- easterbrook-j-a-the-effect-of-emotion-on-cue-utilization
+- kruglanski-arie-w-the-need-for-cognitive-closure
+- march-james-g-and-herbert-a-simon-organizations
+- ross-lee-and-andrew-ward-naive-realism-in-everyday-life

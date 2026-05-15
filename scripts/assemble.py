@@ -10,7 +10,6 @@ import json
 import re
 from pathlib import Path
 
-
 MD_LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+\.md)\)")
 
 

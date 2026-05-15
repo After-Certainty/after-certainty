@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 from book_specs import (
@@ -29,7 +29,9 @@ def main() -> None:
         help="GitHub repository slug (owner/repo). If omitted, derive from git origin.",
     )
     parser.add_argument("--github-ref", default="main", help="Git ref used for raw content URLs")
-    parser.add_argument("--release-tag", default="latest", help="GitHub release tag for export assets")
+    parser.add_argument(
+        "--release-tag", default="latest", help="GitHub release tag for export assets"
+    )
     args = parser.parse_args()
 
     repo = Path(args.repo).resolve()
@@ -70,7 +72,7 @@ def main() -> None:
     books.sort(key=lambda item: (item["slug"], item["source"]))
     payload = {
         "manifestVersion": 1,
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "generatedAt": datetime.now(UTC).isoformat(),
         "repository": repo_slug or None,
         "ref": args.github_ref,
         "releaseTag": args.release_tag,

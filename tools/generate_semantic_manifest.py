@@ -11,7 +11,7 @@ import json
 import re
 import sys
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 try:
@@ -27,7 +27,11 @@ from book_specs import (
 )
 from manifest_books import build_book_entry, resolve_repo_slug
 from manifest_markdown import resolve_markdown_units
-
+from pattern_yaml import (
+    compose_summary_from_parts,
+    normalize_forces_value,
+    structured_fields_from_row,
+)
 
 SEMANTIC_ROOT = Path("semantic")
 ONTOLOGY = SEMANTIC_ROOT / "ontology"
@@ -77,6 +81,19 @@ def _normalize_pattern_slugs(items: object) -> list[str]:
         s = str(x).strip()
         if s.startswith("pattern-"):
             s = s.removeprefix("pattern-")
+        if s:
+            out.append(s)
+    return out
+
+
+def _normalize_source_slugs(items: object) -> list[str]:
+    if not isinstance(items, list):
+        return []
+    out: list[str] = []
+    for x in items:
+        s = str(x).strip()
+        if s.startswith("source-"):
+            s = s.removeprefix("source-")
         if s:
             out.append(s)
     return out
@@ -250,7 +267,9 @@ def build_glossary_entries(
                 "slug": slug,
                 "title": str(ov.get("title", slug)).strip(),
                 "shortDefinition": str(ov.get("shortDefinition", "")).strip(),
-                "termKind": declared if declared in ("core", "supporting", "extended") else "extended",
+                "termKind": declared
+                if declared in ("core", "supporting", "extended")
+                else "extended",
                 "relatedConcepts": _normalize_concept_slugs(ov.get("relatedConcepts")),
                 "relatedPatterns": _normalize_pattern_slugs(ov.get("relatedPatterns")),
                 "relatedBooks": _normalize_book_slugs(ov.get("relatedBooks")),
@@ -285,14 +304,29 @@ def build_patterns(repo: Path) -> list[dict]:
     out: list[dict] = []
     for slug in sorted(raw.keys()):
         data = raw[slug]
+        parts = structured_fields_from_row(data)
+        summary = compose_summary_from_parts(parts)
+        forces_list = normalize_forces_value(parts.get("forces"))
         entry = {
             "id": pattern_id(slug),
             "slug": slug,
             "title": str(data.get("title", slug)).strip(),
-            "summary": str(data.get("summary", "")).strip(),
-            "relatedConcepts": [concept_id(s) for s in _normalize_concept_slugs(data.get("relatedConcepts"))],
-            "relatedPatterns": [pattern_id(s) for s in _normalize_pattern_slugs(data.get("relatedPatterns"))],
+            "summary": summary,
+            "setup": str(parts.get("setup", "") or ""),
+            "problem": str(parts.get("problem", "") or ""),
+            "forces": forces_list,
+            "observation": str(parts.get("observation", "") or ""),
+            "example": str(parts.get("example", "") or ""),
+            "relatedConcepts": [
+                concept_id(s) for s in _normalize_concept_slugs(data.get("relatedConcepts"))
+            ],
+            "relatedPatterns": [
+                pattern_id(s) for s in _normalize_pattern_slugs(data.get("relatedPatterns"))
+            ],
             "relatedBooks": [book_id(s) for s in _normalize_book_slugs(data.get("relatedBooks"))],
+            "relatedSources": [
+                source_id(s) for s in _normalize_source_slugs(data.get("relatedSources"))
+            ],
         }
         out.append(entry)
     return out
@@ -321,7 +355,9 @@ def build_relationships(repo: Path) -> list[dict]:
     rels: list[dict] = []
 
     tensions_doc = _load_yaml(repo / ONTOLOGY / "structural-tensions.yml")
-    tensions = tensions_doc.get("tensions") if isinstance(tensions_doc.get("tensions"), list) else []
+    tensions = (
+        tensions_doc.get("tensions") if isinstance(tensions_doc.get("tensions"), list) else []
+    )
     for row in tensions:
         if not isinstance(row, dict):
             continue
@@ -374,7 +410,11 @@ def build_relationships(repo: Path) -> list[dict]:
 def _reverse_index_entities(
     glossary: list[dict], patterns: list[dict], sources: list[dict]
 ) -> dict[str, dict[str, set[str]]]:
-    idx: dict[str, dict[str, set[str]]] = defaultdict(lambda: {"concepts": set(), "patterns": set(), "sources": set()})
+    idx: dict[str, dict[str, set[str]]] = defaultdict(
+        lambda: {"concepts": set(), "patterns": set(), "sources": set()}
+    )
+
+    source_by_id = {s["id"]: s for s in sources}
 
     for g in glossary:
         for bid in g.get("relatedBooks") or []:
@@ -385,6 +425,18 @@ def _reverse_index_entities(
         for bid in p.get("relatedBooks") or []:
             slug = str(bid).removeprefix("book-")
             idx[slug]["patterns"].add(p["id"])
+
+        p_books = {str(bid).removeprefix("book-") for bid in (p.get("relatedBooks") or [])}
+        for sid in p.get("relatedSources") or []:
+            srow = source_by_id.get(sid)
+            if not isinstance(srow, dict):
+                continue
+            s_books = {str(bid).removeprefix("book-") for bid in (srow.get("relatedBooks") or [])}
+            if not s_books:
+                continue
+            target = (p_books & s_books) if p_books else s_books
+            for bslug in target:
+                idx[bslug]["sources"].add(sid)
 
     for s in sources:
         for bid in s.get("relatedBooks") or []:
@@ -446,8 +498,12 @@ def _apply_mentions(
 def build_ontology_block(repo: Path) -> dict:
     master_doc = _load_yaml(repo / ONTOLOGY / "master-terms.yml")
     pressure_doc = _load_yaml(repo / ONTOLOGY / "structural-pressures.yml")
-    master_entries = master_doc.get("entries") if isinstance(master_doc.get("entries"), list) else []
-    pressure_entries = pressure_doc.get("entries") if isinstance(pressure_doc.get("entries"), list) else []
+    master_entries = (
+        master_doc.get("entries") if isinstance(master_doc.get("entries"), list) else []
+    )
+    pressure_entries = (
+        pressure_doc.get("entries") if isinstance(pressure_doc.get("entries"), list) else []
+    )
 
     master_terms: list[dict] = []
     for row in master_entries:
@@ -494,7 +550,9 @@ def main() -> None:
         help="GitHub repository slug (owner/repo). If omitted, derive from git origin.",
     )
     parser.add_argument("--github-ref", default="main", help="Git ref used for raw content URLs")
-    parser.add_argument("--release-tag", default="latest", help="GitHub release tag for export assets")
+    parser.add_argument(
+        "--release-tag", default="latest", help="GitHub release tag for export assets"
+    )
     parser.add_argument(
         "--warn-term-kind",
         action=argparse.BooleanOptionalAction,
@@ -538,7 +596,9 @@ def main() -> None:
         )
     base_books.sort(key=lambda item: (item["slug"], item["source"]))
 
-    by_gloss, core_slugs, supporting_slugs = build_glossary_entries(repo, warn_term_kind=args.warn_term_kind)
+    by_gloss, core_slugs, supporting_slugs = build_glossary_entries(
+        repo, warn_term_kind=args.warn_term_kind
+    )
     glossary = _finalize_glossary_list(by_gloss)
     patterns = build_patterns(repo)
     sources = build_sources(repo)
@@ -551,7 +611,7 @@ def main() -> None:
 
     payload = {
         "manifestVersion": 1,
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "generatedAt": datetime.now(UTC).isoformat(),
         "repository": repo_slug or None,
         "ref": args.github_ref,
         "releaseTag": args.release_tag,

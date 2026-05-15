@@ -1,17 +1,10 @@
 slug: system
 title: System
 shortDefinition: 'A system is an organized set of people, processes, rules, and structures
-  that produces repeatable outcomes over time. In this book, the term applies across
-  domains: software architectures, teams, firms, agencies, governance structures,
-  and media institutions. The shared criterion is not technology; it is patterned
-  behavior under constraints, incentives, and feedback.'
-longDefinition: 'A system is an organized set of people, processes, rules, and structures
-  that produces repeatable outcomes over time.
-
-
-  In this book, the term applies across domains: software architectures, teams, firms,
-  agencies, governance structures, and media institutions. The shared criterion is
-  not technology; it is patterned behavior under constraints, incentives, and feedback.'
+  that produces repeatable outcomes over time. The term applies across domains: software
+  architectures, teams, firms, agencies, governance structures, and media institutions.
+  The shared criterion is not technology; it is patterned behavior under constraints,
+  incentives, and feedback.'
 termKind: extended
 relatedConcepts: []
 relatedPatterns: []

@@ -1,11 +1,8 @@
 slug: invariant
 title: Invariant
 shortDefinition: A condition that should remain stable across contexts and scale if
-  a system is to stay healthy. In this book, the invariant is that responsibility
-  should remain cohesive and consequence should remain intentionally coupled.
-longDefinition: A condition that should remain stable across contexts and scale if
-  a system is to stay healthy. In this book, the invariant is that responsibility
-  should remain cohesive and consequence should remain intentionally coupled.
+  a system is to stay healthy. The invariant is that responsibility should remain
+  cohesive and consequence should remain intentionally coupled.
 termKind: extended
 relatedConcepts: []
 relatedPatterns: []
