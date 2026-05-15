@@ -25,7 +25,7 @@ jobs:
   typography:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Typography check (styled blocks + Pattern Block fences)
         run: python3 tools/how_meaning_moves_typography_check.py
