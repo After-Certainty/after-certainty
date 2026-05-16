@@ -3,11 +3,12 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
+import { ExploreObservatoryFocusLink } from "@/components/explore/explore-observatory-focus-link";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { RelationshipList } from "@/components/explore/relationship-list";
 import { Section } from "@/components/ui/section";
-import { getBooks } from "@/lib/content-data";
+import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import {
   buildCoverImageBySlugLookup,
   resolveCoverForGraphBookSlug,
@@ -18,14 +19,13 @@ import { buildGraphIndex } from "@/lib/graph/graph";
 import { getBookBySlug as getGraphBookBySlug } from "@/lib/graph/graphQueries";
 import { getIncomingRelationships, getOutgoingRelationships } from "@/lib/graph/graphTraversal";
 import { relatedContentForBook } from "@/lib/graph/relatedContent";
-import { getSemanticGraph } from "@/lib/graph/manifest";
 import { createPageMetadata } from "@/lib/metadata";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const graph = await getSemanticGraph();
+  const { graph } = await getExploreSemanticGraph();
   const index = buildGraphIndex(graph);
   const book = getGraphBookBySlug(index, slug);
   if (!book) return {};
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ExploreBookDetailPage({ params }: PageProps) {
   const { slug } = await params;
-  const [graph, catalogBooks] = await Promise.all([getSemanticGraph(), getBooks()]);
+  const { graph, catalogBooks } = await getExploreSemanticGraph();
   const index = buildGraphIndex(graph);
   const book = getGraphBookBySlug(index, slug);
   if (!book) notFound();
@@ -66,6 +66,9 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
             { label: book.title },
           ]}
         />
+        <div className="mb-6">
+          <ExploreObservatoryFocusLink kind="book" slug={book.slug} />
+        </div>
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">Book</p>
         <div
           className={

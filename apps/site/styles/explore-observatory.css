@@ -1,0 +1,90 @@
+/* Semantic observatory /explore — XY Flow controls + dot grid follow design tokens */
+
+:root {
+  --explore-observatory-dots: rgba(163, 158, 148, 0.08);
+}
+
+.light {
+  --explore-observatory-dots: rgba(74, 72, 68, 0.11);
+}
+
+/* Opaque graph cards: tie to RF node + !important so nothing in the viewport compositor washes the fill. */
+html:not(.light) .explore-observatory-rf .react-flow__node .semantic-flow-node-surface {
+  background-color: #070708 !important;
+  background-image: none !important;
+  isolation: isolate;
+  mix-blend-mode: normal;
+  opacity: 1 !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+html.light .explore-observatory-rf .react-flow__node .semantic-flow-node-surface {
+  background-color: #ffffff !important;
+  background-image: none !important;
+  isolation: isolate;
+  mix-blend-mode: normal;
+  opacity: 1 !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* RF adds .selected on the wrapper; kill any stray focus/selection halo defaults (ring-offset defaults to white). */
+.explore-observatory-rf .react-flow__node.selected {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*
+ * XY Flow edge paths use `stroke: var(--xy-edge-stroke, …)` in their stylesheet.
+ * Keep fallbacks theme-aware so edges stay visible even when inline stroke is absorbed
+ * by SVG/CSS ordering, and to match site tokens.
+ */
+.explore-observatory-rf.dark {
+  --xy-edge-stroke: color-mix(in srgb, var(--fg) 44%, transparent);
+  --xy-edge-stroke-selected: var(--accent);
+  --xy-edge-stroke-width: 1.15;
+}
+
+/* Light appearance only: with `dark` on `.react-flow`, XY Flow supplies dark *-default vars. */
+.explore-observatory-rf:not(.dark) {
+  --xy-controls-button-background-color: color-mix(in srgb, var(--bg-elevated) 92%, var(--fg));
+  --xy-controls-button-background-color-hover: color-mix(in srgb, var(--bg-elevated) 78%, var(--fg));
+  --xy-controls-button-color: var(--fg);
+  --xy-controls-button-color-hover: var(--accent);
+  --xy-controls-button-border-color: var(--border);
+  --xy-controls-box-shadow: 0 4px 20px rgb(0 0 0 / 0.08);
+  --xy-edge-stroke: color-mix(in srgb, var(--fg) 36%, transparent);
+  --xy-edge-stroke-selected: var(--accent);
+  --xy-edge-stroke-width: 1.1;
+}
+
+/*
+ * Entity title on the map: Cormorant + transforms inside React Flow can end up effectively
+ * unreadable on near-black. Force high-contrast body font in app dark mode only.
+ */
+html:not(.light) .explore-observatory-rf .semantic-flow-node-title {
+  color: #fffcf7 !important;
+  font-family: var(--font-sans-body), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-shadow:
+    0 0 1px rgba(0, 0, 0, 0.95),
+    0 1px 3px rgba(0, 0, 0, 0.65);
+}
+
+html.light .explore-observatory-rf .semantic-flow-node-title {
+  color: var(--fg) !important;
+  font-family: var(--font-display-serif), ui-serif, Georgia, serif;
+  font-weight: 500;
+  text-shadow: none;
+}
+
+/* Kind label + subtitle: one tone in dark mode, a bit brighter than token muted */
+html:not(.light) .explore-observatory-rf .semantic-flow-node-meta {
+  color: #ddd6cc !important;
+}
+
+html.light .explore-observatory-rf .semantic-flow-node-meta {
+  color: var(--muted) !important;
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
+import { ExploreObservatoryFocusLink } from "@/components/explore/explore-observatory-focus-link";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { GraphNeighborhood } from "@/components/explore/graph-neighborhood";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
@@ -12,15 +13,14 @@ import { buildGraphIndex } from "@/lib/graph/graph";
 import { getAdjacentSourcesFromRelationships, getConceptBySlug } from "@/lib/graph/graphQueries";
 import { getConnectedGraphNeighborhood, getIncomingRelationships, getOutgoingRelationships } from "@/lib/graph/graphTraversal";
 import { relatedContentForConcept } from "@/lib/graph/relatedContent";
-import { getSemanticGraph } from "@/lib/graph/manifest";
-import { getBooks } from "@/lib/content-data";
+import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const graph = await getSemanticGraph();
+  const { graph } = await getExploreSemanticGraph();
   const index = buildGraphIndex(graph);
   const concept = getConceptBySlug(index, slug);
   if (!concept) return {};
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ExploreConceptDetailPage({ params }: PageProps) {
   const { slug } = await params;
-  const [graph, catalogBooks] = await Promise.all([getSemanticGraph(), getBooks()]);
+  const { graph, catalogBooks } = await getExploreSemanticGraph();
   const index = buildGraphIndex(graph);
   const concept = getConceptBySlug(index, slug);
   if (!concept) notFound();
@@ -77,6 +77,9 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
             { label: concept.title },
           ]}
         />
+        <div className="mb-6">
+          <ExploreObservatoryFocusLink kind="concept" slug={concept.slug} />
+        </div>
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">Concept</p>
         <h1 className="mt-4 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:text-5xl">
           {concept.title}

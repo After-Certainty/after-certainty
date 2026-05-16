@@ -7,8 +7,7 @@ import {
   buildCoverImageBySlugLookup,
   resolveCoverForGraphBookSlug,
 } from "@/lib/explore/graph-book-covers";
-import { getBooks } from "@/lib/content-data";
-import { getSemanticGraph } from "@/lib/graph/manifest";
+import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = createPageMetadata({
@@ -17,7 +16,7 @@ export const metadata: Metadata = createPageMetadata({
 });
 
 export default async function ExploreBooksIndexPage() {
-  const [graph, catalogBooks] = await Promise.all([getSemanticGraph(), getBooks()]);
+  const { graph, catalogBooks } = await getExploreSemanticGraph();
   const coverLookup = buildCoverImageBySlugLookup(catalogBooks);
   const books = booksSortedForExploreIndex(graph.books);
 

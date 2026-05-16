@@ -3,7 +3,7 @@ import { ExploreIndexHero } from "@/components/explore/explore-hero";
 import { PatternCard } from "@/components/explore/pattern-card";
 import { Section } from "@/components/ui/section";
 import { patternsSortedForExploreIndex } from "@/lib/explore/explore-patterns-order";
-import { getSemanticGraph } from "@/lib/graph/manifest";
+import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = createPageMetadata({
@@ -12,7 +12,7 @@ export const metadata: Metadata = createPageMetadata({
 });
 
 export default async function ExplorePatternsIndexPage() {
-  const graph = await getSemanticGraph();
+  const { graph } = await getExploreSemanticGraph();
   const patterns = patternsSortedForExploreIndex(graph.patterns);
 
   return (

@@ -23,12 +23,19 @@ export interface Book {
   sources?: string[];
 }
 
+/** Optional styling bucket from the content pipeline (e.g. pressure vs capability concepts). */
+export type ConceptSemanticTone = "pressure" | "capability" | "neutral";
+
 export interface GlossaryConcept {
   id: string;
   slug: string;
   title: string;
   shortDefinition: string;
   definition?: string;
+  /** Ontological layer label when the manifest publishes it (e.g. Structural Primitives). */
+  layer?: string;
+  /** Visual / interpretive tone for graph rendering — omit for default concept styling. */
+  semanticTone?: ConceptSemanticTone;
   relatedConcepts?: string[];
   relatedPatterns?: string[];
   relatedBooks?: string[];
@@ -59,6 +66,8 @@ export interface Relationship {
   target: string;
   relationship: string;
   description?: string;
+  /** Optional edge strength for ranking / future heatmaps (higher = stronger). */
+  weight?: number;
 }
 
 export interface SemanticGraph {

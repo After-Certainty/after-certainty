@@ -18,12 +18,17 @@ const bookSchema = z.object({
   sources: stringList,
 });
 
+const conceptSemanticToneSchema = z.enum(["pressure", "capability", "neutral"]);
+
 const glossaryConceptSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
   title: z.string().min(1),
   shortDefinition: z.string().min(1),
   definition: z.string().optional(),
+  /** When set, explore filters and graph styling can group by layer. */
+  layer: z.string().min(1).optional(),
+  semanticTone: conceptSemanticToneSchema.optional(),
   relatedConcepts: stringList,
   relatedPatterns: stringList,
   relatedBooks: stringList,
@@ -54,6 +59,7 @@ const relationshipSchema = z.object({
   target: z.string().min(1),
   relationship: z.string().min(1),
   description: z.string().optional(),
+  weight: z.number().finite().optional(),
 });
 
 /**

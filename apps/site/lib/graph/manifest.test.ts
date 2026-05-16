@@ -23,6 +23,34 @@ describe("validateSemanticGraph", () => {
     }
   });
 
+  it("accepts glossary layer, semanticTone, and relationship weight", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [
+        {
+          id: "c1",
+          slug: "c",
+          title: "C",
+          shortDefinition: "s",
+          layer: "Primitives",
+          semanticTone: "pressure",
+          relatedConcepts: [],
+          relatedPatterns: [],
+          relatedBooks: [],
+        },
+      ],
+      patterns: [],
+      sources: [],
+      relationships: [{ source: "c1", target: "c1", relationship: "rel", weight: 2.5 }],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.glossary[0]?.layer).toBe("Primitives");
+      expect(result.data.glossary[0]?.semanticTone).toBe("pressure");
+      expect(result.data.relationships[0]?.weight).toBe(2.5);
+    }
+  });
+
   it("rejects invalid entity field types", () => {
     const result = validateSemanticGraph({
       books: [{ id: "b1", slug: "b", title: 123 }],

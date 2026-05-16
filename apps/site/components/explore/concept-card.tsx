@@ -9,7 +9,7 @@ type ConceptCardProps = {
 
 export function ConceptCard({ concept }: ConceptCardProps) {
   return (
-    <ExploreCard>
+    <ExploreCard className="!bg-transparent !shadow-none !backdrop-blur-none">
       <Link href={`${explorePaths.concepts}/${concept.slug}`} className="block space-y-2">
         <p className="text-[10px] uppercase tracking-[0.28em] text-accent">Concept</p>
         <h3 className="font-display text-xl font-medium tracking-tight text-fg transition-colors group-hover:text-accent">

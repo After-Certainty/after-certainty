@@ -1,0 +1,68 @@
+/**
+ * Maps manifest relationship predicates to SVG-friendly edge styles.
+ * Extension: weight-based stroke width, temporal styling, multi-label edges.
+ */
+
+export type RelationshipVisualStyle = {
+  stroke: string;
+  strokeWidth: number;
+  strokeDasharray?: string;
+};
+
+const DEFAULT_STYLE: RelationshipVisualStyle = {
+  /** Token-driven so edges stay legible in both `html.light` and default dark. */
+  stroke: "color-mix(in srgb, var(--muted) 82%, transparent)",
+  strokeWidth: 1.05,
+};
+
+const RULES: { test: (p: string) => boolean; style: RelationshipVisualStyle }[] = [
+  {
+    test: (p) => /preserves/i.test(p),
+    style: { stroke: "var(--accent)", strokeWidth: 1.5 },
+  },
+  {
+    test: (p) => /threatens/i.test(p),
+    style: { stroke: "#9b4d6a", strokeWidth: 1.5 },
+  },
+  {
+    test: (p) => /enables/i.test(p),
+    style: { stroke: "#5a9b6e", strokeWidth: 1.5 },
+  },
+  {
+    test: (p) => /distorts/i.test(p),
+    style: { stroke: "#5ab0c4", strokeWidth: 1.5 },
+  },
+  {
+    test: (p) => /stabilizes/i.test(p),
+    style: { stroke: "#7a8fb8", strokeWidth: 1.5 },
+  },
+  {
+    test: (p) => /outruns/i.test(p),
+    style: { stroke: "#8b6bc9", strokeWidth: 1.5 },
+  },
+  {
+    test: (p) => /decouples/i.test(p),
+    style: {
+      stroke: "color-mix(in srgb, var(--muted) 58%, transparent)",
+      strokeWidth: 1,
+      strokeDasharray: "4 6",
+    },
+  },
+];
+
+export function normalizePredicateKey(predicate: string): string {
+  return predicate.trim().toLowerCase();
+}
+
+/** Readable label for UI only. Matching keys still use {@link normalizePredicateKey}. */
+export function formatRelationshipLabelForDisplay(predicate: string): string {
+  const spaced = predicate.trim().replaceAll("_", " ");
+  return spaced.replace(/\s+/g, " ");
+}
+
+export function styleForRelationshipPredicate(predicate: string): RelationshipVisualStyle {
+  for (const rule of RULES) {
+    if (rule.test(predicate)) return rule.style;
+  }
+  return DEFAULT_STYLE;
+}

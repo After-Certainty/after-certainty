@@ -3,7 +3,7 @@ import { ExploreIndexHero } from "@/components/explore/explore-hero";
 import { SourceCard } from "@/components/explore/source-card";
 import { Section } from "@/components/ui/section";
 import { sourcesSortedForExploreIndex } from "@/lib/explore/explore-sources-order";
-import { getSemanticGraph } from "@/lib/graph/manifest";
+import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = createPageMetadata({
@@ -12,7 +12,7 @@ export const metadata: Metadata = createPageMetadata({
 });
 
 export default async function ExploreSourcesIndexPage() {
-  const graph = await getSemanticGraph();
+  const { graph } = await getExploreSemanticGraph();
   const sources = sourcesSortedForExploreIndex(graph.sources);
 
   return (

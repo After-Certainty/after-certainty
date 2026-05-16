@@ -330,3 +330,10 @@ html.light .explore-page__scrim {
     var(--bg) 88%
   );
 }
+
+/* Light theme: transition section bloom (dark-gradient + blend) reads as a mismatched band behind grids */
+html.light .atm-section--transition::before,
+html.light .atm-section--transition::after {
+  opacity: 0;
+  mix-blend-mode: normal;
+}

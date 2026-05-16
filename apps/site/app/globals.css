@@ -5,6 +5,7 @@
 @custom-variant light (&:where(.light, .light *));
 
 @import "../styles/tokens.css";
+@import "../styles/explore-observatory.css";
 @import "../styles/atmosphere.css";
 @import "../styles/when-others-look-to-you.css";
 
