@@ -27,3 +27,10 @@ relatedBooks:
 - when-others-look-to-you-v1
 relatedSources:
 - cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus
+media:
+  youtubeVideoId: 3N-vY1i5rg8
+  infographic:
+    path: semantic/media/patterns/attention-finds-a-focus.png
+    width: 1200
+    height: 669
+    alt: Infographic summarizing how attention converges on one person and influence follows.

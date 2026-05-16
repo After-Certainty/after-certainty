@@ -62,3 +62,9 @@ github:
     - docx
     - epub
     - pdf
+
+media:
+  intro:
+    youtubeVideoId: ma1UbSajuVI
+  patterns:
+    youtubePlaylistUrl: https://www.youtube.com/playlist?list=PL0gz-cNuLgIZkd7HcM8tZory5sa-aN6V9

@@ -25,7 +25,7 @@ from book_specs import (
     load_book_spec,
     load_upcoming_spec,
 )
-from manifest_books import build_book_entry, resolve_repo_slug
+from manifest_books import build_book_entry, raw_content_url, resolve_repo_slug
 from manifest_markdown import resolve_markdown_units
 from pattern_yaml import (
     compose_summary_from_parts,
@@ -58,6 +58,63 @@ def source_id(slug: str) -> str:
 
 def book_id(slug: str) -> str:
     return f"book-{slug}"
+
+
+def build_book_media_from_spec(spec: dict) -> dict | None:
+    """Map ``book.yml`` ``media`` block to manifest JSON (camelCase keys)."""
+    raw = spec.get("media")
+    if not isinstance(raw, dict):
+        return None
+    out: dict = {}
+    intro = raw.get("intro")
+    if isinstance(intro, dict):
+        vid = str(intro.get("youtubeVideoId", "")).strip()
+        if vid:
+            out["intro"] = {"youtubeVideoId": vid}
+    patterns = raw.get("patterns")
+    if isinstance(patterns, dict):
+        playlist = str(patterns.get("youtubePlaylistUrl", "")).strip()
+        if playlist:
+            out["patterns"] = {"youtubePlaylistUrl": playlist}
+    return out or None
+
+
+def _resolve_pattern_media(
+    data: dict,
+    *,
+    repo_slug: str,
+    ref: str,
+) -> dict:
+    """Flatten pattern YAML ``media`` into manifest pattern entry fields."""
+    raw = data.get("media")
+    if not isinstance(raw, dict):
+        return {}
+    out: dict = {}
+    vid = str(raw.get("youtubeVideoId", "")).strip()
+    if vid:
+        out["youtubeVideoId"] = vid
+    medium = str(raw.get("mediumArticleUrl", "")).strip()
+    if medium:
+        out["mediumArticleUrl"] = medium
+    infographic = raw.get("infographic")
+    if isinstance(infographic, dict):
+        path = str(infographic.get("path", "")).strip()
+        width = infographic.get("width")
+        height = infographic.get("height")
+        if path and isinstance(width, int) and width > 0 and isinstance(height, int) and height > 0:
+            info: dict = {
+                "path": path,
+                "width": width,
+                "height": height,
+            }
+            if repo_slug:
+                info["url"] = raw_content_url(repo_slug, ref, path)
+            alt = str(infographic.get("alt", "")).strip()
+            if alt:
+                info["alt"] = alt
+            if "url" in info:
+                out["infographic"] = info
+    return out
 
 
 def _normalize_concept_slugs(items: object) -> list[str]:
@@ -299,7 +356,7 @@ def _finalize_glossary_list(by_slug: dict[str, dict]) -> list[dict]:
     return out
 
 
-def build_patterns(repo: Path) -> list[dict]:
+def build_patterns(repo: Path, *, repo_slug: str, ref: str) -> list[dict]:
     raw = _load_dir_yml(repo / SEMANTIC_ROOT / "patterns")
     out: list[dict] = []
     for slug in sorted(raw.keys()):
@@ -328,6 +385,7 @@ def build_patterns(repo: Path) -> list[dict]:
                 source_id(s) for s in _normalize_source_slugs(data.get("relatedSources"))
             ],
         }
+        entry.update(_resolve_pattern_media(data, repo_slug=repo_slug, ref=ref))
         out.append(entry)
     return out
 
@@ -448,7 +506,11 @@ def _reverse_index_entities(
     return idx
 
 
-def _enriched_books(base_books: list[dict], rev: dict[str, dict[str, set[str]]]) -> list[dict]:
+def _enriched_books(
+    base_books: list[dict],
+    rev: dict[str, dict[str, set[str]]],
+    book_media_by_slug: dict[str, dict],
+) -> list[dict]:
     out: list[dict] = []
     for b in base_books:
         slug = str(b["slug"])
@@ -460,6 +522,9 @@ def _enriched_books(base_books: list[dict], rev: dict[str, dict[str, set[str]]])
         nb["concepts"] = sorted(sets["concepts"])
         nb["patterns"] = sorted(sets["patterns"])
         nb["sources"] = sorted(sets["sources"])
+        media = book_media_by_slug.get(slug)
+        if media:
+            nb["media"] = media
         out.append(nb)
     out.sort(key=lambda x: (x["slug"], x["source"]))
     return out
@@ -565,46 +630,51 @@ def main() -> None:
     repo_slug = resolve_repo_slug(repo, args.github_repository)
 
     base_books: list[dict] = []
+    book_media_by_slug: dict[str, dict] = {}
     for spec_path in discover_book_spec_paths(repo):
         spec = load_book_spec(spec_path)
-        base_books.append(
-            build_book_entry(
-                repo=repo,
-                spec_path=spec_path,
-                spec=spec,
-                repo_slug=repo_slug,
-                ref=args.github_ref,
-                release_tag=args.release_tag,
-                source="books",
-                status="published",
-            )
+        entry = build_book_entry(
+            repo=repo,
+            spec_path=spec_path,
+            spec=spec,
+            repo_slug=repo_slug,
+            ref=args.github_ref,
+            release_tag=args.release_tag,
+            source="books",
+            status="published",
         )
+        base_books.append(entry)
+        media = build_book_media_from_spec(spec)
+        if media:
+            book_media_by_slug[str(entry["slug"])] = media
     for spec_path in discover_upcoming_spec_paths(repo):
         spec = load_upcoming_spec(spec_path)
         upcoming = spec.get("upcoming", {})
-        base_books.append(
-            build_book_entry(
-                repo=repo,
-                spec_path=spec_path,
-                spec=spec,
-                repo_slug=repo_slug,
-                ref=args.github_ref,
-                release_tag=args.release_tag,
-                source="upcoming",
-                status=str(upcoming.get("status", "in_progress")).strip() or "in_progress",
-            )
+        entry = build_book_entry(
+            repo=repo,
+            spec_path=spec_path,
+            spec=spec,
+            repo_slug=repo_slug,
+            ref=args.github_ref,
+            release_tag=args.release_tag,
+            source="upcoming",
+            status=str(upcoming.get("status", "in_progress")).strip() or "in_progress",
         )
+        base_books.append(entry)
+        media = build_book_media_from_spec(spec)
+        if media:
+            book_media_by_slug[str(entry["slug"])] = media
     base_books.sort(key=lambda item: (item["slug"], item["source"]))
 
     by_gloss, core_slugs, supporting_slugs = build_glossary_entries(
         repo, warn_term_kind=args.warn_term_kind
     )
     glossary = _finalize_glossary_list(by_gloss)
-    patterns = build_patterns(repo)
+    patterns = build_patterns(repo, repo_slug=repo_slug, ref=args.github_ref)
     sources = build_sources(repo)
     relationships = build_relationships(repo)
     rev = _reverse_index_entities(glossary, patterns, sources)
-    books = _enriched_books(base_books, rev)
+    books = _enriched_books(base_books, rev, book_media_by_slug)
 
     scan_slugs = set(core_slugs) | set(supporting_slugs)
     _apply_mentions(base_books, glossary, repo, scan_slugs=scan_slugs)

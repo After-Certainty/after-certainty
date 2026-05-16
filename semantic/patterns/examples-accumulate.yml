@@ -25,3 +25,10 @@ relatedBooks:
 relatedSources:
 - hirschman-albert-o-exit-voice-and-loyalty
 - scott-james-c-domination-and-the-arts-of-resistance-hidden
+media:
+  youtubeVideoId: wHE-WLn-Bh8
+  infographic:
+    path: semantic/media/patterns/examples-accumulate.png
+    width: 1200
+    height: 669
+    alt: Infographic summarizing how repeated examples become what others treat as normal.
