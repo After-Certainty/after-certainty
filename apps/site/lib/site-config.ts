@@ -93,8 +93,13 @@ export function resolvePodcastPlatformLinks(): PodcastPlatformLinks {
   };
 }
 
+/** Open Graph / Twitter card title (~50–60 chars for link preview tools). */
+export const OG_SHARE_TITLE =
+  "After Certainty — An Intellectual Commons for Human Systems";
+
 export const siteConfig = {
   name: "After Certainty",
+  ogShareTitle: OG_SHARE_TITLE,
   description:
     "An intellectual commons exploring meaning, trust, leadership, authority, communication, and human systems—beyond false certainty.",
   url: resolveDeploymentUrl(),

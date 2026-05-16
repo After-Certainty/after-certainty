@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { resolvePodcastRssUrl, siteConfig } from "@/lib/site-config";
 
-/** Static 1200×630 crop of `public/images/hero/hero-backdrop.png` — see `scripts/generate-og.sh`. */
+/** Static 1200×630 OG art from hero + overlay — regenerate with `npm run generate:og`. */
 const ogImagePath = "/og.png";
 
 export const defaultMetadata: Metadata = {
@@ -28,7 +28,7 @@ export const defaultMetadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: siteConfig.name,
-    title: siteConfig.name,
+    title: siteConfig.ogShareTitle,
     description: siteConfig.description,
     url: siteConfig.url,
     images: [
@@ -36,13 +36,13 @@ export const defaultMetadata: Metadata = {
         url: ogImagePath,
         width: 1200,
         height: 630,
-        alt: siteConfig.name,
+        alt: siteConfig.ogShareTitle,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.name,
+    title: siteConfig.ogShareTitle,
     description: siteConfig.description,
     images: [ogImagePath],
   },
