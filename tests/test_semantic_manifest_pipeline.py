@@ -79,9 +79,7 @@ def test_import_build_glossary_and_patterns(repo_root: Path) -> None:
     by_gloss, core, supporting = gsm.build_glossary_entries(repo_root, warn_term_kind=False)
     assert isinstance(by_gloss, dict)
     assert len(by_gloss) >= 1
-    patterns = gsm.build_patterns(
-        repo_root, repo_slug="test-owner/test-repo", ref="main"
-    )
+    patterns = gsm.build_patterns(repo_root, repo_slug="test-owner/test-repo", ref="main")
     assert isinstance(patterns, list)
     assert len(patterns) >= 1
     sources = gsm.build_sources(repo_root)
@@ -125,8 +123,6 @@ def test_semantic_manifest_includes_wolty_media(repo_root: Path, tmp_path: Path)
     assert dissent["mediumArticleUrl"].startswith("https://medium.com/")
     assert dissent["infographic"]["width"] == 1200
 
-    disagreement = next(
-        p for p in data["patterns"] if p["slug"] == "disagreement-is-suppressed"
-    )
+    disagreement = next(p for p in data["patterns"] if p["slug"] == "disagreement-is-suppressed")
     assert "youtubeVideoId" not in disagreement
     assert disagreement["mediumArticleUrl"].startswith("https://medium.com/")
