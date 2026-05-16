@@ -8,8 +8,11 @@ export function isSocialPreviewCrawler(userAgent: string | null): boolean {
 }
 
 /**
- * Meta's crawler sends `Range` on image fetches; that can break Next.js `opengraph-image`
- * routes while HTML metadata still scrapes — title/description without image on Facebook posts.
+ * Meta's crawler sends `Range` on page and image fetches. That can break Next.js App Router
+ * responses (500/empty body) while other bots succeed — Sharing Debugger then shows 403 and
+ * falls back to `og:title` = the hostname instead of real Open Graph tags.
+ *
+ * @see https://github.com/vercel/next.js/issues/44470
  */
 export function shouldStripRangeForSocialCrawler(
   userAgent: string | null,
