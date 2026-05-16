@@ -19,3 +19,10 @@ relatedPatterns:
 - disagreement-is-suppressed
 relatedBooks:
 - when-others-look-to-you-v1
+media:
+  youtubeVideoId: vXG8kn-5QTo
+  infographic:
+    path: semantic/media/patterns/leadership-coalesces.png
+    width: 1200
+    height: 669
+    alt: Infographic summarizing how the group keeps defaulting to the same person as decisions repeat.

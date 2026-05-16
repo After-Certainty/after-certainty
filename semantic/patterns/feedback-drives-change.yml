@@ -23,3 +23,11 @@ relatedPatterns:
 relatedBooks:
 - when-others-look-to-you-v1
 - coupling
+media:
+  youtubeVideoId: duyBPIOz94Y
+  mediumArticleUrl: https://medium.com/@steffensen.kevin/feedback-drives-change-2c7251f46610
+  infographic:
+    path: semantic/media/patterns/feedback-drives-change.png
+    width: 1200
+    height: 669
+    alt: Infographic summarizing how feedback changes direction when new facts or risks appear.

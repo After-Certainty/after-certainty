@@ -211,9 +211,38 @@
           }
         }
       }
+    },
+    "media": {
+      "$ref": "#/$defs/bookMediaSpec"
     }
   },
   "$defs": {
+    "bookMediaSpec": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "intro": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "youtubeVideoId": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_-]{6,}$"
+            }
+          }
+        },
+        "patterns": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "youtubePlaylistUrl": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        }
+      }
+    },
     "author": {
       "type": "object",
       "additionalProperties": false,

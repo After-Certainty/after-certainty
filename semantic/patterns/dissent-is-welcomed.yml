@@ -19,3 +19,11 @@ relatedPatterns:
 relatedBooks:
 - when-others-look-to-you-v1
 - coupling
+media:
+  youtubeVideoId: hCC_faAUMZA
+  mediumArticleUrl: https://medium.com/@steffensen.kevin/dissent-is-welcomed-b444e4c16592
+  infographic:
+    path: semantic/media/patterns/dissent-is-welcomed.png
+    width: 1200
+    height: 669
+    alt: Infographic summarizing how dissent surfaces problems early so leaders can correct course in time.

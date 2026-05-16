@@ -204,6 +204,61 @@
         },
         "pdf": {
           "$ref": "#/$defs/formatEntry"
+        },
+        "media": {
+          "$ref": "#/$defs/bookMedia"
+        }
+      }
+    },
+    "bookMedia": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "intro": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "youtubeVideoId": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_-]{6,}$"
+            }
+          }
+        },
+        "patterns": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "youtubePlaylistUrl": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        }
+      }
+    },
+    "mediaInfographic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "path", "width", "height"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "alt": {
+          "type": "string"
         }
       }
     },
@@ -357,6 +412,17 @@
             "type": "string",
             "pattern": "^source-[a-zA-Z0-9._-]+$"
           }
+        },
+        "youtubeVideoId": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]{6,}$"
+        },
+        "mediumArticleUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "infographic": {
+          "$ref": "#/$defs/mediaInfographic"
         }
       }
     },
