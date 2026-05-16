@@ -1,6 +1,7 @@
 "use client";
 
-import { memo, useLayoutEffect, useRef } from "react";
+import { memo, useLayoutEffect, useRef, type MouseEvent } from "react";
+import Link from "next/link";
 import { useTheme } from "next-themes";
 import { Handle, Position, type Node, type NodeProps } from "@xyflow/react";
 
@@ -13,6 +14,8 @@ export type SemanticFlowNodeData = {
   isSelected: boolean;
   isPinned: boolean;
   onPath: boolean;
+  /** Entity detail page; title is a link when set. */
+  detailHref?: string;
 };
 
 /** Per-entity border tint (semantic tone / kind). Distinct from canvas so nodes read as colored frames on the map. */
@@ -46,6 +49,31 @@ function titleOf(n: GraphNode): string {
   return n.kind === "source" ? n.entity.name : n.entity.title;
 }
 
+function stopNodeActivation(e: MouseEvent) {
+  e.stopPropagation();
+}
+
+function NodeTitle({ title, detailHref }: { title: string; detailHref?: string }) {
+  const className =
+    "semantic-flow-node-title mt-1 line-clamp-3 text-[13px] leading-snug hover:text-accent hover:underline hover:underline-offset-2 md:text-sm";
+
+  if (!detailHref) {
+    return <p className={className}>{title}</p>;
+  }
+
+  return (
+    <Link
+      href={detailHref}
+      className={className}
+      aria-label={`Open ${title} detail page`}
+      onClick={stopNodeActivation}
+      onPointerDown={stopNodeActivation}
+    >
+      {title}
+    </Link>
+  );
+}
+
 function subtitleOf(n: GraphNode): string | undefined {
   if (n.kind === "concept") return n.entity.shortDefinition;
   if (n.kind === "pattern") return n.entity.summary;
@@ -74,7 +102,8 @@ function SemanticFlowNodeInner({ data }: NodeProps<Node<SemanticFlowNodeData>>) 
     el.style.setProperty("isolation", "isolate", "important");
   }, [resolvedTheme]);
 
-  const { graphNode, isFocus, isSelected, isPinned, onPath } = data;
+  const { graphNode, isFocus, isSelected, isPinned, onPath, detailHref } = data;
+  const title = titleOf(graphNode);
   const profile = visualProfileForGraphNode(graphNode);
   const ring = ringClassesForState(accentRing[profile.accent] ?? accentRing.slate, isSelected);
   const shape = shapeClass[profile.shape] ?? shapeClass.circle;
@@ -98,14 +127,12 @@ function SemanticFlowNodeInner({ data }: NodeProps<Node<SemanticFlowNodeData>>) 
         {profile.shape === "diamond" ? (
           <div className="-rotate-45 px-1">
             <p className="semantic-flow-node-meta text-[9px] uppercase tracking-[0.22em]">{graphNode.kind}</p>
-            <p className="semantic-flow-node-title mt-1 text-[13px] leading-snug">{titleOf(graphNode)}</p>
+            <NodeTitle title={title} detailHref={detailHref} />
           </div>
         ) : (
           <>
             <p className="semantic-flow-node-meta text-[9px] uppercase tracking-[0.22em]">{graphNode.kind}</p>
-            <p className="semantic-flow-node-title mt-1 line-clamp-3 text-[13px] leading-snug md:text-sm">
-              {titleOf(graphNode)}
-            </p>
+            <NodeTitle title={title} detailHref={detailHref} />
             {subtitleOf(graphNode) && profile.shape !== "pill" ? (
               <p className="semantic-flow-node-meta mt-1 line-clamp-2 text-[11px] leading-relaxed">
                 {subtitleOf(graphNode)}

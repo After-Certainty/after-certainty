@@ -1,8 +1,8 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import {
   ReactFlowProvider,
   useEdgesState,
@@ -12,8 +12,12 @@ import {
 } from "@xyflow/react";
 
 import { ExploreFlowCanvas } from "@/components/explore/observatory/ExploreFlowCanvas";
+import { ExploreObservatoryHub } from "@/components/explore/observatory/ExploreObservatoryHub";
 import { ObservatoryEntityPanel } from "@/components/explore/observatory/ObservatoryEntityPanel";
-import { GraphNeighborhoodClient } from "@/components/explore/graph-neighborhood-client";
+import {
+  progressiveNeighborsPerKindForTier,
+  useObservatoryTier,
+} from "@/lib/explore/useObservatoryTier";
 import { buildGraphIndex, type GraphNode } from "@/lib/graph/graph";
 import {
   buildGraphVizModel,
@@ -25,7 +29,15 @@ import {
 import { computeGraphInsights } from "@/lib/graph/graphInsights";
 import { buildUndirectedAdjacency, shortestPathUndirected } from "@/lib/graph/graphPaths";
 import { mergeNodePositions } from "@/lib/explore/observatoryLayout";
-import { exploreDefaultHomeFocalCanonicalId, exploreObservatoryFocusHref, explorePaths } from "@/lib/graph/explorePaths";
+import {
+  EXPLORE_VIEW_OBSERVATORY,
+  exploreDefaultHomeFocalCanonicalId,
+  exploreObservatoryFocusHref,
+  explorePaths,
+  exploreViewFromSearchParams,
+  exploreHrefForCanonicalId,
+  type ExploreCompactView,
+} from "@/lib/graph/explorePaths";
 import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
 import { formatRelationshipLabelForDisplay, normalizePredicateKey } from "@/lib/graph/relationshipVisuals";
 import type { GraphEntityKind, Relationship, SemanticGraph } from "@/types/semanticGraph";
@@ -97,12 +109,19 @@ function ObservatoryEmpty() {
   );
 }
 
+/** Compact graph vs hub is controlled by `?view=observatory`, not focus params alone. */
+function resolveCompactView(params: URLSearchParams): ExploreCompactView {
+  return exploreViewFromSearchParams(params);
+}
+
 function ExploreObservatoryInner({
   initialGraph,
   coverBySlug = {},
   initialFocusCanonicalId = null,
 }: ExploreObservatoryProps) {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const { tier, isCompact } = useObservatoryTier();
   const index = useMemo(() => buildGraphIndex(initialGraph), [initialGraph]);
 
   const defaultFocal = useMemo(() => defaultFocusCanonicalId(index), [index]);
@@ -115,6 +134,11 @@ function ExploreObservatoryInner({
 
   /** True when `/explore?focusKind=&focusSlug=` resolved to a focal id (URL-driven focus). */
   const urlFocusFromQuery = initialFocusCanonicalId != null;
+
+  const compactView = useMemo((): ExploreCompactView => {
+    if (!isCompact) return "hub";
+    return resolveCompactView(new URLSearchParams(searchParams.toString()));
+  }, [isCompact, searchParams]);
 
   const [expandedRootIds, setExpandedRootIds] = useState<string[]>(() => {
     if (initialFocusCanonicalId != null && index.getNodeByCanonicalId(initialFocusCanonicalId)) {
@@ -174,6 +198,30 @@ function ExploreObservatoryInner({
   }, [index, focusId]);
 
   const progressiveSubgraph = expandedRootIds.length > 0;
+  const progressiveNeighborsPerKind = progressiveNeighborsPerKindForTier(tier);
+
+  const enterCompactObservatory = useCallback(() => {
+    setExpandedRootIds((prev) => {
+      if (prev.length > 0) return prev;
+      const home = exploreDefaultHomeFocalCanonicalId(index) ?? defaultFocal;
+      if (home) {
+        setFocusId(home);
+        setSelectedNodeId(home);
+        return [home];
+      }
+      return prev;
+    });
+    const url = new URL(window.location.href);
+    url.searchParams.set("view", EXPLORE_VIEW_OBSERVATORY);
+    router.push(`${url.pathname}${url.search}`, { scroll: false });
+  }, [index, defaultFocal, router, setSelectedNodeId]);
+
+  const exitCompactObservatory = useCallback(() => {
+    const url = new URL(window.location.href);
+    url.searchParams.delete("view");
+    const next = `${url.pathname}${url.search}`;
+    router.replace(next || url.pathname, { scroll: false });
+  }, [router]);
 
   const viz = useMemo(() => {
     const shelfPaddingBooks =
@@ -192,6 +240,7 @@ function ExploreObservatoryInner({
       includeRelatedEntityLinks: includeRelated,
       pinnedCanonicalIds: [...pinned],
       shelfPaddingBooks,
+      progressiveNeighborsPerKind: progressiveSubgraph ? progressiveNeighborsPerKind : undefined,
     };
     if (progressiveSubgraph) {
       return buildProgressiveGraphVizModel(index, opt, expandedRootIds);
@@ -209,6 +258,7 @@ function ExploreObservatoryInner({
     pinned,
     progressiveSubgraph,
     expandedRootIds,
+    progressiveNeighborsPerKind,
   ]);
 
   const pathChain = useMemo(() => {
@@ -269,6 +319,7 @@ function ExploreObservatoryInner({
             isSelected: id === selectedId,
             isPinned: pinned.has(id),
             onPath: pathNodeIds.has(id),
+            detailHref: exploreHrefForCanonicalId(index, id) ?? undefined,
           },
         });
       }
@@ -330,15 +381,18 @@ function ExploreObservatoryInner({
     return index.getNodeByCanonicalId(selectedId);
   }, [index, selectedId]);
 
-  const handleNodeClick = useCallback((id: string) => {
-    setExpandedRootIds((prev) => {
-      if (prev.length === 0) return prev;
-      return prev.includes(id) ? prev : [...prev, id];
-    });
-    setSelectedNodeId(id);
-    setFocusId(id);
-    setRightOpen(true);
-  }, [setSelectedNodeId]);
+  const handleNodeClick = useCallback(
+    (id: string) => {
+      setExpandedRootIds((prev) => {
+        if (prev.length === 0) return prev;
+        return prev.includes(id) ? prev : [...prev, id];
+      });
+      setSelectedNodeId(id);
+      setFocusId(id);
+      if (!isCompact) setRightOpen(true);
+    },
+    [isCompact, setSelectedNodeId],
+  );
 
   const handleNodeDoubleClick = useCallback(
     (id: string) => {
@@ -446,12 +500,27 @@ function ExploreObservatoryInner({
     });
   }, []);
 
-  const focalForNeighborhood = useMemo(() => {
-    if (!effectiveFocusId) return null;
-    const n = index.getNodeByCanonicalId(effectiveFocusId);
-    if (!n) return null;
-    return { kind: n.kind, id: n.id, slug: n.slug } as const;
-  }, [index, effectiveFocusId]);
+  const showCompactObservatory = isCompact && compactView === "observatory";
+
+  const flowCanvas = (
+    <ExploreFlowCanvas
+      nodes={nodes}
+      edges={edges}
+      focusId={effectiveFocusId}
+      refitSignal={refitSignal}
+      onNodesChange={onNodesChange}
+      onEdgesChange={onEdgesChange}
+      onNodeClick={handleNodeClick}
+      onNodeDoubleClick={handleNodeDoubleClick}
+      onPaneClick={() => setSelectedNodeId(null)}
+      onTidyLayout={handleTidyLayout}
+      fullHeight={showCompactObservatory}
+    />
+  );
+
+  if (isCompact && compactView === "hub") {
+    return <ExploreObservatoryHub onEnterObservatory={enterCompactObservatory} />;
+  }
 
   return (
     <div className="relative flex min-h-[calc(100dvh-5rem)] flex-col border-b border-border/30 bg-bg lg:h-[calc(100dvh-4rem)] lg:min-h-0 lg:max-h-[calc(100dvh-4rem)] lg:overflow-hidden">
@@ -460,9 +529,26 @@ function ExploreObservatoryInner({
         aria-hidden
       />
 
+      {showCompactObservatory ? (
+        <div className="fixed inset-x-0 bottom-0 top-16 z-50 flex flex-col bg-bg">
+          <div className="flex shrink-0 items-center justify-between gap-2 border-b border-border/30 px-4 py-3">
+            <p className="font-display text-sm text-fg">Observatory</p>
+            <button
+              type="button"
+              className="rounded-sm border border-border px-3 py-2 text-[10px] uppercase tracking-[0.2em] text-fg hover:border-accent/45"
+              onClick={exitCompactObservatory}
+            >
+              Exit
+            </button>
+          </div>
+          <div className="relative min-h-0 flex-1">{flowCanvas}</div>
+        </div>
+      ) : null}
+
+      {!isCompact ? (
       <div className="relative z-10 flex min-h-0 flex-1 flex-col lg:grid lg:min-h-0 lg:max-h-full lg:grid-cols-[minmax(0,17rem)_1fr_minmax(0,18rem)] lg:grid-rows-[minmax(0,1fr)_auto]">
         {/* Mobile / tablet drawer toggles */}
-        <div className="flex items-center justify-between gap-2 border-b border-border/30 px-4 py-3 lg:hidden">
+        <div className="hidden items-center justify-between gap-2 border-b border-border/30 px-4 py-3 lg:hidden">
           <button
             type="button"
             className="rounded-sm border border-border px-3 py-2 text-[10px] uppercase tracking-[0.2em] text-fg"
@@ -632,33 +718,7 @@ function ExploreObservatoryInner({
 
         {/* Center */}
         <main className="relative flex min-h-0 min-w-0 flex-col border-border/30 lg:row-start-1 lg:col-start-2 lg:max-h-full lg:overflow-hidden lg:border-x">
-          <div className="hidden min-h-0 flex-1 md:block md:h-full md:min-h-0">
-            <ExploreFlowCanvas
-              nodes={nodes}
-              edges={edges}
-              focusId={effectiveFocusId}
-              refitSignal={refitSignal}
-              onNodesChange={onNodesChange}
-              onEdgesChange={onEdgesChange}
-              onNodeClick={handleNodeClick}
-              onNodeDoubleClick={handleNodeDoubleClick}
-              onPaneClick={() => setSelectedNodeId(null)}
-              onTidyLayout={handleTidyLayout}
-            />
-          </div>
-          <div className="border-t border-border/30 px-4 py-6 md:hidden">
-            {focalForNeighborhood ? (
-              <GraphNeighborhoodClient
-                graph={initialGraph}
-                focal={focalForNeighborhood}
-                title="Neighborhood"
-                maxDepth={2}
-                maxNodes={18}
-              />
-            ) : (
-              <p className="text-sm text-muted">No focal node.</p>
-            )}
-          </div>
+          <div className="min-h-0 flex-1 lg:h-full lg:min-h-0">{flowCanvas}</div>
         </main>
 
         {/* Right overlay */}
@@ -769,6 +829,7 @@ function ExploreObservatoryInner({
           </div>
         </section>
       </div>
+      ) : null}
     </div>
   );
 }
@@ -785,7 +846,15 @@ export function ExploreObservatory(props: ExploreObservatoryProps) {
   }
   return (
     <ReactFlowProvider>
-      <ExploreObservatoryInner {...props} />
+      <Suspense
+        fallback={
+          <div className="flex min-h-[calc(100dvh-5rem)] items-center justify-center text-sm text-muted">
+            Loading observatory…
+          </div>
+        }
+      >
+        <ExploreObservatoryInner {...props} />
+      </Suspense>
     </ReactFlowProvider>
   );
 }

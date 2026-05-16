@@ -187,6 +187,16 @@ describe("graphVizModel", () => {
 
     const uncapped = buildProgressiveGraphVizModel(index, { ...opt, progressiveNeighborsPerKind: 0 }, ["b1"]);
     expect(uncapped.nodeIds.filter((id) => index.getNodeByCanonicalId(id)?.kind === "concept").length).toBe(10);
+
+    const onePerKind = buildProgressiveGraphVizModel(index, { ...opt, progressiveNeighborsPerKind: 1 }, ["b1"]);
+    expect(onePerKind.nodeIds.filter((id) => index.getNodeByCanonicalId(id)?.kind === "concept").length).toBeLessThanOrEqual(
+      1,
+    );
+
+    const twoPerKind = buildProgressiveGraphVizModel(index, { ...opt, progressiveNeighborsPerKind: 2 }, ["b1"]);
+    expect(twoPerKind.nodeIds.filter((id) => index.getNodeByCanonicalId(id)?.kind === "concept").length).toBeLessThanOrEqual(
+      2,
+    );
   });
 
   it("distinct helpers", () => {

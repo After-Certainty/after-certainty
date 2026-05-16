@@ -38,6 +38,8 @@ export type ExploreFlowCanvasProps = {
   onPaneClick: () => void;
   /** Re-run radial placement for visible nodes (pinned positions preserved). */
   onTidyLayout?: () => void;
+  /** Fill parent height (compact fullscreen observatory). */
+  fullHeight?: boolean;
 };
 
 function FitViewOnFocus({ focusId, refitSignal = 0 }: { focusId: string | null; refitSignal?: number }) {
@@ -69,6 +71,7 @@ export function ExploreFlowCanvas({
   onNodeDoubleClick,
   onPaneClick,
   onTidyLayout,
+  fullHeight = false,
 }: ExploreFlowCanvasProps) {
   const { resolvedTheme } = useTheme();
   /** XY Flow swaps `--xy-*-default` vars only when the root has `.dark` (see `@xyflow/react/dist/style.css`). */
@@ -90,7 +93,13 @@ export function ExploreFlowCanvas({
   );
 
   return (
-    <div className="h-[min(72vh,560px)] w-full min-h-[280px] lg:h-full lg:min-h-0">
+    <div
+      className={
+        fullHeight
+          ? "h-full min-h-0 w-full flex-1"
+          : "h-[min(72vh,560px)] w-full min-h-[280px] lg:h-full lg:min-h-0"
+      }
+    >
       <ReactFlow
         nodes={nodes}
         edges={edges}

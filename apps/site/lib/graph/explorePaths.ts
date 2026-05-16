@@ -41,10 +41,25 @@ export function exploreHrefForCanonicalId(index: GraphIndex, canonicalId: string
   return exploreHrefForNode(n);
 }
 
+export const EXPLORE_VIEW_OBSERVATORY = "observatory";
+
+export type ExploreCompactView = "hub" | "observatory";
+
+export function exploreViewFromSearchParams(sp: URLSearchParams): ExploreCompactView {
+  return sp.get("view") === EXPLORE_VIEW_OBSERVATORY ? "observatory" : "hub";
+}
+
+/** Merge `view=observatory` into an explore URL (preserves focusKind/focusSlug). */
+export function withExploreObservatoryView(href: string): string {
+  const url = new URL(href, "http://local");
+  url.searchParams.set("view", EXPLORE_VIEW_OBSERVATORY);
+  return `${url.pathname}${url.search}`;
+}
+
 /** Deep-link into the graph observatory with this entity as focal node. */
 export function exploreObservatoryFocusHref(kind: GraphEntityKind, slug: string): string {
   const q = new URLSearchParams();
   q.set("focusKind", kind);
   q.set("focusSlug", slug);
-  return `${explorePaths.home}?${q.toString()}`;
+  return withExploreObservatoryView(`${explorePaths.home}?${q.toString()}`);
 }

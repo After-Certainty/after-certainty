@@ -1,6 +1,16 @@
 import { describe, expect, it } from "vitest";
 
-import { exploreDefaultHomeConceptSlug, exploreDefaultHomeFocalCanonicalId, exploreObservatoryFocusHref, explorePaths, exploreHrefForCanonicalId, exploreHrefForNode } from "@/lib/graph/explorePaths";
+import {
+  EXPLORE_VIEW_OBSERVATORY,
+  exploreDefaultHomeConceptSlug,
+  exploreDefaultHomeFocalCanonicalId,
+  exploreObservatoryFocusHref,
+  explorePaths,
+  exploreHrefForCanonicalId,
+  exploreHrefForNode,
+  exploreViewFromSearchParams,
+  withExploreObservatoryView,
+} from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
@@ -51,9 +61,32 @@ describe("exploreDefaultHomeFocalCanonicalId", () => {
 });
 
 describe("exploreObservatoryFocusHref", () => {
-  it("builds /explore query with kind and slug", () => {
+  it("builds /explore query with kind, slug, and observatory view", () => {
     expect(exploreObservatoryFocusHref("concept", "certainty")).toBe(
-      "/explore?focusKind=concept&focusSlug=certainty",
+      "/explore?focusKind=concept&focusSlug=certainty&view=observatory",
+    );
+  });
+});
+
+describe("exploreViewFromSearchParams", () => {
+  it("returns observatory when view param matches", () => {
+    expect(exploreViewFromSearchParams(new URLSearchParams(`view=${EXPLORE_VIEW_OBSERVATORY}`))).toBe(
+      "observatory",
+    );
+    expect(exploreViewFromSearchParams(new URLSearchParams())).toBe("hub");
+  });
+
+  it("returns hub when only focus params remain after exiting observatory", () => {
+    expect(
+      exploreViewFromSearchParams(new URLSearchParams("focusKind=concept&focusSlug=certainty")),
+    ).toBe("hub");
+  });
+});
+
+describe("withExploreObservatoryView", () => {
+  it("adds view=observatory while preserving other query params", () => {
+    expect(withExploreObservatoryView("/explore?focusKind=concept&focusSlug=x")).toBe(
+      "/explore?focusKind=concept&focusSlug=x&view=observatory",
     );
   });
 });
