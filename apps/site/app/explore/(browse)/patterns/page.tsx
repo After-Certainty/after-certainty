@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ExploreIndexHero } from "@/components/explore/explore-hero";
+import { ExplorePatternsPlaylistCallout } from "@/components/explore/explore-patterns-playlist-callout";
 import { PatternCard } from "@/components/explore/pattern-card";
 import { Section } from "@/components/ui/section";
 import { patternsSortedForExploreIndex } from "@/lib/explore/explore-patterns-order";
@@ -24,6 +25,7 @@ export default async function ExplorePatternsIndexPage() {
         lede="Directional, recurring forms — each pattern links back into concepts and volumes as living language."
       />
       <Section atmosphere="transition" className="border-t border-border/25 py-14 md:py-20">
+        <ExplorePatternsPlaylistCallout books={graph.books} />
         {patterns.length === 0 ? (
           <p className="text-muted">No patterns are published in the manifest yet.</p>
         ) : (

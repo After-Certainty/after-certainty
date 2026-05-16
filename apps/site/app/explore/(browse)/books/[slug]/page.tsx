@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
+import { ExploreBookMedia } from "@/components/explore/explore-book-media";
 import { ExploreObservatoryFocusLink } from "@/components/explore/explore-observatory-focus-link";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
@@ -101,6 +102,7 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
             ) : null}
           </div>
         </div>
+        <ExploreBookMedia book={book} />
         <p className="mt-6 text-sm">
           <Link href={`/books/${book.slug}`} className="text-accent underline-offset-4 hover:underline">
             Open catalog page

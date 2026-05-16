@@ -1,7 +1,3823 @@
 {
-  "books": [],
-  "glossary": [],
-  "patterns": [],
-  "sources": [],
-  "relationships": []
+  "manifestVersion": 1,
+  "generatedAt": "2026-05-16T23:20:00.803953+00:00",
+  "repository": "ksteffe/after-certainty",
+  "ref": "main",
+  "releaseTag": "latest",
+  "books": [
+    {
+      "slug": "after-certainty",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "After Certainty",
+      "subtitle": "How to Live and Judge When Understanding is not Enough",
+      "description": "Exploring meaning, trust, leadership, and human systems in a world beyond certainty.",
+      "authors": [
+        "Contributors TBD"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/after-certainty/book-cover.png",
+      "coverImagePath": "upcoming/after-certainty/book-cover.png",
+      "bookDir": "upcoming/after-certainty",
+      "docx": {
+        "enabled": false,
+        "file": "after-certainty.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "after-certainty.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "after-certainty.pdf",
+        "url": null
+      },
+      "id": "book-after-certainty",
+      "summary": "Exploring meaning, trust, leadership, and human systems in a world beyond certainty.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "before-certainty-arrives",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "Before Certainty Arrives",
+      "subtitle": "How Moral Order Forms, Hardens, and Outlives Its Reasons",
+      "description": "Essays on the cultural preconditions that made brittle certainty feel normal and what it costs when it breaks.",
+      "authors": [
+        "Contributors TBD"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/before-certainty-arrives/book-cover.png",
+      "coverImagePath": "upcoming/before-certainty-arrives/book-cover.png",
+      "bookDir": "upcoming/before-certainty-arrives",
+      "docx": {
+        "enabled": false,
+        "file": "before-certainty-arrives.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "before-certainty-arrives.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "before-certainty-arrives.pdf",
+        "url": null
+      },
+      "id": "book-before-certainty-arrives",
+      "summary": "Essays on the cultural preconditions that made brittle certainty feel normal and what it costs when it breaks.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "coupling",
+      "source": "books",
+      "status": "published",
+      "title": "Coupling",
+      "subtitle": "Cohesion, Consequence, and the Architecture of Responsibility",
+      "description": "A practical framework for seeing where systems are tightly joined, where they drift apart, and how those coupling choices shape accountability over time.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/coupling/BookCover.png",
+      "coverImagePath": "books/coupling/BookCover.png",
+      "bookDir": "books/coupling",
+      "docx": {
+        "enabled": true,
+        "file": "coupling.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/coupling.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "coupling.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/coupling.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "coupling.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/coupling.pdf"
+      },
+      "id": "book-coupling",
+      "summary": "A practical framework for seeing where systems are tightly joined, where they drift apart, and how those coupling choices shape accountability over time.",
+      "concepts": [
+        "concept-abstraction",
+        "concept-accountability",
+        "concept-agency",
+        "concept-agile",
+        "concept-authority",
+        "concept-circulation",
+        "concept-cohesion",
+        "concept-constraints",
+        "concept-contract",
+        "concept-correction",
+        "concept-coupling",
+        "concept-devops",
+        "concept-dora",
+        "concept-feedback",
+        "concept-governance-coupling",
+        "concept-hexagonal-architecture",
+        "concept-incentives",
+        "concept-interface",
+        "concept-invariant",
+        "concept-judgment",
+        "concept-legitimacy",
+        "concept-operational-coupling",
+        "concept-renewal",
+        "concept-responsibility",
+        "concept-scale",
+        "concept-shift-left",
+        "concept-system",
+        "concept-temporal-coupling",
+        "concept-waterfall"
+      ],
+      "patterns": [
+        "pattern-dissent-is-welcomed",
+        "pattern-examples-accumulate",
+        "pattern-exceptions-are-forever",
+        "pattern-feedback-drives-change",
+        "pattern-learning-collapses",
+        "pattern-meaning-gets-distorted"
+      ],
+      "sources": []
+    },
+    {
+      "slug": "curiosity-before-certainty",
+      "source": "books",
+      "status": "published",
+      "title": "Curiosity Before Certainty",
+      "subtitle": "How Curiosity Helps Us Understand a Complex World",
+      "description": "An argument for disciplined curiosity as a leadership and learning posture when easy certainty hides complexity and weakens judgment.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/curiosity-before-certainty/book-cover.png",
+      "coverImagePath": "books/curiosity-before-certainty/book-cover.png",
+      "bookDir": "books/curiosity-before-certainty",
+      "docx": {
+        "enabled": true,
+        "file": "curiosity-before-certainty.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/curiosity-before-certainty.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "curiosity-before-certainty.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/curiosity-before-certainty.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "curiosity-before-certainty.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/curiosity-before-certainty.pdf"
+      },
+      "id": "book-curiosity-before-certainty",
+      "summary": "An argument for disciplined curiosity as a leadership and learning posture when easy certainty hides complexity and weakens judgment.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "how-meaning-moves",
+      "source": "books",
+      "status": "published",
+      "title": "How Meaning Moves",
+      "subtitle": "Signal, Compression, Restraint, and the Pace of Understanding",
+      "description": "A concise tour of how meaning travels through language, systems, and relationships, and why restraint is often the difference between noise and connection.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-meaning-moves/BookCover.png",
+      "coverImagePath": "books/how-meaning-moves/BookCover.png",
+      "bookDir": "books/how-meaning-moves",
+      "docx": {
+        "enabled": true,
+        "file": "how-meaning-moves.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-meaning-moves.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "how-meaning-moves.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-meaning-moves.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "how-meaning-moves.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-meaning-moves.pdf"
+      },
+      "id": "book-how-meaning-moves",
+      "summary": "A concise tour of how meaning travels through language, systems, and relationships, and why restraint is often the difference between noise and connection.",
+      "concepts": [
+        "concept-adaptation",
+        "concept-coordination",
+        "concept-friction",
+        "concept-interpretation",
+        "concept-meaning",
+        "concept-thinking",
+        "concept-uncertainty"
+      ],
+      "patterns": [
+        "pattern-attention-finds-a-signal",
+        "pattern-contact-keeps-the-read-open",
+        "pattern-gaps-invite-completion",
+        "pattern-intent-gets-assigned",
+        "pattern-meaning-drifts-over-time",
+        "pattern-meaning-forms-early",
+        "pattern-meaning-gets-distorted",
+        "pattern-meaning-outruns-the-words",
+        "pattern-meaning-reinforces-itself",
+        "pattern-meaning-shifts-under-pressure"
+      ],
+      "sources": [
+        "source-arendt-hannah-responsibility-and-judgment",
+        "source-arendt-hannah-the-life-of-the-mind",
+        "source-barrett-lisa-feldman-how-emotions-are-made-the-secret-life-of-the-brain",
+        "source-baumeister-roy-f-and-mark-r-leary-the-need-to-belong",
+        "source-bowlby-john-attachment-and-loss",
+        "source-clark-herbert-h-using-language",
+        "source-deming-w-edwards-out-of-the-crisis",
+        "source-deutsch-morton-the-resolution-of-conflict",
+        "source-easterbrook-j-a-the-effect-of-emotion-on-cue-utilization",
+        "source-edmondson-amy-c-the-fearless-organization",
+        "source-faden-ruth-r-and-tom-l-beauchamp-a-history-and-theory-of-informed-consent",
+        "source-french-john-r-p-and-bertram-raven-the-bases-of-social-power",
+        "source-fricker-miranda-epistemic-injustice",
+        "source-gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious",
+        "source-goffman-erving-interaction-ritual",
+        "source-gottman-john-m-the-seven-principles-for-making-marriage-work",
+        "source-kahan-dan-m-motivated-reasoning",
+        "source-kahneman-daniel-thinking-fast-and-slow",
+        "source-kruglanski-arie-w-the-need-for-cognitive-closure",
+        "source-kruglanski-arie-w-the-psychology-of-closed-mindedness",
+        "source-lazarus-richard-s-emotion-and-adaptation",
+        "source-ledoux-joseph-the-emotional-brain",
+        "source-march-james-g-and-herbert-a-simon-organizations",
+        "source-milgram-stanley-obedience-to-authority",
+        "source-minuchin-salvador-families-and-family-therapy",
+        "source-morrison-elizabeth-w-employee-voice-behavior",
+        "source-nickerson-raymond-s-confirmation-bias",
+        "source-perrow-charles-normal-accidents",
+        "source-ross-lee-and-andrew-ward-naive-realism-in-everyday-life",
+        "source-ross-lee-and-richard-nisbett-the-person-and-the-situation",
+        "source-ross-lee-the-intuitive-psychologist-and-his-shortcomings",
+        "source-steele-claude-m-whistling-vivaldi",
+        "source-suchman-mark-c-managing-legitimacy",
+        "source-tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior",
+        "source-tversky-amos-and-daniel-kahneman-judgment-under-uncertainty",
+        "source-weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld",
+        "source-weick-karl-e-sensemaking-in-organizations"
+      ]
+    },
+    {
+      "slug": "how-serious-systems-learn",
+      "source": "books",
+      "status": "published",
+      "title": "How Serious Systems Learn",
+      "subtitle": "Disciplines for Acting Without Certainty",
+      "description": "A handbook for teams and institutions that need to learn in motion, improve under pressure, and make better decisions without waiting for perfect information.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-serious-systems-learn/book-cover.png",
+      "coverImagePath": "books/how-serious-systems-learn/book-cover.png",
+      "bookDir": "books/how-serious-systems-learn",
+      "docx": {
+        "enabled": true,
+        "file": "how-serious-systems-learn.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-serious-systems-learn.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "how-serious-systems-learn.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-serious-systems-learn.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "how-serious-systems-learn.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-serious-systems-learn.pdf"
+      },
+      "id": "book-how-serious-systems-learn",
+      "summary": "A handbook for teams and institutions that need to learn in motion, improve under pressure, and make better decisions without waiting for perfect information.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "the-discipline-of-uncertainty",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "The Discipline of Uncertainty",
+      "subtitle": "Judgment, restraint, and decision quality under incomplete information",
+      "description": "Field notes on judgment, restraint, and decision quality when information is incomplete.",
+      "authors": [
+        "Contributors TBD"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/the-discipline-of-uncertainty/book-cover.png",
+      "coverImagePath": "upcoming/the-discipline-of-uncertainty/book-cover.png",
+      "bookDir": "upcoming/the-discipline-of-uncertainty",
+      "docx": {
+        "enabled": false,
+        "file": "the-discipline-of-uncertainty.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "the-discipline-of-uncertainty.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "the-discipline-of-uncertainty.pdf",
+        "url": null
+      },
+      "id": "book-the-discipline-of-uncertainty",
+      "summary": "Field notes on judgment, restraint, and decision quality when information is incomplete.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "the-economy-we-dont-experience",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "The Economy We Don't Experience",
+      "subtitle": "Leadership, Communication, and the Credibility Crisis in Economics and Politics",
+      "description": "How economic narratives gain and lose credibility\u2014and how leaders communicate when expert authority meets political pressure.",
+      "authors": [
+        "Contributors TBD"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/the-economy-we-dont-experience/book-cover.png",
+      "coverImagePath": "upcoming/the-economy-we-dont-experience/book-cover.png",
+      "bookDir": "upcoming/the-economy-we-dont-experience",
+      "docx": {
+        "enabled": false,
+        "file": "the-economy-we-dont-experience.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "the-economy-we-dont-experience.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "the-economy-we-dont-experience.pdf",
+        "url": null
+      },
+      "id": "book-the-economy-we-dont-experience",
+      "summary": "How economic narratives gain and lose credibility\u2014and how leaders communicate when expert authority meets political pressure.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "velorum",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "Velorum",
+      "subtitle": "A Tragic Mythic Fantasy Novel",
+      "description": "A mythic fantasy about loyalty, sacrifice, and power, where personal vows and political fate collide at tragic scale.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/velorum/book-cover.png",
+      "coverImagePath": "upcoming/velorum/book-cover.png",
+      "bookDir": "upcoming/velorum",
+      "docx": {
+        "enabled": false,
+        "file": "velorum.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "velorum.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "velorum.pdf",
+        "url": null
+      },
+      "id": "book-velorum",
+      "summary": "A mythic fantasy about loyalty, sacrifice, and power, where personal vows and political fate collide at tragic scale.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "when-accountability-no-longer-expires",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "When Accountability No Longer Expires",
+      "subtitle": "How Legitimate Authority Learns to Survive Harm",
+      "description": "A manuscript on durable accountability when institutions optimize for short memory.",
+      "authors": [
+        "Contributors TBD"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-accountability-no-longer-expires/book-cover.png",
+      "coverImagePath": "upcoming/when-accountability-no-longer-expires/book-cover.png",
+      "bookDir": "upcoming/when-accountability-no-longer-expires",
+      "docx": {
+        "enabled": false,
+        "file": "when-accountability-no-longer-expires.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "when-accountability-no-longer-expires.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "when-accountability-no-longer-expires.pdf",
+        "url": null
+      },
+      "id": "book-when-accountability-no-longer-expires",
+      "summary": "A manuscript on durable accountability when institutions optimize for short memory.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "when-authority-is-misread",
+      "source": "books",
+      "status": "published",
+      "title": "When Authority Is Misread",
+      "subtitle": "How Communication and Moral Judgment Shape Leadership at Scale",
+      "description": "An examination of what happens when signals of confidence are mistaken for legitimacy, and how that confusion distorts trust and decision-making.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-authority-is-misread/book-cover.png",
+      "coverImagePath": "books/when-authority-is-misread/book-cover.png",
+      "bookDir": "books/when-authority-is-misread",
+      "docx": {
+        "enabled": true,
+        "file": "when-authority-is-misread.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-is-misread.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-authority-is-misread.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-is-misread.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-authority-is-misread.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-is-misread.pdf"
+      },
+      "id": "book-when-authority-is-misread",
+      "summary": "An examination of what happens when signals of confidence are mistaken for legitimacy, and how that confusion distorts trust and decision-making.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "when-authority-outlives-accountability",
+      "source": "books",
+      "status": "published",
+      "title": "When Authority Outlives Accountability",
+      "subtitle": "A Lens for Moral Leadership",
+      "description": "A study of how authority can persist after accountability erodes, and what moral leadership requires to restore integrity in that gap.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-authority-outlives-accountability/book-cover.png",
+      "coverImagePath": "books/when-authority-outlives-accountability/book-cover.png",
+      "bookDir": "books/when-authority-outlives-accountability",
+      "docx": {
+        "enabled": true,
+        "file": "when-authority-outlives-accountability.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-outlives-accountability.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-authority-outlives-accountability.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-outlives-accountability.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-authority-outlives-accountability.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-outlives-accountability.pdf"
+      },
+      "id": "book-when-authority-outlives-accountability",
+      "summary": "A study of how authority can persist after accountability erodes, and what moral leadership requires to restore integrity in that gap.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "when-incentives-become-the-moral-language",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "When Incentives Become the Moral Language",
+      "subtitle": "How Systems Decide For Us When Judgment No Longer Scales",
+      "description": "How institutional incentives can crowd out judgment, responsibility, and shared meaning.",
+      "authors": [
+        "Contributors TBD"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-incentives-become-the-moral-language/book-cover.png",
+      "coverImagePath": "upcoming/when-incentives-become-the-moral-language/book-cover.png",
+      "bookDir": "upcoming/when-incentives-become-the-moral-language",
+      "docx": {
+        "enabled": false,
+        "file": "when-incentives-become-the-moral-language.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "when-incentives-become-the-moral-language.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "when-incentives-become-the-moral-language.pdf",
+        "url": null
+      },
+      "id": "book-when-incentives-become-the-moral-language",
+      "summary": "How institutional incentives can crowd out judgment, responsibility, and shared meaning.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "when-interpretation-no-longer-matters",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "When Interpretation No Longer Matters",
+      "subtitle": "Authority After Understanding Collapses",
+      "description": "A manuscript on meaning collapse when systems reward certainty over interpretation.",
+      "authors": [
+        "Contributors TBD"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-interpretation-no-longer-matters/book-cover.png",
+      "coverImagePath": "upcoming/when-interpretation-no-longer-matters/book-cover.png",
+      "bookDir": "upcoming/when-interpretation-no-longer-matters",
+      "docx": {
+        "enabled": false,
+        "file": "when-interpretation-no-longer-matters.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "when-interpretation-no-longer-matters.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "when-interpretation-no-longer-matters.pdf",
+        "url": null
+      },
+      "id": "book-when-interpretation-no-longer-matters",
+      "summary": "A manuscript on meaning collapse when systems reward certainty over interpretation.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "when-moral-seriousness-scales",
+      "source": "books",
+      "status": "published",
+      "title": "When Moral Seriousness Scales",
+      "subtitle": "Judgment Under Distance and Pressure",
+      "description": "An exploration of how moral responsibility changes under scale, speed, and institutional distance, and how to preserve humane judgment anyway.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-moral-seriousness-scales/book-cover.png",
+      "coverImagePath": "books/when-moral-seriousness-scales/book-cover.png",
+      "bookDir": "books/when-moral-seriousness-scales",
+      "docx": {
+        "enabled": true,
+        "file": "when-moral-seriousness-scales.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-moral-seriousness-scales.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-moral-seriousness-scales.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-moral-seriousness-scales.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-moral-seriousness-scales.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-moral-seriousness-scales.pdf"
+      },
+      "id": "book-when-moral-seriousness-scales",
+      "summary": "An exploration of how moral responsibility changes under scale, speed, and institutional distance, and how to preserve humane judgment anyway.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "when-others-look-to-you-v1",
+      "source": "books",
+      "status": "published",
+      "title": "When Others Look to You",
+      "subtitle": "Renewal and Erosion in Leadership",
+      "description": "A leadership field guide to how influence forms, how trust is renewed, and how erosion begins when responsibility drifts from practice.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v1/BookCover.png",
+      "coverImagePath": "books/when-others-look-to-you/v1/BookCover.png",
+      "bookDir": "books/when-others-look-to-you/v1",
+      "docx": {
+        "enabled": true,
+        "file": "when-others-look-to-you-v1.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v1.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-others-look-to-you-v1.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v1.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-others-look-to-you-v1.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v1.pdf"
+      },
+      "slugAliases": [
+        "when-others-look-to-you"
+      ],
+      "companionBooks": [
+        "when-others-look-to-you-v2"
+      ],
+      "id": "book-when-others-look-to-you-v1",
+      "summary": "A leadership field guide to how influence forms, how trust is renewed, and how erosion begins when responsibility drifts from practice.",
+      "concepts": [
+        "concept-adaptability",
+        "concept-circulation",
+        "concept-correction",
+        "concept-decay",
+        "concept-distance",
+        "concept-effectiveness",
+        "concept-erosion",
+        "concept-guest-leadership",
+        "concept-harm",
+        "concept-interpretation",
+        "concept-legitimacy",
+        "concept-normalization",
+        "concept-renewal",
+        "concept-scalability",
+        "concept-vitality"
+      ],
+      "patterns": [
+        "pattern-attention-finds-a-focus",
+        "pattern-disagreement-is-suppressed",
+        "pattern-dissent-is-welcomed",
+        "pattern-examples-accumulate",
+        "pattern-exceptions-are-forever",
+        "pattern-feedback-drives-change",
+        "pattern-leaders-feel-the-consequences",
+        "pattern-leadership-coalesces",
+        "pattern-leadership-reproduces-itself",
+        "pattern-learning-collapses"
+      ],
+      "sources": [
+        "source-agamben-giorgio-state-of-exception",
+        "source-arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of",
+        "source-arendt-hannah-what-is-authority",
+        "source-argyris-chris-and-donald-a-schon-organizational-learning-ii",
+        "source-argyris-chris-overcoming-organizational-defenses",
+        "source-bandura-albert-social-learning-theory",
+        "source-baron-jonathan-and-john-c-hershey-outcome-bias-in-decision",
+        "source-beck-ulrich-risk-society-towards-a-new-modernity",
+        "source-brehm-jack-w-a-theory-of-psychological-reactance",
+        "source-cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus",
+        "source-cockburn-alistair-how-to-step-up-stepping-up-promoting-guest",
+        "source-dekker-sidney-w-a-just-culture-restoring-trust-and-accountability",
+        "source-edmondson-amy-c-psychological-safety-and-learning-behavior-in-work",
+        "source-edmondson-amy-c-the-fearless-organization-creating-psychological",
+        "source-foucault-michel-discipline-and-punish-the-birth-of-the-prison",
+        "source-hirschman-albert-o-exit-voice-and-loyalty",
+        "source-janis-irving-l-groupthink-psychological-studies-of-policy",
+        "source-perrow-charles-normal-accidents-living-with-high-risk",
+        "source-scott-james-c-domination-and-the-arts-of-resistance-hidden",
+        "source-staw-barry-m-knee-deep-in-the-big-muddy-a-study-of-escalating",
+        "source-uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b",
+        "source-vaughan-diane-the-challenger-launch-decision-risky-technology",
+        "source-weber-max-economy-and-society-an-outline-of-interpretive",
+        "source-weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected",
+        "source-weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing",
+        "source-weick-karl-e-the-social-psychology-of-organizing"
+      ],
+      "media": {
+        "intro": {
+          "youtubeVideoId": "ma1UbSajuVI"
+        },
+        "patterns": {
+          "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PL0gz-cNuLgIZkd7HcM8tZory5sa-aN6V9"
+        }
+      }
+    },
+    {
+      "slug": "when-others-look-to-you-v2",
+      "source": "books",
+      "status": "published",
+      "title": "When Others Look to You",
+      "subtitle": "Forming, Renewing, Eroding, Repeating",
+      "description": "A companion edition that extends the leadership cycle across formation, renewal, erosion, and repetition with sharper operational patterns.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v2/BookCover.png",
+      "coverImagePath": "books/when-others-look-to-you/v2/BookCover.png",
+      "bookDir": "books/when-others-look-to-you/v2",
+      "docx": {
+        "enabled": true,
+        "file": "when-others-look-to-you-v2.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v2.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-others-look-to-you-v2.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v2.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-others-look-to-you-v2.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v2.pdf"
+      },
+      "companionOf": "when-others-look-to-you-v1",
+      "id": "book-when-others-look-to-you-v2",
+      "summary": "A companion edition that extends the leadership cycle across formation, renewal, erosion, and repetition with sharper operational patterns.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "why-collaboration-is-so-hard",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "Why Collaboration Is So Hard",
+      "subtitle": "And why the effort still matters",
+      "description": "An examination of coordination failure, misaligned incentives, and fragile trust.",
+      "authors": [
+        "Contributors TBD"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/why-collaboration-is-so-hard/book-cover.png",
+      "coverImagePath": "upcoming/why-collaboration-is-so-hard/book-cover.png",
+      "bookDir": "upcoming/why-collaboration-is-so-hard",
+      "docx": {
+        "enabled": false,
+        "file": "why-collaboration-is-so-hard.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "why-collaboration-is-so-hard.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "why-collaboration-is-so-hard.pdf",
+        "url": null
+      },
+      "id": "book-why-collaboration-is-so-hard",
+      "summary": "An examination of coordination failure, misaligned incentives, and fragile trust.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    }
+  ],
+  "glossary": [
+    {
+      "slug": "abstraction",
+      "title": "Abstraction",
+      "shortDefinition": "Abstraction is mediation away from direct encounter: compression of complexity as systems scale, valued when it preserves accountability signal at the boundaries where behavior can still be redesigned\u2014and costly when it hides consequence until feedback arrives too late.",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-abstraction",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 29,
+        "book-how-serious-systems-learn": 3,
+        "book-when-authority-is-misread": 3,
+        "book-when-authority-outlives-accountability": 1,
+        "book-when-moral-seriousness-scales": 7,
+        "book-when-others-look-to-you-v1": 1
+      }
+    },
+    {
+      "slug": "acceleration",
+      "title": "Acceleration",
+      "shortDefinition": "pressure favoring speed/alignment over reflection",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-acceleration",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-coupling": 5,
+        "book-how-serious-systems-learn": 1,
+        "book-when-authority-outlives-accountability": 2,
+        "book-when-moral-seriousness-scales": 29
+      }
+    },
+    {
+      "slug": "accountability",
+      "title": "Accountability",
+      "shortDefinition": "Accountability is exposure to consequence: who can see effects, who can be challenged or redirected, and whether authority stays close enough to lived outcomes for correction to remain plausible.",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-accountability",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 25,
+        "book-how-meaning-moves": 5,
+        "book-how-serious-systems-learn": 9,
+        "book-when-authority-is-misread": 33,
+        "book-when-authority-outlives-accountability": 28,
+        "book-when-moral-seriousness-scales": 3,
+        "book-when-others-look-to-you-v1": 25,
+        "book-when-others-look-to-you-v2": 2
+      }
+    },
+    {
+      "slug": "adaptability",
+      "title": "Adaptability",
+      "shortDefinition": "The capacity of coordinated action to change direction when reality pushes back. Together with scalability, it sorts groups into the four states adaptive, entrenched, regenerative, and stalled, and underpins how renewal and erosion are read.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "id": "concept-adaptability",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "adaptation",
+      "title": "Adaptation",
+      "shortDefinition": "local response to pressure",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-adaptation",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 10,
+        "book-how-meaning-moves": 6,
+        "book-how-serious-systems-learn": 19,
+        "book-when-authority-is-misread": 1,
+        "book-when-moral-seriousness-scales": 1,
+        "book-when-others-look-to-you-v1": 2
+      }
+    },
+    {
+      "slug": "agency",
+      "title": "Agency",
+      "shortDefinition": "Agency is the practical capacity to initiate action that can affect outcomes. Formal role without real leverage is low agency, even when nominal responsibility remains.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-agency",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "agile",
+      "title": "Agile",
+      "shortDefinition": "Agile is used in a software engineering sense. Agile refers to iterative development approaches that shorten feedback cycles, emphasize incremental delivery, and increase team-level ownership of ongoing change.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-agile",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "alignment",
+      "title": "Alignment",
+      "shortDefinition": "coordinated behavioral convergence",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-alignment",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 1,
+        "book-how-meaning-moves": 4,
+        "book-how-serious-systems-learn": 7,
+        "book-when-authority-is-misread": 10,
+        "book-when-moral-seriousness-scales": 5,
+        "book-when-others-look-to-you-v2": 1
+      }
+    },
+    {
+      "slug": "asymmetry",
+      "title": "Asymmetry",
+      "shortDefinition": "uneven distribution of power/consequence",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-asymmetry",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-how-meaning-moves": 2,
+        "book-how-serious-systems-learn": 9,
+        "book-when-authority-is-misread": 4,
+        "book-when-authority-outlives-accountability": 2,
+        "book-when-moral-seriousness-scales": 28
+      }
+    },
+    {
+      "slug": "authority",
+      "title": "Authority",
+      "shortDefinition": "Authority is operational coordination power\u2014the recognized right to steer, allocate, or constrain action\u2014always in tension with legitimacy and with whether consequence stays visible enough under scale for coordination to remain contestable rather than brittle.",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-authority",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-coupling": 36,
+        "book-curiosity-before-certainty": 1,
+        "book-how-meaning-moves": 37,
+        "book-how-serious-systems-learn": 74,
+        "book-when-authority-is-misread": 106,
+        "book-when-authority-outlives-accountability": 117,
+        "book-when-moral-seriousness-scales": 50,
+        "book-when-others-look-to-you-v1": 73,
+        "book-when-others-look-to-you-v2": 15
+      }
+    },
+    {
+      "slug": "authorization",
+      "title": "Authorization",
+      "shortDefinition": "Normalized permission for action that outlasts the local pressures that first produced it; contrasts with one-off adaptation.",
+      "termKind": "extended",
+      "relatedConcepts": [
+        "concept-adaptation",
+        "concept-legitimacy"
+      ],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-authorization",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "bureaucracy",
+      "title": "Bureaucracy",
+      "shortDefinition": "rule-bound institutional coordination and role-bound authority",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-bureaucracy",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 6,
+        "book-how-serious-systems-learn": 1
+      }
+    },
+    {
+      "slug": "certainty",
+      "title": "Certainty",
+      "shortDefinition": "stabilized coordination state",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-certainty",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-coupling": 1,
+        "book-curiosity-before-certainty": 16,
+        "book-how-meaning-moves": 36,
+        "book-how-serious-systems-learn": 52,
+        "book-when-authority-is-misread": 4,
+        "book-when-authority-outlives-accountability": 3,
+        "book-when-moral-seriousness-scales": 11,
+        "book-when-others-look-to-you-v1": 2,
+        "book-when-others-look-to-you-v2": 3
+      }
+    },
+    {
+      "slug": "circulation",
+      "title": "Circulation",
+      "shortDefinition": "Circulation is transmission and reproduction through systems: how norms, habits, and design choices move, repeat, and amplify\u2014what spreads without being re-owned locally, and what keeps learning alive as coordination widens.",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-circulation",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-how-serious-systems-learn": 1,
+        "book-when-moral-seriousness-scales": 1,
+        "book-when-others-look-to-you-v1": 63,
+        "book-when-others-look-to-you-v2": 1
+      }
+    },
+    {
+      "slug": "cohesion",
+      "title": "Cohesion",
+      "shortDefinition": "The degree to which responsibility is clearly held within a boundary (team, role, function, or institution). High cohesion means ownership is legible and decisions are not diffusely assigned.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-cohesion",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "compression",
+      "title": "Compression",
+      "shortDefinition": "reduction of complexity for transmission",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-compression",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 9,
+        "book-curiosity-before-certainty": 2,
+        "book-how-meaning-moves": 67,
+        "book-how-serious-systems-learn": 1,
+        "book-when-authority-is-misread": 62,
+        "book-when-moral-seriousness-scales": 1
+      }
+    },
+    {
+      "slug": "consequence",
+      "title": "Consequence",
+      "shortDefinition": "actual effects in reality",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-consequence",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-coupling": 114,
+        "book-how-meaning-moves": 19,
+        "book-how-serious-systems-learn": 19,
+        "book-when-authority-is-misread": 8,
+        "book-when-authority-outlives-accountability": 7,
+        "book-when-moral-seriousness-scales": 40,
+        "book-when-others-look-to-you-v1": 10,
+        "book-when-others-look-to-you-v2": 4
+      }
+    },
+    {
+      "slug": "constraint",
+      "title": "Constraint",
+      "shortDefinition": "limits preserving stability/corrigibility",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-constraint",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 7,
+        "book-how-meaning-moves": 1,
+        "book-how-serious-systems-learn": 41,
+        "book-when-authority-is-misread": 67,
+        "book-when-authority-outlives-accountability": 8,
+        "book-when-moral-seriousness-scales": 30
+      }
+    },
+    {
+      "slug": "constraints",
+      "title": "Constraints",
+      "shortDefinition": "Constraints are the limits and boundary conditions that shape what actions are possible in a system. They include technical limits, legal rules, time pressure, budget limits, and institutional procedures. Good constraints channel behavior toward learning and accountability; poor constraints hide tradeoffs or displace consequence.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-constraints",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "contestability",
+      "title": "Contestability",
+      "shortDefinition": "ability to challenge without collapse",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-contestability",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-how-serious-systems-learn": 6,
+        "book-when-authority-outlives-accountability": 1,
+        "book-when-moral-seriousness-scales": 24
+      }
+    },
+    {
+      "slug": "contract",
+      "title": "Contract",
+      "shortDefinition": "Contract is used in a software engineering sense. A contract is the explicit behavioral agreement attached to an interface: what inputs are valid, what outputs are expected, what errors can occur, and what invariants are guaranteed. Strong contracts reduce ambiguity between components and make failures easier to diagnose.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-contract",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "coordination",
+      "title": "Coordination",
+      "shortDefinition": "collective behavioral organization",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-coordination",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 18,
+        "book-how-meaning-moves": 3,
+        "book-how-serious-systems-learn": 16,
+        "book-when-authority-is-misread": 25,
+        "book-when-authority-outlives-accountability": 3,
+        "book-when-moral-seriousness-scales": 7,
+        "book-when-others-look-to-you-v1": 12,
+        "book-when-others-look-to-you-v2": 3
+      }
+    },
+    {
+      "slug": "correction",
+      "title": "Correction",
+      "shortDefinition": "Correction is reality-contact and revisability: the lived work of noticing mismatch, updating beliefs or behavior, and narrowing the gap between what was assumed and what is actually happening before drift hardens into normal.",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-correction",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-coupling": 23,
+        "book-curiosity-before-certainty": 2,
+        "book-how-meaning-moves": 25,
+        "book-how-serious-systems-learn": 89,
+        "book-when-moral-seriousness-scales": 10,
+        "book-when-others-look-to-you-v1": 104,
+        "book-when-others-look-to-you-v2": 15
+      }
+    },
+    {
+      "slug": "corrigibility",
+      "title": "Corrigibility",
+      "shortDefinition": "capacity for revision and recovery",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-corrigibility",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-how-serious-systems-learn": 16,
+        "book-when-moral-seriousness-scales": 4
+      }
+    },
+    {
+      "slug": "coupling",
+      "title": "Coupling",
+      "shortDefinition": "Coupling is attachment between action and consequence\u2014how tightly decisions remain traceable to effects, how feedback travels, and whether redesign authority can still bite when scale and abstraction lengthen the chain.",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-coupling",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-coupling": 110,
+        "book-how-meaning-moves": 2,
+        "book-how-serious-systems-learn": 7
+      }
+    },
+    {
+      "slug": "decay",
+      "title": "Decay",
+      "shortDefinition": "The state of a group when capacities shrink: influence no longer changes course readily under pressure, coordinated action no longer sustains reach, or both. Contrasts with vitality; sustained erosion tends toward decay.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "id": "concept-decay",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "devops",
+      "title": "DevOps",
+      "shortDefinition": "DevOps is used in a software engineering sense. DevOps refers to practices and operating norms that reduce the distance between software implementation and operations so that delivery, reliability, and learning stay structurally connected.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-devops",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "distance",
+      "title": "Distance",
+      "shortDefinition": "separation from visible consequence",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-distance",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 43,
+        "book-how-meaning-moves": 4,
+        "book-how-serious-systems-learn": 2,
+        "book-velorum": 7,
+        "book-when-authority-is-misread": 6,
+        "book-when-authority-outlives-accountability": 9,
+        "book-when-moral-seriousness-scales": 25,
+        "book-when-others-look-to-you-v1": 15,
+        "book-when-others-look-to-you-v2": 7
+      }
+    },
+    {
+      "slug": "dora",
+      "title": "DORA",
+      "shortDefinition": "DORA is used in a software engineering sense. DORA refers to research-backed software delivery metrics and practices (for example, lead time for changes and change failure rate) used to evaluate learning-loop quality between development and operations.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-dora",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "drift",
+      "title": "Drift",
+      "shortDefinition": "gradual decoupling from original conditions",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-drift",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 21,
+        "book-curiosity-before-certainty": 1,
+        "book-how-meaning-moves": 2,
+        "book-how-serious-systems-learn": 26,
+        "book-velorum": 1,
+        "book-when-authority-is-misread": 13,
+        "book-when-moral-seriousness-scales": 5,
+        "book-when-others-look-to-you-v1": 7,
+        "book-when-others-look-to-you-v2": 11
+      }
+    },
+    {
+      "slug": "effectiveness",
+      "title": "Effectiveness",
+      "shortDefinition": "What gets amplified, deferred, or mistaken for control when people look to leadership\u2014not the same as morality or intent.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "id": "concept-effectiveness",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "erosion",
+      "title": "Erosion",
+      "shortDefinition": "The direction in which a group moves when scalability or adaptability shrinks\u2014toward insulation, narrowed correction, and broken reach. Contrasts with renewal; it names structure, not moral worth.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "id": "concept-erosion",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "exposure",
+      "title": "Exposure",
+      "shortDefinition": "degree of consequence contact",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-exposure",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 7,
+        "book-how-meaning-moves": 4,
+        "book-how-serious-systems-learn": 10,
+        "book-when-authority-outlives-accountability": 2,
+        "book-when-moral-seriousness-scales": 18,
+        "book-when-others-look-to-you-v1": 1
+      }
+    },
+    {
+      "slug": "feedback",
+      "title": "Feedback",
+      "shortDefinition": "The path by which outcomes return as signal and influence future decisions. Weak or delayed feedback reduces learning quality.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-feedback",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "friction",
+      "title": "Friction",
+      "shortDefinition": "resistance that interrupts automatic escalation",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-friction",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-coupling": 4,
+        "book-curiosity-before-certainty": 3,
+        "book-how-meaning-moves": 2,
+        "book-how-serious-systems-learn": 13,
+        "book-velorum": 1,
+        "book-when-authority-outlives-accountability": 5,
+        "book-when-moral-seriousness-scales": 23,
+        "book-when-others-look-to-you-v1": 3,
+        "book-when-others-look-to-you-v2": 3
+      }
+    },
+    {
+      "slug": "governance-coupling",
+      "title": "Governance Coupling",
+      "shortDefinition": "The degree to which formal oversight structures preserve real consequence return to decision-capable authority. Governance coupling weakens when signal is filtered, delayed, or politically insulated, even if nominal accountability mechanisms still exist.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-governance-coupling",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "guest-leadership",
+      "title": "Guest Leadership",
+      "shortDefinition": "A form of circulation where people closest to an issue can temporarily step in to lead a response, then return to their usual role.",
+      "termKind": "extended",
+      "relatedConcepts": [
+        "concept-circulation"
+      ],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "id": "concept-guest-leadership",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "harm",
+      "title": "Harm",
+      "shortDefinition": "Where cost lands when influence is exercised: who absorbs it, who is kept in view, and what displacement is treated as acceptable.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "id": "concept-harm",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "hexagonal-architecture",
+      "title": "Hexagonal Architecture",
+      "shortDefinition": "Hexagonal architecture is used in a software engineering sense. Hexagonal architecture (also called ports and adapters) is a boundary pattern that keeps domain logic insulated from external technologies by routing integration concerns through explicit interface ports and adapter implementations.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-hexagonal-architecture",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "incentives",
+      "title": "Incentives",
+      "shortDefinition": "Incentives are the reward and penalty patterns that influence behavior over time. Incentives include formal metrics, promotion logic, political pressures, funding structures, and social recognition patterns. Incentives do not determine behavior by themselves, but they strongly bias what actors optimize for.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-incentives",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "inheritance",
+      "title": "Inheritance",
+      "shortDefinition": "persistence across generations/structures",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-inheritance",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-how-meaning-moves": 1,
+        "book-when-authority-is-misread": 1,
+        "book-when-authority-outlives-accountability": 8,
+        "book-when-moral-seriousness-scales": 1
+      }
+    },
+    {
+      "slug": "interface",
+      "title": "Interface",
+      "shortDefinition": "Interface is used in a software engineering sense. An interface is the defined boundary through which one component interacts with another (for example, function signatures, API endpoints, message schemas, or protocol expectations). A good interface makes dependencies explicit while minimizing exposure to internal implementation details.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-interface",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "interpretation",
+      "title": "Interpretation",
+      "shortDefinition": "localized reconstruction of meaning",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-interpretation",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-coupling": 1,
+        "book-how-meaning-moves": 36,
+        "book-how-serious-systems-learn": 11,
+        "book-when-authority-is-misread": 40,
+        "book-when-authority-outlives-accountability": 1,
+        "book-when-others-look-to-you-v1": 1
+      }
+    },
+    {
+      "slug": "invariant",
+      "title": "Invariant",
+      "shortDefinition": "A condition that should remain stable across contexts and scale if a system is to stay healthy. The invariant is that responsibility should remain cohesive and consequence should remain intentionally coupled.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-invariant",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "judgment",
+      "title": "Judgment",
+      "shortDefinition": "Judgment is deliberate evaluation under uncertainty: slowing automatic escalation long enough to weigh tradeoffs honestly, keep coordination aligned with consequence rather than with speed alone, and preserve room for contestability.",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-judgment",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-coupling": 12,
+        "book-curiosity-before-certainty": 2,
+        "book-how-meaning-moves": 23,
+        "book-how-serious-systems-learn": 18,
+        "book-when-authority-is-misread": 31,
+        "book-when-authority-outlives-accountability": 30,
+        "book-when-moral-seriousness-scales": 48,
+        "book-when-others-look-to-you-v1": 20
+      }
+    },
+    {
+      "slug": "legitimacy",
+      "title": "Legitimacy",
+      "shortDefinition": "Legitimacy is justified recognition of authority\u2014whether power reads as earned and contestable enough that coordination holds under stress instead of collapsing into cynicism, performative compliance, or hidden veto by drift.",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-legitimacy",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-coupling": 4,
+        "book-how-meaning-moves": 8,
+        "book-how-serious-systems-learn": 11,
+        "book-when-authority-is-misread": 108,
+        "book-when-authority-outlives-accountability": 86,
+        "book-when-moral-seriousness-scales": 16,
+        "book-when-others-look-to-you-v1": 79,
+        "book-when-others-look-to-you-v2": 6
+      }
+    },
+    {
+      "slug": "meaning",
+      "title": "Meaning",
+      "shortDefinition": "transmitted coordination signal",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-meaning",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-coupling": 2,
+        "book-curiosity-before-certainty": 1,
+        "book-how-meaning-moves": 124,
+        "book-how-serious-systems-learn": 4,
+        "book-velorum": 1,
+        "book-when-authority-is-misread": 25,
+        "book-when-others-look-to-you-v1": 1,
+        "book-when-others-look-to-you-v2": 2
+      }
+    },
+    {
+      "slug": "mediation",
+      "title": "Mediation",
+      "shortDefinition": "interpretation through layered systems",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-mediation",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-when-authority-is-misread": 1,
+        "book-when-moral-seriousness-scales": 1
+      }
+    },
+    {
+      "slug": "momentum",
+      "title": "Momentum",
+      "shortDefinition": "continuation detached from renewed judgment",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-momentum",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 1,
+        "book-how-serious-systems-learn": 14,
+        "book-when-authority-outlives-accountability": 1,
+        "book-when-moral-seriousness-scales": 8,
+        "book-when-others-look-to-you-v1": 3,
+        "book-when-others-look-to-you-v2": 2
+      }
+    },
+    {
+      "slug": "moral-density",
+      "title": "Moral Density",
+      "shortDefinition": "concentration of visible consequence and relational accountability",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-moral-density",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-when-moral-seriousness-scales": 13
+      }
+    },
+    {
+      "slug": "normalization",
+      "title": "Normalization",
+      "shortDefinition": "drift becoming baseline",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-normalization",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-how-serious-systems-learn": 1,
+        "book-when-authority-outlives-accountability": 1,
+        "book-when-moral-seriousness-scales": 4,
+        "book-when-others-look-to-you-v1": 2,
+        "book-when-others-look-to-you-v2": 1
+      }
+    },
+    {
+      "slug": "operational-coupling",
+      "title": "Operational Coupling",
+      "shortDefinition": "The degree to which the people who design or decide also remain close to execution and runtime consequence. Operational coupling is stronger when builders, operators, and reviewers share consequence exposure. It is weaker when handoffs separate decision authority from incident impact.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-operational-coupling",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "proximity",
+      "title": "Proximity",
+      "shortDefinition": "relational nearness to consequence",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-proximity",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 6,
+        "book-when-authority-outlives-accountability": 4,
+        "book-when-moral-seriousness-scales": 19,
+        "book-when-others-look-to-you-v2": 3
+      }
+    },
+    {
+      "slug": "reciprocity",
+      "title": "Reciprocity",
+      "shortDefinition": "shared exposure and mutual constraint",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-reciprocity",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-when-moral-seriousness-scales": 25
+      }
+    },
+    {
+      "slug": "renewal",
+      "title": "Renewal",
+      "shortDefinition": "Renewal is restoration of legitimacy and correction: deliberate moves that reopen feedback, shorten consequence distance, and pull a stretched system back toward workable exposure to reality before erosion becomes the new baseline.",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-renewal",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-when-authority-outlives-accountability": 3,
+        "book-when-moral-seriousness-scales": 2,
+        "book-when-others-look-to-you-v1": 41,
+        "book-when-others-look-to-you-v2": 2
+      }
+    },
+    {
+      "slug": "responsibility",
+      "title": "Responsibility",
+      "shortDefinition": "Responsibility is the durable relation between action and answerability. It includes not only causal involvement but also the obligation to account for consequences and respond to what is revealed by them.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-responsibility",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "reversibility",
+      "title": "Reversibility",
+      "shortDefinition": "ability to undo movement",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-reversibility",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-how-serious-systems-learn": 10,
+        "book-when-authority-outlives-accountability": 1
+      }
+    },
+    {
+      "slug": "scalability",
+      "title": "Scalability",
+      "shortDefinition": "The capacity of coordinated action to grow in reach. Together with adaptability, it sorts groups into adaptive, entrenched, regenerative, and stalled, and underpins how renewal and erosion are read.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "id": "concept-scalability",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "scale",
+      "title": "Scale",
+      "shortDefinition": "Scale is coordination beyond direct relational encounter\u2014growth in size, complexity, or abstraction layers that increases distance between decisions and consequences and therefore changes how cohesion, coupling, and feedback must be engineered to stay learnable.",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-scale",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-coupling": 47,
+        "book-how-meaning-moves": 7,
+        "book-how-serious-systems-learn": 10,
+        "book-velorum": 1,
+        "book-when-authority-is-misread": 48,
+        "book-when-authority-outlives-accountability": 36,
+        "book-when-moral-seriousness-scales": 50,
+        "book-when-others-look-to-you-v1": 49,
+        "book-when-others-look-to-you-v2": 3
+      }
+    },
+    {
+      "slug": "shift-left",
+      "title": "Shift Left",
+      "shortDefinition": "Shift left is used in a software engineering sense. Shift left means moving quality, security, and risk checks earlier in the development lifecycle rather than concentrating detection late in integration or release.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-shift-left",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "stability",
+      "title": "Stability",
+      "shortDefinition": "Continuity of coordination and expectation that resists disruption; can trade off against contestability when revision paths thin.",
+      "termKind": "extended",
+      "relatedConcepts": [
+        "concept-contestability",
+        "concept-certainty"
+      ],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-stability",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "system",
+      "title": "System",
+      "shortDefinition": "A system is an organized set of people, processes, rules, and structures that produces repeatable outcomes over time. The term applies across domains: software architectures, teams, firms, agencies, governance structures, and media institutions. The shared criterion is not technology; it is patterned behavior under constraints, incentives, and feedback.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-system",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "temporal-coupling",
+      "title": "Temporal Coupling",
+      "shortDefinition": "The degree to which consequences return quickly enough to shape near-term decisions. Strong temporal coupling shortens the time between action and correction. Weak temporal coupling introduces lag, memory loss, and interpretive noise that can protect failing designs from timely revision.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-temporal-coupling",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "thinking",
+      "title": "Thinking",
+      "shortDefinition": "active interruption of automaticity",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-thinking",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 5,
+        "book-curiosity-before-certainty": 7,
+        "book-how-meaning-moves": 13,
+        "book-how-serious-systems-learn": 13,
+        "book-velorum": 4,
+        "book-when-authority-outlives-accountability": 1,
+        "book-when-moral-seriousness-scales": 9,
+        "book-when-others-look-to-you-v2": 1
+      }
+    },
+    {
+      "slug": "throughput",
+      "title": "Throughput",
+      "shortDefinition": "optimization for flow/speed",
+      "termKind": "supporting",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-throughput",
+      "isCoreTerm": false,
+      "mentionsByBook": {
+        "book-coupling": 5,
+        "book-how-meaning-moves": 1,
+        "book-how-serious-systems-learn": 12,
+        "book-when-others-look-to-you-v1": 2
+      }
+    },
+    {
+      "slug": "uncertainty",
+      "title": "Uncertainty",
+      "shortDefinition": "unresolved/revisable coordination state",
+      "termKind": "core",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [],
+      "id": "concept-uncertainty",
+      "isCoreTerm": true,
+      "mentionsByBook": {
+        "book-coupling": 3,
+        "book-curiosity-before-certainty": 9,
+        "book-how-meaning-moves": 21,
+        "book-how-serious-systems-learn": 46,
+        "book-when-authority-is-misread": 7,
+        "book-when-authority-outlives-accountability": 2,
+        "book-when-moral-seriousness-scales": 1,
+        "book-when-others-look-to-you-v1": 6,
+        "book-when-others-look-to-you-v2": 6
+      }
+    },
+    {
+      "slug": "vitality",
+      "title": "Vitality",
+      "shortDefinition": "The state of a group when influence can sustain coordinated action as reach grows\u2014how open the group is to revision and how workable coordination remains in the moment. Contrasts with decay; sustained renewal tends toward vitality.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "id": "concept-vitality",
+      "isCoreTerm": false
+    },
+    {
+      "slug": "waterfall",
+      "title": "Waterfall",
+      "shortDefinition": "Waterfall is used in a software engineering sense. Waterfall refers to a phase-sequenced development model where requirements, design, implementation, testing, and release are treated as largely distinct stages with formal handoffs and review gates.",
+      "termKind": "extended",
+      "relatedConcepts": [],
+      "relatedPatterns": [],
+      "relatedBooks": [
+        "book-coupling"
+      ],
+      "id": "concept-waterfall",
+      "isCoreTerm": false
+    }
+  ],
+  "patterns": [
+    {
+      "id": "pattern-attention-finds-a-focus",
+      "slug": "attention-finds-a-focus",
+      "title": "Attention Finds a Focus",
+      "summary": "The group faces unclear next steps. It needs direction.\n\nPeople need to work together. No clear process has named who will lead.\n\n- People want a steer when things are unclear\n- Silence pushes someone to act\n- Early signals weigh extra\n- Leadership can show up without anyone planning it\n\nAttention settles on one person. Others start lining up their behavior with that person's actions, tone, or timing.\n\nWhen nobody knows the next move, attention finds a focus fast\u2014then direction follows whether anyone planned it or not.",
+      "setup": "The group faces unclear next steps. It needs direction.",
+      "problem": "People need to work together. No clear process has named who will lead.",
+      "forces": [
+        "People want a steer when things are unclear",
+        "Silence pushes someone to act",
+        "Early signals weigh extra",
+        "Leadership can show up without anyone planning it"
+      ],
+      "observation": "Attention settles on one person. Others start lining up their behavior with that person's actions, tone, or timing.",
+      "example": "When nobody knows the next move, attention finds a focus fast\u2014then direction follows whether anyone planned it or not.",
+      "relatedConcepts": [
+        "concept-meaning",
+        "concept-coordination",
+        "concept-uncertainty",
+        "concept-circulation",
+        "concept-correction",
+        "concept-erosion",
+        "concept-interpretation",
+        "concept-renewal"
+      ],
+      "relatedPatterns": [
+        "pattern-examples-accumulate",
+        "pattern-leadership-coalesces"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "relatedSources": [
+        "source-cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus"
+      ],
+      "youtubeVideoId": "3N-vY1i5rg8",
+      "infographic": {
+        "path": "semantic/media/patterns/attention-finds-a-focus.png",
+        "width": 1200,
+        "height": 669,
+        "url": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/semantic/media/patterns/attention-finds-a-focus.png",
+        "alt": "Infographic summarizing how attention converges on one person and influence follows."
+      }
+    },
+    {
+      "id": "pattern-attention-finds-a-signal",
+      "slug": "attention-finds-a-signal",
+      "title": "Attention Finds a Signal",
+      "summary": "An exchange begins under uncertainty, urgency, or social consequence.\n\nPeople need orientation before they can process complete information.\n\n- People notice what stands out before they interpret it\n- Tone, timing, and power register before content\n- Social risk pushes attention toward possible consequence\n\nWhat stands out first shapes what people notice next.\n\nIn practice, attention finds a signal in the first cue, and that cue often decides the channel everything else travels through.",
+      "setup": "An exchange begins under uncertainty, urgency, or social consequence.",
+      "problem": "People need orientation before they can process complete information.",
+      "forces": [
+        "People notice what stands out before they interpret it",
+        "Tone, timing, and power register before content",
+        "Social risk pushes attention toward possible consequence"
+      ],
+      "observation": "What stands out first shapes what people notice next.",
+      "example": "In practice, attention finds a signal in the first cue, and that cue often decides the channel everything else travels through.",
+      "relatedConcepts": [
+        "concept-consequence",
+        "concept-uncertainty"
+      ],
+      "relatedPatterns": [
+        "pattern-meaning-forms-early",
+        "pattern-meaning-outruns-the-words"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ],
+      "relatedSources": []
+    },
+    {
+      "id": "pattern-contact-keeps-the-read-open",
+      "slug": "contact-keeps-the-read-open",
+      "title": "Contact Keeps the Read Open",
+      "summary": "People return to a difficult exchange with more context and lower reactivity.\n\nEarly interpretation may be useful but still too rough.\n\n- Additional context widens what people can see\n- Lower emotional charge improves tolerance for ambiguity\n- Restraint keeps meaning revisable\n\nAdditional context can sharpen understanding without fully resolving it.\n\nContact keeps the read open when understanding tightens without the story having to close.",
+      "setup": "People return to a difficult exchange with more context and lower reactivity.",
+      "problem": "Early interpretation may be useful but still too rough.",
+      "forces": [
+        "Additional context widens what people can see",
+        "Lower emotional charge improves tolerance for ambiguity",
+        "Restraint keeps meaning revisable"
+      ],
+      "observation": "Additional context can sharpen understanding without fully resolving it.",
+      "example": "Contact keeps the read open when understanding tightens without the story having to close.",
+      "relatedConcepts": [
+        "concept-meaning",
+        "concept-interpretation",
+        "concept-uncertainty"
+      ],
+      "relatedPatterns": [
+        "pattern-meaning-outruns-the-words",
+        "pattern-meaning-gets-distorted"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ],
+      "relatedSources": [
+        "source-easterbrook-j-a-the-effect-of-emotion-on-cue-utilization",
+        "source-edmondson-amy-c-the-fearless-organization",
+        "source-gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious",
+        "source-kruglanski-arie-w-the-need-for-cognitive-closure",
+        "source-ross-lee-and-andrew-ward-naive-realism-in-everyday-life",
+        "source-ross-lee-and-richard-nisbett-the-person-and-the-situation"
+      ]
+    },
+    {
+      "id": "pattern-disagreement-is-suppressed",
+      "slug": "disagreement-is-suppressed",
+      "title": "Disagreement is Suppressed",
+      "summary": "A leader or leadership setup gains stability, success, or repeated proof that they are right.\n\nGuarding the leader can matter as much as getting the facts right.\n\n- Success builds confidence. Challenge feels less needed.\n- Speaking against the line costs more socially\n- Loyalty is rewarded over pushback\n- Stories about who we are harden around the leader\n\nDissent fades or softens until it no longer challenges decisions.\n\nI keep asking where the challenge is, and I'm not hearing it. Disagreement is suppressed\u2014even when the risk is staring at us.",
+      "setup": "A leader or leadership setup gains stability, success, or repeated proof that they are right.",
+      "problem": "Guarding the leader can matter as much as getting the facts right.",
+      "forces": [
+        "Success builds confidence. Challenge feels less needed.",
+        "Speaking against the line costs more socially",
+        "Loyalty is rewarded over pushback",
+        "Stories about who we are harden around the leader"
+      ],
+      "observation": "Dissent fades or softens until it no longer challenges decisions.",
+      "example": "I keep asking where the challenge is, and I'm not hearing it. Disagreement is suppressed\u2014even when the risk is staring at us.",
+      "relatedConcepts": [
+        "concept-legitimacy",
+        "concept-stability",
+        "concept-decay",
+        "concept-distance"
+      ],
+      "relatedPatterns": [
+        "pattern-leadership-coalesces",
+        "pattern-learning-collapses"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "relatedSources": [
+        "source-cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus",
+        "source-argyris-chris-overcoming-organizational-defenses",
+        "source-perrow-charles-normal-accidents-living-with-high-risk",
+        "source-scott-james-c-domination-and-the-arts-of-resistance-hidden",
+        "source-weber-max-economy-and-society-an-outline-of-interpretive"
+      ],
+      "mediumArticleUrl": "https://medium.com/@steffensen.kevin/disagreement-is-suppressed-49514eb3bc43"
+    },
+    {
+      "id": "pattern-dissent-is-welcomed",
+      "slug": "dissent-is-welcomed",
+      "title": "Dissent is Welcomed",
+      "summary": "Problems, risks, or failures show up inside a group or setting.\n\nTimely correction depends on whether bad news can reach those who decide.\n\n- Speaking up can cost people socially or at work\n- Reporting lines filter or delay information\n- Good news travels easier than bad news\n- People learn what is safe to say\n\nProblems show up early. Reality reaches those who decide in time.\n\nIf you see a problem, say it now. Dissent is welcomed here\u2014we can't fix what we don't raise while it's still small.",
+      "setup": "Problems, risks, or failures show up inside a group or setting.",
+      "problem": "Timely correction depends on whether bad news can reach those who decide.",
+      "forces": [
+        "Speaking up can cost people socially or at work",
+        "Reporting lines filter or delay information",
+        "Good news travels easier than bad news",
+        "People learn what is safe to say"
+      ],
+      "observation": "Problems show up early. Reality reaches those who decide in time.",
+      "example": "If you see a problem, say it now. Dissent is welcomed here\u2014we can't fix what we don't raise while it's still small.",
+      "relatedConcepts": [
+        "concept-correction",
+        "concept-vitality"
+      ],
+      "relatedPatterns": [
+        "pattern-examples-accumulate",
+        "pattern-learning-collapses"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1",
+        "book-coupling"
+      ],
+      "relatedSources": [],
+      "youtubeVideoId": "hCC_faAUMZA",
+      "mediumArticleUrl": "https://medium.com/@steffensen.kevin/dissent-is-welcomed-b444e4c16592",
+      "infographic": {
+        "path": "semantic/media/patterns/dissent-is-welcomed.png",
+        "width": 1200,
+        "height": 669,
+        "url": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/semantic/media/patterns/dissent-is-welcomed.png",
+        "alt": "Infographic summarizing how dissent surfaces problems early so leaders can correct course in time."
+      }
+    },
+    {
+      "id": "pattern-examples-accumulate",
+      "slug": "examples-accumulate",
+      "title": "Examples Accumulate",
+      "summary": "A leader reacts to a mistake, competing pressures, or unclear ground in a shared setting.\n\nPeople need to know what counts as OK. Clear rules are missing or thin.\n\n- People watch others when things are unclear\n- What people see moves faster than written rules\n- Early reactions set what feels allowed\n- Silence and emphasis both send a signal\n\nWhat the leader does\u2014especially under pressure\u2014quickly sets what others treat as acceptable.\n\nCareful what we model in the room; examples accumulate faster than anything we post on the wiki.",
+      "setup": "A leader reacts to a mistake, competing pressures, or unclear ground in a shared setting.",
+      "problem": "People need to know what counts as OK. Clear rules are missing or thin.",
+      "forces": [
+        "People watch others when things are unclear",
+        "What people see moves faster than written rules",
+        "Early reactions set what feels allowed",
+        "Silence and emphasis both send a signal"
+      ],
+      "observation": "What the leader does\u2014especially under pressure\u2014quickly sets what others treat as acceptable.",
+      "example": "Careful what we model in the room; examples accumulate faster than anything we post on the wiki.",
+      "relatedConcepts": [
+        "concept-correction",
+        "concept-harm",
+        "concept-vitality"
+      ],
+      "relatedPatterns": [
+        "pattern-attention-finds-a-focus",
+        "pattern-dissent-is-welcomed"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1",
+        "book-coupling"
+      ],
+      "relatedSources": [
+        "source-hirschman-albert-o-exit-voice-and-loyalty",
+        "source-scott-james-c-domination-and-the-arts-of-resistance-hidden"
+      ],
+      "youtubeVideoId": "wHE-WLn-Bh8",
+      "infographic": {
+        "path": "semantic/media/patterns/examples-accumulate.png",
+        "width": 1200,
+        "height": 669,
+        "url": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/semantic/media/patterns/examples-accumulate.png",
+        "alt": "Infographic summarizing how repeated examples become what others treat as normal."
+      }
+    },
+    {
+      "id": "pattern-exceptions-are-forever",
+      "slug": "exceptions-are-forever",
+      "title": "Exceptions are Forever",
+      "summary": "A group adopts emergency measures or exceptions during a crisis or rush.\n\nMoves made for speed or survival do not always roll back when things calm down.\n\n- Urgency justifies skipping normal limits\n- Short-term wins reinforce the exception\n- Rolling back takes effort and coordination\n- New ways of working turn into habit fast\n\nWorkarounds and shortcuts turn into how the group works day to day.\n\nLet's be careful carving out another exception\u2014exceptions are forever, and this one will outlive the emergency we made it for.",
+      "setup": "A group adopts emergency measures or exceptions during a crisis or rush.",
+      "problem": "Moves made for speed or survival do not always roll back when things calm down.",
+      "forces": [
+        "Urgency justifies skipping normal limits",
+        "Short-term wins reinforce the exception",
+        "Rolling back takes effort and coordination",
+        "New ways of working turn into habit fast"
+      ],
+      "observation": "Workarounds and shortcuts turn into how the group works day to day.",
+      "example": "Let's be careful carving out another exception\u2014exceptions are forever, and this one will outlive the emergency we made it for.",
+      "relatedConcepts": [
+        "concept-correction",
+        "concept-coordination",
+        "concept-decay",
+        "concept-erosion"
+      ],
+      "relatedPatterns": [
+        "pattern-disagreement-is-suppressed",
+        "pattern-learning-collapses"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1",
+        "book-coupling"
+      ],
+      "relatedSources": [
+        "source-argyris-chris-overcoming-organizational-defenses",
+        "source-cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus",
+        "source-hirschman-albert-o-exit-voice-and-loyalty"
+      ],
+      "mediumArticleUrl": "https://medium.com/@steffensen.kevin/exceptions-are-forever-1299b99da371"
+    },
+    {
+      "id": "pattern-feedback-drives-change",
+      "slug": "feedback-drives-change",
+      "title": "Feedback Drives Change",
+      "summary": "New facts, visible risk, or bad assumptions show up after direction is set.\n\nThe group must choose: change course or protect the public story and what people already signed up for.\n\n- Going public makes reversal costly\n- Momentum favors staying the course\n- Saying we were wrong can threaten legitimacy\n- Small fixes are easier than full reversals\n\nThe group shifts direction based on new facts or new risk.\n\nWe're not wed to yesterday's plan\u2014feedback drives change, and what we learned this morning changes what we ship.",
+      "setup": "New facts, visible risk, or bad assumptions show up after direction is set.",
+      "problem": "The group must choose: change course or protect the public story and what people already signed up for.",
+      "forces": [
+        "Going public makes reversal costly",
+        "Momentum favors staying the course",
+        "Saying we were wrong can threaten legitimacy",
+        "Small fixes are easier than full reversals"
+      ],
+      "observation": "The group shifts direction based on new facts or new risk.",
+      "example": "We're not wed to yesterday's plan\u2014feedback drives change, and what we learned this morning changes what we ship.",
+      "relatedConcepts": [
+        "concept-feedback",
+        "concept-adaptability",
+        "concept-legitimacy",
+        "concept-momentum",
+        "concept-vitality"
+      ],
+      "relatedPatterns": [
+        "pattern-dissent-is-welcomed",
+        "pattern-leaders-feel-the-consequences"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1",
+        "book-coupling"
+      ],
+      "relatedSources": [],
+      "youtubeVideoId": "duyBPIOz94Y",
+      "mediumArticleUrl": "https://medium.com/@steffensen.kevin/feedback-drives-change-2c7251f46610",
+      "infographic": {
+        "path": "semantic/media/patterns/feedback-drives-change.png",
+        "width": 1200,
+        "height": 669,
+        "url": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/semantic/media/patterns/feedback-drives-change.png",
+        "alt": "Infographic summarizing how feedback changes direction when new facts or risks appear."
+      }
+    },
+    {
+      "id": "pattern-gaps-invite-completion",
+      "slug": "gaps-invite-completion",
+      "title": "Gaps Invite Completion",
+      "summary": "An exchange contains ambiguity, omitted detail, or unresolved tension.\n\nOpen meaning is hard to sustain under practical or emotional pressure.\n\n- Uncertainty creates interpretive discomfort\n- Fast social coordination rewards quick closure\n- Memory and expectation supply plausible filler\n\nMissing meaning rarely stays open for long.\n\nBecause gaps invite completion, the mind usually supplies missing meaning before the speaker does.",
+      "setup": "An exchange contains ambiguity, omitted detail, or unresolved tension.",
+      "problem": "Open meaning is hard to sustain under practical or emotional pressure.",
+      "forces": [
+        "Uncertainty creates interpretive discomfort",
+        "Fast social coordination rewards quick closure",
+        "Memory and expectation supply plausible filler"
+      ],
+      "observation": "Missing meaning rarely stays open for long.",
+      "example": "Because gaps invite completion, the mind usually supplies missing meaning before the speaker does.",
+      "relatedConcepts": [
+        "concept-meaning",
+        "concept-certainty",
+        "concept-coordination",
+        "concept-uncertainty"
+      ],
+      "relatedPatterns": [
+        "pattern-meaning-forms-early",
+        "pattern-intent-gets-assigned"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ],
+      "relatedSources": [
+        "source-easterbrook-j-a-the-effect-of-emotion-on-cue-utilization",
+        "source-kruglanski-arie-w-the-need-for-cognitive-closure",
+        "source-march-james-g-and-herbert-a-simon-organizations",
+        "source-ross-lee-and-andrew-ward-naive-realism-in-everyday-life"
+      ]
+    },
+    {
+      "id": "pattern-intent-gets-assigned",
+      "slug": "intent-gets-assigned",
+      "title": "Intent Gets Assigned",
+      "summary": "A statement lands with emotional or relational significance.\n\nListeners need to decide whether they are safe, respected, or at risk.\n\n- People turn behavior into motive quickly\n- Threat makes defensive readings more likely\n- Relationship history primes expectation\n\nPeople infer motive before certainty is possible.\n\nIntent gets assigned in the same instant impact is noticed.",
+      "setup": "A statement lands with emotional or relational significance.",
+      "problem": "Listeners need to decide whether they are safe, respected, or at risk.",
+      "forces": [
+        "People turn behavior into motive quickly",
+        "Threat makes defensive readings more likely",
+        "Relationship history primes expectation"
+      ],
+      "observation": "People infer motive before certainty is possible.",
+      "example": "Intent gets assigned in the same instant impact is noticed.",
+      "relatedConcepts": [
+        "concept-certainty",
+        "concept-meaning"
+      ],
+      "relatedPatterns": [
+        "pattern-gaps-invite-completion",
+        "pattern-meaning-gets-distorted"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ],
+      "relatedSources": []
+    },
+    {
+      "id": "pattern-leaders-feel-the-consequences",
+      "slug": "leaders-feel-the-consequences",
+      "title": "Leaders Feel the Consequences",
+      "summary": "A decision creates cost, risk, or gain for people in a group.\n\nWhere people decide and where costs land can separate.\n\n- Incentives favor visible wins over visible cost\n- In large settings, effects land unevenly\n- Distance makes harm easier to miss\n- Pushing pain downhill is easier\n\nThose who decide stay tied to what their choices do to others.\n\nIf we called it, we sit with the fallout. Leaders feel the consequences on this; we're not sliding the pain down a layer.",
+      "setup": "A decision creates cost, risk, or gain for people in a group.",
+      "problem": "Where people decide and where costs land can separate.",
+      "forces": [
+        "Incentives favor visible wins over visible cost",
+        "In large settings, effects land unevenly",
+        "Distance makes harm easier to miss",
+        "Pushing pain downhill is easier"
+      ],
+      "observation": "Those who decide stay tied to what their choices do to others.",
+      "example": "If we called it, we sit with the fallout. Leaders feel the consequences on this; we're not sliding the pain down a layer.",
+      "relatedConcepts": [
+        "concept-harm",
+        "concept-distance",
+        "concept-vitality"
+      ],
+      "relatedPatterns": [
+        "pattern-dissent-is-welcomed",
+        "pattern-learning-collapses"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "relatedSources": [
+        "source-scott-james-c-domination-and-the-arts-of-resistance-hidden"
+      ],
+      "youtubeVideoId": "QKSjw-ax2fA",
+      "mediumArticleUrl": "https://medium.com/@steffensen.kevin/leaders-feel-the-consequences-dd6a8c73ddd5",
+      "infographic": {
+        "path": "semantic/media/patterns/leaders-feel-the-consequences.png",
+        "width": 1200,
+        "height": 669,
+        "url": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/semantic/media/patterns/leaders-feel-the-consequences.png",
+        "alt": "Infographic summarizing how leaders stay tied to the consequences their decisions create."
+      }
+    },
+    {
+      "id": "pattern-leadership-coalesces",
+      "slug": "leadership-coalesces",
+      "title": "Leadership Coalesces",
+      "summary": "A group repeatedly turns to the same person when decisions are unclear.\n\nOn paper, who decides is unclear. Or the role is assigned, but the work still slides to the same person.\n\n- Repetition builds familiarity and trust\n- Speed favors the usual decision path\n- Dodging unclear ground reinforces habit\n- Informal authority can feel easier than formal handoff\n\nThe group defaults to the same person. That can happen even when no formal authority exists.\n\nIt's not on the chart, but leadership coalesces around you\u2014every time it's fuzzy, the call still comes back to you.",
+      "setup": "A group repeatedly turns to the same person when decisions are unclear.",
+      "problem": "On paper, who decides is unclear. Or the role is assigned, but the work still slides to the same person.",
+      "forces": [
+        "Repetition builds familiarity and trust",
+        "Speed favors the usual decision path",
+        "Dodging unclear ground reinforces habit",
+        "Informal authority can feel easier than formal handoff"
+      ],
+      "observation": "The group defaults to the same person. That can happen even when no formal authority exists.",
+      "example": "It's not on the chart, but leadership coalesces around you\u2014every time it's fuzzy, the call still comes back to you.",
+      "relatedConcepts": [
+        "concept-erosion"
+      ],
+      "relatedPatterns": [
+        "pattern-attention-finds-a-focus",
+        "pattern-disagreement-is-suppressed"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "relatedSources": [],
+      "youtubeVideoId": "vXG8kn-5QTo",
+      "infographic": {
+        "path": "semantic/media/patterns/leadership-coalesces.png",
+        "width": 1200,
+        "height": 669,
+        "url": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/semantic/media/patterns/leadership-coalesces.png",
+        "alt": "Infographic summarizing how the group keeps defaulting to the same person as decisions repeat."
+      }
+    },
+    {
+      "id": "pattern-leadership-reproduces-itself",
+      "slug": "leadership-reproduces-itself",
+      "title": "Leadership Reproduces Itself",
+      "summary": "A group has settled on visible leadership habits\u2014what gets rewarded, what gets punished, what gets ignored.\n\nPeople read those habits as personal style and as the local picture of \u201chow things work here.\u201d That picture travels.\n\n- Copying is faster than being taught step by step\n- People credit what they can see, not hidden setup\n- New members learn from example before they learn from rules\n- What gets rewarded and repeated is what gets copied\n\nPeople copy leadership habits and norms. That shapes how the next round of leaders forms.\n\n\"Watch what gets praised in public\u2014that's what people will imitate. Leadership reproduces itself through what last looked\u2026",
+      "setup": "A group has settled on visible leadership habits\u2014what gets rewarded, what gets punished, what gets ignored.",
+      "problem": "People read those habits as personal style and as the local picture of \u201chow things work here.\u201d That picture travels.",
+      "forces": [
+        "Copying is faster than being taught step by step",
+        "People credit what they can see, not hidden setup",
+        "New members learn from example before they learn from rules",
+        "What gets rewarded and repeated is what gets copied"
+      ],
+      "observation": "People copy leadership habits and norms. That shapes how the next round of leaders forms.",
+      "example": "\"Watch what gets praised in public\u2014that's what people will imitate. Leadership reproduces itself through what last looked\u2026",
+      "relatedConcepts": [
+        "concept-correction",
+        "concept-circulation",
+        "concept-coordination",
+        "concept-decay"
+      ],
+      "relatedPatterns": [
+        "pattern-examples-accumulate",
+        "pattern-leadership-coalesces"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "relatedSources": [
+        "source-argyris-chris-overcoming-organizational-defenses",
+        "source-cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus",
+        "source-hirschman-albert-o-exit-voice-and-loyalty"
+      ],
+      "youtubeVideoId": "rFD_xfottcQ"
+    },
+    {
+      "id": "pattern-learning-collapses",
+      "slug": "learning-collapses",
+      "title": "Learning Collapses",
+      "summary": "Those who decide sit far from where effects show up.\n\nNews from the ground does not reliably reach them in time.\n\n- Size adds distance from impact\n- Formal reporting filters or delays signals\n- Bad news is costly to raise\n- Good news travels easier than bad news\n\nThey do not get a clear read in time on what their choices are doing.\n\nWe're steering off summaries again. Learning collapses when the ground story never reaches this room.",
+      "setup": "Those who decide sit far from where effects show up.",
+      "problem": "News from the ground does not reliably reach them in time.",
+      "forces": [
+        "Size adds distance from impact",
+        "Formal reporting filters or delays signals",
+        "Bad news is costly to raise",
+        "Good news travels easier than bad news"
+      ],
+      "observation": "They do not get a clear read in time on what their choices are doing.",
+      "example": "We're steering off summaries again. Learning collapses when the ground story never reaches this room.",
+      "relatedConcepts": [
+        "concept-decay",
+        "concept-distance"
+      ],
+      "relatedPatterns": [
+        "pattern-leaders-feel-the-consequences",
+        "pattern-dissent-is-welcomed"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1",
+        "book-coupling"
+      ],
+      "relatedSources": [],
+      "mediumArticleUrl": "https://medium.com/@steffensen.kevin/learning-collapses-41c7ebef3c93"
+    },
+    {
+      "id": "pattern-meaning-drifts-over-time",
+      "slug": "meaning-drifts-over-time",
+      "title": "Meaning Drifts Over Time",
+      "summary": "People revisit events after additional conversations, outcomes, and memory updates.\n\nInterpretation is treated as fixed even though context keeps changing.\n\n- Memory gets rebuilt over time, not replayed exactly\n- Repetition favors convenient summaries\n- New context changes what earlier events seem to mean\n\nInterpretation slowly changes as memory, context, and repetition accumulate.\n\nMeaning drifts over time and rarely stays where it first landed.",
+      "setup": "People revisit events after additional conversations, outcomes, and memory updates.",
+      "problem": "Interpretation is treated as fixed even though context keeps changing.",
+      "forces": [
+        "Memory gets rebuilt over time, not replayed exactly",
+        "Repetition favors convenient summaries",
+        "New context changes what earlier events seem to mean"
+      ],
+      "observation": "Interpretation slowly changes as memory, context, and repetition accumulate.",
+      "example": "Meaning drifts over time and rarely stays where it first landed.",
+      "relatedConcepts": [
+        "concept-meaning",
+        "concept-interpretation"
+      ],
+      "relatedPatterns": [
+        "pattern-meaning-outruns-the-words",
+        "pattern-meaning-reinforces-itself"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ],
+      "relatedSources": [
+        "source-easterbrook-j-a-the-effect-of-emotion-on-cue-utilization",
+        "source-gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious",
+        "source-kruglanski-arie-w-the-need-for-cognitive-closure",
+        "source-march-james-g-and-herbert-a-simon-organizations",
+        "source-ross-lee-and-andrew-ward-naive-realism-in-everyday-life"
+      ]
+    },
+    {
+      "id": "pattern-meaning-forms-early",
+      "slug": "meaning-forms-early",
+      "title": "Meaning Forms Early",
+      "summary": "Under pressure, listeners settle a working story before language is complete; later detail is read through an already-forming frame.",
+      "setup": "Under pressure, listeners settle a working story before language is complete; later detail is read through an already-forming frame.",
+      "problem": "",
+      "forces": [],
+      "observation": "",
+      "example": "",
+      "relatedConcepts": [
+        "concept-meaning",
+        "concept-interpretation",
+        "concept-compression"
+      ],
+      "relatedPatterns": [
+        "pattern-gaps-invite-completion",
+        "pattern-intent-gets-assigned"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ],
+      "relatedSources": [
+        "source-easterbrook-j-a-the-effect-of-emotion-on-cue-utilization",
+        "source-gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious",
+        "source-kruglanski-arie-w-the-need-for-cognitive-closure",
+        "source-march-james-g-and-herbert-a-simon-organizations",
+        "source-ross-lee-and-andrew-ward-naive-realism-in-everyday-life"
+      ]
+    },
+    {
+      "id": "pattern-meaning-gets-distorted",
+      "slug": "meaning-gets-distorted",
+      "title": "Meaning Gets Distorted",
+      "summary": "A provisional interpretation is repeated without re-exposure to source context.\n\nCoherence is preserved at the expense of accuracy.\n\n- Confirmation bias filters incoming data\n- Social reinforcement rewards consistency\n- Identity defense resists revision\n\nInterpretation can harden in ways that no longer track reality.\n\nMeaning gets distorted when certainty outlives contact with what was actually said.",
+      "setup": "A provisional interpretation is repeated without re-exposure to source context.",
+      "problem": "Coherence is preserved at the expense of accuracy.",
+      "forces": [
+        "Confirmation bias filters incoming data",
+        "Social reinforcement rewards consistency",
+        "Identity defense resists revision"
+      ],
+      "observation": "Interpretation can harden in ways that no longer track reality.",
+      "example": "Meaning gets distorted when certainty outlives contact with what was actually said.",
+      "relatedConcepts": [
+        "concept-meaning",
+        "concept-interpretation",
+        "concept-certainty",
+        "concept-exposure",
+        "concept-uncertainty"
+      ],
+      "relatedPatterns": [
+        "pattern-intent-gets-assigned",
+        "pattern-meaning-reinforces-itself"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves",
+        "book-coupling"
+      ],
+      "relatedSources": [
+        "source-easterbrook-j-a-the-effect-of-emotion-on-cue-utilization",
+        "source-edmondson-amy-c-the-fearless-organization",
+        "source-gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious",
+        "source-kruglanski-arie-w-the-need-for-cognitive-closure",
+        "source-ross-lee-and-andrew-ward-naive-realism-in-everyday-life",
+        "source-ross-lee-and-richard-nisbett-the-person-and-the-situation"
+      ]
+    },
+    {
+      "id": "pattern-meaning-outruns-the-words",
+      "slug": "meaning-outruns-the-words",
+      "title": "Meaning Outruns the Words",
+      "summary": "People rely on short utterances to carry complex relational meaning.\n\nLanguage cannot carry full context, history, and emotional state by itself.\n\n- Context lives in the setting and in shared history\n- Emotion often shows up outside explicit wording\n- Social roles load words with extra consequence\n\nLanguage never carries all of the context, emotion, or intent around it.\n\nMeaning outruns the words: a line can be precise in grammar and still short on life.",
+      "setup": "People rely on short utterances to carry complex relational meaning.",
+      "problem": "Language cannot carry full context, history, and emotional state by itself.",
+      "forces": [
+        "Context lives in the setting and in shared history",
+        "Emotion often shows up outside explicit wording",
+        "Social roles load words with extra consequence"
+      ],
+      "observation": "Language never carries all of the context, emotion, or intent around it.",
+      "example": "Meaning outruns the words: a line can be precise in grammar and still short on life.",
+      "relatedConcepts": [
+        "concept-meaning",
+        "concept-consequence"
+      ],
+      "relatedPatterns": [
+        "pattern-attention-finds-a-signal",
+        "pattern-gaps-invite-completion"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ],
+      "relatedSources": []
+    },
+    {
+      "id": "pattern-meaning-reinforces-itself",
+      "slug": "meaning-reinforces-itself",
+      "title": "Meaning Reinforces Itself",
+      "summary": "A group repeats interactions through an existing interpretive frame.\n\nThe frame no longer feels provisional.\n\n- Selective attention confirms prior meaning\n- Repetition normalizes prior conclusions\n- Social alignment penalizes interpretive differences\n\nOnce established, interpretation begins shaping future interpretation.\n\nMeaning reinforces itself when what we conclude once becomes what we are prepared to see again.",
+      "setup": "A group repeats interactions through an existing interpretive frame.",
+      "problem": "The frame no longer feels provisional.",
+      "forces": [
+        "Selective attention confirms prior meaning",
+        "Repetition normalizes prior conclusions",
+        "Social alignment penalizes interpretive differences"
+      ],
+      "observation": "Once established, interpretation begins shaping future interpretation.",
+      "example": "Meaning reinforces itself when what we conclude once becomes what we are prepared to see again.",
+      "relatedConcepts": [
+        "concept-meaning",
+        "concept-alignment",
+        "concept-inheritance",
+        "concept-interpretation"
+      ],
+      "relatedPatterns": [
+        "pattern-meaning-shifts-under-pressure",
+        "pattern-meaning-gets-distorted"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ],
+      "relatedSources": [
+        "source-easterbrook-j-a-the-effect-of-emotion-on-cue-utilization",
+        "source-gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious",
+        "source-kruglanski-arie-w-the-need-for-cognitive-closure",
+        "source-march-james-g-and-herbert-a-simon-organizations",
+        "source-ross-lee-and-andrew-ward-naive-realism-in-everyday-life"
+      ]
+    },
+    {
+      "id": "pattern-meaning-shifts-under-pressure",
+      "slug": "meaning-shifts-under-pressure",
+      "title": "Meaning Shifts Under Pressure",
+      "summary": "Communication occurs under conflict, urgency, authority, or high stakes.\n\nThe need for rapid action competes with staying close to what was actually meant.\n\n- Time pressure rewards certainty\n- Power asymmetry increases defensive reading\n- Consequence anticipation narrows options\n\nUrgency, conflict, and consequence accelerate interpretation.\n\nPressure shrinks the distance between what people notice and what they treat as settled.",
+      "setup": "Communication occurs under conflict, urgency, authority, or high stakes.",
+      "problem": "The need for rapid action competes with staying close to what was actually meant.",
+      "forces": [
+        "Time pressure rewards certainty",
+        "Power asymmetry increases defensive reading",
+        "Consequence anticipation narrows options"
+      ],
+      "observation": "Urgency, conflict, and consequence accelerate interpretation.",
+      "example": "Pressure shrinks the distance between what people notice and what they treat as settled.",
+      "relatedConcepts": [
+        "concept-meaning",
+        "concept-consequence",
+        "concept-asymmetry",
+        "concept-certainty",
+        "concept-distance",
+        "concept-interpretation"
+      ],
+      "relatedPatterns": [
+        "pattern-meaning-forms-early",
+        "pattern-meaning-gets-distorted"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ],
+      "relatedSources": [
+        "source-easterbrook-j-a-the-effect-of-emotion-on-cue-utilization",
+        "source-gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious",
+        "source-kruglanski-arie-w-the-need-for-cognitive-closure",
+        "source-march-james-g-and-herbert-a-simon-organizations",
+        "source-ross-lee-and-andrew-ward-naive-realism-in-everyday-life"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-agamben-giorgio-state-of-exception",
+      "slug": "agamben-giorgio-state-of-exception",
+      "name": "Giorgio Agamben \u2014 State of Exception",
+      "type": "book",
+      "summary": "Agamben, Giorgio. *State of Exception*. Translated by Kevin Attell. Chicago: University of Chicago Press, 2005.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of",
+      "slug": "arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of",
+      "name": "Hannah Arendt \u2014 Eichmann in Jerusalem: A Report on the Banality of",
+      "type": "book",
+      "summary": "Arendt, Hannah. *Eichmann in Jerusalem: A Report on the Banality of Evil*. New York: Viking Press, 1963.",
+      "concepts": [
+        "concept-correction",
+        "concept-guest-leadership",
+        "concept-legitimacy"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-arendt-hannah-responsibility-and-judgment",
+      "slug": "arendt-hannah-responsibility-and-judgment",
+      "name": "Hannah Arendt \u2014 Responsibility and Judgment",
+      "type": "book",
+      "summary": "Arendt, Hannah. *Responsibility and Judgment*. New York: Schocken Books, 2003.",
+      "concepts": [
+        "concept-interpretation"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-arendt-hannah-the-life-of-the-mind",
+      "slug": "arendt-hannah-the-life-of-the-mind",
+      "name": "Hannah Arendt \u2014 The Life of the Mind",
+      "type": "book",
+      "summary": "Arendt, Hannah. *The Life of the Mind*. New York: Harcourt Brace Jovanovich, 1978.",
+      "concepts": [
+        "concept-interpretation"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-arendt-hannah-what-is-authority",
+      "slug": "arendt-hannah-what-is-authority",
+      "name": "Hannah Arendt \u2014 What Is Authority?",
+      "type": "article",
+      "summary": "Arendt, Hannah. \"What Is Authority?\" In *Between Past and Future*. New York: Viking Press, 1961.",
+      "concepts": [
+        "concept-legitimacy",
+        "concept-correction",
+        "concept-guest-leadership"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-argyris-chris-and-donald-a-schon-organizational-learning-ii",
+      "slug": "argyris-chris-and-donald-a-schon-organizational-learning-ii",
+      "name": "Argyris, Chris, and Donald A. Schon \u2014 Organizational Learning II:",
+      "type": "book",
+      "summary": "Argyris, Chris, and Donald A. Schon. *Organizational Learning II: Theory, Method, and Practice*. Reading, MA: Addison-Wesley, 1996.",
+      "concepts": [
+        "concept-decay"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-argyris-chris-overcoming-organizational-defenses",
+      "slug": "argyris-chris-overcoming-organizational-defenses",
+      "name": "Chris Argyris \u2014 Overcoming Organizational Defenses",
+      "type": "book",
+      "summary": "Argyris, Chris. *Overcoming Organizational Defenses*. Boston: Allyn and Bacon, 1990.",
+      "concepts": [
+        "concept-correction",
+        "concept-decay",
+        "concept-guest-leadership",
+        "concept-legitimacy",
+        "concept-normalization"
+      ],
+      "patterns": [
+        "pattern-disagreement-is-suppressed",
+        "pattern-exceptions-are-forever",
+        "pattern-leadership-reproduces-itself"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-bandura-albert-social-learning-theory",
+      "slug": "bandura-albert-social-learning-theory",
+      "name": "Albert Bandura \u2014 Social Learning Theory",
+      "type": "book",
+      "summary": "Bandura, Albert. *Social Learning Theory*. Englewood Cliffs, NJ: Prentice Hall, 1977.",
+      "concepts": [
+        "concept-correction",
+        "concept-guest-leadership",
+        "concept-legitimacy"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-baron-jonathan-and-john-c-hershey-outcome-bias-in-decision",
+      "slug": "baron-jonathan-and-john-c-hershey-outcome-bias-in-decision",
+      "name": "Baron, Jonathan, and John C. Hershey \u2014 Outcome Bias in Decision",
+      "type": "article",
+      "summary": "Baron, Jonathan, and John C. Hershey. \"Outcome Bias in Decision Evaluation.\" *Journal of Personality and Social Psychology* 54, no. 4 (1988): 569\u2013579.",
+      "concepts": [
+        "concept-correction",
+        "concept-guest-leadership",
+        "concept-legitimacy",
+        "concept-normalization"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-barrett-lisa-feldman-how-emotions-are-made-the-secret-life-of-the-brain",
+      "slug": "barrett-lisa-feldman-how-emotions-are-made-the-secret-life-of-the-brain",
+      "name": "Lisa Feldman Barrett \u2014 How Emotions Are Made: The Secret Life of the Brain",
+      "type": "book",
+      "summary": "Barrett, Lisa Feldman. *How Emotions Are Made: The Secret Life of the Brain*. Boston: Houghton Mifflin Harcourt, 2017.",
+      "concepts": [
+        "concept-thinking",
+        "concept-uncertainty"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-baumeister-roy-f-and-mark-r-leary-the-need-to-belong",
+      "slug": "baumeister-roy-f-and-mark-r-leary-the-need-to-belong",
+      "name": "Baumeister, Roy F., and Mark R. Leary \u2014 The Need to Belong.",
+      "type": "article",
+      "summary": "Baumeister, Roy F., and Mark R. Leary. \"The Need to Belong.\" *Psychological Bulletin* (1995).",
+      "concepts": [
+        "concept-thinking",
+        "concept-uncertainty"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-beck-ulrich-risk-society-towards-a-new-modernity",
+      "slug": "beck-ulrich-risk-society-towards-a-new-modernity",
+      "name": "Ulrich Beck \u2014 Risk Society: Towards a New Modernity",
+      "type": "book",
+      "summary": "Beck, Ulrich. *Risk Society: Towards a New Modernity*. London: Sage, 1992.",
+      "concepts": [
+        "concept-harm"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-bowlby-john-attachment-and-loss",
+      "slug": "bowlby-john-attachment-and-loss",
+      "name": "John Bowlby \u2014 Attachment and Loss",
+      "type": "book",
+      "summary": "Bowlby, John. *Attachment and Loss*. New York: Basic Books, 1969.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-brehm-jack-w-a-theory-of-psychological-reactance",
+      "slug": "brehm-jack-w-a-theory-of-psychological-reactance",
+      "name": "Jack W Brehm \u2014 A Theory of Psychological Reactance",
+      "type": "book",
+      "summary": "Brehm, Jack W. *A Theory of Psychological Reactance*. New York: Academic Press, 1966.",
+      "concepts": [
+        "concept-correction",
+        "concept-guest-leadership",
+        "concept-legitimacy",
+        "concept-normalization"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus",
+      "slug": "cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus",
+      "name": "Cialdini, Robert B., Raymond R. Reno, and Carl A. Kallgren \u2014 A Focus",
+      "type": "article",
+      "summary": "Cialdini, Robert B., Raymond R. Reno, and Carl A. Kallgren. \"A Focus Theory of Normative Conduct.\" *Journal of Personality and Social Psychology* 58, no. 6 (1990): 1015\u20131026.",
+      "concepts": [
+        "concept-correction",
+        "concept-circulation",
+        "concept-erosion",
+        "concept-guest-leadership",
+        "concept-interpretation",
+        "concept-legitimacy",
+        "concept-normalization",
+        "concept-renewal"
+      ],
+      "patterns": [
+        "pattern-attention-finds-a-focus",
+        "pattern-disagreement-is-suppressed",
+        "pattern-exceptions-are-forever",
+        "pattern-leadership-reproduces-itself"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-clark-herbert-h-using-language",
+      "slug": "clark-herbert-h-using-language",
+      "name": "Herbert H Clark \u2014 Using Language",
+      "type": "book",
+      "summary": "Clark, Herbert H. *Using Language*. Cambridge: Cambridge University Press, 1996.",
+      "concepts": [
+        "concept-thinking"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-cockburn-alistair-how-to-step-up-stepping-up-promoting-guest",
+      "slug": "cockburn-alistair-how-to-step-up-stepping-up-promoting-guest",
+      "name": "Alistair Cockburn \u2014 How to Step Up Stepping Up: Promoting Guest",
+      "type": "article",
+      "summary": "Cockburn, Alistair. \"How to Step Up Stepping Up: Promoting Guest Leadership for Successful Collaboration.\" *Cutter IT Journal*. https://www.cutter.com/article/how-step-stepping-promoting-guest-leadership-successful-collaboration-494516.",
+      "concepts": [
+        "concept-correction",
+        "concept-legitimacy"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-dekker-sidney-w-a-just-culture-restoring-trust-and-accountability",
+      "slug": "dekker-sidney-w-a-just-culture-restoring-trust-and-accountability",
+      "name": "Sidney W. A Dekker \u2014 Just Culture: Restoring Trust and Accountability",
+      "type": "book",
+      "summary": "Dekker, Sidney W. A. *Just Culture: Restoring Trust and Accountability in Your Organization*. 3rd ed. Boca Raton, FL: CRC Press, 2016.",
+      "concepts": [
+        "concept-harm"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-deming-w-edwards-out-of-the-crisis",
+      "slug": "deming-w-edwards-out-of-the-crisis",
+      "name": "W. Edwards Deming \u2014 Out of the Crisis",
+      "type": "book",
+      "summary": "Deming, W. Edwards. *Out of the Crisis*. Cambridge, MA: MIT Press, 1986.",
+      "concepts": [
+        "concept-meaning"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-deutsch-morton-the-resolution-of-conflict",
+      "slug": "deutsch-morton-the-resolution-of-conflict",
+      "name": "Morton Deutsch \u2014 The Resolution of Conflict",
+      "type": "book",
+      "summary": "Deutsch, Morton. *The Resolution of Conflict*. New Haven, CT: Yale University Press, 1973.",
+      "concepts": [
+        "concept-adaptation"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-easterbrook-j-a-the-effect-of-emotion-on-cue-utilization",
+      "slug": "easterbrook-j-a-the-effect-of-emotion-on-cue-utilization",
+      "name": "J. A Easterbrook \u2014 The Effect of Emotion on Cue Utilization.",
+      "type": "article",
+      "summary": "Easterbrook, J. A. \"The Effect of Emotion on Cue Utilization.\" *Psychological Review* (1959).",
+      "concepts": [
+        "concept-interpretation",
+        "concept-thinking",
+        "concept-adaptation",
+        "concept-meaning",
+        "concept-uncertainty"
+      ],
+      "patterns": [
+        "pattern-contact-keeps-the-read-open",
+        "pattern-gaps-invite-completion",
+        "pattern-meaning-drifts-over-time",
+        "pattern-meaning-forms-early",
+        "pattern-meaning-gets-distorted",
+        "pattern-meaning-reinforces-itself",
+        "pattern-meaning-shifts-under-pressure"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-edmondson-amy-c-psychological-safety-and-learning-behavior-in-work",
+      "slug": "edmondson-amy-c-psychological-safety-and-learning-behavior-in-work",
+      "name": "Amy C Edmondson \u2014 Psychological Safety and Learning Behavior in Work",
+      "type": "article",
+      "summary": "Edmondson, Amy C. \"Psychological Safety and Learning Behavior in Work Teams.\" *Administrative Science Quarterly* 44, no. 2 (1999): 350\u2013383.",
+      "concepts": [
+        "concept-correction",
+        "concept-guest-leadership",
+        "concept-legitimacy",
+        "concept-normalization"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-edmondson-amy-c-the-fearless-organization",
+      "slug": "edmondson-amy-c-the-fearless-organization",
+      "name": "Amy C Edmondson \u2014 The Fearless Organization",
+      "type": "book",
+      "summary": "Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.",
+      "concepts": [
+        "concept-adaptation",
+        "concept-interpretation",
+        "concept-thinking",
+        "concept-uncertainty"
+      ],
+      "patterns": [
+        "pattern-contact-keeps-the-read-open",
+        "pattern-meaning-gets-distorted"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-edmondson-amy-c-the-fearless-organization-creating-psychological",
+      "slug": "edmondson-amy-c-the-fearless-organization-creating-psychological",
+      "name": "Amy C Edmondson \u2014 The Fearless Organization: Creating Psychological",
+      "type": "book",
+      "summary": "Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.",
+      "concepts": [
+        "concept-correction"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-faden-ruth-r-and-tom-l-beauchamp-a-history-and-theory-of-informed-consent",
+      "slug": "faden-ruth-r-and-tom-l-beauchamp-a-history-and-theory-of-informed-consent",
+      "name": "Faden, Ruth R., and Tom L. Beauchamp \u2014 A History and Theory of Informed Consent",
+      "type": "book",
+      "summary": "Faden, Ruth R., and Tom L. Beauchamp. *A History and Theory of Informed Consent*. New York: Oxford University Press, 1986.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-foucault-michel-discipline-and-punish-the-birth-of-the-prison",
+      "slug": "foucault-michel-discipline-and-punish-the-birth-of-the-prison",
+      "name": "Michel Foucault \u2014 Discipline and Punish: The Birth of the Prison",
+      "type": "book",
+      "summary": "Foucault, Michel. *Discipline and Punish: The Birth of the Prison*. New York: Vintage Books, 1977.",
+      "concepts": [
+        "concept-harm"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-french-john-r-p-and-bertram-raven-the-bases-of-social-power",
+      "slug": "french-john-r-p-and-bertram-raven-the-bases-of-social-power",
+      "name": "French, John R. P., and Bertram Raven \u2014 The Bases of Social Power",
+      "type": "book",
+      "summary": "French, John R. P., and Bertram Raven. *The Bases of Social Power*. Ann Arbor: University of Michigan, 1959.",
+      "concepts": [
+        "concept-thinking"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-fricker-miranda-epistemic-injustice",
+      "slug": "fricker-miranda-epistemic-injustice",
+      "name": "Miranda Fricker \u2014 Epistemic Injustice",
+      "type": "book",
+      "summary": "Fricker, Miranda. *Epistemic Injustice*. New York: Oxford University Press, 2007.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious",
+      "slug": "gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious",
+      "name": "Gerd Gigerenzer \u2014 Gut Feelings: The Intelligence of the Unconscious",
+      "type": "book",
+      "summary": "Gigerenzer, Gerd. *Gut Feelings: The Intelligence of the Unconscious*. New York: Viking, 2007.",
+      "concepts": [
+        "concept-interpretation",
+        "concept-meaning"
+      ],
+      "patterns": [
+        "pattern-contact-keeps-the-read-open",
+        "pattern-meaning-drifts-over-time",
+        "pattern-meaning-forms-early",
+        "pattern-meaning-gets-distorted",
+        "pattern-meaning-reinforces-itself",
+        "pattern-meaning-shifts-under-pressure"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-goffman-erving-interaction-ritual",
+      "slug": "goffman-erving-interaction-ritual",
+      "name": "Erving Goffman \u2014 Interaction Ritual",
+      "type": "book",
+      "summary": "Goffman, Erving. *Interaction Ritual*. New York: Pantheon Books, 1967.",
+      "concepts": [
+        "concept-thinking",
+        "concept-uncertainty"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-gottman-john-m-the-seven-principles-for-making-marriage-work",
+      "slug": "gottman-john-m-the-seven-principles-for-making-marriage-work",
+      "name": "John M Gottman \u2014 The Seven Principles for Making Marriage Work",
+      "type": "book",
+      "summary": "Gottman, John M. *The Seven Principles for Making Marriage Work*. New York: Crown, 1999.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-hirschman-albert-o-exit-voice-and-loyalty",
+      "slug": "hirschman-albert-o-exit-voice-and-loyalty",
+      "name": "Albert O Hirschman \u2014 Exit, Voice, and Loyalty",
+      "type": "book",
+      "summary": "Hirschman, Albert O. *Exit, Voice, and Loyalty*. Cambridge, MA: Harvard University Press, 1970.",
+      "concepts": [
+        "concept-correction",
+        "concept-decay",
+        "concept-harm"
+      ],
+      "patterns": [
+        "pattern-examples-accumulate",
+        "pattern-exceptions-are-forever",
+        "pattern-leadership-reproduces-itself"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-janis-irving-l-groupthink-psychological-studies-of-policy",
+      "slug": "janis-irving-l-groupthink-psychological-studies-of-policy",
+      "name": "Irving L Janis \u2014 Groupthink: Psychological Studies of Policy",
+      "type": "book",
+      "summary": "Janis, Irving L. *Groupthink: Psychological Studies of Policy Decisions and Fiascoes*. 2nd ed. Boston: Houghton Mifflin, 1982.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-kahan-dan-m-motivated-reasoning",
+      "slug": "kahan-dan-m-motivated-reasoning",
+      "name": "Dan M Kahan \u2014 Motivated Reasoning.",
+      "type": "article",
+      "summary": "Kahan, Dan M. \"Motivated Reasoning.\" *Behavioral and Brain Sciences* (2017).",
+      "concepts": [
+        "concept-adaptation",
+        "concept-interpretation"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-kahneman-daniel-thinking-fast-and-slow",
+      "slug": "kahneman-daniel-thinking-fast-and-slow",
+      "name": "Daniel Kahneman \u2014 Thinking, Fast and Slow",
+      "type": "book",
+      "summary": "Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011.",
+      "concepts": [
+        "concept-uncertainty"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-kruglanski-arie-w-the-need-for-cognitive-closure",
+      "slug": "kruglanski-arie-w-the-need-for-cognitive-closure",
+      "name": "Arie W Kruglanski \u2014 The Need for Cognitive Closure.",
+      "type": "article",
+      "summary": "Kruglanski, Arie W. \"The Need for Cognitive Closure.\" *Psychological Review* (1990).",
+      "concepts": [
+        "concept-interpretation",
+        "concept-thinking",
+        "concept-adaptation",
+        "concept-meaning",
+        "concept-uncertainty"
+      ],
+      "patterns": [
+        "pattern-contact-keeps-the-read-open",
+        "pattern-gaps-invite-completion",
+        "pattern-meaning-drifts-over-time",
+        "pattern-meaning-forms-early",
+        "pattern-meaning-gets-distorted",
+        "pattern-meaning-reinforces-itself",
+        "pattern-meaning-shifts-under-pressure"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-kruglanski-arie-w-the-psychology-of-closed-mindedness",
+      "slug": "kruglanski-arie-w-the-psychology-of-closed-mindedness",
+      "name": "Arie W Kruglanski \u2014 The Psychology of Closed-Mindedness",
+      "type": "book",
+      "summary": "Kruglanski, Arie W. *The Psychology of Closed-Mindedness*. New York: Psychology Press, 2004.",
+      "concepts": [
+        "concept-interpretation"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-lazarus-richard-s-emotion-and-adaptation",
+      "slug": "lazarus-richard-s-emotion-and-adaptation",
+      "name": "Richard S Lazarus \u2014 Emotion and Adaptation",
+      "type": "book",
+      "summary": "Lazarus, Richard S. *Emotion and Adaptation*. New York: Oxford University Press, 1991.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-ledoux-joseph-the-emotional-brain",
+      "slug": "ledoux-joseph-the-emotional-brain",
+      "name": "Joseph LeDoux \u2014 The Emotional Brain",
+      "type": "book",
+      "summary": "LeDoux, Joseph. *The Emotional Brain*. New York: Simon & Schuster, 1996.",
+      "concepts": [
+        "concept-thinking",
+        "concept-uncertainty"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-march-james-g-and-herbert-a-simon-organizations",
+      "slug": "march-james-g-and-herbert-a-simon-organizations",
+      "name": "March, James G., and Herbert A. Simon \u2014 Organizations",
+      "type": "book",
+      "summary": "March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley, 1958.",
+      "concepts": [
+        "concept-meaning",
+        "concept-coordination",
+        "concept-friction",
+        "concept-interpretation"
+      ],
+      "patterns": [
+        "pattern-gaps-invite-completion",
+        "pattern-meaning-drifts-over-time",
+        "pattern-meaning-forms-early",
+        "pattern-meaning-reinforces-itself",
+        "pattern-meaning-shifts-under-pressure"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-milgram-stanley-obedience-to-authority",
+      "slug": "milgram-stanley-obedience-to-authority",
+      "name": "Stanley Milgram \u2014 Obedience to Authority",
+      "type": "book",
+      "summary": "Milgram, Stanley. *Obedience to Authority*. New York: Harper & Row, 1974.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-minuchin-salvador-families-and-family-therapy",
+      "slug": "minuchin-salvador-families-and-family-therapy",
+      "name": "Salvador Minuchin \u2014 Families and Family Therapy",
+      "type": "book",
+      "summary": "Minuchin, Salvador. *Families and Family Therapy*. Cambridge, MA: Harvard University Press, 1974.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-morrison-elizabeth-w-employee-voice-behavior",
+      "slug": "morrison-elizabeth-w-employee-voice-behavior",
+      "name": "Elizabeth W Morrison \u2014 Employee Voice Behavior.",
+      "type": "article",
+      "summary": "Morrison, Elizabeth W. \"Employee Voice Behavior.\" *Academy of Management Journal* (2011).",
+      "concepts": [
+        "concept-interpretation"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-nickerson-raymond-s-confirmation-bias",
+      "slug": "nickerson-raymond-s-confirmation-bias",
+      "name": "Raymond S Nickerson \u2014 Confirmation Bias.",
+      "type": "article",
+      "summary": "Nickerson, Raymond S. \"Confirmation Bias.\" *Review of General Psychology* (1998).",
+      "concepts": [
+        "concept-thinking"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-perrow-charles-normal-accidents",
+      "slug": "perrow-charles-normal-accidents",
+      "name": "Charles Perrow \u2014 Normal Accidents",
+      "type": "book",
+      "summary": "Perrow, Charles. *Normal Accidents*. Princeton, NJ: Princeton University Press, 1984.",
+      "concepts": [
+        "concept-meaning"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-perrow-charles-normal-accidents-living-with-high-risk",
+      "slug": "perrow-charles-normal-accidents-living-with-high-risk",
+      "name": "Charles Perrow \u2014 Normal Accidents: Living with High-Risk",
+      "type": "book",
+      "summary": "Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books, 1984.",
+      "concepts": [
+        "concept-correction",
+        "concept-distance",
+        "concept-legitimacy"
+      ],
+      "patterns": [
+        "pattern-disagreement-is-suppressed"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-ross-lee-and-andrew-ward-naive-realism-in-everyday-life",
+      "slug": "ross-lee-and-andrew-ward-naive-realism-in-everyday-life",
+      "name": "Ross, Lee, and Andrew Ward \u2014 Naive Realism in Everyday Life.",
+      "type": "article",
+      "summary": "Ross, Lee, and Andrew Ward. \"Naive Realism in Everyday Life.\" *Psychological Review* (1996).",
+      "concepts": [
+        "concept-interpretation",
+        "concept-thinking",
+        "concept-adaptation",
+        "concept-meaning",
+        "concept-uncertainty"
+      ],
+      "patterns": [
+        "pattern-contact-keeps-the-read-open",
+        "pattern-gaps-invite-completion",
+        "pattern-meaning-drifts-over-time",
+        "pattern-meaning-forms-early",
+        "pattern-meaning-gets-distorted",
+        "pattern-meaning-reinforces-itself",
+        "pattern-meaning-shifts-under-pressure"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-ross-lee-and-richard-nisbett-the-person-and-the-situation",
+      "slug": "ross-lee-and-richard-nisbett-the-person-and-the-situation",
+      "name": "Ross, Lee, and Richard Nisbett \u2014 The Person and the Situation",
+      "type": "book",
+      "summary": "Ross, Lee, and Richard Nisbett. *The Person and the Situation*. New York: McGraw-Hill, 1991.",
+      "concepts": [
+        "concept-interpretation",
+        "concept-thinking",
+        "concept-uncertainty"
+      ],
+      "patterns": [
+        "pattern-contact-keeps-the-read-open",
+        "pattern-meaning-gets-distorted"
+      ],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-ross-lee-the-intuitive-psychologist-and-his-shortcomings",
+      "slug": "ross-lee-the-intuitive-psychologist-and-his-shortcomings",
+      "name": "Lee Ross \u2014 The Intuitive Psychologist and His Shortcomings.",
+      "type": "article",
+      "summary": "Ross, Lee. \"The Intuitive Psychologist and His Shortcomings.\" *Advances in Experimental Social Psychology* (1977).",
+      "concepts": [
+        "concept-thinking",
+        "concept-uncertainty"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-scott-james-c-domination-and-the-arts-of-resistance-hidden",
+      "slug": "scott-james-c-domination-and-the-arts-of-resistance-hidden",
+      "name": "James C Scott \u2014 Domination and the Arts of Resistance: Hidden",
+      "type": "book",
+      "summary": "Scott, James C. *Domination and the Arts of Resistance: Hidden Transcripts*. New Haven, CT: Yale University Press, 1990.",
+      "concepts": [
+        "concept-correction",
+        "concept-distance",
+        "concept-harm",
+        "concept-legitimacy"
+      ],
+      "patterns": [
+        "pattern-disagreement-is-suppressed",
+        "pattern-examples-accumulate",
+        "pattern-leaders-feel-the-consequences"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-staw-barry-m-knee-deep-in-the-big-muddy-a-study-of-escalating",
+      "slug": "staw-barry-m-knee-deep-in-the-big-muddy-a-study-of-escalating",
+      "name": "Barry M Staw \u2014 Knee-Deep in the Big Muddy: A Study of Escalating",
+      "type": "article",
+      "summary": "Staw, Barry M. \"Knee-Deep in the Big Muddy: A Study of Escalating Commitment to a Chosen Course of Action.\" *Organizational Behavior and Human Performance* 16, no. 1 (1976): 27\u201344.",
+      "concepts": [
+        "concept-decay"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-steele-claude-m-whistling-vivaldi",
+      "slug": "steele-claude-m-whistling-vivaldi",
+      "name": "Claude M Steele \u2014 Whistling Vivaldi",
+      "type": "book",
+      "summary": "Steele, Claude M. *Whistling Vivaldi*. New York: W. W. Norton & Company, 2010.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-suchman-mark-c-managing-legitimacy",
+      "slug": "suchman-mark-c-managing-legitimacy",
+      "name": "Mark C Suchman \u2014 Managing Legitimacy.",
+      "type": "article",
+      "summary": "Suchman, Mark C. \"Managing Legitimacy.\" *Academy of Management Review* (1995).",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior",
+      "slug": "tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior",
+      "name": "Tajfel, Henri, and John C. Turner \u2014 The Social Identity Theory of Intergroup Behavior.",
+      "type": "article",
+      "summary": "Tajfel, Henri, and John C. Turner. \"The Social Identity Theory of Intergroup Behavior.\" In *Psychology of Intergroup Relations*, 1979.",
+      "concepts": [
+        "concept-adaptation"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-tversky-amos-and-daniel-kahneman-judgment-under-uncertainty",
+      "slug": "tversky-amos-and-daniel-kahneman-judgment-under-uncertainty",
+      "name": "Tversky, Amos, and Daniel Kahneman \u2014 Judgment under Uncertainty.",
+      "type": "article",
+      "summary": "Tversky, Amos, and Daniel Kahneman. \"Judgment under Uncertainty.\" *Science* (1974).",
+      "concepts": [
+        "concept-thinking"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b",
+      "slug": "uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b",
+      "name": "Uhl-Bien, Michael, Ronald E. Riggio, Kelly Lowe, and Gerard B",
+      "type": "book",
+      "summary": "Uhl-Bien, Michael, Ronald E. Riggio, Kelly Lowe, and Gerard B. Carsten. \"Followership Theory: A Review and Research Agenda.\" *The Leadership Quarterly* 25, no. 1 (2014): 83\u2013104.",
+      "concepts": [
+        "concept-correction",
+        "concept-guest-leadership",
+        "concept-legitimacy",
+        "concept-normalization"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-vaughan-diane-the-challenger-launch-decision-risky-technology",
+      "slug": "vaughan-diane-the-challenger-launch-decision-risky-technology",
+      "name": "Diane Vaughan \u2014 The Challenger Launch Decision: Risky Technology,",
+      "type": "book",
+      "summary": "Vaughan, Diane. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. Chicago: University of Chicago Press, 1996.",
+      "concepts": [
+        "concept-normalization"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-weber-max-economy-and-society-an-outline-of-interpretive",
+      "slug": "weber-max-economy-and-society-an-outline-of-interpretive",
+      "name": "Max Weber \u2014 Economy and Society: An Outline of Interpretive",
+      "type": "book",
+      "summary": "Weber, Max. *Economy and Society: An Outline of Interpretive Sociology*. Edited by Guenther Roth and Claus Wittich. Berkeley: University of California Press, 1978.",
+      "concepts": [
+        "concept-legitimacy",
+        "concept-correction",
+        "concept-distance",
+        "concept-guest-leadership"
+      ],
+      "patterns": [
+        "pattern-disagreement-is-suppressed"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected",
+      "slug": "weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected",
+      "name": "Weick, Karl E., and Kathleen M. Sutcliffe \u2014 Managing the Unexpected:",
+      "type": "book",
+      "summary": "Weick, Karl E., and Kathleen M. Sutcliffe. *Managing the Unexpected: Sustained Performance in a Complex World*. San Francisco: Jossey-Bass, 2001.",
+      "concepts": [
+        "concept-correction"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld",
+      "slug": "weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld",
+      "name": "Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld",
+      "type": "article",
+      "summary": "Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld. \"Organizing for High Reliability.\" *Academy of Management Journal* (1999).",
+      "concepts": [
+        "concept-interpretation"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing",
+      "slug": "weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing",
+      "name": "Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld \u2014 Organizing",
+      "type": "article",
+      "summary": "Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld. \"Organizing and the Process of Sensemaking.\" *Organization Science* 16, no. 4 (2005): 409\u2013421.",
+      "concepts": [
+        "concept-normalization"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    },
+    {
+      "id": "source-weick-karl-e-sensemaking-in-organizations",
+      "slug": "weick-karl-e-sensemaking-in-organizations",
+      "name": "Karl E Weick \u2014 Sensemaking in Organizations",
+      "type": "book",
+      "summary": "Weick, Karl E. *Sensemaking in Organizations*. Thousand Oaks, CA: Sage Publications, 1995.",
+      "concepts": [
+        "concept-interpretation"
+      ],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves"
+      ]
+    },
+    {
+      "id": "source-weick-karl-e-the-social-psychology-of-organizing",
+      "slug": "weick-karl-e-the-social-psychology-of-organizing",
+      "name": "Karl E Weick \u2014 The Social Psychology of Organizing",
+      "type": "book",
+      "summary": "Weick, Karl E. *The Social Psychology of Organizing*. 2nd ed. Reading, MA: Addison-Wesley, 1979.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "concept-circulation",
+      "target": "concept-correction",
+      "relationship": "structural_tension",
+      "description": "continuity vs reality-contact"
+    },
+    {
+      "source": "concept-authority",
+      "target": "concept-legitimacy",
+      "relationship": "structural_tension",
+      "description": "operational power vs justified recognition"
+    },
+    {
+      "source": "concept-meaning",
+      "target": "concept-interpretation",
+      "relationship": "structural_tension",
+      "description": "transmission vs reconstruction"
+    },
+    {
+      "source": "concept-consequence",
+      "target": "concept-coupling",
+      "relationship": "structural_tension",
+      "description": "outcomes vs exposure to outcomes"
+    },
+    {
+      "source": "concept-certainty",
+      "target": "concept-uncertainty",
+      "relationship": "structural_tension",
+      "description": "coordination stability vs revisability"
+    },
+    {
+      "source": "concept-acceleration",
+      "target": "concept-friction",
+      "relationship": "structural_tension",
+      "description": "throughput vs deliberation"
+    },
+    {
+      "source": "concept-scale",
+      "target": "concept-moral-density",
+      "relationship": "structural_tension",
+      "description": "abstraction vs visible consequence"
+    },
+    {
+      "source": "concept-reciprocity",
+      "target": "concept-asymmetry",
+      "relationship": "structural_tension",
+      "description": "shared exposure vs unequal exposure"
+    },
+    {
+      "source": "concept-contestability",
+      "target": "concept-stability",
+      "relationship": "structural_tension",
+      "description": "revisability vs continuity"
+    },
+    {
+      "source": "concept-adaptation",
+      "target": "concept-authorization",
+      "relationship": "structural_tension",
+      "description": "response vs normalized permission"
+    },
+    {
+      "source": "concept-scale",
+      "target": "concept-correction",
+      "relationship": "thins",
+      "description": "As scale increases, feedback loops weaken and correction becomes more expensive."
+    },
+    {
+      "source": "concept-circulation",
+      "target": "concept-authority",
+      "relationship": "reproduces",
+      "description": "Circulation allows authority structures to persist beyond individuals."
+    },
+    {
+      "source": "concept-correction",
+      "target": "concept-legitimacy",
+      "relationship": "renews",
+      "description": "Legitimacy remains durable when systems preserve visible correction."
+    },
+    {
+      "source": "concept-acceleration",
+      "target": "concept-judgment",
+      "relationship": "pressures",
+      "description": "Acceleration favors rapid coordination over reflective deliberation."
+    },
+    {
+      "source": "concept-friction",
+      "target": "concept-corrigibility",
+      "relationship": "preserves",
+      "description": "Corrective resistance helps systems remain revisable."
+    },
+    {
+      "source": "concept-certainty",
+      "target": "concept-coordination",
+      "relationship": "stabilizes",
+      "description": "Certainty reduces the cost of ongoing renegotiation."
+    },
+    {
+      "source": "concept-uncertainty",
+      "target": "concept-correction",
+      "relationship": "preserves",
+      "description": "Uncertainty keeps systems open to revision and learning."
+    }
+  ],
+  "ontology": {
+    "masterTerms": [
+      {
+        "id": "concept-circulation",
+        "slug": "circulation",
+        "title": "Circulation",
+        "preserves": "continuity"
+      },
+      {
+        "id": "concept-correction",
+        "slug": "correction",
+        "title": "Correction",
+        "preserves": "reality-contact"
+      },
+      {
+        "id": "concept-certainty",
+        "slug": "certainty",
+        "title": "Certainty",
+        "preserves": "coordination stability"
+      },
+      {
+        "id": "concept-judgment",
+        "slug": "judgment",
+        "title": "Judgment",
+        "preserves": "non-automatic evaluation"
+      },
+      {
+        "id": "concept-coupling",
+        "slug": "coupling",
+        "title": "Coupling",
+        "preserves": "exposure to consequence"
+      },
+      {
+        "id": "concept-corrigibility",
+        "slug": "corrigibility",
+        "title": "Corrigibility",
+        "preserves": "adaptive recoverability"
+      }
+    ],
+    "structuralPressures": [
+      {
+        "id": "concept-scale",
+        "slug": "scale",
+        "title": "Scale",
+        "effect": "weakens proximity"
+      },
+      {
+        "id": "concept-acceleration",
+        "slug": "acceleration",
+        "title": "Acceleration",
+        "effect": "outruns reflection"
+      },
+      {
+        "id": "concept-abstraction",
+        "slug": "abstraction",
+        "title": "Abstraction",
+        "effect": "obscures consequence"
+      },
+      {
+        "id": "concept-asymmetry",
+        "slug": "asymmetry",
+        "title": "Asymmetry",
+        "effect": "weakens reciprocity"
+      },
+      {
+        "id": "concept-mediation",
+        "slug": "mediation",
+        "title": "Mediation",
+        "effect": "distorts interpretation"
+      },
+      {
+        "id": "concept-compression",
+        "slug": "compression",
+        "title": "Compression",
+        "effect": "reduces nuance"
+      },
+      {
+        "id": "concept-inheritance",
+        "slug": "inheritance",
+        "title": "Inheritance",
+        "effect": "preserves drift"
+      },
+      {
+        "id": "concept-normalization",
+        "slug": "normalization",
+        "title": "Normalization",
+        "effect": "hardens adaptation"
+      }
+    ]
+  }
 }

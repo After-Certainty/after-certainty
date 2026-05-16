@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { IntroVideoPage } from "@/components/books/when-others-look-to-you/sections/IntroVideoPage";
 import { introVideoPageContent, woltyBasePath } from "@/lib/books/when-others-look-to-you/content";
+import { findWoltyBook, mergeIntroVideoContent } from "@/lib/books/when-others-look-to-you/manifest-media";
 import { buildPageMetadata } from "@/lib/books/when-others-look-to-you/metadata";
+import { getSemanticGraph } from "@/lib/graph/manifest";
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildPageMetadata({
@@ -11,6 +13,11 @@ export async function generateMetadata(): Promise<Metadata> {
   });
 }
 
-export default function IntroRoute() {
-  return <IntroVideoPage content={introVideoPageContent} />;
+export default async function IntroRoute() {
+  const graph = await getSemanticGraph();
+  const content = mergeIntroVideoContent(
+    introVideoPageContent,
+    findWoltyBook(graph.books),
+  );
+  return <IntroVideoPage content={content} />;
 }

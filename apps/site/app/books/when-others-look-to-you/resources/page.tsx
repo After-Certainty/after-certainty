@@ -3,7 +3,11 @@ import { SimpleMarketingPage } from "@/components/books/when-others-look-to-you/
 import { Button } from "@/components/books/when-others-look-to-you/ui/Button";
 import { getWoltyManifestDownloadUrls } from "@/lib/books/when-others-look-to-you/catalog-downloads";
 import { getAllPatterns, woltyBasePath } from "@/lib/books/when-others-look-to-you/content";
+import { mergePatternWithManifestMedia } from "@/lib/books/when-others-look-to-you/manifest-media";
 import { buildPageMetadata } from "@/lib/books/when-others-look-to-you/metadata";
+import { buildGraphIndex } from "@/lib/graph/graph";
+import { getPatternBySlug } from "@/lib/graph/graphQueries";
+import { getSemanticGraph } from "@/lib/graph/manifest";
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildPageMetadata({
@@ -16,8 +20,13 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function ResourcesPage() {
   const { primary, companions } = await getWoltyManifestDownloadUrls();
+  const graph = await getSemanticGraph();
+  const index = buildGraphIndex(graph);
+  const patterns = getAllPatterns().map((p) =>
+    mergePatternWithManifestMedia(p, getPatternBySlug(index, p.slug)),
+  );
 
-  const mediumArticles = getAllPatterns().flatMap((pattern) =>
+  const mediumArticles = patterns.flatMap((pattern) =>
     pattern.detail.mediumArticleHref
       ? [
           {
@@ -27,7 +36,7 @@ export default async function ResourcesPage() {
         ]
       : [],
   );
-  const youtubeVideos = getAllPatterns().flatMap((pattern) =>
+  const youtubeVideos = patterns.flatMap((pattern) =>
     pattern.detail.youtubeVideoId
       ? [
           {

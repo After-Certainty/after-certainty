@@ -6,6 +6,27 @@ const stringList = z
   .optional()
   .transform((v) => v ?? []);
 
+const mediaInfographicSchema = z.object({
+  url: z.string().url(),
+  path: z.string().min(1),
+  width: z.number().int().positive(),
+  height: z.number().int().positive(),
+  alt: z.string().optional(),
+});
+
+const bookMediaSchema = z.object({
+  intro: z
+    .object({
+      youtubeVideoId: z.string().min(1).optional(),
+    })
+    .optional(),
+  patterns: z
+    .object({
+      youtubePlaylistUrl: z.string().url().optional(),
+    })
+    .optional(),
+});
+
 const bookSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
@@ -16,6 +37,7 @@ const bookSchema = z.object({
   concepts: stringList,
   patterns: stringList,
   sources: stringList,
+  media: bookMediaSchema.optional(),
 });
 
 const conceptSemanticToneSchema = z.enum(["pressure", "capability", "neutral"]);
@@ -41,6 +63,9 @@ const patternSchema = z.object({
   summary: z.string().min(1),
   relatedConcepts: stringList,
   relatedBooks: stringList,
+  youtubeVideoId: z.string().min(1).optional(),
+  mediumArticleUrl: z.string().url().optional(),
+  infographic: mediaInfographicSchema.optional(),
 });
 
 const sourceSchema = z.object({

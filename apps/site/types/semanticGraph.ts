@@ -10,6 +10,23 @@
  * (forward-compatible with mixed manifests).
  */
 
+export interface MediaInfographic {
+  url: string;
+  path: string;
+  width: number;
+  height: number;
+  alt?: string;
+}
+
+export interface BookMedia {
+  intro?: {
+    youtubeVideoId?: string;
+  };
+  patterns?: {
+    youtubePlaylistUrl?: string;
+  };
+}
+
 export interface Book {
   id: string;
   slug: string;
@@ -21,6 +38,7 @@ export interface Book {
   concepts?: string[];
   patterns?: string[];
   sources?: string[];
+  media?: BookMedia;
 }
 
 /** Optional styling bucket from the content pipeline (e.g. pressure vs capability concepts). */
@@ -48,6 +66,9 @@ export interface Pattern {
   summary: string;
   relatedConcepts?: string[];
   relatedBooks?: string[];
+  youtubeVideoId?: string;
+  mediumArticleUrl?: string;
+  infographic?: MediaInfographic;
 }
 
 export interface Source {

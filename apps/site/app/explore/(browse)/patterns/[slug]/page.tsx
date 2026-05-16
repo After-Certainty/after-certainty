@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
+import { ExplorePatternMedia } from "@/components/explore/explore-pattern-media";
 import { ExploreObservatoryFocusLink } from "@/components/explore/explore-observatory-focus-link";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
@@ -67,6 +68,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
           {pattern.title}
         </h1>
         <p className="mt-10 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">{pattern.summary}</p>
+        <ExplorePatternMedia pattern={pattern} />
         <ExploreAdjacentNav
           basePath={explorePaths.patterns}
           entityLabel="pattern"

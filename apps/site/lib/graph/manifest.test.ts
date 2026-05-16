@@ -8,6 +8,14 @@ import {
   SEMANTIC_GRAPH_CACHE_TAG,
 } from "@/lib/graph/manifest";
 
+function validatedFallbackGraph() {
+  const result = validateSemanticGraph(fallback as unknown);
+  if (!result.success) {
+    throw new Error("Bundled semantic-manifest.json failed validation in test setup");
+  }
+  return result.data;
+}
+
 describe("validateSemanticGraph", () => {
   it("accepts minimal valid graph", () => {
     const result = validateSemanticGraph({
@@ -21,6 +29,17 @@ describe("validateSemanticGraph", () => {
     if (result.success) {
       expect(result.data.books).toEqual([]);
     }
+  });
+
+  it("accepts pattern and book media fields from the semantic manifest", () => {
+    const result = validateSemanticGraph(fallback as unknown);
+    expect(result.success).toBe(true);
+    if (!result.success) return;
+    const wolty = result.data.books.find((b) => b.slug === "when-others-look-to-you-v1");
+    expect(wolty?.media?.intro?.youtubeVideoId).toBeTruthy();
+    const attention = result.data.patterns.find((p) => p.slug === "attention-finds-a-focus");
+    expect(attention?.youtubeVideoId).toBeTruthy();
+    expect(attention?.infographic?.url).toContain("raw.githubusercontent.com");
   });
 
   it("accepts glossary layer, semanticTone, and relationship weight", () => {
@@ -86,7 +105,7 @@ describe("fetchSemanticGraphUncached", () => {
     process.env.SEMANTIC_MANIFEST_OFFLINE = "1";
     const graph = await fetchSemanticGraphUncached();
     expect(fetchSpy).not.toHaveBeenCalled();
-    expect(graph.glossary).toEqual((fallback as { glossary: unknown[] }).glossary);
+    expect(graph.glossary).toEqual(validatedFallbackGraph().glossary);
   });
 
   it("fetches and parses remote JSON when online", async () => {
@@ -135,7 +154,7 @@ describe("fetchSemanticGraphUncached", () => {
 
     const graph = await fetchSemanticGraphUncached();
 
-    expect(graph.glossary).toEqual((fallback as { glossary: unknown[] }).glossary);
+    expect(graph.glossary).toEqual(validatedFallbackGraph().glossary);
   });
 
   it("falls back when response is not ok", async () => {
@@ -144,7 +163,7 @@ describe("fetchSemanticGraphUncached", () => {
 
     const graph = await fetchSemanticGraphUncached();
 
-    expect(graph.glossary).toEqual((fallback as { glossary: unknown[] }).glossary);
+    expect(graph.glossary).toEqual(validatedFallbackGraph().glossary);
   });
 
   it("falls back when remote JSON fails validation", async () => {
@@ -156,6 +175,6 @@ describe("fetchSemanticGraphUncached", () => {
 
     const graph = await fetchSemanticGraphUncached();
 
-    expect(graph.glossary).toEqual((fallback as { glossary: unknown[] }).glossary);
+    expect(graph.glossary).toEqual(validatedFallbackGraph().glossary);
   });
 });
