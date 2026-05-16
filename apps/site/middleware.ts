@@ -18,10 +18,7 @@ export function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    /*
-     * Apply to HTML and OG image routes, not static assets. Meta sends Range on the
-     * document request as well as /opengraph-image.
-     */
+    /* Apply to HTML routes, not static assets. Meta sends Range on document fetches. */
     "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:ico|png|jpg|jpeg|webp|svg|woff2?|css|js)$).*)",
   ],
 };

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { resolvePodcastRssUrl, siteConfig } from "@/lib/site-config";
 
-const ogImagePath = "/opengraph-image";
+/** Static 1200×630 crop of `public/images/hero/hero-backdrop.png` — see `scripts/generate-og.sh`. */
+const ogImagePath = "/og.png";
 
 export const defaultMetadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
