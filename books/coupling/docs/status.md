@@ -2,16 +2,15 @@
 
 ## Current Phase
 
-Step 2 drafting loop (unit-by-unit drafting and review). Part III approved on branch `coupling-part-3`; PR open for merge to `main`.
+Part IV approved; PR open from `coupling-part-4` into `main`. Next: Part V on new branch after merge.
 
 ## Current Unit
 
-`part-04-institutions-under-drift/17-finance-ownership-without-cohesion.md` (after Part III merge)
+(None — awaiting merge of Part IV PR)
 
 ## In Progress
 
-- Part III approved; awaiting merge via PR.
-- Part IV drafting not started on `main` until Part III lands (or continue on new `coupling-part-4` branch after merge).
+- Part IV PR submitted; merge pending.
 
 ## Completed Units
 
@@ -22,7 +21,7 @@ Step 2 drafting loop (unit-by-unit drafting and review). Part III approved on br
 - `typographical-conventions.md`
 - `prologue.md`
 - `part-01-the-structural-grammar/bridge.md`
-- `part-01-the-structural-grammar/01-coupling-and-cohesion-technical-origins.md` (approved)
+- `part-01-the-structural-grammar/01-coupling-and-cohesion-technical-origins.md` (approved v1.1)
 - `part-01-the-structural-grammar/02-responsibility-as-cohesion.md` (approved)
 - `part-01-the-structural-grammar/03-consequence-as-coupling.md` (approved)
 - `part-01-the-structural-grammar/04-scale-and-abstraction.md` (approved)
@@ -40,11 +39,17 @@ Step 2 drafting loop (unit-by-unit drafting and review). Part III approved on br
 - `part-03-ai-and-structural-entropy/14-guardrails-as-constraint-architecture.md` (approved)
 - `part-03-ai-and-structural-entropy/15-architectural-cohesion.md` (approved)
 - `part-03-ai-and-structural-entropy/16-the-new-professional-literacy.md` (approved)
+- `part-04-institutions-under-drift/bridge.md` (approved)
+- `part-04-institutions-under-drift/17-finance-ownership-without-cohesion.md` (approved)
+- `part-04-institutions-under-drift/18-governance-representation-and-diffusion.md` (approved)
+- `part-04-institutions-under-drift/19-media-and-algorithmic-coupling.md` (approved)
+- `part-04-institutions-under-drift/20-bureaucracy-as-scar-tissue.md` (approved)
 
 ## Back Matter Established
 
-- `glossary.md` (with dependency-order checks enabled; Part III terms: Context Collapse, Consequence Architecture)
-- `bibliography.md` (working map; Part III AI/HCI and architecture sources added)
+- `glossary.md` (with dependency-order checks enabled)
+- `bibliography.md` (working map)
+- `interlude-coherence-under-scale.md` (drafted on main; synthesis after Part IV chapters)
 
 ## Process Rules Added
 
@@ -64,17 +69,12 @@ Step 2 drafting loop (unit-by-unit drafting and review). Part III approved on br
 
 ## Next Step
 
-Merge Part III PR into `main`, then create `coupling-part-4` from latest `main` and draft Part IV (bridge refresh or Ch 17 per author preference).
+After Part IV merge: create `coupling-part-5` from `main` and begin Part V drafting.
 
 ## Coordination Framing Pass
 
-- Companion map: `docs/coordination-framing-pass.md` (updated for Part III, May 2026)
-- Tier 1–2: integrated in Parts I–II (on `main`)
-- Tier 3 Part III: integrated in Ch 12–16 and bridge; light pass additions (bridge, Ch 12, Ch 15)
-- Interlude drafted: `interlude-coherence-under-scale.md`
-- Part IV–V: stub guidance embedded
+- Part IV: **high visibility** per `docs/coordination-framing-pass.md` (stale representations, fragmented authority, governance queues; split-brain once in Ch 18 if used).
 
 ## Open Decisions / Questions
 
-- Whether to expand Part III chapters toward 3,000-word target before part approval or defer to final manuscript-wide compression pass.
-- Whether interlude receives echo/citation pass before or after Part IV drafting.
+- None currently.
