@@ -6,11 +6,11 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Current Unit
 
-`part-03-ai-and-structural-entropy/12-the-frictionless-illusion.md`
+`part-03-ai-and-structural-entropy/13-monoliths-and-context-collapse.md`
 
 ## In Progress
 
-- Chapter 12 is next for drafting on `coupling-part-3`.
+- Chapter 13 is next for drafting on `coupling-part-3`.
 - Chapter 11 approved and locked as current baseline (v1.1).
 - Chapter 10 approved and locked as current baseline (v1.1).
 - Chapter 9 approved and locked as current baseline (v1.1).
@@ -51,6 +51,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - `part-02-software-as-early-laboratory/10-shift-left-temporal-compression.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/11-hexagonal-architecture-boundary-discipline-at-scale.md` (approved v1.1)
 - `part-03-ai-and-structural-entropy/bridge.md` (approved)
+- `part-03-ai-and-structural-entropy/12-the-frictionless-illusion.md` (approved)
 
 ## Back Matter Established
 
@@ -75,9 +76,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Next Step
 
-Approve/revise `part-03-ai-and-structural-entropy/bridge.md`, then draft:
-
-`part-03-ai-and-structural-entropy/12-the-frictionless-illusion.md`
+Draft `part-03-ai-and-structural-entropy/13-monoliths-and-context-collapse.md`
 
 ## Coordination Framing Pass (completed)
 
