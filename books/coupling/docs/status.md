@@ -69,12 +69,13 @@ Author part-approval for Part III on branch `coupling-part-3`, then push and ope
 
 After merge, draft Part IV beginning with `part-04-institutions-under-drift/17-finance-ownership-without-cohesion.md` (or expand Part IV bridge from outline to full draft).
 
-## Coordination Framing Pass (completed)
+## Coordination Framing Pass
 
-- Companion map: `docs/coordination-framing-pass.md`
-- Tier 1–2 micro-insertions in Parts I–II (merged to main)
+- Companion map: `docs/coordination-framing-pass.md` (updated for Part III, May 2026)
+- Tier 1–2: integrated in Parts I–II (on `main`)
+- Tier 3 Part III: integrated in Ch 12–16 and bridge; light pass additions (bridge, Ch 12, Ch 15)
 - Interlude drafted: `interlude-coherence-under-scale.md`
-- Part III–V stubs expanded with coordination draft guidance
+- Part IV–V: stub guidance embedded
 
 ## Open Decisions / Questions
 

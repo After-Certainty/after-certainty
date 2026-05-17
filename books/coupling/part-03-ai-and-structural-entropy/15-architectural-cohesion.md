@@ -26,7 +26,9 @@ Assisted systems need bounded contexts for data, prompts, and tools—not only f
 
 **Prompt and policy contexts** define which instructions, refusal rules, and escalation paths apply to which surfaces. Shared mega-prompts are the prompt equivalent of monoliths by accumulation: cheap to extend, expensive to reason about, dangerous when one team's exception becomes another team's default behavior.
 
-**Tool contexts** define which actions are even available to a workflow. A model that can call billing APIs from a support assistant without a hardened tool boundary has collapsed operational contexts. The interface is not the HTTP schema alone. It is the permitted action set tied to role.[^c15-bounded-contexts]
+**Tool contexts** define which actions are even available to a workflow. A model that can call billing APIs from a support assistant without a hardened tool boundary has collapsed operational contexts. The interface is not the HTTP schema alone. It is the permitted action set tied to role.
+
+Each context is also an independently evolving surface: models, vendors, corpora, and permission regimes change on different clocks. Bounded design assumes that drift rather than pretending all actors share one stable picture.[^c15-bounded-contexts]
 
 Bounded contexts are how systems refuse context collapse at design time rather than discover it in incident review.
 

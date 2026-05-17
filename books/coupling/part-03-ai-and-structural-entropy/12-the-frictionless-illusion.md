@@ -49,7 +49,7 @@ Coupling, in this book, is the return path of consequence to decision. Assisted 
 
 Several mechanisms matter in practice.
 
-First, temporal coupling can weaken even when calendar time compresses. If failures surface only after deployment, the author may already be context-switching. The reviewer may not hold the module in working memory. The gap between decision and correction widens in cognitive terms even when the release was fast.[^c12-temporal]
+First, temporal coupling can weaken even when calendar time compresses. If failures surface only after deployment, the author may already be context-switching. The reviewer may not hold the module in working memory. Delayed propagation widens the gap between decision and correction in cognitive terms even when the release was fast.[^c12-temporal]
 
 Second, partial information expands. Models and retrieval tools do not carry full team history, tacit constraints, or political tradeoffs that shaped earlier design. Generated output can be locally coherent while globally misaligned. The human operator may not see the mismatch until runtime exposes it.[^c12-partial-info]
 

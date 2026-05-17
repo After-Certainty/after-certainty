@@ -78,3 +78,11 @@ No "verify source details" placeholders remain in Part III.
 **Recurring terms:** Stable meaning for cohesion, coupling, guardrails, context collapse, coordination pressure.
 
 **Recommendation:** Part III ready for author part-approval and branch push (`coupling-part-3` → PR) when author agrees.
+
+## Coordination framing pass (May 2026)
+
+Part III coordination pass completed after drafts existed. See `docs/coordination-framing-pass.md` (Tier 3 + pass log).
+
+**Micro-edits:** Part III bridge (`coordination pressure` bullet); Ch 12 (`delayed propagation`); Ch 15 (`independently evolving` surfaces).
+
+**Assessment:** Ch 12–16 already carried medium-visibility grammar from drafting; no chapter-wide rewrites required.

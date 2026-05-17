@@ -16,6 +16,7 @@ This part treats AI-era work as a stress environment for the book's invariant, n
 
 The chapters examine:
 
+- coordination pressure when assisted actors and artifacts multiply faster than ownership design can absorb
 - acceleration without coherence maintenance, when generated change increases review and recovery work faster than boundaries adapt
 - partial information at model and tool boundaries, where context limits and tacit team knowledge do not travel with output
 - output that appears finished before consequence has returned to a redesign-capable owner
