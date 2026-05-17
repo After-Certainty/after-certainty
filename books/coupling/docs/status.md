@@ -2,16 +2,15 @@
 
 ## Current Phase
 
-Step 2 drafting loop (unit-by-unit drafting and review). Part IV on branch `coupling-part-4`.
+Part IV approved; PR open from `coupling-part-4` into `main`. Next: Part V on new branch after merge.
 
 ## Current Unit
 
-Part IV — awaiting author part-approval for push/PR
+(None — awaiting merge of Part IV PR)
 
 ## In Progress
 
-- All Part IV bridge/chapters approved on `coupling-part-4`.
-- Part coherence gate complete (`docs/part-04-coherence-pass.md`).
+- Part IV PR submitted; merge pending.
 
 ## Completed Units
 
@@ -70,7 +69,7 @@ Part IV — awaiting author part-approval for push/PR
 
 ## Next Step
 
-Complete Part IV coherence gate; request part approval; then push branch and open PR to `main`.
+After Part IV merge: create `coupling-part-5` from `main` and begin Part V drafting.
 
 ## Coordination Framing Pass
 
