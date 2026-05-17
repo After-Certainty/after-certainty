@@ -2,32 +2,16 @@
 
 ## Current Phase
 
-Step 2 drafting loop (unit-by-unit drafting and review).
+Step 2 drafting loop (unit-by-unit drafting and review). Part III approved on branch `coupling-part-3`; PR open for merge to `main`.
 
 ## Current Unit
 
-`part-03-ai-and-structural-entropy/bridge.md`
+`part-04-institutions-under-drift/17-finance-ownership-without-cohesion.md` (after Part III merge)
 
 ## In Progress
 
-- Part III bridge is next for drafting.
-- Chapter 11 approved and locked as current baseline (v1.1).
-- Chapter 10 approved and locked as current baseline (v1.1).
-- Chapter 9 approved and locked as current baseline (v1.1).
-- Chapter 8 approved and locked as current baseline (v1.1).
-- Chapter 7 approved and locked as current baseline (v1.1).
-- Chapter 6 approved and locked as current baseline.
-- Chapter 5 approved and locked as current baseline (v1.1).
-- Manuscript structure expanded to 25 chapters with Part II split into dedicated Heart of Agile and DORA chapters plus a Hexagonal Architecture chapter, and Part III expanded with a dedicated guardrails chapter.
-- Part II bridge approved and locked as current baseline.
-- Chapter 4 approved and locked as current baseline.
-- Chapter 3 approved and locked as current baseline.
-- Chapter 1 and Chapter 2 approved and locked as current baseline.
-- Glossary-term bolding normalized to manuscript-level first occurrence (post-Typographical Conventions).
-- Glossary expanded to cover Chapter 3 terminology: temporal coupling, operational coupling, governance coupling, shift left, and DevOps.
-- Glossary expanded for Part II terminology introduced so far: Waterfall, Agile, and DORA.
-- Citation quality pass completed for Chapters 1-3: placeholders removed and footnotes normalized to bibliography-backed source language.
-- Citation format normalized to stable, chapter-scoped footnote IDs in Chapters 1-4, with rules/process aligned for `.docx`/Kindle conversion compatibility.
+- Part III approved; awaiting merge via PR.
+- Part IV drafting not started on `main` until Part III lands (or continue on new `coupling-part-4` branch after merge).
 
 ## Completed Units
 
@@ -50,11 +34,17 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - `part-02-software-as-early-laboratory/09-dora-measuring-coupling.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/10-shift-left-temporal-compression.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/11-hexagonal-architecture-boundary-discipline-at-scale.md` (approved v1.1)
+- `part-03-ai-and-structural-entropy/bridge.md` (approved)
+- `part-03-ai-and-structural-entropy/12-the-frictionless-illusion.md` (approved)
+- `part-03-ai-and-structural-entropy/13-monoliths-and-context-collapse.md` (approved)
+- `part-03-ai-and-structural-entropy/14-guardrails-as-constraint-architecture.md` (approved)
+- `part-03-ai-and-structural-entropy/15-architectural-cohesion.md` (approved)
+- `part-03-ai-and-structural-entropy/16-the-new-professional-literacy.md` (approved)
 
 ## Back Matter Established
 
-- `glossary.md` (with dependency-order checks enabled)
-- `bibliography.md` (working map; complete pass scheduled in final editorial phase)
+- `glossary.md` (with dependency-order checks enabled; Part III terms: Context Collapse, Consequence Architecture)
+- `bibliography.md` (working map; Part III AI/HCI and architecture sources added)
 
 ## Process Rules Added
 
@@ -74,22 +64,17 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Next Step
 
-`part-03-ai-and-structural-entropy/bridge.md`
+Merge Part III PR into `main`, then create `coupling-part-4` from latest `main` and draft Part IV (bridge refresh or Ch 17 per author preference).
 
-Then move to:
+## Coordination Framing Pass
 
-`part-03-ai-and-structural-entropy/12-the-frictionless-illusion.md`
-
-## Coordination Framing Pass (completed)
-
-- Companion map: `docs/coordination-framing-pass.md`
-- Tier 1–2 micro-insertions: Introduction, Ch 1–4, Part II bridge, Ch 6–7, 9–11
-- Interlude drafted: `interlude-coherence-under-scale.md` (listed in `index.md` between Part IV and Part V)
-- Part III–V stubs expanded with coordination draft guidance; Part III/IV/V bridges updated
-- Glossary: Coordination Pressure, Coherence Maintenance
-- Epilogue: one closing line on coherence across boundaries
+- Companion map: `docs/coordination-framing-pass.md` (updated for Part III, May 2026)
+- Tier 1–2: integrated in Parts I–II (on `main`)
+- Tier 3 Part III: integrated in Ch 12–16 and bridge; light pass additions (bridge, Ch 12, Ch 15)
+- Interlude drafted: `interlude-coherence-under-scale.md`
+- Part IV–V: stub guidance embedded
 
 ## Open Decisions / Questions
 
-- Author approval pass for Tier 1–2 insertions in previously locked Part I–II units (if treating as new revision cycle).
-- Whether interlude receives citation/echo pass before Part IV drafting begins.
+- Whether to expand Part III chapters toward 3,000-word target before part approval or defer to final manuscript-wide compression pass.
+- Whether interlude receives echo/citation pass before or after Part IV drafting.

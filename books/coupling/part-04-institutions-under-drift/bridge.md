@@ -4,7 +4,7 @@ Expand the same structural logic from software into institutions.
 
 ## Why Institutions Come Next
 
-Part II showed how software practice repeatedly responded to consequence distance under scale. Part III will test the same grammar under AI-era acceleration. Part IV widens the lens to settings where feedback is slower, abstraction is thicker, and authority is constitutionally divided.
+Part II showed how software practice repeatedly responded to consequence distance under scale. Part III tested the same grammar under AI-era acceleration. Part IV widens the lens to settings where feedback is slower, abstraction is thicker, and authority is constitutionally divided.
 
 The coordination pattern named in the Introduction becomes visible here in civic and economic form: independently evolving boundaries, partial information, delayed propagation, and rising synchronization cost when cohesion and coupling weaken.
 
