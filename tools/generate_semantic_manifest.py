@@ -79,6 +79,60 @@ def build_book_media_from_spec(spec: dict) -> dict | None:
     return out or None
 
 
+_ISBN_10 = re.compile(r"^\d{9}[\dX]$")
+_ISBN_13 = re.compile(r"^97[89]\d{10}$")
+_PURCHASE_RETAILERS = frozenset(
+    {"amazon", "apple_books", "google_play", "barnes_noble", "bookshop", "other"}
+)
+
+
+def _normalize_isbn(value: str) -> str | None:
+    raw = value.strip().replace("-", "").replace(" ", "")
+    if not raw:
+        return None
+    upper = raw.upper()
+    if _ISBN_10.match(upper) or _ISBN_13.match(upper):
+        return upper
+    return None
+
+
+def build_book_commerce_from_spec(spec: dict) -> dict | None:
+    """Map ``book.yml`` ``book.isbns`` / ``book.purchase_links`` to manifest JSON."""
+    book = spec.get("book")
+    if not isinstance(book, dict):
+        return None
+    out: dict = {}
+    isbns_raw = book.get("isbns")
+    if isinstance(isbns_raw, list):
+        isbns: list[str] = []
+        seen: set[str] = set()
+        for item in isbns_raw:
+            normalized = _normalize_isbn(str(item))
+            if normalized and normalized not in seen:
+                seen.add(normalized)
+                isbns.append(normalized)
+        if isbns:
+            out["isbns"] = isbns
+    links_raw = book.get("purchase_links")
+    if isinstance(links_raw, list):
+        purchase_links: list[dict] = []
+        for item in links_raw:
+            if not isinstance(item, dict):
+                continue
+            retailer = str(item.get("retailer", "")).strip()
+            url = str(item.get("url", "")).strip()
+            if retailer not in _PURCHASE_RETAILERS or not url:
+                continue
+            link: dict = {"retailer": retailer, "url": url}
+            label = str(item.get("label", "")).strip()
+            if label:
+                link["label"] = label
+            purchase_links.append(link)
+        if purchase_links:
+            out["purchaseLinks"] = purchase_links
+    return out or None
+
+
 def _resolve_pattern_media(
     data: dict,
     *,
@@ -510,6 +564,7 @@ def _enriched_books(
     base_books: list[dict],
     rev: dict[str, dict[str, set[str]]],
     book_media_by_slug: dict[str, dict],
+    book_commerce_by_slug: dict[str, dict],
 ) -> list[dict]:
     out: list[dict] = []
     for b in base_books:
@@ -525,6 +580,12 @@ def _enriched_books(
         media = book_media_by_slug.get(slug)
         if media:
             nb["media"] = media
+        commerce = book_commerce_by_slug.get(slug)
+        if commerce:
+            if "isbns" in commerce:
+                nb["isbns"] = commerce["isbns"]
+            if "purchaseLinks" in commerce:
+                nb["purchaseLinks"] = commerce["purchaseLinks"]
         out.append(nb)
     out.sort(key=lambda x: (x["slug"], x["source"]))
     return out
@@ -631,6 +692,7 @@ def main() -> None:
 
     base_books: list[dict] = []
     book_media_by_slug: dict[str, dict] = {}
+    book_commerce_by_slug: dict[str, dict] = {}
     for spec_path in discover_book_spec_paths(repo):
         spec = load_book_spec(spec_path)
         entry = build_book_entry(
@@ -647,6 +709,9 @@ def main() -> None:
         media = build_book_media_from_spec(spec)
         if media:
             book_media_by_slug[str(entry["slug"])] = media
+        commerce = build_book_commerce_from_spec(spec)
+        if commerce:
+            book_commerce_by_slug[str(entry["slug"])] = commerce
     for spec_path in discover_upcoming_spec_paths(repo):
         spec = load_upcoming_spec(spec_path)
         upcoming = spec.get("upcoming", {})
@@ -664,6 +729,9 @@ def main() -> None:
         media = build_book_media_from_spec(spec)
         if media:
             book_media_by_slug[str(entry["slug"])] = media
+        commerce = build_book_commerce_from_spec(spec)
+        if commerce:
+            book_commerce_by_slug[str(entry["slug"])] = commerce
     base_books.sort(key=lambda item: (item["slug"], item["source"]))
 
     by_gloss, core_slugs, supporting_slugs = build_glossary_entries(
@@ -674,7 +742,7 @@ def main() -> None:
     sources = build_sources(repo)
     relationships = build_relationships(repo)
     rev = _reverse_index_entities(glossary, patterns, sources)
-    books = _enriched_books(base_books, rev, book_media_by_slug)
+    books = _enriched_books(base_books, rev, book_media_by_slug, book_commerce_by_slug)
 
     scan_slugs = set(core_slugs) | set(supporting_slugs)
     _apply_mentions(base_books, glossary, repo, scan_slugs=scan_slugs)

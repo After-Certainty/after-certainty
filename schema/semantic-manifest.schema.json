@@ -207,6 +207,47 @@
         },
         "media": {
           "$ref": "#/$defs/bookMedia"
+        },
+        "isbns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(?:\\d{9}[\\dX]|97[89]\\d{10})$"
+          },
+          "minItems": 1
+        },
+        "purchaseLinks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/purchaseLink"
+          },
+          "minItems": 1
+        }
+      }
+    },
+    "purchaseLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["retailer", "url"],
+      "properties": {
+        "retailer": {
+          "type": "string",
+          "enum": [
+            "amazon",
+            "apple_books",
+            "google_play",
+            "barnes_noble",
+            "bookshop",
+            "other"
+          ]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
         }
       }
     },

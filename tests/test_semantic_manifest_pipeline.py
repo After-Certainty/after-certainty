@@ -113,6 +113,14 @@ def test_semantic_manifest_includes_wolty_media(repo_root: Path, tmp_path: Path)
     wolty = next(b for b in data["books"] if b["slug"] == "when-others-look-to-you-v1")
     assert wolty["media"]["intro"]["youtubeVideoId"] == "ma1UbSajuVI"
     assert "youtube.com/playlist" in wolty["media"]["patterns"]["youtubePlaylistUrl"]
+    assert wolty["isbns"] == ["9798257484926"]
+    assert wolty["purchaseLinks"][0]["retailer"] == "amazon"
+    assert wolty["purchaseLinks"][0]["url"] == "https://www.amazon.com/gp/product/B0GX34SRDJ"
+    assert wolty["purchaseLinks"][0]["label"] == "Buy on Amazon"
+
+    coupling = next(b for b in data["books"] if b["slug"] == "coupling")
+    assert "isbns" not in coupling
+    assert "purchaseLinks" not in coupling
 
     attention = next(p for p in data["patterns"] if p["slug"] == "attention-finds-a-focus")
     assert attention["youtubeVideoId"] == "3N-vY1i5rg8"
