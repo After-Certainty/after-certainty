@@ -6,11 +6,11 @@ Step 2 drafting loop (unit-by-unit drafting and review). Part V on branch `coupl
 
 ## Current Unit
 
-`part-05-oscillation-and-design/22-designing-for-high-cohesion.md` (drafted; awaiting author review)
+`part-05-oscillation-and-design/23-designing-for-intentional-coupling.md` (drafted; awaiting author review)
 
 ## In Progress
 
-- Chapter 22 drafted on `coupling-part-5`; awaiting author review.
+- Chapter 23 drafted on `coupling-part-5`; awaiting author review.
 
 ## Completed Units
 
@@ -46,6 +46,7 @@ Step 2 drafting loop (unit-by-unit drafting and review). Part V on branch `coupl
 - `part-04-institutions-under-drift/20-bureaucracy-as-scar-tissue.md` (approved)
 - `part-05-oscillation-and-design/bridge.md` (approved)
 - `part-05-oscillation-and-design/21-the-oscillation.md` (approved)
+- `part-05-oscillation-and-design/22-designing-for-high-cohesion.md` (approved)
 
 ## Back Matter Established
 
