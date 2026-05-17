@@ -17,6 +17,12 @@ book:
     website: "https://after-certainty.com"
   language: en
   copyright_year: 2026
+  isbns:
+    - "9798257484926"
+  purchase_links:
+    - retailer: amazon
+      url: https://www.amazon.com/gp/product/B0GX34SRDJ
+      label: Buy on Amazon
   title_page_cover: BookCover.png
   title_page_newpage_after: true
 

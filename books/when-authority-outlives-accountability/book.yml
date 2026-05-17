@@ -13,6 +13,10 @@ book:
     website: "https://after-certainty.com"
   language: en
   copyright_year: 2026
+  purchase_links:
+    - retailer: amazon
+      url: https://www.amazon.com/gp/product/B0GJ3QZQ1V
+      label: Buy on Amazon
   title_page_cover: book-cover.png
 
 paths:

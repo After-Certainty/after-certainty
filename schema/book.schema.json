@@ -113,6 +113,21 @@
             "minLength": 1
           },
           "description": "Other book ids that are companions to this work (e.g. related edition)."
+        },
+        "isbns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(?:\\d{9}[\\dX]|97[89]\\d{10})$"
+          },
+          "minItems": 1
+        },
+        "purchase_links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/purchaseLink"
+          },
+          "minItems": 1
         }
       }
     },
@@ -217,6 +232,32 @@
     }
   },
   "$defs": {
+    "purchaseLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["retailer", "url"],
+      "properties": {
+        "retailer": {
+          "type": "string",
+          "enum": [
+            "amazon",
+            "apple_books",
+            "google_play",
+            "barnes_noble",
+            "bookshop",
+            "other"
+          ]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
     "bookMediaSpec": {
       "type": "object",
       "additionalProperties": false,
