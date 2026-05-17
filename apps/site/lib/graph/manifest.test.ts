@@ -37,6 +37,8 @@ describe("validateSemanticGraph", () => {
     if (!result.success) return;
     const wolty = result.data.books.find((b) => b.slug === "when-others-look-to-you-v1");
     expect(wolty?.media?.intro?.youtubeVideoId).toBeTruthy();
+    expect(wolty?.purchaseLinks?.[0]?.retailer).toBe("amazon");
+    expect(wolty?.epub?.url).toContain("when-others-look-to-you-v1.epub");
     const attention = result.data.patterns.find((p) => p.slug === "attention-finds-a-focus");
     expect(attention?.youtubeVideoId).toBeTruthy();
     expect(attention?.infographic?.url).toContain("raw.githubusercontent.com");
