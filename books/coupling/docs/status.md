@@ -2,15 +2,16 @@
 
 ## Current Phase
 
-Part V + epilogue complete on `coupling-part-5`; awaiting part-approval for push/PR to `main`.
+Part V approved; PR open from `coupling-part-5` into `main`. Manuscript body + epilogue complete pending merge.
 
 ## Current Unit
 
-(None)
+(None — awaiting merge of Part V PR)
 
 ## In Progress
 
-- Awaiting part-approval to push `coupling-part-5` and open PR (includes Part V + epilogue).
+- Part V PR submitted; merge pending.
+- Manuscript-wide passes after merge as needed.
 
 ## Completed Units
 
@@ -18,7 +19,7 @@ Part V + epilogue complete on `coupling-part-5`; awaiting part-approval for push
 - `authors-note.md`
 - `preface.md`
 - `introduction.md`
-- `typographical-conventions.md`
+- `typographical-conventions.md` (approved v1.1)
 - `prologue.md`
 - `part-01-the-structural-grammar/bridge.md`
 - `part-01-the-structural-grammar/01-coupling-and-cohesion-technical-origins.md` (approved v1.1)
@@ -44,6 +45,7 @@ Part V + epilogue complete on `coupling-part-5`; awaiting part-approval for push
 - `part-04-institutions-under-drift/18-governance-representation-and-diffusion.md` (approved)
 - `part-04-institutions-under-drift/19-media-and-algorithmic-coupling.md` (approved)
 - `part-04-institutions-under-drift/20-bureaucracy-as-scar-tissue.md` (approved)
+- `interlude-coherence-under-scale.md` (approved v1.1)
 - `part-05-oscillation-and-design/bridge.md` (approved)
 - `part-05-oscillation-and-design/21-the-oscillation.md` (approved)
 - `part-05-oscillation-and-design/22-designing-for-high-cohesion.md` (approved v1.1)
@@ -56,7 +58,6 @@ Part V + epilogue complete on `coupling-part-5`; awaiting part-approval for push
 
 - `glossary.md` (with dependency-order checks enabled)
 - `bibliography.md` (working map)
-- `interlude-coherence-under-scale.md` (drafted on main; synthesis after Part IV chapters)
 
 ## Process Rules Added
 
@@ -76,7 +77,7 @@ Part V + epilogue complete on `coupling-part-5`; awaiting part-approval for push
 
 ## Next Step
 
-Part-approve → push `coupling-part-5` and open PR to `main`. Then manuscript-wide passes as needed.
+After Part V merge: manuscript-wide passes; sync `export-kindle.md` if needed.
 
 ## Coordination Framing Pass
 
