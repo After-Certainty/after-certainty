@@ -22,7 +22,7 @@ Part IV — awaiting author part-approval for push/PR
 - `typographical-conventions.md`
 - `prologue.md`
 - `part-01-the-structural-grammar/bridge.md`
-- `part-01-the-structural-grammar/01-coupling-and-cohesion-technical-origins.md` (approved)
+- `part-01-the-structural-grammar/01-coupling-and-cohesion-technical-origins.md` (approved v1.1)
 - `part-01-the-structural-grammar/02-responsibility-as-cohesion.md` (approved)
 - `part-01-the-structural-grammar/03-consequence-as-coupling.md` (approved)
 - `part-01-the-structural-grammar/04-scale-and-abstraction.md` (approved)
