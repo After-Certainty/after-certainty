@@ -7,9 +7,11 @@ import { Handle, Position, type Node, type NodeProps } from "@xyflow/react";
 
 import { visualProfileForGraphNode } from "@/lib/graph/nodeVisuals";
 import type { GraphNode } from "@/lib/graph/graph";
+import type { NodeSemanticTier } from "@/lib/observatory/types";
 
 export type SemanticFlowNodeData = {
   graphNode: GraphNode;
+  semanticTier?: NodeSemanticTier;
   isFocus: boolean;
   isSelected: boolean;
   isPinned: boolean;
@@ -102,13 +104,16 @@ function SemanticFlowNodeInner({ data }: NodeProps<Node<SemanticFlowNodeData>>) 
     el.style.setProperty("isolation", "isolate", "important");
   }, [resolvedTheme]);
 
-  const { graphNode, isFocus, isSelected, isPinned, onPath, detailHref } = data;
+  const { graphNode, semanticTier, isFocus, isSelected, isPinned, onPath, detailHref } = data;
+  const tier = semanticTier ?? (isFocus ? "focus" : "dim");
   const title = titleOf(graphNode);
   const profile = visualProfileForGraphNode(graphNode);
   const ring = ringClassesForState(accentRing[profile.accent] ?? accentRing.slate, isSelected);
   const shape = shapeClass[profile.shape] ?? shapeClass.circle;
-  const focusRing = isFocus ? "ring-2 ring-inset ring-accent/45" : "";
-  const pathGlow = onPath ? "shadow-[0_0_32px_var(--accent-soft)]" : "";
+  const focusRing = isFocus || tier === "focus" ? "ring-2 ring-inset ring-accent/45 obs-node-focus-halo" : "";
+  const neighborGlow = tier === "neighbor" ? "obs-node-neighbor-glow" : "";
+  const pathGlow = onPath || tier === "path" ? "shadow-[0_0_32px_var(--accent-soft)]" : "";
+  const dimClass = tier === "dim" ? "obs-node-dim opacity-[0.55]" : "";
 
   return (
     <div className="relative">
@@ -120,7 +125,9 @@ function SemanticFlowNodeInner({ data }: NodeProps<Node<SemanticFlowNodeData>>) 
           shape,
           ring,
           focusRing,
+          neighborGlow,
           pathGlow,
+          dimClass,
           profile.shape === "diamond" ? "text-[13px]" : "text-sm",
         ].join(" ")}
       >

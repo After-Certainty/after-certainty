@@ -38,6 +38,11 @@ export type VizEdge = {
   sourceId: string;
   targetId: string;
   relationship: string;
+  description?: string;
+  weight?: number;
+  /** Index into `index.graph.relationships` when edge is manifest-backed. */
+  manifestIndex?: number;
+  isSyntheticRelated: boolean;
 };
 
 export function passesNodeFilters(
@@ -193,7 +198,12 @@ function computeVizEdges(index: GraphIndex, nodeSet: ReadonlySet<string>, opt: G
   const edges: VizEdge[] = [];
   let edgeCounter = 0;
 
-  const pushEdge = (sourceId: string, targetId: string, relationship: string) => {
+  const pushEdge = (
+    sourceId: string,
+    targetId: string,
+    relationship: string,
+    meta?: Pick<VizEdge, "description" | "weight" | "manifestIndex" | "isSyntheticRelated">,
+  ) => {
     if (!nodeSet.has(sourceId) || !nodeSet.has(targetId)) return;
     const ek = vizEdgeDedupKey(sourceId, targetId, relationship);
     if (edgeKeySeen.has(ek)) return;
@@ -204,14 +214,24 @@ function computeVizEdges(index: GraphIndex, nodeSet: ReadonlySet<string>, opt: G
       sourceId,
       targetId,
       relationship,
+      description: meta?.description,
+      weight: meta?.weight,
+      manifestIndex: meta?.manifestIndex,
+      isSyntheticRelated: meta?.isSyntheticRelated ?? false,
     });
   };
 
-  for (const r of index.graph.relationships) {
+  for (let manifestIndex = 0; manifestIndex < index.graph.relationships.length; manifestIndex += 1) {
+    const r = index.graph.relationships[manifestIndex]!;
     if (!passesPredicateFilter(r, opt.predicates)) continue;
     const ends = relationshipEndpointsResolved(index, r);
     if (!ends) continue;
-    pushEdge(ends.sourceId, ends.targetId, r.relationship);
+    pushEdge(ends.sourceId, ends.targetId, r.relationship, {
+      description: r.description,
+      weight: r.weight,
+      manifestIndex,
+      isSyntheticRelated: false,
+    });
   }
 
   if (opt.includeRelatedEntityLinks) {
@@ -236,7 +256,7 @@ function computeVizEdges(index: GraphIndex, nodeSet: ReadonlySet<string>, opt: G
         const cid = index.resolveCanonicalId(ref);
         if (!cid) continue;
         if (!nodeSet.has(cid)) continue;
-        pushEdge(id, cid, "related");
+        pushEdge(id, cid, "related", { isSyntheticRelated: true });
       }
     }
   }

@@ -40,13 +40,14 @@ export function useObservatoryTier(): { tier: ObservatoryTier; isCompact: boolea
   return { tier, isCompact: tier !== "desktop" };
 }
 
+/** Max new neighbors per entity kind when progressively expanding the graph. */
 export function progressiveNeighborsPerKindForTier(tier: ObservatoryTier): number {
   switch (tier) {
     case "mobile":
-      return 1;
-    case "tablet":
-      return 2;
-    default:
       return 3;
+    case "tablet":
+      return 4;
+    default:
+      return 5;
   }
 }

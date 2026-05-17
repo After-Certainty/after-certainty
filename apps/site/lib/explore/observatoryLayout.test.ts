@@ -1,12 +1,25 @@
 import { describe, expect, it } from "vitest";
 
-import { mergeNodePositions, radialPositionsForNodes } from "@/lib/explore/observatoryLayout";
+import {
+  mergeNodePositions,
+  radialPositionsForNodes,
+  spreadNodePositions,
+} from "@/lib/explore/observatoryLayout";
 
 describe("observatoryLayout", () => {
   it("places focus at origin and others on a ring", () => {
     const m = radialPositionsForNodes("a", ["a", "b", "c"]);
     expect(m.get("a")).toEqual({ x: 0, y: 0 });
     expect(m.size).toBe(3);
+  });
+
+  it("spreads all nodes radially except pinned", () => {
+    const pinned = new Map([["b", { x: 99, y: 88 }]]);
+    const next = spreadNodePositions("a", ["a", "b", "c"], pinned);
+    expect(next.get("a")).toEqual({ x: 0, y: 0 });
+    expect(next.get("b")).toEqual({ x: 99, y: 88 });
+    expect(next.get("c")).not.toEqual({ x: 99, y: 88 });
+    expect(next.get("c")!.x !== 0 || next.get("c")!.y !== 0).toBe(true);
   });
 
   it("preserves previous positions when merging", () => {

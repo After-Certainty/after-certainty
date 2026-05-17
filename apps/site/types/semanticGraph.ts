@@ -108,12 +108,15 @@ export interface Source {
 }
 
 export interface Relationship {
+  id?: string;
   source: string;
   target: string;
   relationship: string;
   description?: string;
   /** Optional edge strength for ranking / future heatmaps (higher = stronger). */
   weight?: number;
+  summary?: string;
+  relatedPathwayIds?: string[];
 }
 
 export interface SemanticGraph {

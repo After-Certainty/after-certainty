@@ -88,3 +88,147 @@ html:not(.light) .explore-observatory-rf .semantic-flow-node-meta {
 html.light .explore-observatory-rf .semantic-flow-node-meta {
   color: var(--muted) !important;
 }
+
+:root {
+  --obs-dim-opacity: 0.55;
+  --obs-edge-label-surface: #ffffff;
+  --obs-edge-label-fg: var(--fg);
+  --obs-edge-label-border: color-mix(in srgb, var(--border) 70%, transparent);
+}
+
+html:not(.light) {
+  --obs-edge-label-surface: #070708;
+  --obs-edge-label-fg: #fffcf7;
+  --obs-edge-label-border: rgba(236, 232, 225, 0.22);
+}
+
+.explore-observatory-rf .obs-node-dim {
+  opacity: var(--obs-dim-opacity);
+}
+
+.explore-observatory-rf .obs-node-focus-halo {
+  box-shadow: 0 0 28px color-mix(in srgb, var(--accent) 22%, transparent);
+}
+
+.explore-observatory-rf .obs-node-neighbor-glow {
+  box-shadow: 0 0 18px color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .explore-observatory-rf .obs-node-neighbor-glow:nth-child(1) {
+    animation: obs-neighbor-shimmer 6s ease-in-out infinite;
+  }
+}
+
+@keyframes obs-neighbor-shimmer {
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.06);
+  }
+}
+
+.explore-observatory-rf .obs-semantic-edge--selected path {
+  animation: obs-edge-pulse 3.5s ease-in-out infinite;
+}
+
+.explore-observatory-rf .obs-semantic-edge--incident path {
+  stroke-dasharray: 6 10;
+  animation: obs-edge-current 8s linear infinite;
+}
+
+@keyframes obs-edge-pulse {
+  0%,
+  100% {
+    stroke-opacity: 1;
+  }
+  50% {
+    stroke-opacity: 0.72;
+  }
+}
+
+@keyframes obs-edge-current {
+  to {
+    stroke-dashoffset: -32;
+  }
+}
+
+/* Match opaque node card surfaces — RF edge-label portal can inherit misleading --fg/--bg-elevated. */
+.explore-observatory-rf .obs-edge-label-pill,
+.explore-observatory-rf .react-flow__edge-label .obs-edge-label-pill {
+  display: inline-block;
+  max-width: 10rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-family: var(--font-sans-body), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 600;
+  color: var(--obs-edge-label-fg) !important;
+  background-color: var(--obs-edge-label-surface) !important;
+  background-image: none !important;
+  border: 1px solid var(--obs-edge-label-border);
+  isolation: isolate;
+  mix-blend-mode: normal;
+  opacity: 1 !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+html.light .explore-observatory-rf .obs-edge-label-pill,
+html.light .explore-observatory-rf .react-flow__edge-label .obs-edge-label-pill {
+  font-family: var(--font-display-serif), ui-serif, Georgia, serif;
+  font-weight: 500;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+}
+
+html:not(.light) .explore-observatory-rf .obs-edge-label-pill,
+html:not(.light) .explore-observatory-rf .react-flow__edge-label .obs-edge-label-pill {
+  text-shadow:
+    0 0 1px rgba(0, 0, 0, 0.95),
+    0 1px 3px rgba(0, 0, 0, 0.65);
+}
+
+.explore-observatory-rf .obs-edge-label-arrow {
+  opacity: 0.65;
+}
+
+.obs-atmosphere-particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  opacity: 0.06;
+  animation-name: obs-particle-drift;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes obs-particle-drift {
+  0%,
+  100% {
+    transform: translate(0, 0);
+    opacity: 0.04;
+  }
+  50% {
+    transform: translate(12px, -18px);
+    opacity: 0.08;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .explore-observatory-rf .obs-semantic-edge--selected path,
+  .explore-observatory-rf .obs-semantic-edge--incident path,
+  .obs-atmosphere-particle,
+  .explore-observatory-rf .obs-node-neighbor-glow {
+    animation: none !important;
+  }
+}

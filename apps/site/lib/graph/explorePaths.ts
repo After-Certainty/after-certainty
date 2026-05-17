@@ -63,3 +63,23 @@ export function exploreObservatoryFocusHref(kind: GraphEntityKind, slug: string)
   q.set("focusSlug", slug);
   return withExploreObservatoryView(`${explorePaths.home}?${q.toString()}`);
 }
+
+export const EXPLORE_EDGE_PARAM = "edge";
+
+/** Deep-link a selected relationship (viz edge dedup key). */
+export function exploreObservatoryRelationshipHref(
+  kind: GraphEntityKind,
+  slug: string,
+  edgeKey: string,
+): string {
+  const q = new URLSearchParams();
+  q.set("focusKind", kind);
+  q.set("focusSlug", slug);
+  q.set(EXPLORE_EDGE_PARAM, edgeKey);
+  return withExploreObservatoryView(`${explorePaths.home}?${q.toString()}`);
+}
+
+export function edgeKeyFromSearchParams(sp: URLSearchParams): string | null {
+  const raw = sp.get(EXPLORE_EDGE_PARAM)?.trim();
+  return raw || null;
+}

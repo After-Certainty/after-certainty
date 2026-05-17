@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import { buildGraphIndex } from "@/lib/graph/graph";
+import { DEFAULT_PROGRESSIVE_NEIGHBORS_PER_KIND } from "@/lib/observatory/focusEntry";
 import {
   buildGraphVizModel,
   buildProgressiveGraphVizModel,
@@ -125,6 +126,52 @@ describe("graphVizModel", () => {
     expect(bookCount(withShelf.nodeIds)).toBeGreaterThan(bookCount(withoutShelf.nodeIds));
   });
 
+  it("fresh deep-link seed yields a tight single-root progressive neighborhood", () => {
+    const glossary = Array.from({ length: 10 }, (_, i) => ({
+      id: `c${i}`,
+      slug: `concept-${i}`,
+      title: `Concept ${i}`,
+      shortDefinition: "def",
+    }));
+    const hubGraph: SemanticGraph = {
+      books: [
+        {
+          id: "b1",
+          slug: "hub-book",
+          title: "Hub",
+          concepts: glossary.map((c) => c.id),
+          patterns: [],
+          sources: [],
+        },
+      ],
+      glossary,
+      patterns: [],
+      sources: [],
+      relationships: [],
+    };
+    const index = buildGraphIndex(hubGraph);
+    const focusId = "b1";
+    const opt = {
+      focusCanonicalId: focusId,
+      maxDepth: 2,
+      maxNodes: 36,
+      kinds: [],
+      layers: [],
+      predicates: [],
+      includeRelatedEntityLinks: true,
+      pinnedCanonicalIds: [],
+      progressiveNeighborsPerKind: DEFAULT_PROGRESSIVE_NEIGHBORS_PER_KIND,
+    };
+    const fresh = buildProgressiveGraphVizModel(index, opt, [focusId]);
+    const expanded = buildProgressiveGraphVizModel(index, opt, [focusId, "c0", "c1", "c2", "c3"]);
+
+    expect(fresh.nodeIds).toContain(focusId);
+    expect(fresh.nodeIds.length).toBeGreaterThan(1);
+    expect(fresh.nodeIds.length).toBeLessThanOrEqual(4);
+    expect(expanded.nodeIds.length).toBeGreaterThan(fresh.nodeIds.length);
+    expect(fresh.edges.length).toBeGreaterThan(0);
+  });
+
   it("progressive expansion unions 1-hop neighborhoods per root", () => {
     const index = buildGraphIndex(rich);
     const opt = {
@@ -195,6 +242,14 @@ describe("graphVizModel", () => {
 
     const twoPerKind = buildProgressiveGraphVizModel(index, { ...opt, progressiveNeighborsPerKind: 2 }, ["b1"]);
     expect(twoPerKind.nodeIds.filter((id) => index.getNodeByCanonicalId(id)?.kind === "concept").length).toBeLessThanOrEqual(
+      2,
+    );
+
+    const fivePerKind = buildProgressiveGraphVizModel(index, { ...opt, progressiveNeighborsPerKind: 5 }, ["b1"]);
+    expect(fivePerKind.nodeIds.filter((id) => index.getNodeByCanonicalId(id)?.kind === "concept").length).toBeLessThanOrEqual(
+      5,
+    );
+    expect(fivePerKind.nodeIds.filter((id) => index.getNodeByCanonicalId(id)?.kind === "concept").length).toBeGreaterThan(
       2,
     );
   });

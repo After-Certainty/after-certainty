@@ -29,6 +29,21 @@ export function radialPositionsForNodes(focusId: string, nodeIds: readonly strin
   return map;
 }
 
+/** Radial spread for tidy layout: focus at origin, satellites on a ring; pinned nodes keep their coords. */
+export function spreadNodePositions(
+  focusId: string,
+  nodeIds: readonly string[],
+  pinned: ReadonlyMap<string, XY>,
+): Map<string, XY> {
+  const radial = radialPositionsForNodes(focusId, nodeIds);
+  const next = new Map<string, XY>();
+  for (const id of nodeIds) {
+    const pin = pinned.get(id);
+    next.set(id, pin ?? radial.get(id) ?? { x: 0, y: 0 });
+  }
+  return next;
+}
+
 /** Merge new radial coords without clobbering existing user-dragged positions. */
 export function mergeNodePositions(
   focusId: string,
