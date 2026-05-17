@@ -10,7 +10,8 @@ Editorial companion for weaving a distributed-coordination grammar beneath cohes
 | Part II bridge, Ch 6–7, 9–11 | Integrated |
 | **Part III bridge, Ch 12–16** | **Integrated (May 2026 pass)** |
 | Interlude *Coherence Under Scale* | Drafted |
-| Part IV–V stubs | Draft guidance embedded |
+| **Part IV bridge, Ch 17–20** | **Integrated (May 2026 pass)** |
+| Part V stubs | Draft guidance embedded |
 | Glossary | Coordination Pressure, Coherence Maintenance, Context Collapse, Consequence Architecture |
 
 ## Core claim (deepens invariant)
