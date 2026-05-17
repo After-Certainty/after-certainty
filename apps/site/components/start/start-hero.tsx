@@ -60,7 +60,7 @@ export function StartHero() {
             </p>
           </div>
           <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row md:items-start">
-            <ButtonLink href="/books" variant="primary">
+            <ButtonLink href="/explore/books" variant="primary">
               Explore the Books
             </ButtonLink>
             <ButtonLink

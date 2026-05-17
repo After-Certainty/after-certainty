@@ -5,8 +5,6 @@ import {
   isGeneratedBooksManifest,
   normalizeGeneratedBooksManifest,
   resolveBookCanonicalSlug,
-  shouldRedirectSlugToWoltyMicrosite,
-  slugExcludedFromBookDetailStaticParams,
   WOLTY_PUBLIC_ALIAS,
   WOLTY_V1_SLUG,
 } from "@/lib/books/generated-manifest";
@@ -137,20 +135,6 @@ describe("resolveBookCanonicalSlug", () => {
 
   it("returns undefined for unknown slug", () => {
     expect(resolveBookCanonicalSlug("unknown", books)).toBeUndefined();
-  });
-});
-
-describe("WoLTY static params and redirects", () => {
-  it("slugExcludedFromBookDetailStaticParams matches WoLTY v1 and public alias", () => {
-    expect(slugExcludedFromBookDetailStaticParams(WOLTY_V1_SLUG)).toBe(true);
-    expect(slugExcludedFromBookDetailStaticParams(WOLTY_PUBLIC_ALIAS)).toBe(true);
-    expect(slugExcludedFromBookDetailStaticParams("how-meaning-moves")).toBe(false);
-  });
-
-  it("shouldRedirectSlugToWoltyMicrosite matches slugExcludedFromBookDetailStaticParams", () => {
-    expect(shouldRedirectSlugToWoltyMicrosite(WOLTY_V1_SLUG)).toBe(
-      slugExcludedFromBookDetailStaticParams(WOLTY_V1_SLUG),
-    );
   });
 });
 

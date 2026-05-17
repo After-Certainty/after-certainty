@@ -1,29 +1,18 @@
 import contributorsData from "@/data/contributors.json";
-import patternsData from "@/data/patterns.json";
-import {
-  resolveBookCanonicalSlug,
-  WOLTY_MICROSITE_PATH,
-  WOLTY_PUBLIC_ALIAS,
-  WOLTY_V1_SLUG,
-} from "@/lib/books/generated-manifest";
 import { getBooksCatalogCached } from "@/lib/books/manifest";
-import { mergeWhenOthersLookToYouCatalog } from "@/lib/books/when-others-look-to-you/catalog-sync";
+import { explorePaths } from "@/lib/graph/explorePaths";
 import { getPodcastEpisodesFromRss } from "@/lib/podcast/rss";
 import type {
   Book,
   BooksCatalogManifest,
   Contributor,
   OngoingWork,
-  Pattern,
   PodcastEpisode,
 } from "@/types/content";
+import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
 
 async function loadMergedCatalog(): Promise<BooksCatalogManifest> {
-  const catalog = await getBooksCatalogCached();
-  return {
-    ...catalog,
-    books: catalog.books.map(mergeWhenOthersLookToYouCatalog),
-  };
+  return getBooksCatalogCached();
 }
 
 export async function getBooksCatalog(): Promise<BooksCatalogManifest> {
@@ -57,12 +46,9 @@ export async function getBookBySlug(slug: string): Promise<Book | undefined> {
   return books.find((b) => b.slug === canonical);
 }
 
-/** Canonical on-site URL for a catalog book — WoLTY v1 and its public alias use the microsite. */
+/** Canonical on-site URL for a catalog book in explore. */
 export function getBookDetailHref(slug: string): string {
-  if (slug === WOLTY_PUBLIC_ALIAS || slug === WOLTY_V1_SLUG) {
-    return WOLTY_MICROSITE_PATH;
-  }
-  return `/books/${slug}`;
+  return `${explorePaths.books}/${slug}`;
 }
 
 /** Episodes from Anchor RSS (hourly revalidation), with JSON fallback when the feed fails. */
@@ -78,10 +64,6 @@ export async function getEpisodeById(id: string): Promise<PodcastEpisode | undef
 /** @deprecated Use getEpisodeById — `id` replaced former `slug` field */
 export async function getEpisodeBySlug(slug: string): Promise<PodcastEpisode | undefined> {
   return getEpisodeById(slug);
-}
-
-export function getPatterns(): Pattern[] {
-  return patternsData.patterns as Pattern[];
 }
 
 export function getContributors(): Contributor[] {

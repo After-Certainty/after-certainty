@@ -25,7 +25,6 @@ describe("sitemap", () => {
     for (const path of [
       "/",
       "/start",
-      "/books",
       "/explore",
       "/explore/concepts",
       "/explore/patterns",
@@ -39,17 +38,21 @@ describe("sitemap", () => {
     }
   });
 
-  it("includes catalog book URLs and WoLTY subsite pages", async () => {
+  it("does not include legacy /books URLs", async () => {
     const urls = (await sitemap()).map((e) => e.url);
-    expect(urls).toContain("https://example.com/books/when-others-look-to-you");
-    expect(urls).toContain("https://example.com/books/when-others-look-to-you/idea");
-    expect(urls).toContain("https://example.com/books/when-others-look-to-you/resources");
-    expect(urls.some((u) => u.startsWith("https://example.com/books/") && u.endsWith("/how-meaning-moves"))).toBe(true);
+    const hasLegacyBooksPath = urls.some((u) => {
+      const path = new URL(u).pathname;
+      return path === "/books" || path.startsWith("/books/");
+    });
+    expect(hasLegacyBooksPath).toBe(false);
   });
 
-  it("includes WoLTY pattern URLs", async () => {
+  it("includes explore book and pattern detail URLs", async () => {
     const urls = (await sitemap()).map((e) => e.url);
-    expect(urls).toContain("https://example.com/books/when-others-look-to-you/patterns/attention-finds-a-focus");
+    expect(urls.some((u) => u.endsWith("/explore/books/how-meaning-moves"))).toBe(true);
+    expect(urls).toContain(
+      "https://example.com/explore/patterns/attention-finds-a-focus",
+    );
   });
 
   it("returns many more entries than top-level routes only", async () => {

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
+import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
-import { ExploreBookPublicationLinks } from "@/components/explore/explore-book-publication-links";
 import { ExploreBookMedia } from "@/components/explore/explore-book-media";
-import { ExploreObservatoryFocusLink } from "@/components/explore/explore-observatory-focus-link";
+import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { RelationshipList } from "@/components/explore/relationship-list";
@@ -40,6 +40,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function ExploreBookDetailPage({ params }: PageProps) {
   const { slug } = await params;
   const { graph, catalogBooks } = await getExploreSemanticGraph();
+  const canonicalSlug = resolveBookCanonicalSlug(slug, catalogBooks);
+  if (canonicalSlug && canonicalSlug !== slug) {
+    permanentRedirect(`${explorePaths.books}/${canonicalSlug}`);
+  }
   const index = buildGraphIndex(graph);
   const book = getGraphBookBySlug(index, slug);
   if (!book) notFound();
@@ -70,9 +74,6 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
             { label: book.title },
           ]}
         />
-        <div className="mb-6">
-          <ExploreObservatoryFocusLink kind="book" slug={book.slug} />
-        </div>
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">Book</p>
         <div
           className={
@@ -105,7 +106,10 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
             ) : null}
           </div>
         </div>
-        <ExploreBookPublicationLinks links={publicationLinks} />
+        <ExploreEntityDetailActions
+          observatory={{ kind: "book", slug: book.slug }}
+          publicationLinks={publicationLinks}
+        />
         <ExploreBookMedia book={book} />
         <ExploreAdjacentNav
           basePath={explorePaths.books}

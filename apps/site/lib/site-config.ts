@@ -111,8 +111,7 @@ export const siteConfig = {
     url: "https://creativecommons.org/licenses/by-sa/4.0/",
   },
   navigation: [
-    { href: "/start", label: "Start Here" },
-    { href: "/books", label: "Books" },
+    { href: "/explore/books", label: "Books" },
     { href: "/explore", label: "Explore" },
     { href: "/podcast", label: "Podcast" },
     { href: "/collaborators", label: "Collaborators" },

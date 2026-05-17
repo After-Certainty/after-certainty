@@ -5,14 +5,6 @@ export const WOLTY_PUBLIC_ALIAS = "when-others-look-to-you";
 
 export const WOLTY_V1_SLUG = "when-others-look-to-you-v1";
 
-export const WOLTY_MICROSITE_PATH = "/books/when-others-look-to-you";
-
-/** Hitting `/books/[slug]` with these slugs redirects to the WoLTY microsite */
-export const WOLTY_SLUGS_REDIRECT_TO_MICROSITE: readonly string[] = [
-  WOLTY_PUBLIC_ALIAS,
-  WOLTY_V1_SLUG,
-];
-
 export interface GeneratedAssetBlock {
   enabled: boolean;
   file: string;
@@ -136,11 +128,3 @@ export function resolveBookCanonicalSlug(slug: string, books: Book[]): string | 
   return undefined;
 }
 
-/** Slugs that should not appear in `/books/[slug]` static generation (microsite or redirect). */
-export function slugExcludedFromBookDetailStaticParams(slug: string): boolean {
-  return WOLTY_SLUGS_REDIRECT_TO_MICROSITE.includes(slug);
-}
-
-export function shouldRedirectSlugToWoltyMicrosite(slug: string): boolean {
-  return slugExcludedFromBookDetailStaticParams(slug);
-}

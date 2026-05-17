@@ -1,13 +1,13 @@
 import type { MetadataRoute } from "next";
-import { getAllPatterns } from "@/lib/books/when-others-look-to-you/content";
-import { getBooks, getBookDetailHref } from "@/lib/content-data";
+import { getBooks } from "@/lib/content-data";
+import { getSemanticGraph } from "@/lib/graph/manifest";
+import { explorePaths } from "@/lib/graph/explorePaths";
 import { resolveDeploymentUrl } from "@/lib/site-config";
 
 /** Marketing and section landing pages */
 const TOP_LEVEL_PATHS = [
   "/",
   "/start",
-  "/books",
   "/explore",
   "/explore/concepts",
   "/explore/patterns",
@@ -18,19 +18,9 @@ const TOP_LEVEL_PATHS = [
   "/about",
 ] as const;
 
-/** WoLTY microsite routes (excluding `/books/when-others-look-to-you`, covered via catalog canonical URL). */
-const WOLTY_STATIC_PATHS = [
-  "/books/when-others-look-to-you/idea",
-  "/books/when-others-look-to-you/book",
-  "/books/when-others-look-to-you/about",
-  "/books/when-others-look-to-you/intro",
-  "/books/when-others-look-to-you/patterns",
-  "/books/when-others-look-to-you/resources",
-] as const;
-
 /**
  * All pathname segments to expose in sitemap.xml — deduped, stable order.
- * Keeps catalog books, book subsites, explore landing paths, and WoLTY pattern URLs.
+ * Uses explore as canonical for books and patterns.
  */
 export async function getSitemapPaths(): Promise<string[]> {
   const paths: string[] = [];
@@ -39,13 +29,12 @@ export async function getSitemapPaths(): Promise<string[]> {
 
   const books = await getBooks();
   for (const book of books) {
-    paths.push(getBookDetailHref(book.slug));
+    paths.push(`${explorePaths.books}/${book.slug}`);
   }
 
-  paths.push(...WOLTY_STATIC_PATHS);
-
-  for (const p of getAllPatterns()) {
-    paths.push(`/books/when-others-look-to-you/patterns/${p.slug}`);
+  const graph = await getSemanticGraph();
+  for (const pattern of graph.patterns) {
+    paths.push(`${explorePaths.patterns}/${pattern.slug}`);
   }
 
   const seen = new Set<string>();

@@ -50,7 +50,7 @@ export function AboutHero() {
             <CTAButton href="/start" variant="primary">
               Start Here
             </CTAButton>
-            <CTAButton href="/books" variant="secondary">
+            <CTAButton href="/explore/books" variant="secondary">
               Explore the Books
             </CTAButton>
           </div>

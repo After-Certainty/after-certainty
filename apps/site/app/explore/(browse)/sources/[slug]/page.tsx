@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
-import { ExploreObservatoryFocusLink } from "@/components/explore/explore-observatory-focus-link";
+import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { RelationshipList } from "@/components/explore/relationship-list";
@@ -57,9 +57,6 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
             { label: source.name },
           ]}
         />
-        <div className="mb-6">
-          <ExploreObservatoryFocusLink kind="source" slug={source.slug} />
-        </div>
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">{source.type}</p>
         <h1 className="mt-4 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:text-5xl">
           {source.name}
@@ -67,6 +64,7 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
         {source.summary ? (
           <p className="mt-10 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">{source.summary}</p>
         ) : null}
+        <ExploreEntityDetailActions observatory={{ kind: "source", slug: source.slug }} />
         <ExploreAdjacentNav
           basePath={explorePaths.sources}
           entityLabel="source"

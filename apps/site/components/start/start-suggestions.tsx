@@ -25,7 +25,7 @@ export async function StartSuggestions() {
       title: "When Others Look to You",
       description:
         "A forthcoming orientation for moments when others seek direction — and meaning becomes shared responsibility.",
-      href: "/books",
+      href: "/explore/books/when-others-look-to-you-v1",
       thumb: null,
     },
     {
@@ -48,7 +48,7 @@ export async function StartSuggestions() {
     {
       title: "Featured Essay",
       description: essay?.description ?? "Patterns of attention in institutions and everyday life.",
-      href: essay ? `/books/${essay.slug}` : "/explore/patterns",
+      href: essay ? `/explore/books/${essay.slug}` : "/explore/patterns",
       thumb: null,
     },
   ];

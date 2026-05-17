@@ -44,7 +44,7 @@ function IconCollaborators(props: SVGProps<SVGSVGElement>) {
 
 const pathways = [
   {
-    href: "/books",
+    href: "/explore/books",
     title: "Books",
     description: "Long-form explorations of leadership, meaning, authority, and human systems.",
     Icon: IconBooks,

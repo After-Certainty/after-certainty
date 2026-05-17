@@ -54,7 +54,7 @@ function IconStart(props: SVGProps<SVGSVGElement>) {
 
 const pathways = [
   {
-    href: "/books",
+    href: "/explore/books",
     title: "Books",
     description: "Long-form works and serialized texts sourced from companion repositories.",
     Icon: IconBooks,

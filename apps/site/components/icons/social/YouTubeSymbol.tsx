@@ -1,5 +1,3 @@
-import { cn } from "@/lib/books/when-others-look-to-you/cn";
-
 /**
  * YouTube logo mark (monochrome). Align with brand rules when using full-color assets:
  * https://www.youtube.com/howyoutubeworks/resources/brand-resources/
@@ -9,7 +7,7 @@ export function YouTubeSymbol({ className }: { className?: string }) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
-      className={cn("shrink-0", className)}
+      className={className ? `shrink-0 ${className}` : "shrink-0"}
       aria-hidden
     >
       <path

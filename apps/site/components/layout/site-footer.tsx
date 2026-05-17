@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { SiteLockup } from "@/components/branding/site-lockup";
-import { GitHubSymbol } from "@/components/books/when-others-look-to-you/icons/GitHubSymbol";
-import { LinkedInSymbol } from "@/components/books/when-others-look-to-you/icons/LinkedInSymbol";
-import { MediumSymbol } from "@/components/books/when-others-look-to-you/icons/MediumSymbol";
-import { YouTubeSymbol } from "@/components/books/when-others-look-to-you/icons/YouTubeSymbol";
+import { GitHubSymbol } from "@/components/icons/social/GitHubSymbol";
+import { LinkedInSymbol } from "@/components/icons/social/LinkedInSymbol";
+import { MediumSymbol } from "@/components/icons/social/MediumSymbol";
+import { YouTubeSymbol } from "@/components/icons/social/YouTubeSymbol";
 import { resolvePodcastRssUrl, resolveSiteSocialLinks, siteConfig } from "@/lib/site-config";
 import { Container } from "@/components/ui/container";
 

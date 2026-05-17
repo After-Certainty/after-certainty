@@ -14,7 +14,7 @@ export function PodcastFooterCta() {
         </p>
         <div className="mx-auto mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
           <Link
-            href="/books"
+            href="/explore/books"
             className="inline-flex min-h-[44px] min-w-[11rem] items-center justify-center border border-border/55 px-8 py-3 text-xs uppercase tracking-[0.26em] text-fg transition-colors hover:border-accent/35 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
           >
             Explore the books
