@@ -6,11 +6,11 @@ Step 2 drafting loop (unit-by-unit drafting and review). Part IV on branch `coup
 
 ## Current Unit
 
-`part-04-institutions-under-drift/17-finance-ownership-without-cohesion.md`
+`part-04-institutions-under-drift/18-governance-representation-and-diffusion.md`
 
 ## In Progress
 
-- Chapter 17 is next for drafting on `coupling-part-4`.
+- Chapter 18 is next for drafting on `coupling-part-4`.
 
 ## Completed Units
 
@@ -40,6 +40,7 @@ Step 2 drafting loop (unit-by-unit drafting and review). Part IV on branch `coup
 - `part-03-ai-and-structural-entropy/15-architectural-cohesion.md` (approved)
 - `part-03-ai-and-structural-entropy/16-the-new-professional-literacy.md` (approved)
 - `part-04-institutions-under-drift/bridge.md` (approved)
+- `part-04-institutions-under-drift/17-finance-ownership-without-cohesion.md` (approved)
 
 ## Back Matter Established
 
@@ -65,7 +66,7 @@ Step 2 drafting loop (unit-by-unit drafting and review). Part IV on branch `coup
 
 ## Next Step
 
-Draft `part-04-institutions-under-drift/17-finance-ownership-without-cohesion.md`
+Draft `part-04-institutions-under-drift/18-governance-representation-and-diffusion.md`
 
 ## Coordination Framing Pass
 

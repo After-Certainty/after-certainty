@@ -74,6 +74,12 @@ The ongoing work required to keep a system governable: enough agreement about wh
 
 Coherence maintenance becomes expensive as independently evolving boundaries multiply. Systems sometimes pay for it through clear ownership and timely feedback; they sometimes pay through coordination substitutes that preserve throughput while thinning corrective capacity.
 
+## Stale Representation
+
+A compressed summary of system state that was accurate enough when produced and misleading by the time it governs action.
+
+Stale representation appears in dashboards, compliance reports, model cards, filings, and risk metrics. It is a coupling failure: consequence changes faster than the return path that would force revision at a redesign-capable boundary.
+
 ## Context Collapse
 
 In this book, context collapse names a structural failure in assisted systems: boundaries that should separate concerns dissolve into a shared surface that looks coherent because output is syntactically valid or rhetorically fluent.
