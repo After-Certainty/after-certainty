@@ -1,97 +1,194 @@
 # 22. Designing for High Cohesion
 
-## The Meeting That Replaced Ownership
+## The Meeting That Appeared After the Failure
 
-A product area spans four teams. Each team ships regularly. Each has capable people. When a customer-impacting defect appears, a war room fills quickly.
+A product area spans several teams.
 
-Engineering explains the technical path. Product explains the business tradeoff. Operations explains on-call load. Legal flags exposure. Everyone contributes. No one can say, without negotiation, which boundary will change the design that made the defect likely.
+Each team has capable people. Each team ships regularly. Everyone is working hard.
 
-The organization responds with a standing sync: more calendar time, more status fields, more approvers. Activity synchronizes. Responsibility does not cohere.
+Then a customer-impacting failure occurs.
 
-Chapter 21 named that pattern as oscillation—entropy paid in coordination debt. Chapter 22 asks what design can do earlier: strengthen cohesion so synchronization buys integration rather than replacing ownership.[^c22-opening]
+A meeting forms quickly.
 
-## Cohesion as Design Target
+Engineering explains the technical issue. Product explains the business tradeoff. Operations explains staffing pressure. Security explains risk exposure. Legal explains compliance concerns.
 
-Cohesion is not team spirit. It is structural: responsibilities inside a boundary fit together closely enough that a person or team can answer for outcomes and redesign when consequences return.
+Everyone contributes useful information.
 
-Chapter 2 translated cohesion from modules to roles. The design question here is how to build that translation into systems that will grow.
+But one question remains strangely difficult to answer: Who can actually change the conditions that made this problem likely?
 
-High cohesion reduces unnecessary coordination machinery. When ownership is clear, meetings reconcile real conflicts at known interfaces instead of discovering, repeatedly, who should have decided. When ownership is unclear, coordination substitutes multiply—extra reviews, extra dashboards, extra committees—because the system has no stable place for learning to land.[^c22-cohesion-target]
+The organization responds the way large systems often do:
 
-Designing for cohesion is therefore not anti-collaboration. It is pro-legibility: collaboration with named boundaries, explicit decision rights, and escalation that does not dissolve answerability.
+- another recurring sync,
+- more reporting fields,
+- additional approval paths,
+- more visibility dashboards,
+- clearer escalation chains.
 
-The target is a system that remains locally understandable under pressure—not one where everyone is responsible for everything.
+Activity increases. Coordination increases.
 
-## Domain Boundaries Under Growth
+But ownership often remains just as unclear as before.
 
-Domains fail in predictable ways as scale increases.
+The system becomes better at synchronizing around problems than redesigning the structures producing them.
 
-**Boundary erosion.** A successful service attracts adjacent concerns: reporting, permissions, notifications, admin tools. Each addition is plausible. Together they turn one cohesive unit into a grab bag of reasons to change.
+Chapter 21 described this pattern as oscillation: drift compensated for through coordination. This chapter asks a different question: what kinds of design make coordination less necessary in the first place?[^c22-opening]
 
-**Shared-everything collaboration.** Every team may comment on every area "for alignment." Comments become soft ownership. No boundary absorbs consequence.
+## What Cohesion Actually Means
 
-**Platform without contract.** A central team offers shared capabilities without stable interfaces. Product teams integrate through tribal knowledge. Cohesion at the center does not produce cohesion at the edge.
+Cohesion is often misunderstood as cultural alignment or teamwork.
 
-Useful responses are design responses:
+But cohesion is structural.
 
-- name domains by outcome, not by org chart nostalgia;
-- document what a boundary owns and what it explicitly does not own;
-- treat cross-domain work as integration with a named owner on each side, not as ambient shared responsibility;
-- split before cohesion is already gone, not only after incident volume forces a reorg.[^c22-domains]
+A system is cohesive when responsibilities that belong together remain together strongly enough that someone can understand the outcome, answer for the outcome, and redesign the system when consequences return.
 
-Domain-driven design and team-topology thinking converge here from different angles: protect core semantics, make dependencies explicit, and align team boundaries to areas that should change together.[^c22-ddd-topologies]
+Low cohesion means responsibilities are scattered across too many boundaries.
 
-Growth will add domains. The design discipline is to add them deliberately, with integration obligations, rather than by accretion.
+At first this can feel collaborative. Many people contribute. Many perspectives are included. Many teams stay informed.
 
-## Role Integrity and Escalation
+But over time, systems with weak cohesion often compensate with increasing coordination overhead: more meetings, more handoffs, more approvals, more status tracking, more synchronization work.
 
-Cohesion weakens when roles separate authority from obligation.
+The organization spends growing energy coordinating fragmented ownership.
 
-A role has integrity when the person who decides can absorb enough consequence to learn, and when escalation carries context rather than exporting blame.
+High cohesion reduces that burden.
 
-Under stress, organizations often invert this: decision rights float upward while operational pain stays below. Escalation becomes a request for approval without a paired obligation to redesign. The system synchronizes while coupling severs.
+It does not eliminate collaboration. It makes collaboration more legible.
 
-Designing for role integrity means:
+People know which boundary owns what, where decisions belong, and where consequences should return when something fails.
 
-- decision rights documented at the boundary where work happens;
-- escalation paths that name who can change structure, not only who can approve the next step;
-- incident practice that returns signal to owners who can alter architecture, prompts, policy, or staffing—not only restart services;
-- refusal to treat "committee decided" as a substitute for "owner can revise the conditions that produced harm."
+The goal is not making everyone responsible for everything. The goal is preserving boundaries clear enough that learning can actually land somewhere durable.[^c22-cohesion-meaning]
 
-Chapter 14's guardrails matter in this frame: constraints support cohesion when they are owned and revisable at a boundary that experiences consequence. Guardrails without ownership become coordination theater—visible control without redesign capacity.[^c22-guardrails]
+## How Cohesion Erodes
 
-## When Centralization Helps vs Queues Harm
+Cohesion rarely disappears all at once.
 
-Not all centralization destroys cohesion. Not all distribution preserves it.
+It usually erodes gradually under growth.
 
-Centralization helps when it supplies stable platforms, shared standards, or integration expertise that would otherwise be duplicated badly at every edge. A platform team with clear contracts can raise cohesion for product teams by removing chaotic reinvention.
+A service begins with one clear purpose. Then adjacent responsibilities get added: reporting, permissions, notifications, analytics, administrative tooling, integrations.
 
-Centralization harms when it becomes a queue distant from consequence: architecture review without context, shared services without owners who feel operational pain, compliance gates that certify activity without returning signal to designers.
+Each addition seems reasonable individually.
 
-The design test is directional. Does the central function make local ownership more legible and more answerable, or does it insert a layer that synchronizes without learning?
+Over time, the boundary loses clarity.
 
-Queues are a symptom of weak cohesion at interfaces. They are sometimes necessary. They are dangerous when they replace the harder work of naming who owns the outcome across boundaries. Federated models—clear local ownership plus explicit integration rules—often outperform both naive decentralization and blanket centralization.[^c22-centralization]
+The system no longer has one stable reason to change. Different teams modify it for unrelated purposes. Local understanding weakens.
 
-## What This Chapter Does Not Claim
+Organizations often respond by increasing coordination: shared planning, alignment meetings, review processes, cross-functional oversight.
 
-This chapter does not claim that every team should own one service, that all committees should be abolished, or that cohesion eliminates tradeoffs. Scale still requires coordination. Some distance remains necessary.
+But coordination cannot fully compensate for boundaries that no longer make structural sense.
 
-It claims that cohesion is a design variable institutions can price deliberately: pay in clear boundaries and role integrity, or pay in recurring synchronization that may never return consequence to redesign authority.
+Another common failure appears when collaboration becomes ambient rather than owned.
 
-Cohesion alone is not enough. A boundary can be cohesive and still severed from consequence. Chapter 23 turns to coupling—how feedback returns, how measurement serves redesign, and how consequence chains stay visible across handoffs.
+Everyone comments on everything. Everyone participates. No one fully absorbs consequence.
+
+Responsibility becomes socially distributed while structurally unclear.
+
+This often feels inclusive in the short term. In the long term, it becomes difficult to identify who can redesign the system coherently.[^c22-erosion]
+
+## Designing Boundaries That Survive Growth
+
+Healthy systems usually make ownership explicit early, before scale forces the issue painfully.
+
+That means:
+
+- defining domains around outcomes rather than org charts,
+- naming what a boundary owns,
+- naming what it explicitly does not own,
+- treating cross-boundary work as negotiated integration rather than vague shared responsibility.
+
+Growth always creates new boundaries.
+
+The question is whether those boundaries emerge intentionally or accumulate accidentally.
+
+Systems designed intentionally remain understandable longer under pressure. Systems built through unchecked accretion often compensate later through bureaucracy and synchronization.[^c22-boundaries]
+
+## Role Integrity
+
+Cohesion also depends on whether authority and consequence remain connected.
+
+Roles lose integrity when people making decisions no longer experience enough consequence to learn from those decisions.
+
+This often happens gradually in scaled organizations.
+
+Operational pain remains close to frontline teams. Decision authority moves upward. Escalation becomes a request for permission instead of a path for redesign.
+
+The organization still appears accountable because approvals exist.
+
+But the learning loop weakens.
+
+Healthy role design keeps enough connection between decision-making, operational consequence, and redesign authority.
+
+That does not mean executives should personally operate every system.
+
+It means systems should preserve clear paths through which consequence can still influence the structures capable of changing it.
+
+Without that connection, escalation slowly becomes procedural theater: activity proving responsibility is being processed without responsibility becoming structurally clearer.[^c22-role-integrity]
+
+## When Centralization Helps
+
+Centralization is not automatically bad.
+
+Some centralization increases cohesion.
+
+Shared platforms can reduce duplication. Clear standards can reduce chaos. Specialized expertise can improve system quality across many teams.
+
+A well-designed platform team often strengthens local ownership by removing unnecessary complexity from product teams.
+
+The problem appears when centralization becomes too distant from consequence.
+
+Architecture review boards without operational context. Shared services nobody fully understands. Compliance gates optimized for documentation instead of redesign.
+
+At that point, the central function becomes a queue.
+
+And queues are often signals that ownership has weakened at the interface between groups.
+
+Some queues are unavoidable.
+
+But systems become fragile when queues replace the harder work of clarifying who owns outcomes across boundaries.[^c22-centralization]
+
+## What High Cohesion Protects
+
+High cohesion does not eliminate failure.
+
+It protects local understanding.
+
+When systems remain cohesive:
+
+- problems are easier to trace,
+- redesign happens closer to consequence,
+- coordination costs remain lower,
+- learning survives growth longer.
+
+The system remains understandable enough that adaptation is still possible.
+
+That matters because large systems rarely fail from a single catastrophic mistake. More often, they drift into fragmentation slowly enough that nobody notices how difficult redesign has become until pressure arrives.
+
+## What This Chapter Is Not Arguing
+
+This chapter is not arguing that every team should own a single service, committees are always harmful, or coordination can disappear entirely.
+
+Large systems will always require synchronization. Some distance between groups is unavoidable.
+
+The argument is narrower: organizations can choose whether to pay more of their coordination cost through clear boundaries, visible ownership, and coherent responsibility—or through recurring synchronization, procedural overhead, and increasingly complex negotiation.
+
+Cohesion alone is not enough.
+
+A boundary can remain internally coherent while still disconnected from consequence.
+
+That is the next chapter's problem.
 
 ## Bridge to Chapter 23
 
-Chapter 22 argued for designing high cohesion: domains that survive growth, roles that keep authority and obligation aligned, centralization that enables rather than replaces local ownership.
+This chapter focused on cohesion: clear domains, stable ownership, role integrity, understandable boundaries.
 
-Chapter 23 asks the paired question: how to design intentional coupling so consequences return with enough fidelity and speed that cohesion produces learning, not only local clarity in a drifting whole.[^c22-bridge-c23]
+Chapter 23 turns to coupling: how consequences return across those boundaries, how feedback remains visible, and how systems preserve learning as handoffs multiply.
 
-[^c22-opening]: Chapter 21 in this book on oscillation and coordination debt; and Chapter 4 on coordination substitutes.
-[^c22-cohesion-target]: Chapter 2 in this book on responsibility as cohesion; and Elinor Ostrom, *Governing the Commons*, on bounded authority with explicit rules.
-[^c22-domains]: Eric Evans, *Domain-Driven Design* (Boston: Addison-Wesley, 2003), on bounded contexts and core domain protection.
-[^c22-ddd-topologies]: Matthew Skelton and Manuel Pais, *Team Topologies* (IT Revolution Press, 2019), on team boundaries and interaction modes.
-[^c22-guardrails]: Chapter 14 in this book on guardrails as constraint architecture with named ownership.
+Because clear ownership alone does not guarantee adaptation.
+
+Systems also need consequence to find its way back to the people capable of redesigning them.
+
+[^c22-opening]: Chapter 21 in this book on oscillation and coordination debt; and Chapter 4 in this book on coordination substitutes.
+[^c22-cohesion-meaning]: Chapter 2 in this book on responsibility as cohesion; and Chapter 1 on cohesion as internal integrity of a bounded unit.
+[^c22-erosion]: Chapter 13 in this book on context collapse and accumulation; and Chapter 12 on ownership diffusion under acceleration.
+[^c22-boundaries]: Eric Evans, *Domain-Driven Design* (Boston: Addison-Wesley, 2003), on bounded contexts; and Matthew Skelton and Manuel Pais, *Team Topologies* (IT Revolution Press, 2019), on team boundaries under growth.
+[^c22-role-integrity]: Chapter 2 in this book on decision clarity under pressure; and Michael Lipsky, *Street-Level Bureaucracy*, on frontline consequence and distant authority.
 [^c22-centralization]: Gene Kim et al., *The DevOps Handbook*, 2nd ed. (IT Revolution Press, 2021), on platform enablement versus handoff-heavy models.
-[^c22-bridge-c23]: Chapter 3 in this book on consequence as coupling.
 
-> Cohesion is not everyone owning everything. It is a boundary clear enough that someone can answer—and redesign—when consequence returns.
+> Cohesion is not about making everyone responsible for everything. It is about preserving boundaries clear enough that responsibility can survive growth.
