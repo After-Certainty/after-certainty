@@ -156,4 +156,16 @@ Explicit synthesis: coordination pressure, synchronization cost, stale represent
 
 **Not added (would over-budget or echo):** split-brain, eventual alignment, race conditions, CAP, extra synchronization-overhead sentences in Ch 13–14.
 
-See also: `docs/part-03-coherence-pass.md` for full editorial/coherence gate.
+See also: `docs/part-03-coherence-pass.md` and `docs/part-04-coherence-pass.md` for full editorial/coherence gates.
+
+---
+
+## Part IV coordination pass log (May 2026)
+
+**Finding:** Part IV drafts embodied high-visibility framing from stub guidance and bridge. Chapters 17–20 drafted with coordination pressure, stale representation, coordination substitutes, and civic split-brain (Ch 18) without software lecturing.
+
+**Edits applied during drafting:** None required in post-pass micro-insert pass; terms distributed in chapter bodies at author-approved drafts.
+
+**Term budget:** split-brain used in Ch 18 (civic definition); lock contention reserved to interlude only; coordination substitutes in Ch 17, 19, 20.
+
+See: `docs/part-04-coherence-pass.md`.

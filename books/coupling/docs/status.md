@@ -6,12 +6,12 @@ Step 2 drafting loop (unit-by-unit drafting and review). Part IV on branch `coup
 
 ## Current Unit
 
-Part IV coherence gate (in progress)
+Part IV — awaiting author part-approval for push/PR
 
 ## In Progress
 
 - All Part IV bridge/chapters approved on `coupling-part-4`.
-- Running part-level coherence pass and coordination pass update before part approval.
+- Part coherence gate complete (`docs/part-04-coherence-pass.md`).
 
 ## Completed Units
 
