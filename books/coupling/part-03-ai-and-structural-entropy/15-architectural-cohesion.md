@@ -44,7 +44,7 @@ Human–human handoffs assisted by automation also need interfaces. If a model s
 
 Every assisted architecture needs a composition root: a place where workflows are assembled deliberately rather than accreted. In hexagonal terms, this is where ports are wired to adapters; in organizational terms, it is where someone is accountable for how pieces combine.
 
-Without a composition root, teams integrate by convenience. A data scientist adds retrieval. A platform engineer adds observability. Product adds a new tool. Each step is locally rational. The combined graph lacks a owner who can answer: "What is the end-to-end consequence path when this fails?"
+Without a composition root, teams integrate by convenience. A data scientist adds retrieval. A platform engineer adds observability. Product adds a new tool. Each step is locally rational. The combined graph lacks an owner who can answer: "What is the end-to-end consequence path when this fails?"
 
 Composition ownership is not a role title. It is a design assignment. Someone—or a small cross-functional boundary—must hold the map of contexts, interfaces, and guardrails as a single system rather than a pile of components. Team-topology thinking is relevant here: stream-aligned ownership for outcomes, platform enablement for shared capabilities, and explicit interaction modes so collaboration does not dissolve into tacit coupling.[^c15-composition]
 

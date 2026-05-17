@@ -10,7 +10,7 @@ The failure is familiar in pre-AI systems: documentation without executable retu
 
 ## Why Guardrails Became Central
 
-Chapters 12 and 13 described acceleration without ownership and accumulation without boundaries. Guardrails enter the arc as a response to that pair: ways to make risky coupling visible earlier, before context collapse hardens into architecture and before consequence arrives only in production.
+Earlier in Part III, acceleration without ownership and accumulation without boundaries showed how assisted speed can outrun structure. Guardrails enter the arc as a response to that pair: ways to make risky coupling visible earlier, before context collapse hardens into architecture and before consequence arrives only in production.
 
 "Guardrails" is often treated as ethics branding or compliance theater. In this book, guardrails are constraint architecture—deliberate limits that shape what systems can do, what they must log, and what must stop or escalate when confidence or risk thresholds fail. They are a form of intentional coupling design: consequence made legible before harm compounds.[^c14-guardrails-definition]
 
@@ -38,7 +38,7 @@ Constraints without measurement decay into folklore. Evaluation is how guardrail
 
 Pre-deployment evaluation tests scenarios that production will eventually surface: adversarial prompts, tool misuse attempts, retrieval poisoning patterns, and domain edge cases drawn from prior incidents. Canary evaluation exposes new constraints to limited traffic before full rollout. Post-deployment review compares predicted risk classes to actual failures, near misses, and operator overrides.[^c14-evaluation]
 
-Model cards and datasheets literature emphasize transparency about intended use, limitations, and evaluation context—not as marketing supplements, but as accountability interfaces. A model card that nobody maintains is a stale representation. A model card tied to an evaluation owner and update cadence is a coupling mechanism: documented limits with a named boundary responsible for revision when limits change.[^c14-model-cards]
+Model cards and datasheets literature emphasize transparency about intended use, limitations, and evaluation context—not as marketing supplements, but as accountability interfaces. A model card that nobody maintains is a stale representation. A model card tied to an evaluation owner and update cadence is a coupling mechanism: documented limits with a named boundary responsible for revision when limits change.[^c14-evaluation]
 
 Benchmark suites such as HELM broaden comparison across tasks and metrics. They are useful for procurement and trend visibility, but they do not replace local evaluation on your data, your tools, and your failure history. System-level learning requires eval signal that returns to the team who can change retrieval scope, tool permissions, or approval workflows—not only the team who can swap base models.[^c14-helm-limits]
 
@@ -80,7 +80,7 @@ The diagnostic question remains: if this guardrail fails tonight, who learns, wh
 
 **Clinical safety** long relied on checklists, timeouts, and escalation pathways—not because clinicians lack judgment, but because high-tempo environments make implicit assumptions costly. Assisted documentation and decision support in medicine face the same structural requirement: constraints that make harm visible early, plus cultures that treat override as data rather than shame.[^c14-clinical]
 
-**Aviation** separates certification, operations, and confidential incident reporting so weak signals return before accidents normalize. Assisted systems in other domains need analogous separation: technical controls, operational monitoring, and reporting paths that reach people who can change design—not only people who can suspend accounts.
+**Aviation** separates certification, operations, and confidential incident reporting so weak signals return before accidents normalize. Assisted systems in other domains need analogous separation: technical controls, operational monitoring, and reporting paths that reach people who can change design—not only people who can suspend accounts.[^c14-aviation]
 
 **Public-sector service** operates under legal constraints where some actions require human sign-off, waiting periods, or appeal paths. Assisted citizen-facing tools that collapse those steps for speed can reproduce the frictionless illusion from Chapter 12 at institutional scale. Guardrails here are not optional ethics. They are how democratic systems keep consequence coupled to legitimate authority.[^c14-public-sector]
 
@@ -98,11 +98,11 @@ If guardrails answer "what must stop or escalate," cohesion answers "who owns th
 [^c14-guardrails-definition]: Gene Kim et al., *The DevOps Handbook*, 2nd ed. (IT Revolution Press, 2021), on constraints, feedback, and operational controls as design—not documentation—discipline.
 [^c14-constraint-stack]: OWASP Foundation, *OWASP Top 10 for Large Language Model Applications* (2023/2025 versions), especially risks related to prompt injection, insecure output handling, excessive agency, and supply-chain vulnerabilities.
 [^c14-evaluation]: Margaret Mitchell et al., "Model Cards for Model Reporting," *Proceedings of the Conference on Fairness, Accountability, and Transparency* (FAT* 2019), 220-229, https://doi.org/10.1145/3287560.3287596; and Timnit Gebru et al., "Datasheets for Datasets," *Communications of the ACM* 64, no. 12 (2021): 86-92.
-[^c14-model-cards]: Margaret Mitchell et al., "Model Cards for Model Reporting," FAT* 2019; and Timnit Gebru et al., "Datasheets for Datasets," *Communications of the ACM* 64, no. 12 (2021): 86-92.
 [^c14-helm-limits]: Dan Hendrycks et al., "Holistic Evaluation of Language Models," *Annals of the New York Academy of Sciences* (2023), https://doi.org/10.1111/nyas.15007, on multi-metric benchmarking and limits of context-free comparison.
 [^c14-iso-governance]: ISO/IEC 42001:2023, *Information technology — Artificial intelligence — Management system* (International Organization for Standardization, 2023), on AI management system requirements and continual improvement.
 [^c14-nist-rmf]: National Institute of Standards and Technology, *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*, NIST AI 100-1 (2023).
 [^c14-clinical]: Atul Gawande, *The Checklist Manifesto: How to Get Things Right* (New York: Metropolitan Books, 2009); and Donald M. Berwick, "Era 3 for Medicine and Health Care," *JAMA* 315, no. 13 (2016): 1329-1330.
+[^c14-aviation]: NASA Aviation Safety Reporting System (ASRS) program materials; and Sidney Dekker, *Drift into Failure* (Farnham, UK: Ashgate, 2011), on incident reporting and organizational learning in high-hazard operations.
 [^c14-public-sector]: Christopher Hood and Ruth Dixon, *A Government That Worked Better and Cost Less?* (Oxford: Oxford University Press, 2015), on administrative controls and performance tradeoffs in public management (used here for procedural constraint framing).
 [^c14-bridge-c15]: Eric Evans, *Domain-Driven Design*; and Alistair Cockburn, "Hexagonal Architecture," on boundary discipline and explicit coupling control.
 

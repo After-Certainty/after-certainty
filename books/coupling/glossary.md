@@ -74,6 +74,18 @@ The ongoing work required to keep a system governable: enough agreement about wh
 
 Coherence maintenance becomes expensive as independently evolving boundaries multiply. Systems sometimes pay for it through clear ownership and timely feedback; they sometimes pay through coordination substitutes that preserve throughput while thinning corrective capacity.
 
+## Context Collapse
+
+In this book, context collapse names a structural failure in assisted systems: boundaries that should separate concerns dissolve into a shared surface that looks coherent because output is syntactically valid or rhetorically fluent.
+
+The failure is low cohesion at speed—modules, prompts, corpora, or tools entangled until ownership and redesign authority become unclear.
+
+## Consequence Architecture
+
+The deliberate design of responsibility boundaries, constraint layers, feedback paths, and escalation routes so that consequence returns to actors who can redesign behavior.
+
+Consequence architecture unites cohesion, coupling, and guardrails in practice. It is the professional literacy required when generation accelerates faster than informal caution can scale.
+
 ## Temporal Coupling
 
 The degree to which consequences return quickly enough to shape near-term decisions.
