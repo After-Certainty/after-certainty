@@ -2,16 +2,15 @@
 
 ## Current Phase
 
-Part V — awaiting author part-approval for push/PR (`coupling-part-5`).
+Part V + epilogue complete on `coupling-part-5`; awaiting part-approval for push/PR to `main`.
 
 ## Current Unit
 
-(None — all Part V bridge/chapters approved)
+(None)
 
 ## In Progress
 
-- Part V coherence gate complete (`docs/part-05-coherence-pass.md`).
-- Awaiting part approval to push branch and open PR to `main`.
+- Awaiting part-approval to push `coupling-part-5` and open PR (includes Part V + epilogue).
 
 ## Completed Units
 
@@ -51,6 +50,7 @@ Part V — awaiting author part-approval for push/PR (`coupling-part-5`).
 - `part-05-oscillation-and-design/23-designing-for-intentional-coupling.md` (approved)
 - `part-05-oscillation-and-design/24-over-coupling-and-fragility.md` (approved)
 - `part-05-oscillation-and-design/25-the-limits-of-cohesion.md` (approved)
+- `epilogue-stay-cohesive-stay-close.md` (approved)
 
 ## Back Matter Established
 
@@ -76,7 +76,7 @@ Part V — awaiting author part-approval for push/PR (`coupling-part-5`).
 
 ## Next Step
 
-Part approval → push `coupling-part-5` and open PR to `main`. Then manuscript-wide passes or epilogue as planned.
+Part-approve → push `coupling-part-5` and open PR to `main`. Then manuscript-wide passes as needed.
 
 ## Coordination Framing Pass
 
