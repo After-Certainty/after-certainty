@@ -8,6 +8,8 @@ Nothing about this failure is surprising. The vulnerability existed earlier. Wha
 
 This is the core shift-left argument: bring consequence into contact with design earlier, when correction is cheaper and learning can still shape architecture.
 
+Late detection is a coordination failure in time: the system discovers conflict only when merging independently advanced work becomes expensive.
+
 ## Why Shift Left Emerged
 
 As delivery cadence increased through Agile and DevOps, organizations learned that faster release alone does not guarantee safer change. Without earlier checks, speed can compress calendar time while preserving late discovery.

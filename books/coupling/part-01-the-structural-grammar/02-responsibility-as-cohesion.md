@@ -74,6 +74,8 @@ The design problem is not "centralize or distribute." It is how to hold cohesive
 
 When responsibility loses cohesion, systems compensate with coordination overhead, exception rituals, and narrative management. These can keep throughput moving for a while, but they rarely restore learning quality.
 
+That overhead is not mere inefficiency. It is what systems spend to maintain a workable picture of shared responsibility when ownership boundaries no longer hold coherence on their own.
+
 The design goal is not to centralize everything. The goal is to preserve coherent responsibility at a useful scale while keeping consequence close enough to change behavior.
 
 Chapter 3 takes the next step: if cohesion defines where responsibility lives, coupling defines how consequence returns.

@@ -46,3 +46,8 @@
 ## Key Risk to Manage While Drafting
 
 - Avoid equating guardrails with censorship rhetoric; keep framing on structural learning, safety, and accountable redesign.
+
+## Coordination Notes
+
+- Guardrails as coherence maintenance under partial information: make disagreement and risk visible before merge/deploy.
+- Eval and monitoring must reach redesign-capable ownership; otherwise guardrails become synchronization theater.

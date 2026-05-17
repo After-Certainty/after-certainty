@@ -17,6 +17,7 @@ This part treats software as an early laboratory for the full book's claim:
 - DevOps as operational recoupling between builders and runtime consequence.
 - **DORA** as measurable signal about learning-loop quality.
 - Shift-left practice as temporal compression of correction.[^p2b-dora]
+- Each method as a response to coordination pressure when independently evolving teams, services, or release stages must still produce a coherent outcome.
 
 The aim is not nostalgia or methodology advocacy. The aim is to show, in concrete sequence, how systems move when consequence arrives too late, and how they recover when consequence returns sooner.
 

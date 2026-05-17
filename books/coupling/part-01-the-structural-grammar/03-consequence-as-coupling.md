@@ -50,6 +50,8 @@ When consequences are delayed, actors can optimize for near-term metrics, narrat
 
 That is why coupling should be treated as a governance variable, not just an architecture variable. It determines whether systems respond to reality or to delayed representations of reality.[^c3-governance-variable]
 
+Under delay, decision-makers often act on partial information—summaries that were accurate enough when produced but stale by the time they arrive. The system is not failing to communicate; it is paying the cost of keeping a shared picture aligned across independently moving parts.
+
 ## Transition to Scale
 
 Part I now has both sides of the grammar in place: responsibility needs cohesive boundaries, and consequence needs intentional coupling.

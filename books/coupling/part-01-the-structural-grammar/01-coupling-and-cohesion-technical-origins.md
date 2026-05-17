@@ -14,6 +14,8 @@ In engineering terms, coupling describes how strongly one component depends on a
 
 When coupling is too tight, small changes can propagate unpredictably. A minor schema tweak, shared global state, or hidden side effect can trigger failures across modules that were assumed to be independent. Teams then spend more time coordinating around fragility than improving outcomes.[^c1-tight-coupling-fragility]
 
+When components evolve independently, the system pays a hidden synchronization cost whenever their assumptions must be reconciled—often visible first as coordination meetings and integration fire drills rather than as architecture diagrams.
+
 Loose coupling, by contrast, pushes teams toward better **interfaces** and clearer **contracts**. It reduces accidental blast radius and makes failure more diagnosable because dependency paths are legible.[^c1-interfaces-contracts]
 
 ## Cohesion as Internal Integrity

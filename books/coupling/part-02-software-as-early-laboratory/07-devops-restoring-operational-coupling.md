@@ -16,6 +16,8 @@ DevOps emerged as a response to that remaining distance. It did not reject Agile
 
 The core move was organizational as much as technical: reduce the handoff distance between people who change systems and people who absorb incidents.[^c7-handoff-distance]
 
+DevOps reduced a particular kind of synchronization overhead: the repeated negotiation required to align what was built with what was running when those activities lived in separate organizational clocks.
+
 ## Rebinding Build and Run
 
 The slogan "you build it, you run it" is often read as a cultural mantra. Structurally, it is a coupling rule. It increases exposure of decision-makers to operational consequence, which generally improves local learning quality when safeguards are present.[^c7-you-build-it]

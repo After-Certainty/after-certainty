@@ -62,6 +62,18 @@ The degree to which responsibility is clearly held within a boundary (team, role
 
 The degree to which consequence returns to the people or structures making decisions. Intentional coupling keeps feedback timely and relevant.
 
+## Coordination Pressure
+
+The structural strain that appears when many actors must stay aligned under scale while holding partial information and changing on different timelines.
+
+Coordination pressure is not the same as everyday busywork. It names the cost of maintaining a workable shared picture of responsibility, facts, and next actions when cohesion and coupling weaken. It often appears as approvals, queues, handoffs, and reporting layers that synchronize activity without returning consequence to a redesign-capable boundary.
+
+## Coherence Maintenance
+
+The ongoing work required to keep a system governable: enough agreement about who decides, what happened, and what must change next for learning to remain possible.
+
+Coherence maintenance becomes expensive as independently evolving boundaries multiply. Systems sometimes pay for it through clear ownership and timely feedback; they sometimes pay through coordination substitutes that preserve throughput while thinning corrective capacity.
+
 ## Temporal Coupling
 
 The degree to which consequences return quickly enough to shape near-term decisions.

@@ -26,6 +26,8 @@ The chapters that follow move across software architecture, organizational desig
 
 The point of moving across domains is not to flatten differences. It is to test whether the same structural logic still holds when **incentives**, timelines, and **constraints** change.
 
+At sufficient scale, every domain begins to resemble a coordination problem: many actors changing on different clocks, each holding partial knowledge of the whole. **Cohesion** and **coupling** are how this book names responsibility and consequence at the boundary level; underneath them lies the recurring cost of keeping a system legible enough to learn. The chapters that follow do not treat organizations or institutions as machines—they treat them as places where coherence must be maintained under delay.
+
 ## What the Reader Is Asked to Do
 
 Read this introduction as a set of operating assumptions for the rest of the book.
