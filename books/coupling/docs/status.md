@@ -2,17 +2,16 @@
 
 ## Current Phase
 
-Step 2 drafting loop (unit-by-unit drafting and review). Part III unit drafts complete; part-level passes complete pending part approval.
+Step 2 drafting loop (unit-by-unit drafting and review). Part III approved on branch `coupling-part-3`; PR open for merge to `main`.
 
 ## Current Unit
 
-Part III — awaiting **part approval** and optional PR push for `coupling-part-3`.
+`part-04-institutions-under-drift/17-finance-ownership-without-cohesion.md` (after Part III merge)
 
 ## In Progress
 
-- Part III coherence, echo, editorial, citation, glossary, and linkage passes completed (see `docs/part-03-coherence-pass.md`).
-- Chapter 16 approved with pass fixes (morale capitalization and editorial batch).
-- Next drafting unit after Part III merge/approval: `part-04-institutions-under-drift/17-finance-ownership-without-cohesion.md` (or Part IV bridge refresh if desired).
+- Part III approved; awaiting merge via PR.
+- Part IV drafting not started on `main` until Part III lands (or continue on new `coupling-part-4` branch after merge).
 
 ## Completed Units
 
@@ -65,9 +64,7 @@ Part III — awaiting **part approval** and optional PR push for `coupling-part-
 
 ## Next Step
 
-Author part-approval for Part III on branch `coupling-part-3`, then push and open PR into `main` per drafting process.
-
-After merge, draft Part IV beginning with `part-04-institutions-under-drift/17-finance-ownership-without-cohesion.md` (or expand Part IV bridge from outline to full draft).
+Merge Part III PR into `main`, then create `coupling-part-4` from latest `main` and draft Part IV (bridge refresh or Ch 17 per author preference).
 
 ## Coordination Framing Pass
 
