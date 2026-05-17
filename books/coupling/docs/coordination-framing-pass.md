@@ -11,7 +11,7 @@ Editorial companion for weaving a distributed-coordination grammar beneath cohes
 | **Part III bridge, Ch 12–16** | **Integrated (May 2026 pass)** |
 | Interlude *Coherence Under Scale* | Drafted |
 | **Part IV bridge, Ch 17–20** | **Integrated (May 2026 pass)** |
-| Part V stubs | Draft guidance embedded |
+| **Part V bridge, Ch 21–25** | **Integrated (May 2026 pass)** |
 | Glossary | Coordination Pressure, Coherence Maintenance, Context Collapse, Consequence Architecture |
 
 ## Core claim (deepens invariant)
@@ -169,3 +169,13 @@ See also: `docs/part-03-coherence-pass.md` and `docs/part-04-coherence-pass.md` 
 **Term budget:** split-brain used in Ch 18 (civic definition); lock contention reserved to interlude only; coordination substitutes in Ch 17, 19, 20.
 
 See: `docs/part-04-coherence-pass.md`.
+
+---
+
+## Part V coordination pass log (May 2026)
+
+**Finding:** Author drafts embodied practical-visibility framing from stub guidance and Part V bridge (coordination cost, drift, design constraints). Ch 21–25 rewrites strengthened short-paragraph voice and cross-chapter bridges.
+
+**Edits applied during drafting:** None required in post-pass micro-insert pass.
+
+See: `docs/part-05-coherence-pass.md`.

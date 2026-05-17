@@ -2,15 +2,16 @@
 
 ## Current Phase
 
-Part IV approved; PR open from `coupling-part-4` into `main`. Next: Part V on new branch after merge.
+Part V approved; PR open from `coupling-part-5` into `main`. Manuscript body + epilogue complete pending merge.
 
 ## Current Unit
 
-(None — awaiting merge of Part IV PR)
+(None — awaiting merge of Part V PR)
 
 ## In Progress
 
-- Part IV PR submitted; merge pending.
+- Part V PR submitted; merge pending.
+- Manuscript-wide passes after merge as needed.
 
 ## Completed Units
 
@@ -18,7 +19,7 @@ Part IV approved; PR open from `coupling-part-4` into `main`. Next: Part V on ne
 - `authors-note.md`
 - `preface.md`
 - `introduction.md`
-- `typographical-conventions.md`
+- `typographical-conventions.md` (approved v1.1)
 - `prologue.md`
 - `part-01-the-structural-grammar/bridge.md`
 - `part-01-the-structural-grammar/01-coupling-and-cohesion-technical-origins.md` (approved v1.1)
@@ -27,7 +28,7 @@ Part IV approved; PR open from `coupling-part-4` into `main`. Next: Part V on ne
 - `part-01-the-structural-grammar/04-scale-and-abstraction.md` (approved)
 - `part-02-software-as-early-laboratory/bridge.md` (approved)
 - `part-02-software-as-early-laboratory/05-waterfall-low-temporal-coupling.md` (approved v1.1)
-- `part-02-software-as-early-laboratory/06-agile-increasing-cohesion-of-teams.md` (approved)
+- `part-02-software-as-early-laboratory/06-agile-increasing-cohesion-of-teams.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/07-devops-restoring-operational-coupling.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/08-heart-of-agile-returning-to-essentials.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/09-dora-measuring-coupling.md` (approved v1.1)
@@ -44,12 +45,19 @@ Part IV approved; PR open from `coupling-part-4` into `main`. Next: Part V on ne
 - `part-04-institutions-under-drift/18-governance-representation-and-diffusion.md` (approved)
 - `part-04-institutions-under-drift/19-media-and-algorithmic-coupling.md` (approved)
 - `part-04-institutions-under-drift/20-bureaucracy-as-scar-tissue.md` (approved)
+- `interlude-coherence-under-scale.md` (approved v1.1)
+- `part-05-oscillation-and-design/bridge.md` (approved)
+- `part-05-oscillation-and-design/21-the-oscillation.md` (approved)
+- `part-05-oscillation-and-design/22-designing-for-high-cohesion.md` (approved v1.1)
+- `part-05-oscillation-and-design/23-designing-for-intentional-coupling.md` (approved)
+- `part-05-oscillation-and-design/24-over-coupling-and-fragility.md` (approved)
+- `part-05-oscillation-and-design/25-the-limits-of-cohesion.md` (approved)
+- `epilogue-stay-cohesive-stay-close.md` (approved)
 
 ## Back Matter Established
 
 - `glossary.md` (with dependency-order checks enabled)
 - `bibliography.md` (working map)
-- `interlude-coherence-under-scale.md` (drafted on main; synthesis after Part IV chapters)
 
 ## Process Rules Added
 
@@ -69,11 +77,11 @@ Part IV approved; PR open from `coupling-part-4` into `main`. Next: Part V on ne
 
 ## Next Step
 
-After Part IV merge: create `coupling-part-5` from `main` and begin Part V drafting.
+After Part V merge: manuscript-wide passes; sync `export-kindle.md` if needed.
 
 ## Coordination Framing Pass
 
-- Part IV: **high visibility** per `docs/coordination-framing-pass.md` (stale representations, fragmented authority, governance queues; split-brain once in Ch 18 if used).
+- Part V: **practical visibility** per `docs/coordination-framing-pass.md` (design as re-pricing coordination cost; Ch 22–23 responses to coordination pressure).
 
 ## Open Decisions / Questions
 
