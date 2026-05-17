@@ -6,11 +6,11 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Current Unit
 
-`part-03-ai-and-structural-entropy/13-monoliths-and-context-collapse.md`
+`part-03-ai-and-structural-entropy/14-guardrails-as-constraint-architecture.md`
 
 ## In Progress
 
-- Chapter 13 is next for drafting on `coupling-part-3`.
+- Chapter 14 is next for drafting on `coupling-part-3`.
 - Chapter 11 approved and locked as current baseline (v1.1).
 - Chapter 10 approved and locked as current baseline (v1.1).
 - Chapter 9 approved and locked as current baseline (v1.1).
@@ -52,6 +52,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - `part-02-software-as-early-laboratory/11-hexagonal-architecture-boundary-discipline-at-scale.md` (approved v1.1)
 - `part-03-ai-and-structural-entropy/bridge.md` (approved)
 - `part-03-ai-and-structural-entropy/12-the-frictionless-illusion.md` (approved)
+- `part-03-ai-and-structural-entropy/13-monoliths-and-context-collapse.md` (approved)
 
 ## Back Matter Established
 
@@ -76,7 +77,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Next Step
 
-Draft `part-03-ai-and-structural-entropy/13-monoliths-and-context-collapse.md`
+Draft `part-03-ai-and-structural-entropy/14-guardrails-as-constraint-architecture.md`
 
 ## Coordination Framing Pass (completed)
 
