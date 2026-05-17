@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
+import { ExploreBookPublicationLinks } from "@/components/explore/explore-book-publication-links";
 import { ExploreBookMedia } from "@/components/explore/explore-book-media";
 import { ExploreObservatoryFocusLink } from "@/components/explore/explore-observatory-focus-link";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
@@ -20,6 +20,7 @@ import { buildGraphIndex } from "@/lib/graph/graph";
 import { getBookBySlug as getGraphBookBySlug } from "@/lib/graph/graphQueries";
 import { getIncomingRelationships, getOutgoingRelationships } from "@/lib/graph/graphTraversal";
 import { relatedContentForBook } from "@/lib/graph/relatedContent";
+import { getSemanticBookActionLinkItems } from "@/lib/books/semantic-book-action-links";
 import { createPageMetadata } from "@/lib/metadata";
 
 type PageProps = { params: Promise<{ slug: string }> };
@@ -52,6 +53,8 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
 
   const booksInListOrder = booksSortedForExploreIndex(graph.books);
   const { prev: prevBook, next: nextBook } = exploreBookAdjacentInIndexOrder(booksInListOrder, book.slug);
+
+  const publicationLinks = getSemanticBookActionLinkItems(book);
 
   const hasRelated =
     related.concepts.length + related.patterns.length + related.sources.length > 0;
@@ -102,13 +105,8 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
             ) : null}
           </div>
         </div>
+        <ExploreBookPublicationLinks links={publicationLinks} />
         <ExploreBookMedia book={book} />
-        <p className="mt-6 text-sm">
-          <Link href={`/books/${book.slug}`} className="text-accent underline-offset-4 hover:underline">
-            Open catalog page
-          </Link>{" "}
-          <span className="text-muted">for downloads and publication details.</span>
-        </p>
         <ExploreAdjacentNav
           basePath={explorePaths.books}
           entityLabel="book"

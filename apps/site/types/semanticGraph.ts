@@ -27,6 +27,26 @@ export interface BookMedia {
   };
 }
 
+export type BookPurchaseRetailer =
+  | "amazon"
+  | "apple_books"
+  | "google_play"
+  | "barnes_noble"
+  | "bookshop"
+  | "other";
+
+export interface BookPurchaseLink {
+  retailer: BookPurchaseRetailer;
+  url: string;
+  label?: string;
+}
+
+export interface BookFormatAsset {
+  enabled: boolean;
+  file: string;
+  url: string | null;
+}
+
 export interface Book {
   id: string;
   slug: string;
@@ -39,6 +59,11 @@ export interface Book {
   patterns?: string[];
   sources?: string[];
   media?: BookMedia;
+  isbns?: string[];
+  purchaseLinks?: BookPurchaseLink[];
+  epub?: BookFormatAsset;
+  docx?: BookFormatAsset;
+  pdf?: BookFormatAsset;
 }
 
 /** Optional styling bucket from the content pipeline (e.g. pressure vs capability concepts). */

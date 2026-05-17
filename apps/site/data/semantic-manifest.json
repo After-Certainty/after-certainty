@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-05-16T23:20:00.803953+00:00",
+  "generatedAt": "2026-05-17T00:37:44.014484+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
@@ -272,6 +272,13 @@
         "source-tversky-amos-and-daniel-kahneman-judgment-under-uncertainty",
         "source-weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld",
         "source-weick-karl-e-sensemaking-in-organizations"
+      ],
+      "purchaseLinks": [
+        {
+          "retailer": "amazon",
+          "url": "https://www.amazon.com/gp/product/B0GM8TCB4P",
+          "label": "Buy on Amazon"
+        }
       ]
     },
     {
@@ -482,7 +489,14 @@
       "summary": "An examination of what happens when signals of confidence are mistaken for legitimacy, and how that confusion distorts trust and decision-making.",
       "concepts": [],
       "patterns": [],
-      "sources": []
+      "sources": [],
+      "purchaseLinks": [
+        {
+          "retailer": "amazon",
+          "url": "https://www.amazon.com/gp/product/B0DWZ2ZFXG",
+          "label": "Buy on Amazon"
+        }
+      ]
     },
     {
       "slug": "when-authority-outlives-accountability",
@@ -517,7 +531,14 @@
       "summary": "A study of how authority can persist after accountability erodes, and what moral leadership requires to restore integrity in that gap.",
       "concepts": [],
       "patterns": [],
-      "sources": []
+      "sources": [],
+      "purchaseLinks": [
+        {
+          "retailer": "amazon",
+          "url": "https://www.amazon.com/gp/product/B0GJ3QZQ1V",
+          "label": "Buy on Amazon"
+        }
+      ]
     },
     {
       "slug": "when-incentives-become-the-moral-language",
@@ -725,7 +746,17 @@
         "patterns": {
           "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PL0gz-cNuLgIZkd7HcM8tZory5sa-aN6V9"
         }
-      }
+      },
+      "isbns": [
+        "9798257484926"
+      ],
+      "purchaseLinks": [
+        {
+          "retailer": "amazon",
+          "url": "https://www.amazon.com/gp/product/B0GX34SRDJ",
+          "label": "Buy on Amazon"
+        }
+      ]
     },
     {
       "slug": "when-others-look-to-you-v2",

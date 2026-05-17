@@ -27,6 +27,27 @@ const bookMediaSchema = z.object({
     .optional(),
 });
 
+const bookFormatAssetSchema = z.object({
+  enabled: z.boolean(),
+  file: z.string().min(1),
+  url: z.string().url().nullable(),
+});
+
+const bookPurchaseRetailerSchema = z.enum([
+  "amazon",
+  "apple_books",
+  "google_play",
+  "barnes_noble",
+  "bookshop",
+  "other",
+]);
+
+const bookPurchaseLinkSchema = z.object({
+  retailer: bookPurchaseRetailerSchema,
+  url: z.string().url(),
+  label: z.string().min(1).optional(),
+});
+
 const bookSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
@@ -38,6 +59,11 @@ const bookSchema = z.object({
   patterns: stringList,
   sources: stringList,
   media: bookMediaSchema.optional(),
+  isbns: z.array(z.string().min(1)).optional(),
+  purchaseLinks: z.array(bookPurchaseLinkSchema).optional(),
+  epub: bookFormatAssetSchema.optional(),
+  docx: bookFormatAssetSchema.optional(),
+  pdf: bookFormatAssetSchema.optional(),
 });
 
 const conceptSemanticToneSchema = z.enum(["pressure", "capability", "neutral"]);
