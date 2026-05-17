@@ -2,16 +2,16 @@
 
 ## Current Phase
 
-Step 2 drafting loop (unit-by-unit drafting and review). Part V on branch `coupling-part-5`.
+Part V — awaiting author part-approval for push/PR (`coupling-part-5`).
 
 ## Current Unit
 
-`part-05-oscillation-and-design/25-the-limits-of-cohesion.md` (drafted; awaiting author review)
+(None — all Part V bridge/chapters approved)
 
 ## In Progress
 
-- Chapter 25 drafted on `coupling-part-5`; awaiting author review.
-- After Ch 25 approval: Part V coherence pass, part approval, push/PR.
+- Part V coherence gate complete (`docs/part-05-coherence-pass.md`).
+- Awaiting part approval to push branch and open PR to `main`.
 
 ## Completed Units
 
@@ -50,6 +50,7 @@ Step 2 drafting loop (unit-by-unit drafting and review). Part V on branch `coupl
 - `part-05-oscillation-and-design/22-designing-for-high-cohesion.md` (approved v1.1)
 - `part-05-oscillation-and-design/23-designing-for-intentional-coupling.md` (approved)
 - `part-05-oscillation-and-design/24-over-coupling-and-fragility.md` (approved)
+- `part-05-oscillation-and-design/25-the-limits-of-cohesion.md` (approved)
 
 ## Back Matter Established
 
@@ -75,7 +76,7 @@ Step 2 drafting loop (unit-by-unit drafting and review). Part V on branch `coupl
 
 ## Next Step
 
-Approve/revise Chapter 25, then run Part V coherence pass and request part approval.
+Part approval → push `coupling-part-5` and open PR to `main`. Then manuscript-wide passes or epilogue as planned.
 
 ## Coordination Framing Pass
 
