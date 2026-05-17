@@ -6,11 +6,11 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Current Unit
 
-`part-03-ai-and-structural-entropy/15-architectural-cohesion.md`
+`part-03-ai-and-structural-entropy/16-the-new-professional-literacy.md`
 
 ## In Progress
 
-- Chapter 15 is next for drafting on `coupling-part-3`.
+- Chapter 16 is next for drafting on `coupling-part-3`.
 - Chapter 11 approved and locked as current baseline (v1.1).
 - Chapter 10 approved and locked as current baseline (v1.1).
 - Chapter 9 approved and locked as current baseline (v1.1).
@@ -54,6 +54,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 - `part-03-ai-and-structural-entropy/12-the-frictionless-illusion.md` (approved)
 - `part-03-ai-and-structural-entropy/13-monoliths-and-context-collapse.md` (approved)
 - `part-03-ai-and-structural-entropy/14-guardrails-as-constraint-architecture.md` (approved)
+- `part-03-ai-and-structural-entropy/15-architectural-cohesion.md` (approved)
 
 ## Back Matter Established
 
@@ -78,7 +79,7 @@ Step 2 drafting loop (unit-by-unit drafting and review).
 
 ## Next Step
 
-Draft `part-03-ai-and-structural-entropy/15-architectural-cohesion.md`
+Draft `part-03-ai-and-structural-entropy/16-the-new-professional-literacy.md`
 
 ## Coordination Framing Pass (completed)
 
