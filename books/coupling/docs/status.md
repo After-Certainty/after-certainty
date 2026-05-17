@@ -2,15 +2,15 @@
 
 ## Current Phase
 
-Part IV approved; PR open from `coupling-part-4` into `main`. Next: Part V on new branch after merge.
+Step 2 drafting loop (unit-by-unit drafting and review). Part V on branch `coupling-part-5`.
 
 ## Current Unit
 
-(None — awaiting merge of Part IV PR)
+`part-05-oscillation-and-design/21-the-oscillation.md` (drafted; awaiting author review)
 
 ## In Progress
 
-- Part IV PR submitted; merge pending.
+- Chapter 21 drafted on `coupling-part-5`; awaiting author review.
 
 ## Completed Units
 
@@ -27,7 +27,7 @@ Part IV approved; PR open from `coupling-part-4` into `main`. Next: Part V on ne
 - `part-01-the-structural-grammar/04-scale-and-abstraction.md` (approved)
 - `part-02-software-as-early-laboratory/bridge.md` (approved)
 - `part-02-software-as-early-laboratory/05-waterfall-low-temporal-coupling.md` (approved v1.1)
-- `part-02-software-as-early-laboratory/06-agile-increasing-cohesion-of-teams.md` (approved)
+- `part-02-software-as-early-laboratory/06-agile-increasing-cohesion-of-teams.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/07-devops-restoring-operational-coupling.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/08-heart-of-agile-returning-to-essentials.md` (approved v1.1)
 - `part-02-software-as-early-laboratory/09-dora-measuring-coupling.md` (approved v1.1)
@@ -44,6 +44,7 @@ Part IV approved; PR open from `coupling-part-4` into `main`. Next: Part V on ne
 - `part-04-institutions-under-drift/18-governance-representation-and-diffusion.md` (approved)
 - `part-04-institutions-under-drift/19-media-and-algorithmic-coupling.md` (approved)
 - `part-04-institutions-under-drift/20-bureaucracy-as-scar-tissue.md` (approved)
+- `part-05-oscillation-and-design/bridge.md` (approved)
 
 ## Back Matter Established
 
@@ -69,11 +70,11 @@ Part IV approved; PR open from `coupling-part-4` into `main`. Next: Part V on ne
 
 ## Next Step
 
-After Part IV merge: create `coupling-part-5` from `main` and begin Part V drafting.
+Approve/revise Chapter 21, then draft Chapter 22 (*Designing for High Cohesion*).
 
 ## Coordination Framing Pass
 
-- Part IV: **high visibility** per `docs/coordination-framing-pass.md` (stale representations, fragmented authority, governance queues; split-brain once in Ch 18 if used).
+- Part V: **practical visibility** per `docs/coordination-framing-pass.md` (design as re-pricing coordination cost; Ch 22–23 responses to coordination pressure).
 
 ## Open Decisions / Questions
 
