@@ -23,6 +23,8 @@ Taken together, they estimate learning-loop quality, not just velocity. High fre
 
 DORA is strongest when used diagnostically. It helps teams ask structural questions: where does work wait, where does risk accumulate, where does ownership fracture, and where do feedback pathways break.[^c9-diagnostic]
 
+The metrics also approximate how expensive it is to keep change coherent across build, deploy, and recovery: long lead times and slow restoration often signal that partial information and delayed propagation have become normal.
+
 Trend context matters more than single snapshots. A temporary worsening after architectural change can signal productive learning, while stable dashboard values can hide adaptation stagnation if teams are optimizing reports rather than system behavior.
 
 This is why measurement should remain inside redesign-capable boundaries. If teams can see the signal but lack authority to change architecture, process, or incentives, the measurement loop stays observational rather than corrective.

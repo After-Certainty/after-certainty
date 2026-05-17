@@ -20,6 +20,8 @@ When systems outgrow clear ownership design, they often compensate with coordina
 
 These mechanisms can stabilize throughput for a time. But they often do so by shifting effort from redesign to synchronization. Teams become better at routing decisions than resolving structural causes. The system stays active, yet corrective capacity thins.
 
+The work is coherence maintenance: keeping enough agreement about who decides, what happened, and what must change next for the system to remain governable.
+
 In this state, responsibility is still named, but it is no longer concentrated enough to carry learning. The result is a familiar pattern: no single actor is fully wrong, and no part of the system is reliably improving.
 
 ## Abstraction as Necessary Compression
@@ -34,7 +36,7 @@ The question is not whether to abstract. The question is whether abstraction pre
 
 Abstraction fails when summary replaces signal. At that point, dashboards, metrics, or compliance artifacts can report apparent stability while operational reality drifts.[^c4-summary-replaces-signal]
 
-In many large systems, information that travels upward is cleaner, slower, and less diagnostic than the events that generated it.[^c4-knowledge-limits] Decision-makers then optimize against representations rather than consequences, and coupling weakens without anyone explicitly choosing to weaken it.
+In many large systems, information that travels upward is cleaner, slower, and less diagnostic than the events that generated it.[^c4-knowledge-limits] Decision-makers then optimize against representations rather than consequences—summaries that may be internally consistent yet operationally stale, accurate pictures of a reality that has already moved—and coupling weakens without anyone explicitly choosing to weaken it.
 
 The structural risk is not bad intent. It is a control problem: the system cannot correct what it cannot see in time.
 
@@ -65,6 +67,8 @@ Part I has now defined the grammar and the pressure variable:
 - Cohesion determines where responsibility can be held.
 - Coupling determines whether consequence can return.
 - Scale and abstraction determine how hard it is to preserve both.
+
+Software history can be read as a sequence of attempts to lower synchronization overhead between people who build, people who operate, and the feedback that connects them—without collapsing responsibility into a single brittle center.
 
 Part II turns to software history as an early laboratory for this problem. Software delivery exposes consequence-return latency faster and more measurably than many institutional settings, including through indicators like lead time for changes and change failure rate. Waterfall, Agile, DevOps, and shift-left practice can be read as successive attempts to reduce distance between decision and consequence under growing complexity.[^c4-transition-part2][^c4-metric-bridge]
 

@@ -50,6 +50,10 @@ This is the manuscript hub. It links the full part, bridge, and chapter structur
 - [19. Media and Algorithmic Coupling](./part-04-institutions-under-drift/19-media-and-algorithmic-coupling.md)
 - [20. Bureaucracy as Scar Tissue](./part-04-institutions-under-drift/20-bureaucracy-as-scar-tissue.md)
 
+## Interlude
+
+- [Coherence Under Scale](./interlude-coherence-under-scale.md)
+
 ## Part V - Oscillation and Design
 
 - [Bridge - Into Part V](./part-05-oscillation-and-design/bridge.md)

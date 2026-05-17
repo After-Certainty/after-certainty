@@ -11,5 +11,7 @@ Bring it back human.
 > Scale weakens both.
 >
 > Design restores them.
+>
+> Coherence across boundaries is the work scale demands.
 
 Not prescriptive. Structural.

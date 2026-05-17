@@ -34,6 +34,8 @@ That shift improved local adaptation. It also introduced a new risk: teams could
 
 Agile improved cohesion inside teams more reliably than coupling across teams. As organizations scaled, dependencies between teams, platform constraints, and operational burdens still created distance between decisions and consequences.[^c6-scale-limits]
 
+Strong team cohesion can coexist with weak system coherence: each boundary learns quickly while the shared picture of risk, dependency, and operational consequence fragments across handoffs.
+
 This explains why many organizations saw mixed outcomes: strong team velocity with persistent incident recurrence, delivery gains with cross-team friction, and healthy local rituals with weak global integration.
 
 ## From Team Cohesion to System Coupling

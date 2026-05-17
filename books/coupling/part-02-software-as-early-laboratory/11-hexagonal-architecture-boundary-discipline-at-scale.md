@@ -26,6 +26,8 @@ When done well, this achieves three things:
 
 This is coupling discipline under scale pressure. The organization still couples to databases, APIs, queues, and vendors. It does so intentionally, with clearer blast-radius boundaries.[^c11-dependency-rule]
 
+Adapters exist because external partners and platforms change on their own schedules. The architecture accepts that partial information and interface drift are normal; it spends discipline at the boundary so the core does not pay the full synchronization cost of every external move.
+
 ## Cohesion Effects and Ownership Clarity
 
 Boundary discipline improves cohesion because it clarifies who owns what.

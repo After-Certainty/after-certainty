@@ -80,6 +80,16 @@ Then move to:
 
 `part-03-ai-and-structural-entropy/12-the-frictionless-illusion.md`
 
+## Coordination Framing Pass (completed)
+
+- Companion map: `docs/coordination-framing-pass.md`
+- Tier 1–2 micro-insertions: Introduction, Ch 1–4, Part II bridge, Ch 6–7, 9–11
+- Interlude drafted: `interlude-coherence-under-scale.md` (listed in `index.md` between Part IV and Part V)
+- Part III–V stubs expanded with coordination draft guidance; Part III/IV/V bridges updated
+- Glossary: Coordination Pressure, Coherence Maintenance
+- Epilogue: one closing line on coherence across boundaries
+
 ## Open Decisions / Questions
 
-- None currently.
+- Author approval pass for Tier 1–2 insertions in previously locked Part I–II units (if treating as new revision cycle).
+- Whether interlude receives citation/echo pass before Part IV drafting begins.
