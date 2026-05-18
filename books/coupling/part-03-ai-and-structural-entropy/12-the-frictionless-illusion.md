@@ -10,15 +10,17 @@ The incident is contained by rollback, but the learning question lingers: who ow
 
 Post-incident discussion follows a familiar script. The team adds a checklist item and reminds reviewers to read diffs carefully. Nobody disputes that care matters. What remains unresolved is structural: the pipeline still rewards merge volume, assistance still compresses authoring time, and the boundary that should absorb design consequence is still less clear than the boundary that absorbs pager load.
 
+Generating became easier faster than understanding did. That asymmetry is the chapter's emotional center. Assisted systems can fill repositories, documents, and dashboards with plausible output faster than any team can hold the resulting decisions in working memory. Plausibility scales faster than accountability.[^c12-friction-shift]
+
 ## The Illusion of Frictionless Output
 
 Assisted generation can make work feel frictionless at the point of production. Drafts arrive quickly. Interfaces suggest completions. Refactors expand across files in seconds. That experience is real, and it can be valuable when boundaries are clear.
 
-The illusion appears when friction removed at authoring time is mistaken for friction removed from the full system. Writing code is only one segment of the loop. Integration, review, security analysis, deployment, monitoring, and incident response still exist. They may even become heavier when volume rises faster than ownership and test discipline adapt.[^c12-friction-shift]
+The illusion appears when friction removed at authoring time is mistaken for friction removed from the full system. Writing code is only one segment of the loop. Integration, review, security analysis, deployment, monitoring, and incident response still exist. They may even become heavier when volume rises faster than ownership and test discipline adapt.
 
 Frictionless output is therefore a local sensation, not a global property. The system still pays coordination costs. They are often deferred—pushed into review queues, merge conflicts, test gaps, and on-call load rather than eliminated.
 
-Teams that confuse the two can celebrate throughput while consequence coupling weakens. The dashboard shows merged work. The incident queue shows whether learning kept pace.
+Teams that confuse the two can celebrate throughput while learning weakens. The dashboard shows merged work. The incident queue shows whether learning kept pace.
 
 Productivity studies of assisted coding often report faster task completion on bounded exercises. Those findings are important, but they measure a segment of the loop. They rarely capture downstream integration load, review quality, security defects introduced under time pressure, or the redistribution of work to operations when authoring accelerates faster than ownership design.[^c12-productivity-limits]
 
@@ -39,7 +41,7 @@ None of this requires bad faith. Under delivery pressure, acceptance is rational
 
 This is not an argument against assistance. It is an argument for treating assistance as a handoff into human ownership, not a replacement for it. The boundary that merges code should still be able to explain the decision, absorb consequence, and redesign when failure returns.
 
-When that boundary is vague, organizations often respond with more process: extra reviewers, more checklists, more meetings. Those are coordination substitutes—attempts to buy coherence maintenance after cohesion has already weakened. They can stabilize short-term risk while slowing the loop that produces real learning.
+When that boundary is vague, organizations often respond with more process: extra reviewers, more checklists, more meetings. Those are attempts to buy alignment after ownership has already weakened. They can reduce immediate risk while making the system slower to understand why failures keep repeating.
 
 A useful test is direct: for any assisted change, can a named owner explain the operational semantics, the known risks, and what would be redesigned if the change fails in production? If the honest answer is "the tool produced it and tests passed," cohesion is already thin regardless of how polished the diff appears.
 
@@ -49,17 +51,17 @@ Coupling, in this book, is the return path of consequence to decision. Assisted 
 
 Several mechanisms matter in practice.
 
-First, temporal coupling can weaken even when calendar time compresses. If failures surface only after deployment, the author may already be context-switching. The reviewer may not hold the module in working memory. Delayed propagation widens the gap between decision and correction in cognitive terms even when the release was fast.[^c12-temporal]
+First, feedback can weaken even when calendar time compresses. If failures surface only after deployment, the author may already be context-switching. The reviewer may not hold the module in working memory. Delayed propagation widens the gap between decision and correction in cognitive terms even when the release was fast.[^c12-temporal]
 
-Second, partial information expands. Models and retrieval tools do not carry full team history, tacit constraints, or political tradeoffs that shaped earlier design. Generated output can be locally coherent while globally misaligned. The human operator may not see the mismatch until runtime exposes it.[^c12-partial-info]
+Second, generated output often lacks the team's full history, tacit constraints, and political tradeoffs. It can be locally coherent while globally misaligned. The human operator may not see the mismatch until runtime exposes it.[^c12-partial-info]
 
-Third, synchronization overhead can rise. More generated surface area means more diffs to reconcile, more tests to maintain, more dependencies to reason about across actors who did not share the same generation context. The team spends additional effort aligning independently produced changes—work that feels like progress because output volume is high.[^c12-sync-cost]
+Third, more generated surface area means more diffs to reconcile, more tests to maintain, and more dependencies to reason about across people who did not share the same generation context. The team spends additional effort aligning independently produced changes—work that feels like progress because output volume is high.[^c12-sync-cost]
 
 Speed then outruns coupling: the system changes faster than consequence can educate it. That pattern resembles earlier eras of tooling optimism, but the acceleration gradient is steeper. The mistake is repeating the old belief that faster production automatically means faster learning.
 
 Consider how this interacts with delivery metrics. A team can increase merge frequency while change failure rate and time to restore service remain flat or worsen. In DORA terms, that is not reliable performance; it is unstable throughput. Assisted generation can push organizations toward exactly that pattern when local authoring metrics improve and system-level recovery signals do not.[^c12-dora-signal]
 
-The diagnostic is not anti-speed. It is anti-decoupling: if acceleration does not improve—or at least preserve—the return path of consequence to redesign authority, the system is not learning faster. It is failing louder on a delayed schedule.
+> The diagnostic is not anti-speed. It is anti-decoupling: if acceleration does not improve—or at least preserve—the return path of consequence to redesign authority, the system is not learning faster. It is failing louder on a delayed schedule.
 
 ## Accept-All Culture as Severed Feedback
 
@@ -67,7 +69,9 @@ Some team cultures treat assisted output as provisional by default: generate, in
 
 Structurally, accept-all behavior severs feedback before ownership forms. The learning loop never starts at the boundary that can redesign, because the boundary never held the decision clearly enough to learn from failure.
 
-This is spiritually similar to test theater or metric gaming in earlier software practice: visible compliance without corrective capacity. The difference is that plausibility is higher. Generated code can look like code the team would have written, which makes weak review harder to detect than obviously broken work.[^c12-accept-all]
+This is spiritually similar to test theater or metric gaming in earlier software practice: visible compliance without corrective capacity. The difference is that plausibility is higher. The danger is not obviously broken output but plausible output that quietly bypasses deeper reasoning because it already resembles what the team expects to see.
+
+Generated code can look like code the team would have written. Generated prose can look like prose the team would have drafted. Generated reviews can look like reviews the team would have produced. Plausibility reduces scrutiny precisely because the work feels familiar.[^c12-accept-all]
 
 The corrective is not suspicion for its own sake. It is re-binding generation to consequence: smaller batches, explicit ownership, review questions tied to operational risk, and rollback paths that remain cheap enough to use without shame.
 
@@ -87,9 +91,9 @@ None of these domains are served by stopping assistance. They are served by alig
 
 Structural problems persist when incentives reward visible output more than answerable output. A team measured primarily on story completion, lines changed, or model-assisted tasks closed per week will rationally optimize those indicators—even when incident load, customer complaints, or security findings suggest the system is not improving.
 
-This is not unique to AI. It is an intensified version of throughput theater described earlier in the book: activity that reads as progress because the metric is legible, while consequence coupling weakens because the metric does not track recovery, harm, or redesign quality. Assisted generation makes the theater easier to stage. Plausible diffs and documents accumulate quickly. The harder work of integration and ownership remains invisible until failure forces visibility.[^c12-incentives]
+This is an intensified version of throughput theater described earlier in the book: activity that reads as progress because the metric is legible, while consequence returns too slowly or too weakly to the people who can redesign the system. Assisted generation makes the theater easier to stage. Plausible diffs and documents accumulate quickly. The harder work of integration and ownership remains invisible until failure forces visibility.[^c12-incentives]
 
-Leadership responses often misidentify the problem as insufficient tool adoption or insufficient reviewer diligence. Those responses can increase coordination load without restoring cohesion. More reviewers reviewing more output faster is not a strategy. It is a sign that the system is paying synchronization cost to compensate for unclear ownership.
+Leadership responses often misidentify the problem as insufficient tool adoption or insufficient reviewer diligence. Those responses can increase coordination load without restoring ownership. More reviewers reviewing more output faster is not a strategy. It is a sign that the system is paying synchronization cost to compensate for unclear ownership. The visible workflow looks integrated; the actual responsibility structure is still fragmented.
 
 The design question for leaders is therefore familiar: which metrics and decision rights make consequence return to a boundary that can change structure—not merely absorb pager pain or explain failure after the fact?
 
@@ -105,7 +109,7 @@ These habits are continuous with DevOps and shift-left logic from Part II. The d
 
 ## What This Chapter Does Not Claim
 
-This chapter does not claim that assisted tools are net harmful, that teams should avoid them, or that regulation alone can restore cohesion. It claims something narrower and, for design purposes, more useful: acceleration changes the burden of coherence maintenance.
+This chapter does not claim that assisted tools are net harmful, that teams should avoid them, or that regulation alone can restore cohesion. It claims something narrower and, for design purposes, more useful: acceleration increases the burden of preserving clear ownership and fast consequence return.
 
 If responsibility boundaries stay clear and consequence returns with enough speed and fidelity, assisted work can strengthen learning the way other compressions of labor have—by freeing attention for judgment, integration, and redesign. If boundaries blur, the same tools amplify drift.
 
@@ -113,7 +117,7 @@ The diagnostic is stable across domains: who owns this output, where will failur
 
 ## Bridge to Chapter 13
 
-Chapter 12 focused on the felt frictionlessness of production and the ownership gap it can hide. Chapter 13 turns to what accumulates when that gap persists: low-cohesion modules, entangled dependencies, and context collapse across prompts, tools, and repositories—architectural entropy at machine speed.
+Chapter 12 focused on the felt frictionlessness of production and the ownership gap it can hide. Chapter 13 turns to what accumulates when that gap persists: low-cohesion modules, entangled dependencies, and **context collapse** across prompts, tools, and repositories—architectural entropy at machine speed.
 
 The next question is not whether teams can generate more. It is what kind of system they are generating, and whether boundaries are strong enough to keep that system legible under growth.[^c12-bridge-c13]
 

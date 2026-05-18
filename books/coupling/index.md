@@ -38,7 +38,7 @@ This is the manuscript hub. It links the full part, bridge, and chapter structur
 - [Bridge - Into Part III](./part-03-ai-and-structural-entropy/bridge.md)
 - [12. The Frictionless Illusion](./part-03-ai-and-structural-entropy/12-the-frictionless-illusion.md)
 - [13. Monoliths and Context Collapse](./part-03-ai-and-structural-entropy/13-monoliths-and-context-collapse.md)
-- [14. Guardrails as Constraint Architecture](./part-03-ai-and-structural-entropy/14-guardrails-as-constraint-architecture.md)
+- [14. Guardrails: Constraints That Actually Run](./part-03-ai-and-structural-entropy/14-guardrails-as-constraint-architecture.md)
 - [15. Architectural Cohesion](./part-03-ai-and-structural-entropy/15-architectural-cohesion.md)
 - [16. The New Professional Literacy](./part-03-ai-and-structural-entropy/16-the-new-professional-literacy.md)
 

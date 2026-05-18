@@ -1,20 +1,19 @@
-# Bridge - Into Part I
+# Bridge — Into Part I
 
-Part I establishes the base grammar the rest of the book depends on.
+The prologue introduced a recurring pattern: responsibility drifts away from consequence, authority drifts away from cost, and systems continue functioning while becoming harder to correct. The examples differed—software incidents, institutional failures, public accountability, organizational drift—but the structure underneath them was surprisingly similar.
 
-## Why This Part Comes First
+Part I slows down before moving into larger case studies and asks a more basic question: what has to happen inside a system before that kind of drift becomes possible?
 
-The prologue names a recurring pattern: cost and authority drift apart. This part slows down before examples and asks what must be true, structurally, for that drift to appear.
+## The Grammar Beneath the Pattern
 
-## Core Terms and Their Function
+The first chapters introduce two ideas that will appear throughout the rest of the book: cohesion and coupling. These terms come from software design, but the book uses them more broadly. Cohesion describes whether responsibility remains clear enough that someone can still answer for outcomes and redesign the system when necessary. Coupling describes whether consequences can still return clearly enough for learning to happen before explanation replaces correction.
 
-The first chapters define cohesion and coupling with technical precision, then translate them into social and institutional terms.
+These ideas matter because systems often fail gradually. Ownership becomes less clear, feedback arrives later, coordination overhead increases, and reports improve while operational reality drifts. The system remains active, but learning weakens.
 
-- Cohesion: how clearly responsibility is held inside a boundary
-- Coupling: how directly consequence returns to that boundary
+## Why Scale Changes Everything
 
-If cohesion is weak, ownership blurs. If coupling is weak, learning delays. If either one fails under scale, accountability language remains while practical accountability thins.
+Part I also introduces the pressure that makes these problems harder over time: scale. As systems grow, more boundaries appear, more abstraction becomes necessary, and more coordination is required simply to maintain shared understanding. Those pressures do not automatically destroy accountability, but they make accountability increasingly difficult to preserve structurally.
 
-## What Part I Sets Up
+Healthy systems therefore require more than good intentions. They require boundaries clear enough for responsibility, coupling strong enough for learning, and feedback paths short enough that consequence can still change behavior before drift hardens into routine.
 
-Part I introduces scale and **abstraction** as pressure multipliers that can either preserve or degrade system learning. It also defines the working lens used throughout the rest of the book: healthy systems keep responsibility cohesive and consequence intentionally coupled.
+The rest of the book builds from this grammar outward: first through software, then through institutions, and finally through the limits large systems can never fully escape.
