@@ -24,9 +24,7 @@ The organization responds the way large systems often do:
 - more visibility dashboards,
 - clearer escalation chains.
 
-Activity increases. Coordination increases.
-
-But ownership often remains just as unclear as before.
+Activity increases. Coordination increases. But ownership often remains just as unclear as before.
 
 The system becomes better at synchronizing around problems than redesigning the structures producing them.
 
@@ -34,53 +32,35 @@ Chapter 21 described this pattern as oscillation: drift compensated for through 
 
 ## What Cohesion Actually Means
 
-Cohesion is often misunderstood as cultural alignment or teamwork.
-
-But cohesion is structural.
+Cohesion is often misunderstood as cultural alignment or teamwork. But cohesion is structural.
 
 A system is cohesive when responsibilities that belong together remain together strongly enough that someone can understand the outcome, answer for the outcome, and redesign the system when consequences return.
 
-Low cohesion means responsibilities are scattered across too many boundaries.
-
-At first this can feel collaborative. Many people contribute. Many perspectives are included. Many teams stay informed.
+Low cohesion means responsibilities are scattered across too many boundaries. At first this can feel collaborative. Many people contribute. Many perspectives are included. Many teams stay informed.
 
 But over time, systems with weak cohesion often compensate with increasing coordination overhead: more meetings, more handoffs, more approvals, more status tracking, more synchronization work.
 
 The organization spends growing energy coordinating fragmented ownership.
 
-High cohesion reduces that burden.
-
-It does not eliminate collaboration. It makes collaboration more legible.
-
-People know which boundary owns what, where decisions belong, and where consequences should return when something fails.
+High cohesion reduces that burden. It does not eliminate collaboration. It makes collaboration more legible. People know which boundary owns what, where decisions belong, and where consequences should return when something fails.
 
 The goal is not making everyone responsible for everything. The goal is preserving boundaries clear enough that learning can actually land somewhere durable.[^c22-cohesion-meaning]
 
 ## How Cohesion Erodes
 
-Cohesion rarely disappears all at once.
-
-It usually erodes gradually under growth.
+Cohesion rarely disappears all at once. It usually erodes gradually under growth.
 
 A service begins with one clear purpose. Then adjacent responsibilities get added: reporting, permissions, notifications, analytics, administrative tooling, integrations.
 
-Each addition seems reasonable individually.
-
-Over time, the boundary loses clarity.
-
-The system no longer has one stable reason to change. Different teams modify it for unrelated purposes. Local understanding weakens.
+Each addition seems reasonable individually. Over time, the boundary loses clarity. The system no longer has one stable reason to change. Different teams modify it for unrelated purposes. Local understanding weakens.
 
 Organizations often respond by increasing coordination: shared planning, alignment meetings, review processes, cross-functional oversight.
 
 But coordination cannot fully compensate for boundaries that no longer make structural sense.
 
-Another common failure appears when collaboration becomes ambient rather than owned.
+Another common failure appears when collaboration becomes ambient rather than owned. Everyone comments on everything. Everyone participates. No one fully absorbs consequence.
 
-Everyone comments on everything. Everyone participates. No one fully absorbs consequence.
-
-Responsibility becomes socially distributed while structurally unclear.
-
-This often feels inclusive in the short term. In the long term, it becomes difficult to identify who can redesign the system coherently.[^c22-erosion]
+Responsibility becomes socially distributed while structurally unclear. This often feels inclusive in the short term. In the long term, it becomes difficult to identify who can redesign the system coherently.[^c22-erosion]
 
 ## Designing Boundaries That Survive Growth
 
@@ -93,9 +73,7 @@ That means:
 - naming what it explicitly does not own,
 - treating cross-boundary work as negotiated integration rather than vague shared responsibility.
 
-Growth always creates new boundaries.
-
-The question is whether those boundaries emerge intentionally or accumulate accidentally.
+Growth always creates new boundaries. The question is whether those boundaries emerge intentionally or accumulate accidentally.
 
 Systems designed intentionally remain understandable longer under pressure. Systems built through unchecked accretion often compensate later through bureaucracy and synchronization.[^c22-boundaries]
 
@@ -103,51 +81,29 @@ Systems designed intentionally remain understandable longer under pressure. Syst
 
 Cohesion also depends on whether authority and consequence remain connected.
 
-Roles lose integrity when people making decisions no longer experience enough consequence to learn from those decisions.
+Roles lose integrity when people making decisions no longer experience enough consequence to learn from those decisions. This often happens gradually in scaled organizations. Operational pain remains close to frontline teams. Decision authority moves upward. Escalation becomes a request for permission instead of a path for redesign.
 
-This often happens gradually in scaled organizations.
+The organization still appears accountable because approvals exist. But the learning loop weakens.
 
-Operational pain remains close to frontline teams. Decision authority moves upward. Escalation becomes a request for permission instead of a path for redesign.
-
-The organization still appears accountable because approvals exist.
-
-But the learning loop weakens.
-
-Healthy role design keeps enough connection between decision-making, operational consequence, and redesign authority.
-
-That does not mean executives should personally operate every system.
-
-It means systems should preserve clear paths through which consequence can still influence the structures capable of changing it.
+Healthy role design keeps enough connection between decision-making, operational consequence, and redesign authority. That does not mean executives should personally operate every system. It means systems should preserve clear paths through which consequence can still influence the structures capable of changing it.
 
 Without that connection, escalation slowly becomes procedural theater: activity proving responsibility is being processed without responsibility becoming structurally clearer.[^c22-role-integrity]
 
 ## When Centralization Helps
 
-Centralization is not automatically bad.
+Centralization is not automatically bad. Some centralization increases cohesion.
 
-Some centralization increases cohesion.
+Shared platforms can reduce duplication. Clear standards can reduce chaos. Specialized expertise can improve system quality across many teams. A well-designed platform team often strengthens local ownership by removing unnecessary complexity from product teams.
 
-Shared platforms can reduce duplication. Clear standards can reduce chaos. Specialized expertise can improve system quality across many teams.
+The problem appears when centralization becomes too distant from consequence. Architecture review boards without operational context. Shared services nobody fully understands. Compliance gates optimized for documentation instead of redesign.
 
-A well-designed platform team often strengthens local ownership by removing unnecessary complexity from product teams.
+At that point, the central function becomes a queue. And queues are often signals that ownership has weakened at the interface between groups.
 
-The problem appears when centralization becomes too distant from consequence.
-
-Architecture review boards without operational context. Shared services nobody fully understands. Compliance gates optimized for documentation instead of redesign.
-
-At that point, the central function becomes a queue.
-
-And queues are often signals that ownership has weakened at the interface between groups.
-
-Some queues are unavoidable.
-
-But systems become fragile when queues replace the harder work of clarifying who owns outcomes across boundaries.[^c22-centralization]
+Some queues are unavoidable. But systems become fragile when queues replace the harder work of clarifying who owns outcomes across boundaries.[^c22-centralization]
 
 ## What High Cohesion Protects
 
-High cohesion does not eliminate failure.
-
-It protects local understanding.
+High cohesion does not eliminate failure. It protects local understanding.
 
 When systems remain cohesive:
 
@@ -168,11 +124,7 @@ Large systems will always require synchronization. Some distance between groups 
 
 The argument is narrower: organizations can choose whether to pay more of their coordination cost through clear boundaries, visible ownership, and coherent responsibility—or through recurring synchronization, procedural overhead, and increasingly complex negotiation.
 
-Cohesion alone is not enough.
-
-A boundary can remain internally coherent while still disconnected from consequence.
-
-That is the next chapter's problem.
+Cohesion alone is not enough. A boundary can remain internally coherent while still disconnected from consequence. That is the next chapter's problem.
 
 ## Bridge to Chapter 23
 
@@ -180,9 +132,7 @@ This chapter focused on cohesion: clear domains, stable ownership, role integrit
 
 Chapter 23 turns to coupling: how consequences return across those boundaries, how feedback remains visible, and how systems preserve learning as handoffs multiply.
 
-Because clear ownership alone does not guarantee adaptation.
-
-Systems also need consequence to find its way back to the people capable of redesigning them.
+Because clear ownership alone does not guarantee adaptation. Systems also need consequence to find its way back to the people capable of redesigning them.
 
 [^c22-opening]: Chapter 21 in this book on oscillation and coordination debt; and Chapter 4 in this book on coordination substitutes.
 [^c22-cohesion-meaning]: Chapter 2 in this book on responsibility as cohesion; and Chapter 1 on cohesion as internal integrity of a bounded unit.

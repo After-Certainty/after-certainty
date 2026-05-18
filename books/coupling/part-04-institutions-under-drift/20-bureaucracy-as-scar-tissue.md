@@ -14,11 +14,7 @@ Investigators study the breakdown and recommend changes:
 - new review committees,
 - more documentation at each handoff.
 
-None of these changes are irrational.
-
-Each one responds to something real that failed.
-
-The institution is trying to make sure the same mistake does not happen again.
+None of these changes are irrational. Each one responds to something real that failed. The institution is trying to make sure the same mistake does not happen again.
 
 But two years later, frontline workers still describe the same operational bottlenecks. Citizens still experience the same delays. Teams spend more time navigating procedure than improving outcomes.
 
@@ -30,29 +26,17 @@ Like scar tissue, bureaucracy forms after damage. It protects the system from re
 
 ## Bureaucracy Is Usually Trying to Solve a Real Problem
 
-Bureaucracy is often described as moral failure: laziness, incompetence, empire-building, indifference to ordinary people.
+Bureaucracy is often described as moral failure: laziness, incompetence, empire-building, indifference to ordinary people. Sometimes those explanations are true, but they do not explain why bureaucracy appears so consistently across governments, corporations, hospitals, universities, and large nonprofits—even under leaders who sincerely want reform.
 
-Sometimes those explanations are true.
+Most bureaucracy begins as a coordination solution. As institutions grow, personal trust no longer scales. Informal memory no longer scales. Individual judgment becomes inconsistent across thousands of people.
 
-But they do not explain why bureaucracy appears so consistently across governments, corporations, hospitals, universities, and large nonprofits—even under leaders who sincerely want reform.
-
-Most bureaucracy begins as a coordination solution.
-
-As institutions grow, personal trust no longer scales. Informal memory no longer scales. Individual judgment becomes inconsistent across thousands of people.
-
-Rules help preserve continuity.
-
-Forms reduce arbitrariness.
-
-Procedures make expectations visible to people who do not know each other personally.[^c20-ch4]
+Rules help preserve continuity. Forms reduce arbitrariness. Procedures make expectations visible to people who do not know each other personally.[^c20-ch4]
 
 Chapter 4 argued the same point structurally: bureaucracy is often an adaptive response to scale, not simply excess process. The deeper problem appears later, when systems respond to failure by layering coordination onto structures whose ownership boundaries were already weak. The organization becomes thicker without becoming more coherent.
 
 ## Coordination Machinery
 
-Large institutions require synchronization.
-
-Different departments evolve independently. Different software systems, legal constraints, reporting structures, and incentives all have to interact somehow.
+Large institutions require synchronization. Different departments evolve independently. Different software systems, legal constraints, reporting structures, and incentives all have to interact somehow.
 
 That interaction creates coordination work:
 
@@ -64,27 +48,15 @@ That interaction creates coordination work:
 - compliance workflows,
 - reporting chains.
 
-Some of this work is necessary.
+Some of this work is necessary, but coordination becomes expensive when no clear boundary fully owns an outcome. Instead of redesigning the system, institutions repeatedly synchronize around its fragility.[^c20-coordination]
 
-But coordination becomes expensive when no clear boundary fully owns an outcome.
+Software organizations experience this too. A shared architecture board may help teams avoid duplicated mistakes. A platform team may centralize important infrastructure knowledge. But over time, these same mechanisms can become bottlenecks: distant queues, partial context, slow approvals, weak feedback loops.
 
-Instead of redesigning the system, institutions repeatedly synchronize around its fragility.[^c20-coordination]
-
-Software organizations experience this too.
-
-A shared architecture board may help teams avoid duplicated mistakes. A platform team may centralize important infrastructure knowledge.
-
-But over time, these same mechanisms can become bottlenecks: distant queues, partial context, slow approvals, weak feedback loops.
-
-The structure originally created to reduce chaos slowly becomes another source of delay.
-
-The pattern is not unique to software or government. Whenever ownership becomes unclear, institutions compensate with coordination machinery. And coordination machinery has a cost.[^c20-substitutes]
+The structure originally created to reduce chaos slowly becomes another source of delay. The pattern is not unique to software or government. Whenever ownership becomes unclear, institutions compensate with coordination machinery. And coordination machinery has a cost.[^c20-substitutes]
 
 ## When Procedure Replaces Learning
 
-Procedure becomes dangerous when following the process becomes more important than improving the outcome.
-
-At that point, process stops supporting learning and starts substituting for it.
+Procedure becomes dangerous when following the process becomes more important than improving the outcome. At that point, process stops supporting learning and starts substituting for it.
 
 The symptoms are familiar:
 
@@ -97,13 +69,7 @@ The institution begins measuring activity instead of adaptation.
 
 Sociologist Robert K. Merton described part of this dynamic decades ago through bureaucratic ritualism: systems gradually shift attention from the original goal toward the procedures meant to support the goal.[^c20-merton]
 
-This is not usually because people are malicious.
-
-People optimize what the system rewards.
-
-If documentation becomes the safest path, documentation grows.
-
-If avoiding blame matters more than solving problems, risk gets pushed toward whoever lacks institutional protection.
+This is not usually because people are malicious. People optimize what the system rewards. If documentation becomes the safest path, documentation grows. If avoiding blame matters more than solving problems, risk gets pushed toward whoever lacks institutional protection.
 
 Over time, the organization becomes very good at proving that procedures were followed—even while failures remain structurally unresolved.
 
@@ -111,75 +77,33 @@ Over time, the organization becomes very good at proving that procedures were fo
 
 One of bureaucracy's recurring tragedies is that the people closest to reality are often the least empowered to redesign the system.
 
-Frontline workers usually see problems first: nurses, teachers, support staff, operators, case workers, technicians.
+Frontline workers usually see problems first: nurses, teachers, support staff, operators, case workers, technicians. They experience the friction directly. They know where procedures no longer match reality. But they often operate inside systems they did not design and cannot meaningfully change.[^c20-street-level]
 
-They experience the friction directly.
+The consequence lands on them. The redesign authority sits somewhere else. This weakens the learning loop exactly where the institution has the richest contact with reality.
 
-They know where procedures no longer match reality.
-
-But they often operate inside systems they did not design and cannot meaningfully change.[^c20-street-level]
-
-The consequence lands on them.
-
-The redesign authority sits somewhere else.
-
-This weakens the learning loop exactly where the institution has the richest contact with reality.
-
-The organization still receives reports, metrics, and dashboards. But the signal becomes thinner as it moves upward through layers of abstraction.
-
-Eventually the institution begins managing representations of reality more than reality itself.
+The organization still receives reports, metrics, and dashboards, but the signal becomes thinner as it moves upward through layers of abstraction. Eventually the institution begins managing representations of reality more than reality itself.
 
 ## Frozen Redesign
 
 Institutions can fail from too little coupling. Consequences disappear. Nobody owns outcomes clearly enough to learn.
 
-But institutions can also fail from too much coupling at the wrong layer.
+But institutions can also fail from too much coupling at the wrong layer. Every change requires approval from too many actors: legal review, compliance review, executive review, interdepartmental review, funding review, oversight review.
 
-Every change requires approval from too many actors: legal review, compliance review, executive review, interdepartmental review, funding review, oversight review.
+Each gate exists for a reason, but together they can create frozen redesign: a condition where the institution can still discuss change, study change, and document change while becoming increasingly unable to perform it.[^c20-frozen]
 
-Each gate exists for a reason.
+This is more than "too much bureaucracy." It is procedural entanglement. Many groups hold partial veto power. Few hold enough authority to redesign the system coherently.
 
-But together they can create frozen redesign: a condition where the institution can still discuss change, study change, and document change while becoming increasingly unable to perform it.[^c20-frozen]
-
-This is more than "too much bureaucracy."
-
-It is procedural entanglement.
-
-Many groups hold partial veto power. Few hold enough authority to redesign the system coherently.
-
-The institution protects itself from reckless change. But it also slows adaptation until reality outruns the structure.
-
-At that point, stale assumptions continue governing live systems.
-
-Dashboards remain green while harm accumulates in places the metrics no longer capture.
+The institution protects itself from reckless change, but it also slows adaptation until reality outruns the structure. At that point, stale assumptions continue governing live systems. Dashboards remain green while harm accumulates in places the metrics no longer capture.
 
 ## Bureaucracy as Institutional Memory
 
-Not all bureaucracy is decay.
+Not all bureaucracy is decay. Some procedural memory prevents systems from repeatedly causing the same harm. Checklists in surgery save lives. Aviation procedures reduce catastrophic error. Financial controls can prevent abuse.
 
-Some procedural memory prevents systems from repeatedly causing the same harm.
+The problem is not structure itself. The problem is when structures built to preserve learning eventually obstruct new learning.
 
-Checklists in surgery save lives.
+Scar tissue protects damaged tissue, but scar tissue is not the same thing as healthy regeneration. Healthy institutions must preserve enough memory to avoid repeating failure while remaining flexible enough to adapt when conditions change.
 
-Aviation procedures reduce catastrophic error.
-
-Financial controls can prevent abuse.
-
-The problem is not structure itself.
-
-The problem is when structures built to preserve learning eventually obstruct new learning.
-
-Scar tissue protects damaged tissue.
-
-But scar tissue is not the same thing as healthy regeneration.
-
-Healthy institutions must preserve enough memory to avoid repeating failure while remaining flexible enough to adapt when conditions change.
-
-That balance is difficult because the pressures point in opposite directions: stability versus adaptability, consistency versus responsiveness, coordination versus ownership.
-
-There is no permanent solution.
-
-Only ongoing tension management.
+That balance is difficult because the pressures point in opposite directions: stability versus adaptability, consistency versus responsiveness, coordination versus ownership. There is no permanent solution—only ongoing tension management.
 
 ## What This Part Has Been Describing
 
@@ -194,15 +118,11 @@ Across all of them, the same pressure appears: as systems scale, coordination in
 
 ## Bridge Forward
 
-The interlude *Coherence Under Scale* synthesizes the recurring pattern before Part V turns to design constraints and limits. It will not re-litigate each case study. It will ask what scale does to cohesion and coupling when abstraction thickens, clocks diverge, and institutions pay for coherence maintenance in synchronization rather than answerability.
+The interlude *Coherence Under Scale* synthesizes the recurring pattern before Part V turns to design constraints and limits. It does not re-litigate each case study. It asks what scale does to cohesion and coupling when abstraction thickens, clocks diverge, and institutions pay for **coherence maintenance** in synchronization rather than answerability.
 
-The next section turns from diagnosis toward limits.
+The next section turns from diagnosis toward limits. Not every coordination problem can be solved. Not every system can remain highly cohesive at scale. Some tradeoffs are permanent.
 
-Not every coordination problem can be solved. Not every system can remain highly cohesive at scale. Some tradeoffs are permanent.
-
-The question is not how to eliminate bureaucracy, abstraction, or coordination.
-
-The question is how to design systems where consequences can still return clearly enough for learning to remain possible.
+The question is not how to eliminate bureaucracy, abstraction, or coordination. The question is how to design systems where consequences can still return clearly enough for learning to remain possible.
 
 Because once consequence can no longer find its way back to redesign authority, institutions may continue operating for a very long time without meaningfully adapting at all.[^c20-bridge-int]
 
