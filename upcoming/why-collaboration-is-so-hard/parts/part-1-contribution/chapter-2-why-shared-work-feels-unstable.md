@@ -2,15 +2,98 @@
 
 ## **Why Shared Work Feels Unstable**
 
-- contribution exposes judgment
+Two engineers leave the same planning meeting with opposite impressions.
+One believes the team agreed on a narrow scope and a Friday milestone.
+The other believes the team only agreed to explore options and that any
+date would be reckless. Both heard the same words. Both are competent.
+Neither is lying.
 
-- uncertainty destabilizes identity
+By afternoon, their Slack thread has the brittle politeness of people who
+fear they are about to waste each other's time. The project has not
+failed. It already feels unstable.
 
-- ambiguity interrupts orientation
+That feeling often arrives **before** anything measurable goes wrong.
+This chapter asks why.
 
-- collaboration redistributes visibility unevenly
+### **1. Contribution exposes judgment**
 
-- people seek certainty when coordination becomes stressful
+In solo work, judgment is tested against an artifact: code, a draft, a
+spreadsheet, a diagnosis. In collaborative work, judgment is exposed
+**relationally** before it is proven. You offer a read of the problem in
+front of people who will combine it with theirs and may not share your
+assumptions.
 
-Core idea:\
-Collaboration often feels emotionally unsafe before it feels productive.
+Exposure is not the same as criticism. It is the condition of being seen
+while uncertain. Many professionals are trained to present judgment only
+when defensible. Collaboration asks for judgment earlier—sometimes while
+the problem is still forming.
+
+When judgment is exposed early, participants often experience a spike of
+self-protection: hedging, over-qualifying, or retreating to safe, generic
+contributions. The meeting becomes less informative not because people
+lack expertise, but because expertise feels costly to display before it
+is socially safe.
+
+### **2. Uncertainty destabilizes identity**
+
+People do not only solve problems at work. They maintain a workable story
+about who they are: the reliable one, the expert, the person who sees
+around corners. Uncertainty threatens that story.
+
+In collaborative settings, uncertainty is not a private experience for
+long. Others' questions, pauses, and revisions become evidence about
+whether your identity narrative still holds. A facilitator's innocent
+"Can you say more about that?" can land as a challenge to competence if
+the room is already tense.
+
+Identity threat is one reason groups reach for premature clarity. A firm
+decision, even a wrong one, can feel safer than a sustained "we do not
+yet know." The desire for closure is not always impatience. Sometimes it
+is a attempt to restore a stable self in public.
+
+### **3. Ambiguity interrupts orientation**
+
+Humans use orientation cues to decide what to do next: priorities,
+definitions of done, who can approve what. Collaboration stretches the
+period where those cues are partial.
+
+Ambiguity is not the same as chaos. Groups can move while ambiguous. But
+ambiguity **interrupts orientation**, and interrupted orientation feels
+like instability even when progress is real.
+
+Consider a cross-functional initiative with overlapping mandates. Legal
+cares about exposure. Product cares about adoption. Operations cares
+about reliability. Each function is oriented inside its own constraint
+set. The collaboration wobbles when no shared constraint ordering exists
+yet—when the group has not decided which tradeoffs are live and which are
+theoretical.
+
+### **4. Visibility is redistributed unevenly**
+
+Collaboration redistributes **visibility** unevenly. Some contributions
+are naturally legible: slides, commits, decisions announced in meetings.
+Others are legible only to those who know how to read them: relational
+repair, anticipation of failure modes, translation between functions,
+emotional regulation that keeps conflict productive.
+
+When visibility is uneven, instability follows. People who do invisible
+work often experience the collaboration as thankless and fragile. People
+who do highly visible work may experience the same collaboration as
+efficient while others simmer. Both impressions are data about structure,
+not only about attitude.
+
+### **5. Certainty-seeking under stress**
+
+When coordination becomes stressful, participants often seek **certainty**
+through shortcuts: a senior leader who ends debate, a metric that ends
+argument, a process that ends discretion. Shortcuts can work temporarily.
+They can also disguise the underlying condition—shared contribution under
+incomplete control—as if it were a communication problem solvable by
+better messaging.
+
+> Collaboration often feels emotionally unsafe before it feels productive.
+
+That sequence is not a sign that the wrong people were hired. It is a
+sign that the work has entered a structural regime where the usual
+supports for feeling competent are thin. The next chapter asks how
+groups coordinate anyway—often without full mutual understanding.

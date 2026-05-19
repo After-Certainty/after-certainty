@@ -2,19 +2,63 @@
 
 ## **When Disagreement Becomes Threat**
 
-- interpretive rigidity
+A university committee debates a hiring case. One member raises a concern
+about fit that others hear as bias. Another member defends the candidate
+in language that sounds like an attack on the first member's character.
+Within minutes, the disagreement is no longer about the candidate. It is
+about who belongs on the committee.
 
-- defensive identity protection
+The group will still vote. Many members will leave feeling that
+collaboration itself is dangerous.
 
-- moralization
+Groups become fragile when disagreement is experienced as destabilization
+rather than information.
 
-- collapsing disagreement into disloyalty
+### **1. Interpretive rigidity**
 
-- institutions losing tolerance for ambiguity
+**Interpretive rigidity** collapses complex contributions into a small set
+of motives: you are obstructing, you are ideological, you are protecting
+turf. Rigidity speeds decision-making by ending nuance. It also ends
+learning.
 
-Potential pattern:\
-Disagreement Becomes Threat
+Rigidity often rises when institutions face public scrutiny. The cost of
+being misread feels higher than the cost of being wrong quietly.
 
-Core idea:\
-Groups become fragile when disagreement is experienced as
-destabilization rather than information.
+### **2. Defensive identity protection**
+
+When disagreement threatens identity narratives—competent manager, moral
+clinician, principled activist—participants defend the self instead of
+testing the claim. **Defensive identity protection** turns questions into
+personal attacks and attacks into loyalty tests.
+
+### **3. Moralization**
+
+Some disagreements are moral. Many are **moralized** prematurely: technical
+tradeoffs described as ethical heroism or villainy, strategic choices
+described as betrayal. Moralization raises the stakes of being wrong and
+reduces the chance of revision.
+
+Moral language is not always cynicism. Sometimes it is the only language
+available when institutions have stopped trusting neutral process.
+
+### **4. Disloyalty framing**
+
+Organizations with weak repair mechanisms often frame dissent as
+**disloyalty**: not a team player, not committed, not safe. Disloyalty
+framing pushes disagreement underground or out of the institution entirely.
+
+### **5. Institutions losing tolerance for ambiguity**
+
+The institutional version of this pattern is loss of **tolerance for
+ambiguity** at scale: zero-defect cultures, purity tests, reputational
+risk management that punishes public uncertainty.
+
+When disagreement becomes threat, collaboration does not end on paper. It
+ends in the willingness to contribute unowned judgment.
+
+> Groups become fragile when disagreement is experienced as destabilization
+> rather than information.
+
+Healthy collaboration needs disagreement containers strong enough that
+dissent can update decisions without destroying belonging. When those
+containers fail, residue follows.
