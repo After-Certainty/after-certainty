@@ -48,10 +48,9 @@ Do not let the template read as fill-in-the-blank; each case must add distinct s
 - Careful with living politics; prefer historical and bounded contemporary examples
 - Clear in glossary terms (`back-matter/glossary.md`)
 
-## Known structural issues (fix in Phase 0)
+## Known structural issues
 
-- `chapter-1-the-boundary-we-could-not-cross.md` on-page title does not match filename/index label.
-- Ch 5 opens mid-sentence (fragment before heading)—restore opening section.
+Phase 0 (May 2026) resolved chapter drift and embedded split markers. Re-run `tools/fix_interpretation_structure.py` only if `import.md` is restored and a deliberate re-split is intended.
 
 ## Citation and glossary
 

@@ -1,6 +1,63 @@
 # **Chapter 2**
 
-## **Alignment Versus Interpretation**
+## **What It Means for Interpretation to Stop Working**
+
+Interpretation can fail not by disappearing, but by losing its public
+function.¹ When that happens, understanding may persist, but it no
+longer alters authority’s standing.
+
+Interpretive collapse is often misnamed. It is described as
+misinformation, delusion, or mass deception—as though better facts or
+clearer arguments might have restored shared understanding.² These
+explanations focus on content rather than function. They assume
+interpretation failed because it was wrong.³
+
+This chapter examines a different mechanism. Interpretation stops
+working when it no longer mediates legitimacy—when people understand
+what is happening, but that understanding no longer changes authority’s
+position.⁴
+
+## **The Event in Brief**
+
+Jim Jones (1931–1978) founded the Peoples Temple in the 1950s, presenting it as an interracial church committed to social justice, racial integration, and economic equality. His message resonated with widely shared moral ideals of care and collective uplift.⁵
+
+
+The Temple expanded in Indiana and later California, where Jones
+cultivated political relationships and attracted members committed to
+activism and communal life. Many joined voluntarily, drawn by its
+emphasis on justice and belonging.⁵
+
+Over time, reports of internal abuse, financial control, and public
+humiliation increased. Dissenters described escalating pressure to
+conform and rituals in which loyalty was demonstrated collectively.⁶
+
+In 1977, amid growing scrutiny, Jones relocated hundreds of followers to
+an agricultural settlement in Guyana known as Jonestown. Life there
+became increasingly isolated. Members participated in rehearsals for
+“revolutionary suicide,” framed as protest against oppression.⁶
+
+On November 18, 1978, after U.S. Congressman Leo Ryan visited the
+settlement and was killed by Temple members at a nearby airstrip, Jones
+directed the mass ingestion of poison. More than 900 people died,
+including over 300 children.⁵
+
+The tragedy remains one of the most devastating episodes of mass death
+under a non-state authority in modern history.
+
+## **Leader Focus: Jim Jones**
+
+This is a case where interpretation was reclassified as loyalty, so
+understanding no longer altered authority.
+
+Jones’s authority did not initially depend on coercion or enclosure. It
+depended on participation, affirmation, and moral language aligned with
+broadly shared values.⁵
+
+As dissent emerged, disagreement increasingly ceased to function as
+alternative interpretation. It was reframed as betrayal or moral
+failure. Public affirmation became expected rather than voluntary.⁶
+
+Many participants understood the contradictions and dangers involved.
 
 Interpretation did not vanish. What changed was its effect. Private
 understanding no longer translated into public consequence.⁷
@@ -152,37 +209,3 @@ acceptance, resistance, or repair.
 
 \
 -
-
-# Chapter 3: Alignment Versus Interpretation
-
-Interpretation can persist even when persuasion collapses. This chapter
-examines a form of authority in which meaning continues to circulate,
-arguments continue to be made, and evidence continues to appear—yet
-interpretation no longer mediates legitimacy across groups.¹
-
-In these cases, disagreement does not function as a contest over
-meaning. It functions as a sorting mechanism. Authority persists not
-because claims withstand shared evaluation, but because they maintain
-alignment.²
-
-This chapter clarifies how legitimacy can remain stable amid
-contradiction, conflict, and factual dispute—so long as interpretation
-no longer connects groups to one another.³
-
-## **The Event in Brief**
-
-Donald Trump (b. 1946) entered national politics in 2015 with a presidential campaign that challenged both major parties’ leadership norms. His messaging emphasized immigration restriction, trade protectionism, national identity, and opposition to political elites.
-
-
-During the 2016 campaign and throughout his presidency (2017–2021),
-Trump frequently made statements that were described by critics as
-contradictory, exaggerated, or factually inaccurate. Fact-checking
-organizations documented repeated disputes over claims involving
-election integrity, public health, immigration, and foreign policy.⁴
-
-Despite persistent controversy, public criticism, and ongoing factual
-disputes, his support among core voters remained comparatively stable.
-Campaign rallies, social media engagement, and partisan media ecosystems
-reinforced group cohesion.⁵
-
-Public disagreement intensified during major events, including the

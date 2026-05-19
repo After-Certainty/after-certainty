@@ -2,6 +2,63 @@
 
 ## **Recognizing the Shift Early**
 
+Interpretive collapse rarely arrives all at once.¹ This chapter examines
+early warning signs—structural signals that interpretation is being
+displaced before authority fully crosses into post-interpretive regimes.
+
+In these moments, interpretation still appears to function. The language
+of transparency, vision, and accountability remains intact. What changes
+is not whether interpretation exists, but where it is allowed to
+matter.²
+
+This chapter shows how recognizing these shifts early can prevent
+misdiagnosis—and why they are often missed until repair is no longer
+possible.³
+
+## **The Event in Brief**
+
+Adam Neumann (b. 1979) co-founded WeWork in 2010, positioning the company as a transformative platform for shared workspace and community building. Early growth was rapid. Investors valued the company at tens of billions of dollars based on expansion metrics, brand narrative, and anticipated disruption of commercial real estate.⁴
+
+
+Legitimacy initially depended on recognizable standards: revenue growth,
+occupancy rates, strategic partnerships, and eventual profitability.
+High-profile investors and board members reinforced credibility.
+
+As WeWork scaled, concerns emerged about governance, related-party
+transactions, valuation methods, and sustainability. The company’s 2019
+IPO prospectus revealed losses and structural risks that prompted
+scrutiny from analysts and journalists.⁵
+
+Interpretation did not vanish. It accumulated. But its force remained
+fragmented until valuation pressure converged abruptly. The IPO was
+withdrawn, Neumann stepped down, and the company underwent
+restructuring.
+
+The shift did not occur at the moment of collapse. It preceded it.
+
+## **Leader Focus: Adam Neumann**
+
+This is a case where interpretation still used the language of
+accountability but no longer governed legitimacy.
+
+Neumann’s authority did not begin in a post-interpretive condition.
+Early legitimacy depended on plausibility, coherence, and external
+validation.⁴
+
+As scale increased, interpretation narrowed. Questions about
+sustainability and governance were reframed as failures of imagination
+or insufficient belief in the company’s vision. Access to information
+became uneven. Decision-making concentrated. Dissent was tolerated
+rhetorically but discounted structurally.⁵
+
+Many observers recognized warning signs. What changed was leverage.
+Interpretation persisted, but it no longer altered authority’s standing.
+Legitimacy endured through charisma, momentum, and reputational
+borrowing even as evaluative pressure intensified.⁶
+
+The case is instructive not because of personal excess, but because it
+shows how authority can drift toward enclosure while still appearing
+
 interpretable—making early diagnosis especially difficult.⁷
 
 ## **What Replaced Interpretation**
@@ -112,65 +169,3 @@ can matter more than evaluating outcomes after collapse.²²
 21. *When Authority Is Misread*.
 
 22. Chapter 4, *When Authority Is Misread*.
-
-\
-=
-
-# Appendix A: A Structural Map of the Cases
-
-The chapters in this book examine different leaders whose authority
-persisted after interpretation stopped mediating legitimacy. Because the
-diagnostic posture remains consistent, these cases can begin to blur.
-This appendix exists to counter that effect.
-
-The table below does not summarize the leaders. It classifies them.
-
-Each row answers the same structural questions:
-
-- What replaced interpretation?
-
-- How did authority reproduce itself?
-
-- What still functioned?
-
-- What was lost?
-
-This makes visible how the cases differ *within* the same authority
-regime.
-
-## **Structural Map of Post-Interpretive Authority**
-
-| **Leader** | **What Replaced Interpretation** | **Primary Mechanism** | **What Still Functioned** | **What Was Lost** |
-|----|----|----|----|----|
-| **Joseph Smith** | Prior belief | Revelatory authority | Narrative coherence | External evaluation |
-| **Jim Jones** | Loyalty affirmation | Performative assent | Moral language | Dissent as signal |
-| **Donald Trump** | Identity alignment | Group sorting | Media saturation | Cross-group persuasion |
-| **Juan Perón** | Symbolic identity | Political myth | Policy contradiction | Programmatic coherence |
-| **Joseph Stalin** | Fear + ritual | Enforced performance | Private understanding | Public interpretation |
-| **David Koresh** | Prophetic enclosure | Self-sealing narrative | Scriptural reasoning | External correction |
-| **Sun Myung Moon** | Institutional alignment | Identity reproduction | Doctrinal system | Interpretive exit |
-| **Hugo Chávez** | Populist identity | Symbolic antagonism | Electoral process | Outcome accountability |
-| **Adolf Hitler** | Total mobilization | Spectacle + terror | Administrative order | Evaluative speech |
-| **Elizabeth Holmes** | Vision insulation | Charismatic deferral | Technical language | Verification |
-| **Pol Pot** | Revolutionary purification | Coercive erasure | Ideological clarity | Social memory |
-| **Mao Zedong** | Ideological saturation | Mass participation | Political rhetoric | Interpretive repair |
-| **Adam Neumann** | Belief signaling | Founder charisma | Corporate structure | Constraint from reality |
-
-## **How to Read This Map**
-
-This table is not meant to be read vertically as a progression or
-horizontally as a ranking. It is meant to be scanned.
-
-If the cases begin to feel interchangeable, focus on the **second
-column**: *what replaced interpretation*. That replacement determines
-how authority persisted and why familiar corrective tools failed.
-
-A useful simplifying distinction is this:
-
-- **Interpretation was sealed** (Smith, Koresh, Holmes)
-
-- **Interpretation was sorted** (Trump, Chávez, Perón)
-
-- **Interpretation was erased** (Stalin, Hitler, Pol Pot)
-
-These are not moral categories. They are functional ones.

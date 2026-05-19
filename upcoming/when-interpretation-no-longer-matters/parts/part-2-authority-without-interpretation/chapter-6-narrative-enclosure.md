@@ -1,6 +1,62 @@
 # **Chapter 6**
 
-## **Alignment-Based Authority**
+## **Narrative Enclosure**
+
+Interpretation can fail not because it is suppressed, but because it
+becomes unable to enter the system at all.¹ This chapter examines
+narrative enclosure—a condition in which authority seals itself
+epistemically, absorbing contradiction as confirmation rather than
+challenge.
+
+In enclosed systems, disagreement does not weaken authority. It
+strengthens it by validating the narrative that external forces are
+hostile, corrupt, or blind. Interpretation persists, but only as an
+internal activity whose conclusions are already constrained.²
+
+This chapter shows how authority can become self-sealing without
+coercive enforcement or visible compliance—through narrative structure
+alone.³
+
+## **The Event in Brief**
+
+David Koresh (1959–1993), born Vernon Wayne Howell, became leader of the Branch Davidians, a religious sect that emerged from a series of schisms within the Seventh-day Adventist tradition. By the late 1980s, Koresh had consolidated leadership of the group’s compound at Mount Carmel near Waco, Texas.⁴
+
+
+Koresh taught that he alone could interpret the “Seven Seals” described
+in the Book of Revelation. Followers engaged in intensive scriptural
+study, often debating theology for hours at a time. He reorganized
+aspects of community life around his prophetic authority, including
+reassignment of marriages and claims of divinely mandated
+relationships.⁵
+
+In 1992, federal authorities began investigating reports of illegal
+weapons possession and modification. On February 28, 1993, agents from
+the Bureau of Alcohol, Tobacco and Firearms attempted to execute search
+and arrest warrants at Mount Carmel. A gun battle ensued, resulting in
+deaths on both sides.
+
+The confrontation led to a 51-day standoff between the group and federal
+agents. Negotiations occurred intermittently. On April 19, 1993, federal
+forces initiated a final assault using tear gas. A fire consumed the
+compound. Seventy-six Branch Davidians died, including Koresh and many
+children.⁴
+
+The event remains one of the most controversial law enforcement actions
+in modern American history.
+
+## **Leader Focus: David Koresh**
+
+This is a case where interpretation intensified but became enclosed,
+unable to accept external correction.
+
+Koresh’s authority did not rely on suppressing interpretation. It relied
+on controlling the narrative frame within which interpretation
+occurred.⁴
+
+Followers were encouraged to study scripture deeply, debate theology,
+and refine meaning. Interpretation was active and often rigorous. What
+was foreclosed was the possibility that external disagreement could
+alter the frame itself.⁵
 
 Failed predictions, criticism, or state intervention did not destabilize
 authority. They were incorporated as evidence of persecution or
@@ -145,36 +201,3 @@ evaluation—only as alignment, risk, or identity signal.
 
 \
 -
-
-# Chapter 7: Alignment-Based Authority
-
-Authority can operate without persuasion when commitment precedes
-comprehension.¹ This chapter examines alignment-based authority at
-scale—a form of legitimacy that depends on prior assent rather than
-interpretive agreement.
-
-In such systems, authority does not require continuous justification.
-Once alignment is established, interpretation functions primarily to
-reinforce belonging rather than evaluate claims. Meaning remains active,
-but it is oriented toward maintenance rather than assessment.²
-
-This chapter shows how authority can scale globally while remaining
-insulated from interpretive challenge.³
-
-## **The Event in Brief**
-
-Sun Myung Moon (1920–2012) founded the Unification Church in South Korea in the 1950s. The movement combined Christian themes with Moon’s own theological claims, including a distinctive interpretation of salvation history and human restoration.⁴
-
-
-The church expanded internationally during the 1960s and 1970s,
-especially in the United States, Europe, and Japan. Public rallies,
-missionary outreach, and communal living arrangements became central
-features of recruitment and identity formation.⁵
-
-New members often entered through workshops and structured communal
-programs. Participation frequently preceded full theological
-comprehension. Over time, members engaged in intensive study of doctrine
-and ritual life.⁵
-
-The movement developed large-scale symbolic practices, including
-internationally televised mass wedding ceremonies, business enterprises,

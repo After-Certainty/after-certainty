@@ -1,6 +1,26 @@
 # **Chapter 1**
 
-## **What It Means for Interpretation to Stop Working**
+## **The Boundary We Could Not Cross**
+
+The cases examined in this book share a defining feature: authority
+persisted even after interpretation ceased to govern legitimacy.¹ This
+chapter marks the point at which that phenomenon becomes unavoidable.
+
+Not all authority failures arise from misunderstanding or distortion.
+Some authority does not require interpretation in order to function at
+all. When that boundary is crossed, familiar tools—argument, evidence,
+accountability, moral appeal—lose their explanatory force.²
+
+This chapter identifies that boundary. It does not explain belief or
+moral failure. It isolates a structural condition under which
+interpretation no longer mediates authority.³
+
+## **The Event in Brief**
+
+The church expanded quickly, relocating from New York to Ohio, Missouri,
+and later Illinois. Growth brought repeated conflict with surrounding
+communities, including economic strain, political bloc voting,
+theological distinctiveness, and suspicion from neighbors.⁵
 
 The movement did not collapse after his death. It reorganized under new
 leadership and continued west.
@@ -138,62 +158,3 @@ legitimacy externally.²¹
 20. Weber, *Economy and Society*.
 
 21. Weber; Arendt.
-
-# Chapter 2: What It Means for Interpretation to Stop Working
-
-Interpretation can fail not by disappearing, but by losing its public
-function.¹ When that happens, understanding may persist, but it no
-longer alters authority’s standing.
-
-Interpretive collapse is often misnamed. It is described as
-misinformation, delusion, or mass deception—as though better facts or
-clearer arguments might have restored shared understanding.² These
-explanations focus on content rather than function. They assume
-interpretation failed because it was wrong.³
-
-This chapter examines a different mechanism. Interpretation stops
-working when it no longer mediates legitimacy—when people understand
-what is happening, but that understanding no longer changes authority’s
-position.⁴
-
-## **The Event in Brief**
-
-Jim Jones (1931–1978) founded the Peoples Temple in the 1950s, presenting it as an interracial church committed to social justice, racial integration, and economic equality. His message resonated with widely shared moral ideals of care and collective uplift.⁵
-
-
-The Temple expanded in Indiana and later California, where Jones
-cultivated political relationships and attracted members committed to
-activism and communal life. Many joined voluntarily, drawn by its
-emphasis on justice and belonging.⁵
-
-Over time, reports of internal abuse, financial control, and public
-humiliation increased. Dissenters described escalating pressure to
-conform and rituals in which loyalty was demonstrated collectively.⁶
-
-In 1977, amid growing scrutiny, Jones relocated hundreds of followers to
-an agricultural settlement in Guyana known as Jonestown. Life there
-became increasingly isolated. Members participated in rehearsals for
-“revolutionary suicide,” framed as protest against oppression.⁶
-
-On November 18, 1978, after U.S. Congressman Leo Ryan visited the
-settlement and was killed by Temple members at a nearby airstrip, Jones
-directed the mass ingestion of poison. More than 900 people died,
-including over 300 children.⁵
-
-The tragedy remains one of the most devastating episodes of mass death
-under a non-state authority in modern history.
-
-## **Leader Focus: Jim Jones**
-
-This is a case where interpretation was reclassified as loyalty, so
-understanding no longer altered authority.
-
-Jones’s authority did not initially depend on coercion or enclosure. It
-depended on participation, affirmation, and moral language aligned with
-broadly shared values.⁵
-
-As dissent emerged, disagreement increasingly ceased to function as
-alternative interpretation. It was reframed as betrayal or moral
-failure. Public affirmation became expected rather than voluntary.⁶
-
-Many participants understood the contradictions and dangers involved.
