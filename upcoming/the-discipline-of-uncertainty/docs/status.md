@@ -2,11 +2,11 @@
 
 ## Current phase
 
-**Phase 0 — Structure** / **Phase 1 — Outline to prose**
+**Phase 1 complete; ready for Phase 2 unit passes**
 
 ## Active branch
 
-None.
+`upcoming/portfolio-pass-3-draft`
 
 ## Manuscript hub
 
@@ -16,34 +16,34 @@ None.
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Title Page | outline | |
-| Copyright | outline | |
-| Introduction | outline | Bullet scaffold |
-| Ch 1 — Psychological Comfort of Certainty | outline | |
-| Ch 2 — Abstraction and Clean Answers | outline | |
-| Ch 3 — Patterns as Warnings | outline | |
-| Ch 4 — Fatalistic Pattern Recognition | outline | |
-| Ch 5 — Why the World Refuses Absolutes | outline | |
-| Ch 6 — Probabilistic Reasoning Is Not Relativism | outline | |
-| Ch 7 — Warning Systems | outline | |
-| Ch 8 — Collapse Into Absolutes | outline | |
-| Ch 9 — Leaders Pressured Into Certainty | outline | |
-| Ch 10 — Discipline as Leadership Practice | outline | |
-| Ch 11 — Responsibility After Certainty | outline | |
-| Ch 12 — Meaning That Survives Uncertainty | outline | |
-| Conclusion | outline | |
-| Appendix Ideas | outline | Optional; not in reading order |
+| Title Page | draft | |
+| Copyright | draft | |
+| Introduction | draft | Expanded May 2026 |
+| Ch 1 — Psychological Comfort of Certainty | draft | Expanded May 2026 |
+| Ch 2 — Abstraction and Clean Answers | draft | Expanded May 2026 |
+| Ch 3 — Patterns as Warnings | draft | Expanded May 2026 |
+| Ch 4 — Fatalistic Pattern Recognition | draft | Expanded May 2026 |
+| Ch 5 — Why the World Refuses Absolutes | draft | Expanded May 2026 |
+| Ch 6 — Probabilistic Reasoning ≠ Relativism | draft | Expanded May 2026 |
+| Ch 7 — Warning Systems | draft | Expanded May 2026 |
+| Ch 8 — Collapse Into Absolutes | draft | Expanded May 2026 |
+| Ch 9 — Leaders Pressured Into Certainty | draft | Expanded May 2026 |
+| Ch 10 — Discipline as Leadership Practice | draft | Expanded May 2026 |
+| Ch 11 — Responsibility After Certainty | draft | Expanded May 2026 |
+| Ch 12 — Meaning That Survives Uncertainty | draft | Expanded May 2026 |
+| Conclusion | draft | Expanded May 2026 |
+| Appendix Ideas | draft | Expanded May 2026 |
 
 ## Next actions
 
-1. Resolve subtitle: `book.yml` vs `index.md`.
-2. Expand Introduction + Ch 1–2 to full prose (voice lock).
-3. Draft Part II after Part I coherence gate.
+1. Author read-through of Part I for voice and invariant threading.
+2. Phase 2 per-chapter passes: echo, editorial, citation at pivots.
+3. Update portfolio row when moving to Phase 2 manuscript-wide.
 
 ## Open decisions / known issues
 
-- Subtitle mismatch between `book.yml` and `index.md` (see book-rules).
+- Subtitle aligned to `book.yml` in `index.md` and title page (May 2026).
 
 ## Rough scale
 
-- ~790 words (May 2026)
+- ~5,250 words (May 2026; up from ~790 scaffold)

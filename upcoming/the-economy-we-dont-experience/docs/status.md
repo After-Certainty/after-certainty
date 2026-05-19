@@ -42,4 +42,4 @@ None recorded.
 
 ## Rough scale
 
-- ~22,000 words (May 2026; up from ~1,100 scaffold)
+- ~6,200 words (May 2026; up from ~1,100 scaffold)

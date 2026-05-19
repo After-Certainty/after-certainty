@@ -1,6 +1,6 @@
 # **The Discipline of Uncertainty**
 
-## **Why Maturity Begins Where Certainty Ends**
+## **Judgment, restraint, and decision quality under incomplete information**
 
 ### **Contents**
 
