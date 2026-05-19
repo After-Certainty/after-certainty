@@ -9,10 +9,24 @@ book:
   subtitle: "Judgment, restraint, and decision quality under incomplete information"
   description: "Field notes on judgment, restraint, and decision quality when information is incomplete."
   author:
-    name: "Contributors TBD"
+    name: "Kevin Steffensen"
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
+
+paths:
+  manuscript: "./index.md"
+  output: "."
+
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
+    copyright:
+      repo_template: templates/copyright.md.j2
+      output: front-matter/copyright.md
 
 build:
   formats:
