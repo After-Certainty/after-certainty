@@ -17,9 +17,7 @@ This book is **not** about doubt as paralysis. It is about **uncertainty as a di
 
 ### Subtitle alignment
 
-- `book.yml` subtitle: *Judgment, restraint, and decision quality under incomplete information*
-- `index.md` subtitle: *Why Maturity Begins Where Certainty Ends*
-- **Resolve before publication** — pick one primary subtitle and align `index.md`, title page, and `book.yml`.
+- Primary subtitle (aligned May 2026): *Judgment, restraint, and decision quality under incomplete information* — in `book.yml`, `index.md`, and title page.
 
 ## Core invariant (non-negotiable)
 
