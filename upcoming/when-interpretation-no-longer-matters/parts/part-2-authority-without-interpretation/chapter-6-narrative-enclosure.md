@@ -198,6 +198,3 @@ evaluation—only as alignment, risk, or identity signal.
 - **Transitional authority** — systems that strain toward
   post-interpretive conditions but retain enough interpretive leverage
   to collapse rather than seal.
-
-\
--

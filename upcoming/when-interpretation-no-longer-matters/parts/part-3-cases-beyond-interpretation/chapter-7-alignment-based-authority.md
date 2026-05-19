@@ -32,9 +32,13 @@ and ritual life.⁵
 
 The movement developed large-scale symbolic practices, including
 internationally televised mass wedding ceremonies, business enterprises,
+and media organizations. Authority persisted when assent preceded
+understanding and interpretation became structurally downstream from
+loyalty.⁷
 
-how authority can persist when assent precedes understanding and
-interpretation becomes structurally downstream from loyalty.⁷
+The case is instructive not because of theology alone, but because it
+shows how alignment-based authority can scale through institutions that
+convert participation into belonging before evaluation.⁸
 
 ## **What Replaced Interpretation**
 

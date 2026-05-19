@@ -2,11 +2,11 @@
 
 ## Current phase
 
-**Phase 2 — Unit passes** (Phase 0 structure complete on `upcoming/when-interpretation-no-longer-matters-structure`)
+**Phase 2 — Unit passes** (Phase 0 complete; editorial pass in progress)
 
 ## Active branch
 
-`upcoming/when-interpretation-no-longer-matters-structure` → then `upcoming/when-interpretation-no-longer-matters-editorial`
+`upcoming/when-interpretation-no-longer-matters-editorial`
 
 ## Manuscript hub
 
@@ -41,9 +41,9 @@
 
 ## Next actions
 
-1. Merge structure branch; open `upcoming/when-interpretation-no-longer-matters-editorial`.
-2. Run Phase 2 unit passes: Part I → II → III gate → IV → glossary.
-3. Phase 3 part coherence after each part’s units complete.
+1. Complete glossary pass and citation normalization (Pandoc footnotes) when author approves.
+2. Phase 3 part coherence review after author read-through of Parts I–IV.
+3. Manuscript-wide echo pass before Phase 4.
 
 ## Phase 0 resolution (May 2026)
 
