@@ -1,0 +1,40 @@
+# {{BOOK_TITLE}} — Drafting Status
+
+## Current phase
+
+**{{CURRENT_PHASE}}**
+
+## Active branch
+
+None (docs scaffold only). Use `upcoming/{{BOOK_SLUG}}-<phase>` when work begins.
+
+## Manuscript hub
+
+[`index.md`](../index.md) is the source of truth for reading order and paths.
+
+## Key docs
+
+- [`book-rules.md`](book-rules.md)
+- [`drafting-process.md`](drafting-process.md)
+- Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md)
+
+## Unit progress
+
+| Unit | Phase | Notes |
+|------|-------|-------|
+{{UNIT_TABLE_ROWS}}
+
+## Next actions
+
+1. {{NEXT_ACTION_1}}
+2. {{NEXT_ACTION_2}}
+3. {{NEXT_ACTION_3}}
+
+## Open decisions / known issues
+
+{{OPEN_ISSUES}}
+
+## Rough scale
+
+- Manuscript words (parts + front/back matter): ~{{WORD_COUNT}}
+- Last assessed: docs scaffold (May 2026)
