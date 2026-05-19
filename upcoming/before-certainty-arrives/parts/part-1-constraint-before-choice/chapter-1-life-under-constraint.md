@@ -41,7 +41,7 @@ Anthropological evidence consistently shows that early moral formation
 emphasized coordination, role stability, and norm enforcement rather
 than individual justification or deliberative ethics. Ritual, taboo, and
 authority functioned as social technologies for reducing uncertainty
-when material and existential risk was high.³
+when material and existential risk was high.[^c1-early-moral-anthropology]
 
 ### **Coordination Before Explanation**
 
@@ -79,7 +79,7 @@ Evolutionary and cultural anthropology support this reframing: norm
 repetition, moral rigidity, and deference to authority increase group
 cohesion and survival under conditions of threat. Early certainty was
 not a misunderstanding of moral complexity. It was a way of surviving
-it.⁴
+it.[^c1-henrich-norms]
 
 ### **Why Early Certainty Was Necessary**
 
@@ -124,3 +124,6 @@ This book will eventually trace how that certainty hardens, travels, and
 outlives its original purpose.
 
 But here—at the beginning—it was necessary.
+
+[^c1-early-moral-anthropology]: See Mary Douglas, *Purity and Danger* (London: Routledge, 1966); Christopher Boehm, *Hierarchy in the Forest* (Cambridge, MA: Harvard University Press, 1999).
+[^c1-henrich-norms]: See Joseph Henrich, *The Secret of Our Success* (Princeton, NJ: Princeton University Press, 2015).

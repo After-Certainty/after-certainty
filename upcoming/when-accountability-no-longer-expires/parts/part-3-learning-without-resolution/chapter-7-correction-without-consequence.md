@@ -167,18 +167,11 @@ experienced as virtues rather than warning signs.
 
 Correction without consequence is not accidental.
 
-It is a feature of learning without resolution.
+It is a feature of learning without resolution.[^c7-weick-sensemaking][^c7-smith-apology]
 
-### **Footnotes**
 
-1.  On institutional reframing of error as learning, see Karl E. Weick,
-    *Sensemaking in Organizations* (Sage, 1995).
 
-2.  For analysis of apology, responsibility, and authority, see Nick
-    Smith, *I Was Wrong: The Meanings of Apologies* (Cambridge
-    University Press, 2008).
-
-\
--
+[^c7-weick-sensemaking]: Karl E. Weick, *Sensemaking in Organizations* (Thousand Oaks, CA: Sage, 1995).
+[^c7-smith-apology]: Nick Smith, *I Was Wrong: The Meanings of Apologies* (Cambridge: Cambridge University Press, 2008).
 
 ## **Chapter 8 — Why This Feels Like Wisdom From the Inside**

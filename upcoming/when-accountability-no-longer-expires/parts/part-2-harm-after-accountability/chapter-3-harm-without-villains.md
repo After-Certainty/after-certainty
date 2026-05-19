@@ -174,20 +174,11 @@ protected by distance or time.
 
 Harm without villains is not the end of the story.
 
-It is the beginning of a pattern.
+It is the beginning of a pattern.[^c3-mashaw-bureaucratic][^c3-arendt-eichmann]
 
-### **Footnotes**
 
-1.  For analyses of rule-based harm and the limits of procedural
-    fairness, see Jerry L. Mashaw, *Bureaucratic Justice* (Yale
-    University Press, 1983).
 
-2.  On the moral psychology of constrained decision-making, see Hannah
-    Arendt’s discussion of responsibility under systems of
-    rule-following in *Eichmann in Jerusalem* (Penguin, 2006), read here
-    for structural insight rather than historical analogy.
-
-\
--
+[^c3-mashaw-bureaucratic]: Jerry L. Mashaw, *Bureaucratic Justice* (New Haven, CT: Yale University Press, 1983).
+[^c3-arendt-eichmann]: Hannah Arendt, *Eichmann in Jerusalem* (New York: Penguin, 2006).
 
 ## **Chapter 4 — The Distribution of Suffering**

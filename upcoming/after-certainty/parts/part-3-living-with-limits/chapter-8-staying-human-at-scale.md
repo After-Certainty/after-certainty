@@ -35,7 +35,7 @@ accountability thins.
 No one intends this. And no single person controls it.
 
 Which is precisely why the erosion of humanity at scale is so difficult
-to resist.¹
+to resist.[^c8-moral-distance]
 
 ### **The False Hope of Humanizing Systems**
 
@@ -115,7 +115,7 @@ Naming a cost others would prefer to ignore
 Friction is rarely celebrated. It is often treated as obstruction.
 
 But friction is one of the few ways human judgment can register inside
-systems designed to bypass it.²
+systems designed to bypass it.[^c8-productive-friction]
 
 ### **The Limits of Individual Resistance**
 
@@ -158,15 +158,5 @@ Staying human does not make systems kind.
 
 It prevents you from becoming inhuman.
 
-### **Footnotes**
-
-¹ The relationship between scale, abstraction, and moral distance has
-been widely discussed in sociology and political theory, particularly in
-analyses of bureaucracy and large-scale institutions.
-
-² The idea of productive friction appears in organizational ethics and
-systems thinking, where resistance is understood as a necessary
-counterbalance to efficiency.
-
-\
--
+[^c8-moral-distance]: See Zygmunt Bauman, *Modernity and the Holocaust* (Ithaca, NY: Cornell University Press, 1989); Hannah Arendt, *Eichmann in Jerusalem* (New York: Viking Press, 1963).
+[^c8-productive-friction]: See James C. Scott, *Seeing Like a State* (New Haven, CT: Yale University Press, 1998).

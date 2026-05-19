@@ -50,7 +50,8 @@ Opening pressure → structural analysis → return to invariant → optional pu
 
 ## Citation and glossary
 
-- Add footnotes when claims need grounding during editorial pass.
+- Use Pandoc footnotes (`[^id]` with chapter-scoped IDs such as `[^c3-motivated-reasoning]`).
+- Maintain `back-matter/bibliography.md` with Chicago-style bibliography entries; every cited work in footnotes must appear there.
 - No glossary file yet; introduce only if cross-domain terms accumulate.
 
 ## Key docs

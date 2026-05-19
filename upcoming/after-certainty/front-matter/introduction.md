@@ -130,7 +130,7 @@ It means alignment becomes unstable.
 
 The moral challenge, then, is not how to eliminate misunderstanding, but
 how to live responsibly in its presence—without denial, without
-collapse, and without demanding certainty that cannot be supplied.¹
+collapse, and without demanding certainty that cannot be supplied.[^intro-misunderstanding-scale]
 
 ## **What Remains When Supports Are Gone**
 
@@ -206,5 +206,4 @@ If you are looking for a way to live without them, it may help.
 epistemology, and communication studies that treat misunderstanding at
 scale as a structural condition rather than a remediable error.
 
-\
--
+[^intro-misunderstanding-scale]: See Niklas Luhmann, *Social Systems*, trans. John Bednarz Jr. (Stanford, CA: Stanford University Press, 1995); Charles Perrow, *Normal Accidents* (New York: Basic Books, 1984).

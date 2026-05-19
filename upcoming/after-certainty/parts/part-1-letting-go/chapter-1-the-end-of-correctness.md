@@ -36,7 +36,7 @@ starts functioning as a claim to authority.
 
 The problem is not that people care about truth. The problem is that
 correctness is asked to do moral work it cannot sustain—especially once
-scale enters the picture.¹
+scale enters the picture.[^c1-motivated-reasoning]
 
 ### **What Scale Does to “Getting It Right”**
 
@@ -60,7 +60,7 @@ while understanding thins.
 
 The result is not shared truth, but **competing certainties**—each
 internally coherent, each morally charged, and each increasingly
-insulated from revision.²
+insulated from revision.[^c1-scale-fragmentation]
 
 ### **When Correctness Starts to Do Harm**
 
@@ -101,7 +101,7 @@ can still guide action. When it is treated as a moral accomplishment, it
 distorts judgment.
 
 The end of correctness is not nihilism. It is realism about the limits
-of alignment under scale.³
+of alignment under scale.[^c1-pragmatist-truth]
 
 ### **What Replaces Correctness**
 
@@ -143,22 +143,6 @@ Letting go of correctness is not an ending. It is a clearing.
 It makes room for judgment that does not pretend to finish its work—and
 for responsibility that does not depend on being right.
 
-### **Footnotes**
-
-1.  The treatment of correctness as a moral credential parallels
-    longstanding critiques in social epistemology and moral psychology,
-    particularly around motivated reasoning and identity-protective
-    cognition. See, for example, Kahan, *Cultural Cognition and Public
-    Policy*.
-
-2.  This dynamic echoes earlier discussions in the series about meaning
-    drift and interpretive fragmentation, as well as classic
-    observations about scale in systems theory and organizational
-    sociology.
-
-3.  This distinction aligns loosely with philosophical pragmatism, which
-    treats truth as revisable and action-oriented rather than final or
-    possessable—without collapsing into relativism.
-
-\
--
+[^c1-motivated-reasoning]: Dan M. Kahan, "Cultural Cognition and Public Policy," *Yale Law & Policy Review* 24 (2006): 149–173.
+[^c1-scale-fragmentation]: See Charles Perrow, *Normal Accidents: Living with High-Risk Technologies* (New York: Basic Books, 1984); Max Weber, *Economy and Society*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
+[^c1-pragmatist-truth]: See John Dewey, *The Quest for Certainty* (New York: Minton, Balch, 1929).

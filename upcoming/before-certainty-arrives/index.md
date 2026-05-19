@@ -34,4 +34,4 @@
 ## Back Matter
 
 - [Conclusion — Recognition Without Instruction](back-matter/conclusion-recognition-without-instruction.md)
-- [Endnotes](back-matter/endnotes.md)
+- [Bibliography](back-matter/bibliography.md)

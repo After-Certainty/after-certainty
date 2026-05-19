@@ -44,3 +44,4 @@
 
 - [Conclusion — What It Would Mean for Legitimacy to Expire](back-matter/conclusion-what-it-would-mean-for-legitimacy-to-expire.md)
 - [Appendix A — Accountability Is Not Blame](back-matter/appendix-a-accountability-is-not-blame.md)
+- [Bibliography](back-matter/bibliography.md)

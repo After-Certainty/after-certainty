@@ -52,6 +52,8 @@ Scene or institutional opening → structural analysis → cross-domain parallel
 
 ## Citation and glossary
 
+- Use Pandoc footnotes (`[^id]` with chapter-scoped IDs such as `[^c3-mashaw-bureaucratic]`).
+- Maintain `back-matter/bibliography.md` with Chicago-style entries; every cited work in footnotes must appear there.
 - Citation pass during Phase 4 for structural pivots.
 - No standalone glossary yet.
 

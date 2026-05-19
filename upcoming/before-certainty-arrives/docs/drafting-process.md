@@ -12,6 +12,6 @@
 
 ## Current starting phase
 
-**Phase 4 — Manuscript-wide editorial** (prose complete; endnotes and cohesion passes next).
+**Phase 4 — Manuscript-wide editorial** (prose complete; bibliography and cohesion passes next).
 
 See [upcoming/docs/_templates/drafting-process.md.template](../../docs/_templates/drafting-process.md.template) for full phase definitions.

@@ -170,19 +170,11 @@ this equilibrium as wisdom rather than warning.
 
 Drift is not the end state.
 
-It is the precondition for learning without resolution.
+It is the precondition for learning without resolution.[^c5-thelen-institutions][^c5-hirschman-rhetoric]
 
-### **Footnotes**
 
-1.  On institutional drift and reinterpretation of norms, see Kathleen
-    Thelen, *How Institutions Evolve* (Cambridge University Press,
-    2004).
 
-2.  For discussions of value preservation through semantic flexibility,
-    see Albert O. Hirschman, *The Rhetoric of Reaction* (Harvard
-    University Press, 1991).
-
-\
-=
+[^c5-thelen-institutions]: Kathleen Thelen, *How Institutions Evolve* (Cambridge: Cambridge University Press, 2004).
+[^c5-hirschman-rhetoric]: Albert O. Hirschman, *The Rhetoric of Reaction* (Cambridge, MA: Harvard University Press, 1991).
 
 ## **Part III — Learning Without Resolution**

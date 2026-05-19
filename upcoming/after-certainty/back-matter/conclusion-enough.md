@@ -151,14 +151,7 @@ Not certainty—but attention.\
 Not answers—but responsibility.\
 Not resolution—but restraint.
 
-That is enough.
+That is enough.[^conclusion-epistemic-closure][^conclusion-orientation]
 
-### **Footnotes**
-
-¹ The refusal of synthesis here reflects critiques of epistemic closure
-in moral philosophy, where demands for final justification can undermine
-responsiveness in conditions of complexity and scale.
-
-² The emphasis on orientation rather than resolution aligns with
-pragmatist and care-ethical traditions that privilege ongoing
-responsiveness over settled conclusions.
+[^conclusion-epistemic-closure]: See Hilary Putnam, *Reason, Truth, and History* (Cambridge: Cambridge University Press, 1981).
+[^conclusion-orientation]: See Joan C. Tronto, *Moral Boundaries* (New York: Routledge, 1993); John Dewey, *The Quest for Certainty* (New York: Minton, Balch, 1929).

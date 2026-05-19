@@ -8,7 +8,7 @@ The historical examples that appear here are **illustrative rather than
 representative**. They are not meant to stand in for all societies of a
 given time, nor are they offered as moral exemplars or failures. They
 are used to make **structural patterns** visible—patterns that recur
-across cultures whenever humans face similar pressures.¹
+across cultures whenever humans face similar pressures.[^howread-structural-history]
 
 The purpose of this history is not to narrate progress. It is to examine
 **adaptation**.
@@ -19,7 +19,7 @@ meaning. In response, they develop moral, religious, legal, and
 epistemic tools that make coordination possible under those conditions.
 These tools differ in form and language, but they often serve similar
 functions: reducing uncertainty, compressing choice, stabilizing
-identity, and limiting conflict.²
+identity, and limiting conflict.[^howread-adaptation]
 
 For that reason, this book evaluates moral tools using a small set of
 questions:
@@ -68,3 +68,6 @@ It tells a story of recurrence.
 
 What comes next—how to live once those patterns are recognized—belongs
 to the book that follows.
+
+[^howread-structural-history]: See Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001); Fernand Braudel, *On History* (Chicago: University of Chicago Press, 1980).
+[^howread-adaptation]: See Joseph Henrich, *The Secret of Our Success* (Princeton, NJ: Princeton University Press, 2015).

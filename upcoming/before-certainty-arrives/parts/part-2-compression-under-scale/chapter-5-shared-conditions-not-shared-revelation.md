@@ -126,7 +126,7 @@ What looks, in hindsight, like moral depth was also moral compression:
 
 The Axial Age represents a convergence not of truth, but of function.
 Distinct traditions arrived at similar solutions because they faced
-similar constraints.⁷
+similar constraints.[^c5-axial-age]
 
 ### **Adaptive Compression, Not Final Clarity**
 
@@ -149,3 +149,5 @@ weight far beyond the conditions that produced them.
 Here, they should be understood for what they were:\
 not revelations descending into history,\
 but human responses rising under pressure.
+
+[^c5-axial-age]: See Karl Jaspers, *The Origin and Goal of History* (New Haven, CT: Yale University Press, 1953).

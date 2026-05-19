@@ -114,7 +114,7 @@ responding to new realities.
 
 This is the tool-longevity problem:\
 moral instruments outlive the pressures that shaped them, yet continue
-to operate with inherited authority.⁸
+to operate with inherited authority.[^c6-tools-outliving]
 
 At this stage, certainty has not yet failed.\
 But it has begun to harden.
@@ -155,3 +155,5 @@ And quietly, it has changed the nature of moral life.
 
 \
 =
+
+[^c6-tools-outliving]: See Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973); Thomas S. Kuhn, *The Structure of Scientific Revolutions* (Chicago: University of Chicago Press, 1962).

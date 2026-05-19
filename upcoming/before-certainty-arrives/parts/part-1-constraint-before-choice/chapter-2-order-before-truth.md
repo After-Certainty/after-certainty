@@ -95,7 +95,7 @@ interpretations make enforcement possible. Clear boundaries make
 authority actionable.
 
 This is not yet moral rigidity in the sense of dogma. It is **moral
-compression**.⁵
+compression**.[^c2-moral-compression]
 
 ### **Law, Kingship, and Cosmos as Stabilizers**
 
@@ -154,3 +154,5 @@ The question of whether it is *true* can wait.
 
 \
 -
+
+[^c2-moral-compression]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).

@@ -9,12 +9,12 @@ Architectural constraints for **Before Certainty Arrives** (*How Moral Order For
 ### Target length
 
 - Historical essay manuscript (~60–90k words at completion; current draft ~9.2k)
-- 3 parts, 10 chapters, substantial front matter, endnotes
+- 3 parts, 10 chapters, substantial front matter, bibliography
 
 ### Markdown file structure
 
 - One file per chapter; front matter includes Author's Note and How to Read This History.
-- `back-matter/endnotes.md` holds notes; keep markers consistent with chapter footnotes during editorial pass.
+- `back-matter/bibliography.md` holds Chicago-style bibliography entries; keep in sync with chapter footnotes.
 
 ## Core invariant (non-negotiable)
 
@@ -44,9 +44,10 @@ Architectural constraints for **Before Certainty Arrives** (*How Moral Order For
 
 Period/scene opening where useful → structural claim → historical parallel → return to invariant. Use sub-headings for navigation in longer chapters.
 
-## Citation and endnotes
+## Citation and bibliography
 
-- Endnotes file exists; align in-chapter `[^id]` with `back-matter/endnotes.md` during Phase 4.
+- Use Pandoc footnotes (`[^id]` with chapter-scoped IDs such as `[^c1-henrich-norms]`).
+- Maintain `back-matter/bibliography.md`; every cited work in footnotes must appear there.
 - Verify historical claims; no fabricated citations.
 
 ## Key docs

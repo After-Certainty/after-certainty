@@ -138,17 +138,7 @@ It is a way of limiting what others can justify later.
 Judgment becomes less theatrical and more durable.
 
 It does not resolve moral tension.\
-It carries it forward—carefully.
+It carries it forward—carefully.[^c4-seriousness-severity][^c4-revisable-judgment]
 
-### **Footnotes**
-
-¹ The distinction between seriousness and severity appears in moral
-philosophy and legal theory, where restraint is often confused with
-weakness despite being a deliberate ethical choice.
-
-² The idea of revisable judgment aligns with pragmatist ethics and
-virtue ethics traditions, which emphasize responsiveness and character
-over rule-based finality.
-
-\
--
+[^c4-seriousness-severity]: See Judith N. Shklar, "Putting Cruelty First," *Daedalus* 111, no. 3 (1982): 17–38.
+[^c4-revisable-judgment]: See Alasdair MacIntyre, *After Virtue*, 3rd ed. (Notre Dame, IN: University of Notre Dame Press, 2007); John Dewey, *Ethics*, 2nd ed. (1932; repr., Carbondale: Southern Illinois University Press, 1989).
