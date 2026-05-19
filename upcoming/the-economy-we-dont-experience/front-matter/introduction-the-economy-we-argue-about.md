@@ -2,43 +2,76 @@
 
 ## **The Economy We Argue About Isn't the One We Experience**
 
-- Why “the economy” is experienced unevenly rather than collectively
+In 2022, a household could read that inflation was cooling, wages were
+rising in aggregate, and employment remained historically strong—while
+still feeling, at the grocery store and the gas pump, that the economy was
+hostile.¹ Neither impression was pure fantasy. They were different slices
+of a high-dimensional system, communicated through channels too thin to
+carry the whole.
 
-- The gap between aggregate indicators and lived reality
+That gap is no longer a footnote in economic debate. It is the debate.
 
-- Why economic debates increasingly feel emotionally compelling but
-  analytically thin
+### **1. Uneven experience versus collective narrative**
 
-- The post-pandemic credibility crisis:
+"The economy" is not experienced collectively the way a weather front is
+experienced. It is experienced **unevenly**: by sector, region, cohort,
+asset position, and household structure. Aggregate indicators compress
+those differences into numbers meant to orient policy and public judgment.
 
-  - forecasts that failed
+When compression works, people tolerate abstraction. When compression
+fails, abstraction feels like dishonesty—even when the numbers are
+defensible.
 
-  - stabilization that didn’t feel stabilizing
+### **2. The credibility crisis after the pandemic**
 
-  - institutions that sounded disconnected even when factually
-    defensible
+The post-pandemic period intensified a longer-running strain. Forecasts
+that were reasonable did not match felt reality for many households.
+Stabilization that prevented collapse did not feel stabilizing on the
+ground. Institutions that updated models in good faith still sounded
+disconnected when they said "the data changed."
 
-- The book’s core claim:
+This book does not treat that disconnect as mass irrationality or as proof
+that experts should be ignored. It treats the disconnect as **structural**:
+a breakdown between abstraction and lived experience under conditions of
+**compression**—the forced reduction of complex economic reality into
+messages that must travel faster than understanding.
 
-  - the crisis is not primarily misinformation or irrationality
+### **3. The core claim**
 
-  - it is a breakdown between abstraction and lived experience under
-    conditions of compression
+The crisis is not primarily misinformation, though misinformation matters.
+It is not primarily that people refuse facts, though selective reasoning
+is real. The deeper problem is that **explanation no longer scales cleanly**
+in environments where:
 
-- Key framing:
+- pain travels more effectively than improvement,
+- credibility relocates from institutions to experience,
+- and leadership communication faces interpretive stress it was not built
+  to survive.
 
-  - explanation no longer scales cleanly
+### **4. What this book is and is not**
 
-  - pain travels more effectively than improvement
+This book is **not** a partisan brief, an anti-expert screed, or a policy
+manifesto with ready-made answers. It is a structural examination of
+**legitimacy under interpretive strain**: how economic meaning is made,
+lost, and fought over when shared understanding frays.
 
-  - credibility relocates from institutions to experience
+It is written for leaders, journalists, policymakers, and citizens who
+sense that economic arguments have become emotionally compelling and
+analytically thin at the same time—and who want a vocabulary for that
+condition that does not depend on blaming stupidity.
 
-- What the book is and is not:
+### **5. How the argument proceeds**
 
-  - not partisan
+Part I describes the economy we **describe**—compression, forecasts, and
+the experienced economy that increasingly anchors belief. Part II asks why
+**pain scales** farther than improvement and why resonance can substitute
+for explanation. Part III examines leadership and elections under
+interpretive stress. Part IV turns to resilience, reform, and the guardrails
+we forget until they are gone.
 
-  - not anti-expert
+The conclusion does not promise a return to an era when a single narrative
+could orient a nation. It asks what leadership might look like when
+preserving meaning long enough for disagreement to remain bearable is the
+task—not achieving perfect agreement.
 
-  - not a policy manifesto
-
-  - a structural examination of legitimacy under interpretive strain
+[^intro-cpi]: verify source — BLS/CPI reporting and public perception gaps (2022–2024).
