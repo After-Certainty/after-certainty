@@ -183,6 +183,3 @@ less effective.
 - **Irreparability** — the point at which transparency, dialogue, or
   accountability no longer function because interpretation itself has
   been displaced.
-
-\
-=

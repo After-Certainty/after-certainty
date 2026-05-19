@@ -33,9 +33,10 @@ Campaign rallies, social media engagement, and partisan media ecosystems
 reinforced group cohesion.⁵
 
 Public disagreement intensified during major events, including the
-
-consistency in signaling alignment. Interpretation persisted;
-cross-group persuasion ceased to be operative.⁶
+COVID-19 pandemic, impeachment proceedings, and the January 6, 2021,
+attack on the United States Capitol. Through each episode, interpretation
+persisted within and across groups, but cross-group persuasion ceased to
+be operative.⁶
 
 The case is instructive not because of personality or intent, but
 because it shows how authority can operate when legitimacy is maintained

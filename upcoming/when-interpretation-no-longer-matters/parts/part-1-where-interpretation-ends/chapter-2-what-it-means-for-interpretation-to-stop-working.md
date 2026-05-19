@@ -206,6 +206,3 @@ acceptance, resistance, or repair.
 - **Narrative enclosure** — authority stabilized by an interpretive
   system that absorbs all evidence and renders external meaning unable
   to enter as correction.
-
-\
--
