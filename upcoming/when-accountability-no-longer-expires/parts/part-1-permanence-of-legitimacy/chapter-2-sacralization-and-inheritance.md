@@ -170,21 +170,8 @@ way encounters harm.
 Not spectacular harm.\
 Not malicious harm.
 
-But ordinary harm that arises when durable authority continues to act.
+But ordinary harm that arises when durable authority continues to act.[^c2-weber-tradition][^c2-arendt-tradition]
 
-### **Footnotes**
+[^c2-weber-tradition]: Max Weber, *Economy and Society*, vol. 1 (Berkeley: University of California Press, 1978).
+[^c2-arendt-tradition]: Hannah Arendt, "Tradition and the Modern Age" in *Between Past and Future* (New York: Penguin, 2006).
 
-1.  Max Weber describes how legitimacy becomes traditionalized over
-    time, shifting from justification by performance or consent to
-    justification by continuity. See *Economy and Society*, Vol. 1
-    (University of California Press, 1978).
-
-2.  Hannah Arendt warns that tradition can preserve authority while
-    emptying it of its original grounding, making critique feel like
-    betrayal rather than responsibility. See “Tradition and the Modern
-    Age” in *Between Past and Future* (Penguin, 2006).
-
-\
-=
-
-# Part II — Harm After Accountability

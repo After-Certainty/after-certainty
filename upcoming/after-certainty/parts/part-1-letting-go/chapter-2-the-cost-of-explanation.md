@@ -58,7 +58,7 @@ At scale, this pattern becomes entrenched. Institutions explain outcomes
 instead of addressing effects. Leaders narrate constraints instead of
 naming tradeoffs.
 
-Explanation, here, does not reduce suffering. It repackages it.¹
+Explanation, here, does not reduce suffering. It repackages it.[^c2-explanation-moral-work]
 
 The question is not whether explanation is accurate, but whether it is
 still doing moral work rather than replacing it.
@@ -84,7 +84,7 @@ understanding becomes motion without arrival.
 What feels like intellectual rigor is often emotional avoidance.
 
 We explain because stopping feels irresponsible—even when continued
-explanation no longer changes what we see or what is required.²
+explanation no longer changes what we see or what is required.[^c2-analysis-paralysis]
 
 ### **The Quiet Displacement of Responsibility**
 
@@ -169,15 +169,5 @@ us.
 What comes next is not clearer understanding, but judgment carried
 without relief.
 
-### **Footnotes**
-
-¹ This dynamic parallels critiques in moral philosophy and sociology
-where structural explanation, while descriptively accurate, can function
-to obscure responsibility when treated as morally sufficient.
-
-² Similar concerns appear in work on “analysis paralysis” and in grief
-psychology, where excessive meaning-making can interfere with emotional
-processing rather than support it.
-
-\
--
+[^c2-explanation-moral-work]: See Charles Taylor, *Sources of the Self* (Cambridge, MA: Harvard University Press, 1989); Zygmunt Bauman, *Modernity and the Holocaust* (Ithaca, NY: Cornell University Press, 1989).
+[^c2-analysis-paralysis]: See Herbert A. Simon, "A Behavioral Model of Rational Choice," *Quarterly Journal of Economics* 69, no. 1 (1955): 99–118; Pauline Boss, *Ambiguous Loss* (Cambridge, MA: Harvard University Press, 1999).

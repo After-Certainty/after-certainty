@@ -77,7 +77,7 @@ crowds out quieter forms of care that do not translate into public
 language.
 
 When speech is driven more by visibility than by contact with harm, it
-risks becoming extractive rather than responsive.¹
+risks becoming extractive rather than responsive.[^c6-performative-speech]
 
 ### **Choosing Proportion Over Persuasion**
 
@@ -96,7 +96,7 @@ briefly. Sometimes it is slowing the conversation down. Sometimes it is
 refusing to escalate. And sometimes, it is choosing not to speak at all.
 
 Silence here is not surrender.\
-It is restraint.
+It is restraint.[^c6-proportionality]
 
 ### **Speaking Without Demanding Resolution**
 
@@ -161,12 +161,5 @@ It does not ensure understanding.
 But it allows participation without pretending that language alone can
 carry moral weight at scale.
 
-### **Footnotes**
-
-¹ This concern echoes critiques in communication theory and media
-studies regarding performative speech and moral signaling, where
-visibility and alignment can crowd out substantive engagement.
-
-² The emphasis on proportionality parallels ethical discussions in
-applied ethics and just war theory, where restraint is considered a
-moral achievement rather than a failure of commitment.
+[^c6-performative-speech]: See Erving Goffman, *The Presentation of Self in Everyday Life* (Garden City, NY: Doubleday, 1959); Cass R. Sunstein, *#Republic* (Princeton, NJ: Princeton University Press, 2017).
+[^c6-proportionality]: See Michael Walzer, *Just and Unjust Wars*, 5th ed. (New York: Basic Books, 2015).

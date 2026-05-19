@@ -97,7 +97,7 @@ from personal judgment to role compliance.
 
 Scale alters not only how societies function, but how moral
 responsibility is perceived—introducing abstraction, delay, and distance
-between action and consequence.⁶
+between action and consequence.[^c4-scale-abstraction]
 
 Older moral tools—ritual repetition, personal authority, inherited
 obedience—could not fully compensate for this shift.
@@ -125,3 +125,5 @@ and meaning is reshaped to travel farther than it ever had before.
 
 \
 -
+
+[^c4-scale-abstraction]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978); Hannah Arendt, *Responsibility and Judgment* (New York: Schocken Books, 2003).

@@ -171,15 +171,7 @@ It simply asks:
 Given what I can see and what I can affect, how will I show care without
 illusion?
 
-After certainty, that question is enough.
+After certainty, that question is enough.[^c5-responsibility-outcome][^c5-many-hands]
 
-### **Footnotes**
-
-¹ This reframing aligns with ethical traditions that distinguish
-responsibility from outcome, including virtue ethics and care ethics,
-which emphasize attentiveness and responsiveness over control.
-
-² The temptation toward moral innocence in complex systems has been
-widely discussed in organizational ethics and political theory,
-particularly in relation to diffusion of responsibility and “many hands”
-problems.
+[^c5-responsibility-outcome]: See Joan C. Tronto, *Moral Boundaries* (New York: Routledge, 1993).
+[^c5-many-hands]: See Dennis F. Thompson, "Moral Responsibility of Public Officials," *American Political Science Review* 74, no. 4 (1980): 905–916.

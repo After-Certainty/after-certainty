@@ -169,20 +169,11 @@ and expectations shift without collapse or confession.
 
 When suffering is managed this way, institutions do not appear immoral.
 
-They appear stable.
+They appear stable.[^c4-vaughan-challenger][^c4-bauman-distance]
 
-### **Footnotes**
 
-1.  For analyses of how organizations distribute blame and protect core
-    authority, see Diane Vaughan, *The Challenger Launch Decision*
-    (University of Chicago Press, 1996).
 
-2.  On time-shifted consequences and moral distance, see Zygmunt Bauman,
-    *Modernity and the Holocaust* (Cornell University Press, 2000),
-    particularly the discussion of administrative distance and
-    responsibility.
-
-\
--
+[^c4-vaughan-challenger]: Diane Vaughan, *The Challenger Launch Decision* (Chicago: University of Chicago Press, 1996).
+[^c4-bauman-distance]: Zygmunt Bauman, *Modernity and the Holocaust* (Ithaca, NY: Cornell University Press, 2000).
 
 ## **Chapter 5 — Moral Drift Without Collapse**

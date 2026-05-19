@@ -6,9 +6,9 @@ Dashboard for eight nonfiction manuscripts under `upcoming/` (Velorum uses a sep
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
-| [After Certainty](../after-certainty/) | Editorial | ~9.5k words; 9 chapters + intro/conclusion in prose | Manuscript-wide editorial pass (Phase 4) | [status](../after-certainty/docs/status.md) |
-| [Before Certainty Arrives](../before-certainty-arrives/) | Editorial | ~9.2k words; 10 chapters + substantial front matter | Manuscript-wide editorial pass; endnotes integrity | [status](../before-certainty-arrives/docs/status.md) |
-| [When Accountability No Longer Expires](../when-accountability-no-longer-expires/) | Editorial | ~12.3k words; 12 chapters + bridges + interlude | Manuscript-wide editorial pass | [status](../when-accountability-no-longer-expires/docs/status.md) |
+| [After Certainty](../after-certainty/) | Editorial | ~9.5k words; 9 chapters + intro/conclusion in prose | Author read-through; expand citations at pivots | [status](../after-certainty/docs/status.md) |
+| [Before Certainty Arrives](../before-certainty-arrives/) | Editorial | ~9.2k words; 10 chapters + substantial front matter | Manuscript-wide editorial pass; bibliography and citations | [status](../before-certainty-arrives/docs/status.md) |
+| [When Accountability No Longer Expires](../when-accountability-no-longer-expires/) | Editorial | ~12.3k words; 12 chapters + bridges + interlude | Author read-through; bridge/interlude continuity | [status](../when-accountability-no-longer-expires/docs/status.md) |
 | [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/) | First draft + cleanup | ~13.3k words; case-study template across 13 chapters | Fix Ch 1 title/filename mismatch; Ch 5 opening gap; unify template | [status](../when-interpretation-no-longer-matters/docs/status.md) |
 | [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/) | First draft | ~3.5k words; Ch 1–2 prose, Ch 3–8 outlines | Draft Ch 3–8 from domain scaffolds | [status](../when-incentives-become-the-moral-language/docs/status.md) |
 | [The Discipline of Uncertainty](../the-discipline-of-uncertainty/) | Structural / outline | ~790 words; 12 chapter bullet scaffolds | Expand Ch 1–2 to prose; align index subtitle with `book.yml` | [status](../the-discipline-of-uncertainty/docs/status.md) |

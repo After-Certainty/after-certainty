@@ -104,7 +104,7 @@ The discipline of not knowing does not deny that some things are clearer
 than others. It does not flatten distinctions. It resists the urge to
 treat uncertainty as license for disengagement.
 
-Not knowing is held in service of care, not as an escape from it.¹
+Not knowing is held in service of care, not as an escape from it.[^c7-uncertainty-relativism]
 
 ### **Practicing Not Knowing in Public**
 
@@ -136,17 +136,7 @@ simplification.
 After certainty, the discipline is not finding better answers.
 
 It is learning how to live without them—\
-without collapsing, and without pretending.
+without collapsing, and without pretending.[^c7-contemplative-pragmatist]
 
-### **Footnotes**
-
-¹ This distinction echoes work in epistemology and moral psychology that
-separates uncertainty from relativism, emphasizing disciplined humility
-rather than skepticism as an ethical posture.
-
-² Similar ideas appear in contemplative traditions and pragmatist
-philosophy, where uncertainty is treated as a condition for
-responsiveness rather than an obstacle to action.
-
-\
--
+[^c7-uncertainty-relativism]: See Miranda Fricker, *Epistemic Injustice* (Oxford: Oxford University Press, 2007).
+[^c7-contemplative-pragmatist]: See John Dewey, *Experience and Nature* (1925; repr., Mineola, NY: Dover, 1958).

@@ -57,7 +57,7 @@ Over time, the hero becomes less accountable, not more trusted. Their
 authority is protected by narrative rather than by ongoing
 justification.
 
-What began as admiration becomes insulation.¹
+What began as admiration becomes insulation.[^c3-motivated-reasoning]
 
 ### **What Villains Make Easy**
 
@@ -77,7 +77,7 @@ own participation. If wrongdoing is exceptional, then ordinary processes
 remain unquestioned.
 
 Villains allow moral distance. They keep us from asking how similar
-dynamics might operate closer to home—or through us.²
+dynamics might operate closer to home—or through us.[^c3-villain-narratives]
 
 ### **Moral Neutrality Is Not the Alternative**
 
@@ -154,15 +154,5 @@ This is not satisfying in the way stories are satisfying.
 
 But it is sustainable in a way stories are not.
 
-### **Footnotes**
-
-¹ This dynamic mirrors research in social psychology on motivated
-reasoning and halo effects, where positive global judgments suppress
-attention to disconfirming evidence.
-
-² The reliance on villain narratives as moral containment has been
-widely discussed in transitional justice and organizational ethics,
-where individual blame can obscure systemic causes.
-
-\
--
+[^c3-motivated-reasoning]: See Lee Ross and Richard E. Nisbett, *The Person and the Situation* (New York: McGraw-Hill, 1991).
+[^c3-villain-narratives]: See Martha Minow, *Between Vengeance and Forgiveness* (Boston: Beacon Press, 1998).

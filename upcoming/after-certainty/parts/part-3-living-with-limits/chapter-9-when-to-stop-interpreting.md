@@ -22,7 +22,7 @@ fully understood in cause.
 This chapter names a difficult ethical skill: knowing when to stop.
 
 Not because understanding is complete.\
-But because further understanding no longer helps.
+But because further understanding no longer helps.[^c9-interpretive-patience][^c9-clarity-without-understanding]
 
 ### **When Interpretation Turns Into Delay**
 
@@ -163,15 +163,7 @@ remain unfinished.
 
 After certainty, the discipline is not knowing more.
 
-It is knowing when more knowing no longer helps.
+It is knowing when more knowing no longer helps.[^c9-interpretive-patience][^c9-clarity-without-understanding]
 
-### **Footnotes**
-
-¹ This distinction between interpretive patience and moral delay appears
-in moral philosophy, political theory, and trauma studies, where
-excessive contextualization can function to defer responsibility rather
-than clarify it.
-
-² The idea that clarity can survive without full understanding echoes
-pragmatic and phenomenological traditions, which emphasize
-responsiveness to effects over completeness of explanation.
+[^c9-interpretive-patience]: See Judith Butler, *Frames of War* (London: Verso, 2009).
+[^c9-clarity-without-understanding]: See Maurice Merleau-Ponty, *Phenomenology of Perception*, trans. Donald A. Landes (London: Routledge, 2012).

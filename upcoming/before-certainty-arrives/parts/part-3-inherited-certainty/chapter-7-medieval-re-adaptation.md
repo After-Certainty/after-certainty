@@ -94,7 +94,7 @@ shared belief rather than shared infrastructure, certainty becomes
 protective.
 
 This is not yet dogma in the modern sense. It is moral compression under
-renewed constraint.⁷
+renewed constraint.[^c7-readaptation]
 
 ### **Re-Adaptation, Not Regression**
 
@@ -148,3 +148,5 @@ It held.
 
 \
 -
+
+[^c7-readaptation]: See E. H. Carr, *What Is History?* (New York: Vintage Books, 1961).

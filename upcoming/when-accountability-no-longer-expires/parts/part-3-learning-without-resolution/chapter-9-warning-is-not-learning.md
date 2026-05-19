@@ -133,7 +133,7 @@ This is the point at which Hannah Arendt becomes useful—not as a
 solution, but as a clarification.
 
 Arendt warned that understanding evil does not prevent it. That insight,
-by itself, does not constrain action.¹
+by itself, does not constrain action.[^c9-arendt-warning]
 
 Knowledge is not a safeguard.
 
@@ -187,9 +187,8 @@ When warning is absorbed as wisdom, stability follows.
 
 Even when everyone knows better.
 
-### **Footnotes**
 
-1.  Hannah Arendt, *Between Past and Future* (Penguin, 2006), especially
-    “What Is Authority?” and “The Gap Between Past and Future.”
+
+[^c9-arendt-warning]: Hannah Arendt, *Between Past and Future* (New York: Penguin, 2006), esp. "What Is Authority?" and "The Gap Between Past and Future."
 
 ## **Chapter 10 — The Stable Equilibrium**

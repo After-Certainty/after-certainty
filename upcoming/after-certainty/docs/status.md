@@ -6,7 +6,7 @@
 
 ## Active branch
 
-None.
+`upcoming/editorial-quick-wins`
 
 ## Manuscript hub
 
@@ -24,23 +24,24 @@ None.
 |------|-------|-------|
 | Title Page | draft | Generated via `book.yml` |
 | Copyright | draft | Generated via `book.yml` |
-| Introduction | draft | Full prose |
-| Ch 1 — The End of Correctness | draft | Ready for editorial |
-| Ch 2 — The Cost of Explanation | draft | Ready for editorial |
-| Ch 3 — Releasing Heroes and Villains | draft | Ready for editorial |
-| Ch 4 — Judgment Without Finality | draft | Ready for editorial |
-| Ch 5 — Responsibility Without Control | draft | Ready for editorial |
-| Ch 6 — Speech That Does Less Harm | draft | Ready for editorial |
-| Ch 7 — The Discipline of Not Knowing | draft | Ready for editorial |
-| Ch 8 — Staying Human at Scale | draft | Ready for editorial |
-| Ch 9 — When to Stop Interpreting | draft | Ready for editorial |
-| Conclusion — Enough | draft | Full prose |
+| Introduction | draft | Pandoc footnotes; Phase 4 copy pass |
+| Ch 1 — The End of Correctness | draft | Pandoc footnotes |
+| Ch 2 — The Cost of Explanation | draft | Pandoc footnotes |
+| Ch 3 — Releasing Heroes and Villains | draft | Pandoc footnotes; index title aligned |
+| Ch 4 — Judgment Without Finality | draft | Pandoc footnotes |
+| Ch 5 — Responsibility Without Control | draft | Pandoc footnotes |
+| Ch 6 — Speech That Does Less Harm | draft | Pandoc footnotes |
+| Ch 7 — The Discipline of Not Knowing | draft | Pandoc footnotes |
+| Ch 8 — Staying Human at Scale | draft | Pandoc footnotes |
+| Ch 9 — When to Stop Interpreting | draft | Pandoc footnotes |
+| Conclusion — Enough | draft | Pandoc footnotes |
+| Bibliography | draft | Chicago-style; linked from index |
 
 ## Next actions
 
-1. Run Phase 4 structural cohesion pass across Parts I–III.
-2. Global echo pass; tighten repeated “limits / judgment” framings.
-3. Citation pass on claims that need grounding.
+1. Author read-through of Part I–III cohesion and echo compression.
+2. Expand citation density at remaining structural pivots if needed.
+3. Final linkage check before Phase 5 promote.
 
 ## Open decisions / known issues
 

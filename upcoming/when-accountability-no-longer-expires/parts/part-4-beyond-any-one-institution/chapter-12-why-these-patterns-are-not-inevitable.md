@@ -106,7 +106,7 @@ Hannah Arendt rejected the idea that historical patterns unfold
 automatically.
 
 She argued that human action always retains the capacity to
-interrupt—even when that interruption is dangerous.¹
+interrupt—even when that interruption is dangerous.[^c12-arendt-freedom]
 
 But she did not romanticize that capacity.
 
@@ -156,12 +156,8 @@ What would it actually mean for legitimacy to expire?
 
 And why might we decide—rationally—not to try?
 
-### **Footnotes**
 
-1.  Hannah Arendt, *Between Past and Future* (Penguin, 2006), especially
-    “The Concept of History: Ancient and Modern” and “What Is Freedom?”
 
-\
--
+[^c12-arendt-freedom]: Hannah Arendt, *Between Past and Future* (New York: Penguin, 2006), esp. "The Concept of History: Ancient and Modern" and "What Is Freedom?"
 
 ## **Conclusion — What It Would Mean for Legitimacy to Expire**

@@ -132,7 +132,7 @@ This book is an exercise in diagnosis, not cure.
 
 As Hannah Arendt once noted—less as a solution than as a warning—clarity
 alone does not interrupt power. Insight explains. It does not
-constrain.¹
+constrain.[^preface-arendt-clarity]
 
 ### **What you can expect going forward**
 
@@ -175,13 +175,10 @@ of the hardest moral conditions to see clearly.
 
 That is why this book exists.
 
-### **Footnotes**
 
-1.  Hannah Arendt, *Between Past and Future* (New York: Penguin, 2006),
-    especially the essays “What Is Authority?” and “Tradition and the
-    Modern Age.”
 
-\
--
+
+
+[^preface-arendt-clarity]: Hannah Arendt, *Between Past and Future* (New York: Penguin, 2006), esp. "What Is Authority?" and "Tradition and the Modern Age."
 
 ## **Introduction — The Puzzle of Moral Persistence**

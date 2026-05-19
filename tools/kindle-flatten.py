@@ -90,6 +90,24 @@ def parse_index_links_with_part_markers(index_text: str) -> list[tuple[str | Non
     return out
 
 
+def ensure_blank_line_before_footnote_definitions(text: str) -> str:
+    """Pandoc requires a blank line before [^id]: definitions; otherwise they merge into the prior paragraph and EPUB shows raw anchors."""
+    lines = text.splitlines()
+    out: list[str] = []
+    for i, line in enumerate(lines):
+        if (
+            i > 0
+            and re.match(r"^\[\^[^\]]+\]:", line)
+            and lines[i - 1].strip()
+            and not re.match(r"^\[\^", lines[i - 1])
+            and out
+            and out[-1].strip()
+        ):
+            out.append("")
+        out.append(line)
+    return "\n".join(out).strip() + "\n"
+
+
 def strip_inline_cover_image(text: str) -> str:
     # Drop inline BookCover from each chunk (--epub-cover-image supplies the cover).
     # front-matter/title-page.md must still have real headings/text after this strip,
@@ -130,6 +148,7 @@ def main() -> None:
         text = strip_inline_cover_image(text)
         if args.flatten_custom_blocks:
             text = flatten_custom_blocks(text)
+        text = ensure_blank_line_before_footnote_definitions(text)
         body = text.strip()
         if part_h1:
             body = f"{part_h1}\n\n{body}"

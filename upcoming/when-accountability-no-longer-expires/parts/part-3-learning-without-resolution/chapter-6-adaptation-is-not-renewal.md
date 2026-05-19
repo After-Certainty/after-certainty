@@ -176,18 +176,11 @@ constrained, and authority flows forward untouched.
 
 Adaptation is not the end of learning.
 
-It is the beginning of equilibrium.
+It is the beginning of equilibrium.[^c6-march-learning][^c6-argyris-reform]
 
-### **Footnotes**
 
-1.  On organizational learning and post-crisis adaptation, see James G.
-    March, “Exploration and Exploitation in Organizational Learning,”
-    *Organization Science* 2, no. 1 (1991).
 
-2.  For analysis of reform without power shift, see Chris Argyris, *On
-    Organizational Learning* (Blackwell, 1999).
-
-\
--
+[^c6-march-learning]: James G. March, "Exploration and Exploitation in Organizational Learning," *Organization Science* 2, no. 1 (1991): 71–87.
+[^c6-argyris-reform]: Chris Argyris, *On Organizational Learning*, 2nd ed. (Malden, MA: Blackwell, 1999).
 
 ## **Chapter 7 — Correction Without Consequence**

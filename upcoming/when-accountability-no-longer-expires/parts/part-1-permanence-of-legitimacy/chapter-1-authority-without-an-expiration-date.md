@@ -166,20 +166,11 @@ origin stories, founding moments, and inherited roles begin to do moral
 work long after they should have been reexamined.
 
 Before we can understand harm, reform, or learning, we must first
-understand how authority learns to endure.
+understand how authority learns to endure.[^c1-weber-authority][^c1-arendt-authority]
 
-### **Footnotes**
 
-1.  Max Weber’s distinction between traditional, charismatic, and
-    legal-rational authority remains foundational for understanding how
-    legitimacy is conferred and sustained. See *Economy and Society*,
-    Vol. 1 (University of California Press, 1978).
 
-2.  Hannah Arendt distinguishes authority from coercion and persuasion,
-    emphasizing its dependence on recognition rather than force. See
-    “What Is Authority?” in *Between Past and Future* (Penguin, 2006).
-
-\
--
+[^c1-weber-authority]: Max Weber, *Economy and Society*, vol. 1 (Berkeley: University of California Press, 1978).
+[^c1-arendt-authority]: Hannah Arendt, "What Is Authority?" in *Between Past and Future* (New York: Penguin, 2006).
 
 ## **Chapter 2 — Sacralization and Inheritance**

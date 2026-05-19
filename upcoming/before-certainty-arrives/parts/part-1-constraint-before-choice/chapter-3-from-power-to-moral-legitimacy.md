@@ -86,7 +86,7 @@ Sacred authority resists correction. It cannot easily revise itself
 without appearing illegitimate. Over time, the tools that once
 coordinated society begin to outlive the conditions that made them
 effective. What began as stabilization becomes rigidity. What began as
-protection becomes fragility.⁶
+protection becomes fragility.[^c3-sacred-authority]
 
 This does not mean sacred authority was a mistake.
 
@@ -121,3 +121,5 @@ It carries forward.
 
 \
 =
+
+[^c3-sacred-authority]: See Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973); Thomas S. Kuhn, *The Structure of Scientific Revolutions* (Chicago: University of Chicago Press, 1962).
