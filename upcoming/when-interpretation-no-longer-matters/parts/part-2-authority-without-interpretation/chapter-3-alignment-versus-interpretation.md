@@ -1,6 +1,38 @@
 # **Chapter 3**
 
-## **Identity Saturation**
+## **Alignment Versus Interpretation**
+
+Interpretation can persist even when persuasion collapses. This chapter
+examines a form of authority in which meaning continues to circulate,
+arguments continue to be made, and evidence continues to appear—yet
+interpretation no longer mediates legitimacy across groups.¹
+
+In these cases, disagreement does not function as a contest over
+meaning. It functions as a sorting mechanism. Authority persists not
+because claims withstand shared evaluation, but because they maintain
+alignment.²
+
+This chapter clarifies how legitimacy can remain stable amid
+contradiction, conflict, and factual dispute—so long as interpretation
+no longer connects groups to one another.³
+
+## **The Event in Brief**
+
+Donald Trump (b. 1946) entered national politics in 2015 with a presidential campaign that challenged both major parties’ leadership norms. His messaging emphasized immigration restriction, trade protectionism, national identity, and opposition to political elites.
+
+
+During the 2016 campaign and throughout his presidency (2017–2021),
+Trump frequently made statements that were described by critics as
+contradictory, exaggerated, or factually inaccurate. Fact-checking
+organizations documented repeated disputes over claims involving
+election integrity, public health, immigration, and foreign policy.⁴
+
+Despite persistent controversy, public criticism, and ongoing factual
+disputes, his support among core voters remained comparatively stable.
+Campaign rallies, social media engagement, and partisan media ecosystems
+reinforced group cohesion.⁵
+
+Public disagreement intensified during major events, including the
 
 consistency in signaling alignment. Interpretation persisted;
 cross-group persuasion ceased to be operative.⁶
@@ -122,62 +154,3 @@ authority between groups, even in open environments.²²
 21. Mouffe, *The Democratic Paradox*.
 
 22. Chapter 4, *When Authority Is Misread*.
-
-# Chapter 4: Identity Saturation
-
-Interpretation can fail not because it is rejected, but because it
-becomes unnecessary.¹ This chapter examines a form of authority in which
-legitimacy is no longer negotiated through evaluation, but absorbed into
-identity itself.
-
-In such cases, disagreement does not threaten authority. It reinforces
-it by clarifying who belongs and who does not. Meaning remains active,
-but it no longer adjudicates claims or resolves contradiction.²
-
-This chapter shows how authority can persist even when interpretations
-diverge widely—so long as allegiance remains intact.³
-
-## **The Event in Brief**
-
-Juan Perón (1895–1974) rose to prominence in Argentina during the 1940s. Initially serving as Secretary of Labor and later as Vice President, he built a political base among urban workers through labor reforms, social welfare programs, and nationalist rhetoric.⁴
-
-
-Elected president in 1946, Perón combined economic interventionism,
-social redistribution, and strong executive authority. His
-movement—Peronism—mobilized unions, working-class voters, and
-nationalist constituencies. His wife, Eva Perón, became a powerful
-symbolic figure, reinforcing emotional identification with the
-movement.⁵
-
-Perón’s policies shifted over time. His first presidency emphasized
-industrialization and labor rights. Later periods involved economic
-austerity, repression of dissent, and increasing political polarization.
-He was overthrown in 1955, lived in exile, and returned to power briefly
-in 1973 before his death in 1974.⁵
-
-Despite exile, ideological shifts, and internal fragmentation, Peronism
-endured. Competing factions claimed the Peronist mantle, often
-advocating divergent policies while maintaining identification with the
-movement’s symbols and legacy.⁶
-
-The continuity of allegiance outlasted coherence of program.
-
-## **Leader Focus: Juan Perón**
-
-This is a case where authority became identity, allowing contradiction
-without loss of legitimacy.
-
-Perón’s authority did not depend on stable ideology or consistent
-policy. It depended on identification with Peronism as a political and
-social identity.⁴
-
-Supporters did not need agreement on specific policies. They needed to
-recognize themselves in the movement’s symbols, narratives, and
-collective memory. Policies shifted, alliances changed, interpretations
-conflicted—yet allegiance persisted.⁵
-
-This was not a failure of understanding. Competing interpretations of
-Perón coexisted openly. What mattered was continued identification with
-the leader and the movement he symbolized.⁶
-
-The case is useful not because of Perón’s personal qualities, but

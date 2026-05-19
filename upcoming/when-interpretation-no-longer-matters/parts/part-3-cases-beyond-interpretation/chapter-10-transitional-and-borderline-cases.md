@@ -1,6 +1,63 @@
 # **Chapter 10**
 
-## **Why Judgment Feels Impossible**
+## **Transitional and Borderline Cases**
+
+Not all authority systems cross the boundary into post-interpretive
+regimes cleanly.¹ This chapter examines transitional and borderline
+cases—situations in which interpretive strain hardens gradually into
+enclosure, alignment, or performance rather than flipping abruptly.
+
+These cases are valuable not because they are ambiguous, but because
+they make the process visible. Interpretation still operates, but its
+scope narrows. Dissent is not yet forbidden, but it is reclassified.
+Repair becomes costly before it becomes impossible.²
+
+This chapter shows how authority can drift toward enclosure without
+abandoning the language of transparency, reason, or accountability.³
+
+## **The Event in Brief**
+
+Elizabeth Holmes (b. 1984) founded Theranos in 2003, promoting a technology that claimed to perform extensive blood testing from a small finger-prick sample. The company attracted major investors, prominent board members, and partnerships with national pharmacy chains.⁴
+
+
+Early legitimacy rested on plausibility, narrative coherence, and the
+promise of eventual technical validation. Theranos operated in secrecy,
+citing proprietary innovation. Public demonstrations were limited and
+tightly controlled.
+
+As internal doubts and external questions emerged, access to data
+remained restricted. Independent verification was delayed. Employees who
+raised concerns encountered legal pressure or isolation.⁵
+
+Investigative reporting in 2015 exposed major discrepancies between
+claims and capabilities. Regulatory scrutiny followed, the company
+collapsed, and Holmes was later convicted of fraud.
+
+The shift did not occur overnight. Interpretation narrowed gradually
+before it lost force entirely.
+
+## **Leader Focus: Elizabeth Holmes**
+
+This is a case where institutional interpretation narrowed gradually,
+losing leverage before collapsing.
+
+Holmes’s authority did not begin in a post-interpretive condition. Early
+legitimacy depended on plausibility, reputation, and anticipated
+validation.⁴
+
+As doubts surfaced, interpretation did not disappear—it narrowed.
+Questions were reframed as insufficient vision, lack of commitment, or
+misunderstanding of complexity. Access to information became selective.
+Independent evaluation was deferred or discredited.⁵
+
+Many participants recognized inconsistencies. What changed was not
+awareness, but leverage. Interpretation persisted, but it no longer
+altered authority’s standing. The system moved from strained
+interpretation toward partial enclosure without formally sealing
+itself.⁶
+
+The case is instructive not because of fraud alone, but because it shows
+how authority can cross the boundary incrementally—by redefining what
 
 counts as relevant interpretation.⁷
 
@@ -129,44 +186,3 @@ less effective.
 
 \
 =
-
-# Chapter 11: Why Judgment Feels Impossible
-
-Some authority regimes render judgment simultaneously obvious and
-useless.¹ This chapter examines why—showing how moral clarity can
-increase certainty without restoring leverage when interpretation no
-longer mediates authority.
-
-In these conditions, condemnation does not fail because it is
-inaccurate. It fails because it no longer connects to consequence.
-Judgment becomes expressive rather than corrective.²
-
-This chapter explains why readers often feel moral exhaustion or
-helplessness when encountering such cases—and why that reaction signals
-a structural limit rather than a personal failure.³
-
-## **The Event in Brief**
-
-Pol Pot (1925–1998), leader of the Khmer Rouge, took control of Cambodia in April 1975. The regime sought to create a radically agrarian society by dismantling urban life and abolishing existing institutions.⁴
-
-
-Cities were emptied. Currency was eliminated. Schools, media, religious
-institutions, and professional roles were dismantled. Intellectuals and
-perceived political enemies were imprisoned, tortured, or executed. The
-regime established prison centers such as S-21 (Tuol Sleng), where
-forced confessions and systematic violence occurred.⁵
-
-Between 1975 and 1979, approximately 1.5 to 2 million people died from
-execution, forced labor, starvation, and disease.
-
-The system did not merely suppress dissent. It dismantled the
-institutional and linguistic structures through which interpretation
-could coordinate resistance or evaluation.
-
-Moral clarity about suffering remained possible. Mechanisms for
-consequence did not.
-
-## **Leader Focus: Pol Pot**
-
-This is a case where the conditions for interpretation were destroyed,
-leaving judgment without consequence.

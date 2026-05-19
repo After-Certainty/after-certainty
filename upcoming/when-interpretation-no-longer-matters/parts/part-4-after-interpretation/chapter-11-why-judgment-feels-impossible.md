@@ -1,6 +1,45 @@
 # **Chapter 11**
 
-## **What Cannot Be Repaired**
+## **Why Judgment Feels Impossible**
+
+Some authority regimes render judgment simultaneously obvious and
+useless.¹ This chapter examines why—showing how moral clarity can
+increase certainty without restoring leverage when interpretation no
+longer mediates authority.
+
+In these conditions, condemnation does not fail because it is
+inaccurate. It fails because it no longer connects to consequence.
+Judgment becomes expressive rather than corrective.²
+
+This chapter explains why readers often feel moral exhaustion or
+helplessness when encountering such cases—and why that reaction signals
+a structural limit rather than a personal failure.³
+
+## **The Event in Brief**
+
+Pol Pot (1925–1998), leader of the Khmer Rouge, took control of Cambodia in April 1975. The regime sought to create a radically agrarian society by dismantling urban life and abolishing existing institutions.⁴
+
+
+Cities were emptied. Currency was eliminated. Schools, media, religious
+institutions, and professional roles were dismantled. Intellectuals and
+perceived political enemies were imprisoned, tortured, or executed. The
+regime established prison centers such as S-21 (Tuol Sleng), where
+forced confessions and systematic violence occurred.⁵
+
+Between 1975 and 1979, approximately 1.5 to 2 million people died from
+execution, forced labor, starvation, and disease.
+
+The system did not merely suppress dissent. It dismantled the
+institutional and linguistic structures through which interpretation
+could coordinate resistance or evaluation.
+
+Moral clarity about suffering remained possible. Mechanisms for
+consequence did not.
+
+## **Leader Focus: Pol Pot**
+
+This is a case where the conditions for interpretation were destroyed,
+leaving judgment without consequence.
 
 ## **What Replaced Interpretation**
 
@@ -109,62 +148,3 @@ interpretation, stronger condemnation, or clearer moral language.²²
 21. *When Authority Is Misread*.
 
 22. Chapter 4, *When Authority Is Misread*.
-
-# Chapter 12: What Cannot Be Repaired
-
-Some authority failures cannot be repaired through better
-interpretation, clearer communication, or stronger accountability.¹ This
-chapter names those limits explicitly—not to abandon responsibility, but
-to prevent misdiagnosis.
-
-Across these cases, interpretation failed in different ways: displaced
-by alignment, absorbed into identity, sealed within narrative,
-suppressed through performance, or eliminated from public life. What
-unites them is not extremity of belief, but loss of mechanisms through
-which interpretation could still alter authority.²
-
-This chapter examines a case where repair was attempted repeatedly—and
-where each attempt intensified collapse rather than reversing it.³
-
-## **The Event in Brief**
-
-Mao Zedong (1893–1976) led the Chinese Communist Party to victory in 1949 and established the People’s Republic of China. After earlier campaigns such as the Great Leap Forward, Mao launched the Cultural Revolution in 1966 to reassert ideological purity and revolutionary commitment.⁴
-
-
-Students organized as Red Guards were encouraged to criticize party
-officials, intellectuals, and perceived “bourgeois” elements. Public
-struggle sessions, denunciations, and mass mobilization campaigns became
-widespread. Institutions—including schools, bureaucracies, and
-professional networks—were destabilized or dismantled.
-
-Study of Mao’s writings intensified. Citizens memorized slogans, debated
-doctrine, and participated in collective criticism and self-criticism.
-Interpretation was not suppressed; it was required.⁵
-
-The result was prolonged instability, factional conflict, and
-institutional breakdown. Attempts at correction repeatedly generated new
-waves of accusation and purification.
-
-Repair did not stabilize authority. It radicalized it.
-
-## **Leader Focus: Mao Zedong**
-
-This is a case where interpretation remained publicly active but became
-an instrument of authority rather than a constraint.
-
-Mao’s authority did not collapse because interpretation failed too
-early. It destabilized because interpretation was mobilized as an
-instrument of authority itself.⁴
-
-During the Cultural Revolution, citizens were encouraged—indeed
-required—to interpret, criticize, denounce, and reinterpret continually.
-Texts were studied, slogans refined, meanings debated. Interpretation
-intensified.⁵
-
-What disappeared was interpretive leverage. No interpretation could
-constrain authority because all interpretation was already aligned with
-it. Revision, confession, and denunciation did not repair legitimacy;
-they reproduced it. Each corrective act deepened instability rather than
-restoring accountability.⁶
-
-The case is instructive not because of ideological extremity alone, but

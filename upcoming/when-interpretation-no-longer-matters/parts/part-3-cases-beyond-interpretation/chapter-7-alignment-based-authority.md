@@ -1,6 +1,37 @@
 # **Chapter 7**
 
-## **Identity-Saturated Political Authority**
+## **Alignment-Based Authority**
+
+Authority can operate without persuasion when commitment precedes
+comprehension.¹ This chapter examines alignment-based authority at
+scale—a form of legitimacy that depends on prior assent rather than
+interpretive agreement.
+
+In such systems, authority does not require continuous justification.
+Once alignment is established, interpretation functions primarily to
+reinforce belonging rather than evaluate claims. Meaning remains active,
+but it is oriented toward maintenance rather than assessment.²
+
+This chapter shows how authority can scale globally while remaining
+insulated from interpretive challenge.³
+
+## **The Event in Brief**
+
+Sun Myung Moon (1920–2012) founded the Unification Church in South Korea in the 1950s. The movement combined Christian themes with Moon’s own theological claims, including a distinctive interpretation of salvation history and human restoration.⁴
+
+
+The church expanded internationally during the 1960s and 1970s,
+especially in the United States, Europe, and Japan. Public rallies,
+missionary outreach, and communal living arrangements became central
+features of recruitment and identity formation.⁵
+
+New members often entered through workshops and structured communal
+programs. Participation frequently preceded full theological
+comprehension. Over time, members engaged in intensive study of doctrine
+and ritual life.⁵
+
+The movement developed large-scale symbolic practices, including
+internationally televised mass wedding ceremonies, business enterprises,
 
 how authority can persist when assent precedes understanding and
 interpretation becomes structurally downstream from loyalty.⁷
@@ -116,61 +147,3 @@ legitimacy.²²
 21. *How Meaning Moves*.
 
 22. Chapter 4, *When Authority Is Misread*.
-
-# Chapter 8: Identity-Saturated Political Authority
-
-Political authority can become insulated from interpretation when
-legitimacy is absorbed into identity rather than justified through
-performance or persuasion.¹ This chapter examines identity-saturated
-political authority—a form in which belonging substitutes for evaluation
-and allegiance outlasts coherence.
-
-In such systems, disagreement does not threaten legitimacy. It sharpens
-identity boundaries. Interpretation continues, but it no longer
-constrains authority or resolves contradiction.²
-
-This chapter shows how political authority can persist even as policies,
-outcomes, and explanations diverge—so long as identity remains intact.³
-
-## **The Event in Brief**
-
-Hugo Chávez (1954–2013) rose to prominence in Venezuela after a failed military coup in 1992 and was elected president in 1998 on a platform of anti-elite reform and social redistribution.⁴ He framed his project as the “Bolivarian Revolution,” invoking national sovereignty, social justice, and resistance to foreign influence.
-
-
-During his presidency (1999–2013), Chávez expanded executive authority,
-rewrote the constitution, increased state control over key industries,
-and implemented extensive social programs funded by oil revenues.⁵ His
-government combined electoral participation with growing institutional
-centralization.
-
-Economic volatility, inflation, and policy reversals marked later years
-of his rule. Critics cited mismanagement and erosion of democratic
-norms. Yet Chávez maintained substantial support among core
-constituencies, particularly lower-income voters who identified strongly
-with his rhetoric of inclusion and national dignity.⁵
-
-Public political life became saturated with symbolic language, televised
-addresses, rallies, and direct appeals to “the people.” Support and
-opposition hardened into competing identity blocs.
-
-The durability of Chávez’s authority did not depend on stable policy
-outcomes. It depended on sustained identification.
-
-## **Leader Focus: Hugo Chávez**
-
-This is a case where political authority was sustained through
-collective identity rather than evaluative agreement.
-
-Chávez’s authority did not depend on maintaining consistent policy or
-coherent explanation across time. It depended on symbolic identification
-with “the people” as a moral and political identity.⁴
-
-Supporters did not need agreement on programmatic detail. They needed to
-recognize Chávez as embodiment of a collective identity defined against
-elites and external powers. Policies shifted, outcomes varied,
-contradictions accumulated—yet legitimacy persisted.⁵
-
-This persistence did not require ignorance. Many supporters recognized
-economic failures or inconsistencies. What mattered was continued
-identification with Chávez as representative of belonging and
-resistance.⁶
