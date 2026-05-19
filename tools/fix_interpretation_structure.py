@@ -26,32 +26,25 @@ TITLES = {
 }
 
 CHAPTER_FILES = {
-    1: BOOK
-    / "parts/part-1-where-interpretation-ends/chapter-1-the-boundary-we-could-not-cross.md",
+    1: BOOK / "parts/part-1-where-interpretation-ends/chapter-1-the-boundary-we-could-not-cross.md",
     2: BOOK
     / "parts/part-1-where-interpretation-ends/chapter-2-what-it-means-for-interpretation-to-stop-working.md",
     3: BOOK
     / "parts/part-2-authority-without-interpretation/chapter-3-alignment-versus-interpretation.md",
-    4: BOOK
-    / "parts/part-2-authority-without-interpretation/chapter-4-identity-saturation.md",
+    4: BOOK / "parts/part-2-authority-without-interpretation/chapter-4-identity-saturation.md",
     5: BOOK
     / "parts/part-2-authority-without-interpretation/chapter-5-coercion-consent-and-performative-legitimacy.md",
-    6: BOOK
-    / "parts/part-2-authority-without-interpretation/chapter-6-narrative-enclosure.md",
-    7: BOOK
-    / "parts/part-3-cases-beyond-interpretation/chapter-7-alignment-based-authority.md",
+    6: BOOK / "parts/part-2-authority-without-interpretation/chapter-6-narrative-enclosure.md",
+    7: BOOK / "parts/part-3-cases-beyond-interpretation/chapter-7-alignment-based-authority.md",
     8: BOOK
     / "parts/part-3-cases-beyond-interpretation/chapter-8-identity-saturated-political-authority.md",
     9: BOOK
     / "parts/part-3-cases-beyond-interpretation/chapter-9-total-authority-and-the-end-of-public-interpretation.md",
     10: BOOK
     / "parts/part-3-cases-beyond-interpretation/chapter-10-transitional-and-borderline-cases.md",
-    11: BOOK
-    / "parts/part-4-after-interpretation/chapter-11-why-judgment-feels-impossible.md",
-    12: BOOK
-    / "parts/part-4-after-interpretation/chapter-12-what-cannot-be-repaired.md",
-    13: BOOK
-    / "parts/part-4-after-interpretation/chapter-13-recognizing-the-shift-early.md",
+    11: BOOK / "parts/part-4-after-interpretation/chapter-11-why-judgment-feels-impossible.md",
+    12: BOOK / "parts/part-4-after-interpretation/chapter-12-what-cannot-be-repaired.md",
+    13: BOOK / "parts/part-4-after-interpretation/chapter-13-recognizing-the-shift-early.md",
 }
 
 EMBEDDED_CH = re.compile(r"\n# Chapter \d+:[^\n]*\n", re.MULTILINE)
@@ -86,7 +79,11 @@ def join_parts(*parts: str) -> str:
 def format_chapter(num: int, body: str) -> str:
     title = TITLES[num]
     body = body.strip()
-    return f"# **Chapter {num}**\n\n## **{title}**\n\n{body}\n" if body else f"# **Chapter {num}**\n\n## **{title}**\n\n"
+    return (
+        f"# **Chapter {num}**\n\n## **{title}**\n\n{body}\n"
+        if body
+        else f"# **Chapter {num}**\n\n## **{title}**\n\n"
+    )
 
 
 def extract_how_to_read_ch1() -> str:
@@ -141,7 +138,9 @@ def main() -> None:
         h2_ok = TITLES[n] in path.read_text(encoding="utf-8")
         print(f"Ch{n}: {len(bodies[n])} chars, title_ok={h2_ok}")
 
-    (BOOK / "front-matter/how-to-read-this-book.md").write_text(trim_how_to_read(), encoding="utf-8")
+    (BOOK / "front-matter/how-to-read-this-book.md").write_text(
+        trim_how_to_read(), encoding="utf-8"
+    )
     print("Trimmed how-to-read-this-book.md")
 
 
