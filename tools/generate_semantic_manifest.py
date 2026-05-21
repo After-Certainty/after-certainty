@@ -560,6 +560,32 @@ def _reverse_index_entities(
     return idx
 
 
+def _book_entry_score(entry: dict) -> int:
+    score = 0
+    if str(entry.get("source", "")) == "books":
+        score += 8
+    if str(entry.get("status", "")) == "published":
+        score += 4
+    for fmt in ("docx", "epub", "pdf"):
+        block = entry.get(fmt)
+        if isinstance(block, dict) and block.get("enabled") and block.get("url"):
+            score += 1
+    return score
+
+
+def _dedupe_book_entries_by_slug(books: list[dict]) -> list[dict]:
+    """Prefer promoted `books/` rows when legacy manifests still list `upcoming/` duplicates."""
+    by_slug: dict[str, dict] = {}
+    for entry in books:
+        slug = str(entry.get("slug", "")).strip()
+        if not slug:
+            continue
+        prev = by_slug.get(slug)
+        if prev is None or _book_entry_score(entry) > _book_entry_score(prev):
+            by_slug[slug] = entry
+    return sorted(by_slug.values(), key=lambda item: (item["slug"], item.get("source", "")))
+
+
 def _enriched_books(
     base_books: list[dict],
     rev: dict[str, dict[str, set[str]]],
@@ -691,6 +717,7 @@ def main() -> None:
     repo_slug = resolve_repo_slug(repo, args.github_repository)
 
     base_books: list[dict] = []
+    published_slugs: set[str] = set()
     book_media_by_slug: dict[str, dict] = {}
     book_commerce_by_slug: dict[str, dict] = {}
     for spec_path in discover_book_spec_paths(repo):
@@ -706,6 +733,7 @@ def main() -> None:
             status="published",
         )
         base_books.append(entry)
+        published_slugs.add(str(entry["slug"]))
         media = build_book_media_from_spec(spec)
         if media:
             book_media_by_slug[str(entry["slug"])] = media
@@ -714,6 +742,10 @@ def main() -> None:
             book_commerce_by_slug[str(entry["slug"])] = commerce
     for spec_path in discover_upcoming_spec_paths(repo):
         spec = load_upcoming_spec(spec_path)
+        book = spec.get("book", {})
+        slug = str(book.get("id", "")).strip()
+        if slug and slug in published_slugs:
+            continue
         upcoming = spec.get("upcoming", {})
         entry = build_book_entry(
             repo=repo,
@@ -732,7 +764,7 @@ def main() -> None:
         commerce = build_book_commerce_from_spec(spec)
         if commerce:
             book_commerce_by_slug[str(entry["slug"])] = commerce
-    base_books.sort(key=lambda item: (item["slug"], item["source"]))
+    base_books = _dedupe_book_entries_by_slug(base_books)
 
     by_gloss, core_slugs, supporting_slugs = build_glossary_entries(
         repo, warn_term_kind=args.warn_term_kind

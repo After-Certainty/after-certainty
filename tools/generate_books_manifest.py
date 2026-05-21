@@ -38,23 +38,29 @@ def main() -> None:
     repo_slug = resolve_repo_slug(repo, args.github_repository)
 
     books: list[dict] = []
+    published_slugs: set[str] = set()
+
     for spec_path in discover_book_spec_paths(repo):
         spec = load_book_spec(spec_path)
-        books.append(
-            build_book_entry(
-                repo=repo,
-                spec_path=spec_path,
-                spec=spec,
-                repo_slug=repo_slug,
-                ref=args.github_ref,
-                release_tag=args.release_tag,
-                source="books",
-                status="published",
-            )
+        entry = build_book_entry(
+            repo=repo,
+            spec_path=spec_path,
+            spec=spec,
+            repo_slug=repo_slug,
+            ref=args.github_ref,
+            release_tag=args.release_tag,
+            source="books",
+            status="published",
         )
+        books.append(entry)
+        published_slugs.add(str(entry["slug"]))
 
     for spec_path in discover_upcoming_spec_paths(repo):
         spec = load_upcoming_spec(spec_path)
+        book = spec.get("book", {})
+        slug = str(book.get("id", "")).strip()
+        if slug and slug in published_slugs:
+            continue
         upcoming = spec.get("upcoming", {})
         books.append(
             build_book_entry(
