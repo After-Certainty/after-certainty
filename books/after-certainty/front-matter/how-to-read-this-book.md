@@ -19,6 +19,6 @@ You do not have to read the series in order if you already carry the underlying 
 
 The [series guide](../../../docs/series-guide.md) can help place this book within the larger portfolio.
 
-This essay is intentionally concentrated (~11–13k words). The deeper diagnostic work lives elsewhere in the series.
+This essay is intentionally concentrated (~13–14k words). The deeper diagnostic work lives elsewhere in the series.
 
 This book asks a narrower question: what can still be practiced once certainty no longer provides reliable moral closure?

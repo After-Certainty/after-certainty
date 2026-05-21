@@ -1,6 +1,6 @@
 # Author read-through gate — After Certainty
 
-**Edition:** Essay (~9.7k words) — lock essay band; no expansion gate before Phase 5.
+**Edition:** Essay (~13–14k words) — lock expanded essay band; no expansion gate before author sign-off.
 
 ## Part I–III cohesion
 

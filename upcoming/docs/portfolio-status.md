@@ -12,7 +12,7 @@ Dashboard for eight nonfiction manuscripts under `upcoming/` (Velorum uses a sep
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
-| [After Certainty](../../books/after-certainty/) | **Phase 5** (essay) | ~9.7k words; promoted to `books/` | Export smoke test; [author gate](../../books/after-certainty/docs/author-read-through-gate.md) sign-off | [status](../../books/after-certainty/docs/status.md) |
+| [After Certainty](../../books/after-certainty/) | **Phase 5** (essay) | ~13–14k words; pass 2 + Appendix A; promoted to `books/` | Metadata pass; [author gate](../../books/after-certainty/docs/author-read-through-gate.md) sign-off | [status](../../books/after-certainty/docs/status.md) |
 | [Before Certainty Arrives](../../books/before-certainty-arrives/) | **Phase 5** (essay) | ~9.3k words; promoted to `books/` | Export smoke test; [author gate](../../books/before-certainty-arrives/docs/author-read-through-gate.md) sign-off | [status](../../books/before-certainty-arrives/docs/status.md) |
 | [When Accountability No Longer Expires](../../books/when-accountability-no-longer-expires/) | **Phase 5** (essay) | ~12.4k words; promoted to `books/` | Export smoke test; [author gate](../../books/when-accountability-no-longer-expires/docs/author-read-through-gate.md) sign-off | [status](../../books/when-accountability-no-longer-expires/docs/status.md) |
 | [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/) | Phase 4 complete | ~13.4k words; Parts I–IV coherence; glossary + footnotes Ch 1–13 | Author read-through Parts III–IV; expansion band decision | [status](../when-interpretation-no-longer-matters/docs/status.md) |
@@ -64,7 +64,7 @@ Incremental depth pass delivered; full ~50–90k bands remain future work after 
 
 | Tier | Books | Approx. words | Gap to typical completion band |
 |------|-------|---------------|--------------------------------|
-| Promoted (essay) | after-certainty, before-certainty-arrives, accountability | 9–12k each | In `books/`; author gate sign-off + export smoke test |
+| Promoted (essay) | after-certainty, before-certainty-arrives, accountability | ~9–14k each (after-certainty ~13–14k post pass 2) | In `books/`; metadata + author gate + export smoke test |
 | Mid editorial | interpretation | ~13k | Phase 4 done; author gate + expansion decision |
 | Mid draft | incentives | ~8k | Phase 3–4 before large expansion |
 | Pass 3 / Phase 2 | collaboration, economy, discipline | 7–11k each | **Largest** — author Part I gate before expansion |

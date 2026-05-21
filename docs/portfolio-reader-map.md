@@ -26,6 +26,7 @@ There is no single mandatory order. The table below groups books by **question**
 
 | Question | Book |
 |----------|------|
+| How do I live and judge when understanding is not enough? | [**After Certainty**](../books/after-certainty/index.md) |
 | How do I stay curious when certainty fails? | Curiosity Before Certainty |
 | How does meaning move, compress, and break? | How Meaning Moves |
 | How do serious systems learn under uncertainty? | How Serious Systems Learn |
@@ -46,8 +47,7 @@ Not yet in the public export pipeline. Word counts are essay-scale unless noted.
 
 | Question | Book | Status (May 2026) |
 |----------|------|-------------------|
-| How do I live and judge when understanding is not enough? | [After Certainty](../upcoming/after-certainty/index.md) | Phase 4 — author gate |
-| How did moral order harden before certainty broke? | [Before Certainty Arrives](../upcoming/before-certainty-arrives/index.md) | Phase 4 — author gate |
+| How did moral order harden before certainty broke? | [Before Certainty Arrives](../books/before-certainty-arrives/index.md) | Phase 5 — author gate |
 | When does legitimacy survive harm without renewal? | [When Accountability No Longer Expires](../upcoming/when-accountability-no-longer-expires/index.md) | Phase 4 — author gate |
 | When does interpretation stop coordinating authority? | [When Interpretation No Longer Matters](../upcoming/when-interpretation-no-longer-matters/index.md) | Phase 4 — author read |
 | When do incentives replace judgment? | [When Incentives Become the Moral Language](../upcoming/when-incentives-become-the-moral-language/index.md) | Phase 2 |

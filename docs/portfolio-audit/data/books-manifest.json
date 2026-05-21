@@ -1,17 +1,47 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-05-21T02:25:16.412491+00:00",
+  "generatedAt": "2026-05-21T05:17:11.818506+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
   "books": [
     {
       "slug": "after-certainty",
+      "source": "books",
+      "status": "published",
+      "title": "After Certainty",
+      "subtitle": "How to Live and Judge When Understanding is not Enough",
+      "description": "Practice capstone (~13\u201314k words) for living and judging after understanding stops delivering relief\u2014letting go of overburdened moral supports, practicing judgment without finality, and orienting without closure. Three parts with part bridges, a pattern map, and Appendix A; read after the portfolio's diagnostic volumes.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/book-cover.png",
+      "coverImagePath": "books/after-certainty/book-cover.png",
+      "bookDir": "books/after-certainty",
+      "docx": {
+        "enabled": true,
+        "file": "after-certainty.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/after-certainty.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "after-certainty.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/after-certainty.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "after-certainty.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/after-certainty.pdf"
+      }
+    },
+    {
+      "slug": "after-certainty",
       "source": "upcoming",
       "status": "in_progress",
       "title": "After Certainty",
       "subtitle": "How to Live and Judge When Understanding is not Enough",
-      "description": "Exploring meaning, trust, leadership, and human systems in a world beyond certainty.",
+      "description": "A concentrated capstone\u2014how to live and judge after frameworks fail. Read after diagnostic volumes (interpretation, incentives); formation and care without guarantees.",
       "authors": [
         "Kevin Steffensen"
       ],
@@ -33,6 +63,36 @@
         "enabled": false,
         "file": "after-certainty.pdf",
         "url": null
+      }
+    },
+    {
+      "slug": "before-certainty-arrives",
+      "source": "books",
+      "status": "published",
+      "title": "Before Certainty Arrives",
+      "subtitle": "How Moral Order Forms, Hardens, and Outlives Its Reasons",
+      "description": "Essay edition\u2014moral order before certainty felt excessive. A historical prequel; stops before prescription.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/book-cover.png",
+      "coverImagePath": "books/before-certainty-arrives/book-cover.png",
+      "bookDir": "books/before-certainty-arrives",
+      "docx": {
+        "enabled": true,
+        "file": "before-certainty-arrives.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/before-certainty-arrives.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "before-certainty-arrives.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/before-certainty-arrives.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "before-certainty-arrives.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/before-certainty-arrives.pdf"
       }
     },
     {
@@ -277,11 +337,41 @@
     },
     {
       "slug": "when-accountability-no-longer-expires",
+      "source": "books",
+      "status": "published",
+      "title": "When Accountability No Longer Expires",
+      "subtitle": "How Legitimate Authority Learns to Survive Harm",
+      "description": "Essay edition\u2014an institutional lens on why legitimate authority can persist after harm. Organizations learn to survive scandal without resolving it; not a leadership biography. Pair with When Authority Outlives Accountability for the leader-evaluation lens.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-accountability-no-longer-expires/book-cover.png",
+      "coverImagePath": "books/when-accountability-no-longer-expires/book-cover.png",
+      "bookDir": "books/when-accountability-no-longer-expires",
+      "docx": {
+        "enabled": true,
+        "file": "when-accountability-no-longer-expires.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-accountability-no-longer-expires.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-accountability-no-longer-expires.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-accountability-no-longer-expires.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-accountability-no-longer-expires.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-accountability-no-longer-expires.pdf"
+      }
+    },
+    {
+      "slug": "when-accountability-no-longer-expires",
       "source": "upcoming",
       "status": "in_progress",
       "title": "When Accountability No Longer Expires",
       "subtitle": "How Legitimate Authority Learns to Survive Harm",
-      "description": "Why legitimate authority can persist after harm\u2014and how institutions learn to survive scandal without resolving it.",
+      "description": "An institutional lens on why legitimate authority can persist after harm\u2014how organizations learn to survive scandal without resolving it. Not a leadership biography; pair with When Authority Outlives Accountability for the leader-evaluation lens.",
       "authors": [
         "Kevin Steffensen"
       ],
@@ -341,7 +431,7 @@
       "status": "published",
       "title": "When Authority Outlives Accountability",
       "subtitle": "A Lens for Moral Leadership",
-      "description": "A study of how authority can persist after accountability erodes, and what moral leadership requires to restore integrity in that gap.",
+      "description": "A leadership lens on how authority can persist after accountability erodes, and what moral leadership requires to restore integrity in that gap. For institutional persistence after harm, see When Accountability No Longer Expires (upcoming).",
       "authors": [
         "Kevin Steffensen"
       ],

@@ -8,7 +8,7 @@ Architectural constraints for **After Certainty** (*How to Live and Judge When U
 
 ### Target length
 
-- Expanded essay edition (~11–13k words; grounding pass May 2026)
+- Expanded essay edition (~13–14k words; pass 2 + Appendix A, May 2026)
 - 3 parts, 9 chapters, introduction and conclusion
 
 ### Markdown file structure
