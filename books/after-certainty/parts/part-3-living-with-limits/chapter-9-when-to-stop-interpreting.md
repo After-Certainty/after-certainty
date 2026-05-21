@@ -46,6 +46,18 @@ This shift is hard to see from the inside. Interpretation rarely
 announces when it has crossed the line. It feels virtuous right up until
 the moment it no longer is.
 
+### **The Working Group**
+
+::: {custom-style="Vignette Block"}
+They met every two weeks to understand the problem more fully. Each session added context: history, constraints, competing incentives, legitimate fears on every side.
+
+The harm they were studying did not wait for their understanding. People were still excluded. Resources were still drifting. The pattern was visible in outcomes even while motives remained mixed.
+
+At the fifth meeting, someone finally said what several people had been thinking: we are not stuck because we lack insight. We are stuck because insight has become our permission to delay a response we already know is required.
+
+No one argued. The room went quiet in a different way—not the quiet of patience, but the quiet after a line has been crossed. They did not resolve everything. They stopped treating further interpretation as the moral work.
+:::
+
 ### **Clarity Without Completion**
 
 One of the hardest things to accept after certainty is this:

@@ -62,6 +62,18 @@ The result is not shared truth, but **competing certainties**—each
 internally coherent, each morally charged, and each increasingly
 insulated from revision.[^c1-scale-fragmentation]
 
+### **The Meeting That Did Not Escalate**
+
+::: {custom-style="Vignette Block"}
+The disagreement was already visible. Two teams had been talking past each other for weeks. Everyone in the room knew what the next sentence would cost if it landed wrong.
+
+She had the clearer case on paper. She had checked the numbers. She could have pressed.
+
+Instead she let the silence hold a beat longer than comfort allowed. Someone else filled it—not with a concession, but with a narrower question. The temperature dropped a degree. The meeting ended without resolution.
+
+Later, a colleague said she had been passive. Maybe she had been. But the harm they had been trying to prevent was not the wrong answer. It was the fight that would have made the wrong answer permanent.
+:::
+
 ### **When Correctness Starts to Do Harm**
 
 Correctness becomes dangerous when it is treated as an achievement
@@ -105,28 +117,9 @@ of alignment under scale.[^c1-pragmatist-truth]
 
 ### **What Replaces Correctness**
 
-Nothing clean replaces it.
+Nothing clean replaces it. The question shifts from *“Am I right?”* to *“Am I responsive to what I might be missing?”*—proportion, reversibility, willingness to revise.
 
-Instead of asking:
-
-> *“Am I right?”*
-
-The question becomes:
-
-> *“Am I responsive to what I might be missing?”*
-
-Instead of defending conclusions, attention shifts to:
-
-- Proportion
-
-- Reversibility
-
-- Willingness to revise
-
-This is not weaker judgment. It is **less brittle judgment**.
-
-It trades the relief of certainty for the discipline of ongoing
-responsibility.
+This is not weaker judgment. It is **less brittle judgment**, trading the relief of certainty for the discipline of ongoing responsibility.
 
 ### **The First Thing That Has to Go**
 

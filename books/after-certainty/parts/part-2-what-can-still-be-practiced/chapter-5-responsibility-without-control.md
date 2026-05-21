@@ -2,6 +2,20 @@
 
 ## **Responsibility Without Control**
 
+### **The Visit**
+
+::: {custom-style="Vignette Block"}
+She no longer agreed with him about almost anything important. Politics, parenting, what counted as a reasonable risk. Conversations still ended too quickly or not quickly enough.
+
+He was getting older. Appointments multiplied. Small confusions appeared and did not always resolve.
+
+She drove over on a Tuesday she could have protected for work. She sat in his kitchen and listened to a story she had heard before. She fixed what was fixable without announcing it. She did not raise the subjects that would have turned care into combat.
+
+On the way home she wondered, as she often did, whether this was loyalty or avoidance. Whether staying present meant condoning. Whether distance would have been cleaner.
+
+She did not find a clean answer. She found a narrower one: he was still her father; harm was still accumulating; she could still show up without pretending agreement restored control.
+:::
+
 Responsibility is often confused with power.
 
 We tend to assume that to be responsible for something is to be able to

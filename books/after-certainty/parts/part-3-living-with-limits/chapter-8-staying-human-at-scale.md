@@ -37,6 +37,20 @@ No one intends this. And no single person controls it.
 Which is precisely why the erosion of humanity at scale is so difficult
 to resist.[^c8-moral-distance]
 
+### **The Exception Report**
+
+::: {custom-style="Vignette Block"}
+The dashboard was green. The aggregate metrics had improved for three quarters. No one in leadership was looking for problems.
+
+She noticed the exception report anyway. A small cluster of cases that did not fit the trend—delays, reversals, complaints filed and withdrawn. Not enough to move the quarterly number. Enough to name a pattern if you were willing to read sideways.
+
+She had no authority to change the workflow. She could not halt the rollout. She could not promise anyone a fix.
+
+She wrote a short note to the one person who still answered email on this topic. She asked a question that would slow a meeting by ten minutes. She logged what she saw in plain language, without turning it into a hero story or a whistleblower story.
+
+Nothing changed the next day. Something had been seen that the system was not designed to see. That was the whole of her leverage, and she used it without pretending it was more.
+:::
+
 ### **The False Hope of Humanizing Systems**
 
 A common response to dehumanization is to try to “humanize” systems.

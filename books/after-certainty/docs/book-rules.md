@@ -8,7 +8,7 @@ Architectural constraints for **After Certainty** (*How to Live and Judge When U
 
 ### Target length
 
-- Essay-length manuscript (~40–60k words at completion; current draft ~9.5k)
+- Expanded essay edition (~11–13k words; grounding pass May 2026)
 - 3 parts, 9 chapters, introduction and conclusion
 
 ### Markdown file structure
@@ -46,7 +46,26 @@ See [upcoming/docs/_templates/book-rules.md.template](../../docs/_templates/book
 
 ## Chapter construction
 
-Opening pressure → structural analysis → return to invariant → optional pull-quote.
+Default arc: opening pressure → structural analysis → return to invariant → optional pull-quote.
+
+Not every chapter must follow the same rhythm. At least 2–3 chapters should break the default pattern (scene-first opening, shorter chapter, or tension held before reframe). See `docs/editorial-passes.md`.
+
+## Vignette convention
+
+Short narrative scenes ground abstract claims. Adapted from *How Meaning Moves* house style.
+
+- Put a concise heading outside the block: `### **Short Title**`
+- Do not include the word "Vignette" in the heading
+- Wrap scene text in `::: {custom-style="Vignette Block"}` … `:::`
+- Keep interpretive analysis before or after the block, not inside it
+- No bold, glossary terms, or footnotes inside scene text
+- Target 150–400 words per scene; vary length and texture across chapters
+
+### Vignettes as calibration
+
+Vignettes are recognition anchors, not decoration. Conflict stays subtle; stakes are social or internal. Each scene must connect to the chapter stabilizer or distortion (correctness, explanation, heroes/villains, judgment, responsibility, speech, not-knowing, scale, interpretation).
+
+Do not polish all vignettes toward one template.
 
 ## Citation and glossary
 
@@ -57,4 +76,6 @@ Opening pressure → structural analysis → return to invariant → optional pu
 ## Key docs
 
 - `docs/drafting-process.md`
+- `docs/editorial-passes.md`
+- `docs/beta-reader-feedback-2026.md`
 - `docs/status.md`

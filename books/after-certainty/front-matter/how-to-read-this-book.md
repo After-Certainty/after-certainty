@@ -10,4 +10,4 @@ This is a **capstone** essay, not a first introduction to the portfolio.
 
 - Reading out of order is fine if you already carry the problems of scale, metrics, and collapsed explanation. Use the [series guide](../../../docs/series-guide.md) to place this book among the others.
 
-This essay is intentionally concentrated (~10k words). Depth lives in the volumes that diagnose; this one asks what can still be practiced afterward.
+This essay is intentionally concentrated (~11–13k words). Depth lives in the volumes that diagnose; this one asks what can still be practiced afterward.
