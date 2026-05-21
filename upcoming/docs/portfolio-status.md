@@ -36,15 +36,13 @@ Finish Phase 4 on the mature essay manuscripts; shared branch `upcoming/editoria
 
 *Note:* interpretation and incentives share the “judgment / alignment / compression” cluster with after-certainty and economy; run echo checks across them when editing interpretation Part III–IV.
 
-### Pass 6 — Pass 3 follow-through (depth + Phase 2)
+**Completed:** Pass 6 depth + Phase 2 (Part I) — collaboration (~10k), economy (~7.6k), discipline (~8k). **Gate:** author Part I read-through before next large expansion toward book-rules bands.
 
-First drafts are structurally complete but **well under** book-rules target length (~50–90k). Treat as two sub-tracks per book: **(A)** author Part I read-through + Phase 2 unit passes, **(B)** chapter depth expansion toward target band (prioritize economy and discipline, shortest today).
+### Pass 6 — Pass 3 follow-through (depth + Phase 2) ✓
 
-1. [why-collaboration-is-so-hard](../why-collaboration-is-so-hard/) — Part I voice lock; Phase 2; add conclusion/glossary to `index.md`
-2. [the-economy-we-dont-experience](../the-economy-we-dont-experience/) — compression frame in Part I; Phase 2; expand Ch 1–8 depth
-3. [the-discipline-of-uncertainty](../the-discipline-of-uncertainty/) — Part I voice lock; Phase 2; expand Ch 1–12 depth
+Incremental depth pass delivered; full ~50–90k bands remain future work after author Part I approval.
 
-*Cross-book echo:* draft order above; avoid reusing the same flagship cases (pandemic forecasts, ED discharge, tech layoffs) without new angle when expanding.
+*Cross-book echo:* flagship cases (pandemic forecasts, ED discharge, tech layoffs) avoided or reframed in new Part I material.
 
 ## Portfolio notes (May 2026)
 
