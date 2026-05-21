@@ -19,6 +19,15 @@ paths:
   manuscript: "./index.md"
   output: "."
 
+assets:
+  diagrams:
+    default_width: 1600
+    auto_discover: false
+    entries:
+      - svg: docs/diagrams/pattern-map.svg
+        png: export-assets/diagrams/pattern-map.png
+        width: 1600
+
 frontmatter:
   generate:
     enabled: true

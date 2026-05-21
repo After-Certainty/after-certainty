@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Four drift/counter-discipline pairings plus two environmental pressures. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 748" role="img" aria-labelledby="ac-title ac-desc">
+  <title id="ac-title">After Certainty - pattern map</title>
+  <desc id="ac-desc">Three-part book arc. Four paired rows: stabilizer drift on the left, counter-discipline on the right. Below, two environmental pressures that shape the whole field. Dashed arrows are suggestive pairings, not mechanical opposites.</desc>
+  <defs>
+    <marker id="ac-pair" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,7 L7,3.5 z" fill="#666666"/>
+    </marker>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 20px; font-weight: 700; fill: #111111; text-anchor: middle; }
+      .sub { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; font-weight: 600; fill: #444444; text-anchor: middle; }
+      .part-box { fill: #f4f4f4; stroke: #1a1a1a; stroke-width: 1.5; }
+      .part-label { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; font-weight: 700; fill: #111111; text-anchor: middle; }
+      .part-sub { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11px; font-weight: 600; fill: #333333; text-anchor: middle; }
+      .col-head-drift { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 15px; font-weight: 700; fill: #111111; }
+      .col-head-disc { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 15px; font-weight: 700; fill: #111111; }
+      .shell-drift { fill: #f5f0ec; stroke: #1a1a1a; stroke-width: 1.5; }
+      .shell-disc { fill: #eef2f4; stroke: #1a1a1a; stroke-width: 1.5; }
+      .shell-env { fill: #f0f0f0; stroke: #555555; stroke-width: 1.5; stroke-dasharray: 5 4; }
+      .pat-label { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 15px; font-weight: 700; fill: #111111; text-anchor: middle; text-rendering: geometricPrecision; }
+      .pat-small { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11px; font-weight: 600; fill: #444444; text-anchor: middle; }
+      .pair-line { stroke: #888888; stroke-width: 1.4; stroke-dasharray: 6 5; fill: none; marker-end: url(#ac-pair); }
+      .flow-line { stroke: #333333; stroke-width: 1.8; fill: none; marker-end: url(#ac-pair); }
+      .legend { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; font-weight: 600; fill: #555555; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="920" height="748"/>
+
+  <text class="title" x="460" y="40">After Certainty - Pattern Map</text>
+  <text class="sub" x="460" y="62">Orientation only - not a sequence to memorize</text>
+
+  <g id="part-arc" transform="translate(0, 78)">
+    <rect class="part-box" x="56" y="0" width="228" height="52" rx="4"/>
+    <text class="part-label" x="170" y="22">Part I</text>
+    <text class="part-sub" x="170" y="40">Letting Go</text>
+    <line class="flow-line" x1="292" y1="26" x2="348" y2="26"/>
+    <rect class="part-box" x="354" y="0" width="212" height="52" rx="4"/>
+    <text class="part-label" x="460" y="22">Part II</text>
+    <text class="part-sub" x="460" y="40">What Can Still Be Practiced</text>
+    <line class="flow-line" x1="574" y1="26" x2="630" y2="26"/>
+    <rect class="part-box" x="636" y="0" width="228" height="52" rx="4"/>
+    <text class="part-label" x="750" y="22">Part III</text>
+    <text class="part-sub" x="750" y="40">Living With Limits</text>
+  </g>
+
+  <text class="col-head-drift" x="56" y="168">When stabilizers drift</text>
+  <text class="col-head-disc" x="508" y="168">Counter-disciplines</text>
+
+  <rect class="shell-drift" x="48" y="186" width="360" height="84" rx="3"/>
+  <text class="pat-label" x="228" y="224">
+    <tspan x="228" y="214">Correctness Hardens</tspan>
+    <tspan x="228" y="236">Into Identity</tspan>
+  </text>
+  <line class="pair-line" x1="416" y1="228" x2="496" y2="228"/>
+  <rect class="shell-disc" x="504" y="186" width="360" height="84" rx="3"/>
+  <text class="pat-label" x="684" y="224">
+    <tspan x="684" y="214">Revisability Preserves</tspan>
+    <tspan x="684" y="236">Judgment</tspan>
+  </text>
+
+  <rect class="shell-drift" x="48" y="286" width="360" height="84" rx="3"/>
+  <text class="pat-label" x="228" y="324">
+    <tspan x="228" y="314">Explanation Replaces</tspan>
+    <tspan x="228" y="336">Response</tspan>
+  </text>
+  <line class="pair-line" x1="416" y1="328" x2="496" y2="328"/>
+  <rect class="shell-disc" x="504" y="286" width="360" height="84" rx="3"/>
+  <text class="pat-label" x="684" y="324">
+    <tspan x="684" y="314">Responsibility Persists</tspan>
+    <tspan x="684" y="336">Beyond Control</tspan>
+  </text>
+
+  <rect class="shell-drift" x="48" y="386" width="360" height="84" rx="3"/>
+  <text class="pat-label" x="228" y="424">
+    <tspan x="228" y="414">Admiration Becomes</tspan>
+    <tspan x="228" y="436">Insulation</tspan>
+  </text>
+  <line class="pair-line" x1="416" y1="428" x2="496" y2="428"/>
+  <rect class="shell-disc" x="504" y="386" width="360" height="84" rx="3"/>
+  <text class="pat-label" x="684" y="424">
+    <tspan x="684" y="414">Scrutiny Preserves</tspan>
+    <tspan x="684" y="436">Trust</tspan>
+  </text>
+
+  <rect class="shell-drift" x="48" y="486" width="360" height="84" rx="3"/>
+  <text class="pat-label" x="228" y="524">
+    <tspan x="228" y="514">Blame Compresses</tspan>
+    <tspan x="228" y="536">Complexity</tspan>
+  </text>
+  <line class="pair-line" x1="416" y1="528" x2="496" y2="528"/>
+  <rect class="shell-disc" x="504" y="486" width="360" height="84" rx="3"/>
+  <text class="pat-label" x="684" y="524">
+    <tspan x="684" y="514">Attention Restores</tspan>
+    <tspan x="684" y="536">Contact</tspan>
+  </text>
+
+  <text class="pat-small" x="460" y="598">Environmental pressures (unpaired)</text>
+  <rect class="shell-env" x="48" y="612" width="400" height="72" rx="3"/>
+  <text class="pat-label" x="248" y="648">
+    <tspan x="248" y="638">Finality Compensates</tspan>
+    <tspan x="248" y="660">for Uncertainty</tspan>
+  </text>
+  <rect class="shell-env" x="472" y="612" width="400" height="72" rx="3"/>
+  <text class="pat-label" x="672" y="648">
+    <tspan x="672" y="638">Speech Escalates Faster</tspan>
+    <tspan x="672" y="660">Than Meaning</tspan>
+  </text>
+
+  <text class="legend" x="460" y="718">Dashed arrows = responsive pairings, not mechanical opposites (see Appendix A)</text>
+</svg>
