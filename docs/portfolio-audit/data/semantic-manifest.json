@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-05-21T05:37:14.251104+00:00",
+  "generatedAt": "2026-05-21T05:40:15.416972+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
@@ -41,41 +41,6 @@
       "sources": []
     },
     {
-      "slug": "after-certainty",
-      "source": "upcoming",
-      "status": "in_progress",
-      "title": "After Certainty",
-      "subtitle": "How to Live and Judge When Understanding is not Enough",
-      "description": "A concentrated capstone\u2014how to live and judge after frameworks fail. Read after diagnostic volumes (interpretation, incentives); formation and care without guarantees.",
-      "authors": [
-        "Kevin Steffensen"
-      ],
-      "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/after-certainty/book-cover.png",
-      "coverImagePath": "upcoming/after-certainty/book-cover.png",
-      "bookDir": "upcoming/after-certainty",
-      "docx": {
-        "enabled": false,
-        "file": "after-certainty.docx",
-        "url": null
-      },
-      "epub": {
-        "enabled": false,
-        "file": "after-certainty.epub",
-        "url": null
-      },
-      "pdf": {
-        "enabled": false,
-        "file": "after-certainty.pdf",
-        "url": null
-      },
-      "id": "book-after-certainty",
-      "summary": "A concentrated capstone\u2014how to live and judge after frameworks fail. Read after diagnostic volumes (interpretation, incentives); formation and care without guarantees.",
-      "concepts": [],
-      "patterns": [],
-      "sources": []
-    },
-    {
       "slug": "before-certainty-arrives",
       "source": "books",
       "status": "published",
@@ -106,41 +71,6 @@
       },
       "id": "book-before-certainty-arrives",
       "summary": "Essay edition\u2014moral order before certainty felt excessive. A historical prequel; stops before prescription.",
-      "concepts": [],
-      "patterns": [],
-      "sources": []
-    },
-    {
-      "slug": "before-certainty-arrives",
-      "source": "upcoming",
-      "status": "in_progress",
-      "title": "Before Certainty Arrives",
-      "subtitle": "How Moral Order Forms, Hardens, and Outlives Its Reasons",
-      "description": "Essays on the cultural preconditions that made brittle certainty feel normal and what it costs when it breaks.",
-      "authors": [
-        "Kevin Steffensen"
-      ],
-      "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/before-certainty-arrives/book-cover.png",
-      "coverImagePath": "upcoming/before-certainty-arrives/book-cover.png",
-      "bookDir": "upcoming/before-certainty-arrives",
-      "docx": {
-        "enabled": false,
-        "file": "before-certainty-arrives.docx",
-        "url": null
-      },
-      "epub": {
-        "enabled": false,
-        "file": "before-certainty-arrives.epub",
-        "url": null
-      },
-      "pdf": {
-        "enabled": false,
-        "file": "before-certainty-arrives.pdf",
-        "url": null
-      },
-      "id": "book-before-certainty-arrives",
-      "summary": "Essays on the cultural preconditions that made brittle certainty feel normal and what it costs when it breaks.",
       "concepts": [],
       "patterns": [],
       "sources": []
@@ -522,41 +452,6 @@
       },
       "id": "book-when-accountability-no-longer-expires",
       "summary": "Essay edition\u2014an institutional lens on why legitimate authority can persist after harm. Organizations learn to survive scandal without resolving it; not a leadership biography. Pair with When Authority Outlives Accountability for the leader-evaluation lens.",
-      "concepts": [],
-      "patterns": [],
-      "sources": []
-    },
-    {
-      "slug": "when-accountability-no-longer-expires",
-      "source": "upcoming",
-      "status": "in_progress",
-      "title": "When Accountability No Longer Expires",
-      "subtitle": "How Legitimate Authority Learns to Survive Harm",
-      "description": "An institutional lens on why legitimate authority can persist after harm\u2014how organizations learn to survive scandal without resolving it. Not a leadership biography; pair with When Authority Outlives Accountability for the leader-evaluation lens.",
-      "authors": [
-        "Kevin Steffensen"
-      ],
-      "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-accountability-no-longer-expires/book-cover.png",
-      "coverImagePath": "upcoming/when-accountability-no-longer-expires/book-cover.png",
-      "bookDir": "upcoming/when-accountability-no-longer-expires",
-      "docx": {
-        "enabled": false,
-        "file": "when-accountability-no-longer-expires.docx",
-        "url": null
-      },
-      "epub": {
-        "enabled": false,
-        "file": "when-accountability-no-longer-expires.epub",
-        "url": null
-      },
-      "pdf": {
-        "enabled": false,
-        "file": "when-accountability-no-longer-expires.pdf",
-        "url": null
-      },
-      "id": "book-when-accountability-no-longer-expires",
-      "summary": "An institutional lens on why legitimate authority can persist after harm\u2014how organizations learn to survive scandal without resolving it. Not a leadership biography; pair with When Authority Outlives Accountability for the leader-evaluation lens.",
       "concepts": [],
       "patterns": [],
       "sources": []
@@ -949,7 +844,7 @@
       "id": "concept-abstraction",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 5,
+        "book-after-certainty": 14,
         "book-before-certainty-arrives": 14,
         "book-coupling": 46,
         "book-how-serious-systems-learn": 3,
@@ -994,14 +889,14 @@
       "id": "concept-accountability",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 38,
-        "book-before-certainty-arrives": 36,
+        "book-after-certainty": 36,
+        "book-before-certainty-arrives": 33,
         "book-coupling": 39,
         "book-how-meaning-moves": 25,
         "book-how-serious-systems-learn": 9,
         "book-the-discipline-of-uncertainty": 7,
         "book-the-economy-we-dont-experience": 2,
-        "book-when-accountability-no-longer-expires": 74,
+        "book-when-accountability-no-longer-expires": 68,
         "book-when-authority-is-misread": 33,
         "book-when-authority-outlives-accountability": 74,
         "book-when-incentives-become-the-moral-language": 10,
@@ -1086,7 +981,7 @@
       "id": "concept-alignment",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 17,
+        "book-after-certainty": 16,
         "book-before-certainty-arrives": 1,
         "book-coupling": 12,
         "book-how-meaning-moves": 9,
@@ -1136,15 +1031,15 @@
       "id": "concept-authority",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 51,
-        "book-before-certainty-arrives": 111,
+        "book-after-certainty": 47,
+        "book-before-certainty-arrives": 109,
         "book-coupling": 90,
         "book-curiosity-before-certainty": 1,
         "book-how-meaning-moves": 66,
         "book-how-serious-systems-learn": 74,
         "book-the-discipline-of-uncertainty": 6,
         "book-the-economy-we-dont-experience": 2,
-        "book-when-accountability-no-longer-expires": 138,
+        "book-when-accountability-no-longer-expires": 133,
         "book-when-authority-is-misread": 106,
         "book-when-authority-outlives-accountability": 157,
         "book-when-incentives-become-the-moral-language": 6,
@@ -1198,7 +1093,7 @@
       "id": "concept-certainty",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 109,
+        "book-after-certainty": 137,
         "book-before-certainty-arrives": 153,
         "book-coupling": 1,
         "book-curiosity-before-certainty": 16,
@@ -1230,6 +1125,7 @@
       "id": "concept-circulation",
       "isCoreTerm": true,
       "mentionsByBook": {
+        "book-after-certainty": 2,
         "book-how-serious-systems-learn": 1,
         "book-when-authority-outlives-accountability": 8,
         "book-when-moral-seriousness-scales": 1,
@@ -1261,7 +1157,7 @@
       "id": "concept-compression",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 10,
+        "book-after-certainty": 11,
         "book-before-certainty-arrives": 35,
         "book-coupling": 10,
         "book-curiosity-before-certainty": 2,
@@ -1288,7 +1184,7 @@
       "id": "concept-consequence",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 2,
+        "book-after-certainty": 12,
         "book-before-certainty-arrives": 5,
         "book-coupling": 264,
         "book-how-meaning-moves": 19,
@@ -1383,7 +1279,7 @@
       "id": "concept-coordination",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 9,
+        "book-after-certainty": 12,
         "book-before-certainty-arrives": 50,
         "book-coupling": 167,
         "book-how-meaning-moves": 6,
@@ -1414,7 +1310,7 @@
       "id": "concept-correction",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 3,
+        "book-after-certainty": 5,
         "book-before-certainty-arrives": 4,
         "book-coupling": 45,
         "book-curiosity-before-certainty": 2,
@@ -1506,7 +1402,7 @@
       "id": "concept-distance",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 4,
+        "book-after-certainty": 8,
         "book-before-certainty-arrives": 12,
         "book-coupling": 55,
         "book-how-meaning-moves": 4,
@@ -1547,7 +1443,7 @@
       "id": "concept-drift",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 4,
+        "book-after-certainty": 17,
         "book-before-certainty-arrives": 2,
         "book-coupling": 76,
         "book-curiosity-before-certainty": 1,
@@ -1768,7 +1664,7 @@
       "id": "concept-interpretation",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 61,
+        "book-after-certainty": 70,
         "book-before-certainty-arrives": 20,
         "book-coupling": 3,
         "book-how-meaning-moves": 70,
@@ -1810,7 +1706,7 @@
       "id": "concept-judgment",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 93,
+        "book-after-certainty": 120,
         "book-before-certainty-arrives": 22,
         "book-coupling": 40,
         "book-curiosity-before-certainty": 2,
@@ -1841,14 +1737,14 @@
       "id": "concept-legitimacy",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 13,
-        "book-before-certainty-arrives": 26,
+        "book-after-certainty": 14,
+        "book-before-certainty-arrives": 24,
         "book-coupling": 8,
         "book-how-meaning-moves": 12,
         "book-how-serious-systems-learn": 11,
         "book-the-discipline-of-uncertainty": 3,
         "book-the-economy-we-dont-experience": 11,
-        "book-when-accountability-no-longer-expires": 116,
+        "book-when-accountability-no-longer-expires": 112,
         "book-when-authority-is-misread": 108,
         "book-when-authority-outlives-accountability": 113,
         "book-when-incentives-become-the-moral-language": 8,
@@ -1870,7 +1766,7 @@
       "id": "concept-meaning",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 16,
+        "book-after-certainty": 23,
         "book-before-certainty-arrives": 33,
         "book-coupling": 14,
         "book-curiosity-before-certainty": 1,
@@ -1985,6 +1881,7 @@
       "id": "concept-proximity",
       "isCoreTerm": false,
       "mentionsByBook": {
+        "book-after-certainty": 1,
         "book-before-certainty-arrives": 3,
         "book-coupling": 6,
         "book-when-accountability-no-longer-expires": 2,
@@ -2022,12 +1919,12 @@
       "id": "concept-renewal",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 4,
-        "book-before-certainty-arrives": 4,
+        "book-after-certainty": 3,
+        "book-before-certainty-arrives": 3,
         "book-how-meaning-moves": 1,
         "book-the-discipline-of-uncertainty": 2,
         "book-the-economy-we-dont-experience": 4,
-        "book-when-accountability-no-longer-expires": 24,
+        "book-when-accountability-no-longer-expires": 23,
         "book-when-authority-outlives-accountability": 19,
         "book-when-interpretation-no-longer-matters": 1,
         "book-when-moral-seriousness-scales": 2,
@@ -2090,7 +1987,7 @@
       "id": "concept-scale",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 55,
+        "book-after-certainty": 63,
         "book-before-certainty-arrives": 44,
         "book-coupling": 125,
         "book-how-meaning-moves": 12,
@@ -2098,7 +1995,7 @@
         "book-the-discipline-of-uncertainty": 6,
         "book-the-economy-we-dont-experience": 10,
         "book-velorum": 1,
-        "book-when-accountability-no-longer-expires": 13,
+        "book-when-accountability-no-longer-expires": 11,
         "book-when-authority-is-misread": 48,
         "book-when-authority-outlives-accountability": 51,
         "book-when-incentives-become-the-moral-language": 16,
@@ -2173,7 +2070,6 @@
       "id": "concept-thinking",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 1,
         "book-before-certainty-arrives": 2,
         "book-coupling": 17,
         "book-curiosity-before-certainty": 7,
@@ -2217,7 +2113,7 @@
       "id": "concept-uncertainty",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 24,
+        "book-after-certainty": 41,
         "book-before-certainty-arrives": 12,
         "book-coupling": 5,
         "book-curiosity-before-certainty": 9,
