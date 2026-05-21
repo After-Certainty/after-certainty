@@ -34,6 +34,10 @@
 | Conclusion | Phase 2 | Pass 6 depth (~35%); §6 what you can do Monday |
 | Appendix Ideas | draft | Unchanged this pass |
 
+## Author gate (Part I)
+
+Checklist: [`author-read-through-gate-part-i.md`](author-read-through-gate-part-i.md)
+
 ## Next actions
 
 1. **Author read-through of Part I** (intro + ch 1–4) for voice lock and invariant threading.

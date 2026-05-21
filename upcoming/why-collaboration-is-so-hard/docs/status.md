@@ -38,6 +38,10 @@
 | Conclusion | draft | Pass 6 back matter |
 | Glossary | draft | Pass 6 back matter (10 terms) |
 
+## Author gate (Part I)
+
+Checklist: [`author-read-through-gate-part-i.md`](author-read-through-gate-part-i.md)
+
 ## Next actions
 
 1. **Author gate:** Part I read-through for voice, example fit, and echo vs portfolio flagship cases.

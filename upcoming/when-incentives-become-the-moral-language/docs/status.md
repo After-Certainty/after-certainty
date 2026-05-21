@@ -27,11 +27,17 @@
 | Appendix | draft | |
 | Bibliography | draft | Linked from index |
 
+## Phase 3–4 gates (before Phase 5)
+
+- [ ] Author read-through Ch 3–8 ([`drafting-process.md`](drafting-process.md) Phase 3 part gate)
+- [ ] Phase 3: single-part coherence — eight domains one arc
+- [ ] Phase 4: manuscript-wide checklist from drafting-process
+
 ## Next actions
 
 1. Author read-through of Ch 3–8 for voice and example fit.
-2. Phase 3 single-part coherence gate (all domains one arc).
-3. Update portfolio when moving to Phase 4 manuscript-wide.
+2. Complete Phase 3 gate; log in [portfolio-status.md](../../docs/portfolio-status.md).
+3. Phase 4 manuscript-wide; do not enable exports until Phase 4 complete.
 
 ## Rough scale
 

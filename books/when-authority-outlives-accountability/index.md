@@ -27,3 +27,11 @@ Author: Kevin Steffensen
 - [Acknowledgements](16-acknowledgements.md)
 - [Notes](17-notes.md)
 
+## Related books
+
+[Series guide](../../docs/series-guide.md) · Authority cluster
+
+- [When Accountability No Longer Expires](../../upcoming/when-accountability-no-longer-expires/index.md) — **institutional** persistence after harm (not leader biography)
+- [When Authority Is Misread](../when-authority-is-misread/index.md) — confidence mistaken for legitimacy
+- [When Others Look to You](../when-others-look-to-you/v1/index.md) — influence, renewal, and erosion
+

@@ -30,6 +30,10 @@
 | Conclusion | draft | Pass 6: invariant synthesis; thin-channel echo trim |
 | Appendix A | draft | Unchanged this pass |
 
+## Author gate (Part I)
+
+Checklist: [`author-read-through-gate-part-i.md`](author-read-through-gate-part-i.md)
+
 ## Next actions
 
 1. **Author read-through — Part I gate:** compression frame, voice, pandemic/compression angle in Ch 2.

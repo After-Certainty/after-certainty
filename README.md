@@ -49,11 +49,26 @@ Unless otherwise noted, original content in this repository is licensed under [*
 | **When Moral Seriousness Scales** — *Judgment Under Distance and Pressure* | [`books/when-moral-seriousness-scales/index.md`](books/when-moral-seriousness-scales/index.md) | What happens to moral judgment when distance, asymmetry, and pressure replace face-to-face accountability. |
 | **When Others Look to You** (edition 1) — *Renewal and Erosion in Leadership* | [`books/when-others-look-to-you/v1/index.md`](books/when-others-look-to-you/v1/index.md) | Influence, renewal and erosion, harm, effectiveness, legitimacy, and why we misjudge leaders who carry others’ attention. |
 | **When Others Look to You** (edition 2) — *Forming, Renewing, Eroding, Repeating* | [`books/when-others-look-to-you/v2/index.md`](books/when-others-look-to-you/v2/index.md) | A parallel manuscript structure: forming leadership, renewal, erosion, and how leadership reproduces itself. |
+| **Before Certainty Arrives** — *How Moral Order Forms, Hardens, and Outlives Its Reasons* | [`books/before-certainty-arrives/index.md`](books/before-certainty-arrives/index.md) | Essay edition—moral order before certainty felt excessive (historical prequel). |
+| **When Accountability No Longer Expires** — *How Legitimate Authority Learns to Survive Harm* | [`books/when-accountability-no-longer-expires/index.md`](books/when-accountability-no-longer-expires/index.md) | Essay edition—institutional persistence after harm, not leader biography. |
+| **After Certainty** — *How to Live and Judge When Understanding is not Enough* | [`books/after-certainty/index.md`](books/after-certainty/index.md) | Essay edition—capstone practice after diagnostic volumes. |
 
 Together these manuscripts are part of the broader **After Certainty** thread: thinking clearly when simple answers stop working.
 
+**Navigate the portfolio:** [`docs/series-guide.md`](docs/series-guide.md) — reading order, clusters, and pairs of titles that are easy to confuse (for example *When Accountability No Longer Expires* vs *When Authority Outlives Accountability*).
+
 ## Upcoming nonfiction
 
-Eight essay-length manuscripts in active editorial passes live under [`upcoming/`](upcoming/). Status dashboard: [`upcoming/docs/portfolio-status.md`](upcoming/docs/portfolio-status.md).
+Essay-length and in-progress manuscripts live under [`upcoming/`](upcoming/). **Series guide:** [`docs/series-guide.md`](docs/series-guide.md) (reading order, clusters, confused-title pairs). **Status dashboard:** [`upcoming/docs/portfolio-status.md`](upcoming/docs/portfolio-status.md).
+
+| Book | Index | What it's about |
+| --- | --- | --- |
+| **The Discipline of Uncertainty** — *Judgment, Restraint, and Decision Quality Under Incomplete Information* | [`upcoming/the-discipline-of-uncertainty/index.md`](upcoming/the-discipline-of-uncertainty/index.md) | Judgment and restraint when information will stay incomplete. |
+| **The Economy We Don't Experience** — *Leadership, Communication, and the Credibility Crisis in Economics and Politics* | [`upcoming/the-economy-we-dont-experience/index.md`](upcoming/the-economy-we-dont-experience/index.md) | The economy people live in vs the economy leaders describe. |
+| **When Incentives Become the Moral Language** — *How Systems Decide For Us When Judgment No Longer Scales* | [`upcoming/when-incentives-become-the-moral-language/index.md`](upcoming/when-incentives-become-the-moral-language/index.md) | Eight domains where metrics replaced judgment. |
+| **When Interpretation No Longer Matters** — *Authority After Understanding Collapses* | [`upcoming/when-interpretation-no-longer-matters/index.md`](upcoming/when-interpretation-no-longer-matters/index.md) | Authority when explanation and repair no longer work. |
+| **Why Collaboration Is So Hard** — *And why the effort still matters* | [`upcoming/why-collaboration-is-so-hard/index.md`](upcoming/why-collaboration-is-so-hard/index.md) | Coordination without full ownership—contribution and trust under diffuse responsibility. |
+
+**Fiction (separate track):** **Velorum** — [`upcoming/velorum/index.md`](upcoming/velorum/index.md).
 
 **Portfolio promotion audit (May 2026):** [`docs/portfolio-audit/`](docs/portfolio-audit/) — readiness assessments, differentiation matrix, and proposed follow-up work ([#99](https://github.com/ksteffe/after-certainty/issues/99)).
