@@ -49,11 +49,11 @@ audience behavior.
 Three mechanisms matter most.
 
 First, real-time analytics. Editors and producers monitor traffic minute
-by minute, adjusting headlines, placement, and follow-up coverage.¹ What
+by minute, adjusting headlines, placement, and follow-up coverage.[^c6-ref-1-pew-research-center-news] What
 rises on the dashboard receives resources; what flatlines disappears.
 
 Second, platform distribution. Social networks and search engines reward
-velocity, emotional charge, and shareability.² Stories shaped for those
+velocity, emotional charge, and shareability.[^c6-ref-2-cass-r-sunstein-republic] Stories shaped for those
 incentives travel farther—even when they sacrifice nuance.
 
 Third, engagement-oriented formats. Newsletters, podcasts, and video
@@ -83,7 +83,7 @@ into headlines built for sharing. Trust declines even when individual
 pieces are accurate, because the overall environment feels manipulative.
 
 Studies of media trust document persistent skepticism toward institutions
-that appear to chase clicks.³ The system records engagement. It does not
+that appear to chase clicks.[^c6-ref-3-gallup-and-knight-foundation] The system records engagement. It does not
 record the citizen who stops reading because news feels like a trap.
 
 ### **5. Why Relevance Becomes Self-Referential**
@@ -113,12 +113,6 @@ News continues.
 
 Importance becomes what travels.
 
-## **References**
-
-1.  Pew Research Center, “News Use Across Social Media Platforms,”
-    periodic surveys; Reuters Institute Digital News Report, annual
-    editions.
-
-2.  Cass R. Sunstein, *#Republic* (Princeton University Press, 2017).
-
-3.  Gallup and Knight Foundation surveys on trust in media, 2016–2024.
+[^c6-ref-1-pew-research-center-news]: Pew Research Center, “News Use Across Social Media Platforms,” periodic surveys; Reuters Institute Digital News Report, annual editions.
+[^c6-ref-2-cass-r-sunstein-republic]: Cass R. Sunstein, *#Republic* (Princeton University Press, 2017).
+[^c6-ref-3-gallup-and-knight-foundation]: Gallup and Knight Foundation surveys on trust in media, 2016–2024.

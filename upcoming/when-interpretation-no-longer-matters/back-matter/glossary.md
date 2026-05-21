@@ -1,5 +1,66 @@
 # **Glossary**
 
+**Alignment** — Authority sustained through signals of belonging rather
+than through evaluative agreement or persuasion.
+
+**Alignment at scale** — Authority reproduced institutionally, where
+belonging is routinized or inherited rather than continually affirmed.
+
+**Boundary** — The point at which authority no longer depends on being
+understood in order to persist.
+
+**Coercion** — Authority maintained through threat or enforcement that
+strips public interpretation of relevance.
+
+**Displacement (of interpretation)** — The condition in which
+interpretation continues to exist but no longer mediates legitimacy or
+repair.
+
+**Exit** — The ability to leave an authority system without prohibitive
+moral, social, or material cost.
+
+**Identity saturation** — Authority embedded so deeply in group identity
+that disagreement is experienced as a threat to belonging rather than a
+challenge to claims.
+
+**Identity-saturated political authority** — Political legitimacy
+grounded in collective identity rather than outcomes, arguments, or
+institutional justification.
+
+**Interpretation** — Shared evaluative mediation of meaning that allows
+reasons, explanations, and judgments to influence legitimacy.
+
+**Interpretive collapse** — Not the failure of understanding, but the
+loss of interpretation as a shared, publicly relevant activity.
+
+**Judgment** — Moral or evaluative assessment that presumes a shared
+interpretive space in which reasons can matter.
+
+**Judgment failure** — The condition in which moral clarity increases
+without restoring interpretive traction or practical leverage.
+
+**Legitimacy** — Acceptance of authority independent of whether it is
+correct, justified, or effective.
+
+**Narrative enclosure** — An interpretive system that absorbs all
+evidence internally and prevents external meaning from functioning as
+correction.
+
+**Performative legitimacy** — Authority maintained through visible
+compliance and ritualized participation rather than belief or
+justification.
+
+**Post-interpretive authority** — Authority that persists without
+requiring external interpretation, shared reasoning, or repair through
+meaning.
+
+**Private understanding** — Individual recognition or awareness that
+persists without public relevance or influence.
+
+**Public interpretation** — Interpretation that can coordinate judgment,
+contest authority, or enable repair within a shared space.
+
+**Repair** — Attempts to correct authority through transparency,
 accountability, dialogue, or justification.
 
 **Sorting** — Communication that functions to classify audiences by
@@ -18,63 +79,3 @@ fracture rather than seal.
 
 **Witness** — Judgment that functions to record, refuse, or remember
 rather than to correct or repair.
-
-# Conclusion: After Interpretation
-
-This book has traced what happens when authority no longer depends on
-being understood.
-
-Across the cases examined, interpretation did not simply fail or become
-distorted. It was displaced. Authority persisted without needing to be
-evaluated, justified, or repaired through shared meaning. Arguments
-continued to circulate, but they no longer governed legitimacy.
-Understanding survived privately while losing public relevance.
-
-This shift changes what explanation can do.
-
-When interpretation mediates authority, misreading matters. Delay
-matters. Drift matters. Corrective understanding may still arrive too
-late, but it arrives within a framework where meaning can, in principle,
-alter outcomes. When interpretation is displaced, that leverage
-disappears. Explanation remains possible, but it no longer functions as
-intervention.¹
-
-This is the limit the book has named.
-
-It is not a claim about moral responsibility or historical
-inevitability. It is a claim about structure. Some authority regimes
-cannot be repaired through clarity, accountability, or judgment because
-those tools presuppose interpretive conditions that no longer exist.
-Expecting interpretation to restore authority under these conditions
-misunderstands what kind of system is operating.²
-
-Recognizing this limit matters for diagnosis.
-
-Without it, observers oscillate between outrage and resignation. They
-mistake persistence for persuasion, brutality for belief, and failure of
-influence for failure of ethics. They escalate judgment where judgment
-has no traction and interpret silence as complicity rather than
-constraint. Naming the boundary between interpretive and
-post-interpretive authority prevents these confusions.³
-
-It also reframes responsibility.
-
-Responsibility does not disappear when interpretation ends. It
-relocates. Moral clarity still matters—for witness, for record, for
-refusal, for memory. But clarity should not be confused with leverage.
-Understanding what cannot be repaired is a precondition for acting
-responsibly within what remains.⁴
-
-This book has not offered solutions.
-
-It has offered a way of seeing. It has separated mechanisms that are
-often collapsed and named limits that are often denied. In doing so, it
-has resisted the temptation to treat every authority failure as
-misunderstanding or every catastrophe as persuasion gone wrong.
-
-What comes after interpretation is not silence.
-
-It is discernment.
-
-Knowing when interpretation governs authority—and when it no longer
-does—allows explanation to stop pretending it can repair what it cannot.

@@ -43,3 +43,4 @@
 - [Appendix A — A Structural Map of the Cases](back-matter/appendix-a-structural-map-of-cases.md)
 - [Glossary](back-matter/glossary.md)
 - [Conclusion — After Interpretation](back-matter/conclusion-after-interpretation.md)
+- [Bibliography](back-matter/bibliography.md)

@@ -26,3 +26,4 @@
 
 - [Conclusion — Living Inside Incentive Systems Without Becoming One](back-matter/conclusion-living-inside-incentive-systems.md)
 - [Appendix — A Note on Method and Sources](back-matter/appendix-method-and-sources.md)
+- [Bibliography](back-matter/bibliography.md)

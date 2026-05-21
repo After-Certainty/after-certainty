@@ -67,13 +67,13 @@ even when clinical reasons exist.
 
 Second, readmission penalties. Through programs administered by Centers
 for Medicare & Medicaid Services, hospitals face financial penalties
-when patients return within a defined window after discharge.¹ The
+when patients return within a defined window after discharge.[^c1-ref-1-centers-for-medicare-medicaid] The
 policy aims to prevent premature discharge and poor follow-up care. In
 practice, it narrows the acceptable window: discharge must happen
 quickly—but not too quickly.
 
 Third, Diagnosis-Related Groups (DRGs). DRGs standardize reimbursement
-by diagnosis rather than individual complexity.² They reward
+by diagnosis rather than individual complexity.[^c1-ref-2-centers-for-medicare-medicaid] They reward
 predictability and penalize variation.
 
 None of these mechanisms claim to define good care morally. They define
@@ -99,7 +99,7 @@ absorb the consequences of its limits.
 
 Research consistently shows high levels of moral injury and burnout
 among healthcare workers, especially around discharge decisions,
-productivity pressure, and loss of professional autonomy.³⁴ Clinicians
+productivity pressure, and loss of professional autonomy.[^c1-ref-34-source] Clinicians
 describe being forced to act against their sense of what patients need
 while lacking the authority to change system constraints.
 
@@ -142,17 +142,7 @@ Caring becomes private.
 That division keeps the system running—and leaves the people inside it
 exhausted.
 
-## **References**
-
-1.  Centers for Medicare & Medicaid Services, Hospital Readmissions
-    Reduction Program (HRRP), statutory authority and program overview,
-    updated 2023.
-
-2.  Centers for Medicare & Medicaid Services, MS-DRG Classification and
-    Reimbursement Overview, annual rulemaking documentation.
-
-3.  National Academy of Medicine, Taking Action Against Clinician
-    Burnout: A Systems Approach to Professional Well-Being, 2019.
-
-4.  Talbot, S. G., & Dean, W., “Physicians Aren’t ‘Burning Out.’ They’re
-    Suffering from Moral Injury,” STAT News, July 26, 2018.
+[^c1-ref-1-centers-for-medicare-medicaid]: Centers for Medicare & Medicaid Services, Hospital Readmissions Reduction Program (HRRP), statutory authority and program overview, updated 2023.
+[^c1-ref-2-centers-for-medicare-medicaid]: Centers for Medicare & Medicaid Services, MS-DRG Classification and Reimbursement Overview, annual rulemaking documentation.
+[^c1-ref-3-national-academy-of-medicine]: National Academy of Medicine, Taking Action Against Clinician Burnout: A Systems Approach to Professional Well-Being, 2019.
+[^c1-ref-4-talbot-s-g-dean]: Talbot, S. G., & Dean, W., “Physicians Aren’t ‘Burning Out.’ They’re Suffering from Moral Injury,” STAT News, July 26, 2018.

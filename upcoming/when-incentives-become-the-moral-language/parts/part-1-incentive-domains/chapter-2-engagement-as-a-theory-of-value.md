@@ -69,9 +69,9 @@ rather than, “This is what we believe.”
 
 Companies such as Meta and Google have repeatedly described their
 ranking systems in these terms: algorithms surface content based on
-signals of relevance, not editorial preference.¹² Internal documents and
+signals of relevance, not editorial preference.[^c2-ref-12-source] Internal documents and
 public testimony show that engagement metrics play a central role in
-those systems.³⁴
+those systems.[^c2-ref-34-source]
 
 Engagement began as a proxy. Over time, it became a definition.
 
@@ -147,18 +147,7 @@ Individuals argue about outcomes no one fully owns.
 
 That is the tradeoff.
 
-## **References**
-
-1.  Mark Zuckerberg, testimony before the U.S. Senate Judiciary and
-    Commerce Committees, April 2018.
-
-2.  Sundar Pichai, testimony before the U.S. House Judiciary Committee,
-    October 2020.
-
-3.  Jeff Horwitz and Deepa Seetharaman, “Facebook Executives Shut Down
-    Efforts to Make the Site Less Divisive,” The Wall Street Journal,
-    May 26, 2020.
-
-4.  Frances Haugen, disclosures and testimony regarding Facebook
-    internal research on engagement-based ranking systems, U.S. Senate
-    Commerce Committee, October 2021.
+[^c2-ref-1-mark-zuckerberg-testimony-before]: Mark Zuckerberg, testimony before the U.S. Senate Judiciary and Commerce Committees, April 2018.
+[^c2-ref-2-sundar-pichai-testimony-before]: Sundar Pichai, testimony before the U.S. House Judiciary Committee, October 2020.
+[^c2-ref-3-jeff-horwitz-and-deepa]: Jeff Horwitz and Deepa Seetharaman, “Facebook Executives Shut Down Efforts to Make the Site Less Divisive,” The Wall Street Journal, May 26, 2020.
+[^c2-ref-4-frances-haugen-disclosures-and]: Frances Haugen, disclosures and testimony regarding Facebook internal research on engagement-based ranking systems, U.S. Senate Commerce Committee, October 2021.

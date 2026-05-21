@@ -15,17 +15,7 @@ That recognition does not solve the problem of authority.
 
 It clarifies it.
 
-## Reference
-
-1.  On the limits of explanation once interpretation loses public
-    relevance, see Hannah Arendt, *The Origins of Totalitarianism*
-    (Harcourt, 1951).
-
-2.  On structural limits to accountability and repair, see *When
-    Authority Outlives Accountability*.
-
-3.  On moral escalation masking diagnostic error, see Isaiah Berlin,
-    “The Hedgehog and the Fox,” in *Russian Thinkers* (Penguin, 1978).
-
-4.  On responsibility without leverage and judgment as witness, see
-    Judith Shklar, *Ordinary Vices* (Harvard University Press, 1984).
+[^conclusion-ref-1-on-the-limits-of]: On the limits of explanation once interpretation loses public relevance, see Hannah Arendt, *The Origins of Totalitarianism* (Harcourt, 1951).
+[^conclusion-ref-2-on-structural-limits-to]: On structural limits to accountability and repair, see *When Authority Outlives Accountability*.
+[^conclusion-ref-3-on-moral-escalation-masking]: On moral escalation masking diagnostic error, see Isaiah Berlin, “The Hedgehog and the Fox,” in *Russian Thinkers* (Penguin, 1978).
+[^conclusion-ref-4-on-responsibility-without-leverage]: On responsibility without leverage and judgment as witness, see Judith Shklar, *Ordinary Vices* (Harvard University Press, 1984).
