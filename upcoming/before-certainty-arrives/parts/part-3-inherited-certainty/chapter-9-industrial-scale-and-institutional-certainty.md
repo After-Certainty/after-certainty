@@ -28,7 +28,7 @@ together—often without shared culture, direct trust, or interpersonal
 accountability. Coordination could no longer rely on tradition alone. It
 required durable, repeatable, impersonal mechanisms.
 
-This is the environment in which institutional certainty flourished.
+This is the environment in which institutional certainty flourished.[^c9-weber-bureaucracy]
 
 ### **Bureaucracy as Moral Infrastructure**
 

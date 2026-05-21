@@ -161,5 +161,9 @@ It does not ensure understanding.
 But it allows participation without pretending that language alone can
 carry moral weight at scale.
 
+Part II named what can still be practiced under limits. Part III turns to
+what cannot be removed: uncertainty at scale, the discipline of not
+knowing, and the moment when interpretation must stop.
+
 [^c6-performative-speech]: See Erving Goffman, *The Presentation of Self in Everyday Life* (Garden City, NY: Doubleday, 1959); Cass R. Sunstein, *#Republic* (Princeton, NJ: Princeton University Press, 2017).
 [^c6-proportionality]: See Michael Walzer, *Just and Unjust Wars*, 5th ed. (New York: Basic Books, 2015).

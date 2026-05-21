@@ -2,11 +2,11 @@
 
 ## Current phase
 
-**Phase 4 — Manuscript-wide editorial**
+**Phase 4 complete — awaiting author read-through before Phase 5**
 
 ## Active branch
 
-`upcoming/editorial-quick-wins`
+`cursor/upcoming-pass-4-editorial-quick-wins-9a98`
 
 ## Manuscript hub
 
@@ -28,17 +28,17 @@
 | Ch 5 — Shared Conditions, Not Shared Revelation | draft | Pandoc footnotes |
 | Ch 6 — Writing as Moral Stabilizer | draft | Pandoc footnotes |
 | Ch 7 — Medieval Re-Adaptation | draft | Pandoc footnotes |
-| Ch 8 — Renaissance, Exploration, and Fracture | draft | |
-| Ch 9 — Industrial Scale and Institutional Certainty | draft | |
-| Ch 10 — The Moment Before Failure | draft | |
+| Ch 8 — Renaissance, Exploration, and Fracture | draft | Pandoc footnotes (Pass 4) |
+| Ch 9 — Industrial Scale and Institutional Certainty | draft | Pandoc footnotes (Pass 4) |
+| Ch 10 — The Moment Before Failure | draft | Pandoc footnotes (Pass 4) |
 | Conclusion | draft | |
-| Bibliography | draft | Replaces endnotes; Chicago-style |
+| Bibliography | draft | Chicago-style; Ch 8 Braudel entry added |
 
 ## Next actions
 
-1. Author read-through of Part I–III coherence (constraint → compression → inheritance).
-2. Add footnotes at remaining structural pivots in Ch 8–10 if needed.
-3. Global copy edit and citation verification.
+1. **Author read-through** of Part I–III coherence (constraint → compression → inheritance).
+2. Final bibliography spot-check against all `[^id]` markers.
+3. Phase 5 promote when author approves.
 
 ## Open decisions / known issues
 
@@ -46,4 +46,4 @@ None recorded.
 
 ## Rough scale
 
-- ~9,200 words (May 2026)
+- ~9,300 words (May 2026; post Pass 4 footnotes)

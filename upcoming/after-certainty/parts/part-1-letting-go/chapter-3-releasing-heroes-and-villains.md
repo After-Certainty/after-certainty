@@ -154,5 +154,9 @@ This is not satisfying in the way stories are satisfying.
 
 But it is sustainable in a way stories are not.
 
+Part I asked what must be released before judgment can be practiced again.
+The chapters that follow take up that practice directly: judgment without
+finality, responsibility without control, and speech that does less harm.
+
 [^c3-motivated-reasoning]: See Lee Ross and Richard E. Nisbett, *The Person and the Situation* (New York: McGraw-Hill, 1991).
 [^c3-villain-narratives]: See Martha Minow, *Between Vengeance and Forgiveness* (Boston: Beacon Press, 1998).

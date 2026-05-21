@@ -146,3 +146,5 @@ increasingly abstract societies.
 
 The fracture does not break certainty.\
 It prepares it for institutional form.
+
+[^c8-braudel-plurality]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981); E. H. Carr, *What Is History?* (New York: Vintage Books, 1961).

@@ -138,7 +138,6 @@ legitimacy dissolves, before understanding gives way to something else.
 
 The next book begins after that moment.
 
-After recognition arrives.
+After recognition arrives.[^c10-recognition-threshold]
 
-\
--
+[^c10-recognition-threshold]: See Thomas S. Kuhn, *The Structure of Scientific Revolutions* (Chicago: University of Chicago Press, 1962); Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973).

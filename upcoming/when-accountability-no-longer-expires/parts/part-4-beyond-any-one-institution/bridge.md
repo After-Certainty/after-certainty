@@ -120,7 +120,6 @@ what would it actually take for it to expire?
 
 And why might we decide that cost is too high.
 
-\
--
-
-## **Chapter 11 — The Pattern Across Domains**
+The chapters that follow compare the same structural pattern across
+domains—not to equate them, but to make the mechanics of non-expiring
+legitimacy unmistakable.

@@ -10,6 +10,10 @@ enough, and weighed the options sufficiently to move on.
 
 But after certainty, judgment cannot work that way anymore.
 
+Part I released the demand for correctness, over-explanation, and clean
+moral casting. What remains is not abstention from judgment but a
+different relation to it.
+
 If understanding is partial, explanation incomplete, and moral sorting
 unreliable, then judgment cannot pretend to finish its work. And yet
 judgment does not disappear.

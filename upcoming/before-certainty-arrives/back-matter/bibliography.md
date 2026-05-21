@@ -9,6 +9,10 @@
 - Braudel, Fernand. *On History*. Translated by Sarah Matthews. Chicago:
   University of Chicago Press, 1980.
 
+- Braudel, Fernand. *The Structures of Everyday Life*. Vol. 1 of
+  *Civilization and Capitalism, 15th–18th Century*. Translated by Siân
+  Reynolds. New York: Harper & Row, 1981.
+
 - Carr, E. H. *What Is History?* New York: Vintage Books, 1961.
 
 - Douglas, Mary. *Purity and Danger: An Analysis of Concepts of Pollution

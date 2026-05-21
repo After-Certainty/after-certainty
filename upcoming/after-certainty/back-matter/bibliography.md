@@ -3,6 +3,9 @@
 - Arendt, Hannah. *Eichmann in Jerusalem: A Report on the Banality of Evil*.
   New York: Viking Press, 1963.
 
+- Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn.
+  New York: Schocken Books, 2003.
+
 - Bauman, Zygmunt. *Modernity and the Holocaust*. Ithaca, NY: Cornell
   University Press, 1989.
 
