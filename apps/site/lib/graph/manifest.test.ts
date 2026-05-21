@@ -3,10 +3,12 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import fallback from "@/data/semantic-manifest.json";
 import { DEFAULT_SEMANTIC_MANIFEST_URL } from "@/lib/site-config";
 import {
+  dedupeSemanticGraphBooks,
   fetchSemanticGraphUncached,
   validateSemanticGraph,
   SEMANTIC_GRAPH_CACHE_TAG,
 } from "@/lib/graph/manifest";
+import type { Book } from "@/types/semanticGraph";
 
 function validatedFallbackGraph() {
   const result = validateSemanticGraph(fallback as unknown);
@@ -81,6 +83,27 @@ describe("validateSemanticGraph", () => {
       relationships: [],
     });
     expect(result.success).toBe(false);
+  });
+});
+
+describe("dedupeSemanticGraphBooks", () => {
+  it("keeps the row with export URLs when duplicate slugs share an id", () => {
+    const published: Book = {
+      id: "book-after-certainty",
+      slug: "after-certainty",
+      title: "After Certainty",
+      docx: { enabled: true, file: "a.docx", url: "https://example.com/a.docx" },
+    };
+    const upcoming: Book = {
+      id: "book-after-certainty",
+      slug: "after-certainty",
+      title: "After Certainty",
+      summary: "Upcoming stub",
+      docx: { enabled: false, file: "a.docx", url: null },
+    };
+    const out = dedupeSemanticGraphBooks([upcoming, published]);
+    expect(out).toHaveLength(1);
+    expect(out[0].docx?.url).toBe(published.docx?.url);
   });
 });
 

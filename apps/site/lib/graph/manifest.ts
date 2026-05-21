@@ -6,8 +6,32 @@ import {
   isSemanticManifestOffline,
   resolveSemanticManifestUrl,
 } from "@/lib/site-config";
-import type { SemanticGraph } from "@/types/semanticGraph";
+import type { Book, SemanticGraph } from "@/types/semanticGraph";
 import { semanticGraphSchema, toSemanticGraph } from "@/lib/graph/schemas";
+
+function semanticBookExportScore(book: Book): number {
+  let score = 0;
+  for (const block of [book.docx, book.epub, book.pdf]) {
+    if (block?.enabled && block.url) score += 1;
+  }
+  return score;
+}
+
+/** When release JSON lists duplicate slugs, keep the row with live export URLs (published under books/). */
+export function dedupeSemanticGraphBooks(books: Book[]): Book[] {
+  const bySlug = new Map<string, Book>();
+  for (const book of books) {
+    const existing = bySlug.get(book.slug);
+    if (!existing) {
+      bySlug.set(book.slug, book);
+      continue;
+    }
+    if (semanticBookExportScore(book) > semanticBookExportScore(existing)) {
+      bySlug.set(book.slug, book);
+    }
+  }
+  return [...bySlug.values()];
+}
 
 /** Next.js fetch / `revalidateTag` cache tag for on-demand graph refresh. */
 export const SEMANTIC_GRAPH_CACHE_TAG = "semantic-graph";
@@ -91,7 +115,10 @@ export async function fetchSemanticGraphUncached(): Promise<SemanticGraph> {
       logSemanticGraphError("Remote semantic manifest validation failed; using bundled fallback.", validated.error);
       return loadBundledFallbackGraph();
     }
-    return validated.data;
+    return {
+      ...validated.data,
+      books: dedupeSemanticGraphBooks(validated.data.books),
+    };
   } catch (err) {
     logSemanticGraphError("Semantic manifest fetch failed; using bundled fallback.", err);
     return loadBundledFallbackGraph();
