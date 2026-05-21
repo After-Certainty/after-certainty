@@ -1,4 +1,5 @@
 import { cache } from "react";
+import { revalidateTag } from "next/cache";
 import fallbackCatalog from "@/data/books-manifest.json";
 import {
   isGeneratedBooksManifest,
@@ -6,6 +7,9 @@ import {
 } from "@/lib/books/generated-manifest";
 import type { BooksCatalogManifest } from "@/types/content";
 import { isBooksManifestOffline, resolveBooksManifestUrl } from "@/lib/site-config";
+
+/** Next.js fetch / `revalidateTag` cache tag for on-demand books catalog refresh. */
+export const BOOKS_CATALOG_CACHE_TAG = "books-catalog";
 
 export const BOOKS_MANIFEST_REVALIDATE_SECONDS = (() => {
   const raw = process.env.BOOKS_MANIFEST_REVALIDATE_SECONDS?.trim();
@@ -53,7 +57,10 @@ export async function fetchBooksCatalogUncached(): Promise<BooksCatalogManifest>
 
   try {
     const res = await fetch(url, {
-      next: { revalidate: BOOKS_MANIFEST_REVALIDATE_SECONDS },
+      next: {
+        revalidate: BOOKS_MANIFEST_REVALIDATE_SECONDS,
+        tags: [BOOKS_CATALOG_CACHE_TAG],
+      },
       headers: { Accept: "application/json, */*" },
     });
 
@@ -75,4 +82,12 @@ const cachedBooksCatalog = cache(fetchBooksCatalogUncached);
 
 export async function getBooksCatalogCached(): Promise<BooksCatalogManifest> {
   return cachedBooksCatalog();
+}
+
+/**
+ * Invalidates cached books manifest fetches for tag {@link BOOKS_CATALOG_CACHE_TAG}.
+ * Only effective when called from a server context (Route Handler, Server Action).
+ */
+export function refreshBooksCatalog(): void {
+  revalidateTag(BOOKS_CATALOG_CACHE_TAG, "max");
 }

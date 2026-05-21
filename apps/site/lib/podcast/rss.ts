@@ -5,6 +5,7 @@
  * Route-level `export const revalidate` was omitted — Turbopack flagged invalid segment config when combined with this route; caching is driven by `fetch` only.
  */
 import Parser from "rss-parser";
+import { revalidateTag } from "next/cache";
 import { cache } from "react";
 import fallbackData from "@/data/podcast-episodes.json";
 import type { PodcastEpisode } from "@/types/content";
@@ -19,6 +20,9 @@ import { resolvePodcastRssUrl } from "@/lib/site-config";
 const parser = new Parser();
 
 export const PODCAST_RSS_REVALIDATE_SECONDS = 3600;
+
+/** Next.js fetch / `revalidateTag` cache tag for on-demand podcast RSS refresh. */
+export const PODCAST_RSS_CACHE_TAG = "podcast-rss";
 
 function sortRssItemsNewestFirst(items: RssItem[]): RssItem[] {
   return [...items].sort((a, b) => episodeSortKey(b) - episodeSortKey(a));
@@ -48,7 +52,10 @@ export async function fetchPodcastFeedUncached(): Promise<PodcastFeedResultWithF
 
   try {
     const res = await fetch(rssUrl, {
-      next: { revalidate: PODCAST_RSS_REVALIDATE_SECONDS },
+      next: {
+        revalidate: PODCAST_RSS_REVALIDATE_SECONDS,
+        tags: [PODCAST_RSS_CACHE_TAG],
+      },
       headers: {
         Accept: "application/rss+xml, application/xml, application/atom+xml, text/xml, */*",
       },
@@ -105,5 +112,13 @@ export async function getPodcastFeed(): Promise<PodcastFeedResultWithFallback> {
 export async function getPodcastEpisodesFromRss(): Promise<PodcastEpisode[]> {
   const result = await cachedFeed();
   return result.episodes;
+}
+
+/**
+ * Invalidates cached podcast RSS fetches for tag {@link PODCAST_RSS_CACHE_TAG}.
+ * Only effective when called from a server context (Route Handler, Server Action).
+ */
+export function refreshPodcastRss(): void {
+  revalidateTag(PODCAST_RSS_CACHE_TAG, "max");
 }
 
