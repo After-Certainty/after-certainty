@@ -14,7 +14,7 @@ Architectural constraints for **After Certainty** (*How to Live and Judge When U
 ### Markdown file structure
 
 - One file per chapter under `parts/part-N-*/`.
-- `index.md` links all units; no bridges between parts in current structure.
+- `index.md` links all units; part bridges live beside chapters (e.g. `parts/part-1-letting-go/bridge.md`).
 
 ## Core invariant (non-negotiable)
 
@@ -67,6 +67,17 @@ Vignettes are recognition anchors, not decoration. Conflict stays subtle; stakes
 
 Do not polish all vignettes toward one template.
 
+## Pattern language (light surfacing)
+
+Portable compressions for virtues that distort under scale—not a pattern catalogue. See `docs/pattern-language.md`.
+
+- Do not use trailing backslash (`\`) line breaks in manuscript prose; use blank lines for deliberate cadence (see pass-2 cadence in `docs/feedback-pass-2.md`)
+- Surface at most 1–2 patterns per chapter, only after prose establishes the insight
+- Use a single bold line: `**Explanation Replaces Response.**`
+- No pattern callout boxes, formal “Pattern:” sections, or numbered taxonomies in chapter prose
+- Do not place bold pattern names inside vignette blocks
+- Ten core patterns only, **locked** for this book (see `docs/pattern-language.md`); WOLTY-like rhythm: 3–5 words with directional motion; field guide in `back-matter/appendix-a-stabilizers-and-distortions.md` (recognition after reading, not prerequisite)
+
 ## Citation and glossary
 
 - Use Pandoc footnotes (`[^id]` with chapter-scoped IDs such as `[^c3-motivated-reasoning]`).
@@ -77,5 +88,7 @@ Do not polish all vignettes toward one template.
 
 - `docs/drafting-process.md`
 - `docs/editorial-passes.md`
+- `docs/feedback-pass-2.md`
+- `docs/pattern-language.md`
 - `docs/beta-reader-feedback-2026.md`
 - `docs/status.md`

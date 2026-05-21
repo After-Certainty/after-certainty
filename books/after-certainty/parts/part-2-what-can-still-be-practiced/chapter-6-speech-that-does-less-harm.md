@@ -2,182 +2,81 @@
 
 ## **Speech That Does Less Harm**
 
-We often treat speech as a moral act by default.
+Speech is often treated as morally good by default. To speak is assumed to mean caring, participating, and refusing indifference. Silence, by contrast, is often treated as surrender, avoidance, or complicity.
 
-To speak is to care.\
-To remain silent is to consent.\
-To persuade is to make progress.
+These assumptions become especially powerful when stakes feel high. In moments of injustice or visible harm, speaking can feel not merely appropriate, but morally required. To remain silent begins to feel like abandonment.
 
-These assumptions feel especially strong when stakes are high. In
-moments of harm or injustice, speech seems not just appropriate, but
-required. To say nothing feels like abandonment.
+But after certainty, speech no longer carries the guarantees we want it to. Language does not simply transmit meaning. Under pressure, it also compresses, amplifies, polarizes, and distorts. The more emotionally urgent speech becomes, the more unstable meaning often becomes alongside it.
 
-But after certainty, speech no longer carries the moral guarantees we
-want it to.
+This chapter asks a narrower question: how do we speak once we understand that speech itself can increase harm?
 
-Language does not simply transmit meaning. It compresses, amplifies,
-polarizes, and misleads—especially under pressure and at scale. The more
-urgently we speak, the more distortion we risk introducing.
+### **Why Speech Feels Morally Necessary**
 
-This chapter asks a quieter question: how do we speak once we know that
-speech itself can do harm?
+Speech promises agency. When people speak, they feel present inside events rather than passive in relation to them. Speech creates the feeling of participation. It signals alignment with values both to others and to ourselves.
 
-### **Why Speech Feels Obligatory**
+Speech also produces visibility. Concern becomes recognizable. Positions become legible. Moral identity becomes socially confirmable. None of these incentives are accidental. Modern public life rewards visible speech far more consistently than careful restraint. But moral urgency and moral responsibility are not always the same thing.
 
-Speech promises agency.
+### **What Pressure Does to Language**
 
-When we speak, we feel present. We feel aligned with our values. We feel
-that we have done something. Silence, by contrast, feels passive or
-complicit.
+Language changes under pressure. Nuance collapses. Tone hardens. Intent gets inferred instead of clarified. Words that originally attempted to communicate become signals of allegiance instead. Disagreement begins feeling like identity threat rather than disagreement about substance. Context compresses into phrases optimized for speed, circulation, and coordination.
 
-Speech also offers visibility. It signals concern to others and to
-ourselves. It allows moral positioning to be recognized, shared, and
-affirmed.
+This is not primarily because people are careless. It is because language is being asked to perform coordination at scales where meaning cannot remain stable.
 
-These incentives are powerful—and they are not accidental. Modern public
-life rewards speech far more than restraint.
+**Speech Escalates Faster Than Meaning.**
 
-But obligation is not the same as responsibility.
+Under those conditions, speaking more does not necessarily produce greater understanding. Often it produces the opposite.
 
-### **What Happens to Language Under Pressure**
+### **When Speech Becomes Performance**
 
-Language changes when stakes rise.
+One of the more uncomfortable realities about speech is that it often functions performatively long before people recognize it. People speak to be seen, to reassure themselves, to establish alignment, and to avoid appearing absent. None of this requires insincerity. It emerges naturally once speech becomes a primary form of moral participation.
 
-Nuance collapses.\
-Tone hardens.\
-Intent is inferred rather than asked.
-
-Words that were meant to clarify become signals of allegiance.
-Disagreement becomes identity threat. Context is reduced to slogans that
-travel quickly but mean little.
-
-This is not because people are careless. It is because language is being
-asked to do work—coordination at scale—that it cannot do cleanly.
-
-In these conditions, speaking more does not necessarily communicate
-more.
-
-It often does the opposite.
-
-### **When Speech Becomes Performative**
-
-One of the hardest things to admit is that speech can function more as
-performance than response.
-
-We speak to be seen.\
-We speak to align.\
-We speak to reassure ourselves that we are on the right side.
-
-None of this requires bad faith. It emerges naturally when speech
-becomes a primary moral currency.
-
-But performative speech has consequences. It raises stakes without
-increasing understanding. It pressures others to respond in kind. It
-crowds out quieter forms of care that do not translate into public
-language.
-
-When speech is driven more by visibility than by contact with harm, it
-risks becoming extractive rather than responsive.[^c6-performative-speech]
+But performative speech changes the environment around it. It increases pressure without necessarily increasing clarity. It invites escalation. It rewards visibility over contact with consequences. And it can slowly displace quieter forms of care that do not translate well into public language. When speech becomes more accountable to audience recognition than to effects on actual people, it starts becoming extractive instead of responsive.[^c6-performative-speech]
 
 ### **The Statement**
 
 ::: {custom-style="Vignette Block"}
-The organization needed to say something. Silence had already been read as indifference; speaking was read as leadership.
+The organization needed to say something. Silence had already started being interpreted as indifference. Speaking, meanwhile, was being interpreted as leadership.
 
-The statement went through six drafts. Each version more careful than the last. It named concern without naming anyone. It promised review without promising outcomes. It used the language of humility at scale.
+The statement passed through six drafts. Each version became more careful. More qualified. More institutionally fluent. It expressed concern without naming responsibility directly. It promised review without promising consequence. It used the language of humility at scale.
 
-It published on a Tuesday morning. By afternoon it had been screenshot, clipped, and placed into arguments it was never meant to settle. One side called it cowardly. The other called it performative. Almost no one quoted the full text.
+It was published on a Tuesday morning.
 
-Inside the building, people felt they had done what was required. Outside, the harm they were responding to looked, if anything, more sharply drawn. The statement had not clarified the situation. It had given everyone a new surface to push against.
+By afternoon, screenshots were circulating detached from context. Short fragments became arguments the statement had never intended to settle. One group called it cowardly. Another called it performative. Almost no one quoted the entire text.
+
+Inside the organization, people felt they had done what responsibility required. Outside, the underlying harm looked sharper than before. The statement had not clarified the situation. It had created a new surface for conflict to organize around.
 :::
 
-The room did not feel calmer after it went out. It felt more legible—which is not the same thing as safer, and not the same thing as cared for.
+The room did not feel calmer afterward.
+
+Only more legible.
+
+And legibility is not the same thing as care.
 
 ### **Choosing Proportion Over Persuasion**
 
-After certainty, the goal of speech shifts.
+After certainty, the goal of speech begins changing. The question is no longer how to persuade everyone, but what response is proportionate to the situation and its likely effects.
 
-The question is no longer, *“How do I persuade?”\*
-It becomes, *“What is the proportional response?”*
+Proportional speech considers audience, timing, escalation risk, consequence, and how language will travel once detached from intention. Sometimes proportional speech is direct and brief. Sometimes it slows the conversation down. Sometimes it refuses escalation. And sometimes the most proportional act is choosing not to speak publicly at all.
 
-Proportional speech considers:\
-Audience\
-Timing\
-Likely effects rather than intended meaning
+Silence, in those moments, is not surrender. It is restraint.[^c6-proportionality]
 
-Sometimes the most proportional response is speaking plainly and
-briefly. Sometimes it is slowing the conversation down. Sometimes it is
-refusing to escalate. And sometimes, it is choosing not to speak at all.
+### **Speech Without Demanding Closure**
 
-Silence here is not surrender.\
-It is restraint.[^c6-proportionality]
+Much public speech quietly seeks resolution. People want acknowledgment, agreement, alignment, and a sense that the conversation has reached conclusion. But after certainty, speech that demands closure often intensifies harm instead. It pressures ambiguity into camps. It hardens provisional positions into identities. It treats unresolved tension as failure instead of as a condition that serious people may need to remain inside for a while.
 
-### **Speaking Without Demanding Resolution**
+Speech that does less harm allows conversations to remain unfinished. It says what it can honestly say. It declines certainty where certainty is unavailable. It leaves room for revision without demanding consensus. This kind of speech rarely feels victorious. But it preserves conditions where further harm is less likely to escalate.
 
-Much speech seeks closure.
+### **When Silence Becomes Ethical**
 
-We want agreement. We want acknowledgment. We want the conversation to
-end with clarity or alignment.
+Silence remains dangerous. It can conceal cowardice, protect comfort, or disguise indifference. But silence can also become ethical under certain conditions—especially when speech would primarily intensify conflict, language would substitute for action, participation would add visibility but not care, or further commentary would reduce complexity into performance. At those moments, public speech can replace presence rather than deepen it.
 
-After certainty, speech that demands resolution often increases harm. It
-forces positions to harden. It treats ambiguity as failure. It mistakes
-unresolved tension for irresponsibility.
-
-Speech that does less harm allows conversations to remain unfinished.
-
-It names what it can.\
-It declines what it cannot resolve.\
-It leaves room for revision without insisting on consensus.
-
-This kind of speech feels unsatisfying. It offers no victory.
-
-But it preserves space where further harm might otherwise be introduced.
-
-### **When Silence Is the More Ethical Act**
-
-Silence is dangerous territory.
-
-It can hide indifference. It can protect comfort. It can function as
-avoidance.
-
-But silence can also be deliberate.
-
-After certainty, silence becomes ethical when:
-
-Speaking would primarily escalate rather than clarify\
-Words would replace action rather than accompany it\
-Participation would add noise rather than care
-
-Silence, chosen carefully, is not withdrawal.
-
-It is recognition of limits.
-
-It acknowledges that not every moment requires a voice—and that some
-harms are better addressed through presence, boundary-setting, or
-refusal rather than explanation.
+At those moments, silence is not withdrawal from responsibility. It is recognition of limit. Not every form of care requires public language. Some situations are better addressed through attention, boundary-setting, refusal, accompaniment, or material action rather than additional interpretation.
 
 ### **What Speech Still Makes Possible**
 
-Letting go of the moral guarantees of speech does not mean giving it up.
+Releasing the moral guarantees attached to speech does not mean abandoning language altogether. Speech can still name harm without theatricality, disagree without domination, express care without demanding performance, and clarify responsibility without pretending to resolve complexity.
 
-Speech can still:
-
-Name harm without theatricality\
-Disagree without domination\
-Signal care without demanding performance
-
-Speech that does less harm is slower, quieter, and more accountable to
-effects than to intention.
-
-It does not promise change.\
-It does not ensure understanding.
-
-But it allows participation without pretending that language alone can
-carry moral weight at scale.
-
-Part II named what can still be practiced under limits. Part III turns to
-what cannot be removed: uncertainty at scale, the discipline of not
-knowing, and the moment when interpretation must stop.
+Speech that does less harm becomes slower, quieter, and more accountable to effects than to intentions. It no longer assumes that visibility equals responsibility. It no longer assumes that articulation guarantees understanding. But it allows people to participate honestly without pretending language alone can carry moral life safely at scale.
 
 [^c6-performative-speech]: See Erving Goffman, *The Presentation of Self in Everyday Life* (Garden City, NY: Doubleday, 1959); Cass R. Sunstein, *#Republic* (Princeton, NJ: Princeton University Press, 2017).
 [^c6-proportionality]: See Michael Walzer, *Just and Unjust Wars*, 5th ed. (New York: Basic Books, 2015).

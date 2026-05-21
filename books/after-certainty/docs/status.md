@@ -2,11 +2,11 @@
 
 ## Current phase
 
-**Post–Phase 5 grounding pass** — vignettes and pacing asymmetry (expanded essay edition)
+**Feedback pass 2** — author drafts incorporated file-by-file
 
 ## Active branch
 
-`after-certainty/editorial-grounding`
+`after-certainty/editorial-feedback-pass-2`
 
 ## Manuscript hub
 
@@ -18,6 +18,7 @@
 - [`drafting-process.md`](drafting-process.md)
 - [`editorial-passes.md`](editorial-passes.md)
 - [`beta-reader-feedback-2026.md`](beta-reader-feedback-2026.md)
+- [`feedback-pass-2.md`](feedback-pass-2.md)
 - [Portfolio](../../docs/portfolio-status.md)
 
 ## Unit progress
@@ -49,9 +50,9 @@ Checklist: [`author-read-through-gate.md`](author-read-through-gate.md) — re-r
 
 ## Next actions
 
-1. Complete grounding + asymmetry passes per `beta-reader-feedback-2026.md`
-2. Export smoke test (`make build-book DIR=books/after-certainty`)
-3. Author read-through of new vignettes
+1. Incorporate author drafts per `feedback-pass-2.md` (file-by-file)
+2. Bibliography + footnote integrity after each batch
+3. Export smoke test when pass complete
 
 ## Rough scale
 

@@ -4,137 +4,165 @@
 
 Correctness feels like safety.
 
-If we can get things right—factually, morally, historically—then we can
-act with confidence. We can justify our choices. We can explain
-ourselves. We can trust that time, evidence, or reason will sort things
-out.
+If we can get things right—factually, morally, historically—then we can act with confidence. We can justify our choices. We can explain ourselves. We can trust that evidence, reason, or time will eventually sort things out.
 
-At human scale, that promise sometimes holds.\
-At historical scale, it does not.
+At small scale, that sometimes works.
 
-And treating it as one does not make us more moral—it often makes us
-more dangerous.
+At large scale, it often does not.
 
-### **Why Being Right Feels Like a Moral Achievement**
+And once correctness stops functioning as a practical tool and starts functioning as a moral achievement, something begins to drift.
 
-We do not experience correctness as neutral.
+### **Why Being Right Feels Moral**
 
-To be right feels earned. It feels like diligence rewarded. When we have
-done the reading, examined the evidence, or thought carefully,
-correctness appears to justify confidence—not just in our conclusions,
-but in *ourselves*.
+Correctness rarely feels neutral.
 
-This is where correctness quietly turns moral.
+To be right feels earned.
 
-Being right becomes a signal of seriousness, while disagreement becomes
-a sign of irresponsibility.
+It feels disciplined.
 
-Error shifts from a structural inevitability to a personal failure.
+It feels responsible.
 
-At this point, correctness stops functioning as a tool for alignment and
-starts functioning as a claim to authority.
+We studied carefully. We checked the evidence. We paid attention when others did not.
 
-The problem is not that people care about truth. The problem is that
-correctness is asked to do moral work it cannot sustain—especially once
-scale enters the picture.[^c1-motivated-reasoning]
+Over time, correctness stops feeling like something we use and starts feeling like something that justifies us.
 
-### **What Scale Does to “Getting It Right”**
+That shift matters.
 
-As coordination grows, three things happen at once:
+Being right begins signaling seriousness itself. Disagreement starts feeling irresponsible. Error stops appearing inevitable and starts appearing moral.
 
-- Information fragments
+At that point, correctness is no longer primarily helping people coordinate around reality.
 
-- Context multiplies
+It is helping people claim authority over one another.
 
-- Feedback slows or disappears
+The problem is not that people care about truth.
 
-What counts as “right” becomes contingent on perspective, timing, and
-incentive.
+The problem is that correctness begins carrying more moral weight than it can sustain—especially once systems grow large enough that no one can fully see the whole picture at once.[^c1-motivated-reasoning]
 
-In these conditions, correctness no longer converges. It **diverges**.
+### **What Scale Does to “Right”**
 
-Efforts to “set the record straight” often amplify distortion by
-introducing new frames, new audiences, and new incentives. Corrections
-become contested. Clarifications harden positions. Confidence escalates
-while understanding thins.
+Scale changes the conditions under which correctness stabilizes.
 
-The result is not shared truth, but **competing certainties**—each
-internally coherent, each morally charged, and each increasingly
-insulated from revision.[^c1-scale-fragmentation]
+As coordination grows, information fragments, context multiplies, incentives diverge, feedback slows, and consequences become harder to trace.
+
+Under those conditions, “getting it right” becomes difficult to settle collectively.
+
+Different groups encounter different evidence.
+
+Different incentives shape attention differently.
+
+Different timelines produce different interpretations of the same event.
+
+Correctness stops converging.
+
+It begins splitting into competing certainties instead.
+
+Attempts to “set the record straight” often intensify conflict for exactly this reason. Every clarification introduces new framing. Every correction creates new audiences, new interpretations, and new incentives.
+
+Confidence escalates while understanding thins.
+
+The result is not shared certainty, but multiple internally coherent moral worlds increasingly unable to revise one another.[^c1-scale-fragmentation]
 
 ### **The Meeting That Did Not Escalate**
 
 ::: {custom-style="Vignette Block"}
-The disagreement was already visible. Two teams had been talking past each other for weeks. Everyone in the room knew what the next sentence would cost if it landed wrong.
+The disagreement had already been building for weeks. Two teams were talking past each other. Everyone in the room could feel the conversation approaching the point where people stop revising and start defending themselves instead.
 
-She had the clearer case on paper. She had checked the numbers. She could have pressed.
+She had the stronger case on paper. She had checked the numbers twice. She could have pressed harder and probably won the argument.
 
-Instead she let the silence hold a beat longer than comfort allowed. Someone else filled it—not with a concession, but with a narrower question. The temperature dropped a degree. The meeting ended without resolution.
+Instead, she let the silence stay in the room a little longer.
 
-Later, a colleague said she had been passive. Maybe she had been. But the harm they had been trying to prevent was not the wrong answer. It was the fight that would have made the wrong answer permanent.
+Someone else finally spoke—not with agreement, but with a smaller question.
+
+The conversation narrowed.
+
+The temperature dropped slightly.
+
+The meeting ended without resolution.
+
+Later, a colleague told her she had been too passive.
+
+Maybe she had been.
+
+But the harm she was trying to avoid was not the wrong answer.
+
+It was the kind of conflict that makes future revision almost impossible.
 :::
 
-### **When Correctness Starts to Do Harm**
+### **When Correctness Starts Protecting Error**
 
-Correctness becomes dangerous when it is treated as an achievement
-rather than a condition.
+Correctness becomes dangerous once it hardens into identity.
 
-Once being right is tied to identity, revision feels like loss. Doubt
-feels like weakness. Listening feels like concession. And moral
-seriousness becomes indistinguishable from inflexibility.
+Revision begins feeling like loss.
 
-At that point:
+Doubt feels weak.
 
-- Evidence is selected, not examined
+Listening feels like surrender.
 
-- Context is weaponized, not weighed
+At that point, moral seriousness and inflexibility begin blurring together.
 
-- Harm is justified by alignment with “the right side”
+Evidence becomes selected instead of examined. Context becomes weaponized instead of weighed. Harm becomes easier to justify when it appears to serve the “right side.”
 
-Correctness, originally meant to reduce error, now protects it.
+Correctness, originally meant to reduce error, begins protecting it instead.
 
-This is not bad faith. It is what happens when a fragile standard is
-overburdened by scale.
+This does not require bad intentions.
+
+It is what happens when certainty is asked to stabilize identity rather than support judgment.
+
+**Correctness Hardens Into Identity.**
 
 ### **Letting Go of Correctness Is Not Letting Go of Truth**
 
-Letting go of correctness does *not* mean abandoning truth, evidence, or
-care. It means releasing the belief that being right entitles us to
-resolution, authority, or moral closure.
+Letting go of correctness does not mean abandoning truth, evidence, or care.
 
-Truth remains something to pursue; correctness is no longer something to
-possess.
+It means letting go of the belief that being right finally resolves moral tension.
 
-Truth can tolerate uncertainty.\
-Correctness cannot.
+Truth remains something people pursue.
 
-When correctness is treated as provisional—always subject to revision—it
-can still guide action. When it is treated as a moral accomplishment, it
-distorts judgment.
+Correctness stops becoming something people possess.
 
-The end of correctness is not nihilism. It is realism about the limits
-of alignment under scale.[^c1-pragmatist-truth]
+That distinction matters because truth can survive uncertainty.
+
+Identity-based correctness usually cannot.
+
+Once correctness becomes part of the self, revision starts threatening coherence rather than improving understanding.
+
+But when correctness remains provisional—open to revision, responsive to new information—it can still support judgment without hardening into certainty.
+
+The end of correctness is not nihilism.
+
+It is recognition of the limits of moral closure under scale.[^c1-pragmatist-truth]
 
 ### **What Replaces Correctness**
 
-Nothing clean replaces it. The question shifts from *“Am I right?”* to *“Am I responsive to what I might be missing?”*—proportion, reversibility, willingness to revise.
+Nothing simple replaces it.
 
-This is not weaker judgment. It is **less brittle judgment**, trading the relief of certainty for the discipline of ongoing responsibility.
+The question changes instead.
 
-### **The First Thing That Has to Go**
+People stop asking whether they are finally right and begin asking what they might still be missing.
 
-Correctness is often the first thing that must be released—not because
-it is false, but because it is overburdened.
+That shift changes several things at once.
 
-As long as we believe that getting things right will resolve moral
-tension, we will keep pushing interpretation past its limits. We will
-keep explaining when explanation no longer helps. We will keep sorting
-people into camps when care demands something slower.
+Proportion matters more.
 
-Letting go of correctness is not an ending. It is a clearing.
+Reversibility matters more.
 
-It makes room for judgment that does not pretend to finish its work—and
-for responsibility that does not depend on being right.
+Willingness to revise matters more.
+
+Judgment becomes less concerned with defending certainty and more concerned with remaining responsive.
+
+This is not weaker judgment.
+
+It is less brittle judgment.
+
+### **The First Thing That Has to Loosen**
+
+Correctness is often the first stabilizer that must loosen—not because it is false, but because it becomes overburdened.
+
+As long as people believe being right will finally resolve moral tension, they will keep pushing interpretation past its limits. They will keep explaining after explanation has stopped helping. They will keep sorting people into moral camps when care requires something slower, more revisable, and less emotionally satisfying.
+
+Letting go of correctness is not the end of judgment.
+
+It is the beginning of a different relationship to judgment: one that remains serious without pretending to become final.
 
 [^c1-motivated-reasoning]: Dan M. Kahan, "Cultural Cognition and Public Policy," *Yale Law & Policy Review* 24 (2006): 149–173.
 [^c1-scale-fragmentation]: See Charles Perrow, *Normal Accidents: Living with High-Risk Technologies* (New York: Basic Books, 1984); Max Weber, *Economy and Society*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).
