@@ -79,6 +79,20 @@ language.
 When speech is driven more by visibility than by contact with harm, it
 risks becoming extractive rather than responsive.[^c6-performative-speech]
 
+### **The Statement**
+
+::: {custom-style="Vignette Block"}
+The organization needed to say something. Silence had already been read as indifference; speaking was read as leadership.
+
+The statement went through six drafts. Each version more careful than the last. It named concern without naming anyone. It promised review without promising outcomes. It used the language of humility at scale.
+
+It published on a Tuesday morning. By afternoon it had been screenshot, clipped, and placed into arguments it was never meant to settle. One side called it cowardly. The other called it performative. Almost no one quoted the full text.
+
+Inside the building, people felt they had done what was required. Outside, the harm they were responding to looked, if anything, more sharply drawn. The statement had not clarified the situation. It had given everyone a new surface to push against.
+:::
+
+The room did not feel calmer after it went out. It felt more legible—which is not the same thing as safer, and not the same thing as cared for.
+
 ### **Choosing Proportion Over Persuasion**
 
 After certainty, the goal of speech shifts.

@@ -105,9 +105,12 @@ Acceptance of responsibility for consequences
 What it no longer requires is certainty about outcomes or consensus
 about meaning.
 
-This is a difficult posture to maintain. It offers no absolution. It
-does not protect you from criticism. It does not guarantee that your
-actions will be understood or credited.
+This is a difficult posture to maintain. I have watched people—including
+myself—reach for finality when a decision was already overdue, not because
+the case was closed, but because staying provisional felt like failure.
+Judgment without finality offers no absolution. It does not protect you
+from criticism. It does not guarantee that your actions will be understood
+or credited.
 
 But it preserves integrity in conditions where integrity is easily lost
 to either rigidity or retreat.

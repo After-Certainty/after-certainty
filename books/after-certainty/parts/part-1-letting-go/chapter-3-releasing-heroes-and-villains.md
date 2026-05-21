@@ -79,6 +79,20 @@ remain unquestioned.
 Villains allow moral distance. They keep us from asking how similar
 dynamics might operate closer to home—or through us.[^c3-villain-narratives]
 
+### **The Comment Thread**
+
+::: {custom-style="Vignette Block"}
+The story arrived already sorted. One person careless, one institution negligent, one villain obvious enough to share.
+
+Comments piled on fast. Outrage felt proportionate because the frame was already complete. To disagree with the sorting was to sound like an apologist.
+
+Then a detail surfaced that did not fit. Not exonerating—just uneven. The villain had also been following a rule everyone else relied on. The victim had made a choice that was understandable and still costly.
+
+The thread did not pause for that. It adapted the story instead: a worse villain, a purer victim. The moral energy needed somewhere to go.
+
+He closed the tab without posting. Not because he had no view. Because the view he had would not survive the format—and he was no longer sure the format was asking for judgment at all.
+:::
+
 ### **Moral Neutrality Is Not the Alternative**
 
 Letting go of heroes and villains often raises an immediate fear: if we

@@ -60,6 +60,18 @@ naming tradeoffs.
 
 Explanation, here, does not reduce suffering. It repackages it.[^c2-explanation-moral-work]
 
+### **The Briefing That Explained Everything**
+
+::: {custom-style="Vignette Block"}
+The report was thorough. Root causes, timeline, incentive structures, lessons learned. The language was careful. No one was singled out. No one was surprised by the tone.
+
+People in the room nodded. They asked clarifying questions. They took notes.
+
+Outside the building, the same delays continued. The same people were still waiting on answers that had nothing to do with whether the failure was understandable. The briefing had made the harm legible. It had not made it smaller.
+
+On the way out, someone said it was the most professional postmortem they had attended. That was true. It was also the point where explanation had done all the work it was going to do—and none of the work that remained.
+:::
+
 The question is not whether explanation is accurate, but whether it is
 still doing moral work rather than replacing it.
 

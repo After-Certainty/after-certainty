@@ -59,6 +59,18 @@ Not knowing looks longer—and then stops.
 
 The discipline lies in knowing when further looking no longer clarifies.
 
+### **The Third Conversation**
+
+::: {custom-style="Vignette Block"}
+He had talked to two people already. Both were thoughtful. Both added context that complicated the first story without replacing it.
+
+A third conversation was available. It might help. It might also be the kind of help that postpones a decision someone else is waiting on.
+
+He sat with the file open and did not schedule the call. Not because he had stopped caring. Because he could name what he knew, what he did not know, and what another hour of understanding would change about his obligation.
+
+The answer was: not enough. The harm was already visible in effect. The motives could remain mixed. He wrote down what he would do next—provisionally, revisably—and closed the laptop.
+:::
+
 ### **Holding Uncertainty Without Filling It**
 
 The discipline of not knowing is not passive.
