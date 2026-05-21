@@ -691,6 +691,7 @@ def main() -> None:
     repo_slug = resolve_repo_slug(repo, args.github_repository)
 
     base_books: list[dict] = []
+    published_slugs: set[str] = set()
     book_media_by_slug: dict[str, dict] = {}
     book_commerce_by_slug: dict[str, dict] = {}
     for spec_path in discover_book_spec_paths(repo):
@@ -706,6 +707,7 @@ def main() -> None:
             status="published",
         )
         base_books.append(entry)
+        published_slugs.add(str(entry["slug"]))
         media = build_book_media_from_spec(spec)
         if media:
             book_media_by_slug[str(entry["slug"])] = media
@@ -714,6 +716,10 @@ def main() -> None:
             book_commerce_by_slug[str(entry["slug"])] = commerce
     for spec_path in discover_upcoming_spec_paths(repo):
         spec = load_upcoming_spec(spec_path)
+        book = spec.get("book", {})
+        slug = str(book.get("id", "")).strip()
+        if slug and slug in published_slugs:
+            continue
         upcoming = spec.get("upcoming", {})
         entry = build_book_entry(
             repo=repo,
