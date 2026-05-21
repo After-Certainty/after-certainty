@@ -1,6 +1,10 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
-import { fetchPodcastFeedUncached, PODCAST_RSS_REVALIDATE_SECONDS } from "@/lib/podcast/rss";
+import {
+  fetchPodcastFeedUncached,
+  PODCAST_RSS_CACHE_TAG,
+  PODCAST_RSS_REVALIDATE_SECONDS,
+} from "@/lib/podcast/rss";
 
 /** Minimal valid RSS 2.0 for rss-parser + our normalizer */
 const FIXTURE_RSS = `<?xml version="1.0" encoding="UTF-8"?>
@@ -51,7 +55,10 @@ describe("RSS pipeline (fetch + parse + normalize)", () => {
     expect(fetchMock).toHaveBeenCalledWith(
       "https://fixture.example/podcast.xml",
       expect.objectContaining({
-        next: { revalidate: PODCAST_RSS_REVALIDATE_SECONDS },
+        next: {
+          revalidate: PODCAST_RSS_REVALIDATE_SECONDS,
+          tags: [PODCAST_RSS_CACHE_TAG],
+        },
         headers: expect.objectContaining({
           Accept: expect.stringContaining("rss+xml"),
         }),
