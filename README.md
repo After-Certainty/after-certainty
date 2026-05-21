@@ -55,11 +55,16 @@ Unless otherwise noted, original content in this repository is licensed under [*
 
 Together these manuscripts are part of the broader **After Certainty** thread: thinking clearly when simple answers stop working.
 
-**Navigate the portfolio:** [`docs/series-guide.md`](docs/series-guide.md) — reading order, clusters, and pairs of titles that are easy to confuse (for example *When Accountability No Longer Expires* vs *When Authority Outlives Accountability*).
+## Portfolio navigation
+
+- **Series guide (reading order, clusters, title pairs):** [`docs/series-guide.md`](docs/series-guide.md)
+- **Reader map (onboarding, overlap disambiguation):** [`docs/portfolio-reader-map.md`](docs/portfolio-reader-map.md)
+- **Upcoming nonfiction dashboard:** [`upcoming/docs/portfolio-status.md`](upcoming/docs/portfolio-status.md)
+- **Portfolio audit (reports + backlog):** [`docs/portfolio-audit/`](docs/portfolio-audit/) · [`docs/audits/portfolio-promotion-readiness-2026-05.md`](docs/audits/portfolio-promotion-readiness-2026-05.md)
 
 ## Upcoming nonfiction
 
-Essay-length and in-progress manuscripts live under [`upcoming/`](upcoming/). **Series guide:** [`docs/series-guide.md`](docs/series-guide.md) (reading order, clusters, confused-title pairs). **Status dashboard:** [`upcoming/docs/portfolio-status.md`](upcoming/docs/portfolio-status.md).
+Five essay-length or in-progress manuscripts remain under [`upcoming/`](upcoming/) (three Tier A titles are now published under `books/`—see table above).
 
 | Book | Index | What it's about |
 | --- | --- | --- |
@@ -70,5 +75,3 @@ Essay-length and in-progress manuscripts live under [`upcoming/`](upcoming/). **
 | **Why Collaboration Is So Hard** — *And why the effort still matters* | [`upcoming/why-collaboration-is-so-hard/index.md`](upcoming/why-collaboration-is-so-hard/index.md) | Coordination without full ownership—contribution and trust under diffuse responsibility. |
 
 **Fiction (separate track):** **Velorum** — [`upcoming/velorum/index.md`](upcoming/velorum/index.md).
-
-**Portfolio promotion audit (May 2026):** [`docs/portfolio-audit/`](docs/portfolio-audit/) — readiness assessments, differentiation matrix, and proposed follow-up work ([#99](https://github.com/ksteffe/after-certainty/issues/99)).

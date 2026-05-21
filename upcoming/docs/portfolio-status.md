@@ -1,12 +1,14 @@
 # Upcoming nonfiction — portfolio status
 
-Dashboard for eight nonfiction manuscripts under `upcoming/` (Velorum uses a separate fiction doc track).
+Dashboard for eight nonfiction manuscripts under `upcoming/` (Velorum uses a separate fiction doc track). Three Tier A titles are **Phase 5** in `books/` (see table); this dashboard still lists all eight for editorial tracking.
 
 **Refresh rule:** When a book's `docs/status.md` changes phase or next actions materially, update this table in the same PR.
 
 **Portfolio audit (May 2026):** [docs/portfolio-audit/](../../docs/portfolio-audit/) — promotion readiness, differentiation, and follow-up backlog ([#99](https://github.com/ksteffe/after-certainty/issues/99)).
 
 **Series guide:** [docs/series-guide.md](../../docs/series-guide.md) — reading order, clusters, and title-pair boundaries.
+
+**Reader map:** [docs/portfolio-reader-map.md](../../docs/portfolio-reader-map.md) — onboarding and overlap disambiguation.
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
@@ -36,15 +38,13 @@ Echo checks: interpretation Part III–IV pass docs; incentives interlude; econo
 
 **Completed:** Pass 3 outline expansion (PR #98) — collaboration → economy → discipline, all units outline → prose.
 
-### Pass 4 — Editorial quick wins (closest to Phase 5)
+### Pass 4 — Editorial quick wins ✓ (Phase 5 promote)
 
-Finish Phase 4 on the mature essay manuscripts; shared branch `upcoming/editorial-quick-wins` is already in use.
+1. [after-certainty](../../books/after-certainty/) — promoted (essay edition)
+2. [before-certainty-arrives](../../books/before-certainty-arrives/) — promoted (essay edition)
+3. [when-accountability-no-longer-expires](../../books/when-accountability-no-longer-expires/) — promoted (essay edition)
 
-1. [after-certainty](../after-certainty/) — Part I–III cohesion, citation pivots, promote prep
-2. [before-certainty-arrives](../before-certainty-arrives/) — global copy edit, Ch 8–10 footnotes, bibliography
-3. [when-accountability-no-longer-expires](../when-accountability-no-longer-expires/) — bridge/interlude continuity, echo on learning/correction vocabulary
-
-*Gate:* author read-through on each before promotion to `books/`.
+*Gate:* author read-through sign-off on each ([author gate](../../books/after-certainty/docs/author-read-through-gate.md) docs).
 
 **Completed:** Pass 5 mid-pipeline editorial — interpretation Phase 2–4; incentives Phase 2 + Pandoc citations.
 
@@ -64,8 +64,9 @@ Incremental depth pass delivered; full ~50–90k bands remain future work after 
 
 | Tier | Books | Approx. words | Gap to typical completion band |
 |------|-------|---------------|--------------------------------|
-| Mature editorial | after-certainty, before-certainty-arrives, accountability | 9–12k each | Moderate expansion or accept essay length |
-| Mid draft | interpretation, incentives | 8–13k each | interpretation: expansion decision; incentives: Phase 3–4 |
+| Promoted (essay) | after-certainty, before-certainty-arrives, accountability | 9–12k each | In `books/`; author gate sign-off + export smoke test |
+| Mid editorial | interpretation | ~13k | Phase 4 done; author gate + expansion decision |
+| Mid draft | incentives | ~8k | Phase 3–4 before large expansion |
 | Pass 3 / Phase 2 | collaboration, economy, discipline | 7–11k each | **Largest** — author Part I gate before expansion |
 
 ## Conventions

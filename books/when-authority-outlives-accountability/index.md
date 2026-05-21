@@ -2,6 +2,8 @@
 
 ## **A Lens for Moral Leadership**
 
+*Portfolio note:* This book is a **practical evaluation lens** (harm, effectiveness, legitimacy transfer). The upcoming [**When Accountability No Longer Expires**](../../upcoming/when-accountability-no-longer-expires/index.md) extends the thread: how **legitimate authority learns to survive harm** when accountability no longer expires.
+
 Author: Kevin Steffensen
 
 - [Title Page](front-matter/title-page.md)

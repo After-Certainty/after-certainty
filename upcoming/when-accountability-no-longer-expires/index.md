@@ -2,6 +2,8 @@
 
 ## **How Legitimate Authority Learns to Survive Harm**
 
+*Portfolio note:* This manuscript asks what happens when **legitimacy survives harm** without renewal. The published companion [**When Authority Outlives Accountability**](../../books/when-authority-outlives-accountability/index.md) offers a **lens for evaluating leaders** when accountability has already thinned—read that book first if you are new to the harm / effectiveness / legitimacy vocabulary.
+
 ### **Contents**
 
 ## Front Matter
