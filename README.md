@@ -51,3 +51,9 @@ Unless otherwise noted, original content in this repository is licensed under [*
 | **When Others Look to You** (edition 2) — *Forming, Renewing, Eroding, Repeating* | [`books/when-others-look-to-you/v2/index.md`](books/when-others-look-to-you/v2/index.md) | A parallel manuscript structure: forming leadership, renewal, erosion, and how leadership reproduces itself. |
 
 Together these manuscripts are part of the broader **After Certainty** thread: thinking clearly when simple answers stop working.
+
+## Upcoming nonfiction
+
+Eight essay-length manuscripts in active editorial passes live under [`upcoming/`](upcoming/). Status dashboard: [`upcoming/docs/portfolio-status.md`](upcoming/docs/portfolio-status.md).
+
+**Portfolio promotion audit (May 2026):** [`docs/portfolio-audit/`](docs/portfolio-audit/) — readiness assessments, differentiation matrix, and proposed follow-up work ([#99](https://github.com/ksteffe/after-certainty/issues/99)).
