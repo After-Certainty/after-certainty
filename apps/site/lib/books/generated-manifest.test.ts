@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import {
+  dedupeCatalogBooksBySlug,
   deriveFeaturedSlug,
   isGeneratedBooksManifest,
   normalizeGeneratedBooksManifest,
@@ -8,6 +9,7 @@ import {
   WOLTY_PUBLIC_ALIAS,
   WOLTY_V1_SLUG,
 } from "@/lib/books/generated-manifest";
+import type { Book } from "@/types/content";
 
 describe("isGeneratedBooksManifest", () => {
   it("is true for release-shaped root", () => {
@@ -135,6 +137,30 @@ describe("resolveBookCanonicalSlug", () => {
 
   it("returns undefined for unknown slug", () => {
     expect(resolveBookCanonicalSlug("unknown", books)).toBeUndefined();
+  });
+});
+
+describe("dedupeCatalogBooksBySlug", () => {
+  it("prefers published export row over in_progress duplicate slug", () => {
+    const published: Book = {
+      slug: "after-certainty",
+      title: "After Certainty",
+      description: "Published",
+      status: "published",
+      authors: ["K"],
+      epubUrl: "https://example.com/a.epub",
+    };
+    const upcoming: Book = {
+      slug: "after-certainty",
+      title: "After Certainty",
+      description: "Upcoming",
+      status: "in_progress",
+      authors: ["K"],
+    };
+    const out = dedupeCatalogBooksBySlug([upcoming, published]);
+    expect(out).toHaveLength(1);
+    expect(out[0].status).toBe("published");
+    expect(out[0].epubUrl).toBe(published.epubUrl);
   });
 });
 
