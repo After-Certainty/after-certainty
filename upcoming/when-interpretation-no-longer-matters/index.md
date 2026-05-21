@@ -44,3 +44,11 @@
 - [Glossary](back-matter/glossary.md)
 - [Conclusion — After Interpretation](back-matter/conclusion-after-interpretation.md)
 - [Bibliography](back-matter/bibliography.md)
+
+## Related books
+
+[Series guide](../../docs/series-guide.md) · Judgment / compression cluster
+
+- [How Meaning Moves](../../books/how-meaning-moves/index.md) — signal, compression, restraint (published)
+- [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/index.md) — eight domains where metrics replaced judgment
+- [After Certainty](../../books/after-certainty/index.md) — practice capstone (read after diagnostic volumes)

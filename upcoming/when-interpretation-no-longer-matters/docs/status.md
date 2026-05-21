@@ -35,11 +35,18 @@
 - [Part III](part-3-coherence-pass.md)
 - [Part IV](part-4-coherence-pass.md)
 
+## Expansion decision (before Phase 5)
+
+| Option | When |
+|--------|------|
+| **Essay** (~13k) | Soft launch / site quotes; cluster copy in [series guide](../../../docs/series-guide.md) |
+| **Full band** (~80–110k) | After author read-through Parts III–IV; do not enable exports until decided |
+
 ## Next actions
 
 1. Author read-through of Parts III–IV cases and judgment chapters.
-2. Decide expansion band (~80–110k in book-rules) vs essay-length acceptance.
-3. Cross-book echo check with incentives and after-certainty when expanding.
+2. Record expansion decision in this file and [portfolio-status.md](../../docs/portfolio-status.md).
+3. Phase 3–4 on incentives in parallel; echo check with [After Certainty](../../books/after-certainty/index.md) (promoted) when expanding.
 
 ## Rough scale
 

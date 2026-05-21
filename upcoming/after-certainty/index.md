@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [How to Read This Book](front-matter/how-to-read-this-book.md)
 - [Introduction](front-matter/introduction.md)
 
 ## Part I — Letting Go
@@ -32,3 +33,11 @@
 
 - [Conclusion — Enough](back-matter/conclusion-enough.md)
 - [Bibliography](back-matter/bibliography.md)
+
+## Related books
+
+[Series guide](../../docs/series-guide.md) · Capstone (read after diagnostic volumes)
+
+- [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/index.md)
+- [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/index.md)
+- [Before Certainty Arrives](../before-certainty-arrives/index.md) · [When Accountability No Longer Expires](../when-accountability-no-longer-expires/index.md)
