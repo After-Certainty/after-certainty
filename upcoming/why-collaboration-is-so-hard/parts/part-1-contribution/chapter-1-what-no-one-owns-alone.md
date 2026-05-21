@@ -2,17 +2,18 @@
 
 ## **What No One Owns Alone**
 
-A hospital discharge planning meeting can look, from the outside, like
-ordinary coordination. A physician summarizes the clinical picture. A
-social worker asks about housing and follow-up care. A nurse notes what
-the family can manage at home. A family member interrupts with fear the
-team has not yet heard. By the end, a plan exists on paper.
+A community theater company opens a season with a script everyone agreed
+to in spring. By tech week, the set shop has discovered a load limit the
+director did not know about. An actor's line change shifts a cue the
+lighting designer built around. The stage manager rewrites call times
+because a school group needs the hall an hour earlier than planned. The
+show that opens Friday is not the show anyone singly authored. It is what
+interaction made under constraint.
 
-No single person in the room authored that plan alone. The physician did
-not own housing logistics. The social worker did not own the medical
-risk calculus. The family did not own the institutional constraints.
-Yet the outcome—safe enough discharge, legible enough to defend—emerged
-through interaction.
+No single role owned that outcome alone. The director did not own building
+codes. The shop did not own dramaturgy. The stage manager did not own the
+rental calendar. Yet the performance—coherent enough to invite an
+audience—emerged through contribution.
 
 That is collaboration at its most humane: shared contribution toward an
 outcome no participant fully controls.
@@ -91,7 +92,28 @@ Groups that name this transition early—"We are in shared contribution now;
 no one owns the whole"—often fare better than groups that pretend the
 project is still a hero narrative with helpers.
 
-### **5. What this chapter does not claim**
+### **5. When the ledger of credit no longer matches the work**
+
+Solo careers train people to collect evidence: shipped features, published
+pages, signed contracts. Collaborative regimes ask for contribution before
+the evidence exists and distribute credit unevenly even when the evidence
+arrives.
+
+Consider a regional archive digitizing oral histories. The interviewer
+builds trust with narrators. A metadata specialist makes decades searchable.
+A community liaison translates consent norms across generations. A grant
+writer makes the quarter look legible to funders. When the collection
+launches, the public sees a website and a press release. The narrators see
+their names. The liaison sees whether the descriptions feel respectful.
+Only insiders see who held the relational work that made any of it possible.
+
+None of that is mysterious bad faith. It is what happens when outcomes
+require interaction and institutions still reward singular authorship.
+People who feel the mismatch acutely may tighten control or withdraw—not
+because they dislike collaboration, but because collaboration without
+visible contribution feels like volunteering for erasure.
+
+### **6. What this chapter does not claim**
 
 This chapter does not claim that ownership is bad or that accountability
 should disappear. Institutions still need decision rights, documentation,

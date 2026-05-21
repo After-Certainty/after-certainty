@@ -37,3 +37,8 @@
 - [Chapter 12 — Diagnostic Lenses](parts/part-4-seeing-collaboration-more-clearly/chapter-12-diagnostic-lenses.md)
 - [Chapter 13 — Fragility Is Not Failure](parts/part-4-seeing-collaboration-more-clearly/chapter-13-fragility-is-not-failure.md)
 - [Chapter 14 — Why the Effort Still Matters](parts/part-4-seeing-collaboration-more-clearly/chapter-14-why-the-effort-still-matters.md)
+
+## Back Matter
+
+- [Conclusion — Why the Effort Still Matters](back-matter/conclusion-why-the-effort-still-matters.md)
+- [Glossary](back-matter/glossary.md)
