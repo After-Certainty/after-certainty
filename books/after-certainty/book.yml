@@ -1,0 +1,47 @@
+version: 1
+
+publishing:
+  enabled: true
+
+book:
+  id: after-certainty
+  title: "After Certainty"
+  subtitle: "How to Live and Judge When Understanding is not Enough"
+  description: "Essay edition—a concentrated capstone on how to live and judge after frameworks fail. Read after diagnostic volumes; formation and care without guarantees."
+  author:
+    name: "Kevin Steffensen"
+    website: "https://after-certainty.com"
+  language: en
+  copyright_year: 2026
+  title_page_cover: book-cover.png
+
+paths:
+  manuscript: "./index.md"
+  output: "."
+
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
+    copyright:
+      repo_template: templates/copyright.md.j2
+      output: front-matter/copyright.md
+
+build:
+  formats:
+    docx:
+      enabled: true
+    epub:
+      enabled: true
+    pdf:
+      enabled: true
+
+github:
+  release: true
+  release_tag: "latest"
+  artifacts:
+    - docx
+    - epub
+    - pdf

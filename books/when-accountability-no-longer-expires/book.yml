@@ -1,0 +1,47 @@
+version: 1
+
+publishing:
+  enabled: true
+
+book:
+  id: when-accountability-no-longer-expires
+  title: "When Accountability No Longer Expires"
+  subtitle: "How Legitimate Authority Learns to Survive Harm"
+  description: "Essay edition—an institutional lens on why legitimate authority can persist after harm. Organizations learn to survive scandal without resolving it; not a leadership biography. Pair with When Authority Outlives Accountability for the leader-evaluation lens."
+  author:
+    name: "Kevin Steffensen"
+    website: "https://after-certainty.com"
+  language: en
+  copyright_year: 2026
+  title_page_cover: book-cover.png
+
+paths:
+  manuscript: "./index.md"
+  output: "."
+
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
+    copyright:
+      repo_template: templates/copyright.md.j2
+      output: front-matter/copyright.md
+
+build:
+  formats:
+    docx:
+      enabled: true
+    epub:
+      enabled: true
+    pdf:
+      enabled: true
+
+github:
+  release: true
+  release_tag: "latest"
+  artifacts:
+    - docx
+    - epub
+    - pdf

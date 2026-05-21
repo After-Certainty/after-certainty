@@ -3,7 +3,8 @@
 A guide for **new readers** entering the multi-book portfolio. This map preserves conceptual distinctions; it does not replace any book’s introduction.
 
 **Editorial status for upcoming titles:** [`upcoming/docs/portfolio-status.md`](../upcoming/docs/portfolio-status.md)  
-**Promotion audit (2026-05):** [`docs/audits/portfolio-promotion-readiness-2026-05.md`](audits/portfolio-promotion-readiness-2026-05.md)
+**Series guide (reading order + clusters):** [`docs/series-guide.md`](series-guide.md)  
+**Portfolio audit (2026-05):** [`docs/portfolio-audit/`](portfolio-audit/) · [`docs/audits/portfolio-promotion-readiness-2026-05.md`](audits/portfolio-promotion-readiness-2026-05.md)
 
 ---
 
@@ -15,7 +16,7 @@ A guide for **new readers** entering the multi-book portfolio. This map preserve
 | Why messages fail before anyone is “wrong” | [**How Meaning Moves**](../books/how-meaning-moves/index.md) |
 | A practical lens on influence, renewal, and erosion | [**When Others Look to You** (v1)](../books/when-others-look-to-you/v1/index.md) |
 | Responsibility and coupling in systems | [**Coupling**](../books/coupling/index.md) |
-| Operating when knowing no longer governs outcomes | [**How Serious Systems Learn**](../books/how-serious-systems-learn/index.md) *(draft manuscript — check title page)* |
+| Operating when knowing no longer governs outcomes | [**How Serious Systems Learn**](../books/how-serious-systems-learn/index.md) |
 
 There is no single mandatory order. The table below groups books by **question**, not difficulty.
 

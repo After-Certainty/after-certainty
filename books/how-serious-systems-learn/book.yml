@@ -14,7 +14,6 @@ book:
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
-  title_page_footer: "Draft manuscript for editorial development."
 
 paths:
   manuscript: "./index.md"

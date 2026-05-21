@@ -43,19 +43,35 @@ Unless otherwise noted, original content in this repository is licensed under [*
 | **Curiosity Before Certainty** — *How Curiosity Helps Us Understand a Complex World* | [`books/curiosity-before-certainty/index.md`](books/curiosity-before-certainty/index.md) | Staying curious when certainty fails: patterns, systems, and human dynamics without pretending the world is simple. |
 | **How Meaning Moves** — *Signal, Compression, Restraint, and the Pace of Understanding* | [`books/how-meaning-moves/index.md`](books/how-meaning-moves/index.md) | Why communication fails before anyone is “wrong”: signal, compression, and restraint between speakers and listeners. |
 | **How Serious Systems Learn** — *Disciplines for Acting Without Certainty* | [`books/how-serious-systems-learn/index.md`](books/how-serious-systems-learn/index.md) | Operating disciplines for domains where knowing no longer governs outcomes—constraints, probes, and preserving correction. |
-| **Velorum** (upcoming, fiction) — *A Tragic Mythic Fantasy Novel* | [`upcoming/velorum/index.md`](upcoming/velorum/index.md) | Mythic land, contemporary voice: Cael and Riven, the bond, Greyhaven, and what holding the world together costs. |
-
-Eight additional nonfiction manuscripts in progress live under [`upcoming/`](upcoming/) (see [portfolio status](upcoming/docs/portfolio-status.md) and the [reader map](docs/portfolio-reader-map.md)).
+| **Velorum** (upcoming) — *A Tragic Mythic Fantasy Novel* | [`upcoming/velorum/index.md`](upcoming/velorum/index.md) | Mythic land, contemporary voice: Cael and Riven, the bond, Greyhaven, and what holding the world together costs. |
 | **When Authority Is Misread** | [`books/when-authority-is-misread/index.md`](books/when-authority-is-misread/index.md) | How communication, constraint, and moral legitimacy drift from human scale into history—read through named leaders and episodes. |
 | **When Authority Outlives Accountability** — *A Lens for Moral Leadership* | [`books/when-authority-outlives-accountability/index.md`](books/when-authority-outlives-accountability/index.md) | A structured lens for leadership evaluation: harm, effectiveness, legitimacy transfer, and use at human scale. |
 | **When Moral Seriousness Scales** — *Judgment Under Distance and Pressure* | [`books/when-moral-seriousness-scales/index.md`](books/when-moral-seriousness-scales/index.md) | What happens to moral judgment when distance, asymmetry, and pressure replace face-to-face accountability. |
 | **When Others Look to You** (edition 1) — *Renewal and Erosion in Leadership* | [`books/when-others-look-to-you/v1/index.md`](books/when-others-look-to-you/v1/index.md) | Influence, renewal and erosion, harm, effectiveness, legitimacy, and why we misjudge leaders who carry others’ attention. |
 | **When Others Look to You** (edition 2) — *Forming, Renewing, Eroding, Repeating* | [`books/when-others-look-to-you/v2/index.md`](books/when-others-look-to-you/v2/index.md) | A parallel manuscript structure: forming leadership, renewal, erosion, and how leadership reproduces itself. |
+| **Before Certainty Arrives** — *How Moral Order Forms, Hardens, and Outlives Its Reasons* | [`books/before-certainty-arrives/index.md`](books/before-certainty-arrives/index.md) | Essay edition—moral order before certainty felt excessive (historical prequel). |
+| **When Accountability No Longer Expires** — *How Legitimate Authority Learns to Survive Harm* | [`books/when-accountability-no-longer-expires/index.md`](books/when-accountability-no-longer-expires/index.md) | Essay edition—institutional persistence after harm, not leader biography. |
+| **After Certainty** — *How to Live and Judge When Understanding is not Enough* | [`books/after-certainty/index.md`](books/after-certainty/index.md) | Essay edition—capstone practice after diagnostic volumes. |
 
 Together these manuscripts are part of the broader **After Certainty** thread: thinking clearly when simple answers stop working.
 
 ## Portfolio navigation
 
-- **Reader map (start here, reading order, overlap disambiguation):** [`docs/portfolio-reader-map.md`](docs/portfolio-reader-map.md)
+- **Series guide (reading order, clusters, title pairs):** [`docs/series-guide.md`](docs/series-guide.md)
+- **Reader map (onboarding, overlap disambiguation):** [`docs/portfolio-reader-map.md`](docs/portfolio-reader-map.md)
 - **Upcoming nonfiction dashboard:** [`upcoming/docs/portfolio-status.md`](upcoming/docs/portfolio-status.md)
-- **Promotion readiness audit (2026-05):** [`docs/audits/portfolio-promotion-readiness-2026-05.md`](docs/audits/portfolio-promotion-readiness-2026-05.md)
+- **Portfolio audit (reports + backlog):** [`docs/portfolio-audit/`](docs/portfolio-audit/) · [`docs/audits/portfolio-promotion-readiness-2026-05.md`](docs/audits/portfolio-promotion-readiness-2026-05.md)
+
+## Upcoming nonfiction
+
+Five essay-length or in-progress manuscripts remain under [`upcoming/`](upcoming/) (three Tier A titles are now published under `books/`—see table above).
+
+| Book | Index | What it's about |
+| --- | --- | --- |
+| **The Discipline of Uncertainty** — *Judgment, Restraint, and Decision Quality Under Incomplete Information* | [`upcoming/the-discipline-of-uncertainty/index.md`](upcoming/the-discipline-of-uncertainty/index.md) | Judgment and restraint when information will stay incomplete. |
+| **The Economy We Don't Experience** — *Leadership, Communication, and the Credibility Crisis in Economics and Politics* | [`upcoming/the-economy-we-dont-experience/index.md`](upcoming/the-economy-we-dont-experience/index.md) | The economy people live in vs the economy leaders describe. |
+| **When Incentives Become the Moral Language** — *How Systems Decide For Us When Judgment No Longer Scales* | [`upcoming/when-incentives-become-the-moral-language/index.md`](upcoming/when-incentives-become-the-moral-language/index.md) | Eight domains where metrics replaced judgment. |
+| **When Interpretation No Longer Matters** — *Authority After Understanding Collapses* | [`upcoming/when-interpretation-no-longer-matters/index.md`](upcoming/when-interpretation-no-longer-matters/index.md) | Authority when explanation and repair no longer work. |
+| **Why Collaboration Is So Hard** — *And why the effort still matters* | [`upcoming/why-collaboration-is-so-hard/index.md`](upcoming/why-collaboration-is-so-hard/index.md) | Coordination without full ownership—contribution and trust under diffuse responsibility. |
+
+**Fiction (separate track):** **Velorum** — [`upcoming/velorum/index.md`](upcoming/velorum/index.md).

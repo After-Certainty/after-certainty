@@ -1,0 +1,556 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2026-05-21T02:25:16.412491+00:00",
+  "repository": "ksteffe/after-certainty",
+  "ref": "main",
+  "releaseTag": "latest",
+  "books": [
+    {
+      "slug": "after-certainty",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "After Certainty",
+      "subtitle": "How to Live and Judge When Understanding is not Enough",
+      "description": "Exploring meaning, trust, leadership, and human systems in a world beyond certainty.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/after-certainty/book-cover.png",
+      "coverImagePath": "upcoming/after-certainty/book-cover.png",
+      "bookDir": "upcoming/after-certainty",
+      "docx": {
+        "enabled": false,
+        "file": "after-certainty.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "after-certainty.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "after-certainty.pdf",
+        "url": null
+      }
+    },
+    {
+      "slug": "before-certainty-arrives",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "Before Certainty Arrives",
+      "subtitle": "How Moral Order Forms, Hardens, and Outlives Its Reasons",
+      "description": "Essays on the cultural preconditions that made brittle certainty feel normal and what it costs when it breaks.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/before-certainty-arrives/book-cover.png",
+      "coverImagePath": "upcoming/before-certainty-arrives/book-cover.png",
+      "bookDir": "upcoming/before-certainty-arrives",
+      "docx": {
+        "enabled": false,
+        "file": "before-certainty-arrives.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "before-certainty-arrives.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "before-certainty-arrives.pdf",
+        "url": null
+      }
+    },
+    {
+      "slug": "coupling",
+      "source": "books",
+      "status": "published",
+      "title": "Coupling",
+      "subtitle": "Cohesion, Consequence, and the Architecture of Responsibility",
+      "description": "A practical framework for seeing where systems are tightly joined, where they drift apart, and how those coupling choices shape accountability over time.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/coupling/BookCover.png",
+      "coverImagePath": "books/coupling/BookCover.png",
+      "bookDir": "books/coupling",
+      "docx": {
+        "enabled": true,
+        "file": "coupling.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/coupling.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "coupling.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/coupling.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "coupling.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/coupling.pdf"
+      }
+    },
+    {
+      "slug": "curiosity-before-certainty",
+      "source": "books",
+      "status": "published",
+      "title": "Curiosity Before Certainty",
+      "subtitle": "How Curiosity Helps Us Understand a Complex World",
+      "description": "An argument for disciplined curiosity as a leadership and learning posture when easy certainty hides complexity and weakens judgment.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/curiosity-before-certainty/book-cover.png",
+      "coverImagePath": "books/curiosity-before-certainty/book-cover.png",
+      "bookDir": "books/curiosity-before-certainty",
+      "docx": {
+        "enabled": true,
+        "file": "curiosity-before-certainty.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/curiosity-before-certainty.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "curiosity-before-certainty.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/curiosity-before-certainty.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "curiosity-before-certainty.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/curiosity-before-certainty.pdf"
+      }
+    },
+    {
+      "slug": "how-meaning-moves",
+      "source": "books",
+      "status": "published",
+      "title": "How Meaning Moves",
+      "subtitle": "Signal, Compression, Restraint, and the Pace of Understanding",
+      "description": "A concise tour of how meaning travels through language, systems, and relationships, and why restraint is often the difference between noise and connection.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-meaning-moves/BookCover.png",
+      "coverImagePath": "books/how-meaning-moves/BookCover.png",
+      "bookDir": "books/how-meaning-moves",
+      "docx": {
+        "enabled": true,
+        "file": "how-meaning-moves.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-meaning-moves.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "how-meaning-moves.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-meaning-moves.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "how-meaning-moves.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-meaning-moves.pdf"
+      }
+    },
+    {
+      "slug": "how-serious-systems-learn",
+      "source": "books",
+      "status": "published",
+      "title": "How Serious Systems Learn",
+      "subtitle": "Disciplines for Acting Without Certainty",
+      "description": "A handbook for teams and institutions that need to learn in motion, improve under pressure, and make better decisions without waiting for perfect information.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-serious-systems-learn/book-cover.png",
+      "coverImagePath": "books/how-serious-systems-learn/book-cover.png",
+      "bookDir": "books/how-serious-systems-learn",
+      "docx": {
+        "enabled": true,
+        "file": "how-serious-systems-learn.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-serious-systems-learn.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "how-serious-systems-learn.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-serious-systems-learn.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "how-serious-systems-learn.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-serious-systems-learn.pdf"
+      }
+    },
+    {
+      "slug": "the-discipline-of-uncertainty",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "The Discipline of Uncertainty",
+      "subtitle": "Judgment, Restraint, and Decision Quality Under Incomplete Information",
+      "description": "Field notes on judgment, restraint, and decision quality when information is incomplete.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/the-discipline-of-uncertainty/book-cover.png",
+      "coverImagePath": "upcoming/the-discipline-of-uncertainty/book-cover.png",
+      "bookDir": "upcoming/the-discipline-of-uncertainty",
+      "docx": {
+        "enabled": false,
+        "file": "the-discipline-of-uncertainty.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "the-discipline-of-uncertainty.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "the-discipline-of-uncertainty.pdf",
+        "url": null
+      }
+    },
+    {
+      "slug": "the-economy-we-dont-experience",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "The Economy We Don't Experience",
+      "subtitle": "Leadership, Communication, and the Credibility Crisis in Economics and Politics",
+      "description": "How economic narratives gain and lose credibility\u2014and how leaders communicate when expert authority meets political pressure.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/the-economy-we-dont-experience/book-cover.png",
+      "coverImagePath": "upcoming/the-economy-we-dont-experience/book-cover.png",
+      "bookDir": "upcoming/the-economy-we-dont-experience",
+      "docx": {
+        "enabled": false,
+        "file": "the-economy-we-dont-experience.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "the-economy-we-dont-experience.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "the-economy-we-dont-experience.pdf",
+        "url": null
+      }
+    },
+    {
+      "slug": "velorum",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "Velorum",
+      "subtitle": "A Tragic Mythic Fantasy Novel",
+      "description": "A mythic fantasy about loyalty, sacrifice, and power, where personal vows and political fate collide at tragic scale.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/velorum/book-cover.png",
+      "coverImagePath": "upcoming/velorum/book-cover.png",
+      "bookDir": "upcoming/velorum",
+      "docx": {
+        "enabled": false,
+        "file": "velorum.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "velorum.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "velorum.pdf",
+        "url": null
+      }
+    },
+    {
+      "slug": "when-accountability-no-longer-expires",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "When Accountability No Longer Expires",
+      "subtitle": "How Legitimate Authority Learns to Survive Harm",
+      "description": "Why legitimate authority can persist after harm\u2014and how institutions learn to survive scandal without resolving it.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-accountability-no-longer-expires/book-cover.png",
+      "coverImagePath": "upcoming/when-accountability-no-longer-expires/book-cover.png",
+      "bookDir": "upcoming/when-accountability-no-longer-expires",
+      "docx": {
+        "enabled": false,
+        "file": "when-accountability-no-longer-expires.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "when-accountability-no-longer-expires.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "when-accountability-no-longer-expires.pdf",
+        "url": null
+      }
+    },
+    {
+      "slug": "when-authority-is-misread",
+      "source": "books",
+      "status": "published",
+      "title": "When Authority Is Misread",
+      "subtitle": "How Communication and Moral Judgment Shape Leadership at Scale",
+      "description": "An examination of what happens when signals of confidence are mistaken for legitimacy, and how that confusion distorts trust and decision-making.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-authority-is-misread/book-cover.png",
+      "coverImagePath": "books/when-authority-is-misread/book-cover.png",
+      "bookDir": "books/when-authority-is-misread",
+      "docx": {
+        "enabled": true,
+        "file": "when-authority-is-misread.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-is-misread.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-authority-is-misread.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-is-misread.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-authority-is-misread.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-is-misread.pdf"
+      }
+    },
+    {
+      "slug": "when-authority-outlives-accountability",
+      "source": "books",
+      "status": "published",
+      "title": "When Authority Outlives Accountability",
+      "subtitle": "A Lens for Moral Leadership",
+      "description": "A study of how authority can persist after accountability erodes, and what moral leadership requires to restore integrity in that gap.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-authority-outlives-accountability/book-cover.png",
+      "coverImagePath": "books/when-authority-outlives-accountability/book-cover.png",
+      "bookDir": "books/when-authority-outlives-accountability",
+      "docx": {
+        "enabled": true,
+        "file": "when-authority-outlives-accountability.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-outlives-accountability.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-authority-outlives-accountability.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-outlives-accountability.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-authority-outlives-accountability.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-outlives-accountability.pdf"
+      }
+    },
+    {
+      "slug": "when-incentives-become-the-moral-language",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "When Incentives Become the Moral Language",
+      "subtitle": "How Systems Decide For Us When Judgment No Longer Scales",
+      "description": "Eight institutional domains where metrics and incentives replaced judgment, responsibility, and shared meaning.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-incentives-become-the-moral-language/book-cover.png",
+      "coverImagePath": "upcoming/when-incentives-become-the-moral-language/book-cover.png",
+      "bookDir": "upcoming/when-incentives-become-the-moral-language",
+      "docx": {
+        "enabled": false,
+        "file": "when-incentives-become-the-moral-language.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "when-incentives-become-the-moral-language.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "when-incentives-become-the-moral-language.pdf",
+        "url": null
+      }
+    },
+    {
+      "slug": "when-interpretation-no-longer-matters",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "When Interpretation No Longer Matters",
+      "subtitle": "Authority After Understanding Collapses",
+      "description": "When explanation, evidence, and repair fail\u2014and what kinds of authority remain when public understanding collapses.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-interpretation-no-longer-matters/book-cover.png",
+      "coverImagePath": "upcoming/when-interpretation-no-longer-matters/book-cover.png",
+      "bookDir": "upcoming/when-interpretation-no-longer-matters",
+      "docx": {
+        "enabled": false,
+        "file": "when-interpretation-no-longer-matters.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "when-interpretation-no-longer-matters.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "when-interpretation-no-longer-matters.pdf",
+        "url": null
+      }
+    },
+    {
+      "slug": "when-moral-seriousness-scales",
+      "source": "books",
+      "status": "published",
+      "title": "When Moral Seriousness Scales",
+      "subtitle": "Judgment Under Distance and Pressure",
+      "description": "An exploration of how moral responsibility changes under scale, speed, and institutional distance, and how to preserve humane judgment anyway.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-moral-seriousness-scales/book-cover.png",
+      "coverImagePath": "books/when-moral-seriousness-scales/book-cover.png",
+      "bookDir": "books/when-moral-seriousness-scales",
+      "docx": {
+        "enabled": true,
+        "file": "when-moral-seriousness-scales.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-moral-seriousness-scales.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-moral-seriousness-scales.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-moral-seriousness-scales.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-moral-seriousness-scales.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-moral-seriousness-scales.pdf"
+      }
+    },
+    {
+      "slug": "when-others-look-to-you-v1",
+      "source": "books",
+      "status": "published",
+      "title": "When Others Look to You",
+      "subtitle": "Renewal and Erosion in Leadership",
+      "description": "A leadership field guide to how influence forms, how trust is renewed, and how erosion begins when responsibility drifts from practice.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v1/BookCover.png",
+      "coverImagePath": "books/when-others-look-to-you/v1/BookCover.png",
+      "bookDir": "books/when-others-look-to-you/v1",
+      "docx": {
+        "enabled": true,
+        "file": "when-others-look-to-you-v1.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v1.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-others-look-to-you-v1.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v1.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-others-look-to-you-v1.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v1.pdf"
+      },
+      "slugAliases": [
+        "when-others-look-to-you"
+      ],
+      "companionBooks": [
+        "when-others-look-to-you-v2"
+      ]
+    },
+    {
+      "slug": "when-others-look-to-you-v2",
+      "source": "books",
+      "status": "published",
+      "title": "When Others Look to You",
+      "subtitle": "Forming, Renewing, Eroding, Repeating",
+      "description": "A companion edition that extends the leadership cycle across formation, renewal, erosion, and repetition with sharper operational patterns.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v2/BookCover.png",
+      "coverImagePath": "books/when-others-look-to-you/v2/BookCover.png",
+      "bookDir": "books/when-others-look-to-you/v2",
+      "docx": {
+        "enabled": true,
+        "file": "when-others-look-to-you-v2.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v2.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-others-look-to-you-v2.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v2.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-others-look-to-you-v2.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v2.pdf"
+      },
+      "companionOf": "when-others-look-to-you-v1"
+    },
+    {
+      "slug": "why-collaboration-is-so-hard",
+      "source": "upcoming",
+      "status": "in_progress",
+      "title": "Why Collaboration Is So Hard",
+      "subtitle": "And why the effort still matters",
+      "description": "An examination of coordination failure, misaligned incentives, and fragile trust.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/why-collaboration-is-so-hard/book-cover.png",
+      "coverImagePath": "upcoming/why-collaboration-is-so-hard/book-cover.png",
+      "bookDir": "upcoming/why-collaboration-is-so-hard",
+      "docx": {
+        "enabled": false,
+        "file": "why-collaboration-is-so-hard.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "why-collaboration-is-so-hard.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": false,
+        "file": "why-collaboration-is-so-hard.pdf",
+        "url": null
+      }
+    }
+  ]
+}

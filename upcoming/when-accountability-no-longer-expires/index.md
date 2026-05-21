@@ -47,3 +47,11 @@
 - [Conclusion — What It Would Mean for Legitimacy to Expire](back-matter/conclusion-what-it-would-mean-for-legitimacy-to-expire.md)
 - [Appendix A — Accountability Is Not Blame](back-matter/appendix-a-accountability-is-not-blame.md)
 - [Bibliography](back-matter/bibliography.md)
+
+## Related books
+
+[Series guide](../../docs/series-guide.md) · Historical / institutional arc
+
+- [When Authority Outlives Accountability](../../books/when-authority-outlives-accountability/index.md) — **leadership** lens when authority outlives accountability
+- [Before Certainty Arrives](../before-certainty-arrives/index.md) — how moral order hardened
+- [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/index.md) — when explanation stops working

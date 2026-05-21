@@ -35,3 +35,11 @@
 
 - [Conclusion — Recognition Without Instruction](back-matter/conclusion-recognition-without-instruction.md)
 - [Bibliography](back-matter/bibliography.md)
+
+## Related books
+
+[Series guide](../../docs/series-guide.md) · Historical arc
+
+- [Curiosity Before Certainty](../../books/curiosity-before-certainty/index.md) — contemporary curiosity posture (published entry)
+- [When Accountability No Longer Expires](../when-accountability-no-longer-expires/index.md) — institutions after harm
+- [After Certainty](../after-certainty/index.md) — practice capstone

@@ -14,6 +14,8 @@ Each upcoming **nonfiction** book should maintain:
 
 **Portfolio dashboard:** [`docs/portfolio-status.md`](docs/portfolio-status.md) — all eight nonfiction books at a glance.
 
+**Series guide:** [`docs/series-guide.md`](../docs/series-guide.md) — reading order, clusters, and easily confused title pairs.
+
 **Templates:** [`docs/_templates/`](docs/_templates/) — copy when scaffolding a new upcoming title.
 
 Refresh the portfolio row whenever a book's `docs/status.md` changes phase or next actions materially.
