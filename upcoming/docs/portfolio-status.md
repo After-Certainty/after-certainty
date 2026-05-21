@@ -9,11 +9,11 @@ Dashboard for eight nonfiction manuscripts under `upcoming/` (Velorum uses a sep
 | [After Certainty](../after-certainty/) | Phase 4 complete | ~9.7k words; Part I–III cohesion + citations | **Author read-through**; Phase 5 promote prep | [status](../after-certainty/docs/status.md) |
 | [Before Certainty Arrives](../before-certainty-arrives/) | Phase 4 complete | ~9.3k words; Ch 8–10 Pandoc footnotes + bibliography | **Author read-through**; Phase 5 promote prep | [status](../before-certainty-arrives/docs/status.md) |
 | [When Accountability No Longer Expires](../when-accountability-no-longer-expires/) | Phase 4 complete | ~12.4k words; bridges/interlude continuity; Ch 8–10 cites | **Author read-through**; Phase 5 promote prep | [status](../when-accountability-no-longer-expires/docs/status.md) |
-| [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/) | Phase 2 unit passes | ~13.3k words; Ch 1–13 aligned to index | Glossary + citation pass; Part I–IV coherence gate | [status](../when-interpretation-no-longer-matters/docs/status.md) |
-| [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/) | First draft complete | ~12.5k words; intro + 8 domain chapters in prose | Phase 2 unit passes; author read-through Ch 3–8 | [status](../when-incentives-become-the-moral-language/docs/status.md) |
-| [Why Collaboration Is So Hard](../why-collaboration-is-so-hard/) | First draft complete | ~9.3k words; front matter + 14 chapters in prose | Part I read-through; Phase 2 passes; add back matter | [status](../why-collaboration-is-so-hard/docs/status.md) |
-| [The Economy We Don't Experience](../the-economy-we-dont-experience/) | First draft complete | ~6.2k words; intro + 8 chapters + back matter | Part I read-through; Phase 2 passes; chapter depth expansion | [status](../the-economy-we-dont-experience/docs/status.md) |
-| [The Discipline of Uncertainty](../the-discipline-of-uncertainty/) | First draft complete | ~5.3k words; intro + 12 chapters + conclusion in prose | Part I read-through; Phase 2 passes; chapter depth expansion | [status](../the-discipline-of-uncertainty/docs/status.md) |
+| [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/) | Phase 4 complete | ~13.4k words; Parts I–IV coherence passes done | **Author read-through** Parts III–IV; expansion band decision | [status](../when-interpretation-no-longer-matters/docs/status.md) |
+| [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/) | Phase 2 complete | ~8.4k words; intro + 8 domain chapters; Pandoc footnotes | Phase 3 coherence gate; author read-through Ch 3–8 | [status](../when-incentives-become-the-moral-language/docs/status.md) |
+| [Why Collaboration Is So Hard](../why-collaboration-is-so-hard/) | Phase 2 — Part I complete | ~10.8k words; Pass 6 Part I depth; glossary draft | **Author Part I gate**; Phase 2 on Parts II–IV | [status](../why-collaboration-is-so-hard/docs/status.md) |
+| [The Economy We Don't Experience](../the-economy-we-dont-experience/) | Phase 2 — Pass 6 depth | ~7.4k words; intro + Ch 1–8 + conclusion | **Author Part I gate**; verify-source footnotes | [status](../the-economy-we-dont-experience/docs/status.md) |
+| [The Discipline of Uncertainty](../the-discipline-of-uncertainty/) | Phase 2 — depth pass complete | ~7.5k words; intro + 12 chapters + conclusion | **Author read-through**; expansion toward target band | [status](../the-discipline-of-uncertainty/docs/status.md) |
 
 ## Recommended editorial order
 
@@ -48,8 +48,9 @@ Incremental depth pass delivered; full ~50–90k bands remain future work after 
 | Tier | Books | Approx. words | Gap to typical completion band |
 |------|-------|---------------|--------------------------------|
 | Mature editorial | after-certainty, before-certainty-arrives, accountability | 9–12k each | Moderate expansion or accept essay length |
-| Mid draft | interpretation, incentives | 12–13k each | Phase 2–4 before large expansion |
-| Pass 3 first draft | collaboration, economy, discipline | 5–9k each | **Largest** — plan explicit depth pass after Part I approval |
+| Mid editorial | interpretation | ~13k | Phase 4 done; author gate + expansion decision |
+| Mid draft | incentives | ~8k | Phase 3–4 before large expansion |
+| Pass 6 depth (Phase 2) | collaboration, economy, discipline | 7–11k each | **Largest gap to target bands** — author Part I gates, then Parts II–IV |
 
 ## Conventions
 
