@@ -54,12 +54,12 @@ Three mechanisms matter most.
 
 First, performance management systems. Rating scales, forced
 distributions, and calibration sessions translate complex work into
-comparable scores.¹ These systems allow leaders to justify decisions by
+comparable scores.[^c5-ref-1-peter-cappelli-and-anna] These systems allow leaders to justify decisions by
 reference to documented evaluations rather than contested judgment.
 
 Second, redundancy frameworks. Large layoffs are often executed through
 matrices that combine role criticality, cost centers, and performance
-bands.² The matrix produces a list. The list produces coverage for
+bands.[^c5-ref-2-us-worker-adjustment-and] The matrix produces a list. The list produces coverage for
 boards and regulators.
 
 Third, procedural compliance layers. Legal review, documentation
@@ -91,7 +91,7 @@ process; the individual experiences consequence without a person who
 will own it.
 
 Research on organizational justice consistently shows that procedural
-fairness matters—but that people also need accounts they can believe.³
+fairness matters—but that people also need accounts they can believe.[^c5-ref-3-jerald-greenberg-organizational-justice]
 When process replaces explanation, trust erodes even when rules are
 followed.
 
@@ -129,14 +129,6 @@ Work continues.
 
 Fairness becomes procedural.
 
-## **References**
-
-1.  Peter Cappelli and Anna Tavis, “The Performance Management
-    Revolution,” *Harvard Business Review*, October 2016.
-
-2.  U.S. Worker Adjustment and Retraining Notification (WARN) Act
-    compliance guidance; corporate workforce reduction disclosures in
-    SEC filings.
-
-3.  Jerald Greenberg, “Organizational Justice: Yesterday, Today, and
-    Tomorrow,” *Journal of Management* 16, no. 2 (1990): 399–432.
+[^c5-ref-1-peter-cappelli-and-anna]: Peter Cappelli and Anna Tavis, “The Performance Management Revolution,” *Harvard Business Review*, October 2016.
+[^c5-ref-2-us-worker-adjustment-and]: U.S. Worker Adjustment and Retraining Notification (WARN) Act compliance guidance; corporate workforce reduction disclosures in SEC filings.
+[^c5-ref-3-jerald-greenberg-organizational-justice]: Jerald Greenberg, “Organizational Justice: Yesterday, Today, and Tomorrow,” *Journal of Management* 16, no. 2 (1990): 399–432.

@@ -43,7 +43,7 @@ and Meta reduced their workforces in 2022 and 2023, leaders did not
 defend those decisions by appealing to personal judgment about
 individual circumstances. They emphasized consistency, criteria, and
 process. Performance bands, role redundancy, and organizational
-alignment became the public justification.¹² The companies did not deny
+alignment became the public justification.[^doc-ref-12-source] The companies did not deny
 harm. They defined fairness procedurally, because procedure survives
 audit better than judgment.
 
@@ -51,7 +51,7 @@ The same substitution appears in healthcare. Hospitals do not claim that
 discharge targets express compassion. They claim they express efficiency
 and quality. Length-of-stay benchmarks and readmission penalties now
 define “good care” in ways that survive payer review and regulatory
-oversight.³⁴ Clinicians still exercise judgment, but the system no
+oversight.[^doc-ref-34-source] Clinicians still exercise judgment, but the system no
 longer accepts judgment as its moral language.
 
 Technology platforms followed a similar path. Large platforms did not
@@ -59,7 +59,7 @@ replace editorial judgment with engagement metrics because they believed
 popularity equals virtue. They did so because editorial judgment
 collapsed under accusations of bias and censorship once content
 moderation operated at global scale. Engagement and relevance metrics
-offered a defensible alternative.⁵⁶
+offered a defensible alternative.[^doc-ref-56-source]
 
 In each case, incentives did not enter as expressions of value. They
 entered as tools of survival.

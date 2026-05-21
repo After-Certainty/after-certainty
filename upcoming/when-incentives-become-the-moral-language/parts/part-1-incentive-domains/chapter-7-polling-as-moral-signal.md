@@ -47,18 +47,18 @@ proxies for legitimacy.
 Three mechanisms matter most.
 
 First, polling. Daily tracking, focus groups, and issue tests shape
-messaging, policy emphasis, and candidate viability.¹ Poll movement
+messaging, policy emphasis, and candidate viability.[^c7-ref-1-pew-research-center-us] Poll movement
 becomes news; news moves polls. Leaders learn what is safe before they
 learn what is right.
 
 Second, fundraising metrics. Small-dollar totals, donor counts, and
 quarterly hauls function as moral barometers—evidence of enthusiasm
-independent of argument.² A crowded fundraising report can substitute
+independent of argument.[^c7-ref-2-federal-election-commission-campaign] A crowded fundraising report can substitute
 for a defended platform.
 
 Third, turnout and engagement analytics. Campaigns optimize contact rates,
 ad performance, and volunteer hours with the same rigor applied to
-consumer products.³ Momentum is measured, not argued.
+consumer products.[^c7-ref-3-eitan-hersh-politics-is] Momentum is measured, not argued.
 
 None of these mechanisms claim that representation no longer matters. They
 claim that representation can be inferred from signals.
@@ -84,7 +84,7 @@ slogans that survive a news cycle. Citizens learn that leaders follow
 more than they lead—and trust erodes.
 
 Surveys document declining confidence in institutions across many
-democracies.⁴ The system records approval ratings. It does not record the
+democracies.[^c7-ref-4-pew-research-center-public] The system records approval ratings. It does not record the
 voter who wanted a reason, not a trend line.
 
 ### **5. The Collapse of Forward Accountability**
@@ -117,15 +117,7 @@ Elections continue.
 
 Legitimacy thins.
 
-## **References**
-
-1.  Pew Research Center, U.S. politics polling methodology and election
-    surveys.
-
-2.  Federal Election Commission, campaign finance disclosure data;
-    OpenSecrets reporting on fundraising totals.
-
-3.  Eitan Hersh, *Politics Is for Power* (Scribner, 2020).
-
-4.  Pew Research Center, “Public Trust in Government” time series, 1958–
-    present.
+[^c7-ref-1-pew-research-center-us]: Pew Research Center, U.S. politics polling methodology and election surveys.
+[^c7-ref-2-federal-election-commission-campaign]: Federal Election Commission, campaign finance disclosure data; OpenSecrets reporting on fundraising totals.
+[^c7-ref-3-eitan-hersh-politics-is]: Eitan Hersh, *Politics Is for Power* (Scribner, 2020).
+[^c7-ref-4-pew-research-center-public]: Pew Research Center, “Public Trust in Government” time series, 1958– present.

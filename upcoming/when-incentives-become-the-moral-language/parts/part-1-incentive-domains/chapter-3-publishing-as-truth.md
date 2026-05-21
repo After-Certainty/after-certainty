@@ -63,14 +63,14 @@ the number and venue of publications as proxies for contribution. A
 necessarily a body of work that changed understanding.
 
 Second, citation metrics. Tools such as the h-index and journal impact
-factors compress complex intellectual influence into single numbers.¹²
+factors compress complex intellectual influence into single numbers.[^c3-ref-12-source]
 They reward visibility within citation networks—networks that can
 amplify fashionable topics, reinforce existing paradigms, and undercount
 work that is careful but slow.
 
 Third, grant competitiveness. Funding agencies rank proposals using
 review criteria that favor feasibility, measurable outcomes, and
-alignment with strategic priorities.³ Proposals that promise clear
+alignment with strategic priorities.[^c3-ref-3-national-science-foundation-merit] Proposals that promise clear
 deliverables on short timelines outperform exploratory work that might
 fail in instructive ways.
 
@@ -96,7 +96,7 @@ oppose rigor, but because rigor and visibility are not the same thing.
 
 Replication crises across psychology, medicine, and other fields exposed
 how publication incentives can reward novel, positive results over
-careful, disconfirming work.⁴⁵ Pre-registration and open data practices
+careful, disconfirming work.[^c3-ref-45-source] Pre-registration and open data practices
 attempt to repair the system, but they operate inside the same competitive
 logic. Reform becomes another metric to satisfy.
 
@@ -145,20 +145,8 @@ Knowledge continues to be produced.
 
 Meaning becomes harder to defend at scale.
 
-## **References**
-
-1.  Jorge E. Hirsch, “An Index to Quantify an Individual’s Scientific
-    Research Output,” *Proceedings of the National Academy of Sciences*
-    102, no. 46 (2005): 16569–16572.
-
-2.  San Francisco Declaration on Research Assessment (DORA), 2012,
-    https://sfdora.org/.
-
-3.  National Science Foundation, merit review criteria and proposal
-    evaluation guidelines, current program documentation.
-
-4.  Open Science Collaboration, “Estimating the Reproducibility of
-    Psychological Science,” *Science* 349, no. 6251 (2015).
-
-5.  John P. A. Ioannidis, “Why Most Published Research Findings Are
-    False,” *PLoS Medicine* 2, no. 8 (2005): e124.
+[^c3-ref-1-jorge-e-hirsch-an]: Jorge E. Hirsch, “An Index to Quantify an Individual’s Scientific Research Output,” *Proceedings of the National Academy of Sciences* 102, no. 46 (2005): 16569–16572.
+[^c3-ref-2-san-francisco-declaration-on]: San Francisco Declaration on Research Assessment (DORA), 2012, https://sfdora.org/.
+[^c3-ref-3-national-science-foundation-merit]: National Science Foundation, merit review criteria and proposal evaluation guidelines, current program documentation.
+[^c3-ref-4-open-science-collaboration-estimating]: Open Science Collaboration, “Estimating the Reproducibility of Psychological Science,” *Science* 349, no. 6251 (2015).
+[^c3-ref-5-john-p-a-ioannidis]: John P. A. Ioannidis, “Why Most Published Research Findings Are False,” *PLoS Medicine* 2, no. 8 (2005): e124.

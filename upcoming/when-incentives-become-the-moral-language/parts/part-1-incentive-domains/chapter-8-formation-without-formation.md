@@ -48,17 +48,17 @@ Three mechanisms matter most.
 
 First, standardized testing. Federal and state accountability systems tie
 funding, reputation, and intervention to performance on standardized
-exams.¹ Teachers orient instruction toward what is tested; what is not
+exams.[^c8-ref-1-us-department-of-education] Teachers orient instruction toward what is tested; what is not
 tested shrinks.
 
 Second, graduation and completion metrics. Rates function as moral
-shorthand for institutional quality.² Schools face pressure to graduate
+shorthand for institutional quality.[^c8-ref-2-national-center-for-education] Schools face pressure to graduate
 students on time—even when support services, counseling, and remedial
 work are underfunded.
 
 Third, ranking and comparison regimes. Public school ratings, college
 admissions statistics, and international benchmarks turn formation into
-competition.³ Communities learn to treat education as a positional good.
+competition.[^c8-ref-3-organisation-for-economic-cooperation] Communities learn to treat education as a positional good.
 
 None of these mechanisms claim that character no longer matters. They
 claim that character cannot be managed without proxies.
@@ -81,7 +81,7 @@ because standards are not formation.
 
 Test prep crowds out discussion. Counseling loads grow while pastoral care
 is treated as extracurricular. Teachers burn out when they are asked to
-form persons while evaluated as technicians of scores.⁴
+form persons while evaluated as technicians of scores.[^c8-ref-4-rand-corporation-reports-on]
 
 The system records proficiency bands. It does not record the student who
 learned restraint, the class that learned disagreement without contempt,
@@ -118,16 +118,7 @@ School continues.
 
 Formation goes quiet.
 
-## **References**
-
-1.  U.S. Department of Education, Elementary and Secondary Education Act
-    accountability provisions; state report card requirements.
-
-2.  National Center for Education Statistics, Adjusted Cohort Graduation
-    Rate (ACGR) documentation.
-
-3.  Organisation for Economic Co-operation and Development, Programme
-    for International Student Assessment (PISA) reports.
-
-4.  RAND Corporation, reports on teacher stress and attrition; Learning
-    Policy Institute, teacher shortage analyses.
+[^c8-ref-1-us-department-of-education]: U.S. Department of Education, Elementary and Secondary Education Act accountability provisions; state report card requirements.
+[^c8-ref-2-national-center-for-education]: National Center for Education Statistics, Adjusted Cohort Graduation Rate (ACGR) documentation.
+[^c8-ref-3-organisation-for-economic-cooperation]: Organisation for Economic Co-operation and Development, Programme for International Student Assessment (PISA) reports.
+[^c8-ref-4-rand-corporation-reports-on]: RAND Corporation, reports on teacher stress and attrition; Learning Policy Institute, teacher shortage analyses.

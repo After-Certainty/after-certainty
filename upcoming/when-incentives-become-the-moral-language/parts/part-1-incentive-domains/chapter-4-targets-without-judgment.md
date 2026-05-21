@@ -132,21 +132,13 @@ settle. Seriousness requires meeting the next reporting cycle.
 
 When seriousness becomes the moral language of climate action, concern
 for harm does not vanish. It becomes private judgment inside systems
-that can only speak in targets.
+that can only speak in targets—much as healthcare (Ch 1) and engagement
+platforms (Ch 2) externalize care into metrics the institution can hear.
 
 Action continues.
 
-Accountability thins.
+Accountability thins.[^c4-ref-1-united-nations-framework]
 
-## **References**
-
-1.  United Nations Framework Convention on Climate Change, Paris
-    Agreement, 2015; Science Based Targets initiative, corporate
-    target-setting criteria.
-
-2.  World Bank, State and Trends of Carbon Pricing, annual reports;
-    voluntary carbon market integrity initiatives.
-
-3.  International Sustainability Standards Board (ISSB), IFRS S1 and
-    S2 disclosure standards; European Sustainability Reporting Standards
-    (ESRS).
+[^c4-ref-1-united-nations-framework]: United Nations Framework Convention on Climate Change, Paris Agreement, 2015; Science Based Targets initiative, corporate target-setting criteria.
+[^c4-ref-2-world-bank-state]: World Bank, *State and Trends of Carbon Pricing*, annual reports; voluntary carbon market integrity initiatives.
+[^c4-ref-3-international-sustainability-standards]: International Sustainability Standards Board (ISSB), IFRS S1 and S2 disclosure standards; European Sustainability Reporting Standards (ESRS).

@@ -29,12 +29,11 @@ Finish Phase 4 on the mature essay manuscripts; shared branch `upcoming/editoria
 
 *Gate:* author read-through on each before promotion to `books/`.
 
-### Pass 5 — Mid-pipeline editorial (structure largely stable)
+**Completed:** Pass 5 mid-pipeline editorial — interpretation Phase 2–4; incentives Phase 2 + Pandoc citations.
 
-1. [when-interpretation-no-longer-matters](../when-interpretation-no-longer-matters/) — finish Phase 2 (glossary, Pandoc citations), Phase 3 part gates, then Phase 4
-2. [when-incentives-become-the-moral-language](../when-incentives-become-the-moral-language/) — Phase 2 unit passes (echo vs Ch 1–2 anchors), editorial + citation at pivots
+### Pass 5 — Mid-pipeline editorial (structure largely stable) ✓
 
-*Note:* interpretation and incentives share the “judgment / alignment / compression” cluster with after-certainty and economy; run echo checks across them when editing interpretation Part III–IV.
+*Note:* interpretation and incentives share the “judgment / alignment / compression” cluster with after-certainty and economy; echo checks logged in interpretation Part III–IV pass docs.
 
 ### Pass 6 — Pass 3 follow-through (depth + Phase 2)
 
