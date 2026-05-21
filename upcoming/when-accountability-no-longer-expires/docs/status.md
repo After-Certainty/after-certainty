@@ -2,11 +2,11 @@
 
 ## Current phase
 
-**Phase 4 — Manuscript-wide editorial**
+**Phase 4 complete — awaiting author read-through before Phase 5**
 
 ## Active branch
 
-`upcoming/editorial-quick-wins`
+`cursor/upcoming-pass-4-editorial-quick-wins-9a98`
 
 ## Manuscript hub
 
@@ -26,14 +26,14 @@
 | Ch 3 — Harm Without Villains | draft | Pandoc footnotes |
 | Ch 4 — The Distribution of Suffering | draft | Pandoc footnotes |
 | Ch 5 — Moral Drift Without Collapse | draft | Pandoc footnotes |
-| Bridge — Learning Without Resolution | draft | |
+| Bridge — Learning Without Resolution | draft | Pass 4 continuity + echo trim |
 | Ch 6 — Adaptation Is Not Renewal | draft | Pandoc footnotes |
 | Ch 7 — Correction Without Consequence | draft | Pandoc footnotes |
-| Ch 8 — Why This Feels Like Wisdom From the Inside | draft | |
+| Ch 8 — Why This Feels Like Wisdom From the Inside | draft | Pandoc footnotes (Pass 4) |
 | Ch 9 — Warning Is Not Learning | draft | Pandoc footnotes |
-| Ch 10 — The Stable Equilibrium | draft | |
-| Interlude | draft | |
-| Bridge — Beyond Any One Institution | draft | |
+| Ch 10 — The Stable Equilibrium | draft | Pandoc footnotes (Pass 4) |
+| Interlude | draft | Pass 4 handoff to Part III bridge |
+| Bridge — Beyond Any One Institution | draft | Pass 4; split-marker removed |
 | Ch 11 — The Pattern Across Domains | draft | |
 | Ch 12 — Why These Patterns Are Not Inevitable | draft | Pandoc footnotes |
 | Conclusion | draft | |
@@ -42,9 +42,9 @@
 
 ## Next actions
 
-1. Author read-through of Part III bridge → interlude → Part IV bridge continuity.
-2. Global echo pass on learning / correction / warning vocabulary.
-3. Add footnotes at remaining structural pivots if needed.
+1. **Author read-through** of Part III bridge → interlude → Part IV bridge continuity.
+2. Confirm learning / correction / warning vocabulary reads distinct across Ch 6–10.
+3. Phase 5 promote when author approves.
 
 ## Open decisions / known issues
 
@@ -52,4 +52,4 @@ None recorded.
 
 ## Rough scale
 
-- ~12,300 words (May 2026)
+- ~12,400 words (May 2026; post Pass 4 bridges)

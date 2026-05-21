@@ -6,9 +6,9 @@ Dashboard for eight nonfiction manuscripts under `upcoming/` (Velorum uses a sep
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
-| [After Certainty](../after-certainty/) | Editorial (Phase 4) | ~9.5k words; full manuscript in prose | Author read-through; citation pivots; promote prep | [status](../after-certainty/docs/status.md) |
-| [Before Certainty Arrives](../before-certainty-arrives/) | Editorial (Phase 4) | ~9.2k words; 10 chapters + substantial front matter | Manuscript-wide editorial; bibliography verification | [status](../before-certainty-arrives/docs/status.md) |
-| [When Accountability No Longer Expires](../when-accountability-no-longer-expires/) | Editorial (Phase 4) | ~12.3k words; 12 chapters + bridges + interlude | Author read-through; bridge/interlude continuity | [status](../when-accountability-no-longer-expires/docs/status.md) |
+| [After Certainty](../after-certainty/) | Phase 4 complete | ~9.7k words; Part I–III cohesion + citations | **Author read-through**; Phase 5 promote prep | [status](../after-certainty/docs/status.md) |
+| [Before Certainty Arrives](../before-certainty-arrives/) | Phase 4 complete | ~9.3k words; Ch 8–10 Pandoc footnotes + bibliography | **Author read-through**; Phase 5 promote prep | [status](../before-certainty-arrives/docs/status.md) |
+| [When Accountability No Longer Expires](../when-accountability-no-longer-expires/) | Phase 4 complete | ~12.4k words; bridges/interlude continuity; Ch 8–10 cites | **Author read-through**; Phase 5 promote prep | [status](../when-accountability-no-longer-expires/docs/status.md) |
 | [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/) | Phase 2 unit passes | ~13.3k words; Ch 1–13 aligned to index | Glossary + citation pass; Part I–IV coherence gate | [status](../when-interpretation-no-longer-matters/docs/status.md) |
 | [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/) | First draft complete | ~12.5k words; intro + 8 domain chapters in prose | Phase 2 unit passes; author read-through Ch 3–8 | [status](../when-incentives-become-the-moral-language/docs/status.md) |
 | [Why Collaboration Is So Hard](../why-collaboration-is-so-hard/) | First draft complete | ~9.3k words; front matter + 14 chapters in prose | Part I read-through; Phase 2 passes; add back matter | [status](../why-collaboration-is-so-hard/docs/status.md) |

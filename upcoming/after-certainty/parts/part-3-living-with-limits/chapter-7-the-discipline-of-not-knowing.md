@@ -10,6 +10,10 @@ irresponsible.
 
 After certainty, this reflex becomes dangerous.
 
+Judgment, responsibility, and speech from Part II all assume partial
+understanding. This part asks what living with that partiality requires
+when scale and abstraction intensify the pressure to pretend otherwise.
+
 When understanding has reached its limit, the demand to know more does
 not lead to clarity. It leads to distortion, overconfidence, or false
 closure. What remains is not ignorance, but uncertainty that cannot be

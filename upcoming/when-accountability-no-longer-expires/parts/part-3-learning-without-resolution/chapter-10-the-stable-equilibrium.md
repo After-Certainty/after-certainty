@@ -183,6 +183,6 @@ question:
 If this equilibrium is not inevitable, what would it take for legitimacy
 to expire?
 
-And why might we choose not to try?
+And why might we choose not to try?[^c10-equilibrium-march]
 
-## **Interlude — Why This Is So Hard to See From the Inside**
+[^c10-equilibrium-march]: See James G. March, "Exploration and Exploitation in Organizational Learning," *Organization Science* 2, no. 1 (1991): 71–87; Chris Argyris, *On Organizational Learning*, 2nd ed. (Malden, MA: Blackwell, 1999).

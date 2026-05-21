@@ -161,12 +161,10 @@ Without it, clarity becomes cruelty.
 
 ### **Where we go next**
 
-The next section examines how institutions learn to live inside this
-condition—how they adapt, stabilize, and come to experience endurance
-itself as wisdom.
+The next section examines how institutions adapt under that bind—how
+correction, warning, and patience can stabilize harm without resolving
+it, and how endurance can feel like wisdom from the inside.
 
-Learning without resolution does not begin with bad faith.
+That condition does not begin with bad faith.
 
 It begins with care.
-
-## **Part IV — Beyond Any One Institution**

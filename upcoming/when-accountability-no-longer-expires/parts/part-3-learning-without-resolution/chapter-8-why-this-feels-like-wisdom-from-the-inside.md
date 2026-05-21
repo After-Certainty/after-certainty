@@ -201,9 +201,6 @@ state.
 
 Wisdom, once institutionalized, becomes hard to challenge.
 
-Even when its costs are visible.
+Even when its costs are visible.[^c8-hirschman-restraint]
 
-\
--
-
-## **Chapter 9 — Warning Is Not Learning**
+[^c8-hirschman-restraint]: See Albert O. Hirschman, *The Rhetoric of Reaction* (Cambridge, MA: Harvard University Press, 1991); Kathleen Thelen, *How Institutions Evolve* (Cambridge: Cambridge University Press, 2004).

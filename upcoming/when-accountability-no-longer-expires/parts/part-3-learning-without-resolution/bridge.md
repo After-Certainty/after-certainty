@@ -9,10 +9,11 @@ What emerges is not chaos or collapse.\
 It is stability.
 
 Institutions that survive moral strain do not do so by ignoring
-criticism. They listen. They adjust. They learn. In many cases, they
-become more careful, more articulate, and more adept over time.
+criticism. They listen, adjust, and refine—often becoming more careful
+and more articulate over time.
 
-This section examines that learning.
+This section examines how that adaptive response can stabilize harm
+without resolving it.
 
 ### **When learning replaces reckoning**
 

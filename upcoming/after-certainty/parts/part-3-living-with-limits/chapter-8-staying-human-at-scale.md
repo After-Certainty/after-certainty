@@ -160,3 +160,4 @@ It prevents you from becoming inhuman.
 
 [^c8-moral-distance]: See Zygmunt Bauman, *Modernity and the Holocaust* (Ithaca, NY: Cornell University Press, 1989); Hannah Arendt, *Eichmann in Jerusalem* (New York: Viking Press, 1963).
 [^c8-productive-friction]: See James C. Scott, *Seeing Like a State* (New Haven, CT: Yale University Press, 1998).
+[^c8-precedent-at-scale]: See Hannah Arendt, *Responsibility and Judgment*, ed. Jerome Kohn (New York: Schocken Books, 2003).
