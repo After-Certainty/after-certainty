@@ -15,6 +15,14 @@ failed. It already feels unstable.
 That feeling often arrives **before** anything measurable goes wrong.
 This chapter asks why.
 
+The same pattern appears far from software roadmaps. A public library
+convenes staff, volunteers, and a Friends group to redesign the children's
+room on a fixed budget. After one meeting, the youth librarian believes
+they agreed to prioritize quiet study nooks. The volunteer coordinator
+believes they agreed to keep floor space for weekend programs. The branch
+manager believes they only approved a survey. No one has failed yet.
+Everyone already feels the floor shifting underfoot.
+
 ### **1. Contribution exposes judgment**
 
 In solo work, judgment is tested against an artifact: code, a draft, a
@@ -82,7 +90,27 @@ who do highly visible work may experience the same collaboration as
 efficient while others simmer. Both impressions are data about structure,
 not only about attitude.
 
-### **5. Certainty-seeking under stress**
+When highly visible work is rewarded while invisible work is assumed,
+instability is baked in. The group may still hit milestones. It may also
+be one resignation away from losing the person who knew how to translate
+between factions—a loss that looks sudden only because the translation was
+never legible on the chart.
+
+### **5. Pace without shared tempo**
+
+Instability also arrives when participants experience **different tempos**
+inside the same project. A municipal arts grant panel moves on calendar
+deadlines. Artists move on material drying times and rehearsal cycles.
+Finance moves on audit windows. Each tempo is rational within its domain.
+Together they produce the sensation that others are reckless or obstructive
+when they are simply oriented to a different clock.
+
+Pace conflicts feel personal because lateness threatens identity narratives:
+the reliable one, the creative one, the responsible steward of public funds.
+Naming tempo as structure—"We are coupling three clocks"—sometimes lowers
+heat more than another alignment workshop.
+
+### **6. Certainty-seeking under stress**
 
 When coordination becomes stressful, participants often seek **certainty**
 through shortcuts: a senior leader who ends debate, a metric that ends

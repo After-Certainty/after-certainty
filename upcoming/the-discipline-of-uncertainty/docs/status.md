@@ -2,11 +2,11 @@
 
 ## Current phase
 
-**Phase 1 complete; ready for Phase 2 unit passes**
+**Phase 2 — Part I depth pass complete; ready for author read-through**
 
 ## Active branch
 
-`upcoming/portfolio-pass-3-draft`
+`cursor/upcoming-pass-6-depth-phase2-9a98`
 
 ## Manuscript hub
 
@@ -18,32 +18,34 @@
 |------|-------|-------|
 | Title Page | draft | |
 | Copyright | draft | |
-| Introduction | draft | Expanded May 2026 |
-| Ch 1 — Psychological Comfort of Certainty | draft | Expanded May 2026 |
-| Ch 2 — Abstraction and Clean Answers | draft | Expanded May 2026 |
-| Ch 3 — Patterns as Warnings | draft | Expanded May 2026 |
-| Ch 4 — Fatalistic Pattern Recognition | draft | Expanded May 2026 |
-| Ch 5 — Why the World Refuses Absolutes | draft | Expanded May 2026 |
-| Ch 6 — Probabilistic Reasoning ≠ Relativism | draft | Expanded May 2026 |
-| Ch 7 — Warning Systems | draft | Expanded May 2026 |
-| Ch 8 — Collapse Into Absolutes | draft | Expanded May 2026 |
-| Ch 9 — Leaders Pressured Into Certainty | draft | Expanded May 2026 |
-| Ch 10 — Discipline as Leadership Practice | draft | Expanded May 2026 |
-| Ch 11 — Responsibility After Certainty | draft | Expanded May 2026 |
-| Ch 12 — Meaning That Survives Uncertainty | draft | Expanded May 2026 |
-| Conclusion | draft | Expanded May 2026 |
-| Appendix Ideas | draft | Expanded May 2026 |
+| Introduction | Phase 2 | Pass 6 depth (~40%); psychology/leadership/systems framing |
+| Ch 1 — Psychological Comfort of Certainty | Phase 2 | Pass 6 depth (~40%) |
+| Ch 2 — Abstraction and Clean Answers | Phase 2 | Pass 6 depth (~40%); hospital KPI case (no pandemic/forecast flagship) |
+| Ch 3 — Patterns as Warnings | Phase 2 | Pass 6 depth (~40%) |
+| Ch 4 — Fatalistic Pattern Recognition | Phase 2 | Pass 6 depth (~40%) |
+| Ch 5 — Why the World Refuses Absolutes | Phase 2 | Pass 6 depth (~35%); §6 expected value / ethics |
+| Ch 6 — Probabilistic Reasoning ≠ Relativism | Phase 2 | Pass 6 depth (~35%); §6 standards as moral architecture |
+| Ch 7 — Warning Systems | Phase 2 | Pass 6 depth (~35%); §6 near-miss conscience |
+| Ch 8 — Collapse Into Absolutes | Phase 2 | Pass 6 depth (~35%); §6 repair budgets under partial knowledge |
+| Ch 9 — Leaders Pressured Into Certainty | Phase 2 | Pass 6 depth (~35%); §6 followership as system |
+| Ch 10 — Discipline as Leadership Practice | Phase 2 | Pass 6 depth (~35%); §6 briefings that teach how to think |
+| Ch 11 — Responsibility After Certainty | Phase 2 | Pass 6 depth (~35%); §6 obligation without closure |
+| Ch 12 — Meaning That Survives Uncertainty | Phase 2 | Pass 6 depth (~35%); §6 traditions that encode revision |
+| Conclusion | Phase 2 | Pass 6 depth (~35%); §6 what you can do Monday |
+| Appendix Ideas | draft | Unchanged this pass |
 
 ## Next actions
 
-1. Author read-through of Part I for voice and invariant threading.
-2. Phase 2 per-chapter passes: echo, editorial, citation at pivots.
-3. Update portfolio row when moving to Phase 2 manuscript-wide.
+1. **Author read-through of Part I** (intro + ch 1–4) for voice lock and invariant threading.
+2. Phase 2 echo/editorial pass on Part II–VI units after Part I sign-off.
+3. Citation at pivots where book-rules call for moral/probabilistic distinction.
 
 ## Open decisions / known issues
 
 - Subtitle aligned to `book.yml` in `index.md` and title page (May 2026).
+- Flagship economy/pandemic/forecast cases deferred per pass brief; examples favor psychology, leadership, clinical/organizational systems.
 
 ## Rough scale
 
-- ~5,250 words (May 2026; up from ~790 scaffold)
+- **~7,540 words** manuscript body (intro + ch 1–12 + conclusion; Pass 6 May 2026; up from ~3,940 pre-pass)
+- Target corridor for this scaffold phase: ~6–7k words (met; slight overage acceptable before trim on author read-through)

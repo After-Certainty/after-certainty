@@ -19,6 +19,16 @@ The more the work matters, the more likely it depends on interaction
 among people who see different slices of the problem, bear different
 risks, and cannot fully verify one another's judgments in real time.
 
+That description can sound abstract until it meets an ordinary week. A
+watershed council updates a flood map while farmers, town engineers, and
+conservation staff argue about whose data counts as "current." A museum
+prepares an exhibit while curators, educators, installers, and funders
+each protect a different definition of fidelity. A volunteer mutual-aid
+kitchen scales meals while supply runners, schedulers, and hosts improvise
+around shortages no one person caused. In each case, competent people
+contribute in good faith. None of them holds the whole. The work still
+has to move.
+
 ### **Why the familiar explanations fail**
 
 When collaboration strains, organizations often reach for character
@@ -39,6 +49,13 @@ participants to remain oriented while:
 Under those conditions, anxiety is not a personality flaw. It is a
 reasonable response to operating without the psychological supports
 people use elsewhere to feel competent and safe.
+
+Naming the structure does not excuse harm. People can hoard, bully, or
+free-ride inside collaborative settings. The point is diagnostic order:
+when the same competent cohort struggles in the same configuration,
+look first at visibility, asymmetry, and incomplete control before
+defaulting to character stories that justify tighter management or
+quieter rooms.
 
 ### **What collaboration actually creates**
 
@@ -65,3 +82,15 @@ This book treats that survival as worth understanding. Not because
 collaboration is easy if people try harder, but because the effort
 remains one of the few ways humans produce outcomes, relationships, and
 forms of understanding no individual could produce alone.
+
+### **What this book will not offer**
+
+Readers looking for a method that removes difficulty will not find it
+here. Frameworks can clarify constraints, rotate facilitation, or make
+maintenance visible. They cannot restore full authorship, full control,
+or full mutual understanding to shared work. The chapters that follow
+map how contribution wobbles, how groups coordinate without perfect
+understanding, and how stabilizing practices help—and where they harden
+into control. The closing question is not whether collaboration can be
+made easy. It is whether the effort still earns its cost when seen
+clearly.

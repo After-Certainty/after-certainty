@@ -2,17 +2,18 @@
 
 ## **Alignment Without Full Understanding**
 
-During the early months of the COVID-19 response, hospitals around the
-world faced a familiar paradox. Clinicians, administrators, and public
-health officials often **acted in partial coordination** without sharing
-identical models of the disease, the evidence, or the political constraints
-each faced. Protocols changed weekly. Language outpaced certainty. Yet
-care continued, supply chains adapted, and many teams kept functioning
-long enough to learn.
+When a regional transit agency negotiates a summer bus schedule with
+drivers' representatives, municipal funders, and disability advocates,
+the room rarely shares one model of "adequate service." Advocates measure
+gaps in evening coverage. Finance measures cost per revenue hour. Operations
+measures recovery time at terminals. Drivers measure fatigue and split shifts.
+Yet buses still roll out on July 1—not because everyone agreed on values,
+but because enough **shared movement** existed to publish a schedule, file
+exceptions, and revisit complaints in September.
 
-No one would describe that period as comfortable alignment. It was
-alignment under strain: enough shared movement to keep contribution
-possible, without full mutual understanding.
+No one would call that comfortable alignment. It is alignment under strain:
+enough coordinated action to keep contribution possible without identical
+interpretation of fairness, safety, or cost.
 
 That pattern is more common than collaboration manuals admit.
 
@@ -95,6 +96,30 @@ models collide in production, in care, or in public.
 
 Groups that reward honest partial understanding—"I follow the decision;
 I do not yet agree"—often avoid expensive collisions later.
+
+### **6. Translation as collaborative labor**
+
+Partial coherence often depends on people who **translate** between
+vocabularies without resolving underlying disagreements. In a housing
+cooperative renovating a shared building, the treasurer hears "we need
+quotes" as cash-flow risk. The carpenter hears it as material lead times.
+The board hears it as liability. A skilled facilitator is not only
+scheduling speakers. They are holding three definitions of "ready" in
+the same room long enough to pick a next inspection date.
+
+Translation is collaboration work. When it is invisible, groups believe
+they aligned because everyone nodded. When it is named—"We are not agreed
+on budget philosophy; we are agreed to obtain two bids by March 15"—groups
+can move without false unity.
+
+### **7. What this chapter does not claim**
+
+This chapter does not claim misunderstanding is harmless. Some domains
+require genuine shared models before action—certain procedures, certain
+safety systems, certain legal duties. The claim is narrower: **many
+collaborative regimes confuse theatrical agreement with the partial
+coherence that actually keeps work alive**, and they punish honest
+confusion that could have been corrected cheaply.
 
 > People often collaborate successfully without fully understanding one
 > another.

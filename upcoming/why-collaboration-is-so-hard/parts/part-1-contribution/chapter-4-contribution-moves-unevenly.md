@@ -2,15 +2,17 @@
 
 ## **Contribution Moves Unevenly**
 
-In many software teams, one engineer quietly maintains the integration
-layer everyone else depends on. They catch breaking changes before CI
-does. They answer questions in chat at odd hours. They translate product
-language into technical risk for peers who do not want to look uninformed
-in roadmap meetings.
+In a university department revising its undergraduate curriculum, one
+associate professor quietly maintains the spreadsheet everyone pretends
+is temporary. They track which courses satisfy accreditation language,
+which labs require new safety sign-offs, and which adjunct contracts expire
+before the registrar's deadline. In committee meetings, chairs debate
+intellectual direction. Afterward, the associate answers emails that begin,
+"Sorry to bother you—quick question."
 
-Their manager's performance review cites "steady delivery on feature work"
-for teammates with more visible commits. The integrator's work is real.
-It is also easy to narrate as "support" rather than contribution.
+Their annual review praises "collegial service." A colleague who piloted
+one high-profile seminar receives the public mention. Both contributions
+are real. Only one maps easily onto the department's story about merit.
 
 Collaboration rarely distributes effort, recognition, or risk evenly.
 
@@ -75,6 +77,18 @@ When contribution moves unevenly, the group experiences instability even
 if timelines look fine. High contributors burn out or withdraw. Low-
 visibility contributors learn performative engagement. Leaders interpret
 withdrawal as disengagement rather than as feedback about distribution.
+
+### **6. When "steady" is a warning signal**
+
+Organizations often praise **steady** collaborators—the person who never
+misses a handoff, who absorbs the extra meeting, who translates after
+conflict. Steady can mean reliable. It can also mean the group has located
+elasticity in someone with least power to refuse.
+
+Watching who remains steady while others spike and withdraw is a simple
+diagnostic. If the same roles are steady through every crisis, asymmetry
+is not an accident. It is a design the group is living inside, whether or
+anyone drafted it.
 
 Stabilizing practices—rotating facilitation, explicit credit for
 maintenance, decision logs that name who did what—do not erase asymmetry.
