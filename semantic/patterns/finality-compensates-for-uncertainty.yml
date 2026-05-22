@@ -1,0 +1,24 @@
+slug: finality-compensates-for-uncertainty
+title: Finality Compensates for Uncertainty
+setup: When uncertainty feels intolerable, people reach for closure—harsh judgment,
+  confident speech, or premature alignment.
+problem: Severity and certainty provide emotional relief where epistemic stability
+  no longer exists.
+forces:
+- Ambiguity feels morally unstable
+- Confidence signals competence
+- Revision is delayed to preserve calm
+- Groups reward decisive tone over accurate scope
+observation: Finality provides relief where certainty no longer exists; insecurity
+  often sits underneath severity.
+example: A leader announces an irreversible policy so the room can stop inhabiting
+  doubt together.
+relatedConcepts:
+- judgment
+- stability
+- constraints
+relatedPatterns:
+- correctness-hardens-into-identity
+- speech-escalates-faster-than-meaning
+relatedBooks:
+- after-certainty
