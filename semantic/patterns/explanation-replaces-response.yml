@@ -21,3 +21,38 @@ relatedPatterns:
 - speech-escalates-faster-than-meaning
 relatedBooks:
 - after-certainty
+counterbalances:
+- set a decision date before the next analysis cycle
+- pair every insight meeting with a named owner and deadline
+- measure response, not comprehension
+manifestations:
+  leadership:
+  - working groups produce briefs but no owner for action
+  - crisis reviews expand narrative without changing permissions
+  organizations:
+  - post-incident learning replaces repair
+  - stakeholder updates substitute for remedy
+  software:
+  - RCA documents grow while rollback paths stay unclear
+  - tickets accumulate analysis comments without state change
+questions:
+- What decision are we postponing by adding context?
+- Who benefits when comprehension substitutes for response?
+- What would we do Monday if we stopped explaining?
+recognitionSignals:
+- another session is scheduled to understand more before acting
+- analysis is praised while the decision slips
+- understanding is offered where answerability is required
+trajectory:
+  earlySignals:
+  - meetings expand scope instead of closing a choice
+  - more context feels like moral progress
+  intensificationSignals:
+  - harm is reorganized faster than reduced
+  - urgency discharges into interpretation
+  failureModes:
+  - understanding substitutes for responsibility
+  - analysis becomes emotionally sufficient
+  restorationPaths:
+  - name the response required alongside the analysis
+  - practice responsibility-persists-beyond-control at contact points

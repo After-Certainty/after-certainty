@@ -10,3 +10,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of incentives with named review dates
+- require examples before accepting incentives as sufficient
+- keep incentives tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use incentives to close debate in the room
+  organizations:
+  - policy language leans on incentives instead of repair
+  software:
+  - metrics or process labels stand in for incentives in practice
+questions:
+- Where is incentives doing moral work that should stay revisable?
+- What would we notice if incentives were not available as closure?
+- Who pays when incentives is overstretched beyond its fit?
+recognitionSignals:
+- people invoke incentives to justify a frame that resists updating
+- conversations treat incentives as settled when evidence is still arriving
+- incentives is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - incentives appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - incentives carries more weight than the situation can sustain
+  - revision of incentives feels threatening to coordination
+  failureModes:
+  - incentives substitutes for contact with what is happening
+  - drift around incentives becomes normal before it is named
+  restorationPaths:
+  - re-anchor incentives to particular cases and tradeoffs
+  - practice revisability where the term closed debate

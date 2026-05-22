@@ -5,7 +5,15 @@ proposedBy: trajectories
 bookId: after-certainty
 sourceExcerpt: ''
 items:
-  earlySignals: []
-  intensificationSignals: []
-  failureModes: []
-  restorationPaths: []
+  earlySignals:
+  - judgment appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - judgment carries more weight than the situation can sustain
+  - revision of judgment feels threatening to coordination
+  failureModes:
+  - judgment substitutes for contact with what is happening
+  - drift around judgment becomes normal before it is named
+  restorationPaths:
+  - re-anchor judgment to particular cases and tradeoffs
+  - practice revisability where the term closed debate

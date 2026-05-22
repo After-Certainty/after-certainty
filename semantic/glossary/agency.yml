@@ -9,3 +9,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of agency with named review dates
+- require examples before accepting agency as sufficient
+- keep agency tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use agency to close debate in the room
+  organizations:
+  - policy language leans on agency instead of repair
+  software:
+  - metrics or process labels stand in for agency in practice
+questions:
+- Where is agency doing moral work that should stay revisable?
+- What would we notice if agency were not available as closure?
+- Who pays when agency is overstretched beyond its fit?
+recognitionSignals:
+- people invoke agency to justify a frame that resists updating
+- conversations treat agency as settled when evidence is still arriving
+- agency is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - agency appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - agency carries more weight than the situation can sustain
+  - revision of agency feels threatening to coordination
+  failureModes:
+  - agency substitutes for contact with what is happening
+  - drift around agency becomes normal before it is named
+  restorationPaths:
+  - re-anchor agency to particular cases and tradeoffs
+  - practice revisability where the term closed debate

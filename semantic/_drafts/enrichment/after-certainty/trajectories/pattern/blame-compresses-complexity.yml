@@ -5,7 +5,15 @@ proposedBy: trajectories
 bookId: after-certainty
 sourceExcerpt: ''
 items:
-  earlySignals: []
-  intensificationSignals: []
-  failureModes: []
-  restorationPaths: []
+  earlySignals:
+  - conversations rush toward who not how
+  - complexity is traded for emotional closure
+  intensificationSignals:
+  - structural causes disappear from the record
+  - participation is framed as someone else's failure
+  failureModes:
+  - the organization learns only a morality tale
+  - repeat failure with a new face
+  restorationPaths:
+  - document field conditions alongside individual acts
+  - restore contact with harms and tradeoffs

@@ -4,4 +4,10 @@ field: manifestations
 proposedBy: manifestations
 bookId: after-certainty
 sourceExcerpt: ''
-items: {}
+items:
+  leadership:
+  - executives use circulation to close debate in the room
+  organizations:
+  - policy language leans on circulation instead of repair
+  software:
+  - metrics or process labels stand in for circulation in practice

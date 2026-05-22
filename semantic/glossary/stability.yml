@@ -21,3 +21,27 @@ recognitionSignals:
 - smooth operation is treated as equivalent to legitimacy
 - more analysis is requested when the real tension is whether to update a settled
   story
+counterbalances:
+- pair talk of stability with named review dates
+- require examples before accepting stability as sufficient
+- keep stability tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use stability to close debate in the room
+  organizations:
+  - policy language leans on stability instead of repair
+  software:
+  - metrics or process labels stand in for stability in practice
+trajectory:
+  earlySignals:
+  - stability appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - stability carries more weight than the situation can sustain
+  - revision of stability feels threatening to coordination
+  failureModes:
+  - stability substitutes for contact with what is happening
+  - drift around stability becomes normal before it is named
+  restorationPaths:
+  - re-anchor stability to particular cases and tradeoffs
+  - practice revisability where the term closed debate

@@ -23,3 +23,27 @@ recognitionSignals:
   retold
 - meetings add context but defer a decision everyone already knows is required
 - harm is attributed to "the system" while the authorizing choices remain unnamed
+counterbalances:
+- pair talk of authorization with named review dates
+- require examples before accepting authorization as sufficient
+- keep authorization tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use authorization to close debate in the room
+  organizations:
+  - policy language leans on authorization instead of repair
+  software:
+  - metrics or process labels stand in for authorization in practice
+trajectory:
+  earlySignals:
+  - authorization appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - authorization carries more weight than the situation can sustain
+  - revision of authorization feels threatening to coordination
+  failureModes:
+  - authorization substitutes for contact with what is happening
+  - drift around authorization becomes normal before it is named
+  restorationPaths:
+  - re-anchor authorization to particular cases and tradeoffs
+  - practice revisability where the term closed debate

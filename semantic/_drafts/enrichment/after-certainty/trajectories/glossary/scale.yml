@@ -5,7 +5,15 @@ proposedBy: trajectories
 bookId: after-certainty
 sourceExcerpt: ''
 items:
-  earlySignals: []
-  intensificationSignals: []
-  failureModes: []
-  restorationPaths: []
+  earlySignals:
+  - scale appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - scale carries more weight than the situation can sustain
+  - revision of scale feels threatening to coordination
+  failureModes:
+  - scale substitutes for contact with what is happening
+  - drift around scale becomes normal before it is named
+  restorationPaths:
+  - re-anchor scale to particular cases and tradeoffs
+  - practice revisability where the term closed debate

@@ -5,7 +5,15 @@ proposedBy: trajectories
 bookId: after-certainty
 sourceExcerpt: ''
 items:
-  earlySignals: []
-  intensificationSignals: []
-  failureModes: []
-  restorationPaths: []
+  earlySignals:
+  - meetings expand scope instead of closing a choice
+  - more context feels like moral progress
+  intensificationSignals:
+  - harm is reorganized faster than reduced
+  - urgency discharges into interpretation
+  failureModes:
+  - understanding substitutes for responsibility
+  - analysis becomes emotionally sufficient
+  restorationPaths:
+  - name the response required alongside the analysis
+  - practice responsibility-persists-beyond-control at contact points

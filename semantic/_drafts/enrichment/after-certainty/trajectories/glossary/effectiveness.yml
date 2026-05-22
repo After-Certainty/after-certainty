@@ -5,7 +5,15 @@ proposedBy: trajectories
 bookId: after-certainty
 sourceExcerpt: ''
 items:
-  earlySignals: []
-  intensificationSignals: []
-  failureModes: []
-  restorationPaths: []
+  earlySignals:
+  - effectiveness appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - effectiveness carries more weight than the situation can sustain
+  - revision of effectiveness feels threatening to coordination
+  failureModes:
+  - effectiveness substitutes for contact with what is happening
+  - drift around effectiveness becomes normal before it is named
+  restorationPaths:
+  - re-anchor effectiveness to particular cases and tradeoffs
+  - practice revisability where the term closed debate

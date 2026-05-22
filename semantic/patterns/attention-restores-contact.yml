@@ -21,3 +21,38 @@ relatedPatterns:
 - responsibility-persists-beyond-control
 relatedBooks:
 - after-certainty
+counterbalances:
+- require named affected parties in decisions
+- visit contact points before closing incidents
+- pair metrics with case-based review
+manifestations:
+  leadership:
+  - executives meet affected stakeholders before press releases
+  - reviews include frontline testimony
+  organizations:
+  - complaint paths reach decision makers
+  - harm registers include lived impact
+  software:
+  - incident reviews include customer impact stories
+  - SLO debates include user-visible failure cases
+questions:
+- Who is affected in particular, not on average?
+- What tradeoff disappears when we stay at summary level?
+- Where has visibility replaced responsiveness?
+recognitionSignals:
+- reviews name particular harms and people
+- abstraction is challenged with lived outcomes
+- distance is noticed as moral risk
+trajectory:
+  earlySignals:
+  - summaries dominate while cases are available
+  - distance is rewarded over contact
+  intensificationSignals:
+  - averaging conceals particular harm
+  - closure arrives without contact
+  failureModes:
+  - abstraction becomes innocence
+  - scale is used to avoid answerability
+  restorationPaths:
+  - institutionalize case-based review at scale
+  - measure contact not only commentary

@@ -8,3 +8,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - when-others-look-to-you-v1
+counterbalances:
+- pair talk of harm with named review dates
+- require examples before accepting harm as sufficient
+- keep harm tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use harm to close debate in the room
+  organizations:
+  - policy language leans on harm instead of repair
+  software:
+  - metrics or process labels stand in for harm in practice
+questions:
+- Where is harm doing moral work that should stay revisable?
+- What would we notice if harm were not available as closure?
+- Who pays when harm is overstretched beyond its fit?
+recognitionSignals:
+- people invoke harm to justify a frame that resists updating
+- conversations treat harm as settled when evidence is still arriving
+- harm is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - harm appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - harm carries more weight than the situation can sustain
+  - revision of harm feels threatening to coordination
+  failureModes:
+  - harm substitutes for contact with what is happening
+  - drift around harm becomes normal before it is named
+  restorationPaths:
+  - re-anchor harm to particular cases and tradeoffs
+  - practice revisability where the term closed debate

@@ -4,4 +4,13 @@ field: manifestations
 proposedBy: manifestations
 bookId: after-certainty
 sourceExcerpt: ''
-items: {}
+items:
+  leadership:
+  - boards ask evidence questions without loyalty tests
+  - leaders welcome audit as trust maintenance
+  organizations:
+  - ombud paths are normalized not exceptional
+  - peer review includes power holders
+  software:
+  - security review includes product leaders
+  - incident review questions policy not only operators

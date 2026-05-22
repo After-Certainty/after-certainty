@@ -10,3 +10,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of authority with named review dates
+- require examples before accepting authority as sufficient
+- keep authority tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use authority to close debate in the room
+  organizations:
+  - policy language leans on authority instead of repair
+  software:
+  - metrics or process labels stand in for authority in practice
+questions:
+- Where is authority doing moral work that should stay revisable?
+- What would we notice if authority were not available as closure?
+- Who pays when authority is overstretched beyond its fit?
+recognitionSignals:
+- people invoke authority to justify a frame that resists updating
+- conversations treat authority as settled when evidence is still arriving
+- authority is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - authority appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - authority carries more weight than the situation can sustain
+  - revision of authority feels threatening to coordination
+  failureModes:
+  - authority substitutes for contact with what is happening
+  - drift around authority becomes normal before it is named
+  restorationPaths:
+  - re-anchor authority to particular cases and tradeoffs
+  - practice revisability where the term closed debate

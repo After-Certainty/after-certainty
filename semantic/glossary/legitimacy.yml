@@ -9,3 +9,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of legitimacy with named review dates
+- require examples before accepting legitimacy as sufficient
+- keep legitimacy tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use legitimacy to close debate in the room
+  organizations:
+  - policy language leans on legitimacy instead of repair
+  software:
+  - metrics or process labels stand in for legitimacy in practice
+questions:
+- Where is legitimacy doing moral work that should stay revisable?
+- What would we notice if legitimacy were not available as closure?
+- Who pays when legitimacy is overstretched beyond its fit?
+recognitionSignals:
+- people invoke legitimacy to justify a frame that resists updating
+- conversations treat legitimacy as settled when evidence is still arriving
+- legitimacy is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - legitimacy appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - legitimacy carries more weight than the situation can sustain
+  - revision of legitimacy feels threatening to coordination
+  failureModes:
+  - legitimacy substitutes for contact with what is happening
+  - drift around legitimacy becomes normal before it is named
+  restorationPaths:
+  - re-anchor legitimacy to particular cases and tradeoffs
+  - practice revisability where the term closed debate

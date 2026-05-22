@@ -9,3 +9,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of accountability with named review dates
+- require examples before accepting accountability as sufficient
+- keep accountability tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use accountability to close debate in the room
+  organizations:
+  - policy language leans on accountability instead of repair
+  software:
+  - metrics or process labels stand in for accountability in practice
+questions:
+- Where is accountability doing moral work that should stay revisable?
+- What would we notice if accountability were not available as closure?
+- Who pays when accountability is overstretched beyond its fit?
+recognitionSignals:
+- people invoke accountability to justify a frame that resists updating
+- conversations treat accountability as settled when evidence is still arriving
+- accountability is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - accountability appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - accountability carries more weight than the situation can sustain
+  - revision of accountability feels threatening to coordination
+  failureModes:
+  - accountability substitutes for contact with what is happening
+  - drift around accountability becomes normal before it is named
+  restorationPaths:
+  - re-anchor accountability to particular cases and tradeoffs
+  - practice revisability where the term closed debate

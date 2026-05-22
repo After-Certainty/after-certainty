@@ -4,4 +4,13 @@ field: manifestations
 proposedBy: manifestations
 bookId: after-certainty
 sourceExcerpt: ''
-items: {}
+items:
+  leadership:
+  - working groups produce briefs but no owner for action
+  - crisis reviews expand narrative without changing permissions
+  organizations:
+  - post-incident learning replaces repair
+  - stakeholder updates substitute for remedy
+  software:
+  - RCA documents grow while rollback paths stay unclear
+  - tickets accumulate analysis comments without state change

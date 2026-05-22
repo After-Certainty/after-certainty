@@ -21,3 +21,38 @@ relatedPatterns:
 - finality-compensates-for-uncertainty
 relatedBooks:
 - after-certainty
+counterbalances:
+- publish what would change your mind
+- reward updates to shared reality, not defensive coherence
+- separate belonging from the accuracy of the frame
+manifestations:
+  leadership:
+  - executives treat challenged forecasts as disloyalty
+  - strategy reviews reward defensive coherence
+  organizations:
+  - consensus becomes more important than accuracy
+  - dissent routes through private channels only
+  software:
+  - roadmaps cannot change without a political fight
+  - metrics debates become status contests
+questions:
+- What would we revise if belonging were not at stake?
+- Who cannot raise doubt without paying a social cost?
+- Where has correctness become identity rather than contact with reality?
+recognitionSignals:
+- challenging a forecast is treated as disloyalty
+- revision is deferred to protect group coherence
+- being right matters more than updating shared reality
+trajectory:
+  earlySignals:
+  - small doubts are voiced privately but not in the room
+  - evidence that complicates the story is labeled noise
+  intensificationSignals:
+  - disagreement is treated as moral threat
+  - revision feels like betrayal to the group
+  failureModes:
+  - the group cannot remain revisable under pressure
+  - being right protects the story more than understanding
+  restorationPaths:
+  - practice revisability-preserves-judgment in public
+  - name tradeoffs without demanding final closure

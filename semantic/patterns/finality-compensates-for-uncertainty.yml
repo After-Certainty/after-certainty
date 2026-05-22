@@ -22,3 +22,38 @@ relatedPatterns:
 - speech-escalates-faster-than-meaning
 relatedBooks:
 - after-certainty
+counterbalances:
+- name remaining uncertainty alongside decisions
+- separate severity from insecurity
+- allow provisional commitments with review
+manifestations:
+  leadership:
+  - executives announce irreversible cuts to calm markets
+  - zero-tolerance policies follow ambiguous harm
+  organizations:
+  - investigations close when anxiety peaks
+  - compliance demands certainty artifacts
+  software:
+  - freeze windows become permanent policy
+  - rollback is banned to appear decisive
+questions:
+- What uncertainty are we closing too early?
+- Who benefits from harsh finality here?
+- What would slower closure protect?
+recognitionSignals:
+- confidence is overstated to end discomfort
+- severity arrives where certainty is missing
+- ambiguity is treated as moral instability
+trajectory:
+  earlySignals:
+  - rooms rush toward a single confident frame
+  - questions about doubt feel unwelcome
+  intensificationSignals:
+  - policy hardens to relieve collective anxiety
+  - severity substitutes for shared understanding
+  failureModes:
+  - finality forecloses needed revision
+  - insecurity drives punitive clarity
+  restorationPaths:
+  - practice revisability-preserves-judgment
+  - publish uncertainty budgets with decisions

@@ -4,4 +4,13 @@ field: manifestations
 proposedBy: manifestations
 bookId: after-certainty
 sourceExcerpt: ''
-items: {}
+items:
+  leadership:
+  - executives treat challenged forecasts as disloyalty
+  - strategy reviews reward defensive coherence
+  organizations:
+  - consensus becomes more important than accuracy
+  - dissent routes through private channels only
+  software:
+  - roadmaps cannot change without a political fight
+  - metrics debates become status contests

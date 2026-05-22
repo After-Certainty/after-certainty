@@ -4,4 +4,7 @@ field: counterbalances
 proposedBy: counterbalances
 bookId: after-certainty
 sourceExcerpt: ''
-items: []
+items:
+- pair talk of constraints with named review dates
+- require examples before accepting constraints as sufficient
+- keep constraints tied to particular harms and people

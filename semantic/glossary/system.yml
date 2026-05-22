@@ -11,3 +11,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of system with named review dates
+- require examples before accepting system as sufficient
+- keep system tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use system to close debate in the room
+  organizations:
+  - policy language leans on system instead of repair
+  software:
+  - metrics or process labels stand in for system in practice
+questions:
+- Where is system doing moral work that should stay revisable?
+- What would we notice if system were not available as closure?
+- Who pays when system is overstretched beyond its fit?
+recognitionSignals:
+- people invoke system to justify a frame that resists updating
+- conversations treat system as settled when evidence is still arriving
+- system is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - system appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - system carries more weight than the situation can sustain
+  - revision of system feels threatening to coordination
+  failureModes:
+  - system substitutes for contact with what is happening
+  - drift around system becomes normal before it is named
+  restorationPaths:
+  - re-anchor system to particular cases and tradeoffs
+  - practice revisability where the term closed debate

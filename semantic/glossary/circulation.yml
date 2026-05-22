@@ -9,3 +9,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of circulation with named review dates
+- require examples before accepting circulation as sufficient
+- keep circulation tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use circulation to close debate in the room
+  organizations:
+  - policy language leans on circulation instead of repair
+  software:
+  - metrics or process labels stand in for circulation in practice
+questions:
+- Where is circulation doing moral work that should stay revisable?
+- What would we notice if circulation were not available as closure?
+- Who pays when circulation is overstretched beyond its fit?
+recognitionSignals:
+- people invoke circulation to justify a frame that resists updating
+- conversations treat circulation as settled when evidence is still arriving
+- circulation is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - circulation appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - circulation carries more weight than the situation can sustain
+  - revision of circulation feels threatening to coordination
+  failureModes:
+  - circulation substitutes for contact with what is happening
+  - drift around circulation becomes normal before it is named
+  restorationPaths:
+  - re-anchor circulation to particular cases and tradeoffs
+  - practice revisability where the term closed debate

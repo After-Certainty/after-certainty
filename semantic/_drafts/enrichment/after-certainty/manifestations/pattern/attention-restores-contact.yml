@@ -4,4 +4,13 @@ field: manifestations
 proposedBy: manifestations
 bookId: after-certainty
 sourceExcerpt: ''
-items: {}
+items:
+  leadership:
+  - executives meet affected stakeholders before press releases
+  - reviews include frontline testimony
+  organizations:
+  - complaint paths reach decision makers
+  - harm registers include lived impact
+  software:
+  - incident reviews include customer impact stories
+  - SLO debates include user-visible failure cases

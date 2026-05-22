@@ -9,3 +9,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of responsibility with named review dates
+- require examples before accepting responsibility as sufficient
+- keep responsibility tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use responsibility to close debate in the room
+  organizations:
+  - policy language leans on responsibility instead of repair
+  software:
+  - metrics or process labels stand in for responsibility in practice
+questions:
+- Where is responsibility doing moral work that should stay revisable?
+- What would we notice if responsibility were not available as closure?
+- Who pays when responsibility is overstretched beyond its fit?
+recognitionSignals:
+- people invoke responsibility to justify a frame that resists updating
+- conversations treat responsibility as settled when evidence is still arriving
+- responsibility is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - responsibility appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - responsibility carries more weight than the situation can sustain
+  - revision of responsibility feels threatening to coordination
+  failureModes:
+  - responsibility substitutes for contact with what is happening
+  - drift around responsibility becomes normal before it is named
+  restorationPaths:
+  - re-anchor responsibility to particular cases and tradeoffs
+  - practice revisability where the term closed debate

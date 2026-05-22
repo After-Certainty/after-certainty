@@ -22,3 +22,38 @@ relatedPatterns:
 - revisability-preserves-judgment
 relatedBooks:
 - after-certainty
+counterbalances:
+- institutionalize regular proportionate review
+- separate character defense from role accountability
+- pair admiration with open records
+manifestations:
+  leadership:
+  - boards ask evidence questions without loyalty tests
+  - leaders welcome audit as trust maintenance
+  organizations:
+  - ombud paths are normalized not exceptional
+  - peer review includes power holders
+  software:
+  - security review includes product leaders
+  - incident review questions policy not only operators
+questions:
+- What question would preserve trust without insulation?
+- Where has admiration blocked proportionate inquiry?
+- Who can scrutinize without being cast as enemy?
+recognitionSignals:
+- proportionate questions are asked in public
+- inquiry is distinguished from cynicism
+- legitimacy stays open to revision
+trajectory:
+  earlySignals:
+  - routine forums invite challenge without crisis
+  - records are accessible before scandal forces it
+  intensificationSignals:
+  - questions focus on tradeoffs not character assassination
+  - revision of trust is practiced in daylight
+  failureModes:
+  - scrutiny is performed only after harm surfaces
+  - trust rhetoric blocks inquiry until failure
+  restorationPaths:
+  - reward questions that keep legitimacy revisable
+  - document answers alongside admiration

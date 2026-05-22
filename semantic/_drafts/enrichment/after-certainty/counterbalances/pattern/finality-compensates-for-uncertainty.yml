@@ -4,4 +4,7 @@ field: counterbalances
 proposedBy: counterbalances
 bookId: after-certainty
 sourceExcerpt: ''
-items: []
+items:
+- name remaining uncertainty alongside decisions
+- separate severity from insecurity
+- allow provisional commitments with review

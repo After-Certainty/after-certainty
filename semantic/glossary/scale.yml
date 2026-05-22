@@ -10,3 +10,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of scale with named review dates
+- require examples before accepting scale as sufficient
+- keep scale tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use scale to close debate in the room
+  organizations:
+  - policy language leans on scale instead of repair
+  software:
+  - metrics or process labels stand in for scale in practice
+questions:
+- Where is scale doing moral work that should stay revisable?
+- What would we notice if scale were not available as closure?
+- Who pays when scale is overstretched beyond its fit?
+recognitionSignals:
+- people invoke scale to justify a frame that resists updating
+- conversations treat scale as settled when evidence is still arriving
+- scale is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - scale appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - scale carries more weight than the situation can sustain
+  - revision of scale feels threatening to coordination
+  failureModes:
+  - scale substitutes for contact with what is happening
+  - drift around scale becomes normal before it is named
+  restorationPaths:
+  - re-anchor scale to particular cases and tradeoffs
+  - practice revisability where the term closed debate

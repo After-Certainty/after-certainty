@@ -22,3 +22,38 @@ relatedPatterns:
 - finality-compensates-for-uncertainty
 relatedBooks:
 - after-certainty
+counterbalances:
+- require action items with public statements
+- slow circulation until claims are scoped
+- reward precision over allegiance signaling
+manifestations:
+  leadership:
+  - executive posts move markets before policy exists
+  - all-hands rhetoric outpaces operational change
+  organizations:
+  - PR cycles set moral tone without practice change
+  - internal memos circulate as substitute for repair
+  software:
+  - status pages update before engineering confirms scope
+  - viral incident threads outrun postmortem facts
+questions:
+- What does this statement commit us to do?
+- Who is performing concern without changing practice?
+- Where has circulation outrun correction?
+recognitionSignals:
+- statements circulate for allegiance before precision
+- tone is read before content
+- communication grows more visible and less precise
+trajectory:
+  earlySignals:
+  - hot takes spread before facts are checked
+  - urgency favors sharing over understanding
+  intensificationSignals:
+  - words signal teams more than they coordinate
+  - nuance collapses under volume
+  failureModes:
+  - speech substitutes for presence
+  - visibility rewards escalation not care
+  restorationPaths:
+  - pair statements with named owners and dates
+  - practice speech-that-does-less-harm norms

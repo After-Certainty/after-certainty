@@ -8,3 +8,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of feedback with named review dates
+- require examples before accepting feedback as sufficient
+- keep feedback tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use feedback to close debate in the room
+  organizations:
+  - policy language leans on feedback instead of repair
+  software:
+  - metrics or process labels stand in for feedback in practice
+questions:
+- Where is feedback doing moral work that should stay revisable?
+- What would we notice if feedback were not available as closure?
+- Who pays when feedback is overstretched beyond its fit?
+recognitionSignals:
+- people invoke feedback to justify a frame that resists updating
+- conversations treat feedback as settled when evidence is still arriving
+- feedback is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - feedback appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - feedback carries more weight than the situation can sustain
+  - revision of feedback feels threatening to coordination
+  failureModes:
+  - feedback substitutes for contact with what is happening
+  - drift around feedback becomes normal before it is named
+  restorationPaths:
+  - re-anchor feedback to particular cases and tradeoffs
+  - practice revisability where the term closed debate

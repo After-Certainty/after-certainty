@@ -8,3 +8,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - when-others-look-to-you-v1
+counterbalances:
+- pair talk of effectiveness with named review dates
+- require examples before accepting effectiveness as sufficient
+- keep effectiveness tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use effectiveness to close debate in the room
+  organizations:
+  - policy language leans on effectiveness instead of repair
+  software:
+  - metrics or process labels stand in for effectiveness in practice
+questions:
+- Where is effectiveness doing moral work that should stay revisable?
+- What would we notice if effectiveness were not available as closure?
+- Who pays when effectiveness is overstretched beyond its fit?
+recognitionSignals:
+- people invoke effectiveness to justify a frame that resists updating
+- conversations treat effectiveness as settled when evidence is still arriving
+- effectiveness is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - effectiveness appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - effectiveness carries more weight than the situation can sustain
+  - revision of effectiveness feels threatening to coordination
+  failureModes:
+  - effectiveness substitutes for contact with what is happening
+  - drift around effectiveness becomes normal before it is named
+  restorationPaths:
+  - re-anchor effectiveness to particular cases and tradeoffs
+  - practice revisability where the term closed debate

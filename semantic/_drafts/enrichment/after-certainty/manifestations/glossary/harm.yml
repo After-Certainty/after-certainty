@@ -4,4 +4,10 @@ field: manifestations
 proposedBy: manifestations
 bookId: after-certainty
 sourceExcerpt: ''
-items: {}
+items:
+  leadership:
+  - executives use harm to close debate in the room
+  organizations:
+  - policy language leans on harm instead of repair
+  software:
+  - metrics or process labels stand in for harm in practice

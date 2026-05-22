@@ -9,3 +9,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of correction with named review dates
+- require examples before accepting correction as sufficient
+- keep correction tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use correction to close debate in the room
+  organizations:
+  - policy language leans on correction instead of repair
+  software:
+  - metrics or process labels stand in for correction in practice
+questions:
+- Where is correction doing moral work that should stay revisable?
+- What would we notice if correction were not available as closure?
+- Who pays when correction is overstretched beyond its fit?
+recognitionSignals:
+- people invoke correction to justify a frame that resists updating
+- conversations treat correction as settled when evidence is still arriving
+- correction is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - correction appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - correction carries more weight than the situation can sustain
+  - revision of correction feels threatening to coordination
+  failureModes:
+  - correction substitutes for contact with what is happening
+  - drift around correction becomes normal before it is named
+  restorationPaths:
+  - re-anchor correction to particular cases and tradeoffs
+  - practice revisability where the term closed debate

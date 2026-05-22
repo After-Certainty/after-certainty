@@ -5,7 +5,15 @@ proposedBy: trajectories
 bookId: after-certainty
 sourceExcerpt: ''
 items:
-  earlySignals: []
-  intensificationSignals: []
-  failureModes: []
-  restorationPaths: []
+  earlySignals:
+  - incentives appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - incentives carries more weight than the situation can sustain
+  - revision of incentives feels threatening to coordination
+  failureModes:
+  - incentives substitutes for contact with what is happening
+  - drift around incentives becomes normal before it is named
+  restorationPaths:
+  - re-anchor incentives to particular cases and tradeoffs
+  - practice revisability where the term closed debate

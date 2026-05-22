@@ -4,4 +4,13 @@ field: manifestations
 proposedBy: manifestations
 bookId: after-certainty
 sourceExcerpt: ''
-items: {}
+items:
+  leadership:
+  - former executives still shape norms through alumni authority
+  - successors inherit permissions never revoked
+  organizations:
+  - committees retain power after crises end
+  - norms persist after reorganization
+  software:
+  - deprecated paths remain default in practice
+  - on-call rotations keep old escalation habits

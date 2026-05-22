@@ -5,7 +5,15 @@ proposedBy: trajectories
 bookId: after-certainty
 sourceExcerpt: ''
 items:
-  earlySignals: []
-  intensificationSignals: []
-  failureModes: []
-  restorationPaths: []
+  earlySignals:
+  - hot takes spread before facts are checked
+  - urgency favors sharing over understanding
+  intensificationSignals:
+  - words signal teams more than they coordinate
+  - nuance collapses under volume
+  failureModes:
+  - speech substitutes for presence
+  - visibility rewards escalation not care
+  restorationPaths:
+  - pair statements with named owners and dates
+  - practice speech-that-does-less-harm norms

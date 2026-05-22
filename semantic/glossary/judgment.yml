@@ -9,3 +9,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of judgment with named review dates
+- require examples before accepting judgment as sufficient
+- keep judgment tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use judgment to close debate in the room
+  organizations:
+  - policy language leans on judgment instead of repair
+  software:
+  - metrics or process labels stand in for judgment in practice
+questions:
+- Where is judgment doing moral work that should stay revisable?
+- What would we notice if judgment were not available as closure?
+- Who pays when judgment is overstretched beyond its fit?
+recognitionSignals:
+- people invoke judgment to justify a frame that resists updating
+- conversations treat judgment as settled when evidence is still arriving
+- judgment is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - judgment appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - judgment carries more weight than the situation can sustain
+  - revision of judgment feels threatening to coordination
+  failureModes:
+  - judgment substitutes for contact with what is happening
+  - drift around judgment becomes normal before it is named
+  restorationPaths:
+  - re-anchor judgment to particular cases and tradeoffs
+  - practice revisability where the term closed debate

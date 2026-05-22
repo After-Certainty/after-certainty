@@ -4,4 +4,13 @@ field: manifestations
 proposedBy: manifestations
 bookId: after-certainty
 sourceExcerpt: ''
-items: {}
+items:
+  leadership:
+  - executives revise forecasts without penalty
+  - strategy admits earlier misread in public
+  organizations:
+  - policy includes sunset and review clauses
+  - teams run pre-mortems on live choices
+  software:
+  - architecture decision records stay living documents
+  - feature flags include explicit review dates

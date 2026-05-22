@@ -4,4 +4,13 @@ field: manifestations
 proposedBy: manifestations
 bookId: after-certainty
 sourceExcerpt: ''
-items: {}
+items:
+  leadership:
+  - board questions soften around the CEO's character
+  - successor narratives protect prior harm as tradeoff
+  organizations:
+  - whistle routes are framed as culture betrayal
+  - audit findings are contextualized away from the star performer
+  software:
+  - founder lore blocks architecture critique
+  - incident blame stops at the celebrated builder

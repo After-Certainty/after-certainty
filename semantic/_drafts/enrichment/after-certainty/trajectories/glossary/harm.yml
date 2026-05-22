@@ -5,7 +5,15 @@ proposedBy: trajectories
 bookId: after-certainty
 sourceExcerpt: ''
 items:
-  earlySignals: []
-  intensificationSignals: []
-  failureModes: []
-  restorationPaths: []
+  earlySignals:
+  - harm appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - harm carries more weight than the situation can sustain
+  - revision of harm feels threatening to coordination
+  failureModes:
+  - harm substitutes for contact with what is happening
+  - drift around harm becomes normal before it is named
+  restorationPaths:
+  - re-anchor harm to particular cases and tradeoffs
+  - practice revisability where the term closed debate

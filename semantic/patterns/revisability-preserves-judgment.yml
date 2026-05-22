@@ -1,9 +1,9 @@
 slug: revisability-preserves-judgment
 title: Revisability Preserves Judgment
-setup: Judgment remains necessary when certainty weakens; people still must weigh tradeoffs
-  and consequences without a final frame to hide inside.
-problem: Finality no longer stabilizes judgment, yet paralysis and dogma are both available
-  failures.
+setup: Judgment remains necessary when certainty weakens; people still must weigh
+  tradeoffs and consequences without a final frame to hide inside.
+problem: Finality no longer stabilizes judgment, yet paralysis and dogma are both
+  available failures.
 forces:
 - New information threatens prior commitments
 - Groups confuse openness with weakness
@@ -21,3 +21,38 @@ relatedPatterns:
 - finality-compensates-for-uncertainty
 relatedBooks:
 - after-certainty
+counterbalances:
+- set review dates on live judgments
+- reward public updates to shared frames
+- pair openness with named decisions
+manifestations:
+  leadership:
+  - executives revise forecasts without penalty
+  - strategy admits earlier misread in public
+  organizations:
+  - policy includes sunset and review clauses
+  - teams run pre-mortems on live choices
+  software:
+  - architecture decision records stay living documents
+  - feature flags include explicit review dates
+questions:
+- What would change our judgment if we said it aloud?
+- Where are we confusing revisability with paralysis?
+- Who models update without collapse of coherence?
+recognitionSignals:
+- leaders publish what would change their mind
+- revision is practiced without infinite deferral
+- openness is distinguished from weakness
+trajectory:
+  earlySignals:
+  - assumptions are listed alongside commitments
+  - small updates are welcomed early
+  intensificationSignals:
+  - revision becomes routine before stakes peak
+  - groups practice contact with new information
+  failureModes:
+  - revisability is performed but never acted on
+  - openness becomes branding without update
+  restorationPaths:
+  - tie revisability to accountable decisions
+  - measure updates to judgment, not tone alone

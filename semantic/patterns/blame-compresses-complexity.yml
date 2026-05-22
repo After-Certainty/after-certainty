@@ -11,8 +11,8 @@ forces:
 - Scale is experienced as someone else's failure
 observation: Blame offers relief faster than contact with how the field actually produced
   the outcome.
-example: After a failure, the organization fires one manager while the incentives that
-  shaped everyone's choices stay unnamed.
+example: After a failure, the organization fires one manager while the incentives
+  that shaped everyone's choices stay unnamed.
 relatedConcepts:
 - accountability
 - harm
@@ -22,3 +22,38 @@ relatedPatterns:
 - admiration-becomes-insulation
 relatedBooks:
 - after-certainty
+counterbalances:
+- map incentives before naming a responsible individual
+- practice attention-restores-contact with affected parties
+- keep learning open after accountability is assigned
+manifestations:
+  leadership:
+  - executive dismissal ends the investigation
+  - reorg follows scapegoating without incentive change
+  organizations:
+  - compliance closes the file once one role is sanctioned
+  - training blames attitude not structure
+  software:
+  - one engineer owns an outage caused by systemic coupling
+  - postmortems stop at human error tags
+questions:
+- What incentives are we hiding inside the blamed individual?
+- Who participated besides the person we fired?
+- What would we learn if the face were not yet assigned?
+recognitionSignals:
+- a single face is assigned while incentives stay unnamed
+- learning stops once the villain is identified
+- structural participation is externalized
+trajectory:
+  earlySignals:
+  - conversations rush toward who not how
+  - complexity is traded for emotional closure
+  intensificationSignals:
+  - structural causes disappear from the record
+  - participation is framed as someone else's failure
+  failureModes:
+  - the organization learns only a morality tale
+  - repeat failure with a new face
+  restorationPaths:
+  - document field conditions alongside individual acts
+  - restore contact with harms and tradeoffs

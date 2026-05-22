@@ -11,3 +11,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of constraints with named review dates
+- require examples before accepting constraints as sufficient
+- keep constraints tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use constraints to close debate in the room
+  organizations:
+  - policy language leans on constraints instead of repair
+  software:
+  - metrics or process labels stand in for constraints in practice
+questions:
+- Where is constraints doing moral work that should stay revisable?
+- What would we notice if constraints were not available as closure?
+- Who pays when constraints is overstretched beyond its fit?
+recognitionSignals:
+- people invoke constraints to justify a frame that resists updating
+- conversations treat constraints as settled when evidence is still arriving
+- constraints is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - constraints appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - constraints carries more weight than the situation can sustain
+  - revision of constraints feels threatening to coordination
+  failureModes:
+  - constraints substitutes for contact with what is happening
+  - drift around constraints becomes normal before it is named
+  restorationPaths:
+  - re-anchor constraints to particular cases and tradeoffs
+  - practice revisability where the term closed debate

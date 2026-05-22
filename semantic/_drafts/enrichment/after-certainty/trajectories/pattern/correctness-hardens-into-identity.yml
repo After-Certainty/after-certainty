@@ -5,7 +5,15 @@ proposedBy: trajectories
 bookId: after-certainty
 sourceExcerpt: ''
 items:
-  earlySignals: []
-  intensificationSignals: []
-  failureModes: []
-  restorationPaths: []
+  earlySignals:
+  - small doubts are voiced privately but not in the room
+  - evidence that complicates the story is labeled noise
+  intensificationSignals:
+  - disagreement is treated as moral threat
+  - revision feels like betrayal to the group
+  failureModes:
+  - the group cannot remain revisable under pressure
+  - being right protects the story more than understanding
+  restorationPaths:
+  - practice revisability-preserves-judgment in public
+  - name tradeoffs without demanding final closure

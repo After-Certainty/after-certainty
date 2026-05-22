@@ -10,3 +10,35 @@ relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+counterbalances:
+- pair talk of abstraction with named review dates
+- require examples before accepting abstraction as sufficient
+- keep abstraction tied to particular harms and people
+manifestations:
+  leadership:
+  - executives use abstraction to close debate in the room
+  organizations:
+  - policy language leans on abstraction instead of repair
+  software:
+  - metrics or process labels stand in for abstraction in practice
+questions:
+- Where is abstraction doing moral work that should stay revisable?
+- What would we notice if abstraction were not available as closure?
+- Who pays when abstraction is overstretched beyond its fit?
+recognitionSignals:
+- people invoke abstraction to justify a frame that resists updating
+- conversations treat abstraction as settled when evidence is still arriving
+- abstraction is used where contact with consequence would be slower
+trajectory:
+  earlySignals:
+  - abstraction appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - abstraction carries more weight than the situation can sustain
+  - revision of abstraction feels threatening to coordination
+  failureModes:
+  - abstraction substitutes for contact with what is happening
+  - drift around abstraction becomes normal before it is named
+  restorationPaths:
+  - re-anchor abstraction to particular cases and tradeoffs
+  - practice revisability where the term closed debate

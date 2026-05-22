@@ -4,4 +4,7 @@ field: counterbalances
 proposedBy: counterbalances
 bookId: after-certainty
 sourceExcerpt: ''
-items: []
+items:
+- require action items with public statements
+- slow circulation until claims are scoped
+- reward precision over allegiance signaling

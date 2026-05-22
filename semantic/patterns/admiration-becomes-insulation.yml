@@ -21,3 +21,38 @@ relatedPatterns:
 - blame-compresses-complexity
 relatedBooks:
 - after-certainty
+counterbalances:
+- ask proportionate questions in public forums
+- separate trust from insulation of the narrative
+- practice scrutiny-preserves-trust without villain casting
+manifestations:
+  leadership:
+  - board questions soften around the CEO's character
+  - successor narratives protect prior harm as tradeoff
+  organizations:
+  - whistle routes are framed as culture betrayal
+  - audit findings are contextualized away from the star performer
+  software:
+  - founder lore blocks architecture critique
+  - incident blame stops at the celebrated builder
+questions:
+- What harm are we reframing as tradeoff to protect the story?
+- Who cannot ask proportionate questions without betrayal?
+- What would scrutiny look like if admiration stayed open?
+recognitionSignals:
+- contradiction is reframed as context around the admired figure
+- accountability weakens to preserve a heroic narrative
+- scrutiny is cast as cynicism or disloyalty
+trajectory:
+  earlySignals:
+  - contradictory evidence is handled privately
+  - the admired figure receives benefit of every doubt
+  intensificationSignals:
+  - harm is narrated as necessary for the role
+  - accountability routes around the hero
+  failureModes:
+  - trust is replaced by narrative attachment
+  - revision of the story feels like moral collapse
+  restorationPaths:
+  - institutionalize scrutiny-preserves-trust
+  - reward proportionate inquiry alongside admiration

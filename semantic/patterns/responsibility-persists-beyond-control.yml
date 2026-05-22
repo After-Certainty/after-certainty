@@ -1,7 +1,7 @@
 slug: responsibility-persists-beyond-control
 title: Responsibility Persists Beyond Control
-setup: Outcomes often exceed personal influence, yet participation, attention, and response
-  still matter where contact exists.
+setup: Outcomes often exceed personal influence, yet participation, attention, and
+  response still matter where contact exists.
 problem: Innocence becomes an escape from participation when systems feel too large
   to steer.
 forces:
@@ -22,3 +22,38 @@ relatedPatterns:
 - attention-restores-contact
 relatedBooks:
 - after-certainty
+counterbalances:
+- audit precedents and permissions left behind
+- name answerability without claiming mastery
+- practice care at points of remaining contact
+manifestations:
+  leadership:
+  - former executives still shape norms through alumni authority
+  - successors inherit permissions never revoked
+  organizations:
+  - committees retain power after crises end
+  - norms persist after reorganization
+  software:
+  - deprecated paths remain default in practice
+  - on-call rotations keep old escalation habits
+questions:
+- What are we still answerable for after we stepped back?
+- Where does our participation continue through permission?
+- What response remains possible without control?
+recognitionSignals:
+- withdrawal is framed as innocence while influence continues
+- precedents outlive formal authority
+- care is mistaken for omnipotence
+trajectory:
+  earlySignals:
+  - leaders notice lingering effects of past choices
+  - withdrawal is tempting as systems feel large
+  intensificationSignals:
+  - innocence is used to end participation
+  - formal exit masks ongoing influence
+  failureModes:
+  - answerability is abandoned while harm continues
+  - care is replaced by distance as virtue
+  restorationPaths:
+  - document ongoing influence after role changes
+  - restore response where contact still exists

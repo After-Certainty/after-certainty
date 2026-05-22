@@ -5,7 +5,15 @@ proposedBy: trajectories
 bookId: after-certainty
 sourceExcerpt: ''
 items:
-  earlySignals: []
-  intensificationSignals: []
-  failureModes: []
-  restorationPaths: []
+  earlySignals:
+  - contradictory evidence is handled privately
+  - the admired figure receives benefit of every doubt
+  intensificationSignals:
+  - harm is narrated as necessary for the role
+  - accountability routes around the hero
+  failureModes:
+  - trust is replaced by narrative attachment
+  - revision of the story feels like moral collapse
+  restorationPaths:
+  - institutionalize scrutiny-preserves-trust
+  - reward proportionate inquiry alongside admiration

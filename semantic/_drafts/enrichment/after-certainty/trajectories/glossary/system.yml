@@ -5,7 +5,15 @@ proposedBy: trajectories
 bookId: after-certainty
 sourceExcerpt: ''
 items:
-  earlySignals: []
-  intensificationSignals: []
-  failureModes: []
-  restorationPaths: []
+  earlySignals:
+  - system appears early as a stabilizer under pressure
+  - small mismatches are explained away using the term
+  intensificationSignals:
+  - system carries more weight than the situation can sustain
+  - revision of system feels threatening to coordination
+  failureModes:
+  - system substitutes for contact with what is happening
+  - drift around system becomes normal before it is named
+  restorationPaths:
+  - re-anchor system to particular cases and tradeoffs
+  - practice revisability where the term closed debate

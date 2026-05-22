@@ -4,4 +4,13 @@ field: manifestations
 proposedBy: manifestations
 bookId: after-certainty
 sourceExcerpt: ''
-items: {}
+items:
+  leadership:
+  - executive dismissal ends the investigation
+  - reorg follows scapegoating without incentive change
+  organizations:
+  - compliance closes the file once one role is sanctioned
+  - training blames attitude not structure
+  software:
+  - one engineer owns an outage caused by systemic coupling
+  - postmortems stop at human error tags
