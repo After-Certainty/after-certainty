@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/ontology-structural-tensions.schema.json",
+  "title": "semantic/ontology/structural-tensions.yml",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "tensions"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "tensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source", "target", "description"],
+        "properties": {
+          "source": { "$ref": "common.json#/$defs/slug" },
+          "target": { "$ref": "common.json#/$defs/slug" },
+          "description": { "type": "string" }
+        }
+      }
+    }
+  }
+}

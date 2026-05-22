@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/pattern-entry.schema.json",
+  "title": "Semantic pattern entry YAML",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slug",
+    "title",
+    "relatedConcepts",
+    "relatedPatterns",
+    "relatedBooks"
+  ],
+  "properties": {
+    "slug": { "$ref": "common.json#/$defs/slug" },
+    "title": { "$ref": "common.json#/$defs/nonEmptyString" },
+    "setup": { "type": "string" },
+    "problem": { "type": "string" },
+    "forces": {
+      "type": "array",
+      "items": { "$ref": "common.json#/$defs/nonEmptyString" }
+    },
+    "observation": { "type": "string" },
+    "example": { "type": "string" },
+    "relatedConcepts": { "$ref": "common.json#/$defs/conceptSlugList" },
+    "relatedPatterns": { "$ref": "common.json#/$defs/patternSlugList" },
+    "relatedBooks": { "$ref": "common.json#/$defs/bookSlugList" },
+    "relatedSources": { "$ref": "common.json#/$defs/sourceSlugList" },
+    "media": { "$ref": "common.json#/$defs/patternMedia" },
+    "recognitionSignals": { "$ref": "common.json#/$defs/stringList" },
+    "questions": { "$ref": "common.json#/$defs/stringList" },
+    "counterbalances": { "$ref": "common.json#/$defs/stringList" },
+    "manifestations": { "$ref": "common.json#/$defs/manifestations" },
+    "trajectory": { "$ref": "common.json#/$defs/trajectory" }
+  }
+}

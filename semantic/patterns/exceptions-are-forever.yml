@@ -26,5 +26,34 @@ relatedSources:
 - argyris-chris-overcoming-organizational-defenses
 - cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus
 - hirschman-albert-o-exit-voice-and-loyalty
+recognitionSignals:
+- leaders say "just this once" about measures that remain years later
+- training materials teach the workaround, not the original rule
+- audits count exceptions but rarely retire them
+questions:
+- What would we stop doing if we believed the emergency had ended?
+- Who benefits from keeping the exception invisible to newcomers?
+counterbalances:
+- publish sunset dates for each active exception
+- restore a correction loop that cannot be bypassed by urgency
+trajectory:
+  earlySignals:
+  - urgency justifies skipping normal limits
+  - short-term wins reinforce the exception
+  intensificationSignals:
+  - exception lists become standing agenda items
+  - metrics shift to reward workaround compliance
+  failureModes:
+  - rollback is treated as more expensive than drift
+  restorationPaths:
+  - batch-retire exceptions with named accountability
+manifestations:
+  software:
+  - hotfix paths become the default deploy route
+  - feature flags never flip back after incidents
+  leadership:
+  - crisis committees gain permanent authority
+  organizations:
+  - compliance stores exceptions instead of resolving them
 media:
   mediumArticleUrl: https://medium.com/@steffensen.kevin/exceptions-are-forever-1299b99da371

@@ -1,0 +1,35 @@
+slug: temporary-fixes-become-permanent
+title: Temporary fixes becoming permanent
+summary: Emergency workarounds and exceptions stop reading as temporary; they become the
+  normal way work gets done.
+activePatterns:
+- exceptions-are-forever
+relatedConcepts:
+- correction
+- erosion
+- coordination
+relatedBooks:
+- when-others-look-to-you-v1
+- coupling
+recognitionSignals:
+- workarounds outlive the crisis they were created for
+- new hires are trained on exceptions, not on the original standard
+- rollback plans exist on paper but never get executed
+questions:
+- Which temporary measures are still in place a year after the emergency ended?
+- Who would notice if we restored the pre-crisis standard?
+counterbalances:
+- schedule explicit sunset dates for exceptions
+- restore one visible correction loop leaders cannot bypass
+trajectory:
+  earlySignals:
+  - leaders describe a measure as "just until things calm down"
+  - audits flag growing exception lists
+  intensificationSignals:
+  - exception requests become routine approval work
+  - metrics are redefined to match the workaround
+  failureModes:
+  - correction is treated as disruption rather than maintenance
+  restorationPaths:
+  - retire exceptions in batches with named owners
+  - pair each exception with a review date and success criterion

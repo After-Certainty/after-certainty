@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/ontology-supporting-terms.schema.json",
+  "title": "semantic/ontology/supporting-terms.yml",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "terms"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["slug", "title", "why_it_matters"],
+        "properties": {
+          "slug": { "$ref": "common.json#/$defs/slug" },
+          "title": { "$ref": "common.json#/$defs/nonEmptyString" },
+          "why_it_matters": { "type": "string" },
+          "relatedConcepts": { "$ref": "common.json#/$defs/conceptSlugList" },
+          "relatedPatterns": { "$ref": "common.json#/$defs/patternSlugList" },
+          "relatedBooks": { "$ref": "common.json#/$defs/bookSlugList" }
+        }
+      }
+    }
+  }
+}

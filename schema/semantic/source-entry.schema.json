@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/source-entry.schema.json",
+  "title": "Semantic source entry YAML",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "name", "type", "summary", "concepts", "patterns", "relatedBooks"],
+  "properties": {
+    "slug": { "$ref": "common.json#/$defs/slug" },
+    "name": { "$ref": "common.json#/$defs/nonEmptyString" },
+    "type": { "$ref": "common.json#/$defs/nonEmptyString" },
+    "summary": { "type": "string" },
+    "concepts": { "$ref": "common.json#/$defs/conceptSlugList" },
+    "patterns": { "$ref": "common.json#/$defs/patternSlugList" },
+    "relatedBooks": { "$ref": "common.json#/$defs/bookSlugList" }
+  }
+}

@@ -52,6 +52,10 @@ def pattern_id(slug: str) -> str:
     return f"pattern-{slug}"
 
 
+def situation_id(slug: str) -> str:
+    return f"situation-{slug}"
+
+
 def source_id(slug: str) -> str:
     return f"source-{slug}"
 
@@ -273,11 +277,51 @@ def _merge_slug_lists(a: list[str], b: list[str]) -> list[str]:
     return out
 
 
+def _dynamic_enrichment_fields(data: dict) -> dict:
+    """Optional systemic fields (issue #116); included in manifest when present."""
+    out: dict = {}
+    for key in ("recognitionSignals", "questions", "counterbalances"):
+        raw = data.get(key)
+        if isinstance(raw, list):
+            items = [str(x).strip() for x in raw if str(x).strip()]
+            if items:
+                out[key] = items
+    manifestations = data.get("manifestations")
+    if isinstance(manifestations, dict) and manifestations:
+        man: dict[str, list[str]] = {}
+        for domain, examples in manifestations.items():
+            if not isinstance(examples, list):
+                continue
+            vals = [str(x).strip() for x in examples if str(x).strip()]
+            if vals:
+                man[str(domain)] = vals
+        if man:
+            out["manifestations"] = man
+    trajectory = data.get("trajectory")
+    if isinstance(trajectory, dict) and trajectory:
+        traj: dict[str, list[str]] = {}
+        for phase in (
+            "earlySignals",
+            "intensificationSignals",
+            "failureModes",
+            "restorationPaths",
+        ):
+            raw = trajectory.get(phase)
+            if isinstance(raw, list):
+                vals = [str(x).strip() for x in raw if str(x).strip()]
+                if vals:
+                    traj[phase] = vals
+        if traj:
+            out["trajectory"] = traj
+    return out
+
+
 def _merge_glossary_entry(base: dict, overlay: dict) -> dict:
     merged = dict(base)
     for key in ("title", "shortDefinition", "longDefinition", "termKind"):
         if key in overlay and overlay[key] not in (None, "", []):
             merged[key] = overlay[key]
+    merged.update(_dynamic_enrichment_fields(overlay))
 
     if overlay.get("relatedConcepts"):
         merged["relatedConcepts"] = _merge_slug_lists(
@@ -387,6 +431,7 @@ def build_glossary_entries(
             }
             if ov.get("longDefinition"):
                 entry["longDefinition"] = str(ov.get("longDefinition")).strip()
+            entry.update(_dynamic_enrichment_fields(ov))
             by_slug[slug] = entry
 
     return by_slug, core_slugs, supporting_slugs
@@ -406,6 +451,7 @@ def _finalize_glossary_list(by_slug: dict[str, dict]) -> list[dict]:
             tk = "extended"
         row["termKind"] = tk
         row["isCoreTerm"] = tk == "core"
+        row.update(_dynamic_enrichment_fields(row))
         out.append(row)
     return out
 
@@ -440,6 +486,30 @@ def build_patterns(repo: Path, *, repo_slug: str, ref: str) -> list[dict]:
             ],
         }
         entry.update(_resolve_pattern_media(data, repo_slug=repo_slug, ref=ref))
+        entry.update(_dynamic_enrichment_fields(data))
+        out.append(entry)
+    return out
+
+
+def build_situations(repo: Path) -> list[dict]:
+    raw = _load_dir_yml(repo / SEMANTIC_ROOT / "situations")
+    out: list[dict] = []
+    for slug in sorted(raw.keys()):
+        data = raw[slug]
+        entry = {
+            "id": situation_id(slug),
+            "slug": slug,
+            "title": str(data.get("title", slug)).strip(),
+            "summary": str(data.get("summary", "")).strip(),
+            "activePatterns": [
+                pattern_id(s) for s in _normalize_pattern_slugs(data.get("activePatterns"))
+            ],
+            "relatedConcepts": [
+                concept_id(s) for s in _normalize_concept_slugs(data.get("relatedConcepts"))
+            ],
+            "relatedBooks": [book_id(s) for s in _normalize_book_slugs(data.get("relatedBooks"))],
+        }
+        entry.update(_dynamic_enrichment_fields(data))
         out.append(entry)
     return out
 
@@ -771,6 +841,7 @@ def main() -> None:
     )
     glossary = _finalize_glossary_list(by_gloss)
     patterns = build_patterns(repo, repo_slug=repo_slug, ref=args.github_ref)
+    situations = build_situations(repo)
     sources = build_sources(repo)
     relationships = build_relationships(repo)
     rev = _reverse_index_entities(glossary, patterns, sources)
@@ -788,6 +859,7 @@ def main() -> None:
         "books": books,
         "glossary": glossary,
         "patterns": patterns,
+        "situations": situations,
         "sources": sources,
         "relationships": relationships,
         "ontology": build_ontology_block(repo),

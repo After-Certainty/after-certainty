@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/ontology-master-terms.schema.json",
+  "title": "semantic/ontology/master-terms.yml",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "entries"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["slug", "preserves"],
+        "properties": {
+          "slug": { "$ref": "common.json#/$defs/slug" },
+          "title": { "$ref": "common.json#/$defs/nonEmptyString" },
+          "preserves": { "type": "string" }
+        }
+      }
+    }
+  }
+}

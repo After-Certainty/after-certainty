@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/glossary-entry.schema.json",
+  "title": "Semantic glossary entry YAML",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slug",
+    "title",
+    "shortDefinition",
+    "termKind",
+    "relatedConcepts",
+    "relatedPatterns",
+    "relatedBooks"
+  ],
+  "properties": {
+    "slug": { "$ref": "common.json#/$defs/slug" },
+    "title": { "$ref": "common.json#/$defs/nonEmptyString" },
+    "shortDefinition": { "type": "string" },
+    "longDefinition": { "type": "string" },
+    "termKind": {
+      "type": "string",
+      "enum": ["core", "supporting", "extended"]
+    },
+    "relatedConcepts": { "$ref": "common.json#/$defs/conceptSlugList" },
+    "relatedPatterns": { "$ref": "common.json#/$defs/patternSlugList" },
+    "relatedBooks": { "$ref": "common.json#/$defs/bookSlugList" },
+    "recognitionSignals": { "$ref": "common.json#/$defs/stringList" },
+    "questions": { "$ref": "common.json#/$defs/stringList" },
+    "counterbalances": { "$ref": "common.json#/$defs/stringList" },
+    "manifestations": { "$ref": "common.json#/$defs/manifestations" },
+    "trajectory": { "$ref": "common.json#/$defs/trajectory" }
+  }
+}

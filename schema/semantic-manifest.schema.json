@@ -53,6 +53,12 @@
         "$ref": "#/$defs/patternEntry"
       }
     },
+    "situations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/situationEntry"
+      }
+    },
     "sources": {
       "type": "array",
       "items": {
@@ -303,6 +309,40 @@
         }
       }
     },
+    "stringList": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1
+    },
+    "trajectoryBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "earlySignals": { "$ref": "#/$defs/stringList" },
+        "intensificationSignals": { "$ref": "#/$defs/stringList" },
+        "failureModes": { "$ref": "#/$defs/stringList" },
+        "restorationPaths": { "$ref": "#/$defs/stringList" }
+      }
+    },
+    "manifestationsBlock": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string", "minLength": 1 },
+        "minItems": 1
+      }
+    },
+    "dynamicEnrichmentFields": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "recognitionSignals": { "$ref": "#/$defs/stringList" },
+        "questions": { "$ref": "#/$defs/stringList" },
+        "counterbalances": { "$ref": "#/$defs/stringList" },
+        "manifestations": { "$ref": "#/$defs/manifestationsBlock" },
+        "trajectory": { "$ref": "#/$defs/trajectoryBlock" }
+      }
+    },
     "glossaryEntry": {
       "type": "object",
       "additionalProperties": false,
@@ -370,7 +410,12 @@
             "type": "integer",
             "minimum": 0
           }
-        }
+        },
+        "recognitionSignals": { "$ref": "#/$defs/stringList" },
+        "questions": { "$ref": "#/$defs/stringList" },
+        "counterbalances": { "$ref": "#/$defs/stringList" },
+        "manifestations": { "$ref": "#/$defs/manifestationsBlock" },
+        "trajectory": { "$ref": "#/$defs/trajectoryBlock" }
       }
     },
     "patternEntry": {
@@ -464,7 +509,51 @@
         },
         "infographic": {
           "$ref": "#/$defs/mediaInfographic"
-        }
+        },
+        "recognitionSignals": { "$ref": "#/$defs/stringList" },
+        "questions": { "$ref": "#/$defs/stringList" },
+        "counterbalances": { "$ref": "#/$defs/stringList" },
+        "manifestations": { "$ref": "#/$defs/manifestationsBlock" },
+        "trajectory": { "$ref": "#/$defs/trajectoryBlock" }
+      }
+    },
+    "situationEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "summary",
+        "activePatterns",
+        "relatedConcepts",
+        "relatedBooks"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^situation-[a-zA-Z0-9._-]+$"
+        },
+        "slug": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string" },
+        "activePatterns": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^pattern-[a-zA-Z0-9._-]+$" }
+        },
+        "relatedConcepts": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^concept-[a-zA-Z0-9._-]+$" }
+        },
+        "relatedBooks": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^book-[a-zA-Z0-9._-]+$" }
+        },
+        "recognitionSignals": { "$ref": "#/$defs/stringList" },
+        "questions": { "$ref": "#/$defs/stringList" },
+        "counterbalances": { "$ref": "#/$defs/stringList" },
+        "manifestations": { "$ref": "#/$defs/manifestationsBlock" },
+        "trajectory": { "$ref": "#/$defs/trajectoryBlock" }
       }
     },
     "sourceEntry": {

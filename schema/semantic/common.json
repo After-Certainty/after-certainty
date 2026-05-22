@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/common.json",
+  "title": "Semantic entity shared definitions",
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9][a-z0-9._-]*$"
+    },
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stringList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "minItems": 1
+    },
+    "conceptSlugList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/slug" }
+    },
+    "patternSlugList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/slug" }
+    },
+    "sourceSlugList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/slug" }
+    },
+    "bookSlugList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/slug" }
+    },
+    "trajectory": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "earlySignals": { "$ref": "#/$defs/stringList" },
+        "intensificationSignals": { "$ref": "#/$defs/stringList" },
+        "failureModes": { "$ref": "#/$defs/stringList" },
+        "restorationPaths": { "$ref": "#/$defs/stringList" }
+      }
+    },
+    "manifestations": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "$ref": "#/$defs/nonEmptyString" },
+        "minItems": 1
+      },
+      "properties": {
+        "software": { "$ref": "#/$defs/stringList" },
+        "politics": { "$ref": "#/$defs/stringList" },
+        "leadership": { "$ref": "#/$defs/stringList" },
+        "family": { "$ref": "#/$defs/stringList" },
+        "ai_systems": { "$ref": "#/$defs/stringList" },
+        "organizations": { "$ref": "#/$defs/stringList" }
+      }
+    },
+    "dynamicEnrichment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "recognitionSignals": { "$ref": "#/$defs/stringList" },
+        "questions": { "$ref": "#/$defs/stringList" },
+        "counterbalances": { "$ref": "#/$defs/stringList" },
+        "manifestations": { "$ref": "#/$defs/manifestations" },
+        "trajectory": { "$ref": "#/$defs/trajectory" }
+      }
+    },
+    "patternMedia": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "youtubeVideoId": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]{6,}$"
+        },
+        "mediumArticleUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "infographic": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["path", "width", "height"],
+          "properties": {
+            "path": { "$ref": "#/$defs/nonEmptyString" },
+            "width": { "type": "integer", "minimum": 1 },
+            "height": { "type": "integer", "minimum": 1 },
+            "alt": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

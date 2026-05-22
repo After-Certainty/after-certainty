@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/ontology-structural-pressures.schema.json",
+  "title": "semantic/ontology/structural-pressures.yml",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "entries"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["slug", "effect"],
+        "properties": {
+          "slug": { "$ref": "common.json#/$defs/slug" },
+          "title": { "$ref": "common.json#/$defs/nonEmptyString" },
+          "effect": { "type": "string" }
+        }
+      }
+    }
+  }
+}
