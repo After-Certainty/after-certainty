@@ -2,9 +2,15 @@
 
 Enrichment **proposes** meaning in gitignored drafts; humans **ratify** via `promote_semantic_enrichment` into canonical [`semantic/`](../../../semantic/).
 
-## Preferred workflow: Cursor skill
+## Preferred workflow: Cursor skills
 
-Use the project skill **semantic-enrichment** (`.cursor/skills/semantic-enrichment/SKILL.md`). It prompts for **book** + **enrichment type** (`all` = all five fields), edits canonical `semantic/` YAML from the manuscript, runs `make verify-semantic-ontology`, and opens a PR for review.
+| Skill | Purpose |
+|-------|---------|
+| **semantic-enrichment** | Add enrichment fields to existing glossary/patterns (`recognitionSignals`, …, or `all`) → PR |
+| **glossary-usage-audit** | Report where existing glossary terms appear in a manuscript → PR |
+| **glossary-extract** | Discover and add new `semantic/glossary/` entries from a book → PR |
+
+Paths: `.cursor/skills/<skill-name>/SKILL.md`
 
 ## Draft / promote workflow (optional)
 

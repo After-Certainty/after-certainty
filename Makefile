@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -45,6 +45,8 @@ help:
 	@echo "  make verify-semantic-ontology  (entities + yaml + manifest pipeline)"
 	@echo "  make render-semantic-glossary MANIFEST=build/semantic-manifest.json OUT=path/to/glossary.md"
 	@echo "  make extract-semantic-glossary-drafts GLOSSARY_IN=books/.../glossary.md BOOK_ID=book-slug-from-book-yml"
+	@echo "  make scan-book-glossary-usage BOOK_DIR=books/... [GLOSSARY_SCOPE=book|all]"
+	@echo "  make discover-book-glossary-candidates BOOK_DIR=books/... [GLOSSARY_WRITE_DRAFTS=1]"
 	@echo "  make extract-semantic-pattern-drafts PATTERN_IN=books/.../appendix-....md BOOK_ID=book-slug-from-book-yml"
 	@echo "  make extract-semantic-source-drafts BIBLIO_IN=books/.../bibliography.md BOOK_ID=book-slug-from-book-yml"
 	@echo "  make promote-semantic-source-drafts [SOURCE_PROMOTE_BOOK_IDS='id1 id2'] [SOURCE_PROMOTE_NO_PRUNE=1]"
@@ -161,6 +163,18 @@ render-semantic-glossary:
 extract-semantic-glossary-drafts:
 	@test -n "$(GLOSSARY_IN)" && test -n "$(BOOK_ID)" || { echo "Usage: make extract-semantic-glossary-drafts GLOSSARY_IN=books/.../glossary.md BOOK_ID=when-others-look-to-you-v1"; exit 1; }
 	@python3 tools/extract_semantic_glossary_drafts.py --repo . --input "$(GLOSSARY_IN)" --book-id "$(BOOK_ID)"
+
+scan-book-glossary-usage:
+	@test -n "$(BOOK_DIR)" || { echo "Usage: make scan-book-glossary-usage BOOK_DIR=books/coupling"; exit 1; }
+	@python3 tools/scan_book_glossary_usage.py --repo . --book-dir "$(BOOK_DIR)" \
+	  --scope "$${GLOSSARY_SCOPE:-book}" \
+	  --out "$(BOOK_DIR)/semantic-reports/glossary-usage.md"
+
+discover-book-glossary-candidates:
+	@test -n "$(BOOK_DIR)" || { echo "Usage: make discover-book-glossary-candidates BOOK_DIR=books/coupling"; exit 1; }
+	@python3 tools/discover_book_glossary_candidates.py --repo . --book-dir "$(BOOK_DIR)" \
+	  $(if $(GLOSSARY_WRITE_DRAFTS),--write-drafts,) \
+	  --out "$(BOOK_DIR)/semantic-reports/glossary-candidates.md"
 
 extract-semantic-pattern-drafts:
 	@test -n "$(PATTERN_IN)" && test -n "$(BOOK_ID)" || { echo "Usage: make extract-semantic-pattern-drafts PATTERN_IN=books/.../appendix.md BOOK_ID=how-meaning-moves"; exit 1; }
