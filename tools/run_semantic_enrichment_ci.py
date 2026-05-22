@@ -30,6 +30,14 @@ from semantic_enrichment import (  # noqa: E402
 )
 
 
+def _manual_pr_url(*, base_branch: str, branch: str) -> str | None:
+    repo = os.environ.get("GITHUB_REPOSITORY", "").strip()
+    server = os.environ.get("GITHUB_SERVER_URL", "https://github.com").rstrip("/")
+    if not repo:
+        return None
+    return f"{server}/{repo}/compare/{base_branch}...{branch}?expand=1"
+
+
 def _run(
     cmd: list[str], *, cwd: Path, env: dict[str, str] | None = None
 ) -> subprocess.CompletedProcess[str]:
@@ -268,8 +276,22 @@ def run(
         env=env,
     )
     if pr_proc.returncode != 0:
-        print(pr_proc.stdout, file=sys.stderr)
-        print(pr_proc.stderr, file=sys.stderr)
+        err = (pr_proc.stdout + pr_proc.stderr).strip()
+        print(err, file=sys.stderr)
+        blocked = (
+            "createPullRequest" in err or "not permitted to create or approve pull requests" in err
+        )
+        manual = _manual_pr_url(base_branch=base_branch, branch=branch)
+        if blocked:
+            print(
+                "Note: enable repo setting Actions → General → Workflow permissions → "
+                '"Allow GitHub Actions to create and approve pull requests".',
+                file=sys.stderr,
+            )
+        if push_proc.returncode == 0 and manual:
+            print(f"Branch pushed. Open a PR manually: {manual}")
+            print(f"::notice title=Open PR manually::{manual}")
+            return 0
         return pr_proc.returncode
 
     print(pr_proc.stdout.strip())

@@ -1,5 +1,9 @@
 # Issue #116 Phase 3: dispatch semantic enrichment agent runs that open review PRs.
 # Does not auto-merge or promote into canonical semantic/.
+#
+# Repo setting required for automatic PRs:
+# Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests".
+# If disabled, the workflow still pushes semantic-agent/* branches and prints a compare URL.
 
 name: Semantic enrichment agent
 
@@ -62,6 +66,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_SERVER_URL: ${{ github.server_url }}
         run: |
           set -euo pipefail
           args=(
