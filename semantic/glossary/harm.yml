@@ -1,13 +1,14 @@
 slug: harm
 title: Harm
-shortDefinition: 'Where cost lands when influence is exercised: who absorbs it, who is kept
-  in view, and what displacement is treated as acceptable.'
+shortDefinition: 'Where cost lands when influence is exercised: who absorbs it, who
+  is kept in view, and what displacement is treated as acceptable.'
 termKind: extended
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - when-others-look-to-you-v1
+- before-certainty-arrives
 recognitionSignals:
 - harm continues while interpretation expands
 - briefings make harm legible without smaller
