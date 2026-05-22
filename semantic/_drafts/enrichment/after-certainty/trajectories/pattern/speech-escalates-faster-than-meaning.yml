@@ -1,0 +1,11 @@
+targetSlug: speech-escalates-faster-than-meaning
+entityType: pattern
+field: trajectory
+proposedBy: trajectories
+bookId: after-certainty
+sourceExcerpt: ''
+items:
+  earlySignals: []
+  intensificationSignals: []
+  failureModes: []
+  restorationPaths: []
