@@ -113,14 +113,7 @@ def draft_path(
     entity_type: str,
     slug: str,
 ) -> Path:
-    return (
-        repo
-        / ENRICHMENT_ROOT
-        / book_id
-        / agent_type
-        / entity_type
-        / f"{slug}.yml"
-    ).resolve()
+    return (repo / ENRICHMENT_ROOT / book_id / agent_type / entity_type / f"{slug}.yml").resolve()
 
 
 def _merge_string_lists(existing: object, proposed: object) -> list[str]:
@@ -261,7 +254,9 @@ def write_draft(path: Path, record: dict, *, dry_run: bool) -> None:
         return
     path.parent.mkdir(parents=True, exist_ok=True)
     body = (
-        yaml.safe_dump(record, allow_unicode=True, default_flow_style=False, sort_keys=False).rstrip()
+        yaml.safe_dump(
+            record, allow_unicode=True, default_flow_style=False, sort_keys=False
+        ).rstrip()
         + "\n"
     )
     path.write_text(body, encoding="utf-8")
@@ -271,7 +266,9 @@ def write_canonical(path: Path, record: dict, *, dry_run: bool) -> None:
     if dry_run:
         return
     body = (
-        yaml.safe_dump(record, allow_unicode=True, default_flow_style=False, sort_keys=False).rstrip()
+        yaml.safe_dump(
+            record, allow_unicode=True, default_flow_style=False, sort_keys=False
+        ).rstrip()
         + "\n"
     )
     path.write_text(body, encoding="utf-8")

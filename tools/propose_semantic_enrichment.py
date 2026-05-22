@@ -49,7 +49,15 @@ def _scaffold_record(
 ) -> dict:
     items: list | dict
     if field == "trajectory":
-        items = {phase: [] for phase in ("earlySignals", "intensificationSignals", "failureModes", "restorationPaths")}
+        items = {
+            phase: []
+            for phase in (
+                "earlySignals",
+                "intensificationSignals",
+                "failureModes",
+                "restorationPaths",
+            )
+        }
     elif field == "manifestations":
         items = {}
     else:
@@ -75,7 +83,10 @@ def propose(
     dry_run: bool,
 ) -> int:
     if agent_type not in AGENT_TYPES:
-        print(f"Error: unknown agent-type {agent_type!r}; expected one of: {', '.join(sorted(AGENT_TYPES))}", file=sys.stderr)
+        print(
+            f"Error: unknown agent-type {agent_type!r}; expected one of: {', '.join(sorted(AGENT_TYPES))}",
+            file=sys.stderr,
+        )
         return 2
 
     field = AGENT_TO_FIELD[agent_type]
@@ -87,7 +98,9 @@ def propose(
     book_id = book_id_from_spec(load_any_book_spec(spec_path))
     entities = list_book_entities(repo, book_id)
     if not entities:
-        print(f"No glossary/pattern/situation entities in scope for book {book_id!r}", file=sys.stderr)
+        print(
+            f"No glossary/pattern/situation entities in scope for book {book_id!r}", file=sys.stderr
+        )
         return 1
 
     created = 0
