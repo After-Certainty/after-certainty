@@ -7,7 +7,8 @@ relatedConcepts:
 - contestability
 - certainty
 relatedPatterns: []
-relatedBooks: []
+relatedBooks:
+- after-certainty
 questions:
 - What are we protecting when we call a choice "stability"—coordination, reputation,
   or the right to revise?
