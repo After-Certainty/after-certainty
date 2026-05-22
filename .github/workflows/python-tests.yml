@@ -45,6 +45,11 @@ jobs:
           set -euo pipefail
           python3 -m pip install --user -r requirements.txt
 
+      - name: Verify semantic ontology (issue #116 Phase 1)
+        run: |
+          set -euo pipefail
+          make verify-semantic-ontology
+
       - name: Run pytest
         run: |
           set -euo pipefail

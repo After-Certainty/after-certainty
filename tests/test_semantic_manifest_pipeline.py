@@ -34,6 +34,7 @@ def test_generate_semantic_manifest_cli(repo_root: Path, tmp_path: Path) -> None
     assert isinstance(data.get("patterns"), list)
     assert isinstance(data.get("sources"), list)
     assert isinstance(data.get("relationships"), list)
+    assert isinstance(data.get("situations"), list)
     assert isinstance(data.get("ontology"), dict)
 
 

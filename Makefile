@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest render-semantic-glossary extract-semantic-glossary-drafts extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology render-semantic-glossary extract-semantic-glossary-drafts extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -38,8 +38,11 @@ help:
 	@echo "  make verify-books-manifest [MANIFEST_OUT=build/books-manifest.json]"
 	@echo "  make generate-semantic-manifest [SEMANTIC_MANIFEST_OUT=build/semantic-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
 	@echo "  make verify-semantic-yaml  (parse + slug checks + prose audit; use before manifest)"
+	@echo "  make validate-semantic-entities  (JSON Schema + reference checks on semantic/**/*.yml)"
+	@echo "  make lint-semantic-graph  (graph quality warnings; LINT_STRICT=1 to fail)"
 	@echo "  make validate-semantic-manifest [SEMANTIC_MANIFEST=build/semantic-manifest.json]"
 	@echo "  make verify-semantic-manifest [SEMANTIC_MANIFEST_OUT=build/semantic-manifest.json]"
+	@echo "  make verify-semantic-ontology  (entities + yaml + manifest pipeline)"
 	@echo "  make render-semantic-glossary MANIFEST=build/semantic-manifest.json OUT=path/to/glossary.md"
 	@echo "  make extract-semantic-glossary-drafts GLOSSARY_IN=books/.../glossary.md BOOK_ID=book-slug-from-book-yml"
 	@echo "  make extract-semantic-pattern-drafts PATTERN_IN=books/.../appendix-....md BOOK_ID=book-slug-from-book-yml"
@@ -123,6 +126,12 @@ verify-books-manifest: generate-books-manifest validate-books-manifest
 verify-semantic-yaml:
 	python3 tools/verify_semantic_yaml.py --repo . --strict-prose
 
+validate-semantic-entities:
+	python3 tools/validate_semantic_entities.py --repo . --strict-refs
+
+lint-semantic-graph:
+	python3 tools/lint_semantic_graph.py --repo . $(if $(LINT_STRICT),--strict,)
+
 generate-semantic-manifest: validate-book-specs verify-semantic-yaml
 	@repo="$${GITHUB_REPOSITORY:-$$(git remote get-url origin 2>/dev/null | sed -e 's#^git@github.com:##' -e 's#^https://github.com/##' -e 's#\.git$$##')}"; \
 	python3 tools/generate_semantic_manifest.py \
@@ -137,6 +146,8 @@ validate-semantic-manifest:
 	python3 tools/validate_semantic_manifest.py --repo . --manifest "$$manifest"
 
 verify-semantic-manifest: generate-semantic-manifest validate-semantic-manifest
+
+verify-semantic-ontology: validate-semantic-entities verify-semantic-yaml verify-semantic-manifest lint-semantic-graph
 
 render-semantic-glossary:
 	@test -n "$(MANIFEST)" || { echo "Usage: make render-semantic-glossary MANIFEST=build/semantic-manifest.json OUT=books/.../glossary.md"; exit 1; }

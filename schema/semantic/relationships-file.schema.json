@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/relationships-file.schema.json",
+  "title": "semantic/relationships.yml",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "relationships"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source", "target", "relationship"],
+        "properties": {
+          "source": { "$ref": "common.json#/$defs/slug" },
+          "target": { "$ref": "common.json#/$defs/slug" },
+          "relationship": { "$ref": "common.json#/$defs/nonEmptyString" },
+          "description": { "type": "string" },
+          "sourceKind": {
+            "type": "string",
+            "enum": ["concept", "pattern", "source"]
+          },
+          "targetKind": {
+            "type": "string",
+            "enum": ["concept", "pattern", "source"]
+          }
+        }
+      }
+    }
+  }
+}

@@ -32,7 +32,7 @@ except ModuleNotFoundError as exc:  # pragma: no cover
 
 _TOOLS_DIR = Path(__file__).resolve().parent
 SEMANTIC = Path("semantic")
-SLUG_PARENTS = frozenset({"glossary", "patterns", "sources"})
+SLUG_PARENTS = frozenset({"glossary", "patterns", "sources", "situations"})
 
 
 def _load_audit_module():

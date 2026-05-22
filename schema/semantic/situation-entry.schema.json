@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/situation-entry.schema.json",
+  "title": "Semantic situation entry YAML",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "title", "summary", "activePatterns", "relatedConcepts"],
+  "properties": {
+    "slug": { "$ref": "common.json#/$defs/slug" },
+    "title": { "$ref": "common.json#/$defs/nonEmptyString" },
+    "summary": { "type": "string" },
+    "activePatterns": { "$ref": "common.json#/$defs/patternSlugList" },
+    "relatedConcepts": { "$ref": "common.json#/$defs/conceptSlugList" },
+    "relatedBooks": { "$ref": "common.json#/$defs/bookSlugList" },
+    "recognitionSignals": { "$ref": "common.json#/$defs/stringList" },
+    "questions": { "$ref": "common.json#/$defs/stringList" },
+    "counterbalances": { "$ref": "common.json#/$defs/stringList" },
+    "manifestations": { "$ref": "common.json#/$defs/manifestations" },
+    "trajectory": { "$ref": "common.json#/$defs/trajectory" }
+  }
+}
