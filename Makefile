@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology render-semantic-glossary extract-semantic-glossary-drafts extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -48,6 +48,8 @@ help:
 	@echo "  make extract-semantic-pattern-drafts PATTERN_IN=books/.../appendix-....md BOOK_ID=book-slug-from-book-yml"
 	@echo "  make extract-semantic-source-drafts BIBLIO_IN=books/.../bibliography.md BOOK_ID=book-slug-from-book-yml"
 	@echo "  make promote-semantic-source-drafts [SOURCE_PROMOTE_BOOK_IDS='id1 id2'] [SOURCE_PROMOTE_NO_PRUNE=1]"
+	@echo "  make propose-semantic-enrichment BOOK_DIR=books/... AGENT_TYPE=recognition-signals [ENRICH_OVERWRITE=1]"
+	@echo "  make promote-semantic-enrichment [ENRICH_BOOK_ID=coupling] [ENRICH_FIELD=recognitionSignals]"
 	@echo "  make infer-semantic-source-links"
 	@echo "  make clean-import-md"
 	@echo "  make spellcheck [SPELLCHECK_DIR=books/when-others-look-to-you/v1] [CODESPELL=codespell]"
@@ -76,6 +78,8 @@ help:
 	@echo "  - extract-semantic-glossary-drafts / extract-semantic-pattern-drafts / extract-semantic-source-drafts emit reviewable YAML under semantic/_drafts/generated/ (gitignored)."
 	@echo "  - extract-semantic-source-drafts expects list-style bibliographies like when-others-look-to-you/v1 and how-meaning-moves (Author. *Title* or Author. \"Article.\")."
 	@echo "  - promote-semantic-source-drafts merges semantic/_drafts/generated/sources/<book-id>/ into semantic/sources/ (Author — Title names). Full promote (no SOURCE_PROMOTE_BOOK_IDS) passes --prune unless SOURCE_PROMOTE_NO_PRUNE=1."
+	@echo "  - propose-semantic-enrichment scaffolds gitignored drafts under semantic/_drafts/enrichment/<book-id>/<agent-type>/ (see docs/agents/semantic/)."
+	@echo "  - promote-semantic-enrichment merges approved enrichment drafts into semantic/glossary|patterns|situations/."
 	@echo "  - infer-semantic-source-links scans manuscript markdown for co-mentions (sources: concepts/patterns; patterns: relatedSources). Preview with: python3 tools/infer_semantic_source_links.py --repo . --dry-run"
 	@echo "  - spellcheck runs codespell on SPELLCHECK_DIR using that dir's .codespellrc."
 	@echo "  - Requires pandoc installed and available in PATH."
@@ -176,6 +180,16 @@ promote-semantic-source-drafts:
 	else \
 	  python3 tools/promote_semantic_source_drafts.py --repo . $$prune; \
 	fi
+
+propose-semantic-enrichment:
+	@test -n "$(BOOK_DIR)" && test -n "$(AGENT_TYPE)" || { echo "Usage: make propose-semantic-enrichment BOOK_DIR=books/coupling AGENT_TYPE=recognition-signals"; exit 1; }
+	@python3 tools/propose_semantic_enrichment.py --repo . --book-dir "$(BOOK_DIR)" --agent-type "$(AGENT_TYPE)" \
+	  $(if $(ENRICH_OVERWRITE),--overwrite,) $(if $(ENRICH_ALL_ENTITIES),--all-entities,)
+
+promote-semantic-enrichment:
+	@python3 tools/promote_semantic_enrichment.py --repo . \
+	  $(foreach id,$(ENRICH_BOOK_ID),--book-id $(id)) \
+	  $(foreach f,$(ENRICH_FIELD),--field $(f))
 
 infer-semantic-source-links:
 	@python3 tools/infer_semantic_source_links.py --repo .
