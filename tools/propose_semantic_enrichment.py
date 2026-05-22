@@ -30,7 +30,7 @@ if str(_TOOLS_DIR) not in sys.path:
 from book_specs import load_any_book_spec  # noqa: E402
 from semantic_enrichment import (  # noqa: E402
     AGENT_TO_FIELD,
-    AGENT_TYPES,
+    ENRICHMENT_AGENT_TYPES,
     book_id_from_spec,
     draft_path,
     field_has_content,
@@ -82,9 +82,10 @@ def propose(
     overwrite: bool,
     dry_run: bool,
 ) -> int:
-    if agent_type not in AGENT_TYPES:
+    if agent_type not in ENRICHMENT_AGENT_TYPES:
         print(
-            f"Error: unknown agent-type {agent_type!r}; expected one of: {', '.join(sorted(AGENT_TYPES))}",
+            f"Error: unknown agent-type {agent_type!r}; expected one of: "
+            f"{', '.join(sorted(ENRICHMENT_AGENT_TYPES))}",
             file=sys.stderr,
         )
         return 2
@@ -155,7 +156,7 @@ def main() -> None:
     parser.add_argument(
         "--agent-type",
         required=True,
-        choices=sorted(AGENT_TYPES),
+        choices=sorted(ENRICHMENT_AGENT_TYPES),
         help="Enrichment agent type (maps to a canonical field)",
     )
     parser.add_argument(

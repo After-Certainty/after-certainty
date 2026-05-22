@@ -1,0 +1,79 @@
+# Issue #116 Phase 3: dispatch semantic enrichment agent runs that open review PRs.
+# Does not auto-merge or promote into canonical semantic/.
+
+name: Semantic enrichment agent
+
+on:
+  workflow_dispatch:
+    inputs:
+      book_id:
+        description: "book.id from book.yml (e.g. coupling, how-meaning-moves)"
+        required: true
+        type: string
+      agent_type:
+        description: "Agent type"
+        required: true
+        type: choice
+        options:
+          - recognition-signals
+          - trajectories
+          - manifestations
+          - counterbalances
+          - questions
+          - ontology-lint
+          - discovery
+      all_entities:
+        description: "Scaffold all book-scoped entities (not only missing fields)"
+        required: false
+        type: boolean
+        default: true
+      overwrite:
+        description: "Replace existing draft files under enrichment/"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: semantic-enrichment-${{ inputs.book_id }}-${{ inputs.agent_type }}
+  cancel-in-progress: false
+
+jobs:
+  open-enrichment-pr:
+    name: Open enrichment PR
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install dependencies
+        run: |
+          set -euo pipefail
+          python3 -m pip install --user -r requirements.txt
+
+      - name: Verify ontology before agent run
+        run: |
+          set -euo pipefail
+          make verify-semantic-ontology
+
+      - name: Scaffold drafts and open PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          args=(
+            --repo .
+            --book-id "${{ inputs.book_id }}"
+            --agent-type "${{ inputs.agent_type }}"
+            --base-branch "${{ github.event.repository.default_branch }}"
+          )
+          if [ "${{ inputs.all_entities }}" = "true" ]; then
+            args+=(--all-entities)
+          fi
+          if [ "${{ inputs.overwrite }}" = "true" ]; then
+            args+=(--overwrite)
+          fi
+          python3 tools/run_semantic_enrichment_ci.py "${args[@]}"

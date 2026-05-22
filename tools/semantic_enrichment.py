@@ -11,6 +11,19 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
+_TOOLS_DIR = Path(__file__).resolve().parent
+import sys
+
+if str(_TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(_TOOLS_DIR))
+
+from book_specs import (  # noqa: E402
+    discover_book_spec_paths,
+    discover_upcoming_spec_paths,
+    load_any_book_spec,
+    spec_book_dir,
+)
+
 try:
     import yaml
 except ModuleNotFoundError as exc:  # pragma: no cover
@@ -18,7 +31,7 @@ except ModuleNotFoundError as exc:  # pragma: no cover
 
 ENRICHMENT_ROOT = Path("semantic/_drafts/enrichment")
 
-AGENT_TYPES = frozenset(
+ENRICHMENT_AGENT_TYPES = frozenset(
     {
         "recognition-signals",
         "trajectories",
@@ -27,6 +40,10 @@ AGENT_TYPES = frozenset(
         "questions",
     }
 )
+
+REPORT_AGENT_TYPES = frozenset({"ontology-lint", "discovery"})
+
+AGENT_TYPES = ENRICHMENT_AGENT_TYPES | REPORT_AGENT_TYPES
 
 AGENT_TO_FIELD: dict[str, str] = {
     "recognition-signals": "recognitionSignals",
@@ -48,6 +65,16 @@ TRAJECTORY_PHASES = (
     "failureModes",
     "restorationPaths",
 )
+
+
+def find_book_dir(repo: Path, book_id: str) -> Path:
+    """Return repo-relative book directory for ``book_id`` (books/ or upcoming/)."""
+    repo = repo.resolve()
+    for spec_path in discover_book_spec_paths(repo) + discover_upcoming_spec_paths(repo):
+        spec = load_any_book_spec(spec_path)
+        if book_id_from_spec(spec) == book_id:
+            return spec_book_dir(spec_path).relative_to(repo)
+    raise ValueError(f"no book.yml found for book id {book_id!r}")
 
 
 def book_id_from_spec(spec: dict) -> str:
@@ -229,7 +256,7 @@ def validate_draft_record(raw: dict, *, expected_field: str | None = None) -> No
         raise ValueError(f"invalid field: {field!r}")
     if expected_field and field != expected_field:
         raise ValueError(f"draft field {field!r} does not match {expected_field!r}")
-    if proposed_by and proposed_by not in AGENT_TYPES:
+    if proposed_by and proposed_by not in ENRICHMENT_AGENT_TYPES:
         raise ValueError(f"invalid proposedBy: {proposed_by!r}")
     if "items" not in raw:
         raise ValueError("draft missing items")

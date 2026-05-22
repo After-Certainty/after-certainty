@@ -23,4 +23,4 @@ Agents **propose** meaning in gitignored drafts; humans **ratify** via `promote_
 | `ontology-lint` | (report only) | [06-ontology-lint.md](06-ontology-lint.md) |
 | `discovery` | (report only) | [07-discovery.md](07-discovery.md) |
 
-Scheduled GitHub workflows (Phase 3) call the same propose/promote tools; see [`docs/semantic-graph-evolution.md`](../../semantic-graph-evolution.md).
+**Phase 3 CI:** run **Actions → Semantic enrichment agent** (`workflow_dispatch`) with `book_id` + `agent_type`. That opens a `semantic-agent/<type>-<book>-<run>` PR with draft scaffolds or lint reports—see [`docs/semantic-graph-evolution.md`](../../semantic-graph-evolution.md).

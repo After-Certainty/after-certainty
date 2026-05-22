@@ -55,6 +55,14 @@ make verify-semantic-ontology
 
 Agent briefs and PR checklist: [`docs/agents/semantic/`](agents/semantic/).
 
+### CI agent dispatch (Phase 3)
+
+In GitHub: **Actions → Semantic enrichment agent → Run workflow**.
+
+Inputs: `book_id` (e.g. `coupling`), `agent_type` (`recognition-signals`, `trajectories`, …, `ontology-lint`, `discovery`).
+
+The workflow scaffolds `semantic/_drafts/enrichment/` (force-added on the PR branch), runs `verify-semantic-ontology`, and opens a review PR. Humans fill drafts, then `make promote-semantic-enrichment` on a follow-up branch.
+
 ## Branch conventions (issue #116)
 
 | Work | Branch |
@@ -68,7 +76,7 @@ Agent briefs and PR checklist: [`docs/agents/semantic/`](agents/semantic/).
 
 - **Phase 1:** schemas, validation, lint, situations in manifest, pilot YAML (merged).
 - **Phase 2:** [`tools/propose_semantic_enrichment.py`](../tools/propose_semantic_enrichment.py), [`tools/promote_semantic_enrichment.py`](../tools/promote_semantic_enrichment.py), agent briefs under [`docs/agents/semantic/`](agents/semantic/).
-- **Phase 3:** GitHub workflow opening review PRs from agent runs.
+- **Phase 3:** [`.github/workflows/semantic-enrichment.yml`](../.github/workflows/semantic-enrichment.yml) — `workflow_dispatch` runs [`tools/run_semantic_enrichment_ci.py`](../tools/run_semantic_enrichment_ci.py) to commit gitignored drafts and open a `semantic-agent/*` PR (no auto-merge).
 - **Phase 4:** Website UX for situations and trajectories (external to this manuscript repo).
 
 ## Pilot content
