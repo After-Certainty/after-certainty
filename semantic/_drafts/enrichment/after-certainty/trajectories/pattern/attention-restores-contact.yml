@@ -1,0 +1,11 @@
+targetSlug: attention-restores-contact
+entityType: pattern
+field: trajectory
+proposedBy: trajectories
+bookId: after-certainty
+sourceExcerpt: ''
+items:
+  earlySignals: []
+  intensificationSignals: []
+  failureModes: []
+  restorationPaths: []

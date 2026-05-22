@@ -1,0 +1,11 @@
+targetSlug: correctness-hardens-into-identity
+entityType: pattern
+field: trajectory
+proposedBy: trajectories
+bookId: after-certainty
+sourceExcerpt: ''
+items:
+  earlySignals: []
+  intensificationSignals: []
+  failureModes: []
+  restorationPaths: []

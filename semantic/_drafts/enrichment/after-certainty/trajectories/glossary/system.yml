@@ -1,0 +1,11 @@
+targetSlug: system
+entityType: glossary
+field: trajectory
+proposedBy: trajectories
+bookId: after-certainty
+sourceExcerpt: ''
+items:
+  earlySignals: []
+  intensificationSignals: []
+  failureModes: []
+  restorationPaths: []
