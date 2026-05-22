@@ -63,6 +63,8 @@ Inputs: `book_id` (e.g. `coupling`), `agent_type` (`recognition-signals`, `traje
 
 The workflow scaffolds `semantic/_drafts/enrichment/` (force-added on the PR branch), runs `verify-semantic-ontology`, and opens a review PR. Humans fill drafts, then `make promote-semantic-enrichment` on a follow-up branch.
 
+**Repository setting (required for automatic PR creation):** GitHub → **Settings → Actions → General → Workflow permissions** → enable **Allow GitHub Actions to create and approve pull requests**. If that is off, the run still pushes a `semantic-agent/*` branch and prints a compare URL in the job log.
+
 ## Branch conventions (issue #116)
 
 | Work | Branch |
