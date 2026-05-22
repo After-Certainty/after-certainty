@@ -55,13 +55,15 @@ make verify-semantic-ontology
 
 Agent briefs and PR checklist: [`docs/agents/semantic/`](agents/semantic/).
 
-### CI agent dispatch (Phase 3)
+**Cursor skill (preferred):** `.cursor/skills/semantic-enrichment/` — prompts for book + enrichment type (`all` runs all five fields), edits canonical `semantic/` YAML, runs `make verify-semantic-ontology`, opens a PR.
+
+### CI agent dispatch (Phase 3, optional)
 
 In GitHub: **Actions → Semantic enrichment agent → Run workflow**.
 
-Inputs: `book_id` (e.g. `coupling`), `agent_type` (`recognition-signals`, `trajectories`, …, `ontology-lint`, `discovery`).
+Inputs: `book_id` (e.g. `coupling`), `agent_type` (`recognition-signals`, `trajectories`, …, `all`, `ontology-lint`, `discovery`).
 
-The workflow scaffolds `semantic/_drafts/enrichment/` (force-added on the PR branch), runs `verify-semantic-ontology`, and opens a review PR. Humans fill drafts, then `make promote-semantic-enrichment` on a follow-up branch.
+The workflow scaffolds `semantic/_drafts/enrichment/` (force-added on the PR branch), runs `verify-semantic-ontology`, and opens a review PR. Prefer the Cursor skill for book-grounded draft content; use CI when you only need empty scaffolds.
 
 **Repository setting (required for automatic PR creation):** GitHub → **Settings → Actions → General → Workflow permissions** → enable **Allow GitHub Actions to create and approve pull requests**. If that is off, the run still pushes a `semantic-agent/*` branch and prints a compare URL in the job log.
 

@@ -1,15 +1,17 @@
-# Semantic enrichment agents (issue #116)
+# Semantic enrichment (issue #116)
 
-Agents **propose** meaning in gitignored drafts; humans **ratify** via `promote_semantic_enrichment` into canonical [`semantic/`](../../../semantic/).
+Enrichment **proposes** meaning in gitignored drafts; humans **ratify** via `promote_semantic_enrichment` into canonical [`semantic/`](../../../semantic/).
 
-## Workflow
+## Preferred workflow: Cursor skill
 
-1. Branch: `semantic-agent/<agent-type>-<book-or-scope>` from updated `main`.
-2. Scaffold drafts: `make propose-semantic-enrichment BOOK_DIR=books/<id> AGENT_TYPE=<type>`.
-3. Edit YAML under `semantic/_drafts/enrichment/<book-id>/<agent-type>/`.
-4. Promote: `make promote-semantic-enrichment BOOK_ID=<id>`.
-5. Verify: `make verify-semantic-ontology`.
-6. Open PR — use [PR-CHECKLIST.md](PR-CHECKLIST.md).
+Use the project skill **semantic-enrichment** (`.cursor/skills/semantic-enrichment/SKILL.md`). It prompts for **book** + **enrichment type** (`all` = all five fields), edits canonical `semantic/` YAML from the manuscript, runs `make verify-semantic-ontology`, and opens a PR for review.
+
+## Draft / promote workflow (optional)
+
+1. `make propose-semantic-enrichment BOOK_DIR=books/<id> AGENT_TYPE=<type>`
+2. Edit `semantic/_drafts/enrichment/<book-id>/<agent-type>/`
+3. `make promote-semantic-enrichment ENRICH_BOOK_ID=<id>`
+4. `make verify-semantic-ontology` → PR — [PR-CHECKLIST.md](PR-CHECKLIST.md)
 
 ## Agent briefs
 
@@ -23,4 +25,4 @@ Agents **propose** meaning in gitignored drafts; humans **ratify** via `promote_
 | `ontology-lint` | (report only) | [06-ontology-lint.md](06-ontology-lint.md) |
 | `discovery` | (report only) | [07-discovery.md](07-discovery.md) |
 
-**Phase 3 CI:** run **Actions → Semantic enrichment agent** (`workflow_dispatch`) with `book_id` + `agent_type`. That opens a `semantic-agent/<type>-<book>-<run>` PR with draft scaffolds or lint reports—see [`docs/semantic-graph-evolution.md`](../../semantic-graph-evolution.md).
+**Phase 3 CI (optional):** **Actions → Semantic enrichment agent** (`workflow_dispatch`) scaffolds empty drafts only—prefer the Cursor skill for book-grounded content. See [`docs/semantic-graph-evolution.md`](../../semantic-graph-evolution.md).

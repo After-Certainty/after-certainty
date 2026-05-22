@@ -82,10 +82,25 @@ def propose(
     overwrite: bool,
     dry_run: bool,
 ) -> int:
+    if agent_type == "all":
+        exit_code = 0
+        for single in sorted(ENRICHMENT_AGENT_TYPES):
+            code = propose(
+                repo,
+                book_dir=book_dir,
+                agent_type=single,
+                only_missing=only_missing,
+                overwrite=overwrite,
+                dry_run=dry_run,
+            )
+            if code != 0:
+                exit_code = code
+        return exit_code
+
     if agent_type not in ENRICHMENT_AGENT_TYPES:
         print(
             f"Error: unknown agent-type {agent_type!r}; expected one of: "
-            f"{', '.join(sorted(ENRICHMENT_AGENT_TYPES))}",
+            f"all, {', '.join(sorted(ENRICHMENT_AGENT_TYPES))}",
             file=sys.stderr,
         )
         return 2
@@ -156,8 +171,8 @@ def main() -> None:
     parser.add_argument(
         "--agent-type",
         required=True,
-        choices=sorted(ENRICHMENT_AGENT_TYPES),
-        help="Enrichment agent type (maps to a canonical field)",
+        choices=["all", *sorted(ENRICHMENT_AGENT_TYPES)],
+        help="Enrichment type (maps to a canonical field), or all five fields",
     )
     parser.add_argument(
         "--all-entities",
