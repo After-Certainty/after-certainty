@@ -42,6 +42,19 @@ make lint-semantic-graph          # warnings (LINT_STRICT=1 to fail)
 make verify-semantic-ontology     # all of the above + manifest round-trip
 ```
 
+### Enrichment workflow (Phase 2)
+
+Drafts are gitignored under `semantic/_drafts/enrichment/<book-id>/<agent-type>/`.
+
+```bash
+make propose-semantic-enrichment BOOK_DIR=books/coupling AGENT_TYPE=recognition-signals
+# edit drafts locally
+make promote-semantic-enrichment BOOK_ID=coupling FIELD=recognitionSignals
+make verify-semantic-ontology
+```
+
+Agent briefs and PR checklist: [`docs/agents/semantic/`](agents/semantic/).
+
 ## Branch conventions (issue #116)
 
 | Work | Branch |
@@ -53,8 +66,8 @@ make verify-semantic-ontology     # all of the above + manifest round-trip
 
 ## Phases
 
-- **Phase 1 (this repo):** schemas, validation, lint, situations in manifest, pilot YAML.
-- **Phase 2:** `propose_semantic_enrichment` / `promote_semantic_enrichment`, agent briefs under `docs/agents/semantic/`.
+- **Phase 1:** schemas, validation, lint, situations in manifest, pilot YAML (merged).
+- **Phase 2:** [`tools/propose_semantic_enrichment.py`](../tools/propose_semantic_enrichment.py), [`tools/promote_semantic_enrichment.py`](../tools/promote_semantic_enrichment.py), agent briefs under [`docs/agents/semantic/`](agents/semantic/).
 - **Phase 3:** GitHub workflow opening review PRs from agent runs.
 - **Phase 4:** Website UX for situations and trajectories (external to this manuscript repo).
 
