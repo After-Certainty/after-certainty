@@ -1,14 +1,15 @@
 slug: accountability
 title: Accountability
-shortDefinition: 'Accountability is exposure to consequence: who can see effects, who can
-  be challenged or redirected, and whether authority stays close enough to lived outcomes
-  for correction to remain plausible.'
+shortDefinition: 'Accountability is exposure to consequence: who can see effects,
+  who can be challenged or redirected, and whether authority stays close enough to
+  lived outcomes for correction to remain plausible.'
 termKind: supporting
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+- before-certainty-arrives
 recognitionSignals:
 - heroes and villains replace accountability with narrative loyalty
 - abstraction is not allowed to replace answerability in the text

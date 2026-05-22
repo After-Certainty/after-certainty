@@ -1,14 +1,15 @@
 slug: correction
 title: Correction
-shortDefinition: 'Correction is reality-contact and revisability: the lived work of noticing
-  mismatch, updating beliefs or behavior, and narrowing the gap between what was assumed and
-  what is actually happening before drift hardens into normal.'
+shortDefinition: 'Correction is reality-contact and revisability: the lived work of
+  noticing mismatch, updating beliefs or behavior, and narrowing the gap between what
+  was assumed and what is actually happening before drift hardens into normal.'
 termKind: core
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+- before-certainty-arrives
 recognitionSignals:
 - every correction spawns new framing instead of shared reality
 - revision is treated as collapse when identity fused with being right

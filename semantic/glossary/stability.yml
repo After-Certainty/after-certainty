@@ -1,7 +1,7 @@
 slug: stability
 title: Stability
-shortDefinition: Continuity of coordination and expectation that resists disruption; can trade
-  off against contestability when revision paths thin.
+shortDefinition: Continuity of coordination and expectation that resists disruption;
+  can trade off against contestability when revision paths thin.
 termKind: extended
 relatedConcepts:
 - contestability
@@ -9,6 +9,7 @@ relatedConcepts:
 relatedPatterns: []
 relatedBooks:
 - after-certainty
+- before-certainty-arrives
 recognitionSignals:
 - more information no longer restores stability of judgment
 - revision threatens coherence, authority, and emotional stability together

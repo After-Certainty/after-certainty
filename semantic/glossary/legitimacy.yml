@@ -1,14 +1,15 @@
 slug: legitimacy
 title: Legitimacy
-shortDefinition: Legitimacy is justified recognition of authority—whether power reads as earned
-  and contestable enough that coordination holds under stress instead of collapsing into cynicism,
-  performative compliance, or hidden veto by drift.
+shortDefinition: Legitimacy is justified recognition of authority—whether power reads
+  as earned and contestable enough that coordination holds under stress instead of
+  collapsing into cynicism, performative compliance, or hidden veto by drift.
 termKind: core
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+- before-certainty-arrives
 recognitionSignals:
 - smooth operation starts appearing equivalent to legitimacy
 - admiration insulates narratives from proportionate inquiry
