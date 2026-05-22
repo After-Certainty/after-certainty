@@ -1,17 +1,17 @@
 slug: correctness-hardens-into-identity
 title: Correctness Hardens Into Identity
-setup: Correctness begins as a tool for coordination—aligning on evidence, reality,
-  and shared understanding under uncertainty.
-problem: Under pressure, being right matters less for understanding than for preserving
-  coherence and belonging; revision starts feeling like betrayal.
+setup: Correctness begins as a tool for coordination—aligning on evidence, reality, and shared
+  understanding under uncertainty.
+problem: Under pressure, being right matters less for understanding than for preserving coherence
+  and belonging; revision starts feeling like betrayal.
 forces:
 - Disagreement is treated as moral threat
 - Identity fuses with the winning frame
 - Revision threatens group coherence
 - Finality relieves the discomfort of not knowing
 observation: The danger is not error alone; it is the inability to remain revisable.
-example: A team treats a challenged forecast as disloyalty rather than as an update
-  to shared reality.
+example: A team treats a challenged forecast as disloyalty rather than as an update to shared
+  reality.
 relatedConcepts:
 - judgment
 - correction
@@ -21,3 +21,39 @@ relatedPatterns:
 - finality-compensates-for-uncertainty
 relatedBooks:
 - after-certainty
+recognitionSignals:
+- disagreement is felt approaching the point where people defend instead of revise
+- the stronger case on paper goes unpressed to keep the room from escalating
+- every correction spawns new audiences and interpretations instead of convergence
+- being right begins signaling seriousness more than shared reality
+questions:
+- When would pressing the stronger case cost more than it would save?
+- Where is letting silence stay in the room serving revisability rather than avoidance?
+- What would change if correctness were a tool again instead of a moral achievement?
+counterbalances:
+- leave room for a smaller question instead of winning the argument
+- treat the meeting ending without resolution as success, not failure
+- separate being right from belonging in the room
+trajectory:
+  earlySignals:
+  - correctness still feels like safety and justified discipline
+  - evidence and study are invoked before scale fragments the picture
+  intensificationSignals:
+  - confidence escalates while understanding thins
+  - competing certainties harden into moral worlds
+  - disagreement starts feeling irresponsible
+  failureModes:
+  - revision feels like betrayal to the group
+  - no shared picture can be revised collectively
+  restorationPaths:
+  - practice judgment without finality in the same conversation
+  - name partial understanding before acting
+manifestations:
+  leadership:
+  - strategy meetings reward the strongest case on paper over contact
+  - executives treat challenged forecasts as attacks on seriousness
+  organizations:
+  - clarification campaigns multiply frames instead of settling them
+  - consensus is prized over updating shared reality
+  politics:
+  - public debate rewards certainty displays over revisability

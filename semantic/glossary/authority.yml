@@ -1,12 +1,36 @@
 slug: authority
 title: Authority
-shortDefinition: Authority is operational coordination power—the recognized right
-  to steer, allocate, or constrain action—always in tension with legitimacy and with
-  whether consequence stays visible enough under scale for coordination to remain
-  contestable rather than brittle.
+shortDefinition: Authority is operational coordination power—the recognized right to steer,
+  allocate, or constrain action—always in tension with legitimacy and with whether consequence
+  stays visible enough under scale for coordination to remain contestable rather than brittle.
 termKind: core
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+recognitionSignals:
+- correctness begins helping people claim authority over one another
+- not knowing risks loss of authority in rooms that still require action
+- formal authority ends while influence through precedents continues
+questions:
+- Where is authority claimed without proportionate standing?
+- What influence continues after the title changes?
+- Who bears answerability for permissions still in force?
+counterbalances:
+- judge without authority you do not have
+- audit permissions others still inherit
+- separate seriousness from domination
+trajectory:
+  earlySignals:
+  - authority still helps coordinate under uncertainty
+  intensificationSignals:
+  - being right becomes moral dominance
+  - authority closes rooms to revision
+  failureModes:
+  - authority substitutes for contact
+  restorationPaths:
+  - practice judgment without finality instead of domination
+manifestations:
+  leadership:
+  - executives conflate being right with moral standing

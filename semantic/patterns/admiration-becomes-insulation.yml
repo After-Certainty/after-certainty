@@ -1,9 +1,9 @@
 slug: admiration-becomes-insulation
 title: Admiration Becomes Insulation
-setup: Admiration enables trust, imitation, and moral aspiration toward people who
-  seem to carry more than their share of complexity.
-problem: Heroic narratives stabilize; contradiction becomes hard to absorb without
-  collapsing the story.
+setup: Admiration enables trust, imitation, and moral aspiration toward people who seem to
+  carry more than their share of complexity.
+problem: Heroic narratives stabilize; contradiction becomes hard to absorb without collapsing
+  the story.
 forces:
 - Harm is reframed as tradeoff
 - Context expands selectively around the admired figure
@@ -21,3 +21,38 @@ relatedPatterns:
 - blame-compresses-complexity
 relatedBooks:
 - after-certainty
+recognitionSignals:
+- contradictory details are adapted into a purer villain and victim
+- the thread speeds up rather than slowing for uneven facts
+- harm around a heroic figure is reframed as tradeoff or necessity
+- questioning the sorting risks sounding disloyal to the harm
+questions:
+- What detail would reopen the story we are protecting?
+- Who benefits when admiration forecloses proportionate inquiry?
+- Where is trust insulation rather than trust?
+counterbalances:
+- ask proportionate questions without recasting heroes as villains
+- slow the thread when facts do not fit the moral sorting
+- keep legitimacy open to revision without cynicism
+trajectory:
+  earlySignals:
+  - the story arrives already sorted into hero and villain
+  - admiration attaches to a coherent moral narrative
+  intensificationSignals:
+  - outrage spreads faster than verification
+  - information threatening the story feels destabilizing
+  failureModes:
+  - the admired person is protected by audience reluctance
+  - accountability weakens to preserve coherence
+  restorationPaths:
+  - practice scrutiny that preserves trust
+  - replace archetypes with attention to effects
+manifestations:
+  leadership:
+  - boards interpret harm around executives as necessary tradeoffs
+  - contradiction near a leader is treated as disloyalty
+  organizations:
+  - comment threads reward emotionally complete narratives
+  - whistle paths are framed as betraying the harm itself
+  politics:
+  - public moral sorting outruns verification

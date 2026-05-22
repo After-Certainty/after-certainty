@@ -1,9 +1,9 @@
 slug: blame-compresses-complexity
 title: Blame Compresses Complexity
-setup: Blame can clarify responsibility and acknowledge harm when systems have produced
-  injury someone must answer for.
-problem: Villain narratives simplify systems into individuals; structural incentives
-  and shared participation disappear.
+setup: Blame can clarify responsibility and acknowledge harm when systems have produced injury
+  someone must answer for.
+problem: Villain narratives simplify systems into individuals; structural incentives and shared
+  participation disappear.
 forces:
 - Emotional resolution arrives faster than understanding
 - Learning narrows once a face is assigned
@@ -11,8 +11,8 @@ forces:
 - Scale is experienced as someone else's failure
 observation: Blame offers relief faster than contact with how the field actually produced
   the outcome.
-example: After a failure, the organization fires one manager while the incentives that
-  shaped everyone's choices stay unnamed.
+example: After a failure, the organization fires one manager while the incentives that shaped
+  everyone's choices stay unnamed.
 relatedConcepts:
 - accountability
 - harm
@@ -22,3 +22,36 @@ relatedPatterns:
 - admiration-becomes-insulation
 relatedBooks:
 - after-certainty
+recognitionSignals:
+- the moral work feels complete once blame has a face
+- systems and incentives disappear after a villain is named
+- ordinary participation is no longer examined
+- outrage offers relief faster than structural learning
+questions:
+- What incentives remain visible after we name the villain?
+- How might similar dynamics operate closer to home?
+- What learning is lost when harm has a recognizable face?
+counterbalances:
+- map structural participation before closing the story
+- practice attention to effects instead of personalities
+- keep accountability without narrative loyalty
+trajectory:
+  earlySignals:
+  - harm attaches quickly to one careless actor and one institution
+  - moral energy concentrates through identification
+  intensificationSignals:
+  - the thread adapts facts to preserve the sorting
+  - complexity collapses around a stable target
+  failureModes:
+  - wrongdoing is treated as exceptional not systemic
+  - learning narrows once outrage has a target
+  restorationPaths:
+  - replace heroes and villains with patterns
+  - restore contact with consequences and limits
+manifestations:
+  leadership:
+  - executive dismissal ends the moral inquiry
+  - scapegoating replaces incentive review
+  organizations:
+  - compliance closes when one role is sanctioned
+  - training blames attitude instead of structure

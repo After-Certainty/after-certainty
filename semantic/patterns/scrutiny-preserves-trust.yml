@@ -1,18 +1,17 @@
 slug: scrutiny-preserves-trust
 title: Scrutiny Preserves Trust
-setup: Trust depends on proportionate inquiry, not on insulating admired figures from
-  the questions their power requires.
-problem: Admiration otherwise protects narratives from revision; legitimacy closes
-  when contradiction arrives.
+setup: Trust depends on proportionate inquiry, not on insulating admired figures from the
+  questions their power requires.
+problem: Admiration otherwise protects narratives from revision; legitimacy closes when contradiction
+  arrives.
 forces:
 - Inquiry is cast as cynicism
 - Coherence is prized over contact
 - Heroes absorb moral weight the system still distributes
 - Revision threatens belonging
-observation: Scrutiny keeps legitimacy open without demanding that every admired figure
-  be recast as a villain.
-example: A board asks for evidence and tradeoffs in public, not only reassurance about
-  character.
+observation: Scrutiny keeps legitimacy open without demanding that every admired figure be
+  recast as a villain.
+example: A board asks for evidence and tradeoffs in public, not only reassurance about character.
 relatedConcepts:
 - legitimacy
 - judgment
@@ -22,3 +21,36 @@ relatedPatterns:
 - revisability-preserves-judgment
 relatedBooks:
 - after-certainty
+recognitionSignals:
+- admiration turns into reluctance to reopen the story
+- proportionate inquiry is cast as cynicism or disloyalty
+- trust is confused with insulating the narrative
+- legitimacy is questioned without demanding a villain rewrite
+questions:
+- What question would preserve trust without insulation?
+- Where is admiration blocking proportionate inquiry?
+- How do we scrutinize without collapsing into sorting?
+counterbalances:
+- keep admiration open to revision
+- ask evidence questions in public forums
+- separate trust from narrative attachment
+trajectory:
+  earlySignals:
+  - heroes reassure coordination quickly
+  - contradiction near admired figures feels expensive
+  intensificationSignals:
+  - harm is reframed to preserve coherent admiration
+  - accountability routes around the heroic story
+  failureModes:
+  - trust survives through insulation not inquiry
+  - revision of the story feels like moral collapse
+  restorationPaths:
+  - practice scrutiny as trust maintenance
+  - reward proportionate questions alongside admiration
+manifestations:
+  leadership:
+  - boards soften questions around character
+  - audit is welcomed as trust practice not betrayal
+  organizations:
+  - ombud paths are exceptional instead of normal
+  - peer review excludes power holders

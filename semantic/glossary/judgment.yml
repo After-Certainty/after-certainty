@@ -1,11 +1,41 @@
 slug: judgment
 title: Judgment
-shortDefinition: 'Judgment is deliberate evaluation under uncertainty: slowing automatic
-  escalation long enough to weigh tradeoffs honestly, keep coordination aligned with
-  consequence rather than with speed alone, and preserve room for contestability.'
+shortDefinition: 'Judgment is deliberate evaluation under uncertainty: slowing automatic escalation
+  long enough to weigh tradeoffs honestly, keep coordination aligned with consequence rather
+  than with speed alone, and preserve room for contestability.'
 termKind: core
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+recognitionSignals:
+- people wait for certainty before they are willing to judge
+- judgment is mistaken for harshness when it lacks final closure
+- insight no longer delivers relief yet judgment is still required
+questions:
+- What judgment is warranted before understanding feels complete?
+- Where are we using finality to avoid revisability?
+- What remains when correctness and explanation no longer settle the question?
+counterbalances:
+- practice judgment as ongoing practice not verdict
+- act under partial visibility with room to revise
+- separate seriousness from permanent settlement
+trajectory:
+  earlySignals:
+  - judgment still draws boundaries and responds to harm
+  - people associate judgment with punitive finality
+  intensificationSignals:
+  - severity rises when uncertainty feels intolerable
+  - revision threatens coherence when judgment must feel finished
+  failureModes:
+  - judgment hardens into dogma or paralysis
+  - interpretation delays judgment until harm continues
+  restorationPaths:
+  - keep judgment revisable and proportionate
+  - name tradeoffs without claiming omniscience
+manifestations:
+  leadership:
+  - executives delay decisions until confidence feels complete
+  organizations:
+  - reviews punish updates that unsettle prior verdicts

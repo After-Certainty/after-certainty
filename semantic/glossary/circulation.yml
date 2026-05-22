@@ -1,11 +1,38 @@
 slug: circulation
 title: Circulation
-shortDefinition: 'Circulation is transmission and reproduction through systems: how
-  norms, habits, and design choices move, repeat, and amplify—what spreads without
-  being re-owned locally, and what keeps learning alive as coordination widens.'
+shortDefinition: 'Circulation is transmission and reproduction through systems: how norms,
+  habits, and design choices move, repeat, and amplify—what spreads without being re-owned
+  locally, and what keeps learning alive as coordination widens.'
 termKind: core
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+recognitionSignals:
+- phrases optimize for speed, circulation, and coordination
+- screenshots detach statements from context
+- meaning cannot remain stable at public scale
+questions:
+- What happens to meaning once this leaves the room?
+- Who is reading allegiance instead of substance?
+- When does circulation outrun correction?
+counterbalances:
+- publish whole statements not fragments
+- slow sharing until claims are scoped
+- choose proportion over viral legibility
+trajectory:
+  earlySignals:
+  - speech still attempts sincere coordination
+  intensificationSignals:
+  - circulation rewards visibility
+  - fragments become the argument
+  failureModes:
+  - circulation displaces care
+  restorationPaths:
+  - speak for contact not circulation
+manifestations:
+  politics:
+  - public fragments organize conflict
+  organizations:
+  - internal drafts become external ammunition

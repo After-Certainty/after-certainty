@@ -1,17 +1,17 @@
 slug: attention-restores-contact
 title: Attention Restores Contact
-setup: Scale and abstraction pull moral life away from particular harms, people, and
-  tradeoffs that still exist somewhere.
+setup: Scale and abstraction pull moral life away from particular harms, people, and tradeoffs
+  that still exist somewhere.
 problem: Blame and metrics average consequence until distance feels like innocence.
 forces:
 - Abstraction rewards summaries over cases
 - Distance is institutionally produced
 - Contact is slower than closure
 - Visibility substitutes for responsiveness
-observation: Attention reintroduces consequence where abstraction would conceal it—much
-  of staying human at scale is this discipline repeated.
-example: A review names affected people and lived outcomes, not only the accountable
-  role on the org chart.
+observation: Attention reintroduces consequence where abstraction would conceal it—much of
+  staying human at scale is this discipline repeated.
+example: A review names affected people and lived outcomes, not only the accountable role
+  on the org chart.
 relatedConcepts:
 - harm
 - scale
@@ -21,3 +21,36 @@ relatedPatterns:
 - responsibility-persists-beyond-control
 relatedBooks:
 - after-certainty
+recognitionSignals:
+- aggregate dashboards stay green while exception clusters hide harm
+- people become metrics, risks, or roles instead of particulars
+- distance hides consequence until someone looks sideways
+- smooth operation is treated as equivalent to legitimacy
+questions:
+- What did the exception report notice that averages concealed?
+- Who is still a particular person inside this category?
+- Where has abstraction stopped feeling partial?
+counterbalances:
+- read exception reports when headlines look fine
+- write plain language without hero or dissenter roles
+- ask questions that slow meetings by ten minutes
+trajectory:
+  earlySignals:
+  - systems depend on aggregation and standardization
+  - abstraction is recognized as structurally necessary
+  intensificationSignals:
+  - harm becomes statistical and suffering harder to notice
+  - accountability thins as decisions move from effects
+  failureModes:
+  - abstraction feels sufficient instead of partial
+  - continuity disguises harm at scale
+  restorationPaths:
+  - document patterns in plain language
+  - stay close to what leverage actually reaches
+manifestations:
+  leadership:
+  - quarterly metrics hide clusters that do not move the average
+  - rollouts proceed while exceptions accumulate quietly
+  organizations:
+  - complaints are withdrawn without changing the workflow
+  - green dashboards end investigation

@@ -1,13 +1,37 @@
 slug: system
 title: System
 shortDefinition: 'A system is an organized set of people, processes, rules, and structures
-  that produces repeatable outcomes over time. The term applies across domains: software
-  architectures, teams, firms, agencies, governance structures, and media institutions.
-  The shared criterion is not technology; it is patterned behavior under constraints,
-  incentives, and feedback.'
+  that produces repeatable outcomes over time. The term applies across domains: software architectures,
+  teams, firms, agencies, governance structures, and media institutions. The shared criterion
+  is not technology; it is patterned behavior under constraints, incentives, and feedback.'
 termKind: extended
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+recognitionSignals:
+- people expect a system, program, or fix
+- the book refuses to offer a new system of belief
+- harm is attributed to the system to avoid choosers
+questions:
+- Are we waiting for a system instead of practicing posture?
+- What remains when systems cannot become humane?
+- Where are we using system language to end participation?
+counterbalances:
+- practice capacities not programs
+- refuse system fixes as substitute for judgment
+- stay answerable inside systems you did not design
+trajectory:
+  earlySignals:
+  - system thinking promises management
+  intensificationSignals:
+  - system narratives explain away participation
+  - fixes are demanded at scale
+  failureModes:
+  - systems excuse disengagement
+  restorationPaths:
+  - orient without a system to sell
+manifestations:
+  organizations:
+  - transformation roadmaps replace posture
