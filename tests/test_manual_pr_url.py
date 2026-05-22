@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-import os
-
 from tools.run_semantic_enrichment_ci import _manual_pr_url
 
 
