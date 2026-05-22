@@ -3,5 +3,10 @@ entityType: glossary
 field: questions
 proposedBy: questions
 bookId: after-certainty
-sourceExcerpt: ''
-items: []
+sourceExcerpt: >-
+  Ch.8 — permissions you normalized; Ch.9 — insight as permission to delay a required response.
+items:
+  - Which permissions still make sense if the original pressure that created them has passed?
+  - Who inherits this authorization today without remembering why it was granted?
+  - Where has normalized permission become a reason to postpone a judgment we already know is required?
+  - What would we revoke first if we treated authorization as provisional rather than settled?

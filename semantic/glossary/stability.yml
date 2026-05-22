@@ -1,10 +1,22 @@
 slug: stability
 title: Stability
-shortDefinition: >-
-  Continuity of coordination and expectation that resists disruption; can trade off against contestability when revision paths thin.
+shortDefinition: Continuity of coordination and expectation that resists disruption;
+  can trade off against contestability when revision paths thin.
 termKind: extended
 relatedConcepts:
-  - contestability
-  - certainty
+- contestability
+- certainty
 relatedPatterns: []
 relatedBooks: []
+questions:
+- What are we protecting when we call a choice "stability"—coordination, reputation,
+  or the right to revise?
+- Where has continuity begun disguising harm that smooth operation makes easy to ignore?
+- Who pays the cost when stability is purchased by thinning contestability?
+- What small revision would we allow if stability were a practice rather than a freeze?
+recognitionSignals:
+- disagreement is framed as disruptive to "keeping things steady"
+- leaders treat revision as threatening coherence, authority, or morale at once
+- smooth operation is treated as equivalent to legitimacy
+- more analysis is requested when the real tension is whether to update a settled
+  story

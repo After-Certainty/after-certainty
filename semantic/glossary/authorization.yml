@@ -1,10 +1,24 @@
 slug: authorization
 title: Authorization
-shortDefinition: >-
-  Normalized permission for action that outlasts the local pressures that first produced it; contrasts with one-off adaptation.
+shortDefinition: Normalized permission for action that outlasts the local pressures
+  that first produced it; contrasts with one-off adaptation.
 termKind: extended
 relatedConcepts:
-  - adaptation
-  - legitimacy
+- adaptation
+- legitimacy
 relatedPatterns: []
 relatedBooks: []
+questions:
+- Which permissions still make sense if the original pressure that created them has
+  passed?
+- Who inherits this authorization today without remembering why it was granted?
+- Where has normalized permission become a reason to postpone a judgment we already
+  know is required?
+- What would we revoke first if we treated authorization as provisional rather than
+  settled?
+recognitionSignals:
+- a workaround or exception is described as "how we do things now," not as temporary
+- new people are onboarded into permissions without the original constraint being
+  retold
+- meetings add context but defer a decision everyone already knows is required
+- harm is attributed to "the system" while the authorizing choices remain unnamed
