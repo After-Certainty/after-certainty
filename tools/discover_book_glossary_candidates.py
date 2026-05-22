@@ -132,7 +132,7 @@ def discover(
     from_file: list[tuple[str, str, str, str]] = []
     glossary_path = _find_glossary_markdown(book_dir)
     if glossary_path is not None:
-        for slug, title, body in _parse_glossary_file(glossary_path):
+        for slug, title, _body in _parse_glossary_file(glossary_path):
             status = "exists" if slug in existing else "new"
             from_file.append((slug, title, status, _rel(glossary_path, repo)))
 
