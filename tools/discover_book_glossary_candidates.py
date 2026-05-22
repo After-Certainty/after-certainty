@@ -144,9 +144,7 @@ def discover(
             continue
         from_prose.append((slug, title, "prose-bold"))
 
-    ontology_missing = sorted(
-        slug for slug in ontology if slug not in existing
-    )
+    ontology_missing = sorted(slug for slug in ontology if slug not in existing)
 
     draft_dir = repo / "semantic/_drafts/generated/glossary" / book_id
     drafts_written = 0
@@ -185,7 +183,9 @@ def discover(
     if glossary_path:
         lines.append(f"- **Manuscript glossary:** `{_rel(glossary_path, repo)}`")
     else:
-        lines.append("- **Manuscript glossary:** _none found (checked glossary.md, back-matter/glossary.md, …)_")
+        lines.append(
+            "- **Manuscript glossary:** _none found (checked glossary.md, back-matter/glossary.md, …)_"
+        )
     lines.append("")
 
     lines.append("## From manuscript glossary file")
@@ -251,9 +251,7 @@ def main() -> int:
         return 2
 
     book_id = args.book_id or book_id_from_spec(load_any_book_spec(spec_path))
-    report, _n = discover(
-        repo, book_dir=book_dir, book_id=book_id, write_drafts=args.write_drafts
-    )
+    report, _n = discover(repo, book_dir=book_dir, book_id=book_id, write_drafts=args.write_drafts)
 
     if args.out:
         out_arg = Path(args.out)

@@ -130,9 +130,7 @@ def scan_book(
             except ValueError:
                 rel = path.as_posix()
             for hit in _scan_file(path, needles):
-                by_slug[term.slug].append(
-                    Hit(path=rel, line_no=hit.line_no, excerpt=hit.excerpt)
-                )
+                by_slug[term.slug].append(Hit(path=rel, line_no=hit.line_no, excerpt=hit.excerpt))
     return terms, dict(by_slug), rel_files
 
 
