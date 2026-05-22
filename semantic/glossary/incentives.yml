@@ -1,12 +1,37 @@
 slug: incentives
 title: Incentives
-shortDefinition: Incentives are the reward and penalty patterns that influence behavior
-  over time. Incentives include formal metrics, promotion logic, political pressures,
-  funding structures, and social recognition patterns. Incentives do not determine
-  behavior by themselves, but they strongly bias what actors optimize for.
+shortDefinition: Incentives are the reward and penalty patterns that influence behavior over
+  time. Incentives include formal metrics, promotion logic, political pressures, funding structures,
+  and social recognition patterns. Incentives do not determine behavior by themselves, but
+  they strongly bias what actors optimize for.
 termKind: extended
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+recognitionSignals:
+- incentives diverge as coordination grows
+- working groups catalog competing incentives while harm continues
+- understanding incentives replaces governing outcomes
+questions:
+- Which incentives are we explaining instead of changing?
+- Who benefits from the delay insight provides?
+- What outcome would shift if incentives were named as tradeoffs?
+counterbalances:
+- name incentive conflicts as moral choices
+- act before incentive maps feel complete
+- refuse better incentives as automatic fix
+trajectory:
+  earlySignals:
+  - incentive literacy increases
+  intensificationSignals:
+  - incentive stories delay judgment
+  - competing incentives justify paralysis
+  failureModes:
+  - incentive analysis replaces response
+  restorationPaths:
+  - choose under visible tradeoffs
+manifestations:
+  organizations:
+  - postmortems list incentives without changing them

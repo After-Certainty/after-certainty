@@ -1,10 +1,36 @@
 slug: harm
 title: Harm
-shortDefinition: 'Where cost lands when influence is exercised: who absorbs it, who
-  is kept in view, and what displacement is treated as acceptable.'
+shortDefinition: 'Where cost lands when influence is exercised: who absorbs it, who is kept
+  in view, and what displacement is treated as acceptable.'
 termKind: extended
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - when-others-look-to-you-v1
+recognitionSignals:
+- harm continues while interpretation expands
+- briefings make harm legible without smaller
+- people can still tell when something is doing harm
+questions:
+- Is harm unchanged outside while we analyze inside?
+- Who is harmed in particular—not on average?
+- When does naming harm substitute for reducing it?
+counterbalances:
+- check effects outside the room after briefings
+- stop when outcomes for people are unchanged
+- pair analysis with named remedy attempts
+trajectory:
+  earlySignals:
+  - harm triggers immediate explanation and sorting
+  intensificationSignals:
+  - harm is reorganized narratively
+  - harm becomes statistical at scale
+  failureModes:
+  - harm persists while moral work feels complete
+  restorationPaths:
+  - return to particular harms and people
+  - accept harm as inevitable without abandoning response
+manifestations:
+  organizations:
+  - delays continue after excellent postmortems

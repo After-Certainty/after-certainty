@@ -1,12 +1,37 @@
 slug: scale
 title: Scale
-shortDefinition: Scale is coordination beyond direct relational encounter—growth in
-  size, complexity, or abstraction layers that increases distance between decisions
-  and consequences and therefore changes how cohesion, coupling, and feedback must
-  be engineered to stay learnable.
+shortDefinition: Scale is coordination beyond direct relational encounter—growth in size,
+  complexity, or abstraction layers that increases distance between decisions and consequences
+  and therefore changes how cohesion, coupling, and feedback must be engineered to stay learnable.
 termKind: core
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+recognitionSignals:
+- understanding expands while judgment remains unsettled
+- feedback slows and consequences are harder to trace
+- moral life is described as condition of scale not personal failure
+questions:
+- What changes when no one sees the whole picture?
+- Where is scale eroding ability to see people?
+- What practices still work at human scale?
+counterbalances:
+- narrow responsibility to contact that remains
+- read exceptions when aggregates look fine
+- refuse to let scale justify disengagement
+trajectory:
+  earlySignals:
+  - scale still promises coordination through tools
+  intensificationSignals:
+  - stabilizers carry more weight than they can sustain
+  - distance hides consequence
+  failureModes:
+  - scale justifies innocence and abstraction
+  restorationPaths:
+  - practice staying human at scale
+  - contract moral life to reachable contact
+manifestations:
+  organizations:
+  - systems operate on aggregates not particulars

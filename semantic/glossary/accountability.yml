@@ -1,11 +1,36 @@
 slug: accountability
 title: Accountability
-shortDefinition: 'Accountability is exposure to consequence: who can see effects,
-  who can be challenged or redirected, and whether authority stays close enough to
-  lived outcomes for correction to remain plausible.'
+shortDefinition: 'Accountability is exposure to consequence: who can see effects, who can
+  be challenged or redirected, and whether authority stays close enough to lived outcomes
+  for correction to remain plausible.'
 termKind: supporting
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+recognitionSignals:
+- heroes and villains replace accountability with narrative loyalty
+- abstraction is not allowed to replace answerability in the text
+- attention shifts from identity to effects and patterns
+questions:
+- Who remains answerable after the moral sorting is done?
+- What participation are we externalizing with a villain face?
+- Where is accountability thinner because of distance?
+counterbalances:
+- prefer sustained contact with consequences over speed
+- map participation before assigning a face
+- practice attention-restores-contact
+trajectory:
+  earlySignals:
+  - accountability clarifies harm when sorting is simple
+  intensificationSignals:
+  - narrative loyalty replaces proportionate answerability
+  - distance thins accountability without intent
+  failureModes:
+  - accountability ends when the story feels complete
+  restorationPaths:
+  - replace archetypes with attention to effects
+manifestations:
+  organizations:
+  - postmortems praise analysis while delays continue

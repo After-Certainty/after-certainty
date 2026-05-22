@@ -1,11 +1,35 @@
 slug: agency
 title: Agency
-shortDefinition: Agency is the practical capacity to initiate action that can affect
-  outcomes. Formal role without real leverage is low agency, even when nominal responsibility
-  remains.
+shortDefinition: Agency is the practical capacity to initiate action that can affect outcomes.
+  Formal role without real leverage is low agency, even when nominal responsibility remains.
 termKind: extended
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+recognitionSignals:
+- speech promises agency when participation feels required
+- structural causes soften agency until judgment delays
+- inevitability slowly displaces choice in explanations
+questions:
+- Where is agency real versus performed through language?
+- What choice remains after complexity is established?
+- When does speech substitute for contact?
+counterbalances:
+- name choices still available after context
+- speak without claiming more agency than speech provides
+- act where participation still changes contact
+trajectory:
+  earlySignals:
+  - agency still feels available through speech and action
+  intensificationSignals:
+  - complexity absorbs moral energy
+  - agency is performed for audiences
+  failureModes:
+  - agency is claimed without effect on harm
+  restorationPaths:
+  - return agency to human-scale participation
+manifestations:
+  organizations:
+  - statements express concern without consequence

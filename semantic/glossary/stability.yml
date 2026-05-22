@@ -1,7 +1,7 @@
 slug: stability
 title: Stability
-shortDefinition: Continuity of coordination and expectation that resists disruption;
-  can trade off against contestability when revision paths thin.
+shortDefinition: Continuity of coordination and expectation that resists disruption; can trade
+  off against contestability when revision paths thin.
 termKind: extended
 relatedConcepts:
 - contestability
@@ -9,15 +9,28 @@ relatedConcepts:
 relatedPatterns: []
 relatedBooks:
 - after-certainty
-questions:
-- What are we protecting when we call a choice "stability"—coordination, reputation,
-  or the right to revise?
-- Where has continuity begun disguising harm that smooth operation makes easy to ignore?
-- Who pays the cost when stability is purchased by thinning contestability?
-- What small revision would we allow if stability were a practice rather than a freeze?
 recognitionSignals:
-- disagreement is framed as disruptive to "keeping things steady"
-- leaders treat revision as threatening coherence, authority, or morale at once
-- smooth operation is treated as equivalent to legitimacy
-- more analysis is requested when the real tension is whether to update a settled
-  story
+- more information no longer restores stability of judgment
+- revision threatens coherence, authority, and emotional stability together
+- alignment is pursued while understanding fragments
+questions:
+- What stability are we protecting—coordination or closure?
+- Where does emotional stability purchase frozen judgment?
+- What remains unsettled while analysis continues?
+counterbalances:
+- tolerate unsettled judgment without forcing false calm
+- separate coordination from epistemic closure
+- practice discipline of not knowing
+trajectory:
+  earlySignals:
+  - stability still feels like moral relief
+  intensificationSignals:
+  - stability is bought by stopping revision
+  - certainty is performed to calm rooms
+  failureModes:
+  - stability disguises ongoing harm
+  restorationPaths:
+  - accept clarity without closure
+manifestations:
+  leadership:
+  - rooms demand calm narratives while harm continues

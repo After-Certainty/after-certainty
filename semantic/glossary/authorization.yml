@@ -1,7 +1,7 @@
 slug: authorization
 title: Authorization
-shortDefinition: Normalized permission for action that outlasts the local pressures
-  that first produced it; contrasts with one-off adaptation.
+shortDefinition: Normalized permission for action that outlasts the local pressures that first
+  produced it; contrasts with one-off adaptation.
 termKind: extended
 relatedConcepts:
 - adaptation
@@ -9,17 +9,32 @@ relatedConcepts:
 relatedPatterns: []
 relatedBooks:
 - after-certainty
-questions:
-- Which permissions still make sense if the original pressure that created them has
-  passed?
-- Who inherits this authorization today without remembering why it was granted?
-- Where has normalized permission become a reason to postpone a judgment we already
-  know is required?
-- What would we revoke first if we treated authorization as provisional rather than
-  settled?
 recognitionSignals:
-- a workaround or exception is described as "how we do things now," not as temporary
-- new people are onboarded into permissions without the original constraint being
-  retold
-- meetings add context but defer a decision everyone already knows is required
-- harm is attributed to "the system" while the authorizing choices remain unnamed
+- people continue acting through permissions left ambiguous
+- normalized exceptions outlive the pressures that produced them
+- insight becomes permission to delay a required response
+questions:
+- Which permissions still make sense after the emergency passed?
+- Who inherits authority without remembering why it was granted?
+- Where has interpretation become permission to delay?
+counterbalances:
+- name sunset dates for standing exceptions
+- pair each permission with review and accountability
+- stop treating insight as substitute for decision
+trajectory:
+  earlySignals:
+  - temporary permissions are granted under urgency
+  intensificationSignals:
+  - exceptions become how work is done day to day
+  - meetings add context instead of deciding
+  failureModes:
+  - authorization persists after crisis ends
+  - harm is attributed to the system not choosers
+  restorationPaths:
+  - batch-retire exceptions with named owners
+  - restore decisions insight already supports
+manifestations:
+  leadership:
+  - crisis permissions become standard operating procedure
+  organizations:
+  - working groups treat insight as the moral work

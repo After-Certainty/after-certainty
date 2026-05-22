@@ -1,11 +1,36 @@
 slug: legitimacy
 title: Legitimacy
-shortDefinition: Legitimacy is justified recognition of authority—whether power reads
-  as earned and contestable enough that coordination holds under stress instead of
-  collapsing into cynicism, performative compliance, or hidden veto by drift.
+shortDefinition: Legitimacy is justified recognition of authority—whether power reads as earned
+  and contestable enough that coordination holds under stress instead of collapsing into cynicism,
+  performative compliance, or hidden veto by drift.
 termKind: core
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
 - coupling
+recognitionSignals:
+- smooth operation starts appearing equivalent to legitimacy
+- admiration insulates narratives from proportionate inquiry
+- trust is confused with refusing to reopen the story
+questions:
+- What would question legitimacy without cynicism?
+- Where is trust insulation rather than trust?
+- Who can scrutinize without being cast as disloyal?
+counterbalances:
+- keep legitimacy open to revision
+- practice scrutiny-preserves-trust
+- separate admiration from narrative protection
+trajectory:
+  earlySignals:
+  - legitimacy still coordinates trust quickly
+  intensificationSignals:
+  - heroic narratives stabilize against contradiction
+  - legitimacy closes when coherence is threatened
+  failureModes:
+  - legitimacy survives through insulation
+  restorationPaths:
+  - welcome proportionate inquiry in public
+manifestations:
+  leadership:
+  - boards conflate operational smoothness with moral standing
