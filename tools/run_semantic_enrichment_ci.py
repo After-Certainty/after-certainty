@@ -278,7 +278,9 @@ def run(
     if pr_proc.returncode != 0:
         err = (pr_proc.stdout + pr_proc.stderr).strip()
         print(err, file=sys.stderr)
-        blocked = "createPullRequest" in err or "not permitted to create or approve pull requests" in err
+        blocked = (
+            "createPullRequest" in err or "not permitted to create or approve pull requests" in err
+        )
         manual = _manual_pr_url(base_branch=base_branch, branch=branch)
         if blocked:
             print(
