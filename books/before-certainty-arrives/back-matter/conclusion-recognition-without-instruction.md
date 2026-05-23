@@ -13,21 +13,16 @@ Instead, it ends with recognition.
 ### **Certainty, Seen Clearly**
 
 Across these chapters, certainty has been treated neither as truth nor
-as deception, but as a tool.
-
-A tool for coordination.\
-A tool for stabilization.\
-A tool for surviving conditions of constraint, scale, and uncertainty.
+as deception, but as a tool—for coordination, stabilization, and
+surviving conditions of constraint, scale, and uncertainty.
 
 Certainty emerges when explanation is too slow, disagreement too costly,
-and coordination too fragile. It compresses meaning. It narrows choice.
-It stabilizes behavior long enough for societies to endure.
+and coordination too fragile; it compresses meaning, narrows choice, and
+holds behavior steady long enough for societies to endure. In this sense,
+certainty is not opposed to morality so much as one of the ways morality
+becomes possible at all.
 
-In this sense, certainty is not opposed to morality.\
-It is one of the ways morality becomes possible at all.
-
-But tools are shaped by conditions.\
-And conditions change.
+But tools are shaped by conditions, and conditions change.
 
 What this book has shown is not that certainty is wrong, but that it is
 **conditional**—designed for particular pressures, environments, and
@@ -37,21 +32,13 @@ eventually, it is asked to do work it was never built to sustain.
 
 ### **The Lifespan of Moral Tools**
 
-Moral systems do not fail all at once.\
-They outlive themselves.
+Moral systems do not fail all at once; they outlive themselves, continuing
+to coordinate long after they stop fitting, retaining authority long after
+they stop persuading, and demanding allegiance long after they stop holding
+meaning steady. This persistence is not corruption so much as inertia.
 
-They continue coordinating long after they stop fitting.\
-They retain authority long after they stop persuading.\
-They demand allegiance long after they stop stabilizing meaning.
-
-This persistence is not corruption.\
-It is inertia.
-
-Certainty lasts because it once worked—and because nothing else yet
-does.
-
-Recognizing this does not require condemnation.\
-It requires historical honesty.
+Certainty lasts because it once worked—and because nothing else yet does.
+Recognizing that requires historical honesty more than condemnation.
 
 ### **Why This Book Refuses Instruction**
 
@@ -69,27 +56,29 @@ by itself.
 To pretend otherwise would be to repeat the very pattern this book
 describes: asking inherited tools to do work beyond their design.
 
-This book stops at understanding.\
-It stops at recognition.\
-It stops before certainty fails.
+This book stops at understanding, at recognition, and deliberately before
+certainty fails.
 
 ### **The Handoff**
 
-There is a moment that follows recognition.\
-A moment when the patterns are visible.\
-When the tools are still in place.\
-When nothing has collapsed—but nothing feels resolved.
+There is a moment that follows recognition—patterns visible, tools still
+in place, nothing collapsed but nothing resolved.
 
-That is where the next book begins.
+Picture an ordinary Tuesday: a clerk stamps a form, a parent signs a
+school permission slip, a neighbor waits on hold for a callback that may
+or may not come today. None of these acts requires full belief in the
+system. They require only that the machinery still recognize a name long
+enough for life to continue.
 
-Not with answers.\
-Not with replacement frameworks.\
-But with the question this book deliberately refuses to settle:
+The neighbor on hold hears hold music, checks the clock, and wonders
+whether to start dinner before the call comes back. Nothing is resolved.
+Nothing has failed. The week simply continues inside structures that
+still work well enough to be taken for granted.
+
+That is where the next book begins: not with answers or replacement
+frameworks, but with the question this book deliberately refuses to settle:
 
 **How do we live and judge once understanding is no longer enough?**
 
-This book prepares the ground for that question.\
-It does not try to answer it.
-
-And that restraint is not a limitation.\
-It is the point.
+This book prepares the ground for that question without trying to answer
+it. The restraint is the point—and the ordinary Tuesday is still underway.
