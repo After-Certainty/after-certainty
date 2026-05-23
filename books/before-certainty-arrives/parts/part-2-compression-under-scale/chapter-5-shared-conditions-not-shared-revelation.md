@@ -148,15 +148,10 @@ coordination: restraint, mercy, obedience to moral law made legible to
 subjects who would never meet the emperor.[^c5-ashoka-edicts] What
 looked like moral depth was also moral compression made portable.
 
-Later chapters will trace what happens when these compressed moral
-frameworks harden, are inherited without context, and are asked to bear
-weight far beyond the conditions that produced them.
-
 Here, they should be understood for what they were:
 not revelations descending into history,
-but human responses rising under pressure.
-
-**What Holds Becomes Moral.**
+but human responses rising under pressure—what held the empire together
+slowly becoming what morality itself was taken to be.
 
 [^c5-axial-age]: See Karl Jaspers, *The Origin and Goal of History* (New Haven, CT: Yale University Press, 1953).
 [^c5-ashoka-edicts]: See Karl Jaspers, *The Origin and Goal of History* (New Haven, CT: Yale University Press, 1953).

@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 4b — editorial grounding** on `books/before-certainty-arrives/`
+**Phase 4c — tighten and trust** on `books/before-certainty-arrives/`
 
 ## Active branch
 
@@ -55,4 +55,5 @@ None recorded.
 ## Rough scale
 
 - ~9,300 words baseline (May 2026)
-- ~10,200 words after grounding pass (May 2026)
+- ~10,200 words after grounding pass
+- ~9,600 words after tighten pass (May 2026)

@@ -125,32 +125,7 @@ revision. They would contribute to future crises.
 
 But here—after collapse—they worked.
 
-### **The Pattern Reasserts Itself**
-
-By this point in the book, the pattern should feel familiar:
-
-Collapse produces instability\
-Instability demands coordination\
-Coordination compresses moral space\
-Certainty tightens to hold what remains
-
-The medieval world did not misunderstand morality.\
-It adapted it.
-
-This chapter does not defend medieval hierarchy. It explains it. It
-shows how certainty, once again, arrived not through reflection, but
-through necessity.
-
-That certainty will not remain contained.\
-It will be inherited, challenged, fractured, and scaled beyond its
-limits.
-
-But in this moment—after collapse and before expansion—it was doing
-exactly what certainty has always done best:
-
 It held.
-
-**Instability Demands Compression.**
 
 [^c7-readaptation]: See E. H. Carr, *What Is History?* (New York: Vintage Books, 1961).
 [^c7-post-plague-tenure]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).

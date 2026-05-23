@@ -111,19 +111,15 @@ When we judge early moral systems by modern standards of autonomy or
 pluralism, we risk misunderstanding what they were for. Certainty was
 not an epistemic claim. It was a coordination tool.
 
-### **The Pattern Begins Here**
+### **Coordination Before Moralization**
 
 At this stage in history, certainty had not yet become moralized,
 inherited, or overextended. It was local, practical, and closely tied to
 survival.
 
 When coordination becomes fragile, societies narrow interpretation,
-behavior, and acceptable disagreement in order to stabilize action.
-
-**Instability Demands Compression.**
-
-This book will trace how that compression hardens, travels, and
-outlives its original purpose.
+behavior, and acceptable disagreement in order to stabilize action—
+instability demanding compression before anyone names it as doctrine.
 
 But here—at the beginning—it was necessary.
 

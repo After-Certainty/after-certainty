@@ -114,13 +114,10 @@ inability to adapt without rupture.
 Practices first adopted for survival or coordination gradually become
 treated as moral truths rather than adaptive responses.
 
-Sacred authority made large-scale society possible. It also set the
-conditions for future crises—when inherited certainty would be preserved
-long after it stopped fitting the world it governed.
-
-That tension does not resolve here.
-
-It carries forward.
+Sacred authority made large-scale society possible. Grain through the
+temple, ritual through the calendar, obedience through the gods—what
+held the city together had already begun to feel like the shape of the
+good itself.
 
 [^c3-temple-economy]: See Mary Douglas, *Purity and Danger* (London: Routledge, 1966); Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).
 [^c3-sacred-authority]: See Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973); Thomas S. Kuhn, *The Structure of Scientific Revolutions* (Chicago: University of Chicago Press, 1962).

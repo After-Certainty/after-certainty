@@ -136,8 +136,6 @@ was destabilizing.
 Truth-seeking would come later.
 First, order had to hold.
 
-**Instability Demands Compression.**
-
 At this stage, certainty is no longer local. It is institutional. It is
 recorded, inherited, and enforced. Moral systems begin to outlast the
 pressures that formed them—not yet as a problem, but as a feature.

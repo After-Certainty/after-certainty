@@ -179,13 +179,9 @@ is maintained through process rather than contact.
 
 The system has not failed.
 
-But it has reached the point where its costs are no longer invisible.
-
-**Tools Survive Their Purpose.**
-
-The next chapter will stop here—at the moment just before certainty
-begins to fail, not because it is rejected, but because it can no longer
-carry what is being asked of it.
+But it has reached the point where its costs are no longer invisible—
+where tools that once stabilized coordination now survive their purpose
+even as the fit thins.
 
 [^c9-factory-time]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978); Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001).
 [^c9-weber-bureaucracy]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).

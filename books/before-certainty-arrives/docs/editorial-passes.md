@@ -103,9 +103,29 @@ make validate-book-specs
 
 Update `status.md` word count; refresh `author-read-through-gate.md` checklist.
 
+## Pass 8 — Tighten and trust
+
+**Goal:** Subtract repetition; let patterns resonate without restating; trust the reader earlier.
+
+Check for:
+
+- ≤5 isolated bold pattern surfacings book-wide (see tier rules in `pattern-language.md`)
+- Ch 10: no triple-explanation clusters
+- Chapter endings: not all "next chapter / carries forward / pattern reassert"
+- Net word count flat or down
+
+Edit moves:
+
+- Embed pattern names in prose where bold feels tagline-ish
+- Cut bridge closings; end on image, tension, or silence
+- Remove meta "This chapter…" and "Later chapters will trace…" where redundant
+
+See [`feedback-pass-tighten-2026.md`](feedback-pass-tighten-2026.md).
+
 ## References
 
 - [`book-rules.md`](book-rules.md)
 - [`pattern-language.md`](pattern-language.md)
 - [`beta-reader-feedback-editorial-2026.md`](beta-reader-feedback-editorial-2026.md)
+- [`feedback-pass-tighten-2026.md`](feedback-pass-tighten-2026.md)
 - [`grounding-pass-checklist.md`](grounding-pass-checklist.md)

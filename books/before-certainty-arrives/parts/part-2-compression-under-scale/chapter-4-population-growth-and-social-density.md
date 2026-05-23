@@ -55,8 +55,6 @@ struggle to respond.
 Certainty becomes more urgent—not because truth has been clarified, but
 because hesitation is costly.
 
-**Instability Demands Compression.**
-
 ### **Trade Networks and Moral Abstraction**
 
 Expanded trade networks connected societies with different customs,
@@ -110,10 +108,6 @@ asked to do more than it was designed to do. It had to coordinate
 strangers, justify abstraction, and stabilize authority at scale.
 
 The conditions were set for a transformation.
-
-The next chapters trace how certainty responds when compression
-intensifies—how authority becomes sacred, morality becomes universal,
-and meaning is reshaped to travel farther than it ever had before.
 
 By then, the distance between what rulers decided and what subjects
 endured would be built into the architecture of moral life itself.

@@ -136,27 +136,6 @@ to operate with inherited authority.[^c6-tools-outliving]
 At this stage, certainty has not yet failed.
 But it has begun to harden.
 
-### **What Permanence Makes Possible—and What It Costs**
-
-Permanence enables continuity across generations, coordination without
-proximity, authority without presence.
-
-It also costs contextual judgment, adaptive flexibility, and visibility
-of original purpose.
-
-The more durable the tool, the harder it is to question.
-The more unquestioned it becomes, the more moral force it accumulates
-independent of fit.
-
-This chapter marks a turning point.
-
-Certainty is no longer only compressed.
-It is stored.
-
-Later chapters will trace what happens when stored certainty is
-inherited without constraint, defended without context, and asked to
-govern worlds far removed from the conditions that first required it.
-
 For now, permanence has done its work.
 And quietly, the gap between what institutions record and what people
 experience has begun to widen.

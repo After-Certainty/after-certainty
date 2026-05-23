@@ -47,10 +47,8 @@ They demand allegiance long after they stop stabilizing meaning.
 This persistence is not corruption.
 It is inertia.
 
-**Tools Survive Their Purpose.**
-
-Certainty lasts because it once worked—and because nothing else yet
-does.
+Tools survive their purpose: certainty lasts because it once worked—
+and because nothing else yet does.
 
 Recognizing this does not require condemnation.\
 It requires historical honesty.

@@ -16,6 +16,8 @@
 
 ## Current starting phase
 
-**Phase 4b — Editorial grounding** (historical anchors, rhythm variation, three-pattern language, ~11–12k essay target).
+**Phase 4c — Tighten and trust** (pattern tiering, trim over-explanation, asymmetric endings; net flat word count).
+
+Prior: Phase 4b editorial grounding (complete).
 
 See [upcoming/docs/_templates/drafting-process.md.template](../../docs/_templates/drafting-process.md.template) for full phase definitions.

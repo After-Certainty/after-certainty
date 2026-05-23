@@ -127,36 +127,13 @@ The Renaissance and age of exploration do not dissolve certainty. They
 multiply it. They do not reduce compression. They redistribute it. Moral
 systems fracture outward while tightening inward.
 
-The adaptive pattern remains intact:
-
-Expansion produces instability\
-Instability produces boundary-making\
-Boundary-making produces renewed certainty
-
 What changes is not the need for certainty, but the arena in which it
 operates.
 
-### **Carrying the Pattern Forward**
-
-This chapter does not mark the end of inherited certainty.
-
-It marks its diffusion.
-
-Certainty survives by attaching itself to institutions, identities, and
-emerging systems capable of enforcing coordination across difference.
-The problem of scale has not been solved—only deferred.
-
-The next chapters will trace how certainty re-consolidates, not through
-shared belief, but through durable structures designed to govern
-increasingly abstract societies.
-
 The fracture does not break certainty.
-It prepares it for institutional form.
-
-**What Holds Becomes Moral.**
-
-Each tradition defended its inherited order as moral truth—not because
-every claim was new, but because difference forced identity to harden.
+It prepares it for institutional form—each tradition defending its
+inherited order as moral truth because difference forced identity to
+harden.
 
 [^c8-braudel-plurality]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981); E. H. Carr, *What Is History?* (New York: Vintage Books, 1961).
 [^c8-printing-press]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).

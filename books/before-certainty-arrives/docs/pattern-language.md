@@ -48,10 +48,11 @@ Document here only; do not series-market in chapter prose.
 
 1. **Prose first, name second** — The pattern must feel discovered, not announced.
 2. **Introduce once, quietly** — Full trio in introduction prose; not academic framing.
-3. **Bold inline compression only** — At most **one** bold surfacing per chapter: `**Instability Demands Compression.**`
-4. **Never** — Pattern callout boxes, "Pattern:" labels, numbered catalogues, diagrams in chapter prose, re-defining all three in every chapter, WOLTY-style density, per-chapter pattern headers visible to readers.
-5. **Not in historical anchors** — No bold pattern names inside anchor paragraphs.
-6. **Scarcity** — Three patterns total; do not add named patterns without revisiting this doc.
+3. **Bold inline compression only** — At most **one** bold surfacing per chapter when earned; book-wide target **≤5 isolated bold lines** after tighten pass (not every chapter needs one).
+4. **Surfacing tiers (tighten pass)** — **Tier A:** isolated bold OK (Ch 6, conclusion). **Tier B:** embed only, no isolated bold (Ch 1, 2, 4, 7). **Tier C:** embed preferred (Ch 5, 8, 9, 10).
+5. **Never** — Pattern callout boxes, "Pattern:" labels, numbered catalogues, diagrams in chapter prose, re-defining all three in every chapter, WOLTY-style density, per-chapter pattern headers visible to readers.
+6. **Not in historical anchors** — No bold pattern names inside anchor paragraphs.
+7. **Scarcity** — Three patterns total; do not add named patterns without revisiting this doc.
 
 ## Format
 
@@ -84,22 +85,24 @@ Title case in bold surfacing. Sentence case acceptable in introduction list form
 
 *Distance between action and consequence* — emotional thread, not a fourth pattern. Thread lightly in Ch 4, 6, 9 closing bridges; one callback phrase where it earns tension.
 
-## Chapter surfacing status
+## Chapter surfacing status (after tighten pass)
 
 | Ch | Pattern(s) surfaced | Status |
 |----|---------------------|--------|
 | Intro | All three (quiet list) | done |
-| 1 | Instability Demands Compression | done |
-| 2 | Instability Demands Compression | done |
-| 3 | What Holds Becomes Moral | done |
-| 4 | Instability Demands Compression | done |
-| 5 | What Holds Becomes Moral | done |
-| 6 | Tools Survive Their Purpose | done |
-| 7 | Instability Demands Compression | done |
-| 8 | What Holds Becomes Moral | done |
-| 9 | Tools Survive Their Purpose | done |
-| 10 | Tools Survive Their Purpose | done |
-| Conclusion | Tools Survive (recognition line) | done |
+| 1 | Instability (embedded) | done |
+| 2 | Instability (embedded) | done |
+| 3 | What Holds (section + prose) | done |
+| 4 | Instability (embedded) | done |
+| 5 | What Holds (embedded) | done |
+| 6 | Tools Survive (isolated bold) | done |
+| 7 | Instability (embedded) | done |
+| 8 | What Holds (embedded) | done |
+| 9 | Tools Survive (embedded) | done |
+| 10 | Tools Survive (embedded) | done |
+| Conclusion | Tools Survive (embedded) | done |
+
+**Isolated bold count:** 1 (Ch 6 only).
 
 ## Portfolio reuse
 
@@ -109,4 +112,4 @@ These three names may be invoked in later books without full re-definition. Keep
 
 - [`book-rules.md`](book-rules.md)
 - [`grounding-pass-checklist.md`](grounding-pass-checklist.md)
-- [`beta-reader-feedback-editorial-2026.md`](beta-reader-feedback-editorial-2026.md)
+- [`feedback-pass-tighten-2026.md`](feedback-pass-tighten-2026.md)
