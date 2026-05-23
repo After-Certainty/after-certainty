@@ -1,6 +1,7 @@
 import { ButtonLink } from "@/components/ui/button-link";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
+import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { siteConfig } from "@/lib/site-config";
 
 export function StartClosing() {
@@ -15,7 +16,18 @@ export function StartClosing() {
           <ButtonLink href="/" variant="primary">
             Explore the project
           </ButtonLink>
-          <ButtonLink href={siteConfig.githubUrl} variant="ghost" target="_blank" rel="noopener noreferrer">
+          <ButtonLink
+            href={siteConfig.githubUrl}
+            variant="ghost"
+            target="_blank"
+            rel="noopener noreferrer"
+            analytics={outboundLinkAnalytics(
+              siteConfig.githubUrl,
+              "Contribute on GitHub",
+              "start_closing",
+              "github",
+            )}
+          >
             Contribute on GitHub
           </ButtonLink>
         </div>

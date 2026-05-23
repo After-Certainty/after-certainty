@@ -93,6 +93,16 @@ export function resolvePodcastPlatformLinks(): PodcastPlatformLinks {
   };
 }
 
+/** Default GA4 measurement ID (public). Override with `NEXT_PUBLIC_GA_MEASUREMENT_ID`. */
+export const DEFAULT_GA_MEASUREMENT_ID = "G-H7FSEF4WLW";
+
+/** GA4 web stream ID for client analytics (production + consent required for cookies/events). */
+export function resolveGaMeasurementId(): string | null {
+  const envId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim();
+  if (envId) return envId;
+  return DEFAULT_GA_MEASUREMENT_ID;
+}
+
 /** Open Graph / Twitter card title (~50–60 chars for link preview tools). */
 export const OG_SHARE_TITLE =
   "After Certainty — An Intellectual Commons for Human Systems";

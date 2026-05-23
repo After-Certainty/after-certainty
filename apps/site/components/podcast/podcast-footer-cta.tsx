@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { TrackedLink } from "@/components/analytics/tracked-link";
+import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { resolvePodcastPlatformLinks } from "@/lib/site-config";
@@ -19,14 +21,20 @@ export function PodcastFooterCta() {
           >
             Explore the books
           </Link>
-          <Link
+          <TrackedLink
             href={githubDiscussions}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex min-h-[44px] min-w-[11rem] items-center justify-center border border-accent/35 bg-accent-soft px-8 py-3 text-xs uppercase tracking-[0.26em] text-accent transition-colors hover:bg-accent/12 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+            analytics={outboundLinkAnalytics(
+              githubDiscussions,
+              "Join the conversation",
+              "podcast_footer",
+              "github",
+            )}
           >
             Join the conversation
-          </Link>
+          </TrackedLink>
         </div>
       </Container>
     </Section>

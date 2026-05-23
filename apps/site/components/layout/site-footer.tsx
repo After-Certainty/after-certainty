@@ -1,5 +1,7 @@
 import Link from "next/link";
+import { TrackedLink } from "@/components/analytics/tracked-link";
 import { SiteLockup } from "@/components/branding/site-lockup";
+import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { GitHubSymbol } from "@/components/icons/social/GitHubSymbol";
 import { LinkedInSymbol } from "@/components/icons/social/LinkedInSymbol";
 import { MediumSymbol } from "@/components/icons/social/MediumSymbol";
@@ -16,6 +18,7 @@ export function SiteFooter() {
     { label: "RSS / Podcast feed", href: resolvePodcastRssUrl() },
     { label: "Collaborators", href: "/collaborators" },
     { label: "Explore patterns", href: "/explore/patterns" },
+    { label: "Privacy & cookies", href: "/privacy" },
   ];
 
   const social = resolveSiteSocialLinks();
@@ -49,42 +52,46 @@ export function SiteFooter() {
             </ul>
             <p className="mt-8 text-xs uppercase tracking-[0.25em] text-muted">Elsewhere</p>
             <div className="mt-3 flex flex-wrap items-center gap-0.5" aria-label="Social profiles">
-              <Link
+              <TrackedLink
                 href={social.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="After Certainty on GitHub"
                 className={socialIconClass}
+                analytics={outboundLinkAnalytics(social.github, "GitHub", "footer_social", "github")}
               >
                 <GitHubSymbol className="h-5 w-5" />
-              </Link>
-              <Link
+              </TrackedLink>
+              <TrackedLink
                 href={social.medium}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Kevin Steffensen on Medium"
                 className={socialIconClass}
+                analytics={outboundLinkAnalytics(social.medium, "Medium", "footer_social", "medium")}
               >
                 <MediumSymbol className="h-5 w-auto" />
-              </Link>
-              <Link
+              </TrackedLink>
+              <TrackedLink
                 href={social.linkedIn}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Kevin Steffensen on LinkedIn"
                 className={socialIconClass}
+                analytics={outboundLinkAnalytics(social.linkedIn, "LinkedIn", "footer_social", "linkedin")}
               >
                 <LinkedInSymbol className="h-5 w-5" />
-              </Link>
-              <Link
+              </TrackedLink>
+              <TrackedLink
                 href={social.youtube}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="@kstefftube on YouTube"
                 className={socialIconClass}
+                analytics={outboundLinkAnalytics(social.youtube, "YouTube", "footer_social", "youtube")}
               >
                 <YouTubeSymbol className="h-5 w-5" />
-              </Link>
+              </TrackedLink>
             </div>
           </div>
         </div>

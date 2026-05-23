@@ -1,6 +1,8 @@
 import { Section } from "@/components/ui/section";
 import { Container } from "@/components/ui/container";
+import { TrackedLink } from "@/components/analytics/tracked-link";
 import { CTAButton } from "@/components/collaborators/cta-button";
+import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { resolvePodcastPlatformLinks, siteConfig } from "@/lib/site-config";
 
 export function CollaboratorsGithub() {
@@ -42,27 +44,39 @@ export function CollaboratorsGithub() {
               <div className="flex flex-col gap-1 sm:flex-row sm:gap-4">
                 <dt className="shrink-0 text-xs uppercase tracking-[0.2em] text-muted/80">Repository</dt>
                 <dd>
-                  <a
+                  <TrackedLink
                     className="text-accent underline-offset-4 hover:text-fg hover:underline"
                     href={siteConfig.githubUrl}
                     target="_blank"
                     rel="noreferrer"
+                    analytics={outboundLinkAnalytics(
+                      siteConfig.githubUrl,
+                      "Repository",
+                      "collaborators_github",
+                      "github",
+                    )}
                   >
                     {siteConfig.githubUrl.replace(/^https:\/\//, "")}
-                  </a>
+                  </TrackedLink>
                 </dd>
               </div>
               <div className="flex flex-col gap-1 sm:flex-row sm:gap-4">
                 <dt className="shrink-0 text-xs uppercase tracking-[0.2em] text-muted/80">Discussions</dt>
                 <dd>
-                  <a
+                  <TrackedLink
                     className="text-accent underline-offset-4 hover:text-fg hover:underline"
                     href={githubDiscussions}
                     target="_blank"
                     rel="noreferrer"
+                    analytics={outboundLinkAnalytics(
+                      githubDiscussions,
+                      "GitHub Discussions",
+                      "collaborators_github",
+                      "github",
+                    )}
                   >
                     GitHub Discussions
-                  </a>
+                  </TrackedLink>
                   <span className="mt-1 block text-[13px] text-muted/85">
                     A place for slower threads aligned with the repos—not a replacement for in-depth editorial exchange.
                   </span>
@@ -72,10 +86,27 @@ export function CollaboratorsGithub() {
           </div>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <CTAButton href={siteConfig.githubUrl} variant="primary" target="_blank" rel="noreferrer">
+            <CTAButton
+              href={siteConfig.githubUrl}
+              variant="primary"
+              target="_blank"
+              rel="noreferrer"
+              analytics={outboundLinkAnalytics(siteConfig.githubUrl, "Open on GitHub", "collaborators_github", "github")}
+            >
               Open on GitHub
             </CTAButton>
-            <CTAButton href={githubDiscussions} variant="secondary" target="_blank" rel="noreferrer">
+            <CTAButton
+              href={githubDiscussions}
+              variant="secondary"
+              target="_blank"
+              rel="noreferrer"
+              analytics={outboundLinkAnalytics(
+                githubDiscussions,
+                "Browse discussions",
+                "collaborators_github",
+                "github",
+              )}
+            >
               Browse discussions
             </CTAButton>
           </div>

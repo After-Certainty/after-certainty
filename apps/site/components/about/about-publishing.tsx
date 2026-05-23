@@ -1,6 +1,7 @@
 import { AtmosphericSection } from "@/components/collaborators/atmospheric-section";
 import { CTAButton } from "@/components/collaborators/cta-button";
 import { Container } from "@/components/ui/container";
+import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { siteConfig } from "@/lib/site-config";
 
 export function AboutPublishing() {
@@ -24,7 +25,13 @@ export function AboutPublishing() {
             </p>
           </div>
           <div className="mt-12 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
-            <CTAButton href={siteConfig.githubUrl} variant="primary" target="_blank" rel="noreferrer">
+            <CTAButton
+              href={siteConfig.githubUrl}
+              variant="primary"
+              target="_blank"
+              rel="noreferrer"
+              analytics={outboundLinkAnalytics(siteConfig.githubUrl, "View on GitHub", "about_publishing", "github")}
+            >
               View on GitHub
             </CTAButton>
             <CTAButton href="/collaborators" variant="secondary">

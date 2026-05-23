@@ -1,6 +1,8 @@
 import Image from "next/image";
-import type { Pattern } from "@/types/semanticGraph";
+import { TrackedLink } from "@/components/analytics/tracked-link";
+import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { patternHasMedia, youtubeEmbedUrl, youtubeWatchUrl } from "@/lib/explore/entity-media";
+import type { Pattern } from "@/types/semanticGraph";
 
 type ExplorePatternMediaProps = {
   pattern: Pattern;
@@ -15,6 +17,7 @@ export function ExplorePatternMedia({ pattern }: ExplorePatternMediaProps) {
   const { youtubeVideoId, mediumArticleUrl, infographic } = pattern;
   const showVideo = Boolean(youtubeVideoId);
   const showInfographic = Boolean(infographic?.url);
+  const watchUrl = youtubeVideoId ? youtubeWatchUrl(youtubeVideoId) : null;
 
   return (
     <div className="mt-10 max-w-2xl space-y-8 border-t border-border/30 pt-10">
@@ -32,18 +35,21 @@ export function ExplorePatternMedia({ pattern }: ExplorePatternMediaProps) {
               referrerPolicy="strict-origin-when-cross-origin"
             />
           </div>
-          <p className="text-sm text-muted">
-            Having trouble playing the video?{" "}
-            <a
-              href={youtubeWatchUrl(youtubeVideoId!)}
-              className="text-accent underline-offset-4 hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Open it on YouTube
-            </a>
-            .
-          </p>
+          {watchUrl ? (
+            <p className="text-sm text-muted">
+              Having trouble playing the video?{" "}
+              <TrackedLink
+                href={watchUrl}
+                className="text-accent underline-offset-4 hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+                analytics={outboundLinkAnalytics(watchUrl, "Open it on YouTube", "explore_pattern_media", "youtube")}
+              >
+                Open it on YouTube
+              </TrackedLink>
+              .
+            </p>
+          ) : null}
         </div>
       ) : null}
 
@@ -63,14 +69,15 @@ export function ExplorePatternMedia({ pattern }: ExplorePatternMediaProps) {
 
       {mediumArticleUrl ? (
         <p className="text-base leading-relaxed text-muted">
-          <a
+          <TrackedLink
             href={mediumArticleUrl}
             className="text-accent underline-offset-4 hover:underline"
             target="_blank"
             rel="noopener noreferrer"
+            analytics={outboundLinkAnalytics(mediumArticleUrl, "Read on Medium", "explore_pattern_media", "medium")}
           >
             Read on Medium
-          </a>
+          </TrackedLink>
         </p>
       ) : null}
     </div>

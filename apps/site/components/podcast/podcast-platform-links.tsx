@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { TrackedLink } from "@/components/analytics/tracked-link";
+import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import type { PodcastPlatformLinks } from "@/lib/site-config";
@@ -48,9 +49,10 @@ type RowProps = {
   label: string;
   href?: string;
   placeholder?: boolean;
+  platform?: string;
 };
 
-function PlatformRow({ icon, label, href, placeholder }: RowProps) {
+function PlatformRow({ icon, label, href, placeholder, platform }: RowProps) {
   const inner = (
     <>
       <span className="flex h-10 w-10 items-center justify-center rounded-full border border-border/50 text-muted transition-colors group-hover:border-accent/35 group-hover:text-accent">
@@ -70,17 +72,18 @@ function PlatformRow({ icon, label, href, placeholder }: RowProps) {
   }
 
   return (
-    <Link
+    <TrackedLink
       href={href}
       target="_blank"
       rel="noopener noreferrer"
       className="group flex items-center gap-4 rounded-md border border-border/40 px-4 py-3 transition-colors hover:border-accent/30 hover:bg-bg-elevated/20"
+      analytics={outboundLinkAnalytics(href, label, "podcast_platforms", platform)}
     >
       {inner}
       <span className="ml-auto text-xs uppercase tracking-[0.2em] text-muted opacity-0 transition-opacity group-hover:opacity-100">
         →
       </span>
-    </Link>
+    </TrackedLink>
   );
 }
 
@@ -96,21 +99,28 @@ export function PodcastPlatformLinks({ links }: { links: PodcastPlatformLinks })
           Subscribe in the app you already use — or pull the open RSS feed into any reader.
         </p>
         <div className="mx-auto mt-12 grid max-w-lg gap-3">
-          <PlatformRow icon={<IconSpotify className="h-4 w-4" />} label="Spotify" href={links.spotify} />
+          <PlatformRow icon={<IconSpotify className="h-4 w-4" />} label="Spotify" href={links.spotify} platform="spotify" />
           <PlatformRow
             icon={<IconApple className="h-4 w-4" />}
             label="Apple Podcasts"
             href={applePlaceholder ? undefined : links.apple}
             placeholder={applePlaceholder}
+            platform="apple"
           />
-          <PlatformRow icon={<IconRss className="h-4 w-4" />} label="RSS" href={links.rss} />
+          <PlatformRow icon={<IconRss className="h-4 w-4" />} label="RSS" href={links.rss} platform="rss" />
           <PlatformRow
             icon={<IconYoutube className="h-4 w-4" />}
             label="YouTube"
             href={links.youtube || undefined}
             placeholder={!links.youtube}
+            platform="youtube"
           />
-          <PlatformRow icon={<IconGithub className="h-4 w-4" />} label="GitHub discussions" href={links.githubDiscussions} />
+          <PlatformRow
+            icon={<IconGithub className="h-4 w-4" />}
+            label="GitHub discussions"
+            href={links.githubDiscussions}
+            platform="github"
+          />
         </div>
       </Container>
     </Section>

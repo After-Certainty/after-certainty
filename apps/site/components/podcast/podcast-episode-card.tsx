@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { TrackedLink } from "@/components/analytics/tracked-link";
+import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import type { PodcastEpisode } from "@/types/content";
 import { formatEpisodeDisplayDate } from "@/lib/podcast/format";
 import { truncatePlaintext } from "@/lib/podcast/sanitize";
@@ -63,14 +64,15 @@ export function PodcastEpisodeCard({
 
           <div className="mt-10 flex flex-wrap gap-4">
             {canListen ? (
-              <Link
+              <TrackedLink
                 href={listenHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex min-h-[44px] items-center justify-center border border-accent/45 bg-accent-soft px-8 py-3 text-xs uppercase tracking-[0.26em] text-accent transition-colors hover:bg-accent/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                analytics={outboundLinkAnalytics(listenHref, "Open in app", "podcast_episode_detail", "podcast")}
               >
                 Open in app
-              </Link>
+              </TrackedLink>
             ) : null}
           </div>
         </div>
@@ -93,14 +95,15 @@ export function PodcastEpisodeCard({
         </div>
         <div className="shrink-0 md:pt-1">
           {canListen ? (
-            <Link
+            <TrackedLink
               href={listenHref}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex min-h-[44px] min-w-[9rem] items-center justify-center border border-border/55 px-5 py-2.5 text-[11px] uppercase tracking-[0.24em] text-accent transition-colors hover:border-accent/40 hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+              analytics={outboundLinkAnalytics(listenHref, "Listen", "podcast_episode_list", "podcast")}
             >
               Listen
-            </Link>
+            </TrackedLink>
           ) : (
             <span className="inline-flex min-h-[44px] items-center text-xs text-muted/70">Audio pending</span>
           )}

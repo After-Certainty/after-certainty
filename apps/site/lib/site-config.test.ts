@@ -2,10 +2,32 @@ import { afterEach, describe, expect, it } from "vitest";
 
 import {
   DEFAULT_BOOKS_MANIFEST_URL,
+  DEFAULT_GA_MEASUREMENT_ID,
   isBooksManifestOffline,
   resolveBooksManifestUrl,
+  resolveGaMeasurementId,
   resolveSiteSocialLinks,
 } from "@/lib/site-config";
+
+describe("resolveGaMeasurementId", () => {
+  let prev: string | undefined;
+  afterEach(() => {
+    if (prev === undefined) delete process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+    else process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID = prev;
+  });
+
+  it("uses default measurement ID when env unset", () => {
+    prev = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+    delete process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+    expect(resolveGaMeasurementId()).toBe(DEFAULT_GA_MEASUREMENT_ID);
+  });
+
+  it("trims custom NEXT_PUBLIC_GA_MEASUREMENT_ID", () => {
+    prev = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+    process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID = "  G-CUSTOM123  ";
+    expect(resolveGaMeasurementId()).toBe("G-CUSTOM123");
+  });
+});
 
 describe("resolveBooksManifestUrl", () => {
   let prev: string | undefined;
