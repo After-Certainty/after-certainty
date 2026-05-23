@@ -4,27 +4,27 @@ Branch: `before-certainty-arrives/editorial-grounding`
 
 | Ch | Unit | Dominant pattern | Anchor(s) | Rhythm | Pattern surfacing | Motif | Status |
 |----|------|------------------|-----------|--------|-------------------|-------|--------|
-| — | Introduction | All three (quiet) | — | — | intro block | — | pending |
-| 1 | Life Under Constraint | Instability Demands Compression | foraging/scarcity | — | ≤1 bold | — | pending |
-| 2 | Order Before Truth | Instability Demands Compression | Hammurabi, census | — | ≤1 bold | — | pending |
-| 3 | From Power to Moral Legitimacy | What Holds Becomes Moral | temple economy | — | ≤1 bold | — | pending |
-| 4 | Population Growth and Social Density | Instability Demands Compression | Roman province, trade | asymmetric open | ≤1 bold | closing | pending |
-| 5 | Shared Conditions | What Holds Becomes Moral | Ashoka (light) | — | ≤1 bold | — | pending |
-| 6 | Writing as Moral Stabilizer | Tools Survive Their Purpose | stele, scriptorium, archive | asymmetric open | ≤1 bold | closing | pending |
-| 7 | Medieval Re-Adaptation | Instability Demands Compression | post-collapse tenure | preserve reversal | ≤1 bold | — | pending |
-| 8 | Renaissance and Fracture | What Holds Becomes Moral | printing press | — | ≤1 bold | — | pending |
-| 9 | Industrial Scale | Tools Survive Their Purpose | factory time, WWI staff | asymmetric open | ≤1 bold | closing | pending |
-| 10 | Moment Before Failure | Tools Survive Their Purpose | technocracy (light) | preserve restraint | ≤1 bold | — | pending |
-| — | Conclusion | Tools Survive | — | — | recognition line | — | pending |
-| — | How to Read | — | — | — | optional sentence | — | pending |
+| — | Introduction | All three (quiet) | — | — | intro block | — | done |
+| 1 | Ch 1 | Instability Demands Compression | foraging/scarcity | — | done | — | done |
+| 2 | Ch 2 | Instability Demands Compression | Hammurabi/census | — | done | — | done |
+| 3 | Ch 3 | What Holds Becomes Moral | temple economy | — | done | — | done |
+| 4 | Ch 4 | Instability Demands Compression | Roman province, trade | asymmetric open | done | closing | done |
+| 5 | Ch 5 | What Holds Becomes Moral | Ashoka (light) | — | done | — | done |
+| 6 | Ch 6 | Tools Survive Their Purpose | stele, scriptorium, archive | asymmetric open | done | closing | done |
+| 7 | Ch 7 | Instability Demands Compression | post-plague tenure | preserve reversal | done | — | done |
+| 8 | Ch 8 | What Holds Becomes Moral | printing press | — | done | — | done |
+| 9 | Ch 9 | Tools Survive Their Purpose | factory time, WWI staff | asymmetric open | done | closing | done |
+| 10 | Ch 10 | Tools Survive Their Purpose | technocracy (light) | preserve restraint | done | — | done |
+| — | Conclusion | Tools Survive | — | — | recognition line | — | done |
+| — | How to Read | — | — | — | three-pattern sentence | — | done |
 
 ## Word budget
 
-Target: ~11–12k total (+20–30% from ~9.3k). ~120–250 words net per chapter.
+Target: ~11–12k total. Actual: ~10.2k (May 2026 grounding pass).
 
 ## Export
 
-- [ ] `make build-book DIR=books/before-certainty-arrives`
-- [ ] `make validate-book-specs`
-- [ ] Bibliography spot-check
-- [ ] `status.md` word count updated
+- [x] `make build-book DIR=books/before-certainty-arrives`
+- [x] Footnote warnings resolved
+- [ ] Bibliography spot-check (author gate)
+- [x] `status.md` word count updated

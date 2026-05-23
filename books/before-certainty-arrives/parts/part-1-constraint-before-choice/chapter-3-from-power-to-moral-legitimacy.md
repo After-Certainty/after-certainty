@@ -4,20 +4,20 @@
 
 **When Authority Becomes Sacred**
 
-**Time Period:\**
+**Time Period:**
 c. 2500–800 BCE
 
-**Geographic Scope:\**
+**Geographic Scope:**
 Early empires and theocratic states (Near East, Egypt, Mesopotamia,
 Shang/Zhou China)
 
 Authority begins as a solution.
 
-In early large-scale societies, coordination problems multiplied faster
-than trust could. Distance widened between decision and consequence.
-Disagreement became costly. Under these conditions, authority did not
-merely organize action—it reduced uncertainty. It answered questions
-before they could fracture the group.
+In early large-scale societies, coordination problems outran trust.
+Distance widened between decision and consequence. Disagreement became
+costly. Under these conditions, authority did not merely organize
+action—it reduced uncertainty. It answered questions before they could
+fracture the group.
 
 But authority alone was not enough. To remain stable across time,
 generations, and stress, it needed protection.
@@ -61,6 +61,20 @@ This is not manipulation in the modern sense. It is adaptation. Large
 societies cannot renegotiate legitimacy continuously. Sacred framing
 allowed authority to persist without constant explanation.
 
+### **Temple Economies and Ritual Obligation**
+
+In Egypt and Mesopotamia, temple complexes were not merely religious
+sites—they were redistribution centers, record keepers, and moral
+anchors. Grain flowed through sacred storehouses. Priests maintained
+calendars that synchronized planting, tribute, and festival. What began
+as coordination—who eats when, who owes what—gradually became moral
+order itself. The practice that held society together was treated as
+goodness, not merely as necessity.[^c3-temple-economy]
+
+Ritual obligation made visible what abstract law could not: belonging,
+purity, and the cost of deviation. Over time, the stabilizing practice
+and the moral truth became difficult to separate.
+
 ### **Dissent as Moral Failure**
 
 Once authority is moralized, dissent changes shape.
@@ -95,21 +109,10 @@ It means it solved one problem by making another inevitable.
 The ability to coordinate at scale was purchased with a growing
 inability to adapt without rupture.
 
-### **The Pattern Tightens**
+### **What Holds Becomes Moral**
 
-By this point in history, the pattern is clearer:
-
-- Instability demands coordination
-
-- Coordination concentrates authority
-
-- Authority is moralized to protect itself
-
-- Certainty becomes emotionally defended
-
-This chapter does not judge that move.
-
-It names it.
+Practices first adopted for survival or coordination gradually become
+treated as moral truths rather than adaptive responses.
 
 Sacred authority made large-scale society possible. It also set the
 conditions for future crises—when inherited certainty would be preserved
@@ -119,7 +122,5 @@ That tension does not resolve here.
 
 It carries forward.
 
-\
-=
-
+[^c3-temple-economy]: See Mary Douglas, *Purity and Danger* (London: Routledge, 1966); Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).
 [^c3-sacred-authority]: See Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973); Thomas S. Kuhn, *The Structure of Scientific Revolutions* (Chicago: University of Chicago Press, 1962).

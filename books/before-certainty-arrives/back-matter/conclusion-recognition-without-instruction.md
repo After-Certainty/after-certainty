@@ -44,8 +44,10 @@ They continue coordinating long after they stop fitting.\
 They retain authority long after they stop persuading.\
 They demand allegiance long after they stop stabilizing meaning.
 
-This persistence is not corruption.\
+This persistence is not corruption.
 It is inertia.
+
+**Tools Survive Their Purpose.**
 
 Certainty lasts because it once worked—and because nothing else yet
 does.

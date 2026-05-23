@@ -88,18 +88,18 @@ Title case in bold surfacing. Sentence case acceptable in introduction list form
 
 | Ch | Pattern(s) surfaced | Status |
 |----|---------------------|--------|
-| Intro | All three (quiet list) | pending |
-| 1 | Instability Demands Compression | pending |
-| 2 | Instability Demands Compression | pending |
-| 3 | What Holds Becomes Moral | pending |
-| 4 | Instability Demands Compression | pending |
-| 5 | What Holds Becomes Moral | pending |
-| 6 | Tools Survive Their Purpose | pending |
-| 7 | Instability Demands Compression | pending |
-| 8 | What Holds Becomes Moral | pending |
-| 9 | Tools Survive Their Purpose | pending |
-| 10 | Tools Survive Their Purpose | pending |
-| Conclusion | Tools Survive (recognition line) | pending |
+| Intro | All three (quiet list) | done |
+| 1 | Instability Demands Compression | done |
+| 2 | Instability Demands Compression | done |
+| 3 | What Holds Becomes Moral | done |
+| 4 | Instability Demands Compression | done |
+| 5 | What Holds Becomes Moral | done |
+| 6 | Tools Survive Their Purpose | done |
+| 7 | Instability Demands Compression | done |
+| 8 | What Holds Becomes Moral | done |
+| 9 | Tools Survive Their Purpose | done |
+| 10 | Tools Survive Their Purpose | done |
+| Conclusion | Tools Survive (recognition line) | done |
 
 ## Portfolio reuse
 

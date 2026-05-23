@@ -55,7 +55,11 @@ church authority, and feudal hierarchy.
 Customary law provided predictability in the absence of centralized
 enforcement. It privileged precedent over interpretation, continuity
 over revision. What had been done before became the strongest available
-justification for what should be done again.
+justification for what should be done again. After the Black Death
+decimated villages across Europe, land tenure and labor obligation were
+renegotiated under pressure—but often through appeal to custom, not
+open invention. The catastrophe did not produce moral experimentation.
+It produced tighter claims on what still held.[^c7-post-plague-tenure]
 
 The Church offered moral universality where political unity no longer
 existed. Sacred authority did not merely sanctify belief; it stabilized
@@ -146,7 +150,7 @@ exactly what certainty has always done best:
 
 It held.
 
-\
--
+**Instability Demands Compression.**
 
 [^c7-readaptation]: See E. H. Carr, *What Is History?* (New York: Vintage Books, 1961).
+[^c7-post-plague-tenure]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).

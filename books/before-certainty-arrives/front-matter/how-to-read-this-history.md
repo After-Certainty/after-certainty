@@ -56,14 +56,18 @@ exclusionary, and rigid—but it was also functional. Recognizing that
 function is not endorsement; it is clarity.
 
 As you read, it may help to watch for **repetition rather than
-advancement**.
+advancement**—and for three structural movements that recur across eras:
 
-Notice how often moral clarity follows catastrophe.\
-Notice how often compression follows instability.\
+Instability demands compression.
+What holds becomes moral.
+Tools survive their purpose.
+
+Notice how often moral clarity follows catastrophe.
+Notice how often compression follows instability.
 Notice how often tools designed to stabilize life resist revision once
 the world changes.
 
-This book does not tell a story of ascent.\
+This book does not tell a story of ascent.
 It tells a story of recurrence.
 
 What comes next—how to live once those patterns are recognized—belongs

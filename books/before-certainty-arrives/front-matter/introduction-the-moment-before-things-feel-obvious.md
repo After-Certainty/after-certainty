@@ -14,7 +14,7 @@ is true. They ask what will hold. What will organize action, limit
 conflict, and make behavior predictable enough to survive another season
 of uncertainty.
 
-Certainty, in this sense, is not born from truth-seeking alone.\
+Certainty, in this sense, is not born from truth-seeking alone.
 It is born from the need to coordinate under pressure.
 
 This book treats certainty as an **adaptive response to instability**.
@@ -24,13 +24,20 @@ because they made life workable under specific constraints. They reduced
 ambiguity. They compressed choice. They stabilized identity. And for
 long stretches of history, they did so effectively.
 
-Across eras, a familiar pattern repeats:
+Across history, the same structural movements recur:
 
-Collapse gives way to compression.\
-Compression produces stabilization.\
-Stabilization hardens into inheritance.\
-Inheritance, carried forward without its original context, eventually
-overextends.
+Instability demands compression.
+
+What holds becomes moral.
+
+Tools survive their purpose.
+
+These patterns appear across civilizations not because humans reach
+identical conclusions, but because similar pressures produce similar
+adaptations. Collapse, scale, and fragmentation do not always produce the
+same institutions—but they repeatedly produce the same kind of response:
+narrow interpretation, stabilize behavior, inherit what worked, and
+carry it forward until it overextends.
 
 This sequence does not unfold smoothly or uniformly. It does not follow
 a single timeline or belong to one civilization. But it appears again
@@ -61,12 +68,9 @@ the book that follows.
 
 The task here is recognition.
 
-To see how certainty arrives.\
-To understand why it feels earned.\
+To see how certainty arrives.
+To understand why it feels earned.
 And to notice the moment just before it becomes difficult to question at
 all.
 
 The next book begins after that recognition arrives.
-
-\
-=

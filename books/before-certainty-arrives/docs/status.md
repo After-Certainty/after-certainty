@@ -14,7 +14,7 @@
 
 ## Word target
 
-~11–12k words (grounding pass; essay edition)
+~10.2k words (grounding pass complete; essay edition)
 
 ## Unit progress
 
@@ -55,4 +55,4 @@ None recorded.
 ## Rough scale
 
 - ~9,300 words baseline (May 2026)
-- Target ~11–12k after grounding pass
+- ~10,200 words after grounding pass (May 2026)

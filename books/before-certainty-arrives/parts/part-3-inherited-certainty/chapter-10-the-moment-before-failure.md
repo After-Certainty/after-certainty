@@ -78,19 +78,29 @@ Institutions still command compliance, but no longer deference.
 Expertise is accepted, but contested. Authority is recognized, but
 rarely admired. Legitimacy persists in fragments rather than wholes.
 
-People do not reject certainty outright.\
+People do not reject certainty outright.
 They hedge.
 
-They comply pragmatically.\
-They distrust selectively.\
+They comply pragmatically.
+They distrust selectively.
 They participate without identification.
 
 This produces a brittle equilibrium—stable enough to continue, fragile
-enough to feel constantly at risk.
+enough to feel constantly at risk. Public institutions still speak the
+language of expertise and procedure, but the tone has shifted from
+confidence to management. Explanation continues. Trust does not fully
+return.
 
 ### **Visible Strain Without Open Failure**
 
 The signs of strain are no longer hidden.
+
+Postwar planning offices, actuarial tables, and technocratic committees
+promised that complexity could be managed through expertise—climate
+models, welfare formulas, development indices. The tools still
+functioned. They still commanded resources. But they increasingly
+governed conditions far removed from the pressures that first made
+centralized certainty feel indispensable.[^c10-technocracy]
 
 Institutions are overextended. Moral credibility erodes faster than
 authority. Fragmentation accelerates across political, cultural, and
@@ -140,4 +150,9 @@ The next book begins after that moment.
 
 After recognition arrives.[^c10-recognition-threshold]
 
+**Tools Survive Their Purpose.**
+
+The systems still run. The fit has thinned.
+
 [^c10-recognition-threshold]: See Thomas S. Kuhn, *The Structure of Scientific Revolutions* (Chicago: University of Chicago Press, 1962); Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973).
+[^c10-technocracy]: See Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001); Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).

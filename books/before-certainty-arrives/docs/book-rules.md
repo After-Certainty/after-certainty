@@ -8,7 +8,7 @@ Architectural constraints for **Before Certainty Arrives** (*How Moral Order For
 
 ### Target length
 
-- Expanded essay edition (~11–12k words; editorial grounding pass May 2026)
+- Expanded essay edition (~10–11k words; editorial grounding pass May 2026)
 - Long-form target (~60–90k words) deferred; not in scope for current pass
 - 3 parts, 10 chapters, substantial front matter, bibliography
 

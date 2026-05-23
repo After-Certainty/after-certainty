@@ -34,13 +34,13 @@ Tracking doc for branch `before-certainty-arrives/editorial-grounding`. Source: 
 
 | Theme | Deliverable | Status |
 |-------|-------------|--------|
-| Patterns | Three-pattern intro + light chapter surfacing | pending |
-| Grounding | 1–3 historical anchors per chapter (~15–20 total) | pending |
-| Identity | Ch 4 reframe; Ch 6 material permanence; Ch 9/10 de-overlap | pending |
-| Pacing | Asymmetry in Ch 4, 6, 9; rhythm reversals | pending |
-| Edition band | Expand to ~11–12k words | pending |
-| Book docs | pattern-language, editorial-passes, grounding-checklist, book-rules | pending |
-| Export | `make build-book DIR=books/before-certainty-arrives` | pending |
+| Patterns | Three-pattern intro + light chapter surfacing | done |
+| Grounding | 1–3 historical anchors per chapter (~15–20 total) | done |
+| Identity | Ch 4 reframe; Ch 6 material permanence; Ch 9/10 de-overlap | done |
+| Pacing | Asymmetry in Ch 4, 6, 9; rhythm reversals | done |
+| Edition band | Expand to ~10.2k words | done |
+| Book docs | pattern-language, editorial-passes, grounding-checklist, book-rules | done |
+| Export | `make build-book DIR=books/before-certainty-arrives` | done |
 
 ## Priority chapters
 

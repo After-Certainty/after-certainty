@@ -28,8 +28,14 @@ Those systems still functioned. They still commanded loyalty. They still
 explained much of the world. What changed was scale—not of population
 collapse or institutional ruin, but of exposure.
 
-Certainty was no longer wrong.\
+Certainty was no longer wrong.
 It was no longer alone.
+
+When Gutenberg's press multiplied identical texts across cities within
+years rather than generations, disagreement could spread as fast as
+doctrine. Competing Bibles, competing catechisms, competing claims to
+final authority—each community tightened its own boundaries as exposure
+widened.[^c8-printing-press]
 
 ### **The Diversification of Moral Imagination**
 
@@ -49,7 +55,7 @@ Multiple ways of understanding the world began to coexist, not
 sequentially but simultaneously. Moral imagination widened faster than
 coordination could follow. Competing explanations did not simply
 disagree; they addressed different aspects of reality using incompatible
-standards.
+standards.[^c8-braudel-plurality]
 
 The result was not relativism.\
 It was plurality under constraint.
@@ -144,7 +150,13 @@ The next chapters will trace how certainty re-consolidates, not through
 shared belief, but through durable structures designed to govern
 increasingly abstract societies.
 
-The fracture does not break certainty.\
+The fracture does not break certainty.
 It prepares it for institutional form.
 
+**What Holds Becomes Moral.**
+
+Each tradition defended its inherited order as moral truth—not because
+every claim was new, but because difference forced identity to harden.
+
 [^c8-braudel-plurality]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981); E. H. Carr, *What Is History?* (New York: Vintage Books, 1961).
+[^c8-printing-press]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).

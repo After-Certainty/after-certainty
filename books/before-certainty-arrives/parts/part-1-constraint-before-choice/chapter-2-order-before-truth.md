@@ -2,10 +2,10 @@
 
 ## **Order Before Truth**
 
-**Time Period:\**
+**Time Period:**
 c. 3000–1200 BCE
 
-**Geographic Scope:\**
+**Geographic Scope:**
 Early large-scale civilizations (Mesopotamia, Egypt, Indus Valley, early
 China)
 
@@ -68,13 +68,12 @@ happen if they complied, if they deviated, and if conflict arose. Moral
 systems that provided this clarity—however rigid—outperformed those that
 invited interpretation.
 
-The moral achievement of these societies was not nuance.\
+The moral achievement of these societies was not nuance.
 It was reliability.
 
 ### **Moral Compression as Coordination Technology**
 
-At this stage, moral life undergoes a recognizable transformation:
-**compression**.
+At this stage, moral life undergoes a recognizable transformation.
 
 As scale increases, the range of acceptable behaviors, interpretations,
 and identities narrows. Roles become clearer. Deviations become more
@@ -99,19 +98,21 @@ compression**.[^c2-moral-compression]
 
 ### **Law, Kingship, and Cosmos as Stabilizers**
 
-Bronze Age moral systems are often described in terms of their content:
-the severity of their laws, the absolutism of their rulers, the rigidity
-of their cosmologies. But these features are better understood
-functionally.
+The stele of Hammurabi stood in public view: hundreds of cases rendered
+as fixed categories—if a builder’s house collapses, if a debtor defaults,
+if a son strikes his father. The code did not invite deliberation. It
+externalized judgment so disputes could be resolved without constant
+renegotiation.[^c2-hammurabi-order]
 
-Law codes externalized judgment so that disputes could be resolved
-without constant renegotiation. Divine kingship centralized
-decision-making so that authority did not fracture under scale.
+Elsewhere, tribute lists and census records made abstract obligation
+concrete. Grain owed, labor due, households counted—these were
+coordination technologies as much as economic ones. Divine kingship
+centralized decision-making so authority did not fracture under scale.
 Cosmology embedded moral order in the structure of reality itself,
 making compliance feel inevitable rather than optional.
 
-These tools compressed moral space.\
-They reduced uncertainty.\
+These tools compressed moral space.
+They reduced uncertainty.
 They made large societies governable.
 
 From a modern perspective, this compression can look oppressive or
@@ -124,7 +125,7 @@ without alternatives.
 What distinguishes this period is not ignorance of moral truth, but
 postponement of it.
 
-Bronze Age moral systems did not deny complexity.\
+Bronze Age moral systems did not deny complexity.
 They deferred it.
 
 The immediate task was survival at scale—maintaining order across
@@ -132,27 +133,19 @@ distance, time, and difference. Moral reflection that threatened
 stability was not encouraged, not because it was false, but because it
 was destabilizing.
 
-Truth-seeking would come later.\
+Truth-seeking would come later.
 First, order had to hold.
 
-### **The Pattern Deepens**
-
-With the rise of large-scale civilization, the pattern introduced in the
-previous chapter evolves:
-
-Constraint produces compression.\
-Compression produces certainty.
+**Instability Demands Compression.**
 
 At this stage, certainty is no longer local. It is institutional. It is
 recorded, inherited, and enforced. Moral systems begin to outlast the
 pressures that formed them—not yet as a problem, but as a feature.
 
-The moral question remains practical:\
+The moral question remains practical:
 How do we keep this system intact?
 
 The question of whether it is *true* can wait.
 
-\
--
-
 [^c2-moral-compression]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).
+[^c2-hammurabi-order]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).

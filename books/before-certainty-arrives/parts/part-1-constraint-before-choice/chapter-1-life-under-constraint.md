@@ -2,10 +2,10 @@
 
 ## **Life Under Constraint**
 
-**Time Period:\**
+**Time Period:**
 c. 300,000 BCE – 2000 BCE
 
-**Geographic Scope:\**
+**Geographic Scope:**
 Early human societies globally (Stone Age through Early Bronze Age)
 
 *(Stone & Early Bronze Ages)*
@@ -42,6 +42,12 @@ emphasized coordination, role stability, and norm enforcement rather
 than individual justification or deliberative ethics. Ritual, taboo, and
 authority functioned as social technologies for reducing uncertainty
 when material and existential risk was high.[^c1-early-moral-anthropology]
+
+Among foraging bands, a delayed decision about sharing meat or
+defending camp could mean starvation or death before argument finished.
+Seasonal scarcity did not permit prolonged moral debate. Norms that
+narrowed choice under pressure were not philosophical positions—they
+were survival equipment.
 
 ### **Coordination Before Explanation**
 
@@ -107,20 +113,16 @@ not an epistemic claim. It was a coordination tool.
 
 ### **The Pattern Begins Here**
 
-This chapter marks the beginning of a recurring pattern that will appear
-throughout this book:
-
-- Instability produces constraint
-
-- Constraint produces compression
-
-- Compression produces certainty
-
 At this stage in history, certainty had not yet become moralized,
 inherited, or overextended. It was local, practical, and closely tied to
 survival.
 
-This book will eventually trace how that certainty hardens, travels, and
+When coordination becomes fragile, societies narrow interpretation,
+behavior, and acceptable disagreement in order to stabilize action.
+
+**Instability Demands Compression.**
+
+This book will trace how that compression hardens, travels, and
 outlives its original purpose.
 
 But here—at the beginning—it was necessary.
