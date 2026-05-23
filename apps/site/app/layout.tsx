@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Source_Sans_3 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { GoogleAnalyticsLoader } from "@/components/analytics/google-analytics";
 import { ConsentProvider } from "@/components/consent/consent-provider";
@@ -58,6 +60,8 @@ export default function RootLayout({
           <CookieBanner />
         </ConsentProvider>
         <GoogleAnalyticsLoader />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
