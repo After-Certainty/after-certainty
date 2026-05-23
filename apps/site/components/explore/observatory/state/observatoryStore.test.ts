@@ -54,6 +54,43 @@ describe("observatoryStore", () => {
     expect(s.showRelationshipLabels).toBe(false);
   });
 
+  it("focusNode and selectRelationship reset compactFocusOpen to collapsed", () => {
+    const store = createObservatoryStore({
+      focusId: "c1",
+      selectedId: "c1",
+      expandedRootIds: ["c1"],
+    });
+
+    store.getState().setCompactFocusOpen(true);
+    expect(store.getState().compactFocusOpen).toBe(true);
+
+    store.getState().focusNode("c2");
+    expect(store.getState().compactFocusOpen).toBe(false);
+
+    store.getState().setCompactFocusOpen(true);
+    store.getState().selectRelationship({
+      edgeKey: "c1|c2|outruns",
+      sourceId: "c1",
+      targetId: "c2",
+      predicate: "outruns",
+      relationship: { source: "c1", target: "c2", relationship: "outruns" },
+    });
+    expect(store.getState().compactFocusOpen).toBe(false);
+  });
+
+  it("setCompactFocusOpen persists until the next selection change", () => {
+    const store = createObservatoryStore({
+      focusId: "c1",
+      selectedId: "c1",
+      expandedRootIds: ["c1"],
+    });
+
+    store.getState().setCompactFocusOpen(true);
+    expect(store.getState().compactFocusOpen).toBe(true);
+    store.getState().setCompactFocusOpen(false);
+    expect(store.getState().compactFocusOpen).toBe(false);
+  });
+
   it("bumpLayoutRevision increments layoutRevision", () => {
     const store = createObservatoryStore({
       focusId: "c1",

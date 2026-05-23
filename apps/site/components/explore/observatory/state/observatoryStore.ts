@@ -29,6 +29,8 @@ export type ObservatoryStoreState = {
   leftOpen: boolean;
   rightOpen: boolean;
   bottomOpen: boolean;
+  /** Compact observatory bottom focus panel (mobile/tablet). */
+  compactFocusOpen: boolean;
   refitSignal: number;
   layoutRevision: number;
   hoveredEdgeKey: string | null;
@@ -55,6 +57,7 @@ export type ObservatoryStoreActions = {
   setLeftOpen: (open: boolean) => void;
   setRightOpen: (open: boolean) => void;
   setBottomOpen: (open: boolean | ((prev: boolean) => boolean)) => void;
+  setCompactFocusOpen: (open: boolean) => void;
   bumpRefitSignal: () => void;
   bumpLayoutRevision: () => void;
   setShowRelationshipLabels: (v: boolean) => void;
@@ -90,6 +93,7 @@ export function createObservatoryStoreInitialState(seed: {
     leftOpen: false,
     rightOpen: false,
     bottomOpen: false,
+    compactFocusOpen: false,
     refitSignal: 0,
     layoutRevision: 0,
     hoveredEdgeKey: null,
@@ -120,12 +124,14 @@ export function createObservatoryStore(seed: Parameters<typeof createObservatory
         relationshipSelection,
         panelMode: relationshipSelection ? "relationship" : "empty",
         hoveredEdgeKey: relationshipSelection?.edgeKey ?? null,
+        compactFocusOpen: false,
       }),
     clearRelationship: () =>
       set({
         relationshipSelection: null,
         panelMode: get().selectedId ? "entity" : "empty",
         hoveredEdgeKey: null,
+        compactFocusOpen: false,
       }),
     setHoveredEdgeKey: (hoveredEdgeKey) => set({ hoveredEdgeKey }),
     setPanelMode: (panelMode) => set({ panelMode }),
@@ -133,6 +139,7 @@ export function createObservatoryStore(seed: Parameters<typeof createObservatory
     setRightOpen: (rightOpen) => set({ rightOpen }),
     setBottomOpen: (bottomOpen) =>
       set({ bottomOpen: typeof bottomOpen === "function" ? bottomOpen(get().bottomOpen) : bottomOpen }),
+    setCompactFocusOpen: (compactFocusOpen) => set({ compactFocusOpen }),
     bumpRefitSignal: () => set((s) => ({ refitSignal: s.refitSignal + 1 })),
     bumpLayoutRevision: () => set((s) => ({ layoutRevision: s.layoutRevision + 1 })),
     setShowRelationshipLabels: (showRelationshipLabels) => set({ showRelationshipLabels }),
@@ -154,6 +161,7 @@ export function createObservatoryStore(seed: Parameters<typeof createObservatory
         panelMode: "entity",
         hoveredEdgeKey: null,
         showRelationshipLabels: false,
+        compactFocusOpen: false,
       }),
     focusNode: (id, options) => {
       set((s) => ({
@@ -163,6 +171,7 @@ export function createObservatoryStore(seed: Parameters<typeof createObservatory
         panelMode: "entity",
         hoveredEdgeKey: null,
         rightOpen: options?.openPanel ?? s.rightOpen,
+        compactFocusOpen: false,
       }));
     },
     selectNode: (id) => {
@@ -171,6 +180,7 @@ export function createObservatoryStore(seed: Parameters<typeof createObservatory
         relationshipSelection: null,
         panelMode: id ? "entity" : "empty",
         hoveredEdgeKey: null,
+        compactFocusOpen: false,
       });
     },
     togglePin: (id) => {

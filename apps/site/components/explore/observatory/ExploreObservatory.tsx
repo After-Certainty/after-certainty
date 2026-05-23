@@ -12,6 +12,7 @@ import {
 } from "@xyflow/react";
 
 import { ObservatoryBottomDock } from "@/components/explore/observatory/dock/ObservatoryBottomDock";
+import { ObservatoryCompactFocusDock } from "@/components/explore/observatory/dock/ObservatoryCompactFocusDock";
 import { ExploreFlowCanvas } from "@/components/explore/observatory/ExploreFlowCanvas";
 import { ExploreObservatoryHub } from "@/components/explore/observatory/ExploreObservatoryHub";
 import { useObservatoryFlowSync, type LayoutTidySnapshot } from "@/components/explore/observatory/hooks/useObservatoryFlowSync";
@@ -37,6 +38,7 @@ import {
   type ExploreCompactView,
 } from "@/lib/graph/explorePaths";
 import { isAtFreshFocusEntry } from "@/lib/observatory/focusEntry";
+import { entityFocusSummary, relationshipFocusSummary } from "@/lib/observatory/focusSummary";
 import { computeNeighborhoodSignals } from "@/lib/observatory/neighborhoodSignals";
 import {
   relationshipForEdgeKey,
@@ -163,6 +165,7 @@ function ExploreObservatoryInner({
   const leftOpen = store((s) => s.leftOpen);
   const rightOpen = store((s) => s.rightOpen);
   const bottomOpen = store((s) => s.bottomOpen);
+  const compactFocusOpen = store((s) => s.compactFocusOpen);
   const refitSignal = store((s) => s.refitSignal);
   const layoutRevision = store((s) => s.layoutRevision);
   const hoveredEdgeKey = store((s) => s.hoveredEdgeKey);
@@ -577,6 +580,13 @@ function ExploreObservatoryInner({
   const showCompactPanel =
     showCompactObservatory && (panelMode === "entity" || panelMode === "relationship");
 
+  let compactFocusSummary = "";
+  if (panelMode === "relationship" && relationshipSelection) {
+    compactFocusSummary = relationshipFocusSummary(index, relationshipSelection);
+  } else if (panelMode === "entity" && selectedNode) {
+    compactFocusSummary = entityFocusSummary(selectedNode);
+  }
+
   const flowCanvas = (
     <ExploreFlowCanvas
       nodes={nodes}
@@ -626,7 +636,14 @@ function ExploreObservatoryInner({
           </div>
           <div className="relative min-h-0 flex-1">{flowCanvas}</div>
           {showCompactPanel ? (
-            <div className="max-h-[42vh] shrink-0 overflow-y-auto border-t border-border/30 bg-bg/98 px-4 py-4">
+            <ObservatoryCompactFocusDock
+              summary={compactFocusSummary}
+              isOpen={compactFocusOpen}
+              onToggle={() => store.getState().setCompactFocusOpen(!compactFocusOpen)}
+              onSummaryClick={() => {
+                if (!compactFocusOpen) store.getState().setCompactFocusOpen(true);
+              }}
+            >
               <ObservatoryInterpretationPanel
                 index={index}
                 panelMode={panelMode}
@@ -638,7 +655,7 @@ function ExploreObservatoryInner({
                 onHighlightRelationship={onPanelRelationshipHighlight}
                 onTogglePin={(id) => store.getState().togglePin(id)}
               />
-            </div>
+            </ObservatoryCompactFocusDock>
           ) : null}
         </div>
       ) : null}
