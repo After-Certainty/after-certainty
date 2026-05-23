@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 4n — observe-before-compress pass** on `books/before-certainty-arrives/`
+**Phase 4o — late-stage structural pass** on `books/before-certainty-arrives/`
 
 ## Active branch
 
@@ -64,3 +64,4 @@ None recorded.
 - ~8,885 words after inhabited history pass (May 2026)
 - ~8,811 words after refinement pass (May 2026)
 - ~8,918 words after cadence and hinge pass (May 2026)
+- ~9,879 words after late-stage structural pass (May 2026)

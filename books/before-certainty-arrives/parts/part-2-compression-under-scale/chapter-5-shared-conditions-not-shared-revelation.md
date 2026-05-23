@@ -61,9 +61,18 @@ were no longer entirely situational.
 
 Universalism was not an abstraction for its own sake—it was a solution
 to scale, and when populations interact across distance and difference,
-moral rules must read plainly to strangers. Universality compresses moral expectation, reduces negotiation, and steadies
-conduct when shared context is thin—narrowing under strain, necessity
-dressed as virtue rather than generosity alone.
+moral rules must read plainly to strangers. Universality compresses moral
+expectation, reduces negotiation, and steadies conduct when shared
+context is thin.
+
+That structural work does not exhaust what Axial traditions became for
+those who lived inside them. Confucian rites could feel like filial love
+made durable. Buddhist practice could carry genuine release from suffering,
+not only social discipline. Jewish law could bind a people in grief and
+covenant, not only in census. Greek inquiry could open wonder as well as
+argument. The framework here emphasizes coordination under pressure; it
+does not claim that beauty, terror, longing, or sacred encounter were
+mere side effects.
 
 ### **Internal Conscience as Coordination Tool**
 

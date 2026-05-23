@@ -73,6 +73,13 @@ This is not manipulation in the modern sense. It is adaptation. Large
 societies cannot renegotiate legitimacy continuously. Sacred framing
 allowed authority to persist without constant explanation.
 
+That does not mean the experience was hollow. Processions could move
+people with genuine awe. Incense, drumbeat, and ranked ceremony carried
+beauty as well as order. Many who stepped aside did so because the rite
+felt true—not only because refusal was costly. Structural coordination
+and lived meaning often arrived together, and this book treats the first
+without pretending the second was absent.
+
 ### **Temple Economies and Ritual Obligation**
 
 In Egypt and Mesopotamia, temple complexes were not merely religious
@@ -88,11 +95,17 @@ What began as coordination—who eats when, who owes what—gradually became
 moral order itself, treated as goodness and not merely as necessity.[^c3-temple-economy]
 
 Families ate from what the storehouse released. Hunger stayed near enough
-that shared ritual felt like survival, not ornament.
+that shared ritual felt like survival, not ornament. On distribution
+days the queue moved slowly: marked jars checked against ledger marks,
+children held close, priests calling names in an order everyone knew.
+A widow who received her portion on time felt something closer to grace
+than to accounting—relief mixed with belonging, fear of shortage mixed
+with reverence for the place that still fed her.
 
 Ritual obligation made visible what abstract law could not: belonging,
 purity, and the cost of deviation. Over time, the anchoring practice
-and the moral truth became difficult to separate.
+and the moral truth became difficult to separate—even for those who
+experienced both at once.
 
 ### **Dissent as Moral Failure**
 

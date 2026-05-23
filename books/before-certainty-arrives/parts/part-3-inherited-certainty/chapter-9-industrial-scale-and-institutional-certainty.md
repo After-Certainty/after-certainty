@@ -34,6 +34,13 @@ lunch pails on radiators, coats on hooks, clerks comparing notes in a
 handwriting no citizen was meant to reproduce. The room did not feel
 cosmic. It felt like Tuesday.
 
+One clerk might spend a morning matching a misspelled surname on a birth
+certificate to the spelling on a tax roll three years earlier. The work
+was not heroic. It was repetitive, mildly absurd, and indispensable. A
+citizen who finally received the corrected stamp often felt less
+gratitude than exhaustion—another queue finished, another document that
+would have to be produced again somewhere else.
+
 Bureaucracy functions as a moral technology: rules replace discretion,
 procedures replace judgment, roles replace relationships. Responsibility
 is distributed across offices rather than located in persons.
@@ -57,7 +64,8 @@ felt.
 
 For many, the stamped paper brought relief—a name that still opened
 doors after kinship thinned. For others, the same stamp meant fear of
-erasure.
+erasure. The same file could feel like protection or disappearance,
+depending on which side of the desk one stood.
 
 Shared values simplify into civic myths. Complex histories shrink into
 legitimating stories. Certainty persists because participation is

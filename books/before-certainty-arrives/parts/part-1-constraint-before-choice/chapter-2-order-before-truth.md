@@ -69,14 +69,21 @@ but reliability.
 
 ### **Moral Compression as Coordination Technology**
 
-On irrigation day, water moved along channels everyone knew by habit; a
-breach in an embankment could starve three households before elders
-finished arguing principle.
+On irrigation day, water moved along channels everyone knew by habit.
+Women carried jars to the upper terraces while elders watched the level
+in the main channel. A breach in an embankment could starve three
+households before anyone finished arguing principle.
 
-At this stage, moral life undergoes a recognizable transformation as
-scale increases: acceptable behaviors, interpretations, and identities
-narrow, roles clarify, deviations grow costly, and meaning is enforced
-rather than negotiated.
+In one village after a poor harvest, the dispute was not over theology.
+It was over who would draw first when the sluice opened. The elder who
+decided had no special wisdom about justice. He had the authority to
+stop the quarrel before it spread to neighboring fields. People accepted
+the ruling because the season would not wait, not because they had
+settled the deeper question of fairness.
+
+Only later, when scale had already narrowed acceptable behaviors,
+interpretations, and identities—and deviations had grown costly—did
+meaning feel enforced rather than negotiated.
 
 This is **moral compression**.
 
@@ -107,8 +114,9 @@ and made large societies governable in ways kinship alone never could.
 
 From a modern perspective, this compression can look oppressive or
 authoritarian. That judgment, while not wrong, is incomplete. At this
-stage, compression is not yet a moral failure. It is a response to scale
-without alternatives.
+stage, compression is not yet a moral failure. It is, in most cases, a
+response to scale without alternatives—and for many who lived inside it,
+also a form of relief.
 
 ### **Why Truth Could Wait**
 

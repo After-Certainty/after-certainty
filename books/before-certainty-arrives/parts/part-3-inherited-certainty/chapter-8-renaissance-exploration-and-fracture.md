@@ -34,7 +34,13 @@ final authority—each community tightened its own boundaries as exposure
 widened.[^c8-printing-press]
 
 In towns where new texts arrived weekly, neighbors watched each other's
-allegiances as closely as each other's debts.
+allegiances as closely as each other's debts. A baker who had prayed at
+one altar for twenty years might learn that the family across the lane
+now kept different feast days, read a different catechism, and would no
+longer share the same godparents for a child. The quarrel was rarely
+announced as theology. It showed up in who was invited to weddings, who
+was trusted at the market scales, and which funeral rites a household
+could still expect the parish to perform.
 
 ### **The Diversification of Moral Imagination**
 
@@ -66,9 +72,6 @@ the whole.
 
 Certainty did not dissolve so much as relocate, each tradition retaining
 internal coherence even as universal obedience without contest disappeared.
-Disagreement no longer took place within a shared moral frame, but between
-frames—neighbors who had shared a parish unable to assume the same feast
-days, the same oaths, or the same meaning of obedience.
 
 ### **Competing Moral Systems**
 

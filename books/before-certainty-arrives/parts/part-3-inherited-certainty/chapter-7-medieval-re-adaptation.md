@@ -90,7 +90,9 @@ when looser arrangements would have failed.
 One of the persistent myths about moral progress is that collapse
 creates freedom. History suggests the opposite.
 
-After breakdown, certainty usually becomes stricter, not looser.
+After breakdown, certainty often becomes stricter, not looser—though
+exceptions exist, and some periods of collapse have opened space for
+experiment before urgency closed it again.
 
 The medieval period illustrates this pattern clearly. Where Roman
 pluralism had tolerated philosophical diversity within a stable

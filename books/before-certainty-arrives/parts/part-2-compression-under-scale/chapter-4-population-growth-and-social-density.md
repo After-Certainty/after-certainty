@@ -50,16 +50,21 @@ delay as weakness.
 When Iron Age cities came under siege, gates were barred and levies
 counted by household. Defenders waited on walls most inhabitants would
 never see from inside; grain was ground while messengers carried orders
-the city could not refuse. War made obedience immediate because delay
-meant hunger inside the walls, not merely defeat in theory.
+the city could not refuse. Inside, families rationed by the day. A smith
+who had argued with the magistrate yesterday still forged nails for the
+gate today. Quarrels did not disappear; they were postponed because the
+wall mattered more than the grievance.
+
+War made obedience immediate because delay meant hunger inside the walls,
+not merely defeat in theory.
 
 What changes in the Iron Age is not the presence of war, but its scale.
 Authority must mobilize large populations quickly and decisively.
 Moral systems that tolerate prolonged disagreement or local variation
 struggle to respond.
 
-Certainty becomes more urgent when hesitation reads as weakness at the
-wall.
+Certainty becomes more urgent in many Iron Age cities when hesitation
+reads as weakness at the wall.
 
 ### **Trade Networks and Moral Abstraction**
 
@@ -69,10 +74,16 @@ gods, and moral norms. Goods traveled farther than shared meaning.
 A merchant in Tyre might honor one god at home and invoke another at the
 counter where copper ingots changed hands, using weights stamped by an
 authority neither party fully trusted but both needed if trade was to
-proceed. Tribute records and standardized measures let strangers exchange
-under shared rules they did not share as kin, and as interaction widened,
-moral expectations either fractured or were compressed into more general,
-transportable forms.
+proceed. The ingots were heavy; the journey home long. Dispute at the
+scales could ruin a season's profit, so both parties learned to finish
+the exchange before arguing whose custom was higher.
+
+At the harbor, interpreters moved between languages while clerks copied
+tribute lists in duplicate—one copy for the sender, one for the receiver,
+neither trusting memory alone. Tribute records and standardized measures
+let strangers exchange under shared rules they did not share as kin, and
+as interaction widened, moral expectations either fractured or were
+compressed into more general, transportable forms.
 
 Moral life began to abstract. Rules were no longer only about who one
 knew, but about what one was within a system: citizen, subject, soldier,

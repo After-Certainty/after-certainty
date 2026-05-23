@@ -214,6 +214,16 @@ See [`feedback-pass-breathing-2026.md`](feedback-pass-breathing-2026.md).
 
 See [`feedback-pass-narrative-2026.md`](feedback-pass-narrative-2026.md).
 
+## Pass 18 — Observe-before-compress
+
+See [`feedback-pass-observe-2026.md`](feedback-pass-observe-2026.md).
+
+## Pass 19 — Late-stage structural
+
+**Goal:** Six-category feedback — longer historical immersion, phenomenological depth, epistemic humility, embodied modern scenes; reduce pattern-demonstration feel in Ch 2–4 and 8–10.
+
+See [`feedback-pass-late-stage-2026.md`](feedback-pass-late-stage-2026.md).
+
 ## References
 
 - [`book-rules.md`](book-rules.md)
@@ -229,4 +239,6 @@ See [`feedback-pass-narrative-2026.md`](feedback-pass-narrative-2026.md).
 - [`feedback-pass-cadence-2026.md`](feedback-pass-cadence-2026.md)
 - [`feedback-pass-breathing-2026.md`](feedback-pass-breathing-2026.md)
 - [`feedback-pass-narrative-2026.md`](feedback-pass-narrative-2026.md)
+- [`feedback-pass-observe-2026.md`](feedback-pass-observe-2026.md)
+- [`feedback-pass-late-stage-2026.md`](feedback-pass-late-stage-2026.md)
 - [`grounding-pass-checklist.md`](grounding-pass-checklist.md)

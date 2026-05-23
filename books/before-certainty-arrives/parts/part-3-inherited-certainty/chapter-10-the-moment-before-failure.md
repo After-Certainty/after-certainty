@@ -22,7 +22,10 @@ In airports and filing queues, the machinery still turned on schedule—
 forms cleared, gates called, obligations met.
 
 Compliance felt like relief and dependency at once—structure holding lives
-together even as identification faded.
+together even as identification faded. A traveler who cleared customs
+without incident might feel nothing so grand as belief: only the quiet
+satisfaction of being recognized by a system that did not require
+intimacy to function.
 
 Overnight briefings and morning headlines multiplied faster than
 consequences could be fully absorbed. Each closed account opened others;
