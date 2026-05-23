@@ -54,7 +54,12 @@ It preserved it.
 
 ### **Law and the Compression of Judgment**
 
-Legal codes formalized moral expectation.
+At a city gate, a clerk read the case aloud while farmers and merchants
+waited in the heat. No one in the crowd needed a theory of justice to
+know what mattered: whether the ruling would hold tomorrow, and whether
+the same words would be read if the dispute returned.
+
+Legal codes formalized that expectation.
 
 They translated diffuse norms into enforceable categories: permitted,
 forbidden, punishable. Law reduced ambiguity not by resolving moral
@@ -62,13 +67,8 @@ disagreement, but by declaring which interpretations would count.
 
 Law narrows discretion so coordination can persist without constant
 negotiation. It allows authority to act consistently across cases,
-locations, and officials.
-
-The benefit is predictability.
-The cost is flexibility.
-
-Judgment becomes rule-bound. Context yields to category. What once
-required discernment becomes procedural.
+locations, and officials—predictable at the cost of flexibility, as
+judgment gave way to category and discernment to procedure.
 
 ### **Canon and the Freezing of Meaning**
 

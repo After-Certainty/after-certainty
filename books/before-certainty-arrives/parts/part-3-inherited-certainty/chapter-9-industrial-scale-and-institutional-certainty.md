@@ -29,6 +29,11 @@ flourished.
 
 ### **Bureaucracy as Moral Infrastructure**
 
+Before the first form was stamped, the office was already ordinary:
+lunch pails on radiators, coats on hooks, clerks comparing notes in a
+handwriting no citizen was meant to reproduce. The room did not feel
+cosmic. It felt like Tuesday.
+
 Bureaucracy functions as a moral technology: rules replace discretion,
 procedures replace judgment, roles replace relationships. Responsibility
 is distributed across offices rather than located in persons.

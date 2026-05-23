@@ -48,6 +48,11 @@ human revision.
 
 ### **Why Sacred Framing Works**
 
+On festival mornings the procession moved before argument could: drums,
+incense, ranks of officials in the order everyone recognized. People
+stepped aside not because they had finished debating legitimacy, but
+because the ceremony was already underway.
+
 Sacralization protects authority in three ways:
 
 First, it shifts disagreement from the political to the moral. To

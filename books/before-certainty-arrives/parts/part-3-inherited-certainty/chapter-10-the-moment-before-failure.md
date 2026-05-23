@@ -28,6 +28,11 @@ Overnight briefings and morning headlines multiplied faster than
 consequences could be fully absorbed. Each closed account opened others;
 saturation arrived as noise, not yet as rupture.
 
+Elsewhere the week continued in the usual way: payroll deposits clearing,
+children delivered to school, prescriptions refilled because the system
+still recognized a name. Nothing in those routines required conviction.
+They required only that the machinery keep its appointments.
+
 And yet, something is no longer holding in the same way—the tension not
 between belief and disbelief, but between necessity and fit.
 

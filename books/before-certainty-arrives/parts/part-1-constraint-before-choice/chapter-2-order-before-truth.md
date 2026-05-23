@@ -88,6 +88,10 @@ if a son strikes his father. The code did not invite deliberation. It
 externalized judgment so disputes could be resolved without constant
 renegotiation.[^c2-hammurabi-order]
 
+People gathered in the stele's shade while a reader sounded out the cases.
+Some listened for principle; most watched to learn whether the dispute
+they had brought would end today.
+
 When the code answered, both parties walked away knowing what would
 follow—not necessarily satisfied, but less afraid of arbitrary force.
 

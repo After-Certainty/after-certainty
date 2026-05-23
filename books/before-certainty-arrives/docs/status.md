@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 4m — pacing variation pass** on `books/before-certainty-arrives/`
+**Phase 4n — observe-before-compress pass** on `books/before-certainty-arrives/`
 
 ## Active branch
 
