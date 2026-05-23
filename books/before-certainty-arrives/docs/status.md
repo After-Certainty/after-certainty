@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 4j — cadence and hinge pass** on `books/before-certainty-arrives/`
+**Phase 4k — breathing room pass** on `books/before-certainty-arrives/`
 
 ## Active branch
 

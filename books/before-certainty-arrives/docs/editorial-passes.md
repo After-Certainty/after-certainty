@@ -202,6 +202,12 @@ See [`feedback-pass-refinement-2026.md`](feedback-pass-refinement-2026.md).
 
 See [`feedback-pass-cadence-2026.md`](feedback-pass-cadence-2026.md).
 
+## Pass 16 — Breathing room
+
+**Goal:** Vary pacing and sentence texture; reduce uniformly aphoristic cadence without weakening compression.
+
+See [`feedback-pass-breathing-2026.md`](feedback-pass-breathing-2026.md).
+
 ## References
 
 - [`book-rules.md`](book-rules.md)
@@ -215,4 +221,5 @@ See [`feedback-pass-cadence-2026.md`](feedback-pass-cadence-2026.md).
 - [`feedback-pass-inhabited-2026.md`](feedback-pass-inhabited-2026.md)
 - [`feedback-pass-refinement-2026.md`](feedback-pass-refinement-2026.md)
 - [`feedback-pass-cadence-2026.md`](feedback-pass-cadence-2026.md)
+- [`feedback-pass-breathing-2026.md`](feedback-pass-breathing-2026.md)
 - [`grounding-pass-checklist.md`](grounding-pass-checklist.md)

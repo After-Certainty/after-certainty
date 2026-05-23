@@ -24,10 +24,8 @@ that inherited categories could not fully contain. The ledger could
 balance while the moral map could not.
 
 What changed was scale—not of population collapse or institutional ruin,
-but of exposure.
-
-Certainty was no longer wrong.
-It was no longer alone.
+but of exposure, and certainty was no longer wrong so much as no longer
+alone.
 
 When Gutenberg's press multiplied identical texts across cities within
 years rather than generations, disagreement could spread as fast as
@@ -65,15 +63,11 @@ fragmented across emerging nation-states. Intellectual authority
 dispersed among universities, patrons, guilds, and courts. No single
 institution could plausibly claim to govern meaning across the whole.
 
-Certainty did not dissolve. It relocated—each tradition retaining
-internal coherence while universal obedience without contest disappeared.
-
-Disagreement no longer took place within a shared moral frame.
-It took place between frames.
-
-Neighbors who had shared a parish could no longer assume the same feast
-days, the same oaths, or the same meaning of obedience—belonging
-tightened by exclusion.
+Certainty did not dissolve so much as relocate, each tradition retaining
+internal coherence even as universal obedience without contest disappeared.
+Disagreement no longer took place within a shared moral frame, but between
+frames—neighbors who had shared a parish unable to assume the same feast
+days, the same oaths, or the same meaning of obedience.
 
 ### **Competing Moral Systems**
 

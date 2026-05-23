@@ -46,10 +46,10 @@ and again wherever humans attempt to live together under pressure.
 
 War, famine, migration, and fragmentation often precede moral
 breakthroughs. Catastrophe rarely makes people wiser; it makes older
-answers insufficient. What follows is rarely open-ended
-reflection. It is the rapid construction of certainty: clear roles,
-sacred authority, fixed law, moral absolutes. These are not signs of
-moral failure. They are signs of adaptation.
+answers insufficient, and what follows is rarely open-ended reflection
+so much as the rapid construction of certainty—clear roles, sacred
+authority, fixed law, moral absolutes that mark adaptation rather than
+moral failure.
 
 Moral clarity, in other words, often follows catastrophe rather than
 contemplation.
@@ -69,9 +69,7 @@ the book that follows.
 
 The task here is recognition.
 
-To see how certainty arrives.
-To understand why it feels earned.
-And to notice the moment just before it becomes difficult to question at
-all.
+To see how certainty arrives, understand why it feels earned, and notice
+the moment just before it becomes difficult to question at all.
 
 The next book begins after that recognition arrives.

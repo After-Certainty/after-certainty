@@ -8,8 +8,7 @@ c. 500–1400 CE
 **Geographic Scope:\**
 Post-Roman Europe
 
-Collapse does not create openness.\
-It creates urgency.
+Collapse does not create openness; it creates urgency.
 
 Roman milestones rotted in weeds. Smoke rose from villages that no longer
 answered to a distant capital; a farmer who had paid tribute all his life

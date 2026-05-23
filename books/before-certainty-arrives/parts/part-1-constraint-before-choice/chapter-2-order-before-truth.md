@@ -14,11 +14,10 @@ China)
 As societies grow, coordination becomes fragile.
 
 Small groups can rely on familiarity, shared memory, and immediate
-feedback to sustain moral life. Large societies cannot. Distance
-increases. Roles multiply. Authority stretches across people who will
-never meet one another. Under these conditions, moral systems are no
-longer asked merely to hold behavior in line within a group. They are asked
-to hold order across scale.
+feedback to sustain moral life; large societies cannot. As distance
+widens, roles multiply, and authority stretches across people who will
+never meet one another, moral systems are no longer asked merely to hold
+behavior in line within a group—they are asked to hold order across scale.
 
 This is the world of early large-scale civilizations.
 
@@ -74,10 +73,9 @@ systems that provided this clarity—however rigid—outperformed those that
 invited interpretation.
 
 Relief came before righteousness: a farmer who knew the levy in advance
-could plan the season without waiting on a ruler's mood.
-
-The moral achievement of these societies was not nuance.
-It was reliability.
+could plan the season without waiting on a ruler's mood, and in that
+predictability lay the period's distinctive moral achievement—not nuance,
+but reliability.
 
 ### **Moral Compression as Coordination Technology**
 
@@ -113,9 +111,8 @@ centralized decision-making so authority did not fracture under scale.
 Cosmology embedded moral order in the structure of reality itself,
 making compliance feel inevitable rather than optional.
 
-These tools compressed moral space.
-They reduced uncertainty.
-They made large societies governable.
+Taken together, these tools compressed moral space, reduced uncertainty,
+and made large societies governable in ways kinship alone never could.
 
 From a modern perspective, this compression can look oppressive or
 authoritarian. That judgment, while not wrong, is incomplete. At this
@@ -127,15 +124,10 @@ without alternatives.
 What distinguishes this period is not ignorance of moral truth, but
 postponement of it.
 
-Bronze Age moral systems did not deny complexity.
-They deferred it.
-
-The immediate task was survival at scale—maintaining order across
-distance, time, and difference. Moral reflection that threatened
-stability was not encouraged. The fear was fracture, not falsehood.
-
-Truth-seeking would come later.
-First, order had to hold.
+Bronze Age moral systems did not deny complexity; they deferred it while
+maintaining order across distance, time, and difference. Moral reflection
+that threatened stability was not encouraged—the fear was fracture, not
+falsehood—and truth-seeking would wait until order had first learned to hold.
 
 At this stage, certainty is no longer local. It is institutional. It is
 recorded, inherited, and enforced. Moral systems begin to outlast the

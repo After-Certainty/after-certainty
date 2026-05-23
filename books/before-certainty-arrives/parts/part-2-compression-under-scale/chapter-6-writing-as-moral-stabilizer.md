@@ -132,14 +132,10 @@ responding to new realities.
 **Tools Survive Their Purpose.**
 
 Moral instruments outlive the pressures that shaped them, yet continue
-to operate with inherited authority.[^c6-tools-outliving]
-
-At this stage, certainty has not yet failed.
-But it has begun to harden.
-
-For now, permanence has done its work.
-And quietly, the gap between what institutions record and what people
-experience has begun to widen.
+to operate with inherited authority.[^c6-tools-outliving] At this stage
+certainty has not yet failed, though it has begun to harden; permanence
+has done its work, and quietly the gap between what institutions record
+and what people experience has begun to widen.
 
 When the roads failed and collectors stopped coming, that gap became
 something ordinary people had to cross without a map.

@@ -19,14 +19,10 @@ planners would never see. The person who signed the order rarely stood
 where the consequence landed.[^c9-factory-time]
 
 Workers arrived tired and left tired; the bell gave exhaustion a schedule
-that families at home learned to depend on.
-
-Industrial modernity did not invent certainty.
-It reorganized it.
-
-Millions of people had to work, move, fight, trade, and comply
-together—often without shared culture, direct trust, or interpersonal
-accountability. Coordination required durable, repeatable, impersonal
+that families at home learned to depend on. Industrial modernity did not
+invent certainty so much as reorganize it, and millions of people now had
+to work, move, fight, trade, and comply together—often without shared
+culture, direct trust, or interpersonal accountability. Coordination required durable, repeatable, impersonal
 mechanisms—the factory bell, the file, the timetable replacing the temple
 wall as the visible limit of argument. This is the environment in which institutional certainty
 flourished.
@@ -43,9 +39,9 @@ institutional reliability.
 
 ### **The Nation-State and Abstract Belonging**
 
-The modern nation-state consolidates certainty by abstracting identity.
-Citizenship replaces kinship. Law replaces custom. Loyalty is owed to an
-imagined collective sustained through symbols, narratives, and
+The modern nation-state consolidates certainty by abstracting identity:
+citizenship replaces kinship, law replaces custom, and loyalty is owed to
+an imagined collective sustained through symbols, narratives, and
 institutions.
 
 In Budapest and Manchester, census takers moved door to door; clerks
@@ -65,10 +61,10 @@ enforcement. Identity thins into paperwork.
 
 ### **Capitalism and Functional Morality**
 
-Market systems coordinate behavior without requiring shared values.
-Price replaces agreement. Responsibility shifts from individual intent
-to systemic role. Certainty operates as inevitability—the system
-assumed rather than argued for.
+Market systems coordinate behavior without requiring shared values: price
+replaces agreement, responsibility shifts from individual intent to systemic
+role, and certainty often operates as inevitability—the system assumed
+rather than argued for.
 
 ### **When Certainty Becomes Impersonal**
 
@@ -78,14 +74,13 @@ verify. People comply without understanding, participate without
 authorship, and experience harm without a clear agent to name.
 
 People learned to depend on systems they could not explain—to reach for
-forms when trust in persons had thinned.
+forms when trust in persons had thinned. Critique was reframed as ignorance,
+dissent redirected into process, and failures explained rather than
+corrected as slow inertia resisted revision.
 
-Critique is reframed as ignorance. Dissent is redirected into process.
-Failures are explained rather than corrected—slow inertia resisting
-revision because disruption threatens scale itself.
-
-Strain is visible everywhere. Meaning thins. Confidence is maintained
-through process rather than contact.
+Strain showed in offices and queues long before systems admitted failure:
+meaning thinned, confidence was maintained through process rather than
+contact, and the machinery kept running.
 
 The system has not failed.
 

@@ -12,8 +12,9 @@ interdependence
 ### **A Threshold, Not a Break**
 
 By the late twentieth century, the tools of certainty still largely
-function. Institutions continue to govern. Law, markets, and
-administrative systems continue to coordinate life at scale.
+functioned: institutions continued to govern, and law, markets, and
+administrative systems still coordinated life at scale even as something
+in the fit began to loosen.
 
 Nothing has yet failed.
 
@@ -50,13 +51,10 @@ constraint, not false consciousness.
 
 ### **Explanation and Managed Doubt**
 
-Institutional explanation remains credible. Failures are investigated.
-Reports are issued. Causes are identified.
-
-In hearing rooms far from the harm, investigators spread binders across
-tables and traced causation on charts. Press releases promised correction.
-Downstream, people still waited in lines while forms cleared. Explanation
-proceeded on schedule even when trust did not return with it.
+Institutional explanation remained credible—failures investigated, reports
+issued, causes identified—yet in hearing rooms far from the harm,
+investigators spread binders across tables and traced causation on charts
+while downstream people still waited in lines for forms to clear.
 
 In offices that never fully closed, staff rotated through one crisis into
 the next—institutional exhaustion without open collapse. Meetings ended
@@ -70,13 +68,13 @@ held in check by procedure.
 ### **Visible Strain Without Open Failure**
 
 Postwar planning offices, actuarial tables, and technocratic committees
-promised that complexity could be managed through expertise. The tools
-still functioned. They still commanded resources. But they increasingly
+had promised that complexity could be managed through expertise, and the
+tools still functioned and still commanded resources even as they
 governed conditions far removed from the pressures that first made
 centralized certainty feel indispensable.[^c10-technocracy]
 
-Institutions are overextended. Moral credibility erodes faster than
-authority. Saturation, not dysfunction.
+Institutions were overextended, moral credibility eroding faster than
+authority—a saturation of fit rather than open dysfunction.
 
 This book stops here on purpose—at the edge of recognition, before
 certainty is rejected and before understanding gives way to something

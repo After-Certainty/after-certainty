@@ -100,9 +100,8 @@ This reframing raises the cost of revision. To admit error would be to
 undermine the moral foundation of authority. Authority hardened when
 revision felt like collapse; certainty was the cheapest way to buy time.
 
-At this stage, certainty gains emotional armor.
-
-It is no longer only believed. It is defended.
+At this stage, certainty gains emotional armor—it is no longer only
+believed but defended.
 
 ### **The Cost of Sacred Authority**
 

@@ -56,20 +56,14 @@ What was needed was certainty that could travel.
 Axial traditions introduced moral claims that were no longer tied
 exclusively to tribe, city, or ruler.
 
-Justice applied beyond kin.\
-Duty extended beyond role.\
-Right and wrong were no longer entirely situational.
+Justice applied beyond kin, duty extended beyond role, and right and wrong
+were no longer entirely situational.
 
-Universalism was not an abstraction for its own sake. It was a solution
-to scale.
-
-When populations interact across distance and difference, moral rules
-must read plainly to strangers. Universality compresses moral expectation.
-It reduces negotiation. It steadies conduct when shared context is
-thin.
-
-This was not moral generosity alone.\
-It was narrowing under strain—necessity dressed as virtue.
+Universalism was not an abstraction for its own sake—it was a solution
+to scale, and when populations interact across distance and difference,
+moral rules must read plainly to strangers. Universality compresses moral expectation, reduces negotiation, and steadies
+conduct when shared context is thin—narrowing under strain, necessity
+dressed as virtue rather than generosity alone.
 
 ### **Internal Conscience as Coordination Tool**
 
@@ -92,8 +86,8 @@ sleep—no elder present, only memory.
 A merchant alone on a road still felt the weight of an unkept oath; shame
 could enforce what no watcher saw.
 
-Internal conscience did not replace authority.\
-It supplemented it.
+Internal conscience did not replace authority; it supplemented it when
+watchers could not be everywhere.
 
 ### **Transcendent Standards**
 
@@ -103,18 +97,16 @@ God, Dao, Dharma, Reason—each served as a reference point not reducible
 to any single ruler or institution. Transcendence anchored legitimacy
 when political authority was fragmented or contested.
 
-If power shifts, the standard remains.\
-If rulers fail, the law persists.
+If power shifted or rulers failed, the standard could remain while law
+persisted.
 
 Exiles carried transcendent law like packed grain—something that still
 made sense when homeland, shrine, and ruler had all failed them.
 
 This allowed moral systems to survive instability without constant
-reinvention. Transcendence compressed disagreement by relocating
-authority outside human contestation.
-
-The cost, which will emerge later, is rigidity.\
-But at this stage, stability mattered more.
+reinvention, though transcendence also compressed disagreement by
+relocating authority outside human contestation—a trade whose cost,
+rigidity, would emerge later.
 
 ### **Portable Ethics for Mobile Societies**
 
@@ -148,17 +140,13 @@ similar constraints.
 
 ### **Adaptive Compression, Not Final Clarity**
 
-The Axial response did not resolve moral life.\
-It held.
+The Axial response did not resolve moral life, but for a time it held.
 
 Universal claims, internal conscience, and transcendent standards
 allowed societies to coordinate under conditions that would otherwise
 fragment them. These tools reduced ambiguity, limited variance, and made
-moral expectation durable across scale.
-
-They were adaptive.\
-They were effective.\
-And they were not designed to be final.
+moral expectation durable across scale—adaptive, effective, and never
+designed to be final.
 
 In India, Ashoka's edicts—carved on pillars and rock faces across a
 vast empire—proclaimed dharma not as private revelation but as public
