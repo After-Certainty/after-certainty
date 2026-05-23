@@ -23,14 +23,10 @@ portable ethics could no longer travel on voice alone.
 
 Earlier forms of certainty relied on repetition, presence, and shared
 memory. But as populations expanded and authority stretched across
-distance, these mechanisms became insufficient. Oral tradition
-fractured. Local enforcement weakened. Meaning drifted as it traveled.
-
-The response was not more compression alone.
-It was storage.
-
-Writing, law, and canon emerged as tools designed to hold meaning steady
-when people could not.
+distance, these mechanisms became insufficient—oral tradition fractured,
+local enforcement weakened, and meaning drifted as it traveled. The
+response was storage as much as compression: writing, law, and canon to
+hold meaning steady when people could not be present to one another.
 
 ### **Stone, Scroll, Archive**
 

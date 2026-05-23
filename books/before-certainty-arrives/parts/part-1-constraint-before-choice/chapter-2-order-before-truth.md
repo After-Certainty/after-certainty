@@ -36,21 +36,11 @@ into wet clay while the river still ran high. Before anyone asked whether
 the arrangement was just, farmers needed to know what would be taken and
 what would remain.
 
-Rules must apply to people who are not present. Authority must persist
-beyond individual leaders. Expectations must remain readable across
-generations. Under these conditions, moral systems that depend on
-explanation, persuasion, or personal judgment become unreliable.
-
-What replaces them is order.
-
-Law codes define behavior in advance. Cosmologies place action within a
-stable moral universe. Divine kingship concentrates authority so that
-decisions do not fragment across competing interpretations. These
-systems do not ask individuals to understand why a rule exists. They ask
-them to follow it.
-
-Bronze Age societies were reflective enough. Reflection did not scale
-cleanly. Order did.
+Rules had to bind people who were not present, authority had to outlive
+individual leaders, and expectations had to stay readable across
+generations—conditions under which moral systems built on explanation,
+persuasion, or personal judgment simply failed, and what replaced them
+was order made legible in law, cosmology, and kingship.
 
 ### **Order Before Justification**
 
@@ -79,17 +69,14 @@ but reliability.
 
 ### **Moral Compression as Coordination Technology**
 
-At this stage, moral life undergoes a recognizable transformation.
+On irrigation day, water moved along channels everyone knew by habit; a
+breach in an embankment could starve three households before elders
+finished arguing principle.
 
-As scale increases, the range of acceptable behaviors, interpretations,
-and identities narrows. Roles become clearer. Deviations become more
-costly. Meaning is enforced rather than negotiated—how large systems
-reduce friction under pressure.
-
-Under pressure, moral systems shed flexibility in exchange for
-durability. Fewer options make choice predictable. Narrower
-interpretations make enforcement possible. Clear boundaries make
-authority actionable.
+At this stage, moral life undergoes a recognizable transformation as
+scale increases: acceptable behaviors, interpretations, and identities
+narrow, roles clarify, deviations grow costly, and meaning is enforced
+rather than negotiated.
 
 This is **moral compression**.
 
@@ -129,13 +116,9 @@ maintaining order across distance, time, and difference. Moral reflection
 that threatened stability was not encouraged—the fear was fracture, not
 falsehood—and truth-seeking would wait until order had first learned to hold.
 
-At this stage, certainty is no longer local. It is institutional. It is
-recorded, inherited, and enforced. Moral systems begin to outlast the
-pressures that formed them—not yet as a problem, but as a feature.
-
-The moral question remains practical:
-How do we keep this system intact?
-
-The question of whether it is *true* can wait.
+At this stage, certainty is no longer local but institutional—recorded,
+inherited, and enforced—beginning to outlast the pressures that formed it.
+The practical question is how to keep the system intact; whether it is
+*true* can wait.
 
 [^c2-hammurabi-order]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).

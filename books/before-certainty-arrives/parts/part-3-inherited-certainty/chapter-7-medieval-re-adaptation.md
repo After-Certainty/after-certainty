@@ -98,15 +98,10 @@ framework, medieval Europe reduced interpretive space. Heresy became
 dangerous. Deviance became moral failure. Authority hardened when
 revision threatened collapse—intolerance was cheaper than experiment.
 
-This tightening was not ideological. It was structural.
-
-When institutions are fragile, disagreement is destabilizing. When
-enforcement is local, ambiguity is costly. When coordination depends on
-shared belief rather than shared infrastructure, certainty becomes
-protective.
-
-This is not yet dogma in the modern sense. It is moral tightening after
-breakdown.
+This tightening was not ideological but structural: when institutions
+were fragile, enforcement local, and coordination depended on shared
+belief rather than shared infrastructure, certainty became protective—a
+moral tightening after breakdown, not yet dogma in the modern sense.
 
 ### **Re-Adaptation, Not Regression**
 

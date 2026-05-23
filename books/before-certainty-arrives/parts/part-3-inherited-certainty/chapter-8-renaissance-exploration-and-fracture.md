@@ -58,10 +58,11 @@ aspects of reality using incompatible standards.
 
 ### **Fragmentation of Authority**
 
-Religious authority splintered into confessions. Political authority
-fragmented across emerging nation-states. Intellectual authority
-dispersed among universities, patrons, guilds, and courts. No single
-institution could plausibly claim to govern meaning across the whole.
+In print shops where ink dried on fresh pages, religious authority
+splintered into confessions, political power fragmented across emerging
+states, and intellectual life dispersed among universities, patrons,
+guilds, and courts—no single institution able to govern meaning across
+the whole.
 
 Certainty did not dissolve so much as relocate, each tradition retaining
 internal coherence even as universal obedience without contest disappeared.

@@ -63,12 +63,12 @@ Explanation requires distance. It requires time, language, and cognitive
 surplus. Early moral systems could not rely on these luxuries.
 
 Instead, meaning was embedded in practice. Rituals did not need to be
-explained in order to work. Taboos did not require justification to be
-enforced. Authority was obeyed before it was argued for—disobedience
-threatened the group, not merely the claim.
+explained in order to work, taboos did not require justification to be
+enforced, and authority was often obeyed before it was argued for—
+disobedience threatened the group, not merely the claim.
 
-This does not mean early societies were irrational. It means their moral
-tools were optimized for a different problem set than ours.
+This does not mean early societies were irrational. Their moral tools
+were optimized for a different problem set than ours.
 
 Where modern moral thought often begins with principles and works toward
 application, early moral systems began with survival practices and

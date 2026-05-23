@@ -123,20 +123,14 @@ who shared no shrine. Ethics that could survive on a road solved a
 problem fortresses could not—keeping conduct recognizable when place itself
 was unstable.
 
-Moral life could now function across empires, trade routes, and
-diasporas. Certainty was no longer local. It became scalable.
+Moral life could now function across empires, trade routes, and diasporas
+because certainty had learned to travel with teachers, merchants, and
+exiles rather than remaining bound to a single shrine or city wall.
 
-What looks, in hindsight, like moral depth was also moral narrowing:
-
-- Fewer acceptable interpretations
-
-- Clearer internal obligations
-
-- Shared standards across difference
-
-The Axial Age represents a convergence not of truth, but of function.
-Distinct traditions arrived at similar solutions because they faced
-similar constraints.
+What looks, in hindsight, like moral depth was also moral narrowing—fewer
+acceptable interpretations, clearer internal obligations, shared standards
+across difference, and distinct traditions arrived at similar solutions
+because they faced similar constraints.
 
 ### **Adaptive Compression, Not Final Clarity**
 
@@ -154,9 +148,8 @@ coordination: restraint, mercy, obedience to moral law made plain to
 subjects who would never meet the emperor.[^c5-ashoka-edicts] What
 looked like moral depth was also compression made portable.
 
-Here, they should be understood for what they were:
-not revelations descending into history,
-but human responses rising under pressure—what held the empire together
+They should be understood not as revelations descending into history,
+but as human responses rising under pressure—what held empires together
 slowly becoming what morality itself was taken to be.
 
 When certainty had to survive the death of teachers, the dispersal of
