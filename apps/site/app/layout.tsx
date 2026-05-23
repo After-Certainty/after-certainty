@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { SiteShell } from "@/components/layout/site-shell";
 import { defaultMetadata } from "@/lib/metadata";
 import { texturePreloadHrefs } from "@/lib/textures";
+import { Analytics } from "@vercel/analytics/next";
 
 const display = Cormorant_Garamond({
   variable: "--font-display-serif",
@@ -36,6 +37,7 @@ export default function RootLayout({
         <ThemeProvider>
           <SiteShell>{children}</SiteShell>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
