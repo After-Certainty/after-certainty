@@ -26,6 +26,9 @@ They did not emerge in stable conditions. They arose amid fragmentation,
 displacement, warfare, and expanding abstraction. They were not answers
 to metaphysical curiosity. They were responses to moral overload.
 
+Families displaced by war needed rules that still made sense after the
+shrine burned and the old authorities could no longer be found.
+
 ### **Shared Conditions, Not Shared Revelation**
 
 The societies that produced Axial traditions were geographically
@@ -61,12 +64,12 @@ Universalism was not an abstraction for its own sake. It was a solution
 to scale.
 
 When populations interact across distance and difference, moral rules
-must be legible to strangers. Universality compresses moral expectation.
-It reduces negotiation. It stabilizes behavior when shared context is
+must read plainly to strangers. Universality compresses moral expectation.
+It reduces negotiation. It steadies conduct when shared context is
 thin.
 
 This was not moral generosity alone.\
-It was moral compression under pressure.
+It was narrowing under strain—necessity dressed as virtue.
 
 ### **Internal Conscience as Coordination Tool**
 
@@ -83,6 +86,12 @@ self-enforcing. Internal standards allow coordination without constant
 supervision. They also make moral order portable—carried by individuals
 rather than imposed by place.
 
+At night in a rented room, a traveler could rehearse the rule before
+sleep—no elder present, only memory.
+
+A merchant alone on a road still felt the weight of an unkept oath; shame
+could enforce what no watcher saw.
+
 Internal conscience did not replace authority.\
 It supplemented it.
 
@@ -91,11 +100,14 @@ It supplemented it.
 Axial moral systems grounded their authority beyond immediate power.
 
 God, Dao, Dharma, Reason—each served as a reference point not reducible
-to any single ruler or institution. Transcendence stabilized legitimacy
+to any single ruler or institution. Transcendence anchored legitimacy
 when political authority was fragmented or contested.
 
 If power shifts, the standard remains.\
 If rulers fail, the law persists.
+
+Exiles carried transcendent law like packed grain—something that still
+made sense when homeland, shrine, and ruler had all failed them.
 
 This allowed moral systems to survive instability without constant
 reinvention. Transcendence compressed disagreement by relocating
@@ -113,10 +125,16 @@ They traveled with merchants, exiles, soldiers, and teachers.
 
 This portability mattered.
 
+Confucian teachers traveled between warring states with texts, not armies.
+Buddhist monks walked trade routes carrying rules memorized for strangers
+who shared no shrine. Ethics that could survive on a road solved a
+problem fortresses could not—keeping conduct recognizable when place itself
+was unstable.
+
 Moral life could now function across empires, trade routes, and
 diasporas. Certainty was no longer local. It became scalable.
 
-What looks, in hindsight, like moral depth was also moral compression:
+What looks, in hindsight, like moral depth was also moral narrowing:
 
 - Fewer acceptable interpretations
 
@@ -126,12 +144,12 @@ What looks, in hindsight, like moral depth was also moral compression:
 
 The Axial Age represents a convergence not of truth, but of function.
 Distinct traditions arrived at similar solutions because they faced
-similar constraints.[^c5-axial-age]
+similar constraints.
 
 ### **Adaptive Compression, Not Final Clarity**
 
 The Axial response did not resolve moral life.\
-It stabilized it.
+It held.
 
 Universal claims, internal conscience, and transcendent standards
 allowed societies to coordinate under conditions that would otherwise
@@ -144,14 +162,17 @@ And they were not designed to be final.
 
 In India, Ashoka's edicts—carved on pillars and rock faces across a
 vast empire—proclaimed dharma not as private revelation but as public
-coordination: restraint, mercy, obedience to moral law made legible to
+coordination: restraint, mercy, obedience to moral law made plain to
 subjects who would never meet the emperor.[^c5-ashoka-edicts] What
-looked like moral depth was also moral compression made portable.
+looked like moral depth was also compression made portable.
 
 Here, they should be understood for what they were:
 not revelations descending into history,
 but human responses rising under pressure—what held the empire together
 slowly becoming what morality itself was taken to be.
 
-[^c5-axial-age]: See Karl Jaspers, *The Origin and Goal of History* (New Haven, CT: Yale University Press, 1953).
+When certainty had to survive the death of teachers, the dispersal of
+empires, and the silence of oral tradition, coordination turned toward
+matter—stone, scroll, and archive.
+
 [^c5-ashoka-edicts]: See Karl Jaspers, *The Origin and Goal of History* (New Haven, CT: Yale University Press, 1953).

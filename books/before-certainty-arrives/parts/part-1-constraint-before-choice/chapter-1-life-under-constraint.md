@@ -31,17 +31,20 @@ Early societies therefore prioritized predictability over reflection.
 Roles mattered more than reasons. Repetition mattered more than
 innovation. What one did was often more important than why one did it.
 
-This was not because early humans were incapable of abstraction or
-reflection. It was because abstraction does not stabilize groups under
-constant pressure. What stabilizes groups is shared expectation—knowing,
-in advance, how others will act, and trusting that they will do so again
-tomorrow.
+Early humans were capable of abstraction. Under constant pressure, what
+held groups together was shared expectation—knowing, in advance, how
+others would act, and trusting that they would do so again tomorrow.
 
 Anthropological evidence consistently shows that early moral formation
 emphasized coordination, role stability, and norm enforcement rather
 than individual justification or deliberative ethics. Ritual, taboo, and
 authority functioned as social technologies for reducing uncertainty
 when material and existential risk was high.[^c1-early-moral-anthropology]
+
+In lean seasons, who drew water first and who guarded the granary overnight
+mattered more than why the rule existed. Obligation showed itself in
+calloused hands and empty stores before it became a principle anyone
+could debate.
 
 Among foraging bands, a delayed decision about sharing meat or
 defending camp could mean starvation or death before argument finished.
@@ -56,8 +59,8 @@ surplus. Early moral systems could not rely on these luxuries.
 
 Instead, meaning was embedded in practice. Rituals did not need to be
 explained in order to work. Taboos did not require justification to be
-enforced. Authority was obeyed not because it was argued for, but
-because disobedience threatened group survival.
+enforced. Authority was obeyed before it was argued for—disobedience
+threatened the group, not merely the claim.
 
 This does not mean early societies were irrational. It means their moral
 tools were optimized for a different problem set than ours.
@@ -85,13 +88,13 @@ Evolutionary and cultural anthropology support this reframing: norm
 repetition, moral rigidity, and deference to authority increase group
 cohesion and survival under conditions of threat. Early certainty was
 not a misunderstanding of moral complexity. It was a way of surviving
-it.[^c1-henrich-norms]
+it.
 
 ### **Why Early Certainty Was Necessary**
 
 Certainty did not emerge because early societies believed they had
 discovered final moral truth. It emerged because certainty reduced
-disagreement, shortened decision time, and made behavior legible across
+disagreement, shortened decision time, and made conduct predictable across
 generations.
 
 Early moral systems answered questions like:
@@ -118,10 +121,9 @@ inherited, or overextended. It was local, practical, and closely tied to
 survival.
 
 When coordination becomes fragile, societies narrow interpretation,
-behavior, and acceptable disagreement in order to stabilize action—
+behavior, and acceptable disagreement in order to hold action steady—
 instability demanding compression before anyone names it as doctrine.
 
 But here—at the beginning—it was necessary.
 
 [^c1-early-moral-anthropology]: See Mary Douglas, *Purity and Danger* (London: Routledge, 1966); Christopher Boehm, *Hierarchy in the Forest* (Cambridge, MA: Harvard University Press, 1999).
-[^c1-henrich-norms]: See Joseph Henrich, *The Secret of Our Success* (Princeton, NJ: Princeton University Press, 2015).

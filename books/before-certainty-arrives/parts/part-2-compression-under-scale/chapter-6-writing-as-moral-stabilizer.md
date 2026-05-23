@@ -18,7 +18,8 @@ king who ordered it cut. What had been judgment in a room became
 judgment fixed in matter, visible to strangers who would never meet the
 authority it represented.[^c6-hammurabi-stele]
 
-Permanence was the answer when presence could not hold.
+Permanence was the answer when presence could not hold—and when even
+portable ethics could no longer travel on voice alone.
 
 Earlier forms of certainty relied on repetition, presence, and shared
 memory. But as populations expanded and authority stretched across
@@ -48,7 +49,7 @@ the same way speech does. It persists across time and distance. It
 allows norms to outlive those who first articulated them.
 
 Written commandments, narratives, and codes reduced variance. They
-limited reinterpretation. They made expectations legible to people who
+limited reinterpretation. They made expectations plain to people who
 had never met one another—and to future generations who would never meet
 their authors.
 
@@ -76,21 +77,19 @@ required discernment becomes procedural.
 ### **Canon and the Freezing of Meaning**
 
 In monastic scriptoria, copyists reproduced texts with painstaking
-uniformity—not because variation was sinful in every case, but because
-variance threatened coherence across distance. A gospel copied differently
-in one abbey could fracture doctrine in another province. Canon formation
+uniformity. A gospel copied differently in one abbey could fracture
+doctrine in the next province. Canon formation
 answered a real problem: how to prevent endless fragmentation once
 writing multiplied voices.[^c6-monastic-copying]
 
 By declaring certain texts authoritative and others excluded, moral
-systems draw hard boundaries around meaning. Canon stabilizes identity,
+systems draw hard boundaries around meaning. Canon fixes identity,
 doctrine, and interpretation. It protects coherence across generations.
 
 But canon also arrests evolution.
 
-What is preserved gains authority not because it is continually
-re-justified, but because it is inherited. Over time, the reasons a text
-was selected fade, while its binding force remains.
+What is preserved gains authority through inheritance. Re-justification
+fades; binding force remains.
 
 Permanence succeeds.
 And then it accumulates weight.
@@ -103,6 +102,10 @@ Rules are operationalized. Roles are standardized. Decision-making is
 distributed across offices rather than individuals. Moral expectations
 are enforced through procedure rather than judgment.
 
+In imperial capitals, clerks stamped seals on orders that would be
+executed in provinces they would never visit. The file moved; the body
+received the consequence.
+
 This allows large systems to function reliably.
 It also distances moral action from moral reflection.
 
@@ -114,12 +117,10 @@ produced the harm.
 This is not a failure of intention.
 It is the structural effect of durable tools operating at scale.
 
-For a generation, that trade felt necessary. Revision could wait.
-
 ### **The Tool-Longevity Problem**
 
 Writing, law, canon, and bureaucracy solve a specific problem:
-how to stabilize meaning when direct coordination is impossible.
+how to hold meaning when direct coordination is impossible.
 
 But they introduce a new one.
 
@@ -139,6 +140,11 @@ But it has begun to harden.
 For now, permanence has done its work.
 And quietly, the gap between what institutions record and what people
 experience has begun to widen.
+
+When the roads failed and collectors stopped coming, that gap became
+something ordinary people had to cross without a map.
+
+The archives still stood. The roads between them did not.
 
 [^c6-hammurabi-stele]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).
 [^c6-monastic-copying]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).

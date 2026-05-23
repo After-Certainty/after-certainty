@@ -11,6 +11,11 @@ Post-Roman Europe
 Collapse does not create openness.\
 It creates urgency.
 
+Roman milestones rotted in weeds. Smoke rose from villages that no longer
+answered to a distant capital; a farmer who had paid tribute all his life
+might learn that the wall at the end of the lane mattered more than the
+edict no collector would come to read.
+
 When Roman authority fragmented in Western Europe, what followed was not
 moral experimentation or pluralism. It was uncertainty at scale. Roads
 decayed. Trade contracted. Literacy narrowed. Political authority
@@ -35,17 +40,16 @@ required order, predictability, and legitimacy. Authority had to be
 reassembled from available tools. Those tools were fewer, more local,
 and more rigid than before—but they were effective.
 
-Certainty tightened not because medieval societies rejected complexity,
-but because complexity was no longer affordable.
+Certainty tightened when complexity was no longer affordable.
 
 Where Roman systems relied on bureaucracy, law, and abstract
 citizenship, medieval Europe relied on layered authority: local lords,
 customary law, and religious legitimacy. These structures reduced
-ambiguity. They clarified roles. They made behavior legible again in a
+ambiguity. They clarified roles. They made roles readable again in a
 world where long-distance coordination had collapsed.
 
-This was not innovation for its own sake. It was compression under
-constraint.
+This was not innovation for its own sake. It was tightening when collapse
+left few alternatives.
 
 ### **Law, Church, and Hierarchy as Coordination Tools**
 
@@ -61,14 +65,20 @@ renegotiated under pressure—but often through appeal to custom, not
 open invention. The catastrophe did not produce moral experimentation.
 It produced tighter claims on what still held.[^c7-post-plague-tenure]
 
+Villagers who survived watched neighbors buried and fields go untilled;
+urgency arrived as hunger, not as philosophical openness.
+
 The Church offered moral universality where political unity no longer
-existed. Sacred authority did not merely sanctify belief; it stabilized
+existed. Sacred authority did not merely sanctify belief; it anchored
 allegiance across fragmented territories. Doctrine reduced interpretive
 variance. Ritual synchronized moral life. Obedience was framed not only
 as social necessity, but as spiritual good.
 
 Feudal hierarchy localized responsibility. Obligations were reciprocal,
-personal, and explicit. In a world without reliable institutions,
+personal, and explicit. In a lord's hall, homage was sworn with hands on
+relic or hilt—duty made visible before it was moralized as virtue.
+
+In a world without reliable institutions,
 loyalty replaced abstraction. Authority was visible. Accountability,
 while uneven, was immediate.
 
@@ -86,9 +96,8 @@ After breakdown, certainty usually becomes stricter, not looser.
 The medieval period illustrates this pattern clearly. Where Roman
 pluralism had tolerated philosophical diversity within a stable
 framework, medieval Europe reduced interpretive space. Heresy became
-dangerous. Deviance became moral failure. Authority hardened because
-revision threatened collapse, not because leaders were uniquely
-intolerant.
+dangerous. Deviance became moral failure. Authority hardened when
+revision threatened collapse—intolerance was cheaper than experiment.
 
 This tightening was not ideological. It was structural.
 
@@ -97,8 +106,8 @@ enforcement is local, ambiguity is costly. When coordination depends on
 shared belief rather than shared infrastructure, certainty becomes
 protective.
 
-This is not yet dogma in the modern sense. It is moral compression under
-renewed constraint.[^c7-readaptation]
+This is not yet dogma in the modern sense. It is moral tightening after
+breakdown.
 
 ### **Re-Adaptation, Not Regression**
 
@@ -115,7 +124,7 @@ The moral tools of this era solved real problems:
 
 - How to preserve legitimacy without bureaucracy
 
-- How to stabilize meaning when institutions are thin
+- How to hold meaning when institutions are thin
 
 They did so by tightening certainty, narrowing interpretation, and
 reinforcing authority.
@@ -125,7 +134,10 @@ revision. They would contribute to future crises.
 
 But here—after collapse—they worked.
 
+For generations, the same bells called the same fields back to order.
+Stone churches and parchment titles marked boundaries people could
+recognize without debate.
+
 It held.
 
-[^c7-readaptation]: See E. H. Carr, *What Is History?* (New York: Vintage Books, 1961).
 [^c7-post-plague-tenure]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).

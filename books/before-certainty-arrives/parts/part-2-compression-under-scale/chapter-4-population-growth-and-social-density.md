@@ -19,7 +19,9 @@ by modern standards—it was scale. Authority had learned to operate
 where presence could not follow.[^c4-roman-provincial]
 
 The Iron Age moral problem was no longer survival alone. It was
-coordination when action and consequence no longer met in the same place.
+coordination when action and consequence no longer met in the same place—
+when stone calendars and temple grain could no longer close the distance
+a sealed order had opened.
 
 ### **Population Growth and Social Density**
 
@@ -30,7 +32,7 @@ Individuals increasingly interacted with strangers rather than kin.
 In small groups, behavior could be regulated through familiarity and
 shared memory. Deviations were noticed quickly. Authority was personal.
 In large populations, monitoring collapsed. Moral expectations had to be
-simplified and standardized in order to remain legible across distance
+simplified and standardized in order to remain enforceable across distance
 and difference.
 
 Ambiguity did not become wrong because people grew less capable.
@@ -47,13 +49,19 @@ Under threat, societies narrow acceptable behavior, elevate obedience,
 and prioritize cohesion over deliberation. Dissent becomes risk. Delay
 becomes weakness. Moral certainty becomes a resource.
 
+When Iron Age cities came under siege, gates were barred and levies
+counted by household. Defenders waited on walls most inhabitants would
+never see from inside; grain was ground while messengers carried orders
+the city could not refuse. War made obedience immediate because delay
+meant hunger inside the walls, not merely defeat in theory.
+
 What changes in the Iron Age is not the presence of war, but its scale.
 Authority must mobilize large populations quickly and decisively.
 Moral systems that tolerate prolonged disagreement or local variation
 struggle to respond.
 
-Certainty becomes more urgent—not because truth has been clarified, but
-because hesitation is costly.
+Certainty becomes more urgent when hesitation reads as weakness at the
+wall.
 
 ### **Trade Networks and Moral Abstraction**
 
@@ -89,7 +97,7 @@ from personal judgment to role compliance.
 
 Scale alters not only how societies function, but how moral
 responsibility is perceived—introducing abstraction, delay, and distance
-between action and consequence.[^c4-scale-abstraction]
+between action and consequence.
 
 Older moral tools—ritual repetition, personal authority, inherited
 obedience—could not fully compensate for this shift.
@@ -103,9 +111,12 @@ Ritual no longer synchronized everyone. Authority no longer resolved
 conflict cleanly. Tradition no longer explained why obedience was owed
 to distant power.
 
-Not because societies abandoned certainty—but because certainty was now
-asked to do more than it was designed to do. It had to coordinate
-strangers, justify abstraction, and stabilize authority at scale.
+Strangers met at scales stamped with the emperor's seal; neither knew
+the other's gods, but both knew the weight in the basket.
+
+Societies did not abandon certainty. They asked inherited certainty to
+coordinate strangers, justify abstraction, and anchor authority at scale—
+work it was never built to do alone.
 
 The conditions were set for a transformation.
 
@@ -113,4 +124,3 @@ By then, the distance between what rulers decided and what subjects
 endured would be built into the architecture of moral life itself.
 
 [^c4-roman-provincial]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).
-[^c4-scale-abstraction]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978); Hannah Arendt, *Responsibility and Judgment* (New York: Schocken Books, 2003).

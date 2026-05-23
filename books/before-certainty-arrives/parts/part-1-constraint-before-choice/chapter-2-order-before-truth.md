@@ -17,7 +17,7 @@ Small groups can rely on familiarity, shared memory, and immediate
 feedback to sustain moral life. Large societies cannot. Distance
 increases. Roles multiply. Authority stretches across people who will
 never meet one another. Under these conditions, moral systems are no
-longer asked merely to stabilize behavior within a group. They are asked
+longer asked merely to hold behavior in line within a group. They are asked
 to hold order across scale.
 
 This is the world of early large-scale civilizations.
@@ -32,8 +32,13 @@ moral question was not *what is right*, but *what holds*.
 
 As populations expand, coordination becomes abstract.
 
+Surveyors marked fields with pegs and cords. Clerks pressed harvest counts
+into wet clay while the river still ran high. Before anyone asked whether
+the arrangement was just, farmers needed to know what would be taken and
+what would remain.
+
 Rules must apply to people who are not present. Authority must persist
-beyond individual leaders. Expectations must remain legible across
+beyond individual leaders. Expectations must remain readable across
 generations. Under these conditions, moral systems that depend on
 explanation, persuasion, or personal judgment become unreliable.
 
@@ -45,9 +50,8 @@ decisions do not fragment across competing interpretations. These
 systems do not ask individuals to understand why a rule exists. They ask
 them to follow it.
 
-This is not because Bronze Age societies lacked reflection or
-imagination. It is because reflection does not scale cleanly. Order
-does.
+Bronze Age societies were reflective enough. Reflection did not scale
+cleanly. Order did.
 
 ### **Order Before Justification**
 
@@ -55,9 +59,10 @@ In early large-scale societies, moral legitimacy flowed from stability,
 not argument.
 
 A law was authoritative because it was enacted, recorded, and
-enforced—not because it could be defended in abstract terms. A ruler’s
-authority was secured through lineage, ritual, or divine association,
-not through consent. Cosmology did not exist to explain the world
+enforced—settled in the street and the storehouse, not in debate alone.
+
+A ruler's authority was secured through lineage, ritual, or divine
+association, not through consent. Cosmology did not exist to explain the world
 neutrally, but to locate every role, action, and transgression within a
 fixed moral structure.
 
@@ -67,6 +72,9 @@ What mattered was predictability. People needed to know what would
 happen if they complied, if they deviated, and if conflict arose. Moral
 systems that provided this clarity—however rigid—outperformed those that
 invited interpretation.
+
+Relief came before righteousness: a farmer who knew the levy in advance
+could plan the season without waiting on a ruler's mood.
 
 The moral achievement of these societies was not nuance.
 It was reliability.
@@ -81,11 +89,11 @@ costly. Meaning is enforced rather than negotiated—how large systems
 reduce friction under pressure.
 
 Under pressure, moral systems shed flexibility in exchange for
-durability. Fewer options make behavior legible. Narrower
+durability. Fewer options make choice predictable. Narrower
 interpretations make enforcement possible. Clear boundaries make
 authority actionable.
 
-This is **moral compression**.[^c2-moral-compression]
+This is **moral compression**.
 
 ### **Law, Kingship, and Cosmos as Stabilizers**
 
@@ -94,6 +102,9 @@ as fixed categories—if a builder’s house collapses, if a debtor defaults,
 if a son strikes his father. The code did not invite deliberation. It
 externalized judgment so disputes could be resolved without constant
 renegotiation.[^c2-hammurabi-order]
+
+When the code answered, both parties walked away knowing what would
+follow—not necessarily satisfied, but less afraid of arbitrary force.
 
 Elsewhere, tribute lists and census records made abstract obligation
 concrete. Grain owed, labor due, households counted—these were
@@ -121,8 +132,7 @@ They deferred it.
 
 The immediate task was survival at scale—maintaining order across
 distance, time, and difference. Moral reflection that threatened
-stability was not encouraged, not because it was false, but because it
-was destabilizing.
+stability was not encouraged. The fear was fracture, not falsehood.
 
 Truth-seeking would come later.
 First, order had to hold.
@@ -136,5 +146,4 @@ How do we keep this system intact?
 
 The question of whether it is *true* can wait.
 
-[^c2-moral-compression]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).
 [^c2-hammurabi-order]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).

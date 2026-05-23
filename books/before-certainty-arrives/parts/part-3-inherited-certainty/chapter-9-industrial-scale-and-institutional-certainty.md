@@ -18,133 +18,77 @@ decisions optimized logistics while consequences arrived in bodies the
 planners would never see. The person who signed the order rarely stood
 where the consequence landed.[^c9-factory-time]
 
+Workers arrived tired and left tired; the bell gave exhaustion a schedule
+that families at home learned to depend on.
+
 Industrial modernity did not invent certainty.
 It reorganized it.
 
-The nineteenth and twentieth centuries are defined less by new moral
-claims than by unprecedented systems of coordination. Industrial
-production, mass administration, scientific management, and national
-governance extended collective action far beyond what any individual
-could see, understand, or personally verify.
-
-The problem these systems addressed was scale—not belief.
-
 Millions of people had to work, move, fight, trade, and comply
 together—often without shared culture, direct trust, or interpersonal
-accountability. Coordination could no longer rely on tradition alone. It
-required durable, repeatable, impersonal mechanisms.
-
-This is the environment in which institutional certainty flourished.[^c9-weber-bureaucracy]
+accountability. Coordination required durable, repeatable, impersonal
+mechanisms—the factory bell, the file, the timetable replacing the temple
+wall as the visible limit of argument. This is the environment in which institutional certainty
+flourished.
 
 ### **Bureaucracy as Moral Infrastructure**
 
-Bureaucracy is often misunderstood as morally neutral.
+Bureaucracy functions as a moral technology: rules replace discretion,
+procedures replace judgment, roles replace relationships. Responsibility
+is distributed across offices rather than located in persons.
 
-In practice, it functions as a moral technology.
-
-Rules replace discretion. Procedures replace judgment. Roles replace
-relationships. Decisions are justified not by who makes them, but by
-whether they follow the correct process. Responsibility is distributed
-across offices rather than located in persons.
-
-This shift stabilizes coordination under scale. It also transforms moral
-life.
-
-When legitimacy is procedural, obedience no longer depends on persuasion
-or trust in individuals. It depends on confidence that the system
-works—that it is rational, fair, and necessary.
-
-Certainty here is institutional reliability—not personal conviction.
+When legitimacy is procedural, obedience depends on confidence that the
+system works—that it is rational, fair, and necessary. Certainty here is
+institutional reliability.
 
 ### **The Nation-State and Abstract Belonging**
 
-The modern nation-state further consolidates certainty by abstracting
-identity.
+The modern nation-state consolidates certainty by abstracting identity.
+Citizenship replaces kinship. Law replaces custom. Loyalty is owed to an
+imagined collective sustained through symbols, narratives, and
+institutions.
 
-Citizenship replaces kinship. Law replaces custom. Loyalty is owed not
-to a person or tradition, but to an imagined collective sustained
-through symbols, narratives, and institutions.
+In Budapest and Manchester, census takers moved door to door; clerks
+stamped identity papers and conscription rolls in the same offices. A
+number in a registry could precede a person at a border, on a factory
+floor, or before a judge. Belonging became administrable before it was
+felt.
 
-This abstraction enables unprecedented coordination. It also requires
-moral compression.
+For many, the stamped paper brought relief—a name that still opened
+doors after kinship thinned. For others, the same stamp meant fear of
+erasure.
 
-Shared values are simplified into civic myths. National identity is
-treated as stable even as populations diversify. Complex histories are
-compressed into legitimating stories that justify authority and
-obligation.
-
-Certainty persists not because everyone agrees, but because
-participation is compulsory and meaning is stabilized through
-repetition, education, and enforcement.
-
-Belonging becomes administrable.
+Shared values simplify into civic myths. Complex histories shrink into
+legitimating stories. Certainty persists because participation is
+compulsory and meaning is held steady through repetition, education, and
+enforcement. Identity thins into paperwork.
 
 ### **Capitalism and Functional Morality**
 
-Capitalism introduces a distinct form of moral compression.
-
 Market systems coordinate behavior without requiring shared values.
-Price replaces agreement. Incentives substitute for persuasion. Moral
-judgment is displaced by functional outcome.
-
-Responsibility shifts from individual intent to systemic role. Harm can
-be justified as unintended consequence. Success becomes evidence of
-legitimacy. Failure becomes personal deficiency rather than structural
-effect.
-
-Certainty operates here as inevitability—the system assumed rather than
-argued for.
-
-### **Scientific Authority and Epistemic Trust**
-
-Scientific expertise becomes another pillar of institutional certainty.
-
-Knowledge is increasingly mediated by credentialed authorities,
-technical language, and specialized disciplines. Trust shifts from
-shared understanding to delegated competence.
-
-Most people cannot verify the claims that govern their lives. They
-accept them because the institutions that produce them appear rigorous,
-objective, and self-correcting.
-
-At scale, direct verification is impossible. Certainty must be
-outsourced.
+Price replaces agreement. Responsibility shifts from individual intent
+to systemic role. Certainty operates as inevitability—the system
+assumed rather than argued for.
 
 ### **When Certainty Becomes Impersonal**
 
-By the mid–twentieth century, certainty is no longer held primarily by
-people.
-It is held by systems.
+By the mid–twentieth century, certainty is held by systems more than
+people. Knowledge is delegated to credentialed authorities most cannot
+verify. People comply without understanding, participate without
+authorship, and experience harm without a clear agent to name.
 
-Rules persist regardless of context. Institutions continue regardless of
-outcome. Authority operates without visibility. Decisions are made far
-from their effects, often by no one in particular.
-
-People comply without understanding. They participate without
-authorship. They experience harm without a clear agent to name. Moral
-life becomes procedural rather than relational—and the distance between
-certainty and human experience widens.
-
-### **Self-Protecting Legitimacy**
-
-As institutional certainty grows, it develops defenses.
+People learned to depend on systems they could not explain—to reach for
+forms when trust in persons had thinned.
 
 Critique is reframed as ignorance. Dissent is redirected into process.
-Responsibility is absorbed by structure. Failures are explained rather
-than corrected—slow inertia, not conspiracy, resisting revision because
-disruption threatens scale itself.
+Failures are explained rather than corrected—slow inertia resisting
+revision because disruption threatens scale itself.
 
-At this stage, certainty still feels indispensable—even to those it
-alienates.
-
-### **The Threshold Approaches**
-
-Strain is visible everywhere. Alienation increases. Meaning thins.
-Confidence is maintained through process rather than contact.
+Strain is visible everywhere. Meaning thins. Confidence is maintained
+through process rather than contact.
 
 The system has not failed.
 
 But its costs are no longer invisible.
 
 [^c9-factory-time]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978); Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001).
-[^c9-weber-bureaucracy]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).

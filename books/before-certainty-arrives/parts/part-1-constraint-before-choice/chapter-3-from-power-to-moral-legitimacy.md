@@ -24,6 +24,11 @@ generations, and stress, it needed protection.
 
 That protection came through sacralization.
 
+In Shang courts, bronze vessels inscribed with ancestral names held
+offerings at feasts where power and piety were the same ceremony. To
+break ritual was to break order—not a metaphor, but the visible cost of
+visible ranks.
+
 ### **From Power to Moral Legitimacy**
 
 As societies grew, authority increasingly fused with moral meaning.
@@ -38,7 +43,7 @@ need for constant justification. Decisions did not have to be debated if
 they were already morally settled. The question was no longer *is this
 right?* but *who are we to question it?*
 
-Sacred authority stabilized coordination by relocating legitimacy beyond
+Sacred authority anchored coordination by relocating legitimacy beyond
 human revision.
 
 ### **Why Sacred Framing Works**
@@ -53,7 +58,9 @@ Second, it compresses interpretation. When authority is sacred, meaning
 narrows. Alternatives become unthinkable rather than merely unpopular.
 Ambiguity becomes threat.
 
-Third, it stabilizes obedience emotionally. Sacred authority does not
+A village that could not name the offense could not end the feud.
+
+Third, it steadies obedience emotionally. Sacred authority does not
 rely only on fear or incentive. It draws on loyalty, reverence, and
 identity. Compliance becomes belonging.
 
@@ -71,8 +78,11 @@ as coordination—who eats when, who owes what—gradually became moral
 order itself. The practice that held society together was treated as
 goodness, not merely as necessity.[^c3-temple-economy]
 
+Families ate from what the storehouse released. Hunger stayed near enough
+that shared ritual felt like survival, not ornament.
+
 Ritual obligation made visible what abstract law could not: belonging,
-purity, and the cost of deviation. Over time, the stabilizing practice
+purity, and the cost of deviation. Over time, the anchoring practice
 and the moral truth became difficult to separate.
 
 ### **Dissent as Moral Failure**
@@ -83,10 +93,12 @@ Disagreement is no longer just error. It becomes disloyalty, corruption,
 or impurity. The dissenter is not simply wrong—they are dangerous. Their
 challenge threatens not only policy, but order itself.
 
+To be named impure was to lose the network that fed and protected you;
+fear of that loss did more work than any formal penalty.
+
 This reframing raises the cost of revision. To admit error would be to
-undermine the moral foundation of authority. And so authority
-hardens—not because it is certain, but because it cannot afford
-uncertainty.
+undermine the moral foundation of authority. Authority hardened when
+revision felt like collapse; certainty was the cheapest way to buy time.
 
 At this stage, certainty gains emotional armor.
 
@@ -94,13 +106,13 @@ It is no longer only believed. It is defended.
 
 ### **The Cost of Sacred Authority**
 
-Sacralization stabilizes authority—but at a price.
+Sacralization steadies authority—but at a price.
 
 Sacred authority resists correction. It cannot easily revise itself
 without appearing illegitimate. Over time, the tools that once
 coordinated society begin to outlive the conditions that made them
 effective. What began as stabilization becomes rigidity. What began as
-protection becomes fragility.[^c3-sacred-authority]
+protection becomes fragility.
 
 This does not mean sacred authority was a mistake.
 
@@ -119,5 +131,8 @@ temple, ritual through the calendar, obedience through the gods—what
 held the city together had already begun to feel like the shape of the
 good itself.
 
+When sacred order was fixed in stone and calendar, empires could still
+fracture faster than priests could explain. Iron would test whether
+morality could travel farther than the hand that enforced it.
+
 [^c3-temple-economy]: See Mary Douglas, *Purity and Danger* (London: Routledge, 1966); Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).
-[^c3-sacred-authority]: See Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973); Thomas S. Kuhn, *The Structure of Scientific Revolutions* (Chicago: University of Chicago Press, 1962).

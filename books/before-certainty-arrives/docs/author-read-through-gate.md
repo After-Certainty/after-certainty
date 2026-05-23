@@ -4,7 +4,7 @@
 
 ## Editorial status
 
-Manuscript has completed grounding, tighten-and-trust, and final prose polish passes on branch `before-certainty-arrives/editorial-grounding`. Ready for author read-through.
+Manuscript has completed grounding through inhabited history passes on branch `before-certainty-arrives/editorial-grounding`. Ready for author read-through.
 
 ## Part I–III coherence
 

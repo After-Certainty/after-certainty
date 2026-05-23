@@ -19,11 +19,12 @@ frameworks could absorb. New lands, new peoples, new cosmologies, and
 new forms of knowledge appeared not at the margins, but at the center of
 European life.
 
-Unlike earlier moments of breakdown, the Renaissance and age of
-exploration did not begin with the failure of inherited moral systems.
-Those systems still functioned. They still commanded loyalty. They still
-explained much of the world. What changed was scale—not of population
-collapse or institutional ruin, but of exposure.
+In Lisbon and Seville, ships returned with goods, peoples, and charts
+that inherited categories could not fully contain. The ledger could
+balance while the moral map could not.
+
+What changed was scale—not of population collapse or institutional ruin,
+but of exposure.
 
 Certainty was no longer wrong.
 It was no longer alone.
@@ -34,74 +35,66 @@ doctrine. Competing Bibles, competing catechisms, competing claims to
 final authority—each community tightened its own boundaries as exposure
 widened.[^c8-printing-press]
 
+In towns where new texts arrived weekly, neighbors watched each other's
+allegiances as closely as each other's debts.
+
 ### **The Diversification of Moral Imagination**
 
 Scientific inquiry, artistic experimentation, and philosophical revival
 expanded the range of what could be imagined, said, and questioned.
 
-This did not immediately weaken certainty. In many cases, it
-strengthened it. New knowledge was often absorbed into existing
-frameworks, explained as deeper insight into divine order or natural
-law. Copernican astronomy, anatomical study, and humanist philosophy
-were frequently interpreted as refinement rather than rupture.
+New knowledge was often absorbed into existing frameworks, explained as
+deeper insight into divine order or natural law. Copernican astronomy,
+anatomical study, and humanist philosophy were frequently interpreted as
+refinement rather than rupture.
 
-But diversification changed the conditions under which certainty
-operated.
+In Padua and Leiden, students gathered in anatomical theaters to watch
+flesh opened under lantern light—knowledge acquired through the body even
+when doctrine insisted the soul's truth lay elsewhere. Observation
+widened before allegiance could fully absorb it.
 
 Multiple ways of understanding the world began to coexist, not
 sequentially but simultaneously. Moral imagination widened faster than
-coordination could follow. Competing explanations did not simply
-disagree; they addressed different aspects of reality using incompatible
-standards.[^c8-braudel-plurality]
+coordination could follow. Competing explanations addressed different
+aspects of reality using incompatible standards.
 
 ### **Fragmentation of Authority**
-
-As moral imagination diversified, authority fractured.
 
 Religious authority splintered into confessions. Political authority
 fragmented across emerging nation-states. Intellectual authority
 dispersed among universities, patrons, guilds, and courts. No single
 institution could plausibly claim to govern meaning across the whole.
 
-This fragmentation did not dissolve certainty. It relocated it.
-
-Each tradition—religious, political, philosophical—retained internal
-coherence. Each asserted moral authority within its own boundaries. What
-disappeared was the assumption that one certainty could command
-universal obedience without contest.
+Certainty did not dissolve. It relocated—each tradition retaining
+internal coherence while universal obedience without contest disappeared.
 
 Disagreement no longer took place within a shared moral frame.
 It took place between frames.
 
+Neighbors who had shared a parish could no longer assume the same feast
+days, the same oaths, or the same meaning of obedience—belonging
+tightened by exclusion.
+
 ### **Competing Moral Systems**
 
-Plural certainty is not the same as moral openness.
-
-As inherited authority fractured, groups responded by tightening
-internal boundaries. Moral systems became more explicit, more
-confessional, and more sharply defined. Belief hardened not because it
-was newly discovered, but because it had to differentiate itself from
+As inherited authority fractured, groups tightened internal boundaries.
+Moral systems became more explicit, more confessional, and more sharply
+defined. Belief hardened because it had to differentiate itself from
 rivals.
 
-When coordination cannot be maintained across difference, it is
-reinforced within identity. Moral compression intensifies locally even
-as diversity increases globally. Fewer interpretations are permitted
-inside the group precisely because more exist outside it.
-
-Certainty becomes plural—but absolute within its own domain.
+Moral tightening intensified locally even as diversity increased
+globally. Certainty became plural—but absolute within its own domain.
 
 ### **From Truth to Governance**
 
-As plural certainties coexist, the nature of conflict changes.
+The central question was no longer which belief was true in the abstract,
+but which certainty would govern shared life. Conflicts that appeared
+theological or philosophical were increasingly struggles over
+jurisdiction, legitimacy, and control.
 
-The central question is no longer which belief is true in the abstract.
-It becomes which certainty will govern shared life. Authority shifts
-from epistemic confidence to institutional enforcement. Power matters
-more, not less.
+Confessional boundaries were drawn on maps in capitals. In port cities,
+trade rewired obligation faster than doctrine could follow.
 
-Conflicts that appear theological or philosophical are increasingly
-struggles over jurisdiction, legitimacy, and control. Certainty is
-defended as order—not merely as truth.
+Certainty is defended as order—not merely as truth.
 
-[^c8-braudel-plurality]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981); E. H. Carr, *What Is History?* (New York: Vintage Books, 1961).
 [^c8-printing-press]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).

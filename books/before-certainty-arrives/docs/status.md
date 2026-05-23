@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 4d — final prose polish** on `books/before-certainty-arrives/`
+**Phase 4j — cadence and hinge pass** on `books/before-certainty-arrives/`
 
 ## Active branch
 
@@ -14,7 +14,7 @@
 
 ## Word target
 
-~9.2k words (final prose polish complete; essay edition)
+~8.9k words (cadence and hinge pass complete; essay edition)
 
 ## Unit progress
 
@@ -58,3 +58,9 @@ None recorded.
 - ~10,200 words after grounding pass
 - ~9,600 words after tighten pass (May 2026)
 - ~9,200 words after final prose polish (May 2026)
+- ~8,600 words after publishability micro-pass (May 2026)
+- ~8,184 words after transition pass (May 2026)
+- ~8,570 words after grounding imagery pass (May 2026)
+- ~8,885 words after inhabited history pass (May 2026)
+- ~8,811 words after refinement pass (May 2026)
+- ~8,918 words after cadence and hinge pass (May 2026)

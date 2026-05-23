@@ -135,6 +135,73 @@ Check for:
 
 See [`feedback-pass-final-2026.md`](feedback-pass-final-2026.md).
 
+## Pass 10 — Publishability micro-pass
+
+**Goal:** Final reader feedback — Ch 8–10 subtraction, Ch 5→6 atmospheric bridge, cadence smoothing. No new content.
+
+Check for:
+
+- Ch 5 closing bridge to Ch 6 (matter / stone / scroll)
+- Ch 8–10: net ~10% further trim; no double-landing clusters
+- Part III: fewer visible "This is not X / It is Y" inversions
+- Endings preserved: Ch 7, Ch 9, Ch 10 restraint
+
+See [`feedback-pass-publishable-2026.md`](feedback-pass-publishable-2026.md).
+
+## Pass 11 — Transition pass
+
+**Goal:** One concrete image or atmospheric beat at chapter hinges; no framework re-explanation.
+
+Check for:
+
+- Ch 6→7, 7→8, 8→9, 9→10: sensory continuity before next abstraction
+- Preserve Ch 7 **It held.**, Ch 9 **costs no longer invisible**, Ch 10 deliberate stop
+- Net word count flat or slightly up (~50–120 words added)
+
+See [`feedback-pass-transitions-2026.md`](feedback-pass-transitions-2026.md).
+
+## Pass 12 — Grounding imagery
+
+**Goal:** One brief physical anchor per thin abstraction stretch; concrete + structural insight coexist.
+
+Check for:
+
+- Ch 1–3, 4–6, 8–10: 40–70 word anchors where compression/coordination stacks without texture
+- No new narrative detours; footnotes only when verifiable claim requires
+- Preserve praised openings, closings, and Ch 10 restraint
+
+See [`feedback-pass-grounding-2026.md`](feedback-pass-grounding-2026.md).
+
+## Pass 13 — Inhabited history
+
+**Goal:** One experiential beat (fear, exhaustion, hunger, belonging, relief, dependency) before abstraction lifts; history feels inhabited without memoir.
+
+Check for:
+
+- Ch 2–3, 5, 7–10: human stake after physical anchor, before theory
+- Preserve praised closings and Ch 10 restraint
+- Net +150–250 words; no new footnotes unless required
+
+See [`feedback-pass-inhabited-2026.md`](feedback-pass-inhabited-2026.md).
+
+## Pass 14 — Refinement
+
+**Goal:** Phrase variation (~10–15%), lighter citation cadence in narrative sections, Ch 10 threshold atmosphere.
+
+Check for:
+
+- Vary legible / stabilize / compression-under-pressure without losing pattern language
+- Remove inline footnotes where prose already carries the claim
+- Ch 10: saturation, exhaustion, procedural dependency, ambient distrust — no new argument
+
+See [`feedback-pass-refinement-2026.md`](feedback-pass-refinement-2026.md).
+
+## Pass 15 — Cadence and hinge
+
+**Goal:** Ground abstraction spikes; Ch 3→4 and Ch 6→7 atmosphere; vary "not because X, but because Y."
+
+See [`feedback-pass-cadence-2026.md`](feedback-pass-cadence-2026.md).
+
 ## References
 
 - [`book-rules.md`](book-rules.md)
@@ -142,4 +209,10 @@ See [`feedback-pass-final-2026.md`](feedback-pass-final-2026.md).
 - [`beta-reader-feedback-editorial-2026.md`](beta-reader-feedback-editorial-2026.md)
 - [`feedback-pass-tighten-2026.md`](feedback-pass-tighten-2026.md)
 - [`feedback-pass-final-2026.md`](feedback-pass-final-2026.md)
+- [`feedback-pass-publishable-2026.md`](feedback-pass-publishable-2026.md)
+- [`feedback-pass-transitions-2026.md`](feedback-pass-transitions-2026.md)
+- [`feedback-pass-grounding-2026.md`](feedback-pass-grounding-2026.md)
+- [`feedback-pass-inhabited-2026.md`](feedback-pass-inhabited-2026.md)
+- [`feedback-pass-refinement-2026.md`](feedback-pass-refinement-2026.md)
+- [`feedback-pass-cadence-2026.md`](feedback-pass-cadence-2026.md)
 - [`grounding-pass-checklist.md`](grounding-pass-checklist.md)
