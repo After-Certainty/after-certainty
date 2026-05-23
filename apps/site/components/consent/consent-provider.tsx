@@ -12,7 +12,7 @@ import {
 
 import type { ConsentState } from "@/lib/consent/constants";
 import { getConsent, setConsent } from "@/lib/consent/storage";
-import { updateAnalyticsConsent } from "@/lib/consent/update-consent";
+import { syncStoredConsentToGtag, updateAnalyticsConsent } from "@/lib/consent/update-consent";
 
 type ConsentContextValue = {
   consent: ConsentState;
@@ -30,11 +30,7 @@ export function ConsentProvider({ children }: { children: ReactNode }) {
     const stored = getConsent();
     // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time sync from document.cookie
     setConsentState(stored);
-    if (stored === "granted") {
-      updateAnalyticsConsent(true);
-    } else if (stored === "denied") {
-      updateAnalyticsConsent(false);
-    }
+    syncStoredConsentToGtag();
   }, []);
 
   const acceptAnalytics = useCallback(() => {

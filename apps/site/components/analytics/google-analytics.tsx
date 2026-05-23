@@ -1,6 +1,22 @@
-import { GoogleAnalytics } from "@next/third-parties/google";
+"use client";
 
+import { GoogleAnalytics } from "@next/third-parties/google";
+import { useEffect } from "react";
+
+import { syncStoredConsentToGtag } from "@/lib/consent/update-consent";
 import { resolveGaMeasurementId } from "@/lib/site-config";
+
+type GoogleAnalyticsLoaderProps = {
+  gaId: string;
+};
+
+function GoogleAnalyticsWithConsentSync({ gaId }: GoogleAnalyticsLoaderProps) {
+  useEffect(() => {
+    syncStoredConsentToGtag();
+  }, []);
+
+  return <GoogleAnalytics gaId={gaId} />;
+}
 
 /** Loads GA4 in production when a measurement ID is configured (Consent Mode defaults must load first). */
 export function GoogleAnalyticsLoader() {
@@ -9,5 +25,5 @@ export function GoogleAnalyticsLoader() {
   const gaId = resolveGaMeasurementId();
   if (!gaId) return null;
 
-  return <GoogleAnalytics gaId={gaId} />;
+  return <GoogleAnalyticsWithConsentSync gaId={gaId} />;
 }
