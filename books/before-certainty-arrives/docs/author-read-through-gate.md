@@ -8,9 +8,12 @@ Manuscript has completed passes 4a–4q on branch `before-certainty-arrives/edit
 
 ## Read-through focus (surgical only)
 
-- [ ] Rhythm: any paragraph that feels continuously climactic or self-consciously quotable
-- [ ] Ch 9–10: procedural scenes vs. familiar institutional abstraction
-- [ ] Conclusion final 2–3 pages: emotional lingering without more conceptual tightening
+See also [`feedback-pass-series-read-2026.md`](feedback-pass-series-read-2026.md).
+
+- [ ] **Scene linger** — mark scenes that resolve into thesis one beat too soon
+- [ ] **Terminology** — mark clusters of compression / coordination / under strain / what holds / adaptive response
+- [ ] **Conclusion** — protect Tuesdayness; flag tonal over-resolution on final pages
+- [ ] Ch 9–10: procedural scenes vs. familiar institutional abstraction (Ch 9 reference standard)
 - [ ] Resist adding clarifying disclaimers — calibration sentences (Ch 3, Ch 5) are sufficient
 
 ## Part I–III coherence
