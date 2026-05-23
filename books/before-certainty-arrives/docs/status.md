@@ -2,11 +2,9 @@
 
 ## Current phase
 
-**Phase 4q — decompression pass** on `books/before-certainty-arrives/`
+**Phase 5 — author read-through gate** (architecture complete; no further global editorial passes without PDF-marked locations)
 
-## Active branch
-
-`before-certainty-arrives/editorial-grounding`
+Branch: `before-certainty-arrives/editorial-grounding` · ~10.4k words essay edition
 
 ## Manuscript hub
 
@@ -14,7 +12,7 @@
 
 ## Word target
 
-~8.9k words (cadence and hinge pass complete; essay edition)
+~10.4k words (essay edition; editorial passes 4a–4q complete)
 
 ## Unit progress
 
@@ -44,13 +42,14 @@ Checklist: [`author-read-through-gate.md`](author-read-through-gate.md)
 
 ## Next actions
 
-1. Complete grounding passes per [`grounding-pass-checklist.md`](grounding-pass-checklist.md)
-2. Export smoke test: `make build-book DIR=books/before-certainty-arrives`
-3. Bibliography spot-check against new `[^id]` markers
+1. **Author PDF read-through** — mark rhythm, Ch 9–10, or conclusion only where prose feels over-architected ([`feedback-pass-stop-zone-2026.md`](feedback-pass-stop-zone-2026.md))
+2. Complete [`author-read-through-gate.md`](author-read-through-gate.md) sign-off
+3. Bibliography spot-check against `[^id]` markers
+4. No further global passes unless author marks specific locations
 
 ## Open decisions / known issues
 
-None recorded.
+Editorial architecture complete. Risk: over-editing (precision replacing vitality). Surgical edits only.
 
 ## Rough scale
 
