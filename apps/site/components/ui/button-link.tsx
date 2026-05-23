@@ -1,5 +1,8 @@
-import Link from "next/link";
+"use client";
+
 import type { ComponentProps } from "react";
+
+import { TrackedLink, type LinkAnalytics } from "@/components/analytics/tracked-link";
 
 type Variant = "primary" | "ghost";
 
@@ -13,11 +16,13 @@ const variants: Record<Variant, string> = {
 export function ButtonLink({
   variant = "primary",
   className = "",
+  analytics,
   ...props
-}: ComponentProps<typeof Link> & { variant?: Variant }) {
+}: ComponentProps<typeof TrackedLink> & { variant?: Variant; analytics?: LinkAnalytics }) {
   return (
-    <Link
+    <TrackedLink
       className={`inline-flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${variants[variant]} ${className}`}
+      analytics={analytics}
       {...props}
     />
   );

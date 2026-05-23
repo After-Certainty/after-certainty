@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Container } from "@/components/ui/container";
 import { CTAButton } from "@/components/collaborators/cta-button";
+import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { siteConfig } from "@/lib/site-config";
 
 const backdropSrc = "/images/hero/hero-backdrop.png";
@@ -59,7 +60,18 @@ export function CollaboratorsHero() {
           </div>
 
           <div className="mx-auto mt-12 flex max-w-2xl flex-col gap-4 sm:flex-row sm:flex-wrap md:mx-0">
-            <CTAButton href={siteConfig.githubUrl} variant="primary" target="_blank" rel="noreferrer">
+            <CTAButton
+              href={siteConfig.githubUrl}
+              variant="primary"
+              target="_blank"
+              rel="noreferrer"
+              analytics={outboundLinkAnalytics(
+                siteConfig.githubUrl,
+                "View the GitHub Project",
+                "collaborators_hero",
+                "github",
+              )}
+            >
               View the GitHub Project
             </CTAButton>
             <CTAButton href="#future-conversations" variant="secondary">

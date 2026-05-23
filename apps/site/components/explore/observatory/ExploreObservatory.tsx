@@ -48,6 +48,7 @@ import type { SemanticFlowEdgeData } from "@/components/explore/observatory/Sema
 import type { SemanticFlowNodeData } from "@/components/explore/observatory/SemanticFlowNode";
 import type { FocusCameraTarget } from "@/components/explore/observatory/hooks/useFocusCamera";
 import type { InsightEdge } from "@/lib/graph/graphInsights";
+import { trackSelectContent } from "@/lib/analytics/track";
 
 const ALL_KINDS: GraphEntityKind[] = ["concept", "pattern", "book", "source"];
 
@@ -252,6 +253,18 @@ function ExploreObservatoryInner({
   const [nodes, setNodes, onNodesChange] = useNodesState<Node<SemanticFlowNodeData>>([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState<Edge<SemanticFlowEdgeData>>([]);
   const layoutTidyRef = useRef<LayoutTidySnapshot | null>(null);
+  const lastTrackedFocusRef = useRef<string | null>(null);
+
+  const trackCanvasFocus = useCallback(
+    (canonicalId: string) => {
+      if (lastTrackedFocusRef.current === canonicalId) return;
+      lastTrackedFocusRef.current = canonicalId;
+      const gn = index.getNodeByCanonicalId(canonicalId);
+      if (!gn) return;
+      trackSelectContent({ content_type: gn.kind, item_id: gn.slug, method: "canvas" });
+    },
+    [index],
+  );
 
   useObservatoryFlowSync({
     index,
@@ -300,7 +313,8 @@ function ExploreObservatoryInner({
     );
     store.getState().selectRelationship(sel);
     store.getState().setFocusId(match.sourceId);
-  }, [index, searchParams, viz.edges, store]);
+    trackCanvasFocus(match.sourceId);
+  }, [index, searchParams, viz.edges, store, trackCanvasFocus]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -385,10 +399,11 @@ function ExploreObservatoryInner({
       } else {
         store.getState().selectRelationship(sel);
         store.getState().setFocusId(sel.sourceId);
+        trackCanvasFocus(sel.sourceId);
         if (!isCompact) store.getState().setRightOpen(true);
       }
     },
-    [index, isCompact, store],
+    [index, isCompact, store, trackCanvasFocus],
   );
 
   const handleEdgeClick = useCallback(
@@ -412,10 +427,11 @@ function ExploreObservatoryInner({
       } else {
         store.getState().selectRelationship(sel);
         store.getState().setFocusId(match.sourceId);
+        trackCanvasFocus(match.sourceId);
         if (!isCompact) store.getState().setRightOpen(true);
       }
     },
-    [index, viz.edges, isCompact, store],
+    [index, viz.edges, isCompact, store, trackCanvasFocus],
   );
 
   const handleSignalEdge = useCallback(
@@ -433,9 +449,10 @@ function ExploreObservatoryInner({
         return prev.includes(id) ? prev : [...prev, id];
       });
       store.getState().focusNode(id, { openPanel: !isCompact });
+      trackCanvasFocus(id);
       if (!isCompact) store.getState().setRightOpen(true);
     },
-    [isCompact, store],
+    [isCompact, store, trackCanvasFocus],
   );
 
   const handleNodeDoubleClick = useCallback(

@@ -53,7 +53,7 @@ Wire real manifests by swapping JSON under `data/` or pointing loaders in `lib/c
 
 The podcast RSS URL is `siteConfig.podcastRssUrl` (Anchor). The site **fetches that feed on the server** (`lib/podcast/rss.ts`, cached + **revalidated every hour** via `fetch`); episode lists and the home “latest episode” block use that data. If the feed is unreachable (offline dev, CI, etc.), lists fall back to `data/podcast-episodes.json`. `/feed.xml` still redirects to Anchor for podcast apps.
 
-Books and explore pages load **`books-manifest.json`** and **`semantic-manifest.json`** from the [after-certainty](https://github.com/ksteffe/after-certainty) GitHub release (`latest`), with hourly ISR. After each `main` release in that repo, CI can POST to **`/api/cache/revalidate`** on this deployment to refresh catalog data immediately.
+Explore surfaces (books, patterns, glossary, observatory) load **`semantic-manifest.json`** from the [after-certainty](https://github.com/ksteffe/after-certainty) GitHub release (`latest`), with hourly ISR. A separate **`books-manifest.json`** still feeds legacy catalog helpers; promotion and export URLs for `/explore/books` live in the semantic manifest. After each `main` release, CI POSTs to **`/api/cache/revalidate`** with target **`semantic`** to refresh the graph immediately.
 
 1. Set **`CACHE_REVALIDATE_SECRET`** in Vercel (production) — a long random string.
 2. Add the same value as repository secret **`CACHE_REVALIDATE_SECRET`** on `ksteffe/after-certainty` (used by the book export workflow).
@@ -65,7 +65,7 @@ Example manual refresh:
 curl -sS -X POST "https://www.after-certainty.com/api/cache/revalidate" \
   -H "Authorization: Bearer $CACHE_REVALIDATE_SECRET" \
   -H "Content-Type: application/json" \
-  -d '{"targets":["books","semantic"]}'
+  -d '{"targets":["semantic"]}'
 ```
 
 ## Design notes

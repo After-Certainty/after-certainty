@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
+import { TrackedLink } from "@/components/analytics/tracked-link";
+import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { Container } from "@/components/ui/container";
 
 const backdropSrc = "/images/hero/hero-backdrop.png";
@@ -51,22 +52,24 @@ export function PodcastHero({ spotifyHref, rssHref }: PodcastHeroProps) {
             structures that shape human understanding.
           </p>
           <div className="mx-auto mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
-            <Link
+            <TrackedLink
               href={spotifyHref}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex min-h-[44px] min-w-[12rem] items-center justify-center border border-border/60 bg-bg-elevated/30 px-8 py-3 text-xs uppercase tracking-[0.28em] text-fg transition-colors hover:border-accent/35 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+              analytics={outboundLinkAnalytics(spotifyHref, "Listen on Spotify", "podcast_hero", "spotify")}
             >
               Listen on Spotify
-            </Link>
-            <Link
+            </TrackedLink>
+            <TrackedLink
               href={rssHref}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex min-h-[44px] min-w-[12rem] items-center justify-center border border-border/45 px-8 py-3 text-xs uppercase tracking-[0.28em] text-muted transition-colors hover:border-accent/30 hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+              analytics={outboundLinkAnalytics(rssHref, "RSS feed", "podcast_hero", "rss")}
             >
               RSS feed
-            </Link>
+            </TrackedLink>
           </div>
         </div>
       </Container>

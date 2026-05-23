@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { ButtonLink } from "@/components/ui/button-link";
+import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { siteConfig } from "@/lib/site-config";
 
 const principles = [
@@ -30,7 +31,13 @@ export function StartHow() {
               </p>
             </div>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
-              <ButtonLink href={siteConfig.githubUrl} variant="primary" target="_blank" rel="noopener noreferrer">
+              <ButtonLink
+                href={siteConfig.githubUrl}
+                variant="primary"
+                target="_blank"
+                rel="noopener noreferrer"
+                analytics={outboundLinkAnalytics(siteConfig.githubUrl, "View on GitHub", "start_how", "github")}
+              >
                 View on GitHub
               </ButtonLink>
               <Link

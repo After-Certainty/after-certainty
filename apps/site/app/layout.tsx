@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Source_Sans_3 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
+import { GoogleAnalyticsLoader } from "@/components/analytics/google-analytics";
+import { ConsentProvider } from "@/components/consent/consent-provider";
+import { CookieBanner } from "@/components/consent/cookie-banner";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SiteShell } from "@/components/layout/site-shell";
 import { defaultMetadata } from "@/lib/metadata";
 import { texturePreloadHrefs } from "@/lib/textures";
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const display = Cormorant_Garamond({
   variable: "--font-display-serif",
@@ -33,11 +36,30 @@ export default function RootLayout({
         {texturePreloadHrefs.map((href) => (
           <link key={href} rel="preload" href={href} as="image" />
         ))}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('consent', 'default', {
+                analytics_storage: 'denied',
+                ad_storage: 'denied',
+                ad_user_data: 'denied',
+                ad_personalization: 'denied',
+                wait_for_update: 500
+              });
+            `,
+          }}
+        />
       </head>
       <body className="flex min-h-full flex-col antialiased" suppressHydrationWarning>
-        <ThemeProvider>
-          <SiteShell>{children}</SiteShell>
-        </ThemeProvider>
+        <ConsentProvider>
+          <ThemeProvider>
+            <SiteShell>{children}</SiteShell>
+          </ThemeProvider>
+          <CookieBanner />
+        </ConsentProvider>
+        <GoogleAnalyticsLoader />
         <Analytics />
         <SpeedInsights />
       </body>

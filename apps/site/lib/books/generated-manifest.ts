@@ -103,9 +103,35 @@ export function deriveFeaturedSlug(books: Book[]): string {
   return books[0]?.slug ?? "";
 }
 
+function hasExportUrl(book: Book): boolean {
+  return Boolean(book.epubUrl || book.docxUrl || book.pdfUrl);
+}
+
+/** When release JSON still lists both `books` and `upcoming` rows for one slug, keep the published export row. */
+export function dedupeCatalogBooksBySlug(books: Book[]): Book[] {
+  const bySlug = new Map<string, Book>();
+  for (const book of books) {
+    const existing = bySlug.get(book.slug);
+    if (!existing) {
+      bySlug.set(book.slug, book);
+      continue;
+    }
+    const bookScore =
+      (book.status === "published" ? 2 : 0) + (hasExportUrl(book) ? 1 : 0);
+    const existingScore =
+      (existing.status === "published" ? 2 : 0) + (hasExportUrl(existing) ? 1 : 0);
+    if (bookScore > existingScore) {
+      bySlug.set(book.slug, book);
+    }
+  }
+  return [...bySlug.values()];
+}
+
 export function normalizeGeneratedBooksManifest(raw: GeneratedBooksManifest): BooksCatalogManifest {
   const repository = raw.repository;
-  const books: Book[] = raw.books.map((b) => generatedBookToBook(b, repository));
+  const books = dedupeCatalogBooksBySlug(
+    raw.books.map((b) => generatedBookToBook(b, repository)),
+  );
 
   const featuredSlug =
     typeof raw.featuredSlug === "string" && raw.featuredSlug.length > 0

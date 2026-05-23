@@ -1,5 +1,7 @@
-import type { Book } from "@/types/semanticGraph";
+import { TrackedLink } from "@/components/analytics/tracked-link";
+import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { booksWithPatternsPlaylist } from "@/lib/explore/entity-media";
+import type { Book } from "@/types/semanticGraph";
 
 type ExplorePatternsPlaylistCalloutProps = {
   books: readonly Book[];
@@ -21,14 +23,20 @@ export function ExplorePatternsPlaylistCallout({ books }: ExplorePatternsPlaylis
           if (!href) return null;
           return (
             <li key={book.id}>
-              <a
+              <TrackedLink
                 href={href}
                 className="text-accent underline-offset-4 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
+                analytics={outboundLinkAnalytics(
+                  href,
+                  `Watch pattern videos for ${book.title} on YouTube`,
+                  "explore_patterns_index",
+                  "youtube",
+                )}
               >
                 Watch pattern videos for {book.title} on YouTube
-              </a>
+              </TrackedLink>
             </li>
           );
         })}

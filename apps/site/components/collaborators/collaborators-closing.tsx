@@ -1,6 +1,7 @@
 import { AtmosphericSection } from "@/components/collaborators/atmospheric-section";
 import { Container } from "@/components/ui/container";
 import { CTAButton } from "@/components/collaborators/cta-button";
+import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { siteConfig } from "@/lib/site-config";
 
 export function CollaboratorsClosing() {
@@ -16,7 +17,18 @@ export function CollaboratorsClosing() {
             <CTAButton href="/start" variant="primary">
               Explore the Project
             </CTAButton>
-            <CTAButton href={siteConfig.githubUrl} variant="secondary" target="_blank" rel="noreferrer">
+            <CTAButton
+              href={siteConfig.githubUrl}
+              variant="secondary"
+              target="_blank"
+              rel="noreferrer"
+              analytics={outboundLinkAnalytics(
+                siteConfig.githubUrl,
+                "Contribute on GitHub",
+                "collaborators_closing",
+                "github",
+              )}
+            >
               Contribute on GitHub
             </CTAButton>
           </div>
