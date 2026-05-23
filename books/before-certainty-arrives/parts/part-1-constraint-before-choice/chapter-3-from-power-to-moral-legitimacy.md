@@ -73,10 +73,14 @@ allowed authority to persist without constant explanation.
 In Egypt and Mesopotamia, temple complexes were not merely religious
 sites—they were redistribution centers, record keepers, and moral
 anchors. Grain flowed through sacred storehouses. Priests maintained
-calendars that synchronized planting, tribute, and festival. What began
-as coordination—who eats when, who owes what—gradually became moral
-order itself. The practice that held society together was treated as
-goodness, not merely as necessity.[^c3-temple-economy]
+calendars that synchronized planting, tribute, and festival. On
+distribution days, households queued with marked jars while priests
+checked ledger marks against what the harvest had actually yielded.
+Disputes were settled by what the temple had recorded, not by what each
+party remembered—or preferred to remember.
+
+What began as coordination—who eats when, who owes what—gradually became
+moral order itself, treated as goodness and not merely as necessity.[^c3-temple-economy]
 
 Families ate from what the storehouse released. Hunger stayed near enough
 that shared ritual felt like survival, not ornament.

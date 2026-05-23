@@ -208,6 +208,12 @@ See [`feedback-pass-cadence-2026.md`](feedback-pass-cadence-2026.md).
 
 See [`feedback-pass-breathing-2026.md`](feedback-pass-breathing-2026.md).
 
+## Pass 17 — Narrative breathing
+
+**Goal:** Longer narrative passages, concrete scenes, tonal relaxation between conceptual peaks.
+
+See [`feedback-pass-narrative-2026.md`](feedback-pass-narrative-2026.md).
+
 ## References
 
 - [`book-rules.md`](book-rules.md)
@@ -222,4 +228,5 @@ See [`feedback-pass-breathing-2026.md`](feedback-pass-breathing-2026.md).
 - [`feedback-pass-refinement-2026.md`](feedback-pass-refinement-2026.md)
 - [`feedback-pass-cadence-2026.md`](feedback-pass-cadence-2026.md)
 - [`feedback-pass-breathing-2026.md`](feedback-pass-breathing-2026.md)
+- [`feedback-pass-narrative-2026.md`](feedback-pass-narrative-2026.md)
 - [`grounding-pass-checklist.md`](grounding-pass-checklist.md)

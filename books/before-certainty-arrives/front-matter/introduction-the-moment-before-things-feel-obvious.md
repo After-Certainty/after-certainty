@@ -5,24 +5,16 @@
 ### **The Moment Before Things Feel Obvious**
 
 Certainty rarely arrives because humans finally discover the truth.
-
-More often, it arrives because instability becomes intolerable.
-
-When lives fragment, when violence spreads, when coordination breaks
-down, the demand for clarity intensifies. People do not first ask what
-is true. They ask what will hold. What will organize action, limit
-conflict, and make behavior predictable enough to survive another season
-of uncertainty.
-
-Certainty, in this sense, is not born from truth-seeking alone.
-It is born from the need to coordinate under pressure.
+More often it arrives when instability becomes intolerable—when lives
+fragment, violence spreads, and coordination breaks down so thoroughly
+that people begin asking not what is true, but what will hold.
 
 This book treats certainty as an **adaptive response to instability**.
 Moral, religious, legal, and epistemic systems are approached here not
 as timeless answers, but as tools—constructed, refined, and inherited
-because they made life workable under specific constraints. They reduced
-ambiguity. They compressed choice. They stabilized identity. And for
-long stretches of history, they did so effectively.
+because they made life workable under specific constraints, reducing
+ambiguity, compressing choice, and holding identity steady across long
+stretches of history.
 
 Across history, the same structural movements recur:
 

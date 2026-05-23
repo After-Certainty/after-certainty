@@ -20,6 +20,11 @@ is right*, but *what holds us together long enough to live*.
 
 This is the world in which early certainty emerged.
 
+Picture a band returning from a failed hunt: meat scarce, night coming,
+children waiting at the edge of the fire. The question that mattered was
+rarely whether sharing was fair in the abstract, but whether everyone
+who expected to be alive at dawn would still choose to stay.
+
 ### **Survival Before Abstraction**
 
 In environments defined by scarcity and threat, deliberation is costly.
@@ -27,9 +32,9 @@ Hesitation can be fatal. Moral systems that depend on individual
 reasoning, open disagreement, or flexible interpretation are fragile
 when coordination must be immediate and reliable.
 
-Early societies therefore prioritized predictability over reflection.
-Roles mattered more than reasons. Repetition mattered more than
-innovation. What one did was often more important than why one did it.
+Early societies therefore prioritized predictability over reflection—roles
+over reasons, repetition over innovation—because what one did was often
+more important, in the moment, than why one did it.
 
 Early humans were capable of abstraction. Under constant pressure, what
 held groups together was shared expectation—knowing, in advance, how
@@ -72,9 +77,11 @@ Interpretation followed—if it followed at all.
 
 ### **Ritual, Tradition, and Authority as Stabilizers**
 
-Rituals synchronized behavior. Traditions preserved hard-won
-adaptations. Authority resolved conflict quickly when consensus was
-impossible.
+Rituals synchronized behavior through the seasons—who spoke first at the
+fire, who received the valued cut of meat, who kept watch while others
+slept. Traditions preserved adaptations already paid for in loss;
+authority stepped in when consensus could not form quickly enough to
+matter.
 
 These mechanisms narrowed moral choice, but they widened the chance of
 survival.

@@ -41,13 +41,11 @@ consequences.
 
 ### **Warfare and the Acceleration of Authority**
 
-Iron Age warfare intensified both frequency and scope. Armies grew
-larger. Conflicts lasted longer. Victories and defeats reshaped entire
-regions rather than isolated communities.
-
-Under threat, societies narrow acceptable behavior, elevate obedience,
-and prioritize cohesion over deliberation. Dissent becomes risk. Delay
-becomes weakness. Moral certainty becomes a resource.
+Iron Age warfare intensified both frequency and scope—armies larger,
+conflicts longer, victories and defeats reshaping entire regions rather
+than isolated communities. Under such threat, societies narrowed what
+they would tolerate, elevated obedience, and treated dissent as risk and
+delay as weakness.
 
 When Iron Age cities came under siege, gates were barred and levies
 counted by household. Defenders waited on walls most inhabitants would
@@ -68,13 +66,13 @@ wall.
 Expanded trade networks connected societies with different customs,
 gods, and moral norms. Goods traveled farther than shared meaning.
 
-A merchant in Tyre might honor one god at home and another at the
-counter where foreign contracts were sealed. In the Near East, tribute
-records and standardized weights let strangers trade under shared rules
-they did not share as kin. Economic coordination required trust across
-difference, but inherited moral systems were often parochial. They worked best among those who already shared identity and
-practice. As interaction widened, moral expectations either fractured—or
-were compressed into more general, transportable forms.
+A merchant in Tyre might honor one god at home and invoke another at the
+counter where copper ingots changed hands, using weights stamped by an
+authority neither party fully trusted but both needed if trade was to
+proceed. Tribute records and standardized measures let strangers exchange
+under shared rules they did not share as kin, and as interaction widened,
+moral expectations either fractured or were compressed into more general,
+transportable forms.
 
 Moral life began to abstract. Rules were no longer only about who one
 knew, but about what one was within a system: citizen, subject, soldier,
@@ -84,19 +82,15 @@ This abstraction increased reach—but weakened relational grounding.
 
 ### **Power Beyond Presence**
 
-Perhaps the most destabilizing change was the emergence of authority
-without presence.
+Perhaps the most destabilizing change was authority without presence:
+rulers governing territories they could not oversee, decisions enforced
+through intermediaries, and power traveling by law, taxation, and force
+rather than personal relationship. Feedback slowed, harm became harder to
+trace, and moral reasoning shifted from discernment toward role
+compliance.
 
-Rulers governed territories they could not physically oversee. Decisions
-were enforced by intermediaries. Power operated through law, taxation,
-and military force rather than personal relationship.
-
-When authority is distant, responsibility diffuses. Feedback slows. Harm
-becomes harder to trace to individual decisions. Moral reasoning shifts
-from personal judgment to role compliance.
-
-Scale alters not only how societies function, but how moral
-responsibility is perceived—introducing abstraction, delay, and distance
+Scale altered not only how societies functioned, but how moral
+responsibility was perceived—introducing abstraction, delay, and distance
 between action and consequence.
 
 Older moral tools—ritual repetition, personal authority, inherited
