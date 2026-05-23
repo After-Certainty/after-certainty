@@ -29,13 +29,21 @@ costumes: a granary rule before a lean winter, a stele before a crowd,
 a birth certificate before a border clerk. The forms change. The need to
 make conduct readable under strain does not.
 
+Watch long enough in any one place and the pattern looks less like a
+formula than like habit under pressure: people learning what will still
+be recognized tomorrow, what dispute can wait, what must be settled
+before the season turns.
+
 These patterns appear across civilizations when similar pressures produce
 similar adaptations—not when humans reach identical conclusions.
 
 Collapse, scale, and fragmentation do not always produce the
-same institutions—but they repeatedly produce the same kind of response:
-narrow interpretation, hold behavior steady, inherit what worked, and
-carry it forward until it overextends.
+same institutions. A city under siege tightens differently than a trade
+port widens differently than a monastery copies scripture through a
+winter. What repeats is not the costume but the pressure: narrow
+interpretation when coordination frays, hold behavior steady when
+explanation is too slow, inherit what worked and carry it forward until
+it overextends.
 
 This sequence does not unfold smoothly or uniformly. It does not follow
 a single timeline or belong to one civilization. But it appears again
@@ -54,11 +62,13 @@ moral absolutes that mark adaptation rather than moral failure.
 In many such moments—not all—moral clarity follows catastrophe rather
 than contemplation.
 
-This book traces that process. It examines how certainty forms, why it
-feels necessary, and how the tools designed to stabilize life under
-constraint become durable enough to outlive the conditions that gave
-them meaning. It focuses on the moment **before** certainty feels
-excessive—when it still appears obvious, justified, and indispensable.
+This book traces that process—not to reduce every tradition to machinery,
+but to notice how often survival, meaning, and coordination arrive
+together under strain. It examines how certainty forms, why it feels
+necessary, and how the tools designed to stabilize life under constraint
+become durable enough to outlive the conditions that gave them meaning.
+It focuses on the moment **before** certainty feels excessive—when it
+still appears obvious, justified, and indispensable.
 
 This book stops there on purpose.
 

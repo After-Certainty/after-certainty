@@ -37,9 +37,8 @@ to coordinate long after they stop fitting, retaining authority long after
 they stop persuading, and demanding allegiance long after they stop holding
 meaning steady. This persistence is not corruption so much as inertia.
 
-Tools survive their purpose: certainty lasts because it once worked—and
-because nothing else yet does. Recognizing this requires historical
-honesty more than condemnation.
+Certainty lasts because it once worked—and because nothing else yet does.
+Recognizing that requires historical honesty more than condemnation.
 
 ### **Why This Book Refuses Instruction**
 
@@ -71,10 +70,15 @@ or may not come today. None of these acts requires full belief in the
 system. They require only that the machinery still recognize a name long
 enough for life to continue.
 
+The neighbor on hold hears hold music, checks the clock, and wonders
+whether to start dinner before the call comes back. Nothing is resolved.
+Nothing has failed. The week simply continues inside structures that
+still work well enough to be taken for granted.
+
 That is where the next book begins: not with answers or replacement
 frameworks, but with the question this book deliberately refuses to settle:
 
 **How do we live and judge once understanding is no longer enough?**
 
 This book prepares the ground for that question without trying to answer
-it—and that restraint is not a limitation so much as the point.
+it. The restraint is the point—and the ordinary Tuesday is still underway.

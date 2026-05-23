@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 4p — dimensionality and recovery pass** on `books/before-certainty-arrives/`
+**Phase 4q — decompression pass** on `books/before-certainty-arrives/`
 
 ## Active branch
 
@@ -66,3 +66,4 @@ None recorded.
 - ~8,918 words after cadence and hinge pass (May 2026)
 - ~9,879 words after late-stage structural pass (May 2026)
 - ~10,073 words after dimensionality and recovery pass (May 2026)
+- ~10,388 words after decompression pass (May 2026)

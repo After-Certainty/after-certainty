@@ -70,17 +70,22 @@ doors after kinship thinned. For others, the same stamp meant fear of
 erasure. The same file could feel like protection or disappearance,
 depending on which side of the desk one stood.
 
-Shared values simplify into civic myths. Complex histories shrink into
-legitimating stories. Certainty persists because participation is
-compulsory and meaning is held steady through repetition, education, and
-enforcement. Identity thins into paperwork.
+At a post office window, a man might learn that his address on a utility
+bill did not match his address on the lease, and that neither matched
+the form he had filled out in triplicate two years earlier. The clerk
+would not debate citizenship. She would ask for another copy, another
+signature, another wait. Shared values still mattered in speeches. In
+the queue, what mattered was whether the numbers aligned.
 
 ### **Capitalism and Functional Morality**
 
-Market systems coordinate behavior without requiring shared values: price
-replaces agreement, responsibility shifts from individual intent to systemic
-role, and certainty often operates as inevitability—the system assumed
-rather than argued for.
+At a wholesale market, price settled what kinship no longer could. A
+buyer did not need to trust a seller's character if the scale and the
+posted rate matched what every other stall charged that morning.
+Responsibility moved from intent to role: the merchant who shorted weight
+lost custom; the inspector who looked away kept his post. Market systems
+coordinate behavior without requiring shared values—agreement replaced by
+exchange, and certainty often felt like the only price that cleared.
 
 ### **When Certainty Becomes Impersonal**
 
@@ -91,16 +96,16 @@ follows orders copied through six offices; the signature at the top is a
 name on paper, not a person in the room.
 
 Knowledge is delegated to credentialed authorities most cannot verify.
-People reach for forms when trust in persons has thinned—compliance
-without full understanding, participation without authorship, harm without
-a clear agent to name.
+People reach for forms when trust in persons has thinned.
 
-Critique was reframed as ignorance, dissent redirected into process, and
-failures explained rather than corrected as slow inertia resisted revision.
+At a housing office, an applicant might be told the problem was box seven,
+not box four, and that the corrected form would need to be resubmitted
+after the holiday. No one in the room felt cruel. No one felt fully
+responsible either. The file moved to the next desk; the wait continued.
 
 Strain showed in offices and queues long before systems admitted failure:
-meaning thinned, confidence was maintained through process rather than
-contact, and the machinery kept running.
+the fluorescent lights still on at closing time, the ticket number still
+called, the machinery still running while meaning thinned.
 
 The system has not failed.
 

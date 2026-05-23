@@ -58,7 +58,8 @@ applicant rehearsed answers no one had asked for yet. The room smelled of
 copier toner and rain on coats. Nothing in that scene required
 conviction—only that the line keep moving.
 
-Certainty remains infrastructural—constraint, not false consciousness.
+People still depended on that movement. Certainty, here, is less a creed
+than a schedule that has not yet broken.
 
 ### **Explanation and Managed Doubt**
 
@@ -74,19 +75,25 @@ with conclusions everyone recorded and fewer fully believed.
 Down the hall, someone still waited for a callback that would decide
 whether a prescription renewed or a lease continued. The delay was not
 dramatic. It was administrative—and therefore ordinary enough to endure.
+The phone did not ring. The form on the counter stayed in the same place.
+No one came out to explain why.
 
-Explanation clarifies mechanisms without repairing trust—well enough to
-delay rupture, not enough to restore confidence. Trust thins: compliance
-without deference, participation without identification—ambient distrust
-held in check by procedure.
+Investigators could trace causation on charts in rooms far from that
+wait. Downstream, the week still depended on whether a stamp arrived on
+time.
 
 ### **Visible Strain Without Open Failure**
 
 Postwar planning offices, actuarial tables, and technocratic committees
-had promised that complexity could be managed through expertise, and the
-tools still functioned and still commanded resources even as they
-governed conditions far removed from the pressures that first made
-centralized certainty feel indispensable.[^c10-technocracy]
+had promised that complexity could be managed through expertise. The
+promise still shaped budgets, credentials, and the language of public
+response even when the conditions being managed had long since outgrown
+the offices that first made centralized certainty feel indispensable.[^c10-technocracy]
+
+In one such office, binders stacked on binders while a junior analyst
+updated a chart no elected official would read in full. The work was
+serious. It was also distant from the queue downstairs where a name had
+not yet cleared.
 
 Institutions were overextended, moral credibility eroding faster than
 authority—a saturation of fit rather than open dysfunction.
