@@ -2,10 +2,10 @@
 
 ## **Renaissance, Exploration, and Fracture**
 
-**Time Period:\**
+**Time Period:**
 c. 1400–1700 CE
 
-**Geographic Scope:\**
+**Geographic Scope:**
 Early modern Europe; global exploration and colonial contact
 
 ### **When Certainty Meets Expansion**
@@ -18,9 +18,6 @@ intellectual, and cultural—introduced novelty faster than inherited
 frameworks could absorb. New lands, new peoples, new cosmologies, and
 new forms of knowledge appeared not at the margins, but at the center of
 European life.
-
-This chapter examines what happens when certainty encounters expansion
-rather than collapse.
 
 Unlike earlier moments of breakdown, the Renaissance and age of
 exploration did not begin with the failure of inherited moral systems.
@@ -57,9 +54,6 @@ coordination could follow. Competing explanations did not simply
 disagree; they addressed different aspects of reality using incompatible
 standards.[^c8-braudel-plurality]
 
-The result was not relativism.\
-It was plurality under constraint.
-
 ### **Fragmentation of Authority**
 
 As moral imagination diversified, authority fractured.
@@ -76,7 +70,7 @@ coherence. Each asserted moral authority within its own boundaries. What
 disappeared was the assumption that one certainty could command
 universal obedience without contest.
 
-Disagreement no longer took place within a shared moral frame.\
+Disagreement no longer took place within a shared moral frame.
 It took place between frames.
 
 ### **Competing Moral Systems**
@@ -88,8 +82,6 @@ internal boundaries. Moral systems became more explicit, more
 confessional, and more sharply defined. Belief hardened not because it
 was newly discovered, but because it had to differentiate itself from
 rivals.
-
-This is a familiar response to expansion.
 
 When coordination cannot be maintained across difference, it is
 reinforced within identity. Moral compression intensifies locally even
@@ -108,32 +100,8 @@ from epistemic confidence to institutional enforcement. Power matters
 more, not less.
 
 Conflicts that appear theological or philosophical are increasingly
-struggles over jurisdiction, legitimacy, and control. The issue is not
-whether a certainty can justify itself, but whether it can organize
-obedience at scale.
-
-This marks a significant transition.
-
-Certainty is no longer primarily defended as truth.\
-It is defended as order.
-
-### **Fracture Without Failure**
-
-It is tempting to treat this period as liberation—the beginning of
-modern freedom, pluralism, or critical thought. That narrative misreads
-what is happening.
-
-The Renaissance and age of exploration do not dissolve certainty. They
-multiply it. They do not reduce compression. They redistribute it. Moral
-systems fracture outward while tightening inward.
-
-What changes is not the need for certainty, but the arena in which it
-operates.
-
-The fracture does not break certainty.
-It prepares it for institutional form—each tradition defending its
-inherited order as moral truth because difference forced identity to
-harden.
+struggles over jurisdiction, legitimacy, and control. Certainty is
+defended as order—not merely as truth.
 
 [^c8-braudel-plurality]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981); E. H. Carr, *What Is History?* (New York: Vintage Books, 1961).
 [^c8-printing-press]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).

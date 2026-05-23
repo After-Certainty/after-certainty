@@ -122,10 +122,24 @@ Edit moves:
 
 See [`feedback-pass-tighten-2026.md`](feedback-pass-tighten-2026.md).
 
+## Pass 9 — Final prose polish
+
+**Goal:** Publishable subtraction — double-landing trim, asymmetric endings, cadence variation. No new content.
+
+Check for:
+
+- Ch 8–10: insight not stated twice in same paragraph cluster
+- Endings stop on image/tension (Ch 7 "It held." model)
+- ~30% fewer "This is not X / It is Y" inversions in Part III
+- Net word count ~8.6–9.2k
+
+See [`feedback-pass-final-2026.md`](feedback-pass-final-2026.md).
+
 ## References
 
 - [`book-rules.md`](book-rules.md)
 - [`pattern-language.md`](pattern-language.md)
 - [`beta-reader-feedback-editorial-2026.md`](beta-reader-feedback-editorial-2026.md)
 - [`feedback-pass-tighten-2026.md`](feedback-pass-tighten-2026.md)
+- [`feedback-pass-final-2026.md`](feedback-pass-final-2026.md)
 - [`grounding-pass-checklist.md`](grounding-pass-checklist.md)

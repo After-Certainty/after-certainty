@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 4c — tighten and trust** on `books/before-certainty-arrives/`
+**Phase 4d — final prose polish** on `books/before-certainty-arrives/`
 
 ## Active branch
 
@@ -14,7 +14,7 @@
 
 ## Word target
 
-~10.2k words (grounding pass complete; essay edition)
+~9.2k words (final prose polish complete; essay edition)
 
 ## Unit progress
 
@@ -57,3 +57,4 @@ None recorded.
 - ~9,300 words baseline (May 2026)
 - ~10,200 words after grounding pass
 - ~9,600 words after tighten pass (May 2026)
+- ~9,200 words after final prose polish (May 2026)

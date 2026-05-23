@@ -16,8 +16,8 @@
 
 ## Current starting phase
 
-**Phase 4c — Tighten and trust** (pattern tiering, trim over-explanation, asymmetric endings; net flat word count).
+**Phase 4c — Tighten and trust** (complete).
 
-Prior: Phase 4b editorial grounding (complete).
+**Phase 4d — Final prose polish** (active).
 
 See [upcoming/docs/_templates/drafting-process.md.template](../../docs/_templates/drafting-process.md.template) for full phase definitions.

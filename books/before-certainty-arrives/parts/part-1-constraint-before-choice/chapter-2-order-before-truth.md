@@ -77,24 +77,15 @@ At this stage, moral life undergoes a recognizable transformation.
 
 As scale increases, the range of acceptable behaviors, interpretations,
 and identities narrows. Roles become clearer. Deviations become more
-costly. Meaning is enforced rather than negotiated. This is not
-accidental. It is how large systems reduce friction.
-
-Moral compression serves several functions at once:
-
-- It limits choice, reducing coordination failure.
-
-- It clarifies roles, reducing conflict.
-
-- It stabilizes meaning, reducing ambiguity.
+costly. Meaning is enforced rather than negotiated—how large systems
+reduce friction under pressure.
 
 Under pressure, moral systems shed flexibility in exchange for
 durability. Fewer options make behavior legible. Narrower
 interpretations make enforcement possible. Clear boundaries make
 authority actionable.
 
-This is not yet moral rigidity in the sense of dogma. It is **moral
-compression**.[^c2-moral-compression]
+This is **moral compression**.[^c2-moral-compression]
 
 ### **Law, Kingship, and Cosmos as Stabilizers**
 

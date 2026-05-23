@@ -57,10 +57,8 @@ When failures occur, they are investigated. Reports are issued. Causes
 are identified. Most people still expect that problems can be understood
 and corrected within existing frameworks.
 
-The issue is not that explanations are wrong.
-Explanation clarifies mechanisms without repairing trust.
-
-But it still works well enough to delay rupture.
+Explanation clarifies mechanisms without repairing trust—well enough to
+delay rupture, not enough to restore confidence.
 
 ### **Partial Trust and Managed Doubt**
 
@@ -75,8 +73,6 @@ at risk.
 
 ### **Visible Strain Without Open Failure**
 
-The signs of strain are no longer hidden.
-
 Postwar planning offices, actuarial tables, and technocratic committees
 promised that complexity could be managed through expertise—climate
 models, welfare formulas, development indices. The tools still
@@ -88,27 +84,13 @@ Institutions are overextended. Moral credibility erodes faster than
 authority. Fragmentation accelerates across political, cultural, and
 epistemic lines.
 
-And yet—nothing breaks.
-
-The systems still function.
-The tools still operate.
-The language of certainty still governs public life.
-
 The problem is not dysfunction.
 It is saturation.
 
-### **Where This Book Stops**
-
-This book stops here on purpose.
-
-It ends at the edge of recognition—before certainty is rejected, before
-legitimacy dissolves, before understanding gives way to something else.
-
-The next book begins after that moment.
-
-After recognition arrives.[^c10-recognition-threshold]
+This book stops here on purpose—at the edge of recognition, before
+certainty is rejected and before understanding gives way to something
+else.
 
 The systems still run. The fit has thinned.
 
-[^c10-recognition-threshold]: See Thomas S. Kuhn, *The Structure of Scientific Revolutions* (Chicago: University of Chicago Press, 1962); Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973).
 [^c10-technocracy]: See Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001); Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).

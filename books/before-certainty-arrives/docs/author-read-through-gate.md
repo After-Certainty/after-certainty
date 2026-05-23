@@ -1,6 +1,10 @@
 # Author read-through gate — Before Certainty Arrives
 
-**Edition:** Essay (~9.3k words) — promote without expansion to full book-rules band.
+**Edition:** Essay (~8.6–9.6k words after editorial passes) — publishable pending author sign-off.
+
+## Editorial status
+
+Manuscript has completed grounding, tighten-and-trust, and final prose polish passes on branch `before-certainty-arrives/editorial-grounding`. Ready for author read-through.
 
 ## Part I–III coherence
 

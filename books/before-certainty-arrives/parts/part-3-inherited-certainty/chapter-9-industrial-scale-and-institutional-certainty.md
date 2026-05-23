@@ -27,8 +27,7 @@ production, mass administration, scientific management, and national
 governance extended collective action far beyond what any individual
 could see, understand, or personally verify.
 
-The problem these systems addressed was not belief.
-It was scale.
+The problem these systems addressed was scale—not belief.
 
 Millions of people had to work, move, fight, trade, and comply
 together—often without shared culture, direct trust, or interpersonal
@@ -55,8 +54,7 @@ When legitimacy is procedural, obedience no longer depends on persuasion
 or trust in individuals. It depends on confidence that the system
 works—that it is rational, fair, and necessary.
 
-Certainty, here, is not personal conviction.
-It is institutional reliability.
+Certainty here is institutional reliability—not personal conviction.
 
 ### **The Nation-State and Abstract Belonging**
 
@@ -89,16 +87,13 @@ Market systems coordinate behavior without requiring shared values.
 Price replaces agreement. Incentives substitute for persuasion. Moral
 judgment is displaced by functional outcome.
 
-This does not eliminate morality.
-It reassigns it.
-
 Responsibility shifts from individual intent to systemic role. Harm can
 be justified as unintended consequence. Success becomes evidence of
 legitimacy. Failure becomes personal deficiency rather than structural
 effect.
 
-Certainty operates here as inevitability.
-The system is not argued for; it is assumed.
+Certainty operates here as inevitability—the system assumed rather than
+argued for.
 
 ### **Scientific Authority and Epistemic Trust**
 
@@ -111,9 +106,6 @@ shared understanding to delegated competence.
 Most people cannot verify the claims that govern their lives. They
 accept them because the institutions that produce them appear rigorous,
 objective, and self-correcting.
-
-This trust is not irrational.
-It is adaptive.
 
 At scale, direct verification is impossible. Certainty must be
 outsourced.
@@ -128,20 +120,10 @@ Rules persist regardless of context. Institutions continue regardless of
 outcome. Authority operates without visibility. Decisions are made far
 from their effects, often by no one in particular.
 
-Certainty remains legitimate—but it is increasingly alienating.
-
 People comply without understanding. They participate without
 authorship. They experience harm without a clear agent to name. Moral
-life becomes procedural rather than relational.
-
-This is not yet failure.
-
-Trust largely remains intact.
-
-The systems still function. The institutions still command obedience.
-The tools still appear necessary.
-
-But the distance between certainty and human experience is widening.
+life becomes procedural rather than relational—and the distance between
+certainty and human experience widens.
 
 ### **Self-Protecting Legitimacy**
 
@@ -149,39 +131,20 @@ As institutional certainty grows, it develops defenses.
 
 Critique is reframed as ignorance. Dissent is redirected into process.
 Responsibility is absorbed by structure. Failures are explained rather
-than corrected.
-
-This is not conspiracy.
-It is inertia.
-
-Tools designed to stabilize coordination resist disruption because
-disruption threatens scale itself. Revision becomes slow, costly, and
-risky. Certainty persists because no alternative can plausibly replace
-it without collapse.
+than corrected—slow inertia, not conspiracy, resisting revision because
+disruption threatens scale itself.
 
 At this stage, certainty still feels indispensable—even to those it
 alienates.
 
 ### **The Threshold Approaches**
 
-This chapter does not describe collapse.
-
-It describes a peak.
-
-Institutional certainty still works well enough. Explanation still
-mostly holds. Authority is still broadly trusted. Moral tools still
-appear justified by necessity.
-
-But strain is visible everywhere.
-
-Alienation increases. Responsibility diffuses. Meaning thins. Confidence
-is maintained through process rather than contact.
+Strain is visible everywhere. Alienation increases. Meaning thins.
+Confidence is maintained through process rather than contact.
 
 The system has not failed.
 
-But it has reached the point where its costs are no longer invisible—
-where tools that once stabilized coordination now survive their purpose
-even as the fit thins.
+But its costs are no longer invisible.
 
 [^c9-factory-time]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978); Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001).
 [^c9-weber-bureaucracy]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).
