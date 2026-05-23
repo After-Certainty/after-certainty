@@ -2,15 +2,19 @@
 
 ## Current phase
 
-**Phase 5 — promoted to `books/before-certainty-arrives/` (essay edition)**
+**Phase 4b — editorial grounding** on `books/before-certainty-arrives/`
 
 ## Active branch
 
-`cursor/upcoming-pass-4-editorial-quick-wins-9a98`
+`before-certainty-arrives/editorial-grounding`
 
 ## Manuscript hub
 
 [`index.md`](../index.md)
+
+## Word target
+
+~11–12k words (grounding pass; essay edition)
 
 ## Unit progress
 
@@ -19,29 +23,30 @@
 | Title Page | draft | |
 | Copyright | draft | |
 | Author's Note | draft | |
-| How to Read This History | draft | Pandoc footnotes |
-| Introduction | draft | |
-| Ch 1 — Life Under Constraint | draft | Pandoc footnotes |
-| Ch 2 — Order Before Truth | draft | Pandoc footnotes |
-| Ch 3 — From Power to Moral Legitimacy | draft | Pandoc footnotes |
-| Ch 4 — Population Growth and Social Density | draft | Pandoc footnotes |
-| Ch 5 — Shared Conditions, Not Shared Revelation | draft | Pandoc footnotes |
-| Ch 6 — Writing as Moral Stabilizer | draft | Pandoc footnotes |
-| Ch 7 — Medieval Re-Adaptation | draft | Pandoc footnotes |
-| Ch 8 — Renaissance, Exploration, and Fracture | draft | Pandoc footnotes (Pass 4) |
-| Ch 9 — Industrial Scale and Institutional Certainty | draft | Pandoc footnotes (Pass 4) |
-| Ch 10 — The Moment Before Failure | draft | Pandoc footnotes (Pass 4) |
-| Conclusion | draft | |
-| Bibliography | draft | Chicago-style; Ch 8 Braudel entry added |
+| How to Read This History | draft | optional pattern sentence |
+| Introduction | grounding | three-pattern block |
+| Ch 1 — Life Under Constraint | grounding | |
+| Ch 2 — Order Before Truth | grounding | |
+| Ch 3 — From Power to Moral Legitimacy | grounding | |
+| Ch 4 — Population Growth and Social Density | grounding | priority rewrite |
+| Ch 5 — Shared Conditions, Not Shared Revelation | grounding | light touch |
+| Ch 6 — Writing as Moral Stabilizer | grounding | priority rewrite |
+| Ch 7 — Medieval Re-Adaptation | grounding | light touch |
+| Ch 8 — Renaissance, Exploration, and Fracture | grounding | |
+| Ch 9 — Industrial Scale and Institutional Certainty | grounding | |
+| Ch 10 — The Moment Before Failure | grounding | preserve restraint |
+| Conclusion | grounding | Pattern 3 recognition |
+| Bibliography | draft | sync new footnotes |
 
 ## Author gate
 
-Checklist: [`author-read-through-gate.md`](author-read-through-gate.md) — complete sign-off table when read-through is done.
+Checklist: [`author-read-through-gate.md`](author-read-through-gate.md)
 
 ## Next actions
 
-1. Optional post-promote: bibliography spot-check against all `[^id]` markers after export smoke test.
-2. Source of truth for edits: [`books/before-certainty-arrives/`](../../books/before-certainty-arrives/docs/status.md) when promoting follow-up fixes.
+1. Complete grounding passes per [`grounding-pass-checklist.md`](grounding-pass-checklist.md)
+2. Export smoke test: `make build-book DIR=books/before-certainty-arrives`
+3. Bibliography spot-check against new `[^id]` markers
 
 ## Open decisions / known issues
 
@@ -49,4 +54,5 @@ None recorded.
 
 ## Rough scale
 
-- ~9,300 words (May 2026; post Pass 4 footnotes)
+- ~9,300 words baseline (May 2026)
+- Target ~11–12k after grounding pass

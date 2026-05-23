@@ -8,7 +8,8 @@ Architectural constraints for **Before Certainty Arrives** (*How Moral Order For
 
 ### Target length
 
-- Historical essay manuscript (~60–90k words at completion; current draft ~9.2k)
+- Expanded essay edition (~11–12k words; editorial grounding pass May 2026)
+- Long-form target (~60–90k words) deferred; not in scope for current pass
 - 3 parts, 10 chapters, substantial front matter, bibliography
 
 ### Markdown file structure
@@ -42,7 +43,30 @@ Architectural constraints for **Before Certainty Arrives** (*How Moral Order For
 
 ## Chapter construction
 
-Period/scene opening where useful → structural claim → historical parallel → return to invariant. Use sub-headings for navigation in longer chapters.
+Period/scene opening where useful → structural claim → historical anchor (when earned) → return to invariant. Use sub-headings for navigation in longer chapters.
+
+At least 3 chapters should break the default rhythm (anchor-first opening, shorter section, or tension held before reframe). See `docs/editorial-passes.md`.
+
+## Historical anchor convention
+
+Brief concrete grounding (50–120 words), inline in prose—not vignette blocks, not pop-history anecdotes.
+
+- Specific place, object, or practice (stele, census tablet, factory bell)
+- Footnoted when verifiable (`[^cN-slug]`)
+- 1–3 anchors per chapter
+- Analysis stays in surrounding prose; anchors provide friction
+
+## Three-pattern language
+
+Locked set (see `docs/pattern-language.md`):
+
+1. **Instability Demands Compression**
+2. **What Holds Becomes Moral**
+3. **Tools Survive Their Purpose**
+
+Introduce quietly in introduction; embody in chapters. At most one bold surfacing per chapter when earned. No pattern callout boxes or per-chapter pattern headers.
+
+**Secondary motif:** distance between action and consequence — light callbacks in Ch 4, 6, 9; not a fourth named pattern.
 
 ## Citation and bibliography
 
@@ -54,3 +78,6 @@ Period/scene opening where useful → structural claim → historical parallel �
 
 - `docs/drafting-process.md`
 - `docs/status.md`
+- `docs/pattern-language.md`
+- `docs/editorial-passes.md`
+- `docs/grounding-pass-checklist.md`
