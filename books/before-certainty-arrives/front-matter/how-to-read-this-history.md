@@ -34,9 +34,11 @@ questions:
 
 Some historical periods that are often described as moral or
 intellectual “regressions”—for example, medieval Europe—are treated here
-as **re-adaptations**, not failures. Collapse rarely produces openness.
-It produces tighter certainty. What can look like a step backward from
-one vantage point is often a stabilizing response to renewed constraint.
+as **re-adaptations**, not failures. After breakdown, certainty often
+tightens rather than opens—though exceptions exist, and some collapses
+have briefly widened interpretive space before urgency closed it again.
+What can look like a step backward from one vantage point is often a
+stabilizing response to renewed constraint.
 
 This book therefore resists several common ways of reading history:
 
@@ -61,6 +63,11 @@ advancement**—and for three structural movements that recur across eras:
 Instability demands compression.
 What holds becomes moral.
 Tools survive their purpose.
+
+They will not appear on every page in those words. More often they arrive
+as irrigation disputes, temple queues, corrected surnames on a tax roll—
+ordinary scenes that compress only after you have watched them for a
+moment.
 
 Notice how often moral clarity follows catastrophe.
 Notice how often compression follows instability.

@@ -20,8 +20,11 @@ where the consequence landed.[^c9-factory-time]
 
 Workers arrived tired and left tired; the bell gave exhaustion a schedule
 that families at home learned to depend on. Industrial modernity did not
-invent certainty so much as reorganize it, and millions of people now had
-to work, move, fight, trade, and comply together—often without shared
+invent certainty so much as reorganize it around repeatability: the same
+shift, the same stamp, the same file number, trusted by strangers who
+would never meet.
+
+Millions of people now had to work, move, fight, trade, and comply together—often without shared
 culture, direct trust, or interpersonal accountability. Coordination required durable, repeatable, impersonal
 mechanisms—the factory bell, the file, the timetable replacing the temple
 wall as the visible limit of argument. This is the environment in which institutional certainty
@@ -82,14 +85,18 @@ rather than argued for.
 ### **When Certainty Becomes Impersonal**
 
 By the mid–twentieth century, certainty is held by systems more than
-people. Knowledge is delegated to credentialed authorities most cannot
-verify. People comply without understanding, participate without
-authorship, and experience harm without a clear agent to name.
+people. A woman renewing a ration card may know only that the stamp
+still works, not who decided the policy or whether it is just. A soldier
+follows orders copied through six offices; the signature at the top is a
+name on paper, not a person in the room.
 
-People learned to depend on systems they could not explain—to reach for
-forms when trust in persons had thinned. Critique was reframed as ignorance,
-dissent redirected into process, and failures explained rather than
-corrected as slow inertia resisted revision.
+Knowledge is delegated to credentialed authorities most cannot verify.
+People reach for forms when trust in persons has thinned—compliance
+without full understanding, participation without authorship, harm without
+a clear agent to name.
+
+Critique was reframed as ignorance, dissent redirected into process, and
+failures explained rather than corrected as slow inertia resisted revision.
 
 Strain showed in offices and queues long before systems admitted failure:
 meaning thinned, confidence was maintained through process rather than

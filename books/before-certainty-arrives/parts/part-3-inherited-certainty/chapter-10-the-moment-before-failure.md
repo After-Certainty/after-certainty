@@ -50,12 +50,15 @@ Certainty persists because participation demands it. Even critics rely
 on the systems they question.
 
 To opt out was to lose wages, medicine, transit, and legal standing in
-the same motion—dependency made certainty feel less like belief than
-like air. Renewals cleared automatically; payroll continued; credentials
-expired if forms were not filed on time.
+the same motion—dependency made certainty feel less like belief than like air. Renewals cleared automatically; payroll
+continued; credentials expired if forms were not filed on time.
 
-Certainty remains infrastructural—
-constraint, not false consciousness.
+At a benefits office, a clerk might call the next number while the
+applicant rehearsed answers no one had asked for yet. The room smelled of
+copier toner and rain on coats. Nothing in that scene required
+conviction—only that the line keep moving.
+
+Certainty remains infrastructural—constraint, not false consciousness.
 
 ### **Explanation and Managed Doubt**
 
@@ -67,6 +70,10 @@ while downstream people still waited in lines for forms to clear.
 In offices that never fully closed, staff rotated through one crisis into
 the next—institutional exhaustion without open collapse. Meetings ended
 with conclusions everyone recorded and fewer fully believed.
+
+Down the hall, someone still waited for a callback that would decide
+whether a prescription renewed or a lease continued. The delay was not
+dramatic. It was administrative—and therefore ordinary enough to endure.
 
 Explanation clarifies mechanisms without repairing trust—well enough to
 delay rupture, not enough to restore confidence. Trust thins: compliance
@@ -87,6 +94,12 @@ authority—a saturation of fit rather than open dysfunction.
 This book stops here on purpose—at the edge of recognition, before
 certainty is rejected and before understanding gives way to something
 else.
+
+Outside, the week still ran on appointments: a child late for school
+because a bus pass had to be revalidated, a neighbor signing a form in
+triplicate without reading the third copy. Nothing in those gestures
+required faith in the system—only the habit of continuing while the fit
+thinned.
 
 The systems still run. The fit has thinned.
 

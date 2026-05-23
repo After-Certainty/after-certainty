@@ -34,7 +34,8 @@ As populations expand, coordination becomes abstract.
 Surveyors marked fields with pegs and cords. Clerks pressed harvest counts
 into wet clay while the river still ran high. Before anyone asked whether
 the arrangement was just, farmers needed to know what would be taken and
-what would remain.
+what would remain. A household might accept the count with resentment,
+relief, or both on the same day.
 
 Rules had to bind people who were not present, authority had to outlive
 individual leaders, and expectations had to stay readable across
@@ -63,9 +64,9 @@ systems that provided this clarity—however rigid—outperformed those that
 invited interpretation.
 
 Relief came before righteousness: a farmer who knew the levy in advance
-could plan the season without waiting on a ruler's mood, and in that
-predictability lay the period's distinctive moral achievement—not nuance,
-but reliability.
+could plan the season without waiting on a ruler's mood. That
+predictability was not the whole of moral life, but for many it was the
+part that made the rest survivable.
 
 ### **Moral Compression as Coordination Technology**
 

@@ -118,8 +118,10 @@ expression. They were designed to keep people alive.
 This distinction matters.
 
 When we judge early moral systems by modern standards of autonomy or
-pluralism, we risk misunderstanding what they were for. Certainty was
-not an epistemic claim. It was a coordination tool.
+pluralism, we risk misunderstanding what they were for. For many who
+lived inside them, ritual also carried grief, belonging, and awe—not
+only constraint. Certainty was not an epistemic claim. It was a
+coordination tool.
 
 ### **Coordination Before Moralization**
 
@@ -128,8 +130,8 @@ inherited, or overextended. It was local, practical, and closely tied to
 survival.
 
 When coordination becomes fragile, societies narrow interpretation,
-behavior, and acceptable disagreement in order to hold action steady—
-instability demanding compression before anyone names it as doctrine.
+behavior, and acceptable disagreement in order to hold action steady.
+That narrowing often arrives long before anyone names it doctrine.
 
 But here—at the beginning—it was necessary.
 

@@ -224,6 +224,12 @@ See [`feedback-pass-observe-2026.md`](feedback-pass-observe-2026.md).
 
 See [`feedback-pass-late-stage-2026.md`](feedback-pass-late-stage-2026.md).
 
+## Pass 20 — Dimensionality and recovery
+
+**Goal:** Spread compression stacks in Introduction, How to Read, Ch 1–2, Ch 10, Conclusion; deepen Ch 9 embodiment; accumulate before concluding.
+
+See [`feedback-pass-dimensionality-2026.md`](feedback-pass-dimensionality-2026.md).
+
 ## References
 
 - [`book-rules.md`](book-rules.md)
@@ -241,4 +247,5 @@ See [`feedback-pass-late-stage-2026.md`](feedback-pass-late-stage-2026.md).
 - [`feedback-pass-narrative-2026.md`](feedback-pass-narrative-2026.md)
 - [`feedback-pass-observe-2026.md`](feedback-pass-observe-2026.md)
 - [`feedback-pass-late-stage-2026.md`](feedback-pass-late-stage-2026.md)
+- [`feedback-pass-dimensionality-2026.md`](feedback-pass-dimensionality-2026.md)
 - [`grounding-pass-checklist.md`](grounding-pass-checklist.md)

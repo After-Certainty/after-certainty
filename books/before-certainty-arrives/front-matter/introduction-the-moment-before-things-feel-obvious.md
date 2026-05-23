@@ -24,6 +24,11 @@ What holds becomes moral.
 
 Tools survive their purpose.
 
+These are not slogans. They are pressures that show up in different
+costumes: a granary rule before a lean winter, a stele before a crowd,
+a birth certificate before a border clerk. The forms change. The need to
+make conduct readable under strain does not.
+
 These patterns appear across civilizations when similar pressures produce
 similar adaptations—not when humans reach identical conclusions.
 
@@ -38,13 +43,16 @@ and again wherever humans attempt to live together under pressure.
 
 War, famine, migration, and fragmentation often precede moral
 breakthroughs. Catastrophe rarely makes people wiser; it makes older
-answers insufficient, and what follows is rarely open-ended reflection
-so much as the rapid construction of certainty—clear roles, sacred
-authority, fixed law, moral absolutes that mark adaptation rather than
-moral failure.
+answers insufficient. In a village after plague, fields may lie untilled
+while survivors argue over who inherits obligation. The argument is not
+philosophical. It is about who will still be fed tomorrow.
 
-Moral clarity, in other words, often follows catastrophe rather than
-contemplation.
+What follows is rarely open-ended reflection so much as the rapid
+construction of certainty—clear roles, sacred authority, fixed law,
+moral absolutes that mark adaptation rather than moral failure.
+
+In many such moments—not all—moral clarity follows catastrophe rather
+than contemplation.
 
 This book traces that process. It examines how certainty forms, why it
 feels necessary, and how the tools designed to stabilize life under
@@ -59,7 +67,8 @@ not explore how to live once explanation no longer reassures or
 interpretation no longer resolves responsibility. That work belongs to
 the book that follows.
 
-The task here is recognition.
+The task here is recognition—not a verdict on every tradition, and not a
+claim that lived meaning was ever only machinery.
 
 To see how certainty arrives, understand why it feels earned, and notice
 the moment just before it becomes difficult to question at all.
