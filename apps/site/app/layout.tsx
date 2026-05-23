@@ -8,6 +8,7 @@ import { ConsentProvider } from "@/components/consent/consent-provider";
 import { CookieBanner } from "@/components/consent/cookie-banner";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SiteShell } from "@/components/layout/site-shell";
+import { buildConsentDefaultsInlineScript } from "@/lib/consent/consent-defaults-script";
 import { defaultMetadata } from "@/lib/metadata";
 import { texturePreloadHrefs } from "@/lib/textures";
 
@@ -38,17 +39,7 @@ export default function RootLayout({
         ))}
         <script
           dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('consent', 'default', {
-                analytics_storage: 'denied',
-                ad_storage: 'denied',
-                ad_user_data: 'denied',
-                ad_personalization: 'denied',
-                wait_for_update: 500
-              });
-            `,
+            __html: buildConsentDefaultsInlineScript(),
           }}
         />
       </head>
