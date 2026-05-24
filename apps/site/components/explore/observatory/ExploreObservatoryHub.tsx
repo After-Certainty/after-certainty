@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import { explorePaths } from "@/lib/graph/explorePaths";
+import { exploreObservatoryPresetHref, explorePaths } from "@/lib/graph/explorePaths";
 
 type ExploreObservatoryHubProps = {
   onEnterObservatory: () => void;
@@ -40,7 +40,7 @@ export function ExploreObservatoryHub({ onEnterObservatory }: ExploreObservatory
           </nav>
         </section>
 
-        <section className="mt-10">
+        <section className="mt-10 space-y-3">
           <button
             type="button"
             className="w-full rounded-sm border border-accent/50 bg-accent/10 px-4 py-4 text-left transition-colors hover:border-accent hover:bg-accent/15"
@@ -50,6 +50,20 @@ export function ExploreObservatoryHub({ onEnterObservatory }: ExploreObservatory
             <span className="mt-2 block font-display text-lg text-fg">Open the graph</span>
             <span className="mt-1 block text-sm text-muted">Fullscreen semantic map — tap nodes to expand</span>
           </button>
+          <Link
+            href={exploreObservatoryPresetHref("tensions")}
+            className="block rounded-sm border border-border/80 px-4 py-3 text-sm text-fg transition-colors hover:border-accent/45"
+          >
+            <span className="text-[10px] uppercase tracking-[0.22em] text-muted">Preset</span>
+            <span className="mt-1 block font-display text-base">Tensions map</span>
+          </Link>
+          <Link
+            href={exploreObservatoryPresetHref("dynamics")}
+            className="block rounded-sm border border-border/80 px-4 py-3 text-sm text-fg transition-colors hover:border-accent/45"
+          >
+            <span className="text-[10px] uppercase tracking-[0.22em] text-muted">Preset</span>
+            <span className="mt-1 block font-display text-base">Dynamics map</span>
+          </Link>
         </section>
       </div>
     </div>

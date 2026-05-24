@@ -45,4 +45,21 @@ describe("focusSummary", () => {
     expect(summary).toContain("Grounded hope");
     expect(summary).toMatch(/outruns/i);
   });
+
+  it("relationshipFocusSummary uses bidirectional copy for structural tension", () => {
+    const summary = relationshipFocusSummary(index, {
+      edgeKey: "c1|c2|structural_tension",
+      sourceId: "c1",
+      targetId: "c2",
+      predicate: "structural_tension",
+      relationship: {
+        source: "c1",
+        target: "c2",
+        relationship: "structural_tension",
+        description: "x vs y",
+      },
+    });
+    expect(summary).toContain("↔");
+    expect(summary).toMatch(/structural tension/i);
+  });
 });

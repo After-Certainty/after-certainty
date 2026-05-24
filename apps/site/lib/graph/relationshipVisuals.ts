@@ -17,8 +17,32 @@ const DEFAULT_STYLE: RelationshipVisualStyle = {
 
 const RULES: { test: (p: string) => boolean; style: RelationshipVisualStyle }[] = [
   {
+    test: (p) => /structural_tension/i.test(p),
+    style: {
+      stroke: "color-mix(in srgb, #c49a6c 55%, #6a8fb8)",
+      strokeWidth: 1.65,
+      strokeDasharray: "6 4",
+    },
+  },
+  {
     test: (p) => /preserves/i.test(p),
     style: { stroke: "var(--accent)", strokeWidth: 1.5 },
+  },
+  {
+    test: (p) => /renews/i.test(p),
+    style: { stroke: "#5a9b6e", strokeWidth: 1.5 },
+  },
+  {
+    test: (p) => /reproduces/i.test(p),
+    style: { stroke: "#4d9b7a", strokeWidth: 1.45 },
+  },
+  {
+    test: (p) => /\bthins\b/i.test(p),
+    style: { stroke: "#9b4d6a", strokeWidth: 1.5 },
+  },
+  {
+    test: (p) => /pressures/i.test(p),
+    style: { stroke: "#a85a72", strokeWidth: 1.5 },
   },
   {
     test: (p) => /threatens/i.test(p),

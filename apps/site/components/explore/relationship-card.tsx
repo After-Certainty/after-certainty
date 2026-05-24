@@ -10,6 +10,7 @@ type RelationshipCardProps = {
   relationship: Relationship;
   counterpartyLabel: string;
   counterpartyHref?: string | null;
+  observatoryHref?: string | null;
   onPress?: () => void;
   isActive?: boolean;
 };
@@ -32,6 +33,7 @@ export function RelationshipCard({
   relationship,
   counterpartyLabel,
   counterpartyHref,
+  observatoryHref,
   onPress,
   isActive = false,
 }: RelationshipCardProps) {
@@ -54,6 +56,18 @@ export function RelationshipCard({
       )}
       {relationship.description ? (
         <p className="text-sm leading-relaxed text-muted">{relationship.description}</p>
+      ) : null}
+      {observatoryHref && !onPress ? (
+        <p className="pt-1">
+          <Link
+            href={observatoryHref}
+            className="text-[10px] uppercase tracking-[0.18em] text-accent hover:underline"
+            onClick={stopNav}
+            onPointerDown={stopNav}
+          >
+            Open in observatory
+          </Link>
+        </p>
       ) : null}
     </div>
   );

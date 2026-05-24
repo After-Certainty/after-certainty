@@ -4,13 +4,13 @@ import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
-import { RelationshipList } from "@/components/explore/relationship-list";
+import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
+import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
 import { Section } from "@/components/ui/section";
 import { exploreSourceAdjacentInIndexOrder, sourcesSortedForExploreIndex } from "@/lib/explore/explore-sources-order";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { getSourceBySlug } from "@/lib/graph/graphQueries";
-import { getIncomingRelationships, getOutgoingRelationships } from "@/lib/graph/graphTraversal";
 import { relatedContentForSource } from "@/lib/graph/relatedContent";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
@@ -37,15 +37,12 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
   if (!source) notFound();
 
   const related = relatedContentForSource(index, source);
-  const incoming = getIncomingRelationships(index, source.id);
-  const outgoing = getOutgoingRelationships(index, source.id);
-
   const sourcesInListOrder = sourcesSortedForExploreIndex(graph.sources);
   const { prev: prevSource, next: nextSource } = exploreSourceAdjacentInIndexOrder(sourcesInListOrder, source.slug);
 
   const hasRelated =
     related.concepts.length + related.patterns.length + related.books.length > 0;
-  const hasRelationships = incoming.length > 0 || outgoing.length > 0;
+  const hasRelationships = entityHasSemanticRelationships(index, source.id);
 
   return (
     <article>
@@ -95,16 +92,14 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
             Lineage views will layer on top of typed relationships. For now, traverse incoming and outgoing edges below
             to see how this voice is positioned in the graph.
           </p>
-          {incoming.length > 0 ? (
-            <div className="mt-10">
-              <RelationshipList index={index} relationships={incoming} mode="incoming" title="Incoming relationships" />
-            </div>
-          ) : null}
-          {outgoing.length > 0 ? (
-            <div className={incoming.length > 0 ? "mt-12" : "mt-10"}>
-              <RelationshipList index={index} relationships={outgoing} mode="outgoing" title="Outgoing relationships" />
-            </div>
-          ) : null}
+          <div className="mt-10">
+            <SemanticRelationshipsSection
+              index={index}
+              focalCanonicalId={source.id}
+              focalKind="source"
+              focalSlug={source.slug}
+            />
+          </div>
         </Section>
       ) : null}
     </article>

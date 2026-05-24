@@ -31,6 +31,8 @@ export type GraphVizBuildOptions = {
    * every neighbor (uncapped).
    */
   progressiveNeighborsPerKind?: number;
+  /** When set, only these concept canonical ids pass concept node filters (books/patterns/sources unaffected). */
+  ontologyAllowedConceptIds?: ReadonlySet<string> | null;
 };
 
 export type VizEdge = {
@@ -48,7 +50,7 @@ export type VizEdge = {
 export function passesNodeFilters(
   index: GraphIndex,
   id: string,
-  opt: Pick<GraphVizBuildOptions, "kinds" | "layers">,
+  opt: Pick<GraphVizBuildOptions, "kinds" | "layers" | "ontologyAllowedConceptIds">,
 ): boolean {
   const n = index.getNodeByCanonicalId(id);
   if (!n) return false;
@@ -58,6 +60,9 @@ export function passesNodeFilters(
       const ly = n.entity.layer;
       if (!ly || !opt.layers.includes(ly)) return false;
     }
+  }
+  if (opt.ontologyAllowedConceptIds && n.kind === "concept" && !opt.ontologyAllowedConceptIds.has(id)) {
+    return false;
   }
   return true;
 }

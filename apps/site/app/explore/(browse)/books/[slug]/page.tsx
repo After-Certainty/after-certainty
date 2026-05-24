@@ -7,7 +7,8 @@ import { ExploreBookMedia } from "@/components/explore/explore-book-media";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
-import { RelationshipList } from "@/components/explore/relationship-list";
+import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
+import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
 import { Section } from "@/components/ui/section";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import {
@@ -18,7 +19,6 @@ import { booksSortedForExploreIndex, exploreBookAdjacentInIndexOrder } from "@/l
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { getBookBySlug as getGraphBookBySlug } from "@/lib/graph/graphQueries";
-import { getIncomingRelationships, getOutgoingRelationships } from "@/lib/graph/graphTraversal";
 import { relatedContentForBook } from "@/lib/graph/relatedContent";
 import { getSemanticBookActionLinkItems } from "@/lib/books/semantic-book-action-links";
 import { createPageMetadata } from "@/lib/metadata";
@@ -52,9 +52,6 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
   const coverSrc = resolveCoverForGraphBookSlug(coverLookup, catalogBooks, book.slug) ?? book.coverImage;
 
   const related = relatedContentForBook(index, book);
-  const incoming = getIncomingRelationships(index, book.id);
-  const outgoing = getOutgoingRelationships(index, book.id);
-
   const booksInListOrder = booksSortedForExploreIndex(graph.books);
   const { prev: prevBook, next: nextBook } = exploreBookAdjacentInIndexOrder(booksInListOrder, book.slug);
 
@@ -62,7 +59,7 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
 
   const hasRelated =
     related.concepts.length + related.patterns.length + related.sources.length > 0;
-  const hasRelationships = incoming.length > 0 || outgoing.length > 0;
+  const hasRelationships = entityHasSemanticRelationships(index, book.id);
 
   return (
     <article>
@@ -131,14 +128,12 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
 
       {hasRelationships ? (
         <Section atmosphere="none" className="border-t border-border/25 !pt-10 md:!pt-14 !pb-20 md:!pb-28">
-          {incoming.length > 0 ? (
-            <RelationshipList index={index} relationships={incoming} mode="incoming" title="Incoming relationships" />
-          ) : null}
-          {outgoing.length > 0 ? (
-            <div className={incoming.length > 0 ? "mt-12" : undefined}>
-              <RelationshipList index={index} relationships={outgoing} mode="outgoing" title="Outgoing relationships" />
-            </div>
-          ) : null}
+          <SemanticRelationshipsSection
+            index={index}
+            focalCanonicalId={book.id}
+            focalKind="book"
+            focalSlug={book.slug}
+          />
         </Section>
       ) : null}
     </article>

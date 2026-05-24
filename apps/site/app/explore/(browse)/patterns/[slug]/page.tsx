@@ -5,13 +5,13 @@ import { ExplorePatternMedia } from "@/components/explore/explore-pattern-media"
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
-import { RelationshipList } from "@/components/explore/relationship-list";
+import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
+import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
 import { Section } from "@/components/ui/section";
 import { explorePatternAdjacentInIndexOrder, patternsSortedForExploreIndex } from "@/lib/explore/explore-patterns-order";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { getPatternBySlug } from "@/lib/graph/graphQueries";
-import { getIncomingRelationships, getOutgoingRelationships } from "@/lib/graph/graphTraversal";
 import { relatedContentForPattern } from "@/lib/graph/relatedContent";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
@@ -38,9 +38,6 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
   if (!pattern) notFound();
 
   const related = relatedContentForPattern(index, pattern);
-  const incoming = getIncomingRelationships(index, pattern.id);
-  const outgoing = getOutgoingRelationships(index, pattern.id);
-
   const patternsInListOrder = patternsSortedForExploreIndex(graph.patterns);
   const { prev: prevPattern, next: nextPattern } = explorePatternAdjacentInIndexOrder(
     patternsInListOrder,
@@ -48,7 +45,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
   );
 
   const hasRelated = related.concepts.length + related.books.length > 0;
-  const hasRelationships = incoming.length > 0 || outgoing.length > 0;
+  const hasRelationships = entityHasSemanticRelationships(index, pattern.id);
 
   return (
     <article>
@@ -73,7 +70,6 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
           prev={prevPattern ? { slug: prevPattern.slug, title: prevPattern.title } : undefined}
           next={nextPattern ? { slug: nextPattern.slug, title: nextPattern.title } : undefined}
         />
-        {/* Extension: structural tensions, polarity fields, preserves/threatens overlays. */}
       </Section>
 
       {hasRelated ? (
@@ -91,14 +87,12 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
 
       {hasRelationships ? (
         <Section atmosphere="none" className="border-t border-border/25 !pt-10 md:!pt-14 !pb-20 md:!pb-28">
-          {incoming.length > 0 ? (
-            <RelationshipList index={index} relationships={incoming} mode="incoming" title="Incoming relationships" />
-          ) : null}
-          {outgoing.length > 0 ? (
-            <div className={incoming.length > 0 ? "mt-12" : undefined}>
-              <RelationshipList index={index} relationships={outgoing} mode="outgoing" title="Outgoing relationships" />
-            </div>
-          ) : null}
+          <SemanticRelationshipsSection
+            index={index}
+            focalCanonicalId={pattern.id}
+            focalKind="pattern"
+            focalSlug={pattern.slug}
+          />
         </Section>
       ) : null}
     </article>

@@ -4,6 +4,11 @@ import Link from "next/link";
 
 import type { GraphIndex } from "@/lib/graph/graph";
 import { exploreHrefForNode, exploreObservatoryFocusHref } from "@/lib/graph/explorePaths";
+import {
+  masterTermForConceptId,
+  structuralPressureForConceptId,
+} from "@/lib/graph/ontology";
+import { isSymmetricRelationship } from "@/lib/graph/relationshipTaxonomy";
 import { mergeRelatedTerrain } from "@/lib/observatory/relatedTerrainMerge";
 import type { RelationshipSelection } from "@/lib/observatory/types";
 import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
@@ -14,16 +19,26 @@ function labelForNode(index: GraphIndex, id: string): string {
   return n.kind === "source" ? n.entity.name : n.entity.title;
 }
 
+function ontologyLineForConcept(index: GraphIndex, conceptId: string): string | null {
+  const master = masterTermForConceptId(index.graph, conceptId);
+  if (master?.preserves) return `${master.title} preserves ${master.preserves}`;
+  const pressure = structuralPressureForConceptId(index.graph, conceptId);
+  if (pressure?.effect) return `${pressure.title} · ${pressure.effect}`;
+  return null;
+}
+
 type RelationshipDetailViewProps = {
   index: GraphIndex;
   selection: RelationshipSelection;
   onRelatedTerrainLinkNavigate?: () => void;
+  onFocusEndpoint?: (canonicalId: string) => void;
 };
 
 export function RelationshipDetailView({
   index,
   selection,
   onRelatedTerrainLinkNavigate,
+  onFocusEndpoint,
 }: RelationshipDetailViewProps) {
   if (!selection) return null;
 
@@ -31,6 +46,13 @@ export function RelationshipDetailView({
   const targetNode = index.getNodeByCanonicalId(selection.targetId);
   const { relationship } = selection;
   const desc = relationship.description ?? relationship.summary;
+  const symmetric = isSymmetricRelationship(selection.predicate);
+  const predicateLabel = formatRelationshipLabelForDisplay(selection.predicate);
+
+  const sourceOntology =
+    sourceNode?.kind === "concept" ? ontologyLineForConcept(index, selection.sourceId) : null;
+  const targetOntology =
+    targetNode?.kind === "concept" ? ontologyLineForConcept(index, selection.targetId) : null;
 
   const bundle =
     sourceNode && targetNode ? mergeRelatedTerrain(index, sourceNode, targetNode) : null;
@@ -45,53 +67,115 @@ export function RelationshipDetailView({
   return (
     <div className="space-y-8">
       <div>
-        <p className="text-[11px] uppercase tracking-[0.26em] text-accent">Relationship</p>
-        <p className="mt-4 font-display text-lg leading-relaxed text-fg">
-          <Link
-            href={
-              sourceNode
-                ? exploreObservatoryFocusHref(sourceNode.kind, sourceNode.slug)
-                : "#"
-            }
-            className="hover:text-accent hover:underline"
-            onClick={() => onRelatedTerrainLinkNavigate?.()}
-          >
-            {labelForNode(index, selection.sourceId)}
-          </Link>
-          <span className="mx-2 text-[11px] uppercase tracking-[0.2em] text-muted">
-            {formatRelationshipLabelForDisplay(selection.predicate)}
-          </span>
-          <Link
-            href={
-              targetNode
-                ? exploreObservatoryFocusHref(targetNode.kind, targetNode.slug)
-                : "#"
-            }
-            className="hover:text-accent hover:underline"
-            onClick={() => onRelatedTerrainLinkNavigate?.()}
-          >
-            {labelForNode(index, selection.targetId)}
-          </Link>
+        <p className="text-[11px] uppercase tracking-[0.26em] text-accent">
+          {symmetric ? "Structural tension" : "Dynamic relationship"}
         </p>
+        <p className="mt-4 font-display text-lg leading-relaxed text-fg">
+          {symmetric ? (
+            <>
+              <Link
+                href={
+                  sourceNode
+                    ? exploreObservatoryFocusHref(sourceNode.kind, sourceNode.slug)
+                    : "#"
+                }
+                className="hover:text-accent hover:underline"
+                onClick={() => onRelatedTerrainLinkNavigate?.()}
+              >
+                {labelForNode(index, selection.sourceId)}
+              </Link>
+              <span className="mx-2 text-muted">↔</span>
+              <Link
+                href={
+                  targetNode
+                    ? exploreObservatoryFocusHref(targetNode.kind, targetNode.slug)
+                    : "#"
+                }
+                className="hover:text-accent hover:underline"
+                onClick={() => onRelatedTerrainLinkNavigate?.()}
+              >
+                {labelForNode(index, selection.targetId)}
+              </Link>
+            </>
+          ) : (
+            <>
+              <Link
+                href={
+                  sourceNode
+                    ? exploreObservatoryFocusHref(sourceNode.kind, sourceNode.slug)
+                    : "#"
+                }
+                className="hover:text-accent hover:underline"
+                onClick={() => onRelatedTerrainLinkNavigate?.()}
+              >
+                {labelForNode(index, selection.sourceId)}
+              </Link>
+              <span className="mx-2 text-[11px] uppercase tracking-[0.2em] text-muted">
+                {predicateLabel} →
+              </span>
+              <Link
+                href={
+                  targetNode
+                    ? exploreObservatoryFocusHref(targetNode.kind, targetNode.slug)
+                    : "#"
+                }
+                className="hover:text-accent hover:underline"
+                onClick={() => onRelatedTerrainLinkNavigate?.()}
+              >
+                {labelForNode(index, selection.targetId)}
+              </Link>
+            </>
+          )}
+        </p>
+        {!symmetric ? (
+          <p className="mt-2 text-[11px] uppercase tracking-[0.18em] text-muted">{predicateLabel}</p>
+        ) : null}
         {desc ? <p className="mt-4 text-sm leading-relaxed text-muted">{desc}</p> : null}
+        {sourceOntology || targetOntology ? (
+          <p className="mt-4 text-xs leading-relaxed text-muted">
+            {[sourceOntology, targetOntology].filter(Boolean).join(" · ")}
+          </p>
+        ) : null}
       </div>
 
       <div className="flex flex-wrap gap-2">
         {sourceNode ? (
-          <Link
-            href={exploreHrefForNode(sourceNode)}
-            className="rounded-sm border border-border px-3 py-2 text-[11px] uppercase tracking-[0.18em] text-fg transition-colors hover:border-accent/45"
-          >
-            Source entry
-          </Link>
+          <>
+            <Link
+              href={exploreHrefForNode(sourceNode)}
+              className="rounded-sm border border-border px-3 py-2 text-[11px] uppercase tracking-[0.18em] text-fg transition-colors hover:border-accent/45"
+            >
+              Source entry
+            </Link>
+            {onFocusEndpoint ? (
+              <button
+                type="button"
+                className="rounded-sm border border-border px-3 py-2 text-[11px] uppercase tracking-[0.18em] text-fg transition-colors hover:border-accent/45"
+                onClick={() => onFocusEndpoint(selection.sourceId)}
+              >
+                Focus source
+              </button>
+            ) : null}
+          </>
         ) : null}
         {targetNode ? (
-          <Link
-            href={exploreHrefForNode(targetNode)}
-            className="rounded-sm border border-border px-3 py-2 text-[11px] uppercase tracking-[0.18em] text-fg transition-colors hover:border-accent/45"
-          >
-            Target entry
-          </Link>
+          <>
+            <Link
+              href={exploreHrefForNode(targetNode)}
+              className="rounded-sm border border-border px-3 py-2 text-[11px] uppercase tracking-[0.18em] text-fg transition-colors hover:border-accent/45"
+            >
+              Target entry
+            </Link>
+            {onFocusEndpoint ? (
+              <button
+                type="button"
+                className="rounded-sm border border-border px-3 py-2 text-[11px] uppercase tracking-[0.18em] text-fg transition-colors hover:border-accent/45"
+                onClick={() => onFocusEndpoint(selection.targetId)}
+              >
+                Focus target
+              </button>
+            ) : null}
+          </>
         ) : null}
       </div>
 

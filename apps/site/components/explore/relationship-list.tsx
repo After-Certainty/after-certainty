@@ -1,7 +1,8 @@
 import type { GraphIndex } from "@/lib/graph/graph";
-import { exploreHrefForCanonicalId } from "@/lib/graph/explorePaths";
+import { exploreHrefForCanonicalId, exploreObservatoryRelationshipHref } from "@/lib/graph/explorePaths";
 import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
-import type { Relationship } from "@/types/semanticGraph";
+import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
+import type { GraphEntityKind, Relationship } from "@/types/semanticGraph";
 import { RelationshipCard } from "@/components/explore/relationship-card";
 
 type RelationshipListProps = {
@@ -10,6 +11,8 @@ type RelationshipListProps = {
   mode: "incoming" | "outgoing";
   /** Section heading */
   title: string;
+  /** When set, cards link into the observatory with the edge selected. */
+  observatoryFocus?: { kind: GraphEntityKind; slug: string };
 };
 
 function labelForCanonicalId(index: GraphIndex, id: string): string {
@@ -27,7 +30,13 @@ function labelForCanonicalId(index: GraphIndex, id: string): string {
   }
 }
 
-export function RelationshipList({ index, relationships, mode, title }: RelationshipListProps) {
+export function RelationshipList({
+  index,
+  relationships,
+  mode,
+  title,
+  observatoryFocus,
+}: RelationshipListProps) {
   if (relationships.length === 0) return null;
 
   return (
@@ -39,12 +48,17 @@ export function RelationshipList({ index, relationships, mode, title }: Relation
           if (!ends) return [];
           const otherId = mode === "incoming" ? ends.sourceId : ends.targetId;
           const href = exploreHrefForCanonicalId(index, otherId);
+          const edgeKey = vizEdgeDedupKey(ends.sourceId, ends.targetId, r.relationship);
+          const observatoryHref = observatoryFocus
+            ? exploreObservatoryRelationshipHref(observatoryFocus.kind, observatoryFocus.slug, edgeKey)
+            : undefined;
           return [
             <li key={`${r.source}-${r.target}-${r.relationship}-${i}`}>
               <RelationshipCard
                 relationship={r}
                 counterpartyLabel={labelForCanonicalId(index, otherId)}
                 counterpartyHref={href}
+                observatoryHref={observatoryHref}
               />
             </li>,
           ];

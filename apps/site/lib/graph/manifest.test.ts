@@ -46,6 +46,37 @@ describe("validateSemanticGraph", () => {
     expect(attention?.infographic?.url).toContain("raw.githubusercontent.com");
   });
 
+  it("accepts enrichment fields and ontology block", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [
+        {
+          id: "concept-bureaucracy",
+          slug: "bureaucracy",
+          title: "Bureaucracy",
+          shortDefinition: "s",
+          recognitionSignals: ["signal one"],
+          questions: ["question one"],
+          counterbalances: ["balance one"],
+          trajectory: { earlySignals: ["early"] },
+          manifestations: { family: ["example"] },
+        },
+      ],
+      patterns: [],
+      sources: [],
+      relationships: [],
+      ontology: {
+        masterTerms: [{ id: "concept-circulation", slug: "circulation", title: "Circulation", preserves: "continuity" }],
+        structuralPressures: [{ id: "concept-scale", slug: "scale", title: "Scale", effect: "weakens proximity" }],
+      },
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.glossary[0]?.recognitionSignals?.[0]).toBe("signal one");
+      expect(result.data.ontology?.masterTerms).toHaveLength(1);
+    }
+  });
+
   it("accepts glossary layer, semanticTone, and relationship weight", () => {
     const result = validateSemanticGraph({
       books: [],
