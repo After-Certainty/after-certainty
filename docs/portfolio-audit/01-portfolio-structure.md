@@ -39,7 +39,7 @@ flowchart TD
   draft --> gate --> p5 --> ci --> site
 ```
 
-Phase 5 checklist (example: [`upcoming/after-certainty/docs/drafting-process.md`](../../upcoming/after-certainty/docs/drafting-process.md)):
+Phase 5 checklist (example: [`books/after-certainty/docs/drafting-process.md`](../../books/after-certainty/docs/drafting-process.md)):
 
 1. Confirm `index.md` linkage and `book.yml` export settings.
 2. Copy tree to `books/<slug>/`.
