@@ -1,7 +1,7 @@
 # Glossary candidates: before-certainty-arrives
 
 - **Book directory:** `books/before-certainty-arrives`
-- **Existing glossary entries:** 39
+- **Existing glossary entries:** 48
 
 - **Manuscript glossary:** _none found (checked glossary.md, back-matter/glossary.md, …)_
 
@@ -20,20 +20,12 @@ _No new bold-term candidates outside existing glossary._
 - `alignment` — ontology **supporting**
 - `asymmetry` — ontology **supporting**
 - `bureaucracy` — ontology **supporting**
-- `certainty` — ontology **core**
-- `compression` — ontology **supporting**
-- `consequence` — ontology **core**
-- `constraint` — ontology **supporting**
 - `contestability` — ontology **core**
-- `coordination` — ontology **supporting**
 - `corrigibility` — ontology **core**
 - `distance` — ontology **supporting**
 - `drift` — ontology **supporting**
 - `exposure` — ontology **supporting**
 - `friction` — ontology **core**
-- `inheritance` — ontology **supporting**
-- `interpretation` — ontology **core**
-- `meaning` — ontology **core**
 - `mediation` — ontology **supporting**
 - `momentum` — ontology **supporting**
 - `moral-density` — ontology **core**
@@ -43,7 +35,6 @@ _No new bold-term candidates outside existing glossary._
 - `reversibility` — ontology **supporting**
 - `thinking` — ontology **supporting**
 - `throughput` — ontology **supporting**
-- `uncertainty` — ontology **core**
 
 ## Drafts written
 
