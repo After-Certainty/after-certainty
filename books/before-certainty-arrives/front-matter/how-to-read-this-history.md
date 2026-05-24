@@ -17,38 +17,39 @@ Across different eras, humans repeatedly encounter instability:
 violence, scarcity, population growth, abstraction, and loss of shared
 meaning. In response, they develop moral, religious, legal, and
 epistemic tools that make coordination possible under those conditions.
-These tools differ in form and language, but they often serve similar
-functions: reducing uncertainty, compressing choice, stabilizing
-identity, and limiting conflict.[^howread-adaptation]
+
+The forms differ across eras, but the pressures often rhyme. Systems
+that reduce uncertainty, compress choice, stabilize identity, and limit
+conflict repeatedly emerge because collective life becomes difficult to
+sustain without them.[^howread-adaptation]
 
 For that reason, this book evaluates moral tools using a small set of
 questions:
 
-- What problems did this system help solve?
+* What problems did this system help solve?
 
-- What constraints was it responding to?
+* What constraints was it responding to?
 
-- What kind of coordination did it make possible?
+* What kind of coordination did it make possible?
 
-- And when did it begin to outlive the conditions that gave it meaning?
+* And when did it begin to outlive the conditions that gave it meaning?
 
 Some historical periods that are often described as moral or
-intellectual “regressions”—for example, medieval Europe—are treated here
+intellectual "regressions"—for example, medieval Europe—are treated here
 as **re-adaptations**, not failures. After breakdown, certainty often
-tightens rather than opens—though exceptions exist, and some collapses
-have briefly widened interpretive space before urgency closed it again.
-What can look like a step backward from one vantage point is often a
-stabilizing response to renewed constraint.
+tightens rather than opens, though exceptions exist. What can look like
+a step backward from one vantage point is often a stabilizing response
+to renewed constraint.
 
 This book therefore resists several common ways of reading history:
 
-- **Progress narratives**, which assume that later systems are
+* **Progress narratives**, which assume that later systems are
   inherently wiser or more humane
 
-- **Moral ranking of eras**, which judge past societies primarily by
+* **Moral ranking of eras**, which judge past societies primarily by
   present standards
 
-- **Assumptions of inevitability**, which treat historical outcomes as
+* **Assumptions of inevitability**, which treat historical outcomes as
   necessary rather than contingent
 
 Nothing in this book requires admiration for the systems it describes.
@@ -57,17 +58,18 @@ as arbitrary errors or moral blindness. Early certainty was often blunt,
 exclusionary, and rigid—but it was also functional. Recognizing that
 function is not endorsement; it is clarity.
 
-As you read, it may help to watch for **repetition rather than
-advancement**—and for three structural movements that recur across eras:
+As you read, it may help to watch for **recurrence rather than
+advancement**—and for three structural movements that appear repeatedly
+across eras:
 
 Instability demands compression.
 What holds becomes moral.
 Tools survive their purpose.
 
-They will not appear on every page in those words. More often they arrive
-as irrigation disputes, temple queues, corrected surnames on a tax roll—
-ordinary scenes that compress only after you have watched them for a
-moment.
+They will not appear on every page in those words. More often they
+arrive as irrigation disputes, temple queues, corrected surnames on a
+tax roll—ordinary scenes that reveal their structure only after you have
+watched them for a moment.
 
 Notice how often moral clarity follows catastrophe.
 Notice how often compression follows instability.
