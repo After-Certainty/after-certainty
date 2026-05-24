@@ -20,6 +20,7 @@ type ObservatoryInterpretationPanelProps = {
   onHighlightRelationship: (r: Relationship) => void;
   onTogglePin: (canonicalId: string) => void;
   onRelatedTerrainLinkNavigate?: () => void;
+  onFocusRelationshipEndpoint?: (canonicalId: string) => void;
 };
 
 export function ObservatoryInterpretationPanel({
@@ -33,6 +34,7 @@ export function ObservatoryInterpretationPanel({
   onHighlightRelationship,
   onTogglePin,
   onRelatedTerrainLinkNavigate,
+  onFocusRelationshipEndpoint,
 }: ObservatoryInterpretationPanelProps) {
   const reduceMotion = useReducedMotion();
 
@@ -62,6 +64,7 @@ export function ObservatoryInterpretationPanel({
               index={index}
               selection={relationshipSelection}
               onRelatedTerrainLinkNavigate={onRelatedTerrainLinkNavigate}
+              onFocusEndpoint={onFocusRelationshipEndpoint}
             />
           </motion.div>
         ) : panelMode === "entity" && node ? (

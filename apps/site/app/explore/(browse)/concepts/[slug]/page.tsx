@@ -5,13 +5,14 @@ import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { GraphNeighborhood } from "@/components/explore/graph-neighborhood";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
-import { RelationshipList } from "@/components/explore/relationship-list";
+import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
+import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
 import { Section } from "@/components/ui/section";
 import { conceptsSortedForExploreIndex, exploreConceptAdjacentInIndexOrder } from "@/lib/explore/explore-concepts-order";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { getAdjacentSourcesFromRelationships, getConceptBySlug } from "@/lib/graph/graphQueries";
-import { getConnectedGraphNeighborhood, getIncomingRelationships, getOutgoingRelationships } from "@/lib/graph/graphTraversal";
+import { getConnectedGraphNeighborhood } from "@/lib/graph/graphTraversal";
 import { relatedContentForConcept } from "@/lib/graph/relatedContent";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
@@ -39,8 +40,6 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
 
   const related = relatedContentForConcept(index, concept);
   const adjacentSources = getAdjacentSourcesFromRelationships(index, concept.id);
-  const incoming = getIncomingRelationships(index, concept.id);
-  const outgoing = getOutgoingRelationships(index, concept.id);
 
   const mergedSources = [...related.sources];
   const sourceIds = new Set(mergedSources.map((s) => s.id));
@@ -59,7 +58,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
 
   const hasRelated =
     related.concepts.length + related.patterns.length + related.books.length + mergedSources.length > 0;
-  const hasRelationships = incoming.length > 0 || outgoing.length > 0;
+  const hasRelationships = entityHasSemanticRelationships(index, concept.id);
   const hasNeighborhood =
     getConnectedGraphNeighborhood(
       index,
@@ -131,14 +130,12 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
               : "border-t border-border/25 !pt-10 md:!pt-14 !pb-20 md:!pb-28"
           }
         >
-          {incoming.length > 0 ? (
-            <RelationshipList index={index} relationships={incoming} mode="incoming" title="Incoming relationships" />
-          ) : null}
-          {outgoing.length > 0 ? (
-            <div className={incoming.length > 0 ? "mt-12" : undefined}>
-              <RelationshipList index={index} relationships={outgoing} mode="outgoing" title="Outgoing relationships" />
-            </div>
-          ) : null}
+          <SemanticRelationshipsSection
+            index={index}
+            focalCanonicalId={concept.id}
+            focalKind="concept"
+            focalSlug={concept.slug}
+          />
         </Section>
       ) : null}
 

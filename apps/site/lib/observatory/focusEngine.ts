@@ -1,5 +1,6 @@
 import type { GraphIndex } from "@/lib/graph/graph";
 import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
+import { isSymmetricRelationship } from "@/lib/graph/relationshipTaxonomy";
 import type { EdgeSemanticTier, NodeSemanticTier, SemanticWeights } from "@/lib/observatory/types";
 
 export type FocusEngineInput = {
@@ -7,7 +8,7 @@ export type FocusEngineInput = {
   visibleNodeIds: ReadonlySet<string>;
   visibleEdges: ReadonlyArray<{ edgeKey: string; sourceId: string; targetId: string }>;
   focusCanonicalId: string | null;
-  relationshipSelection: { edgeKey: string; sourceId: string; targetId: string } | null;
+  relationshipSelection: { edgeKey: string; sourceId: string; targetId: string; predicate?: string } | null;
   pathNodeIds: ReadonlySet<string>;
   pathPairKeys: ReadonlySet<string>;
 };
@@ -53,15 +54,23 @@ export function computeSemanticWeights(input: FocusEngineInput): SemanticWeights
   }
 
   if (relationshipSelection) {
-    const { sourceId, targetId, edgeKey } = relationshipSelection;
-    if (visibleNodeIds.has(sourceId)) nodes.set(sourceId, "neighbor");
-    if (visibleNodeIds.has(targetId)) nodes.set(targetId, "neighbor");
+    const { sourceId, targetId, edgeKey, predicate } = relationshipSelection;
+    const symmetric = predicate ? isSymmetricRelationship(predicate) : false;
+
     if (focusCanonicalId && visibleNodeIds.has(focusCanonicalId)) {
       nodes.set(focusCanonicalId, "focus");
       const other = focusCanonicalId === sourceId ? targetId : sourceId;
       if (visibleNodeIds.has(other)) nodes.set(other, "neighbor");
-    } else if (visibleNodeIds.has(sourceId)) {
-      nodes.set(sourceId, "focus");
+      if (symmetric && focusCanonicalId !== sourceId && focusCanonicalId !== targetId) {
+        if (visibleNodeIds.has(sourceId)) nodes.set(sourceId, "neighbor");
+        if (visibleNodeIds.has(targetId)) nodes.set(targetId, "neighbor");
+      }
+    } else if (symmetric) {
+      if (visibleNodeIds.has(sourceId)) nodes.set(sourceId, "neighbor");
+      if (visibleNodeIds.has(targetId)) nodes.set(targetId, "neighbor");
+    } else {
+      if (visibleNodeIds.has(sourceId)) nodes.set(sourceId, "focus");
+      if (visibleNodeIds.has(targetId)) nodes.set(targetId, "neighbor");
     }
     for (const e of visibleEdges) {
       const pairKey = undirectedPairKey(e.sourceId, e.targetId);

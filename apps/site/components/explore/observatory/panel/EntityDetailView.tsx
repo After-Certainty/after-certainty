@@ -4,14 +4,15 @@ import Link from "next/link";
 
 import { RelationshipCard } from "@/components/explore/relationship-card";
 import type { GraphIndex, GraphNode } from "@/lib/graph/graph";
-import { exploreHrefForNode, exploreObservatoryFocusHref } from "@/lib/graph/explorePaths";
+import { exploreHrefForNode, exploreObservatoryFocusHref, exploreObservatoryRelationshipHref } from "@/lib/graph/explorePaths";
 import {
   relatedContentForBook,
   relatedContentForConcept,
   relatedContentForPattern,
   relatedContentForSource,
 } from "@/lib/graph/relatedContent";
-import { getIncomingRelationships, getOutgoingRelationships, relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
+import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
+import { relationshipsForConcept } from "@/lib/graph/relationshipTaxonomy";
 import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
 import type { Relationship } from "@/types/semanticGraph";
 
@@ -48,8 +49,7 @@ export function EntityDetailView({
   onTogglePin,
   onRelatedTerrainLinkNavigate,
 }: EntityDetailViewProps) {
-  const incoming = getIncomingRelationships(index, node.id);
-  const outgoing = getOutgoingRelationships(index, node.id);
+  const { tensions, outgoingDynamics, incomingDynamics } = relationshipsForConcept(index, node.id);
   const bundle =
     node.kind === "concept"
       ? relatedContentForConcept(index, node.entity)
@@ -66,6 +66,30 @@ export function EntityDetailView({
     bundle.sources.length > 0;
 
   const cover = node.kind === "book" ? coverBySlug[node.entity.slug] ?? node.entity.coverImage : undefined;
+
+  const enrichment =
+    node.kind === "concept" || node.kind === "pattern"
+      ? node.entity.recognitionSignals
+      : undefined;
+
+  const renderRelationship = (r: Relationship, otherId: string, keyPrefix: string, i: number) => {
+    const ends = relationshipEndpointsResolved(index, r);
+    if (!ends) return null;
+    const edgeKey = vizEdgeDedupKey(ends.sourceId, ends.targetId, r.relationship);
+    const observatoryHref = exploreObservatoryRelationshipHref(node.kind, node.slug, edgeKey);
+    return (
+      <li key={`${keyPrefix}-${i}`}>
+        <RelationshipCard
+          relationship={r}
+          counterpartyLabel={labelForId(index, otherId)}
+          counterpartyHref={counterpartyHref(index, otherId)}
+          observatoryHref={observatoryHref}
+          onPress={() => onHighlightRelationship(r)}
+          isActive={highlightedRelationshipKey === edgeKey}
+        />
+      </li>
+    );
+  };
 
   return (
     <div className="space-y-8">
@@ -93,6 +117,17 @@ export function EntityDetailView({
         ) : null}
       </div>
 
+      {enrichment && enrichment.length > 0 ? (
+        <section className="space-y-2">
+          <p className="text-[11px] uppercase tracking-[0.24em] text-muted">Recognition signals</p>
+          <ul className="list-inside list-disc space-y-1 text-sm leading-relaxed text-muted">
+            {enrichment.slice(0, 3).map((line) => (
+              <li key={line}>{line}</li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
       {node.kind === "book" && cover ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img src={cover} alt="" className="max-h-40 w-auto rounded-sm border border-border/80 object-contain" />
@@ -114,45 +149,46 @@ export function EntityDetailView({
         </button>
       </div>
 
-      {(incoming.length > 0 || outgoing.length > 0) && (
-        <section className="space-y-3">
+      {(tensions.length > 0 || outgoingDynamics.length > 0 || incomingDynamics.length > 0) && (
+        <section className="space-y-4">
           <h3 className="text-[11px] uppercase tracking-[0.24em] text-muted">Relationships</h3>
-          <ul className="space-y-2">
-            {incoming.slice(0, 12).map((r, i) => {
-              const ends = relationshipEndpointsResolved(index, r);
-              if (!ends) return null;
-              const other = ends.sourceId;
-              const edgeKey = vizEdgeDedupKey(ends.sourceId, ends.targetId, r.relationship);
-              return (
-                <li key={`in-${i}`}>
-                  <RelationshipCard
-                    relationship={r}
-                    counterpartyLabel={labelForId(index, other)}
-                    counterpartyHref={counterpartyHref(index, other)}
-                    onPress={() => onHighlightRelationship(r)}
-                    isActive={highlightedRelationshipKey === edgeKey}
-                  />
-                </li>
-              );
-            })}
-            {outgoing.slice(0, 12).map((r, i) => {
-              const ends = relationshipEndpointsResolved(index, r);
-              if (!ends) return null;
-              const other = ends.targetId;
-              const edgeKey = vizEdgeDedupKey(ends.sourceId, ends.targetId, r.relationship);
-              return (
-                <li key={`out-${i}`}>
-                  <RelationshipCard
-                    relationship={r}
-                    counterpartyLabel={labelForId(index, other)}
-                    counterpartyHref={counterpartyHref(index, other)}
-                    onPress={() => onHighlightRelationship(r)}
-                    isActive={highlightedRelationshipKey === edgeKey}
-                  />
-                </li>
-              );
-            })}
-          </ul>
+          {tensions.length > 0 ? (
+            <div className="space-y-2">
+              <p className="text-[10px] uppercase tracking-[0.2em] text-muted">Structural tensions</p>
+              <ul className="space-y-2">
+                {tensions.flatMap((r, i) => {
+                  const ends = relationshipEndpointsResolved(index, r);
+                  if (!ends) return [];
+                  const other = ends.sourceId === node.id ? ends.targetId : ends.sourceId;
+                  return [renderRelationship(r, other, "tension", i)].filter(Boolean);
+                })}
+              </ul>
+            </div>
+          ) : null}
+          {outgoingDynamics.length > 0 ? (
+            <div className="space-y-2">
+              <p className="text-[10px] uppercase tracking-[0.2em] text-muted">Outgoing dynamics</p>
+              <ul className="space-y-2">
+                {outgoingDynamics.flatMap((r, i) => {
+                  const ends = relationshipEndpointsResolved(index, r);
+                  if (!ends) return [];
+                  return [renderRelationship(r, ends.targetId, "out", i)].filter(Boolean);
+                })}
+              </ul>
+            </div>
+          ) : null}
+          {incomingDynamics.length > 0 ? (
+            <div className="space-y-2">
+              <p className="text-[10px] uppercase tracking-[0.2em] text-muted">Incoming dynamics</p>
+              <ul className="space-y-2">
+                {incomingDynamics.flatMap((r, i) => {
+                  const ends = relationshipEndpointsResolved(index, r);
+                  if (!ends) return [];
+                  return [renderRelationship(r, ends.sourceId, "in", i)].filter(Boolean);
+                })}
+              </ul>
+            </div>
+          ) : null}
         </section>
       )}
 

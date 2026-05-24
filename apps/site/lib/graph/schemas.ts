@@ -68,6 +68,25 @@ const bookSchema = z.object({
 
 const conceptSemanticToneSchema = z.enum(["pressure", "capability", "neutral"]);
 
+const trajectorySchema = z
+  .object({
+    earlySignals: stringList,
+    intensificationSignals: stringList,
+    failureModes: stringList,
+    restorationPaths: stringList,
+  })
+  .optional();
+
+const manifestationsSchema = z.record(z.string(), z.array(z.string())).optional();
+
+const enrichmentFields = {
+  recognitionSignals: stringList,
+  questions: stringList,
+  counterbalances: stringList,
+  trajectory: trajectorySchema,
+  manifestations: manifestationsSchema,
+};
+
 const glossaryConceptSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
@@ -80,6 +99,7 @@ const glossaryConceptSchema = z.object({
   relatedConcepts: stringList,
   relatedPatterns: stringList,
   relatedBooks: stringList,
+  ...enrichmentFields,
 });
 
 const patternSchema = z.object({
@@ -92,6 +112,7 @@ const patternSchema = z.object({
   youtubeVideoId: z.string().min(1).optional(),
   mediumArticleUrl: z.string().url().optional(),
   infographic: mediaInfographicSchema.optional(),
+  ...enrichmentFields,
 });
 
 const sourceSchema = z.object({
@@ -113,6 +134,27 @@ const relationshipSchema = z.object({
   weight: z.number().finite().optional(),
 });
 
+const ontologyMasterTermSchema = z.object({
+  id: z.string().min(1),
+  slug: z.string().min(1),
+  title: z.string().min(1),
+  preserves: z.string(),
+});
+
+const ontologyStructuralPressureSchema = z.object({
+  id: z.string().min(1),
+  slug: z.string().min(1),
+  title: z.string().min(1),
+  effect: z.string(),
+});
+
+const ontologySchema = z
+  .object({
+    masterTerms: z.array(ontologyMasterTermSchema).default([]),
+    structuralPressures: z.array(ontologyStructuralPressureSchema).default([]),
+  })
+  .optional();
+
 /**
  * Root manifest schema. Unknown top-level keys are retained for forward compatibility
  * but stripped from the typed result.
@@ -124,6 +166,7 @@ export const semanticGraphSchema = z.object({
   patterns: z.array(patternSchema).default([]),
   sources: z.array(sourceSchema).default([]),
   relationships: z.array(relationshipSchema).default([]),
+  ontology: ontologySchema,
 });
 
 export type SemanticGraphZod = z.infer<typeof semanticGraphSchema>;
@@ -136,5 +179,6 @@ export function toSemanticGraph(data: SemanticGraphZod): SemanticGraph {
     patterns: data.patterns,
     sources: data.sources,
     relationships: data.relationships,
+    ontology: data.ontology,
   };
 }

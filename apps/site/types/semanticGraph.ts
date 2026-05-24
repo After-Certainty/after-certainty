@@ -69,7 +69,25 @@ export interface Book {
 /** Optional styling bucket from the content pipeline (e.g. pressure vs capability concepts). */
 export type ConceptSemanticTone = "pressure" | "capability" | "neutral";
 
-export interface GlossaryConcept {
+export interface SemanticTrajectory {
+  earlySignals?: string[];
+  intensificationSignals?: string[];
+  failureModes?: string[];
+  restorationPaths?: string[];
+}
+
+/** Domain-keyed examples (politics, organizations, family, …). */
+export type SemanticManifestations = Record<string, string[]>;
+
+export interface SemanticEnrichment {
+  recognitionSignals?: string[];
+  questions?: string[];
+  counterbalances?: string[];
+  trajectory?: SemanticTrajectory;
+  manifestations?: SemanticManifestations;
+}
+
+export interface GlossaryConcept extends SemanticEnrichment {
   id: string;
   slug: string;
   title: string;
@@ -84,7 +102,7 @@ export interface GlossaryConcept {
   relatedBooks?: string[];
 }
 
-export interface Pattern {
+export interface Pattern extends SemanticEnrichment {
   id: string;
   slug: string;
   title: string;
@@ -119,12 +137,32 @@ export interface Relationship {
   relatedPathwayIds?: string[];
 }
 
+export interface OntologyMasterTerm {
+  id: string;
+  slug: string;
+  title: string;
+  preserves: string;
+}
+
+export interface OntologyStructuralPressure {
+  id: string;
+  slug: string;
+  title: string;
+  effect: string;
+}
+
+export interface SemanticOntology {
+  masterTerms: OntologyMasterTerm[];
+  structuralPressures: OntologyStructuralPressure[];
+}
+
 export interface SemanticGraph {
   books: Book[];
   glossary: GlossaryConcept[];
   patterns: Pattern[];
   sources: Source[];
   relationships: Relationship[];
+  ontology?: SemanticOntology;
 }
 
 /** Entity collections exposed in the explore UI */

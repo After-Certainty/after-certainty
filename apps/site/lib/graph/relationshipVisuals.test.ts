@@ -19,6 +19,9 @@ describe("relationshipVisuals", () => {
 
   it("styles known predicates", () => {
     expect(styleForRelationshipPredicate("Preserves").stroke).toBe("var(--accent)");
+    expect(styleForRelationshipPredicate("structural_tension").strokeDasharray).toBe("6 4");
+    expect(styleForRelationshipPredicate("thins").stroke).toMatch(/^#/);
+    expect(styleForRelationshipPredicate("renews").stroke).toMatch(/^#/);
     expect(styleForRelationshipPredicate("threatens").stroke).toMatch(/^#/);
     expect(styleForRelationshipPredicate("Decouples").strokeDasharray).toBeDefined();
   });

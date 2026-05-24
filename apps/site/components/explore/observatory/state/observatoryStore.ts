@@ -9,6 +9,7 @@ import {
 } from "@/lib/observatory/focusEntry";
 import type { RelationshipSelection } from "@/lib/observatory/types";
 import type { PanelMode } from "@/types/observatory";
+import type { OntologyLens } from "@/lib/graph/ontology";
 import type { GraphEntityKind } from "@/types/semanticGraph";
 
 export type ObservatoryStoreState = {
@@ -16,6 +17,7 @@ export type ObservatoryStoreState = {
   kinds: GraphEntityKind[];
   layers: string[];
   predicates: string[];
+  ontologyLens: OntologyLens | null;
   maxDepth: number;
   maxNodes: number;
   includeRelated: boolean;
@@ -42,6 +44,7 @@ export type ObservatoryStoreActions = {
   setKinds: (kinds: GraphEntityKind[] | ((prev: GraphEntityKind[]) => GraphEntityKind[])) => void;
   setLayers: (layers: string[] | ((prev: string[]) => string[])) => void;
   setPredicates: (predicates: string[] | ((prev: string[]) => string[])) => void;
+  setOntologyLens: (lens: OntologyLens | null) => void;
   setMaxDepth: (n: number) => void;
   setMaxNodes: (n: number) => void;
   setIncludeRelated: (v: boolean) => void;
@@ -80,6 +83,7 @@ export function createObservatoryStoreInitialState(seed: {
     kinds: [],
     layers: [],
     predicates: [],
+    ontologyLens: null,
     maxDepth: DEFAULT_OBSERVATORY_MAX_DEPTH,
     maxNodes: DEFAULT_OBSERVATORY_MAX_NODES,
     includeRelated: DEFAULT_OBSERVATORY_INCLUDE_RELATED,
@@ -110,6 +114,7 @@ export function createObservatoryStore(seed: Parameters<typeof createObservatory
     setLayers: (layers) => set({ layers: typeof layers === "function" ? layers(get().layers) : layers }),
     setPredicates: (predicates) =>
       set({ predicates: typeof predicates === "function" ? predicates(get().predicates) : predicates }),
+    setOntologyLens: (ontologyLens) => set({ ontologyLens }),
     setMaxDepth: (maxDepth) => set({ maxDepth }),
     setMaxNodes: (maxNodes) => set({ maxNodes }),
     setIncludeRelated: (includeRelated) => set({ includeRelated }),
@@ -151,6 +156,7 @@ export function createObservatoryStore(seed: Parameters<typeof createObservatory
         kinds: [],
         layers: [],
         predicates: [],
+        ontologyLens: null,
         maxDepth: DEFAULT_OBSERVATORY_MAX_DEPTH,
         maxNodes: DEFAULT_OBSERVATORY_MAX_NODES,
         includeRelated: DEFAULT_OBSERVATORY_INCLUDE_RELATED,

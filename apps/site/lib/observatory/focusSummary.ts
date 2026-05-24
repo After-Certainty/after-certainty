@@ -1,4 +1,5 @@
 import type { GraphIndex, GraphNode } from "@/lib/graph/graph";
+import { isSymmetricRelationship } from "@/lib/graph/relationshipTaxonomy";
 import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
 import type { RelationshipSelection } from "@/lib/observatory/types";
 
@@ -19,5 +20,10 @@ export function relationshipFocusSummary(
   selection: NonNullable<RelationshipSelection>,
 ): string {
   const predicate = formatRelationshipLabelForDisplay(selection.predicate);
-  return `${nodeLabel(index, selection.sourceId)} · ${predicate} · ${nodeLabel(index, selection.targetId)}`;
+  const a = nodeLabel(index, selection.sourceId);
+  const b = nodeLabel(index, selection.targetId);
+  if (isSymmetricRelationship(selection.predicate)) {
+    return `${a} ↔ ${b} · ${predicate}`;
+  }
+  return `${a} · ${predicate} · ${b}`;
 }

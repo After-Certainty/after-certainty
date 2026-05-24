@@ -83,3 +83,27 @@ export function edgeKeyFromSearchParams(sp: URLSearchParams): string | null {
   const raw = sp.get(EXPLORE_EDGE_PARAM)?.trim();
   return raw || null;
 }
+
+export const EXPLORE_REL_PRESET_PARAM = "relPreset";
+
+export type ExploreRelationshipPreset = "tensions" | "dynamics";
+
+export function relationshipPresetFromSearchParams(sp: URLSearchParams): ExploreRelationshipPreset | null {
+  const raw = sp.get(EXPLORE_REL_PRESET_PARAM)?.trim();
+  if (raw === "tensions" || raw === "dynamics") return raw;
+  return null;
+}
+
+/** Observatory entry with relationship-family predicate filters applied. */
+export function exploreObservatoryPresetHref(
+  preset: ExploreRelationshipPreset,
+  focus?: { kind: GraphEntityKind; slug: string },
+): string {
+  const q = new URLSearchParams();
+  const kind = focus?.kind ?? "concept";
+  const slug = focus?.slug ?? exploreDefaultHomeConceptSlug;
+  q.set("focusKind", kind);
+  q.set("focusSlug", slug);
+  q.set(EXPLORE_REL_PRESET_PARAM, preset);
+  return withExploreObservatoryView(`${explorePaths.home}?${q.toString()}`);
+}

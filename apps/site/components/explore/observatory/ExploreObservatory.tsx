@@ -35,8 +35,18 @@ import {
   exploreObservatoryFocusHref,
   explorePaths,
   exploreViewFromSearchParams,
+  relationshipPresetFromSearchParams,
   type ExploreCompactView,
+  type ExploreRelationshipPreset,
 } from "@/lib/graph/explorePaths";
+import {
+  dynamicPredicateKeys,
+  groupPredicatesByFamily,
+  isSymmetricRelationship,
+  STRUCTURAL_TENSION_PREDICATE,
+  tensionPredicateKeys,
+} from "@/lib/graph/relationshipTaxonomy";
+import type { OntologyLens } from "@/lib/graph/ontology";
 import { isAtFreshFocusEntry } from "@/lib/observatory/focusEntry";
 import { entityFocusSummary, relationshipFocusSummary } from "@/lib/observatory/focusSummary";
 import { computeNeighborhoodSignals } from "@/lib/observatory/neighborhoodSignals";
@@ -152,6 +162,7 @@ function ExploreObservatoryInner({
   const kinds = store((s) => s.kinds);
   const layers = store((s) => s.layers);
   const predicates = store((s) => s.predicates);
+  const ontologyLens = store((s) => s.ontologyLens);
   const maxDepth = store((s) => s.maxDepth);
   const maxNodes = store((s) => s.maxNodes);
   const includeRelated = store((s) => s.includeRelated);
@@ -223,6 +234,7 @@ function ExploreObservatoryInner({
     kinds,
     layers,
     predicates,
+    ontologyLens,
     maxDepth,
     maxNodes,
     includeRelated,
@@ -287,10 +299,31 @@ function ExploreObservatoryInner({
   });
 
   const predicateOptions = useMemo(() => distinctRelationshipPredicates(initialGraph), [initialGraph]);
+  const groupedPredicates = useMemo(() => groupPredicatesByFamily(initialGraph), [initialGraph]);
   const allPredicateKeys = useMemo(
     () => [...new Set(predicateOptions.map((p) => normalizePredicateKey(p)))],
     [predicateOptions],
   );
+  const hasOntology = Boolean(
+    initialGraph.ontology?.masterTerms.length || initialGraph.ontology?.structuralPressures.length,
+  );
+
+  const applyRelationshipPreset = useCallback(
+    (preset: ExploreRelationshipPreset) => {
+      if (preset === "tensions") {
+        store.getState().setPredicates(tensionPredicateKeys(initialGraph));
+      } else {
+        store.getState().setPredicates(dynamicPredicateKeys(initialGraph));
+      }
+    },
+    [initialGraph, store],
+  );
+
+  useEffect(() => {
+    const preset = relationshipPresetFromSearchParams(new URLSearchParams(searchParams.toString()));
+    if (!preset) return;
+    applyRelationshipPreset(preset);
+  }, [searchParams, applyRelationshipPreset]);
 
   const selectedNode: GraphNode | null = selectedId
     ? index.getNodeByCanonicalId(selectedId)
@@ -401,12 +434,23 @@ function ExploreObservatoryInner({
         store.getState().clearRelationship();
       } else {
         store.getState().selectRelationship(sel);
-        store.getState().setFocusId(sel.sourceId);
-        trackCanvasFocus(sel.sourceId);
+        if (!isSymmetricRelationship(r.relationship)) {
+          store.getState().setFocusId(sel.sourceId);
+          trackCanvasFocus(sel.sourceId);
+        }
         if (!isCompact) store.getState().setRightOpen(true);
       }
     },
     [index, isCompact, store, trackCanvasFocus],
+  );
+
+  const onFocusRelationshipEndpoint = useCallback(
+    (canonicalId: string) => {
+      store.getState().focusNode(canonicalId, { openPanel: !isCompact });
+      trackCanvasFocus(canonicalId);
+      if (!isCompact) store.getState().setRightOpen(true);
+    },
+    [isCompact, store, trackCanvasFocus],
   );
 
   const handleEdgeClick = useCallback(
@@ -429,8 +473,10 @@ function ExploreObservatoryInner({
         store.getState().clearRelationship();
       } else {
         store.getState().selectRelationship(sel);
-        store.getState().setFocusId(match.sourceId);
-        trackCanvasFocus(match.sourceId);
+        if (!isSymmetricRelationship(match.relationship)) {
+          store.getState().setFocusId(match.sourceId);
+          trackCanvasFocus(match.sourceId);
+        }
         if (!isCompact) store.getState().setRightOpen(true);
       }
     },
@@ -654,6 +700,7 @@ function ExploreObservatoryInner({
                 isPinned={selectedId ? pinnedIds.has(selectedId) : false}
                 onHighlightRelationship={onPanelRelationshipHighlight}
                 onTogglePin={(id) => store.getState().togglePin(id)}
+                onFocusRelationshipEndpoint={onFocusRelationshipEndpoint}
               />
             </ObservatoryCompactFocusDock>
           ) : null}
@@ -754,25 +801,98 @@ function ExploreObservatoryInner({
                 {predicateOptions.length === 0 ? (
                   <p className="text-sm text-muted">No typed relationships in the graph yet.</p>
                 ) : (
-                  <div className="max-h-48 space-y-2 overflow-y-auto text-sm">
-                    {predicateOptions.map((p) => {
-                      const key = normalizePredicateKey(p);
-                      const active = predicates.length === 0 || predicates.includes(key);
-                      return (
-                        <label key={p} className="flex cursor-pointer items-center gap-2 text-fg">
-                          <input
-                            type="checkbox"
-                            className="accent-accent"
-                            checked={active}
-                            onChange={() => togglePredicate(p)}
-                          />
-                          <span className="leading-snug">{formatRelationshipLabelForDisplay(p)}</span>
-                        </label>
-                      );
-                    })}
-                  </div>
+                  <>
+                    <div className="flex flex-wrap gap-2">
+                      <button
+                        type="button"
+                        className="rounded-sm border border-border px-2 py-1 text-[10px] uppercase tracking-[0.16em] text-fg hover:border-accent/45"
+                        onClick={() => store.getState().setPredicates([])}
+                      >
+                        All
+                      </button>
+                      <button
+                        type="button"
+                        className="rounded-sm border border-border px-2 py-1 text-[10px] uppercase tracking-[0.16em] text-fg hover:border-accent/45"
+                        onClick={() => applyRelationshipPreset("tensions")}
+                      >
+                        Tensions only
+                      </button>
+                      <button
+                        type="button"
+                        className="rounded-sm border border-border px-2 py-1 text-[10px] uppercase tracking-[0.16em] text-fg hover:border-accent/45"
+                        onClick={() => applyRelationshipPreset("dynamics")}
+                      >
+                        Dynamics only
+                      </button>
+                    </div>
+                    <div className="max-h-56 space-y-4 overflow-y-auto text-sm">
+                      {groupedPredicates.tension.length > 0 ? (
+                        <div className="space-y-2">
+                          <p className="text-[10px] uppercase tracking-[0.2em] text-muted">Structural tensions</p>
+                          <label className="flex cursor-pointer items-center gap-2 text-fg">
+                            <input
+                              type="checkbox"
+                              className="accent-accent"
+                              checked={
+                                predicates.length === 0 ||
+                                predicates.includes(STRUCTURAL_TENSION_PREDICATE)
+                              }
+                              onChange={() => togglePredicate(STRUCTURAL_TENSION_PREDICATE)}
+                            />
+                            <span className="leading-snug">All structural tensions</span>
+                          </label>
+                        </div>
+                      ) : null}
+                      {groupedPredicates.dynamic.length > 0 ? (
+                        <div className="space-y-2">
+                          <p className="text-[10px] uppercase tracking-[0.2em] text-muted">Dynamics</p>
+                          {groupedPredicates.dynamic.map((p) => {
+                            const key = normalizePredicateKey(p);
+                            const active = predicates.length === 0 || predicates.includes(key);
+                            return (
+                              <label key={p} className="flex cursor-pointer items-center gap-2 text-fg">
+                                <input
+                                  type="checkbox"
+                                  className="accent-accent"
+                                  checked={active}
+                                  onChange={() => togglePredicate(p)}
+                                />
+                                <span className="leading-snug">{formatRelationshipLabelForDisplay(p)}</span>
+                              </label>
+                            );
+                          })}
+                        </div>
+                      ) : null}
+                    </div>
+                  </>
                 )}
               </section>
+
+              {hasOntology ? (
+                <section className="space-y-3">
+                  <p className="text-[11px] uppercase tracking-[0.26em] text-muted">Ontology lens</p>
+                  <div className="space-y-2 text-sm">
+                    {(
+                      [
+                        { lens: null, label: "Off" },
+                        { lens: "master" as OntologyLens, label: "Master terms" },
+                        { lens: "pressure" as OntologyLens, label: "Structural pressures" },
+                      ] as const
+                    ).map(({ lens, label }) => (
+                      <label key={label} className="flex cursor-pointer items-center gap-2 text-fg">
+                        <input
+                          type="radio"
+                          name="ontology-lens"
+                          className="accent-accent"
+                          checked={ontologyLens === lens}
+                          onChange={() => store.getState().setOntologyLens(lens)}
+                        />
+                        <span>{label}</span>
+                      </label>
+                    ))}
+                  </div>
+                </section>
+              ) : null}
 
               <section className="space-y-4">
                 <p className="text-[11px] uppercase tracking-[0.26em] text-muted">Graph controls</p>
@@ -937,6 +1057,7 @@ function ExploreObservatoryInner({
               onHighlightRelationship={onPanelRelationshipHighlight}
               onTogglePin={(id) => store.getState().togglePin(id)}
               onRelatedTerrainLinkNavigate={() => store.getState().setRightOpen(false)}
+              onFocusRelationshipEndpoint={onFocusRelationshipEndpoint}
             />
           </aside>
 

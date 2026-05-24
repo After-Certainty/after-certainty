@@ -84,6 +84,7 @@ export function useObservatoryFlowSync({
             edgeKey: relationshipSelection.edgeKey,
             sourceId: relationshipSelection.sourceId,
             targetId: relationshipSelection.targetId,
+            predicate: relationshipSelection.predicate,
           }
         : null,
       pathNodeIds,

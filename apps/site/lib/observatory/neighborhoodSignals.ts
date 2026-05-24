@@ -1,6 +1,7 @@
 import type { GraphIndex } from "@/lib/graph/graph";
 import { computeGraphInsights, type InsightEdge } from "@/lib/graph/graphInsights";
 import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
+import { isSymmetricRelationship, STRUCTURAL_TENSION_PREDICATE } from "@/lib/graph/relationshipTaxonomy";
 import { normalizePredicateKey } from "@/lib/graph/relationshipVisuals";
 import type { Relationship } from "@/types/semanticGraph";
 
@@ -20,7 +21,13 @@ export type NeighborhoodSignals = {
   summaryLine: string;
 };
 
-const TENSION_RE = /threatens|distorts|undermines|erodes|contests|fragile|weakens|pressures/i;
+const TENSION_RE =
+  /structural_tension|threatens|distorts|undermines|erodes|contests|fragile|weakens|pressures|\bthins\b/i;
+
+function edgeReadsAsTension(relationship: string): boolean {
+  if (isSymmetricRelationship(relationship)) return true;
+  return TENSION_RE.test(relationship);
+}
 
 function labelForId(index: GraphIndex, id: string): string {
   const n = index.getNodeByCanonicalId(id);
@@ -38,7 +45,7 @@ function connectivityBand(visibleCount: number, edgeCount: number, isolatedCount
 
 function tensionLevelFromEdges(edges: InsightEdge[]): TensionLevel {
   if (edges.length === 0) return "quiet";
-  const tensionCount = edges.filter((e) => TENSION_RE.test(e.relationship)).length;
+  const tensionCount = edges.filter((e) => edgeReadsAsTension(e.relationship)).length;
   const ratio = tensionCount / edges.length;
   if (ratio >= 0.35) return "contested";
   if (ratio >= 0.12) return "strained";
@@ -97,10 +104,13 @@ export function computeNeighborhoodSignals(
     tensionLevel === "contested" ? "contested" : tensionLevel === "strained" ? "strained" : "quiet";
   const connectWord =
     connectivity === "woven" ? "woven" : connectivity === "thread" ? "threadlike" : "sparse";
+  const topPred = dominantPredicates[0]?.predicate;
   const predPhrase =
-    dominantPredicates[0]?.predicate != null
-      ? dominantPredicates[0].predicate.replace(/_/g, " ")
-      : "untyped links";
+    topPred === STRUCTURAL_TENSION_PREDICATE
+      ? "structural tension"
+      : topPred != null
+        ? topPred.replace(/_/g, " ")
+        : "untyped links";
 
   const summaryLine = `${connectWord} neighborhood · tension ${tensionWord} · ${predPhrase} prominent`;
 

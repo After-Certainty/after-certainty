@@ -1,77 +1,138 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-05-17T00:37:44.014484+00:00",
+  "generatedAt": "2026-05-24T05:27:02.792748+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
   "books": [
     {
       "slug": "after-certainty",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "After Certainty",
       "subtitle": "How to Live and Judge When Understanding is not Enough",
-      "description": "Exploring meaning, trust, leadership, and human systems in a world beyond certainty.",
+      "description": "Expanded essay edition (~11\u201313k words)\u2014a concentrated capstone on how to live and judge after frameworks fail. Read after diagnostic volumes; formation and care without guarantees.",
       "authors": [
-        "Contributors TBD"
+        "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/after-certainty/book-cover.png",
-      "coverImagePath": "upcoming/after-certainty/book-cover.png",
-      "bookDir": "upcoming/after-certainty",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/book-cover.png",
+      "coverImagePath": "books/after-certainty/book-cover.png",
+      "bookDir": "books/after-certainty",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "after-certainty.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/after-certainty.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "after-certainty.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/after-certainty.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "after-certainty.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/after-certainty.pdf"
       },
       "id": "book-after-certainty",
-      "summary": "Exploring meaning, trust, leadership, and human systems in a world beyond certainty.",
-      "concepts": [],
-      "patterns": [],
+      "summary": "Expanded essay edition (~11\u201313k words)\u2014a concentrated capstone on how to live and judge after frameworks fail. Read after diagnostic volumes; formation and care without guarantees.",
+      "concepts": [
+        "concept-abstraction",
+        "concept-accountability",
+        "concept-agency",
+        "concept-authority",
+        "concept-authorization",
+        "concept-circulation",
+        "concept-constraints",
+        "concept-correction",
+        "concept-effectiveness",
+        "concept-feedback",
+        "concept-harm",
+        "concept-incentives",
+        "concept-judgment",
+        "concept-legitimacy",
+        "concept-responsibility",
+        "concept-scale",
+        "concept-stability",
+        "concept-system"
+      ],
+      "patterns": [
+        "pattern-admiration-becomes-insulation",
+        "pattern-attention-restores-contact",
+        "pattern-blame-compresses-complexity",
+        "pattern-correctness-hardens-into-identity",
+        "pattern-explanation-replaces-response",
+        "pattern-finality-compensates-for-uncertainty",
+        "pattern-responsibility-persists-beyond-control",
+        "pattern-revisability-preserves-judgment",
+        "pattern-scrutiny-preserves-trust",
+        "pattern-speech-escalates-faster-than-meaning"
+      ],
       "sources": []
     },
     {
       "slug": "before-certainty-arrives",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "Before Certainty Arrives",
       "subtitle": "How Moral Order Forms, Hardens, and Outlives Its Reasons",
-      "description": "Essays on the cultural preconditions that made brittle certainty feel normal and what it costs when it breaks.",
+      "description": "Essay edition\u2014moral order before certainty felt excessive. A historical prequel; stops before prescription.",
       "authors": [
-        "Contributors TBD"
+        "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/before-certainty-arrives/book-cover.png",
-      "coverImagePath": "upcoming/before-certainty-arrives/book-cover.png",
-      "bookDir": "upcoming/before-certainty-arrives",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/book-cover.png",
+      "coverImagePath": "books/before-certainty-arrives/book-cover.png",
+      "bookDir": "books/before-certainty-arrives",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "before-certainty-arrives.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/before-certainty-arrives.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "before-certainty-arrives.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/before-certainty-arrives.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "before-certainty-arrives.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/before-certainty-arrives.pdf"
       },
       "id": "book-before-certainty-arrives",
-      "summary": "Essays on the cultural preconditions that made brittle certainty feel normal and what it costs when it breaks.",
-      "concepts": [],
+      "summary": "Essay edition\u2014moral order before certainty felt excessive. A historical prequel; stops before prescription.",
+      "concepts": [
+        "concept-abstraction",
+        "concept-accountability",
+        "concept-adaptation",
+        "concept-authority",
+        "concept-bureaucracy",
+        "concept-certainty",
+        "concept-cohesion",
+        "concept-compression",
+        "concept-consequence",
+        "concept-constraint",
+        "concept-constraints",
+        "concept-coordination",
+        "concept-correction",
+        "concept-distance",
+        "concept-drift",
+        "concept-exposure",
+        "concept-feedback",
+        "concept-harm",
+        "concept-incentives",
+        "concept-inheritance",
+        "concept-interpretation",
+        "concept-judgment",
+        "concept-legitimacy",
+        "concept-meaning",
+        "concept-proximity",
+        "concept-responsibility",
+        "concept-scale",
+        "concept-stability",
+        "concept-system",
+        "concept-uncertainty"
+      ],
       "patterns": [],
       "sources": []
     },
@@ -321,10 +382,10 @@
       "source": "upcoming",
       "status": "in_progress",
       "title": "The Discipline of Uncertainty",
-      "subtitle": "Judgment, restraint, and decision quality under incomplete information",
+      "subtitle": "Judgment, Restraint, and Decision Quality Under Incomplete Information",
       "description": "Field notes on judgment, restraint, and decision quality when information is incomplete.",
       "authors": [
-        "Contributors TBD"
+        "Kevin Steffensen"
       ],
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/the-discipline-of-uncertainty/book-cover.png",
@@ -359,7 +420,7 @@
       "subtitle": "Leadership, Communication, and the Credibility Crisis in Economics and Politics",
       "description": "How economic narratives gain and lose credibility\u2014and how leaders communicate when expert authority meets political pressure.",
       "authors": [
-        "Contributors TBD"
+        "Kevin Steffensen"
       ],
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/the-economy-we-dont-experience/book-cover.png",
@@ -423,35 +484,35 @@
     },
     {
       "slug": "when-accountability-no-longer-expires",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "When Accountability No Longer Expires",
       "subtitle": "How Legitimate Authority Learns to Survive Harm",
-      "description": "A manuscript on durable accountability when institutions optimize for short memory.",
+      "description": "Essay edition\u2014an institutional lens on why legitimate authority can persist after harm. Organizations learn to survive scandal without resolving it; not a leadership biography. Pair with When Authority Outlives Accountability for the leader-evaluation lens.",
       "authors": [
-        "Contributors TBD"
+        "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-accountability-no-longer-expires/book-cover.png",
-      "coverImagePath": "upcoming/when-accountability-no-longer-expires/book-cover.png",
-      "bookDir": "upcoming/when-accountability-no-longer-expires",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-accountability-no-longer-expires/book-cover.png",
+      "coverImagePath": "books/when-accountability-no-longer-expires/book-cover.png",
+      "bookDir": "books/when-accountability-no-longer-expires",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-accountability-no-longer-expires.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-accountability-no-longer-expires.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-accountability-no-longer-expires.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-accountability-no-longer-expires.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-accountability-no-longer-expires.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-accountability-no-longer-expires.pdf"
       },
       "id": "book-when-accountability-no-longer-expires",
-      "summary": "A manuscript on durable accountability when institutions optimize for short memory.",
+      "summary": "Essay edition\u2014an institutional lens on why legitimate authority can persist after harm. Organizations learn to survive scandal without resolving it; not a leadership biography. Pair with When Authority Outlives Accountability for the leader-evaluation lens.",
       "concepts": [],
       "patterns": [],
       "sources": []
@@ -504,7 +565,7 @@
       "status": "published",
       "title": "When Authority Outlives Accountability",
       "subtitle": "A Lens for Moral Leadership",
-      "description": "A study of how authority can persist after accountability erodes, and what moral leadership requires to restore integrity in that gap.",
+      "description": "A leadership lens on how authority can persist after accountability erodes, and what moral leadership requires to restore integrity in that gap. For institutional persistence after harm, see When Accountability No Longer Expires (upcoming).",
       "authors": [
         "Kevin Steffensen"
       ],
@@ -528,7 +589,7 @@
         "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-outlives-accountability.pdf"
       },
       "id": "book-when-authority-outlives-accountability",
-      "summary": "A study of how authority can persist after accountability erodes, and what moral leadership requires to restore integrity in that gap.",
+      "summary": "A leadership lens on how authority can persist after accountability erodes, and what moral leadership requires to restore integrity in that gap. For institutional persistence after harm, see When Accountability No Longer Expires (upcoming).",
       "concepts": [],
       "patterns": [],
       "sources": [],
@@ -546,9 +607,9 @@
       "status": "in_progress",
       "title": "When Incentives Become the Moral Language",
       "subtitle": "How Systems Decide For Us When Judgment No Longer Scales",
-      "description": "How institutional incentives can crowd out judgment, responsibility, and shared meaning.",
+      "description": "Eight institutional domains where metrics and incentives replaced judgment, responsibility, and shared meaning.",
       "authors": [
-        "Contributors TBD"
+        "Kevin Steffensen"
       ],
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-incentives-become-the-moral-language/book-cover.png",
@@ -570,7 +631,7 @@
         "url": null
       },
       "id": "book-when-incentives-become-the-moral-language",
-      "summary": "How institutional incentives can crowd out judgment, responsibility, and shared meaning.",
+      "summary": "Eight institutional domains where metrics and incentives replaced judgment, responsibility, and shared meaning.",
       "concepts": [],
       "patterns": [],
       "sources": []
@@ -581,9 +642,9 @@
       "status": "in_progress",
       "title": "When Interpretation No Longer Matters",
       "subtitle": "Authority After Understanding Collapses",
-      "description": "A manuscript on meaning collapse when systems reward certainty over interpretation.",
+      "description": "When explanation, evidence, and repair fail\u2014and what kinds of authority remain when public understanding collapses.",
       "authors": [
-        "Contributors TBD"
+        "Kevin Steffensen"
       ],
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-interpretation-no-longer-matters/book-cover.png",
@@ -605,7 +666,7 @@
         "url": null
       },
       "id": "book-when-interpretation-no-longer-matters",
-      "summary": "A manuscript on meaning collapse when systems reward certainty over interpretation.",
+      "summary": "When explanation, evidence, and repair fail\u2014and what kinds of authority remain when public understanding collapses.",
       "concepts": [],
       "patterns": [],
       "sources": []
@@ -802,7 +863,7 @@
       "subtitle": "And why the effort still matters",
       "description": "An examination of coordination failure, misaligned incentives, and fragile trust.",
       "authors": [
-        "Contributors TBD"
+        "Kevin Steffensen"
       ],
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/why-collaboration-is-so-hard/book-cover.png",
@@ -839,15 +900,59 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-coupling"
+        "book-after-certainty",
+        "book-coupling",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "dashboards stay green while exception clusters tell another story",
+        "people appear as categories, metrics, or roles",
+        "abstraction stops feeling partial and starts feeling sufficient"
+      ],
+      "questions": [
+        "What loss does this aggregation hide?",
+        "Who is still particular inside the metric?",
+        "When did abstraction complete the moral picture too early?"
+      ],
+      "counterbalances": [
+        "read sideways when averages look fine",
+        "document exceptions in plain language",
+        "refuse to let smooth operation stand in for legitimacy"
+      ],
+      "manifestations": {
+        "organizations": [
+          "exception reports are ignored when quarterly metrics rise"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "abstraction is required for coordination at scale"
+        ],
+        "intensificationSignals": [
+          "harm becomes statistical",
+          "accountability thins as decisions move from effects"
+        ],
+        "failureModes": [
+          "abstraction replaces persons",
+          "continuity disguises harm"
+        ],
+        "restorationPaths": [
+          "treat abstraction as partial by design",
+          "restore contact through attention"
+        ]
+      },
       "id": "concept-abstraction",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-coupling": 29,
+        "book-after-certainty": 14,
+        "book-before-certainty-arrives": 11,
+        "book-coupling": 46,
         "book-how-serious-systems-learn": 3,
+        "book-the-discipline-of-uncertainty": 19,
+        "book-the-economy-we-dont-experience": 10,
         "book-when-authority-is-misread": 3,
         "book-when-authority-outlives-accountability": 1,
+        "book-when-incentives-become-the-moral-language": 2,
         "book-when-moral-seriousness-scales": 7,
         "book-when-others-look-to-you-v1": 1
       }
@@ -863,9 +968,11 @@
       "id": "concept-acceleration",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-coupling": 5,
+        "book-before-certainty-arrives": 1,
+        "book-coupling": 33,
         "book-how-serious-systems-learn": 1,
         "book-when-authority-outlives-accountability": 2,
+        "book-when-interpretation-no-longer-matters": 1,
         "book-when-moral-seriousness-scales": 29
       }
     },
@@ -877,19 +984,64 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-coupling"
+        "book-after-certainty",
+        "book-coupling",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "heroes and villains replace accountability with narrative loyalty",
+        "abstraction is not allowed to replace answerability in the text",
+        "attention shifts from identity to effects and patterns"
+      ],
+      "questions": [
+        "Who remains answerable after the moral sorting is done?",
+        "What participation are we externalizing with a villain face?",
+        "Where is accountability thinner because of distance?"
+      ],
+      "counterbalances": [
+        "prefer sustained contact with consequences over speed",
+        "map participation before assigning a face",
+        "practice attention-restores-contact"
+      ],
+      "manifestations": {
+        "organizations": [
+          "postmortems praise analysis while delays continue"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "accountability clarifies harm when sorting is simple"
+        ],
+        "intensificationSignals": [
+          "narrative loyalty replaces proportionate answerability",
+          "distance thins accountability without intent"
+        ],
+        "failureModes": [
+          "accountability ends when the story feels complete"
+        ],
+        "restorationPaths": [
+          "replace archetypes with attention to effects"
+        ]
+      },
       "id": "concept-accountability",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-coupling": 25,
-        "book-how-meaning-moves": 5,
+        "book-after-certainty": 36,
+        "book-before-certainty-arrives": 32,
+        "book-coupling": 39,
+        "book-how-meaning-moves": 25,
         "book-how-serious-systems-learn": 9,
+        "book-the-discipline-of-uncertainty": 7,
+        "book-the-economy-we-dont-experience": 2,
+        "book-when-accountability-no-longer-expires": 68,
         "book-when-authority-is-misread": 33,
-        "book-when-authority-outlives-accountability": 28,
+        "book-when-authority-outlives-accountability": 74,
+        "book-when-incentives-become-the-moral-language": 10,
+        "book-when-interpretation-no-longer-matters": 139,
         "book-when-moral-seriousness-scales": 3,
         "book-when-others-look-to-you-v1": 25,
-        "book-when-others-look-to-you-v2": 2
+        "book-when-others-look-to-you-v2": 2,
+        "book-why-collaboration-is-so-hard": 3
       }
     },
     {
@@ -908,18 +1060,71 @@
     {
       "slug": "adaptation",
       "title": "Adaptation",
-      "shortDefinition": "local response to pressure",
+      "shortDefinition": "In this history, adaptation names how moral, religious, and legal systems emerge as workable responses to pressure\u2014not as final truth discovered once and for all. What begins as adaptation can outlive the conditions that first made it necessary.",
       "termKind": "supporting",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "moral systems appear as responses to pressure rather than final discoveries",
+        "re-adaptation follows collapse without open-ended experiment",
+        "what began as adaptation eventually feels permanent",
+        "structural coordination and lived meaning arrive together"
+      ],
+      "questions": [
+        "What problem did this adaptation solve when it emerged?",
+        "Where is adaptation mistaken for regression or progress?",
+        "What would reopening look like if urgency returned?"
+      ],
+      "counterbalances": [
+        "treat adaptation as descriptive before judging it",
+        "avoid hindsight that makes necessity look like blindness",
+        "honor grief and belonging inside adaptive systems"
+      ],
+      "manifestations": {
+        "politics": [
+          "Bronze Age order replaces explanation with visible law",
+          "post-Roman Europe reassembles authority from thinner tools"
+        ],
+        "organizations": [
+          "portable ethics survive on roads fortresses cannot secure"
+        ],
+        "family": [
+          "families displaced by war need rules that still make sense after the shrine burns"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "adaptation follows instability rather than contemplation",
+          "Axial traditions rise under shared conditions, not shared revelation"
+        ],
+        "intensificationSignals": [
+          "adaptive tools become moral truths across generations",
+          "medieval Europe tightens after imperial collapse"
+        ],
+        "failureModes": [
+          "adaptation outlives the conditions that required it",
+          "systems are judged by standards their adapters never held"
+        ],
+        "restorationPaths": [
+          "ask what constraints the adaptation responded to",
+          "recognize adaptation before calling for liberation"
+        ]
+      },
       "id": "concept-adaptation",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-coupling": 10,
+        "book-after-certainty": 4,
+        "book-before-certainty-arrives": 13,
+        "book-coupling": 26,
         "book-how-meaning-moves": 6,
         "book-how-serious-systems-learn": 19,
+        "book-when-accountability-no-longer-expires": 19,
         "book-when-authority-is-misread": 1,
+        "book-when-authority-outlives-accountability": 4,
+        "book-when-incentives-become-the-moral-language": 1,
         "book-when-moral-seriousness-scales": 1,
         "book-when-others-look-to-you-v1": 2
       }
@@ -932,8 +1137,44 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
+        "book-after-certainty",
         "book-coupling"
       ],
+      "recognitionSignals": [
+        "speech promises agency when participation feels required",
+        "structural causes soften agency until judgment delays",
+        "inevitability slowly displaces choice in explanations"
+      ],
+      "questions": [
+        "Where is agency real versus performed through language?",
+        "What choice remains after complexity is established?",
+        "When does speech substitute for contact?"
+      ],
+      "counterbalances": [
+        "name choices still available after context",
+        "speak without claiming more agency than speech provides",
+        "act where participation still changes contact"
+      ],
+      "manifestations": {
+        "organizations": [
+          "statements express concern without consequence"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "agency still feels available through speech and action"
+        ],
+        "intensificationSignals": [
+          "complexity absorbs moral energy",
+          "agency is performed for audiences"
+        ],
+        "failureModes": [
+          "agency is claimed without effect on harm"
+        ],
+        "restorationPaths": [
+          "return agency to human-scale participation"
+        ]
+      },
       "id": "concept-agency",
       "isCoreTerm": false
     },
@@ -961,12 +1202,20 @@
       "id": "concept-alignment",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-coupling": 1,
-        "book-how-meaning-moves": 4,
+        "book-after-certainty": 16,
+        "book-before-certainty-arrives": 1,
+        "book-coupling": 12,
+        "book-how-meaning-moves": 9,
         "book-how-serious-systems-learn": 7,
+        "book-the-economy-we-dont-experience": 8,
+        "book-when-accountability-no-longer-expires": 6,
         "book-when-authority-is-misread": 10,
+        "book-when-authority-outlives-accountability": 1,
+        "book-when-incentives-become-the-moral-language": 3,
+        "book-when-interpretation-no-longer-matters": 35,
         "book-when-moral-seriousness-scales": 5,
-        "book-when-others-look-to-you-v2": 1
+        "book-when-others-look-to-you-v2": 1,
+        "book-why-collaboration-is-so-hard": 16
       }
     },
     {
@@ -980,11 +1229,14 @@
       "id": "concept-asymmetry",
       "isCoreTerm": false,
       "mentionsByBook": {
+        "book-coupling": 2,
         "book-how-meaning-moves": 2,
         "book-how-serious-systems-learn": 9,
+        "book-the-economy-we-dont-experience": 6,
         "book-when-authority-is-misread": 4,
         "book-when-authority-outlives-accountability": 2,
-        "book-when-moral-seriousness-scales": 28
+        "book-when-moral-seriousness-scales": 28,
+        "book-why-collaboration-is-so-hard": 18
       }
     },
     {
@@ -995,20 +1247,65 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-coupling"
+        "book-after-certainty",
+        "book-coupling",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "correctness begins helping people claim authority over one another",
+        "not knowing risks loss of authority in rooms that still require action",
+        "formal authority ends while influence through precedents continues"
+      ],
+      "questions": [
+        "Where is authority claimed without proportionate standing?",
+        "What influence continues after the title changes?",
+        "Who bears answerability for permissions still in force?"
+      ],
+      "counterbalances": [
+        "judge without authority you do not have",
+        "audit permissions others still inherit",
+        "separate seriousness from domination"
+      ],
+      "manifestations": {
+        "leadership": [
+          "executives conflate being right with moral standing"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "authority still helps coordinate under uncertainty"
+        ],
+        "intensificationSignals": [
+          "being right becomes moral dominance",
+          "authority closes rooms to revision"
+        ],
+        "failureModes": [
+          "authority substitutes for contact"
+        ],
+        "restorationPaths": [
+          "practice judgment without finality instead of domination"
+        ]
+      },
       "id": "concept-authority",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-coupling": 36,
+        "book-after-certainty": 47,
+        "book-before-certainty-arrives": 97,
+        "book-coupling": 90,
         "book-curiosity-before-certainty": 1,
-        "book-how-meaning-moves": 37,
+        "book-how-meaning-moves": 66,
         "book-how-serious-systems-learn": 74,
+        "book-the-discipline-of-uncertainty": 6,
+        "book-the-economy-we-dont-experience": 2,
+        "book-when-accountability-no-longer-expires": 133,
         "book-when-authority-is-misread": 106,
-        "book-when-authority-outlives-accountability": 117,
+        "book-when-authority-outlives-accountability": 157,
+        "book-when-incentives-become-the-moral-language": 6,
+        "book-when-interpretation-no-longer-matters": 437,
         "book-when-moral-seriousness-scales": 50,
         "book-when-others-look-to-you-v1": 73,
-        "book-when-others-look-to-you-v2": 15
+        "book-when-others-look-to-you-v2": 15,
+        "book-why-collaboration-is-so-hard": 6
       }
     },
     {
@@ -1021,45 +1318,195 @@
         "concept-legitimacy"
       ],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-after-certainty"
+      ],
+      "recognitionSignals": [
+        "people continue acting through permissions left ambiguous",
+        "normalized exceptions outlive the pressures that produced them",
+        "insight becomes permission to delay a required response"
+      ],
+      "questions": [
+        "Which permissions still make sense after the emergency passed?",
+        "Who inherits authority without remembering why it was granted?",
+        "Where has interpretation become permission to delay?"
+      ],
+      "counterbalances": [
+        "name sunset dates for standing exceptions",
+        "pair each permission with review and accountability",
+        "stop treating insight as substitute for decision"
+      ],
+      "manifestations": {
+        "leadership": [
+          "crisis permissions become standard operating procedure"
+        ],
+        "organizations": [
+          "working groups treat insight as the moral work"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "temporary permissions are granted under urgency"
+        ],
+        "intensificationSignals": [
+          "exceptions become how work is done day to day",
+          "meetings add context instead of deciding"
+        ],
+        "failureModes": [
+          "authorization persists after crisis ends",
+          "harm is attributed to the system not choosers"
+        ],
+        "restorationPaths": [
+          "batch-retire exceptions with named owners",
+          "restore decisions insight already supports"
+        ]
+      },
       "id": "concept-authorization",
       "isCoreTerm": false
     },
     {
       "slug": "bureaucracy",
       "title": "Bureaucracy",
-      "shortDefinition": "rule-bound institutional coordination and role-bound authority",
+      "shortDefinition": "Bureaucracy extends permanence into practice\u2014rules replacing discretion, procedures replacing judgment, roles replacing relationships. At industrial scale it functions as moral infrastructure, coordinating strangers through files, stamps, and queues that must still recognize a name long enough for life to continue.",
       "termKind": "supporting",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "the room feels like Tuesday before the first form is stamped",
+        "box seven rather than box four determines whether a lease continues",
+        "the clerk asks for another copy, another signature, another wait",
+        "no one feels cruel; no one feels fully responsible either"
+      ],
+      "questions": [
+        "What coordination is bureaucracy making repeatable here?",
+        "Where does procedure replace discernment without announcing itself?",
+        "Who waits downstairs while charts are updated upstairs?"
+      ],
+      "counterbalances": [
+        "notice relief alongside exhaustion at the corrected stamp",
+        "do not confuse procedural reliability with moral proof",
+        "follow the file without losing the body"
+      ],
+      "manifestations": {
+        "politics": [
+          "Han clerks copy edicts into provincial registers",
+          "census takers move door to door while conscription rolls are stamped"
+        ],
+        "organizations": [
+          "housing offices route forms to the next desk while waits continue"
+        ],
+        "family": [
+          "a bus pass must be revalidated before a child is late for school"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "bureaucracy extends permanence into practice",
+          "rules replace discretion as scale grows"
+        ],
+        "intensificationSignals": [
+          "identity becomes administrable before it is fully felt",
+          "compliance replaces discernment across offices"
+        ],
+        "failureModes": [
+          "bureaucracy coordinates while meaning quietly thins",
+          "systems function without anyone tracing harm"
+        ],
+        "restorationPaths": [
+          "recognize bureaucracy as moral infrastructure before condemning it",
+          "name who waits while machinery keeps its appointments"
+        ]
+      },
       "id": "concept-bureaucracy",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-coupling": 6,
-        "book-how-serious-systems-learn": 1
+        "book-before-certainty-arrives": 8,
+        "book-coupling": 51,
+        "book-how-serious-systems-learn": 1,
+        "book-the-discipline-of-uncertainty": 2,
+        "book-when-incentives-become-the-moral-language": 1
       }
     },
     {
       "slug": "certainty",
       "title": "Certainty",
-      "shortDefinition": "stabilized coordination state",
+      "shortDefinition": "In this history, certainty is an adaptive response to instability\u2014not truth discovered once and for all, but coordination hardened under pressure: roles, law, and moral systems that compress choice and make behavior predictable enough to survive another season of uncertainty.",
       "termKind": "core",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "the season will not wait while people debate what is true",
+        "roles and repetition hold before reasons are argued for",
+        "shared expectation matters more than shared conviction in the moment",
+        "what held yesterday must still be recognizable tomorrow"
+      ],
+      "questions": [
+        "What problem did this certainty solve when it first formed?",
+        "Where is certainty doing coordination work rather than describing truth?",
+        "What would fracture if this expectation were reopened today?"
+      ],
+      "counterbalances": [
+        "ask what holds long enough to live, not only what is right",
+        "notice adaptation before calling it error",
+        "separate necessity from permanence"
+      ],
+      "manifestations": {
+        "politics": [
+          "law settles disputes before philosophy finishes arguing",
+          "sacred authority relocates legitimacy beyond ordinary revision"
+        ],
+        "organizations": [
+          "canon and procedure replace presence at scale",
+          "queues and stamps still recognize names long enough for work to continue"
+        ],
+        "family": [
+          "ritual synchronizes meals and obligation before belief is debated"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "certainty still feels necessary under visible constraint",
+          "compression follows instability quickly"
+        ],
+        "intensificationSignals": [
+          "what held becomes moral rather than merely useful",
+          "revision begins to feel like betrayal or collapse"
+        ],
+        "failureModes": [
+          "certainty outlives the conditions that first made it workable",
+          "systems still run while the fit thins"
+        ],
+        "restorationPaths": [
+          "recognize why certainty arrived before asking it to leave",
+          "name the original pressure before judging inherited form"
+        ]
+      },
       "id": "concept-certainty",
       "isCoreTerm": true,
       "mentionsByBook": {
+        "book-after-certainty": 139,
+        "book-before-certainty-arrives": 123,
         "book-coupling": 1,
         "book-curiosity-before-certainty": 16,
-        "book-how-meaning-moves": 36,
+        "book-how-meaning-moves": 74,
         "book-how-serious-systems-learn": 52,
+        "book-the-discipline-of-uncertainty": 51,
+        "book-the-economy-we-dont-experience": 7,
+        "book-when-accountability-no-longer-expires": 55,
         "book-when-authority-is-misread": 4,
-        "book-when-authority-outlives-accountability": 3,
+        "book-when-authority-outlives-accountability": 40,
+        "book-when-incentives-become-the-moral-language": 1,
+        "book-when-interpretation-no-longer-matters": 38,
         "book-when-moral-seriousness-scales": 11,
         "book-when-others-look-to-you-v1": 2,
-        "book-when-others-look-to-you-v2": 3
+        "book-when-others-look-to-you-v2": 3,
+        "book-why-collaboration-is-so-hard": 9
       }
     },
     {
@@ -1070,12 +1517,53 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
+        "book-after-certainty",
         "book-coupling"
       ],
+      "recognitionSignals": [
+        "phrases optimize for speed, circulation, and coordination",
+        "screenshots detach statements from context",
+        "meaning cannot remain stable at public scale"
+      ],
+      "questions": [
+        "What happens to meaning once this leaves the room?",
+        "Who is reading allegiance instead of substance?",
+        "When does circulation outrun correction?"
+      ],
+      "counterbalances": [
+        "publish whole statements not fragments",
+        "slow sharing until claims are scoped",
+        "choose proportion over viral legibility"
+      ],
+      "manifestations": {
+        "politics": [
+          "public fragments organize conflict"
+        ],
+        "organizations": [
+          "internal drafts become external ammunition"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "speech still attempts sincere coordination"
+        ],
+        "intensificationSignals": [
+          "circulation rewards visibility",
+          "fragments become the argument"
+        ],
+        "failureModes": [
+          "circulation displaces care"
+        ],
+        "restorationPaths": [
+          "speak for contact not circulation"
+        ]
+      },
       "id": "concept-circulation",
       "isCoreTerm": true,
       "mentionsByBook": {
+        "book-after-certainty": 2,
         "book-how-serious-systems-learn": 1,
+        "book-when-authority-outlives-accountability": 8,
         "book-when-moral-seriousness-scales": 1,
         "book-when-others-look-to-you-v1": 63,
         "book-when-others-look-to-you-v2": 1
@@ -1089,46 +1577,203 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-coupling"
+        "book-coupling",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "norm repetition increases when threat is visible",
+        "groups that enforce norms more consistently often hold together longer",
+        "ritual synchronizes behavior through seasons",
+        "loyalty replaces abstraction when institutions thin"
+      ],
+      "questions": [
+        "What cohesion is being purchased with narrowed choice?",
+        "Where does deference to authority increase under pressure?",
+        "What breaks if variance is tolerated one season longer?"
+      ],
+      "counterbalances": [
+        "do not treat cohesion as moral proof",
+        "notice cost alongside survival",
+        "watch for cohesion purchased with rigidity"
+      ],
+      "manifestations": {
+        "politics": [
+          "customary law privileges precedent over reinterpretation",
+          "church ritual synchronizes moral life across fragmented territories"
+        ],
+        "organizations": [
+          "same bells call the same fields back to order for generations"
+        ],
+        "family": [
+          "children held close in the temple queue while names are called"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "shared expectation holds the band together at the fire",
+          "role stability matters more than individual justification"
+        ],
+        "intensificationSignals": [
+          "sacred framing steadies obedience emotionally",
+          "feudal obligation makes duty visible before it becomes virtue"
+        ],
+        "failureModes": [
+          "cohesion hardens into exclusion and heresy policing",
+          "groups fracture when variance is tolerated too long under siege"
+        ],
+        "restorationPaths": [
+          "ask what cohesion problem the order first solved",
+          "recognize cohesion without requiring admiration"
+        ]
+      },
       "id": "concept-cohesion",
       "isCoreTerm": false
     },
     {
       "slug": "compression",
       "title": "Compression",
-      "shortDefinition": "reduction of complexity for transmission",
+      "shortDefinition": "Compression reduces moral complexity for transmission at scale: collapse gives way to compression, compression produces stabilization, and stabilization hardens into inheritance. Law and canon compress judgment into rule.",
       "termKind": "supporting",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "instability demands compression before truth is settled",
+        "law narrows discretion so the same words will be read tomorrow",
+        "moral depth and moral narrowing arrive together under pressure",
+        "acceptable interpretation shrinks while exposure widens"
+      ],
+      "questions": [
+        "What variance is being removed to hold action steady?",
+        "Where is compression relief rather than oppression?",
+        "When did compression become portable across distance?"
+      ],
+      "counterbalances": [
+        "recognize compression as adaptation before calling it failure",
+        "watch scenes before naming the framework",
+        "separate temporary tightening from inherited rigidity"
+      ],
+      "manifestations": {
+        "politics": [
+          "siege walls postpone quarrels because the gate must hold",
+          "confessional certainty tightens as printing multiplies voices"
+        ],
+        "organizations": [
+          "categories replace discernment at the city gate"
+        ],
+        "family": [
+          "seasonal scarcity does not permit prolonged moral debate"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "compression follows catastrophe rather than contemplation",
+          "roles precede reasons under visible constraint"
+        ],
+        "intensificationSignals": [
+          "writing and canon externalize judgment",
+          "belief hardens locally while diversity expands globally"
+        ],
+        "failureModes": [
+          "tools built to compress instability begin to constrain adaptation",
+          "compression outlives the conditions that required it"
+        ],
+        "restorationPaths": [
+          "ask what problem compression first solved",
+          "notice when permanence succeeds and then accumulates weight"
+        ]
+      },
       "id": "concept-compression",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-coupling": 9,
+        "book-after-certainty": 13,
+        "book-before-certainty-arrives": 19,
+        "book-coupling": 10,
         "book-curiosity-before-certainty": 2,
-        "book-how-meaning-moves": 67,
+        "book-how-meaning-moves": 73,
         "book-how-serious-systems-learn": 1,
+        "book-the-discipline-of-uncertainty": 3,
+        "book-the-economy-we-dont-experience": 21,
+        "book-when-accountability-no-longer-expires": 12,
         "book-when-authority-is-misread": 62,
-        "book-when-moral-seriousness-scales": 1
+        "book-when-authority-outlives-accountability": 6,
+        "book-when-interpretation-no-longer-matters": 12,
+        "book-when-moral-seriousness-scales": 1,
+        "book-why-collaboration-is-so-hard": 1
       }
     },
     {
       "slug": "consequence",
       "title": "Consequence",
-      "shortDefinition": "actual effects in reality",
+      "shortDefinition": "Consequence is the actual effect of action in the world. As scale and abstraction grow, distance opens between action and consequence\u2014responsibility diffuses and feedback slows.",
       "termKind": "core",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "the decision travels on paper while the consequence arrives in bodies",
+        "planners optimize logistics far from where harm lands",
+        "no one in the room can trace the full chain that produced the harm",
+        "feedback slows as authority loses presence"
+      ],
+      "questions": [
+        "Who stands where the consequence lands?",
+        "How long between action and recognizable effect?",
+        "What would change if the wait downstairs were visible upstairs?"
+      ],
+      "counterbalances": [
+        "follow the file to the body, not only the policy",
+        "keep harm traceable before calling compliance correct",
+        "notice delay that feels administrative rather than dramatic"
+      ],
+      "manifestations": {
+        "politics": [
+          "staff officers move divisions on maps far from trenches",
+          "investigators trace causation while prescriptions still wait"
+        ],
+        "organizations": [
+          "clerks stamp orders executed in provinces they will never visit"
+        ],
+        "family": [
+          "families ration by the day inside siege walls"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "consequence still meets action within kinship and proximity",
+          "accountability remains visible though uneven"
+        ],
+        "intensificationSignals": [
+          "distance opens between rulers and subjects",
+          "role compliance replaces discernment"
+        ],
+        "failureModes": [
+          "consequence becomes ordinary enough to endure",
+          "systems record outcomes people no longer feel"
+        ],
+        "restorationPaths": [
+          "name who waits downstream while charts are updated",
+          "recognize distance before asking for moral clarity alone"
+        ]
+      },
       "id": "concept-consequence",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-coupling": 114,
+        "book-after-certainty": 12,
+        "book-before-certainty-arrives": 11,
+        "book-coupling": 264,
         "book-how-meaning-moves": 19,
         "book-how-serious-systems-learn": 19,
+        "book-the-discipline-of-uncertainty": 2,
+        "book-when-accountability-no-longer-expires": 12,
         "book-when-authority-is-misread": 8,
-        "book-when-authority-outlives-accountability": 7,
+        "book-when-authority-outlives-accountability": 11,
+        "book-when-incentives-become-the-moral-language": 1,
+        "book-when-interpretation-no-longer-matters": 15,
         "book-when-moral-seriousness-scales": 40,
         "book-when-others-look-to-you-v1": 10,
         "book-when-others-look-to-you-v2": 4
@@ -1137,20 +1782,75 @@
     {
       "slug": "constraint",
       "title": "Constraint",
-      "shortDefinition": "limits preserving stability/corrigibility",
+      "shortDefinition": "Constraint names the limits a moral order responds to\u2014scarcity, violence, population density, abstraction. This book is organized by ages defined by shared constraints rather than by ideas alone.",
       "termKind": "supporting",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "deliberation is costly when hesitation can be fatal",
+        "the season will not wait for argument to finish",
+        "survival organizes pressure before abstraction does",
+        "ages in this history are defined by shared constraints rather than geography"
+      ],
+      "questions": [
+        "What constraints was this system responding to?",
+        "Where is rigidity adaptive rather than merely oppressive?",
+        "What would change if the original pressure returned?"
+      ],
+      "counterbalances": [
+        "avoid ranking eras by openness alone",
+        "judge adaptation before judging truth",
+        "notice constraint without romanticizing it"
+      ],
+      "manifestations": {
+        "politics": [
+          "harvest counts are pressed into clay before justice is debated",
+          "medieval Europe re-adapts after imperial infrastructure fails"
+        ],
+        "organizations": [
+          "irrigation day settles disputes before principle is argued"
+        ],
+        "family": [
+          "sharing meat at the fire is about who will be alive at dawn"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "constraint is visible in hunger, exposure, and violence",
+          "moral life must function before it can be debated"
+        ],
+        "intensificationSignals": [
+          "constraint shifts from scarcity to scale and distance",
+          "inherited tools face pressures they were not built for"
+        ],
+        "failureModes": [
+          "constraint is forgotten while inherited form remains",
+          "systems are judged by present standards alone"
+        ],
+        "restorationPaths": [
+          "return to the pressure that first made the tool necessary",
+          "ask what held long enough to live"
+        ]
+      },
       "id": "concept-constraint",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-coupling": 7,
+        "book-after-certainty": 11,
+        "book-before-certainty-arrives": 9,
+        "book-coupling": 9,
         "book-how-meaning-moves": 1,
         "book-how-serious-systems-learn": 41,
+        "book-the-discipline-of-uncertainty": 5,
+        "book-the-economy-we-dont-experience": 2,
+        "book-when-accountability-no-longer-expires": 14,
         "book-when-authority-is-misread": 67,
         "book-when-authority-outlives-accountability": 8,
-        "book-when-moral-seriousness-scales": 30
+        "book-when-interpretation-no-longer-matters": 8,
+        "book-when-moral-seriousness-scales": 30,
+        "book-why-collaboration-is-so-hard": 12
       }
     },
     {
@@ -1161,8 +1861,45 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-coupling"
+        "book-after-certainty",
+        "book-coupling",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "constraints are narrated instead of tradeoffs named",
+        "working groups add constraints while harm does not pause",
+        "analysis recognizes constraints yet decision slips"
+      ],
+      "questions": [
+        "Which constraints are real versus rhetorical cover?",
+        "What decision is insight delaying?",
+        "When do constraints become permission to wait?"
+      ],
+      "counterbalances": [
+        "name tradeoffs explicitly",
+        "stop when constraint mapping replaces action",
+        "set decision points after sufficient context"
+      ],
+      "manifestations": {
+        "organizations": [
+          "institutions explain constraints instead of effects"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "constraints legitimately shape choices"
+        ],
+        "intensificationSignals": [
+          "constraint language absorbs responsibility",
+          "meetings multiply context without response"
+        ],
+        "failureModes": [
+          "constraints become infinite permission to delay"
+        ],
+        "restorationPaths": [
+          "decide under known constraints"
+        ]
+      },
       "id": "concept-constraints",
       "isCoreTerm": false
     },
@@ -1198,22 +1935,78 @@
     {
       "slug": "coordination",
       "title": "Coordination",
-      "shortDefinition": "collective behavioral organization",
+      "shortDefinition": "Coordination is collective organization under pressure\u2014the problem certainty is meant to solve when lives fragment and behavior must still hold across strangers, distance, and time.",
       "termKind": "supporting",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "the wall matters more than the grievance for one season",
+        "strangers exchange under weights neither party fully trusts",
+        "the queue moves because the line must keep moving",
+        "machinery recognizes a name long enough for life to continue"
+      ],
+      "questions": [
+        "What coordination problem is this tool solving?",
+        "What breaks if behavior stops being predictable tomorrow?",
+        "Where is coordination purchased at the cost of revision?"
+      ],
+      "counterbalances": [
+        "ask what holds before asking what is true",
+        "notice lived meaning alongside structural work",
+        "do not treat coordination as moral proof"
+      ],
+      "manifestations": {
+        "politics": [
+          "tribute lists and census records bind absent populations",
+          "Axial teachers carry rules between warring states"
+        ],
+        "organizations": [
+          "factory bells mark shifts for thousands who never meet"
+        ],
+        "family": [
+          "who draws water first matters more than why the rule exists"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "shared expectation holds small groups together",
+          "ritual and role stabilize action under scarcity"
+        ],
+        "intensificationSignals": [
+          "coordination depends on law, canon, and bureaucracy at scale",
+          "portable ethics travel with merchants and exiles"
+        ],
+        "failureModes": [
+          "inherited coordination is asked to anchor strangers alone",
+          "systems coordinate while meaning thins"
+        ],
+        "restorationPaths": [
+          "name the pressure coordination first answered",
+          "recognize tools before demanding they explain themselves"
+        ]
+      },
       "id": "concept-coordination",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-coupling": 18,
-        "book-how-meaning-moves": 3,
+        "book-after-certainty": 12,
+        "book-before-certainty-arrives": 44,
+        "book-coupling": 167,
+        "book-how-meaning-moves": 6,
         "book-how-serious-systems-learn": 16,
+        "book-the-discipline-of-uncertainty": 1,
+        "book-the-economy-we-dont-experience": 3,
+        "book-when-accountability-no-longer-expires": 4,
         "book-when-authority-is-misread": 25,
-        "book-when-authority-outlives-accountability": 3,
+        "book-when-authority-outlives-accountability": 6,
+        "book-when-incentives-become-the-moral-language": 8,
+        "book-when-interpretation-no-longer-matters": 6,
         "book-when-moral-seriousness-scales": 7,
         "book-when-others-look-to-you-v1": 12,
-        "book-when-others-look-to-you-v2": 3
+        "book-when-others-look-to-you-v2": 3,
+        "book-why-collaboration-is-so-hard": 10
       }
     },
     {
@@ -1224,18 +2017,62 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-coupling"
+        "book-after-certainty",
+        "book-coupling",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "every correction spawns new framing instead of shared reality",
+        "revision is treated as collapse when identity fused with being right",
+        "people try to set the record straight and intensify conflict"
+      ],
+      "questions": [
+        "When does correction coordinate reality versus claim authority?",
+        "What would revision look like if it were welcomed?",
+        "Who cannot correct without being read as betrayal?"
+      ],
+      "counterbalances": [
+        "reward updates to shared reality over winning frames",
+        "pair correction with smaller questions in the room",
+        "practice revisability-preserves-judgment"
+      ],
+      "manifestations": {
+        "organizations": [
+          "clarification campaigns replace collective updating"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "correction still helps groups align on evidence"
+        ],
+        "intensificationSignals": [
+          "corrections multiply audiences and interpretations",
+          "being right matters more than staying revisable"
+        ],
+        "failureModes": [
+          "correction becomes moral achievement not tool"
+        ],
+        "restorationPaths": [
+          "treat correction as reality-contact before identity defense"
+        ]
+      },
       "id": "concept-correction",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-coupling": 23,
+        "book-after-certainty": 5,
+        "book-before-certainty-arrives": 4,
+        "book-coupling": 45,
         "book-curiosity-before-certainty": 2,
-        "book-how-meaning-moves": 25,
+        "book-how-meaning-moves": 26,
         "book-how-serious-systems-learn": 89,
+        "book-when-accountability-no-longer-expires": 22,
+        "book-when-authority-outlives-accountability": 5,
+        "book-when-incentives-become-the-moral-language": 1,
+        "book-when-interpretation-no-longer-matters": 12,
         "book-when-moral-seriousness-scales": 10,
         "book-when-others-look-to-you-v1": 104,
-        "book-when-others-look-to-you-v2": 15
+        "book-when-others-look-to-you-v2": 15,
+        "book-why-collaboration-is-so-hard": 4
       }
     },
     {
@@ -1266,9 +2103,15 @@
       "id": "concept-coupling",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-coupling": 110,
-        "book-how-meaning-moves": 2,
-        "book-how-serious-systems-learn": 7
+        "book-after-certainty": 10,
+        "book-before-certainty-arrives": 10,
+        "book-coupling": 145,
+        "book-how-meaning-moves": 12,
+        "book-how-serious-systems-learn": 7,
+        "book-when-accountability-no-longer-expires": 10,
+        "book-when-authority-outlives-accountability": 10,
+        "book-when-interpretation-no-longer-matters": 10,
+        "book-why-collaboration-is-so-hard": 1
       }
     },
     {
@@ -1300,23 +2143,77 @@
     {
       "slug": "distance",
       "title": "Distance",
-      "shortDefinition": "separation from visible consequence",
+      "shortDefinition": "Distance marks separation between decision and consequence, action and reflection. As scale grows, distance widens\u2014governors sign orders months before villages learn the cost; files move while bodies receive the consequence; investigators trace causation in rooms far from the wait downstairs.",
       "termKind": "supporting",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "governors sign orders months before villages learn the cost",
+        "investigators trace causation in rooms far from the wait",
+        "the file moves; the body receives the consequence",
+        "action and reflection no longer meet in the same place"
+      ],
+      "questions": [
+        "How far does decision travel before consequence is felt?",
+        "Who can see the full chain between policy and harm?",
+        "Where has distance made role compliance feel sufficient?"
+      ],
+      "counterbalances": [
+        "return attention to the queue downstairs",
+        "notice delay that feels ordinary rather than dramatic",
+        "separate scale from moral judgment"
+      ],
+      "manifestations": {
+        "politics": [
+          "sealed orders open distance stone calendars once closed",
+          "technocratic binders stack while names have not cleared downstairs"
+        ],
+        "organizations": [
+          "staff rotate from one crisis to the next without open collapse"
+        ],
+        "family": [
+          "neighbors sign forms in triplicate without reading the third copy"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "distance opens as populations and authority stretch",
+          "feedback slows while harm becomes harder to trace"
+        ],
+        "intensificationSignals": [
+          "institutions record outcomes people experience differently",
+          "explanation remains credible far from those who wait"
+        ],
+        "failureModes": [
+          "distance becomes built into the architecture of moral life",
+          "systems run while fit thins unnoticed"
+        ],
+        "restorationPaths": [
+          "name the gap between what institutions record and what people experience",
+          "recognize distance before asking certainty to fail"
+        ]
+      },
       "id": "concept-distance",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-coupling": 43,
+        "book-after-certainty": 8,
+        "book-before-certainty-arrives": 18,
+        "book-coupling": 55,
         "book-how-meaning-moves": 4,
         "book-how-serious-systems-learn": 2,
+        "book-the-discipline-of-uncertainty": 1,
         "book-velorum": 7,
+        "book-when-accountability-no-longer-expires": 5,
         "book-when-authority-is-misread": 6,
         "book-when-authority-outlives-accountability": 9,
+        "book-when-incentives-become-the-moral-language": 2,
         "book-when-moral-seriousness-scales": 25,
         "book-when-others-look-to-you-v1": 15,
-        "book-when-others-look-to-you-v2": 7
+        "book-when-others-look-to-you-v2": 7,
+        "book-why-collaboration-is-so-hard": 1
       }
     },
     {
@@ -1335,23 +2232,78 @@
     {
       "slug": "drift",
       "title": "Drift",
-      "shortDefinition": "gradual decoupling from original conditions",
+      "shortDefinition": "Drift is gradual decoupling from original conditions\u2014meaning drifting as it travels, moral reasoning drifting toward role compliance, fit thinning while machinery still runs. Systems continue without admitting that the conditions they were built for have shifted.",
       "termKind": "supporting",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "meaning drifts as it travels across distance",
+        "moral reasoning drifts toward role compliance",
+        "machinery still runs while meaning quietly thins",
+        "habit carries what explanation no longer fully reassures"
+      ],
+      "questions": [
+        "What is drifting away from its original conditions?",
+        "Where does continuity mask thinning fit?",
+        "What still works well enough to be taken for granted?"
+      ],
+      "counterbalances": [
+        "distinguish drift from immediate failure",
+        "notice strain before demanding rupture",
+        "recognize inertia without calling it corruption"
+      ],
+      "manifestations": {
+        "politics": [
+          "postwar planning language outlasts the offices that first needed it",
+          "inherited categories fail to contain returning ships"
+        ],
+        "organizations": [
+          "ticket numbers still called while fluorescent lights hum at closing"
+        ],
+        "family": [
+          "payroll continues while conviction is no longer required"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "local enforcement varies as oral tradition travels",
+          "tools remain effective at enforcing norms"
+        ],
+        "intensificationSignals": [
+          "institutions outlive the pressures that shaped them",
+          "credibility erodes faster than authority itself"
+        ],
+        "failureModes": [
+          "fit thins while appointments still clear",
+          "systems persist because nothing else yet does"
+        ],
+        "restorationPaths": [
+          "name drift before prescribing replacement frameworks",
+          "stop at recognition when instruction would repeat the pattern"
+        ]
+      },
       "id": "concept-drift",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-coupling": 21,
+        "book-after-certainty": 17,
+        "book-before-certainty-arrives": 2,
+        "book-coupling": 76,
         "book-curiosity-before-certainty": 1,
         "book-how-meaning-moves": 2,
         "book-how-serious-systems-learn": 26,
+        "book-the-discipline-of-uncertainty": 12,
         "book-velorum": 1,
+        "book-when-accountability-no-longer-expires": 15,
         "book-when-authority-is-misread": 13,
+        "book-when-authority-outlives-accountability": 8,
+        "book-when-interpretation-no-longer-matters": 5,
         "book-when-moral-seriousness-scales": 5,
         "book-when-others-look-to-you-v1": 7,
-        "book-when-others-look-to-you-v2": 11
+        "book-when-others-look-to-you-v2": 11,
+        "book-why-collaboration-is-so-hard": 2
       }
     },
     {
@@ -1362,8 +2314,44 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
+        "book-after-certainty",
         "book-when-others-look-to-you-v1"
       ],
+      "recognitionSignals": [
+        "care is expected to visibly matter",
+        "responsibility is resisted when results are not steerable",
+        "symbolic action stands in for effectiveness"
+      ],
+      "questions": [
+        "What good is responsibility without visible improvement?",
+        "Where is effectiveness demanded as moral proof?",
+        "What integrity remains when outcomes do not change?"
+      ],
+      "counterbalances": [
+        "separate responsibility from visible success",
+        "value presence and notice over control",
+        "act without effectiveness as moral reassurance"
+      ],
+      "manifestations": {
+        "leadership": [
+          "KPIs substitute for moral contact"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "effectiveness still reassures moral effort"
+        ],
+        "intensificationSignals": [
+          "ineffectiveness is read as futility",
+          "symbolic wins replace contact"
+        ],
+        "failureModes": [
+          "responsibility is abandoned when results lag"
+        ],
+        "restorationPaths": [
+          "practice responsibility without control"
+        ]
+      },
       "id": "concept-effectiveness",
       "isCoreTerm": false
     },
@@ -1383,20 +2371,74 @@
     {
       "slug": "exposure",
       "title": "Exposure",
-      "shortDefinition": "degree of consequence contact",
+      "shortDefinition": "Exposure names what happens when novelty arrives faster than inherited frameworks can absorb\u2014new lands, texts, peoples, and claims competing at the center of life. Certainty is most stable when the world it governs remains familiar; exposure widens before coordination can follow, often tightening belief locally even as diversity expands globally.",
       "termKind": "supporting",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "ships return with goods and charts inherited categories cannot contain",
+        "competing texts arrive weekly while neighbors watch allegiances",
+        "the ledger balances while the moral map cannot",
+        "certainty is no longer alone even when it is not yet wrong"
+      ],
+      "questions": [
+        "What novelty is arriving faster than inherited frameworks can absorb?",
+        "Where does exposure tighten belief locally while diversity expands globally?",
+        "Which funeral rites and feast days mark the fracture?"
+      ],
+      "counterbalances": [
+        "do not treat exposure as automatic moral progress",
+        "watch social texture before naming pluralism",
+        "notice tightening that follows widening contact"
+      ],
+      "manifestations": {
+        "politics": [
+          "anatomical theaters widen observation before allegiance absorbs it",
+          "confessional maps are drawn in distant capitals"
+        ],
+        "organizations": [
+          "print shops multiply voices faster than canon can settle"
+        ],
+        "family": [
+          "a baker learns the family across the lane keeps different feast days"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "inherited certainty is stable while the world stays familiar",
+          "new knowledge is absorbed as refinement before rupture"
+        ],
+        "intensificationSignals": [
+          "confessional boundaries sharpen as printing spreads disagreement",
+          "trade rewires obligation faster than doctrine can follow"
+        ],
+        "failureModes": [
+          "exposure is mistaken for freedom without coordination",
+          "competing certainties govern without shared jurisdiction"
+        ],
+        "restorationPaths": [
+          "ask which certainty will govern shared life, not only which is true",
+          "recognize exposure before demanding synthesis"
+        ]
+      },
       "id": "concept-exposure",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-coupling": 7,
+        "book-before-certainty-arrives": 4,
+        "book-coupling": 6,
         "book-how-meaning-moves": 4,
         "book-how-serious-systems-learn": 10,
+        "book-the-discipline-of-uncertainty": 2,
+        "book-when-accountability-no-longer-expires": 1,
         "book-when-authority-outlives-accountability": 2,
+        "book-when-incentives-become-the-moral-language": 5,
+        "book-when-interpretation-no-longer-matters": 7,
         "book-when-moral-seriousness-scales": 18,
-        "book-when-others-look-to-you-v1": 1
+        "book-when-others-look-to-you-v1": 1,
+        "book-why-collaboration-is-so-hard": 3
       }
     },
     {
@@ -1407,8 +2449,45 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-coupling"
+        "book-after-certainty",
+        "book-coupling",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "feedback slows as coordination grows",
+        "consequences become harder to trace",
+        "people act without seeing effects in time"
+      ],
+      "questions": [
+        "What feedback still reaches decision makers?",
+        "Who is acting on stale signals?",
+        "Where are we judging without timely contact?"
+      ],
+      "counterbalances": [
+        "seek exception signals not only aggregates",
+        "shorten loops between action and effect",
+        "document contact when feedback is weak"
+      ],
+      "manifestations": {
+        "organizations": [
+          "quarterly reviews miss emerging clusters"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "feedback still corrects at human scale"
+        ],
+        "intensificationSignals": [
+          "feedback delays obscure responsibility",
+          "traceability weakens"
+        ],
+        "failureModes": [
+          "decisions proceed without consequence contact"
+        ],
+        "restorationPaths": [
+          "create local feedback where global is slow"
+        ]
+      },
       "id": "concept-feedback",
       "isCoreTerm": false
     },
@@ -1423,15 +2502,20 @@
       "id": "concept-friction",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-coupling": 4,
+        "book-after-certainty": 7,
+        "book-coupling": 20,
         "book-curiosity-before-certainty": 3,
         "book-how-meaning-moves": 2,
         "book-how-serious-systems-learn": 13,
+        "book-the-economy-we-dont-experience": 5,
         "book-velorum": 1,
+        "book-when-accountability-no-longer-expires": 1,
         "book-when-authority-outlives-accountability": 5,
+        "book-when-incentives-become-the-moral-language": 2,
         "book-when-moral-seriousness-scales": 23,
         "book-when-others-look-to-you-v1": 3,
-        "book-when-others-look-to-you-v2": 3
+        "book-when-others-look-to-you-v2": 3,
+        "book-why-collaboration-is-so-hard": 1
       }
     },
     {
@@ -1470,8 +2554,46 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-when-others-look-to-you-v1"
+        "book-after-certainty",
+        "book-when-others-look-to-you-v1",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "harm continues while interpretation expands",
+        "briefings make harm legible without smaller",
+        "people can still tell when something is doing harm"
+      ],
+      "questions": [
+        "Is harm unchanged outside while we analyze inside?",
+        "Who is harmed in particular\u2014not on average?",
+        "When does naming harm substitute for reducing it?"
+      ],
+      "counterbalances": [
+        "check effects outside the room after briefings",
+        "stop when outcomes for people are unchanged",
+        "pair analysis with named remedy attempts"
+      ],
+      "manifestations": {
+        "organizations": [
+          "delays continue after excellent postmortems"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "harm triggers immediate explanation and sorting"
+        ],
+        "intensificationSignals": [
+          "harm is reorganized narratively",
+          "harm becomes statistical at scale"
+        ],
+        "failureModes": [
+          "harm persists while moral work feels complete"
+        ],
+        "restorationPaths": [
+          "return to particular harms and people",
+          "accept harm as inevitable without abandoning response"
+        ]
+      },
       "id": "concept-harm",
       "isCoreTerm": false
     },
@@ -1496,25 +2618,113 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-coupling"
+        "book-after-certainty",
+        "book-coupling",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "incentives diverge as coordination grows",
+        "working groups catalog competing incentives while harm continues",
+        "understanding incentives replaces governing outcomes"
+      ],
+      "questions": [
+        "Which incentives are we explaining instead of changing?",
+        "Who benefits from the delay insight provides?",
+        "What outcome would shift if incentives were named as tradeoffs?"
+      ],
+      "counterbalances": [
+        "name incentive conflicts as moral choices",
+        "act before incentive maps feel complete",
+        "refuse better incentives as automatic fix"
+      ],
+      "manifestations": {
+        "organizations": [
+          "postmortems list incentives without changing them"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "incentive literacy increases"
+        ],
+        "intensificationSignals": [
+          "incentive stories delay judgment",
+          "competing incentives justify paralysis"
+        ],
+        "failureModes": [
+          "incentive analysis replaces response"
+        ],
+        "restorationPaths": [
+          "choose under visible tradeoffs"
+        ]
+      },
       "id": "concept-incentives",
       "isCoreTerm": false
     },
     {
       "slug": "inheritance",
       "title": "Inheritance",
-      "shortDefinition": "persistence across generations/structures",
+      "shortDefinition": "Inheritance is how stabilized certainty persists after its originating conditions fade\u2014tools that outlive the pressures that made them workable and are carried forward without their original context.",
       "termKind": "supporting",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "archives still stand while roads between them do not",
+        "tools continue with inherited authority after conditions shift",
+        "practices feel permanent that began as adaptation",
+        "the week continues inside structures taken for granted"
+      ],
+      "questions": [
+        "What conditions first made this inheritance necessary?",
+        "Where is inheritance doing work nothing else yet does?",
+        "When did stabilization begin to outlive its reasons?"
+      ],
+      "counterbalances": [
+        "recognize function before calling inheritance error",
+        "separate persistence from proof",
+        "notice inertia without demanding rupture"
+      ],
+      "manifestations": {
+        "politics": [
+          "Roman milestones rot while local walls matter more",
+          "sacred order fixed in stone outlasts priests who explain it"
+        ],
+        "organizations": [
+          "canon and bureaucracy carry certainty beyond its makers"
+        ],
+        "family": [
+          "feast days and titles mark boundaries people still recognize"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "stabilizing practices begin to travel across generations",
+          "writing preserves norms when authors are absent"
+        ],
+        "intensificationSignals": [
+          "what held becomes moral truth rather than contingent response",
+          "institutional certainty replaces temple walls with files and bells"
+        ],
+        "failureModes": [
+          "inherited tools resist revision while conditions change",
+          "systems outlive themselves without admitting strain"
+        ],
+        "restorationPaths": [
+          "name what was inherited and what pressure shaped it",
+          "stop at recognition before prescribing replacement"
+        ]
+      },
       "id": "concept-inheritance",
       "isCoreTerm": false,
       "mentionsByBook": {
+        "book-after-certainty": 2,
+        "book-before-certainty-arrives": 4,
         "book-how-meaning-moves": 1,
+        "book-when-accountability-no-longer-expires": 5,
         "book-when-authority-is-misread": 1,
-        "book-when-authority-outlives-accountability": 8,
+        "book-when-authority-outlives-accountability": 12,
         "book-when-moral-seriousness-scales": 1
       }
     },
@@ -1534,20 +2744,76 @@
     {
       "slug": "interpretation",
       "title": "Interpretation",
-      "shortDefinition": "localized reconstruction of meaning",
+      "shortDefinition": "Interpretation is how meaning is reconstructed under pressure. Sacred authority compresses interpretation; writing and law later externalize it so disputes can be settled without shared presence.",
       "termKind": "core",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "what one did mattered before why one did it",
+        "doctrine narrows while ritual still synchronizes life",
+        "canon draws firmer boundaries once writing multiplies voices",
+        "disputes end when category replaces discernment"
+      ],
+      "questions": [
+        "Where has interpretation been narrowed to hold action steady?",
+        "Who benefits when alternatives feel dangerous rather than merely unpopular?",
+        "What would renegotiation cost if the season turned tomorrow?"
+      ],
+      "counterbalances": [
+        "notice practice before principle",
+        "allow scenes to breathe before naming doctrine",
+        "separate enforced meaning from negotiated meaning"
+      ],
+      "manifestations": {
+        "politics": [
+          "Hammurabi cases render judgment as fixed category",
+          "Ashoka edicts make dharma legible across an empire"
+        ],
+        "organizations": [
+          "copyists reproduce texts with painstaking uniformity"
+        ],
+        "family": [
+          "feast days and godparents mark allegiance before theology is argued"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "interpretation follows stability rather than leading it",
+          "meaning accumulates after survival practices hold"
+        ],
+        "intensificationSignals": [
+          "sacred authority compresses acceptable disagreement",
+          "law declares which interpretations will count"
+        ],
+        "failureModes": [
+          "interpretation freezes while conditions shift",
+          "revision feels indistinguishable from collapse"
+        ],
+        "restorationPaths": [
+          "ask when interpretation was last tied to visible constraint",
+          "recognize compression before calling it dogma"
+        ]
+      },
       "id": "concept-interpretation",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-coupling": 1,
-        "book-how-meaning-moves": 36,
+        "book-after-certainty": 70,
+        "book-before-certainty-arrives": 21,
+        "book-coupling": 3,
+        "book-how-meaning-moves": 70,
         "book-how-serious-systems-learn": 11,
+        "book-the-discipline-of-uncertainty": 3,
+        "book-the-economy-we-dont-experience": 2,
+        "book-when-accountability-no-longer-expires": 33,
         "book-when-authority-is-misread": 40,
-        "book-when-authority-outlives-accountability": 1,
-        "book-when-others-look-to-you-v1": 1
+        "book-when-authority-outlives-accountability": 13,
+        "book-when-incentives-become-the-moral-language": 2,
+        "book-when-interpretation-no-longer-matters": 240,
+        "book-when-others-look-to-you-v1": 1,
+        "book-why-collaboration-is-so-hard": 4
       }
     },
     {
@@ -1571,19 +2837,70 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-coupling"
+        "book-after-certainty",
+        "book-coupling",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "people wait for certainty before they are willing to judge",
+        "judgment is mistaken for harshness when it lacks final closure",
+        "insight no longer delivers relief yet judgment is still required"
+      ],
+      "questions": [
+        "What judgment is warranted before understanding feels complete?",
+        "Where are we using finality to avoid revisability?",
+        "What remains when correctness and explanation no longer settle the question?"
+      ],
+      "counterbalances": [
+        "practice judgment as ongoing practice not verdict",
+        "act under partial visibility with room to revise",
+        "separate seriousness from permanent settlement"
+      ],
+      "manifestations": {
+        "leadership": [
+          "executives delay decisions until confidence feels complete"
+        ],
+        "organizations": [
+          "reviews punish updates that unsettle prior verdicts"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "judgment still draws boundaries and responds to harm",
+          "people associate judgment with punitive finality"
+        ],
+        "intensificationSignals": [
+          "severity rises when uncertainty feels intolerable",
+          "revision threatens coherence when judgment must feel finished"
+        ],
+        "failureModes": [
+          "judgment hardens into dogma or paralysis",
+          "interpretation delays judgment until harm continues"
+        ],
+        "restorationPaths": [
+          "keep judgment revisable and proportionate",
+          "name tradeoffs without claiming omniscience"
+        ]
+      },
       "id": "concept-judgment",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-coupling": 12,
+        "book-after-certainty": 120,
+        "book-before-certainty-arrives": 19,
+        "book-coupling": 40,
         "book-curiosity-before-certainty": 2,
-        "book-how-meaning-moves": 23,
+        "book-how-meaning-moves": 40,
         "book-how-serious-systems-learn": 18,
+        "book-the-discipline-of-uncertainty": 6,
+        "book-the-economy-we-dont-experience": 3,
+        "book-when-accountability-no-longer-expires": 16,
         "book-when-authority-is-misread": 31,
-        "book-when-authority-outlives-accountability": 30,
+        "book-when-authority-outlives-accountability": 39,
+        "book-when-incentives-become-the-moral-language": 71,
+        "book-when-interpretation-no-longer-matters": 39,
         "book-when-moral-seriousness-scales": 48,
-        "book-when-others-look-to-you-v1": 20
+        "book-when-others-look-to-you-v1": 20,
+        "book-why-collaboration-is-so-hard": 18
       }
     },
     {
@@ -1594,40 +2911,142 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-coupling"
+        "book-after-certainty",
+        "book-coupling",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "smooth operation starts appearing equivalent to legitimacy",
+        "admiration insulates narratives from proportionate inquiry",
+        "trust is confused with refusing to reopen the story"
+      ],
+      "questions": [
+        "What would question legitimacy without cynicism?",
+        "Where is trust insulation rather than trust?",
+        "Who can scrutinize without being cast as disloyal?"
+      ],
+      "counterbalances": [
+        "keep legitimacy open to revision",
+        "practice scrutiny-preserves-trust",
+        "separate admiration from narrative protection"
+      ],
+      "manifestations": {
+        "leadership": [
+          "boards conflate operational smoothness with moral standing"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "legitimacy still coordinates trust quickly"
+        ],
+        "intensificationSignals": [
+          "heroic narratives stabilize against contradiction",
+          "legitimacy closes when coherence is threatened"
+        ],
+        "failureModes": [
+          "legitimacy survives through insulation"
+        ],
+        "restorationPaths": [
+          "welcome proportionate inquiry in public"
+        ]
+      },
       "id": "concept-legitimacy",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-coupling": 4,
-        "book-how-meaning-moves": 8,
+        "book-after-certainty": 14,
+        "book-before-certainty-arrives": 23,
+        "book-coupling": 8,
+        "book-how-meaning-moves": 12,
         "book-how-serious-systems-learn": 11,
+        "book-the-discipline-of-uncertainty": 3,
+        "book-the-economy-we-dont-experience": 11,
+        "book-when-accountability-no-longer-expires": 112,
         "book-when-authority-is-misread": 108,
-        "book-when-authority-outlives-accountability": 86,
+        "book-when-authority-outlives-accountability": 113,
+        "book-when-incentives-become-the-moral-language": 8,
+        "book-when-interpretation-no-longer-matters": 79,
         "book-when-moral-seriousness-scales": 16,
         "book-when-others-look-to-you-v1": 79,
-        "book-when-others-look-to-you-v2": 6
+        "book-when-others-look-to-you-v2": 6,
+        "book-why-collaboration-is-so-hard": 1
       }
     },
     {
       "slug": "meaning",
       "title": "Meaning",
-      "shortDefinition": "transmitted coordination signal",
+      "shortDefinition": "Meaning here is what moral systems stabilize\u2014not abstract truth first, but shared expectation that can accumulate once coordination survives constraint. Writing preserves meaning when oral tradition fractures at scale.",
       "termKind": "core",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "obligation shows itself in calloused hands before it becomes principle",
+        "shared ritual feels like survival rather than ornament",
+        "the ledger balances while the moral map cannot",
+        "meaning drifts as it travels across distance"
+      ],
+      "questions": [
+        "What meaning is coordination carrying here versus revelation?",
+        "Where did stabilizing practice and moral truth become hard to separate?",
+        "What would remain recognizable if the shrine burned?"
+      ],
+      "counterbalances": [
+        "honor beauty and grief inside structural coordination",
+        "do not reduce lived meaning to machinery alone",
+        "watch for meaning preserved in matter when voice cannot travel"
+      ],
+      "manifestations": {
+        "politics": [
+          "cosmology places every role inside a recognizable moral structure",
+          "confessional maps are drawn in distant capitals"
+        ],
+        "organizations": [
+          "temple grain and calendar synchronize seasons across populations"
+        ],
+        "family": [
+          "a widow feels grace mixed with fear at the storehouse queue"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "meaning is embedded in practice under pressure",
+          "rituals work before they are explained"
+        ],
+        "intensificationSignals": [
+          "what held becomes the shape of the good itself",
+          "canon freezes meaning across generations"
+        ],
+        "failureModes": [
+          "meaning thins while machinery still runs",
+          "inherited meaning outlives shared context"
+        ],
+        "restorationPaths": [
+          "return to the scene where meaning first made life workable",
+          "separate function from permanence before judging failure"
+        ]
+      },
       "id": "concept-meaning",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-coupling": 2,
+        "book-after-certainty": 23,
+        "book-before-certainty-arrives": 28,
+        "book-coupling": 14,
         "book-curiosity-before-certainty": 1,
-        "book-how-meaning-moves": 124,
+        "book-how-meaning-moves": 135,
         "book-how-serious-systems-learn": 4,
+        "book-the-discipline-of-uncertainty": 17,
+        "book-the-economy-we-dont-experience": 9,
         "book-velorum": 1,
+        "book-when-accountability-no-longer-expires": 19,
         "book-when-authority-is-misread": 25,
+        "book-when-authority-outlives-accountability": 11,
+        "book-when-incentives-become-the-moral-language": 5,
+        "book-when-interpretation-no-longer-matters": 148,
         "book-when-others-look-to-you-v1": 1,
-        "book-when-others-look-to-you-v2": 2
+        "book-when-others-look-to-you-v2": 2,
+        "book-why-collaboration-is-so-hard": 3
       }
     },
     {
@@ -1642,6 +3061,7 @@
       "isCoreTerm": false,
       "mentionsByBook": {
         "book-when-authority-is-misread": 1,
+        "book-when-interpretation-no-longer-matters": 3,
         "book-when-moral-seriousness-scales": 1
       }
     },
@@ -1656,9 +3076,12 @@
       "id": "concept-momentum",
       "isCoreTerm": false,
       "mentionsByBook": {
+        "book-after-certainty": 1,
         "book-coupling": 1,
         "book-how-serious-systems-learn": 14,
         "book-when-authority-outlives-accountability": 1,
+        "book-when-incentives-become-the-moral-language": 1,
+        "book-when-interpretation-no-longer-matters": 2,
         "book-when-moral-seriousness-scales": 8,
         "book-when-others-look-to-you-v1": 3,
         "book-when-others-look-to-you-v2": 2
@@ -1690,7 +3113,9 @@
       "isCoreTerm": false,
       "mentionsByBook": {
         "book-how-serious-systems-learn": 1,
+        "book-the-economy-we-dont-experience": 1,
         "book-when-authority-outlives-accountability": 1,
+        "book-when-interpretation-no-longer-matters": 2,
         "book-when-moral-seriousness-scales": 4,
         "book-when-others-look-to-you-v1": 2,
         "book-when-others-look-to-you-v2": 1
@@ -1712,16 +3137,69 @@
     {
       "slug": "proximity",
       "title": "Proximity",
-      "shortDefinition": "relational nearness to consequence",
+      "shortDefinition": "Proximity is the relational nearness\u2014shared memory, kinship, repetition, and immediate feedback\u2014that lets small groups regulate behavior before scale breaks it. When proximity weakens, moral coordination must be simplified, standardized, or stored in stone, scroll, and archive.",
       "termKind": "supporting",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "small groups regulate behavior through familiarity and shared memory",
+        "deviations are noticed quickly when authority is personal",
+        "kinship and repetition weaken as scale grows",
+        "oral tradition holds before writing preserves across absence"
+      ],
+      "questions": [
+        "What nearness to consequence is being lost here?",
+        "Where did proximity once carry moral regulation?",
+        "What replaces it when strangers must coordinate?"
+      ],
+      "counterbalances": [
+        "notice what proximity solved before celebrating scale",
+        "avoid nostalgia for constraint without naming its costs",
+        "watch storage in matter when presence fails"
+      ],
+      "manifestations": {
+        "politics": [
+          "elders decide sluice disputes because the season will not wait",
+          "feudal homage is sworn with hands on relic or hilt"
+        ],
+        "organizations": [
+          "temple queues check marked jars against ledger marks"
+        ],
+        "family": [
+          "foraging bands cannot delay sharing decisions until argument finishes"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "proximity carries feedback, memory, and immediate accountability",
+          "moral coordination depends on who one knows"
+        ],
+        "intensificationSignals": [
+          "proximity and repetition thin under population density",
+          "Axial ethics must travel when place becomes unstable"
+        ],
+        "failureModes": [
+          "proximity is assumed lost while inherited tools resist revision",
+          "strangers coordinate through files without relational grounding"
+        ],
+        "restorationPaths": [
+          "ask what proximity made recognizable before abstraction",
+          "recognize portable ethics as response to lost nearness"
+        ]
+      },
       "id": "concept-proximity",
       "isCoreTerm": false,
       "mentionsByBook": {
+        "book-after-certainty": 1,
+        "book-before-certainty-arrives": 3,
         "book-coupling": 6,
+        "book-when-accountability-no-longer-expires": 2,
         "book-when-authority-outlives-accountability": 4,
+        "book-when-incentives-become-the-moral-language": 1,
+        "book-when-interpretation-no-longer-matters": 2,
         "book-when-moral-seriousness-scales": 19,
         "book-when-others-look-to-you-v2": 3
       }
@@ -1753,7 +3231,14 @@
       "id": "concept-renewal",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-when-authority-outlives-accountability": 3,
+        "book-after-certainty": 3,
+        "book-before-certainty-arrives": 3,
+        "book-how-meaning-moves": 1,
+        "book-the-discipline-of-uncertainty": 2,
+        "book-the-economy-we-dont-experience": 4,
+        "book-when-accountability-no-longer-expires": 23,
+        "book-when-authority-outlives-accountability": 19,
+        "book-when-interpretation-no-longer-matters": 1,
         "book-when-moral-seriousness-scales": 2,
         "book-when-others-look-to-you-v1": 41,
         "book-when-others-look-to-you-v2": 2
@@ -1767,8 +3252,46 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-coupling"
+        "book-after-certainty",
+        "book-coupling",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "responsibility collapses into futility when control is absent",
+        "innocence offers relief from participation at scale",
+        "symbolic gestures stand in for sustained attention"
+      ],
+      "questions": [
+        "Where does answerability remain without control?",
+        "What participation continues through rules we normalized?",
+        "When is innocence escape rather than blamelessness?"
+      ],
+      "counterbalances": [
+        "stay responsive to effects not only intentions",
+        "narrow responsibility to contact you can still reach",
+        "refuse to let abstraction replace accountability"
+      ],
+      "manifestations": {
+        "leadership": [
+          "leaders answer for permissions and precedents left behind"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "responsibility is confused with mastery",
+          "people want care to visibly matter"
+        ],
+        "intensificationSignals": [
+          "harm persists while responsibility becomes optional",
+          "distance is justified when systems feel opaque"
+        ],
+        "failureModes": [
+          "responsibility is abandoned because it cannot guarantee outcomes"
+        ],
+        "restorationPaths": [
+          "practice responsibility without control at human scale"
+        ]
+      },
       "id": "concept-responsibility",
       "isCoreTerm": false
     },
@@ -1783,6 +3306,7 @@
       "id": "concept-reversibility",
       "isCoreTerm": false,
       "mentionsByBook": {
+        "book-after-certainty": 1,
         "book-how-serious-systems-learn": 10,
         "book-when-authority-outlives-accountability": 1
       }
@@ -1808,20 +3332,66 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-coupling"
+        "book-after-certainty",
+        "book-coupling",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "understanding expands while judgment remains unsettled",
+        "feedback slows and consequences are harder to trace",
+        "moral life is described as condition of scale not personal failure"
+      ],
+      "questions": [
+        "What changes when no one sees the whole picture?",
+        "Where is scale eroding ability to see people?",
+        "What practices still work at human scale?"
+      ],
+      "counterbalances": [
+        "narrow responsibility to contact that remains",
+        "read exceptions when aggregates look fine",
+        "refuse to let scale justify disengagement"
+      ],
+      "manifestations": {
+        "organizations": [
+          "systems operate on aggregates not particulars"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "scale still promises coordination through tools"
+        ],
+        "intensificationSignals": [
+          "stabilizers carry more weight than they can sustain",
+          "distance hides consequence"
+        ],
+        "failureModes": [
+          "scale justifies innocence and abstraction"
+        ],
+        "restorationPaths": [
+          "practice staying human at scale",
+          "contract moral life to reachable contact"
+        ]
+      },
       "id": "concept-scale",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-coupling": 47,
-        "book-how-meaning-moves": 7,
+        "book-after-certainty": 65,
+        "book-before-certainty-arrives": 34,
+        "book-coupling": 125,
+        "book-how-meaning-moves": 12,
         "book-how-serious-systems-learn": 10,
+        "book-the-discipline-of-uncertainty": 6,
+        "book-the-economy-we-dont-experience": 10,
         "book-velorum": 1,
+        "book-when-accountability-no-longer-expires": 13,
         "book-when-authority-is-misread": 48,
-        "book-when-authority-outlives-accountability": 36,
+        "book-when-authority-outlives-accountability": 51,
+        "book-when-incentives-become-the-moral-language": 16,
+        "book-when-interpretation-no-longer-matters": 14,
         "book-when-moral-seriousness-scales": 50,
         "book-when-others-look-to-you-v1": 49,
-        "book-when-others-look-to-you-v2": 3
+        "book-when-others-look-to-you-v2": 3,
+        "book-why-collaboration-is-so-hard": 1
       }
     },
     {
@@ -1847,7 +3417,45 @@
         "concept-certainty"
       ],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-after-certainty",
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "more information no longer restores stability of judgment",
+        "revision threatens coherence, authority, and emotional stability together",
+        "alignment is pursued while understanding fragments"
+      ],
+      "questions": [
+        "What stability are we protecting\u2014coordination or closure?",
+        "Where does emotional stability purchase frozen judgment?",
+        "What remains unsettled while analysis continues?"
+      ],
+      "counterbalances": [
+        "tolerate unsettled judgment without forcing false calm",
+        "separate coordination from epistemic closure",
+        "practice discipline of not knowing"
+      ],
+      "manifestations": {
+        "leadership": [
+          "rooms demand calm narratives while harm continues"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "stability still feels like moral relief"
+        ],
+        "intensificationSignals": [
+          "stability is bought by stopping revision",
+          "certainty is performed to calm rooms"
+        ],
+        "failureModes": [
+          "stability disguises ongoing harm"
+        ],
+        "restorationPaths": [
+          "accept clarity without closure"
+        ]
+      },
       "id": "concept-stability",
       "isCoreTerm": false
     },
@@ -1859,8 +3467,45 @@
       "relatedConcepts": [],
       "relatedPatterns": [],
       "relatedBooks": [
-        "book-coupling"
+        "book-after-certainty",
+        "book-coupling",
+        "book-before-certainty-arrives"
       ],
+      "recognitionSignals": [
+        "people expect a system, program, or fix",
+        "the book refuses to offer a new system of belief",
+        "harm is attributed to the system to avoid choosers"
+      ],
+      "questions": [
+        "Are we waiting for a system instead of practicing posture?",
+        "What remains when systems cannot become humane?",
+        "Where are we using system language to end participation?"
+      ],
+      "counterbalances": [
+        "practice capacities not programs",
+        "refuse system fixes as substitute for judgment",
+        "stay answerable inside systems you did not design"
+      ],
+      "manifestations": {
+        "organizations": [
+          "transformation roadmaps replace posture"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "system thinking promises management"
+        ],
+        "intensificationSignals": [
+          "system narratives explain away participation",
+          "fixes are demanded at scale"
+        ],
+        "failureModes": [
+          "systems excuse disengagement"
+        ],
+        "restorationPaths": [
+          "orient without a system to sell"
+        ]
+      },
       "id": "concept-system",
       "isCoreTerm": false
     },
@@ -1888,12 +3533,15 @@
       "id": "concept-thinking",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-coupling": 5,
+        "book-before-certainty-arrives": 2,
+        "book-coupling": 17,
         "book-curiosity-before-certainty": 7,
         "book-how-meaning-moves": 13,
         "book-how-serious-systems-learn": 13,
+        "book-the-discipline-of-uncertainty": 1,
         "book-velorum": 4,
         "book-when-authority-outlives-accountability": 1,
+        "book-when-interpretation-no-longer-matters": 1,
         "book-when-moral-seriousness-scales": 9,
         "book-when-others-look-to-you-v2": 1
       }
@@ -1909,32 +3557,90 @@
       "id": "concept-throughput",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-coupling": 5,
+        "book-coupling": 14,
         "book-how-meaning-moves": 1,
         "book-how-serious-systems-learn": 12,
-        "book-when-others-look-to-you-v1": 2
+        "book-when-incentives-become-the-moral-language": 1,
+        "book-when-others-look-to-you-v1": 2,
+        "book-why-collaboration-is-so-hard": 2
       }
     },
     {
       "slug": "uncertainty",
       "title": "Uncertainty",
-      "shortDefinition": "unresolved/revisable coordination state",
+      "shortDefinition": "Uncertainty names what moral and social systems are built to reduce\u2014fragmented lives, broken coordination, intolerable ambiguity\u2014before compression and stabilization produce answers that feel obvious.",
       "termKind": "core",
       "relatedConcepts": [],
       "relatedPatterns": [],
-      "relatedBooks": [],
+      "relatedBooks": [
+        "book-before-certainty-arrives"
+      ],
+      "recognitionSignals": [
+        "coordination breaks down before truth is settled",
+        "disagreement becomes costly faster than explanation can travel",
+        "strangers must act together without shared context",
+        "instability becomes intolerable before clarity arrives"
+      ],
+      "questions": [
+        "What uncertainty is moral life trying to reduce here?",
+        "Is ambiguity dangerous because people are less capable, or because failure now scales?",
+        "What would hold if interpretation stayed open another season?"
+      ],
+      "counterbalances": [
+        "do not treat uncertainty as moral advancement by default",
+        "distinguish openness from breakdown",
+        "watch whether compression follows instability"
+      ],
+      "manifestations": {
+        "politics": [
+          "post-plague villages argue over obligation while fields lie untilled",
+          "confessional boundaries multiply while trade rewires obligation"
+        ],
+        "organizations": [
+          "oral tradition fractures as authority stretches across distance"
+        ],
+        "family": [
+          "failed hunts force the question of who will still choose to stay"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "material and existential risk stays visibly high",
+          "hesitation carries immediate cost"
+        ],
+        "intensificationSignals": [
+          "uncertainty at scale follows imperial or institutional collapse",
+          "exposure widens faster than shared meaning can absorb"
+        ],
+        "failureModes": [
+          "uncertainty is mistaken for freedom after breakdown",
+          "systems demand certainty past the point of fit"
+        ],
+        "restorationPaths": [
+          "name the pressure uncertainty is responding to",
+          "ask what coordination problem certainty is solving"
+        ]
+      },
       "id": "concept-uncertainty",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-coupling": 3,
+        "book-after-certainty": 41,
+        "book-before-certainty-arrives": 12,
+        "book-coupling": 5,
         "book-curiosity-before-certainty": 9,
-        "book-how-meaning-moves": 21,
+        "book-how-meaning-moves": 25,
         "book-how-serious-systems-learn": 46,
+        "book-the-discipline-of-uncertainty": 32,
+        "book-the-economy-we-dont-experience": 4,
+        "book-when-accountability-no-longer-expires": 12,
         "book-when-authority-is-misread": 7,
-        "book-when-authority-outlives-accountability": 2,
+        "book-when-authority-outlives-accountability": 6,
+        "book-when-incentives-become-the-moral-language": 2,
+        "book-when-interpretation-no-longer-matters": 5,
         "book-when-moral-seriousness-scales": 1,
         "book-when-others-look-to-you-v1": 6,
-        "book-when-others-look-to-you-v2": 6
+        "book-when-others-look-to-you-v2": 6,
+        "book-why-collaboration-is-so-hard": 19
       }
     },
     {
@@ -1965,6 +3671,82 @@
     }
   ],
   "patterns": [
+    {
+      "id": "pattern-admiration-becomes-insulation",
+      "slug": "admiration-becomes-insulation",
+      "title": "Admiration Becomes Insulation",
+      "summary": "Admiration enables trust, imitation, and moral aspiration toward people who seem to carry more than their share of complexity.\n\nHeroic narratives stabilize; contradiction becomes hard to absorb without collapsing the story.\n\n- Harm is reframed as tradeoff\n- Context expands selectively around the admired figure\n- Accountability weakens to preserve narrative coherence\n- Scrutiny feels like betrayal of belonging\n\nThe admired person is protected less by trust than by narrative attachment.\n\nA leader's harmful call is debated as \"what the role required\" while proportionate inquiry is treated as disloyalty.",
+      "setup": "Admiration enables trust, imitation, and moral aspiration toward people who seem to carry more than their share of complexity.",
+      "problem": "Heroic narratives stabilize; contradiction becomes hard to absorb without collapsing the story.",
+      "forces": [
+        "Harm is reframed as tradeoff",
+        "Context expands selectively around the admired figure",
+        "Accountability weakens to preserve narrative coherence",
+        "Scrutiny feels like betrayal of belonging"
+      ],
+      "observation": "The admired person is protected less by trust than by narrative attachment.",
+      "example": "A leader's harmful call is debated as \"what the role required\" while proportionate inquiry is treated as disloyalty.",
+      "relatedConcepts": [
+        "concept-legitimacy",
+        "concept-authority",
+        "concept-accountability"
+      ],
+      "relatedPatterns": [
+        "pattern-scrutiny-preserves-trust",
+        "pattern-blame-compresses-complexity"
+      ],
+      "relatedBooks": [
+        "book-after-certainty"
+      ],
+      "relatedSources": [],
+      "recognitionSignals": [
+        "contradictory details are adapted into a purer villain and victim",
+        "the thread speeds up rather than slowing for uneven facts",
+        "harm around a heroic figure is reframed as tradeoff or necessity",
+        "questioning the sorting risks sounding disloyal to the harm"
+      ],
+      "questions": [
+        "What detail would reopen the story we are protecting?",
+        "Who benefits when admiration forecloses proportionate inquiry?",
+        "Where is trust insulation rather than trust?"
+      ],
+      "counterbalances": [
+        "ask proportionate questions without recasting heroes as villains",
+        "slow the thread when facts do not fit the moral sorting",
+        "keep legitimacy open to revision without cynicism"
+      ],
+      "manifestations": {
+        "leadership": [
+          "boards interpret harm around executives as necessary tradeoffs",
+          "contradiction near a leader is treated as disloyalty"
+        ],
+        "organizations": [
+          "comment threads reward emotionally complete narratives",
+          "whistle paths are framed as betraying the harm itself"
+        ],
+        "politics": [
+          "public moral sorting outruns verification"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "the story arrives already sorted into hero and villain",
+          "admiration attaches to a coherent moral narrative"
+        ],
+        "intensificationSignals": [
+          "outrage spreads faster than verification",
+          "information threatening the story feels destabilizing"
+        ],
+        "failureModes": [
+          "the admired person is protected by audience reluctance",
+          "accountability weakens to preserve coherence"
+        ],
+        "restorationPaths": [
+          "practice scrutiny that preserves trust",
+          "replace archetypes with attention to effects"
+        ]
+      }
+    },
     {
       "id": "pattern-attention-finds-a-focus",
       "slug": "attention-finds-a-focus",
@@ -2037,6 +3819,152 @@
       "relatedSources": []
     },
     {
+      "id": "pattern-attention-restores-contact",
+      "slug": "attention-restores-contact",
+      "title": "Attention Restores Contact",
+      "summary": "Scale and abstraction pull moral life away from particular harms, people, and tradeoffs that still exist somewhere.\n\nBlame and metrics average consequence until distance feels like innocence.\n\n- Abstraction rewards summaries over cases\n- Distance is institutionally produced\n- Contact is slower than closure\n- Visibility substitutes for responsiveness\n\nAttention reintroduces consequence where abstraction would conceal it\u2014much of staying human at scale is this discipline repeated.\n\nA review names affected people and lived outcomes, not only the accountable role on the org chart.",
+      "setup": "Scale and abstraction pull moral life away from particular harms, people, and tradeoffs that still exist somewhere.",
+      "problem": "Blame and metrics average consequence until distance feels like innocence.",
+      "forces": [
+        "Abstraction rewards summaries over cases",
+        "Distance is institutionally produced",
+        "Contact is slower than closure",
+        "Visibility substitutes for responsiveness"
+      ],
+      "observation": "Attention reintroduces consequence where abstraction would conceal it\u2014much of staying human at scale is this discipline repeated.",
+      "example": "A review names affected people and lived outcomes, not only the accountable role on the org chart.",
+      "relatedConcepts": [
+        "concept-harm",
+        "concept-scale",
+        "concept-abstraction"
+      ],
+      "relatedPatterns": [
+        "pattern-blame-compresses-complexity",
+        "pattern-responsibility-persists-beyond-control"
+      ],
+      "relatedBooks": [
+        "book-after-certainty"
+      ],
+      "relatedSources": [],
+      "recognitionSignals": [
+        "aggregate dashboards stay green while exception clusters hide harm",
+        "people become metrics, risks, or roles instead of particulars",
+        "distance hides consequence until someone looks sideways",
+        "smooth operation is treated as equivalent to legitimacy"
+      ],
+      "questions": [
+        "What did the exception report notice that averages concealed?",
+        "Who is still a particular person inside this category?",
+        "Where has abstraction stopped feeling partial?"
+      ],
+      "counterbalances": [
+        "read exception reports when headlines look fine",
+        "write plain language without hero or dissenter roles",
+        "ask questions that slow meetings by ten minutes"
+      ],
+      "manifestations": {
+        "leadership": [
+          "quarterly metrics hide clusters that do not move the average",
+          "rollouts proceed while exceptions accumulate quietly"
+        ],
+        "organizations": [
+          "complaints are withdrawn without changing the workflow",
+          "green dashboards end investigation"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "systems depend on aggregation and standardization",
+          "abstraction is recognized as structurally necessary"
+        ],
+        "intensificationSignals": [
+          "harm becomes statistical and suffering harder to notice",
+          "accountability thins as decisions move from effects"
+        ],
+        "failureModes": [
+          "abstraction feels sufficient instead of partial",
+          "continuity disguises harm at scale"
+        ],
+        "restorationPaths": [
+          "document patterns in plain language",
+          "stay close to what leverage actually reaches"
+        ]
+      }
+    },
+    {
+      "id": "pattern-blame-compresses-complexity",
+      "slug": "blame-compresses-complexity",
+      "title": "Blame Compresses Complexity",
+      "summary": "Blame can clarify responsibility and acknowledge harm when systems have produced injury someone must answer for.\n\nVillain narratives simplify systems into individuals; structural incentives and shared participation disappear.\n\n- Emotional resolution arrives faster than understanding\n- Learning narrows once a face is assigned\n- Complexity is traded for moral closure\n- Scale is experienced as someone else's failure\n\nBlame offers relief faster than contact with how the field actually produced the outcome.\n\nAfter a failure, the organization fires one manager while the incentives that shaped everyone's choices stay unnamed.",
+      "setup": "Blame can clarify responsibility and acknowledge harm when systems have produced injury someone must answer for.",
+      "problem": "Villain narratives simplify systems into individuals; structural incentives and shared participation disappear.",
+      "forces": [
+        "Emotional resolution arrives faster than understanding",
+        "Learning narrows once a face is assigned",
+        "Complexity is traded for moral closure",
+        "Scale is experienced as someone else's failure"
+      ],
+      "observation": "Blame offers relief faster than contact with how the field actually produced the outcome.",
+      "example": "After a failure, the organization fires one manager while the incentives that shaped everyone's choices stay unnamed.",
+      "relatedConcepts": [
+        "concept-accountability",
+        "concept-harm",
+        "concept-scale"
+      ],
+      "relatedPatterns": [
+        "pattern-attention-restores-contact",
+        "pattern-admiration-becomes-insulation"
+      ],
+      "relatedBooks": [
+        "book-after-certainty"
+      ],
+      "relatedSources": [],
+      "recognitionSignals": [
+        "the moral work feels complete once blame has a face",
+        "systems and incentives disappear after a villain is named",
+        "ordinary participation is no longer examined",
+        "outrage offers relief faster than structural learning"
+      ],
+      "questions": [
+        "What incentives remain visible after we name the villain?",
+        "How might similar dynamics operate closer to home?",
+        "What learning is lost when harm has a recognizable face?"
+      ],
+      "counterbalances": [
+        "map structural participation before closing the story",
+        "practice attention to effects instead of personalities",
+        "keep accountability without narrative loyalty"
+      ],
+      "manifestations": {
+        "leadership": [
+          "executive dismissal ends the moral inquiry",
+          "scapegoating replaces incentive review"
+        ],
+        "organizations": [
+          "compliance closes when one role is sanctioned",
+          "training blames attitude instead of structure"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "harm attaches quickly to one careless actor and one institution",
+          "moral energy concentrates through identification"
+        ],
+        "intensificationSignals": [
+          "the thread adapts facts to preserve the sorting",
+          "complexity collapses around a stable target"
+        ],
+        "failureModes": [
+          "wrongdoing is treated as exceptional not systemic",
+          "learning narrows once outrage has a target"
+        ],
+        "restorationPaths": [
+          "replace heroes and villains with patterns",
+          "restore contact with consequences and limits"
+        ]
+      }
+    },
+    {
       "id": "pattern-contact-keeps-the-read-open",
       "slug": "contact-keeps-the-read-open",
       "title": "Contact Keeps the Read Open",
@@ -2070,6 +3998,83 @@
         "source-ross-lee-and-andrew-ward-naive-realism-in-everyday-life",
         "source-ross-lee-and-richard-nisbett-the-person-and-the-situation"
       ]
+    },
+    {
+      "id": "pattern-correctness-hardens-into-identity",
+      "slug": "correctness-hardens-into-identity",
+      "title": "Correctness Hardens Into Identity",
+      "summary": "Correctness begins as a tool for coordination\u2014aligning on evidence, reality, and shared understanding under uncertainty.\n\nUnder pressure, being right matters less for understanding than for preserving coherence and belonging; revision starts feeling like betrayal.\n\n- Disagreement is treated as moral threat\n- Identity fuses with the winning frame\n- Revision threatens group coherence\n- Finality relieves the discomfort of not knowing\n\nThe danger is not error alone; it is the inability to remain revisable.\n\nA team treats a challenged forecast as disloyalty rather than as an update to shared reality.",
+      "setup": "Correctness begins as a tool for coordination\u2014aligning on evidence, reality, and shared understanding under uncertainty.",
+      "problem": "Under pressure, being right matters less for understanding than for preserving coherence and belonging; revision starts feeling like betrayal.",
+      "forces": [
+        "Disagreement is treated as moral threat",
+        "Identity fuses with the winning frame",
+        "Revision threatens group coherence",
+        "Finality relieves the discomfort of not knowing"
+      ],
+      "observation": "The danger is not error alone; it is the inability to remain revisable.",
+      "example": "A team treats a challenged forecast as disloyalty rather than as an update to shared reality.",
+      "relatedConcepts": [
+        "concept-judgment",
+        "concept-correction",
+        "concept-legitimacy"
+      ],
+      "relatedPatterns": [
+        "pattern-revisability-preserves-judgment",
+        "pattern-finality-compensates-for-uncertainty"
+      ],
+      "relatedBooks": [
+        "book-after-certainty"
+      ],
+      "relatedSources": [],
+      "recognitionSignals": [
+        "disagreement is felt approaching the point where people defend instead of revise",
+        "the stronger case on paper goes unpressed to keep the room from escalating",
+        "every correction spawns new audiences and interpretations instead of convergence",
+        "being right begins signaling seriousness more than shared reality"
+      ],
+      "questions": [
+        "When would pressing the stronger case cost more than it would save?",
+        "Where is letting silence stay in the room serving revisability rather than avoidance?",
+        "What would change if correctness were a tool again instead of a moral achievement?"
+      ],
+      "counterbalances": [
+        "leave room for a smaller question instead of winning the argument",
+        "treat the meeting ending without resolution as success, not failure",
+        "separate being right from belonging in the room"
+      ],
+      "manifestations": {
+        "leadership": [
+          "strategy meetings reward the strongest case on paper over contact",
+          "executives treat challenged forecasts as attacks on seriousness"
+        ],
+        "organizations": [
+          "clarification campaigns multiply frames instead of settling them",
+          "consensus is prized over updating shared reality"
+        ],
+        "politics": [
+          "public debate rewards certainty displays over revisability"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "correctness still feels like safety and justified discipline",
+          "evidence and study are invoked before scale fragments the picture"
+        ],
+        "intensificationSignals": [
+          "confidence escalates while understanding thins",
+          "competing certainties harden into moral worlds",
+          "disagreement starts feeling irresponsible"
+        ],
+        "failureModes": [
+          "revision feels like betrayal to the group",
+          "no shared picture can be revised collectively"
+        ],
+        "restorationPaths": [
+          "practice judgment without finality in the same conversation",
+          "name partial understanding before acting"
+        ]
+      }
     },
     {
       "id": "pattern-disagreement-is-suppressed",
@@ -2221,7 +4226,122 @@
         "source-cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus",
         "source-hirschman-albert-o-exit-voice-and-loyalty"
       ],
-      "mediumArticleUrl": "https://medium.com/@steffensen.kevin/exceptions-are-forever-1299b99da371"
+      "mediumArticleUrl": "https://medium.com/@steffensen.kevin/exceptions-are-forever-1299b99da371",
+      "recognitionSignals": [
+        "leaders say \"just this once\" about measures that remain years later",
+        "training materials teach the workaround, not the original rule",
+        "audits count exceptions but rarely retire them"
+      ],
+      "questions": [
+        "What would we stop doing if we believed the emergency had ended?",
+        "Who benefits from keeping the exception invisible to newcomers?"
+      ],
+      "counterbalances": [
+        "publish sunset dates for each active exception",
+        "restore a correction loop that cannot be bypassed by urgency"
+      ],
+      "manifestations": {
+        "software": [
+          "hotfix paths become the default deploy route",
+          "feature flags never flip back after incidents"
+        ],
+        "leadership": [
+          "crisis committees gain permanent authority"
+        ],
+        "organizations": [
+          "compliance stores exceptions instead of resolving them"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "urgency justifies skipping normal limits",
+          "short-term wins reinforce the exception"
+        ],
+        "intensificationSignals": [
+          "exception lists become standing agenda items",
+          "metrics shift to reward workaround compliance"
+        ],
+        "failureModes": [
+          "rollback is treated as more expensive than drift"
+        ],
+        "restorationPaths": [
+          "batch-retire exceptions with named accountability"
+        ]
+      }
+    },
+    {
+      "id": "pattern-explanation-replaces-response",
+      "slug": "explanation-replaces-response",
+      "title": "Explanation Replaces Response",
+      "summary": "Explanation helps people understand events, reduce confusion, and name causes when situations outrun intuition.\n\nAnalysis expands while action stalls; understanding becomes satisfying enough to substitute for responsibility.\n\n- More context feels like moral progress\n- Meetings reward comprehension over commitment\n- Harm is reorganized faster than it is reduced\n- Urgency is discharged into interpretation\n\nAt its limit, explanation reorganizes harm rather than reducing it.\n\nA fifth working session adds history and incentives while the decision everyone already senses stays unmade.",
+      "setup": "Explanation helps people understand events, reduce confusion, and name causes when situations outrun intuition.",
+      "problem": "Analysis expands while action stalls; understanding becomes satisfying enough to substitute for responsibility.",
+      "forces": [
+        "More context feels like moral progress",
+        "Meetings reward comprehension over commitment",
+        "Harm is reorganized faster than it is reduced",
+        "Urgency is discharged into interpretation"
+      ],
+      "observation": "At its limit, explanation reorganizes harm rather than reducing it.",
+      "example": "A fifth working session adds history and incentives while the decision everyone already senses stays unmade.",
+      "relatedConcepts": [
+        "concept-responsibility",
+        "concept-abstraction",
+        "concept-judgment"
+      ],
+      "relatedPatterns": [
+        "pattern-responsibility-persists-beyond-control",
+        "pattern-speech-escalates-faster-than-meaning"
+      ],
+      "relatedBooks": [
+        "book-after-certainty"
+      ],
+      "relatedSources": [],
+      "recognitionSignals": [
+        "the postmortem is praised while the same delays continue outside",
+        "briefings make harm legible without making it smaller",
+        "organizations narrate constraints instead of naming tradeoffs",
+        "additional analysis is requested when a decision is already sensed"
+      ],
+      "questions": [
+        "Did the briefing reduce suffering or reorganize it?",
+        "What response is required now that the timeline is understood?",
+        "When has understanding become emotionally sufficient without changing effects?"
+      ],
+      "counterbalances": [
+        "pair every analysis cycle with a named decision and owner",
+        "stop when harm outside the room is unchanged",
+        "ask what this requires of us now, not only why it happened"
+      ],
+      "manifestations": {
+        "leadership": [
+          "leaders explain outcomes instead of addressing effects",
+          "lessons-learned rituals complete without operational change"
+        ],
+        "organizations": [
+          "root-cause language substitutes for remedy",
+          "professional care replaces contact with waiting parties"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "explanation arrives immediately after harm and feels like care",
+          "people nod through thoughtful questions and take notes"
+        ],
+        "intensificationSignals": [
+          "processes grow sophisticated while effects stay untouched",
+          "every answer opens another ambiguity",
+          "urgency discharges into interpretation"
+        ],
+        "failureModes": [
+          "explanation occupies the space where response would occur",
+          "the best postmortem becomes the moral finish line"
+        ],
+        "restorationPaths": [
+          "let explanation inform judgment then stop",
+          "practice responsibility as responsiveness to effects"
+        ]
+      }
     },
     {
       "id": "pattern-feedback-drives-change",
@@ -2262,6 +4382,79 @@
         "height": 669,
         "url": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/semantic/media/patterns/feedback-drives-change.png",
         "alt": "Infographic summarizing how feedback changes direction when new facts or risks appear."
+      }
+    },
+    {
+      "id": "pattern-finality-compensates-for-uncertainty",
+      "slug": "finality-compensates-for-uncertainty",
+      "title": "Finality Compensates for Uncertainty",
+      "summary": "When uncertainty feels intolerable, people reach for closure\u2014harsh judgment, confident speech, or premature alignment.\n\nSeverity and certainty provide emotional relief where epistemic stability no longer exists.\n\n- Ambiguity feels morally unstable\n- Confidence signals competence\n- Revision is delayed to preserve calm\n- Groups reward decisive tone over accurate scope\n\nFinality provides relief where certainty no longer exists; insecurity often sits underneath severity.\n\nA leader announces an irreversible policy so the room can stop inhabiting doubt together.",
+      "setup": "When uncertainty feels intolerable, people reach for closure\u2014harsh judgment, confident speech, or premature alignment.",
+      "problem": "Severity and certainty provide emotional relief where epistemic stability no longer exists.",
+      "forces": [
+        "Ambiguity feels morally unstable",
+        "Confidence signals competence",
+        "Revision is delayed to preserve calm",
+        "Groups reward decisive tone over accurate scope"
+      ],
+      "observation": "Finality provides relief where certainty no longer exists; insecurity often sits underneath severity.",
+      "example": "A leader announces an irreversible policy so the room can stop inhabiting doubt together.",
+      "relatedConcepts": [
+        "concept-judgment",
+        "concept-stability",
+        "concept-constraints"
+      ],
+      "relatedPatterns": [
+        "pattern-correctness-hardens-into-identity",
+        "pattern-speech-escalates-faster-than-meaning"
+      ],
+      "relatedBooks": [
+        "book-after-certainty"
+      ],
+      "relatedSources": [],
+      "recognitionSignals": [
+        "judgment is forceful when people need the case to feel closed",
+        "severity arrives where uncertainty underneath is uncomfortable",
+        "ambiguity is treated as moral instability",
+        "certainty is performed to justify closure"
+      ],
+      "questions": [
+        "What uncertainty are we closing too early?",
+        "Where is harshness compensating for insecurity?",
+        "What would provisional judgment look like here?"
+      ],
+      "counterbalances": [
+        "name remaining uncertainty alongside the decision",
+        "separate seriousness from permanent settlement",
+        "practice revisability after acting"
+      ],
+      "manifestations": {
+        "leadership": [
+          "zero-tolerance policies follow ambiguous harm",
+          "executives announce irreversible cuts to calm rooms"
+        ],
+        "organizations": [
+          "investigations close when anxiety peaks",
+          "certainty artifacts are demanded for compliance"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "judgment is expected to end the question",
+          "withholding judgment is treated as compassion"
+        ],
+        "intensificationSignals": [
+          "people insist the matter is settled to relieve anxiety",
+          "revision threatens coherence and authority together"
+        ],
+        "failureModes": [
+          "finality forecloses warranted revision",
+          "emotional stability is purchased by freezing judgment"
+        ],
+        "restorationPaths": [
+          "act under partial understanding with review dates",
+          "accept no clean moment of moral completion"
+        ]
       }
     },
     {
@@ -2664,6 +4857,351 @@
         "source-march-james-g-and-herbert-a-simon-organizations",
         "source-ross-lee-and-andrew-ward-naive-realism-in-everyday-life"
       ]
+    },
+    {
+      "id": "pattern-responsibility-persists-beyond-control",
+      "slug": "responsibility-persists-beyond-control",
+      "title": "Responsibility Persists Beyond Control",
+      "summary": "Outcomes often exceed personal influence, yet participation, attention, and response still matter where contact exists.\n\nInnocence becomes an escape from participation when systems feel too large to steer.\n\n- Scale makes withdrawal feel rational\n- Formal authority ends while influence continues\n- Care is mistaken for omnipotence\n- Answerability is confused with blame\n\nCare survives after control disappears; responsibility is not the same as mastery.\n\nAn executive who has left a role still shapes what others do through permissions and precedents they normalized.",
+      "setup": "Outcomes often exceed personal influence, yet participation, attention, and response still matter where contact exists.",
+      "problem": "Innocence becomes an escape from participation when systems feel too large to steer.",
+      "forces": [
+        "Scale makes withdrawal feel rational",
+        "Formal authority ends while influence continues",
+        "Care is mistaken for omnipotence",
+        "Answerability is confused with blame"
+      ],
+      "observation": "Care survives after control disappears; responsibility is not the same as mastery.",
+      "example": "An executive who has left a role still shapes what others do through permissions and precedents they normalized.",
+      "relatedConcepts": [
+        "concept-responsibility",
+        "concept-agency",
+        "concept-accountability"
+      ],
+      "relatedPatterns": [
+        "pattern-explanation-replaces-response",
+        "pattern-attention-restores-contact"
+      ],
+      "relatedBooks": [
+        "book-after-certainty"
+      ],
+      "relatedSources": [],
+      "recognitionSignals": [
+        "she shows up without pretending agreement restores control",
+        "innocence is attractive when systems feel too large to steer",
+        "people act through rules and permissions others still inherit",
+        "symbolic gestures substitute for sustained attention"
+      ],
+      "questions": [
+        "Where is meaningful contact still possible without control?",
+        "What participation continues after formal authority ends?",
+        "Is this loyalty, avoidance, or answerability without mastery?"
+      ],
+      "counterbalances": [
+        "remain present without pretending outcomes are steerable",
+        "notice effects rather than intentions alone",
+        "refuse innocence as escape from participation"
+      ],
+      "manifestations": {
+        "leadership": [
+          "leaders remain answerable for permissions left ambiguous",
+          "successors inherit normalized exceptions"
+        ],
+        "organizations": [
+          "committees keep authority after the crisis ends",
+          "symbolic statements replace remedy"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "responsibility is assumed to require visible effectiveness",
+          "distance feels justified when influence seems absent"
+        ],
+        "intensificationSignals": [
+          "harm persists while responsibility is treated as optional",
+          "tradeoffs tolerated become precedents others follow"
+        ],
+        "failureModes": [
+          "care is abandoned because it cannot guarantee improvement",
+          "abstraction replaces accountability at scale"
+        ],
+        "restorationPaths": [
+          "narrow responsibility to human-scale contact",
+          "document what you can still affect"
+        ]
+      }
+    },
+    {
+      "id": "pattern-revisability-preserves-judgment",
+      "slug": "revisability-preserves-judgment",
+      "title": "Revisability Preserves Judgment",
+      "summary": "Judgment remains necessary when certainty weakens; people still must weigh tradeoffs and consequences without a final frame to hide inside.\n\nFinality no longer stabilizes judgment, yet paralysis and dogma are both available failures.\n\n- New information threatens prior commitments\n- Groups confuse openness with weakness\n- Revision must be practiced without infinite deferral\n- Coherence pressures compete with contact with reality\n\nRevisability is what prevents judgment from hardening into dogma.\n\nA leader publishes what would change their mind\u2014and acts on the answer when it arrives.",
+      "setup": "Judgment remains necessary when certainty weakens; people still must weigh tradeoffs and consequences without a final frame to hide inside.",
+      "problem": "Finality no longer stabilizes judgment, yet paralysis and dogma are both available failures.",
+      "forces": [
+        "New information threatens prior commitments",
+        "Groups confuse openness with weakness",
+        "Revision must be practiced without infinite deferral",
+        "Coherence pressures compete with contact with reality"
+      ],
+      "observation": "Revisability is what prevents judgment from hardening into dogma.",
+      "example": "A leader publishes what would change their mind\u2014and acts on the answer when it arrives.",
+      "relatedConcepts": [
+        "concept-judgment",
+        "concept-correction",
+        "concept-constraints"
+      ],
+      "relatedPatterns": [
+        "pattern-correctness-hardens-into-identity",
+        "pattern-finality-compensates-for-uncertainty"
+      ],
+      "relatedBooks": [
+        "book-after-certainty"
+      ],
+      "relatedSources": [],
+      "recognitionSignals": [
+        "judgment is described as practice rather than verdict",
+        "revision is framed as accountability, not collapse",
+        "restraint is distinguished from indefinite waiting",
+        "provisional decisions are named under partial understanding"
+      ],
+      "questions": [
+        "What would revision look like if it were expected?",
+        "Where are we using finality to compensate for uncertainty?",
+        "What response is warranted given what we cannot know?"
+      ],
+      "counterbalances": [
+        "act without pretending the matter is finished",
+        "publish what would change your mind",
+        "separate restraint from fear of being wrong"
+      ],
+      "manifestations": {
+        "leadership": [
+          "decisions carry consequences without claiming permanent settlement",
+          "leaders model provisional commitment"
+        ],
+        "organizations": [
+          "reviews are scheduled without punishing updates",
+          "policies include revisability clauses"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "judgment still draws lines and responds to harm",
+          "people fear judgment means harsh final closure"
+        ],
+        "intensificationSignals": [
+          "severity increases when certainty underneath is thin",
+          "waiting for more confidence delays warranted action"
+        ],
+        "failureModes": [
+          "revision threatens identity when judgment depends on finality",
+          "paralysis masquerades as openness"
+        ],
+        "restorationPaths": [
+          "treat new information as part of practice",
+          "accept discomfort of no clean moral completion"
+        ]
+      }
+    },
+    {
+      "id": "pattern-scrutiny-preserves-trust",
+      "slug": "scrutiny-preserves-trust",
+      "title": "Scrutiny Preserves Trust",
+      "summary": "Trust depends on proportionate inquiry, not on insulating admired figures from the questions their power requires.\n\nAdmiration otherwise protects narratives from revision; legitimacy closes when contradiction arrives.\n\n- Inquiry is cast as cynicism\n- Coherence is prized over contact\n- Heroes absorb moral weight the system still distributes\n- Revision threatens belonging\n\nScrutiny keeps legitimacy open without demanding that every admired figure be recast as a villain.\n\nA board asks for evidence and tradeoffs in public, not only reassurance about character.",
+      "setup": "Trust depends on proportionate inquiry, not on insulating admired figures from the questions their power requires.",
+      "problem": "Admiration otherwise protects narratives from revision; legitimacy closes when contradiction arrives.",
+      "forces": [
+        "Inquiry is cast as cynicism",
+        "Coherence is prized over contact",
+        "Heroes absorb moral weight the system still distributes",
+        "Revision threatens belonging"
+      ],
+      "observation": "Scrutiny keeps legitimacy open without demanding that every admired figure be recast as a villain.",
+      "example": "A board asks for evidence and tradeoffs in public, not only reassurance about character.",
+      "relatedConcepts": [
+        "concept-legitimacy",
+        "concept-judgment",
+        "concept-accountability"
+      ],
+      "relatedPatterns": [
+        "pattern-admiration-becomes-insulation",
+        "pattern-revisability-preserves-judgment"
+      ],
+      "relatedBooks": [
+        "book-after-certainty"
+      ],
+      "relatedSources": [],
+      "recognitionSignals": [
+        "admiration turns into reluctance to reopen the story",
+        "proportionate inquiry is cast as cynicism or disloyalty",
+        "trust is confused with insulating the narrative",
+        "legitimacy is questioned without demanding a villain rewrite"
+      ],
+      "questions": [
+        "What question would preserve trust without insulation?",
+        "Where is admiration blocking proportionate inquiry?",
+        "How do we scrutinize without collapsing into sorting?"
+      ],
+      "counterbalances": [
+        "keep admiration open to revision",
+        "ask evidence questions in public forums",
+        "separate trust from narrative attachment"
+      ],
+      "manifestations": {
+        "leadership": [
+          "boards soften questions around character",
+          "audit is welcomed as trust practice not betrayal"
+        ],
+        "organizations": [
+          "ombud paths are exceptional instead of normal",
+          "peer review excludes power holders"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "heroes reassure coordination quickly",
+          "contradiction near admired figures feels expensive"
+        ],
+        "intensificationSignals": [
+          "harm is reframed to preserve coherent admiration",
+          "accountability routes around the heroic story"
+        ],
+        "failureModes": [
+          "trust survives through insulation not inquiry",
+          "revision of the story feels like moral collapse"
+        ],
+        "restorationPaths": [
+          "practice scrutiny as trust maintenance",
+          "reward proportionate questions alongside admiration"
+        ]
+      }
+    },
+    {
+      "id": "pattern-speech-escalates-faster-than-meaning",
+      "slug": "speech-escalates-faster-than-meaning",
+      "title": "Speech Escalates Faster Than Meaning",
+      "summary": "Speech coordinates concern and public life, but at scale language circulates faster than precision can keep up.\n\nWords become signals of allegiance more quickly than vehicles for understanding; nuance collapses under urgency.\n\n- Visibility rewards speed over care\n- Allegiance is read from tone before content\n- Circulation outruns correction\n- Presence is replaced by commentary\n\nCommunication becomes more visible and less precise at the same time; related drifts often follow this pressure.\n\nA statement is shared for what it signals about the speaker before anyone asks what it commits them to do.",
+      "setup": "Speech coordinates concern and public life, but at scale language circulates faster than precision can keep up.",
+      "problem": "Words become signals of allegiance more quickly than vehicles for understanding; nuance collapses under urgency.",
+      "forces": [
+        "Visibility rewards speed over care",
+        "Allegiance is read from tone before content",
+        "Circulation outruns correction",
+        "Presence is replaced by commentary"
+      ],
+      "observation": "Communication becomes more visible and less precise at the same time; related drifts often follow this pressure.",
+      "example": "A statement is shared for what it signals about the speaker before anyone asks what it commits them to do.",
+      "relatedConcepts": [
+        "concept-circulation",
+        "concept-legitimacy",
+        "concept-scale"
+      ],
+      "relatedPatterns": [
+        "pattern-explanation-replaces-response",
+        "pattern-finality-compensates-for-uncertainty"
+      ],
+      "relatedBooks": [
+        "book-after-certainty"
+      ],
+      "relatedSources": [],
+      "recognitionSignals": [
+        "screenshots circulate detached from the full statement",
+        "short fragments become arguments the text never settled",
+        "speaking more increases visibility without increasing clarity",
+        "silence is read as indifference before care is assessed"
+      ],
+      "questions": [
+        "What did the whole statement commit us to\u2014not the fragment?",
+        "When is speech performing visibility instead of reducing harm?",
+        "What quieter care is displaced by drafting another statement?"
+      ],
+      "counterbalances": [
+        "optimize statements for contact with effects not circulation",
+        "choose proportion over persuasion under pressure",
+        "treat legibility as distinct from care"
+      ],
+      "manifestations": {
+        "leadership": [
+          "institutional statements pass through six careful drafts",
+          "inside feels responsible while outside harm sharpens"
+        ],
+        "organizations": [
+          "screenshot culture detaches context",
+          "visibility rewards over proportionate response"
+        ],
+        "politics": [
+          "public fragments outrun full texts"
+        ]
+      },
+      "trajectory": {
+        "earlySignals": [
+          "speech feels morally required when stakes are high",
+          "language promises participation and agency"
+        ],
+        "intensificationSignals": [
+          "nuance collapses and tone hardens",
+          "words signal allegiance faster than understanding"
+        ],
+        "failureModes": [
+          "performative speech displaces quieter care",
+          "new surfaces appear for conflict to organize around"
+        ],
+        "restorationPaths": [
+          "speak with restraint when meaning cannot stay stable",
+          "name responsibility without six drafts of humility"
+        ]
+      }
+    }
+  ],
+  "situations": [
+    {
+      "id": "situation-temporary-fixes-become-permanent",
+      "slug": "temporary-fixes-become-permanent",
+      "title": "Temporary fixes becoming permanent",
+      "summary": "Emergency workarounds and exceptions stop reading as temporary; they become the normal way work gets done.",
+      "activePatterns": [
+        "pattern-exceptions-are-forever"
+      ],
+      "relatedConcepts": [
+        "concept-correction",
+        "concept-erosion",
+        "concept-coordination"
+      ],
+      "relatedBooks": [
+        "book-when-others-look-to-you-v1",
+        "book-coupling"
+      ],
+      "recognitionSignals": [
+        "workarounds outlive the crisis they were created for",
+        "new hires are trained on exceptions, not on the original standard",
+        "rollback plans exist on paper but never get executed"
+      ],
+      "questions": [
+        "Which temporary measures are still in place a year after the emergency ended?",
+        "Who would notice if we restored the pre-crisis standard?"
+      ],
+      "counterbalances": [
+        "schedule explicit sunset dates for exceptions",
+        "restore one visible correction loop leaders cannot bypass"
+      ],
+      "trajectory": {
+        "earlySignals": [
+          "leaders describe a measure as \"just until things calm down\"",
+          "audits flag growing exception lists"
+        ],
+        "intensificationSignals": [
+          "exception requests become routine approval work",
+          "metrics are redefined to match the workaround"
+        ],
+        "failureModes": [
+          "correction is treated as disruption rather than maintenance"
+        ],
+        "restorationPaths": [
+          "retire exceptions in batches with named owners",
+          "pair each exception with a review date and success criterion"
+        ]
+      }
     }
   ],
   "sources": [
