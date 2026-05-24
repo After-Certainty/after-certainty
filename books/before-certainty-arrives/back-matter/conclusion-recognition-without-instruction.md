@@ -13,39 +13,47 @@ Instead, it ends with recognition.
 ### **Certainty, Seen Clearly**
 
 Across these chapters, certainty has been treated neither as truth nor
-as deception, but as a tool—for coordination, stabilization, and
-surviving conditions of constraint, scale, and uncertainty.
+as deception, but as a tool—for coordination, stabilization, and living
+under conditions of constraint, scale, and uncertainty.
 
-Certainty emerges when explanation is too slow, disagreement too costly,
-and coordination too fragile; it compresses meaning, narrows choice, and
-holds behavior steady long enough for societies to endure. In this sense,
-certainty is not opposed to morality so much as one of the ways morality
-becomes possible at all.
+Again and again, certainty appeared where explanation was too slow,
+disagreement too costly, and coordination too fragile to leave
+unsettled. It narrowed interpretation, reduced ambiguity, and held
+behavior steady long enough for societies to endure.
+
+In that sense, certainty is not opposed to morality so much as one of
+the ways moral life becomes possible at all.
+
+It allowed people to continue acting together without renegotiating
+reality each time.
 
 But tools are shaped by conditions, and conditions change.
 
 What this book has shown is not that certainty is wrong, but that it is
-**conditional**—designed for particular pressures, environments, and
-scales of life. When those conditions shift, certainty does not
+**conditional**—formed under particular pressures, environments, and
+scales of life. When those conditions shift, certainty does not simply
 disappear. It persists. It is inherited. It is protected. And
 eventually, it is asked to do work it was never built to sustain.
 
 ### **The Lifespan of Moral Tools**
 
-Moral systems do not fail all at once; they outlive themselves, continuing
-to coordinate long after they stop fitting, retaining authority long after
-they stop persuading, and demanding allegiance long after they stop holding
-meaning steady. This persistence is not corruption so much as inertia.
+Moral systems rarely fail all at once. They outlive themselves,
+continuing to coordinate long after they stop fitting, retaining
+authority long after they stop persuading, demanding allegiance long
+after they stop holding meaning steady.
 
-Certainty lasts because it once worked—and because nothing else yet does.
-Recognizing that requires historical honesty more than condemnation.
+This persistence is not usually corruption so much as inertia.
+
+Certainty lasts because it once worked—and because nothing else yet
+does. Recognizing that requires historical honesty more than
+condemnation.
 
 ### **Why This Book Refuses Instruction**
 
-This book does not answer the question:\
-**“What should we do now?”**
+This book does not answer the question:
+**"What should we do now?"**
 
-Not because the question is unimportant.\
+Not because the question is unimportant.
 But because it does not belong here.
 
 Understanding how certainty arrived does not tell us how to live once
@@ -56,8 +64,8 @@ by itself.
 To pretend otherwise would be to repeat the very pattern this book
 describes: asking inherited tools to do work beyond their design.
 
-This book stops at understanding, at recognition, and deliberately before
-certainty fails.
+This book stops at understanding, at recognition, and deliberately
+before certainty fails.
 
 ### **The Handoff**
 
@@ -72,13 +80,20 @@ enough for life to continue.
 
 The neighbor on hold hears hold music, checks the clock, and wonders
 whether to start dinner before the call comes back. Nothing is resolved.
-Nothing has failed. The week simply continues inside structures that
-still work well enough to be taken for granted.
+Nothing has failed.
+
+The week simply continues inside structures that still work well enough
+to be taken for granted.
 
 That is where the next book begins: not with answers or replacement
-frameworks, but with the question this book deliberately refuses to settle:
+frameworks, but with the question this book deliberately refuses to
+settle:
 
 **How do we live and judge once understanding is no longer enough?**
 
 This book prepares the ground for that question without trying to answer
-it. The restraint is the point—and the ordinary Tuesday is still underway.
+it.
+
+The restraint is the point.
+
+And the ordinary Tuesday is still underway.
