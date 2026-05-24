@@ -1,11 +1,45 @@
 slug: bureaucracy
 title: Bureaucracy
 shortDefinition: Bureaucracy extends permanence into practice—rules replacing discretion,
-  procedures replacing judgment, roles replacing relationships. At industrial scale
-  it functions as moral infrastructure, coordinating strangers through files, stamps,
-  and queues that must still recognize a name long enough for life to continue.
+  procedures replacing judgment, roles replacing relationships. At industrial scale it functions
+  as moral infrastructure, coordinating strangers through files, stamps, and queues that must
+  still recognize a name long enough for life to continue.
 termKind: supporting
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
+recognitionSignals:
+- the room feels like Tuesday before the first form is stamped
+- box seven rather than box four determines whether a lease continues
+- the clerk asks for another copy, another signature, another wait
+- no one feels cruel; no one feels fully responsible either
+questions:
+- What coordination is bureaucracy making repeatable here?
+- Where does procedure replace discernment without announcing itself?
+- Who waits downstairs while charts are updated upstairs?
+counterbalances:
+- notice relief alongside exhaustion at the corrected stamp
+- do not confuse procedural reliability with moral proof
+- follow the file without losing the body
+trajectory:
+  earlySignals:
+  - bureaucracy extends permanence into practice
+  - rules replace discretion as scale grows
+  intensificationSignals:
+  - identity becomes administrable before it is fully felt
+  - compliance replaces discernment across offices
+  failureModes:
+  - bureaucracy coordinates while meaning quietly thins
+  - systems function without anyone tracing harm
+  restorationPaths:
+  - recognize bureaucracy as moral infrastructure before condemning it
+  - name who waits while machinery keeps its appointments
+manifestations:
+  politics:
+  - Han clerks copy edicts into provincial registers
+  - census takers move door to door while conscription rolls are stamped
+  organizations:
+  - housing offices route forms to the next desk while waits continue
+  family:
+  - a bus pass must be revalidated before a child is late for school

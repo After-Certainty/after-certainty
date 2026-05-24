@@ -1,11 +1,45 @@
 slug: distance
 title: Distance
-shortDefinition: Distance marks separation between decision and consequence, action
-  and reflection. As scale grows, distance widens—governors sign orders months before
-  villages learn the cost; files move while bodies receive the consequence; investigators
-  trace causation in rooms far from the wait downstairs.
+shortDefinition: Distance marks separation between decision and consequence, action and reflection.
+  As scale grows, distance widens—governors sign orders months before villages learn the cost;
+  files move while bodies receive the consequence; investigators trace causation in rooms
+  far from the wait downstairs.
 termKind: supporting
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
+recognitionSignals:
+- governors sign orders months before villages learn the cost
+- investigators trace causation in rooms far from the wait
+- the file moves; the body receives the consequence
+- action and reflection no longer meet in the same place
+questions:
+- How far does decision travel before consequence is felt?
+- Who can see the full chain between policy and harm?
+- Where has distance made role compliance feel sufficient?
+counterbalances:
+- return attention to the queue downstairs
+- notice delay that feels ordinary rather than dramatic
+- separate scale from moral judgment
+trajectory:
+  earlySignals:
+  - distance opens as populations and authority stretch
+  - feedback slows while harm becomes harder to trace
+  intensificationSignals:
+  - institutions record outcomes people experience differently
+  - explanation remains credible far from those who wait
+  failureModes:
+  - distance becomes built into the architecture of moral life
+  - systems run while fit thins unnoticed
+  restorationPaths:
+  - name the gap between what institutions record and what people experience
+  - recognize distance before asking certainty to fail
+manifestations:
+  politics:
+  - sealed orders open distance stone calendars once closed
+  - technocratic binders stack while names have not cleared downstairs
+  organizations:
+  - staff rotate from one crisis to the next without open collapse
+  family:
+  - neighbors sign forms in triplicate without reading the third copy

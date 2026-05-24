@@ -1,11 +1,45 @@
 slug: drift
 title: Drift
-shortDefinition: Drift is gradual decoupling from original conditions—meaning drifting
-  as it travels, moral reasoning drifting toward role compliance, fit thinning while
-  machinery still runs. Systems continue without admitting that the conditions they
-  were built for have shifted.
+shortDefinition: Drift is gradual decoupling from original conditions—meaning drifting as
+  it travels, moral reasoning drifting toward role compliance, fit thinning while machinery
+  still runs. Systems continue without admitting that the conditions they were built for have
+  shifted.
 termKind: supporting
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
+recognitionSignals:
+- meaning drifts as it travels across distance
+- moral reasoning drifts toward role compliance
+- machinery still runs while meaning quietly thins
+- habit carries what explanation no longer fully reassures
+questions:
+- What is drifting away from its original conditions?
+- Where does continuity mask thinning fit?
+- What still works well enough to be taken for granted?
+counterbalances:
+- distinguish drift from immediate failure
+- notice strain before demanding rupture
+- recognize inertia without calling it corruption
+trajectory:
+  earlySignals:
+  - local enforcement varies as oral tradition travels
+  - tools remain effective at enforcing norms
+  intensificationSignals:
+  - institutions outlive the pressures that shaped them
+  - credibility erodes faster than authority itself
+  failureModes:
+  - fit thins while appointments still clear
+  - systems persist because nothing else yet does
+  restorationPaths:
+  - name drift before prescribing replacement frameworks
+  - stop at recognition when instruction would repeat the pattern
+manifestations:
+  politics:
+  - postwar planning language outlasts the offices that first needed it
+  - inherited categories fail to contain returning ships
+  organizations:
+  - ticket numbers still called while fluorescent lights hum at closing
+  family:
+  - payroll continues while conviction is no longer required
