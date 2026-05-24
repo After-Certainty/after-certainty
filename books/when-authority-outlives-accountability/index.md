@@ -2,7 +2,7 @@
 
 ## **A Lens for Moral Leadership**
 
-*Portfolio note:* This book is a **practical evaluation lens** (harm, effectiveness, legitimacy transfer). The upcoming [**When Accountability No Longer Expires**](../../upcoming/when-accountability-no-longer-expires/index.md) extends the thread: how **legitimate authority learns to survive harm** when accountability no longer expires.
+*Portfolio note:* This book is a **practical evaluation lens** (harm, effectiveness, legitimacy transfer). [**When Accountability No Longer Expires**](../../books/when-accountability-no-longer-expires/index.md) extends the thread: how **legitimate authority learns to survive harm** when accountability no longer expires.
 
 Author: Kevin Steffensen
 
@@ -33,7 +33,7 @@ Author: Kevin Steffensen
 
 [Series guide](../../docs/series-guide.md) · Authority cluster
 
-- [When Accountability No Longer Expires](../../upcoming/when-accountability-no-longer-expires/index.md) — **institutional** persistence after harm (not leader biography)
+- [When Accountability No Longer Expires](../../books/when-accountability-no-longer-expires/index.md) — **institutional** persistence after harm (not leader biography)
 - [When Authority Is Misread](../when-authority-is-misread/index.md) — confidence mistaken for legitimacy
 - [When Others Look to You](../when-others-look-to-you/v1/index.md) — influence, renewal, and erosion
 

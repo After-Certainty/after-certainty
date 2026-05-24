@@ -35,6 +35,9 @@ There is no single mandatory order. The table below groups books by **question**
 | What happens to moral judgment under distance and pressure? | When Moral Seriousness Scales |
 | How does influence form, renew, and erode? | When Others Look to You **v1** |
 | What patterns repeat across forming → eroding leadership? | When Others Look to You **v2** (companion to v1) |
+| How do I live and judge when understanding is not enough? | [After Certainty](../books/after-certainty/index.md) |
+| How did moral order harden before certainty broke? | [Before Certainty Arrives](../books/before-certainty-arrives/index.md) |
+| When does legitimacy survive harm without renewal? | [When Accountability No Longer Expires](../books/when-accountability-no-longer-expires/index.md) |
 
 **WOLTY editions:** Read **v1** first for the integrated field guide (harm, effectiveness, legitimacy). Use **v2** as a pattern-level companion, not a replacement.
 
@@ -46,9 +49,6 @@ Not yet in the public export pipeline. Word counts are essay-scale unless noted.
 
 | Question | Book | Status (May 2026) |
 |----------|------|-------------------|
-| How do I live and judge when understanding is not enough? | [After Certainty](../upcoming/after-certainty/index.md) | Phase 4 — author gate |
-| How did moral order harden before certainty broke? | [Before Certainty Arrives](../upcoming/before-certainty-arrives/index.md) | Phase 4 — author gate |
-| When does legitimacy survive harm without renewal? | [When Accountability No Longer Expires](../upcoming/when-accountability-no-longer-expires/index.md) | Phase 4 — author gate |
 | When does interpretation stop coordinating authority? | [When Interpretation No Longer Matters](../upcoming/when-interpretation-no-longer-matters/index.md) | Phase 4 — author read |
 | When do incentives replace judgment? | [When Incentives Become the Moral Language](../upcoming/when-incentives-become-the-moral-language/index.md) | Phase 2 |
 | Why is collaboration structurally hard? | [Why Collaboration Is So Hard](../upcoming/why-collaboration-is-so-hard/index.md) | Phase 2 |
@@ -60,16 +60,16 @@ Not yet in the public export pipeline. Word counts are essay-scale unless noted.
 **Accountability / authority**
 
 - [**When Authority Outlives Accountability**](../books/when-authority-outlives-accountability/index.md) — a **lens** for evaluating leaders when accountability has already thinned.
-- [**When Accountability No Longer Expires**](../upcoming/when-accountability-no-longer-expires/index.md) — how **legitimacy learns to survive harm** without renewal (upcoming).
+- [**When Accountability No Longer Expires**](../books/when-accountability-no-longer-expires/index.md) — how **legitimacy learns to survive harm** without renewal (published essay edition).
 
-Read the published lens first; the upcoming book extends the durability problem.
+Read the published lens first; the essay edition extends the durability problem.
 
 **Certainty / judgment cluster**
 
 - **Curiosity Before Certainty** — entry posture: curiosity as discipline.
 - **How Serious Systems Learn** — operating disciplines for teams and institutions.
 - **The Discipline of Uncertainty** (upcoming) — judgment and restraint under incomplete information.
-- **After Certainty** (upcoming) — flagship essays on judgment, responsibility, and speech when understanding is not enough.
+- **After Certainty** — flagship essays on judgment, responsibility, and speech when understanding is not enough (published).
 
 **Incentives vs economy**
 
@@ -78,7 +78,7 @@ Read the published lens first; the upcoming book extends the durability problem.
 
 **History vs collapse**
 
-- **Before Certainty Arrives** — how moral order formed and hardened.
+- **Before Certainty Arrives** — how moral order formed and hardened (published essay edition).
 - **When Interpretation No Longer Matters** — when public interpretation stops working now.
 
 ---
