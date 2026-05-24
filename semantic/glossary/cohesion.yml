@@ -1,11 +1,45 @@
 slug: cohesion
 title: Cohesion
-shortDefinition: The degree to which responsibility is clearly held within a boundary
-  (team, role, function, or institution). High cohesion means ownership is legible
-  and decisions are not diffusely assigned.
+shortDefinition: The degree to which responsibility is clearly held within a boundary (team,
+  role, function, or institution). High cohesion means ownership is legible and decisions
+  are not diffusely assigned.
 termKind: extended
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - coupling
 - before-certainty-arrives
+recognitionSignals:
+- norm repetition increases when threat is visible
+- groups that enforce norms more consistently often hold together longer
+- ritual synchronizes behavior through seasons
+- loyalty replaces abstraction when institutions thin
+questions:
+- What cohesion is being purchased with narrowed choice?
+- Where does deference to authority increase under pressure?
+- What breaks if variance is tolerated one season longer?
+counterbalances:
+- do not treat cohesion as moral proof
+- notice cost alongside survival
+- watch for cohesion purchased with rigidity
+trajectory:
+  earlySignals:
+  - shared expectation holds the band together at the fire
+  - role stability matters more than individual justification
+  intensificationSignals:
+  - sacred framing steadies obedience emotionally
+  - feudal obligation makes duty visible before it becomes virtue
+  failureModes:
+  - cohesion hardens into exclusion and heresy policing
+  - groups fracture when variance is tolerated too long under siege
+  restorationPaths:
+  - ask what cohesion problem the order first solved
+  - recognize cohesion without requiring admiration
+manifestations:
+  politics:
+  - customary law privileges precedent over reinterpretation
+  - church ritual synchronizes moral life across fragmented territories
+  organizations:
+  - same bells call the same fields back to order for generations
+  family:
+  - children held close in the temple queue while names are called
