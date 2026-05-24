@@ -8,8 +8,6 @@ c. 300,000 BCE – 2000 BCE
 **Geographic Scope:**
 Early human societies globally (Stone Age through Early Bronze Age)
 
-*(Stone & Early Bronze Ages)*
-
 Before morality could be debated, it had to function.
 
 Early human societies did not face the moral problems we argue about
