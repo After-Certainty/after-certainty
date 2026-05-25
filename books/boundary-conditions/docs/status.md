@@ -9,7 +9,7 @@
 **Done:** **Pass F** — Round 2 beta feedback: aphorism rhythm (F1), voice differentiation (F2), ambiguity guardrail (F3), operational→philosophy trim (F4)  
 **Done:** **Pass G** — Round 3 beta feedback: aphorism dedupe (G1), texture oxygen (G2), ambiguity spot-check (G3)  
 **Done:** **Pass H** — Round 4 beta feedback: Act I aphorism spacing + operational endings (H1), voice separation (H2), observation-before-insight (H3), Nate friction (H4), mundane chapter ends (H5), cut narrator gloss (H6)  
-**Done:** Local exports — **DOCX**, **EPUB**, **PDF** (post–Pass G rebuild May 2026)
+**Done:** Local exports — **DOCX**, **EPUB**, **PDF** (post–Pass H rebuild May 2026)
 
 ## Location
 
