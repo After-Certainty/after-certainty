@@ -48,7 +48,7 @@ Warren unmuted.
 
 “Compression is what boards read,” Warren said.
 
-“Then the board needs a compression that does not create a second incident inside the first,” Nate said.
+“Then label inference,” Nate said. “Or Legal slows you harder Friday.”
 
 Sarah said, “If this ships externally without Legal review, I need every inference labeled and every repro cited.”
 
@@ -60,11 +60,7 @@ Warren said, “Board prep is Friday. I need a paragraph that does not start a s
 
 Sarah said, “Then board prep waits until appendix two exists.”
 
-Warren looked at Nate.
-
-Nate said, “If you ship Pablo’s summary without labels, Legal will slow you harder on Friday than Sarah is slowing you today.”
-
-Warren muted without agreeing or disagreeing, which was its own answer.
+Warren looked at Nate, then muted.
 
 After the bridge Pablo stayed on the line with Sarah and Nate while Warren’s staff member left to “socialize tone.”
 
@@ -264,93 +260,9 @@ Nate said, “We have language. We do not have a signature on the seam.”
 
 Pablo left with his coffee. Nate stayed long enough to read Compliance’s glossary email preview—*approved operational terms, effective tomorrow*—and felt the week tighten again.
 
----
+Warren’s calendar invite for Thursday afternoon still said *Target state architecture for delegated authorization remediation*. The third slide would still say *Ownership TBD*. Nate had stopped pretending the meeting would assign a signatory and started pretending he could sit through it without becoming the argument.
 
-Thursday morning Nate arrived early to the design room and found Pablo adjusting slide fonts.
-
-“Board wants options ranked,” Pablo said.
-
-“Board wants an owner,” Nate said.
-
-“Models do not assign owners,” Pablo said.
-
-“People do,” Nate said.
-
-The design meeting filled before the hour.
-
-Cross-team leads. Priya. Owen for ten minutes. Infrastructure. Application architecture. Security. Pablo with slides. Warren’s chief of staff. Caleb taking notes.
-
-The agenda said *Target state architecture for delegated authorization remediation*.
-
-The first slide said *Principles*.
-
-The second said *Open questions*.
-
-The third said *Ownership TBD*.
-
-Nate felt the week settle on his shoulders like a coat he had forgotten he was still wearing.
-
-Warren opened the meeting.
-
-“We have language now,” Warren said. “We have board attention. We need a durable plan that does not require heroics every quarter.”
-
-Nobody disagreed with the sentence.
-
-Everybody disagreed with what it implied for their roadmap.
-
-Nate opened his notebook and wrote at the top of the page: *Truth durable. Ownership not.*
-
-He underlined the second line once.
-
-Owen said, “Product cannot pause enterprise segments again without a dated return path.”
-
-Infrastructure said, “We cannot date a return path without an owner.”
-
-Priya said, “You have an owner field. It is empty.”
-
-Warren’s chief of staff said, “We are working on staffing options.”
-
-Nate said, “Staffing options are not a signature.”
-
-Pablo advanced a slide showing three architecture options the model ranked by feasibility.
-
-Priya said, “Feasibility for whom.”
-
-The platform director said, “Feasibility for teams that already have headcount.”
-
-The meeting went circular within twenty minutes.
-
-Infrastructure wanted a dated rollback path. Application architecture wanted a feature flag matrix nobody had staffed to maintain. Security wanted sign-off authority written into the RACI. Product wanted segment exceptions documented before any pause expanded. Pablo’s model ranked option two highest; Priya said option two assumed a consent service that did not exist yet.
-
-Warren’s chief of staff said, “We need a single slide for Monday.”
-
-Priya said, “You need a single owner for Monday.”
-
-Owen, who had dropped in for his ten minutes and stayed twenty-five, said, “If we pause enterprise assisted onboarding again without a return date, Sales will escalate to the board with a revenue chart. I am not threatening you. I am describing the room you are already in.”
-
-Warren said, “Nobody is pausing enterprise without a return date.”
-
-Owen said, “Then put the return date on the slide.”
-
-The chief of staff wrote something down without committing.
-
-Nate said, “The Pablo doc is not a plan. It is a risk narrative. Isaac’s sentence is not a plan. It is a technical name. This meeting is pretending options are ownership.”
-
-Silence again, the kind that meant Nate had said the quiet part aloud.
-
-Caleb, in the corner, did not look up from his notes.
-
-Warren said, “We are not pretending. We are staffing.”
-
-Priya said, “Staffing is not a signature.”
-
-The meeting went circular for another thirty minutes.
-
-Sync, auth, and comms still argued in side threads. What had changed was the paper: every sentence now had a second audience—Legal, Compliance, a board member reading summaries on a phone between meetings.
-
-Nate left with Pablo’s appendix in his inbox, Sarah’s voice in his head, and Marta’s glossary subject line unread until the elevator: *Do not write anything you are not willing to defend in discovery.*
-
-He typed to Caleb before the lobby doors opened: *Thursday meeting will break or bend. Be ready to run the bridge either way.*
+He typed to Caleb before the lobby doors opened: *Thursday design meeting will break or bend. Be ready to run the bridge either way.*
 
 Caleb: *Already am.*
 
@@ -390,7 +302,7 @@ Same incident, two documents trained for different rooms—engineering needed re
 
 Hadley was already asleep. Nate set his phone face down on the nightstand and did not open the incident channel again.
 
-In the morning there would be another paragraph to defend and another meeting that circled the seam without signing it. Tonight the fear had a font, a glossary, and a retention hold—and still an empty owner column.
+In the morning there would be another paragraph to defend and another meeting that circled the seam without signing it. Tonight Compliance had a glossary, Legal had a retention hold, and the owner column was still empty.
 
 ---
 

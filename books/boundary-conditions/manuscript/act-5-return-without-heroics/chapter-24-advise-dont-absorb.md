@@ -30,7 +30,7 @@ Nate stood at the end of the table with three pages of history—not a story abo
 
 He spoke for fourteen minutes.
 
-He started with the customer write path—not because it was the only truth, because it was the truth the board could not hand-wave. Priya’s diagram on the wall behind him, printed copy in every chair. February flags on the timeline in red. March mitigations in yellow. April staffing in green that had arrived too late to prevent May’s audit questions.
+He started with the customer write path. Priya’s diagram on the wall behind him, printed copy in every chair. February flags on the timeline in red. March mitigations in yellow. April staffing in green that had arrived too late to prevent May’s audit questions.
 
 “Delegated authorization failed at the seam,” he said. “Not in sync. Not in identity alone. At the place where consent, policy version, and profile lifecycle meet without a single owner.”
 
@@ -526,7 +526,7 @@ Lena appeared in the doorway at four fifty-five, two minutes before office hours
 
 She held up her phone—four unread, then six.
 
-Nate said, “DMs to you instead of me—that is the metric.”
+Nate said, “DMs to you instead of me. Good.”
 
 Lena said, “Keep it.”
 

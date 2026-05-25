@@ -14,6 +14,20 @@ She nodded.
 
 “Then click,” she said. “And do not argue with strangers on the internet inside the company.”
 
+She paused with the mug in both hands.
+
+“Rest after you submit,” she said.
+
+“I need to finish the handoff doc tonight,” he said. “Joelle wants seam names or she pauses the transfer.”
+
+“Mark can handle pharmacy Thursday,” she said.
+
+“Mark can,” Nate said. “I still need the doc.”
+
+Hadley opened the family calendar on her phone, moved pharmacy to Rachel without asking Nate, and closed it again.
+
+“Rest is not the same as disappearing,” she said. “You’re learning the difference late.”
+
 The war room corridor was loud behind his back—Caleb’s voice on a bridge audio line, Legal asking for signatory, Infrastructure defending a flag—while Nate sat in a small focus room two doors down with HR’s portal open and his cursor on *Submit*.
 
 He read the reason field one last time, fluorescent light flat on the focus-room table, bridge audio leaking under the door like weather.
@@ -36,6 +50,8 @@ HR’s portal accepted the request and generated a ticket number that felt insul
 
 By lunch an HR business partner named Joelle had replied with a link to a thirty-minute orientation video and a PDF about benefits continuity. The video’s narrator said *your growth journey* four times. Nate watched it on mute while eating a sandwich he tasted for the first time in weeks.
 
+Hadley texted at twelve oh five: *Enjoy the quiet. They can’t put you back on the header today.*
+
 At one thirty Priya sent a screenshot of the remediation row—seam still blank, synthesis still listed as informal owner in a footnote Nate had not written.
 
 *If you leave, delete the footnote,* she wrote.
@@ -45,6 +61,14 @@ He wrote back: *I can’t edit exec fields. I can leave.*
 Priya: *Then leave loudly enough they hire.*
 
 He did not reply.
+
+At two ten Warren’s staff re-added him to the bridge roster as optional advisor.
+
+Hadley called from the grocery aisle, voice thin over bad signal. “I said it would be quiet.”
+
+“You weren’t wrong about the transfer,” Nate said. “You were wrong about today.”
+
+“Eat anyway,” she said, and hung up before he could argue.
 
 Joelle scheduled a fifteen-minute check-in for three p.m. In person, not the conduct meeting from after the design outburst—transfer logistics.
 
@@ -202,19 +226,19 @@ Warren’s jaw worked once.
 
 “The incident still needs you,” Warren said.
 
-“The incident needs an owner on the seam,” Nate said. “You are working on it. Caleb is running operations. Priya and Isaac have the technical truth. I will help with transition. I will not stay in a lane that expands every time leadership gets nervous.”
+“Seam needs an owner,” Nate said. “Caleb’s on ops. Priya and Isaac have the repro. I’ll transition. I’m not staying in synthesis.”
 
 Warren looked at the notes, not at Nate.
 
 “If you transfer mid-incident,” Warren said, “people will read it as abandonment.”
 
-“They will read it as data,” Nate said. “Reliable people leave when reliability becomes extraction.”
+“They’ll read the RACI,” Nate said.
 
 Silence.
 
 Warren said, “What do you need from me to make this not look like punishment?”
 
-“Public clarity that synthesis is not ownership,” Nate said. “A named seam lead with signatory power. And do not ask Caleb to absorb what you will not staff.”
+“Synthesis isn’t ownership,” Nate said. “Named seam lead. Don’t dump the seam on Caleb.”
 
 Warren nodded slowly—not agreement, acknowledgment. “I can work on the first two,” he said. “The third is finance.”
 

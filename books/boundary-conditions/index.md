@@ -12,6 +12,7 @@ Authoring rules and workbook sources: [`docs/`](docs/).
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About This Book](front-matter/about-this-book.md)
 
 ## Part I — Discovery
 

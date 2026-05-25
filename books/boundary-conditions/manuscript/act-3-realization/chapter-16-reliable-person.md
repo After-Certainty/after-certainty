@@ -34,13 +34,7 @@ They walked again.
 
 He kicked another pebble.
 
-“Thursday afternoon you went quiet on the bridge,” Caleb said. “Not absent. Quiet. Like you were ashamed of being right.”
-
-Nate looked at the path.
-
-“I was ashamed of how I said it in the room,” he said.
-
-“On the bridge you were ashamed of still being the person everyone pings,” Caleb said. “Warren’s staff asked me if you were ‘still stable.’ I said you were right. He did not love that.”
+“On the bridge afterward you went quiet,” Caleb said. “Not absent. Quiet. Warren’s staff asked me if you were ‘still stable.’ I said you were right. He did not love that.”
 
 Caleb stopped walking.
 
@@ -152,7 +146,7 @@ Caleb said, “I’m running the two o’clock bridge. Join or don’t.”
 
 Caleb nodded and went inside.
 
-Nate stayed on the path two minutes longer, breathing cold air, listening to the building hum like a bridge waiting for a primary.
+Nate stayed on the path two minutes longer, breathing cold air, listening to the building ventilation cycle on and off above him.
 
 ---
 
@@ -226,27 +220,7 @@ He stacked plates wrong, noticed, fixed them.
 
 “Good,” Hadley said. “Read it after dinner. Not during.”
 
----
-
-Wednesday morning Nate posted in the engineering channel—not a speech, a comment on Priya’s diagram thread.
-
-*Technical truth is settled enough to work. Organizational ownership is not. Coordinators are not owners. Stop routing seam decisions to people without signatory authority.*
-
-He waited.
-
-Priya reacted with agreement.
-
-Isaac reacted with a single word: *Yes.*
-
-Owen reacted: *Product still needs segment language.*
-
-Security reacted: *Legal still owns words.*
-
-Caleb reacted privately: *Bridge at two. I run. You only join if seam question is on the agenda.*
-
-Nate typed: *Copy.*
-
-At two he did not join.
+At two he did not join the bridge Caleb ran.
 
 He walked past the war room at two oh-five and heard Caleb’s voice steady on host line, Infrastructure arguing logging scope, Priya saying *seam* without looking at Nate’s empty chair.
 
@@ -276,7 +250,7 @@ Priya sent a checkmark.
 
 At his desk Warren appeared in the doorway, rare physical presence.
 
-“I read your channel comment,” Warren said.
+“I read what you said in the room,” Warren said.
 
 “Good,” Nate said.
 
@@ -408,10 +382,6 @@ Priya reacted with a checkmark.
 
 Isaac reacted: *Yes.*
 
-Authorization, consent, routing: the work had names now. Reliable people were still mistaken for infrastructure.
-
-What he did next would have to be structural, not heroic.
-
 For now he closed the laptop and walked to the parking garage at a normal hour.
 
 In the garage Warren called as Nate unlocked his car.
@@ -428,7 +398,7 @@ Warren laughed once, without humor.
 
 “Fair,” he said. “Denise’s team is real. So is the incident. Do not ghost us.”
 
-“I won’t ghost you,” Nate said. “I might stop being your default when the seam is empty.”
+“I won’t ghost you,” Nate said. “Stop defaulting the empty seam row to me.”
 
 Warren hung up.
 
@@ -502,9 +472,9 @@ Caleb said, “About time.”
 
 He left a slot empty on the staffing chart. He skipped a bridge Caleb could run. He handed Mark the neurologist link. He saved the HR draft without submitting.
 
-For one week that felt like the truest work he had done since the seam still had no signatory.
+For one week the work matched what the standards posting described—named surfaces, written sign-off, no implicit primary.
 
-Thursday would tell him whether the company could tolerate someone reliable who stopped being default.
+Thursday would tell him whether the company could leave an owner field empty without reaching for him again.
 
 He read the standards posting after dinner, as Hadley had asked—named policy surfaces, written sign-off paths, bridge cadence reduced, prohibition on implicit primary incident ownership. He felt seen in a way performance reviews never managed.
 

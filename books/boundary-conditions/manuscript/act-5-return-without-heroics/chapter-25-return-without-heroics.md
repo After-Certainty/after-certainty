@@ -20,7 +20,7 @@ He read the readout twice anyway.
 
 The body was short. No drama. Owners named. Next review in two weeks. Caleb cc’d on bridge cadence only. Priya on diagram drift. Sarah on customer language holds. His name appeared once: *Historical context available — Mercer, office hours.*
 
-He did not reply-all with gratitude. He archived the thread and let the sentence sit in his chest the way *Sev One declared* had sat in February—less alarm now, more bookkeeping.
+He did not reply-all with gratitude. He archived the thread and made coffee.
 
 That afternoon Mark drove his father to a neurologist follow-up Mark had scheduled without asking Nate to book it. Nate came because Daniel asked, not because the calendar needed a project manager.
 
@@ -312,11 +312,11 @@ Warren said, “Do not thank me yet.”
 
 Warren said, “We trained reliable people to carry unreliable structures.”
 
-“Yes,” Nate said.
+“Yeah,” Nate said.
 
 Warren stirred his coffee.
 
-“You could have made that sentence about yourself,” Warren said. “You did not. The board heard it as policy. That mattered.”
+“You could’ve made that about yourself,” Warren said. “You didn’t.”
 
 Nate said nothing.
 
@@ -514,8 +514,6 @@ The war room corridor was lit but quiet—no snack piles, no hourly bot spam.
 
 He still cared about consent paths, owner fields, and family threads.
 
-He no longer treated exhaustion as proof he was doing the job right.
-
 Hadley texted: *Dinner at six. Be human.*
 
 He typed back: *On my way.*
@@ -553,8 +551,6 @@ She kissed his temple, the way she did when he came home from airports during th
 “Enough to build on,” she said.
 
 He said, “Yes.”
-
-He meant it for the company, the family, and the version of himself that could chop onions without listening for a bridge tone in every notification chime.
 
 Later, in bed, he dreamed neither bridges nor boardrooms—only the kitchen, rain on glass, Hadley’s hand on his shoulder when he finally stopped checking the lock screen in his sleep.
 

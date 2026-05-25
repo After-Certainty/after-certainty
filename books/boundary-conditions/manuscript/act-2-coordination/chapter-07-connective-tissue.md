@@ -2,15 +2,7 @@
 
 By Wednesday, Nate had stopped pretending the incident had a single channel and started treating his calendar as the real map.
 
-Seven thirty: Security posture review.
-Eight fifteen: Product customer-impact working session.
-Nine: Identity policy semantics with Legal observing like a judge at a trial that had not been scheduled.
-Ten: Infrastructure flag strategy.
-Ten forty-five: Executive staff pre-read with Warren.
-Eleven thirty: Engineering open questions—supposed to be thirty minutes, scheduled for ninety.
-Two: Bridge.
-Four: Cross-team doc scrub Caleb had titled *convergence* because *synthesis* sounded like a job description.
-Six thirty: Warren “quick sync” that was never quick.
+Seven thirty: Security posture. Eight fifteen: Product customer impact. Nine: Identity semantics with Legal observing like a judge at a trial that had not been scheduled. Ten: Infrastructure flags. Ten forty-five: Warren pre-read. Eleven thirty: Engineering open questions—thirty minutes on the invite, ninety in reality. Two: Bridge. Four: Cross-team doc scrub. Six thirty: Warren “quick sync” that was never quick.
 
 He had not designed any of these meetings. He had attended all of them.
 
@@ -32,10 +24,6 @@ A Product manager walked past and said, “Glad you’re here—Legal was about 
 Nate did not feel glad.
 
 He felt recruited.
-
-When he was in the room, sentences moved.
-
-When he left, they reverted to their native dialects.
 
 Security posted exposure thresholds.
 
@@ -149,6 +137,24 @@ It ended with Owen’s tables attached and Legal’s redlines visible—progress
 
 ---
 
+On Tuesday at four, Caleb had run a bridge without Nate on the invite.
+
+Nate learned from the summary bot at four thirty—Legal hedging, Owen asking for segment language, Infrastructure defending flags, Priya posting the diagram, Caleb ending with *no owner on seam*.
+
+Nate forwarded the summary to Warren with one line: *Assign seam lead or accept regional disable as only shipped mitigation.*
+
+Warren had not replied until ten p.m.
+
+*You’re still the connective tissue. Don’t be dramatic.*
+
+Nate had stared at the message long enough to feel the insult and the accuracy in the same breath.
+
+He had typed back: *Connective tissue is not signatory.*
+
+Warren had reacted with a thumbs-up that meant *we’ll talk Monday* not *you’re wrong*.
+
+---
+
 Warren pulled him aside after the executive pre-read.
 
 “You’re holding this together,” Warren said.
@@ -159,17 +165,17 @@ Warren pulled him aside after the executive pre-read.
 
 Nate wanted to argue. He did not have the energy.
 
-Warren lowered his voice. “Caleb’s running operational coordination. I need you on synthesis. Leadership asks me questions I cannot answer without you. Engineering asks me questions I should not answer without you. That is not an insult. It is the week we are in.”
+Warren lowered his voice. “Caleb’s on ops. I still need you on synthesis.”
 
-“What do you need tonight?”
+“Tonight?”
 
-“A paragraph I can read tomorrow morning that sounds like we are one company.”
+“Tomorrow’s staff pre-read. One paragraph.”
 
-Nate looked at Warren’s tired eyes. Warren had forwarded two paragraphs from the leadership thread—*platform reliability* in one, *trust incident* in the other—and asked which one Nate could defend in tomorrow’s staff pre-read.
+Nate looked at Warren’s tired eyes. Two forwarded paragraphs sat in the thread—*platform reliability* in one, *trust incident* in the other.
 
-“I can give you a paragraph that is true,” he said.
+“Pick one field name,” Nate said, “or stop asking me to defend both.”
 
-Warren almost smiled. “Start there.”
+Warren almost smiled. “True paragraph. Start there.”
 
 Nate walked back to his desk and found eleven DMs waiting.
 
@@ -288,22 +294,6 @@ The meeting moved five inches.
 
 ---
 
-Tuesday at four Caleb had run a bridge without Nate on the invite.
-
-Nate learned from the summary bot at four thirty—Legal hedging, Owen asking for segment language, Infrastructure defending flags, Priya posting the diagram, Caleb ending with *no owner on seam*.
-
-Nate forwarded the summary to Warren with one line: *Assign seam lead or accept regional disable as only shipped mitigation.*
-
-Warren had not replied until ten p.m.
-
-*You’re still the connective tissue. Don’t be dramatic.*
-
-Nate had stared at the message long enough to feel the insult and the accuracy in the same breath.
-
-He had typed back: *Connective tissue is not signatory.*
-
-Warren had reacted with a thumbs-up that meant *we’ll talk Monday* not *you’re wrong*.
-
 By Thursday afternoon the informal job had a shape on his calendar: fourteen meetings, nine DMs marked urgent, zero names on the seam row.
 
 The war-room fluorescents had started humming at a pitch he noticed only when he was tired. He rubbed his eyes over another Slack thread and still did not own the answer.
@@ -382,7 +372,7 @@ Warren would have called it modesty again.
 
 ---
 
-He left at seven and drove home through traffic that moved like a mitigation debate—everyone inching forward, everyone protecting their lane.
+He left at seven and drove home through stop-and-go traffic, brake lights ahead of him in every lane.
 
 Hadley was chopping vegetables when he walked in. She did not ask about the incident first. She asked whether he wanted food.
 
@@ -450,7 +440,7 @@ Another pause.
 
 *Fair. Nine a.m. convergence. Twenty minutes. Bring owners.*
 
-Nate closed the laptop and listened to the dishwasher finish a cycle that sounded, absurdly, like a clean deploy in a system that was not his to own.
+Nate closed the laptop and listened to the dishwasher finish a cycle while the incident channel stayed quiet on the counter beside him.
 
 Saturday morning he woke to seventeen DMs and a forward from Warren titled *urgent alignment*.
 

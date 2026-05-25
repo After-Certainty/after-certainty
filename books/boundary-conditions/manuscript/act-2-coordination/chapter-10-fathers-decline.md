@@ -120,7 +120,7 @@ Daniel looked at Nate.
 
 Nate said, “I want you to stay in charge of what you can stay in charge of. I also want you safe when a step fails at nine at night.”
 
-The room held the silence that followed truth when truth was not cruel on purpose.
+The room held the silence that followed a sentence nobody wanted to argue with.
 
 ---
 
@@ -236,7 +236,7 @@ Hadley called his mother while Nate made dinner—ordinary domestic noise that f
 
 Nate heard only his wife’s side: *yes*, *Wednesday went fine*, *we’ll help with the portal*, *no, he’s not a project*.
 
-When she hung up, she said, “Your mom cried a little. Not because today was catastrophic. Because someone else translated the doctor for once.”
+When she hung up, she said, “Your mom cried a little. Mark did the portal. She heard it.”
 
 Nate stirred sauce he did not taste.
 
@@ -352,7 +352,7 @@ Silence on the line.
 
 “Okay,” his mother said. “Okay.”
 
-He hung up and felt the boundary hold and wobble in the same breath—the way a yellow mitigation row held at work.
+He hung up and felt the boundary hold, then wobble—the way a row at work held until someone else’s name was in the owner column.
 
 Friday Warren forwarded him a leadership thread that reframed variant five as “limited cohort exposure” with no owner attached.
 

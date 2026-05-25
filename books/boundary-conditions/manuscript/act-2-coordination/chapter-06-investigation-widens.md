@@ -6,6 +6,10 @@ He logged in from his kitchen at six-forty Pacific with coffee and the particula
 
 Nate’s calendar had three meetings before nine, all of them titled some variation of *sync* and none of them promising synchronization.
 
+His mother had texted while the coffee cooled: *Dad asked if you're coming for the neurologist follow-up. I told him you're at work. Call when you can—not urgent.*
+
+He starred the message and did not call yet.
+
 The first was not a meeting so much as a pile-on.
 
 Eli Moreno had posted four variant reproductions overnight—different invitation timing, different account states, one path that only failed when profile sync ran before consent acknowledgment rendered in the audit log. Each variant had its own thread. Each thread had attracted a different theory within twenty minutes.
@@ -164,17 +168,7 @@ Warren nodded as if mapping were close enough to narrowing for an executive summ
 
 ---
 
-By noon the table existed in a form executives could screenshot.
-
-Four variants. Three confirmed paths into the shaded write region. Two mitigations shipped over the weekend that reduced likelihood without removing capability. One open question nobody wanted to own: whether consent language in the policy service matched what Legal believed customers had agreed to when they delegated access.
-
-The theories kept multiplying anyway—just slower, and with more shame when they arrived without a column filled in.
-
-A Security architect suggested attacker enumeration via invitation retries—now with retry counts attached. Infrastructure suggested race conditions in sync workers—with worker IDs. Product suggested a UX sequence that encouraged users to skip review screens—with funnel drop rates that did not map to exploit likelihood. Compliance suggested retention gaps in assessment routing that made prior findings invisible to the right escalation path.
-
-Each theory was plausible.
-
-Each theory protected a different budget line.
+By noon the table existed in a form executives could screenshot—four variants, three confirmed paths into the shaded write region, theories still arriving with budget lines attached.
 
 Nate spent the afternoon moving between threads the way he had spent the weekend moving between airports—translating, clarifying, asking people to post evidence next to adjectives.
 
@@ -296,7 +290,7 @@ He did not own narrative. He owned nothing except the habit of answering.
 
 He typed a single reply in-thread: *Cohort size from Customer Systems pending. No comms language until table row validated.*
 
-Then he closed the phone and ate while the food was still warm, which felt like a mitigation with a footnote.
+Then he closed the phone and ate while the food was still warm.
 
 Hadley asked what variant five meant.
 
@@ -314,20 +308,6 @@ She nodded like someone who had watched him schedule meetings about meetings all
 
 “Barely counts,” she said, and went back to her book.
 
-On Tuesday’s calendar, the first meeting was titled *Investigation Convergence* and the last was titled *Optional Office Hours* with Nate’s name in the organizer field.
+He called his mother back before midnight—neurologist follow-up still on the calendar, nothing urgent resolved, just a voice on the line so she would stop holding the question alone.
 
-He had not created office hours.
-
-He declined the hold and watched three DMs arrive within a minute asking whether he was “still available if needed.”
-
-He replied once in the operational channel: *Caleb coordinates. Tag table.*
-
-Then he went to bed before midnight, which counted as rebellion during a Sev One.
-
-Tuesday morning Eli posted variant five validation with cohort ranges attached.
-
-Priya commented: *One surface.*
-
-Mara commented: *Lifecycle accepts the writes. Fixing sync order alone is incomplete.*
-
-Nate starred both comments and went to *Investigation Convergence* with coffee, ready to translate again.
+He went to bed without opening the incident channel again.

@@ -52,7 +52,7 @@ Security said alerts were working as designed.
 
 Product said customers were not complaining about alerts.
 
-Nate read the thread from the standards building, recognized the argument shape—local boundaries defending local metrics—and did not type.
+He recognized the argument shape—local boundaries defending local metrics—and did not type.
 
 Nobody @’d him.
 
@@ -60,9 +60,9 @@ Good—and not good, because someone else would absorb the blame or the fix with
 
 Some things improved.
 
-Thursday in the standards building Jess ran a deprecation review for a third-party OAuth scope nobody had looked at in two years.
+Thursday in the standards building Jess ran a deprecation review for a third-party OAuth scope nobody had looked at in two years. Luis chaired too fast through the agenda and missed Terrence’s objection once, then recovered when Terrence repeated it.
 
-Terrence said, “If we remove it, two internal apps break.”
+“If we remove it, two internal apps break,” Terrence said.
 
 Jess said, “Then we date the removal and notify owners. We do not keep zombie scopes because breaking things is scary.”
 
@@ -70,19 +70,13 @@ Nate said, “Product will call it customer-hostile.”
 
 Jess said, “Product can book office hours.”
 
-Luis, chairing, looked at Nate.
-
-“You’re smiling,” Luis said.
-
-“I’m remembering when every meeting needed a translator,” Nate said.
-
 They voted to date the removal, assign owners, ship notice in thirty days.
+
+An hour later a follow-up ticket appeared: *internal app X still holds zombie scope—dependency missed in review*. Someone else had filed it. Someone else had assigned an owner. Nate read the thread from the standards floor and did not type.
 
 No bridge. No Warren. No template field called *material*.
 
-Nate wrote the decision summary in plain English and sent it to the channel himself—not synthesis, standards work—and felt the unfamiliar pleasure of a closed loop.
-
-A platform lead in the incident org made a decision without waiting for synthesis because no one was available to synthesize, and the decision held.
+The mistake was small. The movement was real. He closed the laptop and sat there a moment longer than the decision required.
 
 Priya posted a diagram update with a red box labeled *consent path* and tagged a role that did not exist yet on payroll.
 
@@ -92,7 +86,7 @@ Nate said yes and meant it.
 
 Some people stepped up.
 
-Caleb ran a bridge where Legal signed hotfix language before five for the first time in weeks. Priya reacted with a checkmark and no comment. Nate heard about it from summaries, not from the room.
+Caleb ran a bridge where Legal signed hotfix language before five for the first time in weeks—messy handoff, one wrong cc on the follow-up thread, corrected without Nate. Priya reacted with a checkmark and no comment. Nate heard about it from summaries, not from the room.
 
 He read the summary twice—not looking for errors to fix, looking for proof the room could finish without him.
 
@@ -276,7 +270,7 @@ Nate answered patiently.
 
 The repetition did not feel like an emergency tonight.
 
-It felt like weather.
+Daniel asked again at the next corner anyway.
 
 At the corner Daniel stopped and pointed at a house.
 
@@ -312,7 +306,7 @@ Nate sat with that.
 
 Mark hung up without goodbye.
 
-Nate could live with that too, if living with it was the point.
+Nate could live with that too.
 
 ---
 

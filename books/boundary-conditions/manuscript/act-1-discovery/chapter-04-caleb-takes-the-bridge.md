@@ -98,6 +98,14 @@ Nate looked at the Colorado sky through the windshield and said the thing he had
 
 Warren approved.
 
+Caleb posted the owner matrix in-channel. One row still listed *cross-boundary remediation — Nate Mercer* with a question mark Caleb had meant for Warren to fill.
+
+Caleb DM’d thirty seconds later: *wrong row. fixing.*
+
+Nate: *leave synthesis blank or Legal owns the fight*
+
+Caleb: *copy. again.*
+
 The bridge thinned out. Caleb posted the decision line in the operational channel with owners attached, which Nate had not seen Warren’s staff do cleanly in the first twelve hours of the incident.
 
 After the call ended, Rachel turned down the radio.
@@ -242,11 +250,9 @@ His phone rang. Warren, not the bridge.
 
 “Reachable reachable,” Warren said.
 
-The phrase carried the old expectation Nate had been trying not to reinforce: reachable meant always, meant instantly, meant whoever answered first absorbed whatever uncertainty had nowhere else to go.
-
 Nate looked at the open door of the guest room, at the hallway light and the sound of his family laughing about something in a graduation video on the television.
 
-“I’m reachable with Caleb primary,” he said. “If the bridge stalls, I’m there. If it’s moving, you have him.”
+“Reachable,” he said. “Caleb primary. Bridge stalls, I’m there. Moving, you’ve got him.”
 
 A pause on Warren’s end, long enough to count.
 
@@ -280,4 +286,4 @@ For the first time since the repro landed in his office, the center of the respo
 
 Caleb was on the bridge.
 
-Nate was in Denver—reachable, not running—and the gap between those two words felt as fragile as it felt necessary.
+Nate was in Denver—reachable, not running—and the gap between those two words felt fragile and necessary.

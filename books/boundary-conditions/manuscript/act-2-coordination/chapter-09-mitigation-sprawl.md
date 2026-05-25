@@ -183,23 +183,23 @@ Warren called at six while Nate was still at his desk and the cleaning crew was 
 
 “They have a template.”
 
-“They want a narrative that sounds finished.”
+“Finished-sounding.”
 
 Nate rubbed his face.
 
-“Nothing is finished. B reduces capability in known segments. C documents harm without closing the write path. Regional disable is real but incomplete. Policy alignment is still in Legal review.”
+“B cuts segments. C’s dashboards. Regional disable’s partial. Legal still—”
 
-“I know,” Warren said. “Give me the least dishonest finished sentence.”
+“I know,” Warren said. “Least dishonest sentence. Go.”
 
 “We have implemented containment measures that reduce acute customer exposure while cross-boundary authorization remediation remains in progress,” he said.
 
 Warren was quiet.
 
-“That’s a lot of words,” Warren said.
+“Long,” Warren said.
 
-“It’s a lot of truth,” Nate said.
+“True,” Nate said.
 
-“Send it,” Warren said.
+“Send.”
 
 ---
 
@@ -420,8 +420,6 @@ He read it twice.
 
 Too honest for Warren, maybe.
 
-Necessary for the table.
-
 He sent it to Caleb and Warren both.
 
 Warren reacted with a phone call instead of a thumbs-up.
@@ -438,35 +436,7 @@ The call ended.
 
 Nate put the phone down and listened to the house settle around him.
 
-On the table his notebook still showed red cells for global pause and policy rollback—options that would not die because they let leadership feel decisive without choosing an owner.
-
-Monday’s seam meeting would argue RACI again.
-
-Saturday morning Nate opened the template once and counted rows.
-
-Nine implemented.
-
-Three yellow.
-
-Two red.
-
-One blank owner field that made every green cell feel like a lie.
-
-He closed the laptop and went for a run.
-
-Sunday Warren forwarded an executive draft with Option A back in the summary field.
-
-Nate replied: *A is escalation-only. Seam still empty. Attaching Priya table.*
-
-Warren replied: *Stop attaching tables. Execs want sentences.*
-
-Nate replied: *Sentences without tables are how February happened.*
-
-Warren did not reply.
-
-Tonight Owen’s spring rolls sat in his stomach next to the truth Caleb had pinned: *zero agreement on whether any of them fix authorization.*
-
-Nate washed a plate Hadley had left in the sink and went to bed without opening the template again.
+---
 
 Friday morning Owen met him at the coffee machine with red eyes.
 
@@ -504,6 +474,36 @@ Warren was quiet.
 
 “Send it,” Warren said.
 
+---
+
+Saturday morning Nate opened the template once and counted rows.
+
+Nine implemented.
+
+Three yellow.
+
+Two red.
+
+One blank owner field that made every green cell feel like a lie.
+
+He closed the laptop and went for a run.
+
+Sunday Warren forwarded an executive draft with Option A back in the summary field.
+
+Nate replied: *A is escalation-only. Seam still empty. Attaching Priya table.*
+
+Warren replied: *Stop attaching tables. Execs want sentences.*
+
+Nate replied: *Sentences without tables are how February happened.*
+
+Warren did not reply.
+
+Tonight Owen’s spring rolls sat in his stomach next to the truth Caleb had pinned: *zero agreement on whether any of them fix authorization.*
+
+Nate washed a plate Hadley had left in the sink and went to bed without opening the template again.
+
+---
+
 Sunday afternoon Hadley found him on the couch with the laptop closed and the phone face-down.
 
 “You’re not fixing,” she said.
@@ -520,4 +520,4 @@ He was not optimistic.
 
 He was also not going to fill it for them.
 
-Hadley’s voice faded on the phone. Nate set the mug in the sink and watched the notification stack refresh—Warren’s staffing chart, Caleb’s seam reminder, Priya’s diagram link. Nobody in any of those threads had offered to sign the empty row. They kept asking him to name the tradeoffs again, as if another column in the template would conjure a owner.
+Hadley set her mug in the sink beside his and watched the notification stack refresh on his phone—Warren’s staffing chart, Caleb’s seam reminder, Priya’s diagram link. Nobody in any of those threads had offered to sign the empty row. They kept asking him to name the tradeoffs again, as if another column in the template would conjure an owner.

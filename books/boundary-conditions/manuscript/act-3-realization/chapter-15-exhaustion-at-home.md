@@ -18,10 +18,6 @@ Someone had pasted a paraphrase of Nate’s sentence without attribution. Compli
 
 Caleb sent: *Bridge ran fine. You owe me nothing tonight.*
 
-A principal engineer Nate had never met: *That design meeting comment is going to age well. Sorry you had to be the one.*
-
-Product ops: *Owen is upset but he told me to tell you he gets it. Weird compliment.*
-
 Application Architecture’s director, whom Nate had interrupted: *Uncomfortable. Necessary. Thank you.*
 
 Warren’s chief of staff, private: *Warren wants sustainable staffing. He does not want a channel post. Neither do I.*
@@ -32,7 +28,7 @@ Legal, through Sarah Kim: *What you said in the room is not discoverable unless 
 
 Nate stared at Sarah’s message longer than the sympathy ones.
 
-Sympathy felt like praise with interest due. He had not wanted to be brave. He had wanted a signatory field.
+He had not wanted to be brave. He had wanted a signatory field.
 
 Warren sent nothing until Thursday morning, then a short line: *We should talk about sustainable staffing on the synthesis lane.*
 
@@ -41,8 +37,6 @@ Nate read it in the family thread between a message from his mother about insura
 He replied only to Caleb—*Thanks. Home tonight.*—left the rest unread until the kitchen was quiet, and told Warren *Today not possible* and his mother *Tonight.*
 
 ---
-
-The family logistics peaked the way incidents peaked—quietly at first, then all at once.
 
 Mark had taken the lab but had not taken the neurologist follow-up scheduling because the portal link had been in a thread Mark did not read. Rachel had offered to call the pharmacy and had instead texted Nate the prescription number. Their mother had a question about advance directive paperwork that was not urgent until it was, because Daniel had asked twice at breakfast whether he still drove, and the second time had sounded like a man trying to catch himself lying.
 
@@ -82,6 +76,16 @@ She said, “Mark’s portal link is in email. Rachel needs the prescription num
 
 He ate standing up.
 
+Hadley watched him reach for the phone between bites.
+
+“You taught them you’d fix it,” she said. Not gentle. Not cruel. “Don’t act surprised they’re clapping.”
+
+He put the phone face-down on the counter.
+
+She slid the toast plate an inch closer without apologizing for the sentence.
+
+He ate one more bite standing up, then sat.
+
 Mark texted: *Why didn’t you warn me the portal link was in email.*
 
 Rachel texted: *I can do pharmacy at lunch if someone sends the number in one message.*
@@ -97,7 +101,7 @@ He texted Rachel the hold-time shortcut Hadley had reminded him to share.
 
 By nine he was late to a synthesis review he had scheduled himself.
 
-He joined from the kitchen table with Daniel still at the cereal box and Hadley loading the dishwasher behind him, domestic audio Warren’s staff would not hear but Nate would.
+He joined from the kitchen table with Daniel still at the cereal box and Hadley loading the dishwasher behind him.
 
 Warren noticed.
 
@@ -111,25 +115,27 @@ Warren noticed.
 
 After the bridge Warren kept him on the line—staff channel, not bridge audio.
 
-“You need sustainable staffing,” Warren said. It was the same sentence as the DM, spoken slower.
+“Sustainable staffing,” Warren said—the DM again, slower.
 
-“I need a signatory on the seam,” Nate said.
+“Signatory on the seam,” Nate said.
 
-“We are working options,” Warren said.
+“Working options.”
 
-“Staffing options are not signatures,” Nate said, and heard himself quote Priya, which should have been funny and was not.
+“Not signatures.”
 
 Warren said, “I am not punishing you for Thursday.”
 
-“I did not ask for punishment,” Nate said. “I asked for structure.”
+“I didn’t ask—” Nate stopped. “Structure.”
 
-Warren was quiet long enough that Nate could hear a door close on his end—an office, not an airport.
+A door closed on Warren’s end.
 
-“Take Friday afternoon,” Warren said. “Family. I will tell Caleb synthesis can wait.”
+“Friday afternoon,” Warren said. “Family. Caleb can wait on synthesis.”
 
-Nate said, “Caleb already runs the bridge.”
+“Caleb already runs the bridge.”
 
-“Then let him,” Warren said, and hung up.
+“Then let him.”
+
+The line went dead.
 
 Priya said on the same bridge, without looking at him, “Policy version in zone two might finally match audit logs.”
 

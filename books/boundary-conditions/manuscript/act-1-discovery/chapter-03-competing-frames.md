@@ -206,9 +206,9 @@ He scrolled the engineering thread from the top. Priya’s comment. Eli’s vari
 
 He read both blocks a third time, side by side, without typing.
 
-The executive doc described posture. The engineering channel described mechanics. Same incident, different field names—and nobody had translated between them in either direction.
+*Write scope* still missing from the brief.
 
-Nate sat with that long enough to hear Rachel’s shower start in the hall.
+Rachel’s shower started in the hall.
 
 Warren appeared in the leadership thread with a question for Nate’s eyes only.
 

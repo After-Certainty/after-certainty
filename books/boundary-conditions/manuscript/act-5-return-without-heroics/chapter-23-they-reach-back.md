@@ -80,11 +80,19 @@ New Nate had a calendar block labeled *sleep*.
 
 His phone still buzzed twice before midnight—Warren forwarding a press inquiry, Priya asking whether EU map needed another page. He answered Priya with a file path. He forwarded Warren’s press thread to Lena without comment.
 
+Earlier, at eight thirty-two, Warren had DM’d: *Board prep—need Mercer synthesis on seam regression. Thirty min.*
+
+Nate had typed three bullets before he remembered Lena had signed at ten thirty-one and owned the narrative Warren wanted compressed.
+
+He deleted the draft, forwarded the thread to Lena with *Cho owns remediation—use or discard*, and watched Warren reply *Got it from Lena* eight minutes later.
+
+Ten minutes lost. Habit, not heroism.
+
 ---
 
 They reached back through every channel that had learned his name.
 
-The operational channel refreshed like a heartbeat Nate had trained himself not to answer. Executive summary bot. Customer Systems care queue. Legal review thread with forty-seven replies and no signatory. Infrastructure flag table. Product segment language draft. Security escalation matrix. Each one had learned, in February, that @Mercer meant someone would translate fear into a sentence leadership could forward.
+The operational channel refreshed like a heartbeat Nate had trained himself not to answer—summary bot, care queue, Legal thread, flag table, segment drafts—each one still trained, in February, to read @Mercer as translation.
 
 Wednesday at seven fifty-eight his calendar auto-accepted a bridge invite titled *Seam Regression — synthesis* and listed him as optional attendee.
 
@@ -154,15 +162,15 @@ Nate reassigned it to Lena with one line: *Cho owns remediation.*
 
 At ten twenty-nine the ticket bounced back with a note from a director: *Mercer knows February. Cho is new.*
 
-Nate posted in the operational channel again—*Remediation owner is Cho. History via Mercer office hours link*—and watched three reactions appear before Priya pinned the diagram.
+Old habit: he started typing a three-bullet synthesis for the thread before he deleted it and posted only *Remediation owner is Cho. History via Mercer office hours link.*
+
+Priya pinned the diagram. Three reactions appeared and stopped.
 
 At ten forty a platform director Nate had never met requested a fifteen-minute “quick sync” and sent a deck with no owner on the seam slide.
 
-Nate declined and forwarded the deck to Lena with one sentence: *Signatory field is yours. I am advising on schedule only.*
+Nate declined in-channel and forwarded the deck to Lena: *Signatory field is yours. I am advising on schedule only.*
 
 Lena replied: *Received. Stop forwarding decks without declining in public.*
-
-Nate posted in the operational channel: *Remediation owner is Cho. History via Mercer office hours link.*
 
 The thread quieted for eleven minutes.
 
@@ -268,7 +276,7 @@ Warren stared at the table.
 
 “Then what do you offer,” Warren said, not angry, exhausted.
 
-“Thirty minutes Tuesday and Thursday office hours,” Nate said. “One architecture review. Written answers to written questions. And you tell the exec channel my name is not a shortcut for ownership.”
+“Office hours,” Nate said. “Tues/Thurs. One arch review. Written Qs only. Exec channel stops @’ing me for ownership.”
 
 Warren wrote it down.
 
