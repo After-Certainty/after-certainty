@@ -16,6 +16,24 @@ describe("createPageMetadata", () => {
     expect(m.twitter?.title).toBe("About");
     expect(m.twitter?.description).toBe("Orientation into the project.");
   });
+
+  it("replaces default openGraph and twitter images when overrides are provided", () => {
+    const bookOgUrl = "https://example.com/books/after-certainty/open-graph.png";
+    const m = createPageMetadata({
+      title: "After Certainty",
+      description: "A book.",
+      openGraph: {
+        images: [{ url: bookOgUrl, alt: "After Certainty" }],
+      },
+      twitter: {
+        images: [bookOgUrl],
+      },
+    });
+    expect(m.openGraph?.images).toEqual([{ url: bookOgUrl, alt: "After Certainty" }]);
+    expect(m.twitter?.images).toEqual([bookOgUrl]);
+    expect(m.openGraph?.title).toBe("After Certainty");
+    expect(m.openGraph?.description).toBe("A book.");
+  });
 });
 
 describe("defaultMetadata", () => {

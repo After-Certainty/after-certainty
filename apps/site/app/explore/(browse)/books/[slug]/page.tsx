@@ -31,9 +31,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const index = buildGraphIndex(graph);
   const book = getGraphBookBySlug(index, slug);
   if (!book) return {};
+  const description = book.summary ?? book.subtitle ?? book.title;
+  if (!book.openGraphImage) {
+    return createPageMetadata({ title: book.title, description });
+  }
   return createPageMetadata({
     title: book.title,
-    description: book.summary ?? book.subtitle ?? book.title,
+    description,
+    openGraph: {
+      images: [{ url: book.openGraphImage, alt: book.title }],
+    },
+    twitter: {
+      images: [book.openGraphImage],
+    },
   });
 }
 

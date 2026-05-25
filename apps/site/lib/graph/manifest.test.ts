@@ -37,6 +37,8 @@ describe("validateSemanticGraph", () => {
     const result = validateSemanticGraph(fallback as unknown);
     expect(result.success).toBe(true);
     if (!result.success) return;
+    const afterCertainty = result.data.books.find((b) => b.slug === "after-certainty");
+    expect(afterCertainty?.openGraphImage).toContain("after-certainty/open-graph.png");
     const wolty = result.data.books.find((b) => b.slug === "when-others-look-to-you-v1");
     expect(wolty?.media?.intro?.youtubeVideoId).toBeTruthy();
     expect(wolty?.purchaseLinks?.[0]?.retailer).toBe("amazon");
