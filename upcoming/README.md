@@ -22,7 +22,13 @@ Refresh the portfolio row whenever a book's `docs/status.md` changes phase or ne
 
 ## Fiction exception
 
-[`velorum/`](velorum/) uses a separate fiction track (`project-spec.md`, `voice-spec.md`, agent pipeline under `velorum/docs/`). It is not part of the nonfiction trio above.
+Fiction manuscripts use a separate track (planning under `docs/`, not the nonfiction `book-rules` / `drafting-process` trio). They are not listed on the nonfiction portfolio dashboard.
+
+| Slug | Notes |
+|------|-------|
+| [`velorum/`](velorum/) | Mythic fantasy — `project-spec.md`, `voice-spec.md`, agent pipeline under `velorum/docs/` |
+
+**Promoted to `books/`:** **Boundary Conditions** — [`books/boundary-conditions/`](../books/boundary-conditions/) (organizational fiction novel; exports enabled).
 
 ## Current nonfiction titles
 

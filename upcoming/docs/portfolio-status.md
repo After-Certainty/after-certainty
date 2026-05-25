@@ -1,8 +1,8 @@
 # Upcoming nonfiction — portfolio status
 
-Dashboard for five nonfiction manuscripts under `upcoming/` (Velorum uses a separate fiction doc track). Three Tier A titles were promoted to `books/` in Pass 4 and no longer live under `upcoming/`.
+Dashboard for five nonfiction manuscripts under `upcoming/`. Fiction titles use a separate track (below). Three Tier A nonfiction titles were promoted to `books/` in Pass 4 and no longer live under `upcoming/`.
 
-**Refresh rule:** When a book's `docs/status.md` changes phase or next actions materially, update this table in the same PR.
+**Refresh rule:** When a book's `docs/status.md` changes phase or next actions materially, update the relevant table in the same PR (nonfiction rows here; fiction rows in **Upcoming fiction**).
 
 **Portfolio audit (May 2026):** [docs/portfolio-audit/](../../docs/portfolio-audit/) — promotion readiness, differentiation, and follow-up backlog ([#99](https://github.com/ksteffe/after-certainty/issues/99)).
 
@@ -17,6 +17,16 @@ Dashboard for five nonfiction manuscripts under `upcoming/` (Velorum uses a sepa
 | [Why Collaboration Is So Hard](../why-collaboration-is-so-hard/) | Phase 2 — Part I complete | ~10.8k words; front matter + Part I depth pass | Part I author read-through; Phase 2 Parts II–IV | [status](../why-collaboration-is-so-hard/docs/status.md) |
 | [The Economy We Don't Experience](../the-economy-we-dont-experience/) | Phase 2 in progress | ~7.4k words; intro + Ch 1–8 + conclusion; compression frame | Part I author read-through; Ch 2–3 footnote verify | [status](../the-economy-we-dont-experience/docs/status.md) |
 | [The Discipline of Uncertainty](../the-discipline-of-uncertainty/) | Phase 2 — Part I depth complete | ~7.5k words; intro + Ch 1–12 + conclusion | Part I author read-through; Part II–VI echo pass | [status](../the-discipline-of-uncertainty/docs/status.md) |
+
+## Upcoming fiction
+
+Not part of the nonfiction editorial passes or judgment/alignment/compression cluster. Planning lives under each book's `docs/`; exports stay disabled until a manuscript spine is ready.
+
+| Book | Phase | Progress summary | Next action | Status |
+|------|-------|------------------|-------------|--------|
+| [Velorum](../velorum/) | In progress | Mythic fantasy; Act I chapters drafted; voice/continuity specs under `velorum/docs/` | Act I continuity + chapter pipeline per [`agents/README`](../velorum/docs/agents/README.md) | [project spec](../velorum/docs/project-spec.md) |
+
+*Boundary Conditions promoted to [`books/boundary-conditions/`](../../books/boundary-conditions/) — see that book's [`docs/status.md`](../../books/boundary-conditions/docs/status.md).*
 
 ## Judgment / alignment / compression cluster
 
@@ -70,6 +80,7 @@ Incremental depth pass delivered; full ~50–90k bands remain future work after 
 
 ## Conventions
 
-- Each book: `docs/book-rules.md`, `docs/drafting-process.md`, `docs/status.md`
-- Templates: [`_templates/`](_templates/)
-- Promote to `books/` when Phase 5 criteria in each book's `drafting-process.md` are met
+- **Nonfiction:** each book maintains `docs/book-rules.md`, `docs/drafting-process.md`, `docs/status.md`
+- **Fiction:** planning under `docs/` (Velorum: `project-spec.md`, `voice-spec.md`, agents; Boundary Conditions: workbook-derived briefs + [`status.md`](../boundary-conditions/docs/status.md))
+- Templates: [`_templates/`](_templates/) (nonfiction scaffold)
+- Promote to `books/` when Phase 5 criteria in each book's `drafting-process.md` are met (nonfiction); fiction promotion criteria TBD per title

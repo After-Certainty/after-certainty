@@ -74,4 +74,4 @@ Five essay-length or in-progress manuscripts remain under [`upcoming/`](upcoming
 | **When Interpretation No Longer Matters** — *Authority After Understanding Collapses* | [`upcoming/when-interpretation-no-longer-matters/index.md`](upcoming/when-interpretation-no-longer-matters/index.md) | Authority when explanation and repair no longer work. |
 | **Why Collaboration Is So Hard** — *And why the effort still matters* | [`upcoming/why-collaboration-is-so-hard/index.md`](upcoming/why-collaboration-is-so-hard/index.md) | Coordination without full ownership—contribution and trust under diffuse responsibility. |
 
-**Fiction (separate track):** **Velorum** — [`upcoming/velorum/index.md`](upcoming/velorum/index.md).
+**Fiction:** **Velorum** (upcoming) — [`upcoming/velorum/index.md`](upcoming/velorum/index.md). **Boundary Conditions** (organizational fiction) — [`books/boundary-conditions/index.md`](books/boundary-conditions/index.md).
