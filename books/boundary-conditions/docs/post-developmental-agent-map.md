@@ -93,7 +93,7 @@ Run **03** once across **Ch 13 + 14** for duplicate-meeting residue.
 | Tier | State | Notes |
 |------|--------|-------|
 | Doc captured | done | this file |
-| Tier A | in progress | see commits on revision branch |
+| Tier A | done | Ch 7–14 — agents 01–06 (May 2026); see commit `tier-a-agent-passes` |
 | Tier B | pending | |
 | Tier C | pending | |
 | Cross-book | pending | |

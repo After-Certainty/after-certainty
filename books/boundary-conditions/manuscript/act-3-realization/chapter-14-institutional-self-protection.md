@@ -228,7 +228,7 @@ Priya waited.
 
 “I should have said it earlier,” Nate said.
 
-“You said it when you could not carry it silently anymore,” Priya said. “There is a difference.”
+“You said it when you couldn’t carry it silently anymore,” Priya said.
 
 She left.
 

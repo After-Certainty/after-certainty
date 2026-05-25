@@ -198,35 +198,13 @@ Owen replied-all: *Then whose service is the pause banner.*
 
 Nobody replied.
 
-At two thirty-four Product ops opened a ticket titled *CX pause language* and assigned it to Legal.
+At two thirty-four Product ops opened *CX pause language* and ping-ponged it to Legal, back to Product, then to Infrastructure—*flags are not policy*—while a platform director emailed that onboarding could not pause without executive sponsor and quantified revenue impact.
 
-At two forty-one Legal reassigned it to Product with the note *wording risk*.
+Identity posted policy draft fourteen ready for Legal. Security wanted an emergency review board for consent copy. Customer Systems, Application, Identity, Product, and Legal each replied on the delegated-write ticket with some variant of *not our service*.
 
-At two fifty-eight Infrastructure commented on the ticket: *Flags are not policy. Cannot flip without signed semantics.*
+Nate copied each line into the cross-boundary remediation row as evidence, not solution, until the row looked like a novel written by committees.
 
-Nate copied each line into the cross-boundary remediation row as evidence, not solution.
-
-A platform director emailed that onboarding orchestration should not be paused without an executive sponsor because revenue impact had not been quantified at the segment level Nate had requested three days ago.
-
-Identity posted that policy draft version 14 was ready for Legal review and would not be merged until review completed.
-
-Infrastructure opened a change request to expand logging that Customer Systems said would drown their support queues with false positives.
-
-Security requested an emergency review board for any mitigation that touched consent copy.
-
-Customer Systems opened a ticket: *Profile object model not our service for delegated write paths.*
-
-Application support replied: *Upstream service owns delegated behavior.*
-
-Identity replied: *Policy semantics ready. Not our service to deploy.*
-
-Product replied: *CX flows ready pending Legal.*
-
-Legal replied: *Pending Product segments.*
-
-Nate copied each message into the remediation row until the row looked like a novel written by committees.
-
-Nate spent two hours moving between tabs, not to solve the seam, but to keep the seam visible.
+He spent two hours moving between tabs, not to solve the seam, but to keep the seam visible.
 
 At three ten he joined a Zoom Legal had scheduled without Infrastructure.
 
@@ -420,7 +398,7 @@ Caleb slid a printed template across the desk. Option A had crept back toward th
 
 “Owen’s red cell is bleeding again,” Caleb said.
 
-Nate looked at the revenue impact column and felt the tired anger of watching fear choose simplicity because simplicity could be emailed.
+Nate looked at the revenue impact column and felt the tired anger of another row going yellow without a name in the owner field.
 
 “We need a name for the failure,” he said.
 

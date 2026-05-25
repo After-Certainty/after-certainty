@@ -186,33 +186,19 @@ Warren was quiet.
 
 “Write true slower,” Warren said, and hung up.
 
-Nate drafted the executive version three times.
+Nate drafted the executive sentence twice—once accurate enough that Warren’s staff called it “legally spicy,” once soothing enough that Sarah Kim threatened to object in writing: *We have resolved customer-facing risk through enhanced monitoring and targeted controls.*
 
-Version one was accurate and unusable: *Delegated authorization allows cross-profile writes when consent is not recorded at action time; mitigations do not close the write path; root fix requires seam ownership and policy version alignment.*
+Warren called while Sarah’s objection was still on screen.
 
-Warren’s staff member called it “legally spicy.”
-
-Nate read version one aloud on a call with Warren’s staff member and Sarah Kim on mute.
-
-“Board counsel will hear *allows* and think *ongoing*,” the staff member said.
-
-“Board counsel should hear *allows* and think *accurate*,” Sarah said. “If you want soothing, write soothing in a footnote labeled soothing.”
-
-Version two was soothing and false: *We have resolved customer-facing risk through enhanced monitoring and targeted controls.*
-
-Sarah Kim, cc’d on the draft, replied all: *If you send version two, I will object in writing.*
-
-Warren called Nate’s cell while Sarah’s objection was still on screen.
-
-“If Legal objects to version two, I need version two-point-five by six,” Warren said.
+“If Legal objects, I need something by six,” Warren said.
 
 “There is no two-point-five between true and false,” Nate said.
 
-“There is always two-point-five in executive comms,” Warren said. “Write version three.”
+“There is always two-point-five in executive comms,” Warren said.
 
-Version three shipped to Warren’s staff at six fifty-two: *We have identified an authorization and consent control gap in delegated onboarding flows. Customer impact is contained by active mitigations. Remediation requires cross-boundary ownership we are staffing.*
+The version that shipped at six fifty-two: *We have identified an authorization and consent control gap in delegated onboarding flows. Customer impact is contained by active mitigations. Remediation requires cross-boundary ownership we are staffing.*
 
-He hated version three.
+He hated that version anyway.
 
 It was still the first executive sentence that did not lie about sync.
 
@@ -230,7 +216,7 @@ Nate said, “Contained means mitigations reduce acute exposure. It does not mea
 
 Silence on the line.
 
-“Version three stands,” she said. “With footnote.”
+“It stands,” she said. “With footnote.”
 
 Sarah Kim, cc’d, replied thirty seconds later: *Footnote acceptable if repro steps stay in engineering channel only.*
 
@@ -381,7 +367,7 @@ Holt said, “You need enforcement at write time before you need another narrati
 
 The staff member said, “Can we sequence—”
 
-Isaac said, “Sequencing without ownership is a Gantt chart for a fire.”
+Isaac said, “You can put tasks on a timeline. You can’t put a signatory on a timeline.”
 
 Priya slid the print across the table.
 

@@ -137,6 +137,24 @@ It ended with Owen’s tables attached and Legal’s redlines visible—progress
 
 ---
 
+On Tuesday at four, Caleb had run a bridge without Nate on the invite.
+
+Nate learned from the summary bot at four thirty—Legal hedging, Owen asking for segment language, Infrastructure defending flags, Priya posting the diagram, Caleb ending with *no owner on seam*.
+
+Nate forwarded the summary to Warren with one line: *Assign seam lead or accept regional disable as only shipped mitigation.*
+
+Warren had not replied until ten p.m.
+
+*You’re still the connective tissue. Don’t be dramatic.*
+
+Nate had stared at the message long enough to feel the insult and the accuracy in the same breath.
+
+He had typed back: *Connective tissue is not signatory.*
+
+Warren had reacted with a thumbs-up that meant *we’ll talk Monday* not *you’re wrong*.
+
+---
+
 Warren pulled him aside after the executive pre-read.
 
 “You’re holding this together,” Warren said.
@@ -276,22 +294,6 @@ The meeting moved five inches.
 
 ---
 
-Tuesday at four Caleb had run a bridge without Nate on the invite.
-
-Nate learned from the summary bot at four thirty—Legal hedging, Owen asking for segment language, Infrastructure defending flags, Priya posting the diagram, Caleb ending with *no owner on seam*.
-
-Nate forwarded the summary to Warren with one line: *Assign seam lead or accept regional disable as only shipped mitigation.*
-
-Warren had not replied until ten p.m.
-
-*You’re still the connective tissue. Don’t be dramatic.*
-
-Nate had stared at the message long enough to feel the insult and the accuracy in the same breath.
-
-He had typed back: *Connective tissue is not signatory.*
-
-Warren had reacted with a thumbs-up that meant *we’ll talk Monday* not *you’re wrong*.
-
 By Thursday afternoon the informal job had a shape on his calendar: fourteen meetings, nine DMs marked urgent, zero names on the seam row.
 
 The war-room fluorescents had started humming at a pitch he noticed only when he was tired. He rubbed his eyes over another Slack thread and still did not own the answer.
@@ -370,7 +372,7 @@ Warren would have called it modesty again.
 
 ---
 
-He left at seven and drove home through traffic that moved like a mitigation debate—everyone inching forward, everyone protecting their lane.
+He left at seven and drove home through stop-and-go traffic, brake lights ahead of him in every lane.
 
 Hadley was chopping vegetables when he walked in. She did not ask about the incident first. She asked whether he wanted food.
 
@@ -438,7 +440,7 @@ Another pause.
 
 *Fair. Nine a.m. convergence. Twenty minutes. Bring owners.*
 
-Nate closed the laptop and listened to the dishwasher finish a cycle that sounded, absurdly, like a clean deploy in a system that was not his to own.
+Nate closed the laptop and listened to the dishwasher finish a cycle while the incident channel stayed quiet on the counter beside him.
 
 Saturday morning he woke to seventeen DMs and a forward from Warren titled *urgent alignment*.
 
