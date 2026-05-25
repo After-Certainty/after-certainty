@@ -50,6 +50,8 @@ HR’s portal accepted the request and generated a ticket number that felt insul
 
 By lunch an HR business partner named Joelle had replied with a link to a thirty-minute orientation video and a PDF about benefits continuity. The video’s narrator said *your growth journey* four times. Nate watched it on mute while eating a sandwich he tasted for the first time in weeks.
 
+Hadley texted at twelve oh five: *Enjoy the quiet. They can’t put you back on the header today.*
+
 At one thirty Priya sent a screenshot of the remediation row—seam still blank, synthesis still listed as informal owner in a footnote Nate had not written.
 
 *If you leave, delete the footnote,* she wrote.
@@ -59,6 +61,14 @@ He wrote back: *I can’t edit exec fields. I can leave.*
 Priya: *Then leave loudly enough they hire.*
 
 He did not reply.
+
+At two ten Warren’s staff re-added him to the bridge roster as optional advisor.
+
+Hadley called from the grocery aisle, voice thin over bad signal. “I said it would be quiet.”
+
+“You weren’t wrong about the transfer,” Nate said. “You were wrong about today.”
+
+“Eat anyway,” she said, and hung up before he could argue.
 
 Joelle scheduled a fifteen-minute check-in for three p.m. In person, not the conduct meeting from after the design outburst—transfer logistics.
 

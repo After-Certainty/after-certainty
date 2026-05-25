@@ -326,13 +326,13 @@ That night in their kitchen Hadley said, “Mark’s line was hard.”
 
 Hadley stacked plates.
 
-“Your father asked me twice if you still worked at the company,” she said. “I told him you changed jobs to protect your soul. He said, ‘Good. Souls need maintenance.’”
+“Your father asked me twice if you still worked at the company,” she said. “I told him you changed teams to protect your soul.”
 
 Nate laughed, wet-eyed.
 
 “He said that?”
 
-“He did,” Hadley said.
+“He said souls need maintenance,” Hadley said. “I made up the soul part because I panicked. I’ll tell him the real sentence Sunday.”
 
 She said, “Your mother told me I could wash dishes if I didn’t reorganize her kitchen.”
 

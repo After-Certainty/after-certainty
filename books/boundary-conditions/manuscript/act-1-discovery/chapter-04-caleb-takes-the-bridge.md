@@ -98,6 +98,14 @@ Nate looked at the Colorado sky through the windshield and said the thing he had
 
 Warren approved.
 
+Caleb posted the owner matrix in-channel. One row still listed *cross-boundary remediation — Nate Mercer* with a question mark Caleb had meant for Warren to fill.
+
+Caleb DM’d thirty seconds later: *wrong row. fixing.*
+
+Nate: *leave synthesis blank or Legal owns the fight*
+
+Caleb: *copy. again.*
+
 The bridge thinned out. Caleb posted the decision line in the operational channel with owners attached, which Nate had not seen Warren’s staff do cleanly in the first twelve hours of the incident.
 
 After the call ended, Rachel turned down the radio.

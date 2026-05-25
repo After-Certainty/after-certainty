@@ -552,6 +552,8 @@ She kissed his temple, the way she did when he came home from airports during th
 
 He said, “Yes.”
 
+Later, in bed, he dreamed neither bridges nor boardrooms—only the kitchen, rain on glass, Hadley’s hand on his shoulder when he finally stopped checking the lock screen in his sleep.
+
 He woke once at two a.m. from habit, saw no Sev badge, no red unread storm, and went back to sleep.
 
 In the morning Lena’s tracked-remediation summary arrived without cc’ing him on action items.
