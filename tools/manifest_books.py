@@ -119,6 +119,39 @@ def resolve_cover_path(repo: Path, spec_path: Path, spec: dict, cover_value: str
     return None
 
 
+def resolve_open_graph_path(repo: Path, spec_path: Path, spec: dict, og_value: str) -> str | None:
+    """
+    Resolve `book.open_graph_image` to a repo-relative path for raw.githubusercontent URLs.
+    """
+    book_dir = spec_path.parent.resolve()
+    anchors: list[Path] = []
+
+    tp_parent = _title_page_markdown_parent(spec, book_dir)
+    if tp_parent is not None:
+        anchors.append(tp_parent)
+    anchors.append(book_dir)
+
+    if og_value.strip():
+        seen: set[Path] = set()
+        for base in anchors:
+            candidate = (base / og_value).resolve()
+            if candidate in seen:
+                continue
+            seen.add(candidate)
+            if candidate.is_file():
+                rel = to_repo_relative(repo, candidate)
+                if rel:
+                    return rel
+
+    for name in ("open-graph.png", "open_graph.png"):
+        candidate = (book_dir / name).resolve()
+        if candidate.is_file():
+            rel = to_repo_relative(repo, candidate)
+            if rel:
+                return rel
+    return None
+
+
 def raw_content_url(repo_slug: str, ref: str, repo_rel_path: str) -> str:
     return f"https://raw.githubusercontent.com/{repo_slug}/{ref}/{repo_rel_path}"
 
@@ -171,6 +204,8 @@ def build_book_entry(
     enabled_formats = set(spec_formats(spec))
     cover_value = str(book.get("title_page_cover", "")).strip()
     cover_repo_path = resolve_cover_path(repo, spec_path, spec, cover_value)
+    og_value = str(book.get("open_graph_image", "")).strip()
+    og_repo_path = resolve_open_graph_path(repo, spec_path, spec, og_value)
 
     entry: dict = {
         "slug": slug,
@@ -185,6 +220,10 @@ def build_book_entry(
         if cover_repo_path and repo_slug
         else None,
         "coverImagePath": cover_repo_path,
+        "openGraphImage": raw_content_url(repo_slug, ref, og_repo_path)
+        if og_repo_path and repo_slug
+        else None,
+        "openGraphImagePath": og_repo_path,
         "bookDir": book_dir.relative_to(repo).as_posix(),
         "docx": format_entry(repo_slug, release_tag, "docx", stem, "docx" in enabled_formats),
         "epub": format_entry(repo_slug, release_tag, "epub", stem, "epub" in enabled_formats),
