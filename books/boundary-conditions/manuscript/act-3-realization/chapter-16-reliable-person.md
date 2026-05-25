@@ -226,27 +226,7 @@ He stacked plates wrong, noticed, fixed them.
 
 “Good,” Hadley said. “Read it after dinner. Not during.”
 
----
-
-Wednesday morning Nate posted in the engineering channel—not a speech, a comment on Priya’s diagram thread.
-
-*Technical truth is settled enough to work. Organizational ownership is not. Coordinators are not owners. Stop routing seam decisions to people without signatory authority.*
-
-He waited.
-
-Priya reacted with agreement.
-
-Isaac reacted with a single word: *Yes.*
-
-Owen reacted: *Product still needs segment language.*
-
-Security reacted: *Legal still owns words.*
-
-Caleb reacted privately: *Bridge at two. I run. You only join if seam question is on the agenda.*
-
-Nate typed: *Copy.*
-
-At two he did not join.
+At two he did not join the bridge Caleb ran.
 
 He walked past the war room at two oh-five and heard Caleb’s voice steady on host line, Infrastructure arguing logging scope, Priya saying *seam* without looking at Nate’s empty chair.
 

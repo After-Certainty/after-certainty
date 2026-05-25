@@ -2,15 +2,7 @@
 
 By Wednesday, Nate had stopped pretending the incident had a single channel and started treating his calendar as the real map.
 
-Seven thirty: Security posture review.
-Eight fifteen: Product customer-impact working session.
-Nine: Identity policy semantics with Legal observing like a judge at a trial that had not been scheduled.
-Ten: Infrastructure flag strategy.
-Ten forty-five: Executive staff pre-read with Warren.
-Eleven thirty: Engineering open questions—supposed to be thirty minutes, scheduled for ninety.
-Two: Bridge.
-Four: Cross-team doc scrub Caleb had titled *convergence* because *synthesis* sounded like a job description.
-Six thirty: Warren “quick sync” that was never quick.
+Seven thirty: Security posture. Eight fifteen: Product customer impact. Nine: Identity semantics with Legal observing like a judge at a trial that had not been scheduled. Ten: Infrastructure flags. Ten forty-five: Warren pre-read. Eleven thirty: Engineering open questions—thirty minutes on the invite, ninety in reality. Two: Bridge. Four: Cross-team doc scrub. Six thirty: Warren “quick sync” that was never quick.
 
 He had not designed any of these meetings. He had attended all of them.
 
@@ -32,10 +24,6 @@ A Product manager walked past and said, “Glad you’re here—Legal was about 
 Nate did not feel glad.
 
 He felt recruited.
-
-When he was in the room, sentences moved.
-
-When he left, they reverted to their native dialects.
 
 Security posted exposure thresholds.
 

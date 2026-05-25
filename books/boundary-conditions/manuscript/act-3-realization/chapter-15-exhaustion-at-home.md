@@ -82,6 +82,16 @@ She said, “Mark’s portal link is in email. Rachel needs the prescription num
 
 He ate standing up.
 
+Hadley watched him reach for the phone between bites.
+
+“You taught them you’d fix it,” she said. Not gentle. Not cruel. “Don’t act surprised they’re clapping.”
+
+He put the phone face-down on the counter.
+
+She slid the toast plate an inch closer without apologizing for the sentence.
+
+He ate one more bite standing up, then sat.
+
 Mark texted: *Why didn’t you warn me the portal link was in email.*
 
 Rachel texted: *I can do pharmacy at lunch if someone sends the number in one message.*

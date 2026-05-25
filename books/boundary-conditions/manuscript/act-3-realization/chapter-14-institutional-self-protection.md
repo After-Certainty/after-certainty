@@ -1,38 +1,16 @@
 # Chapter 14 — Institutional Self-Protection
 
-Thursday’s design meeting resumed after lunch with coffee and false hope.
+Thursday’s design meeting filled before the hour—cross-team leads, Priya, Owen already on the phone, Infrastructure, Pablo’s ranked slides, Caleb taking notes in the corner. The agenda said *Target state architecture for delegated authorization remediation*. The third slide said *Ownership TBD*.
 
-Nate had already sat through the morning pass—the one that ended with Pablo’s ranked options, Priya’s *feasibility for whom*, and Warren’s promise of staffing options that were not signatures. The afternoon session was supposed to be different. Warren’s chief of staff had emailed a revised agenda that used the word *decision* twice and *owner* once.
-
-Cross-team leads filed back in. Priya. Owen for ten minutes that would become thirty. Infrastructure. Application architecture. Security. Pablo with slides refreshed. Caleb taking notes in the corner, pen moving even when nobody spoke.
-
-The agenda on screen still said *Target state architecture for delegated authorization remediation*.
-
-The first slide still said *Principles*.
-
-The second still said *Open questions*.
-
-The third still said *Ownership TBD*.
-
-Warren opened the afternoon.
+Warren opened with the same sentence Nate had heard in every room that week.
 
 “We have language now,” Warren said. “We have board attention. We need a durable plan that does not require heroics every quarter.”
 
-Nobody disagreed with the sentence.
-
-Everybody disagreed with what it implied for their roadmap.
-
-Before Owen arrived, Infrastructure had spent ten minutes on EU merge job two—whether a rollback order could be dated without admitting prior policy versions were wrong in production. Application architecture had called that *historical semantics*, not infrastructure. Security had called it *exposure until proven otherwise*. Priya had drawn a timeline on the glass until Warren’s chief of staff asked her to use the slide deck.
+Nobody disagreed. Everybody disagreed with what it implied for their roadmap.
 
 Nate had written in the margin: *We are negotiating adjectives because nouns cost headcount.*
 
-Warren had joined the morning pass for twelve minutes and left with “alignment offline” when Priya asked who signed EU rollback order.
-
-In the hallway before lunch Caleb had said, “Afternoon is where it breaks.”
-
-Nate had said, “Morning already bent.”
-
-Caleb had said, “Afternoon is where you break or they schedule another meeting.”
+In the hallway before the room Caleb had said, “This is where it breaks or they schedule another meeting.”
 
 ---
 
@@ -152,21 +130,23 @@ The platform director said, “We cannot be the system of record for consent sta
 
 The product director said, “We cannot take a mandate without revenue impact sign-off.”
 
-Nate heard himself say, “Revenue impact is on the template in red because Owen put it there. Exposure is on the template because Security put it there. The seam is empty because everyone in this room is describing a boundary their team will not cross.”
-
-Silence.
+Nate heard himself say, “Revenue impact is on the template because Owen put it there. Exposure is on the template because Security put it there.”
 
 Warren said, “Nate—”
 
-Nate heard his own voice continue, quieter and harder than he intended.
+Nate did not stop.
 
-“Every person here keeps explaining what their org will not own while still expecting the company to fix a cross-boundary failure. We optimized local ownership until system outcomes became politically illegal. And when the outcome stalls, the work routes to coordinators who do not have authority to sign anything—so you get our heroics instead of your structure.”
+“The seam is empty because everyone in this room is describing a boundary their team will not cross.”
 
-He heard the last word land—*structure*—and knew he could not take it back without lying.
+Silence.
+
+He had more—*optimized local ownership*, *coordinators without signatory authority*, *heroics instead of structure*—and abandoned it when he saw Priya’s face. Not because he lost the sentence. Because the room had finally heard the noun.
 
 Warren’s chief of staff stopped typing.
 
 Pablo’s slide remote clicked once, accidental, loud.
+
+Nate heard the last word he had actually said—*cross*—and knew he could not take the room back without lying.
 
 The room went quiet—the kind where people discovered the air conditioning and the click of Pablo’s slide remote and the fact that nobody was looking at Warren first.
 

@@ -10,21 +10,7 @@ Eli had the variant table.
 
 Nate had seventeen tabs open and a headache that coffee was losing to.
 
-Before Isaac spoke, the bridge had been doing what bridges did when the problem still had the wrong name—Infrastructure defending logging scope, Product asking whether customer comms could still say *profile update*, Security asking for repro windows, Legal asking whether anyone had used the word *breach* in a channel that was not customer-facing. Caleb had been pinning variant numbers. Warren’s staff member had been watching the clock.
-
-At minute two Application Architecture had asked whether the incident could be downgraded to Sev Two if customer writes were blocked in one region. Security had said downgrade language was a Legal sentence, not an engineering knob. Product had said downgrade language was a churn sentence. Infrastructure had said downgrade language was irrelevant until logging proved whether writes were still happening.
-
-At minute four Legal’s liaison had asked whether anyone had pasted Pablo’s executive summary into a customer-facing channel. Three people typed *no* at once. Someone typed *not yet*. Sarah Kim, not on audio, had reacted in the thread with a lock emoji and a link to the glossary draft that still had no owner.
-
-At minute six Owen had asked whether the mitigation template could still list *sync latency* as primary customer impact. Security had replied that customer impact was authorization-shaped whether or not the template admitted it. Infrastructure had said the template was not their service. Product had said the template was Warren’s staff’s service. Warren’s staff member had said the template was Legal’s until Legal signed a glossary, which was not today.
-
-Nate had muted, unmuted, and typed: *We are arguing about field names because we do not have a problem name yet.*
-
-Three people typed *+1*. Nobody changed the template.
-
-At minute eleven Eli had posted variant five again with a note that staging still reproduced cross-profile write under delegated caregiver trust. Someone from Application Architecture had typed *not our orchestration layer* and someone from Identity had typed *not our policy semantics* and Priya had typed *that is the seam* and the thread had gone quiet in the way threads went quiet when the seam was named without an owner.
-
-Nate had been translating, sentence by sentence, into a language executives could forward without signing anything.
+Before Isaac spoke, the bridge had spent twenty minutes on the wrong name—downgrade fights, Pablo-in-channel panic, template fields still listing *sync latency*, Eli’s variant five in the thread with *not our orchestration* on one side and Priya’s *that is the seam* on the other. Caleb had pinned variant numbers. Warren’s staff had watched the clock. Nate had typed once: *We are arguing about field names because we do not have a problem name yet.* Three people had typed *+1*. Nobody had changed the template.
 
 “We keep calling this a sync defect,” Isaac said, “because sync is where the write shows up. That does not make it a sync defect.”
 

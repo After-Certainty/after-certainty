@@ -80,11 +80,19 @@ New Nate had a calendar block labeled *sleep*.
 
 His phone still buzzed twice before midnight—Warren forwarding a press inquiry, Priya asking whether EU map needed another page. He answered Priya with a file path. He forwarded Warren’s press thread to Lena without comment.
 
+Earlier, at eight thirty-two, Warren had DM’d: *Board prep—need Mercer synthesis on seam regression. Thirty min.*
+
+Nate had typed three bullets before he remembered Lena had signed at ten thirty-one and owned the narrative Warren wanted compressed.
+
+He deleted the draft, forwarded the thread to Lena with *Cho owns remediation—use or discard*, and watched Warren reply *Got it from Lena* eight minutes later.
+
+Ten minutes lost. Habit, not heroism.
+
 ---
 
 They reached back through every channel that had learned his name.
 
-The operational channel refreshed like a heartbeat Nate had trained himself not to answer. Executive summary bot. Customer Systems care queue. Legal review thread with forty-seven replies and no signatory. Infrastructure flag table. Product segment language draft. Security escalation matrix. Each one had learned, in February, that @Mercer meant someone would translate fear into a sentence leadership could forward.
+The operational channel refreshed like a heartbeat Nate had trained himself not to answer—summary bot, care queue, Legal thread, flag table, segment drafts—each one still trained, in February, to read @Mercer as translation.
 
 Wednesday at seven fifty-eight his calendar auto-accepted a bridge invite titled *Seam Regression — synthesis* and listed him as optional attendee.
 

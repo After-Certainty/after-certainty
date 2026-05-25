@@ -14,6 +14,20 @@ She nodded.
 
 “Then click,” she said. “And do not argue with strangers on the internet inside the company.”
 
+She paused with the mug in both hands.
+
+“Rest after you submit,” she said.
+
+“I need to finish the handoff doc tonight,” he said. “Joelle wants seam names or she pauses the transfer.”
+
+“Mark can handle pharmacy Thursday,” she said.
+
+“Mark can,” Nate said. “I still need the doc.”
+
+Hadley opened the family calendar on her phone, moved pharmacy to Rachel without asking Nate, and closed it again.
+
+“Rest is not the same as disappearing,” she said. “You’re learning the difference late.”
+
 The war room corridor was loud behind his back—Caleb’s voice on a bridge audio line, Legal asking for signatory, Infrastructure defending a flag—while Nate sat in a small focus room two doors down with HR’s portal open and his cursor on *Submit*.
 
 He read the reason field one last time, fluorescent light flat on the focus-room table, bridge audio leaking under the door like weather.

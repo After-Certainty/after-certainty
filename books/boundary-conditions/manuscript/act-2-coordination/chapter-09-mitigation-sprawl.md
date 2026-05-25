@@ -438,35 +438,7 @@ The call ended.
 
 Nate put the phone down and listened to the house settle around him.
 
-On the table his notebook still showed red cells for global pause and policy rollback—options that would not die because they let leadership feel decisive without choosing an owner.
-
-Monday’s seam meeting would argue RACI again.
-
-Saturday morning Nate opened the template once and counted rows.
-
-Nine implemented.
-
-Three yellow.
-
-Two red.
-
-One blank owner field that made every green cell feel like a lie.
-
-He closed the laptop and went for a run.
-
-Sunday Warren forwarded an executive draft with Option A back in the summary field.
-
-Nate replied: *A is escalation-only. Seam still empty. Attaching Priya table.*
-
-Warren replied: *Stop attaching tables. Execs want sentences.*
-
-Nate replied: *Sentences without tables are how February happened.*
-
-Warren did not reply.
-
-Tonight Owen’s spring rolls sat in his stomach next to the truth Caleb had pinned: *zero agreement on whether any of them fix authorization.*
-
-Nate washed a plate Hadley had left in the sink and went to bed without opening the template again.
+---
 
 Friday morning Owen met him at the coffee machine with red eyes.
 
@@ -503,6 +475,36 @@ Nate sent the paragraph he had been refining since Owen’s dinner.
 Warren was quiet.
 
 “Send it,” Warren said.
+
+---
+
+Saturday morning Nate opened the template once and counted rows.
+
+Nine implemented.
+
+Three yellow.
+
+Two red.
+
+One blank owner field that made every green cell feel like a lie.
+
+He closed the laptop and went for a run.
+
+Sunday Warren forwarded an executive draft with Option A back in the summary field.
+
+Nate replied: *A is escalation-only. Seam still empty. Attaching Priya table.*
+
+Warren replied: *Stop attaching tables. Execs want sentences.*
+
+Nate replied: *Sentences without tables are how February happened.*
+
+Warren did not reply.
+
+Tonight Owen’s spring rolls sat in his stomach next to the truth Caleb had pinned: *zero agreement on whether any of them fix authorization.*
+
+Nate washed a plate Hadley had left in the sink and went to bed without opening the template again.
+
+---
 
 Sunday afternoon Hadley found him on the couch with the laptop closed and the phone face-down.
 
