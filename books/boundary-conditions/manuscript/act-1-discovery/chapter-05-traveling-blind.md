@@ -196,7 +196,7 @@ Platform reliability event would route fear toward Infrastructure and Customer S
 
 Nobody in the thread asked which description was true.
 
-Nate collected his bag from the carousel at home airport—the same belt, the same fluorescent hum he had left from two days earlier with rain on the windows and a laptop still open on his credenza. The city air was damp and familiar. No Rachel with a joke sign. No parents asking whether the work thing had settled. Just him and the wheel of his carry-on and the incident still buzzing in his pocket like it had followed him through TSA twice.
+Nate collected his bag from the carousel at home airport—the same belt, the same fluorescent hum he had left from two days earlier with rain on the windows and a laptop still open on his credenza. The city air was damp and familiar. No Rachel with a joke sign. No parents asking whether the work thing had settled. Just him and the wheel of his carry-on and the incident still pulling notifications every time the screen woke.
 
 He ordered a rideshare and opened the engineering channel one more time before getting into the car.
 

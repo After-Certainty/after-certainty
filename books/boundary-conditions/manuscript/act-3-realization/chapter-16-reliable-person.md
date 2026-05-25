@@ -476,9 +476,9 @@ Caleb said, “About time.”
 
 He left a slot empty on the staffing chart. He skipped a bridge Caleb could run. He handed Mark the neurologist link. He saved the HR draft without submitting.
 
-For one week that felt like the truest work he had done since the seam still had no signatory.
+For one week the work matched what the standards posting described—named surfaces, written sign-off, no implicit primary.
 
-Thursday would tell him whether the company could tolerate someone reliable who stopped being default.
+Thursday would tell him whether the company could leave an owner field empty without reaching for him again.
 
 He read the standards posting after dinner, as Hadley had asked—named policy surfaces, written sign-off paths, bridge cadence reduced, prohibition on implicit primary incident ownership. He felt seen in a way performance reviews never managed.
 

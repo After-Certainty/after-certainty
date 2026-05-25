@@ -420,8 +420,6 @@ He read it twice.
 
 Too honest for Warren, maybe.
 
-Necessary for the table.
-
 He sent it to Caleb and Warren both.
 
 Warren reacted with a phone call instead of a thumbs-up.

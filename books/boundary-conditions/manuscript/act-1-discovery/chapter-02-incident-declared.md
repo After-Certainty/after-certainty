@@ -202,4 +202,4 @@ The hourly summary bot had already opened a second document.
 
 *SEV1 Technical Summary — Hour 2 (AUTO)*
 
-He laughed once, quiet enough that the family reuniting beside him did not look over, and walked toward baggage claim with the Sev One still buzzing in his pocket like it had somewhere else to be.
+He laughed once, quiet enough that the family reuniting beside him did not look over, and walked toward baggage claim with the Sev One still live on his phone.

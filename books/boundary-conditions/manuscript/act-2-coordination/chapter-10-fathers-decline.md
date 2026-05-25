@@ -120,7 +120,7 @@ Daniel looked at Nate.
 
 Nate said, “I want you to stay in charge of what you can stay in charge of. I also want you safe when a step fails at nine at night.”
 
-The room held the silence that followed truth when truth was not cruel on purpose.
+The room held the silence that followed a sentence nobody wanted to argue with.
 
 ---
 

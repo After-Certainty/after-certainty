@@ -94,7 +94,7 @@ Once the engineering channel had language, old mitigations looked different. Reg
 
 Isaac spent the afternoon in a smaller room with Priya, Eli, and two identity engineers Nate did not know by first name, building a consent-and-write-scope matrix with Sarah Kim from Legal, who had been waiting for someone to hand her a noun.
 
-Nate moved between that room and the executive template and Warren’s private messages, not because he was the smartest person in the building, but because the building still routed translation to him by default.
+Nate moved between that room and the executive template and Warren’s private messages because the building still routed translation to him by default.
 
 In the matrix room Sarah pointed at a row labeled *caregiver delegated write*.
 

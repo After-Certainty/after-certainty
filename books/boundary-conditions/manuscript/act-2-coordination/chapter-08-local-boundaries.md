@@ -308,7 +308,7 @@ Owen brought segment counts that made the room quiet. Priya brought policy versi
 
 At minute seventy-eight, a platform director said, “This is an identity problem.”
 
-Priya said, “It is an identity problem the way a bridge collapse is a materials problem.”
+Priya said, “Identity owns semantics. Infrastructure owns flags. The gap between them is still empty in your RACI.”
 
 Nate wrote on the board: *Who signs the seam?*
 
@@ -324,7 +324,7 @@ Owen said, “That kills conversion.”
 
 The chief of staff said, “We will circle back.”
 
-Which meant the seam would remain unowned for another week, dressed in better vocabulary.
+The seam would remain unowned for another week, dressed in better vocabulary.
 
 ---
 

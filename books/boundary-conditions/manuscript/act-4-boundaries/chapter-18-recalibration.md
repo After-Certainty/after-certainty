@@ -306,7 +306,7 @@ Nate sat with that.
 
 Mark hung up without goodbye.
 
-Nate could live with that too, if living with it was the point.
+Nate could live with that too.
 
 ---
 
