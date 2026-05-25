@@ -60,11 +60,7 @@ Warren said, “Board prep is Friday. I need a paragraph that does not start a s
 
 Sarah said, “Then board prep waits until appendix two exists.”
 
-Warren looked at Nate.
-
-Nate said, “Ship without labels, Legal slows you Friday.”
-
-Warren muted.
+Warren looked at Nate, then muted.
 
 After the bridge Pablo stayed on the line with Sarah and Nate while Warren’s staff member left to “socialize tone.”
 
