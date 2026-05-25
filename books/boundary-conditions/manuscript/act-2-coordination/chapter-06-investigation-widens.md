@@ -290,7 +290,7 @@ He did not own narrative. He owned nothing except the habit of answering.
 
 He typed a single reply in-thread: *Cohort size from Customer Systems pending. No comms language until table row validated.*
 
-Then he closed the phone and ate while the food was still warm, which felt like a mitigation with a footnote.
+Then he closed the phone and ate while the food was still warm.
 
 Hadley asked what variant five meant.
 
@@ -308,4 +308,6 @@ She nodded like someone who had watched him schedule meetings about meetings all
 
 “Barely counts,” she said, and went back to her book.
 
-He went to bed before midnight, which counted as rebellion during a Sev One.
+He called his mother back before midnight—neurologist follow-up still on the calendar, nothing urgent resolved, just a voice on the line so she would stop holding the question alone.
+
+He went to bed without opening the incident channel again.

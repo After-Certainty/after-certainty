@@ -34,13 +34,7 @@ They walked again.
 
 He kicked another pebble.
 
-“Thursday afternoon you went quiet on the bridge,” Caleb said. “Not absent. Quiet. Like you were ashamed of being right.”
-
-Nate looked at the path.
-
-“I was ashamed of how I said it in the room,” he said.
-
-“On the bridge you were ashamed of still being the person everyone pings,” Caleb said. “Warren’s staff asked me if you were ‘still stable.’ I said you were right. He did not love that.”
+“On the bridge afterward you went quiet,” Caleb said. “Not absent. Quiet. Warren’s staff asked me if you were ‘still stable.’ I said you were right. He did not love that.”
 
 Caleb stopped walking.
 
@@ -152,7 +146,7 @@ Caleb said, “I’m running the two o’clock bridge. Join or don’t.”
 
 Caleb nodded and went inside.
 
-Nate stayed on the path two minutes longer, breathing cold air, listening to the building hum like a bridge waiting for a primary.
+Nate stayed on the path two minutes longer, breathing cold air, listening to the building ventilation cycle on and off above him.
 
 ---
 
@@ -256,7 +250,7 @@ Priya sent a checkmark.
 
 At his desk Warren appeared in the doorway, rare physical presence.
 
-“I read your channel comment,” Warren said.
+“I read what you said in the room,” Warren said.
 
 “Good,” Nate said.
 

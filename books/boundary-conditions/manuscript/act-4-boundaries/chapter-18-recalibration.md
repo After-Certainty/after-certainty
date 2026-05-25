@@ -52,7 +52,7 @@ Security said alerts were working as designed.
 
 Product said customers were not complaining about alerts.
 
-Nate read the thread from the standards building, recognized the argument shape—local boundaries defending local metrics—and did not type.
+He recognized the argument shape—local boundaries defending local metrics—and did not type.
 
 Nobody @’d him.
 

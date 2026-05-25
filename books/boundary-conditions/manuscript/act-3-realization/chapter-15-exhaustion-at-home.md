@@ -18,10 +18,6 @@ Someone had pasted a paraphrase of Nate’s sentence without attribution. Compli
 
 Caleb sent: *Bridge ran fine. You owe me nothing tonight.*
 
-A principal engineer Nate had never met: *That design meeting comment is going to age well. Sorry you had to be the one.*
-
-Product ops: *Owen is upset but he told me to tell you he gets it. Weird compliment.*
-
 Application Architecture’s director, whom Nate had interrupted: *Uncomfortable. Necessary. Thank you.*
 
 Warren’s chief of staff, private: *Warren wants sustainable staffing. He does not want a channel post. Neither do I.*
@@ -32,7 +28,7 @@ Legal, through Sarah Kim: *What you said in the room is not discoverable unless 
 
 Nate stared at Sarah’s message longer than the sympathy ones.
 
-Sympathy felt like praise with interest due. He had not wanted to be brave. He had wanted a signatory field.
+He had not wanted to be brave. He had wanted a signatory field.
 
 Warren sent nothing until Thursday morning, then a short line: *We should talk about sustainable staffing on the synthesis lane.*
 

@@ -162,15 +162,15 @@ Nate reassigned it to Lena with one line: *Cho owns remediation.*
 
 At ten twenty-nine the ticket bounced back with a note from a director: *Mercer knows February. Cho is new.*
 
-Nate posted in the operational channel again—*Remediation owner is Cho. History via Mercer office hours link*—and watched three reactions appear before Priya pinned the diagram.
+Old habit: he started typing a three-bullet synthesis for the thread before he deleted it and posted only *Remediation owner is Cho. History via Mercer office hours link.*
+
+Priya pinned the diagram. Three reactions appeared and stopped.
 
 At ten forty a platform director Nate had never met requested a fifteen-minute “quick sync” and sent a deck with no owner on the seam slide.
 
-Nate declined and forwarded the deck to Lena with one sentence: *Signatory field is yours. I am advising on schedule only.*
+Nate declined in-channel and forwarded the deck to Lena: *Signatory field is yours. I am advising on schedule only.*
 
 Lena replied: *Received. Stop forwarding decks without declining in public.*
-
-Nate posted in the operational channel: *Remediation owner is Cho. History via Mercer office hours link.*
 
 The thread quieted for eleven minutes.
 
