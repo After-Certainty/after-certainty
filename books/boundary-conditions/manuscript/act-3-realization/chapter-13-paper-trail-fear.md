@@ -306,7 +306,7 @@ Same incident, two documents trained for different rooms—engineering needed re
 
 Hadley was already asleep. Nate set his phone face down on the nightstand and did not open the incident channel again.
 
-In the morning there would be another paragraph to defend and another meeting that circled the seam without signing it. Tonight the fear had a font, a glossary, and a retention hold—and still an empty owner column.
+In the morning there would be another paragraph to defend and another meeting that circled the seam without signing it. Tonight Compliance had a glossary, Legal had a retention hold, and the owner column was still empty.
 
 ---
 
