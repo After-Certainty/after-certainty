@@ -160,7 +160,7 @@ Daniel said, “I am sitting here.”
 
 Everyone stopped.
 
-Daniel looked at each of them, tired, annoyed.
+Daniel looked at each of them with the tired dignity of a man who understood, sometimes late and sometimes early, that his children were arranging his life as if he had already left the room.
 
 “I do not want to be a project,” he said.
 
