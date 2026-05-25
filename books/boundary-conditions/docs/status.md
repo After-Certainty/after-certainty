@@ -7,7 +7,8 @@
 **Done:** Spot refresh **03 + 06** on Pass-2 chapters (Ch **4, 5, 6, 12, 16, 17, 19, 21, 24**)  
 **Done:** **Pass E** — beta-reader edits ([beta-reader-feedback-2026.md](./beta-reader-feedback-2026.md)): bridge dialogue mess (E1), light thematic trim after strong landings (E2), sensory sprinkles in thin conceptual runs (E3), Warren/Owen/Legal cast audit (E4)  
 **Done:** **Pass F** — Round 2 beta feedback: aphorism rhythm (F1), voice differentiation (F2), ambiguity guardrail (F3), operational→philosophy trim (F4)  
-**Done:** Local exports — **DOCX**, **EPUB**, **PDF** (post–Pass F rebuild May 2026)
+**Done:** **Pass G** — Round 3 beta feedback: aphorism dedupe (G1), texture oxygen (G2), ambiguity spot-check (G3)  
+**Done:** Local exports — **DOCX**, **EPUB**, **PDF** (post–Pass F rebuild May 2026; re-export after Pass G optional)
 
 ## Location
 
@@ -53,8 +54,8 @@ Portfolio rollup (nonfiction): [`upcoming/docs/portfolio-status.md`](../../upcom
 
 ## Next actions
 
-1. Commit Pass E + Pass F edits; uncommitted on branch.
-2. Re-export **DOCX**, **EPUB**, **PDF** after Pass F (see [pass-e-export-notes-2026.md](./pass-e-export-notes-2026.md) re-read map: **5, 8, 12, 18**).
+1. Re-export **DOCX** / **EPUB** / **PDF** after Pass G (optional).
+2. Push `upcoming/boundary-conditions` / open PR (Pass E–G committed locally).
 3. Commerce metadata / `purchase_links` when ready for distribution.
 
 ## Open decisions / known issues
@@ -63,6 +64,6 @@ Portfolio rollup (nonfiction): [`upcoming/docs/portfolio-status.md`](../../upcom
 
 ## Rough scale
 
-- Manuscript prose (Ch 1–25): **~73,096** words (post–Pass F)
+- Manuscript prose (Ch 1–25): **~73,358** words (post–Pass G)
 - Stretch band: **80–100k** (per project-spec) — author accepted current length
 - Last assessed: May 2026

@@ -60,10 +60,6 @@ Rachel watched, anxious in the way she got when schedules changed without her wr
 
 Mark grunted.
 
-Not agreement.
-
-Not refusal.
-
 Their mother said, “Nate, will you still fix things if we need you.”
 
 Nate set down his fork.
@@ -264,7 +260,7 @@ Hadley caught Nate’s eye.
 
 He nodded.
 
-Not fully okay.
+He was tired, not fully okay, and still glad he had stayed in the chair.
 
 Learning.
 

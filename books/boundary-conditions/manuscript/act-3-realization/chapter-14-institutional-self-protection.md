@@ -110,11 +110,7 @@ He thought about Caleb’s glossary-shaped summaries and Warren’s staffing cha
 
 He thought about his mother’s insurance forms on the dining table and Daniel asking whether he still drove.
 
-His chest tightened.
-
-Not panic.
-
-Pressure—the kind that accumulated when every system asked for translation and no system offered signature.
+His chest tightened—pressure, not panic, the kind that accumulated when every system asked for translation and no system offered signature.
 
 Warren’s chief of staff said, “Let’s table EU rollback until we have staffing clarity.”
 
@@ -172,13 +168,7 @@ Warren’s chief of staff stopped typing.
 
 Pablo’s slide remote clicked once, accidental, loud.
 
-The room went quiet.
-
-Not bridge quiet.
-
-Room quiet.
-
-The kind where people discovered the air conditioning and the click of Pablo’s slide remote and the fact that nobody was looking at Warren first.
+The room went quiet—the kind where people discovered the air conditioning and the click of Pablo’s slide remote and the fact that nobody was looking at Warren first.
 
 Nate realized he had said it.
 
@@ -440,11 +430,7 @@ In the elevator Infrastructure’s EU lead said, “Glad someone said it,” and
 
 ---
 
-That night the engineering channel was quieter.
-
-Not solved.
-
-Quieter.
+That night the engineering channel was quieter—still not solved, still no seam owner, but the pile-on had thinned to updates.
 
 Someone posted Isaac’s one-sentence problem definition again. Priya posted the diagram. Eli posted variant six with a note: *Still reproducible. Still authorization.*
 

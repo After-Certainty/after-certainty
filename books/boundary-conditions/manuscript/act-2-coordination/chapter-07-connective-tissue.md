@@ -107,7 +107,7 @@ Tuesday’s eight fifteen Product session was worse because everyone agreed cust
 
 Owen had segment tables. Customer Systems had call-volume projections. Legal had a list of phrases they would not sign. Infrastructure had a map of zones where flags could flip this week versus zones where flags would flip after a change window measured in days.
 
-Nate arrived fourteen minutes late because Identity had run long.
+Nate arrived fourteen minutes late because Identity had run long. His shirt was still damp at the collar from the walk between buildings; the conference-room AC blew straight on the back of his neck.
 
 The room had been arguing about whether a pause banner counted as mitigation or comms theater.
 
@@ -304,9 +304,9 @@ He had typed back: *Connective tissue is not signatory.*
 
 Warren had reacted with a thumbs-up that meant *we’ll talk Monday* not *you’re wrong*.
 
-By Thursday afternoon Nate understood the informal job he had accepted without signing anything.
+By Thursday afternoon Nate understood the informal job he had accepted without signing anything—the person who got @’d when a doc stalled, not signatory, not owner, just glue everyone pretended was temporary.
 
-Not the heart. Not the brain. The material between organs that kept them from rubbing raw while the body pretended to be one thing.
+The war-room fluorescents had started humming at a pitch he noticed only when he was tired. He rubbed his eyes over another Slack thread and still did not own the answer.
 
 When he missed a meeting, the doc did not update and the thread filled with parallel truths. When he joined, someone always said, “Nate, can you say that in one sentence?” as if one sentence could hold a cross-boundary failure.
 
@@ -424,7 +424,7 @@ She read it and handed the phone back.
 
 At ten he was still at the kitchen table with the laptop open, writing the paragraph Warren needed for morning.
 
-*Investigation has mapped a single cross-boundary authorization surface spanning onboarding orchestration, identity policy, and profile synchronization. Mitigations have reduced acute risk. Root cause remains multi-factor: policy semantics, consent language, and inherited trust assumptions. Teams are aligned on the map; ownership for coordinated fix is in progress.*
+*Investigation has mapped a cross-boundary authorization surface spanning onboarding orchestration, identity policy, and profile synchronization. Mitigations have reduced acute risk. Failure mechanics remain contested—policy semantics, consent language, sync timing, inherited trust assumptions. Teams share a map shape; ownership for coordinated fix is still empty on the slide.*
 
 He read it twice.
 

@@ -320,7 +320,7 @@ Afterward Caleb said, “That was weird.”
 
 ---
 
-In the new building the standards team had a wall of whiteboards about API deprecation and no incident snacks.
+In the new building the standards team had a wall of whiteboards about API deprecation and no incident snacks. The HVAC in Nate’s new cube ran loud enough that he kept a sweater on his chair.
 
 Nate’s calendar showed gaps.
 

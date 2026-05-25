@@ -246,7 +246,7 @@ When Eli described variant five, the chat filled with the word *legacy* in twelv
 
 Warren said, “Are we narrowing.”
 
-Not a question. A weather report.
+It landed like a weather report, not a question anyone could answer yet.
 
 Nate unmuted, Caleb’s name still on the attendee list as primary.
 

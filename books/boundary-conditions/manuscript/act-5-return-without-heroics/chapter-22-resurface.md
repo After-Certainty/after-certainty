@@ -190,9 +190,7 @@ The room still had a whiteboard from someone else’s sprint planning—sticky n
 
 Same expression as the first time.
 
-Not alarmed for drama.
-
-Alarmed because the facts were bad.
+He was alarmed because the facts were bad, not because Eli enjoyed drama.
 
 He rotated the laptop without ceremony.
 
@@ -510,11 +508,7 @@ Nate: *Home.*
 
 Caleb: *Lena signed hotfix language. Warren signed in-channel. Progress.*
 
-Nate stared at the message.
-
-Not victory.
-
-Structure under load.
+Nate stared at the message. Structure under load—not victory, not yet.
 
 Their mother called at seven oh two.
 

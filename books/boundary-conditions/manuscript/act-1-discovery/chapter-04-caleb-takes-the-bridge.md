@@ -2,7 +2,7 @@
 
 Caleb had been running the bridge for thirty-one hours when Nate finally heard him sound tired.
 
-Not defeated. Tired in the way people sounded when they had stopped expecting the meeting to end and had started treating endurance as a job requirement.
+They sounded tired in the way people sounded when they had stopped expecting the meeting to end and had started treating endurance as a job requirement.
 
 “I need you on for twenty minutes,” Caleb said. “Not all night. Twenty minutes.”
 
@@ -168,7 +168,7 @@ Caleb let them finish, then read back the last five statements in order without 
 
 “Hear yourselves,” he said. “Nobody is lying. Everybody is waiting for somebody else to own the cross-boundary outcome. Nate, I’m going to assign temporary owners for tonight. Priya, technical truth. Owen, customer language with Legal copied. Greg-h, flag strategy with Identity on-bridge. Customer Systems, profile job pause proposal with blast-radius numbers by hour eighteen. Warren, executive choice on partial disable. Objections?”
 
-Silence again—not agreement, but the silence of people who had run out of polite ways to repeat the same walls. Warren said, “Partial disable tonight. Monitoring overnight. Monday for consent language.”
+Silence again—people who had run out of polite ways to repeat the same walls. Warren said, “Partial disable tonight. Monitoring overnight. Monday for consent language.”
 
 Caleb typed while still on mute. Nate watched the operational channel update in real time on his phone screen.
 
@@ -260,9 +260,7 @@ Nate typed back.
 
 *Good if decisions are shipping. Bad if people stopped arguing because they gave up. Check whether anything actually merged.*
 
-Caleb came back with links to two pull requests and one customer comms draft still in Legal.
-
-Not nothing.
+Caleb came back with links to two pull requests and one customer comms draft still in Legal—small motion, but motion.
 
 At hour twenty, Caleb posted the nightly handoff note himself—no bot, no Warren staff rewrite—plain sentences about what had shipped, what was blocked on Legal, and what would break if Monday arrived before consent language did.
 

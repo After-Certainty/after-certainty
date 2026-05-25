@@ -210,7 +210,7 @@ He stared at the sentence until it felt true.
 
 ---
 
-After lunch Nate walked back through the old building corridor on purpose.
+After lunch Nate walked back through the old building corridor on purpose—the carpet still smelled faintly of old coffee from February’s snack table.
 
 The war room door was open.
 

@@ -492,7 +492,7 @@ Warren did not reply until midnight.
 
 Nate stared at the phrase.
 
-Sponsorship was not ownership.
+Warren could sponsor a seam review; he still would not sign the row.
 
 It was vocabulary for delay dressed as progress.
 

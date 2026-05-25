@@ -169,3 +169,67 @@ Power is in the triad; **follow-up paragraph explaining what it means** is often
 |------|--------|
 | Round 2 captured | **done** (this section) |
 | Pass F manuscript edits | **done** (May 2026) |
+
+---
+
+## Round 3 — post–Pass F (May 2026)
+
+**Overall:** Reader confirms literary form is working—**coordination as drama**, not “inspired by” fiction. Title **Boundary Conditions** lands at technical, emotional, institutional, and philosophical levels. **Do not** reframe or over-explain; protect what’s working.
+
+### 1. Aphoristic density — still the #1 craft risk (after Pass F)
+
+**Observation:** Compressed insights remain **excellent but frequent**. Reader anticipates cadence when many pages include variants of:
+
+- *“X was a frame too.”* (e.g. Ch **3**)
+- *“Not agreement. Not resolution.”* (Ch **2**; cousins in **3, 4, 17, 20**)
+- *“The company was better at naming fears…”* (Ch **5**)
+
+**Pass F helped** but did not fully break **per-page** rhythm.
+
+**Pass G action (if run):**
+
+| Do | Don’t |
+|----|--------|
+| **Whole pages** that are operational, procedural, funny, messy—**no** thematic crystallization at page end | Remove Ch **5** triad or all compressed landings |
+| **Cut or merge** ~50% of *not agreement / not resolution / frame too* narrator micro-landings | Add new aphorisms to “balance” |
+| After a keeper aphorism, **80+ words** of plain scene (Slack scroll, wrong button, Caleb typo, family interruption) before next insight | Purple sensory prose |
+
+**Target density:** ≤ **1** narrator-compressed landing per **2–3 pages** in Acts I–III; Act IV quieter already.
+
+### 2. Scene texture — more oxygen (extends Pass E/F3)
+
+**Observation:** Intellectually and emotionally vivid; some scenes still thin on **sensorial** detail.
+
+**Gold anchors to emulate:** airport windows, hotel ice machine, airplane coffee, jet bridge smell, Colorado light.
+
+**Pass G action:** One **physical** beat per 3–4 paragraphs in long organizational runs (Acts II–IV war rooms, Act V standards floor)—**not** metaphor, **camera-observable**.
+
+### 3. Ambiguity — preserve as long as possible (reinforce F3)
+
+**Critical:** Power = uncertainty of root cause, responsibility, institutional truth.
+
+**Never collapse to:** *“the real problem was authorization architecture.”*
+
+Ch **12** = frame **in the room**, not authorial verdict. Acts **IV–V** = multi-boundary remediation language.
+
+**Pass G:** Re-read **12–16, 24–25** for any line that sounds like the book has “decided”; soften to **ongoing multiplicity**.
+
+### 4. Title & form — no manuscript change
+
+Affirmation only. Optional: one-line blurb using title layers (transfer, leak, language failure, probabilistic accountability).
+
+---
+
+## Suggested Pass G (optional, surgical)
+
+| Step | Scope |
+|------|--------|
+| **G1** | Aphorism **dedupe** — grep *not agreement*, *frame too*, *was not.* *It was*, *better at naming*; cut/convert half |
+| **G2** | **Texture sprint** — 1 sensory beat per thin 400-word block (priority **7, 9, 13, 18, 19, 21, 23**) |
+| **G3** | **Ambiguity** spot-check **12–16, 25** only |
+| **G4** | Re-export; beta sample **2, 5, 14, 18** (aphorism + texture + outburst) |
+
+| Item | State |
+|------|--------|
+| Round 3 captured | **done** |
+| Pass G manuscript edits | **done** (May 2026) |

@@ -26,7 +26,7 @@ By nine the report had a nickname.
 
 By ten it had a comment thread longer than the incident timeline.
 
-Nate watched the thread grow the way he watched variant tables grow—not with surprise, with dread that had become routine. Someone from Corporate Communications asked whether the Pablo doc could be “socialized” to customer trust teams. Sarah replied all: *Not until appendix two.* Warren’s staff member asked whether Nate could “tone match” Pablo for executives who did not read footnotes. Pablo replied with a link to the full technical memo and no adjectives at all, which somehow accelerated the panic.
+Nate watched the thread grow the way he watched variant tables grow—not with surprise, with dread that had become routine. He clicked the wrong Slack reaction twice before finding the thread pin, then rubbed his eyes until the bridge numbers stopped doubling. Someone from Corporate Communications asked whether the Pablo doc could be “socialized” to customer trust teams. Sarah replied all: *Not until appendix two.* Warren’s staff member asked whether Nate could “tone match” Pablo for executives who did not read footnotes. Pablo replied with a link to the full technical memo and no adjectives at all, which somehow accelerated the panic.
 
 Legal wanted to know whether any sentence was discoverable in litigation. Security wanted to know whether the model had access to production data or only metadata. Product wanted to know whether the word *breach* appeared anywhere near customer-facing language. Warren wanted to know whether Nate could “contextualize for the board” by noon.
 

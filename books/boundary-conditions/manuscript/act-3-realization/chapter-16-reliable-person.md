@@ -360,11 +360,7 @@ He deleted *Reduced implicit incident coordination* because it sounded like a co
 
 He typed: *Career alignment with standards and policy enforcement work.*
 
-He saved the draft without submitting.
-
-Not committing.
-
-Looking.
+He saved the draft without submitting—looking, not committing yet.
 
 Thursday afternoon he held the first office hours slot in an empty conference room with a whiteboard and no bridge bot.
 

@@ -42,6 +42,8 @@ Luis walked past his desk, glanced at the closed lid, said nothing, kept walking
 
 Wednesday a Customer Systems director posted that false positives had tripled after logging enhancements Nate had helped argue for in February.
 
+Nate read it from the standards floor with dry eyes and the taste of yesterday’s coffee still on his tongue.
+
 The thread blamed the enhancement.
 
 Infrastructure said logging was not their service.
@@ -420,9 +422,7 @@ After a month of Sev One noise, it felt like medicine.
 
 The second week worsened in a different shape.
 
-Not incident chaos—organizational habit.
-
-A VP thread Nate was still on from February filled with *Mercer—quick take?* posts because someone had not removed him from the distribution list.
+The VP thread from February had become habit—*Mercer—quick take?* posts because someone had not removed him from the distribution list. Nate’s chair vinyl stuck to his forearms when the HVAC kicked on.
 
 He replied once: *Transferred. Office hours link. Lena owns seam.*
 

@@ -496,11 +496,7 @@ Nate stared at Mark’s message longer than Warren’s seam agenda.
 
 At work, the company had named a committee.
 
-At home, he had named a driver who was not him.
-
-Neither was a fix.
-
-Both were small refusals—tactical, fragile, real.
+At home, he had named a driver who was not him—tactical refusals, fragile, real, not fixes.
 
 At ten-fifteen the bridge wanted a decision on cohort comms.
 

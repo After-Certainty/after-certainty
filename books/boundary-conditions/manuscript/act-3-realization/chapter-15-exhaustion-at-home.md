@@ -353,7 +353,7 @@ Their mother said, “Work?”
 
 Nate muted the thread.
 
-Not forever.
+Not forever—just for tonight, with dishes still in the sink and his phone face down on the counter.
 
 For the meal.
 
@@ -453,9 +453,7 @@ Home tired was love with paperwork attached.
 
 Both still routed to him first.
 
-He was starting to see the pattern clearly enough that it hurt.
-
-He was not fixed. He was shown.
+He was starting to see the pattern clearly enough that it hurt—still on the bridge at work, still the first phone at home, still learning what happened when he stopped answering like Sev One.
 
 ---
 

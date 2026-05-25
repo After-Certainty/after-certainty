@@ -6,6 +6,8 @@ Every morning it refreshed fields Nate had watched refresh since Thursday—cust
 
 By the second week of the Sev One, Nate recognized option fatigue the way he recognized jet lag: not from one bad choice, but from too many choices presented as responsibility.
 
+The war-room air smelled like burnt coffee and dry-erase marker. Someone had left a half-eaten granola bar on the table beside the executive template projector.
+
 Option A: global pause on delegated onboarding.
 Option B: selective suspension by relationship type and segment.
 Option C: enhanced logging, rate limits, and monitoring dashboards.
@@ -107,7 +109,7 @@ Warren stared at the screen.
 
 “Yellow,” Warren said.
 
-Caleb typed *yellow* into the cell and pinned a screenshot.
+Caleb typed *yellow* into the cell and pinned a screenshot. The projector fan whined; someone’s laptop charger cable snaked across the floor where Nate had almost tripped an hour earlier.
 
 Owen exhaled like he had lost and won at once.
 

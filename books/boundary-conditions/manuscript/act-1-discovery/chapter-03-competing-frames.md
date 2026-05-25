@@ -108,7 +108,7 @@ There was the fifth frame—not sync or staging or compliance or reputation, but
 
 He poured more water and watched the ice melt.
 
-The executive summary in his inbox would still read calm at six a.m. Calm was a frame too—built for people who needed the company to look like it knew what it was doing more than it needed the company to actually know.
+The executive summary in his inbox would still read calm at six a.m.—the same calm font executives preferred when they needed the company to look like it knew what it was doing.
 
 Rachel found him still at the counter when she came out for a late glass of water.
 
@@ -230,7 +230,7 @@ Priya did, precise and unromantic. Owen added customer language risk. A Customer
 
 “I’m capturing this in the template as two rows,” he said. “Row one: executive mitigation posture. Row two: engineering failure mechanics. If those rows diverge, we note divergence instead of pretending unity.”
 
-Silence on the bridge—not agreement, but the silence of people who had been caught performing coordination without sharing a map.
+Nobody on the bridge volunteered to own the fork. Caleb posted the two rows anyway.
 
 Warren said, “Post that in the executive doc.”
 

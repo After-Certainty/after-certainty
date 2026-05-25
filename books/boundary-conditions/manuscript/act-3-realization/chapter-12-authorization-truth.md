@@ -331,9 +331,9 @@ The incident was still open.
 
 The seam was still empty.
 
-But for the first time since the delegated-auth incident began, the company was arguing about the same object instead of four weather reports for the same storm.
+But for the first time since the delegated-auth incident began, more of the room was arguing about consent at write time—even Infrastructure still defending logging scope in the side thread, Owen still pushing *profile update* for customer copy, Legal still refusing *interim* as a category.
 
-Nate closed the laptop and felt, dangerously, like progress.
+Nate closed the laptop. Progress if you ignored the threads that had not moved.
 
 ---
 
@@ -349,7 +349,7 @@ She nodded slowly.
 
 “Good?” she asked.
 
-“Good and worse,” he said. “Good because the company can finally argue about one object. Worse because naming it does not sign the owner field.”
+“Good and worse,” he said. “Good because Isaac’s frame stuck in the room for once. Worse because naming it does not sign the owner field—and sync is still alive in three channels.”
 
 She pushed the water toward him.
 

@@ -228,6 +228,4 @@ He typed back to Caleb before putting the phone face down on his thigh.
 
 He meant it.
 
-He also knew, after long incidents and longer family weekends, that *steady* in an executive brief could mean a dozen different fights still open in engineering channels—and that nobody had agreed which fight mattered yet.
-
-Understood was what they had not yet become. Monday would ask for names again. The company was still better at naming fears than naming the failure.
+He also knew, after long incidents and longer family weekends, that *steady* in an executive brief could mean a dozen different fights still open in engineering channels—and that Monday would ask for names again before anyone agreed which fight mattered yet.

@@ -2,7 +2,7 @@
 
 By the time Nate reached the gate, the incident had already acquired a name.
 
-Not a good name. A durable one. The kind of label that would survive long after anyone remembered who had chosen it.
+The label was durable—the kind that would survive long after anyone remembered who had chosen it.
 
 `SEV1-DELEGATED-AUTH-2026-05-15`
 
@@ -184,9 +184,9 @@ The paragraph sat there for eleven seconds—long in an active incident—before
 
 Priya backed the distinction between instrumentation and mitigation. Owen sent a terse thanks. A Security director asked for legal in the executive channel. Warren wanted Nate when he landed.
 
-Not agreement. Not resolution. But a shift in the kind of argument the night was willing to have.
+The thread kept arguing, but the argument had changed registers—less about whether to call Option C a fix, more about who would say out loud that it was instrumentation.
 
-Nate closed the laptop when the flight attendant asked for trays in the upright position for the final descent. Denver’s lights appeared as a smear of gold through thin cloud. His sister would be at baggage claim in two hours with a cardboard sign she would pretend was embarrassing and secretly enjoy making.
+Nate closed the laptop when the flight attendant asked for trays in the upright position for the final descent. The seat-back screen still showed the bridge participant count ticking up. Denver’s lights appeared as a smear of gold through thin cloud. His sister would be at baggage claim in two hours with a cardboard sign she would pretend was embarrassing and secretly enjoy making.
 
 His phone buzzed one more time before airplane mode became mandatory at the door.
 

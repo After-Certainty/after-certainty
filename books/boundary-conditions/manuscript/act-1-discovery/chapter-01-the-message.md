@@ -99,11 +99,7 @@ An outside assessment firm had already reproduced the issue during a scheduled p
 Nate skimmed the summary once.
 Then again more slowly.
 
-A quiet pressure settled into his chest.
-
-Not panic.
-
-Recognition.
+A quiet pressure settled into his chest—recognition, not panic.
 
 He looked at the clock in the corner of his monitor.
 
@@ -143,13 +139,7 @@ Nate unmuted.
 
 “Synchronization is carrying authorization assumptions the service never meant to inherit,” he said. “The delegated link looks fine in isolation. The profile sync is where trust leaks.”
 
-Silence followed.
-
-Not confusion.
-
-Recognition.
-
-That was always worse.
+Silence followed—recognition again, which was always worse than confusion.
 
 Warren muted himself briefly, probably talking to someone else in the room with him, then came back.
 
@@ -245,11 +235,7 @@ A pause.
 
 “Yeah,” Caleb said. “I can do it.”
 
-Not confidence.
-
-Commitment.
-
-That mattered more.
+Commitment, not swagger—that mattered more.
 
 “One thing before you take the bridge,” Nate said. “What they’re proposing probably lowers the immediate risk. I don’t think any of it fixes what’s actually broken.”
 

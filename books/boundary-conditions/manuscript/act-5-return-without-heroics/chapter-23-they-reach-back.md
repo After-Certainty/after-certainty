@@ -204,6 +204,8 @@ The recorder went into a folder.
 
 Caleb had been invited this time—not summoned, invited, which Nate noticed because Caleb noticed too. He sat stiff in the chair by the wall with a printed bridge schedule and a pen he kept capped.
 
+The conference-room fluorescent buzzed. Warren’s aide had left a water pitcher on the table with three plastic cups, none used.
+
 Warren said, “I’ll be direct. Leadership wants synthesis back on the bridge for visibility.”
 
 “Lena is synthesis,” Nate said.
@@ -544,9 +546,7 @@ He did not reply in-thread.
 
 He updated his wiki page with one line: *Do not @ in operational channel. Book office hours.*
 
-Not victory.
-
-A boundary holding under load.
+A boundary holding under load—Legal still in thread, Warren still @’ing the wrong lists, Cho’s name on the slide.
 
 His phone rang.
 
