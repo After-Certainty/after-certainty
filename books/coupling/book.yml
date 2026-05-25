@@ -14,6 +14,7 @@ book:
   language: en
   copyright_year: 2026
   title_page_cover: BookCover.png
+  open_graph_image: open-graph.png
 
 paths:
   manuscript: "./index.md"

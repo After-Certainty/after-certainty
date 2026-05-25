@@ -109,6 +109,8 @@
         "sources",
         "coverImage",
         "coverImagePath",
+        "openGraphImage",
+        "openGraphImagePath",
         "bookDir",
         "docx",
         "epub",
@@ -196,6 +198,12 @@
           "type": ["string", "null"]
         },
         "coverImagePath": {
+          "type": ["string", "null"]
+        },
+        "openGraphImage": {
+          "type": ["string", "null"]
+        },
+        "openGraphImagePath": {
           "type": ["string", "null"]
         },
         "bookDir": {

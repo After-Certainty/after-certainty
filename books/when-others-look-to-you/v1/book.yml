@@ -24,6 +24,7 @@ book:
       url: https://www.amazon.com/gp/product/B0GX34SRDJ
       label: Buy on Amazon
   title_page_cover: BookCover.png
+  open_graph_image: open-graph.png
   title_page_newpage_after: true
 
 paths:

@@ -12,6 +12,7 @@ book:
     name: "Kevin Steffensen"
     website: "https://after-certainty.com"
   language: en
+  open_graph_image: open-graph.png
   copyright_year: 2026
 
 paths:
