@@ -204,7 +204,7 @@ Someone laughed—tired, surprised. The laugh said *he’s not joking*.
 
 By evening the bridge rhythm had changed.
 
-Caleb opened calls now without asking whether Nate was available. He tagged the right owners faster. He muted people who restated positions already captured in the template. He sounded less like someone proving he could survive an incident and more like someone who understood that survival was not the same as success.
+Caleb opened calls now without asking whether Nate was available. He tagged the right owners faster. He muted people who restated positions already captured in the template. He still sounded tired, but the tiredness had stopped performing competence and started routing work.
 
 Nate watched it happen from Rachel’s guest room with the door closed and the window open, city lights starting below, incident channels still crawling on his screen while his family laughed in the hallway.
 

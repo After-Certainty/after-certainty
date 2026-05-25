@@ -47,7 +47,7 @@ Owen said, “I’m not arguing exposure. I’m arguing your template treats rev
 
 Warren said, “We need both numbers in the same row, Owen.”
 
-Caleb said, “We have six rows and twelve fears.”
+Caleb said, “Six rows. Twelve fears. Pick two or we fight all six.”
 
 Nate unmuted.
 
@@ -518,4 +518,4 @@ He was not optimistic.
 
 He was also not going to fill it for them.
 
-It was not malice. It was what fear did when nobody owned the center—and he was still the person everyone asked to name the tradeoffs, as if naming them enough times would make someone sign.
+Hadley’s voice faded on the phone. Nate set the mug in the sink and watched the notification stack refresh—Warren’s staffing chart, Caleb’s seam reminder, Priya’s diagram link. Nobody in any of those threads had offered to sign the empty row. They kept asking him to name the tradeoffs again, as if another column in the template would conjure a owner.

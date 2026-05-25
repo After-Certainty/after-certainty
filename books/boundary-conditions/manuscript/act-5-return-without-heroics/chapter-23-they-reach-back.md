@@ -214,7 +214,7 @@ Warren said, “I’ll be direct. Leadership wants synthesis back on the bridge 
 
 Warren looked at Caleb.
 
-Caleb said, “I can run ops. I can’t make VPs stop asking for Nate’s voice in the template.”
+Caleb said, “I can run ops. I can’t make VPs stop @’ing Mercer in the main channel.”
 
 Warren said, “We are four days in. Customer count is small but press is sniffing. Pablo’s appendix is on someone’s desk at a reporter’s friend’s desk. I am not inventing stakes.”
 

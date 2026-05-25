@@ -32,6 +32,8 @@ Product: *Customers need language this week.*
 
 Legal: *Footnote is internal until Sarah signs.*
 
+Priya, in a side thread: *Consent path still open. Seam owner still blank. Do not call this closed.*
+
 Nate felt the old pull to rewrite the footnote into a fix, to translate the fight into a paragraph Warren could forward, to become the person who made the room feel temporary relief.
 
 He closed the laptop without typing.

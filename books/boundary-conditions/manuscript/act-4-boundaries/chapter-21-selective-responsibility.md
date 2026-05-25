@@ -34,7 +34,7 @@ Priya said it back.
 
 Sarah, on speaker, said it back.
 
-Owen unmuted long enough to say, “Product still needs words today.”
+Owen unmuted long enough to say, “Segment two needs words today. Sales is calling.”
 
 Lena said, “Product needs Legal.”
 

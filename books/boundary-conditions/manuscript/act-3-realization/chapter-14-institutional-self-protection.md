@@ -76,7 +76,7 @@ He was becoming the argument anyway.
 
 At minute fifty-five Owen asked whether Product could publish interim caregiver language without waiting for Legal’s glossary. Legal, remote, said every interim sentence became discoverable the moment it shipped. Owen said customers were already discoverable in churn. Infrastructure said churn was not their metric. Product said churn was everyone’s metric except the team that owned consent state. The platform director said consent state was not a service name on any RACI Nate had seen.
 
-Nate typed in his notebook: *RACI is a map of refusals.*
+Nate typed in his notebook: *nine owners, zero signatory.*
 
 He did not post it in the channel.
 

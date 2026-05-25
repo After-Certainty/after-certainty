@@ -262,9 +262,7 @@ She took his hand.
 
 He said he would try.
 
-It was not a promise to the company.
-
-It was a promise to the life around the company—and for the first time in months, the two felt like the same work.
+Hadley squeezed his hand once and let go. Down the hall Rachel was laughing with their mother about something small and true. Nate put his phone face-down on the table and left it there.
 
 ---
 

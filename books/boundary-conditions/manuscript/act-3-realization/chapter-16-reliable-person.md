@@ -504,9 +504,9 @@ He told Caleb, “If I submit tomorrow, you run bridges with overlap. Seam quest
 
 Caleb said, “About time.”
 
-He knew only that reliable was not the same as required—and that leaving a slot empty, skipping a bridge, handing Mark the calendar, and saving a draft without submitting were all the same practice in different buildings.
+He left a slot empty on the staffing chart. He skipped a bridge Caleb could run. He handed Mark the neurologist link. He saved the HR draft without submitting.
 
-For one week that practice felt like the truest work he had done since the seam still had no signatory.
+For one week that felt like the truest work he had done since the seam still had no signatory.
 
 Thursday would tell him whether the company could tolerate someone reliable who stopped being default.
 

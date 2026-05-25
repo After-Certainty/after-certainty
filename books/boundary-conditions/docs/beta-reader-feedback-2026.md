@@ -168,4 +168,4 @@ Power is in the triad; **follow-up paragraph explaining what it means** is often
 | Item | State |
 |------|--------|
 | Round 2 captured | **done** (this section) |
-| Pass F manuscript edits | **pending** |
+| Pass F manuscript edits | **done** (May 2026) |

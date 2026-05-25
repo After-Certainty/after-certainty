@@ -167,7 +167,7 @@ He did not know.
 
 In the line a colleague he barely knew nodded once—*design meeting*—and looked away, the workplace version of sympathy without a DM.
 
-Nate filled the tray with food he would not taste and ate at his desk with the sympathy backlog still unread and Warren’s staffing sentence sitting in his notifications like a mitigated risk that was not mitigated.
+Nate filled the tray with food he would not taste and ate at his desk with the sympathy backlog still unread and Warren’s staffing sentence still sitting in his notifications, unread, while the bridge channel kept adding comments.
 
 ---
 

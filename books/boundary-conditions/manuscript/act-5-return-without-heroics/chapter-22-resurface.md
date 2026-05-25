@@ -68,9 +68,7 @@ Authorization still wrong.
 
 Eli had timed it to the second.
 
-Nate read the repro twice, then a third time, looking for the mistake that would make it staging-only.
-
-It was not staging-only.
+Nate read the repro twice, then a third time, looking for the mistake that would make it staging-only. The timestamps lined up with production cohort two. His coffee had gone cold while he read.
 
 He called Eli before opening any channel.
 
@@ -438,7 +436,7 @@ Caleb met him in the lobby between buildings, coffee in hand, eyes red.
 
 Caleb laughed without humor.
 
-“Variant seven is Eli’s fifth-variant energy all over again,” Caleb said. “Same storm. Different month.”
+“Variant seven is Eli’s fifth-variant energy all over again,” Caleb said. “Different seam. Same empty owner field until Lena fills it.”
 
 “Lena’s name on the header?” Nate asked.
 

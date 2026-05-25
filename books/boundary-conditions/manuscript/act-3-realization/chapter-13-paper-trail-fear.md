@@ -346,9 +346,7 @@ Priya said, “Staffing is not a signature.”
 
 The meeting went circular for another thirty minutes.
 
-The technical problem was not narrowing anymore.
-
-The company’s reaction was finally unable to pretend the failure belonged to someone else’s queue. What had changed was the paper: every sentence now had a second audience—Legal, Compliance, a board member reading summaries on a phone between meetings.
+Sync, auth, and comms still argued in side threads. What had changed was the paper: every sentence now had a second audience—Legal, Compliance, a board member reading summaries on a phone between meetings.
 
 Nate left with Pablo’s appendix in his inbox, Sarah’s voice in his head, and Marta’s glossary subject line unread until the elevator: *Do not write anything you are not willing to defend in discovery.*
 

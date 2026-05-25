@@ -364,7 +364,7 @@ Warren replied a minute later.
 
 *You are the anchor. Caleb is the operator. Don’t be modest.*
 
-That was not modesty. That was a warning.
+Warren had named him anchor again without asking who would sign. Nate stared at the DM until the screen dimmed, then forwarded it to Caleb with one line: *If I’m anchor, I need signatory or I’m just calendar.*
 
 ---
 

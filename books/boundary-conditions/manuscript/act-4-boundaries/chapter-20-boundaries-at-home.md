@@ -248,7 +248,7 @@ His eyes were bright.
 
 He was still a person with a history, not only a problem to route.
 
-Nate had treated him that way for months—routing, fixing, scheduling—because routing felt like love when you were afraid of loss.
+Nate had treated him that way for months—routing, fixing, scheduling—because it was faster than sitting in the chair beside him.
 
 Their mother said to Hadley, “He used to call six times a day about prescriptions. Now he calls once.”
 

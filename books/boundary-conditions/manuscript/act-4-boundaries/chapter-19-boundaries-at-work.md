@@ -12,7 +12,7 @@ Warren asked about cross-functional influence.
 
 The candidate said, “I build coalitions.”
 
-Priya said, “Coalitions are not signatures.”
+Priya said, “Coalitions do not appear in the signatory column.”
 
 Isaac asked what the candidate would do if Product paused a segment without a return date.
 
@@ -24,7 +24,7 @@ The candidate blinked.
 
 “I would facilitate sign-off,” they said.
 
-Priya said, “Facilitation is what got Mercer’s month.”
+Priya said, “Facilitation is how the owner field stayed blank.”
 
 The candidate looked at Nate as if expecting rescue.
 

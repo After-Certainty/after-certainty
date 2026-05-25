@@ -104,11 +104,11 @@ Warren asked again at minute forty.
 
 Silence.
 
-Owen said, “Product can own customer-facing outcomes if Legal signs today.”
+Owen said, “Product can own customer-facing outcomes if Legal signs today. I need segment lists by noon or Sales will call this a pause.”
 
 Legal said, “Legal cannot sign without segment lists.”
 
-Priya said, “Identity cannot publish semantics alone.”
+Priya said, “Identity cannot publish semantics alone. Draft fourteen is in your queue.”
 
 greg-h said, “Infrastructure cannot flip without signed semantics.”
 
@@ -116,7 +116,7 @@ Security said, “Security cannot own product copy.”
 
 Customer Operations said, “Shared custody.”
 
-Caleb said, “I can run the bridge until someone owns the row.”
+Caleb said, “I can run the bridge until someone owns the row. I’m not signing your roadmap, Owen.”
 
 Warren said, “Mercer—”
 
@@ -432,11 +432,9 @@ He posted Priya’s diagram again with one sentence.
 
 *If your team is correct locally and the incident is still open globally, you are defending your corner, not solving the problem.*
 
-The thread argued for twenty minutes.
+The thread argued for twenty minutes—Infrastructure pasting flag states, Product asking for comms windows, Security asking for repro windows, nobody typing a name into the owner field.
 
 That was still movement.
-
-It was not ownership.
 
 Nate forwarded the argument to Warren with no commentary.
 
@@ -450,7 +448,7 @@ Friday before the exec readout he sat with Priya in the war room after everyone 
 
 “I could coordinate until I die,” Nate said.
 
-“Same thing in this building,” Priya said.
+“Empty owner field,” Priya said. “They will fill it with your calendar.”
 
 “Coordination without signatory is how they eat a month,” Nate said.
 

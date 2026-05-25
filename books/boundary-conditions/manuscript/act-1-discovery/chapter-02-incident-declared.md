@@ -42,9 +42,7 @@ He wrote back to Caleb.
 
 Then he forwarded the same instruction, with slightly more punctuation, into the executive thread where Warren’s chief of staff was already asking for “directional guidance before the east coast logs off.”
 
-Nate had learned, over fifteen years inside companies this size, that the most dangerous hour of an incident was not the hour of discovery. It was the hour right after discovery, when everyone still believed the problem could be made legible to executives before it was made legible to engineers.
-
-The gate agent called his zone.
+The gate agent called his zone. Nate had fifteen years of watching what happened in the hour after discovery: executives asking for directional guidance before engineers had a variant table, Security and Product already fighting in side channels while the public template still said *under review*.
 
 He closed the laptop halfway, then opened it again because a page had fired on his phone.
 
@@ -196,7 +194,7 @@ Caleb: *Incident formally declared in all the systems that matter. Exec template
 
 Nate tucked the phone into his jacket pocket and joined the line of passengers shuffling toward arrival.
 
-Declared—in the ticketing systems and pager rotations and executive slides, and in Caleb still standing in the middle of it while the real issue stayed unnamed behind slides nobody had agreed were the right shape.
+Declared—in the ticketing systems and pager rotations and executive slides, and in Caleb still standing in the middle of it while sync, auth, staging, and comms still argued in parallel behind slides nobody had agreed were the right shape.
 
 The jet bridge smelled like carpet cleaner and cold air. Nate powered his laptop on again the moment he had hallway signal.
 

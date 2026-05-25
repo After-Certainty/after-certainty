@@ -445,9 +445,7 @@ Someone from Infrastructure typed: *EU logging shows write events without consen
 
 Isaac, audio on for the first five minutes, said, “That is the problem named correctly. The fix is still owner TBD.”
 
-The argument was narrower.
-
-It was not smaller.
+The argument was narrower—still sync versus auth in side threads, still Legal asking whether *profile update* could ship, still Infrastructure insisting EU logging proved writes without consent events.
 
 Nate translated for seven minutes, then muted when Caleb said, “Legal thread for EU wording.”
 
@@ -455,4 +453,4 @@ Warren’s staff member DM’d: *Board packet needs remediation narrative by Fri
 
 Nate typed back: *Ask Sarah for owner field. I will not soften Isaac’s sentence.*
 
-Progress, he told himself, was often just a smaller wrong argument.
+He rubbed his eyes and listened to Owen ask, from the speakerphone, whether segment two could get interim language tonight if Legal would not sign until Thursday.

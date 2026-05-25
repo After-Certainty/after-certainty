@@ -262,7 +262,7 @@ Owen unmuted.
 
 Nate almost spoke.
 
-Caleb said, “Owen, book Legal office hours with Lena’s comms owner. Nate reviews drafts Thursday. Nate does not write them.”
+Caleb said, “Owen—Sales can wait. Book Legal office hours with Lena’s comms owner. Nate reviews Thursday. Nate does not write copy.”
 
 Owen opened his mouth.
 

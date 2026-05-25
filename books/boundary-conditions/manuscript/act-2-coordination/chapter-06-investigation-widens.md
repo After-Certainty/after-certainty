@@ -34,7 +34,7 @@ Warren’s phrase for *please stop describing different disasters*.
 
 ---
 
-The war room was not a room. It was a glass conference area on the fourth floor that had been renamed Incident Focus Area for the week and supplied with whiteboards, extra monitors, and a snack table nobody touched because eating during a Sev One felt like betrayal.
+The war room was a glass conference area on the fourth floor, renamed Incident Focus Area for the week—whiteboards, extra monitors, a snack table with untouched granola bars because eating during a Sev One felt like betrayal. Fluorescent light flattened everyone’s faces the same way.
 
 By eight-fifty the center table had laptops, chargers, and three printed runbooks nobody was using because the runbooks described a system that had stopped matching the diagram on the wall.
 
@@ -48,7 +48,7 @@ Nate set his laptop down and leaned in.
 
 “Talk me through the shaded area,” he said.
 
-“Everything that assumes trust inherited from a relationship instead of enforced at the boundary,” Priya said. “Product calls it onboarding orchestration. Identity calls it policy service. Customer Systems calls it profile lifecycle. Security calls it exposure. Same shaded area. Different names. That is the problem.”
+“Shaded region is any write path that inherits scope from the relationship record,” Priya said. “Product: onboarding orchestration. Identity: policy service. Customer Systems: profile lifecycle. Security: exposure. Same boxes. Different labels on the RACI.”
 
 Eli stood beside her with a notebook, looking younger in fluorescent light than he had at Nate’s desk on Thursday.
 
@@ -286,7 +286,7 @@ Nate typed back.
 
 He meant to leave at seven. He left at eight-forty with three unread threads and Caleb still on the bridge, voice steady in a stand-up Nate listened to from the elevator.
 
-“We’re wider than Thursday,” Caleb said to the room. “That’s not failure. That’s finally looking at the same map.”
+“We’re wider than Thursday,” Caleb said to the room. “One table. One diagram. Post in column C or delete.”
 
 Nate stepped into the parking garage. The map was larger than it had been that morning. So was his Tuesday calendar, already filling with meetings that would stall the moment he was not in them.
 

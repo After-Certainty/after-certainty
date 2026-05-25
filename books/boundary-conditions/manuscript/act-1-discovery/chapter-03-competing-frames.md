@@ -20,7 +20,7 @@ The summary was calm. Measured. Almost bored.
 
 No evidence of active exploitation in production at this time.
 
-He read the sentence twice because language like that was never only language. It was a decision about what kind of fear the company was willing to write down.
+He read the sentence twice, thumb on the trackpad, and heard the hotel ice machine cycle in the hallway. *No evidence of active exploitation* meant Legal had chosen a fear the company could defend in daylight—not a claim about what Eli had reproduced in staging.
 
 Rachel leaned against the counter opposite him.
 

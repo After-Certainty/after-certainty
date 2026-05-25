@@ -306,9 +306,7 @@ Nate did not throw it away.
 
 He wrote the current password on a new sticky, labeled it *guest*, and put it inside the desk drawer where Daniel would find it if he needed it and would not have to admit he had forgotten.
 
-That was not a fix either.
-
-It was the kind of help that did not require a meeting.
+Daniel would find the sticky in the drawer if he needed it. No bridge. No template row. Nate washed the mug and listened to the house settle.
 
 ---
 

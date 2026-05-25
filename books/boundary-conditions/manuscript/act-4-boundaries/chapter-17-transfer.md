@@ -354,7 +354,7 @@ The channel was still active on his phone.
 
 No one had declared victory.
 
-The seam was not filled.
+Lena’s name was on the slide header. The owner field on the remediation row was still blank in the version Warren had forwarded an hour earlier.
 
 ---
 

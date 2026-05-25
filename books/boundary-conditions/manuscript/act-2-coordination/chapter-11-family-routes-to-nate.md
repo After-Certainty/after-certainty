@@ -560,9 +560,7 @@ The family thread stayed quiet for eleven minutes, which was its own kind of pro
 
 Nothing yet forced him to choose between work and family.
 
-The week still asked him to be the pipe in both places until he learned the difference between reachable and required.
+The week still asked him to be the pipe in both places—Rachel’s texts, Warren’s DMs, Caleb’s bridge pings stacking in the same notification shade.
 
-He was not sure he knew the difference.
-
-He was going to find out.
+He was going to find out what happened when he stopped answering one of the stacks by default.
 

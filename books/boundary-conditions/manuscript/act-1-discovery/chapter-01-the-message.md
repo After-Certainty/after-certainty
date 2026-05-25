@@ -292,12 +292,7 @@ Nate read the thread twice.
 
 Nobody asked whether Eli’s second customer scenario changed the risk math. Nobody asked whether Priya’s policy export would be ready before the east coast logged off. The leadership thread was not trying to understand the system. It was trying to understand what would happen to the people who had allowed the system to remain misunderstood.
 
-Same incident. Different realities.
-
-In the engineering channels, people were still trying to understand the system.
-In the leadership thread, they were trying to understand the consequences of understanding the system.
-
-Between those two conversations, the actual problem sat mostly invisible—and nobody had agreed yet what to call it.
+Nate pocketed the phone and walked toward the gate with his boarding pass creased in his palm. Down the concourse, in channels he could not see from here, engineers were still arguing about repro steps and flag states. Upstairs, in a thread he could not mute, someone was already drafting language about *confidence* and *partners*. The actual problem sat mostly invisible between those two conversations—and nobody had agreed yet what to call it.
 
 Nate typed one sentence in the engineering channel before boarding—plain, unheroic, true.
 
