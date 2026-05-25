@@ -6,8 +6,7 @@
 **Done:** Sprints A–D; Phase A prose **~73k** words; Pass 2 calendar/motifs  
 **Done:** Spot refresh **03 + 06** on Pass-2 chapters (Ch **4, 5, 6, 12, 16, 17, 19, 21, 24**)  
 **Done:** **Pass E** — beta-reader edits ([beta-reader-feedback-2026.md](./beta-reader-feedback-2026.md)): bridge dialogue mess (E1), light thematic trim after strong landings (E2), sensory sprinkles in thin conceptual runs (E3), Warren/Owen/Legal cast audit (E4)  
-**Done:** **Pass F** — Round 2 beta feedback: aphorism rhythm (F1), Priya/Owen/Caleb voice differentiation (F2), failure-ambiguity guardrail (F3), light thematic trim after operational beats (F4)  
-**Done:** **Pass F** — aphorism rhythm, voice differentiation, ambiguity guard ([beta-reader-feedback-2026.md](./beta-reader-feedback-2026.md) Round 2)  
+**Done:** **Pass F** — Round 2 beta feedback: aphorism rhythm (F1), voice differentiation (F2), ambiguity guardrail (F3), operational→philosophy trim (F4)  
 **Done:** Local exports — **DOCX**, **EPUB**, **PDF** (post–Pass F rebuild May 2026)
 
 ## Location
