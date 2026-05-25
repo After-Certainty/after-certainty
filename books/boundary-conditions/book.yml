@@ -14,8 +14,6 @@ book:
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
-  title_page_footer: |
-    Author-facing rules and workbook sources live under [`docs/`](docs/); manuscript chapters under [`manuscript/`](manuscript/). This page is for **exports** only.
 
 paths:
   manuscript: "./index.md"
