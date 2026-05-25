@@ -180,7 +180,7 @@ Nate spent the afternoon moving between threads the way he had spent the weekend
 
 His name appeared in seventeen channels before two. He answered eleven DMs marked urgent that were not urgent and one that was.
 
-Priya’s DM held a link to a consent-path audit draft and a single line: *If we fix sync without fixing policy semantics, we are painting the blast radius, not shrinking it.*
+Priya’s DM held a link to a consent-path audit draft and a single line: *Policy export attached. Rows 14–22 still show delegated write scope without consent bound at action time. Sync-only mitigation does not change those rows.*
 
 He forwarded it to Caleb with a note to put it in the executive template’s open questions box before Warren’s staff softened it into something about “ongoing monitoring.”
 

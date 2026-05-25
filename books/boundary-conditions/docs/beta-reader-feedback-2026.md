@@ -233,3 +233,72 @@ Affirmation only. Optional: one-line blurb using title layers (transfer, leak, l
 |------|--------|
 | Round 3 captured | **done** |
 | Pass G manuscript edits | **done** (May 2026) |
+
+---
+
+## Round 4 — post–Pass G (May 2026)
+
+**Overall:** Form is working (“coordination dramatically legible”). Remaining work is **cadence** and **character voice separation**, not concept. Title affirmed.
+
+### 1. Aphorism density — Ch 1–5 cluster (still #1 issue)
+
+Reader cites **close succession** in Act I (all good lines, predictable *scene → compressed insight* rhythm):
+
+| Line (approx.) | Ch |
+|----------------|-----|
+| “Visibility was its own kind of blast radius.” | 1 |
+| “Every organization eventually developed the same dangerous instinct…” | 1 |
+| “Modern organizations industrialized panic surprisingly well.” | 1 |
+| “The actual problem sat mostly invisible between those two conversations…” | 1 |
+| “split into channels that would not converge by morning.” | 1 |
+| “speaking different languages on purpose.” | 3 |
+| “Each sentence was true. Each sentence was also a wall.” | 4 |
+| Warren/Caleb ending synthesis | 5 |
+
+**Fix:** End some scenes **operationally** (checkmark, “go catch your flight,” mute)—no closing insight. **One** compressed landing per chapter max in Act I; space with procedural paragraphs.
+
+### 2. Character voice — sharpen separation (not just mess)
+
+| Character | Should | Should not |
+|-----------|--------|------------|
+| **Nate** | Synthesize (compress later) | Give everyone thematic one-liners |
+| **Caleb** | Operationalize | “who owns the disease” literary compression (move to Nate interior or cut) |
+| **Priya** | Exact, narrow, engineer-real | Literary thematic compression |
+| **Warren** | Narrative-manage | Systems-essay observations |
+
+**Example Priya shift:** technical state description, not “Sync is a symptom…” quotable line—Nate compresses afterward.
+
+### 3. Observation before interpretation
+
+Let contrasts **sit** (reread, scroll, vocabulary drift) **before** insight—especially Ch **3** two-documents beat.
+
+### 4. Nate friction — not always right immediately
+
+Add wrong-first cognition: e.g. **“Why now?”** call—answer too technical, then adjust for Warren’s narrative need. More misunderstand / overcommit / defensive beats before clarity.
+
+### 5. Chapter endings — vary landing
+
+Some ends: **mundane** (unresolved Slack, stale coffee, silent elevator, incomplete diagram)—not every *compressed thematic synthesis*. Ch **5** Warren/Caleb ending is a candidate to end on operational beat.
+
+### 6. Under-trust scene mechanics
+
+When dialogue/stacked channel lines already show fragmentation, **cut** narrator walls metaphor (Ch **4** *Each sentence was true…* after Identity/Customer/Product lines).
+
+---
+
+## Suggested Pass H (optional)
+
+| Step | Scope |
+|------|--------|
+| **H1** | Act I **1–5** aphorism **spacing** + operational scene endings; cut Ch 1 airport closing insight |
+| **H2** | Voice reassign: Caleb/Priya dialogue → technical/operational; move compression to Nate interior only (**4, 6, 12, 22**) |
+| **H3** | Delay interpretation beats (**3**, select Act II–III) |
+| **H4** | Nate friction — **5** “Why now?” + one other early misread |
+| **H5** | Mundane chapter ends — **1, 3, 5, 8, 21** (rotate with existing strong landings) |
+| **H6** | Cut redundant narrator after demonstrated dialogue (**4, 7, 8**) |
+| **H7** | Re-export; beta sample **1, 4, 5** |
+
+| Item | State |
+|------|--------|
+| Round 4 captured | **done** |
+| Pass H manuscript edits | **done** (May 2026) |

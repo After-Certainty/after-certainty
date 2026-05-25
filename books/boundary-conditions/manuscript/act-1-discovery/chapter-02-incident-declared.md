@@ -132,7 +132,7 @@ Caleb DM’d him.
 
 *Option A has momentum with exec readers because it’s one sentence.*
 
-Nate typed back while the seatbelt sign stayed off and the flight attendants finished pre-takeoff checks.
+Nate started to type *endorse A if Security signs* into the executive thread, then deleted it. Option A was one sentence because it hid what it broke. He typed back to Caleb instead while the seatbelt sign stayed off and the flight attendants finished pre-takeoff checks.
 
 *Then make Option A expensive. Attach names to the signature fields. Owen’s revenue band. Priya’s exposure count. If they want one sentence, make them own what it breaks.*
 

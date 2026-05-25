@@ -226,10 +226,6 @@ Legal replied: *Pending Product segments.*
 
 Nate copied each message into the remediation row until the row looked like a novel written by committees.
 
-Each request was reasonable.
-
-Together they were paralysis.
-
 Nate spent two hours moving between tabs, not to solve the seam, but to keep the seam visible.
 
 At three ten he joined a Zoom Legal had scheduled without Infrastructure.
@@ -490,11 +486,7 @@ Warren did not reply until midnight.
 
 *Executive sponsorship by end of week.*
 
-Nate stared at the phrase.
-
-Warren could sponsor a seam review; he still would not sign the row.
-
-It was vocabulary for delay dressed as progress.
+Nate stared at the phrase, then closed the laptop without answering.
 
 He went home and told Hadley, “They defended every corner again.”
 
@@ -534,4 +526,4 @@ Legal replied: *Pending segments.*
 
 Nate wrote: *Seam empty. Executive decision Monday.*
 
-He went to bed at one a.m. and dreamed about owner fields that stayed blank no matter how many names he typed beside them.
+He went to bed at one a.m. with stale coffee in the mug from the war room still on his desk and Warren’s thumbs-up still the only reply on the sponsorship thread.

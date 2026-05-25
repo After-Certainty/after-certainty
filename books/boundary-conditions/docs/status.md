@@ -8,6 +8,7 @@
 **Done:** **Pass E** — beta-reader edits ([beta-reader-feedback-2026.md](./beta-reader-feedback-2026.md)): bridge dialogue mess (E1), light thematic trim after strong landings (E2), sensory sprinkles in thin conceptual runs (E3), Warren/Owen/Legal cast audit (E4)  
 **Done:** **Pass F** — Round 2 beta feedback: aphorism rhythm (F1), voice differentiation (F2), ambiguity guardrail (F3), operational→philosophy trim (F4)  
 **Done:** **Pass G** — Round 3 beta feedback: aphorism dedupe (G1), texture oxygen (G2), ambiguity spot-check (G3)  
+**Done:** **Pass H** — Round 4 beta feedback: Act I aphorism spacing + operational endings (H1), voice separation (H2), observation-before-insight (H3), Nate friction (H4), mundane chapter ends (H5), cut narrator gloss (H6)  
 **Done:** Local exports — **DOCX**, **EPUB**, **PDF** (post–Pass G rebuild May 2026)
 
 ## Location
@@ -54,8 +55,9 @@ Portfolio rollup (nonfiction): [`upcoming/docs/portfolio-status.md`](../../upcom
 
 ## Next actions
 
-1. Push `upcoming/boundary-conditions` / open PR (Pass E–G).
-2. Beta re-read post–Pass G — sample **2, 5, 14, 18**.
+1. Push `upcoming/boundary-conditions` / open PR (Pass E–H committed).
+2. Beta re-read — sample **1, 4, 5** after Pass H if run.
+3. Re-export DOCX/EPUB/PDF when ready.
 3. Commerce metadata / `purchase_links` when ready for distribution.
 
 ## Open decisions / known issues
@@ -64,6 +66,6 @@ Portfolio rollup (nonfiction): [`upcoming/docs/portfolio-status.md`](../../upcom
 
 ## Rough scale
 
-- Manuscript prose (Ch 1–25): **~73,358** words (post–Pass G)
+- Manuscript prose (Ch 1–25): **~72,860** words (post–Pass H, May 2026)
 - Stretch band: **80–100k** (per project-spec) — author accepted current length
 - Last assessed: May 2026

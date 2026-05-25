@@ -65,7 +65,7 @@ Eli nodded and opened a screen recording. Invitation sent. Secondary user accept
 
 “Assisted onboarding pilot,” Eli said. “Caregiver linking to an aging parent’s billing profile. Enterprise segment. Small count, high visibility if it goes wrong.”
 
-Nate wrote the segment name on a sticky note and stuck it to the edge of his monitor. Visibility was its own kind of blast radius.
+Nate wrote the segment name on a sticky note and stuck it to the edge of his monitor.
 
 “Second repro?”
 
@@ -86,9 +86,6 @@ Nate almost smiled. Almost.
 “And they’re trying to decide whether this is an actual incident.”
 
 Nate almost laughed at that.
-
-Every organization eventually developed the same dangerous instinct:
-if a problem crossed enough teams, people subconsciously hoped uncertainty itself would delay accountability.
 
 “Show me the report.”
 
@@ -166,8 +163,6 @@ Warren said, “Alright. We’re declaring this a Sev One.”
 The participant list jumped again as more people joined.
 
 Somewhere else inside the company, automated systems were already creating incident channels, paging managers, generating timelines, and filling executive templates with empty customer-impact fields waiting for a number.
-
-Modern organizations industrialized panic surprisingly well.
 
 Mitigation ideas started immediately—disable delegated linking, suspend synchronization, add secondary verification, block existing-account associations temporarily.
 
@@ -274,13 +269,9 @@ A vice president was questioning why Security had escalated so aggressively.
 Another wondered aloud why a months-old issue had suddenly become urgent.
 Someone else speculated that AI-assisted scanning tools were now surfacing architectural problems faster than the company could realistically respond to them.
 
-Nate read the thread twice.
+Nate read the thread twice, then muted it.
 
-Nobody asked whether Eli’s second customer scenario changed the risk math. Nobody asked whether Priya’s policy export would be ready before the east coast logged off. The leadership thread was not trying to understand the system. It was trying to understand what would happen to the people who had allowed the system to remain misunderstood.
-
-Nate pocketed the phone and walked toward the gate with his boarding pass creased in his palm. Down the concourse, in channels he could not see from here, engineers were still arguing about repro steps and flag states. Upstairs, in a thread he could not mute, someone was already drafting language about *confidence* and *partners*. The actual problem sat mostly invisible between those two conversations—and nobody had agreed yet what to call it.
-
-Nate typed one sentence in the engineering channel before boarding—plain, unheroic, true.
+He typed one sentence in the engineering channel before boarding—plain, unheroic, true.
 
 *We have at least two customer shapes in repro. Treat segment counts as blocking for any global disable proposal.*
 
@@ -290,20 +281,4 @@ Caleb reacted with a checkmark and a private message.
 
 Nate closed the laptop when the gate agent called his row.
 
-The rain on the window looked the same as it had when he left the office, but the company on the other side of the glass had already split into channels that would not converge by morning.
-
-He boarded anyway, boarding pass in one hand, phone in the other, Caleb’s operational channel still crawling with owners and mitigations and the first hourly summary bot inviting him to edit a document he had told Warren he would not own.
-
-At the cabin door he paused long enough to read one more leadership message—not to reply, just to feel the sting.
-
-*If Security was so concerned, why did Product hear about this from a bridge instead of a briefing?*
-
-The question was fair in the way unfair questions often were. It assumed coordination had failed because engineering had failed, not because institutions saved their fear for slides.
-
-Nate put the phone in airplane mode.
-
-The problem would still be there when the plane landed in Denver.
-
-So would his sister’s cardboard sign.
-
-So would the leadership thread, waiting to ask *why now* in voices that sounded like concern and felt like narrative defense.
+He boarded with his boarding pass in one hand and his phone in airplane mode, Caleb’s operational channel still crawling with owners and mitigations on the lock screen until the screen went dark.

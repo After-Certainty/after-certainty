@@ -48,7 +48,7 @@ In the engineering channel Caleb had spun up overnight, the argument had forked.
 
 A customer-systems lead insisted the failure was profile synchronization timing—a staging mismatch that only showed up when production load patterns diverged from test assumptions.
 
-Priya pushed back that sync was a symptom. The write still crossed a boundary it should not cross.
+Priya pushed back that sync timing in the logs did not match policy evaluation timestamps—the write still crossed a boundary it should not cross.
 
 Owen Patel, in a thread Nate had learned to recognize by notification tone alone, framed the issue as assisted-onboarding exposure. He asked whether the company was about to tell enterprise customers their delegated caregivers could no longer link accounts without a six-week roadmap.
 
@@ -200,15 +200,15 @@ Right side: the engineering channel, which had not slept.
 
 Priya’s diagram sat at the top of the thread with comments stacked beneath it like cordwood. Eli had posted a variant reproduction—consent acknowledgment lagging behind profile sync by four seconds in one path, eleven in another. Customer Systems argued staging parity. Infrastructure argued flag states matched runbook. Owen asked for segment counts again. Compliance asked whether the prior assessment had been routed to the wrong retention bucket.
 
-Nate read the executive brief aloud once, quietly, to hear how it sounded in air instead of on glass.
+Nate scrolled the executive brief again—customer impact *limited*, regulatory posture *monitoring*, mitigation *selective suspension by relationship type under executive review*. He opened Priya’s diagram full screen and followed the shaded write path Eli had marked. He clicked back to the brief and searched for *write scope*. The word did not appear.
 
-*Cross-functional owners assigned. Mitigation options under review.*
+He scrolled the engineering thread from the top. Priya’s comment. Eli’s variant repro. Infrastructure on flag states. Owen asking for segment counts again. Compliance on retention routing. He copied the six a.m. sentence about *no active exploitation* into a notes file beside Priya’s line about pausing sync jobs leaving the write path intact.
 
-Then he read Priya’s top comment aloud.
+He read both blocks a third time, side by side, without typing.
 
-*Sync timing is real. It is not the authorization boundary. If we ship mitigation that only pauses sync jobs, we leave the write path intact.*
+The executive doc described posture. The engineering channel described mechanics. Same incident, different field names—and nobody had translated between them in either direction.
 
-The two documents were not lying to each other. They were speaking different languages on purpose.
+Nate sat with that long enough to hear Rachel’s shower start in the hall.
 
 Warren appeared in the leadership thread with a question for Nate’s eyes only.
 
@@ -236,12 +236,8 @@ Warren said, “Post that in the executive doc.”
 
 Caleb posted it.
 
-Nate closed the laptop when the call ended and went to campus with Rachel, phone in pocket, both stories still diverging in his head like train tracks that looked parallel from far away.
+Nate closed the laptop when the call ended and went to campus with Rachel, phone in pocket, both tabs still open in his head.
 
-The phone kept buzzing in his pocket anyway.
+The phone kept buzzing in his pocket anyway—engineering thread, leadership thread, a photo request from his mother he would answer after the ceremony.
 
-Different channels. Different frames. Same fear, dressed in each team’s preferred grammar.
-
-He smiled for a photo his mother took and tasted neither the pancakes nor the relief of being offline.
-
-He already understood something he wished he did not: to anyone not reading the threads, the company could look coordinated. That performance would be enough for most of the world until the world was wrong again.
+He smiled for the photo she took and tasted neither the pancakes nor the relief of being offline.

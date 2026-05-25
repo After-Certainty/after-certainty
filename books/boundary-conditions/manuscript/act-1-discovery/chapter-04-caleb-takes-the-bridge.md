@@ -132,9 +132,11 @@ Hour ten was when Customer Systems first said *staging parity* in a voice that s
 
 Caleb’s hour thirteen summary had been one sentence.
 
-*We are mitigating symptoms while arguing about who owns the disease.*
+*Partial regional disable shipped. Legal still blocking consent copy. Owner matrix updated—see template.*
 
 Warren had reacted with a thumbs-up.
+
+Nate had read it in the passenger seat and thought, not for the first time, that they were mitigating symptoms while arguing about who owned the cross-boundary outcome—but that was a sentence for his own notes, not Caleb’s bridge doc.
 
 At hour sixteen, Caleb put Nate back on speaker from a parking lot outside the campus bookstore while Rachel tried on sunglasses she did not need.
 
@@ -152,7 +154,7 @@ Infrastructure: feature flags and regional rollout, not business logic.
 
 Security: exposure and regulatory posture, not product roadmap.
 
-Each sentence was true. Each sentence was also a wall. Caleb’s bridge indicator showed twenty-three participants and someone’s dog barking in the background before they muted.
+Caleb’s bridge indicator showed twenty-three participants and someone’s dog barking in the background before they muted.
 
 A Customer Systems director Nate had argued with in a previous life said, “If we pause profile sync jobs globally, we break caregiver flows that are not in the repro set.”
 

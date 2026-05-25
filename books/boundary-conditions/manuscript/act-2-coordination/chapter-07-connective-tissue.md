@@ -165,7 +165,7 @@ Warren lowered his voice. “Caleb’s running operational coordination. I need 
 
 “A paragraph I can read tomorrow morning that sounds like we are one company.”
 
-Nate looked at Warren’s tired eyes and thought about the leadership thread from Sunday—one camp still pushing *platform reliability*, another pushing *trust incident*—and the company still unable to name the failure.
+Nate looked at Warren’s tired eyes. Warren had forwarded two paragraphs from the leadership thread—*platform reliability* in one, *trust incident* in the other—and asked which one Nate could defend in tomorrow’s staff pre-read.
 
 “I can give you a paragraph that is true,” he said.
 
@@ -304,15 +304,11 @@ He had typed back: *Connective tissue is not signatory.*
 
 Warren had reacted with a thumbs-up that meant *we’ll talk Monday* not *you’re wrong*.
 
-By Thursday afternoon Nate understood the informal job he had accepted without signing anything—the person who got @’d when a doc stalled, not signatory, not owner, just glue everyone pretended was temporary.
+By Thursday afternoon the informal job had a shape on his calendar: fourteen meetings, nine DMs marked urgent, zero names on the seam row.
 
 The war-room fluorescents had started humming at a pitch he noticed only when he was tired. He rubbed his eyes over another Slack thread and still did not own the answer.
 
-When he missed a meeting, the doc did not update and the thread filled with parallel truths. When he joined, someone always said, “Nate, can you say that in one sentence?” as if one sentence could hold a cross-boundary failure.
-
-He could not.
-
-He could make the failure visible long enough for people to disagree about the same picture, which was almost as useful and twice as exhausting.
+When he missed a meeting, the doc did not update and the thread filled with parallel truths. When he joined, someone always said, “Nate, can you say that in one sentence?”
 
 Friday at eleven he sat in a huddle room with Priya, Owen, and a Legal counsel who had been reassigned twice in three days.
 

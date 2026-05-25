@@ -76,11 +76,17 @@ Warren called him directly at two fifteen Mountain Time, which meant Warren was 
 
 Nate stood at Rachel’s kitchen counter with the departure board open on his laptop and the leadership thread still glowing in another tab.
 
-“Because Eli reproduced a cross-profile write in production timing this week,” Nate said. “Because the prior assessment did not include that path. Because Security’s duty-of-care threshold changed when the failure became operational instead of theoretical.”
+“Policy evaluation inherited delegated write scope from the relationship record before consent bound to that scope rendered in audit,” Nate said. “Eli reproduced it in production timing this week. The prior assessment path did not include that sequence. Security escalated when the failure became operational instead of theoretical.”
 
-“Say it shorter.”
+Warren was quiet for a beat.
 
-“Because the risk picture changed when we could show harm, not only describe it.”
+“That’s the engineering answer,” Warren said. “They’re not asking for policy tables. They’re asking why it’s loud now when it was quiet in March.”
+
+Nate looked at the leadership thread glowing in the other tab—*timing*, *scanning tools*, *why now*—and felt the mismatch land.
+
+“Say it shorter,” Warren said. “Something they can repeat without sounding like we’re hiding March.”
+
+“Because we could show harm this week, not only describe it,” Nate said. “That’s the story. The tables are backup if someone pushes.”
 
 Warren exhaled. “Good. Use that in the readout. Do not use the word *embarrassed* in any channel.”
 
@@ -190,29 +196,15 @@ Platform reliability event would route fear toward Infrastructure and Customer S
 
 Nobody in the thread asked which description was true.
 
-That was the part that stayed with him through descent into his city, through the taxi line, through the muted autoplay of a podcast he had not chosen and could not remember selecting.
-
-The exploit was still real. Eli’s reproduction was still real. Priya’s diagram was still real. Regional disable had shipped and would help and would not answer the question Nate had put in the open box on Thursday.
-
-What was still missing was a shared name for the failure.
-
 Nate collected his bag from the carousel at home airport—the same belt, the same fluorescent hum he had left from two days earlier with rain on the windows and a laptop still open on his credenza. The city air was damp and familiar. No Rachel with a joke sign. No parents asking whether the work thing had settled. Just him and the wheel of his carry-on and the incident still buzzing in his pocket like it had followed him through TSA twice.
 
 He ordered a rideshare and opened the engineering channel one more time before getting into the car.
 
 Priya had posted overnight about consent path audit. Eli had added a variant repro. Infrastructure asked for a rollback plan. Owen asked for customer segment counts. Identity reminded everyone that policy semantics were not owned in the thread.
 
-Not our system.
-
-Not our roadmap.
-
-Not our table.
-
-Nate closed the app and watched his breath fog the rideshare window slightly.
+Nate closed the app when the driver pulled up and put the phone face down on his thigh.
 
 Monday would pull him back into the center. Warren had said *fresh* as if fresh meant restored.
-
-For now he was home—still backup anchor, still unable to name the problem in any channel where naming it would stick.
 
 The car merged onto the highway toward his neighborhood.
 
@@ -220,12 +212,8 @@ His phone buzzed once more. Caleb had left a message in his inbox: hour nineteen
 
 *Why now is answered for tonight. Platform vs trust still open. Caleb owns it until you land Monday.*
 
-Nate read it twice. Warren had not chosen platform or trust. He had chosen Caleb—which was, Nate suspected, the closest thing to wisdom available at hour nineteen.
-
-He typed back to Caleb before putting the phone face down on his thigh.
+Nate typed back to Caleb before putting the phone face down again.
 
 *Good work. Keep going.*
 
 He meant it.
-
-He also knew, after long incidents and longer family weekends, that *steady* in an executive brief could mean a dozen different fights still open in engineering channels—and that Monday would ask for names again before anyone agreed which fight mattered yet.

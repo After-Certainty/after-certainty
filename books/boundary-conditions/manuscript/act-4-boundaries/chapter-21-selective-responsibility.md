@@ -434,23 +434,9 @@ He closed the laptop.
 
 Hadley read beside him.
 
-The exploit was quieter, not gone.
-
-The family was still adapting.
-
-The company would reach for him again.
-
-He knew that now the way you know weather from pressure in your joints.
-
-He was not preparing to refuse care.
-
-He was preparing to refuse invisibility.
-
 Outside the window a bus passed.
 
 Inside the room two people breathed without performing urgency.
-
-For the first time in months that felt like enough to build on.
 
 ---
 
@@ -515,34 +501,6 @@ Hadley asked whether he missed being the person everyone pinged.
 “Yes,” he said.
 
 “That’s the habit talking,” she said.
-
-Hadley asked whether he was waiting for the exploit to return.
-
-“Yes,” he said.
-
-“Are you ready,” she asked.
-
-“More than I was,” he said.
-
-She said, “Say the sentence.”
-
-He said, “I advise. I do not absorb.”
-
-It still felt strange in his mouth.
-
-Strange was better than invisible.
-
-He practiced again in the shower, ridiculous and necessary.
-
-*I advise. I do not absorb.*
-
-Hadley knocked once.
-
-“You’re talking to yourself,” she said.
-
-“Rehearsing,” he said.
-
-“Good,” she said.
 
 Warren called once in that period about a voluntary architecture review.
 
