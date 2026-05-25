@@ -124,7 +124,7 @@ The room held the silence that followed truth when truth was not cruel on purpos
 
 ---
 
-After the visit, paperwork multiplied the way it had all week at work—each form spawning three more forms, each with a signature line nobody wanted to be responsible for.
+After the visit, paperwork multiplied the way it had all week at work—fluorescent hallway, each form spawning three more forms, each with a signature line nobody wanted to be responsible for.
 
 Follow-up labs. Medication adjustment. A referral to occupational therapy. A form for advanced directive review the doctor said “could wait” in the tone that meant *should not wait too long*.
 

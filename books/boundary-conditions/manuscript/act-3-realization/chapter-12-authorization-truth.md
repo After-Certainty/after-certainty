@@ -20,7 +20,7 @@ At minute six Owen had asked whether the mitigation template could still list *s
 
 Nate had muted, unmuted, and typed: *We are arguing about field names because we do not have a problem name yet.*
 
-Nobody had reacted.
+Three people typed *+1*. Nobody changed the template.
 
 At minute eleven Eli had posted variant five again with a note that staging still reproduced cross-profile write under delegated caregiver trust. Someone from Application Architecture had typed *not our orchestration layer* and someone from Identity had typed *not our policy semantics* and Priya had typed *that is the seam* and the thread had gone quiet in the way threads went quiet when the seam was named without an owner.
 
@@ -282,9 +282,8 @@ Priya reacted: *Yes.*
 
 Owen reacted: *Segment language still blocked.*
 
-That was the new rhythm—agreement on the object, war on the ownership.
-
 ---
+
 
 Caleb found him at six-thirty assembling the engineering post.
 

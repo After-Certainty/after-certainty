@@ -71,8 +71,6 @@ Wednesday’s executive pre-read had stalled on whether the incident was still *
 
 Nate had written *cross-boundary authorization surface* and watched Warren edit it to *trust incident* and then back to *platform reliability* and then leave both in the doc as footnotes.
 
-That was synthesis too—just not the kind that showed up on a business card.
-
 ---
 
 The nine o’clock with Legal was where the stall became visible.
@@ -489,7 +487,5 @@ Nate kept it.
 The incident was still unresolved.
 
 The company had learned his name again.
-
-That was the job now, whether or not it fit on his business card.
 
 He was not sure he wanted it on the card anyway.

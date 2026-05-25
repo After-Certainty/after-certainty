@@ -617,5 +617,3 @@ Their mother paused.
 “You sound like my son again,” she said.
 
 “Same son,” Nate said. “Different defaults.”
-
-He did not know it would be four months before variant seven surfaced and the org would reach for him again with the old reflex intact—only this time there would be a wiki link, a signatory field, and a sentence he had practiced until it sounded like his own voice: *I advise. I do not absorb.*

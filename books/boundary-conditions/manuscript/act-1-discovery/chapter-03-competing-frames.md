@@ -104,7 +104,7 @@ The reactions took longer this time. Not eleven seconds. Nearly four minutes.
 
 Priya agreed. A Customer Systems director pushed back on calling it only sync. Owen said any customer-facing language change needed twelve hours minimum. Someone from Infrastructure Nate had never met drew a line in the sand: not their service, identity policy table.
 
-There was the fifth frame, Nate thought—not sync or staging or compliance or reputation, but geography. Not our system. The oldest organizational sentence.
+There was the fifth frame—not sync or staging or compliance or reputation, but geography. Not our system. The oldest organizational sentence.
 
 He poured more water and watched the ice melt.
 

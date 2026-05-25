@@ -4,9 +4,9 @@ The seam lead candidate interviews were scheduled in two-hour blocks, which was 
 
 He joined three sessions as requested—not as chair, as technical advisor. He asked questions about signatory authority. He asked who owned consent language across policy versions. He asked what the candidate had actually shipped, not what they had presented.
 
-The first candidate drew elegant RACI charts on the glass wall and said “alignment” fourteen times without naming a budget line.
+The first candidate drew elegant RACI charts on the glass wall and said “alignment” fourteen times without naming a budget line. The interview room smelled like dry-erase marker and someone’s lunch reheating in the microwave down the hall.
 
-Nate counted silently.
+Nate counted silently and rubbed his eyes once.
 
 Warren asked about cross-functional influence.
 

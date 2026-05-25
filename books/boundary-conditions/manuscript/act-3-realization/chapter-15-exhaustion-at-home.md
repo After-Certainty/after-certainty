@@ -46,7 +46,7 @@ The family logistics peaked the way incidents peaked—quietly at first, then al
 
 Mark had taken the lab but had not taken the neurologist follow-up scheduling because the portal link had been in a thread Mark did not read. Rachel had offered to call the pharmacy and had instead texted Nate the prescription number. Their mother had a question about advance directive paperwork that was not urgent until it was, because Daniel had asked twice at breakfast whether he still drove, and the second time had sounded like a man trying to catch himself lying.
 
-Nate coordinated from the kitchen table at seven a.m. with his commute postponed and his shame about the outburst sitting in his stomach like bad coffee.
+Nate coordinated from the kitchen table at seven a.m. with his commute postponed, cold coffee in a mug he had forgotten to drink, and his shame about the outburst sitting in his stomach like the dregs.
 
 Daniel was at the table in yesterday’s sweater, coffee untouched, reading the back of a cereal box as if it were instructions.
 

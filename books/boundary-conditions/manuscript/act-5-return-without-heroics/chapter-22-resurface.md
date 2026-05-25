@@ -256,6 +256,8 @@ Boring was safety.
 
 Tuesday evening the standards floor darkened while the old building stayed lit.
 
+Through the glass toward the old war room, Nate could see bridge light at two a.m.—muted participants, Caleb’s silhouette at the host monitor, no snack table this time. Rain on the east windows. Same storm, different month.
+
 Nate ate takeout at his desk and watched the executive summary bot tick—hotfix language pending, Legal in thread, Lena named in the remediation row.
 
 At eight oh four Caleb posted: *Hotfix one staged. Signatory requested.*

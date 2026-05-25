@@ -70,11 +70,13 @@ Identity went first.
 
 Product came next.
 
-“We own customer-facing flows,” Owen said. “We do not own identity policy tables or Infrastructure feature flags. Any pause banner requires Legal-approved language and segment lists from Customer Operations.”
+“We own customer-facing flows,” Owen said. “We do not own identity policy tables or Infrastructure feature flags. Any pause banner requires Legal-approved language and segment lists from Customer Operations. I don’t have segment lists tonight. I have—” He stopped. “I have a draft.”
 
 Infrastructure spoke through *greg-h* again.
 
-“We own runtime and flags,” greg-h said. “We do not own policy meaning. If Identity ships semantics Legal has not signed, we will not flip prod.”
+“We own runtime and flags,” greg-h said. “We do not own policy meaning. If Identity ships semantics Legal has not signed, we will not flip prod. I’m not being difficult. I’m being—”
+
+“Being correct locally,” Caleb said, flat. “Keep going.”
 
 A Security director added breach posture and regulatory notification requirements, which sounded like ownership until you tried to assign them a Jira epic.
 
@@ -90,7 +92,7 @@ Customer Systems said, “Profile object model is shared custody.”
 
 Eli said, “Then shared custody needs a signatory.”
 
-Nate watched the circle close.
+Nate watched the circle close. Fluorescent light buzzed above the diagram. Someone’s laptop fan whined.
 
 Every sentence was true.
 
@@ -160,7 +162,7 @@ After the bridge, Priya found him at the whiteboard still drawing the same shade
 
 Nate capped his marker.
 
-“Because wrong and stuck are different problems. They’re defending local correctness. The failure lives in the seams.”
+“They’re defending local correctness,” he said. “The failure lives in the seams.”
 
 Priya studied the diagram.
 

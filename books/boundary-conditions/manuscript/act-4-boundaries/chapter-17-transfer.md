@@ -16,7 +16,7 @@ She nodded.
 
 The war room corridor was loud behind his back—Caleb’s voice on a bridge audio line, Legal asking for signatory, Infrastructure defending a flag—while Nate sat in a small focus room two doors down with HR’s portal open and his cursor on *Submit*.
 
-He read the reason field one last time.
+He read the reason field one last time, fluorescent light flat on the focus-room table, bridge audio leaking under the door like weather.
 
 *Seeking role aligned with long-cycle architecture standards and reduced operational incident load. Motivated by sustainable contribution.*
 

@@ -20,8 +20,6 @@ He read the readout twice anyway.
 
 The body was short. No drama. Owners named. Next review in two weeks. Caleb cc’d on bridge cadence only. Priya on diagram drift. Sarah on customer language holds. His name appeared once: *Historical context available — Mercer, office hours.*
 
-Tracked remediation meant bridges optional, not guilt optional. Variant tables could shrink without anyone declaring victory. His body might stop bracing for the hourly bot—might, not would.
-
 He did not reply-all with gratitude. He archived the thread and let the sentence sit in his chest the way *Sev One declared* had sat in February—less alarm now, more bookkeeping.
 
 That afternoon Mark drove his father to a neurologist follow-up Mark had scheduled without asking Nate to book it. Nate came because Daniel asked, not because the calendar needed a project manager.

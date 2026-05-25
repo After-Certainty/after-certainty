@@ -80,7 +80,9 @@ He meant incident declared. The phrase felt true either way.
 
 Warren joined from what looked like an airport lounge background—blurred glass, a carry-on standing guard behind his shoulder. His voice was thinner over airline Wi‑Fi, but his tone had not changed. Careful. Measured. Already performing calm for an audience that now included people who did not know what a delegated profile was but knew what “material customer risk” meant on an earnings call.
 
-“Let’s keep this structured,” Warren said on the bridge Caleb had spun up for mitigation owners. “We have three proposed paths in the template. I want owners, timelines, and what we’re trading off. Not philosophy.”
+“Let’s keep this structured,” Warren said on the bridge Caleb had spun up for mitigation owners. “We have three proposed paths in the template. I want owners, timelines, and what we’re trading off. Not—”
+
+“Not philosophy,” someone finished, and Warren did not laugh.
 
 Nate had his headset on one ear, the other open to the cabin. A flight attendant passed with a drink cart. Someone across the aisle watched a muted sitcom. The ordinary world continued at thirty thousand feet while Warren asked Security to restate Option A for the record.
 
@@ -88,11 +90,15 @@ Disable delegated linking globally.
 
 Owen Patel from Product joined the call without video, which was how Product joined everything when the conversation might turn emotional. His voice had the tired crispness of someone who had already been in two other meetings that day and resented the third on principle.
 
-“If we flip that switch,” Owen said, “we’re not talking about a weekend patch. We’re ripping out family accounts, caregiver access, shared billing, and a pilot for assisted onboarding in two enterprise segments. The template wants revenue impact. I can give you a range that will make everyone unhappy.”
+“If we flip that switch—” Owen started.
+
+“—we’re not talking about a weekend patch,” he said when Infrastructure tried to talk over him. “We’re ripping out family accounts, caregiver access, shared billing, and a pilot for assisted onboarding in two enterprise segments. The template wants revenue impact. I can give you a range that will make everyone unhappy. I don’t have the exact—” He exhaled. “I have a range.”
 
 Security came back through a manager Nate knew mostly by reputation—Priya Raman, identity platform engineering, not Security proper, which told him Security was already distributing ownership like hot food at a crowded table.
 
-Priya said, “If we don’t flip it, we need exposure on the record. Eli’s repro is not theoretical. We have a prior review finding. ‘Mitigate later’ doesn’t go in the regulatory section unless somebody signs in ink.”
+Priya said, “If we don’t flip it, we need exposure on the record. Eli’s repro is not theoretical. We have a prior review finding. ‘Mitigate later’ doesn’t—”
+
+“Doesn’t go in the regulatory section unless somebody signs in ink,” a Security director finished for her, too fast, like they had been waiting to say it.
 
 Nate unmuted.
 
@@ -190,9 +196,7 @@ Caleb: *Incident formally declared in all the systems that matter. Exec template
 
 Nate tucked the phone into his jacket pocket and joined the line of passengers shuffling toward arrival.
 
-Declared, he thought—not only in the ticketing systems and pager rotations and executive slides, but in the sense that the company had chosen a shape for its fear and would now defend that shape until something forced it to change.
-
-He did not know yet whether the shape fit the problem. He knew the machinery was running and Caleb was still standing in the middle of it, and that the real issue stayed unnamed behind slides nobody had agreed were the right shape.
+Declared—in the ticketing systems and pager rotations and executive slides, and in Caleb still standing in the middle of it while the real issue stayed unnamed behind slides nobody had agreed were the right shape.
 
 The jet bridge smelled like carpet cleaner and cold air. Nate powered his laptop on again the moment he had hallway signal.
 

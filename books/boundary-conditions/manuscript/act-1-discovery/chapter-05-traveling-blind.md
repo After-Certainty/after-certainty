@@ -196,8 +196,6 @@ The exploit was still real. Eli’s reproduction was still real. Priya’s diagr
 
 What was still missing was a shared name for the failure.
 
-Every team had chosen a frame that made their corner legible and their risk smaller. Caleb could keep the bridge steady that way. It still would not tell them where they were going.
-
 Nate collected his bag from the carousel at home airport—the same belt, the same fluorescent hum he had left from two days earlier with rain on the windows and a laptop still open on his credenza. The city air was damp and familiar. No Rachel with a joke sign. No parents asking whether the work thing had settled. Just him and the wheel of his carry-on and the incident still buzzing in his pocket like it had followed him through TSA twice.
 
 He ordered a rideshare and opened the engineering channel one more time before getting into the car.
@@ -212,9 +210,9 @@ Not our table.
 
 Nate closed the app and watched his breath fog the rideshare window slightly.
 
-Monday would pull him back into the center. He knew that already. Warren had said fresh as if fresh meant restored, when Nate suspected it meant available.
+Monday would pull him back into the center. Warren had said *fresh* as if fresh meant restored.
 
-For now he was home—still backup anchor, still the person leadership called when fear needed translating into slides—and still unable to name the problem in any channel where naming it would stick.
+For now he was home—still backup anchor, still unable to name the problem in any channel where naming it would stick.
 
 The car merged onto the highway toward his neighborhood.
 

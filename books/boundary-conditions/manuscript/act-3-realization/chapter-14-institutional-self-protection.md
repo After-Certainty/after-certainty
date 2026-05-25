@@ -150,6 +150,8 @@ Infrastructure said, “We will not flip flags on plain language.”
 
 Security said, “We will not stop asking for plain language.”
 
+Product ops said, “Can we—” and muted again when nobody answered.
+
 The platform director said, “We cannot be the system of record for consent state without a product mandate.”
 
 The product director said, “We cannot take a mandate without revenue impact sign-off.”

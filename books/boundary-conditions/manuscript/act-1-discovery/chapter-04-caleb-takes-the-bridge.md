@@ -18,7 +18,9 @@ Caleb made a sound that might have been a laugh if he had more sleep.
 
 “I’ve been coordinating,” he said. “What I need is for Identity to stop saying ‘not our table’ while Product says ‘not our roadmap’ and Infrastructure says ‘not our runtime.’”
 
-There it was, Nate thought—the fight over who owned the failure arriving on schedule, wearing polite enterprise language.
+“And Legal says—” Owen started.
+
+“Legal says Monday,” Caleb said. “Walk me through where we’re stuck, Nate.”
 
 “Walk me through where we’re stuck,” Nate said.
 
@@ -142,7 +144,7 @@ Nate stood in the shade of a concrete planter with graduation balloons tied to t
 
 Identity: policy table, not profile table.
 
-Customer Systems: profile lifecycle, not policy semantics.
+Customer Systems: profile lifecycle, not— wait, not policy semantics.
 
 Product: onboarding orchestration, not identity storage.
 
@@ -150,7 +152,7 @@ Infrastructure: feature flags and regional rollout, not business logic.
 
 Security: exposure and regulatory posture, not product roadmap.
 
-Each sentence was true. Each sentence was also a wall.
+Each sentence was true. Each sentence was also a wall. Caleb’s bridge indicator showed twenty-three participants and someone’s dog barking in the background before they muted.
 
 A Customer Systems director Nate had argued with in a previous life said, “If we pause profile sync jobs globally, we break caregiver flows that are not in the repro set.”
 

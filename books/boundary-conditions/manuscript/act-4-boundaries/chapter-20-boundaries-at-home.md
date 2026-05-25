@@ -80,7 +80,7 @@ Daniel said, “What’s architecture.”
 
 Their mother looked at Rachel as if seeing her adult for a moment.
 
-Dessert was pie and silence that was not hostile.
+Dessert was pie and silence that was not hostile—the kitchen clock audible, dishwasher humming in the next room.
 
 Daniel asked Nate what kind of work he did now.
 

@@ -68,8 +68,6 @@ Caleb stopped under a tree still bare at the top.
 
 “So what is leadership if it is not that?” he asked.
 
-Nate thought about Isaac naming the problem. Priya drawing the surface. Eli posting variants without drama. Owen bringing dinner. Mark driving to a clinic. Hadley refusing Sunday as a one-person calm machine.
-
 “Leadership is making the failure visible enough that structure has to appear,” Nate said. “Carrying everything is what happens when structure does not appear and someone reliable is nearby.”
 
 Caleb kicked a third pebble.
@@ -201,8 +199,6 @@ She leaned against the counter.
 “What are you going to do differently?” she asked.
 
 Not *you should*. Not *you must*. What are you going to do.
-
-Nate thought about transfer rumors he had not opened in HR’s portal. About Caleb running bridges with translation on request. About Sunday dinner with muted threads. About the outburst he could not unsay and would not unsay.
 
 “I’m going to stop treating absorption as the job,” he said. “I’m going to find out what happens when I stay helpful without staying default.”
 

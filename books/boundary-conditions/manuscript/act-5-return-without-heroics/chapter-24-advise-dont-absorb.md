@@ -300,7 +300,7 @@ At minute eighteen a director Nate did not recognize—Customer Systems, gray bl
 
 Owen unmuted before Caleb could route him.
 
-“We have segment language pending Legal,” Owen said. “We have a comms owner on Lena’s team. We do not have a single human who owns the seam except Lena.”
+“We have segment language pending Legal,” Owen said. “We have a comms owner on Lena’s team. We do not have a single human who owns the seam except Lena. I’m not—” He stopped. “I’m not asking Mercer back. I’m asking for a sentence we can read to support tonight.”
 
 The director said, “Mercer owned the narrative for months. Customers trusted Mercer.”
 
@@ -548,8 +548,6 @@ Lena’s name on every row that used to be blank.
 
 He thought about the first Thursday when Eli appeared in his doorway with a laptop and the particular expression people wore when facts were bad.
 
-Same problem shape, different response shape—help without disappearing into the header, messy but visible.
-
 On the drive home Hadley called hands-free.
 
 “Office hours,” he said. “Bridge mute. Owen survived.”
@@ -559,7 +557,5 @@ On the drive home Hadley called hands-free.
 “I did not disappear,” he said.
 
 “Good,” she said. “Dinner is reheat. Come home.”
-
-He thought about the board member who had asked why they had not seen this in the first incident. They had seen it. They had mitigated around it, documented around it, hired Lena late, and called that progress.
 
 The company was not fixed. For one week it had been teachable in public, and that was more than February had allowed.

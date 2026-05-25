@@ -4,7 +4,7 @@ By Wednesday the incident had a child name in Slack—*Seam Regression*—and th
 
 Lena ran the bridge with Isaac on Security and Owen on Product in the same room for the first time since Nate’s outburst.
 
-Nate watched the readout from his desk, not the head of the table.
+Nate watched the readout from his desk, not the head of the table—headset on, coffee gone cold, afternoon light flat on the standards floor.
 
 At minute four Lena said, “Roles on slide. I own seam. Priya owns diagram. Caleb owns clock. Say it.”
 

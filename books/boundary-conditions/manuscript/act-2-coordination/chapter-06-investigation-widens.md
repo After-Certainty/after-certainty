@@ -88,13 +88,17 @@ Priya turned from the board.
 
 Mara opened her mouth, closed it, and typed something into her laptop instead of saying it aloud.
 
-Warren Hale came in with two staff members and the expression of a man who had slept in fragments.
+Warren Hale came in with two staff members and the expression of a man who had slept in fragments. Coffee rings on the war-room table. Nobody had touched the snack table.
 
 “We need convergence,” Warren said. “Not more theories.”
 
 Priya did not look away from the board.
 
 “We have convergence on surface area,” Priya said. “We do not have convergence on who owns the failure inside it.”
+
+“Failure is a strong word,” Owen said from the speakerphone, audio crackling.
+
+“Failure is an accurate word,” Priya said.
 
 Silence.
 
@@ -242,11 +246,13 @@ When Eli described variant five, the chat filled with the word *legacy* in twelv
 
 Warren said, “Are we narrowing.”
 
+Not a question. A weather report.
+
 Nate unmuted, Caleb’s name still on the attendee list as primary.
 
 “We have four confirmed repro paths and a fifth in validation inside one authorization surface,” he said. “Mitigations reduced acute exposure. We do not yet have an owner for cross-boundary consent semantics. That is not narrowing. That is finally using one map.”
 
-Silence on the bridge.
+Someone typed *map is not owner* in the thread.
 
 Warren said, “Put that in the summary.”
 
@@ -282,11 +288,7 @@ He meant to leave at seven. He left at eight-forty with three unread threads and
 
 “We’re wider than Thursday,” Caleb said to the room. “That’s not failure. That’s finally looking at the same map.”
 
-Nate stepped into the parking garage and realized he had become the person every follow-up routed through again—not because he had claimed the work, but because the work had learned his name.
-
-The map was larger than it had been that morning.
-
-So was his Tuesday calendar, already filling with meetings that would stall the moment he was not in them.
+Nate stepped into the parking garage. The map was larger than it had been that morning. So was his Tuesday calendar, already filling with meetings that would stall the moment he was not in them.
 
 At home he microwaved leftovers and opened the incident channel on his phone while Hadley read on the couch. Variant five had forty-seven comments. Twelve used the word *legacy*. Three tagged Legal. One asked whether Nate could “own narrative” for customer comms.
 

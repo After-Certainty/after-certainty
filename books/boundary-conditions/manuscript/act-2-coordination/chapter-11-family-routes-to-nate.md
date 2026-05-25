@@ -8,7 +8,7 @@ Nate was in a seam sponsorship meeting when the messages arrived. He muted his p
 
 Hadley had started calling his phone *the second job* without humor in her voice.
 
-By Friday the family had learned the same lesson his company had learned weeks earlier: if Nate was reachable, the question went to Nate first.
+By Friday, if Nate was reachable, the question went to Nate first.
 
 At work Friday followed the same law.
 
@@ -30,7 +30,7 @@ Caleb reacted with a crown emoji Nate pretended not to see.
 
 The DMs slowed. They did not stop.
 
-At five-thirty he walked to the parking garage with his badge in his hand and his phone buzzing anyway.
+At five-thirty he walked to the parking garage—stale concrete air, badge in his hand, phone buzzing anyway.
 
 Caleb fell in beside him.
 

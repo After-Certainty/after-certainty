@@ -81,7 +81,9 @@ Legal said, “Only if Product gives return dates.”
 
 Product ops said, “Only if Warren approves revenue impact.”
 
-Nate said, “Read the row. Every column has a fear. Nobody has signatory.”
+Priya said, “Only if Identity confirms semantics, which we cannot do until—”
+
+“Read the row,” Nate said. “Every column has a fear. Nobody has signatory.”
 
 He pointed at the empty box at the end of the row.
 
@@ -186,8 +188,6 @@ Nate rubbed his face.
 “Nothing is finished. B reduces capability in known segments. C documents harm without closing the write path. Regional disable is real but incomplete. Policy alignment is still in Legal review.”
 
 “I know,” Warren said. “Give me the least dishonest finished sentence.”
-
-Nate thought about Owen’s slide, Priya’s diagram, Eli’s fifth variant, the empty seam owner field.
 
 “We have implemented containment measures that reduce acute customer exposure while cross-boundary authorization remediation remains in progress,” he said.
 

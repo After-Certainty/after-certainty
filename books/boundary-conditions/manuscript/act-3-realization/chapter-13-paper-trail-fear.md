@@ -10,10 +10,6 @@ The executive summary was clean. Too clean. Color-coded risk tiers. A paragraph 
 
 Pablo was technically strong. Nate had worked with him on a compliance tooling project two years earlier. Pablo believed in automation the way some people believed in weather forecasts—not because they were always right, but because they were faster than waiting for the sky to explain itself.
 
-The problem was not Pablo.
-
-The problem was what leadership did with speed when fear was already in the room.
-
 Nate forwarded the attachment to Sarah Kim before his second coffee, with a note that said only: *Inference vs repro — please read before Warren does.*
 
 Sarah replied in four minutes: *Already in my queue. Who else has it?*
