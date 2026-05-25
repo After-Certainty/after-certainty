@@ -522,4 +522,4 @@ He was not optimistic.
 
 He was also not going to fill it for them.
 
-Hadley’s voice faded on the phone. Nate set the mug in the sink and watched the notification stack refresh—Warren’s staffing chart, Caleb’s seam reminder, Priya’s diagram link. Nobody in any of those threads had offered to sign the empty row. They kept asking him to name the tradeoffs again, as if another column in the template would conjure a owner.
+Hadley set her mug in the sink beside his and watched the notification stack refresh on his phone—Warren’s staffing chart, Caleb’s seam reminder, Priya’s diagram link. Nobody in any of those threads had offered to sign the empty row. They kept asking him to name the tradeoffs again, as if another column in the template would conjure an owner.
