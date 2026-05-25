@@ -2,7 +2,7 @@
 
 Four months into the standards job, Nate had learned to leave gaps in his calendar on purpose.
 
-Six weeks on the standards team had become ten, then sixteen, then a quiet quarter where the incident channel went Sev Two and stayed there until leadership stopped pretending closure was a calendar event. Lena’s name had stayed on the remediation row. His calendar had filled with deprecation reviews and emptied of synthesis blocks. He had taught consent-template workshops. He had practiced *I advise. I do not absorb* in the shower until Hadley told him to stop rehearsing in wet acoustics.
+The incident channel had gone Sev Two and stayed there until leadership stopped pretending closure was a calendar event. Lena’s name had stayed on the remediation row. His calendar had filled with deprecation reviews and emptied of synthesis blocks. He had taught consent-template workshops. He had practiced *I advise. I do not absorb* in the shower until Hadley told him to stop rehearsing in wet acoustics.
 
 Tuesday morning had two gaps and a review of third-party token lifecycle language that made Legal yawn in a good way. The conference room was the same glass box where boards eventually asked uncomfortable questions, but today the uncomfortable question was whether a third-party token could rotate without breaking delegated consent paths in staging.
 

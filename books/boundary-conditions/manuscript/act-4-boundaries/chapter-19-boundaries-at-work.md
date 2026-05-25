@@ -132,7 +132,7 @@ Denise said, “They want you moved before quarter close so headcount math works
 
 “Fine,” Nate said.
 
-His last week in the war room corridor felt like visiting a country he had lived in too long.
+His last week in the war room corridor was quieter than his first month there—same smell of cold coffee, fewer people asking if he was still around.
 
 He cleared his desk in one afternoon—three notebooks, two mugs, a stress ball Caleb had left as a joke, printed diagrams Priya had handed him like sacred texts.
 
@@ -547,8 +547,6 @@ Nate did not correct Warren’s use of his time.
 He closed the laptop and walked home at five oh two without checking the incident channel in the garage.
 
 In the car he thought about the last bridge—Caleb’s header, Warren muted, Owen angry, Priya satisfied—and how the room had finally stopped treating his voice as the default answer.
-
-It had taken an outburst, a transfer, and Lena saying *call someone else* for heroics.
 
 Hadley asked what changed.
 

@@ -526,7 +526,7 @@ Lena appeared in the doorway at four fifty-five, two minutes before office hours
 
 She held up her phone—four unread, then six.
 
-Nate said, “DMs to you instead of me—that is the metric.”
+Nate said, “DMs to you instead of me. Good.”
 
 Lena said, “Keep it.”
 

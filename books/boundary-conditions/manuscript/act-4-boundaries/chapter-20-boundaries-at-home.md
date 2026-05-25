@@ -322,7 +322,7 @@ That night in their kitchen Hadley said, “Mark’s line was hard.”
 
 “Do you believe it?”
 
-“I believe I optimized for control because control felt like care,” Nate said.
+“I mixed control up with care,” Nate said.
 
 Hadley stacked plates.
 

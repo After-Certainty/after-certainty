@@ -95,7 +95,7 @@ Run **03** once across **Ch 13 + 14** for duplicate-meeting residue.
 | Doc captured | done | this file |
 | Tier A | done | Ch 7–14 — agents 01–06 (May 2026); see commit `tier-a-agent-passes` |
 | Tier B | done | Ch 6, 15–18, 23 — targeted 03–07 (May 2026) |
-| Tier C | pending | |
+| Tier C | done | Ch 1–5, 10, 19–22, 25; front matter 01 (May 2026) |
 | Cross-book | pending | |
 
 Update the **Status** table as passes complete.

@@ -352,7 +352,7 @@ Silence on the line.
 
 “Okay,” his mother said. “Okay.”
 
-He hung up and felt the boundary hold and wobble in the same breath—the way a yellow mitigation row held at work.
+He hung up and felt the boundary hold, then wobble—the way a row at work held until someone else’s name was in the owner column.
 
 Friday Warren forwarded him a leadership thread that reframed variant five as “limited cohort exposure” with no owner attached.
 

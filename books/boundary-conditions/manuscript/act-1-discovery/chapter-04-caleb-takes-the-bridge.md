@@ -280,4 +280,4 @@ For the first time since the repro landed in his office, the center of the respo
 
 Caleb was on the bridge.
 
-Nate was in Denver—reachable, not running—and the gap between those two words felt as fragile as it felt necessary.
+Nate was in Denver—reachable, not running—and the gap between those two words felt fragile and necessary.

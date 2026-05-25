@@ -514,8 +514,6 @@ The war room corridor was lit but quiet—no snack piles, no hourly bot spam.
 
 He still cared about consent paths, owner fields, and family threads.
 
-He no longer treated exhaustion as proof he was doing the job right.
-
 Hadley texted: *Dinner at six. Be human.*
 
 He typed back: *On my way.*
@@ -553,10 +551,6 @@ She kissed his temple, the way she did when he came home from airports during th
 “Enough to build on,” she said.
 
 He said, “Yes.”
-
-He meant it for the company, the family, and the version of himself that could chop onions without listening for a bridge tone in every notification chime.
-
-Later, in bed, he dreamed neither bridges nor boardrooms—only the kitchen, rain on glass, Hadley’s hand on his shoulder when he finally stopped checking the lock screen in his sleep.
 
 He woke once at two a.m. from habit, saw no Sev badge, no red unread storm, and went back to sleep.
 
