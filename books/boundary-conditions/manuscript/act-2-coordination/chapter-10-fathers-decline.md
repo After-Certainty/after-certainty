@@ -236,7 +236,7 @@ Hadley called his mother while Nate made dinner—ordinary domestic noise that f
 
 Nate heard only his wife’s side: *yes*, *Wednesday went fine*, *we’ll help with the portal*, *no, he’s not a project*.
 
-When she hung up, she said, “Your mom cried a little. Not because today was catastrophic. Because someone else translated the doctor for once.”
+When she hung up, she said, “Your mom cried a little. Mark did the portal. She heard it.”
 
 Nate stirred sauce he did not taste.
 

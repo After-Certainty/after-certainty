@@ -160,7 +160,7 @@ Caleb messaged immediately.
 
 *They’re not tired. They’re managing narrative.*
 
-Nate stared at the sentence after he sent it. Managing narrative was accurate. It was also the kind of phrase that would sound cynical if the wrong person repeated it. He hoped Caleb would treat it as forecast, not worldview.
+Nate stared at the sentence after he sent it, then deleted it and typed *Execs managing narrative* instead.
 
 Boarding started.
 
@@ -168,7 +168,7 @@ He folded the laptop halfway, then opened it again when Warren appeared in a pri
 
 *Good job today. Keep Caleb primary. I need you fresh Monday.*
 
-Fresh Monday meant back in the office, back in the center gravity, back in the role the organization knew how to use. Nate typed acknowledgment and joined the boarding line with his phone still warm in his hand.
+Fresh Monday meant back in the office. Nate typed acknowledgment and joined the boarding line with his phone still warm in his hand.
 
 On the plane he had no Wi‑Fi for the first twenty minutes.
 

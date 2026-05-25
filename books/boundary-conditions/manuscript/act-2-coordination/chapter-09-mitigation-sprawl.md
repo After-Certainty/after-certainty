@@ -183,23 +183,23 @@ Warren called at six while Nate was still at his desk and the cleaning crew was 
 
 “They have a template.”
 
-“They want a narrative that sounds finished.”
+“Finished-sounding.”
 
 Nate rubbed his face.
 
-“Nothing is finished. B reduces capability in known segments. C documents harm without closing the write path. Regional disable is real but incomplete. Policy alignment is still in Legal review.”
+“B cuts segments. C’s dashboards. Regional disable’s partial. Legal still—”
 
-“I know,” Warren said. “Give me the least dishonest finished sentence.”
+“I know,” Warren said. “Least dishonest sentence. Go.”
 
 “We have implemented containment measures that reduce acute customer exposure while cross-boundary authorization remediation remains in progress,” he said.
 
 Warren was quiet.
 
-“That’s a lot of words,” Warren said.
+“Long,” Warren said.
 
-“It’s a lot of truth,” Nate said.
+“True,” Nate said.
 
-“Send it,” Warren said.
+“Send.”
 
 ---
 

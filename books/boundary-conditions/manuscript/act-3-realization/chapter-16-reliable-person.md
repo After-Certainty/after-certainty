@@ -382,10 +382,6 @@ Priya reacted with a checkmark.
 
 Isaac reacted: *Yes.*
 
-Authorization, consent, routing: the work had names now. Reliable people were still mistaken for infrastructure.
-
-What he did next would have to be structural, not heroic.
-
 For now he closed the laptop and walked to the parking garage at a normal hour.
 
 In the garage Warren called as Nate unlocked his car.
@@ -402,7 +398,7 @@ Warren laughed once, without humor.
 
 “Fair,” he said. “Denise’s team is real. So is the incident. Do not ghost us.”
 
-“I won’t ghost you,” Nate said. “I might stop being your default when the seam is empty.”
+“I won’t ghost you,” Nate said. “Stop defaulting the empty seam row to me.”
 
 Warren hung up.
 

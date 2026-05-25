@@ -242,11 +242,9 @@ His phone rang. Warren, not the bridge.
 
 “Reachable reachable,” Warren said.
 
-The phrase carried the old expectation Nate had been trying not to reinforce: reachable meant always, meant instantly, meant whoever answered first absorbed whatever uncertainty had nowhere else to go.
-
 Nate looked at the open door of the guest room, at the hallway light and the sound of his family laughing about something in a graduation video on the television.
 
-“I’m reachable with Caleb primary,” he said. “If the bridge stalls, I’m there. If it’s moving, you have him.”
+“Reachable,” he said. “Caleb primary. Bridge stalls, I’m there. Moving, you’ve got him.”
 
 A pause on Warren’s end, long enough to count.
 

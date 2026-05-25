@@ -246,7 +246,7 @@ Normal life continuing uninterrupted while forty people quietly tried to determi
 
 Two hours later Nate sat alone near Gate B17 watching rain streak against the airport windows while the incident channel exploded across his laptop screen.
 
-The organization was already adapting.
+Channels were already multiplying.
 
 One team had identified edge cases involving account recovery.
 Another had started adding telemetry around profile changes on linked accounts.

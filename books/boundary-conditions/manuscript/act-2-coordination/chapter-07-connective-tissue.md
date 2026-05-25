@@ -165,17 +165,17 @@ Warren pulled him aside after the executive pre-read.
 
 Nate wanted to argue. He did not have the energy.
 
-Warren lowered his voice. “Caleb’s running operational coordination. I need you on synthesis. Leadership asks me questions I cannot answer without you. Engineering asks me questions I should not answer without you. That is not an insult. It is the week we are in.”
+Warren lowered his voice. “Caleb’s on ops. I still need you on synthesis.”
 
-“What do you need tonight?”
+“Tonight?”
 
-“A paragraph I can read tomorrow morning that sounds like we are one company.”
+“Tomorrow’s staff pre-read. One paragraph.”
 
-Nate looked at Warren’s tired eyes. Warren had forwarded two paragraphs from the leadership thread—*platform reliability* in one, *trust incident* in the other—and asked which one Nate could defend in tomorrow’s staff pre-read.
+Nate looked at Warren’s tired eyes. Two forwarded paragraphs sat in the thread—*platform reliability* in one, *trust incident* in the other.
 
-“I can give you a paragraph that is true,” he said.
+“Pick one field name,” Nate said, “or stop asking me to defend both.”
 
-Warren almost smiled. “Start there.”
+Warren almost smiled. “True paragraph. Start there.”
 
 Nate walked back to his desk and found eleven DMs waiting.
 

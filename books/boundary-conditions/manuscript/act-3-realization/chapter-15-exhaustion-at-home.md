@@ -38,8 +38,6 @@ He replied only to Caleb—*Thanks. Home tonight.*—left the rest unread until 
 
 ---
 
-The family logistics peaked the way incidents peaked—quietly at first, then all at once.
-
 Mark had taken the lab but had not taken the neurologist follow-up scheduling because the portal link had been in a thread Mark did not read. Rachel had offered to call the pharmacy and had instead texted Nate the prescription number. Their mother had a question about advance directive paperwork that was not urgent until it was, because Daniel had asked twice at breakfast whether he still drove, and the second time had sounded like a man trying to catch himself lying.
 
 Nate coordinated from the kitchen table at seven a.m. with his commute postponed, cold coffee in a mug he had forgotten to drink, and his shame about the outburst sitting in his stomach like the dregs.
@@ -103,7 +101,7 @@ He texted Rachel the hold-time shortcut Hadley had reminded him to share.
 
 By nine he was late to a synthesis review he had scheduled himself.
 
-He joined from the kitchen table with Daniel still at the cereal box and Hadley loading the dishwasher behind him, domestic audio Warren’s staff would not hear but Nate would.
+He joined from the kitchen table with Daniel still at the cereal box and Hadley loading the dishwasher behind him.
 
 Warren noticed.
 
@@ -117,25 +115,27 @@ Warren noticed.
 
 After the bridge Warren kept him on the line—staff channel, not bridge audio.
 
-“You need sustainable staffing,” Warren said. It was the same sentence as the DM, spoken slower.
+“Sustainable staffing,” Warren said—the DM again, slower.
 
-“I need a signatory on the seam,” Nate said.
+“Signatory on the seam,” Nate said.
 
-“We are working options,” Warren said.
+“Working options.”
 
-“Staffing options are not signatures,” Nate said, and heard himself quote Priya, which should have been funny and was not.
+“Not signatures.”
 
 Warren said, “I am not punishing you for Thursday.”
 
-“I did not ask for punishment,” Nate said. “I asked for structure.”
+“I didn’t ask—” Nate stopped. “Structure.”
 
-Warren was quiet long enough that Nate could hear a door close on his end—an office, not an airport.
+A door closed on Warren’s end.
 
-“Take Friday afternoon,” Warren said. “Family. I will tell Caleb synthesis can wait.”
+“Friday afternoon,” Warren said. “Family. Caleb can wait on synthesis.”
 
-Nate said, “Caleb already runs the bridge.”
+“Caleb already runs the bridge.”
 
-“Then let him,” Warren said, and hung up.
+“Then let him.”
+
+The line went dead.
 
 Priya said on the same bridge, without looking at him, “Policy version in zone two might finally match audit logs.”
 

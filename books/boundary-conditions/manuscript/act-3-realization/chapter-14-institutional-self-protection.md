@@ -140,7 +140,7 @@ Nate did not stop.
 
 Silence.
 
-He had more—*optimized local ownership*, *coordinators without signatory authority*, *heroics instead of structure*—and abandoned it when he saw Priya’s face. Not because he lost the sentence. Because the room had finally heard the noun.
+He had more and abandoned it when he saw Priya’s face.
 
 Warren’s chief of staff stopped typing.
 
@@ -342,7 +342,7 @@ Warren called at six.
 
 A pause.
 
-“Leadership is uneasy,” Warren said. “Not because you were wrong. Because you were right in a room that preferred being polite.”
+“Leadership is uneasy,” Warren said. “You said *structure* where Legal could hear you.”
 
 Nate stared at the parking garage through his office window.
 

@@ -392,12 +392,6 @@ He left.
 
 Nate sat with the acknowledgment longer than the anger that had produced it.
 
-The organization was still fragmented.
-
-Ownership was still messy.
-
-He was no longer reconciling alone by default.
-
 Priya messaged: *Diagram updated. Finally signed field on remediation row. Not me. Not you. Lena.*
 
 Nate reacted with a checkmark.

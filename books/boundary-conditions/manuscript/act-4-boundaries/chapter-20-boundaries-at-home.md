@@ -156,7 +156,7 @@ Rachel said, “Dad, you used to run a department. You liked loud.”
 
 “I liked budgets,” Daniel said. “Loud was Nate.”
 
-The table went quiet in the way families went quiet when truth arrived dressed as a joke.
+The table went quiet.
 
 Nate said, “Fair.”
 

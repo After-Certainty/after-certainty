@@ -216,19 +216,19 @@ Warren’s jaw worked once.
 
 “The incident still needs you,” Warren said.
 
-“The incident needs an owner on the seam,” Nate said. “You are working on it. Caleb is running operations. Priya and Isaac have the technical truth. I will help with transition. I will not stay in a lane that expands every time leadership gets nervous.”
+“Seam needs an owner,” Nate said. “Caleb’s on ops. Priya and Isaac have the repro. I’ll transition. I’m not staying in synthesis.”
 
 Warren looked at the notes, not at Nate.
 
 “If you transfer mid-incident,” Warren said, “people will read it as abandonment.”
 
-“They will read it as data,” Nate said. “Reliable people leave when reliability becomes extraction.”
+“They’ll read the RACI,” Nate said.
 
 Silence.
 
 Warren said, “What do you need from me to make this not look like punishment?”
 
-“Public clarity that synthesis is not ownership,” Nate said. “A named seam lead with signatory power. And do not ask Caleb to absorb what you will not staff.”
+“Synthesis isn’t ownership,” Nate said. “Named seam lead. Don’t dump the seam on Caleb.”
 
 Warren nodded slowly—not agreement, acknowledgment. “I can work on the first two,” he said. “The third is finance.”
 

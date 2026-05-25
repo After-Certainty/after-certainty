@@ -414,7 +414,7 @@ Warren laughed once, surprised.
 
 “Thursday,” Warren said. “Your link is booking faster than mine.”
 
-“That’s the point,” Nate said.
+“Good,” Nate said.
 
 ---
 

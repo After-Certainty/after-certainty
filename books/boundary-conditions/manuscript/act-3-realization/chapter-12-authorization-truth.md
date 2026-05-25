@@ -265,7 +265,7 @@ Caleb found him at six-thirty assembling the engineering post.
 
 “Priya named it last week.”
 
-“Priya named the surface.” Nate rubbed his eyes. “Isaac named the kind of problem it is. Sync was a story teams could survive. Authorization is a story teams have to own.”
+“Priya named the surface.” Nate rubbed his eyes. “Isaac named authorization.”
 
 Caleb nodded toward the engineering channel, where reactions had settled into a new rhythm—fewer theories, more questions about policy versions and audit fields.
 
@@ -337,9 +337,9 @@ He thought.
 
 He ate leftover pasta cold because hot would have required another ten minutes he did not have.
 
-His phone buzzed—Rachel, Daniel’s medication timing for Thursday, Mark asking whether the portal screenshots meant he was stupid.
+His phone buzzed—Mark asking whether the portal screenshots meant he was stupid.
 
-He answered Rachel.
+He answered Rachel first anyway.
 
 He forwarded Mark the screenshots again with a single line: *You are not stupid. The portal is hostile.*
 

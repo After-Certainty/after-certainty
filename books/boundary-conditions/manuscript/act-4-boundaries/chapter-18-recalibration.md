@@ -270,7 +270,7 @@ Nate answered patiently.
 
 The repetition did not feel like an emergency tonight.
 
-It felt like weather.
+Daniel asked again at the next corner anyway.
 
 At the corner Daniel stopped and pointed at a house.
 

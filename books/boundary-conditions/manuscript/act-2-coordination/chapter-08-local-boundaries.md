@@ -242,13 +242,13 @@ Nate was in the stairwell between floors because the war room air felt too recyc
 
 “I can coordinate,” he said. “I cannot own Product roadmap or Legal signatures.”
 
-“Nobody is asking you to own roadmap,” Warren said. “We are asking you to make the seam somebody’s job.”
+“Not roadmap,” Warren said. “Make the seam somebody’s job.”
 
-“Priya is the closest technical owner.”
+“Priya’s closest.”
 
-“Priya will be overruled by directors who outrank her by Thursday.”
+“Priya gets overruled by Thursday.”
 
-Warren added, quieter, “If we ship another regional disable, Owen’s red cell bleeds and Legal still won’t sign. If we ship nothing, Security escalates. If we ship patches without an owner, we trade one risk for three. Pick your poison.”
+Warren added, quieter, “Regional disable bleeds Owen’s red cell. Ship nothing, Security escalates. Patch without owner, we trade risks. Pick.”
 
 Nate closed his eyes.
 

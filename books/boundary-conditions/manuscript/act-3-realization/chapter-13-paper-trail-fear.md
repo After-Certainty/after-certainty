@@ -48,7 +48,7 @@ Warren unmuted.
 
 “Compression is what boards read,” Warren said.
 
-“Then the board needs a compression that does not create a second incident inside the first,” Nate said.
+“Then label inference,” Nate said. “Or Legal slows you harder Friday.”
 
 Sarah said, “If this ships externally without Legal review, I need every inference labeled and every repro cited.”
 
@@ -62,9 +62,9 @@ Sarah said, “Then board prep waits until appendix two exists.”
 
 Warren looked at Nate.
 
-Nate said, “If you ship Pablo’s summary without labels, Legal will slow you harder on Friday than Sarah is slowing you today.”
+Nate said, “Ship without labels, Legal slows you Friday.”
 
-Warren muted without agreeing or disagreeing, which was its own answer.
+Warren muted.
 
 After the bridge Pablo stayed on the line with Sarah and Nate while Warren’s staff member left to “socialize tone.”
 

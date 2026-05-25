@@ -276,7 +276,7 @@ Warren stared at the table.
 
 “Then what do you offer,” Warren said, not angry, exhausted.
 
-“Thirty minutes Tuesday and Thursday office hours,” Nate said. “One architecture review. Written answers to written questions. And you tell the exec channel my name is not a shortcut for ownership.”
+“Office hours,” Nate said. “Tues/Thurs. One arch review. Written Qs only. Exec channel stops @’ing me for ownership.”
 
 Warren wrote it down.
 
