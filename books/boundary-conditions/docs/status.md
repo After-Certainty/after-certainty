@@ -8,7 +8,7 @@
 **Done:** **Pass E** — beta-reader edits ([beta-reader-feedback-2026.md](./beta-reader-feedback-2026.md)): bridge dialogue mess (E1), light thematic trim after strong landings (E2), sensory sprinkles in thin conceptual runs (E3), Warren/Owen/Legal cast audit (E4)  
 **Done:** **Pass F** — Round 2 beta feedback: aphorism rhythm (F1), voice differentiation (F2), ambiguity guardrail (F3), operational→philosophy trim (F4)  
 **Done:** **Pass G** — Round 3 beta feedback: aphorism dedupe (G1), texture oxygen (G2), ambiguity spot-check (G3)  
-**Done:** Local exports — **DOCX**, **EPUB**, **PDF** (post–Pass F rebuild May 2026; re-export after Pass G optional)
+**Done:** Local exports — **DOCX**, **EPUB**, **PDF** (post–Pass G rebuild May 2026)
 
 ## Location
 
@@ -50,12 +50,12 @@ Portfolio rollup (nonfiction): [`upcoming/docs/portfolio-status.md`](../../upcom
 | Title Page | export | Generated from `book.yml` |
 | Copyright | export | Generated from `book.yml` |
 | Ch 1–25 | expanded | See sprint notes in git history; agents **01–06** (or **08** on select chapters) |
-| Exports | built | Post–Pass E (May 2026): `boundary-conditions.docx`, `.epub`, `.pdf` in book root |
+| Exports | built | Post–Pass G (May 2026): `boundary-conditions.docx`, `.epub`, `.pdf` in book root |
 
 ## Next actions
 
-1. Re-export **DOCX** / **EPUB** / **PDF** after Pass G (optional).
-2. Push `upcoming/boundary-conditions` / open PR (Pass E–G committed locally).
+1. Push `upcoming/boundary-conditions` / open PR (Pass E–G).
+2. Beta re-read post–Pass G — sample **2, 5, 14, 18**.
 3. Commerce metadata / `purchase_links` when ready for distribution.
 
 ## Open decisions / known issues
