@@ -55,6 +55,7 @@ const bookSchema = z.object({
   subtitle: z.string().optional(),
   summary: z.string().optional(),
   coverImage: z.string().min(1).optional(),
+  openGraphImage: z.string().url().optional(),
   concepts: stringList,
   patterns: stringList,
   sources: stringList,

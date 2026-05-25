@@ -55,6 +55,8 @@ export interface Book {
   summary?: string;
   /** Path under /public or absolute URL when supplied by the semantic manifest */
   coverImage?: string;
+  /** Absolute URL for book-specific Open Graph / Twitter share art when supplied by the manifest */
+  openGraphImage?: string;
   concepts?: string[];
   patterns?: string[];
   sources?: string[];
