@@ -70,7 +70,7 @@ Three essay-length or in-progress manuscripts remain under [`upcoming/`](upcomin
 
 | Book | Index | What it's about |
 | --- | --- | --- |
-| **When Incentives Become the Moral Language** — *How Systems Decide For Us When Judgment No Longer Scales* | [`upcoming/when-incentives-become-the-moral-language/index.md`](upcoming/when-incentives-become-the-moral-language/index.md) | Eight domains where metrics replaced judgment. |
+| **When Incentives Become the Moral Language** — *How Systems Decide For Us When Judgment No Longer Scales* | [`books/when-incentives-become-the-moral-language/index.md`](books/when-incentives-become-the-moral-language/index.md) | Eight domains where metrics replaced judgment. |
 | **When Interpretation No Longer Matters** — *Authority After Understanding Collapses* | [`upcoming/when-interpretation-no-longer-matters/index.md`](upcoming/when-interpretation-no-longer-matters/index.md) | Authority when explanation and repair no longer work. |
 | **Why Collaboration Is So Hard** — *And why the effort still matters* | [`upcoming/why-collaboration-is-so-hard/index.md`](upcoming/why-collaboration-is-so-hard/index.md) | Coordination without full ownership—contribution and trust under diffuse responsibility. |
 

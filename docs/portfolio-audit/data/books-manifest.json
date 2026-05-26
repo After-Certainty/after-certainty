@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-05-26T02:30:28.215503+00:00",
+  "generatedAt": "2026-05-26T15:12:55.247435+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
@@ -423,34 +423,34 @@
     },
     {
       "slug": "when-incentives-become-the-moral-language",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "When Incentives Become the Moral Language",
       "subtitle": "How Systems Decide For Us When Judgment No Longer Scales",
-      "description": "Eight institutional domains where metrics and incentives replaced judgment, responsibility, and shared meaning.",
+      "description": "Essay edition (~11\u201312k words)\u2014eight institutional domains where metrics and incentives replaced judgment when coordination outran shared meaning. Distinct from When Interpretation No Longer Matters (authority without shared meaning) and The Economy We Don't Experience (lived vs aggregate narrative under compression).",
       "authors": [
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-incentives-become-the-moral-language/book-cover.png",
-      "coverImagePath": "upcoming/when-incentives-become-the-moral-language/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-incentives-become-the-moral-language/open-graph.png",
-      "openGraphImagePath": "upcoming/when-incentives-become-the-moral-language/open-graph.png",
-      "bookDir": "upcoming/when-incentives-become-the-moral-language",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-incentives-become-the-moral-language/book-cover.png",
+      "coverImagePath": "books/when-incentives-become-the-moral-language/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-incentives-become-the-moral-language/open-graph.png",
+      "openGraphImagePath": "books/when-incentives-become-the-moral-language/open-graph.png",
+      "bookDir": "books/when-incentives-become-the-moral-language",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-incentives-become-the-moral-language.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-incentives-become-the-moral-language.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-incentives-become-the-moral-language.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-incentives-become-the-moral-language.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-incentives-become-the-moral-language.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-incentives-become-the-moral-language.pdf"
       }
     },
     {

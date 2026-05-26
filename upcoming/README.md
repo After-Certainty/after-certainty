@@ -28,12 +28,11 @@ Fiction manuscripts use a separate track (planning under `docs/`, not the nonfic
 |------|-------|
 | [`velorum/`](velorum/) | Mythic fantasy — `project-spec.md`, `voice-spec.md`, agent pipeline under `velorum/docs/` |
 
-**Promoted to `books/`:** **Boundary Conditions** — [`books/boundary-conditions/`](../books/boundary-conditions/) (organizational fiction novel; exports enabled). **The Economy We Don't Experience** — [`books/the-economy-we-dont-experience/`](../books/the-economy-we-dont-experience/) (~28–32k edition; exports enabled).
+**Promoted to `books/`:** **Boundary Conditions** — [`books/boundary-conditions/`](../books/boundary-conditions/) (organizational fiction novel; exports enabled). **The Economy We Don't Experience** — [`books/the-economy-we-dont-experience/`](../books/the-economy-we-dont-experience/) (~28–32k edition; exports enabled). **When Incentives Become the Moral Language** — [`books/when-incentives-become-the-moral-language/`](../books/when-incentives-become-the-moral-language/) (essay edition; exports enabled).
 
 Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/after-certainty/` with only export artifacts). Published copies live under `books/` only.
 
 ## Current nonfiction titles
 
-- `when-incentives-become-the-moral-language`
 - `when-interpretation-no-longer-matters`
 - `why-collaboration-is-so-hard`

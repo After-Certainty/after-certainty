@@ -8,10 +8,13 @@ Architectural constraints for **When Incentives Become the Moral Language** (*Ho
 
 ### Target length
 
-- Domain-essay book (~60–80k words at completion; current draft ~3.5k)
-- Single part, 8 domain chapters (healthcare, engagement, publishing, targets, fairness, attention, polling, formation)
+- Domain-essay book (~60–80k words at long-term completion; first editorial cycle ~12–18k from current ~8.3k draft)
+- **Two parts**, four domain chapters each:
+  - **Part I — When Judgment Fractures** (care, engagement, publishing, targets)
+  - **Part II — When Formula Speaks** (fairness, attention, polling, formation)
+- Part bridges (`parts/part-*/bridge.md`): **~600–900 words** each
 
-### Domain chapter scaffold (Ch 3–8)
+### Domain chapter scaffold (all eight chapters)
 
 Each domain chapter should follow:
 
@@ -45,9 +48,10 @@ Chapters 1–2 establish voice and method; do not repeat their openings in later
 ## Citation and back matter
 
 - `back-matter/appendix-method-and-sources.md` — expand as chapters draft.
-- Citation pass per chapter during Phase 2.
+- Citation pass per chapter during agent **05**.
 
 ## Key docs
 
 - `docs/drafting-process.md`
 - `docs/status.md`
+- `docs/agents/README.md`

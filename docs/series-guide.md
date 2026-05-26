@@ -29,7 +29,7 @@ For readers building the full argument (conceptual, not prescriptive):
 1. **[Before Certainty Arrives](../books/before-certainty-arrives/index.md)** — how moral order hardened before certainty felt excessive  
 2. **[When Accountability No Longer Expires](../books/when-accountability-no-longer-expires/index.md)** — institutions that survive harm  
 3. **[When Interpretation No Longer Matters](../upcoming/when-interpretation-no-longer-matters/index.md)** — when explanation stops working  
-4. **[When Incentives Become the Moral Language](../upcoming/when-incentives-become-the-moral-language/index.md)** — metrics replace judgment  
+4. **[When Incentives Become the Moral Language](../books/when-incentives-become-the-moral-language/index.md)** — metrics replace judgment  
 5. **[The Economy We Don't Experience](../books/the-economy-we-dont-experience/index.md)** — compression in public economic speech (published ~28–32k edition)  
 6. **[Why Collaboration Is So Hard](../upcoming/why-collaboration-is-so-hard/index.md)** — coordination without full ownership  
 7. **[The Discipline of Uncertainty](../books/the-discipline-of-uncertainty/index.md)** — judgment under incomplete information  

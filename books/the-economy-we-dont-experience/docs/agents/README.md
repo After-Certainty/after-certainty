@@ -86,7 +86,7 @@ When running **04**, skim for overlap with:
 
 - [`books/after-certainty/`](../../../after-certainty/) — practice capstone
 - [`upcoming/when-interpretation-no-longer-matters/`](../../../../upcoming/when-interpretation-no-longer-matters/) — authority without shared meaning
-- [`upcoming/when-incentives-become-the-moral-language/`](../../../../upcoming/when-incentives-become-the-moral-language/) — metrics replacing judgment
+- [`books/when-incentives-become-the-moral-language/`](../../../when-incentives-become-the-moral-language/) — metrics replacing judgment
 
 This book’s distinct lens: **lived economy vs aggregate narrative** under compression—not generic “judgment under scale” repetition.
 
