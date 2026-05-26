@@ -30,6 +30,6 @@ The chapters are written for readers who must decide in public while incomplete 
 
 Part III is likewise an orientation: the chapters carry flood planning, ethics committees, courts, boards, and ombuds work—always asking who bears harm if the bet is wrong. Keep probabilistic seriousness distinct from relativism and from false prophecy; the chapters show how standards make that distinction livable.
 
-Listen for the same hinge in a different register: **distributions** without **dissolved duty**, **revision** without **betrayal**, **standards** without **prophecy**. Part III is where the book's moral spine becomes explicit for leaders who must decide while the map stays incomplete.
+Listen for the same hinge in a different register: **distributions** without **dissolved duty**, **revision** without **betrayal**, **standards** without **prophecy**. Part III is where moral seriousness under distribution becomes explicit for leaders who must decide while the map stays incomplete.
 
 Chapter 5 opens with why the world refuses absolutes—and what changes when we stop treating that refusal as weakness. Chapter 6 answers the charge that such reasoning is moral relativism in disguise.

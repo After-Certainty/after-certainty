@@ -20,7 +20,7 @@ The part does not offer a technique for ignoring bad news. It offers a **grammar
 
 Readers who lead in public should listen for one test as they move through Part II: does this pattern claim leave **room for action and revision**, or does it foreclose both while sounding brave? If it forecloses, you are likely hearing verdict language regardless of how many charts sit behind it.
 
-Part III will take up truth under distribution—moral seriousness when the world refuses simple binaries. Part II is prerequisite: if patterns become verdicts, probabilistic speech will sound like evasion even when it is care. If patterns stay warnings, later chapters on institutions and leadership have something to stand on.
+Part III takes up truth under distribution—moral seriousness when the world refuses simple binaries. Part II is prerequisite: if patterns become verdicts, probabilistic speech will sound like evasion even when it is care. If patterns stay warnings, later chapters on institutions and leadership have something to stand on.
 
 Part II is short by design: it orients and hands off. The chapters carry cases, mechanisms, and speech you can use Monday morning. Keep the discipline in view—patterns as warnings, not verdicts—and let each chapter teach one failure mode without re-teaching Part I's appetite for absolutes except where drift requires it.
 

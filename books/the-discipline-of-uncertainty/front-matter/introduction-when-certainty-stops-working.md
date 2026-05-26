@@ -76,7 +76,7 @@ If you do not lead, you still live inside institutions that speak in absolutes. 
 
 Part I examines why humans crave absolutes and how abstraction seduces—mechanism first, contempt nowhere. Part II reframes pattern recognition in teams, institutions, and public life: what it means to treat patterns as warnings rather than verdicts, and how fatalistic pattern-reading closes options too early. Part III separates probabilistic reasoning from moral evasion—the world refuses clean absolutes, but seriousness about harm is not optional. Part IV looks at warning systems and institutional drift, including how success can discredit the very signals that prevented disaster. Part V asks what leadership without prophecy could look like when certainty scales and humility does not. Part VI returns to responsibility and meaning after certainty.
 
-The conclusion does not offer a new ideology. It asks you to **grow conviction up**—to keep moral seriousness while abandoning false prophecy.
+The conclusion gathers the arc without offering a new ideology—how to keep moral seriousness while abandoning false prophecy.
 
 This introduction states the central claim once. Later chapters will apply it to patterns, institutions, and leadership. They will not repeat this paragraph verbatim; they will show mechanism in scenes you can recognize.
 

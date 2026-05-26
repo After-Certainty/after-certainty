@@ -158,7 +158,7 @@ Before a high-stakes statement, serious leaders can ask: Have I named stakes and
 
 ### **Closing the Part III Argument**
 
-Part III defended moral seriousness without relativism and terrain without fake binaries. The pairing is the book's moral core alongside Part II's warnings-not-verdicts. Institutions and leaders fail in public when either half is missing. Part IV asks what happens when organizations try to learn under these disciplines—and when success incriminates the warning that prevented disaster.
+Part III defended moral seriousness without relativism and terrain without fake binaries. The pairing belongs with Part II's warnings-not-verdicts: institutions and leaders fail in public when either half is missing. Part IV asks what happens when organizations try to learn under these disciplines—and when success incriminates the warning that prevented disaster.
 
 ### **Living With Standards You Did Not Choose**
 
@@ -182,7 +182,7 @@ Parents and teachers model moral life for children. When adults never revise, ch
 
 ### **Global Crises and Shared Standards**
 
-Pandemics, financial contagion, and climate shocks show that distributions cross borders. Shared standards—reporting, stress tests, treaty obligations—are how probabilistic seriousness scales without every nation performing certainty for domestic audiences. When standards fray, relativism and prophecy rise together. Part IV will name institutional drift; Part III supplies the moral reason drift is not neutral.
+Pandemics, financial contagion, and climate shocks show that distributions cross borders. Shared standards—reporting, stress tests, treaty obligations—are how probabilistic seriousness scales without every nation performing certainty for domestic audiences. When standards fray, relativism and prophecy rise together. Part IV names institutional drift; Part III supplies the moral reason drift is not neutral.
 
 Readers should leave Part III able to defend one sentence in a hostile room: **uncertainty does not erase accountability; it specifies how accountability must be practiced**. The next parts show what that practice looks like when institutions scale it—and when they betray it.
 

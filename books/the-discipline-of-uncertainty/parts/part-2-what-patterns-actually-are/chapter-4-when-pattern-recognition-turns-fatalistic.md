@@ -30,7 +30,7 @@ Contrast with Chapter 3's warning discipline. Warnings keep the feedback loops a
 
 ### **Fatalism and False Prophecy**
 
-False prophecy—speech that pretends to know what cannot be known yet—often partners with fatalism. The prophet and the fatalist both offer endings. The prophet may promise salvation; the fatalist promises collapse. Both reduce the middle to theater. Leadership without false prophecy, a later part of this book, requires refusing both performances when stakes are high.
+False prophecy—speech that pretends to know what cannot be known yet—often partners with fatalism. The prophet and the fatalist both offer endings. The prophet may promise salvation; the fatalist promises collapse. Both reduce the middle to theater. Leadership without false prophecy (Part V) requires refusing both performances when stakes are high.
 
 In crisis, leaders are pressured to pick one performance. Markets want confidence. Media want verdicts. Staff want clarity. Directional speech satisfies none of those appetites completely. It offers something harder: clarity about **stakes, scope, and revision**—we are drifting here, we are acting now, we will update when these indicators move. That speech is not weak. It is load-bearing for institutions that must learn in public.
 
@@ -75,13 +75,13 @@ Those questions are not academic. They decide whether repair budgets go to root 
 
 ### **Reorganizations and the Temptation of Total Stories**
 
-After a reorganization, roles stay ambiguous for weeks—who decides, who is consulted, what "good" looks like. People work hard but feel exposed. When a manager finally issues a crisp plan, relief is audible; the plan may be incomplete but it closes the open loop in people's minds. Part I named that comfort. Part II names the risk on the other side: when the incomplete plan fails to fix drift, leaders sometimes jump to total stories—"this structure will never work," "these people cannot collaborate"—instead of warning language about specific decision rights and metrics.
+Chapter 1 named the relief of a crisp plan after ambiguity—and why that relief is rational. Part II names the risk on the other side: when the incomplete plan fails to fix drift, leaders sometimes jump to total stories—"this structure will never work," "these people cannot collaborate"—instead of warning language about specific decision rights and metrics.
 
 Reorgs are pattern-rich. They produce temporary spikes in error, conflict, and exit. Fatalism treats the spike as essence. Warning discipline treats it as data with a clock: we expect turbulence for two quarters; if these three coordination failures persist past that window, we change the design again. The difference protects teams from destiny labels while still holding leaders accountable for design choices.
 
 ### **Fatalism in Public Speech**
 
-Journalists, commentators, and advocates face asymmetric incentives. Total verdicts travel farther than scoped warnings. "Agency tends to fail under these conditions" is harder to headline than "Government cannot work." The public learns to reward prophets and punish qualifiers—which makes the next leader perform certainty, which strengthens prophecy culture Part III will name from another angle.
+Journalists, commentators, and advocates face asymmetric incentives. Total verdicts travel farther than scoped warnings. "Agency tends to fail under these conditions" is harder to headline than "Government cannot work." The public learns to reward prophets and punish qualifiers—which makes the next leader perform certainty, which strengthens prophecy culture Part III names from another angle.
 
 Discipline in public speech does not require false balance. It requires **honest scope**: here is what repeated, here is what we know about causes, here is what repair would require, here is what would count as improvement. Without scope, audiences hear inevitability and behave accordingly—withdrawal, cynicism, support for charismatic absolutists who promise to end the theater by imposing a single verdict from above.
 

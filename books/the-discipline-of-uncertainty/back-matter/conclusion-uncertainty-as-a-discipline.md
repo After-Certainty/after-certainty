@@ -91,7 +91,7 @@ You may also read this book while exhausted by verdict wars—total condemnation
 
 You will still want guarantees. The want is human. Discipline does not shame it. It refuses to let the want become a lie.
 
-When certainty stops working, something else can work: honesty about what you know, courage to act where harm is plausible, institutions and relationships that can revise without dissolving, meaning that survives contact with reality.
+When certainty stops working, something else can work: honest scope, courage to act under open distributions, institutions and relationships that can revise without dissolving, meaning that survives contact with reality.
 
 That is the discipline of uncertainty. It is a way to live, lead, and remain coherent when the world offers patterns, probabilities, and warnings—but not the verdicts we crave.
 

@@ -103,6 +103,27 @@ Conclusion vs Part VI bridge + Ch 11–12 only. Cut duplicate bridge sentences; 
 
 **Severity after pass:** low.
 
+## Full manuscript echo gate
+
+Book-wide pass after all **07** part gates (intro → conclusion + appendices skim). Severity **low** after fixes below.
+
+| Fix | Locations | Action |
+|-----|-----------|--------|
+| Medication shortage vignette | Ch 1 (canonical), Ch 3 | Ch 3 points to Part I spike; no second full shortage scene |
+| Reorg / crisp plan | Ch 1, Ch 4 | Ch 4 points to Ch 1; no duplicate reorg vignette |
+| Wildfire evacuation | Ch 10 | One opening beat; removed duplicate subsection vignette |
+| Hospital performance score | Ch 2 (canonical), Part I bridge | Bridge summarizes without re-opening score vignette |
+| Aviation near-miss opener | Ch 7 | Removed repeat of HRO/aviation line; section keeps near-miss logic |
+| “Grow conviction up” | Intro vs conclusion | Intro previews arc only; phrase reserved for conclusion |
+| “Act where harm is plausible” | Ch 11, appendix A, conclusion | Ch 11 + appendix own phrase; conclusion closing keeps one-sentence recap; Monday list unchanged |
+| Invariant block verbatim | Intro, conclusion, book-rules | Intro + conclusion close own formulations; bridges trimmed duplicates |
+| Forward “Part N will…” | Ch 4, Ch 6, Part II bridge | Tense aligned to prior parts named in present tense |
+| Meta “book's moral core” | Ch 6 closing | Rephrased to pairing with Part II, not production label |
+
+**Appendices:** cross-part pointers only; no example collisions with main units.
+
+**Severity before pass:** medium (cross-part example and phrase overlap). **After pass:** low.
+
 ## Author gate (Part I)
 
 Checklist complete: [`author-read-through-gate-part-i.md`](author-read-through-gate-part-i.md)
@@ -112,6 +133,8 @@ Checklist complete: [`author-read-through-gate-part-i.md`](author-read-through-g
 1. Optional second expansion pass on under-floor chapters (Parts III, V–VI, conclusion) toward strict 3,500–4,500 / 2,000–2,800 bands.
 2. Export smoke: `make validate-book-specs` and `make build-book DIR=books/the-discipline-of-uncertainty`.
 3. Open PR from `books/the-discipline-of-uncertainty-editorial-fold` when ready.
+
+**Full manuscript echo gate:** complete (see table above).
 
 ## Rough scale
 

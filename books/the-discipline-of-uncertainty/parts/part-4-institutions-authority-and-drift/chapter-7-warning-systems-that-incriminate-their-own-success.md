@@ -92,7 +92,7 @@ Leaders who want discipline treat dashboards as **inputs to warnings**, not as r
 
 ### **Near-Misses as Institutional Conscience**
 
-Aviation and high-reliability industries treat near-misses as data, not as luck to forget.[^c7-reason] A near-miss says the system **almost** produced harm under current conditions—not that harm was inevitable, not that harm was impossible. Institutions without near-miss conscience wait for bodies—literal or metaphorical—before they admit drift.
+A near-miss says the system **almost** produced harm under current conditions—not that harm was inevitable, not that harm was impossible.[^c7-reason] Institutions without near-miss conscience wait for bodies—literal or metaphorical—before they admit drift.
 
 Building near-miss conscience is culturally difficult because it requires reporting without automatic blame, analysis without automatic exoneration, and repair tied to pattern rather than scapegoat. Blame cultures drive reporting underground. Blameless cultures without accountability drive reporting into irrelevance. Discipline lives in the tension: **seriousness about harm without collapsing into total verdicts**—the theme the next chapter takes up.
 

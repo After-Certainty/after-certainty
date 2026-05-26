@@ -4,17 +4,13 @@
 
 During a wildfire evacuation, officials issue orders with force. Hours later, wind shifts and zones change. Residents who were told to leave now see neighbors who stayed. Trust fractures if officials spoke in destiny. Trust holds better if officials spoke in triggers: we ordered evacuation because model X; if wind does Y, we will revise; here is how we notify you.
 
-The practice is not only for wildfires. It is for product launches, clinical surges, school closures, and layoffs—anywhere leaders must act under incomplete information while others pay the cost of error.
-
-Officials also revise zones when wind shifts. The public needs decisiveness **and** revision without feeling tricked. The practice is **restraint under pressure**: act clearly, speak conditionally, update publicly. Residents who see only the first half experience betrayal when zones change. Residents who see only the second half experience chaos. Discipline holds both: commands now, triggers for change, explanation that revision is not flip-flopping but fidelity to conditions.
+The practice is not only for wildfires. It is for product launches, clinical surges, school closures, and layoffs—anywhere leaders must act under incomplete information while others pay the cost of error. The public needs decisiveness **and** revision without feeling tricked: commands now, triggers for change, explanation that revision is fidelity to conditions—not flip-flopping.
 
 In a hospital surge, a chief medical officer reallocates staff hourly. The officer cannot promise beds will hold. The officer can promise **decision rules**: which units escalate first, which triggers pause elective care, which metrics are watched. Staff follow not because outcomes are guaranteed but because **process is legible under uncertainty**. Legibility is a moral good when harm is distributed.
 
 > Leadership as restraint, not prediction.
 
 ### **Naming Risk Without Declaring Destiny**
-
-A wildfire chief who says "evacuate zone A now; if wind shifts toward B by 6 p.m., we will expand" is naming risk and pre-committing to revision. The same chief who says "the whole county will burn if you hesitate" is declaring destiny. Both may motivate action. Only the first teaches the public how to hold uncertainty without feeling tricked when the map changes.
 
 **Naming risk** tells people what could happen and what reduces harm. **Declaring destiny** tells people what will happen and who to blame if they doubt it. Discipline uses the first to enable agency; it refuses the second except where science truly warrants narrow inevitabilities.
 
