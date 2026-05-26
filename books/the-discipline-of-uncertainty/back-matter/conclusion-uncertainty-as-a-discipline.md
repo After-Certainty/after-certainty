@@ -79,7 +79,7 @@ None of those acts fix a culture alone. They are how cultures **learn** not to c
 
 ### **Carrying the Invariant**
 
-The invariant carried through the book is worth stating once at the close, not as a slogan but as a reminder:[^concl-invariant] maturity under incomplete information requires disciplined uncertainty—patterns as warnings not verdicts, probabilistic seriousness without relativism, and leadership that refuses false prophecy.
+The thread carried through the book is worth stating once at the close, not as a slogan but as a reminder: maturity under incomplete information requires disciplined uncertainty—patterns as warnings not verdicts, probabilistic seriousness without relativism, and leadership that refuses false prophecy.
 
 That sentence is not a creed to repeat in every room. It is a test to apply when speech feels too clean, when repair feels too total, when success quiets the watch, when pressure pushes you to perform omniscience for others' comfort.
 
@@ -134,5 +134,3 @@ Tired readers may want guarantees. The book offers practices instead. Practices 
 ### **Invitation**
 
 You are invited to treat uncertainty as a discipline—not because doubt is virtuous, but because honesty under constraint is how judgment, institutions, and meaning survive when absolutes stop working. The invitation is open-ended. The work is sequential. The next room you enter is the first test.
-
-[^concl-invariant]: The book's core invariant is stated in [`docs/book-rules.md`](../docs/book-rules.md) and developed across Parts I–VI; this conclusion does not introduce new doctrinal claims.

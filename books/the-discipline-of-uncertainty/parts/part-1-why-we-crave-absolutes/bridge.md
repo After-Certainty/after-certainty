@@ -2,7 +2,7 @@
 
 ## **Why We Crave Absolutes**
 
-The introduction named a shared discomfort and the book's global invariant. Part I does not repeat that diagnosis. It asks a narrower question: why do absolutes and clean models remain seductive even when they fail—before the book turns to patterns, probability, institutions, and leadership.
+The introduction named a shared discomfort and the central claim that organizes what follows. Part I does not repeat that diagnosis. It asks a narrower question: why do absolutes and clean models remain seductive even when they fail—before the book turns to patterns, probability, institutions, and leadership.
 
 This part is diagnostic, not therapeutic. It does not ask you to like ambiguity. It asks you to see **why** clean answers sell, who buys them, and what institutions pay when reality returns variance.
 
@@ -18,7 +18,7 @@ Across Part I, one discipline holds: maturity under incomplete information does 
 
 ### What Part I Does Not Do
 
-Part I does not yet teach pattern language (Part II), probabilistic moral reasoning (Part III), or institutional warning systems (Part IV). It does not offer leadership scripts (Part V) or final answers about meaning and responsibility (Part VI). Those units build on the appetite described here.
+Part I does not yet teach pattern language (Part II), probabilistic moral reasoning (Part III), or institutional warning systems (Part IV). It does not offer leadership scripts (Part V) or final answers about meaning and responsibility (Part VI). Those parts build on the appetite described here.
 
 If you are tempted to skip to "what leaders should say," resist long enough to feel why audiences punish revision. Without that felt sense, probabilistic seriousness will sound like evasion even when it is care.
 

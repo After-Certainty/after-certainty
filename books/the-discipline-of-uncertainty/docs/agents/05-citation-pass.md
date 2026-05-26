@@ -39,6 +39,7 @@ Claims readers would challenge (“how do you know?”) get verifiable anchors. 
 
 - Pandoc inline: `[^intro-iu]` with unit-scoped IDs (`c3-warning`, `bridge-p2`, etc.)
 - **No** `verify source` placeholders
+- **Reader-facing only:** footnote text must not link to `docs/`, agent specs, `book-rules.md`, `status.md`, or other author/production paths. Cite published sources or omit the footnote.
 - Link new entries in `bibliography.md`; add to [index.md](../../index.md) back matter if first creation
 
 ## DO

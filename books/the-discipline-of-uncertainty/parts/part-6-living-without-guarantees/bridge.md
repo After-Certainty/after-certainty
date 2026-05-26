@@ -12,7 +12,7 @@ Two chapters close the arc.
 
 Part VI does not promise peace. It describes a discipline: to live and lead when the world offers patterns, probabilities, and warnings—but not the verdicts we crave. The posture is not "embrace ambiguity" as a brand. It is **coherence** between what you say you know, what you do under constraint, and what you do when you learn you were wrong.
 
-Readers arriving from Part V should notice the shift in scale. Leadership grammar becomes personal grammar. The microphone becomes the dinner table, the clinic room, the voting booth, the vow. The same invariant holds—warnings not verdicts, moral seriousness without relativism, refusal of false prophecy—but the cost is felt in identity, not only in quarterly returns.
+Readers arriving from Part V should notice the shift in scale. Leadership grammar becomes personal grammar. The microphone becomes the dinner table, the clinic room, the voting booth, the vow. The same discipline holds—warnings not verdicts, moral seriousness without relativism, refusal of false prophecy—but the cost is felt in identity, not only in quarterly returns.
 
 Part VI also hands off to the conclusion without re-teaching the whole book. The bridge points: responsibility without guarantees is not relativism; meaning without certainty is not thin; practices that survive revision are how belonging returns after fracture.
 

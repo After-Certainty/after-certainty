@@ -16,7 +16,7 @@ Two chapters hold one tension you will recognize in flood planning, ethics commi
 
 **Probabilism is not relativism.** Chapter 6 defends standards and obligations under partial sight.
 
-Part III's invariant pairing matters for what follows. You cannot lead on warnings alone if you will not also speak about **standards**—reasonable doubt, safety factors, duty of care, preponderance of evidence. Those standards are moral architecture, not technicalities beneath "real" conviction. You also cannot lead by pretending the world offers verdicts on demand when distributions are what reality presents.
+Part III's pairing of probability and moral seriousness matters for what follows. You cannot lead on warnings alone if you will not also speak about **standards**—reasonable doubt, safety factors, duty of care, preponderance of evidence. Those standards are moral architecture, not technicalities beneath "real" conviction. You also cannot lead by pretending the world offers verdicts on demand when distributions are what reality presents.
 
 Parts IV–VI depend on this pairing: institutions, leadership, and life after certainty all assume you can be serious without false prophecy and without the evasion that hides behind "it's complicated" forever. Part IV turns to warning systems and drift; Part V to pressure into certainty; Part VI to responsibility and meaning when guarantees are gone.
 

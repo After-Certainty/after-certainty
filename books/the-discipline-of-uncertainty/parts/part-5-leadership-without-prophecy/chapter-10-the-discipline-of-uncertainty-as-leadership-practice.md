@@ -109,7 +109,7 @@ Inside organizations, coalitions form around certainty stories. Finance wants on
 
 Leaders often ask what legacy remains if they refuse prophecy. Discipline answers: legacy that survives being wrong. Prophecy legacy shatters on first disconfirmation. Calibrated legacy—this leader told us what they knew, changed when signals moved, protected warnings—can outlast tenure.
 
-That legacy is not guaranteed. Markets and electorates may still punish it. The book does not promise reward. It names a practice that aligns speech with moral seriousness under incomplete information—the core invariant carried since the introduction.
+That legacy is not guaranteed. Markets and electorates may still punish it. The book does not promise reward. It names a practice that aligns speech with moral seriousness under incomplete information—the central thread carried since the introduction.
 
 ### **Tabletop Exercises and Decision Memos**
 

@@ -78,7 +78,7 @@ Part I examines why humans crave absolutes and how abstraction seduces—mechani
 
 The conclusion does not offer a new ideology. It asks you to **grow conviction up**—to keep moral seriousness while abandoning false prophecy.
 
-This introduction states the book's invariant once. Later units will apply it to patterns, institutions, and leadership. They will not repeat this paragraph verbatim; they will show mechanism in scenes you can recognize.
+This introduction states the central claim once. Later chapters will apply it to patterns, institutions, and leadership. They will not repeat this paragraph verbatim; they will show mechanism in scenes you can recognize.
 
 ### Leadership Without Counterfeit Certainty
 

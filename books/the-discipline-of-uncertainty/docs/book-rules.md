@@ -75,3 +75,7 @@ Every chapter must pass the **Feynman test** after agent **02**: a smart reader 
 ## Prose paragraphs
 
 Body prose uses **flowing paragraphs**: one line per paragraph in the source file, separated by a single blank line—not hard-wrapped at ~60–70 characters. Agent **03** runs `python3 tools/reflow_markdown_paragraphs.py` on the unit file at the start of the flow pass.
+
+## Reader-facing manuscript (not for `docs/`)
+
+Manuscript files (`front-matter/`, `parts/`, `back-matter/`) must not link to or footnote `docs/`, agent specs, `book-rules.md`, `status.md`, or other production paths. Use plain prose for the central claim; footnotes cite **published sources** only. Avoid editorial meta ("units," "pipeline," "scaffold," "future edition workflow") in reader-facing copy.
