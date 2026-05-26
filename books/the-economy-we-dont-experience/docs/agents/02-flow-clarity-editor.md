@@ -32,6 +32,7 @@ Nonfiction diagnostic voice: accessible to mayors, journalists, and policy staff
 ### Structure
 
 - **`###` sub-headings:** descriptive titles only; **no numbering**
+- **Title Case** on every `###` line (match [`books/after-certainty/`](../../../after-certainty/) chapter headings): capitalize first and last word and all major words; lowercase short prepositions and conjunctions (`of`, `to`, `in`, `at`, `for`, `and`, `or`, `versus`, `as`) unless they are the first or last word. Examples: `Why Communication Requires Compression`, `The Compression–Signaling Invariant`, `Why "Just Add Nuance" Fails at Scale`. Do **not** use sentence case (`Why communication requires compression`). `##` chapter titles stay Title Case as well.
 - **Paragraph merge:** join orphan one-sentence paragraphs that belong to one beat—unless staccato is intentional (e.g. short pull-quote landing)
 - **Lists:** use sparingly; prefer prose chains for this book
 
@@ -66,8 +67,9 @@ Same unit file, clarity-polished. Brief report:
 
 1. **Clarity** (weak / adequate / strong)
 2. **Register fixes** (count or “none”)
-3. **Two-clock passages** touched (yes/no + where)
-4. **Handoff** (opening/closing) — adequate / revised
+3. **Sub-heading Title Case** (count corrected, or “already compliant”)
+4. **Two-clock passages** touched (yes/no + where)
+5. **Handoff** (opening/closing) — adequate / revised
 
 ## PIPELINE
 

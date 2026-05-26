@@ -50,3 +50,5 @@ Chapters use bullet beats and "Core idea" lines. Expand each beat to a full sect
 ## Sub-headings
 
 Use **descriptive `###` titles** only—no numbered subsection ladders (`### **1.**` …).
+
+Use **Title Case** on sub-headings (same convention as other books in this repo, e.g. *After Certainty*): major words capitalized; short prepositions and conjunctions lowercase unless first or last word in the heading.

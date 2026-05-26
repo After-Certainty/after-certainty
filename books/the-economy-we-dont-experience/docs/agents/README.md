@@ -22,7 +22,7 @@
 | # | Agent | Invariant responsibility |
 |---|--------|-------------------------|
 | **01** | [Expansion](./01-expansion-pass.md) | Grow **beats and examples** (housing, labor, supply chain, leadership vignettes); do not add new thesis or partisan frame |
-| **02** | [Flow & clarity](./02-flow-clarity-editor.md) | Plain diagnostic prose; **two clocks** where relevant; tame stacked negation and essay register |
+| **02** | [Flow & clarity](./02-flow-clarity-editor.md) | Plain diagnostic prose; **Title Case** `###` headings; **two clocks** where relevant; tame stacked negation and essay register |
 | **03** | [Echo](./03-echo-pass.md) | No repeated claims, examples, or invariant phrasing vs prior units in this book + cluster siblings |
 | **04** | [Citation](./04-citation-pass.md) | Footnotes at pivots; bibliography sync; no `verify source` placeholders |
 | **05** | [Line-level](./05-line-level-precision.md) | Micro-tighten **after** 01–04; no new ideas or “literary” elevation |

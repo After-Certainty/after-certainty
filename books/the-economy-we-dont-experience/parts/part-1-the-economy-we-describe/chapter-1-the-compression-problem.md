@@ -23,7 +23,7 @@ a **genre**: a national mood assigned to a number. The genre works when
 people recognize their slice inside the summary. It breaks when they
 recognize themselves in what was left out.
 
-### **Why communication requires compression**
+### **Why Communication Requires Compression**
 
 Economic communication requires **compression** because attention is finite,
 language is finite, and coordination requires shared reference points.
@@ -44,7 +44,7 @@ the headline into proof that your renewal letter is wrong, your late
 shipment irrelevant, or your layoff fear unpatriotic. Orientation becomes
 accusation.
 
-### **The compression–signaling invariant**
+### **The Compression–Signaling Invariant**
 
 Part I returns repeatedly to one invariant (introduced in the opening
 chapter):
@@ -64,7 +64,7 @@ of elites alone. It is a property of thin channels under thick reality:
 a press slot, a push alert, a campaign stage cannot carry the full
 distribution of who gained and who paid.
 
-### **Two clocks before the fight starts**
+### **Two Clocks Before the Fight Starts**
 
 Leaders who want explanation rather than signaling need a habit this book
 returns to: name **two clocks** in the same breath—the national indicator
@@ -78,7 +78,7 @@ Audiences calibrate trust on whether the second clause appears without
 being dragged there. When it never appears, the first clause is heard as
 signaling no matter how accurate it is.
 
-### **From explanation to signaling**
+### **From Explanation to Signaling**
 
 Over time, economic speech often slides from explanation to **signaling**:
 utterances valued less for accuracy than for coalition, identity, or morale.
@@ -98,7 +98,7 @@ When signaling dominates, audiences learn to hear statements as positioning
 rather than as maps. That learning is rational. It is also corrosive for
 legitimacy: the next accurate release arrives pre-discounted.
 
-### **Supply chains as hidden dimensions**
+### **Supply Chains as Hidden Dimensions**
 
 A national inventory index can show normalization while a **regional
 distributor** still waits eleven weeks for a specialty valve that used to
@@ -119,7 +119,7 @@ clock—headline GDP, headline freight volumes—the slow clock sounds like
 denial. Experiential cross-checking begins in the warehouse, not in a
 survey.
 
-### **Why averages feel dishonest**
+### **Why Averages Feel Dishonest**
 
 Averages can be **accurate and dishonest-feeling** at once. Median and mean
 hide variance by design. When variance is wide—as in housing costs, health
@@ -145,7 +145,7 @@ they are not the same event. Compression that treats them as one event
 invites the listener to conclude the speaker is defending a category, not
 describing a life.
 
-### **Compression and moralized language**
+### **Compression and Moralized Language**
 
 Compression also **moralizes** economic language. Complex tradeoffs become
 virtue and vice stories: hardworking families versus elites, makers versus
@@ -163,7 +163,7 @@ clock—because moral handles win shares faster than distribution tables.
 The moralization is not only cynicism. It is sometimes the only narrative
 form that survives hostile media environments and short attention spans.
 
-### **Why "just add nuance" fails at scale**
+### **Why "Just Add Nuance" Fails at Scale**
 
 A common institutional response to credibility loss is **more nuance**: caveats,
 confidence intervals, sectoral breakdowns. Nuance helps specialists. At
@@ -180,7 +180,7 @@ a specific deductible, a specific shift cut. The official answers with
 the trust problem is relational and experiential. People are not only asking
 for more data. They are asking whether the speaker sees what they see.
 
-### **The illusion of disagreement**
+### **The Illusion of Disagreement**
 
 When summaries mismatch experience, public debate often looks like
 **irrational disagreement**. In many cases, it is incompatible reduction:
@@ -199,7 +199,7 @@ Leaders who respond by intensifying confidence performances sometimes restore
 short-term calm. They also teach audiences that economic speech is not a
 map—it is a morale operation.
 
-### **Digital platforms and the acceleration of signaling**
+### **Digital Platforms and the Acceleration of Signaling**
 
 Social platforms do not create the compression–signaling slide, but they
 **lower the cost of coalition reading**. A fifteen-second clip of a press
@@ -228,7 +228,7 @@ but because the business model compresses before the paragraph does.
 Readers then generalize from the caption and blame the institution that
 published the chart, not the channel that demanded the caption.
 
-### **Historical precedent without nostalgia**
+### **Historical Precedent Without Nostalgia**
 
 The gap between aggregate and lived economy is not new. Nineteenth- and
 twentieth-century labor movements organized around wages and prices that
@@ -242,7 +242,7 @@ slices—at platform speed. Partial coherence does not mean agreement. It
 means audiences can hear a national print and a local pain named in the
 same speech without one canceling the other.
 
-### **Compression inside organizations**
+### **Compression Inside Organizations**
 
 Firms compress too. A CEO's earnings call is a low-dimensional channel about
 a high-dimensional firm. Employees cross-check against schedules, safety
@@ -257,7 +257,7 @@ the bonus pool was not, where the safety metric improved but the line
 speed did not—often speak more credibly outside it. Internal compression
 is practice for public compression.
 
-### **What leaders owe a thin channel**
+### **What Leaders Owe a Thin Channel**
 
 Thin channels are not going away. Democracy still needs shared reference
 points; markets still need a number to react to; voters still need a story
@@ -272,7 +272,7 @@ updates read as maintenance rather than scandal. None of these disciplines
 guarantees agreement. They make disagreement interpretable again—which is
 a precondition for policy that outlasts the next clip.
 
-### **What compression cannot do**
+### **What Compression Cannot Do**
 
 Compression cannot carry distributional conflict without sounding like taking
 sides. If naming winners and losers is treated as politics, only signaling
