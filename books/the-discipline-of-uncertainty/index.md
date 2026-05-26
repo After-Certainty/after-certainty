@@ -49,4 +49,5 @@
 ## Back Matter
 
 - [Conclusion — Uncertainty as a Discipline](back-matter/conclusion-uncertainty-as-a-discipline.md)
+- [Bibliography](back-matter/bibliography.md)
 - [Optional Appendix Ideas](back-matter/appendix-ideas.md)
