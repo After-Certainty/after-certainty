@@ -12,8 +12,11 @@ This book is **not** about doubt as paralysis. It is about **uncertainty as a di
 
 ### Target length
 
-- Full book (~70–90k words at completion; current scaffold ~790 words)
-- 6 parts, 12 chapters, optional appendix ideas file
+- **First editorial cycle:** ~50–58k words (intro + 6 part bridges + 12 chapters + conclusion)
+- **Part bridges:** ~600–900 words each (orientation and handoff—not chapter length)
+- **Chapters:** ~3,500–4,500 words each in first cycle
+- **Long-term band:** ~70–90k at completion
+- 6 parts, 6 part bridges, 12 chapters, 3 appendices (A–C)
 
 ### Subtitle alignment
 
@@ -48,12 +51,31 @@ This book is **not** about doubt as paralysis. It is about **uncertainty as a di
 
 ## Outline-stage rules
 
-Chapters currently use bullet anchors (`Anchor:`, `Key distinction:`). When expanding to prose:
+When expanding to prose:
 
-- One anchor block becomes at least one substantive section.
+- One anchor beat becomes at least one substantive section.
 - Do not publish bullet-only chapters.
 
 ## Key docs
 
 - `docs/drafting-process.md`
 - `docs/status.md`
+- `docs/agents/README.md` — expansion, plain-speak, flow/clarity, echo, citation, line-level, part-echo agents (01–07)
+
+## Sub-headings
+
+Use **descriptive `###` titles** only—no numbered subsection ladders (`### **1.**` …).
+
+Use **Title Case** on sub-headings (same convention as other books in this repo, e.g. *After Certainty*): major words capitalized; short prepositions and conjunctions lowercase unless first or last word in the heading.
+
+## Plain-speak (Feynman bar)
+
+Every chapter must pass the **Feynman test** after agent **02**: a smart reader outside academia can follow the mechanism without jargon stacks or throat-clearing. Concrete nouns before abstractions; book terms earned with a plain gloss on first use. See [`docs/agents/02-plain-speak-language.md`](agents/02-plain-speak-language.md).
+
+## Prose paragraphs
+
+Body prose uses **flowing paragraphs**: one line per paragraph in the source file, separated by a single blank line—not hard-wrapped at ~60–70 characters. Agent **03** runs `python3 tools/reflow_markdown_paragraphs.py` on the unit file at the start of the flow pass.
+
+## Reader-facing manuscript (not for `docs/`)
+
+Manuscript files (`front-matter/`, `parts/`, `back-matter/`) must not link to or footnote `docs/`, agent specs, `book-rules.md`, `status.md`, or other production paths. Use plain prose for the central claim; footnotes cite **published sources** only. Avoid editorial meta ("units," "pipeline," "scaffold," "future edition workflow") in reader-facing copy.
