@@ -2,11 +2,11 @@
 
 ## Current phase
 
-**Phase 5 — Promoted to `books/`**
+**Phase 5 — Published in `books/`** (agent pipeline in progress on branch `books/the-discipline-of-uncertainty-editorial-fold`)
 
 ## Active branch
 
-`promote/the-discipline-of-uncertainty`
+`books/the-discipline-of-uncertainty-editorial-fold`
 
 ## Manuscript hub
 
@@ -16,23 +16,42 @@
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Title Page | Phase 5 | Included in promotion package |
-| Copyright | Phase 5 | Included in promotion package |
-| Introduction | Phase 5 | Editorial pass complete |
-| Ch 1 — Psychological Comfort of Certainty | Phase 5 | Editorial pass complete |
-| Ch 2 — Abstraction and Clean Answers | Phase 5 | Editorial pass complete |
-| Ch 3 — Patterns as Warnings | Phase 5 | Editorial pass complete |
-| Ch 4 — Fatalistic Pattern Recognition | Phase 5 | Editorial pass complete |
-| Ch 5 — Why the World Refuses Absolutes | Phase 5 | Editorial pass complete; probabilistic/moral pivots tightened |
-| Ch 6 — Probabilistic Reasoning ≠ Relativism | Phase 5 | Editorial pass complete; standards framing retained |
-| Ch 7 — Warning Systems | Phase 5 | Editorial pass complete |
-| Ch 8 — Collapse Into Absolutes | Phase 5 | Editorial pass complete |
-| Ch 9 — Leaders Pressured Into Certainty | Phase 5 | Editorial pass complete |
-| Ch 10 — Discipline as Leadership Practice | Phase 5 | Editorial pass complete |
-| Ch 11 — Responsibility After Certainty | Phase 5 | Editorial pass complete |
-| Ch 12 — Meaning That Survives Uncertainty | Phase 5 | Editorial pass complete |
-| Conclusion | Phase 5 | Editorial pass complete |
-| Appendix Ideas | Phase 5 | Retained as optional back matter |
+| Title Page | Phase 5 | Out of agent pipeline |
+| Copyright | Phase 5 | Out of agent pipeline |
+| Introduction | Phase 5 | Pipeline pending |
+| Part I bridge | Phase 5 | Pipeline pending |
+| Ch 1 — Psychological Comfort | Phase 5 | Pipeline pending |
+| Ch 2 — Abstraction | Phase 5 | Pipeline pending |
+| Part II bridge | Phase 5 | Pipeline pending |
+| Ch 3 — Patterns as Warnings | Phase 5 | Pipeline pending |
+| Ch 4 — Fatalistic Patterns | Phase 5 | Pipeline pending |
+| Part III bridge | Phase 5 | Pipeline pending |
+| Ch 5 — World Refuses Absolutes | Phase 5 | Pipeline pending |
+| Ch 6 — Probabilism ≠ Relativism | Phase 5 | Pipeline pending |
+| Part IV bridge | Phase 5 | Pipeline pending |
+| Ch 7 — Warning Systems | Phase 5 | Pipeline pending |
+| Ch 8 — Collapse Into Absolutes | Phase 5 | Pipeline pending |
+| Part V bridge | Phase 5 | Pipeline pending |
+| Ch 9 — Pressured Into Certainty | Phase 5 | Pipeline pending |
+| Ch 10 — Leadership Practice | Phase 5 | Pipeline pending |
+| Part VI bridge | Phase 5 | Pipeline pending |
+| Ch 11 — Responsibility | Phase 5 | Pipeline pending |
+| Ch 12 — Meaning | Phase 5 | Pipeline pending |
+| Conclusion | Phase 5 | Pipeline pending |
+| Appendix Ideas | Phase 5 | Optional; out of default pipeline |
+| Bibliography | Phase 5 | Created when citations added |
+
+## Part echo gates
+
+| Part | Status |
+|------|--------|
+| Part I | Pending (intro + bridge + Ch 1–2) |
+| Part II | Pending |
+| Part III | Pending |
+| Part IV | Pending |
+| Part V | Pending |
+| Part VI | Pending |
+| Conclusion (07-lite vs Part VI) | Pending |
 
 ## Author gate (Part I)
 
@@ -40,16 +59,11 @@ Checklist complete: [`author-read-through-gate-part-i.md`](author-read-through-g
 
 ## Next actions
 
-1. Run full export pipeline as content evolves (DOCX/EPUB/PDF already enabled).
-2. Continue editorial growth toward full-length band per `docs/book-rules.md`.
-3. Keep portfolio docs in sync with published status and release artifacts.
+1. Run agents **01–06** per unit in reading order ([agents/README.md](agents/README.md)).
+2. Run agent **07** after each part completes.
+3. Export smoke: `make validate-book-specs` and `make build-book DIR=books/the-discipline-of-uncertainty`.
 
-## Open decisions / known issues
+## Rough scale (pre-pipeline)
 
-- Subtitle alignment complete across `book.yml`, `index.md`, and title page.
-- Positioning remains anchored in psychology, leadership, and institutional systems use-cases.
-
-## Rough scale
-
-- **~7,540 words** manuscript body (intro + ch 1–12 + conclusion)
-- Promotion posture: complete scaffold with publishable package enabled for `books/` workflow
+- **~7,540 words** manuscript body + bridge scaffolds
+- First-cycle target: **~50–58k** including expanded bridges
