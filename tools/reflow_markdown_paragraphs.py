@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Join hard-wrapped prose lines into flowing paragraphs (After Certainty style)."""
+
 from __future__ import annotations
 
 import argparse

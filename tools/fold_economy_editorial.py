@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Fold promotion depth-pass scaffolding in The Economy We Don't Experience."""
+
 from __future__ import annotations
 
 import re
