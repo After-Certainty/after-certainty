@@ -19,7 +19,7 @@
 | Title Page | Phase 5 | Included in promotion package |
 | Copyright | Phase 5 | Included in promotion package |
 | Introduction | Phase 5 | Promotion depth scaffolding folded; unnumbered sub-headings |
-| Ch 1 — The Compression Problem | Phase 5 | Folded; chapter-specific sections retained |
+| Ch 1 — The Compression Problem | Phase 5 | Agent pipeline 01–05 complete (May 2026); ~1,850 words |
 | Ch 2 — The Forecast Era That Didn't Break | Phase 5 | Folded; BLS/labor footnote verified |
 | Ch 3 — The Economy We Experience | Phase 5 | Folded |
 | Ch 4 — Why Pain Always Scales | Phase 5 | Folded |
@@ -38,7 +38,7 @@ Checklist complete: [`author-read-through-gate-part-i.md`](author-read-through-g
 ## Next actions
 
 1. Review editorial-fold PR [#152](https://github.com/ksteffe/after-certainty/pull/152) (depth-pass fold; unnumbered sub-headings).
-2. Run **agent pipeline** per unit: [`docs/agents/README.md`](agents/README.md) (01 expansion → 02 clarity → 03 echo → 04 citation → 05 line-level).
+2. Run **agent pipeline** per unit: [`docs/agents/README.md`](agents/README.md) — Ch 1 done; continue Ch 2→8, intro, conclusion.
 3. Optional future expansion toward long-term band in `docs/book-rules.md` if a fuller edition is commissioned.
 
 ## Open decisions / known issues
