@@ -53,7 +53,7 @@ Not yet in the public export pipeline. Word counts are essay-scale unless noted.
 | When do incentives replace judgment? | [When Incentives Become the Moral Language](../upcoming/when-incentives-become-the-moral-language/index.md) | Phase 2 |
 | Why is collaboration structurally hard? | [Why Collaboration Is So Hard](../upcoming/why-collaboration-is-so-hard/index.md) | Phase 2 |
 | When do economic narratives lose credibility? | [The Economy We Don't Experience](../upcoming/the-economy-we-dont-experience/index.md) | Phase 2 |
-| How is uncertainty a discipline, not paralysis? | [The Discipline of Uncertainty](../upcoming/the-discipline-of-uncertainty/index.md) | Phase 2 |
+| How is uncertainty a discipline, not paralysis? | [The Discipline of Uncertainty](../books/the-discipline-of-uncertainty/index.md) | Published (essay-scale) |
 
 ### Disambiguation (high-overlap pairs)
 
@@ -68,7 +68,7 @@ Read the published lens first; the essay edition extends the durability problem.
 
 - **Curiosity Before Certainty** — entry posture: curiosity as discipline.
 - **How Serious Systems Learn** — operating disciplines for teams and institutions.
-- **The Discipline of Uncertainty** (upcoming) — judgment and restraint under incomplete information.
+- [**The Discipline of Uncertainty**](../books/the-discipline-of-uncertainty/index.md) — judgment and restraint under incomplete information.
 - **After Certainty** — flagship essays on judgment, responsibility, and speech when understanding is not enough (published).
 
 **Incentives vs economy**

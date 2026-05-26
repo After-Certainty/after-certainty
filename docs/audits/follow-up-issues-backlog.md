@@ -67,7 +67,7 @@ Suggested GitHub issues for the repository owner to file. Dependencies noted whe
 
 - `books/when-authority-outlives-accountability/index.md` (or front matter)
 - `upcoming/when-accountability-no-longer-expires/index.md`
-- `books/curiosity-before-certainty/index.md`, `books/how-serious-systems-learn/index.md`, `upcoming/the-discipline-of-uncertainty/index.md`, `upcoming/after-certainty/index.md`
+- `books/curiosity-before-certainty/index.md`, `books/how-serious-systems-learn/index.md`, `books/the-discipline-of-uncertainty/index.md`, `books/after-certainty/index.md`
 
 **Depends on:** Reader map (#5 optional but helpful).
 

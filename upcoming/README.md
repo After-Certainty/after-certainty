@@ -12,7 +12,7 @@ Each upcoming **nonfiction** book should maintain:
 | `docs/drafting-process.md` | Phased workflow (structure → draft → editorial → promote) |
 | `docs/status.md` | Unit-level progress table and next actions |
 
-**Portfolio dashboard:** [`docs/portfolio-status.md`](docs/portfolio-status.md) — all five nonfiction books at a glance.
+**Portfolio dashboard:** [`docs/portfolio-status.md`](docs/portfolio-status.md) — all active upcoming nonfiction books at a glance.
 
 **Series guide:** [`docs/series-guide.md`](../docs/series-guide.md) — reading order, clusters, and easily confused title pairs.
 
@@ -32,7 +32,6 @@ Fiction manuscripts use a separate track (planning under `docs/`, not the nonfic
 
 ## Current nonfiction titles
 
-- `the-discipline-of-uncertainty`
 - `the-economy-we-dont-experience`
 - `when-incentives-become-the-moral-language`
 - `when-interpretation-no-longer-matters`

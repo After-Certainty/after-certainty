@@ -318,8 +318,8 @@
     },
     {
       "slug": "the-discipline-of-uncertainty",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "The Discipline of Uncertainty",
       "subtitle": "Judgment, Restraint, and Decision Quality Under Incomplete Information",
       "description": "Field notes on judgment, restraint, and decision quality when information is incomplete.",
@@ -327,23 +327,23 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/the-discipline-of-uncertainty/book-cover.png",
-      "coverImagePath": "upcoming/the-discipline-of-uncertainty/book-cover.png",
-      "bookDir": "upcoming/the-discipline-of-uncertainty",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-discipline-of-uncertainty/book-cover.png",
+      "coverImagePath": "books/the-discipline-of-uncertainty/book-cover.png",
+      "bookDir": "books/the-discipline-of-uncertainty",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "the-discipline-of-uncertainty.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-discipline-of-uncertainty.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "the-discipline-of-uncertainty.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-discipline-of-uncertainty.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "the-discipline-of-uncertainty.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-discipline-of-uncertainty.pdf"
       },
       "id": "book-the-discipline-of-uncertainty",
       "summary": "Field notes on judgment, restraint, and decision quality when information is incomplete.",
