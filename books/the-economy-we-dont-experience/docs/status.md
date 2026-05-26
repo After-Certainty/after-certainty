@@ -37,8 +37,9 @@ Checklist complete: [`author-read-through-gate-part-i.md`](author-read-through-g
 
 ## Next actions
 
-1. Review editorial-fold PR (remove depth-pass blocks; unnumbered `###` sub-headings).
-2. Optional future expansion toward long-term band in `docs/book-rules.md` if a fuller edition is commissioned.
+1. Review editorial-fold PR [#152](https://github.com/ksteffe/after-certainty/pull/152) (depth-pass fold; unnumbered sub-headings).
+2. Run **agent pipeline** per unit: [`docs/agents/README.md`](agents/README.md) (01 expansion → 02 clarity → 03 echo → 04 citation → 05 line-level).
+3. Optional future expansion toward long-term band in `docs/book-rules.md` if a fuller edition is commissioned.
 
 ## Open decisions / known issues
 

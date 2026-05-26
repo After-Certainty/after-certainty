@@ -45,3 +45,8 @@ Chapters use bullet beats and "Core idea" lines. Expand each beat to a full sect
 
 - `docs/drafting-process.md`
 - `docs/status.md`
+- `docs/agents/README.md` — expansion, clarity, echo, citation, line-level agents
+
+## Sub-headings
+
+Use **descriptive `###` titles** only—no numbered subsection ladders (`### **1.**` …).
