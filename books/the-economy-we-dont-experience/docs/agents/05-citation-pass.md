@@ -1,4 +1,4 @@
-# Agent 04 — Citation pass
+# Agent 05 — Citation pass
 
 ## ROLE
 
@@ -10,8 +10,8 @@ Leadership-economic claims (CPI, labor, Fed surveys, housing, supply chain) need
 
 ## WHEN
 
-- After **03** (stable prose)
-- Before **05** (line-level should not move footnote anchors)
+- After **04** (stable prose)
+- Before **06** (line-level should not move footnote anchors)
 - Every main unit; introduction and conclusion required; appendix as needed
 
 ## INPUTS
@@ -75,4 +75,4 @@ Leadership-economic claims (CPI, labor, Fed surveys, housing, supply chain) need
 
 ## PIPELINE
 
-**01** → **02** → **03** → **04** (this agent) → **05** per [README.md](./README.md).
+**01** → **02** → **03** → **04** → **05** (this agent) → **06** per [README.md](./README.md).

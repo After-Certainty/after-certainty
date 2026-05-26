@@ -1,4 +1,4 @@
-# Agent 05 — Line-level precision *(optional; use sparingly)*
+# Agent 06 — Line-level precision *(optional; use sparingly)*
 
 ## ROLE
 
@@ -6,13 +6,13 @@ Revision agent. Removes **word-level fat**, accidental **echoes**, and clunky **
 
 ## PURPOSE
 
-Late **micro-pass** when the unit is sound through **01–04** but still feels slightly loose on read-aloud. This book favors **plain diagnostic prose**—trim, do not “elevate.”
+Late **micro-pass** when the unit is sound through **01–05** but still feels slightly loose on read-aloud. This book favors **plain diagnostic prose**—trim, do not “elevate.”
 
 ## WHEN
 
-- **Sparingly**—after **04** on a unit
-- **Not** on rough drafts that still need **01–03**
-- Skip if the unit already reads tight after **02**
+- **Sparingly**—after **05** on a unit
+- **Not** on rough drafts that still need **01–04**
+- Skip if the unit already reads tight after **03**
 
 ## INPUTS
 
@@ -38,9 +38,9 @@ Late **micro-pass** when the unit is sound through **01–04** but still feels s
 
 - Change **meaning**, examples, or section order
 - Add **metaphors** or literary synonyms
-- Re-run **flow merge** or **expansion** (**01–02**)
-- Resolve **cross-chapter echo** (**03**)
-- Add/remove **citations** (**04**)
+- Re-run **plain-speak**, **flow merge**, or **expansion** (**01–03**)
+- Resolve **cross-chapter echo** (**04**)
+- Add/remove **citations** (**05**)
 
 ## OUTPUT
 
@@ -49,4 +49,4 @@ Late **micro-pass** when the unit is sound through **01–04** but still feels s
 
 ## PIPELINE
 
-**01** → **02** → **03** → **04** → **05** (this agent, optional) per [README.md](./README.md).
+**01** → **02** → **03** → **04** → **05** → **06** (this agent, optional) per [README.md](./README.md).

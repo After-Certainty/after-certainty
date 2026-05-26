@@ -5,7 +5,7 @@
 - `docs/book-rules.md`
 - `docs/status.md`
 - `index.md`
-- **`docs/agents/README.md`** — chapter-by-chapter agent pipeline (01–05)
+- **`docs/agents/README.md`** — chapter-by-chapter agent pipeline (01–06)
 
 ## Branch naming
 
@@ -20,10 +20,11 @@
 ### Per-unit agent order (default)
 
 1. [Expansion](../agents/01-expansion-pass.md)
-2. [Flow & clarity](../agents/02-flow-clarity-editor.md)
-3. [Echo](../agents/03-echo-pass.md)
-4. [Citation](../agents/04-citation-pass.md)
-5. [Line-level](../agents/05-line-level-precision.md) *(optional)*
+2. [Plain-speak language](../agents/02-plain-speak-language.md) *(Feynman clarity)*
+3. [Flow & clarity](../agents/03-flow-clarity-editor.md)
+4. [Echo](../agents/04-echo-pass.md)
+5. [Citation](../agents/05-citation-pass.md)
+6. [Line-level](../agents/06-line-level-precision.md) *(optional)*
 
 Chained prompt: [chapter-pipeline.md](../agents/chapter-pipeline.md)
 

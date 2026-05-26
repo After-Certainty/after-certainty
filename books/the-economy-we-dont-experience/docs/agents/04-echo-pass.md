@@ -1,4 +1,4 @@
-# Agent 03 — Echo pass
+# Agent 04 — Echo pass
 
 ## ROLE
 
@@ -6,12 +6,12 @@ Revision agent. Flags and resolves **repeated phrasing, claims, and examples** w
 
 ## PURPOSE
 
-Phase 2 step from [`drafting-process.md`](../drafting-process.md): echo is structural for a book that shares vocabulary with interpretation, incentives, and after-certainty. This pass **cuts, reframes, or deepens** repetition—does not replace flow editing (02) or citations (04).
+Phase 2 step from [`drafting-process.md`](../drafting-process.md): echo is structural for a book that shares vocabulary with interpretation, incentives, and after-certainty. This pass **cuts, reframes, or deepens** repetition—does not replace plain-speak (**02**), flow editing (**03**), or citations (**05**).
 
 ## WHEN
 
-- After **02** on the target unit
-- Before **04** (citations attach to stable prose)
+- After **03** on the target unit
+- Before **05** (citations attach to stable prose)
 - Required for every main unit; optional for appendix
 
 ## INPUTS
@@ -61,8 +61,8 @@ If this is the **last unit in a part**, add a short **Part echo note** in the re
 ## DO NOT
 
 - Remove the **core invariant** from the book—manage **frequency**, not silence
-- Rewrite for **clarity** only (**02**) or **length** (**01**)
-- Add **footnotes** (**04**)
+- Rewrite for **plain-speak** (**02**) or **flow** only (**03**) or **length** (**01**)
+- Add **footnotes** (**05**)
 - Change **historical or statistical claims** without author check
 
 ## OUTPUT
@@ -76,4 +76,4 @@ Same unit file with echo resolved. Brief report:
 
 ## PIPELINE
 
-**01** → **02** → **03** (this agent) → **04** → **05** per [README.md](./README.md).
+**01** → **02** → **03** → **04** (this agent) → **05** → **06** per [README.md](./README.md).

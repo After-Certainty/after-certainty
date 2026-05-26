@@ -43,12 +43,13 @@ The promoted manuscript folded promotion scaffolding; main units are ~900–1,20
 ### Length discipline
 
 - Aim **~2,800–3,200 words** per chapter; **~2,500–3,000** for introduction/conclusion
+- **Part bridges** (`parts/part-*/bridge.md`): **~600–900 words**—summarize the part arc and hand off to the first chapter; do not duplicate chapter prose
 - Appendix A: expand only if prompt includes it; keep optional
 
 ## DO
 
 - Preserve the unit’s **pull-quote / core idea** block if present
-- Add **footnotes only** when introducing a new verifiable claim (minimal in this pass—**04** owns citation hygiene)
+- Add **footnotes only** when introducing a new verifiable claim (minimal in this pass—**05** owns citation hygiene)
 - Keep **diagnostic, calm** voice—field notes for leaders and journalists
 - End with a **bridge sentence** to the next unit when the draft already has one (update if expansion changes flow)
 - Update `status.md` row: note approximate word count and “expansion pass complete”
@@ -67,8 +68,8 @@ The promoted manuscript folded promotion scaffolding; main units are ~900–1,20
 - Brief report:
   1. **Word count** (approximate)
   2. **Sections added or deepened** (list `###` headings)
-  3. **Top 2 risks** for echo pass (03)
+  3. **Top 2 risks** for plain-speak (**02**) and echo (**04**)
 
 ## PIPELINE
 
-**01** (this agent) → **02** → **03** → **04** → **05** per [README.md](./README.md).
+**01** (this agent) → **02** → **03** → **04** → **05** → **06** per [README.md](./README.md).
