@@ -38,7 +38,9 @@
 | Ch 11 — Responsibility | Phase 5 | 2,599 | Complete | Expanded; ~900 under floor |
 | Ch 12 — Meaning | Phase 5 | 2,256 | Complete | Expanded; ~1,240 under floor |
 | Conclusion | Phase 5 | 1,846 | Complete | Target 2,000–2,800 |
-| Appendix Ideas | Phase 5 | — | Optional | Out of default pipeline |
+| Appendix A — Bounded Seriousness | Phase 5 | 890 | Complete | |
+| Appendix B — Doubt vs Discipline | Phase 5 | 841 | Complete | |
+| Appendix C — Faith, Science, Commitment | Phase 5 | 1,018 | Complete | |
 | Bibliography | Phase 5 | — | Complete | Linked from index |
 
 ## Part echo gates

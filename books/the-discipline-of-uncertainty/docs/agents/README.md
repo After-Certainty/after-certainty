@@ -73,7 +73,9 @@ Work **one file per 01–06 run** unless expanding a part in batch with explicit
 | 11 | Ch 11 — Responsibility | `parts/part-6-living-without-guarantees/chapter-11-responsibility-after-certainty.md` |
 | 12 | Ch 12 — Meaning | `parts/part-6-living-without-guarantees/chapter-12-meaning-that-survives-uncertainty.md` |
 | — | Conclusion | `back-matter/conclusion-uncertainty-as-a-discipline.md` |
-| — | Appendix ideas | `back-matter/appendix-ideas.md` *(optional pipeline)* |
+| — | Appendix A | `back-matter/appendix-a-bounded-seriousness-not-infinite-possibility.md` |
+| — | Appendix B | `back-matter/appendix-b-doubt-versus-discipline.md` |
+| — | Appendix C | `back-matter/appendix-c-faith-science-and-probabilistic-commitment.md` |
 
 **Branch naming:** `books/discipline-<unit-slug>-<agent>` (e.g. `books/discipline-ch3-plain-speak`); parent fold: `books/the-discipline-of-uncertainty-editorial-fold`.
 

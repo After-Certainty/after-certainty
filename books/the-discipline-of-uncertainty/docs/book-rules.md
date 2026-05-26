@@ -16,7 +16,7 @@ This book is **not** about doubt as paralysis. It is about **uncertainty as a di
 - **Part bridges:** ~600–900 words each (orientation and handoff—not chapter length)
 - **Chapters:** ~3,500–4,500 words each in first cycle
 - **Long-term band:** ~70–90k at completion
-- 6 parts, 6 part bridges, 12 chapters, optional appendix ideas file
+- 6 parts, 6 part bridges, 12 chapters, 3 appendices (A–C)
 
 ### Subtitle alignment
 

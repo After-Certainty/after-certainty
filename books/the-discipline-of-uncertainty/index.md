@@ -49,5 +49,7 @@
 ## Back Matter
 
 - [Conclusion — Uncertainty as a Discipline](back-matter/conclusion-uncertainty-as-a-discipline.md)
+- [Appendix A — Bounded Seriousness, Not Infinite Possibility](back-matter/appendix-a-bounded-seriousness-not-infinite-possibility.md)
+- [Appendix B — The Difference Between Doubt and Discipline](back-matter/appendix-b-doubt-versus-discipline.md)
+- [Appendix C — Faith, Science, and Probabilistic Commitment](back-matter/appendix-c-faith-science-and-probabilistic-commitment.md)
 - [Bibliography](back-matter/bibliography.md)
-- [Optional Appendix Ideas](back-matter/appendix-ideas.md)
