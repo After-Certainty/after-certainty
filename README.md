@@ -53,6 +53,7 @@ Unless otherwise noted, original content in this repository is licensed under [*
 | **When Accountability No Longer Expires** — *How Legitimate Authority Learns to Survive Harm* | [`books/when-accountability-no-longer-expires/index.md`](books/when-accountability-no-longer-expires/index.md) | Essay edition—institutional persistence after harm, not leader biography. |
 | **After Certainty** — *How to Live and Judge When Understanding is not Enough* | [`books/after-certainty/index.md`](books/after-certainty/index.md) | Essay edition—capstone practice after diagnostic volumes. |
 | **The Discipline of Uncertainty** — *Judgment, Restraint, and Decision Quality Under Incomplete Information* | [`books/the-discipline-of-uncertainty/index.md`](books/the-discipline-of-uncertainty/index.md) | Judgment and restraint when information will stay incomplete. |
+| **The Economy We Don't Experience** — *Leadership, Communication, and the Credibility Crisis in Economics and Politics* | [`books/the-economy-we-dont-experience/index.md`](books/the-economy-we-dont-experience/index.md) | Expanded edition (~28–32k words)—lived economy vs aggregate narrative under compression and interpretive stress. |
 
 Together these manuscripts are part of the broader **After Certainty** thread: thinking clearly when simple answers stop working.
 
@@ -65,11 +66,10 @@ Together these manuscripts are part of the broader **After Certainty** thread: t
 
 ## Upcoming nonfiction
 
-Four essay-length or in-progress manuscripts remain under [`upcoming/`](upcoming/) (four Tier A titles are now published under `books/`—see table above).
+Three essay-length or in-progress manuscripts remain under [`upcoming/`](upcoming/) (Tier A titles and *The Economy We Don't Experience* are now published under `books/`—see table above).
 
 | Book | Index | What it's about |
 | --- | --- | --- |
-| **The Economy We Don't Experience** — *Leadership, Communication, and the Credibility Crisis in Economics and Politics* | [`upcoming/the-economy-we-dont-experience/index.md`](upcoming/the-economy-we-dont-experience/index.md) | The economy people live in vs the economy leaders describe. |
 | **When Incentives Become the Moral Language** — *How Systems Decide For Us When Judgment No Longer Scales* | [`upcoming/when-incentives-become-the-moral-language/index.md`](upcoming/when-incentives-become-the-moral-language/index.md) | Eight domains where metrics replaced judgment. |
 | **When Interpretation No Longer Matters** — *Authority After Understanding Collapses* | [`upcoming/when-interpretation-no-longer-matters/index.md`](upcoming/when-interpretation-no-longer-matters/index.md) | Authority when explanation and repair no longer work. |
 | **Why Collaboration Is So Hard** — *And why the effort still matters* | [`upcoming/why-collaboration-is-so-hard/index.md`](upcoming/why-collaboration-is-so-hard/index.md) | Coordination without full ownership—contribution and trust under diffuse responsibility. |
