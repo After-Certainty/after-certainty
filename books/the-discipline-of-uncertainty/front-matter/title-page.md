@@ -4,6 +4,6 @@
 
 # **The Discipline of Uncertainty**
 
-## **Judgment, restraint, and decision quality under incomplete information**
+## **Judgment, Restraint, and Decision Quality Under Incomplete Information**
 
 **Kevin Steffensen**

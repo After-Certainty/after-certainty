@@ -16,7 +16,6 @@ Dashboard for five nonfiction manuscripts under `upcoming/`. Fiction titles use 
 | [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/) | Phase 2 complete | ~8.4k words; intro + 8 domain chapters; Ch 1–2 anchor footnotes | Phase 3 part gate; author read-through Ch 3–8 | [status](../when-incentives-become-the-moral-language/docs/status.md) |
 | [Why Collaboration Is So Hard](../why-collaboration-is-so-hard/) | Phase 2 — Part I complete | ~10.8k words; front matter + Part I depth pass | Part I author read-through; Phase 2 Parts II–IV | [status](../why-collaboration-is-so-hard/docs/status.md) |
 | [The Economy We Don't Experience](../the-economy-we-dont-experience/) | Phase 2 in progress | ~7.4k words; intro + Ch 1–8 + conclusion; compression frame | Part I author read-through; Ch 2–3 footnote verify | [status](../the-economy-we-dont-experience/docs/status.md) |
-| [The Discipline of Uncertainty](../the-discipline-of-uncertainty/) | Phase 2 — Part I depth complete | ~7.5k words; intro + Ch 1–12 + conclusion | Part I author read-through; Part II–VI echo pass | [status](../the-discipline-of-uncertainty/docs/status.md) |
 
 ## Upcoming fiction
 
@@ -26,7 +25,7 @@ Not part of the nonfiction editorial passes or judgment/alignment/compression cl
 |------|-------|------------------|-------------|--------|
 | [Velorum](../velorum/) | In progress | Mythic fantasy; Act I chapters drafted; voice/continuity specs under `velorum/docs/` | Act I continuity + chapter pipeline per [`agents/README`](../velorum/docs/agents/README.md) | [project spec](../velorum/docs/project-spec.md) |
 
-*Boundary Conditions promoted to [`books/boundary-conditions/`](../../books/boundary-conditions/) — see that book's [`docs/status.md`](../../books/boundary-conditions/docs/status.md).*
+*Boundary Conditions promoted to [`books/boundary-conditions/`](../../books/boundary-conditions/) and The Discipline of Uncertainty promoted to [`books/the-discipline-of-uncertainty/`](../../books/the-discipline-of-uncertainty/) — see each book's `docs/status.md`.*
 
 ## Judgment / alignment / compression cluster
 
@@ -76,7 +75,7 @@ Incremental depth pass delivered; full ~50–90k bands remain future work after 
 | Promoted (essay) | after-certainty, before-certainty-arrives, accountability | 9–12k each | In `books/`; author gate sign-off + export smoke test |
 | Mid editorial | interpretation | ~13k | Phase 4 done; author gate + expansion decision |
 | Mid draft | incentives | ~8k | Phase 3–4 before large expansion |
-| Pass 3 / Phase 2 | collaboration, economy, discipline | 7–11k each | **Largest** — author Part I gate before expansion |
+| Pass 3 / Phase 2 | collaboration, economy | 7–11k each | **Largest** — author Part I gate before expansion |
 
 ## Conventions
 

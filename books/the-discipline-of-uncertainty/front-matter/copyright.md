@@ -4,7 +4,7 @@ Copyright © 2026 Kevin Steffensen.
 
 **The Discipline of Uncertainty**
 
-*Judgment, restraint, and decision quality under incomplete information*
+*Judgment, Restraint, and Decision Quality Under Incomplete Information*
 
 This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (CC BY-SA 4.0).
 

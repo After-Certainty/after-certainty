@@ -8,10 +8,10 @@
 
 ## Branch naming
 
-- `upcoming/the-discipline-of-uncertainty-draft`
+- `books/the-discipline-of-uncertainty-promote`
 
 ## Current starting phase
 
-**Phase 0 — Structure** (subtitle alignment), then **Phase 1 — Outline to prose** starting Part I.
+**Phase 5 — Promotion to `books/`**
 
 See [upcoming/docs/_templates/drafting-process.md.template](../../docs/_templates/drafting-process.md.template).

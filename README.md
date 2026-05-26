@@ -52,6 +52,7 @@ Unless otherwise noted, original content in this repository is licensed under [*
 | **Before Certainty Arrives** — *How Moral Order Forms, Hardens, and Outlives Its Reasons* | [`books/before-certainty-arrives/index.md`](books/before-certainty-arrives/index.md) | Essay edition—moral order before certainty felt excessive (historical prequel). |
 | **When Accountability No Longer Expires** — *How Legitimate Authority Learns to Survive Harm* | [`books/when-accountability-no-longer-expires/index.md`](books/when-accountability-no-longer-expires/index.md) | Essay edition—institutional persistence after harm, not leader biography. |
 | **After Certainty** — *How to Live and Judge When Understanding is not Enough* | [`books/after-certainty/index.md`](books/after-certainty/index.md) | Essay edition—capstone practice after diagnostic volumes. |
+| **The Discipline of Uncertainty** — *Judgment, Restraint, and Decision Quality Under Incomplete Information* | [`books/the-discipline-of-uncertainty/index.md`](books/the-discipline-of-uncertainty/index.md) | Judgment and restraint when information will stay incomplete. |
 
 Together these manuscripts are part of the broader **After Certainty** thread: thinking clearly when simple answers stop working.
 
@@ -64,11 +65,10 @@ Together these manuscripts are part of the broader **After Certainty** thread: t
 
 ## Upcoming nonfiction
 
-Five essay-length or in-progress manuscripts remain under [`upcoming/`](upcoming/) (three Tier A titles are now published under `books/`—see table above).
+Four essay-length or in-progress manuscripts remain under [`upcoming/`](upcoming/) (four Tier A titles are now published under `books/`—see table above).
 
 | Book | Index | What it's about |
 | --- | --- | --- |
-| **The Discipline of Uncertainty** — *Judgment, Restraint, and Decision Quality Under Incomplete Information* | [`upcoming/the-discipline-of-uncertainty/index.md`](upcoming/the-discipline-of-uncertainty/index.md) | Judgment and restraint when information will stay incomplete. |
 | **The Economy We Don't Experience** — *Leadership, Communication, and the Credibility Crisis in Economics and Politics* | [`upcoming/the-economy-we-dont-experience/index.md`](upcoming/the-economy-we-dont-experience/index.md) | The economy people live in vs the economy leaders describe. |
 | **When Incentives Become the Moral Language** — *How Systems Decide For Us When Judgment No Longer Scales* | [`upcoming/when-incentives-become-the-moral-language/index.md`](upcoming/when-incentives-become-the-moral-language/index.md) | Eight domains where metrics replaced judgment. |
 | **When Interpretation No Longer Matters** — *Authority After Understanding Collapses* | [`upcoming/when-interpretation-no-longer-matters/index.md`](upcoming/when-interpretation-no-longer-matters/index.md) | Authority when explanation and repair no longer work. |

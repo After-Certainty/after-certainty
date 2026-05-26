@@ -32,7 +32,7 @@ For readers building the full argument (conceptual, not prescriptive):
 4. **[When Incentives Become the Moral Language](../upcoming/when-incentives-become-the-moral-language/index.md)** — metrics replace judgment  
 5. **[The Economy We Don't Experience](../upcoming/the-economy-we-dont-experience/index.md)** — compression in public economic speech  
 6. **[Why Collaboration Is So Hard](../upcoming/why-collaboration-is-so-hard/index.md)** — coordination without full ownership  
-7. **[The Discipline of Uncertainty](../upcoming/the-discipline-of-uncertainty/index.md)** — judgment under incomplete information  
+7. **[The Discipline of Uncertainty](../books/the-discipline-of-uncertainty/index.md)** — judgment under incomplete information  
 8. **[After Certainty](../books/after-certainty/index.md)** — practice after frameworks fail (capstone)
 
 Several of these are **essay-length** concentrated arguments (~8–13k words), not full-length volumes.
@@ -66,7 +66,7 @@ Echo checks: interpretation Part III–IV pass docs; incentives interlude; econo
 | Book | One-line role |
 |------|----------------|
 | Why Collaboration Is So Hard | Why competent people still can't stabilize shared work. |
-| The Discipline of Uncertainty | Judgment and restraint when information will stay incomplete. |
+| [The Discipline of Uncertainty](../books/the-discipline-of-uncertainty/index.md) | Judgment and restraint when information will stay incomplete. |
 | [Coupling](../books/coupling/index.md) (published) | System architecture and responsibility—not diffuse ownership. |
 | [Curiosity Before Certainty](../books/curiosity-before-certainty/index.md) | Epistemic posture—not Monday decision discipline. |
 | [How Serious Systems Learn](../books/how-serious-systems-learn/index.md) | Institutional learning—not individual restraint under pressure. |

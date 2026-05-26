@@ -1,7 +1,7 @@
 version: 1
 
-upcoming:
-  status: in_progress
+publishing:
+  enabled: true
 
 book:
   id: the-discipline-of-uncertainty
@@ -10,6 +10,7 @@ book:
   description: "Field notes on judgment, restraint, and decision quality when information is incomplete."
   author:
     name: "Kevin Steffensen"
+    website: "https://after-certainty.com"
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
@@ -32,8 +33,16 @@ frontmatter:
 build:
   formats:
     docx:
-      enabled: false
+      enabled: true
     epub:
-      enabled: false
+      enabled: true
     pdf:
-      enabled: false
+      enabled: true
+
+github:
+  release: true
+  release_tag: "latest"
+  artifacts:
+    - docx
+    - epub
+    - pdf
