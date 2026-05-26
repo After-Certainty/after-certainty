@@ -2,272 +2,122 @@
 
 ## **The Compression Problem**
 
-Every public statement about "the economy" is already a compression. GDP
-growth, unemployment rates, inflation prints, consumer confidence indices—
-each is a low-dimensional summary of processes that are high-dimensional
-in reality: supply chains, household balance sheets, sectoral shocks,
-regional labor markets, asset prices, and expectations that feed back into
-behavior.
+Every public statement about "the economy" is already a compression—a necessary shrinkage of supply chains, balance sheets, sectoral shocks, regional labor markets, asset prices, and expectations into GDP growth, unemployment rates, inflation prints, and confidence indices.
 
-Reduction is not a mistake. No leader, journalist, or central banker can
-brief the public with full dimensional fidelity. The problem begins when
-the summary is mistaken for the thing itself—and when audiences who live
-inside the omitted dimensions experience the message as false.
+The problem begins when the summary is mistaken for the thing itself—and when audiences who live inside what the summary left out hear the message as false.
 
-> Modern economies are high-dimensional systems communicated through
-> low-dimensional channels.
+> Modern economies are high-dimensional systems communicated through low-dimensional channels.
 
-### **1. Why communication requires compression**
+When a cabinet official says "the economy is resilient," listeners are not hearing a claim they can test firm by firm. They are hearing a **genre**: a national mood assigned to a number. The genre works when people recognize their slice inside the summary. It breaks when they recognize themselves in what was left out.
 
-Economic communication requires **compression** because attention is finite,
-language is finite, and coordination requires shared reference points.
-Averages exist so people can orient. Without them, policy debate would
-stall in incompatible anecdotes.
+### **Why Communication Requires Compression**
 
-The legitimate function of compression is orientation at scale: a signal
-that conditions are tightening or easing, that risk is rising or falling.
-The failure mode is different: a summary that **substitutes for** the
-experienced economy rather than pointing toward it.
+Economic communication requires **compression**—the necessary reduction of a messy economy into shared numbers—because attention is finite, language is finite, and coordination requires shared reference points. Averages exist so people can orient. Without them, policy debate would stall in incompatible anecdotes—every town with its own weather report, no shared clock.
 
-### **2. The compression–signaling invariant**
+The legitimate function of compression is orientation at scale: a signal that conditions are tightening or easing, that risk is rising or falling. A jobs report can tell a legislature whether to argue about stimulus or restraint without reading ten million payrolls. A CPI print can tell a household whether to expect another year of rent pressure without modeling every SKU in the basket.
 
-Part I returns repeatedly to one invariant:
+The failure mode is different: a summary that **substitutes for** the experienced economy rather than pointing toward it. Substitution turns the headline into proof that your renewal letter is wrong, your late shipment irrelevant, or your layoff fear unpatriotic. Orientation becomes accusation.
 
-> Necessary reduction becomes harmful substitution when audiences can no
-> longer tell whether speech is meant to explain or to position.
+### **The Compression–Signaling Invariant**
 
-**Explanation** invites cross-checking against reality: does this map
-match what I see? **Signaling** invites coalition reading: whose side is
-this speaker on? Under stress, signaling crowds out explanation because
-signaling is faster and because fear makes orientation scarce.
+Part I's bridge named the slide this chapter develops in detail:
 
-Institutions often respond to signaling dominance by compressing harder—
-louder confidence, simpler slogans—which restores short-term calm while
-deepening long-term credibility debt. The invariant is not a moral failure
-of elites alone. It is a property of thin channels under thick reality.
+> Necessary reduction becomes harmful substitution when audiences can no longer tell whether speech is meant to explain or to position.
 
-### **3. From explanation to signaling**
+**Explanation** invites a reality check: does this map match what I see? **Signaling** invites coalition reading: whose side is this speaker on? Under stress, signaling crowds out explanation because signaling is faster and fear makes orientation scarce.
 
-Over time, economic speech often slides from explanation to **signaling**:
-utterances valued less for accuracy than for coalition, identity, or morale.
-Signaling is not unique to bad actors. Under stress, even good-faith leaders
-signal confidence because confidence is a tool.
+Institutions often respond by compressing harder—louder confidence, simpler slogans—which restores short-term calm while deepening long-term credibility debt. That pattern is not only a moral failure of elites. It is what happens when a thin channel carries a thick reality: a press slot, a push alert, or a campaign stage cannot carry the full picture of who gained and who paid.
 
-When signaling dominates, audiences learn to hear statements as positioning
-rather than as maps. That learning is rational. It is also corrosive for
-legitimacy.
+### **Two Clocks Before the Fight Starts**
 
-### **4. Supply chains as hidden dimensions**
+Leaders who want explanation rather than signaling need a habit this book returns to (named in the Part I bridge): name **two clocks** in the same breath—the national indicator and the local bill. Not as false balance, as honesty about both scales. *"Unemployment is low nationally; overtime in your county is not."* *"Inflation is easing in the index; your renewal is not."* The sentence is longer. It is also harder to clip into betrayal because it already admits the tail.
 
-A national inventory index can show normalization while a **regional
-distributor** still waits eleven weeks for a specialty valve that used to
-arrive in three. The distributor's world is not irrational. It is a tail
-the index was never built to headline.
+Audiences calibrate trust on whether the second clause appears without being dragged there. When it never appears, the first clause is heard as signaling no matter how accurate it is.
 
-Supply chains taught many firms that aggregate "recovery" and operational
-recovery are different clocks. When leadership speaks only in the fast
-clock—headline GDP, headline freight volumes—the slow clock sounds like
-denial. Experiential cross-checking begins in the warehouse, not in a
-survey.
+### **From Explanation to Signaling**
 
-### **5. Why averages feel dishonest**
+The drift shows up in routine public events. Consider the monthly jobs release. The Bureau of Labor Statistics publishes a careful statement about sampling, revisions, and sector detail.[^c1-bls-jobs] By afternoon, cable panels compress the release into **winning** or **losing** for one party. The original document invited a reality check; the clip invited alignment. Audiences who watched only the clip learned how economic speech gets scored like sports, not read like weather.
 
-Averages can be **accurate and dishonest-feeling** at once. Median and mean
-hide variance by design. When variance is wide—as in housing costs, health
-expenses, or regional wages—the average can describe the center of a
-distribution while large populations live in the tails.
+When signaling dominates, audiences learn to hear statements as positioning rather than as maps. That learning is rational. It is also corrosive for legitimacy: the next accurate release arrives pre-discounted.
 
-People in the tails are not confused when they reject the average. They are
-performing **experiential cross-checking**: comparing the message to lived
-costs, hours, and risks. When the check fails, credibility decays even if
-the statistic is methodologically sound.
+### **Supply Chains as Hidden Dimensions**
 
-### **6. Compression and moralized language**
+A national inventory index can show normalization while a **regional distributor** still waits eleven weeks for a specialty valve that used to arrive in three. The distributor's world is not irrational. It is a tail the index was never built to headline.
 
-Compression also **moralizes** economic language. Complex tradeoffs become
-virtue and vice stories: hardworking families versus elites, makers versus
-takers, responsible versus reckless policy. Moralized summaries travel
-fast because they offer orientation without requiring economic literacy.
+She runs purchasing for a family-owned industrial supply house—twenty employees, three counties, customers who still call her by name when a line goes down. When freight indexes eased nationally, her inbox did not. A carrier quoted six weeks, then eight, then "we'll call you." Her customers heard **supply chains fixed** on the radio while their maintenance crews idled. She did not need to deny the index. She needed someone to say the index was not about her valve.
 
-The moralization is not only cynicism. It is sometimes the only narrative
-form that survives hostile media environments and short attention spans.
+Supply chains taught many firms that aggregate "recovery" and operational recovery run on different clocks. When leadership speaks only in the fast clock—headline GDP, headline freight volumes—the slow clock sounds like denial. People check the message against the warehouse floor, not against a survey.
 
-### **7. Why "just add nuance" fails at scale**
+### **Why Averages Feel Dishonest**
 
-A common institutional response to credibility loss is **more nuance**: caveats,
-confidence intervals, sectoral breakdowns. Nuance helps specialists. At
-scale, nuance can sound like evasion—especially when audiences already
-believe institutions manage language to avoid accountability.
+Averages can be **accurate and dishonest-feeling** at once. Median and mean hide spread by design. When spread is wide—as in housing costs, health expenses, or regional wages—the average can describe the center of a distribution while large populations live in the tails.
 
-"Just add nuance" fails because the channel remains low-dimensional while
-the trust problem is relational and experiential. People are not only asking
-for more data. They are asking whether the speaker sees what they see.
+Shelter is the clearest classroom. A national shelter component can cool while a renter receives an eighteen-percent renewal because insurance, tax pass-throughs, and local inventory differ from the metro in the headline.[^c1-shelter] The statistic can be methodologically sound and socially insulting in the same week. People in the tails are not confused when they reject the average. They are comparing the message to lived costs, hours, and risks—**experiential cross-checking**, the habit this book returns to whenever a headline meets a household ledger.
 
-### **8. The illusion of disagreement**
+When the check fails, credibility decays even if the number is later vindicated on someone else's timeline.
 
-When summaries mismatch experience, public debate often looks like
-**irrational disagreement**. In many cases, it is incompatible reduction:
-two summaries, each faithful to a different slice, each heard as denial by
-those omitted.
+Health insurance repricing shows the same geometry with different paperwork. A family can hear that medical inflation has moderated while opening a notice that raises the monthly premium and narrows the network. The aggregate story and the household story are both "about health costs," but they are not the same event. Compression that treats them as one event invites the listener to conclude the speaker is defending a category, not describing a life.
 
-Leaders who respond by intensifying confidence performances sometimes restore
-short-term calm. They also teach audiences that economic speech is not a
-map—it is a morale operation.
+### **Compression and Moralized Language**
 
+Compression also **moralizes** economic language. Complex tradeoffs become virtue and vice stories: hardworking families versus elites, makers versus takers, responsible versus reckless policy. Moralized summaries travel fast because they offer orientation without requiring economic literacy.
 
-### **9. Digital platforms and the acceleration of signaling**
+In the early 2020s, **greedflation** and **supply shock** functioned as compressed theories of the same price pain—each name carrying a moral team before evidence finished traveling. Neither label was pure fiction; each was a short handle on a long adjustment. The danger is not that moral language exists. It is that moral language **replaces** the slower work of naming who is hurt, where, and on what clock—because moral handles win shares faster than distribution tables.
 
-Social platforms do not create the compression–signaling slide, but they **lower the cost of coalition reading**. A fifteen-second clip of a press conference becomes proof of tone—out of touch, panicked, arrogant—faster than a fifteen-page report becomes proof of structure. Platforms reward utterances that are easy to classify as friend or enemy. Economic explanation is rarely easy to classify; economic signaling is.
+The moralization is not only cynicism. It is sometimes the only narrative form that survives hostile media environments and short attention spans.
+
+### **Why "Just Add Nuance" Fails at Scale**
+
+A common institutional response to credibility loss is **more nuance**: caveats, confidence intervals, sectoral breakdowns. Nuance helps specialists. At scale, nuance can sound like evasion—especially when audiences already believe institutions manage language to avoid accountability.
+
+The town-hall pattern is familiar: charts show national improvement; the first questions are about a specific renewal, deductible, or shift cut; answers that begin **on average** teach the room the chart is not about them. "Just add nuance" fails because the channel remains narrow while the trust problem is relational and lived. People are not only asking for more data. They are asking whether the speaker sees what they see.
+
+### **The Illusion of Disagreement**
+
+When summaries mismatch experience, public debate often looks like **irrational disagreement**. In many cases, it is incompatible reduction: two summaries, each faithful to a different slice, each heard as denial by those omitted.
+
+Two neighbors can watch the same segment on the evening news—**economy strong**—and walk away with opposite verdicts. One just refinanced at a lower rate; the other lost overtime when a plant rerouted orders. Neither is inventing facts. Each is generalizing from a place the segment could not name in ninety seconds. Public argument then becomes a fight over which compression is the real America, rather than a conversation about how many Americas the compression omitted.
+
+Leaders who respond by intensifying confidence performances sometimes restore short-term calm. They also teach audiences that economic speech is not a map—it is a morale operation.
+
+### **Digital Platforms and the Acceleration of Signaling**
+
+Social platforms do not create the slide from explanation to signaling, but they **lower the cost of coalition reading**. A fifteen-second clip of a press conference becomes proof of tone—out of touch, panicked, arrogant—faster than a fifteen-page report becomes proof of structure. Platforms reward utterances that are easy to classify as friend or enemy. Economic explanation is rarely easy to classify; economic signaling is.
 
 Consider how **revision** travels. When an agency updates a forecast, the update can be framed as scientific humility or as scandal. The underlying numbers may change modestly; the reputational stakes change enormously. Leaders therefore face a perverse incentive: delay revision until the narrative lock-in is unbearable, then absorb a credibility hit that could have been distributed across smaller updates. Compression plus platform dynamics produces **lumpy trust**: long periods of performed confidence, short periods of explosive distrust.
 
-### **10. Historical precedent without nostalgia**
+The mechanism is not "people hate experts." It is that **clips favor signals** because signals are easy to read at scroll speed. A conditional sentence is a liability in a feed built for certainty.
 
-The gap between aggregate and lived economy is not new. Nineteenth- and twentieth-century labor movements organized around wages and prices that national accounts measured poorly or slowly. What is new is the **speed of cross-checking**: a household can compare a CPI release to yesterday's receipt before the press conference ends. Nostalgia for a single national story is misplaced; the question is whether leaders can build **partial coherence**—honest summaries paired with honest slices—at platform speed.
+Journalists face the same incentive structure: a chart that survives editing is often the chart that can be captioned in six words. The work of naming tails becomes optional—not because reporters lack integrity, but because the business model compresses before the paragraph does. Readers then generalize from the caption and blame the institution that published the chart, not the channel that demanded the caption.
 
-### **11. Compression inside organizations**
+### **Historical Precedent Without Nostalgia**
 
-Firms compress too. A CEO's earnings call is a low-dimensional channel about a high-dimensional firm. Employees cross-check against schedules, safety incidents, and local management behavior. When internal summaries mismatch internal experience, the same relocation occurs: shop-floor stories beat headquarters slides. Public economic credibility crises echo **internal legitimacy** crises. Leaders who learn to name omitted dimensions inside the firm often speak more credibly outside it.
+The gap between aggregate and lived economy is not new. Nineteenth- and twentieth-century labor movements organized around wages and prices that national accounts measured poorly or slowly. What is new is the **speed of cross-checking**: a household can compare a CPI release to yesterday's receipt before the press conference ends.[^c1-cpi-lag]
 
-### **12. What compression cannot do**
+Nostalgia for a single national story is misplaced; the question is whether leaders can name honest national prints and honest local pains in the same speech without one canceling the other. That overlap does not mean agreement. It means disagreement can become interpretable again—which is a precondition for policy that outlasts the next clip.
+
+### **Compression Inside Organizations**
+
+Firms compress too. A CEO's earnings call is a short story about a complicated firm. Employees check it against schedules, safety incidents, and local management behavior. When internal summaries mismatch internal experience, shop-floor stories beat headquarters slides. Public economic credibility crises echo **internal legitimacy** crises.
+
+The pattern matters for leadership development: executives who learn to name omitted dimensions inside the firm—where the forecast was right but the bonus pool was not, where the safety metric improved but the line speed did not—often speak more credibly outside it. Internal compression is practice for public compression.
+
+### **What Leaders Owe a Thin Channel**
+
+Thin channels are not going away. Democracy still needs shared reference points; markets still need a number to react to; voters still need a story shorter than the economy itself. The obligation is not to abolish compression. It is to stop pretending compression is neutral—to stop treating every objection from the tails as ignorance or bad faith.
+
+Practically, that means three disciplines visible in public speech: **name the slice** before opponents name it for you; **separate map from morale** when conditions are mixed; and **revise in smaller steps** so updates read as maintenance rather than scandal. None of these disciplines guarantees agreement. They buy time for policy to be argued on shared facts rather than on who sounded confident last.
+
+### **What Compression Cannot Do**
 
 Compression cannot carry distributional conflict without sounding like taking sides. If naming winners and losers is treated as politics, only signaling remains. Institutions that want explanation to scale must accept that **distribution is not a distraction from economics**—it is economics for most people. The compression problem is therefore partly a courage problem: whether leaders will risk being heard as partisan in order to be heard as accurate about who is hurt.
 
-The next chapter examines a recent case where good-faith warnings compressed
-conditional uncertainty into headline risk—and still reshaped trust when
-felt reality did not move with the headline.
-<!-- bulk-depth-pass -->
-## **Depth pass — promotion edition**
+It is also a design problem: which slices get a sentence in the release, which tails get a panel, which pains get a number. Until distribution is treated as part of the map rather than a critique of the map, audiences will keep checking the message against the life the map omitted—and trust will pool with whoever names that life first.
 
-### **Depth 1**
+The next chapter examines a recent case where good-faith warnings compressed conditional uncertainty into headline risk—and still reshaped trust when felt reality did not move with the headline.
 
-Supply chains re-taught the public that the economy is a network, not a mood. Networks fail locally before they fail nationally. Networks heal locally before they heal nationally. Speech that tracks only national healing will be contradicted by local invoices. Invoices scale as pain because invoices are socially legible.
+[^c1-shelter]: U.S. Bureau of Labor Statistics, Consumer Price Index shelter components and regional price dispersion; U.S. Census Bureau, housing cost materials (2020–2024).
 
-### **Depth 2**
+[^c1-cpi-lag]: U.S. Bureau of Labor Statistics, Consumer Price Index release schedule and methodology; see also Shiller, *Narrative Economics*, on public interpretation of inflation data.
 
-The moralization of economic language is a rational response to thin channels. Moral stories carry causality without coefficients. They assign responsibility without econometrics. They are dangerous when false. They are inevitable when explanation cannot carry distribution. Leaders who moralize opponents while demoralizing their own omissions mirror the same structure.
-
-### **Depth 3**
-
-Forecasting institutions operate with professional norms that prize revision. Public life operates with norms that punish revision. The mismatch is structural. Until public speech normalizes updating without scandal, forecasters will either over-commit in public or under-inform in private. Neither builds trust.
-
-### **Depth 4**
-
-Elections compress mandates. Mandates compress complexity. Governing expands complexity again. The whiplash is predictable. Economic communication after elections is where mandates meet tails. Tails win when ignored.
-
-### **Depth 5**
-
-Resilience policies produce non-headlines. Non-headlines do not build gratitude. Gratitude is not required for good policy. Legitimacy, however, requires that invisible protections be linked to visible stakes. Otherwise the public learns that only pain is real.
-
-### **Depth 6**
-
-Restraint is not the absence of leadership. It is leadership that refuses to spend trust on performances of certainty. Restraint names tradeoffs. Restraint admits unknowns. Restraint pairs clocks. Restraint is punished in clips and rewarded in years—if institutions survive long enough to collect the reward.
-
-### **Depth 7**
-
-Resonance without understanding is a phase, not a destiny. Democracies can re-earn explanation if messengers first pay the resonance debt: recognition before refutation, slice before slogan, repair before triumph.
-
-### **Depth 8**
-
-Pain scales because humans coordinate on recognition faster than on theory. Theory matters for policy design. Recognition matters for coalition formation. Confusing the two produces leaders who win arguments and lose streets.
-
-### **Depth 9**
-
-Experience anchors belief when abstraction fails to predict felt consequence. Experience is fallible. So are models. Democratic competence requires holding both without requiring either to disappear.
-
-### **Depth 10**
-
-Under interpretive stress, leaders face a recurring trap: they respond to distrust by simplifying further, as if clarity were the problem. Clarity is not the problem. Omission is. When a message could only be true for a subset, and the subset is not named, the message trains its excluded audience to hear all future messages as coalition speech. That training is cumulative. It survives good months. It survives good prints. It shows up the month the print is good and the rent still rises.
-
-### **Depth 11**
-
-Compression is often defended as democratic accessibility: people cannot digest distributional tables. Accessibility is real. So is the cost of accessibility that erases tails. A democratic compromise is not more slogans. It is bilingual speech: the headline for orientation, the plain-language tail for recognition. Without the second language, the first language becomes a loyalty test.
-
-### **Depth 12**
-
-Economic debate in the 2020s frequently looked like competing facts. Underneath, it was competing compressions. Each side offered a summary faithful to a slice. Each side's slice sounded like denial to the other. The book's invariant predicts that fight. It does not require villains. It requires dimensional discipline.
-
-### **Depth 13**
-
-Institutions sometimes treat public anger as a knowledge problem. Knowledge helps. But anger often arrives as a relational problem: you did not see me; you saw your model. Repairing relation without surrendering method is the leadership task. It begins with naming slices before opponents name them for you.
-
-### **Depth 14**
-
-Small businesses are not decorative examples in this argument. They are early-warning systems. Their ledgers integrate prices, hours, credit, and local politics faster than quarterly national narratives. When their speech is dismissed as anecdote, policy loses a sensor. When their speech is romanticized as pure truth, policy loses method. The middle path is to treat their reports as distributional evidence.
-<!-- bulk-depth-pass-2 -->
-## **Depth pass II — promotion edition**
-
-### **Depth II.1**
-
-Corporate pricing power debates in the 2020s showed how compression becomes moralized quickly. 'Greedflation' and 'supply shocks' were compressions fighting compressions. Each named a slice of causality as the whole. Leadership that acknowledged multiple causes without denying felt price pain had a chance to be heard. Leadership that picked one cause as a purity test signaled coalition, not explanation.
-
-### **Depth II.2**
-
-Immigration, trade, and industrial policy arguments are often economic arguments in disguise. They compress identity and security into GDP language. Economic leaders who respond only with aggregates enter the wrong fight. They must answer identity and security claims with economic honesty about winners, losers, and time horizons—or forfeit the floor to resonant simplifiers.
-
-### **Depth II.3**
-
-The appendix of this book asks why 'just tell the truth' fails as strategy. The main text answers: truth without slice recognition is heard as propaganda. Truth with slice recognition is still incomplete, but it is the form of incomplete speech that can survive cross-checking.
-
-### **Depth II.4**
-
-Younger voters who came of age during post-2008 and post-2020 volatility may have weaker institutional memory of long calm expansions. Their experiential anchor is discontinuity. Speech that assumes continuity norms will fail. Speech that names volatility as environment, not as temporary aberration, matches their audit.
-
-### **Depth II.5**
-
-Older voters on fixed incomes experience inflation as level and rate simultaneously. Speech that celebrates falling inflation rates without acknowledging price levels sounds like arithmetic used as mockery. The asymmetry of pain requires leaders to speak about levels and rates in the same breath, even when it complicates the headline.
-
-### **Depth II.6**
-
-Rural and urban compressions diverge on energy, freight, and housing. A national energy narrative that ignores diesel for farm equipment or gas for long commutes signals omission. A national housing narrative that ignores insurance in coastal counties signals omission. Omission is the fuel of signaling.
-
-### **Depth II.7**
-
-Unions and employers both compress labor markets from opposing slices. Both can be right about their slice. Public leadership that picks one slice as the economy will be distrusted by the other half before the sentence ends. Labor communication needs the same two-clock discipline as macro communication.
-
-### **Depth II.8**
-
-Charitable sectors see economic stress early: food banks, mutual aid, church basements. Their metrics are not GDP. Their metrics are queue length. When queues grow while headlines improve, credibility relocates to charity's ledger. That relocation is a democratic signal about distribution, not about virtue.
-
-### **Depth II.9**
-
-Technologists promise transparency through dashboards. Dashboards are compressions too. A mayor's open-data portal can dazzle and still omit the renter's renewal. Transparency without narrative translation is another specialist genre the public cannot afford to learn.
-
-### **Depth II.10**
-
-The conclusion returns to meaning. Democracies do not only need growth. They need shared meaning about growth. Meaning frays when compressions fight. Meaning repairs when leaders map slices in public, repeatedly, without requiring the public to trust the map before trusting the mapper.
-
-### **Depth II.11**
-
-A leader who says 'the economy is strong' without saying 'for whom, where, and at what cost' is not lying about the aggregate. The leader is choosing a compression that will be heard as signaling by everyone excluded from the pronoun 'we.' The fix is not to ban strength language. It is to spend words on tails before opponents spend words on betrayal.
-
-### **Depth II.12**
-
-Journalists face the same compression incentives as officials: deadlines, headlines, engagement. The most credible economic stories in this era often come from reporters who lead with a slice—a plant, a county, a household—and only then introduce the national print as context. Inversion of the usual order is not bias. It is accuracy about what audiences will cross-check first.
-<!-- bulk-depth-pass-3 -->
-## **Depth pass III**
-
-### **Depth III.1**
-
-If this book accomplishes one practical thing, let it be this: the next time you hear an economic headline, pause on the pronoun 'we.' Ask which households are inside it and which are outside. That pause is not cynicism. It is the beginning of dimensional honesty in a system that cannot be spoken without compression—but can be spoken without substitution.
-
-### **Depth III.2**
-
-Leaders should treat economic communication as a sequence of trust deposits and withdrawals. Confidence without slice recognition is a withdrawal. Revision without context is a withdrawal. Pairing national improvement with local persistence is a deposit. Deposits compound slowly. Withdrawals clear the account in one clip.
-
-### **Depth III.3**
-
-The economy we argue about will remain thinner than the economy we experience. That is not a problem to solve with more shouting. It is a constraint to design around—with bilingual speech, with two clocks, with restraint from certainty theater, and with courage to name tails before resonance names them for you.
-
-### **Depth III.4**
-
-If this book accomplishes one practical thing, let it be this: the next time you hear an economic headline, pause on the pronoun 'we.' Ask which households are inside it and which are outside. That pause is not cynicism. It is the beginning of dimensional honesty in a system that cannot be spoken without compression—but can be spoken without substitution.
-
-### **Depth III.5**
-
-Leaders should treat economic communication as a sequence of trust deposits and withdrawals. Confidence without slice recognition is a withdrawal. Revision without context is a withdrawal. Pairing national improvement with local persistence is a deposit. Deposits compound slowly. Withdrawals clear the account in one clip.
-
-### **Depth III.6**
-
-The economy we argue about will remain thinner than the economy we experience. That is not a problem to solve with more shouting. It is a constraint to design around—with bilingual speech, with two clocks, with restraint from certainty theater, and with courage to name tails before resonance names them for you.
-
+[^c1-bls-jobs]: U.S. Bureau of Labor Statistics, Employment Situation news releases (sampling, revisions, and sector detail), 2020–2024. https://www.bls.gov/news.release/empsit.nr0.htm
