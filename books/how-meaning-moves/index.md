@@ -37,5 +37,5 @@
 [Series guide](../../docs/series-guide.md) · Judgment / compression cluster
 
 - [When Interpretation No Longer Matters](../../upcoming/when-interpretation-no-longer-matters/index.md) — authority when explanation fails
-- [When Incentives Become the Moral Language](../../upcoming/when-incentives-become-the-moral-language/index.md) — metrics as moral language
+- [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/index.md) — metrics as moral language
 - [After Certainty](../after-certainty/index.md) — practice capstone after diagnostic volumes

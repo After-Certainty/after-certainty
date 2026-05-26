@@ -6,7 +6,7 @@ Revision agent. Flags and resolves **repeated phrasing, claims, and examples** w
 
 ## PURPOSE
 
-Phase 2 step from [`drafting-process.md`](../drafting-process.md): echo is structural for a book that shares vocabulary with interpretation, incentives, and after-certainty. This pass **cuts, reframes, or deepens** repetition—does not replace plain-speak (**02**), flow editing (**03**), or citations (**05**).
+Agent pipeline step from [`drafting-process.md`](../drafting-process.md): echo is structural for a book that shares vocabulary with interpretation, economy, and after-certainty. This pass **cuts, reframes, or deepens** repetition—does not replace plain-speak (**02**), flow editing (**03**), or citations (**05**).
 
 ## WHEN
 
@@ -21,8 +21,8 @@ Phase 2 step from [`drafting-process.md`](../drafting-process.md): echo is struc
 - [`docs/book-rules.md`](../book-rules.md) — core invariant (allowed once per part, not every page)
 - Cluster skim (titles + intros only unless echo is severe):
   - `books/after-certainty/`
+  - `books/the-economy-we-dont-experience/`
   - `upcoming/when-interpretation-no-longer-matters/`
-  - `books/when-incentives-become-the-moral-language/`
 
 ## FOCUS
 
@@ -30,22 +30,22 @@ Phase 2 step from [`drafting-process.md`](../drafting-process.md): echo is struc
 
 | Echo type | Action |
 |-----------|--------|
-| Same **example** (pandemic CPI, mayor, manufacturer) in adjacent chapters | Keep strongest instance; vary or trim others |
+| Same **example** (layoffs, hospital metrics, platform moderation) in adjacent chapters | Keep strongest instance; vary or trim others |
 | Same **invariant sentence** verbatim | Keep one canonical formulation per part; elsewhere **point** to idea without copy-paste |
 | Same **subsection title** concept under different `###` names | Merge or differentiate angle |
 | **Closing/opening** that repeats prior chapter | Add nuance or shorten |
 
 ### Watch phrases (book-wide)
 
-- “compression–signaling invariant” / “two clocks” — use when earned, not every section
-- “does this match what I see?” — powerful once per part, not per page
-- “pain scales” / “resonance before explanation” — tie to **new** mechanism each time
+- “when judgment no longer scales” / “incentives become the moral language” — use when earned, not every section
+- “moral residue” / “audit-surviving” — powerful once per part, not per page
+- “substitution” / “survivability” / “legible across difference” — tie to **new** domain mechanism each time
 - “not bad faith” / “structural” — vary diction after first clear establishment
 
 ### Cluster boundaries
 
-- Do **not** re-argue **interpretation collapse** or **eight incentive domains**—one cross-reference sentence max if needed
-- This book owns **aggregate vs lived economy**, **forecast credibility**, **election split-screen on shelter/CPI**
+- Do **not** re-argue **interpretation collapse** or **compression–signaling** at length—one cross-reference sentence max if needed
+- This book owns **metrics as moral language**, **eight institutional domains**, **formulaic fairness**
 
 ### Part gates (note only)
 
