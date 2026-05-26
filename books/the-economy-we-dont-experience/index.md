@@ -34,3 +34,4 @@
 
 - [Conclusion — Leadership After Explanation Stops Scaling](back-matter/conclusion-leadership-after-explanation-stops-scaling.md)
 - [Appendix A — Why "Just Tell the Truth" Isn't a Strategy](back-matter/appendix-a-why-just-tell-the-truth.md)
+- [Bibliography](back-matter/bibliography.md)

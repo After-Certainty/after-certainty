@@ -8,7 +8,8 @@ Architectural constraints for **The Economy We Don't Experience** (*Leadership, 
 
 ### Target length
 
-- Essay book (~50–70k words at completion; current scaffold ~1.1k)
+- **This edition:** ~28–32k words (intro + 8 chapters + conclusion; appendix separate)
+- **Long-term band (optional future edition):** toward ~50–70k if the manuscript grows into a fuller treatment
 - 4 parts, 8 chapters, appendix
 
 ## Core invariant (non-negotiable)
@@ -27,7 +28,7 @@ Architectural constraints for **The Economy We Don't Experience** (*Leadership, 
 ### This book must not be
 
 - Macroeconomic textbook
-- “Both sides” false balance
+- "Both sides" false balance
 - Communication tips without structural diagnosis
 
 ### This book must be
@@ -38,7 +39,7 @@ Architectural constraints for **The Economy We Don't Experience** (*Leadership, 
 
 ## Outline-stage rules
 
-Chapters use bullet beats and “Core idea” lines. Expand each beat to a full section in prose; preserve one core idea per chapter as the pull-through line.
+Chapters use bullet beats and "Core idea" lines. Expand each beat to a full section in prose; preserve one core idea per chapter as the pull-through line.
 
 ## Key docs
 

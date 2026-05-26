@@ -38,6 +38,7 @@ There is no single mandatory order. The table below groups books by **question**
 | How do I live and judge when understanding is not enough? | [After Certainty](../books/after-certainty/index.md) |
 | How did moral order harden before certainty broke? | [Before Certainty Arrives](../books/before-certainty-arrives/index.md) |
 | When does legitimacy survive harm without renewal? | [When Accountability No Longer Expires](../books/when-accountability-no-longer-expires/index.md) |
+| When do economic narratives lose credibility? | [The Economy We Don't Experience](../books/the-economy-we-dont-experience/index.md) |
 
 **WOLTY editions:** Read **v1** first for the integrated field guide (harm, effectiveness, legitimacy). Use **v2** as a pattern-level companion, not a replacement.
 
@@ -52,7 +53,6 @@ Not yet in the public export pipeline. Word counts are essay-scale unless noted.
 | When does interpretation stop coordinating authority? | [When Interpretation No Longer Matters](../upcoming/when-interpretation-no-longer-matters/index.md) | Phase 4 — author read |
 | When do incentives replace judgment? | [When Incentives Become the Moral Language](../upcoming/when-incentives-become-the-moral-language/index.md) | Phase 2 |
 | Why is collaboration structurally hard? | [Why Collaboration Is So Hard](../upcoming/why-collaboration-is-so-hard/index.md) | Phase 2 |
-| When do economic narratives lose credibility? | [The Economy We Don't Experience](../upcoming/the-economy-we-dont-experience/index.md) | Phase 2 |
 | How is uncertainty a discipline, not paralysis? | [The Discipline of Uncertainty](../books/the-discipline-of-uncertainty/index.md) | Published (essay-scale) |
 
 ### Disambiguation (high-overlap pairs)

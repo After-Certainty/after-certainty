@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-05-21T05:37:02.476925+00:00",
+  "generatedAt": "2026-05-26T02:30:28.215503+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
@@ -18,6 +18,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/book-cover.png",
       "coverImagePath": "books/after-certainty/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/open-graph.png",
+      "openGraphImagePath": "books/after-certainty/open-graph.png",
       "bookDir": "books/after-certainty",
       "docx": {
         "enabled": true,
@@ -48,6 +50,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/book-cover.png",
       "coverImagePath": "books/before-certainty-arrives/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/open-graph.png",
+      "openGraphImagePath": "books/before-certainty-arrives/open-graph.png",
       "bookDir": "books/before-certainty-arrives",
       "docx": {
         "enabled": true,
@@ -66,6 +70,38 @@
       }
     },
     {
+      "slug": "boundary-conditions",
+      "source": "books",
+      "status": "published",
+      "title": "Boundary Conditions",
+      "subtitle": "A Literary Organizational Fiction Novel",
+      "description": "Organizational fiction about invisible coordination work, authorization boundaries, and the cost of becoming indispensable inside complex systems.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/boundary-conditions/book-cover.png",
+      "coverImagePath": "books/boundary-conditions/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/boundary-conditions/open-graph.png",
+      "openGraphImagePath": "books/boundary-conditions/open-graph.png",
+      "bookDir": "books/boundary-conditions",
+      "docx": {
+        "enabled": true,
+        "file": "boundary-conditions.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/boundary-conditions.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "boundary-conditions.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/boundary-conditions.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "boundary-conditions.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/boundary-conditions.pdf"
+      }
+    },
+    {
       "slug": "coupling",
       "source": "books",
       "status": "published",
@@ -78,6 +114,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/coupling/BookCover.png",
       "coverImagePath": "books/coupling/BookCover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/coupling/open-graph.png",
+      "openGraphImagePath": "books/coupling/open-graph.png",
       "bookDir": "books/coupling",
       "docx": {
         "enabled": true,
@@ -108,6 +146,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/curiosity-before-certainty/book-cover.png",
       "coverImagePath": "books/curiosity-before-certainty/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/curiosity-before-certainty/open-graph.png",
+      "openGraphImagePath": "books/curiosity-before-certainty/open-graph.png",
       "bookDir": "books/curiosity-before-certainty",
       "docx": {
         "enabled": true,
@@ -138,6 +178,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-meaning-moves/BookCover.png",
       "coverImagePath": "books/how-meaning-moves/BookCover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-meaning-moves/open-graph.png",
+      "openGraphImagePath": "books/how-meaning-moves/open-graph.png",
       "bookDir": "books/how-meaning-moves",
       "docx": {
         "enabled": true,
@@ -168,6 +210,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-serious-systems-learn/book-cover.png",
       "coverImagePath": "books/how-serious-systems-learn/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-serious-systems-learn/open-graph.png",
+      "openGraphImagePath": "books/how-serious-systems-learn/open-graph.png",
       "bookDir": "books/how-serious-systems-learn",
       "docx": {
         "enabled": true,
@@ -198,6 +242,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-discipline-of-uncertainty/book-cover.png",
       "coverImagePath": "books/the-discipline-of-uncertainty/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-discipline-of-uncertainty/open-graph.png",
+      "openGraphImagePath": "books/the-discipline-of-uncertainty/open-graph.png",
       "bookDir": "books/the-discipline-of-uncertainty",
       "docx": {
         "enabled": true,
@@ -217,32 +263,34 @@
     },
     {
       "slug": "the-economy-we-dont-experience",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "The Economy We Don't Experience",
       "subtitle": "Leadership, Communication, and the Credibility Crisis in Economics and Politics",
-      "description": "How economic narratives gain and lose credibility\u2014and how leaders communicate when expert authority meets political pressure.",
+      "description": "Expanded edition (~28\u201332k words) on the gap between aggregate economic speech and lived experience\u2014compression, signaling, and leadership under interpretive stress. Distinct from When Interpretation No Longer Matters (authority without shared meaning) and When Incentives Become the Moral Language (metrics replacing judgment).",
       "authors": [
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/the-economy-we-dont-experience/book-cover.png",
-      "coverImagePath": "upcoming/the-economy-we-dont-experience/book-cover.png",
-      "bookDir": "upcoming/the-economy-we-dont-experience",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-economy-we-dont-experience/book-cover.png",
+      "coverImagePath": "books/the-economy-we-dont-experience/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-economy-we-dont-experience/open-graph.png",
+      "openGraphImagePath": "books/the-economy-we-dont-experience/open-graph.png",
+      "bookDir": "books/the-economy-we-dont-experience",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "the-economy-we-dont-experience.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-economy-we-dont-experience.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "the-economy-we-dont-experience.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-economy-we-dont-experience.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "the-economy-we-dont-experience.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-economy-we-dont-experience.pdf"
       }
     },
     {
@@ -258,6 +306,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/velorum/book-cover.png",
       "coverImagePath": "upcoming/velorum/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/velorum/open-graph.png",
+      "openGraphImagePath": "upcoming/velorum/open-graph.png",
       "bookDir": "upcoming/velorum",
       "docx": {
         "enabled": false,
@@ -288,6 +338,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-accountability-no-longer-expires/book-cover.png",
       "coverImagePath": "books/when-accountability-no-longer-expires/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-accountability-no-longer-expires/open-graph.png",
+      "openGraphImagePath": "books/when-accountability-no-longer-expires/open-graph.png",
       "bookDir": "books/when-accountability-no-longer-expires",
       "docx": {
         "enabled": true,
@@ -318,6 +370,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-authority-is-misread/book-cover.png",
       "coverImagePath": "books/when-authority-is-misread/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-authority-is-misread/open-graph.png",
+      "openGraphImagePath": "books/when-authority-is-misread/open-graph.png",
       "bookDir": "books/when-authority-is-misread",
       "docx": {
         "enabled": true,
@@ -348,6 +402,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-authority-outlives-accountability/book-cover.png",
       "coverImagePath": "books/when-authority-outlives-accountability/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-authority-outlives-accountability/open-graph.png",
+      "openGraphImagePath": "books/when-authority-outlives-accountability/open-graph.png",
       "bookDir": "books/when-authority-outlives-accountability",
       "docx": {
         "enabled": true,
@@ -378,6 +434,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-incentives-become-the-moral-language/book-cover.png",
       "coverImagePath": "upcoming/when-incentives-become-the-moral-language/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-incentives-become-the-moral-language/open-graph.png",
+      "openGraphImagePath": "upcoming/when-incentives-become-the-moral-language/open-graph.png",
       "bookDir": "upcoming/when-incentives-become-the-moral-language",
       "docx": {
         "enabled": false,
@@ -408,6 +466,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-interpretation-no-longer-matters/book-cover.png",
       "coverImagePath": "upcoming/when-interpretation-no-longer-matters/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-interpretation-no-longer-matters/open-graph.png",
+      "openGraphImagePath": "upcoming/when-interpretation-no-longer-matters/open-graph.png",
       "bookDir": "upcoming/when-interpretation-no-longer-matters",
       "docx": {
         "enabled": false,
@@ -438,6 +498,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-moral-seriousness-scales/book-cover.png",
       "coverImagePath": "books/when-moral-seriousness-scales/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-moral-seriousness-scales/open-graph.png",
+      "openGraphImagePath": "books/when-moral-seriousness-scales/open-graph.png",
       "bookDir": "books/when-moral-seriousness-scales",
       "docx": {
         "enabled": true,
@@ -468,6 +530,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v1/BookCover.png",
       "coverImagePath": "books/when-others-look-to-you/v1/BookCover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v1/open-graph.png",
+      "openGraphImagePath": "books/when-others-look-to-you/v1/open-graph.png",
       "bookDir": "books/when-others-look-to-you/v1",
       "docx": {
         "enabled": true,
@@ -504,6 +568,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v2/BookCover.png",
       "coverImagePath": "books/when-others-look-to-you/v2/BookCover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v2/open-graph.png",
+      "openGraphImagePath": "books/when-others-look-to-you/v2/open-graph.png",
       "bookDir": "books/when-others-look-to-you/v2",
       "docx": {
         "enabled": true,
@@ -535,6 +601,8 @@
       "year": 2026,
       "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/why-collaboration-is-so-hard/book-cover.png",
       "coverImagePath": "upcoming/why-collaboration-is-so-hard/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/why-collaboration-is-so-hard/open-graph.png",
+      "openGraphImagePath": "upcoming/why-collaboration-is-so-hard/open-graph.png",
       "bookDir": "upcoming/why-collaboration-is-so-hard",
       "docx": {
         "enabled": false,

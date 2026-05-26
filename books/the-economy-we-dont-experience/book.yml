@@ -1,15 +1,16 @@
 version: 1
 
-upcoming:
-  status: in_progress
+publishing:
+  enabled: true
 
 book:
   id: the-economy-we-dont-experience
   title: "The Economy We Don't Experience"
   subtitle: "Leadership, Communication, and the Credibility Crisis in Economics and Politics"
-  description: "How economic narratives gain and lose credibility—and how leaders communicate when expert authority meets political pressure."
+  description: "Expanded edition (~28–32k words) on the gap between aggregate economic speech and lived experience—compression, signaling, and leadership under interpretive stress. Distinct from When Interpretation No Longer Matters (authority without shared meaning) and When Incentives Become the Moral Language (metrics replacing judgment)."
   author:
     name: "Kevin Steffensen"
+    website: "https://after-certainty.com"
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
@@ -32,8 +33,16 @@ frontmatter:
 build:
   formats:
     docx:
-      enabled: false
+      enabled: true
     epub:
-      enabled: false
+      enabled: true
     pdf:
-      enabled: false
+      enabled: true
+
+github:
+  release: true
+  release_tag: "latest"
+  artifacts:
+    - docx
+    - epub
+    - pdf

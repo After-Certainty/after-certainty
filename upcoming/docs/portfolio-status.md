@@ -1,6 +1,6 @@
 # Upcoming nonfiction — portfolio status
 
-Dashboard for five nonfiction manuscripts under `upcoming/`. Fiction titles use a separate track (below). Three Tier A nonfiction titles were promoted to `books/` in Pass 4 and no longer live under `upcoming/`.
+Dashboard for four nonfiction manuscripts under `upcoming/`. Fiction titles use a separate track (below). Tier A nonfiction titles and *The Economy We Don't Experience* were promoted to `books/` and no longer live under `upcoming/`.
 
 **Refresh rule:** When a book's `docs/status.md` changes phase or next actions materially, update the relevant table in the same PR (nonfiction rows here; fiction rows in **Upcoming fiction**).
 
@@ -15,7 +15,6 @@ Dashboard for five nonfiction manuscripts under `upcoming/`. Fiction titles use 
 | [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/) | Phase 4 complete | ~13.4k words; Parts I–IV cohesion; glossary + footnotes Ch 1–13 | Author read-through Parts III–IV; expansion band decision | [status](../when-interpretation-no-longer-matters/docs/status.md) |
 | [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/) | Phase 2 complete | ~8.4k words; intro + 8 domain chapters; Ch 1–2 anchor footnotes | Phase 3 part gate; author read-through Ch 3–8 | [status](../when-incentives-become-the-moral-language/docs/status.md) |
 | [Why Collaboration Is So Hard](../why-collaboration-is-so-hard/) | Phase 2 — Part I complete | ~10.8k words; front matter + Part I depth pass | Part I author read-through; Phase 2 Parts II–IV | [status](../why-collaboration-is-so-hard/docs/status.md) |
-| [The Economy We Don't Experience](../the-economy-we-dont-experience/) | Phase 2 in progress | ~7.4k words; intro + Ch 1–8 + conclusion; compression frame | Part I author read-through; Ch 2–3 footnote verify | [status](../the-economy-we-dont-experience/docs/status.md) |
 
 ## Upcoming fiction
 
@@ -25,7 +24,7 @@ Not part of the nonfiction editorial passes or judgment/alignment/compression cl
 |------|-------|------------------|-------------|--------|
 | [Velorum](../velorum/) | In progress | Mythic fantasy; Act I chapters drafted; voice/continuity specs under `velorum/docs/` | Act I continuity + chapter pipeline per [`agents/README`](../velorum/docs/agents/README.md) | [project spec](../velorum/docs/project-spec.md) |
 
-*Boundary Conditions promoted to [`books/boundary-conditions/`](../../books/boundary-conditions/) and The Discipline of Uncertainty promoted to [`books/the-discipline-of-uncertainty/`](../../books/the-discipline-of-uncertainty/) — see each book's `docs/status.md`.*
+*Boundary Conditions promoted to [`books/boundary-conditions/`](../../books/boundary-conditions/) · The Discipline of Uncertainty to [`books/the-discipline-of-uncertainty/`](../../books/the-discipline-of-uncertainty/) · The Economy We Don't Experience to [`books/the-economy-we-dont-experience/`](../../books/the-economy-we-dont-experience/) — see each book's `docs/status.md`.*
 
 ## Judgment / alignment / compression cluster
 
@@ -35,7 +34,7 @@ These four upcoming titles share vocabulary (compression, alignment, judgment) b
 |------|-----------------|
 | [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/) | Authority types when public understanding collapses |
 | [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/) | Eight domains where metrics replaced judgment |
-| [The Economy We Don't Experience](../the-economy-we-dont-experience/) | Lived economy vs aggregate narrative; credibility under pressure |
+| [The Economy We Don't Experience](../../books/the-economy-we-dont-experience/) | Lived economy vs aggregate narrative; credibility under pressure (published) |
 | [After Certainty](../../books/after-certainty/) | Practice capstone—how to live and judge after frameworks fail (published) |
 
 Echo checks: interpretation Part III–IV pass docs; incentives interlude; economy compression invariant.
