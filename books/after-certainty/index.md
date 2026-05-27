@@ -42,6 +42,6 @@
 
 [Series guide](../../docs/series-guide.md) · Capstone (read after diagnostic volumes)
 
-- [When Interpretation No Longer Matters](../../upcoming/when-interpretation-no-longer-matters/index.md)
+- [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/index.md)
 - [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/index.md)
 - [Before Certainty Arrives](../before-certainty-arrives/index.md) · [When Accountability No Longer Expires](../when-accountability-no-longer-expires/index.md)

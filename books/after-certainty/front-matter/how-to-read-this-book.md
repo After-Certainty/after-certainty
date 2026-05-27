@@ -2,7 +2,7 @@
 
 This is a capstone essay, not the place to begin the series.
 
-If you want the full argument, read it after the more diagnostic books—especially [*When Interpretation No Longer Matters*](../../upcoming/when-interpretation-no-longer-matters/index.md) and [*When Incentives Become the Moral Language*](../when-incentives-become-the-moral-language/index.md). This book assumes you already recognize the problems those books describe. It does not try to re-argue them from the beginning.
+If you want the full argument, read it after the more diagnostic books—especially [*When Interpretation No Longer Matters*](../when-interpretation-no-longer-matters/index.md) and [*When Incentives Become the Moral Language*](../when-incentives-become-the-moral-language/index.md). This book assumes you already recognize the problems those books describe. It does not try to re-argue them from the beginning.
 
 This book is less concerned with diagnosis than with practice. It asks what remains once familiar stabilizers begin drifting under pressure:
 

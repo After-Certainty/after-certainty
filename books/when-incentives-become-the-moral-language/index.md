@@ -40,6 +40,6 @@
 
 [Series guide](../../docs/series-guide.md) · Judgment / compression cluster
 
-- [When Interpretation No Longer Matters](../../upcoming/when-interpretation-no-longer-matters/index.md) — authority without shared meaning
+- [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/index.md) — authority without shared meaning
 - [The Economy We Don't Experience](../the-economy-we-dont-experience/index.md) — lived economy vs aggregate narrative
 - [After Certainty](../after-certainty/index.md) — practice capstone after diagnostic volumes

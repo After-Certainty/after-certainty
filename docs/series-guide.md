@@ -28,7 +28,7 @@ For readers building the full argument (conceptual, not prescriptive):
 
 1. **[Before Certainty Arrives](../books/before-certainty-arrives/index.md)** — how moral order hardened before certainty felt excessive  
 2. **[When Accountability No Longer Expires](../books/when-accountability-no-longer-expires/index.md)** — institutions that survive harm  
-3. **[When Interpretation No Longer Matters](../upcoming/when-interpretation-no-longer-matters/index.md)** — when explanation stops working  
+3. **[When Interpretation No Longer Matters](../books/when-interpretation-no-longer-matters/index.md)** — when explanation stops working  
 4. **[When Incentives Become the Moral Language](../books/when-incentives-become-the-moral-language/index.md)** — metrics replace judgment  
 5. **[The Economy We Don't Experience](../books/the-economy-we-dont-experience/index.md)** — compression in public economic speech (published ~28–32k edition)  
 6. **[Why Collaboration Is So Hard](../upcoming/why-collaboration-is-so-hard/index.md)** — coordination without full ownership  
@@ -79,14 +79,14 @@ Echo checks: interpretation Part III–IV pass docs; incentives interlude; econo
 
 **When Authority Outlives Accountability** (published) is a **leadership lens**: how authority can persist after accountability erodes, and what moral leadership requires to restore integrity in that gap—evaluation at human scale.
 
-**When Accountability No Longer Expires** (upcoming) is an **institutional lens**: why legitimate authority can persist after harm, and how organizations learn to survive scandal **without resolving it**—memory, correction, and persistence, not leader biography or villain framing.
+**When Accountability No Longer Expires** (published) is an **institutional lens**: why legitimate authority can persist after harm, and how organizations learn to survive scandal **without resolving it**—memory, correction, and persistence, not leader biography or villain framing.
 
 Read authority-outlives for **leaders you are judging**; read accountability-no-longer-expires for **institutions you are trying to understand**.
 
 ### When Authority Is Misread vs When Interpretation No Longer Matters
 
 **Misread** (published): confidence mistaken for legitimacy at scale.  
-**Interpretation** (upcoming): what kinds of authority remain when explanation and repair no longer work.
+**Interpretation** (published): what kinds of authority remain when explanation and repair no longer work.
 
 ### Why Collaboration Is So Hard vs Coupling
 
