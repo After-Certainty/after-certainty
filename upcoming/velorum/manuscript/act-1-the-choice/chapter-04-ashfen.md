@@ -91,7 +91,7 @@ Riven knelt beside him without being asked, eyes on water that didn't move like 
 
 "Don't what?"
 
-"Don't make it a sermon."
+"Don't make it a fucking sermon."
 
 Riven's laugh came out broken. "I'm not the one who treats weird like a personal insult."
 
@@ -110,7 +110,7 @@ Riven stood too, pack shifting, jaw set. "Say it."
 "That you see it."
 
 Cael looked at the seep, at the slow rings finally dying, at the rock above them where nothing grew except a hairline crack that ran too straight for comfort. He flexed his hands once, blood back into the knuckles, then let them hang.
-"We're not on a harbor road," he said carefully. "Loose stone, bad wind. Two men who quit treating the hill like a bedtime story."
+"We're not on a harbor road," he said carefully. "Loose stone, bad wind. Two men who quit treating the hill like a bullshit bedtime story."
 
 Riven stared at him, fingers gone white on the pack strap. "That's not an answer."
 
@@ -118,7 +118,7 @@ Riven stared at him, fingers gone white on the pack strap. "That's not an answer
 
 Riven's eyes flashed. "I'm not turning around."
 
-"Then quit asking me to name ghosts."
+"Then quit asking me to name fucking ghosts."
 
 They walked.
 
@@ -134,7 +134,7 @@ Riven halted a step later, hands on his thighs, head down. Water dripped from hi
 
 "I need you to stop talking like I'm a horse."
 
-"You need rest," Cael repeated, flat. "We take ten minutes. We eat. We don't stand on the edge like idiots."
+"You need rest," Cael repeated, flat. "We take ten minutes. We eat. We don't stand on the edge like fucking idiots."
 
 Riven sat first and rubbed both hands over his face before taking the bread.
 
@@ -160,7 +160,7 @@ Cael nodded once. "We're close."
 
 The question hung. Cael tipped his chin toward the next rise, where the rock looked paler, almost bleached. The wind seemed to avoid it wrong; he couldn't have said how, until unease hooked under his ribs and wouldn't leave. "Pamphlet calls the site the Ashring, the summit bowl, rings cut in rock, same drawing as the fold-out, only now we're looking at the real thing," he said, the words tasting like swallowing metal too. "Same block print still squeezes First Circle in the margin. Same pages slap a name on whatever's supposed to be out here, Velorum, like a title on cheap ink. Could be garbage. Could be a ring of stones and a story."
 
-"And if it's not garbage?"
+"And if it's not garbage, then what the hell is it?"
 
 Cael met Riven's eyes. "Then we find out what not-garbage feels like."
 

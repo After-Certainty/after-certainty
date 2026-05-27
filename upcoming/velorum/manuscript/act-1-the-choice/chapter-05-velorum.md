@@ -4,7 +4,7 @@ The stone under Riven's boots wasn't cold anymore. It was wrong-warm, like breat
 
 Cael's hand still clamped Riven's, hard enough to hurt, hard enough to be real. "You're crushing my hand," Riven said, voice too thin. "Let go."
 
-"No," Cael said, not mean, not kind, just certain as a hammer.
+"No," Cael said, not mean, not kind, just certain as a hammer strike.
 
 The rings weren't decoration—channels cut deep enough that wind should've whistled and didn't. Sound fell away until Riven's pulse filled his skull: too loud, then thin, then loud again, with no fixed place to blame it. Past the carved lip the hills lay too far below to hear; the bowl felt cut off, its own small weather.
 
@@ -16,7 +16,7 @@ When Riven tried to step back, his boot lifted half an inch and stuck, not glue,
 
 "I'm not doing a damn thing," Riven said.
 
-"You're fighting it," Cael said.
+"You're fighting it like hell," Cael said.
 
 "There's nothing to fight," Riven shot back. Even as he said it, the lie tasted like the seep water, metal and wrong.
 
@@ -68,7 +68,7 @@ A warning slid through him, not words, not exactly. His gut dropped, and then it
 
 Cael's voice went flat. Calm. Wrong beat for the place.
 
-"Truth."
+"Truth. Brutal fucking truth."
 
 "Truth," Riven said again, and swallowed the noise that wanted out after it.
 
@@ -98,7 +98,7 @@ The center of the rings wasn't empty to him anymore, though nothing had appeared
 
 Velorum rose in him again, his thoughts insisting, helpless. He hated that too. Cael drew breath like he was stepping into a fight he couldn't walk away from, and Riven heard the inhale go shallow, wrong. Cael's shoulders squared.
 
-"If we're where the stories pointed," Cael said, voice rough but clear, "we didn't come for glory. We came to hold."
+"If we're where the stories pointed," Cael said, voice rough but clear, "we didn't come for glory. We came to hold, no matter how fucked this gets."
 
 Riven stared at him.
 
@@ -108,7 +108,7 @@ Riven stared at him.
 
 "That's not a plan," Riven said.
 
-"It's enough," Cael said.
+"It's enough," Cael said. "Has to be."
 
 The presence leaned in. Riven's skin lifted all over. His heart hammered, then steadied again into that off-kilter double beat. Cael lifted his free hand, palm out toward the center, not high, not theatrical, the same gesture Cael had used in the yard when he was trying to keep a fight from starting—small against the width of carved stone, stubborn anyway.
 

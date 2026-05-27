@@ -39,7 +39,7 @@ Riven crouched by the nearest captive and tightened the knot until the man hisse
 
 The man spat near his boots and said nothing.
 
-Cael stood and addressed the road crowd like he had been doing it for years. "You travel as one line. No wagon breaks. No one pisses alone. If anyone falls behind, everyone stops."
+Cael stood and addressed the road crowd like he had been doing it for years. "You travel as one line. No wagon breaks. No one pisses alone. If anyone falls behind, everyone fucking stops."
 
 It was an ugly rule and everyone knew it. Nobody argued.
 
@@ -85,7 +85,7 @@ By the time they peeled off to make speed toward Kestrel Gate, the caravan line 
 
 The road climbed as soon as they left the wagons behind. Wind moved over the stone and carried old smoke from somewhere ahead. Afternoon light flattened the ridge into long gray planes, with only the far switchbacks catching gold. Below them, wagon lanterns blinked in and out between turns like slow fireflies caught in ruts.
 
-"This is what we asked for," Cael said.
+"This is what we asked for," Cael said. "No excuses now."
 He rolled his shoulder once like he was trying to loosen something that wasn't muscle.
 
 Riven looked out over the ridge line. "Power?"
@@ -126,7 +126,7 @@ Riven felt Cael's fatigue then, deep in shoulders and lower back where the fight
 
 When the line finally started moving again, the father from earlier raised a hand in rough salute and called down the road, "Gate's lucky you're ahead of us."
 
-Riven muttered, too low for anyone but Cael, "Lucky for who."
+Riven muttered, too low for anyone but Cael, "Lucky for who, exactly."
 
 Cael heard him anyway, like always.
 

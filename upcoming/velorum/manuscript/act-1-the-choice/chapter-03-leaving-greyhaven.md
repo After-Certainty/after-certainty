@@ -23,7 +23,7 @@ Cael came up from the yard with cold air clinging to his coat, cheeks flushed, h
 
 "I wasn't planning to stop for singers."
 
-"You were planning to stop for anything that looked like a reason."
+"You were planning to stop for any damned thing that looked like a reason."
 
 Riven's jaw tightened. "Say that again."
 
@@ -123,7 +123,7 @@ The road narrowed. Trees started in patches, thin and resentful, roots grabbing 
 
 Riven swallowed. The inn board was a joke until it wasn't, names in chalk, shifts, who owed what, who'd been seen leaving with a pack. Not ledgers. Lists.
 
-"The empty harbor won't leave me alone," Riven said, and hated that it came out quieter than he meant. "Same dusk on wet planks, crews gone, nobody left to swear who shifted what."
+"The empty harbor won't leave me alone," Riven said, and hated that it came out quieter than he meant. "Same fucking dusk on wet planks, crews gone, nobody left to swear who shifted what."
 
 Cael's shoulders tightened, barely, then loosened. "I know."
 
@@ -131,7 +131,7 @@ Cael's shoulders tightened, barely, then loosened. "I know."
 
 Cael walked another ten paces before he answered; Riven could almost hear him choosing words the way he chose lumber, rejecting the warped ones first.
 
-"We're not hauling for someone else's tally," Cael said. "We're listening for what they didn't print in the verses."
+"We're not hauling for someone else's tally," Cael said. "We're listening for what they didn't print in those bullshit verses."
 
 Riven's mouth twisted. "That's a line."
 

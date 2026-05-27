@@ -23,7 +23,7 @@ It took an hour to clear half a mile of road. Nobody thanked them directly. Peop
 
 At the end of the line, a brewer's cart had lost one rear wheel pin and listed hard toward the ditch. Cael knelt in muck to inspect the hub while the brewer held a lantern close and swore under his breath.
 
-"You keep moving like that and you'll shear the axle," Cael said.
+"You keep moving like that and you'll shear the axle," Cael said. "Then you're fucked."
 
 "I keep moving like that or I lose the shipment," the brewer answered.
 
@@ -48,7 +48,7 @@ At a roadside shrine built from stacked black stone, they stopped for water. Old
 Riven stood beside him and stared too long at the knot. "People make everything into a story."
 
 "Stories keep people moving," Cael said.
-"Stories get people killed," Riven said.
+"Stories get people fucking killed," Riven said.
 
 Cael took a drink, then passed the skin back. "Only if nobody knows what the story costs."
 
@@ -127,7 +127,7 @@ None of it was dramatic. It still took an hour, and by the time they finally mov
 
 Later, when the camp had gone quiet, Cael sat with his back against a log and watched embers shift. Riven lay in a blanket roll two steps away, facing away from him, not asleep.
 
-"You're leaning into this," Riven said without turning.
+"You're leaning into this hard," Riven said without turning.
 
 "Into what?"
 

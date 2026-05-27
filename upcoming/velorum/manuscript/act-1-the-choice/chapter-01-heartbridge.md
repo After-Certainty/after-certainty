@@ -38,7 +38,7 @@ In front of the joined hands he stopped, a folded pamphlet from Mara's inn press
 
 He rubbed at the page until the ink blurred, then reached out toward the carved knot of hands and stopped. His fingers hovered an inch from the stone, open in the air, close enough to feel the cold waiting there.
 
-"That's gross," said a voice behind him.
+"That's fucking gross," said a voice behind him.
 
 When he turned, Cael stood a few paces back on the loose stones, his coat heavy in the wind, his stance steady even on the shifting ground, broader through the shoulders and taller by a hand, his dark hair clipped short, his jaw set square in a way that looked deliberate even at rest. His skin showed less wear from sun and salt, and his hands, thick through the knuckles, were clean, no rope bite at the wrists, nails blunt, like he'd scrubbed off someone else's job before he came up the hill. He set each foot before shifting his weight, quiet and certain, and had crossed half the distance without Riven hearing him.
 
@@ -58,7 +58,7 @@ A gull cried overhead, then another answered from lower on the slope.
 
 From the side, he watched Cael read the letters carved into the base, slow and exact, as wind drove grit against their coats. The faces above them hadn't changed; they never did.
 
-"You're sulking," Cael said.
+"You're sulking like hell," Cael said.
 
 "I'm studying."
 
@@ -72,7 +72,7 @@ He let the words sit between them for a moment, then added more quietly, "I keep
 
 Cael didn't answer right away. His eyes stayed on the knot of hands, steady, no blink, while grit kept ticking against his collar.
 
-"In those stories, you can swap the names and it still sells," Riven went on, turning the folded pamphlet slowly in his hand, the paper soft at the creases. "Anchor, Flame, whatever looks clean on the front. After that, they cut."
+"In those stories, you can swap the names and it still sells," Riven went on, turning the folded pamphlet slowly in his hand, the paper soft at the creases. "Anchor, Flame, whatever pretty bullshit prints best on the front. After that, they cut."
 
 Cael stepped closer to the joined hands, stopping at the same invisible line Riven had stopped at, close enough to feel the cold but not quite touching it.
 
@@ -172,7 +172,7 @@ Riven turned toward him, disbelief rising fast. "Beautiful? You weren't there."
 
 Riven shook his head anyway. "That's not ink on a page. That's rope burn, someone else's grip cutting in."
 
-"Could be," Cael said, not arguing it. "Either way, people hang onto that bond story tighter than they hang onto each other. Tighter than the pamphlet they paid for."
+"Could be," Cael said, not arguing it. "Either way, people hang onto that damned bond story tighter than they hang onto each other. Tighter than the pamphlet they paid for."
 
 Riven swallowed, his mouth gone dry. "Say it," he said.
 
@@ -194,7 +194,7 @@ Neither of them moved. The light shifted as the sun slipped behind a bank of clo
 
 The trail pulled his eyes downslope. "They're going to sing that polished version," he said. "About dying together."
 
-"I know."
+"I fucking know."
 
 "It sounds clean," Riven said, his voice tightening, "until you picture ribs crushed together. No air left."
 

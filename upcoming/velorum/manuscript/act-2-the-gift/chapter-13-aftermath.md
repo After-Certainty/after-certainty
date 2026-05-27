@@ -32,7 +32,7 @@ Lyra kept folding cloth. "Enough."
 
 He laughed without humor. "Good civic number."
 
-She stopped folding and met his eyes. "You want a count so you can punish yourself with better math."
+She stopped folding and met his eyes. "You want a count so you can punish yourself with better fucking math."
 
 Riven did not deny it.
 
@@ -80,7 +80,7 @@ When the address ended, the crowd broke into smaller knots of argument and relie
 
 Cael followed thirty steps behind and caught up near a rain barrel tipped on its side.
 
-"You can't agree to that without talking to me," Riven said.
+"You can't agree to that without talking to me first," Riven said.
 
 "I didn't agree. I listened."
 
@@ -94,7 +94,7 @@ Cael scrubbed a hand over his face. He looked older than he had a week ago. "Peo
 
 Riven stepped closer, voice low. "You think if we just force harder, the bond gets kind."
 
-"I think if we do nothing, more people die."
+"I think if we do nothing, more people fucking die."
 
 Riven tightened his grip on the barrel rim until his knuckles blanched, then let go and said the thing he had been avoiding.
 
@@ -116,7 +116,7 @@ Riven stared at the nearest notice until letters blurred.
 
 "He's fast," Cael said beside him.
 
-"At printing himself into the story."
+"At printing himself into the fucking story."
 
 "At giving people a next step."
 

@@ -35,7 +35,7 @@ On the fold-out woodcut the Ashring looked like a stone dish scraped into the cr
 
 "The pamphlet calls a lot of things." Cael hung the rag on its nail and looked past the yard wall. The hills were invisible except where they cut the stars in a thin black line; lower down, mast lamps swayed in tiny arcs over the harbor, and one drunk shout rolled up from the lanes and thinned out before it reached the inn. Wind off the water pushed smoke from the kitchen chimney sideways. It found the gap at his collar and slid down cold against his chest. "North road's already bad this season. Loose gravel on the switchbacks. Two carts last week with wheels cracked like eggshell."
 
-Riven let out a breath that wasn't quite a laugh. "So your plan is we fix the world by walking into a ditch."
+Riven let out a breath that wasn't quite a laugh. "So your plan is we fix the world by walking into a fucked ditch."
 
 He'd had the north road in his head since they came off the Heartbridge path: bad gravel, cold nights, whether they could clear the gate before the inn woke. He kept his eyes off the wall.
 
@@ -46,7 +46,7 @@ Riven exhaled, hard enough to hear. "Tell me where we sleep night one. Then you 
 
 His own line had landed flat. Cael slowed himself the way he did on a roof when a joist groaned under him. Weight settled through both soles. Then he went on. "People keep singing the clean version," he said. "If that's all there is, fine. We come back and we know."
 
-"And if it isn't?"
+"And if it isn't, then what the fuck?"
 
 "Then we know that, too."
 
@@ -110,7 +110,7 @@ Cael waited, boots flat on the swept stone. He didn't shift them. On a crew, whe
 
 "She will." Cael had already counted that cost on the walk down, gravel shifting under his soles, Riven's boots landing a half beat after his steps. "She always does."
 
-The question sat wrong in Riven's throat before he forced it out. "And if we die out there like the song says, ribs and all?"
+The question sat wrong in Riven's throat before he forced it out. "And if we die out there like the song says, ribs and all that fucked-up poetry?"
 
 "Then we die having done something besides watching a singer getting paid to lie." Cael heard the edge creep in and shaved it off, unclamping his teeth before the next words. "I'm not asking you to like it. I'm asking you to quit acting like what we said on the ridge didn't count."
 
@@ -118,7 +118,7 @@ Riven looked at him a long moment. "You think the hill's going to answer you."
 
 "The pamphlet says the ground moved once," Cael said. "Words on cheap paper. Fine. Let it try with two men on it who know loose planks by touch."
 
-Riven shook his head once, tight. "That isn't faith, Cael. That's you pissed enough to call it purpose."
+Riven shook his head once, tight. "That isn't faith, Cael. That's you pissed enough to call it purpose and pretend it's not rage."
 
 Cael flexed his sore knuckle once, then let his hand open. "Faith's not my job. Keeping weight off bad wood is." He didn't look away. "You feel it when your day ends and nobody can say what you moved. I feel it when something fails and I have to wonder if I was too slow. Same rope tale. Different cost."
 
@@ -144,7 +144,7 @@ When the chalk snapped, Riven brushed the dust off his fingers. White still clun
 
 "You will if you're shaking hard enough."
 
-Riven almost smiled. Almost. "You really think we have to?"
+Riven almost smiled. Almost. "You really think we have to do this shit?"
 
 Cael opened his palms toward his knees, gravel still caught in the creases, then looked at the dark where the hills were. "Last spring those planks held because two men stood in rain all night," he said. "Not because the song said they should. Because somebody had to."
 
