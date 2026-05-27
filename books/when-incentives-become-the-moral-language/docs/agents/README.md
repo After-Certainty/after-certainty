@@ -72,7 +72,7 @@ When running **04**, **07**, or **08**, skim for overlap with:
 
 - [`books/after-certainty/`](../../../after-certainty/) — practice capstone
 - [`books/the-economy-we-dont-experience/`](../../../the-economy-we-dont-experience/) — lived economy vs aggregate narrative
-- [`upcoming/when-interpretation-no-longer-matters/`](../../../../upcoming/when-interpretation-no-longer-matters/) — authority without shared meaning
+- [`books/when-interpretation-no-longer-matters/`](../../../when-interpretation-no-longer-matters/) — authority without shared meaning
 
 This book’s distinct lens: **incentives as moral language** when judgment fails operationally—not generic “scale” or “compression” repetition.
 

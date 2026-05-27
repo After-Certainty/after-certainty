@@ -21,7 +21,7 @@ Phase 2 step from [`drafting-process.md`](../drafting-process.md): echo is struc
 - [`docs/book-rules.md`](../book-rules.md) — core invariant (allowed once per part, not every page)
 - Cluster skim (titles + intros only unless echo is severe):
   - `books/after-certainty/`
-  - `upcoming/when-interpretation-no-longer-matters/`
+  - `books/when-interpretation-no-longer-matters/`
   - `books/when-incentives-become-the-moral-language/`
 
 ## FOCUS

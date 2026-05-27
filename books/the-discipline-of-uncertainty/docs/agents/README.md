@@ -98,7 +98,7 @@ When running **04** or **07**, skim for overlap with:
 - [`books/before-certainty-arrives/`](../../../before-certainty-arrives/)
 - [`books/how-serious-systems-learn/`](../../../how-serious-systems-learn/)
 - [`books/the-economy-we-dont-experience/`](../../../the-economy-we-dont-experience/) — lived vs aggregate (different lens)
-- [`upcoming/when-interpretation-no-longer-matters/`](../../../../upcoming/when-interpretation-no-longer-matters/)
+- [`books/when-interpretation-no-longer-matters/`](../../../when-interpretation-no-longer-matters/)
 - [`books/when-incentives-become-the-moral-language/`](../../../when-incentives-become-the-moral-language/)
 
 This book’s distinct lens: **uncertainty as practiced discipline**—warnings not verdicts, moral seriousness without relativism, institutions and leaders under incomplete information.

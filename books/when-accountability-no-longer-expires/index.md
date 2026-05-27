@@ -52,4 +52,4 @@
 
 - [When Authority Outlives Accountability](../when-authority-outlives-accountability/index.md) — **leadership** lens when authority outlives accountability
 - [Before Certainty Arrives](../before-certainty-arrives/index.md) — how moral order hardened
-- [When Interpretation No Longer Matters](../../upcoming/when-interpretation-no-longer-matters/index.md) — when explanation stops working
+- [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/index.md) — when explanation stops working

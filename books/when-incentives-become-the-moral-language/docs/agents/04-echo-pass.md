@@ -22,7 +22,7 @@ Agent pipeline step from [`drafting-process.md`](../drafting-process.md): echo i
 - Cluster skim (titles + intros only unless echo is severe):
   - `books/after-certainty/`
   - `books/the-economy-we-dont-experience/`
-  - `upcoming/when-interpretation-no-longer-matters/`
+  - `books/when-interpretation-no-longer-matters/`
 
 ## FOCUS
 

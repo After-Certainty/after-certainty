@@ -10,6 +10,7 @@ from pathlib import Path
 HEADING = re.compile(r"^#{1,6}\s")
 FOOTNOTE = re.compile(r"^\[\^")
 LIST_ITEM = re.compile(r"^[-*]\s")
+TABLE_ROW = re.compile(r"^\|")
 
 
 def _join_wrapped_lines(parts: list[str]) -> str:
@@ -62,6 +63,13 @@ def reflow_text(raw: str) -> str:
                     bq_parts.append(content)
                 i += 1
             blocks.append("> " + _join_wrapped_lines(bq_parts))
+            continue
+
+        if TABLE_ROW.match(stripped):
+            flush()
+            while i < len(lines) and TABLE_ROW.match(lines[i].strip()):
+                blocks.append(lines[i].strip())
+                i += 1
             continue
 
         buf.append(stripped)

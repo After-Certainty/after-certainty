@@ -71,7 +71,7 @@ Three essay-length or in-progress manuscripts remain under [`upcoming/`](upcomin
 | Book | Index | What it's about |
 | --- | --- | --- |
 | **When Incentives Become the Moral Language** — *How Systems Decide For Us When Judgment No Longer Scales* | [`books/when-incentives-become-the-moral-language/index.md`](books/when-incentives-become-the-moral-language/index.md) | Eight domains where metrics replaced judgment. |
-| **When Interpretation No Longer Matters** — *Authority After Understanding Collapses* | [`upcoming/when-interpretation-no-longer-matters/index.md`](upcoming/when-interpretation-no-longer-matters/index.md) | Authority when explanation and repair no longer work. |
+| **When Interpretation No Longer Matters** — *Authority After Understanding Collapses* | [`books/when-interpretation-no-longer-matters/index.md`](books/when-interpretation-no-longer-matters/index.md) | Authority when explanation and repair no longer work. |
 | **Why Collaboration Is So Hard** — *And why the effort still matters* | [`upcoming/why-collaboration-is-so-hard/index.md`](upcoming/why-collaboration-is-so-hard/index.md) | Coordination without full ownership—contribution and trust under diffuse responsibility. |
 
 **Fiction:** **Velorum** (upcoming) — [`upcoming/velorum/index.md`](upcoming/velorum/index.md). **Boundary Conditions** (organizational fiction) — [`books/boundary-conditions/index.md`](books/boundary-conditions/index.md).

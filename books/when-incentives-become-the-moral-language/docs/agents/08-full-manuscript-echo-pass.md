@@ -21,7 +21,7 @@ Unit-level echo (**04**) and part echo (**07**) leave book-wide duplicates: the 
 - Cluster skim (titles + intros + invariant paragraphs):
   - [`books/after-certainty/`](../../../after-certainty/)
   - [`books/the-economy-we-dont-experience/`](../../../the-economy-we-dont-experience/)
-  - [`upcoming/when-interpretation-no-longer-matters/`](../../../../upcoming/when-interpretation-no-longer-matters/)
+  - [`books/when-interpretation-no-longer-matters/`](../../../when-interpretation-no-longer-matters/)
 
 ## SCOPE (edit in place)
 
