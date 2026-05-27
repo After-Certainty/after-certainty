@@ -33,7 +33,7 @@ Not a question. Riven laughed once, no humor in it. "You see the problem."
 
 Cael stayed standing, arms folded against the wind. "You act like we can separate what's shared."
 
-"No. The problem is I can't have one goddamn thought without it becoming committee business."
+"No. The problem is I can't have one goddamn thought without it becoming everyone's fucking committee business."
 
 Cael's expression tightened. Riven felt the hurt before he saw it. "That's not fair."
 
@@ -104,7 +104,7 @@ Cael's mouth tightened. "I didn't ask for your memories."
 
 "Neither did I."
 
-"Then what do you want me to do when it hits?"
+"Then what the hell do you want me to do when it hits?"
 
 Riven took a breath before answering. "I want one room in my head that isn't shared storage."
 
@@ -124,7 +124,7 @@ Riven looked at him. "To what. Two separate cots in the same skull?"
 
 Cael dropped his hands and met his eyes. Neither of them looked away first.
 
-"I don't know how to fix it."
+"I don't know how to fix this shit."
 Cael said it to the floorboards, not to Riven.
 
 Riven let out a breath that was almost a laugh. "I noticed."

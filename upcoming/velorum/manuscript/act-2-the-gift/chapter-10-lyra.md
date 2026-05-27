@@ -88,7 +88,7 @@ She wiped her hands and met his eyes again. "If he talks about the path, ask who
 
 "You don't like him."
 
-"I don't like men who rename harm so crowds will clap."
+"I don't like men who rename harm so crowds will fucking clap."
 
 Riven grinned despite himself. "You always this cheerful."
 
@@ -166,7 +166,7 @@ Somewhere near dawn, a stable hand shouted in his sleep two cots down and kicked
 
 Riven lay back and counted roof slats.
 
-"We're getting worse," he said into the dark.
+"We're getting worse," he said into the dark. "Fast."
 
 Cael was quiet for a long beat. "We're under pressure."
 

@@ -7,7 +7,7 @@ By the time Cael and Riven reached the south gate, someone had already sent word
 "Lord Magistrate Halverin requests your presence," the clerk said.
 "Immediately," he said.
 
-Riven muttered, "Could at least ask if we're hungry first."
+Riven muttered, "Could at least ask if we're fucking hungry first."
 
 Cael ignored the comment and followed the officers through the inner streets. Kestrel Gate smelled like hot iron, old rain, and too many people trying not to panic. Storefront shutters were half down even in daylight. Messengers moved at a run between watch posts. Near the central square, a list of names had been nailed to a board under the heading MISSING. Above it, laundry lines hung between buildings, pale cloth snapping in the crosswind. The city looked like a structure still standing only because everyone was bracing it by hand.
 
@@ -44,7 +44,7 @@ Halverin watched him catch up and nodded once. "You understand quickly."
 
 "Good. Then hear this clearly." Halverin placed two fingers on the map where the ring narrowed. "What happened to you in Ashfen is not random. It's a path. Rare, but documented. Pairs touched by Velorum can stabilize fault lines others cannot even perceive. But only if they commit to full alignment."
 
-Riven gave a short, sharp laugh. "Full alignment. That's a clean phrase for not having a private thought."
+Riven gave a short, sharp laugh. "Full alignment. That's a clean phrase for not having a private fucking thought."
 
 Halverin turned to him with calm patience that felt rehearsed. "Privacy is a luxury of less necessary lives."
 
@@ -61,7 +61,7 @@ Halverin's attention returned to him at once. "Kestrel Gate needs a visible cent
 
 Riven looked between them. "You mean perform."
 
-"I mean lead," Halverin said.
+"I mean lead," Halverin said. "Or people die."
 
 He moved to a side table and unfolded an old paper copy of a woodcut Cael had seen in cheap chapbook stalls, two oath-bound figures standing back to back in stylized flame. Cheap ink and clean lines over what the road actually did to bone and breath.
 
@@ -99,7 +99,7 @@ Cael read it and folded the sheet once.
 
 Riven saw that line over his shoulder and felt his own pulse jump in annoyance. "Perceived by who."
 
-"By anyone with eyes," Halverin said.
+"By anyone with eyes," Halverin said. "Especially yours."
 
 "We'll do it," Cael said.
 
@@ -117,7 +117,7 @@ Outside, just before they hit the stairwell, a junior guard intercepted them wit
 
 "Captain says report before first light," he told Cael. "And bring your own chalk. We ran out in north watch."
 
-Riven barked a short laugh. "City's ending and they need chalk."
+Riven barked a short laugh. "City's ending and they need fucking chalk."
 
 The guard gave him a flat look. "How else you keep count."
 

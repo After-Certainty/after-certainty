@@ -110,6 +110,7 @@ See **voice-spec → Plain dialogue**. Run after **Pass C** when the chapter has
 - [ ] **One figure per spoken beat** unless voice is deliberately theatrical (singer, magistrate, ritual); **banter stays short**.  
 - [ ] **Lore / theology in dialogue** stays clearly **what someone claims** (*the old tale says*, *pamphlet says*)—not narrator proving canon (see **Pass A3**).  
 - [ ] **Profanity:** do **not** soften or remove approved swearing to “help” plainness—see **voice-spec → Plain dialogue** (profanity stays on polish) and **voice-spec → Voice guardrails**.  
+- [ ] **Profanity density check (Acts 1–2):** in conflict/public-pressure scenes, confirm profanity reads **heavy and present** in dialogue. If most lines scan as neutral or softened, run a targeted heat pass before finalizing.  
 - [ ] **Rapid banter:** when short lines volley **three or more times** without narration between, or when a **one-word** reply could belong to either speaker, add **said/asked** or a **named beat** often enough that the chain never blurs—then strip redundant tags where the speaker is already obvious from the prior beat—see **voice-spec → Dialogue quality → Rapid banter attribution**; use **`chapter-01-heartbridge.md`** after a banter pass as the bar.  
 - [ ] Compare density to **`chapter-01-heartbridge.md`** Heartbridge ridge exchange: **direct challenges**, **trade-grounded Cael**, **heat-forward Riven**, attributed tale wording where the spine requires it.
 

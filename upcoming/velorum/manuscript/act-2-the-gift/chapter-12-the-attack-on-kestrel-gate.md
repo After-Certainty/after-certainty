@@ -41,7 +41,7 @@ A fraction. Cael's judgment from the previous miss hit the bond at the wrong sec
 
 Cael felt the death like a wrench through both their chests, sharp enough to steal a breath.
 
-"Focus!" he shouted.
+"Focus!" he shouted. "Fucking focus!"
 
 Riven's response came back ragged. I know.
 
@@ -83,7 +83,7 @@ Halverin arrived in the command hall after dark with ash on his cuffs and three 
 
 "You held the city," he said to Cael and Riven. "Without you we would have lost the south quarter entirely."
 
-Riven stared at him like he might laugh or throw something. "People still died."
+Riven stared at him like he might laugh or throw something. "People still fucking died."
 He dragged his wrist across his mouth and left a dark smear there.
 
 Halverin inclined his head. "Yes. Because your alignment is not complete."
@@ -94,7 +94,7 @@ Cael felt Riven's fury hit first, then his own recoil at the neatness of the ans
 
 "Not like this." Halverin stepped closer, lowering his voice as if offering a confidence. "You two are near a threshold. Near is not enough. The fractures today are evidence."
 
-Riven's voice came out rough. "Evidence of what? That we're human."
+Riven's voice came out rough. "Evidence of what? That we're fucking human."
 
 "Evidence that hesitation kills," Halverin said, eyes on Cael. "You felt it. The moments where you split. Finish the path and those moments disappear."
 
@@ -105,7 +105,7 @@ Riven felt that replay too and turned away, hands shaking hard enough that he ha
 After the meeting, Cael found him outside the hall on the stone landing above the square, both of them coated in smoke and someone else's blood.
 Below, med carts moved between torch posts.
 
-"Don't let him use this," Riven said.
+"Don't let him fucking use this," Riven said.
 
 Cael looked out over the dark city. Stretchers still moved under torchlight.
 

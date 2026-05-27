@@ -14,7 +14,7 @@ Cael's stomach lurched. He planted his boots wider on the stone. The rings below
 
 "I'm not going to faint," Riven snapped.
 
-"You're going to sit," Cael said, and hated how much it sounded like an order, and didn't take it back.
+"You're going to sit," Cael said, and hated how much it sounded like an order, and didn't take it back. "Now."
 
 Riven sat anyway, sudden, legs folding as if the hinge had given, and Cael dropped beside him on the scored stone, the rings under their boots like a shallow target, close enough to catch a shoulder if Riven tipped, near enough to feel heat rolling off Riven in a wave that didn't match the cold air. Beyond Riven's shoulder the basin opened—distance drowned in haze, a seam where sky met ridge too soft to trust.
 
@@ -62,11 +62,11 @@ Cael's throat went dry. "I said nail."
 
 Cael's first instinct was denial, clean and familiar as a square-cut board. The second instinct was worse: relief, sharp and shameful, and for half a breath his shoulders almost dropped before he caught them, because if Riven could hear him, maybe Cael wasn't alone with whatever had moved into his head. Cael clamped that relief down hard.
 
-"We're wound up," he said.
+"We're wound up as hell," he said.
 
 "We're not wound up," Riven said. "We're—this is—"
 
-"Don't spiral."
+"Don't fucking spiral."
 
 "Don't tell me not to spiral when you're scared too," Riven snapped, and Cael felt the snap land in his own ribs, deserved.
 
@@ -108,7 +108,7 @@ They moved toward their packs where they had left them on the rim—canvas lumps
 
 Instead their hands went for the straps in the same instant—Cael his, Riven his—elbows brushing. The near-collision didn't happen; both stopped on the same inch, like they'd rehearsed it.
 
-When Cael felt Riven's surprise as his own, he steadied himself on a knee that wasn't supposed to be shaking; gravel bit through cloth, and the small pain helped. "This is bad," Riven said.
+When Cael felt Riven's surprise as his own, he steadied himself on a knee that wasn't supposed to be shaking; gravel bit through cloth, and the small pain helped. "This is bad," Riven said. "Like truly fucking bad."
 
 "Maybe," Cael said.
 
@@ -231,7 +231,7 @@ Riven flinched first, and Cael felt the hit in his own chest a breath before Riv
 
 The fear under Riven's words hit Cael so hard his vision narrowed. He leaned forward, hands on his knees, and counted stone colors until he trusted his voice again. "We're not hollow," he said.
 
-"You don't know that."
+"You don't fucking know that."
 
 "I know we're standing," Cael said. "I know we're talking. I know you heard cabbage."
 
