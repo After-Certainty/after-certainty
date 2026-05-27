@@ -928,8 +928,8 @@
     },
     {
       "slug": "why-collaboration-is-so-hard",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "Why Collaboration Is So Hard",
       "subtitle": "And why the effort still matters",
       "description": "An examination of coordination failure, misaligned incentives, and fragile trust.",
@@ -937,25 +937,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/why-collaboration-is-so-hard/book-cover.png",
-      "coverImagePath": "upcoming/why-collaboration-is-so-hard/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/why-collaboration-is-so-hard/open-graph.png",
-      "openGraphImagePath": "upcoming/why-collaboration-is-so-hard/open-graph.png",
-      "bookDir": "upcoming/why-collaboration-is-so-hard",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/why-collaboration-is-so-hard/book-cover.png",
+      "coverImagePath": "books/why-collaboration-is-so-hard/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/why-collaboration-is-so-hard/open-graph.png",
+      "openGraphImagePath": "books/why-collaboration-is-so-hard/open-graph.png",
+      "bookDir": "books/why-collaboration-is-so-hard",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "why-collaboration-is-so-hard.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/why-collaboration-is-so-hard.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "why-collaboration-is-so-hard.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/why-collaboration-is-so-hard.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "why-collaboration-is-so-hard.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/why-collaboration-is-so-hard.pdf"
       },
       "id": "book-why-collaboration-is-so-hard",
       "summary": "An examination of coordination failure, misaligned incentives, and fragile trust.",
