@@ -1,6 +1,8 @@
 # Chapter 6 - The Curse
 
-Cael heard the world come back wrong. The dish of stone under him, cold creeping up through his soles, the rings catching grit in their grooves. Past the inner circle, the stone ran out into rougher tread and a lip of trail, then nothing but air and the long grey slope they'd climbed. The light looked flat: pale sky pressed low, one dull wash, no shadow long enough to fix direction. The far ridge was a smear in the haze—no mast, no sharp spike of rock to steer by. His breath and Riven's overlaid—inhales and exhales not matched on purpose, each cycle the same length as if something outside them had set the pace.
+Cael heard the world come back wrong. The dish of stone under him, cold creeping up through his soles, the rings catching grit in their grooves.
+
+Past the inner circle, the stone ran out into rougher tread and a lip of trail, then nothing but air and the long grey slope they'd climbed. The light looked flat: pale sky pressed low, one dull wash, no shadow long enough to fix direction. The far ridge was a smear in the haze—no mast, no sharp spike of rock to steer by. His breath and Riven's overlaid—inhales and exhales not matched on purpose, each cycle the same length as if something outside them had set the pace.
 
 He tried to let go of Riven's hand, but his fingers wouldn't uncurl all the way, then did too fast and spasmed, skin hot and cold in the same second. Riven made a noise in his throat—not a word—and Cael heard it twice, once in his ears and once behind his eyes. He turned his head. "You all right?"
 
@@ -27,6 +29,8 @@ Cael swallowed bile. "Okay," he said, voice too steady, the steadiness a lie he 
 "Then we breathe slower."
 
 "You sound like Mara."
+
+Cael almost said good again and didn't.
 
 "Good," Cael said. "Mara keeps people alive." The words left a dry scrape in his throat.
 
@@ -126,7 +130,8 @@ Cael couldn't push the word no past his teeth, because denial felt like a lie th
 
 "It's what we've got to call it."
 
-Riven laughed again, broken. "You're glad."
+Riven laughed again, broken.
+"You're glad."
 
 "I'm not glad," Cael said automatically, then stopped, because the reflex lie wouldn't hold. He was scared, yes—pulse loud at the base of his throat—but under that fear something else sat bright and wrong: exhilaration, the kind he'd known on a good roofline when every measure read true and the whole line squared. Riven recoiled from it as if it burned.
 
@@ -145,6 +150,8 @@ Cael pressed his palm flat against his thigh until the muscle ached, letting the
 "Is that what this is?" Riven muttered.
 
 "Consecrated," Cael said. "Pamphlet word. You got a better one, say it."
+
+Riven adjusted his blanket roll, then adjusted it again like the second try might make it feel less real.
 
 Riven didn't. They shouldered packs. Cael led because someone had to.
 
@@ -182,7 +189,7 @@ Riven nodded, shaky. "Your hand."
 
 "Your breath," Riven corrected, then made an awful sound halfway between laugh and sob. "This is insane."
 
-"Yeah," Cael said. They stood until Riven's shoulder stopped trembling under Cael's palm, or Cael's hand went numb from cold, or both—time gone slippery.
+"Yeah," Cael said. They stood until Riven's shoulder stopped trembling under Cael's palm, or Cael's hand went numb from cold, or both, time gone slippery.
 
 When they moved again, it was slower, uglier, on purpose. It still wasn't natural. Every few steps one of them would hesitate and the other would catch the same beat—a stutter-stop that looked like comedy from a distance and felt like drowning inside.
 
@@ -196,7 +203,7 @@ Cael exhaled, fogging the air, and watched it dissolve too fast.
 
 Riven's throat moved. He looked at the path, not at Cael.
 
-"This is the curse," Riven whispered, like naming it might shrink it.
+"This is the curse," Riven whispered, as if naming it might shrink it.
 
 Cael flinched at the word curse. Pamphlet talk, old songs, the square's three-beat shout—everything sanded down until the word went smooth and the cost stayed off the page.
 
@@ -256,7 +263,8 @@ Riven looked away, jaw tight. "Fits."
 
 "For now," Riven echoed, bitterly obedient.
 
-They ate because bodies demanded it. The food tasted like ash and salt, like the seep.
+They ate because bodies demanded it.
+The food tasted like ash and salt, like the seep.
 
 When they lay down, back to back for warmth like they always had, Cael felt Riven's heartbeat through his coat like a second pulse pressed to his spine. The fire had burned down to coals; beyond it the trees stood black-on-black, no stars, only the pale lift of far ridge-lines where the sky thinned last. Cael stared into the dark until his eyes burned.
 

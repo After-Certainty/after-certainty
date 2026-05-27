@@ -16,6 +16,7 @@ Use these after core chapter drafting/revision is stable.
 - `06-dialogue-subtext-agent.md`
 - `07-softness-longing-agent.md`
 - `08-world-pressure-agent.md`
+- `09-contemporary-flow-agent.md`
 
 ## Recommended Order
 
@@ -27,7 +28,8 @@ Use these after core chapter drafting/revision is stable.
 6. `07-softness-longing-agent.md`
 7. `08-world-pressure-agent.md` (as needed by chapter)
 8. `04-operational-intimacy-agent.md` (as needed; protect competence texture)
-9. `05-scene-compression-agent.md` **last**
+9. `09-contemporary-flow-agent.md`
+10. `05-scene-compression-agent.md` **last**
 
 Compression is intentionally last so earlier passes can add needed implication/texture
 without immediately regrowing explanatory prose.

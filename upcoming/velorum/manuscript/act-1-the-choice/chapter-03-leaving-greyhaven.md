@@ -18,7 +18,8 @@ Though he hadn't stepped off the doormat yet, he stayed on it anyway, boots toge
 
 Cael came up from the yard with cold air clinging to his coat, cheeks flushed, hands clean enough to look wrong for someone about to walk into rock. He had the bigger pack, tools and spare cord and whatever he'd decided counted as "necessary" this week, and he moved with steady placement that already set Riven's teeth on edge, heel, toe, weight, next step chosen before the first one finished.
 
-"Gate," Cael said, his voice level so Mara wouldn't read it as backtalk. "North road. We don't stop for singers."
+"Gate," Cael said, his voice level so Mara wouldn't read it as backtalk.
+"North road. We don't stop for singers."
 
 "I wasn't planning to stop for singers."
 
@@ -32,9 +33,11 @@ Distance—miles were the point. Riven let out a breath he hadn't known he was h
 
 Outside, the harbor air hit him damp and salted. The sky over the water hung bruised, not quite day, not quite night. Wet cobbles threw back the thin gleam of mast lanterns burning low; gulls complained on the pilings. A cart creaked somewhere down toward the docks, early work, the kind of work that didn't care whether you'd slept.
 
-They took the lower lanes first, rooflines tight enough to steal half the grey dawn light, keeping to shadows where they could, not because they were sneaking exactly, but because a pack before dawn drew eyes in Greyhaven, and eyes turned into questions, and questions turned into someone trying to sell you luck you didn't have coins for.
+They took the lower lanes first, rooflines tight enough to steal half the grey dawn light, keeping to shadows where they could, not because they were sneaking exactly, but because a pack before dawn drew eyes in Greyhaven. Eyes turned into questions, and questions turned into someone trying to sell you luck you didn't have coins for.
 
-The north gate's iron was cold when Riven pushed it. The hinge whined, different iron from the inn's back door, but the same stubborn complaint, a noise that wouldn't let you pretend you hadn't heard it. On the wall beside the guard's niche, someone had scratched tallies in the paint, days, maybe, or debts, until the marks looked like teeth.
+A woman opening shutters watched them pass, then went back to shaking flour out of a cloth over her doorstep.
+
+The north gate's iron was cold when Riven pushed it. The hinge whined, different from the inn's back door but with the same stubborn complaint, a noise that wouldn't let you pretend you hadn't heard it. On the wall beside the guard's niche, someone had scratched tallies in the paint, days maybe, or debts, until the marks looked like teeth.
 
 The guard was half asleep, blanket over his knees, smell of last night's beer still coming off him in sour little breaths. He lifted his chin at them without interest.
 
@@ -60,7 +63,9 @@ Gravel skittered under his boots on the first switchback, loose stone catching t
 
 Cael made a sound that could've been agreement or annoyance. Hard to tell from behind.
 
-They climbed until sweat cooled on Riven's neck and the wind found the gap at his collar anyway, the blanket strap rubbing while the rope shifted in a slow slide until he hitched it higher with a jerk that jarred his shoulder.
+They climbed until sweat cooled on Riven's neck and the wind found the gap at his collar anyway.
+
+The blanket strap kept rubbing while the rope shifted in a slow slide until he hitched it higher with a jerk that jarred his shoulder.
 
 "Loosen that," Cael said.
 
@@ -226,9 +231,13 @@ Cael held still until Riven noticed, then nodded once, face tightening back into
 
 They walked.
 
+Riven hitched his rope again, slower this time, and didn't argue when Cael matched pace beside him.
+
 By midday the road turned to broken shale that clicked under every step, a sound that got inside Riven's teeth. Sun came thin through cloud; dust sat pale on Cael's shoulders. Greyhaven had fallen behind, not far in miles, maybe, but far in the way distance always cheated: the town still visible if he looked, too small to face again without paying for it in pride. Riven didn't look again.
 
-When they stopped to eat, it was bread and hard cheese wrapped in cloth, dry in the mouth, measured out in careful bites. Cael divided it with his knife the way he divided everything, fair, exact, no drama.
+When they stopped to eat, it was bread and hard cheese wrapped in cloth, dry in the mouth, measured out in careful bites.
+
+Cael divided it with his knife the way he divided everything, fair, exact, no drama.
 
 Riven chewed and watched a hawk circle until it became a dot and vanished.
 

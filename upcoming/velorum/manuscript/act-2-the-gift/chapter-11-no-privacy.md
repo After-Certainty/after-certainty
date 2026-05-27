@@ -2,7 +2,8 @@
 
 Riven chose the roof because it was the one place in Kestrel Gate where people usually left him alone.
 
-The watch tower above the east wall had a maintenance platform half hidden behind spare shingles and split beams. From there he could see inner streets, market fires burning low, and the black road to Greyhaven. A sliver moon sat behind thin cloud; below, two watch lanterns crossed like clock hands.
+The watch tower above the east wall had a maintenance platform half hidden behind spare shingles and split beams.
+From there he could see inner streets, market fires burning low, and the black road to Greyhaven. A sliver moon sat behind thin cloud; below, two watch lanterns crossed like clock hands.
 
 He sat with his back to stone, knees up, and tried to hold one thought in place without letting it spill through the bond: Lyra's mouth when she said boundary injury.
 
@@ -26,11 +27,13 @@ He had come without lacing his boots, one heel crushed flat, like he'd run mid-b
 
 "About Lyra."
 
+Riven scrubbed a hand over his face like he could wipe the thought out before it crossed.
+
 Not a question. Riven laughed once, no humor in it. "You see the problem."
 
 Cael stayed standing, arms folded against the wind. "You act like we can separate what's shared."
 
-"No. The problem is I can't have one goddamn thought without it becoming committee property."
+"No. The problem is I can't have one goddamn thought without it becoming committee business."
 
 Cael's expression tightened. Riven felt the hurt before he saw it. "That's not fair."
 
@@ -64,7 +67,7 @@ It lasted three breaths before Cael's awareness touched back, not words this tim
 
 Riven tried a different experiment after Cael left. He climbed down, crossed two streets, and bought a cup of sour plum wine from a night stall run by a woman with a ruined ear. He found a dark step behind a closed tailor shop and sat alone where no one would ask questions. Light from the nearest alley torch did not quite reach him, only a soft orange edge on the cobbles. Behind him, a second-floor window shutter banged once in the wind and then went still. If distance failed, maybe method would work.
 
-He reached for a memory he had never spoken aloud: Greyhaven, age twelve, falling through rotten boards into winter canal water, panic and mud and a broken tooth, Cael hauling him out by the back of his shirt while shouting hard enough to make him cry after.
+He reached for a memory he had never spoken aloud: Greyhaven, age twelve, falling through rotten boards into winter canal water, panic and mud and a broken tooth, Cael hauling him out by the back of his shirt while shouting hard enough to make him cry afterward.
 
 Then he tried to build a wall the way old dockworkers taught children to keep panic out: name five things you can see, four things you can touch, three sounds, two smells, one taste. Broken gutter chain. Split brick. Wet cobble seam. Torch reflection. Crate nail. Stone step under his thigh. Damp cuff at his wrist. Rough glaze on the cup. Leather at his boot heel.
 
@@ -78,7 +81,8 @@ Riven dropped the cup. It shattered on stone, wine jumping cold across his finge
 
 He pressed both palms into his eyes until sparks came and his temples throbbed. It did not help. Cael knew now. Not because Riven chose to tell him. Because there was nowhere to hide.
 
-A drunk stumbled past the alley mouth singing half a market song about sworn heroes and never even looked in. Riven sat with wine on his hands and listened to the last line slur away up the lane, then laughed once. Even the songs had no walls.
+A drunk stumbled past the alley mouth singing half a market song about sworn heroes and never even looked in. Riven sat with wine on his hands and listened to the last line slur away up the lane, then laughed once.
+Even the songs had no walls.
 
 He paced to the alley mouth and back, like distance might matter. It did nothing. Cael's worry tracked him from across the square.
 
@@ -121,6 +125,7 @@ Riven looked at him. "To what. Two separate cots in the same skull?"
 Cael dropped his hands and met his eyes. Neither of them looked away first.
 
 "I don't know how to fix it."
+Cael said it to the floorboards, not to Riven.
 
 Riven let out a breath that was almost a laugh. "I noticed."
 

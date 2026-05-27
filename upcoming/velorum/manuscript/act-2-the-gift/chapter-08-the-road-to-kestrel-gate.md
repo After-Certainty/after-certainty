@@ -4,13 +4,18 @@ By the second day on the road to Kestrel Gate, people were waiting for them befo
 
 Cael saw the crowd gathered near the mile stones while mist still sat in the ditch. A miller with split hands. Two traders in patched blue coats. A woman with a child wrapped to her chest. Nobody stood close to anyone else. Everyone watched the tree line.
 
-"Are you the pair from Ashfen?" the miller asked. "The ones who move together."
+"Are you the pair from Ashfen?" the miller asked.
+"The ones who move together."
 
 Cael looked at Riven. Riven gave a short nod, guarded, hands near his belt. Cael felt that tension through the bond. He also saw the crowd's clipped breathing and locked knees. That decided it.
 
 "Tell me what happened," Cael said.
 
-By noon they had heard the same story in four versions: wagons hit on the lower road, storehouses broken open, a bridge support cut at night, men with bad knives and no banners testing every weak point between villages. Each account carried more rumors with it: dogs refusing certain paths, fish floating belly-up in clear streams, dust hanging in still air after boots passed. Pressure building in the wrong places, then turning into violence where crowds had nowhere to spread.
+No one spoke first. The miller cleared his throat and spat into the ditch, then started.
+
+By noon, they had heard the same story in four versions: wagons hit on the lower road, storehouses broken open, a bridge support cut at night, men with bad knives and no banners testing every weak point between villages.
+
+Each account carried more rumors with it: dogs refusing certain paths, fish floating belly-up in clear streams, dust hanging in still air after boots passed. Pressure building in the wrong places, then turning into violence where crowds had nowhere to spread.
 
 At a waystation with a collapsed porch, they found two local wardens trying to keep a line of carts from bunching at a blind turn. One warden had a splinted finger and blood dried on his sleeve where a thrown stone had caught him. Cael took one look at the bend and started moving wagons by size, smallest first, spacing them so panic had less to feed on. Riven climbed the bank and called timings down the line while the wardens repeated his count.
 
@@ -32,7 +37,7 @@ Cael took the bottle and passed it to Riven without drinking.
 
 They moved from stop to stop and put out what they could. A gang broke when Cael and Riven came over a ridge together. A fight in a grain yard ended in less than a minute because Riven took one attacker high while Cael stripped the blade from another, same second, no call needed. A caravan master who had been shouting at everyone went quiet when he watched them turn two separate charges into one clean trap.
 
-By evening, people were passing their names ahead of them. Smoke from cooking fires drifted low across the road, and the first lamps in roadside shacks came up one by one behind wagon wheels.
+By evening, people were passing their names ahead of them. Smoke from cooking fires drifted low across the road, and the first lamps in roadside shacks came up, one by one, behind wagon wheels.
 
 Not Cael and Riven. The pair. The sworn men. Names that traveled faster than wagons and arrived cleaner than the work itself.
 
@@ -50,6 +55,7 @@ Cael took a drink, then passed the skin back. "Only if nobody knows what the sto
 Riven almost answered, then stopped. The unfinished thought came through anyway: If they knew, they would still ask.
 
 Cael did not argue with that. He had already been thinking the same thing.
+He rubbed rain off his brow with two fingers and left a streak of mud there.
 
 He ran his thumb once over the knot before they left. The cord was new hemp, still rough, the kind of thing a farmer could have pulled from a work coil. Somebody had stood here at first light and tied the story tighter with ordinary rope.
 
@@ -107,7 +113,9 @@ Riven drank and winced. "Like road water with ambition."
 
 Cael almost smiled. "Still better than ditch water."
 
-Riven settled back into his blanket roll and listened to three different conversations around the fire turn into the same rumor about them by slightly different paths. By the third telling, they were no longer men who had dragged wagons through mud. They were a sign.
+Riven settled back into his blanket roll and listened to three different conversations around the fire turn into the same rumor about them by slightly different paths.
+
+By the third telling, they were no longer men who had dragged wagons through mud. They were a sign.
 
 He felt Cael hearing it too and leaning toward it anyway.
 

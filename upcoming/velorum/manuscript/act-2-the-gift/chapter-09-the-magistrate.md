@@ -4,7 +4,8 @@ Kestrel Gate rose out of the plain in layered stone and timber, higher than anyt
 
 By the time Cael and Riven reached the south gate, someone had already sent word ahead. They were met by two officers and a clerk who carried a slate and kept glancing up like he expected them to glow.
 
-"Lord Magistrate Halverin requests your presence," the clerk said. "Immediately."
+"Lord Magistrate Halverin requests your presence," the clerk said.
+"Immediately," he said.
 
 Riven muttered, "Could at least ask if we're hungry first."
 
@@ -14,15 +15,18 @@ At the next corner they passed a chalked ration board where two bakers and a gua
 
 The clerk escorting them did not slow.
 
-Halverin received them in a council room above the square, bright windows on one wall, maps pinned on the other. Late light came in hard from the west side and left the far corners of the room in shadow. Wax dripped on two desk candles near the map table where aides had been writing and rewriting route marks. He was thinner than Cael expected, pale, neatly dressed, dark hair pulled back at the nape. Nothing in his posture looked rushed, though the city below him was straining at the seams.
+Halverin received them in a council room above the square, bright windows on one wall, maps pinned on the other. Late light came in hard from the west side and left the far corners of the room in shadow. Wax dripped on two desk candles near the map table where aides had been writing and rewriting route marks.
+
+He was thinner than Cael expected, pale, neatly dressed, dark hair pulled back at the nape. Nothing in his posture looked rushed, though the city below him was straining at the seams.
 
 "Cael. Riven." Halverin said their names like he had tested how they sounded first. "Thank you for coming."
+One of Halverin's aides coughed into his sleeve and kept writing.
 
 Riven crossed his arms. "Didn't know we had options."
 
 Halverin gave him a brief, polite smile that did not reach his eyes. "You always have options. You simply have fewer than most."
 
-He gestured to the map table. Colored pins marked raids and collapses across the trade routes. Cael stepped closer before he meant to, bracing both hands on the table edge. Inked river lines and ridge marks cut the board into sectors, and the pattern was obvious once seen: breaks forming a ring around Kestrel Gate, tightening toward the city.
+He gestured to the map table. Colored pins marked raids and collapses across the trade routes. Cael stepped closer before he meant to, bracing both hands on the table edge. Inked river lines and ridge marks cut the board into sectors, and the pattern was obvious once seen: breaks forming a ring around Kestrel Gate and tightening toward the city.
 
 Small chalk marks ran along the map margins where someone had updated counts in a different hand: grain delayed, bridge repairs pending, patrol missing. Cael read them without meaning to. Every note was a task. Every task implied another failure if nobody took it.
 
@@ -51,6 +55,7 @@ One of Halverin's aides looked up sharply, then back down at his notes when Halv
 Cael felt Riven's anger spike through the bond. He also felt his own reaction, colder and more useful: if Halverin was right, then what they were losing had a price and a use. That thought settled in him before he finished hating it.
 
 "What do you need from us?" Cael asked.
+He kept his hands flat on the table edge so nobody saw the shake.
 
 Halverin's attention returned to him at once. "Kestrel Gate needs a visible center. People are frightened. Raids escalate when fear spreads faster than facts." He tapped the square outside the window. "I need you on patrol, then in public. Demonstrate control. Give them shape."
 

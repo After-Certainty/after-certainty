@@ -2,17 +2,21 @@
 
 From offshore, Greyhaven curved along the coast where the hills met the sea, its roofs gathered in uneven rows of dark shingles, patched slate, and split boards held down with stone. The harbor narrowed at its mouth and then opened into a wide stretch of grey water, where on clear days gulls crossed the inlet and settled along the dock posts, pecking and shoving each other for space.
 
-At first light the bell in the tower by the market gate rang once. That was how the town said morning, if you didn't have a clock. The streets near the docks filled with the steady sound of cart wheels and boots striking stone. Fish carts rolled up from the harbor with wet planks and herring scales clinging to their rims, while men in wool caps hauled crates from the boats, shoulders bent and boots slipping on the slick boards. Along the roadside, women stretched lines between posts, snapping out damp clothes before pinning them in place, and smoke drifted from short chimneys, hanging low over the street until the wind slowly pulled it apart.
+At first light the bell in the tower by the market gate rang once. That was how the town said morning, if you didn't have a clock. The streets near the docks filled with the steady sound of cart wheels and boots striking stone.
+
+Fish carts rolled up from the harbor with wet planks and herring scales clinging to their rims, while men in wool caps hauled crates from the boats, shoulders bent and boots slipping on the slick boards. Along the roadside, women stretched lines between posts, snapping out damp clothes before pinning them in place, and smoke drifted from short chimneys, hanging low over the street until the wind slowly pulled it apart.
 
 By midday, the market square pressed tight between timber shop fronts, loud and uneven with bells ringing from handcarts out of time with one another. At noon the same tower bell rang again. A dog barked beneath a butcher's stall and yelped when someone kicked it, and the air carried everything at once: salt, fish blood, damp wool, old beer, woodsmoke, so thick it seemed to cling to the back of the throat. Sellers shouted their prices until their voices went rough, then kept shouting anyway, while travelers stood counting coins in their palms before choosing between stew, bread, lamp oil, patched gloves, or a narrow room above Mara's inn.
 
-Higher up the slope, the town shifted in quieter ways. The timber looked newer, but the foundations under it were older, packed shell, cracked steps, corners worn round, while near the water the walls leaned and doors stuck fast in swollen frames. New beams had been set beside old foundations packed with mud and shell, and narrow paths split away where carts could not pass, marked here and there by stakes driven into the ground where someone had tested the earth and thought better of it. In winter, runoff carved channels through the lanes and left broken boards scattered at the bottom of the steepest pitches.
+Higher up the slope, the town shifted in quieter ways. The timber looked newer, but the foundations under it were older, packed shell, cracked steps, corners worn round, while near the water the walls leaned and doors stuck fast in swollen frames.
+
+New beams had been set beside old foundations packed with mud and shell, and narrow paths split away where carts could not pass, marked here and there by stakes driven into the ground where someone had tested the earth and thought better of it. In winter, runoff carved channels through the lanes and left broken boards scattered at the bottom of the steepest pitches.
 
 Above it all, on the hill over the harbor road, the monument rose from the grass, pale stone set against dark ground, the scene every cheap pamphlet opened with cut deep enough to last: two men bound together at the chest by a single rope, both hands on the same line, leaning in until fiber and fingers wore down to one knot in the stone. Stalls and singers had fixed one name to the whole hill: Heartbridge, the bridge you could see from the harbor, two lives carved into one pull of stone. The same word sat in bigger type on the fold-outs for the bond the ink promised, as if the statue and the spell could share a word and nobody would ask which one you meant. On bright days, people across half the waterfront could point to it; children heard the song before they could read the pamphlets, and pilgrims climbed in pairs when they had boots thick enough for the loose rock. Couples came after weddings to leave ribbons or wax, and children dared each other to climb near dusk, only to turn and run when their fathers' voices carried up from below.
 
 Riven worked wherever the day would pay, at the docks when the boats came in heavy and at Mara's inn when they did not. He hauled rope and dragged crates and stacked fish barrels until his shirt clung to his back, and when the harbor quieted he swept floors, emptied slops, scrubbed tables, and carried messages through the narrow streets. If his rent came up short, he stayed later and slept less, taking whatever work came his way.
 
-People noticed him for one reason: he was useful, and they treated him that way without thinking. They handed him tasks while still speaking to someone else, crate, broom, bucket, errand, expecting him to move before the word was finished. If he answered too slowly, they snapped his name again in that clipped tone used for boys and dogs, and if he answered too quickly, they found one more thing to give him, as though the speed itself invited it.
+People noticed him for one reason: he was useful, and they treated him that way without thinking. They handed him tasks while still speaking to someone else, crate, broom, bucket, errand, and expected him to move before the word was finished. If he answered too slowly, they snapped his name again in that clipped tone used for boys and dogs. If he answered too quickly, they found one more thing to give him, as though the speed itself invited it.
 
 He was lean, narrow through the shoulders, with forearms thick from hauling rope, muscle from the same work every day, not from training he'd picked on purpose. Pale rope burns crossed his wrists, layered over newer red scrapes, and his palms were broad and worn, knuckles split and nicked, nails cut short with a knife. Sun and salt had browned his face, though the skin beneath his jaw stayed pale where his collar covered it, and he kept his sleeves pushed up so wet cloth wouldn't rub his wrists raw. When his hair was clean it fell over his forehead, softening him in a way that never lasted; when it was wet, it stuck up in uneven clumps. His eyes were a pale grey-blue that flattened under clouded skies until they looked almost colorless.
 
@@ -34,7 +38,7 @@ In front of the joined hands he stopped, a folded pamphlet from Mara's inn press
 
 He rubbed at the page until the ink blurred, then reached out toward the carved knot of hands and stopped. His fingers hovered an inch from the stone, open in the air, close enough to feel the cold waiting there.
 
-"That's gross," a voice said behind him.
+"That's gross," said a voice behind him.
 
 When he turned, Cael stood a few paces back on the loose stones, his coat heavy in the wind, his stance steady even on the shifting ground, broader through the shoulders and taller by a hand, his dark hair clipped short, his jaw set square in a way that looked deliberate even at rest. His skin showed less wear from sun and salt, and his hands, thick through the knuckles, were clean, no rope bite at the wrists, nails blunt, like he'd scrubbed off someone else's job before he came up the hill. He set each foot before shifting his weight, quiet and certain, and had crossed half the distance without Riven hearing him.
 
@@ -49,6 +53,8 @@ Cael stepped up beside him and looked straight at the stone, not reaching for it
 "You smell like cold air and smoke."
 
 "I smell like cheap soap and bad tea." Riven scrubbed his palms against his trousers, grinding dirt into the fabric. "Call that morning air if you want."
+
+A gull cried overhead, then another answered from lower on the slope.
 
 From the side, he watched Cael read the letters carved into the base, slow and exact, as wind drove grit against their coats. The faces above them hadn't changed; they never did.
 
@@ -76,7 +82,9 @@ Riven let out a quiet breath, more air than sound. "Tell that to the town."
 
 Cael didn't look at him. "I'm telling you."
 
-Riven swallowed and turned away, eyes dropping past the monument and down over the roofs. Grey water stretched beyond the town, breaking over pale sandbars, and gulls skimmed low across the inlet, their wings catching the light. In the narrow lanes below, people were only dots, hats, carts, a scrap of bright cloth, until distance scrubbed the detail off, and he kept staring until the rooftops blurred and lost their edges. When his focus slipped, the hill fell away entirely and left him with dock planks instead, close and familiar underfoot, crates stacked shoulder-high and the dull weight of them in his arms until dusk thinned the crews and no one left who could say whose hands had done the lifting. Then the image shifted again to Mara's chalkboard, the marks beside his name adding up in quiet lines. He shut his eyes, opened them, and forced himself back to the present, to the line of Cael's profile against the sky.
+Riven swallowed and turned away, eyes dropping past the monument and down over the roofs. Grey water stretched beyond the town, breaking over pale sandbars, and gulls skimmed low across the inlet, their wings catching the light.
+
+In the narrow lanes below, people were only dots, hats, carts, a scrap of bright cloth, until distance scrubbed the detail off, and he kept staring until the rooftops blurred and lost their edges. When his focus slipped, the hill fell away entirely and left him with dock planks instead, close and familiar underfoot, crates stacked shoulder-high and the dull weight of them in his arms until dusk thinned the crews and no one left who could say whose hands had done the lifting. Then the image shifted again to Mara's chalkboard, the marks beside his name adding up in quiet lines. He shut his eyes, opened them, and forced himself back to the present, to the line of Cael's profile against the sky.
 
 "You think you'll die and nobody will be able to list what work you did," Cael said.
 
@@ -91,6 +99,8 @@ His eyes flicked back toward the town, then away again. "If nobody says your nam
 Below them, a dog barked twice on the slope and then fell silent. A gust of wind hit, carrying salt and wet wool and iron, and the faint, clean trace of laundry soap from lines strung near the inn. Riven watched as Cael scanned the roofs without seeming to try, his eyes catching on loose slate, warped beams, bad joins, taking it all in at once.
 
 "Most people die with no singer and no stone with their name on it," Cael said. "Most people feed children, patch fences, and then they're gone." He paused, then added, quieter, "Supper still hit the table. The fence still stood a season longer."
+
+Riven bent, picked up a pebble, and flicked it downslope. It bounced twice and disappeared into grass.
 
 Riven shook his head, a short, frustrated motion. "Not if you wake up with your jaw already tight and your hands already moving toward work you don't even want."
 
@@ -152,7 +162,9 @@ Bran laughed, though he didn't quite commit to it. Cael pressed a coin into his 
 
 "They'll sing about the bond," Riven said, his voice low. "They'll leave out the blood. The cracked ribs."
 
-Cael didn't look away from the monument. "The carving is beautiful," he said.
+Cael didn't look away from the monument. He rubbed his thumb once against his palm, grit grinding in the skin.
+
+"The carving is beautiful," he said.
 
 Riven turned toward him, disbelief rising fast. "Beautiful? You weren't there."
 
