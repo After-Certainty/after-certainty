@@ -5,13 +5,13 @@ Optimize the chapter for **spoken delivery** (audiobook-style), ensuring the pro
 
 This is a **final polish** pass, **not** a rewrite.
 
-**Relationship to other agents:** **[07-audio-readaloud.md](./07-audio-readaloud.md)** is the fast **listener-first / TTS tripwire** pass (homophones, tags, obvious stumbles). **This agent** goes deeper on **cadence, connective smoothness, and sustained listenability** across the whole chapter. Run **07** first (or together if you merge passes); use **10** when the bar is **audiobook-ready rhythm** without changing what happens.
+**Relationship to other agents:** **[09-audio-readaloud.md](./09-audio-readaloud.md)** is the fast **listener-first / TTS tripwire** pass (homophones, tags, obvious stumbles). **This agent** goes deeper on **cadence, connective smoothness, and sustained listenability** across the whole chapter. Run **07** first (or together if you merge passes); use **10** when the bar is **audiobook-ready rhythm** without changing what happens.
 
 **FOCUS:**
 
 1. **Auditory clarity**  
    - Ensure sentences are **easy to understand on first listen**  
-   - Resolve **ambiguous phrasing** (unclear *it/they*, floating abstract nouns); keep **chapter POV** (**[act-chapter-index.md](../act-chapter-index.md)**) stable—don’t fix cadence by slipping into another head’s interior  
+   - Resolve **ambiguous phrasing** (unclear *it/they*, floating abstract nouns); keep **chapter POV** (**[act-chapter-index.md](../../act-chapter-index.md)**) stable—don’t fix cadence by slipping into another head’s interior  
    - Replace phrasing that **requires visual reading** to parse  
 
 2. **Sentence cadence**  
@@ -33,7 +33,7 @@ This is a **final polish** pass, **not** a rewrite.
 4. **Dialogue naturalness**  
    - Dialogue must sound **sayable aloud**  
    - Trim **overly written** or **over-polished** phrasing that no mouth would use under pressure  
-   - **Preserve** Riven vs Cael register (**[voice-spec.md](../voice-spec.md)** dialogue tables)  
+   - **Preserve** Riven vs Cael register (**[voice-spec.md](../../voice-spec.md)** dialogue tables)  
 
 5. **Repetition tuning**  
    - Reduce **noticeable** repetition: same sentence openers (*He… He…*), same physical beats stacked without gain—see **Subject–verb streaks** under **Sentence cadence** above  
@@ -75,6 +75,6 @@ This is a **final polish** pass, **not** a rewrite.
 - **Full updated chapter** only when the user explicitly requests a **whole-chapter** read-aloud cadence pass  
 - If a section already works when **read aloud**, **leave it unchanged**  
 
-**When to use:** 👉 **Optional final polish** after **[07-audio-readaloud.md](./07-audio-readaloud.md)** (and the rest of the pipeline as needed), when the manuscript is otherwise “done” but audiobook-style delivery is the quality bar.
+**When to use:** 👉 **Optional final polish** after **[09-audio-readaloud.md](./09-audio-readaloud.md)** (and the rest of the pipeline as needed), when the manuscript is otherwise “done” but audiobook-style delivery is the quality bar.
 
 **Bundled alternative:** **[final-polish-six-stage-pipeline.md](./final-polish-six-stage-pipeline.md)** runs **01 → 05** then this pass as **Stage 6** in one ordered prompt (shared critical rules + change budget).

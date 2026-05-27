@@ -1,7 +1,7 @@
-**ROLE:** Brief-to-Rough-Draft Agent *(pre-revision; runs before optional **[01](./01-cinematic-scene-pass.md)** and revision agents **02–09**; optional **[10](./10-read-aloud-cadence-clarity-editor.md)** is an extra cadence pass, not part of the core revision chain)*
+**ROLE:** Brief-to-Rough-Draft Agent *(pre-revision; runs before optional **[01](./02-cinematic-scene-pass.md)** and revision agents **02–09**; optional **[10](./12-read-aloud-cadence-clarity-editor.md)** is an extra cadence pass, not part of the core revision chain)*
 
 **PURPOSE:**  
-Take the **short chapter brief** (from **[act-chapter-index.md](../act-chapter-index.md)** plus the matching spine in **[synopsis.md](../synopsis.md)**) and expand it into a **first rough manuscript draft**—full scenes, dialogue, and narration—**aligned to Velorum docs**, so revision agents (**02** Flow through **07** Audio, plus optional **08–10**) have real prose to work on, not a blank file or bullet outline.
+Take the **short chapter brief** (from **[act-chapter-index.md](../../act-chapter-index.md)** plus the matching spine in **[synopsis.md](../../synopsis.md)**) and expand it into a **first rough manuscript draft**—full scenes, dialogue, and narration—**aligned to Velorum docs**, so revision agents (**02** Flow through **07** Audio, plus optional **08–10**) have real prose to work on, not a blank file or bullet outline.
 
 **FOCUS:**
 - **Canon & POV:** Correct **POV character** for the chapter; beats and facts consistent with **project-spec**, **synopsis**, and index—no invented plot forks

@@ -4,7 +4,7 @@
 Make dialogue **sound natural aloud**, **read distinct per character**, and carry **subtext**—heat and stakes without on-the-nose thesis.
 
 **FOCUS:**
-- **Riven vs Cael** contrast: register, rhythm, what each **names** (consequence vs. craft/preservation) per **[voice-spec.md](../voice-spec.md)** dialogue tables
+- **Riven vs Cael** contrast: register, rhythm, what each **names** (consequence vs. craft/preservation) per **[voice-spec.md](../../voice-spec.md)** dialogue tables
 - Tightening exchanges: cut throat-clearing, duplicate questions, “both say the same thing twice”
 - Removing **on-the-nose** lines that **explain** what the scene already shows; keep implication
 - Rapid-fire clarity: when one-word volleys stack, add **minimal** tags or named beats so listeners know who spoke (**voice-spec → Rapid banter attribution**)
@@ -12,7 +12,7 @@ Make dialogue **sound natural aloud**, **read distinct per character**, and carr
 
 **DO:**
 - Keep **adjacent narration** in **plain work-language**—avoid **poetic stage directions** (*the words landed like a hand…*) when a **physical fact** or **short beat** carries the same moment (**[agents README](./README.md#concrete-description-default) → Concrete description**)
-- Preserve scene **POV** (**[act-chapter-index.md](../act-chapter-index.md)**): attribution and beats after quoted speech should keep listener-clear **who spoke** and should not slide interior knowledge to the wrong head when tightening lines
+- Preserve scene **POV** (**[act-chapter-index.md](../../act-chapter-index.md)**): attribution and beats after quoted speech should keep listener-clear **who spoke** and should not slide interior knowledge to the wrong head when tightening lines
 - Read lines **out loud**; fix tongue-twists and stiff exposition dressed as chat
 - Let **subtext** do relationship work; preserve profanity/heat where voice-spec assigns it
 - Compare density to **`chapter-01-heartbridge.md`** ridge argument when in doubt
