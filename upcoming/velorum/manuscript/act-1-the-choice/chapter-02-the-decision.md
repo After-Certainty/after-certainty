@@ -13,6 +13,7 @@ Riven came around the corner of the inn into the yard with both hands full: a fo
 "I didn't track dirt."
 
 He dropped the rope onto a dry patch near the step.
+It landed with a wet slap and stayed there like it was listening too.
 
 "You did. I saw."
 
@@ -38,7 +39,8 @@ Riven let out a breath that wasn't quite a laugh. "So your plan is we fix the wo
 
 He'd had the north road in his head since they came off the Heartbridge path: bad gravel, cold nights, whether they could clear the gate before the inn woke. He kept his eyes off the wall.
 
-"My plan is we quit treating Heartbridge like scenery," Cael said. "Something you climb to when you're already mad."
+"My plan is we quit treating Heartbridge like scenery," Cael said.
+"Something you climb to when you're already mad."
 
 Riven exhaled, hard enough to hear. "Tell me where we sleep night one. Then you can keep talking."
 
@@ -46,7 +48,9 @@ His own line had landed flat. Cael slowed himself the way he did on a roof when 
 
 "And if it isn't?"
 
-"Then we know that too."
+"Then we know that, too."
+
+From inside the kitchen, someone dropped a pan and swore. Neither of them flinched.
 
 Riven picked up the rope and wound it tighter until the coils bit his forearm. His jaw worked once. "You make it sound like checking a beam."
 
@@ -86,6 +90,8 @@ Riven's head came up fast. "What?"
 
 "I'm not dragging you." Cael kept his voice even, throat loose, the same looseness he used when a horse shied and he didn't dare shorten the reins. "If you stay, you stay. If you come, you come because you chose it. I'm not your keeper."
 
+Riven rubbed at the seam on his sleeve with his thumb until the thread frayed.
+
 The hinge tapped again. Somewhere in the lane a dog barked once and quit. Past the yard wall, one mast lantern still swayed thin gold over black water; above the roofs Heartbridge caught nothing, only stars behind thin cloud.
 
 "You'd go anyway," Riven said.
@@ -120,9 +126,13 @@ Riven muttered, "Call it what you want."
 
 Cael picked up the broom again because his hands wanted work, bristles rough and familiar against his skin. "I'm not preaching at you. I'm figuring a week's worth of walking."
 
-He put the broom in the corner and sat before his knees locked up from standing any longer. Cold snapped up through his thighs. Riven stayed on his feet one beat longer, then dropped beside him and dragged chalk from his pocket.
+He put the broom in the corner and sat before his knees locked up from standing any longer. Cold snapped up through his thighs. Riven stayed on his feet one beat longer, then dropped beside him and pulled chalk from his pocket.
 
-They sat with their backs to the kitchen glare, faces to the dark yard, two heads and shoulders black against the light spilling from the door. The first line went down hard on the flagstone between his boots, chalk squealing once before it caught. It ran north past the last reliable well Mara would fill for free, then switchbacks and open rock and high grass where the wind didn't quit. More lines crossed it, ticks, a crooked arrow where he corrected himself. White dust stuck in the cracks and smeared when he brushed it wrong. The step bit cold through Cael's trousers. He named distances like lumber: rounded up so nobody talked themselves into a short rope.
+They sat with their backs to the kitchen glare, faces to the dark yard, two heads and shoulders black against the light spilling from the door.
+
+The first line went down hard on the flagstone between his boots, chalk squealing once before it caught. It ran north past the last reliable well Mara would fill for free, then switchbacks and open rock and high grass where the wind didn't quit. More lines crossed it, ticks, a crooked arrow where he corrected himself. White dust stuck in the cracks and smeared when he brushed it wrong.
+
+The step bit cold through Cael's trousers. He named distances like lumber: rounded up so nobody talked themselves into a short rope.
 
 Riven wrote nothing down, only nodded when the numbers sounded stupid and again when they didn't.
 

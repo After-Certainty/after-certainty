@@ -4,7 +4,10 @@ When Cael opened his eyes, the hollow still held him and Riven, rock overhead an
 
 Cold worked into the places fire never reached: the seam of Cael's collar, the gap behind his belt buckle, the hinge of each finger where rope had worn the skin shiny. Wind scraped the hollow's lip, steady, over and over.
 
-Riven was already sitting, knees drawn up, blanket around his shoulders, staring at dead coals like they owed him an answer. "We move," Cael said. His neck ached where rock had cradled his head all night; he didn't rub it. Riven nodded once, no fight in his shoulders yet.
+Riven was already sitting, knees drawn up, blanket around his shoulders, staring at dead coals like they owed him an answer.
+
+"We move," Cael said.
+His neck ached where rock had cradled his head all night; he didn't rub it. Riven nodded once, no fight in his shoulders yet.
 
 They ate what was left, hard and small, and stamped the fire dead until the ash went flat and cold under Cael's boot. Packing was the same work it always was: rope, blanket, buckle, strap, check the knife, check the water skin. He made sure the folded pamphlet hadn't worked free of Riven's strap where he'd wedged it like a splinter, then checked Riven's latch before it could spit the pack off halfway up a scree slope.
 
@@ -34,13 +37,15 @@ They stopped in a notch where the cliff doglegged and the walls shouldered close
 
 "Hear what?" Cael said.
 
-Riven tilted his head. "Like… an echo. But wrong."
+Riven tilted his head. "Like... an echo. But wrong."
 
 Cael listened and heard only wind, his own pulse loud in his ears, and far off a hawk's cry, thin and clean. "Nothing off in my ears," he said.
 
 Riven's mouth tightened. "Fine."
 
 They went on.
+
+At the next narrow turn, Cael paused long enough to shake grit from his boot, then kept moving.
 
 By midday the sky stayed the color of old iron, no sun to speak of, just brightness behind the clouds that hurt to look at for too long. The trail switchbacked until Cael's thighs burned and his pack strap dug a line he could map with his eyes closed.
 
@@ -76,7 +81,9 @@ A patch of moss sat bright in shade that should've starved it; a gust hit his le
 
 Then the water did it.
 
-They reached a seep in a crease of rock, a vertical stain darker than the grey around it, wetness gathered at the bottom in a pocket hardly wider than both his hands together, clean enough to refill the skins if he didn't mind cold teeth. Cael knelt and cupped his hand. The surface held too still for moving water. When he dipped his fingers, ripples spread slower than they should have, each ring holding its shape too long before it broke apart.
+They reached a seep in a crease of rock, a vertical stain darker than the grey around it, wetness gathered at the bottom in a pocket hardly wider than both his hands together, clean enough to refill the skins if he didn't mind cold teeth.
+
+Cael knelt and cupped his hand. The surface held too still for moving water. When he dipped his fingers, ripples spread slower than they should have, each ring holding its shape too long before it broke apart.
 
 Riven knelt beside him without being asked, eyes on water that didn't move like water.
 
@@ -102,11 +109,12 @@ Riven stood too, pack shifting, jaw set. "Say it."
 
 "That you see it."
 
-Cael looked at the seep, at the slow rings finally dying, at the rock above them where nothing grew except a hairline crack that ran too straight for comfort. He flexed his hands once, blood back into the knuckles, then let them hang. "We're not on a harbor road," he said carefully. "Loose stone, bad wind. Two men who quit treating the hill like a bedtime story."
+Cael looked at the seep, at the slow rings finally dying, at the rock above them where nothing grew except a hairline crack that ran too straight for comfort. He flexed his hands once, blood back into the knuckles, then let them hang.
+"We're not on a harbor road," he said carefully. "Loose stone, bad wind. Two men who quit treating the hill like a bedtime story."
 
 Riven stared at him, fingers gone white on the pack strap. "That's not an answer."
 
-"Best I've got." Cael adjusted the strap across his chest until the buckle dug in a familiar way, pain that behaved. "If you want to turn around, say it now while we can still lie to ourselves about the grade."
+"Best I've got." Cael adjusted the strap across his chest until the buckle dug in a familiar way, pain that behaved. "If you want to turn around, say it now, while we can still lie to ourselves about the grade."
 
 Riven's eyes flashed. "I'm not turning around."
 
@@ -127,6 +135,8 @@ Riven halted a step later, hands on his thighs, head down. Water dripped from hi
 "I need you to stop talking like I'm a horse."
 
 "You need rest," Cael repeated, flat. "We take ten minutes. We eat. We don't stand on the edge like idiots."
+
+Riven sat first and rubbed both hands over his face before taking the bread.
 
 Riven moved back from the drop without arguing, which meant he was more tired than he looked.
 

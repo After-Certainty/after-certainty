@@ -1,8 +1,11 @@
 # Chapter 13 - Aftermath
 
-The morning after the attack, the square smelled like wet ash and lime. Gray daylight sat flat on the paving stones, scaffold shadows sharp against broken walls. Lime buckets lined the curb beside stacked stretchers.
+The morning after the attack, the square smelled like wet ash and lime. Gray daylight sat flat on the paving stones, scaffold shadows sharp against broken walls.
+Lime buckets lined the curb beside stacked stretchers.
 
-Riven stood with a shovel in a work line outside the south market and watched crews mark beams to save and beams to cut. People spoke in low voices. Every few steps, someone recognized him. Some said thank you. Some looked away.
+Someone nearby kept sneezing from the lime and muttering apologies each time.
+
+Riven stood with a shovel in a work line outside the south market and watched crews mark beams to save and beams to cut. People spoke in low voices. Every few steps, someone recognized him. Some said thank you. Others looked away.
 
 At midmorning, a clerk came through with a chalkboard and two guards and started reading names for body identification at the old fish court. Riven kept shoveling. Through the bond he caught each name landing in Cael too.
 
@@ -12,13 +15,16 @@ An hour later she came back with two boys and asked where to stack salvaged boar
 
 None of it landed cleanly. Every reaction from the crowd passed through the bond and mixed with Cael's running tally of failures.
 
-He found Lyra in the infirmary annex sorting bandage rolls into crates for the outer wards. The annex was narrower than the main hall, shelves on one side and a row of high windows on the other letting in hard white light. She looked up once, read his face, and pushed a stool toward him with her foot.
+He found Lyra in the infirmary annex sorting bandage rolls into crates for the outer wards. The annex was narrower than the main hall, shelves on one side and a row of high windows on the other letting in hard white light.
+She looked up once, read his face, and pushed a stool toward him with her foot.
 
 "You didn't sleep," she said.
 
 "Neither did anyone else."
 
 "That's not what I asked."
+
+Riven rubbed his thumb along the lip split until Lyra slapped his hand away without looking.
 
 Riven sat. His hands would not stop moving, opening and closing against his knees. "How many did you lose in here?"
 
@@ -30,7 +36,7 @@ She stopped folding and met his eyes. "You want a count so you can punish yourse
 
 Riven did not deny it.
 
-"Then here's the number you actually need," Lyra said. "You both keep trying to carry everyone at once. That isn't strength. It's collapse with ceremony."
+"Then here's the number you actually need," Lyra said. "You both keep trying to carry everyone at once. That isn't strength. It's collapse dressed as ceremony."
 
 The line was sharp enough to make him breathe in through his teeth. From the command hall across the square, Cael caught it too while reviewing gate reports with Merrow and two council clerks. Cael's reaction came back immediate: anger at Lyra, then anger at himself for it.
 
@@ -117,7 +123,8 @@ Riven stared at the nearest notice until letters blurred.
 Riven looked down to where cleanup crews were still shoveling ash under torchlight. "Same thing?"
 
 Cael did not answer immediately. Through the bond, Riven felt the pause as a full-body ache.
-For one breath, standing shoulder-close on the wall, the ache eased. Riven leaned into it before he caught himself.
+For one breath, standing shoulder-close on the wall, the ache eased.
+Riven leaned into it before he caught himself.
 
 "Maybe," Cael said at last.
 

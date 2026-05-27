@@ -15,6 +15,7 @@ Her hair caught the shutter light and threw it back cold. Younger than he expect
 "Riven."
 
 "Lyra." She took his wrist and turned his arm so the cut opened under lamplight. "Hold still."
+He tried to make a joke and couldn't find one in time.
 
 He felt the first pull when she cleaned the wound. Not lightning, a door opening onto cold air. The sting sharpened, then dropped behind a warmth he had not asked for.
 
@@ -32,7 +33,7 @@ He almost lied and heard Cael catch the almost.
 
 "Complicated," Riven said.
 
-"Good," Lyra said. "I hate simple ones."
+"Good," Lyra said. "I hate simple cases."
 
 She stitched where she had to, pressed where it bled, spoke only when needed. A child cried three cots down. Someone cursed in the next room. Outside, wagons rattled and the south tower bell rang twice.
 
@@ -40,7 +41,9 @@ A boy with a split ear sat on the next cot trying not to cry while an older woma
 
 Riven watched her hands more than her face. No wasted motion, no soft performance. Just competence in a room full of pain.
 
-When a runner with blood on his boot came through, Lyra pointed to benches, ordered water, and had a canvas screen up before the next stretcher crossed the threshold. Riven obeyed with everyone else.
+When a runner with blood on his boot came through, Lyra pointed to benches, ordered water, and had a canvas screen up before the next stretcher crossed the threshold.
+
+Riven obeyed with everyone else.
 
 "You. Hold this." She shoved a folded cloth into his hand and pressed it over a gash in a cooper's side. "If your hand slips, he bleeds out before I finish the thread."
 
@@ -77,10 +80,11 @@ The words hit harder than the needle. Boundary injury. Cael reacted at the same 
 Riven stood too fast, and the room tipped. He caught the table edge until the stone floor stopped moving.
 
 "You should sit five more minutes," Lyra said.
+She nudged a stool back toward him with her heel.
 
 "I should get back before Halverin sends someone with a leash."
 
-She wiped her hands and met his eyes again. "If he talks about path, ask who pays for it."
+She wiped her hands and met his eyes again. "If he talks about the path, ask who pays for it."
 
 "You don't like him."
 
@@ -126,7 +130,9 @@ Riven blinked. "You know Cael?"
 
 Riven filed it away without wanting to. Through the bond he felt Cael catch the memory and resist it, embarrassed and annoyed in the same breath.
 
-By the time he walked back into barracks court, night had come on hard and torch smoke sat low under the arches. Cael was waiting by the steps, arms crossed, expression controlled enough to be obvious.
+By the time he walked back into barracks court, night had come on hard and torch smoke sat low under the arches.
+
+Cael was waiting by the steps, arms crossed, expression controlled enough to be obvious.
 
 "You were gone longer than treatment takes," Cael said.
 

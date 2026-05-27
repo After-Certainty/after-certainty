@@ -32,11 +32,15 @@ Cael's profile was rigid, jaw set, eyes fixed on the center of the rings where n
 
 "I know it is," Cael said.
 
+Riven swallowed and licked dry lips that did not stay wet.
+
 Riven kept catching the same pale stretch Cael stared at, grit in the rings, nothing standing.
 
 The presence didn't arrive with footsteps. It didn't speak in a voice that belonged to a mouth. It slid into the gap where his next thought should have started, cold pushing in before he felt the draft.
 
-Riven's mind tried to grab language for it because language was how he kept fear in a box: monster, spirit, weather, and none of them stuck. It was direction without shape. Weight without hands. Attention without eyes, aimed straight at the soft parts of him that knew he hadn't climbed for spite alone, want laid bare until his chest felt hollow with it. Sweat stung at his hairline; the stone under his boots stayed sick-warm through the leather.
+Riven's mind tried to grab language for it because language was how he kept fear in a box: monster, spirit, weather, and none of them stuck.
+
+It was direction without shape. Weight without hands. Attention without eyes, aimed straight at the soft parts of him that knew he hadn't climbed for spite alone, want laid bare until his chest felt hollow with it. Sweat stung at his hairline; the stone under his boots stayed sick-warm through the leather.
 
 The pamphlet had called the dish the Ashring, that carved summit bowl you walked into with wind at your back and nowhere to hide. Older sheets still said First Circle in the margin, same smeared thumbprint as the weight inside Velorum: two names on one cheap page of ink.
 
@@ -54,7 +58,7 @@ Riven didn't know. Run. Step off. Spit the metal taste out and pretend they coul
 
 The presence pressed closer, not on skin—under it, behind his sternum—like it could read straight through him and didn't care about the difference.
 
-A warning slid through him, not words, not exactly—his gut dropped, and then it was just there, no asking: you will not stay yourselves. When his eyes burned, Riven blinked hard, furious at his own body for going soft.
+A warning slid through him, not words, not exactly. His gut dropped, and then it was just there, no asking: you will not stay yourselves. When his eyes burned, Riven blinked hard, furious at his own body for going soft.
 
 "Did you feel that?" he rasped.
 
@@ -68,7 +72,7 @@ Cael's voice went flat. Calm. Wrong beat for the place.
 
 "Truth," Riven said again, and swallowed the noise that wanted out after it.
 
-The pressure tightened—not crushing, insisting. It fixed his mind on the smallness of his name, the dock at dusk, the way people said Riven like a tool returned to a shelf. The same cheap pages had never named who paid when the tale ended.
+The pressure tightened, not crushing, insisting. It fixed his mind on the smallness of his name, the dock at dusk, the way people said Riven like a tool returned to a shelf. The same cheap pages had never named who paid when the tale ended.
 
 He hated it and wanted it to stop, his jaw aching before he'd noticed how hard he'd been clenching; beneath that, stubborn and ugly, he still wanted to be worth the ink more than he wanted safety, and the presence found that want in him and pressed until his teeth hurt.
 
@@ -124,6 +128,8 @@ Cael didn't look at him. "If you're leaving, leave now."
 
 "Stay, then."
 
+For one second, absurdly, Riven noticed a loose thread at Cael's cuff and wanted to pull it free.
+
 The presence didn't ask permission. It pressed until Riven's thoughts stopped lining up in private order, and fear, anger, and want stacked into one bright flare. Riven's throat shut; he couldn't have said which was winning.
 
 He thought he heard Cael thinking, not words, just texture: relief, sharp as new-cut wood.
@@ -150,7 +156,8 @@ Riven reached for Cael without deciding to, not for comfort, for anchor, fingers
 
 No third path showed itself—only the rings, only Cael's set jaw, only the pressure demanding an answer.
 
-"I accept," Cael said, voice hard, each word laid down like a plank. "Whatever this is. Whatever it costs."
+"I accept," Cael said, voice hard, each word laid down like a plank.
+"Whatever this is. Whatever it costs."
 
 The presence answered without voice: yes.
 
@@ -176,4 +183,7 @@ Riven swallowed copper. The doubled heartbeat slid into sync so perfectly it fel
 
 "I'm here," he said, and hated that it sounded like surrender, and meant it anyway. "I'm fine. I'm in. Fuck. I'm in." The stone under them vibrated once, a low hum Riven felt in his molars. The presence filled him until there was no corner left to hide a thought, and even his anger felt watched, weighed, shelved. Riven dragged a breath and found still no give until his nape went cold with the warning again, clearer and blunter: you will not remain yourselves. Then his eyes spilled over in hot tears he couldn't blame on wind.
 
-Cael's hand squeezed once, bruise-hard, not comfort, promise. "I know," Cael whispered, and Riven didn't know which one of them knew what. The world went quiet after a door latched—draft gone, house-side—until the only sound left was breath and stone. Riven gripped Cael's sleeve until his knuckles ached. Whatever came next had already started listening.
+Cael's hand squeezed once, bruise-hard, not comfort, promise.
+"I know," Cael whispered, and Riven didn't know which one of them knew what.
+
+The world went quiet after a door latched—draft gone, house-side—until the only sound left was breath and stone. Riven gripped Cael's sleeve until his knuckles ached. Whatever came next had already started listening.

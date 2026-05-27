@@ -1,10 +1,15 @@
 # Chapter 12 - The Attack on Kestrel Gate
 
-The attack started at second bell with no warning wind and no messenger horn. Cael was on the inner wall above the south market when the first blast hit the grain quarter. It was not fire at first, but pressure, a concussive shove that turned stacked sacks into dust and threw two men off a loading platform. Three breaths later smoke rolled up and people started screaming. Signal lanterns flashed once, then vanished behind the plume.
+The attack started at second bell, with no warning wind and no messenger horn. Cael was on the inner wall above the south market when the first blast hit the grain quarter.
+
+It was not fire at first, but pressure, a concussive shove that turned stacked sacks into dust and threw two men off a loading platform. Three breaths later smoke rolled up and people started screaming. Signal lanterns flashed once, then vanished behind the plume.
 
 "South gate shut!" Captain Merrow shouted from the tower stairs. "Keep the lane clear!"
 
-Cael was already moving before she finished, boots slamming the wall steps two at a time. Through the bond he pulled for Riven, hard and immediate.
+A boy with an empty bucket froze in the stair mouth until Merrow shoved him aside and kept yelling.
+
+Cael was already moving before she finished, boots slamming the wall steps two at a time.
+Through the bond he pulled for Riven, hard and immediate.
 
 East barracks. Running. Coming.
 
@@ -79,6 +84,7 @@ Halverin arrived in the command hall after dark with ash on his cuffs and three 
 "You held the city," he said to Cael and Riven. "Without you we would have lost the south quarter entirely."
 
 Riven stared at him like he might laugh or throw something. "People still died."
+He dragged his wrist across his mouth and left a dark smear there.
 
 Halverin inclined his head. "Yes. Because your alignment is not complete."
 
@@ -96,13 +102,14 @@ Cael did feel them. Every late half-step. Every wrong beat. Every life that migh
 
 Riven felt that replay too and turned away, hands shaking hard enough that he had to lock them on the table edge.
 
-After the meeting, Cael found him outside the hall on the stone landing above the square, both of them coated in smoke and someone else's blood. Below, med carts moved between torch posts.
+After the meeting, Cael found him outside the hall on the stone landing above the square, both of them coated in smoke and someone else's blood.
+Below, med carts moved between torch posts.
 
 "Don't let him use this," Riven said.
 
 Cael looked out over the dark city. Stretchers still moved under torchlight.
 
-"If he has a way to stop this happening again, I need to hear it."
+"If he has a way to stop this from happening again, I need to hear it."
 
 Riven let out a broken breath. "That's not hearing. That's begging."
 
