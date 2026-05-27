@@ -55,4 +55,5 @@
 
 - [How Meaning Moves](../../books/how-meaning-moves/index.md) — signal, compression, restraint (published)
 - [When Incentives Become the Moral Language](../../books/when-incentives-become-the-moral-language/index.md) — eight domains where metrics replaced judgment
+- [Why Collaboration Is So Hard](../../books/why-collaboration-is-so-hard/index.md) — coordination under diffuse ownership
 - [After Certainty](../../books/after-certainty/index.md) — practice capstone (read after diagnostic volumes)

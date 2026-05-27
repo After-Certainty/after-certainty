@@ -1,6 +1,6 @@
 # Upcoming nonfiction — portfolio status
 
-Dashboard for four nonfiction manuscripts under `upcoming/`. Fiction titles use a separate track (below). Tier A nonfiction titles and *The Economy We Don't Experience* were promoted to `books/` and no longer live under `upcoming/`.
+Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a separate track (below). Tier A nonfiction titles, *The Economy We Don't Experience*, *When Incentives Become the Moral Language*, and *Why Collaboration Is So Hard* were promoted to `books/` and no longer live under `upcoming/`.
 
 **Refresh rule:** When a book's `docs/status.md` changes phase or next actions materially, update the relevant table in the same PR (nonfiction rows here; fiction rows in **Upcoming fiction**).
 
@@ -12,7 +12,7 @@ Dashboard for four nonfiction manuscripts under `upcoming/`. Fiction titles use 
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
-| [Why Collaboration Is So Hard](../why-collaboration-is-so-hard/) | Phase 2 — Part I complete | ~10.8k words; front matter + Part I depth pass | Part I author read-through; Phase 2 Parts II–IV | [status](../why-collaboration-is-so-hard/docs/status.md) |
+| [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Phase 5 | Essay edition promoted; agent pipeline complete | Author review; export smoke | [status](../../books/when-interpretation-no-longer-matters/docs/status.md) |
 
 ## Upcoming fiction
 
@@ -22,20 +22,21 @@ Not part of the nonfiction editorial passes or judgment/alignment/compression cl
 |------|-------|------------------|-------------|--------|
 | [Velorum](../velorum/) | In progress | Mythic fantasy; Act I chapters drafted; voice/continuity specs under `velorum/docs/` | Act I continuity + chapter pipeline per [`agents/README`](../velorum/docs/agents/README.md) | [project spec](../velorum/docs/project-spec.md) |
 
-*When Interpretation No Longer Matters promoted to [`books/when-interpretation-no-longer-matters/`](../../books/when-interpretation-no-longer-matters/) · Boundary Conditions promoted to [`books/boundary-conditions/`](../../books/boundary-conditions/) · The Discipline of Uncertainty to [`books/the-discipline-of-uncertainty/`](../../books/the-discipline-of-uncertainty/) · The Economy We Don't Experience to [`books/the-economy-we-dont-experience/`](../../books/the-economy-we-dont-experience/) · When Incentives Become the Moral Language to [`books/when-incentives-become-the-moral-language/`](../../books/when-incentives-become-the-moral-language/) — see each book's `docs/status.md`.*
+*Why Collaboration Is So Hard promoted to [`books/why-collaboration-is-so-hard/`](../../books/why-collaboration-is-so-hard/) · When Interpretation No Longer Matters to [`books/when-interpretation-no-longer-matters/`](../../books/when-interpretation-no-longer-matters/) · Boundary Conditions to [`books/boundary-conditions/`](../../books/boundary-conditions/) · The Discipline of Uncertainty to [`books/the-discipline-of-uncertainty/`](../../books/the-discipline-of-uncertainty/) · The Economy We Don't Experience to [`books/the-economy-we-dont-experience/`](../../books/the-economy-we-dont-experience/) · When Incentives Become the Moral Language to [`books/when-incentives-become-the-moral-language/`](../../books/when-incentives-become-the-moral-language/) — see each book's `docs/status.md`.*
 
 ## Judgment / alignment / compression cluster
 
-These four upcoming titles share vocabulary (compression, alignment, judgment) but serve different questions. Use this map before public promotion or cross-linking:
+These titles share vocabulary (compression, alignment, judgment) but serve different questions. Use this map before public promotion or cross-linking:
 
 | Book | Role in cluster |
 |------|-----------------|
-| [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Authority types when public understanding collapses (promoted to `books/`) |
-| [When Incentives Become the Moral Language](../../books/when-incentives-become-the-moral-language/) | Eight domains where metrics replaced judgment (published in `books/`) |
-| [The Economy We Don't Experience](../../books/the-economy-we-dont-experience/) | Lived economy vs aggregate narrative; credibility under pressure (published) |
-| [After Certainty](../../books/after-certainty/) | Practice capstone—how to live and judge after frameworks fail (published) |
+| [Why Collaboration Is So Hard](../../books/why-collaboration-is-so-hard/) | Coordination under diffuse ownership—contribution, trust, structural fragility |
+| [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Authority types when public understanding collapses |
+| [When Incentives Become the Moral Language](../../books/when-incentives-become-the-moral-language/) | Eight domains where metrics replaced judgment |
+| [The Economy We Don't Experience](../../books/the-economy-we-dont-experience/) | Lived economy vs aggregate narrative; credibility under pressure |
+| [After Certainty](../../books/after-certainty/) | Practice capstone—how to live and judge after frameworks fail |
 
-Echo checks: interpretation Part III–IV pass docs; incentives interlude; economy compression invariant.
+Echo checks: collaboration Part III–IV vs interpretation authority modes; incentives formula vs collaboration stabilizing structures.
 
 ## Recommended editorial order
 
@@ -69,13 +70,12 @@ Incremental depth pass delivered; full ~50–90k bands remain future work after 
 
 | Tier | Books | Approx. words | Gap to typical completion band |
 |------|-------|---------------|--------------------------------|
-| Promoted (essay) | after-certainty, before-certainty-arrives, accountability | 9–12k each | In `books/`; author gate sign-off + export smoke test |
-| Mid editorial | interpretation | ~13k | Phase 4 done; author gate + expansion decision |
-| Pass 3 / Phase 2 | collaboration | ~11k | **Largest** — author Part I gate before expansion |
+| Promoted (essay) | after-certainty, before-certainty-arrives, accountability, collaboration, interpretation, incentives | 9–15k each | In `books/`; export smoke test |
+| Mid editorial | interpretation | ~13k | Phase 5 complete |
+| Pass 3 / Phase 2 | — | — | collaboration promoted May 2026 |
 
 ## Conventions
 
 - **Nonfiction:** each book maintains `docs/book-rules.md`, `docs/drafting-process.md`, `docs/status.md`
 - **Fiction:** planning under `docs/` (Velorum: `project-spec.md`, `voice-spec.md`, agents; Boundary Conditions: workbook-derived briefs + [`status.md`](../boundary-conditions/docs/status.md))
 - Templates: [`_templates/`](_templates/) (nonfiction scaffold)
-- Promote to `books/` when Phase 5 criteria in each book's `drafting-process.md` are met (nonfiction); fiction promotion criteria TBD per title

@@ -66,12 +66,12 @@ Together these manuscripts are part of the broader **After Certainty** thread: t
 
 ## Upcoming nonfiction
 
-Three essay-length or in-progress manuscripts remain under [`upcoming/`](upcoming/) (Tier A titles and *The Economy We Don't Experience* are now published under `books/`—see table above).
+Essay-length titles in progress remain under [`upcoming/`](upcoming/) (see portfolio dashboard). *Why Collaboration Is So Hard* and cluster siblings are published under `books/`—see tables above and below.
 
 | Book | Index | What it's about |
 | --- | --- | --- |
 | **When Incentives Become the Moral Language** — *How Systems Decide For Us When Judgment No Longer Scales* | [`books/when-incentives-become-the-moral-language/index.md`](books/when-incentives-become-the-moral-language/index.md) | Eight domains where metrics replaced judgment. |
 | **When Interpretation No Longer Matters** — *Authority After Understanding Collapses* | [`books/when-interpretation-no-longer-matters/index.md`](books/when-interpretation-no-longer-matters/index.md) | Authority when explanation and repair no longer work. |
-| **Why Collaboration Is So Hard** — *And why the effort still matters* | [`upcoming/why-collaboration-is-so-hard/index.md`](upcoming/why-collaboration-is-so-hard/index.md) | Coordination without full ownership—contribution and trust under diffuse responsibility. |
+| **Why Collaboration Is So Hard** — *And why the effort still matters* | [`books/why-collaboration-is-so-hard/index.md`](books/why-collaboration-is-so-hard/index.md) | Coordination without full ownership—contribution and trust under diffuse responsibility. |
 
 **Fiction:** **Velorum** (upcoming) — [`upcoming/velorum/index.md`](upcoming/velorum/index.md). **Boundary Conditions** (organizational fiction) — [`books/boundary-conditions/index.md`](books/boundary-conditions/index.md).
