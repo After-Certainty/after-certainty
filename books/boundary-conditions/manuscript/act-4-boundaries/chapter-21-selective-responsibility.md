@@ -4,7 +4,7 @@ Eight weeks after Nate had moved to standards, Lena Cho started on a Monday and 
 
 Nate learned the details from a readout, not a bridge: budget line, escalation path, signatory field on the remediation row finally populated with a name that was not his.
 
-He had met her once in interviews—sharp questions, no praise for synthesis, a note that said *hire for signatory, not for vibes*.
+He had met her once in interviews—sharp questions, no praise for synthesis, a note that said *hire for signatory authority, not for vibes*.
 
 Monday she introduced herself in the war room with a printed org chart and a pen that actually worked.
 
@@ -148,7 +148,7 @@ Caleb stirred his water.
 
 “Okay.”
 
-“I’m scared of becoming you,” Caleb said.
+“I’m scared of turning into default infrastructure,” Caleb said.
 
 Nate set his fork down.
 

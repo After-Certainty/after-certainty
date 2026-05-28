@@ -30,7 +30,7 @@ His mother had called on Sunday while he was rewriting an hourly summary, voice 
 
 “I’ll take him,” Nate said, because his calendar had a two-hour gap labeled *focus time* that had not been focus time in three weeks, and because saying no would have meant trusting the gap to stay empty, which it would not.
 
-He had not told Warren. He had told Caleb, who had reacted with a thumbs-up and a message that said *go*, which was Caleb’s entire philosophy about humans sometimes needing to be humans.
+He had not told Warren. He had told Caleb, who had reacted with a thumbs-up and a message that said *go*, which was Caleb’s way of saying work can wait when family cannot.
 
 Tuesday night Hadley had found Daniel’s medication list on the printer tray—printed twice, different dates in the header—and a sticky note on the router that said *wifi password* with nothing written under it.
 
@@ -226,7 +226,7 @@ He wanted to argue that work was underwater, that the seam meeting was Monday, t
 
 He looked at the papers again—his father’s handwriting, slightly shaky.
 
-At work, questions landed on whoever would turn fear into calendars and summaries.
+At work, questions landed on whoever would turn open risk into calendars and summaries.
 
 At home, the same routing was starting to land on him.
 
@@ -244,7 +244,7 @@ Nate stirred sauce he did not taste.
 
 “Rachel texts whoever answers,” Hadley said. “You answer.”
 
-He could not argue with the mechanics.
+He could not argue with the pattern.
 
 ---
 
@@ -278,7 +278,7 @@ Eli had posted variant six in a thread title that made Nate close his eyes for o
 
 Infrastructure had asked for rollback again.
 
-He read them all and felt the same tired loyalty to both worlds—the one that broke in public channels and the one that broke quietly in guest bathrooms and paper pockets.
+He read them all and felt the same tired loyalty to both worlds—the one that broke in public channels and the one that broke quietly in guest bathrooms and coat pockets.
 
 He typed in the family thread.
 
@@ -352,7 +352,7 @@ Silence on the line.
 
 “Okay,” his mother said. “Okay.”
 
-He hung up and felt the boundary hold, then wobble—the way a row at work held until someone else’s name was in the owner column.
+He hung up and felt the boundary hold, then wobble—the way a row at work held until someone else’s name went into the owner column.
 
 Friday Warren forwarded him a leadership thread that reframed variant five as “limited cohort exposure” with no owner attached.
 

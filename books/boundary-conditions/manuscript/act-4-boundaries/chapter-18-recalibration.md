@@ -116,7 +116,7 @@ Caleb: *Okay. I hate it. Good hate.*
 
 Nate exhaled in the parking garage, guilty and lighter at once.
 
-The guilt was old muscle memory—the belief that his absence was a failure visible to everyone. The lightness was new—the proof that Caleb’s name on the header had not stopped the clock.
+The guilt was old muscle memory—the belief that his absence meant the room would stall. The lightness was new—the proof that Caleb’s name on the header had not stopped the clock.
 
 He sat in the car without starting it and listened to the garage hum.
 
@@ -474,7 +474,7 @@ He was no longer default.
 
 The difference was small on the outside.
 
-On the inside it felt like learning to breathe with the whole chest.
+On the inside it felt like relearning normal breathing.
 
 Sunday he called Rachel because Hadley had asked him to say the quiet part in words she could hear.
 

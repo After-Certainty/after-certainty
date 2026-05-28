@@ -12,11 +12,11 @@ They met at the path behind the campus buildings, away from glass walls and snac
 
 They walked in silence long enough that a cyclist passed and a facilities truck beeped twice.
 
-“I used to want to be you,” Caleb said.
+“I used to want your role,” Caleb said.
 
 Nate looked at him.
 
-“Not the title,” Caleb said. “The function. The person who could hold the whole map in his head and make the room feel like it would be okay.”
+“Not the title,” Caleb said. “The role. The person who could hold the whole map in his head and make the room feel like it would be okay.”
 
 “It is not always okay.”
 
@@ -42,7 +42,7 @@ Caleb stopped walking.
 
 Nate said nothing.
 
-“I still want the bridge,” Caleb said. “I do not want to become the seam by admiration. People keep thanking me for absorbing. Warren keeps thanking me for translating you. I thought that meant I was winning.”
+“I still want the bridge,” Caleb said. “I do not want to become the seam just because people admire the work. People keep thanking me for absorbing. Warren keeps thanking me for translating you. I thought that meant I was winning.”
 
 “It means you are visible,” Nate said. “Visibility is not the same as authority.”
 
@@ -346,7 +346,7 @@ Denise came for ten minutes—not to recruit, she said, to answer questions.
 
 “Warren will still reach back,” Nate said.
 
-“Warren reaches back to everyone,” Denise said. “The job is to reach back without absorbing.”
+“Warren reaches back to everyone,” Denise said. “The job is to answer without absorbing.”
 
 Owen appeared in the doorway, unexpected.
 
@@ -416,7 +416,7 @@ The incident was still open.
 
 No name owned the seam yet.
 
-But Nate Mercer was no longer confused about what role he had been playing—and that was the first boundary that might hold when the company reached for him again.
+But Nate Mercer was no longer confused about what role he had been playing—and that was the first boundary that might hold the next time the company routed to him by default.
 
 ---
 

@@ -57,7 +57,7 @@ Ten minutes became forty.
 
 Wednesday’s executive pre-read had stalled on whether the incident was still *platform reliability* or had become something Warren did not want in an email subject line.
 
-Nate had written *cross-boundary authorization surface* and watched Warren edit it to *trust incident* and then back to *platform reliability* and then leave both in the doc as footnotes.
+Nate had written *users can still write across boundaries they should not cross* and watched Warren edit it to *trust incident* and then back to *platform reliability* and then leave both in the doc as footnotes.
 
 ---
 
@@ -141,7 +141,7 @@ On Tuesday at four, Caleb had run a bridge without Nate on the invite.
 
 Nate learned from the summary bot at four thirty—Legal hedging, Owen asking for segment language, Infrastructure defending flags, Priya posting the diagram, Caleb ending with *no owner on seam*.
 
-Nate forwarded the summary to Warren with one line: *Assign seam lead or accept regional disable as only shipped mitigation.*
+Nate forwarded the summary to Warren with one line: *Assign seam lead or accept regional disable as the only mitigation that has actually shipped.*
 
 Warren had not replied until ten p.m.
 
@@ -358,7 +358,7 @@ Wednesday he missed the Infrastructure flag session because Warren had pulled hi
 
 Thursday morning he missed the Security posture review because Product had reopened segment language and tagged him.
 
-By Friday his calendar had stopped pretending the incident had owners and started listing Nate Mercer as the connective tissue between organs that would not touch.
+By Friday his calendar had stopped pretending the incident had owners and started listing Nate Mercer as the person moving decisions between teams that would not talk directly.
 
 He created a private doc titled *What I actually own this week* and wrote three bullets:
 
@@ -410,7 +410,7 @@ She read it and handed the phone back.
 
 At ten he was still at the kitchen table with the laptop open, writing the paragraph Warren needed for morning.
 
-*Investigation has mapped a cross-boundary authorization surface spanning onboarding orchestration, identity policy, and profile synchronization. Mitigations have reduced acute risk. Failure mechanics remain contested—policy semantics, consent language, sync timing, inherited trust assumptions. Teams share a map shape; ownership for coordinated fix is still empty on the slide.*
+*Investigation has mapped where writes can cross boundaries across onboarding orchestration, identity policy, and profile synchronization. Mitigations have reduced acute risk. Teams are still arguing about the mechanism—policy semantics, consent language, sync timing, inherited trust assumptions. Teams share one map; ownership for a coordinated fix is still empty on the slide.*
 
 He read it twice.
 

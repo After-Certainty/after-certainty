@@ -172,7 +172,7 @@ After dinner Mark found Nate on the back porch with coffee that had gone cold.
 
 Rachel joined them, folder tucked under her arm.
 
-“I scheduled the neurologist follow-up,” she said. “Mark sent the insurance card photo. Mom signed the form. I did not need you.”
+“I scheduled the neurologist follow-up,” she said. “Mark sent the insurance card photo. Mom signed the form. I handled it without you.”
 
 Nate felt the sentence land.
 
@@ -242,7 +242,7 @@ Daniel’s voice was slower than it used to be.
 
 His eyes were bright.
 
-He was still a person with a history, not only a problem to route.
+He was still a person with a history, not only another thing to manage.
 
 Nate had treated him that way for months—routing, fixing, scheduling—because it was faster than sitting in the chair beside him.
 
@@ -420,7 +420,7 @@ By evening the family thread had settled into logistics without Nate adjudicatin
 
 Nate smiled at his laptop, tired.
 
-The system wobbled.
+The family process wobbled.
 
 It did not fall.
 

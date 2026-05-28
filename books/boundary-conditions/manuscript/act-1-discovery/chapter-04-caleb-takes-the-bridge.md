@@ -38,7 +38,7 @@ Warren said, “Nate, this is why I wanted you.”
 
 Nate watched a semi truck pass on the highway below the overpass and tried to pretend his body was not braced as if the car were a conference room.
 
-“What Caleb has been doing for thirty hours is keeping those sentences from becoming separate incidents,” Nate said. “If you want my read, Caleb stays primary on operational coordination. Priya owns technical truth on write scope and consent paths. Owen owns customer language and revenue bands with Legal in the room, not in a side channel. Infrastructure owns flag strategy with Identity on this bridge, not in async tickets.”
+“What Caleb has been doing for thirty hours is keeping those sentences from becoming separate incidents,” Nate said. “If you want my read, Caleb stays primary on operational coordination. Priya owns tracing where write scope and consent break. Owen owns customer language and revenue bands with Legal in the room, not in a side channel. Infrastructure owns flag strategy with Identity on this bridge, not in async tickets.”
 
 Silence.
 
@@ -144,7 +144,7 @@ Caleb’s hour thirteen summary had been one sentence.
 
 Warren had reacted with a thumbs-up.
 
-Nate had read it in the passenger seat and thought, not for the first time, that they were mitigating symptoms while arguing about who owned the cross-boundary outcome—but that was a sentence for his own notes, not Caleb’s bridge doc.
+Nate had read it in the passenger seat and thought, not for the first time, that they were mitigating symptoms while arguing about who owned what broke between systems—but that was a sentence for his own notes, not Caleb’s bridge doc.
 
 At hour sixteen, Caleb put Nate back on speaker from a parking lot outside the campus bookstore while Rachel tried on sunglasses she did not need.
 
@@ -176,13 +176,13 @@ Identity said, “If Legal will not review consent copy, we cannot confirm seman
 
 Caleb let them finish, then read back the last five statements in order without commentary.
 
-“Hear yourselves,” he said. “Nobody is lying. Everybody is waiting for somebody else to own the cross-boundary outcome. Nate, I’m going to assign temporary owners for tonight. Priya, technical truth. Owen, customer language with Legal copied. Greg-h, flag strategy with Identity on-bridge. Customer Systems, profile job pause proposal with blast-radius numbers by hour eighteen. Warren, executive choice on partial disable. Objections?”
+“Hear yourselves,” he said. “Nobody is lying. Everybody is waiting for somebody else to own what broke between systems. Nate, I’m going to assign temporary owners for tonight. Priya, trace where write scope breaks. Owen, customer language with Legal copied. Greg-h, flag strategy with Identity on-bridge. Customer Systems, profile job pause proposal with blast-radius numbers by hour eighteen. Warren, executive choice on partial disable. Objections?”
 
 Silence again—people who had run out of polite ways to repeat the same walls. Warren said, “Partial disable tonight. Monitoring overnight. Monday for consent language.”
 
 Caleb typed while still on mute. Nate watched the operational channel update in real time on his phone screen.
 
-*Operational point: Caleb Ross. Backup anchor: Nate Mercer through Monday. Technical truth: Priya Raman. Customer language: Owen Patel + Legal. Flag strategy: Infrastructure + Identity on-bridge.*
+*Operational point: Caleb Ross. Backup anchor: Nate Mercer through Monday. Write-scope tracing: Priya Raman. Customer language: Owen Patel + Legal. Flag strategy: Infrastructure + Identity on-bridge.*
 
 Rachel texted while Nate was still muted.
 

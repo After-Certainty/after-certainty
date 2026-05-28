@@ -56,7 +56,7 @@ Compliance added a fourth frame an hour later: if the prior assessment had been 
 
 Nate edited Caleb’s second hourly summary from a barstool in the hotel lobby after Rachel’s friends had gone to bed, typing with one hand around a glass of water he had ordered as a concession to being awake past midnight.
 
-He did not write that four teams were describing four different disasters. He wrote that teams were converging on customer impact assessment and that technical root-cause analysis remained in progress. It was true the way press releases were true.
+He did not write that four teams were describing four different disasters. He wrote that teams were converging on customer impact assessment and that engineering was still tracing where the write path broke. It was true the way press releases were true.
 
 Caleb called at twelve-forty Mountain Time, voice compressed by headset noise.
 
@@ -84,7 +84,7 @@ It was the question he had been avoiding since Eli rotated the laptop on his des
 
 “Same problem.”
 
-Nate smiled despite himself. “Least wrong is that we have a delegated write path that assumes trust we have not enforced. Sync language is how Product and Customer Systems can discuss it without saying authorization. Staging language is how Infrastructure can discuss it without owning identity policy. Compliance language is how everyone can postpone naming the part that scares Legal.”
+Nate smiled despite himself. “Least wrong is that delegated users can still write across profiles they should not touch. Sync language is how Product and Customer Systems can discuss it without saying authorization. Staging language is how Infrastructure can discuss it without owning identity policy. Compliance language is how everyone can postpone naming the part that scares Legal.”
 
 Caleb was quiet long enough that Nate could hear someone else talking in the background on his end—probably the bridge, probably always the bridge now.
 
@@ -98,7 +98,7 @@ Nate did.
 
 He wrote one paragraph at one in the morning Mountain Time, no bullets, no options table, just plain sentences in the thread where people who built systems still argued like builders instead of like spokespeople.
 
-*If we call this only a synchronization defect, we are describing a symptom of a consent-and-write-scope failure in delegated relationships. That does not mean sync is innocent. It means we may be choosing a story because it routes blame toward teams already accustomed to being blamed.*
+*If we call this only a synchronization defect, we are describing a symptom, not the mechanism. Delegated users can still write across profiles they should not touch in some flows. That does not mean sync is innocent. It means we may be choosing a story because it routes blame toward teams already accustomed to being blamed.*
 
 The reactions took longer this time. Not eleven seconds. Nearly four minutes.
 
@@ -118,7 +118,7 @@ Rachel found him still at the counter when she came out for a late glass of wate
 
 “Then why are you still up?”
 
-He considered telling her the truth in plain language—that four groups were describing the same hole in the ground from different elevations and calling it different weather. He considered telling her about delegated profiles and consent boundaries. He considered not telling her anything and failing the person who had come to the airport with a joke sign.
+He considered telling her the truth in plain language—that four groups were describing the same hole in the ground from different elevations and calling it different weather. He considered telling her about delegated profiles and who could write to which account. He considered not telling her anything and failing the person who had come to the airport with a joke sign.
 
 Instead he said, “Because if I go to bed without writing it down, five hundred people will wake up and choose the story that makes their part of the company safest.”
 
@@ -216,7 +216,7 @@ Warren appeared in the leadership thread with a question for Nate’s eyes only.
 
 Nate typed back.
 
-*Not by editing adjectives. By assigning owners to the fork. Caleb is trying. I can help at noon bridge.*
+*Not by editing adjectives. By assigning owners to the fork. Caleb is trying. I can help on the noon bridge.*
 
 Warren replied with a thumbs-up that meant schedule pressure, not agreement.
 

@@ -8,7 +8,7 @@ Warren opened with the same sentence Nate had heard in every room that week.
 
 Nobody disagreed. Everybody disagreed with what it implied for their roadmap.
 
-Nate had written in the margin: *We are negotiating adjectives because nouns cost headcount.*
+Nate had written in the margin: *We are arguing over wording because committing to owners costs headcount.*
 
 In the hallway before the room Caleb had said, “This is where it breaks or they schedule another meeting.”
 
@@ -44,7 +44,7 @@ He watched Infrastructure’s lead write *not our flag* on a sticky note and sti
 
 He watched Pablo’s model recommend an option that required “minimal cross-team staffing,” which was machine language for *magic*.
 
-Pablo’s slide deck advanced to a page Nate had already seen twice—AI-generated architecture options ranked by “organizational feasibility,” a phrase that meant *nobody has agreed to own this*.
+Pablo’s slide deck advanced to a page Nate had already seen twice—AI-generated architecture options ranked by “organizational feasibility,” a phrase that meant *nobody had agreed to own this*.
 
 Caleb muted and unmuted people with the patience of someone who had accepted bridges as his native climate.
 
@@ -54,7 +54,7 @@ He was becoming the argument anyway.
 
 At minute fifty-five Owen asked whether Product could publish interim caregiver language without waiting for Legal’s glossary. Legal, remote, said every interim sentence became discoverable the moment it shipped. Owen said customers were already discoverable in churn. Infrastructure said churn was not their metric. Product said churn was everyone’s metric except the team that owned consent state. The platform director said consent state was not a service name on any RACI Nate had seen.
 
-Nate typed in his notebook: *nine owners, zero signatory.*
+Nate typed in his notebook: *nine teams in the room, zero signatory.*
 
 He did not post it in the channel.
 
@@ -176,7 +176,7 @@ Owen said, “I still need segment language—”
 
 Warren said, “Offline.”
 
-The meeting ended eleven minutes later with scheduling language and a promise of “executive alignment offline,” which Nate had learned meant *nobody signs anything in this room*.
+The meeting ended eleven minutes later with scheduling language and a promise of “executive alignment offline,” which Nate had learned meant *nobody signs anything in this room today*.
 
 ---
 
@@ -350,7 +350,7 @@ Nate stared at the parking garage through his office window.
 
 “With a problem that still needs solving,” Warren said. “And with you still on the synthesis lane until we have a structural answer.”
 
-Nate closed his eyes. “I can synthesize,” he said. “I cannot keep absorbing the cost of your seams in silence.”
+Nate closed his eyes. “I can synthesize,” he said. “I cannot keep absorbing the cost of unowned seams in silence.”
 
 Warren exhaled. “I heard you,” he said, and ended the call.
 

@@ -614,4 +614,4 @@ Stress had returned—the old velocity in Slack, the old reach for his name.
 
 Nate still knew the architecture.
 
-The question was what he would do with that knowledge when everyone else remembered how easy it had been to route it through him.
+The question was what he would do with that knowledge when old channels started pinging him first again.

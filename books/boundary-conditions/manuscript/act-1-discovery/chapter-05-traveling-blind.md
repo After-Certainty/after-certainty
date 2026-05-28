@@ -22,7 +22,7 @@ A vice president Nate had met once at an all-hands asked why Security had escala
 
 Nate did not reply in that thread.
 
-He had learned, over years of being useful, that leadership conversations were not always requests for information. Sometimes they wanted reassurance. Sometimes they wanted a scapegoat thin enough to fit through a phone screen.
+He had learned, over years of being useful, that leadership conversations were not always requests for information. Sometimes they wanted reassurance. Sometimes they wanted a name they could point to in the thread.
 
 ---
 
@@ -104,7 +104,7 @@ The call ended. Rachel came in with a garment bag over her shoulder and looked a
 
 “Bad?”
 
-“Not bad. Narrative.”
+“Not bad. Getting leadership aligned on the story.”
 
 She made a face that said she had married into the wrong industry by proxy. “Airport in ninety. Try not to save the company in the security line.”
 
@@ -182,7 +182,7 @@ Warren had already answered once—measured, careful, noncommittal. Someone in L
 
 Nate did not reply. He drafted a private note to Caleb instead.
 
-*If comms picks platform reliability, exec brief will shrink Security’s role in the story. If they pick trust incident, Product will fight every mitigation that touches conversion. Make Warren choose in the executive doc, not in Slack.*
+*If comms picks platform reliability, exec brief will make this look like Infra and Customer Systems. If they pick trust incident, Product will fight every mitigation that touches conversion. Make Warren choose in the executive doc, not in Slack.*
 
 Caleb replied three minutes later.
 
@@ -192,7 +192,7 @@ That was Caleb now—not waiting for Nate to see the fight first.
 
 Nate read the thread twice.
 
-Platform reliability event would route fear toward Infrastructure and Customer Systems. Trust incident would route fear toward Security, Legal, and anyone who had signed prior assessment responses.
+Platform reliability event would put pressure on Infrastructure and Customer Systems. Trust incident would put pressure on Security, Legal, and anyone who had signed prior assessment responses.
 
 Nobody in the thread asked which description was true.
 

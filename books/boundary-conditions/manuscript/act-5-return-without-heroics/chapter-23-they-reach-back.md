@@ -642,9 +642,9 @@ He left the channel at hour one—muted bridge, board prep still ahead in the af
 
 The pull was not whether he would help.
 
-The pull was whether help would become absorption under the old gravity.
+The pull was whether helping would slide back into unowned work.
 
-He knew the gravity well.
+He knew that pattern.
 
 He had lived in it for years.
 
@@ -662,7 +662,7 @@ He did not know yet that Owen would melt in the hallway after and Caleb would al
 
 The old gravity was still there, pulling.
 
-He was learning to stand in it without becoming it again.
+He was learning to stand in that pressure without becoming default infrastructure again.
 
 Hadley was already asleep.
 

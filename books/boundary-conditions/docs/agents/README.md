@@ -24,8 +24,9 @@ All revision agents below are **Boundary Conditions–specific** (tailored from 
 | **6** | [Audio read-aloud](./06-audio-readaloud.md) | **Before chapter done**—listen/TTS tripwire |
 | **7** | [Character consistency](./07-character-consistency.md) | Optional—when cast or Nate interior drifts |
 | **8** | [Line-level precision](./08-line-level-precision.md) | Optional, sparing—word echoes and micro-clunk |
+| **9** | [Technical realism](./09-technical-realism-agent.md) | Optional, tighten technical and organizational credibility |
 
-**Recommended full pipeline:** **00 → 01 → 02 → 03 → 04 → 05 → 06** on dialogue-heavy chapters. Add **07** when voice feels off; **08** only late and local.
+**Recommended full pipeline:** **00 → 01 → 02 → 03 → 04 → 05 → 06** on dialogue-heavy chapters. Add **07** when voice feels off; **08** only late and local; **09** when institutional language feels over-authored.
 
 Skip **0** when drafting by hand from the exemplar habits.
 
@@ -60,3 +61,4 @@ Do not skip **02** (genre) or **06** (read-aloud) when aiming for publishable ch
 | **6** | `06-audio-readaloud.md` |
 | **7** | `07-character-consistency.md` |
 | **8** | `08-line-level-precision.md` |
+| **9** | `09-technical-realism-agent.md` |

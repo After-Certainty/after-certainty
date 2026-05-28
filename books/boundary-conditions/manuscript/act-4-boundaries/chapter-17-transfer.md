@@ -42,7 +42,7 @@ The bridge audio continued.
 
 Nate exhaled and watched the confirmation screen the way people watched elevator doors close.
 
-He had not written: *I am done being organizational middleware.*
+He had not written: *I am done being the person every unresolved decision routes through.*
 
 He had not written: *Your seam ate my month.*
 
@@ -130,7 +130,7 @@ Denise was quiet.
 
 “The Sev One?” she asked.
 
-“The Sev One was the flashlight,” Nate said. “The thing I’m moving from is what we do when the flashlight turns off.”
+“The Sev One was the flashlight,” Nate said. “The thing I’m moving from is what happens after the incident when nobody owns the seam.”
 
 She exhaled.
 
@@ -494,7 +494,7 @@ Mark: *About time.*
 
 That hurt less than it should have.
 
-He had stopped negotiating with exhaustion and started negotiating with structure.
+He had stopped negotiating with exhaustion and started insisting on named ownership.
 
 It felt quiet.
 
