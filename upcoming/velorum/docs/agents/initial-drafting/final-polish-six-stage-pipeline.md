@@ -2,6 +2,8 @@
 
 **Use when:** The chapter is already strong; you want **one Cursor session** that applies **minimal, high-impact** edits in a **fixed order** without merging stages.
 
+**Chain compatibility:** This pipeline is the canonical polish path for the core chain. Do not run `revision/09-contemporary-flow-agent.md` or `revision/10-contemporary-fantasy-accessibility-agent.md` in the same cycle unless a post-pipeline readout still shows unresolved density/accessibility issues.
+
 **Relation to numbered agents:** Each stage aligns with an existing spec—run this pipeline as **one chained instruction**, or run agents **[02](./03-flow-clarity-editor.md) → [03](./04-embodiment-sensory-grounding.md) → [04](./05-dialogue-voice.md) → [05](./06-thematic-signal.md) → [06](./07-pacing-structural-tension.md) → [10](./12-read-aloud-cadence-clarity-editor.md)** as separate passes. **Optional:** run **[01](./02-cinematic-scene-pass.md)** once **before** stage 1 when the chapter needs **stronger establishing geography / light / “camera”** after the rough draft. **Stage 6** here is the same bar as **[10](./12-read-aloud-cadence-clarity-editor.md)** (audiobook-style cadence); **[07](./09-audio-readaloud.md)** remains the quick listener/TTS tripwire and can run before or alongside that chain.
 
 ---

@@ -11,13 +11,13 @@ He kept the phrase small, no image, no voice, just words. For three breaths it h
 
 Then Cael felt it.
 
-Riven knew the second it crossed because Cael's reaction snapped back from below: irritation, suspicion, then a question shaped like an order.
+Riven knew the second it crossed because Cael's reaction snapped back from below: irritation, suspicion, then a question that felt like an order.
 
 Where are you.
 
 Riven clenched his jaw. Nowhere.
 
-The answer went through anyway, location and mood bundled together, like a door with no latch. Thirty heartbeats later, heavy steps came up the ladder to the platform and Cael pulled himself over the lip, hair damp from a hurried wash, shirt half fastened.
+The answer went through anyway, location and mood bundled together, like a door with no latch. Thirty heartbeats later, heavy steps came up the ladder and Cael pulled himself onto the platform, hair damp from a hurried wash, shirt half fastened.
 
 He had come without lacing his boots, one heel crushed flat, like he'd run mid-button.
 
@@ -45,7 +45,7 @@ Cael looked away toward the wall lights. "This is not about wanting someone."
 
 Cael's shoulders dropped a fraction, the only sign he had heard what that meant.
 
-The words hung between them. Through the bond came Cael's refusal, disciplined and immediate, and underneath it fear Cael was trying not to name: that any private attachment might make the next patrol slower, the next fight late.
+The words hung between them. Through the bond came Cael's refusal, hard and immediate, and under it fear he was trying not to name: that any private attachment might make the next patrol slower, the next fight late.
 
 "We have people depending on us," Cael said.
 
@@ -61,13 +61,13 @@ Cael winced as if struck.
 
 They stood in silence while wind rattled loose slate. Below them, a gate bell rang once and stopped.
 
-Riven waited until Cael had climbed halfway down the ladder, then tested the seam again on pure spite. He pictured the roofline exactly as he saw it and then shoved his attention to the opposite side of the square, to a laundry line and a broken chimney pot and anything not Lyra, not fear, not Cael.
+Riven waited until Cael had climbed halfway down the ladder, then tested the seam again out of pure spite. He pictured the roofline exactly as he saw it and shoved his attention to the opposite side of the square, to a laundry line and a broken chimney pot and anything not Lyra, not fear, not Cael.
 
 It lasted three breaths before Cael's awareness touched back, not words this time, just the shape of where Riven stood and how cold his hands were. Relief came first. Then anger at the relief.
 
-Riven tried a different experiment after Cael left. He climbed down, crossed two streets, and bought a cup of sour plum wine from a night stall run by a woman with a ruined ear. He found a dark step behind a closed tailor shop and sat alone where no one would ask questions. Light from the nearest alley torch did not quite reach him, only a soft orange edge on the cobbles. Behind him, a second-floor window shutter banged once in the wind and then went still. If distance failed, maybe method would work.
+Riven tried a different experiment after Cael left. He climbed down, crossed two streets, and bought a cup of sour plum wine from a night stall run by a woman with a ruined ear. He found a dark step behind a closed tailor shop and sat alone where no one would ask questions. Light from the nearest alley torch barely reached him, only a soft orange edge on the cobbles. Behind him, a second-floor window shutter banged once in the wind and then went still. If distance failed, maybe routine would work.
 
-He reached for a memory he had never spoken aloud: Greyhaven, age twelve, falling through rotten boards into winter canal water, panic and mud and a broken tooth, Cael hauling him out by the back of his shirt while shouting hard enough to make him cry afterward.
+He reached for a memory he had never spoken aloud: Greyhaven, age twelve, falling through rotten boards into winter canal water, panic and mud and a broken tooth, Cael hauling him out by the back of his shirt while shouting hard enough to make him cry after.
 
 Then he tried to build a wall the way old dockworkers taught children to keep panic out: name five things you can see, four things you can touch, three sounds, two smells, one taste. Broken gutter chain. Split brick. Wet cobble seam. Torch reflection. Crate nail. Stone step under his thigh. Damp cuff at his wrist. Rough glaze on the cup. Leather at his boot heel.
 
@@ -75,7 +75,7 @@ By the time he got to sound, Cael was already there in his head again, uninvited
 
 Riven held the memory tight, not the facts only, but the shame in it, the child terror. For a moment he believed he had kept it.
 
-Then Cael's grief hit him from across the square, sudden and deep. Not present grief, old grief, borrowed from the same memory he had never wanted shared.
+Then Cael's grief hit him from across the square, sudden and deep. Not present grief. Old grief, borrowed from the same memory he had never wanted shared.
 
 Riven dropped the cup. It shattered on stone, wine jumping cold across his fingers and boot leather.
 
@@ -106,7 +106,7 @@ Cael's mouth tightened. "I didn't ask for your memories."
 
 "Then what the hell do you want me to do when it hits?"
 
-Riven took a breath before answering. "I want one room in my head that isn't shared storage."
+Riven took a breath before answering. "I want one room in my head that isn't shared."
 
 Cael did not answer right away. When he did, his voice was rougher than usual. "I don't want to take things from you."
 
@@ -129,7 +129,7 @@ Cael said it to the floorboards, not to Riven.
 
 Riven let out a breath that was almost a laugh. "I noticed."
 
-From outside the dormitory came the scrape of a broom on stone where night crew was clearing ash tracked in from the square. The ordinary sound made the conversation feel even worse, like this was now routine.
+From outside the dormitory came the scrape of a broom on stone where night crew was clearing ash tracked in from the square. The ordinary sound made the conversation feel even worse, like this was routine now.
 
 They sat in the dim dormitory while someone two cots down ground his teeth in sleep.
 
@@ -145,7 +145,7 @@ Cael said nothing. Through the bond, Riven felt the hit land hard and quiet.
 
 Neither slept quickly. Every time Riven turned, Cael felt it. Every time Cael's guilt brushed the seam, it landed under Riven's ribs. Just before dawn Riven accepted what he had been refusing.
 
-The bond was not only power. It was intimacy without permission.
+The bond was not only power. It was closeness without permission.
 
 When first bell rang, both of them were already awake.
 

@@ -13,7 +13,7 @@ When the list reached the river-stairs dead, the mother from the tipped wagon on
 
 An hour later she came back with two boys and asked where to stack salvaged boards for pyres. Riven pointed her toward the east lane pile and took half the load from the older boy without speaking.
 
-None of it landed cleanly. Every reaction from the crowd passed through the bond and mixed with Cael's running tally of failures.
+None of it landed cleanly. Every reaction from the crowd came through the bond and mixed with Cael's running count of what went wrong.
 
 He found Lyra in the infirmary annex sorting bandage rolls into crates for the outer wards. The annex was narrower than the main hall, shelves on one side and a row of high windows on the other letting in hard white light.
 She looked up once, read his face, and pushed a stool toward him with her foot.
@@ -36,9 +36,9 @@ She stopped folding and met his eyes. "You want a count so you can punish yourse
 
 Riven did not deny it.
 
-"Then here's the number you actually need," Lyra said. "You both keep trying to carry everyone at once. That isn't strength. It's collapse dressed as ceremony."
+"Then here's the number you actually need," Lyra said. "You both keep trying to carry everyone at once. That isn't strength. That's collapse."
 
-The line was sharp enough to make him breathe in through his teeth. From the command hall across the square, Cael caught it too while reviewing gate reports with Merrow and two council clerks. Cael's reaction came back immediate: anger at Lyra, then anger at himself for it.
+The line made him breathe in through his teeth. From the command hall across the square, Cael caught it too while reviewing gate reports with Merrow and two clerks. Cael's reaction came back fast: anger at Lyra, then anger at himself for it.
 
 "He's listening," Riven said.
 
@@ -52,17 +52,17 @@ Riven almost smiled. It pulled at split skin on his lower lip.
 
 By midday, Halverin called for a public address in the lower square. Temporary scaffolds had gone up overnight, banners hung to hide fire damage, guards posted at each alley mouth. Riven stood to one side of the platform with Cael, both cleaned and re-bandaged, both feeling staged.
 
-Halverin stepped forward in a charcoal coat and spoke in a calm cadence that turned panic into narrative. He named the attack a trial, the dead honorable losses, and Cael and Riven proof Kestrel Gate still had defenders. Each sentence landed clean.
+Halverin stepped forward in a charcoal coat and spoke in a calm cadence. He called the attack a trial, called the dead honorable losses, and pointed to Cael and Riven as proof Kestrel Gate still had defenders.
 
 The crowd responded in uneven waves: a few cheers, more silence, one man shouting that his daughter had been at the river stairs until guards pulled him back. Halverin never broke cadence. He waited for the noise to flatten and kept reading from the same page.
 
-Two scribes on the side platform copied his speech as he gave it. Runners took each sheet the moment ink dried and carried them toward gate posts like dispatches from a war front.
+Two scribes on the side platform copied his speech while he gave it. Runners took each sheet as soon as the ink dried and carried them toward gate posts.
 
 Near the rear of the square, a priest from the lower chapel tried to start a mourning prayer and got drowned out by the next set of civic instructions. By the third interruption he folded his book shut and moved to the edge of the crowd.
 
 A woman near him kept repeating her son's name under her breath like a looped chant. No one corrected her. No one joined in either.
 
-Riven felt the square lean toward the speech, not because people believed every word, but because words were easier than raw fear.
+Riven felt the square lean toward the speech, not because people believed every word, but because words were easier than panic.
 
 Then Halverin said, "Yesterday showed us the next step. Alignment must be completed, not assumed."
 
@@ -70,7 +70,7 @@ Cael's focus sharpened. Riven felt it happen, the same way he had felt it in the
 
 Halverin continued, "In two days, we will hold a public demonstration. Controlled, observed, guided. The sworn pair will show the city what true convergence looks like."
 
-Riven turned his head slowly toward Cael. Cael was already looking at Halverin with that same expression he got when he saw structure in a pile of broken pieces.
+Riven turned his head slowly toward Cael. Cael was already looking at Halverin with that same look he got when he thought he could still fix something broken.
 
 No, Riven pushed through the bond before words.
 
@@ -104,7 +104,7 @@ Cael went still. "I wasn't-"
 
 "You were. And then I was judging you for judging me, and by the time I moved we were both late." Riven pressed fingers to his temples. "Tell me how that's salvageable."
 
-Cael did not have an answer. Riven felt him searching anyway, refusing to let go of the idea that there had to be a way through. Halverin was giving that refusal a method and a stage.
+Cael did not have an answer. Riven felt him searching anyway, refusing to let go of the idea that there had to be a way through. Halverin was giving that refusal a plan and a crowd.
 
 By dusk, funeral fires burned in three quarters. Bells sounded in uneven intervals as names were read at ward posts. Riven stood on the wall walk and watched smoke drift over the road they had come in on.
 
@@ -122,7 +122,7 @@ Riven stared at the nearest notice until letters blurred.
 
 Riven looked down to where cleanup crews were still shoveling ash under torchlight. "Same thing?"
 
-Cael did not answer immediately. Through the bond, Riven felt the pause as a full-body ache.
+Cael did not answer immediately. Through the bond, Riven felt the pause like a full-body ache.
 For one breath, standing shoulder-close on the wall, the ache eased.
 Riven leaned into it before he caught himself.
 
@@ -174,6 +174,6 @@ Merrow gave a thin smile. "You."
 
 She moved on before either of them could answer.
 
-Inside them, nothing was stable. Riven felt his own guilt and Cael's layered into one constant pressure. The bond that had made them unbeatable on the road now felt like a cracked vessel carrying twice the weight.
+Inside them, nothing was stable. Riven felt his own guilt and Cael's layered into one constant pressure. The bond that had made them unbeatable on the road now felt cracked and overloaded.
 
 Riven stopped telling himself this would pass by morning.

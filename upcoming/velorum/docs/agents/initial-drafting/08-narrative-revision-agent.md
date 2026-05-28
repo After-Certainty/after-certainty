@@ -9,6 +9,7 @@ Run a chapter-level **narrative coherence pass** that strengthens scene-to-scene
 - **Setup/payoff hygiene:** promised tensions, objects, and decisions resolve or intentionally defer
 - **Narrative economy:** keep what carries plot/character pressure; trim drift, repetition, and soft restatement
 - **Arc shape at chapter scale:** opening promise -> escalation -> hinge/reversal -> consequence
+- **Voice pressure checks:** remove abstract thesis speech, polished self-analysis, and systems-language narration drift that widen author-distance
 
 **DO:**
 - Confirm chapter POV on **[act-chapter-index.md](../../act-chapter-index.md)** and keep close-third stable through all revisions
@@ -17,6 +18,10 @@ Run a chapter-level **narrative coherence pass** that strengthens scene-to-scene
 - Make consequences legible after major lines/actions (social, tactical, relational, physical)
 - Strengthen callbacks to earlier chapter signals where payoff is currently too faint
 - Keep prose concrete and sayable per **[voice-spec.md](../../voice-spec.md)** and **[project-spec.md](../../project-spec.md)**
+- Prefer action-first emotional meaning (body, silence, interruption) over explicit philosophy lines
+- Keep dialogue reactive and imperfect under stress; trim symmetrical "thesis exchange" turns unless character-performed on purpose
+- Attribute institutional framing to explicit speakers/texts; avoid default-narrator structural diagnosis
+- Add a post-pass meta-language sweep: cut lines that summarize rhetoric rather than advancing scene reality
 
 **DO NOT:**
 - Add new major plot events, lore rules, or character turns not supported by chapter canon
@@ -24,6 +29,8 @@ Run a chapter-level **narrative coherence pass** that strengthens scene-to-scene
 - Break single-POV discipline to explain continuity gaps
 - Over-correct into summary/exposition when a scene beat can carry the same information
 - Duplicate work from line-level polish; this pass is chapter-logic and narrative pressure first
+- Preserve crafted aphorisms by default; keep only the strongest lines and convert the rest to lived speech
+- Keep abstract verdict labels (*proof, framework, method, information*) when a concrete claim/action could carry the beat
 
 **STYLE:**
 - Sarah Beth Durst-like clarity

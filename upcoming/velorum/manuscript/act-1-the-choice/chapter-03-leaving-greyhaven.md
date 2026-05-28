@@ -1,6 +1,6 @@
 # Chapter 3 - Leaving Greyhaven
 
-Riven stood in the narrow hall with his pack half buckled, rope coiled tight enough to bite, blanket rolled until the wool looked hard, the strap digging into his shoulder where the seam had gone thin. Under that pressure he could feel every thread.
+Riven stood in the narrow hall with his pack half buckled, rope coiled tight enough to bite, blanket rolled until the wool looked hard, the strap digging into his shoulder where the seam had gone thin. He could feel every thread under it.
 
 The morning bell from the tower by the market hadn't rung yet, but the inn was already awake in the wrong way: pots clanging like someone meant to wake the dead, Mara's voice flat through the kitchen wall, a door slamming twice because the latch didn't catch unless you hit it like you owed it money.
 
@@ -9,9 +9,7 @@ Low beams cut what light there was; the planks smelled of oats and tallow, and c
 Through the kitchen doorway, lamplight cut a wedge across the floorboards, steam lifted off a kettle, and Mara counted coins into her palm without looking up, the same rhythm she used for eggs.
 
 "You paid," she said, not a question.
-
 "We paid," Riven answered.
-
 "Then don't track mud back in."
 
 Though he hadn't stepped off the doormat yet, he stayed on it anyway, boots together like a boy in trouble, hating that his body still did that without asking him.
@@ -29,11 +27,11 @@ Riven's jaw tightened. "Say that again."
 
 Cael's eyes flicked to Mara, then back. "We leave clean," he said, softer. "No fights. No stories. We get distance while the square's still sleeping off last night."
 
-Distance—miles were the point. Riven let out a breath he hadn't known he was holding, then swallowed the first thing that wanted out of his mouth, something sharp about beams and cracks and pretending fear was a schedule. He nodded once because nodding cost less than explaining.
+Distance was the point. Riven let out a breath he hadn't known he was holding, then swallowed the first thing that wanted out of his mouth. He nodded once because nodding cost less than explaining.
 
 Outside, the harbor air hit him damp and salted. The sky over the water hung bruised, not quite day, not quite night. Wet cobbles threw back the thin gleam of mast lanterns burning low; gulls complained on the pilings. A cart creaked somewhere down toward the docks, early work, the kind of work that didn't care whether you'd slept.
 
-They took the lower lanes first, rooflines tight enough to steal half the grey dawn light, keeping to shadows where they could, not because they were sneaking exactly, but because a pack before dawn drew eyes in Greyhaven. Eyes turned into questions, and questions turned into someone trying to sell you luck you didn't have coins for.
+They took the lower lanes first, rooflines tight enough to steal half the grey dawn light, keeping to shadows where they could. Not because they were sneaking, exactly, but because a pack before dawn drew eyes in Greyhaven. Eyes turned into questions, and questions turned into someone trying to sell you luck you didn't have coins for.
 
 A woman opening shutters watched them pass, then went back to shaking flour out of a cloth over her doorstep.
 
@@ -42,23 +40,19 @@ The north gate's iron was cold when Riven pushed it. The hinge whined, different
 The guard was half asleep, blanket over his knees, smell of last night's beer still coming off him in sour little breaths. He lifted his chin at them without interest.
 
 "North," Cael said.
-
 "North's always hiring," the guard muttered, which wasn't an answer, and waved them through like flies.
 
-Riven's mind snagged on Bran anyway: boots skidding on Heartbridge scree, Cael's coin vanishing into the boy's palm, the whole small transaction of paying someone else to carry noise away from Mara.
+Riven's mind snagged on Bran anyway: boots skidding on Heartbridge scree, Cael's coin vanishing into the boy's palm, paying someone else to carry noise away from Mara.
 
 The road began as packed dirt and old wheel ruts, wide enough for two carts if both drivers hated each other a little. Houses thinned; smoke threads rose behind them, then dropped away as the ground lifted. Sound changed too: the harbor noise dropped into wind, steady and blunt against Riven's ears. Behind him, Greyhaven shrank to a line of roofs and smoke.
 
-Cael set a pace that wasn't cruel but didn't forgive, either: long strides, shoulders square, eyes on the line where the road cut into the hills toward Ashfen, the grey upland past the last barley strips, where wind took the harbor smell out of your clothes and left only grit. Riven matched it because not matching would've been its own kind of talk, and he wasn't giving Cael that win this early.
+Cael set a pace that wasn't cruel but didn't forgive either: long strides, shoulders square, eyes on the line where the road cut into the hills toward Ashfen. Riven matched it because not matching would've been its own kind of talk, and he wasn't giving Cael that win this early.
 
 Gravel skittered under his boots on the first switchback, loose stone catching the weak light in pale chips, and somewhere below a stream ran loud enough to hear but not see.
 
 "You eat yet?" Cael asked without turning around.
-
 "No."
-
 "You should've."
-
 "I'll eat when my stomach catches up to my pride."
 
 Cael made a sound that could've been agreement or annoyance. Hard to tell from behind.
@@ -129,9 +123,9 @@ Cael's shoulders tightened, barely, then loosened. "I know."
 
 "So what are we doing out here that isn't the same thing, just… farther?"
 
-Cael walked another ten paces before he answered; Riven could almost hear him choosing words the way he chose lumber, rejecting the warped ones first.
+Cael walked another ten paces before he answered.
 
-"We're not hauling for someone else's tally," Cael said. "We're listening for what they didn't print in those bullshit verses."
+"We're not hauling for someone else's tally," Cael said. "We're checking whether those bullshit verses are true."
 
 Riven's mouth twisted. "That's a line."
 
@@ -146,9 +140,7 @@ They rounded a bend and the whole coast opened for half a heartbeat: Greyhaven s
 Riven looked longer than he meant to.
 
 "Don't," Cael said.
-
 "I'm not."
-
 "You're measuring."
 
 "I'm…" Riven searched for a word that wasn't sentimental and failed. "I'm memorizing," he admitted, thumb braced on the cold buckle until his skin went numb, angry at himself for saying it.
@@ -159,7 +151,7 @@ Cael nodded once. "Good. Don't shrug it off. It keeps you honest."
 
 "Same thing."
 
-Riven almost smiled; almost smiling hurt worse than laughing would have.
+Riven almost smiled. It hurt worse than laughing would've.
 
 They stopped at a thin runoff where water cut a channel across the road, clear enough to cup and drink if you didn't mind grit, the shallow sheet catching weak daylight between the stones. Cael knelt and rinsed his hands anyway, cold water dripping from his fingers, then wiped them dry on his trousers as if getting the rinse mattered more than whether his hands stayed wet. Riven drank after, cold grit on his tongue, mostly for the chance to look at Cael without the excuse of walking.
 
@@ -175,11 +167,11 @@ Cael's jaw worked once. "I want to know."
 
 "If the ground answers," Cael said, like he was calling out a bad joist before he pulled it. "If it's more than ink."
 
-Riven heard the yard in that answer: the ridge, the chalk, the way Cael had sat on cold stone and named distances like nails. Cael still wasn't naming what came after yes, or what came after no.
+Riven heard the yard in that answer: the ridge, the chalk, the way Cael had sat on cold stone and named distances. Cael still wasn't naming what came after yes, or what came after no.
 
-"And if it's real," Riven said slowly, "you'll call that proof."
+"And if it's real," Riven said slowly, "you'll say that settles it."
 
-Cael stood, knees popping faintly, water still clinging to his knuckles. "I'll call it information."
+Cael stood, knees popping faintly, water still clinging to his knuckles. "I'll call it real."
 
 "And you'll still keep walking."
 
@@ -202,16 +194,14 @@ They started again without a signal, the way they always had, two boys trained b
 Higher up, the wind turned meaner. The trees leaned with it, branches scraping dry sounds together. Riven's breath came harder, ribs working under the pack strap, not from weak legs but from thin air and a fight in his chest he couldn't sort into a single name.
 
 "You still mad about the coat thing?" Cael asked after a while.
-
 "I'm not mad about the coat thing."
-
 "You're mad about something."
 
 "I'm mad that you sound like you're doing me a favor by letting me carry my own weight."
 
 Cael stayed quiet until Riven thought he'd finally pushed too far. Then Cael said, "I'm not doing you a favor. I'm trying not to lose you off a loose edge while you're too proud to ease the strap."
 
-"Same sentence, different packaging."
+"You're saying the same thing."
 
 Cael exhaled through his nose. "Riven."
 
@@ -233,7 +223,7 @@ They walked.
 
 Riven hitched his rope again, slower this time, and didn't argue when Cael matched pace beside him.
 
-By midday the road turned to broken shale that clicked under every step, a sound that got inside Riven's teeth. Sun came thin through cloud; dust sat pale on Cael's shoulders. Greyhaven had fallen behind, not far in miles, maybe, but far in the way distance always cheated: the town still visible if he looked, too small to face again without paying for it in pride. Riven didn't look again.
+By midday the road turned to broken shale that clicked under every step, a sound that got inside Riven's teeth. Sun came thin through cloud; dust sat pale on Cael's shoulders. Greyhaven had fallen behind. Riven didn't look again.
 
 When they stopped to eat, it was bread and hard cheese wrapped in cloth, dry in the mouth, measured out in careful bites.
 
@@ -247,7 +237,7 @@ Riven chewed and watched a hawk circle until it became a dot and vanished.
 
 "And you don't care."
 
-Cael's eyes flicked to him. "I care. It doesn't pick where I step."
+Cael's eyes flicked to him. "I care. It doesn't choose my next step."
 
 Riven almost laughed. "There it is."
 
@@ -261,17 +251,17 @@ Riven stared at him. "That's not fair."
 
 "Maybe not." Cael wrapped the cloth back around the cheese and knotted it with unnecessary care. "But we're out here because neither of us could stomach another year of useful with no name on it."
 
-Riven's jaw ached. He looked away fast, fingers curled into his sleeves, at the road, at the loose stones, at anything that wasn't Cael's face reading him the way it always did.
+Riven's jaw ached. He looked away fast, fingers curled into his sleeves, at the road, at the loose stones, at anything that wasn't Cael's face reading him again.
 
-"That's…" Riven started, then stopped, because finishing would've turned it into a speech, and speeches were how you lied to yourself prettily.
+"That's…" Riven started, then stopped, because finishing would've turned it into a speech.
 
 "Yeah," he said instead, rough. "Fine."
 
 They packed up and moved on. Afternoon dropped into a windless stretch where pale dust hung above the broken shale and the quiet pressed until he heard his own boots grinding grit with every step. His calves ached, the pack strap a hot line across his collarbone, and when he shifted the rope again sweat slid cold down his spine.
 
-Cael walked ahead, stride never changing, and Riven watched his back and matched it without deciding to, his bootfalls sliding into Cael's rhythm on reflex. Same as being towed, the verdict he'd already drawn when they ate: not fair. True anyway.
+Cael walked ahead, stride never changing, and Riven watched his back and matched it without deciding to, his bootfalls sliding into Cael's rhythm on reflex. Same as being towed. Not fair. True anyway.
 
-When the road forked, one branch broader and beaten pale from carts, one steeper and scattered with fresh scree, both bad in different ways, Cael stopped and waited without asking, like he'd known Riven would need a second to catch up in more than feet.
+When the road forked, one branch broader and beaten pale from carts, one steeper and scattered with fresh scree, both bad in different ways, Cael stopped and waited without asking, like he knew Riven would need a second to catch up in more than feet.
 
 "Left's longer," Cael said. "Right's steeper."
 
@@ -287,23 +277,19 @@ Cael's hand was there a beat later, not grabbing, not guiding, just present on h
 
 "I know." Cael let go.
 
-They kept climbing. By the time the light began to fail, Greyhaven was gone even when he looked back: hidden behind folds of earth and pine, so far behind that turning around would cost more pride than Riven had left in his pockets.
+They kept climbing. By the time the light began to fail, Greyhaven was gone even when he looked back: hidden behind folds of earth and pine.
 
-They made camp in a hollow off the road where stone broke the wind. Cael built a small fire with the efficiency of someone who'd done it so often it wasn't pride, just habit. Flame caught, snapped, settled into steady heat; for a breath the rock behind Cael flushed orange-grained, then the dark clamped down again around the hollow. Riven sat with his back to a cold rock and watched sparks lift and die.
+They made camp in a hollow off the road where stone broke the wind. Cael built a small fire with the efficiency of someone who'd done it so often it wasn't pride, just habit. Flame caught, snapped, settled into steady heat. Riven sat with his back to a cold rock and watched sparks lift and die.
 
 "You still think I'm walking like you're luggage?" Cael asked into the firelight.
-
 Riven surprised himself by answering honestly. "Sometimes."
-
 Cael nodded, once. "Tell me when."
-
 "I just did."
-
 Cael's mouth twitched. "Fair."
 
 They ate the last of the bread and let the fire talk awhile, crackle, pop, wood shifting once with a dry crack as the flames found a seam. Riven lay back eventually, coat zipped tight, blanket doubled where it mattered, stars opening above bare branches jagged against the sky. The sky went wider than harbor nights ever allowed: no masts, no rooflines, no low smoke eating half the dark.
 
-Riven stayed awake longer, listening to Cael's breathing on the other side of the fire, slow, even, already sliding toward sleep the way Cael did when his body decided the day was a job completed. His mind drifted to Heartbridge pale on the hill and pamphlet ink on his thumb, then the guard's lazy wave, Mara's coins counting down without mercy, the dock at dusk, Cael's flat yes when asked if he'd go anyway. Three tidy words kept trying to stick, heroes, curse, never forgotten, and he turned his face into the blanket wool until the taunt in his head went quiet.
+Riven stayed awake longer, listening to Cael's breathing on the other side of the fire, slow and even. His mind drifted to Heartbridge pale on the hill and pamphlet ink on his thumb, then the guard's lazy wave, Mara's coins counting down, the dock at dusk, Cael's flat yes when asked if he'd go anyway. Three tidy words kept trying to stick, heroes, curse, never forgotten, and he turned his face into the blanket wool until the taunt in his head went quiet.
 
 Different reasons, he told himself; same dirt under his boots.
 

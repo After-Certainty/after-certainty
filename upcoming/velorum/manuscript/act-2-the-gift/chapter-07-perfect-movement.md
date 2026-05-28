@@ -7,7 +7,7 @@ The road north of Ashfen narrowed into a cut between stone rises, too tight for 
 
 Riven was already moving. So was Cael. Neither gave a signal. They split left and right with one shared choice and hit the first two bandits before the others finished their sentence. Riven ducked a swing, and Cael's shoulder drove into the attacker's ribs in the same beat, the two motions fitting like one body finding balance.
 
-The fight should have been noise and panic. Instead it ran clean. Riven felt where Cael's weight would land and stepped before it landed. Cael felt where Riven would cut and made room before Riven asked. A blade came in low at Riven's knee; Riven lifted just enough, and Cael's hand caught the attacker's wrist at the exact place the strike opened. By the time the man screamed, Riven had already taken his knife and thrown it into the dirt behind him. The blade spun once in a stripe of sun and vanished under wheel ruts.
+The fight should have been noise and panic. Instead it ran clean. Riven felt where Cael's weight would land and stepped before it landed. Cael felt where Riven would cut and made room before Riven asked. A blade came in low at Riven's knee; Riven lifted just enough, and Cael's hand caught the attacker's wrist exactly where the strike opened. By the time the man screamed, Riven had already taken his knife and thrown it into the dirt behind him.
 
 One of the men tried to run. Riven went for him, then stopped because Cael had already chosen the same chase from the opposite side. They closed on the runner at once, not speaking, not looking at each other, and the man dropped to his knees with both hands up because there was nowhere left to go.
 
@@ -65,13 +65,13 @@ Cael answered before Riven decided if he wanted to. "We are headed there."
 
 "They said two oath-bound were on this road," the man said. "Said nothing could touch them."
 
-Riven felt Cael straighten beside him at the word oath-bound. Not pride, exactly. Relief with teeth. A shape to stand in.
+Riven felt Cael straighten beside him at the word oath-bound. Not pride, exactly. Relief with teeth.
 
 The man kept talking, fast now that he had an audience. "There've been raids for weeks. Whole caravans clipped. If you are going to the Gate, they'll want you there yesterday."
 
-Riven nodded and kept his face flat. The fight-high was still in him, too bright to hide, and it spilled through the bond. Cael's steadier satisfaction settled behind Riven's ribs like a second heartbeat.
+Riven nodded and kept his face flat. The fight-high was still in him, too bright to hide, and it spilled through the bond. Cael's steadier satisfaction sat behind Riven's ribs like a second heartbeat.
 
-Before they left, Cael checked the wagon straps and reset a cracked pin in one axle with a wedge of hard cedar. Riven held the wheel steady and passed tools as if they'd done that together all their lives too. The father watched in silence, then pressed two hard biscuits into Riven's hand like an offering to something he did not trust but still needed.
+Before they left, Cael checked the wagon straps and reset a cracked pin in one axle with a wedge of hard cedar. Riven held the wheel steady and passed tools like they'd done it together all their lives. The father watched in silence, then pressed two hard biscuits into Riven's hand like an offering to something he did not trust but still needed.
 
 "There are three more bad stretches before the Gate," the man said. "Narrow ground at Split Mile, then the marsh bend."
 
@@ -85,16 +85,16 @@ By the time they peeled off to make speed toward Kestrel Gate, the caravan line 
 
 The road climbed as soon as they left the wagons behind. Wind moved over the stone and carried old smoke from somewhere ahead. Afternoon light flattened the ridge into long gray planes, with only the far switchbacks catching gold. Below them, wagon lanterns blinked in and out between turns like slow fireflies caught in ruts.
 
-"This is what we asked for," Cael said. "No excuses now."
+"This is what we asked for," Cael said. "No backing out now."
 He rolled his shoulder once like he was trying to loosen something that wasn't muscle.
 
 Riven looked out over the ridge line. "Power?"
 
-"Purpose."
+"A direction."
 
-Riven wanted to say those were not the same thing. The thought formed and was gone before he finished it, because Cael had already heard it and answered inside the bond with a firm, tired no, like the argument had been rehearsed for weeks.
+Riven wanted to say those were not the same thing. The thought formed and was gone before he finished it, because Cael had already heard it and answered inside the bond with a firm, tired no.
 
-He kept walking. The rhythm of Cael's stride sat inside his own like a hook he could not pull free. He had loved the clean precision of the fight. Loved feeling impossible. Then the path narrowed. Their shoulders brushed once, then again. His jaw locked. Breath went shallow. There was no private corner left in him, not even for doubt.
+He kept walking. The rhythm of Cael's stride sat inside his own like a hook he could not pull free. He had loved the clean precision of the fight. Loved feeling impossible. Then the path narrowed. Their shoulders brushed once, then again. His jaw locked. Breath went shallow. There was no private corner left in him.
 
 At the next rise they stopped for a drink where lichen ran bright green over cracked stone. Cael knelt to refill the skin from a shallow runnel, and Riven felt the exact angle of his back through the bond before he looked down. Every small adjustment came through: fingers tightening on wet leather, breath slowing, the weight shift in Cael's left knee where an old strain always lived. The same precision that had saved people in the cut now left no room to be alone.
 
