@@ -78,7 +78,7 @@ Infrastructure spoke through *greg-h* again.
 
 “Being correct locally,” Caleb said, flat. “Keep going.”
 
-A Security director added breach posture and regulatory notification requirements, which sounded like ownership until you tried to assign them a Jira epic.
+A Security director added breach posture and regulatory notification requirements, which sounded like ownership until someone had to take the implementation ticket.
 
 Customer Operations said profile lifecycle was shared custody and had been shared custody for three reorgs.
 
@@ -96,7 +96,7 @@ Nate watched the circle close. Fluorescent light buzzed above the diagram. Someo
 
 Every sentence was true.
 
-No sentence ended with *and I will take the cross-boundary outcome*.
+No sentence ended with *and I will own what breaks between systems*.
 
 Warren asked again at minute forty.
 
@@ -122,7 +122,7 @@ Warren said, “Mercer—”
 
 Nate unmuted.
 
-“I can coordinate tradeoffs,” Nate said. “I cannot sign Product roadmap, Legal language, or Infrastructure flags. Priya is closest on technical truth. The seam needs a lead with authority, not another coordinator.”
+“I can coordinate tradeoffs,” Nate said. “I cannot sign Product roadmap, Legal language, or Infrastructure flags. Priya is closest to tracing where write scope breaks. The seam needs a lead with authority, not another coordinator.”
 
 Warren muted him with a look.
 
@@ -230,7 +230,7 @@ He left the Zoom at three twenty-two and walked to the war room corridor where C
 
 He posted a single comment at the top of the cross-boundary remediation row.
 
-*Component ownership is correct. Cross-boundary outcome needs a named lead with authority to negotiate tradeoffs across Product, Identity, Infrastructure, Security, and Customer Operations. Until then, mitigations will keep trading one risk for three.*
+*Component ownership is correct. Cross-boundary outcome needs a named lead with authority to negotiate tradeoffs across Product, Identity, Infrastructure, Security, and Customer Operations. Until then, mitigations will keep trading one concrete risk for three new ones.*
 
 Caleb reacted with a pin emoji.
 
@@ -302,7 +302,7 @@ Caleb: *Copy.*
 
 Monday’s working group lasted two hours anyway.
 
-The room was the same war room that would later teach Nate the smell of cold coffee and too many microphones. Today it smelled like dry-erase marker and fear dressed as professionalism.
+The room was the same war room that would later teach Nate the smell of cold coffee and too many microphones. Today it smelled like dry-erase marker and people trying to sound certain.
 
 Owen brought segment counts that made the room quiet. Priya brought policy version history that made Legal lean forward. Security brought a list of scenarios that required notification if consent language changed. Infrastructure brought rollback constraints. Customer Operations brought support-ticket projections.
 
@@ -324,7 +324,7 @@ Owen said, “That kills conversion.”
 
 The chief of staff said, “We will circle back.”
 
-The seam would remain unowned for another week, dressed in better vocabulary.
+The seam would remain unowned for another week, described in cleaner executive language.
 
 ---
 
@@ -356,7 +356,7 @@ Thursday Owen pulled Nate into a huddle room with a spreadsheet and no Legal.
 
 Nate looked at the spreadsheet.
 
-“Add a column,” he said. “Who signs the cross-boundary outcome.”
+“Add a column,” he said. “Who signs off on what breaks between systems.”
 
 Owen said, “That column is empty.”
 
@@ -426,7 +426,7 @@ Nate forwarded the argument to Warren with no commentary.
 
 Warren replied: *Schedule another exec readout. Make the seam visible upstairs.*
 
-Nate stared at the message and thought about the week he had spent between organs that were not his—stretched thin, holding shape while the body pretended health.
+Nate stared at the message and thought about the week he had spent passing decisions between teams that were not his—stretched thin, keeping the process moving while leadership called it progress.
 
 Friday before the exec readout he sat with Priya in the war room after everyone else left.
 

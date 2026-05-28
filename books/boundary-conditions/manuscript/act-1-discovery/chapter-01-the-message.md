@@ -134,9 +134,9 @@ Warren said, “Nate, you’re on the identity side of this. Where does it break
 
 Nate unmuted.
 
-“Synchronization is carrying authorization assumptions the service never meant to inherit,” he said. “The delegated link looks fine in isolation. The profile sync is where trust leaks.”
+“The sync job is carrying permissions the service never meant to inherit,” he said. “The delegated link looks fine in isolation. The profile sync is where trust leaks.”
 
-Silence followed—recognition again, which was always worse than confusion.
+Silence followed—recognition again, which was usually worse than confusion.
 
 Warren muted himself briefly, probably talking to someone else in the room with him, then came back.
 
@@ -156,7 +156,7 @@ Owen exhaled audibly. “Then do not let Security draft customer language withou
 
 “Noted,” Warren said. “Identity—Priya?”
 
-Priya Raman’s voice was precise, unhurried. “Policy service enforces delegated write scope. Product orchestration calls our APIs. If the write crosses without consent bound to scope, the failure is authorization semantics, not profile cosmetics. I can post the policy export path in-channel after this call.”
+Priya Raman’s voice was precise, unhurried. “Policy service enforces delegated write scope. Product orchestration calls our APIs. If a write crosses without consent bound to scope, that’s an auth-scope failure, not a profile-display bug. I can post the policy export path in-channel after this call.”
 
 Warren said, “Alright. We’re declaring this a Sev One.”
 
@@ -168,9 +168,9 @@ Mitigation ideas started immediately—disable delegated linking, suspend synchr
 
 Every proposal solved one problem while creating three others.
 
-Owen interrupted before the third proposal finished loading.
+Owen interrupted before the third proposal finished landing.
 
-“If we disable delegated onboarding entirely, conversion rates are going to collapse in two enterprise segments,” he said. “I’m not arguing leave it open. I’m arguing we put segment counts in the template before we perform courage for executives.”
+“If we disable delegated onboarding entirely, conversion rates are going to collapse in two enterprise segments,” he said. “I’m not arguing leave it open. I’m arguing we put segment counts in the template before we brief executives like the decision is obvious.”
 
 Someone from Security answered almost as fast.
 

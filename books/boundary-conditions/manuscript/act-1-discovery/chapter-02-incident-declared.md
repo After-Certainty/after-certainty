@@ -30,7 +30,7 @@ Caleb’s reply came back fast.
 
 Nate looked up long enough to confirm his flight still said ON TIME, then dropped back into the laptop.
 
-The disable-linking proposal was not a proposal so much as a reflex. Security had drafted it in the executive template before the third page finished loading: turn off delegated onboarding entirely until the company understood the failure mode. Clean. Understandable. The sort of mitigation you could explain to a board member who would never read the sequence diagram.
+The disable-linking proposal was not a proposal so much as a reflex. Security had drafted it in the executive template before the third page finished populating: turn off delegated onboarding entirely until the company understood the failure mode. Clean. Understandable. The sort of mitigation you could explain to a board member who would never read the sequence diagram.
 
 Nate opened the draft mitigation doc and scrolled past the executive summary to the appendix where engineers had started attaching consequences in comments. Product had already left three notes in red thread markers. Customer operations had added a spreadsheet. Someone from Data had linked a dashboard that did not exist yet but would by morning.
 
@@ -100,19 +100,19 @@ Priya said, “If we don’t flip it, we need exposure on the record. Eli’s re
 
 Nate unmuted.
 
-“Nate Mercer,” he said, because bridges still required names even when half the company knew who was talking. “I’m on a plane. I’m not gone. Option A lowers acute risk and increases structural unknowns. Option B in the template is selective suspension by relationship type—slower, messier, requires classification we don’t have tonight. Option C is enhanced logging and rate limits while we map blast radius. Option C is not a mitigation. It’s surveillance with better dashboards.”
+“Nate Mercer,” he said, because bridges still required names even when half the company knew who was talking. “I’m on a plane. I’m not gone. Option A lowers acute risk and leaves us guessing what’s actually broken. Option B in the template is selective suspension by relationship type—slower, messier, requires classification we don’t have tonight. Option C is enhanced logging and rate limits while we map blast radius. Option C is not a mitigation. It’s surveillance with better dashboards.”
 
 Silence, then Warren: “Can you stay on until we assign owners?”
 
 “I have until the cabin door policy says otherwise.”
 
-They assigned owners the way companies this size always did: by making the work visible and hoping the right person felt too embarrassed to refuse. Caleb took operational coordination. Priya took technical truth-finding on identity flows. Owen took customer and revenue framing. A Security director Nate had met twice took regulatory language. Warren took executive comms and the performance of control.
+They assigned owners the way companies this size always did: by making the work visible and hoping the right person felt too embarrassed to refuse. Caleb took operational coordination. Priya took tracing the identity flows. Owen took customer impact and revenue risk. A Security director Nate had met twice took regulatory language. Warren took executive comms and the performance of control.
 
 What nobody took, Nate noticed, was the sentence he had said on the office bridge before leaving: the underlying problem might not be any of the options on the slide.
 
 He put that into the template himself, in the “open questions” box, because bots loved open questions and executives tolerated them when they sounded practical.
 
-*Do we know which authorization boundary failed, or only which symptom we can reproduce?*
+*Do we know whether the failure is in sync, delegated link, or policy enforcement—or only which symptom we can reproduce?*
 
 The box saved. A bot confirmed the update. Someone in the leadership thread reacted with a thumbs-up that meant “seen,” not “agreed.”
 
@@ -156,7 +156,7 @@ He stared at the notification long enough to feel the old pull—the habit that 
 
 He drafted the first hourly summary in the air over Nebraska, writing plain sentences because executives pretended to prefer plain sentences and because engineers deserved at least one document that did not lie about what was known.
 
-He typed that blast radius across delegated relationship types was still unknown. The cross-profile write was reproducible under specific invitation and sync timing—that much was known. A prior third-party assessment had flagged related risk; how the finding had routed between teams was not. He stopped short of claiming the mitigations under debate would fix authorization boundaries. They might only reduce observable symptoms, and he said so.
+He typed that blast radius across delegated relationship types was still unknown. The cross-profile write was reproducible under specific invitation and sync timing—that much was known. A prior third-party assessment had flagged related risk; how the finding had routed between teams was not. He stopped short of claiming the mitigations under debate would fix where consent and write scope actually broke. They might only reduce observable symptoms, and he said so.
 
 He did not write *authorization boundary* in the summary’s headline. He was not ready to start a war over vocabulary at thirty thousand feet. He wrote instead about “consent and write scope,” which was accurate enough to keep Security from calling him naive and vague enough to keep Product from calling him alarmist.
 
@@ -178,7 +178,7 @@ Nate watched the three options fight in comments while the cabin lights dimmed f
 
 He opened the mitigation channel and wrote one paragraph without addressing anyone in particular, because sometimes the only way to slow a company down was to speak to the room.
 
-*We are debating mitigations before we have agreed what we are mitigating. If this is a synchronization bug, Option C may be enough. If this is a delegated authorization failure, Option C documents harm while leaving the door open. If we do not know which story is true, we should stop calling Option C a mitigation and start calling it instrumentation. Option A and B are tradeoffs in customer capability. Someone should say that out loud in the executive doc, not only in this channel.*
+*We are debating mitigations before we have agreed what we are mitigating. If this is a sync timing bug, Option C may be enough. If delegated users can still write across profiles they shouldn’t touch, Option C documents harm while leaving the door open. If we do not know which story is true, we should stop calling Option C a mitigation and start calling it instrumentation. Option A and B are tradeoffs in customer capability. Someone should say that out loud in the executive doc, not only in this channel.*
 
 The paragraph sat there for eleven seconds—long in an active incident—before the thread moved.
 

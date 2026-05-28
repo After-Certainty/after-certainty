@@ -112,7 +112,7 @@ Nate felt the center gravity settle on him the way Warren had promised on Sunday
 
 “What do you need to make today productive?” Warren asked.
 
-“One investigation lead for cross-boundary repro,” Nate said. “Priya owns technical truth on the diagram. Eli owns the variant matrix. Customer Systems and Infrastructure embedded, not parallel. New theories post in the table or they do not post.”
+“One investigation lead for cross-boundary repro,” Nate said. “Priya owns tracing where write scope fails on the diagram. Eli owns the variant matrix. Customer Systems and Infrastructure embedded, not parallel. New theories post in the table or they do not post.”
 
 Caleb, at the head of the table, raised a hand like a student.
 
@@ -256,7 +256,7 @@ Warren said, “Put that in the summary.”
 
 He wrote the six o’clock summary at his desk while the investigation table grew another row and three new comments argued about whether *cohort risk* belonged in customer comms.
 
-He wrote that cross-team investigation had expanded with four reproducible variants and a fifth under validation. He wrote that blast-radius analysis had converged on delegated write scope spanning onboarding, identity policy, and profile sync. He wrote that mitigation actions had reduced acute exposure without resolving consent-and-authorization semantics.
+He wrote that cross-team investigation had expanded with four reproducible variants and a fifth under validation. He wrote that blast-radius analysis had converged on delegated write scope spanning onboarding, identity policy, and profile sync. He wrote that mitigation actions had reduced acute exposure without resolving where consent failed to bind before writes landed.
 
 He did not write that the company was closer to understanding the failure. He wrote that ownership for cross-boundary fixes remained under discussion—a sentence executives could treat as progress if they needed to sleep.
 
@@ -284,9 +284,9 @@ He meant to leave at seven. He left at eight-forty with three unread threads and
 
 Nate stepped into the parking garage. The map was larger than it had been that morning. So was his Tuesday calendar, already filling with meetings that would stall the moment he was not in them.
 
-At home he microwaved leftovers and opened the incident channel on his phone while Hadley read on the couch. Variant five had forty-seven comments. Twelve used the word *legacy*. Three tagged Legal. One asked whether Nate could “own narrative” for customer comms.
+At home he microwaved leftovers and opened the incident channel on his phone while Hadley read on the couch. Variant five had forty-seven comments. Twelve used the word *legacy*. Three tagged Legal. One asked whether Nate could “align customer comms language.”
 
-He did not own narrative. He owned nothing except the habit of answering.
+He did not own customer comms language. He owned nothing except the habit of answering.
 
 He typed a single reply in-thread: *Cohort size from Customer Systems pending. No comms language until table row validated.*
 

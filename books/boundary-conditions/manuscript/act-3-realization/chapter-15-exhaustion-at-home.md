@@ -40,7 +40,7 @@ He replied only to Caleb—*Thanks. Home tonight.*—left the rest unread until 
 
 Mark had taken the lab but had not taken the neurologist follow-up scheduling because the portal link had been in a thread Mark did not read. Rachel had offered to call the pharmacy and had instead texted Nate the prescription number. Their mother had a question about advance directive paperwork that was not urgent until it was, because Daniel had asked twice at breakfast whether he still drove, and the second time had sounded like a man trying to catch himself lying.
 
-Nate coordinated from the kitchen table at seven a.m. with his commute postponed, cold coffee in a mug he had forgotten to drink, and his shame about the outburst sitting in his stomach like the dregs.
+Nate coordinated from the kitchen table at seven a.m. with his commute postponed, cold coffee in a mug he had forgotten to drink, and the aftershock from the outburst still sitting in his stomach.
 
 Daniel was at the table in yesterday’s sweater, coffee untouched, reading the back of a cereal box as if it were instructions.
 
@@ -451,11 +451,11 @@ Their mother appeared in the doorway with a dish towel.
 
 ---
 
-Nate drove home tired in a different shape than work tired.
+Nate drove home tired in a different way than work tired.
 
 Work tired was channels and seams and Pablo docs.
 
-Home tired was love with paperwork attached.
+Home tired was family care with paperwork attached.
 
 Both still routed to him first.
 
@@ -521,6 +521,6 @@ Work was still circling.
 
 The pattern was visible in both buildings now.
 
-The gift was visibility.
+The upside was visibility.
 
-The cost was that everyone could see him now—at work, in the family thread, in Hadley’s kitchen when he reached for his phone like a reflex.
+The cost was that everyone now routed through him on sight—at work, in the family thread, in Hadley’s kitchen when he reached for his phone like a reflex.

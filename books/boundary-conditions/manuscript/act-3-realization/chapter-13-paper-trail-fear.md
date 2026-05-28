@@ -16,7 +16,7 @@ Sarah replied in four minutes: *Already in my queue. Who else has it?*
 
 He checked the header chain. Pablo. Pablo’s manager. Security distribution. Warren’s staff alias. Someone in Corporate Communications had been BCC’d on a forward Nate could not see from outside Legal.
 
-*Everyone who needs a story before they need a fix,* he typed, then deleted the second clause and sent: *Warren by nine. Bridge at nine thirty.*
+*Everyone who needs a story before they need an implementation plan,* he typed, then deleted the second clause and sent: *Warren by nine. Bridge at nine thirty.*
 
 ---
 
@@ -64,9 +64,9 @@ Warren looked at Nate, then muted.
 
 After the bridge Pablo stayed on the line with Sarah and Nate while Warren’s staff member left to “socialize tone.”
 
-Pablo said, “The model correlated consent-event gaps with write timestamps across three regions. I did not claim causation in the executive summary. Leadership asked for materiality language.”
+Pablo said, “The model correlated consent-event gaps with write timestamps across three regions. I did not claim causation in the executive summary. Leadership asked for material-risk language.”
 
-Sarah said, “Materiality language belongs in a Legal memo, not a field labeled material in a template Warren’s staff owns.”
+Sarah said, “Material-risk language belongs in a Legal memo, not a field labeled material in a template Warren’s staff owns.”
 
 Pablo looked at Nate.
 
@@ -106,7 +106,7 @@ Sarah flipped a page.
 
 Nate pointed at line forty-two—a bridge summary Caleb had posted at two a.m. with the phrase *material cross-profile exposure* because Warren’s template had a field called *material impact* and Caleb had been tired.
 
-“That line is template bleed,” Nate said. “Not a claim to customers. Not a claim to regulators. A field name.”
+“That line came from template wording,” Nate said. “Not a claim to customers. Not a claim to regulators. A field name.”
 
 Marta looked at Sarah.
 
@@ -148,7 +148,7 @@ Nate took the page.
 
 Caleb’s two a.m. summary sat highlighted: *material cross-profile exposure*.
 
-Template bleed, exactly as he had said in the room.
+Template wording, exactly as he had said in the room.
 
 He texted Caleb from the hallway: *Compliance sample. Your line. Template field. Annotate in rewrite.*
 
@@ -220,7 +220,7 @@ Caleb messaged Nate a screenshot of the final paragraph beside Pablo’s origina
 
 Nate typed back from the hallway.
 
-*We were already afraid. Now the fear has a font.*
+*We were already afraid. Now it is in official document language.*
 
 ---
 
@@ -364,6 +364,6 @@ At ten forty-three Warren texted: *Held. No second crisis.*
 
 At ten forty-five Infrastructure posted in engineering: *Variant six still reproduces. Authorization path. Not sync.*
 
-The paper fear eased one notch.
+The documentation panic eased one notch.
 
 The owner column stayed blank.

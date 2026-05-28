@@ -70,7 +70,7 @@ The family test came on Sunday.
 
 Their mother wanted advance directive paperwork signed before dinner.
 
-He used to arrive early, print forms, assign Mark and Rachel tasks, mediate tone, stay until every box was filled while siblings orbited his efficiency.
+He used to arrive early, print forms, assign Mark and Rachel tasks, mediate tone, and stay until every box was filled while everyone waited for his next instruction.
 
 Rachel arrived with the notary time already booked.
 

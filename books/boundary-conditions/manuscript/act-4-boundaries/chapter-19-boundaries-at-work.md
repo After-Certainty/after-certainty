@@ -1,6 +1,6 @@
 # Chapter 19 — Boundaries at Work
 
-The seam lead candidate interviews were scheduled in two-hour blocks, which was how Nate learned the company could move fast when the problem was hiring and slow when the problem was ownership.
+The seam lead candidate interviews were scheduled in two-hour blocks, which was how Nate learned the company could move fast when the problem was hiring and slow when the problem was naming accountable owners.
 
 He joined three sessions as requested—not as chair, as technical advisor. He asked questions about signatory authority. He asked who owned consent language across policy versions. He asked what the candidate had actually shipped, not what they had presented.
 
@@ -422,7 +422,7 @@ Nate said, “Book Thursday office hours or ask Lena.”
 
 The lead reacted with a surprised emoji and left.
 
-Nobody asked him to own the bridge. He exhaled—relief with paperwork attached, not victory.
+Nobody asked him to own the bridge. He exhaled—relief tied to process, not victory.
 
 ---
 
@@ -556,7 +556,7 @@ He believed her.
 
 The incident was still open.
 
-Ownership was no longer only a rumor.
+Ownership was now written in the remediation row.
 
 For the first time since February, that was a fact he could leave on the screen and walk away from anyway.
 

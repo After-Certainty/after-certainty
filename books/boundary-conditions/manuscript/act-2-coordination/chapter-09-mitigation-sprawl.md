@@ -131,7 +131,7 @@ Compliance requested retention on every message that mentioned *breach*.
 
 Nate’s job was no longer translation only.
 
-It was triage.
+It was deciding which mitigation fights got answered first.
 
 He answered questions that were really requests for cover:
 
@@ -141,7 +141,7 @@ He answered questions that were really requests for cover:
 
 *If Owen’s segments bleed, who signs the customer email?*
 
-He answered them with the same discipline Caleb had learned on the bridge—make the tradeoff visible, attach a name to the signature field, refuse one-sentence lies.
+He answered them with the same discipline Caleb had learned on the bridge—make the tradeoff visible, attach a name to the signature field, refuse summary lines that hid the cost.
 
 Monday at five Warren had asked for a narrative that sounded finished.
 
@@ -161,7 +161,7 @@ Nate had said, “Pick signatory or pick yellow.”
 
 The bridge had fought for two hours and shipped nothing global.
 
-That was mitigation sprawl—not malice, inventory.
+That was mitigation sprawl—not malice, just too many partial fixes in flight.
 
 ---
 
@@ -213,7 +213,7 @@ Security said working as designed was not the same as fixing authorization.
 
 Owen said, “If C is mitigation, B is still bleeding in segment two.”
 
-Nate said, “Then mark both yellow and stop calling either finished.”
+Nate said, “Then mark both yellow and stop calling either done.”
 
 Warren DM’d: *Yellow rows make executives nervous.*
 
@@ -227,7 +227,7 @@ Caleb posted in the operational channel at eleven fourteen.
 
 Nate typed back from his kitchen.
 
-*Exec summary is for people who need sleep. Table is for people who need truth. Keep both. Pin the table.*
+*Exec summary is for people who need sleep. Table is for people who need exact status. Keep both. Pin the table.*
 
 *Pinned. Owen is here with food. Says truce. I don’t know what to do with truce.*
 
@@ -334,7 +334,7 @@ He understood, after too many meetings, why organizations chose a dozen half-fix
 
 Half-fixes let everyone be partially right and partially protected.
 
-One decision required someone to sign the seam.
+One decision required someone to sign the seam and own what broke next.
 
 ---
 

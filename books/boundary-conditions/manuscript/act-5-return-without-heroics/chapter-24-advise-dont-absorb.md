@@ -2,7 +2,7 @@
 
 Monday board prep was a conference room with too much glass and a slide deck that still called the problem *profile sync* in the subtitle until Lena made them change it in front of six people who pretended not to notice.
 
-Nate had been in the room before—February, a different deck, a different lie of finishedness. Then he had stood where Lena would stand today and translated fragments until his voice became infrastructure. This time he sat in the second row with a printed timeline and a pen he did not need for notes.
+Nate had been in the room before—February, a different deck, a different lie of finishedness. Then he had stood where Lena would stand today and translated fragments until every unresolved thread routed through him. This time he sat in the second row with a printed timeline and a pen he did not need for notes.
 
 Lena arrived seven minutes early, Priya’s diagram on a tablet, Isaac beside her with Security language printed on index cards like he did not trust slides to survive contact with lawyers.
 
@@ -558,4 +558,4 @@ On the drive home Hadley called hands-free.
 
 “Good,” she said. “Dinner is reheat. Come home.”
 
-The company was not fixed. For one week it had been teachable in public, and that was more than February had allowed.
+The company was not fixed. For one week it had taken correction in public, and that was more than February had allowed.

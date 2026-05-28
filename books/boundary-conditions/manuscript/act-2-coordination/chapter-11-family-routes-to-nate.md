@@ -22,7 +22,7 @@ Compliance asked whether the cohort table included regulatory reporting tags.
 
 None of the DMs were his job on paper.
 
-All of them would sit unanswered until someone answered, and everyone knew who usually answered.
+All of them would sit unanswered until someone picked them up, and everyone knew who usually did.
 
 Nate posted in the operational channel: *Footnote thread tagged Legal + Priya. Cohort table updated 2:40. Use table, not DMs.*
 
@@ -50,7 +50,7 @@ They reached the car. Caleb hesitated.
 
 “Hand off something at home if you can,” Caleb said. “I’m learning it at work. You should too.”
 
-Nate drove home thinking about tables—variant rows, pharmacy rows, yellow cells that meant *not owned yet*.
+Nate drove home thinking about tables—variant rows, pharmacy rows, yellow cells that meant *still waiting on an owner*.
 
 ---
 
@@ -128,7 +128,7 @@ Daniel looked at his plate.
 
 Hadley looked at Nate.
 
-“You’re better at this,” Rachel said softly—the phrase she used the way executives used *reachable*, as if talent were the same as obligation.
+“You’re better at this,” Rachel said softly—the phrase she used the way executives used *reachable*, as if competence were the same as obligation.
 
 Nate felt the phrase land in his stomach beside brunch and garlic bread.
 
@@ -180,7 +180,7 @@ Rachel said, “Mark—”
 
 “I’m not saying you don’t love him,” Mark said. “I’m saying Nate is not the family help desk.”
 
-Nate looked at his brother across the table and felt the seam meeting agenda pulse in his pocket like a second heartbeat.
+Nate looked at his brother across the table and felt Monday’s seam meeting invite pulse in his pocket like a second heartbeat.
 
 “I’ll build a calendar,” he said. “Shared. Everyone can see it. I’m not driving every visit.”
 
@@ -280,7 +280,7 @@ Hadley was waiting on the front steps when Nate got home.
 
 She had changed into sneakers and a jacket, hair pulled back, expression neutral in the way that meant she had been thinking on the drive and was ready to say the thing.
 
-“You keep stepping in so nobody else has to,” she said.
+“You keep stepping in before anyone else has to,” she said.
 
 Nate stopped on the walk.
 

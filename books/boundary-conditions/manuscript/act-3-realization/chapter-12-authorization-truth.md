@@ -88,13 +88,13 @@ Nate typed back: *Copy.*
 
 Naming the problem did not shrink it.
 
-It enlarged it.
+It widened the list of teams that had to act.
 
 Once the engineering channel had language, old mitigations looked different. Regional disable contained symptoms. Logging documented harm. Policy draft 19 fixed semantics in theory and could not ship without Legal. Reconsent campaigns assumed customers understood what they had already delegated.
 
 Isaac spent the afternoon in a smaller room with Priya, Eli, and two identity engineers Nate did not know by first name, building a consent-and-write-scope matrix with Sarah Kim from Legal, who had been waiting for someone to hand her a noun.
 
-Nate moved between that room and the executive template and Warren’s private messages because the building still routed translation to him by default.
+Nate moved between that room and the executive template and Warren’s private messages because people still routed translation to him by default.
 
 In the matrix room Sarah pointed at a row labeled *caregiver delegated write*.
 
@@ -130,7 +130,7 @@ At five forty Priya added a column: *customer-visible language — owner TBD*.
 
 Sarah circled *owner TBD* and said, “This column is why Nate is still in the building.”
 
-Nate wrote in his notebook: *Translation is not ownership.*
+Nate wrote in his notebook: *Explaining the problem is not the same as owning the fix.*
 
 “If consent is implied by relationship type,” she said, pointing at Priya’s diagram, “your privacy policy has to say so in language a judge recognizes. If consent is event-based, your logs have to prove the event. Pick one architecture story and stop shipping both.”
 
@@ -192,9 +192,9 @@ Warren called while Sarah’s objection was still on screen.
 
 “If Legal objects, I need something by six,” Warren said.
 
-“There is no two-point-five between true and false,” Nate said.
+“There is no middle sentence between true and false,” Nate said.
 
-“There is always two-point-five in executive comms,” Warren said.
+“There is always a middle version in executive comms,” Warren said.
 
 The version that shipped at six fifty-two: *We have identified an authorization and consent control gap in delegated onboarding flows. Customer impact is contained by active mitigations. Remediation requires cross-boundary ownership we are staffing.*
 
@@ -381,7 +381,7 @@ The staff member said, “The board wants options.”
 
 Sarah said, “The board wants liability bounded. Options without owners bound nothing.”
 
-Nate had been brought to translate. He found he had nothing to translate except refusal dressed as process.
+Nate had been brought to translate. He found he had nothing to translate except people saying no in process language.
 
 Holt said, “Security will not sign hotfix language that says *monitoring posture* without naming the write path.”
 
