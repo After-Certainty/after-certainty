@@ -6,7 +6,7 @@ Riven came in with a split forearm from patrol and a headache like metal behind 
 
 "Sit," the woman at the nearest table said without looking up.
 
-Her hair caught the shutter light and threw it back cold. Younger than he expected, maybe his age, with dark brows and a scar across one knuckle. Her voice was flat, uninterested in nonsense.
+Her hair caught the shutter light and flashed cold. Younger than he expected, maybe his age, with dark brows and a scar across one knuckle. Her voice was flat, no patience for nonsense.
 
 "That your best bedside manner?" Riven asked, sitting.
 
@@ -17,11 +17,11 @@ Her hair caught the shutter light and threw it back cold. Younger than he expect
 "Lyra." She took his wrist and turned his arm so the cut opened under lamplight. "Hold still."
 He tried to make a joke and couldn't find one in time.
 
-He felt the first pull when she cleaned the wound. Not lightning, a door opening onto cold air. The sting sharpened, then dropped behind a warmth he had not asked for.
+He felt the first pull when she cleaned the wound. Not lightning. More like a door opening onto cold air. The sting sharpened, then dropped behind a warmth he had not asked for.
 
 Then the bond carried it to Cael before Riven could name it.
 
-Cael was across the courtyard in logistics. Riven felt dry paper, lantern heat, irritation at a ledger. His reaction to Lyra dropped into that room: surprise, interest, then Cael's defensive clamp in his gut.
+Cael was across the courtyard in logistics. Riven felt dry paper, lantern heat, irritation at a ledger. His reaction to Lyra dropped into that room: surprise, interest, then Cael's defensive clamp.
 
 Lyra glanced up from his arm. "You just flinched before I touched you."
 
@@ -39,7 +39,7 @@ She stitched where she had to, pressed where it bled, spoke only when needed. A 
 
 A boy with a split ear sat on the next cot trying not to cry while an older woman held his shoulders. Lyra crossed to them without ceremony, checked the boy's pupils, and told him exactly what she was about to do before she did it. Her voice never rose. The boy still flinched. She steadied his head with one hand and worked fast with the other.
 
-Riven watched her hands more than her face. No wasted motion, no soft performance. Just competence in a room full of pain.
+Riven watched her hands more than her face. No wasted motion. No soft performance. Just competence in a room full of pain.
 
 When a runner with blood on his boot came through, Lyra pointed to benches, ordered water, and had a canvas screen up before the next stretcher crossed the threshold.
 
@@ -57,7 +57,7 @@ Riven snorted. "Is that what he's calling us?"
 
 "Not to your face. He has better words when he's performing."
 
-Riven laughed before he could stop it. The laugh went through the bond; Cael sent back a warning that read like jealousy.
+Riven laughed before he could stop it. The laugh went through the bond; Cael sent back a warning that sounded like jealousy.
 
 Lyra saw him go quiet. "There it is again."
 
@@ -73,11 +73,11 @@ Riven looked at her, then at his bandaged arm. There was no point pretending she
 
 "Yeah."
 
-She nodded once, like confirming a diagnosis she had made before he spoke. "That's not alignment. That's a boundary injury with good propaganda."
+She nodded once, like she was confirming a diagnosis she had already made. "That's not two people in sync. That's a boundary injury people are dressing up."
 
 The words hit harder than the needle. Boundary injury. Cael reacted at the same instant, sharp refusal with something darker under it.
 
-Riven stood too fast, and the room tipped. He caught the table edge until the stone floor stopped moving.
+Riven stood too fast, and the room tipped. He caught the table edge until the floor settled.
 
 "You should sit five more minutes," Lyra said.
 She nudged a stool back toward him with her heel.
@@ -88,7 +88,7 @@ She wiped her hands and met his eyes again. "If he talks about the path, ask who
 
 "You don't like him."
 
-"I don't like men who rename harm so crowds will fucking clap."
+"I don't like men who rename harm so crowds clap."
 
 Riven grinned despite himself. "You always this cheerful."
 
@@ -128,7 +128,7 @@ Riven blinked. "You know Cael?"
 
 "Built half the retaining walls on west berm with him before I got too old for ladders." The mason grunted as Lyra tightened a wrap. "Good worker. Bad at admitting pain."
 
-Riven filed it away without wanting to. Through the bond he felt Cael catch the memory and resist it, embarrassed and annoyed in the same breath.
+Riven filed it away without wanting to. Through the bond he felt Cael catch the memory and push back against it, embarrassed and annoyed in the same breath.
 
 By the time he walked back into barracks court, night had come on hard and torch smoke sat low under the arches.
 
@@ -158,7 +158,7 @@ Riven rolled onto his side and stared at the aisle between cots where moonlight 
 
 It worked until he thought of Lyra again.
 
-Then came Cael's reaction, immediate and involuntary, hurt and anger braided with fear of what that mix would do the next time steel came out.
+Then Cael's reaction hit, immediate and involuntary, hurt and anger mixed with fear of what that combo would do next time steel came out.
 
 Riven pressed his face into his forearm and waited for exhaustion to beat both of them into silence.
 

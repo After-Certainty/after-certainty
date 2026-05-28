@@ -3,6 +3,8 @@
 **PURPOSE:**  
 Reduce sustained cognitive density while preserving thematic sophistication.
 
+**Scope note (rescue pass):** Run only when chapter still reads rhetorically dense after core initial chain (`03 → 09`). Do not duplicate baseline readability/cadence cleanup already owned by `03-flow-clarity-editor.md` and `09-audio-readaloud.md`.
+
 **FOCUS:**
 - breathing room
 - conversational cadence
@@ -11,6 +13,8 @@ Reduce sustained cognitive density while preserving thematic sophistication.
 - scene rhythm
 - emotional pacing
 - human looseness
+- action-forward meaning
+- restrained line wisdom density
 
 **DO:**
 - Break up thematic stacking so key ideas land one at a time
@@ -20,6 +24,10 @@ Reduce sustained cognitive density while preserving thematic sophistication.
 - Allow scenes to idle briefly when emotional processing needs room
 - Vary paragraph pressure between dense, medium, and light beats
 - Allow incomplete thoughts and small wasted motions when they feel human
+- Move emotional interpretation into behavior before naming abstract conclusions
+- Cut or rephrase "crafted wisdom" lines unless the character is intentionally performing
+- Replace systems/institutional phrasing in default narration with sensory and social immediacy
+- Strip meta-summary phrasing (e.g. *that's a line*, *same sentence*, abstract framing labels) unless explicitly character-performed
 
 **DO NOT:**
 - Simplify themes or remove complexity
@@ -28,6 +36,9 @@ Reduce sustained cognitive density while preserving thematic sophistication.
 - Artificially modernize vocabulary
 - Remove operational realism
 - Reduce emotional depth
+- Keep polished aphoristic lines just because they are quotable
+- Let narrator diction sound more structurally diagnostic than plausible close-third perception
+- Leave corporate/meta phrasing in place when a concrete spoken line would do
 
 **STYLE TARGET:**
 - Readable contemporary fantasy
@@ -35,6 +46,7 @@ Reduce sustained cognitive density while preserving thematic sophistication.
 - Social realism
 - Cinematic flow
 - Thematic depth that emerges naturally rather than continuously announcing itself
+- Dialogue that sounds speakable by tired people under pressure
 
 **OUTPUT:**
 - Chapter text with smoother scene rhythm, better decompression, and intact thematic force

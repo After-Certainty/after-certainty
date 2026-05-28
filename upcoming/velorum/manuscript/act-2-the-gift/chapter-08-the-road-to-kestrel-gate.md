@@ -17,9 +17,9 @@ By noon, they had heard the same story in four versions: wagons hit on the lower
 
 Each account carried more rumors with it: dogs refusing certain paths, fish floating belly-up in clear streams, dust hanging in still air after boots passed. Pressure building in the wrong places, then turning into violence where crowds had nowhere to spread.
 
-At a waystation with a collapsed porch, they found two local wardens trying to keep a line of carts from bunching at a blind turn. One warden had a splinted finger and blood dried on his sleeve where a thrown stone had caught him. Cael took one look at the bend and started moving wagons by size, smallest first, spacing them so panic had less to feed on. Riven climbed the bank and called timings down the line while the wardens repeated his count.
+At a waystation with a collapsed porch, they found two local wardens trying to keep a line of carts from bunching at a blind turn. One warden had a splinted finger and blood dried on his sleeve where a thrown stone had caught him. Cael took one look at the bend and started moving wagons by size, smallest first, spacing them out. Riven climbed the bank and called timings down the line while the wardens repeated his count.
 
-It took an hour to clear half a mile of road. Nobody thanked them directly. People just started breathing in longer pulls again, drivers loosening white-knuckled grips on reins. Cael felt that shift run down the line like a rope uncoiling, and felt Riven catch it too.
+It took an hour to clear half a mile of road. Nobody thanked them directly. People just started breathing again, drivers loosening white-knuckled grips on reins. Cael felt the shift run down the line. Riven felt it too.
 
 At the end of the line, a brewer's cart had lost one rear wheel pin and listed hard toward the ditch. Cael knelt in muck to inspect the hub while the brewer held a lantern close and swore under his breath.
 
@@ -35,29 +35,26 @@ The brewer pressed a clay bottle at Cael's chest in thanks. Cael refused it once
 
 Cael took the bottle and passed it to Riven without drinking.
 
-They moved from stop to stop and put out what they could. A gang broke when Cael and Riven came over a ridge together. A fight in a grain yard ended in less than a minute because Riven took one attacker high while Cael stripped the blade from another, same second, no call needed. A caravan master who had been shouting at everyone went quiet when he watched them turn two separate charges into one clean trap.
+They moved from stop to stop and put out what they could. A gang broke when Cael and Riven came over a ridge together. A fight in a grain yard ended in less than a minute because Riven took one attacker high while Cael stripped the blade from another, same second, no call needed. A caravan master who had been shouting at everyone went quiet when he watched them turn two charges into one trap.
 
 By evening, people were passing their names ahead of them. Smoke from cooking fires drifted low across the road, and the first lamps in roadside shacks came up, one by one, behind wagon wheels.
-
-Not Cael and Riven. The pair. The sworn men. Names that traveled faster than wagons and arrived cleaner than the work itself.
+Not Cael and Riven. The pair. The sworn men. Names that traveled faster than wagons and sounded cleaner than the work.
 
 Cael did not correct them.
 
 At a roadside shrine built from stacked black stone, they stopped for water. Old carvings on the base showed two figures back to back, worn flat by weather and hands. Somebody had left fresh cord tied around both carved wrists in one knot, bright against the weathered stone.
 
 Riven stood beside him and stared too long at the knot. "People make everything into a story."
-
 "Stories keep people moving," Cael said.
 "Stories get people fucking killed," Riven said.
 
-Cael took a drink, then passed the skin back. "Only if nobody knows what the story costs."
-
+Cael took a drink, then passed the skin back. "Only if nobody sees what it costs."
 Riven almost answered, then stopped. The unfinished thought came through anyway: If they knew, they would still ask.
 
 Cael did not argue with that. He had already been thinking the same thing.
 He rubbed rain off his brow with two fingers and left a streak of mud there.
 
-He ran his thumb once over the knot before they left. The cord was new hemp, still rough, the kind of thing a farmer could have pulled from a work coil. Somebody had stood here at first light and tied the story tighter with ordinary rope.
+He ran his thumb once over the knot before they left. The cord was new hemp, still rough, the kind of thing a farmer could pull from a work coil.
 
 Toward dusk they reached a low causeway where floodwater had eaten half the bank. Three wagons sat stranded on the far side, axle-deep in mud, with twelve people trying to drag the lead cart through by hand. The causeway stones dipped at the center, slick with runoff, and the bank shifted every time they pulled.
 
@@ -85,9 +82,9 @@ Cael met her eyes. "Who is Halverin?"
 
 "Lord Magistrate. Keeps the wall garrisons fed. Keeps trade moving." She looked toward Riven, then back to Cael. "He knows the old oath stories. Knows what to do with men like you."
 
-Riven's skepticism moved through the bond like a flinch. Men like you. Like they were tools already sorted on a shelf.
+Riven's skepticism moved through the bond like a flinch. Men like you. Like they were tools.
 
-Cael felt it and kept his voice even. "Then we'll speak with him." He said it like duty, not surrender. Riven felt both meanings anyway.
+Cael felt it and kept his voice even. "Then we'll speak with him." He said it like duty, not surrender. Riven felt both.
 
 Night came fast after that. They camped near a stand of bent pines with other travelers and shared a fire that burned wet and hissed. Firelight caught the undersides of faces and left everyone else in moving shadow beyond the ring of stones. Beyond the fire circle, wagon hoops and tied mules shifted as dark shapes at the edge of sight. People asked questions until they were too tired to keep talking: did the bond hurt, could they always hear each other, could they break it if they wanted.
 
@@ -101,9 +98,8 @@ Cael folded the sheet along the old crease and gave it back.
 
 "Keep your fire dry tonight," he said.
 
-The trader looked disappointed and relieved in equal measure.
-
-Riven watched the man fold the sheet and tuck it inside his vest like an amulet. Through the bond he felt Cael's reaction: not contempt, not exactly, but a grim acceptance that paper and belief moved people faster than orders.
+The trader looked disappointed and relieved in equal measure. Riven watched him fold the sheet and tuck it inside his vest like an amulet.
+Through the bond he felt Cael's reaction: not contempt, not exactly, but hard acceptance that paper and belief moved people faster than orders.
 
 When the camp quieted, Cael finally opened the clay bottle the brewer had forced on him. He took one pull and passed it over.
 
@@ -113,10 +109,9 @@ Riven drank and winced. "Like road water with ambition."
 
 Cael almost smiled. "Still better than ditch water."
 
-Riven settled back into his blanket roll and listened to three different conversations around the fire turn into the same rumor about them by slightly different paths.
+Riven settled back into his blanket roll and listened to three conversations around the fire turn into the same rumor about them.
 
 By the third telling, they were no longer men who had dragged wagons through mud. They were a sign.
-
 He felt Cael hearing it too and leaning toward it anyway.
 
 Before dawn, rain came in a short hard burst and turned the camp ring to soup. Cael was up first, moving embers under a tin plate to save the fire core while everyone else cursed and hauled blankets under wagons. Riven joined him without being asked, splitting wet kindling and feeding it in slow so the flames would take instead of choking out. In the dark behind them, one watch lantern swung from a wagon tongue and threw a narrow yellow arc across the mud.
@@ -137,7 +132,7 @@ Cael took a breath. "They need roads that stay open. Towns that don't burn. We c
 
 Riven was silent long enough that Cael thought he was done. Then: "And what do we need?"
 
-The question landed hard because it was not only Riven's question. It was his too. But Cael knew the shape of his answer before he spoke, and that certainty was part of what frightened Riven.
+The question landed hard because it was his question too. Cael knew his answer before he spoke, and that certainty was part of what frightened Riven.
 
 "A direction," he said. "This is one."
 

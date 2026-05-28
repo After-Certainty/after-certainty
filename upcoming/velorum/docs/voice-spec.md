@@ -58,6 +58,24 @@ Speech should read **sayable at stress**—what a tired person would actually sp
 - **Profanity stays on polish:** readability and “plain dialogue” passes **do not** replace approved swearing with softer synonyms (*darn*, *heck*, toned-down substitutes) unless a specific scene or audience constraint is documented elsewhere. Flatten **metaphor and thesis-shaped lines**, not **heat**. See **Voice guardrails** for approved registers.  
 - **Exemplar:** **`chapter-01-heartbridge.md`** argument blocks on the ridge (Riven/Cael): sharp exchanges, plain nouns, theology only when attributed; revision target for **density of straight talk per page** of dialogue.
 
+### Contemporary restraint pass *(new default for Acts 1-2 revisions)*
+
+When a chapter reads "older" or too composed, run this pass after core clarity and before final compression.
+
+- **Move meaning downward into action.** If a sentence explains what a feeling *means*, first ask what hands, breath, posture, or silence already show. Keep the physical beat; cut the thesis.
+- **Reduce compressed-truth lines by ~40%.** Keep the strongest ones, but do not stack aphorisms every page. If a line sounds quote-ready, pressure-test whether plain speech carries it better.
+- **Keep dialogue tired and reactive.** Under stress, people interrupt, hedge, repeat, and answer sideways. Prefer imperfect response over polished rhetorical symmetry.
+- **Block systems-language leak in default narration.** Avoid institutional framing in non-institutional mouths: *operational coordination*, *performance of control*, *structural diagnosis*, etc. If needed for world logic, attribute it to a specific speaker or text.
+- **Limit analogy stacks.** One image can carry a beat; multiple layered metaphors usually slow readability and increase author-distance.
+- **Ban meta-phrasing in default narration/dialogue unless intentionally in-character.** Avoid lines that summarize themselves instead of living in-scene (e.g. *same sentence, different packaging; that's a line; call it information; method/framework/script/stage* as abstract commentary). Rewrite to immediate speech/action.
+
+**Micro checks (before -> after):**
+
+- *"My plan is we quit treating Heartbridge like scenery."* -> *"I'm tired of climbing up there, talking big, then coming back down like nothing happened."*
+- *"You tap. You listen. You don't stand under it while you pretend you didn't hear the crack."* -> *"You hear a beam crack, you don't keep standing under it."*
+- *"Same sentence, different packaging."* -> *"You're saying the same thing."*
+- *"I'll call it information."* -> *"I'll call it real."*
+
 ### Camera-observable narration *(sight-line standard; calibrated on Chapter 1)*
 
 Use this for **default narration** (not quoted song, pamphlet, or deliberate performance dialogue).
@@ -88,6 +106,15 @@ After sense, agency, and plain dialogue are in place, **tighten** so every line 
 - **“Job description,” “role,” “reporting line”:** use only if you want **intentional** cold comedy or an institutional voice (e.g. merchant power). Default narration should sound like **road talk**, not HR.  
 - **Velorum terms stay:** *alignment, sync, correction, bond, oath* are **in-world**—keep them; do **not** replace them with corporate *alignment* metaphors from another sense. When you mean ordinary English “they matched,” say **matched / snapped together / forced the same step** if you’re avoiding oath jargon in a given sentence.  
 - **Abstractions to pressure-test:** *invitation, debt, theater (as metaphor), choreograph, translation (unless dialogue names language outright)*—rewrite until **someone wants something on the page** or **something hits skin**.
+
+### Anti-meta phrasing scrub *(late revision check)*
+
+Run this after accessibility/flow passes and before final compression.
+
+- **Cut self-commentary lines** that describe rhetoric instead of conflict (*that's a line*, *same sentence*, *the framework is...*), unless the speaker is intentionally mocking rhetoric in-character.
+- **Replace abstract verdict nouns** with lived claims (*proof, method, framework, structure, information* as standalone thesis terms) when a concrete statement can carry the same beat.
+- **Keep institutional diction scoped.** Halverin/magistrate voices may use strategic/institutional language; default narration and ordinary speech should not drift into memo voice.
+- **Quick test:** if the line sounds like analysis of the scene rather than part of the scene, rewrite to body/action/speech.
 
 ### Contemporary lexicon *(secondary world, not historical costume)*
 

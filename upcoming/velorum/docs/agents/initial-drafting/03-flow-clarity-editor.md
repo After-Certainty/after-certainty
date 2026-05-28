@@ -3,6 +3,8 @@
 **PURPOSE:**  
 Make prose **smoother**, **more readable**, and **better for read-aloud**—without changing what happens or adding new ideas. If **[01](./02-cinematic-scene-pass.md)** already added **place and light**, preserve useful **visible** ground unless it **repeats**, **confuses**, or **breaks** listenability—don’t trim vivid scene detail only for brevity.
 
+**Ownership note:** This is the **primary owner** for chapter readability/clarity and anti-bookish/anti-meta cleanup. Escalate to revision rescue passes only if the chapter still fails readability after core chain + `09-audio-readaloud`.
+
 **FOCUS:**
 
 - **POV & referents:** chapter POV is listed in **[act-chapter-index.md](../../act-chapter-index.md)**. Keep narration and interior access **inside that head**; clarify **who *he*** is after dialogue or when **Riven and Cael** alternates—use **minimal name or body cue** rather than reader guesswork. Prefer an **early anchor** (first paragraph when practical): POV **name**, **sensation on their body**, or **their perception verb**—unless the chapter deliberately opens wide (**Chapter 1**–style place-first is the standing exception)
