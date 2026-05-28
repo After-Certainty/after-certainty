@@ -73,9 +73,9 @@ Riven looked at her, then at his bandaged arm. There was no point pretending she
 
 "Yeah."
 
-She nodded once, like she was confirming a diagnosis she had already made. "That's not two people in sync. That's a boundary injury people are dressing up."
+She nodded once, like she was confirming a diagnosis she had already made. "That's not clean teamwork. That's a boundary breach people are dressing up as a gift."
 
-The words hit harder than the needle. Boundary injury. Cael reacted at the same instant, sharp refusal with something darker under it.
+The words hit harder than the needle. Boundary breach. Cael reacted at the same instant, sharp refusal with something darker under it.
 
 Riven stood too fast, and the room tipped. He caught the table edge until the floor settled.
 
@@ -162,7 +162,7 @@ Then Cael's reaction hit, immediate and involuntary, hurt and anger mixed with f
 
 Riven pressed his face into his forearm and waited for exhaustion to beat both of them into silence.
 
-Somewhere near dawn, a stable hand shouted in his sleep two cots down and kicked free of his blanket. Riven jerked awake at the sound and found Cael already awake too, both of them held at the same sharp edge before it faded.
+Somewhere near dawn, a stable hand shouted in his sleep two cots down and kicked free of his blanket. Riven jerked awake at the sound and found Cael already awake too, both bodies still ringing with the same sharp edge before it faded.
 
 Riven lay back and counted roof slats.
 
@@ -176,6 +176,6 @@ Neither slept again before first call.
 
 When the wake bell hit, Riven sat up with grit in his eyes and Lyra's voice still clear in memory: ask who pays for it. He felt Cael hear that line again and harden around it.
 
-Boundary injury.
+Boundary breach.
 
 For the first time since Ashfen, he wanted something Cael could not stand inside.

@@ -1,3 +1,3 @@
 # Chapter 21 - No Answers Left
 
-With Halverin discredited, they accept that no civic authority can explain or fix what is happening. The only next move is to seek Velorum directly.
+Halverin's final scene closes his thread: he cannot explain or relieve what they carry. Cael and Riven accept that no authority can separate their suffering for them.

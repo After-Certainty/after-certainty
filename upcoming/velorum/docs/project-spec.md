@@ -3,7 +3,7 @@
 
 **Voice, dialogue, and prose craft:** **[voice-spec.md](./voice-spec.md)**. **Drafting shape** (habits distilled from Chapter 1): **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)**. **Draft + revision agents:** **[agents/README.md](./agents/README.md)** (brief-to-rough **step 0**, then revision passes). This document covers premise, world, terrain/POV requirements, structure, and ending rules.
 
-**Plot spine (living mirror):** **[synopsis.md](./synopsis.md)** — Greyhaven legend hunger → summit encounter with Velorum and the bond curse → rising power and pressure at Kestrel Gate under Halverin’s "alignment" path → Lyra names the loss while Riven/Cael split under shared jealousy and fear → public collapse and Halverin’s exposure → **Halverin’s terminal beat (~Act IV / chapter spine) closes his thread** → Seeker-led march through fractured lands to Velorum again → final threat at Greyhaven demands total surrender → world saved, selves hollowed, Lyra remains witness. Edit the synopsis freely; **when this spec and the synopsis diverge, reconcile here first**, then patch chapters.
+**Plot spine (living mirror):** **[synopsis.md](./synopsis.md)** — Greyhaven legend hunger → summit encounter with Velorum and the bond curse → rising usefulness and pressure at Kestrel Gate under Halverin’s "alignment" path → Lyra names the loss while Riven/Cael split under shared jealousy and fear → public collapse and Halverin’s exposure → **Halverin’s terminal beat (~Act IV / chapter spine) closes his thread** → Seeker-led march through fractured lands to Velorum again → final threat at Greyhaven demands full shared burden → world saved, private selves permanently exposed, Lyra remains witness. Edit the synopsis freely; **when this spec and the synopsis diverge, reconcile here first**, then patch chapters.
 
 You are writing a full-length fantasy novel (~80,000–100,000 words) set in a **mythical land** but told in a **modern narrative voice**: present-day diction, rhythm, and dialogue naturalism—**not** faux-archaic “high fantasy” speech or ornamental thee/thou prose.
 
@@ -32,11 +32,11 @@ In this world, reality is stabilized by something known as Velorum.
 
 ### Author-facing model (aligned with [synopsis.md](./synopsis.md))
 
-For **planning, collaborators, and causal clarity**, treat Velorum as a **god**—the power that minds whether things **line up**—who **casts magic** when a pair completes the oath in the **Ashring** (pamphlet theology: **first circle**): a **spell** (the bond; pamphlet branding **Heartbridge**) that ties **two inner lives**—**shared thoughts and feelings**, thin privacy, **moods and emotions** passed between **Cael** and **Riven**—while the world outside still **benefits from their alignment**.
+For **planning, collaborators, and causal clarity**, treat Velorum as a **god**—the power that minds whether things **line up**—who **casts magic** when a pair completes the oath in the **Ashring** (pamphlet theology: **first circle**): a **spell** (the bond; pamphlet branding **Heartbridge**) that ties **two bodies and two inner lives** so burden can cross between them—strain, fatigue, pain, and emotion passing between **Cael** and **Riven**—while the world outside still **benefits when they stop resisting each other**.
 
 **Myth layer:** long ago a **first pair** discovered Velorum, became **legendary heroes**, **died tragically**; **songs and chapbooks praise the bond** and skip the hard parts (jealousy, privacy, what people give up). **Cael** and **Riven** grow up on those legends and **seek** Velorum **wishing to become heroes**—they inherit **glamour**, not a clear warning label.
 
-**Relationship engine (synopsis → plot):** **Riven** falls for **Lyra**, and the bond hands that private want to **Cael**. Jealousy, longing, and shame become shared weight; they start moving at different speeds under pressure. Under Halverin’s guidance, failure gets reframed as "incomplete alignment," but the public demonstration proves the opposite: this is loss, not refinement. **Lyra** says it plainly. **Cael** and **Riven** go back to Velorum through fractured terrain, searching for release, and learn there is no clean separation left. In the final crisis at Greyhaven, saving everyone requires surrendering the last interior boundary. The world settles while something vital inside them goes quiet—**Lyra** remains as the person who refuses to call that a happy ending.
+**Relationship engine (synopsis → plot):** **Riven** falls for **Lyra**, and the bond hands that private want to **Cael**. Jealousy, longing, and shame become shared weight; under stress, each starts paying for the other’s fear and exhaustion. Under Halverin’s guidance, failure gets reframed as "incomplete alignment," but the public demonstration proves the opposite: this is loss, not refinement. **Lyra** says it plainly. **Cael** and **Riven** go back to Velorum through fractured terrain, searching for release, and learn there is no clean separation left. In the final crisis at Greyhaven, saving everyone requires carrying the whole burden together. The world settles while something vital inside them stays permanently unsealed—**Lyra** remains as the person who refuses to call that a happy ending.
 
 *(Prose still **shows** terrain, correction, crowds, and inner bleed-through—the **[synopsis.md](./synopsis.md)** is the map, not the scene.)*
 
@@ -63,7 +63,7 @@ They must choose between:
 
 Velorum must hold.  
 They will ensure that it does.  
-They will not remain themselves when it does.
+They will not stay untouched when it does.
 
 ---
 
@@ -76,8 +76,8 @@ They will not remain themselves when it does.
 - Systems that preserve themselves through people  
 - What people give up to keep things stable  
 - **Legends vs burden:** chapbooks **lie by glamour**; **Cael** and **Riven** inherit **admiration templates**, not ethics homework  
-- **Privacy vs bond:** shared thoughts and feelings make **jealousy and desire** communal — **Lyra** becomes a **fault line**, not a generic reward  
-- **Cooperation vs loss:** fighting **together** can save the map **without** saving the **self** the story valued  
+- **Privacy vs bond:** emotional and thought leakage makes **jealousy and desire** communal — **Lyra** becomes a **fault line**, not a generic reward  
+- **Cooperation vs loss:** fighting **together** can save the map **without** protecting either person from shared cost  
 
 Do not resolve these tensions cleanly.
 
@@ -99,8 +99,8 @@ The book is **fantasy first**: tragedy and myth land *after* readers recognize t
 | Reader-facing (“sounds like fantasy”) | In-world precision (still allowed) |
 |---------------------------------------|-------------------------------------|
 | **Oath-bound**, **sworn pair**, **bond**, **lifebond** / **war-bond** (pick one pairing term and repeat) | Velorum as the force **acting through** the bond |
-| **God**, **spell**, **magic** binding two at the **first circle** | Author/planning and synopsis-level language (shared **mind/heart**); prose **earns** it through ritual + **felt consequence** (inner and outer) before anyone sounds like a theologian |
-| **Correction**, **sync**, **mirrored hurt**, **the seam** | Same mechanics already on the page |
+| **God**, **spell**, **magic** binding two at the **first circle** | Author/planning and synopsis-level language (shared **burden and bleed-through**); prose **earns** it through ritual + **felt consequence** (inner and outer) before anyone sounds like a theologian |
+| **Correction**, **shared load**, **echoed hurt**, **the seam** | Same mechanics already on the page |
 | **Saint-and-flame**, **anchor and spark** (role words for jacket copy) | Cael / Riven lenses unchanged |
 | **Sacred ground**, **first circle**, **ritual**, **rebinder** | Summit/oath grammar in this story world |
 
@@ -110,7 +110,7 @@ The book is **fantasy first**: tragedy and myth land *after* readers recognize t
 
 1. By end of **Chapter 1** ("Heartbridge"), a new reader can say: **Riven** and **Cael** fear obscurity and are pulled toward remembered heroism.  
 2. By end of **Chapter 2** ("The Decision"), readers understand why **Cael** commits and why **Riven** follows despite unease.  
-3. By **Chapters 7–13** (Act II), readers feel the pattern clearly: power through sync, civic pressure in **Kestrel Gate**, **Halverin**’s control narrative, **Lyra** as outside witness, and first visible cracks in the bond.
+3. By **Chapters 7–13** (Act II), readers feel the pattern clearly: power through shared burden, civic pressure in **Kestrel Gate**, **Halverin**’s control narrative, **Lyra** as outside witness, and first visible cracks in the bond.
 
 **Status note:** **Chapter 1 ("Heartbridge") is complete** as the current calibration reference for opening geography, attribution strategy, and behavior-led character context.
 
@@ -229,7 +229,7 @@ Requirements for **how much dialogue**, **subtext**, **exchange craft**, and **c
 
 # WORLD RULES
 
-- Velorum stabilizes reality (in spine terms: the **god’s spell** holds when the oath holds—**inner alignment** with outward effects)  
+- Velorum stabilizes reality (in spine terms: the **god’s spell** holds when the oath holds—shared burden steadies under outward pressure)  
 - Pairs bound by oath to Velorum align with it; in prose prefer *the pair*, *the bond*, or concrete description—no separate faction-style label unless you establish one in-world  
 - **Legend + summit:** Mythic **first pair** (tragic heroes) justifies **cultural hunger** for the bond; **Cael** and **Riven** seek Velorum as emulation, not first discovery—see **[synopsis.md](./synopsis.md)**  
 - **Drift between Cael and Riven** (avoidance, jealousy, **blocking** inner listening) escalates into **observable harm** in the world—distortion under pressure, delayed movement, environmental instability, crowd risk, and beasts behaving wrong at the edges ([synopsis.md](./synopsis.md)).  
@@ -245,7 +245,7 @@ The stronger the alignment:
 
 ## Final choice (Greyhaven crisis)
 
-At the end, a final threat near **Greyhaven** forces the last choice: to save the town, **Cael** and **Riven** must act in total unity, which requires surrendering what remains of their separateness (see **[synopsis.md](./synopsis.md)**).
+At the end, a final threat near **Greyhaven** forces the last choice: to save the town, **Cael** and **Riven** must stop resisting the bond and carry one unbearable burden together (see **[synopsis.md](./synopsis.md)**).
 
 On the page, treat this as **tragic surrender**, not a tidy upgrade:
 - it stabilizes **Velorum** and the wider world  
@@ -297,15 +297,15 @@ Act V — The Legend
 Follow progression (see **[synopsis.md](./synopsis.md)** and **[act-chapter-index.md](./act-chapter-index.md)** for named beats):
 
 - Greyhaven legend hunger; **Riven** and **Cael** choose remembered purpose  
-- Summit encounter; Velorum binds them into shared thought/emotion  
-- Power phase: perfect movement, rising reputation, arrival at **Kestrel Gate**  
+- Summit encounter; Velorum binds them into shared burden and emotional bleed  
+- Power phase: distributed strain, rising reputation, arrival at **Kestrel Gate**  
 - **Halverin** defines a "path"; **Lyra** identifies coercive loss  
 - Kestrel Gate attack exposes first lethal cracks under pressure  
 - Public demonstration collapses; reality distorts; Halverin is discredited  
 - **Lyra** leaves when no private relationship remains  
 - Seeker leads them through fractured lands back toward Velorum  
-- Final Greyhaven threat demands total surrender into unity  
-- World holds; selves erode; **Lyra** witnesses and remembers
+- Final Greyhaven threat demands full shared burden under extreme cost  
+- World holds; private suffering never fully separates again; **Lyra** witnesses and remembers
 
 ---
 

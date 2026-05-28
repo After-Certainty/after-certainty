@@ -5,7 +5,7 @@ Riven chose the roof because it was the one place in Kestrel Gate where people u
 The watch tower above the east wall had a maintenance platform half hidden behind spare shingles and split beams.
 From there he could see inner streets, market fires burning low, and the black road to Greyhaven. A sliver moon sat behind thin cloud; below, two watch lanterns crossed like clock hands.
 
-He sat with his back to stone, knees up, and tried to hold one thought in place without letting it spill through the bond: Lyra's mouth when she said boundary injury.
+He sat with his back to stone, knees up, and tried to hold one thought in place without letting it spill through the bond: Lyra's mouth when she said boundary breach.
 
 He kept the phrase small, no image, no voice, just words. For three breaths it held.
 
@@ -31,7 +31,7 @@ Riven scrubbed a hand over his face like he could wipe the thought out before it
 
 Not a question. Riven laughed once, no humor in it. "You see the problem."
 
-Cael stayed standing, arms folded against the wind. "You act like we can separate what's shared."
+Cael stayed standing, arms folded against the wind. "You act like we can split what's already crossing both ways."
 
 "No. The problem is I can't have one goddamn thought without it becoming everyone's fucking committee business."
 
@@ -53,7 +53,7 @@ The words hung between them. Through the bond came Cael's refusal, hard and imme
 
 "No. This is." Cael tapped two fingers against his chest, then toward Riven. "We steer it or it eats us."
 
-Riven spread his hands. "You keep saying steer like there's a wheel. There isn't. There's just impact."
+Riven spread his hands. "You keep saying steer like there's a wheel. There isn't. There's just impact and fallout."
 
 Riven almost said steering and eating were starting to look the same. He did not. The thought came through anyway, stripped raw.
 
@@ -75,7 +75,7 @@ By the time he got to sound, Cael was already there in his head again, uninvited
 
 Riven held the memory tight, not the facts only, but the shame in it, the child terror. For a moment he believed he had kept it.
 
-Then Cael's grief hit him from across the square, sudden and deep. Not present grief. Old grief, borrowed from the same memory he had never wanted shared.
+Then Cael's grief hit him from across the square, sudden and deep. Not present grief. Old grief, dragged out of the same memory he had never wanted shared.
 
 Riven dropped the cup. It shattered on stone, wine jumping cold across his fingers and boot leather.
 
@@ -145,7 +145,7 @@ Cael said nothing. Through the bond, Riven felt the hit land hard and quiet.
 
 Neither slept quickly. Every time Riven turned, Cael felt it. Every time Cael's guilt brushed the seam, it landed under Riven's ribs. Just before dawn Riven accepted what he had been refusing.
 
-The bond was not only power. It was closeness without permission.
+The bond was not only power. It was shared burden without permission.
 
 When first bell rang, both of them were already awake.
 

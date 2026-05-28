@@ -5,7 +5,7 @@ Preserve and strengthen competence-driven intimacy: shared task flow as relation
 
 **FOCUS:**
 - logistics and command flow
-- tactical spacing and synchronization
+- tactical spacing and anticipatory reinforcement under stress
 - shared labor, repairs, equipment handling
 - procedural trust under pressure
 

@@ -16,6 +16,8 @@
 
 No other uncontroversial typos, wrong-name slips, or geography word-errors found across Act I.
 
+Shared-burden revision note: Act I curse scenes should now be interpreted and edited as strain transfer, emotional leakage, and invasive dependence rather than synchronization or identity-merger language.
+
 ---
 
 ## Author judgment

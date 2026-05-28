@@ -5,7 +5,7 @@ By the second day on the road to Kestrel Gate, people were waiting for them befo
 Cael saw the crowd gathered near the mile stones while mist still sat in the ditch. A miller with split hands. Two traders in patched blue coats. A woman with a child wrapped to her chest. Nobody stood close to anyone else. Everyone watched the tree line.
 
 "Are you the pair from Ashfen?" the miller asked.
-"The ones who move together."
+"The ones who carry each other's weight."
 
 Cael looked at Riven. Riven gave a short nod, guarded, hands near his belt. Cael felt that tension through the bond. He also saw the crowd's clipped breathing and locked knees. That decided it.
 
@@ -35,10 +35,9 @@ The brewer pressed a clay bottle at Cael's chest in thanks. Cael refused it once
 
 Cael took the bottle and passed it to Riven without drinking.
 
-They moved from stop to stop and put out what they could. A gang broke when Cael and Riven came over a ridge together. A fight in a grain yard ended in less than a minute because Riven took one attacker high while Cael stripped the blade from another, same second, no call needed. A caravan master who had been shouting at everyone went quiet when he watched them turn two charges into one trap.
+They moved from stop to stop and put out what they could. A gang broke when Cael and Riven came over a ridge together and the first man swung at the wrong target. A fight in a grain yard ended in less than a minute because Riven took one attacker high while Cael stripped the blade from another, one surge of effort between them, no call needed. A caravan master who had been shouting at everyone went quiet when he watched them take two charges and fold them into one trap.
 
-By evening, people were passing their names ahead of them. Smoke from cooking fires drifted low across the road, and the first lamps in roadside shacks came up, one by one, behind wagon wheels.
-Not Cael and Riven. The pair. The sworn men. Names that traveled faster than wagons and sounded cleaner than the work.
+By evening, people were passing their names ahead of them. Smoke from cooking fires drifted low across the road, and the first lamps in roadside shacks came up, one by one, behind wagon wheels. Not Cael and Riven. The pair. The sworn men. Names that traveled faster than wagons and sounded cleaner than the work.
 
 Cael did not correct them.
 
@@ -62,7 +61,7 @@ Toward dusk they reached a low causeway where floodwater had eaten half the bank
 
 Riven was already moving.
 
-They took opposite sides of the lead wagon without speaking. Cael drove a wedge stone under the left wheel while Riven looped rope through the front yoke and around a dead cedar root. Mud sucked at Cael's boots, and the rope burned hot across his palms as he took the load. He felt Riven's balance adjust before he saw it. He pulled. Riven countered. The cart lurched forward once, then held. On the third combined heave the wheel climbed free and the line of wagons followed.
+They took opposite sides of the lead wagon without speaking. Cael drove a wedge stone under the left wheel while Riven looped rope through the front yoke and around a dead cedar root. Mud sucked at Cael's boots, and the rope burned hot across his palms as he took the load. Riven's balance shifted through him before he saw it on the far side. He pulled. Riven countered. The cart lurched forward once, then held. On the third combined heave the wheel climbed free and the line of wagons followed.
 
 The second wagon went worse. Halfway up the lip, the rear wheel dropped through soft edge and the cart leaned hard enough to throw two sacks clear into the water. A child screamed from inside before anyone could tell if the tilt would hold.
 
@@ -92,7 +91,7 @@ Cael answered only what he could answer cleanly.
 
 Riven answered with half-jokes and profanity until people laughed, then stopped when the laughter turned hopeful.
 
-Later, a trader with soot-black nails passed them a scrap of cheap print he'd bought in Greyhaven, a ballad sheet with a woodcut almost identical to the shrine figures. The ink had run where rain got it, and half the chorus was unreadable, but the last line still stood clear: THEY STOOD AS ONE AND THE ROAD HELD.
+Later, a trader with soot-black nails passed them a scrap of cheap print he'd bought in Greyhaven, a ballad sheet with a woodcut almost identical to the shrine figures. The ink had run where rain got it, and half the chorus was unreadable, but the last line still stood clear: THEY CARRIED IT TOGETHER AND THE ROAD HELD.
 
 Cael folded the sheet along the old crease and gave it back.
 

@@ -1,3 +1,3 @@
 # Chapter 27 - The Choice
 
-Riven confronts the final terms of what Velorum requires and what that erases. Love, legacy, and self-preservation collide as he realizes there may be no meaningful refusal left.
+Riven faces the last private choice he can still name: resist and let Greyhaven fall, or accept permanent interdependence. He chooses burden, not belief.
