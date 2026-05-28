@@ -1,3 +1,3 @@
 # Chapter 14 - The Explanation
 
-Halverin reframes the disaster as proof they simply need fuller alignment. Cael clings to that explanation, while Riven's skepticism grows harder to ignore.
+Halverin reframes the disaster as proof they are resisting shared burden instead of accepting it. Cael clings to that framing, while Riven sees it as a polished excuse for making them absorb more harm.

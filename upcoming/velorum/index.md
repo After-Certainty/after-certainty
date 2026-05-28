@@ -20,7 +20,7 @@ What begins as flight becomes bond—and bond becomes burden. These opening chap
 
 ## Part II — The Gift
 
-- [Chapter 7 — Perfect Movement](manuscript/act-2-the-gift/chapter-07-perfect-movement.md)
+- [Chapter 7 — Shared Load](manuscript/act-2-the-gift/chapter-07-shared-load.md)
 - [Chapter 8 — The Road to Kestrel Gate](manuscript/act-2-the-gift/chapter-08-the-road-to-kestrel-gate.md)
 - [Chapter 9 — The Magistrate](manuscript/act-2-the-gift/chapter-09-the-magistrate.md)
 - [Chapter 10 — Lyra](manuscript/act-2-the-gift/chapter-10-lyra.md)

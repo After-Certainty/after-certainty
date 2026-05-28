@@ -1,7 +1,6 @@
 # Chapter 13 - Aftermath
 
-The morning after the attack, the square smelled like wet ash and lime. Gray daylight sat flat on the paving stones, scaffold shadows sharp against broken walls.
-Lime buckets lined the curb beside stacked stretchers.
+The morning after the attack, the square smelled like wet ash and lime. Gray daylight sat flat on the paving stones, scaffold shadows sharp against broken walls. Lime buckets lined the curb beside stacked stretchers.
 
 Someone nearby kept sneezing from the lime and muttering apologies each time.
 
@@ -15,8 +14,7 @@ An hour later she came back with two boys and asked where to stack salvaged boar
 
 None of it landed cleanly. Every reaction from the crowd came through the bond and mixed with Cael's running count of what went wrong.
 
-He found Lyra in the infirmary annex sorting bandage rolls into crates for the outer wards. The annex was narrower than the main hall, shelves on one side and a row of high windows on the other letting in hard white light.
-She looked up once, read his face, and pushed a stool toward him with her foot.
+He found Lyra in the infirmary annex sorting bandage rolls into crates for the outer wards. The annex was narrower than the main hall, shelves on one side and a row of high windows on the other letting in hard white light. She looked up once, read his face, and pushed a stool toward him with her foot.
 
 "You didn't sleep," she said.
 
@@ -68,7 +66,7 @@ Then Halverin said, "Yesterday showed us the next step. Alignment must be comple
 
 Cael's focus sharpened. Riven felt it happen, the same way he had felt it in the command hall after the attack.
 
-Halverin continued, "In two days, we will hold a public demonstration. Controlled, observed, guided. The sworn pair will show the city what true convergence looks like."
+Halverin continued, "In two days, we will hold a public demonstration. Controlled, observed, guided. The sworn pair will show the city what a stable burden looks like."
 
 Riven turned his head slowly toward Cael. Cael was already looking at Halverin with that same look he got when he thought he could still fix something broken.
 
@@ -92,7 +90,7 @@ Cael scrubbed a hand over his face. He looked older than he had a week ago. "Peo
 
 "And we were late where it mattered."
 
-Riven stepped closer, voice low. "You think if we just force harder, the bond gets kind."
+Riven stepped closer, voice low. "You think if we just force harder, the bond gets manageable."
 
 "I think if we do nothing, more people fucking die."
 
@@ -122,9 +120,7 @@ Riven stared at the nearest notice until letters blurred.
 
 Riven looked down to where cleanup crews were still shoveling ash under torchlight. "Same thing?"
 
-Cael did not answer immediately. Through the bond, Riven felt the pause like a full-body ache.
-For one breath, standing shoulder-close on the wall, the ache eased.
-Riven leaned into it before he caught himself.
+Cael did not answer immediately. Through the bond, Riven felt the pause like a full-body ache. For one breath, standing shoulder-close on the wall, the ache eased. Riven leaned into it before he caught himself.
 
 "Maybe," Cael said at last.
 
@@ -174,6 +170,6 @@ Merrow gave a thin smile. "You."
 
 She moved on before either of them could answer.
 
-Inside them, nothing was stable. Riven felt his own guilt and Cael's layered into one constant pressure. The bond that had made them unbeatable on the road now felt cracked and overloaded.
+Inside them, nothing was stable. Riven felt his own guilt and Cael's layered into one constant pressure. The bond that had made them dangerous on the road now felt cracked and overloaded.
 
 Riven stopped telling himself this would pass by morning.

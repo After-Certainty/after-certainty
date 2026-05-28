@@ -104,7 +104,7 @@ After sense, agency, and plain dialogue are in place, **tighten** so every line 
 - **Idiomatic, not office-shaped:** when you cut workplace-adjacent wording (*performance* piled as abstract jargon, *leverage*, *optics*), replace it with **what people actually say**—*performing*, *putting on a show*, *acting like*, *playing brave*. Don’t swap a natural phrase for a stiff euphemism that merely **avoids** office vocabulary but reads like a policy memo (*facilitating*, *optimizing*) or clinical stand-ins where spoken English already has a tool (*performing injury*, not *staging injury*—unless **dialogue** is deliberately theatrical). Institutional voices (magistrate, clerks) may sound office-like **on purpose**; default narration and ordinary speech should not.  
 - **No modern workplace camouflage** in narration or ordinary dialogue: avoid *leverage, optics, bandwidth, circle back, takeaway, unpack, stakeholder, pivot, granular, onboarding, actionable, synergize*. If you mean **performing for an audience**, say **show / act / play brave**—not **performance** as abstract noun-stacking in narration; **performing** as a verb in dialogue (*performing injury*, *performing calm*) stays—it’s idiomatic.  
 - **“Job description,” “role,” “reporting line”:** use only if you want **intentional** cold comedy or an institutional voice (e.g. merchant power). Default narration should sound like **road talk**, not HR.  
-- **Velorum terms stay:** *alignment, sync, correction, bond, oath* are **in-world**—keep them; do **not** replace them with corporate *alignment* metaphors from another sense. When you mean ordinary English “they matched,” say **matched / snapped together / forced the same step** if you’re avoiding oath jargon in a given sentence.  
+- **Velorum terms stay:** *alignment, shared load, correction, bond, oath* are **in-world**—keep them; do **not** replace them with corporate *alignment* metaphors from another sense. When you mean ordinary English “they matched,” say **matched / anticipated / reinforced each other under load** if you’re avoiding oath jargon in a given sentence.  
 - **Abstractions to pressure-test:** *invitation, debt, theater (as metaphor), choreograph, translation (unless dialogue names language outright)*—rewrite until **someone wants something on the page** or **something hits skin**.
 
 ### Anti-meta phrasing scrub *(late revision check)*
@@ -121,7 +121,7 @@ Run this after accessibility/flow passes and before final compression.
 The story does **not** take place in modern Earth, but **default narration and ordinary dialogue still use plain, contemporary English**—the vocabulary readers already live in. Myth and invented place stay mythical; **word choice** stays legible.
 
 - **Prefer modern clarity over period flavor.** Swap costume-default nouns (*hawkers*, *chapbooks*, stock *verily* cadence) for **straight labels** unless a beat truly needs the older word (*street vendors*, *cheap printed stories*, *pamphlets*, *ledger*)—same objects, fewer decoder rings.  
-- **What stays “other”:** **Velorum / oath grammar** (*alignment*, *bond*, *correction*, *sync*, named places, in-world oaths)—those are **setting vocabulary**, not museum English. Do **not** replace them with corporate or modern-tech metaphors (see office creep above).  
+- **What stays “other”:** **Velorum / oath grammar** (*alignment*, *bond*, *correction*, *shared load*, named places, in-world oaths)—those are **setting vocabulary**, not museum English. Do **not** replace them with corporate or modern-tech metaphors (see office creep above).  
 - **When period words earn their keep:** quoted ritual, a character **performing** pomposity, or a term taught **in-scene** before it carries weight—otherwise choose the word that fits **today’s ear**.  
 - **Revision cue:** if a reader could mistake the word for homework (*chapbook*, *hawker*, *cordwainer*), try the **specific modern thing** (*cheap booklet*, *vendor*, *cobbler*) without flattening voice.
 
@@ -302,7 +302,7 @@ The trail dropped until the basin widened below. First the ridge wind quit; then
 
 Cael shortened his stride. Riven matched him without deciding to.
 
-Between them the bond tightened wrong whenever they slipped out of sync—too hot for the weather, or Cael’s irritation landing before he spoke.
+Between them the bond tightened wrong whenever they resisted each other under strain—too hot for the weather, or Cael’s irritation landing before he spoke.
 
 Ahead, dust hung where their boots should have scattered it.
 
@@ -337,6 +337,19 @@ A pause.
 Riven’s gaze remained forward.
 
 “No,” he said. “We do.”
+
+---
+
+## Shared burden guardrails *(curse language default)*
+
+- Use curse effects as **physical consequence first**: fatigue transfer, pain echo, strain redistribution, panic spread, involuntary reinforcement.
+- Keep mystery by showing **symptoms and costs**, not hard-rule exposition.
+- Avoid synchronization framing: no puppet mirroring, no permanent movement lockstep, no hivemind shorthand.
+- Keep emotional language concrete: who hurts, who hides, what leaks, what labor costs.
+- Escalation by act:
+  - **Early:** emotional leakage + fatigue overlap
+  - **Mid:** pain/strain distribution + stress reinforcement
+  - **Late:** dangerous interdependence + no private suffering
 
 ---
 

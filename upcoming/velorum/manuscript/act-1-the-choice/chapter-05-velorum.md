@@ -85,7 +85,7 @@ His feet would not move.
 Pressure pushed deeper, under his ribs.
 
 Then the warning hit him clean:
-you will not stay yourselves.
+*you don't get to stay untouched.*
 
 His eyes burned.
 
@@ -185,8 +185,7 @@ Riven stopped breathing for a beat. Copper flooded his tongue.
 The clouds jumped again. Cael turned all the way toward him. Riven saw himself reflected in Cael's eyes too clear, too close.
 
 Riven jerked.
-Cael jerked in the same instant.
-Same movement. Same distance.
+Weight shifted through both of them at once, wrong and immediate, before he knew whose foot had slipped.
 
 They froze.
 
@@ -237,7 +236,7 @@ Cael swallowed.
 
 "Riven."
 
-Riven swallowed copper. The two heartbeats slid into sync so clean it felt stolen.
+Riven swallowed copper. His pulse and Cael's pulled against each other until he could not tell which chest owned the hammering.
 
 "I'm here," he said. "I'm in. Fuck. I'm in."
 
@@ -246,7 +245,7 @@ The stone hummed once under their boots, low and deep.
 The presence filled him until there was nowhere left to hide a thought. Even his anger felt watched.
 
 Then the warning came again, colder this time:
-you will not remain yourselves.
+*what happens to one of you starts happening to both.*
 
 His eyes flooded. Hot tears. No wind to blame.
 

@@ -6,7 +6,8 @@ By the time Cael and Riven reached the south gate, word had already outrun them.
 
 "Lord Magistrate Halverin requests your presence," the clerk said. "Immediately."
 
-Riven muttered, "Could at least ask if we're fucking hungry first." Cael kept walking.
+Riven muttered, "Could at least ask if we're fucking hungry first."
+Cael kept walking.
 
 The city smelled like hot iron and old rain. Shutters were half down in daylight. Messengers ran between posts. In the square, someone had nailed up a board that read MISSING.
 
@@ -14,7 +15,7 @@ At the next corner, two bakers and a guard shouted over a ration board with numb
 
 Their clerk didn't slow.
 
-Halverin met them upstairs in a council room: windows on one wall, maps on the other, candles bleeding wax onto a crowded table.
+Halverin met them upstairs in a council room, windows on one wall, maps on the other, candles bleeding wax onto a crowded table.
 
 He was thinner than Cael expected. Pale. Neat coat. Dark hair tied back. No rush in his body, even with the city coming apart under him.
 
@@ -52,7 +53,7 @@ Riven's laugh this time had no humor in it. "Print that on your broadsides."
 
 One aide looked up. Halverin raised two fingers without looking; the aide dropped his eyes.
 
-Riven's anger hit through the bond like heat. Cael felt it. He also felt his own colder reaction: if Halverin was right, then what they were losing had use.
+Riven's anger hit through the bond like heat. Cael felt it. He also felt his own colder reaction: if Halverin was right, then what they were losing could still be used.
 
 He hated that thought as soon as it settled.
 
@@ -75,7 +76,7 @@ Riven's disgust scraped through the bond. Cael felt it, but the shape of the wor
 
 Halverin slid over another sheet, plain columns and names. Missing captains. Understrength gates. Civilians on bucket lines because there was no one else.
 
-Cael scanned it once and saw why Halverin leaned on story language. The numbers were worse.
+Cael scanned it once and saw why Halverin leaned on story language. The numbers were worse than the room sounded.
 
 "How many can still hold a line?" Cael asked.
 
@@ -201,4 +202,5 @@ Near dawn they reported to Merrow. She read the slate in silence and circled thr
 
 Cael nodded, already counting routes.
 
-Riven stood with chalk dust in his palm while Merrow called for the next slate and no one asked if he agreed.
+Riven stood with chalk dust in his palm while Merrow called for the next slate.
+No one asked if he agreed.

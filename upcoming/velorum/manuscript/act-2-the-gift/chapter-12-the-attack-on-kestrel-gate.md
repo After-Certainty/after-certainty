@@ -13,7 +13,7 @@ Through the bond he pulled for Riven, hard and immediate.
 
 East barracks. Running. Coming.
 
-Riven's reply came back with boots on stone and matching adrenaline. For a few minutes they moved like they had on the road. Cael cut through panic at the market choke while Riven vaulted a broken cart and hauled a pinned child free. They met at the grain arch and turned a collapsing awning into a ramp, shoving civilians through as masonry dropped behind them.
+Riven's reply came back with boots on stone and matching adrenaline. For a few minutes they moved like they had on the road, pain and urgency crossing between them faster than words. Cael cut through panic at the market choke while Riven vaulted a broken cart and hauled a pinned child free. They met at the grain arch and turned a collapsing awning into a ramp, shoving civilians through as masonry dropped behind them.
 
 "North street," Cael said.
 
@@ -37,9 +37,9 @@ Cael went low, took one attacker in the knees, pivoted, and expected Riven at hi
 
 Riven hesitated.
 
-A fraction. Cael's judgment from the previous miss hit the bond at the wrong second, and Riven flinched. It was enough. The second attacker slipped past and cut a dockworker across the throat before Cael reached him.
+A fraction. Cael's shame from the previous miss hit the bond at the wrong second, and Riven flinched. It was enough. The second attacker slipped past and cut a dockworker across the throat before Cael reached him.
 
-Cael felt the death like a wrench through both their chests, sharp enough to steal a breath.
+The man's death hit both of them like a wrench through the chest, sharp enough to steal a breath.
 
 "Focus!" he shouted. "Fucking focus!"
 
@@ -61,7 +61,7 @@ Riven heard it through Cael and answered before Cael did. "We're moving."
 
 They cut west through smoke thick enough to sting tears from both sets of eyes and reached the berm just as the earth there started to fold into the drainage ditch. Workers were still on the far side with brace timber and no way back.
 
-Cael took one look and stepped into the slough line. Riven followed before he could think about it. Relief hit first when Cael's weight set beside his. Resentment hit right after, then both got buried under work. They planted themselves shin-deep in sliding mud and gave the crews a fixed point to run against, one hand on each brace pole until everyone was across.
+Cael took one look and stepped into the slough line. Riven followed before he could think about it. Relief hit first when Cael's weight set beside his, then resentment, then both got buried under work. They planted themselves shin-deep in sliding mud and gave the crews a fixed point to run against, one hand on each brace pole until everyone was across.
 
 The last crewman stumbled at the lip and dropped his hammer into the ditch. Riven caught the back of his coat and hauled him up by raw force while Cael took the full shove of a brace pole trying to twist free. The impact numbed Cael's shoulder to the elbow.
 
@@ -86,7 +86,7 @@ Halverin arrived in the command hall after dark with ash on his cuffs and three 
 Riven stared at him like he might laugh or throw something. "People still fucking died."
 He dragged his wrist across his mouth and left a dark smear there.
 
-Halverin inclined his head. "Yes. Because you two still aren't fully locked in."
+Halverin inclined his head. "Yes. Because you two still resist the burden when it hurts most."
 
 Cael felt Riven's fury hit first, then his own recoil at how neat the answer sounded. Too quick. Too clean.
 
@@ -98,7 +98,7 @@ Riven's voice came out rough. "Evidence of what? That we're fucking human."
 
 "Evidence that hesitation kills," Halverin said, eyes on Cael. "You felt it. The moments where you split. Finish the path and those moments get fewer."
 
-Cael did feel them. Every late half-step. Every wrong beat. Every life that might have held if they'd been cleaner, tighter, less split. Halverin's answer was cruel, but it fit Cael's guilt too well to ignore.
+Cael did feel them. Every late half-step. Every rebound of fear. Every wrong beat. Every life that might have held if they'd been cleaner, tighter, less split. Halverin's answer was cruel, but it fit Cael's guilt too well to ignore.
 
 Riven felt that replay too and turned away, hands shaking hard enough that he had to lock them on the table edge.
 

@@ -1,3 +1,3 @@
 # Chapter 26 - Velorum Again
 
-They reach Velorum a second time expecting an answer that can restore two separate lives. The truth is narrower and harsher: there is no cure, only completion into legend.
+At Velorum, they learn there is no clean severance, only terms of endurance: carry the burden together or let the world break. The revelation is practical, not explanatory.

@@ -172,7 +172,7 @@ See **voice-spec → Concrete language → kill office creep**.
 
 Also avoid **HR-flavored defaults:** `job description`, `reporting line`, **“role”** (when it sounds like org-chart), **abstract “performance,”** **checking boxes**, **filing** as metaphor—unless you **mean** cold institutional comedy.
 
-**Velorum vocabulary stays in-world:** `alignment`, `bond`, `oath`, `correction`, `sync`—keep them; do **not** swap corporate “alignment” as metaphor.
+**Velorum vocabulary stays in-world:** `alignment`, `bond`, `oath`, `correction`, `shared load`—keep them; do **not** swap corporate “alignment” as metaphor.
 
 **Replace with road talk:** *show / act / put on / play brave / lie / pretend / count coins / sweep the yard*—whatever fits the scene.
 
@@ -203,6 +203,20 @@ Words and images **repeat accidentally** before they repeat on purpose. This pas
 - [ ] **Dialogue tags:** Avoid starting three answers in a row with the same flourish (*Cael was quiet… / quiet again*)—vary how silence lands.
 
 Optional: skim with search for a frequent word (*\bwind\b*, *square*, *hands*) when a chapter *feels* spongy.
+
+---
+
+## Shared burden guardrails *(cross-pass check)*
+
+Run this check after substance passes and before final skim.
+
+- [ ] Replace mirrored-movement logic with shared strain logic (anticipatory awareness, redistributed load, involuntary reinforcement).
+- [ ] Ensure curse beats land as bodily consequence (fatigue, pain, breath, instability), not abstract identity statements.
+- [ ] Keep mechanics experiential: symptoms and fallout first, explicit rules minimal.
+- [ ] Verify escalation shape in the chapter's act:
+  - early chapters = emotional/fatigue bleed,
+  - middle chapters = pain/strain distribution and stress reinforcement,
+  - late chapters = dangerous interdependence and no private suffering.
 
 ---
 

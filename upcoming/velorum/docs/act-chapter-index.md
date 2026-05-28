@@ -28,14 +28,14 @@ They encounter Velorum (presence, not form). Riven feels unease. Cael accepts im
 
 ### Chapter 6 — The Curse
 **POV:** Cael  
-The bond begins. They hear each other’s thoughts. Initial confusion -> rapid synchronization.
+The bond begins. Emotional leakage and fatigue transfer appear immediately. Initial confusion -> involuntary shared load.
 
 ## ACT II — THE GIFT (Chapters 7–13)
 **Goal:** Show power, introduce Halverin + Lyra, seed instability.
 
-### Chapter 7 — Perfect Movement
+### Chapter 7 — Shared Load
 **POV:** Riven  
-They fight bandits with flawless coordination. Riven feels exhilaration—but also exposure.
+They fight bandits with dangerous coordination born from redistributed strain. Riven feels exhilaration—but also exposure and bodily intrusion.
 
 ### Chapter 8 — The Road to Kestrel Gate
 **POV:** Cael  
@@ -51,15 +51,15 @@ Riven meets Lyra. First moment of something separate. Cael feels it instantly.
 
 ### Chapter 11 — No Privacy
 **POV:** Riven  
-Riven tries to hold onto something private. Fails. Emotional discomfort grows.
+Riven tries to hold onto something private. Fails. Emotional bleed starts causing physical instability in both of them.
 
 ### Chapter 12 — The Attack on Kestrel Gate
 **POV:** Cael  
-Major action scene. Their coordination falters. They still win—but too late.
+Major action scene. Shared burden destabilizes under emotional fracture. They still win—but too late.
 
 ### Chapter 13 — Aftermath
 **POV:** Riven  
-Riven feels guilt twice (his + Cael’s). First real sense that something is wrong.
+Riven feels guilt, fatigue, and pain twice (his + Cael’s). First real sense that something is wrong.
 
 ## ACT III — THE BREAK (Chapters 14–20)
 **Goal:** Collapse Halverin, lose Lyra, force truth into the open.
@@ -82,7 +82,7 @@ Public square scene begins. Pressure builds.
 
 ### Chapter 18 — Collapse in Public
 **POV:** Riven  
-The bond destabilizes violently. Reality distorts. Halverin fails visibly.
+The bond destabilizes violently as pain and panic rebound through both bodies. Reality distorts. Halverin fails visibly.
 
 ### Chapter 19 — The Silence After
 **POV:** Cael  
@@ -109,11 +109,11 @@ Cael sees direction again. Riven sees inevitability.
 
 ### Chapter 24 — Fractured Lands
 **POV:** Riven  
-Environment mirrors their condition. Riven tries to hold onto individuality—fails.
+Environment pressures their bond. Riven tries to hold onto private suffering—fails.
 
 ### Chapter 25 — Losing the Line
 **POV:** Riven  
-Riven can no longer clearly distinguish his thoughts. Identity erosion accelerates.
+Riven can no longer keep his pain, fear, or exhaustion contained to himself. Interdependence accelerates.
 
 ### Chapter 26 — Velorum Again
 **POV:** Cael  
@@ -132,9 +132,9 @@ Final crisis emerges. Cael sees it as purpose fulfilled.
 
 ### Chapter 29 — Surrender
 **POV:** Riven  
-Climactic decision. Riven gives in—not from belief, but inevitability.
+Climactic decision. Riven accepts full shared burden—not from belief, but necessity.
 
 ### Chapter 30 — Velorum Holds
 **POV:** Lyra  
-Aftermath. They are unified, but no longer themselves. Statue scene. Final emotional resolution.
+Aftermath. They remain distinct but permanently burden-bound. Statue scene. Final emotional resolution.
 

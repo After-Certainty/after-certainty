@@ -2,7 +2,7 @@
 
 Cael heard the world come back wrong. The dish of stone under him, cold creeping up through his soles, the rings catching grit in their grooves.
 
-Past the inner circle, the stone ran out into rougher tread and a lip of trail, then nothing but air and the long grey slope they'd climbed. The light looked flat: pale sky pressed low, one dull wash, no shadow long enough to fix direction. The far ridge was a smear in the haze—no mast, no sharp spike of rock to steer by. His breath and Riven's overlaid—inhales and exhales not matched on purpose, each cycle the same length as if something outside them had set the pace.
+Past the inner circle, the stone ran out into rougher tread and a lip of trail, then nothing but air and the long grey slope they'd climbed. The light looked flat: pale sky pressed low, one dull wash, no shadow long enough to fix direction. The far ridge was a smear in the haze—no mast, no sharp spike of rock to steer by. His breath and Riven's overlaid—inhales and exhales tugging at each other, each cycle stealing a little steadiness from the other body.
 
 He tried to let go of Riven's hand, but his fingers wouldn't uncurl all the way, then did too fast and spasmed, skin hot and cold in the same second. Riven made a noise in his throat—not a word—and Cael heard it twice, once in his ears and once behind his eyes. He turned his head. "You all right?"
 
@@ -70,7 +70,7 @@ Cael's first instinct was denial, clean and familiar as a square-cut board. The 
 
 "Don't tell me not to spiral when you're scared too," Riven snapped, and Cael felt the snap land in his own ribs, deserved.
 
-He inhaled slowly through his nose, exhaled slower, the way he did before lifting a heavy door. Riven's shoulders mirrored the breath without looking at Cael. Cael caught himself staring; Riven caught him at it. They both flinched—same stupid trick, being watched inside their own skulls.
+He inhaled slowly through his nose, exhaled slower, the way he did before lifting a heavy door. Riven's shoulders took the breath with him without looking at Cael. Cael caught himself staring; Riven caught him at it. They both flinched—the same invasive spill, being unable to keep fear to themselves.
 
 Riven breathed out. "Okay. That's fucked."
 
@@ -92,7 +92,7 @@ Riven's face went greyer. "That's not possible."
 
 They stared at each other. Cael lifted his hand slowly, palm toward Riven, not touching, a test, and Riven matched him without looking down. Their palms aligned an inch apart, heat steady between them, too warm for the chill alone, and neither hand shook.
 
-After a moment he lowered his hand, and Riven lowered his at the same speed, in the same arc, as if neither of them had decided first.
+After a moment he lowered his hand. Riven's came down with it, same arc, same hesitation, as if the weight had been shared between them.
 
 Cael's mouth went bitter. "Fuck."
 
@@ -106,7 +106,7 @@ He turned the other way on purpose, toward the trail lip where gravel spilled ov
 
 They moved toward their packs where they had left them on the rim—canvas lumps against the rock, straps curled—and the movement should've been ordinary: bend, lift, strap, check.
 
-Instead their hands went for the straps in the same instant—Cael his, Riven his—elbows brushing. The near-collision didn't happen; both stopped on the same inch, like they'd rehearsed it.
+Instead their hands went for the straps at once, Cael his and Riven his, elbows brushing. The near-collision didn't happen; both stopped on the same inch, like they'd rehearsed it.
 
 When Cael felt Riven's surprise as his own, he steadied himself on a knee that wasn't supposed to be shaking; gravel bit through cloth, and the small pain helped. "This is bad," Riven said. "Like truly fucking bad."
 
@@ -153,9 +153,9 @@ Cael pressed his palm flat against his thigh until the muscle ached, letting the
 
 Riven adjusted his blanket roll, then adjusted it again like the second try might make it feel less real.
 
-Riven didn't. They shouldered packs. Cael led because someone had to.
+They shouldered packs. Cael led because someone had to.
 
-Each time he set a foot, Riven's body adjusted behind him before the gravel shifted, before a gust came, like Riven's nerves had been strung through Cael's own. It should've been clumsy; it wasn't. They descended the first steep stretch faster than they should have, too synchronized, too neat—switchbacks cutting across a face of broken plates, the sky a narrowing wedge whenever Cael risked a glance up. Cael hated how efficient it felt, how much it felt like confirmation.
+Each time he set a foot, fatigue and balance crossed into Riven before the gravel shifted, before a gust came. It should've been clumsy; it wasn't. They descended the first steep stretch faster than they should have, each step taking less from one body because the other paid part of the cost—switchbacks cutting across a face of broken plates, the sky a narrowing wedge whenever Cael risked a glance up. Cael hated how efficient it felt, how much it felt like confirmation.
 
 "Stop," Riven said suddenly.
 
@@ -163,7 +163,7 @@ Cael stopped on the same foot. His knees jarred; he locked them anyway. Riven sw
 
 "Doing what?"
 
-"Moving like one person."
+"Moving like we share one set of nerves."
 
 Cael's jaw tightened. "Then break step on purpose."
 
@@ -191,7 +191,7 @@ Riven nodded, shaky. "Your hand."
 
 "Yeah," Cael said. They stood until Riven's shoulder stopped trembling under Cael's palm, or Cael's hand went numb from cold, or both, time gone slippery.
 
-When they moved again, it was slower, uglier, on purpose. It still wasn't natural. Every few steps one of them would hesitate and the other would catch the same beat—a stutter-stop that looked like comedy from a distance and felt like drowning inside.
+When they moved again, it was slower, uglier, on purpose. It still wasn't natural. Every few steps one of them would hesitate and the other would absorb the same jolt—a stutter-stop that looked like comedy from a distance and felt like drowning inside.
 
 Halfway down the bench trail, Cael tried to think a nonsense word, loud in his head: cabbage. Riven snorted, miserable. "Why cabbage?"
 

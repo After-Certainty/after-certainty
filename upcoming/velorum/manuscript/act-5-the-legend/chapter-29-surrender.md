@@ -1,3 +1,3 @@
 # Chapter 29 - Surrender
 
-At the point of no return, Riven yields to full unity not from faith but from inevitability. The act saves everyone and costs the last private boundary he still possessed.
+Riven stops resisting the bond at the critical moment, allowing full pain and effort distribution across both bodies. The victory condition is endurance at terrible cost, not mystical perfection.

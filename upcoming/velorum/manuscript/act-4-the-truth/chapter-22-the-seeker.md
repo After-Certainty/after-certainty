@@ -1,3 +1,3 @@
 # Chapter 22 - The Seeker
 
-They find the Seeker and ask for answers neither of them receives. The Seeker turns and walks, making the path itself the only response.
+The Seeker offers no theory, only a path. Cael and Riven follow while exhaustion and emotional bleed intensify, proving the curse runs on endurance rather than understanding.

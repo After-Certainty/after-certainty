@@ -1,3 +1,3 @@
 # Chapter 17 - The Demonstration
 
-In Kestrel Gate's square, Halverin begins directing them before a crowd. Cael tries to obey and hold formation as pressure rises and the bond turns unstable.
+In the square, Halverin pushes them to display control. Under crowd pressure, their emotional fractures start rebounding physically through both bodies before the public can understand what is going wrong.
