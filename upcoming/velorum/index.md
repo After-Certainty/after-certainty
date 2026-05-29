@@ -27,3 +27,29 @@ What begins as flight becomes bond—and bond becomes burden. These opening chap
 - [Chapter 11 — No Privacy](manuscript/act-2-the-gift/chapter-11-no-privacy.md)
 - [Chapter 12 — The Attack on Kestrel Gate](manuscript/act-2-the-gift/chapter-12-the-attack-on-kestrel-gate.md)
 - [Chapter 13 — Aftermath](manuscript/act-2-the-gift/chapter-13-aftermath.md)
+
+## Part III — The Break
+
+- [Chapter 14 — The Explanation](manuscript/act-3-the-break/chapter-14-the-explanation.md)
+- [Chapter 15 — Trying to Fix It](manuscript/act-3-the-break/chapter-15-trying-to-fix-it.md)
+- [Chapter 16 — Lyra's Warning](manuscript/act-3-the-break/chapter-16-lyras-warning.md)
+- [Chapter 17 — The Demonstration](manuscript/act-3-the-break/chapter-17-the-demonstration.md)
+- [Chapter 18 — Collapse in Public](manuscript/act-3-the-break/chapter-18-collapse-in-public.md)
+- [Chapter 19 — The Silence After](manuscript/act-3-the-break/chapter-19-the-silence-after.md)
+- [Chapter 20 — Lyra Leaves](manuscript/act-3-the-break/chapter-20-lyra-leaves.md)
+
+## Part IV — The Truth
+
+- [Chapter 21 — No Answers Left](manuscript/act-4-the-truth/chapter-21-no-answers-left.md)
+- [Chapter 22 — The Seeker](manuscript/act-4-the-truth/chapter-22-the-seeker.md)
+- [Chapter 23 — Following](manuscript/act-4-the-truth/chapter-23-following.md)
+- [Chapter 24 — Fractured Lands](manuscript/act-4-the-truth/chapter-24-fractured-lands.md)
+- [Chapter 25 — Losing the Line](manuscript/act-4-the-truth/chapter-25-losing-the-line.md)
+- [Chapter 26 — Velorum Again](manuscript/act-4-the-truth/chapter-26-velorum-again.md)
+
+## Part V — The Legend
+
+- [Chapter 27 — The Choice](manuscript/act-5-the-legend/chapter-27-the-choice.md)
+- [Chapter 28 — The Threat to Greyhaven](manuscript/act-5-the-legend/chapter-28-the-threat-to-greyhaven.md)
+- [Chapter 29 — Surrender](manuscript/act-5-the-legend/chapter-29-surrender.md)
+- [Chapter 30 — Velorum Holds](manuscript/act-5-the-legend/chapter-30-velorum-holds.md)
