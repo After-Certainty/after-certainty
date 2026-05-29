@@ -1,56 +1,68 @@
 # Chapter 16 - Lyra's Warning
 
-The infirmary annex was cooler than the main hall and smelled less like blood. Riven came in before first bell with lime dust on his boots and a headache that had started in Cael's spine and moved into his teeth.
+The infirmary annex was cooler than the main hall and smelled less like blood. Lime and boiled cloth and the sharp edge of the herbs Lyra kept in jars along the west wall. Riven came in before first bell with dust on his boots and paste on his sleeve and a headache that had started in Cael's spine and moved into his teeth.
 
 Lyra was at the prep table sorting needles into rolls of cloth. She did not look up until he shut the door.
 
-"You smell like paste," she said.
+"You smell like tomorrow," she said.
 
-"I smell like tomorrow," Riven said.
+"I smell like rope and chalk," Riven said.
 
 "Sit."
 
-He sat. His hands would not stay still on his knees. Through the bond he felt Cael pacing the barracks corridor, counting steps, counting beats, trying to turn dread into sequence.
+He sat. His hands would not stay still on his knees. Through the bond he felt Cael pacing the barracks corridor, counting steps, counting beats, trying to turn dread into sequence. Each count scraped Riven's ribs when Cael's boot hit stone.
 
 Lyra set a cup of bitter tea in front of him. "Drink. You're shaking."
 
 "I'm not shaking."
 
-"You are." She pulled the stool closer. "Tell me what Halverin sold you."
+"You are." She pulled the stool closer. Her hands were steady. That steadiness was not performance; it was practice, the same way Cael practiced counts. Riven envied it and hated that Cael's envy came through the bond on top of his own. Her fingers were nicked from work and clean anyway. "Tell me what Halverin sold you."
 
-"He sold Cael a frame," Riven said. "He sold the city a show. I'm the part that doesn't believe the show fixes anything."
+"He sold Cael a story with steps," Riven said. "He sold the city a show. I'm the asshole who doesn't think the show fixes anything."
 
 "Good," Lyra said. "Keep that part alive."
 
 Riven laughed without humor. "It's the only part I have left."
 
-Lyra was quiet for a moment. Outside, a cart rolled past and someone shouted about rope lines. The square was waking up around them.
+Lyra was quiet for a moment. Outside, a cart rolled past and someone shouted about rope lines. Through the high windows Riven caught only rooflines and a wedge of sky going pale; below, hammers, a child crying, Halverin's horn testing one note and cutting off.
 
 "This isn't refinement," she said.
+
+She set down the needle roll and faced him fully. No chart. No diagnosis sheet. Just the room and the bond loud between them.
 
 Riven's throat tightened. "Say it plain."
 
 "You keep calling it alignment, burden, discipline. Those are words for making loss sound necessary." She held his gaze. "What you have is invasive dependence. What happened at the stairs wasn't failure to obey. It was two people carrying each other's panic until neither could move clean."
 
-Riven looked down at the tea. "Halverin says we resisted."
+Riven looked down at the tea. The surface shook when he breathed. "Halverin says we resisted."
 
 "Halverin needs a story that keeps him standing." Lyra's voice did not rise. "You don't have to wear it."
 
 "Cael will."
 
-"I know." She reached across and turned his bandaged forearm palm up, not to treat it, just to make him look at something real. "That's why I'm talking to you and not to him right now."
+"I know." She reached across and turned his bandaged forearm palm up, not to treat it, just to make him look at something real. The cloth was fresh. The bruise under it was not. "That's why I'm talking to you and not to him right now."
 
 The bond spiked with Cael's irritation at that, then shame, then a clamp so hard Riven's vision grayed at the edges.
 
 "Easy," Lyra said. "Breathe."
 
-"I'm breathing for two."
+"I'm breathing for two, goddamnit."
 
-"Then breathe slower." She waited until his shoulders dropped. "If you go out there trying to perform steadiness, you'll split again. Not because you're weak. Because you're pretending privacy still exists."
+"Then breathe slower." She waited until his shoulders dropped. "If you go out there trying to perform steadiness, you'll split again. Not because you're weak. Because you're pretending you still get a private thought."
 
-Riven swallowed. "What am I supposed to do, then? Run?"
+Riven swallowed. The tea was bitter enough to cut through the headache for a second. "What am I supposed to do, then? Run?"
 
 "You're supposed to stop calling this a gift," Lyra said. "Gifts don't cost you someone else's grief in your chest. Gifts don't punish you for wanting a person who isn't him."
+
+She waited. The annex was quiet except for cloth rustling and the distant square waking.
+
+"You think I chose this," Riven said.
+
+"I think you chose the road to Velorum," Lyra said. "I think the bond chose the rest. There's a difference, and Halverin will never say it because it doesn't keep him on the platform."
+
+"And Cael?"
+
+"Cael chose purpose," she said. "Purpose is easier to wear in public than want."
 
 Heat moved up Riven's neck. He had not said Lyra's name in the sentence. He did not need to.
 
@@ -68,7 +80,7 @@ Riven's hands closed on the cup. "Cael feels it."
 
 "I know what the bond does to rooms," Lyra said. "I know what it did in here when I stitched your arm. I know what it will do in the square when a thousand people watch you try to look like one body."
 
-Riven stared at the high windows. Hard white light. Clean lines. No place to hide.
+Riven stared at the high windows. Hard white light. Clean lines. No place to hide. On the table, her instruments lay in order: needle, thread, salve, strip knife for cloth, not flesh. She had built a life around things that could be fixed with hands.
 
 "If we fail publicly," he said, "people die in their heads before their bodies."
 
@@ -76,17 +88,63 @@ Riven stared at the high windows. Hard white light. Clean lines. No place to hid
 
 "So what's left?"
 
-"Truth," she said. "Ugly truth. You can't be untouched. You can't be separate. You can't keep one feeling in one skin." She paused. "And you can't fix that by obeying a man who thinks volume is control."
+"Truth," she said. "Ugly truth. You can't be untouched. You can't be separate. You can't keep one feeling in one skin." She paused. "And you can't fix that by obeying a man who thinks loud is the same as in control."
 
 Riven stood too fast. The stool scraped stone. "You're telling me to let it break."
 
 "I'm telling you to stop calling the break a moral failure," Lyra said. "If it breaks, let it break where everyone can see what it actually is."
 
-He wanted to argue. He wanted a plan with chalk marks and counts. He wanted Cael to walk in and say they could hold the line if they just tried harder.
+He wanted to argue. He wanted a plan with chalk marks and counts. He wanted Cael to walk in and say they could hold the line if they just tried harder. Cael did not walk in. Cael stayed in the corridor and fed the bond with fear Cael was trying to nail down with numbers.
 
-Cael did not walk in. Cael stayed in the corridor and fed the bond with focused fear dressed as duty.
+Riven paced the small room once. The bond pulled with every step. Cael's heartbeat. Cael's rehearsed words from the broadside rules. *No rushing the line.* As if lines were the problem.
 
-Riven picked up his coat. "I have to go."
+"Halverin will call it resistance again," Riven said.
+
+"Halverin will call it whatever keeps him on the platform," Lyra said. "You don't have to make his story true."
+
+"He has the city."
+
+"For today," she said. "Cities break too."
+
+Riven stopped at the window. From here he could not see the square, only the alley rooflines and a slice of sky going pale. "You think I'm cruel for not giving him this."
+
+Lyra's voice softened without losing its edge. "I think you're kind for not pretending you can give him comfort that costs nothing."
+
+She poured more tea, though his cup was still half full. "When I stitched your arm you flinched before the needle touched skin. Not from pain. From him feeling it in the corridor. He thought he was being still for you. He was still leaking."
+
+Riven stared at the bandage. "He was trying."
+
+"Trying isn't the same as succeeding." Lyra set the pot down. "Halverin will tell the city success is a choice. It isn't. It's a condition. You can choose to perform. You can't choose to be untouched."
+
+"And if we perform well tomorrow?"
+
+"Then the city learns the wrong lesson and you learn it with them," she said. "Until the lesson breaks. It always breaks."
+
+Riven thought of the west berm, mud to the knee, real timber, real workers crossing. That had not been performance. It had been need. "We held there."
+
+"You held because the load was real and the people around you were working," Lyra said. "Tomorrow the load is real and the crowd wants a story. Stories make people grab. Fear makes them grab harder. You two end up carrying what they grab."
+
+He had no answer for that. The bond pulsed with Cael's footsteps in the corridor, closer now, then stopping as if Cael had remembered he should not hear this room.
+
+"Does he know you're saying this?" Riven asked.
+
+"He knows I'm saying something," Lyra said. "He'll feel the shape of it. That's why he's not coming in."
+
+Riven's laugh was bitter. "No privacy."
+
+"No privacy," she agreed. "Not for you. Not for him. Not for me when you're in my annex bleeding through his chest."
+
+He sat again because his legs were not steady. "At the stairs I felt his fear and I moved wrong. He felt mine. A girl died in that loop."
+
+"I know," Lyra said.
+
+"You weren't there."
+
+"I've seen loops." She picked up a needle roll and set it down, needing her hands busy. "Panic is contagious. Your bond makes contagion instant. That's not discipline failure. That's how it's built."
+
+Riven closed his eyes. Through the bond Cael's counting stopped. A door opened. Footsteps toward the square. Riven stood.
+
+"I have to go."
 
 Lyra nodded. "I'll be at the south lane tent. Not in the front row."
 
@@ -98,16 +156,50 @@ At the door he stopped. "If you're right, what happens to us after?"
 
 Lyra looked at him for a long beat. "You keep living. You stop pretending living won't cost."
 
+"And the city?"
+
+"The city learns what it sees," she said. "If you hide the cost, it learns a lie. If you show the cost, it learns fear. There's no clean outcome. Halverin sells clean. That's his whole trade."
+
+Riven stood. His knees protested. "Cael thinks clean is still possible."
+
+"Cael thinks duty is still possible," Lyra said. "Duty might be. Clean isn't."
+
 He left before the bond could carry that sentence to Cael whole.
 
-The square was full by the time he crossed the lower market. Ropes up. Platforms set. Broadsides flapping on the wall. Children on shoulders. Guards at the margins. Halverin on the magistrate steps with the speaking horn already in his hand.
+He washed his face in the annex basin and saw Cael's reflection in the water before he saw his own, a trick of light or the bond, he could not tell. His arm ached where the stitch had pulled. Lyra's tea sat bitter on his tongue.
 
-Cael stood at the east mark, jaw set, eyes on the chalk line. He saw Riven and gave one short nod.
+In the corridor Cael passed without stopping. Their shoulders did not touch. The bond carried *later* from Cael and *fine* from Riven, both lies.
 
-Riven took his place. The bond pulled tight, not in rhythm, in warning.
+The lower market was already crowded. The press funneled him toward the east ropes—faces above, boots below, paste and bread smoke mixing in the strip of sky between rooflines. Vendors had moved to the edges for the day. Families carried children on shoulders. Guards stood at the rope posts with spears held vertical, more symbol than threat. Broadsides flapped on every wall. *Proof of steadiness.* *Directed burden.* Someone had added a third sheet with their names in larger type, as if size could make truth.
 
-Above them Halverin raised the horn. "Citizens of Kestrel Gate. Today we prove what steadiness looks like."
+A paste crew was still hanging a broadside as he passed. The woodcut made their joined hands look gentle. Riven wanted to tear it down. He kept walking because tearing it down would be a story too, just a different one.
 
-Riven felt Lyra's words like a stone in his pocket: *loss, not refinement.*
+An old soldier touched his arm and said, "Held the berm with you in my mind, boy. Hold the square the same way." Riven nodded because words were stuck. The soldier's hope hit him with no bond involved, just weight.
 
-He did not know yet that he would be the one the square would believe when the proof failed.
+Riven cut through the press with his head down. People touched his sleeve. A woman blessed him. A boy asked if he would lift the timber again. Riven did not answer. The bond carried his silence to Cael and Cael sent back a clamp of *focus* that tightened Riven's throat.
+
+He reached the east mark. Morning sun had bleached the chalk almost white; he found his toe mark by habit, not color. Cael stood on the chalk line with his boots set and his hands loose at his sides. Halverin had told them clenched fists read as fear. Cael looked like he believed it. Jaw set. Eyes on the platform.
+
+He saw Riven and gave one short nod.
+
+Riven took his place three paces left. The bond pulled tight, not in rhythm, in warning. Lyra's words stayed with him: *loss, not refinement.*
+
+Above them Halverin raised the speaking horn. The crowd noise dropped in layers until Riven could hear his own breath.
+
+"Citizens of Kestrel Gate," Halverin said. "Today we prove what steadiness looks like."
+
+The words landed flat across stone. People cheered because they needed to cheer. Riven felt the sound hit Cael's spine and bounce into him. A woman near the rope held up a charm on a string, painted with the woodcut pair. A guard told her to lower it. She did not. Another guard moved in. The square held its breath again, smaller this time, local, then gave it back to Halverin.
+
+He did not want the crowd to believe him when the proof failed.
+
+The bond tightened as Halverin kept speaking. Cael's steadiness pressed against Riven, hard and steady. Riven breathed slower because Lyra had told him to, because there was nothing else to do before the counts began.
+
+At the south tent flap Lyra adjusted a bandage roll and did not look up at the platform. Riven was glad. He was also ashamed of the gladness, which Cael felt and did not comment on.
+
+*Invasive dependence.* The words did not solve anything. They named the shape of the trap. Naming was not escape. It was still better than Halverin's word *gift.*
+
+Riven kept his feet on the chalk line, waiting for the bell that would turn speech into proof.
+
+He thought of running. Not from the square—from the story. There was nowhere to run that the bond would not follow. He thought of refusing the counts. Cael would feel that too, and the crowd would see two men fracture before the work even began. Lyra had not told him to refuse. She had told him to stop calling the fracture a moral failure when it came.
+
+The bell would come. The timber frame sat in the center on wheels, rope handles ready. Riven set his shoulders and did not loosen them. Loosening read as fear. Halverin had taught them that too.

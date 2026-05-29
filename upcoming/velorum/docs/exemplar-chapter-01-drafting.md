@@ -58,11 +58,23 @@ Not every chapter needs all eight; use the list to ask *what’s missing* when a
 
 ---
 
+## Acts II–III camera bar (additional exemplars)
+
+After rough draft, **every chapter** should pass **Direct camera style** (**voice-spec → Direct camera style pass**; agent **13-direct-camera-style-pass.md**). Compare new work to:
+
+- **Action / bond under load:** `act-2-the-gift/chapter-12-the-attack-on-kestrel-gate.md`
+- **Plain dialogue + aftermath:** `act-3-the-break/chapter-14-the-explanation.md`, `chapter-18-collapse-in-public.md`
+- **Tight sparse camera (Act I):** `act-1-the-choice/chapter-04-ashfen.md`
+
+Chapter 1 remains the **place + ridge dialogue** gold standard; Acts II–III chapters above are the **low-metaphor / sayable-mouth** bar.
+
+---
+
 ## Where to go next
 
 | Need | Doc |
 |------|-----|
-| **Agent pipeline** (Brief-to-rough **step 0**, then Flow → … → Audio; optional Character / Line) | **[agents/README.md](./agents/README.md)** |
+| **Agent pipeline** (Brief-to-rough **step 0**, then Flow → **13 Direct camera** → … → Audio; optional Character / Line) | **[agents/README.md](./agents/README.md)** |
 | Tone, register, profanity, paragraph fabric, dialogue rules | **[voice-spec.md](./voice-spec.md)** |
 | Checklist passes (A–J), banter attribution, tightening | **[chapter-edit-pass.md](./chapter-edit-pass.md)** |
 | POV, terrain mandate, ending rules | **[project-spec.md](./project-spec.md)** |

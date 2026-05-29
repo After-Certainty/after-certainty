@@ -3,7 +3,7 @@
 **PURPOSE:**
 Revise a chapter to feel more accessible, emotionally immediate, and contemporary while preserving atmosphere, tension, and thematic depth.
 
-**Scope note (rescue pass):** Use only when a chapter still fails accessibility targets after core initial chain + `09-audio-readaloud` (and usually after `revision/09-contemporary-flow-agent.md`).
+**Scope note (rescue pass):** Use only when a chapter still fails accessibility targets after core initial chain + `13-direct-camera-style-pass` + `09-audio-readaloud` (and usually after `revision/09-contemporary-flow-agent.md`).
 
 **TARGET:**
 - Grounded, lived-in contemporary fantasy prose

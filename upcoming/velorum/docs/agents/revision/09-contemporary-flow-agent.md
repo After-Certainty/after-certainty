@@ -3,7 +3,7 @@
 **PURPOSE:**  
 Reduce sustained cognitive density while preserving thematic sophistication.
 
-**Scope note (rescue pass):** Run only when chapter still reads rhetorically dense after core initial chain (`03 → 09`). Do not duplicate baseline readability/cadence cleanup already owned by `03-flow-clarity-editor.md` and `09-audio-readaloud.md`.
+**Scope note (rescue pass):** Run only when chapter still reads rhetorically dense after core initial chain (`03 → 13-direct-camera-style-pass → … → 09-audio`). Do not duplicate baseline readability, **direct camera style**, or cadence cleanup already owned by `03-flow-clarity-editor.md`, `13-direct-camera-style-pass.md`, and `09-audio-readaloud.md`.
 
 **FOCUS:**
 - breathing room

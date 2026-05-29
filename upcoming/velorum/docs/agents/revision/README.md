@@ -4,10 +4,12 @@ These agents are an optional **category pipeline** for later-stage chapter revis
 They are designed to deepen emotional/relational texture without sacrificing Velorum's
 clarity, tactical readability, and grounded voice.
 
-Current standard for Acts 1-2: apply the **contemporary restraint** guidance from
-`../../voice-spec.md` (action-first meaning, fewer thesis lines, less systems-language
-drift in default narration, more reactive imperfect dialogue under pressure, and an
-explicit **anti-meta phrasing scrub** before final compression).
+Current standard for all acts: apply **Direct camera style pass** from
+`../../voice-spec.md` (American conversational dialogue, camera-observable narration,
+cut condensed literary metaphors, action-first meaning, fewer thesis lines, profanity
+preserved in dialogue) via **`initial-drafting/13-direct-camera-style-pass.md`**
+after **`03-flow-clarity-editor.md`**. Use this revision folder only for targeted
+texture—not as a substitute for agent **13**.
 
 Use these after core chapter drafting/revision is stable.
 

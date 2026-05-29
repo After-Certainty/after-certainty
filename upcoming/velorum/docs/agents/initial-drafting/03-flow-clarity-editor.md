@@ -3,7 +3,7 @@
 **PURPOSE:**  
 Make prose **smoother**, **more readable**, and **better for read-aloud**—without changing what happens or adding new ideas. If **[01](./02-cinematic-scene-pass.md)** already added **place and light**, preserve useful **visible** ground unless it **repeats**, **confuses**, or **breaks** listenability—don’t trim vivid scene detail only for brevity.
 
-**Ownership note:** This is the **primary owner** for chapter readability/clarity and anti-bookish/anti-meta cleanup. Escalate to revision rescue passes only if the chapter still fails readability after core chain + `09-audio-readaloud`.
+**Ownership note:** This is the **primary owner** for chapter readability/clarity and anti-bookish/anti-meta cleanup. Run **`13-direct-camera-style-pass.md`** next (default) for **American conversational** dialogue, **camera-observable** narration, and **condensed-metaphor** cuts—see **voice-spec → Direct camera style pass** and **chapter-edit-pass → Pass D4**. Escalate to revision rescue passes only if the chapter still fails readability after core chain + **`13`** + `09-audio-readaloud`.
 
 **FOCUS:**
 

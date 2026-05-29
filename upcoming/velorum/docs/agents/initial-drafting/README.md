@@ -1,13 +1,13 @@
 # Velorum — agent specs
 
-**One drafting agent** plus **twelve revision agents** (numbered **01–12**). Copy a spec into a Cursor agent prompt (with the chapter file and linked docs) or use as a human checklist.
+**One drafting agent** plus **thirteen revision agents** (numbered **01–13**; **13** = direct camera style pass). Copy a spec into a Cursor agent prompt (with the chapter file and linked docs) or use as a human checklist.
 
 **Category subfolder for later revisions:**  
 For a specialized narrative-refinement set (embodiment, bond tension, myth formation, operational intimacy, dialogue subtext, softness/longing, world pressure, and compression-last), see **[revision/README.md](../revision/README.md)**.
 
-**Canonical order after a rough draft:** optional **[11](./01-chapter-expansion-depth-pass.md)** (if thin) → optional **[01](./02-cinematic-scene-pass.md)** (if spatially flat) → **[02](./03-flow-clarity-editor.md)** → **[03](./04-embodiment-sensory-grounding.md)** → **[04](./05-dialogue-voice.md)** → **[05](./06-thematic-signal.md)** → **[06](./07-pacing-structural-tension.md)** → optional **[12](./08-narrative-revision-agent.md)** (chapter-arc coherence only when needed) → **[07](./09-audio-readaloud.md)** → optional **[10](./12-read-aloud-cadence-clarity-editor.md)** (only if cadence still fails) → optional **[08](./10-character-consistency.md)** / **[09](./11-line-level-precision.md)**.
+**Canonical order after a rough draft:** optional **[11](./01-chapter-expansion-depth-pass.md)** (if thin) → optional **[01](./02-cinematic-scene-pass.md)** (if spatially flat) → **[02](./03-flow-clarity-editor.md)** → **[13](./13-direct-camera-style-pass.md)** *(default: direct camera / conversational style)* → **[03](./04-embodiment-sensory-grounding.md)** → **[04](./05-dialogue-voice.md)** → **[05](./06-thematic-signal.md)** → **[06](./07-pacing-structural-tension.md)** → optional **[12](./08-narrative-revision-agent.md)** (chapter-arc coherence only when needed) → **[07](./09-audio-readaloud.md)** → optional **[10](./12-read-aloud-cadence-clarity-editor.md)** (only if cadence still fails) → optional **[08](./10-character-consistency.md)** / **[09](./11-line-level-precision.md)**.
 
-**Ownership rule:** `03-flow-clarity-editor.md` is the default owner for readability/anti-bookish/anti-meta cleanup. Do not escalate to revision accessibility passes unless the chapter still reads dense after core chain + `09`.
+**Ownership rule:** `03-flow-clarity-editor.md` is the default owner for readability/anti-bookish/anti-meta cleanup. **`13-direct-camera-style-pass.md`** is the default owner for **American conversational dialogue**, **camera-observable narration**, and **cutting condensed literary metaphors** (see **voice-spec → Direct camera style pass**). Do not escalate to revision accessibility passes unless the chapter still reads dense after core chain + **`13`** + `09`.
 
 **Escalation-only passes:** `revision/09-contemporary-flow-agent.md` and `revision/10-contemporary-fantasy-accessibility-agent.md` are rescue tools, not default steps.
 
@@ -37,7 +37,8 @@ Carry these **with** the numbered spec when you paste or follow an agent—same 
 | **0** | [Brief-to-Rough-Draft](./00-brief-to-rough-draft.md) | Draft **only** the index POV; anchor name/body/perception early unless a deliberate place-first open matches the brief (see § POV above). |
 | **1** | [Cinematic Scene Pass](./02-cinematic-scene-pass.md) | Geography and light as **that POV’s** line of sight—not a neutral drone unless intentional. |
 | **2** | [Flow & Clarity](./03-flow-clarity-editor.md) | Add early anchor if missing; clarify **he/it/they**; merging paragraphs must not blur **who thought/said/felt** or drift heads. |
-| **3** | [Embodiment](./04-embodiment-sensory-grounding.md) | Sensation lands on the **POV** body (bond/exchange beats excepted). |
+| **13** | [Direct Camera Style](./13-direct-camera-style-pass.md) | **Literal before simile**; cut condensed metaphors and oracle narration; **sayable** dialogue; profanity **preserved**; compare to voice-spec exemplar table. |
+| **3** | [Embodiment](./04-embodiment-sensory-grounding.md) | Sensation lands on the **POV** body (bond/exchange beats excepted)—**body fact**, not second poetic layer. |
 | **4** | [Dialogue & Voice](./05-dialogue-voice.md) | Tags/beats keep speakers clear **without** parking interior in the wrong head. |
 | **5** | [Thematic Signal](./06-thematic-signal.md) | Motifs and pressure through **POV-perceived** objects/action—no narrator thesis; no omniscient widen. |
 | **6** | [Pacing & Tension](./07-pacing-structural-tension.md) | Hinges land in **POV time**; trim drag without stepping outside the chapter lens. |
@@ -64,6 +65,7 @@ Carry these **with** the numbered spec when you paste or follow an agent—same 
 | **0** | [Brief-to-Rough-Draft](./00-brief-to-rough-draft.md) | **Observable nouns** and work-language defaults; don’t draft toward “literary” ornament—rough plain beats rough purple. |
 | **1** | [Cinematic Scene Pass](./02-cinematic-scene-pass.md) | Add **seeable** geography and **named** light only; no **metaphor stacks** for “mood.” |
 | **2** | [Flow & Clarity](./03-flow-clarity-editor.md) | **Tame bookish** lines; **swap** figurative or thesis-shaped phrasing for **map-plain** alternatives when the same information fits (**agents README → Concrete**). |
+| **13** | [Direct Camera Style](./13-direct-camera-style-pass.md) | **Primary** pass for **condensed metaphors**, **oracle narration**, **thesis dialogue**; enforce **camera-first** default (**voice-spec → Direct camera style pass**). |
 | **3** | [Embodiment](./04-embodiment-sensory-grounding.md) | **Flesh, material, contact**—not a second layer of poetic imagery on the same beat. |
 | **4** | [Dialogue & Voice](./05-dialogue-voice.md) | **Mouth language** (mud, rent, rope); no **poetic stage directions** in adjacent narration when a **body fact** will do. |
 | **5** | [Thematic Signal](./06-thematic-signal.md) | **Objects, labor, and recurrence** carry theme—**not** abstract theme-labels in narration. |
@@ -90,7 +92,8 @@ Carry these **with** the numbered spec when you paste or follow an agent—same 
 | **11** | [Chapter Expansion & Depth](./01-chapter-expansion-depth-pass.md) | **Optional:** if chapter is complete but thin vs Act I; expand character/plot/scenery depth before line-level polish |
 | **1** | [Cinematic Scene Pass](./02-cinematic-scene-pass.md) | **Optional:** after **00**—**establishing shots**, light, geography, vivid locatable scenes **before** Flow |
 | **2** | [Flow & Clarity Editor](./03-flow-clarity-editor.md) | **Default first revision pass** on prose that already exists *(or first pass after **01**)* — includes optional-but-default-on-full-chapter **paragraph merge** (*single-sentence → multi-sentence blocks*, speaker-safe dialogue) |
-| **3** | [Embodiment & Sensory Grounding](./04-embodiment-sensory-grounding.md) | After Flow; **especially** emotional beats |
+| **13** | [Direct Camera Style Pass](./13-direct-camera-style-pass.md) | **Default** after Flow — American conversational dialogue, camera narration, cut condensed metaphors (**chapter-edit-pass → Pass D4**) |
+| **3** | [Embodiment & Sensory Grounding](./04-embodiment-sensory-grounding.md) | After **13**; **especially** emotional beats |
 | **4** | [Dialogue & Voice](./05-dialogue-voice.md) | After Embodiment when dialogue is central |
 | **5** | [Thematic Signal](./06-thematic-signal.md) | After dialogue feels stable |
 | **6** | [Pacing & Structural Tension](./07-pacing-structural-tension.md) | After thematic pass; hinge moments, drag |
@@ -130,6 +133,7 @@ If you **already** wrote the chapter by hand, skip **00** and start at **02** *(
 | **10** | `12-read-aloud-cadence-clarity-editor.md` |
 | **11** | `01-chapter-expansion-depth-pass.md` |
 | **12** | `08-narrative-revision-agent.md` |
+| **13** | `13-direct-camera-style-pass.md` |
 | — | `final-polish-six-stage-pipeline.md` *(single chained prompt; not a separate numbered agent)* |
 
 Each numbered agent file uses the same template: **ROLE**, **PURPOSE**, **FOCUS**, **DO**, **DO NOT**, **STYLE**, **OUTPUT**. The **six-stage pipeline** doc bundles ordered passes + shared critical rules + **POV** + **concrete description** discipline for one-shot use.
