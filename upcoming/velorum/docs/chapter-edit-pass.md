@@ -10,7 +10,7 @@ Use this document for **repeatable revision passes** so voice, vocabulary, and c
 
 **Drafting aid (not conflict authority):** **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)** — scene bones, habits, and closings distilled from **`chapter-01-heartbridge.md`** for first-draft alignment.
 
-**Agents (optional Cursor / human roles):** **[agents/README.md](./agents/README.md)** — **Brief-to-rough draft (step 0)** from index + synopsis, optional **cinematic scene pass (1)** for vivid located scenes, then Flow → Embodiment → Dialogue → Thematic → Pacing → Audio (**agents 2–7**); optional Character + Line precision (**8–9**) and Read-Aloud Cadence (**10**).
+**Agents (optional Cursor / human roles):** **[agents/README.md](./agents/README.md)** — **Brief-to-rough draft (step 0)** from index + synopsis, optional **cinematic scene pass (1)** for vivid located scenes, then Flow → **Direct camera (13)** → Embodiment → Dialogue → Thematic → Pacing → Audio; optional Character + Line precision and Read-Aloud Cadence.
 
 When **project-spec** and **synopsis** disagree, reconcile in **project-spec first**, then patch chapters.
 
@@ -138,9 +138,26 @@ See **voice-spec → Concrete language** and **No ornate varnish**.
 
 ---
 
+## Pass D4 — Direct camera / conversational style *(manuscript default)*
+
+See **voice-spec → Direct camera style pass**. Run on **every chapter** after **Pass C** / **C2** and core flow (**agents/03**), before thematic compression. Agent: **[agents/initial-drafting/13-direct-camera-style-pass.md](./agents/initial-drafting/13-direct-camera-style-pass.md)**.
+
+- [ ] **Literal before simile:** each beat has a plain **what happened** if comparisons are removed.  
+- [ ] **Condensed metaphors cut** in narration: *like weather*, *catch the almost*, *sat like*, *moved like X cost her*, stacked *as if* chains—swap to **sight, sound, body, or one short judgment**.  
+- [ ] **≤1 earned simile per beat** in narration; no atmosphere stacks.  
+- [ ] **Dialogue sayable:** stress-test quoted lines aloud; **stakes before ornament**; **profanity kept** per voice-spec.  
+- [ ] **No narrator oracle:** replace *town sat*, *silence waited*, *truth peeled* with **people / wind / stone** doing plain verbs.  
+- [ ] **Bond / interior:** name **whose** chest, throat, hands; plain bleed physics.  
+- [ ] **First appearances:** concrete anchor (build, gear, action)—not literary motion summary.  
+- [ ] Compare to **exemplar table** in voice-spec (Act I: ch. 01, 04; Act II: ch. 12; Act III: ch. 14, 18).  
+- [ ] If still dense after D4 + **agents/09-audio**, escalate to **revision/09** or **10** (rescue only)—not before.
+
+---
+
 ## Pass D3 — Camera-observable narration *(sight-line)*
 
-See **voice-spec → Camera-observable narration**. Use when narration still **sounds literary** after Pass D or when readers report **“too poetic / not visual.”**
+See **voice-spec → Camera-observable narration**. Use when narration still **sounds literary** after Pass D / **D4** or when readers report **“too poetic / not visual.”** (Most D3 items are **included in D4**; run D3 only for extra sight-line gaps.)
+
 
 - [ ] **Literal subjects:** weather **hits / scatters / dries**; people **see / hear / step**; stone **stands / wears / feels cold**—not *silence waits*, *distance peels*, *town teaches* unless tagged as POV projection.  
 - [ ] **Strip ghost actors:** replace *memory threw*, *the line blurred* **only** when the referent is unclear—prefer *he thought of*, *his eyes unfocused* where agency matters.  
@@ -258,6 +275,6 @@ rg -n "—" velorum/manuscript/path/to/chapter.md
 
 **Draft** against synopsis + index + project-spec POV and terrain rules.  
 **Revise voice** against voice-spec.  
-**Run passes** A → A2 → **A3** → B → (C → **C2** / **C3** / D / **D2** / **D3** / E / **F** / **H** as needed) → G → (**J** optional). **Pass G** includes **read-aloud / subject–verb streak** checks (**agents/12-read-aloud-cadence-clarity-editor.md**, **voice-spec → Paragraph shape**). **Pass F** (**voice-spec → Tightening**) is **line-level** cutting and merging after substance passes; use it when the scene is sound but still verbose or repetitive. **Pass C** includes **em-dash discipline** (see **voice-spec → Em dashes**), **period/costume and museum/specialist vocabulary** (see **voice-spec → Contemporary lexicon**), and the **readability** list in that pass. **Pass C2** tightens **spoken lines** (see **voice-spec → Plain dialogue**). **Pass A2** now includes a **required pronoun-disambiguation sweep** in any paragraph where two same-gender named characters are active: replace ambiguous *he/him/his* with names only where a cold read could plausibly misassign reference. **Pass A3** catches **orphan actors**, **personified landmarks**, **unowned sensations**, **crypto-metaphors**, and **confusing figures of speech**—see **voice-spec → Clear agency** and **Idiomatic figures of speech**. **Pass D** includes the **seminar sweep** (thesis-shaped lines → concrete stakes). Use **D2** when a chapter introduces or revisits a location and narration should match **Chapter 1’s** place-first density. Use **Pass B → Character introduction** when the chapter introduces **new** named faces (same concrete-anchor rule as Chapter 1). Use **Pass H** when a chapter **sounds fine** but reads **monotone or fuzzy**—often stacked *wind*, *square*, *hands*, or repeated silence beats. Run **H** after **F** (tightening) or merge H into a late polish pass with **G**. Re-run **A2** / **A3** when a chapter’s assigned POV changes in **act-chapter-index** or when you add long stretches of another character’s interior or lean hard into lyrical narration.
+**Run passes** A → A2 → **A3** → B → (C → **C2** / **C3** / D / **D4** / **D2** / **D3** / E / **F** / **H** as needed) → G → (**J** optional). **Pass D4** (direct camera / conversational style) is **default on every chapter** after flow—see **voice-spec → Direct camera style pass** and **agents/13-direct-camera-style-pass.md**. **Pass G** includes **read-aloud / subject–verb streak** checks (**agents/12-read-aloud-cadence-clarity-editor.md**, **voice-spec → Paragraph shape**). **Pass F** (**voice-spec → Tightening**) is **line-level** cutting and merging after substance passes; use it when the scene is sound but still verbose or repetitive. **Pass C** includes **em-dash discipline** (see **voice-spec → Em dashes**), **period/costume and museum/specialist vocabulary** (see **voice-spec → Contemporary lexicon**), and the **readability** list in that pass. **Pass C2** tightens **spoken lines** (see **voice-spec → Plain dialogue**). **Pass A2** now includes a **required pronoun-disambiguation sweep** in any paragraph where two same-gender named characters are active: replace ambiguous *he/him/his* with names only where a cold read could plausibly misassign reference. **Pass A3** catches **orphan actors**, **personified landmarks**, **unowned sensations**, **crypto-metaphors**, and **confusing figures of speech**—see **voice-spec → Clear agency** and **Idiomatic figures of speech**. **Pass D** includes the **seminar sweep** (thesis-shaped lines → concrete stakes). Use **D2** when a chapter introduces or revisits a location and narration should match **Chapter 1’s** place-first density. Use **Pass B → Character introduction** when the chapter introduces **new** named faces (same concrete-anchor rule as Chapter 1). Use **Pass H** when a chapter **sounds fine** but reads **monotone or fuzzy**—often stacked *wind*, *square*, *hands*, or repeated silence beats. Run **H** after **F** (tightening) or merge H into a late polish pass with **G**. Re-run **A2** / **A3** when a chapter’s assigned POV changes in **act-chapter-index** or when you add long stretches of another character’s interior or lean hard into lyrical narration.
 
 For full premise, ending rules, and Velorum reader-sequence rules, always return to **[project-spec.md](./project-spec.md)**.

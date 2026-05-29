@@ -58,9 +58,60 @@ Speech should read **sayable at stress**—what a tired person would actually sp
 - **Profanity stays on polish:** readability and “plain dialogue” passes **do not** replace approved swearing with softer synonyms (*darn*, *heck*, toned-down substitutes) unless a specific scene or audience constraint is documented elsewhere. Flatten **metaphor and thesis-shaped lines**, not **heat**. See **Voice guardrails** for approved registers.  
 - **Exemplar:** **`chapter-01-heartbridge.md`** argument blocks on the ridge (Riven/Cael): sharp exchanges, plain nouns, theology only when attributed; revision target for **density of straight talk per page** of dialogue.
 
-### Contemporary restraint pass *(new default for Acts 1-2 revisions)*
+### Direct camera style pass *(manuscript default — draft and revise)*
 
-When a chapter reads "older" or too composed, run this pass after core clarity and before final compression.
+**Use on every chapter** after a rough exists (or while hand-polishing). This is the **book’s current prose bar**: **American conversational** mouths, **camera-observable** default narration, **no dense literary metaphor** unless a character or pamphlet is **performing** on purpose.
+
+**Supersedes** treating “contemporary restraint” as a separate late-only habit—the checklist below **includes** that pass and adds **anti-metaphor** rules from Acts II–III polish.
+
+**When to run:** after **[agents/initial-drafting/03-flow-clarity-editor.md](./agents/initial-drafting/03-flow-clarity-editor.md)** (or as **[agents/initial-drafting/13-direct-camera-style-pass.md](./agents/initial-drafting/13-direct-camera-style-pass.md)** in the same session). Before thematic stacking and compression. **Do not** use `revision/09-contemporary-flow-agent.md` or `revision/10-contemporary-fantasy-accessibility-agent.md` unless the chapter **still** reads dense after this pass.
+
+#### Narration (sight line first)
+
+- **Literal before simile:** state **who moved, what hit, what it cost**; reader should know what happened if they strip comparisons away (**Plain sense default**).
+- **Cut condensed metaphors** in default narration—lines that compress several ideas into one pretty figure (*the blast had already chosen*, *guilt sat in the body and rotted*, *bond like weather*, *catch the almost*, *moved like every second cost her*). Replace with **one observable fact** or **one short spoken judgment** from the POV.
+- **At most one earned simile per beat** in narration; **no stacks** for atmosphere. Exception: **quoted** song, pamphlet, Halverin performing, or **one** Cael craft image in **dialogue** (*bad joist before he pulled it*).
+- **No narrator oracle:** avoid *town sat*, *silence waited*, *truth peeled*, *fear hit like weather*—use **wind pushed**, **people went quiet**, **fear hit his chest** (name the body).
+- **Bond / interior:** name **whose** sensation (*in his chest*, *Cael’s shame hit him*)—not *something twisted* without a referent (**Clear agency**).
+- **Character intro (first appearance):** **build, hair, clothes, what they’re doing**—not literary motion summaries (*moved like X cost her*).
+
+#### Dialogue (sayable under stress)
+
+- **American conversational:** contractions, interruption, repetition, sideways answers—**tired people**, not debate-club thesis lines (**Plain dialogue**).
+- **Stakes before ornament** in quoted lines; **one** image per spoken beat unless performing.
+- **Profanity preserved** on polish—flatten **metaphor and thesis-shaped lines**, not **heat** (**Voice guardrails**).
+- **Riven:** blunt consequence, high heat where voice-spec allows. **Cael:** controlled; rare *fuck* / *Jesus Christ* when the mask cracks; **timber, nail, joint** in dialogue only when naming craft/risk.
+
+#### Quick swaps (narration)
+
+| Before (literary / compressed) | After (camera / plain) |
+|------------------------------|-------------------------|
+| *moved like every second cost her* | *stayed on her feet, chalk in hand* |
+| *Cael caught the almost through the bond* | *Cael felt it through the bond before he spoke* |
+| *fear hit like weather* | *fear hit his chest* / *rolled through the square* |
+| *the city sounded like a wound being stitched* | *hammering started and stopped; someone shouted for rope* |
+| *duty with hope stuck to the bottom like tar* | *duty. Hope came with it whether he wanted that or not.* |
+
+#### Exemplar chapters (density bar)
+
+| Use | Chapter |
+|-----|---------|
+| Place + ridge dialogue (Act I gold) | `act-1-the-choice/chapter-01-heartbridge.md` |
+| Tight camera, sparse simile (Act I) | `act-1-the-choice/chapter-04-ashfen.md` |
+| Road dialogue, plain motion (Act I, post-pass) | `act-1-the-choice/chapter-03-leaving-greyhaven.md` |
+| Bond onset, plain interior (Act I, post-pass) | `act-1-the-choice/chapter-06-the-curse.md` |
+| Action + bond under load (Act II) | `act-2-the-gift/chapter-12-the-attack-on-kestrel-gate.md` |
+| Halverin / aftermath plain (Act III) | `act-3-the-break/chapter-14-the-explanation.md`, `chapter-18-collapse-in-public.md` |
+
+Compare **figurative fog** and **thesis density**, not exact word count.
+
+**Revision cue:** **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass D4**; agent **[13-direct-camera-style-pass.md](./agents/initial-drafting/13-direct-camera-style-pass.md)**.
+
+---
+
+### Contemporary restraint pass *(included in Direct camera style pass)*
+
+When a chapter reads "older" or too composed, run **Direct camera style pass** above (or this subset) after core clarity and before final compression.
 
 - **Move meaning downward into action.** If a sentence explains what a feeling *means*, first ask what hands, breath, posture, or silence already show. Keep the physical beat; cut the thesis.
 - **Reduce compressed-truth lines by ~40%.** Keep the strongest ones, but do not stack aphorisms every page. If a line sounds quote-ready, pressure-test whether plain speech carries it better.
@@ -369,7 +420,7 @@ Do **not**:
 
 ## How this file is used
 
-- Drafting and revising chapters for **mouth**, **cadence**, **profanity balance**, **paragraph fabric**, **dialogue density**, **plain dialogue on polish** including **profanity preservation** (see **Plain dialogue** above), **camera-observable narration** when description turns literary (see **Camera-observable narration** above), **rapid banter attribution** (see **Rapid banter attribution** under **Dialogue quality** above), **line-level tightening** (see **Tightening** above), **first-appearance character anchors** (see **Character introduction** above), **plain sense before extended metaphor** (see **Plain sense default** above), **spatial and surface clarity** on paths and terrain (see **Spatial and surface clarity** under **Place-first narration & plain diction** above), **clear agency** (see **Clear agency** above), **sparing em-dash use** (see **Em dashes** under Readability), **idiomatic figures of speech** (see **Idiomatic figures of speech** above), and **contemporary lexicon**, **museum-catalog avoidance**, and **anti-period costume** (see **Contemporary lexicon** above, including **No museum-catalog or opaque jargon**).  
+- Drafting and revising chapters for **mouth**, **cadence**, **profanity balance**, **paragraph fabric**, **dialogue density**, **plain dialogue on polish** including **profanity preservation** (see **Plain dialogue** above), **direct camera style pass** on every chapter (see **Direct camera style pass** above; agent **13-direct-camera-style-pass.md**), **camera-observable narration** when description turns literary (see **Camera-observable narration** above), **rapid banter attribution** (see **Rapid banter attribution** under **Dialogue quality** above), **line-level tightening** (see **Tightening** above), **first-appearance character anchors** (see **Character introduction** above), **plain sense before extended metaphor** (see **Plain sense default** above), **spatial and surface clarity** on paths and terrain (see **Spatial and surface clarity** under **Place-first narration & plain diction** above), **clear agency** (see **Clear agency** above), **sparing em-dash use** (see **Em dashes** under Readability), **idiomatic figures of speech** (see **Idiomatic figures of speech** above), and **contemporary lexicon**, **museum-catalog avoidance**, and **anti-period costume** (see **Contemporary lexicon** above, including **No museum-catalog or opaque jargon**).  
 - **[chapter-edit-pass.md](./chapter-edit-pass.md)** packages repeatable revision passes (**Pass C**: readability, **em-dash discipline**, **period/costume lexicon**, **museum/specialist jargon check**; **Pass C2**: dialogue plainness, **rapid banter** clarity; **Pass C3**: first-read location clarity; **Pass D3**: camera-observable narration; **Pass J**: grammar / punctuation / mechanical proof; concreteness; office-jargon scrub; **place-first / plain diction**; **Pass A3 agency/literal clarity**; **Pass F** line-level **Tightening**; **Pass H echo / repetition**) aligned with this file and project-spec.  
 - **[project-spec.md](./project-spec.md)** remains the authority for single-POV-per-chapter rules, POV lenses, terrain/Velorum presence per scene, world rules, final-surrender framing, and ending requirements.  
 - **[synopsis.md](./synopsis.md)** and **[act-chapter-index.md](./act-chapter-index.md)** are the source of beat order, named places/people, and chapter POV consistency—update them together when story facts move.

@@ -33,4 +33,4 @@ Make dialogue **sound natural aloud**, **read distinct per character**, and carr
 - **Targeted edits** on dialogue blocks and adjacent beats (typical)  
 - **Full updated text** when you want a whole-chapter dialogue pass
 
-**When to use:** 👉 After Embodiment when dialogue is a major carrier for the scene.
+**When to use:** 👉 After **13-direct-camera-style-pass** and Embodiment when dialogue is a major carrier for the scene. Agent **13** runs the first **sayable-mouth / cut thesis dialogue** pass; **05** deepens **character contrast** and subtext.

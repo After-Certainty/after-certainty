@@ -8,7 +8,7 @@ He tried to let go of Riven's hand, but his fingers wouldn't uncurl all the way,
 
 "No," Riven said, and the syllable arrived with an echo Cael felt in his own mouth, copper taste and all.
 
-Cael's stomach lurched. He planted his boots wider on the stone. The rings below him looked shallow now, almost nothing, as if any groove could matter when sound wouldn't stay put.
+Cael's stomach lurched. He planted his boots wider on the stone. The rings below him looked shallow now, almost nothing. Sound wouldn't stay put; the grooves didn't matter.
 
 "Sit," Cael said.
 
@@ -16,7 +16,7 @@ Cael's stomach lurched. He planted his boots wider on the stone. The rings below
 
 "You're going to sit," Cael said. "Now."
 
-Riven sat anyway, sudden, legs folding as if the hinge had given, and Cael dropped beside him on the scored stone, the rings under their boots like a shallow target, close enough to catch a shoulder if Riven tipped, near enough to feel heat rolling off Riven in a wave that didn't match the cold air. Beyond Riven's shoulder the basin opened—distance drowned in haze, a seam where sky met ridge too soft to trust.
+Riven sat anyway, sudden, legs giving out, and Cael dropped beside him on the scored stone, shallow rings under their boots, close enough to catch a shoulder if Riven tipped, near enough to feel heat rolling off Riven, wrong for the cold air. Beyond Riven's shoulder the basin opened—distance drowned in haze, a seam where sky met ridge too soft to trust.
 
 Cael's own hands shook; he clenched them once, hard, nails biting palms, trying to make them his again, and it didn't work.
 
@@ -24,7 +24,7 @@ Riven's fear slid into him anyway, slick and immediate—panic in Cael's chest w
 
 Cael swallowed bile. "Okay," he said, forcing it steady. "Okay. Breathe."
 
-"I am breathing," Riven said, and Cael felt the irritation under the panic like a second tongue.
+"I am breathing," Riven said, and Cael felt the irritation under the panic, immediate.
 
 "Then slow it down."
 
@@ -76,7 +76,7 @@ Riven breathed out. "Okay. That's fucked."
 
 "Yeah," Cael said. For a few seconds neither spoke. The silence still wasn't quiet—blood loud in his throat, half-formed words scraping at the edge of hearing.
 
-Cael tried to think of nothing. Riven's mind brushed his anyway—dock dusk, chalk dust, rope weight in the hand, Mara's coin rhythm, the monument's fused hands, Bran's fingers snapping shut over metal. More came with it: a ribbon on a singer's hat Riven had refused to look at on purpose, the pamphlet's dog-eared corner digging his ribs through cloth. Cael jerked his head sideways like he could shake the images loose. "Sorry," Riven said automatically.
+Cael tried to think of nothing. Riven's mind brushed his anyway—dock dusk, chalk dust, rope weight in the hand, Mara's coin rhythm, the monument's fused hands, Bran's fingers snapping shut over metal. More came with it: a ribbon on a singer's hat Riven had refused to look at on purpose, the pamphlet's dog-eared corner digging his ribs through cloth. Cael jerked his head sideways, trying to shake the images loose. "Sorry," Riven said automatically.
 
 "You didn't do it on purpose," Cael said, because it was true. A soft lie would've cost more.
 
@@ -88,11 +88,11 @@ Riven's face went greyer. "That's not possible."
 
 "It's happening," Cael said.
 
-"That's worse," Riven said. Cael held his tongue. Then he stood, because motion sometimes fixed confusion and sitting there felt too much like agreeing to stay pinned in the Ashring forever; his knees almost betrayed him. Riven stood a half beat later without being told, snapping upright the way Cael had a moment before, neither speaking first. Wind found the open bowl and pushed once at their coats, thin and directionless as the light.
+"That's worse," Riven said. Cael held his tongue. Then he stood, because motion sometimes fixed confusion and sitting on the Ashring was worse than moving; his knees almost betrayed him. Riven stood a half beat later without being told, snapping upright the way Cael had a moment before, neither speaking first. Wind found the open bowl and pushed once at their coats, thin, no direction.
 
 They stared at each other. Cael lifted his hand slowly, palm toward Riven, not touching, a test, and Riven matched him without looking down. Their palms aligned an inch apart, heat steady between them, too warm for the chill alone, and neither hand shook.
 
-After a moment he lowered his hand. Riven's came down with it, same arc, same hesitation, as if the weight had been shared between them.
+After a moment he lowered his hand. Riven's came down with it, same arc, same hesitation.
 
 Cael's mouth went bitter. "Fuck."
 
@@ -106,7 +106,7 @@ He turned the other way on purpose, toward the trail lip where gravel spilled ov
 
 They moved toward their packs where they had left them on the rim—canvas lumps against the rock, straps curled—and the movement should've been ordinary: bend, lift, strap, check.
 
-Instead their hands went for the straps at once, Cael his and Riven his, elbows brushing. The near-collision didn't happen; both stopped on the same inch, like they'd rehearsed it.
+Instead their hands went for the straps at once, Cael his and Riven his, elbows brushing. The near-collision didn't happen; both stopped on the same inch.
 
 When Cael felt Riven's surprise as his own, he steadied himself on a knee that wasn't supposed to be shaking; gravel bit through cloth, and the small pain helped. "This is bad," Riven said. "Like truly fucking bad."
 
@@ -116,15 +116,15 @@ When Cael felt Riven's surprise as his own, he steadied himself on a knee that w
 
 The pamphlet had called the bond Heartbridge—two spans meeting in one structure, if you believed the smudged diagram on cheap stock. If the wrong load crossed, you didn't stand under it and admire the problem—you checked joints, braced what you could, and moved. Cael's thoughts lined up too fast, too clean.
 
-Riven stared at him, mouth slightly open, as if Cael had spoken aloud.
+Riven stared at him, mouth slightly open, like Cael had said it out loud.
 
 "You felt that whole thing," Riven said.
 
 Cael's neck heated. "I was thinking."
 
-"I heard it," Riven said, part wonder, part horror. "Like you were talking in my head."
+"I heard it," Riven said, part wonder, part horror. "In my head. Like you were talking."
 
-Cael couldn't push the word no past his teeth, because denial felt like a lie that would cost more than truth. "Okay," he said, voice rough. "So we're tied together now."
+Cael couldn't push the word no past his teeth, because denial would cost more than truth. "Okay," he said, voice rough. "So we're tied together now."
 
 "That's not a word I want right now."
 
@@ -133,7 +133,7 @@ Cael couldn't push the word no past his teeth, because denial felt like a lie th
 Riven laughed again, broken.
 "You're glad."
 
-"I'm not glad," Cael said automatically, then stopped, because the reflex lie wouldn't hold. He was scared, yes—pulse loud at the base of his throat—but under that fear something else sat bright and wrong: exhilaration, the kind he'd known on a good roofline when every measure read true and the whole line squared. Riven recoiled from it as if it burned.
+"I'm not glad," Cael said automatically, then stopped, because the reflex lie wouldn't hold. He was scared, yes—pulse loud at the base of his throat—but under that fear something else sat bright and wrong: exhilaration, the kind he'd known on a good roofline when every measure read true and the whole line squared. Riven recoiled hard.
 
 "Sorry," Cael said, too late.
 
@@ -151,11 +151,11 @@ Cael pressed his palm flat against his thigh until the muscle ached, letting the
 
 "Consecrated," Cael said. "Pamphlet word."
 
-Riven adjusted his blanket roll, then adjusted it again like the second try might make it feel less real.
+Riven adjusted his blanket roll, then adjusted it again, as if the second try might make it real.
 
 They shouldered packs. Cael led because someone had to.
 
-Each time he set a foot, fatigue and balance crossed into Riven before the gravel shifted, before a gust came. It should've been clumsy; it wasn't. They descended the first steep stretch faster than they should have, each step taking less from one body because the other paid part of the cost—switchbacks cutting across a face of broken plates, the sky a narrowing wedge whenever Cael risked a glance up. Cael hated how efficient it felt, how much it felt like confirmation.
+Each time he set a foot, fatigue and balance crossed into Riven before the gravel shifted, before a gust came. It should've been clumsy; it wasn't. They descended the first steep stretch faster than they should have, each step taking less from one body because the other paid part of the cost—switchbacks cutting across a face of broken plates, the sky a narrowing wedge whenever Cael risked a glance up. Cael hated how efficient it felt. Too easy. Too right.
 
 "Stop," Riven said suddenly.
 
@@ -191,7 +191,7 @@ Riven nodded, shaky. "Your hand."
 
 "Yeah," Cael said. They stood until Riven's shoulder stopped trembling under Cael's palm, or Cael's hand went numb from cold, or both, time gone slippery.
 
-When they moved again, it was slower, uglier, on purpose. It still wasn't natural. Every few steps one of them would hesitate and the other would absorb the same jolt—a stutter-stop that looked like comedy from a distance and felt like drowning inside.
+When they moved again, it was slower, uglier, on purpose. It still wasn't natural. Every few steps one of them would hesitate and the other would absorb the same jolt—a stutter-stop that looked funny from far off and felt like drowning up close.
 
 Halfway down the bench trail, Cael tried to think a nonsense word, loud in his head: cabbage. Riven snorted, miserable. "Why cabbage?"
 
@@ -203,7 +203,7 @@ Cael exhaled, fogging the air, and watched it dissolve too fast.
 
 Riven's throat moved. He looked at the path, not at Cael.
 
-"This is the curse," Riven whispered, as if naming it might shrink it.
+"This is the curse," Riven whispered.
 
 Cael flinched at the word curse. Pamphlet talk, old songs, the square's three-beat shout—everything sanded down until the word went smooth and the cost stayed off the page.
 
@@ -219,7 +219,7 @@ Cael looked away first, jaw aching from clenching. "Fine. I won't."
 
 Cael couldn't stop the next thought either, straight as a snapped chalk line: it's real.
 
-Riven flinched first, and Cael felt the hit in his own chest a breath before Riven's foot skidded. The noise Riven made sounded like he'd been struck. Cael took a long breath through his nose and tried to make it only his. Then he forced himself to speak aloud, slow, separate words, as if speech could rebuild the wall that inner silence had been.
+Riven flinched first, and Cael felt the hit in his own chest a breath before Riven's foot skidded. The noise Riven made sounded like he'd been struck. Cael took a long breath through his nose and tried to make it only his. Then he forced himself to speak aloud, slow, separate words, one at a time.
 
 "I'm not saying it's good," Cael said. "I'm saying we're still standing."
 
@@ -239,7 +239,7 @@ Riven stared at him, then let out a rough laugh. "Fuck you."
 
 "Okay," Cael said. They kept walking. By the time they reached a lower shelf where pines returned and wind sounded almost normal, the sun had slipped behind the clouds, grey on grey, the treetops a saw-edge against it.
 
-Cael picked a camp spot without discussing it—a flat scoop in the needles where an old root made a backrest, deadwood piled along the uphill edge. Riven dropped his pack where Cael pointed, too tired to argue, and that should've felt like victory. It felt like habit—the same motion, cutting a little deeper. The strap burned a line across Cael's shoulder; he didn't shift it, as if the sting could prove the body was still his.
+Cael picked a camp spot without discussing it—a flat scoop in the needles where an old root made a backrest, deadwood piled along the uphill edge. Riven dropped his pack where Cael pointed, too tired to argue. The strap burned a line across Cael's shoulder; he didn't shift it. The sting was still his.
 
 Cael built a fire with hands that steadied too quickly, each motion ahead of doubt. Splinters needled his thumb where he didn't watch the wood close enough; sparks caught on shaved bark and climbed into orange light that threw their faces in sharp planes. Riven watched him, arms wrapped around his own ribs, and Cael felt the ache in Riven's ribs as if his own ribs had taken the same hit. "Don't look at me like that," Cael said, quieter than he meant.
 
@@ -266,7 +266,7 @@ Riven looked away, jaw tight. "Yeah."
 They ate because bodies demanded it.
 The food tasted like ash and salt, like the seep.
 
-When they lay down, back to back for warmth like they always had, Cael felt Riven's heartbeat through his coat like a second pulse pressed to his spine. The fire had burned down to coals; beyond it the trees stood black-on-black, no stars, only the pale lift of far ridge-lines where the sky thinned last. Cael stared into the dark until his eyes burned.
+When they lay down, back to back for warmth like they always had, Cael felt Riven's heartbeat through his coat, steady against his spine. The fire had burned down to coals; beyond it the trees stood black-on-black, no stars, only the pale lift of far ridge-lines where the sky thinned last. Cael stared into the dark until his eyes burned.
 
 Under his ribs, Riven's thoughts still moved—restless, angry, a grief Cael could feel but not name, more Riven's than his. Cael let the noise run and listened the way he worked a roof in wind: first crack, motion that wasn't wind, the second before something gave.
 
@@ -278,7 +278,7 @@ That was almost worse.
 
 "Yeah," Cael said.
 
-"I'm still me," Riven said, like asking permission.
+"I'm still me," Riven said, still asking permission.
 
 Cael swallowed. "Me too," he said.
 

@@ -1,53 +1,63 @@
 # Chapter 7 - Shared Load
 
-The road north of Ashfen narrowed into a cut between stone rises, too tight for a cart to turn cleanly. Morning light only reached the top edges of the rock, leaving the ditch in a cold blue strip where movement hid better than it should. Riven saw the ambush before he could point to why. Cael felt it at the same time: heat in the chest, breath shortening, fear arriving a half beat before his own. Four men stepped up from the ditch and two more dropped in behind them, all scarves and rusted blades and bad confidence.
+The road north of Ashfen ran through a cut between stone walls, barely wide enough for a cart. Shale slid under Riven's boots on the downgrade. Sun hit only the top of the rocks; the ditch below stayed in cold blue shadow. Wagon canvas snapped overhead in the wind.
+
+Riven knew something was wrong before he could name it. No birds in the brush. Fresh scuff marks on the ditch lip. A piece of rope caught on thorns. Then Cael went tight beside him—breath short, chest hot—and Riven felt the same hit a blink early.
+
+Six men came up. Four climbed out of the ditch, boots slipping on shale. Two stepped from behind a wagon tongue, knives already out. Dirty scarves. Rusty blades. Eyes on the bags, not the faces.
 
 "Bags down," the nearest one said.
 "Slow."
 
-Riven was already moving. So was Cael. Neither gave a signal. They split left and right with one shared choice and hit the first two bandits before the others finished their sentence. Riven ducked a swing, and Cael's shoulder drove into the attacker's ribs in the same beat, the two motions locking like a shared load finding balance.
+"Fuck that," Riven said, and moved. Cael moved with him. No signal. They split left and right and hit the first two before the bandits finished talking. Riven ducked a swing that missed his ear by inches, hit the dirt, grit in his teeth, and came up inside the man's guard with a knife he hadn't meant to pull yet. Cael's shoulder slammed the same man's ribs. The bandit folded with a wet grunt. Behind them a woman screamed once; someone yanked her down behind a wagon wheel.
 
-The fight should have been noise and panic. Instead it ran brutally clean. Riven felt where Cael's weight would land and stepped before it landed, as if the impact had already reached him. Cael felt where Riven would cut and made room before Riven asked, his body bracing for a strike not aimed at him. A blade came in low at Riven's knee; Riven lifted just enough, and Cael's hand caught the attacker's wrist exactly where the strike opened. By the time the man screamed, Riven had already taken his knife and thrown it into the dirt behind him.
+Six men with knives—that's supposed to be a mess. Loud, ugly, nobody sure who they're hitting. It wasn't. Too fucking neat.
 
-One of the men tried to run. Riven went for him, then stopped because Cael had already chosen the same chase from the opposite side. They closed on the runner at once, not speaking, not looking at each other, and the man dropped to his knees with both hands up because there was nowhere left to go.
+Riven knew where Cael was going before Cael moved—felt it in his knees, in his breath. Cael shifted and Riven was already out of the way. Riven swung and Cael wasn't in the line anymore; through the bond he felt Cael take a hit meant for someone at his back.
 
-The nearest bandit spat blood into the dust and tried to crawl for his dropped blade. Cael's boot came down on the man's wrist before Riven turned. Riven caught a length of mule line from a wagon rail without asking, and Cael had the prisoner's hands crossed and pinned by the time the rope hit his palm. They bound all six men in the ditch shade, quick and practiced, wrists linked to ankles so nobody could run when fear came back harder than pride.
+A blade came in low at Riven's knee. He skipped it. Cael's hand was already on the attacker's wrist. Riven had the knife out and stuck in the dirt behind the man before he finished screaming.
 
-"You always carry each other like that?" the father asked from the road edge, voice half awe and half fear.
+One tried to run. Riven went after him and stopped—Cael was already cutting him off from the other side. The road pinched to cart width, canvas on one side, rock on the other. They met at the runner together. He dropped to his knees, hands up. Nowhere left.
 
-"No," Riven said.
+The nearest bandit spat blood and crawled for his dropped blade. Cael stepped on his wrist before Riven turned around. Riven grabbed mule line off a wagon rail. Cael already had the man's wrists crossed. Riven passed the rope. They tied all six in the ditch shade, fast, wrists to ankles, so nobody could bolt when the shaking stopped. One man kept trying to roll onto his side until Cael put a knee on his shoulder. Another stared at the sky and wouldn't blink.
+
+Wagons had stopped up and down the cut. Faces at windows. A dog barking somewhere and then going quiet.
+
+"You always fight like that?" the father asked from the road. Half scared. Half impressed.
+
+"No," Riven said. "But we moved like hell together."
 
 Cael glanced at him. "Close enough."
 
-Riven wiped his nose with the back of his wrist and looked away before anyone could call it nerves.
+Riven wiped his nose on his wrist and looked away.
 
-The father swallowed and looked down the road as if expecting more men to appear just because he had named the fear out loud. "We've had three hits this week. Same type. Two or three in front, one in the ditch, one on the ridge with a bow."
+The father swallowed and stared down the road like more men might crawl out of the dirt because he'd said the word out loud. "Three hits this week. Same setup. Two or three up front, one in the ditch, one on the ridge with a bow."
 
-Riven scanned the ridge line and found the nest in seconds: a flat stone shelf with boot scuffs and a snapped arrow shaft left behind. "They're learning routes from somewhere."
+Riven looked up at the ridge. Flat rock shelf. Boot scuffs. A broken arrow shaft stuck in the scrub. "They're learning the routes."
 
 "Or buying them," Cael said.
 
-The woman with the broken strap lifted her chin toward the tied prisoners. "You taking them with you?"
+A woman with a broken wagon strap pointed at the prisoners. "You taking them?"
 
-Cael shook his head once. "Nearest watch post?"
+Cael shook his head. "Nearest watch post?"
 
-"Split Mile tower. Half day east."
+"Split Mile tower. Half a day east."
 
-Cael looked to Riven, and the decision passed through both of them with no words: leave two travelers armed, cut the prisoners loose only as one chain, point everyone to the same road, no stragglers.
+Cael looked at Riven. No words. Same call: arm two travelers, keep the prisoners on one rope, send everyone down the same road, no stragglers.
 
-Riven crouched by the nearest captive and tightened the knot until the man hissed. "You move before we say, you lose hands first."
+Riven crouched by the nearest captive and pulled the knot tight until the man hissed. "You move before we say, you lose hands."
 
-The man spat near his boots and said nothing.
+The man spat near his boots and shut up.
 
-Cael stood and addressed the road crowd like he had been doing it for years. "You travel as one load-bearing line. No wagon breaks. No one pisses alone. If anyone falls behind, everyone fucking stops."
+Cael faced the crowd. "You travel in one line. No wagon breaks. Nobody pisses alone. If someone falls behind, everybody fucking stops."
 
-It was an ugly rule and everyone knew it. Nobody argued.
+Ugly rule. Nobody argued.
 
-When it ended, six men were down, breathing but done.
+Six men down. Breathing. Done.
 
-Dust hung in the ditch shade while sunlight slid along the top edges of the cut, bright above and cold below. Riven stood in the center of the road, lungs burning clean, pulse hammering in his wrists, bright with a kind of joy he had never had in a fight. Every move had landed at the right second. Every bad angle had corrected itself before it turned bad because neither of them bore it alone.
+Dust in the ditch. Sun on the top of the cut; cold blue below. Riven stood in the road, lungs burning, pulse hammering in his wrists. Dried blood cracked when he flexed his fingers. He rolled his shoulders. Nothing wrong. Cael had been on the other side of every bad angle before it turned bad.
 
-Cael walked over and handed him back the knife he had thrown.
+Cael walked over and gave him back the thrown knife. Sun on the blade. Shadow in the ditch.
 
 "You felt that," Cael said.
 
@@ -55,87 +65,94 @@ Riven laughed once, breathless. "Hard not to."
 
 "We carried it."
 
-"Yeah." Riven wiped blood off his knuckles on his sleeve. "That's one word for it."
+"Yeah." Riven wiped blood on his sleeve. "Call it whatever helps you sleep."
 
-Travelers who had hidden in the brush started coming out in careful groups. A woman with a broken wagon strap looked between Riven and Cael like she was looking at a trick she could not solve. A boy maybe twelve held a stick like a spear and did not lower it until his father touched his shoulder. Behind them, two mules stood with flared nostrils, harness rings clicking as they shook.
+People came out of the brush in small groups. A woman with a broken strap stared at them like she couldn't figure out what she'd seen. A boy about twelve held a stick like a spear until his father touched his shoulder. Two mules stood wide-eyed, harness rings clicking when they shook.
 
-"You two with Kestrel Gate?" the father asked.
+"You two headed for Kestrel Gate?" the father asked.
 
-Cael answered before Riven decided if he wanted to. "We are headed there."
+Cael answered before Riven could decide. "We are."
 
 "They said two oath-bound were on this road," the man said. "Said nothing could touch them."
 
-Riven felt Cael straighten beside him at the word oath-bound. Not pride, exactly. Relief with teeth.
+Riven felt Cael straighten at *oath-bound*. Jaw set. Breath steady in a way that wasn't Riven's.
 
-The man kept talking, fast now that he had an audience. "There've been raids for weeks. Whole caravans clipped. If you are going to the Gate, they'll want you there yesterday."
+The man talked faster now that he had listeners. "Raids all month. Whole caravans hit. If you're going to the Gate, they want you yesterday."
 
-Riven nodded and kept his face flat. The fight-high was still in him, too bright to hide, and it spilled through the bond. Cael's steadier satisfaction sat behind Riven's ribs like a second heartbeat.
+Riven nodded, face flat. He was still riding the fight-high; Cael felt it too through the bond, and Cael's satisfaction came back steadier, which pissed him off and calmed him at the same time.
 
-Before they left, Cael checked the wagon straps and reset a cracked pin in one axle with a wedge of hard cedar. Riven held the wheel steady and passed tools like they'd done it together all their lives. The father watched in silence, then pressed two hard biscuits into Riven's hand like an offering to something he did not trust but still needed.
+Before they left, Cael checked wagon straps and wedged a cracked axle pin with a strip of cedar. Riven held the wheel and handed tools. They'd done this a hundred times in the last hour. The father watched, then shoved two hard biscuits into Riven's hand.
 
-"There are three more bad stretches before the Gate," the man said. "Narrow ground at Split Mile, then the marsh bend."
+"Three more bad stretches before the Gate," he said. "Narrow ground at Split Mile, then the marsh bend."
 
-Cael gave a short nod. "We'll keep ahead."
+Cael nodded. "We'll stay ahead."
 
-They moved out with the caravan for the next mile anyway, keeping pace until the road widened and sight lines improved. Riven walked the ditch edge and checked each bend before wagons reached it. Cael stayed near the front pair, adjusting spacing by hand signal and voice: slower, tighter, wait for the rear axle, keep left around that break.
+They walked with the caravan another mile until the road widened and you could see farther. Riven checked each bend from the ditch edge before the wagons rolled through—boot prints, broken branches, nothing that looked like a fresh ambush. Cael worked the front—hand signals, voice: slower, tighter, wait on the rear axle, keep left at the break.
 
-At one rise, a teenage driver froze with reins tangled in his fists when a crow burst from the brush. Cael reached up, untwisted the reins, and handed them back without comment. Through the bond, Riven felt the teen's panic hit Cael, then slide off.
+A woman passed them with a baby on her hip and didn't look at their bloodied sleeves. A teamster spat into the dust and muttered thanks without meeting their eyes.
 
-By the time they peeled off to make speed toward Kestrel Gate, the caravan line was moving cleanly and talking again in low voices instead of gasps.
+At one rise a teenage driver froze, reins knotted in his fists, when a crow exploded out of the brush. Cael reached up, untangled the leather, handed the reins back. Through the bond Riven felt the kid's panic hit Cael and slide off.
 
-The road climbed as soon as they left the wagons behind. Wind moved over the stone and carried old smoke from somewhere ahead. Afternoon light flattened the ridge into long gray planes, with only the far switchbacks catching gold. Below them, wagon lanterns blinked in and out between turns like slow fireflies caught in ruts.
+When they peeled off for speed toward the Gate, the line was moving clean again. People talked in low voices instead of gasping.
+
+The road climbed. Wind off the stone. Smoke smell from somewhere ahead. Gray ridge in the afternoon sun; gold only on the far switchbacks. Wagon lanterns winked on and off in the ruts below.
 
 "This is what we asked for," Cael said. "No backing out now."
-He rolled his shoulder once like he was trying to loosen something that wasn't muscle.
 
-Riven looked out over the ridge line. "Power?"
+He rolled his shoulder like something hurt that wasn't muscle.
+
+Riven looked at the ridge. "Power?"
 
 "A direction."
 
-Riven wanted to say those were not the same thing. The thought formed and was gone before he finished it, because Cael had already heard it and answered inside the bond with a firm, tired no.
+Riven wanted to say that wasn't the same thing. He didn't get the words out. Cael had already heard him through the bond and sent back a hard, tired *no*.
 
-He kept walking. The rhythm of Cael's stride sat inside his own like weight on a yoke he could not set down. He had loved the clean precision of the fight. Loved feeling impossible. Then the path narrowed. Their shoulders brushed once, then again. His jaw locked. Breath went shallow. There was no private corner left in him.
+He kept walking. Cael's stride pulled at his legs. The fight had felt clean. Now the trail got narrow. Shoulders brushed. Once. Again. Jaw locked. Breath shallow. No room in his own head anymore.
 
-At the next rise they stopped for a drink where lichen ran bright green over cracked stone. Cael knelt to refill the skin from a shallow runnel, and Riven felt the exact angle of his back through the bond before he looked down. Every small adjustment came through: fingers tightening on wet leather, breath slowing, the weight shift in Cael's left knee where an old strain always lived. The same precision that had saved people in the cut now left no room to be alone.
+At the next stop, lichen on cracked stone, Cael knelt at a trickle to fill the water skin. Riven felt Cael's back bend before he looked—wet leather creaking, breath slowing, weight on the left knee that always gave trouble. The same trick that had cleared the ditch meant he couldn't not know where Cael was in his body.
 
-Riven shut his eyes and tried to listen only to wind in the grass. Cael's awareness stayed there anyway, steady and uninvited, like another hand resting on the same hilt.
+Riven shut his eyes. Wind in the grass. Cael's knee still ached in him.
 
-When he opened his eyes, Cael was watching him.
+When he opened them, Cael was watching him.
 
 "You keep flinching," Cael said.
 
-"You keep noticing."
+"Goddamnit, you keep counting."
 
 Cael corked the skin and tossed it over. "We're not split yet."
 
-Riven caught it against his chest. "You saying that to me or to yourself?"
+Riven caught it against his chest. "Says fucking who."
 
-Cael looked back at the road before answering. "Both."
+Cael looked at the road. "Both of us."
 
-They stood there another moment, wind pushing their shirts against sweat-damp skin, the bound-tight awareness between them never loosening. Then they started down the switchback toward the Gate lights.
+Wind pushed their shirts against sweaty skin. They stood there a beat. Then they started down the switchback toward the Gate lights.
 
-Near dusk they came on one more stoppage where the road narrowed between two boulders and a mule had gone lame in harness. Travelers had started walking around in single file, heads down, which meant anyone with a blade could cut the line to pieces. The last light caught one boulder face and left the other black, turning the choke point into a split frame of glare and shadow.
+Near dusk the road pinched between two boulders and a mule went lame in harness. People walked single file around it, heads down—easy pickings for anyone with a knife. Sun on one rock face. The other in black shadow.
 
-Cael moved people back with short hand signals and put the wagons wheel-to-wheel until they formed a temporary barrier. Riven took the lame mule's lead rope and talked it through each step while a teamster checked the hoof with trembling fingers.
+Cael waved people back and lined the wagons wheel-to-wheel, hubs almost touching. Riven took the mule's lead rope. The animal blew hard through its nose, ears flat. He kept his voice low and moved it one step, then another, while a teamster crouched at the hoof with shaking hands.
 
-"Stone split," the teamster said. "I can wrap it. Won't hold long."
+"Stone split," the teamster said. He ran a dirty finger along the crack. "I can wrap it. Won't hold long."
 
-"Hold long enough to reach the next stable yard," Cael said.
+"Long enough to the next stable," Cael said.
 
-Riven felt Cael's fatigue then, deep in shoulders and lower back where the fight still lived. Under it ran something steadier, almost eager, whenever someone needed an order and took it. The mix made his stomach tighten.
+Riven felt Cael's fatigue in his shoulders and lower back, fight still there. Under it something steadier when someone needed an order. His stomach tightened.
 
-When the line finally started moving again, the father from earlier raised a hand in rough salute and called down the road, "Gate's lucky you're ahead of us."
+The line moved again. The father from earlier raised a hand. "Gate's lucky you're ahead of us."
 
-Riven muttered, too low for anyone but Cael, "Lucky for who, exactly."
+Riven muttered, for Cael only, "Lucky for who."
 
-Cael heard him anyway, like always.
+Cael didn't answer out loud. Through the bond: *everyone on this road, if we don't flinch.*
 
-He did not answer out loud, but through the bond Riven caught the shape of his reply: everyone on this road, if we don't flinch.
-
-An hour later, they passed Split Mile tower, a squat stone post with one watchman and a cracked signal bell. Cael gave the watchman a quick account of the tied bandits and the caravan status. The watchman wrote it in a ledger so wet the ink feathered on contact.
+An hour later they hit Split Mile tower—short stone post, one watchman, cracked bell. An oil lamp under the eaves threw yellow light on a wet ledger. Cael told him about the bandits and the caravan. The watchman wrote; ink spread on damp paper.
 
 "You want this under your names?" he asked.
 
-Cael hesitated a beat, then nodded.
+Cael paused, then nodded.
 
-Riven felt the choice click through the bond before Cael's pen left the line. Their names would reach Kestrel Gate before they did.
+Riven felt it through the bond before the pen finished. Their names would hit Kestrel Gate before they did.
+
+The watchman blew on the ink and looked up, tired, like he'd stopped believing in miracles but still had to log them. "Three hours to the Gate if you keep moving," he said. "Less if you don't stop for idiots."
+
+"We don't stop for idiots," Cael said.
+
+Riven shouldered his pack. The strap bit the same shoulder Cael had braced in the ditch. His stomach tightened anyway. Behind them the tower lamp swayed in the wind. Ahead, somewhere past the ridge, Kestrel Gate had their names already.
