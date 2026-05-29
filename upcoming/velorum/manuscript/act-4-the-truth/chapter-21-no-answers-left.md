@@ -1,117 +1,185 @@
 # Chapter 21 - No Answers Left
 
-Halverin sent for them on a rain morning when the gutters ran chalk dust into the river channel.
+Halverin sent for him on a rain morning. Water ran down the gutters hard enough to carry chalk dust into the river channel. Even the paste crews had given up on the walls for the day.
 
-Cael went alone to the council side door because Riven refused to sit in the same room as the magistrate again. Through the bond he felt Riven on the east wall, hands on stone, jaw locked. He felt his own anger and Riven's answer it, braided before he crossed the threshold.
+Cael went alone. Riven had refused the invitation before the messenger finished speaking. Through the bond, Cael could still feel him on the east wall somewhere beyond the square, angry and restless, refusing to be indoors, hands on stone, jaw locked hard enough to ache in Cael's own face. A clerk stood beneath the council archway with a bucket at his feet and watched Cael pass without speaking.
 
-The council room was smaller than Cael remembered. Maps rolled. Candles unlit. Halverin stood by the window without coat or aides, hair loose, eyes red.
+The stairs were slick. Cael took them one step at a time, palm on wet stone, listening to the city below: wagon wheels, a guard calling shift change, someone hammering a shutter closed against the weather. By the time he reached the council floor, rain had soaked through the hem of his coat. Kestrel Gate had not stopped moving since the square. The bond still ran through the walls like a wire nobody wanted to touch.
 
-"You look like a man who slept," Cael said.
+The room looked smaller than he remembered. Maps lay rolled on the table. A chair sat crooked in the corner, legs scraping marks on the floor. Grey daylight pushed through the wet windows, enough to read blame by without lighting the candles. Halverin stood alone by the window with no aides, no clerks, no audience, hair loose around his face, eyes red, the polished man from the square stripped down to skin and exhaustion.
 
-"I look like a man who lost a city," Halverin said.
+"You look terrible," Cael said.
 
-"You lost a story," Cael said. "The city's still here."
+Halverin barked out a laugh. "I was about to say the same thing."
 
-Halverin turned. "I asked you here because you're the one who still believes work fixes things."
+For a moment neither of them smiled. Then Halverin slid a folded sheet across the table, paper whispering on wet wood. "I need you to read this."
 
-Cael almost laughed. "I don't believe that anymore."
-
-"Then believe this." Halverin slid a folded sheet across the table. "Council wants a statement. They want you to say the demonstration failed because the crowd interfered. They want me to say you lacked discipline. I won't sign it."
-
-Cael opened the sheet. Clerical hand. Blame distributed like grain rations.
-
-"Why show me?" Cael asked.
-
-"Because if I sign it, you become villains in a ledger. If you sign it, I become a footnote." Halverin's voice was flat. "I don't want either. I also don't have a third story."
-
-Cael read the lines again. *Variance. Interference. Incomplete acceptance.* Words that turned bodies into excuses.
+Cael unfolded it. The language was familiar: nobody responsible, everybody responsible, the crowd had interfered, the process had broken down, the outcome unfortunate, the sort of document written when the truth was too expensive. Clerical hand. Blame distributed the way grain rations were. *Variance. Interference. Incomplete acceptance.* Words that turned bodies into excuses and noise into something the clerks could file.
 
 "No," Cael said.
 
-Halverin nodded. "No from you I expected. From Riven I assumed profanity."
+"You haven't finished reading."
+
+"I've read enough." He thought of the river stairs, of Lyra's face when she said *don't sign*, of Riven's hands shaking on the magistrate steps while the bond carried everything both ways.
+
+Halverin nodded slowly. "Council wants you to say the demonstration failed because the crowd interfered. They want me to say you lacked discipline. I won't sign it." His voice was flat, the same register he had used calling counts into the square, only empty now. "I showed you because if I sign it, you become villains in a ledger. If you sign it, I become a footnote. I don't want either. I also don't have a third story."
+
+"No," Cael said again.
+
+Halverin nodded. "No from you I expected. From Riven I assumed swearing and a lecture about my fucking stage."
 
 "He's not here."
 
-"I know." Halverin looked out at the rain. "I thought I understood Velorum. Texts. Precedent pairs. Public sequences. I was wrong in the way that matters."
+"I noticed."
 
-Cael waited. He did not offer comfort. Halverin had not earned it.
+Halverin looked back toward the rain-streaked window. A wagon rattled through the channel below, and for a while he said nothing. Rain tapped the glass. Somewhere below a clerk shouted about wet sheets in the archive.
 
-"The bond is not obedience," Halverin said. "It is not a civic tool. I treated it like a brace you could nail into place."
+Then: "I thought I understood what this was."
 
-"You told us privacy was luxury," Cael said.
+Cael waited.
 
-"I told you what I needed to believe to keep the square calm." Halverin's mouth tightened. "It did not stay calm."
+"The bond?"
+
+"All of it." Halverin rubbed a hand across his face and let it drop. "The texts. The records. Every account I could find. I thought if you understood something well enough, you could predict it."
+
+"You wanted us to perform," Cael said.
+
+Halverin didn't argue.
+
+"You got the demonstration you wanted."
 
 "No."
 
-Halverin was quiet for a long beat. Rain ticked the glass. Somewhere below a clerk shouted about wet broadsides.
+"You got the crowd."
 
-"I cannot relieve what you carry," Halverin said at last. "I cannot separate your suffering. I cannot name a cure." He met Cael's eyes. "I came to this office because stories hold cities. Yours broke mine. I don't have another."
+"No." Cael folded his arms. "What didn't you get?"
 
-Cael felt something in his chest loosen and tighten at once. Not forgiveness. Closure of a thread.
+Halverin laughed once. Control hung in the air without him saying it. For the first time he looked tired enough that Cael almost felt sorry for him. Almost.
 
-"Where does that leave us?" Cael asked.
+"I didn't want people bleeding in the square."
 
-"Outside my authority," Halverin said. "If you want a gate pass, Merrow can sign it. If you want money, the council will argue for three days and give you half. If you want truth—" He stopped. "You already took it from the square."
+"Then you shouldn't have built it like a stage."
 
-"We want Velorum," Cael said, and heard the words leave his mouth like a nail driven straight.
+Halverin looked down. "No." The admission came quietly. "I shouldn't have." Rain ran down the window behind him. "The bond isn't something you can manage. I know that now."
 
-Halverin's eyes flickered. "Then go. You'll find no magistrate on that road."
+"You told us privacy was a luxury."
+
+"I told myself that first." Halverin's mouth tightened. "It sounded reasonable." The silence that followed felt heavier than any defense would have.
+
+Eventually Halverin rested a hand on the unsigned statement. "I tried to apologize."
+
+"We heard you."
+
+Halverin looked up. "It didn't matter."
+
+"No."
+
+Another silence, longer this time. "I don't know how to fix it." The words seemed to cost him something. "I don't know how to separate what happened to you." His fingers pressed against the paper. "I don't know what comes next." That, more than anything else, sounded honest.
+
+Cael looked at him for a moment. "Neither do we."
+
+Halverin gave a tired nod. "Fair."
+
+The rain kept falling. Finally Cael asked, "So where does that leave us?"
+
+A faint smile touched Halverin's face. "Outside my authority." The answer sounded more relieved than bitter. "If you need a gate pass, Merrow can sign one."
+
+"And if we need money?"
+
+"The council will debate it for three days and give you half."
+
+Despite himself, Cael almost smiled. Halverin looked back toward the window. "And if you're looking for answers—" He stopped there. Cael knew why. Neither of them had any.
+
+"We're looking for Velorum," Cael said.
+
+The room went quiet. When Halverin spoke again, his voice was softer. "Then go."
 
 "Good."
 
-Halverin did not flinch. "You'll die in fractured lands if you treat this like another demonstration."
+Halverin met his eyes. "Just don't treat it like the square."
 
-"We already died in public," Cael said. "We're learning how to walk afterward."
+Cael stood. "We won't."
 
-He left the sheet on the table unsigned. At the door he paused. "Pull every broadside with our names."
+For a moment neither of them moved. Then he left the sheet on the table unsigned. At the door he paused. "Pull every broadside with our names."
 
 "They're already down," Halverin said.
 
-"Pull the ones in the archive too."
+"The archive copies too. The training copies."
 
-Halverin nodded once. "Done."
+Halverin nodded. "Done."
 
-Cael went out into rain. Riven was not at the stair foot. He was at the supply yard talking to Merrow under a canvas awning. Through the bond Cael felt the conversation before he heard it: gate pass, road north, no escort.
+Cael stepped back into the rain. The side stair was slick beneath his boots, chalk runoff streaking the wall. Through the bond he could feel Riven waiting somewhere ahead.
 
-Merrow looked up when Cael approached. "You got your answer?"
+By the time he reached the supply yard, he found him beneath an awning with Merrow, pack half open and bedroll shoved in crooked.
 
-"Yes," Cael said.
+Merrow looked up. "You got your answer?"
+
+"Yes."
 
 "And?"
 
-"No authority left worth obeying," Cael said.
+Cael adjusted the travel slate under one arm. "Enough."
 
-Merrow handed over two travel slates stamped at the bottom. "Halverin's signature still clears stores for three days. After that you're on your own."
+Merrow grunted and handed over two stamped slates. "Halverin's signature clears stores for three days. After that you're on your own."
 
 "We were always on our own," Riven said.
 
-"Fair," Merrow said. She lowered her voice. "Lyra's train made Greyhaven outer clinics. She asked me to tell you—" She stopped. Looked at Cael, then Riven. "She asked me to tell you not to follow her to fix the bond."
+"Fair." She tapped the map tucked beneath the slates. "Salt. Iron rations. Broken roads marked. One clerk wrote *unstable, avoid.* Believe the clerk."
 
-Riven's face went still. Cael felt the hit through the bond and hated that even this message arrived doubled.
+"I usually do."
 
-"We won't," Riven said.
+"No, you don't."
 
-"Good." Merrow stepped back into the rain. "If you find Velorum, don't bring it back as a broadside."
+"Shit," Riven said.
 
-Cael almost smiled. "Noted."
+Merrow lowered her voice. "Lyra made it to the outer clinics."
 
-They spent the afternoon packing: bedrolls, salt, iron rations, a map Merrow marked with broken roads. No ceremony. No council blessing. Clerks watched from doorways like they were watching a fire that might spread.
+Both of them went still. Rain drummed against the canvas overhead.
 
-At dusk Cael stood in the command hall where Halverin had first sold them a frame. The casualty reports were still stacked. The ink on Cael's margin note had smeared in the rain on his sleeve.
+"She asked me to tell you something." Neither spoke. "Don't follow her."
+
+Riven stared at the ground. The bond carried the news before either of them answered. Cael felt it land in both chests, Lyra's name and her refusal in the same breath.
+
+For a long moment Riven said nothing. His jaw worked. Then, too quickly: "How many beds at those clinics?"
+
+Merrow held his gaze. "That's not what she asked me to pass on."
+
+Riven looked away. "Christ." Barely a whisper. "We won't."
+
+Merrow studied them for a moment. "Good." She stepped back into the rain. "Stay off the main roads if you can."
+
+Cael almost smiled. "No promises."
+
+They packed in the yard while clerks watched from doorways and nobody came closer. Cael counted bedrolls twice. Riven complained about the iron rations. "Heavy as fuck and useless if we starve anyway." Merrow's map went into Cael's inner pocket, waxed against rain.
+
+At the command hall he stopped beside the casualty reports. The stack was smaller than before. Still too large. His old note sat where he'd left it.
 
 *Accept load. Do not split.*
 
-He crossed out *do not split* and wrote underneath: *do not pretend.*
+He stared at it for a moment, then crossed out the last line. Underneath, he wrote:
 
-Riven leaned in the doorway. "Ready?"
+*Do not pretend.*
 
-"No," Cael said. "Yes."
+"Ready?" Riven stood in the doorway with his pack on.
 
-"Same thing."
+"Fuck no."
 
-They left Kestrel Gate at first dark. Rain eased. The bond pulled tight between them, not rhythm, habit. Behind them the city lights faded. Ahead the road bent north toward country that maps marked uncertain.
+Riven nodded. "Good."
 
-Cael did not look back at Halverin's shuttered windows. There was nothing there now except a closed thread and the memory of a voice calling counts into noise that would not obey.
+Cael capped the pen. They walked out.
 
-No answers left in offices. Only the road, and whatever waited at its end if they could survive the cost of walking it.
+They left Kestrel Gate at first dark. Rain faded to mist. The road climbed north through the outer works, lanterns burning behind them for a while, then disappearing one by one. Neither looked back.
+
+At the first marked fork, Riven unfolded the map beneath his cloak. Broken bridge. *Unstable. Avoid.* He traced the road north with one finger. For a while he said nothing. Then: "We're really doing this."
+
+Cael adjusted the weight of his pack. "We are."
+
+Riven stared into the dark road ahead. "Feels different out here."
+
+"It is."
+
+"Different and fucking worse."
+
+Cael snorted. "Keep walking."
+
+Riven folded the map. Behind them, the last gate lantern vanished into the mist. Ahead, the road bent north and disappeared among the hills. Neither of them slowed.

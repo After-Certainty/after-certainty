@@ -2,106 +2,186 @@
 
 The hills stopped pretending to be solid on the seventh day.
 
-Riven woke with Cael's dream still in his teeth, a fall that never happened, hands bracing on air. The bond had carried it all night. He sat up in the cold cut and listened to his own heart and Cael's until he could not tell which was faster.
+Riven woke with Cael's fall still in his body, hands grabbing for something that wasn't there, the shock of impact, breath leaving lungs that weren't his. For a few seconds he lay still, listening to his heartbeat and Cael's. The bond opened before either of them spoke.
 
-"Bad?" Cael asked from two bedrolls over.
+"Bad?" Cael asked.
 
-"Bad enough," Riven said.
+Riven rubbed grit from his eyes. "Bad enough."
 
-They followed the Seeker into morning light that came sideways. Stone slabs tilted like bad teeth. Gravel slid where it should have held. A crow flew past and its cry arrived late.
-
-Riven tried to hold one thought private: *I miss her.*
-
-The bond took it before he finished. Cael's jealousy flared, shame followed, Riven's anger answered, all in one breath. Riven slammed his palm on his own thigh hard enough to sting.
-
-"Stop," he said, not to Cael, to the air.
-
-"Can't," Cael said quietly.
+"You fell in mine too."
 
 "I know."
 
-The Seeker did not slow.
+The sky above the cut was the color of old tin, no warmth in it, no promise either.
 
-By midday they crossed a shelf where reflections in pooled water lagged a full beat behind bodies. Riven watched his hand rise and saw it in the pool after. He looked away and felt vertigo anyway.
+"You kept reaching for a rail," Riven said.
 
-"Don't drink from that," he said when Cael knelt.
+"There wasn't one."
 
-"Wasn't going to," Cael said.
+"I noticed."
 
-They drank from a seep higher up where the water at least tasted like water. It still sat wrong in Riven's stomach. Through the bond Cael's nausea echoed back until Riven dry-heaved at the trail edge.
+Cael sat up slowly. "Sorry."
 
-"Private suffering," Riven said, wiping his mouth. "Remember when that was a thing."
+"Stop apologizing." The answer came out harder than he intended. "It's not you."
 
-"Stop," Cael said again, gentler.
+Cael looked away. Through the bond, Riven felt the apology continue anyway. That was the problem. Nothing ever stopped anymore. Not thoughts. Not shame. Not fear.
 
-"I can't stop wanting," Riven said. "I can't stop you feeling it. I can't stop the land feeding on it."
+They packed in silence. The Seeker was already waiting at the mouth of the cut, staff across their shoulders, hood up, walking the moment they caught up.
 
-The Seeker paused at a split where two trails looked identical. Staff pointed left. They went left.
+The morning passed in fragments. Wrong shadows. Wrong wind. Wrong ground. Riven stopped paying attention. The land was broken. He understood that. The bond worried him more.
 
-The left trail dropped into a basin of pale dust where footsteps sounded muffled. Riven's boots sank wrong. Each step cost twice what it should. Fatigue crossed the bond without spike, a steady drain, Cael's shoulders, his own knees, back again.
+Halfway through the climb he made the mistake of thinking about Lyra, not even a memory, just the absence, the shape of somebody who should have been there. The bond took it immediately. Jealousy flashed from Cael. Then shame. Then anger from Riven for feeling the shame. The emotions folded into one another so quickly he couldn't tell where they started.
 
-He tried to brace against it. Tried to keep fear in his chest only. The land answered with pressure in his ears, like altitude without height.
+"Stop."
 
-At the basin center a timber brace from some old work crew lay half-buried. Cael touched it, testing. The wood groaned. Dust lifted without wind.
+Cael glanced over. "Can't."
 
-"If we lift that, something shifts," Cael said.
+"I know." That made it worse.
 
-"Everything's already shifting," Riven said.
+"Goddamnit." Riven slammed a hand into his thigh. Pain bloomed. The bond carried that too. Cael flinched.
 
-They lifted anyway because the Seeker walked past it without pause and the bond said *work* when work was available. The brace came free. Gravel slid uphill for three paces. Riven's vision grayed. Cael grunted. Pain split and rejoined.
+"Don't."
 
-"Set it down," Riven gasped.
+"Not doing this." Riven kept walking. "Not the conversation. Not the apology. Not fucking today."
 
-They set it. The basin settled wrong, then settled.
+The hurt that followed wasn't spoken. The bond carried it anyway. The Seeker never slowed.
 
-Riven laughed once, helpless. "Fractured lands. Great name."
+By midday they reached a shelf above a basin of standing water. Their reflections lagged behind them. Riven ignored it. The bond was harder to ignore. Every feeling seemed to arrive twice. Every thought wanted witnesses. He was beginning to understand why people went mad out here.
 
-"Accurate," Cael said.
+They found a seep higher on the slope. The water tasted metallic. Honest enough. After drinking, Riven doubled over at the trail edge. Cael was nauseous before he finished retching.
 
-They camped without fire because the Seeker did not build one and the air smelled like metal when flame would have caught. Riven lay on his back and tried to count stars. The stars lagged.
+"Christ," Riven said. "Remember when a stomachache belonged to one person?"
 
-He thought about Lyra's clinic light. About the square. About Halverin's voice calling counts into noise. About wanting one room that stayed his.
+"Vaguely."
 
-The bond carried the thought. Cael did not speak. Riven felt him listen anyway, trapped in the same room.
+Riven wiped his mouth. "I miss that." The words slipped out before he could stop them.
 
-"I'm sorry," Cael said at last.
+Silence. Then: "Yeah."
 
-"For what."
+Cael didn't ask which part. Didn't ask whether he meant Lyra. Didn't ask anything. For once, neither of them seemed interested in opening another wound.
 
-"For every time I treated your wanting like betrayal."
+They walked. The trail split. The Seeker pointed left. They followed. By now that was what they did.
 
-Riven stared at the dark. "You didn't invent the bond."
+The basin beyond felt wrong in a deeper way, not delayed, compressed. The space between them seemed thinner. Every ache crossed faster. Every fear stayed longer.
 
-"I grabbed it," Cael said. "When I was scared."
+"Feel that?" Riven asked.
 
 "Yeah."
 
-Silence. Wind in the cut. Gravel ticked somewhere it should not have.
+"It's pulling."
 
-"If Velorum says no cure," Riven said, "what then?"
+Cael nodded. Neither needed to explain what.
 
-"Then we live with yes," Cael said.
+At the center of the basin, an old timber brace pushed up through the dust, grey wood, rust-eaten pins, forgotten work. Cael crouched beside it, testing, always testing.
+
+"If we move this," he said quietly, "something changes."
+
+Riven looked at the brace, then at the basin, then back at Cael. "You hear yourself?"
+
+"What?"
+
+"You sound like Halverin."
+
+Cael sat back on his heels. That landed. Good.
+
+Riven stepped forward and grabbed the timber. "Halverin isn't here."
+
+Dust drifted from the wood. The basin held its breath.
+
+"Thank Christ for that."
+
+Cael's hand closed around the other end of the brace. Together they lifted, not because it was a good idea, because standing still felt worse.
+
+The timber tore free with a groan. For a moment the basin seemed to inhale. Gravel skittered uphill. Riven's knees buckled. Pain flashed through his lower back, jumped into Cael's shoulders, then came back again before either of them could separate it.
+
+"Set it down."
+
+Riven barely recognized his own voice. "Goddamnit. Set it down."
+
+They dropped it. Dust rolled outward in a pale ring. The basin settled. Or pretended to.
+
+For several breaths neither of them moved. Then Riven sat down hard and laughed once, a short, helpless sound.
+
+"Fractured lands." He wiped dust from his face. "Great fucking name."
+
+"Accurate." Cael sounded winded. "You all right?"
+
+"No." Riven looked at his hands. No blood. They felt like there should have been blood. "You?"
+
+"No."
+
+"Good." At least neither of them had to pretend.
+
+They climbed out of the basin slowly. The Seeker never looked back. The trail rose through broken stone and scrub. Riven watched the staff ahead and counted breaths against it. Four in. Four out. Something steady. Anything.
+
+At the ridge he stopped. The country spread beneath them, no farms, no smoke, just pale stone and twisted scrub stretching toward distant weather.
+
+"You still think Velorum's out there?"
+
+Cael stared toward the horizon. "I think something is."
+
+"Yeah." Riven rubbed the back of his neck. "Something's been listening since the slip."
+
+Neither of them said anything after that.
+
+They camped without a fire. The air smelled metallic. Even the Seeker seemed unwilling to challenge it.
+
+Riven lay awake longer than he meant to. He thought about Lyra, the clinic light, the neat rows of bandages, the feeling that somebody in the room knew what they were doing. The bond carried it. Of course it did.
+
+Across the dark, Cael shifted. Neither spoke for a while. Then:
+
+"I'm sorry."
+
+Riven stared at the stars. "For what?"
+
+The answer took time. "For every time I treated your wanting like betrayal."
+
+Wind moved through the cut. Pebbles clicked somewhere in the dark.
+
+Riven closed his eyes. "You didn't invent the bond."
+
+"No."
+
+"But you grabbed hold of it."
+
+Riven opened his mouth. Nothing came out. After a while Cael said, "Yeah."
+
+Silence again. Not comfortable. Not hostile. Just tired.
+
+"If Velorum says there's no cure?"
+
+Cael rolled onto his back. The stars overhead refused to agree on where they belonged.
+
+"Then we live with it."
 
 "That's not an answer."
 
-"It's the one we have tonight."
+"It's tonight's answer."
 
-Riven closed his eyes. The bond slowed, not peace, exhaustion. He slept in pieces. Each piece carried across.
+Riven laughed softly. "Hell." A pause. "Fair."
 
-In the morning the Seeker started earlier. The trail climbed into ridges where trees grew bent and streams ran against grade for heartbeats at a time. Riven's headache never left. It just changed owners.
+For the first time in days, neither of them tried to fix the conversation.
 
-At a crest he saw the country ahead: pale track, darker smear of storm, a ring of stone on a distant rise that might have been Ashring or might have been his eyes lying.
+They slept badly. The bond never quite loosened. Dreams crossed. Fear crossed. The feeling of falling crossed. When Riven woke in the dark, somebody was gripping his wrist. He wasn't sure who had reached first.
 
-"How much farther?" he asked the Seeker's back.
+Morning came cold. The Seeker started walking before the light arrived. They followed.
 
-No answer.
+The trail climbed into broken ridges. Pain moved around like borrowed gear. Nobody commented anymore.
 
-"That's what I thought," Riven said.
+By the next crest, the country opened ahead of them: a pale road, a distant storm, and on a rise beyond both, a ring of stone. Far enough away to be uncertain. Real enough to matter.
 
-Cael came up beside him. Mud on his knees. Split lip from a stumble Riven had felt first in his own mouth.
+Riven stared. Destination and mirage had started looking alike.
 
-"We keep going," Cael said.
+"How much farther?"
 
-"Yeah," Riven said. "We keep going."
+The question went to the Seeker's back. No answer.
 
-He did not say he had stopped believing in separation. The land was already saying it for him, with every lagged step and every pain that arrived twice.
+Riven nodded to himself. "Yeah. Fucking figures."
+
+Cael came up beside him, mud on his knees, split lip, a wound Riven had felt before it happened.
+
+"We keep going."
+
+"Yeah." Riven looked toward the distant ring.
+
+So they did.
