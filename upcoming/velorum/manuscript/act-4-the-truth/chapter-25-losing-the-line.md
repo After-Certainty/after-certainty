@@ -1,109 +1,203 @@
 # Chapter 25 - Losing the Line
 
-Riven tried to hold fear in his own chest and failed before noon.
+Riven tried to keep the fear to himself.
 
-They were on a knife ridge where wind came from two directions and gravel slid without sound. The Seeker walked ahead, staff tapping stone that rang a beat late. Cael was behind Riven, close enough to grab if the edge gave.
+It lasted until noon.
 
-Riven's hands shook from lack of sleep and too much shared sleep. Every dream had been double since Kestrel Gate. Every ache crossed by noon. He had stopped flinching at invasion and started hating that he had stopped.
+They were crossing a knife ridge where wind hit from both sides and the drop disappeared into cloud. The stone underfoot was barely wide enough for a cart axle. Looking down felt like a mistake.
+
+The Seeker walked ahead, staff across their shoulders, hood up, steady pace, never looking back.
+
+Riven's boot slipped on loose gravel.
+
+Before he caught himself, Cael had already felt it. The bond snapped tight.
 
 "Slow down," Cael said.
 
 "I'm fine."
 
-"You're not." Through the bond Cael felt Riven's lie and sent back anger that was really worry.
+"No, you're not." The answer came too quickly. Too certain.
 
-Riven stopped. "Don't manage me."
+Riven stopped. Wind tugged at his coat. "Don't fucking manage me."
 
-"I'm trying not to fall off a ridge with you."
+Cael's jaw tightened. "I'm trying not to watch you fall."
 
-"Then don't feel my knees for me."
+"Then stop feeling my knees for me."
 
-Cael's jaw tightened. "I can't not."
+"I can't."
 
-The bond answered with a spike: Riven's fear of losing Lyra, Cael's fear of losing purpose, shame, jealousy, fatigue, all bouncing too fast to brace. Riven's vision grayed. He went to one knee at the edge.
+Riven dropped to one knee and pressed a hand against the stone. The ridge spun for a moment.
 
-Cael grabbed his arm. "Riven—"
+Cael grabbed his arm. "Riven."
 
 "Let go."
 
-"If I let go you slide."
+"You'll slide."
 
-"Then pull me without climbing inside my head."
+"Then pull me. Don't crawl inside my goddamn head."
 
-"I don't know how."
+The words landed harder than he intended. Cael went still. For a moment neither of them spoke. The Seeker waited ahead, staff planted, silent as ever.
 
-The honesty hit harder than the wind. Riven breathed until the gray eased. The Seeker had stopped ten paces ahead and did not turn.
+Riven got back to his feet. Blood streaked one palm where the stone had cut him.
 
-Riven got up. "We need a line."
+"We need a line."
 
-"We have one," Cael said.
+"We have one."
 
-"Not the bond. A line between us we can see." Riven unbuckled his belt, looped one end around his wrist, held the other out. "Physical. Stupid. Try it."
+"Not that line."
 
-Cael stared. Then buckled the free end around his own wrist. Leather short, uncomfortable, real.
+Riven unbuckled his belt. Leather cracked from years of use. He wrapped one end around his wrist and held out the other.
 
-"On me," Cael said.
+"Something real."
 
-"On you," Riven said.
+Cael stared at it. Then took it.
 
-They walked tied like prisoners or partners, same object, different story.
+The leather sat awkwardly between them. Too short. Too tight. Perfect.
 
-For a mile it helped. Riven felt fear start in his chest and stay there long enough to name before the bond took it. Cael's fatigue still crossed, but slower, as if the leather gave their bodies a breath between pulses.
+For the first time all morning, Riven felt something stay in his own chest before the bond took it. Not long. Just long enough to notice.
 
-Then the ridge opened onto a slope of loose scree that moved wrong.
+They kept walking. The ridge narrowed. The storm moved closer.
 
-Riven's foot slid. Cael's did not, then did, pulled by the line and the bond at once. They went down in a controlled fall that stopped against a boulder hard enough to knock breath out.
+"Still hate me for Lyra?" Cael asked.
 
-Pain exploded in Riven's ribs. In Cael's shoulder. In both at once. Riven heard himself scream and heard Cael scream in the same second, same sound, same throat.
+Riven barked out a laugh. "Really? Christ."
 
-"No," Riven gasped. "No—"
+"You never answered." The bond already knew the answer. That didn't make saying it easier.
 
-He tried to clamp down. Tried to wall fear off. The wall cracked. Panic poured through. Cael's memory of the river stairs hit Riven like a fist. Riven's memory of the square hit Cael. They clung to the boulder and to each other because the line between wrists was the only thing that was not inside their heads.
+"Sometimes."
 
-"Breathe," Cael said, voice broken.
+Cael nodded. "Same."
+
+"That's not comforting."
+
+"No." A beat. "It's true."
+
+They walked another mile before the ridge ended. The slope beyond looked solid. It wasn't. Riven knew it the moment his foot touched it.
+
+The scree shifted before his weight landed. His balance vanished. The belt snapped tight. Cael stumbled forward. For half a second they almost saved it. Then gravity won.
+
+They went down together.
+
+Stone slammed into Riven's hip. His elbow. His ribs. Cael hit shoulder first. The impact crossed the bond before either of them could scream. Then both of them did. One sound. Two mouths. The same panic in two bodies.
+
+Riven couldn't tell whose lungs were burning. Couldn't tell whose fear was whose. The slope tilted. The world narrowed. The bond broke open.
+
+River stairs. The square. Lyra turning away. Halverin counting. Everything at once. Everything shared.
+
+"Fuck." The word belonged to both of them.
+
+They slammed against a boulder and stopped. For several seconds neither moved. The belt still connected their wrists. The leather felt absurd. Wonderful. Real. Something outside the bond. Something they could touch.
+
+"No." Riven's voice shook. He grabbed the belt harder. "No. Fuck. No."
+
+Cael was breathing just as hard. "Breathe."
 
 "I'm trying."
 
-"Together. In. Out."
+"Together." The words came out ragged. "In."
 
-They breathed. Four counts. Wrong at first. Then closer. The pain did not leave. It stopped ricocheting.
+Riven inhaled. The bond echoed it. "Out."
 
-Riven became aware of the Seeker standing above them on the slope, staff planted, face empty.
+The panic stayed. The fear stayed. The memories stayed.
 
-"Help?" Riven said, hoarse.
+They breathed anyway.
 
-The Seeker offered a hand. Pulled Cael up. Pulled Riven up. No words.
+The Seeker stood above them, staff planted in the scree. Wind tugged at the hood. No hurry. No concern either.
 
-They sat on stone while the sun moved. Riven's ribs throbbed. Cael's shoulder hung wrong until Riven helped set it with a jerk that hurt them both and settled something.
+"Help?" Riven croaked.
 
-"You could have said there was no line left," Riven said to the air, to Velorum, to whatever listened.
+The Seeker held out a hand. Dry grip. Strong grip. Cael first. Then Riven.
 
-The bond was quiet in the way a held breath was quiet.
+The belt pulled tight between their wrists as he climbed. The leather bit into his skin before the Seeker hauled him the rest of the way up.
 
-Cael unhooked the belt line. "Keep it," he said, passing the leather back. "For when we need a breath between."
+No lecture. No explanation.
 
-Riven buckled it at his hip. "I can't keep pain in one skin anymore."
+The Seeker turned and started down the slope.
 
-"I know," Cael said.
+Riven stared after them. "Helpful."
 
-"Do you?"
+No answer.
 
-Cael looked at the distant stone ring on the rise. "I'm starting to."
+"Shocking."
 
-They walked the rest of the day without tying wrists again. The bond did not loosen. It had changed texture, less spike, more tide. Riven could not tell if that was worse.
+The Seeker kept walking.
 
-At camp he tried one more time to think a private thought: *I'm afraid of what we'll become.*
+They worked their way down the rest of the scree on hands, knees, and stubbornness. Twice the belt snagged on loose stone. Once Cael freed it with his teeth. Neither of them had enough breath left to complain.
 
-It crossed. Cael met his eyes across the cold cut.
+By the time they reached solid ground, Riven's ribs felt loose inside him. Cael's shoulder wasn't much better.
 
-"Me too," Cael said.
+Riven spat grit. "Thanks for the fucking help."
 
-Riven nodded. No point pretending.
+The Seeker kept walking.
 
-In the morning the Seeker pointed at the stone ring and walked faster. The air thickened. Sound lagged. Riven felt interdependence like weather he could not outwalk, every step saying *more, more, more* until separation felt like a word for a country that had never existed.
+Cael laughed once, a short, painful sound. "You're getting predictable."
 
-He did not believe he could choose his way back to alone.
+"Good."
 
-He was not sure Cael could either.
+Riven unbuckled the belt and rubbed his wrist. A red groove circled the skin. The same mark ringed Cael's.
 
-That was the line they had lost: not love, not loyalty, the fiction that either of them could still pay the cost alone.
+"Keep it."
+
+Cael handed the belt back.
+
+Riven looked at him. "It didn't work."
+
+"It helped."
+
+Riven wanted to argue. Didn't. The belt disappeared back onto his hip.
+
+For a while they walked without speaking. The bond hadn't eased. It had changed. The panic spikes were gone. Something slower had taken their place. Not relief. Not acceptance. Just a current they could feel all the time.
+
+At camp they ate in silence. No fire. No stories. The Seeker sat against a rock and watched the dark gather across the cut.
+
+Riven tore off another piece of bread. Halfway through chewing, somebody else's hunger arrived. He glared across camp.
+
+"Eat your own damn ration."
+
+"I did."
+
+"Then stop being hungry in my mouth."
+
+Cael closed his eyes. "I'm trying."
+
+That took most of the fight out of him.
+
+Riven leaned back against the stone. For a while he watched the dark. Then he made one last attempt.
+
+*I'm afraid of what we'll become.*
+
+The thought barely made it halfway. The bond carried the rest.
+
+Across the camp, Cael met his eyes.
+
+"Me too."
+
+Nothing else followed. Nothing needed to.
+
+The silence sat between them. Heavy. Honest.
+
+Tomorrow they would reach the ring. Tomorrow somebody might finally answer a question. Riven wasn't sure whether he wanted that anymore.
+
+"Tomorrow we hear it," Cael said.
+
+Riven rubbed a thumb across the belt hanging at his hip. The leather still smelled like sweat and dust. And fear.
+
+"Tomorrow we stop pretending there's a door."
+
+Cael nodded once. "Yeah."
+
+They slept badly.
+
+In the morning the Seeker pointed toward the stone ring and started walking faster. The air thickened as they climbed. Even sound felt reluctant. Riven heard gravel crunch beneath his boots a heartbeat after he stepped.
+
+Cael walked beside him now. Not behind. Not ahead. Beside. Close enough to reach. Far enough to breathe.
+
+"You still want out?" Cael asked.
+
+"Yes." The answer came immediately. "I know what the fuck we'll hear."
+
+"Me too."
+
+Neither said anything after that.
+
+The ring sat ahead of them, pale against the sky. For the first time since Kestrel Gate, it looked close enough to touch.

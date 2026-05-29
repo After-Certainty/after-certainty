@@ -1,91 +1,153 @@
 # Chapter 26 - Velorum Again
 
-Ashring looked smaller than Cael remembered and older, stone bowl cracked where winter had worked the seams. Wind came up the slope bare and cold. No stalls. No pamphlets. No crowd selling steadiness.
+Ashring looked smaller than Cael remembered and older, stone bowl cracked where winter had worked the seams. Wind came up the slope bare and cold. No stalls. No pamphlets. No crowd. No chalk arrows for children to copy.
 
 Only pressure in the air.
 
-Cael stood at the rim with Riven beside him and the Seeker three paces back, hood down now, face plain in bad light. The bond was so tight Cael felt his own heartbeat as echo and source.
+Cael stood at the rim with Riven beside him and the Seeker three paces back, hood down now, face plain in bad light. The bond was so tight Cael felt his own heartbeat twice, once in his chest and once in Riven's ribs where yesterday's fall still lived.
 
-"We're here," Riven said.
+They had climbed through the night because the Seeker set pace and the land pushed at their backs. Neither had slept. Both had dreamed in pieces that crossed before either woke.
 
-No answer from the Seeker. No answer from the ring.
+Cael stepped into the bowl. Gravel shifted under his boots. Riven followed. The air thickened until breath felt borrowed.
 
-Cael stepped into the bowl. Gravel shifted under his boots the way it had the first time, except now each slide sent fatigue across the bond before he finished the step. Riven followed. The air thickened until breath felt borrowed.
+Halfway down the slope Cael's skin prickled the way it had at Ashfen. This time he did not fight for a private lung. He let the pressure find both of them.
 
-"Velorum," Cael said, and hated how small his voice sounded.
+"Don't," Riven said. "Christ. Don't."
 
-Pressure answered. Not words. Weight behind the eyes, in the teeth, along the spine. The same suffocating presence from Ashfen, returned without greeting.
+"I know," Cael said.
 
-*You came back,* it was not speech. Cael felt it in his bones. Riven flinched beside him.
+The stone ring was the same and not the same. Seams wider. Dust in the grooves. Just weight behind the eyes.
 
-"We want release," Riven said. "We want out."
+"Velorum," Cael said.
 
-The pressure sharpened. Images not pictures: two figures on a road, broken, remembered. A city square screaming. River stairs. Broadsides drying on a wall. Lyra's bundle on a wagon. Loss braided into legend.
+Pressure answered. Not words. Weight behind the eyes, in the teeth, along the spine.
 
-"No cure," Cael understood before the thought finished forming. Not spoken. Known.
+"We want release," Riven said.
 
-Riven grabbed his arm. "Say it plain."
+"We want out."
 
-Cael tried. His throat closed. The bond carried Riven's panic and his own refusal in a loop.
+The words came fast now.
 
-"There is no separation left," the presence seemed to say through pressure and memory. "There is only what you carry. There is only what you become."
+"We want the fuck out."
 
-"Become what?" Riven shouted. "Your fucking woodcut?"
+The pressure tightened. Not anger. Not refusal. Recognition.
 
-The ring answered with heat along the stone seams. Dust lifted. Cael's knees buckled. Riven's did too, not mirrored, pulled.
+Images slid through Cael before he could separate them from memory.
 
-"We didn't ask for legend," Cael said.
+River stairs. The square. Lyra climbing into a wagon without looking back. A practice yard in Greyhaven. Children drawing chalk arrows on stone. The same arrows washed away by rain. Gone. Drawn again.
 
-*You asked at Heartbridge,* the pressure returned. *You asked to be remembered. This is remembrance.*
+Riven flinched beside him. The bond carried confusion in both directions.
 
-"We asked to matter," Riven said. "Not to bleed in public forever."
+"No."
 
-*Matter costs.*
+The word left Cael before he knew he was speaking.
 
-Cael saw it then, cruel and clear: Velorum was not punishing them for disobedience. Velorum was completing a pattern. Pairs touched, pairs used, pairs broken into story while the world stabilized around the break.
+The pressure deepened. Not a voice. A certainty. The same certainty a beam carried under weight. The same certainty stone carried when winter found a crack.
 
-Halverin had been wrong. Lyra had been right. The Seeker had walked them here to hear what no office could say.
+Not cure.
 
-"No cure," Cael said aloud, for the square, for the stairs, for Halverin, for himself. "Only transformation."
+Structure.
 
-Riven laughed once, broken. "Into what."
+Cael's stomach turned.
 
-*Into what holds,* the pressure answered. *Or into what shatters.*
+Beside him, Riven grabbed his sleeve. "Say it."
 
-Cael thought of Greyhaven, of children practicing chalk arrows, of a statue not yet raised. He thought of the threat Merrow's last message had mentioned in passing: instability spreading toward home borders, something gathering wrong on the northern roads.
+Cael couldn't. The answer sat behind his teeth. Heavy. Wrong. Already known.
 
-"If we refuse?" Cael asked.
+"There isn't one."
 
-The pressure did not threaten. It showed: a bridge failing, a berm bursting, people running. The bond between him and Riven as a line the land noticed.
+The words tasted like rust.
 
-"You already refused separation," Cael said to Riven, quiet. "At the square. When we stopped obeying him and moved together."
+Riven stared at him. "No. Fuck. No."
 
-"That wasn't surrender," Riven said.
+Cael wished he could argue.
 
-"No," Cael said. "This is worse. This is knowing."
+The pressure shifted. A bridge. Not a specific bridge. The idea of one. Weight crossing. Weight held. Weight lost.
 
-The Seeker spoke for the first time in days. Voice rough, unused. "Walk back or walk forward. The god does not bargain."
+Then the image broke apart. People running. Mud. Water. A wall failing where something should have carried load and didn't.
 
-Riven looked at Cael. Through the bond Cael felt inevitability and grief in the same pulse.
+"What does that have to do with us?" Riven shouted. "What the fuck does that have to do with us?"
 
-"Forward," Riven said.
+The ring did not answer. The images kept coming. Pairs. Roads. Crowds. Stories. Not heroes. Not legends. Functions. Things remembered because forgetting them cost too much.
+
+"That's not a fucking answer."
+
+The pressure sharpened. For a moment Cael saw himself and Riven as strangers might. Not brothers. Not victims. Not chosen. A joint in a frame. Useful because it carried weight. Terrifying because it could fail.
+
+Riven swore. Long. Creative. The ring ignored him. Good. Somebody should.
+
+Cael laughed once despite himself. The sound died quickly.
+
+"No cure," he said. This time he didn't fight the words. "Fuck."
+
+Riven looked away. Toward the rim. Toward the path back down. Toward anywhere that wasn't the center of the bowl.
+
+"If we walk away?"
+
+The pressure changed again. Not threat. Consequence. A road washed out. A wall leaning. People improvising around a missing support. Nothing dramatic. Nothing personal. Just weight finding somewhere else to go.
+
+Riven's jaw tightened. "Bullshit. That's coercion."
+
+The pressure did not react. Maybe because it wasn't listening. Maybe because it didn't understand the accusation. Or maybe because gravity never argued when somebody called it unfair.
+
+Cael put a hand on Riven's wrist.
+
+Not comfort.
+
+Anchor.
+
+The Seeker spoke. The voice sounded rough, as though it hadn't been used in a long time.
+
+"Walk back or walk forward."
+
+Riven looked up. "The god does not bargain."
+
+Wind moved through the bowl. For a moment nobody spoke. Then:
+
+"Back to what?" Riven asked.
+
+The Seeker studied him. "Back to the story you tell strangers."
+
+The staff shifted against the stone. "Forward to the story strangers tell about you."
+
+Riven swore under his breath. The bond carried grief. And something worse. Recognition. Cael felt it too.
+
+"Forward," Riven said. The word sounded tired.
 
 "Forward," Cael said.
 
-The pressure eased a fraction, not mercy, acknowledgment. The ring's seams stopped glowing. Wind returned normal, almost.
+The pressure eased. Not approval. Not forgiveness. Less resistance. The seams of the ring dimmed. Wind crossed the bowl again. Ordinary wind. Ordinary cold. The most ordinary thing either of them had felt in days.
 
-They climbed out of the bowl. The Seeker turned down the slope without farewell.
+They climbed out without speaking. Halfway up, Riven touched the rim of the ring. Just once. Then kept moving.
+
+At the top, the Seeker turned toward the scrub hills. No farewell. No blessing. No explanation.
 
 "Where do you go?" Cael called.
 
-"To the next pair that thinks they're special," the Seeker said, and was gone into scrub.
+The Seeker paused. "Somewhere else."
 
-Cael and Riven stood on the rim. Below, fractured lands waited. Behind, Kestrel Gate's smoke was invisible. Ahead, rumors of Greyhaven in danger sat in Cael's pack with Merrow's last note.
+"That's not an answer."
 
-Riven touched the stone lip once. "So we save the world and lose ourselves."
+The Seeker looked back. For the first time, something that might have been amusement crossed their face.
 
-"We already lost the private part," Cael said. "Now we decide what the public part costs."
+"No." Then they started down the slope. After a few steps they added: "Neither was yours."
 
-They started down the slope. The bond did not loosen. It felt like a leash and a lifeline, same object, different story.
+And disappeared among the rocks.
 
-Cael did not call it hope. He called it the truth they had come to hear, and the walk back toward everyone who would need them to pay it.
+Riven stared after them. "Well, shit."
+
+"Yeah."
+
+Cael opened his pack. Merrow's note was still folded inside. The paper had softened at the creases.
+
+*If you come back, come back useful.*
+
+He read it once. Folded it again. Across the bond, Riven felt the words anyway.
+
+"Think we are?"
+
+Cael looked north. Then south. Then toward the road home. The answer should have been obvious. It wasn't.
+
+"I don't know."
+
+For once, neither of them rushed to fill the silence. The bond remained. The ache remained. The cost remained. Ashring had taken away hope of a cure. It hadn't taken away the road. That was something.

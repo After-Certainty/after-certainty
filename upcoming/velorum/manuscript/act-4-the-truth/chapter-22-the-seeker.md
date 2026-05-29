@@ -2,27 +2,55 @@
 
 The ground outside Kestrel Gate stopped behaving on the third day out.
 
-Riven felt it first in his ankles, a wrong resistance like walking on wet rope. The road bed looked solid. His foot landed half a beat late. Dust hung where his boot should have stirred it. Through the bond Cael stumbled without falling and swore under his breath.
+Riven felt it first in his ankles. His foot landed and the road answered a heartbeat later, dust hanging where it should have jumped. Across the bond, Cael stumbled and swore under his breath.
 
 "Again?" Cael asked.
 
-"Again," Riven said.
+"Again."
 
-They had followed Merrow's map to a fork marked with a broken bridge symbol and a clerk's note: *unstable, avoid.* Lyra's warning had said the same in different words: *fractured lands answer what you're doing between you.*
+They stood still. The road looked normal: pale gravel, wheel ruts, a ditch full of last week's rain. Riven kicked a stone. It rolled. Then the sound arrived.
 
-Riven did not like answers that moved.
+"Goddamnit."
 
-The Seeker was not on the map. Merrow had only said: *edge of the slip, look for someone who doesn't talk like a priest.*
+The first two days had been ordinary enough. Cold camps. Hard bread. Smoke from Kestrel Gate fading behind them. By the third morning the road rang hollow underfoot, not every step, just enough, a wrong note where there should have been weight. Riven's headache spent the morning changing owners, his temples, then Cael's shoulders, then back again.
 
-They found the slip at dusk.
+By afternoon the wrongness had spread. He stopped and watched Cael take a step. His stomach rolled. Across the bond, Cael's nausea answered immediately.
 
-A shallow basin of pale stone where reflections lagged behind bodies. Riven watched his own hand rise and saw the motion in the stone pool a heartbeat late. The air tasted like metal and cold rain.
+"Goddamnit," Riven said. "We're not even at the bad part yet."
 
-Cael stopped ten paces back. "We're not walking into that."
+"Feels like the bad part."
 
-"We already are," Riven said.
+"Everything feels like the bad part."
 
-A figure sat on a flat rock at the basin edge, hood up, boots dusty, hands loose on a walking staff. Not old. Not young. Still in the way stone was still.
+They kept walking. Stopping didn't help. A cart rut crossed the road ahead. Cael stepped over it. The edge crumbled after his boot had already passed. Riven corrected his balance before he knew why. A moment later he felt Cael lose his. The bond caught it.
+
+"Goddamnit."
+
+"Save it."
+
+"For what?" Riven snapped. "The part where the road forgets what year it is?"
+
+Cael didn't answer. The bond carried exhaustion anyway.
+
+A hawk crossed overhead. Its shadow moved first. The cry arrived later. Riven flinched. Cael flinched with him. Neither laughed.
+
+Merrow's map marked a slip beyond the fork. *Unstable. Avoid.* The clerk's handwriting had looked nervous. Riven understood why now.
+
+They reached it near dusk.
+
+The basin opened without warning: pale stone, broken hills, still water. Riven raised a hand. His reflection followed a heartbeat later. Cold climbed out of the stone.
+
+Beside him, Cael stopped. His hand found Riven's sleeve, brief and hard.
+
+"We're not walking into that."
+
+Riven stared at the delayed reflection. "We already are."
+
+His boot crossed the rim. Gravel shifted under him and settled late. The bond pulled tight, not pain, recognition, the land tugging the thread between them.
+
+Merrow had said to look for someone at the slip who didn't talk like a priest.
+
+A figure sat on a flat rock at the basin edge, hood up, boots dusty, hands loose on a walking staff. Not old. Not young. Still in the way stone was still. No fire. No pack Riven could see. Just the staff and the hood and the basin breathing cold up through pale stone.
 
 Riven took two steps forward. "We're looking for Velorum."
 
@@ -32,15 +60,27 @@ Cael came up beside him, voice low. "Ask what happens to us."
 
 Riven did. "What happens to us if we keep carrying this?"
 
-Silence. Wind across the basin. The lagged reflection shivered.
+Silence. Wind across the basin.
 
 "Do you understand the bond?" Cael tried, sharper. "Can it be undone?"
 
 Nothing.
 
-Riven felt anger spike and Cael's matching frustration braid through the bond until his teeth ached. "You could say no," Riven said. "You could say go to hell. You could say something."
+Riven felt anger spike and Cael's matching frustration braid through the bond until his teeth ached. His hands wanted to shake. He kept them at his sides.
 
-The figure stood. Hood fell back. Plain face. Eyes that looked past them, not through them.
+"Hey," Riven said. Louder. "We walked three days for this."
+
+The figure did not move.
+
+"We left a city that wanted us on a broadside," Riven said. "We left offices and magistrates and every bastard who thought he could name what we are. You sit here like a fence post and we're supposed to—what? Read your silence?"
+
+Cael's hand tightened on his sleeve again. Warning or anchor, Riven could not tell.
+
+"You could say no," Riven said. "You could say go to hell. You could say something."
+
+"Fuck," Riven said, and heard Cael's breath catch through the bond, not shock, agreement held too long in the throat.
+
+The figure stood. Hood fell back. Plain face. Eyes that looked past them, not through them, the way a man looked at a road marker instead of the road.
 
 The Seeker turned and walked along the basin rim without speaking.
 
@@ -52,58 +92,82 @@ Riven looked at Cael. Cael looked at Riven.
 
 They followed.
 
-Not because the Seeker persuaded them. Because every office in Kestrel Gate had already failed. Because Lyra was gone. Because Halverin's story was dead. Because the bond kept carrying fatigue across sleep and pain across hours and Riven could not pretend separation was a choice he still had.
+"Christ," Riven muttered. "Fine. Follow the fence post."
 
-The Seeker set a pace that was not fast and not slow, impossible to match cleanly. Riven's boots lagged. Cael's did not. Then they swapped. The bond adjusted wrong each time until they stopped trying to outthink the rhythm and just walked.
+The Seeker kept walking. The basin breathed cold through the stone beneath their boots.
 
-At first camp the Seeker built no fire. Shared no food. Slept sitting against stone.
+Riven could have turned back, back to Kestrel Gate, back to Halverin's unsigned sheet, back to Lyra's warning, back to a city already busy forgetting them. He didn't. Neither did Cael.
 
-Riven sat across from Cael with the bedroll between them like a border that did not work.
+They followed.
+
+The Seeker's pace was impossible, not fast, not slow, just wrong. Sometimes Riven's stride lagged behind his own body. Sometimes Cael's did. The bond kept trying to compensate, shoving weight and balance between them until both of them gave up trying to predict it.
+
+Twice Riven reached for the wrong canteen. Once he stubbed his toe on a stone that had shifted under Cael's boot moments before. The pain arrived in both of them. Neither stopped.
+
+"Still sure?" Riven asked when the basin narrowed to a ledge.
+
+"Hell no," Cael said.
+
+"Good." Riven adjusted his pack. "I'd worry if you were."
+
+Something that might have been a laugh crossed the bond. It vanished almost immediately.
+
+That night the Seeker built no fire, shared no food, slept sitting against a slab of stone with the staff across their knees. Riven watched for an hour. The Seeker never moved. Stars appeared overhead, or maybe they had been there all along and his eyes were simply late. He stopped trying to decide.
+
+Across the camp, Cael sat sharpening the little knife he used for timber work.
 
 "You trust this?" Riven asked.
 
-"No," Cael said.
+"No."
 
-"Then why—"
+"Then why are we following them?"
 
-"Because standing still hurts more," Cael said. "Because every authority we tried is broken. Because if Velorum is the source, Velorum is the address."
+Cael kept working the blade. "Because standing still hurts more."
 
-"Lyra said truth," Riven said.
+By morning they had stopped talking about it. Talking didn't help. Walking didn't help either. Walking was simply what happened next.
 
-"This is truth with legs."
+The basin gave way to scrub hills and broken ridges. Riven's headache became Cael's. A blister appeared on Riven's heel and showed up in Cael's stride an hour later. They wrapped it beside a seep. Neither commented on how familiar the pain felt.
 
-The Seeker did not react. In the morning they walked again.
+Cael cut a strip from his shirt tail. Steady hands. Precise work. When he pressed the cloth against Riven's heel, both of them hissed through their teeth.
 
-On the second day the basin gave way to broken scrub and ridges where gravel slid wrong underfoot. Riven's headache came from Cael's shoulders. Cael's blister came from Riven's heel. They stopped at a seep to wrap cloth and did not speak about how invasion had become routine.
+"Thanks."
 
-At a split in the trail the Seeker paused, pointed once with the staff toward a darker cut in the hills, and kept walking.
+"Don't."
 
-No map. No blessing. No theology.
+"Already did."
 
-Riven wanted to shout questions until his throat bled. He tried once more at noon.
+They kept moving.
 
-"Is there a cure?"
+At noon the trail split. The Seeker stopped for the first time all day, one lift of the staff toward a darker cut through the hills, then walking again. No explanation. No warning. No blessing. Just direction.
 
-The Seeker kept walking.
+"Is there a cure?" he called.
 
-"Will we die like the woodcut pair?"
+The Seeker walked.
+
+"Will we die like the pair in the woodcut?"
 
 Walking.
 
-"Do you even know where Velorum is?"
+"Goddamnit." Riven wiped sweat from his face. "Do you even know where Velorum is?"
 
-The figure stopped. Turned. Looked at Riven for the first time with something like attention, not kindness.
+For the first time, the Seeker stopped. Turned. Looked directly at him. No anger. No sympathy. No mystery either. Just attention.
 
-Then turned again and walked.
+Beside him, Cael went completely still. The moment stretched. Then the Seeker turned away and continued up the trail.
 
-Riven understood. Not answers in words. Answers in motion. Go or don't. Follow or turn back to a city that had already seen them break.
+Riven stared. "That's somehow worse."
 
-He looked at Cael. Cael's jaw was set. Purpose back in his shoulders, thin but real.
+Cael snorted. "Yeah."
 
-"I'm not going back," Cael said.
+They followed.
 
-"Neither am I," Riven said.
+By late afternoon the hills had grown steeper. Behind them, Kestrel Gate had faded into a smear of smoke on the horizon. Ahead, the hills cut the sky into broken teeth.
 
-They followed the Seeker into hills where the air began to thicken and sound arrived late and the bond pulled tighter with every mile, as if the land itself were listening for what they carried between them.
+"I'm not going back," Cael said. The words came without warning.
 
-Riven did not call it hope. He called it the only road left that was not a lie.
+Riven looked over. Mud streaked Cael's boots. His knuckles were still split from an earlier fall. Purpose sat in his shoulders again, thin, bruised, real.
+
+"Neither am I." Riven looked north. "Not to that fucking square."
+
+The Seeker's staff tapped stone somewhere ahead. Once. Twice. Late.
+
+The only road left ran north. So they kept walking.
