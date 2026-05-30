@@ -10,7 +10,7 @@ Use this document for **repeatable revision passes** so voice, vocabulary, and c
 
 **Drafting aid (not conflict authority):** **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)** — scene bones, habits, and closings distilled from **`chapter-01-heartbridge.md`**. **Act I + IV calibration (Acts II–V target):** **[act-1-calibration-standard.md](./act-1-calibration-standard.md)**.
 
-**Agents (optional Cursor / human roles):** **[agents/README.md](./agents/README.md)** — **Brief-to-rough draft (00)** from index + synopsis, optional **cinematic scene pass (02)** for vivid located scenes, then Flow **(03)** → **Direct camera (04)** → Embodiment **(05)** → Dialogue **(06)** → Thematic **(07)** → Pacing **(08)** → Audio **(09)**; optional **10–13** (narrative arc, character, line precision, deep cadence).
+**Agents (optional Cursor / human roles):** **[agents/README.md](./agents/README.md)** — **Brief-to-rough draft (00)** from index + synopsis, optional **cinematic scene pass (02)** for vivid located scenes, then Flow **(03)** → **Direct camera (04)** → Embodiment **(05)** → Dialogue **(06)** → Thematic **(07)** → Pacing **(08)** → Audio **(09)**; optional **10–13** (narrative arc, character, line precision, deep cadence); targeted revision **[08-reality](./agents/revision/08-reality-agent.md)** (believability audit).
 
 When **project-spec** and **synopsis** disagree, reconcile in **project-spec first**, then patch chapters.
 
@@ -20,7 +20,8 @@ When **project-spec** and **synopsis** disagree, reconcile in **project-spec fir
 
 - [ ] Confirm **single POV** for this chapter (Riven / Cael / Lyra only; no mid-chapter hops). Match **[act-chapter-index.md](./act-chapter-index.md)** unless you intentionally revise planning docs everywhere.  
 - [ ] Confirm this chapter still hits its **beat** on the spine (synopsis + index notes).  
-- [ ] Pick a **shape reference**: **[act-1-calibration-standard.md](./act-1-calibration-standard.md)** (Act I + IV bar for Acts II–V) and/or **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)** (quick habits). Compare to **`chapter-01-heartbridge.md`** (place-first), **`chapter-06-the-curse.md`** (consequences / bond violation), and **`chapter-04-ashfen.md`** (sparse camera)—**not** to Acts II–III pipeline length (~2,250 words/ch).
+- [ ] Pick a **shape reference**: **[act-1-calibration-standard.md](./act-1-calibration-standard.md)** (Act I + IV bar for Acts II–V) and/or **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)** (quick habits). Compare to **`chapter-01-heartbridge.md`** (place-first), **`chapter-06-the-curse.md`** (consequences / bond violation), and **`chapter-04-ashfen.md`** (sparse camera)—**not** to Acts II–III pipeline length (~2,250 words/ch).  
+- [ ] Note whether this chapter needs **Pass I** (city, institutions, crowds, grief, bond-as-social-problem)—see **[agents/revision/08-reality-agent.md](./agents/revision/08-reality-agent.md)**.
 
 ---
 
@@ -154,6 +155,71 @@ See **voice-spec → Direct camera style pass**. Run on **every chapter** after 
 
 ---
 
+## Pass I — Reality & believability *(human / institutional / crowd)*
+
+See **[agents/revision/08-reality-agent.md](./agents/revision/08-reality-agent.md)**. Run after **Pass D4** (prose is camera-clear) and before **Pass G** final skim. **Mandatory heavy pass after act expansion is complete**—expansion often adds cognitive-friction texture; Pass I replaces it with human problems. **Output:** diagnostic report (issues + believable fixes); do **not** rewrite for more drama.
+
+**Core principle:** Velorum is the only major suspension of disbelief. Everything else obeys ordinary human behavior, institutional friction, logistics, incentives, and consequences.
+
+**Primary questions (every scene):**
+
+- [ ] **Would a real person behave this way?**
+- [ ] **Would a real system behave this way?**
+- [ ] **Would a reader understand what went wrong without a glossary?**
+
+### Cognitive friction *(post-expansion priority)*
+
+- [ ] No **invented infrastructure / quirky inventory / market-label stacks** used as generic "concrete" filler (*fish stairs*, *bond singers*, *running out of chalk* when not plot-critical).  
+- [ ] Prefer **exhausted workers, contradictory orders, missing inventory, bad information, delayed responses, people making mistakes**.  
+- [ ] Each scene has a **plain place + human problem** anchor readers can remember (see **08-reality → Scene anchors**).
+
+### Character
+
+- [ ] People **misunderstand**, **mistake**, **avoid hard truths**, **rationalize**, **repeat rumors**, **seek comfort**, **fatigue**, **forget**, **protect themselves**—not perfect self-knowledge or theme speeches.  
+- [ ] Dialogue is **role-shaped**, not interchangeable or author-philosophy delivery.
+
+### Institutions (Halverin, Merrow, clerks, garrisons)
+
+- [ ] **Incomplete information**, **coordination failure**, **tradeoffs**, **stability-first**, **procedure on imperfect people**—not a single omniscient intelligence or frictionless fixes.  
+- [ ] Prefer **human admin** (*wrong crate twice*, *three people arguing over one ration slate*, *paid extra, still shorted*) over abstract strain labels or invented props.
+
+### Logistics & labor
+
+- [ ] **Shortages, queues, inventories, broken tools, delayed deliveries, missing workers, repairs, maintenance** visible where the scene depends on them—and readable as **human problems**, not homework.  
+- [ ] Consequences **persist**—solutions don’t arrive too easily; logistics don’t vanish after the set piece.
+
+### Crowds
+
+- [ ] **Rumor, exaggeration, blame, symbol-seeking, mixed reactions**—not one opinion or uniform reaction.
+
+### Grief & trauma
+
+- [ ] Loss reads **specific** (repeated names, practical fixation, anger, numbness, avoidance)—not generic grieving.  
+- [ ] Trauma **recurs**, **distorts attention**, **drives avoidance or fixation**—doesn’t appear only when convenient or vanish after the dramatic beat.
+
+### Romance (Lyra / Riven / Cael)
+
+- [ ] Attraction through **attention, curiosity, comfort, humor, shared experience**—small moments over declarations; no instant soulmates or melodrama stacks.
+
+### Curse reactions
+
+- [ ] The bond is **magical**; **reactions are not**. People **fear, exploit, misunderstand, mythologize, bureaucratize, normalize** it—and **interpret differently**.
+
+### Expansion check *(when adding words)*
+
+- [ ] Every new beat introduces **consequence, complication, perspective, cost, or adaptation**—not the same information in new scenery.  
+- [ ] **After expansion:** schedule **Pass I** to strip cognitive friction before compression.
+
+### Red flags — flag and fix toward **more believable**, not more dramatic
+
+- [ ] Everyone agrees; everyone behaves rationally; institutions react too fast; consequences vanish; characters sound interchangeable; dialogue becomes thematic exposition; **invented labels stack without human stakes**.
+
+**Success:** readers feel *real people dealing with something impossible*—not fantasy characters moving through a plot, and not *glossary homework*.
+
+**Related agent:** **[05-world-pressure](./agents/revision/05-world-pressure-agent.md)** adds visible strain/adaptation; **Pass I** audits believability and **removes expansion gobbledygook**.
+
+---
+
 ## Pass D3 — Camera-observable narration *(sight-line)*
 
 See **voice-spec → Camera-observable narration**. Use when narration still **sounds literary** after Pass D / **D4** or when readers report **“too poetic / not visual.”** (Most D3 items are **included in D4**; run D3 only for extra sight-line gaps.)
@@ -275,6 +341,6 @@ rg -n "—" velorum/manuscript/path/to/chapter.md
 
 **Draft** against synopsis + index + project-spec POV and terrain rules.  
 **Revise voice** against voice-spec.  
-**Run passes** A → A2 → **A3** → B → (C → **C2** / **C3** / D / **D4** / **D2** / **D3** / E / **F** / **H** as needed) → G → (**J** optional). **Pass D4** (direct camera / conversational style) is **default on every chapter** after flow—see **voice-spec → Direct camera style pass** and **agents/initial-drafting/04-direct-camera-style-pass.md**. **Pass G** includes **read-aloud / subject–verb streak** checks (**agents/initial-drafting/13-read-aloud-cadence-clarity-editor.md**, **voice-spec → Paragraph shape**). **Pass F** (**voice-spec → Tightening**) is **line-level** cutting and merging after substance passes; use it when the scene is sound but still verbose or repetitive. **Pass C** includes **em-dash discipline** (see **voice-spec → Em dashes**), **period/costume and museum/specialist vocabulary** (see **voice-spec → Contemporary lexicon**), and the **readability** list in that pass. **Pass C2** tightens **spoken lines** (see **voice-spec → Plain dialogue**). **Pass A2** now includes a **required pronoun-disambiguation sweep** in any paragraph where two same-gender named characters are active: replace ambiguous *he/him/his* with names only where a cold read could plausibly misassign reference. **Pass A3** catches **orphan actors**, **personified landmarks**, **unowned sensations**, **crypto-metaphors**, and **confusing figures of speech**—see **voice-spec → Clear agency** and **Idiomatic figures of speech**. **Pass D** includes the **seminar sweep** (thesis-shaped lines → concrete stakes). Use **D2** when a chapter introduces or revisits a location and narration should match **Chapter 1’s** place-first density. Use **Pass B → Character introduction** when the chapter introduces **new** named faces (same concrete-anchor rule as Chapter 1). Use **Pass H** when a chapter **sounds fine** but reads **monotone or fuzzy**—often stacked *wind*, *square*, *hands*, or repeated silence beats. Run **H** after **F** (tightening) or merge H into a late polish pass with **G**. Re-run **A2** / **A3** when a chapter’s assigned POV changes in **act-chapter-index** or when you add long stretches of another character’s interior or lean hard into lyrical narration.
+**Run passes** A → A2 → **A3** → B → (C → **C2** / **C3** / D / **D4** / **I** / **D2** / **D3** / E / **F** / **H** as needed) → G → (**J** optional). **Pass D4** (direct camera / conversational style) is **default on every chapter** after flow—see **voice-spec → Direct camera style pass** and **agents/initial-drafting/04-direct-camera-style-pass.md**. **Pass I** (**agents/revision/08-reality-agent.md**) audits human, institutional, crowd, grief, and logistics believability after **D4**—diagnostic output, fixes toward realism not drama; run before expansion when adding scenes. **Pass G** includes **read-aloud / subject–verb streak** checks (**agents/initial-drafting/13-read-aloud-cadence-clarity-editor.md**, **voice-spec → Paragraph shape**). **Pass F** (**voice-spec → Tightening**) is **line-level** cutting and merging after substance passes; use it when the scene is sound but still verbose or repetitive. **Pass C** includes **em-dash discipline** (see **voice-spec → Em dashes**), **period/costume and museum/specialist vocabulary** (see **voice-spec → Contemporary lexicon**), and the **readability** list in that pass. **Pass C2** tightens **spoken lines** (see **voice-spec → Plain dialogue**). **Pass A2** now includes a **required pronoun-disambiguation sweep** in any paragraph where two same-gender named characters are active: replace ambiguous *he/him/his* with names only where a cold read could plausibly misassign reference. **Pass A3** catches **orphan actors**, **personified landmarks**, **unowned sensations**, **crypto-metaphors**, and **confusing figures of speech**—see **voice-spec → Clear agency** and **Idiomatic figures of speech**. **Pass D** includes the **seminar sweep** (thesis-shaped lines → concrete stakes). Use **D2** when a chapter introduces or revisits a location and narration should match **Chapter 1’s** place-first density. Use **Pass B → Character introduction** when the chapter introduces **new** named faces (same concrete-anchor rule as Chapter 1). Use **Pass H** when a chapter **sounds fine** but reads **monotone or fuzzy**—often stacked *wind*, *square*, *hands*, or repeated silence beats. Run **H** after **F** (tightening) or merge H into a late polish pass with **G**. Use **Pass I** on city/garrison chapters, post-crisis grief, Halverin/Merrow scenes, crowd/rumor beats, bond chapters (human reactions to the curse), and **before expansion passes** (**expansion-guardrails.md**). Re-run **A2** / **A3** when a chapter’s assigned POV changes in **act-chapter-index** or when you add long stretches of another character’s interior or lean hard into lyrical narration.
 
 For full premise, ending rules, and Velorum reader-sequence rules, always return to **[project-spec.md](./project-spec.md)**.

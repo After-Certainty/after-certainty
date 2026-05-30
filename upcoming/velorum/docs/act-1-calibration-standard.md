@@ -5,7 +5,7 @@
 
 **Authority order:** **[project-spec.md](./project-spec.md)** → **[voice-spec.md](./voice-spec.md)** → this file for **shape, pacing, and revision craft** → **[target-length-spec.md](./target-length-spec.md)** for **book-scale word targets by act** → **[act-chapter-index.md](./act-chapter-index.md)** for beats.
 
-> **Two bars:** This file = how chapters should *read* (bond-as-consequence, cut thesis closers). **target-length-spec** = how much each *act* should weigh at ~100k (~3,300 avg/ch in Acts I–II, ~2,500 in Act V). Current manual-pass counts (~1,200–2,600/ch) reflect calibration density, not final publication length.
+> **Two bars:** This file = how chapters should *read* (bond-as-consequence, cut thesis closers). **target-length-spec** = how much each *act* should weigh at ~100k (~3,300 avg/ch in Acts I–II, ~2,500 in Act V). **expansion-guardrails** = how to *add* words (moments and consequences, not theme explanation). Current manual-pass counts (~1,200–2,600/ch) reflect calibration density, not final publication length.
 
 ---
 

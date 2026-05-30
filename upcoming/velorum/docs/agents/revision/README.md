@@ -19,16 +19,28 @@ Core chain complete through at least **04-direct-camera-style-pass** and **09-au
 | **05** | [world-pressure](./05-world-pressure-agent.md) | Terrain/Velorum pressure under-written |
 | **06** | [operational-intimacy](./06-operational-intimacy-agent.md) | Tactical/repair beats losing competence texture |
 | **07** | [scene-compression](./07-scene-compression-agent.md) | **Last** — cut toward Act I density (~1,600–2,000/ch) |
+| **08** | [reality](./08-reality-agent.md) | Human/institutional/crowd behavior feels plot-shaped, frictionless, or **expansion-added cognitive friction** (invented labels, quirky inventory) |
+
+## Post-expansion workflow *(book-scale)*
+
+After each act meets expansion word targets:
+
+1. **08-reality** — **heavy diagnostic pass** on the act: strip gobbledygook (*fish stairs*, *bond singers*, quirky inventory filler); replace with **human friction**; map **scene anchors** (plain place + problem).  
+2. Core chain touch-up (**04** camera, **02** dialogue) on flagged scenes only.  
+3. **07-scene-compression** last — do not compress before reality cleanup or friction gets baked in.
+
+Expansion **invents** texture under word-count pressure; **08** **replaces** it—does not defend it for length.
 
 ## Recommended order (when multiple apply)
 
 1. Core chain complete  
-2. **01** bond-tension (bond chapters)  
-3. **02** dialogue-subtext  
-4. **03** / **04** / **05** as needed  
-5. **06** operational-intimacy (action/tactical chapters)  
-6. **07** scene-compression **last**  
-7. Re-run **09-audio-readaloud** (optional **13-read-aloud-cadence**)
+2. **Post-expansion:** **08-reality** on the expanded act (mandatory before compression)  
+3. **01** bond-tension (bond chapters)  
+4. **02** dialogue-subtext  
+5. **03** / **04** / **05** as needed — **05** adds pressure; **08** audits believability and strips cognitive friction (**do not** use **05** to re-add invented labels **08** removed)  
+6. **06** operational-intimacy (action/tactical chapters)  
+7. **07** scene-compression **last**  
+8. Re-run **09-audio-readaloud** (optional **13-read-aloud-cadence**)
 
 ## Removed (superseded)
 

@@ -1,11 +1,12 @@
 **ROLE:** Chapter Expansion & Depth Pass Agent
 
-> **Deprecated for Acts II–III–V alignment.** Manual Act I/IV calibration targets **~1,600–2,000 words/ch**, not Agent 01 expansion (~2,250+). Use only when a chapter is **under ~1,200 words** and missing a mandatory beat from **act-chapter-index**. Otherwise prefer **snippet revision + compression (revision/07)**. See **[act-1-calibration-standard.md](../../act-1-calibration-standard.md)**.
+> **Deprecated for Acts II–III–V alignment.** Manual Act I/IV calibration targets **~1,600–2,000 words/ch**, not Agent 01 expansion (~2,250+). Use only when a chapter is **under ~1,200 words** and missing a mandatory beat from **act-chapter-index**. Otherwise prefer **snippet revision + compression (revision/07)**. See **[act-1-calibration-standard.md](../../act-1-calibration-standard.md)** and **[expansion-guardrails.md](../../expansion-guardrails.md)** (book-scale expansion toward **target-length-spec**).
 
 **PURPOSE:**  
 Expand under-length chapters so they carry enough **scene mass** (character beats, plot consequence, and grounded setting) to sit closer to Act I chapter scale, without changing canon events or POV assignment.
 
 **FOCUS:**
+- **Guardrails:** **[expansion-guardrails.md](../../expansion-guardrails.md)** — one story question, three moments, expand through consequences not explanation
 - **Depth over drift:** add scene substance to beats that are currently too compressed (arrivals, transitions, reversals, aftermath, public pressure, private fallout)
 - **Character depth:** add short action/reaction moments that reveal motive, strain, and relationship pressure in-scene
 - **Plot depth:** make key consequences legible on the page (who pays, who decides, what shifts next)

@@ -57,6 +57,7 @@ Not every chapter needs all eight; use the list to ask *what’s missing* when a
 - **Floating “the town teaches”** without bodies and coins on the page.  
 - **Same sentence opener** three times in a row in close argument (**Pass H** + opening-variation habit).  
 - **Em-dash wallpaper** — Chapter 1 after punctuation discipline is the density bar (**voice-spec → Em dashes**).
+- **Expansion gobbledygook** — invented infrastructure (*fish stairs*), market-label stacks (*bond singers*), quirky inventory used as generic "concrete" filler. Prefer **human friction** (exhausted workers, wrong orders, missing inventory, bad info, mistakes). See **[agents/revision/08-reality-agent.md](./agents/revision/08-reality-agent.md)** after expansion passes.
 
 ---
 

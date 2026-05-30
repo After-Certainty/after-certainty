@@ -2,7 +2,19 @@
 
 The infirmary sat against the inner wall near the east barracks—a long room, stone floor, open shutters. Cots lined both walls, close enough that people could reach across the gap between them. The place smelled like boiled cloth, pine resin, blood, and the particular kind of fear people carried when they were trying not to show it.
 
-The next afternoon, Riven arrived with a split forearm and a headache that had settled behind one eye and refused to leave. The cut wasn't serious—a rusted brace at river postern, one bad step, one sharp edge, enough blood to make Merrow stop arguing and point him toward the infirmary. A guard walked him across the yard. Neither of them spoke. Someone behind the barracks was still yelling about chalk.
+Merrow's runner had passed the yard that morning with a slate—*infirmary counts by bed, not pair-type*—and Lyra had sent him back with the same message before Riven arrived.
+
+The next afternoon, Riven arrived with a split forearm and a headache that had settled behind one eye and refused to leave. The cut wasn't serious—a rusted edge on the riverside entrance, one bad step, one sharp edge, enough blood to make Merrow stop arguing and point him toward the infirmary. A guard walked him across the yard. Neither of them spoke. Someone behind the barracks was still arguing about the ration count.
+
+Riven had marked the grain line at the riverside entrance that morning before the cut—same slate Merrow would read twice because Cael kept replaying the blade in his head from across the yard. The bond carried the replay before Riven reached the infirmary door.
+
+The yard was full—runners, guards with splints, families looking for names on slates. Riven shouldered through. A boy asked if the bond hurt. Riven said yes. A woman touched his sleeve and let go like he'd burned her.
+
+A runner with Halverin's crest tried to cut ahead of the line at the infirmary door. Lyra sent him to Merrow without looking up. The runner tried again. Lyra pointed at the blood bucket. The runner left.
+
+The infirmary door opened on steam and boiled cloth. Three cots were already full. Lyra didn't look up from a palm stitch when he entered.
+
+A dockworker with a rope burn across his forearm sat on the bench and watched Lyra work like he was taking notes for a report. Lyra told him to hold the screen or leave. He held the screen.
 
 "Sit."
 
@@ -13,6 +25,8 @@ The woman didn't look up from her work. Riven looked at the stool, then at her. 
 Fair. He sat. The stool rocked once before he caught it with his boot.
 
 The woman tied off a bandage on the soldier in front of her and finally turned around—younger than he'd expected, dark brows, pale hair pulled back out of the way, a thin scar across one knuckle. Rows of needles and thread sat organized beside her elbow. Everything exactly where it belonged.
+
+Behind her two orderlies argued over cot placement. Lyra cut through without raising her voice. "South wall, not door." One orderly moved the cot. The room kept working.
 
 "Name."
 
@@ -48,17 +62,31 @@ That earned the faintest twitch at the corner of her mouth. Not quite a smile. C
 
 A boy with a torn ear sat on the next cot trying very hard not to cry; his grandmother held his shoulders. Lyra crossed the room, checked his eyes, told him exactly what she was about to do, then did it—no soothing, no false promises, just information. The boy cried anyway. She fixed the ear and was back at Riven's table before the runner with blood down one trouser leg made it three steps inside. "Bench." "Water." "Screen." Nobody argued.
 
-Riven watched the room shift around her—not because she was loud or important, but because she knew what needed doing. Lyra looked like she'd forgotten there was any other way to run a room, and Riven moved with them when she pointed.
+The runner with blood down one trouser leg made it three steps inside and stopped when Lyra pointed at the bench. "Palms first if they're bleeding." The runner looked offended. Lyra didn't care. Riven held the screen while she stitched a dockworker's palm—three lines, fast, no wasted motion. The dockworker passed out. Lyra slapped his cheek once. "Stay with me." He stayed. Riven felt Cael's spike of alarm across the yard and his own answer it before he could stop either.
+
+An orderly pushed through with a slate. "Captain wants counts before noon."
+
+"Counts later," Lyra said without looking up. "Palms now if they're bleeding."
+
+The orderly left. Riven watched the door swing shut. The infirmary had its own weather—blood, boiled cloth, runners, the particular silence people kept when they were trying not to hear somebody retch in the corner.
+
+A guard with a rope burn across his forearm sat on the bench and watched Lyra work on the boy's ear like he was taking notes for a report. Lyra told him to hold the screen or leave. He held the screen.
 
 "You. Hold this." She shoved a folded cloth into his palm and pressed his hand onto a cooper's side. "Slip and he bleeds out before I finish."
 
 Riven pressed hard. The cooper bit leather until it tore. Sweat on his temple. Through the bond, Cael's attention jerked from the ledger to the spike in Riven's chest, then flattened when Riven held steady.
+
+Lyra sent him to hold a basin next. Then to pass thread. Then to keep a guard from standing before she finished a palm stitch. Riven moved because she pointed and because the room had no patience for men who stood still.
+
+The cooper's wife stood in the doorway with her arms folded, watching Lyra's hands, not Riven's. When Lyra tied off the wound she nodded once at the wife—*breathing, pulse, go*—and the wife left without speaking. Riven's palms were slick with somebody else's blood before his own stitches were done.
 
 Lyra watched Riven's hand, not the cooper's. "You squeezed before he made a sound."
 
 "Instinct."
 
 "Somebody else's, maybe."
+
+She sent him to wash at the bench. Cold water. Rust in the bucket. Riven scrubbed until his forearms stopped shaking. Across the courtyard Cael's irritation spiked—ledger, missing nails, somebody lying about counts—then dropped when Riven's pulse settled. The bond didn't care about walls.
 
 When she tied off his arm, blood had dried rust-brown on his fingers. She washed the cooper, checked his pulse, then looked at Riven like she'd remembered he was still there.
 
@@ -72,6 +100,20 @@ Riven looked down at the neat line crossing his forearm. "That's it?"
 
 "Good."
 
+For the next hour Lyra kept him—basin, thread, pressure on a guard's thigh, water for a feverish boy, screen for a splint. Riven moved when she pointed. The bond carried Cael's ledger frustration and spike of attention every time Riven laughed or swore. Lyra noticed the spikes.
+
+"Tell him to stop listening or leave the yard."
+
+"I can't tell him either one."
+
+"Then stop giving him a show." She tied off a palm stitch. "Hold still."
+
+A feverish boy on the next cot kept asking whether the bond hurt. Riven said yes. Lyra said sometimes. The boy asked if they shared one heart. Lyra said no and kept stitching.
+
+A woman with a crushed foot was carried in on a door. Lyra set the foot without flinching. Riven held the screen. The woman screamed once and went quiet. Lyra checked pulse. "Good." Riven felt Cael's spike of alarm cross and held anyway.
+
+A runner with Halverin's crest tried the door. Lyra sent him to Merrow. The runner tried again. Lyra pointed at the blood bucket. The runner left.
+
 She started reaching for the next patient. Riven stood, then stopped. The question came out before he could decide whether it was a good idea. "You always this friendly?"
 
 Lyra didn't look up. "No."
@@ -79,6 +121,8 @@ Lyra didn't look up. "No."
 "That's disappointing."
 
 That finally got a real smile—small, gone almost immediately. "Out."
+
+Before he could move, she pressed him into holding a splint while she set a guard's finger. "Don't let go when he jerks." The guard jerked. Riven held. Cael felt the spike across the yard and Riven hated that even this small violence had an audience inside his chest.
 
 Riven found himself grinning as he stepped away from the table. Across the courtyard, Cael noticed and immediately became suspicious. That alone was worth the stitches.
 
@@ -96,6 +140,8 @@ Lyra watched Riven's face, not the courtyard. "There."
 
 "You went quiet when nobody in here spoke." She pointed at him with a blood-stained finger. "Your jaw locked when the laugh hit—like you heard it twice. Then you answered a question I hadn't finished."
 
+She turned back to a guard with a rope burn and told him to flex his fingers. Riven watched the flex and felt Cael's attention spike across the yard—ledger forgotten, jaw locked, something that might have been jealousy and might have been fear wearing the same face.
+
 Riven looked away. The infirmary suddenly felt too bright. "Does he hear everything?"
 
 "Close enough."
@@ -112,11 +158,25 @@ Riven frowned. "No?"
 
 The words stuck. Ordinary, not dramatic, not cruel. Riven wasn't sure they were the whole truth—but he couldn't call them wrong either.
 
+Lyra washed a cooper's side while Riven held pressure. When she tied off she looked at his forearm stitches. "These'll split if you haul timber tomorrow."
+
+"I won't haul timber tomorrow."
+
+"You will." She capped the jar. "Halverin will put you on a wall and call it duty."
+
 Across the yard, Cael felt them too. Riven knew because anger arrived first, then embarrassment, then the familiar feeling of Cael trying to shove a door closed that no longer existed.
 
 "Halverin calls it load-sharing," Lyra said. "From his map, maybe. From here it's harm with good posters on it."
 
-Riven stood too quickly. The room tilted. His hand hit the table before the floor settled.
+She washed a guard's palm while Riven held the basin. The guard passed out. Lyra slapped his cheek once. "Stay with me." He stayed. Through the bond Cael's spike of alarm crossed and Riven's steady hands answered before he chose to.
+
+"When he runs his demonstration," Lyra said, "ask who stands in front row."
+
+She capped a salve jar and nodded toward a runner waiting at the door. "Tell your magistrate injury counts by bed. If he wants pair-types, he can count bodies himself."
+
+The runner left. Riven stood too quickly. The room tilted. His hand hit the table before the floor settled.
+
+Through the annex window he could see the yard—runners, guards with splints, families looking for names on slates. A boy asked whether the bond hurt. Riven said yes. The boy asked if they shared one heart. Lyra said no without looking up.
 
 "Sit down."
 
@@ -129,6 +189,10 @@ Riven stood too quickly. The room tilted. His hand hit the table before the floo
 Lyra nudged the stool out with her heel. "Five minutes."
 
 Riven sat, mostly because she sounded exactly like somebody who expected to be obeyed. She wiped her hands on a stained rag. "If Halverin starts talking about sacrifice, ask who pays for it."
+
+A runner burst through the side door with a slate—*injury count by pair-type, magistrate office.* Lyra read it once and handed it back. "Body count by bed. Tell him the difference."
+
+The runner looked at Riven like he might answer. Riven pointed at Lyra. The runner left.
 
 Riven barked a laugh. "You don't like him."
 
@@ -148,11 +212,41 @@ The line hit the bond before he could answer. Cael caught every word and walled 
 
 Lyra gave a tired half smile. "I can still see what's in front of me."
 
+She capped the salve jar and nodded toward the side door again. "If Halverin puts you on a wall tonight, bring split palms here. Not his office." She looked at his stitches. "These hold if you don't haul timber."
+
+"I won't haul timber."
+
+"You will." Not cruel. Fact.
+
 Somewhere behind him a wrist cracked. Somebody swore. Lyra said, "Good," and kept working.
+
+A mason with a rope burn across his chest sat on the bench while Lyra checked his breathing. Riven held the basin. The mason passed out twice. Lyra slapped his cheek once each time. "Stay with me." He stayed. Through the bond Cael's ledger frustration spiked and flattened when Riven's hands stayed steady.
+
+"You're useful," Lyra said without looking at Riven. "Stop looking surprised."
+
+"I'm not surprised. I'm tired."
+
+"Same thing in this room." She sent him to pass thread to an orderly stitching a dockworker's palm—the same dockworker who sold fish at the morning table, Riven realized, though he didn't know the man's name yet. The dockworker gripped the bench until his knuckles went white. Lyra worked through it without flinching. Riven felt Cael's spike of alarm cross and held anyway.
+
+She washed her hands without looking at the courtyard. "Halverin sent a clerk yesterday asking for injury counts by pair-type. I sent him body counts by bed instead."
+
+"Useful?" Riven asked.
+
+"Keeps him out of my room." She tossed a rag in the bin. "You should try it."
 
 When she nodded toward the door, Riven stood. "You're done."
 
-An old mason caught his sleeve before he reached it. "You one of the paired men?"
+A mason with a crushed finger blocked the aisle and held up his hand without speaking. Lyra splinted it in four motions, told him not to lift stone for a week, and waved him out. Riven stepped around the blood bucket and nearly collided with a guard escorting a drunk with a split scalp.
+
+A cooper with a rope burn across his chest sat on the bench while Lyra checked his breathing. Riven held the basin. The cooper passed out twice. Lyra slapped his cheek once each time. "Stay with me." He stayed.
+
+"Out the side door if you're walking," Lyra said to Riven. "Yard's full of people who think you're a miracle."
+
+The side door opened on a narrow lane. Six people stood in it—coopers, a fish seller, a boy with a bandaged hand. Nobody moved until Riven stepped through. Then they parted without speaking, like he was a cart that might run them down.
+
+A runner with Halverin's crest tried to follow him out. Lyra sent him back to Merrow. The runner tried again. Lyra pointed at the blood bucket. The runner left.
+
+An old mason caught his sleeve before he reached the barracks arch. "You one of the paired men?"
 
 Riven sighed. "Apparently."
 
@@ -174,9 +268,31 @@ Riven stopped. "Got stitched."
 
 The bond carried the rest before either of them spoke—the laughter, the conversation, Lyra, all of it.
 
+A runner passed with a slate for Lyra—*injury count, magistrate office.* Riven watched her send the runner back with a bed count and no pair-types. The runner looked offended. Lyra didn't care.
+
 Riven rolled his eyes. "Oh, for fuck's sake."
 
 Cael looked away first. Which told Riven everything he needed to know.
+
+"You hear her line about boundary problems?"
+
+Cael's jaw worked once. "I heard it."
+
+"And?"
+
+"And I don't have an answer that makes it better." Cael unfolded his arms and looked past Riven toward the infirmary door. "Halverin sent a clerk asking for injury counts by pair-type. She sent him body counts by bed."
+
+"Good."
+
+"Merrow wants us at the riverside entrance before first bell." Cael touched the fresh stitches on Riven's forearm without asking. "These hold if you don't haul timber."
+
+Riven pulled his arm back. "Don't."
+
+Cael dropped his hand. "I wasn't—"
+
+"You were." Riven kept his voice low. The yard was full of people who already thought they shared one skull. "You don't get to check me like I'm your kit."
+
+The bond carried Cael's hurt before Riven finished. Riven felt it and hated that he felt it.
 
 "We have first bell patrol."
 
@@ -188,9 +304,23 @@ Cael looked away first. Which told Riven everything he needed to know.
 
 Cael didn't answer. Riven pushed past him. The annoying part was that Cael didn't try to stop him.
 
+In the yard two guards argued over whether the pair should escort a supply cart to the east barracks. Merrow's voice cut through from the command hall door: "Infirmary first. Patrol second." The guards shut up.
+
 In the dormitory, sleep refused to show up. Lyra's lines kept colliding with Cael's supply counts in Riven's head—*boundary problem*, *ask who pays for it*, missing captains, fifty on a good shift—whether he wanted any of it or not.
 
-He rolled onto his side and tried not to match Cael's breathing. That lasted about a minute.
+He rolled onto his side and tried not to match Cael's breathing. That lasted about a minute. When he forced his own rhythm, nausea rolled through him—not his, Cael's from bad broth at second watch—and came back doubled.
+
+At third watch Cael got up to check the gate checklist Merrow had pinned by the door. Riven felt the motion before he heard the cot creak. "Go back to sleep."
+
+"Can't." Cael's voice was flat. "That patch on the gate—fresh wood, not dried. If it gives way, the people on the steps have nowhere to run."
+
+Riven stared at the rafters. "You're doing it again."
+
+"Doing what."
+
+"Carrying the whole city in your chest like it's yours to hold."
+
+Cael didn't answer. The bond carried his answer anyway—*somebody has to.*
 
 Near dawn a stable hand shouted in his sleep. Riven jerked awake. Cael was already awake too—the same spike of alarm, the same fading tension. Neither had slept.
 
@@ -200,8 +330,14 @@ Near dawn a stable hand shouted in his sleep. Riven jerked awake. Cael was alrea
 
 Riven groaned. "See? That's exactly the kind of bullshit I'm talking about."
 
-Cael laughed once. Just once.
+Cael laughed once. Just once. Riven felt it in his own chest before he could decide whether to hate it.
 
 When the bell hit, Riven sat up with grit in his eyes, Lyra's voice still in his head. Cael was already standing, belt half buckled, face closed. Riven wanted a room that was only his. The watch rotation didn't give a shit what he wanted.
 
+At the riverside entrance, Cael checked the patch on the gate while Riven marked the grain line at the riverside entrance. Lyra's medic wagon passed with blank slates. She looked up once and went back to work. Riven felt Cael notice and clamp down. The clamp crossed anyway.
+
 He went after Cael because the yard required it.
+
+At the riverside entrance a fish seller asked whether they could feel trouble before it landed. Riven said sometimes. Cael said when it mattered. The seller nodded and sold them nothing. Riven marked the grain line backup on Merrow's slate. Cael checked the patch on the gate again. The bond carried the same alert in both chests—not trouble yet, the feeling of trouble learning their names.
+
+Merrow's runner passed with a slate—*patrol until dusk, council check tomorrow*—and kept moving without saluting.
