@@ -16,13 +16,13 @@ A woman in a patched shawl stopped the clerk mid-read and said her son's name be
 
 A cooper's apprentice asked whether the pair would run the demonstration route. Riven said ask Merrow. The apprentice nodded and went back to stacking salvage under chalk marks—*burn, save, maybe*—that changed while they watched.
 
-Near the identification desk, two men argued loud enough to carry. One blamed the night watch for keeping the riverside entrance barred; the other said the watch had opened it and the pair had been too slow. Neither looked at Riven. Both looked like they needed somebody to blame more than they needed to be right.
+Near the identification desk, two men argued loud enough to carry. One blamed the night watch for keeping the riverside entrance barred; the other said the watch had opened it and the pair had been too slow. Neither looked at Riven. Both needed somebody to blame more than they needed to be right.
 
-A clerk with a fresh bandage on his jaw read names off a slate too fast for the scribe to keep up. *Dockworker—Thom.* Riven's shovel stopped mid-scoop. The name wasn't on the list yet. It would be. He kept shoveling because stopping looked like guilt and guilt looked like admission.
+A clerk with a fresh bandage on his jaw read names off a slate too fast for the scribe to keep up. *Dockworker—Thom.* Riven's shovel stopped mid-scoop. The name wasn't on the list yet. It would be. He kept shoveling because stopping read as guilt and guilt read as admission.
 
 When they reached the river-stairs dead, a woman stepped out of line and covered her mouth with both hands. The old man from the landing stood beside her, one hand on her shoulder, face blank while a scribe read names he already knew.
 
-An hour later the woman in the patched riding cloak came back carrying salvaged boards with two boys. She asked where the pyre wood was being stacked. Riven pointed toward the east lane, then took half the load from the older boy without saying anything. The woman thanked him quietly. That felt worse. Every thank-you and every look-away hit him twice. Through the bond Cael kept replaying what had gone wrong at the riverside entrance, and Riven couldn't shut either stream off. His own sore muscles, Cael's shoulder riding on top of them like a second injury—when he lifted the shovel, both aches moved together.
+An hour later the woman in the patched riding cloak came back carrying salvaged boards with two boys. She asked where the pyre wood was being stacked. Riven pointed toward the east lane, then took half the load from the older boy without saying anything. The woman thanked him quietly. That felt worse. Every thank-you and every look-away hit him twice. Through the bond Cael kept replaying what had gone wrong at the riverside entrance, and Riven couldn't shut either stream off. His own sore muscles, Cael's shoulder riding on top of them—a second injury. When he lifted the shovel, both aches moved together.
 
 By noon he couldn't stand hearing himself think. So he went looking for Lyra.
 
@@ -44,7 +44,7 @@ He laughed once, no humor in it. "Good civic number."
 
 That made her stop. She set the bandage roll down and looked directly at him. "You want a count so you can punish yourself with better fucking math."
 
-Riven looked away, which was answer enough. Lyra nodded once, like she'd expected it. "Then here's the number that matters." She pointed at him, then toward the square outside. "You two keep trying to carry everybody."
+Riven looked away, which was answer enough. Lyra nodded once. She'd expected it. "Then here's the number that matters." She pointed at him, then toward the square outside. "You two keep trying to carry everybody."
 
 Riven felt himself tense.
 
@@ -82,7 +82,7 @@ A guard with a split scalp sat on the next bench while Lyra checked his eyes. "C
 
 "Yes."
 
-"Good. Hold still." She stitched without wasting motion. Riven watched because looking away felt like cowardice. Through the bond Cael replayed the riverside entrance and Riven's shovel hand shook once.
+"Good. Hold still." She stitched without wasting motion. Riven watched because looking away was cowardice. Through the bond Cael replayed the riverside entrance and Riven's shovel hand shook once.
 
 When he stood to leave, his knees complained. The soreness felt familiar—not because it was his.
 
@@ -104,7 +104,7 @@ Halverin called for a public address in the lower square before the afternoon wa
 
 Paste crews had already hung a strip along the magistrate wall—*STEADINESS RETURNS*—though the ink was still wet and one corner had peeled in the heat. Riven saw it and looked away. Cael saw it too. Neither commented.
 
-Riven stood beside the platform with Cael, both washed, both re-bandaged, both feeling like props somebody had positioned and forgotten.
+Riven stood beside the platform with Cael, both washed, both re-bandaged, both props somebody had positioned and forgotten.
 
 Halverin stepped forward in a charcoal coat. The square quieted—not because people wanted to listen, because they were tired enough to. He spoke about resilience, about sacrifice, about rebuilding. The words rolled over the crowd in a steady rhythm.
 
@@ -124,7 +124,7 @@ Near the back of the square, a priest from the lower chapel tried to start a mou
 
 Closer to the scaffold, a cooper's apprentice shouted that the magistrate was already selling yesterday's dead for tomorrow's banners. A guard shoved him back into the crowd without breaking stride. Nobody cheered. Nobody defended Halverin either. The anger just sat there, unfed.
 
-Beside him, Cael had gone still. Riven felt it before he saw it—attention, the same dangerous kind of attention Halverin always seemed to pull out of him.
+Beside him, Cael had gone still. Riven felt it before he saw it—attention, the dangerous kind Halverin always pulled out of him.
 
 Then Halverin said: "Yesterday showed us something important."
 
@@ -160,11 +160,11 @@ Scribes on the side platform were still copying Halverin's words while runners t
 
 Paste crews were already working the magistrate wall behind them—*STEADINESS RETURNS* in wet ink. Riven smelled it before he turned.
 
-A clerk with a demonstration slate asked Cael to sign the route draft. Cael said ask Merrow. The clerk said Halverin required it. Cael said no. The clerk left with the slate unmarked and a face like he'd bitten chalk.
+A clerk with a demonstration slate asked Cael to sign the route draft. Cael said ask Merrow. The clerk said Halverin required it. Cael said no. The clerk left with the slate unmarked, chalk on his teeth.
 
 "I didn't agree," Cael said.
 
-Riven laughed once—short, sharp. "You listened like a man halfway through signing."
+Riven laughed once—short, sharp. "You listened halfway through signing."
 
 Cael scrubbed a hand over his face. He looked older than he had a week ago. "You think that's funny?"
 
@@ -242,7 +242,7 @@ Cael didn't answer immediately. Through the bond, Riven felt fatigue, then longi
 
 "Maybe."
 
-Chalk route arrows ran underfoot all the way to the barracks arch, like a game the city had already started without asking permission. Riven kept walking.
+Chalk route arrows ran underfoot all the way to the barracks arch—the city had already started the game without asking permission. Riven kept walking.
 
 When he reached the barracks steps, his legs were heavier than the climb should have required. Not a wound. Exhaustion that had crossed the bond twice and come back worse.
 

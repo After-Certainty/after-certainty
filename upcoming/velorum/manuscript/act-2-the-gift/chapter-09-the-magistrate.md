@@ -24,7 +24,7 @@ Riven looked at the gate, then at the clerk. "Could at least ask if we're hungry
 
 Cael almost agreed. He hadn't eaten since dawn. But the city kept pulling at his attention. Something was wrong here—not one thing, everything.
 
-Messengers hurried through the streets carrying wax-sealed packets against their chests. A bell rang somewhere ahead and stopped abruptly. People moved fast but not efficiently, like everybody had somewhere urgent to be and no idea if it would help.
+Messengers hurried through the streets carrying wax-sealed packets against their chests. A bell rang somewhere ahead and stopped abruptly. People moved fast but not efficiently—everybody had somewhere urgent to be and no idea if it would help.
 
 The clerk led them through the outer district. Half the shutters were closed despite the hour. A board outside a warehouse carried three notices marked MISSING, the ink still fresh.
 
@@ -52,7 +52,7 @@ A runner passed on the stairs with a slate—*east shelters, ration riot, send p
 
 Halverin stood at the table when they entered. He looked younger than Cael expected, and more tired. No jewelry, no guards, no attempt to look impressive—just a clean coat, sleeves rolled once, and the posture of a man carrying too many things in his head. That alone caught Cael off guard.
 
-"Cael. Riven." He said their names like he'd spent time making sure he got them right. "Thank you for coming."
+"Cael. Riven." He said their names the way a clerk read a list he'd checked twice. "Thank you for coming."
 
 An aide at the far end of the table kept writing. Scratch, scratch, scratch.
 
@@ -202,7 +202,7 @@ Halverin's aide passed them wax-sealed orders—patrol sectors, bond report form
 
 That finally got a smile out of Halverin—small, tired. "No saints in Kestrel Gate." He gathered the maps back into order. "Only obligations."
 
-That sounded a little too much like something Cael would have said.
+That could have been Cael talking.
 
 Outside the council building, a young guard caught up with them before they reached the stairs—wax-sealed orders in one hand, slate in the other. "Captain Merrow says report before first light."
 
@@ -222,7 +222,7 @@ Cael tucked the packet in his belt and they crossed the square. Voices stacked o
 
 "Sometimes," Cael said.
 
-The cobbler nodded like that was enough and went back to work. Hammer on leather, steady and loud.
+The cobbler nodded and went back to work. Hammer on leather, steady and loud.
 
 Riven watched the hammer and said nothing. Cael felt the sourness through the bond anyway.
 
@@ -252,7 +252,7 @@ Cael looked past him—ration lines, guard posts, fresh notices nailed over old 
 
 Riven stopped walking. "Jesus Christ."
 
-Cael kept moving. That was the problem. A week ago he would've argued. Now he sounded like Halverin. Maybe Halverin sounded like him. Riven couldn't decide which possibility he hated more.
+Cael kept moving. A week ago he would've argued. Now he echoed Halverin. Maybe Halverin echoed him. Riven couldn't decide which possibility he hated more.
 
 Their first watch started at the riverside entrance. Stone steps dropped toward the water below the gate, slick with damp and worn smooth by years of boots. Every evening the grain ration line formed there—people waiting on the steps because there was nowhere else to stand. The river moved black beneath them, churning against the pilings. Every sound carried farther than it should have.
 
@@ -260,7 +260,7 @@ Before Cael marked the patch, Merrow's runner passed a slate—*gate patch, grai
 
 A medic wagon from Lyra's lane passed twice—empty cots, blank slates, bandage rolls stacked neat. Cael initialed Merrow's runner slate and kept walking the gate line.
 
-The guards looked young—too young. One held his spear so tightly his knuckles had gone white. Another kept checking the river like somebody might climb out of it.
+The guards looked young—too young. One held his spear so tightly his knuckles had gone white. Another kept checking the river.
 
 Cael started walking the gate line with chalk in his hand—hinges, bolts, and the patch, the same way he'd inspect a roof before a storm. Rust flaked beneath his fingers. Somebody had patched one support with fresh timber that still hadn't dried—temporary, desperate, bad. He marked it for Merrow.
 
@@ -268,7 +268,7 @@ A fish seller at the stairs asked whether the pair could really feel trouble bef
 
 Above him, Riven watched the crowd—the riverside entrance, shelter entrances, the places people slowed down for no reason. Near the grain queue a boy had fallen asleep standing up, forehead against his mother's hip. An old woman farther along broke her ration loaf in half and pushed the larger piece toward the man beside her without looking at him.
 
-By first watch Riven had marked three spots on the slate: grain line backing up at the riverside entrance, shouting outside the east shelters, a narrow alley near tanners' row where people kept bunching instead of passing through. Nothing had happened. Not yet. That seemed to be the point.
+By first watch Riven had marked three spots on the slate: grain line backing up at the riverside entrance, shouting outside the east shelters, a narrow alley near tanners' row where people kept bunching instead of passing through. Nothing had happened. Not yet. That was the point.
 
 A medic wagon passed the riverside entrance with two cots made up and empty. Lyra sat on the tailgate sorting bandages. She looked up once at Riven on the wall walk, then went back to work without waving. Riven felt Cael notice and clamp down on it. The bond carried the clamp anyway.
 
@@ -288,7 +288,7 @@ A clerk tried to get Riven's name for a incident slate. Riven pointed at Cael. C
 
 By second watch Riven's stub had worn to a smear. Every time somebody called them saviors, irritation flared through Cael. Every time Cael shrugged it off, that irritation came back twice as strong. The bond carried all of it. Riven marked a crowd backup at the riverside entrance twice because Cael kept replaying the blade in his head from across the yard. Merrow would read that as two incidents. It was one.
 
-Near the tanners' alley a boy tried to pick a pocket and ran straight into Cael's forearm. The boy went down hard. Riven caught him by the collar before he could scramble away. Through the bond Cael felt Riven's flash of Greyhaven—canal boards, winter, panic—and clamped down on it too late. The boy stared up at both of them like they were one animal with two heads.
+Near the tanners' alley a boy tried to pick a pocket and ran straight into Cael's forearm. The boy went down hard. Riven caught him by the collar before he could scramble away. Through the bond Cael felt Riven's flash of Greyhaven—canal boards, winter, panic—and clamped down on it too late. The boy stared up at both of them, one animal with two heads.
 
 "Let him go," a woman shouted from a doorway. "He's hungry."
 

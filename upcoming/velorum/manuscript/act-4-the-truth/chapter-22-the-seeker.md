@@ -128,9 +128,9 @@ The Seeker's pace was impossible, not fast, not slow, just wrong. Sometimes Rive
 
 An hour past the basin the trail dropped through a cut where the walls showed old tool marks, chisel lines half-filled with dust. Someone had built this road once. Someone had maintained it. The work had stopped mid-span, as though the builders had walked away and never returned. Riven counted the empty niches where metal pins should have sat. Eleven. Twelve. All bare.
 
-In the third niche, rust stained the stone. Whatever pin had sat there had sheared long ago. Cael ran a finger through the stain. Flaked. Old. Riven felt the gesture like a question he didn't want answered.
+In the third niche, rust stained the stone. Whatever pin had sat there had sheared long ago. Cael ran a finger through the stain. Flaked. Old. Riven felt the question in the gesture and didn't want the answer.
 
-Cold seeped from the cut walls after sunset. They walked until full dark because the Seeker walked. Riven's toes went numb. Cael's went numb too. The bond carried numbness like everything else.
+Cold seeped from the cut walls after sunset. They walked until full dark because the Seeker walked. Riven's toes went numb. Cael's went numb too. The bond carried numbness too.
 
 Twice Riven reached for the wrong canteen. Once he stubbed his toe on a stone that had shifted under Cael's boot moments before. The pain arrived in both of them. Neither stopped.
 
@@ -196,7 +196,7 @@ The Seeker walked.
 
 Walking.
 
-Merrow's map had a woodcut in the margin: two figures joined by a line, crowd below, no faces. Riven had thought it decoration. Out here it looked like a warning label.
+Merrow's map had a woodcut in the margin: two figures joined by a line, crowd below, no faces. Riven had thought it decoration. Out here it read as a warning label.
 
 "Christ." Riven wiped sweat from his face. "Do you even know where Velorum is?"
 
@@ -204,7 +204,7 @@ For a long moment the only sound was wind in the cut. Riven's canteen strap sque
 
 For the first time, the Seeker stopped. Turned. Looked directly at him. No anger. No sympathy. No mystery either. Just attention.
 
-Riven felt the attention like weight. Not hostile. Measuring. The way a timber worker looked at a beam before trusting it with load.
+Riven felt the attention—weight, not hostile, measuring. The way a timber worker looked at a beam before trusting it with load.
 
 The moment stretched long enough for Riven to hate it. Then the Seeker turned away and continued up the trail.
 
@@ -216,7 +216,7 @@ They followed.
 
 By late afternoon the hills had grown steeper. Behind them, Kestrel Gate had faded into a smear of smoke on the horizon. Ahead, the hills cut the sky into broken teeth.
 
-Riven's water skin was half empty. The seeps on Merrow's map had either dried or run wrong. He rationed sips and felt Cael's thirst answer each one. Sharing water had stopped feeling like generosity. It felt like arithmetic.
+Riven's water skin was half empty. The seeps on Merrow's map had either dried or run wrong. He rationed sips and felt Cael's thirst answer each one. Sharing water had stopped being generosity. It was arithmetic.
 
 "I'm not going back," Cael said. The words came without warning.
 

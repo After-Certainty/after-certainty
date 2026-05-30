@@ -6,11 +6,11 @@ Only pressure in the air.
 
 Cael stood at the rim with Riven beside him and the Seeker three paces back, hood down now, face plain in bad light. The bond was so tight Cael felt his own heartbeat twice, once in his chest and once in Riven's ribs where yesterday's fall still lived.
 
-He remembered Ashfen: smaller pressure, colder water, the first time the bond had felt like a door opening the wrong direction. Ashring was Ashfen grown teeth.
+He remembered Ashfen: smaller pressure, colder water, the first time the bond had opened the wrong direction. Ashring was Ashfen grown teeth.
 
 They had climbed through the night because the Seeker set pace and the land pushed at their backs. Neither had slept. Both had dreamed in pieces that crossed before either woke. Riven had surfaced once with Cael's memory of wooden supports and splintered pins. Cael had woken to the taste of scree dust and blood that wasn't his.
 
-The last mile had been the worst. Sound lagged. Breath lagged. The ring ahead had seemed to pulse, not visibly, in the pressure behind Cael's eyes. Riven had gripped the belt at his hip until the leather creaked. Neither had spoken. Speaking would have opened something neither could close.
+The last mile had been the worst. Sound lagged. Breath lagged. The ring ahead pulsed behind Cael's eyes—not visibly, but in the pressure. Riven had gripped the belt at his hip until the leather creaked.
 
 Twice on the climb Riven had stopped because his foot landed before he felt it. Cael waited without asking. The Seeker didn't wait. Each time they caught up, the gap between them and the hood had shrunk, as though the land were reeling them in.
 
@@ -75,8 +75,6 @@ Cael's stomach turned.
 Beside him, Riven grabbed his sleeve. "Say it."
 
 Cael couldn't. The answer sat behind his teeth. Heavy. Wrong. Already known.
-
-He thought of the practice yard in Greyhaven. Children drawing chalk arrows. Washing them away. Drawing again. That had seemed like play. This felt like the same motion with different stakes.
 
 Cael's knees hit stone. He hadn't meant to kneel. The ring didn't care about intention. Weight wanted contact. His palms found cold gravel. Riven swore and grabbed his shoulder, pulling against the pressure and failing.
 
@@ -168,11 +166,11 @@ Riven swore under his breath. The bond carried grief. And something worse. Recog
 
 The pressure eased. Not approval. Not forgiveness. Less resistance. The seams of the ring dimmed. Wind crossed the Ashring again. Ordinary wind. Ordinary cold. The most ordinary thing either of them had felt in days.
 
-Riven's legs didn't work for a moment. Cael's didn't either. They stood in the center of the ring like posts driven into bad ground until the Seeker turned toward the rim.
+Riven's legs didn't work for a moment. Cael's didn't either. They stood in the center of the ring until the Seeker turned toward the rim.
 
-Cael's legs shook. He didn't sit. Sitting would have felt like surrender to something other than Velorum. Riven's hand was still on his sleeve. Neither removed it.
+Cael's legs shook. He didn't sit. Sitting was surrender to something other than Velorum. Riven's hand was still on his sleeve. Neither removed it.
 
-They climbed out without speaking. Each step uphill felt like lifting more than body weight. Riven stopped twice. Cael stopped with him. The Seeker didn't look back from the rim.
+They climbed out without speaking. Each step uphill cost more than body weight. Riven stopped twice. Cael stopped with him. The Seeker didn't look back from the rim.
 
 At the lip, Riven bent over and dry-heaved. Nothing came up. Cael's stomach turned anyway. The bond didn't distinguish dry from wet.
 

@@ -10,13 +10,13 @@ The next afternoon, Riven arrived with a split forearm and a headache that had s
 
 Riven had marked the grain line at the riverside entrance that morning before the cut—same slate Merrow would read twice because Cael kept replaying the blade in his head from across the yard. The bond carried the replay before Riven reached the infirmary door.
 
-The yard was full—runners, guards with splints, families looking for names on slates. Riven shouldered through. A boy asked if the bond hurt. Riven said yes. A woman touched his sleeve and let go like he'd burned her.
+The yard was full—runners, guards with splints, families looking for names on slates. Riven shouldered through. A boy asked if the bond hurt. Riven said yes. A woman touched his sleeve and jerked her hand away.
 
 A runner with Halverin's crest tried to cut ahead of the line at the infirmary door. Lyra sent him to Merrow without looking up. The runner tried again. Lyra pointed at the blood bucket. The runner left.
 
 The infirmary door opened on steam and boiled cloth. Three cots were already full. Lyra didn't look up from a palm stitch when he entered.
 
-A dockworker with a rope burn across his forearm sat on the bench and watched Lyra work like he was taking notes for a report. Lyra told him to hold the screen or leave. He held the screen.
+A dockworker with a rope burn across his forearm sat on the bench and watched Lyra work. Lyra told him to hold the screen or leave. He held the screen.
 
 "Sit."
 
@@ -88,7 +88,7 @@ Lyra watched Riven's hand, not the cooper's. "You squeezed before he made a soun
 
 She sent him to wash at the bench. Cold water. Rust in the bucket. Riven scrubbed until his forearms stopped shaking. Across the courtyard Cael's irritation spiked—ledger, missing nails, somebody lying about counts—then dropped when Riven's pulse settled. The bond didn't care about walls.
 
-When she tied off his arm, blood had dried rust-brown on his fingers. She washed the cooper, checked his pulse, then looked at Riven like she'd remembered he was still there.
+When she tied off his arm, blood had dried rust-brown on his fingers. She washed the cooper, checked his pulse, then looked at Riven—remembering he was still there.
 
 "Done."
 
@@ -188,11 +188,11 @@ Through the annex window he could see the yard—runners, guards with splints, f
 
 Lyra nudged the stool out with her heel. "Five minutes."
 
-Riven sat, mostly because she sounded exactly like somebody who expected to be obeyed. She wiped her hands on a stained rag. "If Halverin starts talking about sacrifice, ask who pays for it."
+Riven sat, mostly because she expected to be obeyed. She wiped her hands on a stained rag. "If Halverin starts talking about sacrifice, ask who pays for it."
 
 A runner burst through the side door with a slate—*injury count by pair-type, magistrate office.* Lyra read it once and handed it back. "Body count by bed. Tell him the difference."
 
-The runner looked at Riven like he might answer. Riven pointed at Lyra. The runner left.
+The runner looked at Riven. Riven pointed at Lyra. The runner left.
 
 Riven barked a laugh. "You don't like him."
 
@@ -242,7 +242,7 @@ A cooper with a rope burn across his chest sat on the bench while Lyra checked h
 
 "Out the side door if you're walking," Lyra said to Riven. "Yard's full of people who think you're a miracle."
 
-The side door opened on a narrow lane. Six people stood in it—coopers, a fish seller, a boy with a bandaged hand. Nobody moved until Riven stepped through. Then they parted without speaking, like he was a cart that might run them down.
+The side door opened on a narrow lane. Six people stood in it—coopers, a fish seller, a boy with a bandaged hand. Nobody moved until Riven stepped through. Then they parted without speaking—Riven was a cart they didn't want in the lane.
 
 A runner with Halverin's crest tried to follow him out. Lyra sent him back to Merrow. The runner tried again. Lyra pointed at the blood bucket. The runner left.
 
@@ -318,7 +318,7 @@ Riven stared at the rafters. "You're doing it again."
 
 "Doing what."
 
-"Carrying the whole city in your chest like it's yours to hold."
+"Carrying the whole city in your chest."
 
 Cael didn't answer. The bond carried his answer anyway—*somebody has to.*
 

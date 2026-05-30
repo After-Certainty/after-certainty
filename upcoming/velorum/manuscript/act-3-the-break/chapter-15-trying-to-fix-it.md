@@ -22,7 +22,7 @@ Merrow climbed up beside him with a slate under her arm and two apples in her co
 
 Merrow studied him, then nodded. "I'll tell the clerks it's your call."
 
-It was the first call that felt like his in days.
+It was the first call that was his in days.
 
 On the first morning a wheelwright refused to move his tool cart from the east rope line until Merrow's guard wrote a compensation stub. The wheelwright read the stub twice, moved the cart, and spat in the sawdust. Cael watched from the staging platform and felt Riven's contempt cross the bond before he had even seen Riven's face.
 
@@ -70,7 +70,7 @@ They set. They lifted again. On the fourth lift a guard at the margin stamped to
 
 Halverin ran the margin drill until guards stamped and a horn blew off beat on purpose at his signal. Cael felt Riven's attention snap and fought to keep his own feet on chalk. Once they held through the noise. Twice they did not. Each failure left a bruise in the bond that faded slower than the bruise on Cael's knee.
 
-On the last run Halverin's chalk runner ran out of white and switched to blue. The marks looked like wounds on the stone. Riven swore at the color change and missed a turn. Cael corrected and felt Riven's shame cross before his own irritation landed.
+On the last run Halverin's chalk runner ran out of white and switched to blue. The marks looked wrong on the stone—too bright against the old white. Riven swore at the color change and missed a turn. Cael corrected and felt Riven's shame cross before his own irritation landed.
 
 Merrow watched from the west lane without comment. At the end she climbed the platform steps and said to Halverin, "If you stamp any harder you'll crack the basin supports."
 
@@ -96,7 +96,7 @@ On the final rehearsal dusk a spice seller's table legs still sat in the south l
 
 Riven stood at the margin for the last run and watched guards stamp until his jaw ached. Cael read crowd rules from the steps one more time. His voice held. Merrow nodded once from the west lane. Halverin did not.
 
-At night they slept in the east barracks annex because Halverin wanted them close. The cots were narrow. The ceiling beam had a crack that forked twice above Cael's head. Cael lay on his back and listened to Riven turn. Every turn came through the bond with weight attached: Lyra's name unspoken, guilt, anger at the broadsides, hunger for something that still felt like his.
+At night they slept in the east barracks annex because Halverin wanted them close. The cots were narrow. The ceiling beam had a crack that forked twice above Cael's head. Cael lay on his back and listened to Riven turn. Every turn came through the bond with weight attached: Lyra's name unspoken, guilt, anger at the broadsides, hunger for something that was still his.
 
 Cael stared at the crack and counted branches. The demonstration might give the city a reason to stop panicking. He might carry Riven's doubt without letting it stop his hands.
 
@@ -142,15 +142,15 @@ Riven stepped down from the platform. "Don't come tomorrow if you can't watch it
 
 She left before Riven could say anything else. Through the bond Cael got the ache of that exchange and his own shame for wanting her approval less than he wanted Halverin's plan to work.
 
-That evening a spice seller tried to reclaim her pitch space at the south rope. Merrow's guard turned her back with a slate note: *compensation filed—wait on clerk.* The seller sat on her table legs in the lane and watched the staging like it was a stage play she had paid for with saffron.
+That evening a spice seller tried to reclaim her pitch space at the south rope. Merrow's guard turned her back with a slate note: *compensation filed—wait on clerk.* The seller sat on her table legs in the lane and watched the staging.
 
 In the afternoon Halverin walked the sequence with them one more time. He placed their marks with chalk. He set guards at the margins. He tested the speaking horn until his voice carried flat and clear across stone. The echo came back wrong from the north wall, a half-beat late, and Cael filed that away without knowing why it mattered.
 
-A paste crew tested fresh strips on the magistrate wall and peeled them off again when the ink ran. A clerk timed the horn echo with a pocket watch and wrote numbers Halverin would not read until morning. Cael watched the clerk's stylus scratch and felt Riven's impatience through the bond like sand in a boot.
+A paste crew tested fresh strips on the magistrate wall and peeled them off again when the ink ran. A clerk timed the horn echo with a pocket watch and wrote numbers Halverin would not read until morning. Cael watched the clerk's stylus scratch and felt Riven's impatience through the bond—small, constant, impossible to ignore.
 
 "Tomorrow at first bell," he said. "Signal one, you enter. Signal two, you hold. You don't break on my voice until you've got no choice left."
 
-Cael heard the last clause and felt cold run down his spine. *Until you have no choice left* sounded like a threat in polite words.
+Cael heard the last clause and felt cold run down his spine. *Until you have no choice left* was a threat in polite words.
 
 He signed the staging slate anyway. Riven watched him sign. "You still think this fixes it?"
 
@@ -194,7 +194,7 @@ At the annex shutter a guard argued with a fish seller about cart width. Merrow 
 
 Halverin's horn tested three notes from the platform and cut off on the fourth. A clerk shouted counts that nobody on the east steps answered yet. Cael laced his boots twice because the first lacing felt wrong and the bond carried Riven's impatience at the delay.
 
-When the square crews started second shift, the ropes were already manned and the platform already occupied by clerks checking horn straps. Wet stone underfoot; chalk arrows half smeared from rehearsal traffic. Cael washed his face in cold water and read the crowd rules one more time until the words sounded like his own voice.
+When the square crews started second shift, the ropes were already manned and the platform already occupied by clerks checking horn straps. Wet stone underfoot; chalk arrows half smeared from rehearsal traffic. Cael washed his face in cold water and read the crowd rules one more time until the words were his own voice.
 
 Riven stood at the window. "Lyra's at the south tent."
 
@@ -210,7 +210,7 @@ Cael had no good answer. He had Halverin's answer. He had the dead at the stairs
 
 "For the next minute," he said.
 
-Riven's jaw worked. He nodded once, like that was the worst answer he could accept and the only one he had.
+Riven's jaw worked. He nodded once—the worst answer he could accept and the only one he had.
 
 "Whatever happens tomorrow," Riven said into the ceiling, "west lane stays open."
 
@@ -234,7 +234,7 @@ In the last hour before dawn Cael walked the empty square alone. Chalk marks wer
 
 A paste crew was still working the north wall, half asleep, scraping old sheets so fresh ones would stick before the crowd arrived. One of them nodded at Cael without stopping. "Big day, captain."
 
-"Big day," Cael said, and hated that he sounded like Halverin.
+"Big day," Cael said, and hated that he echoed Halverin.
 
 Merrow's medic wagon stood at the west lane with slates blank and cots made up. Lyra checked bandage rolls by touch in the wagon mouth and did not look at the platform. Cael signed the staging slate one last time with ink that smelled like iron.
 
@@ -260,4 +260,4 @@ First bell would come before the square went quiet enough to count. Cael lay sti
 
 "North wall always lies," Cael said. "We count on our feet tomorrow. Not the echo."
 
-Merrow's runner passed once under the shutter with chalk on his sleeve: *West lane open at dawn. Injury slates blank. Don't sign magistrate sheets.* Cael memorized it. Riven did too, without reading—the bond carried the words like a bruise. Below the annex a vendor argued with a guard about cart placement at the west lane mouth. Merrow's voice cut through once—short, final—and the cart rolled back. Cael heard the bond carry Riven's relief that the lane had held one more hour. Riven did not say thank you. Neither did Cael. Gratitude traveled too, and they were out of room for extra cargo.
+Merrow's runner passed once under the shutter with chalk on his sleeve: *West lane open at dawn. Injury slates blank. Don't sign magistrate sheets.* Cael memorized it. Riven did too, without reading—the bond carried the words before he finished reading them. Below the annex a vendor argued with a guard about cart placement at the west lane mouth. Merrow's voice cut through once—short, final—and the cart rolled back. Cael heard the bond carry Riven's relief that the lane had held one more hour. Riven did not say thank you. Neither did Cael. Gratitude traveled too, and they were out of room for extra cargo.

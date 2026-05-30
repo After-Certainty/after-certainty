@@ -1,7 +1,9 @@
 # Act I calibration standard — Velorum
 
 **Branch context:** `velorum/act-1-spec-update`  
-**Purpose:** Capture the **voice and storytelling style** locked in by manual revision of **Act I (ch. 1–6)** and **Act IV (ch. 21–26)** so **Acts II, III, and V** can be revised to match—not re-expanded to the old automated pipeline density.
+**Purpose:** Capture the **voice and storytelling craft** locked in by manual revision of **Act IV (ch. 21–26)** and the **Act I four-movement template (ch. 6)** so **Acts I (post-expansion), II, III, and V** can be revised to match—not re-expanded to the old automated pipeline density.
+
+> **Act I prose bar (2026):** Act I was manually calibrated, then **expanded** to ~3,200 words/ch. It is **no longer a direct-camera density exemplar**. Run **[04-direct-camera-style-pass.md](./agents/initial-drafting/04-direct-camera-style-pass.md)** on ch. 1–6 with the same priority as Acts II–III. **Act IV** remains the authoritative **prose** bar; Act I remains a **craft** reference (consequences, four movements, bond-as-violation).
 
 **Authority order:** **[project-spec.md](./project-spec.md)** → **[voice-spec.md](./voice-spec.md)** → this file for **shape, pacing, and revision craft** → **[target-length-spec.md](./target-length-spec.md)** for **book-scale word targets by act** → **[act-chapter-index.md](./act-chapter-index.md)** for beats.
 
@@ -13,24 +15,24 @@
 
 | Act | Chapters | Revision state | Avg words/ch |
 |-----|----------|----------------|-------------:|
-| **I — The Choice** | 1–6 | **Manual revision complete** (snippet merge + feedback passes) | **~1,786** |
-| **IV — The Truth** | 21–26 | **Manual revision complete** (same workflow) | **~1,172** |
-| **II — The Gift** | 7–13 | Pipeline draft (~2,258 avg); **needs alignment pass** | ~2,258 |
-| **III — The Break** | 14–20 | Pipeline draft (~2,286 avg); **needs alignment pass** | ~2,286 |
-| **V — The Legend** | 27–30 | Stubs / early draft; **revise toward Act I + IV bar** | — |
+| **I — The Choice** | 1–6 | **Expanded** after manual pass; **needs agent 04** (not prose exemplar) | **~3,230** |
+| **IV — The Truth** | 21–26 | **Manual revision complete** — **prose bar** | **~1,172** |
+| **II — The Gift** | 7–13 | Pipeline draft; **needs agent 04** | ~2,258 |
+| **III — The Break** | 14–20 | Pipeline draft; **needs agent 04** | ~2,286 |
+| **V — The Legend** | 27–30 | Draft; **agent 04 in progress** (Tier 1: ch. 27–30) | ~2,500+ |
 
-### Act I word counts (post-revision)
+### Act I word counts (post-expansion)
 
 | Ch | File | Words | Craft role |
 |----|------|------:|------------|
-| 1 | `chapter-01-heartbridge.md` | 1,944 | Place-first gold; ridge dialogue; pamphlet vs felt reality |
-| 2 | `chapter-02-the-decision.md` | 1,494 | Cael commits; rationalization; purpose before summit |
-| 3 | `chapter-03-leaving-greyhaven.md` | 2,592 | Road dynamic; friction; why they're doing this |
-| 4 | `chapter-04-ashfen.md` | 1,377 | Tight camera; trust/lag/wrongness; threshold before bowl |
-| 5 | `chapter-05-velorum.md` | 1,504 | Ashring onset; bond bleed; earned *I'm in* |
-| 6 | `chapter-06-the-curse.md` | 1,806 | **Consequences template** — see four movements below |
+| 1 | `chapter-01-heartbridge.md` | ~3,133 | Place + ridge dialogue; **04 pass** for figurative fog |
+| 2 | `chapter-02-the-decision.md` | ~3,253 | Cael commits; light **04** spot pass |
+| 3 | `chapter-03-leaving-greyhaven.md` | ~3,363 | Road friction; **04** trim bond/thesis tails |
+| 4 | `chapter-04-ashfen.md` | ~3,196 | Lag/wrongness; **04** trim summit simile stacks |
+| 5 | `chapter-05-velorum.md` | ~3,250 | Ashring onset; **04** trim *seemed* stacks; keep **bowl** |
+| 6 | `chapter-06-the-curse.md` | ~3,284 | **Four-movement template** — **04** trim bond simile loops |
 
-**Act I total:** ~10,717 words · **range ~1,380–2,590** · favor **tight** over padded.
+**Act I total:** ~19,500 words · **range ~3,130–3,360** · expansion added **moments**; agent **04** trims **figurative fog**, not plot.
 
 ### Act IV word counts (post-revision)
 
@@ -38,7 +40,7 @@ See **[acts-4-draft-progress.md](./acts-4-draft-progress.md)**. Manual pass is *
 
 ---
 
-## What the revised Acts I and IV share (storytelling)
+## What Act IV and the Act I craft template share (storytelling)
 
 These are **movable bones** for Acts II, III, and V—not a plot template.
 
@@ -109,7 +111,7 @@ Per **voice-spec → Shared burden guardrails**:
 
 ---
 
-## Revision target for Acts II, III, and V
+## Revision target for Acts I, II, III, and V
 
 ### Density
 
@@ -117,10 +119,10 @@ Do **not** use the old Agent 01 target (~2,100–2,260/ch) as the bar for Acts I
 
 | Target | Words/ch (guide) | Notes |
 |--------|------------------:|-------|
-| **Act I bar** | ~1,400–2,000 typical; up to ~2,600 if road/place needs it | Primary shape reference |
-| **Act IV bar** | ~970–1,500 | Late-act urgency; less place braid |
-| **Acts II–III (revised)** | **Cut toward Act I**, not expand | Current ~2,250 avg is **over** for this voice |
-| **Act V (revised)** | Act I dialogue heat + Act IV compression | Lyra witness; quiet ending |
+| **Prose bar (density)** | **Act IV** ~970–1,500 | Direct camera, minimal oracle/simile stacks |
+| **Act I (post-expansion)** | ~3,000–3,400 until compression pass | **Agent 04** on all six; then **07** if still spongy |
+| **Acts II–III (revised)** | Align **prose** to Act IV; keep beat length until compression | ~2,250 avg pipeline voice is **over** for figurative density |
+| **Act V (revised)** | Act IV compression + Act I dialogue heat | Lyra witness; quiet ending |
 
 **Rule of thumb:** If a scene proves the same bond fact twice, **cut one proof** and **deepen consequence** instead.
 
@@ -148,20 +150,19 @@ Agents **03, 13, C2, F, H** still apply; **skip** expansion agents (01, 11) unle
 
 ## Exemplar map (compare new work here)
 
-| Need | Read |
-|------|------|
-| Place + legend hunger | ch. 1 |
-| Cael rationalizes | ch. 2 |
-| Road banter + friction | ch. 3 |
-| Sparse camera, wrongness before summit | ch. 4 |
-| Ashring presence, bond onset | ch. 5 |
-| **Consequences / curse chapter** | **ch. 6** |
-| Halverin exit, no civic answers | ch. 21 |
-| Seeker minimal dialogue | ch. 22–23 |
-| Bond under environmental load | ch. 24–25 (*Something real* belt; agency) |
-| Velorum truth without speech | ch. 26 |
+| Need | Read | Bar type |
+|------|------|----------|
+| **Direct camera prose density** | **ch. 25–26** (Act IV) | **Prose exemplar** |
+| Halverin exit, no civic answers | ch. 21 | Prose exemplar |
+| Seeker minimal dialogue | ch. 22–23 | Prose exemplar |
+| Bond under environmental load | ch. 24–25 (*Something real* belt; agency) | Prose exemplar |
+| Velorum truth without speech | ch. 26 | Prose exemplar |
+| **Four-movement consequences shape** | **ch. 6** | **Craft template** (needs **04** on prose) |
+| Place + ridge dialogue | ch. 1 | Craft reference (**04** target) |
+| Road banter + friction | ch. 3 | Craft reference (**04** target) |
+| Lag/wrongness before summit | ch. 4–5 | Craft reference (**04** target; keep **bowl**) |
 
-**voice-spec** exemplar table and **chapter-edit-pass** shape reference should cite this file plus the manuscript paths above.
+**voice-spec** exemplar table and **chapter-edit-pass** shape reference should cite this file plus the manuscript paths above. Do **not** skip agent **04** on Act I because an older manual pass was tight—expansion reintroduced pipeline figurative density.
 
 ---
 
@@ -171,15 +172,14 @@ Suggested order (align index beats; don't reorder plot):
 
 **Act II:** 10 (Lyra / boundary), 11 (privacy failure), 12 (attack cost), 7 (shared load—not perfect movement), 13 (aftermath)  
 **Act III:** 18 (public collapse), 16 (Lyra warning), 14–15 (Halverin frame), 20 (Lyra leaves)  
-**Act V:** 29–30 (surrender + Lyra witness) after II–III pass
+**Act V:** 29–30 (surrender + Lyra witness) — **Tier 1 agent 04 complete on ch. 27–30**  
+**Act I:** 5 → 6 → 4 → 3 → 1 → 2 (Ashring block first after Act V)
 
 Track progress in **[acts-2-3-5-revision-progress.md](./acts-2-3-5-revision-progress.md)**.
 
 ---
 
-## Act I continuity (locked)
-
-Cross-checked ch. 1–6 with **act-chapter-index**, **synopsis**, **project-spec**. Use when revising Acts II+ so callbacks stay clean.
+| **Act I continuity (locked)** | Cross-checked ch. 1–6 with **act-chapter-index**, **synopsis**, **project-spec**. Use when revising Acts II+ so callbacks stay clean.
 
 - **POV:** Ch.1 Riven, Ch.2 Cael, Ch.3 Riven, Ch.4 Cael, Ch.5 Riven, Ch.6 Cael — no head-hop.  
 - **Travel:** North gate → upland → night camp (ch.3) → Ashfen climb (ch.4) → Ashring (ch.5–6) → descent camp (ch.6).  

@@ -124,7 +124,7 @@ He swallowed. "For a second it felt like I missed a step."
 
 Riven looked away. "On a dock."
 
-The same drop hit Cael's stomach a heartbeat later: the sudden empty feeling, the lurch, not memory exactly, more like somebody else's balance arriving in the wrong body. He hated it immediately.
+The same drop hit Cael's stomach a heartbeat later: the sudden empty feeling, the lurch, somebody else's balance arriving in the wrong body. He hated it immediately.
 
 "We're tired."
 
@@ -154,7 +154,7 @@ By the time they reached the seep, neither of them was talking much.
 
 Water trickled from a crack in the rock into a shallow basin. Cael crouched and dipped his fingers in. Cold. Clean. The ripples spread outward, slowly, too slowly. He stared at them.
 
-He'd promised the seep by noon. It was afternoon. Riven hadn't called him on it yet—which meant Riven had noticed and was saving the argument for camp, or was too tired to care. Both options felt like failure.
+He'd promised the seep by noon. It was afternoon. Riven hadn't called him on it yet—which meant Riven had noticed and was saving the argument for camp, or was too tired to care. Both options were failure.
 
 Beside him, Riven crouched. Neither spoke for a moment.
 
@@ -248,7 +248,7 @@ The shelf narrowed until they walked single file with the drop on one side and t
 
 Riven's fingers went numb inside his gloves. He flexed them until pain returned, then flexed again because pain meant they were still his.
 
-Once, Cael's boot found a hold that wasn't there yet—Riven felt the empty air under his own foot a heartbeat before Cael shifted weight. Neither mentioned it. Mentioning felt like inviting it back.
+Once, Cael's boot found a hold that wasn't there yet—Riven felt the empty air under his own foot a heartbeat before Cael shifted weight. Neither mentioned it.
 
 By afternoon sleet was falling, not enough to be snow, not enough to be rain, just cold needles finding every gap in their coats. The trail widened onto a shelf of bare stone. For the first time all day there was room to breathe.
 
@@ -256,7 +256,7 @@ Ice collected on Riven's lashes. He scraped it off with a thumb that had gone nu
 
 Cael stopped. Checked the route ahead. Checked the weather. Checked Riven.
 
-The route ahead was a lie on the map in Cael's head—switchbacks that looked short and weren't, a ridge that looked close and wasn't. He'd been wrong about time all day. Wrong about water. Wrong about the seep's taste. Being wrong on a mountain didn't feel like learning. It felt like debt.
+The route ahead was a lie on the map in Cael's head—switchbacks that looked short and weren't, a ridge that looked close and wasn't. He'd been wrong about time all day. Wrong about water. Wrong about the seep's taste. Being wrong on a mountain wasn't learning. It was debt.
 
 Riven noticed. "Don't."
 
@@ -272,7 +272,7 @@ After a while Riven said, "You still think it's the altitude?"
 
 Cael looked out across the slope. A gust moved through the pines below. The branches didn't react until a moment later. He watched it happen, watched it happen wrong. "No."
 
-Riven nodded once. "Okay." The answer seemed to cost him something.
+Riven nodded once. "Okay." The answer cost him something.
 
 "Okay doesn't help."
 
@@ -308,7 +308,7 @@ Riven stood too. His knee clicked. "Your knee or mine?"
 
 "Not yet." Riven hitched his pack. "Ask me again on the rings."
 
-They climbed the last rise in silence. The pale stone ahead looked less like trail and more like bone.
+They climbed the last rise in silence. The pale stone ahead looked wrong against the mountain—too bare, too bright.
 
 Riven laughed quietly. "That's reassuring."
 
@@ -356,9 +356,9 @@ They didn't say anything else. Saying it made it realer.
 
 Cael checked the rope coiled on Riven's pack. Checked the water skin weight. Checked his own boot laces twice. Small tasks. Real tasks. The mountain didn't care about any of it.
 
-The climb steepened. The pale stone stretched uphill like a scar across the mountain. The higher they went, the stranger everything felt. Sound lagged. Boots scraped stone and the noise followed a beat later. The air felt thick, heavy, like a storm waiting to happen.
+The climb steepened. The pale stone stretched uphill, bare and bright. The higher they went, the stranger everything felt. Sound lagged. Boots scraped stone and the noise followed a beat later. The air felt thick, heavy, storm-close.
 
-Riven's ears popped. Then popped again. No altitude to blame—not yet. He swallowed hard. The taste of metal sat at the back of his tongue like a coin he'd bitten.
+Riven's ears popped. Then popped again. No altitude to blame—not yet. He swallowed hard. Metal taste sat at the back of his tongue.
 
 Riven moved up beside him instead of dropping back. "You feel that?"
 
@@ -378,9 +378,9 @@ The summit held no temple and no shrine, nothing like the pamphlets had promised
 
 For a second neither moved.
 
-Then Cael stepped onto the outer ring. Heat climbed through the soles of his boots before his weight fully landed, as if the stone had been waiting.
+Then Cael stepped onto the outer ring. Heat hit his soles before his weight fully landed.
 
-The rings underfoot weren't flat—they dipped toward the center, subtle enough that you wouldn't see it until your ankles noticed. Riven felt the pull before he understood it. Like standing on the lip of the Ashring, the stone wanting you deeper.
+The rings underfoot weren't flat—they dipped toward the center, subtle enough that you wouldn't see it until your ankles noticed. Riven felt the pull before he understood it. The stone wanted him deeper.
 
 "Cael." Riven's voice sounded distant.
 
@@ -408,4 +408,4 @@ Beside him, Riven's grip tightened.
 
 Neither let go.
 
-The pressure didn't peak. It plateaued—ribs tight, breath short, metal taste permanent. Cael counted heartbeats until counting felt useless. Riven squeezed back once, hard, as if pain could anchor them to each other and the stone and the choice they'd already made.
+The pressure didn't peak. It plateaued—ribs tight, breath short, metal taste permanent. Cael counted heartbeats until counting felt useless. Riven squeezed back once, hard, anchoring them to the stone and the choice they'd already made.

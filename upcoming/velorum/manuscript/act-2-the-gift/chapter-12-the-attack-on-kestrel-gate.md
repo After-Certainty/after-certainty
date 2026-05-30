@@ -18,7 +18,7 @@ Cael was already moving before she finished, boots slamming the wall steps two a
 
 East barracks. Running. Coming.
 
-Riven's reply came back with boots on stone and the same spike of fear. For a few minutes they moved like they had on the road—pain and hurry crossing faster than either could say it. Cael cut through the market choke while Riven vaulted a broken cart and hauled a pinned child free. They met at the grain arch, shoved a collapsing awning into a slope, and pushed civilians through as masonry dropped behind them.
+Riven's reply came back with boots on stone and the same spike of fear. For a few minutes they matched the road rhythm—pain and hurry crossing faster than either could say it. Cael cut through the market choke while Riven vaulted a broken cart and hauled a pinned child free. They met at the grain arch, shoved a collapsing awning into a slope, and pushed civilians through as masonry dropped behind them.
 
 Bucket lines formed at the grain fires—too few hands, water arriving late. Cael took a bucket because there was no one else. Riven took the next because the bond pulled. Ash stung their eyes. Lime carts rolled past. Merrow shouted for clear lanes. Halverin's voice carried from somewhere toward the magistrate steps—counts, not names, not yet.
 
@@ -72,7 +72,7 @@ An old man and his daughter got trapped between the rail and a falling beam. She
 
 By the time Cael and Riven reached them, the daughter was breathing in blood, each pull a wet rattle under Cael's hands.
 
-The old man kept saying her name in a voice that did not sound like his own. Riven tried to lift the beam. Cael tried to staunch the wound. For one terrible minute their efforts crossed and made each motion half a beat wrong, hands in each other's way without touching.
+The old man kept saying her name in a voice that wasn't his. Riven tried to lift the beam. Cael tried to staunch the wound. For one terrible minute their efforts crossed and made each motion half a beat wrong, hands in each other's way without touching.
 
 A medic from Lyra's lane pushed through the press with a kit. "Move." They moved. She worked while the old man kept saying the name. The girl's breathing slowed. The medic didn't lie about it. She tied off what she could and sent them down the stairs on a board.
 
@@ -148,7 +148,7 @@ Riven stared at him. "Then what the fuck are you saying?"
 
 Halverin was quiet for a moment—long enough that the room settled around them, long enough that somebody shifted a slate on the table, long enough for Cael to wish he wouldn't answer. Then: "You noticed the mistakes." His eyes stayed on Cael. "Most people don't."
 
-Nobody moved. Cael could still see the dockworker, still see blood on the stairs, still feel the moment where everything had slipped sideways. Halverin nodded once, like he'd watched the same memory pass across Cael's face. "You're close to something."
+Nobody moved. Cael could still see the dockworker, still see blood on the stairs, still feel the moment where everything had slipped sideways. Halverin nodded once, watching the same memory pass across Cael's face. "You're close to something."
 
 Riven folded his arms. "We're close to being exhausted."
 

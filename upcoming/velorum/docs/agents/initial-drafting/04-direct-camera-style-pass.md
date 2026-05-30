@@ -1,7 +1,7 @@
 **ROLE:** Direct Camera Style Pass Agent *(default polish; runs after **[03-flow-clarity-editor.md](./03-flow-clarity-editor.md)**, before **[05-embodiment-sensory-grounding.md](./05-embodiment-sensory-grounding.md)** or merged into the same session)*
 
 **PURPOSE:**  
-Bring chapters to Velorum’s **current prose bar**: **American conversational** dialogue, **camera-observable** default narration, and **minimal condensed literary metaphor**—the standard from **revised Act I** and **Act IV** (**act-1-calibration-standard**).
+Bring chapters to Velorum’s **current prose bar**: **American conversational** dialogue, **camera-observable** default narration, and **minimal condensed literary metaphor**—the standard from **revised Act IV** (**act-1-calibration-standard**). **Act I** post-expansion needs this pass too (craft template in ch. 6; not a finished prose exemplar).
 
 **FOCUS:**
 - **Literal sense before simile** — who moved, what hit, what it cost
@@ -17,7 +17,7 @@ Bring chapters to Velorum’s **current prose bar**: **American conversational**
 - Replace **oracle narration** (*town sat*, *silence waited*, *fear hit like weather*) with **body + place** facts
 - Keep **one** earned simile per beat when the POV would actually think that way; cut **stacks**
 - Preserve **good** place/light from **[02-cinematic-scene-pass.md](./02-cinematic-scene-pass.md)** and **flow** fixes from **03** — this pass **trims figurative fog**, not vivid ground
-- Compare density to **voice-spec → Exemplar chapters** and **act-1-calibration-standard** (especially **ch. 04**, **ch. 06**, **ch. 25**)
+- Compare density to **voice-spec → Exemplar chapters** and **act-1-calibration-standard** (prose bar: **ch. 25–26**; craft shape: **ch. 6**; Ashring **04** pass: **ch. 4–5**)
 
 **DO NOT:**
 - Add plot, lore lectures, or new characters

@@ -6,7 +6,7 @@ Below, ration lines still moved though it was past second bell. Someone shouted 
 
 Earlier that day they'd swept the tanners alley twice because the slate kept showing bunching where nobody could see why. Cael had marked the alley mouth. Riven had marked the grain line backup. Merrow had circled both and said *same problem, different hour.* Riven had wanted to argue. The bond had carried Cael's agreement before he could.
 
-Riven sat with his back against the stone and tried to hold one thought that was only his: *boundary problem.* Lyra had said it yesterday at the infirmary—flat, clinical, like she was reading a label off a crate. Not judgment, not sympathy, just fact. What she meant, he was starting to understand, wasn't that people could see. It was that pieces of him weren't entirely his to keep anymore.
+Riven sat with his back against the stone and tried to hold one thought that was only his: *boundary problem.* Lyra had said it yesterday at the infirmary—flat, clinical, a label off a crate. Not judgment, not sympathy, just fact. What she meant, he was starting to understand, wasn't that people could see. It was that pieces of him weren't entirely his to keep anymore.
 
 For three breaths he managed to keep the thought contained. Then Cael felt it. The reaction came back immediately.
 
@@ -92,7 +92,7 @@ Three breaths. Then awareness touched back. Not words, not thoughts, just where 
 
 After another ten minutes he climbed down, crossed two streets, and bought sour plum wine from a night stall run by a woman with a ruined ear.
 
-She poured without speaking. Riven drank standing in the lane because sitting felt like surrender. The wine burned. For six breaths he held a thought about nothing—alley wall, cracked mortar, a cat on a roof. Then Cael's ledger frustration crossed and the cat vanished.
+She poured without speaking. Riven drank standing in the lane because sitting was surrender. The wine burned. For six breaths he held a thought about nothing—alley wall, cracked mortar, a cat on a roof. Then Cael's ledger frustration crossed and the cat vanished.
 
 He found a step behind a closed tailor's shop and sat alone in the dark. He reached for an old memory—Greyhaven, twelve years old, rotten boards, winter canal, cold mud, panic, Cael dragging him out by the back of his shirt while yelling hard enough to make him cry afterward. A memory he'd never told anyone. Never needed to. His.
 
@@ -140,7 +140,7 @@ When Cael finally answered, his voice sounded rough. "I don't want to take thing
 
 "You don't have to want it."
 
-Cael rubbed his face, elbows on his knees, like he could press the bond back out through his palms. Riven felt the effort as clearly as his own heartbeat.
+Cael rubbed his face, elbows on his knees, trying to press the bond back out through his palms. Riven felt the effort as clearly as his own heartbeat.
 
 "Merrow wants us at first bell."
 
@@ -214,7 +214,7 @@ At the duty board Cael reached for the roster. Riven felt the assignments before
 
 Riven tore a piece off his breakfast bread. "Shocking."
 
-Breakfast standing in the yard: hard bread, thin broth, salted fish like rope. His fatigue sat under Cael's like a second layer—heavier than either alone should have been. Plum wine sour on his tongue. Canal mud in the back of his memory, and Cael in there with it.
+Breakfast standing in the yard: hard bread, thin broth, salted fish like rope. His fatigue sat under Cael's—a second layer, heavier than either alone should have been. Plum wine sour on his tongue. Canal mud in the back of his memory, and Cael in there with it.
 
 A clerk had pinned Halverin's broadside draft—*TRUST THE SWORN PAIR*—with a note in Merrow's hand: *Not yet.* Riven tore it down and handed it to Cael. Cael folded it once and put it in his pocket anyway. Riven felt that choice cross before he could argue.
 
@@ -252,7 +252,7 @@ They crossed the square toward the council building at second bell. Guards at th
 
 Halverin's clerk met them at the council stairs with a fresh broadside draft—*TRUST THE SWORN PAIR*—and a pen. Cael pushed both back unread. The clerk's face tightened. Riven felt Cael's satisfaction cross and hated that he felt it too.
 
-The council check was a room on the second floor of the magistrate wing—long table, maps pinned to every wall, two narrow windows open to the yard noise below. Wax and old paper hung in the air; clerks had burned candles through the night and not aired the room. Halverin sat at the head. Tired men in council sashes lined both sides, slates and pens between them. A clerk's desk stacked with bond report forms sat against the far wall.
+The council check was a room on the second floor of the magistrate wing—long table, maps pinned to every wall, two narrow windows open to the yard noise below. Wax and old paper; clerks had burned candles through the night without airing the room. Halverin sat at the head. Tired men in council sashes lined both sides, slates and pens between them. A clerk's desk stacked with bond report forms sat against the far wall.
 
 Halverin asked about bond stability. Cael said stable enough for patrol. Riven said stable enough to lose sleep. Halverin's aide wrote both answers. A council member asked whether the pair could run a public sequence. Halverin said not yet. Merrow's runner passed a note—*riverside entrance clear*—and left without saluting.
 

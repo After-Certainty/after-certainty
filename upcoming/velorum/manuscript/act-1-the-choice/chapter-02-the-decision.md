@@ -366,7 +366,7 @@ At the cord-seller's stall Cael bought line for the pack straps. The seller trie
 
 "Costs more."
 
-"Costs what it costs." Cael paid. Riven watched the transaction like it was a lesson he hadn't asked for and might need anyway.
+"Costs what it costs." Cael paid. Riven watched the transaction—a lesson he hadn't asked for and might need anyway.
 
 At the tinker stall Riven bought a patch kit for his glove thumb—the hole he'd been ignoring since the dock. The tinker tried to charge for two patches. Riven laid one coin on the counter and waited until the man sighed and handed over the single patch. "Hero discount," the tinker said. Riven didn't answer.
 

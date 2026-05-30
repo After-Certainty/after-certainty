@@ -10,7 +10,7 @@ They had left camp before light, the Seeker setting pace as always. No breakfast
 
 The eighth day. Riven had stopped marking days on Merrow's map. The ink wouldn't hold anyway. The paper had softened at the creases and torn at one corner where sweat and rain had worked it thin.
 
-They were crossing a knife ridge where wind hit from both sides and the drop disappeared into cloud. The stone underfoot was barely wide enough for a cart axle. Looking down felt like a mistake.
+They were crossing a knife ridge where wind hit from both sides and the drop disappeared into cloud. The stone underfoot was barely wide enough for a cart axle. Looking down was a mistake.
 
 Below the cloud, something moved. Or the cloud moved. Or the bond moved. Riven couldn't tell. He kept his eyes on the Seeker's back instead.
 
@@ -196,7 +196,7 @@ Cael laughed once, a short, painful sound. "You're getting predictable."
 
 "Good."
 
-Half a mile later Riven's pack caught on a root of stone. Cael freed it without being asked. Their shoulders brushed. Neither pulled away. The bond had gone quiet in a way that wasn't peace. More like exhaustion deep enough to pass for it.
+Half a mile later Riven's pack caught on a root of stone. Cael freed it without being asked. Their shoulders brushed. Neither pulled away. The bond had gone quiet—not peace. Exhaustion deep enough to pass for it.
 
 They walked the rest of the afternoon with the belt back on Riven's hip but not on their wrists. The groove marks on both wrists stayed pink. Riven caught Cael looking at his once. Cael looked away first.
 
@@ -312,7 +312,7 @@ Cael's shoulder had gone stiff enough that he couldn't raise his arm above the s
 
 "Tomorrow."
 
-The word sat between them like the belt between their wrists yesterday. Real. Temporary. Not enough.
+The word sat between them. Real. Temporary. Not enough.
 
 Riven lay awake and listened to the ring. Not sound. Pressure. A hum behind his teeth that might have been the land or the bond or both. Cael felt it too. Neither spoke. Speaking would have made it louder.
 
@@ -320,7 +320,7 @@ Once Riven reached for Cael's wrist in the dark. Stopped himself. Reached again.
 
 When light came, the Seeker stood facing the Ashring. Waiting. The ring waited back.
 
-Riven stood beside Cael at the cut's edge. The stone circle below looked like a mouth that had learned patience. He could still feel the groove on his wrist where the belt had bitten. Cael flexed his shoulder once and stopped when pain crossed the bond.
+Riven stood beside Cael at the cut's edge. The stone circle below waited. He could still feel the groove on his wrist where the belt had bitten. Cael flexed his shoulder once and stopped when pain crossed the bond.
 
 "Last chance to turn around," Riven said.
 

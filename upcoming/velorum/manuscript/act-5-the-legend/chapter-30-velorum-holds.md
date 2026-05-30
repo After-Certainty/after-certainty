@@ -124,11 +124,9 @@ Wind came off the harbor. Below, Greyhaven moved, patched, alive. Cael and Riven
 
 Lyra watched until they vanished behind a cart stack.
 
-The bond never relaxed fully. She could not see it, but she had learned to read its effect in their bodies, the way one man's wince arrived in the other's face a beat later, the way fatigue crossed like weather. Riven had always worn feeling on his skin. Now Cael wore it too, and Riven wore Cael's steadiness when his own ran out.
+The bond never relaxed fully. She could not see it, but she had learned to read its effect in their bodies, the way one man's wince arrived in the other's face a beat later, the way fatigue crossed without warning. Riven had always worn feeling on his skin. Now Cael wore it too, and Riven wore Cael's steadiness when his own ran out.
 
 Velorum held. The world stabilized. The legend grew.
-
-What held the world together was everything they had to lose to achieve it.
 
 Lyra walked down the hill to the clinic and washed her hands until the water ran clear. She would tell the truth in small rooms to people who bled for ordinary reasons. She would not write songs.
 
