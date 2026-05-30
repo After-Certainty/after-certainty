@@ -12,15 +12,13 @@ Then the first blast hit the grain quarter.
 
 Not fire first. Pressure. Sacks of grain blew apart into dust. Two men came off a loading platform and hit the cobbles. Three breaths later smoke rolled up and people started screaming. Signal lanterns flashed once, then the plume swallowed them.
 
-Below the wall a cooper dropped his hammer and ran toward the smoke without looking back. A clerk tried to keep the ration line in order and got shoved into a cart wheel. Cael marked both paths and kept moving.
-
-Below the wall a paste crew abandoned their bucket and ran toward the smoke. Cael marked their path and kept moving—wrong direction for paste, right direction for bodies.
+Below the wall a cooper dropped his hammer and ran toward the smoke without looking back. A paste crew abandoned their bucket and ran the same direction. A clerk tried to keep the ration line in order and got shoved into a cart wheel. Cael marked all three paths and kept moving.
 
 "South gate shut!" Captain Merrow shouted from the tower stairs. "Keep the lane clear!"
 
 Cael was already moving before she finished, boots slamming the wall steps two at a time. He pulled for Riven, hard and immediate.
 
-Below the wall a cooper's cart overturned. Spilled nails glittered in the smoke. Cael marked a path and kept moving. A child pinned under an awning pole screamed once. Below the wall, a woman dropped a basket of onions and ran the wrong way into a stall frame. Cael marked her path and kept moving.
+Below the wall a cooper's cart overturned. Spilled nails glittered in the smoke. A child pinned under an awning pole screamed once. Cael marked the paths and kept moving.
 
 East barracks. Running. Coming.
 
@@ -36,7 +34,7 @@ A cooper shouted for rope. A medic shouted for space. Cael marked both requests 
 
 They ran.
 
-Smoke hung low over the north lanes by then, thick enough to hide rooflines. At the corner by the tanners' row, two draft horses had broken their traces and jammed the lane sideways. Cael felt Riven clock the angle before he did. They split without speaking: Cael yanked one harness free while Riven slapped the other horse hard at the shoulder and drove it clear. The lane opened by one cart width.
+Smoke hung low over the north lanes by then, thick enough to hide rooflines. Cael kept the tanners' row chimney stack in sight—black stone against grey sky—then the fishmonger's striped awning pole, then the gap where the cooper's yard opened onto the lane. At the corner by the tanners' row, two draft horses had broken their traces and jammed the lane sideways. Cael felt Riven clock the angle before he did. They split without speaking: Cael yanked one harness free while Riven slapped the other horse hard at the shoulder and drove it clear. The lane opened by one cart width.
 
 Behind them a timber stack shifted and dropped a beam across the lane mouth. Cael turned back. Riven was already there—bond carrying the same spike of alarm, same count of bodies under the pile. They got one man out before the smoke forced them forward again.
 
@@ -48,13 +46,13 @@ Cael shook him off. "Get to high ground. We'll sweep back."
 
 He knew, even as he said it, they might not.
 
-By the time they reached the north lane, raiders had breached a side gate and were driving people toward the riverside entrance. Bad footing. Stone walls on both sides. Bottleneck. The stairs dropped in two narrow flights with a switchback landing, rail on one side and blank stone on the other. Not disciplined soldiers. Enough blades in the crowd to kill.
+By the time they reached the north lane, raiders had breached a side gate and were driving people toward the riverside entrance. Bad footing. Stone walls on both sides. Bottleneck. The stairs dropped in two narrow flights with a switchback landing, rail on one side and blank stone on the other. Smoke poured down from the grain quarter above, thick enough that Cael could only see the next three steps and the iron rail when he reached for it. Not disciplined soldiers. Enough blades in the crowd to kill.
 
 Guards at the gate shouted for hold. Nobody held. Cael heard Merrow's voice at the west lane—*clear the basin*—and filed it for later.
 
 A guard at the gate lay facedown in the runoff, spear still in his hand. Cael stepped over him without stopping. Riven felt the man's stillness cross—wrong, final—and shoved it down because the stairs were already choking with bodies.
 
-A baker's cart had jackknifed across the landing and blocked the top flight. Flour dust lifted white into smoke until Cael could only see an arm's length ahead. Cael shoved the cart tongue aside with three laborers while Riven hauled children through the gap, then kicked the wheel loose so the cart tipped into the wall and opened a channel.
+A baker's cart had jackknifed across the landing and blocked the top flight. Flour dust lifted white into smoke until Cael could only see an arm's length ahead—the cart tongue, then the wheel rim, then a child's hand reaching through the gap. Cael shoved the cart tongue aside with three laborers while Riven hauled children through the gap, then kicked the wheel loose so the cart tipped into the wall and opened a channel.
 
 Cael went low, took one attacker in the knees, pivoted, and expected Riven at his right to close the angle.
 
@@ -82,8 +80,6 @@ The old man kept saying her name in a voice that did not sound like his own. Riv
 
 A medic from Lyra's lane pushed through the press with a kit. "Move." They moved. She worked while the old man kept saying the name. The girl's breathing slowed. The medic didn't lie about it. She tied off what she could and sent them down the stairs on a board.
 
-Lyra's medic—not Lyra herself, but somebody from her lane—worked with the same flat efficiency. Riven felt Cael clock the medic's hands before he did. The bond carried the half-beat wrongness anyway.
-
 Then Cael stopped trying to do both jobs and took the bleeding. Riven took the weight. The beam shifted. It was not enough. The old man's voice kept saying her name. Cael would hear it in his sleep—the girl at the stairs, the second delay they could both still count.
 
 After that it became work. They drove the last raiders off and sealed the gate. They formed a bucket line for the grain fires and dragged five more wounded clear of collapsing roofs.
@@ -100,7 +96,7 @@ Merrow found them there and threw Cael a short spear when his blade snapped at t
 
 "We're moving," Riven said before Cael could.
 
-They cut west through smoke thick enough to sting their eyes. Halfway across, a roof tile slid and clipped Cael's forearm. He kept running. Riven felt the sting a heartbeat later and shouted "Fuck" into the smoke without slowing.
+They cut west through smoke thick enough to sting their eyes. Cael kept the magistrate wall to his left—stone he could feel even when he couldn't see it—and counted doorways by the lintel hooks still visible at waist height. Halfway across, a roof tile slid and clipped Cael's forearm. He kept running. Riven felt the sting a heartbeat later and shouted "Fuck" into the smoke without slowing.
 
 At the berm, earth folded into the ditch with workers still on the far side. Cael stepped into the slough line. Riven followed before he could think about it. Cael's weight set beside his and the bond eased a fraction; Riven hated that he needed it and shoved both feelings down. They planted themselves shin-deep in sliding mud and held the support posts until everyone was across—the last crewman stumbling at the lip while Riven caught his coat and Cael took the full shove of a pole trying to twist free. The impact numbed Cael's shoulder to the elbow.
 
@@ -118,13 +114,15 @@ The man shook his head and looked past them toward the smoke.
 
 Cael took the hit and kept moving. Riven's grief crossed anyway—the dockworker's throat, still there when either of them blinked.
 
-When the fires finally stopped spreading, people started counting. The dead first. Then the wounded. Then the missing. Captain Merrow stood at the end of the command table reading names and numbers from a soot-stained slate. Twenty-three dead in the market quarter. Nine at the riverside entrance. More still on surgery tables. Nobody interrupted. Nobody argued. The room was too tired for that.
+When the fires finally stopped spreading, people started counting. The dead first. Then the wounded. Then the missing. Captain Merrow stood at the end of the command table reading names and numbers from a soot-stained slate. Twenty-three dead in the market quarter. Nine at the riverside entrance. More still on surgery tables. Nobody interrupted. Nobody argued.
+
+The command room sat below the magistrate wing—low ceiling, stone walls, one high window open to the yard noise. Chalk dust on the table rim; slates stacked in the center, chairs pushed back at odd angles. The room was too tired for argument.
 
 Halverin's aide tried to sort bodies by quarter while a medic shouted that beds came first. Merrow sent the aide to the identification desk and kept reading. *Thom—dockworker, fish table.* Riven felt the name land in Cael's chest before his own.
 
 Cael stood against the wall with dried blood on his sleeves and ash worked into the seams of his coat. Every number made his jaw tighten. Riven felt them too—not the numbers, the weight behind them. Last night the bond had taken a memory without asking. Today it had taken time, and time had names. The dockworker. The girl at the stairs. The half-second mistakes. Then Cael's shame fired back through the bond and made Riven flinch again.
 
-The command hall doors opened. Halverin stepped inside with three aides behind him, ash on his cuffs, hair still somehow in place. The room shifted around him automatically—not respect, habit, the kind people learned when authority stayed in a place long enough.
+The command hall doors opened. Halverin stepped inside with three aides behind him, ash on his cuffs, hair still somehow in place. The aides fanned to the table without being told. The room shifted around him automatically—not respect, habit, the kind people learned when authority stayed in a place long enough.
 
 "You held the city today." His voice carried easily, without effort. "Without you, we would've lost the south quarter."
 
@@ -164,11 +162,11 @@ Merrow caught Cael at the door with an injury slate—*riverside entrance, dockw
 
 A medic passed with a slate—*girl at stairs, critical then gone*—and kept walking without stopping. Cael filed the number. Riven felt the filing cross and hated that even the dead had become shared inventory.
 
-Outside, the city was still awake. Torchlight moved through the square. Med carts rolled between aid stations. Somewhere below, somebody shouted for water; somebody else shouted back. The work kept going. It always did.
+Outside, the city was still awake. Boots and shouted orders moved through the square. Med carts rolled between aid stations. Somewhere below, somebody shouted for water; somebody else shouted back. The work kept going. It always did.
 
 Riven leaned on the stone railing, smoke darkening his sleeves, blood dried black across one cuff. "Don't let him fucking use this."
 
-Cael looked out across the rooftops—burned beams, lanterns, people still moving through the dark. He couldn't stop replaying the half-seconds: the dockworker's throat, the girl's name on the stairs, the fishmonger's brother who would never come back from the salt yard.
+Cael looked out across the rooftops—burned beams, aid carts threading the lanes, people still moving through the dark. He couldn't stop replaying the half-seconds: the dockworker's throat, the girl's name on the stairs, the fishmonger's brother who would never come back from the salt yard.
 
 Paste crews on the magistrate wall were already hanging a fresh strip—*THE CITY HELD*—though the ink was still wet and the riverside entrance were still counting dead.
 
@@ -194,9 +192,7 @@ Riven opened his eyes. "For bodies or for his fucking speeches."
 
 The orderly kept walking.
 
-In the wash room, two recruits argued in whispers over whether Halverin would call the dead martyrs or necessary losses. Cael said nothing. He ducked his head and tightened the bandage under his shirt where the support pole had left a deep bruise across his shoulder. He worked the knot one-handed.
-
-A medic passed with a slate—*girl at stairs, critical then gone*—and kept walking. Riven read it over Cael's shoulder without meaning to. Cael felt him read it. The bond carried the name before either could stop it.
+Cael ducked his head and tightened the bandage under his shirt where the support pole had left a deep bruise across his shoulder. He worked the knot one-handed.
 
 "You're favoring it," Riven said.
 
@@ -208,13 +204,7 @@ Before they were released, Merrow dragged them through the worst lanes one more 
 
 At the south store yard a clerk tried to get their names for a hero slate. Merrow sent him to the identification desk instead. "Injury first. Story later." The clerk looked offended. Merrow didn't care.
 
-At the grain arch a clerk tried to get their names for a casualty slate. Merrow sent him to the identification desk instead. "Injury first. Story later."
-
 At the riverside entrance, fresh sand covered most of the blood but not all of it; dark lines still showed between the stones. Riven stared too long. Merrow noticed and ignored it. "Tomorrow's route crosses here." Her voice was flat, professional. "I don't care how it feels." She pointed at the landing. "I care where people stop moving."
-
-Bucket lines still ran at the grain fires—too few hands, water arriving late. Cael marked the lane and kept walking. Riven felt the marking cross and hated that even routes had become shared work.
-
-A medic from Lyra's lane passed with a kit and a slate—*girl at stairs, gone*—and kept walking without stopping. Cael filed the number. Riven felt the filing cross and hated that even the dead had become shared inventory.
 
 They kept walking. By the time they reached the barracks again, the eastern sky had started turning gray. Cael's left arm had begun to shake—small, rhythmic, exhaustion. Cael didn't mention it. Riven felt it anyway. Cael kept walking. That was the only answer Cael had left.
 

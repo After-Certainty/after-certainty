@@ -320,7 +320,7 @@ Riven lay awake and listened to the ring. Not sound. Pressure. A hum behind his 
 
 Once Riven reached for Cael's wrist in the dark. Stopped himself. Reached again. Cael's fingers found his instead. Not the belt. Skin. They let go after a moment. The bond stayed. The choice to let go stayed too.
 
-When light came, the Seeker stood facing the bowl. Waiting. The ring waited back.
+When light came, the Seeker stood facing the Ashring. Waiting. The ring waited back.
 
 Riven stood beside Cael at the cut's edge. The stone circle below looked like a mouth that had learned patience. He could still feel the groove on his wrist where the belt had bitten. Cael flexed his shoulder once and stopped when pain crossed the bond.
 
@@ -332,12 +332,12 @@ Riven stood beside Cael at the cut's edge. The stone circle below looked like a 
 
 Riven's boot wire cut his toe at the lip. He bled into his sock. Cael felt the wetness before he saw it. Neither stopped to rewrap. Stopping invited the ring to pull harder.
 
-They descended into the bowl behind the Seeker. Pressure found them before the center. Riven's ears popped. Cael's popped too. Neither had altitude to blame.
+They descended into the Ashring behind the Seeker. Pressure found them before the center. Riven's ears popped. Cael's popped too. Neither had altitude to blame.
 
-The eighth day ended where the bowl began. Riven felt it in his teeth before he saw stone. Cael felt it too. Neither named it. Naming was for clerks.
+The eighth day ended where the Ashring began. Riven felt it in his teeth before he saw stone. Cael felt it too. Neither named it. Naming was for clerks.
 
 They paused at the inner rim long enough for Riven to drink. The water tasted of iron and old rain. Cael drank after him. The bond carried the order without argument.
 
 The standing stones ringed the center. Riven counted them once. Cael didn't. Counting had stopped helping somewhere on the knife ridge.
 
-Wind dropped in the bowl like a lid closing. Riven's breath sounded too loud. Cael heard it twice—once in his chest, once through the bond. The ring waited. So did they.
+Wind dropped in the Ashring like a lid closing. Riven's breath sounded too loud. Cael heard it twice—once in his chest, once through the bond. The ring waited. So did they.

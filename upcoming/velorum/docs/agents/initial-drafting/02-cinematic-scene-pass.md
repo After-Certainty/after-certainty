@@ -9,6 +9,7 @@ Make each chapter **read as if the reader were watching**—**establishing geogr
 - **Light sources:** lamplight, sky slice, fire, starfield, screen of smoke—**named** so night/day and mood aren’t default “dark” (named light **is** the mood—avoid extra metaphor layers on top)
 - **Depth:** foreground / background (distant sound, mast lamp, another window) to avoid **flat** blocking
 - **Set pieces:** for big beats (argument, map on stone, leave-taking), a **shot sequence**—**2–4 concrete visuals** in order—without turning the chapter into storyboard labels
+- **Balance:** do **not** default every insert to light or shadow—rotate **geography, blocking, motion, texture, sound in space, and objects in frame**; use light when it anchors time/place, not as a reflex
 
 **DO:**
 - Confirm chapter **POV** on **[act-chapter-index.md](../../act-chapter-index.md)** before adding framing; new visuals should **read as noticed by** that character’s position and attention

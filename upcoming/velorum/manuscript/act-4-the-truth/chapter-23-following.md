@@ -260,9 +260,9 @@ Halfway down the shadowed trail, Riven's boot slipped on dust that hadn't fallen
 
 The trail into the ring's shadow took the rest of the morning. Riven tested each stone. Cael watched the Seeker's prints. Neither spoke. Speaking cost breath they needed for climbing.
 
-Wind rose from the bowl below and carried dust upslope. Riven tasted stone on his tongue. Cael tasted it too. The ring's hum found his teeth before his ears.
+Wind rose from the Ashring below and carried dust upslope. Riven tasted stone on his tongue. Cael tasted it too. The ring's hum found his teeth before his ears.
 
-At the cut's edge they stopped. Below, the bowl waited. Above, cloud broke once and showed the standing stones like teeth. Cael felt Riven's pulse through the bond. Fast. Steady. Still walking.
+At the cut's edge they stopped. Below, the Ashring waited. Above, cloud broke once and showed the standing stones like teeth. Cael felt Riven's pulse through the bond. Fast. Steady. Still walking.
 
 Riven spat dust. "Tomorrow."
 

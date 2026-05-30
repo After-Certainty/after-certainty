@@ -2,9 +2,9 @@
 
 The world came back wrong.
 
-Cael stood in the Ashring and tried to get his bearings. Stone rings cut across the bowl beneath his boots. Beyond them, the mountain dropped away into grey slopes and haze. The sky hung low and pale—no shadows, no clear direction. The commitment still sat in his chest like a stone he'd swallowed.
+Cael stood on the outer ring of the Ashring and tried to get his bearings. Stone steps cut across the rings beneath his boots—ring after ring stepping down toward a flat center still empty from where they'd stood. Beyond the rim, the mountain dropped away into grey slopes and haze. The sky hung low and pale over the lip of the Ashring, no shadows, no clear direction. The commitment still sat in his chest like a stone he'd swallowed.
 
-They had moved toward the rim without speaking. The packs waited where they'd left them—canvas stiff with sleet. Neither had reached for them yet. Reaching felt like signing something twice.
+They had moved toward the rim without speaking. The packs waited where they'd left them beyond the scree lip—canvas stiff with sleet, ordinary things against the grey sky. Neither had reached for them yet. Reaching felt like signing something twice.
 
 Riven's breathing wouldn't stay separate from his own, inhales and exhales tangling until he couldn't tell which lungs belonged to whom anymore.
 
@@ -84,7 +84,7 @@ For a while they sat without speaking. Fragments kept slipping through—dock pl
 
 Riven saw the lower dock: handcart, herring, boss calling crates twice. Cael flinched because the boss's voice wasn't his to hear and the herring smell wasn't his shift.
 
-Cael saw Mara's kitchen door—the strip of light, the hinge tapping—and flinched because it wasn't his door, wasn't his hinge, wasn't his memory to have.
+Cael saw Mara's kitchen door—the hinge tapping, warm smell through the gap—and flinched because it wasn't his door, wasn't his hinge, wasn't his memory to have.
 
 He jerked his head away.
 
@@ -102,7 +102,7 @@ Riven looked down at his hands. "So that's it?"
 
 After a moment Cael pushed himself to his feet. Motion felt easier than sitting still. His knees almost buckled. Riven was standing before Cael could offer a hand. They both noticed. Neither mentioned it.
 
-Wind crossed the bowl, thin and directionless. Cael raised one hand slowly, palm out—a test, nothing more. Riven matched him immediately. Their hands stopped an inch apart, heat hanging between them, steady and impossible. Neither hand shook.
+Wind crossed the rings, thin and directionless. Cael raised one hand slowly, palm out—a test, nothing more. Riven matched him immediately. Their hands stopped an inch apart, heat hanging between them, steady and impossible. Neither hand shook.
 
 Cael thought *knife* and felt Riven flinch before the word formed.
 
@@ -114,7 +114,7 @@ For a few seconds they stood there. Then Cael lowered his hand. Riven's followed
 
 Riven nodded once. "Yeah."
 
-Cael turned away from the center of the bowl on purpose—toward the trail, toward the slope they'd climbed, toward anything that wasn't the rings. The path dropped away in tight switchbacks below them. Gravel spilled over the edge in frozen slides. Shadows were already gathering in the cut.
+Cael turned away from the center on purpose—toward the trail, toward the slope they'd climbed, toward anything that wasn't the rings. The path dropped away in tight switchbacks below them. Gravel spilled over the edge in frozen slides. Shadows were already gathering in the cut.
 
 "Pack."
 
@@ -258,7 +258,7 @@ The anger hit first. Then fear. Then something worse—disappointment, like Rive
 
 They walked. Cael tried not to think. That lasted about three seconds.
 
-The trail dropped in tight switchbacks. Loose stone. Wrong weight in Riven's pack—left heavy, right light, the same mistake from the rim. Cael had meant to fix it before they left the bowl. Fixing it meant touching Riven's straps. Touching felt like asking permission from something that didn't grant it.
+The trail dropped in tight switchbacks. Loose stone. Wrong weight in Riven's pack—left heavy, right light, the same mistake from the rim. Cael had meant to fix it before they left the Ashring. Fixing it meant touching Riven's straps. Touching felt like asking permission from something that didn't grant it.
 
 At the next bend Riven stopped without warning. Cael stopped too—same foot, same instant.
 
@@ -340,13 +340,15 @@ They started walking again. Lower down, the mountain softened. Pines returned. T
 
 Twice on the descent Riven tried to hum—nothing, just noise to fill his head. Cael heard the tune anyway. Old bond story. Market square. Wrong mountain for it. Riven stopped humming.
 
-Cael found a flat spot beneath a stand of trees and dropped his pack. Neither discussed it. Riven let his pack slide off one shoulder. The relief crossed between them immediately. Both of them winced. Riven muttered, "Still hate that."
+Cael found a flat spot beneath a stand of pines and dropped his pack. Needles gave under his boots; the slope fell away to the east, treeline opening on the pale Ashring above the ridge. Neither discussed it. Riven let his pack slide off one shoulder. The relief crossed between them immediately. Both of them winced. Riven muttered, "Still hate that."
 
-Cael gathered deadwood and built a fire—anything with steps felt easier than thinking. Split kindling. Stack. Spark. Flame. His hands knew the work. Riven's hands knew it too—Cael felt the same motions ghosting across his own fingers before Riven touched the wood.
+Above the treeline the Ashring showed pale on the ridge—grey stone against cloud, no warmth left in it.
+
+Cael gathered deadwood and built a fire—anything with steps felt easier than thinking. Split kindling. Stack. Spark. Flame. Pine sap hissed. His hands knew the work. Riven's hands knew it too—Cael felt the same motions ghosting across his own fingers before Riven touched the wood.
 
 "Don't look at me like you're happy."
 
-Riven stared into the fire. The orange light sharpened the shadows beneath his eyes.
+Riven stared into the fire. Ash crept up the kindling stack.
 
 "Are you?"
 
@@ -400,7 +402,7 @@ Cael didn't deny it fast enough. Riven felt the hesitation cross like a belated 
 
 Cael looked at his hands. "I'll try."
 
-Later they lay down back to back beside the fire, the way they always had on cold nights. Every shift of Riven's shoulders arrived inside Cael's body too. The fire burned low. Thoughts kept brushing past—dock planks, coins, the monument, fear—and none of it stayed private.
+Later they lay down back to back beside the fire, the way they always had on cold nights. Firelight threw orange across Riven's profile and died at the tree line. Every shift of Riven's shoulders arrived inside Cael's body too. The fire burned low to coals. Thoughts kept brushing past—dock planks, coins, the monument, fear—and none of it stayed private.
 
 Once Cael thought about turning around. Walking back to Greyhaven alone. The thought crossed whole—route, gate, Mara's board—and Riven stiffened before Cael finished it.
 
@@ -446,7 +448,7 @@ Riven laughed once, silent. "Fuck you."
 
 "Fair."
 
-Dawn came grey and cold. Cael woke to Riven already packing—or Riven woke to Cael already packing; the order didn't settle. They checked the fire twice. Checked the trail once. Checked each other's straps without speaking.
+Dawn came grey and cold. Cael woke to Riven already packing—or Riven woke to Cael already packing; the order didn't settle. Coals still held a dull red in the ash ring. The Ashring sat pale on the ridge above them, rings and rim sharp against the grey morning air. They checked the fire twice. Checked the trail once. Checked each other's straps without speaking.
 
 "Food," Riven said.
 

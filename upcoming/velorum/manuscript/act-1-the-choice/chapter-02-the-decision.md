@@ -4,9 +4,9 @@ The yard behind Mara's inn stayed dark after the square emptied. From back here,
 
 The singer's last chorus drifted over the wall—clean, heroic, wrong—and died somewhere in the alley. Somebody clapped. Somebody else booed. Greyhaven settling back into itself.
 
-He leaned on the broom and swept the last of the grit toward the drain, fish scales and shell fragments catching the kitchen light on the wet stones while steam fogged the window above the sink. A bucket sat beside the step, the water cloudy with soap.
+He leaned on the broom and swept the last of the grit toward the drain—fish scales and shell fragments gritting under the bristles, soap scum on the wet stones, steam fogging the window above the sink. A bucket sat beside the step, the water cloudy with soap.
 
-Inside, Mara's voice rose and fell, a chair scraped across the floor, someone laughed too loudly, and shadows crossed beneath the door.
+Inside, Mara's voice rose and fell, a chair scraped across the floor, someone laughed too loudly, and footsteps crossed the plank floor above the door gap.
 
 Riven came around the corner carrying a blanket under one arm and a coil of rope over his shoulder, looking tired.
 
@@ -26,7 +26,7 @@ Riven shook out the blanket.
 
 "She meant extra."
 
-The kitchen door opened and Mara stepped out with her arms folded, flour on one sleeve and the look she wore when she'd already decided you were lying. Cael straightened without thinking.
+The kitchen door opened and Mara stepped out with her arms folded, flour on one sleeve and the look she wore when she'd already decided you were lying. Heat and steam rolled out with her. Cael straightened without thinking.
 
 "If you're leaving," she said, "you settle the room."
 
@@ -44,7 +44,7 @@ Riven exhaled. "We will."
 
 "We swept," Cael said.
 
-"Then sweep it again." She went inside. The door shut hard enough to rattle the hinge.
+"Then sweep it again." She went inside. The door shut hard enough to rattle the hinge. Voices inside rose again—Mara counting, someone arguing about the tab—and the yard went back to harbor noise and the drain ticking.
 
 Cael rinsed his hands in the bucket, the water stinging the split skin beside his thumb. "Then we'll pay extra."
 
@@ -110,7 +110,7 @@ Cael nodded.
 
 "And if it isn't?"
 
-Cael looked toward the dark line of hills beyond the harbor.
+Cael looked toward the dark line of hills beyond the harbor. Mast lanterns swayed below on the water, small and steady against the black.
 
 "Then we know that too."
 
@@ -166,7 +166,7 @@ Riven barked out a laugh.
 
 "No," Cael said. "It isn't."
 
-Color crept into Riven's face, and for a while he stared at the stones beneath their feet.
+Color crept into Riven's face, and for a while he stared at the stones beneath their feet. The kitchen window above them had gone dark. Mara moved inside—chair scrape, low argument—and the yard went quiet except for the drain ticking.
 
 "I don't want to be the idiot who followed you because you sounded certain."
 
@@ -260,7 +260,7 @@ Cael nodded. "Add it to the list."
 
 "The one in your head." Riven almost smiled. "Write it on the stone before Mara scrubs it off."
 
-A few minutes later they were sitting on the stone step with a piece of chalk between them, kitchen light spilling across the yard behind their backs. Cael drew the road first, one line running north, then the well, then the switchbacks, then the stretches where water would be scarce and rope would matter more than pride. The chalk squealed once against the stone and white dust gathered in the cracks while he named distances as he worked, rounding everything up. Riven never wrote anything down; he only listened.
+A few minutes later they were sitting on the stone step with a piece of chalk between them, the inn wall at their backs and the yard empty ahead. Cael drew the road first, one line running north, then the well, then the switchbacks, then the stretches where water would be scarce and rope would matter more than pride. The chalk squealed once against the stone and white dust gathered in the cracks while he named distances as he worked, rounding everything up. Riven never wrote anything down; he only listened.
 
 "Day one," Cael said, "north gate to the fork. Camp in the hollow if we're slow. Day two, shale climb, first seep before dusk." He marked an X. "If the seep's dry, we ration."
 
@@ -322,7 +322,7 @@ Riven almost smiled.
 
 "You really think we're doing this."
 
-Cael looked out toward the dark hills, where the harbor lights barely showed from here. "Last spring those planks held because two men stood in the rain all night," he said. "Not because anybody sang about them. Because somebody stayed."
+Cael looked out toward the dark hills, where the harbor was only sound from here—mast lines creaking, a drunk shouting two streets over. "Last spring those planks held because two men stood in the rain all night," he said. "Not because anybody sang about them. Because somebody stayed."
 
 Riven followed his gaze.
 
@@ -362,7 +362,7 @@ Cael finally let himself feel tired, it settling deep between his shoulders and 
 
 Riven blinked, and for a moment he just stared at the ground. "Yeah," he muttered. "Somebody has to."
 
-Inside, Mara's counting stopped, a door shut, and the inn settled into its nighttime creaks. The strip of light beneath the kitchen door narrowed and disappeared, and the yard went dark.
+Inside, Mara's counting stopped, a door shut, and the inn settled into its nighttime creaks. The yard went quiet—only the harbor beyond the roofline, mast lines creaking on black water.
 
 Cael checked the latch on the gate out of habit more than necessity, the metal cold against his palm. Across the yard, Riven still sat on the step with the blanket under one arm and the rope over his shoulder, looking toward the hills or where they ought to be—in the dark, only a black line against the clouds.
 
@@ -384,7 +384,7 @@ She looked up without stopping. "Loft's open. Don't snore."
 
 Cael pocketed the coins. "We won't."
 
-Mara's counting resumed. Cael took the loft ladder two rungs at a time, boots still damp from the yard. Above, Riven was already spreading the blanket, back to the rafters, shoulders tight.
+Mara's counting resumed. Cael took the loft ladder two rungs at a time, boots still damp from the yard. Above, Riven was already spreading the blanket, back to the rafters, shoulders tight. A single shutter stood open—harbor smell and rope creak coming up from the docks, floorboards cold under his socks.
 
 "You still thinking about the dock?" Cael asked.
 
@@ -402,7 +402,7 @@ Riven was quiet long enough that Cael thought he'd won. Then: "If we die out the
 
 The rafters creaked. Somewhere below, Mara bolted the kitchen door. Cael stared at the dark until his eyes burned, then closed them. Tomorrow the north road. Tomorrow the first real step. He listened for Riven's breathing to slow. It didn't, not for a long time. Neither did his.
 
-Grey light found them before the market bell. Cael took the loft ladder down in his socks and hit the yard with both packs already mentally weighed. Riven came down behind him, eyes red, coat wrong-side-out until Mara snapped her fingers and he fixed it without thanks.
+Greyhaven woke around them before the market bell. Cael took the loft ladder down in his socks and hit the yard with both packs already mentally weighed—wet cobbles, bread smoke from the lane, the cord-seller already unrolling stock. Riven came down behind him, eyes red, coat wrong-side-out until Mara snapped her fingers and he fixed it without thanks.
 
 "You look like shit," Mara said.
 
@@ -456,7 +456,7 @@ The north gate guard was different from the night watch—older, sober, unimpres
 
 "North's always hiring," the guard repeated, and waved them through anyway.
 
-Riven paused on the threshold one last time. Greyhaven smelled like smoke and herring and Mara's soap. He could have walked back to the inn, taken the broom, scrubbed his name onto the board again, and called this a scare.
+Riven paused on the threshold one last time. Greyhaven smelled like smoke and herring and Mara's soap. Rooftops still wet from last night's rain. He could have walked back to the inn, taken the broom, scrubbed his name onto the board again, and called this a scare.
 
 He didn't.
 

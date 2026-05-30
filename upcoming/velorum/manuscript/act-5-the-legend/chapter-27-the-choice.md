@@ -54,7 +54,7 @@ A woman at the bread stall tried to charge them hero prices until Bran told her 
 
 "Don't thank me. Show up at second bell." Bran jerked his chin toward the north smoke. "Merrow's got timber lists. Wrong count yesterday. Don't make me explain you to her."
 
-That night they slept in Cael's old loft above a cooper's yard. Riven lay on the floor because the bed was one frame and two men was a story the town already told. Through the bond he felt Cael stare at the ceiling beam and count cracks. Riven counted them too, eleven visible from the floor, plus one new split near the west wall that had not been there when they left for Ashfen.
+That night they slept in Cael's old loft above a cooper's yard. Riven lay on the floor because the bed was one frame and two men was a story the town already told. The loft was one room, low ceiling, bed against the west wall, floorboards with a finger-width gap where he could see the cooper's stack below. Through the bond he felt Cael stare at the ceiling beam and count cracks. Riven counted them too, eleven visible from the floor, plus one new split near the west wall that had not been there when they left for Ashfen—a dark line where the beam had given.
 
 Someone had stacked fresh boards under the window—channel work, not furniture. The stack smelled like sap. Riven thought about the gate patch at Kestrel Gate, fresh wood that hadn't dried, and felt Cael think it too.
 
@@ -62,7 +62,7 @@ Harbor noise came up through the boards. Someone sang off-key near the channel. 
 
 Below, a dog barked and stopped mid-sound. Riven felt the wrongness in that too, delay, lag, the town learning the land's new habits the way they had learned the bond's.
 
-Merrow's runner banged the cooper's door once at midnight and left a timber tally without waiting—*need twelve posts by dawn, got eight, find the rest or shift the line.* Riven read it by moonlight through the loft crack. Cael read it in his chest before Riven finished.
+Merrow's runner banged the cooper's door once at midnight and left a timber tally without waiting—*need twelve posts by dawn, got eight, find the rest or shift the line.* Riven unfolded the paper at the floorboard gap and traced the lines with his thumb until the words made sense. Cael read it in his chest before Riven finished.
 
 "Say it," Riven said.
 
@@ -112,7 +112,7 @@ Riven closed his eyes. "If I choose the load, I lose the room."
 
 "It's a choice," Cael said. "You can still walk away and let the berm go."
 
-Riven turned on his back and stared at the ceiling crack. "You want me to say yes like it feels good."
+Riven turned on his back and stared at the ceiling crack—a pale line in the beam where the wood had split. "You want me to say yes like it feels good."
 
 "I want you to say yes like it's true," Cael said.
 
@@ -138,7 +138,9 @@ Before first light Bran hammered the cooper's door. "Up. Merrow's short four pos
 
 They ate standing—hard bread, cold water, no ceremony. At the yard gate a boy from the rope crew asked if the bond made them strong. Cael said no. Riven said tired. The boy looked confused and ran ahead anyway.
 
-Morning came gray. Fog sat in the channel cut. They climbed to the north berm with Bran and six laborers and no ceremony. The channel water ran fast and wrong. Timber groaned. Dust hung without wind. Riven's boots slipped once on wet mud and Cael's balance corrected him before he fell.
+Morning came gray. Fog sat in the channel cut. They climbed to the north berm with Bran and six laborers and no ceremony.
+
+The berm ran along the channel mouth for thirty paces Riven could see end to end—timber posts driven into mud, rope lines strung between them, water running fast and wrong below. Greyhaven spread behind them: patched roofs, market smoke, the cooper's yard somewhere in the tangle. Dust hung without wind. Timber groaned. Riven's boots slipped once on wet mud and Cael's balance corrected him before he fell.
 
 Two laborers argued over which end of the line took the bad timber—same fight Riven had seen at the dock a lifetime ago, short count, wrong stack. Bran settled it by putting the crooked post where the load was lightest and swearing at both of them.
 
@@ -148,7 +150,7 @@ Second bell rang wrong once, then found its note. Laborers gathered with timber 
 
 Riven stood on the line and felt the bond pull tight, not performance, not Halverin's counts, the real rhythm from the riverside entrance and square collapse, earned ugly.
 
-Cael met his eyes. "When it breaks, don't split."
+Below them the channel cut ran dark between mud walls. Laborers held posts along the berm's length—Bran at the rope stack, timber groaning, water pushing at the cut. Market smoke drifted above the rooftops behind them. Cael met his eyes. "When it breaks, don't split."
 
 "When it breaks, don't lecture."
 
@@ -160,7 +162,7 @@ A laborer shouted for support posts. Bran fed rope. The channel mouth widened an
 
 Internal conflict peaked not in words but in the half-second before the load hit: love for Lyra, love for Cael, hunger to be remembered, hunger to stay himself. All of it crossed. None of it canceled.
 
-He could still walk. He could still let the berm go and keep one room closed somewhere else. The option sat in his chest like a door he knew he would not open.
+Mud at his shins. Timber screaming to his left. The berm holding or not holding along thirty paces of rope and post. He could still walk. He could still let the berm go and keep one room closed somewhere else. The option sat in his chest like a door he knew he would not open.
 
 Riven chose anyway.
 

@@ -1,36 +1,20 @@
 # Chapter 20 - Lyra Leaves
 
-Two days after the square, the infirmary annex had more cots and fewer answers. One long room off the main hall, high windows on the north wall, prep table and jars along the west. Cots now filled the center where there had been walking space before the attack.
+Two days after the square, the infirmary annex had more cots and fewer answers. One long room off the main hall, high north windows looking down on the yard. Cots now filled the center where there had been walking space before the attack. Prep table and jars along the west wall. The square still lived in Riven's palms when he closed his hands—splinters under bandages, wet stone that had not been wet, Halverin's horn cracked on the step.
 
-The square still lived in Riven's palms when he closed his hands. Merrow had said evidence and meant it. Splinters under bandages. Wet stone that had not been wet. Halverin's horn cracked on the step.
+The first day he had hauled splintered timber until his shoulders burned and the bond carried Cael's fatigue on top of his own. Merrow had assigned him to debris because hands were needed and symbols were dangerous. Paste crews worked the magistrate wall in strips. Halverin's clerk tried twice for signatures. Merrow's runner burned both attempts. Riven watched paste curl in brazier smoke and went back to hauling.
 
-The first day Riven had hauled splintered timber until his shoulders burned and the bond carried Cael's fatigue on top of his own. Merrow had assigned him to debris because hands were needed and symbols were dangerous. No one asked him to speak at the gate. No one asked him to stand on the magistrate steps. That was mercy and insult at once.
-
-Paste crews worked the magistrate wall in strips. Halverin's clerk tried twice to get signatures on fresh broadsides. Merrow's runner burned both attempts. Riven watched paste curl in the brazier smoke and went back to hauling.
-
-That first afternoon Cael signed a gate roster while Halverin's clerk watched from the magistrate steps. Riven felt the pen stroke in his wrist through the bond and nearly dropped a wooden support. Merrow said nothing. Halverin's name stayed on the office door. His authority did not.
-
-At the debris pile that morning a cooper's nephew with rope burns worked beside him without speaking. They lifted on the wrong beat twice and both winced. The third time they matched without looking and the bond went quiet for six breaths—long enough to feel how loud it had been before.
+At the debris pile a cooper's nephew with rope burns worked beside him without speaking. They lifted on the wrong beat twice and both winced. The third time they matched without looking and the bond went quiet for six breaths—long enough to feel how loud it had been before.
 
 Merrow passed at noon with a slate and marked them both present. "Hands not throats," she said, and kept walking.
 
-At noon a magistrate clerk had found him at the debris pile with a sequence form and a fresh broadside rolled under one arm. Merrow's runner intercepted before the clerk got within ten paces. "Captain says no signatures today."
-
-The clerk had argued about civic duty until the runner pointed at the square basin where paste still smeared the stone. The clerk left with the form unmarked. Riven had gone back to hauling timber. Splinters reopened under his bandages. Cael had lifted on the wrong beat an hour later and Riven's shoulder had burned until dusk.
-
-Workers had stacked the mock frame by the basin in pieces. A paste crew scraped the magistrate wall until the woodcut pair smeared. Guards argued about rope lines. Halverin had not shown his face in the square since the demonstration. His clerks still came to Merrow's office with sequence proposals. Merrow still said no.
-
 The second day he had slept in fragments and woken with Cael's dreams still moving in his chest. Lyra had treated three crush injuries and a guard with a rope burn and had not come to the east annex except once, at noon, to leave broth and a note that said *don't sign*. He had eaten the broth. He had burned the note so clerks would not find it.
-
-That afternoon Cael had signed a gate roster with ink that smelled like the command hall. Riven had felt the pen stroke in his wrist through the bond and nearly dropped a wooden support on his foot. Merrow had watched from the yard edge and said nothing. Halverin's name was still on the office door. His clerks still brought sequence proposals on slate. Merrow still said no.
 
 He had known she was leaving before she said it. Her kit had shrunk. Her name was on a south ward manifest Merrow's runner had dropped at the command hall. Greyhaven's outer clinics needed needles more than Kestrel needed another witness to the bond.
 
 He had told himself he would argue when the moment came. He had also known, with the same tired accuracy Lyra had always carried, that argument would be for him, not for her.
 
 The bond had been loud since the demonstration, not sharp spikes anymore, a constant low static of mood and fatigue crossing without permission. He could tell when Cael ate. He could tell when Cael pretended to sleep. He could not tell where his own irritation ended and Cael's began.
-
-Yesterday at the debris pile Cael had lifted timber on the wrong beat and Riven's shoulder had burned for an hour after. Not injury. Echo. Cael had apologized without words through the bond until Riven wanted to scream. Merrow had watched them both and said, "Hands on work, not each other's throats," like she could see the leak without naming it.
 
 Riven came in at dusk with split knuckles from hauling debris and a headache that had started in Cael's shoulders at noon and never left.
 
@@ -66,7 +50,7 @@ Riven's throat tightened. "It isn't clean."
 
 She tied off the cloth.
 
-She washed her forearms again though they were already clean, like she needed the motion. Riven watched water pinken and drain. He had seen that color in the square on someone's bandage. He had seen it in the bowl after the demonstration when Lyra had wrapped his palms without saying *I told you*.
+She washed her forearms again though they were already clean, like she needed the motion. Riven watched water pinken and drain. He had seen that color in the square on someone's bandage. He had seen it again in the medic tent when Lyra washed his palms after the demonstration without saying *I told you*.
 
 Merrow's runner knocked once and left a south ward manifest on the bench without entering. Lyra glanced at it and kept washing. Riven saw Greyhaven's outer clinics on the header line.
 
@@ -84,7 +68,7 @@ Riven closed his eyes. "I can't fucking sneeze without him feeling it."
 
 "You told me the truth. I didn't want it."
 
-"I know." She set the bowl aside. "I didn't want it either."
+"I know." She set the basin aside. "I didn't want it either."
 
 That stopped him. "What?"
 
@@ -168,9 +152,9 @@ Cael stood in the corridor with his back to the wall. The bond carried Lyra's fo
 
 An orderly entered without knocking, moved a cot into the space Lyra's kit had occupied, and left. The cot legs scraped stone. Riven felt Cael flinch in the corridor at the sound.
 
-For a minute he stood where she had stood and looked at the prep table. Pink water cooling in the bowl. Bandage scraps. The fold in the cloth where her fingers had pressed the edge flat.
+For a minute he stood where she had stood and looked at the prep table. Pink water cooling in the basin. Bandage scraps. The fold in the cloth where her fingers had pressed the edge flat.
 
-Riven stood in the empty room. Gray evening through the high windows. The prep table bare except for pink water in the bowl, already cooling. He listened to the bond carry Cael's grief and his own until they were the same sound.
+Gray evening through the high windows. He listened to the bond carry Cael's grief and his own until they were the same sound.
 
 Cael did not speak for a long time. Then: "I'm sorry."
 
@@ -178,7 +162,7 @@ Cael did not speak for a long time. Then: "I'm sorry."
 
 "What do you want."
 
-Riven looked at the stool Lyra had pushed toward him. At the bowl with pink water. At the bandage scraps on the table. At the fold in the cloth where her fingers had pressed the edge flat.
+Riven looked at the stool Lyra had pushed toward him. At the basin with pink water. At the bandage scraps on the table.
 
 "I want one feeling that doesn't travel," he said.
 
@@ -190,7 +174,7 @@ Cael's face tightened. "I can't give you that."
 
 "I heard her." Riven's voice came out flat. "I also heard the wagon."
 
-They stood on opposite sides of the room like strangers who shared one chest. Outside the city kept moving. Debris wagons. Gate counts. A magistrate's clerk somewhere still writing sequence proposals Merrow would burn. Inside, something had ended without a fight and without a reconciliation, the way real endings often did.
+They stood on opposite sides of the room like strangers who shared one chest. Outside the city kept moving. Debris wagons. Gate counts. Inside, something had ended without a fight and without a reconciliation, the way real endings often did.
 
 Riven washed his knuckles in the basin though Lyra had already wrapped them. Pink water. He poured it out and refilled from the jug. Cael watched and felt Riven's hands as his own for three breaths before the bond eased.
 
@@ -214,9 +198,9 @@ Riven picked up his coat. "I'm going to the wall."
 
 He left. The bond followed anyway, thinner but inescapable, Cael's hurt and his own braided down the stairwell and out into cold air.
 
-The yard was busy in the ordinary way. A team hitched to the supply train. Lanterns being checked. Merrow's guards stood at the gate lane with spears vertical, work-ready, not parade-ready. A driver cursed at a tangled trace. Someone laughed once and stopped, remembering the square.
+The yard was busy in the ordinary way. A team hitched to the supply train, trace chains clinking. Merrow's guards stood at the gate lane with spears vertical, work-ready, not parade-ready. A driver cursed at a tangled trace. Someone laughed once and stopped, remembering the square.
 
-Two clinic orderlies loaded crates marked *needles—south ward* onto the second wagon. Lyra checked each knot herself. Riven kept his eyes on the ground until he was past the wagons. He did not want to see which lantern was on the second wagon. He saw anyway. Lyra sat beside the driver with her bundle at her feet, profile sharp in new flame light. She was talking to Merrow's guard about clinic stores, voice practical, already gone in the way that mattered.
+Two clinic orderlies loaded crates marked *needles—south ward* onto the second wagon. Lyra checked each knot herself. Riven kept his eyes on the ground until he was past the wagons. He did not want to look at the second wagon bench. He saw anyway. Lyra sat beside the driver with her bundle at her feet, talking to Merrow's guard about clinic stores, voice practical, already gone in the way that mattered.
 
 Merrow passed Riven at the yard edge without stopping. "South ward manifest is signed. Don't chase the wagon."
 
@@ -228,21 +212,15 @@ Riven's step faltered. The bond tightened with Cael's surge from the annex stair
 
 He kept walking to the wall.
 
-At the top of the east wall he stood alone and watched the supply train lanterns move toward the gate. Lyra's bundle was a dark shape on the second wagon. She did not look back.
+At the top of the east wall he stood alone and watched the supply train roll toward the gate—hooves, wheel ruts, guard calls from the lane. Lyra's bundle was a dark shape on the second wagon bench. She did not look back.
 
 Riven did not wave.
 
-Below, Kestrel Gate's lights came on one by one. The square where they had broken in public stayed empty. Broadsides were gone from the wall. Chalk marks faded in the traffic. A paste crew had left a smear where *STEADINESS RETURNS* had been, dark on the stone.
-
-From the wall he could see the spot where the mock frame had fallen. The basin where sound had lagged. Halverin's horn still on the stair, mouth cracked.
+Below, Kestrel Gate's watchfires were being fed one by one along the ramparts. The square where they had broken in public stayed empty. Broadsides were gone from the wall. Chalk marks faded in the traffic. From the merlon he could see the basin where sound had lagged. Halverin's horn still on the stair, mouth cracked.
 
 Riven pressed his forehead to cold stone and breathed.
 
-The lanterns moved through the gate. Hooves on stone. A guard's call answered from the outer bend. Then the light thinned to points and then to dark.
-
-He stayed on the wall until the lanterns vanished beyond the outer bend. Wind came off the river with winter in it. His bandaged knuckles throbbed. Cael had not followed. The bond still carried that.
-
-Below, paste crews scraped the last broadside strip from the magistrate wall. *STEADINESS* came off in gray curls. A boy collected the wet paper for kindling. Nobody stopped him.
+Hooves on stone. A guard's call answered from the outer bend. Then the noise thinned to distance and gone.
 
 A guard on the next merlon cleared his throat. "You all right?"
 
@@ -252,17 +230,13 @@ A guard on the next merlon cleared his throat. "You all right?"
 
 "Nobody looks fine this week."
 
-The guard almost smiled. "Fair." He looked toward the gate lane where the last lantern had gone. "She's good at clinics. South ward needed her before the square needed a witness."
-
-Below, a teamster cursed at a trace knot. The second wagon lantern swung once and steadied. Riven counted breaths until the gate call answered from the outer bend and the sound thinned to dark.
+The guard almost smiled. "Fair." He looked toward the gate lane where the last wagon had gone. "She's good at clinics. South ward needed her before the square needed a witness."
 
 Riven did not answer. The guard took that as enough and went back to his count.
 
 When he climbed down, Cael was waiting at the stair foot with two cups of water and no speech.
 
 Merrow passed behind them with a gate count slate and did not stop. "Manifest clears at second bell," she said to the guard at the foot. "Hands on the wall after."
-
-A paste crew was still working the magistrate wall by lantern light, scraping the woodcut pair down to smeared ink. Cael had paste on his cuff. He had been hauling debris until Merrow pulled him for gate counts. Riven had not known that. The bond had known and not translated it into words.
 
 Riven took one cup. They drank. They walked back to the annex side by side, not touching, the bond carrying the walk anyway.
 
@@ -280,21 +254,15 @@ Cael stopped at the annex door. "I'm sorry I felt it when you—"
 
 Cael shut his mouth. The bond carried his hurt anyway. Riven did not soften.
 
-The infirmary corridor was quiet. Lyra's prep table was clean. The bowl was gone. An orderly had already moved a cot into the space her kit had occupied.
+The infirmary corridor was quiet. Lyra's prep table was clean. The basin was gone. An orderly had already moved a cot into the space her kit had occupied.
 
 Riven lay on his cot without removing his coat fully. Cael lay on his. The bond hummed low, static and grief and fatigue braided.
 
 No one fixed anything.
 
-Riven stared at the ceiling until the lamp burned down. Square. Horn lowered. Lyra's bundle on the second wagon. One feeling that did not travel, and he would not have it tonight.
+Riven stared at the ceiling until the square noise through the wall thinned. Square. Horn lowered. Lyra's bundle on the second wagon. One feeling that did not travel, and he would not have it tonight.
 
-Riven closed his eyes. Cael's breath slowed on the other cot. The bond carried even that.
-
-He let it.
-
-Tomorrow he would get up anyway. That was all he had for now.
-
-Before the lamp died entirely he heard the supply train clear the outer bend. One lantern lingered on the road longer than the others, then went out. Riven turned on the cot. Cael felt the turn in his own shoulder.
+Before the yard went fully quiet he heard the supply train clear the outer bend—wheel ruts on the road, guard call fading. Riven turned on the cot. Cael felt the turn in his own shoulder.
 
 "She's gone," Riven said.
 
@@ -307,33 +275,3 @@ Riven closed his eyes. Cael counted breaths until numbers replaced names again.
 At first gray Merrow's runner knocked once on the annex door and left a wall roster. Riven's name. Cael's name. Second watch. Ordinary ink. The bond carried Cael's relief that work still existed and Riven's refusal to feel relieved about anything yet.
 
 Riven got up anyway. That was all he had for now.
-
-He washed in the yard trough. Cold water on bandaged knuckles. Cael joined him without speaking. They walked to the debris pile together because Merrow's slate said so and because hands were safer than symbols.
-
-The cooper's nephew nodded once and handed Riven a rope handle. They lifted on the wrong beat and both winced. They lifted again and matched for six breaths. The bond went quiet long enough to work.
-
-The square was empty except for paste smears and faded chalk. Halverin's horn still sat on the magistrate stair, mouth cracked. Nobody asked Riven to sign anything. Merrow's slate said debris until second bell. Cael signed the gate roster with ink that smelled like iron.
-
-Riven hauled timber until his shoulders burned. The bond carried only fatigue and the ordinary fact that morning had come without Lyra in the annex room.
-
-He did not look at the prep table where the fold in the cloth was still visible in daylight. Cael passed on the yard path toward the east wall and did not stop. The bond carried the pass anyway.
-
-Merrow found Riven at the debris pile before second bell. "Hands still work," she said. Not a question. "Wall roster stands. Halverin's office sent another form. I burned it."
-
-"Good," Riven said.
-
-She left. The cooper's nephew lifted on the wrong beat. Riven matched on the third try. Six breaths of quiet in the bond. Enough to finish the morning.
-
-The nephew broke silence once at noon. "My uncle spat on the step. Said it didn't look like the berm." Riven grunted. The nephew went back to hauling. The bond carried Cael's agreement without words.
-
-Halverin's clerk came to the debris pile at midday with another sequence form. Merrow's runner met him ten paces out and burned it in the brazier. Riven kept hauling. Cael felt the smoke in his throat on the wall merlon and did not look down.
-
-At second watch Cael took the east wall roster Merrow had left. Riven stayed on debris until the light failed. Paste crews scraped the last broadside strip from the magistrate wall. *STEADINESS* came off in gray curls. Nobody asked them to stand on the magistrate steps. Merrow had said hands, not symbols. Riven kept hauling until the light failed anyway.
-
-Riven climbed to the wall once and looked toward the outer bend where the supply train had gone. No lantern. No bundle. The bond carried Cael's knowledge that he was looking and Cael's choice not to follow. Enough for one day.
-
-At dusk he passed the annex without stopping. The prep table fold was still visible in the cloth. He did not touch it. Cael saw him not touch it from the yard path and said nothing. The bond carried that too—small refusals, small griefs, nothing clean enough to stack into a single feeling.
-
-Halverin's clerk tried the magistrate steps with a fresh broadside and found the paste crew gone home. He stood alone with wet strips in his hands until Merrow's runner sent him back toward the barracks. Riven heard the argument from the debris pile and kept hauling until second bell failed and the light went gray.
-
-The cooper's nephew lifted on the wrong beat once more at dusk. Riven matched on the third try. Six breaths of quiet in the bond. Cael felt them from the yard path without turning. Enough to finish the day without touching the prep table fold or the empty annex room behind it.

@@ -36,7 +36,7 @@ Getting distance was the point. Riven let out a slow breath, swallowed half a do
 
 Outside, the harbor air hit him damp and salted, the sky over the water bruised between day and night. Wet cobbles caught the thin gleam of mast lanterns burning low, gulls complained on the pilings, and somewhere down toward the docks a cart creaked over stone on early work that didn't care whether you'd slept.
 
-They took the lower lanes first, rooflines tight enough to steal half the grey dawn light, keeping to the shadows where they could. Packs before dawn drew attention in Greyhaven, and attention usually led to questions that ended with somebody trying to sell you luck you couldn't afford.
+They took the lower lanes first, rooflines tight enough to turn footsteps into echo, keeping to the alleys where they could. Packs before dawn drew attention in Greyhaven, and attention usually led to questions that ended with somebody trying to sell you luck you couldn't afford.
 
 A woman opening shutters watched them pass and went back to shaking flour from a cloth over her doorstep.
 
@@ -64,7 +64,7 @@ Riven's thoughts caught on Bran despite himself, on boots skidding on Heartbridg
 
 The road began as packed dirt scored by old wheel ruts, wide enough for two carts if neither driver was in a generous mood. Houses thinned behind them, a few threads of smoke still rising above the roofs before the road climbed and the town began to fall away.
 
-The sound changed too as harbor noise gave way to wind, steady against Riven's ears, and when he glanced back Greyhaven had already shrunk to a smear of rooftops and chimney smoke along the water.
+The sound changed too as harbor noise gave way to wind, steady against Riven's ears, and when he glanced back Greyhaven had already shrunk to a smear of rooftops and chimney smoke along the water, mast tips barely visible against the grey horizon.
 
 Cael set a pace that wasn't cruel but didn't leave much room for complaint either; he took long strides with his shoulders square, eyes fixed on the road as it wound toward Ashfen. Riven matched him because falling behind would only start a conversation he didn't want to have.
 
@@ -146,6 +146,8 @@ Riven swallowed. The inn board was a joke until it wasn't, names in chalk, shift
 
 "The harbor's still in my head," Riven said, the words coming out quieter than he'd intended. "Same docks. Same wet planks. Half the crews gone. Nobody remembers who moved what."
 
+Below them the road cut along the hillside, switchbacks visible as pale scars on the slope. Greyhaven sat in the distance, harbor dark against lighter water.
+
 Cael's shoulders tightened for a moment. "I know."
 
 Riven kicked at a stone and watched it bounce down the slope. "Then what are we doing out here that's any different?"
@@ -172,7 +174,7 @@ Riven knew what Cael meant, his thumb resting against the cold buckle of his pac
 
 Cael nodded without looking back. "Good. Don't pretend it doesn't matter."
 
-They stopped where a narrow runoff crossed the road, water sliding over stone in a clear sheet, shallow but clean enough if you didn't mind a little grit.
+They stopped where a narrow runoff crossed the road, water sliding over stone in a clear sheet, shallow but clean enough if you didn't mind a little grit. Pines crowded the uphill side. The downhill drop showed grey rock and scrub, the coast invisible from here.
 
 Cael knelt first, rinsed his hands in the cold water, and wiped them on his trousers. Riven drank after him, the water cold enough to sting his teeth, mostly because he wanted an excuse to look at Cael without staring at his back.
 
@@ -214,7 +216,7 @@ A muscle moved in Cael's jaw. "I want to know."
 
 "If it's real."
 
-The answer came too quickly. Riven looked away toward the hillside, seeing the yard in it: chalk marks, distances, Cael sitting on cold stone with his sleeves rolled up, measuring things nobody had asked him to measure.
+The answer came too quickly. Riven looked away toward the hillside, seeing the yard in it: chalk marks, distances, Cael sitting on cold stone with his sleeves rolled up, measuring things nobody had asked him to measure. The road ahead climbed through scattered pines toward a ridge line still lost in cloud.
 
 "And if it is?" Riven asked. "Then what?"
 
@@ -264,7 +266,7 @@ Cael sighed. "Riven."
 
 For the first time in a while, Cael looked over. "I'm glad you came."
 
-Riven stared at the trail ahead, the words landing wrong or maybe too right. "Don't."
+The trail widened here, shale giving way to packed dirt between pine trunks. Wind moved the branches overhead. Riven stared at the trail ahead, the words landing wrong or maybe too right. "Don't."
 
 "Don't what?"
 
@@ -274,9 +276,9 @@ Cael watched him for a moment, then nodded. "All right."
 
 They kept walking. After a while Riven adjusted the rope on his pack again, more carefully this time, and when Cael drifted back alongside him he didn't argue about it.
 
-By midday the road had turned to broken shale, every step sending small stones clicking against one another in a sound that settled somewhere behind Riven's teeth. The sun pushed through the clouds now and then, dust gathering on Cael's shoulders; Greyhaven was out of sight, and Riven didn't look back.
+By midday the road had turned to broken shale, every step sending small stones clicking against one another in a sound that settled somewhere behind Riven's teeth. The sun pushed through the clouds now and then, dust gathering on Cael's shoulders; Greyhaven was out of sight, hills rolling east and north with no town on any of them, and Riven didn't look back.
 
-When they stopped to eat, it was bread and hard cheese wrapped in cloth, dry enough that neither of them talked much while chewing. Cael cut the food into equal portions with practiced care while Riven watched a hawk circling high above the valley until it disappeared.
+When they stopped to eat, it was bread and hard cheese wrapped in cloth, dry enough that neither of them talked much while chewing. They sat on a flat rock at the trail's edge, drop-off behind them, empty valley below. Cael cut the food into equal portions with practiced care while Riven watched a hawk circling high above the valley until it disappeared.
 
 Riven counted the portions twice. "You gave yourself the bigger piece."
 
@@ -332,7 +334,7 @@ Cael grunted. Not agreement. Not disagreement.
 
 The road forked late in the day, one branch wider and worn smooth by carts, the other climbing sharply through loose scree. Cael stopped. "Left's longer," he said. "Right's steeper."
 
-A marker stone sat between the branches, somebody's initials carved shallow and already weathering. No cloth. No note about water. Riven read the emptiness as its own message—either nobody had passed lately, or nobody cared enough to leave word.
+A marker stone sat between the branches, somebody's initials carved shallow and already weathering. No cloth. No note about water. Hills rose on both sides, the wider road dropping toward distant trees, the steeper path cutting straight up through pale rock. Riven read the emptiness as its own message—either nobody had passed lately, or nobody cared enough to leave word.
 
 "Right," Riven said, the answer coming before he'd fully thought it through, and Cael nodded as they took the steeper path.
 
@@ -346,7 +348,7 @@ Halfway up the scree a cart rut ended in a pile of spilled grain—somebody had 
 
 Further up, Riven's pack shifted wrong again. He stopped, retied both straps, checked the bread count without meaning to. Two loaves. One iron wrap. One and a half skins. Numbers he could trust if his hands could.
 
-By the time the light began to fade, Greyhaven had disappeared behind the hills. They made camp in a shallow hollow where the stone blocked most of the wind—the same hollow Cael had marked on the step last night, if Riven's memory of chalk matched the ground. Cael built a fire, and Riven watched sparks drift upward into the dark.
+By the time the hills swallowed the harbor glow, Greyhaven had disappeared behind them. They made camp in a shallow hollow where the stone blocked most of the wind—the same hollow Cael had marked on the step last night, if Riven's memory of chalk matched the ground. A low fire ring showed where someone else had stopped recently. Cael built a fire, and Riven watched sparks drift upward into the dark between bare branches.
 
 Before sleep, Cael checked the rope, the skins, the bread count. Riven watched him do it—the same way he'd watched Cael read the monument, the bridge crew, the boot prints. Always measuring.
 

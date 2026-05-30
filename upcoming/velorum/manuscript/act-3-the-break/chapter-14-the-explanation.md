@@ -122,7 +122,7 @@ He patrolled the south market cordon with two city guards who did not know his n
 
 At the cordon line a baker asked whether the demonstration would use the same timber from the west berm. Cael said mock timber in the square, real timber on the walls. The baker nodded and went back to stacking loaves behind a shutter that only opened half way. Through the bond Riven sent a spike of irritation at the question—wrong target, wrong day—and Cael felt it land in his ribs like a misplaced step.
 
-The cordon ran between still-smoking eaves and patched awnings. Midmorning sun caught the upper façades; below the lane stayed grey and cold, ash grit underfoot where the attack had scorched the stones.
+The cordon ran between still-smoking eaves and patched awnings. Ash grit underfoot where the attack had scorched the stones; above, laundry lines still hung between upper windows, untouched.
 
 At the tanners' row a man blocked the lane with a handcart full of vinegar jars. The row narrowed until the shafts had to fold; vinegar and hide smoke hung in a band at shoulder height. "They say you can feel fear before it happens," he said to Cael. "Can you feel the next raid?"
 
@@ -138,7 +138,7 @@ At the cooper's stall a man held up a broadside with their woodcut and asked if 
 
 Children pointed. A woman asked if the bond could keep raiders from the grain quarter. Cael said it could help if people moved when told and did not crowd the stairs. He hated hearing himself sound like Halverin. He hated that the words were still true.
 
-At the riverside entrance he stopped without meaning to. The landing was cleared of bodies but not of stain. Chalk marked where the beam had fallen. A memorial candle sat in a cracked bowl, unlit because wind kept killing the flame.
+At the riverside entrance he stopped without meaning to. The landing was cleared of bodies but not of stain. Chalk marked where the beam had fallen. A memorial candle sat in a cracked dish, unlit because wind kept killing the flame.
 
 Riven's distance came through the bond as a tight band around Cael's ribs. Not words. Mood. *Don't stand there too long.*
 
@@ -198,19 +198,11 @@ Riven came back at dusk with bandage tape on his fingers and no comment about wh
 
 "Three more days," Cael said.
 
-They stood at the window together without speaking. Below, the square filled with rope and timber and the sound of hammers. A broadside flapped against the wall and caught light from a lantern. *Proof of steadiness,* the second line read. *Directed burden for the safety of Kestrel Gate.*
+They stood at the window together without speaking. Below, the square filled with rope and timber and the sound of hammers. A broadside flapped against the wall, paste still wet along the edge. *Proof of steadiness,* the second line read. *Directed burden for the safety of Kestrel Gate.*
 
 Cael watched until the paste dried. He told himself that was preparation, not surrender. The bond carried Riven's disbelief anyway, and Cael carried it back without answering, because answering would mean admitting he was already going along with Halverin's plan.
 
-Riven had not come back with the bandage tape. Cael felt him in the annex corridor through the bond—still, jaw locked, listening to Lyra move jars. Cael did not go after him. Halverin's clerk was still in the yard with a second broadside draft and a list of speaking rules that needed signatures before dawn.
-
-Cael signed the patrol roster instead. The clerk's face tightened. "Magistrate's office—"
-
-"Merrow's stack," Cael said. "File it there."
-
-The clerk left with the unsigned rules and the signed roster in different hands, which told Cael everything about which paper would matter tomorrow.
-
-He slept badly in the east barracks annex that night. The corridor lamp had burned low; orange light pooled on the plank floor while past the shutter the square was only noise. He woke to Riven already dressed, pacing the corridor, counting under his breath. Cael joined the count without asking what it was for. For six beats they matched. Then Riven turned too fast and the bond pulled wrong and both of them stopped.
+He slept badly in the east barracks annex that night. Past the shutter the square gave off rope creak and hammer taps in uneven bursts. He woke to Riven already dressed, pacing the corridor, counting under his breath. Cael joined the count without asking what it was for. For six beats they matched. Then Riven turned too fast and the bond pulled wrong and both of them stopped.
 
 "Again," Cael said.
 
@@ -232,17 +224,17 @@ The clerk left with the rules sheet still unsigned. Wax on the threshold hardene
 
 "He's putting us on a leash made of chalk," Riven said. "Don't dress it up."
 
-Cael blew out the lamp. In the dark the bond was louder: Riven's anger, Cael's wanting-to-believe, the shared fatigue of two bodies that had not slept through a night since the attack. Cael thought of the girl's breath at the stairs. He thought of Halverin's voice: *fear is a break of its own.* He thought of the margin note he had written and could not unsay.
+Cael pinched the room lamp wick flat. In the quiet the bond was louder: Riven's anger, Cael's wanting-to-believe, the shared fatigue of two bodies that had not slept through a night since the attack. Cael thought of the girl's breath at the stairs. He thought of Halverin's voice: *fear is a break of its own.* He thought of the margin note he had written and could not unsay.
 
 *Accept load. Do not split.*
 
 He repeated it until it felt less like a lie.
 
-Before the lamp died entirely a runner from Halverin's office tried the door again. Cael did not open it. Riven did not move from the cot. The runner slid a rehearsal schedule under the crack and left. Cael read it by moon through the shutter gap: margin drill at first light, horn test at second bell, public entry on signal one. His name twice. Riven's twice. Halverin's signature at the bottom in ink so fresh it still shone.
+Before the room went fully quiet a runner from Halverin's office tried the door again. Cael did not open it. Riven did not move from the cot. The runner slid a rehearsal schedule under the crack and left. Cael unfolded it by touch: margin drill at first light, horn test at second bell, public entry on signal one. His name twice. Riven's twice. Halverin's signature at the bottom in ink so fresh it still smelled wet.
 
-Riven said from the dark, "Burn it."
+Riven said from the cot, "Burn it."
 
-Cael fed it to the lamp. Ash smelled like paste and old wool. The schedule curled black and fell apart in his palm.
+Cael carried it to the yard brazier. Ash smelled like paste and old wool. The schedule curled black and fell apart in his palm.
 
 "Tomorrow," Riven said.
 
@@ -256,26 +248,15 @@ The bond hummed low. Riven's fatigue. His own. Shared whether they wanted it or 
 
 Cael closed his eyes and rehearsed the first count one more time.
 
-At first light he stood at the command hall window while Riven washed in the yard trough. Guards changed shift below—new spears, same rope lines. A paste crew finished the last broadside before the square opened: *STEADINESS RETURNS* in ink so wet it shone. Halverin's clerk asked Cael for a witness signature on the drying sheet. Cael pointed at Merrow's runner crossing the yard. "Ask her."
+At first light he stood at the command hall window while Riven washed in the yard trough. Guards changed shift below—new spears, same rope lines. A paste crew finished the last broadside before the square opened: *STEADINESS RETURNS* in ink still tacky on the sheet. Halverin's clerk asked Cael for a witness signature on the drying sheet. Cael pointed at Merrow's runner crossing the yard. "Ask her."
 
 The clerk asked Merrow. Merrow said no. The sheet dried anyway. The city would read it whether he signed or not.
 
-Cael joined Riven at the east barracks steps. They did not speak. The bond carried enough.
+Cael joined Riven at the east barracks steps. They did not speak. The bond carried enough. The square would open in an hour. The city would watch. His hands would either hold or fail in public. There was no third room.
 
-Inside, Halverin's clerk had left a third copy of the speaking rules on the cot. Riven fed it to the lamp without reading. Cael watched the ash curl and thought of the girl's breath at the stairs. Thought of chalk on the square. Thought of the margin note on his wrist: *Accept load. Do not split.*
+He flexed his fingers. The margin note on his wrist had smeared to a blur. He could still read it.
 
-The square would open in an hour. The city would watch. His hands would either hold or fail in public. There was no third room.
+Merrow's runner brought a final note at second bell: *West lane open. Injury slates blank. Don't sign magistrate sheets.* Cael read it once and fed it to the yard brazier with the ash from Halverin's schedule. Riven watched both burn. Neither spoke.
 
-He stood at the window until the paste dried on the last broadside. Riven joined him without speaking. Below, rope crews finished the east marks. Halverin's horn tested once and cut off. Merrow's medic wagon rolled into the west lane. Lyra's south tent flap opened and closed.
+They walked to the square together without speaking. Chalk marks fresh. Ropes manned. Halverin's horn silent for once until the bell.
 
-Cael flexed his fingers. The margin note on his wrist had smeared to a blur. He could still read it.
-
-At second bell Merrow's runner brought a final note: *West lane open. Injury slates blank. Don't sign magistrate sheets.* Cael read it once and fed it to the lamp with Halverin's schedule. Riven watched both burn. Neither spoke. The bond carried enough for two men who had run out of private words.
-
-Before dawn a cooper's crew crossed the yard hauling wooden supports toward the square. Cael watched from the shutter gap until Riven's impatience crossed the bond and he closed the wood. Counting in the dark was still counting. Halverin's voice would take over at first bell whether they were ready or not.
-
-Riven washed in the yard trough. Cael signed Merrow's patrol slate. Halverin's clerk watched from the magistrate steps and wrote something down when Cael did not look up. The bond carried Riven's *let him* and Cael's *ignore him* in the same pulse.
-
-They walked to the square together at first light without speaking. Chalk marks fresh. Ropes manned. Halverin's horn silent for once until the bell.
-
-Inside the command hall a clerk had stacked six unsigned broadside drafts with their names centered in bold. Merrow's runner used them to light the brazier. Cael smelled paste ash on the air and kept walking toward the east steps.
