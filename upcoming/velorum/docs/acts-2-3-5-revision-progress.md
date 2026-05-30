@@ -1,6 +1,6 @@
 # Acts II, III & V — revision progress
 
-**Calibration:** **[act-1-calibration-standard.md](./act-1-calibration-standard.md)**  
+**Calibration:** **[act-1-calibration-standard.md](./act-1-calibration-standard.md)** (craft bar) · **[target-length-spec.md](./target-length-spec.md)** (book-scale ~100k targets) · **[expansion-progress.md](./expansion-progress.md)** (length tracker)  
 **Voice / passes:** **[voice-spec.md](./voice-spec.md)**, **[chapter-edit-pass.md](./chapter-edit-pass.md)**  
 **Doc index:** **[README.md](./README.md)**
 
@@ -27,7 +27,7 @@ Per-chapter pipeline counts are in the **Chapter log** baseline column below.
 |-----|-------------:|-----------|
 | II | ~1,600–2,000 | Act I + ch. 6 consequences model |
 | III | ~1,600–2,000 | ch. 18 show-don't-thesis; two-level dialogue |
-| V | ~1,200–1,800 | Act IV compression + Act I thematic heat |
+| V | ~1,600–2,000 | Craft pass complete on branch `velorum/act-5-expansion-polish`; **publication target ~10k act / ~2,500 avg/ch** per **target-length-spec** |
 
 Compare to **Act I ~1,786 avg** and **Act IV ~1,172 avg** (**act-1-calibration-standard**).
 
@@ -63,6 +63,11 @@ Compare to **Act I ~1,786 avg** and **Act IV ~1,172 avg** (**act-1-calibration-s
 | 18 | chapter-18-collapse-in-public.md | 2,201 | — | pending |
 | 19 | chapter-19-the-silence-after.md | 2,375 | — | pending |
 | 20 | chapter-20-lyra-leaves.md | 2,181 | — | pending |
-| 27–30 | act-5-the-legend/* | — | — | pending |
+| 27 | chapter-27-the-choice.md | 807 | 1,600 | **done** — return/loft trap; love vs load; berm choice from necessity |
+| 28 | chapter-28-the-threat-to-greyhaven.md | 669 | 1,603 | **done** — berm tear; Cael purpose-as-path; split-without-splitting load |
+| 29 | chapter-29-surrender.md | 760 | 1,669 | **done** — Heartbridge full surrender; necessity not belief; Bran/crew witness |
+| 30 | chapter-30-velorum-holds.md | 876 | 1,606 | **done** — Lyra witness; statue vs bodies; clinic truth; quiet aftermath |
+
+**Act V revised total (27–30):** ~6,478 words · **~1,620 avg/ch** (stub baseline ~3,112 / ~778 avg) · **Act V complete**
 
 Update as chapters complete manual revision (same workflow as Act I / IV).

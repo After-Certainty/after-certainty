@@ -2,7 +2,7 @@
 
 The tear opened across the ridge at dusk and took the sky with it.
 
-Riven stood on Heartbridge hill with Cael beside him and watched Greyhaven's northern fields buckle wrong, grass lifting without wind, shadows lagging behind trees. The bond was so loud he could not hear his own thoughts unless Cael was thinking the same thing.
+Riven stood on Heartbridge hill with Cael beside him and watched Greyhaven's northern fields buckle wrong, grass lifting without wind, shadows lagging behind trees. The bond was so loud he could not hear his own thoughts unless Cael was thinking the same thing. His ears rang. His jaw ached from Cael's clenched teeth three feet away.
 
 "It's moving toward the town," Bran said from behind them, voice thin.
 
@@ -12,9 +12,23 @@ Merrow's last message had said other towns held or fell. Greyhaven would not fal
 
 He had tried every other road.
 
+They had spent the afternoon on the north berm with timber and rope and laborers who kept glancing at their hands like the bond might jump skin. The channel had held one hour, then two. Then the pressure shifted uphill and Bran sent runners to Heartbridge because the old monument sat on the line the maps drew when the land forgot how to agree with itself.
+
+Riven had eaten nothing since dawn except hard bread and regret. Hunger sat in his gut and crossed to Cael as a hollow pull that had nothing to do with food. Cael's focus had been a blade all day, sharp enough to cut anyone who asked how they felt. Riven had stopped asking.
+
+The climb to the hill had taken twenty minutes that felt like an hour. His thighs burned. Dust stuck to sweat at his collar. Below, the harbor caught the last light and threw it back wrong, water bright where it should have gone dark. Pilgrims' tents from the last festival still dotted the lower slope, canvas flapping without wind. Someone had left a wreath at the monument base that morning, flowers already brown at the edges.
+
+"How long?" one of the rope crew asked Bran.
+
+"Long enough to break them or save us," Bran said. "Pick one."
+
+Nobody laughed.
+
+Bran had brought six men and two women from the rope crew. They stood in a loose ring ten paces back, not close enough to touch, not far enough to pretend they were not watching a pair the town already wrote songs about. One of the women held a coil of line she would not need. Riven felt her fear cross the bond as a twitch in Cael's left hand.
+
 "Full load," Cael said. Not a question.
 
-Riven looked at the hill monument, two men carved with a rope between them, heroes curse never forgotten. He had climbed this hill wanting meaning. He had the meaning now. It tasted like metal.
+Riven looked at the hill monument, two men carved with a rope between them, heroes curse never forgotten. The old stone was cracked from winter and from whatever had happened on the berm at midday. He had climbed this hill wanting meaning. He had the meaning now. It tasted like metal.
 
 "If we do this, we don't come back as ourselves," Riven said.
 
@@ -26,7 +40,21 @@ Riven looked at the hill monument, two men carved with a rope between them, hero
 
 Riven nodded once. "I know."
 
-Below, the tear pulsed. A section of the north berm lifted and dropped. People screamed in the market. Sound arrived late.
+Below, the tear pulsed. A section of the north berm lifted and dropped. People screamed in the market. Sound arrived late, as if the air had to decide whether to carry it. Riven saw a cart overturn near the mill channel, saw men run toward it and away in the same breath. He felt Cael cataloguing load points the way he always did, timber, brace, body, not prayer.
+
+Bran stepped closer. "Merrow's note said if you can't hold, don't come back as symbols." He looked at the tear, then at them. "Nobody asked you to be symbols. The berm's asking."
+
+Riven wanted to say he had never asked to be a symbol either. The town had decided that for him at Kestrel Gate, in the square, on every broadside that survived the paste shortage. He looked at the carved rope between the stone men's shoulders and thought about the woodcut version, cleaner, crueler, built for children to memorize.
+
+"You sure?" Bran asked. Not Cael. Riven.
+
+"No," Riven said. "I'm sure about the other thing."
+
+"Which is?"
+
+"If we don't, the market goes under before midnight."
+
+Bran held his gaze a beat, then nodded and stepped back into the ring.
 
 "This isn't belief," Riven said.
 
@@ -40,7 +68,7 @@ Below, the tear pulsed. A section of the north berm lifted and dropped. People s
 
 "Yes."
 
-Riven breathed in. Cael breathed with him on the fourth count, not performance, habit earned in blood.
+Riven breathed in. Cael breathed with him on the fourth count, not performance, habit earned in blood on river stairs and in the square when Halverin's voice stopped being god.
 
 He stopped resisting the bond.
 
@@ -48,7 +76,7 @@ Not the partial surrender of the square when they disobeyed counts. Not the road
 
 It hurt like drowning in his own chest and someone else's at once.
 
-Cael gasped. Riven gasped. They grabbed each other's forearms on the hill stone the way they had in the square when Halverin's voice stopped being god.
+Cael gasped. Riven gasped. They grabbed each other's forearms on the hill stone the way they had in the square when the load first showed its teeth. Riven's fingers found the old rope groove in the granite, worn smooth by pilgrims and rain. The stone was cold under his palms and warm under Cael's at the same time, which made no sense and did not stop.
 
 "Hold," Cael said.
 
@@ -58,7 +86,7 @@ They held.
 
 The tear met them like weather. Pressure behind the eyes, along the spine, in the teeth. Velorum not as figure, as system answering a pair that finally stopped pretending they were two separate loads.
 
-Riven felt Greyhaven in the bond, not thoughts, consequence: berms, channels, roofs, bodies running. The land noticed. The land adjusted wrong, then adjusted toward.
+Riven felt Greyhaven in the bond, not thoughts, consequence: berms, channels, roofs, bodies running. The cooper's yard where they had slept last night. The loft beam Cael had counted cracks in. The lower market where Bran had sworn like a prayer. The land noticed. The land adjusted wrong, then adjusted toward.
 
 Pain tore through both of them. Riven heard himself scream and heard Cael in the same sound. He saw the monument crack a hairline and hated that symbolism would survive when privacy would not.
 
@@ -68,6 +96,12 @@ He remembered Lyra's hand on his wrist in the annex. He remembered wanting one f
 
 Cael's purpose fed into him, steady, brutal, useful. Riven's refusal fed into Cael, kept him from dissolving into pure sacrifice. They were not merging. They were carrying one load at full capacity.
 
+Behind them someone sobbed. Riven could not turn to look. The rope crew had dropped to their knees. Bran stayed standing, boots planted, face gray in the failing light.
+
+The load did not arrive all at once. It came in waves, berm, channel, cooper's yard, lower roofs, each place they had touched in the last three days pulling through the bond like rope through a block. Riven's vision narrowed. He tasted iron and harbor salt. Cael's steadiness kept him from sliding off the stone into the kind of panic that would have dropped the load onto the town.
+
+For one sick moment he felt Lyra's absence as a clean space in the circuit, a door shut he could not open. Cael felt it too. Neither spoke. There was no room.
+
 The tear eased. Water slowed in the channel. Grass settled. Sound caught up with motion.
 
 Riven's knees hit stone. Cael's did too, not mirrored, pulled. They stayed upright because falling would mean the load dropped onto the town.
@@ -76,13 +110,13 @@ Minutes passed. Or hours. Time lagged like everything else.
 
 When it ended, Riven's body did not feel like his alone. Breath, heartbeat, ache, all doubled, braided, permanent.
 
-Cael coughed blood that tasted like Riven's split lip. Riven's ribs throbbed with Cael's shoulder bruise. The bond did not relax.
+Cael coughed blood that tasted like Riven's split lip. Riven's ribs throbbed with Cael's shoulder bruise from the berm brace. The bond did not relax.
 
 "Done?" Bran asked from far away.
 
 "Done for now," Riven said.
 
-Greyhaven below still stood. Smoke rose from one lost warehouse. People moved in the streets like ants after a boot lifts.
+Greyhaven below still stood. Smoke rose from one lost warehouse. People moved in the streets like ants after a boot lifts. A bell rang wrong once, then found its note.
 
 Riven did not feel saved. He felt spent.
 
@@ -94,7 +128,25 @@ Cael leaned against the monument base. "We didn't become stone."
 
 Riven laughed once, broken, and felt Cael laugh in his chest without permission.
 
-They sat on the hill until stars came out wrong and then righted. No ceremony. No magistrate speech. No broadside.
+Bran came up the last steps slow, like the hill might reject his weight. He looked at the hairline crack in the monument, at their hands still locked on each other's arms, at the tear fading to a wrong shimmer over the fields.
+
+"The channel's holding," he said. "Market's dry. We lost the warehouse."
+
+"People?" Riven asked.
+
+"Scared. Alive." Bran swallowed. "Old Marta's boy got a cut on the run. Nothing deep. Your clinic friend left supplies before she went."
+
+Lyra's name sat between them like a third person. Riven felt Cael's grief spike and choke it down. The bond carried both.
+
+"What do you need?" Bran asked.
+
+"Water," Cael said. "And nobody carving our faces before we've washed the blood off."
+
+Bran almost smiled. "I'll see what I can do."
+
+He left two skins and a strip of clean cloth and went down the hill to organize the living. Riven drank. The water was warm and tasted like the cooper's tank. Cael drank from the same skin without asking. Their hands shook when they lowered it.
+
+They sat on the hill until stars came out wrong and then righted. No ceremony. No magistrate speech. No broadside. The rope crew drifted down in twos and threes, whispering, not to them.
 
 Only the bond, tight, unrelenting, and the knowledge that he had chosen this not because he believed in purity or destiny, but because letting go would have cost everyone else everything he had once climbed this hill to protect.
 
