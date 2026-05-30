@@ -138,8 +138,6 @@ Riven tasted blood again. His or Cael's. The bond wouldn't say.
 
 They slammed against a boulder and stopped. For several seconds neither moved. The belt still connected their wrists. The leather felt absurd. Wonderful. Real. Something outside the bond. Something they could touch.
 
-Riven tasted blood. Not his. Cael's split lip from two days ago, reopened. Or his own. The bond didn't sort it.
-
 "No." Riven's voice shook. He grabbed the belt harder. "No. Fuck. No."
 
 Cael was breathing just as hard. "Breathe."

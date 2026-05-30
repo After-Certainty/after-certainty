@@ -56,9 +56,7 @@ A chapbook printer's boy thrust a wet broadside between themâ€”*THE TOWN HELD*â€
 
 "Always," Cael said. "Different spots. Same load."
 
-Lyra nodded. She had predicted that. She had also predicted they would survive and call it victory. The town did. The stone did.
-
-"Does it hurt?" she asked.
+Lyra nodded. She had predicted that. She had also predicted they would survive and call it victory. The town did. The stone did. "Does it hurt?" she asked.
 
 "Yes," Riven said. No poetry.
 
@@ -66,9 +64,7 @@ Lyra nodded. She had predicted that. She had also predicted they would survive a
 
 "All the time," Cael said.
 
-Lyra looked at the statue visible above roofs, smooth faces, rope clean as theology.
-
-"They'll remember you like that," she said.
+Lyra looked at the statue visible above roofs, smooth faces, rope clean as theology. "They'll remember you like that," she said.
 
 "They remember a lie that keeps the berm up," Riven said.
 

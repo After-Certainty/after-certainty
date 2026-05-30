@@ -36,9 +36,7 @@ The infirmary annex occupied what used to be a storage room—shelves on one wal
 
 Riven dropped onto the stool. "Neither did anybody else."
 
-"That's not what I asked."
-
-He rubbed at the split in his lip. Without looking up, Lyra smacked his hand away. Riven stopped. She kept folding cloth. "How many did you lose in here?"
+"That's not what I asked." He rubbed at the split in his lip. Without looking up, Lyra smacked his hand away. Riven stopped. She kept folding cloth. "How many did you lose in here?"
 
 "Enough."
 

@@ -2,9 +2,7 @@
 
 Second bell. No wind shift. No horn from the outer posts. Cael was on the inner wall above the south market, watching the afternoon crowd move through the grain stalls below—the council check Halverin had ordered could wait until things settled.
 
-Below him a paste crew hung a fresh strip on the magistrate wall—*TRUST THE SWORN PAIR*—though Merrow's note still said *Not yet.* Cael initialed Merrow's runner slate and kept watching the grain carts.
-
-Ration lines were shorter than yesterday. A porter argued with a clerk over weight. Somebody's child ran between the wagons chasing a dog. Normal enough that Cael had started to believe the roster might actually be boring.
+Below him a paste crew hung a fresh strip on the magistrate wall—*TRUST THE SWORN PAIR*—though Merrow's note still said *Not yet.* Ration lines were shorter than yesterday. A porter argued with a clerk over weight. Somebody's child ran between the wagons chasing a dog. Normal enough that Cael had started to believe the roster might actually be boring.
 
 Merrow's runner passed below with a slate—*east barracks quiet, riverside entrance clear.* Cael initialed it and kept watching the grain carts.
 
@@ -16,9 +14,7 @@ Below the wall a cooper dropped his hammer and ran toward the smoke without look
 
 "South gate shut!" Captain Merrow shouted from the tower stairs. "Keep the lane clear!"
 
-Cael was already moving before she finished, boots slamming the wall steps two at a time. He pulled for Riven, hard and immediate.
-
-Below the wall a cooper's cart overturned. Spilled nails glittered in the smoke. A child pinned under an awning pole screamed once. Cael marked the paths and kept moving.
+Cael was already moving before she finished, boots slamming the wall steps two at a time. He pulled for Riven, hard and immediate. Below the wall a cooper's cart overturned. Spilled nails glittered in the smoke. A child pinned under an awning pole screamed once. Cael marked the paths and kept moving.
 
 East barracks. Running. Coming.
 
@@ -168,7 +164,7 @@ Riven leaned on the stone railing, smoke darkening his sleeves, blood dried blac
 
 Cael looked out across the rooftops—burned beams, aid carts threading the lanes, people still moving through the dark. He couldn't stop replaying the half-seconds: the dockworker's throat, the girl's name on the stairs, the fishmonger's brother who would never come back from the salt yard.
 
-Paste crews on the magistrate wall were already hanging a fresh strip—*THE CITY HELD*—though the ink was still wet and the riverside entrance were still counting dead.
+Paste crews on the magistrate wall were already hanging a fresh strip—*THE CITY HELD*—though the ink was still wet and the riverside entrance was still counting dead.
 
 Finally he said: "I'm trying not to."
 

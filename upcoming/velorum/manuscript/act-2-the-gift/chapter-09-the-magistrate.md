@@ -106,9 +106,7 @@ Riven laughed—sharp, humorless. "Stabilize."
 
 For the first time, Halverin looked directly at him. No irritation, no defensiveness—just the calm expression of somebody who'd already had this argument with himself. "Privacy," he said carefully, "is a luxury when your choices don't stick to anybody else."
 
-Silence. The aide stopped writing. Halverin didn't look away. Neither did Riven. Nobody moved.
-
-Riven's anger hit the bond hot. Cael's own colder thought came anyway: if Halverin was right, what they were losing might still buy the city time.
+Silence. The aide stopped writing. Halverin didn't look away. Neither did Riven. Nobody moved. Riven's anger hit the bond hot. Cael's own colder thought came anyway: if Halverin was right, what they were losing might still buy the city time.
 
 He hated that. His hands stayed flat on the table.
 

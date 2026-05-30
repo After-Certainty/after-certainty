@@ -16,9 +16,7 @@ Lyra set a cup of bitter tea in front of him. "Drink. You're shaking."
 
 "I'm not shaking."
 
-"You are." She pulled the stool closer. Her hands were steady. That steadiness was not performance; it was practice, the same way Cael practiced counts. Riven envied it and hated that Cael's envy came through the bond on top of his own. Her fingers were nicked from work and clean anyway.
-
-She checked the jar labels without looking at him—salve, thread, strip knife, charcoal for slates. "Square's short two cots. Merrow borrowed one. Halverin borrowed the other for show."
+"You are." She pulled the stool closer. Her hands were steady—that steadiness was not performance; it was practice, the same way Cael practiced counts. Riven envied it and hated that Cael's envy came through the bond on top of his own. Her fingers were nicked from work and clean anyway. She checked the jar labels without looking at him—salve, thread, strip knife, charcoal for slates. "Square's short two cots. Merrow borrowed one. Halverin borrowed the other for show."
 
 "Borrowed," Riven said.
 
@@ -38,15 +36,11 @@ Riven laughed without humor. "It's the only part I have left."
 
 Lyra was quiet for a moment. Outside, a cart rolled past and someone shouted about rope lines. Through the high windows Riven caught only rooflines and the plumb line swaying in the square below; hammers, a child crying, Halverin's horn testing one note and cutting off.
 
-"This isn't refinement," she said.
-
-She set down the needle roll and faced him fully. No chart. No diagnosis sheet. Just the room and the bond loud between them.
+"This isn't refinement," she said. She set down the needle roll and faced him fully. No chart. No diagnosis sheet. Just the room and the bond loud between them.
 
 Riven's throat tightened. "Say it plain."
 
-"You keep saying alignment, burden, discipline—words to make loss sound necessary." She held his gaze. "It's invasive dependence. The stairs weren't disobedience. You carried each other's panic until neither of you could move."
-
-Lyra's hands stayed on the prep table edge. The needle roll sat between them. Past her shoulder the cot row ran the length of the room; the corridor door stood half open, and Cael's counting scraped through it—boot, pause, boot. Riven looked from her steady fingers to the door, then back to her eyes.
+"You keep saying alignment, burden, discipline—words to make loss sound necessary." She held his gaze. "It's invasive dependence. The stairs weren't disobedience. You carried each other's panic until neither of you could move." Lyra's hands stayed on the prep table edge. The needle roll sat between them. Past her shoulder the cot row ran the length of the room; the corridor door stood half open, and Cael's counting scraped through it—boot, pause, boot. Riven looked from her steady fingers to the door, then back to her eyes.
 
 Riven looked down at the tea. The surface shook when he breathed. "Halverin says we resisted."
 
@@ -198,7 +192,7 @@ The orderly left. Riven watched the door swing shut. "How many cots left?"
 
 "Not enough," Lyra said. "Never enough after an attack. Fewer after a square."
 
-She capped the salve jar. "Go. Before he counts you into the ground." Through the bond Cael's counting stopped. A door opened. Footsteps toward the square. Riven stood.
+She capped the salve jar. "Go. Before he counts you into the ground." Through the bond Cael's counting stopped. A door opened. Footsteps toward the square.
 
 "I have to go."
 
@@ -216,11 +210,7 @@ Lyra looked at him for a long beat. "You keep living. You stop pretending living
 
 "The city learns what it sees," she said. "Hide the cost, it learns a lie. Show the cost, it learns fear. No clean outcome. Halverin sells clean. That's his trade."
 
-She washed her hands though they were already clean. "Your palms will split today. So will his. Bring them to my lane, not Halverin's office."
-
-Riven looked at the injury slate on the table—blank lines for noon, for dusk, for whatever the square added. Lyra had already written *south lane* in the margin twice.
-
-Riven stood. His knees protested. "Cael thinks clean is still possible."
+She washed her hands though they were already clean. "Your palms will split today. So will his. Bring them to my lane, not Halverin's office." Riven looked at the injury slate on the table—blank lines for noon, for dusk, for whatever the square added. Lyra had already written *south lane* in the margin twice. His knees protested when he stood. "Cael thinks clean is still possible."
 
 "Cael thinks duty is still possible," Lyra said. "Duty might be. Clean isn't."
 
@@ -232,9 +222,7 @@ In the corridor Cael stood with his back to the plaster wall, broadside rules sh
 
 "Don't say it in front of me."
 
-"I wasn't going to." Riven kept walking. The bond carried Cael's flinch anyway—shame, anger, something that might have been agreement if Cael let it surface.
-
-He washed his face in the annex basin. The water rippled once and stilled; his face came back wrong-side first, then right. His arm ached where the stitch had pulled. Lyra's tea sat bitter on his tongue.
+"I wasn't going to." Riven kept walking. The bond carried Cael's flinch anyway—shame, anger, something that might have been agreement if Cael let it surface. He washed his face in the annex basin. The water rippled once and stilled; his face came back wrong-side first, then right. His arm ached where the stitch had pulled. Lyra's tea sat bitter on his tongue.
 
 Halverin's horn tested from the square—one note, cut off. Riven dried his face on his sleeve. The bond carried Cael's count under his breath in the corridor: one, two, hold.
 

@@ -70,9 +70,7 @@ A guard passed carrying the splintered frame piece. He did not salute Halverin. 
 
 Cael walked down the steps. Halverin did not follow. Cael did not look back to see if the magistrate remained or fled to his council room. It did not matter. The square had already decided.
 
-At the wagon Riven looked up. His eyes were red-rimmed. Not crying. Exhausted. Paste dust streaked his sleeve. Through the bond Cael felt Riven's pulse still too fast and the echo of *loss* spoken in the square, repeated in whispers behind them.
-
-Lyra checked Riven's wrist a second time. "Pulse still racing. Water. Sit."
+At the wagon Riven looked up. His eyes were red-rimmed—not crying, exhausted. Paste dust streaked his sleeve. Through the bond Cael felt Riven's pulse still too fast and the echo of *loss* spoken in the square, repeated in whispers behind them. Lyra checked Riven's wrist a second time. "Pulse still racing. Water. Sit."
 
 "We already sat," Riven said.
 
@@ -86,9 +84,7 @@ Cael opened his mouth. Closed it. The honest answer was no. The honest answer wa
 
 "That's not what I fucking asked."
 
-"I know."
-
-Lyra released Riven's wrist. "South tent's full. Take water. Don't sign anything tonight."
+"I know." Lyra released Riven's wrist. "South tent's full. Take water. Don't sign anything tonight."
 
 "We already signed," Cael said.
 
@@ -102,17 +98,11 @@ An old woman pressed a charm into Cael's palm at the barracks door. "For steadin
 
 Inside the annex the table sat between the two cots, lamp wick trimmed, font empty. Cael sat on the cot edge and unlaced one boot. His fingers shook. He blamed the bond. He blamed fatigue. He blamed Halverin. He blamed himself for wanting a plan that turned guilt into work.
 
-Riven lay on the other cot with one arm over his eyes.
-
-"Say it," Riven said.
+Riven lay on the other cot with one arm over his eyes. "Say it," he said.
 
 "Say what."
 
-"What you believe now."
-
-Cael stared at the ceiling beam. Cracks. Old smoke stain. A nail that had worked loose.
-
-"I believe we failed in public," he said. "I believe people saw it. I believe Halverin's path is broken."
+"What you believe now." Cael stared at the ceiling beam—cracks, old smoke stain, a nail that had worked loose. "I believe we failed in public," he said. "I believe people saw it. I believe Halverin's path is broken."
 
 "And us?"
 
@@ -174,13 +164,7 @@ A cooper's crew loaded splintered timber onto a debris wagon in the basin mud. T
 
 "Lyra's right," Riven said.
 
-"I know," Cael said.
-
-"Do you believe it?"
-
-Cael watched a strip of paper fall and twist in the wind. *STEADINESS RETURNS* broke in half.
-
-"Yes," he said. "I just don't know what to do with yes yet."
+"I know," Cael said. "Do you believe it?" Cael watched a strip of paper fall and twist in the wind. *STEADINESS RETURNS* broke in half. "Yes," he said. "I just don't know what to do with yes yet."
 
 The bond carried Riven's answer before Riven spoke it: *Neither do I.*
 
@@ -258,20 +242,12 @@ From the merlon at second watch: river wind in his teeth, Riven stacking splinte
 
 From the annex slit at third watch: corridor footsteps, paper slid under the door again, Halverin's crest wet on the ink, neither of them moving to open it.
 
-At dusk Cael turned from the glass. Riven was on the cot, awake, staring at the door as if it might open. It would not open the way they wanted.
-
-"She leaves tomorrow night," Cael said.
+At dusk Cael turned from the glass. Riven was on the cot, awake, staring at the door as if it might open. It would not open the way they wanted. "She leaves tomorrow night," Cael said.
 
 "I know," Riven said.
 
-They did not say more. The silence held. Footsteps in the corridor. A wagon wheel outside. Lyra's bundle already packed on the second wagon bench, not gone yet but going.
-
-Riven turned on the cot. Cael heard the fabric scrape through the bond before he heard it with his ears.
-
-"Gate clears in an hour," Cael said.
+They did not say more. The silence held—footsteps in the corridor, a wagon wheel outside, Lyra's bundle already packed on the second wagon bench, not gone yet but going. Riven turned on the cot. Cael heard the fabric scrape through the bond before he heard it with his ears. "Gate clears in an hour," Cael said.
 
 "I know," Riven said.
 
-Neither of them slept. At first gray Merrow's runner left a note on the command hall door: *Lyra on manifest—Greyhaven when gate clears tomorrow night.* Cael read it and did not show Riven until second bell. Riven read it once and said nothing. The bond carried enough.
-
-In the corridor an orderly retched once and was gone. Footsteps. Silence. Cael counted breaths until numbers replaced names and the square's paste smell faded enough to sleep through, barely.
+Neither of them slept. At first gray Merrow's runner left a note on the command hall door: *Lyra on manifest—Greyhaven when gate clears tomorrow night.* Cael read it and did not show Riven until second bell. Riven read it once and said nothing. The bond carried enough. In the corridor an orderly retched once and was gone. Footsteps. Silence. Cael counted breaths until numbers replaced names and the square's paste smell faded enough to sleep through, barely.

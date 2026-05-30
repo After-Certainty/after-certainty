@@ -82,9 +82,7 @@ Riven counted the figure's breaths. Slow. Even. One less than his own. Or one mo
 
 Riven took two steps forward. "We're looking for Velorum."
 
-The figure did not turn.
-
-Cael came up beside him, voice low. "Ask what happens to us."
+The figure did not turn. Cael came up beside him, voice low. "Ask what happens to us."
 
 Riven did. "What happens to us if we keep carrying this?"
 
@@ -92,11 +90,7 @@ Silence. Wind across the basin.
 
 "Do you understand the bond?" Cael tried, sharper. "Can it be undone?"
 
-Nothing.
-
-Riven counted heartbeats. His. Cael's. The figure's, if it had one. Three rhythms that refused to sync.
-
-Riven felt anger spike and Cael's matching frustration braid through the bond until his teeth ached. His hands wanted to shake. He kept them at his sides.
+Nothing. Riven counted heartbeats. His. Cael's. The figure's, if it had one. Three rhythms that refused to sync. Anger spiked in him and Cael's matching frustration braided through the bond until his teeth ached. His hands wanted to shake. He kept them at his sides.
 
 He counted the silence. Ten breaths. Twenty. The basin breathed cold up through the stone and neither of them moved.
 
@@ -114,25 +108,17 @@ The basin wind picked up. Riven's voice came back to him a heartbeat late, thin,
 
 "Fuck," Riven said, and heard Cael's breath catch through the bond, not shock, agreement held too long in the throat.
 
-The figure stood. Hood fell back. Plain face. Eyes that looked past them, not through them, the way a man looked at a road marker instead of the road.
+The figure stood. Hood fell back. Plain face. Eyes that looked past them, not through them—the way a man looked at a road marker instead of the road.
 
 The Seeker turned and walked along the basin rim without speaking.
 
-Riven looked at the still water one last time. His reflection looked back late, as though the basin were deciding whether to let him leave.
-
-Riven looked at Cael. Cael looked at Riven.
+Riven looked at the still water one last time. His reflection looked back late, as though the basin were deciding whether to let him leave. He looked at Cael. Cael looked at Riven.
 
 "That's the answer?" Riven said.
 
 "That's the answer," Cael said.
 
 They followed.
-
-"Christ," Riven muttered. "Fine. Follow the fence post."
-
-The Seeker kept walking. The basin breathed cold through the stone beneath their boots.
-
-Riven could have turned back, back to Kestrel Gate, back to Halverin's unsigned sheet, back to Lyra's warning, back to a city already busy forgetting them. He didn't. Neither did Cael.
 
 The basin rim trail climbed and dropped without logic. Once the path doubled back on itself and they walked past their own footprints going the other direction. Riven stopped and stared. Cael stopped beside him. The Seeker did not stop. They followed the Seeker instead of the prints.
 

@@ -78,9 +78,7 @@ That stopped him. "What?"
 
 "I could," Lyra said. "That's not the same as staying and helping."
 
-She glanced at the corridor where Cael's presence pressed on the bond.
-
-"He's listening," she said.
+She glanced at the corridor where Cael's presence pressed on the bond. "He's listening," she said.
 
 "I know."
 
@@ -90,9 +88,7 @@ Riven stood. The stool scraped. "So you leave because we're broken."
 
 "I leave because staying would be a lie," she said. "I'd stand next to you bleeding in two directions and call it love. I won't."
 
-He wanted to argue. He wanted to grab her wrist and prove he could hold one feeling in one body if he tried hard enough. The bond answered with Cael's spike of jealousy and shame before Riven's hand moved.
-
-Lyra saw it. "There."
+He wanted to argue. He wanted to grab her wrist and prove he could hold one feeling in one body if he tried hard enough. The bond answered with Cael's spike of jealousy and shame before Riven's hand moved. Lyra saw it. "There."
 
 "I'm not—"
 
@@ -162,9 +158,7 @@ Cael did not speak for a long time. Then: "I'm sorry."
 
 "What do you want."
 
-Riven looked at the stool Lyra had pushed toward him. At the basin with pink water. At the bandage scraps on the table.
-
-"I want one feeling that doesn't travel," he said.
+Riven looked at the stool Lyra had pushed toward him. At the basin with pink water. At the bandage scraps on the table. "I want one feeling that doesn't travel," he said.
 
 Cael's face tightened. "I can't give you that."
 
@@ -172,7 +166,7 @@ Cael's face tightened. "I can't give you that."
 
 "She's not rejecting you," Cael said. "She said that."
 
-"I heard her." Riven's voice came out flat. "I also heard the wagon."
+"I heard her." Riven's voice stayed flat. "I also heard the wagon."
 
 They stood on opposite sides of the room like strangers who shared one chest. Outside the city kept moving. Debris wagons. Gate counts. Inside, something had ended without a fight and without a reconciliation, the way real endings often did.
 
@@ -186,9 +180,7 @@ Cael set his cup down untouched. "Halverin's clerk came today."
 
 "He'll come again."
 
-"Yeah," Riven said. "Everything comes again until it doesn't."
-
-Cael flinched. Somewhere in the yard a clerk called counts that nobody answered.
+"Yeah," Riven said. "Everything comes again until it doesn't." Cael flinched. Somewhere in the yard a clerk called counts that nobody answered.
 
 Riven picked up his coat. "I'm going to the wall."
 
@@ -246,9 +238,7 @@ Riven took one cup. They drank. They walked back to the annex side by side, not 
 
 "Greyhaven outer clinics. Far enough."
 
-"Yeah."
-
-Cael stopped at the annex door. "I'm sorry I felt it when you—"
+"Yeah." Cael stopped at the annex door. "I'm sorry I felt it when you—"
 
 "Don't," Riven said. "If you apologize for the bond one more time I'll walk into the wall headfirst."
 
@@ -262,16 +252,10 @@ No one fixed anything.
 
 Riven stared at the ceiling until the square noise through the wall thinned. Square. Horn lowered. Lyra's bundle on the second wagon. One feeling that did not travel, and he would not have it tonight.
 
-Before the yard went fully quiet he heard the supply train clear the outer bend—wheel ruts on the road, guard call fading. Riven turned on the cot. Cael felt the turn in his own shoulder.
-
-"She's gone," Riven said.
+Before the yard went fully quiet he heard the supply train clear the outer bend—wheel ruts on the road, guard call fading. Riven turned on the cot. Cael felt the turn in his own shoulder. "She's gone," Riven said.
 
 "I know," Cael said.
 
-They lay in the dark with the bond still open between them, static and grief and the ordinary fatigue of bodies that would work debris at first gray. No one fixed anything. No one signed anything. Merrow's slate would still say *wall duty* in the morning.
+They lay in the dark with the bond still open between them, static and grief and the ordinary fatigue of bodies that would work debris at first gray. No one fixed anything. No one signed anything. Merrow's slate would still say *wall duty* in the morning. Riven closed his eyes. Cael counted breaths until numbers replaced names again.
 
-Riven closed his eyes. Cael counted breaths until numbers replaced names again.
-
-At first gray Merrow's runner knocked once on the annex door and left a wall roster. Riven's name. Cael's name. Second watch. Ordinary ink. The bond carried Cael's relief that work still existed and Riven's refusal to feel relieved about anything yet.
-
-Riven got up anyway. That was all he had for now.
+At first gray Merrow's runner knocked once on the annex door and left a wall roster. Riven's name. Cael's name. Second watch. Ordinary ink. The bond carried Cael's relief that work still existed and Riven's refusal to feel relieved about anything yet. Riven got up anyway. That was all he had for now.

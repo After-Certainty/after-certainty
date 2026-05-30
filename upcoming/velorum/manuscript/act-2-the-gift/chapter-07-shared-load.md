@@ -103,7 +103,7 @@ Before the line moved on, Cael checked wagon straps and reinforced a cracked axl
 
 Two carts back a woman had cut her palm on a strap buckle. Riven cleaned it with river water and wrapped it with a strip from his shirt tail before Cael noticed. Cael noticed anyway—the bond carried the sting in his own palm—and said nothing.
 
-"Three bad stretches before the Gate," he said. "Split Mile. Marsh bend. Then the south road."
+"Three bad stretches before the Gate," Cael said. "Split Mile. Marsh bend. Then the south road."
 
 Cael nodded. "We'll know if they're bad before you roll into them."
 
@@ -141,9 +141,9 @@ At a spring lower on the slope, Cael knelt to fill the water skin. Before Riven 
 
 A woman from the rear wagon brought them cups—tin, dented, shared without asking. Riven drank because refusing would be a story. Cael drank because the bond carried Riven's thirst anyway.
 
-When he opened them, Cael was watching him. Riven reached for the skin before he thought about it. Cael reached too. Their fingers touched the same strap. Cael pulled back first. Riven drank anyway, from the side Cael always used, and hated that he knew that without asking.
+When Riven looked over, Cael was already watching him. Riven reached for the skin before he thought about it. Cael reached too. Their fingers touched the same strap. Cael pulled back first. Riven drank anyway, from the side Cael always used, and hated that he knew that without asking.
 
-Sun on the water. Pine needles floating at the edge. Riven corked the skin and tossed it over. "You keep flinching."
+When the skin was corked, Riven tossed it over. "You keep flinching."
 
 "You keep noticing."
 

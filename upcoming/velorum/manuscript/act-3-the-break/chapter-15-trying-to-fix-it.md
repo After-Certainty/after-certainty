@@ -54,9 +54,7 @@ At the end of the first day Merrow walked the west lane with Lyra and marked tri
 
 "Step on my count," Halverin said. "Breathe on my count. No improvising until you can hold the line without it."
 
-Riven missed a count on purpose once. The bond jerked; Cael's knee buckled half a beat. Halverin stopped the run.
-
-"Again," he said. "Not for each other. For everyone who thinks the ground's about to give."
+Riven missed a count on purpose once. The bond jerked; Cael's knee buckled half a beat. Halverin stopped the run. "Again," he said. "Not for each other. For everyone who thinks the ground's about to give."
 
 They ran it again. Cael felt the rhythm settle when he stopped fighting Riven's timing and started matching it. Not trust. Not forgiveness. Mechanics. On the road it had been the same: stop arguing with the weight and move where the weight already wanted to go.
 
@@ -168,11 +166,7 @@ Riven stopped under one of the broadsides. "If we fail tomorrow, it's not just u
 
 "I know," Cael said.
 
-"Do you?"
-
-Cael looked at the empty fountain basin, at the supports, at the platform where Halverin would stand and call them through the counts. He felt the bond pull tight between them, not in rhythm but in warning.
-
-"I know," he said again.
+"Do you?" Cael looked at the empty fountain basin, at the supports, at the platform where Halverin would stand and call them through the counts. He felt the bond pull tight between them, not in rhythm but in warning. "I know," he said again.
 
 He did not say he was afraid. The bond carried it anyway. Riven felt it and did not mock him for it. That was worse than mockery.
 
@@ -260,14 +254,10 @@ Riven said into the dark, "If the west lane closes tomorrow, I walk."
 
 Silence. Then Riven's turn on the cot, fabric scrape, bond spike, settle. Cael felt Riven's fear and his own answer it before he could stop either. He did not apologize. Apologies traveled too.
 
-First bell would come before the square went quiet enough to count. Cael lay still and listened to the square prepare—the scrape of rope on stone, a clerk calling names wrong and correcting, paste crews finishing a strip on the magistrate wall that nobody would read until morning.
-
-Below the annex shutter Halverin tested the horn once. The note held too long. The echo returned late from the north wall. Cael heard it in his teeth. Riven heard it too—the bond carried the wince before either of them spoke.
+First bell would come before the square went quiet enough to count. Cael lay still and listened—the scrape of rope on stone, a clerk calling names wrong and correcting, paste crews finishing a strip on the magistrate wall that nobody would read until morning. Below the annex shutter Halverin tested the horn once. The note held too long. The echo returned late from the north wall. Cael heard it in his teeth. Riven heard it too—the bond carried the wince before either of them spoke.
 
 "Late again," Riven said.
 
 "North wall always lies," Cael said. "We count on our feet tomorrow. Not the echo."
 
-Merrow's runner passed once under the shutter with chalk on his sleeve: *West lane open at dawn. Injury slates blank. Don't sign magistrate sheets.* Cael memorized it. Riven did too, without reading—the bond carried the words like a bruise.
-
-When the square finally went quiet, Cael lay still and listened to the square prepare—the scrape of rope on stone, a clerk calling names wrong and correcting, paste crews finishing a strip on the magistrate wall that nobody would read until morning. Below the annex a vendor argued with a guard about cart placement at the west lane mouth. Merrow's voice cut through once—short, final—and the cart rolled back. Cael heard the bond carry Riven's relief that the lane had held one more hour. Riven did not say thank you. Neither did Cael. Gratitude traveled too, and they were out of room for extra cargo.
+Merrow's runner passed once under the shutter with chalk on his sleeve: *West lane open at dawn. Injury slates blank. Don't sign magistrate sheets.* Cael memorized it. Riven did too, without reading—the bond carried the words like a bruise. Below the annex a vendor argued with a guard about cart placement at the west lane mouth. Merrow's voice cut through once—short, final—and the cart rolled back. Cael heard the bond carry Riven's relief that the lane had held one more hour. Riven did not say thank you. Neither did Cael. Gratitude traveled too, and they were out of room for extra cargo.

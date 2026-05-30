@@ -24,9 +24,7 @@ Riven made a short sound. "Resisting. Jesus Christ."
 
 Halverin slid a second sheet across the table—broadside mock-up, names centered, woodcut hands joined. "The city needs to see the opposite of the stairs. Not in a report. In the square."
 
-Cael had written the same thing in his own hand on the back of Merrow's after-action sheet. He had stared at the ink until the letters blurred. He knew the hesitation. He had felt Riven's shame hit him at the wrong second and thrown his own timing off in return. He could still see the dockworker's throat open and the daughter's blood on his wrists and Riven's half-step late on the landing.
-
-The command hall windows faced the yard where labor crews stacked timber for the square staging. Hammering came in bursts. A clerk's voice reading names for ration pickup. Normal city work continuing around the river-stairs scar, still marked with lime in the mud at the gate edge.
+Cael had written the same thing in his own hand on the back of Merrow's after-action sheet. He had stared at the ink until the letters blurred. He knew the hesitation. He had felt Riven's shame hit him at the wrong second and thrown his own timing off in return. He could still see the dockworker's throat open and the daughter's blood on his wrists and Riven's half-step late on the landing. The command hall windows faced the yard where labor crews stacked timber for the square staging. Hammering came in bursts. A clerk's voice reading names for ration pickup. Normal city work continuing around the river-stairs scar, still marked with lime in the mud at the gate edge.
 
 "The bond isn't a fucking switch," Riven said. "You don't flip it because a broadside says obedience."
 
@@ -238,15 +236,9 @@ Cael carried it to the yard brazier. Ash smelled like paste and old wool. The sc
 
 "Tomorrow," Riven said.
 
-"Tomorrow," Cael said.
+"Tomorrow," Cael said. Outside the shutter the square kept building. Hammer on timber. Chalk on stone. A paste crew sang off-key behind the magistrate wall, not cheer, just work rhythm. Cael listened until the bond carried Riven's breathing slow and even. Not sleep. Truce.
 
-Outside the shutter the square kept building. Hammer on timber. Chalk on stone. A paste crew sang off-key behind the magistrate wall, not cheer, just work rhythm. Cael listened until the bond carried Riven's breathing slow and even. Not sleep. Truce.
-
-He lay back on the cot and stared at the ceiling crack. Three branches. He counted them the way he counted steps. One for the stairs. One for the square. One for whatever came after Halverin's voice failed.
-
-The bond hummed low. Riven's fatigue. His own. Shared whether they wanted it or not.
-
-Cael closed his eyes and rehearsed the first count one more time.
+He lay back on the cot and stared at the ceiling crack. Three branches. He counted them the way he counted steps. One for the stairs. One for the square. One for whatever came after Halverin's voice failed. The bond hummed low. Riven's fatigue. His own. Shared whether they wanted it or not. Cael closed his eyes and rehearsed the first count one more time.
 
 At first light he stood at the command hall window while Riven washed in the yard trough. Guards changed shift below—new spears, same rope lines. A paste crew finished the last broadside before the square opened: *STEADINESS RETURNS* in ink still tacky on the sheet. Halverin's clerk asked Cael for a witness signature on the drying sheet. Cael pointed at Merrow's runner crossing the yard. "Ask her."
 

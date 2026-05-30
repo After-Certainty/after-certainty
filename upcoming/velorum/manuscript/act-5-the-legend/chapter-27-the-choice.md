@@ -68,11 +68,7 @@ Merrow's runner banged the cooper's door once at midnight and left a timber tall
 
 "What."
 
-"What Velorum said. What you believe now."
-
-Cael was quiet long enough that Riven felt the silence as its own crossing.
-
-"No cure," Cael said. "Only carry. Or shatter."
+"What Velorum said. What you believe now." Cael was quiet long enough that Riven felt the silence as its own crossing. "No cure," Cael said. "Only carry. Or shatter."
 
 "And Greyhaven?"
 

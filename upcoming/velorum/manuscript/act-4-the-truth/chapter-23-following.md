@@ -212,13 +212,9 @@ Even if the answer was bad. Even if Velorum offered nothing. The road behind the
 
 They descended the far side in silence. The stone shape ahead grew slowly: not a tower, not a fort. A ring. Standing stones on a rise, pale against the storm line. Cael had seen drawings in Halverin's archive sheets. Drawings lied. This looked smaller and heavier than any drawing.
 
-The Seeker's staff tapped stone somewhere below. Once. Then again.
+The Seeker's staff tapped stone somewhere below. Once. Then again. North was enough. For now.
 
-North was enough. For now.
-
-The sixth day was worse.
-
-The storm on the horizon didn't move closer or farther. It simply stayed, a grey wall eating the sky. Rain fell upward from the valley floor for an hour. Cael stopped trying to keep his coat dry. Wet cloth chafed. The bond carried the chafing in both shoulders.
+The sixth day was worse. The storm on the horizon didn't move closer or farther. It simply stayed, a grey wall eating the sky. Rain fell upward from the valley floor for an hour. Cael stopped trying to keep his coat dry. Wet cloth chafed. The bond carried the chafing in both shoulders.
 
 Lightning split the grey without sound. Then sound arrived all at once, late, wrong, loud enough to ring teeth. Riven cursed. Cael cursed with him. The Seeker didn't react.
 

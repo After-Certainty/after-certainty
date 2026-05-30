@@ -8,9 +8,7 @@ Riven stood on Heartbridge hill with Cael beside him and watched Greyhaven's nor
 
 "We know," Cael said.
 
-Merrow's last message had said other towns held or fell. Greyhaven would not fall while Riven still had hands. He was not sure that was bravery. It felt like the only road left that did not run through shared suffering.
-
-He had tried every other road.
+Merrow's last message had said other towns held or fell. Greyhaven would not fall while Riven still had hands. He was not sure that was bravery. It felt like the only road left that did not run through shared suffering. He had tried every other road.
 
 They had spent the afternoon on the north berm with timber and rope and laborers who kept glancing at their hands like the bond might jump skin. The channel had held one hour, then two. Then the pressure shifted uphill and Bran sent runners to Heartbridge because the old monument sat on the line the maps drew when the land forgot how to agree with itself.
 
@@ -56,25 +54,15 @@ Riven wanted to say he had never asked to be a symbol either. The town had decid
 
 "You sure?" Bran asked. Not Cael. Riven.
 
-"No," Riven said. "I'm sure about the other thing."
-
-"Which is?"
-
-"If we don't, the market goes under before midnight."
+"No," Riven said. "I'm sure about the other thing. If we don't, the market goes under before midnight."
 
 Bran held his gaze a beat, then nodded and stepped back into the ring.
 
-"This isn't belief," Riven said.
+"This isn't belief," Riven said. "No," Cael said.
 
-"No," Cael said.
+"This isn't Halverin." "No."
 
-"This isn't Halverin."
-
-"No."
-
-"This is necessity."
-
-"Yes."
+"This is necessity." "Yes."
 
 Riven breathed in. Cael breathed with him on the fourth count, not performance, habit earned in blood at the riverside entrance and in the square when Halverin's voice stopped being god.
 
@@ -88,9 +76,7 @@ Cael gasped. Riven gasped. They grabbed each other's forearms on the hill stone 
 
 "Hold," Cael said.
 
-"I'm holding," Riven said.
-
-They held.
+"I'm holding," Riven said. They held.
 
 The tear met them like weather. Pressure behind the eyes, along the spine, in the teeth. Velorum not as figure, as system answering a pair that finally stopped pretending they were two separate loads.
 
@@ -152,9 +138,7 @@ Cael leaned against the monument base. "We didn't become stone."
 
 "No," Riven said. "We became the thing that holds."
 
-"Same story. Different ink."
-
-Riven laughed once, broken, and felt Cael laugh in his chest without permission.
+"Same story. Different ink." Riven laughed once, broken, and felt Cael laugh in his chest without permission.
 
 Bran came up the last steps slow, like the hill might reject his weight. He looked at the hairline crack in the monument, at their hands still locked on each other's arms, at the tear fading to a wrong shimmer over the fields.
 
@@ -170,9 +154,7 @@ Lyra's name sat between them like a third person. Riven felt Cael's grief spike 
 
 "Water," Cael said. "And nobody carving our faces before we've washed the blood off."
 
-Bran almost smiled. "I'll see what I can do."
-
-He left two skins and a strip of clean cloth and went down the hill to organize the living. Riven drank. The water was warm and tasted like the cooper's tank. Cael drank from the same skin without asking. Their hands shook when they lowered it.
+Bran almost smiled. "I'll see what I can do." He left two skins and a strip of clean cloth and went down the hill to organize the living. Riven drank. The water was warm and tasted like the cooper's tank. Cael drank from the same skin without asking. Their hands shook when they lowered it.
 
 Down in the market someone had already started a song with the wrong lyrics—*Velorum saved* instead of *Velorum holds*—and a fish seller threw a gut bucket at the singer. Riven felt the splash of disgust cross clean. Cael almost smiled. Almost.
 

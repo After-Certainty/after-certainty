@@ -72,8 +72,6 @@ An orderly pushed through with a slate. "Captain wants counts before noon."
 
 The orderly left. Riven watched the door swing shut. The infirmary had its own weather—blood, boiled cloth, runners, the particular silence people kept when they were trying not to hear somebody retch in the corner.
 
-A guard with a rope burn across his forearm sat on the bench and watched Lyra work on the boy's ear like he was taking notes for a report. Lyra told him to hold the screen or leave. He held the screen.
-
 "You. Hold this." She shoved a folded cloth into his palm and pressed his hand onto a cooper's side. "Slip and he bleeds out before I finish."
 
 Riven pressed hard. The cooper bit leather until it tore. Sweat on his temple. Through the bond, Cael's attention jerked from the ledger to the spike in Riven's chest, then flattened when Riven held steady.
