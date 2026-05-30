@@ -16,7 +16,11 @@ Lyra set a cup of bitter tea in front of him. "Drink. You're shaking."
 
 "I'm not shaking."
 
-"You are." She pulled the stool closer. Her hands were steady. That steadiness was not performance; it was practice, the same way Cael practiced counts. Riven envied it and hated that Cael's envy came through the bond on top of his own. Her fingers were nicked from work and clean anyway. "Tell me what Halverin sold you."
+"You are." She pulled the stool closer. Her hands were steady. That steadiness was not performance; it was practice, the same way Cael practiced counts. Riven envied it and hated that Cael's envy came through the bond on top of his own. Her fingers were nicked from work and clean anyway.
+
+Through the wall he heard an orderly ask for more linen. Footsteps in the main hall. Kestrel Gate had not stopped hurting since the attack. Cots filled. Names on slates. The square outside preparing for a different kind of hurt, one with chalk and counts and a crowd that wanted proof instead of blood.
+
+"Tell me what Halverin sold you."
 
 "He sold Cael a story with steps," Riven said. "He sold the city a show. I'm the asshole who doesn't think the show fixes anything."
 
@@ -90,9 +94,11 @@ Riven stared at the high windows. Hard white light. Clean lines. No place to hid
 
 "Truth. Ugly truth. You can't be untouched. You can't be separate. One feeling, one skin. That's not how this works." She paused. "Obeying a loud man won't fix it."
 
-Riven stood too fast. The stool scraped stone. "You're telling me to let it break."
+Riven thought of the magistrate's office, Halverin's smooth menace in short lines. *Alignment. Path. Correction.* Words that made invasion sound like medicine. Cael had eaten them because purpose was easier to wear than want. Riven had eaten them because saying no in front of Cael cost double through the bond.
 
-"I'm telling you to stop calling the break a moral failure," Lyra said. "If it breaks, let it break where everyone can see what it actually is."
+"You want me to walk out there and fail on purpose," he said.
+
+"I want you to stop pretending success won't cost someone a private life," Lyra said. "If it breaks, let people see what breaks. Not Halverin's version."
 
 He wanted to argue. He wanted a plan with chalk marks and counts. He wanted Cael to walk in and say they could hold the line if they just tried harder. Cael did not walk in. Cael stayed in the corridor and fed the bond with fear Cael was trying to nail down with numbers.
 
@@ -175,6 +181,8 @@ The lower market was already crowded. The press funneled him toward the east rop
 A paste crew was still hanging a broadside as he passed. The woodcut made their joined hands look gentle. Riven wanted to tear it down. He kept walking because tearing it down would be a story too, just a different one.
 
 An old soldier touched his arm and said, "Held the berm with you in my mind, boy. Hold the square the same way." Riven nodded because words were stuck. The soldier's hope hit him with no bond involved, just weight.
+
+A fishmonger Riven knew from the lower market pressed a charm into his hand. "For luck," she said. He did not know what to do with it. He closed his fist and felt Cael's spike of irritation at the delay. Riven dropped the charm in the mud and kept walking because stopping was another story the crowd would read.
 
 Riven cut through the press with his head down. People touched his sleeve. A woman blessed him. A boy asked if he would lift the timber again. Riven did not answer. The bond carried his silence to Cael and Cael sent back a clamp of *focus* that tightened Riven's throat.
 
