@@ -14,13 +14,9 @@ Bran ran past with a rope crew. Children screamed uphill. The bond pulled tight,
 
 They met at the breach gap where mud and timber made a mouth. Cael did not think. He put his hands where load needed hands. Riven matched on the second beat, not Halverin's count, theirs.
 
-For a minute it held.
+For a minute it held. The laborers fed support posts and rope. Mud sucked at Cael's boots. Cold water slapped his shins. Riven's breath came fast in Cael's chest and steadied when Cael forced his own lungs to slow. The bond did not ricochet. It channeled because they let it.
 
-The laborers fed support posts and rope. Mud sucked at Cael's boots. Cold water slapped his shins. Riven's breath came fast in Cael's chest and steadied when Cael forced his own lungs to slow. The bond did not ricochet. It channeled because they let it.
-
-Cael watched the channel mouth the way he watched a bad joint under weight: looking for the next place it would fail. The timber screamed again and went quiet. For a minute that was enough.
-
-Then the pressure behind the failure showed itself.
+Cael watched the channel mouth the way he watched a bad joint under weight: looking for the next place it would fail. The timber screamed again and went quiet. For a minute that was enough. Then the pressure behind the failure showed itself.
 
 Not raiders. Not fire. Something wrong in the land's alignment, a tear in the way water and weight agreed. Cael had seen hints on the road, lagged reflections, gravel sliding wrong. Here it opened like a wound.
 

@@ -108,13 +108,13 @@ They tried. Cael read the crowd faces in blocks: mothers with children behind th
 
 A tanner's apprentice in the second row fainted from heat and paste and no breakfast. Lyra's orderly caught him before he hit stone. Halverin did not stop the run. Merrow's medic took the boy to the west lane without breaking formation.
 
-He could feel the rhythm underneath the noise, the same rhythm that had worked on the road when nobody was selling hope from a platform. It was still there. It was thin. Riven's anger had not cooled; it ran under the rhythm and kept throwing them off. Cael did not try to soothe it. He tried to use it, the way you used weight instead of fighting it. The turn came clean. The hold came clean. For four counts the square believed them.
+Cael could feel the rhythm underneath the noise, the same rhythm that had worked on the road when nobody was selling hope from a platform. It was still there. It was thin. Riven's anger had not cooled; it ran under the rhythm and kept throwing them off. Cael did not try to soothe it. He tried to use it, the way you used weight instead of fighting it. The turn came clean. The hold came clean. For four counts the square believed them.
 
 Then Halverin called margin increase again and the belief thinned.
 
 Halverin climbed back up. "Citizens, you will see correction in real time. Watch."
 
-He signaled the guards to increase the margin drill. Boots stamped harder. A horn blew once, off rhythm. Someone in the crowd pushed against the rope and a guard shoved back. A woman swore. A child laughed, then was hushed.
+Halverin signaled the guards to increase the margin drill. Boots stamped harder. A horn blew once, off rhythm. Someone in the crowd pushed against the rope and a guard shoved back. A woman swore. A child laughed, then was hushed.
 
 A paste boy dropped his bucket and ran when the front row surged. Paste smeared the stones in a long wet stripe. Merrow's runner cursed and called for chalk to mark a new rope line six paces back.
 
@@ -124,7 +124,7 @@ A magistrate runner tried to collect names for a correction broadside mid-run. M
 
 The square tightened. Cael smelled sweat and paste and the iron edge of fear. Motion over the fountain basin looked wrong by a finger width, sound arriving late.
 
-He thought of the riverside entrance. He thought of the girl's breath. He thought of Halverin's margin note on Merrow's sheet: *Hesitation at landing.* All of it arrived at once through the bond and Riven's answer was anger, hot and useless.
+Cael thought of the riverside entrance. He thought of the girl's breath. He thought of Halverin's margin note on Merrow's sheet: *Hesitation at landing.* All of it arrived at once through the bond and Riven's answer was anger, hot and useless.
 
 "Step," Halverin called.
 
@@ -142,7 +142,7 @@ Riven looked at him. Cael saw the refusal in Riven's face before he heard it in 
 
 Halverin raised the horn again. "Again. From the top. You're not leaving this square until you hold."
 
-The bond strained, not broken yet, but close. The air over the fountain basin looked wrong, a faint lag between motion and sound. He had seen distortion in Ashfen. This was different. This was a packed square with nowhere for fear to go.
+The bond strained, not broken yet, but close. The air over the fountain basin looked wrong, a faint lag between motion and sound. Cael had seen distortion in Ashfen. This was different. This was a packed square with nowhere for fear to go.
 
 He looked at the chalk marks. He looked at Merrow's open wagon. He looked at Halverin's face and saw the first crack in the magistrate's certainty, quickly plastered over with volume.
 

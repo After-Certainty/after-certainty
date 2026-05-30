@@ -4,9 +4,7 @@ The world came back wrong.
 
 Cael stood on the outer ring of the Ashring and tried to get his bearings. Stone steps cut across the rings beneath his boots—ring after ring stepping down toward a flat center still empty from where they'd stood. Beyond the rim, the mountain dropped away into grey slopes and haze. The sky hung low and pale over the lip of the Ashring, no shadows, no clear direction. The commitment still sat in his chest like a stone he'd swallowed.
 
-They had moved toward the rim without speaking. The packs waited where they'd left them beyond the scree lip—canvas stiff with sleet, ordinary things against the grey sky. Neither had reached for them yet. Reaching felt like signing something twice.
-
-Riven's breathing wouldn't stay separate from his own, inhales and exhales tangling until he couldn't tell which lungs belonged to whom anymore.
+They had moved toward the rim without speaking. The packs waited where they'd left them beyond the scree lip—canvas stiff with sleet, ordinary things against the grey sky. Neither had reached for them yet. Reaching felt like signing something twice. Riven's breathing wouldn't stay separate from his own, inhales and exhales tangling until he couldn't tell which lungs belonged to whom anymore.
 
 Cael let go of Riven's wrist—or tried to. His fingers opened too slowly, then all at once. Pins and needles shot up his arm.
 
@@ -16,17 +14,13 @@ Riven made a sound, not a word, just discomfort. Cael heard it twice: once with 
 
 "You all right?"
 
-"No."
-
-The answer arrived with the same copper taste already sitting in Cael's mouth. His stomach lurched.
+"No." The answer arrived with the same copper taste already sitting in Cael's mouth. His stomach lurched.
 
 "Sit."
 
 "I'm not fainting."
 
-"Sit."
-
-Riven opened his mouth to argue, then sat down so abruptly it looked like his legs had made the decision for him. Cael dropped beside him. The stone felt cold now—the warmth was gone, or maybe it had moved somewhere deeper, he couldn't tell.
+"Sit." Riven opened his mouth to argue, then sat down so abruptly it looked like his legs had made the decision for him. Cael dropped beside him. The stone felt cold now—the warmth was gone, or maybe it had moved somewhere deeper, he couldn't tell.
 
 His hands were shaking. He clenched them into fists. It didn't help. Riven's fear slid into him anyway, immediate and raw, no warning, no distance.
 
@@ -42,9 +36,7 @@ The irritation arrived before the words did. Cael felt that too.
 
 "Good." His throat felt dry. "Mara keeps people alive."
 
-Riven barked out a laugh. The sound stung.
-
-Cael pressed a hand against the stone and focused on things he could name—knife, rope, buckle, nail. The thought barely formed.
+Riven barked out a laugh. The sound stung. Cael pressed a hand against the stone and focused on things he could name—knife, rope, buckle, nail. The thought barely formed.
 
 *Stop listing.*
 
@@ -54,9 +46,7 @@ Cael flinched hard, teeth clicking together.
 
 "Nothing."
 
-"That wasn't nothing."
-
-Cael looked up. Riven was staring at him, eyes too wide, too focused.
+"That wasn't nothing." Cael looked up. Riven was staring at him, eyes too wide, too focused.
 
 "Don't." The word came out before Cael knew what he meant.
 
@@ -92,9 +82,7 @@ He jerked his head away.
 
 "You didn't do it."
 
-"Didn't I?"
-
-Cael almost said no. The honest answer was worse. "I don't know."
+"Didn't I?" Cael almost said no. The honest answer was worse. "I don't know."
 
 Riven looked down at his hands. "So that's it?"
 
@@ -118,9 +106,7 @@ Cael turned away from the center on purpose—toward the trail, toward the slope
 
 "Pack."
 
-"Pack," Riven echoed.
-
-Then winced. "I didn't mean to do that."
+"Pack," Riven echoed, then winced. "I didn't mean to do that."
 
 "I know."
 
@@ -158,9 +144,7 @@ They stood there breathing hard. Cael pressed a hand against his thigh until the
 
 "Down."
 
-"We can't stay up here."
-
-Riven adjusted his blanket roll, then adjusted it again, then stopped pretending that helped. Together they shouldered their packs.
+"We can't stay up here." Riven adjusted his blanket roll, then adjusted it again, then stopped pretending that helped. Together they shouldered their packs.
 
 The moment they started down the trail, things got worse—each step arriving early, balance shifting before gravel moved, fatigue crossing between them before either body stumbled. The first steep stretch should have been difficult. Instead it felt efficient, like two people carrying one load. Cael hated it immediately.
 
@@ -222,9 +206,7 @@ They tried again at the next bend—Riven with *rope*, Cael with *knife*. Same i
 
 "We hear it."
 
-"If we think different things?"
-
-Cael stared at his boots. "We heard cabbage."
+"If we think different things?" Cael stared at his boots. "We heard cabbage."
 
 "That's not—" Riven laughed, helpless. "That's not an answer."
 

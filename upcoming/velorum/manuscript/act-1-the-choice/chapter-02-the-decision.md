@@ -8,19 +8,13 @@ He leaned on the broom and swept the last of the grit toward the drain—fish sc
 
 Inside, Mara's voice rose and fell, a chair scraped across the floor, someone laughed too loudly, and footsteps crossed the plank floor above the door gap.
 
-Riven came around the corner carrying a blanket under one arm and a coil of rope over his shoulder, looking tired.
-
-"She said you can use the loft ladder if you don't track dirt inside," Riven said.
+Riven came around the corner carrying a blanket under one arm and a coil of rope over his shoulder, looking tired. "She said you can use the loft ladder if you don't track dirt inside," he said.
 
 "I didn't track dirt."
 
 The rope dropped onto the stones with a wet slap.
 
-"You did. I saw it."
-
-Riven shook out the blanket.
-
-"Bran told her we swept. Left out my crack about mothers." He paused. "She said if we're planning something stupid, we pay for our own bread."
+"You did. I saw it." Riven shook out the blanket. "Bran told her we swept. Left out my crack about mothers." He paused. "She said if we're planning something stupid, we pay for our own bread."
 
 "We always pay for our own bread."
 
@@ -96,9 +90,7 @@ Riven's expression shifted. "What does that mean?"
 
 "It means I'm tired of climbing up there, saying the same things, then coming back down and doing nothing."
 
-For a moment neither of them spoke, then Riven rubbed a hand across his face.
-
-"Tell me where we sleep the first night. Then you can keep talking."
+For a moment neither of them spoke, then Riven rubbed a hand across his face. "Tell me where we sleep the first night. Then you can keep talking."
 
 Cael nodded.
 
@@ -108,25 +100,15 @@ Cael nodded.
 
 "Then we come back."
 
-"And if it isn't?"
+"And if it isn't?" Cael looked toward the dark line of hills beyond the harbor. Mast lanterns swayed below on the water, small and steady against the black. "Then we know that too."
 
-Cael looked toward the dark line of hills beyond the harbor. Mast lanterns swayed below on the water, small and steady against the black.
-
-"Then we know that too."
-
-From inside the kitchen, someone dropped a pan and swore.
-
-Neither of them reacted.
+From inside the kitchen, someone dropped a pan and swore. Neither of them reacted.
 
 Riven picked up the rope and wound it tighter around his forearm. "You make it sound simple." Tar rubbed off on his skin.
 
 "It isn't simple," Cael said.
 
-For a moment neither of them spoke.
-
-The inn's back door tapped in the wind, the loose hinge opening it a fraction and letting it settle again, over and over.
-
-Riven watched it once, then looked away.
+For a moment neither of them spoke. The inn's back door tapped in the wind, the loose hinge opening it a fraction and letting it settle again, over and over. Riven watched it once, then looked away.
 
 "You're not scared," he said.
 
@@ -134,33 +116,17 @@ Riven watched it once, then looked away.
 
 "You don't look it."
 
-Cael rubbed the sore knuckle he'd cracked against stone earlier.
-
-"If I start acting scared, Mara keeps us hauling barrels another six months."
-
-Riven waited.
-
-"And you'll talk yourself out of coming."
+Cael rubbed the sore knuckle he'd cracked against stone earlier. "If I start acting scared, Mara keeps us hauling barrels another six months. And you'll talk yourself out of coming."
 
 "That's not an answer."
 
-"It's the one I've got."
+"It's the one I've got." Cael stepped closer, cold air carrying the smell of soap from the wash bucket. "You asked what comes next. This is next."
 
-Cael stepped closer, cold air carrying the smell of soap from the wash bucket. "You asked what comes next," he said. "This is next."
+Riven looked away. "We could just stay alive."
 
-Riven looked away.
+"We could." Cael glanced toward the dark hills beyond the harbor. "Could you?"
 
-"We could just stay alive."
-
-"We could."
-
-Cael glanced toward the dark hills beyond the harbor.
-
-"Could you?"
-
-Riven barked out a laugh.
-
-"Christ."
+Riven barked out a laugh. "Christ."
 
 "That's not fair."
 
@@ -172,21 +138,11 @@ Color crept into Riven's face, and for a while he stared at the stones beneath t
 
 "Then don't follow me."
 
-Riven looked up.
+Riven looked up. "What?"
 
-"What?"
+"I'm not dragging you." Cael kept his voice level. "If you stay, you stay. If you come, you come because you decided to."
 
-"I'm not dragging you."
-
-Cael kept his voice level.
-
-"If you stay, you stay. If you come, you come because you decided to."
-
-Riven worried at a loose thread on his sleeve.
-
-The hinge tapped again.
-
-Somewhere beyond the yard wall, a dog barked once and fell silent.
+Riven worried at a loose thread on his sleeve. The hinge tapped again. Somewhere beyond the yard wall, a dog barked once and fell silent.
 
 Riven's thumb found the pamphlet in his pocket—the soft creases, the smudged ink. He didn't take it out. "I decided on the hill," he said. "I just haven't stopped being angry about it."
 
@@ -196,23 +152,17 @@ Cael waited.
 
 "Yes."
 
-Riven dragged a hand across his mouth.
-
-"Fuck, Cael."
+Riven dragged a hand across his mouth. "Fuck, Cael."
 
 Cael let the silence sit until Riven spoke again. "I keep seeing the dock. Dusk. Nobody left. Nobody who remembers who moved what."
 
 "I know."
 
-Riven stared past him toward the harbor.
-
-"If we leave, Mara puts another name on the board."
+Riven stared past him toward the harbor. "If we leave, Mara puts another name on the board."
 
 "She will," Cael said easily. "She always does."
 
-The question sat in Riven's throat for a moment before he asked it.
-
-"And if we die out there like the song says? Ribs and all that miserable poetry?"
+The question sat in Riven's throat for a moment before he asked it. "And if we die out there like the song says? Ribs and all that miserable poetry?"
 
 Cael almost smiled. "Then at least we went because we chose to," he said, the words coming out sharper than he intended. He let out a breath. "I'm not asking you to like it. I'm asking you to stop acting like the ridge didn't count."
 
@@ -232,17 +182,11 @@ Riven looked at him for a long moment.
 
 "It's all we've got." Cael looked at the chalk map still ghosted on the yard stone in his head—fork, seep, ridge. "We walk. We look. We come back if it's nothing."
 
-Riven shook his head.
+Riven shook his head. "That isn't faith, Cael. That's you being angry enough to call something a reason."
 
-"That isn't faith, Cael. That's you being angry enough to call something a reason."
+Cael rubbed his sore knuckle with his thumb. "Maybe."
 
-Cael rubbed his sore knuckle with his thumb.
-
-"Maybe."
-
-Riven snorted.
-
-"Call it whatever you want."
+Riven snorted. "Call it whatever you want."
 
 Cael picked up the broom again, mostly because his hands wanted something to do. "I'm not preaching at you," he said, and swept the last of the grit toward the drain. "I'm planning a week's walk."
 
@@ -310,17 +254,13 @@ Riven was quiet. "The bridge had Merrow."
 
 "The hill might not." Cael stood. "That's why we look."
 
-When the chalk snapped, Riven brushed the dust from his fingers, a little still clinging to his thumb.
-
-"I don't have a coat that'll survive that wind."
+When the chalk snapped, Riven brushed the dust from his fingers, a little still clinging to his thumb. "I don't have a coat that'll survive that wind."
 
 "You'll borrow mine."
 
 "You will if your teeth start rattling."
 
-Riven almost smiled.
-
-"You really think we're doing this."
+Riven almost smiled. "You really think we're doing this."
 
 Cael looked out toward the dark hills, where the harbor was only sound from here—mast lines creaking, a drunk shouting two streets over. "Last spring those planks held because two men stood in the rain all night," he said. "Not because anybody sang about them. Because somebody stayed."
 
@@ -344,13 +284,9 @@ Riven stood. The chalk map was still on the yard stones—lines washed pale by d
 
 "Then we sleep cold."
 
-"If we're wrong about all of it?"
+"If we're wrong about all of it?" Cael met his eyes. "Then we come back and Mara charges us for the story."
 
-Cael met his eyes. "Then we come back and Mara charges us for the story."
-
-Riven pointed the broken piece of chalk at him.
-
-"But if you start treating me like luggage, I'm turning around."
+Riven pointed the broken piece of chalk at him. "But if you start treating me like luggage, I'm turning around."
 
 "I won't."
 
@@ -420,9 +356,7 @@ The square was half awake—vendors arguing over stall space, a boy asleep again
 
 "It's iron."
 
-"It's light."
-
-The vendor sighed and added half a bar from under the counter. "Anything else, heroes?"
+"It's light." The vendor sighed and added half a bar from under the counter. "Anything else, heroes?"
 
 "Don't," Cael and Riven said together. The vendor laughed like they'd paid for the joke.
 

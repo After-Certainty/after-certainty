@@ -4,9 +4,7 @@ They didn't reach the walls that night. By the next morning, people were waiting
 
 The road here ran straight between low hedges, mile stones set every thousand paces, ditches full of grey water on both sides. The treeline east was still black against a pale sky. Cael saw them at the first stone while mist still sat in the ditch—a miller, two traders, a woman with a child asleep against her chest. Nobody stood close together. Nobody looked rested. They kept glancing at the trees.
 
-"Are you the pair from Ashfen?" the miller asked.
-
-"The ones carrying each other's weight," the miller said.
+"Are you the pair from Ashfen?" the miller asked. "The ones carrying each other's weight?"
 
 The phrase landed awkwardly. Like he'd practiced it. Cael looked at Riven. Riven gave a small nod. Go on.
 
@@ -80,7 +78,7 @@ A priest at the bank prayed over the crossing. Riven told him to grab a rope or 
 
 "If that goes," Cael said, "they're in the channel."
 
-Riven was already walking. Of course he was. They took opposite sides without discussing it. By now that part felt almost normal, which was its own problem.
+Riven was already walking. Of course he was. By now that part felt almost normal, which was its own problem.
 
 Cael drove a wedge stone under the left wheel. Riven looped rope through the front yoke and around a dead cedar root. Mud sucked at Cael's boots. Water ran cold through the seams. The rope burned across his palms. Riven's weight shifted through him before he saw it on the far side. On the third pull the wheel climbed free and the line behind it followed.
 
@@ -204,7 +202,7 @@ The last night on the road they slept in a hay barn offered by a miller who woul
 
 The miller's boy crept in and asked if they could feel raids before they landed. Riven said sometimes. Cael said when it mattered. The boy looked relieved and disappointed in the same breath, then left without another word.
 
-The next evening, watchfires appeared on the horizon—one, then another, then a line of them stretching across the dark. Kestrel Gate. Word had beaten them there. He knew it before they reached the walls. The city already had a story waiting.
+The next evening, watchfires appeared on the horizon—one, then another, then a line of them stretching across the dark. Kestrel Gate. Word had beaten them there. Cael knew it before they reached the walls. The city already had a story waiting.
 
 At the outer mile stone a paste crew was hanging a fresh strip—woodcut pair, names in bold, *THE ROAD HOLDS*. Riven read it and looked away. Cael read it too. Neither commented. The paste crew asked if they were the pair from the ballad. Riven said no. Cael said yes. The crew nodded like both answers meant the same thing and kept working.
 

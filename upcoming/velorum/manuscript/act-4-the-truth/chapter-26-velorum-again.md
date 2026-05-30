@@ -272,37 +272,13 @@ When Riven woke before light, Cael was already packing. Forward again. Always fo
 
 The eastern cut climbed through scrub that looked almost normal. Almost. A bird cried on time. Riven flinched anyway. Habit. Cael did too. The bond didn't care about habit.
 
-By dusk they were far enough from Ashring that even wrong water tasted like mercy.
+By night they were far enough east that even wrong water tasted like mercy.
 
 Riven's boot wire snapped at the toe. He retied it with line from Merrow's pack. Cael held the boot without being asked. Small work. Real work.
-
-The bond was quiet enough that for one hour Riven almost slept. Almost.
-
-When he woke, stars had shifted wrong again. Cael handed him the water skin without speaking. Riven drank. Warm. Metallic. Alive.
-
-East again at first light. Walking because walking was what came after answers that weren't answers.
 
 The scrub thinned. For a mile the ground behaved. Riven's boot crunch arrived with his foot. Cael's breath stayed in his own chest for ten steps at a time. Small mercies. They didn't talk about them.
 
 By night they were far enough east that Ashring was a weight, not a hum. The bond remained. The road remained. That was the forward.
-
-Riven counted stars until he lost count. Cael stopped him by rolling over. Neither slept well. Forward didn't mean rested.
-
-It meant walking when light came.
-
-Riven's boot wire finally gave at the toe. He wrapped it twice and walked on. Cael carried the limp for three steps before Riven forced his stride even. Pride or stubbornness. Probably both.
-
-The eastern road forked twice before dark. They took the branch that looked wrong. Wrong had been accurate for days.
-
-They camped without fire. Forward didn't mean comfortable.
-
-Riven ate half an iron bar and hid the rest for morning. Cael did the same. The bond carried hunger until neither could tell who started it.
-
-East at first light. Always east, until the land said otherwise.
-
-The scrub gave way to bare stone, then scrub again. Wrong alternating with wrong. Riven stopped expecting ordinary. Cael had stopped earlier.
-
-They walked until dark. Then walked again at light.
 
 At the next fork the eastern branch smelled wrong. They took it anyway. Wrong had been accurate for days.
 

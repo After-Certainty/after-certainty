@@ -78,9 +78,7 @@ Riven sighed. "Tell that to the singers."
 
 "The singers aren't here."
 
-"No. Just us."
-
-For a while neither spoke. Below them the harbor spread across the bay, grey water and crooked docks and tiny figures moving through the streets. From up here nobody looked real, just motion, just work.
+"No. Just us." For a while neither spoke. Below them the harbor spread across the bay, grey water and crooked docks and tiny figures moving through the streets. From up here nobody looked real—just motion, just work.
 
 A maintenance crew worked on the lower switchback, three men with ropes and wooden supports shoring up a section of path that had cracked in the last rains. One of them shouted measurements up the hill. Cael's head turned toward the sound before Riven's did. Of course it did.
 
@@ -216,9 +214,7 @@ Far below, somebody cheered again.
 
 Cael looked at the monument. "The ugly parts don't fit in a chorus."
 
-"They never do."
-
-The wind tugged at Cael's coat. For a moment he said nothing. Then: "It's still two real people."
+"They never do." The wind tugged at Cael's coat. For a moment he said nothing. Then: "It's still two real people."
 
 Riven looked over. "What?"
 

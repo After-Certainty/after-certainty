@@ -92,7 +92,7 @@ They walked. The trail split. The Seeker pointed left. They followed. By now tha
 
 The basin beyond felt wrong in a deeper way, not delayed, compressed. The space between them seemed thinner. Every ache crossed faster. Every fear stayed longer.
 
-Riven's headache had become permanent. Not pain. Presence. Like a hand on the back of his neck that wasn't his hand.
+Riven's headache had become permanent. Not pain. Presence—a weight at the back of his neck that wasn't his hand.
 
 "Feel that?" Riven asked.
 

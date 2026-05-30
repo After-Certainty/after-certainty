@@ -38,9 +38,7 @@ Outside, the harbor air hit him damp and salted, the sky over the water bruised 
 
 They took the lower lanes first, rooflines tight enough to turn footsteps into echo, keeping to the alleys where they could. Packs before dawn drew attention in Greyhaven, and attention usually led to questions that ended with somebody trying to sell you luck you couldn't afford.
 
-A woman opening shutters watched them pass and went back to shaking flour from a cloth over her doorstep.
-
-An old man on the corner selling luck charms lifted his tray as they passed. "North road's hiring," he said, the same joke as the guard would use later. Riven kept walking. Cael didn't slow.
+A woman opening shutters watched them pass and went back to shaking flour from a cloth over her doorstep. An old man on the corner selling luck charms lifted his tray as they passed. "North road's hiring," he said, the same joke as the guard would use later. Riven kept walking. Cael didn't slow.
 
 The north gate's iron was cold beneath Riven's hand, and when he pushed it open the hinge whined, not the same sound as the inn's back door but close enough that he glanced over his shoulder before he could stop himself.
 
@@ -74,15 +72,11 @@ Loose gravel shifted under his boots on the first switchback, and somewhere belo
 
 "No."
 
-"You should've."
-
-Riven adjusted the strap digging into his shoulder. "I'll eat when my stomach catches up to my pride."
+"You should've." Riven adjusted the strap digging into his shoulder. "I'll eat when my stomach catches up to my pride."
 
 "You say that every morning."
 
-"Because it's true every morning."
-
-Cael grunted, and Riven couldn't tell if it was agreement or annoyance.
+"Because it's true every morning." Cael grunted, and Riven couldn't tell if it was agreement or annoyance.
 
 They climbed until sweat dampened the back of Riven's shirt, and a few minutes later the wind found the gap at his collar and turned it cold.
 
@@ -92,9 +86,7 @@ The blanket strap kept rubbing, and the rope slowly worked its way lower until h
 
 "It's fine."
 
-"It's not fine. You're fighting your pack like it insulted you."
-
-Riven tugged the strap loose another notch, and the pressure eased immediately, which he hated.
+"It's not fine. You're fighting your pack like it insulted you." Riven tugged the strap loose another notch, and the pressure eased immediately, which he hated.
 
 The road bent around the hillside and started climbing again. The drop on the outside wasn't steep enough to kill you, but it would leave a mark, and Riven found himself keeping to the inside edge of the path while Cael kept walking ahead.
 
@@ -158,9 +150,7 @@ Riven snorted. "That's a line."
 
 "It's true."
 
-"Still sounds like a line."
-
-Cael let it go. Wind pushed across the hillside; Riven leaned into it as his pack shifted against his shoulders and the rope hanging from it knocked once against his hip.
+"Still sounds like a line." Cael let it go. Wind pushed across the hillside; Riven leaned into it as his pack shifted against his shoulders and the rope hanging from it knocked once against his hip.
 
 They rounded a bend, and for a moment the whole coast opened beneath them, Greyhaven smaller from up here, the harbor a dark patch against the water, Heartbridge pale on its hill beyond the rooftops. Riven kept looking.
 
@@ -224,21 +214,15 @@ Cael stood, his knees cracking softly. "Then it's real."
 
 "That's not an answer."
 
-"It's the only one I've got."
-
-Riven let out a breath through his nose. "And you'll keep going."
+"It's the only one I've got." Riven let out a breath through his nose. "And you'll keep going."
 
 "Probably."
 
-The honesty irritated him more than certainty would've. Riven picked up a pebble from the edge of the runoff and rolled it between his fingers, and when he finally flicked it into the brush it disappeared without a sound.
-
-"That's what worries me."
+The honesty irritated him more than certainty would've. Riven picked up a pebble from the edge of the runoff and rolled it between his fingers, and when he finally flicked it into the brush it disappeared without a sound. "That's what worries me."
 
 Cael frowned. "The hill?"
 
-"You."
-
-For a moment Cael just stared at him. "You don't stop," Riven said. "You find a direction and keep moving."
+"You." For a moment Cael just stared at him. "You don't stop," Riven said. "You find a direction and keep moving."
 
 Cael glanced down the road where the switchbacks climbed out of sight around the hillside, and when he looked back his expression hadn't changed. "You told me to tell you when I do that."
 
@@ -300,9 +284,7 @@ They ate. The cheese tasted like nothing. The bread tasted like Mara—overbaked
 
 "They'll say something," Cael said. "People always do."
 
-"And you don't care."
-
-Cael glanced over. "I care. It just doesn't decide what I do next."
+"And you don't care." Cael glanced over. "I care. It just doesn't decide what I do next."
 
 Riven snorted. "There it is."
 
@@ -312,9 +294,7 @@ Riven snorted. "There it is."
 
 Cael looked down at the bread in his hands. "You make it sound impossible."
 
-Riven opened his mouth, then closed it again.
-
-Cael wrapped the remaining cheese in cloth and tied the knot. "We're out here for the same reason," he said.
+Riven opened his mouth, then closed it again. Cael wrapped the remaining cheese in cloth and tied the knot. "We're out here for the same reason," he said.
 
 Riven stared at the road. "Maybe."
 
@@ -362,10 +342,6 @@ Cael nodded. "Tell me when."
 
 They finished the last of the bread in silence. Later, wrapped in his blanket, Riven watched stars through bare branches—the sky larger without rooftops or masts. Across the fire Cael's breathing settled. Riven listened for a while, then closed his eyes.
 
-Half asleep, he thought he heard the market bell—one stroke, wrong hour. He sat up. Cael didn't stir. The hills were silent.
+Half asleep, he thought he heard the market bell—one stroke, wrong hour. He sat up. Cael didn't stir. The hills were silent. Wrong bell. Wrong hour. Same as the seep arriving after noon. Riven lay back down and listened to Cael breathe until the sound felt like his own and he couldn't decide if that was comfort or warning.
 
-Wrong bell. Wrong hour. Same as the seep arriving after noon. Riven lay back down and listened to Cael breathe until the sound felt like his own and he couldn't decide if that was comfort or warning.
-
-"Nothing," Riven muttered, and lay back down.
-
-Tomorrow was waiting either way.
+"Nothing," he muttered. Tomorrow was waiting either way.

@@ -50,7 +50,7 @@ Riven saw the fishmonger from the lower market grab the rope as if he could stea
 
 His knees buckled. Cael's did not, which was worse. Cael stayed upright through sheer stubbornness and pulled Riven down by the shared load until they were both on the stone with the frame between them like a broken support post.
 
-Riven's vision grayed. The square tilted. Stone looked wet when it was dry. Shadows lagged behind bodies. He tasted copper. Cael made a sound like a man hit in the gut.
+Riven's vision grayed. The square tilted. Stone looked wet when it was dry. Shadows lagged behind bodies. He tasted copper. Cael made a low punched-out sound.
 
 "Stabilize!" Halverin shouted. "I said stabilize!"
 
@@ -68,7 +68,7 @@ The crowd pulled back in a wave. Someone knocked over a rope post. A child waile
 
 The air over the square went wrong.
 
-Sound lagged. Dust hung without settling. A guard's shield rang and the ring arrived late. Riven saw a pigeon freeze mid-wing above the east roofline and then lurch forward as if time had hiccuped. The fountain water in the basin shivered without wind. Broadside paper flapped on the magistrate wall and the ink seemed to run though the sun was dry.
+Sound lagged. Dust hung without settling. A guard's shield rang and the ring arrived late. A pigeon froze mid-wing above the east roofline and lurched forward half a beat late. The fountain water in the basin shivered without wind. Broadside paper flapped on the magistrate wall and the ink seemed to run though the sun was dry.
 
 Riven went to one knee. Cael went down beside him, not mirroring, pulled. They grabbed each other by the forearms because it was the only thing left that was not Halverin's voice.
 
@@ -114,9 +114,7 @@ Halverin said, "This is not—" and Merrow cut him off without raising her voice
 
 "You're done in my square today."
 
-A guard at the platform edge—Riven knew his face from the west berm, a man with a split eyebrow still healing—stepped down one stair and turned his back to Halverin. Not salute. Not desertion. Just a body choosing which voice to obey. Two more guards followed. Halverin watched them go and said nothing useful.
-
-Halverin's mouth opened. Nothing useful came out.
+A guard at the platform edge—Riven knew his face from the west berm, a man with a split eyebrow still healing—stepped down one stair and turned his back to Halverin. Not salute. Not desertion. Just a body choosing which voice to obey. Two more guards followed. Halverin watched them go; his mouth opened and nothing useful came out.
 
 Lyra reached them first. She did not touch Halverin. She knelt at Riven's side and checked his pupils with two fingers.
 

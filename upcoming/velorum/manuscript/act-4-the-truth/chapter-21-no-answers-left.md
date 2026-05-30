@@ -14,11 +14,9 @@ Halverin stood alone by the window with no aides, no clerks, no audience, hair l
 
 "You look terrible," Cael said.
 
-Halverin barked out a laugh. "I was about to say the same thing."
+Halverin barked out a laugh. "I was about to say the same thing." For a moment neither of them smiled. Then Halverin slid a folded sheet across the table, paper whispering on wet wood. "I need you to read this."
 
-For a moment neither of them smiled. Then Halverin slid a folded sheet across the table, paper whispering on wet wood. "I need you to read this."
-
-Cael unfolded it. The language was familiar: nobody responsible, everybody responsible, the crowd had interfered, the process had broken down, the outcome unfortunate, the sort of document written when the truth was too expensive. Clerical hand. Blame distributed the way grain rations were. *Variance. Interference. Incomplete acceptance.* Words that turned bodies into excuses and noise into something the clerks could file.
+Cael unfolded it. The language was familiar: nobody responsible, everybody responsible, the crowd had interfered, the process had broken down, the outcome unfortunate—the sort of document written when the truth was too expensive. Clerical hand. Blame distributed the way grain rations were. *Variance. Interference. Incomplete acceptance.* Words that turned bodies into excuses and noise into something the clerks could file.
 
 "No," Cael said.
 
@@ -80,9 +78,7 @@ Eventually Halverin rested a hand on the unsigned statement. "I tried to apologi
 
 Halverin looked up. "It didn't matter."
 
-"No."
-
-Another silence, longer this time. Rain had slowed to a steady hiss against the glass. Somewhere below, a wagon wheel stuck in a rut and a driver swore until someone pushed from behind.
+"No." Another silence, longer this time. Rain had slowed to a steady hiss against the glass. Somewhere below, a wagon wheel stuck in a rut and a driver swore until someone pushed from behind.
 
 "I don't know how to fix it." The words seemed to cost him something. "I don't know how to make amends for what happened to you." His fingers pressed against the paper. "I don't know what comes next." That, more than anything else, sounded honest.
 
@@ -168,9 +164,7 @@ Both of them went still. Rain drummed against the canvas overhead.
 
 "She asked me to tell you something." Neither spoke. "Don't follow her."
 
-Riven stared at the ground. The bond carried the news before either of them answered. Cael felt it land in both chests, Lyra's name and her refusal in the same breath.
-
-For a long moment Riven said nothing. His jaw worked. Then, too quickly: "How many beds at those clinics?"
+Riven stared at the ground. The bond carried the news before either of them answered. Cael felt it land in both chests, Lyra's name and her refusal in the same breath. For a long moment Riven said nothing. His jaw worked. Then, too quickly: "How many beds at those clinics?"
 
 Merrow held his gaze. "That's not what she asked me to pass on."
 
@@ -210,13 +204,9 @@ A clerk passed in the hall, arms full of bandage rolls. She saw him at the board
 
 "Fuck no."
 
-Riven nodded. "Good."
+Riven nodded. "Good." Cael capped the pen. They walked out.
 
-Cael capped the pen. They walked out.
-
-On the way to the outer gate they passed the demonstration platform. Somebody had dismantled half of it. Planks stacked in the mud. The count board was gone. Riven stood on the remaining frame for a moment, looking north, then jumped down without a word. Cael felt the jump in his knees.
-
-Riven spat into the mud beside the stack. "Good riddance."
+On the way to the outer gate they passed the demonstration platform. Somebody had dismantled half of it. Planks stacked in the mud. The count board was gone. Riven stood on the remaining frame for a moment, looking north, then jumped down without a word. Cael felt the jump in his knees. Riven spat into the mud beside the stack. "Good riddance."
 
 Nobody answered. The yard was empty. Even the clerks had learned to look away.
 
@@ -246,9 +236,7 @@ Riven stared into the dark road ahead. "Feels different out here."
 
 Cael snorted. "Keep walking."
 
-Riven folded the map. Behind them, the last gate lantern vanished into the mist. Ahead, the road bent north and disappeared among the hills. Neither of them slowed.
-
-Somewhere behind them, Kestrel Gate would keep counting casualties and washing stones and filing papers nobody believed. That was no longer their problem to solve in a council room. They had taken it north instead. The bond carried Riven's matching restlessness. Neither of them named it. Naming was for people with offices.
+Riven folded the map. Behind them, the last gate lantern vanished into the mist. Ahead, the road bent north and disappeared among the hills. Neither of them slowed. Somewhere behind them, Kestrel Gate would keep counting casualties and washing stones and filing papers nobody believed. That was no longer their problem to solve in a council room. They had taken it north instead. The bond carried Riven's matching restlessness. Neither of them named it. Naming was for people with offices.
 
 By noon the second day, the last smoke from Kestrel Gate was gone. Riven checked the map once and didn't check again. Checking implied a return route. There wasn't one.
 

@@ -44,9 +44,7 @@ The words stuck. Cael flinched—just a little, enough.
 
 Cael looked away first, toward the lanterns moving along the wall, toward anything else. "This isn't about that."
 
-"It is for me."
-
-For a second neither spoke. Wind rattled loose slate somewhere above them. A gate bell rang once in the distance. Cael's shoulders lowered a fraction—the closest thing he ever came to admitting he'd heard something painful.
+"It is for me." For a second neither spoke. Wind rattled loose slate somewhere above them. A gate bell rang once in the distance. Cael's shoulders lowered a fraction—the closest thing he ever came to admitting he'd heard something painful.
 
 Riven's head throbbed—not his, Cael's from the wall walk—and he pressed his palm against the parapet until it passed. "You feel that?"
 

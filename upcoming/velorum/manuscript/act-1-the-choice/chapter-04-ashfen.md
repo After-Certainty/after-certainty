@@ -56,7 +56,7 @@ Cael almost smiled. "I'm not heroic about ice."
 
 "Good." Riven stepped closer to the wall. "Then go."
 
-Behind him, Riven followed. For a while the only sounds were boots, wind, and breathing.
+Cael crossed the ice. Riven followed behind him. For a while the only sounds were boots, wind, and breathing.
 
 Midmorning they passed a dead mule on the inside edge of the trail—pack still on, legs at wrong angles, tongue grey. No rider. No note. Flies had already found the eyes.
 
