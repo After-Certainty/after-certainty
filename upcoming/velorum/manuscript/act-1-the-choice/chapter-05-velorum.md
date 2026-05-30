@@ -2,233 +2,173 @@
 
 The stone under Riven's boots was warm.
 
-Not sun-warm. Wrong warm. It pushed up through his soles until his legs felt unsteady.
+Not from the sun. The sun hadn't shown itself all day. This warmth came up through the soles of his boots and settled in his legs until they felt loose beneath him.
 
-The bowl stretched wide around them, carved rings full of grit, grey light laid flat over everything. No clean shadow. No clear sun. The rim behind him cut off the path back down. Ahead, the rings pulled his eyes toward a pale center that was still just stone.
+The bowl spread wide around them, ring after ring cut into pale stone, grey sky overhead, no shadows, no movement. Behind him, the rim hid the trail they'd climbed. Ahead, the rings narrowed toward a pale center that looked no different from the rest of the rock.
 
-Cael still had his hand. Hard enough to hurt.
+Cael still hadn't let go of his wrist.
 
-"You're crushing my hand," Riven said, voice thin. "Let go, fuck."
+"You're crushing my hand."
 
-"No," Cael said.
+"No."
 
-The channels in the stone were deep enough that wind should have whistled through them.
-It didn't.
+"You are."
 
-Sound thinned until Riven could hear his own pulse too loud in his ears. Then too soft. Then loud again.
+"Good."
 
-The air thickened. Not fog, not smoke. Just pressure.
+Riven almost laughed. Almost. The sound died before it reached his throat. Something about the place swallowed noise.
 
-Riven tried to step back.
-His boot lifted.
-Stopped.
+The wind should have been moving through the carved channels. It wasn't. His own breathing sounded wrong, too loud, then too far away, then loud again.
 
-"Don't," Cael said.
+The air pressed against him, not fog, not smoke, pressure like standing too deep underwater.
 
-"I'm not doing anything."
+Riven tried to step back. His foot lifted. Stopped. The warmth in the stone climbed higher, past his ankles, into his knees.
 
-"You're fighting it."
+"Cael."
 
-"There's nothing to fight."
+"What?"
 
-The lie tasted metallic in his mouth.
+"We should go."
 
-The clouds above the bowl moved wrong. They held still, then jumped. Riven's heart kicked once, then caught a second beat half a step behind it. For a moment he could not tell which one was his.
+Cael didn't answer right away. When he finally spoke, his eyes were still fixed on the center of the bowl. "Maybe."
 
-Cael stared at the center.
+Riven stared at him. Maybe? That wasn't a Cael answer.
 
-"What do you see?" Riven whispered.
+The clouds overhead shifted, not drifted, shifted, one moment there, the next somewhere else. His stomach dropped. His heart stumbled. For a second he couldn't tell whether the extra beat came from his chest or Cael's.
 
-"Nothing."
+"Tell me you saw that."
 
-"That's worse."
+"Yeah." The word came quietly. Too quietly.
 
-"Yeah."
+Riven licked his lips. His mouth felt dry. The weight settled deeper, not around him, inside him, like somebody had stepped into the space where his thoughts usually formed. No voice. No words. Just presence, the certainty that something else was there, watching, waiting.
 
-Riven licked dry lips. They stayed dry.
+His pulse jumped. The feeling didn't. It stayed exactly where it was. Patient.
 
-Then it came.
+The pamphlet flashed through his head: Heartbridge, First Circle, the Ashring, cheap ink and old stories. For the first time since leaving Greyhaven, he wished he'd never picked the damn thing up.
 
-No footsteps. No voice.
-Just a cold push into the space where his next thought should have been.
+Beside him, Cael's grip tightened, not much, enough. "I'm here." Riven couldn't tell whether the words were meant for him or for Cael himself.
 
-He grabbed for names.
-Monster. Spirit. Weather.
-None of them fit.
+"Cael." His voice came out thin. Wrong. "We should really go."
 
-Something was there. He felt it the way you feel someone watching you in a room you thought was empty.
+"Maybe." Again. The same answer.
 
-His chest went hollow. Sweat stung his hairline. The stone stayed sick-warm under his boots.
+Something tightened beneath Riven's ribs. His skin prickled. The warm stone seemed to breathe beneath his feet. Then something moved through him, not a thought, not a voice, a realization, sudden, cold, absolute. It landed so hard his eyes watered.
 
-The pamphlet had called this place the Ashring. First Circle in the margin. Cheap ink. Two names tied together on one page.
+*You don't get to stay untouched.*
 
-Now the second name sat in his head like it had always belonged there.
+Riven sucked in a breath. The air barely seemed to reach his lungs. "Did you feel that?"
 
-Not a person.
-Not an answer.
-Just something watching.
+"Yeah." The answer came immediately. "What was it?"
 
-His throat locked. He swallowed twice before air moved right.
+For the first time since they entered the bowl, Cael looked away from the center. Looked directly at him. Fear sat plain on his face, not panic, not confusion, fear. "I don't know." Riven wished he sounded uncertain. He didn't. "But it's real."
 
-Cael's grip shifted on his hand.
+It kept building. Neither of them let go.
 
-"I'm here," Cael said. Riven could not tell if he meant him, the center, or both.
+It dragged old fears to the surface and held them there: Mara's chalkboard, dock planks at dusk, the feeling of finishing a day and knowing nobody would remember who had done the work.
 
-"Cael," Riven said. "We should-"
+Riven wanted it to stop. The worst part was that he didn't, not entirely. The wanting was still there, buried underneath the fear.
 
-"Should what?"
+A laugh escaped him, or maybe a choke, hard to tell.
 
-Riven did not know. Run. Step out. Spit the metal taste and pretend this was a bad climb and nothing else.
-
-His feet would not move.
-
-Pressure pushed deeper, under his ribs.
-
-Then the warning hit him clean:
-*you don't get to stay untouched.*
-
-His eyes burned.
-
-"Did you feel that?" he rasped.
-
-"Yes."
-
-"What was it?"
-
-Cael's voice stayed flat. "I don't know. But it's real."
-
-Riven swallowed hard. The pressure kept building.
-
-It shoved every old fear to the front: dock at dusk, no one left to name what he'd done, his name used like a tool and put away when the job was over.
-
-He wanted it to stop.
-He still wanted it anyway.
-
-He made a sound that came out half laugh, half choke.
-
-"Riven," Cael said.
+"Riven." Cael's voice sounded farther away than it should have.
 
 "I'm fine."
 
-"You're not."
+"No."
 
-"I said I'm fine."
+"I'm standing, aren't I?"
 
-"Then stay on your feet for ten more seconds."
+"Barely."
 
-"What happens in ten?"
+Riven tried to roll his eyes. The effort felt enormous.
 
-"I don't know."
+The center of the bowl remained empty. That bothered him more than if something had been standing there. His mind kept trying to force a shape into the space, a face, a body, anything. Nothing stayed.
 
-Riven's chest stayed tight. The center of the rings was still empty, but his mind kept trying to force a shape there. Face. Body. Anything.
+Velorum. The name kept surfacing anyway, like it had been waiting for him to stop fighting it.
 
-Nothing held.
+Beside him, Cael drew a slow breath. "If this is it," he said quietly, "we hold."
 
-Velorum.
-The word kept rising in him no matter how hard he pushed it down.
+Riven looked over. "We hold what?"
 
-Cael drew a shallow breath and squared his shoulders.
-
-"If this is it," Cael said, rough and steady, "we hold. No matter how bad it gets."
-
-Riven stared at him.
-
-"Hold what?"
-
-"Whatever breaks first."
+"I don't know." The answer surprised both of them. Cael shook his head once. "Whatever comes."
 
 "That's not a plan."
 
-"It's what we have."
+"No." The corner of Cael's mouth twitched, not quite humor, not quite fear. "It's what we've got."
 
-The pressure leaned in again. Riven's skin lifted all over.
+The air seemed to lean closer. Riven felt the hairs rise along his arms. Cael lifted his free hand toward the center of the bowl, not dramatic, not brave, just stubborn, the same look he got before testing a bridge everyone else thought would collapse. "We hold."
 
-Cael raised his free hand toward the center, palm out. Small gesture. Not dramatic. Just stubborn.
+The words landed strangely. Riven felt them settle inside his own chest, not agreement, not obedience, recognition.
 
-"We hold," he said.
+"Don't."
 
-Riven felt the words land in his own chest like they were his and not his.
+Cael didn't look away from the center. "If you're leaving, leave."
 
-"Don't," he whispered.
+Riven almost laughed again. The bowl had already made that impossible. His feet stayed where they were. Cael still had his wrist. The road back to Greyhaven suddenly felt very far away.
 
-Cael did not look away from the center. "If you're leaving, leave now."
+"I'm here." The admission slipped out before he could stop it. "And I hate it."
 
-"I can't."
+"Yeah." Cael finally glanced at him. "Me too."
 
-His boots would not move back. Cael still had his hand. Somewhere between Greyhaven and the seep there had stopped being a clean way out.
+That caught him off guard. For one stupid second all Riven could think about was the loose thread hanging from Cael's cuff. He wanted to pull it, just to prove he still could.
 
-"Then you're here," Cael said.
+Then something shifted, a flicker, small, fast, relief, not his, Cael's. Riven felt it anyway. The emotion hit him with the same certainty as his own heartbeat. Before he could stop himself, anger followed, sharp, immediate.
 
-"I'm here," Riven heard himself say. "And I hate it."
+*You don't get to be relieved.*
 
-Cael's mouth twitched, almost a smile, almost pain.
+The thought landed between them, not spoken, shared.
 
-"Then stay."
+Cael's head snapped around. Riven froze. They stared at each other.
 
-For one stupid second Riven saw a loose thread at Cael's cuff and wanted to pull it.
+"What was that?"
 
-Then the pressure hit harder.
+Neither of them moved. Neither let go. The bowl's weight vanished from Riven's attention. Something more frightening had replaced it.
 
-His thoughts stopped lining up. Fear, anger, want all crashed together.
+"Riven." Cael sounded shaken now, actually shaken. "I didn't say anything."
 
-He felt a flicker from Cael. Relief.
+"I know."
 
-Riven snapped back before he could stop it.
-You don't get to be relieved.
+Copper flooded the back of Riven's tongue. The clouds overhead jumped. The bowl tilted, or maybe he did. Suddenly he felt weight shift, a stumble, the sensation hit before he saw it happen. His stomach dropped. His knee buckled. At the exact same moment, Cael caught himself.
 
-He did not know if he thought it or said it.
+Both of them froze, breathing hard.
 
-"Riven," Cael said, sharp. "I didn't-"
+"What the fuck was that?"
 
-Riven stopped breathing for a beat. Copper flooded his tongue.
+This time neither of them had an answer.
 
-The clouds jumped again. Cael turned all the way toward him. Riven saw himself reflected in Cael's eyes too clear, too close.
+Weight snapped inward beneath Riven's ribs. His lungs refused a full breath. He grabbed a fistful of Cael's sleeve, hard. Cael didn't pull away.
 
-Riven jerked.
-Weight shifted through both of them at once, wrong and immediate, before he knew whose foot had slipped.
+"If we stop now—"
 
-They froze.
+"We're not stopping." Cael answered too quickly.
 
-"What the fuck was that?" Riven whispered.
+Riven heard it. So did Cael.
 
-"I don't know," Cael said. This time he sounded like he meant it.
+"That's not what I was going to say."
 
-Pressure snapped inward under Riven's ribs. He could not pull a full breath.
+For a moment neither spoke. The bowl waited around them: stone, warmth under their boots, the thing at the center that wasn't a thing at all, just attention, just waiting.
 
-He grabbed Cael's sleeve, hard.
+Cael's grip tightened. "I'm in." The words came out rough, certain. "Whatever this is. Whatever it costs."
 
-"If we stop now-" he started.
+The answer arrived immediately, not a voice, not a sound, recognition.
 
-"We don't stop," Cael said, too fast.
-
-"That's not-"
-
-No other path showed up. Just rings. Just pressure. Just Cael staring at him.
-
-"I'm in," Cael said. "Whatever this is. Whatever it costs."
-
-The answer came with no voice.
 Yes.
 
-Heat climbed into Riven's teeth. Shame hit hot in his face. Gratitude hit with it, unwanted.
+Heat climbed through Riven's jaw. Shame hit first, then gratitude, unwanted, uninvited, not entirely his.
 
-"Don't," he said again, weaker.
+"Don't." The word barely made it out.
 
-Cael held his eyes. "Say it."
+Cael didn't look away. "Say it."
 
-"Say what?"
+Riven laughed once, short and hopeless. "Say what?"
 
-"Say it plain."
+"The truth."
 
-Riven wanted to lie.
-Wanted to say he was dragged here.
-Wanted to say he was only trapped.
+Riven wanted to lie, wanted to say he'd been dragged here, wanted to say this was Cael's fault, wanted to say he'd been trying to leave since they stepped into the bowl. His mouth wouldn't do it. Not here. Not now.
 
-His mouth would not make the lie.
+"I'm not leaving you up here alone." The admission hurt, more than the fear, more than the weight in his chest. "I'm not giving you that story."
 
-"I'm not leaving you up here alone," he said, raw. "I'm not giving you that story to hide behind."
-
-Cael swallowed.
+Cael swallowed. Something moved across his face, gone before Riven could name it.
 
 "That's not a yes."
 
@@ -236,28 +176,24 @@ Cael swallowed.
 
 "Riven."
 
-Riven swallowed copper. His pulse and Cael's pulled against each other until he could not tell which chest owned the hammering.
+The presence leaned closer. His heartbeat stumbled. For a second he couldn't tell whether the second rhythm belonged to him or Cael. Maybe it didn't matter anymore.
 
-"I'm here," he said. "I'm in. Fuck. I'm in."
+The words came out raw. "I'm in." He closed his eyes, opened them again. "Fuck." A breath. Then: "I'm in."
 
-The stone hummed once under their boots, low and deep.
+The stone beneath them hummed, low and deep, more felt than heard. The presence pressed closer. Riven had the sudden terrible feeling that there was nowhere left to hide, not a thought, not a memory, not a fear. Everything felt exposed. Seen.
 
-The presence filled him until there was nowhere left to hide a thought. Even his anger felt watched.
+The warning arrived cold and absolute, not words, meaning:
 
-Then the warning came again, colder this time:
-*what happens to one of you starts happening to both.*
+*What happens to one of you starts happening to both.*
 
-His eyes flooded. Hot tears. No wind to blame.
+His eyes burned. Hot tears gathered before he could stop them. No wind. No excuse.
 
-Cael squeezed his hand once, hard.
+Beside him, Cael squeezed his hand once, hard. "I know."
 
-"I know," Cael whispered.
+Riven looked over. Cael's eyes were wet too. That frightened him more than anything else, because for the first time he couldn't tell whether the grief in his chest belonged to him or to both of them.
 
-Riven did not know which one of them he meant.
+The bowl fell silent. No wind, no birds, no scrape of stone, just breath, just heartbeats, just the feeling of something listening.
 
-Everything went quiet the way a room goes quiet after a door shuts.
+Riven tightened his grip on Cael's sleeve until his knuckles hurt.
 
-Only breath. Only stone.
-
-Riven gripped Cael's sleeve until his knuckles hurt.
-Whatever came next was already listening.
+Whatever came next had already heard their answer.
