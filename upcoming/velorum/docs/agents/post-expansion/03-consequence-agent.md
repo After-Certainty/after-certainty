@@ -372,8 +372,9 @@ Run on what remains after density cuts and reality cleanup. **01** identifies wh
 3. **03-consequence** *(this agent)* — fill reclaimed space with escalation  
 4. **[04-character-voice](./04-character-voice-agent.md)** — distinct mouths on new and surviving dialogue  
 5. **[05-world-pressure](./05-world-pressure-agent.md)** — operational strain; shock → adaptation → workarounds → new normal  
-6. Core chain touch-up (**04** direct-camera, **03** flow) on flagged scenes only  
-7. [07-scene-compression](../revision/07-scene-compression-agent.md) **last** — sentence-level trim only after full post-expansion stack
+6. **[06-humanity](./06-humanity-agent.md)** — final verification; lived texture  
+7. Core chain touch-up (**04** direct-camera, **03** flow) on flagged scenes only  
+8. [07-scene-compression](../revision/07-scene-compression-agent.md) **last** — sentence-level trim only after full post-expansion stack
 
 **Especially valuable for:**
 

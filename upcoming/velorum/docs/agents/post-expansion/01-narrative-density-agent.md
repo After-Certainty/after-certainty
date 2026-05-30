@@ -76,6 +76,34 @@ Cut weaker versions.
 
 ---
 
+## STRONGEST MANIFESTATION WINS
+
+When a **single phenomenon** can appear in multiple forms, keep the manifestation that best communicates it—not every variation.
+
+**Example (Chapter 22 — reality is wrong):**
+
+Possible manifestations:
+
+* delayed reflection
+* delayed sound
+* delayed stars
+* delayed echo
+* delayed footprints
+
+**Ask:**
+
+> Which manifestation best communicates the phenomenon?
+
+Keep **that one**. Reduce the others.
+
+This is not a different rule from **strongest example wins**—it applies when the manuscript **accumulates variations of the same effect** instead of choosing the sharpest single image. Post-expansion Chapter 22 still showed a little **variation accumulation**: not as bad as before, but present. Hunt this pattern anywhere one wrongness, bond bleed, or crowd instability gets proved through a **list of sensory delays** or parallel symptoms.
+
+**Prefer:** one unforgettable manifestation + consequence.
+
+**Avoid:** five ways to show the same delay.
+
+---
+
 ## THREE REPRESENTATIVES RULE
 
 When depicting **crowds**, **clinics**, **workers**, **guards**, **patients**, or **pilgrims**:
@@ -152,6 +180,7 @@ Flag passages where:
 - the same world condition is demonstrated repeatedly
 - the same relationship dynamic is re-established repeatedly
 - the chapter accumulates evidence instead of progressing
+- the same phenomenon appears as **multiple sensory variations** (delay stacks, parallel wrongness symptoms) — apply **strongest manifestation wins**
 
 ---
 
@@ -174,7 +203,7 @@ The goal is not compression for its own sake. The goal is **higher narrative den
 
 - Read the **existing chapter** end-to-end before diagnosing
 - Map what each scene **proves** vs what it **changes**
-- Apply **strongest example wins** and **three representatives** when merging or cutting
+- Apply **strongest example wins**, **strongest manifestation wins**, and **three representatives** when merging or cutting
 - Reinvest recovered word count into **consequences** via **[03-consequence](./03-consequence-agent.md)** — flag sites in *Consequence Opportunities*; do not pad with replacement examples in the same pass
 - Preserve plot, POV assignment, and who speaks unless merge requires a light stitch
 - Compare against **prior chapters in the same act** — redundancy often spans chapter boundaries
@@ -255,8 +284,9 @@ There is no point polishing, reality-checking, or voice-editing scenes that shou
 3. [03-consequence](./03-consequence-agent.md) — reinvest cuts with escalation; preserve novel length  
 4. [04-character-voice](./04-character-voice-agent.md) — distinct mouths on surviving and new dialogue  
 5. [05-world-pressure](./05-world-pressure-agent.md) — operational strain; living system  
-6. Core chain touch-up (**04** camera, **03** flow) on flagged scenes only  
-7. [07-scene-compression](../revision/07-scene-compression-agent.md) **last** — sentence-level trim toward act density targets
+6. [06-humanity](./06-humanity-agent.md) — final verification; lived texture  
+7. Core chain touch-up (**04** camera, **03** flow) on flagged scenes only  
+8. [07-scene-compression](../revision/07-scene-compression-agent.md) **last** — sentence-level trim toward act density targets
 
 ---
 

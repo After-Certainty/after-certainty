@@ -20,8 +20,6 @@ By the time he started up the hill above the harbor road, his sleeves smelled li
 
 He climbed the zigzag path with his hands shoved into his pockets and gravel slipping under his boots. Halfway up he passed a pair of pilgrims—older woman, younger man, both in road-stained cloaks—resting on a bench somebody had nailed into the hillside last winter. The bench listed to one side. The woman counted coins into the younger man's palm while he tied a fresh ribbon around his wrist. Offerings for the monument. Riven stepped around them without slowing. The harbor spread out behind him, grey water hemmed in by crooked docks and leaning warehouses. Roofs climbed the hillside in uneven rows of dark shingles and patched slate. From a distance it almost looked orderly. Almost.
 
-Greyhaven was always under repair: new boards over rotten ones, new beams beside old foundations, stakes where somebody had tested the ground and decided not to trust it. Nobody ever talked about finishing. Just keeping it standing.
-
 At the next bend he glanced back. The wind shifted, and three words drifted up from somewhere below: Heroes. Curse. Never forgotten. Riven rolled his eyes and kept climbing.
 
 Everybody in Greyhaven knew the story: Heartbridge, the monument on the hill, the bond, the songs, the pamphlets, the same damn tale sold a hundred different ways. Children learned it before they learned their letters. Pilgrims climbed the hill in pairs. Newly married couples left ribbons and candle wax at the base of the monument and promised each other things they couldn't possibly know.
@@ -92,8 +90,6 @@ The foreman had the wrong length twice. The man on the rope argued back. Somebod
 
 "No." Cael's eyes stayed on the support. "They'll patch it and call it done until the next rain."
 
-Riven had seen that play before—new timber over rotten, new rope beside old, stakes where somebody had tested the ground and decided not to trust it. Greyhaven never finished anything. It just kept standing.
-
 The foreman finally cut the board short and hammered it anyway. The support held. For now. Cael looked away first.
 
 "You hear that?" Riven asked.
@@ -146,9 +142,9 @@ Riven opened his mouth, stopped. The honest answer annoyed him. "Maybe."
 
 Cael looked out across the roofs, wind pushing at his coat. "People'll remember the wrong things anyway."
 
-"That's comforting."
+"Great. Another thing that doesn't hold weight."
 
-"I wasn't trying to be."
+"I wasn't trying to be comforting."
 
 Riven rolled the pamphlet tighter. Down below, somebody shouted from the market. The sound carried up the hill and disappeared into the wind. Cael's attention drifted across the town, loose slate, warped beams, a sagging roofline. Riven could practically see him cataloging repairs.
 

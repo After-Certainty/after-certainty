@@ -476,8 +476,9 @@ Run on what remains after density cuts/merges. There is no point reality-checkin
 3. **[03-consequence](./03-consequence-agent.md)** — reinvest cuts with escalation  
 4. **[04-character-voice](./04-character-voice-agent.md)** — distinct mouths on consequence beats  
 5. **[05-world-pressure](./05-world-pressure-agent.md)** — operational strain; living system  
-6. Core chain touch-up (**04** direct-camera, **03** flow) on flagged scenes only  
-7. [07-scene-compression](../revision/07-scene-compression-agent.md) **last**
+6. **[06-humanity](./06-humanity-agent.md)** — final verification; lived texture  
+7. Core chain touch-up (**04** direct-camera, **03** flow) on flagged scenes only  
+8. [07-scene-compression](../revision/07-scene-compression-agent.md) **last**
 
 **Especially valuable for:**
 

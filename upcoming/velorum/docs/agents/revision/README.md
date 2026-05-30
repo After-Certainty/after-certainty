@@ -30,10 +30,11 @@ After each act meets expansion word targets:
 3. **[post-expansion/03-consequence](../post-expansion/03-consequence-agent.md)** — **third**: reinvest cuts with escalation; preserve novel length.  
 4. **[post-expansion/04-character-voice](../post-expansion/04-character-voice-agent.md)** — **fourth**: distinct mouths; stop author-voice convergence.  
 5. **[post-expansion/05-world-pressure](../post-expansion/05-world-pressure-agent.md)** — **fifth**: operational strain; living system not symbolic backdrop.  
-6. Core chain touch-up (**04** camera, **03** flow) on flagged scenes only.  
-7. **07-scene-compression** last — do not compress before the full post-expansion stack.
+6. **[post-expansion/06-humanity](../post-expansion/06-humanity-agent.md)** — **sixth**: final verification; restore human randomness; chapter feels lived not engineered.  
+7. Core chain touch-up (**04** camera, **03** flow) on flagged scenes only.  
+8. **07-scene-compression** last — do not compress before the full post-expansion stack.
 
-Expansion **invents** texture under word-count pressure; **01** removes over-proof; **02** replaces placeholder texture; **03** reinvests as chain reactions; **04** re-mouths dialogue; **05** makes strain operational. **~50%** revision effort on **01**, **~20%** on **04**.
+Expansion **invents** texture under word-count pressure; **01** removes over-proof; **02** replaces placeholder texture; **03** reinvests as chain reactions; **04** re-mouths dialogue; **05** makes strain operational; **06** restores lived mess without filler. **~50%** revision effort on **01**, **~20%** on **04**.
 
 ## Recommended order (when multiple apply)
 

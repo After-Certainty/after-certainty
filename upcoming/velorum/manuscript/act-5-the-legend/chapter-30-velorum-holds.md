@@ -86,7 +86,7 @@ Cael's mouth tightened. "Are we?"
 
 Lyra considered. A child ran past chasing a dog. A pilgrim dropped a coin. The bond between the two men pulled invisible, tide under skin. Riven's grief for her crossed to Cael before she could name it. Cael's old jealousy arrived in Riven's shoulders as a stiffening she could read from ten paces.
 
-"You're still two people," she said. "You're not private anymore. That doesn't mean you're the statue."
+"You're still two people," she said. "You're not a room with a lock on it. That doesn't mean you're the statue."
 
 Riven closed his eyes. "Fair."
 
@@ -106,13 +106,17 @@ She stepped back. "I'll be at the outer clinic three days. If you need stitches.
 
 She left them in the market without looking back at the statue again.
 
+At the cooper's arch she stopped with her hand on the latch and stood there until her fingers went numb. The market noise washed past. She could still feel Riven's grief cross from twenty paces—the bond doing its work through air and stone. She had spent years reading bodies for fever and blood. This was worse: two men still alive, still separate, still not enough room between them for anyone else to stand.
+
+She opened the clinic door. Washed her hands until the water ran pink, then clear. Her hands shook. Nobody saw.
+
 At the hill before noon she climbed past pilgrims to the new granite.
 
 A woman Lyra did not know was tying a ribbon to the base. "For my boy," she said when Lyra passed. "He was on the rope crew. Said they held the sky."
 
 "My boy was on the hill too," another woman said, not to Lyra, to the stone. "He came down and couldn't stop shaking."
 
-A pilgrim asked Lyra if the heroes could heal through the bond. She said no. He asked if they could feel prayer. She said they felt everything. He looked satisfied and walked away.
+A pilgrim asked Lyra if the heroes could feel prayer. She said they felt everything. He looked satisfied and walked away.
 
 Lyra nodded at the first woman and kept climbing.
 
@@ -124,27 +128,11 @@ Wind came off the harbor. Below, Greyhaven moved, patched, alive. Cael and Riven
 
 Lyra watched until they vanished behind a cart stack.
 
-The bond never relaxed fully. She could not see it, but she had learned to read its effect in their bodies, the way one man's wince arrived in the other's face a beat later, the way fatigue crossed without warning. Riven had always worn feeling on his skin. Now Cael wore it too, and Riven wore Cael's steadiness when his own ran out.
-
-Velorum held. The world stabilized. The legend grew.
+Velorum held. The legend grew.
 
 Lyra walked down the hill to the clinic and washed her hands until the water ran clear. She would tell the truth in small rooms to people who bled for ordinary reasons. She would not write songs.
 
-Old Marta's boy came in before lunch with a cut on his forearm from the tear night, scabbed over wrong. Lyra cleaned it, stitched nothing, gave him a strip of cloth and instructions his mother would follow. He asked if the heroes hurt all the time.
-
-"Yes," Lyra said.
-
-"Worth it?"
-
-She thought about Riven's face in the market. Cael's flat *Velorum holds.*
-
-"The town's dry," she said. "You tell me."
-
-The boy nodded like that was an answer and ran out into pilgrim traffic.
-
 Before lunch a cooper came in with a splinter through his thumb from the berm rebuild—ordinary injury, ordinary pay dispute with Bran over who owed the bandage. Lyra pulled the splinter, wrapped the thumb, and told him to argue with Merrow, not her. He left grumbling and alive.
-
-A pilgrim mother brought a feverish child and asked if the heroes could heal through the bond. Lyra said no, gave the mother willow tea and instructions, and charged her clinic price not pilgrim price. The mother paid without complaint and asked where the statue was. Lyra pointed uphill and went back to washing instruments.
 
 Bran came in mid-afternoon with Jess's brother, rope-burned palms and a cut above his eye from a timber slip on the hill path. Lyra cleaned the cut, said nothing about heroics, and told him to keep the hand dry. He asked if Riven and Cael were still men. She said they were still tired. He nodded like that answered everything and went back to the channel.
 
@@ -170,7 +158,7 @@ Lyra stood in the clinic doorway and watched.
 
 Riven shifted his weight. Cael said something Lyra could not hear. Bran answered with a gesture toward the channel. Normal work. Normal men, if you did not know what ran under their skin.
 
-Witness was the only relationship left that belonged to one person.
+She could still watch them without feeling their ribs. That was something.
 
 She closed the door and went back to work. The note from Merrow fluttered once when the latch caught. Timber, not heroes. She could live with that math.
 

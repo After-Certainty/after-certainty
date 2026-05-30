@@ -256,13 +256,11 @@ Riven was quiet. "The bridge had Merrow."
 
 When the chalk snapped, Riven brushed the dust from his fingers, a little still clinging to his thumb. "I don't have a coat that'll survive that wind."
 
-"You'll borrow mine."
-
-"You will if your teeth start rattling."
+"You'll borrow mine." Cael capped the chalk. "You will if your teeth start rattling."
 
 Riven almost smiled. "You really think we're doing this."
 
-Cael looked out toward the dark hills, where the harbor was only sound from here—mast lines creaking, a drunk shouting two streets over. "Last spring those planks held because two men stood in the rain all night," he said. "Not because anybody sang about them. Because somebody stayed."
+Cael looked out toward the dark hills, where the harbor was only sound from here—mast lines creaking, a drunk shouting two streets over. "Last spring somebody stayed on the north bridge. We're not singing about it either."
 
 Riven followed his gaze.
 
@@ -384,11 +382,11 @@ The north gate guard was different from the night watch—older, sober, unimpres
 
 "We know," Cael said.
 
-"North's always hiring," the guard muttered. He tapped their iron with two fingers. "That'll bend before the fork. Don't say I didn't warn you."
+"North's always hiring," the guard muttered. He tapped their iron with two fingers. "That'll bend before the fork. Caravan lost a wheel past the marker yesterday—left grain on the scree. Don't say I didn't warn you."
 
 "We won't," Riven said.
 
-"North's always hiring," the guard repeated, and waved them through anyway.
+He waved them through anyway.
 
 Riven paused on the threshold one last time. Greyhaven smelled like smoke and herring and Mara's soap. Rooftops still wet from last night's rain. He could have walked back to the inn, taken the broom, scrubbed his name onto the board again, and called this a scare.
 

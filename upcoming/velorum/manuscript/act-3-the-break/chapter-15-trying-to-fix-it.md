@@ -4,6 +4,8 @@ Labor crews worked the central square for three days straight—counting from th
 
 Cael stood on the lower staging platform at dawn of the first of those days and watched laborers slot wooden supports into the old fountain basin. The square had always been wide; now it was wider, cleared of market stalls and cart pens so sightlines ran clean from the magistrate's steps to the north gate road. Chalk arrows marked where crowds would stand. Ropes marked where they would not. Fresh sawdust covered the stones where vendors had fought for decades over pitch space.
 
+Merrow's engineer marked the west lane with blue chalk—different color from Halverin's white—while Halverin's clerk argued that casualty wagons blocked the platform sightline. Merrow said, "Then move your sightline." The engineer marked another blue line six paces back from the rope and wrote *injury cord* on her slate. Halverin's clerk wrote *pending* and left.
+
 The fountain had not run in years. The basin held rainwater and trash until Merrow's people emptied it and Halverin's engineers claimed it for a platform base. Cael approved. A dry basin was safer. Water would swell the wood and make the crowd think this was renewal instead of repair.
 
 Vendors fought the clearing anyway. A spice seller refused to move until Merrow's guard lifted her table legs and carried the table to the south lane herself. A boy cried over spilled saffron in the dust. Cael watched the saffron stain spread and filed it under costs nobody would put on Halverin's slate.
@@ -13,6 +15,8 @@ Merrow climbed up beside him with a slate under her arm and two apples in her co
 "I ate," Cael said.
 
 "You lied to your face, then." She bit into her apple. "You want the west lane left open for casualty wagons."
+
+She tossed the core into the sawdust. A spice seller cursed the smell from three stalls over—wrong complaint, wrong day. Merrow ignored him.
 
 "Always," Cael said.
 
@@ -25,6 +29,8 @@ Merrow studied him, then nodded. "I'll tell the clerks it's your call."
 It was the first call that was his in days.
 
 On the first morning a wheelwright refused to move his tool cart from the east rope line until Merrow's guard wrote a compensation stub. The wheelwright read the stub twice, moved the cart, and spat in the sawdust. Cael watched from the staging platform and felt Riven's contempt cross the bond before he had even seen Riven's face.
+
+A cooper's crew stacked staging timber by the basin while Halverin's engineer marked sightlines. The nephew with rope burns carried boards without looking at the platform. Merrow's clerk filed a compensation stub for the spice seller whose table legs still sat in the south lane—*demonstration clearing, pending review*—while Halverin's clerk tried to attach the same stub to a sequence tally. Merrow's runner took the stub back. "Wrong column."
 
 By second bell that same day paste crews had hung three broadsides with their names centered in bold. Riven refused to read any of them. Cael read the crowd rules once from the steps and hated how steady his voice sounded.
 
@@ -47,6 +53,8 @@ Merrow, passing with medic crates, said, "Shape keeps medics out if you block th
 "Then freeze somewhere useful," Merrow said, and kept walking.
 
 Mid-rehearsal a vendor's cart wheel caught the east rope and snapped a post. The square stopped while Merrow's crew replaced it and Halverin recited crowd rules from memory. Halverin added a horn blast between counts. Riven flinched. Cael flinched with him. Halverin called it correction and ran the sequence until the flinch buried—not gone, buried.
+
+At the west lane an orderly counted cots aloud—six made up, two spare—and wrote the number on Merrow's injury slate. Halverin's clerk tried to copy the tally to a sequence column. Merrow's medic blocked the slate with her elbow. "Injury lane. Not your column."
 
 Merrow's medics set cots at the west lane with empty slates ready. Cael approved that too.
 
@@ -71,6 +79,8 @@ They set. They lifted again. On the fourth lift a guard at the margin stamped to
 Halverin ran the margin drill until guards stamped and a horn blew off beat on purpose at his signal. Cael felt Riven's attention snap and fought to keep his own feet on chalk. Once they held through the noise. Twice they did not. Each failure left a bruise in the bond that faded slower than the bruise on Cael's knee.
 
 On the last run Halverin's chalk runner ran out of white and switched to blue. The marks looked wrong on the stone—too bright against the old white. Riven swore at the color change and missed a turn. Cael corrected and felt Riven's shame cross before his own irritation landed.
+
+At dusk the cooper's nephew with rope burns asked Merrow for salvage pay from the attack cleanup. Merrow initialed *demonstration prep, unpaid* on his stub and sent him back to the square. He spat in the sawdust and kept hauling staging timber anyway.
 
 Merrow watched from the west lane without comment. At the end she climbed the platform steps and said to Halverin, "If you stamp any harder you'll crack the basin supports."
 
@@ -108,7 +118,7 @@ A tanner's apprentice fainted in the third row of onlookers during the read-thro
 
 At dusk Halverin made them run the full sequence with the horn live. The sound bounced wrong off the north wall again. Cael mentioned it. Halverin said the crowd would absorb the echo. Riven said the crowd was not a blanket. Nobody won that argument.
 
-That same afternoon Merrow walked the west lane with two medics and marked triage spots with chalk. Halverin's clerks tried to redirect the lane behind the crowd ropes. Merrow sent them back with a look that needed no speaking horn. Cael watched from the platform and felt grateful, then angry at himself for feeling grateful, because grateful meant he had already bought into Halverin's setup.
+Merrow walked the west lane with two medics and marked triage spots with chalk. Halverin's clerks tried to redirect the lane behind the crowd ropes. Merrow sent them back with a look that needed no speaking horn. Cael watched from the platform and felt grateful, then angry at himself for feeling grateful, because grateful meant he had already bought into Halverin's setup.
 
 A paste crew hung the woodcut broadside on the magistrate wall. Children gathered to point at the paired figures. An old man read the rules aloud to his grandson: no rushing the line, no weapons, children behind the rope. The grandson asked if Cael and Riven could stop the raiders from coming back. The old man said they could stop fear. Cael heard that from thirty paces and did not correct him.
 
@@ -126,7 +136,7 @@ Riven took the sheet from Cael's hand and read it once. "You left out what happe
 
 "For who?" Riven asked.
 
-Halverin did not answer that. He never did when the answer was only his office.
+Halverin checked the horn strap and did not answer.
 
 Lyra came through the square at midday with a crate of bandage rolls on her shoulder and stopped when she saw the staging. Rope lines ran taut from post to post; wooden supports threw a crosshatch over the dry basin rim. She set the crate down without asking for help.
 
@@ -236,7 +246,9 @@ A paste crew was still working the north wall, half asleep, scraping old sheets 
 
 "Big day," Cael said, and hated that he echoed Halverin.
 
-Merrow's medic wagon stood at the west lane with slates blank and cots made up. Lyra checked bandage rolls by touch in the wagon mouth and did not look at the platform. Cael signed the staging slate one last time with ink that smelled like iron.
+Merrow's medic wagon stood at the west lane with slates blank and cots made up. Lyra checked bandage rolls by touch in the wagon mouth and did not look at the platform. An orderly counted cots aloud—six made up, two spare—and wrote the number on Merrow's injury slate before Halverin's clerk could copy it.
+
+Cael signed the staging slate one last time with ink that smelled like iron.
 
 *Accept load. Do not split.*
 
@@ -261,3 +273,5 @@ First bell would come before the square went quiet enough to count. Cael lay sti
 "North wall always lies," Cael said. "We count on our feet tomorrow. Not the echo."
 
 Merrow's runner passed once under the shutter with chalk on his sleeve: *West lane open at dawn. Injury slates blank. Don't sign magistrate sheets.* Cael memorized it. Riven did too, without reading—the bond carried the words before he finished reading them. Below the annex a vendor argued with a guard about cart placement at the west lane mouth. Merrow's voice cut through once—short, final—and the cart rolled back. Cael heard the bond carry Riven's relief that the lane had held one more hour. Riven did not say thank you. Neither did Cael. Gratitude traveled too, and they were out of room for extra cargo.
+
+At the south tent Lyra counted bandage rolls by touch and wrote the tally on Merrow's injury slate. Halverin's clerk tried to copy the number to a sequence column. Lyra blocked the slate with her elbow. "Wrong desk." The clerk left with ink on his cuff and no number filed. Cael heard about it through the bond before Riven told him, and did not comment.

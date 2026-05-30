@@ -4,9 +4,11 @@ The morning after the attack, the city smelled like wet ash and lime. Gray light
 
 Riven spent the morning in a work line outside the south market—shovel, wheelbarrow, broken timber, again. People recognized him now. That was new. Some thanked him. Some wouldn't meet his eyes. Both felt bad.
 
+The foreman split the line at midmorning—half to salvage, half to clear the demonstration route. Riven's shovel went to the route. Cael's went to the command hall count. Merrow crossed out *center line* on the slate and wrote *debris until Halverin posts route* in the margin. The foreman shrugged and moved Riven back to timber anyway.
+
 Merrow's runner passed with a slate—*debris until demonstration, center line after*—and kept moving without saluting. Riven initialed it. Cael initialed it through the bond before Riven's chalk touched paper.
 
-A foreman marked salvage with chalk—*burn, save, maybe*—and argued with a cooper over whether a beam could hold weight again. Riven hauled where he was told. Through the bond Cael replayed the riverside entrance in inventory counts at the command hall and Riven couldn't shut either stream off.
+A foreman marked salvage with chalk—*burn, save, maybe*—and argued with a cooper over whether a beam could hold weight again. Riven hauled where he was told. Cael was at the command hall counting riverside dead; Riven couldn't shut either stream off.
 
 A boy no older than ten came through with water in a dented ladle. Riven drank because his mouth felt packed with dust. The water tasted like lime. The boy stared at him for a second too long, then hurried away.
 
@@ -14,17 +16,19 @@ Near midmorning, a clerk arrived at the old fish court with a chalkboard and two
 
 A woman in a patched shawl stopped the clerk mid-read and said her son's name before the scribe could. The clerk nodded and wrote it anyway—*missing, not confirmed*—and moved on. The woman stood in the line until a medic pulled her aside and sat her on an empty crate.
 
-A cooper's apprentice asked whether the pair would run the demonstration route. Riven said ask Merrow. The apprentice nodded and went back to stacking salvage under chalk marks—*burn, save, maybe*—that changed while they watched.
-
 Near the identification desk, two men argued loud enough to carry. One blamed the night watch for keeping the riverside entrance barred; the other said the watch had opened it and the pair had been too slow. Neither looked at Riven. Both needed somebody to blame more than they needed to be right.
+
+A widow with flour on her sleeves had been waiting since dawn for a clerk to read her husband's name off the injury slate. When the demonstration route crew chalked over her spot in line, she sat on an empty crate and didn't move. Lyra's medic sent her to Merrow. Merrow sent her to Halverin's aide. The aide sent her back to the identification desk with a form marked *pending demonstration prep.*
 
 A clerk with a fresh bandage on his jaw read names off a slate too fast for the scribe to keep up. *Dockworker—Thom.* Riven's shovel stopped mid-scoop. The name wasn't on the list yet. It would be. He kept shoveling because stopping read as guilt and guilt read as admission.
 
 When they reached the river-stairs dead, a woman stepped out of line and covered her mouth with both hands. The old man from the landing stood beside her, one hand on her shoulder, face blank while a scribe read names he already knew.
 
-An hour later the woman in the patched riding cloak came back carrying salvaged boards with two boys. She asked where the pyre wood was being stacked. Riven pointed toward the east lane, then took half the load from the older boy without saying anything. The woman thanked him quietly. That felt worse. Every thank-you and every look-away hit him twice. Through the bond Cael kept replaying what had gone wrong at the riverside entrance, and Riven couldn't shut either stream off. His own sore muscles, Cael's shoulder riding on top of them—a second injury. When he lifted the shovel, both aches moved together.
+An hour later the woman in the patched riding cloak came back carrying salvaged boards with two boys. She asked where the pyre wood was being stacked. Riven pointed toward the east lane, then took half the load from the older boy without saying anything. The woman thanked him quietly. That felt worse. A foreman at the pyre stack argued with a cooper over nail price per weight—salvage slate still wet, credit still held—and Merrow's runner initialed *injury first* on the argument without stopping the shovel line. Every thank-you and every look-away hit him twice. Through the bond Cael kept replaying what had gone wrong at the riverside entrance, and Riven couldn't shut either stream off. His own sore muscles, Cael's shoulder riding on top of them—a second injury. When he lifted the shovel, both aches moved together.
 
 By noon he couldn't stand hearing himself think. So he went looking for Lyra.
+
+On the way he passed a debris crew chalking the demonstration route across the square—two circles at the head of an arrow, front and center. A cooper's apprentice asked if the pair would run it. Riven said ask Merrow. The apprentice chalked their names in the margin anyway until a runner tore the corner off and told him to file injury first. The apprentice spat and kept chalking.
 
 The yard between barracks and infirmary was crowded—runners, guards with bandaged hands, a woman looking for her husband's name on a slate. Riven shouldered through without stopping. Cael felt his hurry and answered it with inventory counts that made no sense.
 
@@ -86,6 +90,8 @@ A guard with a split scalp sat on the next bench while Lyra checked his eyes. "C
 
 When he stood to leave, his knees complained. The soreness felt familiar—not because it was his.
 
+Through the annex window a baker argued with an orderly over flour requisition—*ovens closed, lime ash first, bread tomorrow if the queue clears.* Lyra sent the orderly to Merrow with a bed count and kept folding cloth. "Tell the baker split palms eat before speeches," she said. Nobody in the yard looked like they believed it.
+
 Lyra tied off another bandage roll. "You're carrying his shoulder too."
 
 Riven stopped at the door, hand still on the frame. "You can tell?"
@@ -102,21 +108,23 @@ For a second he almost argued. Then realized he didn't actually know how. So he 
 
 Halverin called for a public address in the lower square before the afternoon was half gone. Temporary scaffolds had gone up overnight. Banners hung over blackened walls. Guards stood at every alley mouth. Noon sun. No shade. The city smelled like ash baked into stone.
 
+Cael spent the hour before the speech in Merrow's office signing patrol changes—*center line reserved, debris crew holds riverside until route posts.* A demonstration clerk wanted both signatures on a hero slate. Merrow sent him to the identification desk. Cael signed the patrol slate anyway. Riven signed because the bond carried Cael's hand moving before his own reached the chalk.
+
 Paste crews had already hung a strip along the magistrate wall—*STEADINESS RETURNS*—though the ink was still wet and one corner had peeled in the heat. Riven saw it and looked away. Cael saw it too. Neither commented.
 
 Riven stood beside the platform with Cael, both washed, both re-bandaged, both props somebody had positioned and forgotten.
 
 Halverin stepped forward in a charcoal coat. The square quieted—not because people wanted to listen, because they were tired enough to. He spoke about resilience, about sacrifice, about rebuilding. The words rolled over the crowd in a steady rhythm.
 
-Near the front row a cooper with ash still caught in his beard stopped clapping mid-stroke when Halverin said *shared load.* A girl holding her little brother's wrist tightened her grip until the boy tried to pull away. An old soldier who stood through the whole speech without clapping once finally looked at the platform when Halverin said *demonstration.*
-
 Runners at the side platform took each sheet as the scribes finished. One tripped on the scaffold step and kept running anyway. Paste smell mixed with ash. Riven tasted both.
 
 Scribes copied *observed, structured, safe* while Halverin said it. Merrow stood at the platform edge with an injury slate under one arm, face closed. Lyra's medic wagon waited at the west lane with cots made up and slates blank.
 
-The crowd responded in uneven waves—a few cheers, more silence, one man shouting that his daughter had been at the riverside entrance until guards pulled him back. Halverin never broke rhythm. Two scribes on the side platform copied his speech while he gave it. Runners took each sheet as soon as the ink dried and carried them toward gate posts.
+The crowd responded in uneven waves—a few cheers, more silence, one man shouting that his daughter had been at the riverside entrance until guards pulled him back. Halverin never broke rhythm.
 
-Riven stopped listening after a minute. He watched the people instead: a cooper with ash still caught in his beard, a girl holding her little brother's wrist so tightly the boy kept trying to pull away, an old soldier who stood through the whole speech without clapping once.
+Riven stopped listening after a minute. He watched the people instead: a cooper with ash still caught in his beard stopped clapping mid-stroke when Halverin said *shared load*; a girl holding her little brother's wrist so tightly the boy kept trying to pull away; an old soldier who stood through the whole speech without clapping once.
+
+Below the scaffold a baker without bread watched the speech from his barred doorway. A freight clerk beside him was already posting river surcharges on a wet slate. Merrow's runner tore the surcharge sheet down once, initialed it *injury first*, and pinned Merrow's copy over Halverin's. The clerk posted both anyway.
 
 A clerk at the side platform tried to get their names for a hero slate. Merrow sent him to the identification desk instead. "Injury first. Story later."
 
@@ -131,8 +139,6 @@ Then Halverin said: "Yesterday showed us something important."
 The square quieted further. "We can't rely on a bond that only works when the day's easy."
 
 Riven felt Cael focus completely.
-
-A woman near the front row covered her mouth. A cooper stopped clapping mid-stroke. Paste crews on the side platform kept writing anyway—Halverin's words, Merrow's injury counts, demonstration dates—ink drying faster than grief.
 
 Halverin continued. "In four days, we will conduct a public demonstration." A pause. "Observed. Structured. Safe."
 
@@ -150,15 +156,9 @@ Cael's answer came back immediately. We need this.
 
 Underneath it Riven felt Cael's need—not trust, desperation. If yesterday didn't buy them a way forward, then the dockworker and the girl at the stairs were just dead. Cael couldn't swallow that. Neither could Riven, which was why the answer stuck.
 
-Riven looked away before his anger had somewhere to land. Below the platform, the woman was still repeating her son's name. Halverin never looked in her direction. The speech went on. The crowd endured it. And somewhere in the middle of it, Riven realized the demonstration had already started.
+Riven looked away before his anger had somewhere to land. Below the platform, the woman was still repeating her son's name. Halverin never looked in her direction. The speech went on. The crowd endured it.
 
 When the speech ended, Riven left before anyone could stop him. He cut behind the cloth market into a narrow service lane where burned crates still sat in black piles against the wall. The noise of the square faded, not enough. He heard Cael's boots behind him thirty seconds later and stopped beside an overturned rain barrel. Cael stopped a few paces away.
-
-A medic from Lyra's lane passed the alley mouth with a kit and a slate—*riverside entrance, two critical*—and kept running without stopping. Riven felt Cael file the number and hated that even injury counts had become shared work.
-
-Scribes on the side platform were still copying Halverin's words while runners took each sheet toward gate posts. *Observed. Structured. Safe.* Riven read the wet ink on a discarded sheet and felt his stomach turn.
-
-Paste crews were already working the magistrate wall behind them—*STEADINESS RETURNS* in wet ink. Riven smelled it before he turned.
 
 A clerk with a demonstration slate asked Cael to sign the route draft. Cael said ask Merrow. The clerk said Halverin required it. Cael said no. The clerk left with the slate unmarked, chalk on his teeth.
 
@@ -204,25 +204,17 @@ Silence. The city worked around them—a cart rattling somewhere beyond the alle
 
 A paste crew scraped old strips from the magistrate wall behind them—*STEADINESS RETURNS* half gone, new strip waiting. Riven smelled wet paste and ash and felt Cael smell it too.
 
-Merrow passed the alley mouth once without stopping. "Four days," she said to Cael. "Center line. Signal three. Improvise after." She kept walking.
+Merrow passed the alley mouth once without stopping. "Four days," she said to Cael. "Center line. Signal three. Improvise after. Debris until route posts—no hero signatures." She kept walking.
 
-A runner passed the alley mouth carrying fresh broadsides under one arm, paste bucket in the other. Paste crews were already working ahead of the official schedule. Riven watched the runner's ink smear in the damp air. *PUBLIC DEMONSTRATION* in bold before Halverin had finished speaking. The city didn't wait for permission anymore. It waited for symbols.
+A runner passed the alley mouth carrying fresh broadsides under one arm, paste bucket in the other. Paste crews were already working ahead of the official schedule. Riven watched the runner's ink smear in the damp air. *PUBLIC DEMONSTRATION* in bold before Halverin had finished speaking. Paste before the speech finished. Of course it did.
 
-Workers in the square were already chalking crowd lines across the paving stones—two circles at the head of an arrow, front and center. A cooper's apprentice asked whether the pair would run the route. Riven said ask Merrow. The apprentice nodded and kept chalking anyway.
+Workers in the square were already chalking crowd lines across the paving stones—two circles at the head of an arrow, front and center.
 
-By dusk, funeral fires burned in three quarters. Smoke drifted over the rooftops in dark ribbons. Bells sounded from different wards as names were read. Cael and Riven stood on the wall walk watching the city glow orange beneath the coming dark.
+By dusk, funeral fires burned in three quarters. The cooper guild had posted salvage prices on the magistrate wall beside the speech strips—nails by weight, beams by span—and merchants at the river lane were refusing credit until the patch crews cleared the stairs. Smoke drifted over the rooftops in dark ribbons. Bells sounded from different wards as names were read. Cael and Riven stood on the wall walk watching the city glow orange beneath the coming dark.
 
 Below them a worker nailed a fresh notice to a post: PUBLIC DEMONSTRATION. FOUR DAYS. The paper snapped in the wind. Three more appeared before the watch changed, each pasted over something older—missing notices, evacuation routes, supply instructions.
 
-A medic wagon from Lyra's lane passed the stair below with cots made up and slates blank. Lyra sat on the tailgate sorting bandages. She looked up once at Riven on the wall walk, then at Cael beside him, then went back to work without waving. Riven felt Cael notice and clamp down. The clamp crossed anyway.
-
-A fishmonger without his brother passed on the stair below, empty basket, face blank. Riven watched him go and felt Cael watch too—the bond carrying the same grief from two angles.
-
-One man crouched in the square with chalk, sketching crowd lines across the paving stones. He paused when he noticed them watching. "That's where they'll chalk the pair when they run the demonstration route." He pointed—two circles at the head of an arrow, front and center.
-
-"Who told you where to put us?"
-
-"No one." The worker shrugged. "That's where they always put symbols." He bent back to his lines and moved on.
+A fishmonger without his brother passed on the stair below, empty basket, face blank. Riven watched him go.
 
 Merrow passed the arch with a demonstration posting slate under one arm. "When the route's set, you're center line until signal three," she said to Cael. "After that, improvise."
 
@@ -266,8 +258,12 @@ Neither of them believed the city would wait that long.
 
 Outside, a bell rang for the watch change. The sound rolled through the stone walls and settled in Riven's chest. He lay down fully dressed. Across the room, Cael was still awake, already moving toward the demonstration in his head. Riven stared at the rafters until the stripes of moonlight moved. The funeral smoke still clung to his coat. Somewhere down the row, a man cried out in sleep and went quiet again. Riven did not turn to look.
 
-Below the wall paste crews were already hanging *PUBLIC DEMONSTRATION* over missing-person sheets. Riven smelled wet paste through the shutter crack and felt Cael smell it too.
+Below the wall paste crews were already hanging *PUBLIC DEMONSTRATION* over missing-person sheets.
 
-Riven closed his eyes. The city had already chalked their places in the square. Halverin had already sold tomorrow before today finished bleeding. Cael's need to make the dead mean something sat in Riven's chest beside his own guilt—same weight, same shape, impossible to split.
+He slept badly anyway.
 
-He slept badly anyway. When the bell came he stood because the yard required it, not because he believed the demonstration would hold.
+Before the bell, Merrow's runner found them at the debris line with a final slate—*center line at demonstration, debris until route posts, no hero signatures.* Riven initialed it in chalk that wouldn't wash off. Cael initialed beside him. A demonstration clerk tried to add their names to a broadside proof anyway. Merrow's runner tore the corner off and told him to file injury first. The clerk left with wet paste on his cuffs and no names.
+
+At the timber stack the cooper's nephew asked if they'd be on the platform or hauling. Merrow's runner said hauling without looking up. The nephew nodded like that was both answer and sentence and went back to stacking splinters.
+
+When the bell came Riven stood because the yard required it, not because he believed the demonstration would hold.

@@ -15,7 +15,9 @@
 
 **Edition target:** ~**100,000** words · **30** chapters · middle expands, **Act V compresses**
 
-*Last updated: 2026-05-30 · branch `velorum/full-manuscript-expansion` · Act V pass 1 complete · book expansion done (within act ranges)*
+**Post-expansion stack:** see **[post-expansion-progress.md](./post-expansion-progress.md)** · agents **[post-expansion/README.md](./agents/post-expansion/README.md)**
+
+*Last updated: 2026-05-30 · branch `velorum/full-manuscript-post-expansion` · post-expansion stack complete (01→05, Acts I–V)*
 
 ---
 
@@ -23,19 +25,19 @@
 
 | Metric | Current | Target | Gap | % of target |
 |--------|--------:|-------:|----:|------------:|
-| **Total words** | 98,127 | 100,000 | +1,873 | 98% |
-| **Avg words/ch** | 3,271 | ~3,333 | +62 | — |
+| **Total words** | 95,002 | 100,000 | +4,998 | 95% |
+| **Avg words/ch** | 3,167 | ~3,333 | +166 | — |
 
 ### Act totals
 
 | Act | Title | Ch | Current | Target | Range | Gap | Avg now | Avg target | Status |
 |-----|-------|---:|--------:|-------:|------:|----:|--------:|-----------:|--------|
-| **I** | The Choice | 6 | 19,006 | 20,000 | 18–22k | +994 | 3,168 | 3,333 | done |
-| **II** | The Gift | 7 | 24,319 | 25,000 | 24–28k | +681 | 3,474 | 3,571 | done |
-| **III** | The Break | 7 | 27,002 | 27,000 | 25–30k | −2 | 3,857 | 3,857 | done |
-| **IV** | The Truth | 6 | 17,893 | 18,000 | 18–22k | +107 | 2,982 | 3,000 | done |
-| **V** | The Legend | 4 | 9,907 | 10,000 | 8–12k | +93 | 2,477 | 2,500 | done |
-| | **Total** | **30** | **98,127** | **100,000** | 93–114k | **+1,873** | **3,271** | **~3,333** | |
+| **I** | The Choice | 6 | 18,844 | 20,000 | 18–22k | +1,156 | 3,141 | 3,333 | post-expansion done |
+| **II** | The Gift | 7 | 24,007 | 25,000 | 24–28k | +993 | 3,430 | 3,571 | post-expansion done |
+| **III** | The Break | 7 | 25,001 | 27,000 | 25–30k | +1,999 | 3,572 | 3,857 | post-expansion done |
+| **IV** | The Truth | 6 | 18,002 | 18,000 | 18–22k | −2 | 3,000 | 3,000 | post-expansion done |
+| **V** | The Legend | 4 | 9,148 | 10,000 | 8–12k | +852 | 2,287 | 2,500 | post-expansion done |
+| | **Total** | **30** | **95,002** | **100,000** | 93–114k | **+4,998** | **3,167** | **~3,333** | |
 
 **Status key:** `pending` · `in progress` · `partial` (craft/early pass, under publication target) · `done` (within chapter target or beat-justified)
 
@@ -82,76 +84,76 @@ Run after **Agent 01** (or manual snippet merge), before closing a pass. See **[
 
 ## Chapter log — Act I · The Choice
 
-**Act target:** 20,000 · **Current:** 19,005 · **Gap:** +995 · **Pass 2 complete (within act range 18–22k); schedule Pass I / 08-reality**
+**Act target:** 20,000 · **Current:** 18,844 · **Gap:** +1,156 · **Post-expansion stack complete (within act range 18–22k)**
 
 | Ch | File | POV | Current | Target | Gap | Status | Notes |
 |----|------|-----|--------:|-------:|----:|--------|-------|
-| 1 | chapter-01-heartbridge.md | Riven | 3,133 | 3,333 | +200 | done | Pass 2: dock short-count, brace crew, decision friction |
-| 2 | chapter-02-the-decision.md | Cael | 3,143 | 3,333 | +190 | done | Pass 2: Halverin notice, tinker patch, gate iron warning |
-| 3 | chapter-03-leaving-greyhaven.md | Riven | 3,213 | 3,333 | +120 | done | Pass 2: fork marker, grain spill, wrong-bell eve |
-| 4 | chapter-04-ashfen.md | Cael | 3,193 | 3,333 | +140 | done | Pass 2: seep swap/ration, last rise; ch. 5 handoff trimmed |
-| 5 | chapter-05-velorum.md | Riven | 3,146 | 3,333 | +187 | done | Pass 2: pack inventory bleed, commitment, rim/pack eve |
-| 6 | chapter-06-the-curse.md | Cael | 3,167 | 3,333 | +166 | done | Pass 2: chalk-map argument, waymarker, east road sync |
+| 1 | chapter-01-heartbridge.md | Riven | 3,046 | 3,333 | +287 | done | Post-expansion: density trim, consequence reinvest |
+| 2 | chapter-02-the-decision.md | Cael | 3,248 | 3,333 | +85 | done | Post-expansion: Halverin voice, cut redundant proof |
+| 3 | chapter-03-leaving-greyhaven.md | Riven | 3,330 | 3,333 | +3 | done | Post-expansion: road friction, reality cleanup |
+| 4 | chapter-04-ashfen.md | Cael | 2,966 | 3,333 | +367 | done | Post-expansion: Ashfen wrongness, cut essay blocks |
+| 5 | chapter-05-velorum.md | Riven | 3,084 | 3,333 | +249 | done | Post-expansion: bowl preserved; *I'm in* preserved |
+| 6 | chapter-06-the-curse.md | Cael | 3,170 | 3,333 | +163 | done | Post-expansion: four-movement shape; *We hold* preserved |
 
 ---
 
 ## Chapter log — Act II · The Gift
 
-**Act target:** 25,000 · **Current:** 24,201 · **Gap:** +799 · **Pass 3 complete (within act range 24–28k)**
+**Act target:** 25,000 · **Current:** 24,007 · **Gap:** +993 · **Post-expansion stack complete (within act range 24–28k)**
 
 | Ch | File | POV | Current | Target | Gap | Status | Notes |
 |----|------|-----|--------:|-------:|----:|--------|-------|
-| 7 | chapter-07-shared-load.md | Riven | 3,469 | 3,571 | +102 | done | Pass 3: bandit sync, Split Mile ledger, marsh bend, gate approach |
-| 8 | chapter-08-the-road-to-kestrel-gate.md | Cael | 3,420 | 3,571 | +151 | done | Pass 3: empty post fight, causeway, story distortion, gate queue |
-| 9 | chapter-09-the-magistrate.md | Cael | 3,547 | 3,571 | +24 | done | Pass 3: Halverin frame, riverside entrance knife, bond forms, attack handoff |
-| 10 | chapter-10-lyra.md | Riven | 3,436 | 3,571 | +135 | done | Pass 3: infirmary chaos, boundary problem, Cael confrontation |
-| 11 | chapter-11-no-privacy.md | Riven | 3,367 | 3,571 | +204 | done | Pass 3: roof/canal memory bleed, council check, dormitory |
-| 12 | chapter-12-the-attack-on-kestrel-gate.md | Cael | 3,495 | 3,571 | +76 | done | Pass 3: grain quarter, river stairs failures, Halverin aftermath |
-| 13 | chapter-13-aftermath.md | Cael | 3,467 | 3,571 | +104 | done | Pass 3: cleanup/ID desk, Lyra annex, demonstration foreshadow |
+| 7 | chapter-07-shared-load.md | Riven | 3,407 | 3,571 | +164 | done | Post-expansion: bond proof merged; patrol/repair fallout |
+| 8 | chapter-08-the-road-to-kestrel-gate.md | Cael | 3,401 | 3,571 | +170 | done | Post-expansion: travel reality; cut crowd adjectives |
+| 9 | chapter-09-the-magistrate.md | Cael | 3,540 | 3,571 | +31 | done | Post-expansion: Halverin administrative voice |
+| 10 | chapter-10-lyra.md | Riven | 3,388 | 3,571 | +183 | done | Post-expansion: basin set piece preserved |
+| 11 | chapter-11-no-privacy.md | Riven | 3,310 | 3,571 | +261 | done | Post-expansion: privacy bleed; council consequence |
+| 12 | chapter-12-the-attack-on-kestrel-gate.md | Cael | 3,464 | 3,571 | +107 | done | Post-expansion: attack turn preserved; logistics fallout |
+| 13 | chapter-13-aftermath.md | Cael | 3,497 | 3,571 | +74 | done | Post-expansion: ID desk, demonstration foreshadow |
 
 ---
 
 ## Chapter log — Act III · The Break
 
-**Act target:** 27,000 · **Current:** 26,997 · **Gap:** +3 · **Pass 3 complete**
+**Act target:** 27,000 · **Current:** 25,001 · **Gap:** +1,999 · **Post-expansion stack complete (pilot + rollout; act ≥25k)**
 
 | Ch | File | POV | Current | Target | Gap | Status | Notes |
 |----|------|-----|--------:|-------:|----:|--------|-------|
-| 14 | chapter-14-the-explanation.md | Cael | 3,875 | 3,857 | −18 | done | Pass 3: patrol/clerk logistics; guardrails trim pass 1 thesis |
-| 15 | chapter-15-trying-to-fix-it.md | Cael | 3,850 | 3,857 | +7 | done | Pass 3: eve prep, west-lane vow; ch. 16 handoff cleaned |
-| 16 | chapter-16-lyras-warning.md | Riven | 3,871 | 3,857 | −14 | done | Pass 3: staging/square approach; margin cliff into ch. 17 |
-| 17 | chapter-17-the-demonstration.md | Cael | 3,868 | 3,857 | −11 | done | Pass 3: crowd buildup, surge → ch. 18 |
-| 18 | chapter-18-collapse-in-public.md | Riven | 3,861 | 3,857 | −4 | done | Pass 3: injury aftermath, guard/Merrow logistics |
-| 19 | chapter-19-the-silence-after.md | Cael | 3,820 | 3,857 | +37 | done | Pass 3: square cleanup, clerk filing; Lyra manifest eve |
-| 20 | chapter-20-lyra-leaves.md | Riven | 3,852 | 3,857 | +5 | done | Pass 3: debris/clerk/wagon/wall; Lyra departure |
+| 14 | chapter-14-the-explanation.md | Cael | 3,590 | 3,857 | +267 | done | Post-expansion: Halverin frame; cut thesis loops |
+| 15 | chapter-15-trying-to-fix-it.md | Cael | 3,837 | 3,857 | +20 | done | Post-expansion: institutional speech; repair consequence |
+| 16 | chapter-16-lyras-warning.md | Riven | 3,251 | 3,857 | +606 | done | Post-expansion: Lyra medical voice; square approach |
+| 17 | chapter-17-the-demonstration.md | Cael | 3,562 | 3,857 | +295 | done | Post-expansion: crowd buildup; bond spectacle trimmed |
+| 18 | chapter-18-collapse-in-public.md | Riven | 3,964 | 3,857 | −107 | done | Post-expansion: collapse turn; *This is loss* preserved |
+| 19 | chapter-19-the-silence-after.md | Cael | 3,628 | 3,857 | +229 | done | Post-expansion: filing/suspended; square cleanup pressure |
+| 20 | chapter-20-lyra-leaves.md | Riven | 3,169 | 3,857 | +688 | done | Post-expansion: Lyra exit preserved; annex consequence |
 
 ---
 
 ## Chapter log — Act IV · The Truth
 
-**Act target:** 18,000 · **Current:** 17,900 · **Gap:** +100 · **Pass 3 complete (within act range 18–22k)**
+**Act target:** 18,000 · **Current:** 18,002 · **Gap:** −2 · **Post-expansion stack complete (within act range 18–22k)**
 
 | Ch | File | POV | Current | Target | Gap | Status | Notes |
 |----|------|-----|--------:|-------:|----:|--------|-------|
-| 21 | chapter-21-no-answers-left.md | Cael | 3,007 | 3,000 | −7 | done | Pass 3: Halverin/Merrow exit; platform/shrine logistics |
-| 22 | chapter-22-the-seeker.md | Riven | 3,011 | 3,000 | −11 | done | Pass 3: frost-without-cold, basin aftermath; duplicate closing removed |
-| 23 | chapter-23-following.md | Cael | 2,904 | 3,000 | +96 | done | Pass 3: storm/hail, ring approach; sleep/morning timeline cleaned |
-| 24 | chapter-24-fractured-lands.md | Riven | 3,006 | 3,000 | −6 | done | Pass 3: knife ridge crossing, timber brace clink; eve handoff |
-| 25 | chapter-25-losing-the-line.md | Riven | 2,959 | 3,000 | +41 | done | Pass 3: belt/wrist eve, bowl descent; ch. 26 handoff order fixed |
-| 26 | chapter-26-velorum-again.md | Cael | 3,013 | 3,000 | −13 | done | Pass 3: Ashring structure/weight, east departure; duplicate boot wire trimmed |
+| 21 | chapter-21-no-answers-left.md | Cael | 3,131 | 3,000 | −131 | done | Post-expansion: travel dedup; Halverin exit |
+| 22 | chapter-22-the-seeker.md | Riven | 2,890 | 3,000 | +110 | done | Post-expansion: basin aftermath; reality cleanup |
+| 23 | chapter-23-following.md | Cael | 3,020 | 3,000 | −20 | done | Post-expansion: storm travel; bond proof merged |
+| 24 | chapter-24-fractured-lands.md | Riven | 2,893 | 3,000 | +107 | done | Post-expansion: ridge crossing; timber consequence |
+| 25 | chapter-25-losing-the-line.md | Riven | 3,082 | 3,000 | −82 | done | Post-expansion: selective 01; Velorum imagery preserved |
+| 26 | chapter-26-velorum-again.md | Cael | 2,986 | 3,000 | +14 | done | Post-expansion: lightest 01; no-cure truth preserved |
 
 ---
 
 ## Chapter log — Act V · The Legend
 
-**Act target:** 10,000 · **Current:** 9,907 · **Gap:** +93 · **Pass 1 complete (within act range 8–12k)**
+**Act target:** 10,000 · **Current:** 9,148 · **Gap:** +852 · **Post-expansion stack complete (within act range 8–12k)**
 
 | Ch | File | POV | Current | Target | Gap | Status | Notes |
 |----|------|-----|--------:|-------:|----:|--------|-------|
-| 27 | chapter-27-the-choice.md | Riven | 2,789 | 2,500 | −289 | done | Pass 1: berm choice, refuse broadside, bread short-count, cooper stack debt |
-| 28 | chapter-28-the-threat-to-greyhaven.md | Cael | 2,449 | 2,500 | +51 | done | Pass 1: post count wrong, warehouse owner, stew bowls, lantern shift |
-| 29 | chapter-29-surrender.md | Riven | 2,407 | 2,500 | +93 | done | Pass 1: hill pilgrims, wrong runner note, Jess ground line, Merrow dawn tally |
-| 30 | chapter-30-velorum-holds.md | Lyra | 2,262 | 2,500 | +238 | done | Pass 1: witness market/clinic, chapbook on door, cooper timber debt |
+| 27 | chapter-27-the-choice.md | Riven | 2,729 | 2,500 | −229 | done | Post-expansion: light trim; refuse hero slates preserved |
+| 28 | chapter-28-the-threat-to-greyhaven.md | Cael | 2,200 | 2,500 | +300 | done | Post-expansion: stew bowls preserved; operational pressure |
+| 29 | chapter-29-surrender.md | Riven | 2,189 | 2,500 | +311 | done | Post-expansion: surrender turn preserved |
+| 30 | chapter-30-velorum-holds.md | Lyra | 2,030 | 2,500 | +470 | done | Post-expansion: Lyra witness; beat-justified sparse |
 
 ---
 
@@ -201,7 +203,8 @@ wc -w upcoming/velorum/manuscript/act-3-the-break/chapter-18-collapse-in-public.
 | 2026-05-30 | `velorum/full-manuscript-expansion` | Act IV ch. 21–26 | ~12,774 | ~15,874 | Pass 2: 26→25→23 priority; bond bleed, travel consequences, ch. 21 → ~3k; duplicate ch. 22 ending removed |
 | 2026-05-30 | `velorum/full-manuscript-expansion` | Act IV ch. 21–26 | ~15,874 | ~17,900 | Pass 3: final push to act range; ch. 22–26 timeline/duplication cleanup; bond/travel consequences |
 | 2026-05-30 | `velorum/full-manuscript-expansion` | Act I ch. 1–6 | ~13,423 | ~19,005 | Pass 2: human friction (counts, packs, wrong orders); ch. 4–6 rim handoff; act in 18–22k range |
-| 2026-05-30 | `velorum/full-manuscript-expansion` | Act I ch. 1–6 | ~10,767 | ~13,423 | Pass 1: Greyhaven logistics, road departure, Ashfen wrongness, Ashring/curse consequences; ch. 4–5 priority pass 2 |
+| 2026-05-30 | `velorum/full-manuscript-post-expansion` | Acts I–V (01→05 stack) | 93,449 | 95,002 | Density/reality/consequence/voice/pressure; book in 90–100k band |
+| 2026-05-30 | `velorum/full-manuscript-direct-camera-pass` | Acts I–V (Agent 04) | ~98,127 | 93,449 | Oracle/simile trim; post-expansion agent specs added |
 
 ---
 

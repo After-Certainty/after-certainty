@@ -84,6 +84,8 @@ Halverin looked up. "It didn't matter."
 
 He looked at Cael again. "The infirmary count is still climbing. Not from the square. From after. People who won't sleep. People who hear things in walls that aren't there." Halverin's mouth tightened. "The clerks call it *residual disturbance.* I call it what we did to them."
 
+He pulled a third sheet from under the maps, not official, a tally in his own hand. Names crossed out. Names added. "Merrow's clinics took twelve yesterday. Six walked out. Four came back at dusk asking for beds we'd already given away." He didn't look at Cael while he said it. "Your friend Lyra's name is on the transfer list north. Don't follow her is still the best advice I have."
+
 Cael said nothing. There was nothing useful to say.
 
 "The shrine lane is still cordoned," Halverin went on. "Merrow's people patrol it. Not because anyone expects another demonstration. Because the crowd keeps coming back to look at the bloodstains." He rubbed his face. "I ordered the stones washed. They washed them. People came back the next morning and said the stains had returned. Maybe they had. Maybe they hadn't. I stopped asking."
@@ -178,6 +180,14 @@ Cael almost smiled. "No promises."
 
 They packed in the yard while clerks watched from doorways and nobody came closer. Cael counted bedrolls twice. Riven complained about the iron rations. "Heavy as fuck and useless if we starve anyway." Merrow's map went into Cael's inner pocket, waxed against rain.
 
+A boy from the stores ran past with an armload of bandages and nearly dropped them when he saw Riven's face. He recovered, stared at the scraped knuckles, and asked, "You the pair from the square?"
+
+"Depends who's asking."
+
+The boy swallowed. "My aunt's in the infirmary. She says you didn't sign." He didn't wait for an answer. He ran.
+
+Merrow heard the exchange from the gate and didn't look back. "Don't collect admirers on the way out. They'll expect you to fix something on the road."
+
 A store clerk brought two canvas sacks and set them on the bench without meeting anyone's eyes. Salt blocks wrapped in oiled cloth. Hard bread, six days' worth if they stretched it. A tin of grease for boot seams. Two coils of line Merrow had added without being asked. Riven lifted one of the iron ration bars and dropped it. It landed with a dull thud that made a watching clerk flinch.
 
 "You'll want water skins filled at the outer cistern," Merrow said. "The north road has seeps marked, but don't trust them after rain. Half of them run wrong this time of year."
@@ -198,7 +208,17 @@ He stared at it for a moment, then crossed out the last line. Underneath, he wro
 
 *Do not pretend.*
 
-A clerk passed in the hall, arms full of bandage rolls. She saw him at the board and looked away fast, as though eye contact might assign her something. Cael didn't call after her. The hall had learned what he was. Not a commander anymore. Not a pair on a broadside. A problem walking toward the door.
+A clerk passed in the hall, arms full of bandage rolls. She saw him at the board and looked away fast, as though eye contact might assign her something. Cael didn't call after her.
+
+Another clerk, younger, stopped three paces off with a slate half raised. "Sir—if you're leaving, the infirmary wants the pair roster updated."
+
+"I'm not on the roster."
+
+The clerk swallowed. "Then where do I file you?"
+
+Cael capped the pen. "Gone." The word satisfied nobody. The clerk wrote it anyway and hurried away before anyone in a pin could ask why.
+
+The hall had learned what he was—a problem walking toward the door, not a commander, not a broadside pair.
 
 "Ready?" Riven stood in the doorway with his pack on.
 
@@ -212,23 +232,31 @@ Nobody answered. The yard was empty. Even the clerks had learned to look away.
 
 They left Kestrel Gate at first dark. Rain faded to mist. The road climbed north through the outer works, lanterns burning behind them for a while, then disappearing one by one. Neither looked back.
 
-At the outer gate the clerk Merrow had mentioned checked the slate once, stamped it, and waved them through without asking their names. The gate closed behind them with a sound Cael had heard a thousand times from the inside. From out here it sounded final.
+At the outer gate the clerk Merrow had mentioned checked the slate once, frowned at the wax, and stamped it anyway. "Merrow said you'd come," he said. "She didn't say you'd come back." He waved them through without asking their names. The gate closed behind them with a sound Cael had heard a thousand times from the inside. From out here it sounded final.
+
+Two guards on the parapet watched them go. One called down, "If the north road washes, don't expect a rescue tally." The other laughed without humor. Cael didn't answer. Answering would have been a signature on something he hadn't read.
+
+A trader's cart passed going south as they cleared the works—flour sacks under tarp, driver hunched against the mist. Cael raised a hand. The driver reined in long enough to read their wrists and the gate stamp on Merrow's slate. "No trade without magistrate copy," he said. "And I don't sell to pairs on the run." He drove on before Cael could say they weren't running. Riven felt hunger spike in both chests and watched the cart vanish into the grey.
 
 The first mile was still Kestrel Gate's road: graded gravel, wheel ruts, a ditch that drained properly. Then the maintenance stopped. The ruts deepened. A bridge ahead showed fresh timber on one span and rotted planks on the other. Someone had nailed a board to a post: *USE LEFT.* The left span held. They didn't test the right.
+
+On the far side a cooper's cart sat abandoned, hoops spilled, driver gone. A note pinned under a stone read *took the low road, water rising.* Cael copied the warning onto the map margin with charcoal. Riven watched him write and felt, through the bond, how much Cael still needed the world to be legible on paper even when the ground refused.
 
 Camp that first night was cold and ordinary. Hard bread. Grease on boots. Riven built a small fire against Merrow's advice and nobody came to tell them to put it out. That was when Cael understood Halverin had meant it. Outside my authority. Outside the story.
 
 They filled both water skins at the outer cistern before dark. The clerk on duty didn't ask their names. Riven capped the last skin and said, "How far to the slip?" The clerk shrugged. "Far enough that you won't come back for refills." He wasn't wrong.
 
+A north-bound family waited at the same tap—two children, one leaking bucket. The father read Merrow's gate stamp and still made them drink last. The mother kept her hand on the boy's shoulder until they'd finished. Riven felt Cael's old shame cross and didn't comment. Out here even water had a queue.
+
 Through the bond, Riven felt it too. Not relief. Just space. The square couldn't reach them here. The clerks couldn't file them here. For one night the bond carried only exhaustion and the crackle of wet wood.
 
-The second night they didn't build a fire. Mist soaked everything. Riven woke to find Cael already packing. Through the bond, neither had slept. That was becoming normal too.
+At the first marked fork the next morning, Riven unfolded the map beneath his cloak. Broken bridge. *Unstable. Avoid.* He traced the road north with one finger. "We're really doing this."
 
-At the first marked fork on the second morning, Riven unfolded the map beneath his cloak. Broken bridge. *Unstable. Avoid.* He traced the road north with one finger. For a while he said nothing. Then: "We're really doing this."
+A gate patrol passed going south before he folded the map—same complaint about ration cuts, same empty bread sacks, same sergeant who wouldn't meet their eyes. Kestrel Gate's problems were behind the mist now. The road ahead didn't care.
 
 Cael adjusted the weight of his pack. "We are."
 
-Riven stared into the dark road ahead. "Feels different out here."
+"Feels different out here."
 
 "It is."
 
@@ -236,22 +264,4 @@ Riven stared into the dark road ahead. "Feels different out here."
 
 Cael snorted. "Keep walking."
 
-Riven folded the map. Behind them, the last gate lantern vanished into the mist. Ahead, the road bent north and disappeared among the hills. Neither of them slowed. Somewhere behind them, Kestrel Gate would keep counting casualties and washing stones and filing papers nobody believed. That was no longer their problem to solve in a council room. They had taken it north instead. The bond carried Riven's matching restlessness. Neither of them named it. Naming was for people with offices.
-
-By noon the second day, the last smoke from Kestrel Gate was gone. Riven checked the map once and didn't check again. Checking implied a return route. There wasn't one.
-
-That afternoon they passed a shrine by the road, door hanging open, offerings stolen or rotted. Riven didn't stop. Cael didn't either. Shrines belonged to cities that still believed in orderly load.
-
-They camped in rain that fell sideways. Riven repaired his boot sole again. Cael felt each tug of the wire through the bond and looked away.
-
-Riven said, "If Velorum's a function, functions break."
-
-"So do people," Cael said.
-
-"Cheerful." Riven tightened the wire. "Keep walking."
-
-Neither smiled. The bond carried something that might have been agreement anyway.
-
-The rain stopped before dawn. Mist replaced it. They walked into grey light with wet packs and no gate to close behind them.
-
-North. Always north, until the land said otherwise.
+Behind them, the last gate lantern vanished into the mist. Ahead, the road bent north and disappeared among the hills. Neither slowed. The city could count them wrong from here on.

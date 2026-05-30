@@ -328,10 +328,11 @@ Run when consequence beats exist but the **setting still reads symbolic**—tens
 3. **[03-consequence](./03-consequence-agent.md)** — reinvest cuts with escalation  
 4. **[04-character-voice](./04-character-voice-agent.md)** — distinct mouths  
 5. **05-world-pressure** *(this agent)* — operational strain; living system  
-6. Core chain touch-up (**04** [direct-camera](../initial-drafting/04-direct-camera-style-pass.md), **03** [flow](../initial-drafting/03-flow-clarity-editor.md)) on flagged scenes only  
-7. [07-scene-compression](../revision/07-scene-compression-agent.md) **last**
+6. **[06-humanity](./06-humanity-agent.md)** — final verification; lived texture  
+7. Core chain touch-up (**04** [direct-camera](../initial-drafting/04-direct-camera-style-pass.md), **03** [flow](../initial-drafting/03-flow-clarity-editor.md)) on flagged scenes only  
+8. [07-scene-compression](../revision/07-scene-compression-agent.md) **last**
 
-**Core agent stack complete:** **01 → 02 → 03 → 04 → 05**.
+**Core agent stack complete:** **01 → 02 → 03 → 04 → 05 → 06**.
 
 **Revision effort budget** *(sample-chapter guidance)*:
 
@@ -339,7 +340,7 @@ Run when consequence beats exist but the **setting still reads symbolic**—tens
 |--------|---------------------------|
 | **01-narrative-density** | **50%** — biggest source of "AI-expanded" feeling |
 | **04-character-voice** | **20%** |
-| **02**, **03**, **05** | **~10% each** — split remaining 30% |
+| **02**, **03**, **05**, **06** | **~10% each** — split remaining 30% |
 
 **Especially valuable for:**
 
