@@ -116,11 +116,17 @@ Footsteps scraped up the path behind them, fast and careless. Bran came over the
 
 "Oi," he called. "Mara says if you two are skipping work again, she's charging your mothers."
 
-Riven groaned. Cael looked amused. "Tell Mara we'll sweep the yard after."
+Riven groaned. "Tell Mara my mother's dead."
 
-"What he said."
+Bran stumbled half a step. "Uh."
 
-Bran nodded, then remembered something. "Oh. And that singer's back."
+"Don't tell Mara that." Cael cut in before the boy could repeat it. "Tell her we'll sweep the yard after."
+
+Riven exhaled. "What he said. Sorry." He waved Bran off. "The sweeping part."
+
+It wasn't a joke. Three winters since the fever, and people still said mothers like everyone had one.
+
+Bran nodded, careful now, then remembered something. "Oh. And that singer's back."
 
 Riven closed his eyes. "The fiddle one?"
 
@@ -160,7 +166,7 @@ The answer irritated him because it wasn't wrong. For a while they stood looking
 
 Cael glanced over. "Say what?"
 
-"The thing you've been thinking all morning." Riven jerked his chin toward the monument. "The actual thing."
+"What comes next." Riven jerked his chin toward the monument. "Not the song version. The thing you've been thinking all morning."
 
 Cael looked back at the town, the roofs, the harbor, the roads winding north into the hills. When he finally spoke, his voice was quiet. "Last spring two men stood on the north bridge all night."
 
@@ -170,9 +176,9 @@ Riven frowned. "What does that have to do with anything?"
 
 Riven waited. "So?"
 
-"So maybe the stories started somewhere."
+"So maybe the stories started somewhere." Cael rubbed his thumb once against the chipped base. "The pamphlet says people asked once and the ground moved."
 
-The wind gusted between them. Riven folded his arms. "That's not the thing."
+The wind gusted between them. Riven folded his arms. "That's still not the thing."
 
 "No." Cael's eyes drifted north, toward the hills beyond Greyhaven, toward the pale country that most people only saw on maps. "The thing is I want to go look."
 
