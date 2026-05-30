@@ -46,13 +46,16 @@ Compare to **Act I ~1,786 avg** and **Act IV ~1,172 avg** (**act-1-calibration-s
 
 | Ch | File | Baseline (pipeline) | Revised | Status |
 |----|------|--------------------:|--------:|--------|
-| 7 | chapter-07-shared-load.md | 2,163 | — | pending |
-| 8 | chapter-08-the-road-to-kestrel-gate.md | 2,412 | — | pending |
-| 9 | chapter-09-the-magistrate.md | 2,315 | — | pending |
-| 10 | chapter-10-lyra.md | 2,299 | — | pending |
-| 11 | chapter-11-no-privacy.md | 2,254 | — | pending |
-| 12 | chapter-12-the-attack-on-kestrel-gate.md | 2,261 | — | pending |
-| 13 | chapter-13-aftermath.md | 2,247 | — | pending |
+| 7 | chapter-07-shared-load.md | 2,163 | 1,741 | **done** — bond cost in fight; oath-bound aftermath; post-fight intrusion |
+| 8 | chapter-08-the-road-to-kestrel-gate.md | 2,412 | 1,832 | **done** — montage compression; dependency/need; farmer seed beat |
+| 9 | chapter-09-the-magistrate.md | 2,315 | 2,463 | **done** — Halverin/Merrow; operational bond failures; Riven wins a beat |
+| 10 | chapter-10-lyra.md | 2,299 | 1,568 | **done** — Lyra earns diagnosis; harm-with-good-posters; compressed dormitory |
+| 11 | chapter-11-no-privacy.md | 2,254 | 1,558 | **done** — ownership theme; canal *mine not to tell*; alley trim |
+| 12 | chapter-12-the-attack-on-kestrel-gate.md | 2,261 | 2,311 | **done** — bond fracture kills; internal vs operational cost; Halverin *You noticed* |
+| 13 | chapter-13-aftermath.md | 2,247 | 2,278 | **done** — narrative capture; judgment beat; city anger; demo locked |
+
+**Act II revised total (7–13):** ~13,751 words · **~1,964 avg/ch** (pipeline baseline ~15,804 / ~2,258 avg) · **Act II complete**
+
 | 14 | chapter-14-the-explanation.md | 2,589 | — | pending |
 | 15 | chapter-15-trying-to-fix-it.md | 2,423 | — | pending |
 | 16 | chapter-16-lyras-warning.md | 2,343 | — | pending |

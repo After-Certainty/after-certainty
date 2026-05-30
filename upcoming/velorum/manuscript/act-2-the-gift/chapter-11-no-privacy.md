@@ -1,209 +1,197 @@
 # Chapter 11 - No Privacy
 
-Riven picked the roof because people usually left him alone up there.
+Riven picked the roof because people usually left him alone up there. The maintenance platform behind the east watchtower wasn't much—spare shingles, split beams, a patch of stone hidden from the wall walk—but it was high enough to see the market fires burning low and the black ribbon of road stretching back toward Greyhaven. Thin cloud, a sliver of moon, two lanterns drifting along the wall below.
 
-The watch tower above the east wall had a maintenance platform behind spare shingles and split beams. From it he could see inner streets, market fires burning low, and the black road toward Greyhaven. Thin cloud. Sliver of moon. Below, two watch lanterns crossing on the wall walk.
+Riven sat with his back against the stone and tried to hold one thought that was only his: *boundary problem.* Lyra had said it yesterday at the infirmary—flat, clinical, like she was reading a label off a crate. Not judgment, not sympathy, just fact. What she meant, he was starting to understand, wasn't that people could see. It was that pieces of him weren't entirely his to keep anymore.
 
-He sat with his back to stone, knees up, and tried to hold one thought without spilling it through the bond: Lyra's mouth when she said *boundary breach.*
+For three breaths he managed to keep the thought contained. Then Cael felt it. The reaction came back immediately.
 
-She'd said it yesterday in the annex while rebandaging a split knuckle—flat, like she was reading a label off a crate. Not accusation. Not comfort. Just fact. Riven had wanted to ask what she meant by stable. He didn't ask. Asking meant wanting an answer he couldn't keep.
+*Where are you?*
 
-He kept the phrase small. No image. No voice. Just words. Three breaths it held.
+Riven closed his eyes. *Nowhere.*
 
-Then Cael felt it.
+The lie crossed anyway. Thirty heartbeats later he heard boots on the ladder. Of course.
 
-Riven knew the second it crossed because Cael's reaction snapped back from below, sharp enough to make his teeth ache.
+Cael pulled himself through the hatch, hair damp from the mist, shirt half-buttoned, one boot properly laced and the other crushed flat at the heel.
 
-*Where are you.*
-
-Riven clenched his jaw. *Nowhere.*
-
-The answer went through anyway—location, mood, everything bundled. Thirty heartbeats later, heavy steps on the ladder. Cael's head cleared the hatch, then his shoulders, backlit by the watch lantern below. He pulled himself up, hair damp, shirt half buttoned, one boot laced and one heel crushed flat like he'd run mid-dress.
-
-"You skipped evening report," Cael said.
+"You skipped evening report."
 
 "I was thinking."
 
 "About Lyra."
 
-Riven scrubbed his face like he could wipe the thought off before it crossed.
+Not a question. Riven barked out a laugh. "You see the problem."
 
-Not a question. Riven laughed once, no humor. "You see the problem."
+Cael folded his arms against the wind. "You act like we can separate what's already crossing both ways."
 
-Cael stayed standing, arms folded against the wind. "You act like we can split what's already crossing both ways."
+"No." Riven stood. "The problem is I can't have one goddamn thought without it becoming committee business."
 
-"No. The problem is I can't have one goddamn thought without it becoming everyone's fucking committee business."
+The words stuck. Cael flinched—just a little, enough.
 
-Cael's expression tightened. Riven felt the hurt before he saw it. "That's not fair."
+"That's not fair."
 
-"Fair." Riven stood, roof edge at his back. "You want fair? Try wanting someone and feeling your goddamn friend flinch at the same time."
+"Fair?" Riven spread his hands. "Try wanting someone while your best friend gets front-row seats."
 
-Cael looked toward the wall lights. "This is not about that."
+Cael looked away first, toward the lanterns moving along the wall, toward anything else. "This isn't about that."
 
 "It is for me."
 
-Cael's shoulders dropped a fraction. The only sign he'd heard what that meant.
+For a second neither spoke. Wind rattled loose slate somewhere above them. A gate bell rang once in the distance. Cael's shoulders lowered a fraction—the closest thing he ever came to admitting he'd heard something painful.
 
-The words hung between them. Through the bond: Cael's refusal, hard and immediate, and under it fear Cael wouldn't say out loud.
+"We have people depending on us."
 
-"We have people depending on us," Cael said.
+Riven laughed. "We always do."
 
-"We always do. That's not new."
+"No. This is different." Cael tapped his chest, then pointed at Riven. "We either learn how to steer this or it steers us."
 
-"No. This is." Cael tapped his chest, then toward Riven. "We steer it or it eats us."
+Riven shook his head. "You keep saying steer like there's a wheel."
 
-Riven spread his hands. "You keep saying steer like there's a fucking wheel. There isn't. There's just what hits and what breaks."
+"There is."
 
-The thought went through stripped raw.
+"No." The answer came out sharper than he'd meant. "There's just what breaks and what doesn't."
 
 Cael winced.
 
-Wind rattled loose slate. Below, a gate bell rang once and stopped.
+A watch pair passed below, their voices drifting up through the dark. Riven waited until the sound faded. Then:
 
-A watch pair passed on the wall walk, boots even on stone. Riven held still until their voices faded toward the north tower. He could still feel Cael's pulse through the bond—too fast for a man who was supposed to be climbing down.
+"You think Lyra can fix this."
 
-"You think Lyra can fix this," Cael said, not turning back.
+"I think she understands it." Cael looked back at him. "That's not fixing. I know."
 
-"I think she sees we're ripping ourselves up over it."
+"No." Riven shoved his hands into his pockets. "No, it's not."
 
-"That's not an answer."
+Eventually Cael climbed back down. Riven listened to the ladder creak until the sound disappeared, then tested whether anything in his head was still only his—roofline, broken chimney, laundry strung between barracks windows, anything except Lyra, anything except fear, anything except Cael.
 
-Riven watched the lantern arc move and disappear. "No."
+Three breaths. Then awareness touched back. Not words, not thoughts, just where Cael was in the barracks, the fact that he was still there. Riven hated how relieved he felt. Hated it even more when the feeling crossed.
 
-He waited until Cael was halfway down the ladder, then tested the seam out of spite—roofline, laundry line, broken chimney pot, anything not Lyra, not fear, not Cael.
+After another ten minutes he climbed down, crossed two streets, and bought sour plum wine from a night stall run by a woman with a ruined ear.
 
-Three breaths. Then Cael's awareness touched back. Not words. Just where Riven stood and how cold his hands were. Riven's shoulders dropped before he caught himself and got angry about it.
+He found a step behind a closed tailor's shop and sat alone in the dark. He reached for an old memory—Greyhaven, twelve years old, rotten boards, winter canal, cold mud, panic, Cael dragging him out by the back of his shirt while yelling hard enough to make him cry afterward. A memory he'd never told anyone. Never needed to. His.
 
-After Cael left, Riven climbed down, crossed two streets, bought sour plum wine from a night stall run by a woman with a ruined ear. He sat on a dark step behind a closed tailor shop. Alley torch threw a thin orange edge on the cobbles. A shutter banged once above him and went still.
+For a moment he thought he'd kept it. Then grief hit him from across the square—deep, immediate, old. Cael had found the same memory. Not because Riven shared it. Because there was nowhere left to hide it.
 
-If distance failed, maybe routine would work.
+The wine cup slipped from his hand. Clay shattered against the cobbles. No locked room. No hidden corner. No private shelf inside his own head.
 
-He reached for a memory he'd never said aloud: Greyhaven, age twelve, rotten boards, winter canal, mud and panic and a broken tooth, Cael hauling him out by the shirt while shouting hard enough to make him cry after.
+When he stood, dizziness hit hard enough that he had to catch himself against the shutter frame. By the time he started back toward the barracks, he already knew sleep wasn't going to happen.
 
-Then the dockworker trick—name five things you see, four you touch, three sounds, two smells, one taste. Broken gutter chain. Split brick. Wet cobble seam. Torch reflection. Crate nail. Stone under his thigh. Damp cuff. Rough cup glaze. Boot heel leather.
+The dormitory was dark except for one oil lamp by the door—two rows of cots, snoring, somebody coughing in their sleep, wool and sweat and lamp smoke in the air. Moonlight striped the floor through the shutters. Cold slid in whenever the wood shifted. Cael sat awake on the edge of his bedroll when Riven came in. He'd clearly been waiting.
 
-By sound, Cael was already in his head again.
+For a while neither spoke. Then:
 
-Riven held the memory tight—the shame, the child terror. For a moment he thought he'd kept it.
+"I forgot that happened."
 
-Then Cael's grief hit from across the square. Sudden. Deep. Old grief, dragged out of the same memory Riven had never wanted shared.
+Riven stopped pulling off his coat. "What?"
 
-Riven dropped the cup. It shattered. Wine jumped cold across his fingers and boot leather.
+"The canal."
 
-His stomach lurched. Not the wine. The bond pulling tight—slack one second, full weight the next. Three breaths his hands wouldn't steady. He pressed his palms into his eyes until sparks came. Didn't help. Cael knew now. Not because Riven chose. Because there was nowhere to hide.
+Riven looked away first. "I didn't."
 
-A drunk stumbled past the alley mouth singing half a market song about sworn heroes and didn't look in. Riven sat with wine on his hands and listened to the last line slur away, then laughed once, sharp and empty.
+"You could've told me."
 
-He paced the alley mouth and back. Distance didn't matter. Cael's worry tracked him from across the square.
+Riven laughed once—short, tired. "That's the point. It was mine not to tell."
 
-He tried counting in the market cipher Bran had taught them as kids, hoping the rhythm might blur the edge.
-
-It didn't.
-
-When he stood, vertigo hit—the alley wall leaning. Riven braced on the shutter frame until it passed. Wrong pulse in his wrists when he started back toward barracks.
-
-In the dormitory, cots in two rows, men snoring. Cael sat awake on the edge of his bedroll waiting. One oil lamp on a crate by the door, rafters thrown high in shadow. Moonlight through slats in pale stripes on empty cots. Beyond the arch, bucket lines clinked in the square.
-
-"I forgot that happened," Cael said quietly. "The canal."
-
-"I didn't."
-
-"You could have told me."
-
-Riven stared at him. "That's the point. It was mine to not tell."
-
-Cael's mouth tightened. "I didn't ask for your memories."
+Cael looked down at his hands. "I didn't ask for your memories."
 
 "Neither did I."
 
-"Then what the fuck do you want me to do when it hits?"
+A man farther down the row rolled over and muttered something in his sleep. The lamp hissed softly.
 
-Riven took a breath. "I want one room in my head that isn't shared."
+"What the fuck do you want me to do when it happens?"
 
-Cael didn't answer right away. When he did, voice rougher than usual: "I don't want to take things from you."
+Riven opened his mouth, closed it again. "I want one room in my own head that stays mine."
 
-Riven sat on his cot and pulled off his boots. "You don't have to want it."
+When Cael finally answered, his voice sounded rough. "I don't want to take things from you."
 
-Cael rubbed his face, elbows on knees, like he could press the bond back out through his palms. Riven felt the effort as clearly as his own heartbeat.
+"You don't have to want it."
 
-"Merrow wants us on first bell," Cael said into his hands.
+Cael rubbed his face, elbows on his knees, like he could press the bond back out through his palms. Riven felt the effort as clearly as his own heartbeat.
 
-Riven laughed once, no humor. "Of course she does."
+"Merrow wants us at first bell."
+
+"Of course she does."
 
 "I can ask for reassignment."
 
 Riven looked at him. "To what. Two separate cots in the same skull?"
 
-Cael dropped his hands and met his eyes. Neither looked away first.
+For once Cael didn't have a solution ready. "I don't know how to fix this."
 
-"I don't know how to fix this shit," Cael said to the floorboards.
+"I noticed."
 
-Riven let out a breath that was almost a laugh. "I noticed."
+Somebody nearby started grinding their teeth in their sleep.
 
-Outside, a broom scraped stone—night crew clearing ash from the square. Ordinary sound. Made the conversation feel worse.
+After a while Cael spoke again. "You remember Heartbridge?"
 
-Someone two cots down ground his teeth in sleep.
+"You mean before we ruined our lives?"
 
-Cael spoke first. "Remember Heartbridge ridge. First time we argued about going north."
+"The ridge. The first argument." Riven followed his gaze up toward the rafters. "You kept talking about purpose."
 
-Riven stared at the rafters. "You kept saying purpose. I kept saying not to be stupid."
+"You kept calling me an idiot."
 
 "You came anyway."
 
-"Yeah." Riven swallowed. "I thought I'd still be me when we got there."
+Riven swallowed. "Yeah. I thought I'd still be me when we got there."
 
-Cael said nothing. Through the bond, Riven felt the hit land.
+Neither of them had an answer for that.
 
 Neither slept quickly. Every time Riven turned, Cael felt it. Every time Cael's guilt brushed the seam, it landed under Riven's ribs.
 
-Near false dawn, Riven woke to canal mud taste in his mouth though he hadn't dreamed. Cael sat upright on the next cot, hands flat on his knees, breathing through his nose like he was counting. They didn't speak. They didn't need to. The memory had woken them both. The room felt too small.
+Near false dawn, Riven woke with canal water in his mouth. Not a dream. A memory—cold mud, rotten boards, panic. Across the room, Cael was already awake, sitting upright, hands flat on his knees, breathing slowly through his nose. The memory had found them both again.
 
-Just before dawn Riven stopped pretending he could set his half down. The bond wasn't going away. Neither was Cael inside it.
+Riven rolled over and stared at the wall. The room felt too crowded, even in silence.
 
-First bell rang. Both already awake.
+Just before dawn Riven stopped pretending any part of his inner life still belonged only to him. The bond wasn't going away. Neither was Cael inside it.
 
-Neither spoke while they dressed.
+By the time the first bell rang neither of them had really slept.
 
-At the door, Cael paused on the latch and sent one clear thought through the seam, deliberate enough to feel like speech.
+Cael stood first, pulled on his coat, paused with one hand on the door latch. For a second the bond went still. Then one thought crossed clean and deliberate—not an accident, not leakage, a choice.
 
-*I am not trying to erase you.*
+*I'm not trying to erase you.*
 
-Riven pulled his coat on and answered the same way.
+Riven closed his eyes. The answer came back before he could stop it.
 
 *Doesn't matter what you're trying.*
 
-Cael opened the door into first-bell cold.
+Cael opened the door. Cold air flooded the room.
 
-Riven followed. The square waking around them—bucket lines, hammer blows, a crier rehearsing names. He heard everything twice.
+Outside, Kestrel Gate was already waking—bucket lines, hammer blows, someone shouting inventory counts, a crier rehearsing names before stepping into the square. Everything loud, everything urgent, everything twice.
 
-At the foot of the stairs, Cael reached for the duty board nailed beside the barracks door. Riven watched Cael's eyes on the columns and felt each line land through the bond before he read them: patrol, market sweep, council check-in, demonstration prep.
+At the duty board Cael reached for the roster. Riven felt the assignments before Cael read them: patrol, market sweep, council check-in. Of course.
 
-"We are already scheduled," Cael said.
+"We're already scheduled."
 
-Riven tore his bread in half without looking up. "Of course we are."
+Riven tore a piece off his breakfast bread. "Shocking."
 
-Breakfast standing in the yard: hard bread, thin broth, salted fish like rope. Teams sorting salvage by chalk marks.
+Breakfast standing in the yard: hard bread, thin broth, salted fish like rope. Teams sorted salvage by chalk marks. Riven watched two apprentices carry a plank marked three different ways and argue which instruction came first. Through the bond he felt Cael think the same thing at the same time: not enough hands for this.
 
-Riven watched two apprentices carry a plank marked three different ways and argue which instruction came first. Through the bond he felt Cael think the same thing at the same time: not enough hands for this.
+His fatigue sat under Cael's like a second layer—heavier than either alone should have been. Plum wine sour on his tongue. Canal mud in the back of his memory, and Cael in there with it.
 
-His fatigue sat under Cael's like a second layer—heavier than either alone should have been. When he bent to lace his boot, dull pull through his shoulder that wasn't quite his.
+When he bent to lace his boots, a dull ache tugged through his shoulder. Cael felt it immediately.
 
-"You all right?" Cael asked without looking.
+"You okay?"
 
-Riven barked a laugh. "Which part."
+Riven laughed. "Which part?"
 
-Cael laced his other boot and said nothing.
+Cael let that one go.
 
-Riven kept his eyes on the yard until the bread was gone. Plum wine sour on his tongue. Canal mud in the back of his memory, and Cael in there with it.
+A runner crossed the square carrying a chalk slate under one arm. "Council check. Second bell." No greeting, no explanation. "Both of you." Then he was gone.
 
-Merrow's runner came through the arch with a chalk slate, stopped when he saw them. "Council check at second bell," he said. "Both of you. No exceptions."
+Riven watched him disappear through the crowd. "That's not a patrol."
 
-Cael nodded once. Riven didn't.
+"No."
 
-When the runner left, Riven said, "That's not patrol. That's rehearsal for his fucking show."
+"That's Halverin."
 
-"Then we show up and don't let them write it without us."
+Cael folded the roster. "Probably."
 
-Hammer. Cart wheel. Someone cursing at a bent nail. Ordinary work. Riven hated how ordinary it sounded after a night like that.
+"His next performance."
 
-He wanted to argue. Cael's certainty settled on his shoulders through the bond anyway—heavy, wet—and it was still there when the runner was gone.
+Cael didn't answer right away. That answer bothered Riven more than disagreement would have.
+
+Finally: "Then we show up."
+
+Riven looked at him. "And?"
+
+Cael adjusted the strap on his shoulder. "And we don't let him tell the story without us."
+
+Riven hated how much he wanted to believe it. Cael's certainty settled on his shoulders through the bond anyway—heavy, wet—and it was still there when the runner was gone.

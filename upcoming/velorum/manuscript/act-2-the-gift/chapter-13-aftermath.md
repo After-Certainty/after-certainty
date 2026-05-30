@@ -1,180 +1,184 @@
 # Chapter 13 - Aftermath
 
-The morning after the attack, the square smelled like wet ash and lime. Gray light on the paving stones. Scaffold shadows sharp against broken walls. Lime buckets lined the curb beside stacked stretchers.
+The morning after the attack, the city smelled like wet ash and lime. Gray light washed across the square. Cleanup crews moved through the wreckage with chalk and saws, marking beams to save and beams to cut. Lime buckets sat beside stacked stretchers. Somewhere nearby, a man kept sneezing and apologizing for it.
 
-Someone nearby kept sneezing from the lime and muttering apologies each time.
+Riven spent the morning in a work line outside the south market—shovel, wheelbarrow, broken timber, again. People recognized him now. That was new. Some thanked him. Some wouldn't meet his eyes. Both felt bad.
 
-Riven stood with a shovel in a work line outside the south market and watched crews mark beams to save and beams to cut. People spoke in low voices. Every few steps, someone recognized him. Some said thank you. Others looked away.
+A boy no older than ten came through with water in a dented ladle. Riven drank because his mouth felt packed with dust. The water tasted like lime. The boy stared at him for a second too long, then hurried away.
 
-A boy maybe ten brought water around in a dented ladle. Riven drank because his mouth was paste-dry, then wished he had not when lime taste hit the back of his throat. The boy stared at him a beat too long and ran off without taking the ladle back.
+Near midmorning, a clerk arrived at the old fish court with a chalkboard and two guards. Body identification. Names. The work crews slowed without meaning to. Riven kept shoveling. Each name hit. Through the bond Riven felt Cael hear them too.
 
-At midmorning, a clerk came through with a chalkboard and two guards and started reading names for body identification at the old fish court. Riven kept shoveling. Through the bond he caught each name landing in Cael too.
+Near the identification desk, two men argued loud enough to carry. One blamed the night watch for keeping the postern barred; the other said the watch had opened it and the pair had been too slow. Neither looked at Riven. Both looked like they needed somebody to blame more than they needed to be right.
 
-When the list reached the river-stairs dead, the mother from the tipped wagon on the road stepped out of line and pressed both hands over her mouth to keep from making noise. Riven recognized her by the patched cloak before he wanted to. She saw him too and looked away first.
+When they reached the river-stairs dead, a woman stepped out of line and covered her mouth with both hands. The old man from the landing stood beside her, one hand on her shoulder, face blank while a scribe read names he already knew.
 
-An hour later she came back with two boys and asked where to stack salvaged boards for pyres. Riven pointed her toward the east lane pile and took half the load from the older boy without speaking.
+An hour later the woman in the patched riding cloak came back carrying salvaged boards with two boys. She asked where the pyre wood was being stacked. Riven pointed toward the east lane, then took half the load from the older boy without saying anything. The woman thanked him quietly. That felt worse. Every thank-you and every look-away hit him twice. Through the bond Cael kept replaying what had gone wrong at the river stairs, and Riven couldn't shut either stream off. His own sore muscles, Cael's shoulder riding on top of them like a second injury—when he lifted the shovel, both aches moved together.
 
-Every thank-you and every look-away hit him twice. Through the bond Cael kept replaying what had gone wrong at the river stairs, and Riven could not shut either stream off.
+By noon he couldn't stand hearing himself think. So he went looking for Lyra.
 
-His own arms ached from work he had already done yesterday. Cael's shoulder pain sat on top of it, same spot, second bruise. When Riven lifted the shovel, both hurts moved together.
+The infirmary annex occupied what used to be a storage room—shelves on one wall, crates on the other, high windows throwing hard white light across everything. Lyra sat on a stool sorting bandage rolls into stacks. She looked up once, read his face, then nudged another stool toward him with her foot.
 
-He found Lyra in the infirmary annex sorting bandage rolls into crates for the outer wards. Narrow room, shelves on one side, high windows on the other throwing hard white light. She looked up once, read his face, and pushed a stool toward him with her foot.
+"You didn't sleep."
 
-"You didn't sleep," she said.
-
-"Neither did anyone else."
+Riven dropped onto the stool. "Neither did anybody else."
 
 "That's not what I asked."
 
-Riven rubbed his thumb along the lip split until Lyra slapped his hand away without looking.
+He rubbed at the split in his lip. Without looking up, Lyra smacked his hand away. Riven stopped. She kept folding cloth. "How many did you lose in here?"
 
-Riven sat. His hands would not stop opening and closing on his knees. "How many did you lose in here?"
+"Enough."
 
-Lyra kept folding cloth. "Enough."
+He laughed once, no humor in it. "Good civic number."
 
-He laughed without humor. "Good civic number."
+That made her stop. She set the bandage roll down and looked directly at him. "You want a count so you can punish yourself with better fucking math."
 
-She stopped folding and met his eyes. "You want a count so you can punish yourself with better fucking math."
+Riven looked away, which was answer enough. Lyra nodded once, like she'd expected it. "Then here's the number that matters." She pointed at him, then toward the square outside. "You two keep trying to carry everybody."
 
-Riven did not deny it.
+Riven felt himself tense.
 
-"Then here's the number you actually need," Lyra said. "You both keep trying to carry everyone at once. That isn't strength. That's how you fucking break."
+"That isn't strength." Her voice stayed flat, matter-of-fact, the way somebody might discuss a broken ladder. "That's how you fucking break."
 
-The line made him breathe in through his teeth. From the command hall across the square, Cael caught it too while reviewing gate reports with Merrow and two clerks. Cael's reaction came back fast: anger at Lyra, then anger at himself for it.
+Cael caught the words through the bond from across the square. The reaction came back immediately: annoyance, defensiveness, then irritation at himself for feeling either. Riven felt all of it. Lyra noticed.
 
-"He's listening," Riven said.
+"He's listening."
 
 "I assumed."
 
-"You don't care."
+"You don't care?"
 
 Lyra shrugged. "If he wants privacy, he can invent it."
 
-Riven almost smiled. It pulled at split skin on his lower lip.
+Despite himself, Riven smiled. The split lip punished him for it.
 
-"You should eat," Lyra said, and pushed a heel of bread across the crate edge.
+Lyra pushed a heel of bread across the crate between them. "Eat."
 
-He ate because saying no would have been showing off for her. The bread was stale and still better than nothing. When he stood, his knees complained in a way that felt borrowed.
+"I'm not hungry."
 
-"You're carrying his shoulder too," Lyra said, not looking up from the bandage stack.
+"That's not what I asked either."
 
-Riven stopped with his hand on the door frame. "You can tell?"
+Riven rolled his eyes, then ate the bread. It tasted stale, still better than most things he'd eaten lately.
 
-"I can tell when two men walk into a room like one of them is hurt in both bodies." She tied off a roll and set it aside. "That's not partnership. That's one pair of shoulders taking too much."
+When he stood to leave, his knees complained. The soreness felt familiar—not because it was his.
 
-He wanted to argue. He left instead.
+Lyra tied off another bandage roll. "You're carrying his shoulder too."
 
-By midday, Halverin called for a public address in the lower square. Temporary scaffolds had gone up overnight, banners hung to hide fire damage, guards posted at each alley mouth. Noon sun. No shade. Sweat and ash still caught in seams. Riven stood to one side of the platform with Cael, both cleaned and re-bandaged, both feeling like props.
+Riven stopped at the door, hand still on the frame. "You can tell?"
 
-Halverin stepped forward in a charcoal coat and spoke in a calm cadence. He called the attack a trial, called the dead honorable losses, and pointed to Cael and Riven as proof Kestrel Gate still had defenders.
+"I can tell when two men walk into a room like one of them got hurt twice." She set the roll into a crate. "That's not partnership."
 
-The crowd responded in uneven waves: a few cheers, more silence, one man shouting that his daughter had been at the river stairs until guards pulled him back. Halverin never broke cadence. He waited for the noise to flatten and kept reading from the same page.
+Riven waited. Lyra finally looked up. "That's one pair of shoulders trying to carry too much weight."
 
-Two scribes on the side platform copied his speech while he gave it. Runners took each sheet as soon as the ink dried and carried them toward gate posts.
+For a second he almost argued. Then realized he didn't actually know how. So he left. The worst part was that he kept hearing her all the way back across the square.
 
-Near the rear of the square, a priest from the lower chapel tried to start a mourning prayer and got drowned out by the next set of civic instructions. By the third interruption he folded his book shut and moved to the edge of the crowd.
+Halverin called for a public address in the lower square before the afternoon was half gone. Temporary scaffolds had gone up overnight. Banners hung over blackened walls. Guards stood at every alley mouth. Noon sun. No shade. The city smelled like ash baked into stone.
 
-A woman near him kept repeating her son's name under her breath. No one corrected her. No one joined in either.
+Riven stood beside the platform with Cael, both washed, both re-bandaged, both feeling like props somebody had positioned and forgotten.
 
-Most of the crowd had turned toward the platform. Easier to listen than to stand there shaking.
+Halverin stepped forward in a charcoal coat. The square quieted—not because people wanted to listen, because they were tired enough to. He spoke about resilience, about sacrifice, about rebuilding. The words rolled over the crowd in a steady rhythm.
 
-Riven watched faces in the front rows: a cooper with ash still in his beard, a girl holding a younger brother by the wrist, an old soldier who did not clap when others did. None of them looked healed. They looked tired and held in place by banners and guards and a man reading from a page.
+The crowd responded in uneven waves—a few cheers, more silence, one man shouting that his daughter had been at the river stairs until guards pulled him back. Halverin never broke rhythm. Two scribes on the side platform copied his speech while he gave it. Runners took each sheet as soon as the ink dried and carried them toward gate posts.
 
-Then Halverin said, "Yesterday showed us the next step. Alignment must be completed, not assumed."
+Riven stopped listening after a minute. He watched the people instead: a cooper with ash still caught in his beard, a girl holding her little brother's wrist so tightly the boy kept trying to pull away, an old soldier who stood through the whole speech without clapping once.
 
-Cael went still beside him. Riven felt his attention lock on Halverin the way it had in the command hall after the attack.
+Near the back of the square, a priest from the lower chapel tried to start a mourning prayer. The next round of civic instructions drowned him out. He tried again, failed again, finally shut the book and stepped aside. A woman nearby kept repeating her son's name under her breath. Nobody joined her. Nobody told her to stop. Most people had turned toward the platform. Listening was easier than grieving.
 
-Halverin continued, "In two days, we will hold a public demonstration. Controlled, observed, guided. The sworn pair will show the city what a stable burden looks like."
+Closer to the scaffold, a cooper's apprentice shouted that the magistrate was already selling yesterday's dead for tomorrow's banners. A guard shoved him back into the crowd without breaking stride. Nobody cheered. Nobody defended Halverin either. The anger just sat there, unfed.
 
-Riven turned his head slowly toward Cael. Cael was already watching Halverin like a man who still believed he could straighten a cracked beam with enough nails.
+Beside him, Cael had gone still. Riven felt it before he saw it—attention, the same dangerous kind of attention Halverin always seemed to pull out of him.
 
-No, Riven pushed through the bond before words.
+Then Halverin said: "Yesterday showed us something important."
 
-Cael's answer came back, equally fast. We need this.
+The square quieted further. "We cannot rely on alignment that only works when conditions are favorable."
 
-When the address ended, the crowd broke into smaller knots of argument and relief and superstition. Riven left the platform without waiting for permission and crossed to the alley behind the cloth market, where broken crates still lay in charred piles.
+Riven felt Cael focus completely.
 
-Cael followed thirty steps behind and caught up near a rain barrel tipped on its side. Narrow alley, soot-stained walls, one strip of sky, torch glare on the barrel's wet rim.
+Halverin continued. "In two days, we will conduct a public demonstration." A pause. "Observed. Structured. Safe."
 
-"You can't agree to that without talking to me first," Riven said.
+The crowd shifted. People exchanged looks. A murmur moved through the square.
 
-"I didn't agree. I listened."
+"The sworn pair will help demonstrate what stable burden-sharing looks like."
 
-"You listened like a man signing a contract."
+There it was. Not a request. Not a discussion. A decision.
 
-Cael scrubbed a hand over his face. He looked older than he had a week ago. "People died because we split under pressure."
+Riven turned slowly toward Cael. Cael was already watching Halverin—not convinced, not exactly, but listening the way he listened when somebody pointed at a crack in a wall and claimed they knew why it had formed.
 
-"People died because a city got attacked."
+No. The thought crossed before Riven could stop it.
+
+Cael's answer came back immediately. We need this.
+
+Underneath it Riven felt Cael's need—not trust, desperation. If yesterday didn't buy them a way forward, then the dockworker and the girl at the stairs were just dead. Cael couldn't swallow that. Neither could Riven, which was why the answer stuck.
+
+Riven looked away before his anger had somewhere to land. Below the platform, the woman was still repeating her son's name. Halverin never looked in her direction. The speech went on. The crowd endured it. And somewhere in the middle of it, Riven realized the demonstration had already started.
+
+When the speech ended, Riven left before anyone could stop him. He cut behind the cloth market into a narrow service lane where burned crates still sat in black piles against the wall. The noise of the square faded, not enough. He heard Cael's boots behind him thirty seconds later and stopped beside an overturned rain barrel. Cael stopped a few paces away.
+
+"I didn't agree," Cael said.
+
+Riven laughed once—short, sharp. "You listened like a man halfway through signing."
+
+Cael scrubbed a hand over his face. He looked older than he had a week ago. "You think that's funny?"
+
+"No." Riven stepped closer. "I think it's terrifying."
+
+One strip of sky overhead. Soot on the walls. Water pooled beneath the overturned barrel. Cael leaned against the brick and looked away.
+
+"People died."
+
+"There it is." Riven pointed at him. "That's exactly what he's doing."
+
+Cael's jaw tightened. "People did die."
+
+"If we don't make it mean something," Cael said, "what were they for?"
+
+"A city got attacked."
 
 "And we were late where it mattered."
 
-Riven stepped closer, voice low. "You think if we just fucking force harder, the bond gets manageable."
+Riven stared at him. For a second neither moved. Then he said the thing he'd been trying not to say.
 
-"I think if we do nothing, more people fucking die on our watch."
+"I felt you."
 
-Riven tightened his grip on the barrel rim until his knuckles went white, then let go and said the thing he had been avoiding.
+Cael looked back. "What?"
 
-"I felt you in my head when that girl at the river stairs went down. Not just your fear. Your verdict. On me."
+"At the river stairs." Riven rubbed both hands over his face. "I felt it."
 
-Cael went still. "I wasn't-"
+The memory was still too close—the beam, the crowd, the girl, the moment everything went wrong.
 
-"You were. And then I was judging you for judging me, and by the time I moved we were both late." Riven pressed fingers to his temples. "Tell me how that's salvageable."
+"I felt you judging me."
 
-Cael did not have an answer. Riven felt him searching anyway, still refusing to drop the idea that there had to be a way through. Halverin was handing that refusal a schedule and a crowd.
+Cael went still. "I wasn't—"
 
-A runner passed the alley mouth with another stack of broadsides under one arm. Riven heard paste brush on wood before he saw the paper. The city was already writing tomorrow.
+"You were." Riven cut him off. "And then I was judging you for judging me." His voice cracked. "We were both so busy being inside each other's heads that neither of us moved fast enough."
 
-By dusk, funeral fires burned in three quarters. Bells sounded in uneven intervals as names were read at ward posts. Riven stood on the wall walk with Cael and watched smoke drift over the road they had come in on, orange underbellies against a sky going purple at the horizon.
+Silence. The city worked around them—a cart rattling somewhere beyond the alley, hammer blows echoing from the square, a bell ringing once. Cael looked at the ground. For the first time, Cael didn't have an answer. Riven felt him searching anyway, still trying to solve it, still trying to find the version where the bond could be made useful enough to justify the cost.
 
-At the foot of the wall, someone had pinned a fresh broadside with Halverin's seal: PUBLIC DEMONSTRATION IN TWO DAYS. ATTEND FOR INSTRUCTIONS. The ink caught torchlight when the wind moved it.
+A runner passed the alley mouth carrying fresh broadsides under one arm, paste bucket in the other. Posters for tomorrow were already going up.
 
-Three more copies had gone up across the lower square by the time night watch changed, each nailed over different damage.
+By dusk, funeral fires burned in three quarters. Smoke drifted over the rooftops in dark ribbons. Bells sounded from different wards as names were read. Cael and Riven stood on the wall walk watching the city glow orange beneath the coming dark.
 
-Below them, cleanup crews still worked under torchlight, dragging beams out of lanes where children would walk again tomorrow. A worker chalked route arrows for the demonstration crowd, wiped ash off a marker line with his sleeve, then drew it straighter.
+Below them, a worker nailed a fresh notice to a post: PUBLIC DEMONSTRATION. TWO DAYS. The paper snapped in the wind. Three more appeared before the watch changed, each pasted over something older—missing notices, evacuation routes, supply instructions.
 
-He looked up and caught Riven watching. "You two are on tomorrow's sheet," he said, tapping his chalk on the stone. "North entrance. Center lane."
+One man crouched in the square with chalk, sketching crowd lines across the paving stones. He paused when he noticed them watching. "You two are on tomorrow's route." He pointed—two circles at the head of an arrow, front and center.
 
-Riven glanced down. Two small circles at the head of an arrowed route.
+"Who told you where to put us?"
 
-"Who told you where to put us."
+"No one." The worker shrugged. "That's where they always put symbols." He bent back to his lines and moved on.
 
-"No one." The worker shrugged. "That's where they always put symbols." He wiped chalk off his fingers and did not meet either of their eyes.
+Below, another notice went up over a missing-person sheet before the paste dried. Riven looked away.
 
-Cael heard that too and said nothing.
+"He's fast," Riven said.
 
-When they climbed down, a messenger handed Cael a folded notice with tomorrow's staging order. Cael read it once and passed it over without comment. Their names sat centered in the first line.
+Cael knew exactly who he meant. "People need a next step."
 
-Riven folded the notice back along its old crease and tucked it into his coat. The paper smelled like paste and lamp smoke.
+"That's what this is?"
 
-"He's fast," Cael said.
+Cael didn't answer immediately. Through the bond, Riven felt fatigue, then longing—the part of Cael that needed yesterday to purchase tomorrow whether or not the math worked. For one breath, standing shoulder-close on the wall, the ache in Riven's chest eased. He leaned into Cael before he caught himself.
 
-"At printing himself into the fucking story."
+"Maybe."
 
-"At giving people a next step."
+Chalk route arrows ran underfoot all the way to the barracks arch, like a game the city had already started without asking permission. Riven kept walking.
 
-Riven looked down at the crews still shoveling ash. "Same thing?"
-
-Cael did not answer immediately. Through the bond, Riven felt him hesitate, then soften a fraction. For one breath, standing shoulder-close on the wall, the ache in Riven's chest eased. He leaned into Cael before he caught himself.
-
-"Maybe," Cael said at last.
-
-At second watch, a pair of apprentices came through carrying a fresh bucket of paste and another stack of broadsides. One climbed a ladder and covered an older evacuation map with the demonstration notice in three smooth strokes.
-
-Riven looked away before the paste dried.
-
-The chalk worker had set his bucket down, both hands shaking from fatigue. He sat on the curb for ten breaths, then stood and started again.
-
-Cael watched him too. "He'll be here tomorrow."
-
-Riven nodded once. "So will we."
-
-As they crossed the lower square, a group of children practiced the route arrows like a game, stepping heel-to-toe along chalk lines while their mother shouted for them to stop. One of them pointed at Cael and Riven and whispered something that made the others go still.
-
-Riven kept walking.
-
-Near the barracks arch, Merrow caught up long enough to hand Cael tomorrow's final posting slate.
-
-"You're center line until signal three," she said. "After that, improvise."
+Near the arch, Merrow caught up long enough to hand Cael tomorrow's final posting slate. "You're center line until signal three," she said. "After that, improvise."
 
 "With what reserve?" Cael asked.
 
@@ -182,11 +186,9 @@ Merrow gave a thin smile. "You."
 
 She moved on before either of them could answer.
 
-Inside, nothing felt steady. Riven's guilt and Cael's sat in the same place in his chest, heavy and wrong.
-
 When he reached the barracks steps, his legs were heavier than the climb should have required. Not a wound. Exhaustion that had crossed the bond twice and come back worse.
 
-Inside, the dormitory smelled of wet wool and lamp oil. Men were already asleep in their cots with boots still on. Cael sat on the edge of his bedroll cleaning grit from a buckle that did not need cleaning.
+Riven felt his guilt and Cael's in the same place in his chest, heavy and wrong. The dormitory smelled of lamp oil and wet wool, most cots already full, men asleep in their boots. Cael sat on the edge of his bedroll cleaning grit from a buckle that didn't need cleaning.
 
 "You hear Merrow?" Cael asked.
 
@@ -194,16 +196,12 @@ Inside, the dormitory smelled of wet wool and lamp oil. Men were already asleep 
 
 "Yeah."
 
-Riven sat on his own cot and stared at the chalk marks on his boots until the lines blurred. Through the bond he felt Cael set on the demonstration anyway, jaw locked, already moving toward it in his head.
+Riven sat on his own cot and stared at the chalk marks on his boots until the lines blurred. Through the bond Riven felt Cael set on the demonstration anyway, jaw locked—not because Cael trusted Halverin, because Cael couldn't bear the alternative.
 
 "Two days," Riven said.
 
-Cael nodded once. "Two days."
+Cael nodded. "Two days."
 
-Riven could feel Cael turning the same count over through the bond and hating that he had to.
+Neither of them believed the city would wait that long.
 
-He stopped telling himself morning would make any of this lighter.
-
-Outside, a bell struck once for the watch change. The sound rolled through the stone and landed in his ribs.
-
-He lay back on the cot and stared at the rafters until the stripes of moonlight moved. Somewhere down the row, a man cried out in sleep and went quiet again. Riven did not turn to look.
+Outside, a bell rang for the watch change. The sound rolled through the stone walls and settled in Riven's chest. He lay down fully dressed. Across the room, Cael was still awake, already moving toward the demonstration in his head. Riven stared at the rafters until the stripes of moonlight moved. The funeral smoke still clung to his coat. Somewhere down the row, a man cried out in sleep and went quiet again. Riven did not turn to look.

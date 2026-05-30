@@ -1,140 +1,196 @@
 # Chapter 9 - The Magistrate
 
-Kestrel Gate rose out of the plain—stone and timber layered up, bigger than anything Cael had seen outside storybooks. The outer wall was patched with fresh beams, pale wood still sticky where nails had gone in crooked. Guards in grey tabards counted wagons at the gate, calling numbers to a second man on a slate who never looked up.
+Kestrel Gate appeared a mile before they reached it. Not the whole city—just the walls. Stone at the base, timber above, layers added whenever somebody had run out of better options. Fresh beams patched the outer face in pale streaks; some still bled sap around the nails.
 
-By the time Cael and Riven reached the south gate, word had already outrun them. Two officers and a clerk met them before their boots cleared the threshold. The clerk had a slate under his arm and kept glancing up like he expected sparks.
+Riven stared up at it. "That's a lot of wall."
 
-"Lord Magistrate Halverin requests your presence," the clerk said. "Immediately."
+Cael didn't answer. The closer they got, the more the place looked tired. A wagon sat broken beside the road while two men argued over a wheel. Guards counted carts at the gate and shouted numbers to a clerk with a slate tucked under one arm. Nobody looked happy to be there.
 
-Riven muttered, "Could at least ask if we're fucking hungry first."
+By the time Cael and Riven reached the south gate, three people were already waiting—two officers and a clerk. The clerk spotted them immediately.
 
-Cael kept walking. He hadn't eaten since dawn. Hunger was small next to the gate overhead—timber groaning, someone shouting from the wall walk, a cart wheel squealing until two men shoved it free while guards watched and did nothing.
+"You are Cael and Riven?"
 
-The city smelled like hot iron and old rain. Shutters half down in daylight. Messengers running between posts with wax packets tight to their chests. In the square, a board nailed to a post: MISSING in block letters, ink still wet.
+Riven sighed. "Depends."
 
-At the next corner, two bakers and a guard yelled over a ration board—numbers rubbed out and rewritten three times. A woman in flour-streaked sleeves pointed at the board and said her line already wrapped the lane. The guard yelled back that the numbers were the numbers. Flour dust in the air. Cael tasted it, dry and bitter.
+"The Lord Magistrate requests your presence."
 
-Their clerk didn't slow. He walked through the argument like a man used to being ignored. Cael followed. Stopping here meant getting swallowed by the crowd's fear.
+"Requests," Riven repeated. "That's generous."
 
-Halverin met them upstairs in a council room—windows on one wall, maps on the other, candles dripping wax on a crowded table. Air moved through the shutters and bent the flames. Below, a bell rang once and stopped mid-swing.
+The clerk ignored him. "Immediately."
 
-He was thinner than Cael expected. Pale. Coat brushed clean at the cuffs. Dark hair tied back, no loose thread. No hurry in his body, even with the city coming apart. He stood when they entered. More courtesy than Cael had gotten from anyone with authority since Ashfen.
+Riven looked at the gate, then at the clerk. "Could at least ask if we're hungry."
 
-"Cael. Riven." Halverin said their names like he'd practiced. "Thank you for coming."
+Cael almost agreed. He hadn't eaten since dawn. But the city kept pulling at his attention. Something was wrong here—not one thing, everything.
 
-An aide coughed into his sleeve and kept writing. Ink scratch. Paper rustle. Beside him, Riven's breath went short and controlled.
+Messengers hurried through the streets carrying wax-sealed packets against their chests. A bell rang somewhere ahead and stopped abruptly. People moved fast but not efficiently, like everybody had somewhere urgent to be and no idea if it would help.
 
-Riven crossed his arms. "Didn't know we had options."
+The clerk led them through the outer district. Half the shutters were closed despite the hour. A board outside a warehouse carried three notices marked MISSING, the ink still fresh.
 
-Halverin gave a polite smile with no warmth. "You always have options. Some are just worse."
+At the next corner, a guard and two bakers were arguing over ration numbers scratched onto a slate. One of the figures had been crossed out and rewritten so many times it looked carved into the board.
 
-He gestured at the table. Pins on the map—raids, collapses on the trade roads, red wax clustered thick where the ring narrowed. Cael stepped in and put both hands on the edge. Wood warm from the candles, scored with old knife marks.
+"The line already wraps the lane," one baker snapped.
 
-River lines and ridge lines cut the map into blocks. Once Cael saw it, he couldn't unsee it: trouble closing in around the Gate. Chalk in the margins in another hand—grain delayed, bridge pending, patrol missing. He read each line. Task. Delay. Cost.
+"The numbers are the numbers."
 
-"You've seen the roads," Halverin said. "What you're calling attacks are weak spots giving way."
+"The numbers are wrong."
 
-Riven frowned. "Pressure from what?"
+The guard looked exhausted. The baker looked exhausted. Nobody looked surprised. The clerk walked straight through the middle of it. Cael followed. The argument kept going behind them.
 
-Halverin didn't answer straight. He tapped a pin at a collapsed ford. "From things already stretched thin."
+By the time they reached the council building, he understood the feeling he'd been carrying since the gate. Nothing had failed yet. Everything looked one bad day away from failing.
 
-Cael knew that kind of land. Bridges. Banks. Crowds one bad hour from a stampede. He'd grown up watching men stack stone wrong and swear the wall would hold because they wanted it to.
+Inside, a runner nearly collided with them on the stairs and apologized without slowing down. The council room sat on the second floor. Maps covered one wall, windows the other. Candles burned despite the daylight—not for light, for people working too late.
 
-Halverin watched him and nodded. "You understand quickly."
+Halverin stood at the table when they entered. He looked younger than Cael expected, and more tired. No jewelry, no guards, no attempt to look impressive—just a clean coat, sleeves rolled once, and the posture of a man carrying too many things in his head. That alone caught Cael off guard.
 
-"I understand what happens when things fail," Cael said.
+"Cael. Riven." He said their names like he'd spent time making sure he got them right. "Thank you for coming."
 
-"Good." Halverin put two fingers where the ring narrowed on the map. "What happened to you in Ashfen wasn't random. It's rare, but known. Pairs touched by Velorum can steady breaks other people don't even see. If they go all the way in."
+An aide at the far end of the table kept writing. Scratch, scratch, scratch.
 
-Riven laughed once, sharp. "Commit fully. Nice way to say no private fucking thought."
+Riven folded his arms. "Didn't know we had a choice."
 
-Halverin turned to him. Calm. Rehearsed. "Privacy is a luxury of less necessary lives."
+A flicker of amusement crossed Halverin's face. "You always have a choice." A beat. "Some choices are simply worse."
 
-Riven's laugh had no humor. "Put that on a fucking banner."
+He gestured toward the map. Cael stepped closer. Pins crowded the roads around Kestrel Gate—collapsed bridges, missing patrols, delayed grain shipments, road damage, supply failures. The problems weren't random. They crowded every road in, pressure from every direction.
 
-One aide looked up. Halverin raised two fingers without looking; the aide dropped his eyes and bent back to his slate.
+"You've been on the roads," Halverin said.
 
-Air from the shutters crossed the table and made the red wax pins flicker. Riven's anger hit the bond hot. Cael felt it. His own colder thought came anyway: if Halverin was right, what they were losing might still buy the city time.
+"We have."
+
+"What did you see?"
+
+Cael looked at the map again, then at the notes written in the margins, then back at the roads. "Weak points."
+
+Halverin nodded immediately. "Exactly."
+
+Riven frowned. "Weak points caused by what?"
+
+Halverin rested two fingers beside a marked ford. "Too much strain." His hand moved—a bridge, a trade road, a storage yard. "Things stretched beyond what they were built to carry."
+
+Cael understood that language. Not politics, not prophecy. Load, failure, stress—the moment before something gave way.
+
+"You know the type," Halverin said.
+
+"I know what failure looks like."
+
+"Good."
+
+Halverin studied him for a moment—not evaluating, confirming. Then he pointed to the narrow ring of roads feeding Kestrel Gate. "What happened in Ashfen wasn't random."
+
+Riven groaned immediately. "There it is."
+
+Halverin ignored him. "It's rare, but not unknown." His finger tapped the map once. "Pairs touched by Velorum can stabilize failures other people never notice."
+
+Riven laughed—sharp, humorless. "Stabilize."
+
+"Yes."
+
+"That's a pretty way of saying we lost every private thought we'll ever have."
+
+For the first time, Halverin looked directly at him. No irritation, no defensiveness—just the calm expression of somebody who'd already had this argument with himself. "Privacy," he said carefully, "is often a luxury enjoyed by people whose decisions matter less."
+
+Silence. The aide stopped writing. Halverin didn't look away. Neither did Riven. Nobody moved.
+
+Riven's anger hit the bond hot. Cael's own colder thought came anyway: if Halverin was right, what they were losing might still buy the city time.
 
 He hated that. His hands stayed flat on the table.
 
 "What do you need from us?" Cael asked.
 
-"I need people to see something steady," Halverin said. "They're frightened. Fear moves faster than facts. I need you on patrol, then in public. Show them the city still holds."
+Halverin didn't answer right away. He looked down at the map instead. Outside the windows, a bell rang twice. Somewhere farther away, people were shouting. When he finally spoke, his voice stayed level. "I need people to stop panicking long enough to eat."
 
-Riven looked between them. "You mean put on a show."
+Riven snorted. "Good luck."
 
-"I mean lead," Halverin said. "Or people die."
+"Fear gets ahead of the numbers." Halverin rubbed his thumb along a map edge. "Ahead of orders. Ahead of grain. I need people to see something holding, or they'll tear the wrong thing down trying to save themselves."
 
-He didn't raise his voice. That was worse. Cael believed him. He'd seen what happened when one man ran in a panicked line.
+Riven folded his arms. "You mean a show."
 
-Halverin crossed to a side table and opened an old woodcut—two figures back to back in stylized flame, edges worn soft from handling.
+"I mean somebody has to keep the count straight when everybody else is guessing." Halverin looked up. "Call it what you want."
 
-"Legends last because they teach behavior," Halverin said. "People follow what they think will hold."
+"Same thing."
 
-Below it, a stack of fresh broadsides, one corner still wet. Cael didn't need to read them. He could hear Halverin's tone in the words: order returning, stay in quarters, trust the sworn pair.
+Halverin shook his head. "A show ends when people go home. This is the part where they still have to show up tomorrow scared." He exhaled. "I hate that part too."
 
-Riven's disgust came through the bond. Cael felt it. Patrol routes, public calm, a clear chain of command still made sense. Not fate. Work.
+For a second nobody spoke. Then Halverin crossed to a side table and opened an old woodcut—two figures back to back in stylized flame, edges worn soft from handling.
 
-Halverin slid over another sheet—columns, names. Missing captains. Understrength gates. Civilians on bucket lines because there was nobody else.
+"Legends last because they teach behavior," he said. "People follow what they think will hold."
 
-Cael scanned it once. The numbers were worse than the room sounded. That was why Halverin talked in stories.
+"No," Riven said. "They follow what they're afraid to lose."
 
-"How many can still hold a line?" Cael asked.
+Halverin was quiet for a beat. "That's also true." He didn't smile. "Which is why the broadsides worry me."
 
-"On paper? Eighty-three."
+Below the woodcut, a stack of broadsides—fresh ink, still wet at one corner. He handed one over.
 
-"In reality?"
+ORDER RETURNING TO THE CITY.
 
-"Fifty on a good shift."
+STAY IN QUARTERS.
 
-Riven clicked his tongue. "And you're burning two of them to escort us upstairs for theater."
+REPORT DISRUPTION.
 
-"I'm using two so people see someone holding the line," Halverin said. "If they believe things are still standing, they act like they are."
+TRUST THE SWORN PAIR.
 
-He handed Cael a sector list and watch rotations. "First light start. Captain Merrow briefs you. I want impressions by nightfall."
+Riven stared at it, then looked at Halverin, then back at the paper. "Jesus Christ."
 
-Cael took the sheet. Warm from Halverin's hand, ink still wet at the bottom.
+"I didn't write that one."
 
-South market at dawn. East barracks check. River postern sweep. Evening square presence.
+"That somehow makes it worse."
 
-At the bottom, one line marked twice in heavier ink:
+Halverin almost smiled. Almost. Then he handed Cael a second sheet—names, posts, missing personnel, watch rotations. Cael skimmed it once. The numbers were ugly. Not disaster. Worse. A city running out of margin.
 
-REPORT PERCEIVED BOND INSTABILITY IMMEDIATELY.
+"How many can still hold a line?" he asked.
 
-Cael folded the page once.
+"Officially?"
 
-Riven saw it over his shoulder. "Perceived by who."
+"Actually."
 
-"Anyone with eyes," Halverin said. "Especially yours."
+Halverin rubbed his eyes. "Fifty. Maybe."
+
+That got quiet. Even Riven stopped talking.
+
+Halverin pointed at the roads feeding the Gate. "People see shortages." His hand moved. "They see missing patrols." Another mark. "They see ration lines." Another. "They see fear." He looked up. "What they don't see is that all of those things become the same problem at once."
+
+Halverin saw the recognition on Cael's face. "Exactly."
+
+He slid another page across the table—duty rotations, patrol sectors, checkpoints. At the bottom, one line had been written darker than the rest:
+
+REPORT BOND INSTABILITY IMMEDIATELY.
+
+Riven leaned over Cael's shoulder. "Instability according to who?"
+
+"Anyone paying attention." Halverin pulled a thin booklet from the drawer—columns, checkboxes, timestamps in three different hands. "We've filed these before. Old pairs. Bad seasons. Desynchronization. Mood bleed crossing into action. Overlap." He tapped a blank box. "I won't pretend we know what half the headings mean anymore. The last clerk who did is on a patrol route that didn't come back."
+
+Riven kept his finger on the dark line. "So it's bureaucracy with a legend stapled to it."
+
+"It's a city trying not to repeat a mistake it half remembers." Halverin's voice flattened. "Mark what you see. Merrow decides what to do with it."
+
+"Helpful," Riven said, but he didn't push further. Halverin looked too tired to win an argument he probably agreed with.
+
+Halverin let that pass. "Captain Merrow will brief you."
 
 "We'll do it," Cael said.
 
-Riven turned on him. "We?"
+Riven turned. "We?"
 
-Cael met his eyes. "We're already in it."
+Cael met his eyes. "We're already here." The city, the bond, the responsibility—he meant all of it. Riven heard all of it. His jaw tightened. "Fine," he said. "But if somebody starts calling us saints, I'm leaving."
 
-He meant the city and the bond. Riven heard both. His jaw jumped once.
+That finally got a smile out of Halverin—small, tired. "No saints in Kestrel Gate." He gathered the maps back into order. "Only obligations."
 
-Through the bond, Cael felt fear, resentment, and a tired loyalty that hadn't broken yet.
+That sounded a little too much like something Cael would have said.
 
-Out loud, Riven only said, "Fine. But if he starts calling us fucking saints, I'm leaving."
+Outside the council building, a young guard caught up with them before they reached the stairs—wax-sealed orders in one hand, slate in the other. "Captain Merrow says report before first light."
 
-Halverin almost smiled. "No saints in Kestrel Gate. Only obligations."
+Cael took the packet. The guard hesitated, then added: "Bring chalk if you have any."
 
-Cael could work with obligation. A man showed up because he had sworn, not because he felt holy.
+Riven blinked. "You're running out of chalk?"
 
-Outside, a junior guard caught them with Merrow's seal on a wax-folded order. Wax cracked in his pocket. He held it out like it might burn him.
+"We're running out of everything."
 
-"Captain says report before first light," he told Cael. "Bring your own chalk. We ran out in north watch."
+The guard looked embarrassed for having said it, then hurried away. Riven watched him go. "The city's falling apart and they're worried about chalk."
 
-Riven barked a laugh. "City's ending and they need fucking chalk."
+"How else do you keep count?" Cael asked.
 
-The guard gave him a flat look. "How else you keep count." White knuckles on the slate edge.
+That shut him up for almost three seconds.
 
-Cael tucked the order in his belt and went down. The stairwell smelled lamp oil and sweat. Voices from the square below—not one fight but many, stacked on top of each other.
-
-On the square, a cobbler with pitch-black hands stepped in front of them. Bench under a sackcloth awning. Half-finished soles on the shelf behind him.
+Cael tucked the packet in his belt and they crossed the square. Voices stacked on top of each other—not one fight but many. A cobbler with pitch-black hands stepped in front of them, bench under a sackcloth awning, half-finished soles on the shelf behind him.
 
 "Can you really feel each other before a strike lands?"
 
@@ -144,78 +200,58 @@ The cobbler nodded like that was enough and went back to work. Hammer on leather
 
 Riven watched the hammer and said nothing. Cael felt the sourness through the bond anyway.
 
-Merrow's office was a counting room off the inner yard—maps on one wall, weapon racks on the other, abacus beads still strung where nobody had cleared them out. A brazier smoked in the corner. Coal taste in the air.
+Merrow's office sat off the inner yard—maps on one wall, weapons on the other, a brazier smoking in the corner. Captain Merrow stayed on her feet, chalk in hand, and circled three spots without preamble: market quarter, river postern, east barracks. "Tonight they're yours."
 
-Captain Merrow was broad-shouldered and close-cropped. She stayed on her feet, chalk in hand.
+Riven leaned over the table. "And if all three go bad?"
 
-"You're late," she said.
+"Then I decide which one becomes a ruin."
 
-"We were in council," Cael said.
+She handed Riven a chalk stub. "Mark time and place when the crowd stops moving wrong."
 
-"Then you know the shape." She jabbed three chalk circles on a slate map on pegs. "Market quarter twitchy. River postern compromised. East barracks overfull and understaffed. You two rotate those until first bell tomorrow."
+"We'll start at river postern," Cael said.
 
-Riven leaned over the slate. Chalk dust on his thumb. "And if all three go bad at once?"
+"Good."
 
-Merrow met his eyes. "Then I pick which fire becomes a ruin."
+When they stepped back into the square, night had settled over the city. Torches burned along the ration lines. Arguments kept breaking out along the queues. Riven walked half a step ahead. Cael felt Riven's irritation before Riven said a word.
 
-Cael took the duty board. Under their names: rookies, volunteers, two veterans with bad knees, one courier barely old enough to shave.
+"He talks like he owns the fucking weather."
 
-One name already crossed out, replacement in fresh chalk. The cross was still dusty. Someone had written fast.
-
-"We'll start river postern," Cael said.
-
-Merrow nodded. "Good. It scares easy."
-
-She handed Riven a short chalk stick, nub worn blunt. "When crowds start to drift, mark it. Time and place."
-
-Riven frowned. "Drift."
-
-"Where fear bunches before violence. You'll feel it."
-
-Riven tucked the chalk in his belt and glanced at Cael. Through the bond, Cael felt Riven watching him turn Merrow's words into routes and angles. Cael didn't like being read that way. He didn't like that it helped.
-
-In the corridor, light had gone blue. Noise from the square came up the stairs—hammers, ration fights, a child crying until a door shut.
-
-Riven walked half a step ahead, anger rolling off him through the bond.
-
-"He talks like he owns the fucking weather," Riven said.
-
-Cael kept his eyes on the stairs. "He talks like someone trying to keep a city standing."
+"He talks like somebody trying to keep a city standing."
 
 "By turning us into posters."
 
-They hit the square cold. Night air through Cael's coat. Torches already lit along the ration lines. "If posters keep the gates from breaking, I can live with posters."
+Cael looked past him—ration lines, guard posts, fresh notices nailed over old ones, people pretending not to be afraid. "If posters keep the walls standing," he said, "I can live with posters."
 
-"Jesus Christ," Riven said. "Listen to yourself."
+Riven stopped walking. "Jesus Christ."
 
-Their first rotation started at river postern before full dark.
+Cael kept moving. That was the problem. A week ago he would've argued. Now he sounded like Halverin. Maybe Halverin sounded like him. Riven couldn't decide which possibility he hated more.
 
-Stone steps down, damp, slick. Cael's lantern threw a narrow cone on hinge bolts; below, the river caught torch light from the quay. Guards young and jumpy, spears too high, eyes on every ripple. Cael walked the hinge line, checking bolts and brace plates. Rust flaked under his fingers. One brace shored with green wood that wouldn't last the week. He marked it for Merrow.
+Their first watch started at river postern. Stone steps dropped toward the water, slick with damp and worn smooth by years of boots. The river moved black below, catching torchlight in broken pieces. Every sound carried farther than it should have.
 
-Riven stayed above with the slate, watching the fish stairs and the shelter mouths where voices carried wrong.
+The guards looked young—too young. One held his spear so tightly his knuckles had gone white. Another kept checking the river like somebody might climb out of it.
 
-By first watch he had three marks: grain queue crowding the fish stairs, shouting at east shelters, one alley choke near tanners' row.
+Cael took the lantern and started walking the gate line—hinges, braces, bolts, the same way he'd inspect a roof before a storm. Rust flaked beneath his fingers. One support had been patched with green wood. Temporary, desperate, bad. He marked it for Merrow.
 
-At the fish stairs, two men shoved over ration order. One reached for a belt knife.
+Above him, Riven watched the crowd—fish stairs, shelter entrances, the places people slowed down for no reason. Near the grain queue a boy had fallen asleep standing up, forehead against his mother's hip. An old woman farther along broke her ration loaf in half and pushed the larger piece toward the man beside her without looking at him.
 
-Riven dropped to the landing. Cael came in from the quay side. They split the men before steel cleared leather. Cael's shoulder took the heavier man. Riven's forearm blocked the knife hand and twisted it empty. Boots cracked wood. Someone on the quay shouted.
+By first watch Riven had marked three spots on the slate: grain line backing up near the fish stairs, shouting outside the east shelters, a narrow alley near tanners' row where people kept bunching instead of passing through. Nothing had happened. Not yet. That seemed to be the point.
 
-"Home," Cael told the first man.
+At the fish stairs, two men started arguing over ration order—tired, hungry, looking for somewhere to put it. One shoved the other. The other reached for a belt knife.
 
-"No home left," the man shot back. Sour beer and smoke on his breath.
+Riven was moving before he thought about it. Cael came in from the opposite side—the same old sync, except Cael's hurry to stop the knife crossed wrong and Riven grabbed the wrist a half-beat late. The blade cleared an inch of leather before Riven wrenched it back. Cael drove the heavier man back a step with his shoulder.
 
-Cael didn't blink. "Then lower chapel floor. Move."
+"Enough," Cael said.
 
-The man moved. The knife man spat and went the other way, fists clenched. Riven watched him until he was gone in the lane shadow.
+The knife hand went still. The other man breathed hard through his nose. "No home left," he snapped—sour beer, smoke, two nights without sleep.
 
-By second watch, Riven's chalk was a stub. Cael felt Riven's irritation every time someone called them saviors like that fixed anything. Riven felt Cael's fatigue in his shoulders—deep, not his own, couldn't set it down.
+Cael didn't react. "Then lower chapel floor."
 
-Near dawn they reported to Merrow. Gray light through the counting-room slit. The brazier down to coals. She read the slate in silence and circled three spots. Chalk squealed on stone.
+The man hesitated, then left. The second followed a few seconds later, muttering to himself. The crowd broke apart. People went back to waiting. Riven hated how quickly that happened—and that the line had gone longer because of them, not shorter.
 
-"These break tomorrow if we don't get ahead," she said.
+By second watch Riven's chalk had worn down to a nub. Every time somebody called them saviors, irritation flared through Cael. Every time Cael shrugged it off, that irritation came back twice as strong. The bond carried all of it. Riven marked a crowd backup near the fish stairs twice because Cael kept replaying the blade in his head from across the yard. Merrow would read that as two incidents. It was one.
 
-Cael nodded, already counting routes.
+Near dawn they reported to Merrow. Gray light leaked through the narrow window. The brazier had burned down to dull red coals. Merrow read the slate without speaking—once, twice—then circled three locations. The chalk squealed.
 
-Riven stood with chalk dust on his palm while Merrow called for the next slate.
+"These break tomorrow." Not might. Not could. Break. "If we don't get ahead of them."
 
-No one asked if he agreed.
+Cael nodded immediately, already working through routes, already solving the problem. Riven looked at the circles, then at Cael, then at Merrow. Nobody asked what Riven thought. Merrow was already reaching for the next slate. Cael was already planning tomorrow. The city might get what it wanted before they figured out what they wanted for themselves.
