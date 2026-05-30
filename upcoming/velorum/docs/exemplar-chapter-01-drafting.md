@@ -3,6 +3,8 @@
 **Manuscript:** `velorum/manuscript/act-1-the-choice/chapter-01-heartbridge.md`  
 **Use:** first-draft alignment and self-check before deep revision—not a scene-by-scene template for every chapter.
 
+**Full Act I bar (ch. 1–6) + Act IV co-calibration:** **[act-1-calibration-standard.md](./act-1-calibration-standard.md)** — consequences over mechanics, bond as boundary violation, verification discipline, word-count targets for revising Acts II–V.
+
 Authority for voice, passes, and world rules stays in **[voice-spec.md](./voice-spec.md)**, **[chapter-edit-pass.md](./chapter-edit-pass.md)**, and **[project-spec.md](./project-spec.md)**. This file names **what Chapter 1 does well** so other chapters can aim at the same **shape, density, and habits** without copying its plot.
 
 ---
@@ -58,15 +60,11 @@ Not every chapter needs all eight; use the list to ask *what’s missing* when a
 
 ---
 
-## Acts II–III camera bar (additional exemplars)
+## Acts II–V revision bar
 
-After rough draft, **every chapter** should pass **Direct camera style** (**voice-spec → Direct camera style pass**; agent **13-direct-camera-style-pass.md**). Compare new work to:
+Full Act I + Act IV calibration: **[act-1-calibration-standard.md](./act-1-calibration-standard.md)**. Compare new work to **`chapter-06-the-curse.md`** (consequences) and **`chapter-04-ashfen.md`** (sparse camera)—**cut toward Act I**, not pipeline length (~2,250 words/ch).
 
-- **Action / bond under load:** `act-2-the-gift/chapter-12-the-attack-on-kestrel-gate.md`
-- **Plain dialogue + aftermath:** `act-3-the-break/chapter-14-the-explanation.md`, `chapter-18-collapse-in-public.md`
-- **Tight sparse camera (Act I):** `act-1-the-choice/chapter-04-ashfen.md`
-
-Chapter 1 remains the **place + ridge dialogue** gold standard; Acts II–III chapters above are the **low-metaphor / sayable-mouth** bar.
+Chapter 1 remains the **place + ridge dialogue** gold standard.
 
 ---
 

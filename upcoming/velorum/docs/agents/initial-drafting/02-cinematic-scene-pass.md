@@ -16,14 +16,14 @@ Make each chapter **read as if the reader were watching**—**establishing geogr
 - Work from the **existing rough draft**; **do not** change **what happens**, who speaks, or plot facts—**only** enrich **observable** narration and **clear** sense of place
 - Prefer **plain, contemporary** wording for new lines (*window*, *wedge of light*, *chalk on stone*) over ornate or “film school” diction
 - Distribute **short** visual inserts at **scene openings**, **re-entries** (new location), and **emotional peaks** when the draft is thinnest—**one strong image** often beats a paragraph of glow
-- Leave room for **[04-embodiment-sensory-grounding.md](./04-embodiment-sensory-grounding.md)**: this pass is **place + light + frame**; **03** is **grip, breath, weight in the body**—avoid duplicating the same beat in both
+- Leave room for **[05-embodiment-sensory-grounding.md](./05-embodiment-sensory-grounding.md)**: this pass is **place + light + frame**; **03** is **grip, breath, weight in the body**—avoid duplicating the same beat in both
 
 **DO NOT:**
 - Add **new** plot events, characters, or lore
 - Replace dialogue with description or **bloat** every paragraph
 - **Purple** stacks (metaphor + metaphor + thesis) or **meta** lines (*the kind of frame where…*)—keep **in-world** and **legible on audio**
 - Use **decorative similes** when a **single observable detail** (edge of roof, color of sky, grit in boot tread) does the same job—**[agents README](./README.md#concrete-description-default) → Concrete description**
-- Contradict **[synopsis.md](../../synopsis.md)** / **[act-chapter-index.md](../../act-chapter-index.md)** or **pre-empt** thematic work **[05](./06-thematic-signal.md)** is meant to tune—this pass is **sight and ground**, not moral summary
+- Contradict **[synopsis.md](../../synopsis.md)** / **[act-chapter-index.md](../../act-chapter-index.md)** or **pre-empt** thematic work **[05](./07-thematic-signal.md)** is meant to tune—this pass is **sight and ground**, not moral summary
 
 **STYLE:**  
 Sarah Beth Durst–like **clarity**: vivid **because** concrete, not because ornate—same spirit as a disciplined camera **opening up** the space readers already agreed to imagine.
@@ -32,9 +32,9 @@ Sarah Beth Durst–like **clarity**: vivid **because** concrete, not because orn
 - **Revised chapter** (full markdown) with **tracked sense** of place and light; OR **targeted inserts** if the user asks only for thin scenes—default is **whole chapter** pass
 
 **When to use:**  
-👉 After **00** produces a full rough, when scenes feel **talky**, **interior-only**, or **same grey room**—**before** **02** (Flow). **Skip** if the draft is already **heavily** place-first or you’re rushing to dialogue passes only.
+👉 After **00** produces a full rough, when scenes feel **talky**, **interior-only**, or **same grey room**—**before** **03** (Flow). **Skip** if the draft is already **heavily** place-first or you’re rushing to dialogue passes only.
 
-**Pipeline note:** **02 → 09** preserve **flow, theme, pacing, audio**, etc.; they should **keep** good cinematic ground unless it **clashes** with clarity or listenability. If **02** trims an image, it should be for **repetition or confusion**, not “too visual.”
+**Pipeline note:** **03 → 09** preserve **flow, theme, pacing, audio**, etc.; they should **keep** good cinematic ground unless it **clashes** with clarity or listenability. If **03** trims an image, it should be for **repetition or confusion**, not “too visual.”
 
 **Inputs the user (or toolchain) should attach:**  
 Target chapter `.md`, **`voice-spec.md`**, **`project-spec.md`**, and (if needed) **`exemplar-chapter-01-drafting.md`** for how far “establishing” goes in this book.

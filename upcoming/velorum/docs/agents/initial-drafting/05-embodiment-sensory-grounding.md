@@ -27,4 +27,4 @@ Ensure moments are **felt**, not just described—emotion and pressure land in *
 - **Targeted edits** on emotional or high-pressure paragraphs (typical)  
 - **Full updated text** only when requested for a full-chapter embodiment pass
 
-**When to use:** 👉 After Flow & Clarity (**02**); **especially** on emotional beats. Works **with** optional **[01](./02-cinematic-scene-pass.md)**—that pass tends to **place, light, and frame**; **03** tends to **body, grip, and breath**—avoid doubling the same sensory beat unless the moment earns it.
+**When to use:** 👉 After Flow & Clarity (**03**); **especially** on emotional beats. Works **with** optional **[02](./02-cinematic-scene-pass.md)**—that pass tends to **place, light, and frame**; **05** tends to **body, grip, and breath**—avoid doubling the same sensory beat unless the moment earns it.

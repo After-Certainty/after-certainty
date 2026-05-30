@@ -1,6 +1,6 @@
 # Velorum — voice specification
 
-Companion to **[project-spec.md](./project-spec.md)**, **[synopsis.md](./synopsis.md)**, and **[act-chapter-index.md](./act-chapter-index.md)**. For **first-draft shape and habits** distilled from the gold chapter (without rereading the whole voice spec), see **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)**. For **brief-to-rough drafting** (step 0) and **layered revision roles** (flow, embodiment, dialogue, etc.), see **[agents/README.md](./agents/README.md)**. This file holds **tone, dialogue register, profanity guardrails, paragraph shape, and dialogue craft**—everything that keeps the novel’s **contemporary mouth** consistent while the world stays mythical.
+Companion to **[project-spec.md](./project-spec.md)**, **[synopsis.md](./synopsis.md)**, and **[act-chapter-index.md](./act-chapter-index.md)**. For **Act I + Act IV storytelling bar** (consequences, bond as boundary violation, pacing targets for Acts II–V), see **[act-1-calibration-standard.md](./act-1-calibration-standard.md)**. For **first-draft shape and habits** distilled from the gold chapter (without rereading the whole voice spec), see **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)**. For **brief-to-rough drafting** (step 0) and **layered revision roles** (flow, embodiment, dialogue, etc.), see **[agents/README.md](./agents/README.md)**. This file holds **tone, dialogue register, profanity guardrails, paragraph shape, and dialogue craft**—everything that keeps the novel’s **contemporary mouth** consistent while the world stays mythical.
 
 **synopsis.md** holds the **plain-language plot spine** (Greyhaven choice, Kestrel Gate pressure, Halverin collapse, Seeker journey, Greyhaven surrender ending). **project-spec.md** holds world rules, terrain mandates, **single-POV-per-chapter** rules, POV **lenses**, structure, scene-outline beats, ending requirements, and anti-patterns for Velorum/exposition. **act-chapter-index.md** holds the chapter-by-chapter POV/order plan and should stay aligned with both docs.
 
@@ -64,7 +64,7 @@ Speech should read **sayable at stress**—what a tired person would actually sp
 
 **Supersedes** treating “contemporary restraint” as a separate late-only habit—the checklist below **includes** that pass and adds **anti-metaphor** rules from Acts II–III polish.
 
-**When to run:** after **[agents/initial-drafting/03-flow-clarity-editor.md](./agents/initial-drafting/03-flow-clarity-editor.md)** (or as **[agents/initial-drafting/13-direct-camera-style-pass.md](./agents/initial-drafting/13-direct-camera-style-pass.md)** in the same session). Before thematic stacking and compression. **Do not** use `revision/09-contemporary-flow-agent.md` or `revision/10-contemporary-fantasy-accessibility-agent.md` unless the chapter **still** reads dense after this pass.
+**When to run:** after **[agents/initial-drafting/03-flow-clarity-editor.md](./agents/initial-drafting/03-flow-clarity-editor.md)** (or as **[agents/initial-drafting/04-direct-camera-style-pass.md](./agents/initial-drafting/04-direct-camera-style-pass.md)** in the same session). Before thematic stacking and compression. If still dense after **04 + Pass C**, re-run **03** or escalate to **revision/07-scene-compression-agent.md** — not the removed revision **09/10** agents.
 
 #### Narration (sight line first)
 
@@ -94,24 +94,30 @@ Speech should read **sayable at stress**—what a tired person would actually sp
 
 #### Exemplar chapters (density bar)
 
+**Act I (manual revision complete)** and **Act IV (manual revision complete)** are the **authoritative bar** for Acts II, III, and V. Full map: **[act-1-calibration-standard.md](./act-1-calibration-standard.md)**.
+
 | Use | Chapter |
 |-----|---------|
 | Place + ridge dialogue (Act I gold) | `act-1-the-choice/chapter-01-heartbridge.md` |
-| Tight camera, sparse simile (Act I) | `act-1-the-choice/chapter-04-ashfen.md` |
-| Road dialogue, plain motion (Act I, post-pass) | `act-1-the-choice/chapter-03-leaving-greyhaven.md` |
-| Bond onset, plain interior (Act I, post-pass) | `act-1-the-choice/chapter-06-the-curse.md` |
-| Action + bond under load (Act II) | `act-2-the-gift/chapter-12-the-attack-on-kestrel-gate.md` |
-| Halverin / aftermath plain (Act III) | `act-3-the-break/chapter-14-the-explanation.md`, `chapter-18-collapse-in-public.md` |
+| Cael commits / rationalizes | `act-1-the-choice/chapter-02-the-decision.md` |
+| Road dialogue, plain motion | `act-1-the-choice/chapter-03-leaving-greyhaven.md` |
+| Tight camera, lag/wrongness before summit | `act-1-the-choice/chapter-04-ashfen.md` |
+| Ashring onset, bond bleed | `act-1-the-choice/chapter-05-velorum.md` |
+| **Consequences chapter** — boundary violation, four movements | `act-1-the-choice/chapter-06-the-curse.md` |
+| Bond under load, agency (Act IV) | `act-4-the-truth/chapter-25-losing-the-line.md` |
+| Velorum truth without speech (Act IV) | `act-4-the-truth/chapter-26-velorum-again.md` |
 
-Compare **figurative fog** and **thesis density**, not exact word count.
+**Acts II–III pipeline chapters** (`chapter-12`, `chapter-14`, `chapter-18`, etc.) are **revision targets**, not exemplars—compare **figurative fog**, **thesis density**, and **bond-proof repetition** against Act I ch. 6, not against their current length (~2,250 words/ch).
 
-**Revision cue:** **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass D4**; agent **[13-direct-camera-style-pass.md](./agents/initial-drafting/13-direct-camera-style-pass.md)**.
+Compare **craft**, not pipeline word count.
+
+**Revision cue:** **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass D4**; agent **[04-direct-camera-style-pass.md](./agents/initial-drafting/04-direct-camera-style-pass.md)**.
 
 ---
 
-### Contemporary restraint pass *(included in Direct camera style pass)*
+### Contemporary restraint *(subset of Direct camera style pass)*
 
-When a chapter reads "older" or too composed, run **Direct camera style pass** above (or this subset) after core clarity and before final compression.
+Run after **Direct camera style pass** and before final compression.
 
 - **Move meaning downward into action.** If a sentence explains what a feeling *means*, first ask what hands, breath, posture, or silence already show. Keep the physical beat; cut the thesis.
 - **Reduce compressed-truth lines by ~40%.** Keep the strongest ones, but do not stack aphorisms every page. If a line sounds quote-ready, pressure-test whether plain speech carries it better.
@@ -160,7 +166,7 @@ After sense, agency, and plain dialogue are in place, **tighten** so every line 
 
 ### Anti-meta phrasing scrub *(late revision check)*
 
-Run this after accessibility/flow passes and before final compression.
+Run this after **Direct camera style pass** and before final compression.
 
 - **Cut self-commentary lines** that describe rhetoric instead of conflict (*that's a line*, *same sentence*, *the framework is...*), unless the speaker is intentionally mocking rhetoric in-character.
 - **Replace abstract verdict nouns** with lived claims (*proof, method, framework, structure, information* as standalone thesis terms) when a concrete statement can carry the same beat.
@@ -288,7 +294,7 @@ Draft and revise so **mouth matches pressure**, not a uniform “fantasy polite.
 - Avoid **staccato stacks** of isolated single-sentence paragraphs unless a line truly needs to land alone (use sparingly).  
 - When speakers alternate, keep the standard rule—**new paragraph per speaker**—but **embed** action, physical detail, and POV reaction *in* those paragraphs instead of stripping beats into separate micro-lines. When **rapid banter** stacks short lines, add enough **tags or beats** that the chain stays legible—see **Rapid banter attribution** under **Dialogue quality** below.  
 - Narration especially should read like continuous fabric: combine related observations, hesitation, and judgment rather than breaking after every clause.  
-- **Subject–verb streaks (read-aloud):** avoid long runs of **bare** *Name/He + verb* sentences in a row (*He stood. He looked. He breathed.*)—they sound reportorial when heard. Where beats belong together, **bridge** with subordinate clauses (*when, while, until, as, though, because*) or merge into fewer sentences; see **[agents/12-read-aloud-cadence-clarity-editor.md](./agents/12-read-aloud-cadence-clarity-editor.md)** and **chapter-edit-pass → Pass G**. Do not trade one problem for another: **over-long fused sentences** still fail read-aloud—split at natural breaths.  
+- **Subject–verb streaks (read-aloud):** avoid long runs of **bare** *Name/He + verb* sentences in a row (*He stood. He looked. He breathed.*)—they sound reportorial when heard. Where beats belong together, **bridge** with subordinate clauses (*when, while, until, as, though, because*) or merge into fewer sentences; see **[agents/initial-drafting/13-read-aloud-cadence-clarity-editor.md](./agents/initial-drafting/13-read-aloud-cadence-clarity-editor.md)** and **chapter-edit-pass → Pass G**. Do not trade one problem for another: **over-long fused sentences** still fail read-aloud—split at natural breaths.  
 - **Editing passes:** tightening prose must **not** strip paragraph fabric—when cutting repetition or sharpening dialogue, **recombine** beats into sustained blocks (especially narration and POV reaction). Never replace long paragraphs with chains of one-sentence paragraphs unless the rhythm is intentionally climactic—and even then, use sparingly. Applies to **full-chapter revisions** as well as line edits: preserve or restore **woven** narration between dialogue exchanges.
 - **Global revision:** when tightening the whole book for readability, pick **one strong chapter** as the **shape reference** (how long narration blocks run, where dialogue breaks) and measure the rest against it—same standards as **Calibration samples** and the readability rules above.
 
@@ -394,13 +400,16 @@ Riven’s gaze remained forward.
 ## Shared burden guardrails *(curse language default)*
 
 - Use curse effects as **physical consequence first**: fatigue transfer, pain echo, strain redistribution, panic spread, involuntary reinforcement.
+- Frame bond beats as **boundary violation** (private thought or feeling exposed before ready)—not **telepathy** or **magical resonance** exposition. See **act-1-calibration-standard.md**.
 - Keep mystery by showing **symptoms and costs**, not hard-rule exposition.
-- Avoid synchronization framing: no puppet mirroring, no permanent movement lockstep, no hivemind shorthand.
+- Avoid synchronization framing: no puppet mirroring, no permanent movement lockstep, no hivemind shorthand. Synced movement is **horror**, not cool choreography—**one landing**, then **cut or compress** repeats.
+- **Verification discipline:** one shock proof, one human test (absurd or plain), one character-cost beat—**not** three scenes proving the same bond fact (see ch. 6 nail / cabbage / glad-scared model).
 - Keep emotional language concrete: who hurts, who hides, what leaks, what labor costs.
+- **Adaptation beats:** *used to it* / *not startled anymore* land harder than *oh no, magic happened*.
 - Escalation by act:
-  - **Early:** emotional leakage + fatigue overlap
-  - **Mid:** pain/strain distribution + stress reinforcement
-  - **Late:** dangerous interdependence + no private suffering
+  - **Early (Act I):** emotional leakage + fatigue overlap + caught relief / hoping
+  - **Mid (Acts II–III):** pain/strain distribution + stress reinforcement + public cost
+  - **Late (Acts IV–V):** dangerous interdependence + no private suffering + *We hold* mythology seed
 
 ---
 
@@ -420,7 +429,7 @@ Do **not**:
 
 ## How this file is used
 
-- Drafting and revising chapters for **mouth**, **cadence**, **profanity balance**, **paragraph fabric**, **dialogue density**, **plain dialogue on polish** including **profanity preservation** (see **Plain dialogue** above), **direct camera style pass** on every chapter (see **Direct camera style pass** above; agent **13-direct-camera-style-pass.md**), **camera-observable narration** when description turns literary (see **Camera-observable narration** above), **rapid banter attribution** (see **Rapid banter attribution** under **Dialogue quality** above), **line-level tightening** (see **Tightening** above), **first-appearance character anchors** (see **Character introduction** above), **plain sense before extended metaphor** (see **Plain sense default** above), **spatial and surface clarity** on paths and terrain (see **Spatial and surface clarity** under **Place-first narration & plain diction** above), **clear agency** (see **Clear agency** above), **sparing em-dash use** (see **Em dashes** under Readability), **idiomatic figures of speech** (see **Idiomatic figures of speech** above), and **contemporary lexicon**, **museum-catalog avoidance**, and **anti-period costume** (see **Contemporary lexicon** above, including **No museum-catalog or opaque jargon**).  
+- Drafting and revising chapters for **mouth**, **cadence**, **profanity balance**, **paragraph fabric**, **dialogue density**, **plain dialogue on polish** including **profanity preservation** (see **Plain dialogue** above), **direct camera style pass** on every chapter (see **Direct camera style pass** above; agent **04-direct-camera-style-pass.md**), **camera-observable narration** when description turns literary (see **Camera-observable narration** above), **rapid banter attribution** (see **Rapid banter attribution** under **Dialogue quality** above), **line-level tightening** (see **Tightening** above), **first-appearance character anchors** (see **Character introduction** above), **plain sense before extended metaphor** (see **Plain sense default** above), **spatial and surface clarity** on paths and terrain (see **Spatial and surface clarity** under **Place-first narration & plain diction** above), **clear agency** (see **Clear agency** above), **sparing em-dash use** (see **Em dashes** under Readability), **idiomatic figures of speech** (see **Idiomatic figures of speech** above), and **contemporary lexicon**, **museum-catalog avoidance**, and **anti-period costume** (see **Contemporary lexicon** above, including **No museum-catalog or opaque jargon**).  
 - **[chapter-edit-pass.md](./chapter-edit-pass.md)** packages repeatable revision passes (**Pass C**: readability, **em-dash discipline**, **period/costume lexicon**, **museum/specialist jargon check**; **Pass C2**: dialogue plainness, **rapid banter** clarity; **Pass C3**: first-read location clarity; **Pass D3**: camera-observable narration; **Pass J**: grammar / punctuation / mechanical proof; concreteness; office-jargon scrub; **place-first / plain diction**; **Pass A3 agency/literal clarity**; **Pass F** line-level **Tightening**; **Pass H echo / repetition**) aligned with this file and project-spec.  
 - **[project-spec.md](./project-spec.md)** remains the authority for single-POV-per-chapter rules, POV lenses, terrain/Velorum presence per scene, world rules, final-surrender framing, and ending requirements.  
 - **[synopsis.md](./synopsis.md)** and **[act-chapter-index.md](./act-chapter-index.md)** are the source of beat order, named places/people, and chapter POV consistency—update them together when story facts move.
