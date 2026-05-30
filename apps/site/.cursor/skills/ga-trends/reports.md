@@ -129,6 +129,60 @@ Format `YYYYMMDD` dates as `YYYY-MM-DD` in the output table.
 }
 ```
 
+## 9. Device OS (you vs not you)
+
+```json
+{
+  "toolName": "run_report",
+  "arguments": {
+    "property_id": "properties/497528828",
+    "date_ranges": [{ "start_date": "7daysAgo", "end_date": "today", "name": "Last7Days" }],
+    "dimensions": ["deviceCategory", "operatingSystem"],
+    "metrics": ["sessions", "activeUsers"],
+    "order_bys": [{ "metric": { "metric_name": "sessions" }, "desc": true }],
+    "limit": 25
+  }
+}
+```
+
+## 10. Mobile device models (you vs not you)
+
+```json
+{
+  "toolName": "run_report",
+  "arguments": {
+    "property_id": "properties/497528828",
+    "date_ranges": [{ "start_date": "7daysAgo", "end_date": "today", "name": "Last7Days" }],
+    "dimensions": ["deviceCategory", "mobileDeviceBranding", "mobileDeviceModel"],
+    "metrics": ["sessions", "activeUsers"],
+    "dimension_filter": {
+      "filter": {
+        "field_name": "deviceCategory",
+        "string_filter": { "match_type": 2, "value": "mobile", "case_sensitive": true }
+      }
+    },
+    "order_bys": [{ "metric": { "metric_name": "sessions" }, "desc": true }],
+    "limit": 20
+  }
+}
+```
+
+## 11. Session source / medium (you vs not you)
+
+```json
+{
+  "toolName": "run_report",
+  "arguments": {
+    "property_id": "properties/497528828",
+    "date_ranges": [{ "start_date": "7daysAgo", "end_date": "today", "name": "Last7Days" }],
+    "dimensions": ["sessionSourceMedium"],
+    "metrics": ["sessions", "activeUsers"],
+    "order_bys": [{ "metric": { "metric_name": "sessions" }, "desc": true }],
+    "limit": 15
+  }
+}
+```
+
 ## 8. Realtime
 
 ```json
