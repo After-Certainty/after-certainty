@@ -9,6 +9,7 @@
 | **[act-1-calibration-standard.md](./act-1-calibration-standard.md)** | **Craft bar** — voice, bond-as-consequence, pacing; per-chapter counts from the manual Act I / IV pass (~970–2,600 w/ch) |
 | **[acts-2-3-5-revision-progress.md](./acts-2-3-5-revision-progress.md)** | Craft alignment log (calibration bar) |
 | **[expansion-progress.md](./expansion-progress.md)** | **Living tracker** — current vs publication targets per act/chapter |
+| **[expansion-guardrails.md](./expansion-guardrails.md)** | **Expansion craft** — mandatory guardrails for all expansion passes |
 | **[act-chapter-index.md](./act-chapter-index.md)** | Chapter order, POV, beats |
 | **[project-spec.md](./project-spec.md)** | Premise, structure, ending rules |
 
@@ -147,10 +148,11 @@ Per-chapter averages scale the same way (multiply by edition ÷ 100,000).
 
 ### Expansion passes
 
-1. Pick act → compare **current total** to **target range**.
-2. Identify chapters **under** their act average with **thin beats** in **act-chapter-index**.
-3. Expand **scene mass** (arrival, aftermath, relationship pressure, place) — not lore lectures or duplicate bond proofs.
-4. **Act V:** expand only until act total approaches **~10k**; do not inflate finale toward Act III density.
+1. Pick act → compare **current total** to **target range** in **[expansion-progress.md](./expansion-progress.md)**.
+2. Apply **[expansion-guardrails.md](./expansion-guardrails.md)** — one story question, three moments, consequences not explanation.
+3. Identify chapters **under** their act average with **thin beats** in **act-chapter-index**.
+4. Expand **scene mass** per guardrails — aftermath, logistics, fallout; not lore or theme essays.
+5. **Act V:** expand only until act total approaches **~10k**; do not inflate finale toward Act III density.
 
 ### Compression passes
 
@@ -159,7 +161,7 @@ Per-chapter averages scale the same way (multiply by edition ÷ 100,000).
 
 ### Agents
 
-- **Agent 01** (expansion): use when a chapter is **under ~1,200 words** *or* **under its act planning target** with missing beats — see **[agents/initial-drafting/01-chapter-expansion-depth-pass.md](./agents/initial-drafting/01-chapter-expansion-depth-pass.md)**.
+- **Agent 01** (expansion): use when a chapter is **under ~1,200 words** *or* **under its act planning target** with missing beats — follow **[expansion-guardrails.md](./expansion-guardrails.md)**; see **[01-chapter-expansion-depth-pass.md](./agents/initial-drafting/01-chapter-expansion-depth-pass.md)**.
 - **Calibration agents (03–09):** apply regardless of length; length follows in a separate pass.
 
 ---

@@ -30,7 +30,7 @@
 
 ## Targeted revision agents
 
-See **[revision/README.md](./revision/README.md)** — run **after** core chain; **07-scene-compression** always last.
+See **[revision/README.md](./revision/README.md)** — run **after** core chain; **08-reality** mandatory **after act expansion** (strip cognitive friction, scene anchors); **07-scene-compression** always last.
 
 ## Removed (superseded)
 

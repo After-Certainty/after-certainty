@@ -12,12 +12,13 @@
 | **[voice-spec.md](./voice-spec.md)** | Tone, dialogue, prose craft, bond guardrails |
 | **[act-1-calibration-standard.md](./act-1-calibration-standard.md)** | **Act I + IV bar** — target style for Acts II, III, V |
 | **[target-length-spec.md](./target-length-spec.md)** | **Book-scale word targets** by act (~100k; middle expands, Act V compresses) |
+| **[expansion-guardrails.md](./expansion-guardrails.md)** | **Expansion passes** — concrete experience over explanation |
 
 ## Revision workflow
 
 | Doc | Use |
 |-----|-----|
-| **[chapter-edit-pass.md](./chapter-edit-pass.md)** | Repeatable passes A–J |
+| **[chapter-edit-pass.md](./chapter-edit-pass.md)** | Repeatable passes A–J; **Pass I** = reality/believability audit |
 | **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)** | Quick ch. 1 habits (place-first, ridge dialogue) |
 | **[agents/README.md](./agents/README.md)** | Agent chain — **03 → 13 → … → 09 audio**; compression last |
 
@@ -26,6 +27,7 @@
 | Doc | Use |
 |-----|-----|
 | **[expansion-progress.md](./expansion-progress.md)** | **Active log** — act/chapter word targets vs current (~100k expansion) |
+| **[expansion-guardrails.md](./expansion-guardrails.md)** | **Expansion craft** — moments over meaning; consequences over explanation |
 | **[acts-2-3-5-revision-progress.md](./acts-2-3-5-revision-progress.md)** | Craft alignment log — Acts II, III, V (calibration bar) |
 | **[acts-4-draft-progress.md](./acts-4-draft-progress.md)** | Act IV final word counts (manual pass complete) |
 

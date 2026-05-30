@@ -53,8 +53,9 @@ People should visibly adapt to pressure long before anyone explains it aloud.
 
 **DO:**
 - Add visible signs of pressure inside scenes
-- Show systems through lived behavior rather than explanation
+- Show systems through **lived human problems** rather than explanation
 - Let stress appear through queues, delays, damaged infrastructure, altered routines, resource protection, crowd spacing, silence, conflict, exhaustion, and improvised workarounds
+- Prefer **exhausted workers, contradictory orders, missing inventory, bad information, delayed responses, mistakes** over invented infrastructure labels or quirky inventory filler
 - Preserve POV immersion
 - Preserve tactical readability
 - Preserve emotional realism
@@ -68,6 +69,7 @@ People should visibly adapt to pressure long before anyone explains it aloud.
 - Add modern bureaucratic language
 - Replace character moments with exposition
 - Turn scenes into political analysis
+- Add **invented proper nouns or quirky props** as pressure texture (*fish stairs*, *bond singers*, generic chalk shortages)—use **[08-reality-agent](./08-reality-agent.md)** instead for human friction
 
 **STYLE:**
 The world should feel:
@@ -101,3 +103,5 @@ Especially valuable for:
 - crisis response
 - post-conflict regions
 - chapters where public perception is changing
+
+**After expansion:** Run **[08-reality-agent](./08-reality-agent.md)** before this agent on the same act—**08** removes cognitive friction; **05** adds strain without re-inventing glossary texture.

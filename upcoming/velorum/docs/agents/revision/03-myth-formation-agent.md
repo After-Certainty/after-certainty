@@ -13,6 +13,7 @@ Track and strengthen how society transforms Cael and Riven from people into symb
 - Reinforce social reaction through crowd behavior, posted language, repeated labels, and civic handling
 - Show how complex people are flattened into public meaning
 - Keep these signals concrete and in-world
+- Show myth through **human mess** (wrong lyrics, cheap pamphlets, drunk singalong)—not invented market taxonomy (*bond singers*). See **[08-reality-agent](./08-reality-agent.md)** if labels read like glossary homework.
 
 **DO NOT:**
 - Add lore lectures
