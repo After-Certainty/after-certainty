@@ -1,6 +1,6 @@
 # ACT & CHAPTER OUTLINE — VELORUM
 
-*~30 chapters, scalable to ~90k words*
+*~30 chapters · **~100,000 words** at publication scale — see **[target-length-spec.md](./target-length-spec.md)***
 
 ## ACT I — THE CHOICE (Chapters 1–6)
 **Goal:** Establish characters, Greyhaven, the legend, and the curse.  

@@ -1,6 +1,6 @@
 # Acts II, III & V — revision progress
 
-**Calibration:** **[act-1-calibration-standard.md](./act-1-calibration-standard.md)**  
+**Calibration:** **[act-1-calibration-standard.md](./act-1-calibration-standard.md)** (craft bar) · **[target-length-spec.md](./target-length-spec.md)** (book-scale ~100k targets) · **[expansion-progress.md](./expansion-progress.md)** (length tracker)  
 **Voice / passes:** **[voice-spec.md](./voice-spec.md)**, **[chapter-edit-pass.md](./chapter-edit-pass.md)**  
 **Doc index:** **[README.md](./README.md)**
 
@@ -27,7 +27,7 @@ Per-chapter pipeline counts are in the **Chapter log** baseline column below.
 |-----|-------------:|-----------|
 | II | ~1,600–2,000 | Act I + ch. 6 consequences model |
 | III | ~1,600–2,000 | ch. 18 show-don't-thesis; two-level dialogue |
-| V | ~1,600–2,000 | Act I–II density (expansion pass on branch `velorum/act-5-expansion-polish`) |
+| V | ~1,600–2,000 | Craft pass complete on branch `velorum/act-5-expansion-polish`; **publication target ~10k act / ~2,500 avg/ch** per **target-length-spec** |
 
 Compare to **Act I ~1,786 avg** and **Act IV ~1,172 avg** (**act-1-calibration-standard**).
 

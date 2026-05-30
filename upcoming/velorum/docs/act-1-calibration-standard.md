@@ -3,7 +3,9 @@
 **Branch context:** `velorum/act-1-spec-update`  
 **Purpose:** Capture the **voice and storytelling style** locked in by manual revision of **Act I (ch. 1–6)** and **Act IV (ch. 21–26)** so **Acts II, III, and V** can be revised to match—not re-expanded to the old automated pipeline density.
 
-**Authority order:** **[project-spec.md](./project-spec.md)** → **[voice-spec.md](./voice-spec.md)** → this file for **shape, pacing, and revision targets** → **[act-chapter-index.md](./act-chapter-index.md)** for beats.
+**Authority order:** **[project-spec.md](./project-spec.md)** → **[voice-spec.md](./voice-spec.md)** → this file for **shape, pacing, and revision craft** → **[target-length-spec.md](./target-length-spec.md)** for **book-scale word targets by act** → **[act-chapter-index.md](./act-chapter-index.md)** for beats.
+
+> **Two bars:** This file = how chapters should *read* (bond-as-consequence, cut thesis closers). **target-length-spec** = how much each *act* should weigh at ~100k (~3,300 avg/ch in Acts I–II, ~2,500 in Act V). Current manual-pass counts (~1,200–2,600/ch) reflect calibration density, not final publication length.
 
 ---
 

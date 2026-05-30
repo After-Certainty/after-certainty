@@ -11,6 +11,7 @@
 | **[act-chapter-index.md](./act-chapter-index.md)** | Chapter order, POV, beats |
 | **[voice-spec.md](./voice-spec.md)** | Tone, dialogue, prose craft, bond guardrails |
 | **[act-1-calibration-standard.md](./act-1-calibration-standard.md)** | **Act I + IV bar** — target style for Acts II, III, V |
+| **[target-length-spec.md](./target-length-spec.md)** | **Book-scale word targets** by act (~100k; middle expands, Act V compresses) |
 
 ## Revision workflow
 
@@ -24,7 +25,8 @@
 
 | Doc | Use |
 |-----|-----|
-| **[acts-2-3-5-revision-progress.md](./acts-2-3-5-revision-progress.md)** | Active log — Acts II, III, V alignment (includes pipeline baseline) |
+| **[expansion-progress.md](./expansion-progress.md)** | **Active log** — act/chapter word targets vs current (~100k expansion) |
+| **[acts-2-3-5-revision-progress.md](./acts-2-3-5-revision-progress.md)** | Craft alignment log — Acts II, III, V (calibration bar) |
 | **[acts-4-draft-progress.md](./acts-4-draft-progress.md)** | Act IV final word counts (manual pass complete) |
 
 ## Deprecated / removed
