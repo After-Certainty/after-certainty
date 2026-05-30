@@ -8,9 +8,9 @@ Fear hit the bond faster than thought. Halverin was still calling counts from th
 
 "Hold the line!" Halverin shouted.
 
-Riven tried. Cael tried beside him. For three breaths they moved like the road again, bracing the mock timber while guards stamped and people pressed the rope. Load shared clean. His name in the margin where everyone could read it. A boy in the front row had shouted Cael's name like a song; Riven had missed half a count and felt Cael's irritation cross before he could swallow his own.
+Riven tried. Cael tried beside him. For three breaths they matched the road rhythm, bracing the mock timber while guards stamped and people pressed the rope. Load shared clean. His name in the margin where everyone could read it. A boy in the front row had shouted Cael's name like a song; Riven had missed half a count and felt Cael's irritation cross before he could swallow his own.
 
-The guards' drill had looked stupid from the platform. It did not look stupid when boots stamped close enough to shake the chalk. Halverin called breath. *In on my voice. Out on my voice. You do not carry alone.* Riven had breathed on the wrong beat twice and felt Cael adjust for him both times, shame crossing each time like a slap.
+The guards' drill had looked stupid from the platform. It did not look stupid when boots stamped close enough to shake the chalk. Halverin called breath. *In on my voice. Out on my voice. You do not carry alone.* Riven had breathed on the wrong beat twice and felt Cael adjust for him both times, shame crossing each time.
 
 Then a woman in the front row went down and someone screamed that she could not breathe.
 
@@ -18,7 +18,7 @@ Merrow's medic at the west lane broke formation before Halverin finished his nex
 
 "Back," Merrow shouted from the lane. "Give her air."
 
-The crowd did not give air. They leaned harder because fear made leaning feel like doing something. Riven felt the press through the bond before he felt it in his ribs. Cael's jaw locked. Halverin kept counting as if the woman were a footnote.
+The crowd did not give air. They leaned harder. Riven felt the press through the bond before he felt it in his ribs. Cael's jaw locked. Halverin kept counting through the fainting woman as if she were a footnote.
 
 She would faint again at the margin an hour later and travel hand-over-hand to the same lane. Riven would not know her name. He would know her son's cry.
 
@@ -46,9 +46,9 @@ Then pain came back wrong.
 
 Not shared load. Ricochet. Cael's old guilt from the stairs, Riven's anger at the broadsides, Lyra's name unspoken in both their throats, Halverin's voice insisting discipline could cure invasion. It bounced between them too fast to brace. Each feeling picked up the last and threw it harder.
 
-Riven saw the fishmonger from the lower market grab the rope as if he could steady the air. He saw the magistrate clerk drop his slate. He saw the boy who had shouted Cael's name cover his mouth with both hands.
+Riven saw the fishmonger from the lower market grab the rope. He saw the magistrate clerk drop his slate. He saw the boy who had shouted Cael's name cover his mouth with both hands.
 
-His knees buckled. Cael's did not, which was worse. Cael stayed upright through sheer stubbornness and pulled Riven down by the shared load until they were both on the stone with the frame between them like a broken support post.
+His knees buckled. Cael's did not, which was worse. Cael stayed upright through sheer stubbornness and pulled Riven down by the shared load until they were both on the stone with the splintered frame between them.
 
 Riven's vision grayed. The square tilted. Stone looked wet when it was dry. Shadows lagged behind bodies. He tasted copper. Cael made a low punched-out sound.
 
@@ -98,7 +98,7 @@ Riven wanted to stand. His legs would not. Cael's wouldn't either. They stayed o
 
 A merchant Riven did not know shouted, "You said it would hold!"
 
-Halverin turned toward the voice. For a second he looked like a man who believed his own poster. Then the second passed and his mouth went slack.
+Halverin turned toward the voice. For a second he looked ready to believe his own poster. Then the second passed and his mouth went slack.
 
 "Step back," Halverin told the guards.
 
@@ -134,25 +134,25 @@ No one answered him. The answer was on the ground in splinters and on their face
 
 The square went quiet in stages. First the center. Then the side streets. People stood with their mouths open.
 
-From the basin Riven could see the whole platform now: Halverin alone at the rail, aides gone from the steps, no clerk left to tally. The speaking horn lay on the stone below him, mouth cracked. Bleached broadsides still flapped on the magistrate wall—their names centered in bold. The dry fountain basin held splintered timber and wet stone where there had been no water at dawn. Ropes sagged at the margins. A paste boy stood with his bucket, not sure whether to run. Two guards looked at Merrow and then away, as if eye contact might assign them blame.
+From the basin Riven could see the whole platform now: Halverin alone at the rail, aides gone from the steps, no clerk left to tally. The speaking horn lay on the stone below him, mouth cracked. Bleached broadsides still flapped on the magistrate wall—their names centered in bold. The dry fountain basin held splintered timber and wet stone where there had been no water at dawn. Ropes sagged at the margins. A paste boy stood with his bucket, not sure whether to run. Two guards looked at Merrow and then away.
 
-Halverin stood empty-handed above the horn on the step. His face was pale. His coat was still neat. Nothing about him looked magistrate now. He looked like a man who had bet a city on a story and lost in public.
+Halverin stood empty-handed above the horn on the step. His face was pale. His coat was still neat. Nothing about him looked magistrate now. He had bet a city on a story and lost in public.
 
 "I can adjust the sequence," he said, voice smaller. "We can run it again."
 
 No one answered.
 
-Riven got one foot under him. Cael helped without speaking. They stood together in the splintered frame and the wrong air. Riven's palms stung. Cael's jaw was tight. Through the bond Riven felt shame and anger and something underneath that felt like relief so ugly he did not want to name it.
+Riven got one foot under him. Cael helped without speaking. They stood together in the splintered frame and the wrong air. Riven's palms stung. Cael's jaw was tight. Through the bond Riven felt shame and anger and relief so ugly he did not want to name it underneath.
 
 He looked up at Halverin. No triumph. Just the sick wash of everybody seeing the same thing.
 
 "This isn't refinement," Riven said, loud enough for the front rows. "This is loss."
 
-Whispers started. Someone repeated it. *Loss.* A woman near the rope line said it again, softer, like she was testing whether the word would burn her tongue.
+Whispers started. Someone repeated it. *Loss.* A woman near the rope line said it again, softer, testing the word on her tongue.
 
 A magistrate runner tried to collect names for a correction broadside. Merrow's guard blocked him with a spear shaft, flat side. "Injury slate first. Magistrate queue second."
 
-An old man in a cooper's apron spat on the step below the platform. Not at Halverin. At the ground, like the stone had failed him personally. Two women behind the north rope argued in whispers about whether the pair were cursed or heroes. A guard told them to shut up and did not sound sure which side he was on.
+An old man in a cooper's apron spat on the step below the platform. Not at Halverin. At the ground. Two women behind the north rope argued in whispers about whether the pair were cursed or heroes. A guard told them to shut up and did not sound sure which side he was on.
 
 Halverin opened his mouth. Closed it. His aides were gone from the platform edge. No one stood at the rail to take the horn.
 
@@ -180,7 +180,7 @@ Merrow met them at the lane edge without ceremony. She looked at Riven's palms, 
 
 Halverin was still up there. Riven heard his voice once more, thin against the quiet. Sequence. Correction. No one in the lane answered.
 
-Riven looked back once. Halverin had not descended. He stood in the wreckage of his own authority as if standing might bring it back.
+Riven looked back once. Halverin had not descended. He stood in the wreckage of his own authority, still giving orders to an empty rail.
 
 It would not.
 
@@ -242,7 +242,7 @@ Merrow passed them at the lane edge with two guards and a slate. She did not sto
 
 "Good," Merrow said, and kept walking.
 
-Someone in the second row was still saying it softly. *Loss.* A woman near the basin picked up a splinter and dropped it again like it might bite.
+Someone in the second row was still saying it softly. *Loss.* A woman near the basin picked up a splinter and dropped it again.
 
 The cooper who had spat on the step caught Riven's eye. "Held the berm with my nephew," he said, not loud. "Didn't look like that." He jerked his chin at the splintered frame. "You all right?"
 
@@ -286,4 +286,4 @@ Second bell passed. Merrow's runner collected the slate and jogged toward the co
 
 Riven set his bandaged palms flat on his knees and listened to the square thin outside. The bond still pulled in his wrists. Splinters still on the ground by the basin. He did not look back at Halverin again.
 
-The word *loss* moved mouth to mouth in the lane until it sounded like ordinary speech. Riven closed his eyes and counted four in, four out. Not Halverin's count. Lyra's. The bond eased a fraction. Cael's breath matched on the sixth. Enough to stand when Merrow called them again.
+The word *loss* moved mouth to mouth in the lane. Riven closed his eyes and counted four in, four out. Not Halverin's count. Lyra's. The bond eased a fraction. Cael's breath matched on the sixth. Enough to stand when Merrow called them again.

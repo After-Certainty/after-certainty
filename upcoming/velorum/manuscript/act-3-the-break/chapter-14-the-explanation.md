@@ -6,13 +6,13 @@ Outside, hammering started and stopped. Someone shouted for rope. Someone else a
 
 Merrow had left a slate on the table edge: patrol sectors, ration tallies, names still missing from the riverside entrance. Cael read the list twice because reading was something his hands could do while the rest of him tried not to replay the daughter's breath in his palms.
 
-Halverin came in without guards, which was new. He carried no slate, no aide, no performance smile. His coat was the same neat grey, but the collar sat wrong, like he had slept in a chair. There was a smear of chalk dust at one cuff. Cael had never seen Halverin with dust on him before.
+Halverin came in without guards, which was new. He carried no slate, no aide, no performance smile. His coat was the same neat grey, but the collar sat wrong—slept in a chair wrong. There was a smear of chalk dust at one cuff. Cael had never seen Halverin with dust on him before.
 
 "You wanted us," Cael said.
 
 "I need you to hear this before the city hears everyone else." Halverin set both palms on the table edge, fingers spread. "Sit if you want. I won't waste time on courtesy."
 
-Riven leaned against the wall by the shutter, arms folded, jaw tight. Through the bond Cael felt Riven's headache and his refusal to sit at the same table as if this were a negotiation. The headache had started in Cael's neck at first light and migrated by midmorning. Fatigue did that now. Pain did that. Even silence did that if one of them was holding too hard.
+Riven leaned against the wall by the shutter, arms folded, jaw tight. Through the bond Cael felt Riven's headache and his refusal to sit at the same table. The headache had started in Cael's neck at first light and migrated by midmorning.
 
 Cael stayed standing. "Say it."
 
@@ -36,7 +36,7 @@ Cael felt the heat of that exchange in his chest before either of them finished 
 
 "If we accept it," Cael said, "what changes on the ground?"
 
-Halverin met his eyes at last. The magistrate's face was tired in a way that did not look performed. "Stop bracing against each other. Stop hoarding pain like it's yours alone. Let the load move the way Velorum wants."
+Halverin met his eyes at last. The magistrate's face was tired in a way that did not look performed. "Stop bracing against each other. Stop hoarding pain. Let the load move the way Velorum wants."
 
 "Designed." Riven pushed off the wall. "You weren't on the stairs, you smug bastard."
 
@@ -82,7 +82,7 @@ Riven opened the shutter a finger width. Cold air slid in. Below, a chalk crew w
 
 "No promises," Riven said.
 
-Halverin nodded once, like that was enough to build on. He left without asking them to escort him. His boots were quiet on the stone. The door shut and the hall went too quiet.
+Halverin nodded once and left without asking them to escort him. His boots were quiet on the stone. The door shut and the hall went too quiet.
 
 Cael heard his own breath and Riven's, out of sync for three beats before the bond pulled them closer.
 
@@ -116,9 +116,9 @@ The runner hesitated. "Captain also says if Halverin's clerk puts your name on a
 
 "Understood."
 
-He patrolled the south market cordon with two city guards who did not know his name and treated him like a symbol anyway. One of them, a young woman with a split lip still swollen from the attack, walked half a pace behind him as if he were the shield.
+He patrolled the south market cordon with two city guards who did not know his name and treated him as a symbol anyway. One of them, a young woman with a split lip still swollen from the attack, walked half a pace behind him.
 
-At the cordon line a baker asked whether the demonstration would use the same timber from the west berm. Cael said mock timber in the square, real timber on the walls. The baker nodded and went back to stacking loaves behind a shutter that only opened half way. Through the bond Riven sent a spike of irritation at the question—wrong target, wrong day—and Cael felt it land in his ribs like a misplaced step.
+At the cordon line a baker asked whether the demonstration would use the same timber from the west berm. Cael said mock timber in the square, real timber on the walls. The baker nodded and went back to stacking loaves behind a shutter that only opened half way. Through the bond Riven sent a spike of irritation at the question—wrong target, wrong day—and Cael felt it land wrong in his ribs.
 
 The cordon ran between still-smoking eaves and patched awnings. Ash grit underfoot where the attack had scorched the stones; above, laundry lines still hung between upper windows, untouched.
 
@@ -150,7 +150,7 @@ At midday Merrow found him at the stairs and did not comment on why he was stand
 
 "Don't promise him closure you can't deliver."
 
-A boy from the fishmonger's stall stood at the stair lip with an empty basket, watching Cael's hands. He did not ask about his uncle. He asked if the demonstration would use real timber or mock timber. Cael said mock. The boy nodded like that answered something important and ran back toward the square.
+A boy from the fishmonger's stall stood at the stair lip with an empty basket, watching Cael's hands. He did not ask about his uncle. He asked if the demonstration would use real timber or mock timber. Cael said mock. The boy nodded and ran back toward the square.
 
 Cael folded the sheet. "Halverin says we train in public so the city stops breaking."
 
@@ -184,7 +184,7 @@ The vendor snorted and left. Cael wrote *west lane open* on his wrist where the 
 
 Halverin did not answer. He marked chalk on the stone and moved on.
 
-By the time Cael returned to the command hall, paste crews on ladders blocked half the magistrate wall. Fresh sheets flapped wet in the river wind, ink still dark on the first line. The first line had their names centered in bold. Below it, a woodcut of two figures with joined hands that looked nothing like them and everything like a story the city wanted to buy.
+By the time Cael returned to the command hall, paste crews on ladders blocked half the magistrate wall. Fresh sheets flapped wet in the river wind, ink still dark on the first line. The first line had their names centered in bold. Below it, a woodcut of two figures with joined hands that looked nothing like them.
 
 Halverin's clerk was still on the ladder when Cael passed. "Magistrate wants your acknowledgment on the second sheet."
 
@@ -226,7 +226,7 @@ Cael pinched the room lamp wick flat. In the quiet the bond was louder: Riven's 
 
 *Accept load. Do not split.*
 
-He repeated it until it felt less like a lie.
+He repeated it until he could say it without flinching.
 
 Before the room went fully quiet a runner from Halverin's office tried the door again. Cael did not open it. Riven did not move from the cot. The runner slid a rehearsal schedule under the crack and left. Cael unfolded it by touch: margin drill at first light, horn test at second bell, public entry on signal one. His name twice. Riven's twice. Halverin's signature at the bottom in ink so fresh it still smelled wet.
 

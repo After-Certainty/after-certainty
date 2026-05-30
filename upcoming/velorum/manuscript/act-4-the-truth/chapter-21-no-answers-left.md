@@ -6,7 +6,7 @@ Cael went alone. Riven had refused the invitation before the messenger finished 
 
 A clerk stood beneath the council archway with a bucket at his feet and watched Cael pass without speaking. Another clerk farther up the stair was scrubbing dried paste from the treads with a stiff brush, working methodically, as though removing the last trace of a broadside would make the square behave again.
 
-The stairs were slick. Cael took them one step at a time, palm on wet stone, listening to the city below: wagon wheels, a guard calling shift change, someone hammering a shutter closed against the weather. By the time he reached the council floor, rain had soaked through the hem of his coat. Kestrel Gate had not stopped moving since the square. The bond still ran through the walls like a wire nobody wanted to touch.
+The stairs were slick. Cael took them one step at a time, palm on wet stone, listening to the city below: wagon wheels, a guard calling shift change, someone hammering a shutter closed against the weather. By the time he reached the council floor, rain had soaked through the hem of his coat. Kestrel Gate had not stopped moving since the square. The bond still ran through the walls—a wire nobody wanted to touch.
 
 The room looked smaller than he remembered. Maps lay rolled on the table, edges damp where rain had found a seam in the casement. A chair sat crooked in the corner, legs scraping marks on the floor. Grey daylight pushed through the wet windows, enough to read blame by without lighting the candles. The brazier in the corner held cold ash from the last council session. Nobody had bothered to sweep it.
 
@@ -60,7 +60,7 @@ Halverin didn't argue.
 
 "No." Cael folded his arms. "What didn't you get?"
 
-Halverin laughed once. Control hung in the air without him saying it. For the first time he looked tired enough that Cael almost felt sorry for him. Almost.
+Halverin laughed once. For the first time he looked tired enough that Cael almost felt sorry for him. Almost.
 
 "I didn't want people bleeding in the square."
 
@@ -70,7 +70,7 @@ Halverin looked down. "No." The admission came quietly. "I shouldn't have." Rain
 
 "You told us privacy was a luxury."
 
-"I told myself that first." Halverin's mouth tightened. "It sounded reasonable." The silence that followed felt heavier than any defense would have.
+"I told myself that first." Halverin's mouth tightened. "It sounded reasonable." The silence that followed was heavier than any defense would have.
 
 Eventually Halverin rested a hand on the unsigned statement. "I tried to apologize."
 
@@ -80,7 +80,7 @@ Halverin looked up. "It didn't matter."
 
 "No." Another silence, longer this time. Rain had slowed to a steady hiss against the glass. Somewhere below, a wagon wheel stuck in a rut and a driver swore until someone pushed from behind.
 
-"I don't know how to fix it." The words seemed to cost him something. "I don't know how to make amends for what happened to you." His fingers pressed against the paper. "I don't know what comes next." That, more than anything else, sounded honest.
+"I don't know how to fix it." The words cost him. "I don't know how to make amends for what happened to you." His fingers pressed against the paper. "I don't know what comes next." That, more than anything else, sounded honest.
 
 He looked at Cael again. "The infirmary count is still climbing. Not from the square. From after. People who won't sleep. People who hear things in walls that aren't there." Halverin's mouth tightened. "The clerks call it *residual disturbance.* I call it what we did to them."
 

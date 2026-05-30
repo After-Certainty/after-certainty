@@ -25,7 +25,7 @@ Afterward Riven stood in the ditch shade with blood on his sleeve and watched th
 
 The runner dropped to his knees before either of them reached him. Done. The whole thing couldn't have taken a minute. Maybe less.
 
-Riven's ears rang. Cael's breath came hard through the bond—not exhaustion yet, the fight-high, the same buzz Riven felt in his wrists. A woman behind the lead wagon was crying quietly. Somebody else was vomiting in the ditch. The ordinary aftermath of violence, except Riven could feel Cael's hands shaking as if they were his own.
+Riven's ears rang. Cael's breath came hard through the bond—not exhaustion yet, the fight-high, the same buzz Riven felt in his wrists. A woman behind the lead wagon was crying quietly. Somebody else was vomiting in the ditch. The ordinary aftermath of violence, except Riven could feel Cael's hands shaking as his own.
 
 One bandit crawled toward a dropped knife. Riven grabbed for the mule line on the wagon rail. Cael grabbed the same spot. Their knuckles cracked together. The line slipped. The bandit got one hand free before Cael stepped on his wrist and Riven finally had the rope.
 
@@ -35,7 +35,7 @@ They worked the rest in silence—rope, knots, another rope—until six men ende
 
 Riven searched the ditch for dropped blades and purses while Cael kept the prisoners covered. One bandit had a ledger stub in his boot—route marks, dates, tower names in bad shorthand. Cael read it once and passed it to the father. "Split Mile gets this tonight."
 
-The father nodded like he didn't want to know what it meant.
+The father nodded. He didn't want to know what it meant.
 
 Only afterward did he notice the silence. Wagons stopped up and down the cut. Faces staring from behind canvas. A dog barked once and shut up. Then the whispers started—low, fast, too quiet to catch whole sentences. Riven heard pieces anyway: *touched*, *oath*, *don't look at them wrong*.
 
@@ -49,7 +49,7 @@ Cael glanced over. "Close enough."
 
 Riven wiped blood off his nose with the back of his wrist. Nobody laughed. The lead teamster kept staring at the ditch—not at the prisoners, at them.
 
-Two women behind the next wagon stopped talking when Riven glanced over. One touched her throat like she was checking her own pulse. A boy no older than eight peeked around a wheel, then hid again. Somebody farther back said *sworn* and *don't* in the same breath and got shushed hard.
+Two women behind the next wagon stopped talking when Riven glanced over. One touched her throat, checking her pulse. A boy no older than eight peeked around a wheel, then hid again. Somebody farther back said *sworn* and *don't* in the same breath and got shushed hard.
 
 The father swallowed. "Three hits this week," he said. "Same stretch of road. Split Mile tower's half a day east if you want to send word."
 
@@ -87,7 +87,7 @@ A wagon door creaked open. The father stepped down. "You two headed for Kestrel 
 
 "We are," Cael said.
 
-The man nodded quickly, like he'd been waiting to ask. "They said two oath-bound were on this road."
+The man nodded quickly. He'd been waiting to ask. "They said two oath-bound were on this road."
 
 The words stuck. Oath-bound—not cursed, not touched, not whatever they actually were, but something cleaner, something people could put in a story. Cael's satisfaction hit the bond before Riven saw it on his face—steady, unwanted. The fight-high still buzzed through Riven's veins, and he wanted to hit Cael and stand next to him in the same breath.
 
@@ -129,7 +129,8 @@ Cael was quiet long enough to be honest. Finally he said, "I think we're past wo
 
 Cael didn't answer again for the next mile.
 
-They passed a shrine with fresh cord on the carved wrists. Riven cut it with his knife. Cael felt the choice cross—approval, fear, something like grief—and said nothing. A woman behind the next wagon crossed herself and looked away.
+They passed a shrine with fresh cord on the carved wrists. Riven cut it with his knife. Cael felt the choice cross—approval, fear, grief—and said nothing.
+A woman behind the next wagon crossed herself and looked away.
 
 The trail narrowed on the switchback. Cael's stride pulled at Riven's legs. The fight had felt clean; walking didn't. Shoulders brushed once, then again. Riven's jaw locked. His breath went shallow. No room in his own head anymore.
 
@@ -227,13 +228,13 @@ They got the cart free. The driver didn't thank them. He crossed himself and kep
 
 Past the bend the road climbed through scrub pines. Boot prints crossed and recrossed—same size as the morning bandits, Riven thought, though he couldn't prove it. Cael checked each fork without speaking. Riven felt the choices land in his legs before Cael called them.
 
-At a water stop a woman pressed hard cheese into Riven's pack without meeting his eyes, like paying a toll nobody had agreed to. Cael felt Riven's irritation spike and his own shame answer it. The cheese sat in Riven's pack like a debt.
+At a water stop a woman pressed hard cheese into Riven's pack without meeting his eyes. Not hostility. Need. Cael felt Riven's irritation spike and his own shame answer it. The cheese sat in Riven's pack heavy and unwanted.
 
-They walked the last miles in silence. The road climbed. Kestrel Gate's smoke showed on the horizon before noon. Every time Riven shifted his pack, he felt Cael adjust his strap a heartbeat later, like their bodies were learning a shared rhythm whether he wanted it or not.
+They walked the last miles in silence. The road climbed. Kestrel Gate's smoke showed on the horizon before noon. Every time Riven shifted his pack, he felt Cael adjust his strap a heartbeat later—their bodies learning a shared rhythm whether he wanted it or not.
 
 At a fork a peddler tried to sell them charms against bad luck on the road. Riven said they had enough bad luck already. Cael bought two anyway with copper he didn't have to spare and pressed one into Riven's palm when the peddler wasn't looking. Riven felt Cael's stubbornness cross with the metal—warm, stupid, impossible to refuse without a fight.
 
-A teamster from the caravan caught up at the fork and walked beside them without speaking for half a mile. Finally: "My boy asked if you share one heart." Riven said that was stupid. Cael said sometimes it felt that way. The teamster nodded like both answers were true and went back to his wagon.
+A teamster from the caravan caught up at the fork and walked beside them without speaking for half a mile. Finally: "My boy asked if you share one heart." Riven said that was stupid. Cael said sometimes it felt that way. The teamster nodded and went back to his wagon.
 
 A guard patrol from the Gate passed them going south—four men, spears vertical, faces closed. The sergeant asked their names and wrote them in a pocket ledger without looking up. "Magistrate's office knows you're coming," he said. "Don't make us regret it."
 
@@ -241,14 +242,14 @@ One of the patrolmen lagged behind long enough to mutter, "Gate's half empty on 
 
 "Raid?" Riven asked.
 
-The man shrugged like the word embarrassed him. "Missing patrols. cut supports. Same as your road." He caught up to his squad before Riven could push further.
+The man shrugged. "Missing patrols. cut supports. Same as your road." He caught up to his squad before Riven could push further.
 
 When the patrol was gone Riven muttered, "We're not their fucking bridge."
 
 Cael kept walking. "Today we are."
 
-The south road narrowed between stone walls again. Riven checked the ditch out of habit. Cael checked the ridge. Neither spoke. The bond carried the same alert in both chests anyway—boot prints, fresh, heading east toward the Gate like the road itself was funneling trouble home.
+The south road narrowed between stone walls again. Riven checked the ditch out of habit. Cael checked the ridge. Neither spoke. The bond carried the same alert in both chests anyway—boot prints, fresh, heading east toward the Gate.
 
-At the last rise before the walls they could see the whole city—watchfires being fed along the ramparts, ration smoke rising, missing notices flapping on the outer face like white teeth. Split Mile's post was a pinprick behind them. Ahead, Kestrel Gate already had their names on slates and broadsides and stories they hadn't agreed to tell. Riven stopped long enough to feel his stomach tighten. Cael felt it too and kept walking.
+At the last rise before the walls they could see the whole city—watchfires being fed along the ramparts, ration smoke rising, missing notices flapping on the outer face. Split Mile's post was a pinprick behind them. Ahead, Kestrel Gate already had their names on slates and broadsides and stories they hadn't agreed to tell. Riven stopped long enough to feel his stomach tighten. Cael felt it too and kept walking.
 
 Riven shouldered his pack. The strap bit into the same shoulder Cael had braced during the fight.

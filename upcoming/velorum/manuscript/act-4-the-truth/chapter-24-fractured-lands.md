@@ -36,7 +36,7 @@ The morning passed in fragments. Wrong shadows. Wrong wind. Wrong ground. Riven 
 
 They passed a stretch where the trail ran beside a cliff face and the echo returned before the sound. Riven spoke once to test it. His voice reached him from the future, or the past, he couldn't tell which. Cael heard it too. Both of them stopped talking after that.
 
-A bird launched from a crevice. Its wings beat twice before Riven saw it move. The bond carried Cael's flinch and Riven's flinch and something that felt like vertigo from neither of them alone.
+A bird launched from a crevice. Its wings beat twice before Riven saw it move. The bond carried Cael's flinch and Riven's flinch and vertigo from neither of them alone.
 
 Riven stopped and put his back to the cliff. "Need a minute."
 
@@ -66,7 +66,7 @@ They passed a dead mule beside the trail. Ribs showing. No cart. No driver. Flie
 
 A mile farther on the trail crossed a seam in the rock where the ground stepped sideways three inches without warning. Cael's ankle turned. Riven caught the wall with his shoulder. Neither fall. Both hurt. They kept walking.
 
-By midday they reached a shelf above a basin of standing water. Their reflections lagged behind them. Riven ignored it. The bond was harder to ignore. Every feeling seemed to arrive twice. Every thought wanted witnesses. He was beginning to understand why people went mad out here.
+By midday they reached a shelf above a basin of standing water. Their reflections lagged behind them. Riven ignored it. The bond was harder to ignore. Every feeling arrived twice. Every thought wanted witnesses. He was beginning to understand why people went mad out here.
 
 Below the shelf, the basin's surface showed ripples with no wind to cause them. Cael pointed with his staff. Riven saw it too: concentric rings spreading from a center that wasn't there.
 
@@ -84,13 +84,13 @@ Riven wiped his mouth. "I miss that." The words slipped out before he could stop
 
 Silence. Then: "Yeah."
 
-Cael didn't ask which part. Didn't ask whether he meant Lyra. Didn't ask anything. For once, neither of them seemed interested in opening another wound.
+Cael didn't ask which part. Didn't ask whether he meant Lyra. Didn't ask anything. For once, neither of them wanted to open another wound.
 
 The afternoon after the seep was the longest of the seventh day. Every shadow arrived early. Every step sounded late. Riven kept his hand on the belt at his hip. Cael kept his staff off the ground unless testing.
 
 They walked. The trail split. The Seeker pointed left. They followed. By now that was what they did.
 
-The basin beyond felt wrong in a deeper way, not delayed, compressed. The space between them seemed thinner. Every ache crossed faster. Every fear stayed longer.
+The basin beyond felt wrong in a deeper way, not delayed, compressed. The space between them thinned. Every ache crossed faster. Every fear stayed longer.
 
 Riven's headache had become permanent. Not pain. Presence—a weight at the back of his neck that wasn't his hand.
 
@@ -134,7 +134,7 @@ Riven barely recognized his own voice. "Goddamnit. Set it down."
 
 They dropped it. Dust rolled outward in a pale ring. The basin settled. Or pretended to.
 
-Riven's hands shook for a full minute after. Cael's didn't, until the bond caught up. They sat on the basin rim without speaking until the sun moved, or seemed to.
+Riven's hands shook for a full minute after. Cael's didn't, until the bond caught up. They sat on the basin rim without speaking until the sun moved.
 
 The support lay where they dropped it, pins glinting in wrong light. Cael wanted to bury it. Riven wanted to burn it. They left it where it fell and walked away. Some things you didn't fix. You just stopped touching them.
 
@@ -182,7 +182,7 @@ The listening felt different now. Not curiosity. Weight gathering. As though the
 
 Neither of them said anything after that.
 
-They camped without a fire. The air smelled metallic. Even the Seeker seemed unwilling to challenge it.
+They camped without a fire. The air smelled metallic. Even the Seeker wouldn't challenge it.
 
 Riven checked their supplies by feel in the dark. One ration bar left besides today's portion. Water for one day if they rationed. The iron bars had rusted through at the corners. He set them aside. Cael felt the inventory cross the bond and didn't ask.
 
@@ -246,7 +246,7 @@ Somewhere above the cut, the Seeker's staff tapped once. The sound arrived late.
 
 Morning came cold. The Seeker started walking before the light arrived. They followed.
 
-The trail climbed into broken ridges. Pain moved around like borrowed gear. Nobody commented anymore.
+The trail climbed into broken ridges. Pain moved between them. Nobody commented anymore.
 
 Riven's ribs ached from a fall that hadn't happened to him. Cael favored his left knee from a stumble Riven had taken two hours back. The bond had stopped pretending there was a boundary worth respecting.
 
@@ -256,7 +256,7 @@ By midmorning they passed a cairn of stacked stones beside the trail. Someone ha
 
 "Or grave." Riven kept walking. "Same thing out here."
 
-The cairn's scattered stones had rolled uphill before settling. Riven stepped around them without touching. Touching felt like accepting an invitation.
+The cairn's scattered stones had rolled uphill before settling. Riven stepped around them without touching. Touching was accepting an invitation.
 
 Half the morning passed in a cut where light arrived from the wrong angle. Riven's shadow pointed east at noon. Cael's matched it. The bond carried a low headache that neither could locate.
 

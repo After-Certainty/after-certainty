@@ -146,7 +146,7 @@ They stood there breathing hard. Cael pressed a hand against his thigh until the
 
 "We can't stay up here." Riven adjusted his blanket roll, then adjusted it again, then stopped pretending that helped. Together they shouldered their packs.
 
-The moment they started down the trail, things got worse—each step arriving early, balance shifting before gravel moved, fatigue crossing between them before either body stumbled. The first steep stretch should have been difficult. Instead it felt efficient, like two people carrying one load. Cael hated it immediately.
+The moment they started down the trail, things got worse—each step arriving early, balance shifting before gravel moved, fatigue crossing between them before either body stumbled. The first steep stretch should have been difficult. Instead they moved in sync. Cael hated it immediately.
 
 Riven's pack had been packed wrong since the rim—left heavy, right light. Cael had noticed at the seep yesterday and not said anything. Now the wrong weight pulled at both of them. Riven shifted the strap. Cael felt the relief before the strap moved.
 
@@ -232,7 +232,7 @@ Cael looked away. "I didn't say anything."
 
 "You didn't have to."
 
-The anger hit first. Then fear. Then something worse—disappointment, like Riven had caught him hoping.
+The anger hit first. Then fear. Then something worse—disappointment. Riven had caught him hoping.
 
 "You already sound like you're explaining it."
 
@@ -240,7 +240,7 @@ The anger hit first. Then fear. Then something worse—disappointment, like Rive
 
 They walked. Cael tried not to think. That lasted about three seconds.
 
-The trail dropped in tight switchbacks. Loose stone. Wrong weight in Riven's pack—left heavy, right light, the same mistake from the rim. Cael had meant to fix it before they left the Ashring. Fixing it meant touching Riven's straps. Touching felt like asking permission from something that didn't grant it.
+The trail dropped in tight switchbacks. Loose stone. Wrong weight in Riven's pack—left heavy, right light, the same mistake from the rim. Cael had meant to fix it before they left the Ashring. Fixing it meant touching Riven's straps. Touching meant asking permission from something that didn't grant it.
 
 At the next bend Riven stopped without warning. Cael stopped too—same foot, same instant.
 
@@ -294,9 +294,9 @@ Cael's jaw tightened. "You grabbed it."
 
 Cael didn't answer. Because Riven was right. Because he wasn't. Because both things could be true.
 
-The fear underneath Riven's anger hit him like a punch—forgotten, trapped, stuck, the same fears from the monument, the same fears from the docks. Cael bent forward and put his hands on his knees until his vision steadied.
+The fear underneath Riven's anger hit his gut—forgotten, trapped, stuck, the same fears from the monument, the same fears from the docks. Cael bent forward and put his hands on his knees until his vision steadied.
 
-"How far to the tree line?" Riven asked. Not because he didn't know. Because speaking his own question felt like proof he still had one.
+"How far to the tree line?" Riven asked. Not because he didn't know. Because speaking his own question was proof he still had one.
 
 "Hours." Cael straightened. "Maybe less if we don't fall."
 
@@ -370,7 +370,7 @@ Riven almost laughed. Almost.
 
 "But you keep thinking it's worth it."
 
-Cael didn't deny it fast enough. Riven felt the hesitation cross like a belated echo.
+Cael didn't deny it fast enough. Riven felt the hesitation cross a beat late.
 
 "Stop," Riven said.
 

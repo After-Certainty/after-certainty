@@ -148,7 +148,7 @@ Cael reached for him. Riven waved him off. "Don't. I'm—" He stopped. They both
 
 Riven spat blood into the grass. "No." A beat. "Walking anyway."
 
-Cael nodded. That seemed to be the rule now.
+Cael nodded. That was the rule now.
 
 They rested at a seep that ran sideways for six paces before finding downhill. Cael filled both skins. Riven checked the map while Cael checked his knee. The swelling had started. By evening it would be both their knees. The bond didn't schedule injuries politely.
 
@@ -184,7 +184,7 @@ Once Cael's foot broke through crust into void. Riven caught balance on nothing 
 
 The valley eventually gave way to open stone. The bent trees fell behind them. The ground behaved a little better, not enough, just enough to notice. By the time they reached the ridge, both of their legs were burning. The Seeker never slowed. Neither did they.
 
-The climb to the crest took an hour Cael couldn't account for. Time had started slipping: a pause that felt like minutes and turned out to be seconds, a stretch of trail that felt short and went on until his thighs shook. Riven felt it too. Through the bond, impatience and exhaustion traded places without either of them speaking.
+The climb to the crest took an hour Cael couldn't account for. Time had started slipping: a pause that turned out to be seconds, a stretch of trail that felt short and went on until his thighs shook. Riven felt it too. Through the bond, impatience and exhaustion traded places without either of them speaking.
 
 Cael's staff had developed a wobble near the grip. He shifted his hold every hundred paces. Riven's blister had reopened despite the cloth wrap. Blood showed through at the heel of his boot. Neither mentioned it. Mentioning it wouldn't change the walking.
 
@@ -230,7 +230,7 @@ Before light, Cael woke to Riven muttering numbers. Not coordinates. Counts. Ste
 
 When grey light came, the ring hadn't moved. It didn't need to. They were moving toward it.
 
-Cael's staff split at the ferrule before breakfast. He bound it with line. The wobble became a sway. Riven watched him test each step like timber load. "It'll hold."
+Cael's staff split at the ferrule before breakfast. He bound it with line. The wobble became a sway. Riven watched him test each step. "It'll hold."
 
 "For now."
 
@@ -258,7 +258,7 @@ The trail into the ring's shadow took the rest of the morning. Riven tested each
 
 Wind rose from the Ashring below and carried dust upslope. Riven tasted stone on his tongue. Cael tasted it too. The ring's hum found his teeth before his ears.
 
-At the cut's edge they stopped. Below, the Ashring waited. Above, cloud broke once and showed the standing stones like teeth. Cael felt Riven's pulse through the bond. Fast. Steady. Still walking.
+At the cut's edge they stopped. Below, the Ashring waited. Above, cloud broke once and showed the standing stones. Cael felt Riven's pulse through the bond. Fast. Steady. Still walking.
 
 Riven spat dust. "Tomorrow."
 

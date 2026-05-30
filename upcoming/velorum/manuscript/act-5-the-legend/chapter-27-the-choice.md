@@ -84,7 +84,7 @@ Riven turned on his side. "That's surrender."
 
 Riven remembered Lyra's voice: *loss, not refinement.* He remembered Halverin's counts. He remembered the woodcut at Heartbridge, two men, one rope, heroes curse never forgotten. He remembered wanting meaning on that hill and getting a load that did not care what he wanted.
 
-He had wanted to be remembered for something that mattered. The town was already remembering the wrong version. He could feel it in the stares on the walk in, in the way people stepped aside like they might catch the bond if they brushed too close.
+He had wanted to be remembered for something that mattered. The town was already remembering the wrong version. He could feel it in the stares on the walk in, in the way people stepped aside.
 
 "I don't believe in destiny," he said.
 
@@ -152,19 +152,15 @@ Below them the channel cut ran dark between mud walls. Laborers held posts along
 
 "Deal."
 
-They braced on the berm as the first section sloughed. Mud hit Riven's shins cold. Timber screamed. A laborer swore and ran for a support post. Riven felt fear start in his chest and cross clean, not ricochet, chosen channel. Cael's strength met it. Riven's speed met Cael's hesitation. They moved like one body because the alternative was death for people who did not know their names yet.
+They braced on the berm as the first section sloughed. Mud hit Riven's shins cold. Timber screamed. A laborer swore and ran for a support post. Riven felt fear start in his chest and cross clean, not ricochet, chosen channel. Cael's strength met it. Riven's speed met Cael's hesitation. They matched on the second beat—the alternative was death for people who did not know their names yet.
 
 A laborer shouted for support posts. Bran fed rope. The channel mouth widened an inch, then held. Riven's shoulders burned. Cael's breath came ragged in his own lungs.
 
-Internal conflict peaked not in words but in the half-second before the load hit: love for Lyra, love for Cael, hunger to be remembered, hunger to stay himself. All of it crossed. None of it canceled.
-
-Mud at his shins. Timber screaming to his left. The berm holding or not holding along thirty paces of rope and post. He could still walk. He could still let the berm go and keep one room closed somewhere else. The option sat in his chest like a door he knew he would not open.
+Mud at his shins. Timber screaming to his left. The berm holding or not holding along thirty paces of rope and post. He could still walk. He could still let the berm go and keep one room closed somewhere else. He would not.
 
 Riven chose anyway.
 
-Not purity. Not belief. Necessity.
-
-He stopped resisting the bond's full weight and let it move through him into Cael and back, a circuit, a living bridge the pamphlets had lied about and the stone had shown.
+He stopped resisting the bond's full weight and let it move through him into Cael and back.
 
 Cael gasped. Riven gasped. The berm held one more minute, then two.
 
@@ -194,7 +190,7 @@ A boy from the relief desk had followed her anyway with a wet broadside half-pri
 
 The boy looked at Cael like Cael might overrule. Cael shook his head once and went back to counting posts with his fingers in the mud. The boy left offended and useful.
 
-That was not triumph. That was the choice, made before the worst of it arrived, and carried in his body like a nail he could not pull out.
+That was not triumph. That was the choice, made before the worst of it arrived, and carried in his body.
 
 By noon the line held long enough to eat. Bran passed hard bread down the berm and got the count wrong—seven men, five loaves—until Jess shouted from the rope crew and made him split a sixth. Riven ate standing in mud that had dried to paste on his boots. Cael's hunger crossed as a hollow that was not his own and did not go away when he swallowed.
 
@@ -222,7 +218,7 @@ They held one more hour. That was enough math for the day.
 
 Riven walked back to the cooper's loft with mud to his knees and split knuckles Merrow had told him to stitch. Cael climbed the ladder first. The cooper's wife met them at the top with a bucket and no speech—water, not thanks—and left before they could refuse.
 
-Through the crack in the floorboards Riven heard the cooper come in below and count his yard stack aloud. The count stopped wrong. The cooper swore once, softly, like prayer. Riven felt Cael hear it too and did not offer to pay what they could not pay in coin.
+Through the crack in the floorboards Riven heard the cooper come in below and count his yard stack aloud. The count stopped wrong. The cooper swore once, softly. Riven felt Cael hear it too and did not offer to pay what they could not pay in coin.
 
 "Second bell," Cael said.
 

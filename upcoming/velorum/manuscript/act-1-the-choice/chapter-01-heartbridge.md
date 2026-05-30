@@ -6,7 +6,7 @@ The harbor bell rang once before sunrise. Fish carts rattled up from the docks. 
 
 Riven worked wherever the day would pay. Some mornings he hauled crates off fishing boats until his shoulders burned. Other days he swept floors at Mara's inn, scrubbed tables, carried messages, or did whatever job happened to be nearest when somebody shouted his name. If rent was due, he worked longer. If rent was overdue, he slept less.
 
-That morning Mara had sent him to the lower dock with a handcart and a list of names nobody would remember by noon. Two crews short since the fever. The dock boss kept calling for the same crates twice, like repetition might summon the men who'd died. Riven loaded herring until his gloves stank through, stacked the cart until the axle groaned, and wheeled it up the harbor road past a chalk sign for the fiddler at midday in the square. *Heroes. Never forgotten.* Somebody had drawn a dick beneath the second line. Greyhaven kept its priorities straight.
+That morning Mara had sent him to the lower dock with a handcart and a list of names nobody would remember by noon. Two crews short since the fever. The dock boss kept calling for the same crates twice. Riven loaded herring until his gloves stank through, stacked the cart until the axle groaned, and wheeled it up the harbor road past a chalk sign for the fiddler at midday in the square. *Heroes. Never forgotten.* Somebody had drawn a dick beneath the second line. Greyhaven kept its priorities straight.
 
 At the fish quay a boy tried to lift the wrong end of a crate and dropped it. Herring slid across wet planks. The boss swore. Riven swore too, then spent ten minutes sorting the mess because nobody else would and because sorting was still paid if you argued loud enough.
 
@@ -14,7 +14,7 @@ The boss counted the crates wrong twice—once short, once long—and tried to p
 
 A woman from the smokehouse wanted her order moved ahead of the fish. The boss said yes. Riven said no until she showed him the coin. Then he said yes and hated both of them for it. Greyhaven ran on that kind of math.
 
-His back complained before he reached the hill path. It would complain louder tomorrow. Tomorrow had started to feel like a different kind of problem.
+His back complained before he reached the hill path. It would complain louder tomorrow. Tomorrow had started to be a different kind of problem.
 
 By the time he started up the hill above the harbor road, his sleeves smelled like rope tar and herring. The noise of town faded a little with every turn. Down below, wheels knocked over stone. Someone shouted about fresh catch. A dog barked. Somebody else shouted back. Up here there was wind, space, nobody asking him for anything.
 
@@ -34,7 +34,7 @@ The pamphlets made it look clean. The real thing wasn't. Rain had worn away face
 
 He pulled a folded pamphlet from his pocket, the paper already soft at the creases. *Heartbridge. Power flowing. The land choosing.* The usual promises. He stared at the carved knot between the figures' hands. The word belonged to the monument first. The pamphlets had borrowed it for the bond they were always trying to sell: two lives tied together, power passing between them, destiny, purpose, whatever version sounded best this season.
 
-What Riven saw instead was a retaining wall giving way after too much rain, a boot sinking where the ground should have held. The pamphlet never seemed interested in whose ground broke.
+What Riven saw instead was a retaining wall giving way after too much rain, a boot sinking where the ground should have held. The pamphlet never cared whose ground broke.
 
 He rubbed his thumb across the ink until it smudged, then reached toward the stone. His fingers stopped an inch short. The monument held the night's cold.
 
@@ -54,7 +54,7 @@ Riven folded the pamphlet and shoved it back into his pocket. "Didn't have anywh
 
 "I smell like cheap soap and bad tea." Riven scrubbed his palms against his trousers. "Call that morning air if you want."
 
-A gull cried overhead. Another answered from somewhere below the hill. Beside him, Cael read the carving at the base of the monument, slow and careful, like the stone might change if he rushed it.
+A gull cried overhead. Another answered from somewhere below the hill. Beside him, Cael read the carving at the base of the monument, slow and careful, one worn letter at a time.
 
 "You're in a mood."
 
@@ -104,7 +104,7 @@ The foreman finally cut the board short and hammered it anyway. The support held
 
 "I can see it." Cael nodded toward the timber. "They're loading the outside edge. First heavy cart and it'll roll."
 
-One of the crew looked up, saw them watching, and waved—tired, not friendly. Riven waved back because not waving felt like picking a fight with somebody else's job.
+One of the crew looked up, saw them watching, and waved—tired, not friendly. Riven waved back. Not waving picked a fight with somebody else's job.
 
 "They'll fix it wrong," Cael said quietly. "Merrow'll send someone tomorrow. Somebody'll stand in the rain anyway."
 
@@ -238,7 +238,7 @@ Riven frowned. "What does that have to do with anything?"
 
 "The storm." Cael rubbed a thumb across one knuckle. "The planks were going. The river was taking them." He nodded toward the harbor. "The bridge held because somebody stayed."
 
-Riven waited. He knew the story—everybody in Greyhaven knew it—but Cael told it like he'd been there, like the rain was still on his coat. "Merrow brought rope at second bell. Halverin sent men at dawn. By then the planks had stopped moving." Cael's voice stayed level. "Nobody sang about the ones who stood there in the dark."
+Riven waited. He knew the story—everybody in Greyhaven knew it—but Cael told it like he'd been there, rain still on his coat. "Merrow brought rope at second bell. Halverin sent men at dawn. By then the planks had stopped moving." Cael's voice stayed level. "Nobody sang about the ones who stood there in the dark."
 
 "So?"
 
@@ -296,6 +296,6 @@ He thought about the dock list in his pocket, names already forgotten. Thought a
 
 Mara would want the handcart back before dusk. She always wanted things back before dusk. Riven could walk down, return the cart, take the broom, scrub his name onto her board if he changed his mind—and spend tomorrow hauling herring for a boss who counted wrong on purpose.
 
-He didn't want tomorrow to feel like that again.
+He didn't want another tomorrow like that.
 
 The wind kept blowing. For the first time all morning, Riven stopped looking at the monument. He looked at the road instead.

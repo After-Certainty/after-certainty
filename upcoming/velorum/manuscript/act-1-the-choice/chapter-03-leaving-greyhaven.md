@@ -98,7 +98,7 @@ Riven kicked a loose stone off the trail. "I asked first."
 
 Cael let out a breath that fogged in the cold air. "I said I wasn't dragging you."
 
-"And I said I was coming." Riven watched Cael's boots on the trail ahead; they never seemed to slip on loose stone or hesitate. "So don't walk like you're doing this alone."
+"And I said I was coming." Riven watched Cael's boots on the trail ahead; they never slipped on loose stone or hesitated. "So don't walk like you're doing this alone."
 
 Cael slowed just enough that Riven no longer had to lengthen every stride to keep up.
 
@@ -342,6 +342,6 @@ Cael nodded. "Tell me when."
 
 They finished the last of the bread in silence. Later, wrapped in his blanket, Riven watched stars through bare branches—the sky larger without rooftops or masts. Across the fire Cael's breathing settled. Riven listened for a while, then closed his eyes.
 
-Half asleep, he thought he heard the market bell—one stroke, wrong hour. He sat up. Cael didn't stir. The hills were silent. Wrong bell. Wrong hour. Same as the seep arriving after noon. Riven lay back down and listened to Cael breathe until the sound felt like his own and he couldn't decide if that was comfort or warning.
+Half asleep, he thought he heard the market bell—one stroke, wrong hour. He sat up. Cael didn't stir. The hills were silent. Wrong bell. Wrong hour. Same as the seep arriving after noon. Riven lay back down and listened to Cael breathe until he couldn't tell whose breath it was and he couldn't decide if that was comfort or warning.
 
 "Nothing," he muttered. Tomorrow was waiting either way.

@@ -94,20 +94,18 @@ Speech should read **sayable at stress**—what a tired person would actually sp
 
 #### Exemplar chapters (density bar)
 
-**Act I (manual revision complete)** and **Act IV (manual revision complete)** are the **authoritative bar** for Acts II, III, and V. Full map: **[act-1-calibration-standard.md](./act-1-calibration-standard.md)**.
+**Act IV (manual revision complete)** is the **authoritative prose bar** for the whole book. **Act I** was manually calibrated then **expanded** (~3,200 words/ch)—it remains a **craft** reference (consequences shape, ch. 6 four movements) but **needs agent 04** like Acts II–III; do not treat Act I as finished direct-camera prose. Full map: **[act-1-calibration-standard.md](./act-1-calibration-standard.md)**.
 
-| Use | Chapter |
-|-----|---------|
-| Place + ridge dialogue (Act I gold) | `act-1-the-choice/chapter-01-heartbridge.md` |
-| Cael commits / rationalizes | `act-1-the-choice/chapter-02-the-decision.md` |
-| Road dialogue, plain motion | `act-1-the-choice/chapter-03-leaving-greyhaven.md` |
-| Tight camera, lag/wrongness before summit | `act-1-the-choice/chapter-04-ashfen.md` |
-| Ashring onset, bond bleed | `act-1-the-choice/chapter-05-velorum.md` |
-| **Consequences chapter** — boundary violation, four movements | `act-1-the-choice/chapter-06-the-curse.md` |
-| Bond under load, agency (Act IV) | `act-4-the-truth/chapter-25-losing-the-line.md` |
-| Velorum truth without speech (Act IV) | `act-4-the-truth/chapter-26-velorum-again.md` |
+| Use | Chapter | Bar |
+|-----|---------|-----|
+| Bond under load, agency | `act-4-the-truth/chapter-25-losing-the-line.md` | **Prose exemplar** |
+| Velorum truth without speech | `act-4-the-truth/chapter-26-velorum-again.md` | **Prose exemplar** |
+| **Consequences shape** — four movements, bond violation | `act-1-the-choice/chapter-06-the-curse.md` | Craft template (**04** target) |
+| Lag/wrongness before summit | `act-1-the-choice/chapter-04-ashfen.md` | **04** target |
+| Ashring onset (keep personified **bowl**) | `act-1-the-choice/chapter-05-velorum.md` | **04** target |
+| Place + ridge dialogue | `act-1-the-choice/chapter-01-heartbridge.md` | **04** target |
 
-**Acts II–III pipeline chapters** (`chapter-12`, `chapter-14`, `chapter-18`, etc.) are **revision targets**, not exemplars—compare **figurative fog**, **thesis density**, and **bond-proof repetition** against Act I ch. 6, not against their current length (~2,250 words/ch).
+**Acts I–III pipeline chapters** (`chapter-12`, `chapter-14`, `chapter-18`, etc.) are **revision targets**—compare **figurative fog**, **thesis density**, and **bond-proof repetition** against **Act IV ch. 25–26**, not against pre-expansion Act I word counts.
 
 Compare **craft**, not pipeline word count.
 
@@ -141,7 +139,7 @@ Use this for **default narration** (not quoted song, pamphlet, or deliberate per
 - **No narrator-as-oracle:** swap abstract nouns (*peace*, *beauty*, *meaning*, *romance*, *failure*) for **visible facts** (*patched roofs*, *blood left off the pamphlet*, *no name on stone*) unless a **character** says the abstract word in dialogue.  
 - **Interior / memory:** when thought drifts off present action, **mark the cut** with a plain trigger (*he saw the counter instead of the roofs*, *the line blurred*) so the jump reads as **attention shift**, not omniscient slide.  
 - **Monuments and objects:** first establishing shot states **subject of the carving** (how many figures, posture, hands, base) in **camera-flat** wording—avoid figurative merge metaphors in narration (*cut two men into one piece*) unless dialogue performs them.  
-- **Exemplar:** **`velorum/manuscript/act-1-the-choice/chapter-01-heartbridge.md`** after camera + plainness passes—compare new chapters to **literal subjects**, **physical transitions**, and **density of figurative fog** (aim: low in narration, character-appropriate in dialogue).
+- **Exemplar:** **`velorum/manuscript/act-4-the-truth/chapter-25-losing-the-line.md`** and **ch. 26** for narration density; **`chapter-01-heartbridge.md`** for place-first **camera subject** only (Act I still needs **04** on figurative fog post-expansion).
 
 ### Tightening *(Pass F; line-level)*
 
@@ -151,7 +149,7 @@ After sense, agency, and plain dialogue are in place, **tighten** so every line 
 - **Anchor moment and action before sensation stacks** where a cold read would ask *what moved?* first: who did what, then (if still needed) how it landed in the body.  
 - **Cut echo** (same fear, same object) unless the second pass **adds** new information or pressure.  
 - **Do not** trade tight for staccato: when you cut, **re-braid** into the same **paragraph fabric** the voice spec already calls for (see **Paragraph shape**).  
-- **Exemplar (post-polish density):** **`velorum/manuscript/act-1-the-choice/chapter-01-heartbridge.md`** after a full pass A–E and **Pass F**—compare new chapters to its **tightness of observation** and **absence of double-tap description**, not to its exact word count.
+- **Exemplar (post-polish density):** **Act IV ch. 25–26** after manual pass—compare new chapters to **tightness of observation** and **absence of double-tap description**, not to Act I expansion word counts.
 
 **Revision cue:** run after concreteness and place passes when a scene *works* but still **sponges**; see **[chapter-edit-pass.md](./chapter-edit-pass.md)** → **Pass F** and final **Pass G** skim.
 

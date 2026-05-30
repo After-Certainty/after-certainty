@@ -12,15 +12,15 @@ Second bell had just rung wrong once and found its note when the timber gave. Ca
 
 Bran ran past with a rope crew. Children screamed uphill. The bond pulled tight, Riven's adrenaline hitting Cael before his own feet moved. Cael's hands were already reaching for timber before his mind caught up.
 
-They met at the breach gap where mud and timber made a mouth. Cael did not think. He put his hands where load needed hands. Riven matched on the second beat, not Halverin's count, theirs.
+They met at the breach gap where mud and timber choked the cut. Cael did not think. He put his hands where load needed hands. Riven matched on the second beat, not Halverin's count, theirs.
 
 For a minute it held. The laborers fed support posts and rope. Mud sucked at Cael's boots. Cold water slapped his shins. Riven's breath came fast in Cael's chest and steadied when Cael forced his own lungs to slow. The bond did not ricochet. It channeled because they let it.
 
 Cael watched the channel mouth the way he watched a bad joint under weight: looking for the next place it would fail. The timber screamed again and went quiet. For a minute that was enough. Then the pressure behind the failure showed itself.
 
-Not raiders. Not fire. Something wrong in the land's alignment, a tear in the way water and weight agreed. Cael had seen hints on the road, lagged reflections, gravel sliding wrong. Here it opened like a wound.
+Not raiders. Not fire. Something wrong in the land's alignment, a tear in the way water and weight agreed. Cael had seen hints on the road, lagged reflections, gravel sliding wrong. Here the tear opened in the cut.
 
-The air over the channel thickened. Sound arrived late. The water's surface broke in shapes that were not waves. A gull hung in place above the cooper's yard and dropped straight down like a stone someone had let go.
+The air over the channel thickened. Sound arrived late. The water's surface broke in shapes that were not waves. A gull hung in place above the cooper's yard and dropped straight down.
 
 Cael's skin prickled the way it had at Ashring, not magic on the tongue, pressure behind the eyes and in the teeth. Riven felt it too. Cael knew because Riven's hand tightened on the support post at the same instant.
 
@@ -44,7 +44,7 @@ The tear in the channel widened. A section of north street cobble lifted and set
 
 A fish seller tried to save his stall boards and got knocked down in the runoff. Riven saw it through the bond before he saw it with his eyes—Cael's old reflex to run, Riven's to shout. They kept hands on the load instead. Bran pulled the seller clear. The boards went anyway.
 
-Cael saw purpose in it the way he saw grain lines in wood: if the town fell, everything they had paid would mean nothing to the people who had to live here. If they held, the cost would at least land on something real.
+Cael saw what was at stake: if the town fell, everything they had paid would mean nothing to the people who had to live here. If they held, the cost would at least land on something real.
 
 "This is what we chose," he said, not to the crowd, to Riven.
 
@@ -65,8 +65,6 @@ Bran stared at them. "What are you doing?"
 A second break opened uphill near the cooper's yard, Cael's old loft visible in the smoke line. The bond spiked with Riven's fear for the town and Cael's fear for the story and both turned into motion.
 
 They split without splitting, Cael to the yard wall, Riven to the channel mouth, connected by load instead of chalk counts. Cael felt Riven's hands on timber he was not touching. Riven felt Cael's weight on mud he was not standing in.
-
-Interdependence, full, ugly, effective.
 
 Cael drove a support post into the runout at the cooper's yard while the loft wall shivered. Plaster dust fell in his hair. He tasted it in Riven's mouth across the bond. Riven cursed at the channel mouth where water still fought the cut. The curse arrived in Cael's throat before he could stop it.
 
@@ -92,7 +90,7 @@ The owner looked at Cael and Riven like they were the signature he could not get
 
 Merrow was already walking. The owner swore at her back and went to count what was left of his yard stack. Bran muttered something about fish prices and followed Merrow with the head count.
 
-Smoke from the warehouse hung over the lower roofs. Fish stink mixed with wet ash. Someone was already arguing about who would pay for timber replacement. A fish seller tried to reopen his stall in six inches of runoff until Bran shouted him back uphill. Normal town noise. It sounded like mercy.
+Smoke from the warehouse hung over the lower roofs. Fish stink mixed with wet ash. Someone was already arguing about who would pay for timber replacement. A fish seller tried to reopen his stall in six inches of runoff until Bran shouted him back uphill. Normal town noise.
 
 His arms shook when he finally let go of the support post. Riven sat on an upturned crate ten paces away, head in his hands, breathing like he had run the whole town. The bond still pulled tight. It would not relax. Cael had stopped expecting it to.
 
@@ -102,11 +100,9 @@ Merrow's runner found them at the cooper's yard with a folded note from Kestrel 
 
 "Yeah," Riven said.
 
-Cael looked at Greyhaven's roofs, at Heartbridge hill in the distance, at the faces watching them like they were already stone. A woman held a child back from the mud line. An old man made a sign Cael did not know and did not ask about. The town needed them functional, not understood.
+Cael looked at Greyhaven's roofs, at Heartbridge hill in the distance, at the faces watching from the mud line. A woman held a child back from the water. An old man made a sign Cael did not know and did not ask about. The town needed them functional, not understood.
 
-Purpose settled in him, cold and complete. Not Halverin's frame. Not pamphlet theology. Work that would erase them if they did it right.
-
-Cael had wanted meaning on the road to Ashfen. He had it now in splinters and mud and a town that would forget his name if the berm held long enough.
+Work that would erase them if they did it right—that was what he had now, in splinters and mud and a town that would forget his name if the berm held long enough.
 
 "We hold until it stops tearing," Cael said.
 
@@ -136,11 +132,7 @@ At the cooper's yard that afternoon they found the loft wall still standing but 
 
 Merrow's runner caught them at the yard gate with a second note: *Heartbridge if tear moves uphill. No broadsides. No ceremony. Bring rope.* Cael initialed it. Riven did not.
 
-He picked up a support post. Riven picked up the other end. The bond pulled tight, lifeline and leash, and Cael walked back toward the channel because that was what the town needed and what he had become.
-
-To him, this was not surrender. It was the path completing in his hands, splinters and all.
-
-The afternoon sun hit the wet wood wrong. Cael counted support lengths the way he counted board lengths before a load test. The town would hold one more day. Maybe two. That was enough math for now.
+He picked up a support post. Riven picked up the other end. The bond pulled tight, lifeline and leash, and Cael walked back toward the channel because that was what the town needed. Cael counted support lengths the way he counted board lengths before a load test. The town would hold one more day. Maybe two. That was enough math for now.
 
 He thought about Halverin's counts in the square and felt nothing useful. Halverin had wanted performance. This was load. The difference mattered in the hands and nowhere else.
 
@@ -192,4 +184,4 @@ Bran found them at the yard gate with two bowls of fish stew and no spoons. "Eat
 
 He would sleep in the loft tonight if the wall held. He would feel Riven on the floor through the bond whether he wanted to or not.
 
-That was the path. Splinters and all.
+Cael worked.
