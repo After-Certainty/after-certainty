@@ -72,7 +72,7 @@ Riven felt anger spike and Cael's matching frustration braid through the bond un
 
 The figure did not move.
 
-"We left a city that wanted us on a broadside," Riven said. "We left offices and magistrates and every bastard who thought he could name what we are. You sit here like a fence post and we're supposed to—what? Read your silence?"
+"We left a city that wanted us on a broadside," Riven said. "We left offices and magistrates and every bastard who thought he could name us. You sit here like a fence post and we're supposed to—what? Read your silence?"
 
 Cael's hand tightened on his sleeve again. Warning or anchor, Riven could not tell.
 
@@ -122,7 +122,7 @@ Across the camp, Cael sat sharpening the little knife he used for timber work.
 
 "Then why are we following them?"
 
-Cael kept working the blade. "Because standing still hurts more."
+Cael kept working the blade. "Because standing still hurts worse."
 
 By morning they had stopped talking about it. Talking didn't help. Walking didn't help either. Walking was simply what happened next.
 

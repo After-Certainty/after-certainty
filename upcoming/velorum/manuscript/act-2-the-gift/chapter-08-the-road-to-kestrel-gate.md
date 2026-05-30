@@ -68,7 +68,7 @@ When the last cart crossed, an older woman in a patched riding cloak caught Cael
 
 Cael stopped. "Who is?"
 
-"Lord Magistrate Halverin." She looked surprised he didn't know the name. "Keeps the wall garrisons fed. Keeps trade moving." Her eyes moved to Riven, then back. "He knows the old oath stories. Knows what to do with men like you."
+"Lord Magistrate Halverin." She looked surprised he didn't know the name. "Feeds the garrisons. Keeps trade moving." Her eyes moved to Riven, then back. "He knows the oath stories. Knows what to do with men like you."
 
 "He sent riders yesterday."
 

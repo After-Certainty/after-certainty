@@ -78,15 +78,15 @@ Halverin studied him for a moment—not evaluating, confirming. Then he pointed 
 
 Riven groaned immediately. "There it is."
 
-Halverin ignored him. "It's rare, but not unknown." His finger tapped the map once. "Pairs touched by Velorum can stabilize failures other people never notice."
+Halverin ignored him. "It's rare, but not unknown." His finger tapped the map once. "Pairs touched by Velorum can hold what other people miss."
 
 Riven laughed—sharp, humorless. "Stabilize."
 
 "Yes."
 
-"That's a pretty way of saying we lost every private thought we'll ever have."
+"That's a pretty way of saying we lost every private thought."
 
-For the first time, Halverin looked directly at him. No irritation, no defensiveness—just the calm expression of somebody who'd already had this argument with himself. "Privacy," he said carefully, "is often a luxury enjoyed by people whose decisions matter less."
+For the first time, Halverin looked directly at him. No irritation, no defensiveness—just the calm expression of somebody who'd already had this argument with himself. "Privacy," he said carefully, "is a luxury when your choices don't stick to anybody else."
 
 Silence. The aide stopped writing. Halverin didn't look away. Neither did Riven. Nobody moved.
 
@@ -100,7 +100,7 @@ Halverin didn't answer right away. He looked down at the map instead. Outside th
 
 Riven snorted. "Good luck."
 
-"Fear gets ahead of the numbers." Halverin rubbed his thumb along a map edge. "Ahead of orders. Ahead of grain. I need people to see something holding, or they'll tear the wrong thing down trying to save themselves."
+"Fear gets ahead of the numbers." Halverin rubbed his thumb along a map edge. "Ahead of orders. Ahead of grain. People need to see something holding or they'll tear the wrong thing down."
 
 Riven folded his arms. "You mean a show."
 
@@ -146,7 +146,7 @@ Halverin rubbed his eyes. "Fifty. Maybe."
 
 That got quiet. Even Riven stopped talking.
 
-Halverin pointed at the roads feeding the Gate. "People see shortages." His hand moved. "They see missing patrols." Another mark. "They see ration lines." Another. "They see fear." He looked up. "What they don't see is that all of those things become the same problem at once."
+Halverin pointed at the roads feeding the Gate. "People see shortages." His hand moved. "Missing patrols." Another mark. "Ration lines." Another. "Fear." He looked up. "They don't see it's all one problem at once."
 
 Halverin saw the recognition on Cael's face. "Exactly."
 
@@ -156,11 +156,11 @@ REPORT BOND INSTABILITY IMMEDIATELY.
 
 Riven leaned over Cael's shoulder. "Instability according to who?"
 
-"Anyone paying attention." Halverin pulled a thin booklet from the drawer—columns, checkboxes, timestamps in three different hands. "We've filed these before. Old pairs. Bad seasons. Desynchronization. Mood bleed crossing into action. Overlap." He tapped a blank box. "I won't pretend we know what half the headings mean anymore. The last clerk who did is on a patrol route that didn't come back."
+"Anyone paying attention." Halverin pulled a thin booklet from the drawer—columns, checkboxes, timestamps in three different hands. "We've filed these before. Old pairs. Bad seasons. Pairs who fell out of sync. Mood bleed that turned into bad moves." He tapped a blank box. "Half the headings are gibberish now. The last clerk who knew them didn't come back from patrol."
 
 Riven kept his finger on the dark line. "So it's bureaucracy with a legend stapled to it."
 
-"It's a city trying not to repeat a mistake it half remembers." Halverin's voice flattened. "Mark what you see. Merrow decides what to do with it."
+"It's a city afraid of repeating a mistake it only half remembers." Halverin's voice flattened. "Mark what you see. Merrow decides what to do with it."
 
 "Helpful," Riven said, but he didn't push further. Halverin looked too tired to win an argument he probably agreed with.
 

@@ -94,7 +94,7 @@ Cael leaned back against the monument. "You think hearing your name after you're
 
 Riven opened his mouth, stopped. The honest answer annoyed him. "Maybe."
 
-Cael looked out across the roofs, wind pushing at his coat. "If people remember you, they'll probably remember the wrong things anyway."
+Cael looked out across the roofs, wind pushing at his coat. "People'll remember the wrong things anyway."
 
 "That's comforting."
 
@@ -172,7 +172,7 @@ Cael looked back at the town, the roofs, the harbor, the roads winding north int
 
 Riven frowned. "What does that have to do with anything?"
 
-"The storm." Cael rubbed a thumb across one knuckle. "The planks wanted to go. The river wanted them gone." He nodded toward the harbor. "The bridge held because somebody stayed."
+"The storm." Cael rubbed a thumb across one knuckle. "The planks were going. The river was taking them." He nodded toward the harbor. "The bridge held because somebody stayed."
 
 Riven waited. "So?"
 
@@ -196,7 +196,7 @@ The fiddle drifted faintly up from the square. A cheer followed, then another. R
 
 "And if we get there?"
 
-Cael looked back at the monument, then at the pamphlet in Riven's hand, then toward the distant hills. "We find out whether it's all carved rock and market talk."
+Cael looked back at the monument, then at the pamphlet in Riven's hand, then toward the distant hills. "We find out if it's carved rock and market talk."
 
 The answer should have sounded ridiculous. Part of it did. The other part refused to leave him alone. Below them, the song carried across the rooftops, bright and clean and heroic, everything the real story probably wasn't.
 

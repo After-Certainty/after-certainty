@@ -46,7 +46,7 @@ Lyra nodded. She had predicted that. She had also predicted they would survive a
 
 "All the time?"
 
-"All the time," Cael said. "Different places. Same load."
+"All the time," Cael said. "Different spots. Same load."
 
 Lyra looked at the statue visible above roofs, smooth faces, rope clean as theology.
 
@@ -56,7 +56,7 @@ Lyra looked at the statue visible above roofs, smooth faces, rope clean as theol
 
 "Velorum holds," Cael said, flat.
 
-"Velorum holds," Lyra agreed. "You don't, not fully. Not separately."
+"Velorum holds," Lyra agreed. "You don't. Not fully. Not separate."
 
 Riven flinched. Cael did too, echoed.
 
@@ -72,13 +72,13 @@ Cael's mouth tightened. "Are we?"
 
 Lyra considered. A child ran past chasing a dog. A pilgrim dropped a coin. The bond between the two men pulled invisible, tide under skin.
 
-"You're still distinct," she said. "You're not still private."
+"You're still two people," she said. "You're not private anymore."
 
 Riven closed his eyes. "Fair."
 
 "I'm sorry," he said.
 
-"Don't," Lyra said, same word he had used when she left. "Don't make it about sorry. You paid. The town paid less because you paid more. Remember that when the songs get loud."
+"Don't," Lyra said, same word he had used when she left. "Don't make it about sorry. You paid. The town paid less because you did. Remember that when the songs get loud."
 
 "We will," Cael said, though Lyra heard the doubt.
 

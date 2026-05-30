@@ -22,7 +22,7 @@ Riven looked at the hill monument, two men carved with a rope between them, hero
 
 "Lyra—"
 
-"Is gone. Not dead. Gone." Cael's jaw tightened. "I feel you miss her. I feel you hate that I feel it. I can't give you a room."
+"Is gone. Not dead. Gone." Cael's jaw tightened. "I feel you miss her. I feel you hate that I feel it. There's no room."
 
 Riven nodded once. "I know."
 
@@ -90,7 +90,7 @@ Cael leaned against the monument base. "We didn't become stone."
 
 "No," Riven said. "We became the thing that holds."
 
-"Same story. Different packaging."
+"Same story. Different ink."
 
 Riven laughed once, broken, and felt Cael laugh in his chest without permission.
 

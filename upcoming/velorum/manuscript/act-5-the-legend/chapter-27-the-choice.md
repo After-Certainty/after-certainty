@@ -46,11 +46,11 @@ Cael was quiet long enough that Riven felt the silence as its own crossing.
 
 "Hold how."
 
-"Together. Full load. No pretending we can partition pain."
+"Together. Full load. No pretending we can split the pain."
 
 Riven turned on his side. "That's surrender."
 
-"That's what we've been doing in pieces since Ashfen," Cael said. "The square was a piece. The road was a piece. Velorum just named the whole."
+"That's what we've been doing in pieces since Ashfen," Cael said. "The square was a piece. The road was a piece. Velorum just named the whole thing."
 
 Riven remembered Lyra's voice: *loss, not refinement.* He remembered Halverin's counts. He remembered the woodcut at Heartbridge, two men, one rope, heroes curse never forgotten.
 
@@ -62,7 +62,7 @@ Riven remembered Lyra's voice: *loss, not refinement.* He remembered Halverin's 
 
 The bond carried the word before Riven could take it back. Cael's breath caught.
 
-"Love doesn't stay private," Cael said. "Neither does legacy. Neither does self. You want one without losing the others. You can't."
+"Love doesn't stay private," Cael said. "Nothing else does either. You want one without losing the others. You can't."
 
 Riven closed his eyes. "If I choose the load, I lose the room."
 
@@ -74,7 +74,7 @@ Riven closed his eyes. "If I choose the load, I lose the room."
 
 "Then it's not a choice. It's a fucking trap."
 
-"It's a choice," Cael said. "Because you can still walk away and let the berm go."
+"It's a choice," Cael said. "You can still walk away and let the berm go."
 
 Riven heard the lie in the option. He would not walk. He had never been able to watch a bridge fail and stand aside.
 

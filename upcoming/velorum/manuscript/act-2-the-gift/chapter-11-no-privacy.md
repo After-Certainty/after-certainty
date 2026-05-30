@@ -22,7 +22,7 @@ Cael pulled himself through the hatch, hair damp from the mist, shirt half-butto
 
 Not a question. Riven barked out a laugh. "You see the problem."
 
-Cael folded his arms against the wind. "You act like we can separate what's already crossing both ways."
+Cael folded his arms against the wind. "You act like we can untangle what's already crossing both ways."
 
 "No." Riven stood. "The problem is I can't have one goddamn thought without it becoming committee business."
 

@@ -100,7 +100,7 @@ The Seeker spoke. The voice sounded rough, as though it hadn't been used in a lo
 
 "Walk back or walk forward."
 
-Riven looked up. "The god does not bargain."
+Riven looked up. "Gods don't bargain."
 
 Wind moved through the bowl. For a moment nobody spoke. Then:
 
@@ -108,7 +108,7 @@ Wind moved through the bowl. For a moment nobody spoke. Then:
 
 The Seeker studied him. "Back to the story you tell strangers."
 
-The staff shifted against the stone. "Forward to the story strangers tell about you."
+The staff shifted against the stone. "Forward to the story they tell about you."
 
 Riven swore under his breath. The bond carried grief. And something worse. Recognition. Cael felt it too.
 

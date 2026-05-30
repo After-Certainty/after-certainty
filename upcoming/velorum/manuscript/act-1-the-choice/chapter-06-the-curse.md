@@ -28,7 +28,7 @@ His hands were shaking. He clenched them into fists. It didn't help. Riven's fea
 
 Cael swallowed hard. "Okay." The word sounded thin. "Breathe."
 
-"I am breathing."
+"I'm breathing."
 
 The irritation arrived before the words did. Cael felt that too.
 
@@ -206,7 +206,7 @@ The anger hit first. Then fear. Then something worse—disappointment, like Rive
 
 "You already sound like you're explaining it."
 
-"I'm trying to understand it."
+"I'm trying to get it."
 
 They walked. Cael tried not to think. That lasted about three seconds.
 

@@ -40,7 +40,7 @@ By evening they stopped in a windbreak between two ridges. No fire. No conversat
 
 The Seeker stared into the dark. No answer.
 
-Riven rolled onto his back. "You're still asking for sentences."
+Riven rolled onto his back. "Still asking for sentences."
 
 Cael looked out toward the hills. Maybe he was still asking for sentences. He didn't like any of the ones he had.
 

@@ -110,7 +110,7 @@ Cael hated that he knew exactly what Halverin meant—the half-second where sham
 
 Riven stared at him. "Then what the fuck are you saying?"
 
-Halverin was quiet for a moment—long enough that the room settled around them, long enough that somebody shifted a slate on the table, long enough for Cael to wish he wouldn't answer. Then: "I'm saying you noticed the mistakes." His eyes stayed on Cael. "Most people don't."
+Halverin was quiet for a moment—long enough that the room settled around them, long enough that somebody shifted a slate on the table, long enough for Cael to wish he wouldn't answer. Then: "You noticed the mistakes." His eyes stayed on Cael. "Most people don't."
 
 Nobody moved. Cael could still see the dockworker, still see blood on the stairs, still feel the moment where everything had slipped sideways. Halverin nodded once, like he'd watched the same memory pass across Cael's face. "You're close to something."
 

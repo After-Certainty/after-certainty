@@ -26,13 +26,13 @@ Halverin looked up. For a second Cael saw the man beneath the office: tired, fri
 
 "You told us resistance caused the stairs," Cael said. "You told us discipline would hold in public. You stood there and called counts while the bond tore through us."
 
-"I did not understand the variance," Halverin said. "I have texts. I have precedent pairs. I have—"
+"I didn't understand the variance," Halverin said. "I have texts. I have old pairs. I have—"
 
 "You have a story," Cael said. "You don't have our bodies."
 
-Halverin's jaw tightened. "If you walk away from structure now, the city fractures faster."
+Halverin's jaw tightened. "If you walk away from structure now, the city breaks faster."
 
-"The city already fractured," Cael said. "We were standing in it."
+"The city already broke," Cael said. "We were standing in it."
 
 Below them Merrow directed medics and labor crews. A wagon rolled west with two injured from the crush, neither of them Riven or Cael. That was luck, not design. Riven sat on the west lane wagon tail with Lyra's hand on his wrist and his head bent. Through the bond Cael felt Riven's nausea and his own, braided so tight he could not tell which throat wanted to vomit.
 
