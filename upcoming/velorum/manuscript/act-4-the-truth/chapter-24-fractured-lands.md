@@ -290,7 +290,7 @@ They kept walking. The ring grew. Pale stone. Seams visible even from a distance
 
 Riven's heel burned where the cloth had rubbed through. Cael's knee ached from a stumble that hadn't happened to him yet today. Time out here stacked wrong.
 
-By evening they were close enough to see dust in the grooves. Close enough to feel pressure before they stepped into the bowl. Cael remembered Ashfen. Smaller. Colder water. This was the same weight with years added.
+By evening they were close enough to see dust in the grooves. Close enough to feel pressure before they stepped into the Ashring. Cael remembered Ashfen. Smaller. Colder water. This was the same weight with years added.
 
 "We camp here," Riven said. It wasn't a question.
 
@@ -300,7 +300,7 @@ The Seeker kept walking toward the ring.
 
 They followed. Because following was what they did now. Because the ring was tomorrow. Because turning back had failed days ago.
 
-Riven sat on a flat stone outside the bowl's lip and rewrapped his heel. Blood had dried black in the cloth. Cael sat beside him without touching. Close enough that the bond quieted a fraction. Not peace. Truce.
+Riven sat on a flat stone outside the Ashring's rim and rewrapped his heel. Blood had dried black in the cloth. Cael sat beside him without touching. Close enough that the bond quieted a fraction. Not peace. Truce.
 
 "Tomorrow we find out," Riven said.
 

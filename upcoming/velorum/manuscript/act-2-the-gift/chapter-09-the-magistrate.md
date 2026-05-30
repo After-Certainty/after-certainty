@@ -40,7 +40,7 @@ The guard looked exhausted. The baker looked exhausted. Nobody looked surprised.
 
 By the time they reached the council building, he understood the feeling he'd been carrying since the gate. Nothing had failed yet. Everything looked one bad day away from failing.
 
-Inside, a runner nearly collided with them on the stairs and apologized without slowing down. The council room sat on the second floor. Maps covered one wall, windows the other. Candles burned despite the daylight—not for light, for people working too late.
+Inside, a runner nearly collided with them on the stairs and apologized without slowing down. The council room sat on the second floor. Maps covered one wall from floor to lintel; the other wall was all window, yard and ration lines visible below. Candles burned on the table despite the daylight—not for seeing, for clerks who had worked through the night. Cael counted three braziers in the corners, a weapons rack casting a long shape over the door, chalk dust on the floor where aides had paced.
 
 On the landing a clerk argued with a baker over missing flour counts. "The slate says twelve sacks."
 
@@ -128,7 +128,7 @@ Riven folded his arms. "You mean a show."
 
 Halverin shook his head. "A show ends when people go home. This is the part where they still have to show up tomorrow scared." He exhaled. "I hate that part too."
 
-For a second nobody spoke. Then Halverin crossed to a side table and opened an old woodcut—two figures back to back in stylized flame, edges worn soft from handling.
+For a second nobody spoke. Then Halverin crossed to a side table beneath the map wall and opened an old woodcut—two figures back to back in stylized flame, edges worn soft from handling, cord tied fresh around both carved wrists.
 
 "Legends last because they teach behavior," he said. "People follow what they think will hold."
 
@@ -228,7 +228,7 @@ The cobbler nodded like that was enough and went back to work. Hammer on leather
 
 Riven watched the hammer and said nothing. Cael felt the sourness through the bond anyway.
 
-Merrow's office sat off the inner yard—maps on one wall, weapons on the other, a brazier smoking in the corner. Captain Merrow stayed on her feet, chalk in hand, and circled three spots without preamble: market quarter, riverside entrance, east barracks. "Tonight they're yours."
+Merrow's office sat off the inner yard—maps on one wall, weapons on the other, a brazier smoking in the corner. Chalk circles marked three spots on the floor where she'd paced the same route twice. Captain Merrow stayed on her feet, chalk in hand, and circled market quarter, riverside entrance, east barracks on the map without preamble. "Tonight they're yours."
 
 A runner burst in with a slate—*east shelters, ration riot, send pair.* Merrow read it and shook her head. "Not yet. Riverside first."
 
@@ -256,15 +256,15 @@ Riven stopped walking. "Jesus Christ."
 
 Cael kept moving. That was the problem. A week ago he would've argued. Now he sounded like Halverin. Maybe Halverin sounded like him. Riven couldn't decide which possibility he hated more.
 
-Their first watch started at the riverside entrance. Stone steps dropped toward the water below the gate, slick with damp and worn smooth by years of boots. Every evening the grain ration line formed there—people waiting on the steps because there was nowhere else to stand. The river moved black beneath them, catching torchlight in broken pieces. Every sound carried farther than it should have.
+Their first watch started at the riverside entrance. Stone steps dropped toward the water below the gate, slick with damp and worn smooth by years of boots. Every evening the grain ration line formed there—people waiting on the steps because there was nowhere else to stand. The river moved black beneath them, churning against the pilings. Every sound carried farther than it should have.
 
-Before Cael took the lantern, Merrow's runner passed a slate—*gate patch, grain line at riverside entrance, file by dawn.* Riven initialed it. Cael initialed it. The runner left without saluting.
+Before Cael marked the patch, Merrow's runner passed a slate—*gate patch, grain line at riverside entrance, file by dawn.* Riven initialed it. Cael initialed it. The runner left without saluting.
 
 A medic wagon from Lyra's lane passed twice—empty cots, blank slates, bandage rolls stacked neat. Cael initialed Merrow's runner slate and kept walking the gate line.
 
 The guards looked young—too young. One held his spear so tightly his knuckles had gone white. Another kept checking the river like somebody might climb out of it.
 
-Cael took the lantern and started walking the gate line—hinges, bolts, and the patch, the same way he'd inspect a roof before a storm. Rust flaked beneath his fingers. Somebody had patched one support with fresh timber that still hadn't dried—temporary, desperate, bad. He marked it for Merrow.
+Cael started walking the gate line with chalk in his hand—hinges, bolts, and the patch, the same way he'd inspect a roof before a storm. Rust flaked beneath his fingers. Somebody had patched one support with fresh timber that still hadn't dried—temporary, desperate, bad. He marked it for Merrow.
 
 A fish seller at the stairs asked whether the pair could really feel trouble before it landed. Cael said sometimes. The seller nodded and went back to stacking crates without another word. Riven felt Cael's irritation at the question and his own answer it before Cael could stop either.
 
@@ -300,7 +300,7 @@ The boy ran. The woman slammed the door. Riven wiped chalk dust off his fingers 
 
 At first light a ration riot started at the east shelters—shouting, shoving, no blades yet. Merrow sent a runner past the riverside entrance: *hold line, don't engage.* Cael initialed the slate. Riven marked the grain line backup twice because the grain line had doubled while they watched. Merrow would read that as two problems. It was one bad hour spreading sideways.
 
-Near dawn they reported to Merrow. Gray light leaked through the narrow window. The brazier had burned down to dull red coals. Merrow read the slate without speaking—once, twice—then circled three locations. The chalk squealed.
+Near dawn they reported to Merrow. Cold air leaked through the narrow window. The brazier had burned down to dull red coals. Merrow read the slate without speaking—once, twice—then circled three locations. The chalk squealed.
 
 She pulled a second slate from the stack—bond report forms Halverin had sent over with half the headings wrong. "File mood bleed if you see it. File sync delay if you feel it." She capped the chalk. "File what happened at the riverside entrance. Not what he wants to hear."
 

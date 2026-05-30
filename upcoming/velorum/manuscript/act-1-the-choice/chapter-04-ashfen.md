@@ -370,7 +370,7 @@ Cael swallowed. His mouth tasted like metal again. "I don't know." That answer w
 
 The ridge flattened. One more rise. Then they were standing at the edge.
 
-Below the pale bowl, the trail they'd climbed looked impossible—switchbacks like scratches, the dead mule a dark smudge, the seep a thread of grey. Cael had brought them up wrong twice and still gotten them here. Riven didn't know whether to be impressed or furious.
+Below the Ashring, the trail they'd climbed looked impossible—switchbacks like scratches, the dead mule a dark smudge, the seep a thread of grey. Cael had brought them up wrong twice and still gotten them here. Riven didn't know whether to be impressed or furious.
 
 Riven stopped. "Christ."
 
@@ -380,7 +380,7 @@ For a second neither moved.
 
 Then Cael stepped onto the outer ring. Heat climbed through the soles of his boots before his weight fully landed, as if the stone had been waiting.
 
-The rings underfoot weren't flat—they dipped toward the center, subtle enough that you wouldn't see it until your ankles noticed. Riven felt the pull before he understood it. Like standing on the lip of a bowl that wanted you inside.
+The rings underfoot weren't flat—they dipped toward the center, subtle enough that you wouldn't see it until your ankles noticed. Riven felt the pull before he understood it. Like standing on the lip of the Ashring, the stone wanting you deeper.
 
 "Cael." Riven's voice sounded distant.
 
@@ -400,7 +400,7 @@ Cael met his eyes. "I know."
 
 Together they stepped forward. Pressure settled beneath Cael's ribs before the second boot came down. His breath shortened. Metal flooded the back of his tongue.
 
-The second ring. The third. Cael counted without meaning to. Riven's count ran beside his—not matching, not wrong, just there. Heat climbed through their boots. The bowl's center stayed empty. That was worse than a face.
+The second ring. The third. Cael counted without meaning to. Riven's count ran beside his—not matching, not wrong, just there. Heat climbed through their boots. The center stayed empty. That was worse than a face.
 
 On the fourth ring Riven's knee buckled. Cael caught weight that wasn't his. They didn't fall. Falling would have meant letting go.
 

@@ -4,9 +4,9 @@ The stone under Riven's boots was warm.
 
 Not from the sun. The sun hadn't shown itself all day. This warmth came up through the soles of his boots and settled in his legs until they felt loose beneath him.
 
-The bowl spread wide around them, ring after ring cut into pale stone, grey sky overhead, no shadows, no movement. Behind him, the rim hid the trail they'd climbed. Ahead, the rings narrowed toward a pale center that looked no different from the rest of the rock.
+The Ashring spread wide around them—concentric rings cut into pale stone, each step down a hand-span lower than the last, counting inward toward a flat center. Grey sky overhead, no shadows, no movement. The outer rim rose in the foreground behind him, knee-high grey scree piled along its lip, hiding the switchbacks they'd climbed. Ahead the rings stepped down toward a center that looked no different from the rest of the rock until you tried to count them.
 
-Riven tried to count the rings. Lost track at seven. Started again. The numbers wouldn't stay in order.
+Riven tried to count the rings. Lost track at seven. Started again. The numbers wouldn't stay in order. Cael stood on the next ring in, one step lower, still holding his wrist.
 
 Cael still hadn't let go of his wrist.
 
@@ -44,7 +44,7 @@ Something tightened beneath Riven's ribs. His skin prickled. The warm stone seem
 
 Riven tried to step back. His foot lifted. Stopped. The warmth in the stone climbed higher, past his ankles, into his knees.
 
-The clouds overhead shifted, not drifted, shifted, one moment there, the next somewhere else. His stomach dropped. His heart stumbled. For a second he couldn't tell whether the extra beat came from his chest or Cael's.
+The clouds overhead shifted—not drift, a jump. The ring he was standing on seemed to drop half a hand-span under his boots. His stomach dropped. His heart stumbled. For a second he couldn't tell whether the extra beat came from his chest or Cael's.
 
 "Tell me you saw that."
 
@@ -66,11 +66,11 @@ Riven sucked in a breath. The air barely seemed to reach his lungs. "Did you fee
 
 "Yeah." The answer came immediately. "What was it?"
 
-For the first time since they entered the bowl, Cael looked away from the center. Looked directly at him. Fear sat plain on his face, not panic, not confusion, fear. "I don't know." He didn't sound uncertain. "But it's real."
+For the first time since they entered the Ashring, Cael looked away from the center. Looked directly at him. Fear sat plain on his face, not panic, not confusion, fear. "I don't know." He didn't sound uncertain. "But it's real."
 
 It kept building. Neither of them let go.
 
-They had crossed deeper without deciding to—past the outer rings, past the place where Riven's knee had buckled on the climb in. The warmth climbed with each step—not comfort, wrongness wearing a friendly face. His boot scuffed the stone and the sound arrived late, like the bowl was listening from behind a door.
+They had crossed deeper without deciding to—past the outer rings, past the place where Riven's knee had buckled on the climb in. From here the rim sat above his shoulder line, a grey wall cutting off the trail. The inner rings spread below like steps on a giant's stair. The warmth climbed with each step—not comfort, wrongness wearing a friendly face. His boot scuffed the stone and the sound arrived late, like the bowl was listening from behind a door.
 
 Cael's stride hitched. Riven felt the hitch in his own knee before he saw it. Neither fell. Falling would have meant letting go.
 
@@ -100,9 +100,9 @@ A laugh escaped him, or maybe a choke, hard to tell.
 
 Riven tried to roll his eyes. The effort felt enormous.
 
-The center of the bowl remained empty. That bothered him more than if something had been standing there. His mind kept trying to force a shape into the space, a face, a body, anything. Nothing stayed.
+The center remained empty. That bothered him more than if something had been standing there. His mind kept trying to force a shape into the space, a face, a body, anything. Nothing stayed.
 
-Once he thought he saw Mara's kitchen—the strip of light under the door, coins clicking—and the image dissolved before he could blink. Wrong place. Wrong moment. Memory arriving uninvited.
+Once he thought he saw Mara's kitchen—the hinge tapping, coins clicking—and the image dissolved before he could blink. Wrong place. Wrong moment. Memory arriving uninvited.
 
 Velorum. The name kept surfacing anyway, like it had been waiting for him to stop fighting it.
 
@@ -156,7 +156,7 @@ Riven wanted to spit the taste of metal out of his mouth. Couldn't. His tongue f
 
 "I know."
 
-The air seemed to lean closer. Riven felt the hairs rise along his arms. Cael lifted his free hand toward the center of the bowl, not dramatic, not brave, just stubborn, the same look he got before testing a bridge everyone else thought would collapse. "We hold."
+The air seemed to lean closer. Riven felt the hairs rise along his arms. Cael lifted his free hand toward the center, not dramatic, not brave, just stubborn, the same look he got before testing a bridge everyone else thought would collapse. "We hold."
 
 The words landed strangely. Riven felt them settle inside his own chest, not agreement, not obedience, recognition.
 
@@ -194,7 +194,7 @@ Cael's head snapped around. Riven froze. They stared at each other.
 
 "What was that?"
 
-Neither of them moved. Neither let go. The bowl's weight vanished from Riven's attention. Something more frightening had replaced it.
+Neither of them moved. Neither let go. The pressure's weight vanished from Riven's attention. Something more frightening had replaced it.
 
 Riven tried to think of something private—the loft rafters, the yard hinge, the coin count at Mara's table—and felt Cael brush against each image like a hand through smoke. Not taking. Not yet. Just touching.
 
@@ -274,7 +274,7 @@ Riven tried to list what they'd need when they stepped off—water, bread, rope,
 
 "We're already stupid."
 
-"Then we check twice." Cael's voice stayed rough. "Once with hands. Once with eyes. No trusting the bowl to keep count."
+"Then we check twice." Cael's voice stayed rough. "Once with hands. Once with eyes. No trusting the stone to keep count."
 
 Riven swallowed. "Mara would charge extra for the lecture."
 
@@ -298,7 +298,7 @@ Riven laughed once, short and hopeless. "Say what?"
 
 "The truth."
 
-Riven wanted to lie, wanted to say he'd been dragged here, wanted to say this was Cael's fault, wanted to say he'd been trying to leave since they stepped into the bowl. His mouth wouldn't do it. Not here. Not now.
+Riven wanted to lie, wanted to say he'd been dragged here, wanted to say this was Cael's fault, wanted to say he'd been trying to leave since they stepped into the Ashring. His mouth wouldn't do it. Not here. Not now.
 
 He thought about turning around one more time. Gate. Board. Handcart. List called twice. Small failures he understood.
 
@@ -318,7 +318,7 @@ Riven's mouth tasted like copper and old rain. He wanted to spit. Couldn't.
 
 The words came out raw. "I'm in." He closed his eyes, opened them again. "Fuck." A breath. Then: "I'm in."
 
-For a heartbeat nothing changed. Then the stone beneath them hummed, low and deep, more felt than heard. The presence pressed closer—not approval, not welcome. Acknowledgment. Like Mara marking a name on the board: *present*.
+For a heartbeat nothing changed—the same empty center, the same grey stone, Cael's grip on his wrist. Then the stone beneath them hummed, low and deep, more felt than heard. The presence pressed closer—not approval, not welcome. Acknowledgment. Like Mara marking a name on the board: *present*.
 
 Riven had the sudden terrible feeling that there was nowhere left to hide, not a thought, not a memory, not a fear. Everything felt exposed. Seen.
 
@@ -368,13 +368,13 @@ Riven swallowed copper. "Mara's going to kill us."
 
 Riven laughed once despite everything. The sound stayed small. The bowl swallowed the edges of it but not the center.
 
-They moved toward the rim without deciding to—pressure easing a fraction with each ring outward, warmth thinning, breath returning in uneven pieces. Riven's boot found the trail edge. Cael's found it a heartbeat later. Same stone. Wrong timing.
+They moved toward the rim without deciding to—pressure easing a fraction with each ring outward, warmth thinning, breath returning in uneven pieces. The outer rim rose ahead of them, scree and pale stone blocking the sky. Riven's boot found the trail edge where the rings ended. Cael's found it a heartbeat later. Same stone. Wrong timing.
 
-The packs sat where they'd left them. Riven's left strap still twisted wrong. Cael's water skin still lighter than it should've been. Ordinary mistakes waiting like they'd never left.
+The packs sat where they'd left them, just beyond the rim lip. Riven's left strap still twisted wrong. Cael's water skin still lighter than it should've been. Ordinary mistakes waiting like they'd never left.
 
 Neither reached yet. Reaching felt like signing something twice.
 
-Riven looked back once at the bowl's empty center. "Still nothing."
+Riven looked back once at the empty center. "Still nothing."
 
 "Still there," Cael said.
 

@@ -1,6 +1,8 @@
 # Chapter 10 - Lyra
 
-The infirmary sat against the inner wall near the east barracks—a long room, stone floor, open shutters. Cots lined both walls, close enough that people could reach across the gap between them. The place smelled like boiled cloth, pine resin, blood, and the particular kind of fear people carried when they were trying not to show it.
+The infirmary sat against the inner wall near the east barracks—a long room, stone floor, open shutters on the south wall. Cots lined both walls, close enough that people could reach across the gap between them. The prep table sat mid-room with jars ranked along the west wall; the blood bucket waited under the table leg where nobody would kick it. Beyond the shutters the yard kept moving—runners cutting between barracks blocks, a cart wheel squealing on cobble, spears vertical at the gate lane.
+
+The place smelled like boiled cloth, pine resin, blood, and the particular kind of fear people carried when they were trying not to show it.
 
 Merrow's runner had passed the yard that morning with a slate—*infirmary counts by bed, not pair-type*—and Lyra had sent him back with the same message before Riven arrived.
 
@@ -154,7 +156,7 @@ She wiped her hands on a rag, thinking. "I've seen good pairs. Volunteers. Same 
 
 Riven frowned. "No?"
 
-"No." A beat. "It's a boundary problem people turned into a legend."
+"No." A beat. She set the needle roll between them on the prep table—thread, strip knife, charcoal for slates—and kept her eyes on his bandaged knuckles. Through the open door Cael's counting scraped in the corridor, boot on stone, pause, boot again. "It's a boundary problem people turned into a legend."
 
 The words stuck. Ordinary, not dramatic, not cruel. Riven wasn't sure they were the whole truth—but he couldn't call them wrong either.
 

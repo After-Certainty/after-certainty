@@ -10,7 +10,7 @@ Cael had read the crowd rules from the steps ten minutes before first bell. His 
 
 Paste crews had worked through the night. Broadsides on three walls. Banners from balconies. A cloth with the woodcut pair stitched uneven but earnest. *STEADINESS RETURNS.* *PROOF OF BURDEN.* Their names in bold where everyone could read them before their eyes could disagree.
 
-He stood on the east staging mark with his boots set on chalk and his hands loose at his sides because Halverin had told him clenched fists read as fear. The crowd filled every rope line and spilled into the side streets. Faces turned up. Banners hung from the magistrate wall with the woodcut pair and their names underneath. Someone had stitched the same image onto a cloth and hung it from a balcony, the thread work uneven but earnest.
+He stood on the east staging mark with his boots set on chalk and his hands loose at his sides because Halverin had told him clenched fists read as fear. The crowd filled every rope line and spilled into the side streets. Faces turned up.
 
 Halverin had already spoken the civic preamble while Cael and Riven took their marks: rules, sightlines, mercy for the frightened if they stayed behind the rope. Now he raised the speaking horn again. His voice carried clean across stone.
 
@@ -44,15 +44,7 @@ Halverin counted breath. "In on my voice. Out on my voice. You do not carry alon
 
 Cael breathed. Riven breathed half a beat behind, then caught up. The lag scraped through the bond. Cael filed it. Adjusted. Tried not to hate Riven for the lag or himself for noticing.
 
-"Again," Halverin said. "Tighter."
-
-They ran the sequence: step, set, turn, hold. Cael counted in his head without moving his lips. One. Two. Hold. Turn. The chalk scuffed under his boots. Riven's weight moved with him on the turn, late by a finger width, then true. The crowd made a low sound of approval that shoved through the bond.
-
-Halverin called breath again. "In. Out. You do not carry alone."
-
-Cael breathed on the in. Riven on the out. For four cycles they matched. On the fifth a dog barked at the south rope and Riven's attention snagged. The lag returned. Cael swallowed irritation and adjusted. Halverin did not stop the run. He let the imperfection show and called it correction.
-
-"See," Halverin told the crowd. "Even a slip can be folded back into line."
+Halverin let the imperfection show and called it correction. "See," he told the crowd. "Even a slip can be folded back into line."
 
 A woman in the third row shouted back, "Fold my son's ankle back, then." Her boy sat on the curb with a wrap already on his foot from yesterday's rehearsal stamp. Merrow's medic had seen to him at dusk. The mother had brought him anyway because hope was cheaper than firewood.
 
@@ -62,7 +54,7 @@ Halverin raised the horn before the crowd could answer the mother. "Again. Tight
 
 They ran the footwork sequence without the frame: step, set, turn, hold. Cael counted in his head. Chalk scuffed under his boots. On the turn Riven's heel caught a smear of blue chalk from yesterday's run and slid half an inch. Cael compensated and felt the bond pull like a rope taking strain.
 
-At the margin a guard's shield caught lantern light and threw it into Cael's eyes. He blinked and missed a half-beat. Halverin stopped the run.
+At the margin a guard's shield rim flashed wet paste from a broadside and threw it into Cael's eyes. He blinked and missed a half-beat. Halverin stopped the run.
 
 "Eyes on me," Halverin said. "Not on the crowd. Not on each other. On me."
 
@@ -70,7 +62,7 @@ Riven muttered, "Eyes on the load."
 
 Halverin heard enough to frown. "Again."
 
-They ran the sequence again: step, set, turn, hold. Cael focused on the chalk marks and the counts and the feel of Riven's weight moving when it should. Not trust. Mechanics. On the west berm mud had taught them the same lesson: fight the load and you lose. Move with it and you might live.
+They ran the sequence again. Cael focused on the chalk marks and the counts and the feel of Riven's weight moving when it should. Not trust. Mechanics. On the west berm mud had taught them the same lesson: fight the load and you lose. Move with it and you might live.
 
 Between sequences a magistrate aide passed out folded programs with the day's counts printed inside. Riven tore his in half without reading. Cael kept his because throwing it would be a story.
 
@@ -150,7 +142,7 @@ Riven looked at him. Cael saw the refusal in Riven's face before he heard it in 
 
 Halverin raised the horn again. "Again. From the top. You're not leaving this square until you hold."
 
-The bond strained, not broken yet, but close. The air over the fountain basin looked wrong, a faint lag between motion and shadow. He had seen distortion in Ashfen. This was different. This was a packed square with nowhere for fear to go.
+The bond strained, not broken yet, but close. The air over the fountain basin looked wrong, a faint lag between motion and sound. He had seen distortion in Ashfen. This was different. This was a packed square with nowhere for fear to go.
 
 He looked at the chalk marks. He looked at Merrow's open wagon. He looked at Halverin's face and saw the first crack in the magistrate's certainty, quickly plastered over with volume.
 
@@ -190,11 +182,9 @@ Then a drunk man in the east street shouted that the raiders were back. Two peop
 
 Then someone in the north rope screamed about a collapsing awning two streets over, real or rumor, and the crowd surged. Guards shouted. A child went down in the press.
 
-Cael saw the awning—or didn't. A strip of canvas tore free three streets north and caught light like a flag. Whether it was falling or flapping didn't matter once the front row pushed. A rope post cracked. Splinters from yesterday's rehearsal frame still littered the basin lip and cut someone's shin when the surge reversed.
+Cael saw the awning—or didn't. A strip of canvas tore free three streets north and snapped taut like a sail. Whether it was falling or flapping didn't matter once the front row pushed. A rope post cracked. Splinters from yesterday's rehearsal frame still littered the basin lip and cut someone's shin when the surge reversed.
 
-Fear rolled through the square.
-
-Over the north roofline smoke still rose thin from a gutter fire no one had time to douse. Below, bodies packed until the rope lines bowed. Awnings somewhere were either falling or not; the rumor did not matter once bodies moved. A rope post tilted. A guard struck a man's shoulder to push him back and the man struck the guard in return. The front row became a hinge. The back rows pushed because they could not see and thought pushing was escape.
+Over the north roofline smoke still rose thin from a gutter fire no one had time to douse. Below, bodies packed until the rope lines bowed. A rope post tilted. A guard struck a man's shoulder to push him back and the man struck the guard in return. The front row became a hinge. The back rows pushed because they could not see and thought pushing was escape.
 
 Fear hit Cael and Riven at once through the bond, too fast to sort whose was whose. Halverin kept calling counts into noise that no longer obeyed counts.
 
@@ -230,31 +220,11 @@ Halverin called hold again. His voice cracked on the second syllable. A guard at
 
 The square screamed on. Merrow's medic wagon at the west lane rolled forward six inches and stopped because the press would not give. Lyra moved at the south lane with a kit Cael could not see clearly through the bodies. Riven's palms burned in Cael's. Cael's knees shook in Riven's.
 
-Cael held Riven's eyes. Whatever came next would not be proof. The crowd had come to watch steadiness. They were about to see what the bond actually cost.
+Cael held Riven's eyes across the frame. Whatever came next would not be proof. The crowd had come to watch steadiness. They were about to see what the bond actually cost.
 
-Riven's grip tightened on the frame. Cael matched it. The bond strained, held, and did not break—not yet.
+The cooper's nephew had stopped waving charms. The magistrate clerk who had dropped his slate stood in the second row with ink on his cuffs, watching without writing.
 
-The cooper's nephew had stopped waving charms. The magistrate clerk who had dropped his slate stood in the second row with ink on his cuffs, watching without writing. A merchant's betting slate lay in the gutter where Merrow's runner had slapped it from his hand.
-
-Cael counted under his breath—one, two, hold—and felt Riven count wrong, then right, then wrong again. The square was still screaming. The air was still wrong. Halverin was still talking. The rhythm was tearing.
-
-Lyra's medic at the south lane moved against the press with a kit on her shoulder. Merrow's wagon at the west inched forward and stopped again. A paste crew abandoned their bucket and ran. The north wall returned Halverin's horn note half a beat late, again.
-
-Cael held Riven's eyes across the frame. Whatever came next would not be proof.
-
-The fishmonger without his brother stood at the north rope with empty hands. The magistrate clerk who had dropped his slate in the press stood in the second row with ink on his cuffs, watching without writing.
-
-Halverin called hold one more time. His voice cracked. The horn note lagged. Cael counted anyway—one, two—and felt Riven count with him on the wrong beat, then the right one, then neither.
-
-A woman in the third row started to stand and was pulled down by her neighbor. A guard shouted. A child wailed. Paste smell and sweat and the iron edge of fear layered until Cael could not tell which sense arrived first.
-
-Merrow's voice at the west lane: "Clear the basin mouth." Lyra's at the south: "Cot here, not there." Halverin on the platform: "Hold the line."
-
-Three voices. One square. No rhythm left but the one he and Riven had earned in mud—and that rhythm was tearing.
-
-When the drunk shouted raiders, the programs in the front row dropped. When the awning rumor hit, the front row became a hinge. Cael felt the hinge in his knees before the crowd moved.
-
-A paste crew abandoned their bucket and ran. The north wall returned Halverin's horn note half a beat late, again. Riven's grip tightened on the frame. Cael matched it. The bond strained, held, and did not break—not yet.
+Cael counted under his breath—one, two, hold—and felt Riven count wrong, then right, then wrong again. Merrow at the west lane: "Clear the basin mouth." Lyra at the south: "Cot here, not there." Halverin on the platform: "Hold the line." Three voices. One square. No rhythm left but the one he and Riven had earned in mud—and that rhythm was tearing.
 
 The frame rose one last time on their shared grip. Then the surge took the square and Halverin's voice vanished under it.
 

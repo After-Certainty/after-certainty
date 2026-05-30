@@ -36,7 +36,7 @@ Riven stood and crossed to the north window. From here he could see a slice of t
 
 Riven laughed without humor. "It's the only part I have left."
 
-Lyra was quiet for a moment. Outside, a cart rolled past and someone shouted about rope lines. Through the high windows Riven caught only rooflines and a wedge of sky going pale; below, hammers, a child crying, Halverin's horn testing one note and cutting off.
+Lyra was quiet for a moment. Outside, a cart rolled past and someone shouted about rope lines. Through the high windows Riven caught only rooflines and the plumb line swaying in the square below; hammers, a child crying, Halverin's horn testing one note and cutting off.
 
 "This isn't refinement," she said.
 
@@ -45,6 +45,8 @@ She set down the needle roll and faced him fully. No chart. No diagnosis sheet. 
 Riven's throat tightened. "Say it plain."
 
 "You keep saying alignment, burden, discipline—words to make loss sound necessary." She held his gaze. "It's invasive dependence. The stairs weren't disobedience. You carried each other's panic until neither of you could move."
+
+Lyra's hands stayed on the prep table edge. The needle roll sat between them. Past her shoulder the cot row ran the length of the room; the corridor door stood half open, and Cael's counting scraped through it—boot, pause, boot. Riven looked from her steady fingers to the door, then back to her eyes.
 
 Riven looked down at the tea. The surface shook when he breathed. "Halverin says we resisted."
 
@@ -94,7 +96,7 @@ Riven's hands closed on the cup. "Cael feels it."
 
 She opened a jar of salve and set it between them without using it. "Last week a guard came in with a rope burn. While I wrapped him his partner in the corridor flinched like the cloth touched him. No bond. Just watching. Multiply that by a thousand throats and tell me Halverin's count is medicine."
 
-Riven stared at the high windows. Hard white light. Clean lines. No place to hide. On the table, her instruments lay in order: needle, thread, salve, strip knife for cloth, not flesh. She had built a life around things that could be fixed with hands.
+Riven stared at the high windows—only rooflines and the staging below. On the table, her instruments lay in order: needle, thread, salve, strip knife for cloth, not flesh. She had built a life around things that could be fixed with hands.
 
 "If we fail publicly," he said, "people die in their heads before their bodies."
 
@@ -224,7 +226,7 @@ Riven stood. His knees protested. "Cael thinks clean is still possible."
 
 He left before the bond could carry that sentence to Cael whole.
 
-In the corridor Cael stood with his back to the wall and a broadside rules sheet in his hand. He did not look at Riven. "She told you."
+In the corridor Cael stood with his back to the plaster wall, broadside rules sheet crinkling in his fist, half in the stairwell draft. He did not look at Riven. "She told you."
 
 "Yeah."
 
@@ -232,7 +234,7 @@ In the corridor Cael stood with his back to the wall and a broadside rules sheet
 
 "I wasn't going to." Riven kept walking. The bond carried Cael's flinch anyway—shame, anger, something that might have been agreement if Cael let it surface.
 
-He washed his face in the annex basin and saw Cael's reflection in the water before he saw his own, a trick of light or the bond, he could not tell. His arm ached where the stitch had pulled. Lyra's tea sat bitter on his tongue.
+He washed his face in the annex basin. The water rippled once and stilled; his face came back wrong-side first, then right. His arm ached where the stitch had pulled. Lyra's tea sat bitter on his tongue.
 
 Halverin's horn tested from the square—one note, cut off. Riven dried his face on his sleeve. The bond carried Cael's count under his breath in the corridor: one, two, hold.
 
@@ -240,21 +242,9 @@ The lower market was already crowded. The press funneled him toward the east rop
 
 A woman at the rope line asked whether the demonstration would hurt. A guard said ask the medics. She pointed at Lyra's south tent. The guard said ask Merrow. She gave up and stayed because leaving would cost her a view she had waited since dawn for.
 
-A paste crew was still hanging a broadside as he passed. The woodcut made their joined hands look gentle. Riven wanted to tear it down. He kept walking because tearing it down would be a story too, just a different one.
-
 At the east rope a guard checked his name against a slate. "Riven. Mark's there." The guard's voice was flat. No cheer. No spit. Riven stepped over the chalk line and felt Cael's *focus* clamp tighten his throat.
 
-An old soldier touched his arm and said, "Held the berm with you in my mind, boy. Hold the square the same way." Riven nodded because words were stuck. The soldier's hope hit him with no bond involved, just weight.
-
-A fishmonger Riven knew from the lower market pressed a charm into his hand. "For luck," she said. He did not know what to do with it. He closed his fist and felt Cael's spike of irritation at the delay. Riven dropped the charm in the mud and kept walking because stopping was another story the crowd would read.
-
-Two guards at the north rope argued over whether to let a bread cart through the press. Merrow's runner settled it with one word and a slate tap. The cart rolled toward the west lane mouth. Riven watched it pass and felt Cael's relief that the lane still had room for bread, not just cots.
-
 At the south tent flap two medics argued over cot placement. Lyra's voice cut through without rising. "South lane, not front row." One medic nodded and moved the cot back six paces. Riven saw it and felt something loosen in his chest Cael noticed immediately.
-
-A boy selling boiled eggs moved along the rope line calling prices. A guard waved him back. The boy shrugged and sold to the second row instead. Hope had to eat somewhere.
-
-Riven cut through the press with his head down. People touched his sleeve. A woman blessed him. A boy asked if he would lift the timber again. Riven did not answer. The bond carried his silence to Cael and Cael sent back a clamp of *focus* that tightened Riven's throat.
 
 He reached the east mark. Morning sun had bleached the chalk almost white; he found his toe mark by habit, not color. Cael stood on the chalk line with his boots set and his hands loose at his sides. Halverin had told them clenched fists read as fear. Cael looked like he believed it. Jaw set. Eyes on the platform.
 
@@ -266,39 +256,15 @@ Above them Halverin raised the speaking horn. The crowd noise dropped in layers 
 
 "Citizens of Kestrel Gate," Halverin said. "Today we prove what steadiness looks like."
 
-The words landed flat across stone. People cheered because they needed to cheer. Riven felt the sound hit Cael's spine and bounce into him. A woman near the rope held up a charm on a string, painted with the woodcut pair. A guard told her to lower it. She did not. Another guard moved in. The square held its breath again, smaller this time, local, then gave it back to Halverin.
-
-He did not want the crowd to believe him when the proof failed.
-
-The bond tightened as Halverin kept speaking. Cael's steadiness pressed against Riven, hard and steady. Riven breathed slower because Lyra had told him to, because there was nothing else to do before the counts began.
-
-A guard at the east rope checked names against a slate again. Riven's. Cael's. Two marks in chalk that would smear by noon. Halverin called signal one before the guard finished writing.
-
-At the south tent flap Lyra adjusted a bandage roll and did not look up at the platform. Riven was glad. He was also ashamed of the gladness, which Cael felt and did not comment on.
-
-A boy in the second row held up a slate with their names copied wrong—*Riven* spelled with two e's, *Cael* missing the second a. His father shoved the slate down. The boy cried quietly. Riven felt Cael's wince and sent back nothing. There was no fix for misspelled hope.
+The words landed flat across stone. People cheered because they needed to cheer. Riven felt the sound hit Cael's spine and bounce into him. At the south tent flap Lyra adjusted a bandage roll and did not look up at the platform. Riven was glad. He was also ashamed of the gladness, which Cael felt and did not comment on.
 
 *Invasive dependence.* The words did not solve anything. They named the shape of the trap. Naming was not escape. It was still better than Halverin's word *gift.*
 
 Riven kept his feet on the chalk line, waiting for the bell that would turn speech into proof.
 
-Halverin raised the horn. The crowd noise dropped again, thinner this time, as if people had already spent their cheering. Riven felt Cael's pulse in his throat. Felt his own in Cael's wrists. The woodcut pair on the wall flapped once and showed smeared hands that did not match theirs.
-
 The bell rang. The timber frame sat in the center on wheels, rope handles ready. Riven set his shoulders and did not loosen them. Loosening read as fear. Halverin had taught them that too.
 
-He thought of running. Not from the square—from the story. There was nowhere to run that the bond would not follow. He thought of refusing the counts. Cael would feel that too, and the crowd would see two men fracture before the work even began. Lyra had not told him to refuse. She had told him to stop calling the fracture a moral failure when it came.
-
 Halverin called signal one. Riven stepped on the count because stepping was still something his body could do.
-
-The timber frame waited in the center. Guards at the margin stamped once, testing. The sound hit Riven's teeth. Cael's steadiness pressed back through the bond—not comfort, weight.
-
-A merchant near the south rope tried to sell charms painted with the woodcut pair. A guard confiscated the tray. The merchant cursed quietly and stayed. Riven watched Lyra's tent flap move without opening. Merrow's medic wagon at the west lane had cots made up and slates blank. A clerk at the east rope wrote their names twice and smeared the chalk.
-
-Halverin called signal two. Pressure. Guards stamped at the margin. The sound hit Riven's teeth. He felt Cael adjust on the second beat and matched late. Halverin called correction. The crowd leaned in. A priest near the south rope burned incense that did nothing for the paste smell.
-
-Riven kept his feet on the chalk. The timber frame waited. The bond waited. The square waited.
-
-Halverin raised the horn for the first lift.
 
 The laborers rolled the frame into position. Rope handles slapped stone. The crowd leaned in. Cael flexed his fingers open. Riven mirrored without looking.
 
@@ -308,10 +274,7 @@ They lifted. The bond took the strain and spread it. For one breath the square b
 
 Then Halverin called margin increase without warning. Shields rose. Boots stamped. The echo off the north wall returned half a beat late. Riven felt the lag in Cael's knees and his own. Lyra's tent stayed at the south lane. Merrow's wagon at the west. The frame sat on the stone between them, waiting for the crowd's fear to find a shape it could grab.
 
-A guard at the margin lowered his shield without being told. A paste crew stopped mid-stroke and watched. The horn note returned late again. Riven breathed once. Cael breathed once. The square held its breath with them.
+Riven breathed once. Cael breathed once. The square held its breath with them.
 
-Riven kept his feet on the chalk. The bond waited. The square waited. He knew what came next would not be proof.
+He knew what came next would not be proof.
 
-He thought of the canal roof for one heartbeat—not his memory, not Cael's, just pressure through the bond—and then Halverin raised the horn for the second lift and the crowd leaned in like a weight that wanted a story.
-
-Merrow's medic at the west lane rolled her wagon forward six inches and stopped when the press would not give. Lyra's voice at the south: "Cot here." Halverin on the platform: "Hold the line." Three voices. One square. No rhythm left but the one he and Riven had earned in mud.

@@ -1,6 +1,6 @@
 # Chapter 11 - No Privacy
 
-Riven picked the roof because people usually left him alone up there. The maintenance platform behind the east watchtower wasn't much—spare shingles, split beams, a patch of stone hidden from the wall walk—but it was high enough to see the market fires burning low and the black ribbon of road stretching back toward Greyhaven. Thin cloud, a sliver of moon, two lanterns drifting along the wall below.
+Riven picked the roof because people usually left him alone up there. The maintenance platform behind the east watchtower wasn't much—spare shingles, split beams, a patch of stone hidden from the wall walk—but it was high enough to see the market fires burning low and the black ribbon of road stretching back toward Greyhaven. Wind scraped the shingles. Two guards passed on the wall below, boots counting the same rhythm as yesterday.
 
 Below, ration lines still moved though it was past second bell. Someone shouted about short weight. The shout crossed the bond before Riven heard it with his ears—Cael on the wall walk, irritation, hunger, the same argument from two angles.
 
@@ -56,8 +56,6 @@ Riven's head throbbed—not his, Cael's from the wall walk—and he pressed his 
 
 "We're under pressure," Cael said.
 
-Below them a watch pair passed under the platform. Riven waited until their voices faded. Wind rattled loose slate. A gate bell rang once in the distance.
-
 Riven laughed. "Christ. You sound like Halverin already."
 
 "We have people depending on us."
@@ -74,8 +72,6 @@ Riven shook his head. "You keep saying steer like there's a wheel."
 
 Cael winced.
 
-A watch pair passed below, their voices drifting up through the dark. Riven waited until the sound faded. Then:
-
 "You think Lyra can fix this."
 
 "I think she understands it." Cael looked back at him. "That's not fixing. I know."
@@ -83,8 +79,6 @@ A watch pair passed below, their voices drifting up through the dark. Riven wait
 "No." Riven shoved his hands into his pockets. "No, it's not."
 
 Wind pushed at his back. For a moment his balance shifted wrong—Cael's fatigue from the wall walk, not his—and Riven grabbed the parapet stone before he could fall. Cael felt it and went still.
-
-Below, a watch pair passed under the platform. Riven waited until their voices faded. A fish seller at the stairs shouted about short weight. The shout crossed the bond before Riven heard it with his ears—Cael on the wall walk, irritation, hunger, the same argument from two angles.
 
 "Don't," Riven said.
 
@@ -116,7 +110,7 @@ When he stood, dizziness hit hard enough that he had to catch himself against th
 
 He passed a chalk slate nailed to a ration post—*SWORN PAIR ON WALL DUTY*—and felt Cael's irritation before he read it. The bond carried the post anyway. No private walk home. No private shame.
 
-The dormitory was dark except for one oil lamp by the door—two rows of cots, snoring, somebody coughing in their sleep, wool and sweat and lamp smoke in the air. Moonlight striped the floor through the shutters. Cold slid in whenever the wood shifted. Cael sat awake on the edge of his bedroll when Riven came in. He'd clearly been waiting.
+The dormitory sat at the back of the barracks block—long room, low ceiling, two rows of cots running the length of the floor with just enough aisle for one man to pass. Wool and sweat and stale air hung between the cots. Somebody coughed three cots down, toward the south wall. Cael sat awake on the edge of his bedroll when Riven came in. He'd clearly been waiting.
 
 Through the bond Riven felt Cael replay the blade at the riverside entrance—the half-beat late grab, the crowd that had gone longer because of them. Riven felt shame cross before he could clamp down on it. Cael felt the clamp and went still.
 
@@ -138,7 +132,7 @@ Cael looked down at his hands. "I didn't ask for your memories."
 
 "Neither did I."
 
-A man farther down the row rolled over and muttered something in his sleep. The lamp hissed softly.
+A man farther down the row rolled over and muttered something in his sleep. Wool rustled against the cot frame.
 
 "What the fuck do you want me to do when it happens?"
 
@@ -196,9 +190,7 @@ Riven rolled over and stared at the wall. The room felt too crowded, even in sil
 
 Just before dawn Riven stopped pretending any part of his inner life still belonged only to him. The bond wasn't going away. Neither was Cael inside it.
 
-He stood on the roof platform one last time before the bell—same shingles, same moon sliver, same market fires burning low. Below, ration lines still moved though nobody should have been awake. He tried to hold one thought that was only his: *today.* For four breaths it held. Then Cael's patrol route crossed and the word became *riverside entrance, gate patch, council check.*
-
-Paste crews on the magistrate wall were already hanging a fresh strip—*TRUST THE SWORN PAIR*—though Merrow's note still said *Not yet.*
+He stood on the roof platform one last time before the bell—same shingles, same wind scrape, same market fires burning low. Below, ration lines still moved though nobody should have been awake. He tried to hold one thought that was only his: *today.* For four breaths it held. Then Cael's patrol route crossed and the word became *riverside entrance, gate patch, council check.*
 
 By the time the first bell rang neither of them had really slept.
 
@@ -224,13 +216,9 @@ At the duty board Cael reached for the roster. Riven felt the assignments before
 
 Riven tore a piece off his breakfast bread. "Shocking."
 
-Breakfast standing in the yard: hard bread, thin broth, salted fish like rope. Teams sorted salvage by chalk marks. Riven watched two apprentices carry a plank marked three different ways and argue which instruction came first. Through the bond he felt Cael think the same thing at the same time: not enough hands for this.
+Breakfast standing in the yard: hard bread, thin broth, salted fish like rope. His fatigue sat under Cael's like a second layer—heavier than either alone should have been. Plum wine sour on his tongue. Canal mud in the back of his memory, and Cael in there with it.
 
-At the riverside entrance, Cael checked the patch on the gate again. Riven marked a crowd backup at the riverside entrance. Merrow's runner passed with a slate—*tanners alley clear, east shelters loud*—and kept moving without saluting.
-
-His fatigue sat under Cael's like a second layer—heavier than either alone should have been. Plum wine sour on his tongue. Canal mud in the back of his memory, and Cael in there with it.
-
-At the duty board a clerk had pinned Halverin's broadside draft—*TRUST THE SWORN PAIR*—with a note in Merrow's hand: *Not yet.* Riven tore it down and handed it to Cael. Cael folded it once and put it in his pocket anyway. Riven felt that choice cross before he could argue.
+A clerk had pinned Halverin's broadside draft—*TRUST THE SWORN PAIR*—with a note in Merrow's hand: *Not yet.* Riven tore it down and handed it to Cael. Cael folded it once and put it in his pocket anyway. Riven felt that choice cross before he could argue.
 
 When he bent to lace his boots, a dull ache tugged through his shoulder. Cael felt it immediately. Riven felt Cael's flash of concern cross and hated that even pain had become shared inventory.
 
@@ -266,7 +254,9 @@ They crossed the square toward the council building at second bell. Guards at th
 
 Halverin's clerk met them at the council stairs with a fresh broadside draft—*TRUST THE SWORN PAIR*—and a pen. Cael pushed both back unread. The clerk's face tightened. Riven felt Cael's satisfaction cross and hated that he felt it too.
 
-The council check was a room full of maps and tired men. Halverin asked about bond stability. Cael said stable enough for patrol. Riven said stable enough to lose sleep. Halverin's aide wrote both answers. A council member asked whether the pair could run a public sequence. Halverin said not yet. Merrow's runner passed a note—*riverside entrance clear*—and left without saluting.
+The council check was a room on the second floor of the magistrate wing—long table, maps pinned to every wall, two narrow windows open to the yard noise below. Wax and old paper hung in the air; clerks had burned candles through the night and not aired the room. Halverin sat at the head. Tired men in council sashes lined both sides, slates and pens between them. A clerk's desk stacked with bond report forms sat against the far wall.
+
+Halverin asked about bond stability. Cael said stable enough for patrol. Riven said stable enough to lose sleep. Halverin's aide wrote both answers. A council member asked whether the pair could run a public sequence. Halverin said not yet. Merrow's runner passed a note—*riverside entrance clear*—and left without saluting.
 
 A clerk at the side table had bond report forms already filled except for the signature line. Cael read the headings—*mood bleed, sync delay, shared memory*—and pushed the sheet back. "We file what Merrow asks."
 
@@ -284,19 +274,15 @@ A council member asked whether the pair could escort a supply cart to the east b
 
 When they stepped back into the square, Riven's head still rang from canal water and plum wine. Cael's shoulder ached from the wall walk. The bond carried both aches in one chest. A ration line backed up at the riverside entrance. Cael moved toward it. Riven followed because following was what the yard required—and because the alternative was standing still while the bond filled the silence with Cael's need to fix things.
 
-At the riverside entrance two men were already arguing over weight again—same voices as yesterday, same sour beer smell, no knife yet. Riven marked the slate. Cael checked the patch on the gate. A boy selling boiled eggs asked if they slept at the same time. Riven said no. Cael said try not to. The boy looked horrified and sold them each an egg anyway.
-
-Lyra's medic wagon passed the riverside entrance with blank slates and full bandage rolls. She looked up at Riven on the wall walk once, then at Cael below, then went back to sorting thread without waving. Riven felt Cael notice and clamp down. The clamp crossed anyway.
+Lyra's medic wagon passed with blank slates and full bandage rolls. She looked up at Riven on the wall walk once, then at Cael below, then went back to sorting thread without waving. Riven felt Cael notice and clamp down. The clamp crossed anyway.
 
 By second bell the grain line had doubled. Merrow's runner found them at the tanners alley mouth with a fresh slate—*council check complete, patrol until dusk.* Riven initialed it. Cael initialed it. The runner left before either could ask what *dusk* meant on a roster that already felt one bad hour from breaking.
-
-Paste crews on the magistrate wall were already hanging a fresh strip—*TRUST THE SWORN PAIR*—though Merrow's note still said *Not yet.* Riven watched wet paper curl. Cael felt his irritation cross and answered with certainty that settled on Riven's shoulders anyway.
 
 At dusk Merrow passed the arch without stopping. "Same roster tomorrow unless the city breaks first." She looked at Riven's face and added, "Sleep if you can." Then she was gone.
 
 Riven looked at Cael. Cael looked at the grain line backing up at the riverside entrance. The bond carried the same alert in both chests—not trouble yet, the feeling of trouble learning their names.
 
-They crossed to the barracks arch without speaking. In the dormitory most cots were already full. Riven lay down fully dressed and tried to hold one thought that was only his: *tomorrow.* For three breaths it held. Then Cael's patrol route crossed and the word became *grain quarter, riverside entrance, council check.*
+They crossed to the barracks arch without speaking. In the dormitory most cots were already full—the same long room, same narrow aisle, boots lined under the foot rails. Riven lay down fully dressed and tried to hold one thought that was only his: *tomorrow.* For three breaths it held. Then Cael's patrol route crossed and the word became *grain quarter, riverside entrance, council check.*
 
 Cael sat on the edge of his bedroll cleaning grit from a buckle that didn't need cleaning. Riven felt him do it through the bond before he heard the leather creak.
 

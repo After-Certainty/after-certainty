@@ -14,9 +14,9 @@ The last mile had been the worst. Sound lagged. Breath lagged. The ring ahead ha
 
 Twice on the climb Riven had stopped because his foot landed before he felt it. Cael waited without asking. The Seeker didn't wait. Each time they caught up, the gap between them and the hood had shrunk, as though the land were reeling them in.
 
-Gravel skittered downslope when Cael moved. The sound arrived after he reached the rim. Riven flinched at the late noise. Cael flinched with him. At the lip of the bowl they stood long enough for breath to steady. It didn't.
+Gravel skittered downslope when Cael moved. The sound arrived after he reached the rim. Riven flinched at the late noise. Cael flinched with him. At the rim they stood long enough for breath to steady. It didn't.
 
-Cael stepped into the bowl. Gravel shifted under his boots. Riven followed. The air thickened until breath felt borrowed.
+Cael stepped into the Ashring. Gravel shifted under his boots. Riven followed. The air thickened until breath felt borrowed.
 
 Each step down increased the weight behind his eyes. By the fifth step Riven's vision greyed. By the tenth, Cael's hand found his sleeve and stayed there. Neither spoke. Speaking would have cost air they didn't have.
 
@@ -120,7 +120,7 @@ Riven's knees unlocked. He hadn't known they were locked. Cael felt the unlock i
 
 The pressure didn't release. It settled. Like a beam finding its seat. Like weight accepting that weight was what it was.
 
-Riven looked away. Toward the rim. Toward the path back down. Toward anywhere that wasn't the center of the bowl.
+Riven looked away. Toward the rim. Toward the path back down. Toward anywhere that wasn't the center.
 
 "If we walk away?"
 
@@ -150,7 +150,7 @@ Riven's throat hurt. Not from shouting. From swallowing answers that didn't fit.
 
 Riven looked up. "Gods don't bargain."
 
-Wind moved through the bowl. For a moment nobody spoke. Then:
+Wind moved through the Ashring. For a moment nobody spoke. Then:
 
 "Back to what?" Riven asked.
 
@@ -166,7 +166,7 @@ Riven swore under his breath. The bond carried grief. And something worse. Recog
 
 "Forward," Cael said.
 
-The pressure eased. Not approval. Not forgiveness. Less resistance. The seams of the ring dimmed. Wind crossed the bowl again. Ordinary wind. Ordinary cold. The most ordinary thing either of them had felt in days.
+The pressure eased. Not approval. Not forgiveness. Less resistance. The seams of the ring dimmed. Wind crossed the Ashring again. Ordinary wind. Ordinary cold. The most ordinary thing either of them had felt in days.
 
 Riven's legs didn't work for a moment. Cael's didn't either. They stood in the center of the ring like posts driven into bad ground until the Seeker turned toward the rim.
 
@@ -210,7 +210,7 @@ He tore the pass in half and let the wind take it. Riven watched the pieces spin
 
 He read it once. Folded it again. Across the bond, Riven felt the words anyway.
 
-Riven was still staring at the ring below. Ashring sat in its bowl like a mouth that had finished speaking.
+Riven was still staring at the ring below. The Ashring sat like a mouth that had finished speaking.
 
 "Think we are?" Riven asked. "Useful?"
 
@@ -262,7 +262,7 @@ North again. Then east when the trail split. Always walking.
 
 Behind them, the ring's pressure faded by degrees. Riven kept waiting for it to snap back. It didn't. It thinned. Like a wound closing wrong but closing.
 
-Cael didn't look back. Riven did once. The bowl looked smaller already. Distance lying the way broken land lied about everything else.
+Cael didn't look back. Riven did once. The Ashring looked smaller already. Distance lying the way broken land lied about everything else.
 
 They made camp that night without discussing it. No fire. Hard ground. The bond was quiet enough to sleep in pieces. Not rest. Just less drowning.
 
