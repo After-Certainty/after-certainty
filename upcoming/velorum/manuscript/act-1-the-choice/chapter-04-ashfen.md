@@ -1,229 +1,209 @@
 # Chapter 4 - Ashfen
 
-When Cael opened his eyes, rock boxed them in on three sides. Wind pushed through the notch to the trail and cut straight through his coat. Grey light showed dead ash and the pale ring where the fire had been. No heat left anywhere.
+Cael woke cold. Rock boxed them in on three sides. Wind came through the gap to the trail and cut straight through his coat. The fire had burned down to a pale ring of ash. No heat left.
 
-They were far enough into Ashfen that town noise was gone. Just thin grass, loose stone, and ridges that kept climbing.
+They were far enough into Ashfen that Greyhaven felt gone: no harbor bell, no carts, no voices carrying uphill, just stone and wind and more stone beyond that.
 
-Riven was already up, blanket around his shoulders, staring at the coals.
+Riven was already awake, blanket around his shoulders, staring at the dead fire.
 
 "We move," Cael said.
 
-His neck ached from sleeping on rock. He left it alone. Riven nodded once.
+Riven nodded.
 
-They ate what was left and stamped the fire dead. Cael packed by habit: rope, blanket, knife, water skin, buckles. He checked the folded pamphlet in Riven's strap and tightened Riven's latch before it could blow open on scree.
+They ate the last of yesterday's bread without talking. Cael packed by habit: rope, blanket, knife, water skin. He tightened a loose strap on Riven's pack before it could work itself free on the climb.
 
-The trail out of the hollow was barely a trail. Goat-width. One side stone, one side air. Wind hit them sideways as soon as they cleared the wall and drove grit into their teeth.
+The trail out of the hollow barely deserved the name, a narrow shelf cut into the hillside with rock wall on one side and empty air on the other. Wind hit them the moment they stepped onto it.
 
-Cael set a steady pace. Not fast. Not slow.
+Cael took the lead at a pace he could hold all day. Gravel shifted under his boots. Behind him he could hear Riven climbing: scrape, pause, scrape, a little slower than usual.
 
-Gravel slid under his boots on the first climb. He listened for Riven behind him. Scrape, halt, scrape. Half a beat late.
+"Don't rush the loose stuff."
 
-Cael slowed without turning. "Don't rush the loose stuff."
-
-"I'm not rushing."
+"I'm not."
 
 "You are."
 
-Riven's breath roughened. "You're counting my steps."
+Riven muttered something that disappeared into the wind. Cael let it go.
 
-Cael did not answer.
-
-The climb narrowed into a cut. Stone rose on their left. Empty drop on their right. A frozen trickle crossed the path in shade.
-
-Cael tested each step before shifting weight. Riven's shadow crossed his boots, then dropped back.
-
-They stopped in a notch where the wind died for a few seconds. Cael drank and handed over the skin. Riven swallowed and kept his eyes on the air above the cut.
+The path climbed through a narrow cut where stone rose shoulder-high on the left and dropped away on the right. A ribbon of old ice crossed one shaded section. Cael tested it before putting his weight down. Behind him, Riven followed. For a while the only sounds were boots, wind, and breathing.
 
 "You hear that?" Riven asked.
 
-"Hear what?"
+Cael glanced back. "Hear what?"
 
-"Like an echo. Off."
+Riven tilted his head. "Thought it was an echo."
 
-Cael listened. Wind. His own pulse. A hawk somewhere far out. "I don't hear it."
+The wind hissed through the rocks. A hawk cried somewhere far off. Cael shrugged. "I don't hear anything."
 
-Riven's mouth tightened. "Fine."
+Riven frowned. "Yeah."
 
-They moved again.
+They kept walking.
 
-By midday the sky was iron-grey. Bright enough to hurt, no sun. The path kept switching back until Cael's thighs burned and the strap cut into his shoulder.
+By midday the sky had turned the color of old iron, no sun, just bright grey light that flattened everything. The switchbacks kept coming. Cael's thighs burned. The pack strap dug into his shoulder.
 
-Loose pebbles shot out from under his boot. His foot slipped half an inch. His hand hit rock hard.
+A patch of loose gravel rolled under his boot. His foot slipped, not much, half an inch. His hand hit the rock wall hard enough to sting.
 
-Behind him, Riven swore sharp.
+Behind him, Riven swore, sharp and immediate.
 
-Cael steadied. "You good?"
+Cael turned. "You all right?"
 
-"Yeah." Too fast. "Yeah. Christ."
+Riven's face had gone pale, too pale. "Yeah." The answer came fast, too fast.
 
-Cael glanced back. Riven's face had gone pale. His eyes stayed fixed on Cael's boots.
+"Riven."
 
-"What?"
+He swallowed. "For a second it felt like I missed a step."
 
-"Nothing."
+"So?"
 
-"Not nothing."
+Riven looked away. "On a dock."
 
-Riven swallowed. "Felt like I missed a step on a dock."
+The same drop hit Cael's stomach a heartbeat later: the sudden empty feeling, the lurch, not memory exactly, more like somebody else's balance arriving in the wrong body. He hated it immediately.
 
-Cael felt the same drop in his own gut and hated it. "We're high up. Air's thin."
+"We're tired."
 
-"If mine's lying, yours is too."
+Riven gave him a look. "That's your explanation?"
 
-Cael faced forward before his temper slipped. "Then keep moving."
+"It's the one I've got."
 
-They climbed.
+They moved on.
 
-Things kept feeling wrong in small ways.
+Small things kept feeling wrong. A gust of wind hit one side of his face and then the other, not together, one after the other. A patch of moss glowed bright green in a stretch of shade where nothing should have been growing. Once he heard a stone skitter down the slope after he'd already turned toward the sound. Nothing dramatic, just enough to keep noticing.
 
-A patch of moss sat bright in shade where it should have died. A gust hit his left ear, then his right, out of sync. Once his foot hit stone and the sound came a half beat later.
+By the time they reached the seep, neither of them was talking much.
 
-Cael told himself fatigue. Wind funnels. Too much pamphlet talk in their heads.
+Water trickled from a crack in the rock into a shallow basin. Cael crouched and dipped his fingers in. Cold. Clean. The ripples spread outward, slowly, too slowly. He stared at them.
 
-Then they hit the seep.
-
-It ran from a dark crack in the rock into a shallow pocket, clean enough to drink. Cael knelt and dipped his fingers.
-
-The ripples moved too slowly.
-
-Riven knelt beside him and watched the water.
+Beside him, Riven crouched. Neither spoke for a moment.
 
 "Don't," Cael said.
 
 "Don't what?"
 
-"Don't start preaching."
+Cael looked back at the water. The ripples were gone now. Everything looked normal. "Don't start telling me the pamphlets were right."
 
-Riven let out a short broken laugh. "I'm not the one taking this personally."
+Riven barked out a laugh, tired and uneasy. "I'm not the one taking this personally."
 
-Cael filled the skin anyway. Thirst was still thirst. First swallow tasted metallic. He noticed it and capped the skin.
+Cael filled the water skin anyway. Whatever was wrong with Ashfen, thirst was still thirst. He took a drink. The water tasted faintly metallic. He capped the skin and stood. Neither mentioned it. They both noticed.
 
-"We keep going," he said.
+"We keep going," Cael said.
 
 "Cael."
 
 "We keep going."
 
-Riven stood. "Say it."
+Riven stopped walking. "Just say it."
 
-"Say what?"
+Cael turned. "Say what?"
 
-"That you see it."
+"That something's wrong."
 
-Cael looked back at the seep, the slow rings, the straight crack in the stone.
+Wind hissed across the rock. The seep sat below them, water gathering in the hollow. Cael looked at it, the slow ripples, the strange stillness, then back at Riven.
 
-"I see it," he said. "I don't know what it is."
+"Something's wrong."
 
-Riven's fingers whitened on his strap. "Better."
+Riven let out a breath, not relief, close enough. "Thank you."
 
-Cael hitched his pack higher. "If you want to turn around, say it now."
+"I didn't say I know what it is."
 
-"I'm not turning around."
+"You never know what it is."
 
-"Then stop trying to make me name everything before we get there."
+Cael almost snapped back. Didn't. He hitched his pack higher. "If you want to turn around, say so now."
 
-They walked.
+Riven stared at him. "I'm not turning around."
 
-Sleet started in the afternoon. Not rain, not snow. Needles in the face. Water down the collar.
+"Then stop acting like I need an explanation for every rock before we reach the top."
 
-The trail opened onto a bench of bare rock. Wide enough to breathe. Wet stone glittered where their boots had not touched.
+Neither said anything. Then they started walking again.
 
-Cael stopped. Checked himself. Checked the route. Checked Riven.
+By afternoon sleet was falling, not enough to be snow, not enough to be rain, just cold needles finding every gap in their coats. The trail widened onto a shelf of bare stone. For the first time all day there was room to breathe.
 
-Riven stopped a step later, hands on thighs, head down, water dripping off his hair.
+Cael stopped. Checked the route ahead. Checked the weather. Checked Riven.
 
-"You need rest," Cael said.
+Riven noticed. "Don't."
 
-"I need you to stop talking like I'm a horse."
+"You need a break."
 
-"Ten minutes," Cael said. "We eat. We don't stand on the edge like idiots."
+"I'm tired. Not dying."
 
-Riven sat, rubbed both hands over his face, and took the bread.
+"Good. Then sit down."
 
-He moved back from the drop without arguing. Too tired to fight it.
+Riven rolled his eyes but dropped onto a low pile of stones anyway. Cael sat beside him and split the last of the bread with his knife. Neither spoke while they chewed. The wind did enough talking for everyone.
 
-They sat against stacked stones that might have been old work, might have been natural. Cael split bread with his knife and handed Riven half.
+After a while Riven said, "You still think it's the altitude?"
 
-Riven chewed slowly. "You still think it's thin air?"
+Cael looked out across the slope. A gust moved through the pines below. The branches didn't react until a moment later. He watched it happen, watched it happen wrong. "No."
 
-Cael watched a gust pass through pines below, then the trees move a beat late. "No."
+Riven nodded once. "Okay." The answer seemed to cost him something.
 
-Riven's shoulders dropped a little. "Okay."
+"Okay doesn't help."
 
-"Okay doesn't fix it."
+"I know."
 
-"I didn't say it does."
+For a few minutes they sat in silence. Then Cael pointed toward the next rise. The stone there looked different, paler, almost bleached. "We're close."
 
-Cael nodded toward the next rise, where the rock turned pale. "We're close."
+Riven followed his gaze. "Close to what?"
 
-"Close to what?"
+"The Ashring." The name sounded strange spoken out loud. "The bowl's supposed to be beyond that ridge."
 
-Cael looked at the pale strip. Wind moved around it wrong.
+"The pamphlet version?"
 
-"The Ashring, if the pamphlet's right," he said. "Summit bowl. Rings in stone. Same drawing as the fold-out."
+"Yeah."
 
-Riven waited.
+Riven laughed quietly. "That's reassuring."
 
-Cael spat out the metal taste in his mouth. "Could be nothing. Could be a ring of rock and a story."
+Cael spat into the sleet. The metallic taste still sat on his tongue. "It could still be nothing."
 
-"And if it's not?"
+"You don't believe that."
 
-"Then we find out."
+"No."
 
-Riven looked away. "You're still glad you came."
+The honesty surprised them both.
 
-Cael flexed his cold fingers. "Glad's not it. I'm here."
+Riven studied him for a second. "You're glad we came."
 
-They stood before the cold locked their joints.
+Cael thought about it: the cold, the climb, the wrongness in the air, the feeling that the mountain had been watching them since morning. "Glad isn't the word."
 
-The pale stone climbed toward the summit like a bleached stripe across the mountain. Up close it looked less like a ribbon, more like a wall pulling them in.
+"What is?"
 
-Sleet ran down Cael's spine. Sound kept coming in wrong. Their boots hit and the scrape came soft and late.
+Cael looked at the pale ridge. "I'm here."
 
-Riven moved up beside him instead of behind.
+Riven shook his head. "That's such a Cael answer."
 
-"You feel that?" Riven muttered.
+They stood before the cold settled into their joints.
+
+The climb steepened. The pale stone stretched uphill like a scar across the mountain. The higher they went, the stranger everything felt. Sound lagged. Boots scraped stone and the noise followed a beat later. The air felt thick, heavy, like a storm waiting to happen.
+
+Riven moved up beside him instead of dropping back. "You feel that?"
 
 "Yeah."
 
 "What is it?"
 
-Cael swallowed. "Feels heavy."
+Cael swallowed. His mouth tasted like metal again. "I don't know." That answer would have bothered him yesterday. Today it was the truth.
 
-"In the air."
+The ridge flattened. One more rise. Then they were standing at the edge.
 
-"Yeah."
+Riven stopped. "Christ."
 
-They crested the last lip.
+The summit held no temple and no shrine, nothing like the pamphlets had promised: a wide bowl of pale stone beneath a low grey sky, rings carved into the rock, ring inside ring inside ring, so worn by time they looked less carved than exposed.
 
-The top was a wide stone dish under low grey sky. No temple. No doorway. Just carved rings inside rings, worn almost flat.
+For a second neither moved.
 
-The hair on Cael's arms lifted. His heart hit hard once.
+Then Cael stepped onto the outer ring. Heat climbed through the soles of his boots before his weight fully landed, as if the stone had been waiting.
 
-Riven whispered, "Christ."
-
-Cael stepped onto the first ring before he could second-guess it.
-
-Heat came up through his boots.
-
-"Cael," Riven said.
+"Cael." Riven's voice sounded distant.
 
 "I know."
 
 "You don't."
 
-Cael looked back. Riven stood on the rim like he was testing river ice.
+Maybe not. But they hadn't climbed all this way to stare at it.
 
-"We came for this," Cael said. The words sounded thin. "We didn't come this far to leave now."
+Cael held out a hand. The gesture felt ridiculous. Necessary.
 
-Riven's eyes were bright. "Leaving sounds good right now."
+Riven looked at it, looked at the rings, looked back toward the trail. Then grabbed Cael's wrist. His grip was hot. Unsteady.
 
-Cael held out his hand, palm up.
+Together they stepped forward. Pressure settled beneath Cael's ribs before the second boot came down. His breath shortened. Metal flooded the back of his tongue.
 
-Riven stared at it, then grabbed it. His grip was hot and shaking.
+Beside him, Riven's grip tightened.
 
-He stepped in.
-
-Pressure tightened under Cael's ribs. His breath went shallow. Metal hit the back of his tongue again.
-
-Riven's grip stayed locked.
+Neither let go.
