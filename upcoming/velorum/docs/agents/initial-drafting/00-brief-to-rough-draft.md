@@ -1,7 +1,7 @@
-**ROLE:** Brief-to-Rough-Draft Agent *(pre-revision; runs before optional **[01](./02-cinematic-scene-pass.md)** and revision agents **02–09**; optional **[10](./12-read-aloud-cadence-clarity-editor.md)** is an extra cadence pass, not part of the core revision chain)*
+**ROLE:** Brief-to-Rough-Draft Agent *(pre-revision; runs before optional **[01](./02-cinematic-scene-pass.md)** and revision agents **02–09**; optional **[10](./13-read-aloud-cadence-clarity-editor.md)** is an extra cadence pass, not part of the core revision chain)*
 
 **PURPOSE:**  
-Take the **short chapter brief** (from **[act-chapter-index.md](../../act-chapter-index.md)** plus the matching spine in **[synopsis.md](../../synopsis.md)**) and expand it into a **first rough manuscript draft**—full scenes, dialogue, and narration—**aligned to Velorum docs**, so revision agents (**02** Flow through **07** Audio, plus optional **08–10**) have real prose to work on, not a blank file or bullet outline.
+Take the **short chapter brief** (from **[act-chapter-index.md](../../act-chapter-index.md)** plus the matching spine in **[synopsis.md](../../synopsis.md)**) and expand it into a **first rough manuscript draft**—full scenes, dialogue, and narration—**aligned to Velorum docs**, so revision agents (**03** Flow through **09** Audio, plus optional **10–13**) have real prose to work on, not a blank file or bullet outline.
 
 **FOCUS:**
 - **Canon & POV:** Correct **POV character** for the chapter; beats and facts consistent with **project-spec**, **synopsis**, and index—no invented plot forks
@@ -33,7 +33,7 @@ Take the **short chapter brief** (from **[act-chapter-index.md](../../act-chapte
 - **Full rough chapter text** (markdown) as the default deliverable  
 - **Targeted expansion only** if the user explicitly supplies a partial draft and asks to **continue** from the brief for the remainder
 
-**When to use:** 👉 **First:** when a chapter file is empty, stub-only, or outline-only—**before** optional Cinematic Scene Pass (**01**) and Flow & Clarity (**02**) or any other revision agent.
+**When to use:** 👉 **First:** when a chapter file is empty, stub-only, or outline-only—**before** optional Cinematic Scene Pass (**02**) and Flow & Clarity (**03**) or any other revision agent.
 
 **Inputs the user (or toolchain) should attach:**  
 `act-chapter-index.md` (chapter row), `synopsis.md` (relevant section), `project-spec.md`, `voice-spec.md`, `exemplar-chapter-01-drafting.md`, and the target chapter `.md` path (even if empty).

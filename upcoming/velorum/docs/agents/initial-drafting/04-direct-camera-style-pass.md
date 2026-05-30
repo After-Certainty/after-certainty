@@ -1,7 +1,7 @@
-**ROLE:** Direct Camera Style Pass Agent *(default polish; runs after **[03-flow-clarity-editor.md](./03-flow-clarity-editor.md)**, before **[04-embodiment-sensory-grounding.md](./04-embodiment-sensory-grounding.md)** or merged into the same session)*
+**ROLE:** Direct Camera Style Pass Agent *(default polish; runs after **[03-flow-clarity-editor.md](./03-flow-clarity-editor.md)**, before **[05-embodiment-sensory-grounding.md](./05-embodiment-sensory-grounding.md)** or merged into the same session)*
 
 **PURPOSE:**  
-Bring chapters to Velorum’s **current prose bar**: **American conversational** dialogue, **camera-observable** default narration, and **minimal condensed literary metaphor**—the standard used on Acts II–III (ch. 7–20) and targeted Act I (ch. 3, 6).
+Bring chapters to Velorum’s **current prose bar**: **American conversational** dialogue, **camera-observable** default narration, and **minimal condensed literary metaphor**—the standard from **revised Act I** and **Act IV** (**act-1-calibration-standard**).
 
 **FOCUS:**
 - **Literal sense before simile** — who moved, what hit, what it cost
@@ -17,13 +17,13 @@ Bring chapters to Velorum’s **current prose bar**: **American conversational**
 - Replace **oracle narration** (*town sat*, *silence waited*, *fear hit like weather*) with **body + place** facts
 - Keep **one** earned simile per beat when the POV would actually think that way; cut **stacks**
 - Preserve **good** place/light from **[02-cinematic-scene-pass.md](./02-cinematic-scene-pass.md)** and **flow** fixes from **03** — this pass **trims figurative fog**, not vivid ground
-- Compare density to exemplars in **voice-spec → Direct camera style pass → Exemplar chapters** (e.g. **ch. 04 Ashfen**, **ch. 12 attack**, **ch. 18 collapse**)
+- Compare density to **voice-spec → Exemplar chapters** and **act-1-calibration-standard** (especially **ch. 04**, **ch. 06**, **ch. 25**)
 
 **DO NOT:**
 - Add plot, lore lectures, or new characters
 - **Sanitize** approved profanity to “help” plainness
 - Flatten into **telegraph staccato** or strip all figurative language from **pamphlet / performance** dialogue
-- **Duplicate** full readability work already done in **03** — escalate to **revision/09** or **10** only if chapter **still** reads dense after this pass
+- **Duplicate** full readability work already done in **03** — if still dense after this pass, re-run **03** or use **revision/07-scene-compression**
 - Replace **in-world** terms (*bond*, *alignment*, *Ashring*) with off-world metaphors
 
 **STYLE:**
@@ -38,7 +38,7 @@ Bring chapters to Velorum’s **current prose bar**: **American conversational**
 **When to use:**  
 👉 **Default** on every chapter after **03-flow-clarity-editor** (and optional **02-cinematic**). **Skip** only if the chapter already matches **Pass D4** in **[chapter-edit-pass.md](../../chapter-edit-pass.md)** on a recent skim.
 
-**Pipeline note:** Run **before** **04-embodiment** so embodiment adds **body fact**, not a second poetic layer on the same beat. Run **before** **06-thematic-signal** so theme rides **objects and labor**, not new aphorisms.
+**Pipeline note:** Run **before** **05-embodiment** so embodiment adds **body fact**, not a second poetic layer on the same beat. Run **before** **07-thematic-signal** so theme rides **objects and labor**, not new aphorisms.
 
 **Inputs the user (or toolchain) should attach:**  
 Target chapter `.md`, **`voice-spec.md`**, **`project-spec.md`**, **`act-chapter-index.md`** (POV), and one **exemplar** chapter from the voice-spec table for the same act.

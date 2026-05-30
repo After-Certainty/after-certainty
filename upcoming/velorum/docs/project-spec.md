@@ -1,7 +1,7 @@
 # PROJECT: VELORUM  
 ### A Tragic Mythic Fantasy Novel (Contemporary Voice)
 
-**Voice, dialogue, and prose craft:** **[voice-spec.md](./voice-spec.md)**. **Drafting shape** (habits distilled from Chapter 1): **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)**. **Draft + revision agents:** **[agents/README.md](./agents/README.md)** (brief-to-rough **step 0**, then revision passes). This document covers premise, world, terrain/POV requirements, structure, and ending rules.
+**Voice, dialogue, and prose craft:** **[voice-spec.md](./voice-spec.md)**. **Act I + IV calibration (Acts II–V target):** **[act-1-calibration-standard.md](./act-1-calibration-standard.md)**. **Doc index:** **[README.md](./README.md)**. **Drafting shape** (ch. 1 habits): **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)**. **Agents:** **[agents/README.md](./agents/README.md)**. This document covers premise, world, terrain/POV requirements, structure, and ending rules.
 
 **Plot spine (living mirror):** **[synopsis.md](./synopsis.md)** — Greyhaven legend hunger → summit encounter with Velorum and the bond curse → rising usefulness and pressure at Kestrel Gate under Halverin’s "alignment" path → Lyra names the loss while Riven/Cael split under shared jealousy and fear → public collapse and Halverin’s exposure → **Halverin’s terminal beat (~Act IV / chapter spine) closes his thread** → Seeker-led march through fractured lands to Velorum again → final threat at Greyhaven demands full shared burden → world saved, private selves permanently exposed, Lyra remains witness. Edit the synopsis freely; **when this spec and the synopsis diverge, reconcile here first**, then patch chapters.
 
@@ -112,14 +112,16 @@ The book is **fantasy first**: tragedy and myth land *after* readers recognize t
 2. By end of **Chapter 2** ("The Decision"), readers understand why **Cael** commits and why **Riven** follows despite unease.  
 3. By **Chapters 7–13** (Act II), readers feel the pattern clearly: power through shared burden, civic pressure in **Kestrel Gate**, **Halverin**’s control narrative, **Lyra** as outside witness, and first visible cracks in the bond.
 
-**Status note:** **Chapter 1 ("Heartbridge") is complete** as the current calibration reference for opening geography, attribution strategy, and behavior-led character context.
+**Status note:** **Act I (ch. 1–6) manual revision is complete** — calibration reference for voice, bond-as-consequence, and pacing (~1,400–2,600 words/ch, avg ~1,786). **Act IV (ch. 21–26) manual revision is complete** (~970–1,480/ch). See **[act-1-calibration-standard.md](./act-1-calibration-standard.md)** and **[acts-2-3-5-revision-progress.md](./acts-2-3-5-revision-progress.md)** for aligning **Acts II, III, and V** to this bar (not the old ~2,250-word pipeline average).
+
+**Chapter 1 ("Heartbridge")** remains the **place-first + ridge dialogue** gold file; **Chapter 6 ("The Curse")** is the **consequences-chapter** template for bond scenes.
 
 Carry-forward style principles from Chapter 1 (see **[voice-spec.md](./voice-spec.md)** and **[chapter-edit-pass.md](./chapter-edit-pass.md)** for full passes):
 - **Camera-observable narration** as the default for description: sight-line physical sequence before interpretation—**voice-spec → Camera-observable narration**; revision passes **chapter-edit → Pass D3** when narration drifts literary.
 - **Plain dialogue** on polish: speakable under stress, stakes before ornament—**voice-spec → Plain dialogue**; **chapter-edit → Pass C2**. **Do not** replace approved **profanity** with softer wording during plainness passes—**voice-spec → Plain dialogue** (profanity stays on polish) and **Voice guardrails**.
 - **Abstract nouns:** pressure-test narrator judgment words (*peace*, *beauty*, *meaning*)—prefer labor, terrain, and visible outcomes unless a **character** speaks the abstraction (**chapter-edit → Pass D**, **voice-spec → Plain sense default**).
 - **First-read clarity** for setting labels: plain words on first mention when they carry the same image (**chapter-edit → Pass C3**).
-- **Read-aloud rhythm:** avoid long runs of bare *He/Name + verb* sentences (reportorial stacks)—braid with connective clauses—**voice-spec → Paragraph shape** (**subject–verb streaks**); **chapter-edit → Pass G**; deeper bar **agents → [12-read-aloud-cadence-clarity-editor.md](./agents/12-read-aloud-cadence-clarity-editor.md)**.
+- **Read-aloud rhythm:** avoid long runs of bare *He/Name + verb* sentences (reportorial stacks)—braid with connective clauses—**voice-spec → Paragraph shape** (**subject–verb streaks**); **chapter-edit → Pass G**; deeper bar **agents → [13-read-aloud-cadence-clarity-editor.md](./agents/initial-drafting/13-read-aloud-cadence-clarity-editor.md)**.
 - Dialogue attribution favors **physical action beats** over repeated **said** tags when speaker identity is already clear.
 - New locations open with a **wide-angle geographic establishing shot** before narrowing into close-third perception.
 - Character context surfaces through **behavior and situation** in-scene, not detached explanation blocks.

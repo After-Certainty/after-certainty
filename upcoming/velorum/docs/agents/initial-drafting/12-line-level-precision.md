@@ -21,7 +21,7 @@ Remove **repetition**, tighten **phrasing**, and polish **word-level** choices *
 
 - Change **meaning**, beat order, or emotional temperature
 - “Improve” voice by adding new metaphors or fancier vocabulary
-- **Re-stitch** narration to fix **subject–verb streaks** or read-aloud braid—that belongs in **[03-flow-clarity-editor.md](./03-flow-clarity-editor.md)** / **[12-read-aloud-cadence-clarity-editor.md](./12-read-aloud-cadence-clarity-editor.md)**, not here
+- **Re-stitch** narration to fix **subject–verb streaks** or read-aloud braid—that belongs in **[03-flow-clarity-editor.md](./03-flow-clarity-editor.md)** / **[13-read-aloud-cadence-clarity-editor.md](./13-read-aloud-cadence-clarity-editor.md)**, not here
 - Run this as the **only** pass on a rough draft—Flow/Clarity and Embodiment come first
 
 **STYLE:**

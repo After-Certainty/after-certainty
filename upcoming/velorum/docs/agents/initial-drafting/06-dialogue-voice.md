@@ -8,7 +8,7 @@ Make dialogue **sound natural aloud**, **read distinct per character**, and carr
 - Tightening exchanges: cut throat-clearing, duplicate questions, “both say the same thing twice”
 - Removing **on-the-nose** lines that **explain** what the scene already shows; keep implication
 - Rapid-fire clarity: when one-word volleys stack, add **minimal** tags or named beats so listeners know who spoke (**voice-spec → Rapid banter attribution**)
-- **Bookish sound in speech:** dialogue that reads like **debate club, Sunday school, or jacket copy**—paired abstractions (*theology / spite*), thesis-shaped parallels, essay openers (*The alternative is…*), or **school-register** words when a plainer insult or demand lands harder (**agent 02** handles the same problem in narration)
+- **Bookish sound in speech:** dialogue that reads like **debate club, Sunday school, or jacket copy**—paired abstractions (*theology / spite*), thesis-shaped parallels, essay openers (*The alternative is…*), or **school-register** words when a plainer insult or demand lands harder (**agent 04** handles the same problem in narration)
 
 **DO:**
 - Keep **adjacent narration** in **plain work-language**—avoid **poetic stage directions** (*the words landed like a hand…*) when a **physical fact** or **short beat** carries the same moment (**[agents README](./README.md#concrete-description-default) → Concrete description**)
@@ -33,4 +33,4 @@ Make dialogue **sound natural aloud**, **read distinct per character**, and carr
 - **Targeted edits** on dialogue blocks and adjacent beats (typical)  
 - **Full updated text** when you want a whole-chapter dialogue pass
 
-**When to use:** 👉 After **13-direct-camera-style-pass** and Embodiment when dialogue is a major carrier for the scene. Agent **13** runs the first **sayable-mouth / cut thesis dialogue** pass; **05** deepens **character contrast** and subtext.
+**When to use:** 👉 After **04-direct-camera-style-pass** and Embodiment when dialogue is a major carrier for the scene. Agent **04** runs the first **sayable-mouth / cut thesis dialogue** pass; **06** deepens **character contrast** and subtext.

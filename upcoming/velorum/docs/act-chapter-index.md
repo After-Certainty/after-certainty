@@ -3,11 +3,12 @@
 *~30 chapters, scalable to ~90k words*
 
 ## ACT I — THE CHOICE (Chapters 1–6)
-**Goal:** Establish characters, Greyhaven, the legend, and the curse.
+**Goal:** Establish characters, Greyhaven, the legend, and the curse.  
+**Calibration:** Manual revision complete — **[act-1-calibration-standard.md](./act-1-calibration-standard.md)**.
 
 ### Chapter 1 — Heartbridge
 **POV:** Riven  
-**Gold chapter / drafting exemplar:** manuscript `act-1-the-choice/chapter-01-heartbridge.md`; habits **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)**; revision agents **[agents/README.md](./agents/README.md)**.  
+**Gold chapter / drafting exemplar:** manuscript `act-1-the-choice/chapter-01-heartbridge.md`; habits **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)**; full Act I bar **[act-1-calibration-standard.md](./act-1-calibration-standard.md)**.  
 Riven studies Heartbridge—the hill monument outside Greyhaven. We see his fear of being forgotten and his desire for meaning. Cael frames the legend as purpose.
 
 ### Chapter 2 — The Decision
@@ -20,18 +21,19 @@ They leave town. Establish their dynamic: Cael grounded, Riven searching. First 
 
 ### Chapter 4 — Ashfen
 **POV:** Cael  
-Ashfen (upland march): harsh terrain. Increasing pressure. Velorum’s presence begins to be felt as environmental distortion.
+Ashfen (upland march): harsh terrain. Trust, lag, and wrongness before the summit—Velorum as environmental pressure, not lecture.
 
 ### Chapter 5 — Velorum
 **POV:** Riven  
-They encounter Velorum (presence, not form). Riven feels unease. Cael accepts immediately.
+Ashring onset: presence without form. Bond bleed begins; Cael’s acceptance vs Riven’s unease. Earned commitment at the center.
 
 ### Chapter 6 — The Curse
 **POV:** Cael  
-The bond begins. Emotional leakage and fatigue transfer appear immediately. Initial confusion -> involuntary shared load.
+**Consequences template:** bond as boundary violation (not telepathy demo). Four movements—realization → experiment → argument (*was it worth the cost?*) → acceptance (*We hold*). See calibration doc.
 
 ## ACT II — THE GIFT (Chapters 7–13)
-**Goal:** Show power, introduce Halverin + Lyra, seed instability.
+**Goal:** Show power, introduce Halverin + Lyra, seed instability.  
+**Revision:** Align to Act I bar — **[acts-2-3-5-revision-progress.md](./acts-2-3-5-revision-progress.md)**. Cut pipeline bloat (~2,250 avg → ~1,600–2,000).
 
 ### Chapter 7 — Shared Load
 **POV:** Riven  
@@ -62,7 +64,8 @@ Major action scene. Shared burden destabilizes under emotional fracture. They st
 Riven feels guilt, fatigue, and pain twice (his + Cael’s). First real sense that something is wrong.
 
 ## ACT III — THE BREAK (Chapters 14–20)
-**Goal:** Collapse Halverin, lose Lyra, force truth into the open.
+**Goal:** Collapse Halverin, lose Lyra, force truth into the open.  
+**Revision:** Align to Act I bar — cut thesis closers in public collapse (ch. 18); two-level dialogue (surface vs cost). See **[acts-2-3-5-revision-progress.md](./acts-2-3-5-revision-progress.md)**.
 
 ### Chapter 14 — The Explanation
 **POV:** Cael  
@@ -93,7 +96,8 @@ Halverin loses authority. Cael loses structure. He doesn’t know what to believ
 Riven tries to connect with Lyra but can’t. She leaves. This is a quiet emotional breaking point.
 
 ## ACT IV — THE TRUTH (Chapters 21–26)
-**Goal:** Close Halverin’s thread, seek Velorum, escalate curse, force final understanding.
+**Goal:** Close Halverin’s thread, seek Velorum, escalate curse, force final understanding.  
+**Calibration:** Manual revision complete — **[acts-4-draft-progress.md](./acts-4-draft-progress.md)**; bond as antagonist; Velorum via structure not speeches.
 
 ### Chapter 21 — No Answers Left
 **POV:** Cael  
@@ -120,7 +124,8 @@ Riven can no longer keep his pain, fear, or exhaustion contained to himself. Int
 They reach Velorum. Truth revealed: no cure, only transformation into legend.
 
 ## ACT V — THE LEGEND (Chapters 27–30)
-**Goal:** Final choice, sacrifice, resolution.
+**Goal:** Final choice, sacrifice, resolution.  
+**Revision:** Act I thematic heat + Act IV compression — **[acts-2-3-5-revision-progress.md](./acts-2-3-5-revision-progress.md)**.
 
 ### Chapter 27 — The Choice
 **POV:** Riven  

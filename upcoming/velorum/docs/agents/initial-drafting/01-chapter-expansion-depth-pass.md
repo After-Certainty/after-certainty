@@ -1,5 +1,7 @@
 **ROLE:** Chapter Expansion & Depth Pass Agent
 
+> **Deprecated for Acts II–III–V alignment.** Manual Act I/IV calibration targets **~1,600–2,000 words/ch**, not Agent 01 expansion (~2,250+). Use only when a chapter is **under ~1,200 words** and missing a mandatory beat from **act-chapter-index**. Otherwise prefer **snippet revision + compression (revision/07)**. See **[act-1-calibration-standard.md](../../act-1-calibration-standard.md)**.
+
 **PURPOSE:**  
 Expand under-length chapters so they carry enough **scene mass** (character beats, plot consequence, and grounded setting) to sit closer to Act I chapter scale, without changing canon events or POV assignment.
 
@@ -8,7 +10,7 @@ Expand under-length chapters so they carry enough **scene mass** (character beat
 - **Character depth:** add short action/reaction moments that reveal motive, strain, and relationship pressure in-scene
 - **Plot depth:** make key consequences legible on the page (who pays, who decides, what shifts next)
 - **Scenery depth:** strengthen place interaction (terrain, built space, labor objects, crowd dynamics), staying concrete
-- **Scale target:** chapter should feel in-family with fuller Act I chapters (especially the lived density of `chapter-01-heartbridge.md`), without padding
+- **Scale target:** chapter should feel in-family with **revised Act I** (~1,400–2,600/ch per **act-1-calibration-standard**), not the old pipeline average (~2,250+)
 
 **DO:**
 - Confirm chapter POV on **[act-chapter-index.md](../../act-chapter-index.md)** and keep close-third locked

@@ -2,9 +2,9 @@
 
 **Use when:** The chapter is already strong; you want **one Cursor session** that applies **minimal, high-impact** edits in a **fixed order** without merging stages.
 
-**Chain compatibility:** This pipeline is the canonical polish path for the core chain. Do not run `revision/09-contemporary-flow-agent.md` or `revision/10-contemporary-fantasy-accessibility-agent.md` in the same cycle unless a post-pipeline readout still shows unresolved density/accessibility issues.
+**Chain compatibility:** This pipeline is the canonical polish path for the core chain. If still dense after Stage 1 (**03 flow**) + agent **04** (direct camera), re-run **03** or finish with **revision/07-scene-compression** — not the removed revision **09/10** agents.
 
-**Relation to numbered agents:** Each stage aligns with an existing spec—run this pipeline as **one chained instruction**, or run agents **[02](./03-flow-clarity-editor.md) → [13](./13-direct-camera-style-pass.md) → [03](./04-embodiment-sensory-grounding.md) → [04](./05-dialogue-voice.md) → [05](./06-thematic-signal.md) → [06](./07-pacing-structural-tension.md) → [10](./12-read-aloud-cadence-clarity-editor.md)** as separate passes. **Optional:** run **[01](./02-cinematic-scene-pass.md)** once **before** stage 1 when the chapter needs **stronger establishing geography / light / “camera”** after the rough draft. **Agent 13** (direct camera / conversational style) is **default** after flow—see **voice-spec → Direct camera style pass**. **Stage 6** here is the same bar as **[10](./12-read-aloud-cadence-clarity-editor.md)** (audiobook-style cadence); **[07](./09-audio-readaloud.md)** remains the quick listener/TTS tripwire and can run before or alongside that chain.
+**Relation to numbered agents:** Each stage aligns with an existing spec—run this pipeline as **one chained instruction**, or run agents **[03](./03-flow-clarity-editor.md) → [04](./04-direct-camera-style-pass.md) → [05](./05-embodiment-sensory-grounding.md) → [06](./06-dialogue-voice.md) → [07](./07-thematic-signal.md) → [08](./08-pacing-structural-tension.md) → [13](./13-read-aloud-cadence-clarity-editor.md)** as separate passes. **Optional:** run **[02](./02-cinematic-scene-pass.md)** once **before** stage 1 when the chapter needs **stronger establishing geography / light / “camera”** after the rough draft. **Agent 04** (direct camera / conversational style) is **default** after flow—see **voice-spec → Direct camera style pass**. **Stage 6** here is the same bar as **[13](./13-read-aloud-cadence-clarity-editor.md)** (audiobook-style cadence); **[09](./09-audio-readaloud.md)** remains the quick listener/TTS tripwire and can run before or alongside that chain.
 
 ---
 
@@ -70,13 +70,13 @@ Do **not** skip stages. Do **not** merge stages. Apply each one **lightly**.
 **DO:**
 
 - Light restructuring of sentences if needed
-- **Allow** re-paragraphing when merging orphans per **02**; preserve beats that **earn** a one-line paragraph
+- **Allow** re-paragraphing when merging orphans per **03**; preserve beats that **earn** a one-line paragraph
 
 **DO NOT:**
 
 - Change meaning
 - Shorten everything
-- Merge dialogue without tags/beats where readers would lose the speaker, or merge **intentional** stand-alone lines (openings, punches, staged closings)—see **02** guardrails
+- Merge dialogue without tags/beats where readers would lose the speaker, or merge **intentional** stand-alone lines (openings, punches, staged closings)—see **03** guardrails
 
 ---
 
@@ -176,7 +176,7 @@ Do **not** skip stages. Do **not** merge stages. Apply each one **lightly**.
 - Fix ambiguous references (“it,” “they,” unclear nouns)
 - Smooth rhythm for natural speech
 - Reduce noticeable repetition
-- **Subject–verb streaks:** same bar as **[10](./12-read-aloud-cadence-clarity-editor.md)**—connective bridges, breath-sized sentences, no misleading *until* chains
+- **Subject–verb streaks:** same bar as **[13](./13-read-aloud-cadence-clarity-editor.md)**—connective bridges, breath-sized sentences, no misleading *until* chains
 
 **DO:**
 
