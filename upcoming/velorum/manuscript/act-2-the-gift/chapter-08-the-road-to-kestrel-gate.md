@@ -12,15 +12,13 @@ The phrase landed awkwardly. Like he'd practiced it. Cael looked at Riven. Riven
 
 For a second nobody answered. The road creaked behind them. A horse stamped somewhere in the fog. The miller spat into the ditch. Then everybody started talking at once.
 
-By the second mile stone the crowd had grown—a cooper with rope burns, a guard deserter looking for work, a priest who wanted to bless the road and got told to move on. Cael answered with routes and axle pins. Riven answered with profanity until people stopped asking and started following.
+By the second mile stone a cooper with rope burns, a guard deserter looking for work, and a priest who wanted to bless the road had joined the line. Cael answered with routes and axle pins. Riven answered with profanity until people stopped asking and started following.
 
-By noon he'd heard the same trouble from half a dozen mouths—wagons hit on the lower road, storehouses broken into, a bridge support cut in the night, men with bad knives wherever the road narrowed. The details changed. The trouble didn't. Something was testing the roads, looking for places that would break.
-
-Each telling brought rumors too: dead fish, bad water, dogs refusing certain paths, dust hanging after travelers passed. Most of it was fear looking for a home. Not all of it.
+By noon he'd heard the same trouble from half a dozen mouths—wagons hit on the lower road, storehouses broken into, a bridge support cut in the night. The details changed. The trouble didn't.
 
 At a granary yard south of the causeway they spent half a day replacing supports while carts waited. The yard opened off the road—a packed dirt square, timber stacks along the south wall, slate roof sweating tar in the heat. Cael wedged a support while Riven held the line. The owner tried to pay in copper. Cael refused. Riven took rope. The owner looked relieved and cheated in the same breath.
 
-For two days the road kept breaking.
+For two days the road kept breaking. Witness sheets followed them like weather—*causeway crossing, bridge hold, guard post patched*—each copy billed to the next clerk whether they signed or not.
 
 Blind turns stacked carts until somebody waved them over. Axle pins sheared. Harnesses snapped. Ditches swallowed wheels. Guard posts sat empty. Wherever they arrived, somebody was already waiting—not with a name, with a problem.
 
@@ -42,11 +40,9 @@ Cael marked the tree line on the ledger margin and passed the book to Riven. "Sp
 
 They fixed what they could. They moved on. A brewer pressed a clay bottle into Cael's hands at dusk; Cael handed it to Riven before the argument finished. Nobody thanked them much. People just started breathing again—the drivers loosening their grip on the reins, a woman climbing back onto a wagon seat instead of standing beside it ready to run. The road felt less tight when they passed. Riven felt that too; the same relief brushed through both of them at once. That still wasn't normal. That still bothered him.
 
-At a burned granary yard—charred timbers still steaming in the afternoon rain—they spent an hour stacking salvage while owners argued over insurance slates. Nobody thanked them. The owners signed witness sheets anyway—names, dates, *pair from Ashfen*—and Riven felt his stomach tighten each time the pen touched paper.
+At a burned granary yard—charred timbers still steaming in the afternoon rain—they spent an hour stacking salvage while owners argued over insurance slates. The owners signed witness sheets anyway—names, dates, *pair from Ashfen*—and Riven felt his stomach tighten each time the pen touched paper.
 
-At an empty guard post they patched a roof leak with canvas and tar, working by the grey spill from the doorway. At a bridge they replaced a rotted support while carts waited in silence, late sun on the water below. At a water stop shaded by willows a child asked if they could carry the bond forever. Riven said no. Cael said long enough. The child looked relieved and disappointed in the same breath.
-
-By the third afternoon, people weren't looking for Cael and Riven. They were looking for the pair. The names changed depending on who was telling it—the sworn men, the road-binders, the ones from Ashfen. The story always arrived before they did.
+At an empty guard post they patched a roof leak with canvas and tar. At a bridge they replaced a rotted support while carts waited in silence. By the third afternoon, people weren't looking for Cael and Riven. They were looking for the pair. The names changed depending on who was telling it—the sworn men, the road-binders, the ones from Ashfen. The story always arrived before they did.
 
 At a water stop a clerk from a merchant train asked them to sign a witness sheet—*causeway crossing, date, no deaths.* Cael signed. Riven watched the ink dry and felt his stomach tighten. The clerk copied their names onto three copies before they left.
 
@@ -60,11 +56,7 @@ Cael filled the water skin. "Stories keep people moving."
 
 "Stories get people fucking killed."
 
-Cael drank and handed the skin over. "Only if nobody sees what they cost."
-
-Riven looked at the knot again. Didn't answer. Riven's thought came through anyway: if they knew, they'd still ask. Cael couldn't argue with that. He'd been thinking the same thing all day.
-
-The fresh cord bothered him more than the carving. The figures were old. The knot was new. Somebody had stood here recently, looked at two worn shapes in the stone, and decided they still needed the story. They left before either of them could say more.
+Riven looked at the knot again. Didn't answer. The fresh cord bothered him more than the carving. Somebody had stood here recently and decided the story still needed tying. They left before either of them could say more.
 
 A mile past the shrine they found where a bridge support had been cut—not sawed clean, hacked at an angle that would hold until weight hit wrong. Cael wedged a fresh timber while Riven held the line and kept the wagons back. A driver argued about delay until Riven told him to shut up or walk. The driver shut up.
 
@@ -122,8 +114,6 @@ The woman pretended not to hear him. She didn't let go of his sleeve. "Don't sto
 
 "We'll talk to him."
 
-Riven heard the reason underneath the words immediately—duty, responsibility, the same damn thing that kept pulling Cael forward.
-
 Night found them among a ring of wet campfires on a flat stretch beside the road—six fires, maybe eight, drivers and families clustered close while the fields beyond stayed empty and black. Questions followed them there too. People asked until they were too tired—not whether the bond hurt anymore, but whether they'd stay on the road another week, another bad stretch, another empty guard post. Like the answer was already yes and they only wanted to hear it out loud.
 
 Before the questions started, Cael filed the empty-post fight in the ledger stub the cooper had given him—names, dates, tree line, *two bound, one fled.*
@@ -150,17 +140,17 @@ Around the fire, conversations drifted and merged. Riven listened without meanin
 
 By the third telling, half the details had changed. Nobody mentioned the mud anymore, or the shouting. The carts had become heavier, the water deeper, the danger worse. By the end of it, they weren't two men hauling wagons through a flooded crossing. They were the reason the crossing held.
 
-A cooper asked whether they shared one set of lungs. Riven said that was stupid. Cael said sometimes it felt that way. The cooper nodded and went back to his cup.
-
-Riven glanced across the fire. Cael heard it too. Cael didn't say anything. That bothered Riven almost as much as the stories.
+Riven glanced across the fire. Cael heard the story too. Cael didn't say anything. That bothered Riven almost as much as the stories.
 
 Rain hit before dawn. They kept three fires alive when they should have had none. Frost came the next morning, white on the grass between the fire rings. A smoke plume over a distant granary yard sent them running; the fight ended before the owners learned who had come. The owner tried to press copper into Cael's hand. Cael pushed it back. Riven took rope instead—good hemp, dry, worth more than the coins.
 
-When the wagons moved again, drivers looked at Cael before they touched the reins—waiting, checking, for any sign the road ahead was safe. Riven felt the reaction move through the bond. Not pride, not exactly. Responsibility. That was worse.
+When the wagons moved again, drivers looked at Cael before they touched the reins—waiting, checking, for any sign the road ahead was safe. Riven felt the reaction move through the bond.
 
 At a blind turn on the final approach a boy ran out with a message from three carts back—*wheel hot, stop now.* Cael stopped the line before Riven heard the shout. The wheel had cracked through the hub. They pulled it and lashed a spare while the owner watched without blinking.
 
 At a water stop near dusk a cooper's wife pressed a charm into Riven's palm—two figures back to back, carved soft from use. "For the road," she said, and wouldn't take it back when he tried. Cael felt Riven's irritation spike and his own shame answer it. The charm sat in Riven's pocket unwanted.
+
+Near the final mile stone a wheelwright refused credit to a grain train until a witness sheet named who had held the causeway. The train master shouted. Cael signed. Riven watched the wheelwright unlock his tools and felt the cost land in his chest—another story that would travel faster than the carts.
 
 Later that night they camped beneath bent pines on a rise above the road. One fire burned low between the trunks, embers pulsing red against the dark. Riven lay wrapped in his blanket, staring into the coals. Cael sat against a log, watching sparks rise and vanish.
 
@@ -184,7 +174,7 @@ Riven rolled onto his back. "That farmer at the causeway. Half his seed. You hea
 
 "So what do we need?"
 
-Cael had been carrying the same question for three days, long before Riven asked it. The answer came too quickly. That was the problem.
+Cael had been carrying the same question for three days, long before Riven asked it. The answer came too quickly.
 
 "A direction."
 
@@ -210,14 +200,20 @@ A clerk at the south gate had their names on a list before they reached the fron
 
 The gate queue stretched half a mile—carts, livestock, families, guards counting by habit rather than hope. They signed the entry slate. The guard stamped it.
 
-Inside the gate the city hit them—ration lines, missing notices, guards too young, clerks too tired. The same paste strip hung on the first wall. *THE ROAD HOLDS.* Riven kept walking. A clerk at the first intersection had a list of arrivals—names, dates, *pair from Ashfen* written in bold. He asked them to sign a witness sheet for the causeway crossing. Cael signed. Riven watched the ink dry and felt his stomach tighten.
+A freight clerk at the arch was posting surcharges before they'd cleared the gate—*road salvage delay, river credit hold.* Two merchants argued over who signed first. Cael initialed Merrow's arrival stub anyway. Riven watched a baker's cart turn away from the queue when the clerk said ovens were closed for lime ash.
+
+Inside the gate the city hit them—ration lines, missing notices, guards too young, clerks too tired. The same paste strip hung on the first wall. *THE ROAD HOLDS.* Riven kept walking. At the first intersection a baker's boy was hauling night flour toward the lime queue; the shop behind him stayed barred.
 
 Merrow's runner found them at the barracks arch, slate under his arm, empty hands. "Report before first light. Bring your own stub if Merrow issued you one." He looked embarrassed. "Yesterday's stack went missing with the ration count."
 
 "Missing how?" Riven asked.
 
-"Wrong crate. Halverin's clerk." The runner left before Cael could ask follow-up questions.
+"Wrong crate. Halverin's clerk." The runner left before Cael could ask follow-up questions. Behind him a patch crew was still arguing over wet gate timber while a freight clerk posted river surcharges before the pair had cleared the arch. Cael initialed Merrow's copy. Riven initialed because the yard required ink, not agreement.
 
 For the first time since leaving Greyhaven, Cael looked at the watchfires and didn't look miserable. Riven felt the lift in his chest before he could hate it.
 
-Neither of them spoke. They kept walking toward the barracks arch.
+At the barracks arch a carpenter was unloading wet patch timber marked *gate only.* A cooper beside him refused credit until a salvage slate cleared. Cael paid in copper from the road pouch. Riven watched the cooper count nails twice and short the bag anyway. Neither of them spoke about it.
+
+Inside the arch a barracks sergeant had already moved two regular cots to the storeroom and chalked *pair* on the wall where the bunks had been. A dockhand from the south watch stood in the corridor with his bedroll and nowhere to put it. "Magistrate's order," the sergeant said, not looking at either of them. "Hero row gets the window." The dockhand looked at Riven like Riven had chosen it. Riven hadn't. He felt Cael's urge to apologize cross anyway and kept his mouth shut.
+
+They kept walking toward the barracks arch.

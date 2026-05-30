@@ -39,12 +39,13 @@ See **[post-expansion/README.md](./post-expansion/README.md)**.
 | **03** | [consequence-agent](./post-expansion/03-consequence-agent.md) | **Third** — reinvest cuts with escalation; preserve ~90k–100k length |
 | **04** | [character-voice-agent](./post-expansion/04-character-voice-agent.md) | **Fourth** — distinct mouths; prevent author-voice convergence |
 | **05** | [world-pressure-agent](./post-expansion/05-world-pressure-agent.md) | **Fifth** — operational strain; living system not symbolic backdrop |
+| **06** | [humanity-agent](./post-expansion/06-humanity-agent.md) | **Sixth** — final verification; restore lived randomness |
 
-**Full post-expansion stack:** **01 → 02 → 03 → 04 → 05** before polish or compression. **~50%** revision effort on **01**, **~20%** on **04**, **~10% each** on **02**, **03**, **05**.
+**Full post-expansion stack:** **01 → 02 → 03 → 04 → 05 → 06** before polish or compression. **~50%** revision effort on **01**, **~20%** on **04**, **~10% each** on **02**, **03**, **05**, **06**.
 
 ## Targeted revision agents
 
-See **[revision/README.md](./revision/README.md)** — run **after** post-expansion **01 → 05**; **revision/05** and **08** redirect to **post-expansion/05** and **02**; **07-scene-compression** always last.
+See **[revision/README.md](./revision/README.md)** — run **after** post-expansion **01 → 06**; **revision/05** and **08** redirect to **post-expansion/05** and **02**; **07-scene-compression** always last.
 
 ## Removed (superseded)
 

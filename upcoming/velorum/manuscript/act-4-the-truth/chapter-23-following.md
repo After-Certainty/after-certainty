@@ -20,19 +20,17 @@ The night before had been the worst yet. No fire. Hard bread soaked with dew. Ri
 
 At a bend in the trail Riven stopped and vomited nothing into the grass. Cael waited, jaw tight, feeling the dry heave in his own throat. When Riven straightened, he said, "Walking anyway." Cael nodded. The rule held.
 
+"Should've skipped breakfast," Riven said. "If we'd had breakfast."
+
+"We didn't."
+
+"Exactly my point."
+
 Once, midmorning, Riven had stopped without warning and pressed both palms against a boulder beside the trail. Cael felt the stone's cold before he saw Riven touch it. The bond carried texture now, grit under skin, vibration in the rock that shouldn't have been there. Riven stood there for ten breaths. Then he walked again. Cael didn't ask. Asking would have been a sentence.
 
 Through the bond, Cael felt Riven stop calculating the walk back. Not all at once. Just a door closing somewhere behind them.
 
-The first week after the square he would have measured everything twice. After Halverin's office, maybe three times. Now he found himself watching the Seeker instead, not because he trusted them, because he was tired. The distinction mattered.
-
-The Seeker's boots left prints that sometimes pointed the wrong direction. Cael had noticed on the second day and stopped mentioning it. Arguing with the ground had stopped being useful somewhere south of the slip.
-
-Midday they passed a milestone someone had tried to reset. The chiseled numbers overlapped: *12* and *12* again, the second cut deeper, as though the carver had hoped repetition would make the count true. Riven spat beside it. "Even the fucking miles lie."
-
-"Keep walking."
-
-"I am walking."
+The Seeker's boots left prints that sometimes pointed the wrong direction. Cael had noticed on the second day and stopped mentioning it.
 
 The trail forked around a split boulder. The Seeker tapped the left path with the staff and kept walking. No explanation. No warning. Just a direction.
 
@@ -40,13 +38,9 @@ Cael hesitated. Old habits wanted evidence, a reason, a list. The Seeker disappe
 
 The left path dropped through a slot barely wide enough for shoulders. Wind squeezed through after them, cold and metallic. Halfway down, Cael's staff tip rang against stone and the sound returned from three directions at once. Riven swore. The swear echoed late.
 
-The left path held. Rock. Staff. Riven still behind him. Cael felt his shoulders loosen, only a little, enough to notice.
+The left path held. Rock. Staff. Riven still behind him.
 
-The country grew stranger the farther north they walked. Streams hesitated. Wind arrived wrong. Shadows sometimes forgot where they belonged. Cael stopped keeping track.
-
-By noon they crossed a narrow shelf above a scree slope. Riven was complaining about something, probably him. The bond carried the shape of the complaint without the words. Cael almost smiled. That surprised both of them.
-
-Below the shelf, scree moved in slow ripples, as though something underground were breathing. A stone dislodged itself and rolled uphill three feet before stopping. Riven watched it. "Don't."
+Below the shelf, scree moved in slow ripples. A stone dislodged itself and rolled uphill three feet before stopping. Riven watched it. "Don't."
 
 "I'm not doing anything."
 
@@ -92,6 +86,10 @@ Riven sat up. "You ever notice the staff taps late?"
 
 Cael didn't argue. The observation was accurate. Out here accuracy was its own kind of comfort.
 
+At a seep that tasted like tin, a Gate patrol passed going south—spears vertical, bread sacks half empty. One guard complained that demonstration prep had cut the ration issue again. Nobody looked at Cael or Riven. They weren't the problem today. They were just in the way.
+
+They passed a maintenance post an hour later—tool rack empty, nails gone, roof beam patched with green wood and no crew. A slate nailed to the door read *crew reassigned, wall demonstration, return when posted.* Riven read it twice. Cael copied the date into the map margin. The north road was already forgetting how to hold itself up.
+
 Once, deep in the night, Riven heard the Seeker's staff tap somewhere beyond the ridge. One strike. Then nothing. He waited for the second tap. It arrived while he was still waiting for the first. Time doing whatever it wanted.
 
 On the fifth day the trail dropped into a valley of bent trees. The trunks leaned against winds that had already passed. Riven stared up at them.
@@ -104,7 +102,7 @@ A branch moved overhead. The leaves answered a moment later.
 
 Cael's teeth felt wrong too, a faint vibration, not pain, just enough to keep him aware of them. He kept walking.
 
-They passed a dead cart overturned beside the trail. No horse. No driver. Cargo spilled: cracked pottery, a coil of rope grey with weather, a child's shoe. Nobody had come back for any of it. Cael didn't stop. Stopping invited questions. Questions invited answers he didn't have.
+They passed a dead cart overturned beside the trail. No horse. No driver. Cargo spilled: cracked pottery, a coil of rope grey with weather, a child's shoe. A woman's shawl was caught under the wheel hub, mud-stiff, still pinned as though she'd dropped it reaching for the reins. Nobody had come back for any of it. Cael didn't stop. Stopping invited questions.
 
 Riven slowed anyway. Cael felt it through the bond before Riven's boots changed rhythm. "Don't."
 
@@ -112,11 +110,9 @@ Riven slowed anyway. Cael felt it through the bond before Riven's boots changed 
 
 "Good."
 
-"Just looking." Riven kept walking. "Someone left in a hurry."
+"Just looking." Riven kept walking. "She left the shawl."
 
-"Yes."
-
-"Or something made them leave."
+"Or couldn't reach it."
 
 Cael adjusted his grip on the staff. "Keep walking."
 
@@ -174,6 +170,14 @@ Cael adjusted his grip on the staff. "We're not demonstrating."
 
 "Maybe." Riven kicked at the trail. "Still feels like some bastard's counting."
 
+A hour later they found chalk on a flat stone, arrows pointing north, child-sized. Someone had drawn them and someone else had scraped half away. Riven stared at the smear. "Kids from the square?"
+
+"Kids from somewhere." Cael didn't touch the stone. "If we wash it, they'll draw again."
+
+"So we leave it."
+
+"So we leave it." Cael walked on. The arrows pointed the same direction the Seeker did. That didn't make them true. It only made them hard to ignore.
+
 Rain beaded on his sleeve and rolled upward once before falling. Cael watched it and said nothing. Watching was enough.
 
 That stayed with Cael for the rest of the climb.
@@ -189,6 +193,10 @@ The climb to the crest took an hour Cael couldn't account for. Time had started 
 Cael's staff had developed a wobble near the grip. He shifted his hold every hundred paces. Riven's blister had reopened despite the cloth wrap. Blood showed through at the heel of his boot. Neither mentioned it. Mentioning it wouldn't change the walking.
 
 At the crest the country opened beneath them: broken hills, a distant storm, a pale track winding north, and beyond it, on the highest rise either of them could see, something built from stone. Not natural. Not close. Real.
+
+A raven launched from the ring's direction and landed on the rise before its wings finished beating. Cael watched it and said nothing. Riven said, "If that's an omen, I hate it."
+
+"If that's an omen, we're already fucked." Cael adjusted his pack. "Keep walking."
 
 Riven stood beside him. Neither spoke for a moment. Wind tore at their coats. Cael's staff swayed. He planted it harder.
 
@@ -220,11 +228,19 @@ Lightning split the grey without sound. Then sound arrived all at once, late, wr
 
 Hail followed, stones the size of knuckles, falling sideways. Riven turned his shoulder. Cael turned his. Bruises formed in both bodies before either saw the marks.
 
+When it passed, Cael's map case was soaked through. Ink ran off the margin notes into grey smear. Merrow's woodcut blurred until the joined pair looked like one body with two heads. Riven tried to wipe it dry with his sleeve and made it worse. They walked the rest of the afternoon with only the Seeker's prints and memory to trust.
+
 Riven walked ahead for a while. Not leading. Just needing space the bond wouldn't grant. Cael felt the need and gave him three paces anyway. It wasn't privacy. It was courtesy. Out here courtesy counted.
 
 They reached the ring's foothills by dusk. Stone underfoot again. Solid enough to trust for minutes at a time. The ring itself sat above them, pale, patient. Cael counted standing stones from below. Lost count when the light failed. Riven didn't ask the number. Numbers had stopped helping.
 
 They slept in the lee of a boulder. No fire. The Seeker sat facing the ring. They sat facing the Seeker. Sleep came in pieces. Dreams crossed. The ring appeared in both of them before they saw it in the morning.
+
+Before light, Cael woke to Riven muttering inventory again—not Halverin's counts, pack counts. Bedroll. Line. Iron. Water. The bond carried the rhythm until Cael shook him once. Riven surfaced angry, then ashamed, then quiet. "If we lose the map, we're fucked."
+
+"We lost half the map yesterday."
+
+"Then we're half fucked." Riven sat up and checked the pack straps anyway. Habits outlasted ink.
 
 Before light, Cael woke to Riven muttering numbers. Not coordinates. Counts. Steps. The bond carried the rhythm until Cael shook him once and the muttering stopped.
 
@@ -252,18 +268,14 @@ North was still enough.
 
 They ate the last good bread standing up. No fire. No rest. The ring's shadow reached for them before the sun did.
 
-Halfway down the shadowed trail, Riven's boot slipped on dust that hadn't fallen yet. Cael caught balance on his staff. Neither fell. Falling was for tomorrow.
-
-The trail into the ring's shadow took the rest of the morning. Riven tested each stone. Cael watched the Seeker's prints. Neither spoke. Speaking cost breath they needed for climbing.
+Halfway down the shadowed trail, Riven's boot slipped on dust that hadn't fallen yet. Cael caught balance on his staff. Neither fell.
 
 Wind rose from the Ashring below and carried dust upslope. Riven tasted stone on his tongue. Cael tasted it too. The ring's hum found his teeth before his ears.
 
-At the cut's edge they stopped. Below, the Ashring waited. Above, cloud broke once and showed the standing stones. Cael felt Riven's pulse through the bond. Fast. Steady. Still walking.
+At the cut's edge they stopped. Below, the Ashring waited. Above, cloud broke once and showed the standing stones.
 
 Riven spat dust. "Tomorrow."
 
 "Yeah." Cael shifted his pack. The staff swayed. He ignored it. "Tomorrow."
-
-The Seeker's staff tapped once below the cut. Late. Always late. Cael watched the print fill with dust that fell upward for three breaths, then stopped. Wrong water ran somewhere under the stone. He heard it in Riven's pulse before his ears.
 
 Neither turned back. Turning back would have required a direction they no longer had.

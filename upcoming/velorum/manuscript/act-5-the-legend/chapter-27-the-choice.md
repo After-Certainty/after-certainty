@@ -8,9 +8,7 @@ Merrow's last note had been blunt: *Berm failure chain moving toward Greyhaven. 
 
 They came back anyway because there was no other address left in them.
 
-The road down from Ashring had been wrong in small ways, gravel sliding after their feet, reflections lagging in puddles, fatigue crossing the bond before either of them named it. Riven had slept in snatches and woken with Cael's dreams still running in his chest. Cael had stopped apologizing for that. Riven had stopped pretending he did not notice.
-
-The bond had been tide since Velorum: fatigue crossing in sleep, pain echoing hours later, mood without privacy. Riven had stopped pretending he could keep one feeling in one skin. He had not stopped wanting to.
+The road down from Ashring had been wrong in small ways—gravel sliding after their feet, reflections lagging in puddles, fatigue crossing the bond before either of them named it. Riven had stopped pretending he could keep one feeling in one skin. He had not stopped wanting to.
 
 He wanted Lyra in a room that stayed closed. He wanted the ridge argument before the oath. He wanted to matter without being watched. All of it crossed to Cael before he finished the thought.
 
@@ -80,7 +78,7 @@ Merrow's runner banged the cooper's door once at midnight and left a timber tall
 
 Riven turned on his side. "That's surrender."
 
-"That's what we've been doing in pieces since Ashfen," Cael said. "The square was a piece. The road was a piece. Velorum just named the whole thing."
+"That's what we've been doing in pieces since Ashfen," Cael said. "Velorum said the name."
 
 Riven remembered Lyra's voice: *loss, not refinement.* He remembered Halverin's counts. He remembered the woodcut at Heartbridge, two men, one rope, heroes curse never forgotten. He remembered wanting meaning on that hill and getting a load that did not care what he wanted.
 
@@ -92,9 +90,9 @@ He had wanted to be remembered for something that mattered. The town was already
 
 "Love?"
 
-The bond carried the word before Riven could take it back. Cael's breath caught. Riven felt the catch in his own ribs. He had not said it to win an argument. He had said it because it was the thing he could not keep in one skin anymore.
+The bond carried the word before Riven could take it back. Cael's breath caught. Riven felt the catch in his own ribs. He had not said it to win an argument. He had said it because the word was already in both their mouths.
 
-"Love doesn't stay private," Cael said. "Nothing else does either. You want one without losing the others. You can't."
+"Love doesn't stay private," Cael said. "You want the room and the berm. You can't have both."
 
 Riven closed his eyes. "If I choose the load, I lose the room."
 
@@ -198,17 +196,9 @@ Henn sat on an upturned crate with his bandaged hand held high so nobody would b
 
 Merrow's runner came back before the meal was finished with a corrected tally—*eight posts, not twelve; bridge crew owes four by dusk*—and Bran swore loud enough to scare gulls off the channel. Riven folded the note into his belt next to the Heartbridge line and felt Cael read both without looking.
 
-"Still us?" Riven asked, mouth full of bread that tasted like river mud.
+When the bell rang for second shift, three laborers from the bridge crew showed up late with the wrong timber—board lengths too short for posts—and Merrow sent them back without apology. Riven watched her count the stack twice, chalk on her fingers, face like bad weather. The gap was in their shoulders too.
 
-"Ask me at the berm," Cael said.
-
-"Same question."
-
-"Same answer."
-
-When the bell rang for second shift, three laborers from the bridge crew showed up late with the wrong timber—board lengths too short for posts—and Merrow sent them back without apology. Riven watched her count the stack twice, chalk on her fingers, face like bad weather. She did not look at him or Cael when she marked the gap. She did not need to. The gap was in their shoulders too.
-
-They braced on the berm again as the channel groaned. Not the full tear. Not yet. Pressure testing the cut the way a bad joint tested before it split. Riven felt it in his ankles and felt Cael feel it and did not try to hide either.
+They braced on the berm again as the channel groaned. Not the full tear. Not yet. Pressure testing the cut the way a bad joint tested before it split.
 
 "Don't split," Cael said.
 

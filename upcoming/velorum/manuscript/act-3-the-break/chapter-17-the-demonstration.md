@@ -6,9 +6,13 @@ Families had camped on the side streets since before dawn. A bread seller moved 
 
 A magistrate aide counted heads at the east rope and wrote the tally on a pocket slate. Cael saw the number and looked away. Numbers would not keep the frame from dipping when fear hit.
 
+At the west lane Merrow's medic wagon stood open with six cots made up and injury slates blank. An orderly counted bandage rolls twice and wrote the tally on Merrow's slate before Halverin's clerk could copy it. Lyra checked the south tent flap from inside—cot placement, lane width, no front row—and did not look at the platform.
+
 Cael had read the crowd rules from the steps ten minutes before first bell. His voice had held. Merrow had nodded once from the west lane, approval or warning, he could not tell. Now his mouth was dry and the sheet was folded in his belt anyway, useless once the square filled.
 
 Paste crews had worked through the night. Broadsides on three walls. Banners from balconies. A cloth with the woodcut pair stitched uneven but earnest. *STEADINESS RETURNS.* *PROOF OF BURDEN.* Their names in bold where everyone could read them before their eyes could disagree.
+
+At the south lane Lyra checked cot placement with two medics—six made up, two spare, injury slates blank—and did not look at the platform. A guard at the east rope argued with Halverin's aide about whether demonstration day changed patrol rotation. Merrow's runner settled it: injury cord first, magistrate queue second. The guard initialed Merrow's slate and took his post at the west lane mouth.
 
 He stood on the east staging mark with his boots set on chalk and his hands loose at his sides because Halverin had told him clenched fists read as fear. The crowd filled every rope line and spilled into the side streets. Faces turned up.
 
@@ -24,7 +28,9 @@ Riven stood three paces to Cael's left, jaw tight, eyes on the guards at the mar
 
 They stepped forward on the count. The bond caught and settled. For six steps they matched the road: one rhythm, one load. Cael's boots found chalk. Riven's found chalk. The square went quiet.
 
-Halverin's clerk at the platform rail timed the steps on a pocket slate. Cael heard the stylus scratch between counts. The scratch arrived late from the north wall echo. Cael filed it again and kept moving.
+Halverin's clerk at the platform rail timed the steps on a pocket slate. Cael heard the stylus scratch between counts. The scratch arrived late from the north wall echo. Cael filed it and kept moving.
+
+At the west lane an orderly counted bandage rolls and wrote the tally on Merrow's injury slate. Halverin's aide tried to copy the number to a sequence column. Merrow's medic blocked the slate with her elbow. "Injury lane. Not your column." The aide left with ink on his cuff.
 
 A cooper's nephew near the north rope held up a charm on a string—the same woodcut pair from the wall, painted crude in red. His uncle shoved his arm down. The charm swung once and stilled. Cael saw it and kept his eyes on Halverin's hands.
 
@@ -104,7 +110,7 @@ Riven's anger hit the bond hot. Cael's shame answered it. The frame dipped again
 
 "Again," Halverin shouted. "Discipline."
 
-They tried. Cael read the crowd faces in blocks: mothers with children behind the rope, merchants who had lost stalls, the fishmonger without his brother, guards trying to look bored and failing. Every face was a demand. *Show us the ground holds.*
+They tried. Cael kept his eyes on the chalk marks and Halverin's hands. The fishmonger without his brother stood at the north rope with his arms folded. A cooper's nephew held a charm on a string until his uncle shoved his arm down. Every face was a demand. *Show us the ground holds.*
 
 A tanner's apprentice in the second row fainted from heat and paste and no breakfast. Lyra's orderly caught him before he hit stone. Halverin did not stop the run. Merrow's medic took the boy to the west lane without breaking formation.
 
@@ -120,7 +126,11 @@ A paste boy dropped his bucket and ran when the front row surged. Paste smeared 
 
 Two guards at the margin argued about whether to fix the cracked rope post or leave it as evidence. Merrow said leave it. Halverin said fix it. Merrow won without raising her voice.
 
+A paste crew at the north wall scraped the old broadside in wet strips so fresh paste would stick if Halverin ordered a correction sheet mid-run. They worked without looking at the platform.
+
 A magistrate runner tried to collect names for a correction broadside mid-run. Merrow's guard blocked him with a spear shaft, flat side. "Injury slate first." The runner left. Cael kept his hands on the frame.
+
+At the south lane a baker's wife pulled her husband back from the rope line. "We're closing at noon whether he finishes or not." The husband looked at the platform and shook his head. They left through the side street with their tray half full.
 
 The square tightened. Cael smelled sweat and paste and the iron edge of fear. Motion over the fountain basin looked wrong by a finger width, sound arriving late.
 
@@ -168,29 +178,27 @@ The fainted woman's son followed the hand chain until Merrow's medic blocked him
 
 A magistrate aide tried to write the fainting into the sequence tally as *successful correction.* Merrow's medic blocked the slate with her elbow. "Injury lane. Not your column." The aide left with ink on his cuff and no number filed.
 
-"Again," Halverin said. "From center. Lift on three."
-
 They lifted. Set. Lifted. The rhythm was there, underneath, the road rhythm, the berm rhythm. Cael clung to it. Riven clung to it. For nine counts they were one pair Halverin could name.
 
 On the tenth count Halverin shortened the breath call—*in, out, in*—and Riven missed the switch. The frame dipped an inch. The crowd gasped. Halverin did not stop. "Correction," he told them. "Watch."
 
-Between counts Cael heard fragments: a merchant betting on whether they would drop the frame; a priest muttering that Velorum tested the proud; a child asking if the bond hurt. Each fragment landed in the bond as static. Riven's jaw never loosened. Cael's hands stayed open at his sides because Halverin had said fists read as fear and because clenching did not help anyway.
+Between counts Cael heard fragments: a merchant betting on whether they would drop the frame; a priest muttering that Velorum tested the proud; a child asking if the bond hurt. Each fragment landed in the bond as static. Riven's jaw never loosened.
 
-A paste crew at the magistrate wall stopped mid-stroke when the frame dipped. They watched without cheering. Halverin called correction and they went back to work.
+A paste crew at the magistrate wall stopped mid-stroke when the frame dipped. They watched without cheering. Halverin called correction and they went back to scraping the old sheet so fresh paste would stick.
 
 Then a drunk man in the east street shouted that the raiders were back. Two people believed him. Ten did. The ripple started before guards could swallow it.
 
-Then someone in the north rope screamed about a collapsing awning two streets over, real or rumor, and the crowd surged. Guards shouted. A child went down in the press.
+Then someone in the north rope screamed about a collapsing awning two streets over, real or rumor, and the crowd surged.
 
 Cael saw the awning—or didn't. A strip of canvas tore free three streets north and snapped taut. Whether it was falling or flapping didn't matter once the front row pushed. A rope post cracked. Splinters from yesterday's rehearsal frame still littered the basin lip and cut someone's shin when the surge reversed.
 
 Over the north roofline smoke still rose thin from a gutter fire no one had time to douse. Below, bodies packed until the rope lines bowed. A rope post tilted. A guard struck a man's shoulder to push him back and the man struck the guard in return. The front row became a hinge. The back rows pushed because they could not see and thought pushing was escape.
 
+At the south lane a baker pulled his shutter halfway down. "Closing whether he finishes or not," he told his wife. She nodded and they left with their tray unsold. Merrow's medic at the west lane wrote the first injury name on her slate while the surge was still building—*faint, north rope*—and blocked Halverin's aide when he tried to copy it to a sequence tally.
+
 Fear hit Cael and Riven at once through the bond, too fast to sort whose was whose. Halverin kept calling counts into noise that no longer obeyed counts.
 
-A merchant's betting slate lay in the gutter where Merrow's runner had slapped it from his hand. A cooper's nephew dropped his charm string and did not reach for it. Cael saw both and kept his grip on the frame because letting go would be a story too.
-
-A fishmonger Riven knew from the lower market grabbed the north rope with both hands. A magistrate clerk dropped his slate in the press and did not reach for it. The boy who had shouted Cael's name earlier covered his mouth with both hands and could not stop shaking.
+A merchant's betting slate lay in the gutter where Merrow's runner had slapped it from his hand. A cooper's nephew dropped his charm string and did not reach for it. Cael kept his grip on the frame because letting go would be a story too.
 
 "Hold!" Halverin shouted. "Hold the line!"
 
@@ -222,10 +230,6 @@ The square screamed on. Merrow's medic wagon at the west lane rolled forward six
 
 Cael held Riven's eyes across the frame. Whatever came next would not be proof. The crowd had come to watch steadiness. They were about to see what the bond actually cost.
 
-The cooper's nephew had stopped waving charms. The magistrate clerk who had dropped his slate stood in the second row with ink on his cuffs, watching without writing.
+Merrow at the west lane: "Clear the basin mouth." Lyra at the south: "Cot here, not there." Halverin on the platform: "Hold the line." Three voices. One square. No rhythm left but the one he and Riven had earned in mud—and that rhythm was tearing.
 
-Cael counted under his breath—one, two, hold—and felt Riven count wrong, then right, then wrong again. Merrow at the west lane: "Clear the basin mouth." Lyra at the south: "Cot here, not there." Halverin on the platform: "Hold the line." Three voices. One square. No rhythm left but the one he and Riven had earned in mud—and that rhythm was tearing.
-
-The frame rose one last time on their shared grip. Then the surge took the square and Halverin's voice vanished under it.
-
-Cael's palms burned. Riven's knees shook in his. The bond held anyway—for one more breath, two—and then the hinge broke and the square became bodies.
+The frame rose one last time on their shared grip. Then the surge took the square and Halverin's voice vanished under it. The hinge broke. The square became bodies.

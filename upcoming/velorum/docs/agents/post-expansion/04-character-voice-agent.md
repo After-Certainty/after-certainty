@@ -44,6 +44,34 @@ If yes: the voice is not specific enough.
 
 ---
 
+## OBSERVATION OWNERSHIP RULE
+
+The revised manuscript shows a new pattern—not bad, but noticeable. Call it **literary compression**:
+
+> Witness was the only relationship left that belonged to one person.
+
+> You're not private anymore.
+
+These can be **good lines**. The problem is when characters drift from **character observation** into **novel observation**—when the author is helping them articulate the book.
+
+**Ask:**
+
+> Would this character naturally think this exact thought?
+
+Or:
+
+> Is the author helping them?
+
+If author assistance is visible: **roughen it slightly**. Not remove it. **Roughen it.**
+
+**Character observation:** what this person would notice from their wounds, job, temper, and immediate bother.
+
+**Novel observation:** what the manuscript needs said cleanly for the reader.
+
+**Fix:** keep the insight; change the **mouth** or **grain**—shorter, angrier, more concrete, more wrong, more interrupted. Let Lyra be medical-blunt, Riven irritated, Cael load-focused—not aphoristic unless the line could only come from that character's habit of speech.
+
+---
+
 ## VOICE OWNERSHIP RULE
 
 Every major character should have:
@@ -289,6 +317,7 @@ Flag dialogue where:
 * characters consistently say memorable lines
 * conversations conclude too neatly
 * everyone becomes insightful at once
+* **literary compression** — aphoristic lines any lead could deliver (*You're not private anymore* without Riven's heat or Lyra's blade)
 * **Cael** and **Halverin** share the same administrative cadence
 * **Lyra** and **Riven** share the same heat without distinct blade vs rant
 * dialogue reads like debate club, Sunday school, or jacket copy (**voice-spec → Plain dialogue**)
@@ -314,6 +343,7 @@ These create authentic voice.
 ## DO
 
 * Read lines aloud; apply **Could another character say this?**
+* Apply **observation ownership** — roughen novel observations into character-shaped thought
 * Re-mouth theme-shaped lines from each speaker's notices and vocabulary
 * Preserve **POV** and attribution clarity per **[act-chapter-index.md](../../act-chapter-index.md)**
 * Compare ridge argument density in **`chapter-01-heartbridge.md`** for Riven/Cael baseline
@@ -356,6 +386,10 @@ Identify places where characters sound too similar (scene/line references).
 
 Identify dialogue expressing the author's ideas rather than the character's.
 
+### Literary Compression
+
+Identify aphoristic or novel-shaped observations that need roughening—not removal.
+
 ### Character-Specific Alternatives
 
 Suggest revisions grounded in character identity—not generic "better prose."
@@ -393,10 +427,11 @@ Run on dialogue-heavy chapters and any scene where **02** fixed behavior but lin
 3. **[03-consequence](./03-consequence-agent.md)** — reinvest cuts with escalation  
 4. **04-character-voice** *(this agent)* — distinct mouths on consequence beats  
 5. **[05-world-pressure](./05-world-pressure-agent.md)** — operational strain on surviving systems  
-6. Core chain touch-up (**04** [direct-camera](../initial-drafting/04-direct-camera-style-pass.md), **03** [flow](../initial-drafting/03-flow-clarity-editor.md)) on flagged scenes only  
-7. [07-scene-compression](../revision/07-scene-compression-agent.md) **last**
+6. **[06-humanity](./06-humanity-agent.md)** — final verification; lived texture  
+7. Core chain touch-up (**04** [direct-camera](../initial-drafting/04-direct-camera-style-pass.md), **03** [flow](../initial-drafting/03-flow-clarity-editor.md)) on flagged scenes only  
+8. [07-scene-compression](../revision/07-scene-compression-agent.md) **last**
 
-**Full structural stack:** **01 → 02 → 03 → 04 → 05**.
+**Full structural stack:** **01 → 02 → 03 → 04 → 05 → 06** (see **[06-humanity](./06-humanity-agent.md)**).
 
 **vs. initial-drafting/06-dialogue-voice:** **06** deepens sayable-mouth and subtext **after** direct-camera polish. **04** (this agent) enforces **who** speaks—not just **how** clearly.
 

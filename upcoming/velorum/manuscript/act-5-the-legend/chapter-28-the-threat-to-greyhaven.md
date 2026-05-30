@@ -6,6 +6,8 @@ Cael was on the north line when the timber screamed and the retaining wall sloug
 
 He had been stacking support posts since before first light with Riven three paces down the line and Bran running rope crews between them. Merrow had counted the posts wrong at dawn—twelve needed, eight delivered—and the gap had sat in everyone's shoulders all morning. A bridge crew runner had sworn the other four were on the next cart. The cart had not come. Bran had taken from the cooper's yard stack instead and left a note the cooper would find at noon.
 
+The cooper found it before noon and came yelling about theft while mud still ran in the cut. Bran yelled back that the town could argue with the channel. Merrow sent them both to opposite ends of the line without looking up from her slate.
+
 Second bell had just rung wrong once and found its note when the timber gave. Cael had felt the failure in his ankles before his ears caught up, the same wrong delay he had learned on the road from fractured lands.
 
 "More posts!" he shouted, though the word was useless without bodies.
@@ -14,7 +16,7 @@ Bran ran past with a rope crew. Children screamed uphill. The bond pulled tight,
 
 They met at the breach gap where mud and timber choked the cut. Cael did not think. He put his hands where load needed hands. Riven matched on the second beat, not Halverin's count, theirs.
 
-For a minute it held. The laborers fed support posts and rope. Mud sucked at Cael's boots. Cold water slapped his shins. Riven's breath came fast in Cael's chest and steadied when Cael forced his own lungs to slow. The bond did not ricochet. It channeled because they let it.
+For a minute it held. The laborers fed support posts and rope. Mud sucked at Cael's boots. Cold water slapped his shins. Riven's breath came fast in Cael's chest and steadied when Cael forced his own lungs to slow.
 
 Cael watched the channel mouth the way he watched a bad joint under weight: looking for the next place it would fail. The timber screamed again and went quiet. For a minute that was enough. Then the pressure behind the failure showed itself.
 
@@ -50,17 +52,13 @@ Cael saw what was at stake: if the town fell, everything they had paid would mea
 
 "I know," Riven said, teeth bared.
 
-They stopped resisting partition. Fatigue, fear, pain, moved as one load. Cael's shoulders burned. Riven's ribs ached from a bruise three days old and fresh at once. The bond did not ricochet. It channeled.
+They stopped resisting partition. Fatigue, fear, pain, moved as one load. Cael's shoulders burned. Riven's ribs ached from a bruise three days old and fresh at once.
 
 The water slowed. Not natural. Forced. The tear eased a fraction.
 
-Bran stared at them. "What are you doing?"
+Bran stared at them, rope slack in his hands. "That hold the channel or kill you?"
 
-"Working," Cael said.
-
-"Looks like dying," Bran said.
-
-"Same shift," Riven said.
+"Both if we're lucky," Riven said.
 
 A second break opened uphill near the cooper's yard, Cael's old loft visible in the smoke line. The bond spiked with Riven's fear for the town and Cael's fear for the story and both turned into motion.
 
@@ -132,21 +130,11 @@ At the cooper's yard that afternoon they found the loft wall still standing but 
 
 Merrow's runner caught them at the yard gate with a second note: *Heartbridge if tear moves uphill. No broadsides. No ceremony. Bring rope.* Cael initialed it. Riven did not.
 
-He picked up a support post. Riven picked up the other end. The bond pulled tight, lifeline and leash, and Cael walked back toward the channel because that was what the town needed. Cael counted support lengths the way he counted board lengths before a load test. The town would hold one more day. Maybe two. That was enough math for now.
-
-He thought about Halverin's counts in the square and felt nothing useful. Halverin had wanted performance. This was load. The difference mattered in the hands and nowhere else.
+He picked up a support post. Riven picked up the other end. The bond pulled tight, lifeline and leash, and Cael walked back toward the channel because that was what the town needed. The town would hold one more day. Maybe two. That was enough math for now.
 
 He did not look at Heartbridge hill yet. He would when the work ran out of places to put hands.
 
-Riven fell in beside him without touching. They did not need to. The load ran between them whether they stood side by side or a street apart.
-
-Bran shouted for rope. Cael shouted back. Normal work. Normal men, if you ignored what ran under their skin.
-
-Cael ignored it the only way he knew how. He worked.
-
-The bond pulled when Riven shifted weight at the channel mouth. Cael answered without looking. They had done this at the riverside entrance. They had done this in the square. The town did not care how it felt. The town cared whether the water stayed in the cut.
-
-Cael cared about that too. It was the one purpose left that did not need a pamphlet to explain it.
+Riven fell in beside him without touching. Bran shouted for rope. Cael shouted back.
 
 After dark, Riven found him at the yard wall with a lantern and a list Merrow had left—posts to pull, posts to set, names of men who had not shown at second bell. They worked in silence until Riven's stitches pulled and Cael felt the pull in his own forearm though the wound was Riven's.
 

@@ -136,8 +136,6 @@ Riven snorted. Almost a laugh. Almost.
 
 They moved on.
 
-Small things kept feeling wrong. A gust of wind hit one side of his face and then the other, not together, one after the other. A patch of moss glowed bright green in a stretch of shade where nothing should have been growing. Once he heard a stone skitter down the slope after he'd already turned toward the sound. Nothing dramatic, just enough to keep noticing.
-
 Riven counted his steps for a while to have something honest to hold. At forty he lost count. At forty-one Cael's count arrived in his head, wrong number, right rhythm. He stopped counting.
 
 At one switchback Riven stopped to retie his boot. When he looked up, Cael was ten paces ahead—except Cael was also still beside him, hand on the rock wall, breathing hard. Riven blinked. The double image cleared. Cael hadn't noticed. Or had noticed and wasn't saying.
@@ -158,7 +156,7 @@ He'd promised the seep by noon. It was afternoon. Riven hadn't called him on it 
 
 Beside him, Riven crouched. Neither spoke for a moment.
 
-Riven pulled the full skin from his pack. The weight felt wrong—heavier on the left strap, lighter in the hand, the same mistake he'd made packing at Mara's gate. Cael noticed without looking.
+Riven pulled the full skin from his pack. The weight felt wrong—heavier on the left strap, lighter in the hand, the same mistake he'd made packing at Mara's gate. One wrap short since the hollow; they'd been splitting halves wrong since Tuesday. Cael noticed without looking.
 
 "Swap sides," Cael said.
 
@@ -174,7 +172,7 @@ Riven wanted to argue. His shoulder wanted the swap. He handed the skin over. Ca
 
 "I said before dusk." Cael didn't meet his eyes. "Same mistake. Different hour."
 
-The ripples in the basin spread outward, slowly, too slowly. Riven watched them and thought about the boss counting crates twice—wrong, then wrong the other way, until somebody made him look at the empties.
+Riven watched the ripples and thought about the boss counting crates twice—wrong, then wrong the other way, until somebody made him look at the empties.
 
 "Don't," Cael said.
 
@@ -234,16 +232,6 @@ The sleet found every gap in their coats. Riven's gloves had a hole at the thumb
 
 The shelf climb went on. Switchback. Switchback. His world narrowed to boot, stone, breath. The mule's cut strap kept returning to mind. Someone had wanted them to stop. Someone had failed. He didn't find that comforting.
 
-The sleet thickened on the shelf climb. Riven's boot rubbed a hot spot through the wool—same place as yesterday, same wrong lace pattern. He stopped to adjust. Cael kept three paces, then stopped too, not helping, not hurrying. Waiting wrong.
-
-"You could say something," Riven muttered.
-
-"You're tying it again."
-
-"Because it hurts."
-
-"Then tie it right." Cael's voice stayed level. Too level. Riven finished the knot and stood. His fingers shook. He hid them in his pocket.
-
 The shelf narrowed until they walked single file with the drop on one side and the wall on the other. Once Riven's shoulder brushed stone and Cael flinched three paces ahead—before the brush, before the sound. Neither mentioned it.
 
 Riven's fingers went numb inside his gloves. He flexed them until pain returned, then flexed again because pain meant they were still his.
@@ -256,7 +244,7 @@ Ice collected on Riven's lashes. He scraped it off with a thumb that had gone nu
 
 Cael stopped. Checked the route ahead. Checked the weather. Checked Riven.
 
-The route ahead was a lie on the map in Cael's head—switchbacks that looked short and weren't, a ridge that looked close and wasn't. He'd been wrong about time all day. Wrong about water. Wrong about the seep's taste. Being wrong on a mountain wasn't learning. It was debt.
+The route ahead was a lie on the map in Cael's head—switchbacks that looked short and weren't, a ridge that looked close and wasn't. He'd been wrong about time all day. Wrong about water. Wrong about the seep's taste. Being wrong on a mountain wasn't learning. It was a joint taking load it wasn't cut for.
 
 Riven noticed. "Don't."
 
@@ -359,14 +347,6 @@ Cael checked the rope coiled on Riven's pack. Checked the water skin weight. Che
 The climb steepened. The pale stone stretched uphill, bare and bright. The higher they went, the stranger everything felt. Sound lagged. Boots scraped stone and the noise followed a beat later. The air felt thick, heavy, storm-close.
 
 Riven's ears popped. Then popped again. No altitude to blame—not yet. He swallowed hard. Metal taste sat at the back of his tongue.
-
-Riven moved up beside him instead of dropping back. "You feel that?"
-
-"Yeah."
-
-"What is it?"
-
-Cael swallowed. His mouth tasted like metal again. "I don't know." That answer would have bothered him yesterday. Today it was the truth.
 
 The ridge flattened. One more rise. Then they were standing at the edge.
 

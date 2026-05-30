@@ -102,6 +102,8 @@ Cael let out a breath that fogged in the cold air. "I said I wasn't dragging you
 
 Cael slowed just enough that Riven no longer had to lengthen every stride to keep up.
 
+Riven's right boot had started rubbing a blister at the heel. He had meant to fix the lace at the fork marker and forgotten. Now every downhill step reminded him.
+
 "I'm not proving anything," Cael said. "I'm keeping us out of a ditch."
 
 "Same thing, the way you do it."
@@ -324,7 +326,7 @@ The first climb hit harder than it looked. Gravel slid beneath Riven's boots, an
 
 "I know," Cael said, and let go.
 
-Halfway up the scree a cart rut ended in a pile of spilled grain—somebody had turned back or lost a sack. Riven counted the trail: one skin lighter than it should've been because Cael had filled wrong at the last stream, not wrong enough to argue about yet. Wrong enough to remember.
+Halfway up the scree a cart rut ended in a pile of spilled grain—somebody had turned back or lost a sack. Riven counted the trail: one skin lighter than it should've been because Cael had filled wrong at the last stream. They'd ration tomorrow or pay Mara double when they came back thirsty. Wrong enough to remember.
 
 Further up, Riven's pack shifted wrong again. He stopped, retied both straps, checked the bread count without meaning to. Two loaves. One iron wrap. One and a half skins. Numbers he could trust if his hands could.
 
@@ -342,6 +344,4 @@ Cael nodded. "Tell me when."
 
 They finished the last of the bread in silence. Later, wrapped in his blanket, Riven watched stars through bare branches—the sky larger without rooftops or masts. Across the fire Cael's breathing settled. Riven listened for a while, then closed his eyes.
 
-Half asleep, he thought he heard the market bell—one stroke, wrong hour. He sat up. Cael didn't stir. The hills were silent. Wrong bell. Wrong hour. Same as the seep arriving after noon. Riven lay back down and listened to Cael breathe until he couldn't tell whose breath it was and he couldn't decide if that was comfort or warning.
-
-"Nothing," he muttered. Tomorrow was waiting either way.
+Half asleep, he thought he heard the market bell—one stroke, wrong hour. He sat up. Cael didn't stir. The hills were silent. Riven lay back down. Tomorrow was waiting either way.

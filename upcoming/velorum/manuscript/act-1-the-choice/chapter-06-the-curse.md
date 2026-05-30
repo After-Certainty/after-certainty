@@ -124,21 +124,7 @@ Cael grabbed his pack strap and held on. The rough canvas helped a little. Not e
 
 The pamphlet called it Heartbridge. Cael thought set your feet and move—and felt Riven go still, not startled anymore. Used to it. That was almost worse.
 
-Riven rubbed both hands across his face, then stopped. His expression changed. Cael felt why before Riven spoke—relief, his own, bright and ugly, because for one terrible second he'd thought he was alone in this.
-
-Riven recoiled. "You're glad."
-
-"No." The answer came too fast, too automatic. The lie collapsed immediately.
-
-Cael swore under his breath. "I'm scared."
-
-"You're glad too."
-
-"A little." The admission hurt.
-
-Riven looked at him like he'd lost his mind.
-
-They stood there breathing hard. Cael pressed a hand against his thigh until the muscle ached—something solid, something his.
+Riven rubbed both hands across his face, then stopped. Cael pressed a hand against his thigh until the muscle ached—something solid, something his.
 
 "We walk."
 
@@ -220,11 +206,7 @@ Riven kept his eyes on the trail—not on Cael, not on the Ashring behind them.
 
 The word landed between them—curse, songs, pamphlets, market bullshit flattened into one neat little word. Cael hated it immediately.
 
-Underneath that irritation, another thought surfaced before he could stop it.
-
-At least it makes sense.
-
-Riven stumbled—not from the trail, from the thought itself. His head snapped around.
+Riven stumbled—not from the trail, from something crossing the bond. His head snapped around.
 
 "Don't."
 
@@ -238,9 +220,7 @@ The anger hit first. Then fear. Then something worse—disappointment. Riven had
 
 "I'm trying to get it."
 
-They walked. Cael tried not to think. That lasted about three seconds.
-
-The trail dropped in tight switchbacks. Loose stone. Wrong weight in Riven's pack—left heavy, right light, the same mistake from the rim. Cael had meant to fix it before they left the Ashring. Fixing it meant touching Riven's straps. Touching meant asking permission from something that didn't grant it.
+They walked.
 
 At the next bend Riven stopped without warning. Cael stopped too—same foot, same instant.
 
@@ -260,14 +240,6 @@ Riven kicked gravel off the edge. "Fine. You were wrong. I was wrong. We're stil
 
 "Yeah." Cael hitched his pack. "That's the part that matters."
 
-It's real.
-
-The thought slipped loose, simple and uninvited. Riven flinched hard enough that Cael felt it before he saw it.
-
-"Stop."
-
-"Well, I heard it."
-
 The trail narrowed. Silence helped exactly as much as talking.
 
 "I'm not saying this is good," Cael said.
@@ -279,10 +251,6 @@ The trail narrowed. Silence helped exactly as much as talking.
 "Wasn't no."
 
 They stopped walking. Wind pushed at their coats. The mountain fell away beside them. Far below, a bird cried late—or early. The sound arrived after the bird had already turned.
-
-"We wanted something that mattered." The words came out before Cael could edit them.
-
-Riven closed his eyes. "There it is."
 
 "We didn't ask for this."
 
@@ -352,10 +320,6 @@ Riven looked away immediately. "Of course."
 
 Riven rubbed both hands over his face, tired and angry and frightened. Cael felt all three.
 
-"Maybe." The admission came reluctantly.
-
-"Maybe."
-
 They ate because they had to. The food tasted wrong—metallic, ash and salt. Neither finished much.
 
 Riven set the half-eaten bread aside. "Mara would've charged us for that."
@@ -408,6 +372,8 @@ The words were so small they almost disappeared into the dark.
 
 Cael swallowed. "Me too." He wasn't completely sure. Neither of them were.
 
+Riven picked a bit of gristle from between his teeth and flicked it into the fire. "Mara's stew had more bone than meat. Should've charged us double."
+
 The fire popped softly. Somewhere between waking and sleep:
 
 We hold.
@@ -436,7 +402,7 @@ Dawn came grey and cold. Cael woke to Riven already packing—or Riven woke to C
 
 "Half a bar."
 
-"Quarter."
+"Quarter." Riven held up the iron wrap—they'd eaten through one bar at the fire and split the last wrong. "Quarter if you're counting honest."
 
 "Half." Cael tied the wrap. His hands knew the knot. Riven's knew it too. They both hated that.
 

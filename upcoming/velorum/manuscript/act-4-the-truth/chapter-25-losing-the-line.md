@@ -8,17 +8,13 @@ Before noon it had been a morning of small wrongness: breath misting before mout
 
 They had left camp before light, the Seeker setting pace as always. No breakfast. Hard bread eaten while climbing. Riven's ribs still ached from yesterday's basin. Cael's shoulder had stiffened overnight. The bond carried both aches in both bodies until neither could tell which wound belonged to whom.
 
-The eighth day. Riven had stopped marking days on Merrow's map. The ink wouldn't hold anyway. The paper had softened at the creases and torn at one corner where sweat and rain had worked it thin.
+Riven had stopped marking days on Merrow's map. The ink wouldn't hold anyway. The paper had softened at the creases and torn at one corner where sweat and rain had worked it thin.
 
-They were crossing a knife ridge where wind hit from both sides and the drop disappeared into cloud. The stone underfoot was barely wide enough for a cart axle. Looking down was a mistake.
-
-Below the cloud, something moved. Or the cloud moved. Or the bond moved. Riven couldn't tell. He kept his eyes on the Seeker's back instead.
-
-The ridge had no name on Merrow's map. Just a line and a note: *Narrow. Single file.* No mention of the cloud eating the valley or the gravel that moved when nobody touched it. Riven's pack strap had rubbed his collarbone raw. He shifted weight to his other foot. Cael shifted too, a heartbeat late, matching without choosing to.
+They were crossing the knife ridge Merrow's clerk had drawn with a shaking hand: wind from both sides, drop swallowed by cloud, stone barely wide enough for a cart axle. Looking down was a mistake. Riven kept his eyes on the Seeker's back instead.
 
 The Seeker walked ahead, staff across their shoulders, hood up, steady pace, never looking back.
 
-Twice already that morning Riven had felt Cael's concentration before a step landed. Twice he had adjusted without meaning to. The bond was doing the managing for both of them. That was the problem.
+Twice already that morning Riven had felt Cael's concentration before a step landed. Twice he had adjusted without meaning to. The bond was doing the managing for both of them.
 
 Riven's boot slipped on loose gravel.
 
@@ -38,7 +34,7 @@ Cael's jaw tightened. "I'm trying not to watch you fall."
 
 "I can't."
 
-The bond proved it. Cael felt Riven's fear as clearly as his own: the drop, the loose gravel, the wrong lag between foot and ground. Riven felt Cael's helplessness right back. Management wasn't a choice anymore. It was weather.
+The bond proved it. Cael felt Riven's fear as clearly as his own: the drop, the loose gravel, the wrong lag between foot and ground. Riven felt Cael's helplessness right back. Cael couldn't stop managing. Neither could Riven.
 
 Below the cloud, something that might have been a bird or might have been wind crossed the gap. Riven didn't look. Looking was a mistake.
 
@@ -74,7 +70,7 @@ The leather sat awkwardly between them. Too short. Too tight. Perfect.
 
 Cael's palm was still bleeding from the morning cut. Riven felt it when he took the belt. Felt Cael feel him feel it. The loop again. The leather was still real.
 
-Riven had worn the belt every day since Greyhaven. Same buckle. Same creases. It had held up trousers and tools and once, years ago, a knife he didn't carry anymore. Now it held something else: a distance the bond couldn't swallow whole.
+Riven had worn the belt every day since Greyhaven. Same buckle. Same creases. It had held up trousers and tools and once, years ago, a knife he didn't carry anymore. Now he needed something between his wrist and Cael's grip that wasn't skin.
 
 For the first time all morning, Riven felt something stay in his own chest before the bond took it. Not long. Just long enough to notice.
 
@@ -126,7 +122,7 @@ They went down together.
 
 Stone slammed into Riven's hip. His elbow. His ribs. Cael hit shoulder first. The impact crossed the bond before either of them could scream. Then both of them did. One sound. Two mouths. The same panic in two bodies.
 
-Riven's pack strap broke. The pack slid ahead of him, pulling him sideways into more scree. Cael grabbed for the belt with his free hand and caught only air. The leather held. That was the only thing that held.
+Riven's pack strap broke. The pack slid ahead of him, pulling him sideways into more scree. Cael grabbed for the belt with his free hand and caught only air. The leather held.
 
 Riven couldn't tell whose lungs were burning. Couldn't tell whose fear was whose. The slope tilted. The world narrowed. The bond broke open.
 
@@ -168,6 +164,8 @@ Riven's wrist burned where the belt had bitten. Cael's burned too. The Seeker's 
 
 The belt pulled tight between their wrists as he climbed. The leather bit into his skin before the Seeker hauled him the rest of the way up.
 
+Below the cut a repair cart passed on the lower track going south—timber, rope, three men, empty niches on the rack where wall pins should have sat. The driver read their wrists and didn't rein in. "Gate took our metal for demonstration staging," he called. "If your ring falls, don't file it here." The wheels vanished into dust before Riven could answer. Cael wrote *pins gone* on the map margin with charcoal that smeared at once.
+
 No lecture. No explanation.
 
 The Seeker turned and started down the slope.
@@ -182,7 +180,11 @@ The Seeker kept walking.
 
 They worked their way down the rest of the scree on hands, knees, and stubbornness. Twice the belt snagged on loose stone. Once Cael freed it with his teeth. Neither of them had enough breath left to complain.
 
-Riven found his pack twenty paces downslope, strap hanging. Cael's water skin had burst. They shared what was left in Riven's. One swallow each. The bond made even thirst arithmetic.
+At the bottom Riven sat on a flat rock and couldn't stand for a full minute. Not injury. Refusal. His body had decided the ridge was still falling. Cael stood guard without being asked, staff out, eyes on the slope above. When Riven finally rose, he kept the belt in his fist instead of rebuckling it. Cael didn't comment. Comment would have made the choice smaller than it was.
+
+Riven found his pack twenty paces downslope, strap hanging. Cael's water skin had burst against a stone. The tin cup in Riven's side pocket had crushed flat. Cael picked it up, tried to round it with his thumb, gave up, and dropped it into the scree.
+
+They shared what was left in Riven's skin. One swallow each. The bond made even thirst arithmetic.
 
 Riven's palms were raw by the time they reached solid ground. Cael's knee had swollen enough to show through torn cloth. The Seeker waited at the bottom as though they'd arrived on schedule.
 
@@ -218,19 +220,19 @@ Cael's split lip had crusted black. Riven's palm cut had done the same. They loo
 
 Riven's pack rode wrong without the broken strap. Cael offered to carry half. Riven refused. Refusing was the last privacy he had.
 
-Riven found himself knowing when Cael needed water before Cael reached for the skin. Cael flinched when a crow cried before Riven heard it. The line between them had thinned to nothing. The belt on his wrist was the only thing that still felt like a choice.
+Riven found himself knowing when Cael needed water before Cael reached for the skin. Cael flinched when a crow cried before Riven heard it. The belt on his wrist still felt like his when he tightened it.
 
 At camp they ate in silence. No fire. No stories. The Seeker sat against a rock and watched the dark gather across the cut.
 
-Riven rethreaded his pack strap with line from Merrow's supply. His fingers shook. Cael's didn't, but Cael felt the shake anyway and looked away to give Riven the illusion of privacy. The illusion lasted three breaths. The bond didn't respect illusions.
+A south-bound peddler crossed their cut without stopping, eyes on their wrists. He left a tin of salt at the trail edge and kept walking. Riven wanted to throw it after him. Cael pocketed it anyway. Salt still counted when iron ration tasted like blood.
+
+Riven rethreaded his pack strap with line from Merrow's supply. His fingers shook. Cael felt the shake and looked away for three breaths before the bond pulled it back anyway.
 
 Riven tore off another piece of bread. Halfway through chewing, somebody else's hunger arrived. He glared across camp.
 
 "Eat your own damn ration."
 
 "I did."
-
-"Then stop being hungry in my mouth."
 
 Cael closed his eyes. "I'm trying."
 
@@ -254,7 +256,7 @@ Nothing else followed. Nothing needed to.
 
 The silence sat between them. Heavy. Honest.
 
-Tomorrow they would reach the ring. Tomorrow somebody might finally answer a question. Riven wasn't sure whether he wanted that anymore.
+Tomorrow they would reach the ring. Tomorrow somebody might finally answer a question. Riven wasn't sure he wanted to hear it.
 
 "Tomorrow we hear it," Cael said.
 
@@ -300,7 +302,11 @@ The last mile to the ring's outer slope was the steepest. Riven's ribs protested
 
 The ring sat ahead of them, pale against the sky. For the first time since Kestrel Gate, it looked close enough to touch.
 
-They didn't touch it that day. The Seeker circled the outer rim without entering and stopped at a cut in the stone where wind dropped. Camp. No fire. No food left but iron bars and a heel of bread Riven split with his knife.
+Below the outer slope, old offerings lay in the dust: clay bowls, snapped sticks, a ribbon so faded it might have been white once. No pilgrims. No clerks. Just objects left by people who had needed the ring to mean something other than weight. Riven stepped around them. Cael did too. Touching other people's hope felt like theft.
+
+They didn't touch the ring that day. The Seeker circled the outer rim without entering and stopped at a cut in the stone where wind dropped. Camp. No fire. No food left but iron bars and a heel of bread Riven split with his knife.
+
+Cael tried to write a note on the back of Merrow's ruined map—coordinates, water, date—and the pencil snapped. He used charcoal from the cold fire pit instead. The marks smeared at the first wind gust. He kept the scrap anyway. If they died out here, somebody might find it and file them under something other than *unresolved.*
 
 Cael's shoulder had gone stiff enough that he couldn't raise his arm above the shoulder. Riven felt the limitation when he tried to shrug his pack higher. The bond translated injury without permission.
 
@@ -332,10 +338,18 @@ Riven's boot wire cut his toe at the lip. He bled into his sock. Cael felt the w
 
 They descended into the Ashring behind the Seeker. Pressure found them before the center. Riven's ears popped. Cael's popped too. Neither had altitude to blame.
 
-The eighth day ended where the Ashring began. Riven felt it in his teeth before he saw stone. Cael felt it too. Neither named it. Naming was for clerks.
+The eighth day ended where the Ashring began. Riven felt it in his teeth before he saw stone. Cael felt it too.
 
 They paused at the inner rim long enough for Riven to drink. The water tasted of iron and old rain. Cael drank after him. The bond carried the order without argument.
 
 The standing stones ringed the center. Riven counted them once. Cael didn't. Counting had stopped helping somewhere on the knife ridge.
 
 Wind dropped in the Ashring like a lid closing. Riven's breath sounded too loud. Cael heard it twice—once in his chest, once through the bond. The ring waited. So did they.
+
+Riven touched the nearest standing stone once, not for prayer, for temperature. Cold went up his arm and into Cael's shoulder before he pulled back.
+
+"Yeah." Cael flexed his fingers until feeling returned. "Tomorrow."
+
+"Or we do."
+
+Cael didn't answer.

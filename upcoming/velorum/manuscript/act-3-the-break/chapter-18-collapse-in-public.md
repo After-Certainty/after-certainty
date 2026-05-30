@@ -20,8 +20,6 @@ Merrow's medic at the west lane broke formation before Halverin finished his nex
 
 The crowd did not give air. They leaned harder. Riven felt the press through the bond before he felt it in his ribs. Cael's jaw locked. Halverin kept counting through the fainting woman as if she were a footnote.
 
-She would faint again at the margin an hour later and travel hand-over-hand to the same lane. Riven would not know her name. He would know her son's cry.
-
 Heat and noise and sweat and paste. A man in a baker's apron climbed the rope line. A child cried because the drum had stopped. The fountain basin threw back sun hard enough to hurt the eyes. Merrow's medics moved at the west lane. Lyra's tent stayed shut until it did not.
 
 It crossed into Riven through the bond before he could sort it. Cael's fear. His own. The crowd's on top of both. His hands on the timber slicked with someone else's sweat. The frame bit through gloves he did not remember putting on. Splinters found the same spots on Cael's palms three feet away.
@@ -80,7 +78,7 @@ Riven went to one knee. Cael went down beside him, not mirroring, pulled. They g
 
 They let it move.
 
-Not obedience. Not performance. The load went where it wanted when they stopped pretending they could each keep a private share. Riven felt Cael's pain and his own and the square's fear braid into one pressure. His skin buzzed. His ears rang. A woman in the second row crossed herself. A clerk dropped his slate and did not pick it up. The boy who had shouted Cael's name started crying and could not stop.
+Not obedience. Not performance. The load went where it wanted when they stopped pretending they could each keep a private share. Riven felt Cael's pain and his own and the square's fear braid into one pressure. His skin buzzed. His ears rang. A woman in the second row crossed herself.
 
 Riven stopped trying to sort it. A memory crossed that was not his: canal water, Lyra's voice on a roof, *mine not to tell*—then gone, Cael's shame on top of it. He let the load move. The fountain water settled. Sound caught up with mouths. A guard lowered his shield without being told.
 
@@ -91,6 +89,8 @@ Halverin kept talking. "Stand. Follow. You are almost—"
 "Shut the hell up," someone in the crowd shouted.
 
 Another voice joined. Then another. Not cheers. Not jeers. A low furious noise of people who had been sold steadiness and watched it turn into visible harm. Riven had seen riots in Ashfen. This was different. People were angry because they had believed the poster.
+
+At the north rope a guard sergeant pulled two men off Halverin's sequence card and assigned them to Merrow's injury cord without asking the magistrate's aide. The aide protested. Merrow said, "My square. My cord." The guards went west.
 
 Halverin raised the horn again. His hand shook. "This is a correction. Stay calm." No one calmed. He lowered the horn to the step; its mouth cracked against stone.
 
@@ -136,6 +136,8 @@ The square went quiet in stages. First the center. Then the side streets. People
 
 From the basin Riven could see the whole platform now: Halverin alone at the rail, aides gone from the steps, no clerk left to tally. The speaking horn lay on the stone below him, mouth cracked. Bleached broadsides still flapped on the magistrate wall—their names centered in bold. The dry fountain basin held splintered timber and wet stone where there had been no water at dawn. Ropes sagged at the margins. A paste boy stood with his bucket, not sure whether to run. Two guards looked at Merrow and then away.
 
+At the magistrate overhang a clerk tried to write *sequence adjustment* on a fresh sheet. Merrow's guard took the sheet and pointed at the injury slate. "Wrong desk. File under *suspended*." The clerk sat on the steps with his stack and wrote nothing useful.
+
 Halverin stood empty-handed above the horn on the step. His face was pale. His coat was still neat. Nothing about him looked magistrate now. He had bet a city on a story and lost in public.
 
 "I can adjust the sequence," he said, voice smaller. "We can run it again."
@@ -148,9 +150,17 @@ He looked up at Halverin. No triumph. Just the sick wash of everybody seeing the
 
 "This isn't refinement," Riven said, loud enough for the front rows. "This is loss."
 
-Whispers started. Someone repeated it. *Loss.* A woman near the rope line said it again, softer, testing the word on her tongue.
+Whispers started. Someone repeated it. *Loss.*
 
 A magistrate runner tried to collect names for a correction broadside. Merrow's guard blocked him with a spear shaft, flat side. "Injury slate first. Magistrate queue second."
+
+Halverin's clerk pushed past the runner with a fresh sheet. "Magistrate office requires acknowledgment before—"
+
+"File it under *suspended*," Merrow said from the lane. She did not look up from the injury slate. "Or leave."
+
+The clerk's mouth worked. "The sequence was sound. Interference was—"
+
+"Names first," Merrow said. "Your filing can wait on my desk until tomorrow if you've still got a desk."
 
 An old man in a cooper's apron spat on the step below the platform. Not at Halverin. At the ground. Two women behind the north rope argued in whispers about whether the pair were cursed or heroes. A guard told them to shut up and did not sound sure which side he was on.
 
@@ -162,9 +172,15 @@ Behind them the square held its breath.
 
 Merrow's voice carried, flat and practical. "Clear the basin. Medics to west lane. Someone fetch slate for injuries." Orders that assumed the demonstration was over. Orders that did not include Halverin's sequence.
 
+At the north rope a guard sergeant argued with Halverin's aide about shift rotation. "My men stay on injury cord until Captain says otherwise." The aide waved a sequence card. "Magistrate's office still holds the square." The sergeant looked at Merrow. Merrow did not look back. "Injury cord," the sergeant said, and two guards peeled off toward the west lane.
+
+A baker two streets over pulled his shutter down halfway and called to his wife that they were closing early. A merchant locked his stall bolts while a customer still had coin in her hand. "Come back tomorrow," he said. "If tomorrow comes."
+
 A clerk tried to speak to Halverin. Halverin waved him off without looking. He stood alone on the platform with the horn on the step below and the crowd's silence pressing in from every side.
 
 Then, slowly, people began to move. Not cheering. Not fleeing. A mother pulled her child back from the rope. Two men lifted the woman who had gone down and carried her toward the medic tent. The paste boy ran. A guard who had stood at the rope all morning turned his back to the platform and helped a medic lift a cot.
+
+At the magistrate overhang two clerks worked in pairs—one peeling broadsides, one stacking them face-down so the bold letters did not show. A third clerk tried to write *sequence adjustment* on a fresh sheet. Merrow's guard took the sheet and pointed at the injury slate. "Wrong desk."
 
 Riven walked toward the west lane where Lyra had pointed without speaking. His legs shook. Cael matched pace without touching him. Moving together because there was no other way through the square, not because a magistrate had counted them into place.
 
@@ -186,7 +202,9 @@ It would not.
 
 Lyra was at the tent flap when they arrived. She did not say *I told you*. She checked Riven's pupils the way she had in the square and handed Cael a cup of water he drank without tasting.
 
-Two injured from the crush sat on cots inside already—one with a split lip, one with a wrist wrapped tight. Lyra had seen to them before Riven and Cael arrived. She moved between cots with the same economy she used on the prep table. No speech. Cloth. Water. Names on a slate for Merrow.
+Two injured from the crush sat on cots inside already—one with a split lip, one with a wrist wrapped tight. A third man sat on the bench outside because Lyra had run out of cots. "Wait or go home," she told him. "I can't stitch standing in the lane." He waited.
+
+Lyra had seen to the first two before Riven and Cael arrived. She moved between cots with the same economy she used on the prep table. No speech. Cloth. Water. Names on a slate for Merrow.
 
 "Sit," she said. "Both of you."
 
@@ -206,7 +224,7 @@ He almost laughed. "Comforting."
 
 "How many?" Lyra asked Merrow through the flap.
 
-"Three down hard. One maybe worse. No dead." Merrow's voice was flat. "Halverin's still on the platform."
+"Three down hard. One maybe worse. No dead." Merrow's voice was flat. "Halverin's still on the platform. Demonstration's suspended until my office says otherwise."
 
 "I know," Lyra said.
 
@@ -234,7 +252,7 @@ Outside, someone shouted for a medic. A cart wheel squeaked. A paste crew scrape
 
 Riven looked at his bandaged palms. A boy peered in again. Merrow waved him off.
 
-When they left the south tent an hour later, the square had thinned to workers and stares. Cael walked beside him without touching. Riven could not stop hearing the word *loss* in his head.
+When they left the south tent an hour later, the square had thinned to workers and stares. Cael walked beside him without touching.
 
 Merrow passed them at the lane edge with two guards and a slate. She did not stop. "Injury count goes to my office tonight. Halverin's clerk can read it tomorrow if he still has an office." She looked at Riven's bandages. "South annex if the palms swell. Not the magistrate's infirmary."
 
@@ -242,15 +260,11 @@ Merrow passed them at the lane edge with two guards and a slate. She did not sto
 
 "Good," Merrow said, and kept walking.
 
-Someone in the second row was still saying it softly. *Loss.* A woman near the basin picked up a splinter and dropped it again.
-
 The cooper who had spat on the step caught Riven's eye. "Held the berm with my nephew," he said, not loud. "Didn't look like that." He jerked his chin at the splintered frame. "You all right?"
 
 "Ask me tomorrow," Riven said.
 
-The cooper grunted like that was an honest answer and went back to stacking timber. His nephew, a boy with rope burns on both wrists, would not look at the platform at all.
-
-Workers were stacking splintered timber by the basin. A clerk wrote names on a slate Merrow had ordered. Two guards argued quietly about whether the ropes should stay up overnight. The magistrate wall still wore its banners. *STEADINESS RETURNS* in ink that had looked brave at dawn and looked like a lie at dusk.
+The cooper grunted like that was an honest answer and went back to stacking timber by the basin. His nephew, a boy with rope burns on both wrists, stacked splinters without looking at the platform. Two laborers joined them. Timber went into a cord Merrow had chalked *evidence—do not burn*. A clerk wrote injury names on a slate Merrow had ordered. Two guards argued quietly about whether the ropes should stay up overnight—one wanted Halverin's orders, one wanted Merrow's. "Captain's square tonight," the second guard said. The first guard coiled rope anyway.
 
 A paste crew worked at the north wall, not replacing the broadside, scraping it. Riven watched paste come off in gray curls. The woodcut pair underneath was smeared. Names still visible. His and Cael's in bold where everyone could read them.
 
@@ -284,6 +298,8 @@ Riven sat on the bench while the orderly finished the slate. Cael sat beside him
 
 Second bell passed. Merrow's runner collected the slate and jogged toward the command hall. Halverin's clerk tried to intercept at the lane edge and failed. Riven heard the argument through canvas—file under *suspended*—and felt Cael's bitter satisfaction cross the bond without comment.
 
+Through the annex wall an orderly called cot counts to Merrow's runner: eight filled, two spare, one still marked *magistrate borrow*. Lyra had turned a walk-in away at the main hall door—crush bruise, nothing broken—and sent him to the compensation line because the annex was full.
+
 Riven set his bandaged palms flat on his knees and listened to the square thin outside. The bond still pulled in his wrists. Splinters still on the ground by the basin. He did not look back at Halverin again.
 
-The word *loss* moved mouth to mouth in the lane. Riven closed his eyes and counted four in, four out. Not Halverin's count. Lyra's. The bond eased a fraction. Cael's breath matched on the sixth. Enough to stand when Merrow called them again.
+Cael's breath matched on the fourth count. Not Halverin's count. Lyra's. Enough to stand when Merrow called them again.

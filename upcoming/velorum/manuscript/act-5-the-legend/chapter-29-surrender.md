@@ -8,7 +8,7 @@ Riven stood on Heartbridge hill with Cael beside him and watched Greyhaven's nor
 
 "We know," Cael said.
 
-Merrow's last message had said other towns held or fell. Greyhaven would not fall while Riven still had hands. He was not sure that was bravery. It was the only road left that did not run through shared suffering. He had tried every other road.
+Merrow's last message had said other towns held or fell. Greyhaven would not fall while Riven still had hands. He was not sure that was bravery. He had tried walking away twice and ended up on the berm anyway.
 
 They had spent the afternoon on the north berm with timber and rope and laborers who kept glancing at their hands. The channel had held one hour, then two. Then the pressure shifted uphill and Bran sent runners to Heartbridge because the old monument sat on the line the maps drew when the land forgot how to agree with itself.
 
@@ -21,6 +21,8 @@ Riven had eaten nothing since dawn except hard bread and regret. Hunger sat in h
 The climb to the hill had taken twenty minutes and felt longer. His thighs burned. Dust stuck to sweat at his collar. Halfway up a pilgrim tried to attach a ribbon to Riven's pack for luck. Riven cut it off without breaking stride. The bond carried Cael's irritation and Riven's shame in the same breath.
 
 Below, the harbor caught the last light and threw it back wrong, water bright where it should have gone dark. Pilgrims' tents from the last festival still dotted the lower slope, canvas flapping without wind. Someone had left a wreath at the monument base that morning, flowers already brown at the edges. A boy from the rope crew vomited in the grass and went back to work without anyone commenting.
+
+A pilgrim asked Bran if the heroes needed supper after. Bran said they needed rope. The pilgrim looked offended and wandered off to find someone who would say yes.
 
 "How long?" one of the rope crew asked Bran.
 
@@ -90,15 +92,11 @@ Cael's purpose fed into him, steady, brutal, useful. Riven's refusal fed into Ca
 
 Behind them someone sobbed. Riven could not turn to look. The rope crew had dropped to their knees. Bran stayed standing, boots planted, face gray in the failing light.
 
-The load did not arrive all at once. It came in waves, berm, channel, cooper's yard, lower roofs, each place they had touched in the last three days pulling through the bond like rope through a block. Riven's vision narrowed. He tasted iron and harbor salt. Cael's steadiness kept him from sliding off the stone into the kind of panic that would have dropped the load onto the town.
+Riven's vision narrowed. He tasted iron and harbor salt. Cael's steadiness kept him from sliding off the stone into the kind of panic that would have dropped the load onto the town.
 
-Below the hill someone rang a festival bell out of habit. The sound arrived late and wrong and stopped mid-swing. Riven felt the town flinch in the circuit—market, channel, loft beam—and held anyway.
+Below the hill someone rang a festival bell out of habit. The sound arrived late and wrong and stopped mid-swing. Riven felt the town flinch in the circuit and held anyway.
 
-On the ground line Bran's cousin screamed when the peg pulled halfway out. Bran drove it back with his boot and swore at the grass. The rope crew held. Nobody ran. Riven felt their fear as static in the circuit and could not shut it out.
-
-Jess had tied off to the ground line anyway when Merrow's chalk mark washed away in sweat. She shouted coordinates to her brother on the lower peg—*left, not your left*—and he moved. Good. Wrong hand once, corrected. The kind of work that did not need a song.
-
-For one sick moment he felt Lyra's absence as a clean space in the circuit, a door shut he could not open. Cael felt it too. Neither spoke. There was no room.
+On the ground line Bran's cousin screamed when the peg pulled halfway out. Bran drove it back with his boot and swore at the grass. Jess had tied off when Merrow's chalk mark washed away in sweat and shouted coordinates to her brother on the lower peg—*left, not your left*—wrong hand once, corrected. The rope crew held. Nobody ran.
 
 The tear eased. Water slowed in the channel. Grass settled. Sound caught up with motion.
 
@@ -134,9 +132,9 @@ Riven did not feel saved. He felt spent.
 
 Cael leaned against the monument base. "We didn't become stone."
 
-"No," Riven said. "We became the thing that holds."
+"No," Riven said. "We became load."
 
-"Same story. Different ink." Riven laughed once, broken, and felt Cael laugh in his chest without permission.
+Riven laughed once, broken, and felt Cael laugh in his chest without permission.
 
 Bran came up the last steps slow. He looked at the hairline crack in the monument, at their hands still locked on each other's arms, at the tear fading to a wrong shimmer over the fields.
 
@@ -154,9 +152,9 @@ Lyra's name sat between them. Riven felt Cael's grief spike and choke it down. T
 
 Bran almost smiled. "I'll see what I can do." He left two skins and a strip of clean cloth and went down the hill to organize the living. Riven drank. The water was warm and tasted like the cooper's tank. Cael drank from the same skin without asking. Their hands shook when they lowered it.
 
-Down in the market someone had already started a song with the wrong lyrics—*Velorum saved* instead of *Velorum holds*—and a fish seller threw a gut bucket at the singer. Riven felt the splash of disgust cross clean. Cael almost smiled. Almost.
+Down in the market someone had already started a song with the wrong lyrics—*Velorum saved* instead of *Velorum holds*—and a fish seller threw a gut bucket at the singer.
 
-They sat on the hill until stars came out wrong and then righted. No ceremony. No magistrate speech. No broadside. The rope crew drifted down in twos and threes, whispering, not to them.
+They sat on the hill until stars came out wrong and then righted. No ceremony. No magistrate speech. The rope crew drifted down in twos and threes, whispering, not to them.
 
 One of the women left her coil at the monument base. Bran picked it up without comment and slung it over his shoulder. "My cousin wants to know if you're still men," he said, not looking at them.
 
@@ -170,6 +168,8 @@ Bran nodded and went down the hill to count the living.
 
 Only the bond, tight, unrelenting, and the knowledge that he had chosen this because letting go would have cost everyone else everything he had once climbed this hill to protect.
 
+Riven thought of Lyra on a road he couldn't see. Not regret. Missing. The bond carried Cael missing her too, differently, and he couldn't tell the difference anymore.
+
 Riven breathed. Cael breathed. Greyhaven lived.
 
 Merrow met them at the tree line before full dark with a timber tally and no greeting. "Bridge crew owes six posts by dawn. Loft wall needs one support if the wind shifts. Sign nothing." She looked at the hairline crack in the monument. "Leave that too."
@@ -179,5 +179,3 @@ Merrow met them at the tree line before full dark with a timber tally and no gre
 "Good." Merrow capped her chalk. "Sleep if you can. Second bell doesn't care about heroes."
 
 She went down the hill counting posts under her breath. Riven watched her go and felt Cael's exhaustion settle into his own legs.
-
-That was the deal.

@@ -6,7 +6,9 @@ No wind in the basin. The platform frame stood empty on its wheels, rope handles
 
 Clerks worked in pairs under the magistrate overhang, ashamed in their efficiency. One peeled broadsides. One stacked them face-down so the bold letters did not show. Guards coiled rope in the lane mud and did not meet each other's eyes. A medic wagon stood at the curb with its tailgate down, empty now. The injured had gone south or home.
 
-A paste boy scraped wet ink off the magistrate wall in strips. Each strip fell with a sound like cloth tearing. Someone had written *LOSS* in charcoal on a discarded sheet near the gutter. The letters were crooked. A runner took the sheet and jogged toward the north gate.
+A paste boy scraped wet ink off the magistrate wall in strips. Each strip fell with a sound like cloth tearing. Someone had written *LOSS* in charcoal on a discarded sheet near the gutter. The letters were crooked. A runner took the sheet and jogged toward the north gate—Merrow's runner, not Halverin's. Halverin's clerk tried to intercept at the lane edge and failed. "File with the injury slate," Merrow's runner said. "Or burn it."
+
+At the west lane an orderly counted empty cots—six used, two spare, one still marked *magistrate borrow*—and wrote the tally on Merrow's slate before Halverin's aide could copy it.
 
 The fountain basin was still. The water lay flat. Splinters from the frame floated near the center. Chalk marks smeared where boots had panicked. Ripples crossed the water in a pattern that did not match wind.
 
@@ -70,7 +72,7 @@ A guard passed carrying the splintered frame piece. He did not salute Halverin. 
 
 Cael walked down the steps. Halverin did not follow. Cael did not look back to see if the magistrate remained or fled to his council room. It did not matter. The square had already decided.
 
-At the wagon Riven looked up. His eyes were red-rimmed—not crying, exhausted. Paste dust streaked his sleeve. Through the bond Cael felt Riven's pulse still too fast and the echo of *loss* spoken in the square, repeated in whispers behind them. Lyra checked Riven's wrist a second time. "Pulse still racing. Water. Sit."
+At the wagon Riven looked up. His eyes were red-rimmed—not crying, exhausted. Paste dust streaked his sleeve. Through the bond Cael felt Riven's pulse still too fast. Lyra checked Riven's wrist a second time. "Pulse still racing. Water. Sit."
 
 "We already sat," Riven said.
 
@@ -116,17 +118,27 @@ They did not sleep. At second watch a runner knocked and left a folded notice un
 
 He carried it to the yard brazier and watched it curl. Ash smelled like the square's paste.
 
-In the morning the city was quieter than after the attack. Shop shutters were half open. A cooper crossed the yard with an armload of splintered frame pieces and stopped to recount when one slid off. Conversations stopped when Cael passed and started again in lower voices—not grief-quiet. People moved like they had heard a floorboard crack and were waiting to see if the house would fall.
+In the morning the city was quieter than after the attack. Shop shutters were half open—a baker who had closed at noon yesterday opened at midmorning with a shorter tray. A cooper crossed the yard with an armload of splintered frame pieces and stopped to recount when one slid off. Conversations stopped when Cael passed and started again in lower voices—not grief-quiet. People moved like they had heard a floorboard crack and were waiting to see if the house would fall.
 
 The square still smelled like paste and sweat. From the barracks steps he watched labor crews haul the splintered frame toward Merrow's evidence shed in pieces small enough for two men to carry. A clerk with Halverin's crest on his cuff tried to tag each piece before it left the basin. Merrow's guard removed the tags and handed them back.
 
 "File at the command hall," the guard said. "Not on the timber."
+
+Halverin's clerk argued from the magistrate steps. "Sequence samples require magistrate custody—"
+
+"File under *suspended*," Merrow said from the lane without looking up from the injury slate. "Or sit on the steps with your stack."
+
+The clerk sat on the steps with his stack.
 
 Cael watched three tags flutter into the gutter. *Sequence sample. Magistrate office.* The wind took them toward the river.
 
 Halverin's office windows stayed shuttered. His name was still on the door. His authority was not. A clerk stood outside with a stack of forms and nowhere to file them.
 
 Two council members Cael did not know by name crossed the yard arguing in whispers about whether to suspend the magistrate or suspend the demonstration schedule. One of them looked at Cael and looked away fast, as if eye contact might assign blame. A runner from the command hall shouted for Merrow and got only a medic pointing toward the square.
+
+At the infirmary annex an orderly turned away a man with a crush bruise from yesterday. "Cots full. Try tomorrow or go home." The man sat on the annex steps with his wrist wrapped in a dishcloth and waited anyway.
+
+Halverin's clerk ate someone else's lunch roll off the evidence shed stack, crumbs on his collar, still filing forms nobody wanted.
 
 Cael went to the command hall because Merrow sent for him, not because he believed in halls anymore. The doors stood open to the yard. Lamp smoke and wet wool rolled out across the threshold. She had casualty slates and supply counts and no poetry in her mouth.
 
@@ -156,6 +168,8 @@ She tapped the injury slate. "Halverin's clerk came twice this morning for copie
 
 "I know," Merrow said.
 
+She slid a second slate across—patrol changes for the week. East wall thin. Debris detail thick. Demonstration schedule filed under *suspended* until council met. Halverin's office still listed as issuer on the forms; Merrow's hand had written *injury slate stands alone* in the margin and underlined it twice.
+
 He did not know yet that walking would mean Velorum. He knew only that Halverin's structure was gone and nothing had replaced it except the bond, still tight, still feeding him Riven's fear he could not shut off.
 
 That afternoon he stood at the barracks window and watched paste crews pull broadsides down in strips. Riven stood beside him without touching. Below, the magistrate wall went bare in patches. A woman pointed at the blank stone and said something to her companion. He could not hear the words. He could read the gesture.
@@ -166,13 +180,11 @@ A cooper's crew loaded splintered timber onto a debris wagon in the basin mud. T
 
 "I know," Cael said. "Do you believe it?" Cael watched a strip of paper fall and twist in the wind. *STEADINESS RETURNS* broke in half. "Yes," he said. "I just don't know what to do with yes yet."
 
-The bond carried Riven's answer before Riven spoke it: *Neither do I.*
-
 A runner crossed the yard with a crate of bandage rolls. Life continuing in supplies and counts. Cael thought of Halverin on the platform with the horn lowered and felt nothing like pity. Only the hollow space where obedience used to sit.
 
 He went to the wall at second watch because he had said he would. Riven went to debris detail because Merrow had assigned it. They passed on the stair without speaking. The bond carried the pass anyway, a brush of fatigue and resolve.
 
-On the wall Cael took a report from a sergeant who asked only about gate seals, not the square. Below, at the debris pile, Riven hauled splintered timber with the cooper's nephew. They lifted on the wrong beat once and both winced. Cael felt it in his shoulder on the merlon and did not look down.
+On the wall Cael took a report from a sergeant who asked only about gate seals, not the square. Below, at the debris pile, Riven hauled splintered timber with the cooper's nephew. They lifted on the wrong beat once and both winced. Cael felt it in his shoulder on the merlon and did not look down. A paste crew scraped the last broadside strip from the north wall before the light failed. Merrow's runner filed another magistrate sheet under *suspended* at the command hall door.
 
 River wind came off the water, cold and fish-smelling. A merchant train came in late, wheels grinding on the gate stones. Cael checked seals and waved them through. His hands knew the work. His chest did not.
 
@@ -232,13 +244,15 @@ Cael felt the words hit Riven through the bond before his own chest tightened. H
 
 At the yard gate Halverin's clerk tried to hand a paste boy a rolled broadside. Merrow's runner took the roll, unrolled it, and fed it to a brazier without reading the first line. The clerk wrote something furious on his slate and left. Cael heard about it at second watch from the gate sergeant, who did not look up from the seal book. "Magistrate's office sent three more before noon. Captain filed them under *suspended.*"
 
+A merchant on the lower market opened at midmorning with half a tray—yesterday's closing had cost him a morning's sales and he was testing whether anyone would buy. Two guards argued at the basin mouth about overnight rope storage. One wanted Halverin's orders. One wanted Merrow's. They coiled rope toward Merrow's chalk mark and went to debris detail at first gray.
+
 "Good," Cael said.
 
 The day held in three places Cael could not leave at once and saw anyway through the bond.
 
-From the barracks window at dusk: paste crews scraping the magistrate wall until the woodcut pair was gone; Halverin alone on the steps, not touching the cracked horn; a dog nosing chalk smears in the empty basin.
+From the barracks window at dusk: paste crews scraping the magistrate wall until the woodcut pair was gone; Halverin alone on the steps, not touching the cracked horn; a dog nosing chalk smears in the empty basin. A merchant on the lower market tested a half tray—first opening since the square—and sold two rolls before pulling the shutter down again.
 
-From the merlon at second watch: river wind in his teeth, Riven stacking splintered support under Merrow's eye at the debris pile, a tag fluttering—*sequence sample*—tucked into the cord without being read.
+From the merlon at second watch: river wind in his teeth, Riven stacking splintered support under Merrow's eye at the debris pile, guard shift dispute at the basin gate—Halverin's aide with a sequence card, Merrow's runner with an injury slate, the guard choosing Merrow's slate.
 
 From the annex slit at third watch: corridor footsteps, paper slid under the door again, Halverin's crest wet on the ink, neither of them moving to open it.
 
@@ -250,4 +264,10 @@ They did not say more. The silence held—footsteps in the corridor, a wagon whe
 
 "I know," Riven said.
 
-Neither of them slept. At first gray Merrow's runner left a note on the command hall door: *Lyra on manifest—Greyhaven when gate clears tomorrow night.* Cael read it and did not show Riven until second bell. Riven read it once and said nothing. The bond carried enough. In the corridor an orderly retched once and was gone. Footsteps. Silence. Cael counted breaths until numbers replaced names and the square's paste smell faded enough to sleep through, barely.
+Neither of them slept. At first gray Merrow's runner left a note on the command hall door: *Lyra on manifest—Greyhaven when gate clears tomorrow night.* Cael read it and did not show Riven until second bell. Riven read it once and said nothing. The bond carried enough.
+
+In the corridor an orderly retched once and was gone. Footsteps. Silence. At the annex gate a guard argued with Halverin's aide about debris detail versus magistrate escort. Merrow's voice cut through once—short, final—and the aide left with his sequence card uncopied. A paste crew scraped the last broadside strip from the magistrate wall before second bell. The fish seller opened her shutter halfway—first time since the square—and sold three rolls before closing again.
+
+Cael counted breaths until numbers replaced names and the square's paste smell faded enough to sleep through, barely.
+
+The next morning would bring wall roster, debris cord, and a manifest that did not include Lyra's name on any cot slate in Kestrel Gate.
