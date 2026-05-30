@@ -2,9 +2,11 @@
 
 The square emptied slow.
 
-The fountain basin was still. No wind. The water lay flat. Splinters from the frame floated near the center. Chalk marks smeared where boots had panicked. The speaking horn sat on the top step with its mouth cracked. Ripples crossed the water in a pattern that did not match wind.
-
 Clerks worked in pairs, ashamed in their efficiency. One peeled broadsides. One stacked them face-down so the bold letters did not show. Guards coiled rope and did not meet each other's eyes. A medic wagon stood at the curb with its tailgate down, empty now. The injured had gone south or home.
+
+A paste boy scraped wet ink off the magistrate wall in strips. Each strip fell with a sound like cloth tearing. Someone had written *LOSS* in charcoal on a discarded sheet near the gutter. The letters were crooked. They were already traveling.
+
+The fountain basin was still. No wind. The water lay flat. Splinters from the frame floated near the center. Chalk marks smeared where boots had panicked. The speaking horn sat on the top step with its mouth cracked. Ripples crossed the water in a pattern that did not match wind.
 
 People paused at the rope line that was no longer a line, looked at the platform, looked away. No one approached Halverin. You could see him. You did not have to listen.
 

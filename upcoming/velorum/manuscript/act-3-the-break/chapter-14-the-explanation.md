@@ -24,6 +24,8 @@ Riven made a short sound. "Resisting. Jesus Christ."
 
 Cael had written the same thing in his own hand on the back of Merrow's after-action sheet. He had stared at the ink until the letters blurred. He knew the hesitation. He had felt Riven's shame hit him at the wrong second and thrown his own timing off in return. He could still see the dockworker's throat open and the daughter's blood on his wrists and Riven's half-step late on the landing.
 
+The command hall windows faced the yard where labor crews stacked timber for the square staging. Hammering came in bursts. A clerk's voice reading names for ration pickup. Normal city work continuing around a hole in the ground at the river stairs that nobody could fill with words.
+
 "The bond isn't a fucking switch," Riven said. "You don't flip it because a broadside says obedience."
 
 Halverin turned to him. "Nobody wants obedience for its own sake. Stop acting like shared burden is contamination."

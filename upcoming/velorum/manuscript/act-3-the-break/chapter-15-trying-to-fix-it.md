@@ -30,6 +30,8 @@ Cael called it work.
 
 They rehearsed at second bell, then again at dusk, then again when the square lanterns were lit and the paste smell from the walls made Cael's throat itch. Halverin stood on the platform with a speaking horn and counted beats like a foreman laying joists.
 
+Between runs Cael watched paste crews hang broadsides with their names centered in bold. Riven refused to look at the wall. The bond carried his disgust anyway. Merrow's medics set cots at the west lane with empty slates ready. Cael approved that too. Preparation without pretending blood would not happen.
+
 "Step on my count," he said. "Breathe on my count. No improvising until you can hold the line without it."
 
 Riven missed a count on purpose once. The bond jerked; Cael's knee buckled half a beat. Halverin stopped the run.

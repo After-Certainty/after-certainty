@@ -4,6 +4,8 @@ First bell rang over a square packed shoulder to shoulder. The sound bounced off
 
 Cael had read the crowd rules from the steps ten minutes before first bell. His voice had held. Merrow had nodded once from the west lane, approval or warning, he could not tell. Now his mouth was dry and the sheet was folded in his belt anyway, useless once the square filled.
 
+Paste crews had worked through the night. Broadsides on three walls. Banners from balconies. A cloth with the woodcut pair stitched uneven but earnest. *STEADINESS RETURNS.* *PROOF OF BURDEN.* Their names in bold where everyone could read them before their eyes could disagree.
+
 He stood on the east staging mark with his boots set on chalk and his hands loose at his sides because Halverin had told him clenched fists read as fear. The crowd filled every rope line and spilled into the side streets. Faces turned up. Banners hung from the magistrate wall with the woodcut pair and their names underneath. Someone had stitched the same image onto a cloth and hung it from a balcony, the thread work uneven but earnest.
 
 Halverin had already spoken the civic preamble while Cael and Riven took their marks: rules, sightlines, mercy for the frightened if they stayed behind the rope. Now he raised the speaking horn again. His voice carried clean across stone.

@@ -14,7 +14,7 @@
 
 **Edition target:** ~**100,000** words · **30** chapters · middle expands, **Act V compresses**
 
-*Last updated: 2026-05-30 · branch `velorum/act-5-expansion-polish`*
+*Last updated: 2026-05-30 · branch `velorum/full-manuscript-expansion`*
 
 ---
 
@@ -22,8 +22,8 @@
 
 | Metric | Current | Target | Gap | % of target |
 |--------|--------:|-------:|----:|------------:|
-| **Total words** | 53,702 | 100,000 | +46,298 | 54% |
-| **Avg words/ch** | 1,790 | ~3,333 | +1,543 | — |
+| **Total words** | 56,148 | 100,000 | +43,852 | 56% |
+| **Avg words/ch** | 1,872 | ~3,333 | +1,461 | — |
 
 ### Act totals
 
@@ -31,10 +31,10 @@
 |-----|-------|---:|--------:|-------:|------:|----:|--------:|-----------:|--------|
 | **I** | The Choice | 6 | 10,767 | 20,000 | 18–22k | +9,233 | 1,794 | 3,333 | pending |
 | **II** | The Gift | 7 | 13,725 | 25,000 | 24–28k | +11,275 | 1,961 | 3,571 | pending |
-| **III** | The Break | 7 | 15,711 | 27,000 | 25–30k | +11,289 | 2,244 | 3,857 | pending |
+| **III** | The Break | 7 | 18,157 | 27,000 | 25–30k | +8,843 | 2,594 | 3,857 | in progress |
 | **IV** | The Truth | 6 | 7,021 | 18,000 | 18–22k | +10,979 | 1,170 | 3,000 | pending |
 | **V** | The Legend | 4 | 6,478 | 10,000 | 8–12k | +3,522 | 1,620 | 2,500 | partial — craft pass done |
-| | **Total** | **30** | **53,702** | **100,000** | 93–114k | **+46,298** | **1,790** | **~3,333** | |
+| | **Total** | **30** | **56,148** | **100,000** | 93–114k | **+43,852** | **1,872** | **~3,333** | |
 
 **Status key:** `pending` · `in progress` · `partial` (craft/early pass, under publication target) · `done` (within chapter target or beat-justified)
 
@@ -101,17 +101,17 @@ Run after **Agent 01** (or manual snippet merge), before closing a pass:
 
 ## Chapter log — Act III · The Break
 
-**Act target:** 27,000 · **Current:** 15,711 · **Gap:** +11,289 · **Highest priority act**
+**Act target:** 27,000 · **Current:** 18,157 · **Gap:** +8,843 · **Highest priority act**
 
 | Ch | File | POV | Current | Target | Gap | Status | Notes |
 |----|------|-----|--------:|-------:|----:|--------|-------|
-| 14 | chapter-14-the-explanation.md | Cael | 2,506 | 3,857 | +1,351 | pending | Halverin frame |
-| 15 | chapter-15-trying-to-fix-it.md | Riven | 2,387 | 3,857 | +1,470 | pending | |
-| 16 | chapter-16-lyras-warning.md | Cael | 2,271 | 3,857 | +1,586 | pending | Lyra warning |
-| 17 | chapter-17-the-demonstration.md | Cael | 2,136 | 3,857 | +1,721 | pending | Square pressure builds |
-| 18 | chapter-18-collapse-in-public.md | Riven | 1,991 | 3,857 | +1,866 | pending | **Priority** — may run **4,000+** |
-| 19 | chapter-19-the-silence-after.md | Cael | 2,326 | 3,857 | +1,531 | pending | Halverin loses authority |
-| 20 | chapter-20-lyra-leaves.md | Riven | 2,094 | 3,857 | +1,763 | pending | **Priority** — quiet break |
+| 14 | chapter-14-the-explanation.md | Cael | 2,554 | 3,857 | +1,303 | in progress | Halverin reframes; Cael accepts load note |
+| 15 | chapter-15-trying-to-fix-it.md | Cael | 2,437 | 3,857 | +1,420 | in progress | Square staging + rehearsal days |
+| 16 | chapter-16-lyras-warning.md | Riven | 2,431 | 3,857 | +1,426 | in progress | *Loss / invasive dependence* named |
+| 17 | chapter-17-the-demonstration.md | Cael | 2,179 | 3,857 | +1,678 | in progress | Pressure builds → ch. 18 handoff |
+| 18 | chapter-18-collapse-in-public.md | Riven | 3,370 | 3,857 | +487 | partial | **Priority** — square collapse, *loss* lands |
+| 19 | chapter-19-the-silence-after.md | Cael | 2,368 | 3,857 | +1,489 | in progress | Halverin hollow; Lyra leaving foreshadow |
+| 20 | chapter-20-lyra-leaves.md | Riven | 2,818 | 3,857 | +1,039 | in progress | Quiet break; wagon/wall scenes |
 
 ---
 
@@ -177,7 +177,8 @@ wc -w upcoming/velorum/manuscript/act-3-the-break/chapter-18-collapse-in-public.
 
 | Date | Branch | Scope | Words before | Words after | Notes |
 |------|--------|-------|-------------:|------------:|-------|
-| 2026-05-30 | `velorum/act-5-expansion-polish` | ch. 27–30 | ~3,112 | ~6,478 | Agent 01 + polish; craft density ~1,600/ch, under Act V publication target |
+| 2026-05-30 | `velorum/act-5-expansion-polish` | ch. 27–30 | ~3,112 | ~6,478 | Agent 01 + polish; craft density ~1,600/ch |
+| 2026-05-30 | `velorum/full-manuscript-expansion` | Act III ch. 14–20 | ~15,711 | ~18,157 | Pass 1: priority 18→20→16; all chapters touched |
 
 ---
 
