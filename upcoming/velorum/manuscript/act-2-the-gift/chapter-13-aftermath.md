@@ -88,15 +88,15 @@ Beside him, Cael had gone still. Riven felt it before he saw it—attention, the
 
 Then Halverin said: "Yesterday showed us something important."
 
-The square quieted further. "We cannot rely on alignment that only works when conditions are favorable."
+The square quieted further. "We can't rely on a bond that only works when the day's easy."
 
 Riven felt Cael focus completely.
 
-Halverin continued. "In two days, we will conduct a public demonstration." A pause. "Observed. Structured. Safe."
+Halverin continued. "In four days, we will conduct a public demonstration." A pause. "Observed. Structured. Safe."
 
 The crowd shifted. People exchanged looks. A murmur moved through the square.
 
-"The sworn pair will help demonstrate what stable burden-sharing looks like."
+"The sworn pair will show what shared load looks like when it holds."
 
 There it was. Not a request. Not a discussion. A decision.
 
@@ -148,17 +148,17 @@ The memory was still too close—the beam, the crowd, the girl, the moment every
 
 Cael went still. "I wasn't—"
 
-"You were." Riven cut him off. "And then I was judging you for judging me." His voice cracked. "We were both so busy being inside each other's heads that neither of us moved fast enough."
+"You were." Riven cut him off. "And then I was judging you for judging me." His voice cracked. "We were both so busy in each other's heads neither of us moved fast enough."
 
 Silence. The city worked around them—a cart rattling somewhere beyond the alley, hammer blows echoing from the square, a bell ringing once. Cael looked at the ground. For the first time, Cael didn't have an answer. Riven felt him searching anyway, still trying to solve it, still trying to find the version where the bond could be made useful enough to justify the cost.
 
-A runner passed the alley mouth carrying fresh broadsides under one arm, paste bucket in the other. Posters for tomorrow were already going up.
+A runner passed the alley mouth carrying fresh broadsides under one arm, paste bucket in the other. Paste crews were already working ahead of the official schedule.
 
 By dusk, funeral fires burned in three quarters. Smoke drifted over the rooftops in dark ribbons. Bells sounded from different wards as names were read. Cael and Riven stood on the wall walk watching the city glow orange beneath the coming dark.
 
-Below them, a worker nailed a fresh notice to a post: PUBLIC DEMONSTRATION. TWO DAYS. The paper snapped in the wind. Three more appeared before the watch changed, each pasted over something older—missing notices, evacuation routes, supply instructions.
+Below them, a worker nailed a fresh notice to a post: PUBLIC DEMONSTRATION. FOUR DAYS. The paper snapped in the wind. Three more appeared before the watch changed, each pasted over something older—missing notices, evacuation routes, supply instructions.
 
-One man crouched in the square with chalk, sketching crowd lines across the paving stones. He paused when he noticed them watching. "You two are on tomorrow's route." He pointed—two circles at the head of an arrow, front and center.
+One man crouched in the square with chalk, sketching crowd lines across the paving stones. He paused when he noticed them watching. "That's where they'll chalk the pair when they run the demonstration route." He pointed—two circles at the head of an arrow, front and center.
 
 "Who told you where to put us?"
 
@@ -178,7 +178,7 @@ Cael didn't answer immediately. Through the bond, Riven felt fatigue, then longi
 
 Chalk route arrows ran underfoot all the way to the barracks arch, like a game the city had already started without asking permission. Riven kept walking.
 
-Near the arch, Merrow caught up long enough to hand Cael tomorrow's final posting slate. "You're center line until signal three," she said. "After that, improvise."
+Near the arch, Merrow caught up long enough to hand Cael the demonstration posting slate. "When the route's set, you're center line until signal three," she said. "After that, improvise."
 
 "With what reserve?" Cael asked.
 
@@ -198,9 +198,9 @@ Riven felt his guilt and Cael's in the same place in his chest, heavy and wrong.
 
 Riven sat on his own cot and stared at the chalk marks on his boots until the lines blurred. Through the bond Riven felt Cael set on the demonstration anyway, jaw locked—not because Cael trusted Halverin, because Cael couldn't bear the alternative.
 
-"Two days," Riven said.
+"Four days," Riven said.
 
-Cael nodded. "Two days."
+Cael nodded. "Four days."
 
 Neither of them believed the city would wait that long.
 

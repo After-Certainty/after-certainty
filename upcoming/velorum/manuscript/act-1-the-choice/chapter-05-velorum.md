@@ -10,6 +10,8 @@ Cael still hadn't let go of his wrist.
 
 "You're crushing my hand."
 
+"Let go, fuck."
+
 "No."
 
 "You are."

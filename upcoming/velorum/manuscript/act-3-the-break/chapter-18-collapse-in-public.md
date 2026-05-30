@@ -22,7 +22,7 @@ Riven stepped late. Cael's shame hit him hard. His shame hit Cael. The frame jer
 
 Riven saw Halverin's hand rise with the horn. He saw the magistrate's mouth form words that did not land in the noise. Same coat as the stairs briefing, buttons polished, hair combed for ink. He looked ready for a city that would behave.
 
-"Follow my instruction," Halverin said, louder. "You are resisting again. Stop resisting."
+"Follow my instruction," Halverin said, louder. "You're resisting again. Stop."
 
 "We're not resisting," Riven said. His voice came out raw. "We're fucking drowning."
 
@@ -72,7 +72,7 @@ Halverin kept talking. "Stand. Follow. You are almost—"
 
 Another voice joined. Then another. Not cheers. Not jeers. A low furious noise of people who had been sold steadiness and watched it turn into visible harm. Riven had seen riots in Ashfen. This was different. People were angry because they had believed the poster.
 
-Halverin raised the horn again. His hand shook. "This is a correction. Remain calm."
+Halverin raised the horn again. His hand shook. "This is a correction. Stay calm."
 
 Merrow cut through the rope line with two guards and a medic. She did not look at Halverin. She looked at the ground where Riven's knees had scraped stone.
 

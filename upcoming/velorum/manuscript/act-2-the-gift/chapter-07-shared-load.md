@@ -53,7 +53,7 @@ Riven crouched beside the nearest captive and yanked the knot tighter. The man h
 
 The bandit spat into the dirt and looked away. Good enough.
 
-Cael turned toward the wagons. "One line. Nobody breaks off. Nobody goes wandering to take a piss alone. Somebody falls behind, everybody stops."
+Cael turned toward the wagons. "One line. Nobody breaks off. Nobody wanders off alone. Somebody falls behind, everybody stops."
 
 Nobody argued. That was new. The fight had lasted less than a minute, and somehow that made people more nervous, not less.
 

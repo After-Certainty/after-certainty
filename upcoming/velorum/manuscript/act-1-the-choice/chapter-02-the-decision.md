@@ -162,7 +162,7 @@ The question sat in Riven's throat for a moment before he asked it.
 
 "And if we die out there like the song says? Ribs and all that miserable poetry?"
 
-Cael almost smiled. "Then at least we went because we chose to," he said, the words coming out sharper than he intended. He let out a breath. "I'm not asking you to like it. I'm asking you to stop acting like what we said on the ridge didn't matter."
+Cael almost smiled. "Then at least we went because we chose to," he said, the words coming out sharper than he intended. He let out a breath. "I'm not asking you to like it. I'm asking you to stop acting like the ridge didn't count."
 
 Riven looked at him for a long moment.
 

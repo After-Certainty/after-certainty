@@ -18,7 +18,7 @@ Not raiders. Not fire. Something wrong in the land's alignment, a tear in the wa
 
 The air over the channel thickened. Sound arrived late. The water's surface broke in shapes that were not waves.
 
-"Velorum correction," Bran yelled, backing up. "Or the thing that eats corrections."
+"Velorum correction," Bran yelled, backing up. "Or whatever eats corrections."
 
 Cael did not have theology. He had work.
 

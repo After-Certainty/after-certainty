@@ -126,7 +126,7 @@ The road narrowed as trees began to appear along the hillside, scattered at firs
 
 Riven swallowed. The inn board was a joke until it wasn't, names in chalk, shifts, debts, notes about who'd gone where and when they'd left.
 
-"The harbor's still in my head," Riven said, the words coming out quieter than he'd intended. "Same docks. Same wet planks. Half the crews gone. Nobody left who remembers who moved what or where it ended up."
+"The harbor's still in my head," Riven said, the words coming out quieter than he'd intended. "Same docks. Same wet planks. Half the crews gone. Nobody remembers who moved what."
 
 Cael's shoulders tightened for a moment. "I know."
 
@@ -214,7 +214,7 @@ The wind grew sharper as the road climbed, trees leaning against it with branche
 
 Riven kicked at a loose stone. "I'm mad that you make it sound like you're doing me a favor by letting me carry my own weight."
 
-Cael walked a few more steps before answering. "I'm not doing you a favor. I'm trying not to watch you fall off a hillside because you're too stubborn to loosen a strap."
+Cael walked a few more steps before answering. "I'm not doing you a favor. Loosen the strap or you'll fall off the hillside."
 
 "That's the same thing."
 

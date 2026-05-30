@@ -20,9 +20,9 @@ Cael unfolded it. The language was familiar: nobody responsible, everybody respo
 
 "You haven't finished reading."
 
-"I've read enough." He thought of the river stairs, of Lyra's face when she said *don't sign*, of Riven's hands shaking on the magistrate steps while the bond carried everything both ways.
+"I've read enough." He thought of the river stairs, of Lyra at the west lane wagon when she said *don't sign anything tonight*, of Riven's hands shaking in the square while the bond carried everything both ways.
 
-Halverin nodded slowly. "Council wants you to say the demonstration failed because the crowd interfered. They want me to say you lacked discipline. I won't sign it." His voice was flat, the same register he had used calling counts into the square, only empty now. "I showed you because if I sign it, you become villains in a ledger. If you sign it, I become a footnote. I don't want either. I also don't have a third story."
+Halverin nodded slowly. "Council wants you to say the crowd interfered. They want me to say you lacked discipline. I won't sign it." His voice was flat, the same register he had used calling counts into the square, only empty now. "Sign it and you're villains in a ledger. You sign it and I'm a footnote. I don't want either. I don't have a third story."
 
 "No," Cael said again.
 
@@ -40,7 +40,7 @@ Cael waited.
 
 "The bond?"
 
-"All of it." Halverin rubbed a hand across his face and let it drop. "The texts. The records. Every account I could find. I thought if you understood something well enough, you could predict it."
+"All of it." Halverin rubbed a hand across his face and let it drop. "The texts. The records. Every account I could find. I thought if you understood it well enough, you could predict it."
 
 "You wanted us to perform," Cael said.
 
@@ -60,7 +60,7 @@ Halverin laughed once. Control hung in the air without him saying it. For the fi
 
 "Then you shouldn't have built it like a stage."
 
-Halverin looked down. "No." The admission came quietly. "I shouldn't have." Rain ran down the window behind him. "The bond isn't something you can manage. I know that now."
+Halverin looked down. "No." The admission came quietly. "I shouldn't have." Rain ran down the window behind him. "You can't manage the bond. I know that now."
 
 "You told us privacy was a luxury."
 
@@ -74,7 +74,7 @@ Halverin looked up. "It didn't matter."
 
 "No."
 
-Another silence, longer this time. "I don't know how to fix it." The words seemed to cost him something. "I don't know how to separate what happened to you." His fingers pressed against the paper. "I don't know what comes next." That, more than anything else, sounded honest.
+Another silence, longer this time. "I don't know how to fix it." The words seemed to cost him something. "I don't know how to make amends for what happened to you." His fingers pressed against the paper. "I don't know what comes next." That, more than anything else, sounded honest.
 
 Cael looked at him for a moment. "Neither do we."
 

@@ -1,8 +1,8 @@
 # Chapter 15 - Trying to Fix It
 
-Labor crews worked the central square for three days straight.
+Labor crews worked the central square for three days straight—counting from the morning Halverin named a date, not from the attack.
 
-Cael stood on the lower staging platform at dawn and watched them slot timber braces into the old fountain basin. The square had always been wide; now it was wider, cleared of market stalls and cart pens so sightlines ran clean from the magistrate's steps to the north gate road. Chalk arrows marked where crowds would stand. Ropes marked where they would not. Fresh sawdust covered the stones where vendors had fought for decades over pitch space.
+Cael stood on the lower staging platform at dawn of the first of those days and watched them slot timber braces into the old fountain basin. The square had always been wide; now it was wider, cleared of market stalls and cart pens so sightlines ran clean from the magistrate's steps to the north gate road. Chalk arrows marked where crowds would stand. Ropes marked where they would not. Fresh sawdust covered the stones where vendors had fought for decades over pitch space.
 
 The fountain had not run in years. The basin held rainwater and trash until Merrow's people emptied it and Halverin's engineers claimed it for a platform base. Cael approved. A dry basin was safer. Water would swell the wood and make the crowd think this was renewal instead of repair.
 
@@ -30,11 +30,11 @@ Cael called it work.
 
 They rehearsed at second bell, then again at dusk, then again when the square lanterns were lit and the paste smell from the walls made Cael's throat itch. Halverin stood on the platform with a speaking horn and counted beats like a foreman laying joists.
 
-"Step on my count," he said. "Breathe on my count. You do not improvise until you can hold the line without improvisation."
+"Step on my count," he said. "Breathe on my count. No improvising until you can hold the line without it."
 
 Riven missed a count on purpose once. The bond jerked; Cael's knee buckled half a beat. Halverin stopped the run.
 
-"Again," he said. "You are not performing for each other. You are performing for everyone who thinks the ground is about to give."
+"Again," he said. "Not for each other. For everyone who thinks the ground's about to give."
 
 They ran it again. Cael felt the rhythm settle when he stopped fighting Riven's timing and started matching it. Not trust. Not forgiveness. Mechanics. On the road it had been the same: stop arguing with the weight and move where the weight already wanted to go.
 
@@ -74,7 +74,7 @@ On the second day second-bell light fell flat across the chalk arrows, no shadow
 
 Riven refused to read. He stood at the margin and watched guards practice the stamp drill until his jaw ached. At dusk Halverin made them run the full sequence with the horn live. The sound bounced wrong off the north wall again. Cael mentioned it. Halverin said the crowd would absorb the echo. Riven said the crowd was not a blanket. Nobody won that argument.
 
-On the second day Merrow walked the west lane with two medics and marked triage spots with chalk. Halverin's clerks tried to redirect the lane behind the crowd ropes. Merrow sent them back with a look that needed no speaking horn. Cael watched from the platform and felt grateful, then angry at himself for feeling grateful, because grateful meant he had already bought into Halverin's setup.
+That same afternoon Merrow walked the west lane with two medics and marked triage spots with chalk. Halverin's clerks tried to redirect the lane behind the crowd ropes. Merrow sent them back with a look that needed no speaking horn. Cael watched from the platform and felt grateful, then angry at himself for feeling grateful, because grateful meant he had already bought into Halverin's setup.
 
 In the afternoon a paste crew hung the woodcut broadside on the magistrate wall. Children gathered to point at the paired figures. An old man read the rules aloud to his grandson: no rushing the line, no weapons, children behind the rope. The grandson asked if Cael and Riven could stop the raiders from coming back. The old man said they could stop fear. Cael heard that from thirty paces and did not correct him.
 
@@ -84,11 +84,11 @@ On the morning of the final rehearsal, Halverin met them at the platform with tw
 
 Cael scanned it. Civic language. Steady voice. No mention of failure. "You want me speaking civic law now?"
 
-"I want you sounding like you believe the ground will hold," Halverin said.
+"I want you sounding like you believe the ground'll hold," Halverin said.
 
 Riven took the sheet from Cael's hand and read it once. "You left out what happens if we fail in front of them."
 
-"Then we adjust in public and continue," Halverin said. "Panic is worse than a visible correction."
+"Then we adjust in public and keep going," Halverin said. "Panic is worse than a visible screwup."
 
 "For who?" Riven asked.
 
@@ -110,7 +110,7 @@ She left before Riven could say anything else. Through the bond Cael got the ach
 
 In the afternoon Halverin walked the sequence with them one more time. He placed their marks with chalk. He set guards at the margins. He tested the speaking horn until his voice carried flat and clear across stone. The echo came back wrong from the north wall, a half-beat late, and Cael filed that away without knowing why it mattered.
 
-"Tomorrow at first bell," he said. "You enter on signal one. You hold on signal two. You do not break on my voice until you have no choice left."
+"Tomorrow at first bell," he said. "Signal one, you enter. Signal two, you hold. You don't break on my voice until you've got no choice left."
 
 Cael heard the last clause and felt cold run down his spine. *Until you have no choice left* sounded like a threat in polite words.
 

@@ -94,7 +94,7 @@ Lyra watched Riven's face, not the courtyard. "There."
 
 "What?"
 
-"You went quiet when nobody in here spoke." She pointed at him with a blood-stained finger. "Your jaw locked when the laugh hit you—like you'd heard it twice. Then you answered a question I hadn't finished asking."
+"You went quiet when nobody in here spoke." She pointed at him with a blood-stained finger. "Your jaw locked when the laugh hit—like you heard it twice. Then you answered a question I hadn't finished."
 
 Riven looked away. The infirmary suddenly felt too bright. "Does he hear everything?"
 
@@ -114,7 +114,7 @@ The words stuck. Ordinary, not dramatic, not cruel. Riven wasn't sure they were 
 
 Across the yard, Cael felt them too. Riven knew because anger arrived first, then embarrassment, then the familiar feeling of Cael trying to shove a door closed that no longer existed.
 
-"Halverin would call it load-sharing," Lyra said. "From his map, maybe it is. From here it looks like harm with good posters on it."
+"Halverin calls it load-sharing," Lyra said. "From his map, maybe. From here it's harm with good posters on it."
 
 Riven stood too quickly. The room tilted. His hand hit the table before the floor settled.
 
@@ -132,7 +132,7 @@ Riven sat, mostly because she sounded exactly like somebody who expected to be o
 
 Riven barked a laugh. "You don't like him."
 
-"I don't like people who rename harm." Nobody spoke for a second. Then she added: "Especially when everybody applauds afterward."
+"I don't like people who rename harm." Nobody spoke for a second. Then she added: "Especially when the crowd applauds."
 
 "How long you been doing this?"
 

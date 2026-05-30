@@ -54,13 +54,13 @@ Riven closed his eyes. "I can't fucking sneeze without him feeling it."
 
 That stopped him. "What?"
 
-"Not the bond. What we could have been if the world weren't chewing you both in public." She folded a clean cloth once, precise, like control still mattered in small things. "I don't get to be a private door for you. Neither does he. If I stay, I become part of the load. Another person the bond uses to hurt you both."
+"Not the bond. What we could've been if the world weren't chewing you up in public." She folded a clean cloth once, precise, like control still mattered in small things. "I don't get to be private for you. Neither does he. If I stay, I'm just more weight. Another way the bond hurts you both."
 
 "That's not fair to you."
 
 "It's accurate," Lyra said.
 
-She had been fair since Ashfen, in the way that cost. She had warned him at the river stairs. She had warned him before the demonstration. He had walked into both warnings because hope was easier than accuracy.
+She had been fair since Ashfen, in the way that cost. She had warned him about what happened at the river stairs—not at them, but after, in the infirmary when the dead still had names on everybody's lips. She had warned him before the demonstration. He had walked into both warnings because hope was easier than accuracy.
 
 "You could stay and hate us," Riven said. "People do."
 
@@ -76,7 +76,7 @@ She glanced at the corridor where Cael's presence pressed on the bond.
 
 Riven stood. The stool scraped. "So you leave because we're broken."
 
-"I leave because staying would be a lie," she said. "I'd stand next to you while you bleed in two directions and call it love. I won't."
+"I leave because staying would be a lie," she said. "I'd stand next to you bleeding in two directions and call it love. I won't."
 
 He wanted to argue. He wanted to grab her wrist and prove he could hold one feeling in one body if he tried hard enough. The bond answered with Cael's spike of jealousy and shame before Riven's hand moved.
 

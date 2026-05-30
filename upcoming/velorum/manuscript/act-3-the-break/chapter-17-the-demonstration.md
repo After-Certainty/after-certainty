@@ -8,7 +8,7 @@ He stood on the east staging mark with his boots set on chalk and his hands loos
 
 Halverin had already spoken the civic preamble while Cael and Riven took their marks: rules, sightlines, mercy for the frightened if they stayed behind the rope. Now he raised the speaking horn again. His voice carried clean across stone.
 
-"Today is not punishment," he said. "Today is proof that what began in Ashfen can be held in public. That shared burden is not chaos when it is directed."
+"Today is not punishment," he said. "Today is proof what started in Ashfen can hold in public—shared burden, not chaos, when somebody steers it."
 
 Riven stood three paces to Cael's left, jaw tight, eyes on the guards at the margin. Through the bond Cael felt Riven's dread in his own chest, steady and fast. Under it, Lyra's sentence: *invasive dependence.* Cael pushed it down and reached for counts instead.
 
@@ -40,7 +40,7 @@ Halverin called breath again. "In. Out. You do not carry alone."
 
 Cael breathed on the in. Riven on the out. For four cycles they matched. On the fifth a dog barked at the south rope and Riven's attention snagged. The lag returned. Cael swallowed irritation and adjusted. Halverin did not stop the run. He let the imperfection show and called it correction.
 
-"See," Halverin told the crowd. "Even error can be folded back into line."
+"See," Halverin told the crowd. "Even a slip can be folded back into line."
 
 Riven's anger spiked. *Folded.* Cael felt it hot through the bond. Riven did not say it loud enough for the crowd. His jaw worked.
 
@@ -64,7 +64,7 @@ On the third lift a boy in the front row shouted Cael's name like it was a song.
 
 The frame dipped. The bond jerked. Pain lanced across Cael's palms and landed in Riven's at the same time.
 
-"Focus," Halverin said, louder. "You are not two men. You are one pair."
+"Focus," Halverin said, louder. "You're not two men. You're one pair."
 
 Riven's anger hit the bond hot. Cael's shame answered it. The frame dipped again.
 
@@ -88,7 +88,7 @@ He thought of the river stairs. He thought of the girl's breath. He thought of H
 
 Cael stepped. Riven stepped late. The bond pulled wrong. Cael's knee buckled. The crowd gasped.
 
-"Hold the line," Halverin said. "Do not improvise."
+"Hold the line," Halverin said. "Don't improvise."
 
 Riven looked at him. Cael saw the refusal in Riven's face before he heard it in words.
 
@@ -98,7 +98,7 @@ Riven looked at him. Cael saw the refusal in Riven's face before he heard it in 
 
 "Now is all there is."
 
-Halverin raised the horn again. "Again. From the top. You will not leave this square until you hold."
+Halverin raised the horn again. "Again. From the top. You're not leaving this square until you hold."
 
 The bond strained, not broken yet, but close. The air over the fountain basin looked wrong, a faint lag between motion and shadow. He had seen distortion in Ashfen. This was different. This was a packed square with nowhere for fear to go.
 

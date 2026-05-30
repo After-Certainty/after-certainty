@@ -74,7 +74,7 @@ Cael nodded. Neither needed to explain what.
 
 At the center of the basin, an old timber brace pushed up through the dust, grey wood, rust-eaten pins, forgotten work. Cael crouched beside it, testing, always testing.
 
-"If we move this," he said quietly, "something changes."
+"If we move this," he said quietly, "something'll shift."
 
 Riven looked at the brace, then at the basin, then back at Cael. "You hear yourself?"
 
@@ -134,7 +134,7 @@ Across the dark, Cael shifted. Neither spoke for a while. Then:
 
 Riven stared at the stars. "For what?"
 
-The answer took time. "For every time I treated your wanting like betrayal."
+The answer took time. "For every time I treated your wanting like you betrayed me."
 
 Wind moved through the cut. Pebbles clicked somewhere in the dark.
 
