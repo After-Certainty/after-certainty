@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir export-docx export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -25,6 +25,7 @@ help:
 	@echo "  make import-docx"
 	@echo "  make import-docx-dir DIR=path/to/folder [OVERWRITE=1]"
 	@echo "  make export-docx DIR=path/to/book-folder [OUT_STEM=basename]"
+	@echo "  make export-docx-by-part DIR=path/to/book-folder [OUT_STEM=basename] [PARTS=act-1-the-choice,act-2-the-gift]"
 	@echo "  make export-kindle-epub DIR=path/to/book-folder [OUT_STEM=basename]"
 	@echo "  make export-pdf DIR=path/to/book-folder [OUT_STEM=basename]"
 	@echo "  make export-all-docx"
@@ -63,6 +64,7 @@ help:
 	@echo "  - import-docx-dir converts every .docx under DIR to side-by-side .md."
 	@echo "  - import-docx-dir skips existing .md files unless OVERWRITE=1."
 	@echo "  - export-docx combines DIR/index.md plus linked .md files into DIR/<stem>.docx."
+	@echo "  - export-docx-by-part writes one DOCX per ## Part … section (e.g. velorum-act-1-the-choice.docx)."
 	@echo "  - export-kindle-epub creates DIR/<stem>.epub (flattened custom blocks, shallow nav TOC)."
 	@echo "  - export-pdf creates DIR/<stem>.pdf using scripts/export_pdf.py and book.yml PDF settings."
 	@echo "  - <stem> defaults to DIR relative to repo root with path segments joined by '-' (override with OUT_STEM)."
@@ -262,6 +264,10 @@ import-docx-dir: check-pandoc
 export-docx: check-pandoc
 	@test -n "$(DIR)" || { echo "Usage: make export-docx DIR=path/to/book-folder [OUT_STEM=basename]"; exit 1; }
 	@python3 scripts/export_docx.py --repo . --book-dir "$(DIR)" --out-stem "$(OUT_STEM)"
+
+export-docx-by-part: check-pandoc
+	@test -n "$(DIR)" || { echo "Usage: make export-docx-by-part DIR=path/to/book-folder [OUT_STEM=basename] [PARTS=slug1,slug2]"; exit 1; }
+	@python3 scripts/export_docx.py --repo . --book-dir "$(DIR)" --out-stem "$(OUT_STEM)" --by-part $(if $(PARTS),--parts "$(PARTS)",)
 
 # Kindle EPUB: toc-depth=1 keeps nav TOC to # headings only; kindle-flatten injects Part # lines from index.md.
 export-kindle-epub: check-pandoc
