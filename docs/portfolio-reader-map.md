@@ -85,7 +85,7 @@ Read the published lens first; the essay edition extends the durability problem.
 
 ## Fiction
 
-[**Velorum**](../upcoming/velorum/index.md) — tragic mythic fantasy; separate from the nonfiction thread. Index currently lists Act I; full manuscript spans five acts.
+[**Velorum**](../books/velorum/index.md) — tragic mythic fantasy; separate from the nonfiction thread. Full manuscript spans five acts (30 chapters).
 
 ---
 

@@ -14,15 +14,14 @@ Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a sep
 |------|-------|------------------|-------------|--------|
 | [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Phase 5 | Essay edition promoted; agent pipeline complete | Author review; export smoke | [status](../../books/when-interpretation-no-longer-matters/docs/status.md) |
 
-## Upcoming fiction
-
-Not part of the nonfiction editorial passes or judgment/alignment/compression cluster. Planning lives under each book's `docs/`; exports stay disabled until a manuscript spine is ready.
+## Published fiction
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
-| [Velorum](../velorum/) | In progress | Mythic fantasy; Act I chapters drafted; voice/continuity specs under `velorum/docs/` | Act I continuity + chapter pipeline per [`agents/README`](../velorum/docs/agents/README.md) | [project spec](../velorum/docs/project-spec.md) |
+| [Velorum](../../books/velorum/) | Phase 5 | Mythic fantasy; 30 chapters; dev editor revision complete | Beta readers; export smoke | [status](../../books/velorum/docs/status.md) |
+| [Boundary Conditions](../../books/boundary-conditions/) | Published | Organizational fiction | — | [status](../../books/boundary-conditions/docs/status.md) |
 
-*Why Collaboration Is So Hard promoted to [`books/why-collaboration-is-so-hard/`](../../books/why-collaboration-is-so-hard/) · When Interpretation No Longer Matters to [`books/when-interpretation-no-longer-matters/`](../../books/when-interpretation-no-longer-matters/) · Boundary Conditions to [`books/boundary-conditions/`](../../books/boundary-conditions/) · The Discipline of Uncertainty to [`books/the-discipline-of-uncertainty/`](../../books/the-discipline-of-uncertainty/) · The Economy We Don't Experience to [`books/the-economy-we-dont-experience/`](../../books/the-economy-we-dont-experience/) · When Incentives Become the Moral Language to [`books/when-incentives-become-the-moral-language/`](../../books/when-incentives-become-the-moral-language/) — see each book's `docs/status.md`.*
+*Velorum promoted to [`books/velorum/`](../../books/velorum/) · Why Collaboration Is So Hard to [`books/why-collaboration-is-so-hard/`](../../books/why-collaboration-is-so-hard/) · When Interpretation No Longer Matters to [`books/when-interpretation-no-longer-matters/`](../../books/when-interpretation-no-longer-matters/) · Boundary Conditions to [`books/boundary-conditions/`](../../books/boundary-conditions/) · The Discipline of Uncertainty to [`books/the-discipline-of-uncertainty/`](../../books/the-discipline-of-uncertainty/) · The Economy We Don't Experience to [`books/the-economy-we-dont-experience/`](../../books/the-economy-we-dont-experience/) · When Incentives Become the Moral Language to [`books/when-incentives-become-the-moral-language/`](../../books/when-incentives-become-the-moral-language/) — see each book's `docs/status.md`.*
 
 ## Judgment / alignment / compression cluster
 
