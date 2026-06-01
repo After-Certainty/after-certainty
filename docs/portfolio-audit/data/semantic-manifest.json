@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-05-26T15:13:07.879100+00:00",
+  "generatedAt": "2026-06-01T01:14:29.570445+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
@@ -502,8 +502,8 @@
     },
     {
       "slug": "velorum",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "Velorum",
       "subtitle": "A Tragic Mythic Fantasy Novel",
       "description": "A mythic fantasy about loyalty, sacrifice, and power, where personal vows and political fate collide at tragic scale.",
@@ -511,25 +511,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/velorum/book-cover.png",
-      "coverImagePath": "upcoming/velorum/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/velorum/open-graph.png",
-      "openGraphImagePath": "upcoming/velorum/open-graph.png",
-      "bookDir": "upcoming/velorum",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/velorum/book-cover.png",
+      "coverImagePath": "books/velorum/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/velorum/open-graph.png",
+      "openGraphImagePath": "books/velorum/open-graph.png",
+      "bookDir": "books/velorum",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "velorum.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/velorum.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "velorum.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/velorum.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "velorum.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/velorum.pdf"
       },
       "id": "book-velorum",
       "summary": "A mythic fantasy about loyalty, sacrifice, and power, where personal vows and political fate collide at tragic scale.",
@@ -701,8 +701,8 @@
     },
     {
       "slug": "when-interpretation-no-longer-matters",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "When Interpretation No Longer Matters",
       "subtitle": "Authority After Understanding Collapses",
       "description": "When explanation, evidence, and repair fail\u2014and what kinds of authority remain when public understanding collapses.",
@@ -710,25 +710,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-interpretation-no-longer-matters/book-cover.png",
-      "coverImagePath": "upcoming/when-interpretation-no-longer-matters/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-interpretation-no-longer-matters/open-graph.png",
-      "openGraphImagePath": "upcoming/when-interpretation-no-longer-matters/open-graph.png",
-      "bookDir": "upcoming/when-interpretation-no-longer-matters",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-interpretation-no-longer-matters/book-cover.png",
+      "coverImagePath": "books/when-interpretation-no-longer-matters/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-interpretation-no-longer-matters/open-graph.png",
+      "openGraphImagePath": "books/when-interpretation-no-longer-matters/open-graph.png",
+      "bookDir": "books/when-interpretation-no-longer-matters",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-interpretation-no-longer-matters.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-interpretation-no-longer-matters.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-interpretation-no-longer-matters.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-interpretation-no-longer-matters.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-interpretation-no-longer-matters.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-interpretation-no-longer-matters.pdf"
       },
       "id": "book-when-interpretation-no-longer-matters",
       "summary": "When explanation, evidence, and repair fail\u2014and what kinds of authority remain when public understanding collapses.",
@@ -1027,7 +1027,8 @@
         "book-when-authority-outlives-accountability": 1,
         "book-when-incentives-become-the-moral-language": 2,
         "book-when-moral-seriousness-scales": 7,
-        "book-when-others-look-to-you-v1": 1
+        "book-when-others-look-to-you-v1": 1,
+        "book-why-collaboration-is-so-hard": 2
       }
     },
     {
@@ -1111,11 +1112,11 @@
         "book-when-authority-is-misread": 33,
         "book-when-authority-outlives-accountability": 68,
         "book-when-incentives-become-the-moral-language": 28,
-        "book-when-interpretation-no-longer-matters": 139,
+        "book-when-interpretation-no-longer-matters": 141,
         "book-when-moral-seriousness-scales": 3,
         "book-when-others-look-to-you-v1": 25,
         "book-when-others-look-to-you-v2": 2,
-        "book-why-collaboration-is-so-hard": 3
+        "book-why-collaboration-is-so-hard": 26
       }
     },
     {
@@ -1285,14 +1286,15 @@
         "book-how-serious-systems-learn": 7,
         "book-the-discipline-of-uncertainty": 3,
         "book-the-economy-we-dont-experience": 22,
+        "book-velorum": 3,
         "book-when-accountability-no-longer-expires": 6,
         "book-when-authority-is-misread": 10,
         "book-when-authority-outlives-accountability": 1,
-        "book-when-incentives-become-the-moral-language": 6,
-        "book-when-interpretation-no-longer-matters": 35,
+        "book-when-incentives-become-the-moral-language": 8,
+        "book-when-interpretation-no-longer-matters": 37,
         "book-when-moral-seriousness-scales": 5,
         "book-when-others-look-to-you-v2": 1,
-        "book-why-collaboration-is-so-hard": 16
+        "book-why-collaboration-is-so-hard": 28
       }
     },
     {
@@ -1314,7 +1316,7 @@
         "book-when-authority-is-misread": 4,
         "book-when-authority-outlives-accountability": 2,
         "book-when-moral-seriousness-scales": 28,
-        "book-why-collaboration-is-so-hard": 18
+        "book-why-collaboration-is-so-hard": 20
       }
     },
     {
@@ -1367,24 +1369,25 @@
       "id": "concept-authority",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 48,
+        "book-after-certainty": 49,
         "book-before-certainty-arrives": 97,
-        "book-boundary-conditions": 11,
+        "book-boundary-conditions": 12,
         "book-coupling": 90,
         "book-curiosity-before-certainty": 1,
-        "book-how-meaning-moves": 67,
+        "book-how-meaning-moves": 68,
         "book-how-serious-systems-learn": 74,
         "book-the-discipline-of-uncertainty": 15,
         "book-the-economy-we-dont-experience": 2,
-        "book-when-accountability-no-longer-expires": 133,
+        "book-velorum": 9,
+        "book-when-accountability-no-longer-expires": 134,
         "book-when-authority-is-misread": 106,
         "book-when-authority-outlives-accountability": 153,
-        "book-when-incentives-become-the-moral-language": 35,
-        "book-when-interpretation-no-longer-matters": 438,
+        "book-when-incentives-become-the-moral-language": 37,
+        "book-when-interpretation-no-longer-matters": 417,
         "book-when-moral-seriousness-scales": 50,
         "book-when-others-look-to-you-v1": 73,
         "book-when-others-look-to-you-v2": 15,
-        "book-why-collaboration-is-so-hard": 6
+        "book-why-collaboration-is-so-hard": 40
       }
     },
     {
@@ -1506,7 +1509,9 @@
         "book-coupling": 51,
         "book-how-serious-systems-learn": 1,
         "book-the-discipline-of-uncertainty": 4,
-        "book-when-incentives-become-the-moral-language": 1
+        "book-velorum": 1,
+        "book-when-incentives-become-the-moral-language": 1,
+        "book-why-collaboration-is-so-hard": 2
       }
     },
     {
@@ -1578,15 +1583,16 @@
         "book-how-serious-systems-learn": 52,
         "book-the-discipline-of-uncertainty": 163,
         "book-the-economy-we-dont-experience": 15,
+        "book-velorum": 5,
         "book-when-accountability-no-longer-expires": 55,
         "book-when-authority-is-misread": 4,
         "book-when-authority-outlives-accountability": 40,
-        "book-when-incentives-become-the-moral-language": 40,
-        "book-when-interpretation-no-longer-matters": 40,
+        "book-when-incentives-become-the-moral-language": 42,
+        "book-when-interpretation-no-longer-matters": 144,
         "book-when-moral-seriousness-scales": 11,
         "book-when-others-look-to-you-v1": 2,
         "book-when-others-look-to-you-v2": 3,
-        "book-why-collaboration-is-so-hard": 9
+        "book-why-collaboration-is-so-hard": 53
       }
     },
     {
@@ -1780,10 +1786,10 @@
         "book-when-accountability-no-longer-expires": 12,
         "book-when-authority-is-misread": 62,
         "book-when-authority-outlives-accountability": 6,
-        "book-when-incentives-become-the-moral-language": 13,
-        "book-when-interpretation-no-longer-matters": 13,
+        "book-when-incentives-become-the-moral-language": 14,
+        "book-when-interpretation-no-longer-matters": 14,
         "book-when-moral-seriousness-scales": 1,
-        "book-why-collaboration-is-so-hard": 1
+        "book-why-collaboration-is-so-hard": 23
       }
     },
     {
@@ -1852,14 +1858,16 @@
         "book-how-serious-systems-learn": 19,
         "book-the-discipline-of-uncertainty": 2,
         "book-the-economy-we-dont-experience": 2,
+        "book-velorum": 2,
         "book-when-accountability-no-longer-expires": 12,
         "book-when-authority-is-misread": 8,
         "book-when-authority-outlives-accountability": 11,
         "book-when-incentives-become-the-moral-language": 2,
-        "book-when-interpretation-no-longer-matters": 15,
+        "book-when-interpretation-no-longer-matters": 19,
         "book-when-moral-seriousness-scales": 40,
         "book-when-others-look-to-you-v1": 10,
-        "book-when-others-look-to-you-v2": 4
+        "book-when-others-look-to-you-v2": 4,
+        "book-why-collaboration-is-so-hard": 4
       }
     },
     {
@@ -1933,9 +1941,9 @@
         "book-when-authority-is-misread": 67,
         "book-when-authority-outlives-accountability": 8,
         "book-when-incentives-become-the-moral-language": 1,
-        "book-when-interpretation-no-longer-matters": 8,
+        "book-when-interpretation-no-longer-matters": 10,
         "book-when-moral-seriousness-scales": 30,
-        "book-why-collaboration-is-so-hard": 12
+        "book-why-collaboration-is-so-hard": 17
       }
     },
     {
@@ -2076,23 +2084,23 @@
       "id": "concept-coordination",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 12,
+        "book-after-certainty": 14,
         "book-before-certainty-arrives": 44,
         "book-boundary-conditions": 10,
         "book-coupling": 167,
-        "book-how-meaning-moves": 6,
+        "book-how-meaning-moves": 8,
         "book-how-serious-systems-learn": 16,
         "book-the-discipline-of-uncertainty": 8,
         "book-the-economy-we-dont-experience": 6,
-        "book-when-accountability-no-longer-expires": 4,
+        "book-when-accountability-no-longer-expires": 5,
         "book-when-authority-is-misread": 25,
         "book-when-authority-outlives-accountability": 6,
-        "book-when-incentives-become-the-moral-language": 13,
-        "book-when-interpretation-no-longer-matters": 6,
+        "book-when-incentives-become-the-moral-language": 15,
+        "book-when-interpretation-no-longer-matters": 8,
         "book-when-moral-seriousness-scales": 7,
         "book-when-others-look-to-you-v1": 12,
         "book-when-others-look-to-you-v2": 3,
-        "book-why-collaboration-is-so-hard": 10
+        "book-why-collaboration-is-so-hard": 19
       }
     },
     {
@@ -2147,20 +2155,22 @@
       "mentionsByBook": {
         "book-after-certainty": 5,
         "book-before-certainty-arrives": 4,
+        "book-boundary-conditions": 1,
         "book-coupling": 45,
         "book-curiosity-before-certainty": 2,
         "book-how-meaning-moves": 26,
         "book-how-serious-systems-learn": 89,
         "book-the-discipline-of-uncertainty": 1,
         "book-the-economy-we-dont-experience": 2,
+        "book-velorum": 28,
         "book-when-accountability-no-longer-expires": 22,
         "book-when-authority-outlives-accountability": 5,
         "book-when-incentives-become-the-moral-language": 2,
-        "book-when-interpretation-no-longer-matters": 12,
+        "book-when-interpretation-no-longer-matters": 13,
         "book-when-moral-seriousness-scales": 10,
         "book-when-others-look-to-you-v1": 104,
         "book-when-others-look-to-you-v2": 15,
-        "book-why-collaboration-is-so-hard": 4
+        "book-why-collaboration-is-so-hard": 6
       }
     },
     {
@@ -2198,9 +2208,9 @@
         "book-how-serious-systems-learn": 7,
         "book-when-accountability-no-longer-expires": 10,
         "book-when-authority-outlives-accountability": 10,
-        "book-when-incentives-become-the-moral-language": 10,
-        "book-when-interpretation-no-longer-matters": 10,
-        "book-why-collaboration-is-so-hard": 1
+        "book-when-incentives-become-the-moral-language": 12,
+        "book-when-interpretation-no-longer-matters": 12,
+        "book-why-collaboration-is-so-hard": 28
       }
     },
     {
@@ -2295,7 +2305,7 @@
         "book-how-meaning-moves": 4,
         "book-how-serious-systems-learn": 2,
         "book-the-discipline-of-uncertainty": 1,
-        "book-velorum": 7,
+        "book-velorum": 15,
         "book-when-accountability-no-longer-expires": 5,
         "book-when-authority-is-misread": 6,
         "book-when-authority-outlives-accountability": 9,
@@ -2303,7 +2313,7 @@
         "book-when-moral-seriousness-scales": 25,
         "book-when-others-look-to-you-v1": 15,
         "book-when-others-look-to-you-v2": 7,
-        "book-why-collaboration-is-so-hard": 1
+        "book-why-collaboration-is-so-hard": 2
       }
     },
     {
@@ -2387,16 +2397,16 @@
         "book-how-serious-systems-learn": 26,
         "book-the-discipline-of-uncertainty": 60,
         "book-the-economy-we-dont-experience": 1,
-        "book-velorum": 1,
+        "book-velorum": 2,
         "book-when-accountability-no-longer-expires": 15,
         "book-when-authority-is-misread": 13,
         "book-when-authority-outlives-accountability": 8,
         "book-when-incentives-become-the-moral-language": 1,
-        "book-when-interpretation-no-longer-matters": 5,
+        "book-when-interpretation-no-longer-matters": 6,
         "book-when-moral-seriousness-scales": 5,
         "book-when-others-look-to-you-v1": 7,
         "book-when-others-look-to-you-v2": 11,
-        "book-why-collaboration-is-so-hard": 2
+        "book-why-collaboration-is-so-hard": 8
       }
     },
     {
@@ -2529,7 +2539,7 @@
         "book-when-accountability-no-longer-expires": 1,
         "book-when-authority-outlives-accountability": 2,
         "book-when-incentives-become-the-moral-language": 9,
-        "book-when-interpretation-no-longer-matters": 7,
+        "book-when-interpretation-no-longer-matters": 9,
         "book-when-moral-seriousness-scales": 18,
         "book-when-others-look-to-you-v1": 1,
         "book-why-collaboration-is-so-hard": 3
@@ -2603,7 +2613,6 @@
         "book-how-meaning-moves": 2,
         "book-how-serious-systems-learn": 13,
         "book-the-economy-we-dont-experience": 7,
-        "book-velorum": 1,
         "book-when-accountability-no-longer-expires": 1,
         "book-when-authority-outlives-accountability": 5,
         "book-when-incentives-become-the-moral-language": 1,
@@ -2897,20 +2906,20 @@
       "id": "concept-interpretation",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 72,
+        "book-after-certainty": 76,
         "book-before-certainty-arrives": 21,
         "book-coupling": 3,
-        "book-how-meaning-moves": 72,
+        "book-how-meaning-moves": 76,
         "book-how-serious-systems-learn": 11,
         "book-the-discipline-of-uncertainty": 5,
         "book-the-economy-we-dont-experience": 3,
-        "book-when-accountability-no-longer-expires": 33,
+        "book-when-accountability-no-longer-expires": 37,
         "book-when-authority-is-misread": 40,
         "book-when-authority-outlives-accountability": 13,
-        "book-when-incentives-become-the-moral-language": 36,
-        "book-when-interpretation-no-longer-matters": 242,
+        "book-when-incentives-become-the-moral-language": 42,
+        "book-when-interpretation-no-longer-matters": 235,
         "book-when-others-look-to-you-v1": 1,
-        "book-why-collaboration-is-so-hard": 4
+        "book-why-collaboration-is-so-hard": 46
       }
     },
     {
@@ -2991,14 +3000,15 @@
         "book-how-serious-systems-learn": 18,
         "book-the-discipline-of-uncertainty": 31,
         "book-the-economy-we-dont-experience": 4,
+        "book-velorum": 3,
         "book-when-accountability-no-longer-expires": 16,
         "book-when-authority-is-misread": 31,
         "book-when-authority-outlives-accountability": 39,
-        "book-when-incentives-become-the-moral-language": 96,
-        "book-when-interpretation-no-longer-matters": 46,
+        "book-when-incentives-become-the-moral-language": 98,
+        "book-when-interpretation-no-longer-matters": 45,
         "book-when-moral-seriousness-scales": 48,
         "book-when-others-look-to-you-v1": 20,
-        "book-why-collaboration-is-so-hard": 18
+        "book-why-collaboration-is-so-hard": 48
       }
     },
     {
@@ -3062,11 +3072,11 @@
         "book-when-authority-is-misread": 108,
         "book-when-authority-outlives-accountability": 109,
         "book-when-incentives-become-the-moral-language": 12,
-        "book-when-interpretation-no-longer-matters": 79,
+        "book-when-interpretation-no-longer-matters": 85,
         "book-when-moral-seriousness-scales": 16,
         "book-when-others-look-to-you-v1": 79,
         "book-when-others-look-to-you-v2": 6,
-        "book-why-collaboration-is-so-hard": 1
+        "book-why-collaboration-is-so-hard": 5
       }
     },
     {
@@ -3137,15 +3147,15 @@
         "book-how-serious-systems-learn": 4,
         "book-the-discipline-of-uncertainty": 69,
         "book-the-economy-we-dont-experience": 10,
-        "book-velorum": 1,
+        "book-velorum": 15,
         "book-when-accountability-no-longer-expires": 19,
         "book-when-authority-is-misread": 25,
         "book-when-authority-outlives-accountability": 11,
-        "book-when-incentives-become-the-moral-language": 15,
-        "book-when-interpretation-no-longer-matters": 149,
+        "book-when-incentives-become-the-moral-language": 17,
+        "book-when-interpretation-no-longer-matters": 151,
         "book-when-others-look-to-you-v1": 1,
         "book-when-others-look-to-you-v2": 2,
-        "book-why-collaboration-is-so-hard": 3
+        "book-why-collaboration-is-so-hard": 17
       }
     },
     {
@@ -3160,7 +3170,7 @@
       "isCoreTerm": false,
       "mentionsByBook": {
         "book-when-authority-is-misread": 1,
-        "book-when-interpretation-no-longer-matters": 3,
+        "book-when-interpretation-no-longer-matters": 5,
         "book-when-moral-seriousness-scales": 1
       }
     },
@@ -3337,13 +3347,15 @@
         "book-how-meaning-moves": 1,
         "book-the-discipline-of-uncertainty": 8,
         "book-the-economy-we-dont-experience": 18,
+        "book-velorum": 1,
         "book-when-accountability-no-longer-expires": 23,
         "book-when-authority-outlives-accountability": 17,
         "book-when-incentives-become-the-moral-language": 1,
-        "book-when-interpretation-no-longer-matters": 1,
+        "book-when-interpretation-no-longer-matters": 2,
         "book-when-moral-seriousness-scales": 2,
         "book-when-others-look-to-you-v1": 41,
-        "book-when-others-look-to-you-v2": 2
+        "book-when-others-look-to-you-v2": 2,
+        "book-why-collaboration-is-so-hard": 2
       }
     },
     {
@@ -3490,11 +3502,11 @@
         "book-when-authority-is-misread": 48,
         "book-when-authority-outlives-accountability": 51,
         "book-when-incentives-become-the-moral-language": 27,
-        "book-when-interpretation-no-longer-matters": 14,
+        "book-when-interpretation-no-longer-matters": 17,
         "book-when-moral-seriousness-scales": 50,
         "book-when-others-look-to-you-v1": 49,
         "book-when-others-look-to-you-v2": 3,
-        "book-why-collaboration-is-so-hard": 1
+        "book-why-collaboration-is-so-hard": 13
       }
     },
     {
@@ -3644,7 +3656,7 @@
         "book-how-serious-systems-learn": 13,
         "book-the-discipline-of-uncertainty": 8,
         "book-the-economy-we-dont-experience": 1,
-        "book-velorum": 4,
+        "book-velorum": 18,
         "book-when-authority-outlives-accountability": 1,
         "book-when-interpretation-no-longer-matters": 1,
         "book-when-moral-seriousness-scales": 9,
@@ -3668,7 +3680,7 @@
         "book-the-discipline-of-uncertainty": 4,
         "book-when-incentives-become-the-moral-language": 5,
         "book-when-others-look-to-you-v1": 2,
-        "book-why-collaboration-is-so-hard": 2
+        "book-why-collaboration-is-so-hard": 4
       }
     },
     {
@@ -3747,7 +3759,7 @@
         "book-when-moral-seriousness-scales": 1,
         "book-when-others-look-to-you-v1": 6,
         "book-when-others-look-to-you-v2": 6,
-        "book-why-collaboration-is-so-hard": 19
+        "book-why-collaboration-is-so-hard": 26
       }
     },
     {

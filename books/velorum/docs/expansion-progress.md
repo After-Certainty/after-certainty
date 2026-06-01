@@ -162,13 +162,13 @@ Run after **Agent 01** (or manual snippet merge), before closing a pass. See **[
 ### Word counts
 
 ```bash
-wc -w upcoming/velorum/manuscript/act-*/chapter-*.md
+wc -w books/velorum/manuscript/act-*/chapter-*.md
 ```
 
 Or one chapter:
 
 ```bash
-wc -w upcoming/velorum/manuscript/act-3-the-break/chapter-18-collapse-in-public.md
+wc -w books/velorum/manuscript/act-3-the-break/chapter-18-collapse-in-public.md
 ```
 
 ### After a chapter pass

@@ -18,7 +18,7 @@ Issue #99 references `upcoming/portfolio-status.md`. The live dashboard is [`upc
 |------|--------|
 | 8 nonfiction titles under `upcoming/` | Full promotion-readiness assessment |
 | 9 publishable roots under `books/` | Metadata, onboarding, website-integration gaps |
-| `upcoming/velorum/` | Noted separately (fiction track; excluded from nonfiction ladder) |
+| `books/velorum/` | Published fiction (mythic fantasy); excluded from nonfiction ladder |
 | `semantic/` ontology | Coverage snapshot via generated manifest |
 
 ## Reports

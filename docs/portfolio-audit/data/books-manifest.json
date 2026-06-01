@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-05-27T03:15:45.983220+00:00",
+  "generatedAt": "2026-06-01T01:14:08.265577+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
@@ -295,8 +295,8 @@
     },
     {
       "slug": "velorum",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "Velorum",
       "subtitle": "A Tragic Mythic Fantasy Novel",
       "description": "A mythic fantasy about loyalty, sacrifice, and power, where personal vows and political fate collide at tragic scale.",
@@ -304,25 +304,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/velorum/book-cover.png",
-      "coverImagePath": "upcoming/velorum/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/velorum/open-graph.png",
-      "openGraphImagePath": "upcoming/velorum/open-graph.png",
-      "bookDir": "upcoming/velorum",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/velorum/book-cover.png",
+      "coverImagePath": "books/velorum/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/velorum/open-graph.png",
+      "openGraphImagePath": "books/velorum/open-graph.png",
+      "bookDir": "books/velorum",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "velorum.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/velorum.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "velorum.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/velorum.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "velorum.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/velorum.pdf"
       }
     },
     {

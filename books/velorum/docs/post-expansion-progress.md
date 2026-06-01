@@ -78,7 +78,7 @@
 | **04 spot** | ch 11, 12, 13, 21, 24, 25, 26, 27, 29, 30 | Observation ownership — roughened literary compression; Lyra ch 30 lines re-mouthed |
 | **06 light** | Acts I–V (10 chapters) | One mundane beat each where efficiency dominated — blister, stew gripe, mule fart, apple core, clerk's roll, piss/bond awkwardness, cooper vs Bran, pilgrim supper |
 
-**Book total after follow-up:** run `wc -w upcoming/velorum/manuscript/act-*/chapter-*.md`
+**Book total after follow-up:** run `wc -w books/velorum/manuscript/act-*/chapter-*.md`
 
 ---
 
