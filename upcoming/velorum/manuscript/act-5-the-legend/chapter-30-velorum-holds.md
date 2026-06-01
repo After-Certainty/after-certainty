@@ -10,6 +10,8 @@ A tinker on the Kestrel Gate road had sold her a folded sheet with a woodcut cop
 
 Heartbridge hill wore a second monument now, fresh granite, two figures with a rope between them, faces smoothed into heroism. Someone had laid wreaths. Someone had carved *VELORUM HOLDS* at the base like a civic prayer. The letters were too deep, cut for weather that would outlast the men they described.
 
+When pilgrims sang, the sound reached her before their mouths opened—wrong order, like the hill still remembered Ashring. Lyra stopped trying to pair lips with notes and listened to the lag instead.
+
 A mason was already at work on the hairline crack from the tear night—mortar in a bucket, trowel, the careful violence of making damage invisible. Lyra watched him fill the fracture and did not stop him. Merrow had said leave it. The town had other votes.
 
 Lyra stood before it at dawn because she could not sleep in the inn anyway. Her room faced the hill and pilgrims had started singing before first light, off-key and sincere. She had washed her hands twice and still smelled fish from the harbor wind.
@@ -70,7 +72,7 @@ Lyra looked at the statue visible above roofs, smooth faces, rope clean as theol
 
 "Velorum holds," Cael said, flat.
 
-"Velorum holds," Lyra agreed. "You don't. Not fully. Not separate."
+"Velorum holds," Lyra agreed. "The act, not the stone. You carry. The town names it. Those aren't the same thing." She looked at both of them. "You don't hold fully. Not separate."
 
 Riven flinched. Cael did too, echoed.
 

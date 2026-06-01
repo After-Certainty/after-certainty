@@ -14,11 +14,9 @@ They stood still. The road looked normal: pale gravel, wheel ruts, a ditch full 
 
 The first two days north had still felt like travel: cold camps, hard bread, smoke from Kestrel Gate thinning behind them. A farmer's cart passed at dusk on the second evening, driver staring, neither of them waving. By morning the rut marks had half-filled with grit. The road swallowed evidence fast out here.
 
-By the third morning the road rang hollow underfoot, not every step, just enough, a wrong note where there should have been weight. Riven's headache spent the morning changing owners, his temples, then Cael's shoulders, then back again.
+By the third morning the road rang hollow underfoot—not every step, just enough. Riven's headache spent the morning changing owners, his temples, then Cael's shoulders, then back again.
 
 They had eaten iron ration at a fork where Merrow's map showed a well. The well was dry. Mud at the bottom, cracked in hexagons like old pottery. Cael marked the map with a cross. Riven watched his hand move and felt the disappointment before Cael finished the stroke. They refilled from a seep an hour later and both got sick for it. Riven blamed the water. Cael blamed the ration. Neither was wrong enough to matter.
-
-By afternoon the wrongness had spread—not new symptoms, the same wrong note wearing through everything they touched.
 
 They had not spoken about Lyra since Merrow's yard. The silence had held for three days. Out here silence didn't mean peace. It meant the bond was carrying what words would have said.
 
@@ -32,25 +30,13 @@ They had eaten the last of the fresh bread at midday. What remained was iron rat
 
 They passed a wagon wheel sunk to the hub in the road. No axle. No cart. Riven counted spokes: twelve. One missing. He didn't ask where the rest of the wagon had gone.
 
-They kept walking. Stopping didn't help. A cart rut crossed the road ahead. Cael stepped over it. The edge crumbled after his boot had already passed. Riven corrected his balance before he knew why. A moment later he felt Cael lose his. The bond caught it.
-
-A shepherd's hut stood collapsed beside the road, roof caved, door hanging. No sheep. No shepherd. Riven checked it anyway. Empty except for ash and a broken crook. Cael waited without comment. Waiting was easier than asking who had left in a hurry.
-
-A hawk crossed overhead. Riven flinched. Cael flinched with him. Neither laughed.
-
-"Goddamnit."
-
-"Save it."
-
-"For what?" Riven snapped. "The part where the road forgets what year it is?"
-
-Cael didn't answer. The bond carried exhaustion anyway.
+They kept walking. Stopping didn't help. A shepherd's hut stood collapsed beside the road, roof caved, door hanging. No sheep. No shepherd. Riven checked it anyway. Empty except for ash and a broken crook. Cael waited without comment. Waiting was easier than asking who had left in a hurry.
 
 Merrow's map marked a slip beyond the fork. *Unstable. Avoid.* The clerk's handwriting had looked nervous. Riven understood why now.
 
-They reached it near dusk. The last mile had dropped through scrub hills where nothing grew straight. Twice they'd refilled water at seeps that tasted wrong: flat, metallic, as though the ground had forgotten what water was for. Riven's boots were caked to the ankle. Cael's staff had picked up a hairline crack near the ferrule. Neither mentioned it.
+They reached it near dusk. The last mile had dropped through scrub hills where nothing grew straight. Riven's boots were caked to the ankle. Cael's staff had picked up a hairline crack near the ferrule. Neither mentioned it.
 
-The basin opened without warning: pale stone, broken hills, still water. Riven raised a hand. His reflection followed a heartbeat later. Cold climbed out of the stone.
+The basin opened without warning: pale stone, broken hills, still water. Riven raised a hand. His reflection followed a heartbeat later.
 
 Small stones sat on the rim in a tight spiral, each one wet, as though someone had dipped them and set them down to dry. No footprints in the dust leading to them.
 
@@ -116,10 +102,6 @@ Riven looked at the still water one last time. His reflection looked back late, 
 
 They followed.
 
-The basin rim trail climbed and dropped without logic. Once the path doubled back on itself and they walked past their own footprints going the other direction. Riven stopped and stared. Cael stopped beside him. The Seeker did not stop. They followed the Seeker instead of the prints.
-
-They followed.
-
 The Seeker's pace was impossible, not fast, not slow, just wrong. The bond kept trying to compensate, shoving weight and balance between them until both of them gave up trying to predict it.
 
 An hour past the basin the trail dropped through a cut where the walls showed old tool marks, chisel lines half-filled with dust. Someone had built this road once. Someone had maintained it. The work had stopped mid-span, as though the builders had walked away and never returned. Riven counted the empty niches where metal pins should have sat. Eleven. Twelve. All bare.
@@ -127,8 +109,6 @@ An hour past the basin the trail dropped through a cut where the walls showed ol
 In the third niche, rust stained the stone. Whatever pin had sat there had sheared long ago. Cael ran a finger through the stain. Flaked. Old. Riven felt the question in the gesture and didn't want the answer.
 
 Cold seeped from the cut walls after sunset. They walked until full dark because the Seeker walked. Riven's toes went numb. Cael's went numb too. The bond carried numbness too.
-
-Twice Riven reached for the wrong canteen. Once he stubbed his toe on a stone that had shifted under Cael's boot moments before. The pain arrived in both of them. Neither stopped.
 
 "Still sure?" Riven asked when the basin narrowed to a ledge.
 
@@ -142,7 +122,7 @@ That night the Seeker built no fire, shared no food, slept sitting against a sla
 
 Cael woke once to the sound of something moving on the basin rim. Not the Seeker. A fox, maybe, or wind shifting loose stone. He reached for his knife and stopped when he felt Riven's hand already on his belt, not the leather link, just contact, checking that another body was still in the world. Riven was asleep. The hand stayed. Cael didn't move it. In the morning neither mentioned it. The bond had carried the whole thing anyway.
 
-The basin's still water showed no stars. Riven checked twice. Still nothing. The land refused even reflection honestly.
+The basin's still water showed no stars. Riven checked once. Still nothing.
 
 He ate half a ration bar and hid the wrapper under a stone. Across the basin, Cael did the same with his bread crust. Neither offered food to the Seeker. The Seeker didn't ask.
 
@@ -170,9 +150,7 @@ Riven pissed behind a boulder at first light and felt Cael's brief annoyance cro
 
 "Don't start," Cael said, not looking.
 
-The basin gave way to scrub hills and broken ridges. Riven's headache became Cael's. A blister appeared on Riven's heel and showed up in Cael's stride an hour later. They wrapped it beside a seep that ran sideways for three paces before correcting. Neither commented on how familiar the pain felt.
-
-Cael cut a strip from his shirt tail. Steady hands. Precise work. When he pressed the cloth against Riven's heel, both of them hissed through their teeth.
+The basin gave way to scrub hills and broken ridges. Riven's headache became Cael's. A blister appeared on Riven's heel and showed up in Cael's stride an hour later. Cael cut a strip from his shirt tail before Riven asked. Steady hands. Precise work. When he pressed the cloth against Riven's heel, both of them hissed through their teeth.
 
 "Thanks."
 
@@ -180,11 +158,7 @@ Cael cut a strip from his shirt tail. Steady hands. Precise work. When he presse
 
 "Already did."
 
-They kept moving. By midmorning the scrub thinned to bare stone and the wind picked up. Riven's ears rang with it. Then Cael's ears rang. The bond made no distinction.
-
-At a seep that ran uphill, Riven knelt and watched water crawl the wrong direction for six breaths before giving up. He filled the skin anyway. His hands shook. Cael's didn't. The bond carried the shake regardless.
-
-Once, rounding a bend, Riven saw their footprints behind them on dust that hadn't settled yet. The prints looked fresh. They had left that ground an hour ago.
+They kept moving. By midmorning the scrub thinned to bare stone and the wind picked up.
 
 At noon the trail split. The Seeker stopped for the first time all day, one lift of the staff toward a darker cut through the hills, then walking again. No explanation. No warning. No blessing. Just direction.
 
@@ -218,15 +192,13 @@ They followed.
 
 By late afternoon the hills had grown steeper. Behind them, Kestrel Gate had faded into a smear of smoke on the horizon. Ahead, the hills cut the sky into broken teeth.
 
-Riven's water skin was half empty. The seeps on Merrow's map had either dried or run wrong. He rationed sips and felt Cael's thirst answer each one. Sharing water had stopped being generosity. It was arithmetic.
+Riven's water skin was half empty. The seeps on Merrow's map had either dried or run wrong. He rationed sips and held the skin out without looking. Cael drank. Held it back. Riven drank. Sharing water had stopped being generosity. It was arithmetic they both knew by heart.
 
 "I'm not going back," Cael said. The words came without warning.
 
 Riven looked over. Mud streaked Cael's boots. His knuckles were still split from an earlier fall. Purpose sat in his shoulders again, thin, bruised, real.
 
 "Neither am I." Riven looked north. "Not to that fucking square."
-
-The Seeker's staff tapped stone somewhere ahead. Once. Twice.
 
 The only road left ran north. So they kept walking.
 
@@ -235,6 +207,8 @@ The hills gave way to a plateau where the wind never stopped. Riven's lips crack
 Riven's boot sole had started to separate at the toe. He pegged it with a sliver of iron ration wire and kept walking. Cael felt the rub at every step. Neither mentioned it until Riven said, "When we get back—" and stopped. There was no *when.* There was only north.
 
 That night the Seeker stopped earlier than usual. Not camp. Just stop. The Seeker sat. They sat. Riven ate the last of the good bread, the stuff that hadn't rusted yet. Cael ate half an iron bar and hid the rest for morning.
+
+Before Riven lay down, the Seeker slid the staff between two leaning slabs behind them—windbreak, nothing more—and walked back to the open without a word.
 
 "You think they're human?" Riven asked quietly.
 
@@ -250,12 +224,8 @@ The trail that day crossed three dry washes and one that wasn't dry. Mud sucked 
 
 By dusk the basin was behind them and the broken hills ahead looked almost ordinary. Almost. Riven didn't trust ordinary anymore.
 
-That evening they found an overhang barely deep enough for two packs. No fire. Iron ration for dinner. Sleep came in pieces. Dreams crossed: basin water, delayed reflection, Lyra's wagon. Riven woke to Cael's hand on his shoulder. Not comfort. Stop thrashing.
+That evening they found an overhang barely deep enough for two packs. No fire. Iron ration for dinner. Sleep came in pieces. Riven woke to Cael's hand on his shoulder. Not comfort. Stop thrashing.
 
-In the morning the Seeker's prints led north again. Riven matched stride without deciding to. The bond had made even that feel borrowed.
+In the morning the Seeker's prints led north again. Riven matched stride without deciding to.
 
-Before noon they met a woman coming south with an empty cart and a boy who wouldn't look at them. The woman stopped when she saw their wrists. "You're the pair," she said. "From the square."
-
-"Not anymore," Cael said.
-
-She nodded as though that answered something. "My brother drove north last month. Cart came back without him." She pulled a gate stamp from her coat—Merrow's mark, supply run, date smeared by rain. "They filed the cart. Not the driver." She didn't ask for help. She moved the boy to the inside of the road and let them pass. Riven felt her fear cross the bond and hated that she would remember them as another wrong thing on the road.
+Before noon a woman came south with an empty cart and a boy who wouldn't look at them. "You're the pair. From the square." She didn't wait for an answer. "They filed my brother's cart. Not the driver." She moved the boy to the inside of the road and let them pass. Riven felt her fear cross the bond and hated that she would remember them as another wrong thing on the road.

@@ -26,6 +26,9 @@
 
 | Doc | Use |
 |-----|-----|
+| **[dev-editor-revision-progress.md](./dev-editor-revision-progress.md)** | **Dev editor pass** — differentiation/emotional audits, phase status, word deltas (`velorum/dev-editor-revision`) |
+| **[dev-editor-feedback.md](./dev-editor-feedback.md)** | Developmental editor letter, constraints, beta reader rubric |
+| **[manuscript-bible.md](./manuscript-bible.md)** | **Continuity reference** — names, timeline, inventory, bond rules |
 | **[expansion-progress.md](./expansion-progress.md)** | **Active log** — act/chapter word targets vs current (~100k expansion) |
 | **[expansion-guardrails.md](./expansion-guardrails.md)** | **Expansion craft** — moments over meaning; consequences over explanation |
 | **[acts-2-3-5-revision-progress.md](./acts-2-3-5-revision-progress.md)** | Craft alignment log — Acts II, III, V (calibration bar) |
