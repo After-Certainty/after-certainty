@@ -2,15 +2,17 @@
 
 The morning after the attack, the city smelled like wet ash and lime. Gray light washed across the square. Cleanup crews moved through the wreckage with chalk and saws, marking beams to save and beams to cut. Lime buckets sat beside stacked stretchers. Somewhere nearby, a man kept sneezing and apologizing for it.
 
-Riven spent the morning in a work line outside the south market—shovel, wheelbarrow, broken timber, again. People recognized him now. That was new. Some thanked him. Some wouldn't meet his eyes. Both felt bad.
+Riven spent the morning in a work line outside the south market—shovel, wheelbarrow, broken timber, again. People recognized him now. That was new. Most wouldn't meet his eyes. Both felt bad.
 
-The foreman split the line at midmorning—half to salvage, half to clear the demonstration route. Riven's shovel went to the route. Cael's went to the command hall count. Merrow crossed out *center line* on the slate and wrote *debris until Halverin posts route* in the margin. The foreman shrugged and moved Riven back to timber anyway.
+The foreman split the line at midmorning—half to salvage, half to clear the demonstration route. Riven's shovel went to the route. Cael's went to the command hall count. Merrow crossed out *center line* on the slate and wrote *debris until Halverin posts route* in the margin. Lyra's hold-until-dusk order didn't cover demonstration prep. The foreman shrugged and moved Riven back to timber anyway.
 
-Merrow's runner passed with a slate—*debris until demonstration, center line after*—and kept moving without saluting. Riven initialed it. Cael initialed it through the bond before Riven's chalk touched paper.
+Merrow's runner passed with a slate—*debris until demonstration, center line after*—and kept moving without saluting. Riven initialed it. Cael's hand twitched on his belt stub before the chalk touched paper.
 
 A foreman marked salvage with chalk—*burn, save, maybe*—and argued with a cooper over whether a beam could hold weight again. Riven hauled where he was told. Cael was at the command hall counting riverside dead; Riven couldn't shut either stream off.
 
 A boy no older than ten came through with water in a dented ladle. Riven drank because his mouth felt packed with dust. The water tasted like lime. The boy stared at him for a second too long, then hurried away.
+
+Riven wiped his mouth on his sleeve and felt stupid for caring that a child had looked at him like a poster.
 
 Near midmorning, a clerk arrived at the old fish court with a chalkboard and two guards. Body identification. Names. The work crews slowed without meaning to. Riven kept shoveling. Each name hit. Through the bond Riven felt Cael hear them too.
 
@@ -40,7 +42,7 @@ The infirmary annex occupied what used to be a storage room—shelves on one wal
 
 Riven dropped onto the stool. "Neither did anybody else."
 
-"That's not what I asked." He rubbed at the split in his lip. Without looking up, Lyra smacked his hand away. Riven stopped. She kept folding cloth. "How many did you lose in here?"
+"That's not what I asked." He rubbed at his forearm stitches. Without looking up, Lyra smacked his hand away. Riven stopped. She kept folding cloth. "How many did you lose in here?"
 
 "Enough."
 
@@ -64,7 +66,7 @@ Cael caught the words through the bond from across the square. The reaction came
 
 Lyra shrugged. "If he wants privacy, he can invent it."
 
-Despite himself, Riven smiled. The split lip punished him for it.
+Despite himself, Riven smiled. The stitches pulled when he did.
 
 Lyra pushed a heel of bread across the crate between them. "Eat."
 
@@ -73,6 +75,12 @@ Lyra pushed a heel of bread across the crate between them. "Eat."
 "That's not what I asked either."
 
 Riven rolled his eyes, then ate the bread. It tasted stale, still better than most things he'd eaten lately.
+
+"Mara used to say eat before you argue," he said around the crust.
+
+"Smart woman."
+
+"Don't tell her I said that."
 
 Through the annex window Riven could see the identification desk across the yard—names, chalk, two guards holding the line. A scribe read *Thom* and the old fish seller from the morning table stepped forward with his cap in his hands. Riven looked away. Lyra didn't.
 
@@ -108,7 +116,9 @@ For a second he almost argued. Then realized he didn't actually know how. So he 
 
 Halverin called for a public address in the lower square before the afternoon was half gone. Temporary scaffolds had gone up overnight. Banners hung over blackened walls. Guards stood at every alley mouth. Noon sun. No shade. The city smelled like ash baked into stone.
 
-Cael spent the hour before the speech in Merrow's office signing patrol changes—*center line reserved, debris crew holds riverside until route posts.* A demonstration clerk wanted both signatures on a hero slate. Merrow sent him to the identification desk. Cael signed the patrol slate anyway. Riven signed because the bond carried Cael's hand moving before his own reached the chalk.
+Cael spent the hour before the speech in Merrow's office signing patrol changes—*center line reserved, debris crew holds riverside until route posts.* A demonstration clerk wanted both signatures on a hero slate. Merrow sent him to the identification desk. "Ask Cael about sequence. Ask the pair about bodies." The clerk looked at Riven, then at Cael, and left with Cael's chalk mark on the patrol slate instead. Cael signed anyway. His hand stopped shaking once the mark was down—not because the slate was true. Because somebody had asked him to make the next hour hold.
+
+Riven signed because the bond carried Cael's hand moving before his own reached the chalk.
 
 Paste crews had already hung a strip along the magistrate wall—*STEADINESS RETURNS*—though the ink was still wet and one corner had peeled in the heat. Riven saw it and looked away. Cael saw it too. Neither commented.
 
@@ -134,6 +144,8 @@ Closer to the scaffold, a cooper's apprentice shouted that the magistrate was al
 
 Beside him, Cael had gone still. Riven felt it before he saw it—attention, the dangerous kind Halverin always pulled out of him.
 
+The parallel wasn't ambition. It was the same relief Cael got when a patrol slate finally balanced—somebody offering to let the suffering purchase a shape.
+
 Then Halverin said: "Yesterday showed us something important."
 
 The square quieted further. "We can't rely on a bond that only works when the day's easy."
@@ -148,7 +160,7 @@ The crowd shifted. People exchanged looks. A murmur moved through the square.
 
 There it was. Not a request. Not a discussion. A decision.
 
-Riven turned slowly toward Cael. Cael was already watching Halverin—not convinced, not exactly, but listening the way he listened when somebody pointed at a crack in a wall and claimed they knew why it had formed.
+Riven turned slowly toward Cael. Cael was already watching Halverin—not convinced, not exactly, but listening the way he listened when somebody pointed at a crack in a wall and claimed they knew why it had formed. Halverin was offering the thing Cael had wanted since Ashfen: a way to make the curse mean something in public, not just on a bad road when nobody was watching.
 
 No. The thought crossed before Riven could stop it.
 

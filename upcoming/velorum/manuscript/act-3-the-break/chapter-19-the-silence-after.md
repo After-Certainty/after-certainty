@@ -10,7 +10,15 @@ A paste boy scraped wet ink off the magistrate wall in strips. Each strip fell w
 
 At the west lane an orderly counted empty cots—six used, two spare, one still marked *magistrate borrow*—and wrote the tally on Merrow's slate before Halverin's aide could copy it.
 
-The fountain basin was still. The water lay flat. Splinters from the frame floated near the center. Chalk marks smeared where boots had panicked. Ripples crossed the water in a pattern that did not match wind.
+The arguments started before the last spectators left.
+
+At the south rope a widow who had watched from a side street told her neighbor the bond was cursed—Velorum's price, plain as paste. The neighbor said Halverin was cursed for putting children in the front row sightlines. A guard between them said neither was cursed, the square was just too small for what they had tried to do, and both women told him he did not get to decide that for them.
+
+Near the magistrate steps two clerks from Halverin's office whispered over a fresh sheet. One wanted *crowd exceeded tolerance* on the correction broadside. The other wanted *pair resisted sequence at margin increase*. They did not agree. They wrote both versions in the margin and left them for a senior clerk who had not come down from the council room.
+
+A cooper's nephew with rope burns sold three red-painted charms from his apron pocket before Merrow's runner confiscated the tray. "Souvenir," the boy said. "Not medicine." Merrow's runner wrote *confiscated—file compensation* on a stub and handed it to the uncle, who looked like he might hit someone and did not.
+
+The dry basin was still. Splinters from the frame lay near the center. Chalk marks smeared where boots had panicked. Dust hung in the air in a pattern that did not match wind.
 
 People paused at the rope line that was no longer a line, looked at the platform, looked away. No one approached Halverin. You could see him. You did not have to listen.
 
@@ -29,6 +37,8 @@ Cael waited. He wanted an explanation that would rebuild the last three days int
 "Stop," Cael said.
 
 Halverin looked up. For a second Cael saw the man beneath the office: tired, frightened, still trying to make the world obey a chart.
+
+Cael wanted to feel sorry for him. Mostly he felt embarrassed that he'd ever nodded when Halverin called counts—and grief, sharp and late, for the version of the curse he had still believed could be redeemed if they performed it cleanly enough.
 
 "You told us resistance caused the stairs," Cael said. "You told us discipline would hold in public. You stood there and called counts while the bond tore through us."
 
@@ -88,37 +98,135 @@ Cael opened his mouth. Closed it. The honest answer was no. The honest answer wa
 
 "I know." Lyra released Riven's wrist. "South tent's full. Take water. Don't sign anything tonight."
 
+Riven looked at Cael's bandaged palms, at the way a guard at the lane mouth had called *Captain* before he had said Riven's name all day. "I thought you'd come down when you saw me on the wagon," he said, quiet enough that Lyra pretended not to hear. "I thought that was still us."
+
+Cael opened his mouth. Closed it. He had stayed on the steps because Halverin's lie needed to die out loud. He had told himself Riven would understand that too, once the talking stopped.
+
 "We already signed," Cael said.
 
 "Then unsign in your head," Lyra said. "Clerks love paper. Bodies don't."
 
 She moved off into the lane crowd. Cael watched her go and felt Riven feel it through the bond, want and shame in the same pulse. Lyra did not look back. She never looked back when she was working.
 
-They walked back to the east barracks annex in silence. Voices behind lit barracks windows—shift change, someone counting cots—and then nothing but their boots on gravel. People stared. Some looked away fast, like they had seen something private. Others stared openly, hungry for a story they could repeat without understanding the cost. A boy ran past them shouting a garbled version of what had happened. Cael did not correct him.
+They walked back to the east barracks annex in silence. Voices behind lit barracks windows—shift change, someone counting cots—and then nothing but their boots on gravel. People stared. Some looked away fast, like they had seen something private. Others stared openly, hungry for a story they could repeat without understanding the cost.
+
+A boy ran past them shouting that the pair had split the square in half. An old woman corrected him—they had split each other, which was worse. Tam the fishmonger told both to shut up; his brother was still missing from the stairs and he did not need a new myth before supper. His nephew tugged his sleeve. Tam shook him off gently and kept walking toward the lower market with the empty basket, awning pole over his shoulder, already moving like a man who had decided work was the only place grief could sit without becoming a crowd.
 
 An old woman pressed a charm into Cael's palm at the barracks door. "For steadiness," she whispered. Cael handed it back. "Keep it. We used ours up."
 
 Inside the annex the table sat between the two cots, lamp wick trimmed, font empty. Cael sat on the cot edge and unlaced one boot. His fingers shook. He blamed the bond. He blamed fatigue. He blamed Halverin. He blamed himself for wanting a plan that turned guilt into work.
 
+The square noise through the shutter was not hammering anymore. It was argument—low, persistent, the sound of a city trying to decide what it had seen. Someone laughed once and cut off. Someone else cried. Cael counted neither. Counting would mean he believed order was still available if he chose it.
+
 Riven lay on the other cot with one arm over his eyes. "Say it," he said.
 
 "Say what."
 
-"What you believe now." Cael stared at the ceiling beam—cracks, old smoke stain, a nail that had worked loose. "I believe we failed in public," he said. "I believe people saw it. I believe Halverin's path is broken."
+"What you believe now." Cael stared at the ceiling beam—cracks, old smoke stain, a nail that had worked loose. "I believe we failed in public," he said. "I believe people saw it. I believe Halverin's path is broken." He stopped. "I believed if I carried enough load I could keep the next person from dying in the crush. That was wrong too."
 
 "And us?"
 
-Cael swallowed. "I don't know what we are."
+Cael swallowed. "I don't know what we are. I know I'm not a wall. Neither are you."
 
 Riven's arm moved. He looked at Cael across the narrow room. Through the bond Cael felt the echo of Lyra's words: *loss, not refinement.*
 
 "I do," Riven said quietly. "That's why I'm scared."
 
+Not Halverin. Not the square. The distance between them in a room they had shared since Greyhaven felt like a third person.
+
+Riven sat up and laced his boots without looking at Cael. "I can't lie here and listen to you think."
+
+"Riven—"
+
+"I'm not running. I'm getting air." He paused at the door. "Don't follow me to be noble."
+
+He left. The bond followed anyway—marketward, sharp, unwilling to share the room.
+
 They did not sleep. At second watch a runner knocked and left a folded notice under the door. Cael read it at the table by the square noise through the shutter. Council summons. Damage assessments. Requests for statements. His name twice. Riven's twice. Halverin's office still listed as issuing authority.
 
 He carried it to the yard brazier and watched it curl. Ash smelled like the square's paste.
 
+Riven had already left the cot. Cael felt him moving through the bond—lower market, anger, hunger, refusal to come back yet. Cael did not follow. Following would look like custody. He sat at the table and listened to the city argue through the shutter instead.
+
+---
+
+Riven went to the lower market because the annex walls made the bond feel like a held breath.
+
+The square's paste smell had followed him down the lanes. Vendors who had opened for the demonstration were closing in uneven waves—some shutters half down, some trays still out as if testing whether anyone would buy ordinary bread on a day the city had watched ordinary men fail on a stage.
+
+At the Anchor's Rest the common room was full enough that the door stayed propped. Riven did not go in. He stood on the step and listened.
+
+"...saw them hold until the crowd pushed," a guard said. "That's not bond failure. That's people."
+
+"People are what Halverin sold," a cooper answered. "You can't paste over bodies and call it sequence."
+
+"My cousin says Velorum chose them at Ashfen." A woman's voice, tired. "If Velorum chose them, the square wasn't Halverin's fault."
+
+"If Velorum chose them, why did they bleed on command?" someone else said. Laughter without humor. "Ask the magistrate's horn. Oh wait. It's cracked."
+
+Riven's knuckles ached. Through the bond he felt Cael sit up in the annex and then lie back down, deciding not to chase him. Gratitude and shame in the same pulse. Riven hated both.
+
+Outside, a copyist had set up at the fish stall shutter with charcoal and butcher paper, tracing the woodcut pair from memory. *THEY HELD / THEY FAILED* written underneath in two columns for buyers to choose. A boy paid a copper for the failure version and ran off with it folded in his shirt.
+
+Two stalls down a cooper told his nephew *west lane stays open, injury cord first* in the flat voice Cael used on counts—as if the words had always been city law. Riven had heard Cael say it once, tired, to Merrow's engineer. The nephew repeated it without looking up from the splinters. Riven stood in the lane and felt the odd theft of it. Not malice. Misplacement. His friend was becoming a sentence strangers could carry without knowing whether Cael slept.
+
+A merchant Riven did not know stopped him at the lane mouth. "You're one of them."
+
+"I'm hauling debris tomorrow," Riven said. "Ask Merrow."
+
+"I saw you bleed." The merchant's eyes were too bright. Not malice. Need. "Tell me it was the crowd. Tell me it works if people behave."
+
+Riven looked at the man's hands—flour under the nails, a wedding band worn thin. "It works until it doesn't," he said. "Then you call Lyra, not Halverin."
+
+The merchant flinched like the name was a curse. "Medics don't fix stories."
+
+"No," Riven said. "They fix palms."
+
+He walked back toward the barracks before the bond could carry the merchant's disappointment into Cael's chest and turn it into an argument they would have in a room too small for two insomnias.
+
+Cael was at the annex table when he returned. Lamp low. Two cups of water poured and untouched.
+
+"You went to listen," Cael said.
+
+"I went to get out of the room," Riven said.
+
+"Same thing tonight." Cael pushed one cup across. "What did they say?"
+
+Riven drank. "That the bond failed. That Halverin failed. That the crowd failed. That Velorum cursed us. That we need more pairs. That we need fewer." He set the cup down. "Pick one. The city already did."
+
+Cael's jaw worked. "Which one do you pick?"
+
+"Lyra's," Riven said. "Loss. Not refinement."
+
+Cael nodded once. He did not argue. Through the bond Riven felt him want to—and felt him stop, which was new, and almost worse.
+
+They did not sleep again.
+
 In the morning the city was quieter than after the attack. Shop shutters were half open—a baker who had closed at noon yesterday opened at midmorning with a shorter tray. A cooper crossed the yard with an armload of splintered frame pieces and stopped to recount when one slid off. Conversations stopped when Cael passed and started again in lower voices—not grief-quiet. People moved like they had heard a floorboard crack and were waiting to see if the house would fall.
+
+The lower market tested reopening the way a bad knee tested weight.
+
+Tam's stall had one shutter up and one down—the striped awning pole lashed to the post at a new angle, tighter than before, as if he had spent the night making sure something physical would hold even when stories did not. He was not selling fish yet. He was scraping scales off the board with a knife too dull for the work, each stroke loud in the quiet lane. His nephew swept the gutter without looking at the square.
+
+When Cael passed, Tam did not stop scraping. "Still missing," he said. "Still open." He jerked his chin toward the magistrate steps. "Halverin's clerks came at first light asking if I'd sign a correction sheet. I told them to ask Merrow where my brother is."
+
+"Did they?"
+
+"They filed something." Tam scraped harder. "Not my brother."
+
+"I checked the salt yard again this morning," Cael said. "Nothing new."
+
+Tam's knife paused. "You don't owe me patrols."
+
+"I know." Cael kept walking. Through the bond Riven felt the exchange secondhand from debris detail and sent back something that might have been respect or might have been exhaustion—Cael could not tell anymore.
+
+A fish seller opened one shutter and kept the other down. A spice seller sold nothing but gossip with saffron on the side—*bond broke*, *magistrate broke*, *crowd broke*, take your pick. Two guards at the lane mouth bet copper on which handbill would appear first by noon. Merrow's runner broke up the bet and wrote both names on the injury slate as *idle on duty*.
+
+Cael stopped at the square mouth long enough to watch a woman paste a copied rules sheet on her own stall post—not Halverin's official version, a child's tracing of the woodcut pair with *THEY TRIED* written underneath. Her neighbor tore it down. "My boys don't need to see that before breakfast." The woman pasted it back up. "Your boys saw it yesterday in the square. This is late."
+
+A council aide crossed from the magistrate steps with a stack of forms and no escort. Three vendors refused to take a sheet. A fourth took one to light his pipe. The aide wrote something furious in the margin and kept walking.
+
+Cael did not intervene. Intervention was still a kind of story.
 
 The square still smelled like paste and sweat. From the barracks steps he watched labor crews haul the splintered frame toward Merrow's evidence shed in pieces small enough for two men to carry. A clerk with Halverin's crest on his cuff tried to tag each piece before it left the basin. Merrow's guard removed the tags and handed them back.
 
@@ -134,15 +242,37 @@ Cael watched three tags flutter into the gutter. *Sequence sample. Magistrate of
 
 Halverin's office windows stayed shuttered. His name was still on the door. His authority was not. A clerk stood outside with a stack of forms and nowhere to file them.
 
-Two council members Cael did not know by name crossed the yard arguing in whispers about whether to suspend the magistrate or suspend the demonstration schedule. One of them looked at Cael and looked away fast, as if eye contact might assign blame. A runner from the command hall shouted for Merrow and got only a medic pointing toward the square.
+Through the shuttered windows Cael heard voices anyway—Halverin's measured tone gone thin, two clerks talking over each other, paper sliding across a table. *Correction addendum. Pair variance.* A senior clerk said *pick one story* and someone else said *the council picks, not us*.
+
+Two council members Cael did not know by name crossed the yard arguing in whispers about whether to suspend the magistrate or suspend the demonstration schedule.
 
 At the infirmary annex an orderly turned away a man with a crush bruise from yesterday. "Cots full. Try tomorrow or go home." The man sat on the annex steps with his wrist wrapped in a dishcloth and waited anyway.
 
+Inside the main hall Lyra moved between cots with her sleeves rolled to the elbow and her face closed to everyone who wanted a story. An orderly read injury names too fast for the scribe to keep up. Lyra corrected three spellings without looking at the slate and sent a fourth patient to Merrow's compensation line because the annex had no room left for maybes.
+
+Cael saw her through the doorway on his way to the command hall. She did not look up. He did not stop. Through the bond Riven felt a spike of want at the sight of her and Cael felt his own shame answer it before either could choose.
+
 Halverin's clerk ate someone else's lunch roll off the evidence shed stack, crumbs on his collar, still filing forms nobody wanted.
+
+At the identification desk near the fish court, Tam stood in line with his empty basket for the second hour. The clerk read names too fast. Tam did not flinch when a dockworker's name crossed the slate—not his brother's. When the clerk reached *missing, not confirmed* on the stairs list, Tam said his brother's name before the scribe could. The clerk wrote it anyway, same as attack week, same as yesterday.
+
+Cael watched from the barracks steps and did not go down. Going down would make Tam's grief part of the pair's story again. He felt Riven watch through the bond from debris detail and agree without words.
 
 Cael went to the command hall because Merrow sent for him, not because he believed in halls anymore. The doors stood open to the yard. Lamp smoke and wet wool rolled out across the threshold. She had casualty slates and supply counts and no poetry in her mouth.
 
-Halverin's clerk stood at the far table with three fresh broadsides and a look like sleep had not visited him. Merrow did not look up when he entered. "File those under *suspended* or leave," she told the clerk.
+On the way he passed Halverin's office. The door stood ajar. Inside, three clerks and a senior aide had the demonstration report spread across two tables. One clerk read aloud: "*Crowd interference exceeded tolerance at margin increase.*" Another said, "Write *pair variance*—council likes that better." The senior aide rubbed his eyes. "Write both. File under pending."
+
+Halverin sat in the corner chair with his coat still buttoned and a cup of cold tea untouched. He was not speaking.
+
+A junior clerk saw Cael in the doorway and straightened. "Captain—acknowledgment on the correction addendum—"
+
+"No," Cael said.
+
+Halverin looked up. For a second their eyes met. Cael felt Riven's spike of anger through the bond and his own hollow absence of pity. Halverin looked away first.
+
+Cael kept walking.
+
+Merrow stood alone at the far table with three broadside drafts facedown and Halverin's clerk trembling at the near corner. She was counting bandage rolls the way Cael counted nails—because numbers were something hands could hold when the city would not. She did not look up when he entered. "File those under *suspended* or leave," she told the clerk.
 
 The clerk hesitated. "Magistrate's office requires acknowledgment—"
 
@@ -156,7 +286,7 @@ The clerk filed them. His hand shook on the ink.
 
 "Good." She slid a patrol roster over. "You still hold a gate if you want it. Or you walk. But if you walk, walk before the clerks turn you into a symbol again."
 
-Cael took the roster. His name was on the line for east wall, second watch. Ordinary ink. Ordinary duty. It felt wrong after yesterday and necessary after yesterday, both at once.
+Cael took the roster. His name was on the line for east wall, second watch. Ordinary ink. Ordinary duty.
 
 "I'll hold the gate," he said.
 
@@ -174,6 +304,10 @@ He did not know yet that walking would mean Velorum. He knew only that Halverin'
 
 That afternoon he stood at the barracks window and watched paste crews pull broadsides down in strips. Riven stood beside him without touching. Below, the magistrate wall went bare in patches. A woman pointed at the blank stone and said something to her companion. He could not hear the words. He could read the gesture.
 
+On the lower market lane a rumor had already outrun the official silence. Riven read it on the walls before Cael saw it from height—three different handbills pasted over each other. *THE PAIR RESISTED.* *THE CROWD BROKE STEADINESS.* *VELORUM DEMANDS DISCIPLINE.* A guard tore down the third. A boy pasted the first back up within the hour.
+
+A charm seller had moved his tray from the square mouth to the barracks corner, still selling red-painted pairs. Merrow's runner confiscated the tray at noon. By dusk someone else was selling from a crate near the fish stalls. The story spread faster than authority could scrape it.
+
 A cooper's crew loaded splintered timber onto a debris wagon in the basin mud. The nephew with rope burns waved at Cael and then thought better of it. Riven's shoulder still echoed from yesterday's lift. Cael felt the echo and did not comment.
 
 "Lyra's right," Riven said.
@@ -184,13 +318,59 @@ A runner crossed the yard with a crate of bandage rolls. Life continuing in supp
 
 He went to the wall at second watch because he had said he would. Riven went to debris detail because Merrow had assigned it. They passed on the stair without speaking. The bond carried the pass anyway, a brush of fatigue and resolve.
 
-On the wall Cael took a report from a sergeant who asked only about gate seals, not the square. Below, at the debris pile, Riven hauled splintered timber with the cooper's nephew. They lifted on the wrong beat once and both winced. Cael felt it in his shoulder on the merlon and did not look down. A paste crew scraped the last broadside strip from the north wall before the light failed. Merrow's runner filed another magistrate sheet under *suspended* at the command hall door.
+---
+
+Riven hauled splintered timber until his shoulders burned again. The cooper's nephew worked beside him without talking for an hour, then talked all at once.
+
+"My uncle says Halverin broke it," the boy said. "My aunt says the bond broke it. My cousin says the crowd broke it because people can't stand still anymore." He stacked a board wrong and winced when the bond echo hit them both. "Which one do you believe?"
+
+Riven set a splinter down carefully. "I believe my palms hurt."
+
+The boy looked at his bandages. "That's not an answer."
+
+"It's the only one that keeps me working." Riven nodded toward the basin mouth, where a cluster of women from the lower market had gathered to watch debris wagons roll. "Ask them. They'll give you six answers before lunch."
+
+The women were already arguing. Riven caught fragments on the lift—*Velorum chose them*, *Velorum punished them*, *Halverin chose Velorum*, *the pair chose Halverin*—and felt Cael on the wall feel the same fragments through the bond and clamp down hard enough to make Riven's jaw ache.
+
+"You feel him up there," the nephew said. Not accusation. Fact.
+
+"Yeah."
+
+"Is that always?"
+
+"Today it is."
+
+The boy spat in the sawdust. "My uncle held the berm with you. He says real timber doesn't lie. He says the square lied because everyone was watching."
+
+Riven picked up another armload. "Your uncle's smart."
+
+"He says you should leave before the clerks turn you into a saint."
+
+Riven almost laughed. "Tell your uncle saints don't split their palms on command."
+
+Merrow passed the debris cord without stopping. "Hands not throats," she said, and moved on. The women at the basin mouth scattered when she looked at them—not fear, habit. Authority still meant something even when stories did not.
+
+---
+
+On the wall Cael took a report from a sergeant who asked only about gate seals, not the square. Below, at the debris pile, Riven hauled splintered timber with the cooper's nephew. They lifted on the wrong beat once and both winced. Cael felt it in his shoulder on the merlon and did not look down.
+
+At the guard shelter behind the east merlon two off-duty men argued in voices meant to carry. "My sister says we need six pairs on the walls," one said. "Like the old stories." The other laughed without humor. "My sister says one pair already cracked the square. Pick a sister."
+
+The sergeant heard them and did not intervene. "Gate seals," he said to Cael again, like work was the only language left that meant anything.
+
+A paste crew scraped the last broadside strip from the north wall before the light failed. Merrow's runner filed another magistrate sheet under *suspended* at the command hall door.
 
 River wind came off the water, cold and fish-smelling. A merchant train came in late, wheels grinding on the gate stones. Cael checked seals and waved them through. His hands knew the work. His chest did not.
 
 A fishmonger from the lower market passed through with an empty basket and stopped at the gate long enough to ask if the demonstration would run again. The sergeant answered before Cael could. "Ask Merrow. Not the magistrate."
 
-The fishmonger looked at Cael's bandaged knuckles visible under his sleeve and nodded once, like that was answer enough.
+Tam looked at Cael's bandaged palms visible under his sleeve. He had fish scales dried into the creases of his palms today—not performance, work. "Opened one shutter this morning," he said. "Sold four before I closed again. Not because I'm brave. Because rent doesn't care about your square."
+
+"My brother's still missing from the stairs," Tam said. He was not asking Cael to fix it. He was asking the city to assign blame somewhere it could live. "People say the square proved the bond can't hold a market. People say the square proved Halverin can't hold a bond. I say I still need to sell fish."
+
+Cael checked the seal on the merchant train wheel. "Market's Merrow's lane today."
+
+"Market's fear's lane today," Tam said. "Merrow doesn't sell that. She just counts it." He shifted the basket—no longer empty; three fish wrapped in cloth, unsold, going home. "Hold the gate, captain. Don't hold a story. Stories are full." He paused. "I'll be at the stall tomorrow. Same shutter. Ask me then if anything changed."
 
 When he came off watch, Halverin's name was still on the office door and still meaningless. A clerk tried to hand Cael a statement form at the barracks door. Cael pushed it back unread.
 
@@ -244,10 +424,6 @@ Cael felt the words hit Riven through the bond before his own chest tightened. H
 
 At the yard gate Halverin's clerk tried to hand a paste boy a rolled broadside. Merrow's runner took the roll, unrolled it, and fed it to a brazier without reading the first line. The clerk wrote something furious on his slate and left. Cael heard about it at second watch from the gate sergeant, who did not look up from the seal book. "Magistrate's office sent three more before noon. Captain filed them under *suspended.*"
 
-A merchant on the lower market opened at midmorning with half a tray—yesterday's closing had cost him a morning's sales and he was testing whether anyone would buy. Two guards argued at the basin mouth about overnight rope storage. One wanted Halverin's orders. One wanted Merrow's. They coiled rope toward Merrow's chalk mark and went to debris detail at first gray.
-
-"Good," Cael said.
-
 The day held in three places Cael could not leave at once and saw anyway through the bond.
 
 From the barracks window at dusk: paste crews scraping the magistrate wall until the woodcut pair was gone; Halverin alone on the steps, not touching the cracked horn; a dog nosing chalk smears in the empty basin. A merchant on the lower market tested a half tray—first opening since the square—and sold two rolls before pulling the shutter down again.
@@ -260,11 +436,7 @@ At dusk Cael turned from the glass. Riven was on the cot, awake, staring at the 
 
 "I know," Riven said.
 
-They did not say more. The silence held—footsteps in the corridor, a wagon wheel outside, Lyra's bundle already packed on the second wagon bench, not gone yet but going. Riven turned on the cot. Cael heard the fabric scrape through the bond before he heard it with his ears. "Gate clears in an hour," Cael said.
-
-"I know," Riven said.
-
-Neither of them slept. At first gray Merrow's runner left a note on the command hall door: *Lyra on manifest—Greyhaven when gate clears tomorrow night.* Cael read it and did not show Riven until second bell. Riven read it once and said nothing. The bond carried enough.
+They did not say more. The silence held—footsteps in the corridor, a wagon wheel outside, Lyra's bundle already packed on the second wagon bench, not gone yet but going. Riven turned on the cot. Cael heard the fabric scrape through the bond before he heard it with his ears.
 
 In the corridor an orderly retched once and was gone. Footsteps. Silence. At the annex gate a guard argued with Halverin's aide about debris detail versus magistrate escort. Merrow's voice cut through once—short, final—and the aide left with his sequence card uncopied. A paste crew scraped the last broadside strip from the magistrate wall before second bell. The fish seller opened her shutter halfway—first time since the square—and sold three rolls before closing again.
 

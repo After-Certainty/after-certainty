@@ -10,9 +10,9 @@ He remembered Ashfen: smaller pressure, colder water, the first time the bond ha
 
 They had climbed through the night because the Seeker set pace and the land pushed at their backs. Neither had slept. Both had dreamed in pieces that crossed before either woke. Riven had surfaced once with Cael's memory of wooden supports and splintered pins. Cael had woken to the taste of scree dust and blood that wasn't his.
 
-The last mile had been the worst. Sound lagged. Breath lagged. The ring ahead pressed behind Cael's eyes—not visibly, but in the weight. Riven had gripped the belt at his hip until the leather creaked.
+The last mile had been the worst. The ring ahead pressed behind Cael's eyes—not visibly, but in the weight. Riven had gripped the belt at his hip until the leather creaked.
 
-Gravel skittered downslope when Cael moved. The sound arrived after he reached the rim. Riven flinched at the late noise. Cael flinched with him. At the rim they stood long enough for breath to steady. It didn't.
+At the rim they stood long enough for breath to steady. It didn't.
 
 Cael stepped into the Ashring. Gravel shifted under his boots. Riven followed. The air thickened until breath felt borrowed.
 
@@ -82,15 +82,13 @@ The words tasted like rust.
 
 Riven stared at him. "No. Fuck. No."
 
-Cael wished he could argue.
+Cael wished he could argue. He wished the answer were a place they could leave, a god they could bargain with, a cure that would give Riven his room back. None of that was on offer. Only the weight still sitting between them.
 
 The pressure shifted. A bridge. Not a specific bridge. The idea of one. Weight crossing. Weight held. Weight lost.
 
 Then the image broke apart. People running. Mud. Water. A wall failing where something should have carried load and didn't.
 
 "What does that have to do with us?" Riven shouted. "What the fuck does that have to do with us?"
-
-His voice came back from the ring walls a heartbeat late. The echo sounded like somebody else arguing for them. Riven hated it.
 
 The ring did not answer. The images kept coming. Pairs. Roads. Crowds. Not heroes. Not legends.
 
@@ -114,7 +112,7 @@ Cael laughed once despite himself. The sound died quickly.
 
 Riven's knees unlocked. He hadn't known they were locked. Cael felt the unlock in his own legs and hated that he did.
 
-The pressure didn't release. It settled. Like a beam finding its seat. Like weight accepting that weight was what it was.
+The pressure didn't release. It settled. Like a beam finding its seat. Like weight accepting that weight was what it was—not less weight, not private weight, just load that had to be carried together or dropped on someone else.
 
 Riven looked away. Toward the rim. Toward the path back down. Toward anywhere that wasn't the center.
 
@@ -164,7 +162,7 @@ Riven swore under his breath. The bond carried grief. And something worse he cou
 
 The pressure eased. Not approval. Not forgiveness. Less resistance. The seams of the ring dimmed. Wind crossed the Ashring again. Ordinary wind. Ordinary cold. The most ordinary thing either of them had felt in days.
 
-Riven's ears still rang with the late echo of his own shout. Cael's hands wouldn't stop trembling until he pressed them flat against stone and counted breaths the way he'd counted loads on a bridge crew. One. Two. Three. Not Halverin's count. Load count. The ring had answered with structure, not mercy. They would have to learn what that meant on the road home, if home still existed as anything other than a filing category.
+Riven's ears still rang. Cael's hands wouldn't stop trembling until he pressed them flat against stone and counted breaths the way he'd counted loads on a bridge crew. One. Two. Three. Not Halverin's count. Load count. The ring had answered with structure, not mercy—not a place, not a cure, the act of carrying when partition failed. They would have to learn what that meant on the road home, if home still existed as anything other than a filing category.
 
 Riven's legs didn't work for a moment. Cael's didn't either. They stood in the center of the ring until the Seeker turned toward the rim.
 
@@ -220,21 +218,11 @@ Cael looked north. Then south. Then toward the road home.
 
 They started down the slope together. Not following anyone now. Just walking. The road below split: one branch toward Kestrel Gate, one toward the broken hills and whatever came after. A mile marker someone had knocked flat lay in the grass, numbers scraped off. Someone else had carved over the post in fresh chalk—*pairs don't return useful.* Riven scraped at it with his knife until his knuckles bled. Cael took the eastern cut without discussing it. Riven fell in beside him.
 
-"No clerk wrote that turn," Riven said.
+"You believe it?" Riven asked. Not the ring. Velorum.
 
-"No." Cael shifted his pack. "Good."
+Cael thought of the images. Pairs. Functions. Weight shared because there was no other honest geometry.
 
-Behind them, Ashring disappeared into the scrub. Ahead, the land still looked wrong in places. They walked anyway.
-
-The first mile after Ashring was ordinary enough to hurt. Wind on time. Stone underfoot when it should be stone. Riven's boot crunched and the crunch arrived with his foot. He almost laughed. Cael almost laughed too. The bond carried the almost and let it die.
-
-They stopped at a seep that ran downhill the correct direction. Filled both skins. Water still tasted wrong. Wrong was better than empty.
-
-"You believe it?" Riven asked. Not Velorum. The forward.
-
-Cael thought of the images in the ring. Pairs. Functions. Weight. He thought of Halverin's unsigned sheet and Merrow's *come back useful* and Lyra's *don't follow her.*
-
-"I believe we don't get a cure," he said.
+"I believe we don't get a cure," he said. "I believe we don't get a room."
 
 "That's not what I asked."
 
@@ -242,40 +230,16 @@ Cael thought of the images in the ring. Pairs. Functions. Weight. He thought of 
 
 Riven nodded. Forward anyway. No other direction on the map.
 
-They walked until the ring was out of sight. Neither checked how often they looked back. The bond carried the urge anyway. Once Riven stopped and vomited beside a thorn bush. Cael waited, hand on his own stomach, feeling the aftertaste of rust and stone. Nobody spoke.
-
-By midday the wrongness in the air thinned enough to eat. They split the last heel of bread and an iron bar Cael broke with a rock. The bar tasted like blood and metal. They chewed anyway.
-
-A shepherd appeared on the eastern cut, two dogs and a flock that moved like it had forgotten how grass worked. The shepherd stared at their wrists, at the faded grooves, at the way they stood too close and too far apart at once. "Bond pair," he said. Not a question.
+A shepherd appeared on the eastern cut, two dogs and a flock moving slow. The shepherd stared at their wrists, at the faded grooves, at the way they stood too close and too far apart at once. "Bond pair," he said. Not a question.
 
 "Yeah," Riven said.
 
-The shepherd spat into the dust. "Velorum's that way." He pointed south, then laughed at their faces. "Joke's on you. Velorum's wherever the load sits wrong." He drove the flock on without waiting for thanks. Cael wrote nothing down. Some directions weren't for maps.
+The shepherd spat into the dust. "Velorum's that way." He pointed south, then laughed at their faces. "Joke's on you. Velorum's wherever the load sits wrong." He drove the flock on without waiting for thanks.
 
 Riven spat rust. "Forward tastes like shit."
 
-"Yeah." Cael capped the skin. "Keep walking."
+"Yeah." Cael shifted his pack. "Keep walking."
 
-North again. Then east when the trail split. Always walking.
+They made camp that night without discussing it. No fire. Hard ground. Riven's boot wire snapped at the toe. He retied it with line from Merrow's pack. Cael held the boot without being asked. Small work. Real work.
 
-Behind them, the ring's pressure faded by degrees. Riven kept waiting for it to snap back. It didn't. It thinned. Like a wound closing wrong but closing.
-
-Cael didn't look back. Riven did once. The Ashring looked smaller already. Distance lying the way broken land lied about everything else.
-
-They made camp that night without discussing it. No fire. Hard ground. The bond was quiet enough to sleep in pieces. Not rest. Just less drowning.
-
-Riven woke once to the taste of copper and stone and reached for Cael's wrist in the dark. Cael was already awake. "Still there," he said. Not comfort. Fact. Riven let go. The forward had no ledger for what they'd become. Only the road east, where nobody in Kestrel Gate would count them unless they came back useful or came back proof.
-
-Riven dreamed of chalk arrows washed away by rain. He woke to Cael already awake, staring east. Neither described the dream. The bond had carried it whole.
-
-When Riven woke before light, Cael was already packing. Forward again. Always forward.
-
-The eastern cut climbed through scrub that looked almost normal. Almost. A bird cried on time. Riven flinched anyway. Habit. Cael did too. The bond didn't care about habit.
-
-By night they were far enough east that even wrong water tasted like mercy.
-
-Riven's boot wire snapped at the toe. He retied it with line from Merrow's pack. Cael held the boot without being asked. Small work. Real work.
-
-At the next fork the eastern branch smelled wrong. They took it anyway. Wrong had been accurate for days.
-
-Ashring sat behind them as weight, not hum. The bond remained. The road remained. That was the forward. Riven walked with the belt loose on his hip and the groove on his wrist fading. He didn't know yet whether forward meant useful or only visible. He knew it meant walking. For now that was enough to keep walking east anyway. North could wait.
+Riven woke once in the dark and reached for a thought that stayed his—Lyra's clinic, the annex door, one feeling in one chest. The bond carried it before he finished the shape. Cael was already awake. "Still there," he said. Not comfort. Fact. Riven let go of the thought and slept in pieces. The forward had no ledger for what they'd become. Only the road east, where nobody in Kestrel Gate would count them unless they came back useful or came back proof.

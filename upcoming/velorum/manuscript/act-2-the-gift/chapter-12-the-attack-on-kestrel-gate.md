@@ -1,10 +1,8 @@
 # Chapter 12 - The Attack on Kestrel Gate
 
-Second bell. No wind shift. No horn from the outer posts. Cael was on the inner wall above the south market, watching the afternoon crowd move through the grain stalls below—the council check Halverin had ordered could wait until things settled.
+Second bell. No wind shift. No horn from the outer posts. Cael was on the inner wall above the south market, watching the afternoon crowd move through the grain stalls below—the follow-up council check Halverin had ordered could wait until things settled.
 
-Below the arch a patch crew was arguing over wet gate timber while a freight clerk doubled river surcharges on a slate already crossed out twice. Merrow's runner initialed *riverside first* and kept walking. The carpenter loaded the cart anyway.
-
-Below him a paste crew hung a fresh strip on the magistrate wall—*TRUST THE SWORN PAIR*—though Merrow's note still said *Not yet.* Ration lines were shorter than yesterday. A porter argued with a clerk over weight. Normal enough that Cael had started to believe the roster might actually be boring.
+Ration lines were shorter than yesterday. Normal enough that Cael had started to believe the roster might actually be boring.
 
 Merrow's runner passed below with a slate—*east barracks quiet, riverside entrance clear.* Cael initialed it and kept watching the grain carts.
 
@@ -122,7 +120,7 @@ Riven laughed—a short sound, ugly. People at the table looked away. "People st
 
 The room went quiet. Halverin nodded once. "Yes." Not defensive. Not apologetic. Just yes. And somehow that made it worse.
 
-Riven pushed away from the wall, voice rising. "Nine at the stairs. The dockworker—bread stall, fish table, every morning. The girl. I know the second I lost them. We were there."
+Riven pushed away from the wall, voice rising. "Nine at the stairs. The dockworker—fish table, every morning. The girl. I know the second I lost them. We were there."
 
 Halverin looked from Riven to Cael. "The delays mattered."
 
@@ -142,7 +140,9 @@ Riven stared at him. "Then what the fuck are you saying?"
 
 Halverin was quiet for a moment—long enough that the room settled around them, long enough that somebody shifted a slate on the table, long enough for Cael to wish he wouldn't answer. Then: "You noticed the mistakes." His eyes stayed on Cael. "Most people don't."
 
-Nobody moved. Cael could still see the dockworker, still see blood on the stairs, still feel the moment where everything had slipped sideways. Halverin nodded once, watching the same memory pass across Cael's face. "You're close to something."
+Nobody moved. Cael could still see the dockworker, still see blood on the stairs, still feel the moment where everything had slipped sideways. Something in his chest loosened anyway—not forgiveness. Validation. The worst kind: useful even when people died.
+
+Halverin nodded once, watching the same memory pass across Cael's face. "You're close to something."
 
 Riven folded his arms. "We're close to being exhausted."
 
@@ -152,7 +152,7 @@ Merrow caught Cael at the door with an injury slate—*riverside entrance, dockw
 
 At the identification desk in the yard, two families waited with cloth-wrapped bundles and forms already filled. A demonstration clerk had borrowed both desk clerks to chalk crowd lines. The families sat on the steps while Halverin's aide walked past with a sequence card and didn't stop. One mother stood when she saw Cael's bandages and sat again when Riven looked at her. Merrow's runner initialed *pending* on both forms and told them to come back after second bell. Neither family moved.
 
-In the yard behind them a carpenter was still arguing over wet gate timber while a cooper refused credit for nails until salvage cleared. Cael initialed Merrow's patch order—*riverside first, store yard second*—and paid the cooper in copper he didn't have to spare. Riven watched the nails counted twice and shorted anyway. Nobody thanked them. The patch crew loaded the cart and left still arguing.
+In the yard behind them a carpenter was still arguing over wet gate timber. Cael initialed Merrow's patch order—*riverside first, store yard second*—and paid the cooper in copper he didn't have to spare. The patch crew loaded the cart and left still arguing.
 
 A medic passed with a slate—*girl at stairs, critical then gone*—and kept walking without stopping. Cael filed the number. Riven felt the filing cross and hated that even the dead had become shared inventory.
 
@@ -161,6 +161,8 @@ Outside, the city was still awake. Boots and shouted orders moved through the sq
 Riven leaned on the stone railing, smoke darkening his sleeves, blood dried black across one cuff. "Don't let him fucking use this."
 
 Cael looked out across the rooftops—burned beams, aid carts threading the lanes, people still moving through the dark. He couldn't stop replaying the half-seconds: the dockworker's throat, the girl's name on the stairs, the fishmonger's brother who would never come back from the salt yard.
+
+Through the bond Riven felt Cael reach for the count anyway—routes, bodies, what to hold next—and hated that the reaching felt like relief.
 
 Paste crews on the magistrate wall were already hanging a fresh strip—*THE CITY HELD*—though the ink was still wet and the riverside entrance was still counting dead.
 

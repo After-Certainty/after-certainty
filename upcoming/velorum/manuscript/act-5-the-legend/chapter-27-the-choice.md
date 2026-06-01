@@ -8,7 +8,7 @@ Merrow's last note had been blunt: *Berm failure chain moving toward Greyhaven. 
 
 They came back anyway because there was no other address left in them.
 
-The road down from Ashring had been wrong in small ways—gravel sliding after their feet, reflections lagging in puddles, fatigue crossing the bond before either of them named it. Riven had stopped pretending he could keep one feeling in one skin. He had not stopped wanting to.
+The road down from Ashring had been wrong in small ways—fatigue crossing the bond before either of them named it, thirst arriving in both mouths at once. Riven had stopped pretending he could keep one feeling in one skin. He had not stopped wanting to.
 
 He wanted Lyra in a room that stayed closed. He wanted the ridge argument before the oath. He wanted to matter without being watched. All of it crossed to Cael before he finished the thought.
 
@@ -58,8 +58,6 @@ Someone had stacked fresh boards under the window—channel work, not furniture.
 
 Harbor noise came up through the boards. Someone sang off-key near the channel. Normal sounds. They felt far away.
 
-Below, a dog barked and stopped mid-sound. Riven felt the wrongness in that too, delay, lag, the town learning the land's new habits the way they had learned the bond's.
-
 Merrow's runner banged the cooper's door once at midnight and left a timber tally without waiting—*need twelve posts by dawn, got eight, find the rest or shift the line.* Riven unfolded the paper at the floorboard gap and traced the lines with his thumb until the words made sense. Cael read it in his chest before Riven finished.
 
 "Say it," Riven said.
@@ -78,9 +76,9 @@ Merrow's runner banged the cooper's door once at midnight and left a timber tall
 
 Riven turned on his side. "That's surrender."
 
-"That's what we've been doing in pieces since Ashfen," Cael said. "Velorum said the name."
+"That's acceptance," Cael said. "Not defeat. We've been doing it in pieces since Ashfen. Velorum isn't a place we find. It's what happens when we stop pretending the load can be split."
 
-Riven remembered Lyra's voice: *loss, not refinement.* He remembered Halverin's counts. He remembered the woodcut at Heartbridge, two men, one rope, heroes curse never forgotten. He remembered wanting meaning on that hill and getting a load that did not care what he wanted.
+Riven remembered Lyra's voice: *loss, not refinement.* He remembered Halverin's counts. He remembered the woodcut at Heartbridge, two men, one rope, heroes curse never forgotten.
 
 He had wanted to be remembered for something that mattered. The town was already remembering the wrong version. He could feel it in the stares on the walk in, in the way people stepped aside.
 
@@ -190,21 +188,9 @@ The boy looked at Cael like Cael might overrule. Cael shook his head once and we
 
 That was not triumph. That was the choice, made before the worst of it arrived, and carried in his body.
 
-By noon the line held long enough to eat. Bran passed hard bread down the berm and got the count wrong—seven men, five loaves—until Jess shouted from the rope crew and made him split a sixth. Riven ate standing in mud that had dried to paste on his boots. Cael's hunger crossed as a hollow that was not his own and did not go away when he swallowed.
+By noon the line held long enough to eat. Bran passed hard bread down the berm. Riven ate standing in mud that had dried to paste on his boots. Cael's hunger crossed as a hollow that was not his own and did not go away when he swallowed.
 
-Henn sat on an upturned crate with his bandaged hand held high so nobody would bump it. He told anyone who listened that the heroes had pulled him free. Riven said Bran had pulled him free. Henn shrugged like the difference did not matter and asked when second shift started.
-
-Merrow's runner came back before the meal was finished with a corrected tally—*eight posts, not twelve; bridge crew owes four by dusk*—and Bran swore loud enough to scare gulls off the channel. Riven folded the note into his belt next to the Heartbridge line and felt Cael read both without looking.
-
-When the bell rang for second shift, three laborers from the bridge crew showed up late with the wrong timber—board lengths too short for posts—and Merrow sent them back without apology. Riven watched her count the stack twice, chalk on her fingers, face like bad weather. The gap was in their shoulders too.
-
-They braced on the berm again as the channel groaned. Not the full tear. Not yet. Pressure testing the cut the way a bad joint tested before it split.
-
-"Don't split," Cael said.
-
-"Don't lecture," Riven said.
-
-They held one more hour. That was enough math for the day.
+Henn sat on an upturned crate with his bandaged hand held high so nobody would bump it. He told anyone who listened that the heroes had pulled him free. Riven said Bran had pulled him free. Henn shrugged like the difference did not matter.
 
 Riven walked back to the cooper's loft with mud to his knees and split knuckles Merrow had told him to stitch. Cael climbed the ladder first. The cooper's wife met them at the top with a bucket and no speech—water, not thanks—and left before they could refuse.
 

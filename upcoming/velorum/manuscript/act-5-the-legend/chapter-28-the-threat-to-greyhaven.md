@@ -8,7 +8,7 @@ He had been stacking support posts since before first light with Riven three pac
 
 The cooper found it before noon and came yelling about theft while mud still ran in the cut. Bran yelled back that the town could argue with the channel. Merrow sent them both to opposite ends of the line without looking up from her slate.
 
-Second bell had just rung wrong once and found its note when the timber gave. Cael had felt the failure in his ankles before his ears caught up, the same wrong delay he had learned on the road from fractured lands.
+Second bell had just rung when the timber gave. Cael had felt the failure in his ankles before his ears caught up—the same wrong delay he had learned on the road from fractured lands.
 
 "More posts!" he shouted, though the word was useless without bodies.
 
@@ -20,9 +20,7 @@ For a minute it held. The laborers fed support posts and rope. Mud sucked at Cae
 
 Cael watched the channel mouth the way he watched a bad joint under weight: looking for the next place it would fail. The timber screamed again and went quiet. For a minute that was enough. Then the pressure behind the failure showed itself.
 
-Not raiders. Not fire. Something wrong in the land's alignment, a tear in the way water and weight agreed. Cael had seen hints on the road, lagged reflections, gravel sliding wrong. Here the tear opened in the cut.
-
-The air over the channel thickened. Sound arrived late. The water's surface broke in shapes that were not waves. A gull hung in place above the cooper's yard and dropped straight down.
+Not raiders. Not fire. Something wrong in the land's alignment, a tear in the way water and weight agreed.
 
 Cael's skin prickled the way it had at Ashring, not magic on the tongue, pressure behind the eyes and in the teeth. Riven felt it too. Cael knew because Riven's hand tightened on the support post at the same instant.
 
@@ -100,15 +98,11 @@ Merrow's runner found them at the cooper's yard with a folded note from Kestrel 
 
 Cael looked at Greyhaven's roofs, at Heartbridge hill in the distance, at the faces watching from the mud line. A woman held a child back from the water. An old man made a sign Cael did not know and did not ask about. The town needed them functional, not understood.
 
-Work that would erase them if they did it right—that was what he had now, in splinters and mud and a town that would forget his name if the berm held long enough.
-
 "We hold until it stops tearing," Cael said.
 
 "Or until we break," Riven said.
 
 "Or that," Cael said.
-
-He looked at Riven's split lip and felt it on his own mouth. The bond had stopped surprising them with shared pain. That was almost worse.
 
 Bran came up with water skins and a head count. Two laborers with broken fingers. One boy with a cut that would need Lyra if she ever came back. The warehouse was gone. The market was dry. The numbers were the kind you could live with if you did not look at the cost too long.
 
@@ -126,50 +120,12 @@ Riven looked up. "You sure?"
 
 "No," Cael said. "I'm sure about the other thing."
 
-At the cooper's yard that afternoon they found the loft wall still standing but the window stack gone—timber requisitioned for the channel. Cael stood in the empty room where he had counted ceiling cracks and felt nothing useful. Riven sat on the floor where he had slept and ate bread that tasted like ash.
+He picked up a support post. Riven picked up the other end. The bond pulled tight, lifeline and leash, and Cael walked back toward the channel because that was what the town needed.
 
-Merrow's runner caught them at the yard gate with a second note: *Heartbridge if tear moves uphill. No broadsides. No ceremony. Bring rope.* Cael initialed it. Riven did not.
-
-He picked up a support post. Riven picked up the other end. The bond pulled tight, lifeline and leash, and Cael walked back toward the channel because that was what the town needed. The town would hold one more day. Maybe two. That was enough math for now.
-
-He did not look at Heartbridge hill yet. He would when the work ran out of places to put hands.
-
-Riven fell in beside him without touching. Bran shouted for rope. Cael shouted back.
-
-After dark, Riven found him at the yard wall with a lantern and a list Merrow had left—posts to pull, posts to set, names of men who had not shown at second bell. They worked in silence until Riven's stitches pulled and Cael felt the pull in his own forearm though the wound was Riven's.
-
-"Stop," Cael said.
-
-"Not yet."
-
-"Riven."
-
-They stopped. The bond did not. It never fully did anymore.
-
-The channel water ran wrong color in the failing light. Cael kept his hands on timber until Bran called the line secure for the hour.
-
-At the secure call, laborers dropped where they stood. Merrow walked the mud line with a lantern and marked three posts for replacement before morning. She did not look at Cael or Riven. "Eat. Sleep if you can. Second bell again."
-
-A woman from the lower market followed her with a list of names—who had lost stock, who had lost roof, who wanted the town to pay for timber they said the pair should have held. Merrow took the list without promise and kept walking.
-
-The woman turned on Cael instead. "You held the channel. My sister's roof didn't. Who signs for that?"
-
-Cael opened his mouth. Riven felt the answer arrive in both of them—*we held what we could*—and knew it would sound like a pamphlet. He let Cael say the shorter version.
-
-"Merrow," Cael said. "Not us."
-
-The woman looked like she wanted to spit. She went after Merrow with the list clutched in both hands. Riven watched her go and felt Cael's shame cross clean, not useful, not fixable.
-
-Bran found them at the yard gate with two bowls of fish stew and no spoons. "Eat before it gets cold. Cooper wants his loft back tomorrow unless the wall goes again."
-
-"The wall's standing," Cael said.
-
-"For now." Bran counted bowls against heads and came up one short. He ate from the ladle instead of apologizing. "Jess's brother didn't show second shift. If you're on the hill tomorrow, tell him where to stand. He listens to you more than me."
+Bran found them at the yard gate with fish stew and no spoons. "Eat. Second bell again if the tear moves uphill."
 
 "We're not symbols," Riven said.
 
 "Good." Bran scraped the pot. "Symbols don't eat stew."
 
-He would sleep in the loft tonight if the wall held. He would feel Riven on the floor through the bond whether he wanted to or not.
-
-Cael worked.
+They slept in the loft that night if the wall held. Cael felt Riven on the floor through the bond whether he wanted to or not.

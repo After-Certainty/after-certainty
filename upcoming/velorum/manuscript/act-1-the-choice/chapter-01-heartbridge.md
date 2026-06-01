@@ -12,33 +12,33 @@ At the fish quay a boy tried to lift the wrong end of a crate and dropped it. He
 
 The boss counted the crates wrong twice—once short, once long—and tried to pay for the short count until Riven stacked the empties in a row and made him count again. "I don't work for maybe," Riven said. The boss called him a prick. Riven called him worse. They settled on the right number because the handcart was still half empty and the noon bell was coming whether the herring cooperated or not.
 
-A woman from the smokehouse wanted her order moved ahead of the fish. The boss said yes. Riven said no until she showed him the coin. Then he said yes and hated both of them for it. Greyhaven ran on that kind of math.
+A woman from the smokehouse wanted her order moved ahead of the fish. The boss said yes. Riven said no until she showed him the coin. Then he said yes and hated both of them for it. The coin shut the argument up faster than reason did.
 
-His back complained before he reached the hill path. It would complain louder tomorrow. Tomorrow had started to be a different kind of problem.
+His back complained before he reached the hill path. It would complain louder tomorrow. Just thinking about tomorrow made the ache worse.
 
-By the time he started up the hill above the harbor road, his sleeves smelled like rope tar and herring. The noise of town faded a little with every turn. Down below, wheels knocked over stone. Someone shouted about fresh catch. A dog barked. Somebody else shouted back. Up here there was wind, space, nobody asking him for anything.
+By the time he started up the hill above the harbor road, his sleeves smelled like rope tar and herring. The noise of town faded a little with every turn. Down below, wheels knocked over stone. Someone shouted about fresh catch. A dog barked. Somebody else shouted back. A boy in a hat three sizes too big ran past going the wrong direction and didn't look back. Up here there was wind, space, nobody asking him for anything.
 
-He climbed the zigzag path with his hands shoved into his pockets and gravel slipping under his boots. Halfway up he passed a pair of pilgrims—older woman, younger man, both in road-stained cloaks—resting on a bench somebody had nailed into the hillside last winter. The bench listed to one side. The woman counted coins into the younger man's palm while he tied a fresh ribbon around his wrist. Offerings for the monument. Riven stepped around them without slowing. The harbor spread out behind him, grey water hemmed in by crooked docks and leaning warehouses. Roofs climbed the hillside in uneven rows of dark shingles and patched slate. From a distance it almost looked orderly. Almost.
+He climbed the zigzag path with his hands shoved into his pockets and gravel slipping under his boots. Halfway up he passed a pair of pilgrims—older woman, younger man, both in road-stained cloaks—resting on a bench somebody had nailed into the hillside last winter. The bench listed to one side. The man wore a hat with a feather so bedraggled it looked ashamed of itself. The woman counted coins into his palm while he tied a fresh ribbon around his wrist. Riven stepped around them without slowing. His stomach was already thinking about lunch he hadn't earned yet.
 
 At the next bend he glanced back. The wind shifted, and three words drifted up from somewhere below: Heroes. Curse. Never forgotten. Riven rolled his eyes and kept climbing.
 
-Everybody in Greyhaven knew the story: Heartbridge, the monument on the hill, the bond, the songs, the pamphlets, the same damn tale sold a hundred different ways. Children learned it before they learned their letters. Pilgrims climbed the hill in pairs. Newly married couples left ribbons and candle wax at the base of the monument and promised each other things they couldn't possibly know.
+Everybody in Greyhaven knew the bond story. Pilgrims climbed the hill in pairs. Riven had stopped counting how many times he'd heard it.
 
-On the lower switchback a woman sat on the broken bench with her boot off, blister blood dark through the wool. Her companion tried to tie a strip of linen and got it wrong twice. Riven stepped around them. Cael didn't offer help. Help on Heartbridge turned into conversation, and conversation turned into the story again.
+On the lower switchback a woman sat on the broken bench with her boot off, blister blood dark through the wool. Her companion tried to tie a strip of linen and got it wrong twice. Riven stepped around them. Cael didn't offer help. Riven wasn't going to either. Help on Heartbridge always turned into the bond story again.
 
 The path leveled out. Heartbridge stood ahead of him, hard to miss even after all these years. Two figures carved from pale stone rose from a broad base overlooking the harbor. They leaned into the same pull, bound together by a single rope carved across both chests and into a knot between their joined hands.
 
-The pamphlets made it look clean. The real thing wasn't. Rain had worn away faces. Bird droppings streaked the stone. Wax filled old cracks. A ribbon had rotted into one seam and never been removed. Riven preferred the real version. At least the real version admitted time existed.
+The pamphlets made it look clean. The real thing wasn't. Rain had worn away faces. Bird droppings streaked the stone. Wax filled old cracks. A ribbon had rotted into one seam and never been removed. At least the mess looked honest.
 
-He pulled a folded pamphlet from his pocket, the paper already soft at the creases. *Heartbridge. Power flowing. The land choosing.* The usual promises. He stared at the carved knot between the figures' hands. The word belonged to the monument first. The pamphlets had borrowed it for the bond they were always trying to sell: two lives tied together, power passing between them, destiny, purpose, whatever version sounded best this season.
+He pulled a folded pamphlet from his pocket, the paper already soft at the creases. *Heartbridge. Power flowing. The land choosing.* The usual promises. He stared at the carved knot between the figures' hands and felt his lip curl before he could stop it.
 
-What Riven saw instead was a retaining wall giving way after too much rain, a boot sinking where the ground should have held. The pamphlet never cared whose ground broke.
+His boot found a loose chip at the base of the monument. It skittered downslope. For a stupid second he imagined the whole thing tipping after it.
 
 He rubbed his thumb across the ink until it smudged, then reached toward the stone. His fingers stopped an inch short. The monument held the night's cold.
 
 "That's fucking gross."
 
-Riven turned. Cael stood a few paces back on the loose rock, tall and broad-shouldered in a dark coat, short hair, the sort of person who somehow looked balanced even when standing on shifting gravel. Riven hadn't heard him approach. That irritated him more than it should have.
+Riven turned. Cael stood a few paces back on the loose rock, tall and broad-shouldered in a dark coat, short hair, somehow not sliding on the gravel like any normal person would. Riven hadn't heard him approach. That irritated him more than it should have. They'd been friends since before the fever—not brothers, not kin, just the boy from the lane behind Mara's who kept showing up on the hill whether Riven wanted company or not.
 
 "Everything's stained," Riven said, nodding toward the monument. "Fish scales. Mud. Wax. Bird shit. It gets into everything."
 
@@ -76,11 +76,11 @@ Riven sighed. "Tell that to the singers."
 
 "The singers aren't here."
 
-"No. Just us." For a while neither spoke. Below them the harbor spread across the bay, grey water and crooked docks and tiny figures moving through the streets. From up here nobody looked real—just motion, just work.
+"No. Just us." For a while neither spoke. Below them the harbor spread across the bay—grey water, crooked docks, tiny figures moving through the streets. Riven's shoulders ached from herring crates. Same ache tomorrow. Same crates, probably.
 
 A maintenance crew worked on the lower switchback, three men with ropes and wooden supports shoring up a section of path that had cracked in the last rains. One of them shouted measurements up the hill. Cael's head turned toward the sound before Riven's did. Of course it did.
 
-The foreman had the wrong length twice. The man on the rope argued back. Somebody below shouted that the support was listing—the same word as the pilgrims' bench—and everybody stopped to look at the same crooked timber from three angles. Cael watched without moving. Riven watched Cael watch.
+The foreman had the wrong length twice. The man on the rope argued back. Somebody below shouted that the support was crooked and everybody stopped to look at the same timber from three angles. A gull landed on the railing and stole somebody's lunch without anyone noticing. Cael watched the crew. Riven watched the gull make off with a whole herring.
 
 "You'd fix it," Riven said.
 
@@ -102,17 +102,17 @@ The foreman finally cut the board short and hammered it anyway. The support held
 
 One of the crew looked up, saw them watching, and waved—tired, not friendly. Riven waved back. Not waving picked a fight with somebody else's job.
 
-"They'll fix it wrong," Cael said quietly. "Merrow'll send someone tomorrow. Somebody'll stand in the rain anyway."
+A cart came up the switchback an hour later, loaded heavy on the inside edge. The support held. Cael watched it pass and said nothing—not because he'd been wrong, but because nobody on the path had needed him to be right.
 
-"You always do that."
+"You always do that," Riven said.
 
 "Do what?"
 
 "See the next failure before this one's finished."
 
-Riven watched the crew a moment longer. They weren't loading the outside edge. Or maybe they were. He couldn't tell, and that irritated him almost as much as Cael probably being right.
+Riven watched the crew a moment longer. They weren't loading the outside edge. Or maybe they were. He couldn't tell, and that irritated him almost as much as Cael being wrong this time.
 
-Riven leaned against the stone base, and the image came anyway: dock planks, crates, the weight of them in his arms, the end of a shift when nobody remembered who'd moved what. Then Mara's chalkboard, his name, another mark beside it, another day gone.
+Riven leaned against the stone base. His gloves still smelled like herring.
 
 "You ever think about anything else?" Cael asked.
 
@@ -120,33 +120,23 @@ Riven blinked. "What?"
 
 "The inn. The docks. Money." Cael shrugged. "You always look angry after."
 
-Heat climbed into Riven's face. "That's because they're worth being angry about."
+Heat climbed into Riven's face—part anger, part embarrassment at being read that easily. "I'm angry because I can already feel tomorrow in my back."
 
 "Which part?"
 
-"All of it." Riven scrubbed his palms against his trousers. "The boss. The list. The board. The way work ends and nobody remembers who did it."
+"The part where I haul crates until my back gives out and the boss still counts wrong." He scrubbed his palms against his trousers. "The part where Mara scrubs my name and hires somebody cheaper by noon."
 
 Cael nodded. Fair enough.
 
-Riven looked back toward the harbor. "If I die tomorrow, Mara scrubs my name off the board and hires somebody else." A gull dropped toward the water. "That's it." The words came easier now. "No songs. No stories. No monument. Just somebody asking where the broom went."
+Riven looked back toward the harbor. "If I die tomorrow, nobody's singing about it."
 
 Cael laughed once, short and unexpected. "That's your nightmare?"
 
 Riven glared at him. "Don't."
 
-"I'm serious."
+Cael went quiet for a beat—not disagreement, recognition. Riven was afraid of vanishing. He was afraid of staying and still not knowing. "Buy me lunch first, then."
 
-Cael leaned back against the monument. "You think hearing your name after you're dead fixes something?"
-
-Riven opened his mouth, stopped. The honest answer annoyed him. "Maybe."
-
-Cael looked out across the roofs, wind pushing at his coat. "People'll remember the wrong things anyway."
-
-"Great. Another thing that doesn't hold weight."
-
-"I wasn't trying to be comforting."
-
-Riven rolled the pamphlet tighter. Down below, somebody shouted from the market. The sound carried up the hill and disappeared into the wind. Cael's attention drifted across the town, loose slate, warped beams, a sagging roofline. Riven could practically see him cataloging repairs.
+Riven rolled the pamphlet tighter. Down below, somebody shouted from the market.
 
 "You ever stop looking for things to fix?"
 
@@ -154,9 +144,33 @@ Cael considered it. "No."
 
 "That sounds exhausting."
 
-"It is."
+"It is." Cael's eyes tracked a loose slate on the inn roof two streets over. "Still cheaper than letting it fall."
 
-That earned another laugh, small this time and real. The wind shifted, salt and wet wool and smoke. For a moment neither of them said anything, just two young men standing beneath a monument neither of them entirely believed in.
+That earned another laugh, small this time and real. The wind shifted, salt and wet wool and smoke. Riven's stomach growled. He ignored it. Cael pretended not to hear. That helped.
+
+"You eaten?" Cael asked.
+
+"No."
+
+"Mara's got oat bread in the kitchen. Stale by noon."
+
+"Stale by nine." Riven shifted on the stone. "I'll eat when she yells at me for skipping."
+
+"She'll yell anyway."
+
+"Then I'll eat angry. Works better."
+
+"The dock stew tastes like dishwater," Riven said.
+
+"The dock stew tastes like the dock."
+
+"Same thing." Riven squinted at the harbor. "Mara waters hers down on slow weeks."
+
+"She does not."
+
+"She does. Bran told me."
+
+"Bran eats everything and lies about half of it."
 
 Footsteps scraped up the path behind them, fast and careless. Bran came over the rise breathing hard, all elbows and oversized boots, knit cap crooked, one lace untied somewhere down the hill.
 
@@ -202,25 +216,25 @@ Cael looked at the monument, then the path. "After."
 
 "Then we'll hear the end of it from the yard." Cael shrugged. "Mara charges less when the square's loud."
 
-Riven snorted. Practical. That was Cael—always finding the repair in the mess.
+Riven snorted. "She charges more when it's quiet and she can hear us think."
 
 Far below, somebody cheered again.
 
-"They'll leave out the ugly parts."
+"Mara's head hurts when that singer's in the square," Riven said. "Mine too."
 
-Cael looked at the monument. "The ugly parts don't fit in a chorus."
+"Bad note again?"
 
-"They never do." The wind tugged at Cael's coat. For a moment he said nothing. Then: "It's still two real people."
+"Always the third one." Riven rubbed his shoulder. "This herring smell is never leaving my coat."
+
+"Wash it."
+
+"With what? Rain?"
+
+Cael almost smiled. For a moment he said nothing. Then he touched the chipped base where rain had eaten the stone. "Still two people under the carving."
 
 Riven looked over. "What?"
 
-"They weren't symbols first." Cael nodded toward the monument. "They were people first."
-
-Riven laughed once, short and unhappy. "Good luck convincing anybody of that."
-
-Cael shrugged. "I'm not talking to anybody."
-
-The answer irritated him because it wasn't wrong. For a while they stood looking out over the harbor. A gull wheeled over the water. Someone shouted from the docks. Life went on, same as always.
+"Not my point." Cael pulled his hand back. "Forget it."
 
 "Say it."
 
@@ -228,27 +242,11 @@ Cael glanced over. "Say what?"
 
 "What comes next." Riven jerked his chin toward the monument. "Not the song version. The thing you've been thinking all morning."
 
-Cael looked back at the town, the roofs, the harbor, the roads winding north into the hills. When he finally spoke, his voice was quiet. "Last spring two men stood on the north bridge all night."
+Cael looked north. "Ashfen."
 
-Riven frowned. "What does that have to do with anything?"
+Riven blinked. "What?"
 
-"The storm." Cael rubbed a thumb across one knuckle. "The planks were going. The river was taking them." He nodded toward the harbor. "The bridge held because somebody stayed."
-
-Riven waited. He knew the story—everybody in Greyhaven knew it—but Cael told it like he'd been there, rain still on his coat. "Merrow brought rope at second bell. Halverin sent men at dawn. By then the planks had stopped moving." Cael's voice stayed level. "Nobody sang about the ones who stood there in the dark."
-
-"So?"
-
-"So maybe the stories started somewhere." Cael rubbed his thumb once against the chipped base. "The pamphlet says people asked once and the ground moved."
-
-Riven unfolded the pamphlet again—not to read, to have something in his hands that wasn't stone. The ink smudged under his thumb. Heartbridge on the page looked cleaner than the monument beside them. That had always been the problem.
-
-The wind gusted between them. Riven folded his arms. "That's still not the thing."
-
-"No." Cael's eyes drifted north, toward the hills beyond Greyhaven, toward the pale country that most people only saw on maps. "The thing is I want to go look."
-
-Riven blinked. "Look at what?"
-
-"Ashfen." The answer landed between them, simple and certain. "I want to see whether any of it's true."
+"I want to go look." Cael looked north. "If any of it's true, I don't want to waste it down here counting wrong."
 
 Riven stared at him. "You're serious."
 
@@ -260,38 +258,32 @@ Riven stared at him. "You're serious."
 
 "And if we get there?"
 
-Cael looked back at the monument, then at the pamphlet in Riven's hand, then toward the distant hills. "We find out if it's carved rock and market talk."
+"We find out if it's carved rock and market talk."
 
-Riven looked at the pamphlet—the smudged ink, the bodies-fused line he'd read aloud for Cael's benefit and his own disgust. "And if the market talk is all there is?"
+Riven looked at the pamphlet in his hand—the smudged ink, the bodies-fused line he'd read aloud for Cael's benefit and his own disgust. "And if the market talk is all there is?"
 
-"Then we come back and tell Mara she was right to charge extra."
+"Then we come back and tell Mara she was right to charge extra." Easy to say. The dread that came with it sat in his chest like bad tea—same hill, same counting, same not-knowing forever.
 
 Riven barked out a laugh despite himself. "She'll love that."
 
 "She'll charge us for the story too."
 
-Riven looked at the pamphlet again—the cheap diagram, the fused ribs line, the promise that meaning could be bought for a coin. He wanted to throw it off the hill. He didn't. Throwing things off Heartbridge was for pilgrims and drunkards.
+Riven looked at the pamphlet again—the cheap diagram, the fused ribs line. He wanted to throw it off the hill. He didn't. Throwing things off Heartbridge was for pilgrims and drunkards.
 
-The answer should have sounded ridiculous. Part of it did. The other part refused to leave him alone. Below them, wrong note from the square, then laughter—somebody covering for the fiddler. Ordinary embarrassment. Riven grabbed it without meaning to.
+Below them, wrong note from the square, then laughter—somebody covering for the fiddler. Riven winced in sympathy before he could stop himself.
 
 Riven looked back toward town: Mara's inn, the docks, the same streets, the same jobs, the same board, the same tomorrow. Then he looked north.
 
-"Christ."
+"Christ," he said quietly. Not agreement. Not yet.
 
 Cael waited. Riven kicked a loose stone off the path. It bounced once and vanished into the grass.
 
-"Fine." The word came out before he could stop it. He hated how quickly he meant it.
+"I hear you," Riven said. "That doesn't mean I'm saying yes before we've slept on it."
 
-Cael's mouth twitched, not quite a smile. "Fine?"
+Cael's mouth twitched. "Fair."
 
-"Don't make me say it twice."
+He thought about the dock list in his pocket, names already smudged. Thought about the boss calling for crates twice. His legs were tired. His back was tired. Tomorrow sounded worse than today, and today had been bad enough.
 
-He thought about telling Mara he'd return the handcart before the bell. About the boss counting wrong and the smokehouse woman cutting line. About waking tomorrow on the same plank smell and the same list called twice. He could name every reason to stay. None of them had weight once he looked north.
+He didn't want another tomorrow like that. Ashfen still sounded insane. But tomorrow here sounded worse.
 
-He thought about the dock list in his pocket, names already forgotten. Thought about the boss calling for crates twice. Thought about the maintenance crew and whether Cael had been right about the support.
-
-Mara would want the handcart back before dusk. She always wanted things back before dusk. Riven could walk down, return the cart, take the broom, scrub his name onto her board if he changed his mind—and spend tomorrow hauling herring for a boss who counted wrong on purpose.
-
-He didn't want another tomorrow like that.
-
-The wind kept blowing. For the first time all morning, Riven stopped looking at the monument. He looked at the road instead.
+The wind kept blowing. Riven looked at the road instead of the monument—and didn't walk it yet.
