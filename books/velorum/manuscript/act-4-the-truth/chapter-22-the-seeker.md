@@ -6,31 +6,31 @@ Riven felt it first in his ankles. His foot landed and the road answered a heart
 
 "Again?" Cael asked.
 
-"Again."
+"Again," Riven said.
 
 They stood still. The road looked normal: pale gravel, wheel ruts, a ditch full of last week's rain. Riven kicked a stone. It rolled. Then the sound arrived.
 
-"Goddamnit."
+"Goddamnit," Riven said.
 
 The first two days north had still felt like travel: cold camps, hard bread, smoke from Kestrel Gate thinning behind them. A farmer's cart passed at dusk on the second evening, driver staring, neither of them waving. By morning the rut marks had half-filled with grit. The road swallowed evidence fast out here.
 
 By the third morning the road rang hollow underfoot—not every step, just enough. Riven's headache spent the morning changing owners, his temples, then Cael's shoulders, then back again.
 
-They had eaten iron ration at a fork where Merrow's map showed a well. The well was dry. Mud at the bottom, cracked in hexagons like old pottery. Cael marked the map with a cross. Riven watched his hand move and felt the disappointment before Cael finished the stroke. They refilled from a seep an hour later and both got sick for it. Riven blamed the water. Cael blamed the ration. Neither was wrong enough to matter.
+They had eaten oatcake at a fork where Merrow's map showed a well. The well was dry. Mud at the bottom, cracked in hexagons like old pottery. Cael marked the map with a cross. Riven watched his hand move and felt the disappointment before Cael finished the stroke. They refilled from a seep an hour later and both got sick for it. Riven blamed the water. Cael blamed the ration. Neither was wrong enough to matter.
 
 They had not spoken about Lyra since Merrow's yard. The silence had held for three days. Out here silence didn't mean peace. It meant the bond was carrying what words would have said.
 
-They had eaten the last of the fresh bread at midday. What remained was iron ration soaked in canteen water, chewing slow enough to keep his jaw from cramping. Cael had done the same fifty paces back. Neither commented on the taste. Commenting would have opened the bond to more than taste.
+They had eaten the last of the fresh bread at midday. What remained was oatcake soaked in canteen water, chewing slow enough to keep his jaw from cramping. Cael had done the same fifty paces back. Neither commented on the taste. Commenting would have opened the bond to more than taste.
 
 "Goddamnit," Riven said. "We're not even at the bad part yet."
 
-"Feels like the bad part."
+"Feels like the bad part," Cael said.
 
 "Everything feels like the bad part."
 
-They passed a wagon wheel sunk to the hub in the road. No axle. No cart. Riven counted spokes: twelve. One missing. He didn't ask where the rest of the wagon had gone.
+They passed a wagon wheel sunk to the hub in the road with no axle and no cart—Riven counted twelve spokes, one missing, and didn't ask where the rest of the wagon had gone.
 
-They kept walking. Stopping didn't help. A shepherd's hut stood collapsed beside the road, roof caved, door hanging. No sheep. No shepherd. Riven checked it anyway. Empty except for ash and a broken crook. Cael waited without comment. Waiting was easier than asking who had left in a hurry.
+They kept walking because stopping didn't help, past a shepherd's hut collapsed beside the road with its roof caved and door hanging, no sheep and no shepherd. Riven checked it anyway and found only ash and a broken crook while Cael waited without comment, waiting easier than asking who had left in a hurry.
 
 Merrow's map marked a slip beyond the fork. *Unstable. Avoid.* The clerk's handwriting had looked nervous. Riven understood why now.
 
@@ -44,7 +44,7 @@ The air at the rim tasted like metal and old snow. Riven's breath fogged. Cael's
 
 Beside him, Cael stopped. His hand found Riven's sleeve, brief and hard.
 
-"We're not walking into that."
+"We're not walking into that," Cael said.
 
 Riven stared at the delayed reflection. "We already are."
 
@@ -132,7 +132,7 @@ Across the camp, Cael sat sharpening the little knife he used for timber work.
 
 "You trust this?" Riven asked.
 
-"No."
+"No," Cael said.
 
 "Then why are we following them?"
 
@@ -140,7 +140,7 @@ Cael kept working the blade. "Because standing still hurts worse."
 
 Riven watched steel catch starlight. "Halverin said that too. Different words."
 
-"Halverin isn't here."
+"Halverin isn't here," Cael said.
 
 "No." Riven lay back. "Thank Christ for that."
 
@@ -152,9 +152,9 @@ Riven pissed behind a boulder at first light and felt Cael's brief annoyance cro
 
 The basin gave way to scrub hills and broken ridges. Riven's headache became Cael's. A blister appeared on Riven's heel and showed up in Cael's stride an hour later. Cael cut a strip from his shirt tail before Riven asked. Steady hands. Precise work. When he pressed the cloth against Riven's heel, both of them hissed through their teeth.
 
-"Thanks."
+"Thanks," Riven said.
 
-"Don't."
+"Don't," Cael said.
 
 "Already did."
 
@@ -162,7 +162,7 @@ They kept moving. By midmorning the scrub thinned to bare stone and the wind pic
 
 At noon the trail split. The Seeker stopped for the first time all day, one lift of the staff toward a darker cut through the hills, then walking again. No explanation. No warning. No blessing. Just direction.
 
-"Is there a cure?" he called.
+"Is there a cure?" Riven called.
 
 The Seeker walked.
 
@@ -204,9 +204,9 @@ The only road left ran north. So they kept walking.
 
 The hills gave way to a plateau where the wind never stopped. Riven's lips cracked. Cael's cracked too. They greased them with the tin from Merrow's pack and tasted iron for hours.
 
-Riven's boot sole had started to separate at the toe. He pegged it with a sliver of iron ration wire and kept walking. Cael felt the rub at every step. Neither mentioned it until Riven said, "When we get back—" and stopped. There was no *when.* There was only north.
+Riven's boot sole had started to separate at the toe. He pegged it with a sliver of pack wire and kept walking. Cael felt the rub at every step. Neither mentioned it until Riven said, "When we get back—" and stopped. There was no *when.* There was only north.
 
-That night the Seeker stopped earlier than usual. Not camp. Just stop. The Seeker sat. They sat. Riven ate the last of the good bread, the stuff that hadn't rusted yet. Cael ate half an iron bar and hid the rest for morning.
+That night the Seeker stopped earlier than usual. Not camp. Just stop. The Seeker sat. They sat. Riven ate the last of the good bread, the stuff that hadn't gone green yet. Cael ate half an oatcake and hid the rest for morning.
 
 Before Riven lay down, the Seeker slid the staff between two leaning slabs behind them—windbreak, nothing more—and walked back to the open without a word.
 
@@ -224,7 +224,7 @@ The trail that day crossed three dry washes and one that wasn't dry. Mud sucked 
 
 By dusk the basin was behind them and the broken hills ahead looked almost ordinary. Almost. Riven didn't trust ordinary anymore.
 
-That evening they found an overhang barely deep enough for two packs. No fire. Iron ration for dinner. Sleep came in pieces. Riven woke to Cael's hand on his shoulder. Not comfort. Stop thrashing.
+That evening they found an overhang barely deep enough for two packs. No fire. Oatcake for dinner. Sleep came in pieces. Riven woke to Cael's hand on his shoulder. Not comfort. Stop thrashing.
 
 In the morning the Seeker's prints led north again. Riven matched stride without deciding to.
 

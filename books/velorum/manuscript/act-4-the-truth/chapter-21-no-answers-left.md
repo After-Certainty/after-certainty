@@ -4,9 +4,9 @@ Halverin sent for him on a rain morning. Water ran down the gutters hard enough 
 
 Cael went alone. Riven had refused the invitation before the messenger finished speaking. Through the bond, Cael could still feel him on the east wall somewhere beyond the square, angry and restless, refusing to be indoors, hands on stone, jaw locked hard enough to ache in Cael's own face. Once, mid-climb, Riven's anger spiked sharp enough that Cael tasted chalk. He paused on the stair until it faded. The city below kept moving. It always kept moving.
 
-A clerk stood beneath the council archway with a bucket at his feet and watched Cael pass without speaking. Another clerk farther up the stair was scrubbing dried paste from the treads with a stiff brush, working methodically, as though removing the last trace of a broadside would make the square behave again.
+A clerk stood beneath the council archway with a bucket at his feet and watched Cael pass without speaking while another clerk farther up the stair scrubbed dried paste from the treads with a stiff brush, working methodically as though removing the last trace of a broadside would make the square behave again.
 
-The stairs were slick. Cael took them one step at a time, palm on wet stone, listening to the city below: wagon wheels, a guard calling shift change, someone hammering a shutter closed against the weather. By the time he reached the council floor, rain had soaked through the hem of his coat. Kestrel Gate had not stopped moving since the square. The bond still ran through the walls—a wire nobody wanted to touch.
+The stairs were slick; Cael took them one step at a time, palm on wet stone, listening to the city below—wagon wheels, a guard calling shift change, someone hammering a shutter closed against the weather—until rain had soaked through the hem of his coat by the time he reached the council floor. Kestrel Gate had not stopped moving since the square. The bond still ran through the walls—a wire nobody wanted to touch.
 
 The room looked smaller than he remembered. Maps lay rolled on the table, edges damp where rain had found a seam in the casement. A chair sat crooked in the corner, legs scraping marks on the floor. Grey daylight pushed through the wet windows, enough to read blame by without lighting the candles. The brazier in the corner held cold ash from the last council session. Nobody had bothered to sweep it.
 
@@ -20,7 +20,7 @@ Cael unfolded it. The language was familiar: nobody responsible, everybody respo
 
 "No," Cael said.
 
-"You haven't finished reading."
+"You haven't finished reading," Halverin said.
 
 "I've read enough." He thought of the riverside entrance, of Lyra at the west lane wagon when she said *don't sign anything tonight*, of Riven's hands shaking in the square while the bond carried everything both ways.
 
@@ -32,9 +32,9 @@ He tapped the paper with one finger. "Merrow won't sign it either. She told them
 
 Halverin nodded. "No from you I expected. From Riven I assumed swearing and a lecture about my fucking stage."
 
-"He's not here."
+"He's not here," Cael said.
 
-"I noticed."
+"I noticed," Halverin said.
 
 Halverin looked back toward the rain-streaked window. A wagon rattled through the channel below, and for a while he said nothing. Rain tapped the glass. Somewhere below a clerk shouted about wet sheets in the archive.
 
@@ -44,7 +44,7 @@ Then: "I thought I understood what this was."
 
 Cael waited.
 
-"The bond?"
+"The bond?" Halverin asked.
 
 "All of it." Halverin rubbed a hand across his face and let it drop. "The texts. The records. Every account I could find. I thought if you understood it well enough, you could predict it."
 
@@ -52,9 +52,9 @@ Cael waited.
 
 Halverin didn't argue.
 
-"You got the demonstration you wanted."
+"You got the demonstration you wanted," Cael said.
 
-"No."
+"No." Halverin again.
 
 "You got the crowd."
 
@@ -62,13 +62,13 @@ Halverin didn't argue.
 
 Halverin laughed once. For the first time he looked tired enough that Cael almost felt sorry for him. Almost.
 
-"I didn't want people bleeding in the square."
+"I didn't want people bleeding in the square," Halverin said.
 
-"Then you shouldn't have built it like a stage."
+"Then you shouldn't have built it like a stage," Cael said.
 
 Halverin looked down. "No." The admission came quietly. "I shouldn't have." Rain ran down the window behind him. "You can't manage the bond. I know that now."
 
-"You told us privacy was a luxury."
+"You told us privacy was a luxury," Riven said.
 
 "I told myself that first." Halverin's mouth tightened. "It sounded reasonable." The silence that followed was heavier than any defense would have.
 
@@ -136,7 +136,7 @@ By the time he reached the supply yard, he found Riven beneath an awning with Me
 
 Merrow looked up. "You got your answer?"
 
-"Yes."
+"Yes," Cael said.
 
 "And?"
 
@@ -146,7 +146,7 @@ Merrow grunted and handed over two stamped slates. "Halverin's signature clears 
 
 "We were always on our own," Riven said.
 
-"Fair." She tapped the map tucked beneath the slates. "Salt. Iron rations. Broken roads marked. One clerk wrote *unstable, avoid.* Believe the clerk."
+"Fair." She tapped the map tucked beneath the slates. "Salt. Oatcakes. Broken roads marked. One clerk wrote *unstable, avoid.* Believe the clerk."
 
 She pulled a third slate from her coat and held it out. "Gate pass. North road. Valid seven days. After that the watch won't care what Halverin signed." Cael took it. The wax was still warm. "There's a clerk at the outer gate who owes me. He'll wave you through once. Don't make him explain it twice."
 
@@ -154,9 +154,9 @@ She pulled a third slate from her coat and held it out. "Gate pass. North road. 
 
 Merrow looked at him. "He came to the yard last night. Didn't announce himself. Stood in the rain and asked what you'd need if you left." A beat. "I told him. He signed what I put in front of him."
 
-"I usually do."
+"I usually do," Riven said.
 
-"No, you don't."
+"No, you don't," Cael said.
 
 "Shit," Riven said.
 
@@ -178,7 +178,7 @@ She paused at the yard gate. "There's a name people use up north when the land b
 
 Cael almost smiled. "No promises."
 
-They packed in the yard while clerks watched from doorways and nobody came closer. Cael counted bedrolls twice. Riven complained about the iron rations. "Heavy as fuck and useless if we starve anyway." Merrow's map went into Cael's inner pocket, waxed against rain.
+They packed in the yard while clerks watched from doorways and nobody came closer. Cael counted bedrolls twice. Riven complained about the oatcakes. "Heavy as fuck and useless if we starve anyway." Merrow's map went into Cael's inner pocket, waxed against rain.
 
 A boy from the stores ran past with an armload of bandages and nearly dropped them when he saw Riven's face. He recovered, stared at the scraped knuckles, and asked, "You the pair from the square?"
 
@@ -188,7 +188,7 @@ The boy swallowed. "My aunt's in the infirmary. She says you didn't sign." He di
 
 Merrow heard the exchange from the gate and didn't look back. "Don't collect admirers on the way out. They'll expect you to fix something on the road."
 
-A store clerk brought two canvas sacks and set them on the bench without meeting anyone's eyes. Salt blocks wrapped in oiled cloth. Hard bread, six days' worth if they stretched it. A tin of grease for boot seams. Two coils of line Merrow had added without being asked. Riven lifted one of the iron ration bars and dropped it. It landed with a dull thud that made a watching clerk flinch.
+A store clerk brought two canvas sacks and set them on the bench without meeting anyone's eyes. Salt blocks wrapped in oiled cloth. Hard bread, six days' worth if they stretched it. A tin of grease for boot seams. Two coils of line Merrow had added without being asked. Riven lifted one of the oatcake slabs and dropped it. It landed with a dull thud that made a watching clerk flinch.
 
 "You'll want water skins filled at the outer cistern," Merrow said. "The north road has seeps marked, but don't trust them after rain. Half of them run wrong this time of year."
 
@@ -222,7 +222,7 @@ The hall had learned what he was—a problem walking toward the door, not a comm
 
 "Ready?" Riven stood in the doorway with his pack on.
 
-"Fuck no."
+"Fuck no," Cael said.
 
 Riven nodded. "Good." Cael capped the pen. They walked out.
 
@@ -256,9 +256,9 @@ A gate patrol passed going south before he folded the map—same complaint about
 
 Cael adjusted the weight of his pack. "We are."
 
-"Feels different out here."
+"Feels different out here," Riven said.
 
-"It is."
+"It is," Cael said.
 
 "Different and fucking worse."
 

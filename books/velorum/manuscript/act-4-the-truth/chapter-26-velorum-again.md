@@ -36,11 +36,11 @@ Riven's vision greyed at the edges. He tasted copper. Cael tasted it too. The bo
 
 "We want release," Riven said.
 
-"We want out."
+"We want out," Cael said.
 
 The words came fast now.
 
-"We want the fuck out."
+"We want the fuck out," Riven said.
 
 He thought of Halverin's unsigned sheet. Merrow's gate pass. Lyra's clinic wagon. All the doors that had closed behind them. This was the last door. It wasn't opening.
 
@@ -58,9 +58,9 @@ A woman mending a net. A boy carrying water up steps. A magistrate reading names
 
 Riven flinched beside him. The bond carried confusion in both directions.
 
-"No."
+"No," Cael said.
 
-The word left Cael before he knew he was speaking.
+The word left him before he knew he was speaking.
 
 The pressure deepened. Not a voice. A certainty. The same certainty a beam carried under weight.
 
@@ -100,7 +100,7 @@ He saw the east wall where he'd worked before the bond. Empty niches where metal
 
 Cael saw Greyhaven's practice yard. Then Kestrel Gate's east wall. Then the wooden support in the basin, pins sheared, wood grey with age. The same problem wearing different faces. Weight. Support. Failure.
 
-"That's not a fucking answer."
+"That's not a fucking answer," Riven said.
 
 The pressure sharpened. For a moment Cael saw himself and Riven as strangers might. Not brothers. Not victims. Not chosen. A joint in a frame. Useful because it carried weight. Terrifying because it could fail.
 
@@ -116,7 +116,7 @@ The pressure didn't release. It settled. Like a beam finding its seat. Like weig
 
 Riven looked away. Toward the rim. Toward the path back down. Toward anywhere that wasn't the center.
 
-"If we walk away?"
+"If we walk away?" Riven asked.
 
 The pressure changed again. Not threat. Consequence. A road washed out. A wall leaning. People improvising around a missing support. Nothing dramatic. Nothing personal. Just weight finding somewhere else to go.
 
@@ -138,7 +138,7 @@ Riven's pulse hammered against Cael's fingers. Fast. Wrong rhythm. Cael counted 
 
 The Seeker spoke. The voice sounded rough, as though it hadn't been used in a long time.
 
-"Walk back or walk forward."
+"Walk back or walk forward," the Seeker said.
 
 Riven's throat hurt. Not from shouting. From swallowing answers that didn't fit.
 
@@ -184,7 +184,7 @@ The wind had changed. Ordinary wind. It tugged at Cael's coat the way wind was s
 
 The Seeker paused. "Somewhere else."
 
-"That's not an answer."
+"That's not an answer," Cael said.
 
 The Seeker looked back. For the first time, something that might have been amusement crossed their face.
 
@@ -194,7 +194,7 @@ And disappeared among the rocks.
 
 Riven stared after them. "Well, shit."
 
-"Yeah."
+"Yeah," Cael said.
 
 They stood at the rim long enough for breath to steady. It didn't. Riven's hands shook. Cael's didn't, until the bond caught up.
 
@@ -214,7 +214,7 @@ Riven was still staring at the ring below.
 
 Cael looked north. Then south. Then toward the road home.
 
-"I don't know."
+"I don't know," Cael said.
 
 They started down the slope together. Not following anyone now. Just walking. The road below split: one branch toward Kestrel Gate, one toward the broken hills and whatever came after. A mile marker someone had knocked flat lay in the grass, numbers scraped off. Someone else had carved over the post in fresh chalk—*pairs don't return useful.* Riven scraped at it with his knife until his knuckles bled. Cael took the eastern cut without discussing it. Riven fell in beside him.
 
@@ -224,7 +224,7 @@ Cael thought of the images. Pairs. Functions. Weight shared because there was no
 
 "I believe we don't get a cure," he said. "I believe we don't get a room."
 
-"That's not what I asked."
+"That's not what I asked," Riven said.
 
 "I know." Cael capped the skin. "Forward anyway."
 

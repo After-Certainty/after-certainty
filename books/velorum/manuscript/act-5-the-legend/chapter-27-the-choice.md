@@ -10,7 +10,7 @@ They came back anyway because there was no other address left in them.
 
 The road down from Ashring had been wrong in small ways—fatigue crossing the bond before either of them named it, thirst arriving in both mouths at once. Riven had stopped pretending he could keep one feeling in one skin. He had not stopped wanting to.
 
-He wanted Lyra in a room that stayed closed. He wanted the ridge argument before the oath. He wanted to matter without being watched. All of it crossed to Cael before he finished the thought.
+He wanted Lyra in a room that stayed closed, wanted the ridge argument before the oath, wanted to matter without being watched—and all of it crossed to Cael before he finished the thought.
 
 Cael did not flinch anymore. That was worse than flinching.
 
@@ -28,7 +28,7 @@ A fish seller who had known Riven's mother stopped mid-price and looked away. Th
 
 Bran looked at Cael, at their hands, at the space between them where the bond sat invisible and heavy. Bran's own hands were rope-rough and shaking. He had aged since Kestrel Gate, or Riven had just learned to see it.
 
-"What do you need?"
+"What do you need?" Bran asked.
 
 "High ground," Cael said. "And nobody putting our names on a broadside."
 
@@ -62,15 +62,15 @@ Merrow's runner banged the cooper's door once at midnight and left a timber tall
 
 "Say it," Riven said.
 
-"What."
+"What," Cael said.
 
 "What Velorum said. What you believe now." Cael was quiet long enough that Riven felt the silence as its own crossing. "No cure," Cael said. "Only carry. Or shatter."
 
-"And Greyhaven?"
+"And Greyhaven?" Riven asked.
 
 "Greyhaven shatters if we don't hold."
 
-"Hold how."
+"Hold how," Riven said.
 
 "Together. Full load. No pretending we can split the pain."
 
@@ -86,7 +86,7 @@ He had wanted to be remembered for something that mattered. The town was already
 
 "Neither do I," Cael said. "I believe in work that costs everything."
 
-"Love?"
+"Love?" Riven said.
 
 The bond carried the word before Riven could take it back. Cael's breath caught. Riven felt the catch in his own ribs. He had not said it to win an argument. He had said it because the word was already in both their mouths.
 
@@ -94,7 +94,7 @@ The bond carried the word before Riven could take it back. Cael's breath caught.
 
 Riven closed his eyes. "If I choose the load, I lose the room."
 
-"Yes."
+"Yes," Cael said.
 
 "If I choose the room, we lose the town."
 
@@ -122,9 +122,9 @@ Below the loft, the cooper came in drunk and sang two bars of the bond song befo
 
 "Ask me at the berm," Cael said.
 
-"Same question?"
+"Same question?" Riven asked.
 
-"Same question."
+"Same question," Cael said.
 
 Before first light Bran hammered the cooper's door. "Up. Merrow's short four posts. We're stealing from the bridge crew unless you want the channel to eat the market."
 
@@ -144,9 +144,9 @@ Riven stood on the line and felt the bond pull tight, not performance, not Halve
 
 Below them the channel cut ran dark between mud walls. Laborers held posts along the berm's length—Bran at the rope stack, timber groaning, water pushing at the cut. Market smoke drifted above the rooftops behind them. Cael met his eyes. "When it breaks, don't split."
 
-"When it breaks, don't lecture."
+"When it breaks, don't lecture," Riven said.
 
-"Deal."
+"Deal," Cael said.
 
 They braced on the berm as the first section sloughed. Mud hit Riven's shins cold. Timber screamed. A laborer swore and ran for a support post. Riven felt fear start in his chest and cross clean, not ricochet, chosen channel. Cael's strength met it. Riven's speed met Cael's hesitation. They matched on the second beat—the alternative was death for people who did not know their names yet.
 

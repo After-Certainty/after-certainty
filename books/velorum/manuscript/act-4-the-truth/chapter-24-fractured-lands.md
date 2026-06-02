@@ -8,15 +8,15 @@ Riven woke with Cael's fall still in his body, hands grabbing for something that
 
 Riven rubbed grit from his eyes. "Bad enough."
 
-"You fell in mine too."
+"You fell in mine too," Cael said.
 
-"I know."
+"I know," Riven said.
 
-The sky above the cut was the color of old tin, no warmth in it, no promise either. Their bedrolls were damp. The Seeker sat twenty paces off, already upright, hood up, staff across their knees. They had not slept. Or had slept sitting. Riven couldn't tell the difference anymore.
+The sky above the cut was the color of old tin with no warmth in it and no promise either, their bedrolls damp while the Seeker sat twenty paces off, already upright with hood up and staff across their knees. They had not slept. Or had slept sitting. Riven couldn't tell the difference anymore.
 
 "You kept reaching for a rail," Riven said.
 
-"There wasn't one."
+"There wasn't one," Cael said.
 
 "I noticed."
 
@@ -38,7 +38,7 @@ Halfway through the climb he made the mistake of thinking about Lyra—not even 
 
 He tried to think of nothing. The bond carried the effort of trying. Cael felt it and tightened his grip on his staff until his knuckles whitened.
 
-"Stop."
+"Stop," Riven said.
 
 Cael glanced over. "Can't."
 
@@ -46,7 +46,7 @@ Cael glanced over. "Can't."
 
 "Goddamnit." Riven slammed a hand into his thigh. Pain bloomed. The bond carried that too. Cael flinched.
 
-"Don't."
+"Don't," Cael said.
 
 "Not doing this." Riven kept walking. "Not the conversation. Not the apology. Not fucking today."
 
@@ -54,9 +54,9 @@ The hurt that followed wasn't spoken. The bond carried it anyway. The Seeker nev
 
 They passed a dead mule beside the trail. Ribs showing. No cart. No driver. Riven walked wide. Cael marked the spot on the map with a cross. Another note for a clerk nobody would read.
 
-The mule's pack saddle still held a ration tin, burst open, grain spilled and grey with mold. Cael knelt, checked the grain with two fingers, and stood. "Not ours."
+The mule's pack saddle still held a ration tin, burst open, grain spilled and grey with mold. Cael knelt, checked the grain with two fingers, and stood. "Not ours," Cael said.
 
-"Could've been someone's week."
+"Could've been someone's week," Riven said.
 
 "Was." Cael wiped his fingers on his coat. "Now it's a marker. Keep walking."
 
@@ -64,17 +64,17 @@ By midday they reached a shelf above a basin of standing water. Ripples spread f
 
 "Don't," Riven said.
 
-"Wasn't going to."
+"Wasn't going to," Cael said.
 
 They found a seep higher on the slope. The water tasted metallic. Honest enough. After drinking, Riven doubled over at the trail edge. Cael was nauseous before he finished retching.
 
 "Christ," Riven said. "Remember when a stomachache belonged to one person?"
 
-"Vaguely."
+"Vaguely," Cael said.
 
 Riven wiped his mouth. "I miss that." The words slipped out before he could stop them.
 
-Silence. Then: "Yeah."
+Silence. Then: "Yeah," Cael said.
 
 Cael didn't ask which part. Didn't ask whether he meant Lyra or stomachaches or both. For once, neither of them wanted to open another wound.
 
@@ -86,7 +86,7 @@ Riven's headache had become permanent. Not pain. Presence—a weight at the back
 
 "Feel that?" Riven asked.
 
-"Yeah."
+"Yeah," Cael said.
 
 "It's pulling."
 
@@ -100,7 +100,7 @@ The pins had sheared at different heights, as though the load had shifted mid-fa
 
 Riven looked at the support, then at the basin, then back at Cael. "You hear yourself?"
 
-"What?"
+"What?" Cael asked.
 
 "You sound like Halverin."
 
@@ -110,7 +110,7 @@ Riven stepped forward and grabbed the timber. "Halverin isn't here."
 
 Dust drifted from the wood. The basin held its breath.
 
-"Thank Christ for that."
+"Thank Christ for that," Riven said.
 
 Cael's hand closed around the other end of the support. Together they  lifted, because standing still felt worse.
 
@@ -118,7 +118,7 @@ The timber tore free with a groan. For a moment the basin seemed to inhale. Grav
 
 For a heartbeat Riven saw the square: Halverin on the stage, crowd pressing, blood on stone. Then the basin again. The bond had stopped respecting the difference between then and now.
 
-"Set it down."
+"Set it down," Cael said.
 
 Riven barely recognized his own voice. "Goddamnit. Set it down."
 
@@ -132,9 +132,9 @@ The support lay where they dropped it, pins glinting in wrong light. Cael wanted
 
 A herder with a south-bound flock saw them coming and swung the sheep to the far side of the trail without slowing. The boy with him stared until the Seeker's hood turned, then hid behind the flock. Riven called that they weren't looking for trouble. The herder didn't answer. When the last ewe passed, Riven found a chalk mark on the post—*bond pair, avoid if able*—fresh enough to still smell of wet paste.
 
-An hour later Riven's back spasmed so hard he had to stop. Cael felt it as his own spine. They sat on a shelf with the ring still distant and neither pretended the lift had been free. Cael offered the last strip of clean cloth from his shirt. Riven took it without thanks and tied it under his ribs. "Halverin voice," he said.
+An hour later Riven's back spasmed so hard he had to stop. Cael felt it as his own spine. They sat on a shelf with the ring still distant and neither pretended the lift had been free. Cael offered the last strip of clean cloth from his shirt. Riven took it without thanks and tied it under his ribs. "Halverin voice," Riven said.
 
-"Yeah."
+"Yeah," Cael said.
 
 "Don't do that again."
 
@@ -146,9 +146,9 @@ For several breaths neither of them moved. Then Riven sat down hard and laughed 
 
 "Accurate." Cael sounded winded. "You all right?"
 
-"No." Riven looked at his hands. No blood. They felt like there should have been blood. "You?"
+"No," Riven said. He looked at his hands. No blood. They felt like there should have been blood. "You?"
 
-"No."
+"No," Cael said.
 
 "Good." At least neither of them had to pretend.
 
@@ -156,9 +156,9 @@ Cael tied a strip of cloth around the splintered end of his staff. The ferrule c
 
 They climbed out of the basin slowly. The Seeker never looked back. The trail rose through broken stone and scrub. Riven watched the staff ahead and counted breaths against it. Four in. Four out. Something steady. Anything.
 
-At the ridge he stopped. The country spread beneath them, no farms, no smoke, just pale stone and twisted scrub stretching toward distant weather.
+At the ridge he stopped where the country spread beneath them with no farms and no smoke, only pale stone and twisted scrub stretching toward distant weather.
 
-"You still think Velorum's out there?"
+"You still think Velorum's out there?" Riven asked.
 
 Cael stared toward the horizon. "I think something is."
 
@@ -168,11 +168,11 @@ Neither of them said anything after that.
 
 They camped without a fire. The air smelled metallic. The Seeker shifted upwind without being asked. The smell followed Cael anyway. Small mercy. He didn't comment.
 
-Riven checked their supplies by feel in the dark. One ration bar left besides today's portion. Water for one day if they rationed. The iron bars had rusted through at the corners. He set them aside. Cael felt the inventory cross the bond and didn't ask.
+Riven checked their supplies by feel in the dark. One oatcake left besides today's portion. Water for one day if they rationed. The rest had gone green at the corners. He set them aside. Cael felt the inventory cross the bond and didn't ask.
 
 "If we don't find water tomorrow," Riven said.
 
-"We'll find wrong water."
+"We'll find wrong water," Cael said.
 
 "Christ." Riven almost laughed. "Yeah. Probably."
 
@@ -182,7 +182,7 @@ He saw her hands wrapping a forearm. Steady. Clean. The memory wasn't his. It co
 
 Across the dark, Cael shifted. Neither spoke for a while. Then:
 
-"I'm sorry."
+"I'm sorry," Cael said.
 
 Riven stared at the stars. "For what?"
 
@@ -190,27 +190,27 @@ The answer took time. "For every time I treated your wanting like you betrayed m
 
 Wind moved through the cut. Pebbles clicked somewhere in the dark. Far off, something that might have been an owl cried before its wings moved.
 
-Riven closed his eyes. "You didn't invent the bond."
+Riven closed his eyes. "You didn't invent the bond," Riven said.
 
-"No."
+"No," Cael said.
 
 "But you grabbed hold of it."
 
 Riven opened his mouth. Nothing came out. After a while Cael said, "Yeah."
 
-He wanted to say he'd grabbed hold too. Wanted to say the bond had never offered a loose grip. Wanted to say Lyra had seen the grabbing and left. The bond carried all of it before he chose words. Cael felt the rush. Riven felt Cael's shame at feeling it. The loop again.
+He wanted to say he'd grabbed hold too, that the bond had never offered a loose grip, that Lyra had seen the grabbing and left—and the bond carried all of it before he chose words. Cael felt the rush. Riven felt Cael's shame at feeling it. The loop again.
 
 Silence again. Not comfortable. Not hostile. Just tired.
 
-"If Velorum says there's no cure?"
+"If Velorum says there's no cure?" Riven asked.
 
 Cael rolled onto his back. The stars overhead refused to agree on where they belonged.
 
-"Then we live with it."
+"Then we live with it," Cael said.
 
-"That's not an answer."
+"That's not an answer," Riven said.
 
-"It's tonight's answer."
+"It's tonight's answer," Cael said.
 
 Cael snorted despite himself. "Halverin isn't here."
 
@@ -244,7 +244,7 @@ They passed a stretch where voices carried from nowhere: a clerk calling counts,
 
 "Not real," Cael said.
 
-"Tell my chest that."
+"Tell my chest that," Riven said.
 
 They kept walking. The ring grew. Pale stone. Seams visible even from a distance.
 
@@ -262,7 +262,7 @@ Riven sat on a flat stone outside the Ashring's rim and rewrapped his heel. Bloo
 
 "Tomorrow we find out," Riven said.
 
-"Yeah."
+"Yeah," Cael said.
 
 Two pilgrims passed on the lower track going south—bad shoes, better cloaks, a bundle of shrine ribbons. They saw the faded grooves on Riven's wrist and stopped just out of speaking distance. "Fire's yours," the older one said. "We camp downwind." They didn't ask for water. They didn't share theirs. The younger pilgrim made a sign Riven had seen on Kestrel Gate walls and kept walking until the ridge hid them.
 

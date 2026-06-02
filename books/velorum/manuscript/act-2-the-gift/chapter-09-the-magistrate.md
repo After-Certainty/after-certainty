@@ -8,7 +8,7 @@ Merrow's runner had warned them the night before. The magistrate's clerk didn't 
 
 Riven sighed. "Depends."
 
-"The Lord Magistrate requests your presence."
+"The Lord Magistrate requests your presence," the clerk said.
 
 "Requests," Riven repeated. "That's generous."
 
@@ -18,15 +18,15 @@ Riven looked at the yard, then at the clerk. "Could at least ask if we're hungry
 
 Cael almost agreed. He hadn't eaten since the hay barn. But the city kept pulling at his attention—missing counts, wrong slates, voices stacking where they shouldn't be.
 
-The clerk led them through the inner district. Half the shutters were closed despite the hour. A board outside a warehouse carried three notices marked MISSING, the ink still fresh.
+The clerk led them through the inner district where half the shutters were closed despite the hour and a board outside a warehouse carried three notices marked MISSING, the ink still fresh.
 
-At the next corner, a guard and two bakers were arguing over ration numbers scratched onto a slate. One of the figures had been crossed out and rewritten so many times it looked carved into the board.
+At the next corner, a guard and two bakers argued over ration numbers scratched onto a slate, one figure crossed out and rewritten so many times it looked carved into the board.
 
 "The line already wraps the lane," one baker snapped.
 
-"The numbers are the numbers."
+"The numbers are the numbers," the guard said.
 
-"The numbers are wrong."
+"The numbers are wrong," the baker snapped.
 
 The guard looked exhausted. The baker looked exhausted. Nobody looked surprised. The clerk walked straight through the middle of it. Cael followed. The argument kept going behind them.
 
@@ -58,9 +58,9 @@ Halverin's aide read numbers from a side slate while Halverin talked—patrol ga
 
 "You've been on the roads," Halverin said.
 
-"We have."
+"We have," Cael said.
 
-"What did you see?"
+"What did you see?" Halverin asked.
 
 Cael looked at the map again, then at the notes written in the margins, then back at the roads. "Weak points."
 
@@ -74,9 +74,9 @@ Cael understood that language. Not politics, not prophecy. Load, failure, stress
 
 "You know the type," Halverin said.
 
-"I know what failure looks like."
+"I know what failure looks like," Cael said.
 
-"Good."
+"Good," Halverin said.
 
 Halverin slid a casualty sheet across—patrol names crossed out, dates smeared. "These aren't random. These are load failures." He tapped a bridge pin on the map. "Same as Ashfen. Same as your road."
 
@@ -92,9 +92,9 @@ Halverin ignored him. "It's rare, but not unknown." His finger tapped the map on
 
 Riven laughed—sharp, humorless. "Stabilize."
 
-"Yes."
+"Yes," Halverin said.
 
-"You weren't in our heads on the road."
+"You weren't in our heads on the road," Riven said.
 
 Halverin didn't blink. "No."
 
@@ -138,17 +138,17 @@ TRUST THE SWORN PAIR.
 
 Riven stared at it, then looked at Halverin, then back at the paper. "Jesus Christ."
 
-"I didn't write that one."
+"I didn't write that one," Halverin said.
 
-"That somehow makes it worse."
+"That somehow makes it worse," Riven said.
 
 Halverin almost smiled. Almost. Then he handed Cael a second sheet—names, posts, missing personnel, watch rotations. Cael skimmed it once. The numbers were ugly. Not disaster. Worse. A city running out of margin.
 
 "How many can still hold a line?" he asked.
 
-"Officially?"
+"Officially?" Cael asked.
 
-"Actually."
+"Actually." He wouldn't settle for the court answer.
 
 Halverin rubbed his eyes. "Fifty. Maybe."
 
@@ -254,9 +254,9 @@ When they stepped back into the square, night had settled over the city. Torches
 
 Riven walked half a step ahead. Cael felt Riven's irritation before Riven said a word.
 
-"He talks like somebody trying to keep a city standing."
+"He talks like somebody trying to keep a city standing," Cael said.
 
-"By turning us into posters."
+"By turning us into posters," Riven said.
 
 Cael kept moving. A week ago he would've argued. Now he echoed Halverin. Maybe Halverin echoed him. Riven couldn't decide which possibility he hated more.
 

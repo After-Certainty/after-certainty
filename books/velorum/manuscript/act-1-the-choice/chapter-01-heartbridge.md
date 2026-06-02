@@ -16,7 +16,7 @@ A woman from the smokehouse wanted her order moved ahead of the fish. The boss s
 
 His back complained before he reached the hill path. It would complain louder tomorrow. Just thinking about tomorrow made the ache worse.
 
-By the time he started up the hill above the harbor road, his sleeves smelled like rope tar and herring. The noise of town faded a little with every turn. Down below, wheels knocked over stone. Someone shouted about fresh catch. A dog barked. Somebody else shouted back. A boy in a hat three sizes too big ran past going the wrong direction and didn't look back. Up here there was wind, space, nobody asking him for anything.
+By the time he started up the hill above the harbor road, his sleeves smelled like rope tar and herring and the noise of town faded a little with every turn—wheels knocking over stone below, somebody shouting about fresh catch, a dog barking, a boy in a hat three sizes too big running past the wrong direction without looking back. Up here there was wind, space, nobody asking him for anything.
 
 He climbed the zigzag path with his hands shoved into his pockets and gravel slipping under his boots. Halfway up he passed a pair of pilgrims—older woman, younger man, both in road-stained cloaks—resting on a bench somebody had nailed into the hillside last winter. The bench listed to one side. The man wore a hat with a feather so bedraggled it looked ashamed of itself. The woman counted coins into his palm while he tied a fresh ribbon around his wrist. Riven stepped around them without slowing. His stomach was already thinking about lunch he hadn't earned yet.
 
@@ -24,7 +24,7 @@ At the next bend he glanced back. The wind shifted, and three words drifted up f
 
 Everybody in Greyhaven knew the bond story. Pilgrims climbed the hill in pairs. Riven had stopped counting how many times he'd heard it.
 
-On the lower switchback a woman sat on the broken bench with her boot off, blister blood dark through the wool. Her companion tried to tie a strip of linen and got it wrong twice. Riven stepped around them. Cael didn't offer help. Riven wasn't going to either. Help on Heartbridge always turned into the bond story again.
+On the lower switchback a woman sat on the broken bench with her boot off, blister blood dark through the wool. Her companion tried to tie a strip of linen and got it wrong twice. Riven stepped around them. Help on Heartbridge always turned into the bond story again.
 
 The path leveled out. Heartbridge stood ahead of him, hard to miss even after all these years. Two figures carved from pale stone rose from a broad base overlooking the harbor. They leaned into the same pull, bound together by a single rope carved across both chests and into a knot between their joined hands.
 
@@ -68,9 +68,9 @@ Riven unfolded the pamphlet and read from memory instead. "'Bodies found fused f
 
 Cael looked at the monument. "It still happened."
 
-"Maybe."
+"Maybe," Riven said.
 
-"It did."
+"It did," Cael said.
 
 Riven sighed. "Tell that to the singers."
 
@@ -206,9 +206,9 @@ Bran laughed. Cael pressed a coin into his hand, and the boy vanished down the t
 
 "You going down there?" Riven asked.
 
-"To the square?"
+"To the square?" Cael said.
 
-"To tell Mara we swept."
+"To tell Mara we swept," Riven said.
 
 Cael looked at the monument, then the path. "After."
 
@@ -222,13 +222,13 @@ Far below, somebody cheered again.
 
 "Mara's head hurts when that singer's in the square," Riven said. "Mine too."
 
-"Bad note again?"
+"Bad note again?" Cael asked.
 
 "Always the third one." Riven rubbed his shoulder. "This herring smell is never leaving my coat."
 
-"Wash it."
+"Wash it," Cael said.
 
-"With what? Rain?"
+"With what? Rain?" Riven said.
 
 Cael almost smiled. For a moment he said nothing. Then he touched the chipped base where rain had eaten the stone. "Still two people under the carving."
 
@@ -236,7 +236,7 @@ Riven looked over. "What?"
 
 "Not my point." Cael pulled his hand back. "Forget it."
 
-"Say it."
+"Say it," Riven said.
 
 Cael glanced over. "Say what?"
 
@@ -256,13 +256,13 @@ Riven stared at him. "You're serious."
 
 "Probably."
 
-"And if we get there?"
+"And if we get there?" Riven asked.
 
-"We find out if it's carved rock and market talk."
+"We find out if it's carved rock and market talk," Cael said.
 
 Riven looked at the pamphlet in his hand—the smudged ink, the bodies-fused line he'd read aloud for Cael's benefit and his own disgust. "And if the market talk is all there is?"
 
-"Then we come back and tell Mara she was right to charge extra." Easy to say. The dread that came with it sat in his chest like bad tea—same hill, same counting, same not-knowing forever.
+"Then we come back and tell Mara she was right to charge extra." Easy to say. The dread that came with it settled in Riven's chest—same hill, same counting, same not-knowing forever.
 
 Riven barked out a laugh despite himself. "She'll love that."
 

@@ -20,9 +20,9 @@ Cael set the broom against the wall. "You didn't say no."
 
 "Bran told her we swept. Left out my crack about mothers." He paused. "She said if we're planning something stupid, we pay for our own bread."
 
-"We always pay for our own bread."
+"We always pay for our own bread," Riven said.
 
-"She meant extra."
+"She meant extra," Cael said.
 
 The kitchen door opened and Mara stepped out with her arms folded, flour on one sleeve and the look she wore when she'd already decided you were lying. Heat and steam rolled out with her. Cael straightened without thinking.
 
@@ -54,7 +54,7 @@ Riven watched him for a moment. "You weren't joking," he said. "Up there. About 
 
 "The pamphlet says a lot of things."
 
-Cael hung the rag back on its nail and looked toward the harbor, where the hills were invisible in the dark except where they cut into the stars. Mast lanterns swayed below on the water, a drunk shouted somewhere down in the streets, and the wind carried the smell of smoke and salt.
+Cael hung the rag back on its nail and looked toward the harbor, where the hills were invisible in the dark except where they cut into the stars, mast lanterns swaying below on the water while a drunk shouted somewhere in the streets and the wind carried smoke and salt.
 
 Riven picked up the rope again. "Selk at the harbor board'll say we're idiots."
 
@@ -78,7 +78,7 @@ Riven understood exactly what Cael meant and was annoyed about it. "Then we come
 
 Riven laughed once.
 
-"So the plan is to fix our lives by walking into a ditch."
+"So the plan is to fix our lives by walking into a ditch," Riven said.
 
 "The plan is to walk until we know." Cael set the broom against the wall. "If Ashfen's nothing, we turn around. If it's something, we decide what that means when we're standing in it."
 
@@ -104,9 +104,9 @@ Cael nodded.
 
 "Selk is deaf in one ear."
 
-Cael paused. "If that's all there is?"
+Cael paused. "If that's all there is?" Cael asked.
 
-"What?"
+"What?" Riven said.
 
 "Ashfen." Cael shrugged. "If it's just rock."
 
@@ -120,15 +120,15 @@ Riven picked up the rope and wound it tighter around his forearm. "You make it s
 
 For a moment neither of them spoke. The inn's back door tapped in the wind, the loose hinge opening it a fraction and letting it settle again, over and over. Riven watched it once, then looked away.
 
-"You're not scared," he said.
+"You're not scared," Riven said.
 
-"I'm scared."
+"I'm scared," Cael said.
 
-"You don't look it."
+"You don't look it," Riven said.
 
 Cael rubbed the sore knuckle he'd cracked against stone earlier. "If I start acting scared, Mara keeps us hauling barrels another six months. And you'll talk yourself out of coming."
 
-"That's not an answer."
+"That's not an answer," Riven said.
 
 "It's the one I've got." Cael stepped closer, cold air carrying the smell of soap from the wash bucket. "You asked what comes next. This is next."
 
@@ -142,7 +142,7 @@ Riven barked out a laugh. "Christ."
 
 Cael heard the split in it—Riven hearing *stay alive*, him hearing *don't waste it*—and didn't try to translate.
 
-"That's not fair."
+"That's not fair," Riven said.
 
 "No," Cael said. "It isn't."
 
@@ -150,7 +150,7 @@ Color crept into Riven's face, and for a while he stared at the stones beneath t
 
 "I don't want to be the idiot who followed you because you sounded certain."
 
-"Then don't follow me."
+"Then don't follow me," Cael said.
 
 Riven looked up. "What?"
 
@@ -162,7 +162,7 @@ Riven worried at a loose thread on his sleeve. The hinge tapped again. Somewhere
 
 "Yes."
 
-"With a bad knee. With no iron. With Mara screaming at you from the step." Riven's thumb found the pamphlet in his pocket—the soft creases, the smudged ink. He didn't take it out. "You wouldn't wait for me to catch up."
+"With a bad knee. With no oatcakes. With Mara screaming at you from the step." Riven's thumb found the pamphlet in his pocket—the soft creases, the smudged ink. He didn't take it out. "You wouldn't wait for me to catch up."
 
 Cael was quiet.
 
@@ -182,7 +182,7 @@ Riven stared past him toward the harbor. "If we leave, Mara puts another name on
 
 "She will." Cael's voice stayed level. "And if we don't come back, she keeps the loft empty a long time before she scrubs it."
 
-The question sat in Riven's throat for a moment before he asked it. "And if we die out there like the song says? Ribs and all that miserable poetry?"
+The question stuck in Riven's throat for a moment before he asked it. "And if we die out there like the song says? Ribs and all that miserable poetry?"
 
 Cael looked north. The joke arrived a beat late. "Then Mara charges somebody for the bread."
 
@@ -192,9 +192,9 @@ Cael picked up the broom again, mostly because his hands wanted something to do.
 
 That finally got Riven to stop arguing.
 
-Riven picked up the rope and tested the coil. "We need iron. And another skin if we're rationing."
+Riven picked up the rope and tested the coil. "We need oatcakes. And another skin if we're rationing."
 
-"We've got iron."
+"We've got oatcakes."
 
 "For two days. Not five." Riven set the rope down. "Market opens at dawn. We buy before the bell or we eat mud."
 
@@ -214,7 +214,7 @@ A few minutes later they were sitting on the stone step with a piece of chalk be
 
 "And food?"
 
-"Three days bread. Iron if we're stupid." He added a small square near the fork. "There's a marker with cloth. People leave word there sometimes—water low, trail washed. We check."
+"Three days bread. Oatcakes if we're stupid." He added a small square near the fork. "There's a marker with cloth. People leave word there sometimes—water low, trail washed. We check."
 
 "Camp in the hollow," Riven said. "Named after your planning skills."
 
@@ -326,7 +326,7 @@ Inside, Mara's counting stopped, a door shut, and the inn settled into its night
 
 Cael checked the latch on the gate out of habit more than necessity, the metal cold against his palm. Across the yard, Riven still sat on the step with the blanket under one arm and the rope over his shoulder, looking toward the hills or where they ought to be—in the dark, only a black line against the clouds.
 
-Cael crossed the yard once more with the broom. Mara was right—the grit had gathered again near the drain. He swept it anyway, slow strokes, hands busy while his mind ran the list: knife, skins, bread, iron, blanket, coat argument, dawn bell.
+Cael crossed the yard once more with the broom. Mara was right—the grit had gathered again near the drain. He swept it anyway, slow strokes, hands busy while his mind ran the list: knife, skins, bread, oatcakes, blanket, coat argument, dawn bell.
 
 Under the list, quieter: what if Ashfen was just another hill with a story on it.
 
@@ -354,13 +354,13 @@ Mara's counting resumed. Cael took the loft ladder two rungs at a time, boots st
 
 "Me too." Cael lay down on his side, coat still on. "Sleep anyway."
 
-Riven was quiet long enough that Cael thought he'd won. Then: "If we die out there, Mara scrubs both our names the same day."
+Riven was quiet long enough that Cael thought he'd won. Then: "If we die out there, Mara scrubs both our names the same day," Riven said.
 
-"Probably."
+"Probably," Cael said.
 
 "That's comforting."
 
-"I wasn't trying to be."
+"I wasn't trying to be," Cael said.
 
 "Last time I snored in the loft, Bran threw a boot at me." Riven's voice went flat. "Missed. Hit the chamber pot."
 
@@ -370,14 +370,14 @@ Cael almost laughed. "That explains the smell."
 
 "She already knows." Cael shifted on the blanket. "You snore like a sawmill."
 
-"I do not."
+"I do not," Riven said.
 
-"You do when you've been drinking."
+"You do when you've been drinking," Cael said.
 
 "I haven't been drinking."
 
 "Then you're snoring for sport." Cael stared at the rafters. "Bran's boot was fair."
 
-"Bran can eat shit."
+"Bran can eat shit," Riven muttered.
 
 The rafters creaked. Somewhere below, Mara bolted the kitchen door. Cael stared at the dark until his eyes burned, then closed them. Tomorrow the north road. Tomorrow the first real step—the one that could prove he'd still been counting wrong in Greyhaven all along. He listened for Riven's breathing to slow. It didn't, not for a long time. Neither did his.

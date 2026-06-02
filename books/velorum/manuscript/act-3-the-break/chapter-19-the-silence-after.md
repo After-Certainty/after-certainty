@@ -18,7 +18,7 @@ Near the magistrate steps two clerks from Halverin's office whispered over a fre
 
 A cooper's nephew with rope burns sold three red-painted charms from his apron pocket before Merrow's runner confiscated the tray. "Souvenir," the boy said. "Not medicine." Merrow's runner wrote *confiscated—file compensation* on a stub and handed it to the uncle, who looked like he might hit someone and did not.
 
-The dry basin was still. Splinters from the frame lay near the center. Chalk marks smeared where boots had panicked. Dust hung in the air in a pattern that did not match wind.
+The dry basin was still, splinters from the frame scattered near the center where chalk marks smeared under panicked boots and dust hung in the air in a pattern that did not match wind.
 
 People paused at the rope line that was no longer a line, looked at the platform, looked away. No one approached Halverin. You could see him. You did not have to listen.
 
@@ -94,7 +94,7 @@ Cael opened his mouth. Closed it. The honest answer was no. The honest answer wa
 
 "I think Halverin can't," Cael said.
 
-"That's not what I fucking asked."
+"That's not what I fucking asked," Riven said.
 
 "I know." Lyra released Riven's wrist. "South tent's full. Take water. Don't sign anything tonight."
 
@@ -120,11 +120,11 @@ The square noise through the shutter was not hammering anymore. It was argument�
 
 Riven lay on the other cot with one arm over his eyes. "Say it," he said.
 
-"Say what."
+"Say what," Cael said.
 
 "What you believe now." Cael stared at the ceiling beam—cracks, old smoke stain, a nail that had worked loose. "I believe we failed in public," he said. "I believe people saw it. I believe Halverin's path is broken." He stopped. "I believed if I carried enough load I could keep the next person from dying in the crush. That was wrong too."
 
-"And us?"
+"And us?" Riven said.
 
 Cael swallowed. "I don't know what we are. I know I'm not a wall. Neither are you."
 
@@ -136,7 +136,7 @@ Not Halverin. Not the square. The distance between them in a room they had share
 
 Riven sat up and laced his boots without looking at Cael. "I can't lie here and listen to you think."
 
-"Riven—"
+"Riven—" Cael said.
 
 "I'm not running. I'm getting air." He paused at the door. "Don't follow me to be noble."
 
@@ -334,11 +334,11 @@ The women were already arguing. Riven caught fragments on the lift—*Velorum ch
 
 "You feel him up there," the nephew said. Not accusation. Fact.
 
-"Yeah."
+"Yeah," Riven said.
 
 "Is that always?"
 
-"Today it is."
+"Today it is," Riven said.
 
 The boy spat in the sawdust. "My uncle held the berm with you. He says real timber doesn't lie. He says the square lied because everyone was watching."
 

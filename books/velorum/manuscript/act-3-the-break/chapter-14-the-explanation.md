@@ -2,7 +2,7 @@
 
 The command hall at Kestrel Gate still smelled like wet ash two days after the attack. Smoke had worked into the mortar and the wool hangings and the backs of the chairs where officers slept in shifts. Cael stood at the long table with his sleeves rolled to the elbow and a stack of casualty reports under one hand. His knuckles were stained with ink and lime from the infirmary walk-through he had done at dawn.
 
-Outside, hammering started and stopped. Someone shouted for rope. Someone else answered with a count that did not match. A cooper's crew stacked staging timber in the yard while Halverin's clerk tried to attach a sequence tally to Merrow's compensation stub. Merrow's runner took the stub back. "Wrong column. File after the square."
+Outside, hammering started and stopped while someone shouted for rope and someone else answered with a count that did not match, a cooper's crew stacking staging timber in the yard as Halverin's clerk tried to attach a sequence tally to Merrow's compensation stub. Merrow's runner took the stub back. "Wrong column. File after the square."
 
 Merrow had left a slate on the table edge: patrol sectors, ration tallies, names still missing from the riverside entrance. Cael read the list twice because reading was something his hands could do while the rest of him tried not to replay the daughter's breath in his palms.
 
@@ -82,13 +82,13 @@ Cael stacked the reports and squared the corners until the edges lined up. "I be
 
 "Work," Cael said.
 
-"Same fucking thing in his mouth."
+"Same fucking thing in his mouth," Riven said.
 
 Riven pushed away from the wall. "I'm going to the infirmary annex. Don't put my name on anything until I read it."
 
 "Halverin already has your name on the broadside."
 
-"Then tear it off."
+"Then tear it off," Riven said.
 
 He was gone before Cael could answer. Through the bond Cael got the stair impact, lime smell, and the spike of wanting Lyra's room without wanting Halverin's story in the same breath. Cael stood alone with the reports and the hammering outside.
 
@@ -138,7 +138,7 @@ At midday Merrow found him at the stairs and did not comment on why he was stand
 
 "He'll keep asking," Merrow said.
 
-"I know."
+"I know," Cael said.
 
 "Don't promise him closure you can't deliver."
 

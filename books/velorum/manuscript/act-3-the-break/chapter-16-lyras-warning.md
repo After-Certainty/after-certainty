@@ -14,7 +14,7 @@ He sat. His hands would not stay still on his knees. Through the bond he felt Ca
 
 Lyra set a cup of bitter tea in front of him. "Drink. You're shaking."
 
-"I'm not shaking."
+"I'm not shaking," Riven said.
 
 "You are." She pulled the stool closer. Her hands were steady—that steadiness was not performance; it was practice, the same way Cael practiced counts. Riven envied it and hated that Cael's envy came through the bond on top of his own. Her fingers were nicked from work and clean anyway. She checked the jar labels without looking at him—salve, thread, strip knife, charcoal for slates. "Square's short two cots. Merrow borrowed one. Halverin borrowed the other for show."
 
@@ -54,7 +54,7 @@ Riven looked down at the tea. The surface shook when he breathed. "Halverin says
 
 "Halverin needs a story that keeps him standing." Lyra's voice did not rise. "You don't have to wear it."
 
-"Cael will."
+"Cael will," Riven said.
 
 "I know." She reached across and turned his bandaged forearm palm up, not to treat it, just to make him look at something real. The cloth was fresh. The bruise under it was not. "That's why I'm talking to you and not to him right now."
 
@@ -76,23 +76,23 @@ She waited. The annex was quiet except for cloth rustling and the distant square
 
 "I think you chose the road to Velorum," Lyra said. "I think the bond chose the rest. Halverin won't say that. It doesn't keep him on the platform."
 
-"And Cael?"
+"And Cael?" Riven said.
 
 "Cael chose purpose," she said. "Purpose is easier to wear in public than want."
 
 Heat moved up Riven's neck. He had not said Lyra's name in the sentence. He did not need to.
 
-She did not flinch. "There it is."
+She did not flinch. "There it is," Lyra said.
 
 "I didn't—"
 
-"You did. Through the bond. Through your face." She leaned back. "I'm not angry at you for wanting. I'm telling you the wanting can't stay yours. That's loss—not refinement."
+Lyra leaned back. "You did. Through the bond. Through your face." "I'm not angry at you for wanting. I'm telling you the wanting can't stay yours. That's loss—not refinement."
 
 Riven's hands closed on the cup. "Cael feels it."
 
-"Yes."
+"Yes," Riven said.
 
-"And you knew before I said it."
+"And you knew before I said it," Lyra said.
 
 "I know what the bond does to rooms," Lyra said. "I know what it did in here when I stitched your arm. I know what it'll do in the square when a thousand people watch you pretend you're one body."
 
@@ -110,7 +110,7 @@ Riven heard Halverin's voice from the magistrate office again—*Alignment. Path
 
 "I want you to stop pretending the square won't cost skin," Lyra said. "If it breaks, let them see the splinters. Not the poster."
 
-He wanted to argue. He wanted a plan with chalk marks and counts. He wanted Cael to walk in and say they could hold the line if they just tried harder. Cael did not walk in. Cael stayed in the corridor and fed the bond with fear Cael was trying to nail down with numbers.
+He wanted to argue, wanted a plan with chalk marks and counts, wanted Cael to walk in and say they could hold the line if they just tried harder—and Cael did not walk in. Cael stayed in the corridor and fed the bond with fear Cael was trying to nail down with numbers.
 
 Riven paced the small room once. The bond pulled with every step. Cael's heartbeat. Cael's rehearsed words from the broadside rules. *No rushing the line.* As if lines were the problem.
 
@@ -118,7 +118,7 @@ Riven paced the small room once. The bond pulled with every step. Cael's heartbe
 
 "Halverin will call it whatever keeps him on the platform," Lyra said. "You don't have to make his story true."
 
-"He has the city."
+"He has the city," Riven said.
 
 "For today," she said. "Cities break too."
 
@@ -132,9 +132,9 @@ Riven stared at the bandage. "He was trying."
 
 "Trying isn't the same as succeeding." Lyra set the pot down. She picked up the needle roll and held it like a prop, not a threat. "Hold still. Show me your other arm."
 
-"My arm's fine."
+"My arm's fine," Riven said.
 
-"Show me anyway."
+"Show me anyway," Lyra said.
 
 He rolled his sleeve. The stitch line from the attack was pink and tight. Lyra pressed two fingers along the ridge—not treatment, test. "Still hot. You should've come yesterday."
 
@@ -202,9 +202,9 @@ She washed her hands though they were already clean. His knees protested when he
 
 He left before the bond could carry that sentence to Cael whole.
 
-In the corridor Cael stood with his back to the plaster wall, broadside rules sheet crinkling in his fist, half in the stairwell draft. He did not look at Riven. "She told you."
+In the corridor Cael stood with his back to the plaster wall, broadside rules sheet crinkling in his fist, half in the stairwell draft. He did not look at Riven. "She told you," Cael said.
 
-"Yeah."
+"Yeah," Riven said.
 
 "Don't say it in front of me."
 

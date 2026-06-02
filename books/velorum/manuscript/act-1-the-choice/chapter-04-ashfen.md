@@ -12,13 +12,13 @@ Riven was already awake, blanket around his shoulders, staring at the dead fire 
 
 Riven nodded.
 
-Cael broke the last iron bar in half. Riven took his portion without comment—they'd been splitting wrong since the hollow and neither had said so until yesterday, when Riven counted the wraps and found one missing. Accusation. Denial. Then silence. Hunger made honesty expensive.
+Cael broke the last oatcake in half. Riven took his portion without comment—they'd been splitting wrong since the hollow and neither had said so until yesterday, when Riven counted the wraps and found one missing. Accusation. Denial. Then silence. Hunger made honesty expensive.
 
 The water skin was lighter than it should have been. Cael shook it. "How much did we drink last night?"
 
 "Enough." Riven wiped crumbs from his coat. "You filled it at the runoff."
 
-"I thought you filled it."
+"I thought you filled it," Cael said.
 
 They looked at each other. Cael capped the skin anyway. Thirst was still thirst. Mistakes were still mistakes.
 
@@ -38,9 +38,9 @@ Cael took the lead at a pace he could hold all day. Gravel shifted under his boo
 
 The first hour was every step arguing with the mountain. Cael's thighs burned by the second switchback. Riven's breathing came harder than it should have for the grade. Neither mentioned it.
 
-"Don't rush the loose stuff."
+"Don't rush the loose stuff," Cael said.
 
-"I'm not."
+"I'm not," Riven said.
 
 "You are."
 
@@ -66,13 +66,13 @@ Riven's stomach turned. He looked away. "How long?"
 
 "Days." Cael didn't stop walking. "Don't touch the packs. Could be bait."
 
-"Bait for what?"
+"Bait for what?" Riven asked.
 
 "Whatever lives up here when the pilgrims don't." Cael kept his pace steady. "We keep moving."
 
 Riven slowed anyway. "Shouldn't we—"
 
-"No."
+"No," Cael said.
 
 "—check the pack. For a name. Something."
 
@@ -106,7 +106,7 @@ Riven frowned. "Yeah."
 
 They kept walking.
 
-The cut opened onto a slope of scree that moved under every step. Cael shortened his stride. Riven copied him without being told—then hated that he'd copied without being told.
+The cut opened onto a slope of scree that moved under every step; Cael shortened his stride and Riven copied him without being told—then hated that he'd copied without being told.
 
 "You want the inside edge," Cael said.
 
@@ -132,13 +132,13 @@ Riven's face had gone pale, too pale. "Yeah." The answer came fast, too fast.
 
 He swallowed. "For a second it felt like I missed a step."
 
-"So?"
+"So?" Cael asked.
 
 Riven looked away. "On a dock."
 
-The same drop hit Cael's stomach a heartbeat later: the sudden empty feeling, the lurch, somebody else's balance arriving in the wrong body. He hated it immediately.
+The same drop hit Cael's stomach a heartbeat later—the lurch, the empty feeling, like he'd missed a step on a dock in Riven's body. He hated it immediately.
 
-"We're tired."
+"We're tired," Cael said.
 
 Riven gave him a look. "That's your explanation?"
 
@@ -188,7 +188,7 @@ Riven watched the ripples and thought about how wrong the morning had felt—not
 
 "Don't," Cael said.
 
-"Don't what?"
+"Don't what?" Riven asked.
 
 Cael looked back at the water. The ripples were gone now. Everything looked normal. "Don't start telling me the pamphlets were right."
 
@@ -196,9 +196,9 @@ Riven barked out a laugh, tired and uneasy. "I'm not the one taking this persona
 
 Cael filled the water skin anyway. Whatever was wrong with Ashfen, thirst was still thirst. He took a drink. The water tasted faintly metallic. He capped the skin and stood. Neither mentioned it. They both noticed.
 
-Riven wiped his mouth with his sleeve. "Boot prints at the runoff were fresher than you said."
+Riven wiped his mouth with his sleeve. "Boot prints at the runoff were fresher than you said," Riven said.
 
-"Yeah."
+"Yeah," Cael said.
 
 "So somebody's ahead of us."
 
@@ -208,7 +208,7 @@ Riven looked at the seep, the slow ripples, the wrong stillness. "No."
 
 "We keep going," Cael said.
 
-"Cael."
+"Cael," Riven said.
 
 "We keep going."
 
@@ -216,7 +216,7 @@ Riven stopped walking. "Just say it."
 
 Cael turned. "Say what?"
 
-"That something's wrong."
+"That something's wrong," Riven said.
 
 Wind hissed across the rock. The seep sat below them, water gathering in the hollow. Cael looked at it, the slow ripples, the strange stillness, then back at Riven.
 
@@ -224,7 +224,7 @@ Wind hissed across the rock. The seep sat below them, water gathering in the hol
 
 Riven let out a breath, not relief, close enough. "Thank you."
 
-Cael felt the thanks land wrong in his own chest—not embarrassment, relief. Saying the truth out loud had mattered to Riven. That was almost enough to make the climb feel like it was going somewhere.
+Cael felt relief in his chest before embarrassment could catch up. Saying the truth out loud had mattered to Riven. That was almost enough to make the climb feel worth the blisters.
 
 "I didn't say I know what it is."
 
@@ -254,19 +254,19 @@ Once, Cael's boot found a hold that wasn't there yet—Riven felt the empty air 
 
 By afternoon sleet was falling, not enough to be snow, not enough to be rain, just cold needles finding every gap in their coats. The trail widened onto a shelf of bare stone. For the first time all day there was room to breathe.
 
-Ice collected on Riven's lashes. He scraped it off with a thumb that had gone numb. Cael's coat was darker where the sleet stuck, shoulders squared against weather the way they always were—as if posture could hold back a mountain.
+Ice collected on Riven's lashes. He scraped it off with a thumb that had gone numb. Cael's coat was darker where the sleet stuck, shoulders squared against the weather like that could hold back a mountain.
 
 Cael stopped. Checked the route ahead. Checked the weather. Checked Riven.
 
-The route ahead was a lie on the map in Cael's head—switchbacks that looked short and weren't, a ridge that looked close and wasn't. He'd been wrong about time all day. Wrong about water. Wrong about the seep's taste. Being wrong on a mountain wasn't learning. It was a joint taking load it wasn't cut for.
+The route ahead was a lie on the map in Cael's head—switchbacks that looked short and weren't, a ridge that looked close and wasn't. He'd been wrong about time all day. Wrong about water. Wrong about the seep's taste. Being wrong on a mountain wasn't learning. It was wearing out a part of you that didn't grow back on the walk down.
 
-Riven noticed. "Don't."
+Riven noticed. "Don't," he said.
 
-"You need a break."
+"You need a break," Cael said.
 
-"I'm tired. Not dying."
+"I'm tired. Not dying," Riven said.
 
-"Good. Then sit down."
+"Good. Then sit down," Cael said.
 
 Riven rolled his eyes but dropped onto a low pile of stones anyway. His bladder had been complaining since the seep. Cael sat beside him and split the last of the bread with his knife. Neither spoke while they chewed. The wind did enough talking for everyone.
 
@@ -292,11 +292,11 @@ Cael looked out across the slope. A gust moved through the pines below. The bran
 
 Riven nodded once. "Okay." The answer cost him something.
 
-"Okay doesn't help."
+"Okay doesn't help," Cael said.
 
 "I know." Riven flexed his fingers inside his gloves. The numbness had come back. "My pack strap's digging. Feels like yours."
 
-"It is mine."
+"It is mine," Cael said.
 
 "That's what I mean." Riven looked at him. "I can feel where yours bites."
 
@@ -316,7 +316,7 @@ Riven followed his gaze. "Close to what?"
 
 "Yeah."
 
-Riven checked his own pack without opening it—bread count, iron wrap, rope coil. The same inventory he'd run at Mara's gate. Last heel gone at breakfast. Strap bleeding through wool where the seep stop had rubbed wrong. "If the bowl's nothing, we turn around before dark."
+Riven checked his own pack without opening it—bread count, oatcake wrap, rope coil. The same inventory he'd run at Mara's gate. Last heel gone at breakfast. Strap bleeding through wool where the seep stop had rubbed wrong. "If the bowl's nothing, we turn around before dark."
 
 "If it's something, we decide when we're standing in it." Cael stood. "Same as the yard."
 
@@ -344,13 +344,13 @@ Cael spat into the sleet. The metallic taste still sat on his tongue. "It could 
 
 "No."
 
-Riven pulled the pamphlet from his coat—creased soft, ink smudged at the bond diagram. "Says there's a keeper's hut. Says there's a well." He held it up. Sleet dotted the page. "See any hut?"
+Riven pulled the pamphlet from his coat—creased soft, ink smudged at the bond diagram. The woodcut had the ring and a rope in the cut—the step pilgrims were supposed to copy. "Says there's a keeper's hut. Says there's a well." He held it up. Sleet dotted the page. "See any hut?"
 
 "No."
 
-"See any well?"
+"See any well?" Riven asked.
 
-"No."
+"No," Cael said.
 
 Riven shoved the pamphlet back. "Good. At least the lying is consistent."
 
@@ -414,7 +414,7 @@ Cael met his eyes. "I know."
 
 Together they stepped forward. Pressure settled beneath Cael's ribs before the second boot came down. His breath shortened. Metal flooded the back of his tongue.
 
-The second ring. The third. Cael counted without meaning to. Riven's count ran beside his—not matching, not wrong, just there. Heat climbed through their boots. The center stayed empty. That was worse than a face.
+The second ring. The third. Cael counted without meaning to. Riven's count ran beside his—not matching, not wrong, just there. Heat climbed through their boots. The center stayed empty. That was worse than seeing something look back.
 
 On the fourth ring Riven's knee buckled. Cael caught weight that wasn't his. They didn't fall. Falling would have meant letting go.
 

@@ -24,7 +24,7 @@ They worked in silence long enough for the cooper's nephew to leave for water. T
 
 "People think a lot of things." Cael stacked timber on the wrong beat. Both winced. "Some of them think Halverin failed the city. Some think the city failed itself."
 
-"Which do you think?"
+"Which do you think?" Riven said.
 
 Cael was quiet while a debris wagon rolled past. "I think we failed in public and the city saw it," he said. "I think that's different from failing the city. I think Halverin wanted those to be the same sentence."
 
@@ -32,7 +32,7 @@ Riven looked at him. "You understand me."
 
 "I understand you," Cael said. "I still signed his slate."
 
-"I know."
+"I know," Riven said.
 
 "I'd sign Merrow's slate again."
 
@@ -138,7 +138,7 @@ That stopped him. "What?"
 
 She glanced at the corridor where Cael's presence pressed on the bond. "He's listening," she said.
 
-"I know."
+"I know," Riven said.
 
 "Then listen back," she said. "Not to me. To what happens when you split again. I won't be the wedge."
 
@@ -146,11 +146,11 @@ Riven stood. The stool scraped. "So you leave because we're broken."
 
 "I leave because staying would be a lie," she said. "I'd stand next to you bleeding in two directions and call it love. I won't."
 
-He wanted to argue. He wanted to grab her wrist and prove he could hold one feeling in one body if he tried hard enough. The bond answered with Cael's spike of jealousy and shame before Riven's hand moved. Lyra saw it. "There."
+He wanted to argue, wanted to grab her wrist and prove he could hold one feeling in one body if he tried hard enough—and the bond answered with Cael's spike of jealousy and shame before Riven's hand moved. Lyra saw it. "There."
 
-"I'm not—"
+"I'm not—" Riven said.
 
-"You are." Not cruel. Tired. "Every time you reach for me, he feels it. Every time he clamps down, you feel it. I won't be the reason you split again."
+Lyra's voice stayed tired, not cruel. "You are." "Every time you reach for me, he feels it. Every time he clamps down, you feel it. I won't be the reason you split again."
 
 Riven's hands hung at his sides. "What am I supposed to do with that?"
 
@@ -182,7 +182,7 @@ Cael looked at Riven. Riven looked back. The bond carried everything neither of 
 
 "I'm not asking you to stay," Cael said to Lyra.
 
-"I know."
+"I know," Lyra said.
 
 "If you need escort to the gate—"
 
@@ -218,13 +218,13 @@ Cael did not speak for a long time. Then: "I'm sorry."
 
 "Don't," Riven said. "Don't make it about your fucking sorry."
 
-"What do you want."
+"What do you want," Cael said.
 
 Riven looked at the stool Lyra had pushed toward him. At the basin with pink water. At the bandage scraps on the table. "I want one feeling that doesn't travel," he said.
 
 Cael's face tightened. "I can't give you that."
 
-"I know."
+"I know," Riven said.
 
 "She's not rejecting you," Cael said. "She said that."
 

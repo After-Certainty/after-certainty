@@ -8,7 +8,7 @@ At the outer clinic a boy from the rope crew was already waiting with a wrapped 
 
 A tinker on the Kestrel Gate road had sold her a folded sheet with a woodcut copy of the new monument. The faces were younger than the men she knew and the rope between them looked like decoration. She had used the sheet to wrap needles and thrown the woodcut part in a ditch outside town. It felt like the only honest edit she could make.
 
-Heartbridge hill wore a second monument now, fresh granite, two figures with a rope between them, faces smoothed into heroism. Someone had laid wreaths. Someone had carved *VELORUM HOLDS* at the base like a civic prayer. The letters were too deep, cut for weather that would outlast the men they described.
+Heartbridge hill wore a second monument now—fresh granite, two figures with a rope between them, faces smoothed into heroism—where someone had laid wreaths and carved *VELORUM HOLDS* at the base like a civic prayer, the letters too deep, cut for weather that would outlast the men they described.
 
 When pilgrims sang, the sound reached her before their mouths opened—wrong order, like the hill still remembered Ashring. Lyra stopped trying to pair lips with notes and listened to the lag instead.
 
@@ -54,7 +54,7 @@ A chapbook printer's boy thrust a wet broadside between them—*THE TOWN HELD*�
 
 "Yeah," Riven said.
 
-"Both of you?"
+"Both of you?" Lyra asked.
 
 "Always," Cael said. "Different spots. Same load."
 
@@ -62,7 +62,7 @@ Lyra nodded. She had predicted that. She had also predicted they would survive a
 
 "Yes," Riven said. No poetry.
 
-"All the time?"
+"All the time?" Lyra asked.
 
 "All the time," Cael said.
 
@@ -152,7 +152,7 @@ On the ridge that night she saw Cael and Riven standing at the berm line, silhou
 
 Merrow passed Lyra on the path without stopping. "Clinic stocked?"
 
-"Enough."
+"Enough," Lyra said.
 
 "Good. Send no heroes if they ask." Merrow climbed toward the berm. "Send bandages."
 
@@ -174,6 +174,6 @@ The cooper himself knocked once, not entering. "They still on my floor?"
 
 "Good." A pause. "Tell them the yard stack's half gone. Merrow owes me timber or coin."
 
-"I'll tell Merrow."
+"I'll tell Merrow," she said.
 
 "Do." His boots went away. Lyra wrote *cooper — timber debt* on the shelf edge under *do not ask* and capped the last jar of alcohol.

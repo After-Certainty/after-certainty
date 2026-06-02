@@ -34,7 +34,7 @@ Riven was already on the stone. He grabbed Cael by the forearm because it was th
 
 "I'm not fighting you," Riven said. "I'm fighting the goddamn room."
 
-"Then let it move."
+"Then let it move," Cael said.
 
 They let it move.
 
@@ -46,7 +46,7 @@ His palms burned. Cael's breath hitched in Riven's ribs. The bond stayed loud, b
 
 Halverin kept talking. "Stand. Follow. You are almost—"
 
-Riven wanted to stand. His legs would not. Cael's wouldn't either. They stayed on the stone with the splintered frame between them while the square's noise thinned at the edges into separate arguments he could not afford to track.
+Riven wanted to stand but his legs would not and Cael's wouldn't either, so they stayed on the stone with the splintered frame between them while the square's noise thinned at the edges into separate arguments he could not afford to track.
 
 A merchant Riven did not know shouted, "You said it would hold!"
 
@@ -72,7 +72,7 @@ Lyra reached them first. She did not touch Halverin. She knelt at Riven's side a
 
 "Look at me," she said.
 
-"I'm looking."
+"I'm looking," Riven said.
 
 "Good. Breathe with me. In. Out."
 
@@ -134,13 +134,13 @@ Riven became aware, slowly, of how loud his own feelings were—shame and relief
 
 "Say something stupid," Riven said.
 
-"What."
+"What," Cael said.
 
 "Anything that isn't a count."
 
 Cael was quiet long enough that Lyra looked up from a bandage roll. "The square's still out there," he said finally. "People are still talking."
 
-"About us."
+"About us," Riven said.
 
 "About what they saw." Cael's voice cracked on the last word. "That's not the same thing."
 

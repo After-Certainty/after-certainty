@@ -2,7 +2,7 @@
 
 They didn't reach the walls that night. By the next morning, people were waiting at the mile stones before sunrise—not to ask what happened, to tell them where to go next.
 
-Mist in the ditches, hedges grey with frost. At the first stone—a miller, two traders, a woman with a child asleep against her chest. Nobody looked rested. They kept glancing at the trees like the pair were already part of the patrol roster.
+Mist pooled in the ditches while hedges grey with frost lined the road to the first stone, where a miller, two traders, and a woman with a child asleep against her chest waited. Nobody looked rested. They kept glancing at the trees like the pair were already part of the patrol roster.
 
 "You're the ones from Ashfen," the miller said. Not a question. "Lower road's yours today."
 
@@ -118,11 +118,11 @@ Riven glanced across the fire. Cael heard it too and didn't comment.
 
 When the fire burned low:
 
-"You're leaning into this."
+"You're leaning into this," Riven said.
 
-"Into what?"
+"Into what?" Cael asked.
 
-"Being what they need."
+"Being what they need," Riven said.
 
 Cael rubbed a thumb across his knuckles. "They need towns that don't burn."
 
@@ -134,17 +134,17 @@ Cael looked at the fire. He didn't deny it. That bothered Riven almost as much a
 
 Cael looked over. "That wasn't fish."
 
-"It had scales."
+"It had scales," Riven said.
 
-"That doesn't narrow it down in Greyhaven."
+"That doesn't narrow it down in Greyhaven," Cael said.
 
 "Bran ate it anyway. Mara made us scrub the pot for a week."
 
 Cael almost smiled. "You stole the good blanket that night."
 
-"You checked the loft ladder twice before you slept."
+"You checked the loft ladder twice before you slept," Riven said.
 
-"Somebody had to."
+"Somebody had to," Cael said.
 
 They slept in a hay barn the next night—a miller's offer, rats scratching in the loft above. At second watch a dog barked at the tree line and they both sat up before either heard it with their ears.
 
@@ -172,13 +172,13 @@ The dormitory smelled of wool and boiled turnips. Somebody had chalked *hero row
 
 "You took the good side," Cael said.
 
-"You checked the frame three times."
+"You checked the frame three times," Riven said.
 
-"Somebody has to."
+"Somebody has to," Cael said.
 
-"Bran slept against the wall and farted at the window."
+"Bran slept against the wall and farted at the window," Riven said.
 
-"I'm not Bran."
+"I'm not Bran," Cael said.
 
 "Thank Christ." The mattress squeaked under Riven. "Mara's was worse."
 

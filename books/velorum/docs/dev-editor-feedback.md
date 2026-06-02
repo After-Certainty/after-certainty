@@ -257,7 +257,7 @@ Light narration roughening (coin line, ch5 laugh tag, ch6 opening).
 |--------|--------|
 | Wasting time | Halverin/Mara soup; Bran smokehouse girl; goat stairs; terrible-singer wish |
 | Thematic trim | Ch 1 bridge/pamphlet pivot; Ch 2 hill/pamphlet block; Ch 3 hill argument + runoff spiral |
-| Cael wrong | Path support misread; missed boot prints; iron stall prediction |
+| Cael wrong | Path support misread; missed boot prints; oatcake stall prediction |
 | Compress | Bond exposition; dock-planks repeat; death/song philosophy |
 
 **Editor (2026-05-31):** Act I 9.1/10 · beta-ready · stop over-revising.
@@ -272,7 +272,7 @@ Light narration roughening (coin line, ch5 laugh tag, ch6 opening).
 |-----|--------|
 | Name registry | Halverin → Selk (Act I); Halverin reserved Act II ch. 8+ |
 | Timeline | Removed "all week" / "Tuesday"; bread heel saved for morning |
-| Inventory | Bread/iron counts aligned ch. 3–6; ch. 5 count line split |
+| Inventory | Bread/oatcake counts aligned ch. 3–6; ch. 5 count line split |
 | Bible | **[manuscript-bible.md](./manuscript-bible.md)** — characters, timeline, inventory, bond rules |
 
 **Phase 21** in progress doc.
