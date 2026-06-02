@@ -14,9 +14,9 @@ Two pilgrims were already on the lower slope tying ribbons to a fence post Merro
 
 Riven had eaten nothing since dawn except hard bread and regret. Cael's focus had been a blade all day, sharp enough to cut anyone who asked how they felt. Riven had stopped asking.
 
-Halfway up a pilgrim tried to attach a ribbon to Riven's pack for luck. Riven cut it off without breaking stride. The bond carried Cael's irritation and Riven's shame in the same breath.
+Halfway up a pilgrim tried to attach a ribbon to Riven's pack for luck; Riven cut it off without breaking stride while the bond carried Cael's irritation and Riven's shame in the same breath.
 
-Below, the harbor caught the last light wrong. Pilgrims' tents from the last festival still dotted the lower slope. Someone had left a wreath at the monument base that morning, flowers already brown at the edges.
+Below, the harbor caught the last light wrong, pilgrims' tents from the last festival still dotting the lower slope where someone had left a wreath at the monument base that morning, flowers already brown at the edges.
 
 Bran had brought six men and two women from the rope crew. They stood in a loose ring ten paces back, not close enough to touch, not far enough to pretend they were not watching a pair the town already wrote songs about. One of the women held a coil of line she would not need. Riven felt her fear cross the bond as a twitch in Cael's left hand.
 
@@ -30,7 +30,7 @@ Riven looked at the hill monument, two men carved with a rope between them, hero
 
 "We haven't been," Cael said.
 
-"Lyra—"
+"Lyra—" Riven said.
 
 "Is gone. Not dead. Gone." Cael's jaw tightened. "I feel you miss her. I feel you hate that I feel it. There's no room."
 
@@ -48,11 +48,17 @@ Riven wanted to say he had never asked to be a symbol either. The town had decid
 
 Bran looked at him a beat, then nodded and stepped back into the ring.
 
-"This isn't belief," Riven said. "No," Cael said.
+"This isn't belief," Riven said.
 
-"This isn't Halverin." "No."
+"No," Cael said.
 
-"This is necessity." "Yes."
+"This isn't Halverin," Riven said.
+
+"No."
+
+"This is necessity," Riven said.
+
+"Yes," Cael said.
 
 Riven breathed in. Cael breathed with him on the fourth count, not performance, habit earned in blood at the riverside entrance and in the square when Halverin's voice stopped being god.
 
@@ -156,7 +162,7 @@ After Bran was gone, Riven sat with his back against the monument and let his le
 
 "Yeah." Riven wiped blood from his lip with the back of his hand. "That was better than a speech."
 
-"Don't tell Bran."
+"Don't tell Bran," Cael said.
 
 Riven laughed once, quiet, and felt Cael laugh with him. For a few breaths neither of them carried anything except exhaustion. It didn't last. The bond pulled back tight. But it had happened.
 

@@ -20,6 +20,7 @@ Core chain complete through at least **04-direct-camera-style-pass** and **09-au
 | **06** | [operational-intimacy](./06-operational-intimacy-agent.md) | Tactical/repair beats losing competence texture |
 | **07** | [scene-compression](./07-scene-compression-agent.md) | **Last** — cut toward Act I density (~1,600–2,000/ch) |
 | **08** | [reality](./08-reality-agent.md) → **[post-expansion/02-reality](../post-expansion/02-reality-agent.md)** | Human/institutional/crowd behavior; **post-expansion stack step 2** |
+| **09** | [prose-rhythm-sentence-variety](./09-prose-rhythm-sentence-variety-agent.md) | Observation/emotional ladders; storytelling vs. reporting; branch `velorum/sentence-variety-pass` |
 
 ## Post-expansion workflow *(book-scale)*
 

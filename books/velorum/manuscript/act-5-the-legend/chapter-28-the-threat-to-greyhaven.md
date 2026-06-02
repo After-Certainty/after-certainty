@@ -2,7 +2,7 @@
 
 The berm failed at second bell.
 
-Cael was on the north line when the timber screamed and the retaining wall sloughed into the mill channel. Water jumped its cut and ran toward the lower market where roofs were already patched thin from last winter.
+Cael was on the north line when the timber screamed and the retaining wall sloughed into the mill channel, water jumping its cut and running toward the lower market where roofs were already patched thin from last winter.
 
 He had been stacking support posts since before first light with Riven three paces down the line and Bran running rope crews between them. Merrow had counted the posts wrong at dawn—twelve needed, eight delivered—and the gap had sat in everyone's shoulders all morning. A bridge crew runner had sworn the other four were on the next cart. The cart had not come. Bran had taken from the cooper's yard stack instead and left a note the cooper would find at noon.
 

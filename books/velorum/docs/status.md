@@ -4,7 +4,8 @@
 
 **Published manuscript** — promoted to [`books/velorum/`](../) (May 2026)  
 **Done:** Full manuscript (30 chapters, five acts); dev editor revision Phases 0–48; ending cohesion pass  
-**Next:** Beta readers; export smoke test (DOCX, EPUB, PDF)
+**Next:** Beta readers; export smoke test (DOCX, EPUB, PDF)  
+**Recent:** Sentence variety / prose rhythm pass (`velorum/sentence-variety-pass`) — observation & emotional ladders; net +2 words
 
 ## Location
 

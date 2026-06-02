@@ -2,7 +2,7 @@
 
 First bell rang over a square packed shoulder to shoulder. The sound bounced off stone and came back thin.
 
-Families had camped on the side streets since before dawn. A bread seller moved through the press with a tray on his head, calling prices nobody haggled over. Two boys fought over a good view spot until a guard separated them with a spear shaft, flat side, no blood. A priest at the north rope burned a cheap incense stick that did nothing for the paste smell.
+Families had camped on the side streets since before dawn while a bread seller moved through the press with a tray on his head calling prices nobody haggled over, two boys fought over a good view spot until a guard separated them with a spear shaft flat side and no blood, and a priest at the north rope burned a cheap incense stick that did nothing for the paste smell.
 
 A magistrate aide counted heads at the east rope and wrote the tally on a pocket slate. Cael saw the number and looked away. Numbers would not keep the frame from dipping when fear hit.
 
@@ -144,7 +144,7 @@ Riven looked at him. Cael saw the refusal in Riven's face before he heard it in 
 
 "Not now," Cael said.
 
-"Now is all there is."
+"Now is all there is," Riven said.
 
 Halverin raised the horn again. "Again. From the top. You're not leaving this square until you hold."
 
@@ -156,7 +156,7 @@ He looked at the chalk marks. He looked at Merrow's open wagon. He looked at Hal
 
 "I've been matching you," Riven said.
 
-"Then match harder."
+"Then match harder," Cael said.
 
 Through the bond Riven felt how much Cael meant it—not cruelty, hope dressed as instruction. That was worse. On the Heartbridge path Cael had said *match me* when a cart was listing and meant *trust the weight*. Here he meant *trust Halverin until the weight proves him wrong*. Riven did not know how to say the difference without breaking the next count.
 

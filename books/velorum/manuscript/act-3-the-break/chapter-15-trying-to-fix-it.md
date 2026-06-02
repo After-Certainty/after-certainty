@@ -28,11 +28,11 @@ Merrow studied him, then nodded. "I'll tell the clerks it's your call."
 
 It was the first call that was his in days. Cael felt the small ugly pleasure of it—somebody needed his judgment, not Riven's strength—and filed that under *dangerous* and kept it anyway.
 
-On the first morning a wheelwright refused to move his tool cart from the east rope line until Merrow's guard wrote a compensation stub. The wheelwright read the stub twice, moved the cart, and spat in the sawdust. Cael watched from the staging platform and felt Riven's contempt cross the bond before he had even seen Riven's face.
+On the first morning a wheelwright refused to move his tool cart from the east rope line until Merrow's guard wrote a compensation stub; the wheelwright read the stub twice, moved the cart, and spat in the sawdust while Cael watched from the staging platform and felt Riven's contempt cross the bond before he had even seen Riven's face.
 
-A cooper's crew stacked staging timber by the basin while Halverin's engineer marked sightlines. The nephew with rope burns carried boards without looking at the platform. Merrow's clerk filed a compensation stub for the spice seller whose table legs still sat in the south lane—*demonstration clearing, pending review*—while Halverin's clerk tried to attach the same stub to a sequence tally. Merrow's runner took the stub back.
+A cooper's crew stacked staging timber by the basin while Halverin's engineer marked sightlines, the nephew with rope burns carrying boards without looking at the platform, Merrow's clerk filing a compensation stub for the spice seller whose table legs still sat in the south lane—*demonstration clearing, pending review*—while Halverin's clerk tried to attach the same stub to a sequence tally until Merrow's runner took the stub back.
 
-By second bell that same day paste crews had hung three broadsides with their names centered in bold. Riven refused to read any of them. Cael read the crowd rules once from the steps and hated how steady his voice sounded.
+By second bell that same day paste crews had hung three broadsides with their names centered in bold; Riven refused to read any of them while Cael read the crowd rules once from the steps and hated how steady his voice sounded.
 
 Halverin's plan was staged stress, controlled movement, public proof the bond could hold under command. East steps in. Halverin on the platform. Guards at the margins. Broadsides telling the crowd what to see before their eyes disagreed.
 
@@ -150,17 +150,17 @@ He signed the staging slate anyway. Riven watched him sign. "You still think thi
 
 Cael capped the ink. "I think we owe the dead a better next minute than we gave them at the stairs."
 
-"That's not the same thing."
+"That's not the same thing," Riven said.
 
 "No," Cael said. "It's what I can do tonight." He told himself Riven would understand once the square held—or once it broke honestly. Riven had always come around on the road when the load was real.
 
 They walked the square perimeter after Halverin left. Chalk marks had smeared pale from foot traffic; bracket hooks clinked on the magistrate wall as crews finished hanging rigging. Paste smell. Fresh rope. A boy practicing the chalk arrows like a game while his mother shouted at him to come home.
 
-Riven stopped under one of the broadsides. "If we fail tomorrow, it's not just us."
+Riven stopped under one of the broadsides. "If we fail tomorrow, it's not just us," Riven said.
 
 "I know," Cael said.
 
-"Do you?" Cael looked at the empty fountain basin, at the supports, at the platform where Halverin would stand and call them through the counts. He felt the bond pull tight between them, not in rhythm but in warning. "I know," he said again.
+"Do you?" Riven asked. Cael looked at the empty fountain basin, at the supports, at the platform where Halverin would stand and call them through the counts. He felt the bond pull tight between them, not in rhythm but in warning. "I know," he said again.
 
 He did not say he was afraid. The bond carried it anyway. Riven felt it and did not mock him for it. That was worse than mockery.
 

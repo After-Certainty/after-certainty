@@ -6,9 +6,7 @@ Ration lines were shorter than yesterday. Normal enough that Cael had started to
 
 Merrow's runner passed below with a slate—*east barracks quiet, riverside entrance clear.* Cael initialed it and kept watching the grain carts.
 
-Then the first blast hit the grain quarter.
-
-Not fire first. Pressure. Sacks of grain blew apart into dust. Two men came off a loading platform and hit the cobbles. Three breaths later smoke rolled up and people started screaming. Signal lanterns flashed once, then the plume swallowed them.
+Then the first blast hit the grain quarter—not fire first but pressure, sacks of grain blowing apart into dust, two men coming off a loading platform and hitting the cobbles before smoke rolled up three breaths later and people started screaming while signal lanterns flashed once and the plume swallowed them.
 
 "South gate shut!" Captain Merrow shouted from the tower stairs. "Keep the lane clear!"
 

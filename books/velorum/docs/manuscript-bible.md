@@ -43,7 +43,7 @@
 - **Age:** mid-20s
 - **Work:** maintenance/builder instincts; sweeps Mara's yard
 - **Physical:** tall, dark coat, short hair; bad knee (mentioned ch. 2); sore knuckle from monument
-- **Voice:** literal answers; planner; wrong sometimes (path read, iron stall, print count, seep timing)
+- **Voice:** literal answers; planner; wrong sometimes (path read, oatcake stall, print count, seep timing)
 - **Cognitive style:** systems, load, timing — mule scene is the template
 - **Core want (Acts I–III):** prove the curse can *mean* something — purpose, not freedom (Riven) or protection (Lyra)
 - **Arc filter:** learning that meaning cannot justify suffering; Halverin tempts meaning, not greed
@@ -69,7 +69,7 @@
 |------|----------|
 | **Selk** | Harbor-board clerk; posts north hiring/liability notices; deaf in one ear; opinions on square singer |
 | **Bran** | Mara’s boy; oversized boots; coin messenger; snores-target with chamber pot story |
-| **North gate guard** | Day watch; taps iron; warns about fork/scree (not named) |
+| **North gate guard** | Day watch; taps oatcake bundle; warns about fork/scree (not named) |
 | **Dock boss** | Fish quay; counts crates wrong (ch. 1 only) |
 
 ---
@@ -105,21 +105,21 @@
 
 ### Departure (ch. 3 market)
 - **Bread:** 3 loaves (2 wrapped + 1 small road loaf)
-- **Iron:** bars from third stall (+ half bar after Riven catches light weight)
+- **Oatcakes:** slabs from third stall (+ half oatcake after Riven catches light weight)
 - **Water:** 2 skins (1 full + 1 half → Mara fills second)
 - **Other:** rope, blanket, knife, cord, pamphlet (Riven), tools (Cael's pack)
 
 ### Consumption tracking
-| Point | Bread | Iron | Water |
-|-------|-------|------|-------|
+| Point | Bread | Oatcakes | Water |
+|-------|-------|----------|-------|
 | Ch. 3 lunch | cheese + bread | — | drinking |
 | Ch. 3 camp | heel saved for morning | — | checked |
-| Ch. 4 breakfast | last heel | last bar split in half | confusion who filled skin |
+| Ch. 4 breakfast | last heel | last oatcake split in half | confusion who filled skin |
 | Ch. 4 seep | gone | wraps short one | refill; metallic taste |
 | Ch. 4 shelf break | — | — | last bread split (final bread) |
-| Ch. 5 Ashring | none | ~1 bar | lighter skin |
-| Ch. 6 fire | — | 1 bar eaten | — |
-| Ch. 6 dawn | — | quarter–half bar dispute | — |
+| Ch. 5 Ashring | none | ~1 oatcake | lighter skin |
+| Ch. 6 fire | — | 1 oatcake eaten | — |
+| Ch. 6 dawn | — | quarter–half oatcake dispute | — |
 
 ---
 
@@ -150,8 +150,8 @@
 ### Act I progression (ch. 5 → 6)
 | Stage | Ch. | Symptoms |
 |-------|-----|----------|
-| Pre-oath pressure | 5 | Warm stone, lagged sensation, shared stumble, ears pop, tears |
-| Oath | 5 | Copper taste, second heartbeat, can't step back |
+| Pre-oath pressure | 5 | Warm stone, late sound, ring drop, presence—**no bond bleed** until after hum |
+| Oath | 5 | Rope test (nothing); *I'm in* ×2; hum → **shared inhale = instant**; wrist lock, count overlap, can't step back |
 | Immediate after | 6 rim | Thought words (*nail*), memory flashes (dock, hinge) |
 | Descent | 6 trail | Sync steps, shared falls, cabbage/rope tests |
 | Camp | 6 | Unspoken *We hold* / *Yeah*; stew banter; fear of planning bleed |
@@ -177,7 +177,7 @@
 | Halverin stew ch. 1 | → dock stew |
 | "All week" / "Tuesday" timeline | → since the hollow |
 | Bread gone camp + breakfast | → save heel for morning |
-| ch. 5 bread/iron count conflation | → separated counts |
+| ch. 5 bread/oatcake count conflation | → separated counts |
 | ch. 4 "one loaf gone" | → last heel gone at breakfast |
 | Ph. 43+ friends not brothers | Act I ch. 1 — friends since before fever, not kin; no Act III reinforcement |
 
@@ -233,7 +233,7 @@ Expand as chapters lock.
 
 | Item | Set | Cleared |
 |------|-----|---------|
-| Last iron scrap (Ashfen) | ch. 7 caravan fight | spent on road; no longer in pack |
+| Last oatcake (Ashfen) | ch. 7 caravan fight | spent on road; no longer in pack |
 | Hard cheese (cheese woman) | ch. 7 water stop | unwanted in pack |
 | Road pouch (nails, copper) | ch. 8 barracks | ongoing |
 | Halverin note (wax) | ch. 8 causeway | Cael's pocket |
@@ -272,7 +272,7 @@ Expand as chapters lock.
 | Ch. 12 Thom bread/fish | → fish table only |
 | Ch. 11 road toward Greyhaven from east tower | → pale coast road week back |
 | Ch. 12 vs 11 council check | → follow-up council check |
-| Act I iron bar silent drop | → traded for mule wrap ch. 7 |
+| Act I oatcake silent drop | → traded for mule wrap ch. 7 |
 | Copper source | → caravan man's change |
 
 ### Continuity pass log (Act II — 2026-05-31, pass 2)
@@ -286,7 +286,7 @@ Expand as chapters lock.
 | Ch. 11 vs 13 demo countdown | Ch. 11 council sets **six days**; ch. 13 speech **four days** (day 11 → demo day 15) |
 | Ch. 11 duplicate second bell | Grain line doubled *while they were inside* council check |
 | Ch. 13 split lip | → forearm stitches (matches ch. 10 Lyra) |
-| Ch. 7 travelers scene | Phase 40 swap; bible iron entry updated |
+| Ch. 7 travelers scene | Phase 40 swap; bible oatcake entry updated |
 
 ---
 

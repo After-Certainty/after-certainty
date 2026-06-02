@@ -1,6 +1,6 @@
 # Chapter 13 - Aftermath
 
-The morning after the attack, the city smelled like wet ash and lime. Gray light washed across the square. Cleanup crews moved through the wreckage with chalk and saws, marking beams to save and beams to cut. Lime buckets sat beside stacked stretchers. Somewhere nearby, a man kept sneezing and apologizing for it.
+The morning after the attack, the city smelled like wet ash and lime under gray light that washed across the square while cleanup crews moved through the wreckage with chalk and saws, marking beams to save and beams to cut. Lime buckets sat beside stacked stretchers. Somewhere nearby, a man kept sneezing and apologizing for it.
 
 Riven spent the morning in a work line outside the south market—shovel, wheelbarrow, broken timber, again. People recognized him now. That was new. Most wouldn't meet his eyes. Both felt bad.
 
@@ -58,11 +58,11 @@ Riven felt himself tense.
 
 Cael caught the words through the bond from across the square. The reaction came back immediately: annoyance, defensiveness, then irritation at himself for feeling either. Riven felt all of it. Lyra noticed.
 
-"He's listening."
+"He's listening," Lyra said.
 
-"I assumed."
+"I assumed," Riven said.
 
-"You don't care?"
+"You don't care?" Riven asked.
 
 Lyra shrugged. "If he wants privacy, he can invent it."
 
@@ -70,17 +70,17 @@ Despite himself, Riven smiled. The stitches pulled when he did.
 
 Lyra pushed a heel of bread across the crate between them. "Eat."
 
-"I'm not hungry."
+"I'm not hungry," Riven said.
 
-"That's not what I asked either."
+"That's not what I asked either," Lyra said.
 
 Riven rolled his eyes, then ate the bread. It tasted stale, still better than most things he'd eaten lately.
 
 "Mara used to say eat before you argue," he said around the crust.
 
-"Smart woman."
+"Smart woman," Lyra said.
 
-"Don't tell her I said that."
+"Don't tell her I said that," Riven said.
 
 Through the annex window Riven could see the identification desk across the yard—names, chalk, two guards holding the line. A scribe read *Thom* and the old fish seller from the morning table stepped forward with his cap in his hands. Riven looked away. Lyra didn't.
 
@@ -92,7 +92,7 @@ Riven stopped chewing. "What?"
 
 A guard with a split scalp sat on the next bench while Lyra checked his eyes. "Can you still count fingers?"
 
-"Yes."
+"Yes," the guard said.
 
 "Good. Hold still." She stitched without wasting motion. Riven watched because looking away was cowardice. Through the bond Cael replayed the riverside entrance and Riven's shovel hand shook once.
 
@@ -184,7 +184,7 @@ Cael scrubbed a hand over his face. He looked older than he had a week ago. "You
 
 One strip of sky overhead. Soot on the walls. Water pooled beneath the overturned barrel. Cael leaned against the brick and looked away.
 
-"People died."
+"People died," Cael said.
 
 "There it is." Riven pointed at him. "That's exactly what he's doing."
 
@@ -192,9 +192,9 @@ Cael's jaw tightened. "People did die."
 
 "If we don't make it mean something," Cael said, "what were they for?"
 
-"A city got attacked."
+"A city got attacked," Riven said.
 
-"And we were late where it mattered."
+"And we were late where it mattered," Cael said.
 
 Riven stared at him. For a second neither moved. Then he said the thing he'd been trying not to say.
 
@@ -256,9 +256,9 @@ A runner passed the dormitory door with a slate—*demonstration route draft, ce
 
 "You hear Merrow?" Cael asked.
 
-"Center line until signal three."
+"Center line until signal three," Riven said.
 
-"Yeah."
+"Yeah," Cael said.
 
 Riven sat on his own cot and stared at the chalk marks on his boots until the lines blurred. Through the bond Riven felt Cael set on the demonstration anyway, jaw locked—not because Cael trusted Halverin, because Cael couldn't bear the alternative.
 

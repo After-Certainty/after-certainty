@@ -6,23 +6,23 @@ Greyhaven woke around them before the market bell. Cael took the loft ladder dow
 
 "Thanks."
 
-"Market." Mara thrust a list at Cael. "Iron. Soap. If the baker shortchanges you again, count in front of him. I don't eat arguments for breakfast."
+"Market." Mara thrust a list at Cael. "Oatcakes. Soap. If the baker shortchanges you again, count in front of him. I don't eat arguments for breakfast."
 
 Riven took the list. "We're not eating arguments."
 
 "You'll eat what I tell you." She pointed at the yard stones. "And scrub that map off before the neighbors read it."
 
-The square was half awake—vendors arguing over stall space, a boy asleep against a cart wheel, smoke from the first bread ovens. A dog trotted past with half a herring in its mouth, pursued by nobody. Cael bought iron at the third stall because the first two had sold out to a caravan headed north. He'd sworn the first stall would still have stock.
+The square was half awake—vendors arguing over stall space, a boy asleep against a cart wheel, smoke from the first bread ovens. A dog trotted past with half a herring in its mouth, pursued by nobody. Cael bought oatcakes at the third stall because the first two had sold out to a caravan headed north. He'd sworn the first stall would still have stock.
 
 "That's light," Riven said.
 
-"It's iron."
+"They're oatcakes."
 
-"It's light." The vendor sighed and added half a bar from under the counter. "Anything else, heroes?"
+"It's light." The vendor sighed and added half an oatcake from under the counter. "Anything else, heroes?"
 
 "Don't," Cael and Riven said together. The vendor laughed like they'd paid for the joke.
 
-Riven's face went tight. Cael felt the word land somewhere Riven didn't—not pride, not yet, just a stupid loosening in his chest that the road might be more than a bet Mara could scrub off the board.
+Riven's face went tight. Cael felt the word hit him wrong—not pride, not yet, just a stupid loosening in his chest that the road might be more than a bet Mara could scrub off the board.
 
 At the baker's, Mara was right—the man tried to slip them the day-old loaves until Riven counted the coins out loud on the counter. "Fresh," the baker said, with the face of a man who knew he was lying and didn't care. Fresh bread. Wrapped in cloth. Expensive. Cael paid without looking at Riven's face.
 
@@ -72,7 +72,7 @@ Cael glanced toward the kitchen where Mara kept counting coins, and when he look
 
 Getting distance was the point. Riven let out a slow breath, swallowed half a dozen things that would've started an argument, and nodded—it cost less than explaining.
 
-Outside, the harbor air hit him damp and salted, the sky over the water bruised between day and night. Wet cobbles caught the thin gleam of mast lanterns burning low, gulls complained on the pilings, and somewhere down toward the docks a cart creaked over stone on early work that didn't care whether you'd slept.
+Outside, harbor air hit him damp and salted under a sky bruised between day and night, wet cobbles catching the thin gleam of mast lanterns while gulls complained on the pilings and a cart creaked somewhere toward the docks on early work that didn't care whether you'd slept.
 
 Mara scrubbed a name off the board on the way out—Riven's first, then Cael's, replaced with *gone north* in smaller letters. She didn't look at either of them while she wrote it.
 
@@ -92,11 +92,11 @@ They passed the soap shop on Kettle Lane—the one his mother had used every wee
 
 A woman opening shutters watched them pass and went back to shaking flour from a cloth over her doorstep. An old man on the corner selling luck charms lifted his tray as they passed. "North road's hiring," he said, the same joke as the guard would use later. Riven kept walking. Cael didn't slow.
 
-The north gate guard was different from the night watch—older, sober, unimpressed. He looked at their packs, their iron, their faces. "Road's bad," he said.
+The north gate guard was different from the night watch—older, sober, unimpressed. He looked at their packs, their oatcakes, their faces. "Road's bad," he said.
 
 "We know," Cael said.
 
-"North's always hiring," the guard muttered. He tapped their iron with two fingers. "That'll bend before the fork. Caravan lost a wheel past the marker yesterday—left grain on the scree. Don't say I didn't warn you."
+"North's always hiring," the guard muttered. He tapped their oatcake bundle with two fingers. "That'll crumble before the fork. Caravan lost a wheel past the marker yesterday—left grain on the scree. Don't say I didn't warn you."
 
 "We won't," Riven said.
 
@@ -188,11 +188,11 @@ Cael glanced back, wind pulling at his dark hair.
 
 "No."
 
-"Then quit acting like I tricked you into a leash."
+"Then quit acting like I tricked you into a leash," Cael said.
 
 Heat climbed into Riven's face. "I didn't say leash."
 
-"You didn't have to."
+"You didn't have to," Cael said.
 
 Riven barked out a laugh. "Christ, you're unbelievable."
 
@@ -268,7 +268,7 @@ Riven drank again, slower this time. The water stung his teeth. "You think they 
 
 "If they didn't, we'll read it in the cloth."
 
-"And if the cloth says turn back?"
+"And if the cloth says turn back?" Riven asked.
 
 Cael capped the skin. "Then we read who wrote it."
 
@@ -288,7 +288,7 @@ A muscle moved in Cael's jaw. "I want to know."
 
 "If it's real."
 
-The honest corollary—*and if it isn't*—sat in his boot like a pebble he couldn't shake out.
+The other half of the question—*and if it isn't*—stuck in his head like a stone in his boot.
 
 "Great." Riven picked at a burr on his cuff. "My heel's bleeding through the wool and you want scripture."
 
@@ -316,11 +316,11 @@ For the first time in a while, Cael looked over. "I'm glad you came."
 
 The trail widened here, shale giving way to packed dirt between pine trunks. Wind moved the branches overhead. Riven stared at the trail ahead. Cael had said he was glad. Riven didn't know what to do with that.
 
-"Don't."
+"Don't," Riven said.
 
-"Don't what?"
+"Don't what?" Cael asked.
 
-"Don't make it easy," he said, sharper than he intended. "I can't do that and still mean it."
+"Don't make it easy," Riven said, sharper than he intended. "I can't do that and still mean it."
 
 Cael watched him for a moment, then nodded. "All right."
 
@@ -356,19 +356,19 @@ They ate. The cheese tasted like nothing. The bread tasted like Mara—overbaked
 
 "You think people will say we ran?" Riven asked.
 
-"They'll say we got fleas from the goat."
+"They'll say we got fleas from the goat," Cael said.
 
-"What goat."
+"What goat," Riven said.
 
 "The window goat."
 
 "That was one window."
 
-"Still a goat."
+"Still a goat," Cael said.
 
 Riven snorted. "There it is."
 
-"There what is?"
+"There what is?" Cael asked.
 
 "Nothing." Riven opened his mouth, then closed it again. Cael wrapped the remaining cheese in cloth and tied the knot.
 
@@ -414,13 +414,13 @@ Riven stared into the flames. "Sometimes."
 
 Cael nodded. "Tell me when."
 
-"I just did." Something close to a smile crossed Cael's face. "Fair."
+"I just did," Riven said. Something close to a smile crossed Cael's face. "Fair."
 
 "You want the last of the cheese?" Riven asked.
 
-"It's yours."
+"It's yours," Cael said.
 
-"I hate it anyway."
+"I hate it anyway," Riven said.
 
 "Then I'll hate it." Cael tossed the lump over. Riven caught it and ate it anyway because hunger didn't care.
 
