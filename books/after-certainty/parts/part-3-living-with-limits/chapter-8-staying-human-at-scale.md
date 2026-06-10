@@ -52,15 +52,13 @@ After certainty, the central question is not how to make systems human. It is ho
 
 ### **Why Scale Makes People Disappear**
 
-Notice what happens when aggregate performance improves while a small cluster of cases still does not fit the trend. The system has no reason to look sideways. The harm has not become invisible. It has become statistically ignorable.
-
 Large systems depend on aggregation, standardization, categorization, and procedural consistency. These are not signs of cruelty. They are structural necessities.
 
 But every abstraction carries loss.
 
 When people become data points, harm becomes statistical. When outcomes are averaged across populations, suffering becomes harder to notice. When decisions move farther from consequences, accountability thins without anyone intentionally choosing it.
 
-Distance hides consequence. Attention is what restores contact when abstraction would otherwise complete the moral picture too early.
+Distance hides consequence. Abstraction would otherwise complete the moral picture too early.
 
 **Attention Restores Contact.**
 
@@ -92,12 +90,6 @@ This kind of attention does not scale well.
 
 That is precisely why it matters.
 
-When nothing visibly changes afterward, what remains is not victory.
-
-It is contact.
-
-Proof that reality has not yet disappeared completely behind the dashboard.
-
 ### **Refusing Replacement Logic**
 
 Large systems naturally drift toward replacement logic.
@@ -114,9 +106,7 @@ Staying human requires resisting that equivalence.
 
 It means recognizing that systems functioning normally can still produce deep injury quietly and repeatedly.
 
-Blame compresses complexity at the individual level.
-
-Scale compresses complexity structurally.
+Blame compresses complexity into a face. Scale compresses it into a trend.
 
 Both forms of compression make suffering easier to overlook.
 
@@ -168,19 +158,11 @@ Leadership is one name for that problem when it arrives in public life. The deep
 
 ### **What Attention Preserves**
 
-When attention survives at scale, several things remain possible.
-
-You can participate without fully surrendering judgment.
-
-You can work within systems without mistaking systems for moral agents.
-
-You can recognize harm without pretending you possess the power to eliminate it entirely.
-
 Staying human does not make systems humane.
 
 It prevents abstraction from becoming total.
 
-The exception report did not change the rollout. It changed what could still be seen. After certainty, that preservation matters more than many forms of moral certainty ever did.
+The exception report did not change the rollout. It changed what could still be seen. After certainty, that kind of preservation matters more than many forms of confidence ever did.
 
 [^c8-moral-distance]: See Zygmunt Bauman, *Modernity and the Holocaust* (Ithaca, NY: Cornell University Press, 1989); Hannah Arendt, *Eichmann in Jerusalem* (New York: Viking Press, 1963).
 [^c8-productive-friction]: See James C. Scott, *Seeing Like a State* (New Haven, CT: Yale University Press, 1998).

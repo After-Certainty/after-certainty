@@ -72,11 +72,7 @@ Nothing dramatic replaces them. No better mythology arrives. What replaces arche
 
 This kind of attention does not resolve tension. It sustains tension long enough for judgment to remain honest. It also redistributes responsibility. Instead of locating harm entirely inside people we admire or despise, it forces us to examine systems, incentives, participation, and proximity—including our own. That redistribution is uncomfortable. It is also usually more accurate.
 
-### **Living Without Moral Shortcuts**
-
-Heroes and villains are moral shortcuts. They help human beings coordinate quickly, but they narrow what remains visible. After certainty, speed matters less than proportion. Alignment matters less than accountability. Moral clarity matters less than sustained contact with consequences, limits, and real human complexity.
-
-Releasing heroes and villains does not make the world morally gray. It makes moral life more demanding. You no longer get to outsource judgment to story. You no longer get to resolve discomfort through identification. You have to remain present with harm even when it cannot be cleanly assigned. That is not moral neutrality. It is moral adulthood.
+Heroes and villains are moral shortcuts. After certainty, speed matters less than proportion. Alignment matters less than accountability. You no longer get to outsource judgment to story or resolve discomfort through identification. You have to remain present with harm even when it cannot be cleanly assigned. That is not moral neutrality. It is moral adulthood.
 
 ### **What This Makes Possible**
 

@@ -86,13 +86,11 @@ This does not mean truth disappears. It means stable alignment becomes harder to
 
 ## **What Remains When Supports Are Gone**
 
-When correctness no longer settles judgment, when explanation no longer reassures, and when interpretation no longer resolves responsibility, something still remains. Attention remains. Responsiveness remains. The ability to choose restraint remains.
-
-You can still notice harm. You can still decide how you will participate. You can still refuse to add pressure where pressure would do damage. None of these capacities require certainty. They require honesty about limits. This book is about practicing those capacities—not as techniques for resolution, but as postures for living under limit.
+When the familiar supports weaken, something still remains—not a new system, but capacities you can still practice: noticing harm, choosing how you will participate, choosing restraint where speaking would add heat but not care. None of these require certainty. They require honesty about limits.
 
 ## **The Shape of the Book**
 
-The book moves in three parts. The first releases familiar moral supports: correctness, explanation, and moral sorting. Not because they are false, but because they become overburdened under scale. The second asks what can still be practiced once those supports weaken: judgment without finality, responsibility without control, and speech that aims to reduce harm rather than win. The third turns toward limits themselves: not knowing as a discipline, humanity under scale, and the ethical skill of recognizing when interpretation no longer helps. This book does not build toward resolution. It builds toward orientation.
+The book moves in three parts. The first releases familiar moral supports: correctness, explanation, and moral sorting. Not because they are false, but because they become overburdened under scale. The second asks what can still be practiced once those supports weaken: judgment without finality, responsibility without control, and speech that aims to reduce harm rather than win. The third turns toward limits themselves: not knowing as a discipline, humanity under scale, and the ethical skill of recognizing when interpretation no longer helps. This book does not build toward resolution. It builds toward orientation—and ends without the kind of closure many readers still expect, because resolution would require a confidence it does not claim to possess.
 
 ### **How the Patterns Relate**
 
@@ -101,12 +99,6 @@ As you read, you will meet a small shared vocabulary of named recognitions—com
 On first read, treat the figure below as orientation—which titles belong together and how the book’s arc moves from release to practice to limits—not as a sequence you must memorize.
 
 ![Diagram: After Certainty pattern map](export-assets/diagrams/pattern-map.png){ width=100% }
-
-## **Why This Book Ends Without Answers**
-
-Many readers expect endings that resolve tension. This book refuses that deliberately. Resolution would require a confidence the book does not claim to possess. It would suggest that moral life can once again be made coherent, controllable, or complete.
-
-Instead, the book ends with something smaller and more difficult: the possibility that human beings can still live responsibly without certainty—not peacefully, not cleanly, but honestly.
 
 ## **Who This Book Is For**
 

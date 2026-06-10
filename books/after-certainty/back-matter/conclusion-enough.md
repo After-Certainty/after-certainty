@@ -8,15 +8,11 @@ For correctness to finally deliver relief. For explanation to finish its work. F
 
 It does not.
 
-This book does not end with resolution.
-
-It does not gather its arguments into a single framework or offer a final way of seeing that makes the world coherent again. That kind of ending would betray what the book has been trying to say.
+This book does not end with resolution—or with a final framework that makes the world coherent again. That kind of ending would betray what the book has been trying to say.
 
 Certainty does not return.
 
 What changes is not the world, but the posture with which you meet it.
-
-After certainty, many of the familiar supports are gone. Correctness no longer guarantees moral standing. Explanation no longer promises relief. Interpretation no longer resolves responsibility. Systems do not become humane. Speech does not reliably persuade. Judgment does not conclude.
 
 And yet—something remains.
 
@@ -34,15 +30,9 @@ But what remains is not clarity in that sense.
 
 What remains is orientation.[^conclusion-orientation]
 
-You may not know what to think about everything.
+You may not know what to think about everything. But you can still tell when something is doing harm.
 
-You may not be able to explain what you are part of.
-
-You may not be able to resolve the tensions you see.
-
-But you can still tell when something is doing harm.
-
-You can still notice when explanation has turned into delay.
+You can still notice when explanation has turned into delay, when correctness is doing the work of identity, when visibility has replaced contact.
 
 You can still choose proportion over severity, care over certainty, restraint over dominance.
 
@@ -52,15 +42,11 @@ It is clarity that allows response without pretending to finish.
 
 ### **Living Without Epistemic Closure**
 
-Much moral life is organized around the promise of closure.
-
-If we think hard enough, learn enough, or explain enough, things will eventually settle. We will know where we stand. We will know what is right.
+Much moral life is organized around the promise that enough thought will eventually settle things—that we will know where we stand and what is right.
 
 After certainty, that promise dissolves.
 
-What replaces it is not peace of mind, but honesty about limits.
-
-You live knowing that some questions will remain open, some harms unresolved, some judgments incomplete.
+What replaces it is not peace of mind, but honesty about limits: the case closed while the situation has not, harm visible while motives stay mixed, action required while the account stays open.
 
 This is not failure.
 
@@ -94,9 +80,7 @@ Enough to remain honest.
 
 ### **The Kind of Life This Allows**
 
-After certainty, moral life becomes quieter.
-
-There are fewer grand claims and fewer satisfying endings. More attention to proportion. More tolerance for unfinishedness. More care taken with what one says, does, and refuses to do.
+After certainty, moral life becomes quieter—not because it matters less, but because it makes fewer grand claims.
 
 You may be misread.
 
@@ -124,9 +108,7 @@ It is, however, sustainable.
 
 This book does not ask you to agree with it.
 
-It asks something quieter: to catch yourself mid-sentence—when explanation is doing the work care should be doing, when finality is compensating for uncertainty, when interpretation has stopped helping, when speech is adding heat but not contact.
-
-And then, to choose—without certainty—how you will participate anyway.
+It asks something quieter: to catch yourself mid-sentence, trust what you have already learned to notice, and choose—without certainty—how you will participate anyway.
 
 That choice will not be clean.
 

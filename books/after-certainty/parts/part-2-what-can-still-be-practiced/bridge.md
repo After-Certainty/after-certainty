@@ -10,7 +10,7 @@ This part does not rebuild certainty under a more sophisticated name. It does no
 
 Instead, it turns toward practice—not practice as optimization, but practice as discipline under conditions that no longer resolve cleanly.
 
-Under pressure, finality compensates for uncertainty and speech escalates faster than meaning still shape the room—environmental conditions rather than local problems that can simply be solved.
+Two environmental pressures still shape the room: finality compensating for uncertainty and speech escalating faster than meaning—not local failures, but conditions the practices ahead must work inside.
 
 These disciplines are quieter than certainty. They offer less emotional relief. They do not promise resolution, innocence, or moral completion.
 
