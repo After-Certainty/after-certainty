@@ -2,40 +2,6 @@
 
 ## **Releasing the Need for Heroes and Villains**
 
-Heroes and villains make the world easier to navigate.
-
-They tell us who to trust, who to fear, and where responsibility belongs. They compress moral complexity into stories simple enough to remember, repeat, and coordinate around quickly. In moments of uncertainty, this kind of sorting feels necessary.
-
-Heroes reassure us that good intentions matter. Villains reassure us that harm has a recognizable face. But these stories come with a cost. They simplify coordination more easily than they simplify reality. And over time, they can quietly replace judgment with narrative.
-
-### **Why Moral Sorting Feels So Natural**
-
-Moral sorting reduces cognitive strain. If someone is a hero, their actions are interpreted generously. If someone is a villain, their actions stop requiring careful inquiry. Groups align faster this way. Moral energy concentrates. Disagreement narrows.
-
-Heroes and villains also provide emotional relief. They give admiration somewhere to attach itself. They give outrage a target. They externalize responsibility and make moral clarity feel achievable through identification rather than discernment.
-
-None of this is accidental. Human beings rely on archetypes because archetypes work—especially under pressure and at scale. The problem is not that these categories are entirely false. The problem is that they are too coarse for the kind of judgment serious moral life eventually requires.
-
-### **What Heroes Quietly Protect**
-
-Once someone becomes identified as heroic, information surrounding them begins changing shape. Harm becomes reframed as error, tradeoff, or necessity. Context expands around them. Motives receive generous interpretation.
-
-This is rarely conscious corruption. It is usually an attempt to preserve coherence. Once a heroic narrative stabilizes, revising it becomes emotionally expensive. Information that threatens the story begins to feel destabilizing—not necessarily because it is false, but because accepting it would require moral re-sorting.
-
-At that point, admiration slowly turns into insulation. The hero is no longer protected by trust alone. They are protected by the audience’s reluctance to reopen the story itself.
-
-**Admiration Becomes Insulation.**[^c3-motivated-reasoning]
-
-### **What Villains Make Possible**
-
-Villains simplify responsibility in the opposite direction. Once harm becomes attached to a villain, complexity collapses. Systems fade into the background. Incentives disappear from view. The moral work begins feeling complete once blame has somewhere stable to land.
-
-This is part of why villain narratives feel satisfying. They appear to honor harm. They validate outrage. They reassure us that wrongdoing has been clearly located. But they also narrow what can be learned.
-
-If harm is caused primarily by bad people, then ordinary people do not have to examine their own participation. If wrongdoing is exceptional, then the surrounding systems remain largely unquestioned. Villains create moral distance. They help us avoid asking how similar dynamics might operate closer to home—or through us.
-
-**Blame Compresses Complexity.**[^c3-villain-narratives]
-
 ### **The Comment Thread**
 
 ::: {custom-style="Vignette Block"}
@@ -53,6 +19,46 @@ The moral energy needed somewhere to go.
 
 He closed the tab without replying. Not because he lacked a view. Because the view he had would not survive the format—and he was no longer sure the format was asking for judgment at all.
 :::
+
+The thread did not pause when the story stopped fitting. It tightened the sorting instead.
+
+That is one way moral life becomes easier to navigate—and harder to judge.
+
+Heroes and villains make the world easier to navigate.
+
+They tell us who to trust, who to fear, and where responsibility belongs. They compress moral complexity into stories simple enough to remember, repeat, and coordinate around quickly. In moments of uncertainty, this kind of sorting feels necessary.
+
+Heroes reassure us that good intentions matter. Villains reassure us that harm has a recognizable face. But these stories come with a cost. They simplify coordination more easily than they simplify reality. And over time, they can quietly replace judgment with narrative.
+
+### **Why Moral Sorting Feels So Natural**
+
+Moral sorting reduces cognitive strain. If someone is a hero, their actions are interpreted generously. If someone is a villain, their actions stop requiring careful inquiry. Groups align faster this way. Moral energy concentrates. Disagreement narrows.
+
+Notice how quickly a story becomes easier to share once everyone knows who the hero is. Notice how quickly outrage organizes itself once everyone knows who the villain is.
+
+They externalize responsibility and make moral clarity feel achievable through identification rather than discernment.
+
+None of this is accidental. Human beings rely on archetypes because archetypes work—especially under pressure and at scale. The problem is not that these categories are entirely false. The problem is that they are too coarse for the kind of judgment serious moral life eventually requires.
+
+### **What Heroes Quietly Protect**
+
+Watch what happens to new information once someone becomes identified as heroic. Information surrounding them begins changing shape. Harm becomes reframed as error, tradeoff, or necessity. Context expands around them. Motives receive generous interpretation.
+
+This is rarely conscious corruption. It is usually an attempt to preserve coherence. Once a heroic narrative stabilizes, revising it becomes emotionally expensive. Information that threatens the story begins to feel destabilizing—not necessarily because it is false, but because accepting it would require moral re-sorting.
+
+At that point, admiration slowly turns into insulation. The hero is no longer protected by trust alone. They are protected by the audience’s reluctance to reopen the story itself.
+
+**Admiration Becomes Insulation.**[^c3-motivated-reasoning]
+
+### **What Villains Make Possible**
+
+Villains simplify responsibility in the opposite direction. Once harm becomes attached to a villain, complexity collapses. Systems fade into the background. Incentives disappear from view. The moral work begins feeling complete once blame has somewhere stable to land.
+
+This is part of why villain narratives feel satisfying. They appear to honor harm. They validate outrage. They reassure us that wrongdoing has been clearly located. But they also narrow what can be learned.
+
+If harm is caused primarily by bad people, then ordinary people do not have to examine their own participation. If wrongdoing is exceptional, then the surrounding systems remain largely unquestioned. Villains create moral distance. They help us avoid asking how similar dynamics might operate closer to home—or through us.
+
+**Blame Compresses Complexity.**[^c3-villain-narratives]
 
 ### **Releasing Archetypes Is Not Moral Relativism**
 
@@ -83,8 +89,6 @@ Trust does not survive through insulation. It survives when admiration remains o
 **Scrutiny Preserves Trust.**
 
 This is less emotionally satisfying than narrative certainty. But it is more durable.
-
-The chapters that follow turn toward what remains afterward: judgment without finality, responsibility without control, and speech that tries to reduce harm rather than win.
 
 [^c3-motivated-reasoning]: See Lee Ross and Richard E. Nisbett, *The Person and the Situation* (New York: McGraw-Hill, 1991).
 [^c3-villain-narratives]: See Martha Minow, *Between Vengeance and Forgiveness* (Boston: Beacon Press, 1998).

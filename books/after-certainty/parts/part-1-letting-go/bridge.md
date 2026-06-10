@@ -20,13 +20,13 @@ But over time, stabilizers can begin drifting under pressure. Correctness harden
 
 The problem is not that these instincts are entirely wrong. The problem is that they begin carrying more moral weight than they can sustain—especially under conditions of scale, fragmentation, and delayed consequence, where no one can fully see the whole picture at once.
 
-The chapters that follow examine three releases in sequence.
+The chapters that follow trace three forms of loosening.
 
-The first asks what happens once **Correctness Hardens Into Identity** and judgment starts serving coherence more than revisability.
+The first concerns correctness—what happens when being right becomes more important than remaining revisable.
 
-The second examines what happens when **Explanation Replaces Response**, and understanding quietly becomes a substitute for moral participation.
+The second concerns explanation—what happens when understanding quietly begins replacing response.
 
-The third explores what happens when admiration and condemnation simplify people faster than judgment can remain proportional—when **Admiration Becomes Insulation** and **Blame Compresses Complexity**.
+The third concerns moral sorting—what happens when admiration and condemnation simplify people faster than judgment can keep pace.
 
 None of these chapters argues for abandoning truth, understanding, or moral seriousness.
 

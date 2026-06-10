@@ -2,12 +2,14 @@
 
 Focused editing workflow for the grounding branch. Run one pass at a time; complete across the target scope before starting the next.
 
-## Pass order (this branch)
+## Pass order
 
-1. **Grounding** — Draft and place 5–8 vignettes; wire into argument flow
-2. **Asymmetry** — Vary openings, length, delayed reframe
-3. **Cohesion** — Vignettes must not smuggle new moral certainty; preserve revisability
-4. **Export** — `make build-book DIR=books/after-certainty`
+1. **Grounding** — Draft and place 5–8 vignettes; wire into argument flow *(complete)*
+2. **Asymmetry** — Vary openings, length, delayed reframe *(complete)*
+3. **Cohesion** — Vignettes must not smuggle new moral certainty; preserve revisability *(complete)*
+4. **Feedback pass 2** — Author drafts incorporated file-by-file *(complete)*
+5. **Essay discovery** — Delay thesis at opening; preserve compression at ending; see `docs/agents/01-essay-discovery-revision.md`
+6. **Export** — `make build-book DIR=books/after-certainty`
 
 ## Pass 1 — Grounding
 
@@ -42,7 +44,21 @@ Check for:
 - Core invariant unchanged in every chapter
 - Strong hinge lines in Ch 2 and Ch 9 preserved in meaning
 
-## Pass 4 — Export
+## Pass 5 — Essay discovery
+
+**Goal:** Arguments feel discovered rather than announced—without changing claims, structure, or conclusions.
+
+Check for:
+
+- Openings begin with observation, scene, or situation before naming the thesis (3–4 paragraphs, not pages)
+- Existing vignettes moved earlier when they carry the insight
+- Abstractions earned through observations, not eliminated
+- Bold pattern compressions at chapter endings preserved (`**Pattern Name.**`)
+- Surgical pass only (~20% more discovery); no literary wandering or memoir drift
+
+Spec: [`docs/agents/01-essay-discovery-revision.md`](agents/01-essay-discovery-revision.md)
+
+## Pass 6 — Export
 
 **Goal:** Release-ready build.
 

@@ -16,6 +16,10 @@ Driving home later, she wondered—as she often did—whether this was loyalty o
 No clean answer arrived. Only a narrower one: he was still her father, harm was still accumulating, and she could still show up without pretending agreement restored control.
 :::
 
+She could not fix what was breaking. She could not restore agreement. She could still choose how to remain present.
+
+That gap—between what care requires and what control allows—is where responsibility often becomes hardest to name.
+
 Responsibility is often confused with control.
 
 Many people assume responsibility means the ability to shape outcomes directly—to fix problems, manage consequences, or reliably produce improvement. When outcomes exceed our influence, responsibility begins feeling misplaced or unfair. At small scale, that assumption sometimes works. At larger scale, it breaks down quickly. Systems become opaque. Consequences diffuse across time. Feedback weakens or disappears entirely.
@@ -50,11 +54,11 @@ But innocence is not the same thing as blamelessness. And lack of control does n
 
 Responsibility without control refuses that escape.
 
-### **Leadership Without Control**
+### **When Participation Outlasts Control**
 
-This is also where leadership begins changing shape—not leadership as influence, vision, or control, but leadership as answerability wherever consequences continue unfolding through structures you helped shape.
+The visit is one version of this. So are illness, addiction, aging, political disagreement, and distance that can look like moral clarity from far away.
 
-People continue acting through rules you normalized, permissions you left ambiguous, tradeoffs you tolerated, and examples you modeled. Responsibility does not end simply because formal authority does. It follows what remains afterward. In that sense, leadership is not merely something a person chooses to take on. It is something they become answerable for over time.
+The same tension appears in institutions, though the scale changes. People continue acting through rules you normalized, permissions you left ambiguous, tradeoffs you tolerated, and examples you modeled long after you stop believing you control what happens next. Leadership is one name for that problem when it arrives in public life. The deeper issue is simpler: participation does not always end when control does.[^c5-many-hands]
 
 ### **Acting Without the Promise of Effectiveness**
 
@@ -86,9 +90,15 @@ You are responsible for how you participate in the world. You are not responsibl
 
 When responsibility is released from the need for control, several things quietly become possible again. You can act without guaranteeing success. You can care without claiming authority. You can withdraw without pretending withdrawal erases participation.
 
-Responsibility becomes less dramatic and more durable. It no longer promises redemption. It no longer seeks closure. Instead, it asks a narrower question: given what I can still see, affect, and remain answerable for, how will I continue showing care without illusion?
+Responsibility becomes less dramatic and more durable.
 
-After certainty, that question is enough.
+It no longer promises redemption.
+
+It no longer seeks closure.
+
+It asks only whether you will remain answerable for your participation after control has already left the room.
+
+After certainty, that is enough.
 
 [^c5-responsibility-outcome]: See Joan C. Tronto, *Moral Boundaries* (New York: Routledge, 1993).
 [^c5-many-hands]: See Dennis F. Thompson, "Moral Responsibility of Public Officials," *American Political Science Review* 74, no. 4 (1980): 905–916.

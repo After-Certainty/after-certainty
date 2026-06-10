@@ -2,9 +2,55 @@
 
 ## **The End of Correctness**
 
+### **The Meeting That Did Not Escalate**
+
+::: {custom-style="Vignette Block"}
+The safety office wanted one thing. The operations team wanted another. They had spent three weeks arguing about a timeline everyone already agreed was unrealistic.
+
+The review meeting had run thirty minutes over. Everyone in the room could feel the conversation approaching the point where people stop revising and start defending themselves instead.
+
+She had the stronger case on paper. She had checked the numbers twice. She could have pressed harder and probably won the argument.
+
+Instead, she let the silence stay in the room a little longer.
+
+Someone else finally spoke—not with agreement, but with a smaller question.
+
+The conversation narrowed.
+
+The temperature dropped slightly.
+
+The meeting ended without resolution.
+
+Later, a colleague told her she had been too passive.
+
+Maybe she had been.
+
+But the harm she was trying to avoid was not the wrong answer.
+
+It was the kind of conflict that makes future revision almost impossible.
+:::
+
+Later, walking back to her desk, she kept wondering whether she had been too passive. The numbers were still on her side. The case had not weakened. What had changed was something harder to name: the feeling that winning might have cost more than losing.
+
+She never became convinced the other side was right.
+
+Years later she still wasn't.
+
+What stayed with her was a different question.
+
+Why had winning felt so dangerous?
+
+Perhaps because being right promises more than accuracy.
+
+It promises stability.
+
+It promises justification.
+
+It promises that tension can finally end.
+
 Correctness feels like safety.
 
-If we can get things right—factually, morally, historically—then we can act with confidence. We can justify our choices. We can explain ourselves. We can trust that evidence, reason, or time will eventually sort things out.
+If we can get things right—factually, morally, historically—then we can act with confidence. We can explain ourselves. We can trust that evidence, reason, or time will eventually sort things out.
 
 At small scale, that sometimes works.
 
@@ -14,7 +60,7 @@ And once correctness stops functioning as a practical tool and starts functionin
 
 ### **Why Being Right Feels Moral**
 
-Correctness rarely feels neutral.
+Notice how rarely people say: "I was wrong, but I was acting responsibly." More often the two become entangled.
 
 To be right feels earned.
 
@@ -23,6 +69,8 @@ It feels disciplined.
 It feels responsible.
 
 We studied carefully. We checked the evidence. We paid attention when others did not.
+
+Correctness rarely feels neutral.
 
 Over time, correctness stops feeling like something we use and starts feeling like something that justifies us.
 
@@ -39,6 +87,8 @@ The problem is not that people care about truth.
 The problem is that correctness begins carrying more moral weight than it can sustain—especially once systems grow large enough that no one can fully see the whole picture at once.[^c1-motivated-reasoning]
 
 ### **What Scale Does to “Right”**
+
+In a large organization, different teams can review the same evidence and still leave the room certain of opposite conclusions. No one has to be careless for that to happen.
 
 Scale changes the conditions under which correctness stabilizes.
 
@@ -62,37 +112,9 @@ Confidence escalates while understanding thins.
 
 The result is not shared certainty, but multiple internally coherent moral worlds increasingly unable to revise one another.[^c1-scale-fragmentation]
 
-### **The Meeting That Did Not Escalate**
-
-::: {custom-style="Vignette Block"}
-The disagreement had already been building for weeks. Two teams were talking past each other. Everyone in the room could feel the conversation approaching the point where people stop revising and start defending themselves instead.
-
-She had the stronger case on paper. She had checked the numbers twice. She could have pressed harder and probably won the argument.
-
-Instead, she let the silence stay in the room a little longer.
-
-Someone else finally spoke—not with agreement, but with a smaller question.
-
-The conversation narrowed.
-
-The temperature dropped slightly.
-
-The meeting ended without resolution.
-
-Later, a colleague told her she had been too passive.
-
-Maybe she had been.
-
-But the harm she was trying to avoid was not the wrong answer.
-
-It was the kind of conflict that makes future revision almost impossible.
-:::
-
 ### **When Correctness Starts Protecting Error**
 
-Correctness becomes dangerous once it hardens into identity.
-
-Revision begins feeling like loss.
+Watch what happens once being right becomes part of who someone is. Revision begins feeling like loss.
 
 Doubt feels weak.
 

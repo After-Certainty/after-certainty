@@ -2,6 +2,34 @@
 
 ## **When to Stop Interpreting**
 
+### **The Working Group**
+
+::: {custom-style="Vignette Block"}
+They met every two weeks to understand the problem more fully.
+
+Each meeting added context: history, constraints, competing incentives, and legitimate fears on every side.
+
+The harm they were discussing did not pause while they interpreted it.
+
+People were still excluded. Resources were still drifting. The pattern remained visible in outcomes even while motives stayed mixed.
+
+At the fifth meeting, someone finally said what several people had already begun suspecting:
+
+"We are not stuck because we lack insight. We are stuck because insight has become our permission to delay a response we already know is required."
+
+No one argued.
+
+The room went quiet in a different way—not the quiet of patience, but the quiet after a threshold has been crossed.
+
+They did not resolve everything.
+
+They stopped treating further interpretation as the moral work.
+:::
+
+The harm had been visible throughout.
+
+Understanding had not been what was missing.
+
 Interpretation usually feels like care.
 
 To interpret is to slow down. To resist snap judgment. To assume there may be more happening than is visible at first glance.
@@ -52,30 +80,6 @@ This shift is difficult to recognize while it is happening.
 
 Interpretation rarely announces when it has crossed the line. It continues feeling thoughtful and morally serious right up until the moment it no longer helps anyone except the interpreter.
 
-### **The Working Group**
-
-::: {custom-style="Vignette Block"}
-They met every two weeks to understand the problem more fully.
-
-Each meeting added context: history, constraints, competing incentives, and legitimate fears on every side.
-
-The harm they were discussing did not pause while they interpreted it.
-
-People were still excluded. Resources were still drifting. The pattern remained visible in outcomes even while motives stayed mixed.
-
-At the fifth meeting, someone finally said what several people had already begun suspecting:
-
-"We are not stuck because we lack insight. We are stuck because insight has become our permission to delay a response we already know is required."
-
-No one argued.
-
-The room went quiet in a different way—not the quiet of patience, but the quiet after a threshold has been crossed.
-
-They did not resolve everything.
-
-They stopped treating further interpretation as the moral work.
-:::
-
 ### **Clarity Without Completion**
 
 Clarity does not require full understanding.
@@ -101,6 +105,8 @@ It is discernment replacing accumulation.
 Stopping interpretation is not primarily an intellectual decision.
 
 It is an ethical threshold.
+
+The threshold is not whether you have understood enough. It is whether further understanding would materially alter what care requires.
 
 That threshold is crossed when additional context would not meaningfully change the nature of the harm, when further explanation would not alter responsibility substantially, and when continued openness begins protecting the interpreter more than the people affected.
 
@@ -131,6 +137,10 @@ They are not the same.
 Ignorance refuses to look.
 
 Discernment recognizes when further looking no longer changes what responsibility requires.
+
+You may never fully understand why a parent keeps making self-destructive choices. You may still know enough to stop financing them.
+
+You may never fully understand the motives behind a harmful workplace decision. You may still know enough to refuse participating in it.
 
 You can fail to understand why something is happening and still see clearly what it is doing.
 
@@ -184,9 +194,9 @@ It accepts that judgment cannot wait forever.
 
 And it accepts that responsibility sometimes requires letting understanding remain unfinished.
 
-After certainty, the discipline is not knowing more.
+The harm is often not waiting for a better explanation.
 
-It is recognizing when more knowing no longer helps.
+It has been waiting for a different kind of seriousness.
 
 [^c9-interpretive-patience]: See Judith Butler, *Frames of War* (London: Verso, 2009).
 [^c9-clarity-without-understanding]: See Maurice Merleau-Ponty, *Phenomenology of Perception*, trans. Donald A. Landes (London: Routledge, 2012).
