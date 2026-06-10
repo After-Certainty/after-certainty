@@ -2,6 +2,32 @@
 
 ## **The Discipline of Not Knowing**
 
+### **The Third Conversation**
+
+::: {custom-style="Vignette Block"}
+He had already spoken with two people. Both were thoughtful. Both complicated the original story without replacing it.
+
+A third conversation remained available.
+
+It might help.
+
+It might also become the kind of help that postpones a decision someone else was already waiting on.
+
+He sat with the file open and tried to name the difference between uncertainty that still mattered and uncertainty that no longer changed his obligation.
+
+The harm was already visible in effect. Motives could remain mixed without altering that.
+
+He wrote down what he would do next—provisionally, revisably—and closed the laptop.
+:::
+
+The third conversation would not have made the harm less visible.
+
+It might only have made action feel less urgent.
+
+The question was not whether he knew enough in some absolute sense. It was whether more knowing would still change what he was obliged to do.
+
+That question arrives in many forms—a file on a desk, a test result, a conversation about a parent, a disagreement that will not resolve cleanly.
+
 Not knowing is usually treated as a problem to solve.
 
 We are trained to close gaps, reduce uncertainty, and replace ambiguity with answers. To not know feels unfinished, unprepared, or irresponsible.
@@ -12,9 +38,9 @@ There are limits beyond which additional explanation no longer clarifies. More a
 
 At that point, uncertainty is no longer a temporary condition waiting to be eliminated.
 
-It becomes something that must be carried honestly.
+It becomes something that must be carried honestly—while still deciding how to participate.
 
-This chapter approaches not knowing as a discipline rather than a deficiency.
+This chapter approaches not knowing as a discipline rather than a deficiency: recognizing when additional knowing stops helping, and acting anyway where responsibility already has enough to work with.
 
 ### **Why Uncertainty Feels Intolerable**
 
@@ -56,24 +82,6 @@ Not knowing often looks longer—and then recognizes the point at which further 
 
 The discipline lies partly in recognizing that threshold.
 
-### **The Third Conversation**
-
-::: {custom-style="Vignette Block"}
-He had already spoken with two people. Both were thoughtful. Both complicated the original story without replacing it.
-
-A third conversation remained available.
-
-It might help.
-
-It might also become the kind of help that postpones a decision someone else was already waiting on.
-
-He sat with the file open and tried to name the difference between uncertainty that still mattered and uncertainty that no longer changed his obligation.
-
-The harm was already visible in effect. Motives could remain mixed without altering that.
-
-He wrote down what he would do next—provisionally, revisably—and closed the laptop.
-:::
-
 ### **Holding Uncertainty Without Filling It**
 
 The discipline of not knowing is active, not passive.
@@ -88,33 +96,15 @@ But some uncertainty cannot be stabilized.
 
 It can only be carried without distortion.
 
-This does not eliminate judgment.
+### **When Additional Knowing Stops Helping**
 
-It changes the posture of judgment itself.
+Watch what happens once understanding keeps expanding but the visible harm does not move. The question is no longer what else might be learned. It is whether further learning would change what responsibility now requires.
 
-Judgment remains responsive instead of conclusive.
+That is the threshold Chapter 2 named from another angle: explanation that clarifies versus explanation that anesthetizes. Here the issue is timing. You may know enough for responsibility to begin while still knowing far less than you wish.
 
-Revisable instead of final.
+Acting provisionally does not require pretending the account is closed. It requires refusing to treat additional understanding as a substitute for response once the harm is already visible in effect.
 
 **Revisability Preserves Judgment.**
-
-### **How Not Knowing Protects Judgment**
-
-Not knowing creates space for judgment to remain proportionate.
-
-When certainty arrives too quickly, judgment hardens. It resists revision because revision threatens coherence, authority, and emotional stability all at once.
-
-Uncertainty softens that hardening.
-
-It allows people to adjust without collapse, revise without humiliation, and act without pretending moral completion has arrived.
-
-This is not timidity.
-
-It is awareness of limit.
-
-Judgment supported by not knowing is often quieter than certainty.
-
-But it is usually more durable.
 
 ### **The Drift Toward Cynicism**
 

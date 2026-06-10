@@ -2,30 +2,6 @@
 
 ## **The Cost of Explanation**
 
-Explanation feels like care.
-
-When something goes wrong—when people are harmed, systems fail, or events unfold in ways that disturb us—the impulse to explain arrives almost immediately. We ask why. We trace causes. We gather context. We reconstruct incentives, histories, and constraints.
-
-Explanation promises relief. It reassures us that events are not random, that what happened can be understood, and that if we understand enough, perhaps we can prevent it from happening again. And often, explanation genuinely helps. It can interrupt superstition, reduce fear, and soften unfair blame.
-
-But explanation also has a cost—especially when it starts doing moral work it cannot sustain.
-
-### **Why Explanation Feels So Necessary**
-
-Explanation reassures us that the world is intelligible. If something can be explained, it begins to feel less threatening. If it can be understood, perhaps it can be anticipated. If it can be anticipated, perhaps it can be managed.
-
-Explanation also creates distance. It converts pain into structure, events into patterns, and suffering into something that can be analyzed instead of simply endured. This is not a flaw. It is one of the ways human beings survive difficult things.
-
-But explanation can quietly change function over time. What begins as an attempt to understand can become an attempt to avoid grief. Grief has no structure. Explanation does.
-
-### **When Explanation Stops Clarifying**
-
-Explanation crosses a threshold when it stops illuminating harm and starts absorbing it. We begin explaining not to understand what happened, but to soften what responsibility might require—from ourselves or from others. Structural causes begin softening agency. Complexity starts delaying judgment. Inevitability slowly displaces choice.
-
-This often sounds reasonable because much of it is true. But something important begins to shift. Explanation becomes a substitute for moral response. Instead of asking what this requires of us now, we continue asking why it happened—as though a complete enough explanation might eventually remove the need to respond at all.
-
-At institutional scale, this pattern becomes common. Organizations narrate constraints instead of naming tradeoffs. Leaders explain outcomes instead of addressing effects. Processes become more sophisticated while harm remains strangely untouched. Explanation, at that point, is no longer reducing suffering. It is reorganizing it.[^c2-explanation-moral-work]
-
 ### **The Briefing That Explained Everything**
 
 ::: {custom-style="Vignette Block"}
@@ -38,13 +14,45 @@ Outside the building, the same delays continued. The same people were still wait
 On the way out, someone remarked that it was one of the best postmortems they had ever seen. That was true. It was also the moment explanation had completed all the work it knew how to do—and none of the work that still remained.
 :::
 
-The question is not whether an explanation is accurate. The question is whether explanation is still helping responsibility move forward—or quietly replacing it.
+The briefing was praised for its clarity. The harm it described did not shrink.
+
+The harm had become understandable. The harm remained.
+
+That gap is worth noticing before naming what explanation usually promises.
+
+Explanation feels like care.
+
+When something goes wrong—when people are harmed, systems fail, or events unfold in ways that disturb us—the impulse to explain arrives almost immediately. We ask why. We trace causes. We gather context. We reconstruct incentives, histories, and constraints.
+
+Explanation promises relief. It reassures us that events are not random, that what happened can be understood, and that if we understand enough, perhaps we can prevent it from happening again. And often, explanation genuinely helps. It can interrupt superstition, reduce fear, and soften unfair blame.
+
+But explanation also has a cost—especially when it starts doing moral work it cannot sustain.
+
+### **Why Explanation Feels So Necessary**
+
+Notice how often the first question after a crisis is not "What do we do?" It is "What happened?" The desire is understandable. Explanation promises orientation.
+
+If something can be explained, it begins to feel less threatening. If it can be understood, perhaps it can be anticipated. If it can be anticipated, perhaps it can be managed.
+
+Explanation also creates distance. It converts pain into structure, events into patterns, and suffering into something that can be analyzed instead of simply endured. This is not a flaw. It is one of the ways human beings survive difficult things.
+
+But explanation can quietly change function over time. What begins as an attempt to understand can become an attempt to avoid grief. Grief has no structure. Explanation does.
+
+### **When Explanation Stops Clarifying**
+
+Watch what happens once explanations keep arriving but the visible harm does not move. Explanation crosses a threshold when it stops illuminating harm and starts absorbing it. We begin explaining not to understand what happened, but to soften what responsibility might require—from ourselves or from others. Structural causes begin softening agency. Complexity starts delaying judgment. Inevitability slowly displaces choice.
+
+This often sounds reasonable because much of it is true. But something important begins to shift. We keep asking why long after the explanation has stopped changing what we know. The question begins to perform a different function. Explanation can drift into substituting for moral response. Instead of asking what this requires of us now, we continue asking why it happened—as though a complete enough explanation might eventually remove the need to respond at all.
+
+At institutional scale, this pattern becomes common. Organizations narrate constraints instead of naming tradeoffs. Leaders explain outcomes instead of addressing effects. Processes become more sophisticated while harm remains strangely untouched. Explanation, at that point, is no longer reducing suffering. It is reorganizing it.[^c2-explanation-moral-work]
+
+The question is not whether an explanation is accurate. The question is whether explanation is still helping responsibility move forward—or quietly beginning to replace it. Explanation often helps. The failure mode is when it does not know when to stop.
 
 **Explanation Replaces Response.**
 
 ### **Explanation as Protection Against Uncertainty**
 
-Explanation also protects us from not knowing. Uncertainty is uncomfortable because it exposes us to error, regret, and misjudgment. Explanation promises that if we gather enough information, uncertainty will eventually recede.
+Notice how rarely a difficult situation ends because we finally understand it completely. Explanation also protects us from not knowing. Uncertainty is uncomfortable because it exposes us to error, regret, and misjudgment. Explanation promises that if we gather enough information, uncertainty will eventually recede.
 
 But some uncertainty does not recede. Motives remain mixed. Systems remain opaque. Consequences unfold unevenly across time. Under those conditions, explanation can become endless.
 

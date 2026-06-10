@@ -2,6 +2,12 @@
 
 ## **Enough**
 
+You may still be waiting for the argument to settle.
+
+For correctness to finally deliver relief. For explanation to finish its work. For interpretation to close what remains open.
+
+It does not.
+
 This book does not end with resolution.
 
 It does not gather its arguments into a single framework or offer a final way of seeing that makes the world coherent again. That kind of ending would betray what the book has been trying to say.
@@ -60,9 +66,7 @@ This is not failure.
 
 It is the condition of moral life at scale.[^conclusion-epistemic-closure]
 
-Living without epistemic closure means accepting that responsibility does not wait for certainty. Care does not depend on understanding everything. Judgment does not require final answers.
-
-It requires attention—and the willingness to act, or refrain from acting, without guarantees.
+You learn to act—and to refrain—while the account stays open.
 
 ### **Why “Enough” Is Not Resignation**
 
@@ -120,13 +124,7 @@ It is, however, sustainable.
 
 This book does not ask you to agree with it.
 
-It asks something quieter:
-
-- to notice when correctness has become a moral shield
-- to notice when explanation has replaced response
-- to notice when interpretation has stopped helping
-- to notice when speech adds heat but not care
-- to notice when scale is eroding your ability to see people
+It asks something quieter: to catch yourself mid-sentence—when explanation is doing the work care should be doing, when finality is compensating for uncertainty, when interpretation has stopped helping, when speech is adding heat but not contact.
 
 And then, to choose—without certainty—how you will participate anyway.
 
@@ -147,12 +145,6 @@ It is honesty without collapse.
 Care without illusion.
 
 Judgment without finality.
-
-Not certainty—but attention.
-
-Not answers—but responsibility.
-
-Not resolution—but restraint.
 
 That is enough.
 

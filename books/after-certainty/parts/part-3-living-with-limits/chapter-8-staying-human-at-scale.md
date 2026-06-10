@@ -2,42 +2,6 @@
 
 ## **Staying Human at Scale**
 
-Scale changes moral life.
-
-As systems grow, they become more efficient, more abstract, and more powerful—and less personal. Decisions move farther from their effects. Responsibility diffuses across layers of process and procedure. People increasingly appear as categories, metrics, risks, or roles instead of as particular human beings.
-
-This is not primarily a moral failure.
-
-It is how scale functions.
-
-Large systems cannot operate through sustained personal attention. They rely on abstraction because abstraction is what coordination at scale requires.
-
-The danger begins when abstraction stops feeling partial and starts feeling sufficient.
-
-After certainty, one of the central ethical questions becomes this: how do human beings remain human inside systems that cannot fully be?
-
-### **Why Scale Makes People Disappear**
-
-Large systems cannot perceive individuals clearly.
-
-They depend on aggregation, standardization, categorization, and procedural consistency.
-
-These are not signs of cruelty.
-
-They are structural necessities.
-
-But every abstraction carries loss.
-
-When people become data points, harm becomes statistical. When outcomes are averaged across populations, suffering becomes harder to notice. When decisions move farther from consequences, accountability thins without anyone intentionally choosing it.
-
-Distance hides consequence. Attention is what restores contact when abstraction would otherwise complete the moral picture too early.
-
-**Attention Restores Contact.**
-
-No single person creates this dynamic completely.
-
-Which is precisely why resisting it becomes so difficult.[^c8-moral-distance]
-
 ### **The Exception Report**
 
 ::: {custom-style="Vignette Block"}
@@ -62,33 +26,57 @@ That was the extent of her leverage.
 She used it without pretending it was more.
 :::
 
-### **The False Hope of Humanizing Systems**
+The dashboard stayed green. The exceptions did not.
 
-One common response to abstraction is the attempt to “humanize” systems.
+The rollout continued. The metric did not move. And yet something had been preserved that abstraction would otherwise have erased.
 
-Organizations introduce empathy initiatives. Processes are redesigned to feel more personal. Mission statements emphasize care, values, and belonging.
+That gap is worth noticing before naming what attention usually promises.
 
-These efforts are often sincere.
+You may not be able to fix the system. You may not even be able to change the outcome. But you can refuse to let abstraction become the whole story.
 
-Sometimes they even help at the margins.
+**Attention does not guarantee correction. It prevents total moral disappearance.**
 
-But they rarely alter the underlying structure.
+Scale changes moral life.
 
-Systems operate by extending coordination beyond the limits of direct human attention. Asking them to behave fully humanely is often asking them to exceed the conditions that allow them to function at all.
+As systems grow, they become more efficient, more abstract, and more powerful—and less personal. Decisions move farther from their effects. Responsibility diffuses across layers of process and procedure. People increasingly appear as categories, metrics, risks, or roles instead of as particular human beings.
 
-When these efforts fail, disappointment follows—not necessarily because people lack compassion, but because the expectation itself was misplaced.
+This is not primarily a moral failure.
 
-After certainty, the goal changes.
+It is how scale functions.
 
-The question is no longer how to make systems human.
+Large systems cannot operate through sustained personal attention. They rely on abstraction because abstraction is what coordination at scale requires.
 
-It becomes how to remain human while participating inside them.
+The danger begins when abstraction stops feeling partial and starts feeling sufficient.
 
-### **What Staying Human Actually Requires**
+After certainty, the central question is not how to make systems human. It is how to preserve attention once correction has already reached its limit.
 
-Staying human at scale is not primarily emotional.
+### **Why Scale Makes People Disappear**
 
-It does not require endless empathy. It does not demand constant emotional availability or the ability to carry every visible harm personally.
+Notice what happens when aggregate performance improves while a small cluster of cases still does not fit the trend. The system has no reason to look sideways. The harm has not become invisible. It has become statistically ignorable.
+
+Large systems depend on aggregation, standardization, categorization, and procedural consistency. These are not signs of cruelty. They are structural necessities.
+
+But every abstraction carries loss.
+
+When people become data points, harm becomes statistical. When outcomes are averaged across populations, suffering becomes harder to notice. When decisions move farther from consequences, accountability thins without anyone intentionally choosing it.
+
+Distance hides consequence. Attention is what restores contact when abstraction would otherwise complete the moral picture too early.
+
+**Attention Restores Contact.**
+
+No single person creates this dynamic completely.
+
+Which is precisely why resisting it becomes so difficult.[^c8-moral-distance]
+
+### **When Humanizing Systems Is Not Enough**
+
+Organizations often respond to abstraction with empathy initiatives, redesigned processes, and mission statements emphasizing care. These efforts are often sincere. Sometimes they help at the margins. They rarely alter the underlying structure.
+
+That disappointment is familiar. Many readers already suspect systems cannot fully be human. The harder question is why noticing still matters when the metric does not change.
+
+### **What Attention Actually Requires**
+
+Staying human at scale is not primarily emotional. It does not require endless empathy or the ability to carry every visible harm personally.
 
 It requires attention.
 
@@ -103,6 +91,12 @@ It reintroduces consequence where abstraction would otherwise conceal it.
 This kind of attention does not scale well.
 
 That is precisely why it matters.
+
+When nothing visibly changes afterward, what remains is not victory.
+
+It is contact.
+
+Proof that reality has not yet disappeared completely behind the dashboard.
 
 ### **Refusing Replacement Logic**
 
@@ -120,7 +114,7 @@ Staying human requires resisting that equivalence.
 
 It means recognizing that systems functioning normally can still produce deep injury quietly and repeatedly.
 
-**Blame Compresses Complexity** at the individual level.
+Blame compresses complexity at the individual level.
 
 Scale compresses complexity structurally.
 
@@ -164,21 +158,17 @@ No metric changes. No policy shifts. No recognition arrives.
 
 But something important is still preserved: the ability to continue seeing people as people, even when the surrounding structure increasingly cannot.
 
-### **Leadership and Precedent**
+### **When Authority Extends Abstraction**
 
-The danger of authority is not persuasion alone.
+The danger of abstraction does not stop with systems. It also appears in authority.
 
-It is what happens once other people begin acting in your name.
+Once other people begin acting in your name, harm no longer requires your direct decision. It only requires the continuation of permissions you normalized, ambiguities you left unresolved, tradeoffs you treated as acceptable, and precedents others now inherit automatically.
 
-At that point, harm no longer requires your direct decision. It only requires the continuation of permissions you normalized, ambiguities you left unresolved, tradeoffs you treated as acceptable, and precedents others now inherit automatically.
+Leadership is one name for that problem when it arrives in public life. The deeper issue is the same: attention must survive the moment when your influence outlasts your presence.[^c8-precedent-at-scale]
 
-This is why leadership cannot be judged only by visible intention while someone remains present.
+### **What Attention Preserves**
 
-Leadership must also be judged by what becomes easier for others to continue afterward.[^c8-precedent-at-scale]
-
-### **What Staying Human Preserves**
-
-When people remain human at scale, several things remain possible.
+When attention survives at scale, several things remain possible.
 
 You can participate without fully surrendering judgment.
 
@@ -190,8 +180,7 @@ Staying human does not make systems humane.
 
 It prevents abstraction from becoming total.
 
-And after certainty, that prevention matters more than many forms of moral certainty ever did.
-
+The exception report did not change the rollout. It changed what could still be seen. After certainty, that preservation matters more than many forms of moral certainty ever did.
 
 [^c8-moral-distance]: See Zygmunt Bauman, *Modernity and the Holocaust* (Ithaca, NY: Cornell University Press, 1989); Hannah Arendt, *Eichmann in Jerusalem* (New York: Viking Press, 1963).
 [^c8-productive-friction]: See James C. Scott, *Seeing Like a State* (New Haven, CT: Yale University Press, 1998).

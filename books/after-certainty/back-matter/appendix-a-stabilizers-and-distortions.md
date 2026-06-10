@@ -84,4 +84,6 @@ These patterns are not intended to eliminate uncertainty. They are meant to help
 
 Recognition does not solve these tensions. But it can help people remain revisable without collapse, responsible without omnipotence, serious without severity, and engaged without illusion.
 
-After certainty, that may be enough.
+## **How the Patterns Interact**
+
+These patterns rarely appear alone. Correctness hardening into identity often invites explanation to replace response. Explanation can encourage finality to compensate for uncertainty. Speech escalation can intensify blame while attention weakens under scale. The patterns are best understood as a field rather than as isolated failures.
