@@ -156,35 +156,13 @@ It is recognition of the limits of moral closure under scale.[^c1-pragmatist-tru
 
 ### **What Replaces Correctness**
 
-Nothing simple replaces it.
+Nothing simple replaces it. The question changes instead.
 
-The question changes instead.
+People stop asking whether they are finally right and begin asking what they might still be missing. Proportion matters more. Reversibility matters more. Willingness to revise matters more. This is not weaker judgment. It is less brittle judgment.
 
-People stop asking whether they are finally right and begin asking what they might still be missing.
+Correctness is often the first stabilizer that must loosen—not because it is false, but because it becomes overburdened. As long as people believe being right will finally resolve moral tension, they will keep explaining after explanation has stopped helping and sorting people into camps when care requires something slower and more revisable.
 
-That shift changes several things at once.
-
-Proportion matters more.
-
-Reversibility matters more.
-
-Willingness to revise matters more.
-
-Judgment becomes less concerned with defending certainty and more concerned with remaining responsive.
-
-This is not weaker judgment.
-
-It is less brittle judgment.
-
-### **The First Thing That Has to Loosen**
-
-Correctness is often the first stabilizer that must loosen—not because it is false, but because it becomes overburdened.
-
-As long as people believe being right will finally resolve moral tension, they will keep pushing interpretation past its limits. They will keep explaining after explanation has stopped helping. They will keep sorting people into moral camps when care requires something slower, more revisable, and less emotionally satisfying.
-
-Letting go of correctness is not the end of judgment.
-
-It is the beginning of a different relationship to judgment: one that remains serious without pretending to become final.
+Letting go of correctness is not the end of judgment. It is the beginning of a different relationship to judgment: one that remains serious without pretending to become final.
 
 [^c1-motivated-reasoning]: Dan M. Kahan, "Cultural Cognition and Public Policy," *Yale Law & Policy Review* 24 (2006): 149–173.
 [^c1-scale-fragmentation]: See Charles Perrow, *Normal Accidents: Living with High-Risk Technologies* (New York: Basic Books, 1984); Max Weber, *Economy and Society*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).

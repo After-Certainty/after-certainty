@@ -20,12 +20,6 @@ The case had been closed. The situation had not.
 
 That gap is worth noticing before naming what judgment usually promises.
 
-Everyone in the room had wanted permission to stop. The worry had taken something else.
-
-The decision had given everyone permission to move on. That is one of the things judgment often promises.
-
-An ending.
-
 To judge is to decide. To draw a line. To close the question and move forward with confidence that enough has been seen, understood, and weighed. For a long time, judgment was closely tied to certainty. If the facts were clear enough, the reasoning sound enough, and the moral categories stable enough, then judgment could feel complete.
 
 After certainty, that kind of completion becomes harder to sustain. Judgment does not disappear. But it changes shape. If understanding remains partial, explanation incomplete, and moral sorting unreliable, then judgment can no longer pretend to finish its work entirely. It must act without claiming final resolution.
@@ -85,6 +79,8 @@ Judgment without finality offers no absolution. It does not guarantee understand
 ### **Judgment as Ongoing Moral Contact**
 
 Instead of retreating into abstraction or escalating into domination, this practice stays close to consequences—people, effects, tradeoffs, and limits. It refuses to outsource responsibility entirely to principles, narratives, or systems. It survives most honestly where consequences stay visible.
+
+The file had been marked closed. The harm was still unfolding.
 
 ### **What This Makes Possible**
 

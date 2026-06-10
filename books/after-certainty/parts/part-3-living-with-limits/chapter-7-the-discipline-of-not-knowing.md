@@ -48,13 +48,11 @@ Uncertainty exposes vulnerability.
 
 To admit not knowing is to risk error, criticism, loss of authority, and appearing unprepared when action is still required.
 
-Under pressure, uncertainty quickly becomes emotionally expensive.
-
-People begin filling gaps with assumption. Confidence gets borrowed from group narratives. Explanations harden before understanding actually stabilizes.
+Under pressure, uncertainty becomes socially expensive. To remain provisional can look like evasion. People fill gaps with assumption and borrow confidence from group narratives—not because the situation has closed, but because open questions start costing status.
 
 **Finality Compensates for Uncertainty.**
 
-The discomfort itself is real.
+Here the compensation is often rhetorical: certainty performed to quiet the room before understanding has stabilized.
 
 But mistaking discomfort for irresponsibility causes people to trade honesty for reassurance.
 
@@ -78,7 +76,7 @@ Indifference looks away.
 
 Not knowing often looks longer—and then recognizes the point at which further looking no longer changes what responsibility requires.
 
-**Explanation Replaces Response** when understanding continues expanding after judgment already has enough contact with consequence to act.
+At that point, explanation no longer clarifies obligation—it anesthetizes it. The analysis continues even after responsibility already has enough contact with consequence to begin acting.
 
 The discipline lies partly in recognizing that threshold.
 
@@ -100,9 +98,9 @@ It can only be carried without distortion.
 
 Watch what happens once understanding keeps expanding but the visible harm does not move. The question is no longer what else might be learned. It is whether further learning would change what responsibility now requires.
 
-That is the threshold Chapter 2 named from another angle: explanation that clarifies versus explanation that anesthetizes. Here the issue is timing. You may know enough for responsibility to begin while still knowing far less than you wish.
+That is the same threshold from another angle: explanation that clarifies versus explanation that anesthetizes. Here the issue is timing. You may know enough for responsibility to begin while still knowing far less than you wish.
 
-Acting provisionally does not require pretending the account is closed. It requires refusing to treat additional understanding as a substitute for response once the harm is already visible in effect.
+Acting provisionally does not require pretending the account is closed. It requires refusing to treat additional understanding as a substitute for response once the harm is already visible in effect—and treating provisional action as judgment, not as failure to finish thinking.
 
 **Revisability Preserves Judgment.**
 
@@ -138,9 +136,7 @@ Sometimes it means declining escalation.
 
 Sometimes it means allowing silence to be misread rather than filling uncertainty with performance.
 
-**Speech Escalates Faster Than Meaning.**
-
-The pressure to sound certain often exceeds the possibility of remaining accurate.
+When uncertainty must be carried in public, the pressure to sound finished often exceeds the pressure to remain accurate—and disciplined speech requires restraint where the medium rewards escalation.
 
 Practicing not knowing in public means refusing that pressure without retreating from responsibility altogether.
 

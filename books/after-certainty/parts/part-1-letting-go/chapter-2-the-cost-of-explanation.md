@@ -14,10 +14,6 @@ Outside the building, the same delays continued. The same people were still wait
 On the way out, someone remarked that it was one of the best postmortems they had ever seen. That was true. It was also the moment explanation had completed all the work it knew how to do—and none of the work that still remained.
 :::
 
-The briefing was praised for its clarity. The harm it described did not shrink.
-
-The harm had become understandable. The harm remained.
-
 That gap is worth noticing before naming what explanation usually promises.
 
 Explanation feels like care.
@@ -50,6 +46,8 @@ The question is not whether an explanation is accurate. The question is whether 
 
 **Explanation Replaces Response.**
 
+The briefing had done its work. The people waiting outside had not.
+
 ### **Explanation as Protection Against Uncertainty**
 
 Notice how rarely a difficult situation ends because we finally understand it completely. Explanation also protects us from not knowing. Uncertainty is uncomfortable because it exposes us to error, regret, and misjudgment. Explanation promises that if we gather enough information, uncertainty will eventually recede.
@@ -74,21 +72,9 @@ This temptation is especially strong for serious people. Explanation feels caref
 
 ### **Letting Explanation Stop**
 
-This is not an argument against explanation. It is an argument against asking explanation to carry moral burdens it cannot carry. Explanation should inform judgment, not replace it. It should clarify responsibility, not dissolve it. It should deepen response, not indefinitely postpone it.
+This is not an argument against explanation. It is an argument against asking explanation to carry moral burdens it cannot carry. Explanation should inform judgment, not replace it—and it should know when to stop, even when stopping feels irresponsible.
 
-Letting explanation stop does not mean rejecting complexity. It means recognizing when enough complexity has already been established—and when further analysis is serving emotional comfort more than care. This is difficult because explanation rarely announces when it has become excessive. It continues feeling virtuous long after it stops helping.
-
-### **What Remains After Explanation**
-
-When explanation reaches its limit, something else must take over—not certainty, not confidence, not mastery.
-
-What remains is responsiveness: attention to effects, willingness to revise, and readiness to remain answerable even without full coherence. Explanation tells us how events unfolded. Responsiveness governs how we participate in what happens next.
-
-That shift is uncomfortable. It removes the shelter of coherence. It exposes us to uncertainty without the reassurance of full understanding. But it also returns moral life to human scale—where care remains possible even when explanation is incomplete.
-
-### **The Cost, and the Choice**
-
-Explanation is not free. Its cost is ethical. When overextended, explanation delays response, absorbs grief, and softens responsibility until nothing concrete remains to act upon.
+When explanation reaches its limit, responsiveness takes over: attention to effects, willingness to revise, readiness to remain answerable without full coherence. That shift is uncomfortable. It removes the shelter of coherence. But it returns moral life to human scale—where care remains possible even when explanation is incomplete.
 
 The difference is not between explanation and ignorance. It is between explanation that clarifies and explanation that anesthetizes. After certainty, we do not stop explaining. We stop asking explanation to save us.
 

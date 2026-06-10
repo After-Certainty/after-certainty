@@ -44,6 +44,8 @@ This kind of responsibility does not promise effectiveness. It promises presence
 
 **Responsibility Persists Beyond Control.**
 
+She still drove over on a Tuesday she could have protected for work.
+
 Responsibility without control is not heroic. It is steady.
 
 ### **The Relief of Innocence**

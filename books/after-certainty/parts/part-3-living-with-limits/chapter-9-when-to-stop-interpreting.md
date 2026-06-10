@@ -72,13 +72,11 @@ But delay has consequences too.
 
 Harm continues while interpretation expands. Patterns repeat. Power consolidates quietly behind the language of openness and complexity.
 
-And eventually, the refusal to judge begins functioning as permission—not intentionally, but structurally.
+And eventually, the refusal to judge begins functioning as permission—not intentionally, but structurally. The interpreter gains moral credit for patience while those closest to the harm carry the cost of delay.
 
-**Explanation Replaces Response.**
+**Explanation Replaces Response** when ongoing interpretation earns moral credit for patience while harm continues unchanged.
 
-This shift is difficult to recognize while it is happening.
-
-Interpretation rarely announces when it has crossed the line. It continues feeling thoughtful and morally serious right up until the moment it no longer helps anyone except the interpreter.
+This shift is difficult to recognize while it is happening because interpretation continues feeling thoughtful and morally serious right up until the moment it no longer helps anyone except the interpreter.
 
 ### **Clarity Without Completion**
 
@@ -114,19 +112,13 @@ Crossing this threshold does not produce certainty.
 
 It produces orientation.
 
-You may still revise later.
-
-You may still learn more.
-
-You may still misunderstand parts of the situation entirely.
-
 But you are no longer suspended between endless interpretation and avoided judgment.
 
 **Revisability Preserves Judgment.**
 
-Stopping interpretation does not close the moral account.
+That includes the decision to stop. You may still revise later—including whether interpretation should resume once new harm becomes visible.
 
-It accepts that the account may never close completely.
+Stopping interpretation does not close the moral account. It accepts that the account may never close completely, and that the stop itself remains answerable to what follows.
 
 ### **Not Knowing Is Not the Same as Not Seeing**
 
@@ -175,24 +167,6 @@ To stop interpreting is to accept several things simultaneously: you may never f
 This is not resolution.
 
 It is enough clarity to act—or refrain from acting—without pretending the moral account has been settled permanently.
-
-### **Knowing When Interpretation Is No Longer Care**
-
-Interpretation begins as care.
-
-It becomes harmful when it begins replacing response.
-
-After certainty, one of the most important ethical capacities is recognizing that transition—not precisely, not confidently, but honestly.
-
-Knowing when to stop interpreting is not intellectual failure.
-
-It is moral discernment.
-
-It accepts that explanation has limits.
-
-It accepts that judgment cannot wait forever.
-
-And it accepts that responsibility sometimes requires letting understanding remain unfinished.
 
 The harm is often not waiting for a better explanation.
 
