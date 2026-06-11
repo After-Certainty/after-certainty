@@ -37,4 +37,4 @@ This book offers neither a system nor a program. Its goal is recognition more th
 
 Some parts of the book may feel unresolved or resistant to closure. That is intentional. Often the difficulty lies less in the writing itself than in the kind of limit the argument is trying to name. When the book refuses an easy remedy, that refusal is usually part of the point.
 
-This essay is intentionally concentrated (~11–13k words). The deeper diagnostic work lives elsewhere in the series.
+This essay is intentionally concentrated. The deeper diagnostic work lives elsewhere in the series.

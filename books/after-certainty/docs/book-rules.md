@@ -6,9 +6,9 @@ Architectural constraints for **After Certainty** (*How to Live and Judge When U
 
 ## Book scope and structure
 
-### Target length
+### Scope
 
-- Expanded essay edition (~11–13k words; grounding pass May 2026)
+- Concentrated essay edition
 - 3 parts, 9 chapters, introduction and conclusion
 
 ### Markdown file structure

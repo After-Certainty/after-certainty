@@ -130,7 +130,7 @@ After: Begin with a meeting, disagreement, correction, or moment where being rig
 
 ## SUCCESS CRITERIA
 
-A successful revision makes readers feel "I arrived at this insight" instead of "The author explained this insight." The book remains intellectually rigorous while becoming slightly more exploratory, human, and memorable—without becoming literary, memoir-like, or longer than the essay band (~11–13k words).
+A successful revision makes readers feel "I arrived at this insight" instead of "The author explained this insight." The book remains intellectually rigorous while becoming slightly more exploratory, human, and memorable—without becoming literary, memoir-like, or substantially longer without earned discovery.
 
 ## PIPELINE
 
