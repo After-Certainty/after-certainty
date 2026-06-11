@@ -8,29 +8,31 @@ And yet relief does not arrive.
 
 More analysis no longer resolves the tension. More information no longer restores stability. Understanding continues to expand while judgment remains unsettled.
 
-Part I begins there.
+When relief does not arrive, the instinct is usually not to let go.
 
-When moral life starts feeling unstable, most people reach for familiar forms of reassurance. We try to become more correct. We explain events until they feel intelligible. We sort people into heroes and villains so responsibility has somewhere clear to land.
+It is to hold tighter.
+
+To become more certain.
+
+To find the explanation that finally settles the matter.
+
+To identify the people who caused the problem so responsibility has somewhere clear to land.
 
 These responses are not foolish.
 
 Most begin as attempts to care responsibly about the world.
 
-But over time, stabilizers can begin drifting under pressure. Correctness hardens into identity. Explanation replaces response. Admiration becomes insulation while blame compresses complexity.
+The difficulty is that these stabilizers begin carrying burdens they were never designed to carry. They are asked not merely to help us navigate uncertainty, but to remove it.
 
-The problem is not that these instincts are entirely wrong. The problem is that they begin carrying more moral weight than they can sustain—especially under conditions of scale, fragmentation, and delayed consequence, where no one can fully see the whole picture at once.
+What begins as care can slowly become something else.
 
-The chapters that follow trace three forms of loosening.
+Correctness hardens into identity. Explanation begins replacing response. Admiration becomes insulation while blame compresses complexity.
 
-The first concerns correctness—what happens when being right becomes more important than remaining revisable.
+None of this means abandoning truth, understanding, or moral seriousness.
 
-The second concerns explanation—what happens when understanding quietly begins replacing response.
+The question is what has to loosen before judgment can become honest again—provisional, proportionate, and responsive to effects rather than to the emotional relief of closure.
 
-The third concerns moral sorting—what happens when admiration and condemnation simplify people faster than judgment can keep pace.
-
-None of these chapters argues for abandoning truth, understanding, or moral seriousness.
-
-The question is narrower than that: what has to loosen before judgment can become honest again—provisional, proportionate, and responsive to effects rather than to the emotional relief of closure?
+The chapters that follow take up three of these pressures: when being right matters more than remaining revisable; when understanding begins substituting for response; when heroes and villains simplify people faster than judgment can keep pace.
 
 What follows is not demolition.
 

@@ -2,11 +2,11 @@
 
 ## Current phase
 
-**Pattern deepening pass** — repeat invocations gain new dimension without deletion
+**Discovery deepening pass** — Ch 1–2 exemplar applied through conclusion *(complete)*
 
 ## Active branch
 
-`after-certainty/pattern-deepening-pass`
+`after-certainty/essayistic-exploration`
 
 ## Manuscript hub
 
@@ -24,41 +24,49 @@
 
 ## Unit progress
 
-| Unit | Phase | Essay discovery | Notes |
-|------|-------|-----------------|-------|
-| Title Page | draft | n/a | Generated via `book.yml` |
-| Copyright | draft | n/a | Generated via `book.yml` |
-| Introduction | draft | complete | Compression: orientation + merged closure into Shape |
-| How to Read | draft | complete | Orientation only; lean series/practice division |
-| Ch 1 — The End of Correctness | draft | complete | Single closing landing; merged What Replaces sections |
-| Ch 2 — The Cost of Explanation | draft | complete | Single ending arc; clarifies vs anesthetizes |
-| Ch 3 — Releasing Heroes and Villains | draft | complete | Comment thread vignette; observation-led middle; ending trimmed |
-| Ch 4 — Judgment Without Finality | draft | complete | Closed-case vignette; story-thread into thesis; closure/reality spine |
-| Ch 5 — Responsibility Without Control | draft | complete | Visit vignette; leadership as special case; care-without-control spine |
-| Ch 6 — Speech That Does Less Harm | draft | complete | Visibility→proportion throughline; merged silence/closure sections |
-| Ch 7 — The Discipline of Not Knowing | draft | complete | 2 bold patterns; Explanation/Speech woven |
-| Ch 8 — Staying Human at Scale | draft | complete | Compression; abstraction landing + exception report |
-| Ch 9 — When to Stop Interpreting | draft | complete | Qualified Explanation; reordered Revisability |
-| Conclusion — Enough | draft | complete | Concrete noticing restored; ending preserved |
-| Appendix A | draft | complete | Pattern interaction section; field guide |
-| Bibliography | draft | n/a | Chicago-style; linked from index |
+| Unit | Phase | Essay discovery | Curiosity expansion | Recognition preservation | Notes |
+|------|-------|-----------------|------------------------|--------------------------|-------|
+| Title Page | draft | n/a | n/a | n/a | Generated via `book.yml` |
+| Copyright | draft | n/a | n/a | n/a | Generated via `book.yml` |
+| Introduction | draft | complete | complete | complete | Author lock; reading→permission arc; trimmed book-voice sections |
+| How to Read | draft | complete | n/a | n/a | Orientation only; out of scope |
+| Ch 1 — The End of Correctness | draft | complete | complete | complete | Author lock; puzzle: why did winning feel dangerous |
+| Ch 2 — The Cost of Explanation | draft | complete | complete | complete | Author lock; puzzle: why did the best postmortem leave harm untouched |
+| Ch 3 — Releasing Heroes and Villains | draft | complete | complete | complete | Author lock; puzzle: why sorting when story stops fitting; thread through |
+| Ch 4 — Judgment Without Finality | draft | complete | complete | complete | Author lock; opening tightened (merged closure loops) |
+| Ch 5 — Responsibility Without Control | draft | complete | complete | complete | Author lock; rhythm: heavier once results disappear |
+| Ch 6 — Speech That Does Less Harm | draft | complete | complete | complete | Author lock; puzzle: statement succeeds inside, fails outside; extractability observation |
+| Ch 7 — The Discipline of Not Knowing | draft | complete | complete | complete | Author lock; puzzle: third conversation when harm visible; gathering context as delay |
+| Ch 8 — Staying Human at Scale | draft | complete | complete | complete | Author lock; puzzle: exceptions louder than dashboard; attention section exploratory |
+| Ch 9 — When to Stop Interpreting | draft | complete | complete | complete | Author lock; puzzle: moral prestige of interpretation; working group through |
+| Conclusion — Enough | draft | complete | complete | complete | Author lock; concrete before closure posture; merged final ask into Enough Again |
+| Appendix A | draft | complete | n/a | n/a | Pattern interaction section; field guide |
+| Bibliography | draft | n/a | n/a | n/a | Chicago-style; linked from index |
 
 ## Author gate
 
-## Edition band
+## Word count
 
-**Expanded essay:** ~11–13k words (grounding pass May 2026). Essay discovery pass: reorder first, add second (~0–150 words/unit).
+Manuscript files under `books/after-certainty/` (Jun 2026; same counter as build manifest):
 
-Checklist: [`author-read-through-gate.md`](author-read-through-gate.md) — re-run after essay discovery pilot (intro + Ch 1–3) for overcorrection review.
+| Scope | Words |
+|-------|------:|
+| **Manuscript total** | ~19,3k |
+| Chapters (9) | 13,628 |
+| Front matter (intro, how-to-read) | 2,564 |
+| Part bridges (3) | 849 |
+| Conclusion | 1,082 |
+| Appendix A + bibliography | 1,419 |
+| Title page + copyright (generated) | 106 |
+
+Core reading prose (intro through conclusion, incl. bridges): **21,593**.
+
+Note: `after-certainty.manifest.json` also counts `index.md` links to `docs/series-guide.md` and sibling book indexes (~18.4k); use manuscript totals above for edition scale.
+
+Checklist: [`author-read-through-gate.md`](author-read-through-gate.md) — re-run after curiosity expansion pass.
 
 ## Next actions
 
-1. Pattern deepening pass on repeat invocations (Ch 7–9, Part II bridge)
-2. Export smoke test (`make build-book DIR=books/after-certainty`)
+1. Author review discovery deepening pass (ch 1–9 + conclusion)
+2. Re-run author-read-through-gate
 3. Optional PR when author approves
-
-## Rough scale
-
-- ~9,700 words pre-grounding (May 2026)
-- ~11,212 words post-grounding (May 2026; 8 vignettes + pacing pass)
-- Essay discovery pass: light front-load across all units (Jun 2026)

@@ -8,8 +8,10 @@ Focused editing workflow for the grounding branch. Run one pass at a time; compl
 2. **Asymmetry** — Vary openings, length, delayed reframe *(complete)*
 3. **Cohesion** — Vignettes must not smuggle new moral certainty; preserve revisability *(complete)*
 4. **Feedback pass 2** — Author drafts incorporated file-by-file *(complete)*
-5. **Essay discovery** — Delay thesis at opening; preserve compression at ending; see `docs/agents/01-essay-discovery-revision.md`
-6. **Export** — `make build-book DIR=books/after-certainty`
+5. **Essay discovery** — Delay thesis at opening; preserve compression at ending; see `docs/agents/01-essay-discovery-revision.md` *(complete)*
+6. **Curiosity expansion** — Expand intellectual wandering between interesting questions and their answers; see `docs/agents/02-curiosity-expansion.md`
+7. **Recognition preservation** — Protect recognitions and pattern prominence; compress over-expansion; see `docs/agents/03-recognition-preservation.md`
+8. **Export** — `make build-book DIR=books/after-certainty`
 
 ## Pass 1 — Grounding
 
@@ -58,9 +60,37 @@ Check for:
 
 Spec: [`docs/agents/01-essay-discovery-revision.md`](agents/01-essay-discovery-revision.md)
 
-## Pass 6 — Export
+## Pass 6 — Curiosity expansion
+
+**Goal:** Expand intellectual wandering between interesting questions and their answers without changing the underlying argument.
+
+Check for:
+
+- Interesting questions no longer answered within 1–3 paragraphs
+- Investigation before conclusion (obvious answer rejected, implications followed)
+- Writer appears curious—investigating, not lecturing
+- Patterns earned through wandering (`**Pattern Name.**`)
+- Localized expansion at question-and-answer choke points (~200–500 words per expansion)
+
+Spec: [`docs/agents/02-curiosity-expansion.md`](agents/02-curiosity-expansion.md)
+
+## Pass 7 — Recognition preservation
+
+**Goal:** Exploration deepens recognitions without burying pattern language.
+
+Check for:
+
+- Recognition clearer and deeper than before Agent 02
+- Pattern feels discovered and remains memorable
+- Over-expansion cut (30% compression test)
+- No repetition through wandering
+- Kevin's voice preserved — not literary essayist drift
+
+Spec: [`docs/agents/03-recognition-preservation.md`](agents/03-recognition-preservation.md)
+
+## Pass 8 — Export
 
 **Goal:** Release-ready build.
 
 - `make build-book DIR=books/after-certainty`
-- Word count recorded in `docs/status.md` (~11–13k target)
+- Word count recorded in `docs/status.md` (from build manifest)

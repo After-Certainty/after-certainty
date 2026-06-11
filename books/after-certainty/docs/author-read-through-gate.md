@@ -1,6 +1,6 @@
 # Author read-through gate — After Certainty
 
-**Edition:** Essay (~9.7k words) — lock essay band; no expansion gate before Phase 5.
+**Edition:** Concentrated essay — capstone in the diagnostic series.
 
 ## Part I–III cohesion
 
@@ -21,4 +21,4 @@
 | Date | |
 | Notes | |
 
-When complete, update [`status.md`](status.md) (lock essay band) and proceed with Phase 5.
+When complete, update [`status.md`](status.md) and proceed with export.

@@ -1,8 +1,10 @@
 # After Certainty — agent specs
 
-**One revision agent** for essay-discovery revision on the manuscript. Copy a spec into a Cursor agent prompt with the **target unit file** and linked docs, or use the [chapter-pipeline](./chapter-pipeline.md) template.
+**Three revision agents** for the manuscript. Copy a spec into a Cursor agent prompt with the **target unit file** and linked docs, or use the [chapter-pipeline](./chapter-pipeline.md) template.
 
-**Default:** run **[01](./01-essay-discovery-revision.md)** once per unit in reading order.
+**Default (current phase):** run **[02](./02-curiosity-expansion.md)** then **[03](./03-recognition-preservation.md)** per unit in reading order.
+
+**Prior pass (complete):** **[01](./01-essay-discovery-revision.md)** — essay discovery revision (surgical reorder; merged to main).
 
 **House rules (agents do not override):**  
 [`docs/book-rules.md`](../book-rules.md) → [`docs/drafting-process.md`](../drafting-process.md) → [`index.md`](../../index.md)
@@ -13,15 +15,21 @@
 
 > Understanding alone cannot settle how to live, judge, or act. What remains practicable is judgment without finality, responsibility without control, and speech that does less harm—under limits we cannot remove.
 
-**Core mantra for this agent:** *Delay the thesis at the beginning. Preserve compression at the end.*
+**Core mantra for agents 02–03:** *Expand the investigation. Earn the pattern. Preserve recognition.*
 
 ---
 
-## Agent
+## Agents
 
 | # | Agent | Responsibility |
 |---|--------|----------------|
-| **01** | [Essay discovery revision](./01-essay-discovery-revision.md) | Reorder openings for discovery; trust existing vignettes; earn abstractions; preserve ending compression; surgical pass only (~20% more discovery) |
+| **01** | [Essay discovery revision](./01-essay-discovery-revision.md) | *(complete)* Reorder openings for discovery; surgical pass (~20% more discovery) |
+| **02** | [Curiosity expansion](./02-curiosity-expansion.md) | Expand intellectual wandering between interesting questions and their answers |
+| **03** | [Recognition preservation](./03-recognition-preservation.md) | Protect recognitions and pattern prominence; compress over-expansion without cutting earned investigation |
+
+**Pipeline per unit:** 02 → 03 (one file per session unless author requests batch).
+
+**Agent 02 core instruction:** Find every place where the manuscript poses a genuinely interesting question and answers it within the next 1–3 paragraphs. Expand the space between question and answer. Explore before concluding.
 
 ---
 
@@ -45,9 +53,9 @@ Work **one file per agent session** unless author requests a batch.
 
 **Out of scope for this pass:** generated title/copyright, `how-to-read-this-book.md` (unless requested), part bridges, appendix, bibliography.
 
-**Branch naming:** `after-certainty/essay-discovery-revision`
+**Branch naming:** `after-certainty/essayistic-exploration`
 
-**Status:** Update [`docs/status.md`](../status.md) when a unit finishes essay-discovery revision.
+**Status:** Update [`docs/status.md`](../status.md) when a unit finishes agents 02 and 03.
 
 **Validate:**
 
@@ -74,4 +82,6 @@ Skim for overlap with:
 | # | File |
 |---|------|
 | **01** | `01-essay-discovery-revision.md` |
+| **02** | `02-curiosity-expansion.md` |
+| **03** | `03-recognition-preservation.md` |
 | — | `chapter-pipeline.md` |
