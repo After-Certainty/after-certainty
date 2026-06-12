@@ -4,27 +4,27 @@
 
 ### **The Visit**
 
-::: {custom-style="Vignette Block"}
 She no longer agreed with him about almost anything important. Politics. Parenting. What counted as a reasonable risk. Conversations still ended too quickly or lasted too long.
 
 He was getting older. Appointments multiplied. Small confusions appeared and did not always resolve.
+
+She had made this drive before.
 
 She drove over on a Tuesday she could have protected for work. She sat at the kitchen table and listened to a story she had already heard. She fixed what was quietly fixable without announcing it. She avoided the subjects that would have turned care into combat.
 
 Driving home later, she wondered—as she often did—whether this was loyalty or avoidance. Whether staying present meant condoning. Whether distance would have been morally cleaner.
 
 No clean answer arrived. Only a narrower one: he was still her father, harm was still accumulating, and she could still show up without pretending agreement restored control.
-:::
 
 She could not fix what was breaking. She could not restore agreement. She could still choose how to remain present.
 
 That gap—between what care requires and what control allows—is where responsibility often becomes hardest to name.
 
-Why does responsibility start feeling unfair the moment control disappears?
+Responsibility starts feeling unfair the moment control disappears.
 
 What makes care harder to carry when you cannot fix what is breaking?
 
-At first the answer seems obvious. Responsibility should connect to influence. If your choices cannot change outcomes, carrying responsibility begins feeling like being punished for conditions you did not create.
+Most people would assume responsibility should connect to influence. If your choices cannot change outcomes, carrying responsibility begins feeling like being punished for conditions you did not create.
 
 That logic is persuasive—especially when the harm is large and the leverage is small.
 
@@ -36,11 +36,17 @@ The harder question is what responsibility means when contact remains possible a
 
 ### **Why Responsibility Feels Unfair Without Power**
 
-Why does responsibility feel heavier once results disappear?
+Responsibility feels heavier once results disappear.
 
-At first the answer seems obvious. If I am responsible, then my choices should matter in ways I can recognize. I should be able to point to an outcome and say that something changed because of me.
+The natural conclusion is that if I am responsible, then my choices should matter in ways I can recognize. I should be able to point to an outcome and say that something changed because of me.
 
 That logic is persuasive because modern moral life trains us in effectiveness. We are taught to measure care by results: the repaired relationship, the improved metric, the solved problem. When those returns disappear, responsibility can begin feeling like being blamed for weather patterns or history itself.
+
+A colleague once said he felt ridiculous for caring about a problem he could not fix. The conclusion seemed obvious: if his choices could not change the outcome, carrying responsibility was sentimental posturing.
+
+Something else may be happening.
+
+But the problem had still been real, and his participation in it still shaped what kind of person he was willing to remain.
 
 The same logic scales upward. When systems feel too large to influence, responsibility starts collapsing into futility: if I cannot control this, why should I carry it?
 
@@ -58,15 +64,17 @@ Responsibility is not mastery.
 
 It is responsiveness—paying attention to effects rather than intentions alone, remaining answerable even when outcomes disappoint, and adjusting participation instead of claiming innocence.[^c5-responsibility-outcome]
 
+The Tuesday visit changed almost nothing that could be measured. The story was still repeated. The appointment still had to be made. The disagreement remained. Yet the visit itself was part of what responsibility looked like.
+
 This kind of responsibility does not promise effectiveness. It promises presence. You may not be able to prevent harm entirely. You may not be able to repair what has already happened. But you remain responsible for how you notice, respond, participate, and withdraw where participation itself matters.
 
 Why is presence harder to recognize than repair?
 
-At first it seems like a problem of perception. People should be able to tell the difference between showing up and doing nothing.
+The surface explanation is perception. People should be able to tell the difference between showing up and doing nothing.
 
 But repair leaves evidence. Presence often does not.
 
-A fixed sink can be seen. A handled appointment can be checked off. A changed metric can be cited in the next meeting. A repeated visit, by contrast, can look—from the outside—like avoidance, condoning, or the refusal to draw a cleaner boundary. The same Tuesday can feel like loyalty from the inside and like failure to act from the outside.
+A fixed sink can be seen. A handled appointment can be checked off. A changed ranking can be cited in the next meeting. A repeated visit, by contrast, can look—from the outside—like avoidance, condoning, or the refusal to draw a cleaner boundary. The same Tuesday can feel like loyalty from the inside and like failure to act from the outside.
 
 Institutions amplify the confusion. They recognize outcomes easily and presence poorly. What travels upward is what can be measured, announced, or defended. What remains invisible is the steadier work of contact: listening to a story already heard, fixing what is quietly fixable without announcing it, remaining near harm you cannot reverse.
 
@@ -86,9 +94,9 @@ Responsibility without control is not heroic. It is steady.
 
 ### **The Relief of Innocence**
 
-Why does innocence start feeling so tempting once control disappears?
+Innocence starts feeling tempting once control disappears.
 
-At first it seems like simple fairness. If I did not create the problem, cannot fully understand it, and lack the power to solve it, then perhaps I bear no responsibility at all. Why should I carry what I cannot fix?
+It can seem like simple fairness. If I did not create the problem, cannot fully understand it, and lack the power to solve it, then perhaps I bear no responsibility at all. Why should I carry what I cannot fix?
 
 That logic offers real emotional relief. It creates distance between participation and consequence. It permits disengagement without guilt.
 

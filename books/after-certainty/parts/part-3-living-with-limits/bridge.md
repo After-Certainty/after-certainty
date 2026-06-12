@@ -24,9 +24,13 @@ These responses are understandable.
 
 They are ways of refusing to abandon the hope that seriousness might eventually become rest.
 
+You can feel it in the hope that one more conversation, one more briefing, or one more working group will finally let everyone stop carrying the worry—and in a shoreline that does not pause for consensus to keep losing ground, where each updated map treats the erosion as temporary until the next storm proves otherwise.
+
 Some limits are not failures waiting to be solved.
 
 They are conditions of moral life under scale—pressures that remain even when people act carefully, responsibly, and in good faith.
+
+The instinct makes sense. Most of life teaches us that problems yield to effort.
 
 The difficulty is that we still want limits to behave like temporary problems. We want not knowing to resolve, scale to become personal, interpretation to arrive at the account that finally settles things.
 

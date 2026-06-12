@@ -50,16 +50,14 @@ Default arc: opening pressure → structural analysis → return to invariant �
 
 Not every chapter must follow the same rhythm. At least 2–3 chapters should break the default pattern (scene-first opening, shorter chapter, or tension held before reframe). See `docs/editorial-passes.md`.
 
-## Vignette convention
+## Opening scenes
 
-Short narrative scenes ground abstract claims. Adapted from *How Meaning Moves* house style.
+Short narrative scenes ground abstract claims. Scenes may flow into surrounding prose; they need not be self-contained or visually set off.
 
-- Put a concise heading outside the block: `### **Short Title**`
+- Use a concise heading: `### **Short Title**`
 - Do not include the word "Vignette" in the heading
-- Wrap scene text in `::: {custom-style="Vignette Block"}` … `:::`
-- Keep interpretive analysis before or after the block, not inside it
 - No bold, glossary terms, or footnotes inside scene text
-- Target 150–400 words per scene; vary length and texture across chapters
+- Target 150–400 words per scene where a discrete scene is used; vary length and texture across chapters
 
 ### Vignettes as calibration
 
@@ -75,7 +73,7 @@ Portable compressions for virtues that distort under scale—not a pattern catal
 - Surface at most 1–2 patterns per chapter, only after prose establishes the insight
 - Use a single bold line: `**Explanation Replaces Response.**`
 - No pattern callout boxes, formal “Pattern:” sections, or numbered taxonomies in chapter prose
-- Do not place bold pattern names inside vignette blocks
+- Do not place bold pattern names inside opening scene text
 - Ten core patterns only, **locked** for this book (see `docs/pattern-language.md`); WOLTY-like rhythm: 3–5 words with directional motion; field guide in `back-matter/appendix-a-stabilizers-and-distortions.md` (recognition after reading, not prerequisite)
 
 ## Citation and glossary

@@ -4,12 +4,13 @@
 
 ### **The Comment Thread**
 
-::: {custom-style="Vignette Block"}
 The story arrived already sorted. One careless person. One negligent institution. One villain obvious enough to share.
 
 The comments accumulated quickly. Outrage spread faster than verification because the narrative was already emotionally complete. To question the sorting was to risk sounding disloyal to the harm itself.
 
 Then a detail surfaced that did not fit cleanly. Not exonerating. Just uneven. The villain had also been following a rule others depended on. The victim had made a decision that was understandable and still costly.
+
+He had watched stories tighten this way before.
 
 The thread did not slow down for that.
 
@@ -17,24 +18,17 @@ It adapted the story instead: a worse villain, a purer victim.
 
 The moral energy needed somewhere to go.
 
-He closed the tab without replying. Not because he lacked a view. Because the view he had would not survive the format—and he was no longer sure the format was asking for judgment at all.
-:::
+He closed the tab without replying. Not because he lacked a view. Because the view he had would not survive the format—and he was no longer sure the format was asking for judgment at all. He had edited enough drafts to recognize the move: once the villain is fixed in place, every later detail starts bending to preserve the sort.
 
-The thread did not pause when the story stopped fitting. It tightened the sorting instead.
-
-Why does a story become easier to share once everyone knows who the villain is?
+A story becomes easier to share once everyone knows who the villain is.
 
 What problem is moral sorting solving for people under pressure?
-
-At first the answer seems obvious. Villains locate harm. Heroes locate hope. Once everyone agrees who belongs in which role, coordination becomes faster. Outrage has somewhere to go. Loyalty has someone to defend.
-
-But that answer does not explain why the thread tightened when the story stopped fitting.
 
 The new detail had not exonerated anyone. It had only made the moral picture less clean. And cleanliness, it turned out, mattered more than accuracy. The thread did not want a harder story. It wanted a simpler one.
 
 Why did a cleaner story travel faster than a more accurate one?
 
-At first the answer seems cynical. People are lazy. Outrage is performative. Social media rewards snap judgment.
+The surface explanation is cynical: people are lazy, outrage is performative, social media rewards snap judgment.
 
 But sharing is not only an epistemic act. It is a social one. A sorted story tells the reader what to feel, who to condemn, and where the sharer stands. It spares everyone the disorientation of harm that has not yet found its shape.
 
@@ -50,11 +44,9 @@ The problem is not that these categories are entirely false. The problem is that
 
 ### **What Heroes Quietly Protect**
 
-Why does admiration make scrutiny feel disloyal?
+Admiration makes scrutiny feel disloyal when good people deserve support and criticism begins sounding like betrayal—especially when someone is doing difficult work under pressure.
 
-At first the answer seems obvious. Good people deserve support. Criticism can feel like betrayal, especially when someone is doing difficult work under pressure.
-
-But that answer does not explain what happens to new information once someone becomes identified as heroic.
+That account leaves out what happens to new information once someone becomes identified as heroic.
 
 We need heroes for reasons that are not childish. A hero concentrates hope. They make sacrifice legible. They tell a frightened room that good intention still exists somewhere in the mess.
 
@@ -66,9 +58,13 @@ None of this requires the hero to be false.
 
 It requires only that simplification work—and that groups under pressure often cannot function without it.
 
+A team once treated their director as the person holding chaos at bay. When a problematic decision surfaced, the first response was protective.
+
+The protective story was already doing work that scrutiny was supposed to do. Admiration had begun insulating the very tradeoffs proportion might still have required.
+
 What does admiration offer that scrutiny does not?
 
-At first the answer seems emotional. Hope. Gratitude. The relief of knowing someone competent is still in the room.
+The explanation carries part of the truth: hope, gratitude, the relief of knowing someone competent is still in the room.
 
 But admiration also offers coherence. Once a person becomes heroic, the story simplifies. Difficult tradeoffs can be narrated as courage. Harm nearby can be reframed as the cost of necessary work. Loyalty has a face. Criticism, by contrast, threatens to reopen a story others have already used to decide where they stand.
 
@@ -84,9 +80,9 @@ What begins as care can slowly become protection of the story itself.
 
 ### **What Villains Make Possible**
 
-Why does condemnation feel like clarity?
+Condemnation often feels like clarity.
 
-At first it seems like taking harm seriously. If wrongdoing has a face, then outrage is not excess. It is recognition.
+It can seem like taking harm seriously—if wrongdoing has a face, then outrage is not excess. It is recognition.
 
 But villains do more than locate wrongdoing. They offer belonging.
 
@@ -98,9 +94,11 @@ That standing has incentives. Platforms reward clarity of allegiance. Ambiguity 
 
 Condemnation also offers relief. If harm has a face, then the rest of us can feel clean by comparison. We are not the villain. We are the people who noticed. Outrage becomes a way of remaining morally visible without remaining morally entangled.
 
-Villains simplify responsibility in the opposite direction. Once harm becomes attached to a villain, complexity collapses. Systems fade into the background. Incentives disappear from view. The moral work begins feeling complete once blame has somewhere stable to land.
+You can see the same relief in smaller rooms. A family conflict that finally names one person as the problem—and everyone else feels, for a moment, that the confusion has been understood.
 
-This is part of why villain narratives feel satisfying. They appear to honor harm. They validate outrage. They reassure us that wrongdoing has been clearly located. But they also narrow what can be learned.
+Something else is also true.
+
+The naming had not resolved the harm. It had given it a single address—and let everyone else step back from what they were still participating in.
 
 If harm is caused primarily by bad people, then ordinary people do not have to examine their own participation. If wrongdoing is exceptional, then the surrounding systems remain largely unquestioned. Villains create moral distance. They help us avoid asking how similar dynamics might operate closer to home—or through us.
 
@@ -113,6 +111,8 @@ What does it feel like to let go of heroes and villains?
 Usually not like moral sophistication at first.
 
 It feels like losing footing.
+
+The first time you stop defending someone you admire, it can feel like betrayal—not because the criticism is unfair, but because the story everyone was using no longer holds. The first time you refuse to condemn someone everyone else has already sorted, it can feel like disloyalty—to the harm, to the group, to your own need for the moral world to stay legible.
 
 If no one is simply the villain, then outrage has nowhere clean to land. If no one is simply the hero, then loyalty has no obvious object. The story stops offering the emotional relief of total condemnation or total innocence. Harm remains visible, but less shareable. Responsibility spreads outward—toward systems, incentives, participation, proximity—and with it the fear that everything may become excusable.
 

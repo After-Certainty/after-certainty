@@ -16,7 +16,8 @@ Workflow for revising **After Certainty** in a structured, review-driven way.
 
 ## Branch naming
 
-- `after-certainty/essayistic-exploration` — curiosity expansion + recognition preservation (expand investigation, earn pattern, preserve recognition)
+- `after-certainty/manuscript-deepening-pass` — Agents 04–07 since PR #188 (experience, terrain, echo)
+- `after-certainty/essayistic-exploration` — curiosity expansion + recognition preservation (expand investigation, earn pattern, preserve recognition) *(complete)*
 - `after-certainty/essay-discovery-revision` — essay discovery revision (delay thesis, preserve compression) *(complete)*
 - `after-certainty/editorial-feedback-pass-2` — author drafts incorporated file-by-file
 - `after-certainty/editorial-grounding` — beta-reader grounding pass (merged PR #112)
@@ -29,15 +30,15 @@ Follow the phase model in [upcoming/docs/_templates/drafting-process.md.template
 
 ## Current phase
 
-**Curiosity expansion + recognition preservation** on branch `after-certainty/essayistic-exploration`.
+**Manuscript deepening pass** on branch `after-certainty/manuscript-deepening-pass`.
 
-Workflow: see `docs/agents/02-curiosity-expansion.md`, `docs/agents/03-recognition-preservation.md`, and `docs/agents/chapter-pipeline.md` — one unit per session; Agent 02 then Agent 03; expand investigation between question and answer, earn pattern, preserve recognition.
+Workflow: Agents 04–07 on one branch since PR #188 — experience deepening, terrain & voice, terrain thematic deepening, echo pass. See `docs/agents/README.md`.
 
-Prior pass (complete): Agent 01 essay discovery revision — surgical reorder (~20% more discovery).
+Prior passes on main: essayistic exploration (PR #188); pattern deepening (PR #187).
 
 When all units are done:
 
-1. Author review for over-expansion and pattern burial
+1. Author review for terrain drift and pattern burial
 2. Re-run `docs/author-read-through-gate.md`
 3. Bibliography integrity pass (if footnotes moved)
 4. Export (`make build-book DIR=books/after-certainty`)
