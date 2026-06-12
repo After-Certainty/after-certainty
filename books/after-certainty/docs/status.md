@@ -2,11 +2,11 @@
 
 ## Current phase
 
-**Discovery deepening pass** — Ch 1–2 exemplar applied through conclusion *(complete)*
+**Memorable terrain & quiet discovery** — Agent 10 complete
 
 ## Active branch
 
-`after-certainty/essayistic-exploration`
+`after-certainty/manuscript-deepening-pass`
 
 ## Manuscript hub
 
@@ -24,26 +24,33 @@
 
 ## Unit progress
 
-| Unit | Phase | Essay discovery | Curiosity expansion | Recognition preservation | Notes |
-|------|-------|-----------------|------------------------|--------------------------|-------|
-| Title Page | draft | n/a | n/a | n/a | Generated via `book.yml` |
-| Copyright | draft | n/a | n/a | n/a | Generated via `book.yml` |
-| Introduction | draft | complete | complete | complete | Author lock; reading→permission arc; trimmed book-voice sections |
-| How to Read | draft | complete | n/a | n/a | Orientation only; out of scope |
-| Ch 1 — The End of Correctness | draft | complete | complete | complete | Author lock; puzzle: why did winning feel dangerous |
-| Ch 2 — The Cost of Explanation | draft | complete | complete | complete | Author lock; puzzle: why did the best postmortem leave harm untouched |
-| Ch 3 — Releasing Heroes and Villains | draft | complete | complete | complete | Author lock; puzzle: why sorting when story stops fitting; thread through |
-| Ch 4 — Judgment Without Finality | draft | complete | complete | complete | Author lock; opening tightened (merged closure loops) |
-| Ch 5 — Responsibility Without Control | draft | complete | complete | complete | Author lock; rhythm: heavier once results disappear |
-| Ch 6 — Speech That Does Less Harm | draft | complete | complete | complete | Author lock; puzzle: statement succeeds inside, fails outside; extractability observation |
-| Ch 7 — The Discipline of Not Knowing | draft | complete | complete | complete | Author lock; puzzle: third conversation when harm visible; gathering context as delay |
-| Ch 8 — Staying Human at Scale | draft | complete | complete | complete | Author lock; puzzle: exceptions louder than dashboard; attention section exploratory |
-| Ch 9 — When to Stop Interpreting | draft | complete | complete | complete | Author lock; puzzle: moral prestige of interpretation; working group through |
-| Conclusion — Enough | draft | complete | complete | complete | Author lock; concrete before closure posture; merged final ask into Enough Again |
-| Appendix A | draft | complete | n/a | n/a | Pattern interaction section; field guide |
-| Bibliography | draft | n/a | n/a | n/a | Chicago-style; linked from index |
+| Unit | Phase | Essay discovery | Curiosity expansion | Recognition preservation | Experience deepening | Terrain & voice | Terrain thematic | Echo | Terrain & variety | Trust reader | Memorable terrain | Notes |
+|------|-------|-----------------|------------------------|--------------------------|----------------------|-----------------|------------------|------|-------------------|-------|
+| Title Page | draft | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | Generated via `book.yml` |
+| Copyright | draft | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | Generated via `book.yml` |
+| Introduction | draft | complete | complete | complete | complete | complete | complete | complete | complete | complete | complete | Will scaffold → accumulation |
+| How to Read | draft | complete | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | Out of scope |
+| Part I bridge | draft | n/a | n/a | n/a | complete | complete | complete | complete | complete | n/a | n/a | — |
+| Ch 1 | draft | complete | complete | complete | complete | complete | complete | complete | complete | complete | complete | Craft beat; scaffold cut |
+| Ch 2 | draft | complete | complete | complete | complete | complete | complete | complete | n/a | complete | complete | River beat; marriage trusted |
+| Ch 3 | draft | complete | complete | complete | complete | complete | complete | complete | complete | complete | complete | Director scene trusted |
+| Part II bridge | draft | n/a | n/a | n/a | complete | complete | complete | complete | complete | n/a | complete | Neighborhood beat |
+| Ch 4 | draft | complete | complete | complete | complete | complete | complete | complete | complete | complete | complete | Closed-case trusted |
+| Ch 5 | draft | complete | complete | complete | complete | complete | complete | complete | n/a | n/a | n/a | Untouched |
+| Ch 6 | draft | complete | complete | complete | complete | complete | complete | complete | complete | complete | complete | Statement trusted |
+| Part III bridge | draft | n/a | n/a | n/a | complete | complete | complete | complete | n/a | n/a | n/a | — |
+| Ch 7 | draft | complete | complete | complete | complete | complete | complete | complete | complete | complete | complete | Scaffold softened |
+| Ch 8 | draft | complete | complete | complete | complete | complete | complete | complete | complete | complete | complete | Scene trusted |
+| Ch 9 | draft | complete | complete | complete | complete | complete | complete | complete | complete | complete | complete | Family + WG compressed |
+| Conclusion | draft | complete | complete | complete | complete | complete | complete | complete | complete | complete | complete | Trail/navigation beat |
+| Appendix A | draft | complete | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | Field guide |
+| Bibliography | draft | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | Chicago-style |
 
 ## Author gate
+
+Author read-through (Jun 2026): architecture done; feedback is trim/texture not structure. Nature/terrain images doing conceptual work (river, sediment) — keep. Cut gardener (Ch 4) and level (Ch 1) as author-reaching analogies. Optional next: **voice consistency pass** (blend pattern-language, essayist, systems-thinking voices).
+
+Author-read-through-gate sign-off, then export/commit when ready.
 
 ## Word count
 
@@ -59,14 +66,13 @@ Manuscript files under `books/after-certainty/` (Jun 2026; same counter as build
 | Appendix A + bibliography | 1,419 |
 | Title page + copyright (generated) | 106 |
 
-Core reading prose (intro through conclusion, incl. bridges): **21,593**.
+Core reading prose (intro through conclusion, incl. bridges): **~21,5k** (post echo trim).
 
-Note: `after-certainty.manifest.json` also counts `index.md` links to `docs/series-guide.md` and sibling book indexes (~18.4k); use manuscript totals above for edition scale.
-
-Checklist: [`author-read-through-gate.md`](author-read-through-gate.md) — re-run after curiosity expansion pass.
+Checklist: [`author-read-through-gate.md`](author-read-through-gate.md)
 
 ## Next actions
 
-1. Author review discovery deepening pass (ch 1–9 + conclusion)
-2. Re-run author-read-through-gate
-3. Optional PR when author approves
+1. Author review Agent 10 changes (terrain beats + scaffold trims)
+2. Author-read-through-gate sign-off
+3. Export for final read (`make export-docx DIR=books/after-certainty`)
+4. Commit + PR when author approves

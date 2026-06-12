@@ -4,17 +4,19 @@
 
 ### **The Statement**
 
-::: {custom-style="Vignette Block"}
 The organization needed to say something. Silence had already started being interpreted as indifference. Speaking, meanwhile, was being interpreted as leadership.
 
-The statement passed through six drafts. Each version became more careful. More qualified. More institutionally fluent. It expressed concern without naming responsibility directly. It promised review without promising consequence. It used the language of humility at scale.
+The statement passed through six drafts. They had drafted statements like this before. None of those earlier drafts had ever made the harm smaller—only the document more defensible.
+
+Nobody in the room agreed on what the statement should say—only that something had to be published before morning. One drafter kept arguing for a stronger sentence and losing. Someone rewrote the opening paragraph three times because they knew the person most affected by the event.
+
+Each version became more careful. More qualified. More institutionally fluent. It expressed concern without naming responsibility directly. It promised review without promising consequence. It used the language of humility at scale.
 
 It was published on a Tuesday morning.
 
 By afternoon, screenshots were circulating detached from context. Short fragments became arguments the statement had never intended to settle. One group called it cowardly. Another called it performative. Almost no one quoted the entire text.
 
 Inside the organization, people felt they had done what responsibility required. Outside, the underlying harm looked sharper than before. The statement had not clarified the situation. It had created a new surface for conflict to organize around.
-:::
 
 The room did not feel calmer afterward.
 
@@ -22,47 +24,27 @@ Only more legible.
 
 And legibility is not the same thing as care.
 
-That gap is worth noticing before naming what speech usually promises.
-
-Visibility had increased. Responsibility had not.
-
-Once silence has been read as indifference, a statement can be forwarded, quoted, defended, and archived in ways silence cannot. Legibility arrives immediately. Answerability may not arrive at all.
-
-Why does speaking feel like care even when it reorganizes conflict instead of reducing harm?
-
-What makes public language so attractive once silence has already been read as indifference?
-
-At first the answer seems obvious. Speech is participation. To speak is to refuse indifference, to remain present inside events, to signal that harm has been noticed and taken seriously.
-
-That is often true.
-
-But the statement had already shown a harder problem. The organization had spoken carefully, sincerely, and at length. Inside the building, people felt they had done what responsibility required. Outside, the harm looked sharper than before. Speaking had not failed because the authors were insincere. It had failed because language was doing work they had not intended—making the situation more legible without making it more answerable.
-
 ### **Why the Statement Felt Successful**
 
 Why did six drafts produce relief inside the building and sharper harm outside it?
 
-At first it seems like a communication failure. If people had read the whole text, understood the care, given it context, the statement might have landed differently.
+Statements often feel successful even when nothing changes.
 
-But that answer does not explain why the authors felt they had done what responsibility required before anyone could measure whether the harm had been met.
-
-Why do statements so often feel successful even when nothing changes?
-
-At first the answer seems obvious: visibility. The institution spoke. It refused indifference. It created a record.
+One explanation is visibility. The institution spoke. It refused indifference. It created a record.
 
 But participation and answerability do not move at the same speed. A statement produces immediate evidence that someone noticed, someone drafted, someone approved, someone published. Responsibility, by contrast, unfolds slowly and ambiguously—if it unfolds at all. The statement answered the charge of silence on Tuesday morning. The harm could still be unanswered on Wednesday.
 
-Each draft had been trying to solve a different fear. Too direct and the institution would sound liable. Too vague and it would sound indifferent. Too long and few would read it. Too short and it would sound evasive. By the sixth version, the language had become institutionally fluent: concern without named responsibility, review without promised consequence, humility at scale. What the drafts were refining was not only tone. It was exposure.
+Each draft had been trying to solve a different fear. Too direct and the institution would sound liable. Too vague and it would sound indifferent. Too long and few would read it. Too short and it would sound evasive. By the sixth version, the language had become institutionally fluent: concern without named responsibility, review without promised consequence, humility at scale. What the drafts were refining was not only tone. It was exposure. The draft improved long before it became finished—and finishing, in this case, meant publishable, not answerable.
 
 Inside the building, that refinement felt like work. Six drafts are labor. They can be reviewed, approved, cited in the next meeting. What traveled upward was proof of seriousness. What did not travel was whether the people affected were any more answerable than before.
 
 ### **When Language Leaves the Room**
 
-Why does careful language so often travel as something else?
+Careful language so often travels as something else.
 
-At first the answer seems obvious. People read quickly. Context gets lost. Social media rewards fragments. None of that is surprising.
+Most people would assume people read quickly, that context gets lost, that social media rewards fragments. None of that is surprising.
 
-But that answer does not explain why the harm looked sharper after the statement than before it.
+That account leaves out why the harm looked sharper after the statement than before it.
 
 The organization had spent weeks refining the language. Readers spent seconds extracting fragments from it.
 
@@ -71,6 +53,8 @@ That asymmetry is strange. The same sentence can mean one thing in the room wher
 What left the building was not only a text. It was a new surface for conflict to organize around.
 
 Before publication, the harm had been one kind of problem. After publication, public life reorganized around the language itself—who wrote it, what it failed to say, whether it sounded sincere enough, which screenshot could stand in for the whole. The harm did not disappear. It became harder to see beneath the argument about the statement.
+
+You can see a smaller version at a desk. The draft improves. The argument coheres. The person still affected has not been met.
 
 Someone who never opened the full text argued about a phrase from paragraph one. The humility clause added in draft four—the one meant to keep the institution from sounding indifferent—became the screenshot that traveled. A sentence written to acknowledge harm arrived already converted into evidence of evasion. The care in the document did not survive the trip. Extractability did.
 
@@ -82,7 +66,7 @@ Under those conditions, speaking more does not necessarily produce greater under
 
 ### **When Speech Becomes Performance**
 
-Why does a statement drafted to express concern start functioning as evidence by afternoon?
+A statement drafted to express concern can start functioning as evidence by afternoon.
 
 Because performance is not always insincerity. It is often the gap between what language was asked to do inside the institution and what it was able to do outside it.
 
@@ -110,15 +94,7 @@ Not every form of care requires public language. Some situations are better addr
 
 ### **What Speech Still Makes Possible**
 
-Releasing the moral guarantees attached to speech does not mean abandoning language altogether. Speech can still name harm without theatricality, disagree without domination, express care without demanding performance, and clarify responsibility without pretending to resolve complexity.
-
-Speech that does less harm becomes slower, quieter, and more accountable to effects than to intentions. But it allows people to participate honestly without pretending language alone can carry moral life safely at scale.
-
-The room did not feel calmer afterward.
-
-Only more legible.
-
-The statement had made the situation easier to argue about. It had not made the harm smaller. After certainty, that distinction may be the one speech most needs to remember.
+What remains possible is narrower and harder. A sentence that names harm without performing seriousness. A refusal to publish the seventh draft when visibility would mainly reorganize conflict. A question asked before the next draft: will this make the harm more answerable, or only more discussable?
 
 [^c6-performative-speech]: See Erving Goffman, *The Presentation of Self in Everyday Life* (Garden City, NY: Doubleday, 1959); Cass R. Sunstein, *#Republic* (Princeton, NJ: Princeton University Press, 2017).
 [^c6-proportionality]: See Michael Walzer, *Just and Unjust Wars*, 5th ed. (New York: Basic Books, 2015).

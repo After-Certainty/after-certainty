@@ -10,13 +10,11 @@ More analysis no longer resolves the tension. More information no longer restore
 
 When relief does not arrive, the instinct is usually not to let go.
 
-It is to hold tighter.
+It is to hold tighter—to certainty, to explanation, to identities that seem capable of carrying the weight uncertainty no longer can.
 
-To become more certain.
+You can see it when criticism of what a group did becomes criticism of what the group is—and the temperature changes in a way the earlier controversy never required. You can hear it in siblings who can name the wound perfectly and still cannot stop reopening it.
 
-To find the explanation that finally settles the matter.
-
-To identify the people who caused the problem so responsibility has somewhere clear to land.
+You can feel it in weather that keeps not breaking—everyone watching the sky, everyone still carrying what the forecast cannot lift.
 
 These responses are not foolish.
 
