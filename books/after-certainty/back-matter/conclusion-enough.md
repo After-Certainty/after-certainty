@@ -16,9 +16,7 @@ You may recognize the feeling in smaller forms: the meeting that should have end
 
 One more pass through the problem will finally make participation clean—or so the story goes.
 
-That account leaves something out.
-
-That hunger does not weaken cleanly. Each new framework still explains the weight with greater precision—and leaves it on your shoulders.
+Yet the hunger remains. Each new framework explains the weight with greater precision and leaves it on your shoulders.
 
 Closure is not only a belief. It is a posture learned over years of moral life: that enough thought will eventually make action clean, that enough explanation will eventually make harm legible enough to resolve, that enough interpretation will eventually justify what comes next.
 
@@ -32,7 +30,7 @@ Enough does not restore that shelter.
 
 It asks you to participate anyway—while motives stay mixed, while outcomes remain partial, while presence may look like failure and restraint may look like evasion.
 
-What remains is not a replacement certainty. It is orientation—not a map that closes the territory, but enough bearing to notice harm, resist false finality, and choose how to participate while the account stays open.
+What remains is not a replacement certainty. It is orientation—enough bearing to notice harm, resist false finality, and choose how to participate while the account stays open.
 
 This book does not end with resolution—or with a final framework that makes the world coherent again. That kind of ending would betray what the book has been trying to say.
 
@@ -60,7 +58,7 @@ You can still choose proportion over severity, care over certainty, restraint ov
 
 Acting while the account stays open usually does not feel like resolution.
 
-It feels like signing the form while knowing the harm is still unfolding. It feels like closing the meeting while the delay continues outside the building. It feels like choosing contact when distance would be easier to defend, or choosing silence when speech would mainly make the harm more legible without making it more answerable.
+It feels like approving the plan while knowing the consequences are still unfolding. It feels like ending the meeting while the people affected are still waiting outside it. It feels like choosing contact when distance would be easier to defend, or choosing silence when speech would mainly make the harm more legible without making it more answerable.
 
 Much moral life is organized around the promise that enough thought will eventually settle things—that we will know where we stand and what is right.
 
@@ -94,15 +92,39 @@ Not enough to resolve everything.
 
 Enough to remain honest.
 
+### **Belonging in the Present**
+
+Not every form of participation points toward a future outcome.
+
+Some forms simply root us in the present.
+
+The barista who starts your usual order when you walk through the door. The librarian who recognizes your face before remembering your name. The attendant at the waterfront who knows you as the person who rents the same kayak every Saturday morning.
+
+These relationships are easy to overlook because they solve so little. They do not repair institutions. They do not settle arguments. They do not appear in reports or histories.
+
+Yet they remind us that belonging is not always something we achieve. Sometimes it emerges from showing up often enough that a place begins to expect us.
+
+The value is not that these people know everything about us. Often they know very little.
+
+They know we came back.
+
+In a life organized around outcomes, it is easy to treat these moments as insignificant. But they answer a different question than achievement does.
+
+Not: What did you accomplish?
+
+Simply: Were you here?
+
+Sometimes that is enough.
+
 ### **The Kind of Life This Allows**
 
 After certainty, moral life becomes quieter—not because it matters less, but because it makes fewer grand claims.
 
-You may be misread. Presence may look like avoidance. Restraint may look like indifference. Provisionality may look like evasion. A steady visit may not travel upstairs. An exception noticed may not move the metric. The care in the document may not survive the trip.
+You may be misread. Presence may look like avoidance. Restraint may look like indifference. Provisionality may look like evasion. An exception noticed may not move the metric. The care in the document may not survive the trip.
 
 What remains is smaller than the old stabilizers promised—and more durable for being honest about that.
 
-You may feel the loss of confidence that certainty once provided. You may still choose contact when distance would be easier to defend, or silence when speech would mainly make harm more legible without making it more answerable—like learning to walk a trail in low light, adjusting by feel when the map stops matching the ground.
+You may feel the loss of confidence that certainty once provided. You may still choose contact when distance would be easier to defend, or silence when speech would mainly make harm more legible without making it more answerable.
 
 This is not heroic.
 
@@ -112,13 +134,41 @@ It rarely gets noticed.
 
 It is, however, sustainable.
 
+### **What Remains After We Leave**
+
+Many of the things we care about most are too large to be carried by one person alone.
+
+A parent discovers this. A teacher discovers it. A leader discovers it. A writer discovers it.
+
+The hope is rarely that we will finish the work ourselves. The hope is that others may someday decide it is worth carrying too.
+
+An onboarding practice survives after the manager who started it leaves. A neighborhood tradition continues after the family that organized it moves away. A former student approaches a problem differently years later without remembering exactly where the idea came from.
+
+The strongest forms of influence often become difficult to trace.
+
+They stop looking like influence and start looking like culture.
+
+This offers no guarantee. Many efforts disappear. Many seeds never take root.
+
+But participation remains meaningful partly because we do not know which things will continue after we stop carrying them.
+
+A trail marker does not know who will follow it.
+
+A tree does not know who will sit in its shade.
+
+An idea does not know who may someday decide it is worth preserving.
+
+The future remains beyond our control.
+
+What remains ours is the decision to contribute something worth leaving behind.
+
 ### **Enough, Again**
 
 This book does not ask you to agree with it. It asks something quieter: to catch yourself mid-sentence, trust what you have already learned to notice, and choose—without certainty—how you will participate anyway.
 
 That choice will not be clean. It will not be final. It will not be validated by outcomes alone. But it will be yours.
 
-You may remember the daughter who kept showing up on Tuesday, the room that finally stopped treating another meeting as the moral work, the signature that did not pretend the harm had paused. You may remember proceeding without a complete map—revising the route as new landmarks appear. After certainty, the goal is not peace. It is honesty without collapse, care without illusion, judgment without finality.
+You may remember the daughter who kept showing up on Tuesday, the room that finally stopped treating another meeting as the moral work, the signature that did not pretend the harm had paused. After certainty, the goal is not peace. It is honesty without collapse, care without illusion, judgment without finality.
 
 That is enough.
 
