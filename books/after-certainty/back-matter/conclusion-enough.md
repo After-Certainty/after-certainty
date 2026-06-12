@@ -58,7 +58,7 @@ You can still choose proportion over severity, care over certainty, restraint ov
 
 Acting while the account stays open usually does not feel like resolution.
 
-It feels like signing the form while knowing the harm is still unfolding. It feels like closing the meeting while the delay continues outside the building. It feels like choosing contact when distance would be easier to defend, or choosing silence when speech would mainly make the harm more legible without making it more answerable.
+It feels like approving the plan while knowing the consequences are still unfolding. It feels like ending the meeting while the people affected are still waiting outside it. It feels like choosing contact when distance would be easier to defend, or choosing silence when speech would mainly make the harm more legible without making it more answerable.
 
 Much moral life is organized around the promise that enough thought will eventually settle things—that we will know where we stand and what is right.
 
