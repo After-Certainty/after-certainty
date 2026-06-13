@@ -2,14 +2,18 @@
 
 ## When Good Intentions Miss
 
-<!-- draft: outline only -->
+Most conversations about diversity begin with a reasonable hope: that if the right people are present, the right outcomes will follow; that if invitations are sincere, understanding will deepen; that if intentions are good, harm will be rare.
 
-Part I asks why diversity efforts so often stall at presence.
+Those hopes are not foolish. They are incomplete.
 
-Many organizations can point to a room that looks different from what it looked like a decade ago. Part I tests a narrower claim: being invited in does not always mean being taken seriously—and groups can agree confidently while missing what matters.
+Part I begins with a narrower question: what happens when good intentions still miss something important?
 
-Chapter 1 examines why inclusion can fail without anyone doing anything wrong. Chapter 2 follows how agreement can mask shared blind spots. Chapter 3 reframes bias as shortcuts and overconfidence, not only hostility—and asks who pays the price.
+Not because anyone behaved cruelly. Not because anyone excluded anyone on purpose. But because presence did not produce influence, because agreement did not produce understanding, because familiarity quietly replaced curiosity.
 
-If Part I works, you should be able to name several ways good intentions miss the mark before reaching for better intentions alone.
+The chapters that follow examine three versions of the same problem. People can be in the room without being taken seriously. Groups can agree confidently while overlooking what matters. Summaries can feel like knowledge while remaining incomplete.
 
-Part II then asks what difference costs when people try to speak, choose, and be understood.
+None of these failures require bad faith. That is what makes them so easy to miss.
+
+If this part does its work, you may begin noticing places where inclusion looks successful while learning remains stalled. That noticing is not an accusation. It is a starting point.
+
+Part II turns to what difference costs when people try to speak, choose, and be understood.

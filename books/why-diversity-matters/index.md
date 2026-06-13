@@ -9,8 +9,6 @@
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
 - [Introduction](front-matter/introduction.md)
-- [What This Book Is Not](front-matter/what-this-book-is-not.md)
-- [How This Book Was Shaped](front-matter/how-this-book-was-shaped.md)
 - [Helping Shape This Book](front-matter/helping-shape-this-book.md)
 - [Questions for a Conversation](front-matter/questions-for-readers.md)
 

@@ -2,9 +2,7 @@
 
 I'm working on a book exploring how people notice different things, how misunderstandings happen, and why diversity of experience may help us learn.
 
-You don't need to prepare answers to all of these questions. In fact, one good story is often more valuable than ten short answers.
-
-If any of these questions remind you of an experience, a conversation, a relationship, a job, a family situation, a health issue, or a moment in your life that still sticks with you, that's exactly what I'm interested in discussing.
+You don't need to prepare answers to all of these questions. In fact, one good story is often more valuable than ten short answers. If any of these questions remind you of an experience, a conversation, a relationship, a job, a family situation, a health issue, or a moment in your life that still sticks with you, that's exactly what I'm interested in discussing.
 
 ### **Stories About Being Seen (or Not Seen)**
 

@@ -42,7 +42,8 @@ For units marked `outline` in `docs/status.md`:
 
 After drafting or revising one unit:
 
-1. **Rules check** — alignment with `docs/book-rules.md` and core invariant.
+1. **Rhythm pass** — [`docs/agents/01-rhythm-paragraph-variation.md`](agents/01-rhythm-paragraph-variation.md): merge excessive staccato; vary sentence and paragraph length.
+2. **Rules check** — alignment with `docs/book-rules.md` and core invariant.
 2. **Echo pass** — flag repeated phrasing, claims, and examples against prior units.
 3. **Editorial pass** — clarity, rhythm, stacked negation, filler, punctuation.
 4. **Self-critique** — top 2–4 weaknesses and concrete fixes.

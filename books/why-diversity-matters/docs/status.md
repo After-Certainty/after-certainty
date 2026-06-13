@@ -2,20 +2,13 @@
 
 ## Current phase
 
-**Phase 0–1 — Structure + initial draft intake**
-
-## Active branch
-
-`why-diversity-matters/initial-draft`
-
-## Manuscript hub
-
-[`index.md`](../index.md) is the source of truth for reading order and paths.
+**Phase 2 — Rhythm pass complete (Agent 01)**
 
 ## Key docs
 
 - [`book-rules.md`](book-rules.md)
 - [`drafting-process.md`](drafting-process.md)
+- [`agents/README.md`](agents/README.md) — Agent 01 rhythm & paragraph variation
 - Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../../upcoming/docs/portfolio-status.md)
 
 ## Unit progress
@@ -24,30 +17,28 @@
 |------|-------|-------|
 | Title Page | generated | Via `frontmatter.generate` |
 | Copyright | generated | Via `frontmatter.generate` |
-| Introduction | outline | Awaiting author draft |
-| What This Book Is Not | outline | Awaiting author draft |
-| How This Book Was Shaped | outline | Awaiting author draft |
-| Helping Shape This Book | outline | Awaiting author draft |
-| Questions for a Conversation | draft | Full interview guide in place |
-| Part I bridge | outline | |
-| Ch 1 — Having Diverse People Isn't Enough | outline | |
-| Ch 2 — When Everyone Agrees | outline | |
-| Ch 3 — Bias Isn't Always What We Think | outline | |
-| Part II bridge | outline | |
-| Ch 4 — Choices Aren't Really Choices | outline | |
-| Ch 5 — Words Don't Land the Same Way | outline | |
-| Ch 6 — Included Without Power | outline | |
-| Ch 7 — Cost of Being Easy to Understand | outline | |
-| Part III bridge | outline | |
-| Ch 8 — Diversity Helps Catch Mistakes | outline | |
-| Ch 9 — Systems Without Perfect People | outline | |
-| Ch 10 — What I Still Don't Know | outline | |
+| Introduction | 2 | Agent 01 rhythm pass |
+| Helping Shape This Book | 2 | Blind spots + story types for interview phase |
+| Questions for a Conversation | 2 | Agent 01 intro framing; bullets unchanged |
+| Part I bridge | 2 | Agent 01 rhythm pass |
+| Ch 1 — Having Diverse People Isn't Enough | 2 | Agent 01 rhythm pass |
+| Ch 2 — When Everyone Agrees | 2 | Agent 01 rhythm pass |
+| Ch 3 — Bias Isn't Always What We Think | 2 | Agent 01 rhythm pass |
+| Part II bridge | 2 | Agent 01 rhythm pass |
+| Ch 4 — Choices Aren't Really Choices | 2 | Agent 01 rhythm pass |
+| Ch 5 — Words Don't Land the Same Way | 2 | Agent 01 rhythm pass |
+| Ch 6 — Included Without Power | 2 | Agent 01 rhythm pass |
+| Ch 7 — Cost of Being Easy to Understand | 2 | Agent 01 rhythm pass |
+| Part III bridge | 2 | Agent 01 rhythm pass |
+| Ch 8 — Diversity Helps Catch Mistakes | 2 | Agent 01 rhythm pass |
+| Ch 9 — Systems Without Perfect People | 2 | Agent 01 rhythm pass |
+| Ch 10 — What I Still Don't Know | 2 | Agent 01 rhythm pass |
 
 ## Next actions
 
-1. Receive introduction draft from author → replace `front-matter/introduction.md` scaffold.
-2. Receive chapter drafts (batch or sequential) → expand outline scaffolds into prose.
-3. Run export smoke test after first substantive prose lands.
+1. Interview phase — stories with cost, power, and boundary cases (see `helping-shape-this-book.md`).
+2. Author read-through after rhythm pass.
+3. Optional: echo pass, series-guide entry, distinct `open-graph.png`.
 
 ## Open decisions / known issues
 
@@ -57,5 +48,5 @@
 
 ## Rough scale
 
-- Manuscript words (parts + front/back matter): ~outline scaffold only
-- Last assessed: initial scaffold (June 2026)
+- Manuscript words (intro + front matter + bridges + 10 chapters): **~10,728** (June 2026, post–rhythm pass)
+- Chapters average ~875 words each

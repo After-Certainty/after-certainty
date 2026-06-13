@@ -10,8 +10,14 @@ This is not a marketing brief. It preserves conceptual cohesion, stylistic consi
 
 ### Target length
 
-- ~8–15k words (essay edition, consistent with cluster books like Why Collaboration Is So Hard)
-- Structure per `index.md`: 3 parts, 3 bridges, 10 chapters, 5 front-matter sections (plus generated title/copyright)
+- **Current manuscript:** ~10,700 words (June 2026, post–rhythm pass)
+  - Front matter (intro, helping-shape, questions): ~1,350
+  - Part I (bridge + 3 chapters): ~2,900
+  - Part II (bridge + 4 chapters): ~4,000
+  - Part III (bridge + 3 chapters): ~2,400
+  - Chapters alone: ~8,750 (avg ~875 each)
+- Essay edition in the same band as cluster books (e.g. *Why Collaboration Is So Hard* ~12–15k); room to grow if author expands, but complete as a concentrated argument at current scale
+- Structure per `index.md`: 3 parts, 3 bridges, 10 chapters, 3 front-matter sections (plus generated title/copyright)
 
 ### Markdown file structure
 
@@ -66,6 +72,7 @@ Every chapter must map back to this claim. If a section cannot be tied to it, it
 ### Plain-speak habits
 
 - Short sentences by default; one clear claim per sentence unless parallelism is deliberate.
+- **Paragraph rhythm:** default 2–4 sentences per paragraph; reserve single-sentence paragraphs for emphasis, not as the default beat (see [`docs/agents/01-rhythm-paragraph-variation.md`](agents/01-rhythm-paragraph-variation.md)).
 - Concrete verbs over abstract noun chains.
 - Ground observable behavior before naming concepts.
 - Avoid management-blog tone and diversity-as-virtue-signaling framing.
@@ -113,3 +120,4 @@ Before marking a unit approved, ask:
 
 - `docs/drafting-process.md` — workflow and pass order
 - `docs/status.md` — unit-level progress
+- `docs/agents/README.md` — revision agents (01 rhythm)

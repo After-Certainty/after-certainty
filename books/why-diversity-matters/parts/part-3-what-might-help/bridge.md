@@ -2,10 +2,16 @@
 
 ## What Might Help
 
-<!-- draft: outline only -->
+The first two parts of this book were largely diagnostic. They named ways good intentions miss and costs that fall unevenly on people whose experiences differ from the group's center of gravity.
 
-Part III does not promise that diversity solves everything. It asks where difference actually helps—and what we might build when perfect understanding isn't realistic.
+Diagnosis is not enough. Neither is intention. Neither is representation by itself.
 
-Chapter 8 examines how difference can surface problems early, if people are willing to listen to voices that sound difficult before they sound right. Chapter 9 turns toward systems: why training and good intentions aren't enough, and how we might design for misunderstanding. Chapter 10 leaves things open on purpose—what changed in the author's thinking, what didn't, and where the book still falls short.
+Part III does not promise that diversity solves everything. It asks narrower questions: where does difference actually help groups learn? What makes a system capable of recovering from the mistakes imperfect people inevitably make? What remains unknown even when we become more curious than before?
 
-If Part III works, you should leave with clearer sight lines, not a finished answer.
+The chapters that follow move from observation toward possibility. First, how difference can surface problems early — if someone is willing to listen before the evidence becomes obvious. Then, how systems might remain capable of learning even when understanding is incomplete. Finally, what this inquiry has changed in my thinking — and where it still falls short.
+
+None of these chapters offers a finished answer. That is deliberate. A book about blind spots should not pretend to have eliminated its own.
+
+If Part III does its work, you may leave with better questions rather than new certainty.
+
+That may be the most honest form of progress available here.
