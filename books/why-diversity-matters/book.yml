@@ -1,0 +1,48 @@
+version: 1
+
+publishing:
+  enabled: true
+
+book:
+  id: why-diversity-matters
+  title: "Why Diversity Matters"
+  subtitle: "Why Good Intentions Still Miss So Much"
+  description: "Why diversity is about what gets noticed, trusted, and ignored—not just who is in the room."
+  author:
+    name: "Kevin Steffensen"
+    website: "https://after-certainty.com"
+  language: en
+  copyright_year: 2026
+  title_page_cover: book-cover.png
+  open_graph_image: open-graph.png
+
+paths:
+  manuscript: "./index.md"
+  output: "."
+
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
+    copyright:
+      repo_template: templates/copyright.md.j2
+      output: front-matter/copyright.md
+
+build:
+  formats:
+    docx:
+      enabled: true
+    epub:
+      enabled: true
+    pdf:
+      enabled: true
+
+github:
+  release: true
+  release_tag: "latest"
+  artifacts:
+    - docx
+    - epub
+    - pdf
