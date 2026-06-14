@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Four drift/counter-discipline pairings plus two environmental pressures. -->
+<!-- Four drift/counter-discipline pairings plus two conditions of drift. -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 748" role="img" aria-labelledby="ac-title ac-desc">
   <title id="ac-title">After Certainty - pattern map</title>
-  <desc id="ac-desc">Three-part book arc. Four paired rows: stabilizer drift on the left, counter-discipline on the right. Below, two environmental pressures that shape the whole field. Dashed arrows are suggestive pairings, not mechanical opposites.</desc>
+  <desc id="ac-desc">Three-part book arc. Four paired rows: stabilizer drift on the left, counter-discipline on the right. Below, two conditions of drift that shape the whole field. Dashed arrows are suggestive pairings, not mechanical opposites.</desc>
   <defs>
     <marker id="ac-pair" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="strokeWidth">
       <path d="M0,0 L0,7 L7,3.5 z" fill="#666666"/>
@@ -97,7 +97,7 @@
     <tspan x="684" y="536">Contact</tspan>
   </text>
 
-  <text class="pat-small" x="460" y="598">Environmental pressures (unpaired)</text>
+  <text class="pat-small" x="460" y="598">Conditions of drift (unpaired)</text>
   <rect class="shell-env" x="48" y="612" width="400" height="72" rx="3"/>
   <text class="pat-label" x="248" y="648">
     <tspan x="248" y="638">Finality Compensates</tspan>

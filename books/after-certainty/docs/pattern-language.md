@@ -8,7 +8,7 @@
 
 **Counter-disciplines:** Revisability Preserves Judgment · Responsibility Persists Beyond Control · Scrutiny Preserves Trust · Attention Restores Contact
 
-**Environmental pressures:** Finality Compensates for Uncertainty · Speech Escalates Faster Than Meaning
+**Conditions of drift:** Finality Compensates for Uncertainty · Speech Escalates Faster Than Meaning
 
 Pairings are tensioned and responsive (see appendix), not mechanical opposites.
 
@@ -65,7 +65,7 @@ Title case. Prefer noun-phrase compressions with directional verbs.
 
 Pairings are tensioned and responsive (see appendix table), not cures.
 
-### Environmental pressures (atmospheric — unpaired)
+### Conditions of drift (atmospheric — unpaired)
 
 | Pattern | Primary chapter |
 |---------|-----------------|
@@ -74,7 +74,7 @@ Pairings are tensioned and responsive (see appendix table), not cures.
 
 ### Folded into prose (not named in appendix)
 
-Visibility over responsiveness, innocence as escape, speech replacing presence, interpretation becoming delay, legibility vs. care, overreach rationalization. Mention inside related core entries or chapter prose only.
+Visibility over responsiveness, innocence as escape, speech replacing presence, interpretation becoming delay, sufficiency and discernment (when to stop interpreting), legibility vs. care, overreach rationalization. Mention inside related core entries or chapter prose only.
 
 ## Chapter surfacing status
 
@@ -92,7 +92,7 @@ Visibility over responsiveness, innocence as escape, speech replacing presence, 
 
 ## Appendix
 
-Field guide (recognition after reading): [`back-matter/appendix-a-stabilizers-and-distortions.md`](../back-matter/appendix-a-stabilizers-and-distortions.md). Ten core patterns: four drifts, four counter-disciplines, two environmental pressures.
+Field guide (recognition after reading): [`back-matter/appendix-a-stabilizers-and-distortions.md`](../back-matter/appendix-a-stabilizers-and-distortions.md). Ten core patterns: four drifts, four counter-disciplines, two conditions of drift.
 
 ## Portfolio reuse
 

@@ -2,33 +2,29 @@
 
 The introduction named the moment this book inhabits: clarity without closure.
 
-Understanding has already done much of its work. The patterns are visible. The incentives, constraints, and failures are no longer hidden.
+Understanding has arrived. Relief has not.
 
-And yet relief does not arrive.
+The patterns are visible now. The incentives, constraints, and failures no longer hide as easily as they once did. Explanations accumulate. Context expands. The picture grows sharper.
 
-More analysis no longer resolves the tension. More information no longer restores stability. Understanding continues to expand while judgment remains unsettled.
+And yet something remains unsettled.
 
-When relief does not arrive, the instinct is usually not to let go.
+The old assumption was that understanding would eventually finish its work—that more information would reduce uncertainty, that better explanations would produce better judgment, that the tension would narrow until it finally disappeared.
 
-It is to hold tighter—to certainty, to explanation, to identities that seem capable of carrying the weight uncertainty no longer can.
+Often it does not. Sometimes understanding keeps arriving while the discomfort remains exactly where it was.
 
-You can see it when criticism of what a group did becomes criticism of what the group is—and the temperature changes in a way the earlier controversy never required. You can hear it in siblings who can name the wound perfectly and still cannot stop reopening it.
+You can hear it in siblings who can name the wound perfectly and still cannot stop reopening it. You can see it when criticism of what a group did becomes criticism of what the group is—and the temperature changes in ways the original disagreement never required. You can feel it in weather that keeps not breaking: everyone watching the sky, everyone waiting, everyone still carrying what the forecast cannot lift.
 
-You can feel it in weather that keeps not breaking—everyone watching the sky, everyone still carrying what the forecast cannot lift.
+Under those conditions people rarely loosen their grip. They tighten it—to certainty, to explanation, to identities that promise stability, to stories that promise clarity.
 
-These responses are not foolish.
+Not because they are foolish. Because uncertainty is expensive, ambiguity is tiring, and people still need somewhere to stand.
 
-Most begin as attempts to care responsibly about the world.
+Most of these responses begin as forms of care. The difficulty is that they slowly become responsible for more than they can carry.
 
-The difficulty is that these stabilizers begin carrying burdens they were never designed to carry. They are asked not merely to help us navigate uncertainty, but to remove it.
+Correctness begins helping people know what is true, then becomes responsible for who they are. Explanation begins helping people understand what happened, then becomes responsible for what should be done. Admiration begins helping people trust, then becomes responsible for protecting the people they trust from scrutiny. Sorting begins helping people locate harm, then becomes responsible for closing the moral account before judgment has finished.
 
-What begins as care can slowly become something else.
+What begins as orientation gradually becomes shelter. What begins as shelter gradually becomes confinement.
 
-Correctness hardens into identity. Explanation begins replacing response. Admiration becomes insulation while blame compresses complexity.
-
-None of this means abandoning truth, understanding, or moral seriousness.
-
-The question is what has to loosen before judgment can become honest again—provisional, proportionate, and responsive to effects rather than to the emotional relief of closure.
+None of this requires abandoning truth, understanding, or moral seriousness. The question is what must loosen when understanding alone can no longer deliver closure.
 
 The chapters that follow take up three of these pressures: when being right matters more than remaining revisable; when understanding begins substituting for response; when heroes and villains simplify people faster than judgment can keep pace.
 
