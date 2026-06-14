@@ -1,12 +1,12 @@
 # **Appendix A — Stabilizers and Distortions**
 
-Many of the patterns described throughout this book do not begin as failures. They begin as stabilizers.
-
-Human beings rely on stabilizers to coordinate moral life under uncertainty. We use them to reduce ambiguity, maintain trust, distribute responsibility, and act under pressure. Correctness, explanation, judgment, speech, admiration, and responsibility all help people navigate complexity that would otherwise become overwhelming.
-
 The problem is not that these stabilizers exist. The problem is that under conditions of scale, fragmentation, delayed consequence, and institutional pressure, stabilizers often become overburdened. They begin carrying more moral weight than they can sustain. When that happens, they drift.
 
-What follows names recurring drifts, counter-disciplines that remain possible afterward, and environmental pressures that shape the whole field. These patterns are not laws. They are recognitions—portable compressions for readers who have already met them in the chapters and want a field guide for what to watch for next.
+Many of the patterns described throughout this book do not begin as failures. They begin as stabilizers.
+
+Human beings rely on stabilizers to coordinate moral life under uncertainty. We use them to reduce ambiguity, maintain trust, distribute responsibility, and act under pressure. Correctness, explanation, admiration, interpretation, speech, judgment, responsibility, and attention all help people navigate complexity that would otherwise become overwhelming.
+
+What follows names recurring drifts, counter-disciplines that remain possible afterward, and conditions of drift that shape the whole field. These patterns are not laws. They are recognitions—portable compressions for readers who have already met them in the chapters and want a field guide for what to watch for next.
 
 ## **How the Patterns Relate**
 
@@ -19,7 +19,7 @@ The pairings are tensioned and responsive, not mechanical opposites. Counter-dis
 | Admiration Becomes Insulation | Scrutiny Preserves Trust |
 | Blame Compresses Complexity | Attention Restores Contact |
 
-Two further patterns name **environmental pressures**—conditions of drift that affect judgment across the whole map rather than pairing one-to-one with a single release:
+Two further patterns name **conditions of drift**—atmospheric pressures that affect judgment across the whole map rather than pairing one-to-one with a single release:
 
 - **Finality Compensates for Uncertainty**
 - **Speech Escalates Faster Than Meaning**
@@ -38,6 +38,8 @@ The danger is not error alone. It is the inability to remain revisable.
 
 Explanation helps people understand events, reduce confusion, and identify causes. But explanation can gradually absorb moral energy that would otherwise move toward response. Analysis expands while action stalls. Understanding becomes emotionally satisfying enough to substitute for responsibility. At its limit, explanation reorganizes harm rather than reducing it.
 
+When interpretation continues after a pattern is already visible, explanation can function as suspension—postponing response while still earning moral credit for openness. The threshold question is whether further understanding would materially change what care now requires.
+
 ## **Admiration Becomes Insulation**
 
 Admiration allows trust, imitation, and moral aspiration. But once heroic narratives stabilize, contradiction becomes difficult to absorb honestly. Harm is reframed as tradeoff, context expands selectively, and accountability weakens under the pressure to preserve coherence. Over time, the admired person becomes protected less by trust than by narrative attachment.
@@ -54,6 +56,8 @@ The collapse of certainty does not eliminate moral life. But it changes what mor
 
 Judgment remains necessary even when certainty weakens. Revisability preserves judgment when finality no longer stabilizes it—staying open to revision, new information, and unintended consequence without collapsing into paralysis. Revisability is not weakness. It is what prevents judgment from hardening into dogma.
 
+Revisability also includes the decision to stop interpreting when additional knowing no longer changes what responsibility requires—not closing the account, but recognizing sufficiency: enough understanding to act without pretending the account is finished, while remaining open to correction afterward.
+
 ## **Responsibility Persists Beyond Control**
 
 Responsibility is not the same thing as mastery. Even when outcomes exceed personal influence, people remain answerable for participation, attention, withdrawal, and response where contact still exists. Care survives after control disappears. When systems feel too large to influence, innocence can become an escape from participation—but that escape is a drift from answerability, not proof that responsibility has ended.
@@ -66,7 +70,7 @@ Trust does not survive through insulation. Scrutiny preserves trust when admirat
 
 Blame compresses complexity by locating harm in a face; scale compresses it structurally. Attention restores contact—actual harms, particular people, tradeoffs, and lived outcomes held in view rather than averaged away. It reintroduces consequence where abstraction would conceal it. Much of what the book calls staying human at scale is this discipline practiced repeatedly under conditions that reward distance.
 
-## **Environmental Pressures**
+## **Conditions of Drift**
 
 These patterns name conditions that intensify drift across multiple stabilizers at once. They are atmospheric rather than paired.
 
@@ -87,3 +91,5 @@ Recognition does not solve these tensions. But it can help people remain revisab
 ## **How the Patterns Interact**
 
 These patterns rarely appear alone. Correctness hardening into identity often invites explanation to replace response. Explanation can encourage finality to compensate for uncertainty. Speech escalation can intensify blame while attention weakens under scale. The patterns are best understood as a field rather than as isolated failures.
+
+These patterns are not primarily meant to be memorized. They are meant to be recognized—in a difficult conversation, in a family conflict, in a meeting, in a friendship, in yourself. The goal is not to carry the map everywhere. The goal is to notice when a familiar drift begins appearing and to remember what forms of attention, judgment, responsibility, and restraint remain possible afterward.

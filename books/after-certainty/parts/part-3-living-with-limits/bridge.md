@@ -1,47 +1,29 @@
 # **Part III — Living With Limits**
 
-By this point in the book, readers may still be waiting for the final release.
+By this point, readers may still be waiting for the final release—the chapter that removes the remaining tension, the perspective that finally makes uncertainty manageable, the framework that allows moral life to settle.
 
-The chapter that removes the remaining tension.
+That hope is difficult to surrender. Even after certainty weakens. Even after practice begins. Even after the patterns become visible.
 
-The perspective that makes uncertainty feel manageable.
+The desire remains. Perhaps one more explanation. One more conversation. One more layer of understanding. One more way of looking at the problem.
 
-The framework that allows moral life to settle.
+Most of life teaches us that effort eventually overcomes resistance—that problems yield to attention, confusion yields to understanding, difficulties yield to persistence. The instinct makes sense.
 
-That expectation does not disappear simply because practice has begun.
+The difficulty is that some conditions do not yield.
 
-Disciplines can make seriousness possible again. They do not remove the conditions they work inside. Uncertainty remains. Scale remains. Meaning still drifts. Interpretation still reaches limits.
+A shoreline continues eroding whether the committee reaches consensus or not. A forecast remains uncertain even after every available model has been consulted. A map becomes more detailed without becoming the territory.
 
-When limits persist, the instinct is often to keep searching for what will finally remove them.
+Certain limits remain—not because people have failed, not because understanding is unimportant, but because some limits belong to the conditions under which human beings live together.
 
-To gather one more layer of understanding before acting.
+Scale remains. Uncertainty remains. Interpretation remains incomplete.
 
-To expect systems to become humane if we explain them well enough.
+The hope that these conditions will eventually disappear can become its own form of postponement. We keep searching for the final explanation that will remove ambiguity, the final perspective that will make the system feel human again, the final interpretation that will allow responsibility to become simple.
 
-To treat further interpretation as the moral work even when harm has already become visible.
+Some limits are not failures waiting to be solved. They are conditions waiting to be lived inside.
 
-These responses are understandable.
+That realization can feel disappointing at first. It can also feel strangely relieving.
 
-They are ways of refusing to abandon the hope that seriousness might eventually become rest.
-
-You can feel it in the hope that one more conversation, one more briefing, or one more working group will finally let everyone stop carrying the worry—and in a shoreline that does not pause for consensus to keep losing ground, where each updated map treats the erosion as temporary until the next storm proves otherwise.
-
-Some limits are not failures waiting to be solved.
-
-They are conditions of moral life under scale—pressures that remain even when people act carefully, responsibly, and in good faith.
-
-The instinct makes sense. Most of life teaches us that problems yield to effort.
-
-The difficulty is that we still want limits to behave like temporary problems. We want not knowing to resolve, scale to become personal, interpretation to arrive at the account that finally settles things.
-
-What remains is learning how to live inside what does not go away.
-
-Not knowing as discipline rather than deficiency. Attention that survives systems that cannot fully be human. Interpretation that knows when to stop.
-
-What begins as care can still become delay, abstraction, or exhaustion dressed as patience.
+The task changes. Not how to eliminate uncertainty, but how to carry it honestly. Not how to make scale fully human, but how to preserve contact within it. Not how to complete the interpretation, but how to recognize when responsibility no longer requires completion.
 
 The chapters that follow take up three of these limits: when uncertainty must be carried without premature certainty; when people must remain visible inside abstraction; when understanding must yield to responsibility that harm has already made clear.
 
-Part III does not build toward a final answer.
-
-It builds toward living responsibly with what remains unresolved.
+What follows does not move beyond uncertainty. It moves more fully into it—not toward answers that settle the account, but toward forms of responsibility that remain possible after settlement fails to arrive.
