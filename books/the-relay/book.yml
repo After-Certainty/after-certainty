@@ -1,0 +1,54 @@
+version: 1
+
+publishing:
+  enabled: true
+
+book:
+  id: the-relay
+  title: "The Relay"
+  subtitle: "A Social Science Fiction Novel"
+  description: "A courier notices silence where explanations should be — and a civilization-sized blind spot emerges one perspective at a time. The answer to uncertainty is participation, not certainty."
+  author:
+    name: "Kevin Steffensen"
+    website: "https://after-certainty.com"
+  language: en
+  copyright_year: 2026
+  title_page_cover: book-cover.png
+  open_graph_image: open-graph.png
+  title_page_footer: |
+    Author-facing planning and voice rules live under [`docs/`](./docs/); this page is for **exports** only.
+
+paths:
+  manuscript: "./index.md"
+  output: "."
+
+assets:
+  diagrams:
+    auto_discover: false
+
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
+    copyright:
+      repo_template: templates/copyright.md.j2
+      output: front-matter/copyright.md
+
+build:
+  formats:
+    docx:
+      enabled: true
+    epub:
+      enabled: true
+    pdf:
+      enabled: true
+
+github:
+  release: true
+  release_tag: "latest"
+  artifacts:
+    - docx
+    - epub
+    - pdf
