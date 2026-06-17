@@ -18,7 +18,7 @@ How the books in this repository relate, suggested reading order, and one-line d
 | Acting without perfect information | [How Serious Systems Learn](../books/how-serious-systems-learn/index.md) |
 | Influence and renewal | [When Others Look to You](../books/when-others-look-to-you/v1/index.md) |
 
-Velorum ([`books/velorum/`](../books/velorum/index.md)) is **fiction**—not part of the nonfiction ladder below.
+Velorum ([`books/velorum/`](../books/velorum/index.md)) and **The Relay** ([`books/the-relay/`](../books/the-relay/index.md)) are **fiction**—not part of the nonfiction ladder below.
 
 ---
 
