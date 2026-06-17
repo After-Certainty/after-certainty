@@ -87,7 +87,7 @@ Read the published lens first; the essay edition extends the durability problem.
 
 [**Velorum**](../books/velorum/index.md) — tragic mythic fantasy; separate from the nonfiction thread. Full manuscript spans five acts (30 chapters).
 
-[**The Relay**](../books/the-relay/index.md) — social science fiction; gate-network mystery as civilization-sized blind spot, discovered one perspective at a time. Exploratory chapters in progress.
+[**The Relay**](../books/the-relay/index.md) — social science fiction; gate-network mystery as civilization-sized blind spot, discovered one perspective at a time. Full 27-chapter scaffold; Act I polished.
 
 ---
 

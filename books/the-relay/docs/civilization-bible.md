@@ -10,6 +10,8 @@
 
 **Settled human space:** ~400 worlds and major stations linked by the gate network. Not a galactic empire — a **mesh** of places people actually live, trade, and visit.
 
+**Naming (places):** Gates — astronomical/temporal (*Vesper Gate*). Settlements — geographical (*Orinreach Basin*, *Lake Orin* district names). See [iconic-locations.md](./iconic-locations.md). **Do not use Velorum place names** (e.g. Kestrel) in this book.
+
 **Gate travel:** Common for couriers, traders, officials, and anyone with reason. Most people on any given world **never use a gate in a given year** — but everyone knows someone who has. Like international flight: normal, not daily.
 
 **Age:** Gates operating ~700 years in current form. Civilization **feels** ancient; institutional memory **is** patchy.
@@ -41,7 +43,7 @@ People **incorrectly believe** the gate network is self-maintaining — "the gat
 ## Education (children)
 
 - **Upside-down geography** on curved habitats (Ribbon, some orbitals): districts overhead are real places with names.
-- **Gate etiquette** taught young: don't block throats, respect suspension notices.
+- **Gate etiquette** taught young: don't block transit corridors, respect suspension notices.
 - **History:** Heroic gate-builders as myth; maintenance as boring footnote — **wrong emphasis**.
 
 ---
@@ -88,7 +90,7 @@ People **incorrectly believe:** someone at the center still coordinates everythi
 | Chapter | Location | Civilization beat |
 |---------|----------|-------------------|
 | Lena | Ribbon | Reflection navigation, relay silence unusual |
-| Arin | Kestrel Span | Local mirrors, tourists, one-world depth |
+| Arin | Orinreach Basin | Local mirrors, tourists, one-world depth |
 | Nadi | Drift Markets | Prices, auctions, route rumors |
 | Sera | Pilgrim Road station | Community adaptation, story carry |
 | Cai | First Gate approach infrastructure | Marks, inspection, unfunded work |

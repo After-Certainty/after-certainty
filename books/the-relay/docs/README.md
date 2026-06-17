@@ -14,14 +14,16 @@
 | **[voice-spec.md](./voice-spec.md)** | Prose, dialogue, implication craft |
 | **[synopsis.md](./synopsis.md)** | Living plot spine |
 | **[act-chapter-index.md](./act-chapter-index.md)** | Full novel chapter plan (~27) |
-| **[agents/README.md](./agents/README.md)** | Cursor revision agents |
+| **[act-chapter-stubs.md](./act-chapter-stubs.md)** | Scene-level stubs for all chapters |
+| **[mystery-beat-sheet.md](./mystery-beat-sheet.md)** | Dual mystery + wrong theory at 90–100k |
+| **[act-1-agent-pass-report.md](./act-1-agent-pass-report.md)** | Agent pipeline results for Act I |
+| **[agents/README.md](./agents/README.md)** | Cursor revision agents (incl. Brittany, Language drift) |
 
-## Exploratory phase
+## Drafting & revision
 
 | Doc | Use |
 |-----|-----|
 | **[exemplar-chapter-01-drafting.md](./exemplar-chapter-01-drafting.md)** | Habits from Lena Ch. 1 |
+| **[exploratory-chapter-feedback.md](./exploratory-chapter-feedback.md)** | Reader assessment from probe phase (archived) |
 | **[chapter-edit-pass.md](./chapter-edit-pass.md)** | Human checklist |
 | **[status.md](./status.md)** | Progress tracker |
-
-Exploratory drafts live in [`../manuscript/exploratory/`](../manuscript/exploratory/).

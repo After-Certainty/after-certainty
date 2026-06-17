@@ -29,6 +29,24 @@ A looping orbital ribbon thousands of kilometers long — not a wheel. Interior 
 
 ---
 
+## Orinreach Basin
+
+**Theme:** Depth · **Arin's world** · one place held completely
+
+A curved habitat world on the gate mesh — southern basin, mirror-navigation corridors, storm seasons. Named for its reach toward Lake Orin's trade orbit (historical, not geographic proximity). Locals say *the Basin*; couriers file it as **Orinreach Basin**.
+
+> Orinreach Basin at evening was a place of depths — real stone and reflected stone, the city's particular trick of making you feel both grounded and duplicated.
+
+**Gate link:** **Vesper Gate** is the primary corridor Arin and Lena assume for southern routes.
+
+**Social practices:**
+
+- **Reflection navigation:** mirrors make paths honest; tourists treat them as games
+- **Storm cycles:** maintenance rosters swell seasonally; funding does not
+- **Southern mirrors:** Arin's district — catwalks, ladders, knees saved before policy
+
+---
+
 ## The Drift Markets
 
 **Theme:** Incentives · **Nadi's home**
@@ -76,3 +94,7 @@ Oldest surviving gate. Ancient **and maintained** — stranger than ruins.
 **Theme:** Hidden assumptions
 
 Connective tissue. Disruptions cascade. People assume autonomy; history suggests otherwise.
+
+**Naming convention:** Gates use astronomical or temporal names (**Vesper Gate**, Meridian Gate, Zenith Gate). Settlements use geographical names (**Orinreach Basin**, Two Valleys, Northhook, Meridian Arc). Consistency is felt, not explained on page.
+
+**Story present:** **Vesper Gate** suspended without official explanation — cascade trigger for the novel.

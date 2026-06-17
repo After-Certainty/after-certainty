@@ -10,7 +10,9 @@
 - Are characters **acting** or only observing?
 - Does participation feel chosen, not forced by plot?
 
-**DO NOT:** Passive observation chapters; cynicism as realism; waiting for certainty before acting.
+**DO NOT:** Passive observation chapters; cynicism as realism; **identical "participation" closing beat every chapter**.
+
+**EMOTIONAL LANDING:** Same theme may appear; **vary color** — determined, uncertain, amused, hopeful, afraid, irritated. See [exploratory-chapter-feedback.md](../exploratory-chapter-feedback.md).
 
 **OUTPUT:** Identify momentum beat type; flag passive stretches; suggest one participation moment if missing.
 

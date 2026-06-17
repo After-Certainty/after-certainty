@@ -1,75 +1,86 @@
 # Act & chapter index — The Relay
 
-*~27 chapters · ~95,000 words · exploratory phase drafts probes first*
+*27 chapters · ~95,000 words target · **full manuscript scaffold complete***
 
-Each entry: POV, location, perspective, momentum beat (D=decision, R=relationship, M=discovery).
-
----
-
-## ACT I — THE ABSENCE (Ch. 1–5) · The Ribbon
-
-| Ch | Title (working) | POV | Beats |
-|----|-----------------|-----|-------|
-| 1 | Lake Orin | Lena | Bulletin; silence; marks; Arin message; Sera glimpse (M) |
-| 2 | — | Lena | Jun; competing stories (M) |
-| 3 | — | Lena | Sibling worry escalates (R) |
-| 4 | — | Lena | Wrong theory strengthens (M) |
-| 5 | — | Lena | Leaves Ribbon; decision to follow thread (D) |
-
-**Exploratory draft:** Ch. 1
+Each entry: POV, location, momentum beat (D=decision, R=relationship, M=discovery).
 
 ---
 
-## ACT II — THE CASCADE (Ch. 6–11) · Drift Markets
+## ACT I — THE ABSENCE (Ch. 1–5) · The Ribbon · **~16,900 words · polished**
 
-| Ch | Title (working) | POV | Beats |
-|----|-----------------|-----|-------|
-| 6 | — | Lena | Arrives Markets (M) |
-| 7 | Quick Margin | Nadi | Trade maps shift (M) |
-| 8 | — | Lena | Jun model straining (M) |
-| 9 | — | Lena | Sera crossing (R) |
-| 10 | — | Nadi | Ground truth (D) |
-| 11 | — | Lena | Cannot reach Arin (R) |
+| Ch | Title | POV | File | Beats |
+|----|-------|-----|------|-------|
+| 1 | Lake Orin | Lena | `act-1-the-absence/chapter-01-lake-orin.md` | Bulletin; silence; marks; Arin; Sera glimpse (M) |
+| 2 | Competing Stories | Lena | `chapter-02-competing-stories.md` | Jun; competing stories (M) |
+| 3 | Southern Mirrors | Lena | `chapter-03-southern-mirrors.md` | Sibling strain; picture/mark (R) |
+| 4 | The Story That Fits | Lena | `chapter-04-the-story-that-fits.md` | Wrong theory strengthens (M) |
+| 5 | Reserved | Lena | `chapter-05-reserved.md` | **COMMITTED**; Drift; Nadi tease (D) |
 
-**Exploratory draft:** Ch. 3 (Nadi)
-
----
-
-## ACT III — THE FRAGMENTS (Ch. 12–17) · Archive Moon
-
-| Ch | Title (working) | POV | Beats |
-|----|-----------------|-----|-------|
-| 12 | — | Lena | Toma introduced (M) |
-| 13 | — | Toma | Historical deflection (M) |
-| 14 | — | Lena | Purge misread (M) |
-| 15 | — | Veya | Reframe (M) |
-| 16 | — | Lena | Marks everywhere (M) |
-| 17 | — | Lena | Story of Sera (R) |
+**Report:** [act-1-agent-pass-report.md](./act-1-agent-pass-report.md)
 
 ---
 
-## ACT IV — THE KEEPER (Ch. 18–22) · First Gate
+## ACT II — THE CASCADE (Ch. 6–11) · Drift Markets · **~11,000 words · scaffold**
 
-| Ch | Title (working) | POV | Beats |
-|----|-----------------|-----|-------|
-| 18 | — | Lena | Cai introduced (M) |
-| 19 | — | Cai | Machinery sound (M) |
-| 20 | — | Lena | Sera substantial (R) |
-| 21 | — | Cai | Marks payoff (M) |
-| 22 | — | Lena | Wrong theory fails (D) |
+| Ch | Title | POV | File | Beats |
+|----|-------|-----|------|-------|
+| 6 | Drift Markets | Lena | `act-2-the-cascade/chapter-06-drift-markets.md` | Arrival; clue collision (M) |
+| 7 | Quick Margin | Nadi | `chapter-07-quick-margin.md` | Trade maps shift (M) |
+| 8 | Model Fit | Lena | `chapter-08-model-fit.md` | Jun model straining (M) |
+| 9 | Crossing | Lena | `chapter-09-crossing.md` | Sera crossing (R) |
+| 10 | Fringe | Nadi | `chapter-10-fringe.md` | Fringe corridor decision (D) |
+| 11 | No Answer | Lena | `chapter-11-no-answer.md` | Cannot reach Arin; low point (R) |
 
-**Exploratory draft:** Ch. 5 (Cai)
+**Brief:** [act-2-editorial-brief.md](./act-2-editorial-brief.md)
 
 ---
 
-## ACT V — THE RELAY (Ch. 23–27)
+## ACT III — THE FRAGMENTS (Ch. 12–17) · Archive Moon · **~11,200 words · scaffold**
 
-| Ch | Title (working) | POV | Beats |
-|----|-----------------|-----|-------|
-| 23 | — | Lena | Distributed rebuilding (M) |
-| 24 | — | Sera | Participation (D) |
-| 25 | — | Lena | Arin reconnect (R) |
-| 26 | — | Lena | Civilization mystery surfaces (M) |
-| 27 | — | Lena | Adaptive close (D) |
+| Ch | Title | POV | File | Beats |
+|----|-------|-----|------|-------|
+| 12 | The Query | Lena | `act-3-the-fragments/chapter-12-the-query.md` | Toma introduced (M) |
+| 13 | The Slope | Toma | `chapter-13-the-slope.md` | Historical deflection (M) |
+| 14 | Purge | Lena | `chapter-14-purge.md` | Purge misread (M) |
+| 15 | Failures | Veya | `chapter-15-failures.md` | Reframe (M) |
+| 16 | Grammar | Lena | `chapter-16-grammar.md` | Marks in archive (M) |
+| 17 | Stories People Walk On | Lena | `chapter-17-stories-people-walk-on.md` | Sera's work (R) |
 
-**Exploratory drafts:** Ch. 2 (Arin), Ch. 4 (Sera)
+---
+
+## ACT IV — THE KEEPER (Ch. 18–22) · First Gate · **~10,000 words · scaffold**
+
+| Ch | Title | POV | File | Beats |
+|----|-------|-----|------|-------|
+| 18 | The Dot Man | Lena | `act-4-the-keeper/chapter-18-the-dot-man.md` | Cai introduced (M) |
+| 19 | Housing 7-C | Cai | `chapter-19-housing-7-c.md` | Machinery; seals (M) |
+| 20 | Soup | Lena | `chapter-20-soup.md` | Sera substantial (R) |
+| 21 | I See You Seeing | Cai | `chapter-21-i-see-you-seeing.md` | Marks payoff (M) |
+| 22 | What Silence Buys | Lena | `chapter-22-what-silence-buys.md` | Wrong theory fails (D) |
+
+---
+
+## ACT V — THE RELAY (Ch. 23–27) · Distributed · **~9,100 words · scaffold**
+
+| Ch | Title | POV | File | Beats |
+|----|-------|-----|------|-------|
+| 23 | Human Relay | Lena | `act-5-the-relay/chapter-23-human-relay.md` | Distributed rebuilding (M) |
+| 24 | The Road | Sera | `chapter-24-the-road.md` | Community decision (D) |
+| 25 | Southern Mirrors | Lena | `chapter-25-southern-mirrors.md` | Arin reconnect (R) |
+| 26 | The Disease | Lena | `chapter-26-the-disease.md` | Civilization mystery (M) |
+| 27 | Adaptive | Lena | `chapter-27-adaptive.md` | Adaptive close (D) |
+
+---
+
+## Manuscript totals (scaffold)
+
+| Act | Chapters | ~Words | Status |
+|-----|----------|--------|--------|
+| I | 1–5 | 16,900 | Closure sweep complete |
+| II | 6–11 | 8,800 | Scaffold draft |
+| III | 12–17 | 9,600 | Scaffold draft |
+| IV | 18–22 | 9,000 | Scaffold draft |
+| V | 23–27 | 6,800 | Scaffold draft |
+| **Book** | **27** | **~58,200** | Target ~95k after expansion passes |
+
+**Stubs:** [act-chapter-stubs.md](./act-chapter-stubs.md) · **Mystery:** [mystery-beat-sheet.md](./mystery-beat-sheet.md) · **Scaffold report:** [book-scaffold-report.md](./book-scaffold-report.md)

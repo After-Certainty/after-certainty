@@ -11,10 +11,21 @@ Copy a spec into a Cursor prompt with the chapter file and linked docs.
 |------|--------|------|
 | 0 | [00-brief-to-rough-draft](./00-brief-to-rough-draft.md) | Expand stub from index |
 | 1 | [10-flow-clarity-editor](./10-flow-clarity-editor.md) | First polish |
+| 1b | [17-timeline-sequencing-agent](./17-timeline-sequencing-agent.md) | Time, space, information order; openings |
+| 1c | [18-future-texture-agent](./18-future-texture-agent.md) | Non-Velorum future detail; anti wise-person drift |
+| 1d | [19-future-language-terminology-agent](./19-future-language-terminology-agent.md) | Friction terms; corridor not throat; earned coinage only |
+| 1e | [20-first-read-snag-agent](./20-first-read-snag-agent.md) | Line-by-line decode pauses; compressed grammar; thesis narration |
+| 2 | [14-brittany-agent](./14-brittany-agent.md) | Readability; Speechify test |
+| 3 | [16-contemporary-readability-agent](./16-contemporary-readability-agent.md) | Anti literary drift; POV-grounded prose |
+| 4 | [15-language-drift-agent](./15-language-drift-agent.md) | Anti jargon; POV vocabulary |
 | 2–9 | Craft agents 01–09 | See below |
 | — | [11-audio-readaloud](./11-audio-readaloud.md) | Before chapter done |
 | periodic | [12-theme-agent](./12-theme-agent.md) | Every 3–4 chapters |
 | always | [13-participation-agent](./13-participation-agent.md) | Momentum + participation |
+
+**Note:** Brittany + Language Drift may matter more than Wonder for *The Relay* — biggest threat is FinTech/systems language leaking into humanist prose.
+
+**Profanity:** Velorum-aligned rules in [voice-spec.md](../voice-spec.md) — heat in dialogue, clean narration; preserve on polish (dialogue agent + read-aloud).
 
 ## Craft agents
 
@@ -28,4 +39,11 @@ Copy a spec into a Cursor prompt with the chapter file and linked docs.
 | 06 | [Worldbuilding](./06-worldbuilding-agent.md) | Places; Ribbon culture; implication |
 | 07 | [Hope](./07-hope-agent.md) | Participation over cynicism |
 | 08 | [Reality](./08-reality-agent.md) | Institutional/economic plausibility |
+| 14 | [Brittany](./14-brittany-agent.md) | Emotional accessibility; anti-friction |
+| 16 | [Contemporary readability](./16-contemporary-readability-agent.md) | One image then move; anti thematic interior |
+| 17 | [Timeline & sequencing](./17-timeline-sequencing-agent.md) | Chronology, spatial continuity, page-one orientation |
+| 18 | [Future texture](./18-future-texture-agent.md) | Visual/social SF detail; distinct minor voices |
+| 19 | [Future language & terminology](./19-future-language-terminology-agent.md) | Useful coinage only; operational replacements |
+| 20 | [First-read snag](./20-first-read-snag-agent.md) | Line-by-line decode pauses; fix on read |
+| 15 | [Language drift](./15-language-drift-agent.md) | POV vocabulary; anti engineer-speak |
 | 13 | [Participation](./13-participation-agent.md) | Decision/relationship/discovery required |

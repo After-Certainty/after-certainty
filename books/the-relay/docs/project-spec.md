@@ -1,7 +1,7 @@
 # PROJECT: THE RELAY
 ### A Social Science Fiction Novel
 
-**Voice:** **[voice-spec.md](./voice-spec.md)** · **Cast:** **[character-bible.md](./character-bible.md)** · **World:** **[civilization-bible.md](./civilization-bible.md)** · **Places:** **[iconic-locations.md](./iconic-locations.md)** · **Plot:** **[synopsis.md](./synopsis.md)** · **Agents:** **[agents/README.md](./agents/README.md)**
+**Voice:** **[voice-spec.md](./voice-spec.md)** · **Cast:** **[character-bible.md](./character-bible.md)** · **World:** **[civilization-bible.md](./civilization-bible.md)** · **Places:** **[iconic-locations.md](./iconic-locations.md)** · **Plot:** **[synopsis.md](./synopsis.md)** · **Mystery spine:** **[mystery-beat-sheet.md](./mystery-beat-sheet.md)** · **Chapter stubs:** **[act-chapter-stubs.md](./act-chapter-stubs.md)** · **Agents:** **[agents/README.md](./agents/README.md)**
 
 ---
 
@@ -43,6 +43,10 @@ The gate closures are a **symptom**. The disease is social — eroded institutio
 > Every chapter must contain at least one of: a **character decision**, a **relationship change**, or a **meaningful discovery**.
 
 Not all three. At least one. Prevents concept-driven drift into pure observation.
+
+### Voice
+
+**Dialogue:** contemporary, speakable under stress; profanity per [voice-spec.md](./voice-spec.md) — do not sanitize on polish. **Narration:** comparatively clean; place and interior over curse words.
 
 ### Independent goals
 

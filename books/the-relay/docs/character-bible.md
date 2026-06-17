@@ -28,9 +28,9 @@ Each entry: job, **independent goal**, sees/misses, voice/friction with Lena, an
 
 ## Arin — Lena's sibling
 
-**Job:** Mirror-maintenance coordinator on **Kestrel Span** (one world, southern district) — seasonal work on reflective navigation aids tourists misuse.
+**Job:** Mirror-maintenance coordinator on **Orinreach Basin** (one world, southern district) — seasonal work on reflective navigation aids tourists misuse.
 
-**Independent goal:** Keep Kestrel Span's mirror corridors safe and honest through storm season.
+**Independent goal:** Keep Orinreach Basin's mirror corridors safe and honest through storm season.
 
 **Complementary to Lena:**
 
@@ -84,6 +84,8 @@ Lena looks for patterns across civilizations. Arin reminds her real people live 
 
 **Misses:** Individual experience; people become data points.
 
+**Secondary:** Graduate assistant **Corin** (Ch. 6). Not **Pell** (Henn's apprentice, Sera Ch. 4).
+
 **Key line:** *"People don't wait for certainty. They build with whatever certainty they can find."*
 
 **Voice:** Pattern language; curious; can seem cold until he's wrong.
@@ -101,6 +103,12 @@ Lena looks for patterns across civilizations. Arin reminds her real people live 
 **Misses:** Immediate human needs, urgency.
 
 **Behavior:** Responds to urgent questions with historical examples — frustrating, often right (institutions forget the same lessons).
+
+**Chapter shape:** Detective, not exposition — query → investigate → surprise → revise → report.
+
+**Form of attention:** Memory (long spans; patience as doubt).
+
+**Colleague:** Veya (language stacks) — dry mutual knowledge on page.
 
 **Voice:** Measured; citation habits; gentle stubbornness.
 
@@ -162,13 +170,15 @@ Lena looks for patterns across civilizations. Arin reminds her real people live 
 
 ## Participation map
 
-| Character | How they participate |
-|-----------|---------------------|
-| Lena | Connects perspectives |
-| Arin | Builds a life beyond the disruption |
-| Nadi | Moves goods |
-| Toma | Preserves records |
-| Jun | Studies belief |
-| Cai | Maintains infrastructure |
-| Sera | Helps communities |
-| Veya | Preserves languages |
+| Character | How they participate | Form of attention |
+|-----------|---------------------|-------------------|
+| Lena | Connects perspectives | Connections |
+| Arin | Builds a life beyond the disruption | Place |
+| Nadi | Moves goods | Consequences |
+| Jun | Studies belief | Narratives |
+| Toma | Preserves records | Memory |
+| Cai | Maintains infrastructure | Systems |
+| Sera | Helps communities | People |
+| Veya | Preserves languages | Failures / warning signs |
+
+Mystery becomes visible when these attentions overlap — not a single lens.

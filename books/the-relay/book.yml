@@ -1,7 +1,7 @@
 version: 1
 
 publishing:
-  enabled: false
+  enabled: true
 
 book:
   id: the-relay
@@ -39,14 +39,14 @@ frontmatter:
 build:
   formats:
     docx:
-      enabled: false
+      enabled: true
     epub:
-      enabled: false
+      enabled: true
     pdf:
-      enabled: false
+      enabled: true
 
 github:
-  release: false
+  release: true
   release_tag: "latest"
   artifacts:
     - docx

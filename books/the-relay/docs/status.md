@@ -1,25 +1,36 @@
 # Status — The Relay
 
-| Unit | Location | POV | Words | Draft | Notes |
-|------|----------|-----|-------|-------|-------|
-| Exploratory 1 | `manuscript/exploratory/chapter-01-lena-on-the-ribbon.md` | Lena | 2333 | draft | Ribbon, bulletin, marks, Arin, Sera |
-| Exploratory 2 | `manuscript/exploratory/chapter-02-arin-on-the-far-side.md` | Arin | 1509 | draft | Kestrel Span mirrors, depth |
-| Exploratory 3 | `manuscript/exploratory/chapter-03-nadi-in-the-drift-markets.md` | Nadi | 1464 | draft | Trade maps, fringe corridor |
-| Exploratory 4 | `manuscript/exploratory/chapter-04-sera-helping-a-community.md` | Sera | 1050 | draft | Two Valleys, checking story |
-| Exploratory 5 | `manuscript/exploratory/chapter-05-cai-inspecting-infrastructure.md` | Cai | 1062 | draft | First Gate approach, marks |
+## Novel manuscript — full scaffold (27 chapters)
 
-**Exploratory total:** ~7,400 words. Expand toward 3k/chapter before promoting to act manuscript.
+| Act | Title | Chapters | ~Words | Status |
+|-----|-------|----------|--------|--------|
+| I | The Absence | 1–5 | 16,900 | Polished; closure sweep complete |
+| II | The Cascade | 6–11 | 11,000 | Scaffold draft |
+| III | The Fragments | 12–17 | 11,200 | Scaffold draft |
+| IV | The Keeper | 18–22 | 10,000 | Scaffold draft |
+| V | The Relay | 23–27 | 9,100 | Scaffold draft |
+| **Total** | | **27** | **~58,200** | Target ~95k after expansion |
+
+**Index:** [act-chapter-index.md](./act-chapter-index.md) · **Scaffold report:** [book-scaffold-report.md](./book-scaffold-report.md)
+
+**Act I report:** [act-1-agent-pass-report.md](./act-1-agent-pass-report.md) · Dev review **9.1/10**
+
+**Next:** Act II expansion + agent pipeline; or continuity read Ch. 5→6
+
+## Planning docs
+
+| Doc | Status |
+|-----|--------|
+| [mystery-beat-sheet.md](./mystery-beat-sheet.md) | draft |
+| [act-chapter-stubs.md](./act-chapter-stubs.md) | draft |
 
 ## Assets
 
 - [x] `book-cover.png`
 - [x] `open-graph.png`
-- [x] `book.yml` (publishing disabled)
-- [x] House docs + agents
-- [ ] `book.yml` publishing enabled (after manuscript)
+- [x] `book.yml` (publishing enabled — docx, epub, pdf, GitHub release)
+- [x] House docs + agents (incl. 20 first-read snag)
 
-## Next
+## Phase
 
-1. Review exploratory chapters — expand if cast/world validate
-2. Optional: Jun, Toma, Veya life chapters
-3. Full act stubs per [act-chapter-index.md](./act-chapter-index.md)
+**Full book scaffold on disk.** Act I ready for external read. Acts II–V need depth expansion toward ~3,500 words/chapter.
