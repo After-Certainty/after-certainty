@@ -58,6 +58,14 @@ Lena watched two more numbers cycle. A woman in keeper grays cut through the rop
 
 "That's work language. File it where you file feelings." The keeper left before the aide could answer.
 
+Lena stayed at the podium. "What am I supposed to do with that slate?"
+
+The aide looked at it the way you looked at someone else's laundry. "Not my job."
+
+"It's on your desk."
+
+"Then I don't know." He was already calling the next number. "Next."
+
 When her number came, the desk clerk said, "Vesper inquiries are redirected to transit."
 
 "I'm not inquiring about Vesper. I'm inquiring about what you're measuring while Vesper's closed."
@@ -66,15 +74,15 @@ The clerk blinked. "What people say on the wall."
 
 "And if sentiment's wrong?"
 
-"Then we publish a correction." Flat voice. Practiced. He glanced at the keeper slate still sitting on the side podium, unclaimed. "Or someone publishes a log. Corrections compete."
+"Then we publish a correction." Flat voice. Practiced. He glanced at the keeper slate still sitting on the side podium, unclaimed. "Or someone publishes a log. Whoever posts second, I guess."
 
 "Who wins?"
 
-"Whoever's louder by midday." He said it without pleasure. "Next."
+"Whoever's louder by midday." He shrugged. "Sometimes whoever posts first. I don't make the rules. Next."
 
 Lena didn't have a next. She crossed the transit ring toward the public lift.
 
-On the way she passed a maintenance crew sealing a housing seam near the transit corridor. One of them scratched a mark when they finished—dot and stroke, quick and practiced.
+On the way she passed a maintenance crew sealing a housing seam near the transit corridor.
 
 "Photographers today?" the crew lead asked.
 
@@ -84,21 +92,21 @@ On the way she passed a maintenance crew sealing a housing seam near the transit
 
 "You think the wall's lying?" Lena asked.
 
-The crew lead looked at her patch. "I think the wall's loud. We check seams. That's slower than fear." He nodded toward the transit corridor. "Vesper's not my housing. I still don't like silence on a major gate."
+The crew lead looked at her patch. "I think the wall's loud. Seams take an hour. Fear takes thirty seconds on a screen." He nodded toward the transit corridor. "Vesper's not my housing. I still don't like silence on a major gate."
 
 "Nobody does."
 
-"Somebody does." He picked up his kit. "Or somebody profits. Same thing, different uniform."
+"Somebody does." He picked up his kit. "From people buying the scary version. I don't know who. I know my kit's still short on brushes."
 
-One of the younger crew members—apprentice band still bright—said, "We recorded tolerance yesterday. Keeper tried to post it. Nobody liked it."
+One of the younger crew members—apprentice band still bright—said, "We recorded tolerance yesterday. Keeper tried to post it. Nobody liked it. Nobody liked it yesterday either. Same log."
 
 "Because it's boring," the crew lead said.
 
-"Because it doesn't have a villain," the apprentice shot back. She wasn't looking at Lena. She was looking at her own mark on the seam, as if daring it to mean less than the wall wanted.
+"I don't know why nobody reads it," the apprentice said.
 
 The crew lead sighed. "Finish the secondary seam. Then we're on lunch."
 
-He turned back to Lena. "If you're photographing marks, photograph the secondary. Fresh cut. If the wall says sabotage and the seam says tolerance, that's not a mystery. That's work and fear saying different things."
+He turned back to Lena. "Wall says sabotage. My log says tolerance. I fix seams. That's today's job."
 
 She didn't know what to say to that except thank you, which felt insufficient and accurate.
 
@@ -111,6 +119,14 @@ Lena had climbed up to get away from the rope line. She told herself she was che
 Students with tablets crowded the rail. A transit reporter had set up a portable mic. At the center, where the glare was worst, a man in Consensus Bureau gray recorded the thread wall on a calibrated display.
 
 He looked like his job had taught him to stand.
+
+Corin leaned over the display and muttered, "Your green is too bright. It looks like you're cheering for maintenance."
+
+"I'm not cheering for maintenance."
+
+"Then fix the legend."
+
+Jun didn't look up. "After the reporter. Corin, fix the legend."
 
 She edged close enough to read his chart layer. Sabotage had crossed fifty percent since she'd gone to sleep. Maintenance had stopped shrinking.
 
@@ -126,7 +142,7 @@ His assistant—barely more than a student, hungry eyes—made a note without lo
 
 Lena pointed at the sabotage slice. "People are going to route around Vesper because they're afraid of separatists, not because separatists did anything."
 
-"People route around fear." The man's voice stayed level. "Fear doesn't require evidence to move freight. That's why my profession exists."
+"People route around the scary version." The man's voice stayed level. "They don't wait for proof. Fees move anyway."
 
 "Mine too." She tapped her compass patch. "I'm trying to reach Orinreach Basin. My brother maintains mirrors on the southern basin. He's not a number on your chart."
 
@@ -140,9 +156,13 @@ The man paused half a beat—not long enough to be apology, long enough to be re
 
 "Not yet."
 
-He turned back to his display. "If you're asking whether the separatist story is true, I can't tell you. If you're asking whether it's winning, I can tell you the odds."
+He turned back to his display. "Separatists—I can't—" He stopped. "I don't—look. I have odds. What people are betting. Not truth."
 
-Lena felt heat in her face that wasn't the Lake Orin glare. "Which helps who?"
+Lena felt heat in her face that wasn't the Lake Orin glare. "My brother isn't a bet."
+
+"I know." Too fast, like he'd been caught. "I still don't have him on the chart unless you file him."
+
+"Which helps who?"
 
 "Administrators." He said it without flinching. "Pilots who price early. Couriers who read fear as cargo." His eyes flicked to her patch again. "People who move before the story settles."
 
@@ -162,17 +182,25 @@ Jun's mouth twitched. Not quite humor. "Working title: *What Silence Buys*."
 
 "Catchy."
 
-"Accurate." He zoomed a timeline. "First wave: fear. Second wave: explanation. Third wave: identity—people deciding what kind of person believes what. We're early second wave. The separatist story is picking up old border grudges that have nothing to do with Vesper."
+"Accurate." He zoomed a timeline. "People panic before they read anything. Then they want—"
+
+"Jun," Corin said quietly.
+
+"—a face." Jun gestured at the sabotage slice without looking at his assistant. "Somebody to yell at. Separatists are— they're handy. Old border stuff. Vesper's not even in it if you look."
+
+"A three-wave model," Corin muttered, barely audible.
+
+Jun heard him. "It's not a model when you're living in it. It's Tuesday."
 
 "You sound pleased."
 
-"I sound interested." Jun corrected gently. "There's a difference."
+"I'm not." Jun corrected gently. "I just finally got numbers that aren't garbage."
 
 Corin made a small sound that might have been disagreement or might have been throat clearing.
 
 Lena glanced at him. Corin looked young enough to still believe charts were moral.
 
-"Corin thinks I'm enjoying this," Jun said, without looking at his assistant. "I'm not. I'm relieved the world is finally legible enough to measure."
+"Corin thinks I'm enjoying this," Jun said, without looking at his assistant. "I'm not. Twelve gate towns. One model. Before this it was noise and prayer and guesswork."
 
 Corin said, quietly, "Legible isn't the same as true."
 
@@ -208,17 +236,27 @@ Lena looked out over Lake Orin. Tourists below were doing the reflection exercis
 
 "What does that do for him?"
 
-"It tells me depth exists." He tapped his chart. "What happens on Orinreach doesn't show here unless you file it."
+"Nothing." He tapped his chart. "Orinreach doesn't show here unless someone files it."
 
 "I'm not filing my brother."
 
-"Then he's data I can't use." Jun said it without cruelty—just the temperature of the job.
+"Then he's not on my chart." Jun said it without cruelty—just the temperature of the job.
 
-A student behind them asked Jun whether the separatist frame would hold through the festival. Jun answered with three sentences that sounded like a syllabus. The reporter asked whether the Bureau had a position on reopening. Jun said *not my department* with the calm of a man who'd practiced being disappointing.
+"Will separatists hold through festival?" a student asked Jun's back.
+
+"Define separatists," Jun said, still looking at his chart.
+
+"You're the analyst."
+
+"Then ask me something I can count." He turned. "Festival prep makes everything loud. I don't know loud yet."
+
+"The Bureau—reopening?" a reporter tried.
+
+"Not my department." Jun was already turning back to the screen. "Try transit. Try keepers. Don't try me for hope."
 
 Lena waited until the crowd shifted and Jun's shoulders dropped a fraction—exhaustion, not performance.
 
-Corin finally looked up. "The keepers are posting again. Mark refresh logs. Tolerance schedules."
+Corin finally looked up. "The keepers are posting again. Housing check logs. Tolerance schedules."
 
 "Corin's been reading keeper logs since dawn," Jun said. "He thinks measurement should include work language."
 
@@ -234,11 +272,11 @@ Jun pulled the layer. A thin green line—maintenance language—pushed against 
 
 "Because it's boring," Lena said.
 
-"Because it doesn't assign blame." Jun watched the green line plateau. "Stories that assign blame travel faster than stories that assign work."
+Jun watched the green line plateau. "Keeper posted the same log yesterday. And the day before. I counted clicks."
 
-"Than what?"
+"You counted clicks?"
 
-"Than work orders. People scroll past those."
+"Somebody has to." He saved his layer. "It's not zero. It's just not winning."
 
 "You ever try posting keeper logs in plain language?" she asked.
 
@@ -302,39 +340,13 @@ The courier paid. Lena watched the number deduct and felt her own jaw tighten in
 
 "Holding."
 
-"Then update your ledger before noon. Meridian changes at lunch when the festival prep crowd wakes up." He nodded toward the thread wall. "TRACKING means you're still shopping. RESERVED means you paid for a seat on the fear train. Pick one and stop lying to yourself."
+"Then update your ledger before noon. Meridian changes at lunch when the festival prep crowd wakes up." He nodded toward the thread wall. "Your ledger says tracking. Pick tracking or reserved and stop refreshing both."
 
 ---
 
 She spent the afternoon doing courier work because clients didn't pause for civilization.
 
-The mirror-tech signature took an hour—representative nervous, logos bright, eyes on the thread wall every time someone said *separatist* in the corridor. Lena stood in the waiting alcove with her bag between her knees and watched travelers read the wall over his shoulder.
-
-A maintenance mark on the alcove doorframe caught her eye—fresh, same stroke-and-dot as the crew had cut near the transit corridor. She photographed it while the representative was still inside. Nobody asked why. Northhook had stopped asking why about small things.
-
-When he finally emerged, he signed without meeting her eyes. "You're not one of the photographers, are you?"
-
-"Courier."
-
-"Right." He hesitated. "Our firm had a packet on Vesper routing last week. Pulled it yesterday. No statement."
-
-"I didn't ask for a statement."
-
-"Everybody asks." He handed her the scan. "Sign here. Go be busy somewhere else."
-
-"Separatists," he said, conversational, as she turned to leave.
-
-"Maybe."
-
-"You don't sound convinced."
-
-"I sound busy."
-
-He laughed like she'd confirmed something. "Busy people are the only ones worth talking to."
-
-She collected his scan and left.
-
-Two manifest queries followed—routine weights, routine delays, a client who wanted her to swear Vesper would reopen by festival.
+A client with wedding supplies wanted her to swear Vesper would reopen by festival.
 
 "If I swear it, will you pay the rush fee?" Lena asked.
 
@@ -342,21 +354,13 @@ The client hesitated. "That's not—"
 
 "Then I won't swear." She filed the manifest. "Check the wall yourself. It's cheaper than my guess."
 
-The client leaned in, voice dropping. "My sister's on Orinreach Basin. Wedding supplies. If you're holding, tell me you're holding. I can tell her something besides percentages."
+The client leaned in, voice dropping. "My sister's on Orinreach Basin. If you're holding, tell me you're holding. I can tell her something besides percentages."
 
 Lena looked at him—ordinary face, ordinary fear. "I'm holding. I don't know when Vesper opens. I'm not paying rush fees on a guess."
 
 He nodded like she'd given him a gift he couldn't afford. "That's more than the Bureau gave me."
 
-A private packet handoff at a junction kiosk required her to stand in a glass corridor while a representative pretended not to read the thread wall reflected in the window. The reflection made the percentages double—sabotage climbing in both directions.
-
-"You're not rerouting?" the representative asked.
-
-"Not yet."
-
-"Smart." He didn't sound sure.
-
-She collected the scan and left.
+She collected two routine scans and left before anyone else could ask her to swear on a percentage.
 
 ---
 
@@ -368,7 +372,7 @@ Lena stopped beside him at a respectful distance—close enough to talk, far eno
 
 "You published?" she asked.
 
-"Draft upward." Jun didn't look at her. "Politics will soften a verb. It'll release by morning."
+"Draft upward." Jun didn't look at her. "They'll sand the verbs before morning. They always do."
 
 "Will it help my brother?"
 
@@ -376,7 +380,7 @@ Lena stopped beside him at a respectful distance—close enough to talk, far eno
 
 "Will it help me reach him?"
 
-Jun considered. "It might help you predict which stories will inflate fees on the long corridor. That's not nothing."
+Jun considered. "Maybe—maybe you'll see which stories are going to spike your fees on the long corridor. That's not nothing."
 
 "That's not enough."
 
@@ -386,11 +390,11 @@ Lena watched a tourist on the lower path miss a stair and catch the rail. The re
 
 She almost said *wait*.
 
-"I'm going to read marks on housing seams." She paused. "And I'm going to reach my brother before my berth runs out."
+"I'm going to reach my brother before my berth runs out."
 
 Jun was quiet for a moment.
 
-"Identity wave comes third," he said. "You understand the model."
+"There's a third part," he said, slower than he meant to. "After fear, after explanation—people pick sides. You don't need my chart for that. You're already in it."
 
 "I understand my job."
 
@@ -410,11 +414,11 @@ Lena hesitated at the lift mouth. "If I send what I find on the ground, you'll p
 
 "He might win someday."
 
-"That's what keeps me paying him." Jun dimmed his tablet. "Collecting marks is slower than collecting percentages. Slower is sometimes right."
+"That's what keeps me paying him." Jun dimmed his tablet. "Ask Nadi if you want ground. She reads the dock before my columns update."
 
 She looked at him. "You tag couriers too?"
 
-"I tag patterns." He almost smiled. "You're not fitting mine. Annoying. Useful."
+"I tag patterns." He almost smiled. "You're not fitting mine. Good."
 
 "I'll keep that in mind."
 
@@ -444,4 +448,6 @@ Lena shouldered her bag. Arin's queue remained unchanged. She thought about the 
 
 She walked past the thread wall one last time on the way to the berth. **SEPARATIST SABOTAGE** had climbed again since dusk. **ROUTINE MAINTENANCE** hadn't moved enough to matter.
 
-A keeper in grays posted a tolerance schedule at the bottom of the wall. Nobody looked. Lena looked at the mark on the housing post instead—the same stroke-and-dot the schedule was supposed to mean—and went to sleep badly.
+A keeper in grays posted a tolerance schedule at the bottom of the wall. Nobody looked.
+
+On the connector she passed the junction where Northhook's running light should have been burning—courier handoff point, every shift someone supposed to take the watch lamp from the outgoing runner and carry it to the next lip. The lamp was out. Not dock-dark. The specific dark of a duty abandoned mid-shift. A transit worker in corridor orange was posting a staffing stub beside it. She didn't stop. She went to sleep badly.

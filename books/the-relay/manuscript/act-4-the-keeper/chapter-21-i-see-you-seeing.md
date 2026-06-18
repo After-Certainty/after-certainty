@@ -1,20 +1,20 @@
 # Chapter 21 — I See You Seeing
 
-Cai counted marks on the approach corridor before dawn because counting was how he thought.
+Cai walked the approach corridor before dawn because walking was how he thought.
 
-Fourteen yesterday. Eleven fresh overnight from night shift—good hands, consistent angles. Two vendor patches flagged for rework. One tool slip scarred through an old dot and had been refreshed beside the damage instead of over it, which told him Lio was learning the grammar beyond the stylus.
+Three scaffold shifts yesterday. Two vendor patches flagged for rework. One tool slip scar on manifold two refreshed beside the damage instead of over it, which told him Lio was learning beyond the gauge.
 
 The approach corridor was the part of First Gate tourists never named correctly. They called it *the gate* and pointed at the aperture—the moon-sized opening where haulers slid through like insects through a cathedral. Keepers called it *the bones*: pressure manifolds, alignment guides, crew intake housings, freight rails that carried weight nobody priced in tickets. Cai had spent twenty years maintaining structures so large he had never seen all of them at once. He knew his section the way a physician knew a spine—not the whole body, but the part that held everything else upright.
 
-The First Gate hummed in the deck plates.
+The crossing lived in the deck plates.
 
-He trusted the hum.
+He trusted the gauge.
 
 He did not trust what trust meant before coffee.
 
-He walked the pre-dawn list with a gauge on his belt and a stylus on his clip. Manifold lip first—Dessa's angle family four, refreshed beside a tool slip scar. Pressure guide—legacy mark honored, date code from a retired keeper Cai had never met. Crew intake—two marks, three hands across two shifts. Each site photographed. Each log filed to an archive almost nobody opened.
+He walked the pre-dawn list with a gauge on his belt and a stylus on his clip. Manifold lip first—Dessa's flag on corridor four, refreshed beside a tool slip scar. Pressure guide—legacy record honored, date code from a retired keeper Cai had never met. Crew intake—two shifts, three hands across the log. Each site photographed. Each entry filed to an archive almost nobody opened.
 
-Fourteen verified sites by the time the tourist decks warmed above him. Some sites had more than one mark. That was the point. Checking distributed across hands was harder to cut than checking heroically performed by one tired keeper on overtime nobody funded.
+Fourteen verified sites by the time the tourist decks warmed above him. Some sites had more than one keeper hand. That was the point. Checking distributed across hands was harder to cut than checking heroically performed by one tired keeper on overtime nobody funded.
 
 ---
 
@@ -26,7 +26,7 @@ The thread wall in the keeper break room was nobody's job and everybody's weathe
 
 Lio read over Cai's shoulder. "Seven's up a point."
 
-"People read marks when couriers ask loud enough." Cai heated water. "Doesn't mean they believe them."
+"People read logs when couriers ask loud enough." Cai heated water. "Doesn't mean they believe them."
 
 "Courier's back today. The long-route one."
 
@@ -40,17 +40,17 @@ Lio frowned. "She was on the Road. Pilgrim station. Came back with chalk on her 
 
 "Chalk isn't a seal."
 
-"But marks on a chalkboard rhyme with marks on housing."
+"But logs on a chalkboard rhyme with logs on housing."
 
 Cai sipped. "Rhyme isn't proof. Still—" He didn't finish. Rhyme was how ecosystems survived when institutions forgot to fund them.
 
 The night shift keeper—Corridor Four in Cai's head, real name Dessa when she appeared at housing 9-A with a thermos and a grudge against vendor polish—nodded at him across the break table.
 
-"You counting my marks again?" she asked.
+"You reading my flags again?" she asked.
 
 "Appreciating them." Cai slid his log over. "Tool slip on manifold two. You refreshed beside the scar."
 
-"Grammar matters." Dessa poured coffee black. "Supervisor says we're over-recording."
+"Records matter." Dessa poured coffee black. "Supervisor says we're over-recording."
 
 "Supervisor can climb."
 
@@ -94,15 +94,15 @@ Politics was his blind spot. He knew that. He kept checking manifolds anyway.
 
 The ecosystem showed itself when you knew how to read a corridor.
 
-Mark at the manifold lip—dot, stroke, angle family three. Not Cai's angle. Night shift keeper he called *Corridor Four* in his head because he'd never been introduced formally and introductions were a luxury roster hours didn't buy.
+Flag at the manifold lip—not Cai's hand. Night shift keeper he called *Corridor Four* in his head because he'd never been introduced formally and introductions were a luxury roster hours didn't buy.
 
-Mark at the pressure guide—Cai's, yesterday, refreshed by Lio on the second pass because apprentices learned by doing.
+Record at the pressure guide—Cai's, yesterday, refreshed by Lio on the second pass because apprentices learned by doing.
 
-Mark at the crew intake housing—older, worn soft at the edges, date code from a keeper who'd retired before Cai's first climb. Still legible. Still honored.
+Record at the crew intake housing—older, worn soft at the edges, date code from a keeper who'd retired before Cai's first climb. Still legible. Still honored.
 
-Mark at 7-C—two hands, two angles, *I see you seeing* without words.
+Record at 7-C—two hands, two shifts, distributed attention without words.
 
-An ecosystem of attention so easy to forget because it worked quietly. Tourists photographed the aperture. Administrators photographed reassurance. Keepers photographed seams nobody would open unless someone had left a mark saying *checked here, by this hand, on this shift*.
+An ecosystem of attention so easy to forget because it worked quietly. Tourists photographed the aperture. Administrators photographed reassurance. Keepers photographed seams nobody would open unless someone had left a log saying *checked here, by this hand, on this shift*.
 
 Cai ran the gauge again because checked was checked.
 
@@ -114,7 +114,7 @@ Lio watched him work. "If the thread wall says eighty-two and the gauge says ins
 
 "That's autumn." Cai flagged the vendor patch queue. "Write the note. Full sentences."
 
-He thought about the courier back at berth—chalk on her fingers, questions as cargo, Jun's theater this afternoon. Not his theater. His answer was marks. Hers would be routes. Complementary jobs. Different speeds.
+He thought about the courier back at berth—chalk on her fingers, questions as cargo, Jun's theater this afternoon. Not his theater. His answer was seals. Hers would be routes. Complementary jobs. Different speeds.
 
 ---
 
@@ -124,17 +124,17 @@ He thought about the courier back at berth—chalk on her fingers, questions as 
 
 "You could publish that."
 
-"So could administrators." He photographed a clean seam, recorded it, made a dot anyway. "They publish green."
+"So could administrators." He photographed a clean seam, recorded it, logged it anyway. "They publish green."
 
 ---
 
 The keeper counter-narrative on the thread was late and weak.
 
-Cai had seen the posts—pilots who remembered marks, one freight captain citing fringe corridor viability, a maintenance log excerpt someone had leaked without context. **ROUTINE MAINTENANCE** crawled from five percent to seven, not because evidence had changed, because fear had fatigued.
+Cai had seen the posts—pilots who remembered keeper logs, one freight captain citing fringe corridor viability, a maintenance log excerpt someone had leaked without context. **ROUTINE MAINTENANCE** crawled from five percent to seven, not because evidence had changed, because fear had fatigued.
 
 Belief cascades didn't reverse on proof. They slowed on repetition.
 
-On the public thread, a pilot Cai didn't know had posted a photograph of a dock mark with the caption *someone was here before the panic*. The comments argued about separatists anyway. **ROUTINE MAINTENANCE** crawled another half point while Cai watched and said nothing.
+On the public thread, a pilot Cai didn't know had posted a photograph of a dock housing flag with the caption *someone was here before the panic*. The comments argued about separatists anyway. **ROUTINE MAINTENANCE** crawled another half point while Cai watched and said nothing.
 
 Lio wanted to post the housing 7-C flag series. Cai told him no.
 
@@ -142,13 +142,13 @@ Lio wanted to post the housing 7-C flag series. Cai told him no.
 
 "We're checking."
 
-"We're keepers." Cai closed the housing panel. "Campaigning is what analysts do. We leave marks. If the marks survive, someone learns the grammar."
+"We're keepers." Cai closed the housing panel. "Campaigning is what analysts do. We leave logs. If the logs survive, someone learns to read them."
 
 "That's slow."
 
 "Yes."
 
-Cai pulled up the thread on his slate anyway—not to post, to read the weather. A freight captain had attached a corridor viability note without naming separatists. A pilot remembered dock marks from before the panic. Someone had leaked a maintenance log excerpt stripped of context so the comments could fight about intent.
+Cai pulled up the thread on his slate anyway—not to post, to read the weather. A freight captain had attached a corridor viability note without naming separatists. A pilot remembered dock logs from before the panic. Someone had leaked a maintenance log excerpt stripped of context so the comments could fight about intent.
 
 **ROUTINE MAINTENANCE — SEVEN PERCENT**
 
@@ -156,15 +156,15 @@ Late. Weak.
 
 A point anyway.
 
-Belief cascades didn't reverse on proof. They slowed on repetition—the same photograph, the same mark, the same child on a chalkboard at a station the courier had apparently visited, according to berth gossip Cai didn't trust and couldn't ignore. The counter-narrative arrived after fear had already hired rooms in people's heads. Seven percent was not a victory. It was evidence that some fraction of the network still knew how to read grammar when analysts sold clusters.
+Belief cascades didn't reverse on proof. They slowed on repetition—the same photograph, the same flag, the same child on a chalkboard at a station the courier had apparently visited, according to berth gossip Cai didn't trust and couldn't ignore. The counter-narrative arrived after fear had already hired rooms in people's heads. Seven percent was not a victory. It was evidence that some fraction of the network still knew how to read logs when analysts sold clusters.
 
-Lio read a comment thread and made a face. "They think the marks are separatist codes."
+Lio read a comment thread and made a face. "They think the flags are separatist codes."
 
-"Marks are marks." Cai closed the slate. "People see what fear teaches them to see."
+"Flags are flags." Cai closed the slate. "People see what fear teaches them to see."
 
 "Should we post the housing nine-A series after tonight?"
 
-"After tonight." Cai meant after two angles sat on one face and proved the grammar without argument. "Not before."
+"After tonight." Cai meant after two keeper hands sat on one housing and proved distributed attention without argument. "Not before."
 
 ---
 
@@ -174,19 +174,19 @@ Manifold lip: verified.
 
 Pressure guide: verified.
 
-Crew intake: verified, legacy mark honored.
+Crew intake: verified, legacy record honored.
 
 Freight rail brace: new flag, vibration wear, autumn problem.
 
-Housing 7-C: vendor patch queued for rework, marks from three hands.
+Housing 7-C: vendor patch queued for rework, records from three hands.
 
-Housing 9-A: clean, dot anyway.
+Housing 9-A: clean, logged anyway.
 
 Each site recorded. Each photograph filed to an archive almost nobody opened, which was the insult and the faith in one filing habit.
 
 The freight rail brace worried him more than the thread wall. Vibration wear didn't care about narratives. Autumn load would arrive whether administrators published tolerances or not. Cai flagged the brace for priority rework and wrote the note in sentences a frightened supervisor couldn't misread as optional.
 
-The wear pattern had a signature—repetitive stress, not explosive failure. If sabotage were real, adjacent housings would show different stress families. They showed the same hum, the same green boards, the same slow erosion that looked like health until load shifted.
+The wear pattern had a signature—repetitive stress, not explosive failure. If sabotage were real, adjacent housings would show different stress families. They showed the same crossing vibration, the same green boards, the same slow erosion that looked like health until load shifted.
 
 Lio photographed the wear pattern twice. "That's not in the vendor box."
 
@@ -204,7 +204,7 @@ The funding sheet projected on the wall rhymed with the one he'd shown the couri
 
 "We're allocating visibility resources," the administrator said. "Public reassurance during Vesper suspension."
 
-"Publish tolerances," Cai said. "Publish mark schedules. Fund roster hours."
+"Publish tolerances," Cai said. "Publish keeper schedules. Fund roster hours."
 
 "We've heard your position."
 
@@ -240,7 +240,7 @@ In the corridor outside, Dessa waited with her thermos and the expression of som
 
 "Ladder." No hesitation. "Seals don't improve in briefings."
 
-Dessa sipped coffee. "Night shift owes you housing nine-A. Vendor polish on the intake seam. I didn't cut it—I marked it. Your call whether it's thick or stupid."
+Dessa sipped coffee. "Night shift owes you housing nine-A. Vendor polish on the intake seam. I didn't cut it—I flagged it. Your call whether it's thick or stupid."
 
 "I'll cut it at dusk." Cai checked his harness. "Save me the scaffold slot."
 
@@ -290,9 +290,9 @@ Lio met him at housing 7-C with replacement patch stock and the news ribbon stil
 
 Cai measured the patch thickness. "Soup isn't a seal."
 
-"People came back talking about marks on a chalkboard."
+"People came back talking about a name on a chalkboard."
 
-"Chalkboards survive meetings." Cai cut the old vendor patch. "So do dots. Write the after photograph."
+"Chalkboards survive meetings." Cai cut the old vendor patch. "So do logs. Write the after photograph."
 
 Lio held the light. "Jun's briefing tomorrow. You going?"
 
@@ -304,13 +304,13 @@ Lio held the light. "Jun's briefing tomorrow. You going?"
 
 "I don't make tool slips."
 
-"You refreshed beside one yesterday. That was grammar." Cai almost smiled. "Sleep anyway."
+"You refreshed beside one yesterday. That was the job." Cai almost smiled. "Sleep anyway."
 
 ---
 
-Dusk handoff was grammar made procedural.
+Dusk handoff was procedure made honest.
 
-Sites pending. Vendor rework queued. Lio's notes attached with full sentences. Dessa arriving as Lio left, thermos swapped for harness, night shift inheriting day shift's honesty.
+Sites pending. Vendor rework queued. Lio's notes attached with full sentences. Dessa arriving as Lio left, thermos swapped for harness, night shift inheriting day shift's records.
 
 The thread wall in the break room had ticked again on Cai's way out: **ROUTINE MAINTENANCE — EIGHT PERCENT**.
 
@@ -324,39 +324,39 @@ A point anyway.
 
 They rode the scaffold together—forty meters of approach bone, freight guide rail humming under load, aperture glow painting the housing face in colors tourists paid to photograph from the wrong angle.
 
-Housing 9-A sat where crew intake bent toward the berths. Green board: **WITHIN TOLERANCE**. Cai trusted the hum more than the board and the gauge more than the hum.
+Housing 9-A sat where crew intake bent toward the berths. Green board: **WITHIN TOLERANCE**. Cai trusted the gauge more than the board.
 
-Night shift on the approach corridor was a different profession than day shift—the same grammar, different light. Tourist decks dimmed. Freight traffic thickened. The aperture glow painted housing faces in colors that made vendor polish look honest until you cut it.
+Night shift on the approach corridor was a different profession than day shift—the same discipline, different light. Tourist decks dimmed. Freight traffic thickened. The aperture glow painted housing faces in colors that made vendor polish look honest until you cut it.
 
-Dessa had already marked the intake seam—dot, stroke, angle family four, five degrees off Cai's usual pitch. Same code family. Different hand. Night shift grammar.
+Dessa had already flagged the intake seam—note in her hand, five degrees off Cai's usual pitch. Same housing family. Different keeper.
 
 "Vendor polish," she said. "Thick at the left flange. Inside tolerance. Outside sense."
 
 Cai ran the gauge. Microns inside band. Load wrong anyway. "Keeper says rework."
 
-"That's what I marked for." Dessa held the light while he cut.
+"That's what I flagged for." Dessa held the light while he cut.
 
 The patch came away thick—box-checking proud enough to catch thermal wrong. Seam underneath clean. Vendor competence wasn't the issue. Habit was. You could meet published tolerance and still build a lie that smiled until autumn.
 
 Cai measured replacement stock twice. Cut once. Sealed. Gauged again.
 
-The seam read inside tolerance. The housing would hum green on the board until autumn load proved otherwise. That was the keeper bargain—catch thick polish before load shifted, log in sentences, leave marks for the next hand.
+The seam read inside tolerance. The housing would hum green on the board until autumn load proved otherwise. That was the keeper bargain—catch thick polish before load shifted, log in sentences, leave records for the next hand.
 
-Then he made his mark beside Dessa's—not overwriting, not correcting her angle. His dot. His stroke. His date code. Two angles on one housing. *I see you seeing.*
+Then he added his own flag beside Dessa's—not overwriting, not correcting her work. His gauge read. His photograph. His date code. Two keeper hands on one housing. I see you seeing.
 
-Dessa watched him add the second mark and said nothing for a beat that felt like the whole profession condensed.
+Dessa watched him add the second record and said nothing for a beat that felt like the whole profession condensed.
 
 "Corridor Four," Cai said, because he'd never used her real name on a scaffold.
 
-"Dessa." She clipped her harness to the rail. "If you're going to read my marks before dawn, you can say my name before dusk."
+"Dessa." She clipped her harness to the rail. "If you're going to read my flags before dawn, you can say my name before dusk."
 
 "Cai."
 
-"I know your name, dot man." Almost a smile. "Write the record in sentences. Supervisor's been complaining about night shift tone."
+"I know your name." Almost a smile. "Write the record in sentences. Supervisor's been complaining about night shift tone."
 
 "Supervisor can climb."
 
-"That's our religion." She photographed the two marks together—angle family three beside angle family four, same housing, same shift, same grammar without sermon. "Lio learning?"
+"That's our religion." She photographed the two records together—same housing, same shift, distributed attention without sermon. "Lio learning?"
 
 "Learning." Cai filed the flag series. "Wants to post them to the thread."
 
@@ -364,17 +364,17 @@ Dessa watched him add the second mark and said nothing for a beat that felt like
 
 "Already told him."
 
-"Good." Dessa unclipped. "Courier back means questions tomorrow. Analyst briefing means theater. We mean marks."
+"Good." Dessa unclipped. "Courier back means questions tomorrow. Analyst briefing means theater. We mean logs."
 
-"Marks mean work."
+"Logs mean work."
 
 "Work means roster hours nobody's funding." She started down the scaffold. "Eight percent on the wall. Late. Weak. Still a point."
 
 "Still a point," Cai agreed.
 
-They finished the housing log together—before photographs, after photographs, gauge readings, flag notes in full sentences. Two marks on one face. Angle family three beside angle family four. *I see you seeing* without sermon.
+They finished the housing log together—before photographs, after photographs, gauge readings, flag notes in full sentences. Two keeper hands on one face. Distributed attention without sermon.
 
-Cai had learned the grammar from a keeper who'd retired before his first climb. He'd learned the philosophy later: if you're the only one checking, you're already losing. Dessa had learned it somewhere else—different hand, same code family, same stubborn faith that marks outlasted meetings.
+Cai had learned the discipline from a keeper who'd retired before his first climb. He'd learned the philosophy later: if you're the only one checking, you're already losing. Dessa had learned it somewhere else—different hand, same housing family, same stubborn faith that logs outlasted meetings.
 
 "You afraid?" she asked on the scaffold lip.
 
@@ -386,13 +386,13 @@ Cai had learned the grammar from a keeper who'd retired before his first climb. 
 
 "Also true." She started down. "Get some sleep. Dawn comes whether the roster funds it or not."
 
-Cai stayed on the scaffold lip a minute after she left. Two marks on housing 9-A caught aperture light—angle family three beside angle family four. He'd added marks on hundreds of housings. This one felt like the chapter the profession wrote when it was honest: distributed attention, no hero, no villain, only hands.
+Cai stayed on the scaffold lip a minute after she left. Two keeper records on housing 9-A caught aperture light—his and Dessa's. He'd added flags on hundreds of housings. This one felt like the chapter the profession wrote when it was honest: distributed attention, no hero, no villain, only hands.
 
 He unclipped and followed Dessa down.
 
 ---
 
-He walked home along the approach deck feeling the hum in his bones—trusted, feared, insufficient, necessary.
+He walked home along the approach deck feeling the crossing in his bones—trusted, feared, insufficient, necessary.
 
 Somewhere Vesper stayed silent.
 
@@ -402,7 +402,7 @@ Somewhere an archivist struck names through and called it slope.
 
 Somewhere a pilgrim ladled soup.
 
-Somewhere a child taught another child a mark before winter.
+Somewhere a child taught another child to read a check log before winter.
 
 The ecosystem of attention persisted without permission from administrators or analysts or thread walls.
 
@@ -418,9 +418,9 @@ In the morning he would climb again.
 
 He dreamed in tolerances—not failure, never failure, only margins narrowing while charts stayed green.
 
-When the alarm sounded, the hum was still there.
+When the alarm sounded, the crossing was still there.
 
-That was the whole bargain keepers made with civilization: climb while the hum holds; log when it doesn't; trust nothing that can't be gauged.
+That was the whole bargain keepers made with civilization: climb while the corridor holds; log when it doesn't; trust nothing that can't be gauged.
 
 Cai made coffee and went to work.
 
@@ -428,44 +428,44 @@ The news ribbon on the break room wall said **ANALYST BRIEFING TODAY — PUBLIC 
 
 ---
 
-At housing 7-C the vendor patch from yesterday still held. At housing 9-A, two marks faced the freight rail—his and Dessa's, two angles, one housing, the answer to a question tourists never thought to ask.
+At housing 7-C the vendor patch from yesterday still held. At housing 9-A, two keeper records faced the freight rail—his and Dessa's, one housing, the answer to a question tourists never thought to ask.
 
 The green board still said **WITHIN TOLERANCE**.
 
-The hum was still there.
+The crossing was still there.
 
-Cai trusted the hum.
+Cai trusted the gauge.
 
 He did not trust what trust meant.
 
 He climbed anyway.
 
-Fourteen sites on the list if traffic allowed. Two vendor flags if vendors kept cutting corners. Zero catastrophes if the hum held and the roster didn't thin again before autumn load.
+Three scaffold shifts on the list if traffic allowed. Two vendor flags if vendors kept cutting corners. Zero catastrophes if the crossing held and the roster didn't thin again before autumn load.
 
 His slate chimed mid-morning—courier berth corridor, not a voice call, text only:
 
-*Back from Two Valleys. Chalk on my fingers. Pell on a board. Mer teaching dot and stroke. Jun briefing this afternoon. What should I carry into the room?*
+*Back from Two Valleys. Chalk on my fingers. Pell on a board. Mer teaching check logs. Jun briefing this afternoon. What should I carry into the room?*
 
 Cai read it twice. Courier grammar—routes, stories, questions as cargo. She wasn't asking for seals. She was asking what kind of weight to carry into a theater.
 
 He stared at the message long enough to annoy the scaffold safety AI before typing back:
 
-**FOURTEEN MARKS TODAY IF TRAFFIC ALLOWS. DON'T CONFUSE HUM WITH PROOF.**
+**THREE SCAFFOLD SHIFTS TODAY IF TRAFFIC ALLOWS. ZERO CATASTROPHES IS THE JOB. DON'T CONFUSE HABIT WITH PROOF.**
 
 He sent it.
 
-Below him, the approach corridor hummed. Above him, analysts would break models. Between those weathers, keepers left marks.
+Below him, the approach corridor carried freight. Above him, analysts would break models. Between those weathers, keepers left logs.
 
-He touched the housing seam—dot, stroke, date code—and went to find Lio before intake four got impatient with truth.
+He touched the housing seam—gauge read, photograph, date code—and went to find Lio before intake four got impatient with truth.
 
 That was the whole answer he had.
 
-Fourteen marks if traffic allowed.
+Three scaffold shifts if traffic allowed.
 
 Two vendor flags if vendors kept cutting corners.
 
-Zero catastrophes if the hum held and the roster didn't thin again before autumn load.
+Zero catastrophes if the crossing held and the roster didn't thin again before autumn load.
 
-Somewhere in the berth corridors a courier would carry his sentence into a theater he wouldn't attend. *Don't confuse hum with proof.* Grammar for a room that wanted villains.
+Somewhere in the berth corridors a courier would carry his sentence into a theater he wouldn't attend. *Don't confuse habit with proof.* Honest weight for a room that wanted villains.
 
 Cai put the comm away and climbed.

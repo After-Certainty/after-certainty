@@ -1,30 +1,30 @@
 # Chapter 16 — Grammar
 
-Lena went looking for marks because marks were the only language on this moon that didn't require an appointment.
+Lena went looking for handoffs because handoffs were the only proof on this moon that didn't require an appointment.
 
-The archive kept photographs—millions of them, indexed by site, era, institution, the dull file tags of proof. Most visitors searched for people. Lena searched for dots.
+The archive kept photographs—millions of them, indexed by site, era, institution, the dull file tags of proof. Most visitors searched for people. Lena searched for junction lamps.
 
-The public imaging corridor ran along Vault 12's upper lip: a window into stone, climate hum in the teeth, terminals that treated history like freight. Morning shift brought school groups sometimes—archive education tours, children bored until someone showed them a mark and said *someone looked*.
+The public imaging corridor ran along Vault 12's upper lip: a window into stone, climate control cold enough to taste, terminals that treated history like freight. Morning shift brought school groups sometimes—archive education tours, children bored until someone showed them a roster name and said *someone carried the watch*.
 
 Lena envied the simplicity.
 
 She found terminal six open and claimed it the way couriers claimed berths—early, practical, not asking permission the moon would grant anyway if you waited long enough.
 
-She typed **HOUSING SEAL — MAINTENANCE — FIRST GATE**.
+She typed **JUNCTION WATCH — RELAY HANDOFF — FIRST GATE APPROACH**.
 
 Four hundred twelve results.
 
-She narrowed: **DOT AND STROKE**.
+She narrowed: **LAMP OUT — NO SUCCESSOR LOGGED**.
 
 Ninety-seven.
 
-She narrowed again: **KEEPER LOG CROSS-REFERENCE**.
+She narrowed again: **KEEPER ROSTER CROSS-REFERENCE**.
 
 Twenty-three images with ledger entries attached.
 
-The first was older than she expected—not centuries, but old enough that the housing seam looked naive, the mark crude, the keeper's log written in hand that took pride in straight lines.
+The first was older than she expected—not centuries, but old enough that the junction housing looked naive, the watch lamp crude, the keeper's log written in hand that took pride in straight lines.
 
-*Checked seal 7-C. Hum within tolerance. Dot cut. Stroke added. Next check scheduled.*
+*Handoff completed 7-C. Lamp burning. Next watch scheduled.*
 
 No drama.
 
@@ -34,25 +34,25 @@ A job.
 
 She flagged it into a new album and named the album **CHECKING** because she didn't have a better word yet.
 
-The terminal asked for tags. She typed **DOT**, **STROKE**, **KEEPER NAMED**, **HUM TOLERANCE**—the practical tags of a job done without applause. A school group passed behind her, a guide saying *someone looked* the way you'd say *someone cooked*. Lena envied the guide's sentence and stole it for her note field.
+The terminal asked for tags. She typed **LAMP**, **HANDOFF**, **KEEPER NAMED**, **ROSTER**—the practical tags of a job done without applause. A school group passed behind her, a guide saying *someone carried the watch* the way you'd say *someone cooked*. Lena envied the guide's sentence and stole it for her note field.
 
 ---
 
-The second image was two hundred years later, different world, same grammar.
+The second image was two hundred years later, different world, same grammar of passing.
 
-Dot.
+Lamp burning.
 
-Stroke.
+Handoff logged.
 
 A log line in vendor-era template language that made her skin prickle: **INSPECTION COMPLETED — CONTRACT 7-A — VISUAL CONFIRMATION**.
 
 No keeper name.
 
-The mark remained.
+The lamp housing remained.
 
-She added it to **CHECKING** and wrote a note only she would read: *Name gone. Dot stayed.*
+She added it to **CHECKING** and wrote a note only she would read: *Name gone. Lamp stayed.*
 
-The third image was Cai's—fresh gleam on First Gate approach housing, mark code verified, forwarded into the query chain that had brought her here.
+The third image was Cai's—fresh gleam on First Gate approach junction, handoff code verified, forwarded into the query chain that had brought her here.
 
 Evidence unchanged.
 
@@ -66,19 +66,19 @@ Not to conspiracy. To repetition.
 
 Hour one: she built filters the way she'd build a route—test each narrowing, reject dead ends, keep what moved.
 
-**HOUSING SEAL** too broad. **DOT AND STROKE** better. **KEEPER LOG CROSS-REFERENCE** better still. She saved each search string into the album tags so future-Lena wouldn't have to reinvent the grammar.
+**JUNCTION WATCH** too broad. **LAMP OUT — NO SUCCESSOR** better. **KEEPER ROSTER CROSS-REFERENCE** better still. She saved each search string into the album tags so future-Lena wouldn't have to reinvent the grammar.
 
-Hour two: marks on junction housings along the Pilgrim Road—photographed by guild archivists before guilds thinned. She dragged them into **CHECKING** one at a time, the way couriers filed manifests—each image an entry, each entry a promise that someone had looked. A hand-entered roster visible in the corner of one photograph—seven names, no vendor template. She zoomed until her eyes burned and tagged it **ROSTER VISIBLE — PRECEDENT**.
+Hour two: watch lamps on junction housings along the Pilgrim Road—photographed by guild archivists before guilds thinned. She dragged them into **CHECKING** one at a time, the way couriers filed manifests—each image an entry, each entry a promise that someone had looked. A hand-entered roster visible in the corner of one photograph—seven names, no vendor template. She zoomed until her eyes burned and tagged it **ROSTER VISIBLE — PRECEDENT**.
 
-Hour three: marks on relay panel seams at fringe corridors she'd flown with Nadi. A dock panel from Year 218, mark half worn, new dot cut beside it, vendor sticker placed *over* the stroke until someone peeled the sticker back.
+Hour three: relay panel lamps at fringe corridors she'd flown with Nadi. A dock junction from Year 218, lamp half dead, new handoff logged beside it, vendor sticker placed *over* the roster until someone peeled the sticker back.
 
-Hour four: a Ribbon maintenance kite housing with three marks layered like generations arguing in ink.
+Hour four: a Ribbon maintenance kite housing with three watch logs layered like generations arguing in ink.
 
 The archive did not call them poetry.
 
 It called them **ATTENTION RECORDS — NON-DECORATIVE**.
 
-A tooltip explained in bureaucratic plainness: *Symbols cut or painted at inspection sites to indicate human verification within interval policy. Not vandalism. Not religious sigil. Do not remove without supervisor chain.*
+A tooltip explained in bureaucratic plainness: *Junction lamps maintained at relay handoff points to indicate human verification within interval policy. Not vandalism. Not religious sigil. Do not remove without supervisor chain.*
 
 Someone had written *do not remove* because someone had removed.
 
@@ -90,13 +90,13 @@ One result.
 
 ---
 
-The photograph showed an empty seam—ghost outline where a stroke had been, housing paint fresh enough to smell through the file tags.
+The photograph showed an empty lamp housing—ghost outline where a watch had been, junction paint fresh enough to smell through the file tags.
 
 Attached: an incident report.
 
 Lena pulled it full screen and read it aloud the way a dock clerk would read a fee dispute—flat, offended on behalf of procedure:
 
-*"Incident logged Year 221, Junction Housing Panel 4-F. Maintenance mark removed without supervisor chain authorization. Responsible party: vendor aesthetics crew, contract 7-A adjunct. Rationale submitted: brand consistency and passenger confidence. Remediation: surface repainted. Visual confirmation logged. No keeper climb required. No further action."*
+*"Incident logged Year 221, Junction Relay Panel 4-F. Watch lamp removed without supervisor chain authorization. Responsible party: vendor aesthetics crew, contract 7-A adjunct. Rationale submitted: brand consistency and passenger confidence. Remediation: housing repainted. Visual confirmation logged. No keeper climb required. No further action."*
 
 She read it again, slower, letting the clerk voice crack where the words deserved it:
 
@@ -108,17 +108,17 @@ She read it again, slower, letting the clerk voice crack where the words deserve
 
 *No further action.*
 
-A school group passed the terminal behind her—guide saying *someone looked*—and Lena kept reading because the album needed the voice on the record, not just the photograph of what had been stolen.
+A school group passed the terminal behind her—guide saying *someone carried the watch*—and Lena kept reading because the album needed the voice on the record, not just the photograph of what had been stolen.
 
-Maintenance anger arrived cold and useful—not purge anger. The anger of a courier who had spent a month hunting faces while institutions filed *no further action* beside ghost outlines.
+Maintenance anger arrived cold and useful—not purge anger. The anger of a courier who had spent a month hunting faces while institutions filed *no further action* beside dark junctions.
 
 She flagged the image **REMOVED WITHOUT CHAIN** and put it at the top of **CHECKING** like a warning label.
 
-Someone had stolen memory because it uglied a surface.
+Someone had stolen memory because a lamp uglied a corridor.
 
 Lena pulled the linked vendor correspondence—three messages, clerk-flat:
 
-*"Aesthetics crew reports mark inconsistent with corridor brand palette."*
+*"Aesthetics crew reports lamp inconsistent with corridor brand palette."*
 
 *"Supervisor approves removal pending repaint."*
 
@@ -128,13 +128,13 @@ She read them aloud too, because the album needed voices not just images. Her cl
 
 She tagged the thread **7-A — AESTHETICS** and linked it to the ghost-outline photograph. Then she walked the corridor once, came back, and added a line to the album header:
 
-*If they remove the mark, what replaces the memory?*
+*If they remove the lamp, what replaces the handoff?*
 
 No answer on the moon. Only more photographs.
 
 ---
 
-Hour seven: Pilgrim Road junction, Year 209. Dot and stroke under a hand-painted roster on the wall behind the seam—names visible in the photograph's corner, too small to read without zoom. Lena zoomed. Seven names. No vendor template.
+Hour seven: Pilgrim Road junction, Year 209. Watch lamp burning under a hand-painted roster on the wall behind the seam—names visible in the photograph's corner, too small to read without zoom. Lena zoomed. Seven names. No vendor template.
 
 Hour eight: First Gate approach, Year 224. Cai's predecessor—different hands, same grammar, log line struck through where the keeper name should have been.
 
@@ -152,27 +152,27 @@ Hour twelve: a Fringe corridor panel Nadi would recognize—sticker over stroke,
 
 Toma found her at terminal six with her cheek on her hand and the album open—seventeen images now, three notes, one incident report she had read aloud twice.
 
-"You searched dot and stroke," he said.
+"You searched lamp handoffs," he said.
 
 "You have a search alert."
 
-"I have an alert for couriers who stop asking about villains and start asking about grammar." He pulled up a chair. "What did the stone show you?"
+"I have an alert for couriers who stop asking about villains and start asking about who carries the watch." He pulled up a chair. "What did the stone show you?"
 
-"That the marks outlast the names."
+"That the lamps outlast the names."
 
 "Yes."
 
-"That vendor contracts inherited marks without inheriting keepers."
+"That vendor contracts inherited handoffs without inheriting keepers."
 
 "Also yes."
 
-"That institutions wrote *visual confirmation* when they meant *someone else's dot still there*."
+"That institutions wrote *visual confirmation* when they meant *someone else's lamp still burning*."
 
 Toma nodded slowly. "Erosion preserves symbols faster than salaries."
 
-Lena turned the screen toward him. "Cai's mark isn't an exception."
+Lena turned the screen toward him. "Cai's junction isn't an exception."
 
-"Cai's mark is contemporary practice in an institution that forgot to budget contemporary practitioners." No triumph in his voice. "He is not alone. He is lonely."
+"Cai's shift is contemporary practice in an institution that forgot to budget contemporary practitioners." No triumph in his voice. "He is not alone. He is lonely."
 
 The word sat between them.
 
@@ -398,6 +398,6 @@ Tonight she played the Two Valleys file preview once—just the elder's line abo
 
 Tonight the grammar packet was enough to keep her from going back to Jun's purge layer as home.
 
-When she finally slept, she dreamed in dot and stroke—symbols without names, names without salaries, salaries without keepers, keepers without audiences.
+When she finally slept, she dreamed in lamps and blank roster lines—handoffs without names, names without salaries, salaries without keepers, keepers without audiences.
 
 Grammar without a sentence end.

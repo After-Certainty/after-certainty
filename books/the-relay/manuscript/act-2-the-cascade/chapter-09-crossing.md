@@ -8,7 +8,7 @@ The scale of it pressed on her body the way Lake Orin pressed on tourists: not t
 
 She had booked passage on a shuttle spur—not fringe, not long corridor, the cheap honest crawl between Markets modules and Road stations where couriers shared benches with pilgrims and both pretended they weren't measuring each other's fear.
 
-Vesper suspension was four days old in public time and ancient in wall time. Her ledger said **COMMITTED**. Her folder said wrong border, marks, fees. Her message stack said **DELIVERED** and nothing else.
+Vesper suspension was four days old in public time and ancient in wall time. Her ledger said **COMMITTED**. Her folder said wrong border, fees. Her message stack said **DELIVERED** and nothing else.
 
 The junction hall smelled like spice tea and recycled wind. A bead curtain clicked in the draft from a dock tunnel. Somewhere down that tunnel, soup simmered—onion and dried herb and the particular patience of a station kitchen that had learned to feed people who might stay three hours or three weeks. A child asked why the percentages were red and an adult said, "Because grown-ups are scared," with the tired kindness of someone who'd answered the same question twice this hour.
 
@@ -46,7 +46,7 @@ Lena glanced at her shoulder patch. "That obvious?"
 
 Sera almost smiled. "Then maintenance until breakfast."
 
-The line should have irritated Lena. It landed too close to the folder in her bag, the marks she'd photographed, Arin's basin seam. Maintenance until breakfast sounded like a person who hadn't watched a thread wall cross seventy.
+The line should have irritated Lena. It landed too close to the folder in her bag, Arin's compass stamp on wet catwalk. Maintenance until breakfast sounded like a person who hadn't watched a thread wall cross seventy.
 
 "I'm trying to reach Orinreach," Lena said. "My brother's on the basin."
 
@@ -76,7 +76,7 @@ Lena took the strip. "You just saved me a fee."
 
 "I just saved you a clerk argument. Fees are weather." Sera said it without Nadi's bite, without Jun's decimals. "The Road doesn't care about your separatist pamphlet. Clerks do."
 
-Through the junction window the shuttle dock showed housing seams and access panels, temporary modules that had been temporary for a decade. On one seam, corridor light caught a dot-and-stroke mark someone had left before the wall got loud. Lena's pamphlet sat folded in her bag—the wrong border, the separatist line dressed as geography. Three things in one glance. She hated that she was learning to think in tracks.
+Through the junction window the shuttle dock showed housing seams and access panels, temporary modules that had been temporary for a decade. Lena's pamphlet sat folded in her bag—the wrong border, the separatist line dressed as geography. Two things in one glance. She hated that she was learning to think in tracks.
 
 A pilgrim elder crossed the spur mouth toward the tunnel kitchen, ladling smell ahead of her—onion, herb, the patience of feeding people who might stay three hours or three weeks. Lena watched the empty chair through the glass one more time: jacket on the back, sleeves holding the shape of absence. Not shrine. Reminder. The junction at Drift's outer lip was large enough to lose a grief in and temporary enough that grief had to be efficient.
 
@@ -110,10 +110,6 @@ Sera was quiet long enough that Lena thought she wouldn't answer. Then she set h
 
 "Young. Hands that won't stop moving." She nodded toward the spur tunnel. "I put Pell on the roster where everyone sees it. Not hidden in a hero story."
 
-Lena glanced at the mark on the dock seam through the window. "Marks aren't graffiti."
-
-"No." Sera said it simply. "They're how the next person knows someone looked."
-
 "The junction held through suspension week."
 
 "Because Pell checked." Sera didn't look at Lena when she said it. "Not because anyone reopened a gate."
@@ -132,7 +128,7 @@ Steam rose. The soup smell from the spur tunnel deepened as someone opened a kit
 
 "Some believed the ladder was wet." Sera's mouth twitched. "Some believed the soup."
 
-Lena thought of Arin's mark photo—proof of checking, not proof of safety. Stories people could walk on sounded like maintenance lag with better metaphors.
+Lena thought of Arin's catwalk photo—proof of checking, not proof of safety. Stories people could walk on sounded like maintenance lag with better metaphors.
 
 "You're not the first courier to ask why I'm not scared," Sera said, quieter.
 
@@ -140,11 +136,11 @@ Lena thought of Arin's mark photo—proof of checking, not proof of safety. Stor
 
 "That I'm scared of communities that stop checking because the checker died." She looked toward the dock tunnel, toward the empty chair with its jacket sleeves. "Of people who think messages replace showing up."
 
-The line landed like a mark on a seam—precise, not cruel.
+The line landed precise, not cruel.
 
 Lena shifted on the bench. Her bag dug into her thigh. Somewhere in the spur tunnel a ladle clinked against metal.
 
-"My brother sent a mark," Lena said. "Not words. A mark on a housing seam."
+"My brother sent a compass stamp," Lena said. "Not words. A stamp on wet catwalk."
 
 "Then someone checked." Sera didn't lean in. Didn't ask to see the photo. "Ask him what resting means on the basin boards when you arrive. Three couriers told me the same word this week. Nobody likes it."
 
@@ -152,7 +148,7 @@ The Northhook clerk's line, passed hand to hand until even pilgrims carried it.
 
 Lena's throat tightened. "He won't answer."
 
-"Then you'll see the mark yourself." Sera picked up her journal. "That's slower. Not worse."
+"Then you'll see it yourself." Sera picked up her journal. "That's slower. Not worse."
 
 Lena wanted speed to be moral and care to be optional. She wanted Arin's silence to mean fear she could fix with distance. Sera made that harder without trying—just by sitting still while Lena's display refreshed.
 
@@ -210,7 +206,7 @@ Lena stood. Sera stood too—not with her, to the side, beads clicking.
 
 "You're not even curious?"
 
-"I'm curious about whether Pell teaches the child marks before winter." Sera adjusted her bag. "Your job is distance. Mine is staying long enough for a story to hold. Different corridors."
+"I'm curious about whether Pell teaches the child to check before winter." Sera adjusted her bag. "Your job is distance. Mine is staying long enough for a story to hold. Different corridors."
 
 No forced bond. No exchange of tokens. No promise to meet at the basin.
 
@@ -236,15 +232,13 @@ Lena took a window seat because couriers learned early that movement felt less l
 
 Through the glass Drift unfolded wrong—the way ribbon cities always did when you left the inner curve. Stations doubled in black glass. Light from a dozen modules reflected in housing mirrors until Lena couldn't tell which fortune was rising and which was only its reflection. A freight line crossed below like a thread through water. Auction boards flashed on a module skin—numbers too small to read, large enough to feel. The Pilgrim Road junction shrank astern, three spurs and a kitchen tunnel and an empty chair with a jacket she could no longer see but could still picture: sleeves shaped to shoulders that weren't there.
 
-Scale hit her in the chest: thousands of people in modules that orbited no star, pricing routes that assumed gates would speak. Vesper silent somewhere in the mesh—she couldn't see the gate from here, only the economy orbiting its absence. Fees climbing on boards she'd stopped watching because watching without moving was berth burn. Marks on seams. Separatist pamphlets at lips. The Drift Markets weren't a place. They were a habit humanity had learned when stars were too far apart to trust and gates were too old to explain.
+Scale hit her in the chest: thousands of people in modules that orbited no star, pricing routes that assumed gates would speak. Vesper silent somewhere in the mesh—she couldn't see the gate from here, only the economy orbiting its absence. Fees climbing on boards she'd stopped watching because watching without moving was berth burn. Separatist pamphlets at lips. The Drift Markets weren't a place. They were a habit humanity had learned when stars were too far apart to trust and gates were too old to explain.
 
-On the dock she'd left, corridor light still caught the maintenance mark—a dot, a stroke, someone saying *I was here* while fear sold two for one beside the soup vent.
+Lena pressed her forehead to the cool glass and let the reflection double her face until she looked like a local who'd learned to read cities in water. She wasn't a local. She was a courier with **COMMITTED** in her ledger and a brother who sent stamps instead of paragraphs.
 
-Lena pressed her forehead to the cool glass and let the reflection double her face until she looked like a local who'd learned to read cities in water. She wasn't a local. She was a courier with **COMMITTED** in her ledger and a brother who sent marks instead of paragraphs.
+The reflection doubled Drift too—module on module, fortune on fortune, the Markets' trick of making you unsure which station was rising and which was only light caught in glass. Separatist pamphlets at a lip she could barely see. Two tracks at shuttle altitude: fees in the boards, lies in the paper. She hated that she could read it from a moving bench.
 
-The reflection doubled Drift too—module on module, fortune on fortune, the Markets' trick of making you unsure which station was rising and which was only light caught in glass. A maintenance mark on a distant dock seam winked as corridor light shifted. Separatist pamphlets at a lip she could barely see. Three tracks at shuttle altitude: fees in the boards, lies in the paper, checking on the metal. She hated that she could read it from a moving bench.
-
-The shuttle hummed. Pilgrims murmured. Drift crawled past like a problem she'd paid to outrun without solving.
+Pilgrims murmured. Drift crawled past like a problem she'd paid to outrun without solving.
 
 Lena filed Sera's fee strip in the outer pouch next to Dael's scrap. Two kinds of paper, two kinds of help. Neither reopened Vesper.
 
@@ -254,11 +248,11 @@ Sera's odd calm rode in her chest like grit in a seal—not painful, not dismiss
 
 She wanted one reason. The week kept giving her a pile.
 
-Her brother was one piece of it. Marks were another. Fees were the weather between.
+Her brother was one piece of it. Fees were the weather between.
 
 A pilgrim across the aisle whispered a road prayer Lena didn't know. The freight clerks fell asleep. Drift slid past the viewport in reflected layers—module on module, light on light, the Markets' particular trick of making you feel both surrounded and alone.
 
-Lena thought about Sera turning toward the soup tunnel without looking back. About Pell on a roster where everyone could see. About hurry and care priced separately. About Arin's mark on a housing seam—proof of checking, not proof of safety.
+Lena thought about Sera turning toward the soup tunnel without looking back. About Pell on a roster where everyone could see. About hurry and care priced separately. About Arin's stamp on wet catwalk—proof of checking, not proof of safety.
 
 The shuttle docked with a sigh that sounded apologetic, as if lateness were the vehicle's fault and not the throat's.
 
@@ -296,17 +290,13 @@ Not personal was a lie analysts told when they wanted to be kind without being u
 
 Arin's queue still **DELIVERED**. No new photo. No resting explanation.
 
-Before the throat hummed she passed the shuttle dock seam one last time from the corridor side. Dot. Stroke. Checking continuing on Pilgrim Road infrastructure while couriers argued about percentages and pilgrims walked spurs on foot because foot was honest and slow.
-
-She didn't stop to photograph. She had enough marks in the folder to prove attention existed. Proving wasn't moving.
+Before the throat took her she passed the shuttle dock one last time from the corridor side. A maintenance worker climbed a housing seam with a kit bag, unhurried, professional. Checking continuing on Pilgrim Road infrastructure while couriers argued about percentages and pilgrims walked spurs on foot because foot was honest and slow.
 
 The throat took her—wrong-light, ears pop, compass patch warm—and spat her into the next module with **COMMITTED** unchanged and Sera's irritant calm still under the skin.
 
 She passed a transit vendor selling throat lozenges and corridor gum—the small commerce of bodies that popped ears and dried mouths. Bought lozenges because her throat already remembered the next crossing. Paid with story tax embedded in the price because everything in Drift embedded story tax now. The vendor didn't ask where she was going. Nobody asked in the Markets. The answer changed too often to matter.
 
-At the module mouth a maintenance worker climbed a housing seam with a kit bag, unhurried, professional. Lena watched him find the dot-and-stroke mark, nod once, add a tick with a steady hand. Checking continuing. Not bulletin. Not separatist podcast. Hands.
-
-She didn't photograph. She had enough marks to prove attention existed. Proving wasn't moving.
+At the module mouth a maintenance worker climbed a housing seam with a kit bag, unhurried, professional. Lena watched him check the access panel, nod once, move on. Checking continuing. Not bulletin. Not separatist podcast. Hands.
 
 The next module smelled like solvent and fried dough—the Drift dialect of welcome. She found a bench, rolled her shoulder where the strap had bitten, and checked her ledger one last time before the long-corridor booking corridor waited somewhere ahead.
 
@@ -326,7 +316,7 @@ Nadi behind fringe **viable** and certainty not included.
 
 The folder on her hip wasn't ground truth. It was what she carried until ground truth spoke or she knocked on basin housing and made it.
 
-The throat hummed again—wrong-light bleeding through the frame, bodies lining up with bags and beads and the practiced stillness of people who'd learned not to flinch at geometry that lied politely.
+The throat pulsed again—wrong-light bleeding through the frame, bodies lining up with bags and beads and the practiced stillness of people who'd learned not to flinch at geometry that lied politely.
 
 Lena joined the line.
 
@@ -334,7 +324,7 @@ The line advanced.
 
 She crossed when her turn came—ears pop, compass patch warm, Drift module giving way to Drift module with no fanfare and no explanation.
 
-Ahead: long corridor booking, more fees, a brother who sent gloves instead of answers.
+Ahead: long corridor booking, more fees, a brother who sent stamps instead of answers.
 
 Behind: Pilgrim Road junction shrinking to memory—soup smell from the spur tunnel, empty chair, jacket sleeves holding the shape of someone who checked until he didn't.
 

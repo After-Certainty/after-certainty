@@ -17,6 +17,12 @@
 
 **Full manuscript review:** [full-manuscript-developmental-review.md](./full-manuscript-developmental-review.md)
 
+**External dev editor (2026-06):** [external-developmental-editor-review-2026-06.md](./external-developmental-editor-review-2026-06.md) · [revision checklist](./external-dev-editor-revision-checklist.md)
+
+**Act I dialogue — round 2–3 (2026-06-17):** Jun/keeper essay lines → worker register; Jun messiness + interrupts. See [contemporary-dialogue-patterns.md](./contemporary-dialogue-patterns.md).
+
+**Act I holistic review (2026-06-17):** **9.1/10** overall — publishable with revision. **Round 7 polish** + **pacing trim** (~660 words) applied. [act-1-pacing-stakes-audit.md](./act-1-pacing-stakes-audit.md) — COMMITTED timing OK. Next = **Act II collision pass** (Ch. 6).
+
 **Branch:** `cursor/the-relay-expansion`
 
 ## Planning docs

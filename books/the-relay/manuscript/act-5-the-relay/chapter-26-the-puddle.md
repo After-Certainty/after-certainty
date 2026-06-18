@@ -10,7 +10,7 @@ The teacher said, *Again,* and the children lined up.
 
 Not cruelty. Not neglect dressed as pedagogy. Just a Tuesday with a curriculum and a corridor schedule and no slot for *why the puddle matters when the housing above it hums wrong.*
 
-Lena had spent months chasing gates and marks and fees. She had watched institutions thin on paper in Toma's vault and in Cai's gauge readings and in Nadi's fringe maps that changed faster than bulletins. She had misread a purge because fear wanted faces.
+Lena had spent months chasing gates and fees and witness lines. She had watched institutions thin on paper in Toma's vault and in Cai's gauge readings and in Nadi's fringe maps that changed faster than bulletins. She had misread a purge because fear wanted faces.
 
 The puddle was smaller than all of that.
 
@@ -26,7 +26,7 @@ She didn't open a blank note to name anything.
 
 She opened the folder and counted what she could carry without turning it into a sermon.
 
-Marks. Names struck through. Fees that moved before stories. A child on the Road learning dot-and-stroke before winter. Fourteen seals on housing that hadn't failed. A fringe corridor filed **viable** because a pilot trusted her fuel gauge more than a cluster.
+Names struck through. Fees that moved before stories. A child on the Road learning to match housing in fog before winter. A fringe corridor filed **viable** because a pilot trusted her fuel gauge more than a cluster.
 
 The junction hadn't died with Henn.
 
@@ -52,7 +52,7 @@ Lena thought of budget reviews on mirror crews and funding sheets on First Gate 
 
 "No fix?" she asked.
 
-"No fix." Jun's mouth twitched—not smile, recognition. "Adaptation. Maps that change daily. Public rosters. Children teaching marks before winter. Your pilot friend charging variance fees for nouns the paperwork hasn't learned." He closed the chart. "If you're asking whether certainty returns when we name the slope—no. It doesn't. That's not what naming is for."
+"No fix." Jun's mouth twitched—not smile, recognition. "Adaptation. Maps that change daily. Public rosters. Children teaching children before winter. Your pilot friend charging variance fees for nouns the paperwork hasn't learned." He closed the chart. "If you're asking whether certainty returns when we name the slope—no. It doesn't. That's not what naming is for."
 
 "What is naming for?"
 
@@ -62,7 +62,7 @@ Lena thought of budget reviews on mirror crews and funding sheets on First Gate 
 
 She walked Northhook the morning after transit with the lake doing its doubled geography for tourists who turned in circles.
 
-The thread wall was quieter than it had been at Vesper's first suspension. **SEPARATIST SABOTAGE** still existed—echoes, Jun had said—but it competed with photos of marks, roster updates, hand-drawn maps over official ones. Not victory. Not utopia. A crowded room where maintenance could finally get a word in without being called graffiti.
+The thread wall was quieter than it had been at Vesper's first suspension. **SEPARATIST SABOTAGE** still existed—echoes, Jun had said—but it competed with roster photos, hand-drawn maps over official ones, junction updates with names attached. Not victory. Not utopia. A crowded room where checking could finally get a word in without being called graffiti.
 
 At the transit ring the school group had moved on. A maintenance kite folded into a shaft with the ordinary spiral she'd stopped photographing. A clerk argued with a courier about three kilos. Happens, the clerk would say. Happens all the time. You'll live.
 
@@ -80,13 +80,13 @@ Story tax, a clerk had called it once. The wall didn't have to be true to be exp
 
 Cai's message arrived without greeting.
 
-*Fourteen marks on housing seven-C. Vendor flags unchanged. Zero catastrophes. Funding still thin. Still climbing. —C*
+*Vendor flags unchanged. Zero catastrophes. Funding still thin. Still climbing. —C*
 
-She sent back a picture from Orinreach—east housing, fresh mark—and didn't explain why.
+She sent back a picture from Orinreach—east housing, storm scar on a seam—and didn't explain why.
 
 Toma sent names.
 
-Veya sent grammar.
+Veya sent a junction crew recording in a language the archive had called dead.
 
 Nadi sent a corridor number that wouldn't exist tomorrow.
 
@@ -102,7 +102,7 @@ The medicine was checking made visible until it became a story people could walk
 
 She read her private note one last time with plain tea that arrived half-spiced anyway.
 
-*Institutions forgot to notice. Marks are proof someone remembered.*
+*Institutions forgot to notice. Checking made visible is proof someone remembered.*
 
 She deleted a third sentence because it sounded like a closing line and closings were lies the book hadn't earned yet.
 
@@ -120,15 +120,15 @@ Six months ago she'd deleted replies because *I'm coming* was a promise she coul
 
 She typed back with hands that smelled like corridor metal and Orinreach rain.
 
-*Send the picture. I'm on the Ribbon until Thursday. Manifest's full. Hum still wrong. Checking anyway.*
+*Send the picture. I'm on the Ribbon until Thursday. Manifest's full. Corridor still wrong behind my eyes. Checking anyway.*
 
 Send.
 
-The lake doubled Meridian. A mark on the lower housing gleamed when she walked past it toward the transit desk—not graffiti, not sabotage, grammar.
+The lake doubled Meridian. A watch lamp burned steady on the transit lip when she walked past toward the transit desk—handoff point, filament low but holding.
 
-Someone had been here.
+Someone had caught it.
 
-Someone else should look.
+Someone else would carry it.
 
 Lena looked, and did not feel cured—felt oriented, which was enough to move.
 
@@ -138,7 +138,7 @@ On the transit desk she passed a pilgrim routing tag for Sera—update only, no 
 
 *Bracket Turn holding. Mira checked housing four after dinner. Dael watched. Board visible from commons path.*
 
-Lena saved it beside Jun's v4 and Cai's fourteen marks and Toma's fourteen names and felt the folder grow heavier in the way evidence grew heavy—not burden, ballast.
+Lena saved it beside Jun's v4 and Cai's seal logs and Toma's roster fragments and felt the folder grow heavier in the way evidence grew heavy—not burden, ballast.
 
 A supervisor walked past with a guild pin and transit-corridor smudge on one sleeve. She didn't apologize. She looked at Lena's scan history first.
 
@@ -172,9 +172,7 @@ She laughed once, quietly.
 
 *Checking anyway,* she typed, and sent it without context because siblings on Orinreach and the Ribbon had languages built out of weather and routes and stubbornness.
 
-The lake doubled Meridian. The mark gleamed. The hum continued—trusted and feared.
-
-Enough to move.
+The lake doubled Meridian. Pressure still wrong behind her eyes when she thought about Vesper. Enough to move.
 
 Enough to last until morning.
 
@@ -194,12 +192,8 @@ She opened her note again and added a line she wouldn't send to Jun or Toma or V
 
 Continue was less heroic. Continue was the job.
 
-When the shuttle docked she walked Northhook's lower path past the school group and the tea cart and the thread wall where separatist echo competed with mark photos and roster updates and hand-drawn maps.
+When the shuttle docked she walked Northhook's lower path past the school group and the tea cart and the thread wall where separatist echo competed with roster updates and hand-drawn maps.
 
-The mark on the lower housing gleamed.
-
-Someone had checked.
-
-Someone else should look.
+A courier passed her on the transit lip with a watch lamp burning low—handoff succeeding, filament steady.
 
 Lena looked, signed her handoff, and kept walking.

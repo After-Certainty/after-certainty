@@ -144,7 +144,7 @@ Lena looks for patterns across civilizations. Arin reminds her real people live 
 
 **Misses:** Politics.
 
-**Leaves maintenance marks** — tiny symbols at inspection sites.
+**Stays at the gate** when couriers leave—teaches Lio on scaffold. Does not seek fame.
 
 **Voice:** Quiet; specific; uncomfortable with praise.
 

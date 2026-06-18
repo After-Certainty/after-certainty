@@ -81,11 +81,19 @@ Not a planet — a route of stations and worlds linked by tradition. People trav
 
 ## The First Gate
 
-**Theme:** Responsibility · **Cai's work** · climax location
+**Theme:** Who stays when everyone else leaves · **Cai's work** · climax location
 
 Oldest surviving gate. Ancient **and maintained** — stranger than ruins.
 
 > The gate occupied the space where a moon ought to have been. Ships crossed its aperture like insects passing through the archway of a cathedral. Every surface gleamed with evidence of continuous repair. Whatever else humanity had forgotten, someone had remembered this place.
+
+**Prose rule:** Enter through character on scaffold (Cai, Lio). Narration uses gate · crossing · scaffold · passage—not coined symbol labels.
+
+**Social practices:**
+
+- **Keeper shifts:** scaffold crews, vendor flags, zero catastrophes as honest metric
+- **Tourism vs work:** tourists photograph the aperture; keepers call the approach *the bones*
+- **Stay leg:** Cai stays; couriers cross
 
 ---
 

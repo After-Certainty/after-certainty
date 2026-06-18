@@ -1,6 +1,6 @@
 # Chapter 03 — Southern Mirrors
 
-Third morning on the berth—four days left. The deck hummed under her bunk; somewhere a transit door sealed with a pressure thump she felt through the frame.
+Third morning on the berth—four days left. Somewhere a transit door sealed with a pressure thump she felt through the frame.
 
 She'd slept badly. Arin's last message had delivered. Nothing since.
 
@@ -12,7 +12,7 @@ Lena read it standing at the cart window with a paper cup warming her hands.
 
 *May indicate* where Jun's mouth had said *is*. *Public uncertainty* where his chart had said *fear*. Separatist story leading. Maintenance language not catching.
 
-The annex had one section that read like work—**MARK REFRESH LOGS — NONPUBLIC — SUMMARY ONLY**—buried under bureaucratic numbering. She read it twice. Someone had checked housings. Someone had recorded tolerance schedules. The verbs were sanded, but the nouns were still hands on walls.
+The annex had one section that read like work—**HOUSING CHECK LOGS — NONPUBLIC — SUMMARY ONLY**—buried under bureaucratic numbering. She read it twice. Someone had checked housings. Someone had recorded tolerance schedules. The verbs were sanded, but the nouns were still hands on walls.
 
 Corin had wanted this buried. Jun had wanted it measured.
 
@@ -68,17 +68,15 @@ She stared at the screen. Arin had always been worse at lying than he thought. *
 
 Another long pause—long enough that the delivery readout flickered once and went still.
 
-*They won't put passed inspection on the wall,* Arin wrote. *Doesn't scare anyone. Basin boards want a bad guy before they'll pay for a brush.*
+*They won't put passed inspection on the wall,* Arin wrote. *Nobody clicks it.*
 
 *So fund the brush anyway.*
 
-*With what? Tourist postcards?*
+*With what? Postcards?*
 
-The heat in that line was rare. Arin didn't snap on threads. He saved snapping for tourists who touched wet mirrors.
+*I'm asking if YOUR housing is safe.*
 
-*I'm not asking you to fix the basin,* Lena typed. *I'm asking if you're safe on the housing you're maintaining.*
-
-*I'm safe on the housing I'm maintaining. I'm not safe on the housing administration pretends doesn't need maintaining.*
+*My housing's checked. Ask me about the budget when I'm not on a ladder.*
 
 *Arin.*
 
@@ -106,9 +104,9 @@ She wanted to throw the display into the lake. She wanted to laugh. Siblings wer
 
 *Proof of what?*
 
-*That someone checked the housing before I put my harness on it.*
+*That the catwalk was checked before I put my harness on it.*
 
-She read that twice. Arin didn't send proof in words. He sent a picture of a mark on a seam—and that was new.
+She read that twice. A checked catwalk didn't mean he was still on it. A checked catwalk didn't mean the storm hadn't moved since the stamp dried. Arin didn't send proof in words. He sent a compass stamp on wet metal—and that was new.
 
 *Then tell me about funding on a thread,* she wrote. *Not on a ladder. After shift.*
 
@@ -140,7 +138,11 @@ A man sat down at the other end of the bench—courier patch, bag worn shiny at 
 
 "You waiting on Orinreach?" he asked.
 
-"You're nosy."
+"Waiting for a clerk to say Vesper's closed out loud."
+
+"Same thing."
+
+"It's not." Lena kept her eyes on the wall. "Orinreach is my brother. Vesper is a corridor."
 
 "I'm bored." He watched the thread wall. "My partner's on the basin. She says the mirrors are fine and the administration is full of shit. She also says don't quote her."
 
@@ -228,7 +230,7 @@ A transit kid in training uniform was wiping the kiosk screen with a cloth that 
 
 "Does he sound scared?"
 
-"He sounds like someone on a ladder." The kid shrugged. "That's basin for you."
+"I don't know." The kid went back to wiping the screen. "He just texts."
 
 ---
 
@@ -238,7 +240,7 @@ Lena had walked past it a dozen times. Today she followed the arrow.
 
 The notice board sat in a side alcove—easy to miss if you weren't looking for work language.
 
-**MARK SCHEDULE — NORTHHOOK APPROACH — RAIN WINDOW — HOUSINGS 4–11**
+**HOUSING CHECK — NORTHHOOK APPROACH — RAIN WINDOW — HOUSINGS 4–11**
 
 A woman in keeper grays was pinning an update when Lena arrived. The paper smelled like adhesive and rain.
 
@@ -248,19 +250,17 @@ The woman glanced at her patch. "You a courier?"
 
 "Yes."
 
-"Then you read routes, not marks." She finished pinning and smoothed the corner with the side of her hand. "But if you're asking—someone checked. That's what it says."
+"Then you read routes, not schedules." She finished pinning and smoothed the corner with the side of her hand. "But if you're asking—someone checked. That's what it says."
 
-"Who teaches the grammar?"
+"People on the wall—"
 
-The keeper's mouth twitched. "People who don't have your job." Not unkind. Final. "If you want a story about blame, the wall's that way."
-
-She left. Lena stayed long enough to photograph the stroke-and-dot on the board frame—the same grammar as the seam marks, not the schedule numbers beside it—and went back to the transit ring.
+"Wall's that way." She started walking. "I don't do blame." Lena read the housing numbers once—four through eleven, rain window, checked—and went back to the transit ring.
 
 Another keeper passed—male, older, reading the board without stopping. Lena stepped into his path.
 
 "Does that mean the corridor's safe?"
 
-He looked at her patch. "It means housings four through eleven were checked before rain. Safe is a word for tourists."
+He looked at her patch. "It means housings four through eleven were checked before rain."
 
 "Is Vesper—"
 
@@ -274,7 +274,7 @@ A younger keeper—apprentice stripe on the sleeve—was copying numbers from th
 
 "Does administration read your logs?"
 
-"Administration reads what makes them feel in charge." The apprentice capped the stylus. "Jun's people read them. Sometimes."
+"They read the—the summary." The apprentice capped the stylus, uncapped it again. "If it has their seal on it. Jun's people read them. Sometimes."
 
 "Jun's not administration."
 
@@ -291,24 +291,6 @@ Work language. Hands language. Nothing the thread wall would carry without calli
 Back on the upper loop, a man in transit security livery read the sabotage thread aloud in the main corridor, voice carrying. "—deliberate corridor collapse on the separatist schedule—"
 
 Lena walked past without stopping. She'd heard the clip. The route sequence was wrong. The border on the map was wrong. The volume was right enough to move freight anyway.
-
----
-
-She passed a housing post with a fresh mark—dot and stroke, cut clean into the seal paint.
-
-A transit worker in coveralls caught her staring.
-
-"You collecting graffiti?"
-
-"Trying to learn what it means."
-
-"It's not graffiti." He said it without heat, like correcting a tourist. "Keepers."
-
-"You read it?"
-
-"I read that someone was here." He shifted his tool bag. A wrench handle stuck out like a punctuation mark. "Don't ask me the grammar. I just like knowing the wall got checked."
-
-He walked on. Lena touched the mark with one finger—not to decode it, to feel the edge. Fresh. Recent. Work done while the thread wall screamed sabotage.
 
 ---
 
@@ -406,15 +388,9 @@ Late afternoon, and the picture arrived—no text, just image.
 
 Orinreach Basin at dusk, doubled lights in the water, east housing on the basin rim. Storm light, not festival light. Mirrors catching the last clean angle before weather closed in.
 
-She zoomed until she found the mark.
+She zoomed until she found it—the old compass stamp pressed into wet catwalk paint, edges blurred by rain, still readable. Arin hadn't labeled it. He didn't need to. Same stamp she'd used in messages since they were teenagers. Same hand saying *I checked this before I climbed.*
 
-Dot and stroke on the housing seam, fresh cut catching light. Arin hadn't labeled it. He didn't need to. The grammar was the same as Northhook—the same hand, the same check, the same quiet insistence that walls could be true even when bulletins weren't.
-
-She saved the image to **STORIES** and climbed to the upper loop to compare it to the mark on the post she'd touched earlier.
-
-Same stroke. Same dot. Different district, same language.
-
-She held the display beside the painted seam and matched angles the way she'd learned on Lake Orin—housing, not reflection. The dot sat left of the stroke on both. The cut depth looked the same in storm light and Northhook afternoon.
+She saved the image to **STORIES**.
 
 *Picture received. I see it.*
 
@@ -422,7 +398,7 @@ Send.
 
 She wanted to add *what does because I said so mean* and didn't. Arin hated parsing on a thread. He answered when his hands were dry, not when she wanted a thesis.
 
-*Good,* he wrote back, two hours later. *Now stop zooming at housings and eat dinner.*
+*Good,* he wrote back, two hours later. *Now stop zooming at catwalks and eat dinner.*
 
 *Bossy.*
 
@@ -430,17 +406,15 @@ She wanted to add *what does because I said so mean* and didn't. Arin hated pars
 
 She almost smiled.
 
-She pulled up the Northhook mark photo and Arin's basin image side by side—left dot, right stroke, same cut on both seams.
-
 A tourist leaned over her shoulder. "What's that, some kind of code?"
 
-"Maintenance."
+"Family."
 
 "Boring."
 
 "Yes."
 
-The tourist wandered off to find a story with a face. Lena saved both images to **STORIES** and closed the folder before she could count them again.
+The tourist wandered off to find a story with a face. Lena saved the image to **STORIES** and closed the folder before she could count it again.
 
 ---
 
@@ -452,31 +426,15 @@ They'd waved from opposite curves the next day, ridiculous and precise, and laug
 
 Arin had been seventeen and sure the basin was the real world and the Ribbon was a trick you visited. Lena had been fourteen and sure the opposite. They'd both been wrong in the way siblings were wrong—completely, usefully, with affection underneath.
 
+She still learned by leaving. He still learned by staying. Neither of them could solve the mystery alone. The basin photo in her folder wasn't proof of conspiracy. It was proof that one leg of the relay was still checking while the other was still moving.
+
 She didn't have time for the memory long. She had a folder filling with things that weren't routes.
 
 ---
 
-Evening on the observation lip, and the percentages had had all day to climb.
-
-She climbed because the thread wall looked different from altitude when fear accumulated in daylight.
-
-Sabotage was higher on the screen. Maintenance lower. Jun's green line barely visible under the red mass.
-
-Her priority handoff cleared while she watched—**DELIVERED TO ORINREACH BASIN**—with no new message attached.
-
-Below, tourists were still doing the reflection exercise. A child stamped a puddle and laughed. The lake didn't read bulletins.
-
-Jun was gone. Corin was gone. The reporter's mic had been packed away.
-
-A student remained, filming the thread wall for a project. Lena overheard her narration: "—public uncertainty as measurable—" and walked away before she could hear herself turned into a category.
-
-The thread wall from altitude was percentages and light.
-
-Lena rode the lift back down.
-
----
-
 Night on the berth, and the long-route block was the only decision left on the desk.
+
+The priority handoff had cleared hours ago—**DELIVERED TO ORINREACH BASIN**—with no reply attached.
 
 Back at the berth she opened the long-route block.
 
@@ -486,13 +444,13 @@ In the margin she wrote: *Because I said so.*
 
 She sent one more line to Arin:
 
-*Got the picture. Mark's clear. Eat actual food.*
+*Got the picture. Stamp's clear. Eat actual food.*
 
 Delivered.
 
 She lay in the bunk and listened to Meridian Arc's festival lights test against the dark water. Somewhere overhead, paired colors pulsed. Somewhere on Orinreach Basin, her brother was maintaining mirrors in a storm window she'd paid to shout into and hadn't reached.
 
-She opened **STORIES** one more time—not to add, to check the three tracks. Wrong border. Mark photos. Jun's brief only for the annex page on housings checked.
+She opened **STORIES** one more time—not to add, to check the three tracks. Wrong border. Compass photo. Jun's brief only for the annex page on housings checked.
 
 The ledger stayed **TRACKING**.
 

@@ -224,7 +224,7 @@ A woman in keeper thermal wear—not Cai, someone who dressed like him—stepped
 
 "Same crime."
 
-"Same *digits*." The keeper's voice stayed level. Lena recognized the exhaustion in it—scaffold hours, hum in teeth, no time for theater. "Your pamphlet calls it border warfare. Our supervisor calls it historical. Toma calls it slope. I call it Tuesday I haven't slept through yet."
+"Same *digits*." The keeper's voice stayed level. Lena recognized the exhaustion in it—scaffold hours, pressure in her knees, no time for theater. "Your pamphlet calls it border warfare. Our supervisor calls it historical. Toma calls it slope. I call it Tuesday I haven't slept through yet."
 
 The pamphleteer shoved a leaflet at a passing researcher. "Forty-three institutions don't slope by accident."
 

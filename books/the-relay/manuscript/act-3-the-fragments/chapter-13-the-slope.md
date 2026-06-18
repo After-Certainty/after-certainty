@@ -124,7 +124,7 @@ The bench did not argue.
 
 Halfway up, Veya sent a message from the language stacks—she lived in lost grammars the way other people lived in cities.
 
-**VEYA:** Heard you got an URGENT from a dot man.
+**VEYA:** Heard you got an URGENT from a keeper on a scaffold.
 
 **TOMA:** Tuesday slot.
 
@@ -138,7 +138,7 @@ Toma smiled despite himself.
 
 Veya was wrong about hope and often right about him.
 
-**VEYA:** If you send Meridian to a dot man on a scaffold, he'll think the sky is falling.
+**VEYA:** If you send Meridian to a keeper on a scaffold, he'll think the sky is falling.
 
 **TOMA:** Cai already thinks the sky is humming wrong. Meridian is context.
 
@@ -164,7 +164,7 @@ A pause long enough to count as friction.
 
 **TOMA:** Fear is how couriers pretend they control routes.
 
-**VEYA:** Touché. Don't make the dot man famous.
+**VEYA:** Touché. Don't make the keeper famous.
 
 He pocketed the slate and felt the tram rise through stone—the Archive Moon's habit of making depth feel like ascent.
 
@@ -338,9 +338,9 @@ Before sending the packet, he walked it to Veya's stacks—not for approval, for
 
 She read page nine standing up, as if sitting would commit her to comfort.
 
-"You're going to make the dot man famous," she said.
+"You're going to make the keeper famous," she said.
 
-"I'm going to make the dot man informed."
+"I'm going to make the keeper informed."
 
 "Same tragedy." She tapped the Meridian section. "You couldn't resist."
 
