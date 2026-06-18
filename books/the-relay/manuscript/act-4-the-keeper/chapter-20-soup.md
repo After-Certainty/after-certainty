@@ -4,9 +4,13 @@ Two Valleys had not moved since the map said it should.
 
 Lena had expected that—stations on the Pilgrim Road orbited quiet worlds and honest junctions, not headlines—but she hadn't expected to arrive the same morning Sera arrived, which felt like the Road had opinions about timing.
 
-The courier berth at the transit connection was full of people with tight faces. Pilots with numbers in their eyes. A consensus analyst on the public thread predicting belief cascades as if prediction were comfort. Vesper suspension notices three weeks old and already boring in the way news got boring when it didn't change shape.
+The courier berth at the transit connection was full of people with tight faces. Pilots with numbers in their eyes. A consensus analyst on the public thread predicting fear waves as if prediction were comfort. Vesper suspension notices three weeks old and already boring in the way news got boring when it didn't change shape.
 
 Lena had come down the Road spur with manifest work that barely justified the stop and a question that did: *show me the checking story in the place it lives.*
+
+The Pilgrim Road station at Two Valleys didn't announce itself the way First Gate did—no aperture in the viewport, no hum in the teeth at transit scale. Quiet orbit, honest junction, a habitation dome with chalk on the walls and soup on the schedule. The kind of place couriers bypassed when fees were tight and pilgrims stayed when fees weren't the point.
+
+She'd slept four hours on the spur shuttle and intended to sleep four more on the return if the handoff window allowed. One day. That was the plan Cai would have called insufficient and Sera would have called sufficient.
 
 Cai's marks on housing 7-C had given her grammar. Archive photographs had given her centuries. Toma's slope had given her the institutional rhyme. What she didn't have was a room where a community had decided to keep checking when a name was gone.
 
@@ -26,7 +30,9 @@ Sera stood at the commons entrance with a bag that smelled like dried herbs and 
 
 The commons was a habitation dome's honest center—tables, chalkboard, children drawing on slates while adults pretended not to watch the public thread.
 
-Someone had hung a jacket on an empty chair. Not shrine. Reminder.
+Someone had hung a jacket on an empty chair. Not shrine. Reminder. The sleeves were worn at the elbows in a way that said *ladder* more than *loss*. A freight handler's mug sat on the table beside it, still holding a ring of cold tea nobody had cleared because clearing it would have looked like forgetting.
+
+On the chalkboard by the junction diagram, **PELL** sat in plain hand above a smaller legend—dot, stroke, angle—Mer's copy beneath Pell's tighter script. Children drew on slates in the corner, but Mer kept one eye on Jory like a keeper watching an apprentice housing.
 
 Pell was at the kitchen alcove with hands that never stopped moving—twenty-three, nervous, competent in the way of someone who knew cables and was still learning people. He looked up when Sera entered and relaxed a fraction that told Lena everything about who held the room together.
 
@@ -40,7 +46,9 @@ Pell wiped his hands on a towel. "Henn used to say couriers were weather. You sh
 
 "He had a ladder for everything." Pell's mouth twitched. "Soup?"
 
-Lena wanted to say she didn't have time for soup. She had a berth fee climbing at the transit connection and a message queue with Arin's name in it and a thread wall that said sabotage at eighty-one percent. She said, "Yes," because Sera was already pulling bowls down and because refusing soup in a station commons was the kind of rudeness that got remembered on the Road.
+Lena wanted to say she didn't have time for soup. She had a berth fee climbing at the transit connection and a message stack with Arin's name in it and a thread wall that said sabotage at eighty-one percent. She had a handoff window that closed before dark and a couchette reserved on the long hop back toward First Gate if she made the spur on time.
+
+She said, "Yes," because Sera was already pulling bowls down and because refusing soup in a station commons was the kind of rudeness that got remembered on the Road.
 
 ---
 
@@ -62,17 +70,39 @@ Lena thought about Cai arguing with a screen about seals. "He'd say they're gram
 
 "Same thing, different room." The elder returned to her tea. "Eat your soup. Pilgrims charge for listening. Couriers charge for distance. Soup's still free."
 
-"Pell's on the roster," Lena said, watching the chalkboard by the junction housing diagram. The name sat there in plain hand where everyone could see it. "That's your doing?"
+---
 
-"That's their doing." Sera nodded at the commons. "I suggested they put the name where fear couldn't edit it. Pell agreed. The elder agreed. The teacher agreed. Three days of listening, one hour of chalk."
+Sera tore bread and let the commons settle before she spoke—the way she did when a story needed a room, not a stage.
 
-"Three days."
+"Three evenings ago I sat in that chair." She nodded at Henn's jacket. "Not performing. Sitting where people could see I wasn't replacing him. I told them what I'd heard on the Road—stations where checking survived budget cuts because someone put a name where fear couldn't edit it. I told them about marks on First Gate housing that matched marks in archive photographs. I told them Henn's death wasn't a gate failure. It was a ladder failure. Those aren't the same sentence."
 
-"Two and a half." Sera tore bread. "You would have done it in an afternoon."
+Pell stopped wiping the counter.
+
+"The elder asked what we do when Vesper stays closed and the thread wall wants faces." Sera's voice stayed warm, unhurried, each phrase placed like a bowl on a table. "I said we stop waiting for a gate explanation to tell us how to live. Not because explanations don't matter. Because living can't wait for administrators to find sentences."
+
+She tore bread, passed a piece to Pell without looking—habit, not performance.
+
+"Pell asked if that meant pretending the junction was safe. I said no—it means putting today's checker where everyone can see today's check. The teacher asked who verifies a nervous apprentice. I asked the room who had checked the housing last. Pell said his name was on the roster because he put it there. The freight handler said he'd watched Pell climb. Mer repeated *find who checked it last* from the slate corner before I could. Jory thought maintainers were wizards. Mer told him they weren't—loud enough for the whole commons to hear, which was better than any sermon I could have given."
+
+Sera glanced at the empty chair. "That was the whole evening. No ribbon post. No briefing. Chalk and soup. The jacket stayed where it was because moving it would have made Henn into a story instead of a habit."
+
+Lena set her spoon down. "You moved them in three days."
+
+"Two and a half." Sera met her eyes. "Listening first. Chalk second. You would have done it in an afternoon."
+
+The elder snorted without looking up from her tea. "An afternoon puts your name on a board. Three days puts your name in people's mouths when fear arrives. Fear always arrives. Boards stay."
+
+"I'm not afraid of boards," Lena said.
+
+"Good." The elder finally looked at her. "Be afraid of silence instead. That's cheaper and worse."
 
 "I would have put the name on a manifest and moved it."
 
-"Different tools." Sera's voice stayed warm. "You carry urgency. I carry stories people can walk on. If I move at your speed, I leave holes."
+"Different tools." Sera's voice didn't sharpen. "You carry urgency. I carry stories people can walk on. If I move at your speed, I leave holes."
+
+"Pell's on the roster," Lena said, watching the chalkboard by the junction housing diagram. The name sat there in plain hand where everyone could see it. "That's their doing?"
+
+"That's their doing." Sera nodded at the commons. "I suggested they put the name where fear couldn't edit it. Pell agreed. The elder agreed. The teacher agreed. Three days of listening, one hour of chalk."
 
 Lena felt the friction land where it belonged—not hostility, mismatch. "I don't have holes. I have a brother behind a closed gate."
 
@@ -88,6 +118,10 @@ Pell brought the housing access log because Lena asked for evidence and because 
 
 Marks on the panel—dot and stroke, fresh that morning. Photographs in a binder that made Cai's archive uploads look luxurious. Witness lines from the teacher, the freight handler, a child who'd learned to read the angle before learning the word for angle.
 
+The freight handler—a woman with rope burns on her palms—spoke without poetry. "Pell climbed Tuesday. I watched because Henn used to wave before he went in. Pell doesn't wave. He checks. I sign the witness line because my freight depends on it."
+
+The teacher's line was shorter: *Mer can read the angle. Jory almost can.*
+
 "People ask if it's still safe," Pell said. "I say yes. They hear *Henn's gone*. I don't know how to say the junction is still true without sounding like I'm replacing him."
 
 "You're not replacing him," Sera said. "You're maintaining checking where everyone can see it."
@@ -96,11 +130,7 @@ Marks on the panel—dot and stroke, fresh that morning. Photographs in a binder
 
 "It's a roster sentence." Lena tapped the chalkboard. "You put your name there. That's not myth. That's logistics."
 
-Sera had told the checking story in the commons three evenings ago—not from a podium, from the empty chair, Henn's jacket still on it. Lena had read the transcript on the shuttle in. Hearing Pell quote *find who checked it last* in his own kitchen voice was different. Slower. More useful.
-
 "Henn said fixing without checking is guessing," Pell said. "I used to think that was a lecture. Now it's a schedule."
-
----
 
 Pell looked at her—surprise, then something steadier. "Henn said *find who checked it last*. You're saying that too."
 
@@ -112,12 +142,6 @@ Sera watched the photograph without taking the slate. "He sent you proof, not re
 
 "Yes." Sera stood to collect bowls. "That's why I like couriers when they sit still long enough to listen."
 
-"What do we do?" the elder had asked in the commons story.
-
-Sera had almost smiled. "You stop waiting for a gate explanation to tell you how to live."
-
-Lena had read that line on the shuttle in. Hearing Mer say *checking isn't magic* in a child's voice was better.
-
 ---
 
 The friction sharpened after lunch because Lena couldn't help herself.
@@ -126,15 +150,17 @@ The friction sharpened after lunch because Lena couldn't help herself.
 
 "They need to know who checks today." Sera stopped at the housing lip. Pell's morning mark gleamed near the access panel. "Gate explanations arrive when administrators find sentences. Checking arrives because Pell climbs."
 
-"That's not enough when belief cascades."
+"That's not enough when fear waves."
 
 "Belief always cascades." Sera's tone didn't rise. "Jun measures it. Couriers feel it in fees. I watch communities decide whether to keep living while the cascade passes through. Speed doesn't stop it. Visible checking sometimes does."
+
+She turned the chalkboard diagram toward Lena—junction housing, roster names, mark legend in Pell's hand and Mer's smaller copy beneath it. "You want to reach Arin. I want Mer to reach winter without thinking maintainers are wizards. Those aren't competing goals. They're different speeds on the same Road."
 
 Lena wanted to argue that visible checking was slow, that slopes didn't care about soup, that Toma's page nine had names struck through by budget ink not by pilgrim chalk. She wanted to say fear wanted faces and the separatist story had faces even if they were wrong.
 
 What she said was, "I don't know how to walk at your pace and still reach Arin."
 
-Sera was quiet a moment. "You reserved eleven days. You're here. That's not my pace. That's yours choosing something besides the wall."
+Sera was quiet a moment. "You reserved eleven days. You're here before noon and you'll leave before dark. That's not my pace. That's yours choosing something besides the wall for one day."
 
 ---
 
@@ -146,7 +172,7 @@ Eight, maybe nine, with chalk on her fingers and the solemnity of someone entrus
 
 "That's the grammar," Lena said.
 
-"I'm teaching Jory before winter." The child pointed at a smaller kid lurking by the commons door. "He thinks maintainers are wizards."
+"I'm teaching Jory before winter." The child pointed at a smaller kid lurking by the commons door—five, maybe six, chalk already smudged on his palms. "He thinks maintainers are wizards."
 
 "They're not wizards," Lena said.
 
@@ -164,13 +190,51 @@ Lena crouched to the child's height, which her knees complained about and her co
 
 Pell, watching from the commons lip, exhaled like someone who'd been holding a breath for weeks.
 
+Jory shuffled closer, eyes on Mer's chalk. "Angle's wrong," he whispered.
+
+Mer turned the slate. "See? That's the pressure family. Pell said so."
+
+Lena looked at the crude diagram—dot, stroke, angle off by a child's hand but corrected in the margin in Pell's tighter script. An ecosystem in miniature.
+
+"Winter's when the junction gets honest," Mer said, suddenly adult in the way children got when they repeated adult sentences they'd earned. "Pell said frost lies on seals. You check more."
+
+"Who taught you that?" Lena asked.
+
+"Henn." No hesitation. "Pell says it now."
+
+Sera watched Lena's face without rescuing her. *See what slow buys*, that look said again—not triumph, patience.
+
 ---
 
-Lena's manifest chimed—handoff window narrowing at the transit connection.
+The teacher found them at the housing lip with slates under her arm and fatigue in her shoulders. "Mer's been teaching Jory during free hour. Parents asked if it's official curriculum."
+
+"Is it?" Lena asked.
+
+"It's survival." The teacher almost smiled. "Henn would have called it grammar. I call it not lying to children about who keeps the junction true."
+
+Pell blushed. Sera ladled no soup at the housing lip, but her presence did the same work—making urgency sit down long enough to listen.
+
+Lena ran her hand along the housing exterior where Pell's morning mark sat fresh—dot, stroke, angle family she could almost read now without archive help. The metal was warm from sun through the dome glass. Honest. Unspectacular. The kind of seam Arin photographed on storm glass because reassurance would have been a lie.
+
+"What do couriers see?" Pell asked, shy and direct at once.
+
+"Routes." Lena pulled her hand back. "Fees. Closed gates. I came here because I needed to see what you see."
+
+"Junction true," Pell said. "Name on the board. Mark on the housing. Mer teaching Jory before winter."
+
+"That's a keeper sentence."
+
+"Henn's." Pell shrugged. "Now mine."
+
+---
+
+Lena's manifest chimed—handoff window narrowing at the transit connection, last spur off Two Valleys before evening lock.
 
 She had soup smell in her hair and chalk on her fingers and no breakthrough, only a room that had put a nervous apprentice on a board where everyone could see and a child who intended to teach another child before winter.
 
 Sera walked her to the Road spur.
+
+The commons behind them still smelled like soup—root stock, bread, the ordinary cost of tending a pot for hours. Pell was already on the junction housing lip with his gauge case. Mer was still teaching Jory at the slate corner, voice carrying through the dome curve: *angle, not wizard*.
 
 "You still think I'm unconcerned," Sera said.
 
@@ -182,24 +246,34 @@ Sera walked her to the Road spur.
 
 "Tell him what you want." Sera paused at the spur lip. "He's your brother. He knows the difference between proof and reassurance too."
 
-Lena left Two Valleys with the public thread still saying sabotage and the commons chalkboard still saying Pell and the child Mer still saying dot and stroke to Jory in the dome behind her.
+Lena left Two Valleys the same day she'd arrived—commons chalkboard still saying Pell, Mer still saying dot and stroke to Jory in the dome behind her, the empty chair still holding Henn's jacket like a question nobody had rushed to answer.
+
+The public thread still said sabotage.
 
 She didn't feel certainty.
 
 She felt something lighter than triumph and less fragile than relief—the ordinary forward motion of a place that had been given a story it could walk on, and a courier who might, if she slowed one more hour somewhere, learn the difference between reaching a brother and arriving intact.
 
-The Road went on.
+The spur shuttle was tight with pilots and one tired teacher carrying slates. Lena found a seat by the window and watched Two Valleys shrink—not gone, just smaller, which was different from erased.
 
-She went with it, already thinking about the transit connection fee and whether Cai would be on scaffold three tomorrow, and whether Jun's percentages would still lie when seals didn't.
+She wrote Arin a line she didn't send: *marks match. Pell's on the board. Mer's teaching Jory. Storm glass was right.* Proof language. Not reunion language. She'd know the difference when he answered.
 
-Winter was a word she'd started hearing in stations instead of on weather boards. Not prophecy. Schedule. Mer teaching Jory. Pell on a roster. Marks that outlasted names.
+At the transit connection she changed berths for the long hop back toward First Gate. The fee hurt. The timeline hurt more. Arin's message stack stayed quiet. Vesper stayed suspended.
 
-She adjusted her bag and walked faster without calling it hurry.
+On the spur out of Two Valleys she'd passed a consensus analyst posting cascade predictions to the public thread—Jun's profession visible in the wild, numbers offered like comfort. She hadn't stopped to argue. She'd seen a room hold in one day. She'd seen a child teach a mark. Both were true. Only one got her to Orinreach eventually.
 
-At the junction spur she passed a consensus analyst posting cascade predictions to the public thread—Jun's profession visible in the wild, numbers offered like comfort. Lena didn't stop to argue. She'd seen a room fail yesterday. She'd seen a child teach a mark. Both were true. Only one got her to Orinreach.
+She slept thin on a couchette and woke when the approach deck lights came on, soup smell still in her hair and chalk still on her fingers from a morning that already felt like yesterday.
 
-Sera waved once from the commons lip and went back inside to wash bowls.
+The hum found her teeth before the briefing board did.
 
-No sermon. No theme. Soup smell and chalk dust and a roster name where everyone could see it.
+First Gate again. Same corridor bones. Same green boards smiling. Same keepers unphotographed on scaffolds while tourists fogged viewport glass upstairs.
+
+She'd left Two Valleys at dusk and arrived before second bell—one day there, one night in transit, morning back on the approach deck where Cai would be counting marks if Jun's percentages hadn't eaten the morning whole.
+
+Chalk dust still ghosted her fingers when she badge-scanned crew access. Soup smell still lived in her hair—root stock, honest pot, a commons that had put a name on a board because fear couldn't edit chalk as fast as it edited silence.
+
+She adjusted her bag and walked toward the keeper corridor without calling it hurry.
+
+No sermon. No theme. Soup smell and chalk dust and a roster name where everyone could see it, shrinking behind a shuttle window but not erased.
 
 That was the close Lena could use—not certainty, forward motion.

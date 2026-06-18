@@ -12,7 +12,7 @@ Lena read it standing at the cart window with a paper cup warming her hands.
 
 *May indicate* where Jun's mouth had said *is*. *Public uncertainty* where his chart had said *fear*. Separatist story leading. Maintenance language not catching.
 
-The annex had one section that read like work—**MARK REFRESH LOGS — NONPUBLIC — SUMMARY ONLY**—buried under bureaucratic numbering. She read it twice. Someone had checked housings. Someone had logged tolerance schedules. The verbs were sanded, but the nouns were still hands on walls.
+The annex had one section that read like work—**MARK REFRESH LOGS — NONPUBLIC — SUMMARY ONLY**—buried under bureaucratic numbering. She read it twice. Someone had checked housings. Someone had recorded tolerance schedules. The verbs were sanded, but the nouns were still hands on walls.
 
 Corin had wanted this buried. Jun had wanted it measured.
 
@@ -66,9 +66,9 @@ She stared at the screen. Arin had always been worse at lying than he thought. *
 
 *Jun buried keeper logs in the brief,* she typed. *Actual housings. Actual checks. Why won't administration say that out loud?*
 
-Another long pause—long enough that the status line flickered once and went still.
+Another long pause—long enough that the delivery readout flickered once and went still.
 
-*Because saying check doesn't sell fear,* Arin wrote. *Because basin boards want a villain before they fund a brush.*
+*They won't put passed inspection on the wall,* Arin wrote. *Doesn't scare anyone. Basin boards want a bad guy before they'll pay for a brush.*
 
 *So fund the brush anyway.*
 
@@ -128,7 +128,7 @@ Fair. Also not an answer.
 
 The queue showed **DELIVERED TO ORINREACH BASIN** on each line. Relay text was still fast when the corridors cooperated. Honesty was another matter.
 
-She watched the status line for three minutes after the last delivery, as if staring could pull another answer across storm windows and mirror work and whatever *because I said so* meant when Arin said it.
+She watched the delivery readout for three minutes after the last delivery, as if staring could pull another answer across storm windows and mirror work and whatever *because I said so* meant when Arin said it.
 
 Nothing more.
 
@@ -156,7 +156,7 @@ The Northhook transit desk sat in the main hall where foot traffic made patience
 
 At the desk she asked the question clerks hated.
 
-"Alternate route messaging for Orinreach Basin when Vesper's suspended—what's the lag?"
+"Alternate route advisories for Orinreach Basin when Vesper's suspended—what's the lag?"
 
 The clerk didn't look up from her screen. "Depends which corridor."
 
@@ -212,7 +212,7 @@ The clerk didn't look away. "Storm window's real. Mirror crews don't answer voic
 
 "Then wait for storm window to close." The clerk's voice stayed flat. "Or pay again later and hope. Those are the options the kiosk gives me."
 
-"Your kiosk logged a fragment."
+"Your kiosk caught a fragment."
 
 The clerk's mouth tightened. "Fragments aren't conversations. They don't refund and they don't deliver." She glanced at the family. "Next."
 
@@ -268,7 +268,7 @@ He looked at her patch. "It means housings four through eleven were checked befo
 
 A younger keeper—apprentice stripe on the sleeve—was copying numbers from the board into a handheld ledger in the corridor's better light.
 
-"You're logging housings?" Lena asked.
+"You're recording housings?" Lena asked.
 
 "Someone has to." The apprentice didn't look up. "Wall logs percentages. We log seams."
 

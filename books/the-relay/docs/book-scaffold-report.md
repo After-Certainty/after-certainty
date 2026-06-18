@@ -9,11 +9,11 @@
 | Metric | Value |
 |--------|-------|
 | Chapters | 27 |
-| Current words | ~58,200 |
+| Current words | ~95,400 |
 | Target | ~95,000 |
-| Gap | ~37k (expansion passes per act) |
+| Gap | met |
 
-Act I is polished (~17k). Acts II–V are **scaffold drafts** (~1,000–2,100 words/chapter) hitting stub scene beats with exploratory voice sources promoted where noted.
+Act I polished (~17k). Acts II–V **expanded** (~78k) with gravity chapters, wonder (POV+scale), antagonist faces, and agent pass reports.
 
 ---
 

@@ -1,6 +1,6 @@
 # Act & chapter index — The Relay
 
-*27 chapters · ~95,000 words target · **full manuscript scaffold complete***
+*27 chapters · ~95,000 words · **full manuscript expanded***
 
 Each entry: POV, location, momentum beat (D=decision, R=relationship, M=discovery).
 
@@ -20,7 +20,7 @@ Each entry: POV, location, momentum beat (D=decision, R=relationship, M=discover
 
 ---
 
-## ACT II — THE CASCADE (Ch. 6–11) · Drift Markets · **~11,000 words · scaffold**
+## ACT II — THE CASCADE (Ch. 6–11) · Drift Markets · **~22,100 words · expanded**
 
 | Ch | Title | POV | File | Beats |
 |----|-------|-----|------|-------|
@@ -31,11 +31,11 @@ Each entry: POV, location, momentum beat (D=decision, R=relationship, M=discover
 | 10 | Fringe | Nadi | `chapter-10-fringe.md` | Fringe corridor decision (D) |
 | 11 | No Answer | Lena | `chapter-11-no-answer.md` | Cannot reach Arin; low point (R) |
 
-**Brief:** [act-2-editorial-brief.md](./act-2-editorial-brief.md)
+**Brief:** [act-2-editorial-brief.md](./act-2-editorial-brief.md) · **Report:** [act-2-agent-pass-report.md](./act-2-agent-pass-report.md)
 
 ---
 
-## ACT III — THE FRAGMENTS (Ch. 12–17) · Archive Moon · **~11,200 words · scaffold**
+## ACT III — THE FRAGMENTS (Ch. 12–17) · Archive Moon · **~21,400 words · expanded**
 
 | Ch | Title | POV | File | Beats |
 |----|-------|-----|------|-------|
@@ -46,9 +46,11 @@ Each entry: POV, location, momentum beat (D=decision, R=relationship, M=discover
 | 16 | Grammar | Lena | `chapter-16-grammar.md` | Marks in archive (M) |
 | 17 | Stories People Walk On | Lena | `chapter-17-stories-people-walk-on.md` | Sera's work (R) |
 
+**Report:** [act-3-agent-pass-report.md](./act-3-agent-pass-report.md)
+
 ---
 
-## ACT IV — THE KEEPER (Ch. 18–22) · First Gate · **~10,000 words · scaffold**
+## ACT IV — THE KEEPER (Ch. 18–22) · First Gate · **~17,800 words · expanded**
 
 | Ch | Title | POV | File | Beats |
 |----|-------|-----|------|-------|
@@ -58,29 +60,33 @@ Each entry: POV, location, momentum beat (D=decision, R=relationship, M=discover
 | 21 | I See You Seeing | Cai | `chapter-21-i-see-you-seeing.md` | Marks payoff (M) |
 | 22 | What Silence Buys | Lena | `chapter-22-what-silence-buys.md` | Wrong theory fails (D) |
 
+**Report:** [act-4-agent-pass-report.md](./act-4-agent-pass-report.md)
+
 ---
 
-## ACT V — THE RELAY (Ch. 23–27) · Distributed · **~9,100 words · scaffold**
+## ACT V — THE RELAY (Ch. 23–27) · Distributed · **~17,200 words · expanded**
 
 | Ch | Title | POV | File | Beats |
 |----|-------|-----|------|-------|
 | 23 | Human Relay | Lena | `act-5-the-relay/chapter-23-human-relay.md` | Distributed rebuilding (M) |
 | 24 | The Road | Sera | `chapter-24-the-road.md` | Community decision (D) |
 | 25 | Southern Mirrors | Lena | `chapter-25-southern-mirrors.md` | Arin reconnect (R) |
-| 26 | The Disease | Lena | `chapter-26-the-disease.md` | Civilization mystery (M) |
+| 26 | The Puddle | Lena | `chapter-26-the-puddle.md` | Civilization mystery (M) |
 | 27 | Adaptive | Lena | `chapter-27-adaptive.md` | Adaptive close (D) |
+
+**Report:** [act-5-agent-pass-report.md](./act-5-agent-pass-report.md)
 
 ---
 
-## Manuscript totals (scaffold)
+## Manuscript totals
 
 | Act | Chapters | ~Words | Status |
 |-----|----------|--------|--------|
 | I | 1–5 | 16,900 | Closure sweep complete |
-| II | 6–11 | 8,800 | Scaffold draft |
-| III | 12–17 | 9,600 | Scaffold draft |
-| IV | 18–22 | 9,000 | Scaffold draft |
-| V | 23–27 | 6,800 | Scaffold draft |
-| **Book** | **27** | **~58,200** | Target ~95k after expansion passes |
+| II | 6–11 | 22,100 | Expanded + agent pass |
+| III | 12–17 | 21,400 | Expanded + agent pass |
+| IV | 18–22 | 17,800 | Expanded + agent pass |
+| V | 23–27 | 17,200 | Expanded + agent pass |
+| **Book** | **27** | **~95,400** | Target ~95k met |
 
 **Stubs:** [act-chapter-stubs.md](./act-chapter-stubs.md) · **Mystery:** [mystery-beat-sheet.md](./mystery-beat-sheet.md) · **Scaffold report:** [book-scaffold-report.md](./book-scaffold-report.md)

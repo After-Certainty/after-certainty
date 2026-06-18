@@ -1,40 +1,40 @@
-# Chapter 26 — The Disease
+# Chapter 26 — The Puddle
 
-Lena named it on a shuttle between Orinreach and the Ribbon, which was the wrong place for synthesis and therefore the right one.
+The school group was doing housing exercise on the lower path when Lena came back from Orinreach—not the first time she'd seen it, but the first time she watched without hurrying past.
 
-Couriers learned synthesis in transit—the mind doing work the body couldn't interrupt. Outside the viewport, corridors opened and closed like weather. Inside, she had Toma's packet, Veya's margin notes, Cai's seal logs forwarded without comment, Jun's revised model with *preliminary* in the title, and Pell's audio still cached because she hadn't been able to delete it without listening again.
+Northhook doubled Meridian in the lake and in every puddle the wind hadn't flattened yet. A teacher in district colors pointed at reflections and said, *Match the housing, not the mirror.* Children stamped upside-down cities with ordinary delight. One girl in a yellow jacket found a puddle that held both ribbon-light and a piece of maintenance shaft visible through a gap in the arcade—and stamped it twice, laughing, because the lesson was supposed to be confusing and she was winning.
+
+Lena stood with her manifest bag and her folder and watched the teacher not pause when a boy ran through the wet and ruined the exercise for the row behind him.
+
+The teacher said, *Again,* and the children lined up.
+
+Not cruelty. Not neglect dressed as pedagogy. Just a Tuesday with a curriculum and a corridor schedule and no slot for *why the puddle matters when the housing above it hums wrong.*
+
+Lena had spent months chasing gates and marks and fees. She had watched institutions thin on paper in Toma's vault and in Cai's gauge readings and in Nadi's fringe maps that changed faster than bulletins. She had misread a purge because fear wanted faces.
+
+The puddle was smaller than all of that.
+
+The puddle was also the whole thing.
+
+---
+
+She rode the shuttle from Orinreach with Arin's last picture still open—tourists on a slick patch he'd flagged, faces tight with the concentration of people who thought reflection was navigation.
+
+Synthesis wanted transit. Couriers learned that early—the mind doing work the body couldn't interrupt. Outside the viewport, corridors opened and closed like weather. Inside, she had Toma's packet, Veya's margin notes, Cai's seal logs, Jun's revised model with *preliminary* in the title, and Pell's audio saved because deleting it felt like stealing someone else's memory.
+
+She didn't open a blank note to name anything.
+
+She opened the folder and counted what she could carry without turning it into a sermon.
+
+Marks. Names struck through. Fees that moved before stories. A child on the Road learning dot-and-stroke before winter. Fourteen seals on housing that hadn't failed. A fringe corridor filed **viable** because a pilot trusted her fuel gauge more than a cluster.
 
 The junction hadn't died with Henn.
 
 The checking could die if you let the name become the job.
 
-She opened a blank note and stared until the words stopped being accusation and started being description.
-
 ---
 
-Institutions forgot to notice.
-
-That was the disease—not gates, not separatists, not a purge with faces and motives fear could argue with. Erosion. Budget ink drying across rosters. Vendor patches too thick. Keepers thin on every basin. Junction maintainers moving to Meridian for salaries that weren't jokes. Archives indexed on Tuesdays when urgency wanted Fridays.
-
-Vesper's silence had been a symptom loud enough to hear.
-
-The maintenance marks had been human evidence loud enough to see—if you were looking sideways at the right century.
-
-Lena typed slowly, the way Arin typed when he wanted to sound like himself and not a bulletin.
-
-*They didn't fail because someone broke them. They thinned because nobody kept checking that checking was still happening.*
-
-She deleted *failed* and wrote *thinned* again.
-
-Failure wanted a moment. Thinning was a slope.
-
-Veya's line returned uninvited: *Most don't fail because of their weaknesses. They fail because they stop noticing them.*
-
-Same data. Different meaning. The purge misread had felt like breakthrough because fear wanted faces. The reframe felt less satisfying and more true—which was how she knew which one to carry.
-
----
-
-Jun answered her query from a field office she didn't recognize—background blur of charts, face older in the way confidence aging looked when it stopped pretending to be youth.
+Jun answered her query from a field office she didn't recognize—charts blurred behind him, face older in the way confidence looked when it stopped pretending to be youth.
 
 "You want the model or the apology?" he asked.
 
@@ -42,13 +42,13 @@ Jun answered her query from a field office she didn't recognize—background blu
 
 He shared his screen. Belief lead times after coordination failure. Separatist cluster diminished—not gone, never gone, but no longer elegant. Maintenance visibility correlated with route viability in ways his early models had treated as noise.
 
-"I was measuring stories," he said. "Nadi was measuring prices. Cai was measuring seals. Toma was measuring names. You were measuring your brother." He rubbed his eyes. "People aren't data nodes. I knew that academically. I didn't know it operationally until the counter-narrative arrived late and still won the week."
+"I was measuring stories," he said. "Nadi was measuring prices. Cai was measuring seals. Toma was measuring names. You were measuring your brother." He rubbed his eyes. "People aren't people on a chart. I knew that academically. I didn't know it in practice until the counter-narrative arrived late and still won the week."
 
 "You don't have to perform humility."
 
 "I'm not performing. I'm tired." A pause. "Veya's line keeps returning. *Stop noticing weaknesses.* We built a civilization that professionalized noticing and then stopped paying the noticers."
 
-Lena thought of budget reviews on mirror crews and funding sheets on First Gate and elders on the Road who practiced silence like a sport until boredom made them practical.
+Lena thought of budget reviews on mirror crews and funding sheets on First Gate and elders on the Road who practiced silence until boredom made them practical.
 
 "No fix?" she asked.
 
@@ -60,19 +60,17 @@ Lena thought of budget reviews on mirror crews and funding sheets on First Gate 
 
 ---
 
-She walked Northhook the morning after transit with the note still open and the lake doing its doubled geography for tourists who turned in circles.
+She walked Northhook the morning after transit with the lake doing its doubled geography for tourists who turned in circles.
 
 The thread wall was quieter than it had been at Vesper's first suspension. **SEPARATIST SABOTAGE** still existed—echoes, Jun had said—but it competed with photos of marks, roster updates, hand-drawn maps over official ones. Not victory. Not utopia. A crowded room where maintenance could finally get a word in without being called graffiti.
 
-At the transit ring she passed a school group doing the housing exercise—*match the housing, not the reflection*—and a maintenance kite folding into a shaft with the ordinary spiral she'd stopped photographing.
-
-A clerk argued with a courier about three kilos. Happens, the clerk would say. Happens all the time. You'll live.
+At the transit ring the school group had moved on. A maintenance kite folded into a shaft with the ordinary spiral she'd stopped photographing. A clerk argued with a courier about three kilos. Happens, the clerk would say. Happens all the time. You'll live.
 
 The world continued its ordinary noise.
 
 Lena did not find that impersonal anymore. She found it distributed—many hands, no savior, the human relay Jun couldn't model cleanly because models wanted centers.
 
-She sat on the bench near the tea cart and pulled up route maps she didn't need, because looking busy was easier than sitting still with a civilization diagnosis that had no prescription.
+She sat on the bench near the tea cart and pulled up route maps she didn't need, because looking busy was easier than sitting still with a diagnosis that had no prescription.
 
 Vesper listed **OPEN — MONITORING — EXPECT DELAYS**. Meridian surcharge provisional. Drift leg if the Markets board moved early. The numbers shifted when she refreshed. They always shifted when the wall got loud.
 
@@ -96,21 +94,17 @@ Sera's routing tag flickered through a Pilgrim Road update—Bracket Turn, child
 
 Lena assembled the fragments the way she always had—breadth, connection, the job she'd been doing before she had language for it.
 
-The disease was social.
-
 The medicine was not a gate reopening or a conspiracy collapse or a pilgrim sermon.
 
 The medicine was checking made visible until it became a story people could walk on without needing a corridor to authorize the walking.
 
 ---
 
-She read her note one last time with plain tea that arrived half-spiced anyway.
+She read her private note one last time with plain tea that arrived half-spiced anyway.
 
-*Institutions forgot to notice. Marks are proof someone remembered. Gates hum. People continue.*
+*Institutions forgot to notice. Marks are proof someone remembered.*
 
-She deleted the last sentence because it sounded like a closing line and closings were lies the book hadn't earned yet.
-
-She kept the first two.
+She deleted a third sentence because it sounded like a closing line and closings were lies the book hadn't earned yet.
 
 Understanding without certainty returning—that was the feeling, not triumph, not grief. The old jaw-set had softened by miles into something that could sit on a bench and watch a child stamp a puddle without needing the puddle to mean more than a child stamping it.
 
@@ -138,14 +132,6 @@ Someone else should look.
 
 Lena looked, and did not feel cured—felt oriented, which was enough to move.
 
-She signed her next handoff without waiting for the corridor to declare the world functional. The clerk stamped variance. The supervisor refused apology. Northhook continued its ordinary noise.
-
-The disease was named.
-
-The work was not done.
-
-That was the honest mirror.
-
 ---
 
 On the transit desk she passed a pilgrim routing tag for Sera—update only, no body.
@@ -172,11 +158,9 @@ The supervisor's mouth twitched—not quite a smile. "Then you're ahead of most.
 
 She thought about the wrong theory on the shuttle later—separatist sabotage at seventy percent, elegant, almost comforting.
 
-It had failed not because villains were absent but because maintenance had been present all along, ignored until silence got loud enough to force noticing. The disease wasn't malice. It was forgetting. Budget ink. Roster attrition. Vendor patches too thick. Keepers thin. Junction maintainers leaving for Meridian salaries. Archives indexed when urgency wanted speed.
+It had failed not because villains were absent but because maintenance had been present all along, ignored until silence got loud enough to force noticing. Budget ink. Roster attrition. Vendor patches too thick. Keepers thin. Junction maintainers leaving for Meridian salaries. Archives indexed when urgency wanted speed.
 
 Gates were symptom.
-
-Erosion was social.
 
 Adaptation was all there was.
 
@@ -190,8 +174,6 @@ She laughed once, quietly.
 
 The lake doubled Meridian. The mark gleamed. The hum continued—trusted and feared.
 
-Understanding without certainty returning.
-
 Enough to move.
 
 Enough to last until morning.
@@ -200,25 +182,19 @@ Enough to last until morning.
 
 The shuttle to Archive Moon adjacency was full of people who didn't know they'd been carrying the same mystery under different job titles.
 
-A keeper's apprentice with stained gloves dozed against a viewport. A consensus analyst— not Jun, someone younger—muttered about lag variables into a private mic. A freight handler from Pilgrim Road argued quietly about junction parts with a woman who might have been an archivist or might have been a tourist pretending at importance.
+A keeper's apprentice with stained gloves dozed against a viewport. A consensus analyst—not Jun, someone younger—muttered about slow follow-on into a private mic. A freight handler from Pilgrim Road argued quietly about junction parts with a woman who might have been an archivist or might have been a tourist pretending at importance.
 
 Lena listened without joining.
 
-The disease was social. The medicine was distributed. The throat would never announce that because throats needed single authors and the human relay didn't have one.
+The corridor would never announce what the human relay was because corridors needed single authors and the relay didn't have one.
 
 She opened her note again and added a line she wouldn't send to Jun or Toma or Veya—private orientation, courier grammar.
 
-*We forgot to notice who was checking. Now some of us are noticing again. Not everyone. Not forever. Enough to move.*
-
-She deleted *enough to move* and wrote *enough to continue* instead.
+*We forgot to notice who was checking. Now some of us are noticing again. Not everyone. Not forever. Enough to continue.*
 
 Continue was less heroic. Continue was the job.
 
 When the shuttle docked she walked Northhook's lower path past the school group and the tea cart and the thread wall where separatist echo competed with mark photos and roster updates and hand-drawn maps.
-
-Act I her had almost believed the story that fit.
-
-Act V her believed nothing cleanly and moved anyway—which was not cynicism, was adaptation, was the constructive close the mystery had earned without becoming a sermon.
 
 The mark on the lower housing gleamed.
 

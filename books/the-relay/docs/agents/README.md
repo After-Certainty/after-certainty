@@ -15,6 +15,9 @@ Copy a spec into a Cursor prompt with the chapter file and linked docs.
 | 1c | [18-future-texture-agent](./18-future-texture-agent.md) | Non-Velorum future detail; anti wise-person drift |
 | 1d | [19-future-language-terminology-agent](./19-future-language-terminology-agent.md) | Friction terms; corridor not throat; earned coinage only |
 | 1e | [20-first-read-snag-agent](./20-first-read-snag-agent.md) | Line-by-line decode pauses; compressed grammar; thesis narration |
+| 1f | [21-contemporary-dialogue-agent](./21-contemporary-dialogue-agent.md) | TV/audiobook dialogue; anti-aphorism; goals not themes |
+| 1g | [22-author-intrusion-agent](./22-author-intrusion-agent.md) | Flag narrator-as-editor; meta/arc/theme restatement (**report only**) |
+| 1h | [23-redundant-explanation-agent](./23-redundant-explanation-agent.md) | Paragraph retell after show; delete test (**report only**) |
 | 2 | [14-brittany-agent](./14-brittany-agent.md) | Readability; Speechify test |
 | 3 | [16-contemporary-readability-agent](./16-contemporary-readability-agent.md) | Anti literary drift; POV-grounded prose |
 | 4 | [15-language-drift-agent](./15-language-drift-agent.md) | Anti jargon; POV vocabulary |
@@ -23,7 +26,11 @@ Copy a spec into a Cursor prompt with the chapter file and linked docs.
 | periodic | [12-theme-agent](./12-theme-agent.md) | Every 3–4 chapters |
 | always | [13-participation-agent](./13-participation-agent.md) | Momentum + participation |
 
-**Note:** Brittany + Language Drift may matter more than Wonder for *The Relay* — biggest threat is FinTech/systems language leaking into humanist prose.
+**Note:** After expansion, **Contemporary Dialogue (21)** is the highest-leverage pass—characters still leak nonfiction/thesis register. Brittany + Language Drift matter for narration; Agent 21 targets **quoted speech**.
+
+**Post-expansion pipeline:** 17 → 02 → 18 → 19 → 20 → **21** → **22** → **23** → 14 → 16 → 15 → 11
+
+Agents **22** and **23** are **report-only**—flag first; apply deletions in a separate approved pass.
 
 **Profanity:** Velorum-aligned rules in [voice-spec.md](../voice-spec.md) — heat in dialogue, clean narration; preserve on polish (dialogue agent + read-aloud).
 
@@ -45,5 +52,8 @@ Copy a spec into a Cursor prompt with the chapter file and linked docs.
 | 18 | [Future texture](./18-future-texture-agent.md) | Visual/social SF detail; distinct minor voices |
 | 19 | [Future language & terminology](./19-future-language-terminology-agent.md) | Useful coinage only; operational replacements |
 | 20 | [First-read snag](./20-first-read-snag-agent.md) | Line-by-line decode pauses; fix on read |
+| 21 | [Contemporary dialogue](./21-contemporary-dialogue-agent.md) | TV/audiobook register; anti-aphorism in speech |
+| 22 | [Author intrusion](./22-author-intrusion-agent.md) | Meta/arc/theme commentary; flag only |
+| 23 | [Redundant explanation](./23-redundant-explanation-agent.md) | Retell after show; delete test; flag only |
 | 15 | [Language drift](./15-language-drift-agent.md) | POV vocabulary; anti engineer-speak |
 | 13 | [Participation](./13-participation-agent.md) | Decision/relationship/discovery required |

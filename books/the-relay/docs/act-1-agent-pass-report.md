@@ -126,11 +126,70 @@
 
 ---
 
+**Act I status**
+
+**Closure complete.** Agents **21–23** applied (see below). Ready for Act II Ch. 6.
+
+---
+
+## Agents 21–23 pass (Act I)
+
+**Date:** 2026 · **Scope:** Ch. 1–5 · **Order:** 21 → 22 → 23 (apply high-confidence fixes; document all flags)
+
+### Agent 21 — Contemporary dialogue
+
+| Ch | Fix | Type |
+|----|-----|------|
+| 1 | Keeper wall → multi-beat inspection argument | Applied (prior pilot) |
+| 1 | Older woman → dinner/nephew deflection | Applied (prior pilot) |
+| 2 | Jun blame/work → "Than what?" / work orders | Applied |
+| 2 | Clerk TRACKING/RESERVED aphorism → spoken | Applied |
+| 2 | Lena dusk speech → cut cargo thesis | Applied |
+| 2 | Jun "pattern refuses percentage" → shorter | Applied |
+| 3 | Arin text → basin boards / passed inspection | Applied |
+| 4 | Keeper "want a villain" → "want a name" | Applied |
+| 4 | Corin pass → "body to blame" / tea carts | Applied |
+
+**Borderline kept:** Jun *Timing is a story people like* (Ch. 4 briefing); Jun/Corin bureau register at lip; Dael *folder face* (character).
+
+### Agent 22 — Author intrusion (flags)
+
+| Ch | Excerpt | Sev | Disposition | Status |
+|----|---------|-----|-------------|--------|
+| 4 | "before she could turn the moment into a thesis" | High | CUT | **Cut** |
+| 4 | "Fourteen hundred… Jun was measuring what the wall had already decided" + duplicate briefing open | Low | REDUCE | Kept one lip beat |
+| 2 | "It wasn't winning. It was still there." | Low | KEEP | Image, not meta |
+| 5 | Stacked COMMITTED close (3 paragraphs) | Med | REDUCE | **Reduced** to one line |
+
+No Act I / motif / "book earned" meta found.
+
+### Agent 23 — Redundant explanation (delete test)
+
+| Ch | Paragraph | Scene already showed | Rec | Status |
+|----|-----------|----------------------|-----|--------|
+| 4 | "In the annex… sabotage had a face… stroke and dot" | Mark photo + keeper | DELETE | **Deleted** |
+| 4 | "It fit. Sixty-eight percent had a face…" (4 sentences) | Festival arguers + Jun brief | REDUCE | **Cut to one line** |
+| 4 | "remembered the keeper: It's a check" | Keeper scene same ch | DELETE | **Deleted** |
+| 5 | Vesper/separatist/green line recap before crossing | Ch. 1–4 thread wall | DELETE | **Deleted** |
+| 5 | Triple close (humming / COMMITTED / enough until basin) | COMMITTED scene | REDUCE | **Merged** |
+
+**~120 words recovered** Act I; emotional beats protected (COMMITTED strip, almost-belief half-block, crew brush scene).
+
+### Agents 21–23 result
+
+| Agent | Result |
+|-------|--------|
+| **21** | ✓ Applied — dialogue register pass Ch. 1–5 |
+| **22** | ✓ Applied — 1 high cut, 2 reductions |
+| **23** | ✓ Applied — 3 deletes, 2 reductions |
+
+**Optional later:** Brittany listen-through; Jun POV chapters when drafted.
+
+---
+
 ## Act I status
 
-**Closure complete.** Ready for Act II Ch. 6 (Drift Markets / collision not accumulation).
-
-**Optional later:** Brittany Speechify listen-through; Jun POV chapters when drafted; enable `book.yml` when publishing.
+**Closure complete.** Agents 21–23 applied. Ready for Act II Ch. 6 (Drift Markets / collision not accumulation).
 
 ---
 

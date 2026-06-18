@@ -380,7 +380,7 @@ Scene-level stubs for all 27 chapters. **Momentum:** D = decision · R = relatio
 
 ---
 
-### Ch. 26 — The Disease · Lena · M
+### Ch. 26 — The Puddle · Lena · M
 
 **Open:** Civilization mystery named — erosion not gates.
 

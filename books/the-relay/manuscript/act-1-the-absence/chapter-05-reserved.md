@@ -2,7 +2,7 @@
 
 Two days left on the berth.
 
-The notice had arrived without ceremony—a line item in her manifest queue while she slept.
+The notice had arrived without ceremony—an entry in her manifest queue while she slept.
 
 **NORTHHOOK BERTH — TERMINAL IN 48 HOURS — RENEW OR RELEASE**
 
@@ -306,11 +306,7 @@ The woman almost laughed. "Same thing, different ledger."
 
 A family ahead of them was saying goodbye to a freight crate like it was a person—hands on the seal, whispered instructions, the soft absurdity of loving something that wasn't alive but still had to arrive on time. Lena looked away. Couriers didn't get goodbyes like that. They got strips and windows.
 
-At the gate she paused.
-
-Vesper's closure still sat on the wall in administrative white. Separatist sabotage still led the percentages. The green maintenance line still wasn't winning.
-
-Lena crossed the corridor line.
+At the gate she paused, then crossed the corridor line.
 
 The pressure behind her eyes was familiar—the wrong-light flicker, the smell like hot metal and clean rain. Her ears popped. Her stomach disagreed with the geometry. The floor under her boots went slick-then-gritty, the way corridors always pretended to be a hallway and then weren't. Her compass patch pulled warm against her shoulder—old superstition, courier habit, the body keeping score when geometry lied.
 
@@ -360,14 +356,6 @@ Nadi's eyebrows lifted. "Jun can file himself under *later*." She tapped the boa
 
 A Markets vendor shouted prices at nobody in particular. A pilot swore at the administrative delay. The boarding corridor smelled like solvent and fried dough and the ozone after a crossing—commerce's version of weather.
 
-Lena adjusted her bag, felt the folder's weight against her hip, and walked.
-
-Somewhere behind her, Northhook kept humming.
-
-Lena walked toward the boarding corridor with her folder of marks and her ledger that finally said **COMMITTED**.
+Lena adjusted her bag, felt the folder's weight against her hip, and walked toward the boarding corridor—**COMMITTED** on her strip, eleven days around if the fees didn't eat them first.
 
 Somewhere ahead, Drift Markets waited with its own wall and its own stories.
-
-She had eleven days around and a folder of mark photos that weren't on the wall.
-
-That would have to be enough until she saw the basin herself.

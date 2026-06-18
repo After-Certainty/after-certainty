@@ -14,6 +14,6 @@
 - **Nadi / Dael / pilots:** blunt, can go heavy. **Lena:** moderate. **Jun / Sera / Toma:** rare.
 - Vary curse **shape** — not the same word every third line.
 
-**OUTPUT:** Flag theme lectures; flag identical voices; flag under-heated conflict dialogue; suggest one subtext beat if missing.
+**OUTPUT:** Flag theme lectures; flag identical voices; flag under-heated conflict dialogue; flag **aphorism/thesis lines in quotes** → send to [21-contemporary-dialogue-agent](./21-contemporary-dialogue-agent.md); suggest one subtext beat if missing.
 
 **Related:** [14-brittany-agent.md](./14-brittany-agent.md) (profanity ≠ friction)

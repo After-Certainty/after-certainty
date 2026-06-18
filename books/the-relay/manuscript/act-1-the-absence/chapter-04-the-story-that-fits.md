@@ -64,7 +64,7 @@ The client was already angry, which saved time.
 
 The client met her at the counter with a manifest already half wrong.
 
-His logo matched the firm she'd signed yesterday—the hunted optics crowd. He didn't recognize her. That was normal. Couriers were patches and manifests, not faces.
+His logo matched the firm she'd signed yesterday—the hunted mirror-tech crowd. He didn't recognize her. That was normal. Couriers were patches and manifests, not faces.
 
 "You weighed it wet," he said when the scan disagreed.
 
@@ -132,7 +132,7 @@ A courier beside her was photographing a different pamphlet—same headline, dif
 
 "Yours too?" Lena asked.
 
-"Third one this week." The courier didn't look up. "Client wants them filed. Client doesn't want them read. Welcome to optics."
+"Third one this week." The courier didn't look up. "Client wants them filed. Client doesn't want them read. Welcome to reflection work."
 
 Nobody at the kiosk asked what they were photographing. Everyone was photographing something.
 
@@ -246,9 +246,9 @@ A keeper in grays passed, saw Lena looking, and slowed.
 
 "Is it sabotage?"
 
-"It's a check." The keeper kept walking. "Ask the wall if you want a villain."
+"It's a check." The keeper kept walking. "People on the wall want a name. I'm not giving them one."
 
-Lena photographed the mark anyway. In the annex, Jun had buried keeper logs under bureaucratic numbering. On the wall, sabotage had a face. On the housing, work had a stroke and a dot.
+Lena photographed the mark anyway.
 
 She compared the mark photo to the pamphlet border in **STORIES**. Wrong map. Same grammar on the seam. The wall had a percentage for the map and none for the mark.
 
@@ -348,11 +348,9 @@ She almost believed the separatist story for half a block.
 
 A vendor sold festival ribbons and, in the same breath, blamed separatists for Vesper. A couple argued about whether resting meant dead. A child cried because the reflection in the lake had too many lights and not enough stairs.
 
-It fit. Sixty-eight percent had a face. The pamphlet's wrong border hadn't stopped anyone at the junction. Neither would the percentage.
+For half a block the separatist story had a face.
 
-Then she passed a housing seam with a fresh mark and remembered the keeper: *It's a check.*
-
-Concrete pulled her back—a maintenance crew coiling hose at the seam, paint tin still open, apprentice wiping a brush on a rag that would never be clean again.
+She passed a housing seam with a fresh mark. A maintenance crew coiling hose, paint tin open, apprentice wiping a brush on a rag that would never be clean again.
 
 "You done?" the crew lead asked the apprentice.
 
@@ -370,7 +368,7 @@ The apprentice scratched the mark—dot, stroke—and capped the tin. No audienc
 
 "No. Brushes do."
 
-The crew lead grunted approval and coiled hose. Lena walked on before she could turn the moment into a thesis.
+The crew lead grunted approval and coiled hose. Lena walked on.
 
 A vendor at the next stall sold fried lake skewers and blamed separatists for the price of oil. A teenager in festival paint argued that resting meant the gate was dead and her friend argued resting meant the gate was napping and they were both loud enough to be wrong in stereo.
 
@@ -396,7 +394,7 @@ At the transit ring she passed Jun and Corin heading down from the lip—Jun wit
 
 "For who?"
 
-"For people who want a villain." He didn't stop walking. "Publish plain if you find ground."
+"Anyone who needs a body to blame." He didn't stop walking. "If you find ground, post it plain. Not for Jun. For tea carts."
 
 Jun didn't look back. Lena didn't call after him. She had enough sanded verbs in **STORIES** already.
 
