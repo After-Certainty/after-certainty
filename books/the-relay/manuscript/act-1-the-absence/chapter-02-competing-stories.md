@@ -90,7 +90,7 @@ The crew lead looked at her patch. "I think the wall's loud. We check seams. Tha
 
 "Somebody does." He picked up his kit. "Or somebody profits. Same thing, different uniform."
 
-One of the younger crew members—apprentice band still bright—said, "We logged tolerance yesterday. Keeper tried to post it. Nobody liked it."
+One of the younger crew members—apprentice band still bright—said, "We recorded tolerance yesterday. Keeper tried to post it. Nobody liked it."
 
 "Because it's boring," the crew lead said.
 
@@ -112,7 +112,7 @@ Students with tablets crowded the rail. A transit reporter had set up a portable
 
 He looked like his job had taught him to stand.
 
-She edged close enough to read his chart overlay. Sabotage had crossed fifty percent since she'd gone to sleep. Maintenance had stopped shrinking.
+She edged close enough to read his chart layer. Sabotage had crossed fifty percent since she'd gone to sleep. Maintenance had stopped shrinking.
 
 The man in gray murmured to a younger assistant, "Second wave accelerating. Good."
 
@@ -182,7 +182,7 @@ Jun heard him. "No. That's why we keep measuring."
 
 "Probably." Jun didn't argue.
 
-Corin shifted his tablet so she could see the keeper logs—not the chart, the raw lines. Tolerance schedules. Housing checks. Timestamps in work language that made the sabotage overlay look like graffiti.
+Corin shifted his tablet so she could see the keeper logs—not the chart, the raw lines. Tolerance schedules. Housing checks. Timestamps in work language that made the sabotage layer look like graffiti.
 
 "If you publish these," Lena said, "will anyone read them?"
 
@@ -228,7 +228,7 @@ Jun's mouth tightened. "Corin."
 
 "I'm not quitting." Corin went back to his tablet. "I'm correcting."
 
-Jun pulled the overlay. A thin green line—maintenance language—pushed against the red sabotage mass like a hand against a crowd.
+Jun pulled the layer. A thin green line—maintenance language—pushed against the red sabotage mass like a hand against a crowd.
 
 "Not catching," he said.
 
@@ -236,13 +236,17 @@ Jun pulled the overlay. A thin green line—maintenance language—pushed agains
 
 "Because it doesn't assign blame." Jun watched the green line plateau. "Stories that assign blame travel faster than stories that assign work."
 
+"Than what?"
+
+"Than work orders. People scroll past those."
+
 "You ever try posting keeper logs in plain language?" she asked.
 
 Jun looked at her. "Plain to who?"
 
 "To people at tea carts."
 
-"Then they'd argue about the plain language too." He saved his overlay. "The guild posts. People scroll past."
+"Then they'd argue about the plain language too." He saved his layer. "The guild posts. People scroll past."
 
 Lena looked once more at the green line pushing against the red mass. It wasn't winning. It was still there.
 
@@ -264,7 +268,7 @@ The clerk watched her scroll. "You're not the first courier reserving around."
 
 "I reserved yesterday."
 
-"Smart." He slid a printed strip across the desk—old habit, paper when systems got nervous. "Guild advisory. Read the bottom line."
+"Smart." He slid a printed strip across the desk—old habit, paper when systems got nervous. "Guild advisory. Read the last line."
 
 She read it.
 
@@ -298,7 +302,7 @@ The courier paid. Lena watched the number deduct and felt her own jaw tighten in
 
 "Holding."
 
-"Then update your ledger before noon. Meridian changes at lunch when the festival prep crowd wakes up." He nodded toward the thread wall. "TRACKING's honest if you're not committing. RESERVED is honest if you're scared. Don't lie to yourself about which one you're doing."
+"Then update your ledger before noon. Meridian changes at lunch when the festival prep crowd wakes up." He nodded toward the thread wall. "TRACKING means you're still shopping. RESERVED means you paid for a seat on the fear train. Pick one and stop lying to yourself."
 
 ---
 
@@ -382,7 +386,7 @@ Lena watched a tourist on the lower path miss a stair and catch the rail. The re
 
 She almost said *wait*.
 
-"I'm going to treat the stories like cargo. Track weight. Track direction. Find who profits before who explains." She paused. "I'm going to read marks on housing seams. And I'm going to reach my brother before my berth runs out."
+"I'm going to read marks on housing seams." She paused. "And I'm going to reach my brother before my berth runs out."
 
 Jun was quiet for a moment.
 
@@ -410,7 +414,7 @@ Lena hesitated at the lift mouth. "If I send what I find on the ground, you'll p
 
 She looked at him. "You tag couriers too?"
 
-"I tag patterns." He almost smiled. "You look like a pattern that refuses to be a percentage. Annoying. Useful."
+"I tag patterns." He almost smiled. "You're not fitting mine. Annoying. Useful."
 
 "I'll keep that in mind."
 

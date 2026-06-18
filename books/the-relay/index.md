@@ -50,7 +50,7 @@ Authoring rules, civilization notes, and planning spine: [`docs/`](docs/).
 - [Chapter 23 — Human Relay](manuscript/act-5-the-relay/chapter-23-human-relay.md)
 - [Chapter 24 — The Road](manuscript/act-5-the-relay/chapter-24-the-road.md)
 - [Chapter 25 — Southern Mirrors](manuscript/act-5-the-relay/chapter-25-southern-mirrors.md)
-- [Chapter 26 — The Disease](manuscript/act-5-the-relay/chapter-26-the-disease.md)
+- [Chapter 26 — The Puddle](manuscript/act-5-the-relay/chapter-26-the-puddle.md)
 - [Chapter 27 — Adaptive](manuscript/act-5-the-relay/chapter-27-adaptive.md)
 
 ## Structure

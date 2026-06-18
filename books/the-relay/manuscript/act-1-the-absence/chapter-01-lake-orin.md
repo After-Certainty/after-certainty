@@ -32,7 +32,7 @@ Arin lived on Orinreach Basin. Normally she reached him through Vesper Gate.
 
 His messages were about storms, mirror work, tourists in trouble. Hers were route changes, freight delays, berths she'd slept in and left.
 
-She'd meant to answer from the Ribbon, where relay bandwidth was decent and berths lasted long enough to pretend you had time.
+She'd meant to answer from the Ribbon, where relay capacity was decent and berths lasted long enough to pretend you had time.
 
 Messages could wait until she reached the dock.
 
@@ -44,7 +44,7 @@ At Northhook Transit the manifest argument was already waiting.
 
 The argument had started over three kilos.
 
-Not much—nothing that should have mattered on a structure where mass was a bookkeeping fiction half the time—but the client's manifest had been wrong, the scan had been right, and the clerk had treated the difference as Lena's problem because couriers were easier to blame than spreadsheets.
+Not much—nothing that should have mattered on a structure where mass was a ledger fiction half the time—but the client's manifest had been wrong, the scan had been right, and the clerk had treated the difference as Lena's problem because couriers were easier to blame than the ledger.
 
 "You weighed it wet," the clerk had said.
 
@@ -52,7 +52,7 @@ Not much—nothing that should have mattered on a structure where mass was a boo
 
 "Seals absorb."
 
-She'd pulled up the prior scan from the junction before Northhook, the timestamps, the witness line. Her voice had stayed level because level was cheaper than rage. The clerk had sighed the way clerks sighed when procedure required them to pretend to listen.
+She'd pulled up the prior scan from the junction before Northhook, the dated lines, the witness line. Her voice had stayed level because level was cheaper than rage. The clerk had sighed the way clerks sighed when procedure required them to pretend to listen.
 
 "Prior scan's from Meridian junction," she said. "Same seal, same mass. Your scale's the one that's drunk."
 
@@ -64,7 +64,7 @@ Behind the clerk, a freight crawler reversed with a warning tone that made every
 
 "You want a supervisor?" he asked.
 
-"I want you to stop billing me for your spreadsheet."
+"Stop billing me for your scale."
 
 He tapped something. "Supervisor's on the transit corridor. Could be twenty minutes."
 
@@ -104,9 +104,9 @@ When the supervisor finally came, she was a tired woman with a guild pin and a t
 
 "Good."
 
-"You're also not getting an apology. The client's manifest is what the client filed. We note variance. We don't eat it."
+"You're also not getting an apology. The client's manifest is what the client filed. We note the discrepancy. We don't eat it."
 
-Lena slid the packet across. "Three kilos isn't variance. It's a clerk who wanted lunch."
+Lena slid the packet across. "Three kilos isn't a discrepancy. It's a clerk who wanted lunch."
 
 The supervisor's mouth twitched—not quite a smile. "Sign here. Margin note. Next time use the witness line before you argue in front of forty people."
 
@@ -166,13 +166,11 @@ Lena almost smiled. "What's tonight's theory?"
 
 Lena took it. "No reason on the bulletin?"
 
-The woman shook her head.
+The woman shook her head. "Either somebody knows and isn't talking, or nobody knows."
 
-"Then either they know and won't say, or they don't know yet."
+"Which do you think?"
 
-"Which is it?"
-
-The woman studied the peel in her lap. "My sister married a keeper. She says the housings are fine and the bulletin is lying by omission. She won't post that—guild would eat her lunch. My nephew'll shout separatists at dinner anyway." She handed Lena another piece of orange. "Eat. Fruit rots faster when gates close. People don't."
+"I think dinner's in an hour and my nephew's still going to complain about separatists." The woman studied the peel in her lap. "My sister married a keeper. She says the housings are fine. Says the bulletin left out the inspection part. She won't post that—the guild would eat her lunch." She handed Lena another piece of orange. "Eat. Fruit rots faster when gates close. People don't."
 
 Lena chewed. The juice was sharp. "You're not a stranger."
 
@@ -218,13 +216,21 @@ The sabotage slice didn't move. The cover-up slice twitched up a fraction anyway
 
 "Post it again," the transit security man said. "Plain language."
 
-"I did." The keeper didn't raise her voice. "Plain doesn't mean exciting."
+"I posted the inspection report."
 
-"Exciting gets freight moving."
+"Nobody's reading inspection reports."
 
-"Exciting also gets people hurt in corridors they shouldn't enter." She looked at the security man—not hostile, tired in the way of someone who'd had this argument before breakfast. "You want a story. I gave you a log."
+"Yeah," the keeper said. "I noticed."
 
-Her partner muttered, "Logs don't trend."
+"Then maybe explain what happened."
+
+"I don't know what happened. I know the housing passed inspection."
+
+"That's not what people are asking."
+
+"Then they're asking the wrong person." She looked at the security man—not hostile, tired in the way of someone who'd had this argument before breakfast. "Exciting gets freight moving. Exciting also gets people hurt in corridors they shouldn't enter."
+
+Her partner muttered, "Nobody reads the log."
 
 The keeper looked at Lena then, brief as a scan. "Courier?"
 
@@ -304,7 +310,7 @@ Her berth still had six days. Her private packet still needed a signature scan s
 
 Lena found the firm kiosk anyway.
 
-The representative turned out to be a young woman with mirror-tech logos on both sleeves and the hunted look of someone whose employers cared about optics more than packets. The kiosk screen behind her cycled a soft advertisement—reflection calibration, family packages, *see both cities honestly*—and cut to a blank panel whenever someone in the corridor said *Vesper* loud enough to kill the ad.
+The representative turned out to be a young woman with mirror-tech logos on both sleeves and the hunted look of someone whose employers cared about reflection more than packets. The kiosk screen behind her cycled a soft advertisement—reflection calibration, family packages, *see both cities honestly*—and cut to a blank panel whenever someone in the corridor said *Vesper* loud enough to kill the ad.
 
 "We're not issuing statements," she said before Lena could speak.
 

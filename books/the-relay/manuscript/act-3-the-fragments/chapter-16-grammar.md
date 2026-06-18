@@ -2,13 +2,13 @@
 
 Lena went looking for marks because marks were the only language on this moon that didn't require an appointment.
 
-The archive kept photographs—millions of them, indexed by site, era, institution, the dull metadata of proof. Most visitors searched for people. Lena searched for dots.
+The archive kept photographs—millions of them, indexed by site, era, institution, the dull file tags of proof. Most visitors searched for people. Lena searched for dots.
 
-The public imaging corridor ran along Vault 12's upper lip: a window into stone, climate hum in the teeth, terminals that treated history like freight.
-
-Morning shift brought school groups sometimes—archive education tours, children bored until someone showed them a mark and said *someone looked*.
+The public imaging corridor ran along Vault 12's upper lip: a window into stone, climate hum in the teeth, terminals that treated history like freight. Morning shift brought school groups sometimes—archive education tours, children bored until someone showed them a mark and said *someone looked*.
 
 Lena envied the simplicity.
+
+She found terminal six open and claimed it the way couriers claimed berths—early, practical, not asking permission the moon would grant anyway if you waited long enough.
 
 She typed **HOUSING SEAL — MAINTENANCE — FIRST GATE**.
 
@@ -32,6 +32,10 @@ No bulletin.
 
 A job.
 
+She flagged it into a new album and named the album **CHECKING** because she didn't have a better word yet.
+
+The terminal asked for tags. She typed **DOT**, **STROKE**, **KEEPER NAMED**, **HUM TOLERANCE**—the practical tags of a job done without applause. A school group passed behind her, a guide saying *someone looked* the way you'd say *someone cooked*. Lena envied the guide's sentence and stole it for her note field.
+
 ---
 
 The second image was two hundred years later, different world, same grammar.
@@ -46,6 +50,8 @@ No keeper name.
 
 The mark remained.
 
+She added it to **CHECKING** and wrote a note only she would read: *Name gone. Dot stayed.*
+
 The third image was Cai's—fresh gleam on First Gate approach housing, mark code verified, forwarded into the query chain that had brought her here.
 
 Evidence unchanged.
@@ -58,7 +64,15 @@ She lost an afternoon.
 
 Not to conspiracy. To repetition.
 
-Marks on junction housings along the Pilgrim Road—photographed by guild archivists before guilds thinned. Marks on relay panel seams at fringe corridors she'd flown with Nadi. Marks on Ribbon maintenance kites she'd walked past without asking the grammar.
+Hour one: she built filters the way she'd build a route—test each narrowing, reject dead ends, keep what moved.
+
+**HOUSING SEAL** too broad. **DOT AND STROKE** better. **KEEPER LOG CROSS-REFERENCE** better still. She saved each search string into the album tags so future-Lena wouldn't have to reinvent the grammar.
+
+Hour two: marks on junction housings along the Pilgrim Road—photographed by guild archivists before guilds thinned. She dragged them into **CHECKING** one at a time, the way couriers filed manifests—each image an entry, each entry a promise that someone had looked. A hand-entered roster visible in the corner of one photograph—seven names, no vendor template. She zoomed until her eyes burned and tagged it **ROSTER VISIBLE — PRECEDENT**.
+
+Hour three: marks on relay panel seams at fringe corridors she'd flown with Nadi. A dock panel from Year 218, mark half worn, new dot cut beside it, vendor sticker placed *over* the stroke until someone peeled the sticker back.
+
+Hour four: a Ribbon maintenance kite housing with three marks layered like generations arguing in ink.
 
 The archive did not call them poetry.
 
@@ -68,25 +82,75 @@ A tooltip explained in bureaucratic plainness: *Symbols cut or painted at inspec
 
 Someone had written *do not remove* because someone had removed.
 
-She flagged seventeen images into a personal album and named it **CHECKING** because she didn't have a better word yet.
+By hour five the album had eleven images and Lena's eyes ached from screen light. She stood, walked the corridor window, pressed her palm to cold stone. The hollow mountains didn't care about her folder names. That was almost relief.
 
-Hour four: a Drift dock panel from a fringe corridor she'd flown with Nadi—mark half worn, new dot cut beside it, vendor sticker placed *over* the stroke until someone peeled the sticker back.
+Hour six: she typed **REMOVED WITHOUT CHAIN**.
 
-Hour five: a Ribbon maintenance kite housing with three marks layered like generations arguing in ink.
-
-Hour six: a photograph tagged **REMOVED WITHOUT CHAIN**—empty seam, ghost outline where a stroke had been, incident report blaming *aesthetics*.
-
-Lena sat back from the terminal and felt anger cold and useful.
-
-Not purge anger.
-
-Maintenance anger.
-
-Someone had stolen memory because it uglied a surface.
+One result.
 
 ---
 
-Toma found her at terminal six with her cheek on her hand and the album open.
+The photograph showed an empty seam—ghost outline where a stroke had been, housing paint fresh enough to smell through the file tags.
+
+Attached: an incident report.
+
+Lena pulled it full screen and read it aloud the way a dock clerk would read a fee dispute—flat, offended on behalf of procedure:
+
+*"Incident logged Year 221, Junction Housing Panel 4-F. Maintenance mark removed without supervisor chain authorization. Responsible party: vendor aesthetics crew, contract 7-A adjunct. Rationale submitted: brand consistency and passenger confidence. Remediation: surface repainted. Visual confirmation logged. No keeper climb required. No further action."*
+
+She read it again, slower, letting the clerk voice crack where the words deserved it:
+
+*Brand consistency.*
+
+*Passenger confidence.*
+
+*No keeper climb required.*
+
+*No further action.*
+
+A school group passed the terminal behind her—guide saying *someone looked*—and Lena kept reading because the album needed the voice on the record, not just the photograph of what had been stolen.
+
+Maintenance anger arrived cold and useful—not purge anger. The anger of a courier who had spent a month hunting faces while institutions filed *no further action* beside ghost outlines.
+
+She flagged the image **REMOVED WITHOUT CHAIN** and put it at the top of **CHECKING** like a warning label.
+
+Someone had stolen memory because it uglied a surface.
+
+Lena pulled the linked vendor correspondence—three messages, clerk-flat:
+
+*"Aesthetics crew reports mark inconsistent with corridor brand palette."*
+
+*"Supervisor approves removal pending repaint."*
+
+*"Visual confirmation to be logged by vendor liaison. Keeper climb not scheduled."*
+
+She read them aloud too, because the album needed voices not just images. Her clerk voice made the room sound smaller. *Brand palette.* *Not scheduled.* Words that turned a stroke into a design problem.
+
+She tagged the thread **7-A — AESTHETICS** and linked it to the ghost-outline photograph. Then she walked the corridor once, came back, and added a line to the album header:
+
+*If they remove the mark, what replaces the memory?*
+
+No answer on the moon. Only more photographs.
+
+---
+
+Hour seven: Pilgrim Road junction, Year 209. Dot and stroke under a hand-painted roster on the wall behind the seam—names visible in the photograph's corner, too small to read without zoom. Lena zoomed. Seven names. No vendor template.
+
+Hour eight: First Gate approach, Year 224. Cai's predecessor—different hands, same grammar, log line struck through where the keeper name should have been.
+
+Hour nine: fringe corridor dock, Year 218. Sticker over stroke. Peel-back reveal. Second dot cut beside the first like an argument won slowly.
+
+She built the album the way she'd build a route map—layer by layer, testing each connection by walking it in her mind. Drift to Ribbon to Road to Gate. Marks that survived salaries. Names that didn't. Strokes that outlasted supervisors who called them unobtrusive.
+
+By hour ten **CHECKING** had sixteen images and her lunch had died in a paper bag she hadn't opened.
+
+Hour eleven: she matched **7-A** and found six worlds with the same vendor template—empty keeper column, visual confirmation language, marks photographed as *aesthetics noncompliance* in one incident and *attention record* in another. Same contract. Different nouns. She filed them as a sub-album **7-A — TEMPLATE** and linked every image back to the main packet.
+
+Hour twelve: a Fringe corridor panel Nadi would recognize—sticker over stroke, peel-back reveal, second dot cut beside the first. Lena tagged it **NADI — FRINGE — SEEN IT** and almost messaged her, then didn't. The album wasn't gossip. It was grammar.
+
+---
+
+Toma found her at terminal six with her cheek on her hand and the album open—seventeen images now, three notes, one incident report she had read aloud twice.
 
 "You searched dot and stroke," he said.
 
@@ -122,17 +186,31 @@ He walked her to a restricted annex—not punishment, permission. Keeper logs ti
 
 The annex air was colder than the imaging corridor—stone honesty, Toma would say. Rows of listening booths with headsets older than most couriers' routes. A sign: **ORAL TESTIMONY — GUILD ERA — HANDLE WITH TIME**.
 
-An audio clip played on request: an old approach keeper describing storm season in a voice roughened by years of shouting over wind.
+"Build the album with ears," Toma said. "Images lie slower than voices."
+
+He queued the first clip.
+
+An old approach keeper describing storm season in a voice roughened by years of shouting over wind:
 
 *"You cut the dot so the next pair of eyes knows you're not the first. You cut the stroke when you've walked the seam. If you only fix without marking, you're guessing. If you remove a mark because it uglies the housing, you steal someone's memory."*
 
-Lena listened twice.
+Lena listened twice and added the transcript to **CHECKING** under **VOICE — GUILD ERA**.
 
-A second clip—newer, shakier, volunteer era: *Supervisor says sticker is enough. I cut dot anyway. If they fire me, dot stays.*
+A second clip—newer, shakier, volunteer era:
 
-Third clip—vendor era, tired: *Visual confirmation logged. I did not climb. I am sorry.*
+*"Supervisor says sticker is enough. I cut dot anyway. If they fire me, dot stays."*
 
-Three centuries in three voices.
+Fourth clip—vendor era, tired:
+
+*"Visual confirmation logged. I did not climb. I am sorry."*
+
+Fifth clip—Pilgrim Road cooperative, recent, a station elder's voice flat with seventy years of weather:
+
+*"We don't call it maintenance doctrine at dinner. We call it who checked last. Children learn marks before they learn separatist pamphlets. That's not politics. That's roster hygiene."*
+
+Three centuries in five voices.
+
+She tagged them **DOT / STROKE / STICKER / ROSTER** and listened to the vendor-era apology again. *I am sorry* sat in the booth like a mark someone else would have to cut.
 
 Not synthesis.
 
@@ -164,7 +242,65 @@ Lena read it twice. "They were arguing about grammar."
 
 "They were arguing about whether future eyes would know anyone had looked." Toma closed the file. "The vendor won slowly. The marks remained sometimes. The names did not."
 
+He queued a fourth clip without asking—guild era again, a woman's voice, amused and furious:
+
+*"They told us to log visual confirmation from the ground. I said the ground is a lie if your feet aren't on it. They said that's not in the contract. I said the contract isn't in the storm. I cut the dot anyway. They can fire the name. They can't fire the grammar."*
+
+Lena added it to **CHECKING** and laughed once—surprised out of her chest.
+
+"That's a keeper I'd buy soup for," she said.
+
+"That's a keeper who aged into archive audio because the institution stopped paying her to shout." Toma's gentleness again. "We preserve voices when salaries fail. It's our compromise with erosion."
+
 ---
+
+He walked her back to terminal six and watched her assemble the final album view—images in chronological order, voices tagged beneath, **REMOVED WITHOUT CHAIN** pinned at top like a warning buoy.
+
+"You'll show this to Cai," he said. Not a question.
+
+"I'll show him dots." Lena scrolled Cai's contemporary mark beside Year 209, beside Year 224, beside the ghost outline. "He's not alone. He's lonely. You said that."
+
+"I say many things. Couriers decide which ones to carry."
+
+"I'm carrying this." She tapped **GRAMMAR PACKET**. "Not as theory. As—"
+
+"As proof someone looked before you arrived." Toma stood. "That's all marks ever were. That's all voices in booths ever were. The institution forgot the grammar. The grammar leaked."
+
+He paused at the annex door. "When you reach First Gate, ask Cai what green sounds like. Not what it means. What it sounds like in his teeth."
+
+"I will."
+
+"And Lena—" Toma's gentleness again. "If you play community audio beside institutional logs, play them loud enough to feel stupid. Feeling stupid is sometimes how breadth becomes useful."
+
+---
+
+Back in the imaging corridor she finished the album the way she'd finish a manifest—checking each line.
+
+Eighteen mark photographs.
+
+Five oral transcripts.
+
+One **REMOVED WITHOUT CHAIN** report read aloud into her slate notes.
+
+One aesthetics correspondence thread read in clerk voice.
+
+One dispute file about unobtrusive.
+
+One **7-A — TEMPLATE** sub-album linking six worlds.
+
+She renamed the album header:
+
+**CHECKING — GRAMMAR PACKET**
+
+Not theory. Not purge. Something she could carry.
+
+She exported a summary sheet—courier habit, not archive habit—and pinned it on top:
+
+*Dots outlast names. Voices outlast salaries. Removal without chain steals memory. Visual confirmation without climb is a lie with paperwork.*
+
+Plain language.
+
+Lena trusted plain language when corridors opened.
 
 In the corridor outside the annex, a public feed carried Jun's new provisional—**SLOPE CLUSTER — BELIEF ADJUSTMENT 0.69**.
 
@@ -174,71 +310,31 @@ Different label.
 
 The public thread would call it weakness. Lena called it a man trying not to lose his religion while the ground moved.
 
+A keeper mirror comment flashed beneath—**CAI:** *Dots aren't decoration.* **ANON:** *Then fund the hands.*
+
+Lena screenshot the exchange into **GRAMMAR PACKET** without comment. Evidence unchanged. Meaning shifting again.
+
 She pulled one more archive path on a whim—**PILGRIM ROAD — COMMUNITY RECORDING — ORAL**.
 
-A station name surfaced she didn't recognize at first: **TWO VALLEYS**.
+A station name surfaced: **TWO VALLEYS**.
 
 Attached: a field recording logged by a pilgrim archivist cooperative—not publication grade, not sermon, minutes of a commons meeting and a story told from an empty chair.
 
 Lena hesitated, finger above play.
 
-Sera's voice wasn't on the metadata.
+Sera's voice wasn't on the file tags.
 
 The story was.
 
----
+She queued it for tomorrow. Tonight the dots were enough.
 
-She listened with her bag at her feet and the hollow mountains humming.
+But she copied one transcript line into the album anyway—the empty-chair sentence from the file tags preview, not the full story. A placeholder. A mark that more eyes were coming.
 
-A maintainer named Henn had died on a ladder.
+*Put Pell on the roster where everyone sees it.*
 
-A nervous apprentice named Pell could maintain junctions but not *being Henn*.
-
-A pilgrim had told a story about checking—not heroes, not gates, not separatists—marks on housing, rosters where everyone could see a name, children taught that dots weren't graffiti.
-
-*Find who checked it last.*
-
-Lena thought about Arin sending pictures.
-
-She thought about Cai's query chain.
-
-She thought about Veya's cemetery of attention and the purge story she'd almost walked on.
-
-The recording ended with wind and dishes being cleared—ordinary aftermath.
-
-Terminal six flickered a new entry in the cooperative log: **STORY — CHECKING DOCTRINE — TWO VALLEYS — PILGRIM SER A.**
-
-Sera on the metadata after all, small as a mark.
-
-Not a miracle.
-
-A documentation choice.
-
-She copied a transcript excerpt into her album:
-
-*You teach children marks aren't graffiti.*
-
-Simple sentence.
-
-Institutional archives had needed ninety-seven photographs and six hours to say the same thing with more metadata.
+Simple sentence. Institutional archives had needed sixteen photographs and one clerk-voiced incident report to approach the same idea with more file tags.
 
 ---
-
-Lena copied the recording into her album beside dot photographs and ledger strike-throughs.
-
-Three languages for the same job:
-
-Ink on paper stopping payment.
-
-Symbols on housing continuing attention.
-
-Voices in commons teaching people to see checking.
-
-Not synthesis.
-
-Not yet.
-
-Pattern without the comfort of a single villain.
 
 She messaged Toma before leaving the corridor:
 
@@ -254,9 +350,17 @@ Nobody had won the story yet.
 
 That was almost relief.
 
+She opened **CHECKING** on her slate and scrolled through it once more—eighteen marks, four voices now, one aesthetics thread, one dispute about unobtrusive. The album had weight the way manifests had weight: not because of any single line, but because the lines added up to a route.
+
+Grammar packet.
+
+Not Jun's cluster. Not her almost-purge folder. Something she could hand Cai without sermonizing. Something she could hand herself when fear wanted a face again.
+
 ---
 
-In her berth that night she laid the album open on her knees—marks, logs, a pilgrim story from a station she'd never visited.
+In her berth that night she laid the album open on her knees—eighteen marks, four voices, one clerk-voiced incident report, one pilgrim story queued for morning.
+
+She read the **REMOVED WITHOUT CHAIN** report aloud one more time in the dark, clerk voice cracking on *no further action*, and felt the anger settle into usefulness—the kind that made you photograph seams instead of shouting at walls.
 
 She still could not reach Arin.
 
@@ -286,38 +390,14 @@ Inside, Lena slept without a breakthrough feeling.
 
 She slept with the quieter discipline of a person beginning to see pattern without demanding it confess.
 
-Tomorrow she would listen to the Two Valleys story again.
+Tomorrow she would listen to the Two Valleys story.
 
 Tomorrow she would decide what respect looked like for work she hadn't agreed with on a road she hadn't walked.
 
-Tonight the dots were enough to keep her from going back to Jun's purge overlay as home.
+Tonight she played the Two Valleys file preview once—just the elder's line about roster hygiene, five seconds—and added it to **GRAMMAR PACKET** as a bookmark for morning.
 
-She opened the album once more before sleep—seventeen marks, three voices, one pilgrim story queued beside a child slate.
-
-Not a theory packet.
-
-A grammar packet.
-
-Act IV would have to tell her whether grammar was enough when budgets still struck through names and gates still went quiet.
-
-Act III ended without that answer—on purpose, Toma might say.
-
-On purpose felt like an excuse until you were the person living inside the slope.
-
-She closed the album and let the vault hum count her breaths.
-
-Tomorrow: respect without agreement.
-
-Tomorrow: First Gate on the manifest if Nadi's corridor held.
-
-Tonight: dots.
+Tonight the grammar packet was enough to keep her from going back to Jun's purge layer as home.
 
 When she finally slept, she dreamed in dot and stroke—symbols without names, names without salaries, salaries without keepers, keepers without audiences.
 
-The dream wasn't synthesis.
-
-It was grammar without a sentence end.
-
-Act IV could have the sentence.
-
-Act III only had to carry the punctuation.
+Grammar without a sentence end.

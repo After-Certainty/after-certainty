@@ -33,6 +33,7 @@ If any answer is **no** → recommend replacement.
 - Mysterious jargon with no operational meaning
 - Terms that sound generated rather than lived-in
 - Tech-industry vocabulary dressed as future (`sentiment filter` — evaluate in context)
+- **Software / operations / data-science vocabulary** dressed as future or analyst speech (`overlay`, `node`, `logs don't trend`, `read receipt`, `metadata`) — see [Ops jargon map](#ops--engineering-jargon-map-book-wide-pass) below
 
 ---
 
@@ -62,6 +63,7 @@ Avoid:
 - vague biological metaphors
 - mysterious jargon
 - terms that sound generated rather than lived-in
+- software / operations / data-science vocabulary (overlay, node, metadata, read receipt, trend, actionable, price lead time) — use Ops jargon map in agent spec
 
 Output per term:
 - Original term
@@ -86,9 +88,69 @@ Output per term:
 | **reason code** | **Removed** | Prefer silence / no official word |
 | **identity wave** | **Audit** | Jun register only; don't proliferate |
 | **first/second/third wave** | **Audit** | Jun analytical vocabulary — keep sparse, plain-speech echo elsewhere |
-| **Jun chart terms** | **Drift pass** | cluster, dataset, uptake → language drift agent (15) |
+| **Jun chart terms** | **Drift pass** | cluster, bloc, shape — OK in Jun dialogue if sparse; replace ops leakage (below) |
+| **Ops / engineering jargon** | **Replace** | Book-wide pass 2026 — map below; narration and bystanders never use DevOps register |
 
-**Suspicious list (investigate in manuscript):** throat · throat route · long throat · identity wave · second/third wave (frequency) · Jun analytical vocabulary · sentiment filter (context-dependent)
+**Suspicious list (investigate in manuscript):** throat · throat route · long throat · identity wave · second/third wave (frequency) · Jun analytical vocabulary · sentiment filter (context-dependent) · **overlay · node · trend · metadata · read receipt · message queue · bandwidth (non-relay) · actionable · price lead time**
+
+---
+
+## Ops / engineering jargon map (book-wide pass)
+
+**CORE TEST (ops terms):**
+
+> Would a non-engineer reader understand this without thinking of spreadsheets, dashboards, or SRE runbooks?
+
+If no → replace. Jun/Maret may keep **sparse** analyst register (`cluster`, `model`, `tolerance bands`) in **dialogue only** — not narration, not bystanders, not chapter closings.
+
+### Replace → use instead
+
+| Ops / engineering | Replacement | Notes |
+|-------------------|-------------|-------|
+| Logs don't trend | Nobody reads the log | Keeper/wall context |
+| overlay | layer | chart layer, jurisdiction layer |
+| node (person / chart) | dot · blank box on the diagram · entry | Not network topology |
+| unmodeled variance | what your chart won't count | Jun dialogue OK once if challenged |
+| read receipt | opened flag | Prefer **READ** status already in world |
+| status line | delivery readout | Message delivery UI |
+| message queue | message stack | Courier relay UI |
+| metadata | file tags · index notes | Archive search |
+| uploaded / cached | filed · saved | |
+| algorithm | chart · Jun's chart | |
+| belief cascade | fear wave | |
+| actionable confidence / directionally true | publishable confidence · close enough to act on / close enough to scare people | Maret/Jun bureau register |
+| price lead time / narrative lead time | fees move first · stories catch up late | |
+| high-mobility set / mobility node | long-route list · dot on his chart | |
+| data node / dataset | person on a chart · his chart | |
+| bandwidth (network) | relay capacity · line capacity | Keep **bandwidth** only if relay context is obvious |
+| correlates with / gate anomalies | tracks with · gate trouble | |
+| variable enter the model | wouldn't fit his chart | |
+| architecture (system cruelty) | wiring · how the system is built | Keep **architecture** for buildings |
+| Respect string | brief reply · one-word reply | Pilot comms |
+| logged (pilot/keeper verb) | noted · recorded · on record | Keep **log** as noun (keeper log, maintenance log) |
+| signature asymmetry | uneven stress pattern · stress chart | Briefing scenes; Lena may say *Define asymmetry* |
+| trending wrong | pointing the wrong way | |
+| auto-forward | auto-relay | |
+| cross-reference / cross-ref | file link · matched against | |
+| spreadsheet / stakeholder / slide deck | ledger · patron · chart | Office pass — see agent 19 + manuscript 2026 |
+| bookkeeping fiction | ledger fiction | |
+| lag variable | slow follow-on | Analyst mutter only |
+
+### Keep on purpose (world-native)
+
+| Term | Why |
+|------|-----|
+| queue · ledger · manifest | Courier economics |
+| **COMMITTED** · **DELIVERED** · **READ** | Courier status words |
+| variance stamp | Drift pilot slang — unofficial route approval |
+| cluster | Jun's chart label for belief grouping — sparse, dialogue |
+| keeper log · maintenance log | Physical work records, not software |
+| relay · berth · story tax · thread wall | Earned coinage (see Act I audit) |
+| packet | Message in transit — plain enough in SF |
+
+### Jun/Maret dialogue (borderline — author call)
+
+May keep **once per scene** if grounded in chart work and pushed back by Lena or a pilot: *cluster*, *model*, *tolerance bands*, *correlates*. Do **not** stack with ops terms from the replace column in the same speech.
 
 ---
 
@@ -126,6 +188,7 @@ Per chapter:
 1. **Friction terms** — term, count, verdict
 2. **Replacements** — before/after sentences (not bulk find-replace without context)
 3. **Keep list** — terms that earn their coinage
-4. **Open questions** — terms needing Brittany or author call
+4. **Ops leakage** — any software/engineering term from the map above; replacement + sample sentence
+5. **Open questions** — terms needing Brittany or author call
 
 **Related:** [18-future-texture-agent.md](./18-future-texture-agent.md) · [20-first-read-snag-agent.md](./20-first-read-snag-agent.md) · [15-language-drift-agent.md](./15-language-drift-agent.md) · [16-contemporary-readability-agent.md](./16-contemporary-readability-agent.md)

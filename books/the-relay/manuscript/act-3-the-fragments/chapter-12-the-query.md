@@ -2,37 +2,57 @@
 
 The Archive Moon looked like a mistake from orbit—too small for the mountains carved into it, too quiet for the traffic that fed its intake corridors.
 
-Lena watched the hollow peaks slide past the shuttle viewport and tried not to think about Arin's last message sitting in **DELIVERED** with no read receipt, no answer, no proof anyone on Orinreach Basin had opened it since the Drift Markets turned her into a person who checked status lines the way other people checked weather.
+Lena watched the hollow peaks slide past the shuttle viewport and tried not to think about Arin's last message sitting in **DELIVERED** with no opened flag, no answer, no proof anyone on Orinreach Basin had opened it since the Drift Markets turned her into a person who checked delivery readouts the way other people checked weather.
 
 Fourteen days from Ribbon to here by way of fees she could still feel in her shoulders.
 
 The long route to her brother remained **RESERVED** on every ledger she'd touched since Northhook. The short corridors shifted without apology. Couriers called it adaptation. Lena called it what it was when she was tired: a map that moved while you were still standing on yesterday's version.
 
+The mountains were not decoration. They were storage—ribs of stone hollowed from the inside until the moon looked like something had eaten it carefully and left the shell for filing. Light leaked through ventilation louvers in thin bars. Wind moved through those openings with a sound like distant surf, or like breath through a corridor too long for one person to walk. On the upper terraces, visible now as the shuttle banked, sealed deposit cases sat in ranked rows before the stone swallowed them. The wind worried at their edges—not enough to open them, enough to remind you that even here, weather had opinions.
+
+Lena had read about the memory gardens in transit pamphlets and imagined something green. What she saw was stone lit from within, climate systems humming through rock, archivists in thermal coats walking between cases the way dock workers walked between crates: counting, not admiring.
+
 The shuttle docked at Upper Intake with the soft bump of a world that did not perform arrival drama.
 
 No corridor fanfare. No doubled city in a viewport. Just intake corridors sloped for carts of sealed cases and researchers who looked like they'd forgotten which century they were arguing with.
 
-A woman in line ahead of Lena had three slate cases chained together and a badge that said **DEPOSIT — ORAL — PRIORITY NONE**. She argued quietly with a clerk about humidity tolerances. The clerk won without raising his voice. The Archive Moon did not debate weather. It filed it.
+---
 
-Lena's own arrival paperwork was simpler—courier berth, provisional research access, a forwarded query number that made the clerk's eyes move to her face with the mild curiosity of someone seeing a live wire in a room full of fuse boxes.
+Before she found a clerk, Lena stood ten minutes on the intake terrace because her legs needed to remember what solid ground felt like after fourteen days of berths that charged by the hour.
+
+Wind came through the louvers and moved across the deposit rows—recent arrivals, not yet descended, indexed in open air the way Northhook indexed kites against sky. The cases clicked softly where chains touched stone. A deposit team in gray coats worked without hurry, checking humidity seals, scanning case labels, treating each case like a person who had traveled far and deserved to be asked their name before being shelved.
+
+Lena watched a clerk stamp **ORAL — PRIORITY NONE** on a slate case while the depositor argued about tolerances. The clerk won without raising his voice. The Archive Moon did not debate weather. It filed it.
+
+Her own arrival paperwork was simpler—courier berth, provisional research access, a query number she'd opened herself six days before Cai's forwarded chain ever reached her message stack.
+
+On the Drift wall, after **DELIVERED** stopped being a promise, she'd pulled thread archives until her eyes burned: Vesper suspension bulletins, junction fee histories, maintenance mark photographs from fringe corridors Nadi's crew didn't comment on. She'd flagged three roster gaps in public keeper coordination feeds—names thinning on relay guild lists while vendor contract language thickened. Nobody answered. Everybody mirrored.
+
+She'd drafted her own query on a night when the Markets wall made **SEPARATIST SABOTAGE** feel like the only story with teeth:
+
+**REQUEST — RELAY GUILD ROSTERS — FIRST GATE APPROACH — MARK CODE CROSS-REF**
+
+**FROM: LENA VANCE — COURIER — PROVISIONAL**
+
+**NOTE: Gate quiet. Roster thin. Same season. Not asking why yet. Asking who was paid to notice.**
+
+The Drift clerk had laughed—not unkind—and stamped it **FORWARDED — ARCHIVE MOON — STANDARD QUEUE**.
+
+Cai's query arrived two days later through keeper corridors, louder, better credentialed, with a mark photograph that made Lena's skin prickle because she'd been carrying the same image in her folder since the Ribbon.
+
+She hadn't come to the moon because Cai sent her.
+
+She'd come because her own trail and his had pointed at the same hole.
+
+The intake clerk looked at her slate and saw both numbers—the courier's provisional query and the forwarded keeper chain.
 
 "You came from Drift," he said.
 
-"Drift sent me to the walls. The walls sent me here."
+"Drift sent me to the walls. The walls sent me here. I sent myself first."
 
-He stamped her slate. "Then you're late in the right direction."
+He read the dates, eyebrows lifting a fraction. "Then you're not late. You're early for someone who doesn't know what Tuesday means."
 
----
-
-Archive intake smelled like stone and filtered air and the particular neutrality of a place that had decided panic was bad for paper.
-
-She showed her courier credentials, her provisional berth assignment, and the forwarded query chain Cai had stamped at First Gate approach—**HISTORICAL KEEPER ROSTERS — RELAY GUILDS — MARK CODE VERIFIED**.
-
-The clerk at the desk did not ask why a courier cared about dead guild lists.
-
-Clerks on the Archive Moon had learned not to ask why. They asked when.
-
-"Archivist Toma. Memory gardens, east wing. He's got you in the queue."
+He stamped her slate. "Archivist Toma. Memory gardens, east wing. He's got you in the queue."
 
 "I'm here now."
 
@@ -42,7 +62,17 @@ The clerk slid her slate back without looking up. "He's got you in the queue for
 
 "Tuesday's a unit of work here." A faint smile. Not unkind. "You'll live."
 
-Lena took the tram card and the map overlay and tried to remember the last time impatience had been useful.
+---
+
+Archive intake smelled like stone and filtered air and the particular neutrality of a place that had decided panic was bad for paper.
+
+She showed her courier credentials, her provisional berth assignment, her self-opened query number, and the forwarded chain Cai had stamped at First Gate approach—**HISTORICAL KEEPER ROSTERS — RELAY GUILDS — MARK CODE VERIFIED**.
+
+The clerk at the desk did not ask why a courier cared about dead guild lists.
+
+Clerks on the Archive Moon had learned not to ask why. They asked when.
+
+Lena took the tram card and the map layer and tried to remember the last time impatience had been useful.
 
 Drift Markets: useless.
 
@@ -54,9 +84,11 @@ She'd come anyway.
 
 The memory gardens were not gardens the way Lake Orin was a lake.
 
-They were lit terraces cut into the mountain's upper shell—recent deposits indexed in open air before the stone swallowed them for centuries. Wind moved through ventilation louvers with a sound like distant surf. Archivists walked between rows of sealed cases the way keepers walked scaffold perimeters: unhurried, counting.
+They were lit terraces cut into the mountain's upper shell—recent deposits indexed in open air before the stone swallowed them for centuries. Wind moved through ventilation louvers with that same distant-surf sound. Archivists walked between rows of sealed cases the way keepers walked scaffold perimeters: unhurried, counting.
 
-Lena found the east wing by following a sign that said **ROSTER LEDGERS — BY APPOINTMENT** and a smaller sign beneath it: **URGENCY IS NOT AN APPOINTMENT**.
+Lena paused at a terrace rail. Below, a freight tram carried six cases toward a louver gap that looked too narrow for freight until the gap widened—the moon adjusting its throat for swallowing. Wind lifted dust from the case labels and settled it again. The cases did not flinch. They had been built for patience.
+
+She found the east wing by following a sign that said **ROSTER LEDGERS — BY APPOINTMENT** and a smaller sign beneath it: **URGENCY IS NOT AN APPOINTMENT**.
 
 Toma's office door was open.
 
@@ -74,7 +106,7 @@ He looked up when her shadow crossed the threshold.
 
 "Good. Lost people want comfort. Useful people want citations." He tapped the slate. "Which are you asking for?"
 
-Lena set her bag on the floor. "Names. Relay guild keepers on First Gate approach. A maintenance supervisor named Cai forwarded a query. I've been carrying the same question since the Ribbon because nobody on the transit desks could tell me why a gate goes quiet and a roster goes thin in the same season."
+Lena set her bag on the floor. Her shoulders ached from the shuttle harness. Her boots still held Drift dust in the seams. "Names. Relay guild keepers on First Gate approach. I opened a query six days ago—roster thinning, mark file link, gate quiet in the same season. Then a maintenance supervisor named Cai forwarded a chain with the same question and a photograph of a housing seal. I've been carrying both since the Ribbon because nobody on the transit desks could tell me why a gate goes quiet and a roster goes thin in the same century."
 
 Toma's expression did not change. That was its own kind of answer.
 
@@ -84,9 +116,17 @@ Toma's expression did not change. That was its own kind of answer.
 
 "Then you're human." He turned the slate toward her. "Page one. Not the whole packet. The whole packet is for people who maintain housing seals, not people who maintain routes."
 
-The extract was three paragraphs and a photograph of ledger paper—guild roster, year 219, six names struck through in administrative ink. Not burned. Not redacted. Struck through, with a margin note: **CONSOLIDATED UNDER VENDOR CONTRACT 7-A.**
+The extract was three paragraphs and a photograph of ledger paper—guild roster, year 219, six names struck through in administrative ink.
 
-Lena read the names twice.
+Lena read the first name.
+
+Her hand stopped halfway to the next line.
+
+The strike-through was not a scribble. It was a practiced stroke—pen lifted clean at the end, margin note in the same hand: **CONSOLIDATED UNDER VENDOR CONTRACT 7-A.** Not burned. Not redacted. Erased the way budgets erased: with paperwork calm enough to file.
+
+The second name sat under the first like a body under a sheet.
+
+She read all six and felt something in her chest disconnect from the bench beneath her—the physical shock of seeing absence made legible. Not rumor. Not a Drift wall cluster. Ink on paper. Names that had been paid to notice cables and seals and hum in scaffold teeth, stopped being paid, struck through without drama enough to headline.
 
 "These are keepers?"
 
@@ -116,7 +156,7 @@ Toma slid a second photograph across—year 218, forty-two names; year 220, elev
 
 "Then you are in the chain of present fear projected onto past record." He said it without cruelty. "Present fear is still valid. Past record is still relevant. Do not conflate."
 
-Lena stared at the struck-through names until the ink looked like bruises.
+Lena stared at the struck-through names until the ink looked like bruises on skin that hadn't been hit—only defunded.
 
 "Who did the striking-through?"
 
@@ -130,7 +170,7 @@ Lena stared at the struck-through names until the ink looked like bruises.
 
 Toma almost smiled. "Slow enough to notice what stopped being noticed."
 
-Lena stood. "Cai climbed a scaffold with that hum in his teeth. He didn't ask slow."
+Lena stood. Her knees remembered the shuttle harness. "Cai climbed a scaffold with that hum in his teeth. He didn't ask slow."
 
 "Cai asked correctly. He waited correctly. You arrived on a shuttle with courier credentials and Drift Markets anger. I am not insulting you. I am sequencing you." Toma slid the page one extract into a sealed sleeve and held it out. "Take this. Do not mirror it publicly without context. Context is page four through twelve. You do not have page four through twelve."
 
@@ -142,7 +182,9 @@ Lena stood. "Cai climbed a scaffold with that hum in his teeth. He didn't ask sl
 
 "Then you're ready for archives." He almost smiled again. "Welcome to the moon."
 
-She took the sealed sleeve. The paper inside felt too light for how much weight she'd assigned it on the shuttle ride up.
+She took the sealed sleeve. The paper inside felt too light for how much weight she'd assigned it on the shuttle ride up. Her fingers still remembered the strike-through shock—the clean lift of the pen, the absence where a name had been.
+
+For a moment she saw the six names as bodies—not ghosts, workers who had once put hands on cables while storms rolled through, who had once earned stipend lines in Vault 14 and had been edited out by ink calmer than any gate bulletin. Her throat tightened. Not grief exactly. Recognition of a maintenance she'd been walking past while louder stories rented space in her head.
 
 "If page one is names struck through," she said, "what's page nine?"
 
@@ -158,17 +200,17 @@ She spent the rest of the day in the public reading corridor because berths on t
 
 The corridor was long, windowed toward the hollow mountains—stone ribs lit from within by vault climate systems, a subsonic hum she felt in her teeth the way Cai's messages described First Gate scaffold. Tourists did not come here. Researchers did. Couriers with private questions did.
 
-Lena pulled thread archives on Vesper suspension and got bulletins. She pulled junction fee histories and got spreadsheets. She pulled separatist rhetoric clusters and got the same story with new verbs.
+Lena pulled thread archives on Vesper suspension and got bulletins. She pulled junction fee histories and got ledger tables. She pulled separatist rhetoric clusters and got the same story with new verbs.
 
 Nothing gave her Arin.
 
-She pulled Cai's forwarded note instead—the one she'd copied into her own slate on a Drift wall when **DELIVERED** had stopped being a promise.
+She pulled her own query trail instead—the six-day-old roster search, the mark file links she'd flagged on Drift, the fringe photographs Nadi's crew had walked past without comment. Then Cai's forwarded note—the one she'd copied into her own slate when **DELIVERED** had stopped being a promise.
 
 *Historical rosters may show names we've stopped paying.*
 
 Below that, a mark photograph: dot and stroke on a housing seal, fresh enough to gleam.
 
-She'd seen marks on the Ribbon. On Drift dock housing. On fringe corridor panels Nadi's crew didn't comment on because commenting slowed turnaround.
+She'd seen marks on the Ribbon. On Drift dock housing. On fringe corridor panels.
 
 The archive corridor did not know what to do with a mark photograph pasted into a guild query.
 
@@ -178,13 +220,13 @@ A researcher at the next terminal glanced over. "Maintenance symbology?"
 
 "Maybe."
 
-"There's a whole annex if you're serious. Dot-and-stroke cross-references back to guild oral logs. Most couriers don't dig that deep."
+"There's a whole annex if you're serious. Dot-and-stroke file links back to guild oral logs. Most couriers don't dig that deep."
 
 "I'm not most couriers."
 
 The researcher shrugged, impressed without warmth. "Then you'll hate Toma. He wrote half the index."
 
-Lena pulled one cross-reference on a whim—**FIRST GATE — HOUSING 7-C**—and got a photograph of a seam mark that could have been Cai's or his predecessor's or his predecessor's predecessor's. The metadata said **CHECK INTERVAL EXCEEDED — VENDOR VISUAL ONLY — YEAR 221**.
+Lena pulled one file link on a whim—**FIRST GATE — HOUSING 7-C**—and got a photograph of a seam mark that could have been Cai's or his predecessor's or his predecessor's predecessor's. The file tags said **CHECK INTERVAL EXCEEDED — VENDOR VISUAL ONLY — YEAR 221**.
 
 Her skin prickled.
 
@@ -194,9 +236,29 @@ The corridor did not tell her who.
 
 It told her the mark had outlasted the name.
 
+She pulled her self-opened query status for the sixth time that day: **IN REVIEW — ROSTER LEDGERS — ESTIMATED RESPONSE: TUESDAY UNIT**.
+
+Tuesday again.
+
+She closed the slate and watched wind move through a louver gap three terraces down, lifting dust off a deposit row and settling it with the patience of a world that charged by the century.
+
+A maintenance annex clerk two corridors over finally answered her mark file link with a shrug in text form: *Dot-and-stroke predates current vendor manuals. Guild oral logs in Vault 9 queue. Estimated: Tuesday unit.*
+
+Lena laughed once—sharp, alone—and went back to Vesper bulletins because anger without a body to shout at always returned to paper.
+
+The bulletins were boring in the way that frightened her. *Modernization ongoing. Reroute density within tolerance. No official comment on separatist claims.* No names. No struck-through keepers. No room for a brother behind a basin relay that held **DELIVERED** like a hostage.
+
+She pulled fringe corridor fees next—Drift habit, bodies before theories—and watched **ARCHIVE MOON — PROVISIONAL BERTH** tick upward on the public strip. Waiting had a price here too. She'd paid it in shoulders and jaw and the slow erosion of believing messages were weather.
+
+At the corridor's far window, a deposit team finished a row and stepped back while stone louvers widened. Cases rolled inward on a tram too narrow to be real until it was. Wind followed them a moment, then died. The mountain swallowed six more records without ceremony.
+
+Lena's stomach reminded her she'd eaten a protein bar for breakfast and argument for lunch. She bought tea from a wall unit that tasted like filtered stone and sat another hour with page one until the struck-through names stopped shocking and started *patterning*—which was worse, because patterns wanted stories, and she could feel the wrong one assembling in her chest like weather.
+
 ---
 
 That evening her berth was a capsule on the intake ring—clean, narrow, a viewport full of dark stone and the thin crescent of the world the moon orbited, forgotten by scenery.
+
+Her body finally admitted exhaustion: shoulders, jaw, the ache in her calves from standing on terraces and in corridors because sitting still felt like waiting and waiting had become its own kind of work.
 
 A message from Jun arrived on the public analyst feed she hadn't unsubscribed from because unsubscribing felt like admitting she'd stopped looking for patterns.
 
@@ -230,7 +292,7 @@ She thought about Sera on a junction spur somewhere, unhurried, carrying somethi
 
 She thought about the clerk saying *Tuesday's a unit of work here* and meaning it.
 
-Outside the viewport, the hollow mountains held their records the way the lake at Northhook held Meridian—doubled, patient, indifferent to which version you believed.
+Outside the viewport, the hollow mountains held their records the way the lake at Northhook held Meridian—doubled, patient, indifferent to which version you believed. Wind worried the louver edges. Deposit cases waited on terraces for stone to swallow them.
 
 Lena saved the extract, copied the photographs, and drafted a message to Arin she knew might not read.
 
@@ -248,8 +310,8 @@ She did not have answers.
 
 She set the alarm for morning and lay in the capsule listening to vault hum through stone, jaw set the way it had been at Northhook when she'd changed **TRACKING** to **COMMITTED**, except now the commitment was to a slope she couldn't yet see the bottom of.
 
-Tomorrow she would ask Toma for page nine.
+In the morning she'd return to Toma with page one memorized. She'd ask for page nine again. He'd say Tuesday, or read order, or patience—and she'd hate him fairly because he wasn't the one with a brother in **DELIVERED** limbo.
 
-Tomorrow he would tell her Tuesday.
+Tonight was for bodies, not arguments. She stretched her calves against the capsule wall until the ache spoke in plain language. She drank water. She checked Arin's queue once more—**DELIVERED**, no **READ**—and closed the slate before the gap could become a person she yelled at.
 
-Tonight she counted struck-through names until sleep took them, and the mountains kept their records without applause.
+She counted struck-through names until sleep took them, and the mountains kept their records without applause.
