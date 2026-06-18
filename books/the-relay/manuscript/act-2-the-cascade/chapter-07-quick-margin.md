@@ -144,13 +144,13 @@ By afternoon the bay smelled like hot metal and hurry.
 
 Reroutes stacked up. Dock crews shouted in four dialects. Jun was still at the wall edge, still taking notes, still calm in a way that made Nadi want to charge him rent for the air he breathed.
 
-She found her assigned dock clamp and saw the mark—dot and stroke, same as last month, same as a corridor housing she'd photographed once and filed under third time.
+She found her assigned dock clamp and saw the fresh torque seal—same as last month, same as a corridor housing she'd photographed once and filed under third time.
 
 Not a theory. A habit.
 
-Today someone had added a second mark beside it. Steadier hand. Cleaner stroke. The dot sat closer to true center, the line longer by a millimeter that mattered if you were the kind of person who read walls with your fingers.
+Today someone had added a second seal beside it. Steadier hand. Cleaner tag. The stamp sat closer to true center, the log line longer by a millimeter that mattered if you were the kind of person who read clamps with your fingers.
 
-Nadi ran her glove along both marks. Old hand first—quick, functional, the mark of someone working between lifts. New hand second—patient, almost formal, the mark of someone who'd decided the clamp was worth returning to.
+Nadi ran her glove along both seals. Old hand first—quick, functional, the check of someone working between lifts. New hand second—patient, almost formal, the check of someone who'd decided the clamp was worth returning to.
 
 Keeper work. Not her religion. Her religion was clamps that held.
 
@@ -332,9 +332,9 @@ Premium client satisfaction: sufficient.
 
 Jun's impending chart: irrelevant to her ledger.
 
-On the dock clamp, the steadier mark remained beside hers from the week before.
+On the dock clamp, the steadier seal remained beside hers from the week before.
 
-Same dot. Same stroke.
+Same tag. Same torque reading.
 
 Different hand.
 
@@ -362,9 +362,9 @@ BRICK sent a separatist podcast link. Nadi didn't open it. Podcasts didn't burn 
 
 A border believer in orange argued with a pilot at the next clamp—prudence versus fuel, adjacency versus gauge. Nadi had heard the fight before. She'd file it under **Tuesday** and lift anyway.
 
-Collision in one walk: fee spike, separatist noise, fresh mark on her clamp when she reached the dock.
+Collision in one walk: fee spike, separatist noise, fresh seal on her clamp when she reached the dock.
 
-She touched the mark. Steadier hand. Third voice in the grammar.
+She touched the seal. Steadier hand. Third voice in the log.
 
 "Lifting?" the dock foreman asked.
 
@@ -374,7 +374,7 @@ She touched the mark. Steadier hand. Third voice in the grammar.
 
 "Jun can file Tuesday under later."
 
-The foreman snorted. Dock workers didn't believe analysts. They believed schedules and hands and marks on clamps that meant someone checked before the loader sulked.
+The foreman snorted. Dock workers didn't believe analysts. They believed schedules and hands and seals on clamps that meant someone checked before the loader sulked.
 
 *Quick Margin* rose on thrust that cost money and saved more.
 

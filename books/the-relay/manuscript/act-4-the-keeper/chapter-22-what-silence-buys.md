@@ -2,9 +2,9 @@
 
 The public briefing room at First Gate was designed for reassurance.
 
-Glass walls, aperture view, microphones that made every voice sound like it belonged to someone who had never climbed a scaffold in harness. Lena had avoided these rooms her whole career—couriers lived in corridors, not theaters—but Jun had requested an audience and the administrator had granted it because analysts came with charts and keepers came with gloves and fear loved a stage.
+Glass walls, aperture view, microphones that made every voice sound like it belonged to someone who had never climbed a scaffold in harness. Lena had avoided these rooms her whole career—couriers lived in corridors, not theaters—but Jun had requested an audience and the administrator had granted it because analysts came with charts and keepers came with gauges and fear loved a stage.
 
-The seats filled the way public seats filled during uncertainty—not capacity, but enough bodies to make percentages feel democratic. Consensus analysts with wrist ribbons. A vendor liaison with polished shoes. Two pilots Lena didn't know whispering *separatists* like a password. Keepers along the side wall in harness clips and mark-stained gloves. Nadi by the door because Nadi went where ground truth was being priced and refused to be priced wrong.
+The seats filled the way public seats filled during uncertainty—not capacity, but enough bodies to make percentages feel democratic. Consensus analysts with wrist ribbons. A vendor liaison with polished shoes. Two pilots Lena didn't know whispering *separatists* like a password. Keepers along the side wall in harness clips and gauge cases. Nadi by the door because Nadi went where ground truth was being priced and refused to be priced wrong.
 
 **SEPARATIST SABOTAGE — EIGHTY-THREE PERCENT** glowed on the side wall like weather.
 
@@ -18,13 +18,13 @@ Nadi had come because Nadi went where ground truth was being priced. She leaned 
 
 Lena took a seat where she could see both the chart stack and Jun's hands.
 
-She'd brought Toma's packet, Cai's funding strip folded in her inner sleeve, a photograph of Pell's chalkboard on her slate, and Arin's storm-glass mark—not evidence for a trial, evidence for herself.
+She'd brought Toma's packet, Cai's funding strip folded in her inner sleeve, a photograph of Pell's chalkboard on her slate, and Arin's storm-glass seam—not evidence for a trial, evidence for herself.
 
-In the row ahead, a courier she didn't recognize whispered *separatists* to a partner like a password. Lena kept her hands on her bag and listened to the hum in the deck plates instead. The gate worked on the surface. That was never the argument. The argument was who got paid to notice when surface stopped being true.
+In the row ahead, a courier she didn't recognize whispered *separatists* to a partner like a password. Lena kept her hands on her bag and listened to the crossing vibration in the deck plates instead. The gate worked on the surface. That was never the argument. The argument was who got paid to notice when surface stopped being true.
 
-Cai had texted her that morning: *Fourteen marks today if traffic allows. Don't confuse hum with proof.* She'd felt the hum in her teeth walking to the briefing room and had not confused it with proof.
+Cai had texted her that morning: *Three scaffold shifts today if traffic allows. Zero catastrophes is the job. Don't confuse habit with proof.* She'd felt the deck pressure walking to the briefing room and had not confused it with proof.
 
-She'd come back from Two Valleys yesterday with soup smell in her hair and chalk on her fingers and no breakthrough—only Pell on a board and Mer teaching Jory dot and stroke before winter. The Road had given her a story she could walk on. First Gate was about to give her a theater she couldn't avoid.
+She'd come back from Two Valleys yesterday with soup smell in her hair and chalk on her fingers and no breakthrough—only Pell on a board and Mer teaching Jory to read check logs before winter. The Road had given her a story she could walk on. First Gate was about to give her a theater she couldn't avoid.
 
 Jun's briefing had been on the crew board for three days. **PUBLIC RECKONING — ANALYST REVISES MODEL — ALL PATRONS INVITED.** Patrons. Lena had translated that to *people who need percentages to feel like work*.
 
@@ -58,7 +58,7 @@ Jun paused. "Differential failure signatures across jurisdictional—"
 
 Corin advanced a detail chart. Red markers. Border corridors. Vesper blank. The map looked convincing if you didn't climb housings for a living.
 
-Lena thought about Cai on a scaffold last night—two angles, one housing, grammar without sermon. The chart wanted borders. Cai's marks wanted seams. Nadi's ledger wanted fees. Toma's page nine wanted decades. Jun wanted one story to hold them all.
+Lena thought about Cai on a scaffold last night—two keeper hands, one housing, distributed attention without sermon. The chart wanted borders. Cai's logs wanted seams. Nadi's ledger wanted fees. Toma's page nine wanted decades. Jun wanted one story to hold them all.
 
 It wouldn't.
 
@@ -98,7 +98,7 @@ A woman in the third row—vendor liaison, polished shoes—said, "Pilot stress 
 
 Cai spoke without being invited.
 
-"Keeper data," he said. "Approach corridor, last ninety days. Fourteen marks average per day across four hands. Two vendor flags per week. Zero catastrophic housing failures. Vesper adjacent corridors within tolerance bands. No sabotage signature in seal patterns."
+"Keeper data," he said. "Approach corridor, last ninety days. Three scaffold shifts average per day across four hands. Two vendor flags per week. Zero catastrophic housing failures. Vesper adjacent corridors within tolerance bands. No sabotage signature in seal patterns."
 
 He didn't move from the wall. Keepers didn't perform. They reported.
 
@@ -110,7 +110,7 @@ The vendor liaison in the second row straightened. "Our teams meet published sta
 
 "Your teams meet boxes." Cai's voice stayed level. "Keepers meet corridors."
 
-"Publish tolerances," Cai said to the administrator. "Publish mark schedules. Fund roster hours."
+"Publish tolerances," Cai said to the administrator. "Publish keeper schedules. Fund roster hours."
 
 "We've heard your position."
 
@@ -166,7 +166,7 @@ Jun's voice had lost the confidence-first register. Corin stepped half a step ba
 
 "If sabotage were false, we'd see coordinated counter-narrative uptake above—"
 
-"Eight percent," Lena said. "Routine maintenance on the thread wall. Pilots remembering marks. A child teaching another child dot and stroke before winter at Two Valleys. That's not a coordinated campaign. That's an ecosystem nobody funded."
+"Eight percent," Lena said. "Routine maintenance on the thread wall. Pilots remembering keeper logs. A child teaching another child to read check logs before winter at Two Valleys. That's not a coordinated campaign. That's an ecosystem nobody funded."
 
 She held up Pell's chalkboard photograph. A name on a board where everyone could see it. The institutional opposite of a cluster.
 
@@ -186,7 +186,7 @@ Jun's mouth opened. Closed.
 
 "I don't need a villain to fly," Nadi added, quietly. "I need a fee that doesn't lie about risk. The risk is coordination failure. Not separatists."
 
-Cai added, quietly, "Keeper seals at every red marker's adjacent corridor read inside tolerance. Fourteen marks a day. Two vendor flags a week. Signature asymmetry absent. If someone were blowing coordination points, adjacent housing would scream. It hums."
+Cai added, quietly, "Keeper seals at every red marker's adjacent corridor read inside tolerance. Three scaffold shifts a day. Two vendor flags a week. Signature asymmetry absent. If someone were blowing coordination points, adjacent housing would scream. It holds."
 
 Lio beside him made a small sound—surprise, maybe pride—that Cai ignored.
 
@@ -194,15 +194,15 @@ The vendor liaison said, "Keeper records reflect maintenance bias toward—"
 
 "Toward seams," Cai said. "Not toward charts."
 
-The room was quiet enough to hear the hum through the glass.
+The room was quiet enough to hear the crossing through the glass.
 
-Lena felt it in her teeth—steady, ancient, maintained. Not proof. Habit. The thing you trusted until load shifted.
+Lena felt it in her knees—steady, ancient, maintained. Not proof. Habit. The thing you trusted until load shifted.
 
 Jun's hands shook a fraction before he folded them.
 
 "The model—" he began, and stopped.
 
-He looked at the asymmetry chart. At Corin. At the administrator's polished smile. At Cai's mark-stained gloves. At Nadi's pilot stillness. At Lena's slate with Arin's photograph on it—not a row on a ledger, a brother.
+He looked at the asymmetry chart. At Corin. At the administrator's polished smile. At Cai's gauge case on his belt. At Nadi's pilot stillness. At Lena's slate with Arin's photograph on it—not a row on a ledger, a brother.
 
 "The model treated people as signal," he said.
 
@@ -272,7 +272,7 @@ Jun was quiet a long moment. The asymmetry chart waited on the display like an a
 
 "That's not a satisfying ending."
 
-"No." She thought about Arin on the long route. About Vesper still blank. About Pell on a chalkboard and Mer teaching Jory. About zero catastrophes and roster cuts in the same week. About Cai's two angles on one housing and Dessa's name finally spoken on a scaffold. "It's an adaptive one."
+"No." She thought about Arin on the long route. About Vesper still blank. About Pell on a chalkboard and Mer teaching Jory. About zero catastrophes and roster cuts in the same week. About Cai's two keeper hands on one housing and Dessa's name finally spoken on a scaffold. "It's an adaptive one."
 
 She thought about what silence bought—roster cuts nobody saw until keepers thinned, vendor boxes checked while seams went thick, eighty-three percent on a wall because fear had inertia and proof crawled late and weak at eight. Silence bought time for administrators. It cost couriers routes. It cost brothers photographs instead of arms.
 
@@ -300,7 +300,7 @@ Cai caught her at the crew access corridor.
 
 "Say it again anyway." Quiet. "For the log in your head."
 
-She looked at him—keeper, dot man, man who argued with administrators about seals. "Vesper's quiet is coordination failure. Marks are proof of work. Hum is habit, not proof. Budgets shed keepers when nobody looks."
+She looked at him—keeper on scaffold three, man who argued with administrators about seals. "Vesper's quiet is coordination failure. Logs are proof of work. Habit isn't proof. Budgets shed keepers when nobody looks."
 
 "Ugly sentence."
 
@@ -310,7 +310,7 @@ He nodded once. "Complementary jobs."
 
 "Different speeds."
 
-"Same slope." He handed her a folded strip—mark schedule for the approach corridor, keeper shorthand on the back. "In case Arin asks what you saw at First Gate."
+"Same slope." He handed her a folded strip—keeper schedule for the approach corridor, shorthand on the back. "In case Arin asks what you saw at First Gate."
 
 The strip smelled faintly of solvent and coffee. Keeper weather.
 
@@ -318,9 +318,9 @@ The strip smelled faintly of solvent and coffee. Keeper weather.
 
 "Tell him the truth." Cai clipped his harness for the afternoon climb. "Tell him you're still checking."
 
-"Fourteen marks?"
+"Three scaffold shifts?"
 
-"If traffic allows." Almost a smile. "Don't confuse hum with proof. You already know that. Say it again on the long route anyway. Repetition is how ecosystems survive."
+"If traffic allows." Almost a smile. "Don't confuse habit with proof. You already know that. Say it again on the long route anyway. Repetition is how ecosystems survive."
 
 ---
 
@@ -358,11 +358,11 @@ Arin messaged as she reached the berth—a single line, dry warmth, specific:
 
 She smiled despite the room, despite the percentages, despite nine days of fees still to eat.
 
-She typed back: *Weather at First Gate is hum in your teeth. I'm still coming the long way. Still checking.*
+She typed back: *Weather at First Gate is pressure in your knees. I'm still coming the long way. Still checking.*
 
 Send.
 
-The gate hummed in the deck plates under her boots—a frequency she'd carry now, not as proof, as weight.
+The gate carried vibration through the deck plates under her boots—a frequency she'd carry now, not as proof, as weight.
 
 She'd walked into the briefing wanting a villain because villains made brothers reachable. She walked out with slope and seals and page nine and no official word for Vesper.
 
@@ -372,7 +372,7 @@ She picked up her bag and went to catch the handoff.
 
 At the transit connection the clerk scanned her compass patch without commentary. Fees cleared—two of them, because long routes paid twice for the privilege of honesty. Manifest accepted. Nine days if the margins held.
 
-She'd reserved Orinreach when waiting stopped feeling responsible. Jun's model collapsing didn't open Vesper. Cai's fourteen marks didn't fund roster hours. Toma's slope didn't reverse budget strike-throughs. The reckoning bought clarity, not rescue.
+She'd reserved Orinreach when waiting stopped feeling responsible. Jun's model collapsing didn't open Vesper. Cai's zero catastrophes didn't fund roster hours. Toma's slope didn't reverse budget strike-throughs. The reckoning bought clarity, not rescue.
 
 The clerk stamped her manifest with the bored efficiency of someone who'd watched percentages climb all quarter and still had fees to collect.
 
@@ -394,19 +394,19 @@ The thread wall at the junction still said **EIGHTY-THREE PERCENT**.
 
 Lena didn't look long.
 
-She had a brother to reach, a hum to carry, and a grammar she'd learned too late to feel clever about.
+She had a brother to reach, a crossing to carry, and a vocabulary she'd learned too late to feel clever about.
 
 That was enough to move.
 
 She boarded.
 
-The shuttle cabin hummed—not gate hum, transit hum, ordinary machinery carrying people who'd stopped waiting for a corridor to explain their week.
+The shuttle cabin hummed—not gate crossing, transit hum, ordinary machinery carrying people who'd stopped waiting for a corridor to explain their week.
 
 A woman across the aisle watched the public thread on her slate. **SEPARATIST SABOTAGE — EIGHTY-THREE PERCENT**. The woman scrolled past Lena without seeing her. Percentages had inertia. People had manifests.
 
-Lena opened her queue one last time before departure. Arin's message sat answered. Jun's failure sat public. Cai's mark schedule sat folded in her inner sleeve next to Toma's slope on page nine.
+Lena opened her queue one last time before departure. Arin's message sat answered. Jun's failure sat public. Cai's keeper schedule sat folded in her inner sleeve next to Toma's slope on page nine.
 
-She watched First Gate shrink in the viewport until it was only light and maintenance and the memory of pressure in her teeth—and did not confuse the memory with proof.
+She watched First Gate shrink in the viewport until it was only light and maintenance and the memory of pressure in her knees—and did not confuse the memory with proof.
 
 Nine days to Orinreach if fees behaved.
 

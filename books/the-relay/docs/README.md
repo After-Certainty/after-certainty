@@ -10,7 +10,8 @@
 | **[character-bible.md](./character-bible.md)** | Cast, sees/misses, independent goals, Arin |
 | **[civilization-bible.md](./civilization-bible.md)** | Everyday life — worlds, travel, jobs, myths, wrong beliefs |
 | **[iconic-locations.md](./iconic-locations.md)** | Place bible — Ribbon culture, five anchors |
-| **[motifs.md](./motifs.md)** | Maintenance marks reader arc |
+| **[symbol-migration-plan.md](./symbol-migration-plan.md)** | Relay symbolic architecture (replaces maintenance-mark motifs) |
+| **[motifs.md](./motifs.md)** | Quick reference → migration plan |
 | **[voice-spec.md](./voice-spec.md)** | Prose, dialogue, implication craft |
 | **[synopsis.md](./synopsis.md)** | Living plot spine |
 | **[act-chapter-index.md](./act-chapter-index.md)** | Full novel chapter plan (~27) |

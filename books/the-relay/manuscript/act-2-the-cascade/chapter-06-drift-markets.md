@@ -72,23 +72,15 @@ He almost smiled. "Pilot's. Analyst's. Yours if you stand here asking."
 
 She took the module key—a strip, not a key—and walked arcade C with the pamphlets under her arm and the folder heavy on her hip. Her wristband pulsed once, a reminder that six hours was a countdown, not a room.
 
-Third module smelled like recycled air and someone else's spice tea. Small. Honest. A fold-down desk bolted to the wall. Through the narrow viewport, Drift stations crawled between each other like dice someone had thrown and forgotten to collect. A magnetic crawler slid past close enough that the module wall hummed—a low vibration in her teeth, freight moving at a scale that made her courier bag look like a purse.
+Third module smelled like recycled air and someone else's spice tea. Small. Honest. A fold-down desk bolted to the wall. Through the narrow viewport, Drift stations crawled between each other like dice someone had thrown and forgotten to collect. A magnetic crawler slid past close enough that the module wall vibrated—a low buzz in her teeth, freight moving at a scale that made her courier bag look like a purse.
 
 Lena spread the pamphlet beside Dael's scrap.
 
 The map was the same wrong border she'd filed at Northhook—the separatist jurisdiction line drawn clean through a corridor that belonged to nobody and everybody, the kind of lie that looked official because fear wanted a shape. On the pamphlet back, a fee table for "border-adjacent transit." On Dael's scrap, the same column under a different name. On the housing board, jurisdiction adjacency again—three faces of the same charge, dressed as geography, dressed as story, dressed as policy.
 
-She was still staring when she noticed the mark.
+The collision sat in her chest—not three clues, one scene. Wrong border on cheap paper raising fees on the board. Fees moving before any bulletin explained why. Housing checks continuing while the Markets sold fear by the hour.
 
-Housing module seam, access panel, the place where temporary became permanent if you didn't check it. Dot and stroke. Same grammar as Northhook's berth wall, as Arin's basin photo in her folder, as the dock housing she'd walked past without asking because asking cost time.
-
-Not graffiti. Not sabotage evidence. Someone saying *I was here* on a wall that wasn't screaming about separatists at all.
-
-The collision sat in her chest—not three clues, one scene. Wrong border on cheap paper raising fees on the board. Fees moving before any bulletin explained why. A mark on housing that said checking continued while the Markets sold fear by the hour.
-
-She photographed the seam. Added it to the folder she was trying not to treat like a religion.
-
-Her display chimed. Route query results—Orinreach around, eleven days, two fee tiers, Drift leg first. **COMMITTED** sat in her ledger like a dare. She couldn't go back to **TRACKING** at Northhook without eating the fees she'd already paid forward. She couldn't un-see the pamphlet border lining up with the housing surcharge. She couldn't make the mark mean sabotage no matter how loud the wall got.
+Her display chimed. Route query results—Orinreach around, eleven days, two fee tiers, Drift leg first. **COMMITTED** sat in her ledger like a dare. She couldn't go back to **TRACKING** at Northhook without eating the fees she'd already paid forward. She couldn't un-see the pamphlet border lining up with the housing surcharge.
 
 She opened messages.
 
@@ -96,9 +88,9 @@ Arin's last line still said *Travel safe.* Her outbound note still showed **DELI
 
 Through the viewport a family in the next module argued in whispers about whether to spend their last credits on a long-corridor quote or wait for Vesper. The mother wanted to wait. The father wanted to move. The child wanted breakfast. Lena had seen that argument in three ports this year with different faces and the same math—people trying to be responsible while the wall moved without asking permission.
 
-She wasn't family. She was a courier with **COMMITTED** in her ledger and a brother who sent photos of seams instead of voice notes. She made tea on the sad burner and burned her tongue because hot was faster than careful.
+She wasn't family. She was a courier with **COMMITTED** in her ledger and a brother who sent a compass stamp on wet catwalk instead of voice notes. She made tea on the sad burner and burned her tongue because hot was faster than careful.
 
-The module wall hummed when a crawler passed—magnetic freight moving mass she couldn't see, shaking temporary housing the way storms shook Orinreach mirrors. Arin would be on a ladder somewhere in that weather, knees bent, hands busy, choosing marks over arguments. She didn't know that for sure. She knew it the way you knew your own sibling: not from proof, from pattern.
+The module wall vibrated when a crawler passed—magnetic freight moving mass she couldn't see, shaking temporary housing the way storms shook Orinreach mirrors. Arin would be on a ladder somewhere in that weather, knees bent, hands busy, choosing work over arguments. She didn't know that for sure. She knew it the way you knew your own sibling: not from proof, from pattern.
 
 She pulled the blanket from the bunk and sat on the floor instead. Sometimes couriers slept horizontal. Sometimes they sat vertical until the numbers stopped swimming. Six hours on the wristband. Eleven days on the manifest. One brother on **WAIT**.
 
@@ -124,7 +116,7 @@ Maybe they were. The wall was certainly weighing them.
 
 Lena turned away before he turned toward her. She wasn't ready to be a dot on somebody's chart.
 
-A vendor sold corridor noodles from a cart that hummed. Lena ate standing up—courier habit—and listened.
+A vendor sold corridor noodles from a cart with a rattling warmer. Lena ate standing up—courier habit—and listened.
 
 "Sabotage?" a pilot asked.
 
@@ -134,7 +126,7 @@ The first pilot laughed like he'd heard something wise. Lena recognized Nadi's l
 
 She wiped her mouth, filed the noodle receipt with the others, and walked back to housing module C before her six hours expired.
 
-The mark on the seam hadn't moved. The pamphlet border still didn't match any map the Markets admitted to. The fee board at the arcade entrance had already ticked story tax up a point.
+The pamphlet border still didn't match any map the Markets admitted to. The fee board at the arcade entrance had already ticked story tax up a point.
 
 Outside the viewport, magnetic freight kept moving—containers she couldn't afford to ship alone, fields she depended on without understanding, the Drift's answer to distance that wasn't solved, only priced.
 
@@ -142,9 +134,9 @@ Lena unfolded the fold-down desk, opened the ledger, and wrote one line under **
 
 *Can't go back. Can't stand still cheap.*
 
-Somewhere behind her, Northhook kept humming. Somewhere ahead, Orinreach waited behind a gate that wouldn't speak and a brother who sent marks instead of answers.
+Somewhere behind her, Northhook kept moving. Somewhere ahead, Orinreach waited behind a gate that wouldn't speak and a brother who sent stamps instead of answers.
 
-She had a folder that wasn't on any wall. She had eleven days around if the fees didn't eat them first. She had a housing module that smelled like someone else's tea and a seam that someone had checked without asking the Markets' permission.
+She had a folder that wasn't on any wall. She had eleven days around if the fees didn't eat them first. She had a housing module that smelled like someone else's tea and a surcharge column that didn't need her name to find her.
 
 That would have to be orientation enough until the wall told her something she could afford to believe.
 
@@ -264,15 +256,15 @@ Under it she wrote the renewal numbers in her own hand—small, mean, precise:
 
 In module C she compared Dael's scrap to the board one more time—not because the numbers would change, because comparison was how couriers learned to distrust their own hope. Adjacency matched. Story tax matched. Around-leg projection worse than this morning.
 
-She opened Arin's photo again. Basin dusk. Mark on seam. His hands somewhere out of frame doing work that didn't publish on a thread wall.
+She opened Arin's photo again. Basin dusk. Compass stamp on wet catwalk. His hands somewhere out of frame doing work that didn't publish on a thread wall.
 
-*Following the mark,* she'd written at Northhook.
+*On my way,* she'd written at Northhook.
 
-The mark on her housing module rhymed with his—not proof of conspiracy, proof of attention. Someone checking while administrators practiced silence. Someone not waiting for Vesper to explain the week.
+The housing surcharge rhymed with his photo—not proof of conspiracy, proof of attention. Someone checking while administrators practiced silence. Someone not waiting for Vesper to explain the week.
 
 She couldn't tell that story at the auction bay. The bay wanted separatists because separatists fit on pamphlets.
 
-She closed the folder, killed the display, and listened to Drift hum through the module wall—freight fields, distant arguments, the ozone ghost of crossings she hadn't finished paying for.
+She closed the folder, killed the display, and listened to Drift through the module wall—freight fields, distant arguments, the ozone ghost of crossings she hadn't finished paying for.
 
 Committed meant you couldn't go back to tracking without eating what you'd paid forward.
 
@@ -288,10 +280,6 @@ Morning came with boarding bell and fried dough from the arcade vending wall.
 
 Lena walked the housing arcade one more time before the bay filled—not because she had credits to burn, because bodies remembered routes better than displays. The fee board had ticked overnight. Story tax again. Of course. The pamphlet runner at the mouth had fresh ink and the same wrong border. A magnetic crawler groaned past on the upper rail, shaking dust from the module seams.
 
-In corridor seven dock housing—not her module, the public seam she'd photographed on the walk in—someone had added a second mark beside the first. Steadier hand. Same grammar.
-
-She didn't photograph it yet. She had enough marks in the folder to prove checking continued. She needed a pilot decision more than she needed a third photo.
-
 At the auction bay lip the border believer from last night argued with a different pilot—same pamphlet, same conviction, same tired pilot laugh. Lena bought corridor noodles and listened without joining.
 
 "Prudence," the believer said.
@@ -300,7 +288,7 @@ At the auction bay lip the border believer from last night argued with a differe
 
 "Adjacency," the clerk at the next window said to nobody, and stamped a wristband.
 
-Collision before breakfast: wrong border on the runner's crate, adjacency on the clerk's screen, mark on housing down the arcade, Vesper **WAIT** on the wall between grain and divorce.
+Collision before breakfast: wrong border on the runner's crate, adjacency on the clerk's screen, Vesper **WAIT** on the wall between grain and divorce.
 
 Lena wiped her mouth, checked **COMMITTED** in her ledger, and walked toward the field office rumor Jun had left at Nadi's lips.
 

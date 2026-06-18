@@ -26,7 +26,7 @@ Lena watched a clerk stamp **ORAL — PRIORITY NONE** on a slate case while the 
 
 Her own arrival paperwork was simpler—courier berth, provisional research access, a query number she'd opened herself six days before Cai's forwarded chain ever reached her message stack.
 
-On the Drift wall, after **DELIVERED** stopped being a promise, she'd pulled thread archives until her eyes burned: Vesper suspension bulletins, junction fee histories, maintenance mark photographs from fringe corridors Nadi's crew didn't comment on. She'd flagged three roster gaps in public keeper coordination feeds—names thinning on relay guild lists while vendor contract language thickened. Nobody answered. Everybody mirrored.
+On the Drift wall, after **DELIVERED** stopped being a promise, she'd pulled thread archives until her eyes burned: Vesper suspension bulletins, junction fee histories, housing check photographs from fringe corridors Nadi's crew didn't comment on. She'd flagged three roster gaps in public keeper coordination feeds—names thinning on relay guild lists while vendor contract language thickened. Nobody answered. Everybody mirrored.
 
 She'd drafted her own query on a night when the Markets wall made **SEPARATIST SABOTAGE** feel like the only story with teeth:
 
@@ -208,7 +208,7 @@ She pulled her own query trail instead—the six-day-old roster search, the mark
 
 *Historical rosters may show names we've stopped paying.*
 
-Below that, a mark photograph: dot and stroke on a housing seal, fresh enough to gleam.
+Below that, a junction handoff photograph: watch lamp burning on a housing lip, fresh enough to gleam.
 
 She'd seen marks on the Ribbon. On Drift dock housing. On fringe corridor panels.
 

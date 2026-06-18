@@ -72,7 +72,7 @@ She minded Jun thinking description was early.
 
 ---
 
-Dock clamp four before lift: the mark waited—dot, stroke, steadier hand than last week. Nadi touched it once without photographing. Trust when habits repeated. The foreman stamped her manifest. Separatist podcast noise leaked from a kiosk—*definitely, definitely*—and she muted it with her thumb. The lie was already priced into fringe. She didn't need the soundtrack.
+Dock clamp four before lift: someone had checked the housing—Nadi ran her fingers along the clamp housing, felt the fresh torque seal, nodded once. Plot work, not spectacle. The foreman stamped her manifest. Separatist podcast noise leaked from a kiosk—*definitely, definitely*—and she muted it with her thumb. The lie was already priced into fringe. She didn't need the soundtrack.
 
 She lifted on schedule because schedule was a fiction you enforced with thrust.
 
@@ -96,7 +96,7 @@ BRICK: *Premium client lawyers watching tracking.*
 
 Respect ping. Fringe entry approaching. Loneliness ahead, billable if misread.
 
-Ground truth in a cockpit: pressure without catastrophe. Reroutes without explosions. Marks on dock clamps from hands steadier than hers.
+Ground truth in a cockpit: pressure without catastrophe. Reroutes without explosions. Checked clamps on dock housing from hands steadier than hers.
 
 Not sabotage-shaped. Neglect-shaped. Hurry-shaped. The shape of a civilization forgetting to notice until noticing cost more than fees.
 
@@ -118,7 +118,7 @@ BRICK pinged: *You alive?*
 
 *Separatists blew intake housing.*
 
-**Intake housing has marks**, Nadi sent. **Dot stroke. Steadier hand than mine.**
+**Intake housing got checked**, Nadi sent. **Clamp seal fresh. Steadier hand than mine.**
 
 *You think keepers did it?*
 
@@ -138,7 +138,7 @@ That ended the theology. BRICK sent respect instead of argument.
 
 She almost smiled. Almost.
 
-Nadi kept one hand on fuel and one on the comms. Echo came back wrong—a half-second delay that shouldn't exist in a throat this short. Silence lasted a beat too long between her ping and the corridor's answer. The adjacency sensor held green and wrong green in the same breath, the kind of reading keepers marked and fee clerks ignored.
+Nadi kept one hand on fuel and one on the comms. Echo came back wrong—a half-second delay that shouldn't exist in a throat this short. Silence lasted a beat too long between her ping and the corridor's answer. The adjacency sensor held green and wrong green in the same breath, the kind of reading keepers logged and fee clerks ignored.
 
 She ran the numbers she trusted: fuel burn acceptable, margin holding, premium on the other side if she didn't chicken out. Fringe wasn't heroism. It was a fee schedule with loneliness attached and a gauge that told the truth its bulletin didn't.
 
@@ -154,7 +154,7 @@ BRICK tried theology again at the worst moment: *My cousin says Vesper intake.*
 
 *Marks on intake aren't memos.*
 
-**Marks are checking. Gauge is green. I'm flying.**
+**Checked clamps are checking. Gauge is green. I'm flying.**
 
 Respect ping. Silence. Then: *You're noting this for Lena?*
 
@@ -172,7 +172,7 @@ Halfway through, the adjacency sensor flickered.
 
 Green. Wrong green. The kind of reading that meant pressure not catastrophe—the gauge telling the truth its fee clerks didn't want filed. Nadi didn't panic. Panic burned fuel.
 
-She slowed. Logged coordinates. Photographed the console with her glove edge in frame—the habit of someone who'd learned archives outlived bulletins. Sent the packet to her private map with dock clamp photos from last week: dot, stroke, third hand steadiest yet.
+She slowed. Logged coordinates. Photographed the console with her glove edge in frame—the habit of someone who'd learned archives outlived bulletins. Sent the packet to her private map with dock clamp photos from last week: fresh seals, third check steadiest yet.
 
 BRICK again: *Reading?*
 
@@ -204,7 +204,7 @@ Silence. Then respect.
 
 The mesh leaned around her. Not broken—Nadi would have known broken, broken had a taste like metal and alarm tones and claim forms. This was stress: centuries of gate network asked to carry reroute density while Vesper stayed **wait** and administrators practiced words that didn't cost admission. From the cockpit it felt like flying inside someone's deferred maintenance budget.
 
-She noted pressure ticks the way keepers left marks—coordinates, time, glove edge in frame—not for Jun, for the next pilot who might chicken out. Ground truth was pilot dialect: flicker, echo, fee spike, clamp mark, fringe **viable**, long corridor **emergency only**.
+She noted pressure ticks the way keepers logged checks—coordinates, time, glove edge in frame—not for Jun, for the next pilot who might chicken out. Ground truth was pilot dialect: flicker, echo, fee spike, clamp seal, fringe **viable**, long corridor **emergency only**.
 
 She flew on margins she'd earned in silence.
 
@@ -226,7 +226,7 @@ Stress without break. That was the altitude lesson: from a cockpit you didn't se
 
 Nadi flew.
 
-The flicker came again—same wrong green, same half-second lie. She noted it, photographed the console, added coordinates to her private archive beside dock clamp photos: dot, stroke, steadier hands than hers. Not theory. Habit. Ground truth pilots sold to each other when walls sold fear.
+The flicker came again—same wrong green, same half-second lie. She noted it, photographed the console, added coordinates to her private archive beside dock clamp photos from last week. Not theory. Habit. Ground truth pilots sold to each other when walls sold fear.
 
 *Still alive?* BRICK.
 
@@ -272,7 +272,7 @@ She filed fringe as **viable**, long corridor as **emergency only**, Vesper as *
 
 Business decision, not heroism.
 
-Commit to route knowledge—her knowledge, earned in silence and flicker and dock marks—not Jun's chart, not separatist pamphlets, not BRICK's cousin's Tuesday.
+Commit to route knowledge—her knowledge, earned in silence and flicker and dock checks—not Jun's chart, not separatist pamphlets, not BRICK's cousin's Tuesday.
 
 The wall at the auction bay showed reroute density up twenty-four percent. Someone had stopped lying about eighteen. Story tax on housing ticked higher. Wrong-border pamphlets still two for one.
 
@@ -280,13 +280,9 @@ At dock clamp four the fee board had jumped four points since lift—fringe prem
 
 A courier with a compass patch crossed the far bay—committed face, folder weight—but Nadi had already filed **viable** and wasn't in the rescue business. Lena didn't look up. Pilots and couriers shared routes, not brothers.
 
-Fresh mark on her clamp beside the others. Same grammar. Steadier hand. Dot. Stroke. A fourth tick added overnight by someone who checked while the wall screamed.
+Fresh torque seal on her clamp. Someone had checked while she flew.
 
-Collision at the dock: fee spike on the public board, separatist noise on comms, mark on metal that said checking continued while analysts published confidence.
-
-Nadi touched the mark and didn't photograph it.
-
-Trust when habits repeated.
+Collision at the dock: fee spike on the public board, separatist noise on comms, checking continuing on metal while analysts published confidence.
 
 ---
 
@@ -306,9 +302,7 @@ Jun's **0.78** on the ribbon — ignored.
 
 Lena's silence — courier weather.
 
-At dock clamp four the mark had waited through both returns—dot, stroke, fourth tick fresh from a hand steadier than fear. Fee board beside it up four points. Pamphlet kiosk still two for one. Collision without theory: money moving, lies selling, checking continuing on metal nobody photographed because habit was enough.
-
-Nadi touched the mark and didn't photograph it.
+At dock clamp four the housing had been checked through both returns—fresh seal, steady work, someone who checked while the wall screamed. Fee board beside it up four points. Pamphlet kiosk still two for one. Collision without theory: money moving, lies selling, checking continuing on metal nobody photographed because habit was enough.
 
 ---
 
@@ -324,7 +318,7 @@ Fees first: fringe moved before narrative.
 
 Narrative lead time: Jun's chart, separatist podcasts, BRICK's cousin's roommate's memo.
 
-Ground truth: stressed network, marks on clamps, green readings that lied politely, fees that told the truth early.
+Ground truth: stressed network, checked clamps, green readings that lied politely, fees that told the truth early.
 
 She messaged Lena again because business was business.
 
@@ -378,7 +372,7 @@ BRICK pinged mid-entry: *Separatists definitely.*
 
 Quiet cockpit. Coffee gone cold. Pressure tick on the gauge—honest twitch, no alarm. The mesh leaned. Vesper silent in the lattice somewhere. Gate network stressed not broken. She could live with stressed. Broken didn't pay.
 
-Halfway through, the sensor flickered again—the same wrong green, the same neglect-shaped pressure. She noted it, added it to the archive beside morning's entry and dock marks from last week. Three flickers in one day if you counted the dock clamp reading before lift. Pattern without theory. Ground truth without Jun's decimals.
+Halfway through, the sensor flickered again—the same wrong green, the same neglect-shaped pressure. She noted it, added it to the archive beside morning's entry and dock clamp readings from last week. Three flickers in one day if you counted the dock clamp reading before lift. Pattern without theory. Ground truth without Jun's decimals.
 
 *Alive?*
 
@@ -396,7 +390,7 @@ The corridor narrowed until *Quick Margin* felt like a needle threading old clot
 
 **Comfort's not in the contract.**
 
-Pressure ticked again—honest, green, wrong. Not sabotage-shaped. Neglect-shaped. The shape of intake housing that had marks on it from steadier hands than BRICK's cousin's memos. The shape of a network administrators called *wait state* because *we forgot to fund checking* didn't fit on a bulletin.
+Pressure ticked again—honest, green, wrong. Not sabotage-shaped. Neglect-shaped. The shape of intake housing that had fresh clamp seals from steadier hands than BRICK's cousin's memos. The shape of a network administrators called *wait state* because *we forgot to fund checking* didn't fit on a bulletin.
 
 She thought about Jun on the public lip describing weather already raining. She thought about dock clamp four and the fee spike that followed her first crossing—proof priced before narrative. She thought about Lena with a compass patch and a folder and eleven days she couldn't see from altitude.
 
@@ -450,9 +444,9 @@ The foreman found her at the map with grease still on her fingers. "Fringe again
 
 He shook his head—the fond annoyance of ground crew who'd stopped trying to save pilots from themselves. "Jun's at seventy-eight on the ribbon."
 
-"Jun's late. Wall's early." Nadi tapped her private archive—flicker coordinates, wrong-green photos, dock marks with a fourth tick. "Ground truth. Hire margin or eat long corridor. Certainty not included."
+"Jun's late. Wall's early." Nadi tapped her private archive—flicker coordinates, wrong-green photos, dock clamp readings. "Ground truth. Hire margin or eat long corridor. Certainty not included."
 
-She touched the clamp mark without photographing it.
+She checked the clamp seal with her thumb and moved on.
 
 Adjusted course for tomorrow's contract.
 
@@ -476,13 +470,13 @@ Morning flicker: coordinates, console photo, wrong green.
 
 Afternoon flicker: same throat, same lie, noted twice.
 
-Dock clamp photos: dot, stroke, fourth tick added while she flew.
+Dock clamp photos: fresh seals added while she flew.
 
 BRICK's separatist theology: priced, ignored.
 
 Fee board spike: four points on fringe premium, story tax on housing, reroute density twenty-four percent and climbing.
 
-She drew a line from flicker to flicker to mark to fee spike without calling it theory. Pilots didn't need theory. They needed the next pilot to pay more for what she'd proved—or to chicken out and prove it again tomorrow.
+She drew a line from flicker to flicker to clamp check to fee spike without calling it theory. Pilots didn't need theory. They needed the next pilot to pay more for what she'd proved—or to chicken out and prove it again tomorrow.
 
 Long corridor stayed **emergency only**. Not heroism. Business. Eleven days and two fee tiers was courier suicide at current story tax. Fringe was loneliness priced below bankruptcy. Vesper was **wait** until admins found a word that didn't cost admission.
 
@@ -492,7 +486,7 @@ Lena didn't reply.
 
 Nadi didn't take it personally.
 
-Couriers committed around on family and folders and foolish ledger words. Pilots committed to fuel gauges and archive notes and dock marks steadier than fear.
+Couriers committed around on family and folders and foolish ledger words. Pilots committed to fuel gauges and archive notes and checked clamps steadier than fear.
 
 Tomorrow she'd lift again if the contract paid.
 
@@ -514,7 +508,7 @@ That was ground truth enough to fly on.
 
 Dawn brought the wall again—reroute density up, fringe premium holding, long corridor emergency math worse than yesterday. Nadi drank coffee that tasted like berth burn and watched a separatist runner update pamphlet ink before Jun updated his chart.
 
-She stood at clamp four with the public board reflected in the hull and read the collision one more time: fringe fee up four points since yesterday, separatist kiosk selling definitely, fresh mark on metal with a fourth tick—dot, stroke, steadier hand. Jun would publish. BRICK would text. Vesper would stay **wait**. The network would stay stressed not broken until someone funded checking or admins found a cheaper word.
+She stood at clamp four with the public board reflected in the hull and read the collision one more time: fringe fee up four points since yesterday, separatist kiosk selling definitely, fresh clamp seal on housing checked overnight. Jun would publish. BRICK would text. Vesper would stay **wait**. The network would stay stressed not broken until someone funded checking or admins found a cheaper word.
 
 Business.
 

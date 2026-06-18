@@ -30,7 +30,7 @@ Veya set down her stylus. "Most people do before they read page one. Congratulat
 
 "I need a historian."
 
-"You need a mirror. Historians are mirrors with citations." Veya gestured to the reading niche—two stools, one lamp, a wall of phoneme charts that looked like maintenance marks if you squinted without context. "Sit. Tell me the story fear gave you."
+"You need a mirror. Historians are mirrors with citations." Veya gestured to the reading niche—two stools, one lamp, a wall of phoneme charts that looked like roster ticks if you squinted without context. "Sit. Tell me the story fear gave you."
 
 Lena sat. "Coordinated thinning. Capacity removed before gates failed. Jun calls it cluster integrity."
 
@@ -240,7 +240,7 @@ Lena did not leave converted. Conversion was Jun's grammar, not hers.
 
 She left unsettled—the specific texture of a mind that had built a corridor wide enough for sabotage and felt the walls move without becoming smaller.
 
-In the stacks corridor she passed a display of dead languages—phoneme charts like maintenance marks, if you squinted wrong. A label read: **VERB FORMS PRESERVED AFTER NOUN LOSS — RELAY DIALECT 3**.
+In the stacks corridor she passed a display of dead languages—phoneme charts like old roster lines, if you squinted wrong. A label read: **VERB FORMS PRESERVED AFTER NOUN LOSS — RELAY DIALECT 3**.
 
 The verb chart listed forms for *check*, *wait*, *notice*, *forget*.
 
@@ -280,7 +280,7 @@ They felt different—less like footsteps in a corridor at night, more like sand
 
 She opened Toma's page twelve: *Assume habit. Habits are harder to fight and easier to document.*
 
-She opened Cai's mark photograph: dot and stroke.
+She opened Cai's junction photograph: watch lamp burning on approach housing.
 
 She opened Arin's last delivered message—storms, tourists, mirrors—and could not tell if she was angry at him for being ordinary or grateful.
 

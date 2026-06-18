@@ -2,7 +2,7 @@
 
 Lena had sent the message honest.
 
-*Leaving the Ribbon tomorrow. Drift first, then around. Your mark is in my folder. I'm following it.*
+*Leaving the Ribbon tomorrow. Drift first, then around. Your compass stamp is in my folder. I'm following you.*
 
 **DELIVERED TO ORINREACH BASIN** had held for days like a fact you could stand on. Then the queue hiccuped—status flicker, jurisdiction note, **ROUTING DELAY — ORINREACH ROUTE — ADMINISTRATIVE**—and when it stabilized the line read **DELIVERED** again without promising **READ**.
 
@@ -12,7 +12,7 @@ Courier protocol was built for weather, not for silence that broke rules.
 
 She stood at the Markets wall at departure hour and watched messages fail the way gates failed—without explanation, without apology, with a fee attached to your need to know.
 
-The queue on her display had become a weather report she checked too often: **DELIVERED TO ORINREACH BASIN**, no **READ**, routing delay flickering in smaller font like an asterisk administrators hoped couriers wouldn't learn to read. She'd sent the honest note. Arin had sent a mark, then a glove, then nothing that counted as answer. The system insisted delivery had succeeded. Her body insisted otherwise—tight jaw, bag heavier than its weight, the particular fatigue of waiting in a habitat that charged for standing still.
+The queue on her display had become a weather report she checked too often: **DELIVERED TO ORINREACH BASIN**, no **READ**, routing delay flickering in smaller font like an asterisk administrators hoped couriers wouldn't learn to read. She'd sent the honest note. Arin had sent a photo of her old compass stamp on wet catwalk metal, then nothing that counted as answer. The system insisted delivery had succeeded. Her body insisted otherwise—tight jaw, bag heavier than its weight, the particular fatigue of waiting in a habitat that charged for standing still.
 
 ---
 
@@ -52,7 +52,7 @@ A clerk at the courier desk slid her packet back with the expression of someone 
 
 He looked at her compass patch and softened a fraction. "Then go around and knock on his housing. Messages are cheap. Showing up is expensive. You're already expensive."
 
-Her outbound note glowed in the queue beside his screen—honest words, basin tag, delivery readout that wouldn't commit to **READ**. The diagram's blank box felt like accusation: Arin had the packet somewhere in basin jurisdiction and chose glove over paragraph.
+Her outbound note glowed in the queue beside his screen—honest words, basin tag, delivery readout that wouldn't commit to **READ**. The diagram's blank box felt like accusation: Arin had the packet somewhere in basin jurisdiction and chose image over paragraph.
 
 Priority retry pulsed optional in yellow. Retry cost more than Dael's scrap predicted. Story tax had climbed again overnight. Wrong-border pamphlets sold at the wall behind her with updated borders still wrong.
 
@@ -88,7 +88,7 @@ She deleted the brief from her feed and kept the number in her head anyway. **0.
 
 The courier desk glass reflected her queue and Jun's headline side by side—**DELIVERED** without **READ**, confidence with a chin. Measurement beside failure. She wanted to smash the display and knew smashing would only charge her story tax.
 
-A woman behind her argued about basin relay jurisdiction with the second clerk—mirror guild theater, crew queue blame, the same diagram Lena had seen with its blank personal box. Couriers lived in the blank spot on the diagram. Analysts lived in decimals. Administrators lived in *administrative*. Arin lived on a catwalk sending gloves.
+A woman behind her argued about basin relay jurisdiction with the second clerk—mirror guild theater, crew queue blame, the same diagram Lena had seen with its blank personal box. Couriers lived in the blank spot on the diagram. Analysts lived in decimals. Administrators lived in *administrative*. Arin lived on a catwalk sending pictures when words cost too much.
 
 Lena stepped away before sympathy ran out completely.
 
@@ -102,19 +102,19 @@ A pilot argued about separatists. Another said fuel gauge. Nadi's line, still pa
 
 Lena didn't join.
 
-She stood at the housing arcade mouth instead and watched the board climb—story tax, jurisdiction adjacency, six-hour blocks shrinking. Her module seam still carried the mark. Someone had added a fourth stroke beside the dot—not grammar she knew, not vandalism, a conversation in hands she couldn't read. A maintenance worker on a ladder two modules down nodded at the same grammar on a different seam and added a tick without looking at the wall percentages.
+She stood at the housing arcade mouth instead and watched the board climb—story tax, jurisdiction adjacency, six-hour blocks shrinking. At the junction lip below the arcade, the running light that should have marked the courier handoff was dark again—second shift, same failure, nobody on the rail admitting the watch hadn't passed.
 
 Checking continuing while the Markets sold fear by the hour.
 
-Marks. Fees. Wrong border on pamphlets at the lip.
+Fees. Wrong border on pamphlets at the lip.
 
-Three tracks. One weather. No new answers. Only collision until something broke.
+Two tracks. One weather. No new answers. Only collision until something broke.
 
 She paid for six hours housing again because the fold-down desk was where paper didn't flicker and bodies needed somewhere to be tired.
 
 At the fold-down desk she opened the folder.
 
-Arin's basin photo—mark on housing, dusk, no words.
+Arin's basin photo—compass stamp on wet catwalk, dusk, no words.
 
 Wrong-border map—separatist line through a corridor that belonged to nobody.
 
@@ -140,7 +140,7 @@ She could flip one word back.
 
 She could wait for Vesper to reopen Tuesday until Tuesday became never.
 
-She could track from Markets the way she'd tracked from Northhook—folder thickening, ledger responsible, brother on a ladder sending marks instead of answers.
+She could track from Markets the way she'd tracked from Northhook—folder thickening, ledger responsible, brother on a catwalk sending pictures instead of answers.
 
 She didn't flip the word.
 
@@ -164,11 +164,11 @@ Arin pinged once in the afternoon—not words.
 
 A photo.
 
-Basin catwalk. Storm light. Wet metal. His glove edge in frame holding a compass stamp she'd sent as a teenager.
+Basin catwalk. Storm light. Wet metal. Her teenage compass stamp in frame—the one she'd sent him years ago, edges worn from his pocket.
 
 No caption.
 
-No *travel safe*. No *don't come on my account*. No resting, no weather joke, no explanation of marks.
+No *travel safe*. No *don't come on my account*. No resting, no weather joke—just the stay-leg answer in image form: I'm here. You're moving. I haven't opened your words.
 
 Relationship as image—sibling shorthand, person not puzzle box, pushing back without lecturing.
 
@@ -182,11 +182,11 @@ Delivered flickered. Routing delay. Administrative.
 
 No opened flag. No argument.
 
-The queue mocked her—**DELIVERED** bold, **READ** absent, routing delay pulsing like a heartbeat that wasn't hers. She wanted to call Arin a coward and knew it was unfair. He'd sent a glove. He'd sent a mark. He was doing mirror work in storm season while Vesper sulked and Jun published confidence. Silence wasn't cruelty. It was also not comfort.
+The queue mocked her—**DELIVERED** bold, **READ** absent, routing delay pulsing like a heartbeat that wasn't hers. She wanted to call Arin a coward and knew it was unfair. He'd sent the stamp back. He was doing mirror work in storm season while Vesper sulked and Jun published confidence. Silence wasn't cruelty. It was also not comfort.
 
 She walked the auction bay at dusk because movement was cheaper than module walls and because departure hour wasn't finished—it was only shifting from families to freight to pilots who swore at honest boards with professional fluency.
 
-*Quick Margin* listed fringe viable on the roster. Long corridor fees adjusted upward again. Wrong-border pamphlets at the lip. Story tax on housing. Mark on her module seam visible even from the bay mouth—fourth stroke, conversation in hands.
+*Quick Margin* listed fringe viable on the roster. Long corridor fees adjusted upward again. Wrong-border pamphlets at the lip. Story tax on housing. The junction lamp still dark at the arcade mouth.
 
 Collision in passing whether she stopped or not.
 
@@ -196,7 +196,7 @@ At the wall again at dusk she watched departures the way she'd watched Lake Orin
 
 Families said goodbye to freight. Pilots swore at honest boards. A child slept on a manifest case.
 
-Lena stood with her bag and her folder and her ledger that said **COMMITTED** and felt isolation settle—not dramatic, operational. The alone that came from paying distance premiums while confidence climbed on a public brief and marks appeared on housing seams without bulletins to explain them. Her body ached in the ordinary places: feet, shoulders, jaw.
+Lena stood with her bag and her folder and her ledger that said **COMMITTED** and felt isolation settle—not dramatic, operational. The alone that came from paying distance premiums while confidence climbed on a public brief and Arin stayed silent behind basin weather. Her body ached in the ordinary places: feet, shoulders, jaw.
 
 She wasn't the only one waiting on silence. She was the only one waiting on Arin.
 
@@ -212,9 +212,9 @@ She didn't open the folder again.
 
 ---
 
-In module C, the seam mark caught corridor light—dot, stroke, other hands continuing the grammar.
+In module C, corridor light from the arcade leaked under the door—commerce glow, not the junction watch she'd seen fail twice.
 
-Lena lay on the narrow bunk and listened to Drift hum—the Markets' version of Northhook's berth noise, commerce instead of lake, fees instead of percentages, same lesson in a different dialect. Six hours purchased. Story tax embedded. Jurisdiction adjacency waiting on basin approach like a bruise she could schedule but not avoid.
+Lena lay on the narrow bunk and listened to Drift move around her—the Markets' version of Northhook's berth noise, fees instead of percentages, same lesson in a different dialect. Six hours purchased. Story tax embedded. Jurisdiction adjacency waiting on basin approach like a bruise she could schedule but not avoid.
 
 *Still coming,* she'd written.
 
@@ -224,7 +224,7 @@ That didn't mean Orinreach would answer.
 
 That didn't mean Jun's cluster would break before it won.
 
-That didn't mean wrong borders would stop moving surcharges or marks would explain Vesper or messages would stop failing at jurisdiction lines.
+That didn't mean wrong borders would stop moving surcharges or messages would stop failing at jurisdiction lines.
 
 It meant she had eleven days around if fees didn't eat them first.
 
@@ -242,7 +242,7 @@ Tomorrow the wall would update without asking.
 
 Tomorrow she'd move or pay for standing still.
 
-Tonight she had anger clean enough to use and a brother's glove on wet metal and a queue that insisted delivery had succeeded while her chest insisted otherwise.
+Tonight she had anger clean enough to use and her old compass stamp on wet metal in her queue and a brother who stayed while she moved.
 
 ---
 
@@ -258,15 +258,13 @@ Morning didn't fix the queue.
 
 Lena didn't pay for priority retry. She paid for six hours housing and a noodle breakfast and stood at the wall at departure hour where collisions kept happening whether she watched or not.
 
-Departure hour again—the light field, braided throats, bodies pressed shoulder to shoulder. Pamphlet runner shouting borders. Fee board ticking. Mark on housing seam visible from the arcade mouth, fourth stroke added overnight by a hand steadier than hers. A pilot argued separatists. Another said fuel gauge. Nadi's line, still passing hand to hand.
+Departure hour again—the light field, braided throats, bodies pressed shoulder to shoulder. Pamphlet runner shouting borders. Fee board ticking. Junction lamp still dark at the arcade lip. A pilot argued separatists. Another said fuel gauge. Nadi's line, still passing hand to hand.
 
-Jun's brief at **0.79** on a kiosk she didn't touch. Nadi's fringe **viable** on the board beside long corridor **emergency only**. Arin silent except one glove on wet metal.
+Jun's brief at **0.79** on a kiosk she didn't touch. Nadi's fringe **viable** on the board beside long corridor **emergency only**. Arin silent except one stamp on wet metal.
 
 She opened the folder once more—not to add tracks, to confirm she wasn't inventing weather.
 
 Wrong border still wrong.
-
-Marks still grammar, not graffiti.
 
 Fees still moving before bulletins.
 
@@ -284,7 +282,7 @@ No new photo.
 
 Committed still committed.
 
-She walked toward the long-corridor booking corridor with the folder on her hip and the queue still mocking her—**DELIVERED**, no **READ**—and passed a maintenance worker adding a fifth tick to a housing seam while a pamphlet runner shouted updated borders that were still wrong.
+She walked toward the long-corridor booking corridor with the folder on her hip and the queue still mocking her—**DELIVERED**, no **READ**—and passed a pamphlet runner shouting updated borders that were still wrong.
 
 Standing still had become the most expensive thing on the board.
 
@@ -324,7 +322,7 @@ The ghost of the careful choice. Then **COMMITTED**, ugly and official, the word
 
 "Confirm?" the clerk asked.
 
-Lena thought of Arin's glove on wet metal. Sera's empty chair. Jun's **0.79**. Nadi's **certainty not included**. Dael's scrap worn soft in the pouch.
+Lena thought of Arin's stamp on wet metal. Sera's empty chair. Jun's **0.79**. Nadi's **certainty not included**. Dael's scrap worn soft in the pouch.
 
 "Confirm," she said.
 
@@ -338,7 +336,7 @@ She took the strip and walked toward the boarding corridor without looking back 
 
 On the boarding corridor lip she paused once—not to doubt **COMMITTED**, to feel the cost in her chest where Jun's chart couldn't reach.
 
-Arin had sent a glove, not words.
+Arin had sent a picture, not words.
 
 Sera had sent fee advice, not hurry.
 
@@ -348,7 +346,7 @@ Dael had sent scrap paper honest enough to hurt.
 
 The folder wasn't ground truth. It was what she carried while ground truth stayed silent.
 
-She thought about Northhook—the berth hummed, the fold-down desk, cold tea, the moment she'd changed one word while a clerk watched without talking her out of it. **RESERVED — TRACKING** had been the careful choice. **COMMITTED** was the word for people who'd run out of careful.
+She thought about Northhook—the fold-down desk, cold tea, the moment she'd changed one word while a clerk watched without talking her out of it. **RESERVED — TRACKING** had been the careful choice. **COMMITTED** was the word for people who'd run out of careful.
 
 She didn't regret the word.
 

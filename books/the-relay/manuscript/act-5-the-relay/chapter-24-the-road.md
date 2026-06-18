@@ -12,7 +12,7 @@ Sera had learned not to call it grief until someone else did.
 
 The Road into Bracket Turn curved through a spur where fog still lived in the maps as a joke and in the body as a tax. Sera had missed the turn twice in her first pilgrim year—not lost, merely oriented wrong, which on the Road was sometimes the same thing. Today the fog was memory more than weather. The spur opened into Bracket Turn's dome with the sigh of a station that had been holding its breath since Vesper went quiet and had not yet decided whether partial reopen counted as exhale.
 
-Inside, the commons smelled like lentil and cable grease and the particular recycled air of a place that couldn't afford to waste warmth. A child drew on a slate near the empty chair with the jacket hung on it—not playing, practicing. An adult watched from three meters pretending not to. Sera noted both. Stories started in bodies before they started in journals.
+Inside, the commons smelled like lentil and cable grease and the particular recycled air of a place that couldn't afford to waste warmth. A child traced housing seams on a slate near the empty chair with the jacket hung on it—not playing, practicing. An adult watched from three meters pretending not to. Sera noted both. Stories started in bodies before they started in journals.
 
 ---
 
@@ -30,7 +30,7 @@ The elder blinked. "Henn's apprentice taught us that question."
 
 "Pell?"
 
-"Pell taught us by message. We're slower than Two Valleys." The elder sounded annoyed at geography, not at Pell. "We have a child who draws marks on slates. We have adults who think marks are for children. We have a roster with a blank line where a name should be."
+"Pell taught us by message. We're slower than Two Valleys." The elder sounded annoyed at geography, not at Pell. "We have a child who can find the turn in fog. We have adults who think fog is for children. We have a roster with a blank line where a name should be."
 
 Sera set the bowl down. "Show me the junction."
 
@@ -40,35 +40,39 @@ The elder paused at the commons threshold. "You'll want the story straight. Chec
 
 The elder snorted—approval, maybe. "Henn's apprentice would like you."
 
-The elder walked her through a commons where adults pretended not to watch the public thread and children drew on slates with the seriousness of people learning a craft before they knew it was work. Bracket Turn smelled like recycled air and honest cable grease. Sera listened to Vesper updates the way you listened to weather through a window—present, not center.
+The elder walked her through a commons where adults pretended not to watch the public thread and children traced housing seams on slates with the seriousness of people learning a craft before they knew it was work. Bracket Turn smelled like recycled air and honest cable grease. Sera listened to Vesper updates the way you listened to weather through a window—present, not center.
 
 ---
 
 The junction housing sat where Bracket Turn's dome curved toward the dock tunnel—honest metal, honest cables, a panel scarred from decades of hands that had opened it without ceremony.
 
+At the housing lip, a watch lamp burned amber—the junction handoff light that was supposed to pass from checker to checker. Today it had no steady hand. The checker had left for Meridian.
+
 A girl about ten stood on a crate beside it, slate in hand, tongue out in concentration.
 
-"That's Mira," the elder said. "Her grandmother checked junctions before Henn was born. Mira thinks she's inheriting a spell."
+"That's Mira," the elder said. "Her grandmother checked junctions before Henn was born. Mira thinks the lamp is a spell."
 
 "Mira's inheriting a job," Sera said. "Spells don't need rosters."
 
-Mira looked up. "It's dot and stroke. Pell sent a picture."
+Fog still lived in the spur maps as a joke and in the body as a tax. Sera had missed Bracket Turn twice in her first pilgrim year—not lost, merely oriented wrong, which on the Road was sometimes the same thing.
+
+Mira looked up. "Grandmother said match the housing, not the mirror. Pell sent a picture of the seam."
 
 "Show me."
 
-The girl held up the slate. The mark was wrong—stroke too long, dot too high—but the grammar was recognizable. Someone was here. Someone else should look.
+The girl held up the slate—a sketch of the housing bracket where the lamp caught light differently than the panel beside it, the seam drawn twice because the fog doubled everything.
 
 "Who taught you?" Sera asked.
 
-"Mira taught me," said a boy from the commons doorway, younger, arms crossed like a critic. "She said if I got it wrong the junction would lie."
+"Mira taught me," said a boy from the commons doorway, younger, arms crossed like a critic. "She said if you trust the reflection you miss the turn twice."
 
-"The junction doesn't lie," Sera said. "People lie about whether they checked."
+"The turn doesn't lie," Sera said. "People lie about whether they looked."
 
-The boy uncrossed his arms. "Then I want to do it right."
+The boy uncrossed his arms. "Then I want to look right."
 
 Sera looked at the elder. "There. Before winter. Child teaching child. Not a pilgrim miracle. A practical one."
 
-Mira's face scrunched. "Dael gets the dot wrong on purpose to annoy me."
+Mira's face scrunched. "Dael looks at the puddle first every time."
 
 "I do not," Dael said.
 
@@ -76,11 +80,11 @@ Mira's face scrunched. "Dael gets the dot wrong on purpose to annoy me."
 
 Sera almost smiled. "Then teach him again. Before winter. That's the job."
 
-Mira pulled Dael closer to the housing panel with the authority of an older sibling even though she wasn't one—just first to learn, first to teach. She held the slate steady.
+Mira pulled Dael closer to the housing panel with the authority of an older sibling even though she wasn't one—just first to learn, first to teach. She pointed at the seam where lamp bracket met housing.
 
-"Dot first," she said. "Small. Here. Not up there. Up there is where adults look when they're pretending."
+"Match the housing," she said. "Not the mirror. The fog lies about distance. The seam doesn't."
 
-Dael scowled and copied. His dot sat high.
+Dael scowled and copied on his slate. His seam sat high—drawn from the reflection in a puddle at the crate's foot.
 
 "Again," Mira said.
 
@@ -90,7 +94,7 @@ Dael scowled and copied. His dot sat high.
 
 Sera watched without interfering. Pilgrims who stepped in too early made communities wait for the next pilgrim. The elder watched too, arms folded, face neutral in the way elders learned when pride and worry shared a mouth.
 
-Dael tried again. Dot lower. Stroke shorter. Still wrong. Closer.
+Dael tried again. Seam lower. Lamp bracket clearer. Still wrong. Closer.
 
 "Who checks after you?" Sera asked Mira.
 
@@ -98,27 +102,27 @@ Dael tried again. Dot lower. Stroke shorter. Still wrong. Closer.
 
 "Good," Sera said. "That's the whole story. Not one hero. A chain."
 
-Mira refreshed the mark on the slate with a stub of chalk worn to her thumb. "Pell said names on the board where everyone sees. Not hidden in logs."
+Mira tapped the watch lamp housing. "Pell said names on the board where everyone sees. Not hidden in logs."
 
 "Pell's smart," the elder said.
 
 "Pell's scared," Sera said. "Smart and scared can be the same person."
 
-The elder watched Mira correct Dael's dot a third time without raising her voice. "My grandmother checked this housing before the maps admitted Bracket Turn existed," the elder said quietly, to Sera more than to the children. "I forgot that until Mira started drawing. Forgot it like people forget maintenance until something stops humming."
+The elder watched Mira correct Dael's seam a third time without raising her voice. "My grandmother checked this housing before the maps admitted Bracket Turn existed," the elder said quietly, to Sera more than to the children. "I forgot that until Mira started looking. Forgot it like people forget maintenance until something stops working."
 
 "Remembering's a job too," Sera said.
 
-"So's leaving before you become the memory." The elder's eyes stayed on the slate. "You'll leave."
+"So's leaving before you become the memory." The elder's eyes stayed on the lamp. "You'll leave."
 
 "I will."
 
 "Good." No bitterness. Just the Road's arithmetic—pilgrims useful, dependency expensive.
 
-Mira held the slate up for inspection. Dot lower. Stroke shorter. Still imperfect. Usable.
+Mira held the slate up for inspection. Seam lower. Lamp bracket right. Still imperfect. Usable.
 
 "Tomorrow the panel," Sera said. "Not the slate. Hands on metal. Names on the board."
 
-Dael swallowed. "What if I get it wrong on the real housing?"
+Dael swallowed. "What if I look at the puddle again on the real housing?"
 
 "Then Mira teaches you again," Sera said. "Before winter."
 
@@ -134,7 +138,7 @@ Sera spent the afternoon on it—lentil, root vegetables, whatever the station p
 
 An old freight handler told her about decades of junction parts. A teacher admitted she used Henn's ladder story badly to warn about shortcuts. A woman with Meridian eyes asked if Vesper delays would eat the month. Sera stirred and listened.
 
-A young dock worker sat on the commons steps without coming inside, as if soup were for people who'd decided to stay. Sera ladled a bowl and brought it out. He accepted without thanks—the Road's grammar for *I am here but not ready to say why*.
+A young dock worker sat on the commons steps without coming inside, as if soup were for people who'd decided to stay. Sera ladled a bowl and brought it out. He accepted without thanks—the Road's way of saying *I am here but not ready to say why*.
 
 "Vesper delays?" he asked finally.
 
@@ -208,7 +212,17 @@ A pop like a wet finger on metal.
 
 Silence.
 
+The watch lamp at the junction housing flickered—the filament dipping when the relay died mid-sentence.
+
+Mira moved before the elder spoke. She caught the housing with one hand and the lamp lip with the other, steadying the pass Dael had fumbled from the crate.
+
+The light held.
+
+Not triumph. A handoff completed when the voice cut out.
+
 The elder tapped the relay. "Pell?"
+
+Nothing.
 
 Nothing.
 
@@ -274,11 +288,11 @@ Someone from the back— the woman with Meridian eyes, Sera learned later, visit
 
 The woman nodded. "Public roster. Names where everyone sees."
 
-Mira, still standing beside the housing panel they'd walked past for the meeting, held up her slate. Dot and stroke, improved since morning. Dael's work beside hers, smaller, earnest.
+Mira, still beside the housing panel, one hand on the lamp lip, looked at the room.
 
-"Pell sent a picture," Mira said to the room, as if Pell might still be listening. "We're the picture now."
+"Pell sent a picture," she said, as if Pell might still be listening. "We're the picture now."
 
-No one corrected her. Sera felt the lighter thing begin—not triumph. Recognition that a community could inherit a grammar without inheriting a voice on a speaker.
+No one corrected her. Sera felt the lighter thing begin—not triumph. Recognition that a community could inherit a job without inheriting a voice on a speaker.
 
 The elder keyed the relay once more. Static. Nothing. She turned it off without ceremony.
 
@@ -330,9 +344,9 @@ Sera drank the tea. It tasted like lentil and decision—the Road's favorite com
 
 "It's true."
 
-The freight handler walked her to the junction housing before sleep. A fresh mark gleamed near the access panel—Mira's work, wrong and earnest.
+The freight handler walked her to the junction housing before sleep. The watch lamp burned steady—Mira's catch holding through the evening.
 
-"She checked it after dinner," he said. "Dael watched. Corrected the dot twice. She corrected him without crying. That's new."
+"She steadied it after dinner," he said. "Dael watched. Fumbled the pass once. She caught it without crying. That's new."
 
 "I know," Sera said. "That's why I'm not scared here."
 
@@ -344,7 +358,7 @@ They stood in the junction tunnel while the commons slept. The board was visible
 
 "Even if they asked you to stay?"
 
-"Especially then." She looked at Mira's mark on the housing. Wrong dot, better than yesterday. "Dependency is a kind of weather. It looks like shelter until it isn't."
+"Especially then." She looked at the lamp burning steady on the housing lip. "Dependency is a kind of weather. It looks like shelter until it isn't."
 
 He was quiet. "Henn's apprentice would like you."
 
@@ -356,11 +370,11 @@ He almost smiled. "Road answer."
 
 ---
 
-Morning was soup for the road and marks on slates.
+Morning was soup for the road and fog on the spur.
 
-Mira walked Sera to the spur with the seriousness of someone who had been given a job that mattered.
+Mira walked Sera to the turn with the seriousness of someone who had been given a job that mattered.
 
-"Dael got the stroke wrong twice," Mira said.
+"Dael looked at the puddle first again," Mira said.
 
 "Did you show him again?"
 
@@ -370,7 +384,7 @@ Sera adjusted her bag. The beads clicked softly—the sound of miles, not magic.
 
 "Are you scared about Vesper?" Mira asked.
 
-Sera looked back at the commons curve, the junction housing, the board with names visible from the path.
+Sera looked back at the commons curve, the junction housing, the board with names visible from the path, the watch lamp burning steady.
 
 "I'm scared of places that stop checking because the news got boring," she said. "I'm not scared here."
 
@@ -378,7 +392,7 @@ Mira frowned. "That's a weird answer."
 
 "It's a road answer."
 
-Dael ran up with a slate. "I got the dot right."
+Dael ran up with a slate. "I matched the housing. Not the mirror."
 
 "Show me tomorrow," Mira said.
 
@@ -392,9 +406,9 @@ Dael looked at the board, then at Mira, then at Sera. "Pell's message broke."
 
 "Yes."
 
-Dael seemed to grow half an inch with that fact stored somewhere useful. "Then the dot matters."
+Dael seemed to grow half an inch with that fact stored somewhere useful. "Then the lamp matters."
 
-"It always mattered," Mira said. "You just needed a reason to believe it."
+"It always mattered," Mira said. "You just needed a reason to catch it."
 
 ---
 
@@ -420,7 +434,7 @@ Mira and Dael stood behind the elder, both awake too early, both pretending not 
 
 "I will."
 
-Dael held up his slate one last time. Dot right. Stroke still wrong.
+Dael held up his slate one last time. Seam right. Lamp bracket still wobbly.
 
 "Close enough for today," Sera said. "Tomorrow's job."
 
@@ -446,7 +460,7 @@ The Road went on.
 
 She went with it, already tasting the next soup, already listening for the next chair—and trusting, more than she had a year ago, that the chair might stay empty while the board stayed full.
 
-On the shuttle she read the public thread once—not for percentages, for tone. **SEPARATIST SABOTAGE** still climbed somewhere. **ROUTINE MAINTENANCE** still crawled. Bracket Turn hadn't waited for either number to decide about a checker who'd left for Meridian. They'd written names in chalk and taught children dot and stroke and let a pilgrim leave before dependency set like fog.
+On the shuttle she read the public thread once—not for percentages, for tone. **SEPARATIST SABOTAGE** still climbed somewhere. **ROUTINE MAINTENANCE** still crawled. Bracket Turn hadn't waited for either number to decide about a checker who'd left for Meridian. They'd written names on the board and taught children to match housing in fog and let a pilgrim leave before dependency set like weather.
 
 Sera wrote that down too, not as wisdom, as inventory for the next station with a blank line.
 

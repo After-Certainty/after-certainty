@@ -8,11 +8,13 @@ The notice had arrived without ceremony—an entry in her manifest queue while s
 
 Lena read it at the fold-down desk with cold tea from yesterday and the thread wall percentages reflected in the porthole glass. **SEPARATIST SABOTAGE** had crossed seventy sometime in the night. Vesper remained closed. Arin's last message still said *don't come the long way on my account.*
 
+Delivered wasn't read. Read wasn't an answer. *Don't come* wasn't the same sentence as *I'm fine.*
+
 The priority handoff had cleared days ago—**DELIVERED TO ORINREACH BASIN**—with no reply attached.
 
 She ran the numbers twice.
 
-Renewal cost four more days and another fee—enough to erase the priority handoff she'd already regretted. Commitment cost eleven days around and fees that climbed when stories climbed. Waiting cost whatever waiting cost when your brother sent pictures of marks instead of answers.
+Renewal cost four more days and another fee—enough to erase the priority handoff she'd already regretted. Commitment cost eleven days around and fees that climbed when stories climbed. Waiting cost whatever waiting cost when your brother sent a compass stamp on wet catwalk instead of answers.
 
 She pulled up the renewal fee on her display and compared it to the long-route block. Four more days at Northhook wouldn't open Vesper. It would only make **TRACKING** feel responsible while **COMMITTED** waited in the margin.
 
@@ -22,17 +24,15 @@ Waiting left Arin on a ladder and the folder one photograph thicker.
 
 She built a third column on the fold-down desk—renewal, commitment, wait—and put numbers beside each until the screen looked like someone else's problem.
 
-The berth hummed while she did math. Six days of humming. Two days left. One decision.
-
-She opened **STORIES** one last time. Three tracks she'd filed, not a reason: mark photos, wrong-border pamphlet, fee strips that had moved before the bulletin.
+She opened **STORIES** one last time. Three tracks she'd filed, not a reason: compass photo, wrong-border pamphlet, fee strips that had moved before the bulletin.
 
 Arin had said don't come on his account.
 
-He'd also sent a picture of a mark on a housing seam—not an explanation, just proof someone had checked the wall.
+He'd also sent the stamp pressed into wet catwalk paint—not an explanation, just proof he'd checked before he climbed.
 
 She didn't renew.
 
-She walked the berth once more with the bag packed and counted what she was leaving—the fold-down desk, the porthole view of doubled Meridian lights, six days of humming she'd stopped hearing until it was time to go.
+She walked the berth once more with the bag packed and counted what she was leaving—the fold-down desk, the porthole view of doubled Meridian lights, six days on the Ribbon she'd stopped counting until it was time to go.
 
 ---
 
@@ -104,9 +104,9 @@ A child asked a parent why Vesper was closed. The parent said, "Because people a
 
 The berth looked smaller with the bag packed.
 
-She'd lived six days in a box that hummed with the Ribbon. She'd stopped hearing it until she was leaving. The compass patch on her shoulder caught the berth light—faded at the edges, still readable. She'd meant to replace it. She'd kept not replacing it.
+She'd lived six days in a box on the Ribbon. She'd stopped hearing the transit noise until she was leaving. The compass patch on her shoulder caught the berth light—faded at the edges, still readable. She'd meant to replace it. She'd kept not replacing it.
 
-She filed the last manifest queries from the fold-down desk. Deleted two draft messages to Arin that said the same thing in different tones. Kept the folder—wrong borders, mark photos, Jun's brief, route clips—in the bag where it couldn't pretend to be optional.
+She filed the last manifest queries from the fold-down desk. Deleted two draft messages to Arin that said the same thing in different tones. Kept the folder—wrong borders, compass photo, Jun's brief, route clips—in the bag where it couldn't pretend to be optional.
 
 The **COMMITTED** block sat in her ledger next to eleven days and two fees. Real now. Paper-thin until she crossed the first corridor.
 
@@ -166,7 +166,7 @@ Arin. Two words. No weather. No mirrors.
 
 She sent back the old compass stamp she'd used in messages since they were teenagers.
 
-*Following the mark,* she added, because two words from him didn't deserve a paragraph from her.
+*On my way,* she added, because two words from him didn't deserve a paragraph from her.
 
 Delivered.
 
@@ -214,7 +214,7 @@ She glanced up once, matched angles, and kept walking.
 
 At a quiet kiosk away from the departure line, she wrote to Arin:
 
-*Leaving the Ribbon tomorrow. Drift first, then around. Your mark is in my folder. I'm following it.*
+*Leaving the Ribbon tomorrow. Drift first, then around. Your stamp is in my folder. I'm coming.*
 
 She sent it.
 
@@ -228,13 +228,13 @@ She stood at the kiosk a moment longer, watching **DELIVERED** hold steady. Two 
 
 She didn't sleep much that last night.
 
-The berth hummed. Meridian Arc pulsed in the porthole glass. The thread wall percentages climbed in her mind even when she closed her eyes—sixty-eight, seventy, higher—numbers that moved freight faster than marks.
+Meridian Arc pulsed in the porthole glass. The thread wall percentages climbed in her mind even when she closed her eyes—sixty-eight, seventy, higher—numbers that moved freight faster than catwalk stamps.
 
-Once, in the dark, she pulled up the picture Arin had sent—the basin at dusk, the mark on the seam—and zoomed until the stroke filled the screen. Work. Not story.
+Once, in the dark, she pulled up the picture Arin had sent—the basin at dusk, the compass stamp blurred by rain on wet metal—and zoomed until the edges filled the screen. Work. Not story.
 
 She put the display away.
 
-In the morning the suspension notice was still there. Still no official word why. The berth felt smaller in daylight—humming louder now that she was leaving.
+In the morning the suspension notice was still there. Still no official word why. The berth felt smaller in daylight—transit noise louder now that she was leaving.
 
 She had a corridor to catch and a ledger that said **COMMITTED**.
 
@@ -248,7 +248,7 @@ The tea vendor nodded when she passed. No words. He'd said what he had to say da
 
 Lena moved through it with her bag and her tube.
 
-She passed the bench where the festival-sash woman had peeled an orange. The maintenance mark was still there—dot and stroke, worn softer now.
+She passed the bench where the festival-sash woman had peeled an orange.
 
 At the thread wall she didn't stop. She'd read enough.
 
@@ -262,11 +262,11 @@ The departure hall was full—families saying goodbye to freight, pilots arguing
 
 "My sister's on Orinreach." The woman shifted the case. "She says the boards look like resting. I don't know what resting means when freight stacks up."
 
-"Nobody does." Lena adjusted her bag. "That's why they sell stories."
+"Ask your sister what administration actually said. Not the boards—the clerk."
 
-The woman almost laughed. "You a courier?"
+The woman almost laughed. "Already did. Got percentages."
 
-"Yeah."
+"Yeah." Lena adjusted her bag. "Me too."
 
 "Then you already know." She moved forward as the line advanced. "Drift's expensive when the wall's loud."
 
@@ -302,7 +302,7 @@ Lena listened because listening was free. The woman with medical supplies shifte
 
 "Or commitment."
 
-The woman almost laughed. "Same thing, different ledger."
+The woman almost laughed. "Commitment's just time with a fee attached."
 
 A family ahead of them was saying goodbye to a freight crate like it was a person—hands on the seal, whispered instructions, the soft absurdity of loving something that wasn't alive but still had to arrive on time. Lena looked away. Couriers didn't get goodbyes like that. They got strips and windows.
 

@@ -6,29 +6,29 @@ The First Gate occupied the space where a moon ought to have been—ancient aper
 
 That was the job: partial sight, total responsibility.
 
-The hum lived in the deck plates before dawn—steady, familiar, insufficient. Cai trusted the hum more than the green board on the wall and the gauge more than the hum. Green boards were what administrators published when the numbers they were allowed to publish were the numbers someone wanted to hear. Gauges told you what metal remembered. The hum told you the corridor still worked, which was not the same as telling you it would work after the next budget cut.
+The crossing lived in the deck plates before dawn—steady, familiar, insufficient. Cai trusted the gauge more than the green board on the wall. Green boards were what administrators published when the numbers they were allowed to publish were the numbers someone wanted to hear. Gauges told you what metal remembered. The crossing told you the corridor still worked, which was not the same as telling you it would work after the next budget cut.
 
-He had learned the difference on his first climb—green, hum steady, gauge wrong by a margin that didn't matter until it did. Nobody had been hurt. The housing had been fixed before load shifted. The lesson had stayed anyway: *habit is not proof*.
+He had learned the difference on his first climb—green, vibration steady, gauge wrong by a margin that didn't matter until it did. Nobody had been hurt. The housing had been fixed before load shifted. The lesson had stayed anyway: *habit is not proof*.
 
 He clipped in at scaffold three and rode the lift down toward the approach bones—the unglamorous infrastructure: pressure manifolds, alignment guides, housing lips where seal compound dried in layers honest about their year if you knew how to read them.
 
-From the lift lip he could see three intakes and one tourist arc and none of the far ring where the aperture's oldest stone met modern brace work. Twenty years and he still discovered corners on a structure that pretended to be finished. The First Gate was never finished. That was what *ancient* meant in maintenance grammar—not sacred, *ongoing*.
+From the lift lip he could see three intakes and one tourist arc and none of the far ring where the aperture's oldest stone met modern brace work. Twenty years and he still discovered corners on a structure that pretended to be finished. The First Gate was never finished. That was what *ancient* meant in keeper work—not sacred, *ongoing*.
 
-Yesterday a courier had asked why nobody taught mark grammar publicly. He'd said *politics*, which wasn't an answer, only weather. Yesterday he'd also argued with an administrator on a wall screen while the courier listened—*public confidence is not a housing seal*—and ended the call before recall language could attach. The administrator would try again. They always tried again.
+Yesterday a courier had asked why nobody published tolerances. He'd said *politics*, which wasn't an answer, only weather. Yesterday he'd also argued with an administrator on a wall screen while the courier listened—*public confidence is not a housing seal*—and ended the call before recall language could attach. The administrator would try again. They always tried again.
 
 ---
 
-Before first light he'd walked intake two—gauge, dot, photograph—because night shift ended at shift change, not at convenience.
+Before first light he'd walked intake two—gauge, photograph, log—because night shift ended at shift change, not at convenience.
 
 The corridor smelled of solvent and warmed metal and the faint ozone tang that meant freight had passed recently. Tourist decks above sold reflection cards; below his boots the approach bones carried weight nobody priced in tickets. A vendor polish crew had already buffed a green-board-facing flange on intake one. The metal underneath was fine. The performance of fine made Cai's jaw tight.
 
-Night shift had left intake two's manifold with a fresh mark—angled five degrees off his pitch, stroke dated in yesterday's code. Dessa, probably. Corridor Four in his head until she introduced herself at housing 9-A with coffee black enough to stain conscience. He photographed her mark, added his acknowledgment dot, kept walking.
+Night shift had left intake two's manifold flagged—angled note in yesterday's hand, probably Dessa on corridor four. He photographed her work, added his acknowledgment to the log, kept walking.
 
-He found yesterday's mark on the approach manifold scratched by a vendor's tool slip—not malice, stupidity—and refreshed it with his stylus: dot, stroke, date code in a shorthand only keepers and a few pilots read.
+He found yesterday's gauge reading on the approach manifold scratched by a vendor's tool slip—not malice, stupidity—and refreshed the record himself.
 
 Photograph. Log. Upload to an archive almost nobody opened.
 
-At intake two the green board smiled **WITHIN TOLERANCE** while the gauge on the manifold lip read three microns shy of the band edge—legal, honest, and wrong for the vibration freight would add by afternoon. Cai flagged it anyway. Green boards measured permission. Gauges measured metal. The hum measured whether the corridor still held its breath.
+At intake two the green board smiled **WITHIN TOLERANCE** while the gauge on the manifold lip read three microns shy of the band edge—legal, honest, and wrong for the vibration freight would add by afternoon. Cai flagged it anyway. Green boards measured permission. Gauges measured metal. The crossing measured whether the corridor still held its breath.
 
 He walked the bend toward housing 7-C counting wear on the guide rail—shiny spots where hauler kisses had polished steel past spec, dull spots where nobody had climbed since last quarter. Maintenance was a map of touches. Tourists saw aperture. Keepers saw touches.
 
@@ -36,11 +36,7 @@ He walked the bend toward housing 7-C counting wear on the guide rail—shiny sp
 
 His official title was maintenance keeper, which sounded medieval and fit.
 
-His unofficial title, from pilots who still remembered names, was *the dot man*—for the marks he left at checked sites.
-
-Dot and stroke. Simple. Not graffiti—language.
-
-Keepers had used variants for longer than Cai had been alive. Longer than most administrators admitted, because admitting meant admitting someone had to learn the language.
+His unofficial title, from pilots who still remembered names, was *the man on scaffold three*—for the keeper they called when green boards lied.
 
 ---
 
@@ -48,7 +44,7 @@ Housing 7-C sat in the shadow of a freight guide rail where the approach corrido
 
 Green board on the wall: **WITHIN TOLERANCE**.
 
-Cai trusted the hum more than the board and the gauge more than the hum.
+Cai trusted the gauge more than the board.
 
 Lio was already at the housing when Cai arrived—twenty-two, fast hands, still young enough to want villains in the news ribbon. He'd clipped in wrong on the first try and corrected without embarrassment, which was why Cai kept him.
 
@@ -72,7 +68,7 @@ Lio typed, tongue at the corner of his mouth. "They'll still pretend."
 
 He cut the vendor patch himself because rework requests sat in queues while green boards smiled. The seam underneath was clean—vendor competence wasn't the issue; box-checking was. You could meet published tolerance and still build a lie proud enough to catch load wrong. The old compound came away in a curl that showed the wear line beneath: honest metal, honest year, honest need for someone to listen.
 
-Cai worked the replacement in three passes—thin, set, gauge—because hurry was how tool slips happened and tool slips were how marks got scratched through. Lio held the light and learned the rhythm: breathe when freight passed, still when the gauge read, write when the sentence mattered.
+Cai worked the replacement in three passes—thin, set, gauge—because hurry was how tool slips happened and tool slips were how autumn found you unprepared. Lio held the light and learned the rhythm: breathe when freight passed, still when the gauge read, write when the sentence mattered.
 
 Lio held the light. "That's not in the vendor contract."
 
@@ -80,7 +76,7 @@ Lio held the light. "That's not in the vendor contract."
 
 The replacement compound came up in his palm—grey, dense, honest. He set it at keeper thickness, not vendor thickness, and worked the edge until the flange read flat to the gauge. Lio photographed each pass. The housing smelled like solvent and warmed seal and the faint metallic breath of a corridor that carried freight whether or not administrators published poetry about it.
 
-"Hum changed?" Lio asked.
+"Vibration changed?" Lio asked.
 
 Cai held still, jaw loose. "Steady."
 
@@ -92,17 +88,15 @@ Lio typed anyway. Full sentences. Cai let him.
 
 ---
 
-Another mark on the housing exterior stopped him—a dot with a stroke angled five degrees off his family's usual pitch. Same code family. Different hand. Night shift, maybe. Or the keeper on corridor four he'd never met but had been reading for months.
+Another keeper's note on the housing exterior stopped him—flag from night shift, five degrees off his usual pitch. Same housing family. Different hand. Dessa, probably, on corridor four.
 
-He added his own mark beside it, not overwriting.
+He added his own acknowledgment to the log beside hers, not overwriting.
 
-*I see you seeing.*
+Evidence that attention was distributed, not heroic.
 
-The grammar of the profession. Evidence that attention was distributed, not heroic.
+Lio touched the older flag with a gloved fingertip. "That's not yours."
 
-Lio touched the older mark with a gloved fingertip. "That's not yours."
-
-"That's the job." Cai made his fresh dot. "If you're the only one checking, you're already losing."
+"That's the job." Cai photographed both records together. "If you're the only one checking, you're already losing."
 
 The boy—man, almost—looked toward the aperture where another hauler slid through with obscene ease. "Courier asked me if Vesper was sabotage."
 
@@ -114,9 +108,9 @@ The boy—man, almost—looked toward the aperture where another hauler slid thr
 
 "She said the thread wall doesn't read adjacent corridors." Lio paused. "I said I trust you. She didn't laugh."
 
-Cai recorded the housing, flagged the patch, closed the panel. "Couriers trust routes. Keepers trust seals. Analysts trust clusters." He started toward the next housing on the list. "Nobody trusts the whole thing. That's why marks exist."
+Cai recorded the housing, flagged the patch, closed the panel. "Couriers trust routes. Keepers trust seals. Analysts trust clusters." He started toward the next housing on the list. "Nobody trusts the whole thing. That's why logs exist."
 
-They walked intake four's bend together, boots finding the worn path keepers had polished into the grating over years. A green board on the wall declared **WITHIN TOLERANCE** at eye level where vendors could photograph it. A mark at knee height declared *checked* in a language vendors didn't bother to learn.
+They walked intake four's bend together, boots finding the worn path keepers had polished into the grating over years. A green board on the wall declared **WITHIN TOLERANCE** at eye level where vendors could photograph it. A keeper flag at knee height declared *checked* in a language vendors didn't bother to learn.
 
 "Courier's coming back," Lio said. "Berth notice posted."
 
@@ -124,7 +118,7 @@ They walked intake four's bend together, boots finding the worn path keepers had
 
 "Is that bad?"
 
-"It's a job." Different from his. "She counts marks when she learns the grammar. Counting isn't fixing."
+"It's a job." Different from his. "She counts flags when she learns the corridor. Counting isn't fixing."
 
 "Fixing isn't counting either."
 
@@ -184,7 +178,7 @@ Cai chewed, watched a freight hauler slide through the aperture with the ease of
 
 Lio leaned forward. "So what is it?"
 
-Cai wiped his gloves on a cloth already stained with mark ink. "It's what happens when everyone assumes someone else is checking."
+Cai wiped his gloves on a cloth already stained with seal compound. "It's what happens when everyone assumes someone else is checking."
 
 Heavy for lunch.
 
@@ -198,7 +192,7 @@ He showed Lio the housing 7-C photograph instead—the seal pattern, the wear li
 
 "Keeper catch," Cai said. "Before error becomes headline."
 
-Lio touched the image of the fresh mark on screen. "So Vesper's not…"
+Lio touched the image of the fresh flag on screen. "So Vesper's not…"
 
 "Vesper's a corridor. Throats have keepers. Keepers have rosters. Rosters have budgets." Cai stood, brushed seal dust from his knees. "Ask me again when the budget briefing cares about seals."
 
@@ -244,13 +238,11 @@ She left without the clearance. Lio sent the denial before the elevator finished
 
 "You wrote that without me asking twice," Cai said.
 
-Lio exhaled. "Grammar."
+Lio exhaled. "Gauge first."
 
-"Gauge first."
+"Gauge first." Almost a grin. "Then sentences."
 
-"Gauge first." Almost a grin. "Then grammar."
-
-The vendor complaint pinged before they'd reached scaffold three—**EXPEDITED CLEARANCE DENIED — INTAKE FOUR — VENDOR ESCALATION**. Cai read it and felt nothing he hadn't felt yesterday when the courier listened to the screen argument. Administrators protected visibility. Vendors protected contracts. Keepers protected seams. The hum protected nobody. That was why logs existed.
+The vendor complaint pinged before they'd reached scaffold three—**EXPEDITED CLEARANCE DENIED — INTAKE FOUR — VENDOR ESCALATION**. Cai read it and felt nothing he hadn't felt yesterday when the courier listened to the screen argument. Administrators protected visibility. Vendors protected contracts. Keepers protected seams. The crossing protected nobody. That was why logs existed.
 
 Below them a tourist deck erupted in flash photography—proof of visitation, not proof of maintenance. Cai had learned not to resent tourists. They funded the structure that let him climb. He resented the cycle charts that pretended funding was the same as checking.
 
@@ -258,43 +250,37 @@ Below them a tourist deck erupted in flash photography—proof of visitation, no
 
 Scaffold three before shift end—alignment guides, unglamorous, essential.
 
-Cai clipped in and rode the lift with the hum in his teeth. Forty meters from the corridor housing the air changed pressure—not failure, presence. The aperture worked. That was the terror and the job. He ran the alignment guide seam. Clean. Dot anyway. Checked was checked even when green boards didn't require it.
+Cai clipped in and rode the lift. Forty meters from the corridor housing the air changed pressure—not failure, presence. The aperture worked. That was the terror and the job. He ran the alignment guide seam. Clean. Checked anyway. Checked was checked even when green boards didn't require it.
 
-A night-shift keeper—Corridor Four in his head, real name unknown—had left a fresh mark on the manifold two housing: five degrees off his angle, same family, stroke dated in yesterday's code. Cai photographed it, added his acknowledgment dot beside hers without overwriting.
+A night-shift keeper—Dessa on corridor four in his head, real name unknown—had left a fresh flag on the manifold two housing. Cai photographed it, added his acknowledgment beside hers without overwriting.
 
-*I see you seeing.*
+The ecosystem persisted whether or not the quarter had learned to fund it.
 
-The ecosystem persisted whether or not the quarter had learned grammar.
+Cai ran the alignment guide seam twice because checked was checked and because repetition was how you caught drift before drift became headline. The guide sang true. He logged it anyway. Lio photographed the entry without being told—apprentice progress measured in fewer reminders, not fewer mistakes.
 
-Cai ran the alignment guide seam twice because checked was checked and because repetition was how you caught drift before drift became headline. The guide sang true. He made the dot anyway. Lio photographed the log entry without being told—apprentice progress measured in fewer reminders, not fewer mistakes.
+"Three scaffold shifts today if traffic allows?" Lio asked.
 
-"Fourteen by end of shift?" Lio asked.
-
-"If traffic allows." Cai clipped his kit. "If vendors allow. If supervisors allow. The hum allows."
+"If traffic allows." Cai clipped his kit. "If vendors allow. If supervisors allow."
 
 ---
 
 The viewport deck at shift end was where tourists took pictures and keepers took measurements.
 
-Cai stood at the rail because standing was cheaper than sitting when your back already knew scaffolds. The First Gate filled the frame—not as panorama, as pressure. A hauler threaded the aperture mid-frame, small as a beetle, absurdly trusting metal and habit. The hum rose through the glass into his teeth. Steady. Familiar. Not proof.
+Cai stood at the rail because standing was cheaper than sitting when your back already knew scaffolds. The First Gate filled the frame—not as panorama, as pressure. A hauler threaded the aperture mid-frame, small as a beetle, absurdly trusting metal and habit. Vibration rose through the glass into his boots. Steady. Familiar. Not proof.
 
 A tourist beside him narrated into a phone. *You have to see it in person. Pictures don't capture the scale.* She didn't mention her jaw. She didn't need to. Scale was her product. Maintenance was his.
 
 A child pressed a face to the glass and fogged it, wiped it, fogged it again. Proof of visitation. Not proof of maintenance. Cai had been that age once on a different station, before he learned that awe and checking used different instruments.
 
-Cai watched the hauler clear the aperture and thought about housing 7-C—the thick patch cut, Lio's denial in full sentences, the angled mark from a keeper he'd never met.
+Cai watched the hauler clear the aperture and thought about housing 7-C—the thick patch cut, Lio's denial in full sentences, Dessa's flag from a keeper he'd never met.
 
-A child on the tourist deck pressed a face to the glass and fogged it, wiped it, fogged it again. Proof of visitation. Not proof of maintenance. Cai had been that age once on a different station, before he learned that awe and checking used different instruments.
+Three scaffold shifts if he counted acknowledgments. Two vendor flags. One administrator memo he'd seen coming since yesterday's screen argument—*public confidence is not a housing seal*, the courier had heard him say it, and the administrator had heard too. Zero catastrophes.
 
-Fourteen marks today if he counted the acknowledgments. Two vendor flags. One administrator memo he'd seen coming since yesterday's screen argument—*public confidence is not a housing seal*, the courier had heard him say it, and the administrator had heard too. Zero catastrophes.
-
-Zero catastrophes was what cycle charts sold. Zero catastrophes was what roster cuts bet on. Zero catastrophes was the weather keepers worked in until load shifted and the hum told the truth too late.
+Zero catastrophes was what cycle charts sold. Zero catastrophes was what roster cuts bet on. Zero catastrophes was the weather keepers worked in until load shifted and the gauge told the truth too late.
 
 Zero catastrophes was the job.
 
 Until it wasn't.
-
-He touched the viewport glass with a mark-stained glove, left a faint smudge, wiped it away. The glass remembered nothing. The archive remembered photographs. The corridor remembered wear.
 
 ---
 
@@ -302,13 +288,13 @@ The administrator's final message of the day was not a call but a memo—**VISIB
 
 Cai read it on the descent lift and felt the quiet anger keepers got when they could name exactly which seal nobody wanted to hear about.
 
-The hum followed him down—steady in the deck plates, steady in his teeth.
+The crossing followed him down—steady in the deck plates, steady in his boots.
 
 He trusted it.
 
 He did not trust what trust meant anymore.
 
-In the break room Dessa was counting marks on the night log—Corridor Four, real name, real grudge against vendor polish. "Fourteen yesterday," she said without looking up. "Eleven overnight. You counting my tool slip refresh?"
+In the break room Dessa was counting flags on the night log—Corridor Four, real name, real grudge against vendor polish. "Eleven overnight," she said without looking up. "You counting my tool slip refresh?"
 
 "Appreciating it." Cai poured coffee. "Intake four vendor complaint landed yet?"
 
@@ -316,23 +302,23 @@ In the break room Dessa was counting marks on the night log—Corridor Four, rea
 
 "Full sentences."
 
-"Grammar." Dessa capped her thermos. "Courier's back tomorrow. Makes the thread move a point. Doesn't fund roster hours."
+"Good." Dessa capped her thermos. "Courier's back tomorrow. Makes the thread move a point. Doesn't fund roster hours."
 
 "Nothing funds roster hours except shame or catastrophe." Cai remembered saying it or hearing it—same sentence, different rooms. "We're aiming for shame. Cheaper."
 
-Hum was not proof. Hum was habit. Habits were what institutions shed when nobody was looking.
+Habit was not proof. Habits were what institutions shed when nobody was looking.
 
-He thought about the courier's question—*why don't they teach the grammar publicly?*—and about the funding sheet with roster cuts beside vendor contracts. Grammar required hours. Hours required lines administrators didn't want on charts. The hum required keepers. Keepers required budgets. Budgets required shame or catastrophe, and Dessa in the break room had said they were aiming for shame because it was cheaper.
+He thought about the courier's question—*why don't they publish tolerances?*—and about the funding sheet with roster cuts beside vendor contracts. Checking required hours. Hours required lines administrators didn't want on charts. The crossing required keepers. Keepers required budgets. Budgets required shame or catastrophe, and Dessa in the break room had said they were aiming for shame because it was cheaper.
 
 Tomorrow he would climb again. Tomorrow budgets would still be politics. Tomorrow someone would assume someone else was handling it.
 
-Tonight the gate hummed in a key he knew by bone, and knowing frightened him more than a bad reading would have.
+Tonight the gate held in a key he knew by bone, and knowing frightened him more than a bad reading would have.
 
 ---
 
 Before sleep he opened the archive upload queue one more time—fourteen photographs, two flags, one crosswalk thank-you from a moon he'd never visited.
 
-The hum sat in the walls of his apartment the way it sat in his teeth.
+The crossing sat in the walls of his apartment the way it sat in his boots.
 
 Habit.
 
@@ -348,7 +334,7 @@ Cai read both, clipped in, and rode the scaffold toward housing 7-C.
 
 Green board. Gauge. Keeper.
 
-The job continued whether or not the quarter had learned grammar.
+The job continued whether or not the quarter had learned to publish tolerances.
 
 Lio met him at the platform with coffee and a question. "Courier's briefing today. Jun. You going?"
 
@@ -368,17 +354,17 @@ Zero catastrophes was the job.
 
 Until it wasn't.
 
-Cai recorded the morning's first dot before the safety AI reminded him breakfast was a roster requirement. Lio laughed once—surprised, young—and wrote the note in full sentences.
+Cai recorded the morning's first flag before the safety AI reminded him breakfast was a roster requirement. Lio laughed once—surprised, young—and wrote the note in full sentences.
 
 Archive might open someday.
 
 Supervisor might read someday.
 
-The hum held today.
+The crossing held today.
 
 That was the bargain.
 
-Somewhere on the approach corridor another keeper added a mark at a different angle—*I see you seeing*—without knowing Cai had taught an apprentice the same grammar before breakfast.
+Somewhere on the approach corridor another keeper added a flag at a different angle without knowing Cai had taught an apprentice the same discipline before breakfast.
 
 The ecosystem persisted.
 
@@ -388,20 +374,20 @@ Cai climbed.
 
 At housing 7-C the vendor patch waited like an unpaid invoice from yesterday's argument—thick, photographed, denied, still within published tolerance on the board that faced the corridor camera.
 
-He would cut it before noon if intake four's freight window allowed. Lio would write full sentences. Dessa on night shift would add her angle beside his. The green board would still say **WITHIN TOLERANCE**. The hum would still be there.
+He would cut it before noon if intake four's freight window allowed. Lio would write full sentences. Dessa on night shift would add her note beside his. The green board would still say **WITHIN TOLERANCE**. The crossing would still be there.
 
-Cai trusted the hum.
+Cai trusted the gauge.
 
 He did not trust what trust meant.
 
 He cut the patch anyway.
 
-The seam underneath read honest—wear line true, flange flat, hum steady when he pressed the gauge and held still. Lio photographed the after. Dessa's angle from night shift sat on the exterior beside his, two hands, same family, *I see you seeing* without sermon.
+The seam underneath read honest—wear line true, flange flat, vibration steady when he pressed the gauge and held still. Lio photographed the after. Dessa's flag from night shift sat in the log beside his, two hands, same housing, distributed attention without sermon.
 
-Fourteen marks if traffic allowed.
+Three scaffold shifts if traffic allowed.
 
 Two vendor flags if vendors kept cutting corners.
 
-Zero catastrophes if the hum held and the roster didn't thin again before autumn load.
+Zero catastrophes if the crossing held and the roster didn't thin again before autumn load.
 
-Cai made the dot and went to find breakfast the safety AI kept insisting he owed his body.
+Cai logged the work and went to find breakfast the safety AI kept insisting he owed his body.

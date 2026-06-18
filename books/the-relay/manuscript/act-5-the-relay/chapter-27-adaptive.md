@@ -6,11 +6,11 @@ Lena stood at the Lake Orin railing the way she had seven months ago when Vesper
 
 Locals glanced once, found their bearings, and kept walking.
 
-She was not quite a local still. She had a berth at Northhook Transit for another six days, a manifest fully checked for once, and the faded compass rose on her shoulder that marked her as courier. Route insurance on her slate had refreshed at dawn—three fee warnings she'd actually read, because couriers learned to stop reading on the Ribbon after the first year and she'd unlearned that particular laziness somewhere between Drift and Orinreach.
+She was not quite a local still. She had a berth at Northhook Transit for another six days, a manifest fully checked for once, and the faded compass rose on her shoulder that marked her as courier. At dawn her slate had repriced her route insurance—three corridor premiums she'd actually read, because couriers learned after the first year to treat the slate like weather: note it, don't live in it—and she'd unlearned that particular laziness somewhere between Drift and Orinreach.
 
 The weather board over Meridian Arc had shifted blue. Atmospheric pumps would drag a storm through by evening. East of the lake, silver maintenance kites moved between mirror faces in slow spirals—wing surfaces catching light that wasn't quite sunlight. One folded into a dart and vanished into a maintenance shaft. Children pointed. Adults didn't.
 
-A school group moved along the lower path. Their teacher called out an exercise—*match the housing, not the reflection*—and didn't pause when a boy ran through a wet patch and ruined the row behind him. *Again,* the teacher said. The children lined up.
+A school group walked the lower path, slates in hand. Their teacher pointed at a lit balcony overhead and its inverted twin in the lake—*overhead, not the lake*—and didn't pause when a boy ran through a wet patch and ruined the row behind him. *Again,* she said. The children lined up.
 
 Above the kites, two figures waved from a Meridian Arc balcony. Someone waved back a second later. Lena had tried that once with Arin when he'd visited on leave—they'd spent twenty minutes arguing about which of them was upside down. She didn't wave now. She had coffee and a corridor at dawn.
 
@@ -28,9 +28,9 @@ The southern mirrors caught tourists in ridiculous poses. She laughed once, quie
 
 Work continued because manifests didn't pause for synthesis.
 
-Meridian surcharge provisional. Drift leg if the Markets board moved early. Archive adjacency ugly but passable. Two Valleys junction parts for a freight handler who'd stopped waiting for Vesper to explain reliability. A forwarded packet for Toma—names, nothing more. A pilgrim routing tag for Sera—no body attached, just a note that Bracket Turn's board had acquired a second child who wanted the stroke right.
+Meridian surcharge provisional. Drift leg if the Markets board moved early. Archive adjacency ugly but passable. Two Valleys junction parts for a freight handler who'd stopped waiting for Vesper to explain reliability. A forwarded packet for Toma—names, nothing more. A pilgrim routing tag for Sera—no body attached, just a note that Bracket Turn's board had acquired a second child who wanted the fog lesson right.
 
-Lena moved through the transit ring the way she always had—jaw set when fees lied, shoulders loose when the witness line cleared, eyes on marks the way other people read weather.
+Lena moved through the transit ring the way she always had—jaw set when fees lied, shoulders loose when the witness line cleared, eyes on handoffs the way other people read weather.
 
 The difference was not certainty.
 
@@ -58,9 +58,9 @@ Lena got her stamp and shouldered her bag. The supervisor on the dock didn't apo
 
 ---
 
-Vesper Gate hummed when she transited—trusted and feared, same sound, same pressure behind the eyes, same smell like hot metal and clean rain. Couriers called it the honest hangover: you felt it even when the corridor was behaving.
+Vesper Gate pressed when she transited—pressure behind the eyes, same smell like hot metal and clean rain. Couriers called it the honest hangover: you felt it even when the corridor was behaving.
 
-The queue hall still smelled like fear and citrus disinfectant from the last suspension week, as if the building remembered bodies panicking in place. **OPEN — MONITORING — EXPECT DELAYS** sat above the corridor doors in administrative white that pretended calm was a font choice. Lena had learned to read that screen the way she read weather—delays were weather, monitoring was weather, the hum was weather you felt in your teeth.
+The queue hall still smelled like fear and citrus disinfectant from the last suspension week, as if the building remembered bodies panicking in place. **OPEN — MONITORING — EXPECT DELAYS** sat above the corridor doors in administrative white that pretended calm was a font choice. Lena had learned to read that screen the way she read weather—delays were weather, monitoring was weather, the crossing was weather you felt behind your eyes.
 
 The lower stair was slick with something that wasn't rain. A tourist in a bright jacket bent double and vomited into a drainage grate while his partner apologized to nobody in particular. A teacher on the fringe-side platform didn't pause an exercise—*count the housing seams, not the reflection cards*—and twenty children obeyed because children on the Ribbon learned early that gates made adults unreliable and teachers were the steadier instrument.
 
@@ -78,7 +78,7 @@ The pilot was a woman with hands scarred practical and a roster case held like a
 
 "Good." The pilot almost smiled. "Then you won't panic when the map lies wrong differently."
 
-They boarded through a hatch that sealed with a sigh older than policy. The hum deepened—not louder, closer, like the corridor had leaned in to listen. Lena's molars buzzed. Her slate dimmed itself against wrong-light flicker. Somewhere behind them another tourist gagged; the teacher raised her voice one notch and kept counting.
+They boarded through a hatch that sealed with a sigh older than policy. Pressure deepened—not louder, closer, like the corridor had leaned in to listen. Lena's molars buzzed. Her slate dimmed itself against wrong-light flicker. Somewhere behind them another tourist gagged; the teacher raised her voice one notch and kept counting.
 
 Pressure behind the eyes. Hot metal. Clean rain. The honest hangover whether you were flying or only passing through.
 
@@ -96,7 +96,7 @@ A pamphlet runner tried to press a separatist flyer into her hand. She moved aro
 
 ---
 
-Jun's revision crossed her feed without fanfare while she waited on a Drift bench—not the marked one, a different bench, empty except for a manifest case someone had forgotten and a clerk yelling about variance two meters away.
+Jun's revision crossed her feed without fanfare while she waited on a Drift bench—empty except for a manifest case someone had forgotten and a clerk yelling about variance two meters away.
 
 *Belief lead times after coordination failure: community maintenance visibility as slow follow-on — preliminary, v4*
 
@@ -112,11 +112,11 @@ The public band played keeper-neutral footage on a loop—housing exteriors, cal
 
 Cai was on a scaffold she couldn't reach, gloves stained with sealant older than some transit policies, moving along a seam with the unhurried pace of someone who'd learned that hurry was how you missed the crack. Lio apprentice below with a tablet and the expression of someone learning doubt as a trade—eyes on a green clearance band, mouth tight, watching numbers that said *fine* while his body said *wait*.
 
-She didn't call up. Keepers worked better without audience. She noted the marks on housing seven-C from the public walkway—fourteen, per his message, zero catastrophes, funding still thin. Fourteen was a number that sounded like victory in a briefing and like hunger on a scaffold.
+She didn't call up. Keepers worked better without audience. She noted housing seven-C from the public walkway—Cai's message had said zero catastrophes, funding still thin. Zero catastrophes sounded like victory in a briefing and like hunger on a scaffold.
 
 Below, Lio tapped the tablet and frowned. The green band held. Vendor flags unchanged. Tolerance within spec. The words that let expedited clearance keep selling care while Cai's knees kept paying for it in rain.
 
-Cai touched a seam three meters above him and left grammar Lena couldn't read from this distance but knew anyway—dot and stroke, proof of work in a civilization that had forgotten to pay noticers until silence got loud enough to force looking sideways.
+Cai touched a seam three meters above him and worked without turning it into performance—hands on metal, sealant-dark, the unhurried pace of someone who'd learned that hurry was how you missed the crack.
 
 Lio said something up to him. Cai answered without turning. Lio looked at the green readings again, then at the seam, then tapped the tablet like he was arguing with a priest.
 
@@ -132,7 +132,7 @@ Lio swallowed. He looked at the tablet again. The green held. His shoulders didn
 
 Green readings lied the way green readings lied—not maliciously, institutionally, the way a clearance rep could smile at a family and never see the scaffold. Lio was learning the lie as a trade. Cai was teaching without turning it into a lecture, which was the only pedagogy that survived on underfunded housing.
 
-The housing hummed wrong in a register no screen had learned to charge for.
+The housing carried load in a register no screen had learned to charge for.
 
 She saved a viewport still without commenting. Praise made keepers uncomfortable. Evidence made couriers move.
 
@@ -140,61 +140,13 @@ A tourist in a bright jacket caught her sleeve. "Is it safe? The gate. Is it—"
 
 "Happens," Lena said, and walked on before she could become a corridor.
 
-Administrator voices argued somewhere behind a closed door—budget politics named without solving, the hum in the teeth trusted and feared. Lena drank tea that tasted like the building and thought about Arin's mirror crew ignoring budget reviews. Same weather. Different basin.
+Administrator voices argued somewhere behind a closed door—budget politics named without solving, pressure still wrong behind the eyes when you transited whether you wanted it or not. Lena drank tea that tasted like the building and thought about Arin's mirror crew ignoring budget reviews. Same weather. Different basin.
 
----
+She looked up once more before she left. Cai on the scaffold. Kites between mirror faces beyond the gate curve. The compass rose on her shoulder patch faded from months of corridor friction—Lena's copy of the stamp Arin still carried in Orinreach, exchanged once in rain, never quite the same object twice.
 
-The final mark was on a corridor bench at Drift Markets, of all places—dot and stroke scratched into the metal lip where pilots rested manifests while arguing with clerks who wanted nouns the paperwork hadn't learned.
+Move and stay. Both legs tending the mesh whether the funding sheet admitted it or not.
 
-Not Cai's hand. Not Arin's. Not Pell's or Mira's or Henn's ghost.
-
-A grammar she'd seen in vault photos and keeper logs and east housing seams and junction housings and school slates and a child's wrong stroke corrected before winter.
-
-*Someone checked.*
-
-The bench had been checked because pilots rested there and pilots noticed when rest stops lied about safety. The mark was fresh—the stroke still bright where a thumbnail had dragged sealant dust out of the groove. The clerk beside it was yelling about variance fees without looking down.
-
-Lena looked down.
-
-*Oh.* Not thunder—not plot. The same stroke she'd been reading for months on housing and slates and vault photos, scratched into a bench lip where pilots rested manifests and argued with clerks.
-
-She touched the mark with one finger—courier habit, not ritual—and signed her manifest on the same bench lip.
-
-The clerk stamped variance. Nadi's corridor number updated mid-argument three ramps over. The map changed wrong differently.
-
-A pilot beside her—fringe corridors twenty years, hands scarred practical, knuckles pale where acid wash had taken the skin and left habit—nodded at the mark without looking up from her manifest.
-
-"Fresh every week," the pilot said.
-
-"When'd it start?"
-
-"After the suspension." She said it the way you said *after the flood* on a coast that flooded every decade—dated, local, not myth. "We rest here. Argue here. Someone scratched the first one when the board said fringe viable and the housing seam said otherwise. I thought it was graffiti."
-
-"Who started it?"
-
-"Doesn't matter." The pilot finally looked up—eyes the color of corridor wrong-light, tired in the way pilots got tired when they stopped expecting routes to stay routes. "Could've been Henn's guild cousin. Could've been a keeper on layover who got sick of green bands. Could've been a clerk who learned the stroke in school and got angry enough to use it. Drift doesn't keep authors. It keeps benches."
-
-She tapped the lip with one scarred knuckle. The stroke brightened under her nail.
-
-"My name's on a roster that got struck through in a packet a friend forwarded." She didn't say Toma. She didn't need to. Names traveled on the fringe the way fees traveled in Northhook—by mouth, by habit, by anger that learned to be practical. "I didn't need a vault to know attrition was real. I needed a place to put my ass while clerks learned nouns. So did the next pilot. So did the one after."
-
-"And now?"
-
-"Now I check before I sit." She looked back down at her manifest. "Now three corridors ask if the lip's fresh before they file fringe. Nobody owns it. Nobody posts about it. We just—" She shrugged. "—refresh it. Like the maps."
-
-"World's still adjusting," Lena said.
-
-"Best we get." The pilot shouldered her case. "You flying Meridian?"
-
-"Dawn."
-
-"Then eat something that isn't corridor paste. Drift'll charge you for the privilege."
-
-Lena almost smiled. "Story of my life."
-
-"Story of everyone's life out here." The pilot was already moving. "Check the lip when you come back through. If it's gone, tell Nadi her corridor number's lying again."
-
-Lena shouldered her bag and moved.
+She shouldered her bag and moved.
 
 ---
 
@@ -206,15 +158,13 @@ Lena walked back down to Lake Orin at dusk because the long route home touched t
 
 Tourists still turned in circles. The storm the weather board had promised showed in silver kites working faster between mirror faces—maintenance as weather, weather as maintenance, the Ribbon doing what it did when pumps dragged pressure across districts that shared sky and blamed each other politely. Meridian lights doubled in water going dark. East housing caught the last clean reflection before wind roughened the surface.
 
-A maintenance mark on lower housing gleamed when arc lamps found it—not graffiti, not sabotage, grammar. Lena glanced once. She didn't touch it. Touching had become habit on benches and lips; on housing at dusk it felt like interrupting someone else's shift.
-
 She found the railing anyway. Not to think. To confirm the place was still the place.
 
-Across the water, Meridian Arc hung where it had hung on her first morning—same towers, same trick, same locals who glanced once and kept walking. Her queue had changed: Arin answered, Vesper hummed, Jun's models said *preliminary*, marks on benches and housing and slates.
+Across the water, Meridian Arc hung where it had hung on her first morning—same towers, same trick, same locals who glanced once and kept walking. Her queue had changed: Arin answered, Vesper open with delays, Jun's models said *preliminary*, Mira catching a lamp at Bracket Turn.
 
 She didn't stop long.
 
-At the upper walk she passed a vendor packing reflection cards nobody would buy after sunset. A teacher counted children onto a shuttle stair—the same exercise, *match the housing, not the reflection*, drilled early because the Ribbon taught geography as ethics. The lake did what the lake did—doubled, indifferent, beautiful in the way infrastructure was beautiful when you stopped asking it to mean salvation.
+At the upper walk she passed a vendor packing reflection cards nobody would buy after sunset. A teacher counted children onto a shuttle stair, pointing each at a real tower before its lake copy—the same drill as every orientation day on the lower path. The lake did what the lake did—doubled, indifferent, beautiful in the way infrastructure was beautiful when you stopped asking it to mean salvation.
 
 Her jaw still set when fees lied. That hadn't changed. What had changed was the set didn't live in her teeth all night. She could sleep in a berth she didn't own and wake for corridor seven without requiring the world to make sense first.
 
@@ -222,17 +172,15 @@ Checking anyway.
 
 ---
 
-Arin's message waited in queue when she reached berth—ordinary weather joke, picture attached, east housing mark visible if you knew where to look.
+Arin's message waited in queue when she reached berth—ordinary weather joke, picture attached, tourists wedged between mirror guides on a slick patch he'd flagged.
 
 *Storms over the southern mirrors again. You'd laugh if you saw the tourists trying to navigate by reflection.*
 
 Six months ago she'd deleted replies because promises she couldn't keep felt like cruelty.
 
-She knew where to look.
-
 She typed back with half-spiced tea cooling beside her.
 
-*Saw a mark on a Drift bench. Pilot grammar. World still adjusting. Flying Meridian leg at dawn. Eat something that isn't rice.*
+*Saw Cai on a scaffold. Kites still working. World still adjusting. Flying Meridian leg at dawn. Eat something that isn't rice.*
 
 *Already did,* he sent. *Budget review still wants my name. Storm tomorrow. Mirrors will lie differently. Checking anyway.*
 
@@ -246,16 +194,16 @@ Checking anyway.
 
 ---
 
-Lena set her alarm for corridor seven and lay in a berth she didn't own yet, listening to Northhook hum through the porthole glass—doubled lights, lake below, gate open with delays, the thread wall loud somewhere she wasn't standing.
+Lena set her alarm for corridor seven and lay in a berth she didn't own yet, listening to Northhook through the porthole glass—doubled lights, lake below, gate open with delays, the thread wall loud somewhere she wasn't standing.
 
-She thought about Mira teaching Dael. Pell on a roster. Sera's soup somewhere down-Road. Toma indexing on Tuesday. Veya cataloguing alive grammar. Jun on version four. Cai climbing with thin funding. Nadi charging for nouns. Arin saving knees in rain.
+She thought about Mira catching a lamp. Pell on a roster. Sera's soup somewhere down-Road. Toma indexing on Tuesday. Veya cataloguing alive languages. Jun on version four. Cai climbing with thin funding. Nadi charging for nouns. Arin saving knees in rain.
 
 No emperor. No AI. No secret rescue. No conspiracy-as-truth.
 
 People.
 
-She closed her eyes without deciding what came after tomorrow. Manifests were for morning. Corridors were for dawn. The mark on the bench would be refreshed by someone else's hand or it wouldn't—the checking was the point, not the permanence.
+She closed her eyes without deciding what came after tomorrow. Manifests were for morning. Corridors were for dawn.
 
-Outside, announcement chimes stacked over the ring. Somewhere a gate hummed trusted and feared. Somewhere a pilot argued with a clerk who wanted a noun the paperwork hadn't learned.
+Outside, announcement chimes stacked over the ring. Somewhere a gate completed a crossing—pressure behind the eyes, hot metal, clean rain. Somewhere a pilot argued with a clerk who wanted a noun the paperwork hadn't learned. Somewhere Cai was still on a scaffold she couldn't reach, and kites were still folding into shafts, and the compass rose on her shoulder was still faded from months of carrying what pictures couldn't.
 
 Lena slept.

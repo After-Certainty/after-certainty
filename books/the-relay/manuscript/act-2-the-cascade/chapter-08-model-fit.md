@@ -54,7 +54,7 @@ Maret nodded at Lena the way administrators nodded at couriers: polite, already 
 
 "Separatist activity in the mesh tracks with gate trouble. Vesper suspension timing, reroute density, pamphlet circulation—"
 
-"My brother photographs marks on housing seams," Lena said. "He doesn't blow gates."
+"My brother sent a compass stamp on wet catwalk," Lena said. "He doesn't blow gates."
 
 Maret's expression didn't change. "Maintenance lag is in the model. It's green. It's lagging."
 
@@ -74,7 +74,7 @@ Lena looked at the queue behind them—a pilot with grease on his neck, a woman 
 
 Maret's jaw worked once. "Permission to route around harm."
 
-"Permission to charge adjacency while maintenance crews photograph seams." Lena tapped her folder. "I've got the seams. You've got the cluster. The wall's got the fees. Don't tell me seventy-four saves lives. Tell me who pays for it."
+"Permission to charge adjacency while maintenance crews check housings." Lena tapped her folder. "I've got the fees. You've got the cluster. The wall's got the surcharges. Don't tell me seventy-four saves lives. Tell me who pays for it."
 
 Maret glanced at Jun again. Jun watched Lena with the expression of someone seeing a person who wouldn't fit his chart.
 
@@ -112,7 +112,7 @@ Jun pulled up a maintenance lag layer—thin green lines trailing the red separa
 
 "Winning is a political word."
 
-"It's a courier word." Lena tapped the green lines. "My brother photographs marks instead of answering because marks are maintenance language. Your chart treats them like noise."
+"It's a courier word." Lena tapped the green lines. "My brother sends a compass stamp instead of answering because he's on a ladder checking catwalk. Your chart treats that like noise."
 
 Jun studied the layer. For a second she saw hunger—not for sabotage, for elegance. The strain of a mind that wanted the world to fit a shape it could publish.
 
@@ -212,7 +212,7 @@ Jun read them upside down with the ease of someone who'd learned to read fear in
 
 Maret's mouth tightened. "That's—"
 
-"Tuesday," Lena said. "Nadi filed Tuesday. You filed decimals. The board filed fees. My brother filed a mark on a housing seam. Same storm. Different ledgers."
+"Tuesday," Lena said. "Nadi filed Tuesday. You filed decimals. The board filed fees. My brother filed a stamp on a wet catwalk. Same storm. Different ledgers."
 
 "She's offering you a route that feels wrong," Jun said.
 
@@ -238,9 +238,9 @@ Outside the field office the wall had updated without ceremony.
 
 A Markets runner shouted updated separatist pamphlets. Two for one. Wrong border unchanged. Story tax ticked up on the housing board visible down the arcade. Lena didn't need to walk there to know. She could feel fees the way she felt weather now.
 
-At the dock housing past corridor seven, someone had added a third mark beside the seam she'd photographed—dot, stroke, steadier hand again. Checking continued. The wall didn't care.
+At the dock housing past corridor seven, a maintenance crew was checking access panels—plot work, not spectacle. Checking continued. The wall didn't care.
 
-Collision in one glance: Jun's cluster on the display behind her eyelids, pamphlet border in the folder, fee column on the board, mark on housing.
+Collision in one glance: Jun's cluster on the display behind her eyelids, pamphlet border in the folder, fee column on the board.
 
 She opened messages to Arin.
 
@@ -262,15 +262,13 @@ Jun had packed his display by then. Maret too. Belief would cascade whether they
 
 My brother is behind that gate.
 
-The sentence didn't fit his chart. It didn't need to. Charts weren't gates. Charts weren't brothers on ladders sending marks instead of answers.
+The sentence didn't fit his chart. It didn't need to. Charts weren't gates. Charts weren't brothers on ladders sending stamps instead of answers.
 
 Anger sat clean and usable in her jaw. Fuel. The kind of fuel that made you walk to the courier desk instead of back to the field office. The kind that made you reply to Nadi with **Not hiring. Still committed around. Send viable if fees jump** and mean it.
 
 She finished the noodles, filed the receipt, and walked back to housing module C.
 
-The seam mark gleamed in corridor light. Someone checking. Someone not waiting for Vesper to explain the week.
-
-Lena unfolded the desk, opened the ledger, and left **COMMITTED** where it was.
+She unfolded the desk, opened the ledger, and left **COMMITTED** where it was.
 
 Tomorrow she'd need a corridor. Nadi's fringe or the long corridor or standing still until the fees ate her standing-up margin.
 
@@ -278,13 +276,13 @@ Tonight she had anger that worked like a tool—not fire for its own sake, grip.
 
 That would have to be enough until something broke—the model, the gate, or her own habit of tracking instead of moving.
 
-She washed her face in the module's thin sink. The water tasted like metal. The seam mark watched her like a colleague she hadn't earned yet.
+She washed her face in the module's thin sink. The water tasted like metal.
 
 ---
 
 She dreamed in percentages and woke before the alarm.
 
-The housing seam mark was still there in corridor light—unchanged, unimpressed by Jun's decimals. She made tea on the module's sad burner and read the field office hours on the public lip.
+She made tea on the module's sad burner and read the field office hours on the public lip.
 
 Jun would be back at his table by second bell, serving measurement to anyone who stood still long enough.
 
@@ -300,7 +298,7 @@ No emoji. Markets dialect respect in plain text.
 
 Lena snorted into the tea. Pride wasn't the expense. Distance was. Person was. Eleven days around if corridors held and messages didn't die at relay jurisdiction.
 
-She packed the bag, checked the folder—wrong border, marks, fee strips, Jun's brief she hadn't asked for but kept—and walked to the auction bay to watch departures like weather.
+She packed the bag, checked the folder—wrong border, compass photo, fee strips, Jun's brief she hadn't asked for but kept—and walked to the auction bay to watch departures like weather.
 
 *Quick Margin*'s slot had moved from pending to **BOARDING**.
 
@@ -330,12 +328,12 @@ Lena took the strip. Paper when systems got nervous. Paper when your chest neede
 
 "Thank you," she said—courier courtesy, not forgiveness.
 
-The clerk shrugged. "Don't thank me. Thank the mark on your housing seam. Somebody's still checking walls."
+The clerk shrugged. "Don't thank me. Thank the housing crew on corridor seven. Somebody's still checking walls."
 
 She walked back toward module C with the strip in her folder and anger still working—directed, not spent.
 
 At the housing arcade mouth the board had ticked again. She didn't need to read it. Her wristband pulsed like it enjoyed the joke.
 
-In module C the seam mark gleamed—hers, Arin's rhyme, somebody else's steadier hand down the arcade. **COMMITTED** in the ledger like a promise she'd already spent money on.
+In module C **COMMITTED** sat in the ledger like a promise she'd already spent money on.
 
 Enough to move on tomorrow. Enough for tonight.

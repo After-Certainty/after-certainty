@@ -6,7 +6,7 @@ Orinreach Basin rose through the corridor window the way it always had in Arin's
 
 She was neither. She was a sister with a bag and a manifest and a corridor that had finally stopped asking her to wait.
 
-The long route had not been prayer, whatever Arin teased. It had been fees stacked on fees, Drift variance stamps, Vesper OPEN — MONITORING with her teeth still ringing, divots, a berth at Lake Orin where she'd walked the railing because stillness was harder than distance. She'd carried Toma's names and Veya's dead languages and Pell's audio tag forwarded to Sera and Cai's still of fourteen marks with zero catastrophes. She'd carried the hand-drawn map over the official one until the pencil lines felt like geography.
+The long route had not been prayer, whatever Arin teased. It had been fees stacked on fees, Drift variance stamps, Vesper OPEN — MONITORING with her teeth still ringing, divots, a berth at Lake Orin where she'd walked the railing because stillness was harder than distance. She'd carried Toma's names and Veya's dead languages and Pell's audio tag forwarded to Sera and Cai's still of the gate scaffold with zero catastrophes. She'd carried the hand-drawn map over the official one until the pencil lines felt like geography.
 
 Orinreach was not the end of that cargo. It was a handoff—to a sibling, to a basin, to the part of the pattern that stayed put while she moved.
 
@@ -48,7 +48,7 @@ They stood in rain while tourists argued about which reflection was the real pat
 
 "You came," Arin said.
 
-"You sent pictures of marks instead of answers."
+"You sent pictures of wet catwalks instead of answers."
 
 "That was an answer."
 
@@ -58,7 +58,7 @@ He almost smiled. "You reserved the long route anyway. I felt it in the messages
 
 "Don't make it poetic. I flew Drift and Meridian and a fee tier that should be illegal."
 
-"The fees are always illegal. You paid them anyway." He turned toward the east housing, where a maintenance mark gleamed near a seam she'd seen in a photograph months ago. "Storm cycle's lifting. Mirrors will lie differently tomorrow. Tourists will return. Budget review still wants my name."
+"The fees are always illegal. You paid them anyway." He turned toward the east housing, where storm scars showed on a seam she'd seen in a photograph months ago. "Storm cycle's lifting. Mirrors will lie differently tomorrow. Tourists will return. Budget review still wants my name."
 
 "Separatists?"
 
@@ -130,17 +130,21 @@ He walked them toward the east housing while rain thinned to mist—the basin's 
 
 Lena paused at the curve long enough to feel the echo land—Meridian Arc did not hang here, but the basin's doubled towers performed the same trick the lake performed at Northhook: showing you where you were by showing you where you weren't. On the Ribbon, tourists paid for that wonder and called it the sky. Here, locals called it Tuesday and walked the ugly stair.
 
-Arin didn't comment on the graffiti. He touched the maintenance mark at the seam instead.
+Arin didn't comment on the graffiti. He pulled the worn compass stamp from his pocket—the one she'd sent him as a teenager, edges soft from basin rain.
 
-"Same grammar as Northhook," Lena said.
+"You still carry it," Lena said.
 
-"Same grammar everywhere if you know how to read hands." He refreshed the dot with his tool. "Cai sends stills. You send manifests. I send pictures because pictures are cheaper than paragraphs for people who fly."
+"Pictures are cheaper than paragraphs for people who fly." He held it out. "You look like you need yours back."
 
-"I fly because flying carries what pictures can't."
+She dug in her pouch and found her own copy—faded rose on the shoulder patch, stamp in the inner pocket where couriers kept things that weren't manifest weight. She'd carried it eleven days into months. He'd carried his in place.
+
+She took his. He took hers. No ceremony. Sibling handoff—the move leg and the stay leg exchanging direction without pretending either was enough alone.
+
+"I fly because flying carries what pictures can't," she said.
 
 "Names," he said.
 
-"Names. Marks. The argument a clerk needs before he signs a variance." She watched his hands work—no performance, no reunion theater, just the job. "Long route wasn't for you alone."
+"Names. The argument a clerk needs before he signs a variance." She watched his hands close on her stamp—no performance, no reunion theater, just the job of holding what the other person couldn't take with them. "Long route wasn't for you alone."
 
 "I know."
 
@@ -172,7 +176,7 @@ Miko leaned in the doorway with a grin. "That's a family."
 
 "It's both," Lena said, and surprised herself by meaning it.
 
-She told him about First Gate without making Cai a hero—funding thin, fourteen marks, zero catastrophes. About Pell's audio and Mira's slate. About Bracket Turn finishing a sentence when the relay cut out. About Jun's *preliminary* in the title. About the purge misread and Veya's line and the slope that wasn't an event.
+She told him about First Gate without making Cai a hero—funding thin, scaffold crews short, zero catastrophes. About Pell's audio and Mira's slate. About Bracket Turn finishing a sentence when the relay cut out. About Jun's *preliminary* in the title. About the purge misread and Veya's line and the slope that wasn't an event.
 
 Arin listened the way he listened to storms—not for drama, for shape.
 
@@ -186,7 +190,7 @@ At one point he set down his spoon and said, "You're carrying too many names in 
 
 "Mira put herself on chalk."
 
-"You put marks in pictures because pictures are cheaper than paragraphs."
+"You put my stamp in pictures because pictures are cheaper than paragraphs."
 
 "And you flew eleven days into months because messages lie politely." He wasn't accusing. He was matching cargo to route—the sibling version of witness lines.
 
@@ -238,17 +242,17 @@ A budget review notice glared from an administration screen on the short path—
 
 She laughed despite herself.
 
-At the east housing he touched the mark—dot and stroke—and refreshed it with a tool from his belt.
+At the east housing he checked the seam tape—storm scar, honest wear, the kind of detail tourists never priced into tickets.
 
 "Not your official job," Lena said.
 
 "Official jobs are paperwork. Checking is older than paperwork."
 
-She thought of Cai's gloves on First Gate. Pell's roster at Two Valleys. Mira's slate at Bracket Turn. Toma's names in cold vaults. The pattern without the word that would make it feel finished.
+She thought of Cai on the First Gate scaffold. Pell's roster at Two Valleys. Mira's slate at Bracket Turn. Toma's names in cold vaults. The pattern without the word that would make it feel finished.
 
 "Long route worth it?" Arin asked, casual in the way siblings asked questions that weren't casual.
 
-Lena looked at the mark drying in the damp air. "Wrong question."
+Lena looked at the seam drying in the damp air. "Wrong question."
 
 "What question?"
 
@@ -296,7 +300,7 @@ She laughed—short, surprised. "Jun would model that."
 
 His display chimed. She didn't ask to read it. He didn't offer.
 
-Instead he sent a picture from his side—the basin at dusk, east housing, mark visible if you knew where to look.
+Instead he sent a picture from his side—the basin at dusk, east housing, her compass stamp visible on the catwalk rail where he'd leaned it after the exchange.
 
 She already knew where to look.
 
@@ -330,7 +334,7 @@ At the stair he said, "Don't come the long way on my account."
 
 "Lena."
 
-"I'm not staying. I'm not rescuing. I'm handoffing a packet for Toma and sleeping in a berth that costs too much and flying out on a corridor that still hums wrong." She adjusted her bag. "But I'm glad the mirrors are honest."
+"I'm not staying. I'm not rescuing. I'm handoffing a packet for Toma and sleeping in a berth that costs too much and flying out on a corridor that still feels wrong in my teeth." She adjusted her bag. "But I'm glad the mirrors are honest."
 
 "They're honest. The civilization is still learning what honest costs."
 
@@ -350,11 +354,11 @@ Her berth overlooked the basin's quiet side—Arin had booked it without asking,
 
 Lena unpacked with courier efficiency—manifest strip on the table, Toma packet where she wouldn't sit on it, boots drying near the heater that clicked like every berth heater she'd ever trusted. She sat by the porthole watching reflection navigation become commute below. No rescue fantasy intruded. No gate declared the reunion sufficient.
 
-Below, a mirror crew moved along the east curve with the unhurried pace of people who knew storms returned whether budget review acknowledged them or not. One worker refreshed a mark. Another recorded it. Miko's orange vest flashed between housings—speech deferred, ladder schedule winning.
+Below, a mirror crew moved along the east curve with the unhurried pace of people who knew storms returned whether budget review acknowledged them or not. One worker passed a grit mat to the next. Another recorded the slick patch. Miko's orange vest flashed between housings—speech deferred, ladder schedule winning.
 
 She had a Toma packet to hand off at the dock and a Meridian leg priced ugly and a message stack that would never be empty again in the way emptiness used to mean safety.
 
-She pulled up Arin's last sent picture—the east housing mark, fresh—and compared it to the vault photos in her folder. Dot and stroke across centuries. Not graffiti. Language of attention.
+She pulled up Arin's last sent picture—the east housing at dusk, her stamp on the rail—and compared it to the basin photos in her folder. Same stamp. Two pockets. Move and stay.
 
 On Orinreach the language was weather and hands and tourists who didn't read flags.
 
@@ -362,13 +366,13 @@ On the Ribbon it was manifests and witness lines and kites folding into shafts.
 
 On the Road it was soup and boards and children teaching children before winter.
 
-On First Gate it was hum in teeth and funding sheets and fourteen marks with zero catastrophes.
+On First Gate it was scaffold shifts and funding sheets and zero catastrophes.
 
 On Archive Moon it was Tuesday slots and names struck through and slope not event.
 
 The overlap wasn't synthesis yet—not in this chapter, not on this berth. It was the feeling before synthesis: fragments heavy enough to carry, light enough to move.
 
-She opened her manifest and checked the Meridian leg again—fees ugly, delays likely, Vesper still OPEN — MONITORING if she routed north instead of east. Either way the world would hum wrong in her teeth. Either way she'd move. That had been the long route's lesson before Orinreach, and Orinreach had confirmed it without poetry: Arin on a catwalk, Miko with the speech deferred, tourists on slick patches, marks refreshed in rain. Complementary lives. Not one corridor fixing another.
+She opened her manifest and checked the Meridian leg again—fees ugly, delays likely, Vesper still OPEN — MONITORING if she routed north instead of east. Either way the corridor would feel wrong behind her eyes. Either way she'd move. That had been the long route's lesson before Orinreach, and Orinreach had confirmed it without poetry: Arin on a catwalk, Miko with the speech deferred, tourists on slick patches, stamps exchanged in rain. Complementary lives. Not one corridor fixing another.
 
 Arin messaged once more before she slept.
 
@@ -378,7 +382,7 @@ Arin messaged once more before she slept.
 
 *Fair.*
 
-Doubled lights in the porthole. Rain on glass. Mark on housing if you knew where to look.
+Doubled lights in the porthole. Rain on glass. Her stamp in his pocket now; his in hers.
 
 She knew where to look.
 
@@ -414,4 +418,4 @@ Motion was enough.
 
 Behind her through the dock glass, Orinreach doubled once more—real basin, reflected basin, Arin turning back toward a ladder schedule that would not wait for reunions to finish feeling complete. Lena did not wave. She transited.
 
-The corridor took her the way corridors took couriers who'd stopped requiring certainty before motion—pressure, hum, teeth, bag, manifest, forward.
+The corridor took her the way corridors took couriers who'd stopped requiring certainty before motion—pressure behind the eyes, compass patch warm, bag, manifest, forward.

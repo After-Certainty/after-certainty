@@ -1,7 +1,7 @@
 # PROJECT: THE RELAY
 ### A Social Science Fiction Novel
 
-**Voice:** **[voice-spec.md](./voice-spec.md)** · **Cast:** **[character-bible.md](./character-bible.md)** · **World:** **[civilization-bible.md](./civilization-bible.md)** · **Places:** **[iconic-locations.md](./iconic-locations.md)** · **Plot:** **[synopsis.md](./synopsis.md)** · **Mystery spine:** **[mystery-beat-sheet.md](./mystery-beat-sheet.md)** · **Chapter stubs:** **[act-chapter-stubs.md](./act-chapter-stubs.md)** · **Agents:** **[agents/README.md](./agents/README.md)**
+**Voice-spec:** **[voice-spec.md](./voice-spec.md)** · **Cast:** **[character-bible.md](./character-bible.md)** · **World:** **[civilization-bible.md](./civilization-bible.md)** · **Places:** **[iconic-locations.md](./iconic-locations.md)** · **Symbols:** **[symbol-migration-plan.md](./symbol-migration-plan.md)** · **Plot:** **[synopsis.md](./synopsis.md)** · **Mystery spine:** **[mystery-beat-sheet.md](./mystery-beat-sheet.md)** · **Chapter stubs:** **[act-chapter-stubs.md](./act-chapter-stubs.md)** · **Agents:** **[agents/README.md](./agents/README.md)**
 
 ---
 
@@ -13,7 +13,11 @@
 
 > **The answer to uncertainty is participation, not certainty.**
 
+> **The Relay** — responsibility moves through people: receive · carry · pass. **Move / Stay** — Lena learns by leaving; Arin and Cai learn by staying. Neither leg is complete alone.
+
 Every major character embodies a form of participation. Nobody solves civilization. They participate in it.
+
+See **[symbol-migration-plan.md](./symbol-migration-plan.md)** for supporting images (compass, handoff, gate, doubled world).
 
 ## Story engine
 

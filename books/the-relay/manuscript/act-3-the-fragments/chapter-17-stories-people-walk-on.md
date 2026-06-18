@@ -116,7 +116,7 @@ The primary cooperative items waited after the collision:
 
 The commons story.
 
-A child slate photograph—wobbly dot and stroke drawn under supervision.
+A child slate photograph—wobbly check date written under supervision.
 
 A brief note from the station elder: *We put Pell on the roster where everyone sees. Vesper still suspended. Junction held anyway.*
 
@@ -186,7 +186,7 @@ Same storm heard through different windows.
 
 She walked the public annex after lunch—not searching villains, testing breadth. A separatist pamphlet on one wall. A keeper mirror thread on a terminal. A cooperative log thumbnail with **TWO VALLEYS** in the corner. Three stories priced for three audiences. None cancelled the morning collision in her ribs.
 
-Lena didn't post. She photographed the pamphlet anyway—wrong border rhetoric beside a maintenance mark on the housing display—and filed it under **FRAGMENTS — STORIES COMPETING**.
+Lena didn't post. She photographed the pamphlet anyway—wrong border rhetoric beside a housing check log on the display—and filed it under **FRAGMENTS — STORIES COMPETING**.
 
 Courier work.
 

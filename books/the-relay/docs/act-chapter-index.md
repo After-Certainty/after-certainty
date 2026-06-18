@@ -54,7 +54,7 @@ Each entry: POV, location, momentum beat (D=decision, R=relationship, M=discover
 
 | Ch | Title | POV | File | Beats |
 |----|-------|-----|------|-------|
-| 18 | The Dot Man | Lena | `act-4-the-keeper/chapter-18-the-dot-man.md` | Cai introduced (M) |
+| 18 | Scaffold Three | Lena | `act-4-the-keeper/chapter-18-the-dot-man.md` | Cai introduced (M) |
 | 19 | Housing 7-C | Cai | `chapter-19-housing-7-c.md` | Machinery; seals (M) |
 | 20 | Soup | Lena | `chapter-20-soup.md` | Sera substantial (R) |
 | 21 | I See You Seeing | Cai | `chapter-21-i-see-you-seeing.md` | Marks payoff (M) |

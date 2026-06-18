@@ -6,6 +6,8 @@ Lena read the number over breakfast she didn't taste and checked the suspension 
 
 Three days left on the berth. Arin hadn't written since the picture.
 
+Three days wasn't silence yet. It wasn't reassurance either. The photograph proved a catwalk once. It didn't prove anything about tonight.
+
 The tea cart had locked to the morning rail. She bought plain tea and stood where she could see the thread wall without being in the argument. Her slate showed sixty-eight; the man two meters left showed seventy-one.
 
 **SEPARATIST SABOTAGE — SIXTY-EIGHT PERCENT.**
@@ -96,7 +98,7 @@ The witness wanted to talk about border politics anyway while the scanner still 
 
 "That's not your business."
 
-"It's on your face." He shrugged. "Separatists make everybody a prophet. Don't be a prophet. Be a courier."
+"It's on your face." He shrugged. "Everybody's got a theory this week. I've got a manifest. Keep it that way."
 
 At the junction exit, a second security officer flagged her for a bag weigh-in that wasn't random—Vesper closure made everyone invent new rituals. He ran the scanner twice, frowned at the pamphlet sleeve inside her outer pouch, and said, "You carrying propaganda?"
 
@@ -110,7 +112,7 @@ He read the tag. "Wrong border."
 
 "Yes."
 
-"Not my jurisdiction." He waved her on. "But if you're flying around, every jurisdiction's going to want a piece of your fear. Get used to it."
+"Not my jurisdiction." He waved her on. "If you fly around, every scan's gonna cost you. Vesper's closed—everybody's inventing new rituals. Don't make me scan you twice."
 
 By the time she left the junction her hands were steady, her coffee was cold, and the thread wall on her wrist had gained another point she didn't need to look at to feel.
 
@@ -150,19 +152,21 @@ Version one, from a woman with sun-cracked skin: separatists had blown a seal. S
 
 "He saw transports," she insisted. "Masked corridors. You don't mask a corridor for maintenance."
 
-"You mask a corridor when you're embarrassed," the mirror-tech runner said. "Maintenance is embarrassing when the wall wants blood."
+"You mask a corridor when you're embarrassed," the mirror-tech runner said. "Maintenance doesn't sell. Blood does."
 
 The woman looked at Lena's patch. "You flying Vesper?"
 
 "Vesper's closed."
 
-"Then you're routing on fear." She said it like accusation and invitation. "Long route's full of people who decided early."
+"Then you're not deciding yet." She said it like accusation and invitation. "Long route's full of people who picked a story and left."
 
-"I'm not deciding early."
+"I'm not leaving yet."
 
-"Everybody decides." The woman walked away. "Some people just call it waiting."
+"Sure." The woman walked away. "Waiting's just deciding slow."
 
 Version two, from a man with admin shoes: cover-up. Casualty numbers. A second suspension coming.
+
+"No—hold on." He waved his cup. "That's not—that's what they say when they don't have the first answer yet. Second suspension. Same thing every time."
 
 "They always say second suspension," a pilot said. "First suspension pays better."
 
@@ -208,11 +212,11 @@ Dael met her eyes. "I believe my sister wants me to stop asking and start shippi
 
 "You never learned. You just complain after."
 
-"Fair." Dael's eyes flicked to her bag. "You still photographing marks?"
+"Fair." Dael's eyes flicked to her bag. "You still filing what doesn't fit the wall?"
 
 "Still filing what doesn't fit the wall."
 
-"Then you're not ready to leave." He said it without triumph. "When you leave, you'll stop collecting and start betting. That's committed."
+"Then you're not ready." He said it without triumph. "When you go, you'll pick a story and fly it. That's the part that costs."
 
 "Reserved isn't committed."
 
@@ -232,11 +236,9 @@ Lena didn't smile. She had a wall to look at.
 
 Afternoon on the hangar's outer corridor, where sabotage threads didn't think to look.
 
-She looked at a wall.
+On the hangar's outer corridor a maintenance crew had finished a seam check an hour ago—she could tell by the paint sheen—and moved on without an audience.
 
-On the hangar's outer corridor a maintenance crew had finished a seam check an hour ago—she could tell by the paint sheen—and left a mark at shoulder height where nobody browsing sabotage threads would think to look.
-
-Lena stood in front of it and pulled up Jun's brief on her display, the buried annex with mark refresh logs. The housing numbers didn't match Northhook's schedule. Different district, same grammar.
+Lena stood in front of the fresh seal and pulled up Jun's brief on her display, the buried annex with housing check logs. The housing numbers didn't match Northhook's schedule. Different district, same work language.
 
 A keeper in grays passed, saw Lena looking, and slowed.
 
@@ -248,9 +250,7 @@ A keeper in grays passed, saw Lena looking, and slowed.
 
 "It's a check." The keeper kept walking. "People on the wall want a name. I'm not giving them one."
 
-Lena photographed the mark anyway.
-
-She compared the mark photo to the pamphlet border in **STORIES**. Wrong map. Same grammar on the seam. The wall had a percentage for the map and none for the mark.
+She compared the schedule numbers to the pamphlet border in **STORIES**. Wrong map. Same hands-on-walls story the wall wouldn't carry. The wall had a percentage for the map and none for the check.
 
 A hangar runner passed with a crate labeled ORINREACH—rerouted, stickered twice, proof the wall didn't need to be true to move boxes.
 
@@ -258,81 +258,63 @@ A hangar runner passed with a crate labeled ORINREACH—rerouted, stickered twic
 
 Fourteen hundred on the observation lip, and Jun was measuring what the wall had already decided.
 
-Jun's public briefing was posted on the observation lip at fourteen hundred.
-
 Lena climbed because she needed to know what Jun was telling the wall, and because altitude made lies easier to see.
 
 The lip was crowded for a weekday—students, reporters, a pair of keepers in grays standing at the back as if they'd been assigned to witness measurement without participating in it.
 
 The separatist attribution held at sixty-eight and climbing. The brief called it *likely explanatory frame for current public behavior.* Jun had learned to speak administrator without sounding human.
 
-He was there in person, answering questions for students and a transit reporter with the calm of someone whose model had survived a second night.
-
-The reporter asked whether the Bureau had a position on reopening. Jun said *not my department* with the calm of a man who'd practiced being disappointing. A student asked whether maintenance posts were being suppressed. Jun said *people choose stories* and Corin wrote faster.
-
 Corin stood beside him with a tablet and the hungry look of someone still believing measurement was approval.
 
-A student in the front row asked whether the Bureau could show the route clip again. Jun said, "We can show what was submitted. Submission isn't verification."
+The reporter asked whether the Bureau had a position on reopening. Jun said *not my department* with the calm of a man who'd practiced being disappointing.
 
-The student pressed: "But the timing—"
+A student asked whether the Bureau could show the route clip again. Jun said, "We can show what was submitted. Submission isn't verification."
 
-"Timing is a story people like." Jun's voice didn't change. "I measure liking. I don't issue seals."
+"People believe it."
 
-A reporter at the edge asked whether the Bureau had reviewed the separatist pamphlets circulating at junction kiosks. Jun said, "We review submissions. Circulation isn't verification."
+"Belief isn't my department." Jun's voice didn't change. "I don't stamp corridors."
 
-"So the border maps—"
+"So you're useless," the student said.
 
-"Are wrong on purpose or by mistake. Either way, they're maps, not routes." Jun gestured at the screen behind him. "People are rerouting on maps. I'm measuring that."
+Jun blinked. "I'm useful at counting. Different thing."
 
-Corin wrote faster.
+A reporter at the edge asked about separatist pamphlets circulating at junction kiosks. Jun said, "Circulation isn't verification."
 
-Lena waited until the small crowd thinned and Jun's shoulders dropped a fraction—exhaustion, not performance.
+"The border maps—"
+
+"Wrong." Jun gestured at the screen behind him. "Some on purpose. Some by mistake. People are flying off them anyway. I'm counting that."
+
+A keeper at the back spoke up—the first time Lena had heard one volunteer on the lip. "Those posts aren't votes. Stop putting our logs on the same chart as sabotage threads."
+
+Jun nodded. "Noted."
+
+The crowd thinned. Jun's shoulders dropped a fraction—exhaustion, not performance.
 
 "You still think maintenance isn't catching," she said.
 
-Jun glanced at her. "I think blame travels faster than work. The chart hasn't changed its mind."
+Jun glanced at her. "Chart hasn't moved."
 
 "The chart doesn't have a brother."
 
-"No." He said it without flinching. "The chart covers twelve gate towns and the Ribbon loop. Your brother is one person in one basin. I don't say that to wound you."
-
-"I know how you say it." Lena kept her voice level. "You say it like he's small on purpose."
-
-Jun was quiet a beat. "What would you prefer?"
+"No." He rubbed his eyes—brief, unprofessional. "Your brother is one person. One basin. I didn't say that to wound you. I said it because you're asking me for a seal and I don't have one."
 
 "A reason. On a bulletin. From someone with a seal."
 
-"I would prefer that too. I don't have a seal." He turned his tablet so she could see the green line—keeper posts, tolerance logs, mark schedules—pressing against the red mass. "This is what I have."
+"I would prefer that too." He turned his tablet so she could see the green line—keeper posts, tolerance logs, housing schedules—pressing against the red mass. "This is what I have."
 
-Lena looked at the chart. The green line wasn't zero. It just wasn't winning.
+The green line wasn't zero. It just wasn't winning.
 
 "If it's wrong," she said, "your model breaks."
 
-"If it's wrong," Jun said, "I'll publish that too."
-
-A student with a tablet asked Jun whether the Bureau recommended rerouting. Jun said, "The Bureau recommends measuring what people do, not what they should do."
-
-Another student asked whether maintenance marks meant sabotage. Jun said, "It means someone checked a wall." Corin wrote faster.
-
-A keeper at the back spoke up—first time Lena had heard one volunteer on the lip. "Marks aren't votes."
-
-The crowd turned. Jun nodded. "Thank you. That's correct."
-
-The keeper didn't look grateful. "Stop measuring us like we are."
-
-Jun said, "Noted," and moved to the next question.
+"If it's wrong," Jun said, "I'll publish that too. Corin will insist anyway."
 
 Corin caught Lena's eye on his way past—tired, impatient, still hungry. "If you find ground," he said quietly, "publish plain. Jun can't."
 
-"I don't have a seal either."
+"Then file what you find." Corin was already walking. "Plain language. Not for Jun—for people who read fees before annexes."
 
-"Then photograph seams." Corin was already walking. "Seams don't need seals."
+Jun's shoulders tightened without turning. "Seams still need funding."
 
-Jun had heard that—Lena could tell by the way his shoulders tightened without turning. He said, quietly, to no one in particular, "Seams still need funding."
-
-The keeper at the back answered, "Seams need brushes. Funding's your department."
-
-Jun didn't argue. He wrote something on his tablet instead.
+The keeper answered, "Seams need brushes. Funding's your department."
 
 Lena left before she could ask a question she already knew he wouldn't answer.
 
@@ -350,7 +332,7 @@ A vendor sold festival ribbons and, in the same breath, blamed separatists for V
 
 For half a block the separatist story had a face.
 
-She passed a housing seam with a fresh mark. A maintenance crew coiling hose, paint tin open, apprentice wiping a brush on a rag that would never be clean again.
+She passed a housing seam where a maintenance crew was coiling hose, paint tin open, apprentice wiping a brush on a rag that would never be clean again.
 
 "You done?" the crew lead asked the apprentice.
 
@@ -358,23 +340,17 @@ She passed a housing seam with a fresh mark. A maintenance crew coiling hose, pa
 
 "Done enough for the log."
 
-The apprentice scratched the mark—dot, stroke—and capped the tin. No audience. No percentage. Just a seam that would take weather better tonight than yesterday.
+No audience. No percentage. Just a seam that would take weather better tonight than yesterday.
 
-"You need a witness?" the crew lead asked Lena, noticing her patch.
-
-"Already got one." She tapped her bag. "Photo witness."
-
-"Photos don't keep rain out."
-
-"No. Brushes do."
-
-The crew lead grunted approval and coiled hose. Lena walked on.
+The crew lead grunted at Lena's patch and coiled hose. Lena walked on.
 
 A vendor at the next stall sold fried lake skewers and blamed separatists for the price of oil. A teenager in festival paint argued that resting meant the gate was dead and her friend argued resting meant the gate was napping and they were both loud enough to be wrong in stereo.
 
 A woman in festival colors bumped Lena's shoulder and apologized without stopping, already back in an argument about separatists. A child broke away from a guide group to stamp a reflection in a shallow pool. The pool held Meridian Arc. The child held nothing but delight.
 
 Lena checked Arin's queue at a kiosk near the lake path. Nothing new.
+
+She asked the transit aide whether basin mirrors logged contact loss when a gate suspended. "Basin's not Northhook," the aide said without looking up. "Try Orinreach." She was eleven days from Orinreach if she committed. She didn't ask again.
 
 She stood at the railing where she'd met the pilgrim days ago. The tourist the pilgrim had watched had graduated to confident wrong turns. The lake hadn't changed. The bulletin had.
 
@@ -387,15 +363,5 @@ Not **COMMITTED**.
 Not yet.
 
 She walked back to Northhook with the festival at her back and the thread wall still climbing ahead.
-
-At the transit ring she passed Jun and Corin heading down from the lip—Jun with his tablet, Corin with his hungry tired face. Corin nodded to Lena like they'd become allies without agreeing on anything.
-
-"Morning release will be worse," Corin said quietly as he passed.
-
-"For who?"
-
-"Anyone who needs a body to blame." He didn't stop walking. "If you find ground, post it plain. Not for Jun. For tea carts."
-
-Jun didn't look back. Lena didn't call after him. She had enough sanded verbs in **STORIES** already.
 
 She slept badly and dreamed in percentages.

@@ -4,7 +4,102 @@ Living catalog for [21-contemporary-dialogue-agent.md](./agents/21-contemporary-
 
 ---
 
-## Act I — known flags (pilot fixes applied Ch. 1)
+## Act I — dialogue pass (2026-06-17, external dev editor pilot)
+
+| Location | Flag line | Type | Status |
+|----------|-----------|------|--------|
+| Ch. 1 — keeper wall | "Exciting gets freight…" / "Percentages don't climb" | Keynote | **Rewritten** |
+| Ch. 1 — pilgrim | "Worried is a full-time job" | Aphorism | **Rewritten** |
+| Ch. 1 — mirror-tech rep | "mirrors start lying" | Abstraction | **Rewritten** |
+| Ch. 1 — Dael | "Arguing is fuel" | Aphorism | **Rewritten** |
+| Ch. 2 — crew lead | work/fear thesis; profits uniform | Keynote | **Rewritten** |
+| Ch. 2 — Jun lip | legible world; stories assign blame; fear train | Keynote | **Rewritten** |
+| Ch. 2 — Jun close | slower is sometimes right | Aphorism | **Rewritten** |
+| Ch. 3 — Arin texts | bulletin voice | Thesis | **Rewritten** |
+| Ch. 3 — keepers | blame/safe/administration | Keynote | **Rewritten** |
+| Ch. 4 — hangar/Dael/Jun/Corin | prophet/committed/Bureau/ground truth | Keynote | **Rewritten** |
+| Ch. 5 — departure hall | sell stories / same ledger | Aphorism | **Rewritten** |
+
+### Round 2 (2026-06-17 — external editor feedback)
+
+| Location | Was | Now | Status |
+|----------|-----|-----|--------|
+| Ch. 2 — Jun lip | "Especially when there's no evidence. That's why they pay me." | Scary version / fees move without proof | **Rewritten** |
+| Ch. 2 — Jun green line | "Because blame has a face. Work orders don't." | "Nobody clicks the boring post… somebody to yell at" | **Rewritten** |
+| Ch. 2 — Jun | "I sound awake" / "relieved I can count it" | Shorter; not enjoying this | **Rewritten** |
+| Ch. 2 — Jun | "depth exists" / "data I can't use" | "Nothing" / "not on my chart" | **Rewritten** |
+| Ch. 2 — Jun close | "Slow still beats wrong" | Ask Nadi for ground | **Rewritten** |
+| Ch. 2 — crew lead | work/fear seam thesis | "I don't fix the wall. I fix seams." | **Rewritten** |
+| Ch. 4 — Jun lip | "I know what people believe" | "Belief isn't my department" | **Rewritten** |
+| Ch. 4 — hangar runner | "wall wants blood" | "Blood does" | **Rewritten** |
+
+### Round 6 (2026-06-17 — 9.1 feedback: pilgrim agenda + clutter)
+
+| Location | Change | Status |
+|----------|--------|--------|
+| Ch. 1 — pilgrim | Knew runner; shift overlap anger; Lena offers directions wrong | **Rewritten** |
+| Ch. 2 — Jun | "Somebody to yell at" / "they're handy" — messier search | **Rewritten** |
+| Ch. 3 — apprentice | "They read the—the summary"; stylus fumble | **Added clutter** |
+| Ch. 4 — hangar | Admin-shoes rambler self-correction | **Added clutter** |
+
+### Round 7 (2026-06-17 — holistic 9.1 polish; not dialogue surgery)
+
+| Location | Change | Status |
+|----------|--------|--------|
+| Ch. 1 — pilgrim | Loose bead string; son pickup at relay ring (non-theme) | **Added** |
+| Ch. 1 — Arin queue | Six days w/ Vesper closed ≠ usual silence; morning no-reply ambiguity | **Added** |
+| Ch. 1 — orange woman | "I don't know who's right" | **Dulled** |
+| Ch. 2 — Bureau aide | Failed slate handoff — "Not my job" / dead end | **Failed convo** |
+| Ch. 2 — Jun/Corin | Chart legend bickering before sabotage % read | **Ordinary beat** |
+| Ch. 2 — apprentice | "I don't know why nobody reads it" | **Dulled** |
+| Ch. 3 — Arin stamp | Checked catwalk ≠ still on it / storm since stamp | **Ambiguity** |
+| Ch. 3 — transit kid | "I don't know" / back to wiping screen | **Dulled** |
+| Ch. 4 — Arin gap | Photo proves once, not tonight; kiosk basin redirect fail | **Ambiguity + failed convo** |
+| Ch. 5 — open | Delivered ≠ read ≠ fine | **Ambiguity** |
+
+**External score (Act I):** **9.1/10 overall** (dialogue **9.2**) — publishable with revision; editor pivot: **pacing / page time**, not more dialogue passes.
+
+---
+
+| Location | Change | Status |
+|----------|--------|--------|
+| Ch. 1 — pilgrim (Sera) | Biscuit, knees, misunderstanding, rehearsal; less symbolic exit | **Rewritten** |
+| Ch. 2 — crew lead | "Slower than fear" → concrete hour/seconds | **Rewritten** |
+| Ch. 2 — Jun waves | Corin interrupts mid-sentence | **Added friction** |
+| Ch. 3 — bench courier | Vesper vs Orinreach talking past each other | **Misunderstanding** |
+| Ch. 5 | Duplicate desk paragraph removed | **Fixed** |
+
+**External score (Act I):** **8.7/10** — publication-ready; ceiling = voice distribution not line quality.
+
+**Do not touch:** Lena/Arin Ch. 3 relay thread; Corin value-system lines; worker one-liners editor praised.
+
+| Location | Change | Status |
+|----------|--------|--------|
+| Ch. 2 — Bureau clerk | "Corrections compete" → rambling post-order guess | **Rewritten** |
+| Ch. 2 — crew lead | Quote line → "That's today's job"; fix duplicate Vesper beat | **Rewritten** |
+| Ch. 2 — apprentice | Repeats "Nobody liked it yesterday either" | **Added clutter** |
+| Ch. 2 — Jun | Truth/odds + fear-first lines → broken sentences | **Rewritten** |
+| Ch. 2 — Jun dusk | "Politics will soften a verb" → "They'll sand the verbs" | **Rewritten** |
+
+**Keep:** Arin *Nobody clicks it* (bulletin voice Lena pushes back on); *Gates rest* rope-line exchange; Lena/Arin *Fine. Eat. Sleep.*
+
+### Round 3 (2026-06-17 — Jun messiness pass)
+
+| Location | Change | Status |
+|----------|--------|--------|
+| Ch. 2 — waves | First/second/third framework → fragmented; Corin "three-wave model"; "It's Tuesday" | **Rewritten** |
+| Ch. 2 — odds line | Polished true/winning → stumble; "My brother isn't a bet" | **Rewritten** |
+| Ch. 2 — green line | Quotable click/yell → "I counted clicks" | **Rewritten** |
+| Ch. 2 — student/reporter | Syllabus summary → live exchange; "Don't try me for hope" | **Rewritten** |
+| Ch. 2 — dusk | "Identity wave comes third" → messier third-part speech | **Rewritten** |
+| Ch. 4 — briefing | Corin answers maintenance; student "So you're useless"; Jun blinks | **Rewritten** |
+| Ch. 4 — Lena/Jun | Chart stumble; rubs eyes; voice roughens; publish hesitation | **Rewritten** |
+
+**Protected:** Lena/Arin texts; clerks; orange woman; tea vendor; Corin sister/fees lines; supervisor "Then use it louder."
+
+---
+
+## Act I — known flags (pilot fixes applied Ch. 1, prior pass)
 
 | Location | Flag line | Type | Status |
 |----------|-----------|------|--------|
