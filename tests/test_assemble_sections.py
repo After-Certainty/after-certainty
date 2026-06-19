@@ -11,7 +11,11 @@ SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-from assemble import assemble_index_sections, assemble_markdown_units, assemble_part_sections  # noqa: E402
+from assemble import (  # noqa: E402
+    assemble_index_sections,
+    assemble_markdown_units,
+    assemble_part_sections,
+)
 
 
 @pytest.fixture
