@@ -2,21 +2,25 @@
 
 The desire for certainty weakens unevenly. People rarely abandon it all at once. Instead it returns in smaller forms—the hope that one more explanation will finally settle the matter, that one more conversation will finally produce agreement, that one more decision will finally quiet the worry, that saying the right thing will finally make the situation easier to carry.
 
-Part I followed several of those hopes to their limits—not because correctness is worthless, explanation is useless, or judgment, responsibility, and speech no longer matter, but because each of them was being asked to carry more than it could carry. Correctness was being asked to secure identity. Explanation was being asked to substitute for response. Heroes and villains were being asked to simplify a world that no longer fit inside those categories.
+We have spent three chapters discovering that uncertainty survives the things we hoped would remove it. Correctness, explanation, and moral sorting each began as something useful—and each gradually became asked to carry more than it could carry. By the end, the chapters were already pointing elsewhere: toward judgment that could revise, responsibility that could persist without control, speech that could remain answerable to effects. The boundary between diagnosis and practice was never as clean as the table of contents suggests.
 
 The patterns became visible. The tension remained.
 
-That can feel like loss. When familiar forms of certainty weaken, the instinct is often to replace them quickly—to construct a more sophisticated certainty, to turn understanding into another shelter, to search for a technique that will finally remove the discomfort understanding could not. These impulses are understandable.
+The photograph settled the question about the tree. The relationship still had to survive the correction.
 
-The uncertainty is still there. The disagreement is still there. The responsibility is still there.
+The map improved. The distance remained.
 
-A family finally schedules the appointment. The worry remains.
+The appointment was scheduled. The waiting continued.
 
-A friend understands why the relationship failed. The grief remains.
+The visit ended. Responsibility remained.
 
-A difficult conversation ends. The consequences continue.
+The message was sent. The misunderstanding continued.
 
-Life keeps presenting situations that understanding alone cannot finish. The temptation is to keep searching for what will.
+Again and again, understanding arrived without delivering the relief it seemed to promise.
+
+That can feel like loss. When familiar forms of certainty weaken, the instinct is often to replace them quickly—to search for a more durable explanation, a more defensible position, a more sophisticated certainty. The uncertainty is still there. The disagreement is still there. The responsibility is still there.
+
+Life keeps presenting situations that understanding alone cannot finish.
 
 What follows begins from a different assumption. Perhaps the point is not to remove the tension. Perhaps the point is to learn how to carry it honestly.
 
@@ -24,7 +28,7 @@ This is where practice begins—not as a replacement for certainty, not as a tec
 
 None of these practices eliminate uncertainty. None provide final reassurance. None resolve the tension once and for all. They do something smaller, and perhaps more durable—they help us remain in contact with reality after certainty has stopped protecting us from it.
 
-The chapters that follow take up three of these disciplines: when judgment must act without claiming closure; when responsibility persists where control does not; when speech must do less harm than urgency often demands.
+The chapters that follow take up three places where that contact must be practiced—the appointment that must still be made, the visit that must still be kept, the message that must still be judged by what it does once it leaves your hands.
 
 What follows is not certainty restored.
 

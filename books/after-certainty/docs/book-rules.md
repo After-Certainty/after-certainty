@@ -74,7 +74,7 @@ Portable compressions for virtues that distort under scale—not a pattern catal
 - Use a single bold line: `**Explanation Replaces Response.**`
 - No pattern callout boxes, formal “Pattern:” sections, or numbered taxonomies in chapter prose
 - Do not place bold pattern names inside opening scene text
-- Ten core patterns only, **locked** for this book (see `docs/pattern-language.md`); WOLTY-like rhythm: 3–5 words with directional motion; field guide in `back-matter/appendix-a-stabilizers-and-distortions.md` (recognition after reading, not prerequisite)
+- Ten core patterns only, **locked** for this book (see `docs/pattern-language.md`); WOLTY-like rhythm: 3–5 words with directional motion; field guide in `back-matter/appendix-stabilizers-and-distortions.md` (recognition after reading, not prerequisite)
 
 ## Citation and glossary
 

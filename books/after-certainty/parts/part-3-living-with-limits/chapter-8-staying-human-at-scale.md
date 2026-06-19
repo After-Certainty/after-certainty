@@ -52,6 +52,14 @@ This is not primarily a moral failure. It is how scale functions. Large systems 
 
 The danger begins when the abstraction starts replacing the reality it was meant to summarize. A forest disappears into acreage. A neighborhood disappears into demographics. A person disappears into a category. The summary becomes easier to see than what it summarizes.[^c8-moral-distance]
 
+The challenge is not unique to institutions. Entire societies struggle to remember the people hidden inside their summaries. Wars are often discussed through abstractions—casualty counts, troop movements, strategic objectives, territories gained and lost. The larger the conflict becomes, the easier it is for individual lives to disappear inside the summary.
+
+The Vietnam Veterans Memorial in Washington, D.C. operates against that tendency. The war remains a historical event. The casualty figures remain historically important. Yet visitors often describe a different experience when standing before the wall itself. Thousands of names stretch across polished stone. The abstraction does not disappear. It becomes difficult to encounter the abstraction without also encountering particular people.
+
+A number summarizes loss. A name restores contact.
+
+Nothing about the war changes. The scale remains. The history remains. What changes is attention. The memorial functions as a form of friction—it interrupts the natural tendency of scale to compress human beings into statistics, categories, and trends, and asks visitors to slow down long enough for a summary to become a collection of lives again.
+
 Blame compresses complexity into a face. Scale compresses it into a trend. Both forms of compression make suffering easier to overlook.
 
 ### **Attention Restores Contact**
@@ -111,6 +119,8 @@ The photograph still hung in the hallway. Thirty-two students. Matching smiles. 
 Someone passing by would still see a class. Someone else might see a boy who never reached adulthood.
 
 Neither observation is false. One is simply closer to contact.
+
+The hallway did not become simpler because someone remembered a name. It became harder to treat the summary as sufficient.
 
 Staying human at scale does not eliminate abstraction. It prevents abstraction from becoming the whole story.
 

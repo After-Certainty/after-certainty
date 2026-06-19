@@ -11,7 +11,7 @@ SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-from assemble import assemble_index_sections, assemble_part_sections  # noqa: E402
+from assemble import assemble_index_sections, assemble_markdown_units, assemble_part_sections  # noqa: E402
 
 
 @pytest.fixture
@@ -63,3 +63,28 @@ def test_assemble_index_sections_includes_front_matter(sample_book: Path) -> Non
     sections = assemble_index_sections(sample_book)
     assert sections[0].heading == "Front Matter"
     assert sections[0].slug == "front-matter"
+
+
+def test_assemble_markdown_units_skips_out_of_book_links(tmp_path: Path) -> None:
+    book = tmp_path / "book-a"
+    sibling = tmp_path / "book-b"
+    (book / "chapters").mkdir(parents=True)
+    sibling.mkdir(parents=True)
+    (book / "chapters" / "one.md").write_text("# One\n", encoding="utf-8")
+    (sibling / "index.md").write_text("# Other book\n", encoding="utf-8")
+    (book / "index.md").write_text(
+        """# Book A
+
+## Chapters
+
+- [One](chapters/one.md)
+
+## Related books
+
+- [Book B](../book-b/index.md)
+""",
+        encoding="utf-8",
+    )
+
+    units = assemble_markdown_units(book)
+    assert [path.name for path in units] == ["one.md"]

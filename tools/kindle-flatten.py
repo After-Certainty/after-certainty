@@ -5,9 +5,13 @@ import sys
 from pathlib import Path
 
 _TOOLS_DIR = Path(__file__).resolve().parent
+_SCRIPTS_DIR = _TOOLS_DIR.parent / "scripts"
 if str(_TOOLS_DIR) not in sys.path:
     sys.path.insert(0, str(_TOOLS_DIR))
+if str(_SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS_DIR))
 
+from assemble import resolve_book_markdown  # noqa: E402
 from diagram_rasterize import rasterize_book_diagrams  # noqa: E402
 
 
@@ -140,10 +144,12 @@ def main() -> None:
 
     indexed = parse_index_links_with_part_markers(index_path.read_text())
     chunks = []
+    seen: set[Path] = set()
     for part_h1, rel in indexed:
-        fp = book_dir / rel
-        if not fp.exists():
+        fp = resolve_book_markdown(book_dir, rel)
+        if fp is None or fp in seen:
             continue
+        seen.add(fp)
         text = fp.read_text()
         text = strip_inline_cover_image(text)
         if args.flatten_custom_blocks:

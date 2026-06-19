@@ -46,7 +46,21 @@ What begins as care can slowly become protection of the story itself.
 
 **Admiration Becomes Insulation.**[^c3-motivated-reasoning]
 
-The teacher's community had not needed a conspiracy to protect him. Gratitude had already done the work.
+The teacher's community had not needed a conspiracy to protect him. Gratitude had already done the work. The same admiration that makes trust possible can also make scrutiny expensive.
+
+The same pattern appears at larger scales, though the stories become more visible. Few twentieth-century figures have been sorted as many different ways as J. Robert Oppenheimer.
+
+During World War II, Oppenheimer became one of the central leaders of the Manhattan Project. To many Americans, he represented scientific brilliance placed in service of an urgent cause. The war ended, the atomic bomb became part of history, and a heroic narrative emerged naturally enough: the brilliant physicist who helped defeat fascism and bring a devastating conflict to a close.
+
+The story was not entirely false. Neither was it complete.
+
+As the nuclear age unfolded, the same facts began supporting different interpretations. Oppenheimer's role in creating the bomb no longer appeared solely as a triumph of science and national defense. For some, it became inseparable from the destructive power that followed. The hero became harder to sort. The story required more context than a simple narrative could comfortably contain.
+
+Then came another shift. During the Cold War, Oppenheimer's security clearance was revoked after a highly publicized hearing. To some observers, he became a cautionary tale about political loyalty; to others, a victim of political fear. Decades later, historians would revisit the episode again, often portraying him as a principled dissenter caught inside forces larger than himself—hero, villain, patriot, threat, visionary, tragic figure. The categories changed. The person remained stubbornly difficult to fit inside them.
+
+What is striking about Oppenheimer is not that one interpretation finally won. It is that each interpretation simplified something. Every version reduced a complicated human being into a moral role that helped others orient themselves—the hero providing reassurance, the villain providing blame, the martyr providing meaning. Each story highlighted part of reality while obscuring another part.
+
+The question is not whether Oppenheimer was admirable, blameworthy, courageous, flawed, or consequential. The question is whether those categories are sufficient. They help us orient. They rarely help us understand.
 
 ### **What Villains Make Possible**
 

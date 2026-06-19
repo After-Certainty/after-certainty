@@ -36,15 +36,17 @@ Anyone who has watched a relationship unravel has seen this happen. Sometimes tw
 
 The map improves. The distance remains.
 
-The same thing happens in institutions. A report explains why deadlines were missed. A postmortem reconstructs a preventable failure. A committee identifies contributing factors with impressive precision. The analysis is not wrong; in many cases it is excellent. The people affected by the problem may even be grateful that someone took the time to understand what happened.
+The distinction becomes easier to see in hindsight than in the moment. In 2003, the Space Shuttle Columbia broke apart during reentry, killing all seven astronauts aboard. The disaster did not occur because people lacked information. In the days after launch, engineers had already identified a foam strike against the shuttle's wing—questions were raised, images requested, analyses performed, meetings held. The event was discussed repeatedly inside the organization.
 
-But understanding and repair are not the same act. The report explains the delay, and the delay continues. The diagnosis explains the illness, and the illness remains. The history explains the conflict, and the conflict persists. A map solves a different problem than a journey.
+After the accident, investigators reconstructed the chain of decisions in extraordinary detail. The Columbia Accident Investigation Board produced hundreds of pages of findings: technical failures, organizational failures, communication failures; incentives, assumptions, reporting structures, and patterns of normalization all examined. The resulting explanation was remarkable. It explained far more than the loss of a spacecraft—how intelligent people inside a sophisticated institution could gradually become accustomed to warning signs that should have felt alarming, how concerns could be raised without becoming decisions, how familiarity can quietly transform risk into routine.
 
-Perhaps this is why explanation can feel so satisfying. Understanding changes our experience immediately. Confusion gives way to orientation. Chaos becomes structure. Events become narrative. A frightening situation becomes something that can be discussed, analyzed, and understood.
+The map improved dramatically. The astronauts were still gone.
 
-Something real has happened. The map is better.
+This is not an argument against investigation. The investigation mattered; future missions became safer because people took the time to understand what had happened. A lesser institution might have settled for blame or denial. But the report and the response were not the same thing. The report illuminated the terrain; it did not walk the road.
 
-What has not necessarily happened is movement.
+The Columbia investigation demonstrated the value of understanding and also revealed its limits. No amount of additional analysis could reverse the loss; no refinement of the explanation could remove the responsibility to decide what would happen next. At some point the central question ceased to be what had happened and became what the institution owed the future because of what had happened.
+
+That transition is easy to miss. The map becomes detailed enough that it begins feeling like the journey itself—but understanding is not repair, explanation is not response, and orientation is not movement. The map improves. The traveler has not moved.
 
 Explanation also creates distance. It converts pain into structure, events into patterns, and suffering into something that can be analyzed instead of simply endured. That distance is often how human beings survive difficult things—not because distance removes harm, but because remaining inside it without any framing is not always possible.
 

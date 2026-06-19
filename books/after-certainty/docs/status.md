@@ -43,7 +43,7 @@
 | Ch 8 | draft | complete | complete | complete | complete | complete | complete | complete | complete | complete | complete | Author rewrite: class photo + exception report |
 | Ch 9 | draft | complete | complete | complete | complete | complete | complete | complete | complete | complete | complete | Author rewrite: relationship/journal vignette |
 | Conclusion | draft | complete | complete | complete | complete | complete | complete | complete | complete | complete | complete | Author rewrite: chapter callbacks; image ending |
-| Appendix A | draft | complete | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | Meta-pattern lead; conditions of drift; Ch 9 in prose |
+| Appendix | draft | complete | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | Meta-pattern lead; conditions of drift; Ch 9 in prose |
 | Bibliography | draft | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | Chicago-style (unchanged) |
 
 ## Author gate
@@ -64,7 +64,7 @@ Manuscript files under `books/after-certainty/` (Jun 2026; `wc -w` on markdown u
 | Front matter (intro, how-to-read) | 1,570 |
 | Part bridges (3) | 1,181 |
 | Conclusion | 1,155 |
-| Appendix A + bibliography | 1,617 |
+| Appendix + bibliography | 1,617 |
 | Title page + copyright (generated) | 88 |
 
 | Chapter | Words |

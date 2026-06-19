@@ -18,16 +18,16 @@ Under those conditions people rarely loosen their grip. They tighten it—to cer
 
 Not because they are foolish. Because uncertainty is expensive, ambiguity is tiring, and people still need somewhere to stand.
 
-Most of these responses begin as forms of care. The difficulty is that they slowly become responsible for more than they can carry.
+Most of these responses begin as forms of care. Correctness helps people coordinate around reality. Explanation helps people orient themselves after confusion. Admiration helps communities extend trust. Moral narratives help people locate harm and responsibility.
 
-Correctness begins helping people know what is true, then becomes responsible for who they are. Explanation begins helping people understand what happened, then becomes responsible for what should be done. Admiration begins helping people trust, then becomes responsible for protecting the people they trust from scrutiny. Sorting begins helping people locate harm, then becomes responsible for closing the moral account before judgment has finished.
+None of these are mistakes. The difficulty begins when they become responsible for more than they can carry—when we keep asking useful things to do impossible things. Correctness starts helping people determine what is true and gradually becomes responsible for protecting who they are. Explanation starts helping people understand what happened and gradually becomes responsible for deciding what should be done. Admiration starts helping people trust and gradually becomes responsible for protecting trusted people from scrutiny. Moral narratives start helping people orient themselves and gradually become responsible for resolving complexity they cannot actually contain.
 
-What begins as orientation gradually becomes shelter. What begins as shelter gradually becomes confinement.
+What begins as orientation slowly becomes shelter. What begins as shelter slowly becomes confinement.
 
 None of this requires abandoning truth, understanding, or moral seriousness. The question is what must loosen when understanding alone can no longer deliver closure.
 
-The chapters that follow take up three of these pressures: when being right matters more than remaining revisable; when understanding begins substituting for response; when heroes and villains simplify people faster than judgment can keep pace.
+The chapters that follow explore three places where useful things become overburdened. A disagreement about a tree becomes a question of identity. A map becomes confused with the journey. Trust becomes tangled with the stories people tell about one another.
 
-What follows is not demolition.
+Each begins as an attempt to navigate uncertainty. Each gradually becomes something else.
 
-It is making room.
+What follows is not demolition. It is making room.

@@ -46,6 +46,18 @@ What has changed is not uncertainty itself. What has changed is responsibility. 
 
 It is easy to treat the act of deciding as proof that the moral account has been balanced, or to narrate the decision afterward as if it settled more than it actually settled. People often become more forceful as uncertainty increases—not because the situation has become clearer, but because ambiguity has become harder to tolerate. Closure starts looking like the only way to restore coherence. Decisions begin carrying emotional burdens they were never designed to carry: reassurance, belonging, the feeling that the room can finally stop arguing.
 
+History often remembers difficult decisions as though the correct path had been visible all along. The Cuban Missile Crisis is frequently remembered this way. Looking backward, it is tempting to tell a simple story: Soviet missiles were discovered in Cuba, President Kennedy chose a course of action, the crisis ended, nuclear war was avoided. The people living through the crisis experienced something very different.
+
+The photographs revealed missiles. They did not reveal intentions. American leaders did not know whether additional weapons were already operational, how Soviet leaders would respond to military action, whether a blockade would succeed, or whether a confrontation would escalate beyond anyone's control. Every option carried uncertainty. An air strike might remove the missiles—or trigger retaliation; a blockade might create time—or create pressure; diplomacy might resolve the crisis—or allow conditions to worsen. No meeting produced certainty. What emerged instead was a series of judgments made under conditions that remained incomplete.
+
+The temptation in moments like these is to treat decisiveness as certainty—a decision is made, a direction is chosen, and the story begins organizing itself around the assumption that the correct answer has finally been identified. But the crisis did not end because uncertainty disappeared. It unfolded while uncertainty remained. New information continued arriving, assumptions continued changing, risks continued shifting; decisions were made, revised, reconsidered, and adapted as events unfolded.
+
+The achievement was not certainty. The achievement was remaining capable of judgment without pretending certainty had arrived.
+
+The crisis eventually ended through a series of negotiated concessions. Soviet missiles were removed from Cuba. The United States publicly pledged not to invade the island and privately agreed to remove certain missiles from Turkey. At each stage the outcome remained uncertain, and each decision altered the conditions under which the next decision would be made.
+
+This is one reason hindsight can be misleading. The resolution can appear almost inevitable from a distance. It was nothing of the sort when it was happening. Decisions acquire an aura of inevitability that did not exist when they were made. People facing uncertainty rarely choose between certainty and uncertainty—they choose between competing uncertainties. The question is not whether ambiguity remains. The question is whether action can remain answerable to reality while ambiguity continues.
+
 I have watched people—including myself—reach for finality when a decision was already overdue. Not because the situation had become clear enough, but because remaining provisional began to feel emotionally intolerable.
 
 **Finality Compensates for Uncertainty.**
@@ -72,15 +84,13 @@ The story was not over. Responsibility had simply found an address.
 
 ### **The Difference Between Restraint and Indecision**
 
-The alternative to false finality is not indecision.
+The alternative to false finality is not indecision—and the difference is not speed.
 
-Indecision delays action because it fears being wrong. It keeps asking for more information because error feels morally expensive. Restraint is different. Restraint limits action because it recognizes the cost of overreach—what pressure may later narrate as necessary once it has already been taken.
-
-A person can decide provisionally without pretending the account is closed. A person can act without claiming the harm has finished unfolding. The difference is not speed. It is what the decision is being asked to provide: contact with consequences, or relief from having to remain open.
-
-Judgment without finality is not passive. It is proportionate. It asks what response is warranted given what we know—and what we cannot fully know—without pretending that action eliminates uncertainty afterward.
+Indecision keeps postponing the appointment because being wrong feels unbearable. Restraint schedules the visit while refusing to treat the test result as the end of the story. One delays action out of fear; the other acts without asking the decision to remove uncertainty afterward.
 
 A family that never schedules the appointment cannot function. People need to know where they stand. But many harmful decisions are made not from clarity, but from exhaustion—the feeling that one more week of deliberation would cost more than a premature close.
+
+Judgment without finality is not passive. It is proportionate: contact with consequences rather than relief from having to remain open.
 
 ### **Living With Revisability**
 
