@@ -1,0 +1,37 @@
+version: 1
+
+upcoming:
+  status: draft
+
+book:
+  id: trust-beyond-similarity
+  title: "Trust Beyond Similarity"
+  subtitle: "How Trust Remains Possible Across Difference"
+  description: "How people trust one another when they do not share the same experiences, identities, beliefs, or summaries."
+  author:
+    name: "Kevin Steffensen"
+  language: en
+  copyright_year: 2026
+
+paths:
+  manuscript: "./index.md"
+  output: "."
+
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
+    copyright:
+      repo_template: templates/copyright.md.j2
+      output: front-matter/copyright.md
+
+build:
+  formats:
+    docx:
+      enabled: false
+    epub:
+      enabled: false
+    pdf:
+      enabled: false

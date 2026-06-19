@@ -115,6 +115,52 @@ Several of these are **essay-length** concentrated arguments (~8–13k words), n
 
 ---
 
+## Trust cluster (upcoming)
+
+A parallel **Formation → Tension → Practice** arc on trust. These titles live under [`upcoming/`](../upcoming/) with exports disabled until Phase 5 promote. They are not part of the core eight-book reading order above.
+
+| Arc | Book | One-line |
+|-----|------|----------|
+| Formation | [How Trust Forms](../upcoming/how-trust-forms/index.md) | Why trust emerges |
+| Tension | [When Trust Stops Tracking Reality](../upcoming/when-trust-stops-tracking-reality/index.md) | How trust drifts |
+| Practice | [Trust Beyond Similarity](../upcoming/trust-beyond-similarity/index.md) | How trust remains possible after both |
+
+### [How Trust Forms](../upcoming/how-trust-forms/index.md)
+
+How people become willing to participate with one another under uncertainty—beliefs made visible through action, outcomes that teach, participation that updates belief.
+
+**Question:** How do people become willing to participate with one another under uncertainty?
+
+### [When Trust Stops Tracking Reality](../upcoming/when-trust-stops-tracking-reality/index.md)
+
+Trust evolved to compress complexity; under some conditions it hardens into identity, narrative, and legitimacy that no longer tracks outcomes.
+
+**Question:** Why does trust sometimes persist after its original evidence disappears?
+
+### [Trust Beyond Similarity](../upcoming/trust-beyond-similarity/index.md)
+
+Similarity makes trust easier. Difference makes trust more valuable—how trust remains possible when people do not share the same experiences, identities, beliefs, or summaries.
+
+**Question:** How do people trust one another when they do not share the same experiences, identities, beliefs, or summaries?
+
+### Trust cluster reading order
+
+1. **[How Trust Forms](../upcoming/how-trust-forms/index.md)** — Formation  
+2. **[When Trust Stops Tracking Reality](../upcoming/when-trust-stops-tracking-reality/index.md)** — Tension  
+3. **[Trust Beyond Similarity](../upcoming/trust-beyond-similarity/index.md)** — Practice
+
+Essay-length target (~10–15k words each), matching the coordination/judgment cluster books.
+
+### When Trust Stops Tracking Reality vs Trust Beyond Similarity
+
+**When Trust Stops Tracking Reality** is a **decoupling lens**: why trust (or distrust) persists when evidence no longer supports it—compression, identity, narrative insulation.
+
+**Trust Beyond Similarity** is a **difference lens**: how trust remains possible across people who see the world differently—not fixing decoupled trust, but participating across incomplete perspectives.
+
+Read stops-tracking-reality for **trust that no longer tracks outcomes**; read beyond-similarity for **trust across people who are not like us**.
+
+---
+
 ## Related books in the portfolio
 
 These published titles extend adjacent questions. They are not required for the core arc above, but readers often pair them by interest:
