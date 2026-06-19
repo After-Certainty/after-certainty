@@ -35,12 +35,13 @@
 ## Back Matter
 
 - [Conclusion — Enough](back-matter/conclusion-enough.md)
-- [Appendix A — Stabilizers and Distortions](back-matter/appendix-a-stabilizers-and-distortions.md)
+- [A Reader's Guide to the After Certainty Series](back-matter/series-guide.md)
+- [Appendix — Stabilizers and Distortions](back-matter/appendix-stabilizers-and-distortions.md)
 - [Bibliography](back-matter/bibliography.md)
 
 ## Related books
 
-[Series guide](../../docs/series-guide.md) · Capstone (read after diagnostic volumes)
+[A Reader's Guide to the After Certainty Series](back-matter/series-guide.md) · Practice volume (read after formation, stabilization, and tension)
 
 - [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/index.md)
 - [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/index.md)

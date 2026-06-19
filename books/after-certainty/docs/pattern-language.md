@@ -8,7 +8,11 @@
 
 **Counter-disciplines:** Revisability Preserves Judgment · Responsibility Persists Beyond Control · Scrutiny Preserves Trust · Attention Restores Contact
 
-**Conditions of drift:** Finality Compensates for Uncertainty · Speech Escalates Faster Than Meaning
+**Conditions of drift (structural):** Speech Escalates Faster Than Meaning
+
+**Human response under limit:** Finality Compensates for Uncertainty (related to irreducible uncertainty—not a stabilizer pairing)
+
+**Irreducible conditions (Part III — appendix framing, not named patterns):** uncertainty · scale · abstraction · incomplete understanding
 
 Pairings are tensioned and responsive (see appendix), not mechanical opposites.
 
@@ -69,8 +73,15 @@ Pairings are tensioned and responsive (see appendix table), not cures.
 
 | Pattern | Primary chapter |
 |---------|-----------------|
-| **Finality Compensates for Uncertainty** | Ch 4; Ch 7 |
 | **Speech Escalates Faster Than Meaning** | Ch 6; Ch 7 |
+
+### Human response under irreducible uncertainty
+
+| Pattern | Primary chapter |
+|---------|-----------------|
+| **Finality Compensates for Uncertainty** | Ch 4; Ch 7 |
+
+The appendix also names **irreducible conditions** (uncertainty, scale, abstraction, incomplete understanding) as Part III framing—not portfolio pattern names.
 
 ### Folded into prose (not named in appendix)
 
@@ -92,7 +103,7 @@ Visibility over responsiveness, innocence as escape, speech replacing presence, 
 
 ## Appendix
 
-Field guide (recognition after reading): [`back-matter/appendix-a-stabilizers-and-distortions.md`](../back-matter/appendix-a-stabilizers-and-distortions.md). Ten core patterns: four drifts, four counter-disciplines, two conditions of drift.
+Field guide (recognition after reading): [`back-matter/appendix-stabilizers-and-distortions.md`](../back-matter/appendix-stabilizers-and-distortions.md). Ten core named patterns: four drifts, four counter-disciplines, one condition of drift, one human response under limit; plus irreducible conditions as Part III framing.
 
 ## Portfolio reuse
 

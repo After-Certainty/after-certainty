@@ -43,6 +43,19 @@ def section_slug(heading: str, paths: list[Path]) -> str:
     return slugify_heading(heading)
 
 
+def resolve_book_markdown(book_dir: Path, rel: str) -> Path | None:
+    """Resolve a markdown link from index.md; ignore missing or out-of-book targets."""
+    path = (book_dir / rel).resolve()
+    book_root = book_dir.resolve()
+    if not path.is_file():
+        return None
+    try:
+        path.relative_to(book_root)
+    except ValueError:
+        return None
+    return path
+
+
 def assemble_index_sections(book_dir: Path) -> list[IndexSection]:
     index = book_dir / "index.md"
     if not index.exists():
@@ -69,8 +82,8 @@ def assemble_index_sections(book_dir: Path) -> list[IndexSection]:
     for heading, rels in sections:
         paths: list[Path] = []
         for rel in rels:
-            path = (book_dir / rel).resolve()
-            if path.exists() and path.is_file():
+            path = resolve_book_markdown(book_dir, rel)
+            if path is not None:
                 paths.append(path)
         if not paths:
             continue
@@ -99,9 +112,11 @@ def assemble_markdown_units(book_dir: Path) -> list[Path]:
     text = index.read_text(encoding="utf-8")
     rels = [m.group(1).strip() for m in MD_LINK_RE.finditer(text)]
     out: list[Path] = []
+    seen: set[Path] = set()
     for rel in rels:
-        path = (book_dir / rel).resolve()
-        if path.exists() and path.is_file():
+        path = resolve_book_markdown(book_dir, rel)
+        if path is not None and path not in seen:
+            seen.add(path)
             out.append(path)
     return out
 

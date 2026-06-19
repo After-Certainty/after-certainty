@@ -208,8 +208,8 @@ jobs:
             --notes "Automated exports. This push built ${{ needs.detect.outputs.count }} book(s) at commit ${{ github.sha }}." \
             upload/*
 
-      # Refresh www.after-certainty.com semantic graph cache (explore books, patterns, glossary).
-      - name: Revalidate www.after-certainty.com semantic manifest
+      # Refresh www.after-certainty.com caches (podcast RSS, semantic graph, books catalog).
+      - name: Revalidate www.after-certainty.com caches
         env:
           CACHE_REVALIDATE_SECRET: ${{ secrets.CACHE_REVALIDATE_SECRET }}
           SITE_REVALIDATE_URL: ${{ vars.SITE_REVALIDATE_URL }}
@@ -224,11 +224,11 @@ jobs:
             -X POST "$url" \
             -H "Authorization: Bearer ${CACHE_REVALIDATE_SECRET}" \
             -H "Content-Type: application/json" \
-            -d '{"targets":["semantic"]}')
+            -d '{"targets":["podcast","semantic","books"]}')
           cat /tmp/site-revalidate.json
           echo ""
           if [ "$code" != "200" ]; then
             echo "Site revalidate failed (HTTP ${code}). Deploy after-certainty-site with /api/cache/revalidate and matching CACHE_REVALIDATE_SECRET on Vercel."
             exit 1
           fi
-          echo "Revalidated www.after-certainty.com: semantic-manifest.json"
+          echo "Revalidated www.after-certainty.com: podcast RSS, semantic-manifest.json, books-manifest.json"

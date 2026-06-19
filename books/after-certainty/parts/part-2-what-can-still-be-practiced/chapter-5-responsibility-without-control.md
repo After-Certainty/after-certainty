@@ -86,7 +86,15 @@ At first it can feel like a mistake already made.
 
 You normalized a rule, tolerated a tradeoff, left an ambiguity unresolved, or modeled an example others now follow automatically. Later—sometimes years later—the consequences continue through paths you no longer command. Leadership is one name for that problem when it arrives in public life. Parenting, caregiving, and institutional life offer smaller versions of the same unease: you are still inside the story, but no longer at the wheel.
 
-The visit was one version of this at human scale. She could not restore agreement. She could not reverse aging. She could not turn care into repair. She could still remain answerable to a relationship that continued asking for contact even after control had thinned.
+The question appears at larger scales as well. For much of his adult life, Václav Havel had remarkably little control over the political system he criticized. He wrote essays, signed petitions, met with other dissidents, and was surveilled, censored, and imprisoned. The government remained in power. Measured by control, many of his actions appeared ineffective. Yet he continued.
+
+Havel once described the importance of "living in truth"—not because honesty guaranteed success, but because participation still mattered even when outcomes remained uncertain. People often assume responsibility begins where effectiveness begins; if an action cannot reliably change the outcome, responsibility starts feeling optional. But participation and control are not the same thing. Havel could not determine what his government would do. He could determine how he would participate in the world it created.
+
+Responsibility did not persist because control remained. It persisted because participation remained possible.
+
+The visit carried a similar structure at human scale. She could not restore agreement. She could not reverse aging. She could not make the confusion disappear. She could still choose how she would participate in a relationship that continued asking something of her.
+
+Responsibility often survives long after control has thinned. Sometimes it survives because participation itself remains one of the few things still available.
 
 Participation does not always end when control does.[^c5-many-hands]
 

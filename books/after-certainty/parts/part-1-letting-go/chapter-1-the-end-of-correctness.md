@@ -58,23 +58,25 @@ At that point, correctness is no longer primarily helping people coordinate arou
 
 ### **What Scale Does to "Right"**
 
-At small scales, people can often change their minds together. Two friends can compare notes, discover an error, laugh, and move on. The answer can change without anyone's standing collapsing.
+The siblings eventually found a photograph. The swing had existed; the branch had been lower than either remembered. Both memories had been wrong. The discovery settled the factual question without explaining why the argument had mattered so much—that answer lived somewhere else. The tree had never been the real subject, nor had the swing. The argument had been about memory, and memory had been about identity.
 
-At larger scales the process becomes more difficult. Too many people are watching. Too many reputations have become attached to particular conclusions. Too many identities have begun organizing around specific interpretations of reality. What started as disagreement slowly becomes allegiance. Correctness stops functioning as a tool people use together. It becomes something people defend separately.
+At family scale, this pattern is easy to miss because the stakes seem small—a childhood story, a holiday memory, a disagreement about what was said years ago. Yet people often find themselves defending more than facts. The memory becomes connected to credibility, belonging, and self-understanding, and revision begins feeling strangely expensive.
 
-You can sometimes see this when a group remains relatively calm through practical disagreements yet becomes intensely defensive when its identity is questioned. The reaction often appears irrational. Why become more upset about a symbolic challenge than a practical one? Because identity threats and factual disputes are experienced differently. A factual correction asks whether a conclusion is accurate. An identity challenge asks whether a person still belongs. The emotional intensity often reveals the difference.
+The same pattern appears in places far removed from backyards and family photographs. In 1912, Alfred Wegener proposed an idea that many scientists considered absurd: the continents moved. Not metaphorically—not in the sense that mountains erode or coastlines change shape—but in the literal sense that entire continents had once been joined together and had gradually drift apart. The evidence was awkwardly persuasive. The coastlines of South America and Africa appeared to fit together; similar fossils appeared on continents now separated by oceans; geological formations seemed to continue across vast stretches of water as though the land itself had been pulled apart. The observations existed, but the explanation did not fit what most geologists believed.
 
-Correctness can identify contradictions. It cannot explain belonging. Yet we repeatedly ask it to.
+Today the idea seems obvious. Schoolchildren learn some version of it; maps make the puzzle-piece resemblance difficult to ignore. At the time, many scientists rejected it. The common retelling suggests that the evidence was simply insufficient, and there is truth in that—Wegener lacked a convincing mechanism for how continents could move, and serious objections existed. But another difficulty was also present. Accepting continental drift would require revising frameworks that had organized entire careers: textbooks, professional reputations, research programs, and disciplinary assumptions had all formed around different explanations. The evidence threatened more than a conclusion; it threatened a way of understanding the world.
 
-In a large organization, different teams can encounter the same event and walk away with incompatible certainties without anyone needing to lie. No one has to be careless for that to happen. They may simply be standing in different parts of the system, carrying different risks, answering to different timelines, and rewarded for noticing different kinds of harm.
+The rejection did not last forever. By the 1960s, seafloor spreading and magnetic striping on the ocean floor made continental drift difficult to dismiss, and geology revised itself.
 
-Scale changes the conditions under which correctness stabilizes. Information fragments. Context multiplies. Incentives diverge. Feedback slows. Consequences become harder to trace. What looks obvious from one desk can look reckless from another—not because one side is blind, but because scale distributes visibility unevenly.
+The story is often told as a triumph of evidence. It was also a triumph of revisability.
 
-Under those conditions, "getting it right" becomes difficult to settle collectively. Different groups encounter different evidence. Different incentives shape attention differently. Different timelines produce different interpretations of the same event. Correctness stops converging. It begins splitting into competing certainties instead.
+Revision is rarely experienced as a purely intellectual exercise. People build identities around the things they know. Communities organize around shared assumptions. Institutions reward consistency. The larger the system becomes, the more expensive revision often feels. The geologists were not unique, and neither were the siblings—and geology also shows that the pattern is not the whole story. Correctness begins carrying more than correctness can sustain wherever revision starts feeling like loss rather than learning.
 
-Attempts to "set the record straight" often intensify conflict for exactly this reason. Every clarification introduces new framing. Every correction creates new audiences, new interpretations, and new incentives. The room is no longer trying to understand the same thing at the same time. It is trying to defend versions of seriousness that have already hardened. Confidence escalates while understanding thins. The result is not shared certainty, but multiple internally coherent moral worlds increasingly unable to revise one another.
+At still larger scales, the problem becomes harder to see because the disagreement no longer concerns a single memory or a scientific theory but entire systems of interpretation. Consider what happens during a public health crisis: different agencies, jurisdictions, and expert panels can encounter overlapping data—case counts, hospitalization rates, transmission models—and still issue guidance that citizens experience as incompatible. No one has to be lying. Epidemiologists answer to different timelines than elected officials; local hospitals see different patterns than national models; a recommendation that looks cautious from one desk can look paralyzing from another. Yet each team often experiences its own conclusion as obvious.
 
-The problem is not that people care about truth. The problem is that correctness begins carrying more moral weight than it can sustain—especially once systems grow large enough that no one can fully see the whole picture at once.
+The same fragmentation appears elsewhere—economists reading the same indicators before a recession, intelligence analysts weighing identical reports and reaching different threat assessments. Different communities read the same facts and arrive at different conclusions; different institutions notice different harms because they occupy different positions within the same system. No one has to be dishonest or irrational for this to happen—scale itself changes the conditions under which correctness stabilizes. Information fragments, context multiplies, incentives diverge, and visibility becomes uneven. What looks obvious from one position can look reckless from another. The result is not necessarily ignorance but competing certainties.
+
+At family scale, people argue about a tree. At scientific scale, they argue about continents. At societal scale, entire communities argue about reality itself—and the pattern remains surprisingly similar. Correctness begins as a tool for learning and gradually becomes a structure people inhabit. Once people begin living inside correctness rather than using it, revision starts feeling like loss.
 
 ### **When Correctness Starts Protecting Error**
 
@@ -94,10 +96,6 @@ Once correctness hardens into identity, new information does not arrive neutrall
 
 The tragedy is that the people involved often care deeply about truth. That is precisely why the pattern is difficult to see. Nothing here requires dishonesty, manipulation, or bad intentions. It requires only that correctness become responsible for more than correctness can carry.
 
-The siblings eventually found a photograph. The swing had existed. The branch had been lower than either remembered. Both memories had been wrong. The discovery settled the factual question. It did not explain why the argument had mattered so much.
-
-That answer lived somewhere else. The tree had never been the real subject. Neither had the swing. The argument had been about memory—and memory had been about identity.
-
 ### **Letting Go of Correctness Is Not Letting Go of Truth**
 
 Letting go of correctness does not mean abandoning truth, evidence, or care. It means letting go of the belief that being right finally resolves moral tension.
@@ -114,8 +112,6 @@ Nothing simple replaces it. The question changes instead.
 
 What changes when the goal stops being to arrive and starts being to remain revisable?
 
-The siblings had not become closer because one memory turned out to be right. They had settled a fact about a tree that no longer existed—a branch height, a swing, a detail from a childhood that could no longer be visited. The photograph had done what photographs sometimes do: made the past legible without making the present easier. What remained was the harder work of learning without treating every correction as a threat to the self.
-
 The goal is not to care less about what is true. The goal is to become capable of learning without experiencing every correction as a threat to the self—to let correctness remain a tool rather than a possession, to let truth remain something pursued rather than something owned.
 
 It is tempting to conclude that serious judgment means getting the answer right and holding to it. And yet the most defensible positions are often the ones people have been willing to revise in public. Proportion mattered more than finality. Reversibility mattered more than being seen as serious on the first try. Willingness to revise mattered more than the relief of closure.
@@ -126,7 +122,7 @@ Correctness is often the first stabilizer that must loosen—not because it is f
 
 Letting go of correctness is not the end of judgment. It is the beginning of a different relationship to judgment: one that remains serious without pretending to become final.
 
-To become revisable—not because truth matters less, but because it matters more.
+The siblings had not become closer because one memory turned out to be right. The photograph settled a question about a tree that no longer existed—a branch height, a swing, a detail from a childhood that could no longer be visited. Both memories had been wrong. Neither person disappeared when the correction arrived. The relationship survived revision. That is what correctness forgets when it hardens into identity: the difference between remembering something together and preserving something, as though being corrected were the same as being diminished. To become revisable—not because truth matters less, but because it matters more.
 
 [^c1-motivated-reasoning]: Dan M. Kahan, "Cultural Cognition and Public Policy," *Yale Law & Policy Review* 24 (2006): 149–173.
 [^c1-pragmatist-truth]: See John Dewey, *The Quest for Certainty* (New York: Minton, Balch, 1929).

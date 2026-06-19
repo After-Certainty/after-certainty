@@ -39,7 +39,7 @@ Resolve **repeated phrasing, claims, cases, and mechanism explanations** within 
 | **Part II** | Judgment, responsibility, speech (practice) |
 | **Part III** | Not knowing, scale, when to stop interpreting (limits) |
 | **Conclusion** | Synthesis and image return—**points** to chapters; does not re-argue them |
-| **Appendix A** | Field guide—tabular; no re-narration of chapters |
+| **Appendix** | Field guide—tabular; no re-narration of chapters |
 
 ## WITHIN-BOOK ECHO TYPES
 

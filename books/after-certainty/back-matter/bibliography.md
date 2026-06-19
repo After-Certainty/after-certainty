@@ -12,8 +12,7 @@
 - Boss, Pauline. *Ambiguous Loss: Learning to Live with Unresolved Grief*.
   Cambridge, MA: Harvard University Press, 1999.
 
-- Butler, Judith. *Frames of War: When Is Life Grievable?* London: Verso,
-  2009.
+- Butler, Judith. *Frames of War: When Is Life Grievable?* London: Verso, 2009.
 
 - Dewey, John. *Ethics*. 2nd ed. 1932. Reprint, Carbondale: Southern
   Illinois University Press, 1989.
@@ -55,8 +54,7 @@
   Perspectives of Social Psychology*. New York: McGraw-Hill, 1991.
 
 - Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the
-  Human Condition Have Failed*. New Haven, CT: Yale University Press,
-  1998.
+  Human Condition Have Failed*. New Haven, CT: Yale University Press, 1998.
 
 - Shklar, Judith N. "Putting Cruelty First." *Daedalus* 111, no. 3 (1982):
   17–38.

@@ -29,7 +29,7 @@ The agent will merge the draft, then run a **cadence pass** (merge staccato sing
 | `parts/part-3-living-with-limits/chapter-9-when-to-stop-interpreting.md` | yes | yes | yes | |
 | `back-matter/conclusion-enough.md` | yes | yes | yes | |
 | `back-matter/bibliography.md` | | | | |
-| `back-matter/appendix-a-stabilizers-and-distortions.md` | yes | yes | yes | |
+| `back-matter/appendix-stabilizers-and-distortions.md` | yes | yes | yes | |
 | `back-matter/glossary.md` | n/a | | | |
 
 Run full-book export once after all edited units are checked.

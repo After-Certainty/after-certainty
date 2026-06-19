@@ -12,7 +12,7 @@ Sometimes this happens. Often it does not.
 
 A difficult conversation ends with both people understanding each other better and neither changing their mind. A meeting can end with everyone agreeing on the diagnosis and nothing happening afterward. A family can explain an old wound perfectly and still reopen it every holiday. An institution can publish an accurate diagnosis of its own failures and continue rewarding the same behavior the following quarter. A book can explain a problem brilliantly and leave the reader carrying it anyway—as if one more draft of understanding could finally make the weight lift.
 
-The explanation succeeds. Something else does not.
+The explanation succeeds. Something else does not. Some tensions persist not because understanding has failed, but because understanding has reached the edge of what it can do.
 
 Sophisticated analysis often explains problems without changing them. If people understood the harm, they would stop causing it—or so the story goes. If institutions understood their incentives, they would redesign them. If disagreement were only misunderstanding, better communication would resolve it. I once watched a colleague deliver a fifteen-minute diagnosis of an institutional failure that everyone in the room already recognized. The slides were accurate. The incentives were named. People nodded—not with surprise, but with the relieved fatigue of hearing something true said aloud. The next quarter's budget rewarded the same behavior the presentation had just condemned.
 
@@ -40,7 +40,7 @@ The question is no longer how to understand. The question is how to live, judge,
 
 **How do we live and judge when understanding is no longer enough?**
 
-That question sits at the center of everything that follows. This book exists because that moment does not go away by itself. It is the practice capstone of a longer diagnostic series on how authority, meaning, and judgment change under scale. For the series arc, see [*How to Read This Book*](how-to-read-this-book.md).
+That question sits at the center of everything that follows. This book exists because that moment does not go away by itself. It completes a series on formation, stabilization, and tension by asking what can still be practiced once explanation has reached its limits. For the series arc, see [*How to Read This Book*](how-to-read-this-book.md).
 
 ## **What This Book Is Not**
 
@@ -58,13 +58,17 @@ That does not mean truth disappears. It means stable alignment becomes harder to
 
 ## **The Shape of the Book**
 
-The book moves in three parts: releasing overburdened supports, practicing what remains once they weaken, and living inside limits without pretending they have disappeared. It does not build toward resolution. It builds toward orientation—and ends without the closure many readers still expect, because resolution would require a confidence it does not claim to possess.
+The book moves in three parts.
+
+The first loosens familiar supports that have gradually become responsible for more than they can carry. The second explores practices that remain possible after those supports weaken. The third turns toward the limits that do not fully yield—conditions that cannot be solved away and must instead be lived inside responsibly.
+
+The book does not build toward resolution. It builds toward orientation—and ends without the closure many readers still expect, because closure would require a confidence it does not claim to possess.
 
 ### **How the Patterns Relate**
 
-As you read, you will meet a small shared vocabulary of named recognitions—compressions for when stabilizers drift under pressure, for counter-disciplines that help you stay morally responsive once drift begins, and for conditions of drift that shape the whole field. The labels are portable observation tools, not steps in a method. Full definitions appear in Appendix A after you have met them in the chapters.
+As you read, you will meet a small shared vocabulary of named recognitions—compressions for when stabilizers drift under pressure, for counter-disciplines that help you stay morally responsive once drift begins, for conditions of drift that intensify distortion across the field, and for irreducible conditions that do not fully yield. The labels are portable observation tools, not steps in a method. Full definitions appear in the appendix after you have met them in the chapters.
 
-On first read, treat the figure below as orientation—which titles belong together and how the book's arc moves from release to practice to limits—not as a sequence you must memorize.
+On first read, treat the figure below as orientation—which titles belong together and how drift pairings relate to the two patterns that shape the whole field—not as a sequence you must memorize.
 
 ![Diagram: After Certainty pattern map](export-assets/diagrams/pattern-map.png){ width=100% }
 

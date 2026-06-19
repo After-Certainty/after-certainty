@@ -8,15 +8,15 @@ The result had arrived.
 
 It answered one question. It created three more.
 
-The doctor explained what the numbers meant. The explanation was careful. The language was familiar. There were next steps available if she wanted them—another test, another specialist, another opinion. None of those options were unreasonable.
+The doctor explained what the numbers meant. The explanation was careful. The language was familiar. There were next steps available if he wanted them—another test, another specialist, another opinion. None of those options were unreasonable.
 
-She had learned enough to know that certainty was not waiting at the end of the process. More information remained available. Whether that information would change what she needed to do next was harder to know.
+He had learned enough to know that certainty was not waiting at the end of the process. More information remained available. Whether that information would change what he needed to do next was harder to know.
 
 The result sat on the kitchen table.
 
-She read it again. Then again. The numbers had not changed. The questions had.
+He read it again. Then again. The numbers had not changed. The questions had.
 
-Outside, rain had been forecast for three days. Each morning the sky looked undecided. The uncertainty began to feel less like a gap in knowledge and more like a place she was expected to live.
+Outside, rain had been forecast for three days. Each morning the sky looked undecided. The uncertainty began to feel less like a gap in knowledge and more like a place he was expected to live.
 
 Most people imagine uncertainty as temporary—a bridge between ignorance and understanding, a condition that eventually resolves. Sometimes it does. Often it does not.
 
@@ -44,27 +44,31 @@ Sometimes that suspicion is justified. People do hide behind complexity. People 
 
 But the opposite mistake is equally common. Some forms of uncertainty emerge from sustained attention rather than insufficient attention. The person who has looked longest is often the person most aware of what remains unknown. The person who has listened carefully may sound less certain than the person who stopped listening earlier.
 
+Meteorologists encounter this problem constantly. People often treat forecasts as promises. Forecasters rarely do. A prediction of rain is not a promise—it is an estimate built from incomplete information, changing conditions, historical patterns, and probabilities that continue evolving after the forecast has been issued.
+
+The forecast improves. The atmosphere remains free to do what it will do.
+
+People often become frustrated when a forecast changes. Yet revision is not evidence that the forecaster was careless. Often it is evidence that the forecaster remained attentive to new information rather than pretending certainty had arrived earlier than it had. The public frequently experiences revision as inconsistency. The discipline requires experiencing revision as responsibility. A forecaster who never updates a prediction may appear more confident; a forecaster who continues adjusting to changing conditions may appear less certain. The second forecaster is often the one taking reality more seriously.
+
 The most serious people are often the least certain—not because they know less, but because they have seen more.
 
 Indifference looks away. Disciplined uncertainty often looks longer—then recognizes the point at which additional knowing no longer changes what responsibility requires.
 
 That threshold is difficult to see. Especially from the inside.
 
-### **Finality Compensates for Uncertainty**
+### **When Reality Exceeds Prediction**
 
-She could have ordered another test. Then another. Then another.
+He could have ordered another test. Then another. Then another.
 
 Every result answered something. Every result left something unanswered.
 
 At some point the question changed. It was no longer what else can I learn. It became what would additional learning change.
 
-**Finality Compensates for Uncertainty.**
-
-Sometimes certainty appears because certainty has been earned. Sometimes certainty appears because uncertainty has become intolerable. The two experiences can feel surprisingly similar from the inside—especially when the forecast keeps not breaking, when the paper keeps not settling the future, when standing in the fog has become more expensive than choosing a direction.
+Sometimes certainty appears because certainty has been earned. Sometimes it appears because uncertainty has become intolerable—the temptation to order one more test, gather one more opinion, or wait for the forecast to finally break. The two experiences can feel surprisingly similar from the inside, especially when the forecast keeps not breaking, when the paper keeps not settling the future, when standing in the fog has become more expensive than choosing a direction.
 
 The danger is not action. The danger is confusing relief with understanding.
 
-She could schedule the next test and still not know what she was preparing for. She could gather another opinion and still not know which future she was arranging. The paper on the table had already done what papers can do. It had not done what certainty promises.
+He could schedule the next test and still not know what he was preparing for. He could gather another opinion and still not know which future he was arranging. The paper on the table had already done what papers can do. It had not done what certainty promises.
 
 Not knowing is not the absence of care. Often it is the condition of remaining careful at all.
 
@@ -84,9 +88,7 @@ This becomes especially difficult when harm is involved. High stakes increase th
 
 The goal is not endless hesitation. The goal is not permanent openness. At some point people still act. Appointments are scheduled. Boundaries are drawn. Responses are chosen.
 
-The difference is that disciplined uncertainty remains open to correction afterward.
-
-**Revisability Preserves Judgment.**
+The difference is that disciplined uncertainty remains open to correction afterward—revision as what honest people do when reality exceeds their predictions, not as inconsistency.
 
 A judgment that cannot be revised eventually detaches from reality. A judgment that remains revisable stays in contact with consequences. It remains capable of learning. The willingness to revise does not weaken judgment. It prevents judgment from hardening into performance.
 
@@ -106,7 +108,9 @@ Not knowing remains accountable to care. Otherwise it becomes another form of wi
 
 ### **What Not Knowing Makes Possible**
 
-The rain still had not arrived. The forecast remained uncertain. She folded the paper and stood up from the table.
+The rain still had not arrived. The forecast remained uncertain. He folded the paper and stood up from the table.
+
+He would schedule the follow-up. He would carry the numbers he had. He would not pretend the next appointment would finish what the result had begun.
 
 The result had answered enough. The rest would arrive later.
 

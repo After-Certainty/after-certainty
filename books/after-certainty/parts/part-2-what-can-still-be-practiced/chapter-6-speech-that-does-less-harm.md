@@ -4,17 +4,17 @@
 
 ### **The Text Message**
 
-She spent twenty minutes writing the message.
+He spent twenty minutes writing the message.
 
-The first version sounded angry. The second sounded defensive. The third sounded colder than she intended. By the fourth draft she had settled on something careful. She explained what she meant. She acknowledged uncertainty. She softened a sentence she worried might sound accusatory. She added a line about caring for the relationship.
+The first version sounded angry. The second sounded defensive. The third sounded colder than he intended. By the fourth draft he had settled on something careful. He explained what he meant. He acknowledged uncertainty. He softened a sentence he worried might sound accusatory. He added a line about caring for the relationship.
 
-Then she pressed send.
+Then he pressed send.
 
 The reply arrived less than a minute later.
 
 That is not what I said.
 
-She read the message again. Then a third time. The misunderstanding seemed impossible. The sentence her friend was responding to was not the sentence she thought she had written.
+He read the message again. Then a third time. The misunderstanding seemed impossible. The sentence his friend was responding to was not the sentence he thought he had written.
 
 The conversation continued. Each response became longer. Examples appeared. Old conversations returned. Clarifications multiplied. By evening they were arguing about implications neither person had intended and defending interpretations neither person recognized as their own.
 
@@ -78,6 +78,16 @@ What does speech look like once this becomes visible? Not silence. Not withdrawa
 
 Before speaking, the question changes. The question is no longer how to make a position clearer, or how to persuade more people. The question becomes: what effect will these words have once they leave my control?
 
+A public version of this problem unfolded in 2017 after a passenger was forcibly removed from a United Airlines flight. The event was already visible. Videos had spread widely. What followed was a series of explanations, clarifications, and apologies intended to address public outrage. Yet many of the statements seemed to widen the distance rather than narrow it.
+
+Part of the problem was not factual accuracy. It was proportion. People were reacting to visible harm. Every attempt to explain the procedure before acknowledging the harm risked sounding as though the process mattered more than the person affected by it. The communication became its own event.
+
+This is what speech often forgets when it becomes accountable primarily to correctness. The question is not only whether an explanation is accurate. The question is what the explanation is doing.
+
+Sometimes people need explanation. Sometimes they need acknowledgment. Sometimes they need an apology. Sometimes they need silence long enough for understanding to catch up.
+
+The question becomes less how to defend a position and more what the situation requires from speech right now.
+
 This is a more difficult question because it acknowledges that speech continues traveling after intention ends. The message enters a relationship. The statement enters a community. The comment enters a conversation already shaped by histories the speaker does not fully control.
 
 Proportional speech recognizes this. It considers timing, escalation, audience, consequences. It says what can honestly be said. It avoids certainty where certainty is unavailable. It leaves room for revision. Sometimes it is direct. Sometimes it is brief. Sometimes it delays a response rather than accelerating one.
@@ -90,7 +100,7 @@ Speech remains necessary. People still need to name harm, to apologize, to warn,
 
 A sentence that names harm without performing seriousness. A question that invites understanding without demanding agreement. A refusal to produce another draft when the draft itself has become the center of attention.
 
-She had spent twenty minutes on the fourth draft. By evening the message had become the argument.
+He had spent twenty minutes on the fourth draft. By evening the message had become the argument.
 
 The question becomes simpler and harder at the same time: will these words make the harm more answerable—or only more discussable?
 
