@@ -12,6 +12,9 @@ Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a sep
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
+| [How Trust Forms](../how-trust-forms/) | Phase 0 | Trust trilogy formation; 3 parts, 9 chapters, pattern language scaffold | Author review of outlines and patterns | [status](../how-trust-forms/docs/status.md) |
+| [When Trust Stops Tracking Reality](../when-trust-stops-tracking-reality/) | Phase 0 | Trust trilogy tension; 3 parts, 9 chapters, pattern language scaffold | Author review of outlines and patterns | [status](../when-trust-stops-tracking-reality/docs/status.md) |
+| [Trust Beyond Similarity](../trust-beyond-similarity/) | Phase 0 | Trust trilogy practice; 3 parts, 9 chapters, pattern language scaffold | Author review of outlines and patterns | [status](../trust-beyond-similarity/docs/status.md) |
 | [Why Diversity Matters](../../books/why-diversity-matters/) | Phase 0–1 | Essay edition in `books/`; outline scaffolds + interview questions | Author intro + chapter drafts | [status](../../books/why-diversity-matters/docs/status.md) |
 | [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Phase 5 | Essay edition promoted; agent pipeline complete | Author review; export smoke | [status](../../books/when-interpretation-no-longer-matters/docs/status.md) |
 

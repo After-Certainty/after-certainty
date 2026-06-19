@@ -30,4 +30,12 @@ Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/af
 
 ## Current upcoming titles
 
-*No book folders under `upcoming/` at this time.* Scaffold new work here or copy from [`docs/_templates/`](docs/_templates/).
+**Trust trilogy** (Formation → Tension → Practice; exports disabled):
+
+| Book | Path |
+|------|------|
+| How Trust Forms | [`how-trust-forms/`](how-trust-forms/index.md) |
+| When Trust Stops Tracking Reality | [`when-trust-stops-tracking-reality/`](when-trust-stops-tracking-reality/index.md) |
+| Trust Beyond Similarity | [`trust-beyond-similarity/`](trust-beyond-similarity/index.md) |
+
+Scaffold new work here or copy from [`docs/_templates/`](docs/_templates/).
