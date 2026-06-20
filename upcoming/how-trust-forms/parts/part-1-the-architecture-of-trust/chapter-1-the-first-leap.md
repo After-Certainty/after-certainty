@@ -1,5 +1,7 @@
 # **The First Leap**
 
+> How can trust begin before certainty exists?
+
 The package had been sitting on the porch all afternoon. Rain was forecast for the evening, the clouds were already gathering over the neighborhood, and the family next door was not home.
 
 He noticed the box while pulling into his driveway and, for a moment, considered ignoring it. The package was not his responsibility. He barely knew the people who lived there—they had exchanged names once while unpacking boxes a few weeks earlier, and beyond that they were mostly strangers. He looked at the package again, then walked across the lawn, carried it beneath the covered portion of the porch, and went back inside.

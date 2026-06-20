@@ -1,5 +1,9 @@
 # **Trust and Leadership**
 
+> How does trust become legitimacy?
+
+Reliability earns attention long before it earns a title. This chapter follows that path—from repeated trust to the right to coordinate collective action.
+
 The neighborhood association had never planned to have a leader. No election had created one, no title had appointed one, no formal process had selected a representative. Yet over time, people began directing questions toward the same person.
 
 When a tree blocked part of the road after a storm, they called her. When a city project affected the neighborhood, they asked her what she knew. When someone wanted to organize a cleanup day, they checked with her first. None of this happened because she demanded authority. People simply kept looking in the same direction.

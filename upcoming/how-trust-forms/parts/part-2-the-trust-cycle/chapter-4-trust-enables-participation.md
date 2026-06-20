@@ -1,6 +1,8 @@
 # **Trust Enables Participation**
 
-By spring, the neighborhood was planning a block party. The idea had started the way many neighborhood ideas begin—with a conversation at the mailbox, a suggestion offered casually, and a handful of people willing to help.
+> What becomes possible when trust exists?
+
+By spring, the neighborhood was planning a block party. Enough evidence had accumulated that the street was ready to attempt something larger. The idea had started the way many neighborhood ideas begin—with a conversation at the mailbox, a suggestion offered casually, and a handful of people willing to help.
 
 Someone volunteered to organize tables. Someone else offered a grill. The family next door agreed to help set up. Not everything went smoothly. One neighbor who promised drinks arrived an hour late, juggling a last-minute work call and a store run that took longer than expected. The person coordinating food made a joke about it that landed a little sharp. Someone else covered the gap. The drinks appeared. The party continued. Later that week, the late neighbor dropped off a six-pack on the porch with a note: *Sorry I cut it close—next time I'll plan better.* Nobody pretended the moment had not happened. They also did not treat it as proof the street could not count on one another.
 
@@ -16,9 +18,9 @@ That was the change.
 
 ### The Work Trust Does
 
-Trust is often described as a feeling—confidence, reliance, faith. These descriptions capture part of the experience. They miss something important: trust is not merely something people have. Trust is something people do, and its most visible effect is participation.
+Trust is often described as a feeling—confidence, reliance, faith. These descriptions capture part of the experience. They miss something important: trust is not merely something people have. Trust is something people do, and its most visible effect is what it makes people willing to attempt.
 
-When trust grows, people become willing to cooperate in ways that would otherwise feel too risky. They join teams. They contribute to families. They volunteer in communities. They collaborate with coworkers. They participate in institutions. The shift can be subtle. Trust does not eliminate uncertainty. It changes how much uncertainty people are willing to carry together.
+Trust is not interesting primarily because it is true. It is interesting because it changes behavior. When trust grows, people become willing to cooperate in ways that would otherwise feel too risky. They lend tools. They organize events. They share responsibility. They join teams, contribute to families, volunteer in communities, and collaborate with coworkers. The shift can be subtle. Trust does not eliminate uncertainty. It changes how much uncertainty people are willing to carry together—and therefore what they will do.
 
 This is why trust matters so much. The practical consequence of trust is not comfort. It is cooperation.
 

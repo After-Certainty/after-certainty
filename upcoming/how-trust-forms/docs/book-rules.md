@@ -9,7 +9,7 @@ Architectural constraints for **How Trust Forms** (*Why Participation Becomes Po
 ### Target length
 
 - Essay edition (~10–15k words), matching cluster books (Why Collaboration, Why Diversity)
-- Structure per `index.md`: 3 parts, 3 part openers, 9 chapters, introduction, conclusion, bibliography
+- Structure per `index.md`: 3 parts, 3 part openers, 9 chapters, introduction, conclusion, appendix, bibliography
 
 ### Markdown file structure
 

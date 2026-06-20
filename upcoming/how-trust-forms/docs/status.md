@@ -29,17 +29,18 @@ Manuscript draft complete; developmental edit pass applied to Ch 6–8 and Concl
 | Introduction | revised | Quiet neighbor; participation spectrum |
 | The Architecture of Trust | draft | Part I opener; citations (Luhmann) |
 | The First Leap | draft | Package on porch; citations (Baier, Luhmann) |
-| Beliefs Become Visible | revised | Late tool return; mild friction in pattern |
-| Outcomes Create Evidence | draft | Storm/shoveling; citations (Hardin, Dewey) |
+| Beliefs Become Visible | revised | Visibility/signal lane; chapter question |
+| Outcomes Create Evidence | revised | Feedback/evidence lane; chapter question |
 | The Trust Cycle | draft | Part II opener; citations (Luhmann, Dewey) |
-| Trust Enables Participation | revised | Block party: late drinks, sharp joke, recovery |
-| Participation Changes Beliefs | revised | Dinner scene: assumption revised through participation |
+| Trust Enables Participation | revised | Behavioral pivot; chapter question |
+| Participation Changes Beliefs | revised | Observation vs transformation; chapter question |
 | Trust at Scale | revised | Expanded: street/strangers bridge, medicine/law/science vignettes |
 | What Trust Makes Possible | draft | Part III opener; citations (Dewey, Arendt) |
 | Trust and Leadership | revised | Speed-calming scene; drift compressed |
 | Trust and Meaning | revised | Tree rumor; awkward repair; distrust section capped |
 | Why Trust Matters | revised | Ten-year closing; quiet neighbor; citations (Ostrom, Arendt, Putnam, Dewey) |
 | Conclusion | revised | Quiet neighbor belonging; participation without conformity |
+| Appendix | draft | Core principles and trust cycle recap |
 | Bibliography | draft | 15 sources; 6 in reserve (see bibliography-guide) |
 
 ## Next actions

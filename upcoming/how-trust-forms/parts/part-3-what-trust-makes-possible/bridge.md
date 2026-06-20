@@ -12,7 +12,7 @@ Trust is often discussed as though it were a personal feeling—something that e
 
 The effects reach far beyond the original relationship. A family relies on trust to distribute responsibility. A team relies on trust to coordinate work. A community relies on trust to solve problems that no individual can solve alone. Every form of collective life depends upon people becoming willing to rely on one another despite uncertainty.[^p3-dewey]
 
-The next part of this book follows trust outward into those larger possibilities—not how trust forms, and not how trust sustains itself, but what trust makes possible once people begin carrying it together.
+The chapters in this part follow trust outward into those larger possibilities—how attention becomes leadership, how trust shapes meaning, and why cooperation depends on trust once people begin carrying it together.
 
 [^p3-arendt]: Arendt, *The Human Condition*, 2nd ed. (Chicago: University of Chicago Press, 1998).
 

@@ -1,5 +1,9 @@
 # **Trust and Meaning**
 
+> How does trust influence interpretation?
+
+Trust shapes what people hear before they verify what was said. Meaning travels through relationships—and relationships carry the weight of prior trust.
+
 One summer, a rumor spread through the neighborhood. Someone had heard that a homeowner planned to cut down several mature trees along the street. The story passed from one conversation to another, and each retelling added a little more certainty. By midweek, people were repeating it as though they had seen the saw themselves.
 
 The rumor changed behavior before anyone verified it. A neighbor crossed the street to avoid the homeowner's driveway. Children told one another the trees were "going away." Someone posted a warning in the group chat—"Just heard they're cutting down all the old trees on the block"—and several people reacted before asking whether it was true. The trees provided shade. Children played beneath them. People worried that removing them would change the character of the neighborhood, and the worry began shaping how people treated a family most of them barely knew.

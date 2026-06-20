@@ -40,6 +40,7 @@ Trust and leadership, trust and meaning, why trust matters.
 ## Back Matter
 
 - [Conclusion — The Next Neighbor](back-matter/conclusion-the-next-neighbor.md)
+- [Appendix — Core Principles and the Trust Cycle](back-matter/appendix-core-principles.md)
 - [Bibliography](back-matter/bibliography.md)
 
 ## Related books

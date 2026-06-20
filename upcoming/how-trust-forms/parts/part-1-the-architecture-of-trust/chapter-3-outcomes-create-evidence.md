@@ -1,5 +1,9 @@
 # **Outcomes Create Evidence**
 
+> How do we know whether trust was justified?
+
+Visibility alone is not enough. People also need evidence—and evidence comes from what happens after the action, not from the action alone.
+
 One winter, the neighbors went out of town for a week. A storm arrived two days after they left.
 
 Snow accumulated across the neighborhood. Driveways disappeared beneath drifts. Cars sat buried along the curb. The forecast kept predicting more. The house next door remained dark.
@@ -12,11 +16,13 @@ The outcome spoke for itself.
 
 ### Intention Versus Evidence
 
+The question shifts here. The last chapter asked what people were doing. This chapter asks what happened because they did it.
+
 Actions reveal beliefs. Outcomes reveal whether those beliefs can be relied upon—and that distinction matters.
 
-People often say they value responsibility. People often intend to be dependable. People often want to help. Intentions matter, but trust learns primarily through consequences. A promise becomes meaningful when it is kept. A commitment becomes visible when it survives inconvenience. A value becomes trustworthy when it repeatedly produces outcomes that others can experience directly.
+People often say they value responsibility. People often intend to be dependable. People often want to help. Intentions matter, but evidence learns primarily through consequences. A person may mean well, act consistently, and appear trustworthy—and still produce a poor outcome. Or the reverse. A promise becomes meaningful when it is kept. A commitment becomes visible when it survives inconvenience. A value becomes testable when it repeatedly produces outcomes that others can experience directly.
 
-This is how trust accumulates—not through declarations, not through isolated actions, but through consequences that teach others what participation with you is likely to produce. A neighbor who says they will collect your mail teaches one thing. A neighbor who actually collects your mail teaches another. The first communicates intention. The second creates evidence.
+This is how trust learns—not through declarations, not through isolated actions, but through consequences that teach others what relying on you is likely to produce. A neighbor who says they will collect your mail communicates intention. A neighbor who actually collects your mail creates evidence.
 
 ### Learning Through Consequences
 
@@ -24,7 +30,7 @@ Human beings are constantly making predictions. Can this person be counted on? W
 
 Russell Hardin describes trust as a relationship connected to trustworthiness.[^c3-hardin] Trust is not simply confidence. It emerges when people develop reasons to expect that another person, group, or institution will behave in ways that justify reliance. Outcomes provide those reasons. Each successful prediction reinforces participation. Each broken prediction weakens it. Over time, trust becomes a kind of accumulated learning—not certainty, but evidence.
 
-John Dewey argued that human beings learn through experience.[^c3-dewey] We act, observe consequences, adjust expectations, and act again. Trust follows a similar pattern. It develops through repeated cycles of participation and feedback. People do not merely observe trust. They learn it.
+John Dewey argued that human beings learn through experience.[^c3-dewey] We act, observe consequences, adjust expectations, and act again. Trust follows a similar pattern. It develops through repeated cycles of action and feedback. Outcomes are how the world answers the question visibility alone cannot settle: was reliance warranted?
 
 ### When Evidence Distorts
 

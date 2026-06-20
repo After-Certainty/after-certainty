@@ -1,5 +1,7 @@
 # **Trust at Scale**
 
+> How does trust travel beyond direct experience?
+
 The neighborhood grew over the next few years. New families arrived. Others moved away. Children grew older. People changed jobs. Some houses sold twice before anyone learned the names of the people who lived there.
 
 The neighborhood continued functioning anyway. Packages still arrived. Roads still got repaired. Electricity still worked. Water flowed from faucets every morning. Most of the people relying on these things had never met the engineers who designed them, the workers who maintained them, or the organizations responsible for keeping them running. Yet they relied on them all the same.

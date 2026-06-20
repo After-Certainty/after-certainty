@@ -1,5 +1,9 @@
 # **Why Trust Matters**
 
+> Why does cooperation depend on trust?
+
+Individual acts fade from memory. Neighborhoods still function when enough people remain willing to rely on one another despite uncertainty. This chapter asks what trust makes durable—and what disappears when that willingness thins.
+
 The neighborhood looked different ten years later. Some families had moved away. Others had arrived. Children who once rode bicycles through the street now drove cars of their own. Trees planted near sidewalks had grown tall enough to cast shade across entire yards.
 
 Many individual moments had faded from memory. Few people remembered who organized the first block party. Most could not recall exactly who helped during a particular storm. The details blurred. The neighborhood remained.
