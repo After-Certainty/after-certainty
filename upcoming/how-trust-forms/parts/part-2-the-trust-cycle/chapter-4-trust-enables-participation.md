@@ -32,13 +32,9 @@ Elinor Ostrom found this pattern repeatedly while studying communities that succ
 
 ### Inertia Disguised as Loyalty
 
-The same trust that enables participation can also create vulnerability. People sometimes continue participating after trust no longer deserves it. Families can carry responsibilities unevenly for years because trust discourages difficult conversations. Teams can tolerate poor performance because trust becomes confused with loyalty. Institutions can retain participation long after evidence suggests they should be questioned.
+The same trust that enables participation can also outlast the experiences that created it. People sometimes keep showing up after promises stop being kept, keep contributing after effort flows only one way, keep assuming goodwill after patterns have changed. Trust that once made coordination easier can begin protecting habit instead.
 
-Trust creates cooperation. It can also delay correction.
-
-The problem appears when participation becomes detached from feedback. People continue contributing because they always have. They continue trusting because trust itself has become part of their identity. Participation remains. Evidence fades. At that point, trust stops enabling cooperation and starts protecting inertia.
-
-The challenge is not whether people participate. The challenge is whether participation remains connected to reality.
+The challenge is not whether people participate. The challenge is whether participation remains connected to what actually happens. When it does, trust keeps earning its place. When it does not, the question of what trust is for becomes harder to ignore—a question this book returns to later. For now, the more immediate point is simpler: trust exists to make participation possible in the first place.
 
 ### Keeping Participation Honest
 

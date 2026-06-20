@@ -1,10 +1,12 @@
 # **Trust and Meaning**
 
-One summer, a rumor spread through the neighborhood. Someone had heard that a homeowner planned to cut down several mature trees along the street. The story passed from one conversation to another, and each retelling added a little more certainty. By the end of the week, some residents were upset. The trees provided shade. Children played beneath them. People worried that removing them would change the character of the neighborhood.
+One summer, a rumor spread through the neighborhood. Someone had heard that a homeowner planned to cut down several mature trees along the street. The story passed from one conversation to another, and each retelling added a little more certainty. By midweek, people were repeating it as though they had seen the saw themselves.
+
+The rumor changed behavior before anyone verified it. A neighbor crossed the street to avoid the homeowner's driveway. Children told one another the trees were "going away." Someone posted a warning in the group chat—"Just heard they're cutting down all the old trees on the block"—and several people reacted before asking whether it was true. The trees provided shade. Children played beneath them. People worried that removing them would change the character of the neighborhood, and the worry began shaping how people treated a family most of them barely knew.
 
 Then someone finally spoke to the homeowner. The story turned out to be wrong. The city had marked a single diseased tree for removal. The homeowner had spent months trying to save it. No one planned to remove the others.
 
-The misunderstanding disappeared almost immediately. What remained was a quieter question: why had so many people believed the rumor in the first place?
+The misunderstanding disappeared almost immediately. Relief followed—followed by embarrassment. Neighbors who had avoided the house stopped to apologize. The group chat thread ended with laughing emoji and a promise to check next time. What remained was a quieter question: why had so many people believed the rumor in the first place?
 
 The answer had little to do with the trees. It had everything to do with trust.
 
@@ -28,9 +30,9 @@ Trust does not determine meaning. It influences how meaning moves.
 
 ### When Distrust Accelerates
 
-The same mechanism can create problems. Trust sometimes encourages people to overlook errors, excuse poor communication, or accept claims too quickly. Distrust creates a different problem. Every ambiguity becomes suspicious. Every mistake becomes evidence. Every disagreement becomes proof of hidden motives.
+The same mechanism can cut both ways. Trust sometimes encourages people to overlook errors or accept claims too quickly. Distrust creates a different problem on a familiar street: every ambiguity becomes suspicious, every neighbor's silence becomes evidence, and ordinary mistakes acquire weight they do not deserve. On the tree rumor, the story spread quickly partly because it arrived through people the block already trusted—and partly because the homeowner was newer, quieter, and easier to summarize than to know.
 
-People stop asking what someone meant and begin assuming they already know. The result is not merely disagreement. The result is distortion. Once distrust dominates interpretation, communication becomes increasingly fragile. Clarifications fail. Corrections arrive too late. Ordinary misunderstandings acquire unnecessary weight. People continue speaking. Understanding becomes harder to achieve.
+Once interpretation hardens, correction becomes harder than the original mistake. People stop asking what someone meant and begin assuming they already know.
 
 ### Keeping Meaning Corrigible
 
@@ -50,9 +52,9 @@ People interpret information through relationships. Trust encourages patience, c
 
 A few days after the rumor faded, the neighbors laughed about how quickly the story had spread. Someone asked why nobody had simply spoken to the homeowner first. No one had a good answer.
 
-The conversation would have taken five minutes. The misunderstanding had lasted a week. In the end, the problem was not information. The information had been available all along. People simply trusted the rumor more than the relationship.
+The conversation would have taken five minutes. The misunderstanding had lasted a week. In the end, the problem was not information. The information had been available all along. People simply trusted the rumor more than the relationship—and the rumor had traveled through voices they already relied on, while the homeowner remained someone they had never quite gotten around to knowing.
 
-The moment someone chose conversation instead, the distortion began to unravel.
+The moment someone chose conversation instead, the distortion began to unravel. The trees were still standing. The street felt ordinary again. What changed was not the facts. It was the willingness to let the facts replace a story that had already started living on its own.
 
 [^c8-goffman]: Goffman, *The Presentation of Self in Everyday Life* (Garden City, NY: Doubleday, 1959).
 

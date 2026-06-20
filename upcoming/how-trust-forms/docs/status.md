@@ -2,9 +2,9 @@
 
 ## Current phase
 
-**Phase 2 — Author review**
+**Phase 2 — Developmental edit**
 
-Manuscript draft complete (Introduction through Chapter 9).
+Manuscript draft complete; developmental edit pass applied to Ch 6–8 and Conclusion (Ch 4 boundary trim).
 
 ## Active branch
 
@@ -32,21 +32,21 @@ Manuscript draft complete (Introduction through Chapter 9).
 | Beliefs Become Visible | draft | Neighbor pattern; citations (Goffman, Berger & Luckmann) |
 | Outcomes Create Evidence | draft | Storm/shoveling; citations (Hardin, Dewey) |
 | The Trust Cycle | draft | Part II opener; citations (Luhmann, Dewey) |
-| Trust Enables Participation | draft | Block party; citation (Ostrom) |
+| Trust Enables Participation | draft | Block party; citation (Ostrom); drift section trimmed |
 | Participation Changes Beliefs | draft | Dinner invitation; citations (Dewey, Berger & Luckmann) |
-| Trust at Scale | draft | Neighborhood/systems hinge; citations (Luhmann, O'Neill, Scott) |
+| Trust at Scale | revised | Expanded: street/strangers bridge, medicine/law/science vignettes |
 | What Trust Makes Possible | draft | Part III opener; citations (Dewey, Arendt) |
-| Trust and Leadership | draft | Neighborhood leader; citations (Weber, MacIntyre) |
-| Trust and Meaning | draft | Tree rumor; citations (Goffman, Berger & Luckmann, Fricker) |
+| Trust and Leadership | revised | Speed-calming scene; drift compressed |
+| Trust and Meaning | revised | Tree-rumor emotional stakes; distrust section capped |
 | Why Trust Matters | draft | Ten-year closing; citations (Ostrom, Arendt, Putnam, Dewey) |
-| Conclusion | draft | The Next Neighbor; bookend with introduction |
+| Conclusion | revised | Emotional deepening; generational neighbor cycle |
 | Bibliography | draft | 15 sources; 6 in reserve (see bibliography-guide) |
 
 ## Next actions
 
-1. Author read-through of full manuscript
-2. Citation density pass (target 8–12 recurring sources)
-3. Rhythm and redundancy review across units
+1. Author read-through of developmental edit
+2. Echo pass across remaining units (Part I, Ch 9)
+3. Citation density pass (target 8–12 recurring sources)
 
 ## Open decisions / known issues
 
@@ -54,5 +54,5 @@ Manuscript draft complete (Introduction through Chapter 9).
 
 ## Rough scale
 
-- Manuscript words: ~13,400 (draft complete, including conclusion)
+- Manuscript words: ~13,500 (after developmental edit)
 - Last assessed: upcoming/how-trust-forms-draft (June 2026)
