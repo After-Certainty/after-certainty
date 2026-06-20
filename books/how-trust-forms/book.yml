@@ -1,7 +1,7 @@
 version: 1
 
-upcoming:
-  status: draft
+publishing:
+  enabled: true
 
 book:
   id: how-trust-forms
@@ -10,6 +10,7 @@ book:
   description: "How people become willing to participate with one another under uncertainty—beliefs, actions, outcomes, and the trust cycle."
   author:
     name: "Kevin Steffensen"
+    website: "https://after-certainty.com"
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
@@ -32,8 +33,16 @@ frontmatter:
 build:
   formats:
     docx:
-      enabled: false
+      enabled: true
     epub:
-      enabled: false
+      enabled: true
     pdf:
-      enabled: false
+      enabled: true
+
+github:
+  release: true
+  release_tag: "latest"
+  artifacts:
+    - docx
+    - epub
+    - pdf

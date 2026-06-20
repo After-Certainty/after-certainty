@@ -115,17 +115,17 @@ Several of these are **essay-length** concentrated arguments (~8–13k words), n
 
 ---
 
-## Trust cluster (upcoming)
+## Trust cluster
 
-A parallel **Formation → Tension → Practice** arc on trust. These titles live under [`upcoming/`](../upcoming/) with exports disabled until Phase 5 promote. They are not part of the core eight-book reading order above.
+A parallel **Formation → Tension → Practice** arc on trust. **How Trust Forms** is published under [`books/`](../books/how-trust-forms/); the other two titles remain under [`upcoming/`](../upcoming/) until Phase 5 promote.
 
 | Arc | Book | One-line |
 |-----|------|----------|
-| Formation | [How Trust Forms](../upcoming/how-trust-forms/index.md) | Why trust emerges |
+| Formation | [How Trust Forms](../books/how-trust-forms/index.md) | Why trust emerges |
 | Tension | [When Trust Stops Tracking Reality](../upcoming/when-trust-stops-tracking-reality/index.md) | How trust drifts |
 | Practice | [Trust Beyond Similarity](../upcoming/trust-beyond-similarity/index.md) | How trust remains possible after both |
 
-### [How Trust Forms](../upcoming/how-trust-forms/index.md)
+### [How Trust Forms](../books/how-trust-forms/index.md)
 
 How people become willing to participate with one another under uncertainty—beliefs made visible through action, outcomes that teach, participation that updates belief.
 
@@ -145,7 +145,7 @@ Similarity makes trust easier. Difference makes trust more valuable—how trust 
 
 ### Trust cluster reading order
 
-1. **[How Trust Forms](../upcoming/how-trust-forms/index.md)** — Formation  
+1. **[How Trust Forms](../books/how-trust-forms/index.md)** — Formation  
 2. **[When Trust Stops Tracking Reality](../upcoming/when-trust-stops-tracking-reality/index.md)** — Tension  
 3. **[Trust Beyond Similarity](../upcoming/trust-beyond-similarity/index.md)** — Practice
 

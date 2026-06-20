@@ -45,7 +45,7 @@ What keeps trust answerable to outcomes.
 
 [Series guide — Trust cluster](../../docs/series-guide.md#trust-cluster-upcoming)
 
-- [How Trust Forms](../how-trust-forms/index.md) — why trust emerges (formation)
+- [How Trust Forms](../../books/how-trust-forms/index.md) — why trust emerges (formation)
 - [Trust Beyond Similarity](../trust-beyond-similarity/index.md) — trust across difference (practice)
 - [After Certainty](../../books/after-certainty/index.md) — scrutiny preserves trust
 - [When Accountability No Longer Expires](../../books/when-accountability-no-longer-expires/index.md) — legitimacy persistence

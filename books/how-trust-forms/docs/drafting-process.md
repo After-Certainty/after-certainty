@@ -74,7 +74,7 @@ After all units are at least `draft`:
 
 When the manuscript is ready for the publishing pipeline:
 
-- Move or copy into `books/how-trust-forms/`
+- Move or copy into `books/how-trust-forms/` (done June 2026)
 - Enable exports in `book.yml`
 - Update [upcoming/docs/portfolio-status.md](../../docs/portfolio-status.md)
 

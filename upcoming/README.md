@@ -24,17 +24,17 @@ Refresh the portfolio row whenever a book's `docs/status.md` changes phase or ne
 
 Fiction manuscripts use a separate track (planning under `docs/`, not the nonfiction `book-rules` / `drafting-process` trio). They are not listed on the nonfiction portfolio dashboard.
 
-**Promoted to `books/`:** **Velorum** — [`books/velorum/`](../books/velorum/) (mythic fantasy; exports enabled). **Boundary Conditions** — [`books/boundary-conditions/`](../books/boundary-conditions/) (organizational fiction novel; exports enabled). **The Economy We Don't Experience** — [`books/the-economy-we-dont-experience/`](../books/the-economy-we-dont-experience/) (~28–32k edition; exports enabled). **When Incentives Become the Moral Language** — [`books/when-incentives-become-the-moral-language/`](../books/when-incentives-become-the-moral-language/) (essay edition; exports enabled). **Why Collaboration Is So Hard** — [`books/why-collaboration-is-so-hard/`](../books/why-collaboration-is-so-hard/) (essay edition; exports enabled).
+**Promoted to `books/`:** **Velorum** — [`books/velorum/`](../books/velorum/) (mythic fantasy; exports enabled). **Boundary Conditions** — [`books/boundary-conditions/`](../books/boundary-conditions/) (organizational fiction novel; exports enabled). **The Economy We Don't Experience** — [`books/the-economy-we-dont-experience/`](../books/the-economy-we-dont-experience/) (~28–32k edition; exports enabled). **When Incentives Become the Moral Language** — [`books/when-incentives-become-the-moral-language/`](../books/when-incentives-become-the-moral-language/) (essay edition; exports enabled). **Why Collaboration Is So Hard** — [`books/why-collaboration-is-so-hard/`](../books/why-collaboration-is-so-hard/) (essay edition; exports enabled). **How Trust Forms** — [`books/how-trust-forms/`](../books/how-trust-forms/) (trust trilogy formation; exports enabled).
 
 Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/after-certainty/` with only export artifacts). Published copies live under `books/` only.
 
 ## Current upcoming titles
 
-**Trust trilogy** (Formation → Tension → Practice; exports disabled):
+**Trust trilogy** (Formation published; Tension and Practice in progress):
 
 | Book | Path |
 |------|------|
-| How Trust Forms | [`how-trust-forms/`](how-trust-forms/index.md) |
+| How Trust Forms | [`books/how-trust-forms/`](../books/how-trust-forms/index.md) |
 | When Trust Stops Tracking Reality | [`when-trust-stops-tracking-reality/`](when-trust-stops-tracking-reality/index.md) |
 | Trust Beyond Similarity | [`trust-beyond-similarity/`](trust-beyond-similarity/index.md) |
 
