@@ -2,7 +2,9 @@
 
 A few weeks later, the neighbors were no longer entirely unknown—not because anyone had sat down and explained their values, not because long conversations had taken place. Most of what the street knew about them had been learned indirectly.
 
-The father returned borrowed tools when he said he would. The children waved when they rode their bikes past the driveway. Packages rarely sat unattended for long. Trash cans disappeared from the curb before most people woke up. During a windstorm, a fallen branch was quietly moved from the sidewalk before anyone asked.
+The father returned borrowed tools when he said he would—usually. Once, a hedge trimmer stayed in his garage two days longer than promised. When he brought it back, he apologized without being asked and explained that a work trip had run long. The neighbor who lent it had been mildly annoyed; the apology did not erase the inconvenience, but it gave the street something to work with. The apology helped, but the lender still found himself hesitating the next time someone asked to borrow a tool. A kept promise teaches one thing. A late return followed by explanation teaches another—and repair takes longer than the apology itself.
+
+The children waved when they rode their bikes past the driveway. Packages rarely sat unattended for long. Trash cans disappeared from the curb before most people woke up. During a windstorm, a fallen branch was quietly moved from the sidewalk before anyone asked.
 
 None of these actions seemed important by themselves. Taken together, they began forming an impression. People started saying things like: "They seem thoughtful." "They're dependable." "They take care of things." No one was describing a conversation. They were describing a pattern.
 

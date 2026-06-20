@@ -8,7 +8,7 @@ For the first few days, everyone watched from a distance. People exchanged waves
 
 The neighborhood knew almost nothing about the family. Were they friendly? Would they become part of the community or keep to themselves? Could anyone count on them? Would they become friends, sources of conflict, or simply strangers living a few houses away? No one could answer those questions, yet relationships began to form anyway.
 
-Someone waved from across the street. A neighbor stopped to chat while taking out the trash. Another person moved a package under cover before a storm rolled through. Someone lent a tool, and the family returned it a few days later.[^intro-baier-vulnerability]
+Someone waved from across the street. A neighbor stopped to chat while taking out the trash. Another person moved a package under cover before a storm rolled through. Someone lent a tool, and the family returned it a few days later.[^intro-baier-vulnerability] Most of the street began participating in these small ways. One house down the block stayed quieter—waves from the driveway, polite exchanges, rarely more. Not unfriendly. Not hostile. Just present at the edges rather than at the center. The neighborhood was learning to cooperate without requiring everyone to engage at the same depth.
 
 None of these interactions resolved the larger uncertainty. The neighborhood still knew very little about the people who had moved in. But those small moments created something that did not exist before.
 

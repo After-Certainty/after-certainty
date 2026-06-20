@@ -4,7 +4,7 @@ The neighborhood looked different ten years later. Some families had moved away.
 
 Many individual moments had faded from memory. Few people remembered who organized the first block party. Most could not recall exactly who helped during a particular storm. The details blurred. The neighborhood remained.
 
-People still borrowed tools, still shared information, still checked on one another during emergencies, still worked together when something needed attention. No single relationship explained why. No individual carried the entire burden. Something larger had emerged from thousands of ordinary acts of participation.
+People still borrowed tools, still shared information, still checked on one another during emergencies, still worked together when something needed attention. The quiet house down the block remained quiet. Its owners still preferred brief conversations at the mailbox to long evenings around a table. They rarely attended gatherings and rarely stayed long when they did. Yet when people spoke about the neighborhood, nobody questioned whether they belonged there. Trust had never required everyone to participate the same way. It required enough people to participate reliably enough, in enough different forms, for cooperation to continue. No single relationship explained why. No individual carried the entire burden. Something larger had emerged from thousands of ordinary acts of participation.
 
 Trust had become cooperation.
 

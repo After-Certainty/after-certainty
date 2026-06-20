@@ -2,7 +2,9 @@
 
 By spring, the neighborhood was planning a block party. The idea had started the way many neighborhood ideas begin—with a conversation at the mailbox, a suggestion offered casually, and a handful of people willing to help.
 
-Someone volunteered to organize tables. Someone else offered a grill. The family next door agreed to help set up. A few weeks later, dozens of people were standing in the street eating hamburgers while children rode bicycles between folding chairs.
+Someone volunteered to organize tables. Someone else offered a grill. The family next door agreed to help set up. Not everything went smoothly. One neighbor who promised drinks arrived an hour late, juggling a last-minute work call and a store run that took longer than expected. The person coordinating food made a joke about it that landed a little sharp. Someone else covered the gap. The drinks appeared. The party continued. Later that week, the late neighbor dropped off a six-pack on the porch with a note: *Sorry I cut it close—next time I'll plan better.* Nobody pretended the moment had not happened. They also did not treat it as proof the street could not count on one another.
+
+A few weeks later, dozens of people were standing in the street eating hamburgers while children rode bicycles between folding chairs. Most of the neighborhood had turned out. One neighbor waved from his porch, called out that the food smelled good, and never crossed the lawn. Nobody treated his distance as a rejection. He would still prefer the porch to the crowd years later. Participation, the street was discovering, did not require identical levels of engagement.
 
 The event itself was unremarkable. Neighborhoods do this sort of thing all the time. What was remarkable was everything that made it possible.
 
@@ -55,6 +57,8 @@ Trust does not eliminate uncertainty. It reduces the cost of acting together des
 As the evening ended, folding chairs disappeared back into garages. Coolers were loaded into trunks. Children were called home as the sun dropped behind the houses. The street looked ordinary again.
 
 Nothing permanent had been built. No major problem had been solved. Yet something real had happened: dozens of people had coordinated their efforts without contracts, enforcement, or certainty. They had participated.
+
+Afterward, one neighbor quietly complained that the same people always seemed to volunteer. She was not wrong. The complaint did not derail the evening or dissolve the trust the party had depended on. It simply named something every volunteer organization eventually notices: participation is rarely distributed perfectly, and trust has to carry cooperation anyway.
 
 The block party was not evidence that uncertainty had disappeared. It was evidence that trust had become strong enough for people to act together anyway.
 

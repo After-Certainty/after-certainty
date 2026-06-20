@@ -28,4 +28,6 @@ A wave. A conversation. An offer to help.
 
 Trust had not formed. Participation had. And as it always does, trust would grow from there.
 
+Not everyone participated in the same way. Some organized gatherings. Some showed up occasionally. Some preferred brief conversations at the mailbox to long evenings around a table. One household remained mostly at the edges of neighborhood life for years. The quiet house remained quiet. They still preferred distance to crowds and conversations to meetings. Yet when people spoke about the neighborhood, nobody questioned whether they belonged there. Trust had never required uniformity. Participation is not conformity. Belonging does not require identical behavior. What trust required was enough participation, offered in enough different ways, for cooperation to continue.
+
 Every generation becomes the new neighbor. Every neighbor becomes part of the story the next person cannot yet see. That is not a reason for naïveté. It is a reason for hope grounded in practice: cooperation begins before trust is complete, and trust grows where participation is allowed to continue.

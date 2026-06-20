@@ -26,20 +26,20 @@ Manuscript draft complete; developmental edit pass applied to Ch 6–8 and Concl
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction | draft | The New Neighbor anchor story; citations (Baier, Luhmann) |
+| Introduction | revised | Quiet neighbor; participation spectrum |
 | The Architecture of Trust | draft | Part I opener; citations (Luhmann) |
 | The First Leap | draft | Package on porch; citations (Baier, Luhmann) |
-| Beliefs Become Visible | draft | Neighbor pattern; citations (Goffman, Berger & Luckmann) |
+| Beliefs Become Visible | revised | Late tool return; mild friction in pattern |
 | Outcomes Create Evidence | draft | Storm/shoveling; citations (Hardin, Dewey) |
 | The Trust Cycle | draft | Part II opener; citations (Luhmann, Dewey) |
-| Trust Enables Participation | draft | Block party; citation (Ostrom); drift section trimmed |
-| Participation Changes Beliefs | draft | Dinner invitation; citations (Dewey, Berger & Luckmann) |
+| Trust Enables Participation | revised | Block party: late drinks, sharp joke, recovery |
+| Participation Changes Beliefs | revised | Dinner scene: assumption revised through participation |
 | Trust at Scale | revised | Expanded: street/strangers bridge, medicine/law/science vignettes |
 | What Trust Makes Possible | draft | Part III opener; citations (Dewey, Arendt) |
 | Trust and Leadership | revised | Speed-calming scene; drift compressed |
-| Trust and Meaning | revised | Tree-rumor emotional stakes; distrust section capped |
-| Why Trust Matters | draft | Ten-year closing; citations (Ostrom, Arendt, Putnam, Dewey) |
-| Conclusion | revised | Emotional deepening; generational neighbor cycle |
+| Trust and Meaning | revised | Tree rumor; awkward repair; distrust section capped |
+| Why Trust Matters | revised | Ten-year closing; quiet neighbor; citations (Ostrom, Arendt, Putnam, Dewey) |
+| Conclusion | revised | Quiet neighbor belonging; participation without conformity |
 | Bibliography | draft | 15 sources; 6 in reserve (see bibliography-guide) |
 
 ## Next actions
@@ -54,5 +54,5 @@ Manuscript draft complete; developmental edit pass applied to Ch 6–8 and Concl
 
 ## Rough scale
 
-- Manuscript words: ~13,500 (after developmental edit)
+- Manuscript words: ~14,000 (after final friction pass)
 - Last assessed: upcoming/how-trust-forms-draft (June 2026)

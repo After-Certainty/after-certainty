@@ -6,7 +6,11 @@ The rumor changed behavior before anyone verified it. A neighbor crossed the str
 
 Then someone finally spoke to the homeowner. The story turned out to be wrong. The city had marked a single diseased tree for removal. The homeowner had spent months trying to save it. No one planned to remove the others.
 
-The misunderstanding disappeared almost immediately. Relief followed—followed by embarrassment. Neighbors who had avoided the house stopped to apologize. The group chat thread ended with laughing emoji and a promise to check next time. What remained was a quieter question: why had so many people believed the rumor in the first place?
+The misunderstanding disappeared almost immediately. Relief followed—followed by embarrassment. Neighbors who had avoided the house stopped to apologize. The group chat thread ended with laughing emoji and a promise to check next time. Not everyone felt comfortable right away. One neighbor who had posted the warning in the chat brought cookies over and stayed only long enough to leave them on the porch. The homeowner thanked her through the screen door. The interaction was polite, not warm. Trust had not fully repaired itself in an afternoon. It had simply become possible again.
+
+For a while afterward, the homeowner found himself wondering what else people might be saying when he was not around. The trees were still standing. The facts had replaced the rumor. But meaning, he had learned, leaves a residue.
+
+What remained was a quieter question: why had so many people believed the rumor in the first place?
 
 The answer had little to do with the trees. It had everything to do with trust.
 
@@ -54,7 +58,7 @@ A few days after the rumor faded, the neighbors laughed about how quickly the st
 
 The conversation would have taken five minutes. The misunderstanding had lasted a week. In the end, the problem was not information. The information had been available all along. People simply trusted the rumor more than the relationship—and the rumor had traveled through voices they already relied on, while the homeowner remained someone they had never quite gotten around to knowing.
 
-The moment someone chose conversation instead, the distortion began to unravel. The trees were still standing. The street felt ordinary again. What changed was not the facts. It was the willingness to let the facts replace a story that had already started living on its own.
+The moment someone chose conversation instead, the distortion began to unravel. The trees were still standing. The street felt ordinary again, though not quite as seamless as before. What changed was not the facts. It was the willingness to let the facts replace a story that had already started living on its own—and the slow work of letting a relationship catch up to what the facts had revealed.
 
 [^c8-goffman]: Goffman, *The Presentation of Self in Everyday Life* (Garden City, NY: Doubleday, 1959).
 
