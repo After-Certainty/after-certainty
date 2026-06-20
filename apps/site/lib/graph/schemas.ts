@@ -48,14 +48,27 @@ const bookPurchaseLinkSchema = z.object({
   label: z.string().min(1).optional(),
 });
 
+/** Release JSON may use null for absent optional strings; normalize to undefined. */
+const optionalManifestString = z
+  .string()
+  .min(1)
+  .nullish()
+  .transform((value) => value ?? undefined);
+
+const optionalManifestUrl = z
+  .string()
+  .url()
+  .nullish()
+  .transform((value) => value ?? undefined);
+
 const bookSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
   title: z.string().min(1),
   subtitle: z.string().optional(),
   summary: z.string().optional(),
-  coverImage: z.string().min(1).optional(),
-  openGraphImage: z.string().url().optional(),
+  coverImage: optionalManifestString,
+  openGraphImage: optionalManifestUrl,
   concepts: stringList,
   patterns: stringList,
   sources: stringList,

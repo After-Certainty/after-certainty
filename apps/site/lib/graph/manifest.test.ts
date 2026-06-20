@@ -117,6 +117,32 @@ describe("validateSemanticGraph", () => {
     });
     expect(result.success).toBe(false);
   });
+
+  it("accepts null book coverImage and openGraphImage from the release manifest", () => {
+    const result = validateSemanticGraph({
+      books: [
+        {
+          id: "book-example",
+          slug: "example",
+          title: "Example",
+          coverImage: null,
+          openGraphImage: null,
+          concepts: [],
+          patterns: [],
+          sources: [],
+        },
+      ],
+      glossary: [],
+      patterns: [],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.books[0]?.coverImage).toBeUndefined();
+      expect(result.data.books[0]?.openGraphImage).toBeUndefined();
+    }
+  });
 });
 
 describe("dedupeSemanticGraphBooks", () => {
