@@ -1,6 +1,6 @@
 # **How Trust Forms**
 
-## **Why People Become Willing to Participate**
+## **Why Participation Becomes Possible**
 
 ### **Contents**
 
@@ -14,31 +14,32 @@
 
 How trust begins before proof—beliefs made visible, outcomes that teach.
 
-- [Part I bridge](parts/part-1-the-architecture-of-trust/bridge.md)
-- [Chapter 1 — The First Leap](parts/part-1-the-architecture-of-trust/chapter-1-the-first-leap.md)
-- [Chapter 2 — Beliefs Become Visible](parts/part-1-the-architecture-of-trust/chapter-2-beliefs-become-visible.md)
-- [Chapter 3 — Outcomes Create Evidence](parts/part-1-the-architecture-of-trust/chapter-3-outcomes-create-evidence.md)
+- [The Architecture of Trust](parts/part-1-the-architecture-of-trust/bridge.md)
+- [The First Leap](parts/part-1-the-architecture-of-trust/chapter-1-the-first-leap.md)
+- [Beliefs Become Visible](parts/part-1-the-architecture-of-trust/chapter-2-beliefs-become-visible.md)
+- [Outcomes Create Evidence](parts/part-1-the-architecture-of-trust/chapter-3-outcomes-create-evidence.md)
 
 ## Part II — The Trust Cycle
 
 How trust enables participation, participation updates belief, and trust scales.
 
-- [Part II bridge](parts/part-2-the-trust-cycle/bridge.md)
-- [Chapter 4 — Trust Enables Participation](parts/part-2-the-trust-cycle/chapter-4-trust-enables-participation.md)
-- [Chapter 5 — Participation Changes Beliefs](parts/part-2-the-trust-cycle/chapter-5-participation-changes-beliefs.md)
-- [Chapter 6 — Trust at Scale](parts/part-2-the-trust-cycle/chapter-6-trust-at-scale.md)
+- [The Trust Cycle](parts/part-2-the-trust-cycle/bridge.md)
+- [Trust Enables Participation](parts/part-2-the-trust-cycle/chapter-4-trust-enables-participation.md)
+- [Participation Changes Beliefs](parts/part-2-the-trust-cycle/chapter-5-participation-changes-beliefs.md)
+- [Trust at Scale](parts/part-2-the-trust-cycle/chapter-6-trust-at-scale.md)
 
 ## Part III — What Trust Makes Possible
 
 Trust and leadership, trust and meaning, why trust matters.
 
-- [Part III bridge](parts/part-3-what-trust-makes-possible/bridge.md)
-- [Chapter 7 — Trust and Leadership](parts/part-3-what-trust-makes-possible/chapter-7-trust-and-leadership.md)
-- [Chapter 8 — Trust and Meaning](parts/part-3-what-trust-makes-possible/chapter-8-trust-and-meaning.md)
-- [Chapter 9 — Why Trust Matters](parts/part-3-what-trust-makes-possible/chapter-9-why-trust-matters.md)
+- [What Trust Makes Possible](parts/part-3-what-trust-makes-possible/bridge.md)
+- [Trust and Leadership](parts/part-3-what-trust-makes-possible/chapter-7-trust-and-leadership.md)
+- [Trust and Meaning](parts/part-3-what-trust-makes-possible/chapter-8-trust-and-meaning.md)
+- [Why Trust Matters](parts/part-3-what-trust-makes-possible/chapter-9-why-trust-matters.md)
 
 ## Back Matter
 
+- [Conclusion — The Next Neighbor](back-matter/conclusion-the-next-neighbor.md)
 - [Bibliography](back-matter/bibliography.md)
 
 ## Related books

@@ -25,7 +25,7 @@ Create each branch from latest `main` unless continuing work on an open branch. 
 ### Phase 0 — Structure
 
 - Confirm `index.md` links match filenames and on-page titles.
-- Add missing bridge files where the arc requires them.
+- Add missing part opener files (`bridge.md`) where the arc requires them.
 - Resolve known path/title mismatches recorded in `docs/status.md`.
 
 ### Phase 1 — Outline to prose
@@ -35,7 +35,7 @@ For units marked `outline` in `docs/status.md`:
 - Expand bullet scaffolds into continuous prose per `docs/book-rules.md`.
 - One unit at a time unless the author approves a batch.
 
-### Phase 2 — Unit passes (per chapter, bridge, or front/back matter section)
+### Phase 2 — Unit passes (per chapter, part opener, or front/back matter section)
 
 After drafting or revising one unit:
 
@@ -54,7 +54,7 @@ Pause for author review before moving to the next unit unless explicitly told to
 
 After all units in a part are drafted:
 
-- Bridge-to-chapter continuity
+- Part opener-to-chapter continuity
 - Chapter-to-chapter progression (no restatement without nuance)
 - Consistent terminology and confidence level
 - Example distribution across the part

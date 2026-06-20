@@ -1,5 +1,9 @@
+![Cover](book-cover.png){ width=100% }
+
+\newpage
+
 # **How Trust Forms**
 
-## **Why People Become Willing to Participate**
+## **Why Participation Becomes Possible**
 
 **Kevin Steffensen**

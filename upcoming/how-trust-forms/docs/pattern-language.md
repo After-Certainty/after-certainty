@@ -4,17 +4,17 @@
 
 ## Locked set
 
-| Ch | Pattern |
-|----|---------|
-| 1 | **Trust Begins Before Verification** |
-| 2 | **Actions Reveal Beliefs** |
-| 3 | **Outcomes Teach Trust** |
-| 4 | **Trust Enables Participation** |
-| 5 | **Participation Updates Beliefs** |
-| 6 | **Trust Scales Through Abstraction** |
-| 7 | **Trust Converts Attention Into Legitimacy** |
-| 8 | **Trust Slows Distortion** |
-| 9 | **Trust Makes Cooperation Possible** |
+| Unit | Pattern |
+|------|---------|
+| *The First Leap* | **Trust Begins Before Verification** |
+| *Beliefs Become Visible* | **Actions Reveal Beliefs** |
+| *Outcomes Create Evidence* | **Outcomes Teach Trust** |
+| *Trust Enables Participation* | **Trust Enables Participation** |
+| *Participation Changes Beliefs* | **Participation Updates Beliefs** |
+| *Trust at Scale* | **Trust Scales Through Abstraction** |
+| *Trust and Leadership* | **Trust Converts Attention Into Legitimacy** |
+| *Trust and Meaning* | **Trust Slows Distortion** |
+| *Why Trust Matters* | **Trust Makes Cooperation Possible** |
 
 ## Rules
 

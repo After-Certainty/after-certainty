@@ -2,11 +2,13 @@
 
 ## Current phase
 
-**Phase 0 — Structure**
+**Phase 2 — Author review**
+
+Manuscript draft complete (Introduction through Chapter 9).
 
 ## Active branch
 
-`trust-trilogy-outlines`
+`upcoming/how-trust-forms-draft`
 
 ## Manuscript hub
 
@@ -16,6 +18,7 @@
 
 - [`book-rules.md`](book-rules.md)
 - [`pattern-language.md`](pattern-language.md)
+- [`bibliography-guide.md`](bibliography-guide.md)
 - [`drafting-process.md`](drafting-process.md)
 - Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md)
 
@@ -23,26 +26,27 @@
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction | outline | scaffold |
-| Part I bridge | outline | scaffold |
-| Chapter 1 — The First Leap | outline | scaffold |
-| Chapter 2 — Beliefs Become Visible | outline | scaffold |
-| Chapter 3 — Outcomes Create Evidence | outline | scaffold |
-| Part II bridge | outline | scaffold |
-| Chapter 4 — Trust Enables Participation | outline | scaffold |
-| Chapter 5 — Participation Changes Beliefs | outline | scaffold |
-| Chapter 6 — Trust at Scale | outline | scaffold |
-| Part III bridge | outline | scaffold |
-| Chapter 7 — Trust and Leadership | outline | scaffold |
-| Chapter 8 — Trust and Meaning | outline | scaffold |
-| Chapter 9 — Why Trust Matters | outline | scaffold |
-| Bibliography | outline | scaffold |
+| Introduction | draft | The New Neighbor anchor story; citations (Baier, Luhmann) |
+| The Architecture of Trust | draft | Part I opener; citations (Luhmann) |
+| The First Leap | draft | Package on porch; citations (Baier, Luhmann) |
+| Beliefs Become Visible | draft | Neighbor pattern; citations (Goffman, Berger & Luckmann) |
+| Outcomes Create Evidence | draft | Storm/shoveling; citations (Hardin, Dewey) |
+| The Trust Cycle | draft | Part II opener; citations (Luhmann, Dewey) |
+| Trust Enables Participation | draft | Block party; citation (Ostrom) |
+| Participation Changes Beliefs | draft | Dinner invitation; citations (Dewey, Berger & Luckmann) |
+| Trust at Scale | draft | Neighborhood/systems hinge; citations (Luhmann, O'Neill, Scott) |
+| What Trust Makes Possible | draft | Part III opener; citations (Dewey, Arendt) |
+| Trust and Leadership | draft | Neighborhood leader; citations (Weber, MacIntyre) |
+| Trust and Meaning | draft | Tree rumor; citations (Goffman, Berger & Luckmann, Fricker) |
+| Why Trust Matters | draft | Ten-year closing; citations (Ostrom, Arendt, Putnam, Dewey) |
+| Conclusion | draft | The Next Neighbor; bookend with introduction |
+| Bibliography | draft | 15 sources; 6 in reserve (see bibliography-guide) |
 
 ## Next actions
 
-1. Author review of chapter outlines and pattern language
-2. Expand introduction anchor story to prose
-3. Draft Part I chapters one at a time
+1. Author read-through of full manuscript
+2. Citation density pass (target 8–12 recurring sources)
+3. Rhythm and redundancy review across units
 
 ## Open decisions / known issues
 
@@ -50,5 +54,5 @@
 
 ## Rough scale
 
-- Manuscript words: ~0 (scaffold only)
-- Last assessed: trust-trilogy-outlines branch (June 2026)
+- Manuscript words: ~13,400 (draft complete, including conclusion)
+- Last assessed: upcoming/how-trust-forms-draft (June 2026)

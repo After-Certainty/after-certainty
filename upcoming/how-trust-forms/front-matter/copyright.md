@@ -4,7 +4,7 @@ Copyright © 2026 Kevin Steffensen.
 
 **How Trust Forms**
 
-*Why People Become Willing to Participate*
+*Why Participation Becomes Possible*
 
 This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (CC BY-SA 4.0).
 
