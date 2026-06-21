@@ -47,7 +47,7 @@ Trust and leadership, trust and meaning, why trust matters.
 
 [Series guide — Trust cluster](../../docs/series-guide.md#trust-cluster)
 
-- [When Trust Stops Tracking Reality](../../upcoming/when-trust-stops-tracking-reality/index.md) — how trust drifts (tension)
+- [When Trust Stops Tracking Reality](../../books/when-trust-stops-tracking-reality/index.md) — how trust drifts (tension)
 - [Trust Beyond Similarity](../../upcoming/trust-beyond-similarity/index.md) — trust across difference (practice)
 - [When Others Look To You](../when-others-look-to-you/v2/index.md) — authority formation
 - [How Meaning Moves](../how-meaning-moves/index.md) — signal, compression, restraint
