@@ -46,7 +46,7 @@ How trust remains possible when perspectives stay incomplete.
 [Series guide — Trust cluster](../../docs/series-guide.md#trust-cluster-upcoming)
 
 - [How Trust Forms](../../books/how-trust-forms/index.md) — why trust emerges (formation)
-- [When Trust Stops Tracking Reality](../when-trust-stops-tracking-reality/index.md) — how trust drifts (tension)
+- [When Trust Stops Tracking Reality](../../books/when-trust-stops-tracking-reality/index.md) — how trust drifts (tension)
 - [Why Collaboration Is So Hard](../../books/why-collaboration-is-so-hard/index.md) — coordination under diffuse ownership
 - [Why Diversity Matters](../../books/why-diversity-matters/index.md) — what gets noticed, trusted, and ignored
 - [How Meaning Moves](../../books/how-meaning-moves/index.md) — signal, compression, restraint
