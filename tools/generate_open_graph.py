@@ -11,7 +11,6 @@ Optional per-book tuning in open-graph.config.yml next to book-cover.png.
 from __future__ import annotations
 
 import argparse
-import sys
 from pathlib import Path
 from typing import Any
 
@@ -220,10 +219,14 @@ def resolve_crop(cover: Image.Image, cfg: dict[str, Any]) -> tuple[int, int, int
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--book-dir", required=True, type=Path, help="Book folder containing book.yml and cover")
+    parser.add_argument(
+        "--book-dir", required=True, type=Path, help="Book folder containing book.yml and cover"
+    )
     parser.add_argument("--cover", default=DEFAULT_COVER, help="Cover filename inside book-dir")
     parser.add_argument("--output", default=DEFAULT_OUTPUT, help="Output filename inside book-dir")
-    parser.add_argument("--dry-run", action="store_true", help="Print resolved settings without writing image")
+    parser.add_argument(
+        "--dry-run", action="store_true", help="Print resolved settings without writing image"
+    )
     args = parser.parse_args(argv)
 
     book_dir = args.book_dir.resolve()
