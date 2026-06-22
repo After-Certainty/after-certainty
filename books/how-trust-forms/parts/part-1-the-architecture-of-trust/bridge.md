@@ -1,4 +1,4 @@
-# **The Architecture of Trust**
+# Part I — The Architecture of Trust
 
 The family next door did not become trusted all at once. No single conversation settled the question. No moment of certainty arrived that transformed strangers into neighbors. Instead, trust emerged gradually through a series of ordinary interactions that seemed almost too small to matter while they were happening.
 

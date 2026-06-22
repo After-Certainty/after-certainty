@@ -1,4 +1,4 @@
-# **Preservation**
+# Part III — Preservation
 
 Walter fears Calder is becoming unable to learn. The concerns he once viewed as isolated exceptions now appear increasingly connected, and the larger the organization becomes, the harder it seems to correct small problems before they become larger ones.
 

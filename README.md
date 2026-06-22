@@ -55,6 +55,8 @@ Unless otherwise noted, original content in this repository is licensed under [*
 | **The Discipline of Uncertainty** — *Judgment, Restraint, and Decision Quality Under Incomplete Information* | [`books/the-discipline-of-uncertainty/index.md`](books/the-discipline-of-uncertainty/index.md) | Judgment and restraint when information will stay incomplete. |
 | **The Economy We Don't Experience** — *Leadership, Communication, and the Credibility Crisis in Economics and Politics* | [`books/the-economy-we-dont-experience/index.md`](books/the-economy-we-dont-experience/index.md) | Expanded edition (~28–32k words)—lived economy vs aggregate narrative under compression and interpretive stress. |
 | **How Trust Forms** — *Why Participation Becomes Possible* | [`books/how-trust-forms/index.md`](books/how-trust-forms/index.md) | How trust begins before certainty—beliefs, evidence, participation, and the trust cycle. |
+| **When Trust Stops Tracking Reality** — *Why Good Intentions Sometimes Become Harmful* | [`books/when-trust-stops-tracking-reality/index.md`](books/when-trust-stops-tracking-reality/index.md) | How trust drifts when it stops learning from feedback. |
+| **Trust Beyond Similarity** — *How Trust Remains Possible Across Difference* | [`books/trust-beyond-similarity/index.md`](books/trust-beyond-similarity/index.md) | How people learn to trust perspectives they do not share—and why difference makes trust more valuable. |
 
 Together these manuscripts are part of the broader **After Certainty** thread: thinking clearly when simple answers stop working.
 

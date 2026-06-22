@@ -1,0 +1,20 @@
+# Tuning for tools/generate_open_graph.py — Trust Beyond Similarity
+bg_crop: [40, 420, 984, 1320]
+tint: [18, 28, 52, 135]
+accent_color: [218, 178, 72]
+title_lines:
+  - text: Trust
+    color: white
+  - text: Beyond
+    color: accent
+  - text: Similarity
+    color: white
+subtitle_lines:
+  - HOW TRUST REMAINS POSSIBLE
+  - ACROSS DIFFERENCE
+subtitle_color: accent
+font_title: 46
+font_sub: 17
+title_start_y: 78
+title_line_gap: 54
+rule_width: 360

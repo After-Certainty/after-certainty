@@ -77,7 +77,7 @@ Each chapter follows the six-beat scaffold (concrete → concept → practice):
 - Do not use chapter numbers in manuscript prose, unit headings, or `index.md` link text—title only.
 - Do not cross-reference other units by number (e.g. "Chapter 1's danger"). Refer by theme, pattern name, or "earlier"/"later" when needed.
 - Filenames may keep numeric slugs (`chapter-1-the-first-leap.md`) and `bridge.md` for repo ordering; those names are not reader-facing.
-- Part openers use the part title as the unit heading—not "Bridge — …".
+- Part openers (`bridge.md`) begin with `# Part I — [Part Title]` (or Part II / III), matching `index.md`. Do not use "Bridge — …" in reader-facing headings.
 
 ## Key docs
 

@@ -1,4 +1,4 @@
-# **The First Cracks**
+# Part II — The First Cracks
 
 Calder Family Health continues to grow. Patients still receive care, employees still believe in the mission, communities still trust the organization, and most people still trust David Marsh. From the outside, little appears wrong.
 
