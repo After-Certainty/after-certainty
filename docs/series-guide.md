@@ -117,13 +117,13 @@ Several of these are **essay-length** concentrated arguments (~8–13k words), n
 
 ## Trust cluster
 
-A parallel **Formation → Tension → Practice** arc on trust. **How Trust Forms** and **When Trust Stops Tracking Reality** are published under [`books/`](../books/); **Trust Beyond Similarity** remains under [`upcoming/`](../upcoming/) until Phase 5 promote.
+A parallel **Formation → Tension → Practice** arc on trust. All three titles are published under [`books/`](../books/).
 
 | Arc | Book | One-line |
 |-----|------|----------|
 | Formation | [How Trust Forms](../books/how-trust-forms/index.md) | Why trust emerges |
 | Tension | [When Trust Stops Tracking Reality](../books/when-trust-stops-tracking-reality/index.md) | How trust drifts |
-| Practice | [Trust Beyond Similarity](../upcoming/trust-beyond-similarity/index.md) | How trust remains possible after both |
+| Practice | [Trust Beyond Similarity](../books/trust-beyond-similarity/index.md) | How trust remains possible after both |
 
 ### [How Trust Forms](../books/how-trust-forms/index.md)
 
@@ -137,7 +137,7 @@ Trust becomes dangerous when it stops learning from feedback; healthy trust pres
 
 **Question:** How does trust become detached from reality?
 
-### [Trust Beyond Similarity](../upcoming/trust-beyond-similarity/index.md)
+### [Trust Beyond Similarity](../books/trust-beyond-similarity/index.md)
 
 Similarity makes trust easier. Difference makes trust more valuable—how trust remains possible when people do not share the same experiences, identities, beliefs, or summaries.
 
@@ -147,9 +147,9 @@ Similarity makes trust easier. Difference makes trust more valuable—how trust 
 
 1. **[How Trust Forms](../books/how-trust-forms/index.md)** — Formation  
 2. **[When Trust Stops Tracking Reality](../books/when-trust-stops-tracking-reality/index.md)** — Tension  
-3. **[Trust Beyond Similarity](../upcoming/trust-beyond-similarity/index.md)** — Practice
+3. **[Trust Beyond Similarity](../books/trust-beyond-similarity/index.md)** — Practice
 
-Essay-length target (~10–15k words each), matching the coordination/judgment cluster books.
+Narrative practice book (~30–40k words), with a serialized community-center anchor through nine chapters.
 
 ### When Trust Stops Tracking Reality vs Trust Beyond Similarity
 

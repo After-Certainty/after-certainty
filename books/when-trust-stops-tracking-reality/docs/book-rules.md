@@ -43,7 +43,7 @@ Every chapter must map back to this claim. If a section cannot be tied to it, it
 
 Each chapter opens with its title and a central question (blockquote), develops through content-specific subheads as the argument requires, and closes with a **Core Principle** section naming the locked pattern from `docs/pattern-language.md`. Calder Family Health and real-world examples are woven into the prose—not labeled with formulaic headers (`Question`, `Anchor Story`, `Real Anchors`, `Key Insight`).
 
-Part openers (`bridge.md`) use the part theme as the unit heading—not "Bridge — …".
+Part openers (`bridge.md`) begin with `# Part I — [Part Title]` (or Part II / III), matching `index.md`. Do not use "Bridge — …" in reader-facing headings.
 
 ### Reader-facing headings
 

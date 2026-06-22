@@ -49,7 +49,7 @@ When organizations must navigate continuity and correction at once.
 [Series guide — Trust cluster](../../docs/series-guide.md#trust-cluster)
 
 - [How Trust Forms](../how-trust-forms/index.md) — why trust emerges (formation)
-- [Trust Beyond Similarity](../../upcoming/trust-beyond-similarity/index.md) — trust across difference (practice)
+- [Trust Beyond Similarity](../trust-beyond-similarity/index.md) — trust across difference (practice)
 - [After Certainty](../after-certainty/index.md) — scrutiny preserves trust
 - [When Accountability No Longer Expires](../when-accountability-no-longer-expires/index.md) — legitimacy persistence
 - [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/index.md) — authority when understanding collapses

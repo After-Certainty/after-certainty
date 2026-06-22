@@ -1,4 +1,4 @@
-# **The Trust Cycle**
+# Part II — The Trust Cycle
 
 The neighbors were no longer strangers—not because uncertainty had disappeared, not because every question had been answered. The uncertainty remained. What had changed was the amount of evidence both families now carried.
 

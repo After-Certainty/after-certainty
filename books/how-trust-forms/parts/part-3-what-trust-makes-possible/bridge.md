@@ -1,4 +1,4 @@
-# **What Trust Makes Possible**
+# Part III — What Trust Makes Possible
 
 The neighbors no longer thought of one another as strangers. The change had happened gradually—small interactions became familiar patterns, familiar patterns became expectations, expectations became trust. Trust made participation easier. Participation created new experiences, and those experiences reshaped belief.
 

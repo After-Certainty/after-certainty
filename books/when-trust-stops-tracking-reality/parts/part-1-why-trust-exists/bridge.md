@@ -1,4 +1,4 @@
-# **Why Trust Exists**
+# Part I — Why Trust Exists
 
 Trust solves a real problem. No individual can verify everything—and human beings cooperate by relying on knowledge, expertise, and judgment they do not personally possess.
 
