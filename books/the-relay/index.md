@@ -9,6 +9,7 @@ Authoring rules, civilization notes, and planning spine: [`docs/`](docs/).
 ## Front Matter
 
 - [Title Page](front-matter/title-page.md)
+- [Jacket Copy](front-matter/jacket-copy.md)
 - [Copyright](front-matter/copyright.md)
 
 ## Act I — The Absence
