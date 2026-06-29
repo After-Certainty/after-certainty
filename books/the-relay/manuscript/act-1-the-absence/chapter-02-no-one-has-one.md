@@ -1,12 +1,12 @@
 # Chapter 2 — No One Has One
 
-The upper offices of the south concourse had been built by people who believed a crisis would arrive in an orderly line. That was Lena's first thought when the lift doors opened on a hall that was narrow, low-ceilinged, and aggressively calm — blue tile, smoked glass down the left wall, public benches bolted so hard to the stone they might once have tried to leave.
+The upper offices of the south concourse had been built by people who believed a crisis would arrive in an orderly line. That was Lena's first thought when the lift doors opened on a hall that was narrow, low-ceilinged, and aggressively calm — blue tile, smoked glass down the left wall, public benches bolted hard to the stone.
 
 Behind the glass the desks of Vesper South sorted the small griefs of travel into windows by category: missed parcels, overweight freight, berth disputes, family-board corrections, voucher transfers. None of the windows said **GATE HAS BECOME WALL.** That struck her as an oversight.
 
 A woman with a sleeping infant was already arguing at Window Three. A line had formed under a sign that read **ROUTE CHANGES / REFUNDS / EXCEPTIONS,** and was busy arguing over which of the three words covered the end of the world. Lena went to Window One.
 
-The clerk behind it had a narrow face, a badge worn nearly blank — **P. VANE,** the P almost gone — and the exhausted dignity of a man who had said the same sentence too many times and was beginning to hate everyone for needing to hear it again. Lena set the stolen notice panel flat on the counter. He looked at it, then at her courier rose, then — through the open door at the end of the hall — at the empty clip on the board, and made the small, wise decision not to ask.
+The clerk behind it had a narrow face and a badge worn nearly blank — **P. VANE,** the P almost gone. He had said the same sentence too many times, and was beginning to hate everyone for needing to hear it again. Lena set the stolen notice panel flat on the counter. He looked at it, then at her courier rose, then — through the open door at the end of the hall — at the empty clip on the board, and made the small, wise decision not to ask.
 
 "Courier," he said. "The bulletin is clear."
 
@@ -66,7 +66,7 @@ Vane's mouth opened and closed. "There's protocol. We don't send a second person
 
 "So protocol says wait for the man who may be trapped in the route you won't check — because protocol says wait."
 
-Vane's face went blank in the way of a clerk who has reached the end of the form and found open air. "It says hold position."
+Vane's face went blank. He had reached the bottom of the form and found nothing printed for what came next. "It says hold position."
 
 Lena picked up the panel. "Where's his office?"
 
@@ -86,13 +86,13 @@ She liked him for that — not much, but enough — and stepped through. Behind 
 
 The administrative corridor smelled of old paper, warm wiring, and stone that had not seen rain in seven centuries. Message tubes and manual courier slots ran the walls in careful black script: **Vesper North, Tarn Run, Meridian Spur, Family Board, Cargo Exceptions, Review Holds.** The Review Holds slot had a brass mouth polished by generations of hands, and it was empty. Of course it was. Empty things had become popular today.
 
-Set into the wall beside the slots was a manual override station — **GATE OPERATIONS** stencilled across a steel box, a pane of glass to break, a keyed handle behind it for someone to take a failing gate by hand. The glass was whole. The keyway behind it had been painted over in some smooth, prosperous year, a roller run flat across the lock and the warning placard alike, the same institutional blue as the wall, sealing the one hand that might have reached in as neatly as it sealed a scuff. No one had ever broken the glass. No one, in living memory, had believed there was anything behind it worth the breaking.
+Set into the wall beside the slots was a manual override station — **GATE OPERATIONS** stencilled across a steel box, a pane of glass to break, a keyed handle behind it for someone to take a failing gate by hand. The glass was whole. The keyway behind it had been painted over in some smooth, prosperous year, a roller run flat across the lock and the warning placard alike, the same institutional blue as the wall. That one control had been painted shut as casually as a scuff. No one had ever broken the glass. No one, in living memory, had believed there was anything behind it worth the breaking.
 
 The blue door wore a nameplate — **SUPERVISOR EDRIN HALO · SOUTH CONCOURSE GATE OPERATIONS** — and was not locked, which was somehow worse. Inside, the office looked as though its owner had stepped out meaning to be back before his tea cooled, then forgotten what *back* meant. A skin had formed on the dark chicory in the cup. A jacket hung on the chair with one sleeve pulled inside out.
 
 Lena shut the door. Without the public hall around it the missing gate-hum felt naked here too, under the tick of a wall clock and the soft thump of pneumatic tubes carrying other people's smaller troubles around the building. She set the panel on the desk and opened the logbook.
 
-Edrin Halo had excellent handwriting: purple ink, block letters, a man who believed legibility was a public good. The morning's entries were boring enough to be beautiful.
+Edrin Halo had excellent handwriting: purple ink, block letters, a man who believed legibility was a public good. The morning's entries were reassuringly dull.
 
 > **09:23 — TARN RUNNER CHECKED THROUGH EMPTY, NO CARGO.**
 
@@ -114,11 +114,11 @@ Below it the ink changed — not another entry, a line, dragged hard across the 
 
 Under the desk sat the old manual relay box, its cracked safety cover broken and the red handle down — someone had snapped the copper safety wire pulling it, the bright threads splayed fresh against the dust. The relay was meant to wake the far terminal and shout across the line: *state your condition, answer if you're alive.* Lena pressed her scanner to the casing. Grey. The pull had gone nowhere. No one had answered because no one had heard — or because there was no longer anyone left to hear.
 
-She looked back at the log. Returned cargo at 10:41. Tarn entries failing at 11:07. The flag at 11:11. The gate dark at 11:12. Not one thing — several, arriving close enough together that the mind wanted to braid them into a single cause, because a single cause would be merciful. But the page showed no hand, only gaps: requests, no clarification, no sync, a valid seal, an old relay that answered nothing.
+She looked back at the log. Returned cargo at 10:41. Tarn entries failing at 11:07. The flag at 11:11. The gate dark at 11:12. Not one thing — several, arriving close enough together that she wanted to tie them into a single cause, because a single cause would be easier to bear. But the page showed no hand, only gaps: requests, no clarification, no sync, a valid seal, an old relay that answered nothing.
 
-The people downstairs would hate this more than they'd hate a villain. A cause can be cursed, a culprit named, a delay endured; this was only a chain of offices and seals, each passing along just enough absence to make the next person responsible for waiting. *No one has one,* she thought — and the system had gone on anyway, posting the notice, cutting the power, telling the room to wait, while every person inside it stared at their own square of blankness.
+The people downstairs would hate this more than they'd hate a villain. A cause can be cursed, a culprit named, a delay endured; this was only a chain of offices and seals, each one handing the next a blank where an answer should be. *No one has one,* she thought — and the system had gone on anyway, posting the notice, cutting the power, telling the room to wait, while every person inside it stared at a blank of their own.
 
-Someone knocked once and came in before she answered. Not Vane. A young man, twenty-five or so, thin enough that his station jacket looked assigned by a clerk who only knew the category *human.* Ink stained three fingers of his right hand; a receiver clipped to his collar blinked a green pattern that looked busy and meant nothing. He had a logbook under one arm and a paper cup in the other, and he stopped when he saw her crouched by the desk.
+Someone knocked once and came in before she answered. Not Vane. A young man, twenty-five or so, thin enough that his station jacket looked issued by a clerk who stocked one size: *human.* Ink stained three fingers of his right hand; a receiver clipped to his collar blinked a green pattern that looked busy and meant nothing. He had a logbook under one arm and a paper cup in the other, and he stopped when he saw her crouched by the desk.
 
 "Oh," he said. "You're not Edrin."
 
@@ -148,7 +148,7 @@ He looked at the broken relay, the open logbook, the stolen panel — and shut t
 
 "It's the only thing moving." That stopped her, and he saw it. "The lines are dead, the tickers are stale, the family board is lying by omission because it has no new truth to tell. But the stories are moving. Platform to concourse to market deck to freight berths. No working gate required."
 
-He turned a page and tapped an entry circled twice. An hour ago, he said, he'd told a steward who asked that the family board was *not syncing — probably an indexing lag, provisional.* By the time it came back to him off the market deck every soft word was gone: a man was telling a crowd *Tarn entries not syncing, confirmed,* as a thing he plainly knew. Same observation. The *probably* filed off, the *provisional* gone, Jun's name nowhere in it. "That's the part I can't get used to," he said, and for a second the brightness went out of him. "They don't lie, mostly. They just can't hold a *maybe.* You hand them something unfinished and it comes back finished and hard — and then people act on the hard version." He said it like a man describing weather he was going to have to live in.
+He turned a page and tapped an entry circled twice. An hour ago, he said, he'd told a steward who asked that the family board was *not syncing — probably an indexing lag, provisional.* By the time it came back to him off the market deck every soft word was gone: a man was telling a crowd *Tarn entries not syncing, confirmed,* as a thing he plainly knew. Same observation. The *probably* filed off, the *provisional* gone, Jun's name nowhere in it. "That's the part I can't get used to," he said, and for a second the brightness went out of him. "They don't lie, mostly. They just can't hold a *maybe.* You hand them something unfinished and it comes back finished and hard — and then people act on the hard version." He said it like something he was going to have to live with.
 
 "Stories don't open gates," Lena said.
 
@@ -162,7 +162,7 @@ The receiver clicked twice. They both looked at it; the green light blinked, ste
 
 Down the corridor, someone shouted. Then another voice. Then several.
 
-The waiting room had changed while she was in the office. It had been crowded before; now it had density — people pressed too close under the route boards and the feed-screens, the mild irritation of delayed travelers curdled into something thicker. A man in a green coat stood on a bench.
+The waiting room had changed while she was in the office. It had been crowded before; now it had density — people pressed too close under the route boards and the feed-screens, the mild irritation of delayed travelers had thickened into something worse. A man in a green coat stood on a bench.
 
 "It's the merchants!" he was shouting. "They locked Vesper to force the grain levy!"
 
@@ -170,7 +170,7 @@ The waiting room had changed while she was in the office. It had been crowded be
 
 "The family board dropped the Tarn names!"
 
-That one went through the room like thrown metal.
+That one went through the room hard.
 
 Jun came up at her shoulder, logbook open. "Too fast," he said. "*Tarn lost* was a small branch. It shouldn't have reached the public hall yet."
 
@@ -190,7 +190,7 @@ Behind the glass Vane had both hands up, the older clerk beside him, and no one 
 
 "Terrible idea," she said, and followed.
 
-He climbed onto the edge of the baggage scale, which chimed in protest, put two fingers in his mouth, and whistled. That worked; the room turned. "Who heard Tarn is lost?" he called, and the room erupted — *my cousin, the board dropped, station crew said, names are gone.* Jun lifted both hands. "Good. Excellent. Very specific panic. Thank you." The confusion that followed wasn't calm, but it had some of the same furniture.
+He climbed onto the edge of the baggage scale, which chimed in protest, put two fingers in his mouth, and whistled. That worked; the room turned. "Who heard Tarn is lost?" he called, and the room erupted — *my cousin, the board dropped, station crew said, names are gone.* Jun lifted both hands. "Good. Excellent. Very specific panic. Thank you." The confusion that followed wasn't calm, but it had some order to it.
 
 He pointed at a woman near the feed-screen. "You. Did you see names vanish, or did you see the board stop refreshing?"
 
@@ -236,7 +236,7 @@ Vane opened the side gate before she reached it, paler than before. "You can't g
 
 "Then I need another way."
 
-The older clerk with the silver loop stepped up beside him. "Talla," Vane said, half a warning. She ignored it, looking at Lena, then at Jun, then at the room pretending not to listen. "There's an old stair," she said. "Behind Records, down two levels. Comes out near the gantry throat — if the lower latch still opens. It sticks."
+The older clerk with the silver loop stepped up beside him. "Talla," Vane said, half a warning. She ignored it, looking at Lena, then at Jun, then at the room pretending not to listen. "There's an old stair," she said. "Behind Records, down two levels. Comes out near the gantry — if the lower latch still opens. It sticks."
 
 "How badly?"
 
@@ -268,7 +268,7 @@ The air below was cold, not cool. A stone stair dropped into the dark, its rail 
 
 At the bottom the latch opened onto a service passage behind the south gantry, emergency strips glowing dull green along the floor, the pipes overhead bundled thick as roots. The passage bent toward the local terminal, and something scraped. Then a voice, thin in the dark: "Don't pull it."
 
-The terminal room was barely larger than a freight lift, built around a signal column that rose through floor and ceiling, its indicator glass black, the manual call-box hanging open with its wires bared. On the floor beside it sat Supervisor Edrin Halo — grey beard, purple fingers, one knee swollen against his trousers, one leg twisted under him — both hands wrapped around a cable bundle as thick as his wrist. He looked up with the irritated relief of a man whose bad day had finally produced witnesses.
+The terminal room was barely larger than a freight lift, built around a signal column that rose through floor and ceiling, its indicator glass black, the manual call-box hanging open with its wires bared. On the floor beside it sat Supervisor Edrin Halo — grey beard, purple fingers, one knee swollen against his trousers, one leg twisted under him — both hands wrapped around a cable bundle as thick as his wrist. He looked up, irritated and relieved at once — his bad day had finally produced witnesses.
 
 "Don't pull it," he said again.
 
