@@ -12,7 +12,10 @@ from dataclasses import dataclass
 from pathlib import Path
 
 MD_LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+\.md)\)")
-PART_HEADING_RE = re.compile(r"^Part\b", re.IGNORECASE)
+# Top-level structural sections in index.md. Nonfiction volumes head these
+# "Part …"; fiction volumes (e.g. The Relay) head them "Act …". Both are treated
+# as parts for per-section export; "Front Matter", "Back Matter", etc. are not.
+PART_HEADING_RE = re.compile(r"^(?:Part|Act)\b", re.IGNORECASE)
 
 
 @dataclass(frozen=True)
