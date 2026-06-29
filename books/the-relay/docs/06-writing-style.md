@@ -4,7 +4,46 @@
 
 > **Status:** Draft v1, written to be argued with. Items marked **[DECISION]** are author-level calls.
 
-Every other guide decides *what* the book is. This one decides *how it reads*. Its single governing instinct comes straight from the Constitution: **implication over explanation.** The book trusts the reader. It shows a civilization through worn objects and offhand competence, dramatizes ideas through people at work, and lets meaning arrive by inference. The prose is the last line of defense against the book's greatest temptation — to *explain itself*.
+Every other guide decides *what* the book is. This one decides *how it reads*. Its single governing instinct comes straight from the Constitution: **implication over explanation.** The book trusts the reader. It shows a civilization through worn objects and offhand competence, dramatizes ideas through people at work, and lets meaning arrive by inference. The prose is the last line of defense against the book's greatest temptation — to *explain itself*. But "implication over explanation" governs *meaning*, never *legibility*: the sentences themselves stay plain and direct (see the next section).
+
+---
+
+## Say what you mean (clarity over cleverness)
+
+**[DECISION] The first prose law: plain first.** Say what you mean. Do not reach for a clever, poetic, or compressed phrasing when a direct sentence will do. The book earns its power from *what* it notices and *what* it withholds — never from making the reader decode *how* a sentence is built. When clarity and cleverness conflict, clarity wins every time.
+
+- **Withhold significance, never clarity.** "Implication over explanation" applies to *meaning* — the thesis, the interpretation, the need beneath a position. It does **not** license obscure sentences. The literal action, object, and referent must land on the first pass, every time. A reader may wonder what a scene *means*; they must never wonder what *literally happened* or what a phrase points to.
+- **No decoding tax.** If a sentence makes the reader stop and unpack a metaphor, an inverted construction, or a too-clever turn before they grasp the plain content, rewrite it plainly. Cleverness that costs comprehension is a defect, not a flourish. This is sharper than "difficulty is reserved for ideas": even the *ideas* are stated plainly; only their *significance* is withheld.
+- **Name the thing on first use.** World terms, props, and relationships are introduced in plain language the first time they appear (a courier's *rose* is named as "the badge at her shoulder"; reading "the seams" is named as inspecting the physical welds of a crate). Establish the literal meaning, *then* let the term carry weight on later returns.
+- **Poetry is seasoning, not the meal.** A lyrical or aphoristic line is allowed only when the plain meaning is already secure without it — never as the thing the reader must parse to follow the scene. When in doubt, cut the poetry and keep the clarity.
+- **The read-aloud test (calibration).** Read the line as if to a smart friend who is listening, not studying. If they would have to ask "wait — what does that mean?", it is too clever. Say it straight. *(Calibration: Ch 1 drafts repeatedly tripped this test — "She read the seams," the "evidence" exchange, "a country with no border guards," the nested "behind the smoked glass" offices — all rewritten to say the plain thing first.)*
+
+---
+
+## Where the story lives: immerse in scene, carry the argument in dialogue
+
+**[DECISION] Division of labor.** Narration immerses; dialogue argues. Keep each in its lane and the book stays both easy to follow and deep. The reader should glide through *what is happening* and feel the weight only in *what people want and lose*.
+
+- **Narration's job is the senses and the action.** When the narrator is speaking, ground the reader in the physical scene — what it looks, smells, sounds, tastes, and feels like — and in what is plainly happening. The reader should never have to work to follow the action. Lead with concrete sensory detail (the transit-hub palette; the warmth leaving a floor; brake-dust, chicory, travel-wool), not with abstraction or mood-poetry. Immersion is the default mode of narration.
+- **The philosophy rides on the emotion of the dialogue.** The book's argument — the co-creation / integration arc, and the long chain of failures that forces it — is carried by *people who want incompatible things and feel it*. The thematic weight lives in the emotional charge between positions (Cai's fear, Sera's tenderness, Varik's certainty, Lena's stubbornness), not in anything the narrator explains. *(This does not relax the anti-thesis rule: characters still never* state *the argument; their wanting and hurting* enact *it.)*
+- **Show the failures; never summarize the lesson.** The integration the book moves toward is earned by dramatizing each failure as it happens — felt through a character in a scene — never by a narrator naming the pattern. Let the reader accumulate the failures and *feel* the need for the third thing well before it arrives.
+- **Abstraction never drives.** If a stretch of narration is doing conceptual or poetic work instead of sensory or action work, it is in the wrong lane. Move the meaning into what a character does, says, or feels — or cut it. Theme is a passenger the dialogue and the scenery carry; it never takes the wheel of the narration.
+
+---
+
+## Clarity pass — operational checklist *(from the Ch 1 calibration)*
+
+Run this on every chapter. **Aggressive on clarity; conservative on plot, canon, character, and meaning.** Never change what happens, who anyone is, or any planted hook/theme seed — only how plainly it reads.
+
+1. **Gloss every world-term on first use.** The first time a chapter introduces an invented or trade term, say what it is in plain words, in the same breath. *(Ch 1: "the Ribbon — the long transit spine of Vesper"; "her rose — the courier's badge at her shoulder"; "dressed down as a freight-hand, in the heavy oiled canvas the dock crews wore"; the status spinner = "a little wheel … the way it always did while it worked"; Arin's "ledger … where he kept the lock's daily log.")* And **cut an unfamiliar word that earns nothing** ("klaxon" → "siren").
+2. **Plain out figurative narration.** Convert metaphors, personification, poetic appositives, and elliptical "clever" turns into plain statements. *(Ch 1: "become a place they both lived" → "the thing they said instead of meeting"; "the busy hands of someone who'd had bad news" → "the way people do when they've had bad news"; "your body understood before you did" → "before they quite knew why"; "She was small enough to." → "small enough to care about them.")*
+3. **Keep a simile only if it explains itself on first pass.** A physical comparison that helps the reader *picture* the scene is fine; if they'd have to ask "what does that mean?", make it literal or cut it. *(Ch 1 cut or grounded "the way a held breath goes out," "candles taken by a draft," "a sheet over something you can't fix"; kept the eye-closing image only after spelling out "it slid shut, smooth and complete.")*
+4. **Unstack dialogue jargon.** No line should pile trade slang the reader must decode. *(Ch 1: "if the customs hands on the far side crack it and find wire" → "if customs opens it on the other side and finds what's under the seed.")*
+5. **Fix flow.** Never split a subject from its verb with an aside; break a sentence that carries two beats into two; vary a word repeated close by. *(Ch 1: the Corin and Beska intros; the collapse sentence split in two; "passed it down" → "handed it down.")*
+6. **Make the cause-and-effect legible.** If a beat's logic is implied, state it. *(Ch 1: the silence after the gate dies is *worse* than alarms, because alarms mean someone's already fixing it — so say that.)*
+7. **Budget the figurative.** At most one rationed thesis-shaped or figurative line per chapter, kept only when it does real work (Ch 1's kept line: "suspended it pending review," turning the posted notice on her own life). Never touch canon-locked lines (e.g., "a shrug with formatting," the "loose bolts / nobody kicks them" line). Honor the intentional refrains noted for Act II in the chapter outline.
+
+The test for the whole pass: **read it aloud to a smart friend who is listening, not studying. If they'd stop to ask "wait — what does that mean / what is that / what just happened?", fix it.**
 
 ---
 
@@ -166,7 +205,7 @@ From the Constitution: this is a humane, readable book, not a puzzle box.
 
 - **Future tech reads *easier* than present-day tech**, never harder. No technobabble; future tools are legible at a glance (Artifacts).
 - **The reader is never lost about what is happening** — only, deliberately, about what it *means*. Withhold significance, never basic orientation.
-- **Difficulty is reserved for ideas, not for decoding sentences.** If a reader has to reread to parse the grammar, that's a defect; if they reread to sit with a thought, that's the design.
+- **Difficulty is reserved for ideas, not for decoding sentences.** If a reader has to reread to parse the grammar — or to unpack a clever metaphor or a compressed turn of phrase — that's a defect; if they reread to sit with a thought, that's the design. (The governing rule is "Say what you mean," up top.)
 
 ---
 
@@ -174,8 +213,10 @@ From the Constitution: this is a humane, readable book, not a puzzle box.
 
 *Ways prose can follow the rules and still go wrong. (Localizes "do not mistake explanation for understanding.")*
 
+- **Too clever to parse (the decode tax).** A sentence prizes wit, compression, or lyricism over saying the plain thing, so the reader has to stop and decode it. *Tell:* a smart listener would ask "wait — what does that literally mean?"; the literal action or referent isn't clear on first pass. *Instead:* say what you mean first; add polish only if it costs nothing in clarity. (See "Say what you mean.")
 - **Everyone sounds witty.** The whole cast shares one (the author's) sense of humor. *Tell:* you can't tell who's speaking from the joke. *Instead:* each character's humor exposes *their* assumption; some characters are barely funny at all.
 - **The narrator explains the theme.** Observational voice tips into interpretation. *Tell:* a sentence states what a detail was a symptom *of*. *Instead:* observe; let the reader infer. (See the yes/no examples above.)
+- **Narration carries the philosophy instead of the dialogue.** A stretch of narration does the thematic/conceptual work that the characters' emotion should be doing. *Tell:* the meaning of a scene lives in a narrated paragraph rather than in what people want, say, and lose; the scenery and the dialogue could be cut and the "point" would survive. *Instead:* let the senses and action carry the narration and the emotion of the dialogue carry the argument. (See "Where the story lives.")
 - **Interests get spoken.** A character or the narrator names the need beneath a position. *Tell:* "What he really wanted was to be needed." *Instead:* dramatize it; the reader integrates.
 - **Exposition ventriloquism.** A character explains world mechanics they'd never explain to their listener, for the reader's benefit. *Tell:* on-the-nose lore in dialogue. *Instead:* artifact, action, or inference.
 - **Recurring jokes repeat.** A gag returns unchanged. *Tell:* the third instance lands exactly like the first. *Instead:* it must climb its ladder or be cut.
