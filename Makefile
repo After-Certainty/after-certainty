@@ -64,7 +64,7 @@ help:
 	@echo "  - import-docx-dir converts every .docx under DIR to side-by-side .md."
 	@echo "  - import-docx-dir skips existing .md files unless OVERWRITE=1."
 	@echo "  - export-docx combines DIR/index.md plus linked .md files into DIR/<stem>.docx."
-	@echo "  - export-docx-by-part writes one DOCX per ## Part … section (e.g. velorum-act-1-the-choice.docx)."
+	@echo "  - export-docx-by-part writes one DOCX per ## Part … / ## Act … section (e.g. the-relay-act-1-the-absence.docx)."
 	@echo "  - export-kindle-epub creates DIR/<stem>.epub (flattened custom blocks, shallow nav TOC)."
 	@echo "  - export-pdf creates DIR/<stem>.pdf using scripts/export_pdf.py and book.yml PDF settings."
 	@echo "  - <stem> defaults to DIR relative to repo root with path segments joined by '-' (override with OUT_STEM)."

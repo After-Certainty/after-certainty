@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Export one book as DOCX (full manuscript or per Part section from index.md).
+Export one book as DOCX (full manuscript or per Part/Act section from index.md).
 """
 
 from __future__ import annotations
@@ -71,7 +71,7 @@ def main() -> None:
     parser.add_argument(
         "--by-part",
         action="store_true",
-        help="Export one DOCX per ## Part … section in index.md",
+        help="Export one DOCX per ## Part … / ## Act … section in index.md",
     )
     parser.add_argument(
         "--parts",
@@ -90,14 +90,14 @@ def main() -> None:
     if args.by_part:
         sections = assemble_part_sections(book_dir)
         if not sections:
-            raise SystemExit(f"No Part sections found in {book_dir / 'index.md'}")
+            raise SystemExit(f"No Part/Act sections found in {book_dir / 'index.md'}")
 
         part_filter = parse_part_filter(args.parts)
         if part_filter:
             sections = [section for section in sections if section.slug in part_filter]
             if not sections:
                 slugs = ", ".join(sorted(part_filter))
-                raise SystemExit(f"No Part sections matched --parts {slugs!r}")
+                raise SystemExit(f"No Part/Act sections matched --parts {slugs!r}")
 
         for section in sections:
             out = book_dir / f"{book_stem}-{section.slug}.docx"

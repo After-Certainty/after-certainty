@@ -1,7 +1,7 @@
 version: 1
 
 publishing:
-  enabled: true
+  enabled: false
 
 book:
   id: the-relay
