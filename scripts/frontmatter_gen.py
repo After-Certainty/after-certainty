@@ -134,7 +134,7 @@ def generate_frontmatter_for_book(repo: Path, book_rel: str) -> list[Path]:
     ctx = template_context_from_book(book)
 
     written: list[Path] = []
-    for key in ("title_page", "copyright"):
+    for key in ("title_page", "copyright", "about_the_series"):
         block = gen.get(key)
         if not isinstance(block, dict):
             continue

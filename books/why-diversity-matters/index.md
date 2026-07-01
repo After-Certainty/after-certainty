@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Introduction](front-matter/introduction.md)
 - [Helping Shape This Book](front-matter/helping-shape-this-book.md)
 - [Questions for a Conversation](front-matter/questions-for-readers.md)

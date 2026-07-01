@@ -8,6 +8,7 @@ Author: Kevin Steffensen
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 
 ## Sections
 

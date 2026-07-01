@@ -8,6 +8,7 @@ What begins as flight becomes bond—and bond becomes burden. These opening chap
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 
 ## Part I — The Choice
 

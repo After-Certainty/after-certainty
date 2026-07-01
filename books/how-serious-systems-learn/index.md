@@ -5,6 +5,7 @@ Disciplines for Acting Without Certainty
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Acknowledgments](acknowledgments.md)
 - [About the Author](about-the-author.md)
 

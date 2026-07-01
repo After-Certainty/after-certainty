@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Introduction — The Economy We Argue About Isn't the One We Experience](front-matter/introduction-the-economy-we-argue-about.md)
 
 ## Part I — The Economy We Describe

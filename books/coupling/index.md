@@ -8,6 +8,7 @@ This is the manuscript hub. It links the full part, bridge, and chapter structur
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Author's Note](./authors-note.md)
 - [Preface](./preface.md)
 - [Typographical Conventions](./typographical-conventions.md)

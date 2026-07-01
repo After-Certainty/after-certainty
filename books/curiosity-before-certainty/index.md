@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Author's Note](front-matter/authors-note.md)
 - [Introduction — The Day Certainty Stopped Working](front-matter/introduction-the-day-certainty-stopped-working.md)
 

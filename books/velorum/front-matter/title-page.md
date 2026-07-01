@@ -8,4 +8,4 @@
 
 **Kevin Steffensen**
 
-Author-facing planning and voice rules live under [`docs/`](../docs/); this page is for **exports** only.
+Author-facing planning and voice rules live under [`docs/`](./docs/); this page is for **exports** only.

@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Introduction — The Empty Lot](front-matter/introduction-the-empty-lot.md)
 
 ## Part I — The Illusion of Sufficiency

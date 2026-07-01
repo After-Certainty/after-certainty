@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Author's Note](front-matter/authors-note.md)
 - [Introduction — The Company Everyone Wanted to Work For](front-matter/introduction-when-trust-stops-tracking-reality.md)
 
