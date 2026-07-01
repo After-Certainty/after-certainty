@@ -101,6 +101,10 @@ jobs:
           sudo apt-get install -y pandoc librsvg2-bin imagemagick texlive-xetex
           python3 -m pip install --user jinja2 pyyaml jsonschema
 
+      - name: Install Typst
+        if: matrix.needs_typst == 'true'
+        run: bash scripts/install_typst.sh
+
       - name: Build configured artifacts via scripts/build.py
         run: |
           set -euo pipefail

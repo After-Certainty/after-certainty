@@ -21,7 +21,7 @@ if str(_TOOLS) not in sys.path:
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined  # noqa: E402
 
-from book_specs import SPEC_FILE_NAME, load_any_book_spec  # noqa: E402
+from book_specs import load_any_book_spec, load_spec_for_book_dir, resolve_spec_path  # noqa: E402
 
 
 def _author_display(book: dict[str, Any]) -> str:
@@ -120,8 +120,8 @@ def generate_frontmatter_for_book(repo: Path, book_rel: str) -> list[Path]:
     """
     repo = repo.resolve()
     book_dir = (repo / book_rel).resolve()
-    spec_path = book_dir / SPEC_FILE_NAME
-    if not spec_path.is_file():
+    spec_path = resolve_spec_path(book_dir)
+    if spec_path is None:
         return []
 
     spec = load_any_book_spec(spec_path)

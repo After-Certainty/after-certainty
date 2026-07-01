@@ -98,6 +98,14 @@
         "title_page_newpage_after": {
           "type": "boolean"
         },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "prose",
+            "poetry"
+          ],
+          "default": "prose"
+        },
         "slug_aliases": {
           "type": "array",
           "items": {
@@ -184,6 +192,12 @@
         "formats"
       ],
       "properties": {
+        "ci": {
+          "type": "boolean"
+        },
+        "typst": {
+          "$ref": "#/$defs/typstBuildConfig"
+        },
         "formats": {
           "type": "object",
           "additionalProperties": false,
@@ -330,7 +344,11 @@
           "type": "string"
         },
         "pdf_engine": {
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "xelatex",
+            "typst"
+          ]
         },
         "margins": {
           "type": "object",
@@ -408,6 +426,20 @@
         },
         "about_the_series": {
           "$ref": "#/$defs/frontmatterTemplateBlock"
+        }
+      }
+    },
+    "typstBuildConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "entry": {
+          "type": "string",
+          "minLength": 1
+        },
+        "min_version": {
+          "type": "string",
+          "minLength": 1
         }
       }
     },

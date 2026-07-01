@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -30,6 +30,7 @@ help:
 	@echo "  make export-pdf DIR=path/to/book-folder [OUT_STEM=basename]"
 	@echo "  make export-all-docx"
 	@echo "  make build-book DIR=path/from/repo/root [OUT_DIR=build/...] [FORMATS=\"docx epub pdf\"]"
+	@echo "  make generate-typst-manifest DIR=path/to/poetry-book-folder"
 	@echo "  make test  (pytest: manifest + semantic YAML pipeline smoke tests)"
 	@echo "  make lint  (ruff check + format --check on tools/, scripts/, tests/)"
 	@echo "  make lint-fix  (ruff check --fix + ruff format; writes files)"
@@ -70,7 +71,7 @@ help:
 	@echo "  - <stem> defaults to DIR relative to repo root with path segments joined by '-' (override with OUT_STEM)."
 	@echo "  - SVG under DIR/docs/diagrams/ rasterize to DIR/export-assets/diagrams/ (rsvg-convert or magick)."
 	@echo "  - export-all-docx runs export-docx for every publish-enabled book.yml that includes docx."
-	@echo "  - build-book runs scripts/build.py for DIR (default FORMATS: docx epub); default OUT_DIR is build/<DIR-with-slashes-as-dashes>."
+	@echo "  - build-book runs scripts/build.py for DIR (default FORMATS: docx epub); default OUT_DIR is build/<DIR-with-slashes-as-dashes>. Poetry/Typst PDF builds do not require pandoc."
 	@echo "  - generate-books-manifest aggregates /books and metadata-backed /upcoming entries into MANIFEST_OUT."
 	@echo "  - validate-books-manifest validates MANIFEST JSON against schema/books-manifest.schema.json."
 	@echo "  - verify-books-manifest runs both generation and validation for local CI parity."
@@ -110,11 +111,15 @@ lint-fix:
 validate-book-specs:
 	@python3 tools/validate_book_specs.py --repo .
 
-build-book: check-pandoc
+build-book:
 	@test -n "$(DIR)" || { echo "Usage: make build-book DIR=path/from/repo/root [OUT_DIR=build/...] [FORMATS=\"docx epub pdf\"]"; exit 1; }
 	@out="$(OUT_DIR)"; \
 	test -n "$$out" || out="build/$$(echo "$(DIR)" | tr '/' '-')"; \
 	python3 scripts/build.py --repo . --book-dir "$(DIR)" --out-dir "$$out" $(foreach f,$(FORMATS),--format $(f))
+
+generate-typst-manifest:
+	@test -n "$(DIR)" || { echo "Usage: make generate-typst-manifest DIR=path/to/poetry-book-folder"; exit 1; }
+	@python3 tools/generate_typst_manifest.py --book-dir "$(DIR)"
 
 generate-books-manifest: validate-book-specs
 	@repo="$${GITHUB_REPOSITORY:-$$(git remote get-url origin 2>/dev/null | sed -e 's#^git@github.com:##' -e 's#^https://github.com/##' -e 's#\.git$$##')}"; \
@@ -292,20 +297,9 @@ install-typst:
 	@bash scripts/install_typst.sh
 
 export-typst-pdf:
-	@test -n "$(DIR)" || { echo "Usage: make export-typst-pdf DIR=path/to/book-folder [OUT=filename.pdf] [TYPST=typst]"; exit 1; }
-	@out="$${OUT:-observer-patterns.pdf}"; \
-	typst_bin="$${TYPST:-typst}"; \
-	command -v "$$typst_bin" >/dev/null 2>&1 || { \
-		echo "Error: typst not found. Run: make install-typst"; \
-		exit 1; \
-	}; \
-	typst_ver="$$("$$typst_bin" --version | awk '{print $$2}')"; \
-	if ! printf '%s\n%s\n' "0.14.0" "$$typst_ver" | sort -V -C 2>/dev/null; then \
-		echo "Error: typst $$typst_ver is too old; need >= 0.14.0 (run: make install-typst)"; \
-		exit 1; \
-	fi; \
-	"$$typst_bin" compile --root "$(DIR)" "$(DIR)/typst/main.typ" "$(DIR)/$$out"; \
-	echo "Created $(DIR)/$$out"
+	@test -n "$(DIR)" || { echo "Usage: make export-typst-pdf DIR=path/to/book-folder [OUT_STEM=basename] [TYPST=typst]"; exit 1; }
+	@stem="$${OUT_STEM:-$$($(BOOK_STEM_PY) "$(DIR)")}"; \
+	python3 scripts/export_typst_pdf.py --repo . --book-dir "$(DIR)" --out-stem "$$stem" --typst "$${TYPST:-typst}"
 
 export-all-docx: check-pandoc
 	@dirs="$$(python3 tools/ci_affected_books.py --repo . --all --dirs --format docx)"; \

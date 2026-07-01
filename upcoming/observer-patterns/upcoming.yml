@@ -5,6 +5,7 @@ upcoming:
 
 book:
   id: observer-patterns
+  kind: poetry
   title: "Observer Patterns"
   description: "A book of patterns — things that happen when people look, decide, and follow what they see."
   author:
@@ -16,10 +17,15 @@ book:
   open_graph_image: open-graph.png
 
 build:
+  ci: false
+  typst:
+    entry: typst/main.typ
+    min_version: "0.14.0"
   formats:
     docx:
       enabled: false
     epub:
       enabled: false
     pdf:
-      enabled: false
+      enabled: true
+      pdf_engine: typst
