@@ -11,7 +11,7 @@ something has become possible again.
 
 This is a familiar human dynamic. It is also the one that shaped how
 **Nelson Mandela** was read at the moment South Africa most needed
-interpretation to resume.¹
+interpretation to resume.[^c10-source-mandela-s-leadership]
 
 ## How Mandela Was Read
 
@@ -20,7 +20,7 @@ reconciliation, dignity, and moral authority. During the transition from
 apartheid, this reading was far from assured. Many expected retribution.
 Others feared collapse. Skepticism came from all sides—those who
 believed reconciliation betrayed justice, and those who believed
-restraint masked weakness.²
+restraint masked weakness.[^c10-source-contemporary-accounts-document]
 
 Mandela’s leadership did not resolve these fears by argument. It
 reoriented them. His legitimacy did not emerge from outcomes alone, nor
@@ -39,7 +39,7 @@ He spoke plainly, avoided grandiosity, and resisted triumphal framing.
 His language emphasized continuity over rupture and responsibility over
 victory. Crucially, he did not deny harm. He refused to perform it. This
 choice made his signal emotionally legible across divisions without
-collapsing its moral weight.³
+collapsing its moral weight.[^c10-continuity-avoiding-both-revenge]
 
 Mandela’s communication invited interpretation rather than demanding
 alignment.
@@ -51,7 +51,7 @@ Mandela resisted moral compression.
 He did not reduce apartheid to a single narrative of villains and
 victims, nor did he compress reconciliation into forgiveness without
 memory. Instead, he held complexity publicly—acknowledging injustice
-while refusing revenge. This slowed judgment rather than resolving it.⁴
+while refusing revenge. This slowed judgment rather than resolving it.[^c10-compression-prioritizing-testimony-and]
 
 Compression would have produced clarity at the cost of future
 coordination. Mandela chose ambiguity that preserved interpretive space.
@@ -64,7 +64,7 @@ The state was fragile. Violence remained possible. Institutions lacked
 legitimacy. Any misstep risked civil war. In this environment, repair
 was both necessary and dangerous. Mandela’s signals had to prevent
 collapse without erasing harm. Constraint narrowed options to a
-vanishing point.⁵
+vanishing point.[^c10-source-analysts-of-the]
 
 **Communication diagnosis:**
 Mandela designed signals that reopened interpretation under conditions
@@ -80,7 +80,7 @@ He accepted personal suffering without converting it into moral
 leverage. He did not demand recompense, apology, or submission as
 conditions of legitimacy. This posture created what might be called
 **moral surplus**—authority generated not by enforcement or outcome, but
-by restraint.⁶
+by restraint.[^c10-source-biographies-and-leadership]
 
 This surplus was not infinite. It was expended carefully.
 
@@ -91,7 +91,7 @@ Mandela’s effectiveness was stabilizing rather than transformative.
 He did not resolve inequality, erase injustice, or complete
 reconciliation. What he achieved was narrower and more fragile:
 preventing collapse while preserving the possibility of future
-accountability. Effectiveness here consisted of *what did not happen*.⁷
+accountability. Effectiveness here consisted of *what did not happen*.[^c10-source-evaluations-of-mandela]
 
 This kind of effectiveness is difficult to celebrate and easy to
 undervalue. Its success is visible mainly in retrospect.
@@ -102,7 +102,7 @@ Mandela’s legitimacy persisted because it was not exhausted by use.
 
 By refusing to spend moral authority on domination or narrative control,
 he preserved it across time and institutions. Legitimacy extended beyond
-his presidency because it was never converted into entitlement.⁸
+his presidency because it was never converted into entitlement.[^c10-source-mandela-s-enduring]
 
 **Leadership diagnosis:**
 Mandela shows how legitimacy can be rebuilt not by settling accounts,
@@ -155,31 +155,18 @@ Moral surplus does not resolve harm; it suspends escalation long enough
 for accountability to become thinkable again. Mistaking restraint for
 closure is an interpretive error.
 
-## Reference
+[^c10-source-mandela-s-leadership]: Mandela’s leadership during South Africa’s transition is frequently analyzed as a rare case of negotiated legitimacy restoration following prolonged institutional injustice.
 
-1.  Mandela’s leadership during South Africa’s transition is frequently
-    analyzed as a rare case of negotiated legitimacy restoration
-    following prolonged institutional injustice.
+[^c10-source-contemporary-accounts-document]: Contemporary accounts document deep uncertainty and fear across racial and political groups during the early 1990s transition period.
 
-2.  Contemporary accounts document deep uncertainty and fear across
-    racial and political groups during the early 1990s transition
-    period.
+[^c10-continuity-avoiding-both-revenge]: Mandela’s public communication emphasized inclusivity and continuity, avoiding both revenge rhetoric and denial of injustice.
 
-3.  Mandela’s public communication emphasized inclusivity and
-    continuity, avoiding both revenge rhetoric and denial of injustice.
+[^c10-compression-prioritizing-testimony-and]: The Truth and Reconciliation Commission embodied Mandela’s resistance to moral compression, prioritizing testimony and acknowledgment over verdict.
 
-4.  The Truth and Reconciliation Commission embodied Mandela’s
-    resistance to moral compression, prioritizing testimony and
-    acknowledgment over verdict.
+[^c10-source-analysts-of-the]: Analysts of the transition emphasize how close South Africa remained to large-scale violence during the early post-apartheid years.
 
-5.  Analysts of the transition emphasize how close South Africa remained
-    to large-scale violence during the early post-apartheid years.
+[^c10-source-biographies-and-leadership]: Biographies and leadership studies consistently note Mandela’s refusal to convert personal suffering into political entitlement.
 
-6.  Biographies and leadership studies consistently note Mandela’s
-    refusal to convert personal suffering into political entitlement.
+[^c10-source-evaluations-of-mandela]: Evaluations of Mandela’s presidency emphasize stabilization and peaceful transition rather than structural transformation.
 
-7.  Evaluations of Mandela’s presidency emphasize stabilization and
-    peaceful transition rather than structural transformation.
-
-8.  Mandela’s enduring legitimacy is often attributed to the fact that
-    he did not attempt to extend or consolidate power beyond his term.
+[^c10-source-mandela-s-enduring]: Mandela’s enduring legitimacy is often attributed to the fact that he did not attempt to extend or consolidate power beyond his term.

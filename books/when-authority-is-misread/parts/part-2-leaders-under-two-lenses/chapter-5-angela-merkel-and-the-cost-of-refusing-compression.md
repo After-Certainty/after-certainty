@@ -10,7 +10,7 @@ expected, and restraint is mistaken for hesitation. The group leaves
 with the sense that something was missing—even though nothing was wrong.
 
 This is a familiar human dynamic. It is also the one that shaped how
-**Angela Merkel** was read for much of her political life.¹
+**Angela Merkel** was read for much of her political life.[^c5-media-particularly-in-english]
 
 ## How Merkel Was Read
 
@@ -19,7 +19,7 @@ her cautious, bloodless, overly technical, even boring. In moments of
 crisis, she did not project certainty through force of personality. She
 did not dramatize decisions. She did not perform conviction. Especially
 outside Germany, she was framed as a manager rather than a
-leader—competent, perhaps, but lacking presence.²
+leader—competent, perhaps, but lacking presence.[^c5-cautious-technocratic-or-uninspiring]
 
 This reading hardened into shorthand. Merkel as the scientist. Merkel as
 the bureaucrat. Merkel as the reluctant decision-maker.
@@ -27,7 +27,7 @@ the bureaucrat. Merkel as the reluctant decision-maker.
 And yet, over sixteen years as chancellor, Germany remained politically
 stable through repeated shocks: the global financial crisis, the
 Eurozone sovereign debt crisis, the 2015 refugee influx, and the
-COVID-19 pandemic.³ The apparent contradiction—between her reputation
+COVID-19 pandemic.[^c5-to-spanning-the-global] The apparent contradiction—between her reputation
 and her record—is the puzzle this chapter examines.
 
 ## The Communication Lens
@@ -42,7 +42,7 @@ confidence. Where many leaders signal decisiveness through certainty,
 Merkel signaled responsibility through precision. Her background as a
 scientist mattered here—not as temperament, but as signal choice. She
 treated public communication as an extension of reasoning rather than
-performance.⁴
+performance.[^c5-profiles-including-the-atlantic]
 
 This signal had consequences. It reduced the risk of error, but it also
 refused emotional reassurance. In environments trained to read
@@ -60,7 +60,7 @@ During the Eurozone crisis, she refused to promise painless solutions.
 During the refugee crisis, she articulated moral responsibility without
 converting it into triumphal rhetoric. During the COVID-19 pandemic, she
 explained exponential growth carefully rather than translating it into
-slogans.⁵
+slogans.[^c5-news-the-washington-post]
 
 Compression is often framed as a communication skill. Merkel treated it
 as a moral risk.
@@ -81,7 +81,7 @@ Institutionally, she governed through coalition politics and European
 Union consensus—systems that reward patience over spectacle. Medially,
 she operated in an environment increasingly driven by emotional
 compression and narrative clarity. And socially, she faced gendered
-expectations that shaped how restraint was interpreted.⁶
+expectations that shaped how restraint was interpreted.[^c5-carli-through-the-labyrinth]
 
 Where male leaders could signal certainty without explanation, Merkel
 was required to justify caution without appearing indecisive. Where
@@ -103,7 +103,7 @@ She rarely framed decisions as moral victories. Instead, she spoke in
 terms of obligation, cost, and consequence. Harm was not denied or
 displaced; it was acknowledged and absorbed at the level of leadership.
 She did not offload blame downward or moralize opponents to stabilize
-authority.⁷
+authority.[^c5-biographies-including-kati-marton]
 
 This posture generated little emotional loyalty. It did not invite
 identification. But it consistently located responsibility where
@@ -116,7 +116,7 @@ Merkel’s effectiveness was real but quiet.
 Economic stability was preserved. Democratic institutions held.
 Catastrophic outcomes were avoided. But effectiveness that consists
 largely of *non-events* is difficult to narrate. Stability does not feel
-like success while it is happening. It feels like inertia.⁸
+like success while it is happening. It feels like inertia.[^c5-collapse-democratic-backsliding-institutional]
 
 This created a structural vulnerability: Merkel’s effectiveness depended
 on absence—of collapse, of crisis escalation, of dramatic failure.
@@ -129,7 +129,7 @@ into affection.
 
 It rested on trust rather than enthusiasm. On reliability rather than
 inspiration. Polling throughout her later terms consistently showed high
-trust ratings paired with declining emotional approval.⁹ When trust
+trust ratings paired with declining emotional approval.[^c5-figures-even-as-personal] When trust
 eroded, there was no emotional surplus to draw from. Her authority
 declined quietly, without rupture, mirroring the way it had been
 exercised.
@@ -181,54 +181,20 @@ labor onto audiences often unwilling to carry it. Under such conditions,
 accuracy can lose legitimacy even as outcomes stabilize. Mistaking low
 spectacle for low effectiveness is an interpretive error.
 
-## Reference
+[^c5-media-particularly-in-english]: Merkel’s understated public persona was frequently contrasted with more performative contemporaries in international media, particularly in English-language coverage that emphasized leadership style over institutional outcomes. See, for example, The New York Times and The Atlantic profiles published during Merkel’s later terms.
 
-1.  Merkel’s understated public persona was frequently contrasted with
-    more performative contemporaries in international media,
-    particularly in English-language coverage that emphasized leadership
-    style over institutional outcomes. See, for example, *The New York
-    Times* and *The Atlantic* profiles published during Merkel’s later
-    terms.
+[^c5-cautious-technocratic-or-uninspiring]: Descriptions of Merkel as cautious, technocratic, or uninspiring appear consistently in political commentary throughout her chancellorship; see The Economist, “The Merkel Method,” and similar retrospectives published near the end of her tenure.
 
-2.  Descriptions of Merkel as cautious, technocratic, or uninspiring
-    appear consistently in political commentary throughout her
-    chancellorship; see *The Economist*, “The Merkel Method,” and
-    similar retrospectives published near the end of her tenure.
+[^c5-to-spanning-the-global]: Merkel served as German chancellor from 2005 to 2021, spanning the global financial crisis, the Eurozone sovereign debt crisis, the 2015 refugee crisis, and the COVID-19 pandemic. See overviews in Der Spiegel, The Guardian, and Foreign Affairs.
 
-3.  Merkel served as German chancellor from 2005 to 2021, spanning the
-    global financial crisis, the Eurozone sovereign debt crisis, the
-    2015 refugee crisis, and the COVID-19 pandemic. See overviews in
-    *Der Spiegel*, *The Guardian*, and *Foreign Affairs*.
+[^c5-profiles-including-the-atlantic]: Merkel’s scientific training and preference for probabilistic reasoning are discussed in multiple profiles, including The Atlantic, “Angela Merkel, the Scientist in Chief,” which examines how her background shaped her communication style.
 
-4.  Merkel’s scientific training and preference for probabilistic
-    reasoning are discussed in multiple profiles, including *The
-    Atlantic*, “Angela Merkel, the Scientist in Chief,” which examines
-    how her background shaped her communication style.
+[^c5-news-the-washington-post]: Merkel’s April 2020 address explaining exponential growth during the early COVID-19 outbreak was widely discussed as an unusually technical public communication by a head of government; see contemporaneous reporting by BBC News, The Washington Post, and Der Spiegel.
 
-5.  Merkel’s April 2020 address explaining exponential growth during the
-    early COVID-19 outbreak was widely discussed as an unusually
-    technical public communication by a head of government; see
-    contemporaneous reporting by *BBC News*, *The Washington Post*, and
-    *Der Spiegel*.
+[^c5-carli-through-the-labyrinth]: Eagly, Alice H., and Linda L. Carli. *Through the Labyrinth: The Truth About How Women Become Leaders*. Boston: Harvard Business School Press, 2007.
 
-6.  Research on gendered leadership perception consistently shows that
-    women leaders are penalized for restraint or emotional neutrality
-    that is interpreted as seriousness in men; see Alice Eagly and Linda
-    Carli, *Through the Labyrinth*, and syntheses cited by the Pew
-    Research Center.
+[^c5-biographies-including-kati-marton]: Marton, Kati. *The Chancellor: The Remarkable Odyssey of Angela Merkel*. New York: Simon & Schuster, 2021.
 
-7.  Merkel’s reluctance to moralize opponents or personalize political
-    conflict is noted in multiple political biographies, including Kati
-    Marton, *The Chancellor*, which emphasizes her avoidance of moral
-    spectacle.
+[^c5-collapse-democratic-backsliding-institutional]: Retrospective evaluations of Merkel’s leadership frequently emphasize what did not occur—economic collapse, democratic backsliding, institutional rupture—rather than singular policy victories; see late-term retrospectives in The Economist and Foreign Affairs.
 
-8.  Retrospective evaluations of Merkel’s leadership frequently
-    emphasize what did *not* occur—economic collapse, democratic
-    backsliding, institutional rupture—rather than singular policy
-    victories; see late-term retrospectives in *The Economist* and
-    *Foreign Affairs*.
-
-9.  Longitudinal polling by Allensbach and Pew consistently showed
-    Merkel as one of Europe’s most trusted political figures, even as
-    personal enthusiasm and party identification declined during her
-    later years.
+[^c5-figures-even-as-personal]: Longitudinal polling by Allensbach and Pew consistently showed Merkel as one of Europe’s most trusted political figures, even as personal enthusiasm and party identification declined during her later years.

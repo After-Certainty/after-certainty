@@ -4,7 +4,7 @@ Communication is often treated as the transfer of information. Someone
 speaks. Someone listens. Meaning is assumed to move from one mind to
 another with reasonable fidelity. When disagreement or confusion
 appears, it is usually attributed to poor wording, bad intent, or lack
-of attention. This model is comforting—and wrong.¹
+of attention. This model is comforting—and wrong.[^c1-disagreement-despite-decades-of]
 
 In practice, communication does not transmit meaning intact. It prompts
 interpretation under pressure. What travels between people is not
@@ -12,7 +12,7 @@ understanding, but **signal**—words, tone, timing, silence, posture,
 implication. Meaning is reconstructed by the listener using context,
 expectation, and prior experience. Understanding is therefore not
 guaranteed by clarity, sincerity, or effort. It is provisional, fragile,
-and often inferred rather than confirmed.²
+and often inferred rather than confirmed.[^c1-source-interpretive-models-of]
 
 This matters because most communication does not occur in ideal
 conditions. It occurs under **compression** and **constraint**.
@@ -23,7 +23,7 @@ than they mean and still coordinate. Compression reduces cognitive load
 and increases speed. It is not a flaw; it is an adaptation. But
 compression always carries risk. The more meaning packed into fewer
 signals, the more interpretive work is pushed onto the listener—and the
-more room there is for divergence that no one notices in real time.³
+more room there is for divergence that no one notices in real time.[^c1-fields-including-organizational-theory]
 
 Constraint determines whether divergence can be repaired. Time pressure,
 power asymmetry, emotional risk, social norms, and institutional
@@ -32,14 +32,14 @@ In many environments, asking for clarification signals incompetence or
 distrust. Naming misunderstanding feels disruptive. Correcting a
 misinterpretation risks relational or professional cost. Under these
 conditions, misunderstanding is not corrected when it appears; it is
-managed, accommodated, or quietly endured.⁴
+managed, accommodated, or quietly endured.[^c1-asymmetry-which-shows-that]
 
 When signal is dense, compression is high, and constraint is tight,
 **meaning can outrun understanding**. Conversations continue. Agreements
 appear to hold. Coordination proceeds. But alignment thins beneath the
 surface. People believe they understand one another because interaction
 remains smooth, not because understanding has been verified. Trust fills
-gaps that shared meaning has not earned.⁵
+gaps that shared meaning has not earned.[^c1-source-this-phenomenon-mirrors]
 
 At human scale, this pattern is common and usually survivable. Families
 carry unspoken assumptions for years. Teams work around ambiguities
@@ -47,7 +47,7 @@ rather than resolve them. Friends avoid clarifying conversations to
 preserve harmony. These are not moral failures. They are coordination
 strategies. They allow people to function under pressure. But they also
 normalize a dangerous shortcut: treating continued interaction as
-evidence of shared understanding.⁶
+evidence of shared understanding.[^c1-alignment-particularly-in-high]
 
 This shortcut becomes more consequential as scale increases.
 
@@ -57,7 +57,7 @@ Constraint intensifies: there is less tolerance for ambiguity, less
 patience for clarification, and greater cost to interruption. Audiences
 are trained to interpret quickly and move on. Under these conditions,
 clarity is mistaken for understanding, confidence for competence, and
-coherence for truth.⁷
+coherence for truth.[^c1-nuance-shaping-how-leadership]
 
 This chapter introduces a **communication lens** built around three
 elements: **signal**, **compression**, and **constraint**. The lens is
@@ -70,7 +70,7 @@ misread without anyone lying or acting in bad faith. It explains why
 misunderstandings persist even when people are intelligent, informed,
 and motivated. And it explains why disagreement hardens over time, not
 because facts are unavailable, but because the conditions for repairing
-interpretation have quietly eroded.⁸
+interpretation have quietly eroded.[^c1-failure-only-that-it]
 
 ## Closing Reflection
 
@@ -85,38 +85,18 @@ failures of understanding combine with failures of accountability. But
 before judgment, there must be visibility. And visibility begins by
 noticing how meaning so often moves faster than understanding.
 
-## Reference
+[^c1-disagreement-despite-decades-of]: The “transmission model” of communication remains implicit in much everyday reasoning about disagreement, despite decades of critique in linguistics, pragmatics, and social theory.
 
-1.  The “transmission model” of communication remains implicit in much
-    everyday reasoning about disagreement, despite decades of critique
-    in linguistics, pragmatics, and social theory.
+[^c1-source-interpretive-models-of]: Grice, H. P. "Logic and Conversation." In *Syntax and Semantics*, vol. 3, *Speech Acts*, edited by Peter Cole and Jerry L. Morgan, 41–58. New York: Academic Press, 1975.
 
-2.  Interpretive models of communication emphasize that meaning is
-    constructed by receivers rather than delivered by senders; see H. P.
-    Grice’s work on implicature and later developments in pragmatics.
+[^c1-fields-including-organizational-theory]: Compression as a necessity of coordination is discussed across fields, including organizational theory and cognitive psychology, where shared context reduces explicit signaling at the cost of interpretive risk.
 
-3.  Compression as a necessity of coordination is discussed across
-    fields, including organizational theory and cognitive psychology,
-    where shared context reduces explicit signaling at the cost of
-    interpretive risk.
+[^c1-asymmetry-which-shows-that]: Constraint as a determinant of repair aligns with research on psychological safety and power asymmetry, which shows that clarification decreases as perceived social or professional risk increases.
 
-4.  Constraint as a determinant of repair aligns with research on
-    psychological safety and power asymmetry, which shows that
-    clarification decreases as perceived social or professional risk
-    increases.
+[^c1-source-this-phenomenon-mirrors]: This phenomenon mirrors what conversation analysts describe as “interactional success” masking substantive misalignment: coordination continues even as understanding diverges.
 
-5.  This phenomenon mirrors what conversation analysts describe as
-    “interactional success” masking substantive misalignment:
-    coordination continues even as understanding diverges.
+[^c1-alignment-particularly-in-high]: Sociological studies of groups consistently show that harmony is often preserved at the expense of explicit alignment, particularly in high-trust or high-dependence relationships.
 
-6.  Sociological studies of groups consistently show that harmony is
-    often preserved at the expense of explicit alignment, particularly
-    in high-trust or high-dependence relationships.
+[^c1-nuance-shaping-how-leadership]: Media studies literature documents how increased scale incentivizes compression and narrative coherence over nuance, shaping how leadership communication is received rather than merely produced.
 
-7.  Media studies literature documents how increased scale incentivizes
-    compression and narrative coherence over nuance, shaping how
-    leadership communication is received rather than merely produced.
-
-8.  This lens does not claim that misunderstanding explains all
-    leadership failure, only that it frequently precedes moral judgment
-    and shapes which failures become visible at all.
+[^c1-failure-only-that-it]: This lens does not claim that misunderstanding explains all leadership failure, only that it frequently precedes moral judgment and shapes which failures become visible at all.

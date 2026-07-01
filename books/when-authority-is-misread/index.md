@@ -39,6 +39,10 @@ Author: Kevin Steffensen
 - [Chapter 12 — When Interpretation Stops Working](parts/part-3-looking-twice/chapter-12-when-interpretation-stops-working.md)
 - [Chapter 13 — What Becomes Visible When We Look Twice](parts/part-3-looking-twice/chapter-13-what-becomes-visible-when-we-look-twice.md)
 
+## Back Matter
+
+- [Bibliography](back-matter/bibliography.md)
+
 ## Related books
 
 [Series guide](../../docs/series-guide.md) · Authority cluster

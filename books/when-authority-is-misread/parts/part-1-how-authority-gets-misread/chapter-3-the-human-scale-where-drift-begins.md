@@ -7,7 +7,7 @@ teams, friendships, classrooms, and workplaces are the environments
 where signal, compression, and constraint first interact with informal
 authority and moral judgment. By the time these dynamics reach
 institutional scale, they already feel familiar. Leadership does not
-introduce new failures; it amplifies existing ones.¹
+introduce new failures; it amplifies existing ones.[^c3-source-leadership-is-treated]
 
 At human scale, communication failure is rarely dramatic. No one raises
 their voice. No one lies outright. Words are chosen carefully, often
@@ -16,7 +16,7 @@ than confirmed. Assumptions substitute for clarity. Trust fills gaps
 that alignment has not earned. Because repair is socially
 costly—awkward, disruptive, or emotionally risky—misunderstanding
 stabilizes quietly. The conversation moves on. The relationship absorbs
-the error.²
+the error.[^c3-source-conversation-analysis-and]
 
 This is where drift begins.
 
@@ -26,14 +26,14 @@ say less than they mean and still coordinate. Compression preserves
 efficiency and harmony. But it also transfers interpretive labor onto
 listeners, who fill gaps using expectation, hierarchy, and fear of
 consequence. When compression increases without corresponding repair,
-divergence becomes invisible until it matters.³
+divergence becomes invisible until it matters.[^c3-research-particularly-in-relation]
 
 Constraint explains why divergence persists. Asking for clarification
 can signal distrust. Naming harm can feel disproportionate. Challenging
 informal authority risks destabilizing relationships that matter. In
 many human-scale settings, the safest move is not accuracy but
 continuity. Misunderstanding is tolerated because interruption feels
-more dangerous than misalignment.⁴
+more dangerous than misalignment.[^c3-source-psychological-safety-research]
 
 Authority at human scale is informal but real. It appears as expertise,
 seniority, emotional leverage, moral confidence, or simply the ability
@@ -41,14 +41,14 @@ to withstand conflict. When outcomes are acceptable—or at least
 tolerable—authority persists even when harm goes unaddressed. Legitimacy
 forms without review. Moral posture is inferred from intent rather than
 examined through consequence. Effectiveness substitutes for
-accountability long before anyone names it as such.⁵
+accountability long before anyone names it as such.[^c3-sociology-where-legitimacy-frequently]
 
 These dynamics are not pathological. They are adaptive. They allow
 people to coordinate under pressure, preserve relationships, and avoid
 constant renegotiation. But they also create blind spots. Harm that does
 not immediately disrupt outcomes is tolerated. Misunderstanding that
 does not explode is normalized. Authority that once felt justified
-continues by default. Drift accumulates without announcement.⁶
+continues by default. Drift accumulates without announcement.[^c3-retrospectively-once-accumulated-effects]
 
 When these patterns scale up, they do not change in kind. They change in
 consequence.
@@ -59,14 +59,14 @@ becomes abstract. Distance replaces familiarity. Outcomes replace
 stories. Accountability diffuses across systems. But the underlying
 mechanics remain the same. Leaders inherit environments already trained
 to prioritize clarity over accuracy, stability over repair, and
-coordination over alignment.⁷
+coordination over alignment.[^c3-distance-abstraction-and-narrative]
 
 This reframes responsibility. If leadership failure were primarily a
 problem of bad actors, better selection would solve it. But if
 leadership failure is an amplification of ordinary human coordination
 under constraint, judgment alone is insufficient. The problem is not
 that leaders are uniquely flawed; it is that the systems interpreting
-them reward the same shortcuts we rely on in everyday life.⁸
+them reward the same shortcuts we rely on in everyday life.[^c3-source-this-perspective-aligns]
 
 ## Closing Reflection
 
@@ -85,42 +85,22 @@ feels costly.
 The leaders examined in the chapters that follow did not invent these
 dynamics.
 They operated within them, at scale, under conditions where the cost of
-misreading was no longer personal but historical.⁹
+misreading was no longer personal but historical.[^c3-source-framing-leadership-as]
 
-## Reference
+[^c3-source-leadership-is-treated]: Leadership is treated here as a scaling phenomenon rather than a categorical one; the same coordination dynamics operate at different magnitudes without changing their basic structure.
 
-1.  Leadership is treated here as a scaling phenomenon rather than a
-    categorical one; the same coordination dynamics operate at different
-    magnitudes without changing their basic structure.
+[^c3-source-conversation-analysis-and]: Conversation analysis and organizational studies consistently show that interactional smoothness is often mistaken for shared understanding.
 
-2.  Conversation analysis and organizational studies consistently show
-    that interactional smoothness is often mistaken for shared
-    understanding.
+[^c3-research-particularly-in-relation]: Compression as an efficiency mechanism is widely discussed in group cognition research, particularly in relation to shared mental models and implicit coordination.
 
-3.  Compression as an efficiency mechanism is widely discussed in group
-    cognition research, particularly in relation to shared mental models
-    and implicit coordination.
+[^c3-source-psychological-safety-research]: Psychological safety research highlights how power asymmetry and relational risk suppress clarification even when misunderstanding is recognized.
 
-4.  Psychological safety research highlights how power asymmetry and
-    relational risk suppress clarification even when misunderstanding is
-    recognized.
+[^c3-sociology-where-legitimacy-frequently]: Informal authority dynamics have long been documented in sociology, where legitimacy frequently precedes explicit accountability mechanisms.
 
-5.  Informal authority dynamics have long been documented in sociology,
-    where legitimacy frequently precedes explicit accountability
-    mechanisms.
+[^c3-retrospectively-once-accumulated-effects]: Drift is rarely perceived as such while it is occurring; it becomes visible only retrospectively, once accumulated effects exceed tolerance.
 
-6.  Drift is rarely perceived as such while it is occurring; it becomes
-    visible only retrospectively, once accumulated effects exceed
-    tolerance.
+[^c3-distance-abstraction-and-narrative]: Institutional scale magnifies human-scale shortcuts by adding distance, abstraction, and narrative mediation without removing underlying incentives.
 
-7.  Institutional scale magnifies human-scale shortcuts by adding
-    distance, abstraction, and narrative mediation without removing
-    underlying incentives.
+[^c3-source-this-perspective-aligns]: This perspective aligns with systems-oriented critiques of leadership that emphasize interpretation and coordination over individual moral character.
 
-8.  This perspective aligns with systems-oriented critiques of
-    leadership that emphasize interpretation and coordination over
-    individual moral character.
-
-9.  Framing leadership as amplification rather than exception prevents
-    moral distancing and supports diagnostic rather than judgmental
-    analysis.
+[^c3-source-framing-leadership-as]: Framing leadership as amplification rather than exception prevents moral distancing and supports diagnostic rather than judgmental analysis.

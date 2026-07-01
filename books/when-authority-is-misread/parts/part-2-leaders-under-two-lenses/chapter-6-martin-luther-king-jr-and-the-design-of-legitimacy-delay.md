@@ -9,7 +9,7 @@ is the cost of hearing it. Belonging is offered in exchange for silence,
 and legitimacy is deferred until it feels safe.
 
 This is a familiar human pattern. It is also the one that shaped how
-**Martin Luther King Jr.** was read during his lifetime.¹
+**Martin Luther King Jr.** was read during his lifetime.[^c6-incorrect-a-pattern-common]
 
 ## How King Was Read
 
@@ -18,7 +18,7 @@ During his life, he was widely viewed as disruptive, impractical, and
 dangerously destabilizing. Majorities of Americans disapproved of him in
 the years leading up to his death. He was criticized not only by
 segregationists, but by moderates who agreed with his goals and rejected
-his methods.²
+his methods.[^c6-assassination-despite-later-near]
 
 King was told to wait. To be patient. To work within existing
 structures. To avoid provoking backlash. The substance of his claims was
@@ -38,7 +38,7 @@ He named injustice directly and refused euphemism. Segregation was not
 unfortunate; it was wrong. Delay was not prudence; it was harm. His
 language carried moral weight by design, leaving little room for
 interpretive softening. This made his signal resilient to distortion but
-costly to absorb.³
+costly to absorb.[^c6-writings-particularly-in-the]
 
 King did not attempt neutrality. He attempted clarity.
 
@@ -53,7 +53,7 @@ King used compression deliberately and selectively.
 He condensed complex structural injustice into morally legible frames:
 marches, boycotts, jailings, and speeches that linked everyday practices
 to constitutional and theological claims. He did not oversimplify the
-problem, but he compressed it into forms that could not be ignored.⁴
+problem, but he compressed it into forms that could not be ignored.[^c6-source-scholars-of-social]
 
 Importantly, King did not compress toward comfort. He compressed toward
 confrontation. This violated a common expectation of leadership
@@ -69,7 +69,7 @@ He faced state violence, surveillance, incarceration, and assassination
 threats. Media environments often framed protest as disorder. Political
 institutions offered rhetorical support without structural commitment.
 Even allies imposed constraint by urging moderation for the sake of
-progress.⁵
+progress.[^c6-surveillance-repeated-arrests-and]
 
 Under these conditions, repair was impossible. Clarification would have
 softened the signal at the cost of its purpose. Delay would have
@@ -90,7 +90,7 @@ He placed responsibility where harm occurred and refused to displace it
 onto patience, procedure, or abstract progress. He accepted personal
 risk as part of moral authority rather than outsourcing it to followers.
 This posture generated credibility among those directly harmed and
-hostility among those insulated from consequence.⁶
+hostility among those insulated from consequence.[^c6-source-king-s-insistence]
 
 King did not offer moral reassurance. He offered moral demand.
 
@@ -102,7 +102,7 @@ long term.
 Immediate outcomes were often ambiguous. Protests provoked backlash.
 Legislative victories were partial and fragile. Measured narrowly, his
 leadership appeared destabilizing. Measured structurally, it altered the
-moral and legal landscape of American democracy.⁷
+moral and legal landscape of American democracy.[^c6-instability-while-long-term]
 
 This temporal gap is crucial. King’s effectiveness could not justify his
 leadership in real time because its benefits were delayed and its costs
@@ -117,7 +117,7 @@ It emerged afterward.
 Only once the threat receded did moral clarity become culturally
 absorbable. Only once disruption ended did authority attach to his name.
 King’s legitimacy was retrospective—granted safely, after his signal no
-longer demanded action.⁸
+longer demanded action.[^c6-critiques-particularly-regarding-economic]
 
 **Leadership diagnosis:**
 King demonstrates that moral leadership can be effective without being
@@ -172,40 +172,18 @@ because clarity imposes cost. Effectiveness and moral authority can
 diverge sharply in time, even when aligned in purpose. Confusing delay
 with failure is a category mistake.
 
-## Reference
+[^c6-incorrect-a-pattern-common]: Contemporary reactions to King frequently framed his interventions as poorly timed or socially disruptive rather than substantively incorrect, a pattern common in responses to moral challenge at both human and institutional scales.
 
-1.  Contemporary reactions to King frequently framed his interventions
-    as poorly timed or socially disruptive rather than substantively
-    incorrect, a pattern common in responses to moral challenge at both
-    human and institutional scales.
+[^c6-assassination-despite-later-near]: Gallup polling from the mid-1960s shows that a majority of Americans held unfavorable views of King prior to his assassination, despite later near-universal approval.
 
-2.  Gallup polling from the mid-1960s shows that a majority of Americans
-    held unfavorable views of King prior to his assassination, despite
-    later near-universal approval.
+[^c6-writings-particularly-in-the]: King, Martin Luther, Jr. "Letter from Birmingham Jail." In *Why We Can't Wait*, 75–100. New York: Signet Classics, 2000.
 
-3.  King’s refusal to euphemize injustice is evident across his speeches
-    and writings, particularly in the *Letter from Birmingham Jail*,
-    which explicitly rejects moderation as a moral stance.
+[^c6-source-scholars-of-social]: Scholars of social movements note King’s strategic use of symbolic action and moral framing to compress complex injustice into unavoidable public encounters.
 
-4.  Scholars of social movements note King’s strategic use of symbolic
-    action and moral framing to compress complex injustice into
-    unavoidable public encounters.
+[^c6-surveillance-repeated-arrests-and]: FBI surveillance, repeated arrests, and public condemnation by political leaders—including those sympathetic to civil rights goals—constituted significant structural constraint on King’s leadership.
 
-5.  FBI surveillance, repeated arrests, and public condemnation by
-    political leaders—including those sympathetic to civil rights
-    goals—constituted significant structural constraint on King’s
-    leadership.
+[^c6-source-king-s-insistence]: King’s insistence on nonviolent discipline and personal sacrifice as sources of moral authority is widely discussed in biographies and movement histories.
 
-6.  King’s insistence on nonviolent discipline and personal sacrifice as
-    sources of moral authority is widely discussed in biographies and
-    movement histories.
+[^c6-instability-while-long-term]: Evaluations of King’s effectiveness diverge sharply depending on temporal frame; short-term assessments emphasize instability, while long-term assessments emphasize foundational legal and cultural change.
 
-7.  Evaluations of King’s effectiveness diverge sharply depending on
-    temporal frame; short-term assessments emphasize instability, while
-    long-term assessments emphasize foundational legal and cultural
-    change.
-
-8.  The posthumous elevation of King into a national moral symbol
-    coincided with the depoliticization and selective softening of his
-    more radical critiques, particularly regarding economic justice and
-    militarism.
+[^c6-critiques-particularly-regarding-economic]: The posthumous elevation of King into a national moral symbol coincided with the depoliticization and selective softening of his more radical critiques, particularly regarding economic justice and militarism.

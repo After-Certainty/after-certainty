@@ -9,7 +9,7 @@ and is praised as decisive. The difference is not competence. It is
 which values are assumed to belong in the room.
 
 This is a familiar human dynamic. It is also the one that shaped how
-**Indra Nooyi** was read during her tenure as CEO of PepsiCo.¹
+**Indra Nooyi** was read during her tenure as CEO of PepsiCo.[^c7-norms-particularly-in-u]
 
 ## How Nooyi Was Read
 
@@ -17,7 +17,7 @@ Indra Nooyi was frequently described as visionary, values-driven, and
 unusually empathetic for a corporate leader. She was also criticized as
 insufficiently shareholder-focused, overly idealistic, or too slow to
 deliver returns. Her leadership style was often framed as admirable in
-theory but questionable in practice.²
+theory but questionable in practice.[^c7-fortune-the-new-york]
 
 These readings were not evenly distributed. Supporters praised her
 long-term orientation and moral seriousness. Critics questioned whether
@@ -38,7 +38,7 @@ She spoke openly about employee well-being, public health, and social
 responsibility. She framed corporate purpose as extending beyond
 quarterly returns, arguing that long-term value required attention to
 nutrition, sustainability, and human impact. Her communication invited
-moral interpretation rather than limiting it.³
+moral interpretation rather than limiting it.[^c7-interviews-positioning-corporations-as]
 
 This signal carried risk. In environments where leadership signals are
 expected to compress toward profit, widening the signal space reads as
@@ -52,7 +52,7 @@ Nooyi resisted narrow compression.
 She refused to reduce PepsiCo’s success to stock price alone,
 emphasizing instead a framework she called “Performance with Purpose.”
 This framework deliberately complicated evaluation by introducing
-additional dimensions of responsibility.⁴
+additional dimensions of responsibility.[^c7-tenure-expanding-the-criteria]
 
 Compression, in corporate settings, often functions as protection: fewer
 metrics mean clearer judgment. By expanding the evaluative frame, Nooyi
@@ -70,7 +70,7 @@ narrower tolerance for deviation from shareholder primacy. Traits framed
 as thoughtful or humane in male leaders were more easily reframed as
 softness or distraction when exhibited by her. The cost of moral
 signaling was higher because it violated expectations about who
-corporate leaders are allowed to be.⁵
+corporate leaders are allowed to be.[^c7-source-research-on-gendered]
 
 Once framed as “values-driven,” repair became difficult. Evidence of
 financial performance was interpreted through the lens of prior
@@ -90,7 +90,7 @@ She consistently framed leadership as responsibility to multiple
 stakeholders, not merely owners. Harm—particularly in public health—was
 acknowledged rather than externalized. This posture absorbed criticism
 rather than deflecting it, increasing moral credibility but reducing
-rhetorical defensiveness.⁶
+rhetorical defensiveness.[^c7-employees-consumers-and-communities]
 
 She did not deny tradeoffs. She named them.
 
@@ -101,7 +101,7 @@ Nooyi’s effectiveness was real, but contested.
 During her tenure, PepsiCo delivered steady financial performance,
 expanded globally, and diversified its product portfolio. At the same
 time, some investors argued that returns lagged competitors and
-attributed this to her strategic priorities.⁷
+attributed this to her strategic priorities.[^c7-vary-with-some-emphasizing]
 
 Effectiveness here became a contested narrative rather than a settled
 fact. Because outcomes were adequate rather than spectacular, they did
@@ -116,7 +116,7 @@ She retained authority through competence and respect, but not through
 unchallenged identification. Once she stepped down, reassessment of her
 leadership split along familiar lines: visionary reformer or
 well-intentioned detour. Her legitimacy did not fully convert into
-canonical status within corporate mythology.⁸
+canonical status within corporate mythology.[^c7-divided-reflecting-unresolved-tension]
 
 **Leadership diagnosis:**
 Nooyi illustrates how moral posture can narrow legitimacy margins when
@@ -174,36 +174,18 @@ but not overwhelming, legitimacy becomes fragile rather than
 consolidated. Treating moral expansion as indecision is an interpretive
 error.
 
-## Reference
+[^c7-norms-particularly-in-u]: Commentary on Nooyi’s leadership frequently framed her emphasis on values as atypical within corporate leadership norms, particularly in U.S. business media.
 
-1.  Commentary on Nooyi’s leadership frequently framed her emphasis on
-    values as atypical within corporate leadership norms, particularly
-    in U.S. business media.
+[^c7-fortune-the-new-york]: Profiles in Fortune, The New York Times, and Harvard Business Review often juxtaposed praise for Nooyi’s vision with skepticism about shareholder returns.
 
-2.  Profiles in *Fortune*, *The New York Times*, and *Harvard Business
-    Review* often juxtaposed praise for Nooyi’s vision with skepticism
-    about shareholder returns.
+[^c7-interviews-positioning-corporations-as]: Nooyi consistently articulated a broader conception of corporate purpose in speeches and interviews, positioning corporations as social actors rather than purely economic ones.
 
-3.  Nooyi consistently articulated a broader conception of corporate
-    purpose in speeches and interviews, positioning corporations as
-    social actors rather than purely economic ones.
+[^c7-tenure-expanding-the-criteria]: “Performance with Purpose” became a defining—and contested—feature of Nooyi’s tenure, expanding the criteria by which PepsiCo’s leadership was evaluated.
 
-4.  “Performance with Purpose” became a defining—and contested—feature
-    of Nooyi’s tenure, expanding the criteria by which PepsiCo’s
-    leadership was evaluated.
+[^c7-source-research-on-gendered]: Research on gendered leadership perception in corporate settings shows that women leaders are penalized for value-oriented framing that is tolerated or celebrated in men.
 
-5.  Research on gendered leadership perception in corporate settings
-    shows that women leaders are penalized for value-oriented framing
-    that is tolerated or celebrated in men.
+[^c7-employees-consumers-and-communities]: Nooyi’s leadership philosophy emphasized responsibility to employees, consumers, and communities, a stance documented in interviews and her public writing.
 
-6.  Nooyi’s leadership philosophy emphasized responsibility to
-    employees, consumers, and communities, a stance documented in
-    interviews and her public writing.
+[^c7-vary-with-some-emphasizing]: Analyses of PepsiCo’s financial performance during Nooyi’s tenure vary, with some emphasizing stability and diversification and others emphasizing comparative underperformance.
 
-7.  Analyses of PepsiCo’s financial performance during Nooyi’s tenure
-    vary, with some emphasizing stability and diversification and others
-    emphasizing comparative underperformance.
-
-8.  Post-tenure reassessments of Nooyi’s leadership remain divided,
-    reflecting unresolved tension between moral ambition and traditional
-    measures of corporate success.
+[^c7-divided-reflecting-unresolved-tension]: Post-tenure reassessments of Nooyi’s leadership remain divided, reflecting unresolved tension between moral ambition and traditional measures of corporate success.

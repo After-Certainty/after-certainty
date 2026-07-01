@@ -51,6 +51,11 @@ CHICAGO: dict[str, str] = {
     "arendt-the-human": "Arendt, Hannah. *The Human Condition*. 2nd ed. Chicago: University of Chicago Press, 1998.; Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New York: Schocken Books, 2003.",
     "source-trauma": "Substance Abuse and Mental Health Services Administration. *SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach*. HHS Publication No. 14-4884. Rockville, MD: SAMHSA, 2014.",
     "g-samhsa": "Substance Abuse and Mental Health Services Administration. *SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach*. HHS Publication No. 14-4884. Rockville, MD: SAMHSA, 2014.",
+    # when-authority-is-misread (named sources in discursive footnotes)
+    "source-interpretive-models": 'Grice, H. P. "Logic and Conversation." In *Syntax and Semantics*, vol. 3, *Speech Acts*, edited by Peter Cole and Jerry L. Morgan, 41–58. New York: Academic Press, 1975.',
+    "carli-through-the-labyrinth": "Eagly, Alice H., and Linda L. Carli. *Through the Labyrinth: The Truth About How Women Become Leaders*. Boston: Harvard Business School Press, 2007.",
+    "biographies-including-kati": "Marton, Kati. *The Chancellor: The Remarkable Odyssey of Angela Merkel*. New York: Simon & Schuster, 2021.",
+    "writings-particularly-in-the": 'King, Martin Luther, Jr. "Letter from Birmingham Jail." In *Why We Can\'t Wait*, 75–100. New York: Signet Classics, 2000.',
 }
 
 
@@ -59,6 +64,23 @@ def lookup_chicago(footnote_id: str) -> str | None:
         if key in footnote_id:
             return text
     return None
+
+
+def ensure_footnote_spacing(path: Path) -> bool:
+    text = path.read_text(encoding="utf-8")
+    lines = text.splitlines()
+    out: list[str] = []
+    changed = False
+    for line in lines:
+        if re.match(r"^\[\^[^\]]+\]:", line):
+            if out and out[-1].strip():
+                out.append("")
+                changed = True
+        out.append(line)
+    new_text = "\n".join(out) + ("\n" if text.endswith("\n") else "")
+    if changed:
+        path.write_text(new_text, encoding="utf-8")
+    return changed
 
 
 def normalize_file(path: Path) -> bool:
@@ -101,7 +123,10 @@ def main(argv: list[str]) -> int:
         for path in sorted(root.rglob("*.md")):
             if "docs" in path.parts or path.name == "bibliography.md":
                 continue
-            if normalize_file(path):
+            changed = normalize_file(path)
+            if ensure_footnote_spacing(path):
+                changed = True
+            if changed:
                 print(path)
                 n += 1
     print(f"Normalized {n} files")

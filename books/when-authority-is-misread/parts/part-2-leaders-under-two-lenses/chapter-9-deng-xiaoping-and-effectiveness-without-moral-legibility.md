@@ -9,7 +9,7 @@ improvement occurred fades. What remains is gratitude—and silence. The
 past is not defended; it is bypassed.
 
 This is a familiar human dynamic. It is also the one that shaped how
-**Deng Xiaoping** was read, both within China and beyond.¹
+**Deng Xiaoping** was read, both within China and beyond.[^c9-source-deng-s-reputation]
 
 ## How Deng Was Read
 
@@ -17,7 +17,7 @@ Deng Xiaoping is often described as a pragmatist who rescued China from
 ideological stagnation. He is credited with opening markets, restoring
 growth, and lifting hundreds of millions out of poverty. At the same
 time, he is associated with political repression, most notably the
-violent suppression of dissent.²
+violent suppression of dissent.[^c9-repression-particularly-in-relation]
 
 These readings coexist without resolution. Deng appears simultaneously
 as reformer and enforcer, liberator and consolidator. Unlike other
@@ -37,7 +37,7 @@ He communicated through aphorism rather than doctrine, outcome rather
 than justification. “It doesn’t matter whether a cat is black or white,
 as long as it catches mice.” This was not merely rhetorical. It signaled
 a fundamental shift: ideological coherence would no longer anchor
-legitimacy. Performance would.³
+legitimacy. Performance would.[^c9-source-deng-s-aphoristic]
 
 This signal reduced moral complexity without denying it. Questions of
 justice, memory, or accountability were not argued against; they were
@@ -50,7 +50,7 @@ Deng relied on extreme compression.
 Complex historical trauma, political repression, and ideological
 reversal were compressed into a single evaluative axis: economic
 improvement. This compression simplified judgment so thoroughly that
-alternative questions struggled to remain legible.⁴
+alternative questions struggled to remain legible.[^c9-source-scholars-of-chinese]
 
 Compression here functioned not as misunderstanding, but as
 prioritization. Other dimensions were not denied; they were rendered
@@ -64,7 +64,7 @@ Political discourse remained tightly controlled. Public interpretation
 was bounded. Repair was structurally unavailable. While economic
 experimentation was encouraged, moral or political reinterpretation was
 not. Constraint ensured that outcome-based legitimacy faced minimal
-public challenge.⁵
+public challenge.[^c9-source-political-constraint-during]
 
 **Communication diagnosis:**
 Deng’s authority benefited from a communicative environment where
@@ -79,7 +79,7 @@ Deng’s moral posture was minimal and indirect.
 He did not present himself as a moral visionary. He avoided grand
 ethical claims and resisted personal mythmaking. Harm was neither
 confessed nor justified; it was absorbed into historical necessity. This
-posture limited moral scrutiny by refusing moral engagement.⁶
+posture limited moral scrutiny by refusing moral engagement.[^c9-source-biographical-analyses-emphasize]
 
 The absence of explicit moral framing did not weaken authority. It
 insulated it.
@@ -91,7 +91,7 @@ Deng’s effectiveness was overwhelming.
 Economic growth, institutional stabilization, and global integration
 followed his reforms. The scale and durability of these outcomes
 reshaped both domestic life and international perception. Effectiveness
-here was not incremental; it was transformative.⁷
+here was not incremental; it was transformative.[^c9-source-the-scale-of]
 
 This mattered. Effectiveness at this scale does not merely support
 legitimacy—it dominates evaluation. Other dimensions struggle to
@@ -104,7 +104,7 @@ Deng’s legitimacy persisted without moral reconciliation.
 Authority endured not because harms were resolved, but because results
 redefined the baseline of judgment. The question became not “was this
 justified?” but “what alternative would you have preferred?” Legitimacy
-stabilized through comparison rather than consent.⁸
+stabilized through comparison rather than consent.[^c9-reconciliation-particularly-under-high]
 
 **Leadership diagnosis:**
 Deng demonstrates how effectiveness can anchor legitimacy so firmly that
@@ -163,33 +163,18 @@ instability, effectiveness can dominate moral posture without resolving
 it. Mistaking that dominance for moral reconciliation is an interpretive
 error.
 
-## Reference
+[^c9-source-deng-s-reputation]: Deng’s reputation as a pragmatist reformer is central to both domestic and international narratives of modern Chinese history.
 
-1.  Deng’s reputation as a pragmatist reformer is central to both
-    domestic and international narratives of modern Chinese history.
+[^c9-repression-particularly-in-relation]: Accounts of Deng’s legacy routinely juxtapose economic liberalization with political repression, particularly in relation to dissent and protest.
 
-2.  Accounts of Deng’s legacy routinely juxtapose economic
-    liberalization with political repression, particularly in relation
-    to dissent and protest.
+[^c9-source-deng-s-aphoristic]: Deng’s aphoristic style is widely cited as emblematic of his rejection of ideological purity in favor of practical results.
 
-3.  Deng’s aphoristic style is widely cited as emblematic of his
-    rejection of ideological purity in favor of practical results.
+[^c9-source-scholars-of-chinese]: Scholars of Chinese reform note how economic success became the dominant evaluative frame for leadership legitimacy during and after Deng’s tenure.
 
-4.  Scholars of Chinese reform note how economic success became the
-    dominant evaluative frame for leadership legitimacy during and after
-    Deng’s tenure.
+[^c9-source-political-constraint-during]: Political constraint during Deng’s leadership limited public reinterpretation of authority even as economic experimentation expanded.
 
-5.  Political constraint during Deng’s leadership limited public
-    reinterpretation of authority even as economic experimentation
-    expanded.
+[^c9-source-biographical-analyses-emphasize]: Biographical analyses emphasize Deng’s avoidance of moral grandstanding and his preference for historical necessity over ethical justification.
 
-6.  Biographical analyses emphasize Deng’s avoidance of moral
-    grandstanding and his preference for historical necessity over
-    ethical justification.
+[^c9-source-the-scale-of]: The scale of economic transformation following Deng’s reforms is widely regarded as one of the most significant in modern history.
 
-7.  The scale of economic transformation following Deng’s reforms is
-    widely regarded as one of the most significant in modern history.
-
-8.  Legitimacy rooted in comparative improvement tends to stabilize
-    without requiring explicit moral reconciliation, particularly under
-    high constraint.
+[^c9-reconciliation-particularly-under-high]: Legitimacy rooted in comparative improvement tends to stabilize without requiring explicit moral reconciliation, particularly under high constraint.
