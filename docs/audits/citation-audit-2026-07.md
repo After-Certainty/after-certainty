@@ -15,30 +15,25 @@ compliance and Pandoc footnote linking. Fiction (`velorum`, `the-relay`,
 
 | Tier | Count | Meaning |
 |------|-------|---------|
-| **A** | 4 | Legacy citations; needs migration |
+| **A** | 0 | Legacy citations; needs migration (complete) |
 | **B** | 2 | No citations by design; no changes |
-| **C** | 16 | Pandoc footnotes + Chicago bibliography linked in index |
+| **C** | 20 | Pandoc footnotes + Chicago bibliography linked in index |
 
 Run: `python3 tools/audit_citations.py`  
 JSON: `python3 tools/audit_citations.py --json`
 
 ---
 
-## Tier A — Legacy, needs migration
+## Tier A — Legacy, needs migration (complete)
 
-| Slug | Pattern | Bibliography | Action |
-|------|---------|--------------|--------|
-| [when-moral-seriousness-scales](../../books/when-moral-seriousness-scales) | `## Notes` + Unicode superscripts; mixed `¹` / `1.` numbering | Missing | Migrate footnotes; create bibliography; link index |
-| [when-authority-is-misread](../../books/when-authority-is-misread) | `## Reference` + superscripts; thematic glosses | Missing | Migrate footnotes; create bibliography; link index |
-| [when-authority-outlives-accountability](../../books/when-authority-outlives-accountability) | Superscripts in 7 chapters; defs in `back-matter/notes.md` | Missing | Inject chapter footnotes from notes.md; create bibliography |
-| [how-serious-systems-learn](../../books/how-serious-systems-learn) | `## End Notes` + superscripts (16 chapters) | Table metadata sheet, not Chicago bullets | Migrate footnotes; reformat bibliography |
+All four Tier A titles were migrated on branch `cursor/citation-audit-b461`:
 
-### Fix order (one PR per book after this audit)
-
-1. `when-moral-seriousness-scales`
-2. `when-authority-outlives-accountability`
-3. `when-authority-is-misread`
-4. `how-serious-systems-learn`
+| Slug | Status |
+|------|--------|
+| [when-moral-seriousness-scales](../../books/when-moral-seriousness-scales) | Migrated |
+| [when-authority-outlives-accountability](../../books/when-authority-outlives-accountability) | Migrated |
+| [when-authority-is-misread](../../books/when-authority-is-misread) | Migrated |
+| [how-serious-systems-learn](../../books/how-serious-systems-learn) | Migrated |
 
 ---
 
@@ -132,7 +127,6 @@ Expected in a clean pass: no missing definitions, no unused definitions.
 | Tool | Purpose |
 |------|---------|
 | [`tools/audit_citations.py`](../../tools/audit_citations.py) | Portfolio classification |
-| [`tools/migrate_upcoming_citations.py`](../../tools/migrate_upcoming_citations.py) | Legacy superscript → Pandoc migration |
-
-Migration supports `## Reference`, `## Notes`, `## End Notes`, and
-`--notes-md` mode for centralized `back-matter/notes.md` injection.
+| [`tools/migrate_upcoming_citations.py`](../../tools/migrate_upcoming_citations.py) | Legacy superscript → Pandoc migration (`## Notes`, `## End Notes`, `--notes-md`) |
+| [`tools/normalize_chicago_footnotes.py`](../../tools/normalize_chicago_footnotes.py) | Chicago NB footnote body normalization |
+| [`tools/convert_serious_systems_footnotes.py`](../../tools/convert_serious_systems_footnotes.py) | Chicago conversion for legacy end-note format |

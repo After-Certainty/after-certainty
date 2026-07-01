@@ -155,8 +155,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--books-dir",
         type=Path,
-        default=Path("books"),
-        help="Books root (default: books)",
+        default=Path(__file__).resolve().parent.parent / "books",
+        help="Books root (default: repo books/)",
     )
     args = parser.parse_args(argv)
 
