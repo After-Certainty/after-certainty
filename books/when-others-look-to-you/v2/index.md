@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Author's Note](front-matter/authors-note.md)
 - [Acknowledgements](front-matter/acknowledgements.md)
 - [Introduction — When Others Look To You](front-matter/introduction-when-others-look-to-you.md)

@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Core Reframe](front-matter/core-reframe.md)
 - [What This Book Is](front-matter/what-this-book-is.md)
 - [Organizing Question](front-matter/organizing-question.md)

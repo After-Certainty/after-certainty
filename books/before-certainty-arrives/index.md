@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Author's Note](front-matter/authors-note.md)
 - [How to Read This History](front-matter/how-to-read-this-history.md)
 - [Introduction — The Moment Before Things Feel Obvious](front-matter/introduction-the-moment-before-things-feel-obvious.md)

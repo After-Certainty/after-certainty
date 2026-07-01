@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Author's Note](front-matter/authors-note.md)
 - [Preface — Why This Book Exists](front-matter/preface-why-this-book-exists.md)
 - [Introduction — The Puzzle of Moral Persistence](front-matter/introduction-the-puzzle-of-moral-persistence.md)

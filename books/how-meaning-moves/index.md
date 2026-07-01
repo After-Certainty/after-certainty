@@ -6,6 +6,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Author’s Note](front-matter/authors-note.md)
 - [Preface — Before Understanding](front-matter/preface-before-understanding.md)
 - [Introduction — Why Communication Fails Before Anyone Is Wrong](front-matter/introduction-why-communication-fails-before-anyone-is-wrong.md)

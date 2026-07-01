@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Introduction — When Certainty Stops Working](front-matter/introduction-when-certainty-stops-working.md)
 
 ## Part I — Why We Crave Absolutes

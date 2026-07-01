@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Introduction — Why Judgment No Longer Coordinates Action](front-matter/introduction-why-judgment-no-longer-coordinates-action.md)
 
 ## Part I — When Judgment Fractures

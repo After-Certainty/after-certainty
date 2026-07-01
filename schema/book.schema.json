@@ -405,6 +405,9 @@
         },
         "copyright": {
           "$ref": "#/$defs/frontmatterTemplateBlock"
+        },
+        "about_the_series": {
+          "$ref": "#/$defs/frontmatterTemplateBlock"
         }
       }
     },
