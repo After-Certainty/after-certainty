@@ -278,6 +278,27 @@ export-pdf: check-pandoc
 	@test -n "$(DIR)" || { echo "Usage: make export-pdf DIR=path/to/book-folder [OUT_STEM=basename]"; exit 1; }
 	@python3 scripts/export_pdf.py --repo . --book-dir "$(DIR)" --out-stem "$(OUT_STEM)"
 
+import-gdoc-html:
+	@test -n "$(DOC)" && test -n "$(DIR)" || { echo "Usage: make import-gdoc-html DOC=url-or-id DIR=path/to/book-folder"; exit 1; }
+	@python3 tools/import_google_doc_html.py "$(DOC)" --book-dir "$(DIR)"
+
+import-observer-patterns-html:
+	@$(MAKE) --no-print-directory import-gdoc-html DOC="https://docs.google.com/document/d/1TtYERQNZ-bWmiex6kRAyyAqvSXzssYfeuHM2tGmZKoU/edit" DIR=upcoming/observer-patterns
+
+split-observer-patterns:
+	@python3 tools/html_to_observer_patterns.py --book-dir upcoming/observer-patterns --extract-cover
+
+export-typst-pdf:
+	@test -n "$(DIR)" || { echo "Usage: make export-typst-pdf DIR=path/to/book-folder [OUT=filename.pdf] [TYPST=typst]"; exit 1; }
+	@out="$${OUT:-observer-patterns.pdf}"; \
+	typst_bin="$${TYPST:-typst}"; \
+	command -v "$$typst_bin" >/dev/null 2>&1 || { \
+		echo "Error: typst not found. Install from https://github.com/typst/typst/releases"; \
+		exit 1; \
+	}; \
+	"$$typst_bin" compile --root "$(DIR)" "$(DIR)/typst/main.typ" "$(DIR)/$$out"; \
+	echo "Created $(DIR)/$$out"
+
 export-all-docx: check-pandoc
 	@dirs="$$(python3 tools/ci_affected_books.py --repo . --all --dirs --format docx)"; \
 	if [ -z "$$dirs" ]; then \

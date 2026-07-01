@@ -1,0 +1,25 @@
+version: 1
+
+upcoming:
+  status: draft
+
+book:
+  id: observer-patterns
+  title: "Observer Patterns"
+  description: "A book of patterns — things that happen when people look, decide, and follow what they see."
+  author:
+    name: "Kevin Steffensen"
+    website: "https://after-certainty.com"
+  language: en
+  copyright_year: 2026
+  title_page_cover: book-cover.png
+  open_graph_image: open-graph.png
+
+build:
+  formats:
+    docx:
+      enabled: false
+    epub:
+      enabled: false
+    pdf:
+      enabled: false
