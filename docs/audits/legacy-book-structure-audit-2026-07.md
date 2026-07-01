@@ -59,6 +59,8 @@ Run: `python3 tools/audit_book_structure.py`
 
 **Summary:** 18 organized, 1 minor gap, 6 legacy (3 flat imports + 3 partial).
 
+**Post-restructure (2026-07-01):** All six legacy titles migrated on branch `cursor/legacy-book-structure-audit-b559`. `python3 tools/audit_book_structure.py --legacy-only` now reports **0 legacy**. Remaining minor gaps: `when-authority-is-misread` and `why-diversity-matters` (no back matter by design).
+
 ---
 
 ## Recommended fix order
