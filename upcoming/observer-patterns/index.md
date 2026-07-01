@@ -49,6 +49,7 @@
 - [Part VI — What Holds](parts/part-vi-what-holds/bridge.md)
 - [When Trust Builds How Meaning Moves And Belief Forms](parts/part-vi-what-holds/when-trust-builds-how-meaning-moves-and-belief-forms.md)
 - [Why Collaboration Is Hard When Trust Builds How Meaning Moves](parts/part-vi-what-holds/why-collaboration-is-hard-when-trust-builds-how-meaning-moves.md)
+- [Why Diversity Matters When Trust Builds And Others Look To You](parts/part-vi-what-holds/why-diversity-matters-when-trust-builds-and-others-look-to-you.md)
 - [Why Collaboration Is Hard When Trust Builds How Meaning Moves When Others Look To You](parts/part-vi-what-holds/why-collaboration-is-hard-when-trust-builds-how-meaning-moves-when-others-look-to-you.md)
 
 ## Part VII — What Remains

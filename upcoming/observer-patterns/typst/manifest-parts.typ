@@ -78,6 +78,9 @@ pagebreak()
 render-markdown("../parts/part-vi-what-holds/why-collaboration-is-hard-when-trust-builds-how-meaning-moves.md")
 pagebreak()
 
+render-markdown("../parts/part-vi-what-holds/why-diversity-matters-when-trust-builds-and-others-look-to-you.md")
+pagebreak()
+
 render-markdown("../parts/part-vi-what-holds/why-collaboration-is-hard-when-trust-builds-how-meaning-moves-when-others-look-to-you.md")
 pagebreak()
 

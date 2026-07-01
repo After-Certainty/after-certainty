@@ -3,9 +3,5 @@
 ## Counts
 
 - Parts: 7
-- Poems: 19
+- Poems: 20
 - Closing prose paragraphs: 19
-
-## Warnings
-
-- None.

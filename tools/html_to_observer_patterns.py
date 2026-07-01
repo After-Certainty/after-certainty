@@ -182,6 +182,14 @@ def poem_title_from_tables(tables: list[Table]) -> str:
     return "untitled"
 
 
+def table_title(table: Table) -> str | None:
+    for row in table.rows:
+        for cell in row:
+            if cell.title:
+                return cell.title
+    return None
+
+
 def tables_to_poem_markdown(tables: list[Table]) -> tuple[str, str]:
     title = poem_title_from_tables(tables)
     body_parts: list[str] = []
@@ -311,31 +319,38 @@ def build_manuscript(book_dir: Path, blocks: list[Block]) -> dict[str, int]:
             index_entries.append((part_heading, "Closing", f"parts/{part_slug}/closing.md"))
             break
 
+        def flush_poem_tables(
+            _path: Path = part_path,
+            _heading: str = part_heading,
+            _slug: str = part_slug,
+        ) -> None:
+            nonlocal poem_tables
+            if not poem_tables:
+                return
+            title, body = tables_to_poem_markdown(poem_tables)
+            poem_slug = unique_slug(title)
+            write_file(_path / f"{poem_slug}.md", body)
+            index_entries.append((_heading, title, f"parts/{_slug}/{poem_slug}.md"))
+            stats["poems"] += 1
+            poem_tables = []
+
         poem_tables: list[Table] = []
         while idx < len(blocks):
             current = blocks[idx]
             if current.kind == "h1" and current.text.startswith("Part "):
                 break
             if current.kind == "hr":
-                if poem_tables:
-                    title, body = tables_to_poem_markdown(poem_tables)
-                    poem_slug = unique_slug(title)
-                    write_file(part_path / f"{poem_slug}.md", body)
-                    index_entries.append((part_heading, title, f"parts/{part_slug}/{poem_slug}.md"))
-                    stats["poems"] += 1
-                    poem_tables = []
+                flush_poem_tables()
                 idx += 1
                 continue
             if current.kind == "table":
-                poem_tables.append(current.table)  # type: ignore[arg-type]
+                table = current.table  # type: ignore[assignment]
+                if poem_tables and table_title(table):
+                    flush_poem_tables()
+                poem_tables.append(table)
             idx += 1
 
-        if poem_tables:
-            title, body = tables_to_poem_markdown(poem_tables)
-            poem_slug = unique_slug(title)
-            write_file(part_path / f"{poem_slug}.md", body)
-            index_entries.append((part_heading, title, f"parts/{part_slug}/{poem_slug}.md"))
-            stats["poems"] += 1
+        flush_poem_tables()
 
     write_index(book_dir, "Observer Patterns", index_entries)
     write_import_log(book_dir, stats, warnings)
