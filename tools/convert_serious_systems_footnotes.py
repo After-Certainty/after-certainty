@@ -84,7 +84,11 @@ def process_file(path: Path) -> bool:
 
 def main(argv: list[str]) -> int:
     root = Path(argv[0]) if argv else Path("books/how-serious-systems-learn")
-    n = sum(process_file(p) for p in root.rglob("*.md") if "docs" not in p.parts and p.name != "bibliography.md")
+    n = sum(
+        process_file(p)
+        for p in root.rglob("*.md")
+        if "docs" not in p.parts and p.name != "bibliography.md"
+    )
     print(f"Updated {n} files")
     return 0
 

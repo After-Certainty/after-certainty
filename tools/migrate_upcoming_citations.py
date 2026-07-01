@@ -115,7 +115,9 @@ def note_to_chicago(text: str) -> str:
     return text
 
 
-def migrate_file(path: Path, dry_run: bool = False, refs_override: dict[int, str] | None = None) -> bool:
+def migrate_file(
+    path: Path, dry_run: bool = False, refs_override: dict[int, str] | None = None
+) -> bool:
     text = path.read_text(encoding="utf-8")
     header = REF_HEADERS.search(text)
     if refs_override is not None:

@@ -94,7 +94,6 @@ def normalize_file(path: Path) -> bool:
         m = re.match(r"^(\[\^[^\]]+\]:)\s*(.+)$", line)
         if m:
             fid = m.group(1)
-            body = m.group(2)
             chicago = lookup_chicago(fid)
             if chicago:
                 if out and out[-1].strip():
