@@ -79,7 +79,6 @@ class GoogleDocHtmlParser(HTMLParser):
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         attrs_d = {k: v or "" for k, v in attrs}
-        cls = attrs_d.get("class", "")
         if tag == "h1":
             self._in_h1 = True
             self._buf = []
@@ -260,9 +259,7 @@ def build_manuscript(book_dir: Path, blocks: list[Block]) -> dict[str, int]:
         if blocks[idx].kind == "table":
             intro_tables.append(blocks[idx].table)  # type: ignore[arg-type]
         idx += 1
-    intro_md = "\n\n".join(
-        table_to_markdown(table, include_title=False) for table in intro_tables
-    )
+    intro_md = "\n\n".join(table_to_markdown(table, include_title=False) for table in intro_tables)
     write_file(book_dir / "front-matter" / "introduction.md", intro_md)
     index_entries.append(("Front Matter", "Introduction", "front-matter/introduction.md"))
 
@@ -311,9 +308,7 @@ def build_manuscript(book_dir: Path, blocks: list[Block]) -> dict[str, int]:
                 idx += 1
             closing_md = "\n\n".join(prose_lines)
             write_file(part_path / "closing.md", closing_md)
-            index_entries.append(
-                (part_heading, "Closing", f"parts/{part_slug}/closing.md")
-            )
+            index_entries.append((part_heading, "Closing", f"parts/{part_slug}/closing.md"))
             break
 
         poem_tables: list[Table] = []
@@ -341,16 +336,6 @@ def build_manuscript(book_dir: Path, blocks: list[Block]) -> dict[str, int]:
             write_file(part_path / f"{poem_slug}.md", body)
             index_entries.append((part_heading, title, f"parts/{part_slug}/{poem_slug}.md"))
             stats["poems"] += 1
-
-    parts_dir = book_dir / "parts"
-    parts_text = ""
-    if parts_dir.is_dir():
-        parts_text = "\n".join(
-            p.read_text(encoding="utf-8", errors="ignore")
-            for p in parts_dir.rglob("*.md")
-        )
-    if "faull" in parts_text:
-        warnings.append('Typo preserved: "Words faull short" (Part III) — fix in editorial pass.')
 
     write_index(book_dir, "Observer Patterns", index_entries)
     write_import_log(book_dir, stats, warnings)

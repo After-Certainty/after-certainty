@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -288,14 +288,22 @@ import-observer-patterns-html:
 split-observer-patterns:
 	@python3 tools/html_to_observer_patterns.py --book-dir upcoming/observer-patterns --extract-cover
 
+install-typst:
+	@bash scripts/install_typst.sh
+
 export-typst-pdf:
 	@test -n "$(DIR)" || { echo "Usage: make export-typst-pdf DIR=path/to/book-folder [OUT=filename.pdf] [TYPST=typst]"; exit 1; }
 	@out="$${OUT:-observer-patterns.pdf}"; \
 	typst_bin="$${TYPST:-typst}"; \
 	command -v "$$typst_bin" >/dev/null 2>&1 || { \
-		echo "Error: typst not found. Install from https://github.com/typst/typst/releases"; \
+		echo "Error: typst not found. Run: make install-typst"; \
 		exit 1; \
 	}; \
+	typst_ver="$$("$$typst_bin" --version | awk '{print $$2}')"; \
+	if ! printf '%s\n%s\n' "0.14.0" "$$typst_ver" | sort -V -C 2>/dev/null; then \
+		echo "Error: typst $$typst_ver is too old; need >= 0.14.0 (run: make install-typst)"; \
+		exit 1; \
+	fi; \
 	"$$typst_bin" compile --root "$(DIR)" "$(DIR)/typst/main.typ" "$(DIR)/$$out"; \
 	echo "Created $(DIR)/$$out"
 

@@ -5,8 +5,7 @@ from __future__ import annotations
 
 import argparse
 import re
-import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from urllib.error import URLError
 from urllib.request import urlopen
@@ -38,7 +37,7 @@ def download_html(doc_id: str) -> bytes:
 
 
 def write_manifest(manifest_path: Path, *, doc_id: str, byte_size: int) -> None:
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    now = datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
     manifest_path.write_text(
         "\n".join(
             [

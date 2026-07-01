@@ -19,5 +19,4 @@
 
 ## Editorial
 
-- Known import typo: "Words faull short" in Part III — fix in a dedicated pass.
 - Combined-title poems (Parts II–VI) keep full titles as written in the Google Doc.

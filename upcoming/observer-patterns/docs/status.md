@@ -18,10 +18,7 @@ Phase 0 — Structure (import from Google Doc)
 Requires **Typst 0.14+** (for the `cmarker` package).
 
 ```bash
-# Linux — download from https://github.com/typst/typst/releases (v0.14.2+)
-curl -fsSL https://github.com/typst/typst/releases/download/v0.14.2/typst-x86_64-unknown-linux-musl.tar.xz -o /tmp/typst.tar.xz
-tar -xJf /tmp/typst.tar.xz -C /tmp
-export PATH="/tmp/typst-x86_64-unknown-linux-musl:$PATH"
+make install-typst
 typst --version
 ```
 

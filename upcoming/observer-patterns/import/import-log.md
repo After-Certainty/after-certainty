@@ -8,4 +8,4 @@
 
 ## Warnings
 
-- Typo preserved: "Words faull short" (Part III) — fix in editorial pass.
+- None.

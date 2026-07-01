@@ -4,7 +4,7 @@ Attention lands.
 
 Meaning forms.
 
-Words faull short.
+Words fall short.
 
 | | |
 | --- | --- |
