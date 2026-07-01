@@ -82,9 +82,10 @@ def test_manifest_lines_for_bridge_and_poem() -> None:
         header="// test",
     )
     text = "\n".join(lines)
-    assert 'part-bridge(render-markdown("../parts/part-i/bridge.md"))' in text
-    assert 'render-markdown("../parts/part-i/poem.md")' in text
-    assert "pagebreak()" in text
+    assert '#import "template.typ": render-markdown' in text
+    assert '#part-bridge(render-markdown("../parts/part-i/bridge.md"))' in text
+    assert '#render-markdown("../parts/part-i/poem.md")' in text
+    assert "#pagebreak()" in text
 
 
 def test_build_routes_typst_pdf_without_pandoc(repo_root: Path, tmp_path: Path) -> None:

@@ -33,17 +33,23 @@ def parse_index_markdown_links(index_text: str) -> list[str]:
 
 
 def manifest_lines_for_units(rel_paths: list[str], *, header: str) -> list[str]:
-    lines = [header, ""]
+    lines = [
+        header,
+        "",
+        '#import "template.typ": render-markdown',
+        '#import "poetry.typ": part-bridge',
+        "",
+    ]
     for rel in rel_paths:
         if rel in SKIP_UNITS:
             continue
         path = f'"../{rel}"'
         if rel.endswith("/bridge.md"):
-            lines.append(f"part-bridge(render-markdown({path}))")
+            lines.append(f"#part-bridge(render-markdown({path}))")
         else:
-            lines.append(f"render-markdown({path})")
+            lines.append(f"#render-markdown({path})")
         if not rel.endswith("/closing.md"):
-            lines.append("pagebreak()")
+            lines.append("#pagebreak()")
         lines.append("")
     return lines
 
