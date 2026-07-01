@@ -2,11 +2,11 @@
 
 ## Current phase
 
-**Phase 0 — Structure (planning scaffold)**
+**Phase 1 — Outline to prose (Introduction approved; Ch 1 next)**
 
 ## Active branch
 
-`cursor/what-we-cannot-see-planning-2512`
+`cursor/what-we-cannot-see-voice-lock-2512`
 
 ## Manuscript hub
 
@@ -25,13 +25,14 @@
 |----------|---------|--------|
 | Target length | Essay (~12–18k) / Practice (~30–45k) / Full (~55–80k) | Open |
 | Bridge placement | Part III bridge (recommended) vs final Part II chapter | Resolved: Part III bridge |
+| Part III framing | Integration only vs designed epistemologies | Resolved: both; see `process-design.md` |
 | Series guide entry | Epistemic limits cluster | Deferred until structure locked |
 
 ## Unit progress
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction — The Myth of the Unbiased Mind | scaffold | Central question only |
+| Introduction — The Myth of the Unbiased Mind | approved | ~1,750 words; structure locked; sentence-level edits only |
 | Part I bridge | scaffold | |
 | Ch 1 — The Attention Budget | scaffold | Attention family |
 | Ch 2 — What Stays and What Fades | scaffold | Memory, Temporal |
@@ -54,11 +55,11 @@
 
 ## Next actions
 
-1. Author architectural review of planning docs and chapter scaffold
-2. Resolve target length (essay vs practice vs full)
-3. Expand Introduction + Part I Ch 1 to lock voice before batch drafting
+1. Expand Part I Ch 1 — The Attention Budget (concrete observation; individual cognition level)
+2. Resolve target length (essay vs practice vs full) when Part I voice is locked
+3. Part III drafting: use `process-design.md` for process examples per chapter
 
 ## Rough scale
 
-- Manuscript words: ~0 (scaffold only)
-- Last assessed: planning scaffold (July 2026)
+- Manuscript words: ~1,550 (Introduction draft, revised)
+- Last assessed: Introduction draft (July 2026)

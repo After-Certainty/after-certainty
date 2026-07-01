@@ -30,7 +30,7 @@ Explore how responsible decisions are made despite incomplete information.
 
 ## Part III — Integration: Learning Together
 
-Explain how groups, organizations, institutions, and societies integrate partial perspectives.
+Explain how groups integrate partial perspectives—and how societies design processes that improve collective judgment without assuming unbiased people exist.
 
 - [The Limits of Individual Wisdom](parts/part-3-integration-learning-together/bridge.md)
 - [Why Others See What I Miss](parts/part-3-integration-learning-together/chapter-9-why-others-see-what-i-miss.md)

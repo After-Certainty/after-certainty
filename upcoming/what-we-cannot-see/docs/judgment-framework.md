@@ -8,7 +8,9 @@ Part II concepts. Planning document for architectural consistency before prose.
 
 Judgment is the responsible use of limited perspectives.
 
-Individuals are responsible for decisions, not for becoming unbiased.
+Individuals are responsible for decisions, not for becoming unbiased—and not for delegating all responsibility to institutions.
+
+**Level:** Individual judgment (Part II). Distinct from individual cognition (Part I) and from institutional process design (Part III).
 
 ## Key questions (Part II)
 
@@ -54,14 +56,17 @@ Individuals are responsible for decisions, not for becoming unbiased.
 | Individual responsibility | Still accountable for how we decide |
 | Limits of individual wisdom | Sets up Part III bridge |
 
-**Handoff:** Even excellent individual judgment remains incomplete → integration is necessary.
+**Handoff:** Even excellent individual judgment remains incomplete → collective integration and process design become necessary.
+
+See [`process-design.md`](process-design.md) for why institutions exist.
 
 ## What judgment is not
 
-- Debiasing to neutrality
+- Debiasing oneself to neutrality
 - Relativism ("all views equal")
-- Deferring all responsibility to groups
+- Deferring all responsibility to groups or processes
 - Certainty-seeking as moral virtue
+- Assuming process design replaces individual responsibility
 
 ## What judgment is
 

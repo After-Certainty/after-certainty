@@ -1,12 +1,14 @@
 # What We Cannot See — Writing Style
 
-## Primary inspiration
+## Primary rhythm (locked for this book)
 
-Rebecca Solnit — observational openings, curiosity, indirect discovery.
+The introduction established a movement closer to **Atul Gawande at his best** than to Solnit— not in prose texture, but in structure:
 
-Borrow: the sense that the reader is slowly uncovering something that was always there.
+Observation → Question → Pattern → Reframing → Implication
 
-Do not imitate. The prose must remain original.
+Less essayistic wandering; more readable diagnostic progression. Walk beside the reader; do not lead through manifesto.
+
+Rebecca Solnit remains a reference for observational curiosity and indirect discovery—borrow the spirit, not the syntax.
 
 ## Secondary influences (what to learn, not copy)
 
