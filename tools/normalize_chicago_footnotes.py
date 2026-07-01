@@ -1,0 +1,92 @@
+#!/usr/bin/env python3
+"""Normalize migrated footnote bodies to Chicago NB using a work-key lookup."""
+
+from __future__ import annotations
+
+import re
+import sys
+from pathlib import Path
+
+# Short-form footnote text keyed by slug fragment (author-work prefix)
+CHICAGO: dict[str, str] = {
+    "arendt-responsibility": "Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New York: Schocken Books, 2003.",
+    "arendt-between-past": "Arendt, Hannah. *Between Past and Future*. New York: Penguin Books, 2006.",
+    "arendt-eichmann": "Arendt, Hannah. *Eichmann in Jerusalem: A Report on the Banality of Evil*. New York: Viking Press, 1963.",
+    "arendt-on-revolution": "Arendt, Hannah. *On Revolution*. New York: Viking Press, 1963.",
+    "arendt-responsibility-and-judgment": "Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New York: Schocken Books, 2003.; Arendt, Hannah. *The Life of the Mind*. New York: Harcourt Brace Jovanovich, 1978.",
+    "bowen-family": "Bowen, Murray. *Family Therapy in Clinical Practice*. New York: Jason Aronson, 1978.",
+    "dahl-polyarchy": "Dahl, Robert A. *Polyarchy: Participation and Opposition*. New Haven, CT: Yale University Press, 1971.",
+    "edmondson-the-fearless": "Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.",
+    "heifetz-leadership": "Heifetz, Ronald A. *Leadership Without Easy Answers*. Cambridge, MA: Belknap Press of Harvard University Press, 1994.",
+    "hirschman-exit": "Hirschman, Albert O. *Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States*. Cambridge, MA: Harvard University Press, 1970.",
+    "jervis-perception": "Jervis, Robert. *Perception and Misperception in International Politics*. Princeton, NJ: Princeton University Press, 1976.",
+    "kahneman-thinking": "Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011.",
+    "merton-bureaucratic": 'Merton, Robert K. "Bureaucratic Structure and Personality." *Social Forces* 18, no. 4 (1940): 560–568.',
+    "olsen-rediscovering": "March, James G., and Johan P. Olsen. *Rediscovering Institutions: The Organizational Basis of Politics*. New York: Free Press, 1989.",
+    "olson-the-logic": "Olson, Mancur. *The Logic of Collective Action: Public Goods and the Theory of Groups*. Cambridge, MA: Harvard University Press, 1965.",
+    "perrow-normal": "Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books, 1984.",
+    "rosa-social": "Rosa, Hartmut. *Social Acceleration: A New Theory of Modernity*. Translated by Jonathan Trejo-Mathys. New York: Columbia University Press, 2013.",
+    "schein-organizational": "Schein, Edgar H. *Organizational Culture and Leadership*. 5th ed. Hoboken, NJ: Wiley, 2017.",
+    "schelling-the-strategy": "Schelling, Thomas C. *The Strategy of Conflict*. Cambridge, MA: Harvard University Press, 1960.",
+    "selznick-leadership": "Selznick, Philip. *Leadership in Administration: A Sociological Interpretation*. New York: Harper & Row, 1957.",
+    "simon-organizations": "March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley, 1958.",
+    "weber-economy": "Weber, Max. *Economy and Society: An Outline of Interpretive Sociology*. Edited by Guenther Roth and Claus Wittich. Berkeley: University of California Press, 1978.",
+}
+
+
+def lookup_chicago(footnote_id: str) -> str | None:
+    for key, text in CHICAGO.items():
+        if key in footnote_id:
+            return text
+    return None
+
+
+def normalize_file(path: Path) -> bool:
+    text = path.read_text(encoding="utf-8")
+    lines = text.splitlines()
+    out: list[str] = []
+    changed = False
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        m = re.match(r"^(\[\^[^\]]+\]:)\s*(.+)$", line)
+        if m:
+            fid = m.group(1)
+            body = m.group(2)
+            chicago = lookup_chicago(fid)
+            if chicago and chicago not in body:
+                if out and out[-1].strip():
+                    out.append("")
+                out.append(f"{fid} {chicago}")
+                changed = True
+                i += 1
+                continue
+            if out and out[-1].strip():
+                out.append("")
+        out.append(line)
+        i += 1
+    new_text = "\n".join(out) + ("\n" if text.endswith("\n") else "")
+    if changed:
+        path.write_text(new_text, encoding="utf-8")
+    return changed
+
+
+def main(argv: list[str]) -> int:
+    roots = [Path(a) for a in argv if not a.startswith("-")]
+    if not roots:
+        print("Usage: normalize_chicago_footnotes.py <book-dir> ...", file=sys.stderr)
+        return 1
+    n = 0
+    for root in roots:
+        for path in sorted(root.rglob("*.md")):
+            if "docs" in path.parts or path.name == "bibliography.md":
+                continue
+            if normalize_file(path):
+                print(path)
+                n += 1
+    print(f"Normalized {n} files")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv[1:]))

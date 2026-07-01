@@ -19,18 +19,18 @@ defense.
 
 Research on competitive escalation shows that actors frequently mirror
 hardening behaviors not out of aggression but out of fear of unilateral
-vulnerability.¹ When reciprocity weakens, defensive imitation becomes
+vulnerability.[^c7-jervis-perception-and-misperception] When reciprocity weakens, defensive imitation becomes
 rational. What begins as self-protection can gradually resemble the very
 acceleration it sought to guard against.
 
 Hardening follows predictable patterns. Discretion narrows. Flexibility
 declines. Trust is replaced by verification. Processes become less
-forgiving. These shifts are often justified as prudence.² Each decision
+forgiving. These shifts are often justified as prudence.[^c7-hirschman-exit-voice-and] Each decision
 appears reasonable in isolation. Escalation rarely announces itself as a
 moral turn. It presents as necessary adaptation.
 
 Importantly, structural pressure increases the cost of restraint; it
-does not eliminate agency.³ Actors still choose whether to imitate
+does not eliminate agency.[^c7-arendt-responsibility-and-judgment] Actors still choose whether to imitate
 acceleration or absorb its disadvantage. The threshold marks a change in
 incentives, not a removal of judgment.
 
@@ -47,23 +47,16 @@ They can ask whether matching speed preserves stability or erodes it
 further. They can decide whether disadvantage is intolerable—or whether
 preserving restraint has value beyond immediate symmetry.
 
-Escalation is not inevitable. It is incremental.⁴
+Escalation is not inevitable. It is incremental.[^c7-schelling-the-strategy-of]
 
 “There is a point where restraint feels selectively costly. That point
 is dangerous—not because escalation is forced, but because it begins to
 feel rational.”
 
-## Notes
+[^c7-jervis-perception-and-misperception]: Jervis, Robert. *Perception and Misperception in International Politics*. Princeton, NJ: Princeton University Press, 1976.
 
-1.  Robert Jervis, *Perception and Misperception in International
-    Politics* — On defensive reactions, mirroring, and escalation
-    dynamics under perceived asymmetry.
+[^c7-hirschman-exit-voice-and]: Hirschman, Albert O. *Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States*. Cambridge, MA: Harvard University Press, 1970.
 
-2.  Albert O. Hirschman, *Exit, Voice, and Loyalty* — On how reduced
-    contestability and rising exit pressures narrow deliberative space.
+[^c7-arendt-responsibility-and-judgment]: Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New York: Schocken Books, 2003.
 
-3.  Hannah Arendt, *Responsibility and Judgment* — On the persistence of
-    agency under structural and political pressure.
-
-4.  Thomas Schelling, *The Strategy of Conflict* — On incremental
-    escalation and the logic of strategic interaction under uncertainty.
+[^c7-schelling-the-strategy-of]: Schelling, Thomas C. *The Strategy of Conflict*. Cambridge, MA: Harvard University Press, 1960.

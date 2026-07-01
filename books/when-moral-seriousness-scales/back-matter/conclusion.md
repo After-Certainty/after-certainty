@@ -13,7 +13,7 @@ That stabilization has weakened.
 Shared assumptions fracture more quickly. Reciprocity thins under scale.
 Acceleration rewards speed over deliberation. Structural pressure is not
 imagined; it is real. Distance, asymmetry, and incentive gradients alter
-the operating environment of leadership in durable ways.¹
+the operating environment of leadership in durable ways.[^conclusion-rosa-social-acceleration]
 
 It would be easy to read this thinning as collapse.
 
@@ -23,7 +23,7 @@ After certainty, moral seriousness cannot rely on ambient reinforcement.
 It must operate deliberately under altered conditions. Where reciprocity
 once stabilized restraint automatically, judgment must now sustain it
 consciously. Where norms once constrained power invisibly, limits must
-be designed and renewed.²
+be designed and renewed.[^conclusion-arendt-responsibility-and-judgment]
 
 Scale increases pressure. Asymmetry increases speed. Acceleration
 narrows the space in which thinking feels affordable. But none of these
@@ -32,7 +32,7 @@ forces eliminate judgment. They raise its cost.
 The danger of this moment is not that structure determines everything.
 It is that actors begin to treat structure as destiny. Once pressure is
 mistaken for inevitability, acceleration becomes self-justifying. What
-is merely advantageous begins to feel unavoidable.³
+is merely advantageous begins to feel unavoidable.[^conclusion-jervis-perception-and-misperception]
 
 This book has argued something narrower and more demanding.
 
@@ -46,7 +46,7 @@ Nothing here is inevitable.
 
 Escalation is incremental. Legitimacy transfer is contingent. Incentive
 gradients can be countered with friction. Structural pressure shapes
-choices; it does not remove them.⁴ The absence of certainty does not
+choices; it does not remove them.[^conclusion-selznick-leadership-in-administration] The absence of certainty does not
 absolve responsibility. It increases it.
 
 We stand, then, not after collapse, but after certainty.
@@ -63,18 +63,10 @@ judgment persists under thinning conditions.
 
 “After certainty, responsibility does not diminish. It concentrates.”
 
-## Notes
+[^conclusion-rosa-social-acceleration]: Rosa, Hartmut. *Social Acceleration: A New Theory of Modernity*. Translated by Jonathan Trejo-Mathys. New York: Columbia University Press, 2013.
 
-1.  Hartmut Rosa, *Social Acceleration* — On the structural pressures of
-    speed and temporal compression in modern systems.
+[^conclusion-arendt-responsibility-and-judgment]: Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New York: Schocken Books, 2003.
 
-2.  Hannah Arendt, *Responsibility and Judgment* — On thinking as a
-    deliberate activity in the absence of shared moral foundations.
+[^conclusion-jervis-perception-and-misperception]: Jervis, Robert. *Perception and Misperception in International Politics*. Princeton, NJ: Princeton University Press, 1976.
 
-3.  Robert Jervis, *Perception and Misperception in International
-    Politics* — On how perceived inevitability accelerates escalation
-    dynamics.
-
-4.  Philip Selznick, *Leadership in Administration* — On institutional
-    integrity as a product of sustained judgment rather than structural
-    determinism.
+[^conclusion-selznick-leadership-in-administration]: Selznick, Philip. *Leadership in Administration: A Sociological Interpretation*. New York: Harper & Row, 1957.
