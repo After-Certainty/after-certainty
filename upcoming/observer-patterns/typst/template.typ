@@ -1,8 +1,16 @@
 #import "@preview/cmarker:0.1.8": render
-#import "poetry.typ": poem-block, part-bridge
+#import "poetry.typ": poem-block, part-bridge, prose-block
 
 #let render-markdown(path) = {
   poem-block(render(read(path)))
+}
+
+#let render-prose-markdown(path) = {
+  prose-block(render(read(path)))
+}
+
+#let render-bridge(path) = {
+  render(read(path))
 }
 
 #let book(

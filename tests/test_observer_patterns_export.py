@@ -78,13 +78,23 @@ def test_parse_index_markdown_links_preserves_order() -> None:
 
 def test_manifest_lines_for_bridge_and_poem() -> None:
     lines = manifest_lines_for_units(
-        ["front-matter/copyright.md", "parts/part-i/bridge.md", "parts/part-i/poem.md"],
+        [
+            "front-matter/copyright.md",
+            "parts/part-i/bridge.md",
+            "parts/part-i/poem.md",
+        ],
         header="// test",
     )
     text = "\n".join(lines)
-    assert '#import "template.typ": render-markdown' in text
-    assert '#part-bridge(render-markdown("../parts/part-i/bridge.md"))' in text
+    assert '#import "template.typ": render-markdown, render-prose-markdown, render-bridge' in text
+    assert "#render-prose-markdown" in text
+    assert '#part-bridge(render-bridge("../parts/part-i/bridge.md"))' in text
     assert '#render-markdown("../parts/part-i/poem.md")' in text
+    # Bridges already pagebreak inside part-bridge; no extra pagebreak after bridge.
+    bridge_idx = text.index("part-i/bridge.md")
+    poem_idx = text.index("part-i/poem.md")
+    bridge_section = text[bridge_idx:poem_idx]
+    assert "#pagebreak()" not in bridge_section
     assert "#pagebreak()" in text
 
 

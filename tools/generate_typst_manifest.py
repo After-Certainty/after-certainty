@@ -17,6 +17,21 @@ if str(_SCRIPTS_DIR) not in sys.path:
 from assemble import MD_LINK_RE  # noqa: E402
 
 SKIP_UNITS = frozenset({"front-matter/title-page.md"})
+PROSE_UNITS = frozenset({"front-matter/copyright.md"})
+
+
+def _manifest_render_call(rel: str, path: str) -> str:
+    if rel.endswith("/bridge.md"):
+        return f"#part-bridge(render-bridge({path}))"
+    if rel.endswith("/closing.md") or rel in PROSE_UNITS:
+        return f"#render-prose-markdown({path})"
+    return f"#render-markdown({path})"
+
+
+def _needs_pagebreak_after(rel: str) -> bool:
+    if rel.endswith("/bridge.md") or rel.endswith("/closing.md"):
+        return False
+    return True
 
 
 def parse_index_markdown_links(index_text: str) -> list[str]:
@@ -36,7 +51,7 @@ def manifest_lines_for_units(rel_paths: list[str], *, header: str) -> list[str]:
     lines = [
         header,
         "",
-        '#import "template.typ": render-markdown',
+        '#import "template.typ": render-markdown, render-prose-markdown, render-bridge',
         '#import "poetry.typ": part-bridge',
         "",
     ]
@@ -44,11 +59,8 @@ def manifest_lines_for_units(rel_paths: list[str], *, header: str) -> list[str]:
         if rel in SKIP_UNITS:
             continue
         path = f'"../{rel}"'
-        if rel.endswith("/bridge.md"):
-            lines.append(f"#part-bridge(render-markdown({path}))")
-        else:
-            lines.append(f"#render-markdown({path})")
-        if not rel.endswith("/closing.md"):
+        lines.append(_manifest_render_call(rel, path))
+        if _needs_pagebreak_after(rel):
             lines.append("#pagebreak()")
         lines.append("")
     return lines
