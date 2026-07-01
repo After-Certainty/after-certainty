@@ -31,6 +31,26 @@ CHICAGO: dict[str, str] = {
     "selznick-leadership": "Selznick, Philip. *Leadership in Administration: A Sociological Interpretation*. New York: Harper & Row, 1957.",
     "simon-organizations": "March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley, 1958.",
     "weber-economy": "Weber, Max. *Economy and Society: An Outline of Interpretive Sociology*. Edited by Guenther Roth and Claus Wittich. Berkeley: University of California Press, 1978.",
+    # when-authority-outlives-accountability
+    "hershey-outcome": 'Baron, Jonathan, and John C. Hershey. "Outcome Bias in Decision Evaluation." *Journal of Personality and Social Psychology* 54, no. 4 (1988): 569–579.',
+    "tetlock-expert": "Tetlock, Philip E. *Expert Political Judgment: How Good Is It? How Can We Know?* Princeton, NJ: Princeton University Press, 2005.",
+    "hirschman-the-rhetoric": "Hirschman, Albert O. *The Rhetoric of Reaction: Perversity, Futility, Jeopardy*. Cambridge, MA: Belknap Press of Harvard University Press, 1991.",
+    "ross-the-intuitive": 'Ross, Lee. "The Intuitive Psychologist and His Shortcomings: Distortions in the Attribution Process." In *Advances in Experimental Social Psychology*, edited by Leonard Berkowitz, vol. 10, 173–220. New York: Academic Press, 1977.',
+    "shay-achilles": "Shay, Jonathan. *Achilles in Vietnam: Combat Trauma and the Undoing of Character*. New York: Atheneum, 1994.",
+    "milgram-obedience": "Milgram, Stanley. *Obedience to Authority: An Experimental View*. New York: Harper & Row, 1974.",
+    "zimbardo-the-lucifer": "Zimbardo, Philip. *The Lucifer Effect: Understanding How Good People Turn Evil*. New York: Random House, 2007.",
+    "weber-politics": 'Weber, Max. "Politics as a Vocation." In *From Max Weber: Essays in Sociology*, edited by H. H. Gerth and C. Wright Mills, 77–128. New York: Oxford University Press, 1946.',
+    "leiter-the-truth": "Maslach, Christina, and Michael P. Leiter. *The Truth About Burnout: How Organizations Cause Personal Stress and What to Do About It*. San Francisco: Jossey-Bass, 1997.",
+    "goodhart-problems": 'Goodhart, Charles A. E. "Problems of Monetary Management: The U.K. Experience." In *Papers in Monetary Economics*, vol. 1. Sydney: Reserve Bank of Australia, 1975.',
+    "campbell-assessing": 'Campbell, Donald T. "Assessing the Impact of Planned Social Change." *Evaluation and Program Planning* 2, no. 1 (1979): 67–90.',
+    "fukuyama-trust": "Fukuyama, Francis. *Trust: The Social Virtues and the Creation of Prosperity*. New York: Free Press, 1995.",
+    "arendt-on-violence": "Arendt, Hannah. *On Violence*. New York: Harcourt, Brace & World, 1970.",
+    "michels-political": "Michels, Robert. *Political Parties: A Sociological Study of the Oligarchical Tendencies of Modern Democracy*. Translated by Eden and Cedar Paul. New York: Free Press, 1962.",
+    "brown-dare": "Brown, Brené. *Dare to Lead: Brave Work. Tough Conversations. Whole Hearts.* New York: Random House, 2018.",
+    "bauman-modernity": "Bauman, Zygmunt. *Modernity and the Holocaust*. Ithaca, NY: Cornell University Press, 1989.",
+    "arendt-the-human": "Arendt, Hannah. *The Human Condition*. 2nd ed. Chicago: University of Chicago Press, 1998.; Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New York: Schocken Books, 2003.",
+    "source-trauma": "Substance Abuse and Mental Health Services Administration. *SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach*. HHS Publication No. 14-4884. Rockville, MD: SAMHSA, 2014.",
+    "g-samhsa": "Substance Abuse and Mental Health Services Administration. *SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach*. HHS Publication No. 14-4884. Rockville, MD: SAMHSA, 2014.",
 }
 
 
@@ -54,7 +74,7 @@ def normalize_file(path: Path) -> bool:
             fid = m.group(1)
             body = m.group(2)
             chicago = lookup_chicago(fid)
-            if chicago and chicago not in body:
+            if chicago:
                 if out and out[-1].strip():
                     out.append("")
                 out.append(f"{fid} {chicago}")

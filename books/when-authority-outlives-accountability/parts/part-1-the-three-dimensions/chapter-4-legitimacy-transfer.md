@@ -5,7 +5,7 @@ in symbolic form—through institutions, traditions, doctrines, or
 stories. This persistence is known as **legitimacy transfer**: the
 process by which moral or institutional authority outlives direct
 accountability. Leadership acts in time; legitimacy travels beyond it,
-often without the same constraints.¹
+often without the same constraints.[^c4-weber-economy-and-society]
 
 Legitimacy here does not mean approval or legality. It refers to moral
 permission—the sense that an action or authority no longer requires
@@ -16,7 +16,7 @@ Without it, coordination collapses and collective memory dissolves.
 Norms would need to be renegotiated with each generation; institutions
 could not endure long enough to serve their purposes. Leadership that
 does not transfer legitimacy dies immediately. Leadership that transfers
-legitimacy without constraint carries increasing moral risk.³
+legitimacy without constraint carries increasing moral risk.[^c4-michels-political-parties]
 
 Max Weber described this process as the *routinization of charisma*.
 What begins as personal authority—earned through example, insight, or
@@ -68,7 +68,7 @@ Years later, the institution faces conditions the founder never
 encountered. Scale has increased. Distance has grown. Decisions now
 affect people the founder never met. Yet the legitimacy accumulated
 during the early years is still drawn upon to authorize present
-actions.³
+actions.[^c4-michels-political-parties]
 
 When harm occurs, it is explained as continuity. This is how we have
 always done things. When concerns are raised, they are framed as
@@ -78,7 +78,7 @@ goodness becomes a shield against present scrutiny.
 No one is acting in bad faith. Leaders sincerely believe they are
 preserving something valuable. But the moral relationship between
 authority and consequence has been severed. The institution comes to be
-governed by borrowed legitimacy rather than renewed responsibility.²
+governed by borrowed legitimacy rather than renewed responsibility.[^c4-arendt-between-past-and]
 
 Eventually, critics point to harms the founder never authorized.
 Defenders respond by pointing back to the founder anyway. The debate
@@ -105,19 +105,19 @@ In **procedural legitimacy**, authority is embedded in process. Roles
 persist, but power is constrained by rules, contestation, and
 reversibility. Legitimacy depends less on who occupies the role and more
 on how the role is exercised. This form enables continuity while
-preserving accountability.²
+preserving accountability.[^c4-arendt-between-past-and]
 
 In **office-based legitimacy**, authority attaches to position rather
 than behavior. The office inherits permission regardless of who occupies
 it. Moral authority becomes operational power. This form enables
 coordination at scale, but it risks severing authority from moral
-restraint.³
+restraint.[^c4-michels-political-parties]
 
 In **sacralized legitimacy**, authority becomes unquestionable. The
 institution or role is treated as morally exempt. Challenge is framed as
 betrayal rather than critique. This is among the most dangerous form of
 legitimacy transfer, because it allows harm to be justified by lineage
-rather than reason.²<sup>,</sup>³
+rather than reason.[^c4-arendt-between-past-and]<sup>,</sup>[^c4-michels-political-parties]
 
 Sacralization does not require religion. It occurs whenever authority is
 treated as morally exempt—when questioning it becomes a violation rather
@@ -127,26 +127,26 @@ Most long-term harm enters not through original leadership, but through
 unbounded legitimacy transfer. Institutions act “in the name of”
 founders long after context has changed. Moral authority is wielded by
 people who did not earn it and cannot be corrected by the example that
-produced it. Accountability decays as legitimacy accumulates.³
+produced it. Accountability decays as legitimacy accumulates.[^c4-michels-political-parties]
 
 Hannah Arendt warned that authority detached from responsibility does
 not simply weaken—it becomes destructive. When obedience replaces
 judgment and inheritance replaces moral agency, harm no longer requires
-intent to proceed. It only requires permission.²
+intent to proceed. It only requires permission.[^c4-arendt-between-past-and]
 
 Importantly, leaders are not powerless in the face of this risk. Some
 attempt to constrain legitimacy deliberately. They refuse succession.
 They decentralize authority. They emphasize example over enforcement.
 They design institutions that allow reinterpretation, dissent, and
 decay. These choices do not guarantee moral continuity, but they reduce
-the risk that authority will outlive accountability.¹<sup>,</sup>²
+the risk that authority will outlive accountability.[^c4-weber-economy-and-society]<sup>,</sup>[^c4-arendt-between-past-and]
 
 This is where legitimacy reconnects to moral posture. Leaders who absorb
 harm are more likely to limit the authority they pass on. Leaders who
 instrumentalize harm are more likely to sacralize it. The future danger
 of a leader’s legacy depends less on their intent than on whether their
 authority was made **contestable, bounded, and revisable in
-practice**.²<sup>,</sup>³
+practice**.[^c4-arendt-between-past-and]<sup>,</sup>[^c4-michels-political-parties]
 
 Legitimacy transfer explains why moral evaluation cannot end with a
 leader’s lifetime. It also explains why downstream harm does not
@@ -156,3 +156,9 @@ not in the example, but in the inheritance.
 
 > **“Moral goodness does not prevent future harm if legitimacy is
 > allowed to outlive accountability.”**
+
+[^c4-weber-economy-and-society]: Weber, Max. *Economy and Society: An Outline of Interpretive Sociology*. Edited by Guenther Roth and Claus Wittich. Berkeley: University of California Press, 1978.
+
+[^c4-arendt-between-past-and]: Arendt, Hannah. *Between Past and Future*. New York: Penguin Books, 2006.
+
+[^c4-michels-political-parties]: Michels, Robert. *Political Parties: A Sociological Study of the Oligarchical Tendencies of Modern Democracy*. Translated by Eden and Cedar Paul. New York: Free Press, 1962.

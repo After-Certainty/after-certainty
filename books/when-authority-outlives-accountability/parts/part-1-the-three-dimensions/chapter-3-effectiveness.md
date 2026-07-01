@@ -15,7 +15,7 @@ Effectiveness measures scale, durability, and coordination. A leader may
 be effective by persuasion or by force, through trust or through fear.
 Organizational research consistently shows that fear-based effectiveness
 produces rapid compliance but brittle systems. Psychological safety, by
-contrast, slows visible progress while increasing long-term resilience.¹
+contrast, slows visible progress while increasing long-term resilience.[^c3-edmondson-the-fearless-organization]
 Effectiveness amplifies the moral posture that accompanies it; it does
 not correct or refine it.
 
@@ -114,7 +114,7 @@ leaders are pressured to act decisively and eliminate friction.
 Effectiveness under crisis often depends on compliance. Yet studies of
 post-crisis governance show that many long-term harms—entrenched power,
 normalized coercion, degraded trust—emerge not from inaction, but from
-effectiveness pursued without restraint.⁶
+effectiveness pursued without restraint.[^c3-arendt-on-violence-distinguishing]
 
 Effectiveness also operates across competing time horizons. Some actions
 produce immediate change that decays quickly; others appear to do little
@@ -122,7 +122,7 @@ until their influence accumulates. Leaders who invest in norms—fairness,
 clarity, mutual accountability—often see little immediate payoff. Their
 effectiveness is deferred, dependent on uptake rather than enforcement.
 Research on organizational culture shows that such norms persist after
-authority fades, even if they are never credited to their originators.⁷
+authority fades, even if they are never credited to their originators.[^c3-schein-organizational-culture-and]
 
 Effectiveness, then, is not a moral achievement in itself. It is a
 multiplier. It magnifies whatever posture toward harm accompanies it,
@@ -130,3 +130,9 @@ carrying that posture outward through systems and forward in time.
 Mistaking effectiveness for virtue confuses impact with justification.
 
 > **“Some leaders plant norms; others harvest outcomes.”**
+
+[^c3-edmondson-the-fearless-organization]: Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.
+
+[^c3-arendt-on-violence-distinguishing]: Arendt, Hannah. *On Violence*. New York: Harcourt, Brace & World, 1970.
+
+[^c3-schein-organizational-culture-and]: Schein, Edgar H. *Organizational Culture and Leadership*. 5th ed. Hoboken, NJ: Wiley, 2017.

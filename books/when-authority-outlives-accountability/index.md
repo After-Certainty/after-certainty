@@ -39,7 +39,7 @@ Author: Kevin Steffensen
 - [Afterword](back-matter/afterword.md)
 - [Appendix A](back-matter/appendix-a.md)
 - [Acknowledgements](back-matter/acknowledgements.md)
-- [Notes](back-matter/notes.md)
+- [Bibliography](back-matter/bibliography.md)
 
 ## Related books
 

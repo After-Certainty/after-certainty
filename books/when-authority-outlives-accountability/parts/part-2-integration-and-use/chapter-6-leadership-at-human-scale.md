@@ -11,13 +11,13 @@ In large systems, leaders can displace harm into distance: into policy,
 process, metrics, or time. In small systems, harm lands somewhere
 specific. Someone loses sleep. Someone carries anxiety. Someone absorbs
 emotional cost so that others do not. Leadership here is less about
-control and more about where damage settles.¹
+control and more about where damage settles.[^c6-bowen-family-therapy-in]
 
 At human scale, leadership rarely eliminates harm. Illness, conflict,
 scarcity, and loss still occur. The moral work of leadership is not to
 prevent damage entirely, but to prevent it from spreading unchecked or
 becoming identity-forming over time. Leadership at this scale changes
-how harm is held, not whether it exists.²
+how harm is held, not whether it exists.[^c6-source-trauma-informed-care]
 
 Human-scale leadership is not morally cleaner—it is morally clearer.
 Harm is not reduced; it is harder to hide.
@@ -53,7 +53,7 @@ availability of rescue rather than the possibility of change.
 The cost accumulates inward, even as harm appears to be managed.
 
 Resentment builds alongside guilt. Support becomes surveillance. Care
-becomes leverage. The leader feels indispensable—and trapped.¹
+becomes leverage. The leader feels indispensable—and trapped.[^c6-bowen-family-therapy-in]
 
 Eventually, they stop.
 
@@ -92,20 +92,20 @@ harm. A leader who sets boundaries against destructive behavior may be
 perceived as abandoning the very people they are trying to protect. A
 parent who sets limits may be accused of withholding love. Yet
 boundaries prevent harm from becoming diffuse, unspoken, and
-normalized.³
+normalized.[^c6-brown-dare-to-lead]
 
 The same dynamic appears in caregiving networks. When responsibility
 collapses onto the most conscientious person, burnout follows and care
 quality deteriorates. Leadership in this context does not mean doing
 everything. It means making responsibility visible and shared, even when
-that redistribution creates discomfort.¹
+that redistribution creates discomfort.[^c6-bowen-family-therapy-in]
 
 Human-scale leadership also reframes effectiveness. Success here is
 rarely dramatic. It appears as stability rather than transformation, as
 endurance rather than resolution. A family that continues to function
 amid strain, a team that remains honest during conflict, a relationship
 that survives disappointment without coercion—these are not outcomes
-that generate praise, but they are signs of moral effectiveness.²
+that generate praise, but they are signs of moral effectiveness.[^c6-source-trauma-informed-care]
 
 Because harm is not eliminated, leadership at this scale is frequently
 misrecognized. Those who absorb quietly may be taken for granted. Those
@@ -117,7 +117,7 @@ rarely leaves visible markers.
 Leadership at human scale resists heroism. There is little room for
 moral theater when consequences are personal. Appeals to authority ring
 hollow. Control backfires quickly. What remains are presence,
-consistency, and restraint.⁴
+consistency, and restraint.[^c6-bauman-modernity-and-the]
 
 This is where the lens’ dimensions converge most clearly. Moral posture
 toward harm is unavoidable. Effectiveness is measured in endurance.
@@ -141,3 +141,11 @@ without control.
 
 > **“You cannot stop all harm.\
 > You can stop harm from becoming identity.”**
+
+[^c6-bowen-family-therapy-in]: Bowen, Murray. *Family Therapy in Clinical Practice*. New York: Jason Aronson, 1978.
+
+[^c6-source-trauma-informed-care]: Substance Abuse and Mental Health Services Administration. *SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach*. HHS Publication No. 14-4884. Rockville, MD: SAMHSA, 2014.
+
+[^c6-brown-dare-to-lead]: Brown, Brené. *Dare to Lead: Brave Work. Tough Conversations. Whole Hearts.* New York: Random House, 2018.
+
+[^c6-bauman-modernity-and-the]: Bauman, Zygmunt. *Modernity and the Holocaust*. Ithaca, NY: Cornell University Press, 1989.
