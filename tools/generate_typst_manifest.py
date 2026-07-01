@@ -65,7 +65,9 @@ def write_typst_manifest(
     typst_dir = book_dir / "typst"
     typst_dir.mkdir(parents=True, exist_ok=True)
     out_path = typst_dir / "manifest-parts.typ"
-    out_path.write_text("\n".join(manifest_lines_for_units(rel_paths, header=header)), encoding="utf-8")
+    out_path.write_text(
+        "\n".join(manifest_lines_for_units(rel_paths, header=header)), encoding="utf-8"
+    )
     return out_path
 
 

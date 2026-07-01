@@ -216,7 +216,8 @@ def main() -> None:
     books = [
         b
         for b in books
-        if requested_formats & set(spec_formats(load_spec_for_rel(repo, b.relative_to(repo).as_posix())))
+        if requested_formats
+        & set(spec_formats(load_spec_for_rel(repo, b.relative_to(repo).as_posix())))
     ]
 
     if args.dirs:

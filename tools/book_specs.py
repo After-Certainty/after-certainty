@@ -61,9 +61,7 @@ def discover_upcoming_spec_paths(repo: Path) -> list[Path]:
         return []
     paths: list[Path] = []
     for name in (UPCOMING_SPEC_FILE_NAME, SPEC_FILE_NAME):
-        paths.extend(
-            p.resolve() for p in upcoming_root.rglob(name) if ".git" not in p.parts
-        )
+        paths.extend(p.resolve() for p in upcoming_root.rglob(name) if ".git" not in p.parts)
     return sorted(set(paths))
 
 

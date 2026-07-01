@@ -56,14 +56,10 @@ def ensure_typst_version(typst_bin: str, minimum: str) -> None:
         check=False,
     )
     if result.returncode != 0:
-        raise SystemExit(
-            f"Typst not found ({typst_bin}). Install with: make install-typst"
-        )
+        raise SystemExit(f"Typst not found ({typst_bin}). Install with: make install-typst")
     current = result.stdout.strip() or result.stderr.strip()
     if not version_at_least(current, minimum):
-        raise SystemExit(
-            f"Typst {current} is too old; need >= {minimum} (run: make install-typst)"
-        )
+        raise SystemExit(f"Typst {current} is too old; need >= {minimum} (run: make install-typst)")
 
 
 def main() -> None:
