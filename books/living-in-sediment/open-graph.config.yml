@@ -1,0 +1,21 @@
+# Tuning for tools/generate_open_graph.py — Living in Sediment
+# Revisit bg_crop after book-cover.png is in place (crop the stacked-layer illustration).
+bg_crop: [120, 380, 900, 1200]
+tint: [22, 32, 58, 140]
+accent_color: [196, 106, 59]
+title_lines:
+  - text: Living
+    color: white
+  - text: In
+    color: accent
+  - text: Sediment
+    color: white
+subtitle_lines:
+  - HOW STRUCTURES OUTLIVE
+  - THEIR REASONS
+subtitle_color: accent
+font_title: 46
+font_sub: 17
+title_start_y: 78
+title_line_gap: 54
+rule_width: 360
