@@ -18,7 +18,7 @@ No single actor sees the whole transfer in real time, so each local
 improvement remains defensible.
 
 This is how systems become more efficient and less adaptive at the same
-time.¹
+time.[^c6-source-donella-h-meadows]
 
 Learning-oriented systems refuse to confuse local optimization with
 global learning.
@@ -68,7 +68,7 @@ That means asking of every performance frame:
 Without this discipline, organizations drift into a stable pattern:
 internal gains financed by externalized degradation.
 
-The system appears to improve because the bill is paid elsewhere.³
+The system appears to improve because the bill is paid elsewhere.[^c6-source-karl-e-weick]
 
 ### Delays, Coupling, and False Causality
 
@@ -89,7 +89,7 @@ Under either condition, teams revert to proximal signals and short
 horizons because those are the only signals that feel actionable.
 
 This is understandable. It is also how system-level harm becomes normal:
-it arrives either too quickly to interpret or too late to own.⁴
+it arrives either too quickly to interpret or too late to own.[^c6-source-charles-perrow-normal]
 
 ### Why Metrics Drift from Meaning
 
@@ -111,7 +111,7 @@ They counter this by repeatedly re-linking measures to the
 human and operational outcomes they were meant to track.
 
 If that relinking stops, measurement discipline can become a sophisticated
-form of self-deception.⁵
+form of self-deception.[^c6-source-jerry-z-muller]
 
 ### The Hidden Queue of Consequence
 
@@ -131,7 +131,7 @@ What looked like resilience was often debt.
 
 Serious systems learn to treat queue growth as a first-order signal, not
 a side note. If unresolved consequence is compounding, performance may be
-improving in appearance while adaptability is deteriorating in fact.⁶
+improving in appearance while adaptability is deteriorating in fact.[^c6-source-sidney-dekker-drift]
 
 ### Cross-Scale Learning vs. Local Heroics
 
@@ -155,7 +155,7 @@ cross-boundary friction is being privately absorbed? What “high
 performance” depends on unsustainable discretionary effort?
 
 If those questions are not institutionalized, organizations will keep
-rewarding the very adaptations that prevent system-level correction.⁷
+rewarding the very adaptations that prevent system-level correction.[^c6-source-peter-m-senge]
 
 ### Seeing Through a Multi-Outcome Lens
 
@@ -178,7 +178,7 @@ owned rather than displaced.
 
 Seeing the whole does not mean controlling the whole. It means refusing
 to call an action “successful” when its gains depend on unacknowledged
-degradation elsewhere.⁸
+degradation elsewhere.[^c6-forsgren-jez-humble-and]
 
 ### The Discipline of System Sight
 
@@ -200,20 +200,15 @@ Premature closure is how local stories become system myths.
 Serious systems keep interpretation open until downstream reality has had
 time to answer.
 
-## End Notes
+[^c6-source-donella-h-meadows]: Meadows, Donella H. *Thinking in Systems: A Primer*. White River Junction, VT: Chelsea Green Publishing, 2008.
+[^c6-source-karl-e-weick]: Weick, Karl E., and Kathleen M. Sutcliffe. *Managing the Unexpected: Sustained Performance in a Complex World*. 3rd ed. Hoboken, NJ: Jossey-Bass, 2015.
 
-1.  Donella H. Meadows. Thinking in Systems. 2008. Chelsea Green Publishing.
+[^c6-source-charles-perrow-normal]: Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books, 1984.
 
-2.  James C. Scott. Seeing Like a State. 1998. Yale University Press.
+[^c6-source-jerry-z-muller]: Muller, Jerry Z. *The Tyranny of Metrics*. Princeton, NJ: Princeton University Press, 2018.
 
-3.  Karl E. Weick and Kathleen M. Sutcliffe. Managing the Unexpected. 2015. Jossey-Bass.
+[^c6-source-sidney-dekker-drift]: Dekker, Sidney. *Drift into Failure: From Hunting Broken Components to Understanding Complex Systems*. Farnham, UK: Ashgate, 2011.
 
-4.  Charles Perrow. Normal Accidents. 1984. Princeton University Press.
+[^c6-source-peter-m-senge]: Senge, Peter M. *The Fifth Discipline: The Art and Practice of the Learning Organization*. New York: Doubleday/Currency, 1990.
 
-5.  Jerry Z. Muller. The Tyranny of Metrics. 2018. Princeton University Press.
-
-6.  Sidney Dekker. Drift into Failure. 2011. Ashgate.
-
-7.  Peter M. Senge. The Fifth Discipline. 1990. Doubleday/Currency.
-
-8.  Nicole Forsgren, Jez Humble, and Gene Kim. Accelerate. 2018. IT Revolution Press.
+[^c6-forsgren-jez-humble-and]: Forsgren, Nicole, Jez Humble, and Gene Kim. *Accelerate: The Science of Lean Software and DevOps*. Portland, OR: IT Revolution Press, 2018.

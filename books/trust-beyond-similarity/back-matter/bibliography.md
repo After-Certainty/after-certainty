@@ -1,4 +1,4 @@
-# Bibliography
+# **Bibliography**
 
 This book draws on sociology, political science, philosophy, psychology, and organizational theory—not the management trust literature. Works cited in the notes or informing the argument appear below in alphabetical order by author.
 

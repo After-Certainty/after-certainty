@@ -15,7 +15,7 @@ This is the beginning of myth.
 
 In this chapter, myth does not mean fiction. It means a once-useful
 practice that has become insulated from the conditions that made it
-truthful.¹
+truthful.[^c12-source-peter-l-berger]
 
 ### The Success Trap
 
@@ -35,7 +35,7 @@ conditions starts to feel like disloyalty.
 Success then narrows inquiry.
 
 The method that once enabled learning now defines what counts as learning
-in advance.²
+in advance.[^c12-source-jim-collins-good]
 
 ### From Heuristic to Doctrine
 
@@ -61,7 +61,7 @@ The first posture preserves adaptation.
 The second preserves identity.
 
 Once identity dominates, method fidelity can increase while real-world
-fitness declines.³
+fitness declines.[^c12-source-donald-a-schon]
 
 ### The Institutional Incentive to Freeze Meaning
 
@@ -83,7 +83,7 @@ the organization becomes highly legible in method language while losing
 the underlying behavior the language was meant to protect.
 
 The map becomes auditable.
-The territory becomes fragile.⁴
+The territory becomes fragile.[^c12-source-james-c-scott]
 
 ### Ritual Substitution
 
@@ -102,7 +102,7 @@ The key diagnostic question is:
 What changed in operating behavior because this ritual happened?
 
 If the answer is unclear or consistently local, ritual has replaced
-learning.⁵
+learning.[^c12-source-sidney-dekker-drift]
 
 ### Brand Capture
 
@@ -122,7 +122,7 @@ spoken without threatening identity, the discipline has already crossed
 into mythic territory.
 
 A method that cannot admit where it fails will eventually fail where it
-cannot admit.⁶
+cannot admit.[^c12-source-karl-popper-the]
 
 ### Method Monoculture
 
@@ -142,7 +142,7 @@ using the same frame, error appears as local variance rather than frame
 failure.
 
 This is why method diversity is not indecision.
-It is risk distribution for interpretation.⁷
+It is risk distribution for interpretation.[^c12-source-charles-perrow-normal]
 
 ### The Authority Link
 
@@ -162,7 +162,7 @@ Feedback that challenges either is interpreted as attack on both.
 That loop is deeply resistant to evidence.
 
 Breaking it requires governance structures where method evaluation is
-separable from status preservation.⁸
+separable from status preservation.[^c12-source-philip-selznick-leadership]
 
 ### Keeping Methods Alive
 
@@ -182,24 +182,22 @@ They return method to its proper role: a provisional tool for maintaining
 corrigibility under uncertainty.
 
 Methods are alive when they can be changed without institutional panic.
-They are myths when change feels like betrayal.⁹
+They are myths when change feels like betrayal.[^c12-source-peter-m-senge]
 
-## End Notes
+[^c12-source-peter-l-berger]: Berger, Peter L., and Thomas Luckmann. *The Social Construction of Reality: A Treatise in the Sociology of Knowledge*. New York: Anchor Books, 1966.
 
-1.  Peter L. Berger and Thomas Luckmann. The Social Construction of Reality. 1966. Anchor Books.
+[^c12-source-jim-collins-good]: Collins, Jim. *Good to Great: Why Some Companies Make the Leap... and Others Don't*. New York: HarperBusiness, 2001.
 
-2.  Jim Collins. Good to Great. 2001. HarperBusiness.
+[^c12-source-donald-a-schon]: Schön, Donald A. *The Reflective Practitioner: How Professionals Think in Action*. New York: Basic Books, 1983.
 
-3.  Donald A. Schon. The Reflective Practitioner. 1983. Basic Books.
+[^c12-source-james-c-scott]: Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press, 1998.
 
-4.  James C. Scott. Seeing Like a State. 1998. Yale University Press.
+[^c12-source-sidney-dekker-drift]: Dekker, Sidney. *Drift into Failure: From Hunting Broken Components to Understanding Complex Systems*. Farnham, UK: Ashgate, 2011.
 
-5.  Sidney Dekker. Drift into Failure. 2011. Ashgate.
+[^c12-source-karl-popper-the]: Popper, Karl R. *The Logic of Scientific Discovery*. London: Hutchinson, 1959.
 
-6.  Karl Popper. The Logic of Scientific Discovery. 1959. Hutchinson.
+[^c12-source-charles-perrow-normal]: Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books, 1984.
 
-7.  Charles Perrow. Normal Accidents. 1984. Princeton University Press.
+[^c12-source-philip-selznick-leadership]: Selznick, Philip. *Leadership in Administration: A Sociological Interpretation*. New York: Harper & Row, 1957.
 
-8.  Philip Selznick. Leadership in Administration. 1957. Harper & Row.
-
-9.  Peter M. Senge. The Fifth Discipline. 1990. Doubleday/Currency.
+[^c12-source-peter-m-senge]: Senge, Peter M. *The Fifth Discipline: The Art and Practice of the Learning Organization*. New York: Doubleday/Currency, 1990.

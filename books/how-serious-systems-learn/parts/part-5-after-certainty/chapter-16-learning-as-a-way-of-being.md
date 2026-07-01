@@ -18,7 +18,7 @@ is to remain alive after certainty fails?
 The answer of this book is simple and difficult.
 
 Seriousness is not a toolkit.
-It is a way of being with uncertainty in public.¹
+It is a way of being with uncertainty in public.[^c16-source-hannah-arendt-responsibility]
 
 ### From Technique to Orientation
 
@@ -40,7 +40,7 @@ It keeps asking:
 - Who pays if we are wrong?
 
 These questions are not solved once.
-They are re-entered as conditions change.²
+They are re-entered as conditions change.[^c16-source-donald-a-schon]
 
 ### The Posture of Correctable Seriousness
 
@@ -61,7 +61,7 @@ concerned not only with intent but with how consequence is distributed
 through system design.
 
 This posture does not make institutions flawless.
-It keeps them from becoming confidently unteachable.³
+It keeps them from becoming confidently unteachable.[^c16-source-peter-m-senge]
 
 ### Living Without Epistemic Innocence
 
@@ -79,7 +79,7 @@ knowledge, every structure can externalize harm, and every success can
 conceal fragility unless correction remains active.
 
 This is not nihilism.
-It is accountability without fantasy.⁴
+It is accountability without fantasy.[^c16-thinking-fast-and-slow]
 
 ### The Ethics of Staying Interruptible
 
@@ -99,7 +99,7 @@ Staying interruptible requires ongoing sacrifice:
 - and tolerating revisions that unsettle authority image.
 
 These are expensive choices.
-They are also the price of remaining morally serious at scale.⁵
+They are also the price of remaining morally serious at scale.[^c16-source-karl-e-weick]
 
 ### Beyond Outcome Morality
 
@@ -139,7 +139,7 @@ Do they refuse to outsource downside to the least powerful actors?
 These patterns are observable.
 
 When sustained, they produce trust deeper than confidence performance.
-When absent, no amount of rhetoric can substitute.⁷
+When absent, no amount of rhetoric can substitute.[^c16-source-philip-selznick-leadership]
 
 ### The Work That Never Finishes
 
@@ -158,7 +158,7 @@ So the task is recursive:
 - keep action bounded by what can still be learned.
 
 This recursion is not a bug in serious practice.
-It is the practice.⁸
+It is the practice.[^c16-source-sidney-dekker-drift]
 
 ### What This Book Has Tried to Do
 
@@ -195,20 +195,15 @@ It is the ongoing form that seriousness takes when mastery is unavailable.
 
 That is what remains.
 
-## End Notes
+[^c16-source-hannah-arendt-responsibility]: Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New York: Schocken Books, 2003.
 
-1.  Hannah Arendt. Responsibility and Judgment. 2003. Schocken Books.
+[^c16-source-donald-a-schon]: Schön, Donald A. *The Reflective Practitioner: How Professionals Think in Action*. New York: Basic Books, 1983.
 
-2.  Donald A. Schon. The Reflective Practitioner. 1983. Basic Books.
+[^c16-source-peter-m-senge]: Senge, Peter M. *The Fifth Discipline: The Art and Practice of the Learning Organization*. New York: Doubleday/Currency, 1990.
 
-3.  Peter M. Senge. The Fifth Discipline. 1990. Doubleday/Currency.
+[^c16-thinking-fast-and-slow]: Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011.
 
-4.  Daniel Kahneman. Thinking, Fast and Slow. 2011. Farrar, Straus and Giroux.
+[^c16-source-karl-e-weick]: Weick, Karl E., and Kathleen M. Sutcliffe. *Managing the Unexpected: Sustained Performance in a Complex World*. 3rd ed. Hoboken, NJ: Jossey-Bass, 2015.
+[^c16-source-philip-selznick-leadership]: Selznick, Philip. *Leadership in Administration: A Sociological Interpretation*. New York: Harper & Row, 1957.
 
-5.  Karl E. Weick and Kathleen M. Sutcliffe. Managing the Unexpected. 2015. Jossey-Bass.
-
-6.  Nassim Nicholas Taleb. Antifragile. 2012. Random House.
-
-7.  Philip Selznick. Leadership in Administration. 1957. Harper & Row.
-
-8.  Sidney Dekker. Drift into Failure. 2011. Ashgate.
+[^c16-source-sidney-dekker-drift]: Dekker, Sidney. *Drift into Failure: From Hunting Broken Components to Understanding Complex Systems*. Farnham, UK: Ashgate, 2011.

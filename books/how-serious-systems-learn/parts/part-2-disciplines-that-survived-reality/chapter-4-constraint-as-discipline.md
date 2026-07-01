@@ -21,7 +21,7 @@ Constraint, in this view, is not prohibition. It is design.
 It is the deliberate shaping of where action is permitted, where it must
 pause, and where it must justify itself before proceeding. Done well,
 constraint does not suppress learning. It protects the conditions under
-which learning can still alter trajectory.¹
+which learning can still alter trajectory.[^c4-source-karl-e-weick]
 
 ### Constraint Is a Learning Structure
 
@@ -40,7 +40,7 @@ This is not moral idealism. It is operational realism.
 The question is never whether a system will pay for error.
 
 The question is whether it pays early through disciplined constraint, or
-later through concentrated failure.²
+later through concentrated failure.[^c4-source-charles-perrow-normal]
 
 ### The False Binary — Freedom vs. Control
 
@@ -67,7 +67,7 @@ Too little constraint, and drift accelerates.
 Too much constraint, and adaptation freezes.
 
 The work is not to choose one side. It is to continuously tune the
-boundary where judgment remains both empowered and accountable.³
+boundary where judgment remains both empowered and accountable.[^c4-source-peter-m-senge]
 
 ### Constraint as Blast-Radius Management
 
@@ -109,7 +109,7 @@ short-term pressure. If boundaries are institutionally defined and
 reciprocally enforced, the burden becomes shareable.
 
 Constraint survives when it is normalized as part of legitimate action,
-not interpreted as exceptional caution by weaker actors.⁵
+not interpreted as exceptional caution by weaker actors.[^c4-source-dietrich-d-rner]
 
 ### Constraint and the Legitimacy of “No”
 
@@ -130,7 +130,7 @@ decisions without reputational penalty.
 That authority is costly. It slows throughput. It can be misused.
 
 But the alternative is worse: a system in which “no” is always possible
-in theory and rarely survivable in practice.⁶
+in theory and rarely survivable in practice.[^c4-source-amy-c-edmondson]
 
 ### The Drift from Discipline to Dogma
 
@@ -154,7 +154,7 @@ function:
 If not, the boundary is no longer discipline; it is residue.
 
 Constraint that cannot justify itself under changing conditions is simply
-another form of incorrigibility.⁷
+another form of incorrigibility.[^c4-source-james-c-scott]
 
 ### Constraint in High-Reliability Practice
 
@@ -172,7 +172,7 @@ high.
 The broader lesson is transferable even when contexts differ.
 
 Serious systems become trustworthy not when they remove constraint, but
-when they embed constraints that remain usable under pressure.⁸
+when they embed constraints that remain usable under pressure.[^c4-source-atul-gawande-the]
 
 ### What Constraint Makes Possible
 
@@ -193,20 +193,15 @@ These are not abstract virtues. They are mechanics of survivable error.
 In this sense, constraint is not the enemy of disciplined action. It is
 its architecture.
 
-## End Notes
+[^c4-source-karl-e-weick]: Weick, Karl E., and Kathleen M. Sutcliffe. *Managing the Unexpected: Sustained Performance in a Complex World*. 3rd ed. Hoboken, NJ: Jossey-Bass, 2015.
 
-1.  Karl E. Weick and Kathleen M. Sutcliffe. Managing the Unexpected. 2015. Jossey-Bass.
+[^c4-source-charles-perrow-normal]: Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books, 1984.
 
-2.  Charles Perrow. Normal Accidents. 1984. Princeton University Press.
+[^c4-source-peter-m-senge]: Senge, Peter M. *The Fifth Discipline: The Art and Practice of the Learning Organization*. New York: Doubleday/Currency, 1990.
+[^c4-source-dietrich-d-rner]: Dörner, Dietrich. *The Logic of Failure: Recognizing and Avoiding Error in Complex Situations*. New York: Basic Books, 1996.
 
-3.  Peter M. Senge. The Fifth Discipline. 1990. Doubleday/Currency.
+[^c4-source-amy-c-edmondson]: Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.
 
-4.  Nancy Leveson. Engineering a Safer World. 2011. MIT Press.
+[^c4-source-james-c-scott]: Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press, 1998.
 
-5.  Dietrich Dörner. The Logic of Failure. 1996. Basic Books.
-
-6.  Amy C. Edmondson. The Fearless Organization. 2018. Wiley.
-
-7.  James C. Scott. Seeing Like a State. 1998. Yale University Press.
-
-8.  Atul Gawande. The Checklist Manifesto. 2009. Metropolitan Books.
+[^c4-source-atul-gawande-the]: Gawande, Atul. *The Checklist Manifesto: How to Get Things Right*. New York: Metropolitan Books, 2009.

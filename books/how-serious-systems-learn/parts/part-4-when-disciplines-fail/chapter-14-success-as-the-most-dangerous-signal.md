@@ -13,7 +13,7 @@ confidence that existing methods are sufficient. The better results look,
 the harder it becomes to argue for friction, redundancy, or correction
 capacity that appears unnecessary.
 
-Success then becomes a risk signal misread as safety signal.¹
+Success then becomes a risk signal misread as safety signal.[^c14-source-sidney-dekker-drift]
 
 This chapter examines that misread:
 how systems drift into fragility through positive performance, and why
@@ -39,7 +39,7 @@ Success usually confirms that the system achieved results under specific
 conditions. Institutions often interpret it as confirmation that the
 system is robust across changing conditions.
 
-That extrapolation is where fragility begins.²
+That extrapolation is where fragility begins.[^c14-source-phil-rosenzweig-the]
 
 ### How Success Reduces Corrective Appetite
 
@@ -62,7 +62,7 @@ Over time, systems remove what appears nonessential:
 - and uncertainty communication discipline.
 
 The result is not immediate failure.
-It is reduced error absorbability precisely when confidence is highest.³
+It is reduced error absorbability precisely when confidence is highest.[^c14-source-charles-perrow-normal]
 
 ### Success and Narrative Lock-In
 
@@ -84,7 +84,7 @@ It requires only the ordinary human tendency to protect meaning that has
 already paid off.
 
 Success thus becomes epistemically sticky: it resists updating long after
-conditions have shifted.⁴
+conditions have shifted.[^c14-source-karl-e-weick]
 
 ### Optimization and Hidden Debt
 
@@ -106,7 +106,7 @@ Nothing sudden occurred.
 
 The system spent adaptive capacity in exchange for short-term
 consistency, then discovered too late that consistency had been purchased
-on unstable terms.⁵
+on unstable terms.[^c14-source-nassim-nicholas-taleb]
 
 ### The Reward Structure of Overconfidence
 
@@ -127,7 +127,7 @@ visible certainty, compressed ambiguity, and decreasing tolerance for
 disconfirming evidence.
 
 Performance may remain strong for a period.
-Learning quality usually declines first.⁶
+Learning quality usually declines first.[^c14-thinking-fast-and-slow]
 
 ### Success Blindness at Boundaries
 
@@ -150,7 +150,7 @@ success cycles. Yet boundary stress is often where future failure
 incubates.
 
 High-reliability institutions therefore audit interfaces most aggressively when core
-performance looks best.⁷
+performance looks best.[^c14-source-peter-m-senge]
 
 ### The Discipline of Counter-Success Review
 
@@ -172,7 +172,7 @@ Counter-success review is not pessimism.
 It is anti-complacency design.
 
 Its purpose is to preserve correction before adverse outcomes force
-costly rediscovery.⁸
+costly rediscovery.[^c14-weick-managing-unexpected]
 
 ### Treating Success as a Phase, Not a Verdict
 
@@ -193,7 +193,7 @@ It is to prevent success from converting uncertainty back into certainty
 theater.
 
 When success is treated as verdict, systems become brittle.
-When success is treated as phase, systems remain teachable.⁹
+When success is treated as phase, systems remain teachable.[^c14-source-nancy-leveson-engineering]
 
 ### Transition
 
@@ -209,22 +209,20 @@ failure patterns are understood but not magically removed?
 
 Chapter 15 begins to answer those questions in operational terms.
 
-## End Notes
+[^c14-source-sidney-dekker-drift]: Dekker, Sidney. *Drift into Failure: From Hunting Broken Components to Understanding Complex Systems*. Farnham, UK: Ashgate, 2011.
 
-1.  Sidney Dekker. Drift into Failure. 2011. Ashgate.
+[^c14-source-phil-rosenzweig-the]: Rosenzweig, Phil. *The Halo Effect: ... and the Eight Other Business Delusions That Deceive Managers*. New York: Free Press, 2007.
 
-2.  Phil Rosenzweig. The Halo Effect. 2007. Free Press.
+[^c14-source-charles-perrow-normal]: Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books, 1984.
 
-3.  Charles Perrow. Normal Accidents. 1984. Princeton University Press.
+[^c14-source-karl-e-weick]: Weick, Karl E. *Sensemaking in Organizations*. Thousand Oaks, CA: SAGE Publications, 1995.
 
-4.  Karl E. Weick. Sensemaking in Organizations. 1995. SAGE Publications.
+[^c14-source-nassim-nicholas-taleb]: Taleb, Nassim Nicholas. *Antifragile: Things That Gain from Disorder*. New York: Random House, 2012.
 
-5.  Nassim Nicholas Taleb. Antifragile. 2012. Random House.
+[^c14-thinking-fast-and-slow]: Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011.
 
-6.  Daniel Kahneman. Thinking, Fast and Slow. 2011. Farrar, Straus and Giroux.
+[^c14-source-peter-m-senge]: Senge, Peter M. *The Fifth Discipline: The Art and Practice of the Learning Organization*. New York: Doubleday/Currency, 1990.
 
-7.  Peter M. Senge. The Fifth Discipline. 1990. Doubleday/Currency.
+[^c14-weick-managing-unexpected]: Weick, Karl E., and Kathleen M. Sutcliffe. *Managing the Unexpected: Sustained Performance in a Complex World*. 3rd ed. Hoboken, NJ: Jossey-Bass, 2015.
 
-8.  Karl E. Weick and Kathleen M. Sutcliffe. Managing the Unexpected. 2015. Jossey-Bass.
-
-9.  Nancy Leveson. Engineering a Safer World. 2011. MIT Press.
+[^c14-source-nancy-leveson-engineering]: Leveson, Nancy G. *Engineering a Safer World: Systems Thinking Applied to Safety*. Cambridge, MA: MIT Press, 2011.

@@ -23,7 +23,7 @@ coordination. Authority remains exposed to those it governs.
 
 Shared vulnerability means no actor is fully insulated from consequence.
 When harm is displaced, it eventually returns through diminished trust,
-reduced cooperation, or open resistance.¹
+reduced cooperation, or open resistance.[^c2-bowen-family-therapy-in]
 
 This exposure creates discipline. Leaders know they must continue to
 operate within the same relational field tomorrow. Followers know that
@@ -41,7 +41,7 @@ rather than unilateral enforcement.
 
 Because relationships endure, overreach produces immediate strain.
 Underreach produces confusion. The system corrects through friction
-before imbalance becomes entrenched.²
+before imbalance becomes entrenched.[^c2-edmondson-the-fearless-organization]
 
 Mutual dependence does not eliminate conflict. It narrows its range. It
 makes escalation costly for all parties.
@@ -57,7 +57,7 @@ produces visible cost. A leader who exploits asymmetry is noticed. A
 participant who refuses shared burden weakens cohesion.
 
 Symmetry does not require equality of role. It requires equality of
-exposure.³
+exposure.[^c2-selznick-leadership-in-administration]
 
 When exposure is balanced, moral seriousness does not depend on heroism.
 It depends on alignment.
@@ -89,15 +89,8 @@ through symmetry rather than sacrifice.
 
 The question that follows is what happens when symmetry erodes.
 
-## Notes
+[^c2-bowen-family-therapy-in]: Bowen, Murray. *Family Therapy in Clinical Practice*. New York: Jason Aronson, 1978.
 
-¹ Murray Bowen, *Family Therapy in Clinical Practice* — On
-differentiation, anxiety circulation, and how shared vulnerability
-stabilizes relational systems.
+[^c2-edmondson-the-fearless-organization]: Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.
 
-² Amy Edmondson, *The Fearless Organization* — On mutual dependence,
-learning environments, and relational correction in bounded teams.
-
-³ Philip Selznick, *Leadership in Administration* — On institutional
-integrity and the relationship between authority and embedded social
-norms.
+[^c2-selznick-leadership-in-administration]: Selznick, Philip. *Leadership in Administration: A Sociological Interpretation*. New York: Harper & Row, 1957.

@@ -5,7 +5,7 @@ Scale thins reciprocity, but it does not eliminate the possibility of
 rebuilding it. What disappears at scale is not morality itself, but
 moral density—the concentration of visible consequence, reciprocal
 constraint, and corrigibility that stabilizes leadership at human
-scale.¹ The task, then, is not to romanticize smallness or deny scale.
+scale.[^c9-olsen-rediscovering-institutions] The task, then, is not to romanticize smallness or deny scale.
 It is to reintroduce density deliberately inside larger systems.
 
 Scale cannot be reversed. Density can be designed.
@@ -14,13 +14,13 @@ The first mechanism is **local reciprocity within large systems**. Even
 in complex institutions, work occurs in bounded units—teams, committees,
 divisions, communities of practice. Where consequences remain visible
 within these units, restraint becomes reciprocal again. Actors encounter
-the human cost of decisions. Feedback is shorter. Correction is faster.²
+the human cost of decisions. Feedback is shorter. Correction is faster.[^c9-schein-organizational-culture-and]
 Large systems that preserve meaningful sub-units retain pockets of moral
 density where contestability can survive.
 
 The second mechanism is **distributed authority**. Concentrated
 authority accelerates action but magnifies asymmetry. Distributed
-authority slows coordination while increasing exposure to dissent.³ When
+authority slows coordination while increasing exposure to dissent.[^c9-selznick-leadership-in-administration] When
 decision-making is shared across roles rather than centralized in
 office, legitimacy becomes less dependent on individual restraint and
 more dependent on process. Distributed authority does not eliminate
@@ -30,13 +30,13 @@ The third mechanism is **designed friction**. Friction is often treated
 as inefficiency. In moral systems, friction can be protective. Mandatory
 review, sunset clauses, transparent reporting requirements, and
 procedural delays are forms of intentional resistance to automatic
-escalation.⁴ They do not assume actors will choose restraint. They
+escalation.[^c9-arendt-on-revolution] They do not assume actors will choose restraint. They
 require reconsideration before authority expands.
 
 Finally, **institutional limits** preserve constraint across time.
 Authority that expires must be renewed. Roles that rotate prevent
 identity fusion. Decisions that require periodic reauthorization prevent
-precedent from hardening silently into permission.⁵ Where legitimacy
+precedent from hardening silently into permission.[^c9-dahl-polyarchy] Where legitimacy
 must be re-earned rather than inherited indefinitely, harm cannot
 proceed without renewed justification.
 
@@ -54,20 +54,12 @@ automatic harms.
 
 “Scale cannot be undone. But constraint can be redesigned.”
 
-## Notes
+[^c9-olsen-rediscovering-institutions]: March, James G., and Johan P. Olsen. *Rediscovering Institutions: The Organizational Basis of Politics*. New York: Free Press, 1989.
 
-1.  James G. March & Johan P. Olsen, *Rediscovering Institutions* — On
-    how institutional structures shape behavior beyond individual
-    intent.
+[^c9-schein-organizational-culture-and]: Schein, Edgar H. *Organizational Culture and Leadership*. 5th ed. Hoboken, NJ: Wiley, 2017.
 
-2.  Edgar Schein, *Organizational Culture and Leadership* — On norm
-    formation and feedback within bounded groups.
+[^c9-selznick-leadership-in-administration]: Selznick, Philip. *Leadership in Administration: A Sociological Interpretation*. New York: Harper & Row, 1957.
 
-3.  Philip Selznick, *Leadership in Administration* — On institutional
-    integrity and distributed stewardship.
+[^c9-arendt-on-revolution]: Arendt, Hannah. *On Revolution*. New York: Viking Press, 1963.
 
-4.  Hannah Arendt, *On Revolution* — On constitutional design as
-    structured limitation rather than mere empowerment.
-
-5.  Robert Dahl, *Polyarchy* — On contestability, renewal, and
-    distributed legitimacy within democratic systems.
+[^c9-dahl-polyarchy]: Dahl, Robert A. *Polyarchy: Participation and Opposition*. New Haven, CT: Yale University Press, 1971.

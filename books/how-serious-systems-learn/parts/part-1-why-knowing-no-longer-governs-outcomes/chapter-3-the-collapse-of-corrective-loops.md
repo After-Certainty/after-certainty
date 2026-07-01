@@ -18,7 +18,7 @@ For correction to work, disconfirming information must travel quickly
 enough, clearly enough, and with enough authority to alter ongoing
 action before harm hardens. When any one of those conditions degrades,
 the loop weakens. When all degrade together, the loop may continue in
-appearance while failing in function.¹
+appearance while failing in function.[^c3-source-liam-fahey-and]
 
 ### What a Corrective Loop Actually Requires
 
@@ -41,7 +41,7 @@ Most institutional conversations about feedback stop at detection.
 But detection without revision is surveillance, not learning.
 
 A system can become excellent at observing its own drift while remaining
-incapable of changing direction.²
+incapable of changing direction.[^c3-source-donella-h-meadows]
 
 ### The Three Degradations
 
@@ -62,7 +62,7 @@ Many actors are informed; no actor is accountable for interruption.
 None of these shifts are malicious. Most are side effects of scale.
 
 Together they create a condition where feedback continues to circulate
-but no longer compels revision.³
+but no longer compels revision.[^c3-source-charles-perrow-normal]
 
 ### Why Bad News Becomes Ambiguous
 
@@ -86,7 +86,7 @@ without changing behavior.
 
 They call this resilience.
 
-Often it is only absorption.⁴
+Often it is only absorption.[^c3-source-carol-tavris-and]
 
 ### The Metric Trap
 
@@ -105,7 +105,7 @@ signals that matter but do not yet conform to the measurement frame.
 Correction then stalls at the boundary of instrumented reality.
 
 The system does not ignore evidence. It ignores evidence it has not yet
-made reportable.⁵
+made reportable.[^c3-source-jerry-z-muller]
 
 ### Local Learning, Global Drift
 
@@ -123,7 +123,7 @@ When local actors must repeatedly compensate for structural drift,
 organizational learning is being externalized downward. The system
 improves tactically while degrading strategically.
 
-Over time, local adaptation masks global incorrigibility.⁶
+Over time, local adaptation masks global incorrigibility.[^c3-source-sidney-dekker-drift]
 
 ### When Escalation Stops Feeling Legitimate
 
@@ -142,7 +142,7 @@ most destabilizing information never enters official circulation.
 
 At that point, loop collapse is not technical. It is relational.
 
-The system has made truth-telling more expensive than compliance.⁷
+The system has made truth-telling more expensive than compliance.[^c3-source-amy-c-edmondson]
 
 ### The Suddenness Illusion
 
@@ -162,7 +162,7 @@ Then a threshold is crossed.
 An event that appears anomalous reveals a structure that has been
 incorrigible for some time.
 
-The failure is sudden in visibility, not in formation.⁸
+The failure is sudden in visibility, not in formation.[^c3-source-diane-vaughan-the]
 
 ### What Keeps Loops Alive
 
@@ -194,20 +194,18 @@ capacity to convert feedback into reversible action. The next chapters
 move from diagnosis to survival logic: which disciplines remain viable
 when certainty is unavailable and correction is costly?
 
-## End Notes
+[^c3-source-liam-fahey-and]: Fahey, Liam, and Robert M. Randall, eds. *Learning from the Future: Competitive Foresight Scenarios*. New York: Wiley, 1998.
 
-1.  Liam Fahey and Robert M. Randall. Learning from the Future. 1998. Wiley.
+[^c3-source-donella-h-meadows]: Meadows, Donella H. *Thinking in Systems: A Primer*. White River Junction, VT: Chelsea Green Publishing, 2008.
 
-2.  Donella H. Meadows. Thinking in Systems. 2008. Chelsea Green Publishing.
+[^c3-source-charles-perrow-normal]: Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books, 1984.
 
-3.  Charles Perrow. Normal Accidents. 1984. Princeton University Press.
+[^c3-source-carol-tavris-and]: Tavris, Carol, and Elliot Aronson. *Mistakes Were Made (But Not by Me): Why We Justify Foolish Beliefs, Bad Decisions, and Hurtful Acts*. Orlando, FL: Harcourt, 2007.
 
-4.  Carol Tavris and Elliot Aronson. Mistakes Were Made (But Not by Me). 2007. Harcourt.
+[^c3-source-jerry-z-muller]: Muller, Jerry Z. *The Tyranny of Metrics*. Princeton, NJ: Princeton University Press, 2018.
 
-5.  Jerry Z. Muller. The Tyranny of Metrics. 2018. Princeton University Press.
+[^c3-source-sidney-dekker-drift]: Dekker, Sidney. *Drift into Failure: From Hunting Broken Components to Understanding Complex Systems*. Farnham, UK: Ashgate, 2011.
 
-6.  Sidney Dekker. Drift into Failure. 2011. Ashgate.
+[^c3-source-amy-c-edmondson]: Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.
 
-7.  Amy C. Edmondson. The Fearless Organization. 2018. Wiley.
-
-8.  Diane Vaughan. The Challenger Launch Decision. 1996. University of Chicago Press.
+[^c3-source-diane-vaughan-the]: Vaughan, Diane. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. Chicago: University of Chicago Press, 1996.

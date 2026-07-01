@@ -19,7 +19,7 @@ wrong remains survivable.
 
 When error is excluded from design, systems must externalize its cost.
 When error is included in design, systems can localize, learn, and adapt
-before failure becomes systemic.¹
+before failure becomes systemic.[^c9-source-nancy-leveson-engineering]
 
 Chapter 9 begins Part III by naming this as a unifying principle:
 serious disciplines differ in method but converge in their treatment of
@@ -47,7 +47,7 @@ Resilient organizations reclassify error:
 - and hidden coupling.
 
 The function of error is diagnostic. Its value lies in what it reveals
-about the system’s current map of reality.²
+about the system’s current map of reality.[^c9-source-sidney-dekker-the]
 
 ### Designing for Containment Before Explanation
 
@@ -69,7 +69,7 @@ It is pro-corrigibility.
 
 In dynamic systems, explanation usually improves over time; consequences
 often do not wait. Design must therefore ensure that early uncertainty
-does not force high-consequence persistence.³
+does not force high-consequence persistence.[^c9-source-donella-h-meadows]
 
 ### The Geometry of Blast Radius
 
@@ -94,7 +94,7 @@ Without these, systems may still detect error; they simply cannot prevent
 local error from becoming distributed harm.
 
 Error intelligence without containment design is observational, not
-protective.⁴
+protective.[^c9-source-nassim-nicholas-taleb]
 
 ### From Root Cause to Contributing Conditions
 
@@ -118,7 +118,7 @@ Treating error as input requires condition mapping:
 - Which governance rules converted warning into noise?
 
 This approach can feel messier than root-cause closure.
-It is usually more actionable.⁵
+It is usually more actionable.[^c9-source-charles-perrow-normal]
 
 ### Error Budgets and Moral Budgets
 
@@ -141,7 +141,7 @@ Serious systems therefore pair technical budgets with moral accounting:
 - and whether those exposed had any say in the risk.
 
 Without this pairing, “managed failure” can become a disciplined method
-for normalized harm.⁶
+for normalized harm.[^c9-beyer-chris-jones-jennifer]
 
 ### Feedback That Changes Design, Not Just Behavior
 
@@ -161,7 +161,7 @@ If the same error recurs across capable people in different contexts,
 what system condition is producing it?
 
 Serious systems use that question to shift from blame management to
-design evolution.⁷
+design evolution.[^c9-source-peter-m-senge]
 
 ### The Governance of Admitting Wrong
 
@@ -181,7 +181,7 @@ What evidence is sufficient to trigger reversal?
 Who can pause action without career loss?
 
 Systems that cannot answer these questions cannot treat error as input in
-practice, regardless of stated values.⁸
+practice, regardless of stated values.[^c9-source-diane-vaughan-the]
 
 ### The Shared Pattern Across Disciplines
 
@@ -201,24 +201,22 @@ They design for recoverability.
 
 Seen this way, seriousness is less about prediction quality than about
 error posture: whether a system can remain truthful about being wrong
-while still able to act.⁹
+while still able to act.[^c9-source-karl-e-weick]
 
-## End Notes
+[^c9-source-nancy-leveson-engineering]: Leveson, Nancy G. *Engineering a Safer World: Systems Thinking Applied to Safety*. Cambridge, MA: MIT Press, 2011.
 
-1.  Nancy Leveson. Engineering a Safer World. 2011. MIT Press.
+[^c9-source-sidney-dekker-the]: Dekker, Sidney. *The Field Guide to Understanding Human Error*. 2nd ed. Farnham, UK: Ashgate, 2006.
 
-2.  Sidney Dekker. The Field Guide to Understanding Human Error. 2006. Ashgate.
+[^c9-source-donella-h-meadows]: Meadows, Donella H. *Thinking in Systems: A Primer*. White River Junction, VT: Chelsea Green Publishing, 2008.
 
-3.  Donella H. Meadows. Thinking in Systems. 2008. Chelsea Green Publishing.
+[^c9-source-nassim-nicholas-taleb]: Taleb, Nassim Nicholas. *Antifragile: Things That Gain from Disorder*. New York: Random House, 2012.
 
-4.  Nassim Nicholas Taleb. Antifragile. 2012. Random House.
+[^c9-source-charles-perrow-normal]: Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books, 1984.
 
-5.  Charles Perrow. Normal Accidents. 1984. Princeton University Press.
+[^c9-beyer-chris-jones-jennifer]: Beyer, Betsy, Chris Jones, Jennifer Petoff, and Niall Richard Murphy, eds. *Site Reliability Engineering: How Google Runs Production Systems*. Sebastopol, CA: O'Reilly Media, 2016.
 
-6.  Betsy Beyer, Chris Jones, Jennifer Petoff, and Niall Richard Murphy. Site Reliability Engineering. 2016. O'Reilly Media.
+[^c9-source-peter-m-senge]: Senge, Peter M. *The Fifth Discipline: The Art and Practice of the Learning Organization*. New York: Doubleday/Currency, 1990.
 
-7.  Peter M. Senge. The Fifth Discipline. 1990. Doubleday/Currency.
+[^c9-source-diane-vaughan-the]: Vaughan, Diane. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. Chicago: University of Chicago Press, 1996.
 
-8.  Diane Vaughan. The Challenger Launch Decision. 1996. University of Chicago Press.
-
-9.  Karl E. Weick and Kathleen M. Sutcliffe. Managing the Unexpected. 2015. Jossey-Bass.
+[^c9-source-karl-e-weick]: Weick, Karl E., and Kathleen M. Sutcliffe. *Managing the Unexpected: Sustained Performance in a Complex World*. 3rd ed. Hoboken, NJ: Jossey-Bass, 2015.

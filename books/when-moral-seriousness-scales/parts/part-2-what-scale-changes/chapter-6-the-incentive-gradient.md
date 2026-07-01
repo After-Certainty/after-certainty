@@ -22,7 +22,7 @@ Low constraint permits speed.
 Speed compounds. Early action shapes context. Context shapes options.
 Options narrow for those who respond more slowly.
 
-Acceleration does not require aggression. It requires insulation.¹
+Acceleration does not require aggression. It requires insulation.[^c6-schelling-the-strategy-of]
 
 In systems where some actors can move without immediate correction,
 velocity itself becomes influence.
@@ -42,7 +42,7 @@ comparatively slow.
 When constraint is uneven, deliberation bears more friction than
 acceleration.
 
-The asymmetry becomes visible in tempo rather than intent.²
+The asymmetry becomes visible in tempo rather than intent.[^c6-simon-organizations]
 
 ## Alignment Scales Faster Than Persuasion
 
@@ -54,7 +54,7 @@ Persuasion demands encounter. Alignment demands instruction.
 
 As scale increases, structures favor mechanisms that reduce complexity
 quickly. These mechanisms are not inherently coercive. They are
-efficient.³
+efficient.[^c6-weber-economy-and-society]
 
 But efficiency reshapes incentive.
 
@@ -87,13 +87,8 @@ against drift.
 
 The next question is what happens when that drift becomes perceptible.
 
-## Notes
+[^c6-schelling-the-strategy-of]: Schelling, Thomas C. *The Strategy of Conflict*. Cambridge, MA: Harvard University Press, 1960.
 
-¹ Thomas Schelling, *The Strategy of Conflict* — On strategic advantage
-gained through timing, commitment, and movement under asymmetry.
+[^c6-simon-organizations]: March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley, 1958.
 
-² James G. March and Herbert Simon, *Organizations* — On bounded
-rationality, decision tempo, and structural friction.
-
-³ Max Weber, *Economy and Society* — On bureaucratic efficiency and the
-acceleration advantages of rational-legal coordination.
+[^c6-weber-economy-and-society]: Weber, Max. *Economy and Society: An Outline of Interpretive Sociology*. Edited by Guenther Roth and Claus Wittich. Berkeley: University of California Press, 1978.

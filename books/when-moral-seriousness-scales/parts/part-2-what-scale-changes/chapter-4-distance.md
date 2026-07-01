@@ -22,7 +22,7 @@ Displacement is registered in trends rather than conversations.
 
 Statistical representation does not make harm unreal. It changes its
 immediacy. When consequence is mediated through aggregation, it competes
-with other abstractions for attention.¹
+with other abstractions for attention.[^c4-arendt-eichmann-in-jerusalem]
 
 The moral signal weakens not because it disappears, but because it
 arrives encoded.
@@ -38,7 +38,7 @@ exposure.
 
 In bureaucratic environments, responsibility becomes distributed. Harm
 may result from process rather than direct intention. This distribution
-can protect stability. It can also obscure accountability.²
+can protect stability. It can also obscure accountability.[^c4-weber-economy-and-society]
 
 No single actor encounters the full weight of consequence.
 Responsibility becomes shared, and therefore less concentrated.
@@ -53,7 +53,7 @@ routine. Revision requires more actors, more negotiation, more
 institutional movement.
 
 Delay alters judgment. Decisions are made without immediate confirmation
-of effect. Adjustment requires projection rather than encounter.³
+of effect. Adjustment requires projection rather than encounter.[^c4-perrow-normal-accidents]
 
 This does not eliminate accountability. It makes it slower and more
 complex.
@@ -74,7 +74,7 @@ necessity.
 
 Judgment remains possible under abstraction. It requires more effort. It
 must reconstruct the human dimension that proximity once supplied
-automatically.¹
+automatically.[^c4-arendt-eichmann-in-jerusalem]
 
 Distance, then, is the first thinning of moral density. Proximity
 stretches. Feedback lengthens. Responsibility disperses. Harm becomes
@@ -91,13 +91,8 @@ consequence is no longer immediate.
 Distance does not corrupt by itself. It creates the space in which other
 structural shifts can emerge.
 
-## Notes
+[^c4-arendt-eichmann-in-jerusalem]: Arendt, Hannah. *Eichmann in Jerusalem: A Report on the Banality of Evil*. New York: Viking Press, 1963.
 
-¹ Hannah Arendt, *Eichmann in Jerusalem* — On bureaucratic abstraction
-and the normalization of harm through administrative language.
+[^c4-weber-economy-and-society]: Weber, Max. *Economy and Society: An Outline of Interpretive Sociology*. Edited by Guenther Roth and Claus Wittich. Berkeley: University of California Press, 1978.
 
-² Max Weber, *Economy and Society* — On rational-legal authority and the
-diffusion of responsibility within bureaucratic systems.
-
-³ Charles Perrow, *Normal Accidents* — On system complexity, delayed
-feedback, and structural risk in large-scale organizations.
+[^c4-perrow-normal-accidents]: Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books, 1984.

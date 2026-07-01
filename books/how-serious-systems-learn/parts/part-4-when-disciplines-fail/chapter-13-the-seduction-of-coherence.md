@@ -14,7 +14,7 @@ In complex systems, tidy explanations often close inquiry before reality
 has finished speaking. They convert partial interpretation into stable
 certainty, then reorganize attention around preserving that certainty.
 
-What begins as orientation becomes enclosure.¹
+What begins as orientation becomes enclosure.[^c13-source-karl-e-weick]
 
 Chapter 13 examines coherence as a failure mechanism:
 not because narrative is bad, but because narrative can become a
@@ -42,7 +42,7 @@ Stories that are simple, directional, and identity-consistent spread
 faster than stories that are conditional, multi-causal, and temporally
 open.
 
-The faster a system must move, the stronger this asymmetry becomes.²
+The faster a system must move, the stronger this asymmetry becomes.[^c13-source-james-c-scott]
 
 ### From Sensemaking to Sense-Closing
 
@@ -60,7 +60,7 @@ At that point, disconfirming evidence is not evaluated neutrally.
 It is filtered through what continuation requires.
 
 The story that helped the system orient now constrains what the system is
-allowed to see.³
+allowed to see.[^c13-source-peter-l-berger]
 
 ### The Narrative Economy
 
@@ -85,7 +85,7 @@ More often, it is selective attention:
 - contradictory data is assigned lower confidence until it can be
   absorbed into the dominant story.
 
-Coherence remains intact. Contact with reality thins.⁴
+Coherence remains intact. Contact with reality thins.[^c13-source-philip-selznick-leadership]
 
 ### The Comfort of Monocausal Explanations
 
@@ -107,7 +107,7 @@ Monocausal coherence reduces cognitive load.
 It also removes the levers required for serious adaptation.
 
 When the map has one cause, the solution has one knob.
-Real systems rarely cooperate with that hope.⁵
+Real systems rarely cooperate with that hope.[^c13-source-charles-perrow-normal]
 
 ### Coherence and Moral Certainty
 
@@ -130,7 +130,7 @@ Correction then becomes reputationally asymmetrical:
 some actors can be revised; others can only be defended or condemned.
 
 Serious systems resist this asymmetry by keeping moral judgment tied to
-evolving evidence, not fixed narrative position.⁶
+evolving evidence, not fixed narrative position.[^c13-source-hannah-arendt-responsibility]
 
 ### How Coherence Suppresses Weak Signals
 
@@ -151,7 +151,7 @@ But in many failures, early warnings appear exactly as weak,
 narrative-inconvenient signals.
 
 When coherence governs relevance, the system filters out the information
-most likely to preserve corrigibility.⁷
+most likely to preserve corrigibility.[^c13-weick-managing-unexpected]
 
 ### Preserving Narrative Without Surrendering Learning
 
@@ -173,7 +173,7 @@ This requires explicit practices:
 These practices keep coherence instrumental instead of sovereign.
 
 A story should guide action.
-It should not govern what evidence may count.⁸
+It should not govern what evidence may count.[^c13-source-peter-m-senge]
 
 ### The Test of Seriousness
 
@@ -193,20 +193,18 @@ the ability to maintain one coherent account indefinitely. It is the
 ability to update account, authority, and action together as reality
 changes.
 
-## End Notes
+[^c13-source-karl-e-weick]: Weick, Karl E. *Sensemaking in Organizations*. Thousand Oaks, CA: SAGE Publications, 1995.
 
-1.  Karl E. Weick. Sensemaking in Organizations. 1995. SAGE Publications.
+[^c13-source-james-c-scott]: Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press, 1998.
 
-2.  James C. Scott. Seeing Like a State. 1998. Yale University Press.
+[^c13-source-peter-l-berger]: Berger, Peter L., and Thomas Luckmann. *The Social Construction of Reality: A Treatise in the Sociology of Knowledge*. New York: Anchor Books, 1966.
 
-3.  Peter L. Berger and Thomas Luckmann. The Social Construction of Reality. 1966. Anchor Books.
+[^c13-source-philip-selznick-leadership]: Selznick, Philip. *Leadership in Administration: A Sociological Interpretation*. New York: Harper & Row, 1957.
 
-4.  Philip Selznick. Leadership in Administration. 1957. Harper & Row.
+[^c13-source-charles-perrow-normal]: Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books, 1984.
 
-5.  Charles Perrow. Normal Accidents. 1984. Princeton University Press.
+[^c13-source-hannah-arendt-responsibility]: Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New York: Schocken Books, 2003.
 
-6.  Hannah Arendt. Responsibility and Judgment. 2003. Schocken Books.
+[^c13-weick-managing-unexpected]: Weick, Karl E., and Kathleen M. Sutcliffe. *Managing the Unexpected: Sustained Performance in a Complex World*. 3rd ed. Hoboken, NJ: Jossey-Bass, 2015.
 
-7.  Karl E. Weick and Kathleen M. Sutcliffe. Managing the Unexpected. 2015. Jossey-Bass.
-
-8.  Peter M. Senge. The Fifth Discipline. 1990. Doubleday/Currency.
+[^c13-source-peter-m-senge]: Senge, Peter M. *The Fifth Discipline: The Art and Practice of the Learning Organization*. New York: Doubleday/Currency, 1990.

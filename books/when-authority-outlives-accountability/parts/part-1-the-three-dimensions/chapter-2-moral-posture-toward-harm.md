@@ -5,7 +5,7 @@ character. Leaders are described as good or bad, compassionate or cruel.
 This language feels natural, but it misleads. Research on moral injury
 and situational ethics shows that harm is rarely produced by monstrous
 intent alone. It is produced by ordinary people operating within systems
-that authorize, excuse, or conceal damage.¹<sup>,</sup>²<sup>,</sup>³
+that authorize, excuse, or conceal damage.[^c2-shay-achilles-in-vietnam]<sup>,</sup>[^c2-milgram-obedience-to-authority]<sup>,</sup>[^c2-zimbardo-the-lucifer-effect]
 
 Leadership morality is often better understood not as who a leader is,
 but as how a leader handles harm when they have the power to choose
@@ -19,7 +19,7 @@ Someone absorbs risk so that others do not. Some losses are visible and
 immediate; others are delayed, abstracted, or hidden entirely. The moral
 question is not whether harm exists, but where it is placed, how it is
 justified, and whether it is treated as unavoidable, regrettable, or
-useful.⁵
+useful.[^c2-weber-politics-as-a]
 
 This distinction becomes clearer in the following cases.
 
@@ -63,7 +63,7 @@ administratively manageable.
 This posture is often mistaken for moral seriousness. After all, the
 organization acknowledges harm. It invests resources. It follows
 procedures. Acknowledgment does not equal restraint, and compliance does
-not equal responsibility.¹
+not equal responsibility.[^c2-shay-achilles-in-vietnam]
 
 The decisive question is not whether leaders recognized harm, but how
 they understood their relationship to it. Was harm treated as something
@@ -73,7 +73,7 @@ Or was it treated as an operational risk to be controlled?
 In this case, leadership did not intend harm. But intention is not the
 relevant measure. What matters is that harm became a known byproduct of
 maintaining stability. It was absorbed into the system as an acceptable
-loss.⁶
+loss.[^c2-arendt-eichmann-in-jerusalem]
 
 This is not cruelty. It is something more ordinary—and more dangerous.
 
@@ -90,7 +90,7 @@ There are options available—none of them clean.
 One option would preserve performance by externalizing harm. Targets
 could be raised. Staffing could be reduced. Risk could be transferred to
 those with the least leverage to refuse it. The losses would be
-distributed thinly enough to appear tolerable, even if they were not.⁵
+distributed thinly enough to appear tolerable, even if they were not.[^c2-weber-politics-as-a]
 
 Another option would limit harm by accepting it.
 
@@ -122,7 +122,7 @@ it may even appear weak.
 
 But the moral posture is unmistakable. Harm was not denied. It was not
 instrumentalized. It was not displaced. It was taken on deliberately,
-where power was concentrated and choice still existed.⁵
+where power was concentrated and choice still existed.[^c2-weber-politics-as-a]
 
 This posture does not eliminate harm. It redistributes it.
 
@@ -138,23 +138,23 @@ way of making tradeoffs visible.
 cost. A fire chief who enters danger with their crew redistributes risk.
 A manager who accepts personal loss to protect a team from layoffs
 absorbs harm inward. This posture often appears weak, but it builds
-trust that cannot be coerced.⁴
+trust that cannot be coerced.[^c2-edmondson-the-fearless-organization]
 
 **Harm-tolerant** leadership describes a posture that acknowledges harm
 while displacing it. A hospital administrator who knowingly understaffs
 units may sincerely regret burnout while continuing the practice. Regret
 does not negate displacement. This posture is common and often
-well-intentioned, but it normalizes harm as governance.¹<sup>,</sup>⁶
+well-intentioned, but it normalizes harm as governance.[^c2-shay-achilles-in-vietnam]<sup>,</sup>[^c2-arendt-eichmann-in-jerusalem]
 
 **Harm-instrumental** leadership describes a posture that uses suffering
 as a tool. Fear, punishment, or sacrifice become mechanisms rather than
 side effects. Once harm is employed rather than endured, moral limits
-collapse.²<sup>,</sup>³
+collapse.[^c2-milgram-obedience-to-authority]<sup>,</sup>[^c2-zimbardo-the-lucifer-effect]
 
 **Harm-blind** leadership describes a posture that obscures damage
 through distance. A policymaker who optimizes metrics while remaining
 insulated from downstream consequences may sincerely believe themselves
-moral. Scale makes blindness easier.⁶
+moral. Scale makes blindness easier.[^c2-arendt-eichmann-in-jerusalem]
 
 Harm-absorbing leadership is morally serious only when it preserves
 agency rather than replacing it, and when it prevents harm without
@@ -171,7 +171,19 @@ to act.
 Scale matters. Small systems make harm visible; large systems make it
 abstract. Crisis pushes leaders toward instrumentalization; stability
 allows restraint. Moral posture is shaped by structure as much as
-intent.⁵
+intent.[^c2-weber-politics-as-a]
 
 > **“Leadership morality is often less about being good or bad than
 > about how power handles harm.”**
+
+[^c2-shay-achilles-in-vietnam]: Shay, Jonathan. *Achilles in Vietnam: Combat Trauma and the Undoing of Character*. New York: Atheneum, 1994.
+
+[^c2-milgram-obedience-to-authority]: Milgram, Stanley. *Obedience to Authority: An Experimental View*. New York: Harper & Row, 1974.
+
+[^c2-zimbardo-the-lucifer-effect]: Zimbardo, Philip. *The Lucifer Effect: Understanding How Good People Turn Evil*. New York: Random House, 2007.
+
+[^c2-edmondson-the-fearless-organization]: Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.
+
+[^c2-weber-politics-as-a]: Weber, Max. "Politics as a Vocation." In *From Max Weber: Essays in Sociology*, edited by H. H. Gerth and C. Wright Mills, 77–128. New York: Oxford University Press, 1946.
+
+[^c2-arendt-eichmann-in-jerusalem]: Arendt, Hannah. *Eichmann in Jerusalem: A Report on the Banality of Evil*. New York: Viking Press, 1963.

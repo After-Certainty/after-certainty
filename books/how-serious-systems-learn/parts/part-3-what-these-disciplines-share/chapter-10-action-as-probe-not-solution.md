@@ -22,7 +22,7 @@ expand.
 Correctable systems reverse the default.
 
 They treat action as probe first: a structured way of generating better
-resolution about reality while keeping commitments reversible.¹
+resolution about reality while keeping commitments reversible.[^c10-source-peter-m-senge]
 
 ### The Control Illusion
 
@@ -44,7 +44,7 @@ and underinvest in post-action learning infrastructure.
 Action then becomes an instrument of narrative maintenance.
 
 Probe logic resists this by designating interventions as hypothesis tests
-with bounded exposure and explicit revision gates.²
+with bounded exposure and explicit revision gates.[^c10-source-james-c-scott]
 
 ### What Probe Logic Changes
 
@@ -70,7 +70,7 @@ from commitment protection to commitment revision authority when evidence
 changes.
 
 These shifts do not reduce ambition.
-They reduce epistemic overreach.³
+They reduce epistemic overreach.[^c10-source-eric-ries-the]
 
 ### Designing Probes That Actually Teach
 
@@ -92,7 +92,7 @@ symbolic delay or political cover. They generate activity but little new
 understanding.
 
 Probe quality is therefore not about size.
-It is about inferential power under bounded risk.⁴
+It is about inferential power under bounded risk.[^c10-source-stefan-h-thomke]
 
 ### The Problem of Irreversible Action
 
@@ -114,7 +114,7 @@ They therefore separate experimentation layers:
 - irreversible commitments only after correction pathways are proven.
 
 Skipping these layers turns uncertainty into destiny through sequencing,
-not through evidence.⁵
+not through evidence.[^c10-source-nassim-nicholas-taleb]
 
 ### Throughput Pressure vs. Learning Pressure
 
@@ -134,7 +134,7 @@ delivery theater. Systems continue moving while becoming progressively
 less informed about what their movement is producing.
 
 Action remains visible.
-Adaptation does not.⁶
+Adaptation does not.[^c10-forsgren-jez-humble-and]
 
 ### The Politics of Stopping
 
@@ -155,7 +155,7 @@ To prevent this, stop authority must be:
 - and insulated from identity penalties.
 
 Stopping is not a confession of incompetence.
-It is the evidence that probe logic is functioning.⁷
+It is the evidence that probe logic is functioning.[^c10-source-amy-c-edmondson]
 
 ### Action as Sensemaking Infrastructure
 
@@ -174,7 +174,7 @@ quality if captured and integrated across boundaries.
 
 Without integration, probes remain local learning events.
 With integration, they become institutional memory that reduces repeated
-error across contexts.⁸
+error across contexts.[^c10-source-karl-e-weick]
 
 ### The Moral Dimension of Probe Action
 
@@ -191,24 +191,22 @@ design action so wrongness remains survivable, distributable, and
 correctable.
 
 Control seeks closure.
-Seriousness seeks responsible adaptation.⁹
+Seriousness seeks responsible adaptation.[^c10-source-hannah-arendt-responsibility]
 
-## End Notes
+[^c10-source-peter-m-senge]: Senge, Peter M. *The Fifth Discipline: The Art and Practice of the Learning Organization*. New York: Doubleday/Currency, 1990.
 
-1.  Peter M. Senge. The Fifth Discipline. 1990. Doubleday/Currency.
+[^c10-source-james-c-scott]: Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press, 1998.
 
-2.  James C. Scott. Seeing Like a State. 1998. Yale University Press.
+[^c10-source-eric-ries-the]: Ries, Eric. *The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses*. New York: Crown Business, 2011.
 
-3.  Eric Ries. The Lean Startup. 2011. Crown Business.
+[^c10-source-stefan-h-thomke]: Thomke, Stefan H. *Experimentation Works: The Surprising Power of Business Experiments*. Boston: Harvard Business Review Press, 2020.
 
-4.  Stefan H. Thomke. Experimentation Works. 2020. Harvard Business Review Press.
+[^c10-source-nassim-nicholas-taleb]: Taleb, Nassim Nicholas. *Antifragile: Things That Gain from Disorder*. New York: Random House, 2012.
 
-5.  Nassim Nicholas Taleb. Antifragile. 2012. Random House.
+[^c10-forsgren-jez-humble-and]: Forsgren, Nicole, Jez Humble, and Gene Kim. *Accelerate: The Science of Lean Software and DevOps*. Portland, OR: IT Revolution Press, 2018.
 
-6.  Nicole Forsgren, Jez Humble, and Gene Kim. Accelerate. 2018. IT Revolution Press.
+[^c10-source-amy-c-edmondson]: Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.
 
-7.  Amy C. Edmondson. The Fearless Organization. 2018. Wiley.
+[^c10-source-karl-e-weick]: Weick, Karl E., and Kathleen M. Sutcliffe. *Managing the Unexpected: Sustained Performance in a Complex World*. 3rd ed. Hoboken, NJ: Jossey-Bass, 2015.
 
-8.  Karl E. Weick and Kathleen M. Sutcliffe. Managing the Unexpected. 2015. Jossey-Bass.
-
-9.  Hannah Arendt. Responsibility and Judgment. 2003. Schocken Books.
+[^c10-source-hannah-arendt-responsibility]: Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New York: Schocken Books, 2003.

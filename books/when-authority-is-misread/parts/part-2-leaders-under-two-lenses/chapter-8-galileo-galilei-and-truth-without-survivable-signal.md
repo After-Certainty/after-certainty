@@ -10,7 +10,7 @@ acknowledged privately and rejected publicly. The facts are not
 disputed; their consequences are.
 
 This is a familiar human dynamic. It is also the one that defined the
-life and work of **Galileo Galilei**.¹
+life and work of **Galileo Galilei**.[^c8-source-galileo-s-conflict]
 
 ## How Galileo Was Read
 
@@ -19,7 +19,7 @@ This retrospective framing is misleading. During his lifetime, Galileo
 was not rejected because his observations were unintelligible or
 incoherent. Many educated contemporaries understood his claims. The
 conflict was not epistemic confusion. It was institutional
-incompatibility.²
+incompatibility.[^c8-source-many-clerics-and]
 
 Heliocentrism did not merely revise astronomical models; it destabilized
 theological authority, scriptural interpretation, and cosmological
@@ -27,7 +27,7 @@ hierarchy. Accepting Galileo’s conclusions required more than
 intellectual assent. It required institutional realignment. In that
 context, being “right” was not sufficient. The question was whether the
 truth could be absorbed without dissolving the structures that governed
-meaning.³
+meaning.[^c8-order-not-merely-astronomical]
 
 This gap—between understanding and permission—is the puzzle this chapter
 examines.
@@ -42,7 +42,7 @@ He relied on telescopic observation, mathematical description, and
 systematic argument. His claims were not framed as speculative
 philosophy but as empirically grounded conclusions. This precision
 minimized ambiguity and limited interpretive flexibility. His signal was
-designed to survive scrutiny, not negotiation.⁴
+designed to survive scrutiny, not negotiation.[^c8-source-galileo-s-methodological]
 
 Importantly, Galileo did not primarily challenge belief; he challenged
 authority over interpretation. His evidence reduced the space in which
@@ -56,7 +56,7 @@ He did not translate his findings into metaphors that preserved existing
 hierarchies. He published dialogues, diagrams, and technical
 explanations that required readers to follow the logic rather than
 absorb a simplified conclusion. This refusal increased cognitive burden
-on audiences and institutions alike.⁵
+on audiences and institutions alike.[^c8-source-galileo-s-use]
 
 Compression could have softened the blow. Galileo chose clarity instead.
 
@@ -72,7 +72,7 @@ institutional enforcer. It controlled not only doctrine but the
 boundaries of acceptable inquiry. Once Galileo’s claims were judged to
 threaten this authority, repair became impossible. Clarification would
 only sharpen the threat. Silence would concede falsehood. Constraint
-narrowed to coercion.⁶
+narrowed to coercion.[^c8-source-the-roman-inquisition]
 
 Under these conditions, misunderstanding was not the problem.
 Enforcement was.
@@ -89,7 +89,7 @@ Galileo’s moral posture was epistemic rather than political.
 He insisted on the primacy of observation and reason over inherited
 authority. He did not seek to overthrow institutions, but he refused to
 subordinate empirical truth to doctrinal convenience. This posture
-accepted personal risk in defense of intellectual integrity.⁷
+accepted personal risk in defense of intellectual integrity.[^c8-sought-unsuccessfully-to-reconcile]
 
 At the same time, Galileo eventually recanted. This act is often framed
 as moral failure. Seen through this lens, it reflects the limits of
@@ -102,7 +102,7 @@ Galileo’s effectiveness was negligible in the short term.
 
 His work was censored. His freedom was restricted. His claims were
 officially condemned. Measured by immediate outcomes, his leadership
-appears futile.⁸
+appears futile.[^c8-term-galileo-s-trial]
 
 Measured over time, the picture reverses. His methods reshaped
 scientific inquiry. His conclusions became foundational. The authority
@@ -115,7 +115,7 @@ Galileo’s legitimacy was entirely retrospective.
 
 It emerged only once the institutions that punished him no longer
 governed truth claims. His authority grew as theirs diminished.
-Legitimacy did not persist; it inverted.⁹
+Legitimacy did not persist; it inverted.[^c8-later-after-the-church]
 
 This inversion matters. Galileo did not lose because he was wrong or
 unclear. He lost because legitimacy belonged to institutions whose
@@ -172,38 +172,20 @@ coercive constraint, clarity accelerates suppression rather than
 acceptance. Mistaking epistemic correctness for institutional legitimacy
 is an interpretive error.
 
-## Reference
+[^c8-source-galileo-s-conflict]: Galileo’s conflict with authority is often simplified as ignorance versus science; contemporary scholarship emphasizes institutional control over interpretation rather than lack of comprehension.
 
-1.  Galileo’s conflict with authority is often simplified as ignorance
-    versus science; contemporary scholarship emphasizes institutional
-    control over interpretation rather than lack of comprehension.
+[^c8-source-many-clerics-and]: Many clerics and scholars understood Galileo’s arguments but rejected their implications for scriptural authority and ecclesiastical power.
 
-2.  Many clerics and scholars understood Galileo’s arguments but
-    rejected their implications for scriptural authority and
-    ecclesiastical power.
+[^c8-order-not-merely-astronomical]: Histories of the Scientific Revolution emphasize that heliocentrism threatened broader cosmological and theological order, not merely astronomical models.
 
-3.  Histories of the Scientific Revolution emphasize that heliocentrism
-    threatened broader cosmological and theological order, not merely
-    astronomical models.
+[^c8-source-galileo-s-methodological]: Galileo’s methodological emphasis on observation and measurement narrowed interpretive ambiguity and reduced reliance on scholastic authority.
 
-4.  Galileo’s methodological emphasis on observation and measurement
-    narrowed interpretive ambiguity and reduced reliance on scholastic
-    authority.
+[^c8-source-galileo-s-use]: Galileo’s use of dialogues and technical exposition required readers to engage reasoning processes rather than accept compressed conclusions.
 
-5.  Galileo’s use of dialogues and technical exposition required readers
-    to engage reasoning processes rather than accept compressed
-    conclusions.
+[^c8-source-the-roman-inquisition]: The Roman Inquisition’s actions against Galileo illustrate explicit constraint replacing interpretive negotiation once authority felt endangered.
 
-6.  The Roman Inquisition’s actions against Galileo illustrate explicit
-    constraint replacing interpretive negotiation once authority felt
-    endangered.
+[^c8-sought-unsuccessfully-to-reconcile]: Biographical accounts emphasize Galileo’s commitment to empirical inquiry even as he sought, unsuccessfully, to reconcile it with Church authority.
 
-7.  Biographical accounts emphasize Galileo’s commitment to empirical
-    inquiry even as he sought, unsuccessfully, to reconcile it with
-    Church authority.
+[^c8-term-galileo-s-trial]: In the short term, Galileo’s trial resulted in censorship, house arrest, and suppression of his work.
 
-8.  In the short term, Galileo’s trial resulted in censorship, house
-    arrest, and suppression of his work.
-
-9.  Galileo’s rehabilitation occurred centuries later, after the
-    Church’s epistemic authority over natural philosophy had eroded.
+[^c8-later-after-the-church]: Galileo’s rehabilitation occurred centuries later, after the Church’s epistemic authority over natural philosophy had eroded.

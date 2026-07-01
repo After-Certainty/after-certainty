@@ -14,7 +14,7 @@ those actions shape the world. **Legitimacy** determines whether the
 authority behind those actions persists beyond the leader’s direct
 control. None of these dimensions can substitute for the others.
 Together, they help clarify why leadership that looks similar on the
-surface can diverge so dramatically in its consequences.¹
+surface can diverge so dramatically in its consequences.[^c5-olsen-rediscovering-institutions]
 
 <img src="media/image1.png" style="width:6.5in;height:4.33333in" />
 
@@ -46,7 +46,7 @@ Effectiveness becomes the organizing principle.
 Metrics are clarified. Incentives are aligned. Processes are
 standardized. Ambiguity is reduced. Results improve. The leader is
 praised for focus and decisiveness. Harm has not disappeared, but it is
-now legible, manageable, and increasingly abstract.²
+now legible, manageable, and increasingly abstract.[^c5-hirschman-exit-voice-and]
 
 Some costs are displaced. Not maliciously, but systematically. The
 people who bear them are distant enough to be represented statistically
@@ -89,7 +89,7 @@ it.
 This is how moral failure often enters leadership—not through cruelty or
 corruption, but through accumulation. Each step is defensible. Each
 transition feels reasonable. Responsibility thins as authority spreads
-across people, roles, and time.³
+across people, roles, and time.[^c5-heifetz-leadership-without-easy]
 
 By the time harm becomes undeniable, it no longer belongs to any one
 person.
@@ -118,7 +118,7 @@ distribute it. Rather than clarifying metrics immediately, they resist
 premature simplification. They ask which harms are reversible and which
 are not. Where harm cannot be avoided, they choose to absorb it
 upward—through delayed recognition, constrained scope, and personal
-political cost.⁴
+political cost.[^c5-selznick-leadership-in-administration]
 
 Progress is uneven.
 
@@ -138,7 +138,7 @@ Effectiveness arrives slowly.
 Not through enforcement, but through uptake. Practices spread because
 they make sense, not because they are mandated. Norms form around
 fairness, clarity, and shared responsibility. The system becomes harder
-to summarize—and harder to break.¹
+to summarize—and harder to break.[^c5-olsen-rediscovering-institutions]
 
 When external pressure intensifies, the leader narrows ambition rather
 than widening authority. They reduce scope before increasing coercion.
@@ -181,7 +181,7 @@ externalizing cost onto others. Their leadership works—until the damage
 accumulates. A leader who is both effective and harm-instrumental may
 achieve rapid transformation at the cost of fear, suffering, and
 long-term brittleness. Their influence is unmistakable, but so is the
-risk it carries.²<sup>,</sup>³
+risk it carries.[^c5-hirschman-exit-voice-and]<sup>,</sup>[^c5-heifetz-leadership-without-easy]
 
 Legitimacy complicates the picture further. A morally serious leader may
 act with restraint, yet leave behind an institution that treats their
@@ -204,7 +204,7 @@ slows action. Limiting power reduces leverage. Preserving dissent
 introduces friction. These choices often make leadership appear weak or
 indecisive in the short term. Effectiveness, by contrast, is easiest to
 achieve by displacing cost, narrowing options, or enforcing compliance.
-The lens does not romanticize this difficulty; it names it.³
+The lens does not romanticize this difficulty; it names it.[^c5-heifetz-leadership-without-easy]
 
 At the same time, the model guards against cynicism. The model rejects
 the idea that effectiveness requires cruelty or that moral seriousness
@@ -239,3 +239,11 @@ across time.
 > **“Morality governs what may be done.\
 > Effectiveness governs how far it reaches.\
 > Legitimacy governs whether it becomes dangerous after it is done.”**
+
+[^c5-olsen-rediscovering-institutions]: March, James G., and Johan P. Olsen. *Rediscovering Institutions: The Organizational Basis of Politics*. New York: Free Press, 1989.
+
+[^c5-hirschman-exit-voice-and]: Hirschman, Albert O. *Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States*. Cambridge, MA: Harvard University Press, 1970.
+
+[^c5-heifetz-leadership-without-easy]: Heifetz, Ronald A. *Leadership Without Easy Answers*. Cambridge, MA: Belknap Press of Harvard University Press, 1994.
+
+[^c5-selznick-leadership-in-administration]: Selznick, Philip. *Leadership in Administration: A Sociological Interpretation*. New York: Harper & Row, 1957.

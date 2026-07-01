@@ -57,23 +57,23 @@ approval remains high. When the harm finally arrives, it arrives
 diffusely and unevenly. Responsibility is distributed across time,
 institutions, and individuals. By then, the narrative has shifted: no
 one could have known; the information was unclear; the situation was
-unprecedented.[<u>³</u>](#notes)
+unprecedented.[<u>[^c1-tetlock-expert-political-judgment]</u>](#notes)
 
 In hindsight, one leader is often judged harshly for the harm they
 visibly caused. The other is forgiven—or even praised—for the harm that
 appeared later, diluted by distance and uncertainty.
 
-This is outcome bias at work.¹
+This is outcome bias at work.[^c1-hershey-outcome-bias-in]
 
 We reward leaders not for the moral posture they adopted toward harm,
 but for how cleanly the harm they allowed can be obscured by time,
 complexity, or plausible deniability. Visible harm is treated as
-evidence of failure. Invisible harm is treated as inevitability.⁴
+evidence of failure. Invisible harm is treated as inevitability.[^c1-hirschman-the-rhetoric-of]
 
 Leadership, however, does not occur in hindsight. Moral judgment that
 relies on outcomes alone quietly erases the conditions under which
 decisions were made. It confuses luck with virtue and substitutes
-narrative coherence for ethical evaluation.²
+narrative coherence for ethical evaluation.[^c1-kahneman-thinking-fast-and]
 
 Another failure follows close behind: judging leaders by character
 rather than conduct. Leaders are labeled good or bad, principled or
@@ -82,14 +82,14 @@ a pattern revealed under pressure. Social psychology has long shown that
 we over-attribute behavior to disposition and under-attribute it to
 context, especially when power is involved. Hero narratives and villain
 narratives spare us the harder work of examining incentives,
-constraints, and authority.⁵
+constraints, and authority.[^c1-ross-the-intuitive-psychologist]
 
 Time compounds the confusion. As consequences unfold long after a
 leader’s involvement, legitimacy travels forward through institutions
 while accountability remains fixed at the origin. Founders are
 sanctified to excuse institutions they would not recognize, or condemned
 for harms they never authorized. Authority inherits; responsibility does
-not.⁶
+not.[^c1-arendt-responsibility-and-judgment]
 
 One signal that outcome-based judgment often overlooks is whether
 authority was visible enough to be predictable without being threatening
@@ -125,3 +125,15 @@ These questions interact, but they are not interchangeable.
 
 > **“Leadership is often judged by its outcomes because outcomes are
 > easy to see, not because they are sufficient for moral judgment.”**
+
+[^c1-hershey-outcome-bias-in]: Baron, Jonathan, and John C. Hershey. "Outcome Bias in Decision Evaluation." *Journal of Personality and Social Psychology* 54, no. 4 (1988): 569–579.
+
+[^c1-kahneman-thinking-fast-and]: Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011.
+
+[^c1-tetlock-expert-political-judgment]: Tetlock, Philip E. *Expert Political Judgment: How Good Is It? How Can We Know?* Princeton, NJ: Princeton University Press, 2005.
+
+[^c1-hirschman-the-rhetoric-of]: Hirschman, Albert O. *The Rhetoric of Reaction: Perversity, Futility, Jeopardy*. Cambridge, MA: Belknap Press of Harvard University Press, 1991.
+
+[^c1-ross-the-intuitive-psychologist]: Ross, Lee. "The Intuitive Psychologist and His Shortcomings: Distortions in the Attribution Process." In *Advances in Experimental Social Psychology*, edited by Leonard Berkowitz, vol. 10, 173–220. New York: Academic Press, 1977.
+
+[^c1-arendt-responsibility-and-judgment]: Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New York: Schocken Books, 2003.

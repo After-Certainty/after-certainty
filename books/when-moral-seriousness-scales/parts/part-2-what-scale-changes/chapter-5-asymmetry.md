@@ -23,7 +23,7 @@ procedure. Decisions that impose cost on distant parties may not return
 proportionate friction to those who made them.
 
 Uneven exposure alters behavior. When harm does not reliably return to
-its source, restraint loses one of its structural reinforcements.¹
+its source, restraint loses one of its structural reinforcements.[^c5-merton-bureaucratic-structure-and]
 
 This does not require malice. It requires insulation.
 
@@ -40,7 +40,7 @@ Constraint becomes unevenly applied. Where symmetry once reinforced
 restraint, insulation now introduces choice.
 
 Under selective constraint, restraint must be chosen rather than
-structurally reinforced.²
+structurally reinforced.[^c5-hirschman-exit-voice-and]
 
 ## Friction and Movement
 
@@ -57,7 +57,7 @@ This redistribution alters strategic behavior. Actors who tolerate
 displacement may accumulate advantage relative to those who absorb cost.
 
 The shift is gradual. It often appears pragmatic rather than
-aggressive.³
+aggressive.[^c5-olson-the-logic-of]
 
 ## The Weakening of Reciprocity
 
@@ -80,14 +80,8 @@ not only through distance, but through insulation.
 The question that follows is what happens when uneven constraint begins
 to alter incentives.
 
-## Notes
+[^c5-merton-bureaucratic-structure-and]: Merton, Robert K. "Bureaucratic Structure and Personality." *Social Forces* 18, no. 4 (1940): 560–568.
 
-¹ Robert K. Merton, “Bureaucratic Structure and Personality” — On
-insulation, displacement of responsibility, and structural distortion.
+[^c5-hirschman-exit-voice-and]: Hirschman, Albert O. *Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States*. Cambridge, MA: Harvard University Press, 1970.
 
-² Albert O. Hirschman, *Exit, Voice, and Loyalty* — On how reduced
-responsiveness weakens corrective feedback.
-
-³ Mancur Olson, *The Logic of Collective Action* — On uneven cost
-distribution and the strategic advantage of actors less exposed to
-consequence.
+[^c5-olson-the-logic-of]: Olson, Mancur. *The Logic of Collective Action: Public Goods and the Theory of Groups*. Cambridge, MA: Harvard University Press, 1965.

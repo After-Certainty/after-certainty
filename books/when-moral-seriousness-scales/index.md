@@ -44,6 +44,7 @@ Author: Kevin Steffensen
 ## Back Matter
 
 - [Conclusion](back-matter/conclusion.md)
+- [Bibliography](back-matter/bibliography.md)
 
 ## Related books
 

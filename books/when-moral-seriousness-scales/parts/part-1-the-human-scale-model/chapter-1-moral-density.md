@@ -15,7 +15,7 @@ constraint creates what I will call **moral density**.
 Moral density is not virtue or sincerity. It is structural. It describes
 the environment in which authority remains close enough to consequence
 that displacement becomes difficult. In dense environments, harm cannot
-be processed purely as data; it must be encountered.¹
+be processed purely as data; it must be encountered.[^c1-arendt-responsibility-and-judgment]
 
 ## Proximity
 
@@ -27,7 +27,7 @@ than through summaries or filtered reports.
 Proximity does not guarantee moral action. Leaders can still justify
 harm. But it narrows the space in which harm can be disguised as
 necessity or efficiency. Presence exposes the cost of action before it
-calcifies into routine.²
+calcifies into routine.[^c1-edmondson-the-fearless-organization]
 
 ## Visible Consequence
 
@@ -40,7 +40,7 @@ Visibility does not eliminate harm. It constrains denial.
 
 Where consequence remains visible, moral language retains its
 testability. Claims of fairness, care, or responsibility can be
-evaluated against lived experience rather than deferred to procedure.³
+evaluated against lived experience rather than deferred to procedure.[^c1-bowen-family-therapy-in]
 
 ## Immediate Correction
 
@@ -50,7 +50,7 @@ can be direct. Authority can retract, revise, or apologize without
 threatening systemic collapse.
 
 Corrigibility is not weakness. It is the structural condition that
-allows moral seriousness to operate without requiring infallibility.²
+allows moral seriousness to operate without requiring infallibility.[^c1-edmondson-the-fearless-organization]
 
 In such environments, judgment is exercised repeatedly and adjusted
 quickly. Mistakes are contained before they scale.
@@ -66,7 +66,7 @@ Because legitimacy is relational, it must be renewed. It cannot rely
 indefinitely on title or precedent. When authority oversteps, it risks
 immediate loss of standing. This vulnerability acts as a stabilizer.
 Leaders are constrained not only by rules, but by the possibility of
-relational rupture.¹
+relational rupture.[^c1-arendt-responsibility-and-judgment]
 
 ## Why Restraint Stabilizes
 
@@ -91,14 +91,8 @@ legitimacy within a bounded system.
 The question that follows is what happens to that density as systems
 expand.
 
-## Notes
+[^c1-arendt-responsibility-and-judgment]: Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New York: Schocken Books, 2003.
 
-¹ Hannah Arendt, *Responsibility and Judgment* — On the necessity of
-judgment in proximity and the exposure of authority to consequence.
+[^c1-edmondson-the-fearless-organization]: Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.
 
-² Amy Edmondson, *The Fearless Organization* — On feedback loops,
-psychological safety, and corrigibility in bounded teams.
-
-³ Murray Bowen, *Family Therapy in Clinical Practice* — On relational
-systems, differentiation, and visible consequence within small-group
-dynamics.
+[^c1-bowen-family-therapy-in]: Bowen, Murray. *Family Therapy in Clinical Practice*. New York: Jason Aronson, 1978.
