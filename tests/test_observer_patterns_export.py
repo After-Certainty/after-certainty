@@ -16,11 +16,11 @@ if str(_REPO / "scripts") not in sys.path:
     sys.path.insert(0, str(_REPO / "scripts"))
 
 from book_specs import (  # noqa: E402
-    load_upcoming_spec,
+    load_book_spec,
     resolve_spec_path,
     spec_formats,
     spec_pdf_engine,
-    validate_upcoming_spec,
+    validate_book_spec,
 )
 from generate_typst_manifest import (  # noqa: E402
     manifest_lines_for_units,
@@ -28,30 +28,31 @@ from generate_typst_manifest import (  # noqa: E402
 )
 
 
-def test_resolve_spec_path_finds_upcoming_yml(repo_root: Path) -> None:
-    book_dir = repo_root / "upcoming" / "observer-patterns"
+def test_resolve_spec_path_finds_book_yml(repo_root: Path) -> None:
+    book_dir = repo_root / "books" / "observer-patterns"
     spec_path = resolve_spec_path(book_dir)
     assert spec_path is not None
-    assert spec_path.name == "upcoming.yml"
+    assert spec_path.name == "book.yml"
 
 
 def test_observer_patterns_spec_is_poetry_typst_pdf(repo_root: Path) -> None:
-    spec_path = repo_root / "upcoming" / "observer-patterns" / "upcoming.yml"
-    spec = load_upcoming_spec(spec_path)
+    spec_path = repo_root / "books" / "observer-patterns" / "book.yml"
+    spec = load_book_spec(spec_path)
     assert spec["book"]["kind"] == "poetry"
+    assert spec["publishing"]["enabled"] is True
     assert spec_formats(spec) == ["pdf"]
     assert spec_pdf_engine(spec) == "typst"
 
 
 def test_poetry_spec_rejects_enabled_epub(repo_root: Path) -> None:
-    spec_path = repo_root / "upcoming" / "observer-patterns" / "upcoming.yml"
-    spec = load_upcoming_spec(spec_path)
+    spec_path = repo_root / "books" / "observer-patterns" / "book.yml"
+    spec = load_book_spec(spec_path)
     bad = dict(spec)
     bad["build"] = dict(spec["build"])
     bad["build"]["formats"] = dict(spec["build"]["formats"])
     bad["build"]["formats"]["epub"] = {"enabled": True}
     with pytest.raises(ValueError, match="poetry books support PDF"):
-        validate_upcoming_spec(bad, spec_path)
+        validate_book_spec(bad, spec_path)
 
 
 def test_parse_index_markdown_links_preserves_order() -> None:
@@ -90,7 +91,6 @@ def test_manifest_lines_for_bridge_and_poem() -> None:
     assert "#render-prose-markdown" in text
     assert '#part-bridge(render-bridge("../parts/part-i/bridge.md"))' in text
     assert '#render-markdown("../parts/part-i/poem.md")' in text
-    # Bridges already pagebreak inside part-bridge; no extra pagebreak after bridge.
     bridge_idx = text.index("part-i/bridge.md")
     poem_idx = text.index("part-i/poem.md")
     bridge_section = text[bridge_idx:poem_idx]
@@ -114,7 +114,7 @@ def test_build_routes_typst_pdf_without_pandoc(repo_root: Path, tmp_path: Path) 
                     "--repo",
                     str(repo_root),
                     "--book-dir",
-                    "upcoming/observer-patterns",
+                    "books/observer-patterns",
                     "--out-dir",
                     str(out_dir),
                     "--format",
@@ -123,9 +123,9 @@ def test_build_routes_typst_pdf_without_pandoc(repo_root: Path, tmp_path: Path) 
             ):
                 import build
 
-                (
-                    repo_root / "upcoming" / "observer-patterns" / "observer-patterns.pdf"
-                ).write_bytes(b"%PDF-1.4 test")
+                (repo_root / "books" / "observer-patterns" / "observer-patterns.pdf").write_bytes(
+                    b"%PDF-1.4 test"
+                )
                 build.main()
 
     invoked = [part for cmd in calls for part in cmd if part.endswith(".py")]
@@ -142,7 +142,7 @@ def test_build_rejects_epub_for_poetry(repo_root: Path, tmp_path: Path) -> None:
             "--repo",
             str(repo_root),
             "--book-dir",
-            "upcoming/observer-patterns",
+            "books/observer-patterns",
             "--out-dir",
             str(tmp_path / "out"),
             "--format",

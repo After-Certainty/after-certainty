@@ -288,10 +288,10 @@ import-gdoc-html:
 	@python3 tools/import_google_doc_html.py "$(DOC)" --book-dir "$(DIR)"
 
 import-observer-patterns-html:
-	@$(MAKE) --no-print-directory import-gdoc-html DOC="https://docs.google.com/document/d/1TtYERQNZ-bWmiex6kRAyyAqvSXzssYfeuHM2tGmZKoU/edit" DIR=upcoming/observer-patterns
+	@$(MAKE) --no-print-directory import-gdoc-html DOC="https://docs.google.com/document/d/1TtYERQNZ-bWmiex6kRAyyAqvSXzssYfeuHM2tGmZKoU/edit" DIR=books/observer-patterns
 
 split-observer-patterns:
-	@python3 tools/html_to_observer_patterns.py --book-dir upcoming/observer-patterns --extract-cover
+	@python3 tools/html_to_observer_patterns.py --book-dir books/observer-patterns --extract-cover
 
 install-typst:
 	@bash scripts/install_typst.sh
