@@ -1,8 +1,16 @@
 #import "@preview/cmarker:0.1.8": render
-#import "poetry.typ": poem-block, part-bridge
+#import "poetry.typ": poem-block, part-bridge, prose-block
 
 #let render-markdown(path) = {
   poem-block(render(read(path)))
+}
+
+#let render-prose-markdown(path) = {
+  prose-block(render(read(path)))
+}
+
+#let render-bridge(path) = {
+  render(read(path))
 }
 
 #let book(
@@ -13,7 +21,7 @@
 ) = {
   set page(
     paper: "us-trade",
-    margin: (x: 0.85in, y: 1in),
+    margin: (x: 0.85in, y: 0.88in),
   )
   set text(font: "Libertinus Serif", size: 11pt)
   set par(leading: 0.65em, spacing: 1.2em, justify: false)

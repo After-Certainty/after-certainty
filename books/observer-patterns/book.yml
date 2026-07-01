@@ -1,10 +1,11 @@
 version: 1
 
-upcoming:
-  status: draft
+publishing:
+  enabled: true
 
 book:
   id: observer-patterns
+  kind: poetry
   title: "Observer Patterns"
   description: "A book of patterns — things that happen when people look, decide, and follow what they see."
   author:
@@ -15,11 +16,29 @@ book:
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
 
+paths:
+  manuscript: "./index.md"
+  output: "."
+
+frontmatter:
+  generate:
+    enabled: false
+
 build:
+  typst:
+    entry: typst/main.typ
+    min_version: "0.14.0"
   formats:
     docx:
       enabled: false
     epub:
       enabled: false
     pdf:
-      enabled: false
+      enabled: true
+      pdf_engine: typst
+
+github:
+  release: true
+  release_tag: "latest"
+  artifacts:
+    - pdf

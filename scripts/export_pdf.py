@@ -17,7 +17,7 @@ if str(Path(__file__).resolve().parent) not in sys.path:
 
 from assemble import assemble_markdown_units  # noqa: E402
 from book_output_stem import stem_for_book_dir  # noqa: E402
-from book_specs import SPEC_FILE_NAME, load_any_book_spec, spec_format_config  # noqa: E402
+from book_specs import load_spec_for_book_dir, spec_format_config  # noqa: E402
 from diagram_rasterize import rasterize_book_diagrams  # noqa: E402
 
 
@@ -50,7 +50,7 @@ def main() -> None:
 
     repo = Path(args.repo).resolve()
     book_dir = (repo / args.book_dir).resolve()
-    spec = load_any_book_spec(book_dir / SPEC_FILE_NAME)
+    spec = load_spec_for_book_dir(book_dir)
     pdf_cfg = spec_format_config(spec, "pdf")
 
     stem = args.out_stem.strip() or stem_for_book_dir(book_dir.as_posix(), root=repo)

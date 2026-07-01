@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-List book directories (those with book.yml) affected by a set of changed paths.
+List book directories affected by a set of changed paths.
 
 Used by GitHub Actions to scope builds to touched books; Makefile, tools, scripts,
 schema, templates, and workflow changes rebuild everything.
@@ -27,16 +27,26 @@ if str(_TOOLS_DIR) not in sys.path:
 
 from book_output_stem import stem_for_book_dir  # noqa: E402
 from book_specs import (  # noqa: E402
-    all_books_from_specs,
-    discover_book_spec_paths,
+    ci_export_books,
     load_book_spec,
+    load_upcoming_spec,
+    resolve_spec_path,
     spec_formats,
-    spec_publish_enabled,
+    spec_pdf_engine,
 )
 
 
 def find_book_dirs(repo: Path) -> list[Path]:
-    return all_books_from_specs(repo)
+    return ci_export_books(repo)
+
+
+def load_spec_for_rel(repo: Path, book_rel: str) -> dict:
+    spec_path = resolve_spec_path((repo / book_rel).resolve())
+    if spec_path is None:
+        return {}
+    if spec_path.name == "upcoming.yml":
+        return load_upcoming_spec(spec_path)
+    return load_book_spec(spec_path)
 
 
 def triggers_full_rebuild(path: str) -> bool:
@@ -130,17 +140,13 @@ def affected_books(repo: Path, changed: list[str], all_books: list[Path]) -> lis
 
 
 def matrix_entries(repo: Path, books: list[Path]) -> list[dict[str, str]]:
-    spec_by_book_rel: dict[str, dict] = {}
-    for spec_path in discover_book_spec_paths(repo):
-        book_rel = spec_path.parent.relative_to(repo).as_posix()
-        spec_by_book_rel[book_rel] = load_book_spec(spec_path)
-
     entries = []
     for book in books:
         rel = book.relative_to(repo).as_posix()
+        spec = load_spec_for_rel(repo, rel)
         stem = stem_for_book_dir(rel, root=repo)
         slug = stem.replace("/", "-")
-        formats = set(spec_formats(spec_by_book_rel.get(rel, {})))
+        formats = set(spec_formats(spec))
         entries.append(
             {
                 "dir": rel,
@@ -149,6 +155,7 @@ def matrix_entries(repo: Path, books: list[Path]) -> list[dict[str, str]]:
                 "has_docx": "true" if "docx" in formats else "false",
                 "has_epub": "true" if "epub" in formats else "false",
                 "has_pdf": "true" if "pdf" in formats else "false",
+                "needs_typst": "true" if spec_pdf_engine(spec) == "typst" else "false",
             }
         )
     return entries
@@ -203,20 +210,14 @@ def main() -> None:
             changed = changed_paths_from_git(repo, before, args.after)
             books = affected_books(repo, changed, all_books)
 
-    # Keep only books enabled for at least one currently-supported CI format.
-    spec_by_book_rel: dict[str, dict] = {}
-    for spec_path in discover_book_spec_paths(repo):
-        book_rel = spec_path.parent.relative_to(repo).as_posix()
-        spec_by_book_rel[book_rel] = load_book_spec(spec_path)
     requested_formats = {f.strip().lower() for f in args.formats if f.strip()}
     if not requested_formats:
         requested_formats = {"docx", "epub", "pdf"}
     books = [
         b
         for b in books
-        if spec_publish_enabled(spec_by_book_rel.get(b.relative_to(repo).as_posix(), {}))
-        and requested_formats
-        & set(spec_formats(spec_by_book_rel.get(b.relative_to(repo).as_posix(), {})))
+        if requested_formats
+        & set(spec_formats(load_spec_for_rel(repo, b.relative_to(repo).as_posix())))
     ]
 
     if args.dirs:

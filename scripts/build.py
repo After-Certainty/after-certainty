@@ -19,6 +19,11 @@ for _p in (_TOOLS, _SCRIPTS):
         sys.path.insert(0, str(_p))
 
 from book_output_stem import stem_for_book_dir  # noqa: E402
+from book_specs import (  # noqa: E402
+    load_spec_for_book_rel,
+    spec_kind,
+    spec_pdf_engine,
+)
 from frontmatter_gen import generate_frontmatter_for_book  # noqa: E402
 
 
@@ -41,6 +46,7 @@ def main() -> None:
     out_dir = Path(args.out_dir).resolve()
     out_dir.mkdir(parents=True, exist_ok=True)
     stem = args.out_stem.strip() or stem_for_book_dir(book_dir.as_posix(), root=repo)
+    spec = load_spec_for_book_rel(repo, book_rel)
 
     generate_frontmatter_for_book(repo, book_rel)
 
@@ -49,6 +55,9 @@ def main() -> None:
         raise SystemExit("At least one --format is required.")
 
     for fmt in requested:
+        if spec_kind(spec) == "poetry" and fmt in ("epub", "docx"):
+            raise SystemExit("Poetry books support PDF (Typst) only.")
+
         if fmt == "docx":
             run(
                 [
@@ -78,18 +87,32 @@ def main() -> None:
             )
             shutil.copy2(book_dir / f"{stem}.epub", out_dir / f"{stem}.epub")
         elif fmt == "pdf":
-            run(
-                [
-                    sys.executable,
-                    (_ROOT / "scripts" / "export_pdf.py").as_posix(),
-                    "--repo",
-                    repo.as_posix(),
-                    "--book-dir",
-                    book_rel,
-                    "--out-stem",
-                    stem,
-                ]
-            )
+            if spec_pdf_engine(spec) == "typst":
+                run(
+                    [
+                        sys.executable,
+                        (_ROOT / "scripts" / "export_typst_pdf.py").as_posix(),
+                        "--repo",
+                        repo.as_posix(),
+                        "--book-dir",
+                        book_rel,
+                        "--out-stem",
+                        stem,
+                    ]
+                )
+            else:
+                run(
+                    [
+                        sys.executable,
+                        (_ROOT / "scripts" / "export_pdf.py").as_posix(),
+                        "--repo",
+                        repo.as_posix(),
+                        "--book-dir",
+                        book_rel,
+                        "--out-stem",
+                        stem,
+                    ]
+                )
             shutil.copy2(book_dir / f"{stem}.pdf", out_dir / f"{stem}.pdf")
         else:
             raise SystemExit(f"Unsupported format: {fmt}")
