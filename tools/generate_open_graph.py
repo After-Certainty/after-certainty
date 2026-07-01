@@ -50,7 +50,7 @@ def load_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
 
 
 def parse_color(value: Any, accent: tuple[int, int, int, int]) -> tuple[int, int, int, int]:
-    if isinstance(value, list) and len(value) in (3, 4):
+    if isinstance(value, (list, tuple)) and len(value) in (3, 4):
         nums = [int(x) for x in value]
         if len(nums) == 3:
             nums.append(255)
@@ -65,14 +65,15 @@ def parse_color(value: Any, accent: tuple[int, int, int, int]) -> tuple[int, int
 
 
 def load_book_yaml(book_dir: Path) -> dict[str, Any]:
-    spec_path = book_dir / "book.yml"
-    if not spec_path.is_file():
-        raise FileNotFoundError(f"Missing {spec_path}")
-    data = yaml.safe_load(spec_path.read_text(encoding="utf-8")) or {}
-    book = data.get("book") or {}
-    if not isinstance(book, dict):
-        raise ValueError(f"Invalid book section in {spec_path}")
-    return book
+    for name in ("book.yml", "upcoming.yml"):
+        spec_path = book_dir / name
+        if spec_path.is_file():
+            data = yaml.safe_load(spec_path.read_text(encoding="utf-8")) or {}
+            book = data.get("book") or {}
+            if not isinstance(book, dict):
+                raise ValueError(f"Invalid book section in {spec_path}")
+            return book
+    raise FileNotFoundError(f"Missing book.yml or upcoming.yml in {book_dir}")
 
 
 def load_config(book_dir: Path) -> dict[str, Any]:
