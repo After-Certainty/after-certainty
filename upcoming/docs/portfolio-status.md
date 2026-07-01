@@ -12,6 +12,7 @@ Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a sep
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
+| [What We Cannot See](../what-we-cannot-see/) | Phase 0 | Planning scaffold: 13 chapters, 3 parts, planning docs | Author architectural review; resolve target length | [status](../what-we-cannot-see/docs/status.md) |
 | [Why Diversity Matters](../../books/why-diversity-matters/) | Phase 0–1 | Essay edition in `books/`; outline scaffolds + interview questions | Author intro + chapter drafts | [status](../../books/why-diversity-matters/docs/status.md) |
 | [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Phase 5 | Essay edition promoted; agent pipeline complete | Author review; export smoke | [status](../../books/when-interpretation-no-longer-matters/docs/status.md) |
 
