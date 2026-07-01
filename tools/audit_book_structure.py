@@ -60,9 +60,7 @@ def audit_book(book_dir: Path) -> BookAudit:
     has_bm_dir = (book_dir / "back-matter").is_dir()
 
     numbered_root = sum(
-        1
-        for p in book_dir.glob("*.md")
-        if p.name != "index.md" and NUMBERED_ROOT_RE.match(p.name)
+        1 for p in book_dir.glob("*.md") if p.name != "index.md" and NUMBERED_ROOT_RE.match(p.name)
     )
 
     notes: list[str] = []
