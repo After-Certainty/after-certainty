@@ -18,7 +18,7 @@ In such environments, predictive quality still matters, but corrective
 speed matters more.
 
 What preserves performance is not being right early. It is becoming less
-wrong quickly without catastrophic cost.¹
+wrong quickly without catastrophic cost.[^c5-source-donella-h-meadows]
 
 Adaptive systems survive by learning faster than their predictions decay.
 
@@ -63,7 +63,7 @@ predictively sophisticated. Not because forecasting is harmful, but
 because confidence extracted from forecasting is over-leveraged.
 
 In that condition, prediction does not reduce uncertainty. It suppresses
-the behaviors needed to adapt to uncertainty.³
+the behaviors needed to adapt to uncertainty.[^c5-source-philip-e-tetlock]
 
 ### Feedback Latency Is a Strategic Variable
 
@@ -89,7 +89,7 @@ It depends on:
 Without these, “learning culture” is mostly language.
 
 With them, systems can remain adaptive even when predictive confidence
-was initially misplaced.⁴
+was initially misplaced.[^c5-source-eric-ries-the]
 
 ### Action as Probe, Not Proof
 
@@ -115,7 +115,7 @@ The distinction changes everything:
 - and willingness to stop.
 
 Serious systems are not anti-decision. They are anti-irreversible
-decision before evidence gradient improves.⁵
+decision before evidence gradient improves.[^c5-source-nassim-nicholas-taleb]
 
 ### The Economics of Small Losses
 
@@ -137,7 +137,7 @@ centralized collapse.
 This is not merely financial. It is moral.
 
 Bounded correction keeps the cost of being wrong with those authorized to
-act, rather than externalizing it downstream to less powerful actors.⁶
+act, rather than externalizing it downstream to less powerful actors.[^c5-source-diane-vaughan-the]
 
 ### Throughput vs. Adaptation
 
@@ -164,7 +164,7 @@ Serious systems separate these dimensions explicitly:
 - and correction responsiveness.
 
 Without that separation, speed becomes self-justifying and learning
-becomes decorative.⁷
+becomes decorative.[^c5-source-eliyahu-m-goldratt]
 
 ### The Practical Discipline
 
@@ -188,22 +188,17 @@ These practices do not eliminate uncertainty.
 They keep uncertainty from being converted into irreversible confidence.
 
 That is the operational meaning of seriousness after certainty: preserve
-the ability to learn faster than your commitments harden.⁸
+the ability to learn faster than your commitments harden.[^c5-forsgren-jez-humble-and]
 
-## End Notes
+[^c5-source-donella-h-meadows]: Meadows, Donella H. *Thinking in Systems: A Primer*. White River Junction, VT: Chelsea Green Publishing, 2008.
+[^c5-source-philip-e-tetlock]: Tetlock, Philip E., and Dan Gardner. *Superforecasting: The Art and Science of Prediction*. New York: Crown, 2015.
 
-1.  Donella H. Meadows. Thinking in Systems. 2008. Chelsea Green Publishing.
+[^c5-source-eric-ries-the]: Ries, Eric. *The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses*. New York: Crown Business, 2011.
 
-2.  Nate Silver. The Signal and the Noise. 2012. Penguin Press.
+[^c5-source-nassim-nicholas-taleb]: Taleb, Nassim Nicholas. *Antifragile: Things That Gain from Disorder*. New York: Random House, 2012.
 
-3.  Philip E. Tetlock and Dan Gardner. Superforecasting. 2015. Crown.
+[^c5-source-diane-vaughan-the]: Vaughan, Diane. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. Chicago: University of Chicago Press, 1996.
 
-4.  Eric Ries. The Lean Startup. 2011. Crown Business.
+[^c5-source-eliyahu-m-goldratt]: Goldratt, Eliyahu M., and Jeff Cox. *The Goal: A Process of Ongoing Improvement*. Great Barrington, MA: North River Press, 1984.
 
-5.  Nassim Nicholas Taleb. Antifragile. 2012. Random House.
-
-6.  Diane Vaughan. The Challenger Launch Decision. 1996. University of Chicago Press.
-
-7.  Eliyahu M. Goldratt and Jeff Cox. The Goal. 1984. North River Press.
-
-8.  Nicole Forsgren, Jez Humble, and Gene Kim. Accelerate. 2018. IT Revolution Press.
+[^c5-forsgren-jez-humble-and]: Forsgren, Nicole, Jez Humble, and Gene Kim. *Accelerate: The Science of Lean Software and DevOps*. Portland, OR: IT Revolution Press, 2018.

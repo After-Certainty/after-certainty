@@ -18,7 +18,7 @@ In smaller systems—slower systems, systems closer to human
 scale—learning did include reversal. People tried things, watched what
 happened, and changed course. Mistakes were visible. Feedback arrived
 quickly. Commitments were limited. Undoing was inconvenient, but
-possible. Competence included knowing when to stop.¹
+possible. Competence included knowing when to stop.[^c1-source-peter-m-senge]
 
 That world still exists in pockets. But it is no longer the world most
 consequential decisions inhabit.
@@ -42,7 +42,7 @@ consistency.
 
 Actions become easier to justify. Decisions become easier to defend.
 Coordination becomes easier to achieve. Disagreement becomes harder to
-sustain. Ambiguity collapses into narrative.²
+sustain. Ambiguity collapses into narrative.[^c1-source-james-c-scott]
 
 None of this is inherently bad. Much of it is necessary for large
 systems—and large undertakings of any kind—to function at all.
@@ -53,7 +53,7 @@ corrigible.
 Better information reliably produces **coherence**, not correctness. It
 aligns people around a shared frame. It sharpens attention toward
 certain variables and away from others. It increases confidence that the
-right problem is being solved, even when that confidence is premature.³
+right problem is being solved, even when that confidence is premature.[^c1-source-donella-h-meadows]
 
 As coherence increases, hesitation becomes less legitimate.
 
@@ -81,7 +81,7 @@ costs are unevenly distributed.
 
 This shift did not occur because people stopped valuing learning. It
 occurred because reversal began to interfere with other things systems
-needed in order to function at scale.⁴
+needed in order to function at scale.[^c1-source-charles-perrow-normal]
 
 Reversal disrupts coordination. It breaks narratives. It complicates
 accountability. It threatens authority—whether that authority belongs to
@@ -101,7 +101,7 @@ This shift is often hidden by a subtle substitution.
 Many systems evaluate decisions by asking whether they were made
 reasonably given the information available at the time. This standard
 looks backward. It asks whether a decision can be justified after the
-fact.⁵
+fact.[^c1-thinking-fast-and-slow]
 
 That question is answerable. It can be documented, audited, and
 defended. It travels well across distance and time.
@@ -128,7 +128,7 @@ For a system to remain corrigible, it must be able to interrupt itself.
 That capacity depends on what systems theory often calls **slack**:
 uncommitted capacity that has not yet been fully allocated, optimized,
 or entangled. Slack is not waste. It is the margin that allows pause,
-interruption, and reversal without collapse.⁶
+interruption, and reversal without collapse.[^c1-source-tom-demarco-and]
 
 Slack is only the technical condition. What matters is what it enables.
 
@@ -167,7 +167,7 @@ and social friction for interrupting momentum.
 If that becomes intolerable, the cost shifts outward. Harm accumulates
 downstream. It arrives later, spreads unevenly, and is harder to
 attribute. The system continues to perform internally while consequences
-are paid by those without voice or recourse.⁷
+are paid by those without voice or recourse.[^c1-source-diane-vaughan-the]
 
 In both cases, the system remains coherent. It simply stops feeling its
 own errors.
@@ -186,7 +186,7 @@ coordination. Interruptibility loses short-term competitions.
 
 Systems that optimized for legibility, speed, and defensibility—often at
 the expense of exposure to consequence—outperformed those that preserved
-hesitation and undoing.⁸
+hesitation and undoing.[^c1-source-eliyahu-m-goldratt]
 
 Over time, those survival strategies hardened into definitions of
 success. What began as adaptation became value. Decisiveness became
@@ -218,20 +218,18 @@ but how to act responsibly when knowing more makes stopping harder.
 What follows does not restore certainty. It examines what remains when
 certainty can no longer be trusted to protect us from ourselves.
 
-## End Notes
+[^c1-source-peter-m-senge]: Senge, Peter M. *The Fifth Discipline: The Art and Practice of the Learning Organization*. New York: Doubleday/Currency, 1990.
 
-1.  Peter M. Senge. The Fifth Discipline. 1990. Doubleday/Currency.
+[^c1-source-james-c-scott]: Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press, 1998.
 
-2.  James C. Scott. Seeing Like a State. 1998. Yale University Press.
+[^c1-source-donella-h-meadows]: Meadows, Donella H. *Thinking in Systems: A Primer*. White River Junction, VT: Chelsea Green Publishing, 2008.
 
-3.  Donella H. Meadows. Thinking in Systems. 2008. Chelsea Green Publishing.
+[^c1-source-charles-perrow-normal]: Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books, 1984.
 
-4.  Charles Perrow. Normal Accidents. 1984. Princeton University Press.
+[^c1-thinking-fast-and-slow]: Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011.
 
-5.  Daniel Kahneman. Thinking, Fast and Slow. 2011. Farrar, Straus and Giroux.
+[^c1-source-tom-demarco-and]: DeMarco, Tom, and Timothy R. Lister. *Peopleware: Productive Projects and Teams*. New York: Dorset House, 1987.
 
-6.  Tom DeMarco and Timothy R. Lister. Peopleware. 1987. Dorset House.
+[^c1-source-diane-vaughan-the]: Vaughan, Diane. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. Chicago: University of Chicago Press, 1996.
 
-7.  Diane Vaughan. The Challenger Launch Decision. 1996. University of Chicago Press.
-
-8.  Eliyahu M. Goldratt and Jeff Cox. The Goal. 1984. North River Press.
+[^c1-source-eliyahu-m-goldratt]: Goldratt, Eliyahu M., and Jeff Cox. *The Goal: A Process of Ongoing Improvement*. Great Barrington, MA: North River Press, 1984.

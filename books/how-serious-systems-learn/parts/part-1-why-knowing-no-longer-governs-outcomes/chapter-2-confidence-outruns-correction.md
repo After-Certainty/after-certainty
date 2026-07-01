@@ -17,7 +17,7 @@ interruptibility. It travels through dashboards, roadmaps, executive
 language, and public narrative faster than doubt can travel through
 review, feedback, or dissent. What appears as decisiveness is often
 structural acceleration: a system becoming better at moving than at
-revising.¹
+revising.[^c2-source-andrew-s-grove]
 
 ### What Confidence Organizes
 
@@ -37,7 +37,7 @@ competence.
 
 But what confidence organizes first is alignment, not truth.
 
-A system can be wrong in a coherent direction for a long time.²
+A system can be wrong in a coherent direction for a long time.[^c2-source-donella-h-meadows]
 
 ### The Institutional Production of Certainty
 
@@ -61,7 +61,7 @@ reverses.
 Before declaration, proponents must justify action.
 After declaration, critics must justify interruption.
 
-That reversal is where confidence begins to outrun correction.³
+That reversal is where confidence begins to outrun correction.[^c2-source-dietrich-d-rner]
 
 ### Why Decisiveness Wins the Local Competition
 
@@ -83,7 +83,7 @@ A team that slows for disconfirmation appears inefficient now.
 The asymmetry is structural, not moral.
 
 Even well-intentioned actors are pushed toward commitments that are easy
-to defend and difficult to reverse.⁴
+to defend and difficult to reverse.[^c2-source-gary-klein-sources]
 
 ### The Social Cost of Saying “Stop”
 
@@ -105,7 +105,7 @@ likely.
 
 Systems then misread silence as agreement.
 
-What they are often observing is cost-avoidance under asymmetric power.⁵
+What they are often observing is cost-avoidance under asymmetric power.[^c2-source-amy-c-edmondson]
 
 ### Correction Lag and the Illusion of Control
 
@@ -127,7 +127,7 @@ costly enough to defer.
 
 The system still “learns,” but that learning is confined to
 implementation details rather than directional assumptions. It adjusts
-within the frame instead of revising the frame itself.⁶
+within the frame instead of revising the frame itself.[^c2-source-diane-vaughan-the]
 
 ### From Humility to Performance
 
@@ -150,7 +150,7 @@ professional virtue independent of accuracy.
 
 Seriousness is then confused with certainty.
 
-And certainty is confused with control.⁷
+And certainty is confused with control.[^c2-source-james-c-scott]
 
 ### What Confidence Displaces
 
@@ -169,7 +169,7 @@ narrative continuity.
 At that point, system behavior may remain coordinated and even effective
 on selected metrics. But it is no longer reliably corrigible.
 
-Confidence has become structurally safer than correction.⁸
+Confidence has become structurally safer than correction.[^c2-source-charles-perrow-normal]
 
 ### The Discipline This Demands
 
@@ -204,20 +204,18 @@ faster than correction. Chapter 3 follows that imbalance into operating
 failure: corrective loops erode gradually, then fail suddenly once their
 remaining friction can no longer absorb momentum.
 
-## End Notes
+[^c2-source-andrew-s-grove]: Grove, Andrew S. *High Output Management*. New York: Random House, 1983.
 
-1.  Andrew S. Grove. High Output Management. 1983. Random House.
+[^c2-source-donella-h-meadows]: Meadows, Donella H. *Thinking in Systems: A Primer*. White River Junction, VT: Chelsea Green Publishing, 2008.
 
-2.  Donella H. Meadows. Thinking in Systems. 2008. Chelsea Green Publishing.
+[^c2-source-dietrich-d-rner]: Dörner, Dietrich. *The Logic of Failure: Recognizing and Avoiding Error in Complex Situations*. New York: Basic Books, 1996.
 
-3.  Dietrich Dörner. The Logic of Failure. 1996. Basic Books.
+[^c2-source-gary-klein-sources]: Klein, Gary. *Sources of Power: How People Make Decisions*. Cambridge, MA: MIT Press, 1998.
 
-4.  Gary Klein. Sources of Power. 1998. MIT Press.
+[^c2-source-amy-c-edmondson]: Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.
 
-5.  Amy C. Edmondson. The Fearless Organization. 2018. Wiley.
+[^c2-source-diane-vaughan-the]: Vaughan, Diane. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. Chicago: University of Chicago Press, 1996.
 
-6.  Diane Vaughan. The Challenger Launch Decision. 1996. University of Chicago Press.
+[^c2-source-james-c-scott]: Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press, 1998.
 
-7.  James C. Scott. Seeing Like a State. 1998. Yale University Press.
-
-8.  Charles Perrow. Normal Accidents. 1984. Princeton University Press.
+[^c2-source-charles-perrow-normal]: Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books, 1984.

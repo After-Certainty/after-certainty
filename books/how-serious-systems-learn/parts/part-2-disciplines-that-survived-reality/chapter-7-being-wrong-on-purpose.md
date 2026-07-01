@@ -44,7 +44,7 @@ throughput. It creates local discomfort. It reallocates attention from
 delivery to re-evaluation.
 
 Without deliberate design, systems will always choose cheaper certainty
-over expensive correction.²
+over expensive correction.[^c7-thinking-fast-and-slow]
 
 ### Falsification as a Design Choice
 
@@ -68,7 +68,7 @@ With these, error becomes informative before it becomes catastrophic.
 The key move is temporal:
 
 falsification is most valuable before identity, investment, and status
-become fully attached to a course of action.³
+become fully attached to a course of action.[^c7-source-eric-ries-the]
 
 ### Why Systems Resist Being Wrong
 
@@ -89,7 +89,7 @@ So systems develop protective habits:
 
 By then, learning has narrowed to damage control.
 
-Seriousness requires resisting this sequence before it hardens.⁴
+Seriousness requires resisting this sequence before it hardens.[^c7-source-diane-vaughan-the]
 
 ### The Identity Problem
 
@@ -109,7 +109,7 @@ This is why epistemic humility cannot be reduced to personal virtue.
 Humility has to be made institutionally survivable.
 
 A system that punishes changed minds will generate performative certainty
-from otherwise thoughtful people.⁵
+from otherwise thoughtful people.[^c7-source-carol-tavris-and]
 
 ### Safe-to-Fail vs. Fail-Safe
 
@@ -135,7 +135,7 @@ Examples include:
 
 These are not anti-confidence devices.
 
-They are anti-delusion devices.⁶
+They are anti-delusion devices.[^c7-source-nassim-nicholas-taleb]
 
 ### The Social Contract of Disconfirmation
 
@@ -152,7 +152,7 @@ learn, not to honest revision under uncertainty.
 Where this contract is credible, bad news travels faster.
 Where it is not, systems become optimistic by filtration.
 
-Optimism by filtration is epistemic decay disguised as culture.⁷
+Optimism by filtration is epistemic decay disguised as culture.[^c7-source-amy-c-edmondson]
 
 ### From Error Detection to Error Use
 
@@ -175,7 +175,7 @@ not occurred.
 If error updates language but not allocation, learning has not occurred.
 
 Serious systems track not merely whether problems were found, but whether
-finding them changed the future distribution of risk.⁸
+finding them changed the future distribution of risk.[^c7-source-sidney-dekker-drift]
 
 ### The Discipline in Practice
 
@@ -196,21 +196,16 @@ They make ambition less brittle.
 The goal is not to celebrate error.
 The goal is to make truth operationally actionable before momentum
 converts uncertainty into inevitability.
+[^c7-thinking-fast-and-slow]: Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011.
 
-## End Notes
+[^c7-source-eric-ries-the]: Ries, Eric. *The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses*. New York: Crown Business, 2011.
 
-1.  Karl Popper. The Logic of Scientific Discovery. 1959. Hutchinson.
+[^c7-source-diane-vaughan-the]: Vaughan, Diane. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. Chicago: University of Chicago Press, 1996.
 
-2.  Daniel Kahneman. Thinking, Fast and Slow. 2011. Farrar, Straus and Giroux.
+[^c7-source-carol-tavris-and]: Tavris, Carol, and Elliot Aronson. *Mistakes Were Made (But Not by Me): Why We Justify Foolish Beliefs, Bad Decisions, and Hurtful Acts*. Orlando, FL: Harcourt, 2007.
 
-3.  Eric Ries. The Lean Startup. 2011. Crown Business.
+[^c7-source-nassim-nicholas-taleb]: Taleb, Nassim Nicholas. *Antifragile: Things That Gain from Disorder*. New York: Random House, 2012.
 
-4.  Diane Vaughan. The Challenger Launch Decision. 1996. University of Chicago Press.
+[^c7-source-amy-c-edmondson]: Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.
 
-5.  Carol Tavris and Elliot Aronson. Mistakes Were Made (But Not by Me). 2007. Harcourt.
-
-6.  Nassim Nicholas Taleb. Antifragile. 2012. Random House.
-
-7.  Amy C. Edmondson. The Fearless Organization. 2018. Wiley.
-
-8.  Sidney Dekker. Drift into Failure. 2011. Ashgate.
+[^c7-source-sidney-dekker-drift]: Dekker, Sidney. *Drift into Failure: From Hunting Broken Components to Understanding Complex Systems*. Farnham, UK: Ashgate, 2011.

@@ -20,7 +20,7 @@ How do you remain corrigible when visible failure is intolerable?
 
 Their answer is not certainty.
 
-It is disciplined humility made operational through structure.¹
+It is disciplined humility made operational through structure.[^c8-source-karl-e-weick]
 
 ### Reliability Is Not the Absence of Error
 
@@ -40,7 +40,7 @@ illusions:
 Serious high-reliability practice rejects both.
 
 It treats uncertainty disclosure as a safety function, not a status
-threat.²
+threat.[^c8-source-institute-of-medicine]
 
 ### The Discipline of Preoccupation with Failure
 
@@ -58,7 +58,7 @@ Internally, it is how reliability is preserved without fantasy.
 Preoccupation with failure is not fear culture. It is attention
 discipline:
 
-a refusal to let routine success erase sensitivity to emerging risk.³
+a refusal to let routine success erase sensitivity to emerging risk.[^c8-source-erik-hollnagel-safety]
 
 ### Reluctance to Simplify
 
@@ -79,7 +79,7 @@ misdiagnosis.
 This is operationally expensive.
 
 But premature simplification creates a deeper cost: it closes corrective
-options while confidence is still unwarranted.⁴
+options while confidence is still unwarranted.[^c8-source-sidney-dekker-the]
 
 ### Sensitivity to Operations
 
@@ -101,7 +101,7 @@ These are not “soft” concerns.
 They are leading indicators of system brittleness.
 
 When operational sensitivity weakens, institutions continue to satisfy
-formal compliance while drifting out of practical control.⁵
+formal compliance while drifting out of practical control.[^c8-source-charles-perrow-normal]
 
 ### Deference to Expertise Under Hierarchy
 
@@ -122,7 +122,7 @@ correction is most needed.
 High-reliability practice therefore codifies conditions under which local
 operators can pause, escalate, or block action without career penalty.
 
-That is humility made binding.⁶
+That is humility made binding.[^c8-source-amy-c-edmondson]
 
 ### Redundancy, Slack, and the Politics of Waste
 
@@ -145,7 +145,7 @@ absorb surprise. At that point, what looked like waste was actually
 corrigibility infrastructure.
 
 High-reliability systems protect this infrastructure politically, not
-just technically.⁷
+just technically.[^c8-source-atul-gawande-the]
 
 ### Incident Learning Without Ritual Decay
 
@@ -168,7 +168,7 @@ They do not ask only, “What happened?”
 They ask, “What would make this harder to repeat under normal pressure?”
 
 Without that translation, learning becomes archival rather than
-protective.⁸
+protective.[^c8-source-sidney-dekker-drift]
 
 ### The Moral Shape of Reliability
 
@@ -189,7 +189,7 @@ It is technical rigor governed by an ethical stance toward consequence.
 When that stance weakens, reliability practices persist as form while
 their protective function erodes.
 
-The system remains sophisticated, but less serious.⁹
+The system remains sophisticated, but less serious.[^c8-source-nancy-leveson-engineering]
 
 ### What Transfers Beyond High-Reliability Domains
 
@@ -222,22 +222,20 @@ these practices share across method and domain — and which common
 operating commitments distinguish corrigible systems from merely
 confident ones.
 
-## End Notes
+[^c8-source-karl-e-weick]: Weick, Karl E., and Kathleen M. Sutcliffe. *Managing the Unexpected: Sustained Performance in a Complex World*. 3rd ed. Hoboken, NJ: Jossey-Bass, 2015.
 
-1.  Karl E. Weick and Kathleen M. Sutcliffe. Managing the Unexpected. 2015. Jossey-Bass.
+[^c8-source-institute-of-medicine]: Institute of Medicine. *To Err Is Human: Building a Safer Health System*. Washington, DC: National Academies Press, 1999. https://doi.org/10.17226/9728.
 
-2.  Institute of Medicine. To Err Is Human. 1999. National Academies Press. https://doi.org/10.17226/9728.
+[^c8-source-erik-hollnagel-safety]: Hollnagel, Erik. *Safety-I and Safety-II: The Past and Future of Safety Management*. Farnham, UK: Ashgate, 2014.
 
-3.  Erik Hollnagel. Safety-I and Safety-II. 2014. Ashgate.
+[^c8-source-sidney-dekker-the]: Dekker, Sidney. *The Field Guide to Understanding Human Error*. 2nd ed. Farnham, UK: Ashgate, 2006.
 
-4.  Sidney Dekker. The Field Guide to Understanding Human Error. 2006. Ashgate.
+[^c8-source-charles-perrow-normal]: Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books, 1984.
 
-5.  Charles Perrow. Normal Accidents. 1984. Princeton University Press.
+[^c8-source-amy-c-edmondson]: Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.
 
-6.  Amy C. Edmondson. The Fearless Organization. 2018. Wiley.
+[^c8-source-atul-gawande-the]: Gawande, Atul. *The Checklist Manifesto: How to Get Things Right*. New York: Metropolitan Books, 2009.
 
-7.  Atul Gawande. The Checklist Manifesto. 2009. Metropolitan Books.
+[^c8-source-sidney-dekker-drift]: Dekker, Sidney. *Drift into Failure: From Hunting Broken Components to Understanding Complex Systems*. Farnham, UK: Ashgate, 2011.
 
-8.  Sidney Dekker. Drift into Failure. 2011. Ashgate.
-
-9.  Nancy Leveson. Engineering a Safer World. 2011. MIT Press.
+[^c8-source-nancy-leveson-engineering]: Leveson, Nancy G. *Engineering a Safer World: Systems Thinking Applied to Safety*. Cambridge, MA: MIT Press, 2011.

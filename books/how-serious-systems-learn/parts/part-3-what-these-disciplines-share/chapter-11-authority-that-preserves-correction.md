@@ -18,7 +18,7 @@ being corrected.
 
 If feedback cannot change authority, authority stops learning.
 If authority stops learning, system error becomes cumulative rather than
-corrigible.¹
+corrigible.[^c11-source-hannah-arendt-responsibility]
 
 Chapter 11 closes Part III by asking a harder question:
 
@@ -41,7 +41,7 @@ It determines:
 Seen this way, authority is an error-handling architecture.
 
 It can either amplify confirmation pressure or preserve correction
-capacity. There is no neutral option.²
+capacity. There is no neutral option.[^c11-source-karl-e-weick]
 
 ### The Four Authority Failures
 
@@ -64,7 +64,7 @@ Systems create reporting channels that surface concerns but do not alter
 decision pathways, producing performative openness.
 
 None requires malicious actors.
-All can emerge from ordinary governance under pressure.³
+All can emerge from ordinary governance under pressure.[^c11-source-diane-vaughan-the]
 
 ### The Difference Between Decisive and Correctable
 
@@ -85,7 +85,7 @@ Serious systems require both.
 When decisiveness is rewarded without correctability safeguards,
 institutions become better at committing than at learning.
 
-Authority then appears strong while adaptability quietly collapses.⁴
+Authority then appears strong while adaptability quietly collapses.[^c11-source-peter-m-senge]
 
 ### Designing Authority for Contestability
 
@@ -105,7 +105,7 @@ These mechanisms slow certain decisions.
 They also prevent institutions from confusing momentum with legitimacy.
 
 Without them, dissent must rely on personal courage.
-With them, dissent becomes part of system function.⁵
+With them, dissent becomes part of system function.[^c11-source-amy-c-edmondson]
 
 ### The Cost Distribution Question
 
@@ -124,7 +124,7 @@ below.
 This is a moral and operational threshold:
 
 If authority externalizes the cost of correction, it will lose access to
-truth exactly where truth is most needed.⁶
+truth exactly where truth is most needed.[^c11-source-james-c-scott]
 
 ### Authority and Temporal Discipline
 
@@ -145,7 +145,7 @@ It creates deliberate temporal slack:
 - and protected time to integrate weak signals before narrative closure.
 
 In uncertain systems, temporal discipline is a form of ethical discipline.
-It prevents speed from becoming moral exemption.⁷
+It prevents speed from becoming moral exemption.[^c11-source-david-graeber-on]
 
 ### From Personal Virtue to Institutional Pattern
 
@@ -167,7 +167,7 @@ They embed correction into authority pattern:
 - and how learning is rewarded over image protection.
 
 The question is not whether leaders care.
-The question is whether system design allows caring to alter trajectory.⁸
+The question is whether system design allows caring to alter trajectory.[^c11-source-philip-selznick-leadership]
 
 ### Indicators of Corrective Authority
 
@@ -184,7 +184,7 @@ If these behaviors are absent, authority may be efficient but not
 serious.
 
 Serious authority is recognizable not by constant agreement, but by
-visible, survivable revision.⁹
+visible, survivable revision.[^c11-source-sidney-dekker-drift]
 
 ### Transition
 
@@ -201,22 +201,20 @@ eventually liability?
 Chapter 12 opens with the first failure mode: methods outliving the
 conditions that once made them truthful.
 
-## End Notes
+[^c11-source-hannah-arendt-responsibility]: Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New York: Schocken Books, 2003.
 
-1.  Hannah Arendt. Responsibility and Judgment. 2003. Schocken Books.
+[^c11-source-karl-e-weick]: Weick, Karl E., and Kathleen M. Sutcliffe. *Managing the Unexpected: Sustained Performance in a Complex World*. 3rd ed. Hoboken, NJ: Jossey-Bass, 2015.
 
-2.  Karl E. Weick and Kathleen M. Sutcliffe. Managing the Unexpected. 2015. Jossey-Bass.
+[^c11-source-diane-vaughan-the]: Vaughan, Diane. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. Chicago: University of Chicago Press, 1996.
 
-3.  Diane Vaughan. The Challenger Launch Decision. 1996. University of Chicago Press.
+[^c11-source-peter-m-senge]: Senge, Peter M. *The Fifth Discipline: The Art and Practice of the Learning Organization*. New York: Doubleday/Currency, 1990.
 
-4.  Peter M. Senge. The Fifth Discipline. 1990. Doubleday/Currency.
+[^c11-source-amy-c-edmondson]: Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.
 
-5.  Amy C. Edmondson. The Fearless Organization. 2018. Wiley.
+[^c11-source-james-c-scott]: Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press, 1998.
 
-6.  James C. Scott. Seeing Like a State. 1998. Yale University Press.
+[^c11-source-david-graeber-on]: Graeber, David. "On the Phenomenon of Bullshit Jobs." *Strike! Magazine*, August 17, 2013.
 
-7.  David Graeber. On the Phenomenon of Bullshit Jobs. 2013. Strike! Magazine.
+[^c11-source-philip-selznick-leadership]: Selznick, Philip. *Leadership in Administration: A Sociological Interpretation*. New York: Harper & Row, 1957.
 
-8.  Philip Selznick. Leadership in Administration. 1957. Harper & Row.
-
-9.  Sidney Dekker. Drift into Failure. 2011. Ashgate.
+[^c11-source-sidney-dekker-drift]: Dekker, Sidney. *Drift into Failure: From Hunting Broken Components to Understanding Complex Systems*. Farnham, UK: Ashgate, 2011.

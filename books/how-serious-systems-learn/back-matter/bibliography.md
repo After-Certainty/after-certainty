@@ -1,46 +1,123 @@
-# Bibliography Metadata Sheet
+# **Bibliography**
 
-Canonical reference records used in chapter endnotes.
+- Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn.
+  New York: Schocken Books, 2003.
 
-| Author(s) | Title | Year | Publisher / Journal | DOI / URL |
-| --- | --- | --- | --- | --- |
-| Hannah Arendt | Responsibility and Judgment | 2003 | Schocken Books | https://www.penguinrandomhouse.com/books/187058/responsibility-and-judgment-by-hannah-arendt/ |
-| Peter L. Berger; Thomas Luckmann | The Social Construction of Reality | 1966 | Anchor Books | https://www.penguinrandomhouse.com/books/301879/the-social-construction-of-reality-by-peter-l-berger-and-thomas-luckmann/ |
-| Jim Collins | Good to Great | 2001 | HarperBusiness | https://www.harpercollins.com/products/good-to-great-jim-collins |
-| Tom DeMarco; Timothy R. Lister | Peopleware | 1987 | Dorset House | https://www.oreilly.com/library/view/peopleware-3rd-edition/9780133440707/ |
-| Amy C. Edmondson | The Fearless Organization | 2018 | Wiley | https://www.wiley.com/en-us/The+Fearless+Organization-p-9781119477243 |
-| Dietrich Dörner | The Logic of Failure | 1996 | Basic Books | https://www.perseusbooks.com/titles/dietrich-dorner/the-logic-of-failure/9780465055952/ |
-| Sidney Dekker | Drift into Failure | 2011 | Ashgate | https://www.routledge.com/Drift-into-Failure-From-Hunting-Broken-Components-to-Understanding-Complex-Systems/Dekker/p/book/9781409422212 |
-| Sidney Dekker | The Field Guide to Understanding Human Error | 2006 | Ashgate | https://www.routledge.com/The-Field-Guide-to-Understanding-Human-Error/Dekker/p/book/9780754648261 |
-| Liam Fahey; Robert M. Randall | Learning from the Future | 1998 | Wiley | https://www.wiley.com/en-us/Learning+from+the+Future%3A+Competitive+Foresight+Scenarios-p-9780471196694 |
-| Nicole Forsgren; Jez Humble; Gene Kim | Accelerate | 2018 | IT Revolution Press | https://itrevolution.com/product/accelerate/ |
-| Atul Gawande | The Checklist Manifesto | 2009 | Metropolitan Books | https://us.macmillan.com/books/9780312430000/thechecklistmanifesto |
-| Eliyahu M. Goldratt; Jeff Cox | The Goal | 1984 | North River Press | https://www.routledge.com/The-Goal-A-Process-of-Ongoing-Improvement/Goldratt-Cox/p/book/9781138032980 |
-| David Graeber | On the Phenomenon of Bullshit Jobs | 2013 | Strike! Magazine | https://strikemag.org/bullshit-jobs/ |
-| Andrew S. Grove | High Output Management | 1983 | Random House | https://www.penguinrandomhouse.com/books/324004/high-output-management-by-andrew-s-grove/ |
-| Erik Hollnagel | Safety-I and Safety-II | 2014 | Ashgate | https://www.routledge.com/Safety-I-and-Safety-II-The-Past-and-Future-of-Safety-Management/Hollnagel/p/book/9781472423086 |
-| Daniel Kahneman | Thinking, Fast and Slow | 2011 | Farrar, Straus and Giroux | https://us.macmillan.com/books/9780374533558/thinkingfastandslow |
-| Gary Klein | Sources of Power | 1998 | MIT Press | https://mitpress.mit.edu/9780262611467/sources-of-power/ |
-| Nancy Leveson | Engineering a Safer World | 2011 | MIT Press | https://mitpress.mit.edu/9780262016620/engineering-a-safer-world/ |
-| Donella H. Meadows | Thinking in Systems | 2008 | Chelsea Green Publishing | https://www.chelseagreen.com/product/thinking-in-systems/ |
-| Jerry Z. Muller | The Tyranny of Metrics | 2018 | Princeton University Press | https://press.princeton.edu/books/hardcover/9780691174953/the-tyranny-of-metrics |
-| Institute of Medicine | To Err Is Human | 1999 | National Academies Press | https://doi.org/10.17226/9728 |
-| Charles Perrow | Normal Accidents | 1984 | Princeton University Press | https://press.princeton.edu/books/paperback/9780691004120/normal-accidents |
-| Karl Popper | The Logic of Scientific Discovery | 1959 | Hutchinson | https://www.routledge.com/The-Logic-of-Scientific-Discovery/Popper/p/book/9780415278448 |
-| Eric Ries | The Lean Startup | 2011 | Crown Business | https://theleanstartup.com/book |
-| Phil Rosenzweig | The Halo Effect | 2007 | Free Press | https://www.simonandschuster.com/books/The-Halo-Effect/Phil-Rosenzweig/9781416530320 |
-| James C. Scott | Seeing Like a State | 1998 | Yale University Press | https://yalebooks.yale.edu/book/9780300246750/seeing-like-a-state/ |
-| Donald A. Schon | The Reflective Practitioner | 1983 | Basic Books | https://www.basicbooks.com/titles/donald-a-schon/the-reflective-practitioner/9780465068785/ |
-| Philip Selznick | Leadership in Administration | 1957 | Harper & Row | https://rowman.com/ISBN/9781610272101/Leadership-in-Administration-A-Sociological-Interpretation |
-| Peter M. Senge | The Fifth Discipline | 1990 | Doubleday/Currency | https://www.penguinrandomhouse.com/books/16022/the-fifth-discipline-by-peter-m-senge/ |
-| Betsy Beyer; Chris Jones; Jennifer Petoff; Niall Richard Murphy | Site Reliability Engineering | 2016 | O'Reilly Media | https://www.oreilly.com/library/view/site-reliability-engineering/9781491929117/ |
-| Nate Silver | The Signal and the Noise | 2012 | Penguin Press | https://www.penguinrandomhouse.com/books/306971/the-signal-and-the-noise-by-nate-silver/ |
-| Nassim Nicholas Taleb | Antifragile | 2012 | Random House | https://www.penguinrandomhouse.com/books/176771/antifragile-by-nassim-nicholas-taleb/ |
-| Carol Tavris; Elliot Aronson | Mistakes Were Made (But Not by Me) | 2007 | Harcourt | https://www.harpercollins.com/products/mistakes-were-made-but-not-by-me-third-edition-carol-tavrisielliot-aronson |
-| Philip E. Tetlock; Dan Gardner | Superforecasting | 2015 | Crown | https://www.penguinrandomhouse.com/books/307187/superforecasting-by-philip-e-tetlock-and-dan-gardner/ |
-| Stefan H. Thomke | Experimentation Works | 2020 | Harvard Business Review Press | https://store.hbr.org/product/experimentation-works-the-surprising-power-of-business-experiments/10385 |
-| Diane Vaughan | The Challenger Launch Decision | 1996 | University of Chicago Press | https://press.uchicago.edu/ucp/books/book/chicago/C/bo23029886.html |
-| Karl E. Weick | Sensemaking in Organizations | 1995 | SAGE Publications | https://us.sagepub.com/en-us/nam/sensemaking-in-organizations/book4986 |
-| Karl E. Weick; Kathleen M. Sutcliffe | Managing the Unexpected | 2015 | Jossey-Bass | https://www.wiley.com/en-us/Managing+the+Unexpected%2C+3rd+Edition-p-9781118862415 |
+- Berger, Peter L., and Thomas Luckmann. *The Social Construction of
+  Reality: A Treatise in the Sociology of Knowledge*. New York: Anchor
+  Books, 1966.
 
+- Beyer, Betsy, Chris Jones, Jennifer Petoff, and Niall Richard Murphy,
+  eds. *Site Reliability Engineering: How Google Runs Production Systems*.
+  Sebastopol, CA: O'Reilly Media, 2016.
 
+- Collins, Jim. *Good to Great: Why Some Companies Make the Leap... and
+  Others Don't*. New York: HarperBusiness, 2001.
+
+- DeMarco, Tom, and Timothy R. Lister. *Peopleware: Productive Projects
+  and Teams*. New York: Dorset House, 1987.
+
+- Dekker, Sidney. *Drift into Failure: From Hunting Broken Components to
+  Understanding Complex Systems*. Farnham, UK: Ashgate, 2011.
+
+- Dekker, Sidney. *The Field Guide to Understanding Human Error*. 2nd ed.
+  Farnham, UK: Ashgate, 2006.
+
+- Dörner, Dietrich. *The Logic of Failure: Recognizing and Avoiding Error
+  in Complex Situations*. New York: Basic Books, 1996.
+
+- Edmondson, Amy C. *The Fearless Organization: Creating Psychological
+  Safety in the Workplace for Learning, Innovation, and Growth*.
+  Hoboken, NJ: Wiley, 2018.
+
+- Fahey, Liam, and Robert M. Randall, eds. *Learning from the Future:
+  Competitive Foresight Scenarios*. New York: Wiley, 1998.
+
+- Forsgren, Nicole, Jez Humble, and Gene Kim. *Accelerate: The Science of
+  Lean Software and DevOps*. Portland, OR: IT Revolution Press, 2018.
+
+- Gawande, Atul. *The Checklist Manifesto: How to Get Things Right*. New
+  York: Metropolitan Books, 2009.
+
+- Goldratt, Eliyahu M., and Jeff Cox. *The Goal: A Process of Ongoing
+  Improvement*. Great Barrington, MA: North River Press, 1984.
+
+- Graeber, David. "On the Phenomenon of Bullshit Jobs." *Strike!
+  Magazine*, August 17, 2013.
+
+- Grove, Andrew S. *High Output Management*. New York: Random House, 1983.
+
+- Hollnagel, Erik. *Safety-I and Safety-II: The Past and Future of Safety
+  Management*. Farnham, UK: Ashgate, 2014.
+
+- Institute of Medicine. *To Err Is Human: Building a Safer Health
+  System*. Washington, DC: National Academies Press, 1999.
+  https://doi.org/10.17226/9728.
+
+- Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus
+  and Giroux, 2011.
+
+- Klein, Gary. *Sources of Power: How People Make Decisions*. Cambridge,
+  MA: MIT Press, 1998.
+
+- Leveson, Nancy G. *Engineering a Safer World: Systems Thinking Applied
+  to Safety*. Cambridge, MA: MIT Press, 2011.
+
+- Meadows, Donella H. *Thinking in Systems: A Primer*. White River
+  Junction, VT: Chelsea Green Publishing, 2008.
+
+- Muller, Jerry Z. *The Tyranny of Metrics*. Princeton, NJ: Princeton
+  University Press, 2018.
+
+- Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*.
+  New York: Basic Books, 1984.
+
+- Popper, Karl R. *The Logic of Scientific Discovery*. London:
+  Hutchinson, 1959.
+
+- Ries, Eric. *The Lean Startup: How Today's Entrepreneurs Use Continuous
+  Innovation to Create Radically Successful Businesses*. New York: Crown
+  Business, 2011.
+
+- Rosenzweig, Phil. *The Halo Effect: ... and the Eight Other Business
+  Delusions That Deceive Managers*. New York: Free Press, 2007.
+
+- Schön, Donald A. *The Reflective Practitioner: How Professionals Think
+  in Action*. New York: Basic Books, 1983.
+
+- Scott, James C. *Seeing Like a State: How Certain Schemes to Improve
+  the Human Condition Have Failed*. New Haven, CT: Yale University Press,
+  1998.
+
+- Selznick, Philip. *Leadership in Administration: A Sociological
+  Interpretation*. New York: Harper & Row, 1957.
+
+- Senge, Peter M. *The Fifth Discipline: The Art and Practice of the
+  Learning Organization*. New York: Doubleday/Currency, 1990.
+
+- Silver, Nate. *The Signal and the Noise: Why So Many Predictions
+  Fail—but Some Don't*. New York: Penguin Press, 2012.
+
+- Taleb, Nassim Nicholas. *Antifragile: Things That Gain from Disorder*.
+  New York: Random House, 2012.
+
+- Tavris, Carol, and Elliot Aronson. *Mistakes Were Made (But Not by Me):
+  Why We Justify Foolish Beliefs, Bad Decisions, and Hurtful Acts*.
+  Orlando, FL: Harcourt, 2007.
+
+- Tetlock, Philip E., and Dan Gardner. *Superforecasting: The Art and
+  Science of Prediction*. New York: Crown, 2015.
+
+- Thomke, Stefan H. *Experimentation Works: The Surprising Power of
+  Business Experiments*. Boston: Harvard Business Review Press, 2020.
+
+- Vaughan, Diane. *The Challenger Launch Decision: Risky Technology,
+  Culture, and Deviance at NASA*. Chicago: University of Chicago Press,
+  1996.
+
+- Weick, Karl E. *Sensemaking in Organizations*. Thousand Oaks, CA: SAGE
+  Publications, 1995.
+
+- Weick, Karl E., and Kathleen M. Sutcliffe. *Managing the Unexpected:
+  Sustained Performance in a Complex World*. 3rd ed. Hoboken, NJ:
+  Jossey-Bass, 2015.

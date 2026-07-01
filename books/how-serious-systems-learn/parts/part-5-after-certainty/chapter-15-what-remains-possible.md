@@ -22,7 +22,7 @@ It does not promise that good judgment will always prevail.
 
 It asks for something harder:
 act in ways that preserve correction while consequences are still
-shaping themselves.¹
+shaping themselves.[^c15-source-hannah-arendt-responsibility]
 
 Chapter 15 names what remains possible under that condition.
 
@@ -45,7 +45,7 @@ If these conditions are absent, exhortation increases burnout without
 increasing adaptability.
 
 Seriousness begins by distinguishing moral aspiration from operational
-capacity.²
+capacity.[^c15-source-peter-m-senge]
 
 ### The Minimum Viable Serious System
 
@@ -73,7 +73,7 @@ A minimum viable serious system includes five commitments:
    periodically retested.
 
 These are modest by design.
-They are enough to keep learning alive under pressure.³
+They are enough to keep learning alive under pressure.[^c15-source-nancy-leveson-engineering]
 
 ### Rebuilding Correction in Low-Trust Environments
 
@@ -95,7 +95,7 @@ prerequisite for it.
 
 This sequence matters.
 When trust is demanded before correction is made credible, institutions
-replace learning with compliance theater.⁴
+replace learning with compliance theater.[^c15-source-amy-c-edmondson]
 
 ### Action Under Asymmetry
 
@@ -120,7 +120,7 @@ These actions may not win quickly.
 They can preserve future correctability where total control is absent.
 
 In uncertain systems, preserving a small domain of reversibility can be
-more consequential than declaring large intentions.⁵
+more consequential than declaring large intentions.[^c15-source-james-c-scott]
 
 ### The Discipline of Partial Wins
 
@@ -139,7 +139,7 @@ complex settings.
 To reject them as insufficient is to hand advantage to systems that
 convert speed into inevitability.
 
-Seriousness accepts incompleteness without surrendering responsibility.⁶
+Seriousness accepts incompleteness without surrendering responsibility.[^c15-source-sidney-dekker-drift]
 
 ### What Not to Do
 
@@ -158,7 +158,7 @@ They are protections against predictable failure dynamics already mapped
 in this book.
 
 Where these refusals collapse, method language may remain, but seriousness
-does not.⁷
+does not.[^c15-source-karl-e-weick]
 
 ### A Different Standard of Leadership
 
@@ -176,7 +176,7 @@ It rewards architecture over posture, maintenance over theater, and
 responsibility over confidence performance.
 
 It is harder to market.
-It is easier to trust over time.⁸
+It is easier to trust over time.[^c15-source-philip-selznick-leadership]
 
 ### What Remains Possible
 
@@ -198,20 +198,18 @@ The point is not to guarantee good outcomes.
 The point is to refuse arrangements where bad outcomes become
 unavoidable before they can be seen.
 
-## End Notes
+[^c15-source-hannah-arendt-responsibility]: Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New York: Schocken Books, 2003.
 
-1.  Hannah Arendt. Responsibility and Judgment. 2003. Schocken Books.
+[^c15-source-peter-m-senge]: Senge, Peter M. *The Fifth Discipline: The Art and Practice of the Learning Organization*. New York: Doubleday/Currency, 1990.
 
-2.  Peter M. Senge. The Fifth Discipline. 1990. Doubleday/Currency.
+[^c15-source-nancy-leveson-engineering]: Leveson, Nancy G. *Engineering a Safer World: Systems Thinking Applied to Safety*. Cambridge, MA: MIT Press, 2011.
 
-3.  Nancy Leveson. Engineering a Safer World. 2011. MIT Press.
+[^c15-source-amy-c-edmondson]: Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.
 
-4.  Amy C. Edmondson. The Fearless Organization. 2018. Wiley.
+[^c15-source-james-c-scott]: Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press, 1998.
 
-5.  James C. Scott. Seeing Like a State. 1998. Yale University Press.
+[^c15-source-sidney-dekker-drift]: Dekker, Sidney. *Drift into Failure: From Hunting Broken Components to Understanding Complex Systems*. Farnham, UK: Ashgate, 2011.
 
-6.  Sidney Dekker. Drift into Failure. 2011. Ashgate.
+[^c15-source-karl-e-weick]: Weick, Karl E., and Kathleen M. Sutcliffe. *Managing the Unexpected: Sustained Performance in a Complex World*. 3rd ed. Hoboken, NJ: Jossey-Bass, 2015.
 
-7.  Karl E. Weick and Kathleen M. Sutcliffe. Managing the Unexpected. 2015. Jossey-Bass.
-
-8.  Philip Selznick. Leadership in Administration. 1957. Harper & Row.
+[^c15-source-philip-selznick-leadership]: Selznick, Philip. *Leadership in Administration: A Sociological Interpretation*. New York: Harper & Row, 1957.
