@@ -15,7 +15,8 @@ Workflow for building and revising **What We Cannot See** in a structured, revie
 
 Use branches scoped to this book and phase:
 
-- `cursor/what-we-cannot-see-planning-2512` — planning scaffold (current)
+- `cursor/what-we-cannot-see-planning-2512` — planning scaffold (merged)
+- `cursor/what-we-cannot-see-voice-lock-2512` — Phase 1: Introduction + Part I Ch 1 voice lock (current)
 - `upcoming/what-we-cannot-see-structure`
 - `upcoming/what-we-cannot-see-draft`
 - `upcoming/what-we-cannot-see-editorial`
@@ -92,4 +93,4 @@ When the manuscript is ready for the publishing pipeline:
 
 ## Current starting phase
 
-See [`status.md`](status.md) — **Phase 0 — Structure (planning scaffold)**.
+See [`status.md`](status.md) — **Phase 1 — Outline to prose (voice lock)**.

@@ -2,7 +2,25 @@
 
 Candidate through-lines for architectural consistency. Not all must appear in final prose—select 2–3 primary metaphors.
 
-## Primary Bias
+## Book spine
+
+### We experience the world from somewhere
+
+The entire book in one sentence. Echo quietly across parts:
+
+| Part | Variation |
+|------|-----------|
+| Part I | We experience the world from somewhere. |
+| Part II | We judge from somewhere. |
+| Part III | We build institutions from somewhere. |
+
+**Use in:** Introduction (locked); part bridges when natural.
+
+### Seeing has a shape
+
+"Sometimes because seeing itself has a shape—and the shape depends on where you are standing."
+
+**Use in:** Introduction (locked); echo in Part I bridge or Ch 1.
 
 ### The attention budget
 

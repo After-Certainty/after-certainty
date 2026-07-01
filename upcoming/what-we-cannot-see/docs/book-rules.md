@@ -28,18 +28,32 @@ This is not a marketing brief. It preserves conceptual cohesion, stylistic consi
 
 ## Core invariant (non-negotiable)
 
-> Every perspective is partial. Bias is how finite minds allocate limited attention—not primarily a flaw to eliminate. Judgment is the responsible use of limited perspectives. Integration is how many incomplete perspectives become more complete understanding.
+> Every perspective is partial. Finite minds inhabit finite perspectives. Bias is the selective work through which finite perspectives become possible—not a flaw individuals can eliminate, but a consequence of selective cognition. Judgment is the responsible use of limited perspectives. Integration is how many incomplete perspectives become more complete understanding. Because individual objectivity is impossible, societies develop processes that integrate partial perspectives and correct for individual limitation without assuming unbiased people exist.
 
 Every chapter must map back to this claim. If a section cannot be tied to it, it does not belong.
 
-See [`thesis.md`](thesis.md) for full articulation.
+See [`thesis.md`](thesis.md) and [`process-design.md`](process-design.md) for full articulation.
+
+## Four levels (conceptual architecture)
+
+Always distinguish in planning and prose:
+
+1. **Individual cognition** — how finite perspectives take shape (Part I)
+2. **Individual judgment** — responsible use of partial perspectives (Part II)
+3. **Collective integration** — many partial views → larger model (Part III, early)
+4. **Institutional process design** — processes that improve collective judgment without unbiased people (Part III, culmination)
+
+**Guardrail:** Unavoidable bias in individuals ≠ nothing can be improved. Process design compensates for finitude; it does not repeal it.
 
 ## Thematic arc by part
 
-- **Part I — Bias:** Why partial sight is universal and adaptive, not exceptional.
-- **Part II — Judgment:** How responsible decisions happen despite incomplete information.
-- **Bridge — The Limits of Individual Wisdom:** Why even excellent individual judgment remains incomplete; integration follows from cognitive limitation.
-- **Part III — Integration:** How groups construct understanding exceeding any single perspective.
+- **Perspective** (ontology): We experience the world from somewhere—the book's spine
+- **Part I — Bias:** Individual cognition—we experience the world from somewhere; how finite perspectives take shape
+- **Part II — Judgment:** Individual judgment—we judge from somewhere; responsible decisions despite incomplete information
+- **Bridge — The Limits of Individual Wisdom:** Why even excellent individual judgment remains incomplete; process design follows from cognitive limitation
+- **Part III — Integration / Designed Epistemologies:** We build institutions from somewhere; collective integration and process design for knowing more together than alone
+
+See [`thesis.md`](thesis.md) for book spine echoes; [`process-design.md`](process-design.md) for Part III process examples.
 
 ## Differentiation from related titles
 
@@ -59,7 +73,8 @@ See [`writing-style.md`](writing-style.md) and [upcoming/docs/_templates/book-ru
 
 ### This book must not be
 
-- A debiasing handbook or "bias = bad" morality tale
+- A debiasing handbook or implicit claim that individuals can become unbiased
+- A fatalist argument that because bias is unavoidable, nothing can be improved
 - Culture-war framing or manifesto voice
 - Tech-bashing or institution-bashing without diagnostic balance
 - Compromise-as-integration or false equivalence
@@ -69,6 +84,7 @@ See [`writing-style.md`](writing-style.md) and [upcoming/docs/_templates/book-ru
 - Curious, thoughtful, restrained
 - Observational discovery before naming
 - Honest that adaptive ≠ exculpatory—judgment carries moral weight
+- Clear that individual bias is unavoidable **and** collective judgment can be improved through process design
 - One continuous inquiry across the manuscript
 
 ## Chapter construction
@@ -101,7 +117,8 @@ Central questions and handoffs: [`chapter-questions.md`](chapter-questions.md).
 | [`chapter-questions.md`](chapter-questions.md) | Questions and handoffs |
 | [`bias-taxonomy.md`](bias-taxonomy.md) | Nine bias families |
 | [`judgment-framework.md`](judgment-framework.md) | Part II concepts |
-| [`integration-framework.md`](integration-framework.md) | Part III concepts |
+| [`integration-framework.md`](integration-framework.md) | Part III concepts (integration + process design) |
+| [`process-design.md`](process-design.md) | Designed epistemologies; four levels; Part III process examples |
 | [`historical-case-studies.md`](historical-case-studies.md) | Case index |
 | [`recurring-metaphors.md`](recurring-metaphors.md) | Through-line candidates |
 | [`bibliography-research.md`](bibliography-research.md) | Working bibliography |
@@ -132,6 +149,7 @@ Before marking a unit approved, ask:
 3. Is tone diagnostic rather than prescriptive?
 4. Are claims proportionate to evidence at this draft stage?
 5. Does adaptive presentation avoid exculpatory tone?
+6. Does this distinguish individual cognition from institutional process design?
 
 ## Key docs
 

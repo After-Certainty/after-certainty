@@ -1,20 +1,75 @@
 # What We Cannot See — Thesis
 
+## Book arc
+
+```
+Perspective → Bias → Judgment → Integration → Process Design
+```
+
+**Perspective** is the ontology. **Bias** is one manifestation of selective cognition. **Judgment** is the ethical response to partial perspective. **Integration** is the social response. **Process design** is how societies improve collective judgment without assuming unbiased individuals exist.
+
+Part III is not integration alone—it is **designed epistemologies**: how we organize knowing when no one sees everything.
+
+## Culminating question
+
+Given that individuals have finite perspectives, how should we organize ourselves so that we can know more together than we can alone?
+
+## Four levels (always distinguish)
+
+| Level | Domain | Book movement |
+|-------|--------|---------------|
+| 1. Individual cognition | How finite perspectives take shape | Part I — Bias |
+| 2. Individual judgment | Responsible use of partial perspectives | Part II — Judgment |
+| 3. Collective integration | Many partial views → larger model | Part III (early) |
+| 4. Institutional process design | Processes that correct without unbiased people | Part III (culmination) |
+
+**Critical distinction:** Bias cannot be eliminated from individuals. Processes can reduce the effects of individual bias by integrating perspectives and creating feedback—without assuming objectivity is achievable in any single mind.
+
+## Conceptual stack
+
+```
+Reality
+    ↓
+Perspective (finite)
+    ↓
+Selection / selective cognition
+    ↓
+Bias (manifestations: attention, memory, identity, language, culture, expertise, embodiment, …)
+    ↓
+Individual cognition
+    ↓
+Observation → Interpretation
+    ↓
+Individual judgment
+    ↓
+Decision
+    ↓
+Collective integration
+    ↓
+Institutional process design
+    ↓
+Collective learning
+```
+
+Readers from different domains should recognize their piece: cognition (psychology), system design (engineering), diagnosis (medicine), interpretation (history), decision-making (management), epistemology (philosophy).
+
+The book describes an **epistemic ecology** (planning term only—do not use in reader-facing prose): individuals perceive, perspectives emerge, bias shapes cognition, judgment acts, groups integrate, **institutions design feedback**, civilizations learn.
+
 ## Core invariant
 
-> Every perspective is partial. Bias is how finite minds allocate limited attention—not primarily a flaw to eliminate. Judgment is the responsible use of limited perspectives. Integration is how many incomplete perspectives become more complete understanding.
+> Every perspective is partial. Finite minds inhabit finite perspectives. Bias is the selective work through which finite perspectives become possible—not a flaw individuals can eliminate, but a consequence of selective cognition. Judgment is the responsible use of limited perspectives. Integration is how many incomplete perspectives become more complete understanding. Because individual objectivity is impossible, societies develop processes that integrate partial perspectives and correct for individual limitation without assuming unbiased people exist.
 
 Every chapter must map back to this claim. If a section cannot be tied to it, it does not belong.
 
-## The four moves
+## The five moves
 
 ### 1. Partiality is universal
 
-No finite mind can attend to everything. Selective attention is not a bug in an otherwise neutral processor—it is the condition of having a perspective at all.
+No finite mind can see from everywhere. Finite perspectives are not bugs in an otherwise neutral processor—they are the condition of having a situated view at all.
 
-### 2. Bias is adaptive allocation
+### 2. Bias is selective shaping
 
-Bias is not primarily a flaw. It is how finite minds allocate limited attention under constraint.
+Bias is not primarily a flaw to eliminate from individuals. It is the selective work through which finite perspectives become possible—one manifestation among memory, identity, language, culture, expertise, and embodiment.
 
 Every bias reveals something. Every bias obscures something.
 
@@ -32,18 +87,73 @@ Integration is not compromise. Integration is constructing a larger model that e
 
 Integration is not optional—it follows from cognitive limitation.
 
+### 5. Process design improves collective judgment
+
+Institutions and practices—science, engineering review, medicine, democracy, organizational learning—do not remove bias from people. They design **feedback** that reduces unchecked dominance of any one perspective and improves collective knowing over time.
+
+The impossibility of individual objectivity is precisely **why** these processes exist. This strengthens the thesis; it does not weaken it.
+
+## Book spine (part echoes)
+
+| Part | Spine echo |
+|------|------------|
+| Introduction / Part I | We experience the world from somewhere. |
+| Part II | We judge from somewhere. |
+| Part III | We build institutions from somewhere. |
+
+Do not force repetition. Let echoes arrive when the argument naturally returns to situated cognition.
+
 ## Non-negotiable guardrails
 
 - Adaptive ≠ exculpatory: viewing bias as adaptation does not remove responsibility
+- Unavoidable ≠ unimprovable: process design can improve collective judgment
 - Integration ≠ compromise, averaging, or false equivalence
+- Process design ≠ debiasing individuals or assuming institutional neutrality
 - Judgment retains individual responsibility even when perspectives are partial
 - AI is another partial perspective—not oracle or villain
+- Wonder ≠ optimism: partial sight enables cooperation, not naive harmony
+- **Introduction earns abstraction; chapters re-ground in concrete observation** (especially Ch 1)
 
 ## Part-level thesis moves
 
 | Part | Thesis contribution |
 |------|---------------------|
-| Part I — Bias | Why partial sight is universal and adaptive, not exceptional |
-| Part II — Judgment | How responsible decisions happen despite incomplete information |
+| Part I — Bias | Individual cognition: how finite perspectives take shape |
+| Part II — Judgment | Individual judgment: responsible decisions despite incomplete information |
 | Bridge | Why even excellent individual judgment remains incomplete |
-| Part III — Integration | How groups construct understanding exceeding any single perspective |
+| Part III — Integration / Process Design | Collective integration and designed epistemologies: knowing more together than alone |
+
+See [`process-design.md`](process-design.md) for Part III process examples and language guide.
+
+## Defining quotation (locked)
+
+> Bias is the selective work through which finite perspectives become possible.
+
+**Do not change without author review.** Pressure-tested alternatives (`process`, `activity`, `shaping`); **work** retained—human, generative, leaves room for memory, language, expertise, identity, institutions, AI, culture without redefining bias later.
+
+Read aloud before any swap. Ambiguity of *work* (effort / functioning / mechanism) may be intentional.
+
+## What this book claims (not “bias is good”)
+
+Perspective is inevitable. Bias is one way perspective becomes structured. The challenge is not escaping perspective, but learning how finite perspectives can responsibly coexist, challenge one another, be integrated—and be **designed for** through institutions that improve collective judgment without pretending anyone sees from nowhere.
+
+## Portfolio role
+
+Conceptual hub for adjacent nonfiction—explains the cognitive machinery *Trust Beyond Similarity*, *After Certainty*, *The Discipline of Uncertainty*, and related titles assume. Safe as a first read for the epistemic-limits cluster.
+
+## Signature lines (do not edit casually)
+
+- **"We experience the world from somewhere."** — entire book in one sentence
+- "Seeing itself has a shape—and the shape depends on where you are standing." (echo in Part I)
+- "Attention moves through all of this—it is not the foundation, but the current that runs through it." (Ch 1 candidate)
+- **Defining quotation (locked)** — see above
+- **Emotional promise (locked):** "The aim of this book is not to teach you how to see everything…"
+- **Culminating question (Part III):** Given finite perspectives, how should we organize ourselves to know more together than alone?
+
+## Protected paragraphs (Introduction)
+
+Do not cut or flatten without author review:
+
+- "That narrowing did not feel like a moral failure. It felt like focus."
+- "There is something almost astonishing in that fact…" (civilization / wonder paragraph)
+- Integration foreshadow paragraph (disagreement as epistemically productive)
