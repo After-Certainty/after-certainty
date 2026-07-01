@@ -103,7 +103,9 @@ jobs:
 
       - name: Install Typst
         if: matrix.needs_typst == 'true'
-        run: bash scripts/install_typst.sh
+        run: |
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          TYPST_INSTALL_DIR="$HOME/.local" bash scripts/install_typst.sh
 
       - name: Build configured artifacts via scripts/build.py
         run: |
@@ -137,6 +139,43 @@ jobs:
           name: book-${{ matrix.slug }}
           path: upload/*
           if-no-files-found: error
+
+  # TEMPORARY: publish Observer Patterns Typst PDF to a preview release on this PR branch
+  # so the layout can be verified before merge. Remove after verification.
+  preview-release-observer-patterns:
+    name: Preview release (Observer Patterns PDF)
+    needs: export
+    if: >
+      github.event_name == 'pull_request' &&
+      github.head_ref == 'cursor/observer-patterns-export-a0e3' &&
+      needs.export.result == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_REPO: ${{ github.repository }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: book-observer-patterns
+          path: built
+
+      - name: Publish preview PDF to GitHub release
+        run: |
+          set -euo pipefail
+          pdf="$(find built -type f -name 'observer-patterns.pdf' | head -n 1)"
+          if [ -z "$pdf" ]; then
+            echo "observer-patterns.pdf not found in book-observer-patterns artifact"
+            find built -type f || true
+            exit 1
+          fi
+          tag="preview-observer-patterns-temp"
+          gh release delete "$tag" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$tag" \
+            --title "Preview: Observer Patterns PDF (temporary)" \
+            --notes "Temporary preview from PR #${{ github.event.pull_request.number }} (${{ github.sha }}). Remove after Typst export verification." \
+            "$pdf"
 
   release:
     needs: [detect, export]

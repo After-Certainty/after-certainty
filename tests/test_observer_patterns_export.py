@@ -22,7 +22,10 @@ from book_specs import (  # noqa: E402
     spec_pdf_engine,
     validate_upcoming_spec,
 )
-from generate_typst_manifest import manifest_lines_for_units, parse_index_markdown_links  # noqa: E402
+from generate_typst_manifest import (  # noqa: E402
+    manifest_lines_for_units,
+    parse_index_markdown_links,
+)
 
 
 def test_resolve_spec_path_finds_upcoming_yml(repo_root: Path) -> None:
@@ -85,7 +88,6 @@ def test_manifest_lines_for_bridge_and_poem() -> None:
 
 
 def test_build_routes_typst_pdf_without_pandoc(repo_root: Path, tmp_path: Path) -> None:
-    build_script = repo_root / "scripts" / "build.py"
     out_dir = tmp_path / "out"
     calls: list[list[str]] = []
 
@@ -94,22 +96,25 @@ def test_build_routes_typst_pdf_without_pandoc(repo_root: Path, tmp_path: Path) 
 
     with patch("build.run", side_effect=fake_run):
         with patch("build.generate_frontmatter_for_book", return_value=[]):
-            with patch("sys.argv", [
-                "build.py",
-                "--repo",
-                str(repo_root),
-                "--book-dir",
-                "upcoming/observer-patterns",
-                "--out-dir",
-                str(out_dir),
-                "--format",
-                "pdf",
-            ]):
+            with patch(
+                "sys.argv",
+                [
+                    "build.py",
+                    "--repo",
+                    str(repo_root),
+                    "--book-dir",
+                    "upcoming/observer-patterns",
+                    "--out-dir",
+                    str(out_dir),
+                    "--format",
+                    "pdf",
+                ],
+            ):
                 import build
 
-                (repo_root / "upcoming" / "observer-patterns" / "observer-patterns.pdf").write_bytes(
-                    b"%PDF-1.4 test"
-                )
+                (
+                    repo_root / "upcoming" / "observer-patterns" / "observer-patterns.pdf"
+                ).write_bytes(b"%PDF-1.4 test")
                 build.main()
 
     invoked = [part for cmd in calls for part in cmd if part.endswith(".py")]

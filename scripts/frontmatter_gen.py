@@ -21,7 +21,7 @@ if str(_TOOLS) not in sys.path:
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined  # noqa: E402
 
-from book_specs import load_any_book_spec, load_spec_for_book_dir, resolve_spec_path  # noqa: E402
+from book_specs import load_any_book_spec, resolve_spec_path  # noqa: E402
 
 
 def _author_display(book: dict[str, Any]) -> str:

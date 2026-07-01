@@ -6,7 +6,6 @@ Generate typst/manifest-parts.typ from index.md link order for poetry/Typst book
 from __future__ import annotations
 
 import argparse
-import re
 import sys
 from pathlib import Path
 

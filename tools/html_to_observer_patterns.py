@@ -382,9 +382,6 @@ def write_index(book_dir: Path, title: str, entries: list[tuple[str, str, str]])
     )
 
 
-from generate_typst_manifest import write_typst_manifest
-
-
 def write_import_log(book_dir: Path, stats: dict[str, int], warnings: list[str]) -> None:
     lines = [
         "# Observer Patterns import log",

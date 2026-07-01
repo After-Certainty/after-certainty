@@ -17,7 +17,7 @@ book:
   open_graph_image: open-graph.png
 
 build:
-  ci: false
+  ci: true
   typst:
     entry: typst/main.typ
     min_version: "0.14.0"
