@@ -21,7 +21,7 @@
 ) = {
   set page(
     paper: "us-trade",
-    margin: (x: 0.85in, y: 1in),
+    margin: (x: 0.85in, y: 0.88in),
   )
   set text(font: "Libertinus Serif", size: 11pt)
   set par(leading: 0.65em, spacing: 1.2em, justify: false)
