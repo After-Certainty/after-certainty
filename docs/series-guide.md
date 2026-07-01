@@ -207,6 +207,21 @@ Read authority-outlives for **leaders you are judging**; read accountability-no-
 **Before Arrives**: historical prequel—how moral order formed and hardened.  
 **Curiosity**: contemporary posture when certainty fails.
 
+### Before Certainty Arrives vs Living in Sediment
+
+**Before Certainty Arrives**: moral order forming under historical constraint across eras—how certainty hardens before it feels excessive.  
+**Living in Sediment** ([`books/living-in-sediment/`](../books/living-in-sediment/index.md)): cross-domain infrastructure fossils in the anthropological present—language, time, policy, metrics, algorithms—and how to *see* sediment without dissolving it.
+
+Read before-arrives for **historical formation of moral order**; read living-in-sediment for **inherited structures whose original constraints have vanished**.
+
+---
+
+## Upcoming manuscripts
+
+| Book | Index | Status |
+|------|-------|--------|
+| _None at present_ | — | — |
+
 ---
 
 ## Published catalog
@@ -219,6 +234,7 @@ Read authority-outlives for **leaders you are judging**; read accountability-no-
 | Curiosity Before Certainty | [books/curiosity-before-certainty/index.md](../books/curiosity-before-certainty/index.md) |
 | How Meaning Moves | [books/how-meaning-moves/index.md](../books/how-meaning-moves/index.md) |
 | How Serious Systems Learn | [books/how-serious-systems-learn/index.md](../books/how-serious-systems-learn/index.md) |
+| Living in Sediment | [books/living-in-sediment/index.md](../books/living-in-sediment/index.md) |
 | The Discipline of Uncertainty | [books/the-discipline-of-uncertainty/index.md](../books/the-discipline-of-uncertainty/index.md) |
 | The Economy We Don't Experience | [books/the-economy-we-dont-experience/index.md](../books/the-economy-we-dont-experience/index.md) |
 | When Accountability No Longer Expires | [books/when-accountability-no-longer-expires/index.md](../books/when-accountability-no-longer-expires/index.md) |

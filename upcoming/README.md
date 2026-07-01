@@ -30,4 +30,6 @@ Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/af
 
 ## Current upcoming titles
 
+_No nonfiction manuscripts under `upcoming/` at present. **Living in Sediment** was promoted to [`books/living-in-sediment/`](../books/living-in-sediment/index.md) (July 2026)._
+
 Scaffold new work here or copy from [`docs/_templates/`](docs/_templates/).
