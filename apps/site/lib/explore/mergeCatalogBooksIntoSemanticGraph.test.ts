@@ -86,4 +86,59 @@ describe("mergeCatalogBooksIntoSemanticGraph", () => {
     expect(merged.books.find((b) => b.slug === "when-others-look-to-you-v1")?.summary).toBe("Shared catalog copy");
     expect(merged.books.find((b) => b.slug === "when-others-look-to-you-v2")?.summary).toBe("Shared catalog copy");
   });
+
+  it("maps catalog export URLs onto catalog-only books for download links", () => {
+    const pdfUrl = "https://github.com/example/observer-patterns.pdf";
+    const merged = mergeCatalogBooksIntoSemanticGraph(
+      { ...graph, books: [] },
+      [
+        {
+          slug: "observer-patterns",
+          title: "Observer Patterns",
+          description: "Poetry volume",
+          status: "published",
+          authors: [],
+          pdfUrl,
+        },
+      ],
+    );
+    const book = merged.books.find((b) => b.slug === "observer-patterns");
+    expect(book?.pdf).toEqual({
+      enabled: true,
+      file: "observer-patterns.pdf",
+      url: pdfUrl,
+    });
+  });
+
+  it("does not overwrite live semantic export URLs with catalog URLs", () => {
+    const semanticPdf = "https://github.com/example/semantic.pdf";
+    const catalogPdf = "https://github.com/example/catalog.pdf";
+    const merged = mergeCatalogBooksIntoSemanticGraph(
+      {
+        ...graph,
+        books: [
+          {
+            id: "b-pdf",
+            slug: "observer-patterns",
+            title: "Observer Patterns",
+            pdf: { enabled: true, file: "observer-patterns.pdf", url: semanticPdf },
+            concepts: [],
+            patterns: [],
+            sources: [],
+          },
+        ],
+      },
+      [
+        {
+          slug: "observer-patterns",
+          title: "Observer Patterns",
+          description: "Poetry volume",
+          status: "published",
+          authors: [],
+          pdfUrl: catalogPdf,
+        },
+      ],
+    );
+    expect(merged.books.find((b) => b.slug === "observer-patterns")?.pdf?.url).toBe(semanticPdf);
+  });
 });
