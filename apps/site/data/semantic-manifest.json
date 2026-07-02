@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-05-25T19:49:38.192983+00:00",
+  "generatedAt": "2026-07-01T23:21:07.463921+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
@@ -11,7 +11,7 @@
       "status": "published",
       "title": "After Certainty",
       "subtitle": "How to Live and Judge When Understanding is not Enough",
-      "description": "Expanded essay edition (~11\u201313k words)\u2014a concentrated capstone on how to live and judge after frameworks fail. Read after diagnostic volumes; formation and care without guarantees.",
+      "description": "How to live and judge once explanation reaches its limits. The practice volume in a series on formation, stabilization, and tension\u2014judgment, responsibility, and participation without replacement frameworks.",
       "authors": [
         "Kevin Steffensen"
       ],
@@ -37,7 +37,7 @@
         "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/after-certainty.pdf"
       },
       "id": "book-after-certainty",
-      "summary": "Expanded essay edition (~11\u201313k words)\u2014a concentrated capstone on how to live and judge after frameworks fail. Read after diagnostic volumes; formation and care without guarantees.",
+      "summary": "How to live and judge once explanation reaches its limits. The practice volume in a series on formation, stabilization, and tension\u2014judgment, responsibility, and participation without replacement frameworks.",
       "concepts": [
         "concept-abstraction",
         "concept-accountability",
@@ -427,9 +427,120 @@
       "sources": []
     },
     {
+      "slug": "how-trust-forms",
+      "source": "books",
+      "status": "published",
+      "title": "How Trust Forms",
+      "subtitle": "Why Participation Becomes Possible",
+      "description": "How people become willing to participate with one another under uncertainty\u2014beliefs, actions, outcomes, and the trust cycle.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-trust-forms/book-cover.png",
+      "coverImagePath": "books/how-trust-forms/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-trust-forms/open-graph.png",
+      "openGraphImagePath": "books/how-trust-forms/open-graph.png",
+      "bookDir": "books/how-trust-forms",
+      "docx": {
+        "enabled": true,
+        "file": "how-trust-forms.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-trust-forms.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "how-trust-forms.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-trust-forms.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "how-trust-forms.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-trust-forms.pdf"
+      },
+      "id": "book-how-trust-forms",
+      "summary": "How people become willing to participate with one another under uncertainty\u2014beliefs, actions, outcomes, and the trust cycle.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "living-in-sediment",
+      "source": "books",
+      "status": "published",
+      "title": "Living in Sediment",
+      "subtitle": "How Structures Outlive Their Reasons",
+      "description": "We live inside inherited systems built for constraints that no longer exist. When structures survive after their reasons disappear, meaning drifts\u2014and the danger is forgetting the sediment is sediment.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/living-in-sediment/book-cover.png",
+      "coverImagePath": "books/living-in-sediment/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/living-in-sediment/open-graph.png",
+      "openGraphImagePath": "books/living-in-sediment/open-graph.png",
+      "bookDir": "books/living-in-sediment",
+      "docx": {
+        "enabled": true,
+        "file": "living-in-sediment.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/living-in-sediment.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "living-in-sediment.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/living-in-sediment.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "living-in-sediment.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/living-in-sediment.pdf"
+      },
+      "id": "book-living-in-sediment",
+      "summary": "We live inside inherited systems built for constraints that no longer exist. When structures survive after their reasons disappear, meaning drifts\u2014and the danger is forgetting the sediment is sediment.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "observer-patterns",
+      "source": "books",
+      "status": "published",
+      "title": "Observer Patterns",
+      "subtitle": null,
+      "description": "A book of patterns \u2014 things that happen when people look, decide, and follow what they see.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/observer-patterns/book-cover.png",
+      "coverImagePath": "books/observer-patterns/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/observer-patterns/open-graph.png",
+      "openGraphImagePath": "books/observer-patterns/open-graph.png",
+      "bookDir": "books/observer-patterns",
+      "docx": {
+        "enabled": false,
+        "file": "observer-patterns.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "observer-patterns.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "observer-patterns.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/observer-patterns.pdf"
+      },
+      "id": "book-observer-patterns",
+      "summary": "A book of patterns \u2014 things that happen when people look, decide, and follow what they see.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
       "slug": "the-discipline-of-uncertainty",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "The Discipline of Uncertainty",
       "subtitle": "Judgment, Restraint, and Decision Quality Under Incomplete Information",
       "description": "Field notes on judgment, restraint, and decision quality when information is incomplete.",
@@ -437,25 +548,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/the-discipline-of-uncertainty/book-cover.png",
-      "coverImagePath": "upcoming/the-discipline-of-uncertainty/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/the-discipline-of-uncertainty/open-graph.png",
-      "openGraphImagePath": "upcoming/the-discipline-of-uncertainty/open-graph.png",
-      "bookDir": "upcoming/the-discipline-of-uncertainty",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-discipline-of-uncertainty/book-cover.png",
+      "coverImagePath": "books/the-discipline-of-uncertainty/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-discipline-of-uncertainty/open-graph.png",
+      "openGraphImagePath": "books/the-discipline-of-uncertainty/open-graph.png",
+      "bookDir": "books/the-discipline-of-uncertainty",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "the-discipline-of-uncertainty.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-discipline-of-uncertainty.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "the-discipline-of-uncertainty.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-discipline-of-uncertainty.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "the-discipline-of-uncertainty.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-discipline-of-uncertainty.pdf"
       },
       "id": "book-the-discipline-of-uncertainty",
       "summary": "Field notes on judgment, restraint, and decision quality when information is incomplete.",
@@ -465,45 +576,119 @@
     },
     {
       "slug": "the-economy-we-dont-experience",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "The Economy We Don't Experience",
       "subtitle": "Leadership, Communication, and the Credibility Crisis in Economics and Politics",
-      "description": "How economic narratives gain and lose credibility\u2014and how leaders communicate when expert authority meets political pressure.",
+      "description": "Expanded edition (~28\u201332k words) on the gap between aggregate economic speech and lived experience\u2014compression, signaling, and leadership under interpretive stress. Distinct from When Interpretation No Longer Matters (authority without shared meaning) and When Incentives Become the Moral Language (metrics replacing judgment).",
       "authors": [
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/the-economy-we-dont-experience/book-cover.png",
-      "coverImagePath": "upcoming/the-economy-we-dont-experience/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/the-economy-we-dont-experience/open-graph.png",
-      "openGraphImagePath": "upcoming/the-economy-we-dont-experience/open-graph.png",
-      "bookDir": "upcoming/the-economy-we-dont-experience",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-economy-we-dont-experience/book-cover.png",
+      "coverImagePath": "books/the-economy-we-dont-experience/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-economy-we-dont-experience/open-graph.png",
+      "openGraphImagePath": "books/the-economy-we-dont-experience/open-graph.png",
+      "bookDir": "books/the-economy-we-dont-experience",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "the-economy-we-dont-experience.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-economy-we-dont-experience.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "the-economy-we-dont-experience.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-economy-we-dont-experience.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "the-economy-we-dont-experience.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-economy-we-dont-experience.pdf"
       },
       "id": "book-the-economy-we-dont-experience",
-      "summary": "How economic narratives gain and lose credibility\u2014and how leaders communicate when expert authority meets political pressure.",
+      "summary": "Expanded edition (~28\u201332k words) on the gap between aggregate economic speech and lived experience\u2014compression, signaling, and leadership under interpretive stress. Distinct from When Interpretation No Longer Matters (authority without shared meaning) and When Incentives Become the Moral Language (metrics replacing judgment).",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "the-relay",
+      "source": "books",
+      "status": "published",
+      "title": "The Relay",
+      "subtitle": "A Social Science Fiction Novel",
+      "description": "A courier notices silence where explanations should be \u2014 and a civilization-sized blind spot emerges one perspective at a time. The answer to uncertainty is participation, not certainty.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-relay/book-cover.png",
+      "coverImagePath": "books/the-relay/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-relay/open-graph.png",
+      "openGraphImagePath": "books/the-relay/open-graph.png",
+      "bookDir": "books/the-relay",
+      "docx": {
+        "enabled": true,
+        "file": "the-relay.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-relay.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "the-relay.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-relay.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "the-relay.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-relay.pdf"
+      },
+      "id": "book-the-relay",
+      "summary": "A courier notices silence where explanations should be \u2014 and a civilization-sized blind spot emerges one perspective at a time. The answer to uncertainty is participation, not certainty.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "trust-beyond-similarity",
+      "source": "books",
+      "status": "published",
+      "title": "Trust Beyond Similarity",
+      "subtitle": "How Trust Remains Possible Across Difference",
+      "description": "How people learn to trust perspectives they do not share\u2014and why trust becomes more valuable when perspectives differ.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/trust-beyond-similarity/book-cover.png",
+      "coverImagePath": "books/trust-beyond-similarity/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/trust-beyond-similarity/open-graph.png",
+      "openGraphImagePath": "books/trust-beyond-similarity/open-graph.png",
+      "bookDir": "books/trust-beyond-similarity",
+      "docx": {
+        "enabled": true,
+        "file": "trust-beyond-similarity.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/trust-beyond-similarity.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "trust-beyond-similarity.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/trust-beyond-similarity.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "trust-beyond-similarity.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/trust-beyond-similarity.pdf"
+      },
+      "id": "book-trust-beyond-similarity",
+      "summary": "How people learn to trust perspectives they do not share\u2014and why trust becomes more valuable when perspectives differ.",
       "concepts": [],
       "patterns": [],
       "sources": []
     },
     {
       "slug": "velorum",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "Velorum",
       "subtitle": "A Tragic Mythic Fantasy Novel",
       "description": "A mythic fantasy about loyalty, sacrifice, and power, where personal vows and political fate collide at tragic scale.",
@@ -511,28 +696,65 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/velorum/book-cover.png",
-      "coverImagePath": "upcoming/velorum/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/velorum/open-graph.png",
-      "openGraphImagePath": "upcoming/velorum/open-graph.png",
-      "bookDir": "upcoming/velorum",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/velorum/book-cover.png",
+      "coverImagePath": "books/velorum/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/velorum/open-graph.png",
+      "openGraphImagePath": "books/velorum/open-graph.png",
+      "bookDir": "books/velorum",
+      "docx": {
+        "enabled": true,
+        "file": "velorum.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/velorum.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "velorum.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/velorum.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "velorum.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/velorum.pdf"
+      },
+      "id": "book-velorum",
+      "summary": "A mythic fantasy about loyalty, sacrifice, and power, where personal vows and political fate collide at tragic scale.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "what-we-cannot-see",
+      "source": "upcoming",
+      "status": "draft",
+      "title": "What We Cannot See",
+      "subtitle": "Bias, Judgment, and the Limits of Perspective",
+      "description": "Why every perspective is necessarily partial, how individuals make responsible judgments despite those limitations, and why integration allows groups to construct understanding that exceeds any single person's perspective.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": null,
+      "coverImagePath": null,
+      "openGraphImage": null,
+      "openGraphImagePath": null,
+      "bookDir": "upcoming/what-we-cannot-see",
       "docx": {
         "enabled": false,
-        "file": "velorum.docx",
+        "file": "what-we-cannot-see.docx",
         "url": null
       },
       "epub": {
         "enabled": false,
-        "file": "velorum.epub",
+        "file": "what-we-cannot-see.epub",
         "url": null
       },
       "pdf": {
         "enabled": false,
-        "file": "velorum.pdf",
+        "file": "what-we-cannot-see.pdf",
         "url": null
       },
-      "id": "book-velorum",
-      "summary": "A mythic fantasy about loyalty, sacrifice, and power, where personal vows and political fate collide at tragic scale.",
+      "id": "book-what-we-cannot-see",
+      "summary": "Why every perspective is necessarily partial, how individuals make responsible judgments despite those limitations, and why integration allows groups to construct understanding that exceeds any single person's perspective.",
       "concepts": [],
       "patterns": [],
       "sources": []
@@ -664,45 +886,45 @@
     },
     {
       "slug": "when-incentives-become-the-moral-language",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "When Incentives Become the Moral Language",
       "subtitle": "How Systems Decide For Us When Judgment No Longer Scales",
-      "description": "Eight institutional domains where metrics and incentives replaced judgment, responsibility, and shared meaning.",
+      "description": "Essay edition (~11\u201312k words)\u2014eight institutional domains where metrics and incentives replaced judgment when coordination outran shared meaning. Distinct from When Interpretation No Longer Matters (authority without shared meaning) and The Economy We Don't Experience (lived vs aggregate narrative under compression).",
       "authors": [
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-incentives-become-the-moral-language/book-cover.png",
-      "coverImagePath": "upcoming/when-incentives-become-the-moral-language/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-incentives-become-the-moral-language/open-graph.png",
-      "openGraphImagePath": "upcoming/when-incentives-become-the-moral-language/open-graph.png",
-      "bookDir": "upcoming/when-incentives-become-the-moral-language",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-incentives-become-the-moral-language/book-cover.png",
+      "coverImagePath": "books/when-incentives-become-the-moral-language/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-incentives-become-the-moral-language/open-graph.png",
+      "openGraphImagePath": "books/when-incentives-become-the-moral-language/open-graph.png",
+      "bookDir": "books/when-incentives-become-the-moral-language",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-incentives-become-the-moral-language.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-incentives-become-the-moral-language.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-incentives-become-the-moral-language.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-incentives-become-the-moral-language.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-incentives-become-the-moral-language.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-incentives-become-the-moral-language.pdf"
       },
       "id": "book-when-incentives-become-the-moral-language",
-      "summary": "Eight institutional domains where metrics and incentives replaced judgment, responsibility, and shared meaning.",
+      "summary": "Essay edition (~11\u201312k words)\u2014eight institutional domains where metrics and incentives replaced judgment when coordination outran shared meaning. Distinct from When Interpretation No Longer Matters (authority without shared meaning) and The Economy We Don't Experience (lived vs aggregate narrative under compression).",
       "concepts": [],
       "patterns": [],
       "sources": []
     },
     {
       "slug": "when-interpretation-no-longer-matters",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "When Interpretation No Longer Matters",
       "subtitle": "Authority After Understanding Collapses",
       "description": "When explanation, evidence, and repair fail\u2014and what kinds of authority remain when public understanding collapses.",
@@ -710,25 +932,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-interpretation-no-longer-matters/book-cover.png",
-      "coverImagePath": "upcoming/when-interpretation-no-longer-matters/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/when-interpretation-no-longer-matters/open-graph.png",
-      "openGraphImagePath": "upcoming/when-interpretation-no-longer-matters/open-graph.png",
-      "bookDir": "upcoming/when-interpretation-no-longer-matters",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-interpretation-no-longer-matters/book-cover.png",
+      "coverImagePath": "books/when-interpretation-no-longer-matters/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-interpretation-no-longer-matters/open-graph.png",
+      "openGraphImagePath": "books/when-interpretation-no-longer-matters/open-graph.png",
+      "bookDir": "books/when-interpretation-no-longer-matters",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-interpretation-no-longer-matters.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-interpretation-no-longer-matters.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-interpretation-no-longer-matters.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-interpretation-no-longer-matters.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "when-interpretation-no-longer-matters.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-interpretation-no-longer-matters.pdf"
       },
       "id": "book-when-interpretation-no-longer-matters",
       "summary": "When explanation, evidence, and repair fail\u2014and what kinds of authority remain when public understanding collapses.",
@@ -927,9 +1149,46 @@
       "sources": []
     },
     {
+      "slug": "when-trust-stops-tracking-reality",
+      "source": "books",
+      "status": "published",
+      "title": "When Trust Stops Tracking Reality",
+      "subtitle": "Why Good Intentions Sometimes Become Harmful",
+      "description": "How trust drifts from evidence when good intentions stop learning from feedback\u2014through the fictional arc of Calder Family Health and real institutional patterns.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-trust-stops-tracking-reality/book-cover.png",
+      "coverImagePath": "books/when-trust-stops-tracking-reality/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-trust-stops-tracking-reality/open-graph.png",
+      "openGraphImagePath": "books/when-trust-stops-tracking-reality/open-graph.png",
+      "bookDir": "books/when-trust-stops-tracking-reality",
+      "docx": {
+        "enabled": true,
+        "file": "when-trust-stops-tracking-reality.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-trust-stops-tracking-reality.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-trust-stops-tracking-reality.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-trust-stops-tracking-reality.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-trust-stops-tracking-reality.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-trust-stops-tracking-reality.pdf"
+      },
+      "id": "book-when-trust-stops-tracking-reality",
+      "summary": "How trust drifts from evidence when good intentions stop learning from feedback\u2014through the fictional arc of Calder Family Health and real institutional patterns.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
       "slug": "why-collaboration-is-so-hard",
-      "source": "upcoming",
-      "status": "in_progress",
+      "source": "books",
+      "status": "published",
       "title": "Why Collaboration Is So Hard",
       "subtitle": "And why the effort still matters",
       "description": "An examination of coordination failure, misaligned incentives, and fragile trust.",
@@ -937,28 +1196,65 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/why-collaboration-is-so-hard/book-cover.png",
-      "coverImagePath": "upcoming/why-collaboration-is-so-hard/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/upcoming/why-collaboration-is-so-hard/open-graph.png",
-      "openGraphImagePath": "upcoming/why-collaboration-is-so-hard/open-graph.png",
-      "bookDir": "upcoming/why-collaboration-is-so-hard",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/why-collaboration-is-so-hard/book-cover.png",
+      "coverImagePath": "books/why-collaboration-is-so-hard/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/why-collaboration-is-so-hard/open-graph.png",
+      "openGraphImagePath": "books/why-collaboration-is-so-hard/open-graph.png",
+      "bookDir": "books/why-collaboration-is-so-hard",
       "docx": {
-        "enabled": false,
+        "enabled": true,
         "file": "why-collaboration-is-so-hard.docx",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/why-collaboration-is-so-hard.docx"
       },
       "epub": {
-        "enabled": false,
+        "enabled": true,
         "file": "why-collaboration-is-so-hard.epub",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/why-collaboration-is-so-hard.epub"
       },
       "pdf": {
-        "enabled": false,
+        "enabled": true,
         "file": "why-collaboration-is-so-hard.pdf",
-        "url": null
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/why-collaboration-is-so-hard.pdf"
       },
       "id": "book-why-collaboration-is-so-hard",
       "summary": "An examination of coordination failure, misaligned incentives, and fragile trust.",
+      "concepts": [],
+      "patterns": [],
+      "sources": []
+    },
+    {
+      "slug": "why-diversity-matters",
+      "source": "books",
+      "status": "published",
+      "title": "Why Diversity Matters",
+      "subtitle": "Why Good Intentions Still Miss So Much",
+      "description": "Why diversity is about what gets noticed, trusted, and ignored\u2014not just who is in the room.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/why-diversity-matters/book-cover.png",
+      "coverImagePath": "books/why-diversity-matters/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/why-diversity-matters/open-graph.png",
+      "openGraphImagePath": "books/why-diversity-matters/open-graph.png",
+      "bookDir": "books/why-diversity-matters",
+      "docx": {
+        "enabled": true,
+        "file": "why-diversity-matters.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/why-diversity-matters.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "why-diversity-matters.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/why-diversity-matters.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "why-diversity-matters.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/why-diversity-matters.pdf"
+      },
+      "id": "book-why-diversity-matters",
+      "summary": "Why diversity is about what gets noticed, trusted, and ignored\u2014not just who is in the room.",
       "concepts": [],
       "patterns": [],
       "sources": []
@@ -1017,17 +1313,23 @@
       "id": "concept-abstraction",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 14,
+        "book-after-certainty": 24,
         "book-before-certainty-arrives": 11,
         "book-coupling": 46,
         "book-how-serious-systems-learn": 3,
-        "book-the-discipline-of-uncertainty": 19,
-        "book-the-economy-we-dont-experience": 10,
-        "book-when-authority-is-misread": 3,
+        "book-how-trust-forms": 12,
+        "book-living-in-sediment": 1,
+        "book-the-discipline-of-uncertainty": 51,
+        "book-the-economy-we-dont-experience": 8,
+        "book-trust-beyond-similarity": 3,
+        "book-what-we-cannot-see": 3,
+        "book-when-authority-is-misread": 5,
         "book-when-authority-outlives-accountability": 1,
         "book-when-incentives-become-the-moral-language": 2,
-        "book-when-moral-seriousness-scales": 7,
-        "book-when-others-look-to-you-v1": 1
+        "book-when-moral-seriousness-scales": 6,
+        "book-when-others-look-to-you-v1": 1,
+        "book-when-trust-stops-tracking-reality": 4,
+        "book-why-collaboration-is-so-hard": 2
       }
     },
     {
@@ -1044,9 +1346,10 @@
         "book-before-certainty-arrives": 1,
         "book-coupling": 33,
         "book-how-serious-systems-learn": 1,
+        "book-the-economy-we-dont-experience": 1,
         "book-when-authority-outlives-accountability": 2,
         "book-when-interpretation-no-longer-matters": 1,
-        "book-when-moral-seriousness-scales": 29
+        "book-when-moral-seriousness-scales": 32
       }
     },
     {
@@ -1099,22 +1402,28 @@
       "id": "concept-accountability",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 36,
+        "book-after-certainty": 15,
         "book-before-certainty-arrives": 32,
         "book-coupling": 39,
         "book-how-meaning-moves": 25,
         "book-how-serious-systems-learn": 9,
-        "book-the-discipline-of-uncertainty": 7,
-        "book-the-economy-we-dont-experience": 2,
+        "book-how-trust-forms": 4,
+        "book-living-in-sediment": 2,
+        "book-the-discipline-of-uncertainty": 35,
+        "book-the-economy-we-dont-experience": 6,
+        "book-trust-beyond-similarity": 11,
+        "book-what-we-cannot-see": 20,
         "book-when-accountability-no-longer-expires": 68,
-        "book-when-authority-is-misread": 33,
-        "book-when-authority-outlives-accountability": 68,
-        "book-when-incentives-become-the-moral-language": 10,
-        "book-when-interpretation-no-longer-matters": 139,
-        "book-when-moral-seriousness-scales": 3,
+        "book-when-authority-is-misread": 69,
+        "book-when-authority-outlives-accountability": 70,
+        "book-when-incentives-become-the-moral-language": 28,
+        "book-when-interpretation-no-longer-matters": 141,
+        "book-when-moral-seriousness-scales": 37,
         "book-when-others-look-to-you-v1": 25,
         "book-when-others-look-to-you-v2": 2,
-        "book-why-collaboration-is-so-hard": 3
+        "book-when-trust-stops-tracking-reality": 16,
+        "book-why-collaboration-is-so-hard": 26,
+        "book-why-diversity-matters": 20
       }
     },
     {
@@ -1194,12 +1503,17 @@
         "book-coupling": 26,
         "book-how-meaning-moves": 6,
         "book-how-serious-systems-learn": 19,
+        "book-living-in-sediment": 2,
+        "book-the-discipline-of-uncertainty": 1,
+        "book-the-relay": 5,
+        "book-what-we-cannot-see": 1,
         "book-when-accountability-no-longer-expires": 19,
-        "book-when-authority-is-misread": 1,
+        "book-when-authority-is-misread": 3,
         "book-when-authority-outlives-accountability": 4,
-        "book-when-incentives-become-the-moral-language": 1,
-        "book-when-moral-seriousness-scales": 1,
-        "book-when-others-look-to-you-v1": 2
+        "book-when-incentives-become-the-moral-language": 2,
+        "book-when-moral-seriousness-scales": 3,
+        "book-when-others-look-to-you-v1": 2,
+        "book-when-trust-stops-tracking-reality": 2
       }
     },
     {
@@ -1275,21 +1589,27 @@
       "id": "concept-alignment",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 16,
-        "book-before-certainty-arrives": 1,
+        "book-after-certainty": 6,
         "book-boundary-conditions": 15,
         "book-coupling": 12,
-        "book-how-meaning-moves": 9,
+        "book-how-meaning-moves": 8,
         "book-how-serious-systems-learn": 7,
-        "book-the-economy-we-dont-experience": 8,
-        "book-when-accountability-no-longer-expires": 6,
-        "book-when-authority-is-misread": 10,
-        "book-when-authority-outlives-accountability": 1,
-        "book-when-incentives-become-the-moral-language": 3,
-        "book-when-interpretation-no-longer-matters": 35,
+        "book-living-in-sediment": 2,
+        "book-the-discipline-of-uncertainty": 3,
+        "book-the-economy-we-dont-experience": 22,
+        "book-the-relay": 1,
+        "book-trust-beyond-similarity": 4,
+        "book-velorum": 3,
+        "book-what-we-cannot-see": 2,
+        "book-when-accountability-no-longer-expires": 5,
+        "book-when-authority-is-misread": 12,
+        "book-when-incentives-become-the-moral-language": 7,
+        "book-when-interpretation-no-longer-matters": 36,
         "book-when-moral-seriousness-scales": 5,
         "book-when-others-look-to-you-v2": 1,
-        "book-why-collaboration-is-so-hard": 16
+        "book-when-trust-stops-tracking-reality": 4,
+        "book-why-collaboration-is-so-hard": 27,
+        "book-why-diversity-matters": 6
       }
     },
     {
@@ -1306,11 +1626,12 @@
         "book-coupling": 2,
         "book-how-meaning-moves": 2,
         "book-how-serious-systems-learn": 9,
-        "book-the-economy-we-dont-experience": 6,
-        "book-when-authority-is-misread": 4,
+        "book-the-discipline-of-uncertainty": 5,
+        "book-the-economy-we-dont-experience": 16,
+        "book-when-authority-is-misread": 6,
         "book-when-authority-outlives-accountability": 2,
-        "book-when-moral-seriousness-scales": 28,
-        "book-why-collaboration-is-so-hard": 18
+        "book-when-moral-seriousness-scales": 26,
+        "book-why-collaboration-is-so-hard": 20
       }
     },
     {
@@ -1363,24 +1684,32 @@
       "id": "concept-authority",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 47,
-        "book-before-certainty-arrives": 97,
-        "book-boundary-conditions": 11,
-        "book-coupling": 90,
-        "book-curiosity-before-certainty": 1,
-        "book-how-meaning-moves": 66,
-        "book-how-serious-systems-learn": 74,
-        "book-the-discipline-of-uncertainty": 6,
-        "book-the-economy-we-dont-experience": 2,
-        "book-when-accountability-no-longer-expires": 133,
-        "book-when-authority-is-misread": 106,
-        "book-when-authority-outlives-accountability": 153,
-        "book-when-incentives-become-the-moral-language": 6,
-        "book-when-interpretation-no-longer-matters": 437,
-        "book-when-moral-seriousness-scales": 50,
-        "book-when-others-look-to-you-v1": 73,
-        "book-when-others-look-to-you-v2": 15,
-        "book-why-collaboration-is-so-hard": 6
+        "book-after-certainty": 48,
+        "book-before-certainty-arrives": 111,
+        "book-boundary-conditions": 14,
+        "book-coupling": 92,
+        "book-curiosity-before-certainty": 3,
+        "book-how-meaning-moves": 82,
+        "book-how-serious-systems-learn": 75,
+        "book-how-trust-forms": 14,
+        "book-living-in-sediment": 23,
+        "book-the-discipline-of-uncertainty": 17,
+        "book-the-economy-we-dont-experience": 4,
+        "book-the-relay": 15,
+        "book-trust-beyond-similarity": 11,
+        "book-velorum": 11,
+        "book-what-we-cannot-see": 36,
+        "book-when-accountability-no-longer-expires": 148,
+        "book-when-authority-is-misread": 154,
+        "book-when-authority-outlives-accountability": 173,
+        "book-when-incentives-become-the-moral-language": 51,
+        "book-when-interpretation-no-longer-matters": 431,
+        "book-when-moral-seriousness-scales": 86,
+        "book-when-others-look-to-you-v1": 75,
+        "book-when-others-look-to-you-v2": 17,
+        "book-when-trust-stops-tracking-reality": 37,
+        "book-why-collaboration-is-so-hard": 54,
+        "book-why-diversity-matters": 51
       }
     },
     {
@@ -1501,8 +1830,11 @@
         "book-before-certainty-arrives": 8,
         "book-coupling": 51,
         "book-how-serious-systems-learn": 1,
-        "book-the-discipline-of-uncertainty": 2,
-        "book-when-incentives-become-the-moral-language": 1
+        "book-the-discipline-of-uncertainty": 4,
+        "book-trust-beyond-similarity": 2,
+        "book-velorum": 1,
+        "book-when-incentives-become-the-moral-language": 1,
+        "book-why-collaboration-is-so-hard": 2
       }
     },
     {
@@ -1565,24 +1897,33 @@
       "id": "concept-certainty",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 139,
-        "book-before-certainty-arrives": 123,
-        "book-boundary-conditions": 2,
-        "book-coupling": 1,
-        "book-curiosity-before-certainty": 16,
-        "book-how-meaning-moves": 74,
-        "book-how-serious-systems-learn": 52,
-        "book-the-discipline-of-uncertainty": 51,
-        "book-the-economy-we-dont-experience": 7,
-        "book-when-accountability-no-longer-expires": 55,
-        "book-when-authority-is-misread": 4,
-        "book-when-authority-outlives-accountability": 40,
-        "book-when-incentives-become-the-moral-language": 1,
-        "book-when-interpretation-no-longer-matters": 38,
-        "book-when-moral-seriousness-scales": 11,
-        "book-when-others-look-to-you-v1": 2,
-        "book-when-others-look-to-you-v2": 3,
-        "book-why-collaboration-is-so-hard": 9
+        "book-after-certainty": 113,
+        "book-before-certainty-arrives": 136,
+        "book-boundary-conditions": 5,
+        "book-coupling": 4,
+        "book-curiosity-before-certainty": 19,
+        "book-how-meaning-moves": 89,
+        "book-how-serious-systems-learn": 55,
+        "book-how-trust-forms": 41,
+        "book-living-in-sediment": 27,
+        "book-observer-patterns": 4,
+        "book-the-discipline-of-uncertainty": 166,
+        "book-the-economy-we-dont-experience": 18,
+        "book-the-relay": 25,
+        "book-trust-beyond-similarity": 21,
+        "book-velorum": 7,
+        "book-what-we-cannot-see": 62,
+        "book-when-accountability-no-longer-expires": 66,
+        "book-when-authority-is-misread": 53,
+        "book-when-authority-outlives-accountability": 51,
+        "book-when-incentives-become-the-moral-language": 55,
+        "book-when-interpretation-no-longer-matters": 157,
+        "book-when-moral-seriousness-scales": 57,
+        "book-when-others-look-to-you-v1": 5,
+        "book-when-others-look-to-you-v2": 6,
+        "book-when-trust-stops-tracking-reality": 16,
+        "book-why-collaboration-is-so-hard": 66,
+        "book-why-diversity-matters": 63
       }
     },
     {
@@ -1637,10 +1978,11 @@
       "id": "concept-circulation",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 2,
+        "book-after-certainty": 1,
         "book-how-serious-systems-learn": 1,
+        "book-the-relay": 7,
+        "book-trust-beyond-similarity": 8,
         "book-when-authority-outlives-accountability": 8,
-        "book-when-moral-seriousness-scales": 1,
         "book-when-others-look-to-you-v1": 63,
         "book-when-others-look-to-you-v2": 1
       }
@@ -1764,21 +2106,28 @@
       "id": "concept-compression",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 13,
-        "book-before-certainty-arrives": 19,
+        "book-after-certainty": 12,
+        "book-before-certainty-arrives": 17,
         "book-boundary-conditions": 5,
         "book-coupling": 10,
         "book-curiosity-before-certainty": 2,
-        "book-how-meaning-moves": 73,
+        "book-how-meaning-moves": 72,
         "book-how-serious-systems-learn": 1,
-        "book-the-discipline-of-uncertainty": 3,
-        "book-the-economy-we-dont-experience": 21,
-        "book-when-accountability-no-longer-expires": 12,
-        "book-when-authority-is-misread": 62,
-        "book-when-authority-outlives-accountability": 6,
+        "book-how-trust-forms": 8,
+        "book-living-in-sediment": 21,
+        "book-the-discipline-of-uncertainty": 15,
+        "book-the-economy-we-dont-experience": 51,
+        "book-trust-beyond-similarity": 10,
+        "book-what-we-cannot-see": 5,
+        "book-when-accountability-no-longer-expires": 10,
+        "book-when-authority-is-misread": 72,
+        "book-when-authority-outlives-accountability": 5,
+        "book-when-incentives-become-the-moral-language": 12,
         "book-when-interpretation-no-longer-matters": 12,
-        "book-when-moral-seriousness-scales": 1,
-        "book-why-collaboration-is-so-hard": 1
+        "book-when-moral-seriousness-scales": 2,
+        "book-when-trust-stops-tracking-reality": 4,
+        "book-why-collaboration-is-so-hard": 21,
+        "book-why-diversity-matters": 19
       }
     },
     {
@@ -1840,20 +2189,27 @@
       "id": "concept-consequence",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 12,
+        "book-after-certainty": 7,
         "book-before-certainty-arrives": 11,
         "book-coupling": 264,
         "book-how-meaning-moves": 19,
         "book-how-serious-systems-learn": 19,
+        "book-how-trust-forms": 1,
+        "book-living-in-sediment": 2,
         "book-the-discipline-of-uncertainty": 2,
+        "book-the-economy-we-dont-experience": 2,
+        "book-velorum": 2,
         "book-when-accountability-no-longer-expires": 12,
-        "book-when-authority-is-misread": 8,
+        "book-when-authority-is-misread": 10,
         "book-when-authority-outlives-accountability": 11,
-        "book-when-incentives-become-the-moral-language": 1,
-        "book-when-interpretation-no-longer-matters": 15,
-        "book-when-moral-seriousness-scales": 40,
+        "book-when-incentives-become-the-moral-language": 2,
+        "book-when-interpretation-no-longer-matters": 19,
+        "book-when-moral-seriousness-scales": 39,
         "book-when-others-look-to-you-v1": 10,
-        "book-when-others-look-to-you-v2": 4
+        "book-when-others-look-to-you-v2": 4,
+        "book-when-trust-stops-tracking-reality": 2,
+        "book-why-collaboration-is-so-hard": 4,
+        "book-why-diversity-matters": 1
       }
     },
     {
@@ -1915,20 +2271,25 @@
       "id": "concept-constraint",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 11,
-        "book-before-certainty-arrives": 9,
+        "book-after-certainty": 8,
+        "book-before-certainty-arrives": 10,
         "book-boundary-conditions": 1,
         "book-coupling": 9,
-        "book-how-meaning-moves": 1,
-        "book-how-serious-systems-learn": 41,
-        "book-the-discipline-of-uncertainty": 5,
-        "book-the-economy-we-dont-experience": 2,
-        "book-when-accountability-no-longer-expires": 14,
-        "book-when-authority-is-misread": 67,
-        "book-when-authority-outlives-accountability": 8,
-        "book-when-interpretation-no-longer-matters": 8,
-        "book-when-moral-seriousness-scales": 30,
-        "book-why-collaboration-is-so-hard": 12
+        "book-how-meaning-moves": 2,
+        "book-how-serious-systems-learn": 40,
+        "book-living-in-sediment": 11,
+        "book-the-discipline-of-uncertainty": 13,
+        "book-the-economy-we-dont-experience": 4,
+        "book-trust-beyond-similarity": 2,
+        "book-what-we-cannot-see": 1,
+        "book-when-accountability-no-longer-expires": 15,
+        "book-when-authority-is-misread": 70,
+        "book-when-authority-outlives-accountability": 9,
+        "book-when-incentives-become-the-moral-language": 2,
+        "book-when-interpretation-no-longer-matters": 11,
+        "book-when-moral-seriousness-scales": 31,
+        "book-why-collaboration-is-so-hard": 18,
+        "book-why-diversity-matters": 2
       }
     },
     {
@@ -1994,7 +2355,7 @@
       "mentionsByBook": {
         "book-how-serious-systems-learn": 6,
         "book-when-authority-outlives-accountability": 1,
-        "book-when-moral-seriousness-scales": 24
+        "book-when-moral-seriousness-scales": 21
       }
     },
     {
@@ -2069,23 +2430,33 @@
       "id": "concept-coordination",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 12,
-        "book-before-certainty-arrives": 44,
-        "book-boundary-conditions": 10,
-        "book-coupling": 167,
-        "book-how-meaning-moves": 6,
-        "book-how-serious-systems-learn": 16,
-        "book-the-discipline-of-uncertainty": 1,
-        "book-the-economy-we-dont-experience": 3,
-        "book-when-accountability-no-longer-expires": 4,
-        "book-when-authority-is-misread": 25,
-        "book-when-authority-outlives-accountability": 6,
-        "book-when-incentives-become-the-moral-language": 8,
-        "book-when-interpretation-no-longer-matters": 6,
-        "book-when-moral-seriousness-scales": 7,
-        "book-when-others-look-to-you-v1": 12,
-        "book-when-others-look-to-you-v2": 3,
-        "book-why-collaboration-is-so-hard": 10
+        "book-after-certainty": 14,
+        "book-before-certainty-arrives": 47,
+        "book-boundary-conditions": 11,
+        "book-coupling": 168,
+        "book-curiosity-before-certainty": 1,
+        "book-how-meaning-moves": 11,
+        "book-how-serious-systems-learn": 17,
+        "book-how-trust-forms": 17,
+        "book-living-in-sediment": 4,
+        "book-observer-patterns": 10,
+        "book-the-discipline-of-uncertainty": 9,
+        "book-the-economy-we-dont-experience": 7,
+        "book-the-relay": 2,
+        "book-trust-beyond-similarity": 19,
+        "book-velorum": 1,
+        "book-what-we-cannot-see": 10,
+        "book-when-accountability-no-longer-expires": 8,
+        "book-when-authority-is-misread": 31,
+        "book-when-authority-outlives-accountability": 9,
+        "book-when-incentives-become-the-moral-language": 18,
+        "book-when-interpretation-no-longer-matters": 11,
+        "book-when-moral-seriousness-scales": 12,
+        "book-when-others-look-to-you-v1": 13,
+        "book-when-others-look-to-you-v2": 4,
+        "book-when-trust-stops-tracking-reality": 9,
+        "book-why-collaboration-is-so-hard": 22,
+        "book-why-diversity-matters": 8
       }
     },
     {
@@ -2138,20 +2509,33 @@
       "id": "concept-correction",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 5,
-        "book-before-certainty-arrives": 4,
-        "book-coupling": 45,
-        "book-curiosity-before-certainty": 2,
-        "book-how-meaning-moves": 26,
-        "book-how-serious-systems-learn": 89,
-        "book-when-accountability-no-longer-expires": 22,
-        "book-when-authority-outlives-accountability": 5,
-        "book-when-incentives-become-the-moral-language": 1,
-        "book-when-interpretation-no-longer-matters": 12,
-        "book-when-moral-seriousness-scales": 10,
-        "book-when-others-look-to-you-v1": 104,
-        "book-when-others-look-to-you-v2": 15,
-        "book-why-collaboration-is-so-hard": 4
+        "book-after-certainty": 21,
+        "book-before-certainty-arrives": 7,
+        "book-boundary-conditions": 2,
+        "book-coupling": 46,
+        "book-curiosity-before-certainty": 3,
+        "book-how-meaning-moves": 29,
+        "book-how-serious-systems-learn": 88,
+        "book-how-trust-forms": 3,
+        "book-living-in-sediment": 1,
+        "book-observer-patterns": 2,
+        "book-the-discipline-of-uncertainty": 2,
+        "book-the-economy-we-dont-experience": 3,
+        "book-the-relay": 2,
+        "book-trust-beyond-similarity": 10,
+        "book-velorum": 29,
+        "book-what-we-cannot-see": 3,
+        "book-when-accountability-no-longer-expires": 25,
+        "book-when-authority-is-misread": 6,
+        "book-when-authority-outlives-accountability": 8,
+        "book-when-incentives-become-the-moral-language": 5,
+        "book-when-interpretation-no-longer-matters": 16,
+        "book-when-moral-seriousness-scales": 15,
+        "book-when-others-look-to-you-v1": 105,
+        "book-when-others-look-to-you-v2": 16,
+        "book-when-trust-stops-tracking-reality": 8,
+        "book-why-collaboration-is-so-hard": 9,
+        "book-why-diversity-matters": 4
       }
     },
     {
@@ -2166,7 +2550,7 @@
       "isCoreTerm": true,
       "mentionsByBook": {
         "book-how-serious-systems-learn": 16,
-        "book-when-moral-seriousness-scales": 4
+        "book-when-moral-seriousness-scales": 3
       }
     },
     {
@@ -2182,15 +2566,20 @@
       "id": "concept-coupling",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 10,
-        "book-before-certainty-arrives": 10,
+        "book-before-certainty-arrives": 8,
         "book-coupling": 145,
-        "book-how-meaning-moves": 12,
+        "book-how-meaning-moves": 10,
         "book-how-serious-systems-learn": 7,
-        "book-when-accountability-no-longer-expires": 10,
-        "book-when-authority-outlives-accountability": 10,
+        "book-trust-beyond-similarity": 2,
+        "book-what-we-cannot-see": 10,
+        "book-when-accountability-no-longer-expires": 8,
+        "book-when-authority-is-misread": 8,
+        "book-when-authority-outlives-accountability": 8,
+        "book-when-incentives-become-the-moral-language": 10,
         "book-when-interpretation-no-longer-matters": 10,
-        "book-why-collaboration-is-so-hard": 1
+        "book-when-moral-seriousness-scales": 8,
+        "book-why-collaboration-is-so-hard": 26,
+        "book-why-diversity-matters": 10
       }
     },
     {
@@ -2278,22 +2667,28 @@
       "id": "concept-distance",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 8,
+        "book-after-certainty": 20,
         "book-before-certainty-arrives": 18,
         "book-boundary-conditions": 2,
         "book-coupling": 55,
         "book-how-meaning-moves": 4,
         "book-how-serious-systems-learn": 2,
+        "book-how-trust-forms": 14,
+        "book-living-in-sediment": 1,
         "book-the-discipline-of-uncertainty": 1,
-        "book-velorum": 7,
+        "book-the-relay": 15,
+        "book-trust-beyond-similarity": 6,
+        "book-velorum": 14,
         "book-when-accountability-no-longer-expires": 5,
-        "book-when-authority-is-misread": 6,
-        "book-when-authority-outlives-accountability": 9,
-        "book-when-incentives-become-the-moral-language": 2,
+        "book-when-authority-is-misread": 8,
+        "book-when-authority-outlives-accountability": 7,
+        "book-when-incentives-become-the-moral-language": 4,
         "book-when-moral-seriousness-scales": 25,
         "book-when-others-look-to-you-v1": 15,
         "book-when-others-look-to-you-v2": 7,
-        "book-why-collaboration-is-so-hard": 1
+        "book-when-trust-stops-tracking-reality": 5,
+        "book-why-collaboration-is-so-hard": 2,
+        "book-why-diversity-matters": 2
       }
     },
     {
@@ -2368,23 +2763,31 @@
       "id": "concept-drift",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 17,
+        "book-after-certainty": 23,
         "book-before-certainty-arrives": 2,
         "book-boundary-conditions": 6,
         "book-coupling": 76,
         "book-curiosity-before-certainty": 1,
         "book-how-meaning-moves": 2,
-        "book-how-serious-systems-learn": 26,
-        "book-the-discipline-of-uncertainty": 12,
-        "book-velorum": 1,
+        "book-how-serious-systems-learn": 43,
+        "book-how-trust-forms": 1,
+        "book-living-in-sediment": 4,
+        "book-the-discipline-of-uncertainty": 60,
+        "book-the-economy-we-dont-experience": 1,
+        "book-the-relay": 7,
+        "book-trust-beyond-similarity": 1,
+        "book-velorum": 2,
+        "book-what-we-cannot-see": 5,
         "book-when-accountability-no-longer-expires": 15,
-        "book-when-authority-is-misread": 13,
+        "book-when-authority-is-misread": 15,
         "book-when-authority-outlives-accountability": 8,
-        "book-when-interpretation-no-longer-matters": 5,
+        "book-when-incentives-become-the-moral-language": 1,
+        "book-when-interpretation-no-longer-matters": 6,
         "book-when-moral-seriousness-scales": 5,
         "book-when-others-look-to-you-v1": 7,
         "book-when-others-look-to-you-v2": 11,
-        "book-why-collaboration-is-so-hard": 2
+        "book-when-trust-stops-tracking-reality": 15,
+        "book-why-collaboration-is-so-hard": 8
       }
     },
     {
@@ -2508,17 +2911,20 @@
       "id": "concept-exposure",
       "isCoreTerm": false,
       "mentionsByBook": {
+        "book-after-certainty": 1,
         "book-before-certainty-arrives": 4,
         "book-boundary-conditions": 35,
         "book-coupling": 6,
         "book-how-meaning-moves": 4,
         "book-how-serious-systems-learn": 10,
-        "book-the-discipline-of-uncertainty": 2,
+        "book-observer-patterns": 8,
+        "book-the-discipline-of-uncertainty": 9,
+        "book-trust-beyond-similarity": 6,
         "book-when-accountability-no-longer-expires": 1,
         "book-when-authority-outlives-accountability": 2,
-        "book-when-incentives-become-the-moral-language": 5,
-        "book-when-interpretation-no-longer-matters": 7,
-        "book-when-moral-seriousness-scales": 18,
+        "book-when-incentives-become-the-moral-language": 9,
+        "book-when-interpretation-no-longer-matters": 9,
+        "book-when-moral-seriousness-scales": 17,
         "book-when-others-look-to-you-v1": 1,
         "book-why-collaboration-is-so-hard": 3
       }
@@ -2590,15 +2996,19 @@
         "book-curiosity-before-certainty": 3,
         "book-how-meaning-moves": 2,
         "book-how-serious-systems-learn": 13,
-        "book-the-economy-we-dont-experience": 5,
-        "book-velorum": 1,
+        "book-how-trust-forms": 1,
+        "book-the-economy-we-dont-experience": 7,
+        "book-the-relay": 2,
+        "book-trust-beyond-similarity": 9,
         "book-when-accountability-no-longer-expires": 1,
         "book-when-authority-outlives-accountability": 5,
-        "book-when-incentives-become-the-moral-language": 2,
-        "book-when-moral-seriousness-scales": 23,
+        "book-when-incentives-become-the-moral-language": 1,
+        "book-when-moral-seriousness-scales": 22,
         "book-when-others-look-to-you-v1": 3,
         "book-when-others-look-to-you-v2": 3,
-        "book-why-collaboration-is-so-hard": 1
+        "book-when-trust-stops-tracking-reality": 1,
+        "book-why-collaboration-is-so-hard": 1,
+        "book-why-diversity-matters": 1
       }
     },
     {
@@ -2806,10 +3216,13 @@
         "book-before-certainty-arrives": 4,
         "book-boundary-conditions": 1,
         "book-how-meaning-moves": 1,
+        "book-living-in-sediment": 13,
+        "book-the-discipline-of-uncertainty": 2,
         "book-when-accountability-no-longer-expires": 5,
-        "book-when-authority-is-misread": 1,
+        "book-when-authority-is-misread": 3,
         "book-when-authority-outlives-accountability": 12,
-        "book-when-moral-seriousness-scales": 1
+        "book-when-moral-seriousness-scales": 3,
+        "book-when-trust-stops-tracking-reality": 2
       }
     },
     {
@@ -2884,20 +3297,27 @@
       "id": "concept-interpretation",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 70,
-        "book-before-certainty-arrives": 21,
+        "book-after-certainty": 76,
+        "book-before-certainty-arrives": 29,
         "book-coupling": 3,
-        "book-how-meaning-moves": 70,
-        "book-how-serious-systems-learn": 11,
-        "book-the-discipline-of-uncertainty": 3,
-        "book-the-economy-we-dont-experience": 2,
-        "book-when-accountability-no-longer-expires": 33,
-        "book-when-authority-is-misread": 40,
-        "book-when-authority-outlives-accountability": 13,
-        "book-when-incentives-become-the-moral-language": 2,
-        "book-when-interpretation-no-longer-matters": 240,
+        "book-how-meaning-moves": 84,
+        "book-how-serious-systems-learn": 16,
+        "book-how-trust-forms": 14,
+        "book-living-in-sediment": 8,
+        "book-the-discipline-of-uncertainty": 5,
+        "book-the-economy-we-dont-experience": 3,
+        "book-trust-beyond-similarity": 15,
+        "book-what-we-cannot-see": 21,
+        "book-when-accountability-no-longer-expires": 45,
+        "book-when-authority-is-misread": 61,
+        "book-when-authority-outlives-accountability": 23,
+        "book-when-incentives-become-the-moral-language": 50,
+        "book-when-interpretation-no-longer-matters": 243,
+        "book-when-moral-seriousness-scales": 23,
         "book-when-others-look-to-you-v1": 1,
-        "book-why-collaboration-is-so-hard": 4
+        "book-when-trust-stops-tracking-reality": 40,
+        "book-why-collaboration-is-so-hard": 54,
+        "book-why-diversity-matters": 53
       }
     },
     {
@@ -2969,23 +3389,32 @@
       "id": "concept-judgment",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 120,
-        "book-before-certainty-arrives": 19,
-        "book-boundary-conditions": 1,
-        "book-coupling": 40,
-        "book-curiosity-before-certainty": 2,
-        "book-how-meaning-moves": 40,
-        "book-how-serious-systems-learn": 18,
-        "book-the-discipline-of-uncertainty": 6,
-        "book-the-economy-we-dont-experience": 3,
-        "book-when-accountability-no-longer-expires": 16,
-        "book-when-authority-is-misread": 31,
-        "book-when-authority-outlives-accountability": 39,
-        "book-when-incentives-become-the-moral-language": 71,
-        "book-when-interpretation-no-longer-matters": 39,
-        "book-when-moral-seriousness-scales": 48,
-        "book-when-others-look-to-you-v1": 20,
-        "book-why-collaboration-is-so-hard": 18
+        "book-after-certainty": 89,
+        "book-before-certainty-arrives": 22,
+        "book-boundary-conditions": 3,
+        "book-coupling": 42,
+        "book-curiosity-before-certainty": 4,
+        "book-how-meaning-moves": 50,
+        "book-how-serious-systems-learn": 19,
+        "book-how-trust-forms": 11,
+        "book-living-in-sediment": 31,
+        "book-the-discipline-of-uncertainty": 33,
+        "book-the-economy-we-dont-experience": 6,
+        "book-the-relay": 2,
+        "book-trust-beyond-similarity": 33,
+        "book-velorum": 5,
+        "book-what-we-cannot-see": 26,
+        "book-when-accountability-no-longer-expires": 19,
+        "book-when-authority-is-misread": 45,
+        "book-when-authority-outlives-accountability": 46,
+        "book-when-incentives-become-the-moral-language": 101,
+        "book-when-interpretation-no-longer-matters": 48,
+        "book-when-moral-seriousness-scales": 63,
+        "book-when-others-look-to-you-v1": 22,
+        "book-when-others-look-to-you-v2": 2,
+        "book-when-trust-stops-tracking-reality": 13,
+        "book-why-collaboration-is-so-hard": 51,
+        "book-why-diversity-matters": 20
       }
     },
     {
@@ -3038,22 +3467,31 @@
       "id": "concept-legitimacy",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 14,
-        "book-before-certainty-arrives": 23,
-        "book-coupling": 8,
-        "book-how-meaning-moves": 12,
-        "book-how-serious-systems-learn": 11,
-        "book-the-discipline-of-uncertainty": 3,
-        "book-the-economy-we-dont-experience": 11,
-        "book-when-accountability-no-longer-expires": 112,
-        "book-when-authority-is-misread": 108,
-        "book-when-authority-outlives-accountability": 109,
-        "book-when-incentives-become-the-moral-language": 8,
-        "book-when-interpretation-no-longer-matters": 79,
-        "book-when-moral-seriousness-scales": 16,
-        "book-when-others-look-to-you-v1": 79,
-        "book-when-others-look-to-you-v2": 6,
-        "book-why-collaboration-is-so-hard": 1
+        "book-after-certainty": 31,
+        "book-before-certainty-arrives": 32,
+        "book-boundary-conditions": 2,
+        "book-coupling": 10,
+        "book-curiosity-before-certainty": 2,
+        "book-how-meaning-moves": 21,
+        "book-how-serious-systems-learn": 13,
+        "book-how-trust-forms": 17,
+        "book-living-in-sediment": 6,
+        "book-the-discipline-of-uncertainty": 6,
+        "book-the-economy-we-dont-experience": 21,
+        "book-trust-beyond-similarity": 4,
+        "book-velorum": 2,
+        "book-what-we-cannot-see": 9,
+        "book-when-accountability-no-longer-expires": 121,
+        "book-when-authority-is-misread": 132,
+        "book-when-authority-outlives-accountability": 117,
+        "book-when-incentives-become-the-moral-language": 21,
+        "book-when-interpretation-no-longer-matters": 94,
+        "book-when-moral-seriousness-scales": 34,
+        "book-when-others-look-to-you-v1": 81,
+        "book-when-others-look-to-you-v2": 8,
+        "book-when-trust-stops-tracking-reality": 24,
+        "book-why-collaboration-is-so-hard": 14,
+        "book-why-diversity-matters": 13
       }
     },
     {
@@ -3115,24 +3553,33 @@
       "id": "concept-meaning",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 23,
-        "book-before-certainty-arrives": 28,
-        "book-boundary-conditions": 2,
-        "book-coupling": 14,
-        "book-curiosity-before-certainty": 1,
-        "book-how-meaning-moves": 135,
-        "book-how-serious-systems-learn": 4,
-        "book-the-discipline-of-uncertainty": 17,
-        "book-the-economy-we-dont-experience": 9,
-        "book-velorum": 1,
-        "book-when-accountability-no-longer-expires": 19,
-        "book-when-authority-is-misread": 25,
-        "book-when-authority-outlives-accountability": 11,
-        "book-when-incentives-become-the-moral-language": 5,
-        "book-when-interpretation-no-longer-matters": 148,
-        "book-when-others-look-to-you-v1": 1,
-        "book-when-others-look-to-you-v2": 2,
-        "book-why-collaboration-is-so-hard": 3
+        "book-after-certainty": 32,
+        "book-before-certainty-arrives": 32,
+        "book-boundary-conditions": 3,
+        "book-coupling": 15,
+        "book-curiosity-before-certainty": 2,
+        "book-how-meaning-moves": 140,
+        "book-how-serious-systems-learn": 5,
+        "book-how-trust-forms": 16,
+        "book-living-in-sediment": 10,
+        "book-observer-patterns": 44,
+        "book-the-discipline-of-uncertainty": 70,
+        "book-the-economy-we-dont-experience": 11,
+        "book-the-relay": 16,
+        "book-trust-beyond-similarity": 33,
+        "book-velorum": 16,
+        "book-what-we-cannot-see": 20,
+        "book-when-accountability-no-longer-expires": 23,
+        "book-when-authority-is-misread": 41,
+        "book-when-authority-outlives-accountability": 17,
+        "book-when-incentives-become-the-moral-language": 21,
+        "book-when-interpretation-no-longer-matters": 155,
+        "book-when-moral-seriousness-scales": 13,
+        "book-when-others-look-to-you-v1": 2,
+        "book-when-others-look-to-you-v2": 3,
+        "book-when-trust-stops-tracking-reality": 11,
+        "book-why-collaboration-is-so-hard": 21,
+        "book-why-diversity-matters": 24
       }
     },
     {
@@ -3146,8 +3593,9 @@
       "id": "concept-mediation",
       "isCoreTerm": false,
       "mentionsByBook": {
+        "book-trust-beyond-similarity": 4,
         "book-when-authority-is-misread": 1,
-        "book-when-interpretation-no-longer-matters": 3,
+        "book-when-interpretation-no-longer-matters": 5,
         "book-when-moral-seriousness-scales": 1
       }
     },
@@ -3162,16 +3610,19 @@
       "id": "concept-momentum",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 1,
         "book-boundary-conditions": 1,
         "book-coupling": 1,
         "book-how-serious-systems-learn": 14,
+        "book-how-trust-forms": 2,
+        "book-the-relay": 1,
+        "book-trust-beyond-similarity": 7,
         "book-when-authority-outlives-accountability": 1,
-        "book-when-incentives-become-the-moral-language": 1,
+        "book-when-incentives-become-the-moral-language": 2,
         "book-when-interpretation-no-longer-matters": 2,
-        "book-when-moral-seriousness-scales": 8,
+        "book-when-moral-seriousness-scales": 7,
         "book-when-others-look-to-you-v1": 3,
-        "book-when-others-look-to-you-v2": 2
+        "book-when-others-look-to-you-v2": 2,
+        "book-when-trust-stops-tracking-reality": 4
       }
     },
     {
@@ -3199,11 +3650,11 @@
       "id": "concept-normalization",
       "isCoreTerm": false,
       "mentionsByBook": {
+        "book-after-certainty": 1,
         "book-how-serious-systems-learn": 1,
-        "book-the-economy-we-dont-experience": 1,
-        "book-when-authority-outlives-accountability": 1,
+        "book-the-economy-we-dont-experience": 2,
         "book-when-interpretation-no-longer-matters": 2,
-        "book-when-moral-seriousness-scales": 4,
+        "book-when-moral-seriousness-scales": 3,
         "book-when-others-look-to-you-v1": 2,
         "book-when-others-look-to-you-v2": 1
       }
@@ -3283,11 +3734,12 @@
         "book-after-certainty": 1,
         "book-before-certainty-arrives": 3,
         "book-coupling": 6,
+        "book-the-economy-we-dont-experience": 2,
         "book-when-accountability-no-longer-expires": 2,
         "book-when-authority-outlives-accountability": 4,
         "book-when-incentives-become-the-moral-language": 1,
         "book-when-interpretation-no-longer-matters": 2,
-        "book-when-moral-seriousness-scales": 19,
+        "book-when-moral-seriousness-scales": 18,
         "book-when-others-look-to-you-v2": 3
       }
     },
@@ -3302,6 +3754,7 @@
       "id": "concept-reciprocity",
       "isCoreTerm": true,
       "mentionsByBook": {
+        "book-how-trust-forms": 1,
         "book-when-moral-seriousness-scales": 25
       }
     },
@@ -3318,17 +3771,24 @@
       "id": "concept-renewal",
       "isCoreTerm": false,
       "mentionsByBook": {
-        "book-after-certainty": 3,
+        "book-after-certainty": 4,
         "book-before-certainty-arrives": 3,
         "book-how-meaning-moves": 1,
-        "book-the-discipline-of-uncertainty": 2,
-        "book-the-economy-we-dont-experience": 4,
+        "book-the-discipline-of-uncertainty": 8,
+        "book-the-economy-we-dont-experience": 18,
+        "book-velorum": 1,
+        "book-what-we-cannot-see": 1,
         "book-when-accountability-no-longer-expires": 23,
+        "book-when-authority-is-misread": 4,
         "book-when-authority-outlives-accountability": 17,
-        "book-when-interpretation-no-longer-matters": 1,
-        "book-when-moral-seriousness-scales": 2,
+        "book-when-incentives-become-the-moral-language": 1,
+        "book-when-interpretation-no-longer-matters": 2,
+        "book-when-moral-seriousness-scales": 5,
         "book-when-others-look-to-you-v1": 41,
-        "book-when-others-look-to-you-v2": 2
+        "book-when-others-look-to-you-v2": 2,
+        "book-when-trust-stops-tracking-reality": 2,
+        "book-why-collaboration-is-so-hard": 2,
+        "book-why-diversity-matters": 1
       }
     },
     {
@@ -3462,24 +3922,32 @@
       "id": "concept-scale",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 65,
-        "book-before-certainty-arrives": 34,
-        "book-boundary-conditions": 1,
-        "book-coupling": 125,
-        "book-how-meaning-moves": 12,
-        "book-how-serious-systems-learn": 10,
-        "book-the-discipline-of-uncertainty": 6,
-        "book-the-economy-we-dont-experience": 10,
-        "book-velorum": 1,
-        "book-when-accountability-no-longer-expires": 13,
-        "book-when-authority-is-misread": 48,
-        "book-when-authority-outlives-accountability": 51,
-        "book-when-incentives-become-the-moral-language": 16,
-        "book-when-interpretation-no-longer-matters": 14,
-        "book-when-moral-seriousness-scales": 50,
-        "book-when-others-look-to-you-v1": 49,
-        "book-when-others-look-to-you-v2": 3,
-        "book-why-collaboration-is-so-hard": 1
+        "book-after-certainty": 52,
+        "book-before-certainty-arrives": 38,
+        "book-boundary-conditions": 2,
+        "book-coupling": 126,
+        "book-curiosity-before-certainty": 1,
+        "book-how-meaning-moves": 16,
+        "book-how-serious-systems-learn": 11,
+        "book-how-trust-forms": 9,
+        "book-living-in-sediment": 14,
+        "book-the-discipline-of-uncertainty": 24,
+        "book-the-economy-we-dont-experience": 21,
+        "book-the-relay": 11,
+        "book-trust-beyond-similarity": 8,
+        "book-velorum": 2,
+        "book-what-we-cannot-see": 8,
+        "book-when-accountability-no-longer-expires": 17,
+        "book-when-authority-is-misread": 60,
+        "book-when-authority-outlives-accountability": 53,
+        "book-when-incentives-become-the-moral-language": 31,
+        "book-when-interpretation-no-longer-matters": 21,
+        "book-when-moral-seriousness-scales": 58,
+        "book-when-others-look-to-you-v1": 50,
+        "book-when-others-look-to-you-v2": 4,
+        "book-when-trust-stops-tracking-reality": 10,
+        "book-why-collaboration-is-so-hard": 17,
+        "book-why-diversity-matters": 9
       }
     },
     {
@@ -3626,13 +4094,19 @@
         "book-coupling": 17,
         "book-curiosity-before-certainty": 7,
         "book-how-meaning-moves": 13,
-        "book-how-serious-systems-learn": 13,
-        "book-the-discipline-of-uncertainty": 1,
-        "book-velorum": 4,
-        "book-when-authority-outlives-accountability": 1,
+        "book-how-serious-systems-learn": 25,
+        "book-how-trust-forms": 2,
+        "book-living-in-sediment": 11,
+        "book-the-discipline-of-uncertainty": 8,
+        "book-the-economy-we-dont-experience": 1,
+        "book-the-relay": 6,
+        "book-trust-beyond-similarity": 3,
+        "book-velorum": 18,
+        "book-when-authority-outlives-accountability": 4,
         "book-when-interpretation-no-longer-matters": 1,
-        "book-when-moral-seriousness-scales": 9,
-        "book-when-others-look-to-you-v2": 1
+        "book-when-moral-seriousness-scales": 10,
+        "book-when-others-look-to-you-v2": 1,
+        "book-why-diversity-matters": 1
       }
     },
     {
@@ -3646,12 +4120,14 @@
       "id": "concept-throughput",
       "isCoreTerm": false,
       "mentionsByBook": {
+        "book-after-certainty": 1,
         "book-coupling": 14,
         "book-how-meaning-moves": 1,
         "book-how-serious-systems-learn": 12,
-        "book-when-incentives-become-the-moral-language": 1,
+        "book-the-discipline-of-uncertainty": 4,
+        "book-when-incentives-become-the-moral-language": 5,
         "book-when-others-look-to-you-v1": 2,
-        "book-why-collaboration-is-so-hard": 2
+        "book-why-collaboration-is-so-hard": 4
       }
     },
     {
@@ -3713,24 +4189,32 @@
       "id": "concept-uncertainty",
       "isCoreTerm": true,
       "mentionsByBook": {
-        "book-after-certainty": 41,
-        "book-before-certainty-arrives": 12,
-        "book-boundary-conditions": 2,
-        "book-coupling": 5,
-        "book-curiosity-before-certainty": 9,
-        "book-how-meaning-moves": 25,
-        "book-how-serious-systems-learn": 46,
-        "book-the-discipline-of-uncertainty": 32,
-        "book-the-economy-we-dont-experience": 4,
-        "book-when-accountability-no-longer-expires": 12,
-        "book-when-authority-is-misread": 7,
-        "book-when-authority-outlives-accountability": 6,
-        "book-when-incentives-become-the-moral-language": 2,
-        "book-when-interpretation-no-longer-matters": 5,
-        "book-when-moral-seriousness-scales": 1,
-        "book-when-others-look-to-you-v1": 6,
-        "book-when-others-look-to-you-v2": 6,
-        "book-why-collaboration-is-so-hard": 19
+        "book-after-certainty": 81,
+        "book-before-certainty-arrives": 21,
+        "book-boundary-conditions": 4,
+        "book-coupling": 7,
+        "book-curiosity-before-certainty": 11,
+        "book-how-meaning-moves": 34,
+        "book-how-serious-systems-learn": 48,
+        "book-how-trust-forms": 54,
+        "book-living-in-sediment": 17,
+        "book-the-discipline-of-uncertainty": 113,
+        "book-the-economy-we-dont-experience": 7,
+        "book-the-relay": 2,
+        "book-trust-beyond-similarity": 14,
+        "book-velorum": 2,
+        "book-what-we-cannot-see": 20,
+        "book-when-accountability-no-longer-expires": 21,
+        "book-when-authority-is-misread": 22,
+        "book-when-authority-outlives-accountability": 15,
+        "book-when-incentives-become-the-moral-language": 18,
+        "book-when-interpretation-no-longer-matters": 14,
+        "book-when-moral-seriousness-scales": 13,
+        "book-when-others-look-to-you-v1": 8,
+        "book-when-others-look-to-you-v2": 8,
+        "book-when-trust-stops-tracking-reality": 6,
+        "book-why-collaboration-is-so-hard": 34,
+        "book-why-diversity-matters": 18
       }
     },
     {

@@ -1,29 +1,70 @@
 import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
 import type { Book as CatalogBook } from "@/types/content";
-import type { Book as SemanticBook, SemanticGraph } from "@/types/semanticGraph";
+import type { Book as SemanticBook, BookFormatAsset, SemanticGraph } from "@/types/semanticGraph";
 
-function mergeBookFields(existing: SemanticBook, c: CatalogBook): SemanticBook {
+type ExportFormat = "epub" | "docx" | "pdf";
+
+function formatBlockFromCatalogUrl(
+  url: string | undefined,
+  slug: string,
+  format: ExportFormat,
+): BookFormatAsset | undefined {
+  if (!url) return undefined;
   return {
-    ...existing,
-    title: existing.title || c.title,
-    subtitle: existing.subtitle ?? c.subtitle ?? undefined,
-    summary: existing.summary ?? c.description ?? undefined,
-    coverImage: existing.coverImage ?? c.coverImage ?? undefined,
+    enabled: true,
+    file: `${slug}.${format}`,
+    url,
   };
 }
 
-function catalogOnlySemanticBook(canonicalSlug: string, c: CatalogBook): SemanticBook {
-  return {
-    id: `catalog:${canonicalSlug}`,
-    slug: canonicalSlug,
-    title: c.title,
-    subtitle: c.subtitle ?? undefined,
-    summary: c.description,
-    coverImage: c.coverImage ?? undefined,
-    concepts: [],
-    patterns: [],
-    sources: [],
+function mergeCatalogExportUrls(existing: SemanticBook, c: CatalogBook): SemanticBook {
+  const mergeFormat = (
+    existingBlock: BookFormatAsset | undefined,
+    catalogUrl: string | undefined,
+    format: ExportFormat,
+  ): BookFormatAsset | undefined => {
+    if (existingBlock?.enabled && existingBlock.url) return existingBlock;
+    const fromCatalog = formatBlockFromCatalogUrl(catalogUrl, existing.slug, format);
+    if (fromCatalog) return fromCatalog;
+    return existingBlock;
   };
+
+  return {
+    ...existing,
+    epub: mergeFormat(existing.epub, c.epubUrl, "epub"),
+    docx: mergeFormat(existing.docx, c.docxUrl, "docx"),
+    pdf: mergeFormat(existing.pdf, c.pdfUrl, "pdf"),
+  };
+}
+
+function mergeBookFields(existing: SemanticBook, c: CatalogBook): SemanticBook {
+  return mergeCatalogExportUrls(
+    {
+      ...existing,
+      title: existing.title || c.title,
+      subtitle: existing.subtitle ?? c.subtitle ?? undefined,
+      summary: existing.summary ?? c.description ?? undefined,
+      coverImage: existing.coverImage ?? c.coverImage ?? undefined,
+    },
+    c,
+  );
+}
+
+function catalogOnlySemanticBook(canonicalSlug: string, c: CatalogBook): SemanticBook {
+  return mergeCatalogExportUrls(
+    {
+      id: `catalog:${canonicalSlug}`,
+      slug: canonicalSlug,
+      title: c.title,
+      subtitle: c.subtitle ?? undefined,
+      summary: c.description,
+      coverImage: c.coverImage ?? undefined,
+      concepts: [],
+      patterns: [],
+      sources: [],
+    },
+    c,
+  );
 }
 
 /**

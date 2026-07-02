@@ -1,6 +1,7 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import fallback from "@/data/semantic-manifest.json";
+import { getSemanticBookActionLinkItems } from "@/lib/books/semantic-book-action-links";
 import { DEFAULT_SEMANTIC_MANIFEST_URL } from "@/lib/site-config";
 import {
   dedupeSemanticGraphBooks,
@@ -141,6 +142,42 @@ describe("validateSemanticGraph", () => {
     if (result.success) {
       expect(result.data.books[0]?.coverImage).toBeUndefined();
       expect(result.data.books[0]?.openGraphImage).toBeUndefined();
+    }
+  });
+
+  it("accepts null subtitle and PDF-only exports (poetry books)", () => {
+    const pdfUrl = "https://github.com/ksteffe/after-certainty/releases/download/latest/observer-patterns.pdf";
+    const result = validateSemanticGraph({
+      books: [
+        {
+          id: "book-observer-patterns",
+          slug: "observer-patterns",
+          title: "Observer Patterns",
+          subtitle: null,
+          summary: "A book of patterns.",
+          concepts: [],
+          patterns: [],
+          sources: [],
+          docx: { enabled: false, file: "observer-patterns.docx", url: null },
+          epub: { enabled: false, file: "observer-patterns.epub", url: null },
+          pdf: { enabled: true, file: "observer-patterns.pdf", url: pdfUrl },
+        },
+      ],
+      glossary: [],
+      patterns: [],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      const book = result.data.books[0];
+      expect(book?.subtitle).toBeUndefined();
+      expect(book?.pdf?.url).toBe(pdfUrl);
+      expect(book?.epub?.enabled).toBe(false);
+      expect(book?.docx?.enabled).toBe(false);
+      expect(getSemanticBookActionLinkItems(book!)).toEqual([
+        { label: "Download PDF", href: pdfUrl, kind: "download" },
+      ]);
     }
   });
 });
