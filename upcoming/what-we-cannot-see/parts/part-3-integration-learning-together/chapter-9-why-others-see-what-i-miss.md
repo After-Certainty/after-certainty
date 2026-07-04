@@ -24,7 +24,7 @@ That is the move Part III begins with.
 
 If perspective is constructed—as Part I argued through attention, memory, interpretation, trust, and structure—then no two people will construct the same view from the same world. They stand in different roles. They carry different archives. They notice what their work has trained them to notice and miss what it has trained them to ignore.
 
-This is not a defect of bad faith. It is how finite minds operate. The limit is structural, not moral. Others keep seeing what you miss because **every** perspective misses something. Their miss is different from yours. Sometimes that difference is noise. Sometimes it is the part of the terrain your sketch never drew.
+This is not a defect of bad faith. It is how finite minds operate. The limit is structural, not moral. Others keep seeing what you miss not because they are less biased than you, but because their biases are **different**—each perspective missing something, each miss shaped by a different somewhere. Sometimes that difference is noise. Sometimes it is the part of the terrain your sketch never drew.
 
 Integration begins when you treat that difference as **information**—not as insult, not as proof that you failed, not as automatic proof that the other person is right. Suffering does not grant infallibility. Expertise does not grant completeness. But partial views often reveal partial truths: the engineer sees the stress fracture the manager’s dashboard never counted; the nurse sees the patient the triage score ranked too low; the tenant sees the alley the packet never pictured.
 
@@ -50,6 +50,8 @@ No astronaut could hold the whole spacecraft in view. No chair of a housing boar
 
 This solves a real problem. It lets groups act on what no member could verify alone. It lets error surface before catastrophe. It lets the night worker’s notice and the accountant’s notice and the engineer’s notice coexist long enough to be weighed. Civilization, in one sense, is what happens when this move succeeds often enough to trust—not because people become unbiased, but because they learn to **combine** bias usefully.
 
+In the epistemic sense, much of what we call **knowledge** is built this way—not because individuals became smarter, but because humans invented ways to integrate partial views more reliably than any one mind could. Science, engineering, medicine, law, aviation: none exist as we know them without that move.
+
 ## When integration fails
 
 Integration becomes dangerous when it is confused with **consensus theater**—when hearing many voices substitutes for letting them change the model.
@@ -66,9 +68,9 @@ Compensation here begins in the small, before the institutions Part III will exa
 
 None of this removes individual judgment. Someone still decides. Someone still owns the call. Integration does not dissolve responsibility into the group. It gives the responsible person more than one partial sketch to decide from.
 
-We judge from somewhere. We integrate from somewhere. The shift is not from personal accountability to collective fog. It is from the fantasy of personal completeness to the discipline of **shared** partial sight.
+We judge from somewhere. We integrate from somewhere. The difference is that integration allows one perspective to become **answerable** to another before the decision hardens. The shift is not from personal accountability to collective fog. It is from the fantasy of personal completeness to the discipline of **shared** partial sight.
 
-Part III will soon turn to designed methods—science, engineering review, democratic checks, the deliberate machinery societies built because no one person could hold the whole picture. Before that machinery, there is a simpler recognition: incomplete perspectives can produce **better** understanding when they are integrated honestly—not averaged, not performed, not suppressed for comfort.
+Part III will soon turn to designed methods—science, engineering review, democratic checks, the deliberate machinery societies built because no one person could hold the whole picture. Nearly every durable institution humans have built can be understood as an attempt—successful or not—to integrate perspectives more reliably than any individual could. Before that machinery, there is a simpler recognition: incomplete perspectives can produce **better** understanding when they are integrated honestly—not averaged, not performed, not suppressed for comfort.
 
 > How can incomplete perspectives produce better understanding?
 

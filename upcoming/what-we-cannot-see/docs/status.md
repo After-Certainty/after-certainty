@@ -2,9 +2,9 @@
 
 ## Current phase
 
-**Phase 3 — Part III + epilogue complete (pending merge)**
+**Phase 3 — complete draft on main; Ch 9 catch-up on branch**
 
-Manuscript-so-far review **approved**. Epilogue revised from author feedback (extended landing).
+Full manuscript on `main` (PR #220). This branch holds Ch 9 author-feedback revisions that missed the squash merge.
 
 ## Workflow stage (Part III branch)
 
@@ -13,9 +13,9 @@ Manuscript-so-far review **approved**. Epilogue revised from author feedback (ex
 | D | Manuscript-so-far review (Intro → Ch 13) | Done (approved) |
 | — | Epilogue revision | Done (approved) |
 | E | Whole-manuscript revision pass | Deferred (author) |
-| F–G | Squash, merge | Ready |
+| F–G | Promote | Pending (merge PR #221 when approved) |
 
-**Branch:** `cursor/what-we-cannot-see-part3-draft-2512` · PR #220
+**Branch:** `cursor/what-we-cannot-see-part3-draft-2512` · PR #221 (Ch 9 catch-up)
 
 ## Manuscript-so-far (locked)
 
@@ -37,13 +37,15 @@ Manuscript-so-far review **approved**. Epilogue revised from author feedback (ex
 
 | Ch | Status |
 |----|--------|
-| 9–13 | approved |
+| 9 | approved | catch-up revisions in PR #221 |
+| 10–13 | approved |
 | Epilogue | approved |
 
 ## Next actions
 
-1. Squash + merge PR #220
-2. Optional: glossary / bibliography back matter
+1. **Author:** Review Ch 9 catch-up (PR #221)
+2. Merge PR #221 when approved
+3. Optional: glossary / bibliography back matter
 
 ## Rough scale
 
