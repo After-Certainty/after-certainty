@@ -24,7 +24,7 @@ Part I + Part II on `main`. Part III Ch 9–13 approved on branch.
 | 10 | How can incomplete perspectives produce better understanding? | approved (~1,200w) |
 | 11 | When failure teaches the system | approved (~1,370w) |
 | 12 | How do institutions preserve both wisdom and blind spots? | approved (~1,090w) |
-| 13 | What happens when the perspective is not human? | approved (~1,150w) |
+| 13 | What happens when the perspective is not human? | approved (~1,210w) |
 
 **Frame:** Integration ≠ collaboration · fourth epistemic participant · redistribute perspective
 
@@ -45,8 +45,8 @@ Part I + Part II on `main`. Part III Ch 9–13 approved on branch.
 ## Rough scale
 
 - On `main`: ~13,520 words
-- Part III (Ch 9–13): ~6,330 words
-- **Total drafted:** ~19,850 words (pending epilogue)
+- Part III (Ch 9–13): ~6,400 words
+- **Total drafted:** ~19,920 words (pending epilogue)
 
 ## Key docs
 
