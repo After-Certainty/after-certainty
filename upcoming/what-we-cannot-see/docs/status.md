@@ -2,63 +2,74 @@
 
 ## Current phase
 
-**Part I completion gate — step G: merge PR #215**
+**Phase 2 — Part II prose (Judgment: Learning to Decide)**
 
-See [`drafting-process.md`](drafting-process.md) for the full part-branch workflow.
+Part I merged to `main` (PR #215, 2026-07-04). Follow [`drafting-process.md`](drafting-process.md) part-branch workflow.
 
-## Workflow stage (Part I branch)
+## Workflow stage (Part II branch)
 
 | Step | Action | Status |
 |------|--------|--------|
-| A | Author review Ch 5 | Done |
-| B | Revise / approve Ch 5 | Done |
-| C | Draft Part I bridge | Done |
-| D | Manuscript-so-far review | Done |
-| E | Whole-manuscript revision | Done |
-| F | Squash commits + update PR #215 | Done |
-| G | Merge to `main` | **Author** |
+| — | Branch from `main` | Done |
+| — | Draft Ch 6 | **Next** |
+| A–G | Part completion gate (after Ch 6–8 + Part II bridge) | Pending |
 
-**After merge:** new branch `cursor/what-we-cannot-see-part2-draft-2512` from `main`.
+**Branch:** `cursor/what-we-cannot-see-part2-draft-2512`
 
 ## Active branch
 
-`cursor/what-we-cannot-see-part1-draft-2512` · PR #215
+`cursor/what-we-cannot-see-part2-draft-2512`
 
 ## Manuscript hub
 
-[`index.md`](../index.md) · Read order: Introduction → Part I bridge → Ch 1–5
+[`index.md`](../index.md)
+
+**On `main` (approved):** Introduction → Part I bridge → Ch 1–5 (~8,770 words)
+
+**Part II units (this branch):** Part II bridge · Ch 6–8
+
+## Part II arc (planning)
+
+Part I asked how perspectives are **formed**. Part II asks how anyone should **decide** knowing they are partial.
+
+| Ch | Opens with | Handoff |
+|----|------------|---------|
+| 6 — Judgment Is Not Neutrality | What is judgment? | How should we decide when certainty is impossible? |
+| 7 — Deciding Without Certainty | How should we decide when certainty is impossible? | What responsibilities accompany judgment? |
+| 8 — Perspectives We Do Not Naturally Possess | What responsibilities accompany judgment? | Why does even excellent individual judgment remain incomplete? |
+
+**Signature rhythm:** story → pressure → adaptation → benefit → cost → compensation → transition (see [`chapter-template.md`](chapter-template.md))
+
+**Spine echo (Part II):** We judge from somewhere.
+
+**Deferred from Part I gate:** Revisit Ch 1–2 voice after Part II drafted; Ch 1–2 compression pass optional at Part II whole-manuscript review.
 
 ## Unit progress
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction — The Myth of the Unbiased Mind | approved | ~1,750 words; philosophical heart locked |
-| Part I bridge | approved | ~210 words; overture (shortened whole-book pass) |
-| Ch 1 — The Attention Budget | approved | Revisit voice after Part II drafted |
-| Ch 2 — What Stays and What Fades | approved | Surprise line: memory/continuity vs accuracy |
-| Ch 3 — The Stories We Inherit | approved | Surprise line: interpretation part of perception |
-| Ch 4 — Who and What We Trust | approved | ~1,290 words |
-| Ch 5 — Structures That See For Us | approved | ~1,480 words; Part I capstone |
-| Part II+ | scaffold | Next branch |
-
-## Whole-manuscript pass (step E) — applied
-
-- Ch 2: *The purpose of memory is not accuracy. The purpose is continuity.*
-- Ch 3: *Interpretation is not something we do after perception. It is part of perception itself.*
-- Part I bridge: shortened to overture; adaptation lens strengthened (*solved a real cognitive problem before it introduced a blind spot*)
-- Planning: bias as Part I vocabulary; adaptation chain (finite minds → adaptations → blind spots → judgment); signature 7-beat rhythm locked; Part III compensation inventory planned (Ch 10+)
-- Author scores Part I ~9.8; merge when ready
-
-## Author feedback (post pass)
-
-Part I teaches a **way of asking questions** (*what problem did this solve?* / *what does it leave out?*). Ch 1–2 voice revisit deferred until after Part II drafted. Scientific compensation deliberately held for Part III.
+| Introduction | approved | on `main` |
+| Part I bridge | approved | on `main` |
+| Ch 1–5 | approved | on `main` |
+| Part II bridge | scaffold | Draft after Ch 8 or during part gate |
+| Ch 6 — Judgment Is Not Neutrality | scaffold | **Next draft** |
+| Ch 7 — Deciding Without Certainty | scaffold | |
+| Ch 8 — Perspectives We Do Not Naturally Possess | scaffold | |
+| Part III + back matter | scaffold | Part III branch |
 
 ## Next actions
 
-1. **Author:** Merge PR #215 when ready
-2. **Agent:** Branch `cursor/what-we-cannot-see-part2-draft-2512`; begin Ch 6
+1. **Agent:** Draft Ch 6 — *Judgment Is Not Neutrality*
+2. **Author:** Review Ch 6 when drafted
+3. **At Part II gate:** read Intro → Part I → Part II as continuous manuscript before merge
 
 ## Rough scale
 
-- Manuscript words: ~8,770 (Intro + bridge + Ch 1–5 approved)
-- Last assessed: whole-manuscript pass (July 2026)
+- Approved on `main`: ~8,770 words (Intro + Part I bridge + Ch 1–5)
+- Last assessed: Part I merge (July 2026)
+
+## Key docs (Part II)
+
+- [`judgment-framework.md`](judgment-framework.md)
+- [`chapter-questions.md`](chapter-questions.md)
+- [`book-rules.md`](book-rules.md)

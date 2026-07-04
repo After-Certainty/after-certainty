@@ -21,8 +21,8 @@ Each **part** of the manuscript is drafted on its own branch, reviewed chapter b
 
 | Part | Branch (example) | Base |
 |------|------------------|------|
-| Part I | `cursor/what-we-cannot-see-part1-draft-2512` | `main` (merged) |
-| Part II | `cursor/what-we-cannot-see-part2-draft-2512` | latest `main` after Part I merge |
+| Part I | `cursor/what-we-cannot-see-part1-draft-2512` | `main` (merged PR #215) |
+| Part II | `cursor/what-we-cannot-see-part2-draft-2512` | latest `main` (**current**) |
 | Part III | `cursor/what-we-cannot-see-part3-draft-2512` | latest `main` after Part II merge |
 
 Create each new part branch from latest `main` after the prior part PR is merged. Update `docs/status.md` when switching branches.
@@ -72,22 +72,24 @@ Do **not** open the next part branch until step G is complete.
 
 ---
 
-## Current workflow stage — Part I
+## Current workflow stage — Part II
 
-**Branch:** `cursor/what-we-cannot-see-part1-draft-2512`  
-**PR:** #215
+**Branch:** `cursor/what-we-cannot-see-part2-draft-2512`  
+**PR:** (open on first push)
 
 | Step | Status |
 |------|--------|
-| A — Review Ch 5 | Done |
-| B — Approve Ch 5 | Done |
-| C — Part I bridge | Done |
-| D — Manuscript-so-far review | Done |
-| E — Whole-manuscript revision | Done |
-| F — Squash commits + update PR | Done |
-| G — Merge to `main` | **Author** |
+| Branch from `main` | Done |
+| Ch 6 draft | **Next** |
+| Part completion gate (Ch 6–8 + bridge → merge) | Pending |
 
-**Manuscript-so-far scope for step D:** Introduction + Ch 1–5 + Part I bridge (once drafted).
+**Part I:** merged PR #215 · ~8,770 words on `main`
+
+---
+
+## Current workflow stage — Part I ✅
+
+**Branch:** `cursor/what-we-cannot-see-part1-draft-2512` · **PR #215 merged** 2026-07-04
 
 ---
 
@@ -97,9 +99,11 @@ Do **not** open the next part branch until step G is complete.
 
 Planning scaffold, `index.md`, architectural docs. Complete on `main`.
 
-### Phase 1 — Part prose (in progress)
+### Phase 1 — Part prose
 
-Part I on branch; Part II and III follow the part-branch workflow above.
+- **Part I:** merged to `main` (PR #215)
+- **Part II:** in progress on `cursor/what-we-cannot-see-part2-draft-2512`
+- **Part III:** after Part II merge
 
 ### Phase 2 — Part coherence gate
 
@@ -151,4 +155,4 @@ PR branches with `build.formats.docx.enabled: true` in `upcoming.yml` export a `
 
 ## Current starting phase
 
-See [`status.md`](status.md) — **Part I completion gate, step A (Ch 5 author review)**.
+See [`status.md`](status.md) — **Part II — draft Ch 6 (Judgment Is Not Neutrality)**.
