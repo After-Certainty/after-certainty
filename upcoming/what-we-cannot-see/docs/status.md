@@ -11,7 +11,7 @@ Part I + Part II merged on `main` (PR #215, PR #216). Part III drafting on branc
 | Step | Action | Status |
 |------|--------|--------|
 | — | Branch from latest `main` | Done |
-| — | Ch 9 draft | **Next** |
+| — | Ch 9 draft | Done (pending author review) |
 | A–G | Part completion gate (Ch 9–13 → merge) | Pending |
 
 **Branch:** `cursor/what-we-cannot-see-part3-draft-2512` · PR #220
@@ -43,7 +43,7 @@ Part I + Part II merged on `main` (PR #215, PR #216). Part III drafting on branc
 | Unit | Phase | Notes |
 |------|-------|-------|
 | Intro + Part I + Part II + Limits bridge | approved | on `main` ~13,520w |
-| Ch 9 — Why Others See What I Miss | scaffold | Draft next |
+| Ch 9 — Why Others See What I Miss | draft | ~1,420w; Apollo 13 anchor |
 | Ch 10 — The Method of Many Eyes | scaffold | |
 | Ch 11 — When Failure Teaches the System | scaffold | |
 | Ch 12 — Institutions That Remember and Forget | scaffold | |
@@ -52,14 +52,14 @@ Part I + Part II merged on `main` (PR #215, PR #216). Part III drafting on branc
 
 ## Next actions
 
-1. **Agent:** Draft Ch 9 — *Why do other people keep seeing things I miss?*
-2. **Author:** Chapter-by-chapter review (pause before Ch 10 unless told to continue)
+1. **Author:** Review Ch 9
+2. **Agent:** Revise from feedback; draft Ch 10 after approval
 
 ## Rough scale
 
 - On `main`: ~13,520 words (Intro → Limits bridge)
-- Part III target: ~6,500–8,000 words (Ch 9–13)
-- **Projected total (draft):** ~20,000 words before epilogue
+- Part III Ch 9 draft: ~1,380 words
+- **Total drafted:** ~14,900 words
 
 ## Key docs
 
