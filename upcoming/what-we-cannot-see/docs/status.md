@@ -11,7 +11,8 @@ Part I merged to `main` (PR #215, 2026-07-04). Follow [`drafting-process.md`](dr
 | Step | Action | Status |
 |------|--------|--------|
 | — | Branch from `main` | Done |
-| — | Draft Ch 6 | **Next** |
+| — | Draft Ch 6 | Done |
+| — | Author review Ch 6 | **Next** |
 | A–G | Part completion gate (after Ch 6–8 + Part II bridge) | Pending |
 
 **Branch:** `cursor/what-we-cannot-see-part2-draft-2512`
@@ -52,21 +53,21 @@ Part I asked how perspectives are **formed**. Part II asks how anyone should **d
 | Part I bridge | approved | on `main` |
 | Ch 1–5 | approved | on `main` |
 | Part II bridge | scaffold | Draft after Ch 8 or during part gate |
-| Ch 6 — Judgment Is Not Neutrality | scaffold | **Next draft** |
+| Ch 6 — Judgment Is Not Neutrality | draft | ~1,300 words; spine: judge from somewhere |
 | Ch 7 — Deciding Without Certainty | scaffold | |
 | Ch 8 — Perspectives We Do Not Naturally Possess | scaffold | |
 | Part III + back matter | scaffold | Part III branch |
 
 ## Next actions
 
-1. **Agent:** Draft Ch 6 — *Judgment Is Not Neutrality*
-2. **Author:** Review Ch 6 when drafted
-3. **At Part II gate:** read Intro → Part I → Part II as continuous manuscript before merge
+1. **Author:** Review Ch 6 draft
+2. **Agent:** Draft Ch 7 after approval
+3. **At Part II gate:** read Intro → Part II as continuous manuscript before merge
 
 ## Rough scale
 
-- Approved on `main`: ~8,770 words (Intro + Part I bridge + Ch 1–5)
-- Last assessed: Part I merge (July 2026)
+- Approved on `main`: ~8,770 words (Intro + Part I)
+- Part II drafted: ~1,300 words (Ch 6)
 
 ## Key docs (Part II)
 
