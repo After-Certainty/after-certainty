@@ -10,6 +10,22 @@ Perspective → Bias → Judgment → Integration → Process Design
 
 Part III is not integration alone—it is **designed epistemologies**: how we organize knowing when no one sees everything.
 
+## What the book is actually about (author feedback — locked)
+
+**Bias is the entry point, not the subject.** The subject is how **finite minds produce civilization**—successive adaptations (attention, memory, interpretation, trust, institutions, judgment, integration) that let finite beings navigate an impossibly complicated world.
+
+**Reader-facing arc:**
+
+| Part | Question |
+|------|----------|
+| I | Why does perspective exist? |
+| II | What does responsibility look like once you accept that? |
+| III | How do societies become wiser than individuals? |
+
+**Emotional center:** Not bias—**humility** as the recognition that I need perspectives beyond my own because my own can never be complete. Preserve through Part III and epilogue.
+
+**Integration foreshadow:** Intro plants *integrating* / *civilization exists because no one perspective was sufficient* before Part III explains it.
+
 ## Culminating question
 
 Given that individuals have finite perspectives, how should we organize ourselves so that we can know more together than we can alone?

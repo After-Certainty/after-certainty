@@ -2,56 +2,59 @@
 
 ## Current phase
 
-**Phase 2 — Part II prose (Judgment: Learning to Decide)**
+**Phase 2 — Part II completion gate (step E in progress)**
 
-Part I on `main` (PR #215). Part II prose + bridges drafted; pending manuscript-so-far review + part gate.
+Manuscript-so-far review complete. Whole-manuscript revision pass underway on branch.
 
 ## Workflow stage (Part II branch)
 
 | Step | Action | Status |
 |------|--------|--------|
-| — | Ch 6–8 prose | Done (Ch 6–8 approved) |
-| C | Draft Part II bridge + integration bridge | Done |
-| D | Manuscript-so-far review (Intro → Limits bridge) | Done (author + agent) |
-| E | Whole-manuscript revision pass | **Next** |
+| D | Manuscript-so-far review | Done (author approved architecture) |
+| E | Whole-manuscript revision pass | **In progress** |
+| F–G | Squash + merge | Pending author approval |
 
 **Branch:** `cursor/what-we-cannot-see-part2-draft-2512` · PR #216
 
-## Part II arc (locked)
+## Author feedback locked (manuscript-so-far)
 
-| Ch | Question |
-|----|----------|
-| 6 | What is judgment? |
-| 7 | How do we judge under uncertainty? |
-| 8 | Who do we answer to? |
+- **Subject:** finite minds produce civilization (bias = entry point)
+- **Emotional center:** humility as needing perspectives beyond one's own
+- **Integration** foreshadowed in intro; Part III ≠ collaboration
+- **Ch 13:** AI as another finite perspective, not debiasing LLMs
+- **Historical anchors:** add texture Ch 5+ (bookkeeping, ATC, etc.)
+- **Rhythm break:** defer one chapter rhythm break until later in manuscript
+- **Intro:** single climax ending (compressed)
 
-**Frame:** Answerability under finitude · **Thesis:** *Judgment is the responsible use of limited perspectives.*
+## Step E revisions (this pass)
+
+| Unit | Change |
+|------|--------|
+| Introduction | Integration foreshadow; compressed ending |
+| Ch 5 | Historical anchors (double-entry, air traffic control) |
+| Ch 6 | Trim Part I/II seam — scene-first opening |
 
 ## Unit progress
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Intro + Part I (Ch 1–5 + bridge) | approved | on `main` ~8,770w |
-| Ch 6 — Judgment Is Not Neutrality | approved | ~1,350w |
-| Ch 7 — Deciding Without Certainty | approved | ~1,320w |
-| Ch 8 — Perspectives We Do Not Naturally Possess | approved | ~1,320w; Part II capstone |
-| Part II bridge | draft | ~210w overture |
-| Integration bridge (Limits of Individual Wisdom) | approved | ~430w; handoff to Ch 9 |
-| Part III+ | scaffold | Part III branch |
+| Introduction | revised | step E |
+| Part I (bridge + Ch 1–5) | approved | Ch 5 revised step E |
+| Part II bridge | draft | ~210w |
+| Ch 6–8 | approved | Ch 6 revised step E |
+| Integration bridge | approved | ~435w |
+| Part III+ | scaffold | new branch after merge |
 
 ## Next actions
 
-1. **Agent:** Whole-manuscript revision pass — Part I/II seam, Ch 1–2 voice, terminology alignment (step E)
-2. **Author:** Approve revisions → squash + merge (steps F–G)
-3. **Deferred:** Ch 1–2 voice revisit at Part II whole-manuscript pass
+1. **Agent:** Finish step E — Ch 1–2 voice light pass; optional Part II bridge approval
+2. **Author:** Review step E diffs → approve merge
+3. **Then:** Part III branch from `main`
 
 ## Rough scale
 
-- On `main`: ~8,770 words
-- Part II approved prose: ~3,990 words (Ch 6–8)
-- Part II bridges: ~610 words
-- **Total drafted:** ~13,370 words
+- **Total drafted:** ~13,350 words (post step E trim)
 
 ## Key docs
 
-[`judgment-framework.md`](judgment-framework.md) · [`chapter-template.md`](chapter-template.md) · [`drafting-process.md`](drafting-process.md)
+[`thesis.md`](thesis.md) · [`integration-framework.md`](integration-framework.md) · [`drafting-process.md`](drafting-process.md)

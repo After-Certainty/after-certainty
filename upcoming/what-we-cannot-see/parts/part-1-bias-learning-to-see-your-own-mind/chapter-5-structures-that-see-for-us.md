@@ -36,6 +36,8 @@ It helps to name the pattern without pretending the naming is neutral. A **map**
 
 **Technology** is structure’s accelerant—not a separate universe, but mediation at speed.
 
+History offers older versions of the same move. Double-entry bookkeeping, spreading through trade in the fifteenth century, did not make merchants honest. It made obligations **visible** across distance—debts and credits assigned to accounts so a firm could act on a ledger no single clerk could hold in memory. The ledger was a map. It solved coordination. It also decided what counted as real. Air traffic control later did something similar at a different scale: not one pilot’s scan, but a system assigning who watches which sector, which separation rules apply, which blip demands attention now. Each invention solved a problem finite minds could not solve alone. Each also baked in what would remain off the books.
+
 The feed that sorts what millions see next. The model that flags which patients get a callback. The sensor network that tells a farmer which field is dry. The chatbot that answers in confident paragraphs when the honest answer is *I do not know*. Each tool extends reach the way trust extends reach, but at a scale and velocity that outrun correction. The ranking function is an attention budget written in code. The training data is an archive with edges. The interface is an interpretation offered as convenience.
 
 Technology solves real problems: abundance navigated, repetition automated, pattern detected across more cases than any one mind could hold. It also **freezes** choices. A metric that lived in a meeting can be changed by argument. An algorithm that lived in last year’s deployment may persist until something breaks loudly enough to notice.

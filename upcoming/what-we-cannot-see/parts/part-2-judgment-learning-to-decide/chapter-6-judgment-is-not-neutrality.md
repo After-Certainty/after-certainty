@@ -2,12 +2,6 @@
 
 > What is judgment?
 
-Part I ended with a harder recognition. You do not first become unbiased and then see. You see through selective layers—and then, inevitably, you **act**. Action is where perspective becomes consequential. Someone must recommend the treatment, sign the lease, grant the appeal, close the school, release the report, say yes or no while the evidence is still arriving.
-
-That is **judgment**: not the fantasy of seeing from nowhere, but the work of deciding from somewhere.
-
-Part I asked why we see differently. Part II asks what we owe one another when we do.
-
 The oncologist had sat with the same conversation twice that week. Scan images on the screen, survival curves in the pamphlet, the quiet math of risk expressed as percentages that never quite belong to any one body. This patient was younger than the cohort in the trial. The tumor’s margins were ambiguous on the slide. The standard protocol was clear enough to quote and unclear enough to lose sleep over.
 
 The family wanted certainty. They asked which choice was **objective**—as if objectivity were a third path beside treatment paths, a place you could stand while the partial pictures arranged themselves into a single command. The oncologist did not have that place. She had training, memory, the last three cases that had gone badly, the colleague whose caution she trusted, the patient’s own tolerance for uncertainty, the hospital’s formulary, the hour of the afternoon when her attention was sharp or thin. She had a perspective. She could not trade it for a neutral one.
