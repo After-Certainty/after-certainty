@@ -24,7 +24,7 @@ Part I + Part II on `main`. Part III Ch 9–13 drafted on branch; pending author
 | 9 | Why do others keep seeing things I miss? | approved (~1,520w) |
 | 10 | How can incomplete perspectives produce better understanding? | approved (~1,200w) |
 | 11 | When failure teaches the system | approved (~1,350w) |
-| 12 | How do institutions preserve both wisdom and blind spots? | approved (~1,280w) |
+| 12 | How do institutions preserve both wisdom and blind spots? | approved (~1,090w) |
 | 13 | What happens when the perspective is not human? | draft ~980w |
 
 **Frame:** Integration ≠ collaboration · redistribute perspective · AI = finite perspective
