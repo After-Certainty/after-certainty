@@ -48,9 +48,9 @@ Each perspective reveals something real.
 
 That is easy to forget when disagreement turns bitter. But it matters. If no one sees everything, then no single perspective can exhaust what is there to be known. What one person sees is not the whole of what can be seen. It is a piece—and often a genuine piece.
 
-There is something almost astonishing in that fact, once you stop treating it as a problem to be solved. If we could all see everything, we would not need one another's sight. We would not need the historian's archive, the engineer's instrument, the neighbor's warning, the stranger's question. Much of what we call civilization is built from the fact that perspectives differ—and from the slow, imperfect work of combining what each one reveals.
+There is something almost astonishing in that fact, once you stop treating it as a problem to be solved. If we could all see everything, we would not need one another's sight. We would not need the historian's archive, the engineer's instrument, the neighbor's warning, the stranger's question. Much of what we call civilization is built from the fact that perspectives differ—and from the slow, imperfect work of **integrating** what each one reveals. No single vantage point was ever enough to run a city, a clinic, or a scientific field. Civilization exists because no one perspective was sufficient.
 
-That is one reason disagreement can be more than an obstacle. Sometimes it is how reality announces that more remains to be seen. Two partial perspectives, held honestly, can describe the same situation in ways that neither could have reached alone. The challenge is learning to distinguish disagreements that reveal something new from those that merely repeat what we already know. That distinction will matter later, when the book turns toward integration—not as conflict management, but as a response to cognitive limits.
+That is one reason disagreement can be more than an obstacle. Sometimes it is how reality announces that more remains to be seen. Two partial perspectives, held honestly, can describe the same situation in ways that neither could have reached alone. The problem is not merely that we see differently. The deeper question—the one this book will eventually have to answer—is how partial views become something wiser together.
 
 Each perspective obscures something else.
 
@@ -76,27 +76,11 @@ Somewhere in that economy, a word like *bias* stops sounding like an insult and 
 
 **Bias is the selective work through which finite perspectives become possible.**
 
-Not the whole of what a perspective is. But one way to enter the question: finite minds, finite perspectives, and the shaping through which a view of the world becomes visible at all.
+Not the whole of what a perspective is. But one way to enter the question.
 
-The question is not whether we are biased. We are. The question is what our partial perspectives are doing—what they help us perceive, what they make difficult to perceive, and what we owe one another when no one sees the whole.
+This book follows it in three movements: how perspectives take shape, how judgment acts under uncertainty, and how many partial views **integrate** into something wiser than any one of them could produce alone. You do not need to accept that arc before the book earns it. You only need to recognize the experience: your view feels clear until someone else sees what you did not, and the discovery arrives as insult rather than condition.
 
-## The inquiry ahead
-
-If no one can see everything, how can individuals and societies make wise decisions?
-
-That question runs through everything that follows—in three movements: how perspectives take shape, how judgment acts under uncertainty, and how many partial views become something larger than any one of them.
-
-This is not a book about eliminating bias. It is a book about perspective—how partial sight works, how judgment operates under uncertainty, and why integration becomes necessary when no single view is enough.
-
-## Where we begin
-
-You do not need to accept the framework before the book earns it. You only need to recognize the experience: the feeling that your view is clear, the recurring discovery that someone else saw what you did not, the social habit of treating that discovery as an insult rather than a condition.
-
-The goal here is not to convince you that you are biased. You already live inside a perspective. So does everyone else.
-
-The goal is to make a structure visible—the structure that was always operating beneath arguments about fairness, evidence, expertise, and trust. Once seen, it does not solve disagreement. It changes what disagreement is about.
-
-The aim of this book is not to teach you how to see everything. It is to help you recognize why that was never possible—and why that fact makes one another indispensable.
+The aim is not to teach you how to see everything. It is to make visible why you cannot—and why that limit, held honestly, is a form of humility that makes one another indispensable.
 
 We have spent much of our lives asking who is biased.
 

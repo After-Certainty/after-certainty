@@ -12,6 +12,8 @@ Individuals are responsible for decisions, not for becoming unbiased—and not f
 
 **Level:** Individual judgment (Part II). Distinct from individual cognition (Part I) and from institutional process design (Part III).
 
+**Part II arc (author feedback):** Definition (Ch 6) → Pressure (Ch 7) → Discipline (Ch 7–8) → Answerability (Ch 8 + bridge). **Ch 6:** What is judgment? **Ch 7:** How do we judge? **Ch 8:** Who do we answer to? Part II is **answerability under finitude**; judgment is where answerability appears.
+
 ## Key questions (Part II)
 
 - What is judgment?
@@ -20,9 +22,17 @@ Individuals are responsible for decisions, not for becoming unbiased—and not f
 
 ## Three chapter moves
 
-### Ch 6 — Judgment Is Not Neutrality
+### Ch 6 — Judgment Is Not Neutrality (**benchmark for Part II**)
 
 **Concept:** Judgment names the work of deciding under partial sight—not achieving neutrality.
+
+**Part II thesis (locked):** *Judgment is the responsible use of limited perspectives.*
+
+**Part II shift:** Part I — why we see differently · Part II — what we owe one another when we do.
+
+**Metaphor:** costume of neutrality (borrowing the costume to avoid owning a partial recommendation)
+
+**Spine echo:** We judge from somewhere.
 
 | Term | Meaning in this book |
 |------|---------------------|
@@ -32,9 +42,17 @@ Individuals are responsible for decisions, not for becoming unbiased—and not f
 
 **Guardrail:** Adaptive bias ≠ exculpation. Part II must carry moral weight.
 
-### Ch 7 — Deciding Without Certainty
+### Ch 7 — Deciding Without Certainty (**benchmark grammar with Ch 6**)
 
-**Concept:** Decision methods under uncertainty—without pretending certainty is available.
+**Concept:** How judgment behaves under uncertainty—not decision technique, but responsible action inside finitude.
+
+**Core concept:** **Provisional commitment** — practiced through **proportionality** and **revisability** (nested, not parallel virtues).
+
+**Metaphor:** uncertainty as weather (medium judgment moves through)
+
+**Recurring motif:** *Waiting is also a decision.*
+
+**Part II framing:** Part II is **responsibility under finitude**; judgment is where responsibility appears.
 
 | Move | Notes |
 |------|-------|
@@ -45,9 +63,19 @@ Individuals are responsible for decisions, not for becoming unbiased—and not f
 
 **Relation to portfolio:** Distinct from *The Discipline of Uncertainty* (probabilistic leadership). WWCS focuses cognitive architecture of partial sight.
 
-### Ch 8 — Perspectives We Do Not Naturally Possess
+### Ch 8 — Perspectives We Do Not Naturally Possess (**Part II capstone**)
 
-**Concept:** Wisdom grows by intentionally incorporating perspectives we do not naturally possess.
+**Concept:** Who judgment **owes**—answerability to those affected; foreign perspectives as intentional practice.
+
+**Part II progression:** Ch 6 — What is judgment? · Ch 7 — How do we judge under uncertainty? · Ch 8 — **Who do we answer to?**
+
+**Foreign (locked):** not default—not culture-war language; cognitively defined.
+
+**Three faces:** fair process · proportionate care · repair when wrong
+
+**Distinction:** hearing → weighing → acting (not token display)
+
+**Epistemic bridge:** those who bear costs often notice features invisible elsewhere (sets up Part III)
 
 | Move | Notes |
 |------|-------|

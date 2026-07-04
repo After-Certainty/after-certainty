@@ -2,63 +2,59 @@
 
 ## Current phase
 
-**Part I completion gate — step G: merge PR #215**
+**Phase 2 — Part II completion gate (step E in progress)**
 
-See [`drafting-process.md`](drafting-process.md) for the full part-branch workflow.
+Manuscript-so-far review complete. Whole-manuscript revision pass underway on branch.
 
-## Workflow stage (Part I branch)
+## Workflow stage (Part II branch)
 
 | Step | Action | Status |
 |------|--------|--------|
-| A | Author review Ch 5 | Done |
-| B | Revise / approve Ch 5 | Done |
-| C | Draft Part I bridge | Done |
-| D | Manuscript-so-far review | Done |
-| E | Whole-manuscript revision | Done |
-| F | Squash commits + update PR #215 | Done |
-| G | Merge to `main` | **Author** |
+| D | Manuscript-so-far review | Done (author approved architecture) |
+| E | Whole-manuscript revision pass | **In progress** |
+| F–G | Squash + merge | Pending author approval |
 
-**After merge:** new branch `cursor/what-we-cannot-see-part2-draft-2512` from `main`.
+**Branch:** `cursor/what-we-cannot-see-part2-draft-2512` · PR #216
 
-## Active branch
+## Author feedback locked (manuscript-so-far)
 
-`cursor/what-we-cannot-see-part1-draft-2512` · PR #215
+- **Subject:** finite minds produce civilization (bias = entry point)
+- **Emotional center:** humility as needing perspectives beyond one's own
+- **Integration** foreshadowed in intro; Part III ≠ collaboration
+- **Ch 13:** AI as another finite perspective, not debiasing LLMs
+- **Historical anchors:** add texture Ch 5+ (bookkeeping, ATC, etc.)
+- **Rhythm break:** defer one chapter rhythm break until later in manuscript
+- **Intro:** single climax ending (compressed)
 
-## Manuscript hub
+## Step E revisions (this pass)
 
-[`index.md`](../index.md) · Read order: Introduction → Part I bridge → Ch 1–5
+| Unit | Change |
+|------|--------|
+| Introduction | Integration foreshadow; compressed ending |
+| Ch 5 | Historical anchors (double-entry, air traffic control) |
+| Ch 6 | Trim Part I/II seam — scene-first opening |
 
 ## Unit progress
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction — The Myth of the Unbiased Mind | approved | ~1,750 words; philosophical heart locked |
-| Part I bridge | approved | ~210 words; overture (shortened whole-book pass) |
-| Ch 1 — The Attention Budget | approved | Revisit voice after Part II drafted |
-| Ch 2 — What Stays and What Fades | approved | Surprise line: memory/continuity vs accuracy |
-| Ch 3 — The Stories We Inherit | approved | Surprise line: interpretation part of perception |
-| Ch 4 — Who and What We Trust | approved | ~1,290 words |
-| Ch 5 — Structures That See For Us | approved | ~1,480 words; Part I capstone |
-| Part II+ | scaffold | Next branch |
-
-## Whole-manuscript pass (step E) — applied
-
-- Ch 2: *The purpose of memory is not accuracy. The purpose is continuity.*
-- Ch 3: *Interpretation is not something we do after perception. It is part of perception itself.*
-- Part I bridge: shortened to overture; adaptation lens strengthened (*solved a real cognitive problem before it introduced a blind spot*)
-- Planning: bias as Part I vocabulary; adaptation chain (finite minds → adaptations → blind spots → judgment); signature 7-beat rhythm locked; Part III compensation inventory planned (Ch 10+)
-- Author scores Part I ~9.8; merge when ready
-
-## Author feedback (post pass)
-
-Part I teaches a **way of asking questions** (*what problem did this solve?* / *what does it leave out?*). Ch 1–2 voice revisit deferred until after Part II drafted. Scientific compensation deliberately held for Part III.
+| Introduction | revised | step E |
+| Part I (bridge + Ch 1–5) | approved | Ch 5 revised step E |
+| Part II bridge | draft | ~210w |
+| Ch 6–8 | approved | Ch 6 revised step E |
+| Integration bridge | approved | ~435w |
+| Part III+ | scaffold | new branch after merge |
 
 ## Next actions
 
-1. **Author:** Merge PR #215 when ready
-2. **Agent:** Branch `cursor/what-we-cannot-see-part2-draft-2512`; begin Ch 6
+1. **Agent:** Finish step E — Ch 1–2 voice light pass; optional Part II bridge approval
+2. **Author:** Review step E diffs → approve merge
+3. **Then:** Part III branch from `main`
 
 ## Rough scale
 
-- Manuscript words: ~8,770 (Intro + bridge + Ch 1–5 approved)
-- Last assessed: whole-manuscript pass (July 2026)
+- **Total drafted:** ~13,350 words (post step E trim)
+
+## Key docs
+
+[`thesis.md`](thesis.md) · [`integration-framework.md`](integration-framework.md) · [`drafting-process.md`](drafting-process.md)

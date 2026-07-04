@@ -14,6 +14,12 @@ Integration is constructing a larger model that explains why multiple perspectiv
 
 Process design integrates partial perspectives and creates feedback that reduces unchecked dominance of any one view—without assuming unbiased individuals exist.
 
+**Integration is not collaboration.**
+
+Collaboration is people working together. **Integration** is perspectives becoming something none of them could produce alone—collective wisdom, institutions as epistemic technologies. Part III must reveal something surprising here, not “collaboration is good.”
+
+**Early foreshadow (locked):** Intro names *integrating* and *civilization exists because no one perspective was sufficient* before Part III prose.
+
 ## Culminating question
 
 Given that individuals have finite perspectives, how should we organize ourselves so that we can know more together than we can alone?
@@ -99,7 +105,7 @@ Democratic checks and balances, appeals, organizational memory—and how institu
 
 Models as partial perspectives: training data, objective functions, human integration of machine outputs.
 
-**Guardrail:** Seed AI-relevant examples in Ch 5 (Technological bias) so closer does not feel tacked-on.
+**Ch 13 guardrail (author feedback — locked):** AI is not “LLMs are biased.” AI is **another finite perspective** that inherits different adaptations (attention, memory, interpretation, trust, structure)—same architecture as human partial sight, different substrate. Apply the book’s full stack; do not collapse into debiasing handbook.
 
 ## Integration and process mechanisms (cross-chapter)
 
