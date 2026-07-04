@@ -56,7 +56,7 @@ It is not the loneliness of being alone.
 
 It is the loneliness of being received only in part.
 
-You may have felt it—the sense that you are welcome when you are strong, entertaining, useful, or undemanding, and less welcome when you are messy, needy, wrong, or simply more than the room has patience for. Some people learn to arrive already managed, already smaller, already translated into a version easier to keep.
+Some people have felt it—the sense that you are welcome when you are strong, entertaining, useful, or undemanding, and less welcome when you are messy, needy, wrong, or simply more than the room has patience for.
 
 Belonging protects against that particular harm.
 
