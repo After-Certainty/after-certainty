@@ -160,13 +160,21 @@ def release_asset_url(repo_slug: str, release_tag: str, filename: str) -> str:
     return f"https://github.com/{repo_slug}/releases/download/{release_tag}/{filename}"
 
 
-def format_entry(repo_slug: str, release_tag: str, fmt: str, stem: str, enabled: bool) -> dict:
+def format_entry(
+    repo_slug: str,
+    release_tag: str,
+    fmt: str,
+    stem: str,
+    enabled: bool,
+    *,
+    include_release_url: bool = True,
+) -> dict:
     filename = f"{stem}.{fmt}"
     return {
         "enabled": enabled,
         "file": filename,
         "url": release_asset_url(repo_slug, release_tag, filename)
-        if enabled and repo_slug
+        if enabled and repo_slug and include_release_url
         else None,
     }
 
@@ -202,6 +210,7 @@ def build_book_entry(
             if s:
                 companion_books.append(s)
     enabled_formats = set(spec_formats(spec))
+    include_release_urls = source != "upcoming"
     cover_value = str(book.get("title_page_cover", "")).strip()
     cover_repo_path = resolve_cover_path(repo, spec_path, spec, cover_value)
     og_value = str(book.get("open_graph_image", "")).strip()
@@ -225,9 +234,30 @@ def build_book_entry(
         else None,
         "openGraphImagePath": og_repo_path,
         "bookDir": book_dir.relative_to(repo).as_posix(),
-        "docx": format_entry(repo_slug, release_tag, "docx", stem, "docx" in enabled_formats),
-        "epub": format_entry(repo_slug, release_tag, "epub", stem, "epub" in enabled_formats),
-        "pdf": format_entry(repo_slug, release_tag, "pdf", stem, "pdf" in enabled_formats),
+        "docx": format_entry(
+            repo_slug,
+            release_tag,
+            "docx",
+            stem,
+            "docx" in enabled_formats,
+            include_release_url=include_release_urls,
+        ),
+        "epub": format_entry(
+            repo_slug,
+            release_tag,
+            "epub",
+            stem,
+            "epub" in enabled_formats,
+            include_release_url=include_release_urls,
+        ),
+        "pdf": format_entry(
+            repo_slug,
+            release_tag,
+            "pdf",
+            stem,
+            "pdf" in enabled_formats,
+            include_release_url=include_release_urls,
+        ),
     }
     if slug_aliases:
         entry["slugAliases"] = slug_aliases

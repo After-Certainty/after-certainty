@@ -1,0 +1,10 @@
+# Local hook: run `pre-commit install` once after `pip install pre-commit`.
+# CI runs the same checks via .github/workflows/python-tests.yml and `make lint`.
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.20
+    hooks:
+      - id: ruff-check
+        files: ^(tools|scripts|tests)/
+      - id: ruff-format
+        files: ^(tools|scripts|tests)/

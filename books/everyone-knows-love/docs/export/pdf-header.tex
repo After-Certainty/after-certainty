@@ -1,0 +1,16 @@
+% Everyone Knows Love — closing quote page (PDF via Pandoc / LaTeX)
+
+\usepackage{etoolbox}
+
+\newenvironment{closing-page-break}{%
+  \clearpage
+}{}
+
+\newenvironment{closing-quote}{%
+  \clearpage
+  \vspace*{0.32\textheight}%
+  \begin{center}%
+  \itshape
+}{%
+  \end{center}%
+}

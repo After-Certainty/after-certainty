@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 _ROOT = Path(__file__).resolve().parents[1]
@@ -16,6 +17,7 @@ if str(Path(__file__).resolve().parent) not in sys.path:
     sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from assemble import assemble_markdown_units  # noqa: E402
+from book_export_assets import pdf_header_tex, prepare_closing_markdown_for_pdf  # noqa: E402
 from book_output_stem import stem_for_book_dir  # noqa: E402
 from book_specs import load_spec_for_book_dir, spec_format_config  # noqa: E402
 from diagram_rasterize import rasterize_book_diagrams  # noqa: E402
@@ -26,6 +28,27 @@ def run(cmd: list[str]) -> None:
         subprocess.run(cmd, check=True)
     except subprocess.CalledProcessError as exc:
         raise SystemExit(f"PDF export failed (exit {exc.returncode}): {' '.join(cmd)}") from exc
+
+
+def stage_pdf_units(units: list[Path], tmp_dir: Path) -> list[Path]:
+    """
+    Return pandoc input paths in manuscript order.
+
+    Only ``closing.md`` is copied into ``tmp_dir`` (PDF-specific LaTeX tweaks).
+    Other units keep their repo paths so duplicate basenames (e.g. part bridges)
+    are not collapsed into one temp file.
+    """
+    staged: list[Path] = []
+    for unit in units:
+        if unit.name == "closing.md":
+            text = prepare_closing_markdown_for_pdf(unit.read_text(encoding="utf-8"))
+            tmp_dir.mkdir(parents=True, exist_ok=True)
+            dest = tmp_dir / unit.name
+            dest.write_text(text, encoding="utf-8")
+            staged.append(dest)
+        else:
+            staged.append(unit)
+    return staged
 
 
 def parse_page_size(page_size: str) -> tuple[str, str] | None:
@@ -61,30 +84,40 @@ def main() -> None:
 
     rasterize_book_diagrams(book_dir)
 
-    page_size = args.page_size.strip() or str(pdf_cfg.get("page_size", "")).strip()
-    margins = pdf_cfg.get("margins", {})
-    engine = args.pdf_engine.strip() or str(pdf_cfg.get("pdf_engine", "")).strip() or "xelatex"
+    with tempfile.TemporaryDirectory(prefix="pdf-export-") as tmp:
+        pdf_units = stage_pdf_units(units, Path(tmp))
 
-    cmd = [
-        args.pandoc,
-        *[p.as_posix() for p in units],
-        f"--resource-path={book_dir}",
-        f"--pdf-engine={engine}",
-    ]
+        page_size = args.page_size.strip() or str(pdf_cfg.get("page_size", "")).strip()
+        margins = pdf_cfg.get("margins", {})
+        engine = args.pdf_engine.strip() or str(pdf_cfg.get("pdf_engine", "")).strip() or "xelatex"
 
-    parsed = parse_page_size(page_size) if page_size else None
-    if parsed:
-        width, height = parsed
-        cmd.extend(["-V", f"geometry:paperwidth={width}", "-V", f"geometry:paperheight={height}"])
+        cmd = [
+            args.pandoc,
+            *[p.as_posix() for p in pdf_units],
+            f"--resource-path={book_dir}",
+            f"--pdf-engine={engine}",
+            "--from=markdown+fenced_divs+raw_tex",
+        ]
 
-    if isinstance(margins, dict):
-        for key in ("top", "bottom", "left", "right"):
-            val = str(margins.get(key, "")).strip()
-            if val:
-                cmd.extend(["-V", f"geometry:{key}={val}"])
+        header = pdf_header_tex(book_dir)
+        if header is not None:
+            cmd.append(f"--include-in-header={header.as_posix()}")
 
-    cmd.extend(["-o", out.as_posix()])
-    run(cmd)
+        parsed = parse_page_size(page_size) if page_size else None
+        if parsed:
+            width, height = parsed
+            cmd.extend(
+                ["-V", f"geometry:paperwidth={width}", "-V", f"geometry:paperheight={height}"]
+            )
+
+        if isinstance(margins, dict):
+            for key in ("top", "bottom", "left", "right"):
+                val = str(margins.get(key, "")).strip()
+                if val:
+                    cmd.extend(["-V", f"geometry:{key}={val}"])
+
+        cmd.extend(["-o", out.as_posix()])
+        run(cmd)
     print(out.as_posix())
 
 

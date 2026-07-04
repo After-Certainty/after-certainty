@@ -18,6 +18,7 @@ if str(Path(__file__).resolve().parent) not in sys.path:
     sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from assemble import assemble_markdown_units, assemble_part_sections  # noqa: E402
+from book_export_assets import reference_docx  # noqa: E402
 from book_output_stem import stem_for_book_dir  # noqa: E402
 from diagram_rasterize import rasterize_book_diagrams  # noqa: E402
 
@@ -40,8 +41,8 @@ def build_pandoc_cmd(
         "-o",
         out.as_posix(),
     ]
-    ref_doc = book_dir / "docs" / "reference.docx"
-    if ref_doc.exists():
+    ref_doc = reference_docx(book_dir)
+    if ref_doc is not None:
         cmd.insert(-2, f"--reference-doc={ref_doc}")
     return cmd
 

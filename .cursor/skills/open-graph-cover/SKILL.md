@@ -29,6 +29,8 @@ python3 tools/generate_open_graph.py --book-dir books/trust-beyond-similarity
 
 Requires **Pillow** and **PyYAML** (`python3 -m pip install pillow pyyaml`).
 
+**Fonts:** `tools/generate_open_graph.py` needs a TrueType bold face (DejaVu Sans Bold on Linux CI, Arial Bold on macOS). If no font is found, generation fails loudly — do not rely on Pillow’s bitmap default, which renders title text far too small for social previews.
+
 Preview resolved settings without writing:
 
 ```bash

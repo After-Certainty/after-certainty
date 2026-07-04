@@ -1,4 +1,4 @@
-.PHONY: help check-pandoc test lint lint-fix validate-book-specs build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check check-pandoc test lint lint-fix validate-book-specs build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -34,6 +34,7 @@ help:
 	@echo "  make test  (pytest: manifest + semantic YAML pipeline smoke tests)"
 	@echo "  make lint  (ruff check + format --check on tools/, scripts/, tests/)"
 	@echo "  make lint-fix  (ruff check --fix + ruff format; writes files)"
+	@echo "  make check  (lint + pytest; run before commit/push when Python changed)"
 	@echo "  make validate-book-specs"
 	@echo "  make generate-books-manifest [MANIFEST_OUT=build/books-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
 	@echo "  make validate-books-manifest [MANIFEST=build/books-manifest.json]"
@@ -100,6 +101,8 @@ check-pandoc:
 test:
 	python3 -m pytest tests/ -q
 
+check: lint test
+
 lint:
 	python3 -m ruff check tools scripts tests
 	python3 -m ruff format --check tools scripts tests
@@ -120,6 +123,10 @@ build-book:
 generate-typst-manifest:
 	@test -n "$(DIR)" || { echo "Usage: make generate-typst-manifest DIR=path/to/poetry-book-folder"; exit 1; }
 	@python3 tools/generate_typst_manifest.py --book-dir "$(DIR)"
+
+generate-reference-docx:
+	@test -n "$(OUT)" || { echo "Usage: make generate-reference-docx OUT=path/to/reference.docx [TEMPLATE=path/to/template.docx]"; exit 1; }
+	@python3 tools/generate_reference_docx.py --out "$(OUT)" $(if $(TEMPLATE),--template "$(TEMPLATE)",)
 
 generate-books-manifest: validate-book-specs
 	@repo="$${GITHUB_REPOSITORY:-$$(git remote get-url origin 2>/dev/null | sed -e 's#^git@github.com:##' -e 's#^https://github.com/##' -e 's#\.git$$##')}"; \

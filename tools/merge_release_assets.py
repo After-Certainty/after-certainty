@@ -1,0 +1,79 @@
+#!/usr/bin/env python3
+"""
+Merge prior rolling-release assets with newly built exports.
+
+Upcoming manuscripts may export on branches/PRs for review, but their artifacts must
+not be attached to the rolling ``latest`` GitHub release on main.
+"""
+
+from __future__ import annotations
+
+import argparse
+import shutil
+import sys
+from pathlib import Path
+
+_TOOLS_DIR = Path(__file__).resolve().parent
+if str(_TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(_TOOLS_DIR))
+
+from book_specs import upcoming_export_stems  # noqa: E402
+
+_RELEASE_SUFFIXES = (".docx", ".epub", ".pdf", ".manifest.json")
+
+
+def _is_upcoming_release_file(path: Path, upcoming_stems: set[str]) -> bool:
+    name = path.name
+    for stem in upcoming_stems:
+        prefix = f"{stem}."
+        if name.startswith(prefix) and name.endswith(_RELEASE_SUFFIXES):
+            return True
+    return False
+
+
+def _copy_release_files(src_dir: Path, out_dir: Path, *, upcoming_stems: set[str]) -> int:
+    count = 0
+    if not src_dir.is_dir():
+        return count
+    for path in sorted(src_dir.rglob("*")):
+        if not path.is_file():
+            continue
+        if path.name in ("books-manifest.json", "semantic-manifest.json"):
+            continue
+        if not path.name.endswith(_RELEASE_SUFFIXES):
+            continue
+        if _is_upcoming_release_file(path, upcoming_stems):
+            continue
+        dest = out_dir / path.name
+        shutil.copy2(path, dest)
+        count += 1
+    return count
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--repo", default=".", help="Repository root")
+    parser.add_argument("--prior-dir", required=True, help="Directory with prior latest assets")
+    parser.add_argument("--built-dir", required=True, help="Directory with newly built artifacts")
+    parser.add_argument("--out-dir", required=True, help="Merged output directory")
+    args = parser.parse_args()
+
+    repo = Path(args.repo).resolve()
+    prior_dir = Path(args.prior_dir).resolve()
+    built_dir = Path(args.built_dir).resolve()
+    out_dir = Path(args.out_dir).resolve()
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    upcoming_stems = upcoming_export_stems(repo)
+    prior_count = _copy_release_files(prior_dir, out_dir, upcoming_stems=upcoming_stems)
+    built_count = _copy_release_files(built_dir, out_dir, upcoming_stems=upcoming_stems)
+    total = prior_count + built_count
+    if total < 1:
+        raise SystemExit("No release assets to merge after excluding upcoming exports.")
+    print(
+        f"Merged {total} file(s) into {out_dir} (excluded upcoming stems: {sorted(upcoming_stems)})"
+    )
+
+
+if __name__ == "__main__":
+    main()

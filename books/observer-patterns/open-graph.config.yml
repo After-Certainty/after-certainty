@@ -1,0 +1,16 @@
+# Tuning for tools/generate_open_graph.py — Observer Patterns
+bg_crop: [40, 280, 980, 920]
+tint: [18, 28, 52, 135]
+accent_color: [232, 128, 58]
+title_lines:
+  - text: Observer
+    color: white
+  - text: Patterns
+    color: accent
+subtitle_lines: []
+subtitle_color: accent
+font_title: 52
+font_sub: 17
+title_start_y: 88
+title_line_gap: 58
+rule_width: 320
