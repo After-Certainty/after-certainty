@@ -12,7 +12,7 @@ You do not observe trust directly the way you observe a gift or an apology. You 
 
 The body learns before the mind catches up.
 
-You may know the difference between telling someone a hard truth while waiting to see whether the friendship survives it, and telling one because you already know, somehow, that the friendship can hold it—between lending something you would miss and something you would grieve to lose, between saying *I'm on my way* and believing the words without checking your phone every five minutes.
+There is a difference between telling someone a hard truth while waiting to see whether the friendship survives it, and telling one because you already know, somehow, that the friendship can hold it—between lending something you would miss and something you would grieve to lose, between saying *I'm on my way* and believing the words without checking your phone every five minutes.
 
 Trust is what lets a bond carry weight.
 
@@ -54,7 +54,7 @@ When trust breaks, the movements change shape: seeing feels like surveillance, g
 
 That does not mean the movements were never real. It means the ground beneath them has cracked. The body often catches that change before the mind can explain it.
 
-You may have felt how exhausting it is to love someone you cannot trust—not because love has disappeared, but because every answer now requires calculation. Every kindness arrives with a question attached: *What does this cost me? What is being asked in return?*
+Some people have felt how exhausting it is to love someone you cannot trust—not because love has disappeared, but because every answer now requires calculation. Every kindness arrives with a question attached: *What does this cost me? What is being asked in return?*
 
 That exhaustion is one reason trust matters so much once another life has become weight-bearing inside yours.
 

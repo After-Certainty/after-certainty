@@ -34,7 +34,7 @@ You do not choose your family. That much is inherited. What can become increasin
 
 The Sunday dinner that could have stopped when the children moved out but didn't. The sibling group chat that keeps a stupid nickname alive for thirty years. The holiday everyone could skip and still be related on paper—but someone still sets the table because the archive would feel thinner without the ritual.
 
-Children inherit family. Adults often choose to stay inside it—and over time, the best parts can feel almost friendship-like without ceasing to be family. The friend who shows up like family, the cousin who feels like a friend—the archive rarely sorts itself into tidy rooms.
+Some people build family on purpose from friendship—the table that belongs to a friend group, the person who shows up like kin because kin was never safe or never given. The friend who shows up like family, the cousin who feels like a friend—the archive rarely sorts itself into tidy rooms.
 
 ## After the table went wrong
 

@@ -30,7 +30,7 @@ On the third date, you were paying attention because every answer opened another
 
 ## Building a life while still changing
 
-In many marriages, two people are trying to do something that is harder than it looks on a wedding program: build a shared future while both continue becoming—without pretending they have become one person.
+Long love takes many shapes—a marriage, a partnership the world still reads too narrowly, two people building a life that never quite fit anyone else's wedding program.
 
 Careers shift. Bodies age. Tastes change. A person who hated travel at thirty may long for it at fifty. A person who once wanted children may discover a different dream. A practical partner may surprise you with a poem; a quiet one may become bold in a season you did not see coming. The future two people imagine together keeps changing because they keep changing.
 
@@ -60,7 +60,7 @@ Sometimes that is a joke told out of character at the end of a long day, or a no
 
 ## When romance goes thin
 
-Not every marriage that lasts is romantically alive. Two people can share a house, a history, and a schedule and still treat each other as solved problems—known quantities, managed roles, familiar weather that no one bothers to report anymore. The toast can look identical. The story underneath may not.
+Not every marriage that lasts is romantically alive. Two people can share a house, a history, and a schedule and still treat each other as solved problems—known quantities, managed roles, familiar weather that no one bothers to report anymore. The toast can look identical. Something quieter may have gone out underneath.
 
 That does not mean romance is shallow. It means romance is a practice, not a trophy. It can deepen. It can also go quiet while life remains orderly on the outside.
 

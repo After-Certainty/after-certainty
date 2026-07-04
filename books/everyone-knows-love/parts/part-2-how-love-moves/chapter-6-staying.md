@@ -34,7 +34,7 @@ Staying includes loyalty, patience, fidelity, showing up again. It is not only r
 
 Why does staying feel like love?
 
-Maybe because it answers a question fear keeps asking in secret: *Will you remain when remaining is costly?*
+Staying answers a question fear keeps asking in secret: *Will you remain when remaining is costly?*
 
 Seeing can happen in a moment. Giving can happen in a burst. Staying asks something of time. It says your life is not a single scene to me. I am willing to remain through more than the good parts.
 
@@ -68,7 +68,7 @@ You can also leave and still love, which confuses people who treat staying as th
 
 But when someone remains and also sees, also gives, also tries to mend what breaks—when staying is chosen rather than merely endured—the face of love becomes easier to recognize.
 
-## One face, not the whole
+## Not love by itself
 
 If staying were love itself, the world would be simpler.
 

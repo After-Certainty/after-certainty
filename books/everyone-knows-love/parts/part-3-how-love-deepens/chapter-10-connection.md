@@ -12,7 +12,7 @@ That is connection, or something close enough that most of us recognize it immed
 
 ## When someone becomes real
 
-Connection often begins when a person stops being a category and becomes a particular someone—the coworker who is afraid of losing her mother, the neighbor whose marriage is quieter than it used to be, the child who is brave in public and frightened in the dark.
+Connection often begins when a person stops being a category and becomes a particular someone—the coworker who is afraid of losing her mother, the teacher who notices a student is not lazy but afraid, the neighbor whose marriage is quieter than it used to be, the child who is brave in public and frightened in the dark.
 
 You do not always notice the moment it happens. Sometimes it arrives slowly—through years of small answers, shared weather, ordinary Tuesdays. Sometimes it arrives suddenly, in one conversation that changes the furniture of a relationship.
 
@@ -32,7 +32,7 @@ Connection has a particular relief in it.
 
 You are less alone inside your own experience. Not because the other person has fixed anything. Because they have entered the room of your life and stayed long enough to matter there.
 
-You may know the difference between a pleasant acquaintance and a person whose name on your phone changes your posture. Between someone who asks how you are and someone who waits for the true answer. Between being included and being known.
+There is a difference between a pleasant acquaintance and a person whose name on your phone changes your posture. Between someone who asks how you are and someone who waits for the true answer. Between being included and being known.
 
 Loneliness is not always solitude. Often it is the ache of being surrounded by people who do not quite have access to your inner life—and of sensing that you do not quite have access to theirs.
 
@@ -40,17 +40,9 @@ Connection can exist long before reciprocity is equal. A parent and an infant. A
 
 When someone's joy improves your day; when someone's trouble sits down at your table; when you begin carrying one another without noticing you have started; when silence between you is not empty; when you do not have to begin from zero every time.
 
-That is why connection can feel like love, or like the ground love grows in. It is one of the ways a bond becomes deep enough to carry seeing, giving, staying, and repair without collapsing into performance.
-
 ## When connection is not enough
 
-But connection, by itself, is not the whole story.
-
-You can feel connected to someone and still fail them. You can feel the warmth of closeness and still choose yourself every time it costs you something; mistake intensity for depth—late nights, fast disclosure, the electric feeling of being understood once—and discover later that the bond could not carry ordinary weather. You can be connected and still harm, and still leave essential things unspoken, unrepaired, unseen.
-
-Connection is not a guarantee. It is not a moral achievement. It is not even, by itself, love—though love without some form of connection often becomes hollow, a set of gestures aimed at someone who has never quite become real.
-
-Closeness helps. It still does not exhaust love. Love is not only the feeling that another person's inner life has become real to you. It is what you do with that reality over time—how you answer their life when answering costs something, when it is inconvenient, when you have failed and must return.
+You can feel connected to someone and still fail them—still choose yourself every time it costs you something, mistake intensity for depth, leave essential things unspoken or unrepaired. Connection is not a guarantee, and it is not, by itself, love.
 
 Connection is what allows those answers to become more than isolated acts. You can be deeply connected and still need trust—the kind of bond that can survive truth, absence, repair, and time without constantly starting over.
 

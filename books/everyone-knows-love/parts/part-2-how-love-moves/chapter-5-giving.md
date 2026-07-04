@@ -38,9 +38,9 @@ We know this face. We have received it. We have offered it, sometimes badly, som
 
 Why does giving feel like love?
 
-Maybe because it makes the movement visible.
+Giving feels loving in part because it makes the movement visible.
 
-In the last chapter we watched someone see another person—making another person's inner life real to them, not as theory but as something felt in the room. Giving is what that movement often looks like from the outside. Someone's well-being begins to matter inside your choices. You spend something. You inconvenience yourself. You offer what you could have kept.
+Someone's well-being begins to matter inside your choices. You spend something. You inconvenience yourself. You offer what you could have kept.
 
 That is why small gifts can carry enormous weight—not because the casserole is magic, but because the casserole says: I noticed your week. I spent my evening. You are not carrying this alone if I can help.
 
@@ -68,7 +68,7 @@ Voluntary inconvenience has a texture too.
 
 So does its counterfeit.
 
-## One face, not the whole
+## Not love by itself
 
 If giving were love itself, the world would be simpler.
 
