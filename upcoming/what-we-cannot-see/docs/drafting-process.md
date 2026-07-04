@@ -22,8 +22,8 @@ Each **part** of the manuscript is drafted on its own branch, reviewed chapter b
 | Part | Branch (example) | Base |
 |------|------------------|------|
 | Part I | `cursor/what-we-cannot-see-part1-draft-2512` | `main` (merged PR #215) |
-| Part II | `cursor/what-we-cannot-see-part2-draft-2512` | latest `main` (**current**) |
-| Part III | `cursor/what-we-cannot-see-part3-draft-2512` | latest `main` after Part II merge |
+| Part II | `cursor/what-we-cannot-see-part2-draft-2512` | latest `main` (merged PR #216) |
+| Part III | `cursor/what-we-cannot-see-part3-draft-2512` | latest `main` (**current**) |
 
 Create each new part branch from latest `main` after the prior part PR is merged. Update `docs/status.md` when switching branches.
 
@@ -72,18 +72,24 @@ Do **not** open the next part branch until step G is complete.
 
 ---
 
-## Current workflow stage — Part II
+## Current workflow stage — Part III
 
-**Branch:** `cursor/what-we-cannot-see-part2-draft-2512`  
+**Branch:** `cursor/what-we-cannot-see-part3-draft-2512`  
 **PR:** (open on first push)
 
 | Step | Status |
 |------|--------|
 | Branch from `main` | Done |
-| Ch 6 draft | **Next** |
-| Part completion gate (Ch 6–8 + bridge → merge) | Pending |
+| Ch 9 draft | **Next** |
+| Part completion gate (Ch 9–13 → merge) | Pending |
 
-**Part I:** merged PR #215 · ~8,770 words on `main`
+**Part I:** merged PR #215 · **Part II:** merged PR #216 · ~13,520 words on `main`
+
+---
+
+## Current workflow stage — Part II ✅
+
+**Branch:** `cursor/what-we-cannot-see-part2-draft-2512` · merged PR #216
 
 ---
 
@@ -102,8 +108,8 @@ Planning scaffold, `index.md`, architectural docs. Complete on `main`.
 ### Phase 1 — Part prose
 
 - **Part I:** merged to `main` (PR #215)
-- **Part II:** in progress on `cursor/what-we-cannot-see-part2-draft-2512`
-- **Part III:** after Part II merge
+- **Part II:** merged to `main` (PR #216)
+- **Part III:** in progress on `cursor/what-we-cannot-see-part3-draft-2512`
 
 ### Phase 2 — Part coherence gate
 
@@ -155,4 +161,4 @@ PR branches with `build.formats.docx.enabled: true` in `upcoming.yml` export a `
 
 ## Current starting phase
 
-See [`status.md`](status.md) — **Part II — draft Ch 6 (Judgment Is Not Neutrality)**.
+See [`status.md`](status.md) — **Part III — draft Ch 9 (Why Others See What I Miss)**.

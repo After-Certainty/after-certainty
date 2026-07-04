@@ -12,7 +12,7 @@ Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a sep
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
-| [What We Cannot See](../what-we-cannot-see/) | Phase 2 | Part I merged; Part II drafting | Draft Ch 6 — Judgment Is Not Neutrality | [status](../what-we-cannot-see/docs/status.md) |
+| [What We Cannot See](../what-we-cannot-see/) | Phase 3 | Part I–II merged; Part III drafting | Draft Ch 9 — Why Others See What I Miss | [status](../what-we-cannot-see/docs/status.md) |
 | [Why Diversity Matters](../../books/why-diversity-matters/) | Phase 0–1 | Essay edition in `books/`; outline scaffolds + interview questions | Author intro + chapter drafts | [status](../../books/why-diversity-matters/docs/status.md) |
 | [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Phase 5 | Essay edition promoted; agent pipeline complete | Author review; export smoke | [status](../../books/when-interpretation-no-longer-matters/docs/status.md) |
 
