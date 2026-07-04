@@ -4,7 +4,7 @@ Someone realized one spring that they could not remember the last time they had 
 
 Not a dramatic breakdown. The quieter kind—always available, always useful, always answering someone else's text before they had finished a thought of their own. They loved the people they loved. They were not disappearing in any way dramatic enough to name. They were simply becoming thin inside their own life.
 
-You may know the feeling—the parent who has become only a parent, the partner who has become only a caretaker, the friend who is excellent in everyone else's crisis and vague in their own, the grown child who still orbits the family weather and calls it devotion, the person who gives beautifully and cannot receive.
+There is a feeling many people recognize—the parent who has become only a parent, the partner who has become only a caretaker, the friend who is excellent in everyone else's crisis and vague in their own, the grown child who still orbits the family weather and calls it devotion, the person who gives beautifully and cannot receive.
 
 None of this means love is absent. Often it means love has been real for so long that the self doing the loving has gone quiet.
 

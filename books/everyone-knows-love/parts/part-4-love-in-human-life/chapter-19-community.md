@@ -26,7 +26,7 @@ Community stretches love toward people we do not fully know.
 
 In community, love often arrives as noticing—who is missing from the gathering, who is new, who is carrying something heavy in the checkout line. It arrives as the casserole, the shovel, the hour volunteered, the donation sent without needing to be admired. It arrives as the neighbor who does not treat your grief as a season with an expiration date, the organization that keeps meeting after the crisis fades, the apology offered after the block party went wrong.
 
-The casserole looks identical. The story underneath may not. Community is where counterfeits show up clearly sometimes—charity performed for reputation, belonging offered only to people who look or think the right way, help that humiliates the one receiving it. You learn, slowly, to feel the difference between regard and performance.
+The casserole looks identical. Community is where you sometimes learn, slowly, to feel the difference between regard and performance—charity offered for reputation, belonging extended only to people who look or think the right way, help that humiliates the one receiving it.
 
 ## How it passes on
 

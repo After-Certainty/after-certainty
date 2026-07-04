@@ -56,7 +56,7 @@ Seeing is what lets another person's inner life become visible to us.
 
 Why does seeing feel like love?
 
-Maybe because love, at least in part, is the movement from someone merely being present to their inner life becoming real to us—not only their role.
+Love, at least in part, is the movement from someone merely being present to their inner life becoming real to us—not only their role.
 
 The barista matters as the person handing you coffee. The child matters as the person having the hard week, not only as the child who needs to get in the car. The partner matters as the person with their own fear, not only as the person who forgot to do the thing.
 

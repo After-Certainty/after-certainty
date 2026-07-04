@@ -44,8 +44,6 @@ They feel like one relationship breathing.
 
 ## One family, not four trophies
 
-That may be the first thing worth saying plainly.
-
 Kindness feels like love. Sacrifice feels like love. Patience feels like love. Repair feels like love. We point to each and say, "That. That is love." And we are often right—something true is happening there.
 
 The trouble begins when we treat any one of them as the whole proof.

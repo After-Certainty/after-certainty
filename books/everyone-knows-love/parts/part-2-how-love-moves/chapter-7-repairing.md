@@ -30,7 +30,7 @@ Repair includes second chances, patience, honesty, the willingness to be changed
 
 Why does repair feel like love?
 
-Maybe because it answers a question shame keeps asking in secret: *Can we find each other again after what we've done to each other?*
+Repair answers a question shame keeps asking in secret: *Can we find each other again after what we've done to each other?*
 
 Seeing can happen in a glance. Giving can happen in an hour. Staying stretches across years. Repair happens in the wreckage—in the space after trust has cracked and no one knows yet whether the crack will spread.
 
@@ -41,10 +41,6 @@ That is why repair can feel heavier than kindness, and more precious than ease.
 It says: this relationship is larger than my worst moment.
 
 You may have felt the relief of someone who did not pretend the harm never happened—who did not rush you to forgiveness, who did not make you carry the repair alone, who came back with something true instead of something convenient.
-
-That relief is one reason repair feels loving.
-
-It says: I am not asking you to forget. I am asking whether we can still be us.
 
 There is something else, easy to miss. Relationships that have been repaired—imperfectly, honestly—sometimes carry a trust that untested ease never had to earn. Not because harm was good. Because surviving harm together proved that the bond could bend without breaking. Love is not innocence. It is return.
 
@@ -70,7 +66,7 @@ You can also refuse to repair and still love, which is one of the hardest truths
 
 But when someone returns and also sees what they broke, also gives what mending requires, also stays while the trust rebuilds slowly—when repair is chosen rather than performed—the face of love becomes easier to recognize again.
 
-## One face, not the whole
+## Not love by itself
 
 If repairing were love itself, the world would be simpler.
 

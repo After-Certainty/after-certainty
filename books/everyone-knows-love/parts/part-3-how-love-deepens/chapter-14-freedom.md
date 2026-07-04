@@ -22,11 +22,9 @@ It is what keeps commitment from turning into capture.
 
 Belonging tells us we still have a place. Freedom tells us we may still remain ourselves within that place.
 
-You may know the difference between staying because you want to and staying because you are afraid of what leaving would cost. Between giving because you choose to spend something and giving because someone has learned to make refusal unbearable. Between *I am here* and *I have nowhere else to go.*
+There is a difference between staying because you want to and staying because you are afraid of what leaving would cost. Between giving because you choose to spend something and giving because someone has learned to make refusal unbearable. Between *I am here* and *I have nowhere else to go.*
 
-The movements can look exactly the same from the outside.
-
-The casserole arrives. The waiting room is occupied. The toast is on the table. The apology is spoken. The same chair. The same gesture. The same speech, sometimes.
+From the outside, the same gift, the same chair, the same toast after a fight. Freedom is what lets you feel whether the cost was chosen.
 
 But love, when it is healthy, usually has an exit in the background—not an exit you want to use, but an exit you could use without being destroyed for it. The freedom to say no. The freedom to disappoint someone you love and remain loved. The freedom to remain without proving you have earned your place every day.
 

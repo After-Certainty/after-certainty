@@ -20,11 +20,9 @@ Integration showed us how two lives can begin to share weight—how another pers
 
 That is the fear underneath belonging—not whether you are useful, not whether you are impressive, but whether you are still wanted when the performance stops.
 
-You may know the difference between being loved for what you do and being wanted for who you are when the doing falters. Between a house that applauds achievement and a house that still feels like home after a terrible day. Between a relationship that says *I love you* when you are easy to love and one that says, quietly, *There is still a place for you here.*
+There is a difference between being loved for what you do and being wanted for who you are when the doing falters. Between a house that applauds achievement and a house that still feels like home after a terrible day. Between a relationship that says *I love you* when you are easy to love and one that says, quietly, *There is still a place for you here.*
 
-The movements can look identical from the outside.
-
-The casserole arrives. The waiting room is occupied. The toast is on the table. The same chair. The same gesture.
+The movements can look identical from the outside. The casserole, the waiting room, the toast on the table—the same chair, the same gesture.
 
 But belonging is not the same as approval. Approval says: *You did well.* Belonging says: *You are still here.*
 
@@ -131,7 +129,3 @@ Yes.
 Still here.
 
 Still a place at the table when the day has gone badly and you have nothing impressive to offer.
-
-Freedom comes next—because love, when it is healthy, must also make room for a person to continue becoming.
-
-You can be welcomed beautifully and still discover that love asks something further—not only whether there is a place for you, but whether you are free to grow without being loved only for your usefulness.

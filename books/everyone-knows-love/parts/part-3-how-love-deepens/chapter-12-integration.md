@@ -100,4 +100,4 @@ Integration names something more specific: what can happen after a life has alre
 
 You can integrate beautifully and still discover that another person remains another person. Love never abolishes difference. It teaches two different lives to carry one another without becoming one another.
 
-It may be enough to sit with what integration is: not the grand gesture, but the quieter fact that another person's flourishing has quietly become part of the structure of your own desires—and you are still there. Care—the word we have been circling—remains open.
+Care—the word we have been circling—remains open.
