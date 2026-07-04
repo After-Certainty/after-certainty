@@ -19,7 +19,7 @@ book:
 build:
   formats:
     docx:
-      enabled: false
+      enabled: true
     epub:
       enabled: false
     pdf:

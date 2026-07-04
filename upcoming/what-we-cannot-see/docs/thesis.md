@@ -18,7 +18,7 @@ Given that individuals have finite perspectives, how should we organize ourselve
 
 | Level | Domain | Book movement |
 |-------|--------|---------------|
-| 1. Individual cognition | How finite perspectives take shape | Part I — Bias |
+| 1. Individual cognition | How finite perspectives take shape | Part I — Archaeology of perspective (ingredients: attention, memory, …) |
 | 2. Individual judgment | Responsible use of partial perspectives | Part II — Judgment |
 | 3. Collective integration | Many partial views → larger model | Part III (early) |
 | 4. Institutional process design | Processes that correct without unbiased people | Part III (culmination) |
@@ -54,6 +54,16 @@ Collective learning
 Readers from different domains should recognize their piece: cognition (psychology), system design (engineering), diagnosis (medicine), interpretation (history), decision-making (management), epistemology (philosophy).
 
 The book describes an **epistemic ecology** (planning term only—do not use in reader-facing prose): individuals perceive, perspectives emerge, bias shapes cognition, judgment acts, groups integrate, **institutions design feedback**, civilizations learn.
+
+## Generative framing (post Ch 2)
+
+Perspective is not a thing we possess. It is something **continuously constructed** by a set of finite cognitive processes—attention, memory, interpretation, identity, trust, and the rest—each of which solves a real problem while introducing new limitations. Part I excavates those processes layer by layer; bias names the selective work once the layers are visible.
+
+**Reader outcome (post Part I):** Not primarily a catalog of biases but an account of **epistemic architecture**—how finite beings construct perspectives, embed them in people and institutions, and why judgment becomes both unavoidable and difficult. **Bias is Part I’s vocabulary**, not the book’s central noun; the real subject is how finite perspectives become possible. Judgment is the challenge; integration is the response.
+
+## Recurring theme: adaptation before blind spot
+
+Every selective mechanism in the book began as an **adaptation**—a solution to a real pressure before it introduced a limitation. Part I asks *what problem did this solve?* before *what does it hide?* Part III will show how science, engineering, and democratic process **redistribute** perspective (double-blind trials, replication, peer review, adversarial collaboration)—none eliminate partial sight; all compensate for it. See [`process-design.md`](process-design.md).
 
 ## Core invariant
 
@@ -98,6 +108,7 @@ The impossibility of individual objectivity is precisely **why** these processes
 | Part | Spine echo |
 |------|------------|
 | Introduction / Part I | We experience the world from somewhere. |
+| Part I (by layer) | We attend / remember / interpret / trust from somewhere (see `bias-taxonomy.md`) |
 | Part II | We judge from somewhere. |
 | Part III | We build institutions from somewhere. |
 
@@ -118,7 +129,7 @@ Do not force repetition. Let echoes arrive when the argument naturally returns t
 
 | Part | Thesis contribution |
 |------|---------------------|
-| Part I — Bias | Individual cognition: how finite perspectives take shape |
+| Part I — Bias | Individual cognition: archaeology of perspective—each chapter excavates a layer; Ch 1 benchmark |
 | Part II — Judgment | Individual judgment: responsible decisions despite incomplete information |
 | Bridge | Why even excellent individual judgment remains incomplete |
 | Part III — Integration / Process Design | Collective integration and designed epistemologies: knowing more together than alone |

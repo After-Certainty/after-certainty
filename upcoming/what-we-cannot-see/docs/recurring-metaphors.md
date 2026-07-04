@@ -10,7 +10,11 @@ The entire book in one sentence. Echo quietly across parts:
 
 | Part | Variation |
 |------|-----------|
-| Part I | We experience the world from somewhere. |
+| Introduction | We experience the world from somewhere. |
+| Part I Ch 1 | We attend from somewhere. |
+| Part I Ch 2 | We remember from somewhere. |
+| Part I Ch 3 | We interpret from somewhere. |
+| Part I Ch 4+ | We trust from somewhere (per layer) |
 | Part II | We judge from somewhere. |
 | Part III | We build institutions from somewhere. |
 
@@ -24,9 +28,48 @@ The entire book in one sentence. Echo quietly across parts:
 
 ### The attention budget
 
-Finite minds operate on limited attention currency. Every notice costs something else unseen.
+Finite minds operate on limited attention currency. Every notice costs something else unseen. **Organizing metaphor—locked in Ch 1.**
 
-**Use in:** Part I opener, Ch 1 anchor.
+**Use in:** Ch 1 anchor; echo sparingly when attention is relevant.
+
+### The memory archive
+
+Memory stores, compresses, and retrieves—it is not a recording. **Organizing metaphor—locked in Ch 2.**
+
+Pair with attention budget: *If attention is a budget in real time, memory is a budget across time.*
+
+**Use in:** Ch 2 anchor; echo when continuity, institutional memory, or distortion of recall is relevant.
+
+### Home for judgment
+
+Identity stabilizes interpretation—not a separate layer beside it. *A frame is not a lie. It is a home for judgment.* **Locked in Ch 3.**
+
+**Use in:** Ch 3 anchor; echo when belonging, inheritance, or frame stabilization is relevant.
+
+### Per-chapter metaphor candidates (Part I)
+
+One earned metaphor per construction layer—not forced, but memorable:
+
+| Layer | Candidate | Status |
+|-------|-----------|--------|
+| Attention | budget | locked |
+| Memory | archive | locked |
+| Identity | home | locked |
+| Trust | bridge | locked |
+| Structure | map | locked (Ch 5) |
+| Language | (woven) | Ch 3/5—not separate anchor |
+
+### Trust bridge
+
+Trust extends what one person can verify—you cross because you cannot walk the river. **Locked in Ch 4.** One memorable metaphor per chapter; do not overload later units.
+
+**Use in:** Ch 4 anchor; echo when delegation or verification limits are relevant.
+
+### Structure map
+
+A map is not the territory—it decides what to make navigable. **Locked in Ch 5** (Snow/cholera opening). One memorable metaphor per chapter.
+
+**Use in:** Ch 5 anchor; echo when metrics, mandates, or dashboards stand in for the world.
 
 ### Selective aperture
 

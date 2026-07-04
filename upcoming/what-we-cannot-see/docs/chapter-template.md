@@ -2,6 +2,85 @@
 
 Every chapter follows the same progression. The book should feel like one continuous inquiry.
 
+## Part I grammar (discovered in Ch 1–2)
+
+Part I is not a taxonomy of bias. It is an **anatomy of perspective**—each chapter excavates another construction material (attention, memory, identity, language, trust, …). None of these are bias alone. Together they generate perspective; perspective generates bias.
+
+**Planning frame:** *The Construction of Perspective* (author mental model—not a table-of-contents label).
+
+### Four-beat rhythm (within each Part I chapter)
+
+| Beat | Role |
+|------|------|
+| **Problem** | What finite minds cannot do without selection |
+| **Adaptation** | How the mechanism solves that problem |
+| **Blind spot** | What the adaptation hides or distorts |
+| **Compensation** | What individuals or institutions do to widen the view |
+
+**Ch 1 (Attention):** too much information → selection → omission → second pass / external cue  
+**Ch 2 (Memory):** too much history → compression → distortion → external records  
+**Ch 3 (Interpretation / Identity):** ambiguity → sense-making / frame stabilization → premature coherence → designed friction  
+**Ch 4 (Trust / Incentive):** world exceeds verification → delegation → delegated error / trusted circle as complete → second opinion / audit  
+**Ch 5 (Structural / Technological):** coordination at scale → maps/metrics/algorithms → dashboard as complete → redesign / process design (Part III preview)
+
+**Part I progression (exceeds → selection move):** reality exceeds attention → selection · experience exceeds memory → compression · experience exceeds interpretation → meaning · world exceeds verification → trust/delegation · coordination exceeds individual sight → structure/tools.
+
+**Ecological frame:** Each layer is a relationship—not psychology alone. Attention ↔ information · Memory ↔ time · Interpretation ↔ ambiguity · Trust ↔ other people · Structures ↔ institutions/tools (Ch 5).
+
+**Part I layer stack (planning—do not enumerate for readers):** Attention · Memory · Interpretation (+ Identity) · Trust (+ Incentive) · Institutions/Structural · Technology — with language and culture woven through interpretation and structures, not as separate catalogue chapters unless prose earns it.
+
+**Inheritance** is the phenomenon in Ch 3; each layer is the mechanism.
+
+**Opening texture:** One memorable metaphor per chapter maximum. Vary scene type across Part I (workplace, institutional, domestic, historical, personal, technological)—see [`status.md`](status.md) pacing note.
+
+### Recurring danger sentence
+
+Each Part I chapter should land a version of: treating the mechanism as **complete** when it is selective.
+
+- Ch 1: treating attention as complete
+- Ch 2: treating the archive as complete (*Memory becomes dangerous when we treat the archive as complete.*)
+- Ch 3: treating the first coherent story as complete
+- Ch 4: treating the trusted circle as complete (*Trust becomes dangerous when we treat our trusted circle as complete.*)
+- Ch 5: treating the dashboard/map as complete (*Structure becomes dangerous when we treat the dashboard as complete.*)
+
+### Spine cadence (recurring)
+
+Close chapters with the construction stack where natural:
+
+- We attend from somewhere.
+- We remember from somewhere.
+- We interpret from somewhere.
+- We trust from somewhere. (Ch 4+)
+- We judge from somewhere. (Part II)
+- We integrate from somewhere. (Part III)
+
+Readers should begin to anticipate the rhythm before they name it.
+
+### Locked lines (survive every draft)
+
+- *The defect story hides the architecture.*
+- *A frame is not a lie. It is a home for judgment.*
+- *The world underdetermines its meanings.*
+- *The trusted voice and the complete voice are rarely the same.*
+- *Used well, trust buys reach. Used blindly, it buys certainty you have not earned.*
+- *Structural bias is not a ghost in the machine. It is the shape of the machine.*
+- *The ranking function is an attention budget written in code.*
+- *Only now the completeness wears a logo.*
+
+Ask what problem the mechanism **solves**, not only what error it creates. Adaptive before dangerous; never exculpatory.
+
+### Chapter metaphor (one per layer, when earned)
+
+| Layer | Metaphor | Status |
+|-------|----------|--------|
+| Attention | budget | locked (Ch 1) |
+| Memory | archive | locked (Ch 2) |
+| Identity | home | locked (Ch 3) |
+| Trust | bridge | locked (Ch 4) |
+| Structure | map | locked (Ch 5) |
+
+See [`recurring-metaphors.md`](recurring-metaphors.md).
+
 ## Six-beat scaffold
 
 ### 1. Genuine human question
