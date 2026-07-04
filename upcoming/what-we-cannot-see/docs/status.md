@@ -15,7 +15,8 @@ Part I merged to `main` (PR #215, 2026-07-04). Follow [`drafting-process.md`](dr
 | — | Author review Ch 6 | Done |
 | — | Draft Ch 7 | Done |
 | — | Author review Ch 7 | Done |
-| — | Draft Ch 8 | **Next** |
+| — | Draft Ch 8 | Done |
+| — | Author review Ch 8 | **Next** |
 | A–G | Part completion gate (after Ch 6–8 + Part II bridge) | Pending |
 
 **Branch:** `cursor/what-we-cannot-see-part2-draft-2512`
@@ -34,7 +35,7 @@ Part I merged to `main` (PR #215, 2026-07-04). Follow [`drafting-process.md`](dr
 
 ## Part II arc (planning)
 
-Part I asked how perspectives are **formed**. Part II asks how anyone should **decide** knowing they are partial.
+Part I asked how perspectives are **formed**. Part II asks how finite perspectives **should be used**—**responsibility under finitude**; judgment is where responsibility appears.
 
 | Ch | Opens with | Handoff |
 |----|------------|---------|
@@ -57,20 +58,20 @@ Part I asked how perspectives are **formed**. Part II asks how anyone should **d
 | Ch 1–5 | approved | on `main` |
 | Part II bridge | scaffold | Draft after Ch 8 or during part gate |
 | Ch 6 — Judgment Is Not Neutrality | approved | ~1,350 words; Part II thesis locked; spine: judge from somewhere |
-| Ch 7 — Deciding Without Certainty | draft | ~1,310 words; fog/uncertainty; proportionality + revisability |
-| Ch 8 — Perspectives We Do Not Naturally Possess | scaffold | |
+| Ch 7 — Deciding Without Certainty | approved | ~1,320 words; provisional commitment → proportion + revision |
+| Ch 8 — Perspectives We Do Not Naturally Possess | draft | ~1,250 words; foreign perspectives; Part II capstone |
 | Part III + back matter | scaffold | Part III branch |
 
 ## Next actions
 
-1. **Author:** Review Ch 7 draft
-2. **Agent:** Draft Ch 8 after approval
+1. **Author:** Review Ch 8 draft
+2. **Agent:** Draft Part II bridge after approval
 3. **At Part II gate:** read Intro → Part II as continuous manuscript before merge
 
 ## Rough scale
 
 - Approved on `main`: ~8,770 words (Intro + Part I)
-- Part II drafted: ~2,660 words (Ch 6 approved + Ch 7 draft)
+- Part II drafted: ~4,010 words (Ch 6–7 approved + Ch 8 draft)
 
 ## Key docs (Part II)
 
