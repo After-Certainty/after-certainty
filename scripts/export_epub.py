@@ -15,6 +15,7 @@ _TOOLS = _ROOT / "tools"
 if str(_TOOLS) not in sys.path:
     sys.path.insert(0, str(_TOOLS))
 
+from book_export_assets import epub_css  # noqa: E402
 from book_output_stem import stem_for_book_dir  # noqa: E402
 
 
@@ -66,11 +67,15 @@ def main() -> None:
         args.pandoc,
         prep.as_posix(),
         f"--resource-path={book_dir}",
+        "--from=markdown+fenced_divs",
         "--toc",
         "--toc-depth=1",
         "--epub-title-page=false",
         "--metadata=toc-title:Table of Contents",
     ]
+    css = epub_css(book_dir)
+    if css is not None:
+        cmd.append(f"--css={css.as_posix()}")
     if cover:
         cmd.append(f"--epub-cover-image={cover}")
     cmd.extend(["-o", out.as_posix()])

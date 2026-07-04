@@ -19,15 +19,21 @@ def flatten_custom_blocks(text: str) -> str:
     lines = text.splitlines()
     out_lines = []
     i = 0
+    closing_style_to_class = {
+        "Closing Page Break": "closing-page-break",
+        "Closing Quote Block": "closing-quote",
+    }
     while i < len(lines):
         line = lines[i]
-        m = re.match(r'^:::\s*\{custom-style="([^"]+)"\}\s*$', line)
+        m = re.match(r'^:::\s*\{([^}]+)\}\s*$', line)
         if not m:
             out_lines.append(line)
             i += 1
             continue
 
-        style = m.group(1)
+        attrs = m.group(1)
+        style_m = re.search(r'custom-style="([^"]+)"', attrs)
+        style = style_m.group(1) if style_m else None
         i += 1
         block = []
         while i < len(lines) and lines[i].strip() != ":::":  # end fence
@@ -37,7 +43,13 @@ def flatten_custom_blocks(text: str) -> str:
             i += 1
 
         content = "\n".join(block).strip("\n")
-        if style in {"Pattern Block", "Pull Quote Block", "Vignette Block"}:
+        if style in closing_style_to_class:
+            out_lines.append(f"::: {closing_style_to_class[style]}")
+            if content:
+                out_lines.extend(content.splitlines())
+            out_lines.append(":::")
+            out_lines.append("")
+        elif style in {"Pattern Block", "Pull Quote Block", "Vignette Block"}:
             # Convert to simple blockquote for broad Kindle/EPUB compatibility so
             # callout boundaries are visible (same treatment for all three).
             for bl in content.splitlines():

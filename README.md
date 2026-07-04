@@ -57,6 +57,7 @@ Unless otherwise noted, original content in this repository is licensed under [*
 | **How Trust Forms** — *Why Participation Becomes Possible* | [`books/how-trust-forms/index.md`](books/how-trust-forms/index.md) | How trust begins before certainty—beliefs, evidence, participation, and the trust cycle. |
 | **When Trust Stops Tracking Reality** — *Why Good Intentions Sometimes Become Harmful* | [`books/when-trust-stops-tracking-reality/index.md`](books/when-trust-stops-tracking-reality/index.md) | How trust drifts when it stops learning from feedback. |
 | **Trust Beyond Similarity** — *How Trust Remains Possible Across Difference* | [`books/trust-beyond-similarity/index.md`](books/trust-beyond-similarity/index.md) | How people learn to trust perspectives they do not share—and why difference makes trust more valuable. |
+| **Everyone Knows Love** — *Why Is It So Hard to Explain?* | [`books/everyone-knows-love/index.md`](books/everyone-knows-love/index.md) | Love as recognition before definition—seeing, giving, staying, repair, and care in ordinary life. |
 
 Together these manuscripts are part of the broader **After Certainty** thread: thinking clearly when simple answers stop working.
 

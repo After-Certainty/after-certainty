@@ -1,0 +1,21 @@
+/* Everyone Knows Love — closing quote page (EPUB) */
+
+div.closing-page-break {
+  page-break-before: always;
+  break-before: page;
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+
+div.closing-quote {
+  margin-top: 28vh;
+  margin-bottom: 2em;
+  text-align: center;
+  font-style: italic;
+}
+
+div.closing-quote p {
+  text-align: center;
+  margin: 0.85em 0;
+}

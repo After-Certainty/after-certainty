@@ -66,3 +66,9 @@ subtitle_color: accent
 
 - Fixed size: **1200×630** PNG → `open-graph.png` (or `--output`)
 - Input cover: **book-cover.png** (or `--cover`)
+
+## Fonts (CI / Linux)
+
+The generator uses `FONT_PATHS` in `tools/generate_open_graph.py` (macOS Arial/Helvetica, then DejaVu / Liberation / Noto on Linux). Without a TrueType font, text will not render at the configured `font_title` / `font_sub` sizes.
+
+Use **Trust Beyond Similarity** (`font_title: 46`, `font_sub: 17`, two-line `subtitle_lines`) as the readability baseline. For two-word titles (e.g. Observer Patterns), bump `font_title` to `52` and omit the subtitle block with `subtitle_lines: []`.

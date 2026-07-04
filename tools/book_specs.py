@@ -199,8 +199,12 @@ def spec_typst_config(spec: dict[str, Any]) -> dict[str, Any]:
     return typst if isinstance(typst, dict) else {}
 
 
+def spec_is_upcoming(spec: dict[str, Any]) -> bool:
+    return isinstance(spec.get("upcoming"), dict)
+
+
 def spec_publish_enabled(spec: dict[str, Any]) -> bool:
-    if isinstance(spec.get("upcoming"), dict):
+    if spec_is_upcoming(spec):
         return False
     publishing = _as_dict(spec.get("publishing"))
     # enabled defaults to true so existing books are publishable by default.
@@ -232,6 +236,13 @@ def spec_formats(spec: dict[str, Any]) -> list[str]:
     return enabled
 
 
+def spec_in_latest_release(spec: dict[str, Any]) -> bool:
+    """Export artifacts attached to the rolling ``latest`` GitHub release."""
+    if spec_is_upcoming(spec):
+        return False
+    return spec_publish_enabled(spec) and bool(spec_formats(spec))
+
+
 def spec_format_config(spec: dict[str, Any], fmt: str) -> dict[str, Any]:
     build = _as_dict(spec.get("build"))
     formats = _as_dict(build.get("formats"))
@@ -249,7 +260,7 @@ def publishable_books(repo: Path) -> list[Path]:
 
 
 def ci_export_books(repo: Path) -> list[Path]:
-    """Published books plus upcoming titles with build.ci enabled."""
+    """Published books plus upcoming titles with at least one export format enabled."""
     out: list[Path] = []
     for spec_path in discover_book_spec_paths(repo):
         spec = load_book_spec(spec_path)
@@ -257,9 +268,24 @@ def ci_export_books(repo: Path) -> list[Path]:
             out.append(spec_book_dir(spec_path))
     for spec_path in discover_upcoming_spec_paths(repo):
         spec = load_upcoming_spec(spec_path)
-        if spec_ci_enabled(spec) and spec_formats(spec):
+        if spec_formats(spec):
             out.append(spec_book_dir(spec_path))
     return sorted(set(out))
+
+
+def upcoming_export_stems(repo: Path) -> set[str]:
+    """Output basenames for upcoming books that CI may build but must not attach to ``latest``."""
+    from book_output_stem import stem_for_book_dir
+
+    stems: set[str] = set()
+    for spec_path in discover_upcoming_spec_paths(repo):
+        spec = load_upcoming_spec(spec_path)
+        if not spec_formats(spec):
+            continue
+        book_dir = spec_book_dir(spec_path)
+        rel = book_dir.relative_to(repo.resolve()).as_posix()
+        stems.add(stem_for_book_dir(rel, root=repo.resolve()))
+    return stems
 
 
 def all_books_from_specs(repo: Path) -> list[Path]:

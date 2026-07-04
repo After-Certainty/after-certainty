@@ -1,0 +1,25 @@
+---
+description: Run Ruff lint and format before committing Python under tools/, scripts/, or tests/
+globs:
+  - tools/**/*.py
+  - scripts/**/*.py
+  - tests/**/*.py
+alwaysApply: true
+---
+
+# Python lint before commit
+
+Python under `tools/`, `scripts/`, and `tests/` is linted with **Ruff** (see `pyproject.toml`).
+
+Before **commit and push** when any of those paths changed:
+
+1. Run `make lint` (or `make lint-fix` to apply fixes, then re-run `make lint`).
+2. Do not push if lint fails — CI job **Ruff (lint + format)** in `.github/workflows/python-tests.yml` will fail the PR.
+
+Quick reference:
+
+- `make lint` — check only (matches CI)
+- `make lint-fix` — auto-fix imports and format
+- `make check` — lint + pytest (recommended pre-push gate)
+
+Optional local hook: `pip install pre-commit && pre-commit install` (see `.pre-commit-config.yaml`).

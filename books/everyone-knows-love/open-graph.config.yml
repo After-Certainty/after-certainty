@@ -1,0 +1,20 @@
+# Tuning for tools/generate_open_graph.py — Everyone Knows Love
+bg_crop: [60, 480, 960, 1320]
+tint: [28, 24, 20, 145]
+accent_color: [156, 108, 72]
+title_lines:
+  - text: Everyone
+    color: white
+  - text: Knows
+    color: accent
+  - text: Love
+    color: white
+subtitle_lines:
+  - WHY IS IT SO HARD
+  - TO EXPLAIN?
+subtitle_color: accent
+font_title: 46
+font_sub: 17
+title_start_y: 78
+title_line_gap: 54
+rule_width: 360

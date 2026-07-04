@@ -5,6 +5,8 @@
 #
 # Runs on pushes to main, pull requests targeting main (verify exports before merge),
 # and workflow_dispatch (full rebuild). Only pushes to main update the rolling release.
+# Upcoming books export on PRs/branches when formats are enabled; their artifacts are
+# workflow artifacts only and are excluded from the rolling ``latest`` release on main.
 
 name: Book export (DOCX + EPUB + PDF)
 
@@ -171,18 +173,12 @@ jobs:
       - name: Merge prior assets with new builds
         run: |
           set -euo pipefail
-          mkdir -p upload
-          shopt -s nullglob
-          for f in prior/*.docx prior/*.epub prior/*.pdf prior/*.manifest.json prior/books-manifest.json prior/semantic-manifest.json; do
-            [ -e "$f" ] || continue
-            cp -f "$f" "upload/$(basename "$f")"
-          done
-          find built -type f \( -name '*.docx' -o -name '*.epub' -o -name '*.pdf' -o -name '*.manifest.json' -o -name 'books-manifest.json' -o -name 'semantic-manifest.json' \) -exec cp -f {} upload/ \;
-          count=$(find upload -type f | wc -l | tr -d ' ')
-          if [ "$count" -lt 1 ]; then
-            echo "No files to release."
-            exit 1
-          fi
+          python3 -m pip install --user pyyaml jsonschema
+          python3 tools/merge_release_assets.py \
+            --repo . \
+            --prior-dir prior \
+            --built-dir built \
+            --out-dir upload
           ls -la upload
 
       - name: Build aggregate books manifest

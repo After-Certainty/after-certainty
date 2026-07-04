@@ -30,6 +30,9 @@ FONT_PATHS = [
     "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
     "/Library/Fonts/Arial Bold.ttf",
     "/System/Library/Fonts/Helvetica.ttc",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+    "/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf",
 ]
 
 PALETTE = {
@@ -46,7 +49,10 @@ def load_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
             return ImageFont.truetype(path, size)
         except OSError:
             continue
-    return ImageFont.load_default()
+    raise RuntimeError(
+        "No TrueType font found for open-graph generation. "
+        f"Install DejaVu or Liberation fonts, or add paths to FONT_PATHS ({FONT_PATHS})"
+    )
 
 
 def parse_color(value: Any, accent: tuple[int, int, int, int]) -> tuple[int, int, int, int]:
@@ -195,10 +201,13 @@ def build_open_graph(
 
     y += 8
     draw.line([(x_text, y), (x_text + rule_width, y)], fill=accent, width=3)
-    y += 14
-    for line in subtitle_lines:
-        draw_sharp_text(draw, (x_text, y), line.upper(), sub_font, sub_fill, stroke, stroke_width=1)
-        y += 24
+    if subtitle_lines:
+        y += 14
+        for line in subtitle_lines:
+            draw_sharp_text(
+                draw, (x_text, y), line.upper(), sub_font, sub_fill, stroke, stroke_width=1
+            )
+            y += 24
 
     out = bg.convert("RGB")
     out = ImageEnhance.Sharpness(out).enhance(1.15)
@@ -250,7 +259,10 @@ def main(argv: list[str] | None = None) -> int:
     tint = parse_color(cfg.get("tint", [18, 28, 52, 135]), accent)
 
     title_lines = cfg.get("title_lines") or default_title_lines(title)
-    subtitle_lines = cfg.get("subtitle_lines") or wrap_subtitle(subtitle)
+    if "subtitle_lines" in cfg:
+        subtitle_lines = cfg["subtitle_lines"]
+    else:
+        subtitle_lines = wrap_subtitle(subtitle)
     bg_crop = resolve_crop(cover, cfg)
 
     settings = {
