@@ -38,7 +38,7 @@ We know this face. We have received it. We have offered it, sometimes badly, som
 
 Why does giving feel like love?
 
-Perhaps because it makes the movement visible.
+Maybe because it makes the movement visible.
 
 In the last chapter we watched someone see another person—making another person's inner life real to them, not as theory but as something felt in the room. Giving is what that movement often looks like from the outside. Someone's well-being begins to matter inside your choices. You spend something. You inconvenience yourself. You offer what you could have kept.
 
@@ -46,7 +46,7 @@ That is why small gifts can carry enormous weight—not because the casserole is
 
 The cost matters. A gift that costs nothing can still be kind. But we recognize something extra when the giver had to rearrange their own life a little to offer it. When they did not have to, and did.
 
-Perhaps that is one reason performative generosity feels hollow. The performance is visible. The cost is not.
+That may be one reason performative generosity feels hollow. The performance is visible. The cost is not.
 
 ## When giving is not love
 
@@ -82,6 +82,6 @@ You can give and fail to see.
 
 You can see and fail to give.
 
-You can do both imperfectly and still be loving, because love is not a single test. It is an attention you return to, expressed in more than one language.
+Neither failure cancels the other—and neither, by itself, proves much.
 
-For now, it is enough to notice how often love becomes visible in the small places where someone could have stayed home—and did not, not always freely, but often enough that the week changes shape.
+The casserole is still on the counter when you get home. Someone else made dinner because they noticed your week.

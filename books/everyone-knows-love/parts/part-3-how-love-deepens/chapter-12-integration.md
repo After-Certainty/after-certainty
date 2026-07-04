@@ -20,7 +20,7 @@ How did her father's loneliness get inside his choices? No one can point to a me
 
 When did it happen? Probably not in one dramatic season. More likely in the accumulation of ordinary Tuesdays: the call returned, the visit made, the worry carried home from her voice into his until it stopped feeling like hers alone.
 
-Could they stop it if they wanted? Perhaps. But wanting honestly had already changed shape. Her disappointment had begun to alter his imagination. Her hope had begun to enter his planning. That is not the same as losing a boundary. It is something stranger: the boundary of concern expanding while the self remains.
+Could they stop it if they wanted? Maybe. But wanting honestly had already changed shape. Her disappointment had begun to alter his imagination. Her hope had begun to enter his planning. That is not the same as losing a boundary. It is something stranger: the boundary of concern expanding while the self remains.
 
 Is this what people mean when they say they became family—not only that they care, but that another person's future has begun to alter their own preferences?
 
@@ -31,8 +31,6 @@ You plan a Saturday around someone's exhaustion without feeling heroic about it.
 You hear news about their work and feel your own mood shift.
 
 You catch yourself hoping for an outcome that benefits them even when it costs you something real—not because you have been trained to be selfless, but because their good has become part of how you imagine your own.
-
-Perhaps you have felt this with a partner, a child, a parent, a friend whose life has become weight-bearing inside yours. Not fusion. Not the loss of boundaries. Something stranger and more ordinary: two selves still intact, but no longer quite parallel.
 
 Their pain is not merely information.
 
@@ -50,7 +48,7 @@ Nothing physical has happened. No boundary in the body has moved. Yet the bounda
 
 That is the mystery integration names—not by solving it, but by staying inside it long enough to recognize what has already happened.
 
-Perhaps you know someone whose life has entered yours this way. A parent you began to plan around without deciding to. A friend whose bad week rearranged your week before you had language for why. A partner whose flourishing began to matter inside your own choices until the kitchen table felt like shared ground.
+You may know someone whose life has entered yours this way. A parent you began to plan around without deciding to. A friend whose bad week rearranged your week before you had language for why. A partner whose flourishing began to matter inside your own choices until the kitchen table felt like shared ground.
 
 If you do, you may already know the quiet recognition this chapter is pointing toward: *Oh—that's what happened.*
 

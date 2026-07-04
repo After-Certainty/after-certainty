@@ -34,15 +34,13 @@ Staying includes loyalty, patience, fidelity, showing up again. It is not only r
 
 Why does staying feel like love?
 
-Perhaps because it answers a question fear keeps asking in secret: *Will you remain when remaining is costly?*
+Maybe because it answers a question fear keeps asking in secret: *Will you remain when remaining is costly?*
 
 Seeing can happen in a moment. Giving can happen in a burst. Staying asks something of time. It says your life is not a single scene to me. I am willing to remain through more than the good parts.
 
 In the last chapters we watched someone see another person, then spend something on their behalf. Staying is what those movements look like when they are stretched across weeks and years. You keep noticing. You keep offering. You keep choosing the same person, the same family, the same friendship, the same difficult room.
 
 That is why trust often grows here. Not because trust is the same as love, but because staying makes a promise the body can believe: *this is not only for today.*
-
-Perhaps you have felt the relief of someone who did not leave when you were at your worst—not your most dramatic worst, but your ordinary worst: irritable, repetitive, ashamed, difficult to be around, hard to love in the small ways that do not make good stories.
 
 That relief is one reason staying feels loving.
 
@@ -84,6 +82,4 @@ You can stay without repairing.
 
 You can repair without having stayed.
 
-You can do both imperfectly and still be loving, because love is not a single test. It is an attention you return to, expressed in more than one language, across more than one day.
-
-For now, it is enough to notice how often love becomes visible in the quiet decision to remain—not always freely, not without cost, but often enough that tomorrow still has someone in it.
+Someone is in the chair by the bed again. The light goes off. Tuesday arrives, and they are still there.

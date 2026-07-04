@@ -78,6 +78,4 @@ What humanity has preserved is not clean. It includes manipulation, sentimentali
 
 Read and listen with gratitude and caution at the same time—gratitude because this many people paid attention, caution because no single voice gets the final word.
 
-## What this means for where we go next
-
-In Chapter 1, we began with recognition: everyone knows love, and almost nobody can explain it cleanly. Humanity keeps paying attention anyway—in song and story, in ritual and argument, in the small acts no one archives. That persistence is not noise; it is evidence. The archive is crowded because the phenomenon is crowded. So before we try to define anything, we will keep observing what people already recognize. Everyone knows love—not because everyone agrees, but because everyone has been looking.
+Somewhere a teenager is still writing terrible poetry at midnight. A widower is still watering the plant. The conversation has not finished.
