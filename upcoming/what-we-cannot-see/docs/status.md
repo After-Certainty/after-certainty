@@ -11,9 +11,9 @@ Part I on `main` (PR #215). Part II prose + bridges drafted; pending manuscript-
 | Step | Action | Status |
 |------|--------|--------|
 | — | Ch 6–8 prose | Done (Ch 6–8 approved) |
-| C | Draft Part II bridge + integration bridge | Done (draft) |
-| D | Manuscript-so-far review (Intro → Limits bridge) | **Next** |
-| E–G | Revise, squash, merge | Pending |
+| C | Draft Part II bridge + integration bridge | Done |
+| D | Manuscript-so-far review (Intro → Limits bridge) | Done (author + agent) |
+| E | Whole-manuscript revision pass | **Next** |
 
 **Branch:** `cursor/what-we-cannot-see-part2-draft-2512` · PR #216
 
@@ -36,13 +36,13 @@ Part I on `main` (PR #215). Part II prose + bridges drafted; pending manuscript-
 | Ch 7 — Deciding Without Certainty | approved | ~1,320w |
 | Ch 8 — Perspectives We Do Not Naturally Possess | approved | ~1,320w; Part II capstone |
 | Part II bridge | draft | ~210w overture |
-| Integration bridge (Limits of Individual Wisdom) | draft | ~400w; handoff to Ch 9 |
+| Integration bridge (Limits of Individual Wisdom) | approved | ~430w; handoff to Ch 9 |
 | Part III+ | scaffold | Part III branch |
 
 ## Next actions
 
-1. **Author:** Manuscript-so-far review — Intro through *Limits of Individual Wisdom* bridge (step D)
-2. **Agent:** Whole-manuscript revision pass after author review (step E)
+1. **Agent:** Whole-manuscript revision pass — Part I/II seam, Ch 1–2 voice, terminology alignment (step E)
+2. **Author:** Approve revisions → squash + merge (steps F–G)
 3. **Deferred:** Ch 1–2 voice revisit at Part II whole-manuscript pass
 
 ## Rough scale
