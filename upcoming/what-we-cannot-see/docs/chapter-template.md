@@ -91,7 +91,9 @@ Ask what problem the mechanism **solves**, not only what error it creates. Adapt
 
 **Ch 10:** Science as designed epistemology · methods as filters · engineering review parallel
 
-**Recurring motifs (Part III):** *Humans did not wait for neutral minds.* · *Science at its best is a culture of designed friction.*
+**Ch 11:** Institutional learning across time · organizational memory (Ch 2 parallel) · failure → memory
+
+**Recurring motifs (Part III):** *Humans did not wait for neutral minds.* · *Science at its best is a culture of designed friction.* · *Every checklist is a memory.*
 
 Ask what problem the method **solves**, what perspectives it **counts**, and what it **channels** away.
 
