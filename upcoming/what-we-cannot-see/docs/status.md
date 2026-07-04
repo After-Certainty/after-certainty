@@ -30,7 +30,7 @@ Manuscript-so-far review **approved**. Epilogue drafted from read-through feedba
 | Unit | Phase | Notes |
 |------|-------|-------|
 | Intro → Ch 13 | approved | read-through approved |
-| Epilogue | draft | ~850w; hope + orientation |
+| Epilogue | draft | ~880w; hope + orientation |
 | Glossary / bibliography | scaffold | after merge |
 
 ## Part III arc
@@ -49,8 +49,8 @@ Manuscript-so-far review **approved**. Epilogue drafted from read-through feedba
 ## Rough scale
 
 - Prose through Ch 13: ~19,760 words
-- Epilogue draft: ~850 words
-- **Total drafted:** ~20,610 words
+- Epilogue draft: ~880 words
+- **Total drafted:** ~20,640 words
 
 ## Key docs
 
