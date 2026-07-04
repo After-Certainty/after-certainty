@@ -8,6 +8,8 @@ Humans did not wait for neutral minds. They invented ways to compensate for part
 
 Courts built adversarial procedure so one side’s story could not close the case alone. Markets built prices from many buyers and sellers, none of whom saw the whole economy. Guilds and later laboratories built review—work shown to people whose interest is finding what you missed. None of these processes created omniscience. Each **redistributed** perspective: who gets to look, who gets to object, what must be recorded before action, what can be tried again when the first answer fails.
 
+But methods are also **filters**. They do not only combine perspectives. They decide which perspectives **count**. Science shapes what constitutes evidence. Courts shape what constitutes admissible testimony. Markets shape what constitutes value. Those rules are not neutral overhead on knowing. They are part of what any method sees—and what it cannot see.
+
 Part I excavated how a single perspective is built. Part II asked how to judge responsibly inside one. Part III now asks how societies **design** knowing when no one person can hold the whole picture. Science is where that design is easiest to see—not because scientists are less biased than the rest of us, but because science turned partial sight into a **public method**.
 
 ## What many eyes solve
@@ -16,7 +18,9 @@ The problem is older than laboratories. A single observer can be careful, traine
 
 That is the pattern science institutionalized. Not trust in a hero’s sight. Trust in a **method** that survives heroes: record what was done, show the work, invite others to repeat it, treat failure to replicate as information rather than insult.
 
-**Peer review** is not a purity ritual. It is a deliberate delay—work held long enough for other partial minds to notice what the author’s perspective smoothed over. **Replication** is the same move at a distance: another lab, another day, another set of incentives, another chance for the blind spot to show itself. **Randomized trials** and **double blinding** are stranger and more powerful: they build partial sight into the design of the study itself, so that neither patient nor clinician nor analyst can easily treat their hope as evidence. A drug trial does not ask one doctor to be unbiased. It asks a **process** to ensure that the doctor’s partial view cannot know which vial is which until the counts are in.
+**Peer review** is not a purity ritual. It works not because reviewers are unbiased, but because their perspectives differ from the author’s in ways that make **different** blind spots visible. It is a deliberate delay—work held long enough for other partial minds to notice what the author’s perspective smoothed over. **Replication** is the same move at a distance: another lab, another day, another set of incentives, another chance for the blind spot to show itself. **Randomized trials** and **double blinding** are stranger and more powerful: they build partial sight into the design of the study itself, so that neither patient nor clinician nor analyst can easily treat their hope as evidence. A drug trial does not ask one doctor to be unbiased. It asks a **process** to ensure that the doctor’s partial view cannot know which vial is which until the counts are in.
+
+Engineering learned the same lesson in another dialect. Design review before build. Red teams asked to break what the builders loved. Architecture review, code review, operational readiness review—independent eyes on a partial plan before it hardens into steel or software. None of these rituals make engineers unbiased. They **redistribute** perspective the way peer review does: someone whose blind spots differ from yours gets a sanctioned chance to notice what you smoothed over.
 
 Each method solves a real problem. Without them, medicine would run on memorable cases—the patient who recovered dramatically, the side effect no one forgot. Policy would run on the last disaster. A field would run on whoever speaks loudest in the room. Many eyes do not see everything. They see **more** than one pair could—because the process forces different angles to meet before the answer hardens.
 
@@ -42,7 +46,7 @@ Compensation here is not “trust the experts” or “distrust the experts.” 
 
 You still judge from somewhere when you decide which study to believe, which field to fund, which uncertainty to act on. Process design does not remove that responsibility. It gives you more than one partial sketch to decide from—and a record that survives the meeting.
 
-We integrate from somewhere. We also inherit methods built from somewhere: what a culture counts as evidence, who gets grant money, which questions are worth asking. The method is not neutral. It is **better** than raw certainty at scale—not because it eliminates perspective, but because it makes partiality contestable in public.
+We integrate from somewhere. We also inherit methods built from somewhere: what a culture counts as evidence, who gets grant money, which questions are worth asking. The method is not outside perspective. It is itself an **adaptation**—evolved to widen sight in some directions and narrow it in others. It is **better** than raw certainty at scale—not because it eliminates perspective, but because it makes partiality contestable in public.
 
 Which opens the next pressure. Methods like these do not live in journals alone. They live in **institutions**—hospitals, agencies, firms, republics—that remember some things and forget others, that widen sight in one corridor and narrow it in the next.
 

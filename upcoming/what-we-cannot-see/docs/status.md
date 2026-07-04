@@ -22,7 +22,7 @@ Part I + Part II on `main`. Part III Ch 9–13 drafted on branch; pending author
 | Ch | Question | Status |
 |----|----------|--------|
 | 9 | Why do others keep seeing things I miss? | approved (~1,520w) |
-| 10 | How can incomplete perspectives produce better understanding? | draft ~1,030w |
+| 10 | How can incomplete perspectives produce better understanding? | approved (~1,180w) |
 | 11 | When failure teaches the system | draft ~980w |
 | 12 | How do institutions preserve both wisdom and blind spots? | draft ~900w |
 | 13 | What happens when the perspective is not human? | draft ~980w |
@@ -34,14 +34,13 @@ Part I + Part II on `main`. Part III Ch 9–13 drafted on branch; pending author
 | Unit | Phase | Notes |
 |------|-------|-------|
 | Intro → Limits bridge | approved | on `main` ~13,520w |
-| Ch 9 | approved | Ch 10–13 draft pending review |
-| Ch 10–13 | draft | |
+| Ch 9–10 | approved | Ch 11–13 draft pending review |
 | Epilogue + back matter | scaffold | after Part III merge |
 
 ## Next actions
 
-1. **Author:** Chapter-by-chapter review (Ch 9–13) or full Part III read
-2. **Agent:** Revise from feedback; whole-manuscript pass at part gate
+1. **Author:** Review Ch 11–13
+2. **Agent:** Revise from feedback as chapters are approved
 3. **Then:** Epilogue draft after Part III merge
 
 ## Rough scale
