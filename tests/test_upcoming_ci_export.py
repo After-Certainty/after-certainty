@@ -10,7 +10,6 @@ from pathlib import Path
 from tools.book_specs import (
     ci_export_books,
     load_book_spec,
-    load_upcoming_spec,
     resolve_spec_path,
     spec_formats,
     spec_in_latest_release,
@@ -31,18 +30,19 @@ def test_published_everyone_knows_love_in_ci_matrix(repo_root: Path) -> None:
 
 def test_upcoming_without_exports_excluded_from_ci_matrix(repo_root: Path) -> None:
     rels = {p.relative_to(repo_root).as_posix() for p in ci_export_books(repo_root)}
-    # Only metadata-backed upcoming titles with enabled formats appear in CI.
-    assert "upcoming/what-we-cannot-see" in rels
+    # What We Cannot See has been promoted to books/
+    assert "upcoming/what-we-cannot-see" not in rels
 
 
 def test_what_we_cannot_see_docx_enabled_in_ci_matrix(repo_root: Path) -> None:
-    spec_path = resolve_spec_path(repo_root / "upcoming" / "what-we-cannot-see")
+    spec_path = resolve_spec_path(repo_root / "books" / "what-we-cannot-see")
     assert spec_path is not None
-    spec = load_upcoming_spec(spec_path)
-    assert spec_formats(spec) == ["docx"]
+    spec = load_book_spec(spec_path)
+    assert spec_formats(spec) == ["docx", "epub", "pdf"]
+    assert spec_in_latest_release(spec) is True
 
     rels = {p.relative_to(repo_root).as_posix() for p in ci_export_books(repo_root)}
-    assert "upcoming/what-we-cannot-see" in rels
+    assert "books/what-we-cannot-see" in rels
 
 
 def test_everyone_knows_love_not_in_upcoming_release_stems(repo_root: Path) -> None:
