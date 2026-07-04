@@ -11,7 +11,7 @@ Part I + Part II on `main`. Part III Ch 9–13 approved on branch.
 | Step | Action | Status |
 |------|--------|--------|
 | — | Ch 9–13 prose | Done (approved) |
-| D | Manuscript-so-far review (Intro → Ch 13) | **Next** |
+| D | Manuscript-so-far review (Intro → Ch 13) | **In progress** (author read-through) |
 | E–G | Revise, epilogue, squash, merge | Pending |
 
 **Branch:** `cursor/what-we-cannot-see-part3-draft-2512` · PR #220
@@ -38,15 +38,15 @@ Part I + Part II on `main`. Part III Ch 9–13 approved on branch.
 
 ## Next actions
 
-1. **Author:** Manuscript-so-far review Intro → Ch 13 (step D)
-2. **Agent:** Draft epilogue after review or on request
-3. **Then:** Whole-manuscript pass → merge
+1. **Author:** Continuous read Intro → Ch 13 (step D)
+2. **Agent:** Step E revision pass from read-through notes
+3. **Then:** Epilogue draft → part gate merge
 
 ## Rough scale
 
 - On `main`: ~13,520 words
 - Part III (Ch 9–13): ~6,400 words
-- **Total drafted:** ~19,920 words (pending epilogue)
+- **Total drafted:** ~19,760 words (pending epilogue)
 
 ## Key docs
 
