@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-06-01T01:14:08.265577+00:00",
-  "repository": "ksteffe/after-certainty",
+  "generatedAt": "2026-07-04T23:10:50.198521+00:00",
+  "repository": "https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
   "books": [
@@ -11,30 +11,30 @@
       "status": "published",
       "title": "After Certainty",
       "subtitle": "How to Live and Judge When Understanding is not Enough",
-      "description": "A concentrated capstone on how to live and judge after frameworks fail. Read after diagnostic volumes; formation and care without guarantees.",
+      "description": "How to live and judge once explanation reaches its limits. The practice volume in a series on formation, stabilization, and tension\u2014judgment, responsibility, and participation without replacement frameworks.",
       "authors": [
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/after-certainty/book-cover.png",
       "coverImagePath": "books/after-certainty/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/after-certainty/open-graph.png",
       "openGraphImagePath": "books/after-certainty/open-graph.png",
       "bookDir": "books/after-certainty",
       "docx": {
         "enabled": true,
         "file": "after-certainty.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/after-certainty.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/after-certainty.docx"
       },
       "epub": {
         "enabled": true,
         "file": "after-certainty.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/after-certainty.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/after-certainty.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "after-certainty.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/after-certainty.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/after-certainty.pdf"
       }
     },
     {
@@ -48,25 +48,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/before-certainty-arrives/book-cover.png",
       "coverImagePath": "books/before-certainty-arrives/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/before-certainty-arrives/open-graph.png",
       "openGraphImagePath": "books/before-certainty-arrives/open-graph.png",
       "bookDir": "books/before-certainty-arrives",
       "docx": {
         "enabled": true,
         "file": "before-certainty-arrives.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/before-certainty-arrives.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/before-certainty-arrives.docx"
       },
       "epub": {
         "enabled": true,
         "file": "before-certainty-arrives.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/before-certainty-arrives.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/before-certainty-arrives.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "before-certainty-arrives.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/before-certainty-arrives.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/before-certainty-arrives.pdf"
       }
     },
     {
@@ -80,25 +80,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/boundary-conditions/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/boundary-conditions/book-cover.png",
       "coverImagePath": "books/boundary-conditions/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/boundary-conditions/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/boundary-conditions/open-graph.png",
       "openGraphImagePath": "books/boundary-conditions/open-graph.png",
       "bookDir": "books/boundary-conditions",
       "docx": {
         "enabled": true,
         "file": "boundary-conditions.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/boundary-conditions.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/boundary-conditions.docx"
       },
       "epub": {
         "enabled": true,
         "file": "boundary-conditions.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/boundary-conditions.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/boundary-conditions.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "boundary-conditions.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/boundary-conditions.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/boundary-conditions.pdf"
       }
     },
     {
@@ -112,25 +112,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/coupling/BookCover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/coupling/BookCover.png",
       "coverImagePath": "books/coupling/BookCover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/coupling/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/coupling/open-graph.png",
       "openGraphImagePath": "books/coupling/open-graph.png",
       "bookDir": "books/coupling",
       "docx": {
         "enabled": true,
         "file": "coupling.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/coupling.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/coupling.docx"
       },
       "epub": {
         "enabled": true,
         "file": "coupling.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/coupling.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/coupling.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "coupling.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/coupling.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/coupling.pdf"
       }
     },
     {
@@ -144,25 +144,57 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/curiosity-before-certainty/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/curiosity-before-certainty/book-cover.png",
       "coverImagePath": "books/curiosity-before-certainty/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/curiosity-before-certainty/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/curiosity-before-certainty/open-graph.png",
       "openGraphImagePath": "books/curiosity-before-certainty/open-graph.png",
       "bookDir": "books/curiosity-before-certainty",
       "docx": {
         "enabled": true,
         "file": "curiosity-before-certainty.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/curiosity-before-certainty.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/curiosity-before-certainty.docx"
       },
       "epub": {
         "enabled": true,
         "file": "curiosity-before-certainty.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/curiosity-before-certainty.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/curiosity-before-certainty.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "curiosity-before-certainty.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/curiosity-before-certainty.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/curiosity-before-certainty.pdf"
+      }
+    },
+    {
+      "slug": "everyone-knows-love",
+      "source": "books",
+      "status": "published",
+      "title": "Everyone Knows Love",
+      "subtitle": "Why Is It So Hard to Explain?",
+      "description": "An accessible exploration of love as something everyone recognizes yet struggles to explain\u2014investigating artifacts and expressions first, then the conditions beneath them, with care as a living mystery rather than a formula.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/everyone-knows-love/book-cover.png",
+      "coverImagePath": "books/everyone-knows-love/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/everyone-knows-love/open-graph.png",
+      "openGraphImagePath": "books/everyone-knows-love/open-graph.png",
+      "bookDir": "books/everyone-knows-love",
+      "docx": {
+        "enabled": true,
+        "file": "everyone-knows-love.docx",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/everyone-knows-love.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "everyone-knows-love.epub",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/everyone-knows-love.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "everyone-knows-love.pdf",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/everyone-knows-love.pdf"
       }
     },
     {
@@ -176,25 +208,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-meaning-moves/BookCover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/how-meaning-moves/BookCover.png",
       "coverImagePath": "books/how-meaning-moves/BookCover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-meaning-moves/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/how-meaning-moves/open-graph.png",
       "openGraphImagePath": "books/how-meaning-moves/open-graph.png",
       "bookDir": "books/how-meaning-moves",
       "docx": {
         "enabled": true,
         "file": "how-meaning-moves.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-meaning-moves.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/how-meaning-moves.docx"
       },
       "epub": {
         "enabled": true,
         "file": "how-meaning-moves.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-meaning-moves.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/how-meaning-moves.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "how-meaning-moves.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-meaning-moves.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/how-meaning-moves.pdf"
       }
     },
     {
@@ -208,25 +240,121 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-serious-systems-learn/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/how-serious-systems-learn/book-cover.png",
       "coverImagePath": "books/how-serious-systems-learn/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-serious-systems-learn/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/how-serious-systems-learn/open-graph.png",
       "openGraphImagePath": "books/how-serious-systems-learn/open-graph.png",
       "bookDir": "books/how-serious-systems-learn",
       "docx": {
         "enabled": true,
         "file": "how-serious-systems-learn.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-serious-systems-learn.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/how-serious-systems-learn.docx"
       },
       "epub": {
         "enabled": true,
         "file": "how-serious-systems-learn.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-serious-systems-learn.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/how-serious-systems-learn.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "how-serious-systems-learn.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/how-serious-systems-learn.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/how-serious-systems-learn.pdf"
+      }
+    },
+    {
+      "slug": "how-trust-forms",
+      "source": "books",
+      "status": "published",
+      "title": "How Trust Forms",
+      "subtitle": "Why Participation Becomes Possible",
+      "description": "How people become willing to participate with one another under uncertainty\u2014beliefs, actions, outcomes, and the trust cycle.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/how-trust-forms/book-cover.png",
+      "coverImagePath": "books/how-trust-forms/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/how-trust-forms/open-graph.png",
+      "openGraphImagePath": "books/how-trust-forms/open-graph.png",
+      "bookDir": "books/how-trust-forms",
+      "docx": {
+        "enabled": true,
+        "file": "how-trust-forms.docx",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/how-trust-forms.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "how-trust-forms.epub",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/how-trust-forms.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "how-trust-forms.pdf",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/how-trust-forms.pdf"
+      }
+    },
+    {
+      "slug": "living-in-sediment",
+      "source": "books",
+      "status": "published",
+      "title": "Living in Sediment",
+      "subtitle": "How Structures Outlive Their Reasons",
+      "description": "We live inside inherited systems built for constraints that no longer exist. When structures survive after their reasons disappear, meaning drifts\u2014and the danger is forgetting the sediment is sediment.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/living-in-sediment/book-cover.png",
+      "coverImagePath": "books/living-in-sediment/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/living-in-sediment/open-graph.png",
+      "openGraphImagePath": "books/living-in-sediment/open-graph.png",
+      "bookDir": "books/living-in-sediment",
+      "docx": {
+        "enabled": true,
+        "file": "living-in-sediment.docx",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/living-in-sediment.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "living-in-sediment.epub",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/living-in-sediment.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "living-in-sediment.pdf",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/living-in-sediment.pdf"
+      }
+    },
+    {
+      "slug": "observer-patterns",
+      "source": "books",
+      "status": "published",
+      "title": "Observer Patterns",
+      "subtitle": null,
+      "description": "A book of patterns \u2014 things that happen when people look, decide, and follow what they see.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/observer-patterns/book-cover.png",
+      "coverImagePath": "books/observer-patterns/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/observer-patterns/open-graph.png",
+      "openGraphImagePath": "books/observer-patterns/open-graph.png",
+      "bookDir": "books/observer-patterns",
+      "docx": {
+        "enabled": false,
+        "file": "observer-patterns.docx",
+        "url": null
+      },
+      "epub": {
+        "enabled": false,
+        "file": "observer-patterns.epub",
+        "url": null
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "observer-patterns.pdf",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/observer-patterns.pdf"
       }
     },
     {
@@ -240,25 +368,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-discipline-of-uncertainty/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/the-discipline-of-uncertainty/book-cover.png",
       "coverImagePath": "books/the-discipline-of-uncertainty/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-discipline-of-uncertainty/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/the-discipline-of-uncertainty/open-graph.png",
       "openGraphImagePath": "books/the-discipline-of-uncertainty/open-graph.png",
       "bookDir": "books/the-discipline-of-uncertainty",
       "docx": {
         "enabled": true,
         "file": "the-discipline-of-uncertainty.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-discipline-of-uncertainty.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/the-discipline-of-uncertainty.docx"
       },
       "epub": {
         "enabled": true,
         "file": "the-discipline-of-uncertainty.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-discipline-of-uncertainty.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/the-discipline-of-uncertainty.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "the-discipline-of-uncertainty.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-discipline-of-uncertainty.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/the-discipline-of-uncertainty.pdf"
       }
     },
     {
@@ -272,25 +400,89 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-economy-we-dont-experience/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/the-economy-we-dont-experience/book-cover.png",
       "coverImagePath": "books/the-economy-we-dont-experience/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-economy-we-dont-experience/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/the-economy-we-dont-experience/open-graph.png",
       "openGraphImagePath": "books/the-economy-we-dont-experience/open-graph.png",
       "bookDir": "books/the-economy-we-dont-experience",
       "docx": {
         "enabled": true,
         "file": "the-economy-we-dont-experience.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-economy-we-dont-experience.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/the-economy-we-dont-experience.docx"
       },
       "epub": {
         "enabled": true,
         "file": "the-economy-we-dont-experience.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-economy-we-dont-experience.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/the-economy-we-dont-experience.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "the-economy-we-dont-experience.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-economy-we-dont-experience.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/the-economy-we-dont-experience.pdf"
+      }
+    },
+    {
+      "slug": "the-relay",
+      "source": "books",
+      "status": "published",
+      "title": "The Relay",
+      "subtitle": "A Social Science Fiction Novel",
+      "description": "A courier notices silence where explanations should be \u2014 and a civilization-sized blind spot emerges one perspective at a time. The answer to uncertainty is participation, not certainty.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/the-relay/book-cover.png",
+      "coverImagePath": "books/the-relay/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/the-relay/open-graph.png",
+      "openGraphImagePath": "books/the-relay/open-graph.png",
+      "bookDir": "books/the-relay",
+      "docx": {
+        "enabled": true,
+        "file": "the-relay.docx",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/the-relay.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "the-relay.epub",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/the-relay.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "the-relay.pdf",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/the-relay.pdf"
+      }
+    },
+    {
+      "slug": "trust-beyond-similarity",
+      "source": "books",
+      "status": "published",
+      "title": "Trust Beyond Similarity",
+      "subtitle": "How Trust Remains Possible Across Difference",
+      "description": "How people learn to trust perspectives they do not share\u2014and why trust becomes more valuable when perspectives differ.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/trust-beyond-similarity/book-cover.png",
+      "coverImagePath": "books/trust-beyond-similarity/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/trust-beyond-similarity/open-graph.png",
+      "openGraphImagePath": "books/trust-beyond-similarity/open-graph.png",
+      "bookDir": "books/trust-beyond-similarity",
+      "docx": {
+        "enabled": true,
+        "file": "trust-beyond-similarity.docx",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/trust-beyond-similarity.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "trust-beyond-similarity.epub",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/trust-beyond-similarity.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "trust-beyond-similarity.pdf",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/trust-beyond-similarity.pdf"
       }
     },
     {
@@ -304,25 +496,57 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/velorum/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/velorum/book-cover.png",
       "coverImagePath": "books/velorum/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/velorum/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/velorum/open-graph.png",
       "openGraphImagePath": "books/velorum/open-graph.png",
       "bookDir": "books/velorum",
       "docx": {
         "enabled": true,
         "file": "velorum.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/velorum.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/velorum.docx"
       },
       "epub": {
         "enabled": true,
         "file": "velorum.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/velorum.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/velorum.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "velorum.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/velorum.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/velorum.pdf"
+      }
+    },
+    {
+      "slug": "what-we-cannot-see",
+      "source": "books",
+      "status": "published",
+      "title": "What We Cannot See",
+      "subtitle": "Bias, Judgment, and the Limits of Perspective",
+      "description": "Why every perspective is necessarily partial, how individuals make responsible judgments despite those limitations, and why integration allows groups to construct understanding that exceeds any single person's perspective.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/what-we-cannot-see/book-cover.png",
+      "coverImagePath": "books/what-we-cannot-see/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/what-we-cannot-see/open-graph.png",
+      "openGraphImagePath": "books/what-we-cannot-see/open-graph.png",
+      "bookDir": "books/what-we-cannot-see",
+      "docx": {
+        "enabled": true,
+        "file": "what-we-cannot-see.docx",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/what-we-cannot-see.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "what-we-cannot-see.epub",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/what-we-cannot-see.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "what-we-cannot-see.pdf",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/what-we-cannot-see.pdf"
       }
     },
     {
@@ -336,25 +560,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-accountability-no-longer-expires/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-accountability-no-longer-expires/book-cover.png",
       "coverImagePath": "books/when-accountability-no-longer-expires/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-accountability-no-longer-expires/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-accountability-no-longer-expires/open-graph.png",
       "openGraphImagePath": "books/when-accountability-no-longer-expires/open-graph.png",
       "bookDir": "books/when-accountability-no-longer-expires",
       "docx": {
         "enabled": true,
         "file": "when-accountability-no-longer-expires.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-accountability-no-longer-expires.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-accountability-no-longer-expires.docx"
       },
       "epub": {
         "enabled": true,
         "file": "when-accountability-no-longer-expires.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-accountability-no-longer-expires.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-accountability-no-longer-expires.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "when-accountability-no-longer-expires.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-accountability-no-longer-expires.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-accountability-no-longer-expires.pdf"
       }
     },
     {
@@ -368,25 +592,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-authority-is-misread/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-authority-is-misread/book-cover.png",
       "coverImagePath": "books/when-authority-is-misread/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-authority-is-misread/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-authority-is-misread/open-graph.png",
       "openGraphImagePath": "books/when-authority-is-misread/open-graph.png",
       "bookDir": "books/when-authority-is-misread",
       "docx": {
         "enabled": true,
         "file": "when-authority-is-misread.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-is-misread.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-authority-is-misread.docx"
       },
       "epub": {
         "enabled": true,
         "file": "when-authority-is-misread.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-is-misread.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-authority-is-misread.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "when-authority-is-misread.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-is-misread.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-authority-is-misread.pdf"
       }
     },
     {
@@ -400,25 +624,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-authority-outlives-accountability/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-authority-outlives-accountability/book-cover.png",
       "coverImagePath": "books/when-authority-outlives-accountability/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-authority-outlives-accountability/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-authority-outlives-accountability/open-graph.png",
       "openGraphImagePath": "books/when-authority-outlives-accountability/open-graph.png",
       "bookDir": "books/when-authority-outlives-accountability",
       "docx": {
         "enabled": true,
         "file": "when-authority-outlives-accountability.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-outlives-accountability.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-authority-outlives-accountability.docx"
       },
       "epub": {
         "enabled": true,
         "file": "when-authority-outlives-accountability.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-outlives-accountability.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-authority-outlives-accountability.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "when-authority-outlives-accountability.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-authority-outlives-accountability.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-authority-outlives-accountability.pdf"
       }
     },
     {
@@ -432,25 +656,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-incentives-become-the-moral-language/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-incentives-become-the-moral-language/book-cover.png",
       "coverImagePath": "books/when-incentives-become-the-moral-language/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-incentives-become-the-moral-language/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-incentives-become-the-moral-language/open-graph.png",
       "openGraphImagePath": "books/when-incentives-become-the-moral-language/open-graph.png",
       "bookDir": "books/when-incentives-become-the-moral-language",
       "docx": {
         "enabled": true,
         "file": "when-incentives-become-the-moral-language.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-incentives-become-the-moral-language.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-incentives-become-the-moral-language.docx"
       },
       "epub": {
         "enabled": true,
         "file": "when-incentives-become-the-moral-language.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-incentives-become-the-moral-language.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-incentives-become-the-moral-language.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "when-incentives-become-the-moral-language.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-incentives-become-the-moral-language.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-incentives-become-the-moral-language.pdf"
       }
     },
     {
@@ -464,25 +688,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-interpretation-no-longer-matters/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-interpretation-no-longer-matters/book-cover.png",
       "coverImagePath": "books/when-interpretation-no-longer-matters/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-interpretation-no-longer-matters/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-interpretation-no-longer-matters/open-graph.png",
       "openGraphImagePath": "books/when-interpretation-no-longer-matters/open-graph.png",
       "bookDir": "books/when-interpretation-no-longer-matters",
       "docx": {
         "enabled": true,
         "file": "when-interpretation-no-longer-matters.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-interpretation-no-longer-matters.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-interpretation-no-longer-matters.docx"
       },
       "epub": {
         "enabled": true,
         "file": "when-interpretation-no-longer-matters.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-interpretation-no-longer-matters.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-interpretation-no-longer-matters.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "when-interpretation-no-longer-matters.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-interpretation-no-longer-matters.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-interpretation-no-longer-matters.pdf"
       }
     },
     {
@@ -496,25 +720,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-moral-seriousness-scales/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-moral-seriousness-scales/book-cover.png",
       "coverImagePath": "books/when-moral-seriousness-scales/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-moral-seriousness-scales/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-moral-seriousness-scales/open-graph.png",
       "openGraphImagePath": "books/when-moral-seriousness-scales/open-graph.png",
       "bookDir": "books/when-moral-seriousness-scales",
       "docx": {
         "enabled": true,
         "file": "when-moral-seriousness-scales.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-moral-seriousness-scales.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-moral-seriousness-scales.docx"
       },
       "epub": {
         "enabled": true,
         "file": "when-moral-seriousness-scales.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-moral-seriousness-scales.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-moral-seriousness-scales.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "when-moral-seriousness-scales.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-moral-seriousness-scales.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-moral-seriousness-scales.pdf"
       }
     },
     {
@@ -528,25 +752,25 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v1/BookCover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v1/BookCover.png",
       "coverImagePath": "books/when-others-look-to-you/v1/BookCover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v1/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v1/open-graph.png",
       "openGraphImagePath": "books/when-others-look-to-you/v1/open-graph.png",
       "bookDir": "books/when-others-look-to-you/v1",
       "docx": {
         "enabled": true,
         "file": "when-others-look-to-you-v1.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v1.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v1.docx"
       },
       "epub": {
         "enabled": true,
         "file": "when-others-look-to-you-v1.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v1.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v1.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "when-others-look-to-you-v1.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v1.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v1.pdf"
       },
       "slugAliases": [
         "when-others-look-to-you"
@@ -566,27 +790,59 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v2/BookCover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v2/BookCover.png",
       "coverImagePath": "books/when-others-look-to-you/v2/BookCover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v2/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v2/open-graph.png",
       "openGraphImagePath": "books/when-others-look-to-you/v2/open-graph.png",
       "bookDir": "books/when-others-look-to-you/v2",
       "docx": {
         "enabled": true,
         "file": "when-others-look-to-you-v2.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v2.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v2.docx"
       },
       "epub": {
         "enabled": true,
         "file": "when-others-look-to-you-v2.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v2.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v2.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "when-others-look-to-you-v2.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v2.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-others-look-to-you-v2.pdf"
       },
       "companionOf": "when-others-look-to-you-v1"
+    },
+    {
+      "slug": "when-trust-stops-tracking-reality",
+      "source": "books",
+      "status": "published",
+      "title": "When Trust Stops Tracking Reality",
+      "subtitle": "Why Good Intentions Sometimes Become Harmful",
+      "description": "How trust drifts from evidence when good intentions stop learning from feedback\u2014through the fictional arc of Calder Family Health and real institutional patterns.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-trust-stops-tracking-reality/book-cover.png",
+      "coverImagePath": "books/when-trust-stops-tracking-reality/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/when-trust-stops-tracking-reality/open-graph.png",
+      "openGraphImagePath": "books/when-trust-stops-tracking-reality/open-graph.png",
+      "bookDir": "books/when-trust-stops-tracking-reality",
+      "docx": {
+        "enabled": true,
+        "file": "when-trust-stops-tracking-reality.docx",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-trust-stops-tracking-reality.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-trust-stops-tracking-reality.epub",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-trust-stops-tracking-reality.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-trust-stops-tracking-reality.pdf",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/when-trust-stops-tracking-reality.pdf"
+      }
     },
     {
       "slug": "why-collaboration-is-so-hard",
@@ -599,25 +855,57 @@
         "Kevin Steffensen"
       ],
       "year": 2026,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/why-collaboration-is-so-hard/book-cover.png",
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/why-collaboration-is-so-hard/book-cover.png",
       "coverImagePath": "books/why-collaboration-is-so-hard/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/why-collaboration-is-so-hard/open-graph.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/why-collaboration-is-so-hard/open-graph.png",
       "openGraphImagePath": "books/why-collaboration-is-so-hard/open-graph.png",
       "bookDir": "books/why-collaboration-is-so-hard",
       "docx": {
         "enabled": true,
         "file": "why-collaboration-is-so-hard.docx",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/why-collaboration-is-so-hard.docx"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/why-collaboration-is-so-hard.docx"
       },
       "epub": {
         "enabled": true,
         "file": "why-collaboration-is-so-hard.epub",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/why-collaboration-is-so-hard.epub"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/why-collaboration-is-so-hard.epub"
       },
       "pdf": {
         "enabled": true,
         "file": "why-collaboration-is-so-hard.pdf",
-        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/why-collaboration-is-so-hard.pdf"
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/why-collaboration-is-so-hard.pdf"
+      }
+    },
+    {
+      "slug": "why-diversity-matters",
+      "source": "books",
+      "status": "published",
+      "title": "Why Diversity Matters",
+      "subtitle": "Why Good Intentions Still Miss So Much",
+      "description": "Why diversity is about what gets noticed, trusted, and ignored\u2014not just who is in the room.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "coverImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/why-diversity-matters/book-cover.png",
+      "coverImagePath": "books/why-diversity-matters/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/main/books/why-diversity-matters/open-graph.png",
+      "openGraphImagePath": "books/why-diversity-matters/open-graph.png",
+      "bookDir": "books/why-diversity-matters",
+      "docx": {
+        "enabled": true,
+        "file": "why-diversity-matters.docx",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/why-diversity-matters.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "why-diversity-matters.epub",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/why-diversity-matters.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "why-diversity-matters.pdf",
+        "url": "https://github.com/https://x-access-token:ghs_NLYk4FyCPVfSXTuqGSX20uJeMJK5Fe2XbeHu@github.com/ksteffe/after-certainty/releases/download/latest/why-diversity-matters.pdf"
       }
     }
   ]

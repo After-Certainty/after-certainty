@@ -1,0 +1,21 @@
+# Tuning for tools/generate_open_graph.py — What We Cannot See
+# Crop the teal figure/forest band below the cover title area.
+bg_crop: [40, 820, 984, 1380]
+tint: [16, 28, 42, 140]
+accent_color: [108, 156, 180]
+title_lines:
+  - text: What
+    color: white
+  - text: We Cannot
+    color: accent
+  - text: See
+    color: white
+subtitle_lines:
+  - BIAS, JUDGMENT, AND THE
+  - LIMITS OF PERSPECTIVE
+subtitle_color: accent
+font_title: 46
+font_sub: 17
+title_start_y: 78
+title_line_gap: 54
+rule_width: 360

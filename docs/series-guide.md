@@ -161,6 +161,28 @@ Read stops-tracking-reality for **trust that no longer tracks outcomes**; read b
 
 ---
 
+## Epistemic limits cluster
+
+A parallel arc on **partial perspective, judgment, and integration**—how finite minds see, decide, and become wiser together. Published under [`books/`](../books/).
+
+| Book | One-line |
+|------|----------|
+| [What We Cannot See](../books/what-we-cannot-see/index.md) | Bias as selective work; judgment under limits; integration as civilizational adaptation |
+| [Trust Beyond Similarity](../books/trust-beyond-similarity/index.md) | Trust across perspectives you do not share |
+| [Why Diversity Matters](../books/why-diversity-matters/index.md) | What gets noticed, trusted, and ignored |
+| [The Discipline of Uncertainty](../books/the-discipline-of-uncertainty/index.md) | Decision quality under incomplete information |
+| [After Certainty](../books/after-certainty/index.md) | Practice capstone after diagnostic volumes |
+
+### [What We Cannot See](../books/what-we-cannot-see/index.md)
+
+Why every perspective is necessarily partial, how individuals judge responsibly inside that limit, and how societies integrate many partial views into something wiser than any one of them could produce alone.
+
+**Question:** Given finite perspectives, how should we organize ourselves to know more together than we can alone?
+
+**Suggested entry:** Read after the trust trilogy or alongside *The Discipline of Uncertainty* for judgment under incomplete information; pair with *After Certainty* for practice.
+
+---
+
 ## Related books in the portfolio
 
 These published titles extend adjacent questions. They are not required for the core arc above, but readers often pair them by interest:
@@ -172,6 +194,7 @@ These published titles extend adjacent questions. They are not required for the 
 | Systems, coupling, responsibility | [Coupling](../books/coupling/index.md) |
 | Acting without perfect information | [How Serious Systems Learn](../books/how-serious-systems-learn/index.md) |
 | Judgment under incomplete information | [The Discipline of Uncertainty](../books/the-discipline-of-uncertainty/index.md) |
+| Partial perspective and integration | [What We Cannot See](../books/what-we-cannot-see/index.md) |
 | Coordination without full ownership | [Why Collaboration Is So Hard](../books/why-collaboration-is-so-hard/index.md) |
 | Compression in public economic speech | [The Economy We Don't Experience](../books/the-economy-we-dont-experience/index.md) |
 
