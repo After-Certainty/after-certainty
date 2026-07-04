@@ -1,7 +1,7 @@
 version: 1
 
-upcoming:
-  status: draft
+publishing:
+  enabled: true
 
 book:
   id: what-we-cannot-see
@@ -16,11 +16,36 @@ book:
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
 
+paths:
+  manuscript: "./index.md"
+  output: "."
+
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
+    copyright:
+      repo_template: templates/copyright.md.j2
+      output: front-matter/copyright.md
+    about_the_series:
+      repo_template: templates/about_the_series.md.j2
+      output: front-matter/about-the-series.md
+
 build:
   formats:
     docx:
       enabled: true
     epub:
-      enabled: false
+      enabled: true
     pdf:
-      enabled: false
+      enabled: true
+
+github:
+  release: true
+  release_tag: "latest"
+  artifacts:
+    - docx
+    - epub
+    - pdf

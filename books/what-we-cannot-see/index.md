@@ -6,6 +6,9 @@
 
 ## Front Matter
 
+- [Title Page](front-matter/title-page.md)
+- [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Introduction — The Myth of the Unbiased Mind](front-matter/introduction-the-myth-of-the-unbiased-mind.md)
 
 ## Part I — Bias: Learning to See Your Own Mind
@@ -47,10 +50,10 @@ Explain how groups integrate partial perspectives—and how societies design pro
 
 ## Related books
 
-[Series guide](../../docs/series-guide.md) · Epistemic limits cluster (planned)
+[Series guide](../../docs/series-guide.md) · Epistemic limits cluster
 
-- [Trust Beyond Similarity](../../books/trust-beyond-similarity/index.md) — trust across partial perspectives
-- [Why Diversity Matters](../../books/why-diversity-matters/index.md) — what gets noticed, trusted, and ignored
-- [After Certainty](../../books/after-certainty/index.md) — practice capstone for judgment under limits
-- [The Discipline of Uncertainty](../../books/the-discipline-of-uncertainty/index.md) — decision quality under incomplete information
-- [Why Collaboration Is So Hard](../../books/why-collaboration-is-so-hard/index.md) — coordination under uneven visibility
+- [Trust Beyond Similarity](../trust-beyond-similarity/index.md) — trust across partial perspectives
+- [Why Diversity Matters](../why-diversity-matters/index.md) — what gets noticed, trusted, and ignored
+- [After Certainty](../after-certainty/index.md) — practice capstone for judgment under limits
+- [The Discipline of Uncertainty](../the-discipline-of-uncertainty/index.md) — decision quality under incomplete information
+- [Why Collaboration Is So Hard](../why-collaboration-is-so-hard/index.md) — coordination under uneven visibility
