@@ -54,7 +54,7 @@ When trust breaks, the movements change shape: seeing feels like surveillance, g
 
 That does not mean the movements were never real. It means the ground beneath them has cracked. The body often catches that change before the mind can explain it.
 
-Perhaps you have felt how exhausting it is to love someone you cannot trust—not because love has disappeared, but because every answer now requires calculation. Every kindness arrives with a question attached: *What does this cost me? What is being asked in return?*
+You may have felt how exhausting it is to love someone you cannot trust—not because love has disappeared, but because every answer now requires calculation. Every kindness arrives with a question attached: *What does this cost me? What is being asked in return?*
 
 That exhaustion is one reason trust matters so much once another life has become weight-bearing inside yours.
 
@@ -66,4 +66,4 @@ Reliability helps. It still does not exhaust love.
 
 You can trust someone and still fail to see them, still withhold yourself, and still discover that love asks for something more than predictability—something about how two lives begin to share weight without one disappearing inside the other.
 
-It may be enough to notice how much of love depends on trust once the first fire has passed—how often the movements need ground beneath them, built slowly, tested quietly, rebuilt after harm.
+Reliability is the boring part. It is also, sometimes, the part you remember when the fire has passed.

@@ -88,13 +88,13 @@ Care remains open.
 
 So does the question of why.
 
-Perhaps that is fitting. A phenomenon this large does not need a final sentence. It needs observers willing to keep looking—grandparents and poets, scientists and strangers, you in your own kitchen on an ordinary night when someone asks a hard question and you realize, again, that you know more than you can explain.
+That may be fitting. A phenomenon this large does not need a final sentence. It needs observers willing to keep looking—grandparents and poets, scientists and strangers, you in your own kitchen on an ordinary night when someone asks a hard question and you realize, again, that you know more than you can explain.
 
 Love is easy to describe.
 
 It is difficult to explain.
 
-Humanity has not stopped trying, and neither, perhaps, should we—not because we expect to finish the work, but because the work is worthy, because people we love are still here, because the Tuesday is still happening, and because, in the middle of all our incomplete theories, someone still puts toast on the table, still returns the call, still says *Come in*, still stays long enough for the truth to be told.
+Humanity has not stopped trying, and neither should we—not because we expect to finish the work, but because the work is worthy, because people we love are still here, because the Tuesday is still happening, and because, in the middle of all our incomplete theories, someone still puts toast on the table, still returns the call, still says *Come in*, still stays long enough for the truth to be told.
 
 That is not everything.
 

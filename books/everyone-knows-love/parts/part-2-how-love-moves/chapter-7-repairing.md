@@ -30,7 +30,7 @@ Repair includes second chances, patience, honesty, the willingness to be changed
 
 Why does repair feel like love?
 
-Perhaps because it answers a question shame keeps asking in secret: *Can we find each other again after what we've done to each other?*
+Maybe because it answers a question shame keeps asking in secret: *Can we find each other again after what we've done to each other?*
 
 Seeing can happen in a glance. Giving can happen in an hour. Staying stretches across years. Repair happens in the wreckage—in the space after trust has cracked and no one knows yet whether the crack will spread.
 
@@ -40,7 +40,7 @@ That is why repair can feel heavier than kindness, and more precious than ease.
 
 It says: this relationship is larger than my worst moment.
 
-Perhaps you have felt the relief of someone who did not pretend the harm never happened—who did not rush you to forgiveness, who did not make you carry the repair alone, who came back with something true instead of something convenient.
+You may have felt the relief of someone who did not pretend the harm never happened—who did not rush you to forgiveness, who did not make you carry the repair alone, who came back with something true instead of something convenient.
 
 That relief is one reason repair feels loving.
 
@@ -86,6 +86,4 @@ You can see and never repair.
 
 You can do all four imperfectly and still be loving, because love is not a single test. It is an attention you return to, expressed in more than one language, across more than one day—including the days after you have failed.
 
-We have now looked at four faces: someone who sees, someone who gives, someone who stays, someone who returns after harm. What we have not yet asked plainly is what connects them—what all of these movements are pointing toward, underneath the faces.
-
-For now, it is enough to notice how often love becomes visible in the decision to turn back—not always cleanly, not always freely, but often enough that the door stays open.
+The friend calls back. *I hated how we left it.* The door stays open.

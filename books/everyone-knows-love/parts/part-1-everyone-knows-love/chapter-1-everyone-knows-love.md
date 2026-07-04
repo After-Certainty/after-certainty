@@ -18,7 +18,7 @@ Her mom wanted to say that love between friends is its own country—that you ca
 
 Her mom sat there feeling the particular embarrassment of an adult who has lived long enough to recognize love in a hundred forms and still cannot explain it to someone at the kitchen table.
 
-Perhaps you have been in a version of that kitchen.
+You may have been in a version of that kitchen.
 
 This book is not trying to define love. It is trying to explain why so many different things all feel like love—and why, when someone asks us to explain, we often sound like we are describing weather. Everyone knows it is real. Almost nobody agrees how to say what it is.
 
@@ -50,7 +50,7 @@ You have said "I love you" on the way out the door when you meant *I see you, I 
 
 You have watched an aging parent eat slowly at a table you set, and felt time change shape—not as an idea, but as a pressure in the chest.
 
-Perhaps you have held a baby who was not yours and felt responsibility arrive like weather.
+You may have held a baby who was not yours and felt responsibility arrive like weather.
 
 None of these moments requires a degree. None waits for permission from an expert. They are recognizable the way thunder is recognizable—not because you can explain atmospheric pressure, but because your body knows what it means when the sky turns that color.
 
@@ -92,7 +92,7 @@ Long-married couples communicate in half-sentences and know when to hand each ot
 
 Each of these traditions—science, faith, therapy, philosophy, art—has noticed something real. None of them has made the word simple. If anything, they multiply the ways love can be named without making it easier to say what ties the names together.
 
-Perhaps that is because love was never only an idea.
+That may be because love was never only an idea.
 
 ## Why explaining fails
 
@@ -104,7 +104,7 @@ Another reason is that love shows up as *doing* before it shows up as *definitio
 
 Another reason is that love is not one thing happening once. It moves through time. It looks different at fourteen and forty and eighty. It survives some failures and does not survive others, and we rarely know in advance which kind we are living through.
 
-And perhaps—this is only a guess, but it feels true in the body—love is something we participate in more than something we possess. You cannot hold it up like a stone and say, "Here, this is it." You can only point to the traces: the way someone's well-being begins to matter inside your choices, the way grief rearranges a room, the way a small act—unremarkable to anyone watching—can be the whole sermon.
+And maybe—this is only a guess, but it feels true in the body—love is something we participate in more than something we possess. You cannot hold it up like a stone and say, "Here, this is it." You can only point to the traces: the way someone's well-being begins to matter inside your choices, the way grief rearranges a room, the way a small act—unremarkable to anyone watching—can be the whole sermon.
 
 The teenager wanted a test she could pass. A clear line. Instead she got the human condition: recognition without a formula.
 

@@ -18,7 +18,9 @@ How can two people stop talking for years and still feel like friends?
 
 Life happens. Children happen. Jobs happen. Moves happen. Years happen. And somehow real friendship often says *Welcome back* instead of *Where have you been?*
 
-The college roommate you have not seen since graduation. The coworker from another city. The person you kayak with once a summer. You start talking—and within minutes you are back. Not because nothing changed. Because the bond was built to tolerate drift.
+The college roommate you have not seen since graduation. The coworker from another city. The person you kayak with once a summer. Two friends in their eighties who meet for coffee every Thursday—not because they have much news, but because the friendship has outlasted almost everyone else they used to call.
+
+You start talking—and within minutes you are back. Not because nothing changed. Because the bond was built to tolerate drift.
 
 You have seen other relationships ask for more after long silence. Friendship, at its best, can sometimes pick up where it left off—the bond sitting quietly in the background for seasons, still waiting beside the cereal aisle.
 
@@ -36,7 +38,7 @@ When friendship deepens, you remember what your friend is actually facing—not 
 
 Friendships can also become performative, competitive, or conditional—the friend who is excellent in crisis and absent in ordinary weather, the friend who keeps score, the friend whose loyalty arrives with expectations attached, the friend who wants the version of you that is easy to admire. The same gestures can come from generosity or strategy. The difference is not always visible from outside. It is often felt from within.
 
-Perhaps you have had a friendship that deepened your life without becoming central, and another that became central without ever becoming simple. Both can be real. Both can matter. You cannot fully explain why one friendship becomes indispensable and another remains pleasant. You can only notice what happens when someone says *Want to grab coffee?* after years of not calling—and the answer is yes without a trial.
+You may have had a friendship that deepened your life without becoming central, and another that became central without ever becoming simple. Both can be real. Both can matter. You cannot fully explain why one friendship becomes indispensable and another remains pleasant. You can only notice what happens when someone says *Want to grab coffee?* after years of not calling—and the answer is yes without a trial.
 
 ## This voice, this shorthand
 

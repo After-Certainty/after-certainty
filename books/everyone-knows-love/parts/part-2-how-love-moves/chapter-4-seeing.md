@@ -28,7 +28,7 @@ You feel the difference immediately.
 
 Being seen does not always fix anything. It changes the room. You are no longer carrying the whole translation alone.
 
-Perhaps you know the relief of not having to explain yourself from zero—of sitting down with someone who already has the context, or who listens until the context becomes visible, or who asks one question that proves they were paying attention to the right detail.
+You may know the relief of not having to explain yourself from zero—of sitting down with someone who already has the context, or who listens until the context becomes visible, or who asks one question that proves they were paying attention to the right detail.
 
 That relief is one reason being seen feels loving.
 
@@ -56,7 +56,7 @@ Seeing is what lets another person's inner life become visible to us.
 
 Why does seeing feel like love?
 
-Perhaps because love, at least in part, is the movement from someone merely being present to their inner life becoming real to us—not only their role.
+Maybe because love, at least in part, is the movement from someone merely being present to their inner life becoming real to us—not only their role.
 
 The barista matters as the person handing you coffee. The child matters as the person having the hard week, not only as the child who needs to get in the car. The partner matters as the person with their own fear, not only as the person who forgot to do the thing.
 
@@ -110,4 +110,4 @@ You can see someone and still fail them; you can see someone clearly and choose 
 
 Seeing is not a test you pass once. It is an attention you return to.
 
-There are other faces still—giving, staying, repair. For now, it is enough to notice how often love begins with someone paying attention until the room changes.
+Someone asks how you really are. You start to answer. For once, the room stays quiet long enough to hold it.

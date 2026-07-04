@@ -22,7 +22,7 @@ It is what keeps commitment from turning into capture.
 
 Belonging tells us we still have a place. Freedom tells us we may still remain ourselves within that place.
 
-Perhaps you know the difference between staying because you want to and staying because you are afraid of what leaving would cost. Between giving because you choose to spend something and giving because someone has learned to make refusal unbearable. Between *I am here* and *I have nowhere else to go.*
+You may know the difference between staying because you want to and staying because you are afraid of what leaving would cost. Between giving because you choose to spend something and giving because someone has learned to make refusal unbearable. Between *I am here* and *I have nowhere else to go.*
 
 The movements can look exactly the same from the outside.
 
@@ -48,7 +48,7 @@ Love begins to change shape when saying no is no longer truly possible.
 
 That does not mean love requires constant enthusiasm. It does not mean every sacrifice should feel easy. It means the other person's good is not being purchased with your disappearance. It means *I am doing this* and *I could have not done this* can both be true.
 
-Perhaps that is one reason performative generosity feels hollow. The performance is visible. The freedom is not.
+When love is real, the other person could say no. That possibility does not weaken the bond. It keeps the bond honest.
 
 ## When freedom is missing
 
@@ -86,4 +86,4 @@ You can also leave and still love, which we have already admitted is one of the 
 
 You can protect your boundaries beautifully and still discover that love asks something about the self that gives—not only whether the giving is chosen, but whether the self doing the loving has remained real inside the loving.
 
-It may be enough to notice how often love depends on choice: choosing to remain, to spend, to return, to tell the truth, to stay when staying is costly and you could have gone.
+Chosen love still costs something. When the cost is chosen, the bond can bear it.

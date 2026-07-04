@@ -34,6 +34,8 @@ That can be one of its gifts. It reminds us that love is not only a private emot
 
 You will not integrate with every neighbor. You will not trust every committee member. You will not belong everywhere you stand. But you may still answer a life you barely know—because the need is real, because the habit of showing up exists, because someone taught you, without a lecture, that a street becomes livable when people practice small forms of regard.
 
+Community also reaches people who live alone. Not every answer arrives from a spouse at the door. Sometimes it is the retired neighbor who remembers your schedule, the friend who checks in on Tuesday, the coworker who notices you have gone quiet.
+
 A child may first learn this at a table that is not their own—food appearing on the worst week, a shovel at the door, an adult who stays long enough for silence to soften. Years later, the same child may be the one clearing the walk.
 
 ## What community does not promise

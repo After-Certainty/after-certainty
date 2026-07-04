@@ -20,7 +20,7 @@ Integration showed us how two lives can begin to share weight—how another pers
 
 That is the fear underneath belonging—not whether you are useful, not whether you are impressive, but whether you are still wanted when the performance stops.
 
-Perhaps you know the difference between being loved for what you do and being wanted for who you are when the doing falters. Between a house that applauds achievement and a house that still feels like home after a terrible day. Between a relationship that says *I love you* when you are easy to love and one that says, quietly, *There is still a place for you here.*
+You may know the difference between being loved for what you do and being wanted for who you are when the doing falters. Between a house that applauds achievement and a house that still feels like home after a terrible day. Between a relationship that says *I love you* when you are easy to love and one that says, quietly, *There is still a place for you here.*
 
 The movements can look identical from the outside.
 
@@ -58,7 +58,7 @@ It is not the loneliness of being alone.
 
 It is the loneliness of being received only in part.
 
-Perhaps you have felt it—the sense that you are welcome when you are strong, entertaining, useful, or undemanding, and less welcome when you are messy, needy, wrong, or simply more than the room has patience for. Perhaps you have learned to arrive already managed, already smaller, already translated into a version easier to keep.
+You may have felt it—the sense that you are welcome when you are strong, entertaining, useful, or undemanding, and less welcome when you are messy, needy, wrong, or simply more than the room has patience for. Some people learn to arrive already managed, already smaller, already translated into a version easier to keep.
 
 Belonging protects against that particular harm.
 
@@ -135,5 +135,3 @@ Still a place at the table when the day has gone badly and you have nothing impr
 Freedom comes next—because love, when it is healthy, must also make room for a person to continue becoming.
 
 You can be welcomed beautifully and still discover that love asks something further—not only whether there is a place for you, but whether you are free to grow without being loved only for your usefulness.
-
-It may be enough to notice how often love depends on place—the harder kind of welcome: making room for the person who has come home tired, wrong, late, or ashamed, and letting them discover that the door was not only open for their best self.

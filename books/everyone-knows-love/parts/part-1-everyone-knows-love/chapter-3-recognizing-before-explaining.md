@@ -30,7 +30,7 @@ People planted and harvested long before anyone could explain the tilt of the ea
 
 In each case, humans noticed a pattern in lived experience. We acted on it. We preserved what worked in habit, ritual, caution, care. Explanation followed—not as a replacement for recognition, but as an attempt to say what we had already been seeing.
 
-Perhaps love follows the same order.
+Love may follow the same order.
 
 ## Explanation can narrow what we knew
 
@@ -112,4 +112,4 @@ She never understood the science of weather.
 
 She still knew when the rain was coming.
 
-Perhaps love asks something similar of us—not a perfect explanation first, but a willingness to notice what is already there, and to keep paying attention long after the easy sentences run out.
+Love may ask something similar of us—not a perfect explanation first, but a willingness to notice what is already there, and to keep paying attention long after the easy sentences run out.

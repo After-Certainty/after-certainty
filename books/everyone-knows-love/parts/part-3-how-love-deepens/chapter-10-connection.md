@@ -12,7 +12,7 @@ That is connection, or something close enough that most of us recognize it immed
 
 ## When someone becomes real
 
-Perhaps connection begins when a person stops being a category and becomes a particular someone—the coworker who is afraid of losing her mother, the neighbor whose marriage is quieter than it used to be, the child who is brave in public and frightened in the dark.
+Connection often begins when a person stops being a category and becomes a particular someone—the coworker who is afraid of losing her mother, the neighbor whose marriage is quieter than it used to be, the child who is brave in public and frightened in the dark.
 
 You do not always notice the moment it happens. Sometimes it arrives slowly—through years of small answers, shared weather, ordinary Tuesdays. Sometimes it arrives suddenly, in one conversation that changes the furniture of a relationship.
 
@@ -32,7 +32,7 @@ Connection has a particular relief in it.
 
 You are less alone inside your own experience. Not because the other person has fixed anything. Because they have entered the room of your life and stayed long enough to matter there.
 
-Perhaps you know the difference between a pleasant acquaintance and a person whose name on your phone changes your posture. Between someone who asks how you are and someone who waits for the true answer. Between being included and being known.
+You may know the difference between a pleasant acquaintance and a person whose name on your phone changes your posture. Between someone who asks how you are and someone who waits for the true answer. Between being included and being known.
 
 Loneliness is not always solitude. Often it is the ache of being surrounded by people who do not quite have access to your inner life—and of sensing that you do not quite have access to theirs.
 
@@ -54,4 +54,4 @@ Closeness helps. It still does not exhaust love. Love is not only the feeling th
 
 Connection is what allows those answers to become more than isolated acts. You can be deeply connected and still need trust—the kind of bond that can survive truth, absence, repair, and time without constantly starting over.
 
-It may be enough to notice how often love depends on something quieter than fireworks: another person's inner life becoming real to you—and, when you are fortunate, yours to them—until neither of you is quite optional inside the other's life.
+Your phone lights up with their name. You do not have to perform fine. That is already something.

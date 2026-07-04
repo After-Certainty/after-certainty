@@ -44,7 +44,7 @@ They feel like one relationship breathing.
 
 ## One family, not four trophies
 
-Perhaps that is the first thing worth saying plainly.
+That may be the first thing worth saying plainly.
 
 Kindness feels like love. Sacrifice feels like love. Patience feels like love. Repair feels like love. We point to each and say, "That. That is love." And we are often right—something true is happening there.
 
