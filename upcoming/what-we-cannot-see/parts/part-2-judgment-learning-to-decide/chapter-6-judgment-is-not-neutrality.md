@@ -6,6 +6,8 @@ Part I ended with a harder recognition. You do not first become unbiased and the
 
 That is **judgment**: not the fantasy of seeing from nowhere, but the work of deciding from somewhere.
 
+Part I asked why we see differently. Part II asks what we owe one another when we do.
+
 The oncologist had sat with the same conversation twice that week. Scan images on the screen, survival curves in the pamphlet, the quiet math of risk expressed as percentages that never quite belong to any one body. This patient was younger than the cohort in the trial. The tumor’s margins were ambiguous on the slide. The standard protocol was clear enough to quote and unclear enough to lose sleep over.
 
 The family wanted certainty. They asked which choice was **objective**—as if objectivity were a third path beside treatment paths, a place you could stand while the partial pictures arranged themselves into a single command. The oncologist did not have that place. She had training, memory, the last three cases that had gone badly, the colleague whose caution she trusted, the patient’s own tolerance for uncertainty, the hospital’s formulary, the hour of the afternoon when her attention was sharp or thin. She had a perspective. She could not trade it for a neutral one.
@@ -36,11 +38,17 @@ Judgment is also not relativism. Not all partial views are equally grounded, equ
 
 ## What judgment is
 
-**Judgment** is the responsible use of limited perspectives.
+**Judgment is the responsible use of limited perspectives.**
 
-It names the work of choosing—recommending, refusing, prioritizing, committing—while knowing the chooser sees from somewhere. The oncologist recommends a path and documents why. The chair explains the hire. The parent chooses the school. Each acts inside a partial view and remains **answerable** for how that view was used.
+That is the thesis of Part II—not a footnote to Part I. Everything that follows in this movement unfolds it.
 
-Judgment is not something we do after perception. It is what partial perception **becomes** when the moment requires action—much as interpretation was not an afterthought to seeing, but part of seeing itself. We judge from somewhere. From training and fatigue. From the last failure that still stings. From loyalty to a team, a patient, a principle. From the inherited sense of what a fair process looks like. The somewhere does not disqualify the decision. It describes the conditions under which the decision was made.
+Not every choice is judgment. Choosing ice cream is mostly preference. Choosing chemotherapy for someone else is judgment, because another person’s welfare depends on how responsibly you use a limited perspective. Judgment is what we call decision-making when reasons matter—when someone could ask *why*, and the answer would need to be more than *because I wanted to*.
+
+It names the work of recommending, refusing, prioritizing, committing—while knowing the chooser sees from somewhere. The oncologist recommends a path and documents why. The chair explains the hire. The parent chooses the school. Each acts inside a partial view and remains **answerable** for how that view was used.
+
+Judgment is not something we do after perception. It is what partial perception becomes when action can no longer wait.
+
+We judge from somewhere. From training and fatigue. From the last failure that still stings. From loyalty to a team, a patient, a principle. From the inherited sense of what a fair process looks like. The somewhere does not disqualify the decision. It describes the conditions under which the decision was made.
 
 That description matters because responsibility lives there. If judgment were neutrality, responsibility would mean becoming the kind of person who finally sees without limit—a standard that guarantees either paralysis or self-deception. If judgment is responsible use of partial sight, responsibility means something harder and more honest: deciding as well as your position allows, proportioning confidence to evidence, remaining willing to revise when the world returns new information, and owning what you chose before the revision arrives.
 
@@ -54,7 +62,7 @@ The committee that hides behind “the data speak for themselves” while choosi
 
 Both costumes feel safer than owning a partial recommendation. Both export the cost onto someone else: the patient who needed an advocate, the employee who needed a decision, the public who needed a call that would later be criticized no matter what.
 
-The oncologist could not give the family certainty. She could give them something more honest: a recommendation made in the open about what she saw, what she did not see, and what would make her change her mind. That is not neutrality. It is judgment with the mask removed.
+The oncologist could not give the family certainty. She could give them something more honest: a recommendation made in the open about what she saw, what she did not see, and what would make her change her mind. She could not eliminate uncertainty. She could only decide responsibly inside it. That is not neutrality. It is judgment with the mask removed.
 
 ## What good judgment widens
 

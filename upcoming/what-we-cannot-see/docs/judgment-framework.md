@@ -20,9 +20,17 @@ Individuals are responsible for decisions, not for becoming unbiased—and not f
 
 ## Three chapter moves
 
-### Ch 6 — Judgment Is Not Neutrality
+### Ch 6 — Judgment Is Not Neutrality (**benchmark for Part II**)
 
 **Concept:** Judgment names the work of deciding under partial sight—not achieving neutrality.
+
+**Part II thesis (locked):** *Judgment is the responsible use of limited perspectives.*
+
+**Part II shift:** Part I — why we see differently · Part II — what we owe one another when we do.
+
+**Metaphor:** costume of neutrality (borrowing the costume to avoid owning a partial recommendation)
+
+**Spine echo:** We judge from somewhere.
 
 | Term | Meaning in this book |
 |------|---------------------|
