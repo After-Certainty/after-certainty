@@ -2,52 +2,56 @@
 
 ## Current phase
 
-**Phase 3 — Part III complete (pending epilogue + part gate)**
+**Phase 3 — Part III + epilogue draft complete (pending part gate merge)**
 
-Part I + Part II on `main`. Part III Ch 9–13 approved on branch.
+Manuscript-so-far review **approved**. Epilogue drafted from read-through feedback.
 
 ## Workflow stage (Part III branch)
 
 | Step | Action | Status |
 |------|--------|--------|
-| — | Ch 9–13 prose | Done (approved) |
-| D | Manuscript-so-far review (Intro → Ch 13) | **In progress** (author read-through) |
-| E–G | Revise, epilogue, squash, merge | Pending |
+| D | Manuscript-so-far review (Intro → Ch 13) | Done (approved) |
+| — | Epilogue draft | Done (pending author review) |
+| E | Whole-manuscript revision pass | Pending (if read-through notes) |
+| F–G | Squash, merge | Pending |
 
 **Branch:** `cursor/what-we-cannot-see-part3-draft-2512` · PR #220
 
-## Part III arc (locked)
+## Manuscript-so-far (locked)
 
-| Ch | Question | Status |
-|----|----------|--------|
-| 9 | Why do others keep seeing things I miss? | approved (~1,520w) |
-| 10 | How can incomplete perspectives produce better understanding? | approved (~1,200w) |
-| 11 | When failure teaches the system | approved (~1,370w) |
-| 12 | How do institutions preserve both wisdom and blind spots? | approved (~1,090w) |
-| 13 | What happens when the perspective is not human? | approved (~1,210w) |
+**Subject:** Civilization as adaptation to partial perspective — not a bias book.
 
-**Frame:** Integration ≠ collaboration · fourth epistemic participant · redistribute perspective
+**Contribution:** Perspective is not an obstacle to civilization. Civilization is how partial perspectives become wiser together.
+
+**Step E deferred:** Author — no significant earlier-chapter rewrites; energy into epilogue (done).
 
 ## Unit progress
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Intro → Limits bridge | approved | on `main` ~13,520w |
-| Ch 9–13 | approved | Part III prose complete |
-| Epilogue + back matter | scaffold | **Next draft** |
+| Intro → Ch 13 | approved | read-through approved |
+| Epilogue | draft | ~850w; hope + orientation |
+| Glossary / bibliography | scaffold | after merge |
+
+## Part III arc
+
+| Ch | Status |
+|----|--------|
+| 9–13 | approved |
+| Epilogue | draft |
 
 ## Next actions
 
-1. **Author:** Continuous read Intro → Ch 13 (step D)
-2. **Agent:** Step E revision pass from read-through notes
-3. **Then:** Epilogue draft → part gate merge
+1. **Author:** Review epilogue
+2. **Agent:** Revise from feedback; optional light step E if snag list
+3. **Then:** Squash + merge PR #220
 
 ## Rough scale
 
-- On `main`: ~13,520 words
-- Part III (Ch 9–13): ~6,400 words
-- **Total drafted:** ~19,760 words (pending epilogue)
+- Prose through Ch 13: ~19,760 words
+- Epilogue draft: ~850 words
+- **Total drafted:** ~20,610 words
 
 ## Key docs
 
-[`integration-framework.md`](integration-framework.md) · [`process-design.md`](process-design.md) · [`chapter-template.md`](chapter-template.md)
+[`thesis.md`](thesis.md) · [`chapter-questions.md`](chapter-questions.md)

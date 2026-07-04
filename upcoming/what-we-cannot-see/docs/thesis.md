@@ -22,9 +22,11 @@ Part III is not integration alone—it is **designed epistemologies**: how we or
 | II | What does responsibility look like once you accept that? |
 | III | How do societies become wiser than individuals? |
 
-**Emotional center:** Not bias—**humility** as the recognition that I need perspectives beyond my own because my own can never be complete. Preserve through Part III and epilogue.
+**Emotional center:** Not bias—**humility** as the recognition that I need perspectives beyond my own because my own can never be complete. Epilogue adds **hope**: what partiality makes possible, not limitation alone.
 
-**Integration foreshadow:** Intro plants *integrating* / *civilization exists because no one perspective was sufficient* before Part III explains it.
+**Book contribution (locked — manuscript-so-far review):** Perspective is not an obstacle to civilization. **Civilization is how partial perspectives become wiser together.** We become wiser together not by escaping our perspectives, but by learning how to integrate them honestly.
+
+**Epilogue job (locked):** Not summarize. Answer *why this matters* — orientation toward the world, what kind of people readers can become. Hope without sentimentality. Return to intro question; recognition, not new questions.
 
 ## Culminating question
 
