@@ -78,6 +78,6 @@ Which raises the question the rest of the book must answer. If every perspective
 
 That is where the inquiry goes next.
 
-[^c5-snow]: Snow, *On the Mode of Communication of Cholera*; Johnson, *The Ghost Map*.
+[^c5-snow]: Snow, John, *On the Mode of Communication of Cholera*, 2nd ed. (London: John Churchill, 1855); Johnson, Steven, *The Ghost Map: The Story of London's Most Terrifying Epidemic—and How It Changed Science, Cities, and the Modern World* (New York: Riverhead Books, 2006).
 
-[^c5-ledger]: Gleeson-White, *Double Entry*.
+[^c5-ledger]: Gleeson-White, Jane, *Double Entry: How the Merchants of Venice Created Modern Finance* (New York: W. W. Norton, 2012).

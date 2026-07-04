@@ -134,10 +134,11 @@ Central questions and handoffs: [`chapter-questions.md`](chapter-questions.md).
 ### Citation (when prose is drafted)
 
 - Pandoc footnote syntax (`[^id]` with `[^id]:` definitions)
+- **Chicago Notes–Bibliography** — full first-cite footnotes matching house books (*How Trust Forms*, *Trust Beyond Similarity*): `Author, *Title* (Place: Publisher, Year).` for books; `Author, "Article Title," *Journal* vol, no. (year): pages.` for articles
+- Bibliography list uses the same sources in alphabetical author–date list form ([`back-matter/bibliography.md`](../back-matter/bibliography.md))
 - Stable, chapter-scoped IDs
-- Never fabricate references; mark unverified sources
+- Never fabricate references; mark unverified sources in [`citation-punch-list.md`](citation-punch-list.md) until verified
 - Research bibliography: [`bibliography-research.md`](bibliography-research.md)
-- Manuscript bibliography: [`back-matter/bibliography.md`](../back-matter/bibliography.md)
 
 ### Glossary (when used)
 

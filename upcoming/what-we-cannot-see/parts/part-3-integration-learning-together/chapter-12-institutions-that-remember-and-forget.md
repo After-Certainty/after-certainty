@@ -54,4 +54,4 @@ Which opens a question the book could not have asked responsibly at the start—
 
 That is where the inquiry goes next.
 
-[^c12-cases]: Nuland, *The Doctors' Plague* (Semmelweis); Leveson and Turner, "An Investigation of the Therac-25 Accidents."
+[^c12-cases]: Nuland, Sherwin B., *The Doctors' Plague: Germs, Childbed Fever, and the Strange Story of Ignác Semmelweis* (New York: W. W. Norton, 2003); Leveson, Nancy G., and Clark S. Turner, "An Investigation of the Therac-25 Accidents," *Computer* 26, no. 7 (1993): 18–41.

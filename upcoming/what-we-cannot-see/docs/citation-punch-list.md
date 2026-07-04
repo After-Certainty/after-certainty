@@ -11,7 +11,7 @@ Editorial pass for publication readiness. **Status:** entries with bibliography 
 | Institutional programs (ASRS, morbidity conferences) | Generic “a nurse” / “a manager” scenes |
 | Specific methodological claims (RCT, double-blind, replication crisis) | Metaphor-only claims (maps, sketches) |
 
-Footnotes use `[^id]` in chapter prose (Chicago short form); full entries in [`back-matter/bibliography.md`](../back-matter/bibliography.md) (Chicago Notes–Bibliography list, same as published house books).
+Footnotes use full **Chicago Notes–Bibliography** first-cite form in chapter prose (`[^id]: Author, *Title* (Place: Publisher, Year).`), matching published house books such as *How Trust Forms*. Bibliography holds the same entries in list form.
 
 ---
 

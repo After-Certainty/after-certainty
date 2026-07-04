@@ -78,4 +78,4 @@ Nearly every durable institution humans have built can be understood as an attem
 
 That is where the inquiry goes next.
 
-[^c9-apollo13]: Lovell and Kluger, *Lost Moon*; Kranz, *Failure Is Not an Option*.
+[^c9-apollo13]: Lovell, Jim, and Jeffrey Kluger, *Lost Moon: The Perilous Voyage of Apollo 13* (Boston: Houghton Mifflin, 1994); Kranz, Gene, *Failure Is Not an Option: Mission Control from Mercury to Apollo 13 and Beyond* (New York: Simon & Schuster, 2000).

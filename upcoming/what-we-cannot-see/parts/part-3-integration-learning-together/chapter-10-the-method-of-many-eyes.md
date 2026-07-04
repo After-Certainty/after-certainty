@@ -54,4 +54,4 @@ Which opens the next pressure. Methods like these do not live in journals alone.
 
 That is where the inquiry goes next.
 
-[^c10-replication]: Open Science Collaboration, "Estimating the Reproducibility of Psychological Science"; Ioannidis, "Why Most Published Research Findings Are False."
+[^c10-replication]: Open Science Collaboration, "Estimating the Reproducibility of Psychological Science," *Science* 349, no. 6251 (2015): aac4716; Ioannidis, John P. A., "Why Most Published Research Findings Are False," *PLoS Medicine* 2, no. 8 (2005): e124.

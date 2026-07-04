@@ -62,4 +62,4 @@ Which opens a different irritation. If selective attention and selective memory 
 
 That is where the inquiry goes next.
 
-[^c2-availability]: Tversky and Kahneman, "Availability," 207–32. Judgment weighted by ease of recall rather than frequency in the world.
+[^c2-availability]: Tversky, Amos, and Daniel Kahneman, "Availability: A Heuristic for Judging Frequency and Probability," *Cognitive Psychology* 5, no. 2 (1973): 207–32.

@@ -64,4 +64,4 @@ We experience the world from somewhere. We also attend from somewhere—and not 
 
 That is where the inquiry goes next.
 
-[^c1-gorilla]: Simons and Chabris, "Gorillas in Our Midst," 1059–74. People counting passes often fail to notice a conspicuous intruder—a description of finite intake under load, not moral failure.
+[^c1-gorilla]: Simons, Daniel J., and Christopher F. Chabris, "Gorillas in Our Midst: Sustained Inattentional Blindness for Dynamic Events," *Perception* 28, no. 9 (1999): 1059–74.

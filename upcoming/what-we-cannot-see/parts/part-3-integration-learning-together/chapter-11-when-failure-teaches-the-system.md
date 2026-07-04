@@ -64,6 +64,6 @@ Which raises a harder question than any single disaster. Institutions **remember
 
 That is where the inquiry goes next.
 
-[^c11-shuttle]: Rogers Commission, *Report* (1986); Columbia Accident Investigation Board, *Report* (2003); Vaughan, *The Challenger Launch Decision*.
+[^c11-shuttle]: President's Commission on the Space Shuttle *Challenger* Accident, *Report of the Presidential Commission on the Space Shuttle Challenger Accident*, 5 vols. (Washington, DC: Government Printing Office, 1986); Columbia Accident Investigation Board, *Report of the Columbia Accident Investigation Board*, 2 vols. (Washington, DC: Government Printing Office, 2003); Vaughan, Diane, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA* (Chicago: University of Chicago Press, 1996).
 
-[^c11-asrs]: FAA/NASA Aviation Safety Reporting System program documentation.
+[^c11-asrs]: Federal Aviation Administration and NASA, "Aviation Safety Reporting System (ASRS)," program website, accessed July 4, 2026, https://asrs.arc.nasa.gov/.
