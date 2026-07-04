@@ -12,7 +12,7 @@ Individuals are responsible for decisions, not for becoming unbiased—and not f
 
 **Level:** Individual judgment (Part II). Distinct from individual cognition (Part I) and from institutional process design (Part III).
 
-**Part II arc (author feedback):** Definition (Ch 6) → Pressure (Ch 7) → Discipline (Ch 7–8) → Responsibility (Ch 8 + bridge). Part II asks how finite perspectives **should be used**; Part I asked how they are **formed**.
+**Part II arc (author feedback):** Definition (Ch 6) → Pressure (Ch 7) → Discipline (Ch 7–8) → Answerability (Ch 8 + bridge). **Ch 6:** What is judgment? **Ch 7:** How do we judge? **Ch 8:** Who do we answer to? Part II is **answerability under finitude**; judgment is where answerability appears.
 
 ## Key questions (Part II)
 
@@ -63,9 +63,19 @@ Individuals are responsible for decisions, not for becoming unbiased—and not f
 
 **Relation to portfolio:** Distinct from *The Discipline of Uncertainty* (probabilistic leadership). WWCS focuses cognitive architecture of partial sight.
 
-### Ch 8 — Perspectives We Do Not Naturally Possess
+### Ch 8 — Perspectives We Do Not Naturally Possess (**Part II capstone**)
 
-**Concept:** Wisdom grows by intentionally incorporating perspectives we do not naturally possess.
+**Concept:** Who judgment **owes**—answerability to those affected; foreign perspectives as intentional practice.
+
+**Part II progression:** Ch 6 — What is judgment? · Ch 7 — How do we judge under uncertainty? · Ch 8 — **Who do we answer to?**
+
+**Foreign (locked):** not default—not culture-war language; cognitively defined.
+
+**Three faces:** fair process · proportionate care · repair when wrong
+
+**Distinction:** hearing → weighing → acting (not token display)
+
+**Epistemic bridge:** those who bear costs often notice features invisible elsewhere (sets up Part III)
 
 | Move | Notes |
 |------|-------|

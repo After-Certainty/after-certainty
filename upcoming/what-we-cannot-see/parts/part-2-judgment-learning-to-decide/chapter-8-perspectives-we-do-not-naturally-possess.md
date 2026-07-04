@@ -34,6 +34,8 @@ One discipline remains: learning from **perspectives you do not naturally posses
 
 Not as diversity theater. Not as a box checked before the vote. Not as the fantasy that one conversation with someone unlike you erases your own situated view. **Foreign**, in this book, means simply **not default**—not the angle your body, role, history, or incentives would reach for without effort.
 
+This obligation is not only moral. It is **epistemic**. People who bear the consequences of a decision often notice different parts of reality—not because suffering grants infallibility, but because consequences reveal features invisible from elsewhere. The tenant knew the alley at dawn because the alley was her morning. The board knew reserve projections because reserves were their language. Responsible judgment asks which parts of reality only become visible from where the costs land.
+
 The board member who walks the alley at dawn is not becoming the tenant. She is borrowing a partial view long enough to let it **count**—the way trust extends what one person can verify, but here the extension is moral rather than informational. She is practicing a form of judgment Part I prepared and Part II now names: you judge from somewhere, and responsible judgment asks what sits outside your somewhere that still belongs to the decision.
 
 This is difficult for a reason that has nothing to do with virtue signaling. Foreign perspectives often arrive as **correction**, and correction threatens identity. They can require revising a story you already committed to—a budget already balanced, a policy already defended, a self-image already polished. Waiting is also a decision. So is refusing to hear.
@@ -59,6 +61,8 @@ That is often the honest outcome of responsible individual judgment: not omnisci
 Even then, limits remain.
 
 No individual can inhabit every perspective that bears on a complex choice. No amount of personal virtue replaces the need for others who notice what you still miss—not as a moral failure, but as a structural fact about finite minds. The most disciplined judge, the most careful emergency manager, the most attentive oncologist still decides from somewhere. Borrowed sight helps. It does not turn one person into many.
+
+The goal was never to become the person who could see everything. The goal was to become the kind of person who knows when others must help you see.
 
 Part II began when action could no longer wait for neutral sight. It ends where individual responsibility meets its **horizon**: you can judge well for a finite being, and still not see enough alone.
 

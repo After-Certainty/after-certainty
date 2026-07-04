@@ -67,15 +67,17 @@ Readers should begin to anticipate the rhythm before they name it.
 - *The ranking function is an attention budget written in code.*
 - *Only now the completeness wears a logo.*
 
-**Part II (Ch 6+):** *Judgment is the responsible use of limited perspectives.* · *Judgment begins where omniscience ends.* · *Adaptive mechanisms do not excuse harm.* · *Waiting is also a decision.* · *Paralysis is not safer than movement when the world is moving anyway.*
+**Part II (Ch 6+):** *Judgment is the responsible use of limited perspectives.* · *Judgment begins where omniscience ends.* · *Adaptive mechanisms do not excuse harm.* · *Waiting is also a decision.* · *Paralysis is not safer than movement when the world is moving anyway.* · *Good faith was not the whole of responsibility.* · *Borrowed sight helps. It does not turn one person into many.*
 
-## Part II grammar (Ch 6–7)
+## Part II grammar (Ch 6–8)
 
-**Frame:** Responsibility under finitude; judgment is where responsibility appears.
+**Frame:** Answerability under finitude; judgment is where answerability appears.
 
-**Arc:** Definition (Ch 6) → Pressure (Ch 7) → Discipline (Ch 7–8) → Responsibility (Ch 8)
+**Arc:** Ch 6 What is judgment? → Ch 7 How do we judge? → Ch 8 Who do we answer to?
 
 **Ch 7 hierarchy:** **Provisional commitment** → practiced through **proportionality** + **revisability** (nested, not three parallel virtues).
+
+**Ch 8:** Foreign = not default · hearing → weighing → acting · include perspectives most likely to bear costs
 
 **Recurring motif:** *Waiting is also a decision.*
 
