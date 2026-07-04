@@ -6,9 +6,9 @@ The introduction asked what finite minds can take in. This movement asks somethi
 
 *Bias* often arrives as verdict—someone failed to see clearly. Prejudice and bad faith exist. But careful people in the same room still see different things. Institutions built for accuracy still run on selection. If partial sight is also a condition of having a perspective, then bias is not only an exception. It is something closer to a **structure**: the selective work through which finite perspectives become possible.
 
-Part I does not catalogue named biases. It excavates **ingredients**—attention, memory, interpretation, trust, structure—each solving a real pressure before it introduces a blind spot. The chapters stay close to ordinary life. The goal is not to prove you are biased. You already live inside a perspective. The goal is to make the architecture visible before the moral label arrives.
+Part I does not catalogue named biases. It excavates **ingredients**—attention, memory, interpretation, trust, structure. The chapters stay close to ordinary life. The goal is not to prove you are biased. You already live inside a perspective. The goal is to make the architecture visible before the moral label arrives.
 
-Every mechanism here began as an **adaptation**. That is the question each chapter will ask: what problem did this solve?
+Every mechanism here solved a real cognitive problem before it introduced a blind spot. That is the question each chapter will ask—and the **adaptation** lens to carry through Part I.
 
 > Why can't we see everything?
 

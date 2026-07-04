@@ -45,8 +45,13 @@ See [`drafting-process.md`](drafting-process.md) for the full part-branch workfl
 
 - Ch 2: *The purpose of memory is not accuracy. The purpose is continuity.*
 - Ch 3: *Interpretation is not something we do after perception. It is part of perception itself.*
-- Part I bridge: shortened ~35% (overture, less re-explaining intro)
-- Planning: bias as Part I vocabulary; adaptation as book-wide theme; Ch 1–2 voice pass deferred post–Part II; science compensation stays Part III
+- Part I bridge: shortened to overture; adaptation lens strengthened (*solved a real cognitive problem before it introduced a blind spot*)
+- Planning: bias as Part I vocabulary; adaptation chain (finite minds → adaptations → blind spots → judgment); signature 7-beat rhythm locked; Part III compensation inventory planned (Ch 10+)
+- Author scores Part I ~9.8; merge when ready
+
+## Author feedback (post pass)
+
+Part I teaches a **way of asking questions** (*what problem did this solve?* / *what does it leave out?*). Ch 1–2 voice revisit deferred until after Part II drafted. Scientific compensation deliberately held for Part III.
 
 ## Next actions
 

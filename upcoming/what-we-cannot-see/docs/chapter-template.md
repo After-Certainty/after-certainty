@@ -83,6 +83,20 @@ See [`recurring-metaphors.md`](recurring-metaphors.md).
 
 ## Six-beat scaffold
 
+### Signature chapter rhythm (lean into it—do not vary for variety)
+
+Author feedback (Part I locked): readers unconsciously learn this sequence. Preserve across Parts II–III where the subject allows.
+
+1. **Concrete story** — orient without immediate definitions  
+2. **Identify the pressure** — what finite minds cannot do without selection  
+3. **Identify the adaptation** — what problem this mechanism solves  
+4. **Explain the benefit** — adaptive, not exculpatory  
+5. **Explain the cost** — blind spot, distortion, closure  
+6. **Explain compensation** — individual and/or institutional (Part III)  
+7. **Transition** — natural handoff to the next question  
+
+Maps to four-beat grammar: pressure → adaptation → blind spot → compensation, with story at open and handoff at close.
+
 ### 1. Genuine human question
 
 Open with a blockquote containing the chapter's central question.
