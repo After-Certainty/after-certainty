@@ -14,7 +14,8 @@ Part I merged to `main` (PR #215, 2026-07-04). Follow [`drafting-process.md`](dr
 | — | Draft Ch 6 | Done |
 | — | Author review Ch 6 | Done |
 | — | Draft Ch 7 | Done |
-| — | Author review Ch 7 | **Next** |
+| — | Author review Ch 7 | Done |
+| — | Draft Ch 8 | **Next** |
 | A–G | Part completion gate (after Ch 6–8 + Part II bridge) | Pending |
 
 **Branch:** `cursor/what-we-cannot-see-part2-draft-2512`

@@ -12,6 +12,8 @@ Individuals are responsible for decisions, not for becoming unbiased—and not f
 
 **Level:** Individual judgment (Part II). Distinct from individual cognition (Part I) and from institutional process design (Part III).
 
+**Part II arc (author feedback):** Definition (Ch 6) → Pressure (Ch 7) → Discipline (Ch 7–8) → Responsibility (Ch 8 + bridge). Part II asks how finite perspectives **should be used**; Part I asked how they are **formed**.
+
 ## Key questions (Part II)
 
 - What is judgment?
@@ -40,9 +42,17 @@ Individuals are responsible for decisions, not for becoming unbiased—and not f
 
 **Guardrail:** Adaptive bias ≠ exculpation. Part II must carry moral weight.
 
-### Ch 7 — Deciding Without Certainty
+### Ch 7 — Deciding Without Certainty (**benchmark grammar with Ch 6**)
 
-**Concept:** Decision methods under uncertainty—without pretending certainty is available.
+**Concept:** How judgment behaves under uncertainty—not decision technique, but responsible action inside finitude.
+
+**Core concept:** **Provisional commitment** — practiced through **proportionality** and **revisability** (nested, not parallel virtues).
+
+**Metaphor:** uncertainty as weather (medium judgment moves through)
+
+**Recurring motif:** *Waiting is also a decision.*
+
+**Part II framing:** Part II is **responsibility under finitude**; judgment is where responsibility appears.
 
 | Move | Notes |
 |------|-------|

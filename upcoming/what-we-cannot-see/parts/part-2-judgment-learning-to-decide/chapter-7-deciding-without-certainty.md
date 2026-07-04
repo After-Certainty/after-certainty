@@ -28,17 +28,19 @@ Uncertainty is the medium judgment moves through—not a sign that judgment has 
 
 If judgment cannot wait for omniscience, it must learn a different virtue: **provisional commitment**.
 
-Provisional does not mean careless. It means acting on the best partial case you can make while remaining structurally willing to revise. The emergency manager issues the evacuation order with the language she has been trained to use: what is known, what is not, what would trigger escalation or stand-down. The pilot lands in crosswinds using instruments that simplify the sky. The parent chooses the school with incomplete knowledge of who the child will become. Each commits without final proof.
+Provisional does not mean careless. It means acting on the best partial case you can make while remaining structurally willing to revise. The emergency manager issues the evacuation order with the language she has been trained to use: what is known, what is not, what would trigger escalation or stand-down. The pilot lands in crosswinds using instruments that simplify reality enough to act. The parent chooses the school with incomplete knowledge of who the child will become. Each commits without final proof.
 
 This solves a real problem. Paralysis is not safer than movement when the world is moving anyway. The flood does not wait for consensus among models. The tumor does not pause while the family finds a neutral advisor. Provisional commitment is how finite beings **enter** time—how they protect what can still be protected before the moment passes.
 
-It is also how they avoid a subtler mistake: mistaking confidence for clarity. The loudest model, the most charismatic expert, the memory of the last disaster—these can feel like certainty because they concentrate the attention budget. Good judgment under uncertainty requires a quieter discipline: matching the **strength of the action** to the **strength of the evidence**.
+It is also how they avoid a subtler mistake: mistaking confidence for clarity. The loudest model, the most charismatic expert, the memory of the last disaster—these can feel like certainty because they concentrate the attention budget. Provisional commitment still needs a way to stay honest while it acts. That is what the next two disciplines supply.
 
 ## Proportion and revision
 
-That discipline has two faces: **proportionality** and **revisability**.
+**Provisional commitment** is the shape judgment takes under uncertainty—not a third virtue beside proportion and revision, but the commitment they **practice**.
 
-Proportionality is the refusal to speak in absolutes the evidence cannot carry. It is recommending chemotherapy without promising outcomes. It is evacuating the tract most likely to flood before claiming the whole county was doomed. It is spending political capital on the move that fits what is known—and naming what would need to be true for a stronger move to be justified.
+That practice has two faces: **proportionality** and **revisability**.
+
+Proportionality is the refusal to speak in absolutes the evidence cannot carry. It is matching the **strength of the action** to the **strength of the evidence**—recommending chemotherapy without promising outcomes, evacuating the tract most likely to flood before claiming the whole county was doomed, spending political capital on the move that fits what is known, and naming what would need to be true for a stronger move to be justified.
 
 Revisability is the willingness to update when the world returns new information—not as embarrassment, but as part of responsible judgment. The evacuation that was correct at noon may need refinement by evening. The hire that looked wise in March may look questionable in August. Revisability is not flip-flopping for its own sake. It is keeping the decision **attached** to reality as reality continues to arrive.
 
