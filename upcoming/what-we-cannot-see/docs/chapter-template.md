@@ -83,6 +83,26 @@ Readers should begin to anticipate the rhythm before they name it.
 
 Ask what problem the mechanism **solves**, not only what error it creates. Adaptive before dangerous; never exculpatory.
 
+## Part III grammar (Ch 9+)
+
+**Frame:** Integration ≠ collaboration · methods redistribute perspective · institutions as epistemic technologies
+
+**Arc:** Ch 9 collective integration → Ch 10–13 process design (science, failure review, institutional memory, AI)
+
+**Ch 10:** Science as designed epistemology · methods as filters · engineering review parallel
+
+**Ch 11:** Institutional learning across time · organizational memory (Ch 2 parallel) · failure → memory
+
+**Ch 12:** Civilizational cognition · institutions preserve methods across generations · inherit memory
+
+**Ch 13:** Fourth epistemic participant · millions of partialities compressed · experiences vs correlations · human-AI integration
+
+**Part III ladder:** individuals integrate → societies invent methods → organizations learn → institutions preserve/ossify → machine perspectives
+
+**Recurring motifs (Part III):** *Humans did not wait for neutral minds.* · *Science at its best is a culture of designed friction.* · *Every checklist is a memory.*
+
+Ask what problem the method **solves**, what perspectives it **counts**, and what it **channels** away.
+
 ### Chapter metaphor (one per layer, when earned)
 
 | Layer | Metaphor | Status |

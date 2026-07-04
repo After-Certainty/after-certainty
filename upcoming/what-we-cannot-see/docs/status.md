@@ -2,59 +2,55 @@
 
 ## Current phase
 
-**Phase 2 — Part II completion gate (step E in progress)**
+**Phase 3 — Part III + epilogue complete (pending merge)**
 
-Manuscript-so-far review complete. Whole-manuscript revision pass underway on branch.
+Manuscript-so-far review **approved**. Epilogue revised from author feedback (extended landing).
 
-## Workflow stage (Part II branch)
+## Workflow stage (Part III branch)
 
 | Step | Action | Status |
 |------|--------|--------|
-| D | Manuscript-so-far review | Done (author approved architecture) |
-| E | Whole-manuscript revision pass | **In progress** |
-| F–G | Squash + merge | Pending author approval |
+| D | Manuscript-so-far review (Intro → Ch 13) | Done (approved) |
+| — | Epilogue revision | Done (approved) |
+| E | Whole-manuscript revision pass | Deferred (author) |
+| F–G | Squash, merge | Ready |
 
-**Branch:** `cursor/what-we-cannot-see-part2-draft-2512` · PR #216
+**Branch:** `cursor/what-we-cannot-see-part3-draft-2512` · PR #220
 
-## Author feedback locked (manuscript-so-far)
+## Manuscript-so-far (locked)
 
-- **Subject:** finite minds produce civilization (bias = entry point)
-- **Emotional center:** humility as needing perspectives beyond one's own
-- **Integration** foreshadowed in intro; Part III ≠ collaboration
-- **Ch 13:** AI as another finite perspective, not debiasing LLMs
-- **Historical anchors:** add texture Ch 5+ (bookkeeping, ATC, etc.)
-- **Rhythm break:** defer one chapter rhythm break until later in manuscript
-- **Intro:** single climax ending (compressed)
+**Subject:** Civilization as adaptation to partial perspective — not a bias book.
 
-## Step E revisions (this pass)
+**Contribution:** Perspective is not an obstacle to civilization. Civilization is how partial perspectives become wiser together.
 
-| Unit | Change |
-|------|--------|
-| Introduction | Integration foreshadow; compressed ending |
-| Ch 5 | Historical anchors (double-entry, air traffic control) |
-| Ch 6 | Trim Part I/II seam — scene-first opening |
+**Step E deferred:** Author — no significant earlier-chapter rewrites; energy into epilogue (done).
 
 ## Unit progress
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction | revised | step E |
-| Part I (bridge + Ch 1–5) | approved | Ch 5 revised step E |
-| Part II bridge | draft | ~210w |
-| Ch 6–8 | approved | Ch 6 revised step E |
-| Integration bridge | approved | ~435w |
-| Part III+ | scaffold | new branch after merge |
+| Intro → Ch 13 | approved | read-through approved |
+| Epilogue | approved | ~1,200w; extended landing |
+| Glossary / bibliography | scaffold | after merge |
+
+## Part III arc
+
+| Ch | Status |
+|----|--------|
+| 9–13 | approved |
+| Epilogue | approved |
 
 ## Next actions
 
-1. **Agent:** Finish step E — Ch 1–2 voice light pass; optional Part II bridge approval
-2. **Author:** Review step E diffs → approve merge
-3. **Then:** Part III branch from `main`
+1. Squash + merge PR #220
+2. Optional: glossary / bibliography back matter
 
 ## Rough scale
 
-- **Total drafted:** ~13,350 words (post step E trim)
+- Prose through Ch 13: ~19,760 words
+- Epilogue: ~1,200 words
+- **Total drafted:** ~20,960 words
 
 ## Key docs
 
-[`thesis.md`](thesis.md) · [`integration-framework.md`](integration-framework.md) · [`drafting-process.md`](drafting-process.md)
+[`thesis.md`](thesis.md) · [`chapter-questions.md`](chapter-questions.md)
