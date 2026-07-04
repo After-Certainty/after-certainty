@@ -21,7 +21,7 @@ Part I + Part II on `main`. Part III Ch 9–13 drafted on branch; pending author
 
 | Ch | Question | Status |
 |----|----------|--------|
-| 9 | Why do others keep seeing things I miss? | draft ~1,420w |
+| 9 | Why do others keep seeing things I miss? | approved (~1,520w) |
 | 10 | How can incomplete perspectives produce better understanding? | draft ~1,030w |
 | 11 | When failure teaches the system | draft ~980w |
 | 12 | How do institutions preserve both wisdom and blind spots? | draft ~900w |
@@ -34,7 +34,8 @@ Part I + Part II on `main`. Part III Ch 9–13 drafted on branch; pending author
 | Unit | Phase | Notes |
 |------|-------|-------|
 | Intro → Limits bridge | approved | on `main` ~13,520w |
-| Ch 9–13 | draft | Part III prose complete pending review |
+| Ch 9 | approved | Ch 10–13 draft pending review |
+| Ch 10–13 | draft | |
 | Epilogue + back matter | scaffold | after Part III merge |
 
 ## Next actions
@@ -46,8 +47,8 @@ Part I + Part II on `main`. Part III Ch 9–13 drafted on branch; pending author
 ## Rough scale
 
 - On `main`: ~13,520 words
-- Part III draft (Ch 9–13): ~6,750 words
-- **Total drafted:** ~20,270 words (pending epilogue)
+- Part III draft (Ch 9–13): ~5,320 words
+- **Total drafted:** ~18,840 words (pending epilogue)
 
 ## Key docs
 

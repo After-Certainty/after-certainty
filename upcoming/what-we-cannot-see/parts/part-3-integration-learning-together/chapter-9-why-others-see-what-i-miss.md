@@ -8,7 +8,7 @@ Which leaves a question that sounds personal because it **is** personal: why do 
 
 Not as an accusation. As a pattern you have already lived—the colleague who catches the error in your spreadsheet, the friend who hears the tone you did not know you were using, the stranger who describes the same street as if it were a different city. Part I explained why partial sight is structural. Part II explained what responsible judgment owes. Part III asks what becomes possible when many partial sights are taken seriously together.
 
-The answer is not “be more collaborative.” Collaboration is people working in the same room. **Integration** is something harder and more interesting: many incomplete views becoming a **model** none of them could build alone.
+The answer is not “be more collaborative.” Collaboration is people working in the same room. **Integration** is something *harder* and more interesting: many incomplete views becoming a **model** none of them could build alone.
 
 ## Many partial views, one problem
 
