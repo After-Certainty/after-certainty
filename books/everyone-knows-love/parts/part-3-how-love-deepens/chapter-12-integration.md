@@ -50,7 +50,7 @@ That is the mystery integration names—not by solving it, but by staying inside
 
 You may know someone whose life has entered yours this way. A parent you began to plan around without deciding to. A friend whose bad week rearranged your week before you had language for why. A partner whose flourishing began to matter inside your own choices until the kitchen table felt like shared ground.
 
-If you do, you may already know the quiet recognition this chapter is pointing toward: *Oh—that's what happened.*
+*Oh—that's what happened.*
 
 ## Not fusion
 

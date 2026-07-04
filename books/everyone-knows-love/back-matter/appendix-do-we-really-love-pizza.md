@@ -1,4 +1,4 @@
-# Do We Really Love Pizza?
+# Appendix — Do We Really Love Pizza?
 
 At this point a reasonable objection appears. "All of this sounds thoughtful," someone says, "but I also love pizza." Fair enough.
 

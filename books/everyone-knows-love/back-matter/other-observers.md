@@ -1,10 +1,8 @@
-# Other Observers
+# Further Reading — Other Observers
 
 This book is an essay, not a dissertation. The chapters ask you to look alongside the author—not to evaluate footnotes. For that reason, there are no citations in the body of the text.
 
-But the conversation about love did not begin with this book, and it will not end here. If you would like to keep looking, you may enjoy continuing with observers who have been paying attention for a long time.
-
-These are some of the observers who helped me learn to see. The list is organized by question, not discipline—and it will grow as the manuscript grows.
+But the conversation about love did not begin with this book, and it will not end here. If you would like to keep looking, these observers may be useful companions—not part of the argument, but part of the longer conversation.
 
 ## Seeing the world differently
 
