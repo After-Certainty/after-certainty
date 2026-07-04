@@ -28,10 +28,24 @@ The goal was never to see everything. The goal was to become the kind of person�
 
 We have spent much of our lives asking who is biased.
 
-You can live as if the deeper question were how partial perspectives—yours included—might become wiser together.
+The book has been dismantling a quieter myth underneath that question: that knowledge comes from becoming independent. That if you could strip away distortion—yours and everyone else's—you would finally see clearly enough to act. The architecture says the opposite. Knowledge becomes better through dependence that is honestly designed—not through pretending you need no one, but through making room for what others can see before your map hardens into the world. Interdependence is not a compromise with weakness. It is an epistemic virtue: what becomes wiser is what learns to integrate without lying about its edges.
 
-That is not optimism pasted onto limitation. It is what the limit, held honestly, has always made possible.
+If you take one sentence away from these pages, let it be simpler than any chapter title: **every person you meet knows something you do not.** That is not a slogan for niceness. It is a description of how finite minds work—and an astonishing way to move through the world if you let it change what you ask before you decide.
 
-> Why can't we see everything?
+Every person you meet carries a map you do not have.
 
-Because we are finite. And finitude, if we stop treating it as shame, is where one another becomes indispensable—and where the work of becoming wiser together begins.
+Most of the time, neither of you realizes it. Sometimes those maps conflict. Sometimes they overlap. Sometimes one reveals the road the other never drew. Civilization has always depended on what happens next—not on anyone becoming omniscient, but on what people do when partial views touch.
+
+Tomorrow you will walk into another meeting. Another family dinner. Another voting booth. Another waiting room. Another design review. Another classroom. Another conversation.
+
+You still will not see everything. Neither will anyone else.
+
+But perhaps you will ask a different question than before. Not *Who is biased?* Not *How do I remove the distortion?* Perhaps you will ask what the other person is positioned to notice—and what you owe the people your somewhere cannot see—and what would have to change for a partial view to count before the decision hardens.
+
+That is not optimism pasted onto limitation. It is what the limit, held honestly, has always made possible. It is responsibility—not cynicism about institutions, not anxiety about tools, not skepticism about whether anything can be known, but the ordinary work of becoming wiser together in the rooms you already inhabit.
+
+> Is it actually possible to be unbiased?
+
+No. But that was never the right question.
+
+The work begins again tomorrow morning—in the next room you enter, with the person who knows something you do not.

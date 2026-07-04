@@ -2,18 +2,18 @@
 
 ## Current phase
 
-**Phase 3 — Part III + epilogue draft complete (pending part gate merge)**
+**Phase 3 — Part III + epilogue complete (pending merge)**
 
-Manuscript-so-far review **approved**. Epilogue drafted from read-through feedback.
+Manuscript-so-far review **approved**. Epilogue revised from author feedback (extended landing).
 
 ## Workflow stage (Part III branch)
 
 | Step | Action | Status |
 |------|--------|--------|
 | D | Manuscript-so-far review (Intro → Ch 13) | Done (approved) |
-| — | Epilogue draft | Done (pending author review) |
-| E | Whole-manuscript revision pass | Pending (if read-through notes) |
-| F–G | Squash, merge | Pending |
+| — | Epilogue revision | Done (approved) |
+| E | Whole-manuscript revision pass | Deferred (author) |
+| F–G | Squash, merge | Ready |
 
 **Branch:** `cursor/what-we-cannot-see-part3-draft-2512` · PR #220
 
@@ -30,7 +30,7 @@ Manuscript-so-far review **approved**. Epilogue drafted from read-through feedba
 | Unit | Phase | Notes |
 |------|-------|-------|
 | Intro → Ch 13 | approved | read-through approved |
-| Epilogue | draft | ~880w; hope + orientation |
+| Epilogue | approved | ~1,200w; extended landing |
 | Glossary / bibliography | scaffold | after merge |
 
 ## Part III arc
@@ -38,19 +38,18 @@ Manuscript-so-far review **approved**. Epilogue drafted from read-through feedba
 | Ch | Status |
 |----|--------|
 | 9–13 | approved |
-| Epilogue | draft |
+| Epilogue | approved |
 
 ## Next actions
 
-1. **Author:** Review epilogue
-2. **Agent:** Revise from feedback; optional light step E if snag list
-3. **Then:** Squash + merge PR #220
+1. Squash + merge PR #220
+2. Optional: glossary / bibliography back matter
 
 ## Rough scale
 
 - Prose through Ch 13: ~19,760 words
-- Epilogue draft: ~880 words
-- **Total drafted:** ~20,640 words
+- Epilogue: ~1,200 words
+- **Total drafted:** ~20,960 words
 
 ## Key docs
 

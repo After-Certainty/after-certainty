@@ -26,7 +26,7 @@ Part III is not integration alone—it is **designed epistemologies**: how we or
 
 **Book contribution (locked — manuscript-so-far review):** Perspective is not an obstacle to civilization. **Civilization is how partial perspectives become wiser together.** We become wiser together not by escaping our perspectives, but by learning how to integrate them honestly.
 
-**Epilogue job (locked):** Not summarize. Answer *why this matters* — orientation toward the world, what kind of people readers can become. Hope without sentimentality. Return to intro question; recognition, not new questions.
+**Epilogue job (locked):** Not summarize. Answer *why this matters* — orientation toward the world, what kind of people readers can become. Hope without sentimentality. Extended landing: interdependence as epistemic virtue, maps metaphor, concrete tomorrow-morning scenes. Full circle to intro question (*Is it actually possible to be unbiased?* → No; that was never the right question).
 
 ## Culminating question
 
