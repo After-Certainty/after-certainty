@@ -6,17 +6,15 @@ The point of the meeting was not blame. The hospital had tried blame. Blame taug
 
 That is a different kind of move than a mission control room or a peer-reviewed study. It is integration **after** harm almost arrived—or after harm did. The partial views are not hypothetical. They are the people who were there, now forced to lay their sketches beside one another while the memory is still sharp.
 
-Chapter 9 asked how many partial views become a model. Chapter 10 asked how societies **design** methods that integrate sight. This chapter asks something that only makes sense across **time**: how a system **learns**—not because individuals became wiser, but because failure and near-failure are turned into memory the institution can keep.
-
-Part I asked how a mind learns. Part III is beginning to ask how a **civilization** learns.
+The question at this scale is how a system **learns**—not because individuals became wiser, but because failure and near-failure are turned into memory the institution can keep.
 
 ## Failure as information
 
 Engineering learned a version of this lesson in public.
 
-After the space shuttle *Challenger* broke apart in 1986, investigators did not only ask who signed the launch. They asked how a room full of competent people could treat a partial warning—O-rings, cold, foam, data on a slide—as secondary to the schedule. After *Columbia* seventeen years later, the question was eerily similar: a strike seen, a risk normalized, a story that fit the plan until it did not. In both cases the failure was not only technical. It was **organizational**: partial sight distributed across roles, none of it integrated in time—and none of it converted into memory strong enough to change the next launch.
+After the space shuttle *Challenger* broke apart in 1986, investigators did not only ask who signed the launch. They asked how a room full of competent people could treat a partial warning—O-rings, cold, foam, data on a slide—as secondary to the schedule. After *Columbia* seventeen years later, the question was eerily similar: a strike seen, a risk normalized, a story that fit the plan until it did not. In both cases the failure was not only technical. It was **organizational**: partial sight distributed across roles, none of it integrated in time—and none of it converted into memory strong enough to change the next launch.[^c11-shuttle]
 
-Aviation had been building a different feedback loop for decades. The Aviation Safety Reporting System invites pilots and controllers to report near misses and errors **without** default punishment—because the industry learned that hidden near misses become public catastrophes. A captain who notices a confusing approach at dusk sees something the manual never pictured. A controller who hears a phraseology slip sees something the airline’s schedule did not count. A report from one cockpit is partial. Thousands of partial reports, integrated over years, become a map of what the system keeps almost doing wrong. The ASRS does not make pilots unbiased. It makes their partial sight **usable** to the system before the system kills someone—by turning near failure into institutional memory.
+Aviation had been building a different feedback loop for decades. The Aviation Safety Reporting System invites pilots and controllers to report near misses and errors **without** default punishment—because the industry learned that hidden near misses become public catastrophes.[^c11-asrs] A captain who notices a confusing approach at dusk sees something the manual never pictured. A controller who hears a phraseology slip sees something the airline’s schedule did not count. A report from one cockpit is partial. Thousands of partial reports, integrated over years, become a map of what the system keeps almost doing wrong. The ASRS does not make pilots unbiased. It makes their partial sight **usable** to the system before the system kills someone—by turning near failure into institutional memory.
 
 Medicine’s morbidity and mortality conferences, engineering’s postmortems, software’s incident reviews, the red-team exercise before a product ships—these are not confessionals. They are **designed epistemologies** for high-stakes domains: ways to turn failure and near-failure into information the institution can keep.
 
@@ -24,9 +22,9 @@ Medicine’s morbidity and mortality conferences, engineering’s postmortems, s
 
 Institutions cannot remember the way people remember.
 
-Chapter 2 traced **memory** in the individual mind—selective retention, compression, vivid cases crowding out slow patterns. Institutions remember differently. They remember through checklists, procedures, reporting systems, training, archives, stories, regulations, software, and habits. Every checklist is a **memory**. Every procedure is remembered experience made portable—pain converted into something a stranger on a future shift can inherit without knowing the story that earned it.
+Institutions remember differently. They remember through checklists, procedures, reporting systems, training, archives, stories, regulations, software, and habits. Every checklist is a **memory**. Every procedure is remembered experience made portable—pain converted into something a stranger on a future shift can inherit without knowing the story that earned it.
 
-Notice the climb the book has been making. Attention. Memory. Interpretation. Trust. Structure. Judgment. Integration. Now **institutional learning**—not a new topic dropped from nowhere, but collective cognition built on the same logic as individual cognition, at a different scale and on different material.
+**Institutional learning** is collective cognition built on the same logic as individual cognition—at a different scale and on different material.
 
 Individuals remember from somewhere. Institutions remember from somewhere too—and what they remember is always partial, always selective, always shaped by what the institution was built to notice and what it was built to ignore.
 
@@ -65,3 +63,7 @@ Which raises a harder question than any single disaster. Institutions **remember
 > How do institutions preserve both wisdom and blind spots?
 
 That is where the inquiry goes next.
+
+[^c11-shuttle]: Rogers Commission, *Report* (1986); Columbia Accident Investigation Board, *Report* (2003); Vaughan, *The Challenger Launch Decision*.
+
+[^c11-asrs]: FAA/NASA Aviation Safety Reporting System program documentation.

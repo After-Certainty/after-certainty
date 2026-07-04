@@ -16,7 +16,7 @@ That is one answer to a strange question. We ask why we cannot see everything as
 
 Walk through an ordinary hour and count what arrives. Notifications, conversations half-heard, movement at the edge of vision, a worry returning, a task remembered, the temperature of the room, the tone of an email, the thing you meant to look up and did not. Most of it passes without becoming thought. That is not negligence. It is how minds stay usable.[^c1-gorilla]
 
-The same structure appears in ordinary competence, not only in failure. An air-traffic controller learns a scan pattern—altitude here, separation there, weather beyond—not because the sky is simple, but because the sky is not simple and one person must act anyway. A driver merges while adjusting the radio and misses the cyclist until a horn corrects the picture. A reader finishes an article convinced she understood it, then finds, on second pass, the paragraph that reversed the entire argument. None of these people chose ignorance. Each was spending a limited currency on what seemed, at the time, most worth buying.
+The same structure appears in ordinary competence, not only in failure. An air-traffic controller learns a scan pattern—altitude here, separation there, weather beyond—not because the sky is simple, but because the sky is not simple and one person must act anyway. A parent at a family dinner hears the criticism aimed at a teenager and misses the compliment offered quietly ten minutes later. A neighbor hears the block differently after a custody dispute one house over. A driver merges while adjusting the radio and misses the cyclist until a horn corrects the picture. A reader finishes an article convinced she understood it, then finds, on second pass, the paragraph that reversed the entire argument. None of these people chose ignorance. Each was spending a limited currency on what seemed, at the time, most worth buying.
 
 We experience the world from somewhere. In any given moment, we can attend to only part of that view. Seeing itself has a shape. The shape is not random. It follows what is loud, near, repeated, threatening, familiar, or trained into habit. What sits outside that shape is not unreal. It is unattended.
 
@@ -64,4 +64,4 @@ We experience the world from somewhere. We also attend from somewhere—and not 
 
 That is where the inquiry goes next.
 
-[^c1-gorilla]: Simons and Chabris showed that people counting ball passes in a video often fail to notice a person in a gorilla suit crossing the frame ("Gorillas in Our Midst," *Perception* 28, no. 9 [1999]: 1059–74). The result is often treated as a joke about human stupidity; it is closer to a description of finite intake under load. verify source
+[^c1-gorilla]: Simons and Chabris, "Gorillas in Our Midst," 1059–74. People counting passes often fail to notice a conspicuous intruder—a description of finite intake under load, not moral failure.

@@ -28,7 +28,7 @@ These are not additions to judgment after the fact. They are part of what it mea
 
 ## Perspectives we do not naturally possess
 
-Part I showed how perspective is built—attention, memory, interpretation, trust, structure. Each layer solves a problem and leaves a remainder. Part II asks how to decide inside that remainder without pretending it away.
+Each layer solves a problem and leaves a remainder. The question now is how to decide inside that remainder without pretending it away.
 
 One discipline remains: learning from **perspectives you do not naturally possess**.
 
@@ -36,7 +36,7 @@ Not as diversity theater. Not as a box checked before the vote. Not as the fanta
 
 This obligation is not only moral. It is **epistemic**. People who bear the consequences of a decision often notice different parts of reality—not because suffering grants infallibility, but because consequences reveal features invisible from elsewhere. The tenant knew the alley at dawn because the alley was her morning. The board knew reserve projections because reserves were their language. Responsible judgment asks which parts of reality only become visible from where the costs land.
 
-The board member who walks the alley at dawn is not becoming the tenant. She is borrowing a partial view long enough to let it **count**—the way trust extends what one person can verify, but here the extension is moral rather than informational. She is practicing a form of judgment Part I prepared and Part II now names: you judge from somewhere, and responsible judgment asks what sits outside your somewhere that still belongs to the decision.
+The board member who walks the alley at dawn is not becoming the tenant. She is borrowing a partial view long enough to let it **count**—the way trust extends what one person can verify, but here the extension is moral rather than informational. She is practicing judgment that asks what sits outside her somewhere that still belongs to the decision.
 
 This is difficult for a reason that has nothing to do with virtue signaling. Foreign perspectives often arrive as **correction**, and correction threatens identity. They can require revising a story you already committed to—a budget already balanced, a policy already defended, a self-image already polished. Waiting is also a decision. So is refusing to hear.
 
@@ -64,7 +64,7 @@ No individual can inhabit every perspective that bears on a complex choice. No a
 
 The goal was never to become the person who could see everything. The goal was to become the kind of person who knows when others must help you see.
 
-Part II began when action could no longer wait for neutral sight. It ends where individual responsibility meets its **horizon**: you can judge well for a finite being, and still not see enough alone.
+Individual responsibility meets its **horizon** here: you can judge well for a finite being, and still not see enough alone.
 
 Which opens the next question—not whether you tried, but whether excellent judgment, even at its best, can ever be **complete**.
 

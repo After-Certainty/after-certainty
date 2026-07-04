@@ -66,7 +66,7 @@ That is one reason honest people collide. They are not always fighting over fact
 
 Compensation here is harder than checking a second witness or opening a file. Interpretation is not corrected by more data alone. The same data enters different frames.
 
-Still, cultures invent partial remedies: the colleague asked to argue the other side in a meeting; the editor who assigns a second reader; the tradition that treats strong conviction as a reason to pause rather than a reason to stop. None of these removes inheritance. They create friction—enough distance for a sentence to land twice, once as obvious and once as questionable. The book will return to designed friction in Part III. For now, notice the pattern: interpretation **assembles**, identity **stabilizes**, and together they **exclude** readings that would unsettle the home they share.
+Still, cultures invent partial remedies: the colleague asked to argue the other side in a meeting; the editor who assigns a second reader; the tradition that treats strong conviction as a reason to pause rather than a reason to stop. None of these removes inheritance. They create friction—enough distance for a sentence to land twice, once as obvious and once as questionable.
 
 We attend from somewhere. We remember from somewhere. We interpret from somewhere—and the somewhere is not only a location in a room. It is a history of what kinds of meanings we were taught to expect.
 

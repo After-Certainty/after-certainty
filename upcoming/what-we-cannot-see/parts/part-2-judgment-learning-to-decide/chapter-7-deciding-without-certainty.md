@@ -18,7 +18,7 @@ It helps to name the condition without moralizing it.
 
 **Uncertainty** is not primarily a failure of effort, intelligence, or character. It is often the honest state of a finite perspective facing a world that has not finished disclosing itself. Gauges lag. Witnesses conflict. Trials report averages that may not fit the body in front of you. Markets move before the report lands. The future has not happened yet.
 
-Part I described why partial sight is structural. Part II must not treat uncertainty as a problem responsible people eliminate if they try hard enough. That fantasy sends decision-makers back toward the costume of neutrality: as if more data, more meetings, or more confidence could always manufacture certainty if the chooser were serious enough.
+Responsible judgment must not treat uncertainty as a problem to eliminate if only the chooser tries hard enough. That fantasy sends decision-makers back toward the costume of neutrality: as if more data, more meetings, or more confidence could always manufacture certainty if the chooser were serious enough.
 
 Sometimes more information helps. Sometimes delay is wise. Sometimes the right move is to wait. But waiting is also a **decision**—and it is rarely a neutral one. The triage nurse who holds the bay open for one more minute is deciding. The oncologist who orders another scan before recommending treatment is deciding. The manager who postpones evacuation until the models converge is deciding, too—and someone downstream may pay for the postponement.
 
@@ -62,7 +62,7 @@ Compensation here is not a formula that removes doubt. It is **habit**: stating 
 
 Judgment under uncertainty is not guessing. It is committing while the unknown remains **visible**—to yourself, and often to the people who must live with what you chose.
 
-We judge from somewhere, under skies that do not clear on command. Part II began by asking what judgment is. This chapter asks how it moves when proof runs out. One question remains about the chooser—not only how to decide, but what is owed to those who bear the cost of the decision.
+We judge from somewhere, under skies that do not clear on command. This chapter asks how judgment moves when proof runs out. One question remains about the chooser—not only how to decide, but what is owed to those who bear the cost of the decision.
 
 > What responsibilities accompany judgment?
 

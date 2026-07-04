@@ -10,7 +10,7 @@ That is the move Part I has been building toward. Perspective was never only pri
 
 In the winter of 1854, deaths clustered on a London street that looked ordinary when walked block by block. Individual doctors saw individual fevers. Families saw grief at close range. The pattern became visible only when someone drew it—cases marked on a map until a water pump emerged as the shape of the dying. The pump had always been there. The map made it **seeable** at a scale no single visit could hold.
 
-The map did not create cholera. It did not capture every cause of every death. It selected—through geometry and ink—what a city could finally act on. That is what structures do at their best. They enlarge sight. They also **edit** it.
+The map did not create cholera. It did not capture every cause of every death. It selected—through geometry and ink—what a city could finally act on. That is what structures do at their best. They enlarge sight. They also **edit** it.[^c5-snow]
 
 ## Selection at scale
 
@@ -36,7 +36,7 @@ It helps to name the pattern without pretending the naming is neutral. A **map**
 
 **Technology** is structure’s accelerant—not a separate universe, but mediation at speed.
 
-History offers older versions of the same move. Double-entry bookkeeping, spreading through trade in the fifteenth century, did not make merchants honest. It made obligations **visible** across distance—debts and credits assigned to accounts so a firm could act on a ledger no single clerk could hold in memory. The ledger was a map. It solved coordination. It also decided what counted as real. Air traffic control later did something similar at a different scale: not one pilot’s scan, but a system assigning who watches which sector, which separation rules apply, which blip demands attention now. Each invention solved a problem finite minds could not solve alone. Each also baked in what would remain off the books.
+History offers older versions of the same move. Double-entry bookkeeping, spreading through trade in the fifteenth century, did not make merchants honest. It made obligations **visible** across distance—debts and credits assigned to accounts so a firm could act on a ledger no single clerk could hold in memory.[^c5-ledger] The ledger was a map. It solved coordination. It also decided what counted as real. Air traffic control later did something similar at a different scale: not one pilot’s scan, but a system assigning who watches which sector, which separation rules apply, which blip demands attention now. Each invention solved a problem finite minds could not solve alone. Each also baked in what would remain off the books.
 
 The feed that sorts what millions see next. The model that flags which patients get a callback. The sensor network that tells a farmer which field is dry. The chatbot that answers in confident paragraphs when the honest answer is *I do not know*. Each tool extends reach the way trust extends reach, but at a scale and velocity that outrun correction. The ranking function is an attention budget written in code. The training data is an archive with edges. The interface is an interpretation offered as convenience.
 
@@ -56,7 +56,7 @@ That is adaptation becoming invisible at scale—the same move as treating atten
 
 ## What redesign widens
 
-Compensation here is not individual willpower. It is **design**—the deliberate work of changing what gets counted, who gets heard, where appeal lives, how often the map is redrawn. Red teams. Audit trails. Public comment periods. Morbidity conferences. Safety reporting without automatic blame. Human review where models decide. The book will spend much of Part III here, because institutions can integrate partial perspectives in ways individual minds cannot—but only if they are built for revision, not for the appearance of certainty.
+Compensation here is not individual willpower. It is **design**—the deliberate work of changing what gets counted, who gets heard, where appeal lives, how often the map is redrawn. Red teams. Audit trails. Public comment periods. Morbidity conferences. Safety reporting without automatic blame. Human review where models decide. Institutions can integrate partial perspectives in ways individual minds cannot—but only if they are built for revision, not for the appearance of certainty.
 
 None of this removes structure. You still need maps. You still need tools. You do not pretend that because a number exists, the world has been fully captured.
 
@@ -77,3 +77,7 @@ Which raises the question the rest of the book must answer. If every perspective
 > What is judgment?
 
 That is where the inquiry goes next.
+
+[^c5-snow]: Snow, *On the Mode of Communication of Cholera*; Johnson, *The Ghost Map*.
+
+[^c5-ledger]: Gleeson-White, *Double Entry*.

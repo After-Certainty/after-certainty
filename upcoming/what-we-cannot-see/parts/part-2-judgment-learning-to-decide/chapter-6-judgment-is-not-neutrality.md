@@ -12,11 +12,11 @@ What she could offer was something more demanding than neutrality: a recommendat
 
 Judgment begins where omniscience ends.
 
-Finite minds cannot see everything. Part I named the layers—attention, memory, interpretation, trust, structure—that make any view partial. None of those layers disappear when stakes rise. If anything, they concentrate. Urgency narrows the budget. Fear sharpens interpretation. Trust in one expert closes out another. The dashboard says green while the body says otherwise.
+Finite minds cannot see everything. Attention, memory, interpretation, trust, structure—each layer makes any view partial. None of those layers disappear when stakes rise. If anything, they concentrate. Urgency narrows the budget. Fear sharpens interpretation. Trust in one expert closes out another. The dashboard says green while the body says otherwise.
 
 Yet the world does not pause for a complete picture. The lease date arrives. The tumor grows. The vote is called. The child cannot wait for a perfected model of their mind. **Judgment** is how finite beings act anyway—not by escaping perspective, but by using a partial one responsibly.
 
-This is a different problem than the ones Part I excavated. Those chapters asked what **shapes** sight. This chapter asks what it means to **decide** with shaped sight—and to remain answerable for the decision.
+This is a different problem than how sight is **shaped**. The earlier chapters asked what forms a perspective. This chapter asks what it means to **decide** with shaped sight—and to remain answerable for the decision.
 
 ## What judgment is not
 
@@ -26,9 +26,9 @@ It is not what remains after you have scrubbed preference, history, and training
 
 Neutrality, in this sense, is not an achievement. It is a **story** about how decisions should feel: as if no one stood anywhere in particular when the choice was made.
 
-The story is sometimes useful. Blind review, double-blind trials, recusal rules—these are not fantasies of unbiased people. They are **compensations** for partial sight, designed to keep one perspective from dominating unchecked. The book will return to them in Part III. For now, notice only that they do not create neutral minds. They redistribute who gets heard before the judgment lands.
+The story is sometimes useful. Blind review, double-blind trials, recusal rules—these are not fantasies of unbiased people. They are **compensations** for partial sight, designed to keep one perspective from dominating unchecked. Notice only that they do not create neutral minds. They redistribute who gets heard before the judgment lands.
 
-Judgment is also not relativism. Not all partial views are equally grounded, equally honest, or equally entitled to the same weight. Part I did not ask you to treat every archive as equally complete. Part II will not ask you to treat every decision as equally wise. Perspective is universal. Responsibility is not suspended by that fact.
+Judgment is also not relativism. Not all partial views are equally grounded, equally honest, or equally entitled to the same weight. Perspective is universal. Responsibility is not suspended by that fact.
 
 ## What judgment is
 

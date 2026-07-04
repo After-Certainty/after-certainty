@@ -31,7 +31,7 @@ Full manuscript on `main` (PR #220). This branch holds Ch 9 author-feedback revi
 |------|-------|-------|
 | Intro → Ch 13 | approved | read-through approved |
 | Epilogue | approved | ~1,200w; extended landing |
-| Glossary / bibliography | scaffold | after merge |
+| Glossary / bibliography | draft | citation + glossary pass |
 
 ## Part III arc
 

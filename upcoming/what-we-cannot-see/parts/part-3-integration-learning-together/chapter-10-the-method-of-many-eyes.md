@@ -10,7 +10,7 @@ Courts built adversarial procedure so one side’s story could not close the cas
 
 But methods are also **filters**. They do not only combine perspectives. They decide which perspectives **count**. Science shapes what constitutes evidence. Courts shape what constitutes admissible testimony. Markets shape what constitutes value. Those rules are not neutral overhead on knowing. They are part of what any method sees—and what it cannot see.
 
-Part I excavated how a single perspective is built. Part II asked how to judge responsibly inside one. Part III now asks how societies **design** knowing when no one person can hold the whole picture. Science is where that design is easiest to see—not because scientists are less biased than the rest of us, but because science turned partial sight into a **public method**.
+Science is where designed knowing is easiest to see—not because scientists are less biased than the rest of us, but because science turned partial sight into a **public method**.
 
 ## What many eyes solve
 
@@ -28,9 +28,9 @@ Each method solves a real problem. Without them, medicine would run on memorable
 
 Designed sight is still selective sight.
 
-A journal can publish what is novel and neglect what is boring-but-true. A career can reward positive results and leave null findings in drawers. A consensus can form too early because repetition is unfashionable or underfunded. The replication crises in several fields were not mainly stories of fraud. They were stories of **structure**: incentives that made one kind of partial view easy to publish and another kind impossible to see.
+A journal can publish what is novel and neglect what is boring-but-true. A career can reward positive results and leave null findings in drawers. A consensus can form too early because repetition is unfashionable or underfunded. The replication crises in several fields were not mainly stories of fraud. They were stories of **structure**: incentives that made one kind of partial view easy to publish and another kind impossible to see.[^c10-replication]
 
-Science becomes dangerous when the method is treated as **complete**—when “peer reviewed” is mistaken for “settled forever,” when a single study becomes a banner and dissent becomes ignorance. That is the same move Part I traced in individuals: adaptation mistaken for the whole terrain. The dashboard says green. The method said publishable. Neither removes finitude. Each **channels** it.
+Science becomes dangerous when the method is treated as **complete**—when “peer reviewed” is mistaken for “settled forever,” when a single study becomes a banner and dissent becomes ignorance. That is the same move individuals make: adaptation mistaken for the whole terrain. The dashboard says green. The method said publishable. Neither removes finitude. Each **channels** it.
 
 ## When certainty outruns evidence
 
@@ -53,3 +53,5 @@ Which opens the next pressure. Methods like these do not live in journals alone.
 > How do institutions preserve both wisdom and blind spots?
 
 That is where the inquiry goes next.
+
+[^c10-replication]: Open Science Collaboration, "Estimating the Reproducibility of Psychological Science"; Ioannidis, "Why Most Published Research Findings Are False."

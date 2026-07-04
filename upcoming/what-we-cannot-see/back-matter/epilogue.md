@@ -34,7 +34,7 @@ If you take one sentence away from these pages, let it be simpler than any chapt
 
 Every person you meet carries a map you do not have.
 
-Most of the time, neither of you realizes it. Sometimes those maps conflict. Sometimes they overlap. Sometimes one reveals the road the other never drew. Civilization has always depended on what happens next—not on anyone becoming omniscient, but on what people do when partial views touch.
+Most of the time, neither of you realizes it. Sometimes those maps conflict. Sometimes they overlap. Sometimes one reveals the road the other never drew. A friendship remembers a slight you forgot; a sibling remembers the same dinner as a different argument; a neighbor hears the block as safety or threat depending on which door they sleep behind. Civilization has always depended on what happens next—not on anyone becoming omniscient, but on what people do when partial views touch.
 
 Tomorrow you will walk into another meeting. Another family dinner. Another voting booth. Another waiting room. Another design review. Another classroom. Another conversation.
 

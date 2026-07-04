@@ -8,11 +8,13 @@ She caught it before the patient saw. She had learned to read the way confident 
 
 That is the new pressure. Not whether machines can be biased—they can, in every sense this book has given the word—but whether we will treat a **new kind of partial perspective** as if it were the view from nowhere, or as if it were merely noise.
 
-The book has climbed from individual perspectives to collective ones, from methods to institutions. AI introduces a **fourth participant** in that widening—not another person, not another bureaucracy, but a perspective assembled from millions of human partialities at once. It contributes scale, pattern recognition, and compression at speeds no team could match. It lacks lived experience, independent verification, and the kind of understanding that survives being wrong in a body. The question is not whether machines think like people. The question is what they notice that people routinely miss—and what people notice that machines cannot.
+AI introduces a **fourth participant** in the widening arc from individuals to methods to institutions—not another person, not another bureaucracy, but a perspective assembled from millions of human partialities at once. It contributes scale, pattern recognition, and compression at speeds no team could match. It lacks lived experience, independent verification, and the kind of understanding that survives being wrong in a body. The question is not whether machines think like people. The question is what they notice that people routinely miss—and what people notice that machines cannot.
 
 ## The same architecture, different substrate
 
-Part I traced how perspective is built: **attention** selects, **memory** stores and compresses, **interpretation** assembles, **trust** extends, **structure** assigns at scale. A large language model is not exempt from that stack. It inherits it in unfamiliar form.
+Perspective is built through **attention** that selects, **memory** that stores and compresses, **interpretation** that assembles, **trust** that extends, **structure** that assigns at scale. A large language model is not exempt from that stack. It inherits it in unfamiliar form.
+
+The mechanisms differ; the consequence—a selective, partial perspective—is similar enough to require the same discipline.
 
 Its **attention** is whatever the training data and prompt make salient—tokens weighted, context windows finite, whole regions of human experience thin or absent. A model asked to summarize a chart may attend to what is easy to phrase and miss what is easy to miss in prose: tone, hesitation, the thing the patient almost said. Its **memory** is an archive with edges: weights compressing patterns from text written by partial people, frozen at a cutoff, unable to verify what it never ingested. Unlike any individual, the model inherits the partial perspectives of **millions** of people at once—millions of archives, interpretations, and linguistic habits compressed into one statistical system. That breadth is extraordinary. It is not the same thing as completeness. Humans remember **experiences**. Models remember **correlations**. The analogy holds; the substrate differs.
 
@@ -48,9 +50,9 @@ Human verification where models decide. Audit trails when summaries enter record
 
 We integrate from somewhere. We also integrate **with** tools built from somewhere—datasets, incentives, architectures, the partial histories of the people who labeled the data. Responsible use treats the model as one sketch among sketches, not as the terrain.
 
-Part I asked how perspective is formed. Part II asked how to judge from inside one. Part III asked how many partial views become wiser together—and how institutions design that widening over time. AI does not change the architecture. It **concentrates** it: faster, larger, easier to mistake for the whole.
+AI does not change the architecture. It **concentrates** it: faster, larger, easier to mistake for the whole.
 
-The book’s closing question is not whether machines will save us or ruin us. It is whether we have learned, after all these chapters, what finite sight always required: humility before partiality, discipline in integration, and the refusal to treat any perspective—including our own, including the machine’s—as the place you stand when you see everything.
+The book’s closing question is not whether machines will save us or ruin us. It is whether we have learned what finite sight always required: humility before partiality, discipline in integration, and the refusal to treat any perspective—including our own, including the machine’s—as the place you stand when you see everything.
 
 > If no one can see everything, how can we become wiser together?
 

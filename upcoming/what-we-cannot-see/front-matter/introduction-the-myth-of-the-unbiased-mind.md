@@ -66,6 +66,8 @@ In public conversation, the word often means prejudice, bad faith, or a defect t
 
 There are distortions worth correcting. There are prejudices that harm people. This book does not pretend otherwise. But if partial sight is not only a moral failure—if it is also a condition of having a mind at all—then *bias* may be doing two jobs at once. It marks what someone's perspective got wrong. It also names one way perspectives take shape: through the selective work of finite minds.
 
+In laboratory language, psychologists sometimes speak of **heuristics**—shortcuts of judgment under uncertainty. This book keeps the word *bias* because public life already uses it for selective work in perspective, and because social prejudice remains one important form that selective work can take. Cognitive selectivity is broader than bad faith. Harmful prejudice is real—and it is one thing this architecture can produce, not the only thing the word must mean. The aim is not to excuse harm. It is to examine the structure underneath partial sight.
+
 A perspective is not a single faculty. It is what forms when memory, identity, language, expertise, embodiment, and culture meet in a particular life. Memory holds some things and releases others; identity decides what feels relevant; language offers some distinctions and hides others; expertise opens one domain and narrows another; a body stands here rather than there; culture trains the eye before the eye knows it has been trained. Attention moves through all of this—it is not the foundation, but the current that runs through it.
 
 The deeper condition is finitude itself. Finite minds do not see from nowhere. They see from finite perspectives—and those perspectives are always incomplete.

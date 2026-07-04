@@ -52,7 +52,7 @@ Memory becomes dangerous when we treat the archive as complete.
 
 Witnesses swear to versions they are not inventing. Leaders act on lessons they are certain history taught. Experts generalize from cases that were memorable enough to remain, not cases that were representative enough to matter. The officer did what institutions do with partial archives: compare them, look for physical evidence, accept that no single memory will be the whole.
 
-That is one form of compensation—external record, second witness, the thing that does not fade as quickly as recollection. The book will return to designed compensation later. For now, notice the pattern: memory **stores**, memory **compresses**, memory **distorts**. Each move makes a finite life livable. Each move leaves something out.
+That is one form of compensation—external record, second witness, the thing that does not fade as quickly as recollection. Notice the pattern: memory **stores**, memory **compresses**, memory **distorts**. Each move makes a finite life livable. Each move leaves something out.
 
 We attend from somewhere, in the moment. We remember from somewhere, afterward. The shapes do not have to match—and honest people will still disagree about what happened, what mattered, and what it means.
 
@@ -62,4 +62,4 @@ Which opens a different irritation. If selective attention and selective memory 
 
 That is where the inquiry goes next.
 
-[^c2-availability]: Tversky and Kahneman’s work on the availability heuristic describes judgment weighted by ease of recall rather than by frequency in the world. verify source
+[^c2-availability]: Tversky and Kahneman, "Availability," 207–32. Judgment weighted by ease of recall rather than frequency in the world.

@@ -60,7 +60,7 @@ That closure feels like safety. It is often how adaptation becomes invisible. Th
 
 Compensation here looks like the second inspector—not paranoia, but **designed distance**. Second opinions. Independent audit. Appeal to a body outside the first chain. Asking what a source gains by the story they tell. Checking whether disagreement exists **inside** the trusted profession, not only outside it.
 
-None of this removes trust. You still cross the bridge. You do not pretend the river is dry. The book will return to institutional forms of this widening in Part III—peer review, adversarial procedure, safety reporting, the deliberate friction that keeps a system from trusting its own first pass. For now, notice the pattern: trust **extends**, incentive **bends**, and together they **channel** what reaches you.
+None of this removes trust. You still cross the bridge. You do not pretend the river is dry. Peer review, adversarial procedure, and safety reporting are among the ways institutions widen sight beyond a single first pass. For now, notice the pattern: trust **extends**, incentive **bends**, and together they **channel** what reaches you.
 
 We attend from somewhere. We remember from somewhere. We interpret from somewhere. We trust from somewhere—and the somewhere includes who pays the bill, who keeps the commission, who needs the deal to close, who needs to be right in the group chat.
 
