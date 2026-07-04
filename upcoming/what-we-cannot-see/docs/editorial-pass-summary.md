@@ -6,7 +6,7 @@ Pass completed per author feedback (citation, glossary, signpost trim, bias clar
 
 ### Citations and bibliography
 
-- Filled [`back-matter/bibliography.md`](../back-matter/bibliography.md) with verified entries (Simons & Chabris, Tversky & Kahneman, Snow/Johnson, Apollo 13, *Challenger*/*Columbia*, ASRS, replication crisis, Semmelweis, Therac-25, double-entry, groupthink, RCT/double-blind, adversarial collaboration, climate ensembles, etc.).
+- Filled [`back-matter/bibliography.md`](../back-matter/bibliography.md) in **Chicago Notes–Bibliography** format (matching house books: *How Trust Forms*, *Trust Beyond Similarity*, etc.)
 - Added chapter footnotes where named claims appear (Ch 1, 2, 5, 9, 10, 11, 12).
 - Removed all “verify source” flags from manuscript footnotes.
 - Created [`citation-punch-list.md`](citation-punch-list.md) with full claim inventory and status.

@@ -1,18 +1,10 @@
-# Bibliography
+# **Bibliography**
 
-Works cited in the notes or informing the argument appear below in alphabetical order by author. Ordinary illustrative scenes are not cited unless they rest on a specific documented case.
-
-## Citation philosophy
-
-- **Cite** named studies, historical events, institutional programs, and specific methodological claims.
-- **Do not cite** illustrative hypotheticals, composite scenes, or ordinary competence examples unless they depend on a particular source.
-- Footnotes in the manuscript point to entries here; remove editorial “verify source” flags once an entry is listed.
-
----
+This book draws on cognitive psychology, history of science, medicine, engineering, institutional design, and epistemology. Works cited in the notes appear below in alphabetical order by author.
 
 - Columbia Accident Investigation Board. *Report of the Columbia Accident Investigation Board*. 2 vols. Washington, DC: Government Printing Office, 2003.
 
-- Federal Aviation Administration and NASA. *Aviation Safety Reporting System (ASRS)*. Program overview and reporting forms. Accessed 2026. https://asrs.arc.nasa.gov/
+- Federal Aviation Administration and NASA. "Aviation Safety Reporting System (ASRS)." Program website. Accessed July 4, 2026. https://asrs.arc.nasa.gov/.
 
 - Gleeson-White, Jane. *Double Entry: How the Merchants of Venice Created Modern Finance*. New York: W. W. Norton, 2012.
 
@@ -34,7 +26,7 @@ Works cited in the notes or informing the argument appear below in alphabetical 
 
 - Lovell, Jim, and Jeffrey Kluger. *Lost Moon: The Perilous Voyage of Apollo 13*. Boston: Houghton Mifflin, 1994.
 
-- Mellers, Barbara, et al. "Identifying and Cultivating Superforecasters as a Method of Improving Probabilistic Predictions." *Perspectives on Psychological Science* 10, no. 3 (2015): 267–281. (Adversarial collaboration and structured disagreement in forecasting.)
+- Mellers, Barbara, et al. "Identifying and Cultivating Superforecasters as a Method of Improving Probabilistic Predictions." *Perspectives on Psychological Science* 10, no. 3 (2015): 267–281.
 
 - Nuland, Sherwin B. *The Doctors' Plague: Germs, Childbed Fever, and the Strange Story of Ignác Semmelweis*. New York: W. W. Norton, 2003.
 
