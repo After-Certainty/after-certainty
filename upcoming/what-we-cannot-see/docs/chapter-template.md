@@ -93,6 +93,10 @@ Ask what problem the mechanism **solves**, not only what error it creates. Adapt
 
 **Ch 11:** Institutional learning across time · organizational memory (Ch 2 parallel) · failure → memory
 
+**Ch 12:** Civilizational cognition · institutions preserve methods across generations · inherit memory
+
+**Part III ladder:** individuals integrate → societies invent methods → organizations learn → institutions preserve/ossify
+
 **Recurring motifs (Part III):** *Humans did not wait for neutral minds.* · *Science at its best is a culture of designed friction.* · *Every checklist is a memory.*
 
 Ask what problem the method **solves**, what perspectives it **counts**, and what it **channels** away.
