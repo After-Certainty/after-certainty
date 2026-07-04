@@ -14,7 +14,7 @@ Part I + Part II merged on `main` (PR #215, PR #216). Part III drafting on branc
 | — | Ch 9 draft | **Next** |
 | A–G | Part completion gate (Ch 9–13 → merge) | Pending |
 
-**Branch:** `cursor/what-we-cannot-see-part3-draft-2512` · PR (pending)
+**Branch:** `cursor/what-we-cannot-see-part3-draft-2512` · PR #220
 
 ## Part III arc (locked)
 
