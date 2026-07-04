@@ -8,11 +8,15 @@ She caught it before the patient saw. She had learned to read the way confident 
 
 That is the new pressure. Not whether machines can be biased—they can, in every sense this book has given the word—but whether we will treat a **new kind of partial perspective** as if it were the view from nowhere, or as if it were merely noise.
 
+The book has climbed from individual perspectives to collective ones, from methods to institutions. AI introduces a **fourth participant** in that widening—not another person, not another bureaucracy, but a perspective assembled from millions of human partialities at once. It contributes scale, pattern recognition, and compression at speeds no team could match. It lacks lived experience, independent verification, and the kind of understanding that survives being wrong in a body. The question is not whether machines think like people. The question is what they notice that people routinely miss—and what people notice that machines cannot.
+
 ## The same architecture, different substrate
 
 Part I traced how perspective is built: **attention** selects, **memory** stores and compresses, **interpretation** assembles, **trust** extends, **structure** assigns at scale. A large language model is not exempt from that stack. It inherits it in unfamiliar form.
 
-Its **attention** is whatever the training data and prompt make salient—tokens weighted, context windows finite, whole regions of human experience thin or absent. A model asked to summarize a chart may attend to what is easy to phrase and miss what is easy to miss in prose: tone, hesitation, the thing the patient almost said. Its **memory** is an archive with edges: weights compressing patterns from text written by partial people, frozen at a cutoff, unable to verify what it never ingested. Its **interpretation** is pattern completion—coherence without guarantee, the first story winning because the story is the product. Its **trust** is delegated by users who treat fluent prose as sight. Its **structure** is deployment: who built it, what metric optimizes engagement, what dashboard says the model is “accurate enough” to ship.
+Its **attention** is whatever the training data and prompt make salient—tokens weighted, context windows finite, whole regions of human experience thin or absent. A model asked to summarize a chart may attend to what is easy to phrase and miss what is easy to miss in prose: tone, hesitation, the thing the patient almost said. Its **memory** is an archive with edges: weights compressing patterns from text written by partial people, frozen at a cutoff, unable to verify what it never ingested. Unlike any individual, the model inherits the partial perspectives of **millions** of people at once—millions of archives, interpretations, and linguistic habits compressed into one statistical system. That breadth is extraordinary. It is not the same thing as completeness. Humans remember **experiences**. Models remember **correlations**. The analogy holds; the substrate differs.
+
+Its **interpretation** is pattern completion—coherence without guarantee, the first story winning because the story is the product. Its **trust** is delegated by users who treat fluent prose as sight. Its **structure** is deployment: who built it, what metric optimizes engagement, what dashboard says the model is “accurate enough” to ship.
 
 None of this makes the model evil. None of it makes the model **neutral**. It makes the model another finite perspective—fast, scalable, useful in corridors where human attention cannot reach, dangerous when mistaken for completeness.
 
@@ -22,7 +26,7 @@ The debiasing handbook answer—“train it better and remove bias”—misses t
 
 Machine perspective solves real problems.
 
-It reads more than one person can read in the time available. It surfaces patterns in noise—scans, logs, fields, corpora—at speeds no team could match. It holds tedious structure so human attention can spend on the child in the waiting room, the dissenting engineer, the tenant describing the alley. Used with discipline, it **extends** what a clinic, a firm, a city can notice— the way trust extended verification in Part I, the way instruments extended Galileo’s sky.
+It reads more than one person can read in the time available. It surfaces patterns in noise—scans, logs, fields, corpora—at speeds no team could match. It holds tedious structure so human attention can spend on the child in the waiting room, the dissenting engineer, the tenant describing the alley. Used with discipline, it **extends** what a clinic, a firm, a city can notice—the way trust extended verification in Part I, the way instruments extended Galileo’s sky.
 
 That extension is adaptive. It is also lossy. What the model was not trained on, it cannot see. What it was optimized to predict, it will predict—even when prediction is not understanding. What it says confidently, humans may accept because confidence is easy to trust.
 
@@ -36,7 +40,9 @@ That is the same move the book has traced at every layer: adaptation mistaken fo
 
 ## What human judgment still owes
 
-Compensation is not luddism. It is **integration**—the same move as peer review, as morbidity conference, as appeal.
+Compensation is not luddism. It is **integration**—the same move as peer review, as morbidity conference, as appeal—not verification alone, but **co-creation** of a larger model.
+
+The model may notice statistical regularities in the chart. The clinician notices embodied experience in the exam room. The patient notices suffering the note compresses away. The family notices behavior at home no questionnaire captured. None of these partial views is sufficient. Together they can describe a case no single participant—not even the model with its millions of inherited voices—could hold whole. That is Chapter 9’s move at a new scale: many sketches, one terrain, none of them complete.
 
 Human verification where models decide. Audit trails when summaries enter records. Red teams for systems trained on yesterday’s world. Clear labeling when prose was generated, not witnessed. Roles that require someone to answer for the output—not the model, but the institution that deployed it. The question is never only *is the model biased?* It is *what partial view did we just add to the decision, and who is answerable for letting it count?*
 

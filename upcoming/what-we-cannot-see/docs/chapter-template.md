@@ -95,7 +95,9 @@ Ask what problem the mechanism **solves**, not only what error it creates. Adapt
 
 **Ch 12:** Civilizational cognition · institutions preserve methods across generations · inherit memory
 
-**Part III ladder:** individuals integrate → societies invent methods → organizations learn → institutions preserve/ossify
+**Ch 13:** Fourth epistemic participant · millions of partialities compressed · experiences vs correlations · human-AI integration
+
+**Part III ladder:** individuals integrate → societies invent methods → organizations learn → institutions preserve/ossify → machine perspectives
 
 **Recurring motifs (Part III):** *Humans did not wait for neutral minds.* · *Science at its best is a culture of designed friction.* · *Every checklist is a memory.*
 
