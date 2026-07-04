@@ -34,6 +34,18 @@ Given that individuals have finite perspectives, how should we organize ourselve
 
 Part III **opens** with integration (Ch 9) and **culminates** in process design (Ch 10–13).
 
+## Part I → Part III bridge (author feedback — planned prose)
+
+Part I ends without a catalogue of human compensations for finite perspective. **Part III must deliver it.** Early Part III (especially Ch 10 opening or a dedicated movement within it) should land something like:
+
+> Humans have spent centuries inventing ways to compensate for finite perspectives—not to eliminate them, but to **integrate** them.
+
+**Inventory to weave (not list exhaustively in one paragraph):** science (double-blind trials, randomization, replication, peer review, adversarial collaboration); courts and adversarial procedure; markets and prediction markets; journalism; red teams; open source; democratic checks and balances; engineering review and safety reporting.
+
+**Thesis move:** None of these remove perspective. They **redistribute** it—exact connective tissue from Part I’s “what problem did this solve?” to Part III’s designed epistemologies.
+
+See [`process-design.md`](process-design.md) for process examples by chapter.
+
 ## Concept map
 
 | Concept | Is | Is not |
@@ -60,6 +72,8 @@ Integration begins when we recognize others notice what our partial perspective 
 ### Ch 10 — The Method of Many Eyes (Science)
 
 **Level:** Institutional process design.
+
+**Author note:** Open with the Part I payoff—centuries of deliberate compensation for finite perspective—before science-as-designed-epistemology. Land: humans did not wait for unbiased minds; they built methods that integrate partial observers.
 
 Science as designed epistemology: replication, peer review, adversarial testing—not unbiased individuals.
 

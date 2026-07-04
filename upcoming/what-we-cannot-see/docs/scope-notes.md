@@ -34,7 +34,16 @@ Content removed from the Introduction draft (July 2026) to preserve momentum. Sp
 - Introduction **author-approved** for structure; sentence-level iteration only
 - Ch 1 must re-ground in concrete observation immediately (intro earns abstraction)
 
-## Conceptual architecture update (July 2026)
+## Ch 1 feedback (author, July 2026) — frozen as benchmark
+
+- Chapter delivers intro promise: attention is a budget
+- Nurse as competence not failure; gorilla demoted to footnote
+- Intro bridge sentence added at open
+- Simplified "from somewhere" density
+- Locked lines: attention budget, "same mechanism wears different names," "selection is how action becomes possible"
+- Part I = archaeology of perspective / ingredients, not bias catalogue
+- Four questions per family + works/hides/hijacked triad (see `bias-taxonomy.md`)
+- Do not keep rewriting Ch 1; use as rhythm benchmark for Ch 2+
 
 Four levels: individual cognition → individual judgment → collective integration → institutional process design.
 

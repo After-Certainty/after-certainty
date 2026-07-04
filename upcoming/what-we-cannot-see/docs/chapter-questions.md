@@ -32,19 +32,19 @@ Central questions, handoffs, and merge candidates for each unit. Planning docume
 
 **Opens with:** If bias is unavoidable, why is it only described as a defect?
 
-**Handoff:** When does noticing become blindness?
+**Handoff:** How do we decide whom to trust when we cannot verify everything ourselves?
 
 ### Ch 4 — Who and What We Trust
 
-**Opens with:** When does noticing become blindness?
+**Opens with:** How do we decide whom to trust when we cannot verify everything ourselves?
 
-**Handoff:** When does adaptation become danger?
+**Handoff:** When do our tools begin shaping what we are able to see?
 
 **Essay merge candidate:** Merge with Ch 5
 
 ### Ch 5 — Structures That See For Us
 
-**Opens with:** When does adaptation become danger?
+**Opens with:** When do our tools begin shaping what we are able to see?
 
 **Handoff to Part II:** What is judgment?
 

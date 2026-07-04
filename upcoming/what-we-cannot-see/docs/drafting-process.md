@@ -7,77 +7,115 @@ Workflow for building and revising **What We Cannot See** in a structured, revie
 ## Key references
 
 - [`book-rules.md`](book-rules.md) — house rules (wins on conflict)
-- [`status.md`](status.md) — unit progress and next actions
+- [`status.md`](status.md) — unit progress, workflow stage, and next actions
 - [`index.md`](../index.md) — reading order and file paths
 - Planning layer: [`vision.md`](vision.md) through [`glossary-research.md`](glossary-research.md)
 
-## Branch naming
+---
 
-Use branches scoped to this book and phase:
+## Part-branch workflow (authoritative)
 
-- `cursor/what-we-cannot-see-planning-2512` — planning scaffold (merged)
-- `cursor/what-we-cannot-see-voice-lock-2512` — Phase 1: Introduction + Part I Ch 1 voice lock (current)
-- `upcoming/what-we-cannot-see-structure`
-- `upcoming/what-we-cannot-see-draft`
-- `upcoming/what-we-cannot-see-editorial`
+Each **part** of the manuscript is drafted on its own branch, reviewed chapter by chapter, then closed with a **part completion gate** before merge to `main`. Repeat for Part II, Part III, and back matter as needed.
 
-Create each branch from latest `main` unless continuing work on an open branch. Update `docs/status.md` when switching branches.
+### Branch naming
 
-## Phases
+| Part | Branch (example) | Base |
+|------|------------------|------|
+| Part I | `cursor/what-we-cannot-see-part1-draft-2512` | `main` (merged) |
+| Part II | `cursor/what-we-cannot-see-part2-draft-2512` | latest `main` after Part I merge |
+| Part III | `cursor/what-we-cannot-see-part3-draft-2512` | latest `main` after Part II merge |
 
-### Phase 0 — Structure
+Create each new part branch from latest `main` after the prior part PR is merged. Update `docs/status.md` when switching branches.
 
-- Confirm `index.md` links match filenames and on-page titles.
-- Complete planning docs and architectural review.
-- Resolve scale decision (essay / practice / full) before Part I prose.
-- Resolve open decisions in `status.md`.
+### Within a part branch — chapter loop
 
-### Phase 1 — Outline to prose
+For each unit in reading order (chapters, then part bridge):
 
-For units marked `outline` in `docs/status.md`:
+1. **Draft** prose per [`book-rules.md`](book-rules.md) and [`chapter-template.md`](chapter-template.md)
+2. **Author review** — feedback on the unit
+3. **Revise** — surgical updates from feedback; lock planning docs if grammar/voice shifts
+4. **Approve** — mark unit `approved` in [`status.md`](status.md)
+5. **Commit and push** — keep PR current (granular commits OK during the loop)
 
-- Expand bullet scaffolds into continuous prose per `book-rules.md`.
-- One unit at a time unless the author approves a batch.
-- Lock voice in Introduction + Part I Ch 1 before batch expansion.
+Pause for author review before drafting the next unit unless explicitly told to continue.
 
-### Phase 2 — Unit passes (per chapter, bridge, or front/back matter section)
+**Unit pass checklist** (after each draft or revision):
 
-After drafting or revising one unit:
+1. Rules check — core invariant, four levels, tone guardrails
+2. Echo pass — phrasing, claims, examples vs prior units
+3. Editorial pass — clarity, rhythm, filler
+4. Linkage check — `index.md` and internal links resolve
+5. Status update — unit row and word counts in `status.md`
 
-1. **Rules check** — alignment with `book-rules.md` and core invariant
-2. **Echo pass** — flag repeated phrasing, claims, and examples against prior units and portfolio siblings
-3. **Editorial pass** — clarity, rhythm, stacked negation, filler, punctuation
-4. **Self-critique** — top 2–4 weaknesses and concrete fixes
-5. **Citation pass** (drafted prose only) — footnotes at structural pivots; verify sources
-6. **Glossary pass** (if glossary exists) — new terms, first-use bolding
-7. **Linkage check** — `index.md` and internal links still resolve
-8. **Status update** — update the unit row in `status.md`
+### Part completion gate (before merge)
 
-Pause for author review before moving to the next unit unless explicitly told to continue.
+When all prose units in the part are at least drafted, run this sequence **in order**:
 
-### Phase 3 — Part coherence gate
+| Step | Action | Who |
+|------|--------|-----|
+| **A** | Review **final chapter** of the part | Author |
+| **B** | Revise final chapter from feedback; mark **approved** | Agent |
+| **C** | Draft/revise **part bridge** if not yet prose (Part I only: after Ch 5) | Agent |
+| **D** | **Manuscript-so-far review** — read continuously from Introduction through end of current part (including bridge) | Author |
+| **E** | **Whole-manuscript revision** — echo, transitions, terminology, compression across all approved units | Agent |
+| **F** | **Squash commits** on the branch into clean history; update PR title/body | Agent |
+| **G** | **Merge** PR to `main` | Author |
 
-After all units in a part are drafted:
+Do **not** open the next part branch until step G is complete.
 
-- Bridge-to-chapter continuity
-- Chapter-to-chapter progression (no restatement without nuance)
-- Consistent terminology and confidence level
-- Example distribution across the part
-- Bias families: each gets adaptive and dangerous treatment (Part I)
+### After merge — next part
 
-### Phase 4 — Manuscript-wide editorial
+1. Checkout latest `main`
+2. Create new part branch (`cursor/what-we-cannot-see-part2-draft-2512`, etc.)
+3. Reset workflow stage in `status.md`
+4. Resume **chapter loop** for the new part
 
-After all units are at least `draft`:
+---
 
-- Structural cohesion across parts
-- Global echo and compression pass
+## Current workflow stage — Part I
+
+**Branch:** `cursor/what-we-cannot-see-part1-draft-2512`  
+**PR:** #215
+
+| Step | Status |
+|------|--------|
+| A — Review Ch 5 | Done |
+| B — Approve Ch 5 | Done |
+| C — Part I bridge | Done |
+| D — Manuscript-so-far review | Done |
+| E — Whole-manuscript revision | Done |
+| F — Squash commits + update PR | Done |
+| G — Merge to `main` | **Author** |
+
+**Manuscript-so-far scope for step D:** Introduction + Ch 1–5 + Part I bridge (once drafted).
+
+---
+
+## Longer-range phases
+
+### Phase 0 — Structure ✅
+
+Planning scaffold, `index.md`, architectural docs. Complete on `main`.
+
+### Phase 1 — Part prose (in progress)
+
+Part I on branch; Part II and III follow the part-branch workflow above.
+
+### Phase 2 — Part coherence gate
+
+Subsumed by **Part completion gate** steps C–E for each part.
+
+### Phase 3 — Manuscript-wide editorial
+
+After all three parts merged to `main`:
+
+- Cross-part cohesion and compression
 - Full copy edit
 - Citation integrity pass
 - Glossary and back matter completeness
 - Final linkage check
-- Bridge from Part II → Part III reads as necessary consequence, not pivot
 
-### Phase 5 — Promote to `books/`
+### Phase 4 — Promote to `books/`
 
 When the manuscript is ready for the publishing pipeline:
 
@@ -86,11 +124,31 @@ When the manuscript is ready for the publishing pipeline:
 - Update [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md)
 - Add entry to [`docs/series-guide.md`](../../../docs/series-guide.md) (Epistemic limits cluster)
 
+---
+
 ## Commit discipline
 
-- Prefer one commit per approved planning phase or editorial phase
+- **During a part branch:** granular commits per chapter or revision pass are fine
+- **At part completion gate (step F):** squash to a readable history before merge
+- Always update `status.md` when a unit is approved or workflow stage advances
 - Never commit manuscript changes without updating `status.md` when the phase changes
+
+## Squash guidance (step F)
+
+Squash related commits on the part branch into one or a few logical commits, for example:
+
+- Part I prose (Intro + chapters + bridge)
+- Planning doc updates tied to the part
+- CI/export or test changes if any
+
+Force-push the squashed branch, then update the PR description to reflect final manuscript state and reviewer checklist.
+
+## DOCX / CI
+
+PR branches with `build.formats.docx.enabled: true` in `upcoming.yml` export a `.docx` artifact on each push (`book-what-we-cannot-see`). Use for author review at part gates.
+
+---
 
 ## Current starting phase
 
-See [`status.md`](status.md) — **Phase 1 — Outline to prose (voice lock)**.
+See [`status.md`](status.md) — **Part I completion gate, step A (Ch 5 author review)**.

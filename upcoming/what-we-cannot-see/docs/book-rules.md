@@ -48,7 +48,7 @@ Always distinguish in planning and prose:
 ## Thematic arc by part
 
 - **Perspective** (ontology): We experience the world from somewhere—the book's spine
-- **Part I — Bias:** Individual cognition—we experience the world from somewhere; how finite perspectives take shape
+- **Part I — Bias:** Individual cognition—**construction of perspective**; *bias* is Part I’s reader-facing vocabulary, not the book’s central noun (see [`thesis.md`](thesis.md)); Ch 1–5 + bridge establish benchmark grammar
 - **Part II — Judgment:** Individual judgment—we judge from somewhere; responsible decisions despite incomplete information
 - **Bridge — The Limits of Individual Wisdom:** Why even excellent individual judgment remains incomplete; process design follows from cognitive limitation
 - **Part III — Integration / Designed Epistemologies:** We build institutions from somewhere; collective integration and process design for knowing more together than alone
@@ -83,6 +83,7 @@ See [`writing-style.md`](writing-style.md) and [upcoming/docs/_templates/book-ru
 
 - Curious, thoughtful, restrained
 - Observational discovery before naming
+- **Adaptation before blind spot**—what problem did this solve? before what does it hide?
 - Honest that adaptive ≠ exculpatory—judgment carries moral weight
 - Clear that individual bias is unavoidable **and** collective judgment can be improved through process design
 - One continuous inquiry across the manuscript
@@ -99,6 +100,10 @@ Each chapter follows the six-beat scaffold in [`chapter-template.md`](chapter-te
 6. Natural handoff to next question
 
 Central questions and handoffs: [`chapter-questions.md`](chapter-questions.md).
+
+**Part I benchmark:** Ch 1–4 establish the book’s grammar—Problem → Adaptation → Blind spot → Compensation; adaptive-before-dangerous; one construction layer and one metaphor per chapter; spine cadence (*we attend / remember / interpret / trust from somewhere*); curiosity chain handoffs. Match their movement; freeze approved chapters; extend the pattern forward. See [`chapter-template.md`](chapter-template.md).
+
+**Part I taxonomy:** [`bias-taxonomy.md`](bias-taxonomy.md) — four questions per family; archaeology of perspective framing.
 
 ### Reader-facing headings
 
@@ -150,6 +155,9 @@ Before marking a unit approved, ask:
 4. Are claims proportionate to evidence at this draft stage?
 5. Does adaptive presentation avoid exculpatory tone?
 6. Does this distinguish individual cognition from institutional process design?
+7. Does the chapter include at least one **surprise line**—a bold conclusion the reader can pause on? (Part I whole-book pass: Ch 2–3 landed; preserve in later parts.)
+
+**Deferred pass:** Revisit Ch 1–2 voice after Part II is drafted (author feedback: voice fully arrives by Ch 5).
 
 ## Key docs
 
