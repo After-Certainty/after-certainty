@@ -67,6 +67,8 @@ Readers should begin to anticipate the rhythm before they name it.
 - *The ranking function is an attention budget written in code.*
 - *Only now the completeness wears a logo.*
 
+**Part II (Ch 6+):** *Judgment is the responsible use of limited perspectives.* · *Judgment begins where omniscience ends.* · *Adaptive mechanisms do not excuse harm.*
+
 Ask what problem the mechanism **solves**, not only what error it creates. Adaptive before dangerous; never exculpatory.
 
 ### Chapter metaphor (one per layer, when earned)
