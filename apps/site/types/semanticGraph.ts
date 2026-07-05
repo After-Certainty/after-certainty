@@ -111,6 +111,11 @@ export interface Pattern extends SemanticEnrichment {
   slug: string;
   title: string;
   summary: string;
+  setup?: string;
+  problem?: string;
+  forces?: string[];
+  observation?: string;
+  example?: string;
   relatedConcepts?: string[];
   relatedBooks?: string[];
   youtubeVideoId?: string;

@@ -187,6 +187,91 @@ describe("json-ld builders", () => {
     expect(article?.about).toEqual(["https://example.com/explore/concepts/correction"]);
   });
 
+  it("builds Article JSON-LD with hasPart when narrative fields are present", async () => {
+    const { buildPatternPageJsonLd } = await loadJsonLd();
+    
+    const patternWithNarratives: Pattern = {
+      id: "pattern-gaps-invite",
+      slug: "gaps-invite-completion",
+      title: "Gaps Invite Completion",
+      summary: "People fill ambiguity with their own meaning.",
+      setup: "An exchange contains ambiguity or missing context.",
+      problem: "Open meaning is hard to sustain without active facilitation.",
+      forces: [
+        "Cognitive efficiency drives quick closure",
+        "Social norms favor certainty over inquiry",
+        "Institutional structures reward decisive action",
+      ],
+      observation: "Teams tend to rush toward consensus rather than explore divergent interpretations.",
+      example: "A manager sends a terse email; team members interpret urgency or disapproval based on past patterns.",
+      relatedConcepts: ["concept-certainty"],
+    };
+
+    const nodes = buildPatternPageJsonLd({
+      pattern: patternWithNarratives,
+      breadcrumbs: [
+        { label: "Explore", href: "/explore" },
+        { label: "Patterns", href: "/explore/patterns" },
+        { label: patternWithNarratives.title },
+      ],
+    });
+
+    const article = nodes.find((n) => n["@type"] === "Article");
+    expect(article?.headline).toBe("Gaps Invite Completion");
+    expect(article?.description).toBe("People fill ambiguity with their own meaning.");
+    expect(article?.hasPart).toHaveLength(5);
+    
+    const hasPart = article?.hasPart as Array<{ "@type": string; name: string; text: string }>;
+    
+    expect(hasPart[0]).toEqual({
+      "@type": "WebPageElement",
+      name: "Setup",
+      text: "An exchange contains ambiguity or missing context.",
+    });
+    
+    expect(hasPart[1]).toEqual({
+      "@type": "WebPageElement",
+      name: "Problem",
+      text: "Open meaning is hard to sustain without active facilitation.",
+    });
+    
+    expect(hasPart[2]).toEqual({
+      "@type": "WebPageElement",
+      name: "Forces",
+      text: "Cognitive efficiency drives quick closure, Social norms favor certainty over inquiry, Institutional structures reward decisive action",
+    });
+    
+    expect(hasPart[3]).toEqual({
+      "@type": "WebPageElement",
+      name: "Observation",
+      text: "Teams tend to rush toward consensus rather than explore divergent interpretations.",
+    });
+    
+    expect(hasPart[4]).toEqual({
+      "@type": "WebPageElement",
+      name: "Example",
+      text: "A manager sends a terse email; team members interpret urgency or disapproval based on past patterns.",
+    });
+  });
+
+  it("maintains backward compatibility for patterns without narrative fields", async () => {
+    const { buildPatternPageJsonLd } = await loadJsonLd();
+    
+    const nodes = buildPatternPageJsonLd({
+      pattern: samplePattern,
+      breadcrumbs: [
+        { label: "Explore", href: "/explore" },
+        { label: "Patterns", href: "/explore/patterns" },
+        { label: samplePattern.title },
+      ],
+    });
+
+    const article = nodes.find((n) => n["@type"] === "Article");
+    expect(article?.headline).toBe("Examples Accumulate");
+    expect(article?.description).toBe("What leaders model spreads faster than written rules.");
+    expect(article?.hasPart).toBeUndefined();
+  });
+
   it("maps source type book to Book schema", async () => {
     const { buildSourcePageJsonLd } = await loadJsonLd();
     const nodes = buildSourcePageJsonLd({

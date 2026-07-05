@@ -49,6 +49,67 @@ describe("validateSemanticGraph", () => {
     expect(attention?.infographic?.url).toContain("raw.githubusercontent.com");
   });
 
+  it("accepts pattern narrative fields for structured JSON-LD", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [],
+      patterns: [
+        {
+          id: "pattern-gaps",
+          slug: "gaps-invite-completion",
+          title: "Gaps Invite Completion",
+          summary: "People fill ambiguity with their own meaning.",
+          setup: "An exchange contains ambiguity or missing context.",
+          problem: "Open meaning is hard to sustain without active facilitation.",
+          forces: ["Cognitive efficiency drives quick closure", "Social norms favor certainty"],
+          observation: "Teams tend to rush toward consensus.",
+          example: "A manager sends a terse email; team members interpret urgency.",
+          relatedConcepts: [],
+          relatedBooks: [],
+        },
+      ],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      const pattern = result.data.patterns[0];
+      expect(pattern?.setup).toBe("An exchange contains ambiguity or missing context.");
+      expect(pattern?.problem).toBe("Open meaning is hard to sustain without active facilitation.");
+      expect(pattern?.forces).toEqual(["Cognitive efficiency drives quick closure", "Social norms favor certainty"]);
+      expect(pattern?.observation).toBe("Teams tend to rush toward consensus.");
+      expect(pattern?.example).toBe("A manager sends a terse email; team members interpret urgency.");
+    }
+  });
+
+  it("accepts patterns without narrative fields for backward compatibility", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [],
+      patterns: [
+        {
+          id: "pattern-simple",
+          slug: "simple-pattern",
+          title: "Simple Pattern",
+          summary: "A pattern without narrative fields.",
+          relatedConcepts: [],
+          relatedBooks: [],
+        },
+      ],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      const pattern = result.data.patterns[0];
+      expect(pattern?.setup).toBeUndefined();
+      expect(pattern?.problem).toBeUndefined();
+      expect(pattern?.forces).toBeUndefined();
+      expect(pattern?.observation).toBeUndefined();
+      expect(pattern?.example).toBeUndefined();
+    }
+  });
+
   it("accepts enrichment fields and ontology block", () => {
     const result = validateSemanticGraph({
       books: [],
