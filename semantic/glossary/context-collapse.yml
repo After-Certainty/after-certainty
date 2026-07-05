@@ -1,10 +1,24 @@
 slug: context-collapse
 title: Context Collapse
-shortDefinition: 'In this book, context collapse names a structural failure in assisted
-  systems: boundaries that should separate concerns dissolve into a shared surface
-  that looks coherent because output is syntactically valid or rhetorically fluent.
-  The failure is low cohesion at speed—modules, prompts, corpora, or tools entangled
-  until ownership and redesign authority become unclear.'
+shortDefinition: >-
+  Context collapse is the compression of distinct audiences, meanings, situations, or interpretive 
+  frames into one shared surface. It makes communication harder because signals meant for one context 
+  are judged inside another.
+longDefinition: >-
+  Context collapse names what happens when boundaries that should separate concerns, audiences, or 
+  interpretive frames dissolve into a single shared surface—when distinct contexts that require 
+  different handling are compressed together in ways that look coherent but hide important distinctions. 
+  It becomes important when coordination depends on maintaining separate concerns but structure or 
+  speed causes them to merge. In software and AI systems, context collapse appears as low cohesion at 
+  speed: modules, prompts, corpora, or tools become entangled until ownership and redesign authority 
+  become unclear, where output looks syntactically valid or rhetorically fluent even though meaning 
+  mixtures govern action undetected. In communication and social media, context collapse occurs when 
+  messages intended for one audience are received and evaluated by another, when professional and 
+  personal contexts merge on a single platform. Context collapse makes interpretation harder because 
+  the appropriate frame is unclear; it makes redesign harder because concerns have become so entangled 
+  that there is no clean cut point. The question context collapse raises is: where did separate 
+  concerns collapse into one apparently coherent surface? Which contexts that should stay separate 
+  are now entangled?
 termKind: extended
 relatedConcepts: []
 relatedPatterns: []

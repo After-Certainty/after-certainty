@@ -4,10 +4,25 @@ relatedBooks:
 - before-certainty-arrives
 slug: certainty
 title: Certainty
-shortDefinition: 'In this history, certainty is an adaptive response to instability—not truth
-  discovered once and for all, but coordination hardened under pressure: roles, law, and moral
-  systems that compress choice and make behavior predictable enough to survive another season
-  of uncertainty.'
+shortDefinition: >-
+  Certainty is an adaptive reduction of instability that makes action possible before everything 
+  is understood. It becomes dangerous when it stops revising, treats doubt as betrayal, or outlives 
+  the conditions that made it useful.
+longDefinition: >-
+  Certainty names the compression of choice and ambiguity into stable expectation—roles, law, and 
+  moral systems that make behavior predictable enough to coordinate under pressure. It is not truth 
+  discovered once and for all, but adaptation hardened under instability. Certainty becomes important 
+  when coordination breaks down faster than explanation can travel, when seasons will not wait for 
+  debate, when strangers must act together without shared context. It helps preserve collective action 
+  by reducing the decision space, making tomorrow recognizable from yesterday, enabling people to act 
+  together even when they do not agree on reasons. But certainty becomes dangerous when it outlives 
+  the conditions that first made it workable—when compression persists after instability has passed, 
+  when revision begins to feel like betrayal, when systems still run while the fit between structure 
+  and reality thins. The After Certainty project is not about eliminating certainty, but about 
+  recognizing it as adaptive response rather than discovered truth, about asking what problem it 
+  solved when it first formed, and about distinguishing useful compression from inherited rigidity. 
+  Certainty differs from conviction in that certainty is social and structural, while conviction is 
+  personal belief.
 termKind: core
 recognitionSignals:
 - the season will not wait while people debate what is true

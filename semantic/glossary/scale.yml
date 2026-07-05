@@ -1,8 +1,24 @@
 slug: scale
 title: Scale
-shortDefinition: Scale is coordination beyond direct relational encounter—growth in size,
-  complexity, or abstraction layers that increases distance between decisions and consequences
-  and therefore changes how cohesion, coupling, and feedback must be engineered to stay learnable.
+shortDefinition: >-
+  Scale is coordination beyond direct relational encounter—growth in size, complexity, or 
+  abstraction that changes how cohesion, coupling, and feedback must work to stay responsive. 
+  Scale preserves reach and capacity but can thin context, consequence, and answerability.
+longDefinition: >-
+  Scale names what happens when coordination extends beyond the range of direct relationship—when 
+  groups, institutions, systems, or problems grow large enough that no one person can see the whole 
+  picture, when distance opens between decisions and consequences, when strangers must act together 
+  without kinship or shared memory. Scale becomes important because it enables reach, continuity, 
+  repeatability, and collective capacity that small groups cannot achieve; it makes large projects, 
+  long-term infrastructure, and complex coordination possible. But scale can also thin what holds 
+  moral life together at human range: context becomes harder to preserve, consequence becomes harder 
+  to trace, feedback slows and weakens, answerability diffuses across roles and distance. At scale, 
+  systems often operate on aggregates rather than particulars, on categories rather than persons, 
+  on procedures rather than judgment. Responsibility can shift from relational accountability to 
+  role compliance, where doing the job correctly feels sufficient even when outcomes are troubling. 
+  The question scale raises is: what changes when no one sees the whole picture? Where is scale 
+  eroding the capacity to see people rather than just patterns? Scale differs from size in that 
+  scale is about the structural changes coordination requires, not just numerical growth.
 termKind: core
 relatedConcepts: []
 relatedPatterns: []
