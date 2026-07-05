@@ -1,0 +1,10 @@
+slug: finite-perspective
+title: Finite perspective
+shortDefinition: 'A view built from somewhere: always partial, never exhaustive, never
+  from nowhere.'
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- what-we-cannot-see
+

@@ -1,0 +1,18 @@
+slug: context-collapse
+title: Context Collapse
+shortDefinition: 'In this book, context collapse names a structural failure in assisted
+  systems: boundaries that should separate concerns dissolve into a shared surface
+  that looks coherent because output is syntactically valid or rhetorically fluent.
+  The failure is low cohesion at speed—modules, prompts, corpora, or tools entangled
+  until ownership and redesign authority become unclear.'
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling
+recognitionSignals:
+- modules, prompts, or tools entangle at speed while output looks fluent
+- ownership and redesign authority become unclear on a shared surface
+- syntactic coherence masks dissolved boundaries
+questions:
+- Where did separate concerns collapse into one apparently coherent surface?

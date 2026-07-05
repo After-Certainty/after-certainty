@@ -1,0 +1,8 @@
+slug: owasp-foundation-owasp-top-10-for-large-language-model-applications
+name: OWASP Foundation — OWASP Top 10 for Large Language Model Applications
+type: book
+summary: OWASP Foundation. *OWASP Top 10 for Large Language Model Applications*. https://owasp.org/www-project-top-10-for-large-language-model-applications/.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling

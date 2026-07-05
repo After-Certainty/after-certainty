@@ -1,0 +1,10 @@
+slug: machine-perspective
+title: Machine perspective
+shortDefinition: A partial view assembled from data, architecture, and deployment;
+  useful extension, not oracle or mere noise.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- what-we-cannot-see
+

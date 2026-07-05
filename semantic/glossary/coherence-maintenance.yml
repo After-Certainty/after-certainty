@@ -1,0 +1,19 @@
+slug: coherence-maintenance
+title: Coherence Maintenance
+shortDefinition: 'The ongoing work required to keep a system governable: enough agreement
+  about who decides, what happened, and what must change next for learning to remain
+  possible. Coherence maintenance becomes expensive as independently evolving boundaries
+  multiply. Systems sometimes pay for it through clear ownership and timely feedback;
+  they sometimes pay through coordination substitutes that preserve throughput while
+  thinning corrective capacity.'
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling
+recognitionSignals:
+- disagreement persists about who decides and what happened
+- independently evolving boundaries multiply governance cost
+- coordination substitutes preserve throughput while thinning correction
+questions:
+- Is the system paying for coherence through ownership or through substitutes?

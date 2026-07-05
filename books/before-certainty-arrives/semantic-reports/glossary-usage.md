@@ -2,12 +2,12 @@
 
 - **Book directory:** `books/before-certainty-arrives`
 - **Glossary scope:** `book`
-- **Terms scanned:** 24
-- **Manuscript files:** 20
+- **Terms scanned:** 30
+- **Manuscript files:** 21
 
 ## Terms with occurrences
 
-### certainty (Certainty) — 80 hit(s)
+### certainty (Certainty) — 82 hit(s)
 
 - `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:8` — declare certainty an illusion, a mistake, or a moral error. It does not
 - `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:13` — ### **Certainty, Seen Clearly**
@@ -20,6 +20,8 @@
 - `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:59` — Understanding how certainty arrived does not tell us how to live once
 - `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:60` — certainty no longer holds. Description does not become prescription
 - `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:68` — before certainty fails.
+- `books/before-certainty-arrives/front-matter/about-the-series.md:3` — The books in the After Certainty series explore a recurring problem: human beings create systems to coordinate meanin...
+- `books/before-certainty-arrives/front-matter/about-the-series.md:9` — For the full catalog, reading guides, and related work, visit [www.after-certainty.com](https://www.after-certainty.c...
 - `books/before-certainty-arrives/front-matter/authors-note.md:19` — The central question of this book is not whether certainty is right or
 - `books/before-certainty-arrives/front-matter/authors-note.md:21` — It is how certainty works.
 - `books/before-certainty-arrives/front-matter/authors-note.md:34` — we should believe now, or how we ought to live once certainty begins to
@@ -32,14 +34,14 @@
 - `books/before-certainty-arrives/front-matter/introduction-the-moment-before-things-feel-obvious.md:11` — Certainty, as this book uses the term, is what allows people to act
 - `books/before-certainty-arrives/front-matter/introduction-the-moment-before-things-feel-obvious.md:44` — widens. A monastery copying scripture through winter preserves certainty
 - `books/before-certainty-arrives/front-matter/introduction-the-moment-before-things-feel-obvious.md:64` — construction of certainty: clear roles, sacred authority, fixed law,
-- `books/before-certainty-arrives/front-matter/introduction-the-moment-before-things-feel-obvious.md:73` — arrive together under strain. It examines how certainty forms, why it
-- `books/before-certainty-arrives/front-matter/introduction-the-moment-before-things-feel-obvious.md:78` — Its focus is the moment **before** certainty feels excessive—when it
-- _…and 55 more_
+- _…and 57 more_
 
-### authority (Authority) — 73 hit(s)
+### authority (Authority) — 75 hit(s)
 
 - `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:9` — urge liberation from authority, tradition, or inherited frameworks.
 - `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:42` — authority long after they stop persuading, demanding allegiance long
+- `books/before-certainty-arrives/front-matter/about-the-series.md:3` — The books in the After Certainty series explore a recurring problem: human beings create systems to coordinate meanin...
+- `books/before-certainty-arrives/front-matter/about-the-series.md:5` — Over time, however, the same mechanisms that make coordination possible create new tensions. Interpretations settle b...
 - `books/before-certainty-arrives/front-matter/introduction-the-moment-before-things-feel-obvious.md:64` — construction of certainty: clear roles, sacred authority, fixed law,
 - `books/before-certainty-arrives/parts/part-1-constraint-before-choice/bridge.md:20` — before reasons, law before argument, sacred authority when personal
 - `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md:48` — taboo, and authority functioned as social technologies for reducing
@@ -61,14 +63,13 @@
 - `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-3-from-power-to-moral-legitimacy.md:48` — Sacred authority stabilized coordination by relocating legitimacy beyond
 - `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-3-from-power-to-moral-legitimacy.md:58` — Sacralization protects authority in several ways.
 - `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-3-from-power-to-moral-legitimacy.md:61` — challenge authority is no longer merely to dispute a decision—it is to
-- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-3-from-power-to-moral-legitimacy.md:64` — Second, it narrows interpretation. When authority becomes sacred,
-- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-3-from-power-to-moral-legitimacy.md:70` — Third, sacred framing steadies obedience emotionally. Authority no
-- _…and 48 more_
+- _…and 50 more_
 
-### coordination (Coordination) — 41 hit(s)
+### coordination (Coordination) — 42 hit(s)
 
 - `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:16` — as deception, but as a tool—for coordination, stabilization, and living
 - `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:20` — disagreement too costly, and coordination too fragile to leave
+- `books/before-certainty-arrives/front-matter/about-the-series.md:5` — Over time, however, the same mechanisms that make coordination possible create new tensions. Interpretations settle b...
 - `books/before-certainty-arrives/front-matter/authors-note.md:24` — different ways, to stabilize coordination under pressure. They shape
 - `books/before-certainty-arrives/front-matter/how-to-read-this-history.md:19` — epistemic tools that make coordination possible under those conditions.
 - `books/before-certainty-arrives/front-matter/how-to-read-this-history.md:33` — * What kind of coordination did it make possible?
@@ -91,12 +92,12 @@
 - `books/before-certainty-arrives/parts/part-2-compression-under-scale/bridge.md:25` — built to preserve coordination gradually began to outlive the conditions
 - `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-4-population-growth-and-social-density.md:23` — coordination when action and consequence no longer met in the same
 - `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-4-population-growth-and-social-density.md:40` — reasoning about complexity. It became dangerous because coordination
-- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-5-shared-conditions-not-shared-revelation.md:50` — insufficient. Moral coordination could no longer depend on proximity,
-- _…and 16 more_
+- _…and 17 more_
 
-### scale (Scale) — 29 hit(s)
+### scale (Scale) — 30 hit(s)
 
 - `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:17` — under conditions of constraint, scale, and uncertainty.
+- `books/before-certainty-arrives/front-matter/about-the-series.md:7` — The books in this series examine those tensions from different angles. Each book stands alone. Together they form a s...
 - `books/before-certainty-arrives/front-matter/introduction-the-moment-before-things-feel-obvious.md:42` — Collapse, scale, and fragmentation do not always produce the same
 - `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:9` — Early large-scale civilizations (Mesopotamia, Egypt, Indus Valley, early China)
 - `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:18` — scale.
@@ -120,12 +121,12 @@
 - `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:125` — It is one of the structural effects of durable tools operating at scale.
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/bridge.md:12` — Industrial scale replaced the temple wall with the factory bell, the
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/bridge.md:18` — institutional certainty at industrial scale, and finally the moment just
-- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-10-the-moment-before-failure.md:16` — administrative systems still coordinated life at scale even as something
-- _…and 4 more_
+- _…and 5 more_
 
-### meaning (Meaning) — 19 hit(s)
+### meaning (Meaning) — 20 hit(s)
 
 - `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:43` — after they stop holding meaning steady.
+- `books/before-certainty-arrives/front-matter/about-the-series.md:3` — The books in the After Certainty series explore a recurring problem: human beings create systems to coordinate meanin...
 - `books/before-certainty-arrives/front-matter/how-to-read-this-history.md:18` — meaning. In response, they develop moral, religious, legal, and
 - `books/before-certainty-arrives/front-matter/how-to-read-this-history.md:35` — * And when did it begin to outlive the conditions that gave it meaning?
 - `books/before-certainty-arrives/front-matter/introduction-the-moment-before-things-feel-obvious.md:72` — machinery, but to notice how often survival, meaning, and coordination
@@ -145,8 +146,31 @@
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-8-renaissance-exploration-and-fracture.md:76` — No single institution could fully govern meaning across the whole.
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md:138` — numbers still called, machinery still running while meaning quietly
 
-### legitimacy (Legitimacy) — 16 hit(s)
+### distance (Distance) — 18 hit(s)
 
+- `books/before-certainty-arrives/front-matter/authors-note.md:13` — moral failures from a distance, or measuring progress as a straight
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/bridge.md:21` — trust could no longer stretch across distance.
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md:64` — Explanation requires distance. It requires time, language, and cognitive
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:14` — feedback to sustain moral life. Large societies cannot. As distance
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:132` — while maintaining order across distance, time, and difference. Moral
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-3-from-power-to-moral-legitimacy.md:16` — personal trust. Distance widened between decision and consequence.
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/bridge.md:7` — Distance widened between decision and consequence. A governor in distant
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-4-population-growth-and-social-density.md:25` — the distance a sealed order had opened.
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-4-population-growth-and-social-density.md:37` — distance and difference.
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-4-population-growth-and-social-density.md:113` — was experienced—introducing abstraction, delay, and distance between
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-4-population-growth-and-social-density.md:137` — By then, the distance between what rulers decided and what subjects
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-5-shared-conditions-not-shared-revelation.md:64` — interacted across distance and difference, moral expectations needed to
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:27` — distance, these mechanisms weakened. Oral traditions fractured. Local
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:49` — the same way speech does. It persists across time and distance. It
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:116` — It also widened the distance between action and reflection.
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:146` — harden. Permanence has done its work, and quietly the distance between
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:149` — When the roads failed and collectors stopped coming, that distance
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:52` — expectation recognizable again in a world where long-distance
+
+### legitimacy (Legitimacy) — 18 hit(s)
+
+- `books/before-certainty-arrives/front-matter/about-the-series.md:5` — Over time, however, the same mechanisms that make coordination possible create new tensions. Interpretations settle b...
+- `books/before-certainty-arrives/front-matter/about-the-series.md:7` — The books in this series examine those tensions from different angles. Each book stands alone. Together they form a s...
 - `books/before-certainty-arrives/parts/part-1-constraint-before-choice/bridge.md:18` — Part I follows that movement from constraint to order to legitimacy.
 - `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:50` — In early large-scale societies, moral legitimacy flowed first from
 - `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-3-from-power-to-moral-legitimacy.md:3` — ## **From Power to Moral Legitimacy**
@@ -182,6 +206,21 @@
 - `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:61` — ### **Law and the Compression of Judgment**
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/bridge.md:17` — re-compression after breakdown, plural fracture under exposure,
 
+### judgment (Judgment) — 12 hit(s)
+
+- `books/before-certainty-arrives/back-matter/bibliography.md:3` — - Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn.
+- `books/before-certainty-arrives/front-matter/about-the-series.md:5` — Over time, however, the same mechanisms that make coordination possible create new tensions. Interpretations settle b...
+- `books/before-certainty-arrives/front-matter/about-the-series.md:7` — The books in this series examine those tensions from different angles. Each book stands alone. Together they form a s...
+- `books/before-certainty-arrives/front-matter/authors-note.md:14` — line. Moral judgment, where it appears at all, is deliberately
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:44` — persuasion, or personal judgment struggled to scale reliably. What
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:100` — deliberation. It externalized judgment so disputes could be resolved
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:121` — authoritarian. That judgment, while not wrong, is incomplete. At this
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-5-shared-conditions-not-shared-revelation.md:88` — judgment.
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:19` — What had once been judgment in a room became judgment fixed in matter,
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:61` — ### **Law and the Compression of Judgment**
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:77` — judgment gradually gave way to category and discernment to procedure.
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md:59` — discretion, procedures replacing judgment, roles replacing
+
 ### abstraction (Abstraction) — 11 hit(s)
 
 - `books/before-certainty-arrives/front-matter/how-to-read-this-history.md:17` — violence, scarcity, population growth, abstraction, and loss of shared
@@ -195,6 +234,20 @@
 - `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-5-shared-conditions-not-shared-revelation.md:26` — displacement, warfare, and expanding abstraction. They were not answers
 - `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-5-shared-conditions-not-shared-revelation.md:63` — Universalism was not abstraction for its own sake. As populations
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:86` — In a world without reliable institutions, loyalty replaced abstraction.
+
+### adaptation (Adaptation) — 11 hit(s)
+
+- `books/before-certainty-arrives/front-matter/authors-note.md:17` — adaptation look like error.
+- `books/before-certainty-arrives/front-matter/authors-note.md:31` — began as adaptation can eventually feel permanent.
+- `books/before-certainty-arrives/front-matter/how-to-read-this-history.md:14` — **adaptation**.
+- `books/before-certainty-arrives/front-matter/how-to-read-this-history.md:24` — sustain without them.[^howread-adaptation]
+- `books/before-certainty-arrives/front-matter/how-to-read-this-history.md:86` — [^howread-adaptation]: See Joseph Henrich, *The Secret of Our Success* (Princeton, NJ: Princeton University Press, 20...
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-3-from-power-to-moral-legitimacy.md:76` — This is not manipulation in the modern sense. It is adaptation. Large
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-5-shared-conditions-not-shared-revelation.md:5` — ### **The Axial Adaptation**
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:137` — constrain adaptation. The tool could remain effective at enforcing
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:3` — ## **Medieval Re-Adaptation**
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:31` — What emerged was not moral stagnation, but re-adaptation.
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:119` — ### **Re-Adaptation, Not Regression**
 
 ### interpretation (Interpretation) — 11 hit(s)
 
@@ -210,18 +263,18 @@
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:79` — interpretation. Ritual synchronized moral life. Obedience was framed not
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:136` — They did so by tightening certainty, narrowing interpretation, and
 
-### judgment (Judgment) — 10 hit(s)
+### uncertainty (Uncertainty) — 10 hit(s)
 
-- `books/before-certainty-arrives/back-matter/bibliography.md:3` — - Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn.
-- `books/before-certainty-arrives/front-matter/authors-note.md:14` — line. Moral judgment, where it appears at all, is deliberately
-- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:44` — persuasion, or personal judgment struggled to scale reliably. What
-- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:100` — deliberation. It externalized judgment so disputes could be resolved
-- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:121` — authoritarian. That judgment, while not wrong, is incomplete. At this
-- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-5-shared-conditions-not-shared-revelation.md:88` — judgment.
-- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:19` — What had once been judgment in a room became judgment fixed in matter,
-- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:61` — ### **Law and the Compression of Judgment**
-- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:77` — judgment gradually gave way to category and discernment to procedure.
-- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md:59` — discretion, procedures replacing judgment, roles replacing
+- `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:17` — under conditions of constraint, scale, and uncertainty.
+- `books/before-certainty-arrives/front-matter/about-the-series.md:3` — The books in the After Certainty series explore a recurring problem: human beings create systems to coordinate meanin...
+- `books/before-certainty-arrives/front-matter/about-the-series.md:7` — The books in this series examine those tensions from different angles. Each book stands alone. Together they form a s...
+- `books/before-certainty-arrives/front-matter/how-to-read-this-history.md:22` — that reduce uncertainty, compress choice, stabilize identity, and limit
+- `books/before-certainty-arrives/front-matter/introduction-the-moment-before-things-feel-obvious.md:65` — moral absolutes that stabilize conduct before uncertainty tears
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md:49` — uncertainty when material and existential risk was high.[^c1-early-moral-anthropology]
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:117` — Taken together, these tools compressed moral space, reduced uncertainty,
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-3-from-power-to-moral-legitimacy.md:18` — merely organize action—it reduced uncertainty. It answered questions
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:19` — moral experimentation or pluralism. It was uncertainty at scale. Roads
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-8-renaissance-exploration-and-fracture.md:45` — scales, and uncertainty about which funeral rites a household could
 
 ### consequence (Consequence) — 9 hit(s)
 
@@ -247,6 +300,18 @@
 - `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md:125` — only constraint.
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:26` — constraint. That framing mistakes outcome for intent.
 
+### responsibility (Responsibility) — 9 hit(s)
+
+- `books/before-certainty-arrives/back-matter/bibliography.md:3` — - Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn.
+- `books/before-certainty-arrives/front-matter/about-the-series.md:3` — The books in the After Certainty series explore a recurring problem: human beings create systems to coordinate meanin...
+- `books/before-certainty-arrives/front-matter/about-the-series.md:7` — The books in this series examine those tensions from different angles. Each book stands alone. Together they form a s...
+- `books/before-certainty-arrives/front-matter/introduction-the-moment-before-things-feel-obvious.md:85` — interpretation no longer resolves responsibility. That work belongs to
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-4-population-growth-and-social-density.md:112` — Scale altered not only how societies functioned, but how responsibility
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:118` — Responsibility became increasingly role-based. Compliance replaced
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:82` — Feudal hierarchy localized responsibility. Obligations were reciprocal,
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md:60` — relationships. Responsibility distributed itself across offices rather
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md:103` — Responsibility shifted increasingly from intent to role. The merchant
+
 ### system (System) — 9 hit(s)
 
 - `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:78` — system. They require only that the machinery still recognize a name long
@@ -259,26 +324,24 @@
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md:64` — trust than on confidence that the system itself will continue to
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md:141` — The system had not failed.
 
-### uncertainty (Uncertainty) — 8 hit(s)
+### bureaucracy (Bureaucracy) — 8 hit(s)
 
-- `books/before-certainty-arrives/back-matter/conclusion-recognition-without-instruction.md:17` — under conditions of constraint, scale, and uncertainty.
-- `books/before-certainty-arrives/front-matter/how-to-read-this-history.md:22` — that reduce uncertainty, compress choice, stabilize identity, and limit
-- `books/before-certainty-arrives/front-matter/introduction-the-moment-before-things-feel-obvious.md:65` — moral absolutes that stabilize conduct before uncertainty tears
-- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md:49` — uncertainty when material and existential risk was high.[^c1-early-moral-anthropology]
-- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:117` — Taken together, these tools compressed moral space, reduced uncertainty,
-- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-3-from-power-to-moral-legitimacy.md:18` — merely organize action—it reduced uncertainty. It answered questions
-- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:19` — moral experimentation or pluralism. It was uncertainty at scale. Roads
-- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-8-renaissance-exploration-and-fracture.md:45` — scales, and uncertainty about which funeral rites a household could
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:12` — *(Scripture, canon, law, bureaucracy across empires)*
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:101` — ### **Bureaucracy as Moral Infrastructure**
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:103` — Bureaucracy extends permanence into practice.
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:129` — Writing, law, canon, and bureaucracy solved a specific problem:
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:47` — Where Roman systems had relied on bureaucracy, law, and abstract
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:132` — * How to preserve legitimacy without bureaucracy
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md:40` — ### **Bureaucracy as Moral Infrastructure**
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md:58` — Bureaucracy functioned as a moral technology: rules replacing
 
-### responsibility (Responsibility) — 7 hit(s)
+### stability (Stability) — 5 hit(s)
 
-- `books/before-certainty-arrives/back-matter/bibliography.md:3` — - Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn.
-- `books/before-certainty-arrives/front-matter/introduction-the-moment-before-things-feel-obvious.md:85` — interpretation no longer resolves responsibility. That work belongs to
-- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-4-population-growth-and-social-density.md:112` — Scale altered not only how societies functioned, but how responsibility
-- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:118` — Responsibility became increasingly role-based. Compliance replaced
-- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:82` — Feudal hierarchy localized responsibility. Obligations were reciprocal,
-- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md:60` — relationships. Responsibility distributed itself across offices rather
-- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md:103` — Responsibility shifted increasingly from intent to role. The merchant
+- `books/before-certainty-arrives/front-matter/about-the-series.md:3` — The books in the After Certainty series explore a recurring problem: human beings create systems to coordinate meanin...
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md:46` — emphasized role stability, norm enforcement, and coordinated behavior
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md:77` — allowed meaning to accumulate later. Stability came first.
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:51` — stability, not argument.
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:133` — reflection that threatened stability was rarely encouraged. The fear was
 
 ### constraints (Constraints) — 4 hit(s)
 
@@ -287,12 +350,12 @@
 - `books/before-certainty-arrives/front-matter/how-to-read-this-history.md:31` — * What constraints was it responding to?
 - `books/before-certainty-arrives/front-matter/introduction-the-moment-before-things-feel-obvious.md:16` — because they made life workable under specific constraints. They reduce
 
-### stability (Stability) — 4 hit(s)
+### exposure (Exposure) — 4 hit(s)
 
-- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md:46` — emphasized role stability, norm enforcement, and coordinated behavior
-- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md:77` — allowed meaning to accumulate later. Stability came first.
-- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:51` — stability, not argument.
-- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md:133` — reflection that threatened stability was rarely encouraged. The fear was
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md:14` — today. They faced hunger, exposure, violence, and extinction. Survival
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/bridge.md:17` — re-compression after breakdown, plural fracture under exposure,
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-8-renaissance-exploration-and-fracture.md:26` — What changed was not collapse, but exposure.
+- `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-8-renaissance-exploration-and-fracture.md:34` — exposure widened.[^c8-printing-press]
 
 ### harm (Harm) — 3 hit(s)
 
@@ -300,10 +363,21 @@
 - `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:121` — trace the chain that produced the harm.
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-10-the-moment-before-failure.md:76` — Yet in hearing rooms far from the harm, investigators spread binders
 
+### proximity (Proximity) — 3 hit(s)
+
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/bridge.md:13` — As older tools of proximity and repetition weakened, societies did not
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-5-shared-conditions-not-shared-revelation.md:50` — insufficient. Moral coordination could no longer depend on proximity,
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:25` — Earlier forms of certainty relied on repetition, proximity, and shared
+
 ### accountability (Accountability) — 2 hit(s)
 
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md:87` — Authority remained visible. Accountability, while uneven, was often
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md:33` — accountability. Coordination increasingly depended on durable,
+
+### correction (Correction) — 2 hit(s)
+
+- `books/before-certainty-arrives/front-matter/about-the-series.md:5` — Over time, however, the same mechanisms that make coordination possible create new tensions. Interpretations settle b...
+- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-3-from-power-to-moral-legitimacy.md:145` — Sacred authority resists correction. It cannot easily revise itself
 
 ### feedback (Feedback) — 2 hit(s)
 
@@ -319,11 +393,11 @@
 
 - `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md:99` — group cohesion under conditions of threat. Early certainty was not a
 
-### correction (Correction) — 1 hit(s)
+### incentives (Incentives) — 1 hit(s)
 
-- `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-3-from-power-to-moral-legitimacy.md:145` — Sacred authority resists correction. It cannot easily revise itself
+- `books/before-certainty-arrives/front-matter/about-the-series.md:5` — Over time, however, the same mechanisms that make coordination possible create new tensions. Interpretations settle b...
 
 ## Terms with no occurrences
 
-- `incentives` (Incentives)
+- `drift` (Drift)
 

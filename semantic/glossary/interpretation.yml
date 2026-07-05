@@ -2,11 +2,13 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
+- what-we-cannot-see
+- when-interpretation-no-longer-matters
 slug: interpretation
 title: Interpretation
-shortDefinition: Interpretation is how meaning is reconstructed under pressure. Sacred authority
-  compresses interpretation; writing and law later externalize it so disputes can be settled
-  without shared presence.
+shortDefinition: Interpretation is how meaning is reconstructed under pressure. Sacred
+  authority compresses interpretation; writing and law later externalize it so disputes
+  can be settled without shared presence.
 termKind: core
 recognitionSignals:
 - what one did mattered before why one did it
@@ -42,3 +44,4 @@ manifestations:
   - copyists reproduce texts with painstaking uniformity
   family:
   - feast days and godparents mark allegiance before theology is argued
+

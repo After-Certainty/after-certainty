@@ -1,0 +1,20 @@
+slug: coordination-pressure
+title: Coordination Pressure
+shortDefinition: The structural strain that appears when many actors must stay aligned
+  under scale while holding partial information and changing on different timelines.
+  Coordination pressure is not the same as everyday busywork. It names the cost of
+  maintaining a workable shared picture of responsibility, facts, and next actions
+  when cohesion and coupling weaken. It often appears as approvals, queues, handoffs,
+  and reporting layers that synchronize activity without returning consequence to
+  a redesign-capable boundary.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling
+recognitionSignals:
+- approvals, queues, and handoffs multiply while ownership thins
+- actors hold partial information and change on different timelines
+- reporting layers synchronize activity without returning consequence to redesign
+questions:
+- Where is coordination substituting for clear ownership and timely feedback?

@@ -1,0 +1,10 @@
+slug: boundary
+title: Boundary
+shortDefinition: The point at which authority no longer depends on being understood
+  in order to persist.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- when-interpretation-no-longer-matters
+
