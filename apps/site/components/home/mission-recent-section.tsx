@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BookCoverThumbnail } from "@/components/books/book-cover-thumbnail";
 import { Container } from "@/components/ui/container";
 import { getBookDetailHref, getFeaturedCatalogBook, getPodcastEpisodes } from "@/lib/content-data";
 
@@ -43,22 +44,7 @@ export async function MissionRecentSection() {
 
             {book ? (
               <div className="mt-8 flex gap-5">
-                <div className="relative h-40 w-[6.75rem] shrink-0 overflow-hidden rounded-sm border border-border/50 bg-bg-elevated">
-                  {book.coverImage ? (
-                    <Image
-                      src={book.coverImage}
-                      alt=""
-                      fill
-                      className="object-cover"
-                      sizes="108px"
-                    />
-                  ) : (
-                    <div
-                      className="absolute inset-0 bg-gradient-to-br from-accent/18 via-bg-elevated to-bg"
-                      aria-hidden
-                    />
-                  )}
-                </div>
+                <BookCoverThumbnail src={book.coverImage} />
                 <div className="min-w-0 flex-1">
                   <p className="text-[10px] uppercase tracking-[0.28em] text-accent">Featured book</p>
                   <h3 className="mt-2 font-display text-xl font-medium tracking-tight text-fg md:text-2xl">

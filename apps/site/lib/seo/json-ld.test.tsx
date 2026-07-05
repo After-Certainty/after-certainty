@@ -250,6 +250,59 @@ describe("json-ld builders", () => {
     expect(types).toEqual(["WebSite", "Organization", "WebPage"]);
   });
 
+  it("builds start page nodes with WebPage, Front Shelf ItemList, and breadcrumbs", async () => {
+    const { buildStartPageJsonLd } = await loadJsonLd();
+    const nodes = buildStartPageJsonLd({
+      shelfItems: [
+        {
+          slug: "curiosity-before-certainty",
+          title: "Curiosity Before Certainty",
+          description: "A friendly entry point into the whole project.",
+          url: "https://example.com/explore/books/curiosity-before-certainty",
+        },
+        {
+          slug: "after-certainty",
+          title: "After Certainty",
+          description: "The capstone book.",
+          url: "https://example.com/explore/books/after-certainty",
+        },
+      ],
+    });
+
+    expect(nodes).toHaveLength(3);
+    expect(nodes.map((n) => n["@type"])).toEqual(["WebPage", "ItemList", "BreadcrumbList"]);
+
+    const itemList = nodes[1];
+    expect(itemList?.name).toBe("Front Shelf");
+    expect(itemList?.numberOfItems).toBe(2);
+    expect(itemList?.itemListElement).toEqual([
+      {
+        "@type": "ListItem",
+        position: 1,
+        item: {
+          "@type": "Book",
+          name: "Curiosity Before Certainty",
+          description: "A friendly entry point into the whole project.",
+          url: "https://example.com/explore/books/curiosity-before-certainty",
+        },
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        item: {
+          "@type": "Book",
+          name: "After Certainty",
+          description: "The capstone book.",
+          url: "https://example.com/explore/books/after-certainty",
+        },
+      },
+    ]);
+
+    expect(nodes[0]?.mainEntity).toEqual({
+      "@id": "https://example.com/start#front-shelf",
+    });
+  });
+
   it("builds podcast page nodes with series and episodes", async () => {
     const { buildPodcastSeriesJsonLd } = await loadJsonLd();
     const nodes = buildPodcastSeriesJsonLd({
