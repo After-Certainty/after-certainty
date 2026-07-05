@@ -1,0 +1,54 @@
+slug: optimization
+title: Optimization
+shortDefinition: Optimization—automation, reorg, tooling—can remove genuine waste.
+  It can also replace participation with workflow, reducing the human to a step. When
+  optimization is the only allowed improvement, contributors stop offering judgment
+  that does not fit the tool; the system gains throughput on what it measures and loses
+  informal checks no dashboard captures.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- why-collaboration-is-so-hard
+recognitionSignals:
+- Automation, reorg, or tooling framed as the only permitted form of improvement
+- Contributors stop offering judgment that does not fit the tool or workflow
+- System gains throughput on measured metrics while losing informal checks—"Can you look at this with me?"
+- Human coordination reduced to a step in a workflow the tool defines
+- Genuine waste removed alongside participation that kept outcomes safe
+questions:
+- Is optimization removing waste or replacing participation with workflow?
+- What informal checks disappear when only tool-shaped judgment counts?
+- Does throughput on dashboards correspond to collaborative safety on the ground?
+- Who still knows what the metric cannot hear?
+counterbalances:
+- Keep informal coordination loops alongside measured throughput
+- Allow improvement paths that do not fit the optimization tool
+- Treat optimization as one improvement mode among others, not the only one
+trajectory:
+  earlySignals:
+  - Team adopts throughput initiative; metrics improve on chosen measures
+  - Documentation satisfies reviewers but does not travel with the story others need
+  intensificationSignals:
+  - Staff describe "charting for the clock"—work formatted for reviewers not patients
+  - Contributors withhold judgment that does not fit dashboards or workflow steps
+  - Compressed dissent moves private while surfaces look calm
+  failureModes:
+  - Collaborative work that made outcomes safe compressed and never counted
+  - Group looks efficient on the board and brittle in the hallway
+  - System optimizes for calm surfaces while early warnings stay silent
+  restorationPaths:
+  - Restore loops that surface misunderstanding and uneven load before sprinting
+  - Measure contribution quality alongside coordination speed
+  - Protect judgment that does not fit the tool as legitimate improvement
+manifestations:
+  organizations:
+  - Emergency department throughput initiative shortening stays while coordination with social work vanishes
+  - Reorg optimizes reporting lines while informal translation between departments disappears
+  teams:
+  - Engineers stop raising structural concerns when every change must fit the tooling roadmap
+  - Meetings shorten; parking lots become graves as dissent compresses
+  leadership:
+  - Directors gain credit for decisive efficiency while frontline staff absorb harm when action is wrong
+  family:
+  - Household adopts scheduling app that measures chores while relational repair stays off the chart

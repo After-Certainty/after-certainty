@@ -11,3 +11,46 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
+recognitionSignals:
+- discharge is justified as patient met discharge criteria while the room felt a contested tradeoff
+- a clinician's one more day triggers cost and variance questions outside the room
+- length-of-stay targets and readmission penalties narrow the corridor between flow and prudence
+- staff quietly say we did what the system needed, not what I think this person needed
+- protocol becomes the safer public language while judgment stays practiced privately
+questions:
+- What can the institution defend in audit language versus what clinicians and families carry?
+- When metrics stop informing judgment and replace it, what moral remainder accumulates?
+- Does good discharge mean the healing aim was met or expected stay and reimbursement logic satisfied?
+counterbalances:
+- keep contested discharge tradeoffs arguable as judgment inside the room when clinically safe
+- track professional distress and moral injury as signals metrics cannot capture
+- separate coordination value of metrics from their takeover as the only defensible account
+trajectory:
+  earlySignals:
+  - clinical judgment sits beside constraints rather than being replaced by them
+  - capacity pressure and multiplied oversight make individualized judgment institutionally risky
+  - DRGs, readmission penalties, and length-of-stay targets solve coordination and comparability
+  intensificationSignals:
+  - patient met discharge criteria distributes responsibility across protocol, not person
+  - teams learn what can be said upward versus what must stay private
+  - moral residue accumulates in burnout, turnover, and quiet colleague confessions
+  failureModes:
+  - caring is privatized while care continues in audit-safe categories
+  - families experience unprepared transitions; staff remember near-miss returns
+  - the healing aim survives in mission statements but not operational speech
+  restorationPaths:
+  - name the double bind openly where clinically wise conflicts with systemic pressure
+  - metrics inform judgment without becoming the only moral language of what happened
+  - institutions absorb some moral cost without converting every tension to a compliance threshold
+manifestations:
+  leadership:
+  - executives defend patterns at scale through dashboards rather than bedside reasoning
+  - administrators track expected stay by diagnosis while clinicians argue timing and risk in the room
+  organizations:
+  - hospitals report vacancy and overtime but not the clinician's moral remainder sentence
+  - compliance teams inspect documentation while individualized judgment creates exposure
+  politics:
+  - payers audit utilization and regulators review outcomes, changing what counts as defensible speech
+  - readmission penalties produce a narrow corridor between discharge speed and bounce-back risk
+  family:
+  - a family hears a documented threshold while feeling erasure of shared uncertainty at discharge

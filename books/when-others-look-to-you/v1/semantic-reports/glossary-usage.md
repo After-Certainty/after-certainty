@@ -2,10 +2,39 @@
 
 - **Book directory:** `books/when-others-look-to-you/v1`
 - **Glossary scope:** `book`
-- **Terms scanned:** 8
+- **Terms scanned:** 13
 - **Manuscript files:** 30
 
 ## Terms with occurrences
+
+### correction (Correction) — 105 hit(s)
+
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:158` — structural effect is the same either way: paths for correction narrow at exactly the
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:159` — moment transfer makes correction most necessary.
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:177` — Named or unnamed, the structural effect on correction and accountability is similar.
+- `books/when-others-look-to-you/v1/back-matter/appendix-b-leadership-patterns.md:134` — _These keep decisions tied to what is real, to **correction**, and to who
+- `books/when-others-look-to-you/v1/back-matter/appendix-b-leadership-patterns.md:145` — Timely **correction** depends on whether bad news can reach those who decide.
+- `books/when-others-look-to-you/v1/back-matter/appendix-b-leadership-patterns.md:162` — Early **correction** remains possible. Failure stays smaller and cheaper.
+- `books/when-others-look-to-you/v1/back-matter/appendix-b-leadership-patterns.md:167` — **correction** can still reach the table in time.
+- `books/when-others-look-to-you/v1/back-matter/appendix-b-leadership-patterns.md:203` — **Correction** still matters. The group still has room to revise when facts
+- `books/when-others-look-to-you/v1/back-matter/appendix-b-leadership-patterns.md:240` — Costs do not quietly slide onto someone else. Trust that **correction** will
+- `books/when-others-look-to-you/v1/back-matter/appendix-b-leadership-patterns.md:277` — Paths for **correction** narrow. Errors stay hidden. Late failure grows more
+- `books/when-others-look-to-you/v1/back-matter/appendix-b-leadership-patterns.md:318` — Errors repeat, harm accumulates, and **correction** arrives late and
+- `books/when-others-look-to-you/v1/back-matter/epilogue.md:26` — Forever**), and stronger protection for dissent and **correction**.
+- `books/when-others-look-to-you/v1/back-matter/epilogue.md:40` — refusing false urgency when **correction** is still possible,
+- `books/when-others-look-to-you/v1/back-matter/epilogue.md:41` — separating visible success from whether **correction** still works, and
+- `books/when-others-look-to-you/v1/back-matter/epilogue.md:65` — Some arrives as people who keep **correction** alive when certainty
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:3` — These entries define words used in a precise, structural sense throughout this argument. Many of them also appear in ...
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:5` — **Circulation** — Whether influence can move through temporary or shared leadership (including **guest leadership**) ...
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:7` — **Correction** — Whether warnings, dissent, and what people on the ground see can reach decision-makers and change di...
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:15` — **Erosion** — The direction in which a group moves when **scalability** or **adaptability** shrinks—toward insulation...
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:23` — **Renewal** — The direction in which a group stays open to course correction and keeps coordinated action working as ...
+- `books/when-others-look-to-you/v1/front-matter/about-the-series.md:5` — Over time, however, the same mechanisms that make coordination possible create new tensions. Interpretations settle b...
+- `books/when-others-look-to-you/v1/front-matter/introduction-attention-finds-a-focus.md:32` — **correction** still works.
+- `books/when-others-look-to-you/v1/front-matter/introduction-attention-finds-a-focus.md:72` — influence is producing. **Circulation** and **correction** run through
+- `books/when-others-look-to-you/v1/parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md:37` — looks like. If you avoid **correction**, others learn that stability matters
+- `books/when-others-look-to-you/v1/parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md:106` — how **correction** is handled, how disagreement survives, how success is
+- _…and 80 more_
 
 ### harm (Harm) — 80 hit(s)
 
@@ -36,6 +65,64 @@
 - `books/when-others-look-to-you/v1/parts/part-3-harm-effectiveness-legitimacy/chapter-6-harm-under-influence.md:52` — misses harm.
 - _…and 55 more_
 
+### legitimacy (Legitimacy) — 77 hit(s)
+
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:1` — # **Appendix A — Legitimacy Transfer in Practice**
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:4` — **legitimacy**—to read how authority changes hands. It is not a ranking of leaders,
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:6` — legitimacy transfers, hardens, and can stay expanded after leadership changes hands.
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:8` — Legitimacy transfer is not only a political phenomenon; it is a structural one.
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:22` — At transfer, walk through four legitimacy forms.
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:24` — Example-based legitimacy asks whether the new authority holder's visible conduct
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:27` — Procedural legitimacy asks whether the rules and roles that govern transfer still
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:30` — Office-based legitimacy asks what the position itself now carries: what permissions
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:33` — Sacralized legitimacy asks whether the transfer itself has become exempt from
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:54` — The main form stayed **procedural legitimacy**, but emergency permissions granted by
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:63` — The emphasis stayed **procedural legitimacy** while practice meant tighter use of
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:71` — **Office-based legitimacy** dominated: inherited office permissions were used to
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:80` — **Procedural legitimacy** renewed in language and process, but procedural restoration
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:110` — Example-based legitimacy—trust built by watching a leader's judgment in ordinary
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:111` — times—gives way to office-based legitimacy as the story of the surge recedes and what
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:123` — The pattern here is not unique to healthcare. It is what office-based legitimacy looks
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:131` — example-based legitimacy. A founding pastor, a long-tenured rabbi, a senior elder who
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:141` — Example-based legitimacy has to be re-earned in visible conduct. Over time, it can
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:142` — quietly convert to office-based legitimacy—people following because of what the
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:149` — something beyond ordinary process—the legitimacy of questioning that transfer can become
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:164` — legitimacy. They inherit a culture shaped by that example without having witnessed it.
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:165` — Office-based and sacralized legitimacy do more of the work at the edges of the network
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:166` — because example-based legitimacy cannot travel that far. What reaches local communities is
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:173` — sector, and how explicitly legitimacy is named in each institution. Religious
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:186` — Legitimacy transfer is not wrong in itself. Continuity requires some transfer.
+- _…and 52 more_
+
+### circulation (Circulation) — 60 hit(s)
+
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:3` — These entries define words used in a precise, structural sense throughout this argument. Many of them also appear in ...
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:5` — **Circulation** — Whether influence can move through temporary or shared leadership (including **guest leadership**) ...
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:7` — **Correction** — Whether warnings, dissent, and what people on the ground see can reach decision-makers and change di...
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:17` — **Guest leadership** — A form of **circulation**: people closest to an issue can temporarily step in to lead a respon...
+- `books/when-others-look-to-you/v1/front-matter/introduction-attention-finds-a-focus.md:63` — Structure → Renewal or Erosion → Circulation.
+- `books/when-others-look-to-you/v1/front-matter/introduction-attention-finds-a-focus.md:68` — pattern by pattern, and ends with **circulation**: what it looks like when
+- `books/when-others-look-to-you/v1/front-matter/introduction-attention-finds-a-focus.md:72` — influence is producing. **Circulation** and **correction** run through
+- `books/when-others-look-to-you/v1/front-matter/preface.md:25` — - **Renewal, erosion, and circulation** — *From Formation to Movement*. Chapters 2 through 5: the two groups, then re...
+- `books/when-others-look-to-you/v1/parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md:124` — influence tilts toward **renewal** or **erosion**. Watch whether **circulation**
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md:7` — **circulation**. **Renewal** is whether a group can still change course under
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md:9` — quietly harden. **Circulation** is whether leadership can pass through more
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-3-renewal.md:151` — **Correction** names whether warnings can still change decisions. **Circulation**
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:1` — # **Chapter 5 — Circulation**
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:15` — That is what **circulation** can look like when people are trusted to act.
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:30` — In groups where **circulation** runs narrow, nobody announced a policy.
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:35` — ### **What Circulation Is — and What It Isn't**
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:37` — **Circulation** is not a calendar for who sits in which chair next. Delegation hands off a task; succession names an ...
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:41` — **Circulation** names whether the permission structure allows someone to lead temporarily, share the lead, and hand i...
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:46` — Where **circulation** is narrow, the org chart can look healthy while
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:63` — That is the difference between **correction** and **circulation**.
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:65` — change what the person with formal power decides. **Circulation** lets
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:82` — Same competence can read as threat or as gift, depending on whether **circulation** is open or captured. The differen...
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:84` — ### **Three Shapes: Correction and Circulation**
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:90` — - Shared **circulation** (guest leadership): influence moves both ways. People closest to the issue can temporarily s...
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:92` — Shared **circulation** keeps authority connected to what people closest to the work can see, without a permanent resh...
+- _…and 35 more_
+
 ### erosion (Erosion) — 45 hit(s)
 
 - `books/when-others-look-to-you/v1/back-matter/glossary.md:3` — These entries define words used in a precise, structural sense throughout this argument. Many of them also appear in ...
@@ -64,6 +151,64 @@
 - `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-4-erosion.md:22` — **Erosion** shows when one or both capacities shrink: influence stops changing
 - `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-4-erosion.md:30` — **Erosion** rarely announces itself. It builds from ordinary choices: who gets
 - _…and 20 more_
+
+### renewal (Renewal) — 36 hit(s)
+
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:3` — These entries define words used in a precise, structural sense throughout this argument. Many of them also appear in ...
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:9` — **Adaptability** — The capacity of coordinated action to change direction when reality pushes back. Together with **s...
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:15` — **Erosion** — The direction in which a group moves when **scalability** or **adaptability** shrinks—toward insulation...
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:23` — **Renewal** — The direction in which a group stays open to course correction and keeps coordinated action working as ...
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:25` — **Scalability** — The capacity of coordinated action to grow in reach. Together with **adaptability**, it sorts group...
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:27` — **Vitality** — The state of a group when influence can sustain coordinated action as reach grows—how open the group i...
+- `books/when-others-look-to-you/v1/front-matter/copyright.md:7` — *Renewal and Erosion in Leadership*
+- `books/when-others-look-to-you/v1/front-matter/introduction-attention-finds-a-focus.md:63` — Structure → Renewal or Erosion → Circulation.
+- `books/when-others-look-to-you/v1/front-matter/introduction-attention-finds-a-focus.md:67` — how **vitality** and **decay** feel—then takes **renewal** and **erosion** apart
+- `books/when-others-look-to-you/v1/front-matter/preface.md:25` — - **Renewal, erosion, and circulation** — *From Formation to Movement*. Chapters 2 through 5: the two groups, then re...
+- `books/when-others-look-to-you/v1/front-matter/title-page.md:7` — ## **Renewal and Erosion in Leadership**
+- `books/when-others-look-to-you/v1/parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md:124` — influence tilts toward **renewal** or **erosion**. Watch whether **circulation**
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md:6` — This part names that movement in three forms: **renewal**, **erosion**, and
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md:7` — **circulation**. **Renewal** is whether a group can still change course under
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md:15` — Then **renewal** and **erosion** each get a full hearing—pattern by pattern—once
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md:22` — The first direction is **renewal**.[^c2-adaptive-systems] **Renewal** names
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md:32` — sustain **renewal**. What matters is structure under pressure, not purity.
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md:86` — The **vibrant group** is the **renewal** side: **regenerative** and
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md:96` — ![Diagram: renewal, erosion, capacities, and states](export-assets/diagrams/renewal-erosion-map.png)
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-3-renewal.md:1` — # **Chapter 3 — Renewal**
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-3-renewal.md:143` — When that learning channel closes, **renewal** tilts toward **erosion**.
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-3-renewal.md:163` — Renewal means bad news can still change the plan before damage sets.
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:126` — When **circulation** holds alongside **renewal**, temporary leadership reads as legitimate work: the lead passes to w...
+- `books/when-others-look-to-you/v1/parts/part-3-harm-effectiveness-legitimacy/bridge-from-movement-to-lenses.md:3` — Start with movement. **Renewal**, **erosion**, and **circulation** describe how
+- `books/when-others-look-to-you/v1/parts/part-3-harm-effectiveness-legitimacy/chapter-7-effectiveness-and-its-illusions.md:45` — When **renewal** holds, groups pay smaller costs early so direction can still
+- _…and 11 more_
+
+### permission (Permission) — 28 hit(s)
+
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:47` — the next. Permission can move forward faster than limits do, unless people actively
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:96` — work under more centralized permission than before the emergency.
+- `books/when-others-look-to-you/v1/back-matter/appendix-a-legitimacy-transfer.md:98` — When the administrator who managed the surge moves on, the expanded permission
+- `books/when-others-look-to-you/v1/back-matter/glossary.md:5` — **Circulation** — Whether influence can move through temporary or shared leadership (including **guest leadership**) ...
+- `books/when-others-look-to-you/v1/front-matter/introduction-attention-finds-a-focus.md:90` — permission both feed what forms next.
+- `books/when-others-look-to-you/v1/parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md:19` — What people can see draws attention quickly. Keeping it is harder—it depends on whether behavior continues to earn th...
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:6` — The head chef is across town tasting a new supplier's samples when the expediter's phone lights up: the event coordin...
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:39` — What those mechanisms often miss, even when they run smoothly, is **permission**: whether anyone besides the usual ho...
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:41` — **Circulation** names whether the permission structure allows someone to lead temporarily, share the lead, and hand i...
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:44` — Guest leadership—stepping up for a stretch, then stepping back—depends on that permission.[^c5-guest-leadership] In c...
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:49` — ### **The Permission Question**
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:53` — By the time a moment arrives that calls for someone to step in, the permission question has usually already been answ...
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:55` — Permission can be open on paper and closed in practice. A formal deputizing structure, a clear chain of command, an e...
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:92` — Shared **circulation** keeps authority connected to what people closest to the work can see, without a permanent resh...
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:143` — If stepping in was treated as out of line, the next person to hold formal authority often defends the same boundary—s...
+- `books/when-others-look-to-you/v1/parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md:168` — Circulation copies permission before it ever copies a title.
+- `books/when-others-look-to-you/v1/parts/part-3-harm-effectiveness-legitimacy/bridge-from-movement-to-lenses.md:12` — **Legitimacy** is why people keep following—and what permission they keep extending
+- `books/when-others-look-to-you/v1/parts/part-3-harm-effectiveness-legitimacy/chapter-8-legitimacy-over-time.md:33` — permission. In another, because questioning the transfer starts to sound like
+- `books/when-others-look-to-you/v1/parts/part-3-harm-effectiveness-legitimacy/chapter-8-legitimacy-over-time.md:158` — **Permission**—what the room teaches after someone leads without being the usual
+- `books/when-others-look-to-you/v1/parts/part-3-harm-effectiveness-legitimacy/chapter-8-legitimacy-over-time.md:174` — useful work or damage control. Those are **permission** signals. They narrow or
+- `books/when-others-look-to-you/v1/parts/part-3-harm-effectiveness-legitimacy/chapter-8-legitimacy-over-time.md:178` — When **permission** reads cold, people still learn to wait for the usual gate,
+- `books/when-others-look-to-you/v1/parts/part-3-harm-effectiveness-legitimacy/chapter-8-legitimacy-over-time.md:187` — **Circulation** also helps groups grow when **permission** lets people nearest the
+- `books/when-others-look-to-you/v1/parts/part-4-scale-pressure-misjudgment/chapter-9-scale-and-drift.md:14` — but permission to adjust does not travel back down to where the facts stay fresh.
+- `books/when-others-look-to-you/v1/parts/part-4-scale-pressure-misjudgment/chapter-9-scale-and-drift.md:74` — permission can move forward faster than accountability catches up.
+- `books/when-others-look-to-you/v1/parts/part-4-scale-pressure-misjudgment/chapter-9-scale-and-drift.md:95` — travel up, but permission to adjust does not travel back down through the same
+- _…and 3 more_
 
 ### effectiveness (Effectiveness) — 25 hit(s)
 

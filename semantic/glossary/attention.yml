@@ -11,3 +11,46 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
+recognitionSignals:
+- editors monitor real-time analytics, adjusting headlines and follow-up by what rises
+- stories shaped for shareability travel farther than stories shaped for proportion and civic consequence
+- newsrooms say we cover what audiences want, converting editorial judgment into market feedback
+- journalists carry stories that deserved quieter treatment and stories that deserved more
+- dashboards determine staffing and survival alongside editorial standards
+questions:
+- When does audience behavior substitute for judgment about democratic consequence?
+- What distinguishes what people click from what the public needs for collective judgment?
+- Where has importance become self-referential—what matters is what spreads?
+counterbalances:
+- defend stories that will not perform with explicit civic rationale in budget meetings
+- separate discoverability failure from low public importance before killing coverage
+- bring proportion and context conflicts with traffic from private management into institutional speech
+trajectory:
+  earlySignals:
+  - editors made public claims about what matters now through placement and resources
+  - advertising revenue migrated to platforms and local newsrooms shrank
+  - analytics dashboards sit beside editorial ethics codes in daily workflow
+  intensificationSignals:
+  - what travels gets resources; what flatlines disappears regardless of civic weight
+  - emotionally charged content loops self-reinforce through spread justification
+  - format optimization rewards completion and reach over deepening understanding
+  failureModes:
+  - civic purpose is argued in private while public speech stays metric-driven
+  - readers stop trusting because news feels like a trap even when pieces are accurate
+  - importance equals a performance report on distribution success
+  restorationPaths:
+  - outlets fund investigative work with explicit non-traffic rationale
+  - trust repair by naming when a traffic spike rewarded undesired framing
+  - editorial judgment is defended as democratic consequence, not elitism
+manifestations:
+  leadership:
+  - editors justify choices with performance data under budget and survival scrutiny
+  - producers adjust follow-up coverage based on what rises in real-time dashboards
+  organizations:
+  - national outlets compete globally for a finite attention pool
+  - newsrooms compress complex policy into headline-ready conflict for distribution
+  politics:
+  - outlets accused of elitism or sensationalism depending on metric alignment
+  - platform-mediated distribution rewards velocity and emotional charge over context
+  family:
+  - a reader's habit and outrage shape click patterns mistaken for public interest

@@ -11,3 +11,46 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
+recognitionSignals:
+- hiring committees defend candidates with publication velocity and citation performance, not epistemic contribution
+- researchers shape projects toward fundability and cut exploratory avenues hard to publish quickly
+- negative results and replications are harder to sustain than novelty under publication pressure
+- an excellent record shifts contested judgment into auditable criteria
+- citation totals track attention and grant totals track capture—neither captures the study that never cleared the filter
+questions:
+- When productivity becomes dominant moral language, what inquiry never gets pursued?
+- Can committees trust foundational slow work they cannot independently verify across fields?
+- What is lost when visibility metrics replace slower truth-seeking standards?
+counterbalances:
+- evaluate contribution and durability beside throughput in promotion decisions
+- protect replication, negative results, and long-horizon projects in institutional speech
+- refuse to reduce researchers to journal impact where DORA-style adoption is possible
+trajectory:
+  earlySignals:
+  - peer review and publication remain legible as shared truth-seeking language
+  - university comparison by rankings and publication profile intensifies metric need
+  - publication volume, h-index, and grant competitiveness drive the shift
+  intensificationSignals:
+  - a productivity profile protects institutions in rankings while diverging from contribution
+  - preregistration and open data are absorbed as another metric to report
+  - researchers package results for visibility rather than durability
+  failureModes:
+  - truth-seeking becomes private craft inside public throughput systems
+  - safer methods and narrowed question sets dominate career incentives
+  - meaning becomes harder to defend at scale while knowledge keeps moving
+  restorationPaths:
+  - institutions explicitly separate productivity counts from contribution claims
+  - hiring and tenure language names what metrics cannot capture
+  - reforms are absorbed without letting badges replace inquiry quality
+manifestations:
+  leadership:
+  - administrators need numbers that travel in board reporting across disciplines
+  - department heads compare candidates by h-index and venue pattern in hiring meetings
+  organizations:
+  - departments are compared by grant intake and publication profile in annual review
+  - replication debates expose novelty bias without changing the incentive environment
+  politics:
+  - funding criteria privilege measurable outputs over curiosity-driven risk
+  - accreditation reviews reward comparable numbers committees can defend publicly
+  family:
+  - a graduate student postpones replication because it is career-inefficient

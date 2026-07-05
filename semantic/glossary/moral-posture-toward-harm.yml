@@ -10,3 +10,45 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - when-authority-outlives-accountability
+recognitionSignals:
+- Harm is acknowledged in policies and training while conditions that produce it stay structurally unchanged
+- Complaints are processed through channels but escalation is discouraged and responsibility diffused across departments
+- Those closest to harm notice it is administratively manageable but not treated as unacceptable
+- Leader slows pace, cuts upward first, and absorbs political damage while metrics soften and they are called ineffective
+- Moral evaluation begins with who absorbed cost in practice—not stated intent or principle
+questions:
+- Was harm treated as regrettable, inevitable, or useful?
+- Did the leader prevent harm at cost to authority, reputation, or efficiency?
+- Who absorbed the cost of this decision in practice?
+- Did harm remain localized or spread across people, time, or systems?
+counterbalances:
+- Reconstruct the moral landscape before outcomes were known
+- Trace harm trajectories rather than intent or character labels
+- Hold moral posture, effectiveness, and legitimacy as separate evaluative questions
+trajectory:
+  earlySignals:
+  - Organization responds to harm with procedures sufficient to demonstrate responsibility
+  - Harm is visible to insiders but framed as administratively manageable
+  intensificationSignals:
+  - Harm becomes normalized as acceptable loss for maintaining stability
+  - Harm is instrumentalized or displaced onto those with least leverage to refuse it
+  - Acknowledgment and compliance substitute for prevention
+  failureModes:
+  - Harm-blind distance from downstream consequences at scale
+  - Harm-instrumental use of fear, punishment, or sacrifice as mechanism
+  - Harm absorption that removes others' responsibility to act
+  restorationPaths:
+  - Redistribute harm upward where power and choice still exist
+  - Treat harm as something to prevent rather than operational risk to control
+  - Preserve agency while preventing harm without substituting for responsibility
+manifestations:
+  leadership:
+  - Fire chief enters danger with crew redistributing risk rather than pushing it downward
+  - Manager accepts personal loss to protect team from layoffs while described as overly cautious
+  organizations:
+  - Hospital administrator knowingly understaffs units while sincerely regretting burnout
+  - Large org revises policies and trains staff while harm continues predictably
+  family:
+  - Caregiving relationships where one person absorbs strain to keep the household stable
+  politics:
+  - Policymaker optimizes metrics while remaining insulated from downstream harm
