@@ -173,6 +173,11 @@
         "year": {
           "type": ["integer", "null"]
         },
+        "publicationDate": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "ISO 8601 date (YYYY-MM-DD) when the book was published"
+        },
         "concepts": {
           "type": "array",
           "items": {
