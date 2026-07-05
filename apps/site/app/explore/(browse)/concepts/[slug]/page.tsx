@@ -97,11 +97,9 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
         <h1 className="mt-4 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:text-5xl">
           {concept.title}
         </h1>
-        {concept.longDefinition ?? concept.definition ? (
-          <div className="mt-8 max-w-2xl space-y-4 text-base leading-[1.85] text-muted md:text-[17px]">
-            <p className="whitespace-pre-wrap">{concept.longDefinition ?? concept.definition}</p>
-          </div>
-        ) : null}
+        <div className="mt-8 max-w-2xl space-y-4 text-base leading-[1.85] text-muted md:text-[17px]">
+          <p className="whitespace-pre-wrap">{concept.longDefinition ?? concept.definition ?? concept.shortDefinition}</p>
+        </div>
         <ExploreEntityDetailActions observatory={{ kind: "concept", slug: concept.slug }} />
         <ExploreAdjacentNav
           basePath={explorePaths.concepts}
