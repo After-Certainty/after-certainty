@@ -80,6 +80,31 @@ describe("validateSemanticGraph", () => {
     }
   });
 
+  it("accepts glossary longDefinition for concept detail pages", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [
+        {
+          id: "concept-accountability",
+          slug: "accountability",
+          title: "Accountability",
+          shortDefinition: "Short accountability definition.",
+          longDefinition: "Long accountability definition with fuller context.",
+          definition: "Legacy definition field.",
+        },
+      ],
+      patterns: [],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.glossary[0]?.longDefinition).toBe(
+        "Long accountability definition with fuller context.",
+      );
+    }
+  });
+
   it("accepts glossary layer, semanticTone, and relationship weight", () => {
     const result = validateSemanticGraph({
       books: [],

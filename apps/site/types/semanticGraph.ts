@@ -94,6 +94,8 @@ export interface GlossaryConcept extends SemanticEnrichment {
   slug: string;
   title: string;
   shortDefinition: string;
+  /** Extended body copy for concept detail pages (from semantic manifest). */
+  longDefinition?: string;
   definition?: string;
   /** Ontological layer label when the manifest publishes it (e.g. Structural Primitives). */
   layer?: string;

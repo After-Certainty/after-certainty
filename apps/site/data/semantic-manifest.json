@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-07-05T02:38:17.990311+00:00",
+  "generatedAt": "2026-07-05T20:02:35.250119+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
@@ -2057,15 +2057,21 @@
     {
       "slug": "accountability",
       "title": "Accountability",
-      "shortDefinition": "Accountability is exposure to consequence: who can see effects, who can be challenged or redirected, and whether authority stays close enough to lived outcomes for correction to remain plausible.",
+      "shortDefinition": "Accountability is exposure to consequence\u2014who can see effects, be challenged, or redirected. It differs from responsibility, which names the durable obligation to account; and from answerability, which names obligation to those affected by partial-perspective decisions.",
       "termKind": "supporting",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-responsibility",
+        "concept-answerability",
+        "concept-authority",
+        "concept-coupling"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-after-certainty",
         "book-before-certainty-arrives",
         "book-coupling"
       ],
+      "longDefinition": "Accountability names whether consequence still reaches the people who can respond. It becomes important when scale, narrative, or abstraction thins contact between action and effect. It helps preserve correction and proportionate answerability, but can fail when moral sorting replaces sustained contact with outcomes. It differs from responsibility because accountability emphasizes exposure to consequence; responsibility includes the ongoing obligation to account even when control is partial.",
       "recognitionSignals": [
         "heroes and villains replace accountability with narrative loyalty",
         "abstraction is not allowed to replace answerability in the text",
@@ -2103,6 +2109,7 @@
       },
       "id": "concept-accountability",
       "isCoreTerm": false,
+      "definition": "Accountability names whether consequence still reaches the people who can respond. It becomes important when scale, narrative, or abstraction thins contact between action and effect. It helps preserve correction and proportionate answerability, but can fail when moral sorting replaces sustained contact with outcomes. It differs from responsibility because accountability emphasizes exposure to consequence; responsibility includes the ongoing obligation to account even when control is partial.",
       "mentionsByBook": {
         "book-after-certainty": 15,
         "book-before-certainty-arrives": 32,
@@ -2191,13 +2198,18 @@
     {
       "slug": "adaptation",
       "title": "Adaptation",
-      "shortDefinition": "In this history, adaptation names how moral, religious, and legal systems emerge as workable responses to pressure\u2014not as final truth discovered once and for all. What begins as adaptation can outlive the conditions that first made it necessary.",
+      "shortDefinition": "Adaptation names how moral, religious, and legal systems emerge as workable responses to pressure\u2014not final truth discovered once. It differs from inheritance, which names stabilized certainty persisting after originating conditions fade.",
       "termKind": "supporting",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-inheritance",
+        "concept-drift",
+        "concept-constraint"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-before-certainty-arrives"
       ],
+      "longDefinition": "Adaptation marks moral life responding to conditions that will not wait\u2014scarcity, violence, scale, displacement. In Before Certainty Arrives, what begins as adaptation can outlive the pressures that first made it necessary. It helps preserve workable coordination under constraint, but can fail when adaptive tools are mistaken for permanent moral truth. It differs from inheritance because adaptation names responsive change; inheritance names what gets carried forward after conditions shift. It differs from drift because adaptation is active response; drift is gradual decoupling while machinery still runs.",
       "recognitionSignals": [
         "moral systems appear as responses to pressure rather than final discoveries",
         "re-adaptation follows collapse without open-ended experiment",
@@ -2246,6 +2258,7 @@
       },
       "id": "concept-adaptation",
       "isCoreTerm": false,
+      "definition": "Adaptation marks moral life responding to conditions that will not wait\u2014scarcity, violence, scale, displacement. In Before Certainty Arrives, what begins as adaptation can outlive the pressures that first made it necessary. It helps preserve workable coordination under constraint, but can fail when adaptive tools are mistaken for permanent moral truth. It differs from inheritance because adaptation names responsive change; inheritance names what gets carried forward after conditions shift. It differs from drift because adaptation is active response; drift is gradual decoupling while machinery still runs.",
       "mentionsByBook": {
         "book-after-certainty": 4,
         "book-before-certainty-arrives": 14,
@@ -2274,12 +2287,17 @@
       "title": "Agency",
       "shortDefinition": "Agency is the practical capacity to initiate action that can affect outcomes. Formal role without real leverage is low agency, even when nominal responsibility remains.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-judgment",
+        "concept-accountability",
+        "concept-responsibility"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-after-certainty",
         "book-coupling"
       ],
+      "longDefinition": "Agency names whether a person or institution can actually move the scene, not only be named on the org chart. It becomes important when speech, responsibility, or moral weight outrun real leverage. It helps preserve honest coordination by distinguishing who can act from who must only absorb consequence, but can fail when low agency is mistaken for bad faith or when structural limits are narrated as personal failure. It differs from responsibility because responsibility can remain assigned when agency has thinned; it differs from judgment because agency is capacity to act, not the evaluative practice of deciding well.",
       "recognitionSignals": [
         "speech promises agency when participation feels required",
         "structural causes soften agency until judgment delays",
@@ -2316,7 +2334,8 @@
         ]
       },
       "id": "concept-agency",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Agency names whether a person or institution can actually move the scene, not only be named on the org chart. It becomes important when speech, responsibility, or moral weight outrun real leverage. It helps preserve honest coordination by distinguishing who can act from who must only absorb consequence, but can fail when low agency is mistaken for bad faith or when structural limits are narrated as personal failure. It differs from responsibility because responsibility can remain assigned when agency has thinned; it differs from judgment because agency is capacity to act, not the evaluative practice of deciding well."
     },
     {
       "slug": "agile",
@@ -2380,13 +2399,19 @@
     {
       "slug": "alignment",
       "title": "Alignment",
-      "shortDefinition": "Authority sustained through signals of belonging rather than through evaluative agreement or persuasion.",
+      "shortDefinition": "In ordinary use, alignment is coordinated orientation toward action. In this project, it also names authority sustained through signals of belonging rather than through evaluative agreement or persuasion.",
       "termKind": "supporting",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-alignment-at-scale",
+        "concept-legitimacy",
+        "concept-coordination",
+        "concept-boundary"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-when-interpretation-no-longer-matters"
       ],
+      "longDefinition": "Alignment names how people move together\u2014shared direction, mutual recognition, coordinated response. It becomes important when groups must act before full agreement is possible. Ordinarily, alignment can still be tested against evidence and revised through persuasion. In the authority arc, alignment can be sustained through belonging signals rather than evaluation; disagreement sorts allies from adversaries, and claims function as badges of membership. It helps preserve cohesion under pressure, but can fail when alignment replaces the capacity to be moved by reasons from outside the frame. It differs from legitimacy because alignment can persist without justified recognition; it differs from coordination because alignment can bind identity, not only sequence action.",
       "recognitionSignals": [
         "disagreement clarifies who belongs rather than testing claims",
         "claims function as badges of membership instead of propositions to evaluate",
@@ -2435,6 +2460,7 @@
       },
       "id": "concept-alignment",
       "isCoreTerm": false,
+      "definition": "Alignment names how people move together\u2014shared direction, mutual recognition, coordinated response. It becomes important when groups must act before full agreement is possible. Ordinarily, alignment can still be tested against evidence and revised through persuasion. In the authority arc, alignment can be sustained through belonging signals rather than evaluation; disagreement sorts allies from adversaries, and claims function as badges of membership. It helps preserve cohesion under pressure, but can fail when alignment replaces the capacity to be moved by reasons from outside the frame. It differs from legitimacy because alignment can persist without justified recognition; it differs from coordination because alignment can bind identity, not only sequence action.",
       "mentionsByBook": {
         "book-after-certainty": 6,
         "book-boundary-conditions": 15,
@@ -2462,13 +2488,18 @@
     {
       "slug": "alignment-at-scale",
       "title": "Alignment at scale",
-      "shortDefinition": "Authority reproduced institutionally, where belonging is routinized or inherited rather than continually affirmed.",
+      "shortDefinition": "Alignment at scale is authority reproduced institutionally, where belonging is routinized or inherited rather than continually affirmed through evaluative agreement.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-alignment",
+        "concept-boundary",
+        "concept-post-interpretive-authority"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-when-interpretation-no-longer-matters"
       ],
+      "longDefinition": "Alignment at scale names what happens when belonging-signal authority hardens into institution\u2014participation precedes comprehension, ritual routinizes commitment, and external critique rarely destabilizes standing. It differs from alignment because alignment names the pattern of sustaining authority through belonging; alignment at scale names its institutional reproduction across distance and generations.",
       "recognitionSignals": [
         "participation precedes full comprehension at institutional entry",
         "belonging is routinized through ritual, labor, and inherited practice",
@@ -2515,18 +2546,25 @@
         ]
       },
       "id": "concept-alignment-at-scale",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Alignment at scale names what happens when belonging-signal authority hardens into institution\u2014participation precedes comprehension, ritual routinizes commitment, and external critique rarely destabilizes standing. It differs from alignment because alignment names the pattern of sustaining authority through belonging; alignment at scale names its institutional reproduction across distance and generations."
     },
     {
       "slug": "answerability",
       "title": "Answerability",
-      "shortDefinition": "The obligation to remain accountable to those affected by a decision made from a partial perspective, including what was learned before and after the choice.",
+      "shortDefinition": "Answerability is the obligation to remain accountable to those affected by a decision made from a partial perspective\u2014including what was learned before and after the choice. It differs from accountability, which names exposure to consequence more generally.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-accountability",
+        "concept-responsibility",
+        "concept-finite-perspective",
+        "concept-revisability"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-what-we-cannot-see"
       ],
+      "longDefinition": "Answerability names the specific debt owed to people who bear the cost of decisions they did not fully shape. It becomes important when partial sight, temporary fixes, or institutional distance export risk onto those with less leverage. It helps preserve fair process and post-decision revision, but can fail when consultation is token or when good faith substitutes for returning when sight widens. It differs from responsibility because answerability is oriented toward affected parties; responsibility names the broader obligation to account.",
       "recognitionSignals": [
         "a decision is defended as finished once the vote or order is recorded",
         "affected people learn what was decided only after the outcome lands",
@@ -2575,7 +2613,8 @@
         ]
       },
       "id": "concept-answerability",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Answerability names the specific debt owed to people who bear the cost of decisions they did not fully shape. It becomes important when partial sight, temporary fixes, or institutional distance export risk onto those with less leverage. It helps preserve fair process and post-decision revision, but can fail when consultation is token or when good faith substitutes for returning when sight widens. It differs from responsibility because answerability is oriented toward affected parties; responsibility names the broader obligation to account."
     },
     {
       "slug": "asymmetry",
@@ -2651,13 +2690,18 @@
     {
       "slug": "attention",
       "title": "Attention",
-      "shortDefinition": "Attention names the domain where visibility metrics replace editorial claims about public importance. Newsrooms still know some stories matter even if they will not perform, but operational language shifted toward clicks, shares, and time on page. The convenient inference is that importance can be read from audience behavior after publication\u2014though audience reflects habit, outrage, and placement, not the same thing as what the public needs for democratic judgment.",
+      "shortDefinition": "Attention is the finite capacity through which some signals become available for response while others remain unseen. What receives attention partly determines what can be judged, cared for, or acted on at all.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-bias",
+        "concept-judgment",
+        "concept-care"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-when-incentives-become-the-moral-language"
       ],
+      "longDefinition": "Attention names the scarce gate between signal and response. It becomes important whenever more reaches a person or institution than can be fully tracked. It helps preserve focus and timely response, but can fail when visibility metrics are mistaken for judgments about importance. In When Incentives Become the Moral Language, attention marks the domain where newsrooms still know some stories matter even if they will not perform\u2014yet operational language shifted toward clicks, shares, and time on page. Audience behavior reflects habit, outrage, and placement, not the same thing as what the public needs for democratic judgment. It differs from bias because attention names the capacity itself; bias names the selective work performed through it.",
       "recognitionSignals": [
         "editors monitor real-time analytics, adjusting headlines and follow-up by what rises",
         "stories shaped for shareability travel farther than stories shaped for proportion and civic consequence",
@@ -2715,7 +2759,8 @@
         ]
       },
       "id": "concept-attention",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Attention names the scarce gate between signal and response. It becomes important whenever more reaches a person or institution than can be fully tracked. It helps preserve focus and timely response, but can fail when visibility metrics are mistaken for judgments about importance. In When Incentives Become the Moral Language, attention marks the domain where newsrooms still know some stories matter even if they will not perform\u2014yet operational language shifted toward clicks, shares, and time on page. Audience behavior reflects habit, outrage, and placement, not the same thing as what the public needs for democratic judgment. It differs from bias because attention names the capacity itself; bias names the selective work performed through it."
     },
     {
       "slug": "attention-budget",
@@ -2780,15 +2825,20 @@
     {
       "slug": "authority",
       "title": "Authority",
-      "shortDefinition": "Authority is operational coordination power\u2014the recognized right to steer, allocate, or constrain action\u2014always in tension with legitimacy and with whether consequence stays visible enough under scale for coordination to remain contestable rather than brittle.",
+      "shortDefinition": "Authority is operational coordination power\u2014the recognized right to steer, allocate, or constrain action. It differs from legitimacy, which names whether that power is justified and contestable enough to hold under stress.",
       "termKind": "core",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-legitimacy",
+        "concept-accountability",
+        "concept-boundary"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-after-certainty",
         "book-before-certainty-arrives",
         "book-coupling"
       ],
+      "longDefinition": "Authority names who can coordinate action when full agreement is impossible. It becomes important whenever groups must move before every perspective aligns. It helps preserve direction and collective capacity, but can fail when operational power outruns justified recognition or visible consequence. It differs from legitimacy because authority is the capacity to steer; legitimacy is whether that capacity reads as earned and revisable enough to coordinate trust rather than performative compliance.",
       "recognitionSignals": [
         "correctness begins helping people claim authority over one another",
         "not knowing risks loss of authority in rooms that still require action",
@@ -2826,6 +2876,7 @@
       },
       "id": "concept-authority",
       "isCoreTerm": true,
+      "definition": "Authority names who can coordinate action when full agreement is impossible. It becomes important whenever groups must move before every perspective aligns. It helps preserve direction and collective capacity, but can fail when operational power outruns justified recognition or visible consequence. It differs from legitimacy because authority is the capacity to steer; legitimacy is whether that capacity reads as earned and revisable enough to coordinate trust rather than performative compliance.",
       "mentionsByBook": {
         "book-after-certainty": 48,
         "book-before-certainty-arrives": 111,
@@ -2915,13 +2966,19 @@
     {
       "slug": "bias",
       "title": "Bias",
-      "shortDefinition": "The selective work through which finite perspectives become possible; not only prejudice or bad faith, but the narrowing that makes some things visible and others harder to reach.",
+      "shortDefinition": "Bias is the selective work that makes finite perspective possible\u2014not only prejudice or bad faith, but the narrowing that lets some signals become visible while others stay harder to reach.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-finite-perspective",
+        "concept-integration",
+        "concept-judgment",
+        "concept-trust"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-what-we-cannot-see"
       ],
+      "longDefinition": "Bias names the architecture of partial sight. It becomes important whenever perception, memory, attention, or institutional counting must choose what to include. It helps perception function by narrowing the field enough to act, but can fail when partial sight is mistaken for neutral or complete sight. The same mechanism is called focus when approved and bias when distrusted. It differs from finite perspective because bias names the selective work inside a vantage point; it differs from integration because bias describes what each partial view leaves out, not how partial views combine. In this project, bias connects to judgment, trust, and the structural question of what a person, group, model, or institution is not positioned to see.",
       "recognitionSignals": [
         "the same mechanism is called focus when we approve it and bias when we do not",
         "careful people in the same room still notice different details",
@@ -2970,18 +3027,26 @@
         ]
       },
       "id": "concept-bias",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Bias names the architecture of partial sight. It becomes important whenever perception, memory, attention, or institutional counting must choose what to include. It helps perception function by narrowing the field enough to act, but can fail when partial sight is mistaken for neutral or complete sight. The same mechanism is called focus when approved and bias when distrusted. It differs from finite perspective because bias names the selective work inside a vantage point; it differs from integration because bias describes what each partial view leaves out, not how partial views combine. In this project, bias connects to judgment, trust, and the structural question of what a person, group, model, or institution is not positioned to see."
     },
     {
       "slug": "boundary",
       "title": "Boundary",
-      "shortDefinition": "The point at which authority no longer depends on being understood in order to persist.",
+      "shortDefinition": "A boundary is a line where responsibility, interpretation, permission, or consequence changes shape. In the authority arc, it marks where authority no longer depends on being understood in order to persist.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-post-interpretive-authority",
+        "concept-coupling",
+        "concept-accountability",
+        "concept-alignment",
+        "concept-interface"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-when-interpretation-no-longer-matters"
       ],
+      "longDefinition": "Boundary names where one kind of obligation ends and another begins\u2014between roles, institutions, scales, or interpretive frames. It becomes important when coordination must clarify who can decide, who must answer, and what counts as shared ground. It helps preserve legible responsibility and evaluative contact, but can fail when boundaries harden into walls that block correction. In the post-interpretive authority context, a boundary is where external understanding ceases to govern legitimacy while power continues. It differs from coupling because a boundary marks a shift in shape, not the strength of attachment between action and consequence.",
       "recognitionSignals": [
         "authority persists after external interpretive agreement ends",
         "challenges are reclassified as misalignment rather than counter-evidence",
@@ -3027,7 +3092,8 @@
         ]
       },
       "id": "concept-boundary",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Boundary names where one kind of obligation ends and another begins\u2014between roles, institutions, scales, or interpretive frames. It becomes important when coordination must clarify who can decide, who must answer, and what counts as shared ground. It helps preserve legible responsibility and evaluative contact, but can fail when boundaries harden into walls that block correction. In the post-interpretive authority context, a boundary is where external understanding ceases to govern legitimacy while power continues. It differs from coupling because a boundary marks a shift in shape, not the strength of attachment between action and consequence."
     },
     {
       "slug": "bureaucracy",
@@ -3103,13 +3169,18 @@
     {
       "slug": "care",
       "title": "Care",
-      "shortDefinition": "Care names the domain where healing aims survive while clinical judgment loses public standing. Healthcare exists to help this person leave safer than they arrived, but under capacity pressure and multiplied oversight individualized judgment creates exposure unless translated into auditable categories. Protocol becomes the safer public language while practitioners remain left holding moral weight the system can no longer articulate.",
+      "shortDefinition": "Care is sustained attention to another person's condition with some felt obligation to respond. It keeps another's vulnerability in view long enough for response to remain morally serious.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-attention",
+        "concept-judgment",
+        "concept-accountability"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-when-incentives-become-the-moral-language"
       ],
+      "longDefinition": "Care names a relation, not only a service. It becomes important whenever one person's condition depends on another's ongoing responsiveness. It helps preserve healing aims, dignity, and proportionate response, but can fail when care survives only as private moral weight while public language compresses into auditable categories. In When Incentives Become the Moral Language, care marks the domain where healing aims survive while clinical judgment loses public standing\u2014protocol becomes the safer language under capacity pressure and multiplied oversight. It differs from attention because care carries obligation toward a person, not only selective availability of signal.",
       "recognitionSignals": [
         "discharge is justified as patient met discharge criteria while the room felt a contested tradeoff",
         "a clinician's one more day triggers cost and variance questions outside the room",
@@ -3167,7 +3238,8 @@
         ]
       },
       "id": "concept-care",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Care names a relation, not only a service. It becomes important whenever one person's condition depends on another's ongoing responsiveness. It helps preserve healing aims, dignity, and proportionate response, but can fail when care survives only as private moral weight while public language compresses into auditable categories. In When Incentives Become the Moral Language, care marks the domain where healing aims survive while clinical judgment loses public standing\u2014protocol becomes the safer language under capacity pressure and multiplied oversight. It differs from attention because care carries obligation toward a person, not only selective availability of signal."
     },
     {
       "slug": "certainty",
@@ -3444,14 +3516,19 @@
     {
       "slug": "cohesion",
       "title": "Cohesion",
-      "shortDefinition": "The degree to which responsibility is clearly held within a boundary (team, role, function, or institution). High cohesion means ownership is legible and decisions are not diffusely assigned.",
+      "shortDefinition": "Cohesion is the degree to which responsibility is clearly held within a boundary\u2014team, role, function, or institution. High cohesion means ownership is legible. It differs from coupling, which names attachment between action and consequence.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-coupling",
+        "concept-consequence-architecture",
+        "concept-accountability"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-before-certainty-arrives",
         "book-coupling"
       ],
+      "longDefinition": "Cohesion names whether it is clear who owns a decision, role, or outcome inside a boundary. It becomes important when diffuse assignment lets harm travel without redesign authority. It helps preserve legible ownership and coordinated response, but can fail when cohesion hardens into exclusion or when group binding is mistaken for clear responsibility. It differs from coupling because cohesion concerns ownership clarity within a boundary; coupling concerns how tightly action remains attached to consequence across a chain.",
       "recognitionSignals": [
         "norm repetition increases when threat is visible",
         "groups that enforce norms more consistently often hold together longer",
@@ -3499,7 +3576,8 @@
         ]
       },
       "id": "concept-cohesion",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Cohesion names whether it is clear who owns a decision, role, or outcome inside a boundary. It becomes important when diffuse assignment lets harm travel without redesign authority. It helps preserve legible ownership and coordinated response, but can fail when cohesion hardens into exclusion or when group binding is mistaken for clear responsibility. It differs from coupling because cohesion concerns ownership clarity within a boundary; coupling concerns how tightly action remains attached to consequence across a chain."
     },
     {
       "slug": "compression",
@@ -3588,13 +3666,19 @@
     {
       "slug": "connection",
       "title": "Connection",
-      "shortDefinition": "Connection is the relationship people still have to live inside after the conversation ends\u2014not a fourth force but the context signal, compression, and restraint move through. When people are linked by trust, dependence, history, care, or authority, stakes rise quietly. What continues afterward\u2014reachability with consequence\u2014carries revised trust, reluctance to speak, or renewed patience into the next conversation.",
+      "shortDefinition": "Connection is the relationship that persists after conversation\u2014reachability with consequence, not warmth alone. It differs from contact, which names staying close to what was said in the moment; and from proximity, which names ongoing relational nearness.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-contact",
+        "concept-proximity",
+        "concept-meaning",
+        "concept-trust"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-how-meaning-moves"
       ],
+      "longDefinition": "Connection names what continues after sentences end\u2014trust, dependence, history, care, or authority that makes the next read costlier or more patient. In How Meaning Moves, connection is the context signal, compression, and restraint move through. It becomes important when coordination continues but return paths thin. It helps preserve answerability across encounters, but can fail when exchange turns mechanical while people quietly stop risking more. It differs from contact because connection outlasts a single exchange; contact governs whether the read stays open while speaking.",
       "recognitionSignals": [
         "signal carries more weight because history or dependence stacks across encounters",
         "return after a harsh read feels unimaginable or too costly",
@@ -3639,7 +3723,8 @@
         ]
       },
       "id": "concept-connection",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Connection names what continues after sentences end\u2014trust, dependence, history, care, or authority that makes the next read costlier or more patient. In How Meaning Moves, connection is the context signal, compression, and restraint move through. It becomes important when coordination continues but return paths thin. It helps preserve answerability across encounters, but can fail when exchange turns mechanical while people quietly stop risking more. It differs from contact because connection outlasts a single exchange; contact governs whether the read stays open while speaking."
     },
     {
       "slug": "consequence",
@@ -3728,13 +3813,18 @@
     {
       "slug": "consequence-architecture",
       "title": "Consequence Architecture",
-      "shortDefinition": "The deliberate design of responsibility boundaries, constraint layers, feedback paths, and escalation routes so that consequence returns to actors who can redesign behavior. Consequence architecture unites cohesion, coupling, and guardrails in practice. It is the professional literacy required when generation accelerates faster than informal caution can scale.",
+      "shortDefinition": "Consequence architecture is the deliberate design of responsibility boundaries, feedback paths, and escalation routes so consequence returns to actors who can redesign behavior. It unites cohesion and coupling in practice.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-coupling",
+        "concept-cohesion",
+        "concept-constraints"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-coupling"
       ],
+      "longDefinition": "Consequence architecture names professional literacy for systems where generation or scale outruns informal caution. It becomes important when guardrails exist on paper but production paths bypass them, or when postmortems produce action items detached from redesign authority. It helps preserve corrigibility under acceleration, but can fail when organizations prove they cared while the same failure class repeats. It differs from coupling because consequence-architecture is designed structure; coupling is the resulting attachment strength. It differs from cohesion because architecture designs the whole path; cohesion names ownership clarity within one boundary.",
       "recognitionSignals": [
         "responsibility boundaries and escalation routes are deliberately designed",
         "feedback paths return consequence to actors who can redesign behavior",
@@ -3785,18 +3875,22 @@
         ]
       },
       "id": "concept-consequence-architecture",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Consequence architecture names professional literacy for systems where generation or scale outruns informal caution. It becomes important when guardrails exist on paper but production paths bypass them, or when postmortems produce action items detached from redesign authority. It helps preserve corrigibility under acceleration, but can fail when organizations prove they cared while the same failure class repeats. It differs from coupling because consequence-architecture is designed structure; coupling is the resulting attachment strength. It differs from cohesion because architecture designs the whole path; cohesion names ownership clarity within one boundary."
     },
     {
       "slug": "constraint",
       "title": "Constraint",
-      "shortDefinition": "Constraint names the limits a moral order responds to\u2014scarcity, violence, population density, abstraction. This book is organized by ages defined by shared constraints rather than by ideas alone.",
+      "shortDefinition": "Constraint names the historical limits a moral order responds to\u2014scarcity, violence, population density, abstraction. It differs from constraints (plural), which names operational system limits in the present.",
       "termKind": "supporting",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-constraints"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-before-certainty-arrives"
       ],
+      "longDefinition": "Constraint marks the pressure that first shaped a moral order\u2014not an idea discovered in isolation, but a condition survival had to answer. In Before Certainty Arrives, ages are defined by shared constraints rather than geography alone. It differs from constraints because constraint names the originating pressure a system responds to; constraints names the technical, legal, and procedural limits shaping action inside an existing system today.",
       "recognitionSignals": [
         "deliberation is costly when hesitation can be fatal",
         "the season will not wait for argument to finish",
@@ -3845,6 +3939,7 @@
       },
       "id": "concept-constraint",
       "isCoreTerm": false,
+      "definition": "Constraint marks the pressure that first shaped a moral order\u2014not an idea discovered in isolation, but a condition survival had to answer. In Before Certainty Arrives, ages are defined by shared constraints rather than geography alone. It differs from constraints because constraint names the originating pressure a system responds to; constraints names the technical, legal, and procedural limits shaping action inside an existing system today.",
       "mentionsByBook": {
         "book-after-certainty": 8,
         "book-before-certainty-arrives": 10,
@@ -3871,15 +3966,19 @@
     {
       "slug": "constraints",
       "title": "Constraints",
-      "shortDefinition": "Constraints are the limits and boundary conditions that shape what actions are possible in a system. They include technical limits, legal rules, time pressure, budget limits, and institutional procedures. Good constraints channel behavior toward learning and accountability; poor constraints hide tradeoffs or displace consequence.",
+      "shortDefinition": "Constraints are the operational limits and boundary conditions that shape what actions are possible in a system\u2014technical, legal, budget, procedural. They differ from constraint (singular), which names the historical pressures a moral order first responded to.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-constraint",
+        "concept-consequence-architecture"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-after-certainty",
         "book-before-certainty-arrives",
         "book-coupling"
       ],
+      "longDefinition": "Constraints names the present-tense architecture of what can be done\u2014rules, budgets, timelines, approvals, and technical ceilings. Good constraints channel behavior toward learning and accountability; poor constraints hide tradeoffs or displace consequence. It differs from constraint because constraints describes limits inside an operating system; constraint describes the originating pressure that once made a moral order necessary.",
       "recognitionSignals": [
         "constraints are narrated instead of tradeoffs named",
         "working groups add constraints while harm does not pause",
@@ -3916,18 +4015,24 @@
         ]
       },
       "id": "concept-constraints",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Constraints names the present-tense architecture of what can be done\u2014rules, budgets, timelines, approvals, and technical ceilings. Good constraints channel behavior toward learning and accountability; poor constraints hide tradeoffs or displace consequence. It differs from constraint because constraints describes limits inside an operating system; constraint describes the originating pressure that once made a moral order necessary."
     },
     {
       "slug": "contact",
       "title": "Contact",
-      "shortDefinition": "Contact is staying close to what was actually said, including what still feels uncertain\u2014not a finished verdict but the unfinished part meaning can still be revisited. Restraint slows compression so contact keeps the read open without pretending uncertainty has disappeared. When speed or being right replaces contact, private conclusions replace live interaction\u2014and harm often comes from deciding you understood before you did.",
+      "shortDefinition": "Contact is staying close to what was actually said, including what still feels uncertain\u2014not a finished verdict but the unfinished part meaning can still be revisited. It differs from connection, which names what persists after conversation ends.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-connection",
+        "concept-proximity",
+        "concept-meaning"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-how-meaning-moves"
       ],
+      "longDefinition": "Contact names restraint against premature compression in dialogue. In How Meaning Moves, it slows closure so meaning can still be revisited before harm arrives from deciding you understood too soon. It becomes important when speed, being right, or schedule pressure replace live interaction. It helps preserve accurate reading under stakes, but can fail when private conclusions replace the uncertain moment still open in the room. It differs from connection because contact is moment-to-moment closeness to what was said; connection is the ongoing relationship that carries revised trust or reluctance into the next exchange.",
       "recognitionSignals": [
         "people answer before the speaker finishes the uncertain part",
         "clear enough substitutes for understanding while the moment still holds",
@@ -3972,7 +4077,8 @@
         ]
       },
       "id": "concept-contact",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Contact names restraint against premature compression in dialogue. In How Meaning Moves, it slows closure so meaning can still be revisited before harm arrives from deciding you understood too soon. It becomes important when speed, being right, or schedule pressure replace live interaction. It helps preserve accurate reading under stakes, but can fail when private conclusions replace the uncertain moment still open in the room. It differs from connection because contact is moment-to-moment closeness to what was said; connection is the ongoing relationship that carries revised trust or reluctance into the next exchange."
     },
     {
       "slug": "contestability",
@@ -4383,9 +4489,13 @@
     {
       "slug": "correction",
       "title": "Correction",
-      "shortDefinition": "Correction is reality-contact and revisability: the lived work of noticing mismatch, updating beliefs or behavior, and narrowing the gap between what was assumed and what is actually happening before drift hardens into normal.",
+      "shortDefinition": "Correction is reality-contact and revisability\u2014the work of noticing mismatch and updating before drift hardens into normal. It differs from repair, which restores damaged trust or legitimacy; and from revisability, which names designed openness to update.",
       "termKind": "core",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-revisability",
+        "concept-repair",
+        "concept-feedback"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-after-certainty",
@@ -4393,6 +4503,7 @@
         "book-coupling",
         "book-when-others-look-to-you-v1"
       ],
+      "longDefinition": "Correction names the lived work of narrowing the gap between what was assumed and what is actually happening. It becomes important whenever systems, beliefs, or coordination can drift while still feeling operational. It helps preserve shared reality and learning, but can fail when every correction spawns new framing instead of updated contact with conditions. It differs from repair because correction updates belief and behavior; repair addresses damaged standing and trust. It differs from revisability because correction is the act; revisability is the designed capacity to keep correcting.",
       "recognitionSignals": [
         "every correction spawns new framing instead of shared reality",
         "revision is treated as collapse when identity fused with being right",
@@ -4430,6 +4541,7 @@
       },
       "id": "concept-correction",
       "isCoreTerm": true,
+      "definition": "Correction names the lived work of narrowing the gap between what was assumed and what is actually happening. It becomes important whenever systems, beliefs, or coordination can drift while still feeling operational. It helps preserve shared reality and learning, but can fail when every correction spawns new framing instead of updated contact with conditions. It differs from repair because correction updates belief and behavior; repair addresses damaged standing and trust. It differs from revisability because correction is the act; revisability is the designed capacity to keep correcting.",
       "mentionsByBook": {
         "book-after-certainty": 21,
         "book-before-certainty-arrives": 7,
@@ -4596,13 +4708,19 @@
     {
       "slug": "coupling",
       "title": "Coupling",
-      "shortDefinition": "Coupling is attachment between action and consequence\u2014how tightly decisions remain traceable to effects, how feedback travels, and whether redesign authority can still bite when scale and abstraction lengthen the chain.",
+      "shortDefinition": "Coupling is attachment between action and consequence\u2014how tightly decisions remain traceable to effects and whether redesign authority can still bite. It differs from cohesion, which names legible ownership within a boundary; and from consequence-architecture, which names deliberate design of feedback paths.",
       "termKind": "core",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-cohesion",
+        "concept-consequence-architecture",
+        "concept-feedback",
+        "concept-accountability"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-coupling"
       ],
+      "longDefinition": "Coupling names the strength of the link between what was decided and what later arrives. It becomes important when scale, abstraction, or delay lengthen the chain between decision and lived harm. It helps preserve learning and legitimacy, but can fail when dashboards stay green while frontline frustration grows. It differs from cohesion because coupling tracks action-to-effect attachment; cohesion tracks whether responsibility is clearly held. It differs from consequence-architecture because coupling describes the attachment; consequence-architecture describes intentional design of boundaries, feedback, and escalation.",
       "recognitionSignals": [
         "original decision-makers no longer remember tradeoffs when harm appears months later",
         "polished retrospectives replace redesign because consequence arrived too late",
@@ -4654,6 +4772,7 @@
       },
       "id": "concept-coupling",
       "isCoreTerm": true,
+      "definition": "Coupling names the strength of the link between what was decided and what later arrives. It becomes important when scale, abstraction, or delay lengthen the chain between decision and lived harm. It helps preserve learning and legitimacy, but can fail when dashboards stay green while frontline frustration grows. It differs from cohesion because coupling tracks action-to-effect attachment; cohesion tracks whether responsibility is clearly held. It differs from consequence-architecture because coupling describes the attachment; consequence-architecture describes intentional design of boundaries, feedback, and escalation.",
       "mentionsByBook": {
         "book-before-certainty-arrives": 8,
         "book-coupling": 145,
@@ -5195,13 +5314,18 @@
     {
       "slug": "drift",
       "title": "Drift",
-      "shortDefinition": "Drift is gradual decoupling from original conditions\u2014meaning drifting as it travels, moral reasoning drifting toward role compliance, fit thinning while machinery still runs. Systems continue without admitting that the conditions they were built for have shifted.",
+      "shortDefinition": "Drift is gradual decoupling from original conditions\u2014meaning, fit, or moral reasoning thinning while machinery still runs. It differs from normalization, where drift becomes baseline and strain feels ordinary.",
       "termKind": "supporting",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-inheritance",
+        "concept-normalization",
+        "concept-adaptation"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-before-certainty-arrives"
       ],
+      "longDefinition": "Drift names slow misalignment\u2014meaning drifts as it travels, role compliance replaces discernment, systems continue without admitting conditions have shifted. It becomes important when continuity masks thinning fit and inherited tools coordinate long after they stop persuading. It helps recognize strain before rupture feels sudden, but can fail when drift is mistaken for stability because the machinery still turns. It differs from inheritance because drift emphasizes loss of fit over time; inheritance emphasizes what persists. It differs from normalization because drift is the movement; normalization is drift settling into expected background.",
       "recognitionSignals": [
         "meaning drifts as it travels across distance",
         "moral reasoning drifts toward role compliance",
@@ -5250,6 +5374,7 @@
       },
       "id": "concept-drift",
       "isCoreTerm": false,
+      "definition": "Drift names slow misalignment\u2014meaning drifts as it travels, role compliance replaces discernment, systems continue without admitting conditions have shifted. It becomes important when continuity masks thinning fit and inherited tools coordinate long after they stop persuading. It helps recognize strain before rupture feels sudden, but can fail when drift is mistaken for stability because the machinery still turns. It differs from inheritance because drift emphasizes loss of fit over time; inheritance emphasizes what persists. It differs from normalization because drift is the movement; normalization is drift settling into expected background.",
       "mentionsByBook": {
         "book-after-certainty": 23,
         "book-before-certainty-arrives": 2,
@@ -5731,15 +5856,20 @@
     {
       "slug": "feedback",
       "title": "Feedback",
-      "shortDefinition": "The path by which outcomes return as signal and influence future decisions. Weak or delayed feedback reduces learning quality.",
+      "shortDefinition": "Feedback is the path by which outcomes return as signal and influence future decisions. Weak, delayed, or distorted feedback reduces learning and makes drift harder to notice.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-coupling",
+        "concept-correction",
+        "concept-trust"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-after-certainty",
         "book-before-certainty-arrives",
         "book-coupling"
       ],
+      "longDefinition": "Feedback names how systems stay in contact with their own effects. It becomes important whenever action and consequence are separated by time, scale, or abstraction. It helps preserve learning, correction, and trust in ongoing coordination, but can fail when dashboards stay green while lived harm accumulates off the ledger. It differs from trust because feedback is the returning signal itself; trust is the bridge that lets people act before every signal arrives. It differs from correction because feedback is what returns; correction is the work of updating in response.",
       "recognitionSignals": [
         "feedback slows as coordination grows",
         "consequences become harder to trace",
@@ -5776,18 +5906,25 @@
         ]
       },
       "id": "concept-feedback",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Feedback names how systems stay in contact with their own effects. It becomes important whenever action and consequence are separated by time, scale, or abstraction. It helps preserve learning, correction, and trust in ongoing coordination, but can fail when dashboards stay green while lived harm accumulates off the ledger. It differs from trust because feedback is the returning signal itself; trust is the bridge that lets people act before every signal arrives. It differs from correction because feedback is what returns; correction is the work of updating in response."
     },
     {
       "slug": "finite-perspective",
       "title": "Finite perspective",
-      "shortDefinition": "A view built from somewhere: always partial, never exhaustive, never from nowhere.",
+      "shortDefinition": "A finite perspective is a view built from somewhere\u2014always partial, never exhaustive, never from nowhere. Every standpoint includes by excluding.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-bias",
+        "concept-integration",
+        "concept-trust",
+        "concept-judgment"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-what-we-cannot-see"
       ],
+      "longDefinition": "Finite perspective names the condition under which all sight in this project begins. It becomes important whenever someone speaks as if their view were complete, neutral, or uninfluenced by position. It helps preserve humility, integration, and honest disagreement, but can fail when partial sight is treated as moral failure or when institutions demand omniscience from individuals. It differs from bias because finite perspective names the structural condition of partiality; bias names the selective work performed within it. It differs from trust because trust extends action beyond firsthand sight without pretending the extension erases partiality.",
       "recognitionSignals": [
         "someone speaks as if their view were from nowhere rather than from somewhere",
         "partial reads are treated as complete maps of the territory",
@@ -5836,7 +5973,8 @@
         ]
       },
       "id": "concept-finite-perspective",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Finite perspective names the condition under which all sight in this project begins. It becomes important whenever someone speaks as if their view were complete, neutral, or uninfluenced by position. It helps preserve humility, integration, and honest disagreement, but can fail when partial sight is treated as moral failure or when institutions demand omniscience from individuals. It differs from bias because finite perspective names the structural condition of partiality; bias names the selective work performed within it. It differs from trust because trust extends action beyond firsthand sight without pretending the extension erases partiality."
     },
     {
       "slug": "formation",
@@ -6462,13 +6600,18 @@
     {
       "slug": "inheritance",
       "title": "Inheritance",
-      "shortDefinition": "Inheritance is how stabilized certainty persists after its originating conditions fade\u2014tools that outlive the pressures that made them workable and are carried forward without their original context.",
+      "shortDefinition": "Inheritance is how stabilized certainty persists after its originating conditions fade\u2014tools outliving the pressures that made them workable. It differs from adaptation, which names responsive change to pressure.",
       "termKind": "supporting",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-adaptation",
+        "concept-drift",
+        "concept-normalization"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-before-certainty-arrives"
       ],
+      "longDefinition": "Inheritance names what travels forward when the original scene is gone\u2014archives, canon, titles, feast days, bureaucratic certainty. It becomes important when systems still coordinate long after their makers' conditions have shifted. It helps preserve continuity across generations, but can fail when inherited tools resist revision while fit quietly thins. It differs from adaptation because inheritance carries forward what stabilized; adaptation names the original responsive work. It differs from drift because inheritance emphasizes persistence of form; drift emphasizes gradual decoupling from conditions.",
       "recognitionSignals": [
         "archives still stand while roads between them do not",
         "tools continue with inherited authority after conditions shift",
@@ -6517,6 +6660,7 @@
       },
       "id": "concept-inheritance",
       "isCoreTerm": false,
+      "definition": "Inheritance names what travels forward when the original scene is gone\u2014archives, canon, titles, feast days, bureaucratic certainty. It becomes important when systems still coordinate long after their makers' conditions have shifted. It helps preserve continuity across generations, but can fail when inherited tools resist revision while fit quietly thins. It differs from adaptation because inheritance carries forward what stabilized; adaptation names the original responsive work. It differs from drift because inheritance emphasizes persistence of form; drift emphasizes gradual decoupling from conditions.",
       "mentionsByBook": {
         "book-after-certainty": 2,
         "book-before-certainty-arrives": 4,
@@ -6595,13 +6739,19 @@
     {
       "slug": "integration",
       "title": "Integration",
-      "shortDefinition": "The work of combining many partial views into a larger model none of them could build alone; not compromise, averaging, or performance.",
+      "shortDefinition": "Integration is the work of combining partial perspectives into a model or response none of the participants could have produced alone. It is not compromise, consensus, averaging, or politeness.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-finite-perspective",
+        "concept-bias",
+        "concept-judgment",
+        "concept-trust"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-what-we-cannot-see"
       ],
+      "longDefinition": "Integration names one of the central constructive moves in this project. It becomes important when reality exceeds any single vantage point and action still must proceed. It helps preserve the intelligence distributed across roles, experiences, and partial archives, but can fail when many voices are displayed without changing the model\u2014or when disagreement is treated as disloyalty rather than information about missing terrain. It differs from compromise because integration seeks a larger understanding, not a split difference; it differs from averaging because partial views are assembled, not flattened into equal weight regardless of grounding.",
       "recognitionSignals": [
         "many voices speak but the leader decides what they already decided",
         "disagreement is treated as disloyalty rather than information about missing terrain",
@@ -6650,7 +6800,8 @@
         ]
       },
       "id": "concept-integration",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Integration names one of the central constructive moves in this project. It becomes important when reality exceeds any single vantage point and action still must proceed. It helps preserve the intelligence distributed across roles, experiences, and partial archives, but can fail when many voices are displayed without changing the model\u2014or when disagreement is treated as disloyalty rather than information about missing terrain. It differs from compromise because integration seeks a larger understanding, not a split difference; it differs from averaging because partial views are assembled, not flattened into equal weight regardless of grounding."
     },
     {
       "slug": "interface",
@@ -6717,15 +6868,21 @@
     {
       "slug": "interpretation",
       "title": "Interpretation",
-      "shortDefinition": "Interpretation is how meaning is reconstructed under pressure. Sacred authority compresses interpretation; writing and law later externalize it so disputes can be settled without shared presence.",
+      "shortDefinition": "Interpretation is the reconstruction of meaning under conditions of partial information, context, pressure, and consequence. It is how people and institutions make action legible when the scene cannot speak for itself.",
       "termKind": "core",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-public-interpretation",
+        "concept-private-understanding",
+        "concept-meaning",
+        "concept-boundary"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-before-certainty-arrives",
         "book-what-we-cannot-see",
         "book-when-interpretation-no-longer-matters"
       ],
+      "longDefinition": "Interpretation names the ongoing work of deciding what something means enough to coordinate on. It becomes important whenever shared action depends on more than immediate perception\u2014across time, distance, conflict, or institutional scale. It helps preserve continuity between experience and obligation, but can fail when interpretation hardens into category and stops tracking changing conditions. In the authority arc, sacred authority compresses interpretation while writing and law later externalize it so disputes can be settled without shared presence. It differs from private understanding because interpretation must be able to coordinate judgment or contest authority in shared space; it differs from meaning because interpretation is the active reconstruction, not only what gets stabilized.",
       "recognitionSignals": [
         "what one did mattered before why one did it",
         "doctrine narrows while ritual still synchronizes life",
@@ -6774,6 +6931,7 @@
       },
       "id": "concept-interpretation",
       "isCoreTerm": true,
+      "definition": "Interpretation names the ongoing work of deciding what something means enough to coordinate on. It becomes important whenever shared action depends on more than immediate perception\u2014across time, distance, conflict, or institutional scale. It helps preserve continuity between experience and obligation, but can fail when interpretation hardens into category and stops tracking changing conditions. In the authority arc, sacred authority compresses interpretation while writing and law later externalize it so disputes can be settled without shared presence. It differs from private understanding because interpretation must be able to coordinate judgment or contest authority in shared space; it differs from meaning because interpretation is the active reconstruction, not only what gets stabilized.",
       "mentionsByBook": {
         "book-after-certainty": 76,
         "book-before-certainty-arrives": 29,
@@ -6802,13 +6960,19 @@
     {
       "slug": "interpretive-collapse",
       "title": "Interpretive collapse",
-      "shortDefinition": "Not the failure of understanding, but the loss of interpretation as a shared, publicly relevant activity.",
+      "shortDefinition": "Interpretive collapse is not failed understanding, but the loss of interpretation as a shared, publicly relevant activity. Understanding may persist while public interpretive function disappears.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-public-interpretation",
+        "concept-private-understanding",
+        "concept-post-interpretive-authority",
+        "concept-boundary"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-when-interpretation-no-longer-matters"
       ],
+      "longDefinition": "Interpretive collapse names a structural shift, not mere ignorance. It becomes important when people still recognize contradictions but that recognition no longer alters standing, coordinates judgment, or opens repair. It helps diagnose regimes where informational remedies fail because the problem is function, not content. It differs from private understanding because collapse concerns public activity; private understanding can continue beneath it. It differs from post-interpretive authority because collapse describes lost function; post-interpretive authority describes authority that no longer requires external interpretation to persist.",
       "recognitionSignals": [
         "understanding persists without changing authority's position",
         "interpretation is misnamed as misinformation or delusion",
@@ -6854,7 +7018,8 @@
         ]
       },
       "id": "concept-interpretive-collapse",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Interpretive collapse names a structural shift, not mere ignorance. It becomes important when people still recognize contradictions but that recognition no longer alters standing, coordinates judgment, or opens repair. It helps diagnose regimes where informational remedies fail because the problem is function, not content. It differs from private understanding because collapse concerns public activity; private understanding can continue beneath it. It differs from post-interpretive authority because collapse describes lost function; post-interpretive authority describes authority that no longer requires external interpretation to persist."
     },
     {
       "slug": "invariant",
@@ -6990,9 +7155,14 @@
     {
       "slug": "judgment",
       "title": "Judgment",
-      "shortDefinition": "Judgment is deliberate evaluation under uncertainty: slowing automatic escalation long enough to weigh tradeoffs honestly, keep coordination aligned with consequence rather than with speed alone, and preserve room for contestability.",
+      "shortDefinition": "Judgment is the practice of deciding responsibly under uncertainty\u2014weighing tradeoffs, proportion, and consequence without pretending to see from nowhere or wait for final certainty.",
       "termKind": "core",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-revisability",
+        "concept-correction",
+        "concept-certainty",
+        "concept-agency"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-after-certainty",
@@ -7001,6 +7171,7 @@
         "book-what-we-cannot-see",
         "book-when-interpretation-no-longer-matters"
       ],
+      "longDefinition": "Judgment names the capacity to decide when understanding is incomplete but harm, coordination, or responsibility will not wait. It becomes important whenever action must proceed under partial information and real consequence. It helps preserve proportionality, answerability, and room for revision, but can fail when judgment hardens into dogma, paralysis, or punitive finality. It differs from certainty because judgment accepts incomplete sight; it differs from preference because judgment weighs consequence beyond taste; it differs from optimization because judgment keeps contestability and human proportion in view; it differs from rule-following because judgment must still respond when rules lag reality.",
       "recognitionSignals": [
         "people wait for certainty before they are willing to judge",
         "judgment is mistaken for harshness when it lacks final closure",
@@ -7044,6 +7215,7 @@
       },
       "id": "concept-judgment",
       "isCoreTerm": true,
+      "definition": "Judgment names the capacity to decide when understanding is incomplete but harm, coordination, or responsibility will not wait. It becomes important whenever action must proceed under partial information and real consequence. It helps preserve proportionality, answerability, and room for revision, but can fail when judgment hardens into dogma, paralysis, or punitive finality. It differs from certainty because judgment accepts incomplete sight; it differs from preference because judgment weighs consequence beyond taste; it differs from optimization because judgment keeps contestability and human proportion in view; it differs from rule-following because judgment must still respond when rules lag reality.",
       "mentionsByBook": {
         "book-after-certainty": 89,
         "book-before-certainty-arrives": 25,
@@ -7204,9 +7376,13 @@
     {
       "slug": "legitimacy",
       "title": "Legitimacy",
-      "shortDefinition": "Legitimacy is justified recognition of authority\u2014whether power reads as earned and contestable enough that coordination holds under stress instead of collapsing into cynicism, performative compliance, or hidden veto by drift.",
+      "shortDefinition": "Legitimacy is justified recognition of authority\u2014whether power reads as earned and contestable enough that coordination holds under stress. It differs from authority, which names operational power to steer action.",
       "termKind": "core",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-authority",
+        "concept-alignment",
+        "concept-accountability"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-after-certainty",
@@ -7215,6 +7391,7 @@
         "book-when-interpretation-no-longer-matters",
         "book-when-others-look-to-you-v1"
       ],
+      "longDefinition": "Legitimacy names the standing that lets authority coordinate without constant coercion. It becomes important when scale, abstraction, or time separate decision-makers from lived consequence. It helps preserve trust and willing participation, but can fail when smooth operation is mistaken for moral standing or when scrutiny is treated as disloyalty. It differs from alignment because legitimacy still invites proportionate inquiry; alignment can bind through belonging signals alone.",
       "recognitionSignals": [
         "smooth operation starts appearing equivalent to legitimacy",
         "admiration insulates narratives from proportionate inquiry",
@@ -7252,6 +7429,7 @@
       },
       "id": "concept-legitimacy",
       "isCoreTerm": true,
+      "definition": "Legitimacy names the standing that lets authority coordinate without constant coercion. It becomes important when scale, abstraction, or time separate decision-makers from lived consequence. It helps preserve trust and willing participation, but can fail when smooth operation is mistaken for moral standing or when scrutiny is treated as disloyalty. It differs from alignment because legitimacy still invites proportionate inquiry; alignment can bind through belonging signals alone.",
       "mentionsByBook": {
         "book-after-certainty": 31,
         "book-before-certainty-arrives": 32,
@@ -7412,13 +7590,18 @@
     {
       "slug": "meaning",
       "title": "Meaning",
-      "shortDefinition": "Meaning here is what moral systems stabilize\u2014not abstract truth first, but shared expectation that can accumulate once coordination survives constraint. Writing preserves meaning when oral tradition fractures at scale.",
+      "shortDefinition": "Meaning is what people and institutions stabilize enough to coordinate on\u2014through language, context, memory, trust, and consequence. It is not only abstract truth, but shared expectation that can hold action steady.",
       "termKind": "core",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-interpretation",
+        "concept-trust",
+        "concept-connection"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-before-certainty-arrives"
       ],
+      "longDefinition": "Meaning names what must remain recognizable for life together to continue. It becomes important whenever coordination outruns immediate shared presence. It helps preserve continuity across time, distance, and conflict, but can fail when inherited meaning outlives the conditions that once made it workable. In Before Certainty Arrives, meaning is what moral systems stabilize once coordination survives constraint; writing preserves meaning when oral tradition fractures at scale. In How Meaning Moves, meaning is also what people reconstruct through contact, completion, and the movement of language under pressure. It differs from interpretation because meaning is what gets held steady; interpretation is the active work of reconstruction.",
       "recognitionSignals": [
         "obligation shows itself in calloused hands before it becomes principle",
         "shared ritual feels like survival rather than ornament",
@@ -7467,6 +7650,7 @@
       },
       "id": "concept-meaning",
       "isCoreTerm": true,
+      "definition": "Meaning names what must remain recognizable for life together to continue. It becomes important whenever coordination outruns immediate shared presence. It helps preserve continuity across time, distance, and conflict, but can fail when inherited meaning outlives the conditions that once made it workable. In Before Certainty Arrives, meaning is what moral systems stabilize once coordination survives constraint; writing preserves meaning when oral tradition fractures at scale. In How Meaning Moves, meaning is also what people reconstruct through contact, completion, and the movement of language under pressure. It differs from interpretation because meaning is what gets held steady; interpretation is the active work of reconstruction.",
       "mentionsByBook": {
         "book-after-certainty": 32,
         "book-before-certainty-arrives": 32,
@@ -7956,13 +8140,18 @@
     {
       "slug": "normalization",
       "title": "Normalization",
-      "shortDefinition": "Normalization is drift becoming baseline\u2014distance between decision and consequence settling into the architecture of moral life until queue waits, procedural obedience, and administrative delay feel like Tuesday rather than strain. What once required explanation becomes the background hum institutions expect people to endure.",
+      "shortDefinition": "Normalization is drift becoming baseline\u2014distance between decision and consequence settling into architecture until strain feels like ordinary Tuesday. It differs from drift, which names the gradual decoupling itself.",
       "termKind": "supporting",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-drift",
+        "concept-inheritance",
+        "concept-coupling"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-before-certainty-arrives"
       ],
+      "longDefinition": "Normalization names how procedural delay, queue waits, and administrative distance become background hum rather than alarm. In Before Certainty Arrives and Living in Sediment-adjacent dynamics, what once required explanation becomes what institutions expect people to endure. It becomes important when thinning fit hides behind functioning machinery. It helps recognize saturation before rupture, but can fail when ordinary continuity is mistaken for health. It differs from drift because normalization is drift absorbed into baseline expectation; drift is the ongoing movement away from original conditions.",
       "recognitionSignals": [
         "the office feels like Tuesday rather than cosmic order",
         "delay is administrative\u2014and therefore ordinary enough to endure",
@@ -8011,6 +8200,7 @@
       },
       "id": "concept-normalization",
       "isCoreTerm": false,
+      "definition": "Normalization names how procedural delay, queue waits, and administrative distance become background hum rather than alarm. In Before Certainty Arrives and Living in Sediment-adjacent dynamics, what once required explanation becomes what institutions expect people to endure. It becomes important when thinning fit hides behind functioning machinery. It helps recognize saturation before rupture, but can fail when ordinary continuity is mistaken for health. It differs from drift because normalization is drift absorbed into baseline expectation; drift is the ongoing movement away from original conditions.",
       "mentionsByBook": {
         "book-after-certainty": 1,
         "book-how-serious-systems-learn": 1,
@@ -8413,13 +8603,19 @@
     {
       "slug": "post-interpretive-authority",
       "title": "Post-interpretive authority",
-      "shortDefinition": "Authority that persists without requiring external interpretation, shared reasoning, or repair through meaning.",
+      "shortDefinition": "Post-interpretive authority is authority that persists without requiring external interpretation, shared reasoning, or repair through meaning. It differs from total authority, where public evaluative space is eliminated entirely.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-boundary",
+        "concept-total-authority",
+        "concept-interpretive-collapse",
+        "concept-repair"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-when-interpretation-no-longer-matters"
       ],
+      "longDefinition": "Post-interpretive authority names a regime shift in which power continues while familiar interpretive tools lose traction across boundaries. Explanation, transparency, and dialogue may persist as language without mediating legitimacy. It becomes important when repair backfires or when contradiction strengthens loyalty rather than weakening standing. It differs from boundary because boundary marks where understanding ceases to govern persistence; post-interpretive authority names the regime that can result. It differs from total authority because some private or fragmented interpretation may still exist\u2014public evaluative function is displaced, not always extinguished.",
       "recognitionSignals": [
         "authority persists without requiring external interpretation",
         "explanation loses traction across boundaries",
@@ -8466,18 +8662,24 @@
         ]
       },
       "id": "concept-post-interpretive-authority",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Post-interpretive authority names a regime shift in which power continues while familiar interpretive tools lose traction across boundaries. Explanation, transparency, and dialogue may persist as language without mediating legitimacy. It becomes important when repair backfires or when contradiction strengthens loyalty rather than weakening standing. It differs from boundary because boundary marks where understanding ceases to govern persistence; post-interpretive authority names the regime that can result. It differs from total authority because some private or fragmented interpretation may still exist\u2014public evaluative function is displaced, not always extinguished."
     },
     {
       "slug": "private-understanding",
       "title": "Private understanding",
-      "shortDefinition": "Individual recognition or awareness that persists without public relevance or influence.",
+      "shortDefinition": "Private understanding is individual recognition that persists without public relevance or influence. It differs from public interpretation, which can coordinate judgment or contest authority in shared space.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-public-interpretation",
+        "concept-interpretive-collapse",
+        "concept-witness"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-when-interpretation-no-longer-matters"
       ],
+      "longDefinition": "Private understanding names awareness that does not travel\u2014diaries, whispered recognition, informal networks preserving clarity beneath performative agreement. It becomes important when expression carries extreme cost but moral clarity still accumulates. It helps preserve memory and refusal of erasure, but can fail when silence is misread as unanimity or when private clarity never translates into public pressure. It differs from interpretive collapse because understanding may persist; what fails is public interpretive function.",
       "recognitionSignals": [
         "individuals recognize contradictions without public effect",
         "diaries and memoirs reveal awareness beneath official narratives",
@@ -8524,7 +8726,8 @@
         ]
       },
       "id": "concept-private-understanding",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Private understanding names awareness that does not travel\u2014diaries, whispered recognition, informal networks preserving clarity beneath performative agreement. It becomes important when expression carries extreme cost but moral clarity still accumulates. It helps preserve memory and refusal of erasure, but can fail when silence is misread as unanimity or when private clarity never translates into public pressure. It differs from interpretive collapse because understanding may persist; what fails is public interpretive function."
     },
     {
       "slug": "proportionality",
@@ -8649,13 +8852,18 @@
     {
       "slug": "proximity",
       "title": "Proximity",
-      "shortDefinition": "Proximity is the relational nearness\u2014shared memory, kinship, repetition, and immediate feedback\u2014that lets small groups regulate behavior before scale breaks it. When proximity weakens, moral coordination must be simplified, standardized, or stored in stone, scroll, and archive.",
+      "shortDefinition": "Proximity is relational nearness\u2014shared memory, kinship, repetition, and immediate feedback\u2014that lets small groups regulate behavior before scale breaks it. It differs from contact, which names staying close to what was said; and from connection, which names durable reachability after conversation.",
       "termKind": "supporting",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-contact",
+        "concept-connection",
+        "concept-feedback"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-before-certainty-arrives"
       ],
+      "longDefinition": "Proximity names the moral regulation that familiarity once carried\u2014deviations noticed quickly, authority personal, feedback immediate. It becomes important in Before Certainty Arrives when scale weakens nearness and coordination must be simplified, standardized, or stored in stone and archive. It helps preserve accountability at human scale, but can fail when proximity is assumed lost while inherited tools resist revision. It differs from contact because proximity is relational nearness over time; contact is staying close to unfinished meaning in the moment. It differs from connection because proximity names ongoing nearness; connection names what persists after a specific exchange ends.",
       "recognitionSignals": [
         "small groups regulate behavior through familiarity and shared memory",
         "deviations are noticed quickly when authority is personal",
@@ -8704,6 +8912,7 @@
       },
       "id": "concept-proximity",
       "isCoreTerm": false,
+      "definition": "Proximity names the moral regulation that familiarity once carried\u2014deviations noticed quickly, authority personal, feedback immediate. It becomes important in Before Certainty Arrives when scale weakens nearness and coordination must be simplified, standardized, or stored in stone and archive. It helps preserve accountability at human scale, but can fail when proximity is assumed lost while inherited tools resist revision. It differs from contact because proximity is relational nearness over time; contact is staying close to unfinished meaning in the moment. It differs from connection because proximity names ongoing nearness; connection names what persists after a specific exchange ends.",
       "mentionsByBook": {
         "book-after-certainty": 1,
         "book-before-certainty-arrives": 3,
@@ -8721,13 +8930,19 @@
     {
       "slug": "public-interpretation",
       "title": "Public interpretation",
-      "shortDefinition": "Interpretation that can coordinate judgment, contest authority, or enable repair within a shared space.",
+      "shortDefinition": "Public interpretation is interpretation that can coordinate judgment, contest authority, or enable repair within a shared space. It differs from private understanding, which persists without public influence.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-private-understanding",
+        "concept-interpretive-collapse",
+        "concept-interpretation",
+        "concept-repair"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-when-interpretation-no-longer-matters"
       ],
+      "longDefinition": "Public interpretation names evaluative activity that still connects reasons to standing across boundaries. It becomes important whenever legitimacy depends on more than enforcement or belonging alone. It helps preserve contestability and repair, but can fail when communication intensifies while evaluative space vanishes. It differs from private understanding because public interpretation must be able to matter publicly; it differs from interpretive collapse because collapse is the loss of this shared function, not failed comprehension alone.",
       "recognitionSignals": [
         "no shared evaluative space connects reasons to legitimacy",
         "evidence fails to accumulate force across boundaries",
@@ -8774,7 +8989,8 @@
         ]
       },
       "id": "concept-public-interpretation",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Public interpretation names evaluative activity that still connects reasons to standing across boundaries. It becomes important whenever legitimacy depends on more than enforcement or belonging alone. It helps preserve contestability and repair, but can fail when communication intensifies while evaluative space vanishes. It differs from private understanding because public interpretation must be able to matter publicly; it differs from interpretive collapse because collapse is the loss of this shared function, not failed comprehension alone."
     },
     {
       "slug": "publishing",
@@ -9062,13 +9278,19 @@
     {
       "slug": "repair",
       "title": "Repair",
-      "shortDefinition": "Attempts to correct authority through transparency, accountability, dialogue, or justification.",
+      "shortDefinition": "Repair is the attempt to restore damaged trust, legitimacy, or consequence-contact after harm or drift. It aims to rebuild the conditions under which correction can matter again.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-correction",
+        "concept-witness",
+        "concept-accountability",
+        "concept-trust"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-when-interpretation-no-longer-matters"
       ],
+      "longDefinition": "Repair names the work of mending what authority, coordination, or relationship has strained\u2014not merely explaining, apologizing, or documenting harm. It becomes important after drift, betrayal, or structural decoupling has weakened the link between action and answerability. It helps preserve legitimacy and renewed participation, but can fail when repair language persists while traction disappears\u2014or when more interpretation accelerates rather than constrains authority. It differs from correction because repair addresses damaged standing and trust, not only mistaken belief; it differs from accountability because repair seeks restoration, not only exposure; it differs from witness because repair still aims to change the scene, not only preserve record.",
       "recognitionSignals": [
         "transparency and accountability language remain while traction disappears",
         "clarification or exposure intensifies rather than constrains authority",
@@ -9115,7 +9337,8 @@
         ]
       },
       "id": "concept-repair",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Repair names the work of mending what authority, coordination, or relationship has strained\u2014not merely explaining, apologizing, or documenting harm. It becomes important after drift, betrayal, or structural decoupling has weakened the link between action and answerability. It helps preserve legitimacy and renewed participation, but can fail when repair language persists while traction disappears\u2014or when more interpretation accelerates rather than constrains authority. It differs from correction because repair addresses damaged standing and trust, not only mistaken belief; it differs from accountability because repair seeks restoration, not only exposure; it differs from witness because repair still aims to change the scene, not only preserve record."
     },
     {
       "slug": "residue",
@@ -9189,15 +9412,20 @@
     {
       "slug": "responsibility",
       "title": "Responsibility",
-      "shortDefinition": "Responsibility is the durable relation between action and answerability. It includes not only causal involvement but also the obligation to account for consequences and respond to what is revealed by them.",
+      "shortDefinition": "Responsibility is the durable relation between action and answerability\u2014causal involvement plus the obligation to account for consequences. It differs from accountability, which emphasizes exposure to consequence; and from answerability, which names obligation to those affected by partial-perspective decisions.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-accountability",
+        "concept-answerability",
+        "concept-agency"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-after-certainty",
         "book-before-certainty-arrives",
         "book-coupling"
       ],
+      "longDefinition": "Responsibility names what continues after action\u2014the obligation to remain responsive to what one's choices set in motion. It becomes important when systems scale beyond any one person's control but moral weight still accumulates. It helps preserve sustained answerability, but can fail when responsibility collapses into futility or when symbolic gestures replace contact with effects. It differs from accountability because responsibility names the enduring relation; accountability names whether consequence still reaches those who can respond.",
       "recognitionSignals": [
         "responsibility collapses into futility when control is absent",
         "innocence offers relief from participation at scale",
@@ -9235,7 +9463,8 @@
         ]
       },
       "id": "concept-responsibility",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Responsibility names what continues after action\u2014the obligation to remain responsive to what one's choices set in motion. It becomes important when systems scale beyond any one person's control but moral weight still accumulates. It helps preserve sustained answerability, but can fail when responsibility collapses into futility or when symbolic gestures replace contact with effects. It differs from accountability because responsibility names the enduring relation; accountability names whether consequence still reaches those who can respond."
     },
     {
       "slug": "reversibility",
@@ -9304,13 +9533,18 @@
     {
       "slug": "revisability",
       "title": "Revisability",
-      "shortDefinition": "Keeping decisions, models, and recommendations open to correction after the first pass.",
+      "shortDefinition": "Revisability is disciplined openness to correction after action has begun. It is not indecision\u2014it is designing decisions, models, and commitments so reality can still update them.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-correction",
+        "concept-judgment",
+        "concept-certainty"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-what-we-cannot-see"
       ],
+      "longDefinition": "Revisability names the capacity to change course without pretending the first pass was final. It becomes important whenever uncertainty remains after action starts and harm can accumulate while people wait for closure. It helps preserve contact with changing conditions and proportionate response, but can fail when updating is labeled flip-flopping or when institutions punish revisions that unsettle prior verdicts. It differs from correction because revisability is the designed openness; correction is the specific act of noticing mismatch and updating. It differs from judgment because revisability keeps decisions attached to reality over time, not only at the moment of decision.",
       "recognitionSignals": [
         "forecasts, hires, or evacuations that made sense at noon need refinement by evening",
         "updating is labeled flip-flopping rather than keeping the decision attached to reality",
@@ -9319,47 +9553,40 @@
         "triggers for escalation and de-escalation were never named before acting"
       ],
       "questions": [
-        "What would change your mind\u2014and is there a path for that information to count?",
-        "Where is revision built into structure versus treated as embarrassment?",
-        "Who benefits when the first pass must feel finished?"
+        "What would have to be true for this decision to change?",
+        "Where is revision treated as weakness rather than contact with reality?",
+        "What remains revisable after public commitment?"
       ],
       "counterbalances": [
-        "name revision triggers before outcomes are known",
-        "treat post-decision learning as part of responsible judgment, not weakness",
-        "build appeal, audit, and sunset loops that normalize unlearning"
+        "name revision triggers before acting",
+        "separate seriousness from permanent settlement",
+        "reward updates that track reality"
       ],
       "manifestations": {
+        "leadership": [
+          "executives delay public commitment to preserve revisability"
+        ],
         "organizations": [
-          "aviation and science cultures treat failed replication as information, not insult"
-        ],
-        "family": [
-          "families revisit school or care choices when new information arrives without shame scripts"
-        ],
-        "politics": [
-          "sunset clauses and appeals exist because first judgments were always partial"
+          "reviews punish updates that unsettle prior verdicts"
         ]
       },
       "trajectory": {
         "earlySignals": [
-          "assumptions and disconfirming checks are stated alongside initial recommendations",
-          "institutions publish failures and null results, not only successes"
+          "decisions can still be updated without loss of standing"
         ],
         "intensificationSignals": [
-          "coherence maintenance punishes updates that unsettle defended stories",
-          "peer-reviewed or approved labels freeze partial views as permanent"
+          "revision threatens coherence or narrative closure"
         ],
         "failureModes": [
-          "revisability collapses into performance\u2014feedback sought after the decision is made",
-          "institutions cannot forget on purpose when the world changes"
+          "institutions harden early calls into identity"
         ],
         "restorationPaths": [
-          "pre-registration, replication, and adversarial collaboration keep revision public",
-          "repair relationships and structures when partial sight missed cost-bearing angles",
-          "climate ensembles and safety loops make partiality visible across repeated passes"
+          "design processes for update without shame"
         ]
       },
       "id": "concept-revisability",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Revisability names the capacity to change course without pretending the first pass was final. It becomes important whenever uncertainty remains after action starts and harm can accumulate while people wait for closure. It helps preserve contact with changing conditions and proportionate response, but can fail when updating is labeled flip-flopping or when institutions punish revisions that unsettle prior verdicts. It differs from correction because revisability is the designed openness; correction is the specific act of noticing mismatch and updating. It differs from judgment because revisability keeps decisions attached to reality over time, not only at the moment of decision."
     },
     {
       "slug": "scalability",
@@ -10408,13 +10635,19 @@
     {
       "slug": "total-authority",
       "title": "Total authority",
-      "shortDefinition": "Authority in which public interpretation disappears entirely, replaced by enforcement, mobilization, and the elimination of evaluative space.",
+      "shortDefinition": "Total authority is authority in which public interpretation disappears entirely, replaced by enforcement, mobilization, and the elimination of evaluative space. It differs from post-interpretive authority, where some private understanding may still persist.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-post-interpretive-authority",
+        "concept-interpretive-collapse",
+        "concept-witness",
+        "concept-public-interpretation"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-when-interpretation-no-longer-matters"
       ],
+      "longDefinition": "Total authority names the extreme case where public disagreement becomes life-threatening and independent evaluative institutions are eliminated. Communication may intensify while assessment vanishes\u2014public meaning enacted as obedience, not claim. It differs from post-interpretive authority because total authority extinguishes public evaluative space rather than merely decoupling legitimacy from external interpretation. It differs from interpretive collapse because total authority actively eliminates evaluative activity; collapse can occur without full elimination.",
       "recognitionSignals": [
         "public disagreement becomes life-threatening",
         "communication intensifies while evaluative space disappears",
@@ -10461,7 +10694,8 @@
         ]
       },
       "id": "concept-total-authority",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Total authority names the extreme case where public disagreement becomes life-threatening and independent evaluative institutions are eliminated. Communication may intensify while assessment vanishes\u2014public meaning enacted as obedience, not claim. It differs from post-interpretive authority because total authority extinguishes public evaluative space rather than merely decoupling legitimacy from external interpretation. It differs from interpretive collapse because total authority actively eliminates evaluative activity; collapse can occur without full elimination."
     },
     {
       "slug": "transitional-authority",
@@ -10523,13 +10757,20 @@
     {
       "slug": "trust",
       "title": "Trust",
-      "shortDefinition": "Extending verification beyond what one person can check alone; also the channel through which incentive and delegation bend what reaches you.",
+      "shortDefinition": "Trust is not blind belief. It is the extension of action beyond what one person can personally verify\u2014through signals, history, institutions, relationships, and feedback. In this project, trust matters when partial perspectives must still coordinate.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-finite-perspective",
+        "concept-bias",
+        "concept-feedback",
+        "concept-integration",
+        "concept-judgment"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-what-we-cannot-see"
       ],
+      "longDefinition": "Trust names the bridge that lets people act together when no one holds the whole scene. It becomes important when verification must extend beyond firsthand sight\u2014through specialists, records, institutions, or repeated experience. It helps preserve participation across partial perspectives, but can fail when trust stops tracking reality and closure feels safer than checking. It differs from certainty because trust accepts incomplete verification; it differs from blind belief because it still depends on signals that can be tested, strained, or withdrawn.",
       "recognitionSignals": [
         "decisions rely on maps, labels, trials, or inspectors never verified firsthand",
         "a second opinion appears only after an uneasy night online",
@@ -10578,7 +10819,8 @@
         ]
       },
       "id": "concept-trust",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Trust names the bridge that lets people act together when no one holds the whole scene. It becomes important when verification must extend beyond firsthand sight\u2014through specialists, records, institutions, or repeated experience. It helps preserve participation across partial perspectives, but can fail when trust stops tracking reality and closure feels safer than checking. It differs from certainty because trust accepts incomplete verification; it differs from blind belief because it still depends on signals that can be tested, strained, or withdrawn."
     },
     {
       "slug": "uncertainty",
@@ -10861,13 +11103,19 @@
     {
       "slug": "witness",
       "title": "Witness",
-      "shortDefinition": "Judgment that functions to record, refuse, or remember rather than to correct or repair.",
+      "shortDefinition": "Witness is judgment that preserves reality when correction is not yet possible. It records, refuses erasure, remembers harm, or keeps meaning alive when authority cannot yet be repaired.",
       "termKind": "extended",
-      "relatedConcepts": [],
+      "relatedConcepts": [
+        "concept-repair",
+        "concept-correction",
+        "concept-judgment",
+        "concept-accountability"
+      ],
       "relatedPatterns": [],
       "relatedBooks": [
         "book-when-interpretation-no-longer-matters"
       ],
+      "longDefinition": "Witness names a form of judgment that does not pretend to fix what it cannot yet change. It becomes important when mediating institutions are gone, damaged, or structurally unable to connect interpretation to consequence. It helps preserve memory, moral clarity, and refusal of erasure, but can fail when witness is mistaken for intervention\u2014or when expressive condemnation substitutes for understanding structural limits. It differs from repair because witness does not assume standing can be restored; it differs from correction because witness may record harm without altering it; it differs from accountability because witness can persist where consequence pathways are blocked.",
       "recognitionSignals": [
         "condemnation remains morally serious but structurally inert",
         "judgment records harm without altering standing",
@@ -10914,7 +11162,8 @@
         ]
       },
       "id": "concept-witness",
-      "isCoreTerm": false
+      "isCoreTerm": false,
+      "definition": "Witness names a form of judgment that does not pretend to fix what it cannot yet change. It becomes important when mediating institutions are gone, damaged, or structurally unable to connect interpretation to consequence. It helps preserve memory, moral clarity, and refusal of erasure, but can fail when witness is mistaken for intervention\u2014or when expressive condemnation substitutes for understanding structural limits. It differs from repair because witness does not assume standing can be restored; it differs from correction because witness may record harm without altering it; it differs from accountability because witness can persist where consequence pathways are blocked."
     }
   ],
   "patterns": [
@@ -18648,6 +18897,66 @@
       "target": "concept-correction",
       "relationship": "preserves",
       "description": "Uncertainty keeps systems open to revision and learning."
+    },
+    {
+      "source": "concept-alignment",
+      "target": "concept-alignment-at-scale",
+      "relationship": "reproduces",
+      "description": "Belonging-signal alignment can harden into institutional reproduction at scale."
+    },
+    {
+      "source": "concept-repair",
+      "target": "concept-witness",
+      "relationship": "contrasts",
+      "description": "Repair aims to restore standing; witness preserves record when repair cannot yet change the scene."
+    },
+    {
+      "source": "concept-correction",
+      "target": "concept-repair",
+      "relationship": "contrasts",
+      "description": "Correction updates belief and behavior; repair addresses damaged trust and legitimacy."
+    },
+    {
+      "source": "concept-correction",
+      "target": "concept-revisability",
+      "relationship": "requires",
+      "description": "Correction depends on decisions remaining open to update after action begins."
+    },
+    {
+      "source": "concept-constraint",
+      "target": "concept-constraints",
+      "relationship": "contrasts",
+      "description": "Constraint names originating historical pressure; constraints names operational limits inside a system."
+    },
+    {
+      "source": "concept-public-interpretation",
+      "target": "concept-interpretive-collapse",
+      "relationship": "precedes",
+      "description": "Interpretive collapse is the loss of public interpretation as shared evaluative activity."
+    },
+    {
+      "source": "concept-post-interpretive-authority",
+      "target": "concept-total-authority",
+      "relationship": "intensifies",
+      "description": "Post-interpretive authority can intensify toward total elimination of public evaluative space."
+    },
+    {
+      "source": "concept-cohesion",
+      "target": "concept-coupling",
+      "relationship": "complements",
+      "description": "Cohesion clarifies ownership within boundaries; coupling tracks attachment between action and consequence."
+    },
+    {
+      "source": "concept-proximity",
+      "target": "concept-contact",
+      "relationship": "contrasts",
+      "description": "Proximity is ongoing relational nearness; contact is staying close to unfinished meaning in the moment."
+    },
+    {
+      "source": "concept-drift",
+      "target": "concept-normalization",
+      "relationship": "precedes",
+      "description": "Drift can settle into normalization when decoupling becomes expected baseline."
     }
   ],
   "ontology": {
