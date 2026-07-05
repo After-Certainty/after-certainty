@@ -10,4 +10,56 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - why-collaboration-is-so-hard
-
+recognitionSignals:
+- Collaboration feels unstable to those performing maintenance and efficient to those
+  benefiting from it
+- Relational repair, context-holding, and translation absent from tickets, slides,
+  and revenue lines
+- The same person onboard newcomers, holds the temporary spreadsheet, and repairs
+  trust after conflict
+- Meetings multiply and status updates proliferate while actual coordination thins
+- Field staff burn out while dashboards show reach targets succeeded
+questions:
+- What work fails if removed but never appears in artifacts the org counts?
+- Who translates between functions when the group churns members?
+- Are legibility demands eating time that would go to invisible coordination?
+counterbalances:
+- Explicit credit for maintenance in retrospectives and reviews
+- Protect time for context-holding rather than narrated progress alone
+- Name translation labor when the group appears aligned from nods alone
+trajectory:
+  earlySignals:
+  - Maintenance keeps meetings smooth while staying unnamed on any chart
+  - Invisible work prevents failure modes others never see coming
+  intensificationSignals:
+  - Chronic load on people with social capital to spare—or without capital to refuse
+  - Efficiency drives ask the same maintainers to "just handle" human fallout on a
+    clock
+  - Resignation removes a translator between factions—a loss that looked sudden only
+    because the work was never legible
+  failureModes:
+  - Organization optimizes visible activity while coordination thins
+  - Extraction of care, translation, and repair from those already carrying load
+  - Group hits milestones while one departure collapses handoffs
+  restorationPaths:
+  - Make maintenance visible before burnout becomes withdrawal
+  - Pair legibility tools with trust rather than substituting for unseen labor
+  - Name who holds context when key people leave
+manifestations:
+  organizations:
+  - Archive liaison holds consent norms and narrator trust while launch shows only
+    website and press release
+  - Program hits reach targets on the dashboard while field staff burn out on the ground
+  teams:
+  - Associate professor tracks accreditation language while chairs debate intellectual
+    direction in committee
+  - One member defuses tension, checks on quieter voices, and reframes attacks so the
+    meeting can end with a decision
+  leadership:
+  - Nurses, junior engineers, and admin staff carry constraint pain without authority
+    to change it
+  - Directors produce dashboards that calm boards who never attend site visits
+  family:
+  - One member translates between treasurer, carpenter, and board definitions of ready
+  - Smooth family meetings depend on emotional regulation others experience as natural
+    harmony

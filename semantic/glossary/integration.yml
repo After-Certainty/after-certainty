@@ -7,4 +7,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see
+recognitionSignals:
+- many voices speak but the leader decides what they already decided
+- disagreement is treated as disloyalty rather than information about missing terrain
+- ten copies of the same perspective are counted as ten perspectives
+- partial views are averaged instead of assembled into a larger model
+- each sketch gets its piece right but no one lays the sketches side by side
+questions:
+- What did each partial view notice that others could not see from where they stood?
+- Is this compromise, performance, or honest integration?
+- Who still owns the call after many eyes widen the model?
+counterbalances:
+- record dissent before the decision hardens
+- separate I do not like this from I notice something you may not have counted
+- return to the shared model when new information arrives
+trajectory:
+  earlySignals:
+  - colleagues catch errors, tones, or stress fractures invisible from another role
+  - mission-style rooms assemble specialties without averaging opinions
+  intensificationSignals:
+  - consensus theater displays voices without letting them change the model
+  - false balance treats every partial line as equally weighted regardless of grounding
+  failureModes:
+  - groupthink mistreats partial agreement as completeness
+  - integration dissolves into collective fog that no one can answer for
+  restorationPaths:
+  - build shared models from many partial sketches of the same terrain
+  - trust methods when work can be checked and dissent has a path
+  - co-create outputs with human, institutional, and machine partial views labeled
+manifestations:
+  organizations:
+  - Apollo 13 fixes integrate incompatible canisters, inventory, and cabin knowledge
+  politics:
+  - adversarial courts keep one side's story from closing the case alone
+  technology:
+  - clinician, patient, family, and model each hold partial case knowledge worth combining
 

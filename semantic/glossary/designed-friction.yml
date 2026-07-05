@@ -8,4 +8,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see
+recognitionSignals:
+- work is held long enough for other partial minds to notice what one author smoothed over
+- dissent channels exist on paper but require heroism to use
+- the first coherent story hardens before replication or appeal can run
+- peer review, red teams, or appeals are skipped when urgency or prestige demands closure
+- outcomes return as information rather than insult when near misses are reported
+questions:
+- What delay keeps a partial view from becoming untouchable?
+- Who gets a sanctioned chance to object before steel, software, or policy hardens?
+- Where does friction protect revision versus where does it only perform rigor?
+counterbalances:
+- build appeal outside the first chain of trust
+- pre-register tests and publish failures, not only successes
+- treat failure to replicate as information rather than insult
+trajectory:
+  earlySignals:
+  - design review, code review, or adversarial procedure invite different blind spots
+  - near-miss reporting channels invite partial sight before catastrophe
+  intensificationSignals:
+  - careers reward positive results while null findings stay in drawers
+  - consensus forms because repetition is unfashionable or underfunded
+  failureModes:
+  - peer reviewed is mistaken for settled forever
+  - friction becomes ritual without inquiry—checklist after disaster, then quiet
+  restorationPaths:
+  - adversarial collaboration where disagreeing parties design a shared test
+  - climate-model ensembles that make partiality visible across simulations
+  - ASRS-style reporting that turns near failure into institutional memory
+manifestations:
+  organizations:
+  - aviation safety reporting invites errors without default punishment
+  technology:
+  - operational readiness review and red teams break partial plans before deployment
+  politics:
+  - separation of powers slows partial rulers who would otherwise close the case alone
 

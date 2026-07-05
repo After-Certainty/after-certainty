@@ -7,4 +7,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see
+recognitionSignals:
+- a postmortem becomes policy while thousand small deviations stay scattered across shifts
+- engineers inherit Challenger or Therac-25 scars in procedures no one alive witnessed firsthand
+- we have always done it this way substitutes for we see clearly
+- dissent channels go quiet because nothing has gone wrong lately
+- the story of reform persists while the habit that made reform necessary returns
+questions:
+- What pain did this institution convert into structure—and what did it forget instead?
+- Where does memory strong enough to learn coexist with revision strong enough to unlearn?
+- Which partial reports still cannot enter the record without heroism?
+counterbalances:
+- sunset clauses and periodic reassessment when maps need redrawing
+- public record and audit trails that survive personnel turnover
+- near-miss loops that make partial sight usable before catastrophe
+trajectory:
+  earlySignals:
+  - archives, law, training, and handoffs distribute cognition across time
+  - democratic design integrates partial perspectives under continuing disagreement
+  intensificationSignals:
+  - metrics outlive the problems they measured and become the trusted map
+  - success makes prevention feel like bureaucracy worth cutting
+  failureModes:
+  - ritual without inquiry lets blind spots return wearing tradition's badge
+  - institutions forget on purpose too rarely and repeat harm under new names
+  restorationPaths:
+  - morbidity conferences and safety reforms that make silence costly
+  - dissent channels that do not require heroism to use
+  - redesign that eases partial reports into the record before dominance hardens
+manifestations:
+  organizations:
+  - NASA procedures carry institutional scar tissue after launch failures
+  politics:
+  - constitutional courts remember arguments longer than any one judge's tenure
+  technology:
+  - open-source projects remember patches after the bug felt personal to one maintainer
 

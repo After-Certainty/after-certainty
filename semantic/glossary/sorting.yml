@@ -7,4 +7,37 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters
-
+recognitionSignals:
+- statements distinguish allies from adversaries more than they inform
+- controversy demands response that clarifies loyalty
+- media amplification rewards transgression and polarization
+- disagreement ceases to be informative across group boundaries
+- meaning functions as badge rather than proposition
+questions:
+- Where does communication classify audiences instead of persuade?
+- What response would sorting demand from each side?
+- Can evidence travel—or only signal belonging?
+counterbalances:
+- build forums where disagreement tests claims not only loyalty
+- reduce incentives for controversy-as-boundary-marking
+- track whether messages inform or merely classify
+trajectory:
+  earlySignals:
+  - rhetoric still occasionally persuades undecided audiences
+  - fact disputes sometimes shift cross-group opinion
+  intensificationSignals:
+  - each episode reinforces partisan response patterns
+  - social media engagement rewards repetition over resolution
+  - cross-group persuasion ceases to be operative
+  failureModes:
+  - all public meaning reduced to ally-adversary classification
+  - exposure sorts audiences without altering core legitimacy
+  restorationPaths:
+  - restore shared standards before sorting fully replaces persuasion
+  - create cross-cutting institutions that reward evaluative agreement
+manifestations:
+  politics:
+  - campaign statements mark insider-outsider boundaries during impeachment and pandemic
+  - partisan media ecosystems interpret every event through loyalty lens
+  organizations:
+  - internal dissent reframed as insufficient vision or disloyalty

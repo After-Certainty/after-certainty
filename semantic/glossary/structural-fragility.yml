@@ -8,4 +8,55 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - why-collaboration-is-so-hard
-
+recognitionSignals:
+- Working lab or team shows argument, failed experiments, and moods swinging—not
+  quiet steady progress
+- Wobble from diffuse ownership, uneven visibility, and partial coherence despite skilled,
+  sincere people
+- Inside feels less coherent than retrospectives imply; outside assumes calm
+- Strain still permits revision and dissent; collapse replaces them with compliance
+  and residue
+- Contributors offer only defensible ideas when ambiguity tolerance shrinks
+questions:
+- Is this strain or collapse—still room for dissent and repair?
+- What load is uneven this week?
+- What disagreement needs a container rather than a winner?
+counterbalances:
+- Treat instability as structure before defaulting to character interventions
+- Distinguish retrospective coherence from live collaboration messiness
+- Monitor contribution thinning as structural signal, not motivation problem
+trajectory:
+  earlySignals:
+  - Normal wobble under shared contribution; open to revision
+  - Project feels unstable before anything measurable fails
+  intensificationSignals:
+  - Over-correction with more control, metrics, and performed unity
+  - Ambiguity tolerance shrinks faster than scope
+  - Leaders cannot distinguish strain from collapse and intervene destructively
+  failureModes:
+  - Collaboration collapses into compliance—all visible motion, little mutual updating
+  - Fragility punished instead of survived; residue replaces learning
+  - Organizations demand earlier closure while keeping the same ambition
+  restorationPaths:
+  - Stabilizing practices that survive uncertainty without removing fragility
+  - Bounded ambiguity tolerance with named next actions and revisit dates
+  - Continued contribution while uncertainty remains—partial coherence enough to act
+manifestations:
+  organizations:
+  - Research lab fragile in the sense that matters—open to revision, unable to pretend
+    outcome is owned in advance
+  - Cross-functional initiative wobbles until shared constraint ordering exists
+  teams:
+  - Two engineers leave the same meeting with opposite impressions—the floor already
+    shifting underfoot
+  - Stable-looking team notices thinning contribution—fewer questions, more offline
+    work
+  leadership:
+  - Persistent uncertainty in markets, patients, and evidence—stability as continued
+    contribution, not certainty
+  - Executive pressure produces managerial certainty performance that drives best contributors
+    out of public conversation
+  family:
+  - Redesign meetings feel unstable while no one has objectively failed yet
+  - Family tolerates not-knowing inside bounded forums with decision rights—not punishment
+    for visible doubt

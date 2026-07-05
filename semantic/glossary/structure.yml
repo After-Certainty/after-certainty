@@ -8,4 +8,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see
+recognitionSignals:
+- dashboards, KPIs, or mandates decide what gets counted before anyone argues from zero
+- harm migrates to corners the metric was never built to visit
+- a map or ledger makes a pattern seeable at a scale no single visit could hold
+- technology freezes last year's deployment choices until something breaks loudly
+- numbers on screens outrank nurse unease or tenant descriptions of alleys
+questions:
+- What must be counted here—and what remains off the ledger by design?
+- Where is the map accurate within its frame but false to the territory?
+- Who redraws the map when the mandate, budget, or metric outlives the problem?
+counterbalances:
+- morbidity conferences, public comment, and red teams change what gets counted
+- human review where models decide; audit trails when summaries enter records
+- remember a map is a decision about what to make navigable—not the territory
+trajectory:
+  earlySignals:
+  - forms, workflows, and jurisdictions coordinate sight across distance and scale
+  - Snow-style maps reveal pumps or clusters invisible block by block
+  intensificationSignals:
+  - engagement, wait-time, or test-score metrics become the trusted world picture
+  - algorithms operationalize yesterday's partial choices at velocity that outruns correction
+  failureModes:
+  - structure is treated as complete sight rather than assigned counting
+  - redesign waits for catastrophe because the dashboard stayed green within its frame
+  restorationPaths:
+  - deliberate redesign of metrics, mandates, and appeal paths
+  - integrate partial reports before one pipeline dominates unchecked
+  - pair structural tools with designed friction and institutional memory
+manifestations:
+  organizations:
+  - hospitals track waits while harm moves; schools track scores while curiosity narrows
+  technology:
+  - ranking functions and sensor networks assign attention budgets at scale
+  politics:
+  - cities count one emergency category while another never received a label
 

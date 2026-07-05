@@ -8,4 +8,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see
+recognitionSignals:
+- the same mechanism is called focus when we approve it and bias when we do not
+- careful people in the same room still notice different details
+- institutions built for accuracy still run on selective counting
+- public talk treats bias as moral stain while calling one's own narrowing expertise
+- layers of attention, memory, interpretation, trust, and structure stack into one vantage point
+questions:
+- If bias is the selective work through which finite perspectives become possible, what is being selected out?
+- Why is the word saved for other people's distortions and rarely for mechanisms we depend on?
+- Where does adaptation become invisible because it solved a real problem first?
+counterbalances:
+- trace the architecture before issuing verdicts about bad faith alone
+- compare partial archives instead of expecting one mind to hold the whole scene
+- redesign what gets counted rather than demanding unbiased individuals
+trajectory:
+  earlySignals:
+  - selection makes action possible where signal would otherwise drown consciousness
+  - training shapes budgets toward patterns that usually matter in a role
+  intensificationSignals:
+  - partial sight is mistaken for neutral sight or complete sight
+  - defect stories hide how structures assign what must be counted
+  failureModes:
+  - bias talk collapses into moral theater while structural selection persists
+  - teams treat disagreement as disloyalty rather than different blind spots
+  restorationPaths:
+  - make layers visible—attention, memory, trust, structure—before naming bias
+  - integrate many partial views instead of hunting the unbiased person
+  - change maps and metrics when harm migrates off the ledger
+manifestations:
+  organizations:
+  - hospital wait-time metrics improve while harm moves to corners the score never visits
+  politics:
+  - two honest witnesses describe the same intersection as if they were not there together
+  technology:
+  - ranking functions and training data bake selective sight into pipelines
 

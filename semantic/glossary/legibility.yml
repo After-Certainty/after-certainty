@@ -8,4 +8,48 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - why-collaboration-is-so-hard
-
+recognitionSignals:
+- Dashboards calm funders or boards while field coordination narrows
+- Status updates proliferate but no one acts on them—frequency without consequence
+- People optimize what is counted rather than what is needed
+- Groups require narrated progress when trust is thin
+- Premature clarity arrives as templates and mandatory fields before judgment can adapt
+questions:
+- Is legibility serving trust or substituting for it?
+- Do metrics answer questions the group already shares?
+- Are updates demanded from contributors who already lack time?
+counterbalances:
+- Sequence trust first with legibility as audit tool, not replacement
+- Tie dashboards to decisions, not merely anxiety reduction
+- Limit narration to updates someone will act on
+trajectory:
+  earlySignals:
+  - Visible work maps cleanly to artifacts while invisible work goes unrewarded
+  - Board or executive requests for "clearer metrics" behind distance from the work
+  intensificationSignals:
+  - Shift toward visible activity under funder or executive pressure
+  - Legibility demands eat the work alive—form completion replaces problem-solving
+  - Collaboration appears more active while actual coordination thins
+  failureModes:
+  - Legibility substitutes for relationships, repair, and believable follow-through
+  - Program succeeds on dashboard and fails on the ground
+  - Every field must be filled before work proceeds, signaling trust in process over
+    judgment
+  restorationPaths:
+  - Metrics that reflect both reach and field sustainability
+  - Decision logs that record why, not only what was decided
+  - Trust-heavy collaboration using metrics after shared questions exist
+manifestations:
+  organizations:
+  - Nonprofit board calmed by output dashboards while site-visit trust never rebuilt
+  - Quarterly reviews and roadmap theater consume time that could go into the work
+  teams:
+  - Engineers stop raising structural concerns when every exception requires VP approval
+  - Standups and tickets look immaculate while early warning disappears from meetings
+  leadership:
+  - Executives demand percent-complete estimates when trust across distance is thin
+  - Programs hit reach targets while burning out the staff who make delivery possible
+  family:
+  - Children's room redesign measured by survey completion while quiet-nook versus
+    program-space tradeoffs stay obscure
+  - Family updates proliferate while no one acts on the relational work they describe

@@ -8,4 +8,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see
+recognitionSignals:
+- a decision is defended as finished once the vote or order is recorded
+- affected people learn what was decided only after the outcome lands
+- leaders describe good faith as sufficient without naming what they learned afterward
+- repair waits for a lawsuit or scandal rather than returning when sight widens
+- the record survives the meeting but not the lives the decision touched
+questions:
+- Who bears the cost of what you chose from somewhere—and what do you still owe them?
+- What were you willing to learn before deciding, and what are you willing to learn after?
+- Where does answerability end if partial sight never becomes complete?
+counterbalances:
+- build fair process before the choice hardens
+- return to change what can still be changed when new partial views arrive
+- document assumptions and triggers that would revise the call
+trajectory:
+  earlySignals:
+  - decision-makers name stakeholders but consult them after the packet is fixed
+  - accountability language appears in charters without post-decision review loops
+  intensificationSignals:
+  - temporary fixes become permanent for people who had no seat at the table
+  - dissent is heard as attack rather than as a gap in partial sight
+  failureModes:
+  - token consultation displays openness while outcomes stay unchanged
+  - answerability collapses into blame theater after harm is visible
+  restorationPaths:
+  - walk the consequence route before calling the plan interim
+  - distinguish hearing from weighing and weighing from acting
+  - build routines where foreign perspectives arrive before temporary hardens
+manifestations:
+  organizations:
+  - housing boards vote from spreadsheets while tenants describe alleys absent from the packet
+  family:
+  - parents decide for children without revisiting when circumstances shift
+  politics:
+  - officials export risk by delaying until hindsight can judge them
 
