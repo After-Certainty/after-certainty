@@ -22,50 +22,6 @@ relatedBooks:
 - how-meaning-moves
 - coupling
 recognitionSignals:
-- clarification gets sorted as proof for the first story
-- people explain more while contact with source context shrinks
-- certainty outlives what was actually said or meant
-- new facts get heard as support for a prior conclusion
-- shared reality narrows while communication continues
-questions:
-- When did the read stop tracking live contact with what happened?
-- What evidence is being filtered through the first conclusion?
-- Would correction feel threatening because certainty already feels settled?
-counterbalances:
-- re-expose people to source context instead of adding more argument
-- ask what would falsify the current read before defending it
-- treat revision as update rather than personal indictment
-trajectory:
-  earlySignals:
-  - provisional interpretation circulates without return to source
-  - confirmation bias starts filtering new detail
-  intensificationSignals:
-  - repetition makes the distorted read feel like memory of fact
-  - social alignment penalizes interpretive difference
-  failureModes:
-  - correction experiences as attack rather than update
-  - communication continues while shared reality shrinks
-  restorationPaths:
-  - rebuild contact with original exchange and setting
-  - separate coherence of the story from accuracy to what occurred
-manifestations:
-  family:
-  - explanations meant to clear the air reopen old chapters as proof
-  - retellings harden judgments about loyalty or character
-  leadership:
-  - trial balloons become policy legends that resist slow correction
-  - legitimacy transfer substitutes old trust for today's reasons
-  organizations:
-  - more feedback detail tightens a misread instead of correcting it
-  - surface alignment masks private revision of what can safely be said
-relatedSources:
-- easterbrook-j-a-the-effect-of-emotion-on-cue-utilization
-- edmondson-amy-c-the-fearless-organization
-- gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious
-- kruglanski-arie-w-the-need-for-cognitive-closure
-- ross-lee-and-andrew-ward-naive-realism-in-everyday-life
-- ross-lee-and-richard-nisbett-the-person-and-the-situation
-recognitionSignals:
 - dashboards and reports stay stable while lived conditions shift faster
 - metrics improve while the experience they were meant to track worsens
 - corrected versions circulate weakly while earlier framings keep winning
@@ -102,3 +58,11 @@ manifestations:
   organizations:
   - media corrections update the article while algorithms amplify the original
   - audits succeed while operational failures continue unchanged
+relatedSources:
+- easterbrook-j-a-the-effect-of-emotion-on-cue-utilization
+- edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea
+- gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious
+- kruglanski-arie-w-the-need-for-cognitive-closure
+- ross-lee-and-andrew-ward-naive-realism-in-everyday-life
+- ross-lee-and-richard-nisbett-the-person-and-the-situation
+

@@ -4,13 +4,21 @@ type: book
 summary: 'Weber, Max. *Economy and Society: An Outline of Interpretive Sociology*.
   Vol. 1. Edited by Guenther Roth and Claus Wittich. Berkeley: University of California
   Press, 1978.'
-concepts: []
-patterns: []
+concepts:
+- correction
+- distance
+- guest-leadership
+- legitimacy
+patterns:
+- disagreement-is-suppressed
 relatedBooks:
 - how-trust-forms
 - living-in-sediment
 - when-accountability-no-longer-expires
 - when-authority-outlives-accountability
+- when-interpretation-no-longer-matters
 - when-moral-seriousness-scales
+- when-others-look-to-you-v1
 - when-others-look-to-you-v2
 - when-trust-stops-tracking-reality
+

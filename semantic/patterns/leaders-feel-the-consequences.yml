@@ -20,7 +20,7 @@ relatedPatterns:
 relatedBooks:
 - when-others-look-to-you-v1
 relatedSources:
--   scott-james-c-domination-and-the-arts-of-resistance-hidden
+- scott-james-c-domination-and-the-arts-of-resistance-hidden-transcripts
 recognitionSignals:
 - whoever called the stop sits with fallout when trucks stay parked or loads go short
 - costs do not quietly slide onto route teams, docks, or hourly staff
@@ -50,9 +50,11 @@ trajectory:
   - pair every visible win with who paid for it
 manifestations:
   leadership:
-  - a director parks trucks and takes the blunt partner note instead of blaming the supervisor
+  - a director parks trucks and takes the blunt partner note instead of blaming the
+    supervisor
   organizations:
-  - rework from a rushed release lands on field teams while the center keeps on-time numbers
+  - rework from a rushed release lands on field teams while the center keeps on-time
+    numbers
   family:
   - a parent owns the awkward conversation when a child's plan creates cost for siblings
 media:
@@ -62,4 +64,6 @@ media:
     path: semantic/media/patterns/leaders-feel-the-consequences.png
     width: 1200
     height: 669
-    alt: Infographic summarizing how leaders stay tied to the consequences their decisions create.
+    alt: Infographic summarizing how leaders stay tied to the consequences their decisions
+      create.
+

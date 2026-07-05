@@ -3,9 +3,14 @@ name: 'Hannah Arendt — Eichmann in Jerusalem: A Report on the Banality of Evil
 type: book
 summary: 'Arendt, Hannah. *Eichmann in Jerusalem: A Report on the Banality of Evil*.
   New York: Penguin Books, 2006.'
-concepts: []
+concepts:
+- correction
+- guest-leadership
+- legitimacy
 patterns: []
 relatedBooks:
 - when-accountability-no-longer-expires
 - when-authority-outlives-accountability
 - when-moral-seriousness-scales
+- when-others-look-to-you-v1
+
