@@ -1,0 +1,55 @@
+slug: who-can-leave-safely
+title: Who can leave safely
+shortDefinition: Who can leave safely—the project, the meeting, the job—and who cannot?
+  High exit cost makes dissent expensive. Dependency shapes contribution for contractors
+  who must not rock the boat, caregivers who cannot walk away from unsafe systems, and
+  employees on visas with limited mobility. Exit cost includes relational and moral cost,
+  not only economic.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- why-collaboration-is-so-hard
+recognitionSignals:
+- Contractors who must not rock the boat; caregivers who cannot walk away from unsafe systems
+- Employees on visas with limited mobility bear more cost for dissent than tenured colleagues
+- Groups praise "voice" while punishing exit—the lesson about what voice may cost becomes clear
+- Same names appear under risk distribution and silent absorption lenses
+- High exit cost makes dissent expensive even when contribution is formally invited
+questions:
+- Who can leave the project, meeting, or job safely—and who cannot?
+- What relational or moral costs attach to exit beyond economics?
+- Does the group invite voice while making its exercise disproportionately costly for some?
+- Are contractors, caregivers, or juniors contributing inside fiction because exit is unsafe?
+counterbalances:
+- Map exit cost before attributing silence to attitude or alignment
+- Combine exit-cost lens with risk distribution and constraint visibility
+- Reduce dependency shaping contribution before demanding more voice
+trajectory:
+  earlySignals:
+  - Some contributors go quiet without leaving the room—withdrawal without departure
+  - Renewal cycles, visas, or caregiving ties make exit feel impossible
+  intensificationSignals:
+  - Dependency shapes contribution—must not rock the boat, cannot abandon patient population
+  - Group treats uncertainty as individual defect while exit cost stays unmapped
+  - Tolerant ambiguity coexists with silence dressed as alignment
+  failureModes:
+  - Dissent priced out for those with highest dependence and lowest mobility
+  - Repair targets character when structure—exit cost—is speaking
+  - Collaboration stable for low-risk participants and unstable for high-risk ones
+  restorationPaths:
+  - Name exit cost alongside explicit constraints in retrospectives or one-on-ones
+  - Write one-page lens sketch linking risk, absorption, and who cannot leave
+  - Target structure before personality when same names appear under multiple lenses
+manifestations:
+  organizations:
+  - Contract analyst on renewal cannot float unpopular hypothesis tenured professor can
+  - Visa-bound employees absorb constraint pain without authority to change it or leave
+  teams:
+  - Steering meeting where junior contributors stay quiet though concerns are real
+  - Project praised for voice while punishing anyone who tries to exit gracefully
+  leadership:
+  - Caregivers who cannot walk away from unsafe systems carry dissent cost alone
+  - Directors invite feedback while economic and career exit paths remain blocked
+  family:
+  - Member who cannot abandon elder care population absorbs unsafe dynamics without exit

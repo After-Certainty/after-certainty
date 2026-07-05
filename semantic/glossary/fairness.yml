@@ -10,3 +10,46 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
+recognitionSignals:
+- layoffs are executed through matrices combining role criticality, cost center, and performance bands
+- managers are expected to execute matrix output, not defend an exception their judgment supports
+- employees receive a process explanation that is accurate but not an account of what was owed
+- companies say rigorous equitable process rather than a manager made this call
+- ratings and calibration convert heterogeneous work into comparable categories
+questions:
+- Does formula answer whether the framework captured contribution or only consistent application?
+- When procedural fairness satisfies compliance, what interactional dignity costs remain?
+- Where has discretion become a weak defense while documented process is stronger?
+counterbalances:
+- preserve authored explanations where legal exposure allows
+- supplement matrices with context channels managers can document without weakening defense
+- measure informational and interactional fairness, not only procedural adherence
+trajectory:
+  earlySignals:
+  - fairness was experienced as authored—someone made the call and could be challenged
+  - single workforce decisions trigger legal, social, investor, and regulator attention
+  - variability under scrutiny looks like discrimination rather than context-sensitive judgment
+  intensificationSignals:
+  - performance scoring and redundancy matrices translate fairness from judgment to method
+  - scripted compliance kits ensure decisions survive procedural challenge
+  - managers implement decisions they would not author independently
+  failureModes:
+  - care for people moves to private discomfort and unofficial conversations
+  - trust erodes even as compliance improves
+  - people are reduced to abstractions in score distributions
+  restorationPaths:
+  - boards claim consistency while reopening space for case-specific moral account
+  - organizational justice practice informs beyond procedural dimensions
+  - formula narrows to what the system counts without claiming moral adequacy
+manifestations:
+  leadership:
+  - leaders reduce costs through centrally defined criteria despite local context knowledge
+  - managers know caregiving burdens and team fragility the matrix cannot represent
+  organizations:
+  - HR defends template timelines while employees ask why this happened to them
+  - calibration sessions create the appearance that the score is the person
+  politics:
+  - WARN compliance and severance formulas demonstrate procedural adherence at scale
+  - workforce decisions survive legal review through documented process, not discretionary narrative
+  family:
+  - a matrix row becomes a terminated role while context that made performance dip stays invisible

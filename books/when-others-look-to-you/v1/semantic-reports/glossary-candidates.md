@@ -1,7 +1,7 @@
 # Glossary candidates: when-others-look-to-you-v1
 
 - **Book directory:** `books/when-others-look-to-you/v1`
-- **Existing glossary entries:** 54
+- **Existing glossary entries:** 135
 
 - **Manuscript glossary:** `books/when-others-look-to-you/v1/back-matter/glossary.md`
 
@@ -22,24 +22,11 @@
 
 ## From prose (**Term** — in parts/)
 
-- `permission` (Permission) — _prose-bold_
+_No new bold-term candidates outside existing glossary._
 
 ## Ontology terms without glossary overlay
 
-- `acceleration` — ontology **core**
-- `alignment` — ontology **supporting**
-- `asymmetry` — ontology **supporting**
-- `contestability` — ontology **core**
-- `corrigibility` — ontology **core**
-- `friction` — ontology **core**
-- `mediation` — ontology **supporting**
-- `momentum` — ontology **supporting**
-- `moral-density` — ontology **core**
-- `normalization` — ontology **supporting**
-- `reciprocity` — ontology **core**
-- `reversibility` — ontology **supporting**
-- `thinking` — ontology **supporting**
-- `throughput` — ontology **supporting**
+_All ontology terms have `semantic/glossary/<slug>.yml`._
 
 ## Drafts written
 

@@ -1,7 +1,7 @@
 # Glossary candidates: when-trust-stops-tracking-reality
 
 - **Book directory:** `books/when-trust-stops-tracking-reality`
-- **Existing glossary entries:** 54
+- **Existing glossary entries:** 135
 
 - **Manuscript glossary:** _none found (checked glossary.md, back-matter/glossary.md, …)_
 
@@ -15,20 +15,7 @@ _No new bold-term candidates outside existing glossary._
 
 ## Ontology terms without glossary overlay
 
-- `acceleration` — ontology **core**
-- `alignment` — ontology **supporting**
-- `asymmetry` — ontology **supporting**
-- `contestability` — ontology **core**
-- `corrigibility` — ontology **core**
-- `friction` — ontology **core**
-- `mediation` — ontology **supporting**
-- `momentum` — ontology **supporting**
-- `moral-density` — ontology **core**
-- `normalization` — ontology **supporting**
-- `reciprocity` — ontology **core**
-- `reversibility` — ontology **supporting**
-- `thinking` — ontology **supporting**
-- `throughput` — ontology **supporting**
+_All ontology terms have `semantic/glossary/<slug>.yml`._
 
 ## Drafts written
 

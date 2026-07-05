@@ -11,3 +11,46 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
+recognitionSignals:
+- platforms say users engage with this content instead of we think this content is valuable
+- feeds surface what holds attention; what spreads is treated as what the platform believes worth surfacing
+- internal research on divisive amplification is set aside when the engagement cost looked too large
+- content moderators review material engagement logic sent wide while told they are not editors
+- users notice attention calibrated to keep them present rather than informed
+questions:
+- When does behavioral response stop being a signal and start being a definition of worth?
+- What original aims—connection, access, expression—does engagement fail to measure?
+- Who carries knowledge the organization cannot say without destabilizing its neutrality defense?
+counterbalances:
+- retain traceable human explanations for ranking decisions where scale allows
+- weigh trust and understanding signals beside raw engagement in product decisions
+- name structural deflection when the system promoted what people engaged with
+trajectory:
+  earlySignals:
+  - engagement signals are genuinely informative for product improvement
+  - editorial judgment becomes a legal and reputational liability at global scale
+  - behavioral data looks neutral because it describes user actions rather than platform preferences
+  intensificationSignals:
+  - engagement becomes an alternative moral language replacing editorial claims
+  - anger, fear, and tribal solidarity generate strong response without earning trust
+  - proposals to reduce emotionally amplifying content are weighed against user-growth targets
+  failureModes:
+  - moral responsibility for what the attention economy builds has no institutional address
+  - the gap distributes across billions of interactions with no single renunciation moment
+  - mission statements still name connection while operational language is engagement
+  restorationPaths:
+  - admit editorial culpability where neutrality architecture prevents unilateral fixes
+  - internal teams elevate amplification concerns even when engagement cost is unpredictable
+  - users gain language for the structural mismatch between stated aims and feed behavior
+manifestations:
+  leadership:
+  - executives testify that algorithms reflect user relevance signals, not editorial preference
+  - former product managers describe ranking choices that shaped political behavior under oath
+  organizations:
+  - ranking engineers raise amplification concerns weighed against user-growth targets
+  - moderation teams draw lines while distribution decisions stay engagement-driven
+  software:
+  - recommendation systems optimize behavioral response without measuring improved understanding
+  - what holds attention gets more attention regardless of mission statements about connection
+  family:
+  - a household notices feeds surface content that does not match what they said they wanted

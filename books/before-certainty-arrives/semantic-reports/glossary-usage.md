@@ -2,7 +2,7 @@
 
 - **Book directory:** `books/before-certainty-arrives`
 - **Glossary scope:** `book`
-- **Terms scanned:** 30
+- **Terms scanned:** 43
 - **Manuscript files:** 21
 
 ## Terms with occurrences
@@ -389,6 +389,10 @@
 - `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md:94` — What is preserved gradually gains authority through inheritance.
 - `books/before-certainty-arrives/parts/part-3-inherited-certainty/bridge.md:16` — Part III follows certainty once it has hardened into inheritance:
 
+### acceleration (Acceleration) — 1 hit(s)
+
+- `books/before-certainty-arrives/parts/part-2-compression-under-scale/chapter-4-population-growth-and-social-density.md:43` — ### **Warfare and the Acceleration of Authority**
+
 ### cohesion (Cohesion) — 1 hit(s)
 
 - `books/before-certainty-arrives/parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md:99` — group cohesion under conditions of threat. Early certainty was not a
@@ -399,5 +403,17 @@
 
 ## Terms with no occurrences
 
+- `asymmetry` (Asymmetry)
+- `contestability` (Contestability)
+- `corrigibility` (Corrigibility)
 - `drift` (Drift)
+- `friction` (Friction)
+- `mediation` (Mediation)
+- `momentum` (Momentum)
+- `moral-density` (Moral Density)
+- `normalization` (Normalization)
+- `reciprocity` (Reciprocity)
+- `reversibility` (Reversibility)
+- `thinking` (Thinking)
+- `throughput` (Throughput)
 

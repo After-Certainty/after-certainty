@@ -1,7 +1,7 @@
 # Glossary candidates: coupling
 
 - **Book directory:** `books/coupling`
-- **Existing glossary entries:** 54
+- **Existing glossary entries:** 135
 
 - **Manuscript glossary:** `books/coupling/back-matter/glossary.md`
 
@@ -20,11 +20,11 @@
 - `judgment` (Judgment) — **exists** — books/coupling/back-matter/glossary.md
 - `cohesion` (Cohesion) — **exists** — books/coupling/back-matter/glossary.md
 - `coupling` (Coupling) — **exists** — books/coupling/back-matter/glossary.md
-- `coordination-pressure` (Coordination Pressure) — **new** — books/coupling/back-matter/glossary.md
-- `coherence-maintenance` (Coherence Maintenance) — **new** — books/coupling/back-matter/glossary.md
-- `stale-representation` (Stale Representation) — **new** — books/coupling/back-matter/glossary.md
-- `context-collapse` (Context Collapse) — **new** — books/coupling/back-matter/glossary.md
-- `consequence-architecture` (Consequence Architecture) — **new** — books/coupling/back-matter/glossary.md
+- `coordination-pressure` (Coordination Pressure) — **exists** — books/coupling/back-matter/glossary.md
+- `coherence-maintenance` (Coherence Maintenance) — **exists** — books/coupling/back-matter/glossary.md
+- `stale-representation` (Stale Representation) — **exists** — books/coupling/back-matter/glossary.md
+- `context-collapse` (Context Collapse) — **exists** — books/coupling/back-matter/glossary.md
+- `consequence-architecture` (Consequence Architecture) — **exists** — books/coupling/back-matter/glossary.md
 - `temporal-coupling` (Temporal Coupling) — **exists** — books/coupling/back-matter/glossary.md
 - `operational-coupling` (Operational Coupling) — **exists** — books/coupling/back-matter/glossary.md
 - `governance-coupling` (Governance Coupling) — **exists** — books/coupling/back-matter/glossary.md
@@ -45,22 +45,9 @@ _No new bold-term candidates outside existing glossary._
 
 ## Ontology terms without glossary overlay
 
-- `acceleration` — ontology **core**
-- `alignment` — ontology **supporting**
-- `asymmetry` — ontology **supporting**
-- `contestability` — ontology **core**
-- `corrigibility` — ontology **core**
-- `friction` — ontology **core**
-- `mediation` — ontology **supporting**
-- `momentum` — ontology **supporting**
-- `moral-density` — ontology **core**
-- `normalization` — ontology **supporting**
-- `reciprocity` — ontology **core**
-- `reversibility` — ontology **supporting**
-- `thinking` — ontology **supporting**
-- `throughput` — ontology **supporting**
+_All ontology terms have `semantic/glossary/<slug>.yml`._
 
 ## Drafts written
 
-- `semantic/_drafts/generated/glossary/coupling/` (5 file(s))
+_No new draft files (all entries already exist or no glossary file)._
 
