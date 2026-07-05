@@ -109,6 +109,7 @@ const glossaryConceptSchema = z.object({
   slug: z.string().min(1),
   title: z.string().min(1),
   shortDefinition: z.string().min(1),
+  longDefinition: z.string().optional(),
   definition: z.string().optional(),
   /** When set, explore filters and graph styling can group by layer. */
   layer: z.string().min(1).optional(),

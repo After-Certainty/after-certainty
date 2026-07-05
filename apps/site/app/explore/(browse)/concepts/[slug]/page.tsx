@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!concept) return {};
   return createPageMetadata({
     title: concept.title,
-    description: concept.definition ?? concept.shortDefinition,
+    description: concept.longDefinition ?? concept.definition ?? concept.shortDefinition,
   });
 }
 
@@ -100,9 +100,9 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
         <p className="mt-8 max-w-2xl font-display text-xl italic leading-relaxed text-fg/90 md:text-2xl">
           {concept.shortDefinition}
         </p>
-        {concept.definition ? (
+        {concept.longDefinition ?? concept.definition ? (
           <div className="mt-12 max-w-2xl space-y-4 text-base leading-[1.85] text-muted md:text-[17px]">
-            <p className="whitespace-pre-wrap">{concept.definition}</p>
+            <p className="whitespace-pre-wrap">{concept.longDefinition ?? concept.definition}</p>
           </div>
         ) : null}
         <ExploreEntityDetailActions observatory={{ kind: "concept", slug: concept.slug }} />

@@ -249,7 +249,7 @@ export function buildDefinedTermJsonLd(params: {
     "@type": "DefinedTerm",
     "@id": `${pageUrl}#term`,
     name: concept.title,
-    description: concept.definition ?? concept.shortDefinition,
+    description: concept.longDefinition ?? concept.definition ?? concept.shortDefinition,
     url: pageUrl,
     termCode: concept.id,
     inDefinedTermSet: { "@id": GLOSSARY_TERM_SET_ID },
@@ -458,7 +458,7 @@ export function buildConceptPageJsonLd(params: {
     buildWebPageJsonLd({
       pageUrl,
       name: params.concept.title,
-      description: params.concept.definition ?? params.concept.shortDefinition,
+      description: params.concept.longDefinition ?? params.concept.definition ?? params.concept.shortDefinition,
       breadcrumbId: crumbsId,
       mainEntityId,
     }),
