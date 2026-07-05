@@ -2,10 +2,15 @@ slug: weber-max-economy-and-society-an-outline-of-interpretive-sociology
 name: 'Max Weber — Economy and Society: An Outline of Interpretive Sociology'
 type: book
 summary: 'Weber, Max. *Economy and Society: An Outline of Interpretive Sociology*.
-  Edited by Guenther Roth and Claus Wittich. Berkeley: University of California Press,
-  1978.'
+  Vol. 1. Edited by Guenther Roth and Claus Wittich. Berkeley: University of California
+  Press, 1978.'
 concepts: []
 patterns: []
 relatedBooks:
-- after-certainty
-- before-certainty-arrives
+- how-trust-forms
+- living-in-sediment
+- when-accountability-no-longer-expires
+- when-authority-outlives-accountability
+- when-moral-seriousness-scales
+- when-others-look-to-you-v2
+- when-trust-stops-tracking-reality

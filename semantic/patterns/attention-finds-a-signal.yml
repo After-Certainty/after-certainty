@@ -17,3 +17,41 @@ relatedPatterns:
 - meaning-outruns-the-words
 relatedBooks:
 - how-meaning-moves
+recognitionSignals:
+- tone or pause registers before the sentence is fully parsed
+- urgency in delivery settles the read before content is examined
+- authority shifts the room before anyone parses the claim
+- listeners check safety and consequence before meaning stabilizes
+- a calm sentence in a tense room lands differently than when people feel safe
+- silence gets interpreted as signal before anyone asks what it means
+questions:
+- What registered first—before you could explain what you think they meant?
+- Which cue decided the channel everything else would travel through?
+- Would the same words land differently if timing, tone, or power were different?
+counterbalances:
+- name the first cue aloud before arguing about content
+- slow the first response long enough to test whether signal drove the read
+- return to exact wording after the emotional first pass subsides
+trajectory:
+  earlySignals:
+  - exchange begins under uncertainty, urgency, or visible stakes
+  - listeners run a quick safety and relevance check
+  intensificationSignals:
+  - signal gets mistaken for whole meaning—urgency as aggression, hesitation as evasion
+  - later detail gets filtered through the first cue
+  failureModes:
+  - conversations continue while understanding quietly disappears
+  - speakers add explanation while listeners defend an early read
+  restorationPaths:
+  - separate what registered first from what was actually said
+  - revisit tone and timing as part of meaning, not as override of words
+manifestations:
+  family:
+  - a hesitation reads as withholding before anyone names the topic
+  - history makes the first cue louder than today's sentence
+  leadership:
+  - authority stacks consequence onto language before intent gets a fair hearing
+  - a passing comment lands as direction because rank loaded the signal first
+  organizations:
+  - feedback tone settles the verdict before examples are heard
+  - silence in a meeting reads as agreement or resistance before content is tested

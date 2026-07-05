@@ -3,8 +3,9 @@ name: 'Diane Vaughan — The Challenger Launch Decision: Risky Technology,'
 type: book
 summary: 'Vaughan, Diane. *The Challenger Launch Decision: Risky Technology, Culture,
   and Deviance at NASA*. Chicago: University of Chicago Press, 1996.'
-concepts:
-- normalization
+concepts: []
 patterns: []
 relatedBooks:
-- when-others-look-to-you-v1
+- how-serious-systems-learn
+- when-accountability-no-longer-expires
+- when-others-look-to-you-v2

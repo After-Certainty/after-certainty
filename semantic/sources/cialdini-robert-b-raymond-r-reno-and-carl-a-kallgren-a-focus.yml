@@ -4,19 +4,7 @@ type: article
 summary: 'Cialdini, Robert B., Raymond R. Reno, and Carl A. Kallgren. "A Focus Theory
   of Normative Conduct." *Journal of Personality and Social Psychology* 58, no. 6
   (1990): 1015–1026.'
-concepts:
-- correction
-- circulation
-- erosion
-- guest-leadership
-- interpretation
-- legitimacy
-- normalization
-- renewal
-patterns:
-- attention-finds-a-focus
-- disagreement-is-suppressed
-- exceptions-are-forever
-- leadership-reproduces-itself
+concepts: []
+patterns: []
 relatedBooks:
-- when-others-look-to-you-v1
+- when-others-look-to-you-v2
