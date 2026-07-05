@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { JsonLd } from "@/components/seo/json-ld";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
@@ -14,6 +15,7 @@ import { getSourceBySlug } from "@/lib/graph/graphQueries";
 import { relatedContentForSource } from "@/lib/graph/relatedContent";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
+import { buildSourcePageJsonLd } from "@/lib/seo/json-ld";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -44,16 +46,22 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
     related.concepts.length + related.patterns.length + related.books.length > 0;
   const hasRelationships = entityHasSemanticRelationships(index, source.id);
 
+  const sourceBreadcrumbs = [
+    { label: "Explore", href: explorePaths.home },
+    { label: "Thinkers", href: explorePaths.sources },
+    { label: source.name },
+  ];
+
   return (
     <article>
+      <JsonLd
+        data={buildSourcePageJsonLd({
+          source,
+          breadcrumbs: sourceBreadcrumbs,
+        })}
+      />
       <Section atmosphere="none" className="pt-10 md:pt-14 !pb-10 md:!pb-12">
-        <BreadcrumbTrail
-          items={[
-            { label: "Explore", href: explorePaths.home },
-            { label: "Thinkers", href: explorePaths.sources },
-            { label: source.name },
-          ]}
-        />
+        <BreadcrumbTrail items={sourceBreadcrumbs} />
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">{source.type}</p>
         <h1 className="mt-4 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:text-5xl">
           {source.name}
