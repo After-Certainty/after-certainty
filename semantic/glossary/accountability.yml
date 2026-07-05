@@ -1,10 +1,20 @@
 slug: accountability
 title: Accountability
-shortDefinition: 'Accountability is exposure to consequence: who can see effects, who can
-  be challenged or redirected, and whether authority stays close enough to lived outcomes
-  for correction to remain plausible.'
+shortDefinition: Accountability is exposure to consequence—who can see effects, be challenged,
+  or redirected. It differs from responsibility, which names the durable obligation to account;
+  and from answerability, which names obligation to those affected by partial-perspective decisions.
+longDefinition: Accountability names whether consequence still reaches the people who can
+  respond. It becomes important when scale, narrative, or abstraction thins contact between
+  action and effect. It helps preserve correction and proportionate answerability, but can
+  fail when moral sorting replaces sustained contact with outcomes. It differs from responsibility
+  because accountability emphasizes exposure to consequence; responsibility includes the ongoing
+  obligation to account even when control is partial.
 termKind: supporting
-relatedConcepts: []
+relatedConcepts:
+- responsibility
+- answerability
+- authority
+- coupling
 relatedPatterns: []
 relatedBooks:
 - after-certainty

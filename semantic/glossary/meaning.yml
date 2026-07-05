@@ -1,12 +1,24 @@
-relatedConcepts: []
+relatedConcepts:
+- interpretation
+- trust
+- connection
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
 slug: meaning
 title: Meaning
-shortDefinition: Meaning here is what moral systems stabilize—not abstract truth first, but
-  shared expectation that can accumulate once coordination survives constraint. Writing preserves
-  meaning when oral tradition fractures at scale.
+shortDefinition: Meaning is what people and institutions stabilize enough to coordinate
+  on—through language, context, memory, trust, and consequence. It is not only abstract
+  truth, but shared expectation that can hold action steady.
+longDefinition: Meaning names what must remain recognizable for life together to continue.
+  It becomes important whenever coordination outruns immediate shared presence. It helps
+  preserve continuity across time, distance, and conflict, but can fail when inherited
+  meaning outlives the conditions that once made it workable. In Before Certainty Arrives,
+  meaning is what moral systems stabilize once coordination survives constraint; writing
+  preserves meaning when oral tradition fractures at scale. In How Meaning Moves, meaning
+  is also what people reconstruct through contact, completion, and the movement of language
+  under pressure. It differs from interpretation because meaning is what gets held steady;
+  interpretation is the active work of reconstruction.
 termKind: core
 recognitionSignals:
 - obligation shows itself in calloused hands before it becomes principle

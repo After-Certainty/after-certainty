@@ -1,12 +1,22 @@
-relatedConcepts: []
+relatedConcepts:
+- adaptation
+- drift
+- normalization
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
 slug: inheritance
 title: Inheritance
-shortDefinition: Inheritance is how stabilized certainty persists after its originating conditions
-  fade—tools that outlive the pressures that made them workable and are carried forward without
-  their original context.
+shortDefinition: Inheritance is how stabilized certainty persists after its originating
+  conditions fade—tools outliving the pressures that made them workable. It differs from
+  adaptation, which names responsive change to pressure.
+longDefinition: Inheritance names what travels forward when the original scene is gone—archives,
+  canon, titles, feast days, bureaucratic certainty. It becomes important when systems still
+  coordinate long after their makers' conditions have shifted. It helps preserve continuity
+  across generations, but can fail when inherited tools resist revision while fit quietly thins.
+  It differs from adaptation because inheritance carries forward what stabilized; adaptation
+  names the original responsive work. It differs from drift because inheritance emphasizes
+  persistence of form; drift emphasizes gradual decoupling from conditions.
 termKind: supporting
 recognitionSignals:
 - archives still stand while roads between them do not

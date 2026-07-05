@@ -1,9 +1,23 @@
 slug: post-interpretive-authority
 title: Post-interpretive authority
-shortDefinition: Authority that persists without requiring external interpretation,
-  shared reasoning, or repair through meaning.
+shortDefinition: Post-interpretive authority is authority that persists without requiring
+  external interpretation, shared reasoning, or repair through meaning. It differs from total
+  authority, where public evaluative space is eliminated entirely.
+longDefinition: >-
+  Post-interpretive authority names a regime shift in which power continues while familiar
+  interpretive tools lose traction across boundaries. Explanation, transparency, and dialogue
+  may persist as language without mediating legitimacy. It becomes important when repair
+  backfires or when contradiction strengthens loyalty rather than weakening standing. It
+  differs from boundary because boundary marks where understanding ceases to govern persistence;
+  post-interpretive authority names the regime that can result. It differs from total authority
+  because some private or fragmented interpretation may still exist—public evaluative function
+  is displaced, not always extinguished.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- boundary
+- total-authority
+- interpretive-collapse
+- repair
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters

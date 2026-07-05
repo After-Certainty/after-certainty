@@ -1,11 +1,20 @@
 slug: normalization
 title: Normalization
 shortDefinition: Normalization is drift becoming baseline—distance between decision and
-  consequence settling into the architecture of moral life until queue waits, procedural
-  obedience, and administrative delay feel like Tuesday rather than strain. What once
-  required explanation becomes the background hum institutions expect people to endure.
+  consequence settling into architecture until strain feels like ordinary Tuesday. It differs
+  from drift, which names the gradual decoupling itself.
+longDefinition: Normalization names how procedural delay, queue waits, and administrative
+  distance become background hum rather than alarm. In Before Certainty Arrives and Living in
+  Sediment-adjacent dynamics, what once required explanation becomes what institutions expect
+  people to endure. It becomes important when thinning fit hides behind functioning machinery.
+  It helps recognize saturation before rupture, but can fail when ordinary continuity is mistaken
+  for health. It differs from drift because normalization is drift absorbed into baseline expectation;
+  drift is the ongoing movement away from original conditions.
 termKind: supporting
-relatedConcepts: []
+relatedConcepts:
+- drift
+- inheritance
+- coupling
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives

@@ -1,9 +1,17 @@
 slug: alignment-at-scale
 title: Alignment at scale
-shortDefinition: Authority reproduced institutionally, where belonging is routinized
-  or inherited rather than continually affirmed.
+shortDefinition: Alignment at scale is authority reproduced institutionally, where belonging
+  is routinized or inherited rather than continually affirmed through evaluative agreement.
+longDefinition: Alignment at scale names what happens when belonging-signal authority
+  hardens into institution—participation precedes comprehension, ritual routinizes commitment,
+  and external critique rarely destabilizes standing. It differs from alignment because
+  alignment names the pattern of sustaining authority through belonging; alignment at scale
+  names its institutional reproduction across distance and generations.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- alignment
+- boundary
+- post-interpretive-authority
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters

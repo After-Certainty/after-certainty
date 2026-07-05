@@ -1,10 +1,20 @@
 slug: correction
 title: Correction
-shortDefinition: 'Correction is reality-contact and revisability: the lived work of noticing
-  mismatch, updating beliefs or behavior, and narrowing the gap between what was assumed and
-  what is actually happening before drift hardens into normal.'
+shortDefinition: Correction is reality-contact and revisability—the work of noticing mismatch
+  and updating before drift hardens into normal. It differs from repair, which restores damaged
+  trust or legitimacy; and from revisability, which names designed openness to update.
+longDefinition: Correction names the lived work of narrowing the gap between what was assumed
+  and what is actually happening. It becomes important whenever systems, beliefs, or coordination
+  can drift while still feeling operational. It helps preserve shared reality and learning, but
+  can fail when every correction spawns new framing instead of updated contact with conditions.
+  It differs from repair because correction updates belief and behavior; repair addresses damaged
+  standing and trust. It differs from revisability because correction is the act; revisability
+  is the designed capacity to keep correcting.
 termKind: core
-relatedConcepts: []
+relatedConcepts:
+- revisability
+- repair
+- feedback
 relatedPatterns: []
 relatedBooks:
 - after-certainty

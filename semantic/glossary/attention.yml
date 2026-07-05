@@ -1,13 +1,22 @@
 slug: attention
 title: Attention
-shortDefinition: Attention names the domain where visibility metrics replace editorial
-  claims about public importance. Newsrooms still know some stories matter even if they
-  will not perform, but operational language shifted toward clicks, shares, and time on
-  page. The convenient inference is that importance can be read from audience behavior
-  after publication—though audience reflects habit, outrage, and placement, not the same
-  thing as what the public needs for democratic judgment.
+shortDefinition: Attention is the finite capacity through which some signals become
+  available for response while others remain unseen. What receives attention partly
+  determines what can be judged, cared for, or acted on at all.
+longDefinition: Attention names the scarce gate between signal and response. It becomes
+  important whenever more reaches a person or institution than can be fully tracked.
+  It helps preserve focus and timely response, but can fail when visibility metrics
+  are mistaken for judgments about importance. In When Incentives Become the Moral Language,
+  attention marks the domain where newsrooms still know some stories matter even if
+  they will not perform—yet operational language shifted toward clicks, shares, and
+  time on page. Audience behavior reflects habit, outrage, and placement, not the same
+  thing as what the public needs for democratic judgment. It differs from bias because
+  attention names the capacity itself; bias names the selective work performed through it.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- bias
+- judgment
+- care
 relatedPatterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language

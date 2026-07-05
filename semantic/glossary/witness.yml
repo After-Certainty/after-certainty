@@ -1,9 +1,23 @@
 slug: witness
 title: Witness
-shortDefinition: Judgment that functions to record, refuse, or remember rather than
-  to correct or repair.
+shortDefinition: Witness is judgment that preserves reality when correction is not yet
+  possible. It records, refuses erasure, remembers harm, or keeps meaning alive when
+  authority cannot yet be repaired.
+longDefinition: Witness names a form of judgment that does not pretend to fix what it
+  cannot yet change. It becomes important when mediating institutions are gone, damaged,
+  or structurally unable to connect interpretation to consequence. It helps preserve
+  memory, moral clarity, and refusal of erasure, but can fail when witness is mistaken
+  for intervention—or when expressive condemnation substitutes for understanding structural
+  limits. It differs from repair because witness does not assume standing can be restored;
+  it differs from correction because witness may record harm without altering it; it
+  differs from accountability because witness can persist where consequence pathways
+  are blocked.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- repair
+- correction
+- judgment
+- accountability
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters

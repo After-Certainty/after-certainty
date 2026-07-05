@@ -80,6 +80,13 @@ def test_import_build_glossary_and_patterns(repo_root: Path) -> None:
     by_gloss, core, supporting = gsm.build_glossary_entries(repo_root, warn_term_kind=False)
     assert isinstance(by_gloss, dict)
     assert len(by_gloss) >= 1
+    finalized = gsm._finalize_glossary_list(by_gloss)
+    for row in finalized:
+        long_def = str(row.get("longDefinition", "")).strip()
+        if long_def:
+            assert row.get("definition") == long_def
+        else:
+            assert "definition" not in row
     patterns = gsm.build_patterns(repo_root, repo_slug="test-owner/test-repo", ref="main")
     assert isinstance(patterns, list)
     assert len(patterns) >= 1

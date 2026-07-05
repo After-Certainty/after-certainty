@@ -1,11 +1,22 @@
 slug: proximity
 title: Proximity
-shortDefinition: Proximity is the relational nearness—shared memory, kinship, repetition,
-  and immediate feedback—that lets small groups regulate behavior before scale breaks it.
-  When proximity weakens, moral coordination must be simplified, standardized, or stored in
-  stone, scroll, and archive.
+shortDefinition: Proximity is relational nearness—shared memory, kinship, repetition, and
+  immediate feedback—that lets small groups regulate behavior before scale breaks it. It differs
+  from contact, which names staying close to what was said; and from connection, which names
+  durable reachability after conversation.
+longDefinition: Proximity names the moral regulation that familiarity once carried—deviations
+  noticed quickly, authority personal, feedback immediate. It becomes important in Before Certainty
+  Arrives when scale weakens nearness and coordination must be simplified, standardized, or stored
+  in stone and archive. It helps preserve accountability at human scale, but can fail when proximity
+  is assumed lost while inherited tools resist revision. It differs from contact because proximity
+  is relational nearness over time; contact is staying close to unfinished meaning in the moment.
+  It differs from connection because proximity names ongoing nearness; connection names what
+  persists after a specific exchange ends.
 termKind: supporting
-relatedConcepts: []
+relatedConcepts:
+- contact
+- connection
+- feedback
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives

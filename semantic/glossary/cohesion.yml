@@ -1,10 +1,19 @@
 slug: cohesion
 title: Cohesion
-shortDefinition: The degree to which responsibility is clearly held within a boundary
-  (team, role, function, or institution). High cohesion means ownership is legible
-  and decisions are not diffusely assigned.
+shortDefinition: Cohesion is the degree to which responsibility is clearly held within a
+  boundary—team, role, function, or institution. High cohesion means ownership is legible.
+  It differs from coupling, which names attachment between action and consequence.
+longDefinition: Cohesion names whether it is clear who owns a decision, role, or outcome
+  inside a boundary. It becomes important when diffuse assignment lets harm travel without
+  redesign authority. It helps preserve legible ownership and coordinated response, but can
+  fail when cohesion hardens into exclusion or when group binding is mistaken for clear
+  responsibility. It differs from coupling because cohesion concerns ownership clarity within
+  a boundary; coupling concerns how tightly action remains attached to consequence across a chain.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- coupling
+- consequence-architecture
+- accountability
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives

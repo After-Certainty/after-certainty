@@ -1,13 +1,21 @@
 slug: care
 title: Care
-shortDefinition: Care names the domain where healing aims survive while clinical judgment
-  loses public standing. Healthcare exists to help this person leave safer than they
-  arrived, but under capacity pressure and multiplied oversight individualized judgment
-  creates exposure unless translated into auditable categories. Protocol becomes the safer
-  public language while practitioners remain left holding moral weight the system can no
-  longer articulate.
+shortDefinition: Care is sustained attention to another person's condition with some
+  felt obligation to respond. It keeps another's vulnerability in view long enough for
+  response to remain morally serious.
+longDefinition: Care names a relation, not only a service. It becomes important whenever
+  one person's condition depends on another's ongoing responsiveness. It helps preserve
+  healing aims, dignity, and proportionate response, but can fail when care survives
+  only as private moral weight while public language compresses into auditable categories.
+  In When Incentives Become the Moral Language, care marks the domain where healing
+  aims survive while clinical judgment loses public standing—protocol becomes the safer
+  language under capacity pressure and multiplied oversight. It differs from attention
+  because care carries obligation toward a person, not only selective availability of signal.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- attention
+- judgment
+- accountability
 relatedPatterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language

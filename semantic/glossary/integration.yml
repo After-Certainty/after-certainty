@@ -1,9 +1,22 @@
 slug: integration
 title: Integration
-shortDefinition: The work of combining many partial views into a larger model none
-  of them could build alone; not compromise, averaging, or performance.
+shortDefinition: Integration is the work of combining partial perspectives into a model
+  or response none of the participants could have produced alone. It is not compromise,
+  consensus, averaging, or politeness.
+longDefinition: Integration names one of the central constructive moves in this project.
+  It becomes important when reality exceeds any single vantage point and action still
+  must proceed. It helps preserve the intelligence distributed across roles, experiences,
+  and partial archives, but can fail when many voices are displayed without changing
+  the model—or when disagreement is treated as disloyalty rather than information about
+  missing terrain. It differs from compromise because integration seeks a larger understanding,
+  not a split difference; it differs from averaging because partial views are assembled,
+  not flattened into equal weight regardless of grounding.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- finite-perspective
+- bias
+- judgment
+- trust
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see
@@ -42,4 +55,3 @@ manifestations:
   - adversarial courts keep one side's story from closing the case alone
   technology:
   - clinician, patient, family, and model each hold partial case knowledge worth combining
-

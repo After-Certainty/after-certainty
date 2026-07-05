@@ -1,9 +1,24 @@
 slug: alignment
 title: Alignment
-shortDefinition: Authority sustained through signals of belonging rather than through
-  evaluative agreement or persuasion.
+shortDefinition: In ordinary use, alignment is coordinated orientation toward action.
+  In this project, it also names authority sustained through signals of belonging rather
+  than through evaluative agreement or persuasion.
+longDefinition: >-
+  Alignment names how people move together—shared direction, mutual recognition,
+  coordinated response. It becomes important when groups must act before full agreement
+  is possible. Ordinarily, alignment can still be tested against evidence and revised through
+  persuasion. In the authority arc, alignment can be sustained through belonging signals
+  rather than evaluation; disagreement sorts allies from adversaries, and claims function
+  as badges of membership. It helps preserve cohesion under pressure, but can fail when
+  alignment replaces the capacity to be moved by reasons from outside the frame. It differs
+  from legitimacy because alignment can persist without justified recognition; it differs
+  from coordination because alignment can bind identity, not only sequence action.
 termKind: supporting
-relatedConcepts: []
+relatedConcepts:
+- alignment-at-scale
+- legitimacy
+- coordination
+- boundary
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters

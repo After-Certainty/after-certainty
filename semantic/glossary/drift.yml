@@ -1,11 +1,22 @@
 slug: drift
 title: Drift
-shortDefinition: Drift is gradual decoupling from original conditions—meaning drifting as
-  it travels, moral reasoning drifting toward role compliance, fit thinning while machinery
-  still runs. Systems continue without admitting that the conditions they were built for have
-  shifted.
+shortDefinition: Drift is gradual decoupling from original conditions—meaning, fit, or moral
+  reasoning thinning while machinery still runs. It differs from normalization, where drift
+  becomes baseline and strain feels ordinary.
+longDefinition: >-
+  Drift names slow misalignment—meaning drifts as it travels, role compliance replaces
+  discernment, systems continue without admitting conditions have shifted. It becomes
+  important when continuity masks thinning fit and inherited tools coordinate long after
+  they stop persuading. It helps recognize strain before rupture feels sudden, but can fail
+  when drift is mistaken for stability because the machinery still turns. It differs from
+  inheritance because drift emphasizes loss of fit over time; inheritance emphasizes what
+  persists. It differs from normalization because drift is the movement; normalization is
+  drift settling into expected background.
 termKind: supporting
-relatedConcepts: []
+relatedConcepts:
+- inheritance
+- normalization
+- adaptation
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives

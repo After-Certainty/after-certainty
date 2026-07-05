@@ -1,10 +1,20 @@
 slug: answerability
 title: Answerability
-shortDefinition: The obligation to remain accountable to those affected by a decision
-  made from a partial perspective, including what was learned before and after the
-  choice.
+shortDefinition: Answerability is the obligation to remain accountable to those affected
+  by a decision made from a partial perspective—including what was learned before and after
+  the choice. It differs from accountability, which names exposure to consequence more generally.
+longDefinition: Answerability names the specific debt owed to people who bear the cost of
+  decisions they did not fully shape. It becomes important when partial sight, temporary fixes,
+  or institutional distance export risk onto those with less leverage. It helps preserve fair
+  process and post-decision revision, but can fail when consultation is token or when good faith
+  substitutes for returning when sight widens. It differs from responsibility because answerability
+  is oriented toward affected parties; responsibility names the broader obligation to account.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- accountability
+- responsibility
+- finite-perspective
+- revisability
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see

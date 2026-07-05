@@ -1,10 +1,20 @@
 slug: adaptation
 title: Adaptation
-shortDefinition: In this history, adaptation names how moral, religious, and legal systems
-  emerge as workable responses to pressure—not as final truth discovered once and for all.
-  What begins as adaptation can outlive the conditions that first made it necessary.
+shortDefinition: Adaptation names how moral, religious, and legal systems emerge as workable
+  responses to pressure—not final truth discovered once. It differs from inheritance, which
+  names stabilized certainty persisting after originating conditions fade.
+longDefinition: Adaptation marks moral life responding to conditions that will not wait—scarcity,
+  violence, scale, displacement. In Before Certainty Arrives, what begins as adaptation can
+  outlive the pressures that first made it necessary. It helps preserve workable coordination
+  under constraint, but can fail when adaptive tools are mistaken for permanent moral truth.
+  It differs from inheritance because adaptation names responsive change; inheritance names
+  what gets carried forward after conditions shift. It differs from drift because adaptation
+  is active response; drift is gradual decoupling while machinery still runs.
 termKind: supporting
-relatedConcepts: []
+relatedConcepts:
+- inheritance
+- drift
+- constraint
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives

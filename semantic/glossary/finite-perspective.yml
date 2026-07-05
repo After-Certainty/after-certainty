@@ -1,9 +1,21 @@
 slug: finite-perspective
 title: Finite perspective
-shortDefinition: 'A view built from somewhere: always partial, never exhaustive, never
-  from nowhere.'
+shortDefinition: A finite perspective is a view built from somewhere—always partial,
+  never exhaustive, never from nowhere. Every standpoint includes by excluding.
+longDefinition: Finite perspective names the condition under which all sight in this
+  project begins. It becomes important whenever someone speaks as if their view were
+  complete, neutral, or uninfluenced by position. It helps preserve humility, integration,
+  and honest disagreement, but can fail when partial sight is treated as moral failure
+  or when institutions demand omniscience from individuals. It differs from bias because
+  finite perspective names the structural condition of partiality; bias names the selective
+  work performed within it. It differs from trust because trust extends action beyond
+  firsthand sight without pretending the extension erases partiality.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- bias
+- integration
+- trust
+- judgment
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see
@@ -42,4 +54,3 @@ manifestations:
   - mission control assembles partial console views during Apollo-scale complexity
   technology:
   - machine perspectives inherit millions of partial archives without lived verification
-

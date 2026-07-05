@@ -1,9 +1,23 @@
 slug: trust
 title: Trust
-shortDefinition: Extending verification beyond what one person can check alone; also
-  the channel through which incentive and delegation bend what reaches you.
+shortDefinition: Trust is not blind belief. It is the extension of action beyond what
+  one person can personally verify—through signals, history, institutions, relationships,
+  and feedback. In this project, trust matters when partial perspectives must still
+  coordinate.
+longDefinition: Trust names the bridge that lets people act together when no one holds
+  the whole scene. It becomes important when verification must extend beyond firsthand
+  sight—through specialists, records, institutions, or repeated experience. It helps
+  preserve participation across partial perspectives, but can fail when trust stops
+  tracking reality and closure feels safer than checking. It differs from certainty
+  because trust accepts incomplete verification; it differs from blind belief because
+  it still depends on signals that can be tested, strained, or withdrawn.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- finite-perspective
+- bias
+- feedback
+- integration
+- judgment
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see
@@ -42,4 +56,3 @@ manifestations:
   - peer review and adversarial courts widen sight beyond a single trusted chain
   technology:
   - users treat model prose as sight because confidence is easy to trust
-
