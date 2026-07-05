@@ -1,4 +1,5 @@
 import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
+import fallbackSemantic from "@/data/semantic-manifest.json";
 import type { GraphIndex } from "@/lib/graph/graph";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import {
@@ -24,9 +25,14 @@ export type JsonLdBreadcrumbItem = {
 
 export type JsonLdNode = Record<string, unknown>;
 
+/** Legacy @graph document — normalized to separate scripts at render time. */
 export type JsonLdDocument = {
   "@context": typeof SCHEMA_ORG_CONTEXT;
   "@graph": JsonLdNode[];
+};
+
+export type JsonLdStandaloneDocument = JsonLdNode & {
+  "@context": typeof SCHEMA_ORG_CONTEXT;
 };
 
 /** Build an absolute URL from a site path (or pass through absolute URLs). */
@@ -47,6 +53,22 @@ function compact<T extends Record<string, unknown>>(obj: T): T {
   return out;
 }
 
+export function webPageId(pageUrl: string): string {
+  return `${pageUrl}#webpage`;
+}
+
+export function breadcrumbId(pageUrl: string): string {
+  return `${pageUrl}#breadcrumb`;
+}
+
+/** Wrap graph nodes as standalone JSON-LD documents (one script block each). */
+export function toStandaloneDocuments(nodes: JsonLdNode[]): JsonLdStandaloneDocument[] {
+  return nodes.map((node) => ({
+    "@context": SCHEMA_ORG_CONTEXT,
+    ...node,
+  }));
+}
+
 export function jsonLdGraph(nodes: JsonLdNode[]): JsonLdDocument {
   return {
     "@context": SCHEMA_ORG_CONTEXT,
@@ -54,7 +76,10 @@ export function jsonLdGraph(nodes: JsonLdNode[]): JsonLdDocument {
   };
 }
 
-export function buildBreadcrumbListJsonLd(items: JsonLdBreadcrumbItem[]): JsonLdNode {
+export function buildBreadcrumbListJsonLd(
+  items: JsonLdBreadcrumbItem[],
+  id?: string,
+): JsonLdNode {
   const listItems = items.map((item, index) =>
     compact({
       "@type": "ListItem",
@@ -64,10 +89,32 @@ export function buildBreadcrumbListJsonLd(items: JsonLdBreadcrumbItem[]): JsonLd
     }),
   );
 
-  return {
+  return compact({
     "@type": "BreadcrumbList",
+    "@id": id,
     itemListElement: listItems,
-  };
+  });
+}
+
+export function buildWebPageJsonLd(params: {
+  pageUrl: string;
+  name: string;
+  description?: string;
+  breadcrumbId?: string;
+  mainEntityId?: string;
+}): JsonLdNode {
+  const { pageUrl, name, description, breadcrumbId: crumbsId, mainEntityId } = params;
+
+  return compact({
+    "@type": "WebPage",
+    "@id": webPageId(pageUrl),
+    url: pageUrl,
+    name,
+    description,
+    isPartOf: { "@id": absoluteUrl("/#website") },
+    breadcrumb: crumbsId ? { "@id": crumbsId } : undefined,
+    mainEntity: mainEntityId ? { "@id": mainEntityId } : undefined,
+  });
 }
 
 function organizationPublisher(): JsonLdNode {
@@ -77,6 +124,16 @@ function organizationPublisher(): JsonLdNode {
     name: siteConfig.name,
     url: siteConfig.url,
   };
+}
+
+function siteAuthorPerson(): JsonLdNode {
+  const social = resolveSiteSocialLinks();
+  return compact({
+    "@type": "Person",
+    name: "Kevin Steffensen",
+    url: social.linkedIn,
+    sameAs: [social.medium, social.github, social.youtube].filter(Boolean),
+  });
 }
 
 function personNodes(names: string[]): JsonLdNode[] {
@@ -165,6 +222,7 @@ export function buildBookJsonLd(params: {
     license: siteConfig.license.url,
     offers: offers.length > 0 ? offers : undefined,
     encoding: encodings.length > 0 ? encodings : undefined,
+    mainEntityOfPage: { "@id": webPageId(pageUrl) },
   });
 }
 
@@ -196,6 +254,7 @@ export function buildDefinedTermJsonLd(params: {
     termCode: concept.id,
     inDefinedTermSet: { "@id": GLOSSARY_TERM_SET_ID },
     isRelatedTo: relatedUrls.length > 0 ? relatedUrls : undefined,
+    mainEntityOfPage: { "@id": webPageId(pageUrl) },
   });
 }
 
@@ -203,8 +262,9 @@ export function buildPatternJsonLd(params: {
   pattern: Pattern;
   pageUrl: string;
   relatedConceptUrls?: string[];
+  datePublished?: string;
 }): JsonLdNode {
-  const { pattern, pageUrl, relatedConceptUrls = [] } = params;
+  const { pattern, pageUrl, relatedConceptUrls = [], datePublished } = params;
 
   const video = pattern.youtubeVideoId
     ? compact({
@@ -216,15 +276,7 @@ export function buildPatternJsonLd(params: {
       })
     : undefined;
 
-  const image = pattern.infographic
-    ? compact({
-        "@type": "ImageObject",
-        url: pattern.infographic.url,
-        width: pattern.infographic.width,
-        height: pattern.infographic.height,
-        caption: pattern.infographic.alt,
-      })
-    : undefined;
+  const imageUrls = pattern.infographic?.url ? [pattern.infographic.url] : undefined;
 
   return compact({
     "@type": "Article",
@@ -232,9 +284,12 @@ export function buildPatternJsonLd(params: {
     headline: pattern.title,
     description: pattern.summary,
     url: pageUrl,
-    image,
+    image: imageUrls,
     video,
-    mainEntityOfPage: pageUrl,
+    author: [siteAuthorPerson()],
+    datePublished,
+    dateModified: datePublished,
+    mainEntityOfPage: { "@id": webPageId(pageUrl) },
     publisher: organizationPublisher(),
     about: relatedConceptUrls.length > 0 ? relatedConceptUrls : undefined,
     sameAs: pattern.mediumArticleUrl,
@@ -252,6 +307,7 @@ export function buildSourceJsonLd(params: { source: Source; pageUrl: string }): 
     description: source.summary,
     url: pageUrl,
     publisher: organizationPublisher(),
+    mainEntityOfPage: { "@id": webPageId(pageUrl) },
   });
 }
 
@@ -284,28 +340,40 @@ function resolveSiteSocialLinksForJsonLd(): string[] {
   return [links.github, links.medium, links.linkedIn, links.youtube].filter(Boolean);
 }
 
-export function buildAboutPageJsonLd(): JsonLdDocument {
-  return jsonLdGraph([
+export function buildAboutPageJsonLd(): JsonLdNode[] {
+  const pageUrl = absoluteUrl("/about");
+  const crumbsId = breadcrumbId(pageUrl);
+  return [
     buildOrganizationJsonLd(),
-    {
-      "@type": "AboutPage",
-      "@id": absoluteUrl("/about#webpage"),
+    buildWebPageJsonLd({
+      pageUrl,
       name: `About · ${siteConfig.name}`,
       description: siteConfig.description,
-      url: absoluteUrl("/about"),
+      breadcrumbId: crumbsId,
+      mainEntityId: absoluteUrl("/#organization"),
+    }),
+    buildBreadcrumbListJsonLd([{ label: "About" }], crumbsId),
+    {
+      "@type": "AboutPage",
+      "@id": `${pageUrl}#about`,
+      name: `About · ${siteConfig.name}`,
+      description: siteConfig.description,
+      url: pageUrl,
       isPartOf: { "@id": absoluteUrl("/#website") },
       about: { "@id": absoluteUrl("/#organization") },
+      mainEntityOfPage: { "@id": webPageId(pageUrl) },
     },
-  ]);
+  ];
 }
 
 export function buildPodcastSeriesJsonLd(params: {
   episodes: PodcastEpisode[];
   pageUrl: string;
-}): JsonLdDocument {
+}): JsonLdNode[] {
   const { episodes, pageUrl } = params;
   const platforms = resolvePodcastPlatformLinks();
   const rssUrl = resolvePodcastRssUrl();
+  const crumbsId = breadcrumbId(pageUrl);
 
   const sameAs = [platforms.spotify, platforms.apple, platforms.youtube, rssUrl].filter(Boolean);
 
@@ -328,7 +396,16 @@ export function buildPodcastSeriesJsonLd(params: {
     }),
   );
 
-  return jsonLdGraph([
+  return [
+    buildWebPageJsonLd({
+      pageUrl,
+      name: `Podcast · ${siteConfig.name}`,
+      description:
+        "Reflective conversations on meaning, trust, leadership, and systems — audio inquiries beyond rehearsed certainty.",
+      breadcrumbId: crumbsId,
+      mainEntityId: `${pageUrl}#podcast`,
+    }),
+    buildBreadcrumbListJsonLd([{ label: "Podcast" }], crumbsId),
     compact({
       "@type": "PodcastSeries",
       "@id": `${pageUrl}#podcast`,
@@ -339,61 +416,118 @@ export function buildPodcastSeriesJsonLd(params: {
       webFeed: rssUrl,
       publisher: organizationPublisher(),
       sameAs: sameAs.length > 0 ? sameAs : undefined,
+      mainEntityOfPage: { "@id": webPageId(pageUrl) },
     }),
     ...episodeNodes,
-  ]);
+  ];
 }
 
 export function buildBookPageJsonLd(params: {
   book: SemanticBook;
   catalogBook?: CatalogBook;
   breadcrumbs: JsonLdBreadcrumbItem[];
-}): JsonLdDocument {
+}): JsonLdNode[] {
   const pageUrl = absoluteUrl(`${explorePaths.books}/${params.book.slug}`);
-  return jsonLdGraph([
+  const crumbsId = breadcrumbId(pageUrl);
+  const mainEntityId = `${pageUrl}#book`;
+
+  return [
+    buildWebPageJsonLd({
+      pageUrl,
+      name: params.book.title,
+      description: params.book.summary ?? params.book.subtitle,
+      breadcrumbId: crumbsId,
+      mainEntityId,
+    }),
     buildBookJsonLd({ ...params, pageUrl }),
-    buildBreadcrumbListJsonLd(params.breadcrumbs),
-  ]);
+    buildBreadcrumbListJsonLd(params.breadcrumbs, crumbsId),
+  ];
 }
 
 export function buildConceptPageJsonLd(params: {
   concept: GlossaryConcept;
   breadcrumbs: JsonLdBreadcrumbItem[];
   relatedUrls?: string[];
-}): JsonLdDocument {
+}): JsonLdNode[] {
   const pageUrl = absoluteUrl(`${explorePaths.concepts}/${params.concept.slug}`);
-  return jsonLdGraph([
+  const crumbsId = breadcrumbId(pageUrl);
+  const mainEntityId = `${pageUrl}#term`;
+
+  return [
     glossaryTermSet(),
+    buildWebPageJsonLd({
+      pageUrl,
+      name: params.concept.title,
+      description: params.concept.definition ?? params.concept.shortDefinition,
+      breadcrumbId: crumbsId,
+      mainEntityId,
+    }),
     buildDefinedTermJsonLd({ concept: params.concept, pageUrl, relatedUrls: params.relatedUrls }),
-    buildBreadcrumbListJsonLd(params.breadcrumbs),
-  ]);
+    buildBreadcrumbListJsonLd(params.breadcrumbs, crumbsId),
+  ];
+}
+
+function semanticManifestGeneratedAt(): string | undefined {
+  const value = (fallbackSemantic as { generatedAt?: string }).generatedAt;
+  return typeof value === "string" && value.length > 0 ? value : undefined;
 }
 
 export function buildPatternPageJsonLd(params: {
   pattern: Pattern;
   breadcrumbs: JsonLdBreadcrumbItem[];
   relatedConceptUrls?: string[];
-}): JsonLdDocument {
+  datePublished?: string;
+}): JsonLdNode[] {
   const pageUrl = absoluteUrl(`${explorePaths.patterns}/${params.pattern.slug}`);
-  return jsonLdGraph([
-    buildPatternJsonLd({ ...params, pageUrl }),
-    buildBreadcrumbListJsonLd(params.breadcrumbs),
-  ]);
+  const crumbsId = breadcrumbId(pageUrl);
+  const mainEntityId = `${pageUrl}#article`;
+  const datePublished = params.datePublished ?? semanticManifestGeneratedAt();
+
+  return [
+    buildWebPageJsonLd({
+      pageUrl,
+      name: params.pattern.title,
+      description: params.pattern.summary,
+      breadcrumbId: crumbsId,
+      mainEntityId,
+    }),
+    buildPatternJsonLd({ ...params, pageUrl, datePublished }),
+    buildBreadcrumbListJsonLd(params.breadcrumbs, crumbsId),
+  ];
 }
 
 export function buildSourcePageJsonLd(params: {
   source: Source;
   breadcrumbs: JsonLdBreadcrumbItem[];
-}): JsonLdDocument {
+}): JsonLdNode[] {
   const pageUrl = absoluteUrl(`${explorePaths.sources}/${params.source.slug}`);
-  return jsonLdGraph([
+  const crumbsId = breadcrumbId(pageUrl);
+  const mainEntityId = `${pageUrl}#source`;
+
+  return [
+    buildWebPageJsonLd({
+      pageUrl,
+      name: params.source.name,
+      description: params.source.summary,
+      breadcrumbId: crumbsId,
+      mainEntityId,
+    }),
     buildSourceJsonLd({ source: params.source, pageUrl }),
-    buildBreadcrumbListJsonLd(params.breadcrumbs),
-  ]);
+    buildBreadcrumbListJsonLd(params.breadcrumbs, crumbsId),
+  ];
 }
 
-export function buildHomePageJsonLd(): JsonLdDocument {
-  return jsonLdGraph([buildWebsiteJsonLd(), buildOrganizationJsonLd()]);
+export function buildHomePageJsonLd(): JsonLdNode[] {
+  const pageUrl = absoluteUrl("/");
+  return [
+    buildWebsiteJsonLd(),
+    buildOrganizationJsonLd(),
+    buildWebPageJsonLd({
+      pageUrl,
+      name: siteConfig.name,
+      description: siteConfig.description,
+    }),
+  ];
 }
 
 /** Resolve related entity canonical ids to absolute explore URLs for JSON-LD cross-links. */
