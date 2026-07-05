@@ -1,4 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { render } from "@testing-library/react";
 
 import type { Book as CatalogBook } from "@/types/content";
 import type { Book, GlossaryConcept, Pattern, Source } from "@/types/semanticGraph";
@@ -117,36 +118,46 @@ describe("json-ld builders", () => {
     expect(node.author).toEqual([{ "@type": "Person", name: "Kevin Steffensen" }]);
     expect(node.offers).toHaveLength(1);
     expect(node.encoding).toHaveLength(1);
+    expect(node.mainEntityOfPage).toEqual({
+      "@id": "https://example.com/explore/books/after-certainty#webpage",
+    });
   });
 
-  it("builds DefinedTerm JSON-LD inside a concept page graph", async () => {
+  it("builds concept page nodes with WebPage and breadcrumbs", async () => {
     const { buildConceptPageJsonLd, relatedBookUrls, relatedPatternUrls } = await loadJsonLd();
     const relatedUrls = [
       ...relatedBookUrls(mockIndex, sampleConcept.relatedBooks),
       ...relatedPatternUrls(mockIndex, sampleConcept.relatedPatterns),
     ];
 
-    const doc = buildConceptPageJsonLd({
+    const nodes = buildConceptPageJsonLd({
       concept: sampleConcept,
       breadcrumbs,
       relatedUrls,
     });
 
-    expect(doc["@context"]).toBe("https://schema.org");
-    expect(doc["@graph"]).toHaveLength(3);
+    expect(nodes).toHaveLength(4);
+    const types = nodes.map((n) => n["@type"]);
+    expect(types).toContain("DefinedTermSet");
+    expect(types).toContain("WebPage");
+    expect(types).toContain("DefinedTerm");
+    expect(types).toContain("BreadcrumbList");
 
-    const term = doc["@graph"].find((n) => n["@type"] === "DefinedTerm");
-    expect(term?.name).toBe("Certainty");
-    expect(term?.termCode).toBe("concept-certainty");
+    const term = nodes.find((n) => n["@type"] === "DefinedTerm");
     expect(term?.isRelatedTo).toEqual([
       "https://example.com/explore/books/after-certainty",
       "https://example.com/explore/patterns/examples-accumulate",
     ]);
+
+    const webPage = nodes.find((n) => n["@type"] === "WebPage");
+    expect(webPage?.breadcrumb).toEqual({
+      "@id": "https://example.com/explore/concepts/certainty#breadcrumb",
+    });
   });
 
-  it("builds Article JSON-LD for patterns with video and image", async () => {
+  it("builds Article JSON-LD for patterns with author, dates, and image URLs", async () => {
     const { buildPatternPageJsonLd, relatedConceptUrls } = await loadJsonLd();
-    const doc = buildPatternPageJsonLd({
+    const nodes = buildPatternPageJsonLd({
       pattern: samplePattern,
       breadcrumbs: [
         { label: "Explore", href: "/explore" },
@@ -154,24 +165,31 @@ describe("json-ld builders", () => {
         { label: samplePattern.title },
       ],
       relatedConceptUrls: relatedConceptUrls(mockIndex, samplePattern.relatedConcepts),
+      datePublished: "2026-07-01T23:21:07.463921+00:00",
     });
 
-    const article = doc["@graph"].find((n) => n["@type"] === "Article");
+    expect(nodes).toHaveLength(3);
+
+    const article = nodes.find((n) => n["@type"] === "Article");
     expect(article?.headline).toBe("Examples Accumulate");
+    expect(article?.author).toEqual([
+      expect.objectContaining({
+        "@type": "Person",
+        name: "Kevin Steffensen",
+      }),
+    ]);
+    expect(article?.datePublished).toBe("2026-07-01T23:21:07.463921+00:00");
+    expect(article?.image).toEqual(["https://cdn.example/infographic.png"]);
     expect(article?.video).toMatchObject({
       "@type": "VideoObject",
       embedUrl: "https://www.youtube.com/embed/abc123",
-    });
-    expect(article?.image).toMatchObject({
-      "@type": "ImageObject",
-      url: "https://cdn.example/infographic.png",
     });
     expect(article?.about).toEqual(["https://example.com/explore/concepts/correction"]);
   });
 
   it("maps source type book to Book schema", async () => {
     const { buildSourcePageJsonLd } = await loadJsonLd();
-    const doc = buildSourcePageJsonLd({
+    const nodes = buildSourcePageJsonLd({
       source: sampleSource,
       breadcrumbs: [
         { label: "Explore", href: "/explore" },
@@ -180,9 +198,10 @@ describe("json-ld builders", () => {
       ],
     });
 
-    const entity = doc["@graph"].find((n) => n["@id"]?.toString().endsWith("#source"));
+    const entity = nodes.find((n) => n["@id"]?.toString().endsWith("#source"));
     expect(entity?.["@type"]).toBe("Book");
     expect(entity?.description).toContain("Arendt");
+    expect(nodes.some((n) => n["@type"] === "WebPage")).toBe(true);
   });
 
   it("maps source type article to Article schema", async () => {
@@ -194,11 +213,15 @@ describe("json-ld builders", () => {
     expect(node["@type"]).toBe("Article");
   });
 
-  it("builds breadcrumb list with positions and URLs", async () => {
+  it("builds breadcrumb list with positions, URLs, and @id", async () => {
     const { buildBreadcrumbListJsonLd } = await loadJsonLd();
-    const list = buildBreadcrumbListJsonLd(breadcrumbs);
+    const list = buildBreadcrumbListJsonLd(
+      breadcrumbs,
+      "https://example.com/explore/books/after-certainty#breadcrumb",
+    );
 
     expect(list["@type"]).toBe("BreadcrumbList");
+    expect(list["@id"]).toBe("https://example.com/explore/books/after-certainty#breadcrumb");
     expect(list.itemListElement).toEqual([
       {
         "@type": "ListItem",
@@ -220,17 +243,16 @@ describe("json-ld builders", () => {
     ]);
   });
 
-  it("builds homepage WebSite and Organization graph", async () => {
+  it("builds homepage nodes with WebSite, Organization, and WebPage", async () => {
     const { buildHomePageJsonLd } = await loadJsonLd();
-    const doc = buildHomePageJsonLd();
-    const types = doc["@graph"].map((n) => n["@type"]);
-    expect(types).toContain("WebSite");
-    expect(types).toContain("Organization");
+    const nodes = buildHomePageJsonLd();
+    const types = nodes.map((n) => n["@type"]);
+    expect(types).toEqual(["WebSite", "Organization", "WebPage"]);
   });
 
-  it("builds podcast series with recent episodes", async () => {
+  it("builds podcast page nodes with series and episodes", async () => {
     const { buildPodcastSeriesJsonLd } = await loadJsonLd();
-    const doc = buildPodcastSeriesJsonLd({
+    const nodes = buildPodcastSeriesJsonLd({
       pageUrl: "https://example.com/podcast",
       episodes: [
         {
@@ -244,21 +266,73 @@ describe("json-ld builders", () => {
       ],
     });
 
-    const types = doc["@graph"].map((n) => n["@type"]);
+    const types = nodes.map((n) => n["@type"]);
+    expect(types).toContain("WebPage");
+    expect(types).toContain("BreadcrumbList");
     expect(types).toContain("PodcastSeries");
     expect(types).toContain("PodcastEpisode");
   });
 
-  it("builds book page graph with breadcrumbs", async () => {
+  it("builds book page nodes with WebPage, Book, and breadcrumbs", async () => {
     const { buildBookPageJsonLd } = await loadJsonLd();
-    const doc = buildBookPageJsonLd({
+    const nodes = buildBookPageJsonLd({
       book: sampleBook,
       catalogBook: sampleCatalogBook,
       breadcrumbs,
     });
 
-    expect(doc["@graph"]).toHaveLength(2);
-    expect(doc["@graph"].some((n) => n["@type"] === "Book")).toBe(true);
-    expect(doc["@graph"].some((n) => n["@type"] === "BreadcrumbList")).toBe(true);
+    expect(nodes).toHaveLength(3);
+    expect(nodes.map((n) => n["@type"])).toEqual(["WebPage", "Book", "BreadcrumbList"]);
+    expect(nodes[0]?.breadcrumb).toEqual({
+      "@id": "https://example.com/explore/books/after-certainty#breadcrumb",
+    });
+    expect(nodes[0]?.mainEntity).toEqual({
+      "@id": "https://example.com/explore/books/after-certainty#book",
+    });
+  });
+});
+
+describe("JsonLd component", () => {
+  let prevSiteUrl: string | undefined;
+
+  beforeEach(() => {
+    prevSiteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+    process.env.NEXT_PUBLIC_SITE_URL = "https://example.com";
+    vi.resetModules();
+  });
+
+  afterEach(() => {
+    process.env.NEXT_PUBLIC_SITE_URL = prevSiteUrl;
+    vi.resetModules();
+  });
+
+  it("renders one script tag per standalone entity", async () => {
+    const { JsonLd } = await import("@/components/seo/json-ld");
+    const { buildBookPageJsonLd } = await import("@/lib/seo/json-ld");
+
+    const { container } = render(
+      <JsonLd
+        data={buildBookPageJsonLd({
+          book: {
+            id: "book-after-certainty",
+            slug: "after-certainty",
+            title: "After Certainty",
+          },
+          breadcrumbs: [
+            { label: "Explore", href: "/explore" },
+            { label: "Books", href: "/explore/books" },
+            { label: "After Certainty" },
+          ],
+        })}
+      />,
+    );
+
+    const scripts = container.querySelectorAll('script[type="application/ld+json"]');
+    expect(scripts).toHaveLength(3);
+    expect(scripts[0]?.innerHTML).toContain('"@type":"WebPage"');
+    expect(scripts[1]?.innerHTML).toContain('"@type":"Book"');
+    expect(scripts[2]?.innerHTML).toContain('"@type":"BreadcrumbList"');
+    expect(scripts[0]?.innerHTML).toContain('"@context":"https://schema.org"');
+    expect(scripts[0]?.innerHTML).not.toContain('"@graph"');
   });
 });
