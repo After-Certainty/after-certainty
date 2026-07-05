@@ -1,8 +1,22 @@
 slug: legibility
 title: Legibility
-shortDefinition: The degree to which a contribution can be read by others—especially
-  by those who grade, fund, or promote. Uneven legibility is not the same as uneven
-  value; it is a visibility structure that shapes who feels the collaboration is stable.
+shortDefinition: >-
+  Legibility is the degree to which a contribution, person, harm, signal, or pattern can be read 
+  by others or by a system. What becomes legible often becomes easier to reward, govern, trust, 
+  or repair, while what remains illegible is easier to ignore.
+longDefinition: >-
+  Legibility names the degree to which work, contribution, harm, or signal can be perceived and 
+  evaluated by those at distance—especially by those who grade, fund, allocate resources, or make 
+  promotion decisions. It becomes important because visibility shapes what gets valued, rewarded, 
+  and sustained. What becomes legible can be measured, managed, and integrated into formal systems; 
+  what remains illegible often goes unrecognized even when it is essential. Legibility helps 
+  coordination at scale by making expectations clear, progress trackable, and accountability visible. 
+  But uneven legibility is not the same as uneven value; legibility is a visibility structure, not a 
+  measure of worth. Legibility becomes dangerous when it substitutes for trust rather than serving it, 
+  when dashboards calm funders while field coordination narrows, when metrics answer anxiety rather 
+  than shared questions, when legibility demands consume the work they were meant to track. The 
+  question legibility raises is: is legibility serving trust or substituting for it? What work becomes 
+  invisible when only counted activity feels real?
 termKind: extended
 relatedConcepts: []
 relatedPatterns: []
