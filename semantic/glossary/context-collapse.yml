@@ -14,5 +14,35 @@ recognitionSignals:
 - modules, prompts, or tools entangle at speed while output looks fluent
 - ownership and redesign authority become unclear on a shared surface
 - syntactic coherence masks dissolved boundaries
+- incident owners cannot tell whether failure belongs to core policy or model experiment
+- shared prompt folders teach every service the same retry and permission assumptions
 questions:
 - Where did separate concerns collapse into one apparently coherent surface?
+- Which contexts that should stay separate are now entangled in one runtime?
+- Who can redesign one concern without touching unrelated modules?
+counterbalances:
+- enforce adapter discipline so vendor and experiment logic stay at the boundary
+- split shared utility modules before they become undeclared global state
+- require explicit ownership before merging new concerns into core deployables
+trajectory:
+  earlySignals:
+  - just-for-the-demo paths land in production repositories
+  - teams copy prompt and utility modules without documenting dependencies
+  intensificationSignals:
+  - tests require booting half the runtime to check one business rule
+  - on-call rotations cannot localize failures to a single redesign boundary
+  failureModes:
+  - syntax stays valid while meaning mixtures govern action undetected
+  - incident reviews repeatedly end with '"we should split this"' and no cut point
+  restorationPaths:
+  - delete, split, and pay short-term coordination cost to restore visible ownership
+  - route integrations through explicit ports instead of shared prompt corpora
+manifestations:
+  software:
+  - one deployable unit contains billing, notifications, fraud heuristics, and experimental retrieval
+  organizations:
+  - separate committees on paper share one operational workaround in practice
+  leadership:
+  - leaders approve service diagrams that no longer match repository topology
+  ai_systems:
+  - retrieval answers sound grounded while customer, draft, and live policy text share one index

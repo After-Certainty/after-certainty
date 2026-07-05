@@ -9,3 +9,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - coupling
+recognitionSignals:
+- lead time grows while teams describe modern Agile and DevOps practices in detail
+- deployment frequency rises but change failure rate and recovery time worsen
+- incident classification changes to protect failure-rate optics on executive dashboards
+- metrics trend stable while frontline operational exhaustion increases
+- organizations celebrate throughput while repeating the same operational failure categories
+questions:
+- Do these metrics start inquiry or define success directly?
+- Where is the organization improving reporting faster than the system itself?
+- Which distance between change and consequence do the four metrics reveal?
+counterbalances:
+- pair metrics with blameless incident review and architectural context
+- watch trend direction after structural redesign, not isolated snapshots
+- treat metric gaming as a coupling failure, not a personal integrity problem
+trajectory:
+  earlySignals:
+  - teams adopt CI/CD while recovery remains slow and ownership unclear
+  - long lead times correlate with growing approval and dependency chains
+  intensificationSignals:
+  - releases fragment artificially to inflate deployment frequency
+  - dashboards improve while structural fragility hides underneath
+  failureModes:
+  - Goodhart effects replace learning as numbers get defended instead of systems redesigned
+  - measurement disconnects from the people who can change architecture
+  restorationPaths:
+  - use metrics diagnostically to locate waits, fragments, and expensive consequence absorption
+  - reconnect measured outcomes to redesign authority with qualitative operational review
+manifestations:
+  software:
+  - change failure rate spikes after architectural shifts teams interpret as productive learning
+  organizations:
+  - healthcare quality metrics rise while local clinics cannot redesign upstream policy
+  leadership:
+  - KPI regimes prove oversight activity while frontline agencies lack redesign leverage
+  politics:
+  - public-sector dashboards stay green while citizens experience unchanged service delays

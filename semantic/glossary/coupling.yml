@@ -8,3 +8,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - coupling
+recognitionSignals:
+- original decision-makers no longer remember tradeoffs when harm appears months later
+- polished retrospectives replace redesign because consequence arrived too late
+- dashboards stay green while bedside or frontline frustration grows
+- each group explains its role accurately after failure but nobody redesigns the chain
+- systems optimize quarterly targets because those signals arrive faster than operational harm
+questions:
+- How directly does consequence return to the people who can redesign here?
+- Is coupling being discovered only accidentally through harm?
+- Where has explanation replaced learning because feedback traveled too far?
+counterbalances:
+- calibrate coupling—enough connection to learn, enough separation to absorb ordinary variation
+- shorten at least one feedback path before adding oversight layers
+- pair visibility with redesign authority, not only with reporting
+trajectory:
+  earlySignals:
+  - small local fixes work without escalating every disturbance organization-wide
+  - builders or decision-makers still feel some operational consequence directly
+  intensificationSignals:
+  - delayed summaries govern action after underlying conditions changed
+  - incentives drift toward metrics that arrive faster than real harm
+  failureModes:
+  - systems remain highly active while becoming progressively less corrigible
+  - legitimacy erodes because consequence lands far from decision-makers
+  restorationPaths:
+  - make one consequence path visible, fast, and connected to redesign authority
+  - design intentional coupling before accidental discovery through failure
+manifestations:
+  software:
+  - feature teams ship while customer trust declines months later and ownership has moved on
+  organizations:
+  - policy designers never experience bedside reality that would force protocol revision
+  leadership:
+  - boards receive filtered quarterly summaries while nurses warn in hallway conversations
+  politics:
+  - representatives answer to voters while remaining distant from daily operational consequences

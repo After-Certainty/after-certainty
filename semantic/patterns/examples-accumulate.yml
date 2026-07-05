@@ -32,3 +32,37 @@ media:
     width: 1200
     height: 669
     alt: Infographic summarizing how repeated examples become what others treat as normal.
+recognitionSignals:
+- what the leader rewards, punishes, or ignores sets acceptable faster than posted policy
+- under pressure, reactions and silence both get read as instruction
+- early handling of mistake or harm teaches what is safe to raise next time
+- people watch others when rules are thin and copy what they see
+- tolerance for harm or avoidance of correction spreads through modeled behavior
+questions:
+- What did we model in the room that people will treat as allowed?
+- What are newcomers learning from example before they learn from rules?
+- Which silence just sent a signal as loud as a spoken reaction?
+counterbalances:
+- name what you are choosing to absorb or defer while others watch
+- intervene once on a harmful pattern before it teaches tolerance
+- align public reaction under pressure with the wiki standard you want copied
+trajectory:
+  earlySignals:
+  - small reactions to error get noticed and repeated by others
+  - people quote what someone did last time, not what policy says
+  intensificationSignals:
+  - norms harden into habit read through the last visible example
+  - what gets emphasized and what gets waved off diverge from written rules
+  failureModes:
+  - examples accumulate toward insulation and narrowed correction
+  - leadership reproduces the same permission lesson in the next cohort
+  restorationPaths:
+  - change one visible reaction under pressure and let it spread
+  - make acknowledgment follow mistake so accountability stays teachable
+manifestations:
+  leadership:
+  - dismissing harm in a meeting makes others dismiss it more easily afterward
+  organizations:
+  - how the lead handled the last near-miss sets the near-miss protocol informally
+  family:
+  - a parent's unaddressed mistake teaches children what accountability means here

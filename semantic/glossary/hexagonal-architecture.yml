@@ -9,3 +9,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - coupling
+recognitionSignals:
+- vendor response semantics leak into domain core logic under schedule pressure
+- teams cannot distinguish a wrong business rule from a failed adapter
+- ports mirror frameworks instead of domain behaviors, adding indirection without clarity
+- small vendor changes trigger cross-team synchronization and emergency patches
+- diagrams stay clean while operational understanding of core versus integration remains weak
+questions:
+- What is core policy here versus integration behavior that could change independently?
+- Which dependencies point inward toward the domain, and which should stay at adapters?
+- Would a vendor swap require renegotiating domain logic or only adapter code?
+counterbalances:
+- route external volatility through explicit adapter ports, not into core rules
+- keep ports stable around domain intent even when infrastructure churns
+- resist ceremonial layering that adds indirection without improving failure localization
+trajectory:
+  earlySignals:
+  - temporary vendor mappings and exceptions appear inside domain modules
+  - integration shortcuts land as just-for-this-release exceptions in core services
+  intensificationSignals:
+  - external changes force large coordination events to determine ownership of failures
+  - adapter proliferation outpaces clear ownership of each port
+  failureModes:
+  - weak boundaries create hidden synchronization cost on every external drift
+  - hexagonal structure becomes purity signaling while entanglement persists
+  restorationPaths:
+  - extract vendor-specific assumptions back behind adapter boundaries
+  - define ports by domain behavior needed, not by framework shapes
+manifestations:
+  software:
+  - fraud vendor field assumptions rewrite payment core logic after a contract change
+  organizations:
+  - public-health agencies keep stable policy cores with bounded local delivery variation
+  leadership:
+  - executives mandate architecture reviews while teams skip adapter discipline under deadlines
+  politics:
+  - legal frameworks preserve non-negotiable rights while courts adapt application at the boundary

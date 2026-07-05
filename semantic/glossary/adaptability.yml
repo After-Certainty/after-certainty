@@ -9,3 +9,37 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - when-others-look-to-you-v1
+recognitionSignals:
+- a ground warning changes the protocol before the same error repeats at the next site
+- plans reopen when new risk surfaces, even after a public commitment
+- people describe course changes as normal work, not as failure of the first plan
+- edge-case details still get raised without being waved off to protect momentum
+- Friday's field read can still move Monday's slide deck
+questions:
+- When reality pushes back, does the plan still move or does momentum win?
+- Who can reopen a decision without being read as disloyal?
+- What would we change this week if we believed updates were still allowed?
+counterbalances:
+- pause for the person closest to the issue before locking direction
+- treat midweek revision as success, not as proof the first plan failed
+- keep a visible path from ground signal to decision within days, not review cycles
+trajectory:
+  earlySignals:
+  - new risks get named in meetings without the speaker being treated as the problem
+  - leaders pause agendas to hold at inconvenient slides
+  intensificationSignals:
+  - momentum language starts winning over field warnings
+  - revision gets framed as weakness or brand damage
+  failureModes:
+  - plans keep moving after ground truth contradicts them
+  - adaptability shrinks while reach still looks coordinated
+  restorationPaths:
+  - reopen decisions when field read contradicts the deck
+  - reward the first person who surfaces edge-case risk before ship
+manifestations:
+  leadership:
+  - executive check-ins accept one-line public corrections without demotion stories
+  organizations:
+  - satellite clinics adopt protocol updates within days of a nurse flag
+  family:
+  - a parent revises a plan when a child's hesitation surfaces new information

@@ -10,3 +10,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - coupling
+recognitionSignals:
+- teams debate deployment timing because dependencies lack explicit interaction boundaries
+- failures are hard to localize because components interact through tribal knowledge, not defined ports
+- small internal changes propagate unexpectedly across services or modules
+- assisted workflows wire together through shared surfaces rather than declared API contracts
+- entanglement hides assumptions inside release order and shared utility modules
+questions:
+- Where does cooperation happen through a defined boundary versus hidden entanglement?
+- Which assumptions would become visible if this interaction had an explicit interface?
+- Can a new contributor predict blast radius from the boundary definition alone?
+counterbalances:
+- make dependencies explicit with narrow, stable interface surfaces
+- prefer interfaces that expose behavior guarantees, not implementation details
+- split shared utilities before they become undocumented coordination hubs
+trajectory:
+  earlySignals:
+  - unrelated teams modify the same module because boundaries were never declared
+  - integration depends on release order knowledge held by a few engineers
+  intensificationSignals:
+  - every external change requires organization-wide coordination to interpret impact
+  - interfaces proliferate as copies of frameworks rather than domain needs
+  failureModes:
+  - learning has no clear landing place because responsibility spreads across entangled components
+  - context collapse dissolves interfaces into one shared runtime surface
+  restorationPaths:
+  - define explicit interaction boundaries with owned contracts and migration paths
+  - refactor entangled modules into cohesive units separated by declared ports
+manifestations:
+  software:
+  - database field changes break five services because no API boundary insulated the schema
+  organizations:
+  - agencies interoperate through ad hoc email chains instead of defined handoff protocols
+  leadership:
+  - reorgs rename teams without clarifying which outcomes each boundary owns
+  ai_systems:
+  - multiple agent workflows call the same tool endpoint with a schema loose enough to hide coupling

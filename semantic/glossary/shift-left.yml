@@ -8,3 +8,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - coupling
+recognitionSignals:
+- vulnerabilities or integration conflicts discovered on Friday before a fixed release train
+- security scans, tests, and policy checks run only after interfaces were frozen weeks ago
+- pre-merge check accumulation slows delivery without reducing late-stage coordination events
+- teams encounter operational risk during design and begin reducing blast radius proactively
+- late discovery forces emergency meetings to synchronize independently advanced work
+questions:
+- Which consequences still arrive only at integration or release in this workflow?
+- Does earlier tooling here produce earlier redesign, or only earlier gatekeeping?
+- Who pays the coordination cost when conflict is found late?
+counterbalances:
+- move detection to where decisions remain cheap to change, not only add scanners
+- pair early checks with local authority to redesign recurring failure areas
+- distinguish temporal compression from procedural accumulation that delays learning
+trajectory:
+  earlySignals:
+  - CI runs dependency scans, tests, and policy validation at commit boundaries
+  - threat modeling and observability requirements appear during design discussions
+  intensificationSignals:
+  - gate authority centralizes while teams lose autonomy to fix root causes locally
+  - scanners multiply without architectural changes that address recurring findings
+  failureModes:
+  - shift-left becomes tooling theater—work moves earlier on paper, learning stays late
+  - pre-merge friction slows delivery while late-stage shocks still occur at scale
+  restorationPaths:
+  - reconnect early signals to teams that can redesign, not only to approval queues
+  - use early consequence to change architecture, interfaces, and dependency choices
+manifestations:
+  software:
+  - Friday security scan forces release renegotiation across partner teams and test windows
+  organizations:
+  - manufacturing quality systems catch defects upstream to avoid downstream rework cascades
+  leadership:
+  - executives mandate shift-left training while keeping release trains and contracts inflexible
+  politics:
+  - public-health surveillance delays turn local outbreaks into multi-agency emergency synchronization

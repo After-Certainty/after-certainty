@@ -8,3 +8,37 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - coupling
+recognitionSignals:
+- engineers who deploy releases also join the 2 a.m. incident bridge for those services
+- postmortems change pipelines and rollback paths, not only individual blame assignments
+- CI/CD and observability exist but on-call teams lack authority to fix root causes
+- deployment metrics improve while global reliability degrades under dependency load
+- '"you build it, you run it" appears in slogans without shared on-call ownership'
+questions:
+- Does the person changing the system feel runtime consequence soon enough to learn?
+- Where has tooling integrated without responsibility structures actually changing?
+- Can on-call engineers redesign root causes or only contain incidents?
+counterbalances:
+- pair on-call burden with authority to change architecture and process
+- use platform capabilities to reduce cognitive load without hiding operational risk
+- keep service ownership legible while sharing observability and deployment tooling
+trajectory:
+  earlySignals:
+  - builders begin sharing pager rotation for services they ship
+  - incident reviews produce pipeline and environment consistency improvements
+  intensificationSignals:
+  - DevOps language spreads faster than consequence pathway changes
+  - postmortems become ritual while actual learning loops stay fragmented
+  failureModes:
+  - integrated workflow appearance masks unchanged responsibility fragmentation
+  - every team owns operations directly and role clarity collapses from overload
+  restorationPaths:
+  - restore shared on-call, rollback, and postmortem paths tied to design authority
+  - calibrate platform support with clear service ownership boundaries
+manifestations:
+  software:
+  - deploying engineer rolls back a release she shipped after tracing config drift across environments
+  organizations:
+  - aviation safety tightens cross-role incident reporting before recurring failures normalize
+  leadership:
+  - executives fund deployment automation but not the ownership changes that make it teach
