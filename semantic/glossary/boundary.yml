@@ -1,9 +1,23 @@
 slug: boundary
 title: Boundary
-shortDefinition: The point at which authority no longer depends on being understood
-  in order to persist.
+shortDefinition: A boundary is a line where responsibility, interpretation, permission,
+  or consequence changes shape. In the authority arc, it marks where authority no longer
+  depends on being understood in order to persist.
+longDefinition: Boundary names where one kind of obligation ends and another begins—between
+  roles, institutions, scales, or interpretive frames. It becomes important when coordination
+  must clarify who can decide, who must answer, and what counts as shared ground. It helps
+  preserve legible responsibility and evaluative contact, but can fail when boundaries
+  harden into walls that block correction. In the post-interpretive authority context,
+  a boundary is where external understanding ceases to govern legitimacy while power
+  continues. It differs from coupling because a boundary marks a shift in shape, not
+  the strength of attachment between action and consequence.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- post-interpretive-authority
+- coupling
+- accountability
+- alignment
+- interface
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters

@@ -384,6 +384,9 @@
         "longDefinition": {
           "type": "string"
         },
+        "definition": {
+          "type": "string"
+        },
         "termKind": {
           "type": "string",
           "enum": ["core", "supporting", "extended"]

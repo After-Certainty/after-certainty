@@ -1,9 +1,22 @@
 slug: revisability
 title: Revisability
-shortDefinition: Keeping decisions, models, and recommendations open to correction
-  after the first pass.
+shortDefinition: Revisability is disciplined openness to correction after action has
+  begun. It is not indecision—it is designing decisions, models, and commitments so
+  reality can still update them.
+longDefinition: Revisability names the capacity to change course without pretending
+  the first pass was final. It becomes important whenever uncertainty remains after
+  action starts and harm can accumulate while people wait for closure. It helps preserve
+  contact with changing conditions and proportionate response, but can fail when updating
+  is labeled flip-flopping or when institutions punish revisions that unsettle prior
+  verdicts. It differs from correction because revisability is the designed openness;
+  correction is the specific act of noticing mismatch and updating. It differs from judgment
+  because revisability keeps decisions attached to reality over time, not only at the
+  moment of decision.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- correction
+- judgment
+- certainty
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see
@@ -14,32 +27,24 @@ recognitionSignals:
 - leaders punish revisions that unsettle prior verdicts or public narratives
 - triggers for escalation and de-escalation were never named before acting
 questions:
-- What would change your mind—and is there a path for that information to count?
-- Where is revision built into structure versus treated as embarrassment?
-- Who benefits when the first pass must feel finished?
+- What would have to be true for this decision to change?
+- Where is revision treated as weakness rather than contact with reality?
+- What remains revisable after public commitment?
 counterbalances:
-- name revision triggers before outcomes are known
-- treat post-decision learning as part of responsible judgment, not weakness
-- build appeal, audit, and sunset loops that normalize unlearning
+- name revision triggers before acting
+- separate seriousness from permanent settlement
+- reward updates that track reality
 trajectory:
   earlySignals:
-  - assumptions and disconfirming checks are stated alongside initial recommendations
-  - institutions publish failures and null results, not only successes
+  - decisions can still be updated without loss of standing
   intensificationSignals:
-  - coherence maintenance punishes updates that unsettle defended stories
-  - peer-reviewed or approved labels freeze partial views as permanent
+  - revision threatens coherence or narrative closure
   failureModes:
-  - revisability collapses into performance—feedback sought after the decision is made
-  - institutions cannot forget on purpose when the world changes
+  - institutions harden early calls into identity
   restorationPaths:
-  - pre-registration, replication, and adversarial collaboration keep revision public
-  - repair relationships and structures when partial sight missed cost-bearing angles
-  - climate ensembles and safety loops make partiality visible across repeated passes
+  - design processes for update without shame
 manifestations:
+  leadership:
+  - executives delay public commitment to preserve revisability
   organizations:
-  - aviation and science cultures treat failed replication as information, not insult
-  family:
-  - families revisit school or care choices when new information arrives without shame scripts
-  politics:
-  - sunset clauses and appeals exist because first judgments were always partial
-
+  - reviews punish updates that unsettle prior verdicts

@@ -1,10 +1,23 @@
 slug: bias
 title: Bias
-shortDefinition: The selective work through which finite perspectives become possible;
-  not only prejudice or bad faith, but the narrowing that makes some things visible
-  and others harder to reach.
+shortDefinition: Bias is the selective work that makes finite perspective possible—not
+  only prejudice or bad faith, but the narrowing that lets some signals become visible
+  while others stay harder to reach.
+longDefinition: Bias names the architecture of partial sight. It becomes important
+  whenever perception, memory, attention, or institutional counting must choose what
+  to include. It helps perception function by narrowing the field enough to act, but
+  can fail when partial sight is mistaken for neutral or complete sight. The same mechanism
+  is called focus when approved and bias when distrusted. It differs from finite perspective
+  because bias names the selective work inside a vantage point; it differs from integration
+  because bias describes what each partial view leaves out, not how partial views combine.
+  In this project, bias connects to judgment, trust, and the structural question of
+  what a person, group, model, or institution is not positioned to see.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- finite-perspective
+- integration
+- judgment
+- trust
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see
@@ -43,4 +56,3 @@ manifestations:
   - two honest witnesses describe the same intersection as if they were not there together
   technology:
   - ranking functions and training data bake selective sight into pipelines
-

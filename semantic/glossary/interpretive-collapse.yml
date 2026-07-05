@@ -1,9 +1,21 @@
 slug: interpretive-collapse
 title: Interpretive collapse
-shortDefinition: Not the failure of understanding, but the loss of interpretation
-  as a shared, publicly relevant activity.
+shortDefinition: Interpretive collapse is not failed understanding, but the loss of interpretation
+  as a shared, publicly relevant activity. Understanding may persist while public interpretive
+  function disappears.
+longDefinition: Interpretive collapse names a structural shift, not mere ignorance. It becomes
+  important when people still recognize contradictions but that recognition no longer alters
+  standing, coordinates judgment, or opens repair. It helps diagnose regimes where informational
+  remedies fail because the problem is function, not content. It differs from private understanding
+  because collapse concerns public activity; private understanding can continue beneath it. It
+  differs from post-interpretive authority because collapse describes lost function; post-interpretive
+  authority describes authority that no longer requires external interpretation to persist.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- public-interpretation
+- private-understanding
+- post-interpretive-authority
+- boundary
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters

@@ -1,9 +1,23 @@
 slug: repair
 title: Repair
-shortDefinition: Attempts to correct authority through transparency, accountability,
-  dialogue, or justification.
+shortDefinition: Repair is the attempt to restore damaged trust, legitimacy, or consequence-contact
+  after harm or drift. It aims to rebuild the conditions under which correction can matter
+  again.
+longDefinition: Repair names the work of mending what authority, coordination, or relationship
+  has strained—not merely explaining, apologizing, or documenting harm. It becomes important
+  after drift, betrayal, or structural decoupling has weakened the link between action
+  and answerability. It helps preserve legitimacy and renewed participation, but can
+  fail when repair language persists while traction disappears—or when more interpretation
+  accelerates rather than constrains authority. It differs from correction because repair
+  addresses damaged standing and trust, not only mistaken belief; it differs from accountability
+  because repair seeks restoration, not only exposure; it differs from witness because
+  repair still aims to change the scene, not only preserve record.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- correction
+- witness
+- accountability
+- trust
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters

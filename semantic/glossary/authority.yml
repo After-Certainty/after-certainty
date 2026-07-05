@@ -1,10 +1,19 @@
 slug: authority
 title: Authority
 shortDefinition: Authority is operational coordination power—the recognized right to steer,
-  allocate, or constrain action—always in tension with legitimacy and with whether consequence
-  stays visible enough under scale for coordination to remain contestable rather than brittle.
+  allocate, or constrain action. It differs from legitimacy, which names whether that power
+  is justified and contestable enough to hold under stress.
+longDefinition: Authority names who can coordinate action when full agreement is impossible.
+  It becomes important whenever groups must move before every perspective aligns. It helps
+  preserve direction and collective capacity, but can fail when operational power outruns
+  justified recognition or visible consequence. It differs from legitimacy because authority
+  is the capacity to steer; legitimacy is whether that capacity reads as earned and revisable
+  enough to coordinate trust rather than performative compliance.
 termKind: core
-relatedConcepts: []
+relatedConcepts:
+- legitimacy
+- accountability
+- boundary
 relatedPatterns: []
 relatedBooks:
 - after-certainty

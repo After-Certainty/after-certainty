@@ -1,12 +1,21 @@
 slug: consequence-architecture
 title: Consequence Architecture
-shortDefinition: The deliberate design of responsibility boundaries, constraint layers,
-  feedback paths, and escalation routes so that consequence returns to actors who
-  can redesign behavior. Consequence architecture unites cohesion, coupling, and guardrails
-  in practice. It is the professional literacy required when generation accelerates
-  faster than informal caution can scale.
+shortDefinition: Consequence architecture is the deliberate design of responsibility boundaries,
+  feedback paths, and escalation routes so consequence returns to actors who can redesign behavior.
+  It unites cohesion and coupling in practice.
+longDefinition: Consequence architecture names professional literacy for systems where generation
+  or scale outruns informal caution. It becomes important when guardrails exist on paper but
+  production paths bypass them, or when postmortems produce action items detached from redesign
+  authority. It helps preserve corrigibility under acceleration, but can fail when organizations
+  prove they cared while the same failure class repeats. It differs from coupling because
+  consequence-architecture is designed structure; coupling is the resulting attachment strength.
+  It differs from cohesion because architecture designs the whole path; cohesion names ownership
+  clarity within one boundary.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- coupling
+- cohesion
+- constraints
 relatedPatterns: []
 relatedBooks:
 - coupling

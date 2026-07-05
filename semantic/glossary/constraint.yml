@@ -1,12 +1,19 @@
-relatedConcepts: []
+relatedConcepts:
+- constraints
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
 slug: constraint
 title: Constraint
-shortDefinition: Constraint names the limits a moral order responds to—scarcity, violence,
-  population density, abstraction. This book is organized by ages defined by shared constraints
-  rather than by ideas alone.
+shortDefinition: Constraint names the historical limits a moral order responds to—scarcity,
+  violence, population density, abstraction. It differs from constraints (plural), which
+  names operational system limits in the present.
+longDefinition: Constraint marks the pressure that first shaped a moral order—not an
+  idea discovered in isolation, but a condition survival had to answer. In Before Certainty
+  Arrives, ages are defined by shared constraints rather than geography alone. It differs
+  from constraints because constraint names the originating pressure a system responds to;
+  constraints names the technical, legal, and procedural limits shaping action inside an
+  existing system today.
 termKind: supporting
 recognitionSignals:
 - deliberation is costly when hesitation can be fatal

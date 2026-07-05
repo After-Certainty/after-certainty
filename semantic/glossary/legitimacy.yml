@@ -1,10 +1,19 @@
 slug: legitimacy
 title: Legitimacy
-shortDefinition: Legitimacy is justified recognition of authority—whether power reads as earned
-  and contestable enough that coordination holds under stress instead of collapsing into cynicism,
-  performative compliance, or hidden veto by drift.
+shortDefinition: Legitimacy is justified recognition of authority—whether power reads as
+  earned and contestable enough that coordination holds under stress. It differs from authority,
+  which names operational power to steer action.
+longDefinition: Legitimacy names the standing that lets authority coordinate without constant
+  coercion. It becomes important when scale, abstraction, or time separate decision-makers from
+  lived consequence. It helps preserve trust and willing participation, but can fail when smooth
+  operation is mistaken for moral standing or when scrutiny is treated as disloyalty. It differs
+  from alignment because legitimacy still invites proportionate inquiry; alignment can bind
+  through belonging signals alone.
 termKind: core
-relatedConcepts: []
+relatedConcepts:
+- authority
+- alignment
+- accountability
 relatedPatterns: []
 relatedBooks:
 - after-certainty

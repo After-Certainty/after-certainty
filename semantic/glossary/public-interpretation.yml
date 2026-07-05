@@ -1,9 +1,20 @@
 slug: public-interpretation
 title: Public interpretation
-shortDefinition: Interpretation that can coordinate judgment, contest authority, or
-  enable repair within a shared space.
+shortDefinition: Public interpretation is interpretation that can coordinate judgment,
+  contest authority, or enable repair within a shared space. It differs from private understanding,
+  which persists without public influence.
+longDefinition: Public interpretation names evaluative activity that still connects reasons
+  to standing across boundaries. It becomes important whenever legitimacy depends on more than
+  enforcement or belonging alone. It helps preserve contestability and repair, but can fail when
+  communication intensifies while evaluative space vanishes. It differs from private understanding
+  because public interpretation must be able to matter publicly; it differs from interpretive
+  collapse because collapse is the loss of this shared function, not failed comprehension alone.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- private-understanding
+- interpretive-collapse
+- interpretation
+- repair
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters

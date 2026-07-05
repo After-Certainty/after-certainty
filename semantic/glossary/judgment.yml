@@ -1,10 +1,23 @@
 slug: judgment
 title: Judgment
-shortDefinition: 'Judgment is deliberate evaluation under uncertainty: slowing automatic escalation
-  long enough to weigh tradeoffs honestly, keep coordination aligned with consequence rather
-  than with speed alone, and preserve room for contestability.'
+shortDefinition: Judgment is the practice of deciding responsibly under uncertainty—weighing
+  tradeoffs, proportion, and consequence without pretending to see from nowhere or
+  wait for final certainty.
+longDefinition: Judgment names the capacity to decide when understanding is incomplete
+  but harm, coordination, or responsibility will not wait. It becomes important whenever
+  action must proceed under partial information and real consequence. It helps preserve
+  proportionality, answerability, and room for revision, but can fail when judgment
+  hardens into dogma, paralysis, or punitive finality. It differs from certainty because
+  judgment accepts incomplete sight; it differs from preference because judgment weighs
+  consequence beyond taste; it differs from optimization because judgment keeps contestability
+  and human proportion in view; it differs from rule-following because judgment must
+  still respond when rules lag reality.
 termKind: core
-relatedConcepts: []
+relatedConcepts:
+- revisability
+- correction
+- certainty
+- agency
 relatedPatterns: []
 relatedBooks:
 - after-certainty

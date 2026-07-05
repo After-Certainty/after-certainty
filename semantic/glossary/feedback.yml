@@ -1,9 +1,20 @@
 slug: feedback
 title: Feedback
-shortDefinition: The path by which outcomes return as signal and influence future decisions.
-  Weak or delayed feedback reduces learning quality.
+shortDefinition: Feedback is the path by which outcomes return as signal and influence
+  future decisions. Weak, delayed, or distorted feedback reduces learning and makes drift
+  harder to notice.
+longDefinition: Feedback names how systems stay in contact with their own effects. It
+  becomes important whenever action and consequence are separated by time, scale, or
+  abstraction. It helps preserve learning, correction, and trust in ongoing coordination,
+  but can fail when dashboards stay green while lived harm accumulates off the ledger.
+  It differs from trust because feedback is the returning signal itself; trust is the
+  bridge that lets people act before every signal arrives. It differs from correction
+  because feedback is what returns; correction is the work of updating in response.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- coupling
+- correction
+- trust
 relatedPatterns: []
 relatedBooks:
 - after-certainty

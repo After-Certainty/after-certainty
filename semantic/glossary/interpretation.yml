@@ -1,4 +1,8 @@
-relatedConcepts: []
+relatedConcepts:
+- public-interpretation
+- private-understanding
+- meaning
+- boundary
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
@@ -6,9 +10,19 @@ relatedBooks:
 - when-interpretation-no-longer-matters
 slug: interpretation
 title: Interpretation
-shortDefinition: Interpretation is how meaning is reconstructed under pressure. Sacred
-  authority compresses interpretation; writing and law later externalize it so disputes
-  can be settled without shared presence.
+shortDefinition: Interpretation is the reconstruction of meaning under conditions of
+  partial information, context, pressure, and consequence. It is how people and institutions
+  make action legible when the scene cannot speak for itself.
+longDefinition: Interpretation names the ongoing work of deciding what something means
+  enough to coordinate on. It becomes important whenever shared action depends on more
+  than immediate perception—across time, distance, conflict, or institutional scale.
+  It helps preserve continuity between experience and obligation, but can fail when
+  interpretation hardens into category and stops tracking changing conditions. In the
+  authority arc, sacred authority compresses interpretation while writing and law later
+  externalize it so disputes can be settled without shared presence. It differs from
+  private understanding because interpretation must be able to coordinate judgment or
+  contest authority in shared space; it differs from meaning because interpretation
+  is the active reconstruction, not only what gets stabilized.
 termKind: core
 recognitionSignals:
 - what one did mattered before why one did it
@@ -44,4 +58,3 @@ manifestations:
   - copyists reproduce texts with painstaking uniformity
   family:
   - feast days and godparents mark allegiance before theology is argued
-

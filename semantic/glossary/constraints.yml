@@ -1,11 +1,18 @@
 slug: constraints
 title: Constraints
-shortDefinition: Constraints are the limits and boundary conditions that shape what actions
-  are possible in a system. They include technical limits, legal rules, time pressure, budget
-  limits, and institutional procedures. Good constraints channel behavior toward learning
-  and accountability; poor constraints hide tradeoffs or displace consequence.
+shortDefinition: Constraints are the operational limits and boundary conditions that
+  shape what actions are possible in a system—technical, legal, budget, procedural.
+  They differ from constraint (singular), which names the historical pressures a moral
+  order first responded to.
+longDefinition: Constraints names the present-tense architecture of what can be done—rules,
+  budgets, timelines, approvals, and technical ceilings. Good constraints channel behavior
+  toward learning and accountability; poor constraints hide tradeoffs or displace consequence.
+  It differs from constraint because constraints describes limits inside an operating system;
+  constraint describes the originating pressure that once made a moral order necessary.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- constraint
+- consequence-architecture
 relatedPatterns: []
 relatedBooks:
 - after-certainty

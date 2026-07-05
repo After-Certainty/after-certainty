@@ -1,9 +1,19 @@
 slug: private-understanding
 title: Private understanding
-shortDefinition: Individual recognition or awareness that persists without public
-  relevance or influence.
+shortDefinition: Private understanding is individual recognition that persists without
+  public relevance or influence. It differs from public interpretation, which can coordinate
+  judgment or contest authority in shared space.
+longDefinition: Private understanding names awareness that does not travel—diaries, whispered
+  recognition, informal networks preserving clarity beneath performative agreement. It becomes
+  important when expression carries extreme cost but moral clarity still accumulates. It helps
+  preserve memory and refusal of erasure, but can fail when silence is misread as unanimity or
+  when private clarity never translates into public pressure. It differs from interpretive
+  collapse because understanding may persist; what fails is public interpretive function.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- public-interpretation
+- interpretive-collapse
+- witness
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters

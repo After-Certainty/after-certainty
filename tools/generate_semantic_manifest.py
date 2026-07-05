@@ -451,6 +451,9 @@ def _finalize_glossary_list(by_slug: dict[str, dict]) -> list[dict]:
             tk = "extended"
         row["termKind"] = tk
         row["isCoreTerm"] = tk == "core"
+        long_def = str(row.get("longDefinition", "")).strip()
+        if long_def:
+            row["definition"] = long_def
         row.update(_dynamic_enrichment_fields(row))
         out.append(row)
     return out

@@ -1,12 +1,21 @@
 slug: connection
 title: Connection
-shortDefinition: Connection is the relationship people still have to live inside after the
-  conversation ends—not a fourth force but the context signal, compression, and restraint
-  move through. When people are linked by trust, dependence, history, care, or authority,
-  stakes rise quietly. What continues afterward—reachability with consequence—carries
-  revised trust, reluctance to speak, or renewed patience into the next conversation.
+shortDefinition: Connection is the relationship that persists after conversation—reachability
+  with consequence, not warmth alone. It differs from contact, which names staying close to
+  what was said in the moment; and from proximity, which names ongoing relational nearness.
+longDefinition: Connection names what continues after sentences end—trust, dependence, history,
+  care, or authority that makes the next read costlier or more patient. In How Meaning Moves,
+  connection is the context signal, compression, and restraint move through. It becomes important
+  when coordination continues but return paths thin. It helps preserve answerability across
+  encounters, but can fail when exchange turns mechanical while people quietly stop risking
+  more. It differs from contact because connection outlasts a single exchange; contact governs
+  whether the read stays open while speaking.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- contact
+- proximity
+- meaning
+- trust
 relatedPatterns: []
 relatedBooks:
 - how-meaning-moves

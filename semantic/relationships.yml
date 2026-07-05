@@ -28,3 +28,43 @@ relationships:
     target: correction
     relationship: preserves
     description: Uncertainty keeps systems open to revision and learning.
+  - source: alignment
+    target: alignment-at-scale
+    relationship: reproduces
+    description: Belonging-signal alignment can harden into institutional reproduction at scale.
+  - source: repair
+    target: witness
+    relationship: contrasts
+    description: Repair aims to restore standing; witness preserves record when repair cannot yet change the scene.
+  - source: correction
+    target: repair
+    relationship: contrasts
+    description: Correction updates belief and behavior; repair addresses damaged trust and legitimacy.
+  - source: correction
+    target: revisability
+    relationship: requires
+    description: Correction depends on decisions remaining open to update after action begins.
+  - source: constraint
+    target: constraints
+    relationship: contrasts
+    description: Constraint names originating historical pressure; constraints names operational limits inside a system.
+  - source: public-interpretation
+    target: interpretive-collapse
+    relationship: precedes
+    description: Interpretive collapse is the loss of public interpretation as shared evaluative activity.
+  - source: post-interpretive-authority
+    target: total-authority
+    relationship: intensifies
+    description: Post-interpretive authority can intensify toward total elimination of public evaluative space.
+  - source: cohesion
+    target: coupling
+    relationship: complements
+    description: Cohesion clarifies ownership within boundaries; coupling tracks attachment between action and consequence.
+  - source: proximity
+    target: contact
+    relationship: contrasts
+    description: Proximity is ongoing relational nearness; contact is staying close to unfinished meaning in the moment.
+  - source: drift
+    target: normalization
+    relationship: precedes
+    description: Drift can settle into normalization when decoupling becomes expected baseline.

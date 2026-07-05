@@ -1,9 +1,21 @@
 slug: agency
 title: Agency
-shortDefinition: Agency is the practical capacity to initiate action that can affect outcomes.
-  Formal role without real leverage is low agency, even when nominal responsibility remains.
+shortDefinition: Agency is the practical capacity to initiate action that can affect
+  outcomes. Formal role without real leverage is low agency, even when nominal responsibility
+  remains.
+longDefinition: Agency names whether a person or institution can actually move the scene,
+  not only be named on the org chart. It becomes important when speech, responsibility,
+  or moral weight outrun real leverage. It helps preserve honest coordination by distinguishing
+  who can act from who must only absorb consequence, but can fail when low agency is
+  mistaken for bad faith or when structural limits are narrated as personal failure.
+  It differs from responsibility because responsibility can remain assigned when agency
+  has thinned; it differs from judgment because agency is capacity to act, not the evaluative
+  practice of deciding well.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- judgment
+- accountability
+- responsibility
 relatedPatterns: []
 relatedBooks:
 - after-certainty

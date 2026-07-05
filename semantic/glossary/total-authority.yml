@@ -1,9 +1,21 @@
 slug: total-authority
 title: Total authority
-shortDefinition: Authority in which public interpretation disappears entirely, replaced
-  by enforcement, mobilization, and the elimination of evaluative space.
+shortDefinition: Total authority is authority in which public interpretation disappears
+  entirely, replaced by enforcement, mobilization, and the elimination of evaluative space.
+  It differs from post-interpretive authority, where some private understanding may still persist.
+longDefinition: Total authority names the extreme case where public disagreement becomes
+  life-threatening and independent evaluative institutions are eliminated. Communication may
+  intensify while assessment vanishes—public meaning enacted as obedience, not claim. It differs
+  from post-interpretive authority because total authority extinguishes public evaluative space
+  rather than merely decoupling legitimacy from external interpretation. It differs from interpretive
+  collapse because total authority actively eliminates evaluative activity; collapse can occur
+  without full elimination.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- post-interpretive-authority
+- interpretive-collapse
+- witness
+- public-interpretation
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters
