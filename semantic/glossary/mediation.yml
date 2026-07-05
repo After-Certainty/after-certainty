@@ -1,12 +1,45 @@
 slug: mediation
 title: Mediation
-shortDefinition: Mediation names interpretation through layered systems as a structural
-  pressure in systems where coordination, authority, and consequence travel at different
-  speeds. Before Certainty Arrives traces how this pressure appears historically as
-  scale compresses encounter and judgment.
+shortDefinition: Mediation is interpretation through layered systems when direct encounter
+  fails—interpreters at the harbor, clerks duplicating tribute lists, law and bureaucracy
+  standing between decision and the bodies that receive the consequence. Scale does not
+  eliminate moral life; it routes it through intermediaries.
 termKind: supporting
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
-
+recognitionSignals:
+- interpreters move between languages while clerks copy lists in duplicate
+- what is written persists across time and distance speech cannot carry
+- authority travels by law, taxation, and force rather than personal relationship
+- meaning drifts as it travels unless storage compresses it
+questions:
+- Who stands between decision and those who live the outcome?
+- What is lost when encounter is replaced by file, seal, or category?
+- Where does mediation make strangers coordinateable—and where does it hide harm?
+counterbalances:
+- follow mediation chains to the body, not only the policy
+- notice when storage preserves certainty and when it freezes revision
+- ask whether abstraction expanded reach or weakened grounding
+trajectory:
+  earlySignals:
+  - oral tradition and proximity still carry moral expectation
+  - local enforcement varies while shared memory regulates behavior
+  intensificationSignals:
+  - writing, canon, and archives hold meaning steady across distance
+  - standardized measures let strangers exchange under shared rules
+  failureModes:
+  - mediation outruns the feedback that once corrected interpretation
+  - institutions record outcomes people experience differently
+  restorationPaths:
+  - name who translates between worlds at the counter or the gate
+  - recognize storage as adaptation before judging abstraction alone
+manifestations:
+  politics:
+  - tribute lists copied for sender and receiver because neither trusts memory alone
+  - birth certificates, tax rolls, and conscription papers must align at the border
+  organizations:
+  - Han clerks copy edicts into provincial registers without the emperor present
+  family:
+  - temple ledgers settle disputes memory alone cannot reliably end
