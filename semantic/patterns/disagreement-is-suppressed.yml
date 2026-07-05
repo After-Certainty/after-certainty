@@ -24,9 +24,9 @@ relatedBooks:
 relatedSources:
 - cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus
 - argyris-chris-overcoming-organizational-defenses
-- perrow-charles-normal-accidents-living-with-high-risk
-- scott-james-c-domination-and-the-arts-of-resistance-hidden
--   weber-max-economy-and-society-an-outline-of-interpretive
+- perrow-charles-normal-accidents-living-with-high-risk-technologies
+- scott-james-c-domination-and-the-arts-of-resistance-hidden-transcripts
+- weber-max-economy-and-society-an-outline-of-interpretive-sociology
 recognitionSignals:
 - people draw breath to name a problem, then remember what happened to the last challenger
 - the director asks if there are questions and blank pads stay blank
@@ -56,10 +56,13 @@ trajectory:
   - track what speaking cost the last person who raised a similar flag
 manifestations:
   leadership:
-  - a program manager stays silent in a planning meeting despite a vendor mismatch she saw last quarter
+  - a program manager stays silent in a planning meeting despite a vendor mismatch
+    she saw last quarter
   organizations:
-  - a foreman's tailgate talk ends with no hands raised while rebar mismatch stays in the lot
+  - a foreman's tailgate talk ends with no hands raised while rebar mismatch stays
+    in the lot
   family:
   - relatives agree in the group chat but voice the real worry privately afterward
 media:
   mediumArticleUrl: https://medium.com/@steffensen.kevin/disagreement-is-suppressed-49514eb3bc43
+

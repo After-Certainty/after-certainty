@@ -23,17 +23,19 @@ relatedBooks:
 - when-others-look-to-you-v1
 - coupling
 relatedSources:
-- hirschman-albert-o-exit-voice-and-loyalty
-- scott-james-c-domination-and-the-arts-of-resistance-hidden
+- hirschman-albert-o-exit-voice-and-loyalty-responses-to-decline-in-firms-organizations-and-states
+- scott-james-c-domination-and-the-arts-of-resistance-hidden-transcripts
 media:
   youtubeVideoId: wHE-WLn-Bh8
   infographic:
     path: semantic/media/patterns/examples-accumulate.png
     width: 1200
     height: 669
-    alt: Infographic summarizing how repeated examples become what others treat as normal.
+    alt: Infographic summarizing how repeated examples become what others treat as
+      normal.
 recognitionSignals:
-- what the leader rewards, punishes, or ignores sets acceptable faster than posted policy
+- what the leader rewards, punishes, or ignores sets acceptable faster than posted
+  policy
 - under pressure, reactions and silence both get read as instruction
 - early handling of mistake or harm teaches what is safe to raise next time
 - people watch others when rules are thin and copy what they see
@@ -66,3 +68,4 @@ manifestations:
   - how the lead handled the last near-miss sets the near-miss protocol informally
   family:
   - a parent's unaddressed mistake teaches children what accountability means here
+

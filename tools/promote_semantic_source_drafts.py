@@ -30,6 +30,11 @@ try:
 except ModuleNotFoundError as exc:  # pragma: no cover
     raise SystemExit("PyYAML is required. Install with: python3 -m pip install pyyaml") from exc
 
+_TOOLS_DIR = Path(__file__).resolve().parent
+if str(_TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(_TOOLS_DIR))
+
+from dedupe_semantic_sources import collapse_prefix_duplicates, dedupe  # noqa: E402
 
 DEFAULT_DRAFT_ROOT = Path("semantic/_drafts/generated/sources")
 DEFAULT_DEST = Path("semantic/sources")
@@ -179,6 +184,7 @@ def main() -> None:
     dest = (repo / args.dest).resolve()
 
     merged = collect_merged(draft_root, args.book_id)
+    merged = collapse_prefix_duplicates(merged)
     if not merged:
         print(
             f"No draft sources found under {draft_root}"
@@ -220,6 +226,13 @@ def main() -> None:
         (dest / f"{slug}.yml").write_text(yml, encoding="utf-8")
 
     print(f"Wrote {len(merged)} canonical source file(s) under {dest}/", file=sys.stderr)
+
+    merged_groups, removed_dupes, _ = dedupe(repo, dry_run=False)
+    if merged_groups:
+        print(
+            f"Merged {merged_groups} duplicate slug group(s), removed {removed_dupes} file(s)",
+            file=sys.stderr,
+        )
 
     if args.prune:
         removed: list[str] = []

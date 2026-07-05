@@ -3,8 +3,12 @@ name: 'Charles Perrow — Normal Accidents: Living with High-Risk Technologies'
 type: book
 summary: 'Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*.
   New York: Basic Books, 1984.'
-concepts: []
+concepts:
+- meaning
 patterns: []
 relatedBooks:
+- how-meaning-moves
 - how-serious-systems-learn
+- when-moral-seriousness-scales
 - when-others-look-to-you-v2
+

@@ -4,7 +4,19 @@ name: 'Amy C Edmondson — The Fearless Organization: Creating Psychological Saf
 type: book
 summary: 'Edmondson, Amy C. *The Fearless Organization: Creating Psychological Safety
   in the Workplace for Learning, Innovation, and Growth*. Hoboken, NJ: Wiley, 2018.'
-concepts: []
-patterns: []
+concepts:
+- adaptation
+- interpretation
+- thinking
+- uncertainty
+patterns:
+- contact-keeps-the-read-open
+- meaning-gets-distorted
 relatedBooks:
+- how-meaning-moves
+- how-serious-systems-learn
 - trust-beyond-similarity
+- when-authority-outlives-accountability
+- when-moral-seriousness-scales
+- when-others-look-to-you-v2
+
