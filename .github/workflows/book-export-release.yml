@@ -297,24 +297,28 @@ jobs:
           test_slugs = ["acceleration", "friction", "contestability"]
           for slug in test_slugs:
               if slug in glossary_by_slug:
-                  yaml_path = Path(f"semantic/glossary/{slug}.yml")
+                  yaml_path = Path("semantic/glossary/{}.yml".format(slug))
                   if yaml_path.exists():
                       yaml_data = yaml.safe_load(yaml_path.read_text())
                       manifest_entry = glossary_by_slug[slug]
                       
-                      if yaml_data.get("shortDefinition") != manifest_entry.get("shortDefinition"):
-                          print(f"ERROR: {slug}.yml shortDefinition does not match manifest")
-                          print(f"  YAML: {yaml_data.get(\"shortDefinition\", \"\")[:100]}...")
-                          print(f"  Manifest: {manifest_entry.get(\"shortDefinition\", \"\")[:100]}...")
+                      yaml_short = yaml_data.get("shortDefinition", "")
+                      man_short = manifest_entry.get("shortDefinition", "")
+                      if yaml_short != man_short:
+                          print("ERROR: {}.yml shortDefinition does not match manifest".format(slug))
+                          print("  YAML: {}...".format(yaml_short[:100]))
+                          print("  Manifest: {}...".format(man_short[:100]))
                           exit(1)
                       
-                      if yaml_data.get("longDefinition") and yaml_data["longDefinition"] != manifest_entry.get("longDefinition"):
-                          print(f"ERROR: {slug}.yml longDefinition does not match manifest")
-                          print(f"  YAML: {yaml_data[\"longDefinition\"][:100]}...")
-                          print(f"  Manifest: {manifest_entry.get(\"longDefinition\", \"\")[:100]}...")
+                      yaml_long = yaml_data.get("longDefinition")
+                      man_long = manifest_entry.get("longDefinition", "")
+                      if yaml_long and yaml_long != man_long:
+                          print("ERROR: {}.yml longDefinition does not match manifest".format(slug))
+                          print("  YAML: {}...".format(yaml_long[:100]))
+                          print("  Manifest: {}...".format(man_long[:100]))
                           exit(1)
 
-          print(f"✓ Verified {len(test_slugs)} glossary entries match source YAML")
+          print("✓ Verified {} glossary entries match source YAML".format(len(test_slugs)))
           '
 
       - name: Update latest release with semantic manifest
