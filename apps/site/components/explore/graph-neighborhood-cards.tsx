@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import type { GraphNode } from "@/lib/graph/graph";
 import { exploreHrefForNode } from "@/lib/graph/explorePaths";
+import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
 
 export type GraphNeighborhoodCardsProps = {
   nodes: GraphNode[];
@@ -25,7 +26,7 @@ export function GraphNeighborhoodCards({ nodes, title = "Connected terrain" }: G
               <p className="text-[10px] uppercase tracking-[0.26em] text-accent">{n.kind}</p>
               <p className="mt-2 font-display text-lg text-fg">{n.kind === "source" ? n.entity.name : n.entity.title}</p>
               {n.kind === "concept" ? (
-                <p className="mt-2 line-clamp-2 text-sm text-muted">{n.entity.shortDefinition}</p>
+                <p className="mt-2 line-clamp-2 text-sm text-muted">{getConceptDisplayDefinition(n.entity)}</p>
               ) : null}
               {n.kind === "pattern" ? (
                 <p className="mt-2 line-clamp-2 text-sm text-muted">{n.entity.summary}</p>

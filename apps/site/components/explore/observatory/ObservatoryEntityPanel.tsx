@@ -9,6 +9,7 @@ import { relatedContentForBook, relatedContentForConcept, relatedContentForPatte
 import { getIncomingRelationships, getOutgoingRelationships, relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
 import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
 import type { Relationship } from "@/types/semanticGraph";
+import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
 
 type ObservatoryEntityPanelProps = {
   index: GraphIndex;
@@ -75,7 +76,7 @@ export function ObservatoryEntityPanel({
           {node.kind === "source" ? node.entity.name : node.entity.title}
         </h2>
         {node.kind === "concept" ? (
-          <p className="mt-4 text-sm leading-relaxed text-muted">{node.entity.shortDefinition}</p>
+          <p className="mt-4 text-sm leading-relaxed text-muted">{getConceptDisplayDefinition(node.entity)}</p>
         ) : null}
         {node.kind === "pattern" ? (
           <p className="mt-4 text-sm leading-relaxed text-muted">{node.entity.summary}</p>

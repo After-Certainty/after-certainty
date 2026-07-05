@@ -22,6 +22,7 @@ import {
   relatedBookUrls,
   relatedPatternUrls,
 } from "@/lib/seo/json-ld";
+import { getConceptFullDefinition } from "@/lib/graph/conceptFormatting";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!concept) return {};
   return createPageMetadata({
     title: concept.title,
-    description: concept.longDefinition ?? concept.definition ?? concept.shortDefinition,
+    description: getConceptFullDefinition(concept),
   });
 }
 
@@ -98,7 +99,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
           {concept.title}
         </h1>
         <div className="mt-8 max-w-2xl space-y-4 text-base leading-[1.85] text-muted md:text-[17px]">
-          <p className="whitespace-pre-wrap">{concept.longDefinition ?? concept.definition ?? concept.shortDefinition}</p>
+          <p className="whitespace-pre-wrap">{getConceptFullDefinition(concept)}</p>
         </div>
         <ExploreEntityDetailActions observatory={{ kind: "concept", slug: concept.slug }} />
         <ExploreAdjacentNav

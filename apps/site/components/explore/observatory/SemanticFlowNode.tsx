@@ -8,6 +8,7 @@ import { Handle, Position, type Node, type NodeProps } from "@xyflow/react";
 import { visualProfileForGraphNode } from "@/lib/graph/nodeVisuals";
 import type { GraphNode } from "@/lib/graph/graph";
 import type { NodeSemanticTier } from "@/lib/observatory/types";
+import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
 
 export type SemanticFlowNodeData = {
   graphNode: GraphNode;
@@ -77,7 +78,7 @@ function NodeTitle({ title, detailHref }: { title: string; detailHref?: string }
 }
 
 function subtitleOf(n: GraphNode): string | undefined {
-  if (n.kind === "concept") return n.entity.shortDefinition;
+  if (n.kind === "concept") return getConceptDisplayDefinition(n.entity);
   if (n.kind === "pattern") return n.entity.summary;
   if (n.kind === "book") return n.entity.subtitle ?? n.entity.summary;
   return n.entity.summary;

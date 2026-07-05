@@ -15,6 +15,7 @@ import type {
   Pattern,
   Source,
 } from "@/types/semanticGraph";
+import { getConceptFullDefinition } from "@/lib/graph/conceptFormatting";
 
 export const SCHEMA_ORG_CONTEXT = "https://schema.org";
 
@@ -249,7 +250,7 @@ export function buildDefinedTermJsonLd(params: {
     "@type": "DefinedTerm",
     "@id": `${pageUrl}#term`,
     name: concept.title,
-    description: concept.longDefinition ?? concept.definition ?? concept.shortDefinition,
+    description: getConceptFullDefinition(concept),
     url: pageUrl,
     termCode: concept.id,
     inDefinedTermSet: { "@id": GLOSSARY_TERM_SET_ID },
@@ -458,7 +459,7 @@ export function buildConceptPageJsonLd(params: {
     buildWebPageJsonLd({
       pageUrl,
       name: params.concept.title,
-      description: params.concept.longDefinition ?? params.concept.definition ?? params.concept.shortDefinition,
+      description: getConceptFullDefinition(params.concept),
       breadcrumbId: crumbsId,
       mainEntityId,
     }),
