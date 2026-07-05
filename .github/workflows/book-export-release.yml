@@ -234,3 +234,84 @@ jobs:
             exit 1
           fi
           echo "Revalidated www.after-certainty.com: podcast RSS, semantic-manifest.json, books-manifest.json"
+
+  # Always rebuild semantic manifest and revalidate cache on main pushes, independent of
+  # whether books were affected. Prevents semantic YAML changes from being ignored when
+  # no books are rebuilt. Runs only when the release job doesn't run (to avoid race
+  # conditions on the latest release).
+  semantic-manifest-release:
+    needs: [detect, export]
+    if: >
+      always() &&
+      needs.detect.outputs.empty == 'true' &&
+      github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_REPO: ${{ github.repository }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Fetch existing rolling release assets
+        continue-on-error: true
+        run: |
+          mkdir -p prior
+          gh release download latest --pattern '*.docx' --pattern '*.epub' --pattern '*.pdf' --pattern '*.manifest.json' --pattern 'books-manifest.json' --pattern 'semantic-manifest.json' --dir prior || true
+
+      - name: Build semantic manifest
+        run: |
+          set -euo pipefail
+          mkdir -p upload
+          python3 -m pip install --user pyyaml jsonschema
+          python3 tools/verify_semantic_yaml.py --repo . --strict-prose
+          python3 tools/generate_semantic_manifest.py \
+            --repo . \
+            --out upload/semantic-manifest.json \
+            --github-repository "${{ github.repository }}" \
+            --github-ref "main" \
+            --release-tag "latest"
+          python3 tools/validate_semantic_manifest.py --repo . --manifest upload/semantic-manifest.json
+
+      - name: Copy prior assets to upload directory
+        run: |
+          set -euo pipefail
+          if [ -d prior ] && [ "$(ls -A prior)" ]; then
+            cp prior/* upload/ 2>/dev/null || true
+          fi
+          ls -la upload
+
+      - name: Update latest release with semantic manifest
+        run: |
+          set -euo pipefail
+          gh release delete latest --yes --cleanup-tag 2>/dev/null || true
+          gh release create latest \
+            --title "Latest book exports" \
+            --notes "Automated exports. Semantic manifest rebuilt at commit ${{ github.sha }}." \
+            upload/*
+
+      # Refresh www.after-certainty.com caches (podcast RSS, semantic graph, books catalog).
+      - name: Revalidate www.after-certainty.com caches
+        env:
+          CACHE_REVALIDATE_SECRET: ${{ secrets.CACHE_REVALIDATE_SECRET }}
+          SITE_REVALIDATE_URL: ${{ vars.SITE_REVALIDATE_URL }}
+        run: |
+          set -euo pipefail
+          if [ -z "${CACHE_REVALIDATE_SECRET:-}" ]; then
+            echo "CACHE_REVALIDATE_SECRET not set; skipping site revalidate."
+            exit 0
+          fi
+          url="${SITE_REVALIDATE_URL:-https://www.after-certainty.com/api/cache/revalidate}"
+          code=$(curl -sS -o /tmp/site-revalidate.json -w "%{http_code}" \
+            -X POST "$url" \
+            -H "Authorization: Bearer ${CACHE_REVALIDATE_SECRET}" \
+            -H "Content-Type: application/json" \
+            -d '{"targets":["podcast","semantic","books"]}')
+          cat /tmp/site-revalidate.json
+          echo ""
+          if [ "$code" != "200" ]; then
+            echo "Site revalidate failed (HTTP ${code}). Deploy after-certainty-site with /api/cache/revalidate and matching CACHE_REVALIDATE_SECRET on Vercel."
+            exit 1
+          fi
+          echo "Revalidated www.after-certainty.com: podcast RSS, semantic-manifest.json, books-manifest.json"
