@@ -53,6 +53,14 @@ EOF
 
 Return the PR URL.
 
+## Follow-ups (when the report surfaces gaps)
+
+| Finding | Skill |
+|---------|-------|
+| Term used heavily but definition is thin or book-only in `shortDefinition` | **semantic-enrichment** → `definitions` |
+| Term in manuscript but missing from glossary | **glossary-extract** |
+| Near-overlap with another slug (usage suggests wrong sense) | **semantic-enrichment** → `definitions` + disambiguation — see [08-concept-definitions.md](../../../docs/agents/semantic/08-concept-definitions.md) |
+
 ## Do not
 
 - Invent glossary entries (use **glossary-extract** skill for new terms)

@@ -6,9 +6,9 @@ Enrichment **proposes** meaning in gitignored drafts; humans **ratify** via `pro
 
 | Skill | Purpose |
 |-------|---------|
-| **semantic-enrichment** | Add enrichment fields to existing glossary/patterns (`recognitionSignals`, …, or `all`) → PR |
+| **glossary-extract** | Discover and add new `semantic/glossary/` entries from a book (two-tier definitions) → PR |
+| **semantic-enrichment** | Add or revise definitions, enrichment fields on existing glossary/patterns → PR |
 | **glossary-usage-audit** | Report where existing glossary terms appear in a manuscript → PR |
-| **glossary-extract** | Discover and add new `semantic/glossary/` entries from a book → PR |
 
 Paths: `.cursor/skills/<skill-name>/SKILL.md`
 
@@ -23,6 +23,7 @@ Paths: `.cursor/skills/<skill-name>/SKILL.md`
 
 | Agent | Field | Brief |
 |-------|-------|-------|
+| `definitions` | `shortDefinition`, `longDefinition`, `relatedConcepts` | [08-concept-definitions.md](08-concept-definitions.md) |
 | `recognition-signals` | `recognitionSignals` | [01-recognition-signals.md](01-recognition-signals.md) |
 | `trajectories` | `trajectory` | [02-trajectories.md](02-trajectories.md) |
 | `manifestations` | `manifestations` | [03-domain-manifestations.md](03-domain-manifestations.md) |
