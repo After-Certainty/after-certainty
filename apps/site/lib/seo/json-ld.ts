@@ -530,6 +530,57 @@ export function buildHomePageJsonLd(): JsonLdNode[] {
   ];
 }
 
+export type StartPageShelfItem = {
+  slug: string;
+  title: string;
+  description: string;
+  url: string;
+};
+
+export function buildStartPageJsonLd(params: {
+  shelfItems: StartPageShelfItem[];
+}): JsonLdNode[] {
+  const pageUrl = absoluteUrl("/start");
+  const crumbsId = breadcrumbId(pageUrl);
+  const itemListId = `${pageUrl}#front-shelf`;
+
+  const itemListElement = params.shelfItems.map((item, index) =>
+    compact({
+      "@type": "ListItem",
+      position: index + 1,
+      item: compact({
+        "@type": "Book",
+        name: item.title,
+        description: item.description,
+        url: item.url,
+      }),
+    }),
+  );
+
+  const frontShelfList: JsonLdNode = compact({
+    "@type": "ItemList",
+    "@id": itemListId,
+    name: "Front Shelf",
+    description:
+      "Curated entry points into the After Certainty book corpus — different doorways into the same terrain.",
+    numberOfItems: params.shelfItems.length,
+    itemListElement,
+  });
+
+  return [
+    buildWebPageJsonLd({
+      pageUrl,
+      name: "Start Here",
+      description:
+        "Orientation for After Certainty — an open publishing commons for books, podcast, patterns, and collaboration.",
+      breadcrumbId: crumbsId,
+      mainEntityId: itemListId,
+    }),
+    frontShelfList,
+    buildBreadcrumbListJsonLd([{ label: "Start Here" }], crumbsId),
+  ];
+}
+
 /** Resolve related entity canonical ids to absolute explore URLs for JSON-LD cross-links. */
 export function relatedBookUrls(index: GraphIndex, ids: string[] | undefined): string[] {
   return (ids ?? [])
