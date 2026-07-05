@@ -19,6 +19,40 @@ relatedPatterns:
 relatedBooks:
 - when-others-look-to-you-v1
 - coupling
+recognitionSignals:
+- someone interrupts the agenda to hold at an inconvenient slide without being treated as disloyal
+- bad news moves in a thread or room everyone already saw
+- raising risk early does not cost a place at the table
+- problems show up before they compound into identity fights
+- the lead asks edge cases to be walked through before moving on
+questions:
+- If you see a problem, can you say it now while it is still small?
+- Can inconvenient truth land in public without the speaker becoming the problem?
+- Does the first warning reach the people who decide before the moment passes?
+counterbalances:
+- reply-all a plain correction when the public story is wrong
+- pause the schedule when the first analyst flags a hidden drop
+- reward the interrupt that saves a later drama, not only smooth meetings
+trajectory:
+  earlySignals:
+  - side-thread warnings still reach the decision meeting
+  - people describe speaking up as part of the job
+  intensificationSignals:
+  - warnings survive but arrive too late to steer the plan
+  - good news still travels easier than bad news up the chain
+  failureModes:
+  - dissent is welcomed in language but punished in credit and assignment
+  - learning collapses after disagreement is suppressed in practice
+  restorationPaths:
+  - let one straight correction happen in public and keep the speaker in the room
+  - shorten reporting lines when risk signals die in digests
+manifestations:
+  leadership:
+  - an engineer stops a lead after an executive check-in to name a stub release
+  organizations:
+  - a nurse flags dosage-order risk and protocol updates push before repeat error
+  family:
+  - a teenager names a scheduling conflict before plans harden for the weekend
 media:
   youtubeVideoId: hCC_faAUMZA
   mediumArticleUrl: https://medium.com/@steffensen.kevin/dissent-is-welcomed-b444e4c16592

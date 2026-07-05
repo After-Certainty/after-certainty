@@ -9,3 +9,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - coupling
+recognitionSignals:
+- milestone completion stays green while integration risk accumulates under separate team reviews
+- analysts, designers, developers, testers, and operators hand work sequentially without shared consequence
+- contracts and budgets solidify before the full system meets realistic load or usage
+- late-stage discovery turns small technical fixes into multi-team coordination events
+- phase completion rewarded more strongly than exposure to operational reality
+questions:
+- Where in this plan does consequence first return with enough context to redesign cheaply?
+- Which handoffs separate decision-makers from the runtime effects of early choices?
+- Does status reporting track conformance to plan or learning from reality?
+counterbalances:
+- insert early integration probes before commitments spread across layers
+- keep one cross-phase owner accountable for end-to-end consequence return
+- use phase gates to force learning, not only to prove documentation completeness
+trajectory:
+  earlySignals:
+  - requirements and design phases complete with excellent artifacts but little runtime contact
+  - teams optimize local phase deliverables on independent calendars
+  intensificationSignals:
+  - integration month compresses delayed feedback into organization-wide shock
+  - fixing issues requires renegotiating contracts, vendors, and approvals embedded across phases
+  failureModes:
+  - systems appear highly coordinated while learning remains weak until late catastrophe
+  - responsibility spreads so widely after late failures that no boundary owns redesign
+  restorationPaths:
+  - shorten feedback paths between phases without abandoning large-program visibility needs
+  - treat late integration findings as structural signals, not one-time bad luck
+manifestations:
+  software:
+  - enterprise program reports healthy milestones until interfaces conflict under realistic load
+  organizations:
+  - government procurement tracks phase completion while operational harm arrives years later
+  leadership:
+  - program managers rewarded for on-time phase gates before systems prove they work together
+  politics:
+  - defense software standards emphasize specification-heavy review over timely consequence return

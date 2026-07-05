@@ -28,3 +28,40 @@ relatedSources:
 - kruglanski-arie-w-the-need-for-cognitive-closure
 - ross-lee-and-andrew-ward-naive-realism-in-everyday-life
 - ross-lee-and-richard-nisbett-the-person-and-the-situation
+recognitionSignals:
+- dashboards and reports stay stable while lived conditions shift faster
+- metrics improve while the experience they were meant to track worsens
+- corrected versions circulate weakly while earlier framings keep winning
+- fluent output mixes contexts that were supposed to stay separate
+- teams renegotiate meaning whenever external interfaces change silently
+questions:
+- When was this summary last checked against operational reality?
+- Which interpretation hardened before we verified it against source context?
+- If the metric moved, did the thing we cared about move—or only the indicator?
+counterbalances:
+- pair every abstraction with a return path that forces revision
+- keep contexts separated at boundaries where meaning must stay stable
+- treat corrections as redesign triggers, not footnotes
+trajectory:
+  earlySignals:
+  - summaries travel upward more easily than lived operational detail
+  - provisional interpretations get repeated without re-exposure to source
+  intensificationSignals:
+  - decision-makers optimize representations instead of consequences
+  - engagement or compliance metrics diverge from operational truth
+  failureModes:
+  - stale representation governs redesign after reality has moved on
+  - public memory stays shaped by the first emotionally powerful version
+  restorationPaths:
+  - shorten reporting cycles at boundaries with redesign authority
+  - restore contact between abstracted metrics and particular cases
+manifestations:
+  software:
+  - reliability dashboards stay green while on-call fatigue spreads
+  - generated diffs look idiomatic while operational semantics drift
+  leadership:
+  - risk filings look healthy while leverage accumulates underneath
+  - governance reports stay coherent across clocks that no longer align
+  organizations:
+  - media corrections update the article while algorithms amplify the original
+  - audits succeed while operational failures continue unchanged

@@ -10,3 +10,37 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - coupling
+recognitionSignals:
+- interface changes break downstream callers without a published migration plan
+- error handling differs by caller because behavioral guarantees were never written down
+- integration reviews discover assumptions that lived only in tribal knowledge
+- two teams interpret the same API field differently during an incident
+- copied adapters inherit retry semantics from unrelated upstream contexts
+questions:
+- What inputs, outputs, errors, and invariants are guaranteed at this boundary?
+- Would a new team diagnose failure here using the contract alone?
+- Where do implicit assumptions outrun what the interface documents?
+counterbalances:
+- version contracts when domain semantics change, not only when syntax changes
+- pair interface definitions with failure-mode examples drawn from production
+- treat copied integration behavior as contract debt until made explicit
+trajectory:
+  earlySignals:
+  - teams negotiate field meaning verbally before each release
+  - small adapter changes ripple unpredictably across dependent services
+  intensificationSignals:
+  - incident triage spends hours determining whether the contract or the caller failed
+  - shared libraries change behavior without coordinated consumer updates
+  failureModes:
+  - entanglement replaces contracts and failures repeat across undocumented dependents
+  - context collapse hides which behavioral guarantee was actually violated
+  restorationPaths:
+  - publish explicit behavioral agreements attached to each interface port
+  - isolate vendor-specific semantics in adapters, not in implied shared behavior
+manifestations:
+  software:
+  - data contract mismatches surface only at integration month under realistic load
+  organizations:
+  - legal MOUs define roles while operational handoffs lack explicit outcome guarantees
+  leadership:
+  - executives demand API-first strategies without funding contract ownership per boundary

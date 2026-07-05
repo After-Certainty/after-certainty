@@ -8,3 +8,37 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - coupling
+recognitionSignals:
+- sprint velocity rises while the same incident categories recur across releases
+- demos and retros happen on schedule but runtime pain stays in operations queues
+- product and engineering negotiate inside the team while platform dependencies stay opaque
+- ceremony increases without proportional redesign after failure
+- local ownership strengthens while cross-team runtime consequence remains elsewhere
+questions:
+- Does faster cadence here shorten consequence return or only local throughput?
+- Which operational pain still lives outside this team's boundary?
+- Where has speed become throughput theater without outcome learning?
+counterbalances:
+- pair sprint metrics with recovery and failure signals that expose learning-loop quality
+- keep one boundary accountable for end-to-end runtime outcome per value stream
+- reserve retros for structural redesign, not only process tuning
+trajectory:
+  earlySignals:
+  - shorter cycles surface defects before large integration events
+  - cross-functional teams compress planning, build, and near-term feedback
+  intensificationSignals:
+  - velocity metrics displace outcome understanding
+  - dependencies between teams multiply faster than team-level learning
+  failureModes:
+  - throughput theater masks weak operational coupling across boundaries
+  - each team adapts locally while system-wide fragility accumulates quietly
+  restorationPaths:
+  - reconnect at least one runtime consequence path per value stream
+  - measure learning-loop quality, not only delivery cadence
+manifestations:
+  software:
+  - cross-functional squads ship every two weeks while outages teach ops, not builders
+  organizations:
+  - stable care teams review outcomes daily while siloed departments learn on quarterly cycles
+  leadership:
+  - executives celebrate release frequency while recovery time stagnates

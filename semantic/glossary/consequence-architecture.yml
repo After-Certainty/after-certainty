@@ -14,5 +14,35 @@ recognitionSignals:
 - responsibility boundaries and escalation routes are deliberately designed
 - feedback paths return consequence to actors who can redesign behavior
 - guardrails unite cohesion and coupling in practice
+- guardrail policies exist on paper while production paths bypass them
+- nobody can answer who learns from a given failure class after postmortems
 questions:
 - Who can still redesign behavior when this path returns signal?
+- Where will this fail first, and can that boundary redesign the system?
+- Which constraint layers actually run where consequence happens?
+counterbalances:
+- design feedback paths before expanding generation or deployment speed
+- pair guardrails with redesign authority, not only compliance proof
+- keep escalation routes short enough for memory of the decision to survive
+trajectory:
+  earlySignals:
+  - teams ad hoc route incidents to whoever is available, not a clear owner
+  - policies multiply without matching runtime enforcement paths
+  intensificationSignals:
+  - postmortems produce vague action items detached from redesign authority
+  - AI-assisted output spreads faster than boundary rules are updated
+  failureModes:
+  - organizations prove they cared while the same failure class repeats
+  - consequence architecture exists in documents but not in production paths
+  restorationPaths:
+  - attach each guardrail to the production path where harm would appear
+  - name who decides, who absorbs consequence, and who can redesign after failure
+manifestations:
+  software:
+  - security-approved AI assistant still serves traffic through a legacy endpoint
+  organizations:
+  - incident reviews end with prompt tweaks when retrieval boundary ownership is unclear
+  leadership:
+  - executives demand guardrails without funding teams who must redesign around them
+  ai_systems:
+  - evaluation suites test benchmark prompts while operational failures repeat in production

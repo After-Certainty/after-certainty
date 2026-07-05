@@ -9,3 +9,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - coupling
+recognitionSignals:
+- developers who ship releases take pager responsibility for those services
+- operations teams absorb outages while builders move to the next feature backlog
+- incident pain teaches observability and rollback improvements in the deploying team
+- specialization separates decision authority from incident impact across handoff chains
+- quarterly reliability reports circulate without changing design choices upstream
+questions:
+- Who experiences runtime consequence from decisions made in this boundary?
+- Where has specialization severed learning without restoring any shared exposure?
+- Does operational proximity here change design choices before the next release?
+counterbalances:
+- pair build and run for each service without dissolving necessary platform specialization
+- use on-call rotation as coupling mechanism, not only as operational staffing
+- keep escalation paths when local teams cannot absorb full operational load alone
+trajectory:
+  earlySignals:
+  - operational reviews happen downstream of development handoffs
+  - support and ops document failures development teams rarely see directly
+  intensificationSignals:
+  - incentives fragment—one team ships, another absorbs failures, a third manages customers
+  - DevOps tooling integrates while responsibility for runtime pain stays externalized
+  failureModes:
+  - systems function while learning weakens because pain and redesign authority diverge
+  - operational coupling becomes performative through slogans without pager ownership
+  restorationPaths:
+  - move at least one runtime consequence path back to the team changing the system
+  - align on-call, deployment, and postmortem practice with design authority
+manifestations:
+  software:
+  - engineer on call rolls back her own release after tracing a regression she introduced
+  organizations:
+  - hospital policy designers remain separated from bedside consequences of their protocols
+  leadership:
+  - executives read reliability summaries operators know are abstract compared to pager alerts
+  politics:
+  - regulators review accurate filings that no longer reflect current on-the-ground conditions

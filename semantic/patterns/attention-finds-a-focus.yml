@@ -26,7 +26,41 @@ relatedPatterns:
 relatedBooks:
 - when-others-look-to-you-v1
 relatedSources:
-- cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus
+-   cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus
+recognitionSignals:
+- people glance toward the same person when uncertainty rises in a meeting
+- silence pushes someone to act before any formal handoff
+- early reactions and tone get copied before rules do
+- pace, tolerance, and silence from one person become group instruction
+- influence forms before anyone names who will lead
+questions:
+- When nobody knows the next move, where does attention settle first?
+- What signals are people reading from my silence or reaction?
+- Has one person become the default steer without a title change?
+counterbalances:
+- name who is deciding for this stretch before ambiguity hardens
+- rotate who opens unclear meetings so attention does not lock early
+- make space for a second voice before the first reaction sets the norm
+trajectory:
+  earlySignals:
+  - cues gather around whoever spoke confidently last
+  - the group pauses and looks toward one seat when stakes rise
+  intensificationSignals:
+  - attention and influence reinforce each other in a tightening loop
+  - others line up timing and tone with the focal person automatically
+  failureModes:
+  - authority locks in while formal roles still look unsettled
+  - leadership coalesces before circulation or correction paths exist
+  restorationPaths:
+  - interrupt the loop by handing a temporary steer to whoever is closest to the issue
+  - make early signals explicit before they become habit
+manifestations:
+  leadership:
+  - a congregation listens for tone before interpreting a difficult moment
+  organizations:
+  - a team waits for direction when performance falters even without a charted lead
+  family:
+  - a child hesitates at a crossing and glances at a parent before moving
 media:
   youtubeVideoId: 3N-vY1i5rg8
   infographic:

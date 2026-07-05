@@ -26,6 +26,40 @@ relatedSources:
 - argyris-chris-overcoming-organizational-defenses
 - perrow-charles-normal-accidents-living-with-high-risk
 - scott-james-c-domination-and-the-arts-of-resistance-hidden
-- weber-max-economy-and-society-an-outline-of-interpretive
+-   weber-max-economy-and-society-an-outline-of-interpretive
+recognitionSignals:
+- people draw breath to name a problem, then remember what happened to the last challenger
+- the director asks if there are questions and blank pads stay blank
+- challenge sounds like disloyalty before it reaches a real debate
+- success and smooth press make risk feel impolite to name in the room
+- loyalty language rewards agreement over pushback
+questions:
+- Where is the challenge—and why am I not hearing it?
+- What did the room teach about the cost of naming timing or capacity mismatch?
+- Is guarding the leader mattering as much as getting the facts right?
+counterbalances:
+- ask for disagreement before locking a rollout decision
+- protect the first person who names capacity or timeline mismatch
+- separate team-player praise from quiet reassignment stories
+trajectory:
+  earlySignals:
+  - concerns get voiced in hallways after the meeting, not in it
+  - people glance at the same blank line instead of speaking
+  intensificationSignals:
+  - dissent softens into performances that protect whoever holds the center
+  - stories about who we are harden around the leader
+  failureModes:
+  - correction paths narrow while confidence inside the group rises
+  - late failure grows more likely because errors stayed hidden
+  restorationPaths:
+  - make one concrete objection welcome before schedule commitment
+  - track what speaking cost the last person who raised a similar flag
+manifestations:
+  leadership:
+  - a program manager stays silent in a planning meeting despite a vendor mismatch she saw last quarter
+  organizations:
+  - a foreman's tailgate talk ends with no hands raised while rebar mismatch stays in the lot
+  family:
+  - relatives agree in the group chat but voice the real worry privately afterward
 media:
   mediumArticleUrl: https://medium.com/@steffensen.kevin/disagreement-is-suppressed-49514eb3bc43

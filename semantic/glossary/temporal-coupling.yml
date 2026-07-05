@@ -9,3 +9,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - coupling
+recognitionSignals:
+- integration month reveals conflicts after requirements hardened and contracts solidified
+- quarterly reports trigger retrospectives on decisions made two leadership cycles ago
+- problems discovered immediately after deployment teach differently than six-month-old failures
+- annual budgeting commits resources before operational consequences of prior choices appear
+- systems reward fast-arriving metrics while slower harm remains structurally discounted
+questions:
+- How long between action here and the signal that could still change the decision?
+- Would the original decision-makers still remember context when consequence arrives?
+- Where does delay convert correction into negotiation?
+counterbalances:
+- compress feedback time without eliminating buffers that absorb ordinary variation
+- move at least one check earlier while decisions remain locally reversible
+- treat long lag as a coupling failure even when formal accountability tracks remain
+trajectory:
+  earlySignals:
+  - feedback arrives in a different planning cycle than the decision it should correct
+  - teams move on before operational consequences of their choices surface
+  intensificationSignals:
+  - late integration compresses many hidden assumptions into one coordination shock
+  - organizations produce polished retrospectives instead of timely redesign
+  failureModes:
+  - low temporal coupling protects failing designs from revision until change is expensive
+  - memory loss and interpretive noise make consequence politically disputable when it arrives
+  restorationPaths:
+  - shorten at least one loop so consequence meets decision-makers while context survives
+  - align incentives with signals that arrive before commitments harden across boundaries
+manifestations:
+  software:
+  - Waterfall programs stay green through milestones until integration month exposes drift
+  organizations:
+  - annual budget cycles lock staffing before preventable operational failures surface
+  leadership:
+  - executives celebrate engagement metrics months before customer trust decline becomes visible
+  politics:
+  - legislation responds to investigations whose subject conditions already changed again

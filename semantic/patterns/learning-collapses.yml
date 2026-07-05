@@ -19,5 +19,39 @@ relatedPatterns:
 relatedBooks:
 - when-others-look-to-you-v1
 - coupling
+recognitionSignals:
+- decision-makers steer off summaries while the ground story never reaches the room
+- flags live in weekly digests but never become decisions that change the rule
+- negative feedback weakens even when positive adoption metrics look strong
+- the same avoidable errors repeat behind coherent public updates
+- knowledge exists locally but has no reliable path up in time
+questions:
+- Is the ground story reaching this room before we steer again?
+- Who keeps a shadow spreadsheet because the official channel failed?
+- What error already happened twice because the message never converted to action?
+counterbalances:
+- elevate one digest flag to a steering decision with a named owner
+- shorten the path from site coordinator to template change
+- require ground read in the same meeting as summary metrics
+trajectory:
+  earlySignals:
+  - local workarounds keep employers or clients from walking away while central metrics stay green
+  - coordinators assume someone closer to the vendor opened a ticket
+  intensificationSignals:
+  - formal reporting filters timing problems into training follow-ups
+  - boards see compliance rates, not shadow processes holding placements together
+  failureModes:
+  - errors repeat; correction arrives late and costs more
+  - exceptions are forever because bypass became the learning path
+  restorationPaths:
+  - convert one recurring digest flag into a rule change with a deadline
+  - sit decision-makers with site coordinators until the queue failure is visible
+manifestations:
+  leadership:
+  - a president's briefing shows strong adoption while portal queues stall placements
+  organizations:
+  - IT marks routing flaws as training issues though every center logged them week one
+  family:
+  - parents repeat the same conflict because children's warnings never alter the household plan
 media:
   mediumArticleUrl: https://medium.com/@steffensen.kevin/learning-collapses-41c7ebef3c93

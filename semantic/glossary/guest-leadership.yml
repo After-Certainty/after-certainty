@@ -8,3 +8,37 @@ relatedConcepts:
 relatedPatterns: []
 relatedBooks:
   - when-others-look-to-you-v1
+recognitionSignals:
+- the person closest to the problem makes the call and keeps timing without waiting on hold
+- someone steps in for a stretch, then returns to their usual role without a penalty story
+- pre-service huddles name who held the floor when the director was away
+- temporary lead passes with the problem, not as a permanent claim on every decision
+- offers to step in stay guarded when the last step-in was thanked publicly and reassigned quietly
+questions:
+- Who is permitted to steer for a stretch when the named lead is not in the room?
+- What happened after the last person held the center—credit, erasure, or quiet cost?
+- Does the org chart say delegation while the room still teaches hold for the chef?
+counterbalances:
+- name who held the decision in the rehearsal report or thread everyone saw
+- treat stepping back as safe as stepping up was welcome
+- give temporary turns to people who might disagree and still be trusted
+trajectory:
+  earlySignals:
+  - people text a one-line heads-up, not to ask permission, but so no one is surprised later
+  - the room treats a stretch at the center as part of the job, not a coup
+  intensificationSignals:
+  - coordinators wait on hold while the line already knows the answer
+  - newsletter credit stays with the team while the stage manager's name disappears
+  failureModes:
+  - only one name is permitted to steer even when correction still works on paper
+  - offers to step in shorten into silence and workaround behavior
+  restorationPaths:
+  - credit the step-in in plain language when the formal lead returns
+  - practice holding the center before acute pressure arrives
+manifestations:
+  leadership:
+  - a sous chef swaps the main on an allergy call without the head chef on site
+  organizations:
+  - site coordinators run a rollout night while central leadership is traveling
+  family:
+  - an older sibling holds the route decision for a block, then hands it back at the corner

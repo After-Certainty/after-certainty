@@ -8,3 +8,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - coupling
+recognitionSignals:
+- generated output ships while teams skip questions about boundary ownership
+- legacy routes bypass new guardrails and nobody treats that as an invariant violation
+- billing, safety, or customer-communication rules erode under just-ship-it pressure
+- adapter boundaries into core policy logic merge for speed during demos
+- organizations lack any short list of conditions they refuse to violate under acceleration
+questions:
+- Which conditions must stay true here even while tools and workflows change?
+- Where has generation pressure normalized violating a rule the organization claims to hold?
+- Who enforces invariants at the production path, not only in policy documents?
+counterbalances:
+- publish a small set of non-negotiable conditions before expanding generation speed
+- tie invariant violations to redesign authority, not only to audit findings
+- keep invariants operational—running in code or process where consequence occurs
+trajectory:
+  earlySignals:
+  - teams rely on remembered intentions under deadline pressure
+  - exceptions for demos and launches accumulate without sunset plans
+  intensificationSignals:
+  - policy documents and production paths diverge without triggering escalation
+  - context collapse makes teams stop asking which boundary owns a change
+  failureModes:
+  - invariants exist in slides while production repeatedly violates them safely-on-paper
+  - acceleration outpaces the stable rules needed to keep systems learnable
+  restorationPaths:
+  - encode invariants as constraints that run where failures would first appear
+  - reset culture to reward refusing shipment that violates non-negotiable conditions
+manifestations:
+  software:
+  - teams adopt never-merge-generated-code-without-ownership rules then bypass them under sprint pressure
+  organizations:
+  - hospitals maintain invariants on patient handoffs while informal workarounds erode them quietly
+  leadership:
+  - executives announce ethical guardrails without funding enforcement on live workflow paths
+  ai_systems:
+  - visible-source rules for customer communication hold in docs but not in older endpoints

@@ -15,5 +15,35 @@ recognitionSignals:
 - disagreement persists about who decides and what happened
 - independently evolving boundaries multiply governance cost
 - coordination substitutes preserve throughput while thinning correction
+- hallway conversations carry risk signals formal structures never capture in time
+- governance meetings multiply while no redesign-capable owner holds the full picture
 questions:
 - Is the system paying for coherence through ownership or through substitutes?
+- Which substitute coordination costs are growing faster than clear ownership?
+- Can anyone here redesign the structure, not only synchronize around it?
+counterbalances:
+- invest in timely feedback paths before adding approval layers
+- name ownership at redesign-capable boundaries explicitly
+- treat coordination machinery as debt when it replaces consequence return
+trajectory:
+  earlySignals:
+  - small disagreements about facts and next actions appear across teams
+  - independently owned services begin drifting on different release calendars
+  intensificationSignals:
+  - approvals and reporting layers multiply to preserve a shared picture
+  - throughput stays visible while corrective capacity thins
+  failureModes:
+  - organizations synchronize activity without returning consequence to redesign
+  - coherence maintenance cost dominates engineering or operational capacity
+  restorationPaths:
+  - pay for coherence through ownership and feedback rather than substitutes alone
+  - shrink the number of boundaries that must agree before local correction
+manifestations:
+  software:
+  - architecture board meetings replace absent team-level ownership of integration risk
+  organizations:
+  - hospitals run daily huddles while committees debate last quarter's staffing metrics
+  leadership:
+  - executives require weekly cross-functional syncs because no single owner holds end-to-end outcome
+  politics:
+  - interagency task forces form after failures because statutory authority remains fragmented

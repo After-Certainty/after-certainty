@@ -16,5 +16,35 @@ recognitionSignals:
 - approvals, queues, and handoffs multiply while ownership thins
 - actors hold partial information and change on different timelines
 - reporting layers synchronize activity without returning consequence to redesign
+- emergency meetings synchronize independently advanced work after late discovery
+- platform or architecture boards become bottlenecks with partial context
 questions:
 - Where is coordination substituting for clear ownership and timely feedback?
+- Is this approval queue returning consequence or only synchronizing fragility?
+- Which redesign-capable owner would make this meeting unnecessary?
+counterbalances:
+- restore ownership at a boundary that can redesign, not only approve
+- shorten feedback loops so less cross-team synchronization is required
+- distinguish necessary coordination from scar-tissue substitutes
+trajectory:
+  earlySignals:
+  - handoffs and queues appear where ownership was always somewhat unclear
+  - teams hold partial information about the same outcome on different timelines
+  intensificationSignals:
+  - reporting layers synchronize activity while corrective redesign stalls
+  - bureaucracy thickens after failures without restoring cohesive ownership
+  failureModes:
+  - coordination cost dominates capacity that could improve the system
+  - procedure replaces learning while following process becomes the success metric
+  restorationPaths:
+  - redesign ownership boundaries before adding another approval layer
+  - return one consequence path to a team that can change structure, not only status
+manifestations:
+  software:
+  - release trains require multi-team renegotiation when a Friday scan finds a vulnerability
+  organizations:
+  - agencies add forms and review boards after preventable failures while frontline bottlenecks persist
+  leadership:
+  - executives convene cross-functional war rooms because no owner holds the full blast radius
+  politics:
+  - oversight hearings produce recommendations no single jurisdiction can implement

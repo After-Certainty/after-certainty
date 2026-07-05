@@ -14,5 +14,37 @@ recognitionSignals:
 - dashboards and filings govern action after conditions changed
 - compliance summaries outpace the return path that would force revision
 - model cards and risk metrics stay syntactically valid while misleading
+- leadership discusses last quarter's definitions while current risk lives in hallway conversations
+- compliance activity rises while measured outcomes stagnate
 questions:
 - What summary is still treated as current after consequence moved on?
+- Who can challenge this metric when reality changes?
+- Which redesign authority still treats this summary as current?
+counterbalances:
+- pair dashboards with paths for frontline signal to force revision
+- expire or timestamp representations that govern high-stakes decisions
+- distinguish reporting for oversight from signal that triggers redesign
+trajectory:
+  earlySignals:
+  - summaries were accurate enough when produced and still circulate unchanged
+  - metrics trend upward while operators report contradictory experience
+  intensificationSignals:
+  - institutions defend representations instead of interrogating them
+  - decision meetings analyze definitions that no longer match operational reality
+  failureModes:
+  - systems optimize representations of success while operational reality diverges
+  - stale model cards, filings, or risk metrics govern action after conditions shifted
+  restorationPaths:
+  - shorten the return path that would force revision at a redesign-capable boundary
+  - reconnect measurement to owners who can change structure when summaries fail
+manifestations:
+  software:
+  - green deployment dashboards while recovery quality and frontline toil worsen
+  organizations:
+  - agency directors discuss quarterly staffing metrics nurses disputed months earlier
+  leadership:
+  - boards review compliance reports accurate when written, misleading when acted upon
+  politics:
+  - civic oversight acts on investigative summaries after operational reality moved again
+  ai_systems:
+  - model cards remain syntactically valid while retrieval corpora and policy drift in production

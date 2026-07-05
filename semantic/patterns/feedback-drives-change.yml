@@ -23,6 +23,40 @@ relatedPatterns:
 relatedBooks:
 - when-others-look-to-you-v1
 - coupling
+recognitionSignals:
+- new facts or visible risk shift the plan after direction was already set
+- leaders describe themselves as not wed to yesterday's plan when morning learnings change the ship
+- revision is treated as normal work, not as proof of personal failure
+- public story yields when ground read contradicts the deck
+- small fixes happen before full reversals become politically impossible
+questions:
+- What we learned this morning—does it still change what we ship?
+- When going public makes reversal costly, do facts still win?
+- Is momentum protecting an outdated story?
+counterbalances:
+- schedule an explicit revise point after launch commitments
+- separate legitimacy from never changing course
+- let field read trigger plan change before the next reporting cycle
+trajectory:
+  earlySignals:
+  - teams reopen decisions when edge data contradicts the green dashboard
+  - leaders name what changed since the last public commitment
+  intensificationSignals:
+  - saying we were wrong starts threatening identity or legitimacy
+  - momentum favors staying the course despite new risk
+  failureModes:
+  - feedback arrives but no longer steers; learning collapses behind summaries
+  - cosmetic fixes substitute for course change
+  restorationPaths:
+  - change the plan in view of the people who already signed up
+  - tie steering decisions to the freshest ground read, not the oldest deck
+manifestations:
+  leadership:
+  - a product team changes scope after Friday QA contradicts Monday's milestone slide
+  organizations:
+  - hospital protocol updates in two days after a nurse warning, before repeat error
+  family:
+  - vacation plans shift when weather or traffic updates arrive after the group text went out
 media:
   youtubeVideoId: duyBPIOz94Y
   mediumArticleUrl: https://medium.com/@steffensen.kevin/feedback-drives-change-2c7251f46610
