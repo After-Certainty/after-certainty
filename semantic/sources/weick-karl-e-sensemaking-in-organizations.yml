@@ -1,9 +1,12 @@
 slug: weick-karl-e-sensemaking-in-organizations
 name: Karl E Weick — Sensemaking in Organizations
 type: book
-summary: 'Weick, Karl E. *Sensemaking in Organizations*. Thousand Oaks, CA: Sage,
-  1995.'
+summary: 'Weick, Karl E. *Sensemaking in Organizations*. Foundations for Organizational
+  Science. Thousand Oaks, CA: Sage, 1995.'
 concepts: []
 patterns: []
 relatedBooks:
-- why-collaboration-is-so-hard
+- how-serious-systems-learn
+- trust-beyond-similarity
+- when-accountability-no-longer-expires
+- when-trust-stops-tracking-reality

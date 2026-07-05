@@ -19,6 +19,43 @@ relatedPatterns:
 - intent-gets-assigned
 relatedBooks:
 - how-meaning-moves
+recognitionSignals:
+- people act on inferred meaning before the speaker confirms it
+- silence or omission gets filled with a plausible story fast
+- ambiguity feels unbearable enough to force an answer
+- unstated assumptions become how the room coordinates next steps
+- listeners supply motive or detail the speaker has not yet offered
+questions:
+- What missing piece did your mind fill in first?
+- Which assumption became operational before anyone verified it?
+- What would stay unresolved if you refused to complete the gap immediately?
+counterbalances:
+- name what is still unknown before acting on the inference
+- ask one clarifying question instead of privately finishing the story
+- tolerate brief ambiguity long enough to test the first completion
+trajectory:
+  earlySignals:
+  - exchange leaves deliberate or accidental blanks in meaning
+  - practical or emotional pressure makes open meaning hard to hold
+  intensificationSignals:
+  - inferred detail hardens into what people treat as confirmed
+  - coordination rewards the fastest plausible fill
+  failureModes:
+  - people react to fiction as if the speaker had endorsed it
+  - gaps close around the most threatening or convenient reading
+  restorationPaths:
+  - return to the exact gap aloud and invite the speaker to fill it
+  - separate what was said from what the room decided must be true
+manifestations:
+  family:
+  - silence between people gets completed with old-story meaning
+  - a pause during conflict becomes proof before anyone tests it
+  leadership:
+  - ambiguous direction gets executed as decided policy
+  - teams fill leadership blanks with what feels safest to reward
+  organizations:
+  - unclear assignments get operationalized through assumption
+  - coordination continues on unstated premises no one has named
 relatedSources:
 - easterbrook-j-a-the-effect-of-emotion-on-cue-utilization
 - kruglanski-arie-w-the-need-for-cognitive-closure

@@ -3,10 +3,7 @@ name: Albert Bandura — Social Learning Theory
 type: book
 summary: 'Bandura, Albert. *Social Learning Theory*. Englewood Cliffs, NJ: Prentice
   Hall, 1977.'
-concepts:
-- correction
-- guest-leadership
-- legitimacy
+concepts: []
 patterns: []
 relatedBooks:
-- when-others-look-to-you-v1
+- when-others-look-to-you-v2

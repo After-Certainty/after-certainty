@@ -17,6 +17,43 @@ relatedPatterns:
 - meaning-reinforces-itself
 relatedBooks:
 - how-meaning-moves
+recognitionSignals:
+- retellings of the same event steadily change emphasis or blame
+- new outcomes rewrite what earlier moments seemed to mean
+- convenient summaries replace messy original exchanges
+- people disagree more even when no new facts arrived
+- today's sentence gets heard through yesterday's story
+questions:
+- How has the story of this moment changed since it first happened?
+- What new context is doing retrospective work on the old exchange?
+- Which summary became easier to repeat than accurate to revisit?
+counterbalances:
+- revisit source wording rather than the latest retelling
+- note what new outcome or conversation changed the frame
+- keep one provisional label on old events instead of locking a moral verdict
+trajectory:
+  earlySignals:
+  - events get retold after additional conversations or outcomes
+  - memory smooths complexity into repeatable narrative
+  intensificationSignals:
+  - repetition makes the current version feel like what always happened
+  - new context retroactively sharpens or softens earlier meaning
+  failureModes:
+  - people argue from different evolved versions of the same afternoon
+  - drift makes repair harder because no one shares the same origin story
+  restorationPaths:
+  - return to what was actually said near the time, not the latest summary
+  - name how context changed before treating drift as truth
+manifestations:
+  family:
+  - an old comment gains new injury as later disappointments pile up
+  - the echoed ordinary sentence carries more weight years later in retelling
+  leadership:
+  - past decisions get re-read through present outcomes and legitimacy
+  - organizational folklore replaces contact with what was actually decided
+  organizations:
+  - incident postmortems slowly become stories about who people are
+  - alignment narratives drift away from the exchanges that started them
 relatedSources:
 - easterbrook-j-a-the-effect-of-emotion-on-cue-utilization
 - gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious
