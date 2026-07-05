@@ -1,11 +1,24 @@
 slug: authorization
 title: Authorization
-shortDefinition: Normalized permission for action that outlasts the local pressures that first
-  produced it; contrasts with one-off adaptation.
+shortDefinition: Authorization is permission that has become routinized, transferable, or
+  institutionally durable. It differs from permission (which may be one-time), authority
+  (which is standing), legitimacy (which is justified recognition), and adaptation (which
+  is situational response). Authorization outlasts the local pressures that first produced it.
+longDefinition: Authorization names permission that persists beyond the moment of granting—it
+  becomes normalized, repeatable, and transferable across contexts. Unlike one-off adaptation
+  to crisis, authorization creates standing exceptions that outlive the urgency that made them
+  necessary. Unlike authority, which is about who can coordinate, authorization is about what
+  actions remain permitted after the original justification has faded. People continue acting
+  through permissions left ambiguous, normalized exceptions outlive the pressures that produced
+  them, and insight becomes permission to delay required response. When authorization operates
+  well, it preserves necessary flexibility; when it fails, crisis permissions become standard
+  operating procedure and harm is attributed to the system rather than choosers.
 termKind: extended
 relatedConcepts:
 - adaptation
 - legitimacy
+- authority
+- permission
 relatedPatterns: []
 relatedBooks:
 - after-certainty

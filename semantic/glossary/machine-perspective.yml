@@ -1,9 +1,32 @@
 slug: machine-perspective
 title: Machine perspective
-shortDefinition: A partial view assembled from data, architecture, and deployment;
-  useful extension, not oracle or mere noise.
+shortDefinition: Machine perspective is a partial view assembled through data, model architecture,
+  training objectives, interfaces, and deployment context. It can extend human sight but should
+  not be treated as oracle, neutral mirror, or meaningless noise. Like all finite perspectives,
+  it sees partially—the question is who answers for what it sees and misses.
+longDefinition: Machine perspective names a partial view assembled from data, architecture, and
+  deployment—not oracle, not mere noise, but useful extension that requires answerability. Models
+  read corpora, logs, or scans faster than teams can in the time available, summaries feel like
+  someone already did the second pass, scores substitute for judgment in court or clinic. Hospital
+  chart models summarize visits but invent referrals never made, engagement-optimized rankings
+  become attention budgets at scale, families trust fluent online answers as if firsthand
+  verification were unnecessary. Machine perspective connects to finite perspective (all sight is
+  partial), bias (architecture of partial sight), trust (when to rely on outputs), judgment (when
+  human verification is required), and accountability (who answers for deployment choices). Fluent
+  prose or confident scores arrive faster than human second passes can check, automation bias lets
+  humans stop questioning because syntax looks authoritative, debiasing talk treats partial sight
+  as bug to eliminate rather than design for. What partial view did we just add to the decision—and
+  who is answerable for letting it count? Where does machine sight extend reach, and where does it
+  outrank what it was never built to carry? The restoration path—integrate model output as one
+  sketch among sketches, not the terrain; keep clinicians, tenants, and dissenting engineers in
+  the co-creation loop; require roles that answer for deployment choices.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- finite-perspective
+- bias
+- judgment
+- accountability
+- trust
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see

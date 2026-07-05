@@ -1,9 +1,29 @@
 slug: performative-legitimacy
 title: Performative legitimacy
-shortDefinition: Authority maintained through visible compliance and ritualized participation
-  rather than belief or justification.
+shortDefinition: Performative legitimacy is authority maintained through visible compliance and
+  ritualized participation rather than justified recognition. It differs from genuine legitimacy
+  (which depends on belief or justification), coercion (which operates through threat), and
+  alignment (which builds shared conviction). Private skepticism coexists with public performance.
+longDefinition: Performative legitimacy names authority maintained through visible compliance and
+  ritualized participation rather than belief or justification. Visible compliance matters more
+  than belief or coherence, ritual affirmation substitutes for justification, private skepticism
+  coexists with public performance, and silence signals uncertainty while compliance signals safety.
+  Understanding retreats to spaces where it cannot be spoken. Show trials turn confession into
+  visible compliance, orchestrated demonstrations and unanimous votes mark legitimacy, revolutionary
+  suicide rehearsals frame loyalty as public display. Where is legitimacy enacted rather than
+  negotiated? What performance is required for safety in public space? Does private understanding
+  alter standing at all? Each performance increases cost of visible dissent, collective practices
+  substitute for shared evaluation, and official narratives frame repression as defense. The failure
+  mode—legitimacy maintained through performance under threat alone, interpretation survives only
+  where it cannot influence consequence. The restoration path—restore evaluative agreement as
+  condition of standing where possible, reduce cost of non-performance before preference falsification
+  locks in, protect domains where performance is not required for standing.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- legitimacy
+- coercion
+- alignment
+- public-interpretation
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters

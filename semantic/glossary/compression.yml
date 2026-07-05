@@ -1,13 +1,23 @@
+slug: compression
+title: Compression
+shortDefinition: Compression is reducing complexity so meaning, rules, or decisions can travel
+  across distance, time, or populations. It is necessary under scale—variance narrows so
+  coordination can persist—but dangerous when it removes the context needed for judgment or
+  correction. Law and canon compress judgment into rule.
+longDefinition: Compression reduces moral complexity for transmission at scale. Collapse gives
+  way to compression, compression produces stabilization, and stabilization hardens into
+  inheritance. When populations must coordinate across distance and strangers must share
+  rules, compression lets expectations travel—law narrows discretion so the same words will
+  be read tomorrow, canon fixes meaning so provinces can align. Compression is adaptation under
+  pressure—instability demands it before truth is settled, acceptable interpretation shrinks
+  while exposure widens. At its best, compression preserves coordination when full discernment
+  is too costly; at its worst, tools built to compress instability begin to constrain adaptation,
+  and compression outlives the conditions that required it.
+termKind: supporting
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
-slug: compression
-title: Compression
-shortDefinition: 'Compression reduces moral complexity for transmission at scale: collapse
-  gives way to compression, compression produces stabilization, and stabilization hardens
-  into inheritance. Law and canon compress judgment into rule.'
-termKind: supporting
 recognitionSignals:
 - instability demands compression before truth is settled
 - law narrows discretion so the same words will be read tomorrow

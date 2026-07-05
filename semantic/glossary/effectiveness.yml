@@ -1,9 +1,25 @@
 slug: effectiveness
 title: Effectiveness
-shortDefinition: What gets amplified, deferred, or mistaken for control when people look to
-  leadership—not the same as morality or intent.
+shortDefinition: Effectiveness is the capacity to produce intended movement or outcome. In the
+  leadership arc, it asks what gets amplified, deferred, or mistaken for control when people
+  look to leadership. It differs from morality (rightness), legitimacy (standing), and
+  responsibility (what continues after action).
+longDefinition: Effectiveness names what gets amplified, deferred, or mistaken for control when
+  people look to leadership—not the same as morality or intent. It marks the capacity to produce
+  intended movement, but not the same as goodness, justification, or accountability. Care is
+  expected to visibly matter, responsibility is resisted when results are not steerable, symbolic
+  action stands in for effectiveness. The question effectiveness raises—what good is responsibility
+  without visible improvement? Where is effectiveness demanded as moral proof? What integrity
+  remains when outcomes do not change? Effectiveness can become a trap when it substitutes for
+  presence, when KPIs replace moral contact, when ineffectiveness is read as futility and
+  responsibility is abandoned when results lag. The counterbalance—separate responsibility from
+  visible success, value presence and notice over control, act without effectiveness as moral
+  reassurance.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- responsibility
+- legitimacy
+- accountability
 relatedPatterns: []
 relatedBooks:
 - after-certainty

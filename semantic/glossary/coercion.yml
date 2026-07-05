@@ -1,9 +1,25 @@
 slug: coercion
 title: Coercion
-shortDefinition: Authority maintained through threat or enforcement that strips public
-  interpretation of relevance.
+shortDefinition: Coercion is coordination through threat, force, penalty, or unavoidable cost.
+  It matters because it operates differently from legitimate authority (which is justified),
+  persuasion (which appeals to reasons), alignment (which builds shared conviction), and
+  consent (which is voluntary). Under coercion, public disagreement becomes self-exposure
+  rather than interpretation.
+longDefinition: Coercion names authority maintained through threat or enforcement that strips
+  public interpretation of relevance. Compliance matters; belief does not. Public disagreement
+  functions as self-exposure rather than interpretation, rituals of affirmation substitute for
+  evaluative agreement, and private understanding persists without public consequence. Silence
+  signals uncertainty while visible conformity signals safety. Show trials, denunciations, and
+  orchestrated demonstrations mark the shift—meaning becomes script to enact rather than claim
+  to evaluate. Coercion succeeds when each act of compliance raises the perceived cost for
+  others, when dissent carries not just social cost but extreme risk. At its limit, public
+  interpretation as shared evaluative process disappears, and exposure or reform fail to
+  constrain authority.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- authority
+- legitimacy
+- performative-legitimacy
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters

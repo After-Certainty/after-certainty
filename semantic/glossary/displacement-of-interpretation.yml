@@ -1,9 +1,26 @@
 slug: displacement-of-interpretation
 title: Displacement (of interpretation)
-shortDefinition: The condition in which interpretation continues to exist but no longer
-  mediates legitimacy or repair.
+shortDefinition: Displacement of interpretation is the condition where interpretation continues
+  privately or internally but no longer mediates legitimacy, repair, or public consequence.
+  People understand what is happening, but that understanding does not alter standing or
+  authority. The failure is functional, not informational.
+longDefinition: Displacement names the condition where interpretation exists but no longer
+  functions—it continues privately while losing public leverage. People understand what is
+  happening without that understanding altering standing, disagreement is reframed as betrayal
+  rather than alternative reading, moral language persists while evaluative traction disappears.
+  Informational remedies fail despite accurate recognition because the problem is not ignorance
+  but loss of mediating function. Displacement differs from interpretive collapse (where public
+  interpretation vanishes) and from coercion (where threat operates). It connects to public
+  interpretation (which still mediates), private understanding (which does not travel), and
+  post-interpretive authority (which no longer depends on justification). Where does understanding
+  persist without changing authority's position? What still interprets—and what no longer mediates
+  legitimacy? The question is not content but function.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- public-interpretation
+- private-understanding
+- interpretive-collapse
+- post-interpretive-authority
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters
