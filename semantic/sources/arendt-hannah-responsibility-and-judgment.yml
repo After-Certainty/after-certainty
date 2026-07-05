@@ -1,10 +1,11 @@
 slug: arendt-hannah-responsibility-and-judgment
 name: Hannah Arendt — Responsibility and Judgment
 type: book
-summary: 'Arendt, Hannah. *Responsibility and Judgment*. New York: Schocken Books,
-  2003.'
-concepts:
-- interpretation
+summary: 'Arendt, Hannah. *Responsibility and Judgment*. Edited by Jerome Kohn. New
+  York: Schocken Books, 2003.'
+concepts: []
 patterns: []
 relatedBooks:
-- how-meaning-moves
+- after-certainty
+- before-certainty-arrives
+- coupling

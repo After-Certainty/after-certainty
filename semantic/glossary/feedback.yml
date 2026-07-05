@@ -1,14 +1,14 @@
 slug: feedback
 title: Feedback
-shortDefinition: The path by which outcomes return as signal and influence future
-  decisions. Weak or delayed feedback reduces learning quality.
+shortDefinition: The path by which outcomes return as signal and influence future decisions.
+  Weak or delayed feedback reduces learning quality.
 termKind: extended
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
-- coupling
 - before-certainty-arrives
+- coupling
 recognitionSignals:
 - feedback slows as coordination grows
 - consequences become harder to trace

@@ -1,16 +1,16 @@
 slug: abstraction
 title: Abstraction
-shortDefinition: 'Abstraction is mediation away from direct encounter: compression
-  of complexity as systems scale, valued when it preserves accountability signal at
-  the boundaries where behavior can still be redesigned—and costly when it hides consequence
-  until feedback arrives too late.'
+shortDefinition: 'Abstraction is mediation away from direct encounter: compression of complexity
+  as systems scale, valued when it preserves accountability signal at the boundaries where
+  behavior can still be redesigned—and costly when it hides consequence until feedback arrives
+  too late.'
 termKind: supporting
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
-- coupling
 - before-certainty-arrives
+- coupling
 recognitionSignals:
 - dashboards stay green while exception clusters tell another story
 - people appear as categories, metrics, or roles

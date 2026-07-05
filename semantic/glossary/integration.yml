@@ -1,0 +1,10 @@
+slug: integration
+title: Integration
+shortDefinition: The work of combining many partial views into a larger model none
+  of them could build alone; not compromise, averaging, or performance.
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- what-we-cannot-see
+

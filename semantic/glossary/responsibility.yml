@@ -8,8 +8,8 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - after-certainty
-- coupling
 - before-certainty-arrives
+- coupling
 recognitionSignals:
 - responsibility collapses into futility when control is absent
 - innocence offers relief from participation at scale

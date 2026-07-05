@@ -3,16 +3,7 @@ name: March, James G., and Herbert A. Simon — Organizations
 type: book
 summary: 'March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley,
   1958.'
-concepts:
-- meaning
-- coordination
-- friction
-- interpretation
-patterns:
-- gaps-invite-completion
-- meaning-drifts-over-time
-- meaning-forms-early
-- meaning-reinforces-itself
-- meaning-shifts-under-pressure
+concepts: []
+patterns: []
 relatedBooks:
-- how-meaning-moves
+- why-collaboration-is-so-hard

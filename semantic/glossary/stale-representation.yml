@@ -1,0 +1,18 @@
+slug: stale-representation
+title: Stale Representation
+shortDefinition: 'A compressed summary of system state that was accurate enough when
+  produced and misleading by the time it governs action. Stale representation appears
+  in dashboards, compliance reports, model cards, filings, and risk metrics. It is
+  a coupling failure: consequence changes faster than the return path that would force
+  revision at a redesign-capable boundary.'
+termKind: extended
+relatedConcepts: []
+relatedPatterns: []
+relatedBooks:
+- coupling
+recognitionSignals:
+- dashboards and filings govern action after conditions changed
+- compliance summaries outpace the return path that would force revision
+- model cards and risk metrics stay syntactically valid while misleading
+questions:
+- What summary is still treated as current after consequence moved on?
