@@ -152,6 +152,28 @@ def resolve_open_graph_path(repo: Path, spec_path: Path, spec: dict, og_value: s
     return None
 
 
+def _validate_publication_date(date_str: str) -> str | None:
+    """Validate and return ISO 8601 date (YYYY-MM-DD) or None if invalid."""
+    if not date_str or not isinstance(date_str, str):
+        return None
+    date_str = date_str.strip()
+    if not date_str:
+        return None
+    # Validate YYYY-MM-DD format
+    import re
+
+    if not re.match(r"^\d{4}-\d{2}-\d{2}$", date_str):
+        return None
+    # Basic validation of month/day ranges
+    try:
+        year, month, day = map(int, date_str.split("-"))
+        if not (1 <= month <= 12 and 1 <= day <= 31):
+            return None
+    except (ValueError, AttributeError):
+        return None
+    return date_str
+
+
 def raw_content_url(repo_slug: str, ref: str, repo_rel_path: str) -> str:
     return f"https://raw.githubusercontent.com/{repo_slug}/{ref}/{repo_rel_path}"
 
@@ -216,6 +238,11 @@ def build_book_entry(
     og_value = str(book.get("open_graph_image", "")).strip()
     og_repo_path = resolve_open_graph_path(repo, spec_path, spec, og_value)
 
+    publication_date_raw = book.get("publication_date")
+    publication_date = (
+        _validate_publication_date(str(publication_date_raw)) if publication_date_raw else None
+    )
+
     entry: dict = {
         "slug": slug,
         "source": source,
@@ -225,6 +252,7 @@ def build_book_entry(
         "description": str(book.get("description", "")).strip() or None,
         "authors": extract_author_names(book),
         "year": book.get("copyright_year"),
+        "publicationDate": publication_date,
         "coverImage": raw_content_url(repo_slug, ref, cover_repo_path)
         if cover_repo_path and repo_slug
         else None,
