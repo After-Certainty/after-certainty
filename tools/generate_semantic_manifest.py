@@ -472,11 +472,6 @@ def build_patterns(repo: Path, *, repo_slug: str, ref: str) -> list[dict]:
             "slug": slug,
             "title": str(data.get("title", slug)).strip(),
             "summary": summary,
-            "setup": str(parts.get("setup", "") or ""),
-            "problem": str(parts.get("problem", "") or ""),
-            "forces": forces_list,
-            "observation": str(parts.get("observation", "") or ""),
-            "example": str(parts.get("example", "") or ""),
             "relatedConcepts": [
                 concept_id(s) for s in _normalize_concept_slugs(data.get("relatedConcepts"))
             ],
@@ -488,6 +483,17 @@ def build_patterns(repo: Path, *, repo_slug: str, ref: str) -> list[dict]:
                 source_id(s) for s in _normalize_source_slugs(data.get("relatedSources"))
             ],
         }
+        # Optional narrative fields for structured JSON-LD (hasPart/articleSection)
+        if setup := str(parts.get("setup", "") or ""):
+            entry["setup"] = setup
+        if problem := str(parts.get("problem", "") or ""):
+            entry["problem"] = problem
+        if forces_list:
+            entry["forces"] = forces_list
+        if observation := str(parts.get("observation", "") or ""):
+            entry["observation"] = observation
+        if example := str(parts.get("example", "") or ""):
+            entry["example"] = example
         entry.update(_resolve_pattern_media(data, repo_slug=repo_slug, ref=ref))
         entry.update(_dynamic_enrichment_fields(data))
         out.append(entry)

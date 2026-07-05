@@ -435,6 +435,7 @@
       }
     },
     "patternEntry": {
+      "description": "Pattern entry with structured narrative fields (setup, problem, forces, observation, example) for rich JSON-LD Article markup using hasPart/articleSection",
       "type": "object",
       "additionalProperties": false,
       "required": [
@@ -442,11 +443,6 @@
         "slug",
         "title",
         "summary",
-        "setup",
-        "problem",
-        "forces",
-        "observation",
-        "example",
         "relatedConcepts",
         "relatedPatterns",
         "relatedBooks",
