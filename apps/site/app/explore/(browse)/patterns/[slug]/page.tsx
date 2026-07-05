@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { JsonLd } from "@/components/seo/json-ld";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ExplorePatternMedia } from "@/components/explore/explore-pattern-media";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
@@ -15,6 +16,7 @@ import { getPatternBySlug } from "@/lib/graph/graphQueries";
 import { relatedContentForPattern } from "@/lib/graph/relatedContent";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
+import { buildPatternPageJsonLd, relatedConceptUrls } from "@/lib/seo/json-ld";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -47,16 +49,23 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
   const hasRelated = related.concepts.length + related.books.length > 0;
   const hasRelationships = entityHasSemanticRelationships(index, pattern.id);
 
+  const patternBreadcrumbs = [
+    { label: "Explore", href: explorePaths.home },
+    { label: "Patterns", href: explorePaths.patterns },
+    { label: pattern.title },
+  ];
+
   return (
     <article>
+      <JsonLd
+        data={buildPatternPageJsonLd({
+          pattern,
+          breadcrumbs: patternBreadcrumbs,
+          relatedConceptUrls: relatedConceptUrls(index, pattern.relatedConcepts),
+        })}
+      />
       <Section atmosphere="none" className="pt-10 md:pt-14 !pb-10 md:!pb-12">
-        <BreadcrumbTrail
-          items={[
-            { label: "Explore", href: explorePaths.home },
-            { label: "Patterns", href: explorePaths.patterns },
-            { label: pattern.title },
-          ]}
-        />
+        <BreadcrumbTrail items={patternBreadcrumbs} />
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">Pattern</p>
         <h1 className="mt-4 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:text-5xl">
           {pattern.title}

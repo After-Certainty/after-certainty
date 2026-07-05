@@ -6,8 +6,10 @@ import { AboutPublishing } from "@/components/about/about-publishing";
 import { AboutStructure } from "@/components/about/about-structure";
 import { AboutVision } from "@/components/about/about-vision";
 import { AboutWhy } from "@/components/about/about-why";
+import { JsonLd } from "@/components/seo/json-ld";
 import { siteConfig } from "@/lib/site-config";
 import { createPageMetadata } from "@/lib/metadata";
+import { buildAboutPageJsonLd } from "@/lib/seo/json-ld";
 
 export const metadata: Metadata = createPageMetadata({
   title: "About",
@@ -17,6 +19,7 @@ export const metadata: Metadata = createPageMetadata({
 export default function AboutPage() {
   return (
     <>
+      <JsonLd data={buildAboutPageJsonLd()} />
       <AboutHero />
       <AboutWhy />
       <AboutStructure />

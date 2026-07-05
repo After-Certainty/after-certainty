@@ -11,11 +11,13 @@ describe("sitemap", () => {
     prevOffline = process.env.BOOKS_MANIFEST_OFFLINE;
     process.env.NEXT_PUBLIC_SITE_URL = "https://example.com";
     process.env.BOOKS_MANIFEST_OFFLINE = "1";
+    process.env.SEMANTIC_MANIFEST_OFFLINE = "1";
   });
 
   afterEach(() => {
     process.env.NEXT_PUBLIC_SITE_URL = prevSiteUrl;
     process.env.BOOKS_MANIFEST_OFFLINE = prevOffline;
+    delete process.env.SEMANTIC_MANIFEST_OFFLINE;
   });
 
   it("includes core static routes with the configured origin", async () => {
@@ -47,12 +49,14 @@ describe("sitemap", () => {
     expect(hasLegacyBooksPath).toBe(false);
   });
 
-  it("includes explore book and pattern detail URLs", async () => {
+  it("includes explore book, concept, pattern, and source detail URLs", async () => {
     const urls = (await sitemap()).map((e) => e.url);
     expect(urls.some((u) => u.endsWith("/explore/books/how-meaning-moves"))).toBe(true);
     expect(urls).toContain(
       "https://example.com/explore/patterns/attention-finds-a-focus",
     );
+    expect(urls).toContain("https://example.com/explore/concepts/certainty");
+    expect(urls.some((u) => u.includes("/explore/sources/"))).toBe(true);
   });
 
   it("returns many more entries than top-level routes only", async () => {

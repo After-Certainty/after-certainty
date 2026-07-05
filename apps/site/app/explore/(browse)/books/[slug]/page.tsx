@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound, permanentRedirect } from "next/navigation";
 import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
+import { JsonLd } from "@/components/seo/json-ld";
 import { ExploreBookMedia } from "@/components/explore/explore-book-media";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
@@ -22,6 +23,10 @@ import { getBookBySlug as getGraphBookBySlug } from "@/lib/graph/graphQueries";
 import { relatedContentForBook } from "@/lib/graph/relatedContent";
 import { getSemanticBookActionLinkItems } from "@/lib/books/semantic-book-action-links";
 import { createPageMetadata } from "@/lib/metadata";
+import {
+  buildBookPageJsonLd,
+  resolveCatalogBookForSemanticBook,
+} from "@/lib/seo/json-ld";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -71,16 +76,24 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
     related.concepts.length + related.patterns.length + related.sources.length > 0;
   const hasRelationships = entityHasSemanticRelationships(index, book.id);
 
+  const bookBreadcrumbs = [
+    { label: "Explore", href: explorePaths.home },
+    { label: "Books", href: explorePaths.books },
+    { label: book.title },
+  ];
+  const catalogBook = resolveCatalogBookForSemanticBook(book, catalogBooks);
+
   return (
     <article>
+      <JsonLd
+        data={buildBookPageJsonLd({
+          book,
+          catalogBook,
+          breadcrumbs: bookBreadcrumbs,
+        })}
+      />
       <Section atmosphere="none" className="pt-10 md:pt-14 !pb-10 md:!pb-12">
-        <BreadcrumbTrail
-          items={[
-            { label: "Explore", href: explorePaths.home },
-            { label: "Books", href: explorePaths.books },
-            { label: book.title },
-          ]}
-        />
+        <BreadcrumbTrail items={bookBreadcrumbs} />
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">Book</p>
         <div
           className={

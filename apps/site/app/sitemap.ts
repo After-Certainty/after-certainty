@@ -33,8 +33,14 @@ export async function getSitemapPaths(): Promise<string[]> {
   }
 
   const graph = await getSemanticGraph();
+  for (const concept of graph.glossary) {
+    paths.push(`${explorePaths.concepts}/${concept.slug}`);
+  }
   for (const pattern of graph.patterns) {
     paths.push(`${explorePaths.patterns}/${pattern.slug}`);
+  }
+  for (const source of graph.sources) {
+    paths.push(`${explorePaths.sources}/${source.slug}`);
   }
 
   const seen = new Set<string>();

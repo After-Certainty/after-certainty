@@ -6,10 +6,12 @@ import { PodcastFooterCta } from "@/components/podcast/podcast-footer-cta";
 import { PodcastHero } from "@/components/podcast/podcast-hero";
 import { PodcastPhilosophy } from "@/components/podcast/podcast-philosophy";
 import { PodcastPlatformLinks } from "@/components/podcast/podcast-platform-links";
+import { JsonLd } from "@/components/seo/json-ld";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { getPodcastFeed } from "@/lib/podcast/rss";
 import { createPageMetadata } from "@/lib/metadata";
+import { absoluteUrl, buildPodcastSeriesJsonLd } from "@/lib/seo/json-ld";
 import { resolvePodcastPlatformLinks, resolvePodcastRssUrl } from "@/lib/site-config";
 
 export const metadata: Metadata = createPageMetadata({
@@ -29,6 +31,12 @@ export default async function PodcastPage() {
 
   return (
     <article>
+      <JsonLd
+        data={buildPodcastSeriesJsonLd({
+          episodes,
+          pageUrl: absoluteUrl("/podcast"),
+        })}
+      />
       {!feed.ok ? <PodcastFeedBanner message={feed.message} /> : null}
 
       <PodcastHero spotifyHref={platforms.spotify} rssHref={rssHref} />
