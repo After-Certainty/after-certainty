@@ -97,11 +97,8 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
         <h1 className="mt-4 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:text-5xl">
           {concept.title}
         </h1>
-        <p className="mt-8 max-w-2xl font-display text-xl italic leading-relaxed text-fg/90 md:text-2xl">
-          {concept.shortDefinition}
-        </p>
         {concept.longDefinition ?? concept.definition ? (
-          <div className="mt-12 max-w-2xl space-y-4 text-base leading-[1.85] text-muted md:text-[17px]">
+          <div className="mt-8 max-w-2xl space-y-4 text-base leading-[1.85] text-muted md:text-[17px]">
             <p className="whitespace-pre-wrap">{concept.longDefinition ?? concept.definition}</p>
           </div>
         ) : null}
