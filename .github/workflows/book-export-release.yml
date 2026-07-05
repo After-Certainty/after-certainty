@@ -260,10 +260,18 @@ jobs:
           mkdir -p prior
           gh release download latest --pattern '*.docx' --pattern '*.epub' --pattern '*.pdf' --pattern '*.manifest.json' --pattern 'books-manifest.json' --pattern 'semantic-manifest.json' --dir prior || true
 
-      - name: Build semantic manifest
+      - name: Copy prior assets to upload directory
         run: |
           set -euo pipefail
           mkdir -p upload
+          if [ -d prior ] && [ "$(ls -A prior)" ]; then
+            cp prior/* upload/ 2>/dev/null || true
+          fi
+          ls -la upload
+
+      - name: Build semantic manifest
+        run: |
+          set -euo pipefail
           python3 -m pip install --user pyyaml jsonschema
           python3 tools/verify_semantic_yaml.py --repo . --strict-prose
           python3 tools/generate_semantic_manifest.py \
@@ -274,13 +282,40 @@ jobs:
             --release-tag "latest"
           python3 tools/validate_semantic_manifest.py --repo . --manifest upload/semantic-manifest.json
 
-      - name: Copy prior assets to upload directory
+      - name: Verify manifest content matches source YAML
         run: |
           set -euo pipefail
-          if [ -d prior ] && [ "$(ls -A prior)" ]; then
-            cp prior/* upload/ 2>/dev/null || true
-          fi
-          ls -la upload
+          python3 -c '
+          import json
+          import yaml
+          from pathlib import Path
+
+          manifest = json.loads(Path("upload/semantic-manifest.json").read_text())
+          glossary_by_slug = {entry["slug"]: entry for entry in manifest["glossary"]}
+
+          # Spot-check a few known glossary entries to ensure they match source YAML
+          test_slugs = ["acceleration", "friction", "contestability"]
+          for slug in test_slugs:
+              if slug in glossary_by_slug:
+                  yaml_path = Path(f"semantic/glossary/{slug}.yml")
+                  if yaml_path.exists():
+                      yaml_data = yaml.safe_load(yaml_path.read_text())
+                      manifest_entry = glossary_by_slug[slug]
+                      
+                      if yaml_data.get("shortDefinition") != manifest_entry.get("shortDefinition"):
+                          print(f"ERROR: {slug}.yml shortDefinition does not match manifest")
+                          print(f"  YAML: {yaml_data.get(\"shortDefinition\", \"\")[:100]}...")
+                          print(f"  Manifest: {manifest_entry.get(\"shortDefinition\", \"\")[:100]}...")
+                          exit(1)
+                      
+                      if yaml_data.get("longDefinition") and yaml_data["longDefinition"] != manifest_entry.get("longDefinition"):
+                          print(f"ERROR: {slug}.yml longDefinition does not match manifest")
+                          print(f"  YAML: {yaml_data[\"longDefinition\"][:100]}...")
+                          print(f"  Manifest: {manifest_entry.get(\"longDefinition\", \"\")[:100]}...")
+                          exit(1)
+
+          print(f"✓ Verified {len(test_slugs)} glossary entries match source YAML")
+          '
 
       - name: Update latest release with semantic manifest
         run: |

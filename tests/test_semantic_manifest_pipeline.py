@@ -142,3 +142,71 @@ def test_semantic_manifest_includes_wolty_media(repo_root: Path, tmp_path: Path)
     disagreement = next(p for p in data["patterns"] if p["slug"] == "disagreement-is-suppressed")
     assert "youtubeVideoId" not in disagreement
     assert disagreement["mediumArticleUrl"].startswith("https://medium.com/")
+
+
+def test_semantic_manifest_glossary_matches_yaml_sources(repo_root: Path, tmp_path: Path) -> None:
+    """Regression test: verify manifest glossary entries match source YAML files.
+
+    This prevents the staleness bug where generated manifests get overwritten
+    by prior release assets during CI pipeline (GitHub issue from Jul 2026).
+    """
+    import yaml
+
+    out = tmp_path / "semantic-manifest.json"
+    gen = subprocess.run(
+        [
+            sys.executable,
+            str(repo_root / "tools/generate_semantic_manifest.py"),
+            "--repo",
+            str(repo_root),
+            "--out",
+            str(out),
+            "--github-repository",
+            "ksteffe/after-certainty",
+            "--github-ref",
+            "main",
+            "--release-tag",
+            "latest",
+            "--no-warn-term-kind",
+        ],
+        capture_output=True,
+        text=True,
+        timeout=180,
+    )
+    assert gen.returncode == 0, gen.stderr
+
+    data = json.loads(out.read_text(encoding="utf-8"))
+    glossary_by_slug = {entry["slug"]: entry for entry in data["glossary"]}
+
+    # Check critical glossary entries that previously showed staleness
+    test_slugs = ["acceleration", "friction", "contestability"]
+    glossary_dir = repo_root / "semantic" / "glossary"
+
+    for slug in test_slugs:
+        yaml_path = glossary_dir / f"{slug}.yml"
+        if not yaml_path.exists():
+            continue
+
+        yaml_data = yaml.safe_load(yaml_path.read_text(encoding="utf-8"))
+        manifest_entry = glossary_by_slug.get(slug)
+
+        assert manifest_entry is not None, f"Glossary entry '{slug}' missing from manifest"
+
+        # Verify shortDefinition matches exactly
+        yaml_short = yaml_data.get("shortDefinition", "").strip()
+        manifest_short = manifest_entry.get("shortDefinition", "").strip()
+        assert yaml_short == manifest_short, (
+            f"Glossary entry '{slug}' shortDefinition mismatch:\n"
+            f"  YAML: {yaml_short[:100]}...\n"
+            f"  Manifest: {manifest_short[:100]}..."
+        )
+
+        # Verify longDefinition matches if present
+        yaml_long = yaml_data.get("longDefinition", "").strip()
+        manifest_long = manifest_entry.get("longDefinition", "").strip()
+        if yaml_long:
+            assert yaml_long == manifest_long, (
+                f"Glossary entry '{slug}' longDefinition mismatch:\n"
+                f"  YAML: {yaml_long[:100]}...\n"
+                f"  Manifest: {manifest_long[:100]}..."
+            )
