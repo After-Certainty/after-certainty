@@ -7,4 +7,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see
+recognitionSignals:
+- fluent prose or confident scores arrive faster than human second passes can check
+- summaries enter charts with invented details that sound plausible
+- ranking functions sort what millions see next and feel like the map
+- automation bias lets humans stop questioning because syntax looks authoritative
+- debiasing talk treats partial sight as a bug to eliminate rather than design for
+questions:
+- What partial view did we just add to the decision—and who is answerable for letting it count?
+- Where does machine sight extend reach, and where does it outrank what it was never built to carry?
+- What was the model trained on, optimized for, and unable to verify?
+counterbalances:
+- human verification where models decide; audit trails when summaries enter records
+- clear labeling when prose was generated, not witnessed
+- red teams for systems trained on yesterday's world
+trajectory:
+  earlySignals:
+  - models read corpora, logs, or scans faster than a team could in the time available
+  - deployment metrics declare accurate enough to ship before consequences return
+  intensificationSignals:
+  - summaries feel like someone already did the second pass you lacked time for
+  - scores substitute for judgment in court, clinic, or feed curation
+  failureModes:
+  - machine perspective is treated as complete or dismissed as mere noise
+  - institutions deploy outputs without naming who answers for them
+  restorationPaths:
+  - integrate model output as one sketch among sketches, not the terrain
+  - keep clinicians, tenants, and dissenting engineers in the co-creation loop
+  - require roles that answer for deployment choices—not the model, but the institution
+manifestations:
+  technology:
+  - hospital chart models summarize visits but invent referrals never made
+  organizations:
+  - firms ship engagement-optimized rankings that become attention budgets at scale
+  family:
+  - families trust fluent online answers as if firsthand verification were unnecessary
 

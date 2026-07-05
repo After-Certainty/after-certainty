@@ -8,4 +8,56 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - why-collaboration-is-so-hard
-
+recognitionSignals:
+- Group takes the next step while latent disagreements on values remain unresolved
+- People use the same words—done, risk, customer, urgent—with different internal models
+- A facilitator holds three definitions of ready long enough to pick a next date
+- Compatible protocols proceed without identical theories—surgeon and anesthesiologist,
+  journalist and photographer
+- Remaining disagreement treated as normal residue rather than proof alignment failed
+questions:
+- Is there enough overlapping understanding for the next action?
+- Are constraints visible enough to make some disagreements irrelevant for now?
+- Is correction survivable or expensive to admit?
+counterbalances:
+- Name constraints early rather than extended unity conversations
+- Reward honest partial understanding over performed agreement
+- Use explicit timeboxes and decision rights to reduce need for identical mental models
+trajectory:
+  earlySignals:
+  - Local misunderstanding survivable when correction is cheap
+  - Buses roll, schedules publish, care proceeds under strain—not comfort
+  intensificationSignals:
+  - Performing understanding to avoid social cost; nodding room with incompatible models
+  - Groups stall because any remaining disagreement is read as alignment failure
+  - Forced alignment demands understanding as performance
+  failureModes:
+  - Models collide in production, care, or public because disagreement was hidden
+  - Theatrical agreement replaces the partial coherence that kept work alive
+  - Honest confusion punished when it could have been corrected cheaply
+  restorationPaths:
+  - Record what was agreed to do next separate from what remains disputed
+  - Translation named explicitly—"We are not agreed on budget philosophy; we are agreed
+    to obtain two bids by March 15"
+  - Disagreement containers with rules, time limits, and decision rights
+manifestations:
+  organizations:
+  - Transit agency publishes a summer schedule despite advocates, finance, and drivers
+    measuring different adequacy
+  - Cross-functional team moves while legal, product, and operations each orient inside
+    different constraint sets
+  teams:
+  - Surgeon and anesthesiologist proceed with compatible patient protocols, not identical
+    pain theories
+  - Two engineers leave the same meeting with opposite impressions yet the project
+    has not objectively failed
+  leadership:
+  - Leaders who name budget, law, and safety constraints produce more stable collaboration
+    than unity workshops
+  - Hiring committee still votes while disagreement has shifted from candidate fit to
+    belonging
+  family:
+  - Housing cooperative picks an inspection date while treasurer and carpenter hear
+    different readiness
+  - Library redesign participants believe they agreed on different priorities after
+    one meeting

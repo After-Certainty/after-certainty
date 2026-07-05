@@ -8,4 +8,53 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - why-collaboration-is-so-hard
-
+recognitionSignals:
+- Rituals answer what is decided today, who can block, and what happens to unresolved
+  dissent
+- Facilitation elicits quiet voices; turn-taking reduces conversational dominance
+- Documentation records why decisions looked reasonable, not only what was decided
+- Structures help the group survive fragility long enough to learn
+- Same tools remain on the calendar but stop hosting real dissent when weaponized
+questions:
+- Do structures make constraints visible and coordination norms known?
+- Are rituals orientation or theater?
+- Do practices make asymmetry harder to pretend away without claiming to erase difficulty?
+counterbalances:
+- Treat survival as achievement without marketing it as transformation
+- Rotate credit and facilitation where possible
+- Watch for weaponization when pressure rises—structures simulating collaboration while
+  reducing contribution to compliance
+trajectory:
+  earlySignals:
+  - Tailgate briefings, sign-offs, and stop-work rules after a near-miss
+  - Standups and retrospectives with real listening and constraint changes
+  intensificationSignals:
+  - Rituals become theater—the standup where no one listens, the retrospective that
+    never changes constraints
+  - Documentation without why—context leaves when key people leave
+  - Legibility and specification demands replace trust gaps under stress
+  failureModes:
+  - Clarity becomes control; efficiency becomes coercion
+  - Collaboration collapses into compliance while visible motion continues
+  - Stabilizers invert when uncertainty rises—surveillance replaces orientation
+  restorationPaths:
+  - Rebuild rituals that host dissent and name decisions explicitly
+  - Explicit credit for maintenance and rotated facilitation
+  - Visible constraints and known escalation paths before heroic interpretation fills
+    gaps
+manifestations:
+  organizations:
+  - Construction crews adopt tailgate briefings and penalty-free stop-work without
+    calling it culture change
+  - Decision logs and architecture notes anchor shared language when terms drift
+  teams:
+  - Turn-taking rounds and paired breakouts distribute attention under uneven expertise
+  - Retrospectives change coordination norms—not only vent frustration
+  leadership:
+  - Facilitators named and rotated rather than one permanent explainer-translator-emotional
+    buffer
+  - Credit rotates where possible; load adjusted before burnout becomes withdrawal
+  family:
+  - Care plans and shared definitions of done anchor language when key people leave
+  - Recurring family check-in creates predictable sequence when ambiguity would otherwise
+    compound

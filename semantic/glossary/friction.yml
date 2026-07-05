@@ -1,12 +1,45 @@
 slug: friction
 title: Friction
-shortDefinition: Friction names resistance that interrupts automatic escalation as
-  a structural pressure in systems where coordination, authority, and consequence
-  travel at different speeds. Before Certainty Arrives traces how this pressure appears
-  historically as scale compresses encounter and judgment.
+shortDefinition: Friction is resistance that interrupts automatic escalation—postponed quarrels
+  at the gate, seasons that will not wait, discretion narrowed so the same words will be read
+  tomorrow. Before Certainty Arrives shows friction thinning as scale favors throughput over
+  discernment and delay begins to read as weakness.
 termKind: core
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
-
+recognitionSignals:
+- deliberation is treated as costly when action must be immediate
+- quarrels are postponed because the wall matters more than the grievance
+- law narrows discretion so coordination persists without constant renegotiation
+- explanation is too slow for the coordination problem at hand
+questions:
+- What dispute can wait—and what cannot?
+- Where is friction relief rather than obstruction?
+- What would slow down if hesitation were no longer punished?
+counterbalances:
+- notice friction as adaptation under constraint before calling it failure
+- ask whether delay protects coordination or only protects authority
+- separate siege urgency from ordinary moral debate
+trajectory:
+  earlySignals:
+  - norms narrow choice under visible scarcity and threat
+  - repetition and ritual synchronize behavior through seasons
+  intensificationSignals:
+  - war and breakdown treat dissent as risk
+  - judgment gives way to category and discernment to procedure
+  failureModes:
+  - friction thins while machinery keeps appointments
+  - compliance replaces discernment because no one can trace harm in time
+  restorationPaths:
+  - return attention to scenes where consequence still meets action
+  - name what must hold before truth is settled
+manifestations:
+  politics:
+  - siege defenders ration by the day while orders they cannot refuse arrive
+  - legal codes declare which interpretations will count at the city gate
+  organizations:
+  - clerks match misspelled surnames across forms before stamps will work
+  family:
+  - lean seasons make who draws water first more urgent than why the rule exists

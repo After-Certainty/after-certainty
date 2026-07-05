@@ -7,4 +7,39 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - what-we-cannot-see
+recognitionSignals:
+- someone cannot reconstruct why a moment felt obvious afterward
+- loud, near, or repeated signals crowd out quiet warnings on the same scene
+- expertise narrows intake toward patterns that usually matter in one domain
+- slow crises stay off the dashboard while urgent channels consume the scan
+- a ranking function or feed decides what millions process next
+questions:
+- What gets processed now, what waits, and what may never arrive without a reroute?
+- Where does selection feel like completeness rather than triage?
+- Who distributed the budget across roles—and what stayed dark?
+counterbalances:
+- expect any single pass to be partial, not exhaustive
+- force reroutes when quiet signals compete with louder demands
+- distribute attention across team roles instead of demanding omniscience from one seat
+trajectory:
+  earlySignals:
+  - triage, scan patterns, and focus concentrate force under time pressure
+  - competence looks like knowing what to notice in a trained domain
+  intensificationSignals:
+  - notifications and metrics hijack intake toward what shouts
+  - dashboards stay green while gradual damage accumulates unseen
+  failureModes:
+  - omission is treated as proof of carelessness or corruption
+  - one channel spends so heavily other channels go permanently dark
+  restorationPaths:
+  - schedule second passes when stakes outrun the first glance
+  - redesign environments that capture finite intake by design
+  - name what the budget was spent on when reviewing a shift or decision
+manifestations:
+  organizations:
+  - air-traffic controllers learn scan patterns because the sky is not simple
+  technology:
+  - feeds and models write an attention budget in code at scale
+  family:
+  - a parent hears criticism aimed at a teenager and misses a quiet compliment ten minutes later
 

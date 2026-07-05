@@ -8,4 +8,50 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - why-collaboration-is-so-hard
-
+recognitionSignals:
+- Group agrees on a timebox, experiment, escalation rule, or pause without resolving
+  every disagreement
+- Recorded decision with a named revisit date rather than harmony of values
+- Ritual rebuilds enough orientation to act when full agreement is out of reach
+- Workable collaboration feels provisional inside while looking stable from outside
+- Thin alignment sentences—two-week experiment, escalate only these cases, pause until
+  reliability recovers
+questions:
+- What happens next even if latent disagreements remain?
+- Are constraints visible and revision survivable?
+- Is remaining disagreement treated as normal or proof alignment failed?
+counterbalances:
+- Value next action over theatrical agreement
+- Use explicit escalation paths, timeboxes, and decision rights
+- Contain disagreement in forums with rules without suppressing revision
+trajectory:
+  earlySignals:
+  - Buses roll on a published schedule despite incompatible models of adequate service
+  - Group picks inspectable next step while budget philosophy stays unresolved
+  intensificationSignals:
+  - Confusion between shared movement and full agreement causes stall
+  - Over-specification fills the gap where workable shared movement used to live
+  - Forced alignment rituals demand unity to access resources
+  failureModes:
+  - Shared movement replaced by proof of obedience
+  - Nodding room produces shared words without shared models
+  - Collapse arrives in expensive venues—incidents, resignations, public failure
+  restorationPaths:
+  - Name translation between vocabularies while picking the next action
+  - Constraints beat extended consensus conversations when ambiguity is high
+  - Disagreement contained with recorded decision and revisit date, not suppression
+manifestations:
+  organizations:
+  - Transit agency files exceptions and revisits complaints in September without resolving
+    every fairness dispute
+  - Initiative agrees to run a pilot before scaling despite strategic disagreement
+  teams:
+  - Standup or retrospective rebuilds orientation when full agreement is out of reach
+  - Group pauses feature work until reliability recovers without resolving every tradeoff
+  leadership:
+  - Leader names budget, law, and safety red lines so some disagreements become irrelevant
+    for now
+  - Steering meeting ends with escalation rule rather than harmony language
+  family:
+  - Cooperative obtains two bids by a date while members still dispute budget philosophy
+  - Family agrees on a two-week trial arrangement before revisiting a contested decision

@@ -8,4 +8,58 @@ relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - why-collaboration-is-so-hard
-
+recognitionSignals:
+- People ask silently what they are responsible for and whether credit or blame will
+  reach them
+- Retrospectives impose a coherent story where live work felt like argument and failed
+  experiments
+- Low-grade anxiety, irritability at ambiguous roles, hunger for someone to "just decide"
+- The final outcome could not have been specified in advance with full fidelity
+- Participants tighten control with over-specification when diffuse ownership becomes
+  uncomfortable
+questions:
+- Does the group acknowledge that no single participant owns the whole picture?
+- Where are decision rights clear enough without pretending centralized authorship?
+- What substitutes exist for solo-work supports of clear credit, blame, and completion?
+counterbalances:
+- Name the transition into shared contribution early rather than a hero narrative with
+  helpers
+- Distribute decision rights for specific outputs while keeping outcome emergence visible
+- Record why decisions looked reasonable when no one could fully predict the result
+trajectory:
+  earlySignals:
+  - Multiple partial views combine under pressure to act
+  - Each role owns a slice—building codes, dramaturgy, rental calendar—not the whole performance
+  intensificationSignals:
+  - Resentment when others' contributions are visible while one's own remain invisible
+  - Retrospective coherence makes diffuse ownership feel like someone should have seen
+    it from the start
+  - People reduce voices in the room to restore a feeling of authorship
+  failureModes:
+  - Premature agreement or voice reduction destroys conditions emergence requires
+  - Accountability design fights the structural condition instead of naming it
+  - Groups pretend the project is still solo work with helpers
+  restorationPaths:
+  - Explicit acknowledgment that no one owns the whole while contribution continues
+  - Visible constraints and decision rights without demanding full predictability
+  - Partial surrender of control treated as participation, not passivity
+manifestations:
+  organizations:
+  - Theater season opens through director, shop, and stage manager—none owning every
+    constraint alone
+  - Regional archive launches through interviewer, metadata specialist, liaison, and grant
+    writer with no single author
+  teams:
+  - Product outcome forms when engineering constraints change a user story no PM fully
+    specified
+  - Cross-agency outcomes emerge where no participant can justify the whole from one
+    function
+  leadership:
+  - Watershed council moves a flood map while farmers, engineers, and conservation
+    staff each protect different data
+  - Museum exhibit fidelity negotiated across curators, educators, installers, and funders
+  family:
+  - Mutual-aid kitchen scales meals while supply runners, schedulers, and hosts improvise
+    around shortages no one person caused
+  - Renovation decisions split across treasurer, carpenter, and board with no one holding
+    all definitions of ready

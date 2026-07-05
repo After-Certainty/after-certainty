@@ -1,12 +1,45 @@
 slug: acceleration
 title: Acceleration
-shortDefinition: Acceleration names pressure favoring speed/alignment over reflection
-  as a structural pressure in systems where coordination, authority, and consequence
-  travel at different speeds. Before Certainty Arrives traces how this pressure appears
-  historically as scale compresses encounter and judgment.
+shortDefinition: Acceleration is pressure favoring speed and decisive alignment over reflection
+  when coordination is fragile under scale—Iron Age siege walls, wartime mobilization, and
+  later factory bells all treat hesitation as weakness and dissent as delay the wall cannot
+  afford.
 termKind: core
 relatedConcepts: []
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
-
+recognitionSignals:
+- dissent is read as risk and delay as weakness at the wall
+- obedience becomes immediate because the season or siege will not wait
+- authority must mobilize large populations quickly and decisively
+- moral systems that tolerate prolonged disagreement struggle under pressure
+questions:
+- What must be settled before the season turns?
+- Where is speed doing coordination work explanation cannot yet afford?
+- Who pays when hesitation is treated as moral failure?
+counterbalances:
+- notice when urgency is structural rather than personal panic
+- ask what quarrel can wait without calling delay weakness
+- separate siege conditions from ordinary disagreement
+trajectory:
+  earlySignals:
+  - coordination still feels too fragile for prolonged debate
+  - certainty tightens because hesitation could be read as weakness
+  intensificationSignals:
+  - warfare or breakdown narrows what societies will tolerate
+  - roles and obedience elevate over reinterpretation
+  failureModes:
+  - acceleration outruns the feedback that once corrected course
+  - throughput substitutes for discernment at scale
+  restorationPaths:
+  - name the original pressure that made speed necessary
+  - notice when urgency has outlived the threat that first required it
+manifestations:
+  politics:
+  - Iron Age cities tighten certainty when gates must hold
+  - staff officers optimize logistics while consequences arrive far from the map
+  organizations:
+  - factory bells mark uniform intervals so thousands coordinate without knowing names
+  family:
+  - smiths forge nails for the gate today though they argued with the magistrate yesterday
