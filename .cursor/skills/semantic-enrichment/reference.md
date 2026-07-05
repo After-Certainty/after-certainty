@@ -11,12 +11,15 @@
 
 | Type | Field |
 |------|-------|
+| `definitions` | `shortDefinition`, `longDefinition`, `relatedConcepts` |
 | `recognition-signals` | `recognitionSignals` |
 | `trajectories` | `trajectory` |
 | `manifestations` | `manifestations` |
 | `counterbalances` | `counterbalances` |
 | `questions` | `questions` |
-| `all` | all five |
+| `all` | definitions + all five enrichment fields |
+
+Definition brief: [docs/agents/semantic/08-concept-definitions.md](../../../docs/agents/semantic/08-concept-definitions.md)
 
 Agent briefs: [docs/agents/semantic/](../../../docs/agents/semantic/)
 
