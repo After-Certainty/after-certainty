@@ -34,6 +34,21 @@ _TOOLS_DIR = Path(__file__).resolve().parent
 SEMANTIC = Path("semantic")
 SLUG_PARENTS = frozenset({"glossary", "patterns", "sources", "situations"})
 
+# Historical example markers that should appear in longDefinition, not shortDefinition
+HISTORICAL_EXAMPLE_MARKERS = frozenset(
+    {
+        "iron age",
+        "bronze age",
+        "medieval",
+        "siege wall",
+        "factory floor",
+        "factory bell",
+        "wartime",
+        "ancient",
+        "historical",
+    }
+)
+
 
 def _load_audit_module():
     spec = importlib.util.spec_from_file_location(
@@ -45,6 +60,33 @@ def _load_audit_module():
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     return mod
+
+
+def _check_short_definition_quality(
+    data: dict,
+    path: Path,
+    repo: Path,
+) -> list[str]:
+    """Check if shortDefinition contains historical examples that should be in longDefinition."""
+    warnings = []
+
+    # Only check glossary entries
+    if not any(part == "glossary" for part in path.parts):
+        return warnings
+
+    short_def = str(data.get("shortDefinition", "")).strip().lower()
+    if not short_def:
+        return warnings
+
+    for marker in HISTORICAL_EXAMPLE_MARKERS:
+        if marker in short_def:
+            rel_path = path.relative_to(repo)
+            warnings.append(
+                f"{rel_path}: shortDefinition contains historical example "
+                f"'{marker}' - consider moving to longDefinition"
+            )
+
+    return warnings
 
 
 def verify(
@@ -60,6 +102,7 @@ def verify(
 
     parse_errors: list[tuple[Path, str]] = []
     slug_errors: list[str] = []
+    definition_quality_warnings: list[str] = []
     n_files = 0
 
     for path in sorted(root.rglob("*.yml")):
@@ -89,6 +132,10 @@ def verify(
             if slug and slug != path.stem:
                 slug_errors.append(f"{rel}: slug {slug!r} != stem {path.stem!r}")
 
+        # Check shortDefinition quality for glossary entries
+        if isinstance(data, dict):
+            definition_quality_warnings.extend(_check_short_definition_quality(data, path, repo))
+
     rc = 0
     if parse_errors:
         rc = 1
@@ -100,6 +147,13 @@ def verify(
         print(f"Slug / filename mismatch(es): {len(slug_errors)}", file=sys.stderr)
         for line in slug_errors:
             print(f"  {line}", file=sys.stderr)
+    if definition_quality_warnings:
+        print(
+            f"WARNING: shortDefinition quality issue(s): {len(definition_quality_warnings)}",
+            file=sys.stderr,
+        )
+        for warning in definition_quality_warnings:
+            print(f"  {warning}", file=sys.stderr)
 
     audit_mod = _load_audit_module()
     if audit_mod is not None:
