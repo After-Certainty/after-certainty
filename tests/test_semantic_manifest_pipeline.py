@@ -144,11 +144,9 @@ def test_semantic_manifest_includes_wolty_media(repo_root: Path, tmp_path: Path)
     assert disagreement["mediumArticleUrl"].startswith("https://medium.com/")
 
 
-def test_semantic_manifest_glossary_matches_yaml_sources(
-    repo_root: Path, tmp_path: Path
-) -> None:
+def test_semantic_manifest_glossary_matches_yaml_sources(repo_root: Path, tmp_path: Path) -> None:
     """Regression test: verify manifest glossary entries match source YAML files.
-    
+
     This prevents the staleness bug where generated manifests get overwritten
     by prior release assets during CI pipeline (GitHub issue from Jul 2026).
     """
@@ -191,9 +189,9 @@ def test_semantic_manifest_glossary_matches_yaml_sources(
 
         yaml_data = yaml.safe_load(yaml_path.read_text(encoding="utf-8"))
         manifest_entry = glossary_by_slug.get(slug)
-        
+
         assert manifest_entry is not None, f"Glossary entry '{slug}' missing from manifest"
-        
+
         # Verify shortDefinition matches exactly
         yaml_short = yaml_data.get("shortDefinition", "").strip()
         manifest_short = manifest_entry.get("shortDefinition", "").strip()
@@ -202,7 +200,7 @@ def test_semantic_manifest_glossary_matches_yaml_sources(
             f"  YAML: {yaml_short[:100]}...\n"
             f"  Manifest: {manifest_short[:100]}..."
         )
-        
+
         # Verify longDefinition matches if present
         yaml_long = yaml_data.get("longDefinition", "").strip()
         manifest_long = manifest_entry.get("longDefinition", "").strip()
