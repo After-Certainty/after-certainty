@@ -1,4 +1,5 @@
 import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
+import type { GraphIndex } from "@/lib/graph/graph";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import {
   resolvePodcastPlatformLinks,
@@ -395,26 +396,22 @@ export function buildHomePageJsonLd(): JsonLdDocument {
   return jsonLdGraph([buildWebsiteJsonLd(), buildOrganizationJsonLd()]);
 }
 
-type GraphSlugIndex = {
-  getNodeByCanonicalId: (id: string) => { slug: string } | undefined;
-};
-
 /** Resolve related entity canonical ids to absolute explore URLs for JSON-LD cross-links. */
-export function relatedBookUrls(index: GraphSlugIndex, ids: string[] | undefined): string[] {
+export function relatedBookUrls(index: GraphIndex, ids: string[] | undefined): string[] {
   return (ids ?? [])
     .map((id) => index.getNodeByCanonicalId(id)?.slug)
     .filter((slug): slug is string => Boolean(slug))
     .map((slug) => absoluteUrl(`${explorePaths.books}/${slug}`));
 }
 
-export function relatedPatternUrls(index: GraphSlugIndex, ids: string[] | undefined): string[] {
+export function relatedPatternUrls(index: GraphIndex, ids: string[] | undefined): string[] {
   return (ids ?? [])
     .map((id) => index.getNodeByCanonicalId(id)?.slug)
     .filter((slug): slug is string => Boolean(slug))
     .map((slug) => absoluteUrl(`${explorePaths.patterns}/${slug}`));
 }
 
-export function relatedConceptUrls(index: GraphSlugIndex, ids: string[] | undefined): string[] {
+export function relatedConceptUrls(index: GraphIndex, ids: string[] | undefined): string[] {
   return (ids ?? [])
     .map((id) => index.getNodeByCanonicalId(id)?.slug)
     .filter((slug): slug is string => Boolean(slug))
