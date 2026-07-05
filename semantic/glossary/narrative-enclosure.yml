@@ -1,9 +1,28 @@
 slug: narrative-enclosure
 title: Narrative enclosure
-shortDefinition: An interpretive system that absorbs all evidence internally and prevents
-  external meaning from functioning as correction.
+shortDefinition: Narrative enclosure is an interpretive system that absorbs all evidence internally
+  so outside correction cannot function. It matters for identity, authority, trust, and
+  correction—when enclosure seals, external contradiction intensifies commitment rather than
+  weakening it, and every disconfirmation becomes confirmation.
+longDefinition: Narrative enclosure names an interpretive system that absorbs all evidence
+  internally and prevents external meaning from functioning as correction. Interpretation is
+  rigorous but bounded by a predetermined frame—the narrative itself cannot be questioned, only
+  elaborated. External contradiction intensifies commitment rather than weakening it, disconfirming
+  evidence is reclassified as persecution or fulfillment, and no external input can alter the
+  narrative boundary. Intensive internal study and theological debate flourish, but the leader
+  controls the interpretive frame. Failed predictions are absorbed as prophetic testing, state
+  pressure is reframed as validation, internal doubt is reclassified as misunderstanding. Can
+  external disagreement alter the frame—or only intensify internal debate? Where does every
+  contradiction become confirmation? Interpretation loses access to external constraint, correction
+  mechanisms function only inside the story, and intervention accelerates collapse rather than
+  restoring accountability. The restoration path—maintain inputs that can alter the frame before
+  standoff, preserve epistemic permeability before enclosure seals, separate internal coherence
+  from external accountability.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- interpretation
+- correction
+- identity-saturation
 relatedPatterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters

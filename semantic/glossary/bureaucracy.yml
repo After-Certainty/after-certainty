@@ -1,9 +1,20 @@
 slug: bureaucracy
 title: Bureaucracy
-shortDefinition: Bureaucracy extends permanence into practice—rules replacing discretion,
+shortDefinition: Bureaucracy is coordination through roles, rules, records, procedures, and
+  offices rather than direct relationship or discretionary judgment. It preserves continuity
+  at scale, making systems repeatable across strangers and time. The moral tradeoff—it can
+  coordinate without requiring personal trust, but it can also diffuse responsibility and hide
+  consequence.
+longDefinition: Bureaucracy extends permanence into practice—rules replacing discretion,
   procedures replacing judgment, roles replacing relationships. At industrial scale it functions
   as moral infrastructure, coordinating strangers through files, stamps, and queues that must
-  still recognize a name long enough for life to continue.
+  still recognize a name long enough for life to continue. Bureaucracy makes expectations
+  visible and portable—the same form, the same stamp, the same queue number tomorrow—so
+  thousands can coordinate without knowing one another's names. The room feels like Tuesday
+  before the first form is stamped; box seven rather than box four determines whether a lease
+  continues. No one feels cruel; no one feels fully responsible either. Bureaucracy coordinates
+  while meaning quietly thins, systems function without anyone tracing harm, and the machinery
+  keeps its appointments whether or not it still fits the lives it was meant to serve.
 termKind: supporting
 relatedConcepts: []
 relatedPatterns: []

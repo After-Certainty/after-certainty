@@ -1,11 +1,27 @@
 slug: reversibility
 title: Reversibility
-shortDefinition: Reversibility is the ability to undo moral and institutional movement without
-  rupture—what small groups could renegotiate becomes harder once law is carved in stone,
-  canon fixes meaning, and admitting error threatens the foundation of authority itself.
-  Before Certainty Arrives tracks permanence succeeding, then accumulating weight.
+shortDefinition: Reversibility is the ability to undo a decision, commitment, institutional movement,
+  or moral settlement without rupture. It differs from revisability (openness to correction) and
+  corrigibility (capacity to be corrected). What small groups could renegotiate becomes harder once
+  law is carved, canon fixes meaning, and admitting error threatens authority's foundation.
+longDefinition: Reversibility is the ability to undo moral and institutional movement without
+  rupture—what small groups could renegotiate becomes harder once law is carved in stone, canon
+  fixes meaning, and admitting error threatens the foundation of authority itself. Before Certainty
+  Arrives tracks permanence succeeding, then accumulating weight. Local practice still adjusts under
+  visible constraint, oral tradition allows meaning to drift as it travels. But writing and law
+  externalize judgment into enforceable categories, sacred authority makes revision feel morally
+  dangerous, canon and code narrow variance across generations. Revision begins to feel
+  indistinguishable from collapse, tools designed to preserve certainty resist change as conditions
+  shift, what is preserved gradually gains authority through inheritance. What would have to break
+  for this to be undone? Where is permanence relief—and where has it become lock-in? Who bears the
+  cost when reversal is no longer affordable? Reversibility thins while tools outlive their purpose,
+  archives stand when roads between them fail. The counterbalance—recognize why stabilization once
+  required permanence, notice when permanence first solved presence problems, separate necessary
+  storage from inherited weight.
 termKind: supporting
-relatedConcepts: []
+relatedConcepts:
+- revisability
+- corrigibility
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
