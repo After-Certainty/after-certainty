@@ -279,6 +279,48 @@ export function buildPatternJsonLd(params: {
 
   const imageUrls = pattern.infographic?.url ? [pattern.infographic.url] : undefined;
 
+  const narrativeParts: JsonLdNode[] = [];
+  
+  if (pattern.setup && pattern.setup.length > 0) {
+    narrativeParts.push({
+      "@type": "WebPageElement",
+      name: "Setup",
+      text: pattern.setup,
+    });
+  }
+  
+  if (pattern.problem && pattern.problem.length > 0) {
+    narrativeParts.push({
+      "@type": "WebPageElement",
+      name: "Problem",
+      text: pattern.problem,
+    });
+  }
+  
+  if (pattern.forces && pattern.forces.length > 0) {
+    narrativeParts.push({
+      "@type": "WebPageElement",
+      name: "Forces",
+      text: pattern.forces.join(", "),
+    });
+  }
+  
+  if (pattern.observation && pattern.observation.length > 0) {
+    narrativeParts.push({
+      "@type": "WebPageElement",
+      name: "Observation",
+      text: pattern.observation,
+    });
+  }
+  
+  if (pattern.example && pattern.example.length > 0) {
+    narrativeParts.push({
+      "@type": "WebPageElement",
+      name: "Example",
+      text: pattern.example,
+    });
+  }
+
   return compact({
     "@type": "Article",
     "@id": `${pageUrl}#article`,
@@ -293,6 +335,7 @@ export function buildPatternJsonLd(params: {
     mainEntityOfPage: { "@id": webPageId(pageUrl) },
     publisher: organizationPublisher(),
     about: relatedConceptUrls.length > 0 ? relatedConceptUrls : undefined,
+    hasPart: narrativeParts.length > 0 ? narrativeParts : undefined,
     sameAs: pattern.mediumArticleUrl,
   });
 }
