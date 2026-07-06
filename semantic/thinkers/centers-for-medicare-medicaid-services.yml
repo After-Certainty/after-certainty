@@ -1,0 +1,12 @@
+slug: centers-for-medicare-medicaid-services
+name: Centers for Medicare & Medicaid Services
+type: organization
+summary: U.S. federal agency publishing hospital quality, readmissions, and healthcare
+  policy data.
+concepts: []
+patterns: []
+relatedBooks: []
+works:
+- centers-for-medicare-medicaid-services-hospital-readmissions
+whyThisMatters: CMS data anchors how healthcare institutions measure harm, readmission,
+  and accountability at scale.

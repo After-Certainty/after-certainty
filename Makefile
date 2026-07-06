@@ -161,6 +161,9 @@ lint-semantic-graph:
 audit-thinker-concepts:
 	python3 tools/audit_thinker_concepts.py --repo . --out reports/thinker-concept-audit.md
 
+align-creator-slugs:
+	python3 tools/align_creator_slugs.py --repo . --apply
+
 generate-semantic-manifest: validate-book-specs verify-semantic-yaml
 	@repo="$${GITHUB_REPOSITORY:-$$(git remote get-url origin 2>/dev/null | sed -e 's#^git@github.com:##' -e 's#^https://github.com/##' -e 's#\.git$$##')}"; \
 	python3 tools/generate_semantic_manifest.py \

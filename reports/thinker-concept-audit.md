@@ -2,10 +2,10 @@
 
 ## Executive summary
 
-- Thinkers audited: **307**
-- Thinkers with empty concepts: **270**
-- Thinkers with no concepts on thinker or works: **270**
-- Thinkers with work concepts but empty thinker concepts: **0**
+- Thinkers audited: **339**
+- Thinkers with empty concepts: **302**
+- Thinkers with no concepts on thinker or works: **301**
+- Thinkers with work concepts but empty thinker concepts: **1**
 - Thinkers with suspicious current concepts: **8**
 - Sources with empty concepts: **342** / 411
 
@@ -290,6 +290,7 @@
 | Alex Rosenblat | — | interpretation, system, trust | — |
 | Alistair Cockburn | agile, boundary, coupling, guest-leadership… | coordination, feedback | — |
 | Allspaw, John, and Paul Hammond | — | correction, coupling, devops | — |
+| Amershi, Saleema, et al | — | system | — |
 | Amy C Edmondson | adaptation, contestability, correction, guest-leadership… | certainty | guest-leadership, legitimacy, normalization |
 | Andrew Abbott | — | authority, boundary, system | — |
 | Andrew Haldane | — | coupling, exit, scale… | — |
@@ -308,6 +309,7 @@
 | Barry W Boehm | — | correction, coupling | — |
 | Baumeister, Roy F., and Mark R. Leary | thinking, uncertainty | trust | — |
 | Bebchuk, Lucian A., and Scott Hirst | — | accountability, scale, structure | — |
+| Beck, Kent, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, and Dave Thomas | — | agile | — |
 | Ben Kiernan | — | accountability, authority, bureaucracy… | — |
 | Ben S Bernanke | — | trust | — |
 | Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell | — | accountability, bias, fairness… | — |
@@ -330,6 +332,7 @@
 | Carlos Escudé | — | correction | — |
 | Cass R Sunstein | — | formation | — |
 | Cathy O'Neil | — | accountability, harm, scale | — |
+| Centers for Medicare & Medicaid Services | — | accountability, agency, authority… | — |
 | Chantal Mouffe | — | legitimacy | — |
 | Charles A. E Goodhart | — | incentives | — |
 | Charles Perrow | meaning | coupling, system | — |
@@ -363,7 +366,9 @@
 | Donald M Berwick | — | care, system | — |
 | Donald T Campbell | — | accountability, targets | — |
 | Donella H Meadows | correction, coupling, drift, feedback… | thinking | correction, drift |
+| Douglas, Karen M., et al | — | — | — |
 | Douglass C North | — | correction, legitimacy | — |
+| Druckman, James N., et al | — | formation | — |
 | E. H Carr | — | certainty, interpretation | — |
 | Eagly, Alice H., and Linda L. Carli | — | authority, bias, legitimacy | — |
 | Edgar H Schein | — | care, correction | — |
@@ -386,13 +391,16 @@
 | Fernand Braudel | — | structure | — |
 | Festinger, Leon, Henry W. Riecken, and Stanley Schachter | — | correction, interpretation | — |
 | Fisher, Roger, William Ury, and Bruce Patton | — | interpretation, repair, structure… | — |
+| Ford, Neal, Rebecca Parsons, and Patrick Kua | — | — | — |
 | Forsgren, Nicole, Jez Humble, and Gene Kim | — | contestability, correction, coupling… | — |
 | Francis Fukuyama | — | formation, legitimacy, scale… | — |
 | Frank Dikötter | — | authority, coercion, feedback | — |
+| Freeh, Sporkin, & Sullivan LLC | — | — | — |
 | French, John R. P., and Bertram Raven | thinking | authority, coercion, legitimacy | — |
 | Friedrich A Hayek | — | certainty | — |
 | Garud, Raghu, and Peter Karnøe | — | meaning | — |
 | Gary Klein | — | bias, judgment | — |
+| Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford | — | accountability, harm, interpretation… | — |
 | Gene Kranz | — | accountability, coupling, guest-leadership | — |
 | Geoffrey Ingham | — | system, trust | — |
 | Georg Simmel | — | scale, trust | — |
@@ -406,6 +414,7 @@
 | Hannah Arendt | authority, coercion, correction, guest-leadership… | scale, thinking | correction, guest-leadership |
 | Hartmut Rosa | — | acceleration, trust | — |
 | Haspeslagh, Philippe C., and David B. Jemison | — | contestability, correction, coupling… | — |
+| Hendrycks, Dan, Collin Burns, Anya Chen, and Spencer Ball | — | — | — |
 | Henry Petroski | — | system | — |
 | Herbert A Simon | attention, constraints, finite-perspective, judgment… | — | — |
 | Herbert H Clark | thinking | constraint, coordination, interpretation… | — |
@@ -438,6 +447,7 @@
 | Joan C Tronto | — | accountability, care, contract… | — |
 | John Bowlby | — | formation, trust | — |
 | John C Bogle | — | incentives, trust | — |
+| John Carreyrou | — | — | — |
 | John Dewey | correction, feedback, judgment, public-interpretation… | certainty | — |
 | John M Gottman | — | connection, correction, repair… | — |
 | John P. A Ioannidis | — | certainty, correction, incentives | — |
@@ -457,14 +467,18 @@
 | Kashyap, Anil K., and Jeremy C. Stein | — | coupling, stability, trust | — |
 | Kate Crawford | — | interpretation, structure | — |
 | Kathleen Thelen | — | correction, formation | — |
+| Kati Marton | — | — | — |
 | Keep, William W., and Peter J. Vander Nat | — | boundary, certainty | — |
+| Kevin Steffensen | — | accountability, authority, certainty… | — |
 | Kim, Gene, Jez Humble, Patrick Debois, and John Willis | — | accountability, coupling, devops | — |
 | Kim, Gene, Kevin Behr, and George Spafford | — | constraint, constraints, devops… | — |
 | King, Martin Luther, Jr | — | authority, correction, guest-leadership… | — |
 | Kirk A Hawkins | — | constraint, constraints, interpretation… | — |
+| Knutti, Reto, et al | — | — | — |
 | Léon Krier | — | — | — |
 | Lakoff, George, and Mark Johnson | — | interpretation, meaning, structure | — |
 | Langdon Winner | — | authority, coupling, system | — |
+| Lewis, Catherine C., Rebecca R. Perry, and Akihiko Murata | — | — | — |
 | Lewis Mumford | — | scale | — |
 | Liebowitz, S. J., and Stephen E. Margolis | — | correction | — |
 | Lisa Feldman Barrett | thinking, uncertainty | interpretation, judgment, meaning | — |
@@ -472,6 +486,7 @@
 | Lovell, Jim, and Jeffrey Kluger | — | system | — |
 | MacFarquhar, Roderick, and Michael Schoenhals | — | interpretation | — |
 | Madison, James, Alexander Hamilton, and John Jay | — | legitimacy, scale, trust | — |
+| Maggie Haberman | — | — | — |
 | Mancur Olson | — | coordination, scale, trust | — |
 | March, James G., and Johan P. Olsen | — | certainty, system, uncertainty | — |
 | Mark C Suchman | — | legitimacy, trust | — |
@@ -484,12 +499,14 @@
 | Max Weber | authority, bureaucracy, distance, institutional-memory… | scale | institutional-memory, throughput |
 | McCombs, Maxwell E., and Donald L. Shaw | — | attention, interpretation, public-interpretation… | — |
 | McPherson, Miller, Lynn Smith-Lovin, and James M. Cook | — | correction, formation, structure… | — |
+| Mellers, Barbara, et al | — | — | — |
 | Michael E Porter | — | incentives, scale, structure | — |
 | Michael Lipsky | — | accountability, bureaucracy | — |
 | Michael T Nygard | — | coupling, stability, system | — |
 | Michael Walzer | — | legitimacy | — |
 | Michel Foucault | — | system | — |
 | Miranda Fricker | — | correction | — |
+| Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru | — | accountability, fairness | — |
 | Morton Deutsch | adaptation | correction, repair, trust | — |
 | Murray Bowen | — | stability, system | — |
 | N. Gregory Mankiw | — | certainty, incentives | — |
@@ -510,12 +527,16 @@
 | Open Science Collaboration | — | certainty, correction, scale | — |
 | Orlando Figes | — | interpretation | — |
 | OWASP Foundation | — | publishing, scale, system | — |
+| Parker, Ashley, and Michael Scherer | — | — | — |
 | Paul A David | — | scale | — |
 | Paul Davies | — | certainty, exit, system | — |
 | Paul Pierson | — | correction, feedback, scale | — |
 | Paul Tillich | — | certainty, meaning | — |
 | Pauline Boss | — | certainty, uncertainty | — |
+| Peng, Sida, et al | — | — | — |
+| Perry, Neil, Megha Srivastava, Deepak Kumar, and Dan Boneh | — | — | — |
 | Peter Frankopan | — | trust | — |
+| Peter Grady | — | — | — |
 | Peter M Senge | — | contestability, correction, feedback… | — |
 | Pew Research Center | — | publishing, trust | — |
 | Phil Rosenzweig | — | judgment | — |
@@ -528,7 +549,9 @@
 | Rakesh Khurana | — | authority, formation, judgment | — |
 | Raymond S Nickerson | thinking | bias, correction | — |
 | Rebecca Solnit | — | certainty, judgment | — |
+| Reeves Wiedeman | — | — | — |
 | Reinhart, Carmen M., and Kenneth S. Rogoff | — | — | — |
+| Richard Gott | — | — | — |
 | Richard Lyman Bushman | — | authority, formation | — |
 | Richard S Lazarus | — | adaptation, interpretation, meaning | — |
 | Richard Sennett | — | constraint, judgment | — |
@@ -547,6 +570,7 @@
 | Russell Hardin | — | constraint, judgment, trust | — |
 | Safiya Umoja Noble | — | bias, formation, interpretation… | — |
 | Salvador Minuchin | — | boundary, system | — |
+| Schulz, Kenneth F., et al | — | bias | — |
 | Scott E Page | — | system | — |
 | Sheila Fitzpatrick | — | bureaucracy, interpretation | — |
 | Sherwin B Nuland | — | certainty, correction, uncertainty | — |
@@ -563,10 +587,12 @@
 | Steven Johnson | — | certainty | — |
 | Substance Abuse and Mental Health Services Administration | — | agency, harm, publishing… | — |
 | Suedfeld, Peter, Philip E. Tetlock, and Sally Streufert | — | certainty, exit, judgment… | — |
+| Susan Raine | — | — | — |
 | Suzanne Staggenborg | — | — | — |
 | Svend Brinkmann | — | acceleration, certainty, constraint | — |
 | Tabor, James D., and Eugene V. Gallagher | — | authority, boundary | — |
 | Tajfel, Henri, and John C. Turner | adaptation | boundary, formation, trust | — |
+| Talbot, S. G., and W. Dean | — | — | — |
 | Tavris, Carol, and Elliot Aronson | — | — | — |
 | Terryl L Givens | — | — | — |
 | The Church of Jesus Christ of Latter-day Saints | — | authority, trust | — |
@@ -576,6 +602,10 @@
 | Tim Reiterman | — | accountability, authority, normalization | — |
 | Tim Wu | — | attention, formation, interpretation… | — |
 | Timur Kuran | — | agile, consequence, trust | — |
+| U.S. Bureau of Labor Statistics | — | agency, publishing | — |
+| U.S. Census Bureau | — | agency, interpretation, public-interpretation… | — |
+| U.S. Securities and Exchange Commission | — | accountability, publishing | — |
+| Uhl-Bien, Michael, Ronald E. Riggio, Kelly Lowe, and Gerard B. Carsten | — | authority, correction, guest-leadership… | — |
 | Ulrich Beck | harm | accountability, certainty, consequence… | — |
 | United Nations Framework Convention on Climate Change | — | scale, targets | — |
 | Václav Havel | — | constraint, guest-leadership, responsibility… | — |
@@ -583,10 +613,12 @@
 | Victor Klemperer | — | interpretation, structure, witness | — |
 | W. Brian Arthur | — | exit, structure, system | — |
 | W. Edwards Deming | — | accountability, system, thinking | — |
+| Wachsmuth, David, and Alexander Weisler | — | — | — |
 | Walter Isaacson | — | system | — |
 | William H McNeill | — | cohesion, trust | — |
 | Winston W Royce | — | system, waterfall | — |
 | World Bank | — | incentives, publishing, scale | — |
+| Wright, Stuart A., ed | — | — | — |
 | Yuval Levin | — | contract, decay, responsibility… | — |
 | Zeynep Tufekci | — | attention, judgment | — |
 | Zygmunt Bauman | — | accountability, trust | — |
@@ -595,51 +627,16 @@
 
 | Slug | Name | Type |
 |------|------|------|
+| `centers-for-medicare-medicaid-services` | Centers for Medicare & Medicaid Services | organization |
 | `national-academy-of-medicine` | National Academy of Medicine | organization |
 | `pew-research-center` | Pew Research Center | organization |
+| `u-s-bureau-of-labor-statistics` | U.S. Bureau of Labor Statistics | organization |
+| `u-s-census-bureau` | U.S. Census Bureau | organization |
 | `united-nations-framework-convention-on-climate-change` | United Nations Framework Convention on Climate Change | organization |
 
 ## Appendix: creatorSlugs mismatches
 
-- `amershi-saleema-et-al-guidelines-for-human-ai-interaction` → `amershi-saleema-et-al` (no matching thinker)
-- `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr` → `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas` (no matching thinker)
-- `carreyrou-john-bad-blood-secrets-and-lies-in-a-silicon-valley-startup` → `john-carreyrou` (no matching thinker)
-- `centers-for-medicare-medicaid-services-hospital-readmissions` → `centers-for-medicare-medicaid-services-hospital-readmissions` (no matching thinker)
-- `douglas-karen-m-et-al-understanding-conspiracy-theories` → `douglas-karen-m-et-al` (no matching thinker)
-- `druckman-james-n-et-al-a-framework-for-the-study-of-misinformation-and-health` → `druckman-james-n-et-al` (no matching thinker)
-- `ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c` → `ford-neal-rebecca-parsons-and-patrick-kua` (no matching thinker)
-- `freeh-sporkin-sullivan-llc-report-of-the-special-investigative-counsel-regarding-the-actions-of` → `freeh-sporkin-sullivan-llc` (no matching thinker)
-- `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum` → `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford` (no matching thinker)
-- `gott-richard-hugo-ch-vez-and-the-bolivarian-revolution` → `richard-gott` (no matching thinker)
-- `grady-peter-flying-blind-the-737-max-tragedy-and-the-fall-of-boeing` → `peter-grady` (no matching thinker)
-- `haberman-maggie-confidence-man-the-making-of-donald-trump-and-the-breaking-of-america` → `maggie-haberman` (no matching thinker)
-- `hendrycks-dan-collin-burns-anya-chen-and-spencer-ball-holistic-evaluation-of-language-models` → `hendrycks-dan-collin-burns-anya-chen-and-spencer-ball` (no matching thinker)
-- `knutti-reto-et-al-challenges-in-combining-projections-from-multiple-climate-models` → `knutti-reto-et-al` (no matching thinker)
-- `lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi` → `lewis-catherine-c-rebecca-r-perry-and-akihiko-murata` (no matching thinker)
-- `marton-kati-the-chancellor-the-remarkable-odyssey-of-angela-merkel` → `kati-marton` (no matching thinker)
-- `mellers-barbara-et-al-identifying-and-cultivating-superforecasters-as-a-method-of-improving-prob` → `mellers-barbara-et-al` (no matching thinker)
-- `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp` → `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru` (no matching thinker)
-- `national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate` → `national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-materials` (no matching thinker)
-- `parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth` → `parker-ashley-and-michael-scherer` (no matching thinker)
-- `peng-sida-et-al-the-impact-of-ai-on-developer-productivity-evidence-from-github-copilot` → `peng-sida-et-al` (no matching thinker)
-- `perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai` → `perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh` (no matching thinker)
-- `raine-susan-reinventing-the-self-nxivm-s-promises-secrets-and-lies` → `susan-raine` (no matching thinker)
-- `ross-lee-and-richard-e-nisbett-the-person-and-the-situation` → `ross-lee-and-richard-e-nisbett` (no matching thinker)
-- `ross-lee-the-intuitive-psychologist-and-his-shortcomings` → `lee-ross` (no matching thinker)
-- `schulz-kenneth-f-et-al-empirical-evidence-of-bias-dimensions-of-methodological-quality-associate` → `schulz-kenneth-f-et-al` (no matching thinker)
-- `steffensen-kevin-how-meaning-moves` → `kevin-steffensen` (no matching thinker)
-- `steffensen-kevin-when-authority-is-misread` → `kevin-steffensen` (no matching thinker)
-- `steffensen-kevin-when-authority-outlives-accountability-a-lens-for` → `kevin-steffensen` (no matching thinker)
-- `talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re` → `talbot-s-g-and-w-dean` (no matching thinker)
-- `u-s-bureau-of-labor-statistics-consumer-price-index-cpi-news-releases-and-databases-2020-2024-ht` → `u-s-bureau-of-labor-statistics-consumer-price-index-cpi-news-releases-and-databases-2020-2024-https-www-bls-gov-cpi` (no matching thinker)
-- `u-s-bureau-of-labor-statistics-employment-situation-news-releases-job-openings-and-labor-turnove` → `u-s-bureau-of-labor-statistics-employment-situation-news-releases-job-openings-and-labor-turnover-survey-jolts-2020-2024-https-www-bls-gov` (no matching thinker)
-- `u-s-census-bureau-housing-statistics-and-american-community-survey-materials-on-regional-cost-pr` → `u-s-census-bureau-housing-statistics-and-american-community-survey-materials-on-regional-cost-pressures-2020-2024-https-www-census-gov` (no matching thinker)
-- `u-s-securities-and-exchange-commission-office-of-the-whistleblower-annual-reports-to-congress-ht` → `u-s-securities-and-exchange-commission-office-of-the-whistleblower-annual-reports-to-congress-https-www-sec-gov-whistleblower` (no matching thinker)
-- `uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b` → `uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b` (no matching thinker)
-- `wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing` → `wachsmuth-david-and-alexander-weisler` (no matching thinker)
-- `wiedeman-reeves-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion` → `reeves-wiedeman` (no matching thinker)
-- `wright-stuart-a-ed-armageddon-in-waco-critical-perspectives-on-the-branch-davidian-conflict` → `wright-stuart-a-ed` (no matching thinker)
-- `yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of` → `yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of-the-federal-reserve-system-and-u-s-department-of-the-treasury-2021-2024` (no matching thinker)
+_(none)_
 
 ## Appendix: missing concept slugs mentioned in text
 
