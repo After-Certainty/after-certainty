@@ -325,6 +325,51 @@ describe("json-ld builders", () => {
     expect(node["@type"]).toBe("Article");
   });
 
+  it("maps enriched sourceKind values to schema.org types", async () => {
+    const { buildSourceJsonLd, resolveSourceJsonLdType } = await loadJsonLd();
+
+    expect(resolveSourceJsonLdType({ ...sampleSource, sourceKind: "report" }).schemaType).toBe(
+      "Report",
+    );
+    expect(resolveSourceJsonLdType({ ...sampleSource, sourceKind: "dataset" }).schemaType).toBe(
+      "Dataset",
+    );
+    expect(resolveSourceJsonLdType({ ...sampleSource, sourceKind: "standard" })).toEqual({
+      schemaType: "CreativeWork",
+      additionalType: "Standard",
+    });
+
+    const reportNode = buildSourceJsonLd({
+      source: {
+        ...sampleSource,
+        sourceKind: "report",
+        title: "Governance Indicators",
+        citation: "World Bank. Governance Indicators.",
+        creatorNames: ["World Bank"],
+        year: 2024,
+        publisher: "World Bank",
+      },
+      pageUrl: "https://example.com/explore/sources/world-bank-governance",
+    });
+    expect(reportNode["@type"]).toBe("Report");
+    expect(reportNode.name).toBe("Governance Indicators");
+    expect(reportNode.description).toContain("Governance Indicators");
+    expect(reportNode.datePublished).toBe("2024");
+  });
+
+  it("maps institutional documents to WebPage schema", async () => {
+    const { buildSourceJsonLd } = await loadJsonLd();
+    const node = buildSourceJsonLd({
+      source: {
+        ...sampleSource,
+        sourceKind: "institutional_document",
+        type: "article",
+      },
+      pageUrl: "https://example.com/explore/sources/example-institutional-document",
+    });
+    expect(node["@type"]).toBe("WebPage");
+  });
+
   it("maps thinker pages to Person schema", async () => {
     const { buildThinkerPageJsonLd } = await loadJsonLd();
     const nodes = buildThinkerPageJsonLd({
