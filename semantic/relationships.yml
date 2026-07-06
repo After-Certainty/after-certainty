@@ -377,3 +377,69 @@ relationships:
     target: accountability
     relationship: contrasts
     description: Witness can persist where consequence pathways are blocked; accountability requires exposure.
+  # Phase 4 Category B: Force dynamics (enables, preserves, thins)
+  - source: public-interpretation
+    target: repair
+    relationship: enables
+    description: Public interpretation enables repair by creating shared space where harm can be addressed collectively.
+  - source: accountability
+    target: correction
+    relationship: preserves
+    description: Accountability preserves correction by maintaining contact between decision-makers and effects.
+  - source: alignment
+    target: cohesion
+    relationship: preserves
+    description: Alignment preserves cohesion under pressure through shared belonging signals.
+  - source: compression
+    target: coordination
+    relationship: preserves
+    description: Compression preserves coordination when full discernment is too costly, though it can thin corrective capacity.
+  - source: connection
+    target: answerability
+    relationship: preserves
+    description: Connection preserves answerability across encounters by maintaining reachability with consequence.
+  - source: consequence-architecture
+    target: corrigibility
+    relationship: preserves
+    description: Consequence-architecture preserves corrigibility under acceleration by designing feedback paths that reach redesign authority.
+  - source: finite-perspective
+    target: humility
+    relationship: preserves
+    description: Finite perspective preserves humility by recognizing the structural condition that no view can be complete.
+  - source: judgment
+    target: proportionality
+    relationship: preserves
+    description: Judgment preserves proportionality by weighing tradeoffs and maintaining room for revision.
+  - source: legitimacy
+    target: trust
+    relationship: preserves
+    description: Legitimacy preserves trust and willing participation when power reads as earned and contestable.
+  - source: mediation
+    target: coordination
+    relationship: preserves
+    description: Mediation preserves coordination at scale by allowing strangers to exchange under shared rules.
+  - source: momentum
+    target: coordination
+    relationship: preserves
+    description: Momentum preserves coordination when alternatives are missing—systems still run though judgment has stopped.
+  - source: abstraction
+    target: contact
+    relationship: thins
+    description: Abstraction thins contact between decision-makers and effects as categories replace direct encounter.
+  - source: abstraction
+    target: reciprocity
+    relationship: thins
+    description: Scale and abstraction thin reciprocity as categories replace relationships and consequence travels far from action.
+  # Phase 4 Category C: Dependencies (requires)
+  - source: machine-perspective
+    target: answerability
+    relationship: requires
+    description: Machine perspective requires answerability—models are useful extensions that must remain answerable for outputs.
+  - source: reversibility
+    target: stability
+    relationship: requires
+    description: Reversibility requires underlying stability—the capacity to undo depends on coordination that can absorb change.
+  - source: vitality
+    target: feedback
+    relationship: requires
+    description: Vitality depends on feedback, participation, and renewal to keep adapting without losing coherence.
