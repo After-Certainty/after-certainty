@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getBooks } from "@/lib/content-data";
 import { getSemanticGraph } from "@/lib/graph/manifest";
+import { resolveThinkers } from "@/lib/graph/thinkers";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { resolveDeploymentUrl } from "@/lib/site-config";
 
@@ -12,6 +13,7 @@ const TOP_LEVEL_PATHS = [
   "/explore/concepts",
   "/explore/patterns",
   "/explore/books",
+  "/explore/thinkers",
   "/explore/sources",
   "/podcast",
   "/collaborators",
@@ -41,6 +43,9 @@ export async function getSitemapPaths(): Promise<string[]> {
   }
   for (const source of graph.sources) {
     paths.push(`${explorePaths.sources}/${source.slug}`);
+  }
+  for (const thinker of resolveThinkers(graph)) {
+    paths.push(`${explorePaths.thinkers}/${thinker.slug}`);
   }
 
   const seen = new Set<string>();

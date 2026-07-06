@@ -7,8 +7,9 @@ import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Thinkers & sources",
-  description: "Thinkers and sources in the After Certainty semantic graph — intellectual lineages and cross-links.",
+  title: "Sources",
+  description:
+    "Bibliographic sources in the After Certainty semantic graph — books, articles, reports, and other research works.",
 });
 
 export default async function ExploreSourcesIndexPage() {
@@ -18,10 +19,10 @@ export default async function ExploreSourcesIndexPage() {
   return (
     <article>
       <ExploreIndexHero
-        eyebrow="Voices"
-        title="Thinkers & sources"
+        eyebrow="Works"
+        title="Sources"
         headingId="explore-sources-heading"
-        lede="Philosophers, social scientists, and practitioners — positioned by how the graph touches their ideas."
+        lede="Books, articles, reports, and other research works — bibliographic entries linked across the graph."
       />
       <Section atmosphere="transition" className="border-t border-border/25 py-14 md:py-20">
         {sources.length === 0 ? (

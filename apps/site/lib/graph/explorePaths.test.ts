@@ -37,6 +37,7 @@ describe("explorePaths", () => {
     expect(explorePaths.concepts).toBe("/explore/concepts");
     expect(explorePaths.patterns).toBe("/explore/patterns");
     expect(explorePaths.books).toBe("/explore/books");
+    expect(explorePaths.thinkers).toBe("/explore/thinkers");
     expect(explorePaths.sources).toBe("/explore/sources");
   });
 });
@@ -46,7 +47,12 @@ describe("exploreDefaultHomeFocalCanonicalId", () => {
     const graph: SemanticGraph = {
       ...tinyGraph,
       glossary: [
-        { id: "c-cert", slug: exploreDefaultHomeConceptSlug, title: "Certainty", shortDefinition: "x" },
+        {
+          id: "c-cert",
+          slug: exploreDefaultHomeConceptSlug,
+          title: "Certainty",
+          shortDefinition: "x",
+        },
         ...tinyGraph.glossary,
       ],
     };
@@ -70,9 +76,9 @@ describe("exploreObservatoryFocusHref", () => {
 
 describe("exploreViewFromSearchParams", () => {
   it("returns observatory when view param matches", () => {
-    expect(exploreViewFromSearchParams(new URLSearchParams(`view=${EXPLORE_VIEW_OBSERVATORY}`))).toBe(
-      "observatory",
-    );
+    expect(
+      exploreViewFromSearchParams(new URLSearchParams(`view=${EXPLORE_VIEW_OBSERVATORY}`)),
+    ).toBe("observatory");
     expect(exploreViewFromSearchParams(new URLSearchParams())).toBe("hub");
   });
 
@@ -95,10 +101,16 @@ describe("exploreHrefForNode", () => {
   const index = buildGraphIndex(tinyGraph);
 
   it("builds hrefs for each node kind", () => {
-    expect(exploreHrefForNode(index.getNodeByCanonicalId("c1")!)).toBe("/explore/concepts/concept-slug");
-    expect(exploreHrefForNode(index.getNodeByCanonicalId("p1")!)).toBe("/explore/patterns/pattern-slug");
+    expect(exploreHrefForNode(index.getNodeByCanonicalId("c1")!)).toBe(
+      "/explore/concepts/concept-slug",
+    );
+    expect(exploreHrefForNode(index.getNodeByCanonicalId("p1")!)).toBe(
+      "/explore/patterns/pattern-slug",
+    );
     expect(exploreHrefForNode(index.getNodeByCanonicalId("b1")!)).toBe("/explore/books/book-slug");
-    expect(exploreHrefForNode(index.getNodeByCanonicalId("s1")!)).toBe("/explore/sources/source-slug");
+    expect(exploreHrefForNode(index.getNodeByCanonicalId("s1")!)).toBe(
+      "/explore/sources/source-slug",
+    );
   });
 });
 

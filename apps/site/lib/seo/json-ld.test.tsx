@@ -305,7 +305,7 @@ describe("json-ld builders", () => {
       source: sampleSource,
       breadcrumbs: [
         { label: "Explore", href: "/explore" },
-        { label: "Thinkers", href: "/explore/sources" },
+        { label: "Sources", href: "/explore/sources" },
         { label: sampleSource.name },
       ],
     });
