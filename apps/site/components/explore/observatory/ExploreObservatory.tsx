@@ -1,6 +1,14 @@
 "use client";
 
-import { Suspense, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import {
+  Suspense,
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
@@ -15,7 +23,10 @@ import { ObservatoryBottomDock } from "@/components/explore/observatory/dock/Obs
 import { ObservatoryCompactFocusDock } from "@/components/explore/observatory/dock/ObservatoryCompactFocusDock";
 import { ExploreFlowCanvas } from "@/components/explore/observatory/ExploreFlowCanvas";
 import { ExploreObservatoryHub } from "@/components/explore/observatory/ExploreObservatoryHub";
-import { useObservatoryFlowSync, type LayoutTidySnapshot } from "@/components/explore/observatory/hooks/useObservatoryFlowSync";
+import {
+  useObservatoryFlowSync,
+  type LayoutTidySnapshot,
+} from "@/components/explore/observatory/hooks/useObservatoryFlowSync";
 import { useObservatoryViz } from "@/components/explore/observatory/hooks/useObservatoryViz";
 import { ObservatoryPaneToggle } from "@/components/explore/observatory/ObservatoryPaneToggle";
 import { ObservatoryInterpretationPanel } from "@/components/explore/observatory/panel/ObservatoryInterpretationPanel";
@@ -54,7 +65,10 @@ import {
   relationshipForEdgeKey,
   relationshipSelectionFromRelationship,
 } from "@/lib/observatory/relationshipSelection";
-import { normalizePredicateKey, formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
+import {
+  normalizePredicateKey,
+  formatRelationshipLabelForDisplay,
+} from "@/lib/graph/relationshipVisuals";
 import type { GraphEntityKind, Relationship, SemanticGraph } from "@/types/semanticGraph";
 import type { SemanticFlowEdgeData } from "@/components/explore/observatory/SemanticFlowEdge";
 import type { SemanticFlowNodeData } from "@/components/explore/observatory/SemanticFlowNode";
@@ -106,13 +120,20 @@ function ObservatoryEmpty() {
       <p className="text-[11px] uppercase tracking-[0.28em] text-muted">Semantic observatory</p>
       <h1 className="mt-5 font-display text-3xl font-medium text-fg">The atlas is still quiet</h1>
       <p className="mt-6 text-sm leading-relaxed text-muted">
-        When the release manifest publishes concepts and relationships, this room becomes a navigable semantic landscape.
+        When the release manifest publishes concepts and relationships, this room becomes a
+        navigable semantic landscape.
       </p>
       <div className="mt-10 flex flex-wrap justify-center gap-4 text-sm">
-        <Link className="text-accent underline-offset-4 hover:underline" href={explorePaths.concepts}>
+        <Link
+          className="text-accent underline-offset-4 hover:underline"
+          href={explorePaths.concepts}
+        >
           Concepts
         </Link>
-        <Link className="text-accent underline-offset-4 hover:underline" href={explorePaths.patterns}>
+        <Link
+          className="text-accent underline-offset-4 hover:underline"
+          href={explorePaths.patterns}
+        >
           Patterns
         </Link>
         <Link className="text-accent underline-offset-4 hover:underline" href={explorePaths.books}>
@@ -150,7 +171,7 @@ function ExploreObservatoryInner({
   const seedFocus =
     initialFocusCanonicalId && index.getNodeByCanonicalId(initialFocusCanonicalId)
       ? initialFocusCanonicalId
-      : exploreDefaultHomeFocalCanonicalId(index) ?? defaultFocal;
+      : (exploreDefaultHomeFocalCanonicalId(index) ?? defaultFocal);
 
   const store = useObservatoryStoreApi({
     focusId: seedFocus,
@@ -196,7 +217,8 @@ function ExploreObservatoryInner({
   const canvasLayoutKey = `${leftOpen}-${rightOpen}`;
 
   const lgGridClass = useMemo(() => {
-    if (leftOpen && rightOpen) return "lg:grid-cols-[minmax(0,17rem)_minmax(0,1fr)_minmax(0,18rem)]";
+    if (leftOpen && rightOpen)
+      return "lg:grid-cols-[minmax(0,17rem)_minmax(0,1fr)_minmax(0,18rem)]";
     if (leftOpen) return "lg:grid-cols-[minmax(0,17rem)_minmax(0,1fr)]";
     if (rightOpen) return "lg:grid-cols-[minmax(0,1fr)_minmax(0,18rem)]";
     return "lg:grid-cols-1";
@@ -298,7 +320,10 @@ function ExploreObservatoryInner({
     setEdges,
   });
 
-  const predicateOptions = useMemo(() => distinctRelationshipPredicates(initialGraph), [initialGraph]);
+  const predicateOptions = useMemo(
+    () => distinctRelationshipPredicates(initialGraph),
+    [initialGraph],
+  );
   const groupedPredicates = useMemo(() => groupPredicatesByFamily(initialGraph), [initialGraph]);
   const allPredicateKeys = useMemo(
     () => [...new Set(predicateOptions.map((p) => normalizePredicateKey(p)))],
@@ -325,9 +350,7 @@ function ExploreObservatoryInner({
     applyRelationshipPreset(preset);
   }, [searchParams, applyRelationshipPreset]);
 
-  const selectedNode: GraphNode | null = selectedId
-    ? index.getNodeByCanonicalId(selectedId)
-    : null;
+  const selectedNode: GraphNode | null = selectedId ? index.getNodeByCanonicalId(selectedId) : null;
 
   const highlightedRelationshipKey = relationshipSelection?.edgeKey ?? null;
 
@@ -376,7 +399,9 @@ function ExploreObservatoryInner({
     layoutTidyRef.current = {
       type: "preserve-pins",
       atRevision,
-      pins: new Map(nodes.filter((n) => pinnedIds.has(n.id)).map((n) => [n.id, n.position] as const)),
+      pins: new Map(
+        nodes.filter((n) => pinnedIds.has(n.id)).map((n) => [n.id, n.position] as const),
+      ),
     };
     store.getState().bumpLayoutRevision();
   }, [effectiveFocusId, viz.nodeIds, nodes, pinnedIds, store]);
@@ -762,19 +787,44 @@ function ExploreObservatoryInner({
                 Close
               </button>
               <section className="space-y-3">
-                <p className="text-[11px] uppercase tracking-[0.26em] text-muted">Explore the landscape</p>
+                <p className="text-[11px] uppercase tracking-[0.26em] text-muted">
+                  Explore the landscape
+                </p>
                 <nav className="flex flex-col gap-2 text-sm text-fg">
-                  <Link className="hover:text-accent" href={explorePaths.concepts} onClick={() => store.getState().setLeftOpen(false)}>
+                  <Link
+                    className="hover:text-accent"
+                    href={explorePaths.concepts}
+                    onClick={() => store.getState().setLeftOpen(false)}
+                  >
                     Core concepts
                   </Link>
-                  <Link className="hover:text-accent" href={explorePaths.patterns} onClick={() => store.getState().setLeftOpen(false)}>
+                  <Link
+                    className="hover:text-accent"
+                    href={explorePaths.patterns}
+                    onClick={() => store.getState().setLeftOpen(false)}
+                  >
                     Patterns
                   </Link>
-                  <Link className="hover:text-accent" href={explorePaths.books} onClick={() => store.getState().setLeftOpen(false)}>
+                  <Link
+                    className="hover:text-accent"
+                    href={explorePaths.books}
+                    onClick={() => store.getState().setLeftOpen(false)}
+                  >
                     Books
                   </Link>
-                  <Link className="hover:text-accent" href={explorePaths.sources} onClick={() => store.getState().setLeftOpen(false)}>
-                    Thinkers &amp; sources
+                  <Link
+                    className="hover:text-accent"
+                    href={explorePaths.thinkers}
+                    onClick={() => store.getState().setLeftOpen(false)}
+                  >
+                    Thinkers
+                  </Link>
+                  <Link
+                    className="hover:text-accent"
+                    href={explorePaths.sources}
+                    onClick={() => store.getState().setLeftOpen(false)}
+                  >
+                    Sources
                   </Link>
                 </nav>
               </section>
@@ -797,7 +847,9 @@ function ExploreObservatoryInner({
               </section>
 
               <section className="space-y-3">
-                <p className="text-[11px] uppercase tracking-[0.26em] text-muted">Filter by relationship</p>
+                <p className="text-[11px] uppercase tracking-[0.26em] text-muted">
+                  Filter by relationship
+                </p>
                 {predicateOptions.length === 0 ? (
                   <p className="text-sm text-muted">No typed relationships in the graph yet.</p>
                 ) : (
@@ -828,7 +880,9 @@ function ExploreObservatoryInner({
                     <div className="max-h-56 space-y-4 overflow-y-auto text-sm">
                       {groupedPredicates.tension.length > 0 ? (
                         <div className="space-y-2">
-                          <p className="text-[10px] uppercase tracking-[0.2em] text-muted">Structural tensions</p>
+                          <p className="text-[10px] uppercase tracking-[0.2em] text-muted">
+                            Structural tensions
+                          </p>
                           <label className="flex cursor-pointer items-center gap-2 text-fg">
                             <input
                               type="checkbox"
@@ -845,19 +899,26 @@ function ExploreObservatoryInner({
                       ) : null}
                       {groupedPredicates.dynamic.length > 0 ? (
                         <div className="space-y-2">
-                          <p className="text-[10px] uppercase tracking-[0.2em] text-muted">Dynamics</p>
+                          <p className="text-[10px] uppercase tracking-[0.2em] text-muted">
+                            Dynamics
+                          </p>
                           {groupedPredicates.dynamic.map((p) => {
                             const key = normalizePredicateKey(p);
                             const active = predicates.length === 0 || predicates.includes(key);
                             return (
-                              <label key={p} className="flex cursor-pointer items-center gap-2 text-fg">
+                              <label
+                                key={p}
+                                className="flex cursor-pointer items-center gap-2 text-fg"
+                              >
                                 <input
                                   type="checkbox"
                                   className="accent-accent"
                                   checked={active}
                                   onChange={() => togglePredicate(p)}
                                 />
-                                <span className="leading-snug">{formatRelationshipLabelForDisplay(p)}</span>
+                                <span className="leading-snug">
+                                  {formatRelationshipLabelForDisplay(p)}
+                                </span>
                               </label>
                             );
                           })}
@@ -870,7 +931,9 @@ function ExploreObservatoryInner({
 
               {hasOntology ? (
                 <section className="space-y-3">
-                  <p className="text-[11px] uppercase tracking-[0.26em] text-muted">Ontology lens</p>
+                  <p className="text-[11px] uppercase tracking-[0.26em] text-muted">
+                    Ontology lens
+                  </p>
                   <div className="space-y-2 text-sm">
                     {(
                       [
@@ -901,7 +964,9 @@ function ExploreObservatoryInner({
                     type="checkbox"
                     className="accent-accent"
                     checked={showRelationshipLabels}
-                    onChange={() => store.getState().setShowRelationshipLabels(!showRelationshipLabels)}
+                    onChange={() =>
+                      store.getState().setShowRelationshipLabels(!showRelationshipLabels)
+                    }
                   />
                   Show relationship labels
                 </label>
@@ -930,8 +995,8 @@ function ExploreObservatoryInner({
                 </label>
                 {expandedRootIds.length === 0 ? (
                   <p className="text-[11px] leading-relaxed text-muted">
-                    The canvas is a focal neighborhood, not the full index — part of the cap is reserved so volumes stay
-                    visible even when concepts fill the walk.
+                    The canvas is a focal neighborhood, not the full index — part of the cap is
+                    reserved so volumes stay visible even when concepts fill the walk.
                   </p>
                 ) : null}
                 <label className="flex cursor-pointer items-center gap-2 text-sm text-fg">

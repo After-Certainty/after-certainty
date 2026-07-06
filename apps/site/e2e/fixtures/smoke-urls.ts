@@ -11,7 +11,8 @@ export const topLevelSmokeUrls: SmokeUrl[] = [
   { path: "/explore/concepts", label: "Concepts index" },
   { path: "/explore/patterns", label: "Patterns index" },
   { path: "/explore/books", label: "Books index" },
-  { path: "/explore/sources", label: "Thinkers index" },
+  { path: "/explore/thinkers", label: "Thinkers index" },
+  { path: "/explore/sources", label: "Sources index" },
   { path: "/podcast", label: "Podcast" },
   { path: "/collaborators", label: "Collaborators" },
   { path: "/about", label: "About" },
@@ -21,12 +22,13 @@ export const topLevelSmokeUrls: SmokeUrl[] = [
 export const contentSmokeUrls: SmokeUrl[] = [
   { path: "/explore/books/after-certainty", label: "Book: After Certainty" },
   { path: "/explore/books/how-meaning-moves", label: "Book: How Meaning Moves" },
+  { path: "/explore/thinkers/john-dewey", label: "Thinker: John Dewey" },
   { path: "/explore/concepts/certainty", label: "Concept: Certainty" },
   { path: "/explore/concepts/abstraction", label: "Concept: Abstraction" },
   { path: "/explore/patterns/attention-finds-a-focus", label: "Pattern: Attention Finds a Focus" },
   {
     path: "/explore/sources/agamben-giorgio-state-of-exception",
-    label: "Thinker: Agamben — State of Exception",
+    label: "Source: Agamben — State of Exception",
   },
 ];
 

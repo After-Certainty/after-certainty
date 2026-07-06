@@ -31,6 +31,7 @@ describe("sitemap", () => {
       "/explore/concepts",
       "/explore/patterns",
       "/explore/books",
+      "/explore/thinkers",
       "/explore/sources",
       "/podcast",
       "/collaborators",
@@ -52,11 +53,10 @@ describe("sitemap", () => {
   it("includes explore book, concept, pattern, and source detail URLs", async () => {
     const urls = (await sitemap()).map((e) => e.url);
     expect(urls.some((u) => u.endsWith("/explore/books/how-meaning-moves"))).toBe(true);
-    expect(urls).toContain(
-      "https://example.com/explore/patterns/attention-finds-a-focus",
-    );
+    expect(urls).toContain("https://example.com/explore/patterns/attention-finds-a-focus");
     expect(urls).toContain("https://example.com/explore/concepts/certainty");
     expect(urls.some((u) => u.includes("/explore/sources/"))).toBe(true);
+    expect(urls.some((u) => u.includes("/explore/thinkers/"))).toBe(true);
   });
 
   it("returns many more entries than top-level routes only", async () => {

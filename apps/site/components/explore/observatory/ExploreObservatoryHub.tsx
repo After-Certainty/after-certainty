@@ -12,7 +12,8 @@ const landscapeLinks = [
   { href: explorePaths.concepts, label: "Core concepts" },
   { href: explorePaths.patterns, label: "Patterns" },
   { href: explorePaths.books, label: "Books" },
-  { href: explorePaths.sources, label: "Thinkers & sources" },
+  { href: explorePaths.thinkers, label: "Thinkers" },
+  { href: explorePaths.sources, label: "Sources" },
 ] as const;
 
 export function ExploreObservatoryHub({ onEnterObservatory }: ExploreObservatoryHubProps) {
@@ -30,7 +31,9 @@ export function ExploreObservatoryHub({ onEnterObservatory }: ExploreObservatory
         </p>
 
         <section className="mt-12 space-y-3">
-          <p className="text-[11px] uppercase tracking-[0.26em] text-muted">Explore the landscape</p>
+          <p className="text-[11px] uppercase tracking-[0.26em] text-muted">
+            Explore the landscape
+          </p>
           <nav className="flex flex-col gap-2 text-sm text-fg">
             {landscapeLinks.map(({ href, label }) => (
               <Link key={href} className="rounded-sm py-2 hover:text-accent" href={href}>
@@ -46,9 +49,13 @@ export function ExploreObservatoryHub({ onEnterObservatory }: ExploreObservatory
             className="w-full rounded-sm border border-accent/50 bg-accent/10 px-4 py-4 text-left transition-colors hover:border-accent hover:bg-accent/15"
             onClick={onEnterObservatory}
           >
-            <span className="block text-[11px] uppercase tracking-[0.26em] text-accent">Observatory</span>
+            <span className="block text-[11px] uppercase tracking-[0.26em] text-accent">
+              Observatory
+            </span>
             <span className="mt-2 block font-display text-lg text-fg">Open the graph</span>
-            <span className="mt-1 block text-sm text-muted">Fullscreen semantic map — tap nodes to expand</span>
+            <span className="mt-1 block text-sm text-muted">
+              Fullscreen semantic map — tap nodes to expand
+            </span>
           </button>
           <Link
             href={exploreObservatoryPresetHref("tensions")}

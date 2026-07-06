@@ -67,7 +67,7 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
 
   const sourceBreadcrumbs = [
     { label: "Explore", href: explorePaths.home },
-    { label: "Thinkers", href: explorePaths.sources },
+    { label: "Sources", href: explorePaths.sources },
     { label: displayTitle },
   ];
 
