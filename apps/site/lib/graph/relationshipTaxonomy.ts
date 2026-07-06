@@ -1,7 +1,7 @@
 import type { GraphIndex } from "@/lib/graph/graph";
 import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
 import { normalizePredicateKey } from "@/lib/graph/relationshipVisuals";
-import type { Relationship, SemanticGraph } from "@/types/semanticGraph";
+import type { Relationship } from "@/types/semanticGraph";
 
 export const STRUCTURAL_TENSION_PREDICATE = "structural_tension";
 

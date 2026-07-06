@@ -16,6 +16,8 @@ import type {
   Source,
 } from "@/types/semanticGraph";
 import { getConceptFullDefinition } from "@/lib/graph/conceptFormatting";
+import { relationshipsForConcept } from "@/lib/graph/relationshipTaxonomy";
+import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
 
 export const SCHEMA_ORG_CONTEXT = "https://schema.org";
 
@@ -649,9 +651,6 @@ export function relatedConceptUrls(index: GraphIndex, ids: string[] | undefined)
 
 /** Extract concept URLs from semantic relationships (tensions + dynamics) for JSON-LD. */
 export function conceptRelationshipUrls(index: GraphIndex, canonicalFocalId: string): string[] {
-  const { relationshipsForConcept } = require("@/lib/graph/relationshipTaxonomy");
-  const { relationshipEndpointsResolved } = require("@/lib/graph/graphTraversal");
-
   const { tensions, outgoingDynamics, incomingDynamics } = relationshipsForConcept(
     index,
     canonicalFocalId,
