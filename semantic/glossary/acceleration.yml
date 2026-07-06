@@ -17,7 +17,11 @@ longDefinition: >-
   It differs from momentum in that acceleration is actively pressured forward, while momentum is 
   continuation without renewed judgment.
 termKind: core
-relatedConcepts: []
+relatedConcepts:
+- momentum
+- friction
+- certainty
+- throughput
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
