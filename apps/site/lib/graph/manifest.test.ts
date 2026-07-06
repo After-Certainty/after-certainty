@@ -458,6 +458,20 @@ describe("pickSemanticGraph", () => {
     const picked = pickSemanticGraph(legacyRemote, remote);
     expect(picked.sources.some((source) => (source.creatorSlugs?.length ?? 0) > 0)).toBe(true);
   });
+
+  it("prefers bundled graph when remote lacks thinkers but sources are enriched", () => {
+    const bundled = validatedFallbackGraph();
+    const remote: SemanticGraph = {
+      ...bundled,
+      generatedAt: "2026-07-07T00:00:00.000Z",
+      thinkers: undefined,
+      manifestVersion: 1,
+    };
+
+    const picked = pickSemanticGraph(remote, bundled);
+    expect(picked.thinkers?.length ?? 0).toBeGreaterThan(0);
+    expect(picked.thinkers?.[0]?.slug).toBe(bundled.thinkers?.[0]?.slug);
+  });
 });
 
 describe("fetchSemanticGraphUncached", () => {
