@@ -1,0 +1,14 @@
+slug: national-institute-of-standards-and-technology
+name: National Institute of Standards and Technology
+type: organization
+summary: U.S. federal agency publishing frameworks for secure software development
+  and AI risk management used across industry and government.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- national-institute-of-standards-and-technology-artificial-intelligence-risk-management-framework
+- national-institute-of-standards-and-technology-secure-software-development-framework-ssdf-versio
+whyThisMatters: NIST sources anchor how serious systems formalize risk, coupling,
+  and accountable design at institutional scale.

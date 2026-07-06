@@ -1,0 +1,14 @@
+slug: martin-fowler
+name: Martin Fowler
+type: person
+summary: Software writer and methodologist on architecture, refactoring, and how teams
+  evolve systems without losing coherence.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- fowler-martin-integration-metadata
+- fowler-martin-refactoring-improving-the-design-of-existing-code
+whyThisMatters: Fowler connects craft discipline to organizational learning—how codebases
+  and teams carry sedimented decisions forward.
