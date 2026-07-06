@@ -7,6 +7,7 @@ export const explorePaths = {
   patterns: "/explore/patterns",
   books: "/explore/books",
   sources: "/explore/sources",
+  thinkers: "/explore/thinkers",
 } as const;
 
 /** Glossary slug for the default focal node on `/explore` without query parameters. */
@@ -88,7 +89,9 @@ export const EXPLORE_REL_PRESET_PARAM = "relPreset";
 
 export type ExploreRelationshipPreset = "tensions" | "dynamics";
 
-export function relationshipPresetFromSearchParams(sp: URLSearchParams): ExploreRelationshipPreset | null {
+export function relationshipPresetFromSearchParams(
+  sp: URLSearchParams,
+): ExploreRelationshipPreset | null {
   const raw = sp.get(EXPLORE_REL_PRESET_PARAM)?.trim();
   if (raw === "tensions" || raw === "dynamics") return raw;
   return null;
