@@ -8,13 +8,24 @@ vi.mock("next/image", () => ({
   },
 }));
 
+vi.mock("@/lib/graph/manifest", () => ({
+  getSemanticGraph: vi.fn().mockResolvedValue({
+    books: [],
+    glossary: [],
+    patterns: [],
+    sources: [],
+    relationships: [],
+    generatedAt: "2026-07-06T01:36:29.934513+00:00",
+  }),
+}));
+
 import { SiteFooter } from "./site-footer";
 import { resolveSiteSocialLinks } from "@/lib/site-config";
 
 describe("SiteFooter", () => {
-  it("renders Elsewhere social links pointing at resolved profile URLs", () => {
+  it("renders Elsewhere social links pointing at resolved profile URLs", async () => {
     const social = resolveSiteSocialLinks();
-    render(<SiteFooter />);
+    render(await SiteFooter());
 
     const socialRegion = screen.getByLabelText("Social profiles");
 
@@ -41,8 +52,8 @@ describe("SiteFooter", () => {
     }
   });
 
-  it("lists Together footer links including GitHub and RSS", () => {
-    render(<SiteFooter />);
+  it("lists Together footer links including GitHub and RSS", async () => {
+    render(await SiteFooter());
     expect(screen.getByRole("link", { name: /^GitHub$/i })).toHaveAttribute(
       "href",
       expect.stringContaining("github.com"),
