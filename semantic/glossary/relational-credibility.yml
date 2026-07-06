@@ -1,13 +1,30 @@
 slug: relational-credibility
 title: Relational Credibility
-shortDefinition: Relational credibility—trust in a person who seems to see you—can
-  outperform methodological credibility on a press release. This is why independents, local
-  journalists, and niche analysts gained influence even when their models were incomplete.
-  Relational credibility is not purity; it can be captured by grifters. It still answers a
-  need abstraction stopped answering when signaling drowned explanation. The policy
-  question is how public institutions earn a place beside it without demanding monopoly.
+shortDefinition: Relational credibility is trust earned when someone demonstrates they
+  see your situation—not through institutional authority or methodological credentials,
+  but through proximity, lived experience, or demonstrated understanding of constraints.
+  It becomes important when aggregate explanations fail to answer what people can
+  verify from their own position.
+longDefinition: >-
+  Relational credibility names the trust that flows toward those who seem to see your 
+  slice of reality—the economic conditions you face, the risks you carry, the pressures 
+  you feel—when institutions speak only in aggregates. It becomes important when 
+  methodological authority loses explanatory force because signaling has drowned substance, 
+  when abstraction stops answering the receipt test. It helps preserve participation and 
+  evaluative contact across knowledge gaps, but can fail when proximity substitutes for 
+  mechanism entirely, when grifters capture relational trust, or when institutions treat 
+  it as threat rather than complement to expertise. In The Economy We Don't Experience, 
+  relational credibility explains why independents, local journalists, and niche analysts 
+  gained influence even with incomplete models—they passed a felt-comprehension test that 
+  official channels failed. It differs from methodological credibility because relational 
+  credibility depends on demonstrated recognition of someone's position, not procedural 
+  rigor or institutional standing.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- trust
+- legitimacy
+- accountability
+- abstraction
 relatedPatterns: []
 relatedBooks:
 - the-economy-we-dont-experience

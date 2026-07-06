@@ -5,21 +5,23 @@ shortDefinition: Friction is resistance, delay, or procedural drag that slows au
   discernment; bad friction is needless bureaucracy. Friction thins when scale favors throughput
   and delay reads as weakness.
 longDefinition: >-
-  Friction names resistance, delay, or procedural drag that slows automatic action enough for 
-  judgment, feedback, or contestability to enter. It becomes important when speed threatens to 
-  bypass discernment—when the pressure for immediate response or continuous flow begins to compress 
-  the space where reflection, correction, or challenge might occur. Good friction preserves time 
-  and space for deliberation; bad friction is needless obstruction that protects neither coordination 
-  nor judgment. Friction can be protective adaptation under real constraint—postponed quarrels when 
-  immediate unity matters more than resolving grievance—or it can be the erosion of judgment when 
-  compliance replaces discernment because no one can trace harm in time. Friction thins as scale 
-  favors throughput over discernment, as delay begins to read as weakness, and as law or procedure 
-  narrows discretion so coordination can persist without constant renegotiation. The question 
-  friction raises is: what dispute can wait, and what cannot? Where is delay protecting coordination, 
-  and where is it only protecting authority? Friction differs from contestability in that friction 
-  is the slowness itself, while contestability is the capacity to reopen what has been settled.
+  Friction becomes important when speed threatens to bypass discernment—when the pressure for 
+  immediate response or continuous flow begins to compress the space where reflection, correction, 
+  or challenge might occur. Good friction preserves time and space for deliberation; bad friction 
+  is needless obstruction that protects neither coordination nor judgment. Friction can be protective 
+  adaptation under real constraint—postponed quarrels when immediate unity matters more than resolving 
+  grievance—or it can mark the erosion of judgment when compliance replaces discernment because no 
+  one can trace harm in time. Friction thins as scale favors throughput over discernment, as delay 
+  begins to read as weakness, and as law or procedure narrows discretion so coordination can persist 
+  without constant renegotiation. It differs from contestability in that friction is the slowness 
+  itself, while contestability is the capacity to reopen what has been settled.
 termKind: core
-relatedConcepts: []
+relatedConcepts:
+- contestability
+- acceleration
+- throughput
+- judgment
+- scale
 relatedPatterns: []
 relatedBooks:
 - before-certainty-arrives
