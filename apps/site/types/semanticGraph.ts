@@ -156,6 +156,21 @@ export interface Source {
   whyThisMatters?: string;
 }
 
+export type ThinkerType = "person" | "organization";
+
+export interface Thinker {
+  id: string;
+  slug: string;
+  name: string;
+  type: ThinkerType;
+  summary?: string;
+  works: string[];
+  concepts?: string[];
+  patterns?: string[];
+  relatedBooks?: string[];
+  whyThisMatters?: string;
+}
+
 export interface Relationship {
   id?: string;
   source: string;
@@ -194,8 +209,10 @@ export interface SemanticGraph {
   sources: Source[];
   relationships: Relationship[];
   ontology?: SemanticOntology;
+  /** Canonical thinker nodes when manifestVersion is 2. */
+  thinkers?: Thinker[];
   /** Manifest metadata (optional, from semantic-manifest.json) */
-  manifestVersion?: number;
+  manifestVersion?: 1 | 2;
   generatedAt?: string;
   repository?: string;
   ref?: string;

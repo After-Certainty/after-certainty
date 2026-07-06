@@ -171,6 +171,19 @@ const sourceSchema = z.object({
   whyThisMatters: z.string().min(1).optional(),
 });
 
+const thinkerSchema = z.object({
+  id: z.string().min(1),
+  slug: z.string().min(1),
+  name: z.string().min(1),
+  type: z.enum(["person", "organization"]),
+  summary: z.string().optional(),
+  works: stringList,
+  concepts: stringList,
+  patterns: stringList,
+  relatedBooks: stringList,
+  whyThisMatters: z.string().min(1).optional(),
+});
+
 const relationshipSchema = z.object({
   source: z.string().min(1),
   target: z.string().min(1),
@@ -212,8 +225,9 @@ export const semanticGraphSchema = z.object({
   sources: z.array(sourceSchema).default([]),
   relationships: z.array(relationshipSchema).default([]),
   ontology: ontologySchema,
+  thinkers: z.array(thinkerSchema).optional(),
   /** Manifest metadata (optional) */
-  manifestVersion: z.number().optional(),
+  manifestVersion: z.union([z.literal(1), z.literal(2)]).optional(),
   generatedAt: z.string().optional(),
   repository: z.string().optional(),
   ref: z.string().optional(),
@@ -231,6 +245,7 @@ export function toSemanticGraph(data: SemanticGraphZod): SemanticGraph {
     sources: data.sources,
     relationships: data.relationships,
     ontology: data.ontology,
+    thinkers: data.thinkers,
     manifestVersion: data.manifestVersion,
     generatedAt: data.generatedAt,
     repository: data.repository,
