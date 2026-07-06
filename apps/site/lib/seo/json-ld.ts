@@ -17,6 +17,7 @@ import type {
   Thinker,
 } from "@/types/semanticGraph";
 import { getConceptFullDefinition } from "@/lib/graph/conceptFormatting";
+import { sourceDisplayBody, sourceDisplayTitle } from "@/lib/graph/sourceDisplay";
 import { relationshipsForConcept } from "@/lib/graph/relationshipTaxonomy";
 import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
 
@@ -340,17 +341,67 @@ export function buildPatternJsonLd(params: {
   });
 }
 
+type SourceJsonLdType = {
+  schemaType: string;
+  additionalType?: string;
+};
+
+/** Map enriched `sourceKind` (or legacy `type`) to schema.org types. */
+export function resolveSourceJsonLdType(source: Source): SourceJsonLdType {
+  const kind = source.sourceKind?.trim().toLowerCase();
+  if (kind) {
+    switch (kind) {
+      case "article":
+      case "speech":
+        return { schemaType: "Article" };
+      case "report":
+        return { schemaType: "Report" };
+      case "standard":
+        return { schemaType: "CreativeWork", additionalType: "Standard" };
+      case "dataset":
+        return { schemaType: "Dataset" };
+      case "case":
+        return { schemaType: "CreativeWork" };
+      case "institutional_document":
+      case "website":
+        return { schemaType: "WebPage" };
+      case "book":
+        return { schemaType: "Book" };
+      default:
+        break;
+    }
+  }
+
+  return source.type === "article" ? { schemaType: "Article" } : { schemaType: "Book" };
+}
+
+function sourceJsonLdAuthors(source: Source): JsonLdNode[] | undefined {
+  const names = source.creatorNames?.map((name) => name.trim()).filter(Boolean) ?? [];
+  if (names.length === 0) return undefined;
+  return names.map((name) => ({
+    "@type": "Person",
+    name,
+  }));
+}
+
 export function buildSourceJsonLd(params: { source: Source; pageUrl: string }): JsonLdNode {
   const { source, pageUrl } = params;
-  const schemaType = source.type === "article" ? "Article" : "Book";
+  const { schemaType, additionalType } = resolveSourceJsonLdType(source);
+  const author = sourceJsonLdAuthors(source);
 
   return compact({
     "@type": schemaType,
     "@id": `${pageUrl}#source`,
-    name: source.name,
-    description: source.summary,
-    url: pageUrl,
-    publisher: organizationPublisher(),
+    additionalType,
+    name: sourceDisplayTitle(source),
+    headline: schemaType === "Article" ? sourceDisplayTitle(source) : undefined,
+    description: sourceDisplayBody(source),
+    url: source.url ?? pageUrl,
+    datePublished: source.year ? String(source.year) : undefined,
+    publisher: source.publisher
+      ? { "@type": "Organization", name: source.publisher }
+      : organizationPublisher(),
+    author,
     mainEntityOfPage: { "@id": webPageId(pageUrl) },
   });
 }
@@ -551,8 +602,8 @@ export function buildSourcePageJsonLd(params: {
   return [
     buildWebPageJsonLd({
       pageUrl,
-      name: params.source.name,
-      description: params.source.summary,
+      name: sourceDisplayTitle(params.source),
+      description: sourceDisplayBody(params.source),
       breadcrumbId: crumbsId,
       mainEntityId,
     }),
