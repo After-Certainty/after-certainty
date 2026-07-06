@@ -1,9 +1,10 @@
 slug: ross-lee-the-intuitive-psychologist-and-his-shortcomings
-name: 'Lee Ross — The Intuitive Psychologist and His Shortcomings:'
+name: "Lee Ross \u2014 The Intuitive Psychologist and His Shortcomings:"
 type: article
-summary: 'Ross, Lee. "The Intuitive Psychologist and His Shortcomings: Distortions
-  in the Attribution Process." In *Advances in Experimental Social Psychology*, edited
-  by Leonard Berkowitz, vol. 10, 173–220. New York: Academic Press, 1977.'
+summary: "Ross, Lee. \"The Intuitive Psychologist and His Shortcomings: Distortions\
+  \ in the Attribution Process.\" In *Advances in Experimental Social Psychology*,\
+  \ edited by Leonard Berkowitz, vol. 10, 173\u2013220. New York: Academic Press,\
+  \ 1977."
 concepts: []
 patterns: []
 relatedBooks:
@@ -12,10 +13,11 @@ title: 'The Intuitive Psychologist and His Shortcomings:'
 creatorNames:
 - Lee Ross
 creatorSlugs:
-- lee-ross
-citation: 'Ross, Lee. "The Intuitive Psychologist and His Shortcomings: Distortions
-  in the Attribution Process." In *Advances in Experimental Social Psychology*, edited
-  by Leonard Berkowitz, vol. 10, 173–220. New York: Academic Press, 1977.'
+- ross-lee-and-richard-nisbett
+citation: "Ross, Lee. \"The Intuitive Psychologist and His Shortcomings: Distortions\
+  \ in the Attribution Process.\" In *Advances in Experimental Social Psychology*,\
+  \ edited by Leonard Berkowitz, vol. 10, 173\u2013220. New York: Academic Press,\
+  \ 1977."
 sourceKind: article
 year: 1977
 publisher: Academic Press
