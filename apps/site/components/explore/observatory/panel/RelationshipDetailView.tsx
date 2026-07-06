@@ -2,12 +2,9 @@
 
 import Link from "next/link";
 
-import type { GraphIndex } from "@/lib/graph/graph";
+import { graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 import { exploreHrefForNode, exploreObservatoryFocusHref } from "@/lib/graph/explorePaths";
-import {
-  masterTermForConceptId,
-  structuralPressureForConceptId,
-} from "@/lib/graph/ontology";
+import { masterTermForConceptId, structuralPressureForConceptId } from "@/lib/graph/ontology";
 import { isSymmetricRelationship } from "@/lib/graph/relationshipTaxonomy";
 import { mergeRelatedTerrain } from "@/lib/observatory/relatedTerrainMerge";
 import type { RelationshipSelection } from "@/lib/observatory/types";
@@ -16,7 +13,7 @@ import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisua
 function labelForNode(index: GraphIndex, id: string): string {
   const n = index.getNodeByCanonicalId(id);
   if (!n) return "Unknown";
-  return n.kind === "source" ? n.entity.name : n.entity.title;
+  return graphNodeTitle(n);
 }
 
 function ontologyLineForConcept(index: GraphIndex, conceptId: string): string | null {
@@ -62,7 +59,8 @@ export function RelationshipDetailView({
     (bundle.concepts.length > 0 ||
       bundle.patterns.length > 0 ||
       bundle.books.length > 0 ||
-      bundle.sources.length > 0);
+      bundle.sources.length > 0 ||
+      bundle.thinkers.length > 0);
 
   return (
     <div className="space-y-8">
@@ -75,9 +73,7 @@ export function RelationshipDetailView({
             <>
               <Link
                 href={
-                  sourceNode
-                    ? exploreObservatoryFocusHref(sourceNode.kind, sourceNode.slug)
-                    : "#"
+                  sourceNode ? exploreObservatoryFocusHref(sourceNode.kind, sourceNode.slug) : "#"
                 }
                 className="hover:text-accent hover:underline"
                 onClick={() => onRelatedTerrainLinkNavigate?.()}
@@ -87,9 +83,7 @@ export function RelationshipDetailView({
               <span className="mx-2 text-muted">↔</span>
               <Link
                 href={
-                  targetNode
-                    ? exploreObservatoryFocusHref(targetNode.kind, targetNode.slug)
-                    : "#"
+                  targetNode ? exploreObservatoryFocusHref(targetNode.kind, targetNode.slug) : "#"
                 }
                 className="hover:text-accent hover:underline"
                 onClick={() => onRelatedTerrainLinkNavigate?.()}
@@ -101,9 +95,7 @@ export function RelationshipDetailView({
             <>
               <Link
                 href={
-                  sourceNode
-                    ? exploreObservatoryFocusHref(sourceNode.kind, sourceNode.slug)
-                    : "#"
+                  sourceNode ? exploreObservatoryFocusHref(sourceNode.kind, sourceNode.slug) : "#"
                 }
                 className="hover:text-accent hover:underline"
                 onClick={() => onRelatedTerrainLinkNavigate?.()}
@@ -115,9 +107,7 @@ export function RelationshipDetailView({
               </span>
               <Link
                 href={
-                  targetNode
-                    ? exploreObservatoryFocusHref(targetNode.kind, targetNode.slug)
-                    : "#"
+                  targetNode ? exploreObservatoryFocusHref(targetNode.kind, targetNode.slug) : "#"
                 }
                 className="hover:text-accent hover:underline"
                 onClick={() => onRelatedTerrainLinkNavigate?.()}
@@ -128,7 +118,9 @@ export function RelationshipDetailView({
           )}
         </p>
         {!symmetric ? (
-          <p className="mt-2 text-[11px] uppercase tracking-[0.18em] text-muted">{predicateLabel}</p>
+          <p className="mt-2 text-[11px] uppercase tracking-[0.18em] text-muted">
+            {predicateLabel}
+          </p>
         ) : null}
         {desc ? <p className="mt-4 text-sm leading-relaxed text-muted">{desc}</p> : null}
         {sourceOntology || targetOntology ? (
@@ -226,6 +218,17 @@ export function RelationshipDetailView({
                   onClick={() => onRelatedTerrainLinkNavigate?.()}
                 >
                   {s.name}
+                </Link>
+              </li>
+            ))}
+            {bundle.thinkers.slice(0, 6).map((t) => (
+              <li key={t.id}>
+                <Link
+                  href={exploreObservatoryFocusHref("thinker", t.slug)}
+                  className="hover:text-accent"
+                  onClick={() => onRelatedTerrainLinkNavigate?.()}
+                >
+                  {t.name}
                 </Link>
               </li>
             ))}

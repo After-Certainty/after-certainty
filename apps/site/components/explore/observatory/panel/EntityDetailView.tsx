@@ -3,13 +3,18 @@
 import Link from "next/link";
 
 import { RelationshipCard } from "@/components/explore/relationship-card";
-import type { GraphIndex, GraphNode } from "@/lib/graph/graph";
-import { exploreHrefForNode, exploreObservatoryFocusHref, exploreObservatoryRelationshipHref } from "@/lib/graph/explorePaths";
+import { graphNodeTitle, type GraphIndex, type GraphNode } from "@/lib/graph/graph";
+import {
+  exploreHrefForNode,
+  exploreObservatoryFocusHref,
+  exploreObservatoryRelationshipHref,
+} from "@/lib/graph/explorePaths";
 import {
   relatedContentForBook,
   relatedContentForConcept,
   relatedContentForPattern,
   relatedContentForSource,
+  relatedContentForThinker,
 } from "@/lib/graph/relatedContent";
 import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
 import { relationshipsForConcept } from "@/lib/graph/relationshipTaxonomy";
@@ -20,7 +25,7 @@ import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
 function labelForId(index: GraphIndex, id: string): string {
   const n = index.getNodeByCanonicalId(id);
   if (!n) return "Unknown";
-  return n.kind === "source" ? n.entity.name : n.entity.title;
+  return graphNodeTitle(n);
 }
 
 function counterpartyHref(index: GraphIndex, id: string): string | null {
@@ -58,20 +63,22 @@ export function EntityDetailView({
         ? relatedContentForPattern(index, node.entity)
         : node.kind === "book"
           ? relatedContentForBook(index, node.entity)
-          : relatedContentForSource(index, node.entity);
+          : node.kind === "thinker"
+            ? relatedContentForThinker(index, node.entity)
+            : relatedContentForSource(index, node.entity);
 
   const hasRelatedTerrain =
     bundle.concepts.length > 0 ||
     bundle.patterns.length > 0 ||
     bundle.books.length > 0 ||
-    bundle.sources.length > 0;
+    bundle.sources.length > 0 ||
+    bundle.thinkers.length > 0;
 
-  const cover = node.kind === "book" ? coverBySlug[node.entity.slug] ?? node.entity.coverImage : undefined;
+  const cover =
+    node.kind === "book" ? (coverBySlug[node.entity.slug] ?? node.entity.coverImage) : undefined;
 
   const enrichment =
-    node.kind === "concept" || node.kind === "pattern"
-      ? node.entity.recognitionSignals
-      : undefined;
+    node.kind === "concept" || node.kind === "pattern" ? node.entity.recognitionSignals : undefined;
 
   const renderRelationship = (r: Relationship, otherId: string, keyPrefix: string, i: number) => {
     const ends = relationshipEndpointsResolved(index, r);
@@ -97,18 +104,25 @@ export function EntityDetailView({
       <div>
         <p className="text-[11px] uppercase tracking-[0.26em] text-accent">{node.kind}</p>
         <h2 className="mt-3 font-display text-xl font-medium leading-snug text-fg md:text-2xl">
-          {node.kind === "source" ? node.entity.name : node.entity.title}
+          {graphNodeTitle(node)}
         </h2>
         {node.kind === "concept" ? (
-          <p className="mt-4 text-sm leading-relaxed text-muted">{getConceptDisplayDefinition(node.entity)}</p>
+          <p className="mt-4 text-sm leading-relaxed text-muted">
+            {getConceptDisplayDefinition(node.entity)}
+          </p>
         ) : null}
         {node.kind === "pattern" ? (
           <p className="mt-4 text-sm leading-relaxed text-muted">{node.entity.summary}</p>
         ) : null}
         {node.kind === "book" ? (
-          <p className="mt-4 text-sm leading-relaxed text-muted">{node.entity.summary ?? node.entity.subtitle}</p>
+          <p className="mt-4 text-sm leading-relaxed text-muted">
+            {node.entity.summary ?? node.entity.subtitle}
+          </p>
         ) : null}
         {node.kind === "source" && node.entity.summary ? (
+          <p className="mt-4 text-sm leading-relaxed text-muted">{node.entity.summary}</p>
+        ) : null}
+        {node.kind === "thinker" && node.entity.summary ? (
           <p className="mt-4 text-sm leading-relaxed text-muted">{node.entity.summary}</p>
         ) : null}
         {node.kind === "concept" && node.entity.layer ? (
@@ -131,7 +145,11 @@ export function EntityDetailView({
 
       {node.kind === "book" && cover ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={cover} alt="" className="max-h-40 w-auto rounded-sm border border-border/80 object-contain" />
+        <img
+          src={cover}
+          alt=""
+          className="max-h-40 w-auto rounded-sm border border-border/80 object-contain"
+        />
       ) : null}
 
       <div className="flex flex-wrap gap-2">
@@ -155,7 +173,9 @@ export function EntityDetailView({
           <h3 className="text-[11px] uppercase tracking-[0.24em] text-muted">Relationships</h3>
           {tensions.length > 0 ? (
             <div className="space-y-2">
-              <p className="text-[10px] uppercase tracking-[0.2em] text-muted">Structural tensions</p>
+              <p className="text-[10px] uppercase tracking-[0.2em] text-muted">
+                Structural tensions
+              </p>
               <ul className="space-y-2">
                 {tensions.flatMap((r, i) => {
                   const ends = relationshipEndpointsResolved(index, r);
@@ -240,6 +260,17 @@ export function EntityDetailView({
                   onClick={() => onRelatedTerrainLinkNavigate?.()}
                 >
                   {s.name}
+                </Link>
+              </li>
+            ))}
+            {bundle.thinkers.slice(0, 6).map((t) => (
+              <li key={t.id}>
+                <Link
+                  href={exploreObservatoryFocusHref("thinker", t.slug)}
+                  className="block text-left hover:text-accent"
+                  onClick={() => onRelatedTerrainLinkNavigate?.()}
+                >
+                  {t.name}
                 </Link>
               </li>
             ))}

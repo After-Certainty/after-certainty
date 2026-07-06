@@ -1,4 +1,5 @@
-import type { GraphIndex } from "@/lib/graph/graph";
+import { graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
+import type { GraphEntityKind } from "@/types/semanticGraph";
 import { exploreObservatoryRelationshipHref } from "@/lib/graph/explorePaths";
 import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
 import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
@@ -9,14 +10,14 @@ type TensionRelationshipListProps = {
   index: GraphIndex;
   relationships: Relationship[];
   focalCanonicalId: string;
-  focalKind: "concept" | "pattern" | "book" | "source";
+  focalKind: GraphEntityKind;
   focalSlug: string;
 };
 
 function labelForCanonicalId(index: GraphIndex, id: string): string {
   const n = index.getNodeByCanonicalId(id);
   if (!n) return "Unknown reference";
-  return n.kind === "source" ? n.entity.name : n.entity.title;
+  return graphNodeTitle(n);
 }
 
 export function TensionRelationshipList({
@@ -44,7 +45,9 @@ export function TensionRelationshipList({
                 href={observatoryHref}
                 className="block rounded-md border border-border/35 bg-bg-elevated/15 p-4 transition-colors hover:border-accent/40"
               >
-                <p className="text-[10px] uppercase tracking-[0.22em] text-accent">Structural tension</p>
+                <p className="text-[10px] uppercase tracking-[0.22em] text-accent">
+                  Structural tension
+                </p>
                 <p className="mt-2 font-display text-lg text-fg">
                   {labelForCanonicalId(index, focalCanonicalId)}
                   <span className="mx-2 text-muted">↔</span>
@@ -53,7 +56,9 @@ export function TensionRelationshipList({
                 {r.description ? (
                   <p className="mt-2 text-sm leading-relaxed text-muted">{r.description}</p>
                 ) : null}
-                <p className="mt-3 text-[10px] uppercase tracking-[0.18em] text-muted">Open in observatory</p>
+                <p className="mt-3 text-[10px] uppercase tracking-[0.18em] text-muted">
+                  Open in observatory
+                </p>
               </Link>
             </li>,
           ];

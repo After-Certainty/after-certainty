@@ -71,6 +71,9 @@ describe("exploreObservatoryFocusHref", () => {
     expect(exploreObservatoryFocusHref("concept", "certainty")).toBe(
       "/explore?focusKind=concept&focusSlug=certainty&view=observatory",
     );
+    expect(exploreObservatoryFocusHref("thinker", "amy-c-edmondson")).toBe(
+      "/explore?focusKind=thinker&focusSlug=amy-c-edmondson&view=observatory",
+    );
   });
 });
 
@@ -98,7 +101,18 @@ describe("withExploreObservatoryView", () => {
 });
 
 describe("exploreHrefForNode", () => {
-  const index = buildGraphIndex(tinyGraph);
+  const index = buildGraphIndex({
+    ...tinyGraph,
+    thinkers: [
+      {
+        id: "t1",
+        slug: "thinker-slug",
+        name: "Thinker Name",
+        type: "person",
+        works: [],
+      },
+    ],
+  });
 
   it("builds hrefs for each node kind", () => {
     expect(exploreHrefForNode(index.getNodeByCanonicalId("c1")!)).toBe(
@@ -110,6 +124,9 @@ describe("exploreHrefForNode", () => {
     expect(exploreHrefForNode(index.getNodeByCanonicalId("b1")!)).toBe("/explore/books/book-slug");
     expect(exploreHrefForNode(index.getNodeByCanonicalId("s1")!)).toBe(
       "/explore/sources/source-slug",
+    );
+    expect(exploreHrefForNode(index.getNodeByCanonicalId("t1")!)).toBe(
+      "/explore/thinkers/thinker-slug",
     );
   });
 });

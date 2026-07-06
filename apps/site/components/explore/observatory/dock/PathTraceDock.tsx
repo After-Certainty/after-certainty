@@ -1,11 +1,11 @@
 "use client";
 
-import type { GraphIndex } from "@/lib/graph/graph";
+import { graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 
 function labelFor(id: string, index: GraphIndex): string {
   const n = index.getNodeByCanonicalId(id);
   if (!n) return id;
-  return n.kind === "source" ? n.entity.name : n.entity.title;
+  return graphNodeTitle(n);
 }
 
 type PathTraceDockProps = {
@@ -61,7 +61,13 @@ export function PathTraceDock({
         </select>
       </div>
       {pathChain && pathChain.length ? (
-        <p className={compact ? "text-xs leading-relaxed text-fg" : "font-display text-sm leading-relaxed text-fg"}>
+        <p
+          className={
+            compact
+              ? "text-xs leading-relaxed text-fg"
+              : "font-display text-sm leading-relaxed text-fg"
+          }
+        >
           {pathChain.map((id) => labelFor(id, index)).join(" → ")}
         </p>
       ) : pathFromId && pathToId ? (

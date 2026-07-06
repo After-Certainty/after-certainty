@@ -220,11 +220,12 @@ export interface SemanticGraph {
 }
 
 /** Entity collections exposed in the explore UI */
-export type GraphEntityKind = "book" | "concept" | "pattern" | "source";
+export type GraphEntityKind = "book" | "concept" | "pattern" | "source" | "thinker";
 
 /** Focal node for neighborhood / future graph visualization adapters */
 export type GraphFocalNode =
   | { kind: "book"; id: string; slug: string }
   | { kind: "concept"; id: string; slug: string }
   | { kind: "pattern"; id: string; slug: string }
-  | { kind: "source"; id: string; slug: string };
+  | { kind: "source"; id: string; slug: string }
+  | { kind: "thinker"; id: string; slug: string };

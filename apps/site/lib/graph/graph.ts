@@ -1,3 +1,4 @@
+import { resolveThinkers } from "@/lib/graph/thinkers";
 import type {
   Book,
   GlossaryConcept,
@@ -5,6 +6,7 @@ import type {
   Pattern,
   SemanticGraph,
   Source,
+  Thinker,
 } from "@/types/semanticGraph";
 
 /** Unified node view for traversal, cards, and future graph adapters (D3, Cytoscape, etc.). */
@@ -12,7 +14,8 @@ export type GraphNode =
   | { kind: "book"; id: string; slug: string; entity: Book }
   | { kind: "concept"; id: string; slug: string; entity: GlossaryConcept }
   | { kind: "pattern"; id: string; slug: string; entity: Pattern }
-  | { kind: "source"; id: string; slug: string; entity: Source };
+  | { kind: "source"; id: string; slug: string; entity: Source }
+  | { kind: "thinker"; id: string; slug: string; entity: Thinker };
 
 export type GraphIndex = {
   graph: SemanticGraph;
@@ -23,16 +26,24 @@ export type GraphIndex = {
   conceptBySlug: ReadonlyMap<string, GlossaryConcept>;
   patternBySlug: ReadonlyMap<string, Pattern>;
   sourceBySlug: ReadonlyMap<string, Source>;
+  thinkerBySlug: ReadonlyMap<string, Thinker>;
   /**
    * Resolve a manifest ref (usually `id`, sometimes `slug`) to a canonical `id`.
-   * Order: id match, then slug match (glossary → pattern → book → source).
+   * Order: id match, then slug match (glossary → pattern → book → source → thinker).
    */
   resolveCanonicalId(ref: string): string | null;
   resolveNode(ref: string): GraphNode | null;
   getNodeByCanonicalId(id: string): GraphNode | null;
 };
 
-function asNode(kind: GraphEntityKind, entity: Book | GlossaryConcept | Pattern | Source): GraphNode {
+export function graphNodeTitle(node: GraphNode): string {
+  return node.kind === "source" || node.kind === "thinker" ? node.entity.name : node.entity.title;
+}
+
+function asNode(
+  kind: GraphEntityKind,
+  entity: Book | GlossaryConcept | Pattern | Source | Thinker,
+): GraphNode {
   switch (kind) {
     case "book":
       return { kind: "book", id: entity.id, slug: entity.slug, entity: entity as Book };
@@ -47,6 +58,8 @@ function asNode(kind: GraphEntityKind, entity: Book | GlossaryConcept | Pattern 
       return { kind: "pattern", id: entity.id, slug: entity.slug, entity: entity as Pattern };
     case "source":
       return { kind: "source", id: entity.id, slug: entity.slug, entity: entity as Source };
+    case "thinker":
+      return { kind: "thinker", id: entity.id, slug: entity.slug, entity: entity as Thinker };
   }
 }
 
@@ -59,6 +72,7 @@ export function buildGraphIndex(graph: SemanticGraph): GraphIndex {
   const conceptBySlug = new Map<string, GlossaryConcept>();
   const patternBySlug = new Map<string, Pattern>();
   const sourceBySlug = new Map<string, Source>();
+  const thinkerBySlug = new Map<string, Thinker>();
   const ids = new Set<string>();
 
   const warnDup = (scope: string, key: string) => {
@@ -99,6 +113,14 @@ export function buildGraphIndex(graph: SemanticGraph): GraphIndex {
     sourceBySlug.set(s.slug, s);
   }
 
+  for (const t of resolveThinkers(graph)) {
+    if (nodeByCanonicalId.has(t.id)) warnDup("canonical id", t.id);
+    nodeByCanonicalId.set(t.id, asNode("thinker", t));
+    ids.add(t.id);
+    if (thinkerBySlug.has(t.slug)) warnDup("thinker slug", t.slug);
+    thinkerBySlug.set(t.slug, t);
+  }
+
   const idSet = new Set(ids);
 
   const resolveCanonicalId = (ref: string): string | null => {
@@ -111,6 +133,8 @@ export function buildGraphIndex(graph: SemanticGraph): GraphIndex {
     if (b) return b.id;
     const src = sourceBySlug.get(ref);
     if (src) return src.id;
+    const thinker = thinkerBySlug.get(ref);
+    if (thinker) return thinker.id;
     return null;
   };
 
@@ -130,6 +154,7 @@ export function buildGraphIndex(graph: SemanticGraph): GraphIndex {
     conceptBySlug,
     patternBySlug,
     sourceBySlug,
+    thinkerBySlug,
     resolveCanonicalId,
     resolveNode,
     getNodeByCanonicalId,

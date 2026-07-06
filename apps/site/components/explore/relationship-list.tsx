@@ -1,4 +1,4 @@
-import type { GraphIndex } from "@/lib/graph/graph";
+import { graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 import {
   exploreHrefForCanonicalId,
   exploreObservatoryRelationshipHref,
@@ -21,16 +21,7 @@ type RelationshipListProps = {
 function labelForCanonicalId(index: GraphIndex, id: string): string {
   const n = index.getNodeByCanonicalId(id);
   if (!n) return "Unknown reference";
-  switch (n.kind) {
-    case "book":
-      return n.entity.title;
-    case "concept":
-      return n.entity.title;
-    case "pattern":
-      return n.entity.title;
-    case "source":
-      return n.entity.name;
-  }
+  return graphNodeTitle(n);
 }
 
 export function RelationshipList({

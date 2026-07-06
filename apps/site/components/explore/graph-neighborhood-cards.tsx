@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import type { GraphNode } from "@/lib/graph/graph";
+import { graphNodeTitle } from "@/lib/graph/graph";
 import { exploreHrefForNode } from "@/lib/graph/explorePaths";
 import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
 
@@ -10,7 +11,10 @@ export type GraphNeighborhoodCardsProps = {
 };
 
 /** Presentational card grid — safe from both Server and Client parents (no GraphIndex). */
-export function GraphNeighborhoodCards({ nodes, title = "Connected terrain" }: GraphNeighborhoodCardsProps) {
+export function GraphNeighborhoodCards({
+  nodes,
+  title = "Connected terrain",
+}: GraphNeighborhoodCardsProps) {
   if (nodes.length === 0) return null;
 
   return (
@@ -24,11 +28,16 @@ export function GraphNeighborhoodCards({ nodes, title = "Connected terrain" }: G
               className="block rounded-md border border-border/35 bg-bg-elevated/20 p-4 transition-colors hover:border-accent/40"
             >
               <p className="text-[10px] uppercase tracking-[0.26em] text-accent">{n.kind}</p>
-              <p className="mt-2 font-display text-lg text-fg">{n.kind === "source" ? n.entity.name : n.entity.title}</p>
+              <p className="mt-2 font-display text-lg text-fg">{graphNodeTitle(n)}</p>
               {n.kind === "concept" ? (
-                <p className="mt-2 line-clamp-2 text-sm text-muted">{getConceptDisplayDefinition(n.entity)}</p>
+                <p className="mt-2 line-clamp-2 text-sm text-muted">
+                  {getConceptDisplayDefinition(n.entity)}
+                </p>
               ) : null}
               {n.kind === "pattern" ? (
+                <p className="mt-2 line-clamp-2 text-sm text-muted">{n.entity.summary}</p>
+              ) : null}
+              {n.kind === "thinker" && n.entity.summary ? (
                 <p className="mt-2 line-clamp-2 text-sm text-muted">{n.entity.summary}</p>
               ) : null}
             </Link>
