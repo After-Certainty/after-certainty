@@ -10,7 +10,7 @@
 
 The After Certainty semantic graph uses **typed directed relationships** to encode how concepts interact. This document defines the semantics of each relationship type and provides usage guidelines.
 
-**Current vocabulary:** 16 relationship types + structural_tension (bidirectional)
+**Current vocabulary:** 19 relationship types + structural_tension (bidirectional)
 
 ---
 
@@ -102,6 +102,24 @@ The After Certainty semantic graph uses **typed directed relationships** to enco
 **Distinguish from:**
 - `requires` - Opposite direction (A requires B vs A enables B)
 - `preserves` - Maintains existing capacity vs creates capacity
+
+---
+
+#### `grounds`
+**Meaning:** Provides foundational condition or structural basis that necessitates target  
+**Pattern:** A grounds B means A creates the structural condition that makes B necessary  
+**Directionality:** Strong (A → B is not B → A)
+
+**Examples:**
+- `finite-perspective` grounds `trust` - Finite perspective creates the condition that makes trust necessary
+- `finite-perspective` grounds `bias` - Structural partiality generates selective work of attention
+
+**Usage:** Use when source creates the epistemic or structural foundation that makes target necessary or inevitable.
+
+**Distinguish from:**
+- `requires` - Dependency (A needs B) vs foundation (A creates condition for B)
+- `enables` - Makes possible vs makes necessary
+- `produces` - Not yet in vocabulary, would be similar but more causal
 
 ---
 
@@ -329,6 +347,41 @@ The After Certainty semantic graph uses **typed directed relationships** to enco
 
 ---
 
+#### `shapes`
+**Meaning:** Influences the form, structure, or characteristics of target  
+**Pattern:** A shapes B means A affects how B manifests or operates  
+**Directionality:** Strong (A → B is not B → A)
+
+**Examples:**
+- `boundary` shapes `coupling` - Boundaries affect attachment strength across divides
+- `consequence-architecture` shapes `coupling` - Design determines attachment patterns
+
+**Usage:** Use when source affects the form or characteristics of target through design or structural influence. Lighter than `determines`, stronger than generic influence.
+
+**Distinguish from:**
+- `enables` - Makes possible vs affects form
+- `constrains` - Limits vs influences shape
+- `produces` - Not yet in vocabulary, would be stronger/more direct
+
+---
+
+#### `calibrates`
+**Meaning:** Adjusts, tunes, or maintains target in proper proportion  
+**Pattern:** A calibrates B means A keeps B aligned with reality through ongoing adjustment  
+**Directionality:** Strong (A → B is not B → A)
+
+**Examples:**
+- `feedback` calibrates `trust` - Signals update confidence and expose when trust has thinned
+
+**Usage:** Use when source provides ongoing adjustment signals that keep target properly tuned to changing conditions.
+
+**Distinguish from:**
+- `enables` - Makes possible vs maintains calibration
+- `stabilizes` - Reduces variance vs actively adjusts
+- `renews` - Restores after degradation vs ongoing tuning
+
+---
+
 ### 10. Structural Tensions (Special Type)
 
 #### `structural_tension`
@@ -498,13 +551,16 @@ These types have been discussed but not yet added:
 - `constrains` (1 use) - limits capacity
 - `erodes` (not yet added) - gradual degradation
 
-### Supporting (6 types)
-- `preserves` (3 uses) - maintains capacity
+### Supporting (9 types)
+- `preserves` (13 uses) - maintains capacity
 - `stabilizes` (2 uses) - reduces variance
 - `renews` (2 uses) - restores capacity
-- `enables` (3 uses) - creates capacity
-- `requires` (5 uses) - structural dependency
+- `enables` (5 uses) - creates capacity
+- `requires` (8 uses) - structural dependency
 - `complements` (1 use) - coordination
+- `grounds` (2 uses) - provides foundational condition
+- `shapes` (2 uses) - influences form or structure
+- `calibrates` (1 use) - adjusts and tunes
 
 ### Transforming (4 types)
 - `distorts` (1 use) - warps form
@@ -519,7 +575,7 @@ These types have been discussed but not yet added:
 - `pressures` (1 use) - creates urgency
 
 ### Disambiguation (1 type)
-- `contrasts` (7 uses) - distinguishes
+- `contrasts` (40 uses) - distinguishes
 
 ### Tensions (1 special type)
 - `structural_tension` (10 uses) - fundamental opposition

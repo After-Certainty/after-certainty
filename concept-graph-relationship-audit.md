@@ -11,10 +11,10 @@
 The After Certainty concept graph contains **137 concepts** with three relationship layers:
 
 1. **Untyped adjacency** via `relatedConcepts` (dominant pattern)
-2. **Typed directed edges** via `semantic/relationships.yml` (17 relationships)
+2. **Typed directed edges** via `semantic/relationships.yml` (95 relationships, updated 2026-07-06)
 3. **Structural tensions** via `semantic/ontology/structural-tensions.yml` (10 tensions)
 
-**Core Finding:** The graph currently tells readers **that** concepts are connected, but rarely **why** or **how**. The vast majority of the 300+ edges use generic "related" semantics via `relatedConcepts`, while only 27 edges have explicit semantic types.
+**Core Finding (Updated 2026-07-06):** The graph has been substantially improved through systematic audit and refinement of the `contrasts` relationship type. Previously, `contrasts` dominated at 60 edges (56%), creating a catch-all pattern. After audit, the graph now contains 95 typed relationships with `contrasts` reduced to 40 edges (42%), and three new precise relationship types added: `grounds`, `calibrates`, and `shapes`.
 
 This audit identifies:
 - Relationship types that add value vs. those that are underused
@@ -61,7 +61,7 @@ This audit identifies:
 - All modeled as `structural_tension` in manifest
 - Descriptions like "continuity vs reality-contact"
 
-**Assessment:** The 11 relationship types currently in use are **semantically precise**. The problem is not quality—it's **coverage**.
+**Assessment (Updated 2026-07-06):** The 19 relationship types now in use are **semantically precise**. After systematic audit, `contrasts` is no longer the catch-all dominant type, and three new types (`grounds`, `calibrates`, `shapes`) have been added to capture specific semantic patterns that were previously lumped into disambiguation.
 
 ### 1.3 Most Connected Concepts (via untyped `relatedConcepts`)
 
