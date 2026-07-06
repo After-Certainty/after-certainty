@@ -1,0 +1,14 @@
+slug: eric-s-raymond
+name: Eric S Raymond
+type: person
+summary: Software essayist on open-source culture, hacker ethics, and distributed
+  collaboration in code communities.
+concepts: []
+patterns: []
+relatedBooks:
+- trust-beyond-similarity
+- when-trust-stops-tracking-reality
+works:
+- raymond-eric-s-the-cathedral-and-the-bazaar-musings-on-linux-and-open-source-by-an-accidental-re
+whyThisMatters: Raymond's cathedral-and-bazaar frame still shapes how teams imagine
+  coordination without central control.

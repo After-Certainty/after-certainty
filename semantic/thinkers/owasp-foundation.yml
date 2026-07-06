@@ -1,0 +1,13 @@
+slug: owasp-foundation
+name: OWASP Foundation
+type: organization
+summary: Open community publishing the OWASP Top Ten and security guidance for software
+  risk at global scale.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- owasp-foundation-owasp-top-10-for-large-language-model-applications
+whyThisMatters: OWASP anchors accountable design for coupled systems—vulnerability
+  as institutional not merely individual failure.

@@ -1,0 +1,13 @@
+slug: open-science-collaboration
+name: Open Science Collaboration
+type: organization
+summary: Large-scale replication consortium testing the reproducibility of psychological
+  science findings.
+concepts: []
+patterns: []
+relatedBooks:
+- what-we-cannot-see
+works:
+- open-science-collaboration-estimating-the-reproducibility-of-psychological-science
+whyThisMatters: The OSC replication work is a landmark correction episode—when a field
+  confronts its own certainty.

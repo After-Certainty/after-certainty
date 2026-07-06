@@ -1,0 +1,13 @@
+slug: nancy-g-leveson
+name: Nancy G Leveson
+type: person
+summary: Engineer and safety scientist of systems thinking, STAMP, and building software
+  and sociotechnical systems that fail safely.
+concepts: []
+patterns: []
+relatedBooks:
+- how-serious-systems-learn
+works:
+- leveson-nancy-g-engineering-a-safer-world-systems-thinking-applied
+whyThisMatters: Leveson is core for serious systems—why component reliability does
+  not guarantee institutional safety.

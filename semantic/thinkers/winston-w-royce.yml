@@ -1,0 +1,13 @@
+slug: winston-w-royce
+name: Winston W Royce
+type: person
+summary: Software engineer who articulated phased waterfall development—and later
+  cautioned against rigid sequential process.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- royce-winston-w-managing-the-development-of-large-software-systems
+whyThisMatters: Royce is sediment for how organizations imagine control—and why linear
+  plans misread coupled work.

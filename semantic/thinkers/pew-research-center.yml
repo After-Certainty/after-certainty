@@ -1,0 +1,13 @@
+slug: pew-research-center
+name: Pew Research Center
+type: organization
+summary: Nonpartisan research organization publishing surveys on religion, media,
+  technology, and American public life.
+concepts: []
+patterns: []
+relatedBooks:
+- the-economy-we-dont-experience
+works:
+- pew-research-center-americans-views-of-inflation-and-the-economy
+whyThisMatters: Pew data anchors portfolio arguments about trust, belonging, and how
+  populations actually interpret change.
