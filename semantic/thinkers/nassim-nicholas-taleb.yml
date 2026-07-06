@@ -1,0 +1,14 @@
+slug: nassim-nicholas-taleb
+name: Nassim Nicholas Taleb
+type: person
+summary: Essayist and risk thinker of antifragility, black swans, and fragility under
+  model-driven certainty.
+concepts: []
+patterns: []
+relatedBooks:
+- how-serious-systems-learn
+- the-discipline-of-uncertainty
+works:
+- taleb-nassim-nicholas-antifragile-things-that-gain-from-disorder
+whyThisMatters: Taleb disciplines overconfidence in prediction and design—when systems
+  need slack, optionality, and honest tail risk.

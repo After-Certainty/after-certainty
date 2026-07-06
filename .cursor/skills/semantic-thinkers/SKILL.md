@@ -52,12 +52,14 @@ Writes `semantic/_drafts/generated/thinkers/<slug>.yml` with aggregated `works`,
 
 Copy reviewed drafts to `semantic/thinkers/<slug>.yml` matching [thinker-entry.schema.json](../../../schema/semantic/thinker-entry.schema.json).
 
-**Pilot promotion (recommended first pass):**
+**Pilot or batch promotion (recommended):**
 
 ```bash
 make derive-thinker-drafts
-# edit semantic/thinkers-pilot-overrides.yml summaries as needed
+# edit semantic/thinkers-pilot-overrides.yml or semantic/thinkers-batch-2-overrides.yml
 make promote-thinker-drafts THINKER_PROMOTE_PILOT_ONLY=1
+# batch 2+:
+make promote-thinker-drafts THINKER_PROMOTE_OVERRIDES=semantic/thinkers-batch-2-overrides.yml THINKER_PROMOTE_PILOT_ONLY=1
 ```
 
 Or promote individual slugs:

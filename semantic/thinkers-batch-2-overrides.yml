@@ -1,0 +1,95 @@
+# Editorial overrides for batch 2 promotion into semantic/thinkers/.
+# Used by tools/promote_thinker_drafts.py --overrides semantic/thinkers-batch-2-overrides.yml
+
+thinkers:
+  arie-w-kruglanski:
+    summary: Social psychologist of motivated cognition, need for closure, and how certainty-seeking shapes belief under uncertainty.
+    whyThisMatters: Kruglanski links interpretation, meaning, and closure—the psychological pressure that makes premature certainty feel like relief.
+  jack-w-brehm:
+    summary: Psychologist of psychological reactance—how perceived freedom loss triggers resistance and entrenchment.
+    whyThisMatters: Brehm explains backlash when authority overreaches—essential for legitimacy, voice, and correction that does not harden opposition.
+  lisa-feldman-barrett:
+    summary: Neuroscientist and psychologist of constructed emotion—how the brain predicts and categorizes affect from context and culture.
+    whyThisMatters: Barrett reframes feeling as interpretation-in-motion, not a fixed inner readout—relevant wherever meaning and bodies meet judgment.
+  joseph-ledoux:
+    summary: Neuroscientist of fear, memory, and the circuits that turn threat signals into conscious experience.
+    whyThisMatters: LeDoux separates alarm from narrative—useful when institutions must distinguish panic from proportionate response.
+  gerd-gigerenzer:
+    summary: Psychologist of ecological rationality—heuristics, fast-and-frugal judgment, and when simple rules outperform complex models.
+    whyThisMatters: Gigerenzer counters bias-only stories with environment-shaped reason—how people actually decide under constraint.
+  w-brian-arthur:
+    summary: Economist of complexity, increasing returns, and path dependence in technology and economic systems.
+    whyThisMatters: Arthur shows how small early advantages compound—why lock-in and sediment matter for institutions and infrastructure.
+  scott-e-page:
+    summary: Social scientist of diversity, collective prediction, and how heterogeneous groups can outperform homogeneous experts.
+    whyThisMatters: Page gives formal backing for why difference of perspective is operational, not decorative, in serious systems.
+  martin-fowler:
+    summary: Software writer and methodologist on architecture, refactoring, and how teams evolve systems without losing coherence.
+    whyThisMatters: Fowler connects craft discipline to organizational learning—how codebases and teams carry sedimented decisions forward.
+  guy-deutscher:
+    summary: Linguist and writer on how language shapes thought, color, and the habits of attention cultures train into perception.
+    whyThisMatters: Deutscher makes interpretation concrete—how categories in language become categories in judgment.
+  c-thi-nguyen:
+    summary: Philosopher of games, value capture, and how designed environments reshape what people want and notice.
+    whyThisMatters: Nguyen names how systems gamify commitment—relevant for trust, attention, and moral seriousness at scale.
+  ulrich-beck:
+    summary: Sociologist of the risk society—how modern institutions distribute manufactured uncertainty and individualized responsibility.
+    whyThisMatters: Beck frames why accountability and risk get personal when systems are opaque but consequences are shared.
+  morton-deutsch:
+    summary: Social psychologist of cooperation, conflict resolution, and the conditions under which competitive groups find workable trust.
+    whyThisMatters: Deutsch supplies durable vocabulary for negotiation, justice, and when correction requires relationship repair.
+  elizabeth-w-morrison:
+    summary: Organizational scholar of voice, silence, and why employees withhold concerns even when stakes are high.
+    whyThisMatters: Morrison connects psychological safety to everyday withholding—the gap between policy and what people will actually say.
+  donella-h-meadows:
+    summary: Systems thinker and writer on leverage points, feedback loops, and learning to intervene in complex systems without hubris.
+    whyThisMatters: Meadows is a core reference for serious systems—where to push, what resists, and why small changes sometimes move everything.
+  francis-fukuyama:
+    summary: Political scientist of state capacity, trust, social capital, and how institutions gain or lose governing legitimacy.
+    whyThisMatters: Fukuyama links trust formation to institutional quality—when scale outruns the bonds that make cooperation possible.
+  joseph-henrich:
+    summary: Anthropologist and evolutionary theorist of cultural evolution, collective brains, and how societies scale cooperation differently.
+    whyThisMatters: Henrich explains variation in norms and institutions—why what works in one moral community fails in another.
+  karl-polanyi:
+    summary: Economic historian of the Great Transformation—how markets get embedded in social relations and what happens when they are not.
+    whyThisMatters: Polanyi warns that treating land, labor, and money as pure commodities destabilizes the social fabric judgment depends on.
+  nassim-nicholas-taleb:
+    summary: Essayist and risk thinker of antifragility, black swans, and fragility under model-driven certainty.
+    whyThisMatters: Taleb disciplines overconfidence in prediction and design—when systems need slack, optionality, and honest tail risk.
+  onora-o-neill:
+    summary: Philosopher of trust, accountability, and intelligent transparency in public institutions and professional ethics.
+    whyThisMatters: O'Neill reframes trust as judgment about reliability—not blind faith or mere disclosure volume.
+  stanley-milgram:
+    summary: Social psychologist whose obedience experiments showed how ordinary people defer to authority even against conscience.
+    whyThisMatters: Milgram remains a baseline for authority, responsibility, and when people outsource moral judgment to roles.
+  shoshana-zuboff:
+    summary: Scholar of surveillance capitalism—how data extraction turns experience into behavioral prediction and market power.
+    whyThisMatters: Zuboff connects scale, attention, and institutional power—when interpretation becomes an extractive business model.
+  zygmunt-bauman:
+    summary: Sociologist of liquid modernity—how mobility, fragmentation, and insecurity reshape identity, community, and moral obligation.
+    whyThisMatters: Bauman names the loosening of durable bonds—why trust and accountability feel harder when nothing stays put.
+  edgar-h-schein:
+    summary: Organizational psychologist of culture, career anchors, and how tacit assumptions persist beneath stated values.
+    whyThisMatters: Schein helps read what institutions actually believe—the layer below mission statements where correction stalls or spreads.
+  irving-l-janis:
+    summary: Psychologist of groupthink—how cohesive groups suppress dissent and convince themselves their consensus is rational.
+    whyThisMatters: Janis explains premature closure in high-stakes teams—when moral seriousness requires someone to break the spell.
+  miranda-fricker:
+    summary: Philosopher of epistemic injustice—testimonial and hermeneutical wrongs that distort who gets heard and what can be named.
+    whyThisMatters: Fricker gives precise language for credibility deficits and interpretive gaps—when correction depends on whose voice counts.
+  w-edwards-deming:
+    summary: Statistician and management thinker of quality, systems improvement, and how organizations learn from variation rather than blame.
+    whyThisMatters: Deming links measurement to institutional learning—why accountability without system thinking becomes cruelty theater.
+  zeynep-tufekci:
+    summary: Sociologist of technology, protest, and how digital networks change mobilization, visibility, and collective action.
+    whyThisMatters: Tufekci shows how platforms reshape public judgment—speed, signal, and the new politics of attention.
+  v-clav-havel:
+    summary: Writer and statesman of living in truth, dissident responsibility, and moral seriousness under ideological pressure.
+    whyThisMatters: Havel articulates how people sustain integrity when systems demand performative loyalty—guest leadership under constraint.
+  william-h-mcneill:
+    summary: Historian of plagues, populations, and macro-social cohesion—how disease and mobility reshape collective life.
+    whyThisMatters: McNeill offers long-horizon context for disruption, trust, and how societies absorb shocks across generations.
+  national-institute-of-standards-and-technology:
+    type: organization
+    summary: U.S. federal agency publishing frameworks for secure software development and AI risk management used across industry and government.
+    whyThisMatters: NIST sources anchor how serious systems formalize risk, coupling, and accountable design at institutional scale.

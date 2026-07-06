@@ -1,0 +1,13 @@
+slug: w-edwards-deming
+name: W. Edwards Deming
+type: person
+summary: Statistician and management thinker of quality, systems improvement, and
+  how organizations learn from variation rather than blame.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- deming-w-edwards-out-of-the-crisis
+whyThisMatters: Deming links measurement to institutional learning—why accountability
+  without system thinking becomes cruelty theater.
