@@ -1,0 +1,13 @@
+slug: nate-silver
+name: Nate Silver
+type: person
+summary: Statistician and forecaster of election modeling, signal versus noise, and
+  probabilistic thinking in public.
+concepts: []
+patterns: []
+relatedBooks:
+- how-serious-systems-learn
+works:
+- silver-nate-the-signal-and-the-noise-why-so-many-predictions
+whyThisMatters: Silver popularizes uncertainty quantification—when confidence should
+  stay proportional to evidence.

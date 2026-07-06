@@ -61,6 +61,7 @@ make promote-thinker-drafts THINKER_PROMOTE_PILOT_ONLY=1
 # batch 2+:
 make promote-thinker-drafts THINKER_PROMOTE_OVERRIDES=semantic/thinkers-batch-2-overrides.yml THINKER_PROMOTE_PILOT_ONLY=1
 make promote-thinker-drafts THINKER_PROMOTE_OVERRIDES=semantic/thinkers-batch-3-overrides.yml THINKER_PROMOTE_PILOT_ONLY=1
+make promote-thinker-drafts THINKER_PROMOTE_OVERRIDES=semantic/thinkers-batch-4-overrides.yml THINKER_PROMOTE_PILOT_ONLY=1
 ```
 
 Or promote individual slugs:

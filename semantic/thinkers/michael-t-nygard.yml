@@ -1,0 +1,13 @@
+slug: michael-t-nygard
+name: Michael T Nygard
+type: person
+summary: Software architect of release it!, stability patterns, and production operations
+  for living systems.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- nygard-michael-t-release-it-design-and-deploy-production-ready-software
+whyThisMatters: Nygard teaches systems that fail in production—coupling visible only
+  under real load.

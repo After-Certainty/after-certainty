@@ -1,0 +1,13 @@
+slug: institute-of-medicine
+name: Institute of Medicine
+type: organization
+summary: U.S. National Academies body publishing landmark reports on patient safety
+  and quality of care.
+concepts: []
+patterns: []
+relatedBooks:
+- how-serious-systems-learn
+works:
+- institute-of-medicine-to-err-is-human-building-a-safer-health
+whyThisMatters: IOM To Err Is Human galvanized healthcare safety—institutional admission
+  that harm is systemic.

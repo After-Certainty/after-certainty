@@ -1,0 +1,13 @@
+slug: h-p-grice
+name: H. P Grice
+type: person
+summary: Philosopher of language whose cooperative maxims underpin pragmatic inference
+  and conversational implicature.
+concepts: []
+patterns: []
+relatedBooks:
+- when-authority-is-misread
+works:
+- grice-h-p-logic-and-conversation
+whyThisMatters: Grice formalizes how people mean more than they say—interpretation
+  as shared cooperative project.

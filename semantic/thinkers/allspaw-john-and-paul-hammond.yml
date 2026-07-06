@@ -1,0 +1,13 @@
+slug: allspaw-john-and-paul-hammond
+name: Allspaw, John, and Paul Hammond
+type: person
+summary: Engineering leaders who documented high-frequency deployment and DevOps cooperation
+  at Flickr.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr
+whyThisMatters: Their deploy cadence essay is sediment for coupling—how technical
+  practice enables continuous correction.

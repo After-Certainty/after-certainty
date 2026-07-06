@@ -1,0 +1,13 @@
+slug: defense-system-software-development-u-s-department-of-defense-dod-std-2167a
+name: '*Defense System Software Development* U.S. Department of Defense. DOD-STD-2167A'
+type: organization
+summary: U.S. DoD standard defining software development lifecycle requirements for
+  defense systems.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- u-s-department-of-defense-dod-std-2167a-defense-system-software-development
+whyThisMatters: DOD-STD-2167A is sediment of waterfall accountability—formal process
+  as moral substitute in coupling.

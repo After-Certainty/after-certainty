@@ -1,0 +1,13 @@
+slug: bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell
+name: Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell
+type: person
+summary: AI ethics researchers documenting bias in large language models and harms
+  of opaque training data.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of
+whyThisMatters: Their Stochastic Parrots paper names when interpretation at scale
+  reproduces inequality and erases accountability.
