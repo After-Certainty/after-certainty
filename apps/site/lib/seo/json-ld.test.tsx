@@ -2,7 +2,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { render } from "@testing-library/react";
 
 import type { Book as CatalogBook } from "@/types/content";
-import type { Book, GlossaryConcept, Pattern, Source } from "@/types/semanticGraph";
+import type { Book, GlossaryConcept, Pattern, Source, Thinker } from "@/types/semanticGraph";
 
 describe("json-ld builders", () => {
   let prevSiteUrl: string | undefined;
@@ -76,6 +76,31 @@ describe("json-ld builders", () => {
     name: "Hannah Arendt — Eichmann in Jerusalem",
     type: "book",
     summary: "Arendt, Hannah. Eichmann in Jerusalem. New York: Viking Press, 1963.",
+  };
+
+  const sampleThinker: Thinker = {
+    id: "thinker-hannah-arendt",
+    slug: "hannah-arendt",
+    name: "Hannah Arendt",
+    type: "person",
+    summary: "Political theorist.",
+    works: ["source-arendt-hannah-eichmann"],
+    concepts: ["concept-authority"],
+    patterns: [],
+    relatedBooks: ["book-after-certainty"],
+    whyThisMatters: "Arendt on authority and judgment.",
+  };
+
+  const sampleOrganization: Thinker = {
+    id: "thinker-world-bank",
+    slug: "world-bank",
+    name: "World Bank",
+    type: "organization",
+    summary: "International financial institution.",
+    works: [],
+    concepts: [],
+    patterns: [],
+    relatedBooks: [],
   };
 
   const breadcrumbs = [
@@ -189,7 +214,7 @@ describe("json-ld builders", () => {
 
   it("builds Article JSON-LD with hasPart when narrative fields are present", async () => {
     const { buildPatternPageJsonLd } = await loadJsonLd();
-    
+
     const patternWithNarratives: Pattern = {
       id: "pattern-gaps-invite",
       slug: "gaps-invite-completion",
@@ -202,8 +227,10 @@ describe("json-ld builders", () => {
         "Social norms favor certainty over inquiry",
         "Institutional structures reward decisive action",
       ],
-      observation: "Teams tend to rush toward consensus rather than explore divergent interpretations.",
-      example: "A manager sends a terse email; team members interpret urgency or disapproval based on past patterns.",
+      observation:
+        "Teams tend to rush toward consensus rather than explore divergent interpretations.",
+      example:
+        "A manager sends a terse email; team members interpret urgency or disapproval based on past patterns.",
       relatedConcepts: ["concept-certainty"],
     };
 
@@ -220,33 +247,33 @@ describe("json-ld builders", () => {
     expect(article?.headline).toBe("Gaps Invite Completion");
     expect(article?.description).toBe("People fill ambiguity with their own meaning.");
     expect(article?.hasPart).toHaveLength(5);
-    
+
     const hasPart = article?.hasPart as Array<{ "@type": string; name: string; text: string }>;
-    
+
     expect(hasPart[0]).toEqual({
       "@type": "WebPageElement",
       name: "Setup",
       text: "An exchange contains ambiguity or missing context.",
     });
-    
+
     expect(hasPart[1]).toEqual({
       "@type": "WebPageElement",
       name: "Problem",
       text: "Open meaning is hard to sustain without active facilitation.",
     });
-    
+
     expect(hasPart[2]).toEqual({
       "@type": "WebPageElement",
       name: "Forces",
       text: "Cognitive efficiency drives quick closure, Social norms favor certainty over inquiry, Institutional structures reward decisive action",
     });
-    
+
     expect(hasPart[3]).toEqual({
       "@type": "WebPageElement",
       name: "Observation",
       text: "Teams tend to rush toward consensus rather than explore divergent interpretations.",
     });
-    
+
     expect(hasPart[4]).toEqual({
       "@type": "WebPageElement",
       name: "Example",
@@ -256,7 +283,7 @@ describe("json-ld builders", () => {
 
   it("maintains backward compatibility for patterns without narrative fields", async () => {
     const { buildPatternPageJsonLd } = await loadJsonLd();
-    
+
     const nodes = buildPatternPageJsonLd({
       pattern: samplePattern,
       breadcrumbs: [
@@ -296,6 +323,34 @@ describe("json-ld builders", () => {
       pageUrl: "https://example.com/explore/sources/arendt-what-is-authority",
     });
     expect(node["@type"]).toBe("Article");
+  });
+
+  it("maps thinker pages to Person schema", async () => {
+    const { buildThinkerPageJsonLd } = await loadJsonLd();
+    const nodes = buildThinkerPageJsonLd({
+      thinker: sampleThinker,
+      breadcrumbs: [
+        { label: "Explore", href: "/explore" },
+        { label: "Thinkers", href: "/explore/thinkers" },
+        { label: sampleThinker.name },
+      ],
+    });
+
+    const entity = nodes.find((n) => n["@id"]?.toString().endsWith("#thinker"));
+    expect(entity?.["@type"]).toBe("Person");
+    expect(entity?.name).toBe("Hannah Arendt");
+    expect(entity?.description).toContain("Political theorist");
+    expect(nodes.some((n) => n["@type"] === "WebPage")).toBe(true);
+  });
+
+  it("maps organization thinkers to Organization schema", async () => {
+    const { buildThinkerJsonLd } = await loadJsonLd();
+    const node = buildThinkerJsonLd({
+      thinker: sampleOrganization,
+      pageUrl: "https://example.com/explore/thinkers/world-bank",
+    });
+    expect(node["@type"]).toBe("Organization");
+    expect(node.name).toBe("World Bank");
   });
 
   it("builds breadcrumb list with positions, URLs, and @id", async () => {

@@ -14,6 +14,7 @@ import type {
   GlossaryConcept,
   Pattern,
   Source,
+  Thinker,
 } from "@/types/semanticGraph";
 import { getConceptFullDefinition } from "@/lib/graph/conceptFormatting";
 import { relationshipsForConcept } from "@/lib/graph/relationshipTaxonomy";
@@ -79,10 +80,7 @@ export function jsonLdGraph(nodes: JsonLdNode[]): JsonLdDocument {
   };
 }
 
-export function buildBreadcrumbListJsonLd(
-  items: JsonLdBreadcrumbItem[],
-  id?: string,
-): JsonLdNode {
+export function buildBreadcrumbListJsonLd(items: JsonLdBreadcrumbItem[], id?: string): JsonLdNode {
   const listItems = items.map((item, index) =>
     compact({
       "@type": "ListItem",
@@ -282,7 +280,7 @@ export function buildPatternJsonLd(params: {
   const imageUrls = pattern.infographic?.url ? [pattern.infographic.url] : undefined;
 
   const narrativeParts: JsonLdNode[] = [];
-  
+
   if (pattern.setup && pattern.setup.length > 0) {
     narrativeParts.push({
       "@type": "WebPageElement",
@@ -290,7 +288,7 @@ export function buildPatternJsonLd(params: {
       text: pattern.setup,
     });
   }
-  
+
   if (pattern.problem && pattern.problem.length > 0) {
     narrativeParts.push({
       "@type": "WebPageElement",
@@ -298,7 +296,7 @@ export function buildPatternJsonLd(params: {
       text: pattern.problem,
     });
   }
-  
+
   if (pattern.forces && pattern.forces.length > 0) {
     narrativeParts.push({
       "@type": "WebPageElement",
@@ -306,7 +304,7 @@ export function buildPatternJsonLd(params: {
       text: pattern.forces.join(", "),
     });
   }
-  
+
   if (pattern.observation && pattern.observation.length > 0) {
     narrativeParts.push({
       "@type": "WebPageElement",
@@ -314,7 +312,7 @@ export function buildPatternJsonLd(params: {
       text: pattern.observation,
     });
   }
-  
+
   if (pattern.example && pattern.example.length > 0) {
     narrativeParts.push({
       "@type": "WebPageElement",
@@ -563,6 +561,41 @@ export function buildSourcePageJsonLd(params: {
   ];
 }
 
+export function buildThinkerJsonLd(params: { thinker: Thinker; pageUrl: string }): JsonLdNode {
+  const { thinker, pageUrl } = params;
+  const schemaType = thinker.type === "organization" ? "Organization" : "Person";
+
+  return compact({
+    "@type": schemaType,
+    "@id": `${pageUrl}#thinker`,
+    name: thinker.name,
+    description: thinker.summary ?? thinker.whyThisMatters,
+    url: pageUrl,
+    mainEntityOfPage: { "@id": webPageId(pageUrl) },
+  });
+}
+
+export function buildThinkerPageJsonLd(params: {
+  thinker: Thinker;
+  breadcrumbs: JsonLdBreadcrumbItem[];
+}): JsonLdNode[] {
+  const pageUrl = absoluteUrl(`${explorePaths.thinkers}/${params.thinker.slug}`);
+  const crumbsId = breadcrumbId(pageUrl);
+  const mainEntityId = `${pageUrl}#thinker`;
+
+  return [
+    buildWebPageJsonLd({
+      pageUrl,
+      name: params.thinker.name,
+      description: params.thinker.summary ?? params.thinker.whyThisMatters,
+      breadcrumbId: crumbsId,
+      mainEntityId,
+    }),
+    buildThinkerJsonLd({ thinker: params.thinker, pageUrl }),
+    buildBreadcrumbListJsonLd(params.breadcrumbs, crumbsId),
+  ];
+}
+
 export function buildHomePageJsonLd(): JsonLdNode[] {
   const pageUrl = absoluteUrl("/");
   return [
@@ -583,9 +616,7 @@ export type StartPageShelfItem = {
   url: string;
 };
 
-export function buildStartPageJsonLd(params: {
-  shelfItems: StartPageShelfItem[];
-}): JsonLdNode[] {
+export function buildStartPageJsonLd(params: { shelfItems: StartPageShelfItem[] }): JsonLdNode[] {
   const pageUrl = absoluteUrl("/start");
   const crumbsId = breadcrumbId(pageUrl);
   const itemListId = `${pageUrl}#front-shelf`;

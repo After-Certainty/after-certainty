@@ -1,5 +1,13 @@
-import type { Book, GlossaryConcept, Pattern, Source } from "@/types/semanticGraph";
+import type {
+  Book,
+  GlossaryConcept,
+  Pattern,
+  SemanticGraph,
+  Source,
+  Thinker,
+} from "@/types/semanticGraph";
 import type { GraphIndex } from "@/lib/graph/graph";
+import { resolveThinkers } from "@/lib/graph/thinkers";
 import {
   getIncomingRelationships,
   getOutgoingRelationships,
@@ -22,6 +30,10 @@ export function getSourceBySlug(index: GraphIndex, slug: string): Source | undef
   return index.sourceBySlug.get(slug);
 }
 
+export function getThinkerBySlug(graph: SemanticGraph, slug: string): Thinker | undefined {
+  return resolveThinkers(graph).find((thinker) => thinker.slug === slug);
+}
+
 function compactById<T extends { id: string }>(
   refs: string[] | undefined,
   resolve: (ref: string) => T | undefined,
@@ -39,7 +51,10 @@ function compactById<T extends { id: string }>(
   return out;
 }
 
-export function getRelatedConcepts(index: GraphIndex, refs: string[] | undefined): GlossaryConcept[] {
+export function getRelatedConcepts(
+  index: GraphIndex,
+  refs: string[] | undefined,
+): GlossaryConcept[] {
   return compactById(refs, (ref) => {
     const n = index.resolveNode(ref);
     return n?.kind === "concept" ? n.entity : undefined;
@@ -67,7 +82,10 @@ export function getRelatedSources(index: GraphIndex, refs: string[] | undefined)
   });
 }
 
-export function getAdjacentSourcesFromRelationships(index: GraphIndex, focalCanonicalId: string): Source[] {
+export function getAdjacentSourcesFromRelationships(
+  index: GraphIndex,
+  focalCanonicalId: string,
+): Source[] {
   const seen = new Set<string>();
   const out: Source[] = [];
   const consider = (otherId: string) => {
