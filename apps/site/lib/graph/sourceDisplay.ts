@@ -1,5 +1,6 @@
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { getThinkerBySlug } from "@/lib/graph/graphQueries";
+import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
 import type { SemanticGraph, Source, Thinker } from "@/types/semanticGraph";
 
 export function sourceDisplayTitle(source: Source): string {
@@ -7,7 +8,8 @@ export function sourceDisplayTitle(source: Source): string {
 }
 
 export function sourceDisplayLabel(source: Source): string {
-  return source.sourceKind?.trim() || source.type;
+  const raw = source.sourceKind?.trim() || source.type;
+  return formatRelationshipLabelForDisplay(raw);
 }
 
 export function sourceDisplayBody(source: Source): string | undefined {
