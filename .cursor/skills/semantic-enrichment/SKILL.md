@@ -73,6 +73,7 @@ Follow [08-concept-definitions.md](../../../docs/agents/semantic/08-concept-defi
 - **Two-tier model:** concise `shortDefinition` (index); optional `longDefinition` (detail via manifest `definition`)
 - **General first, book second** when the term is reused across the portfolio
 - **Hub terms:** both tiers + 2–5 `relatedConcepts`; wire disambiguation pairs bidirectionally
+- **Typed relationships:** When definitions say "differs from" or describe force dynamics, consider adding typed edges to `semantic/relationships.yml` (see **[semantic-relationships skill](../semantic-relationships/SKILL.md)**)
 - **Do not duplicate** `shortDefinition` in `longDefinition`
 - **YAML:** use `>-` block scalar when `longDefinition` contains `: `
 - Preserve existing enrichment blocks unless the user asks to rewrite them
@@ -125,7 +126,8 @@ Return the PR URL to the user.
 
 1. **glossary-extract** — new slugs + initial two-tier definitions
 2. **semantic-enrichment** → `definitions` — revise book-scoped terms, disambiguation, `relatedConcepts`
-3. **semantic-enrichment** → `recognition-signals` / `all` — signals, trajectories, manifestations
+3. **semantic-relationships** — add typed edges for "differs from" statements and force dynamics
+4. **semantic-enrichment** → `recognition-signals` / `all` — signals, trajectories, manifestations
 
 ## Do not
 

@@ -51,11 +51,33 @@ When adding or revising a pair:
 3. Wire **`relatedConcepts`** bidirectionally when slugs exist
 4. Optionally add one-sentence edges to `semantic/relationships.yml` (do not duplicate full definitions)
 
-## `relatedConcepts`
+## `relatedConcepts` and typed relationships
 
-- Required field; empty list is valid but hub terms should link to 2–5 nearby concepts
+**`relatedConcepts`** (required field):
+- Empty list is valid; hub terms should link to 2–5 nearby concepts
 - Only reference slugs that exist under `semantic/glossary/`
 - Prefer conceptual neighbors over book co-mentions
+- Provides undifferentiated adjacency for navigation
+
+**Typed relationships** in `semantic/relationships.yml` (optional but encouraged):
+- When definitions say "differs from Y because..." → add `contrasts` relationship
+- When definitions describe force dynamics (thins, enables, preserves) → add typed edge
+- See **[semantic-relationships skill](../../.cursor/skills/semantic-relationships/SKILL.md)** for workflow
+- See **[relationship types guide](../semantic-relationship-types.md)** for complete semantics
+
+**Example disambiguation pair:**
+```yaml
+# In semantic/glossary/correction.yml
+relatedConcepts:
+  - repair
+  - revisability
+
+# Also add to semantic/relationships.yml:
+- source: correction
+  target: repair
+  relationship: contrasts
+  description: Correction updates belief and behavior; repair addresses damaged trust and legitimacy.
+```
 
 ## Voice and quality bar
 
