@@ -1,4 +1,4 @@
-.PHONY: help check check-pandoc test lint lint-fix validate-book-specs build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check check-pandoc test lint lint-fix validate-book-specs build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -55,6 +55,7 @@ help:
 	@echo "  make promote-semantic-source-drafts [SOURCE_PROMOTE_BOOK_IDS='id1 id2'] [SOURCE_PROMOTE_NO_PRUNE=1]"
 	@echo "  make backfill-source-metadata [SOURCE_BACKFILL_DRY_RUN=1] [SOURCE_BACKFILL_OVERWRITE=1] [SOURCE_BACKFILL_LIMIT=N]"
 	@echo "  make derive-thinker-drafts [THINKER_DRAFTS_DRY_RUN=1]"
+	@echo "  make promote-thinker-drafts [THINKER_PROMOTE_PILOT_ONLY=1] [THINKER_PROMOTE_DRY_RUN=1]"
 	@echo "  make propose-semantic-enrichment BOOK_DIR=books/... AGENT_TYPE=recognition-signals|all [ENRICH_OVERWRITE=1]"
 	@echo "  make promote-semantic-enrichment [ENRICH_BOOK_ID=coupling] [ENRICH_FIELD=recognitionSignals]"
 	@echo "  make infer-semantic-source-links"
@@ -88,6 +89,7 @@ help:
 	@echo "  - promote-semantic-source-drafts merges semantic/_drafts/generated/sources/<book-id>/ into semantic/sources/ (Author — Title names + v1.5 metadata). Full promote (no SOURCE_PROMOTE_BOOK_IDS) passes --prune unless SOURCE_PROMOTE_NO_PRUNE=1."
 	@echo "  - backfill-source-metadata adds creatorSlugs, title, citation, sourceKind to existing semantic/sources/*.yml (see .cursor/skills/semantic-sources/)."
 	@echo "  - derive-thinker-drafts aggregates enriched sources into semantic/_drafts/generated/thinkers/ (see .cursor/skills/semantic-thinkers/)."
+	@echo "  - promote-thinker-drafts copies reviewed drafts into semantic/thinkers/ (use THINKER_PROMOTE_PILOT_ONLY=1 for pilot overrides file)."
 	@echo "  - propose-semantic-enrichment scaffolds gitignored drafts under semantic/_drafts/enrichment/<book-id>/<agent-type>/ (see docs/agents/semantic/)."
 	@echo "  - promote-semantic-enrichment merges approved enrichment drafts into semantic/glossary|patterns|situations/."
 	@echo "  - infer-semantic-source-links scans manuscript markdown for co-mentions (sources: concepts/patterns; patterns: relatedSources). Preview with: python3 tools/infer_semantic_source_links.py --repo . --dry-run"
@@ -221,6 +223,11 @@ backfill-source-metadata:
 
 derive-thinker-drafts:
 	@python3 tools/derive_thinker_drafts.py --repo . $(if $(THINKER_DRAFTS_DRY_RUN),--dry-run,)
+
+promote-thinker-drafts:
+	@python3 tools/promote_thinker_drafts.py --repo . \
+	  $(if $(THINKER_PROMOTE_PILOT_ONLY),--pilot-only,) \
+	  $(if $(THINKER_PROMOTE_DRY_RUN),--dry-run,)
 
 propose-semantic-enrichment:
 	@test -n "$(BOOK_DIR)" && test -n "$(AGENT_TYPE)" || { echo "Usage: make propose-semantic-enrichment BOOK_DIR=books/coupling AGENT_TYPE=recognition-signals"; exit 1; }

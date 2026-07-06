@@ -52,6 +52,20 @@ Writes `semantic/_drafts/generated/thinkers/<slug>.yml` with aggregated `works`,
 
 Copy reviewed drafts to `semantic/thinkers/<slug>.yml` matching [thinker-entry.schema.json](../../../schema/semantic/thinker-entry.schema.json).
 
+**Pilot promotion (recommended first pass):**
+
+```bash
+make derive-thinker-drafts
+# edit semantic/thinkers-pilot-overrides.yml summaries as needed
+make promote-thinker-drafts THINKER_PROMOTE_PILOT_ONLY=1
+```
+
+Or promote individual slugs:
+
+```bash
+python3 tools/promote_thinker_drafts.py --repo . --slug hannah-arendt --slug karl-e-weick
+```
+
 For each thinker:
 
 - Replace draft placeholder `summary` with portfolio-grounded prose

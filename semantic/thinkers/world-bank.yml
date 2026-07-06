@@ -1,0 +1,13 @@
+slug: world-bank
+name: World Bank
+type: organization
+summary: Multilateral development institution publishing economic, climate, and governance
+  data and policy reports.
+concepts: []
+patterns: []
+relatedBooks:
+- when-incentives-become-the-moral-language
+works:
+- world-bank-state-and-trends-of-carbon-pricing
+whyThisMatters: World Bank sources anchor arguments about incentives, carbon pricing,
+  and how global institutions frame moral language at scale.

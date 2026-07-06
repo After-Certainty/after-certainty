@@ -1,0 +1,17 @@
+slug: daniel-kahneman
+name: Daniel Kahneman
+type: person
+summary: Psychologist of judgment and decision-making—biases, heuristics, and noise
+  in expert choice.
+concepts: []
+patterns: []
+relatedBooks:
+- how-serious-systems-learn
+- the-discipline-of-uncertainty
+- trust-beyond-similarity
+- when-authority-outlives-accountability
+- when-moral-seriousness-scales
+works:
+- kahneman-daniel-thinking-fast-and-slow
+whyThisMatters: Kahneman is a core reference for how meaning and confidence diverge
+  from statistical reality.
