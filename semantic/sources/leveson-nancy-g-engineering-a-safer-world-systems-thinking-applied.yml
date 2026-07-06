@@ -3,7 +3,13 @@ name: 'Nancy G Leveson — Engineering a Safer World: Systems Thinking Applied'
 type: book
 summary: 'Leveson, Nancy G. *Engineering a Safer World: Systems Thinking Applied to
   Safety*. Cambridge, MA: MIT Press, 2011.'
-concepts: []
+concepts:
+- consequence-architecture
+- coupling
+- feedback
+- harm
+- responsibility
+- system
 patterns: []
 relatedBooks:
 - how-serious-systems-learn

@@ -4,9 +4,15 @@ type: person
 summary: Political theorist whose work helps frame authority, judgment, responsibility,
   violence, and public action.
 concepts:
+- authority
+- coercion
 - correction
 - guest-leadership
+- judgment
 - legitimacy
+- public-interpretation
+- responsibility
+- total-authority
 patterns: []
 relatedBooks:
 - how-serious-systems-learn

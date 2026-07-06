@@ -3,7 +3,10 @@ name: Hannah Arendt — The Origins of Totalitarianism
 type: book
 summary: 'Arendt, Hannah. *The Origins of Totalitarianism*. New York: Harcourt, Brace,
   1951.'
-concepts: []
+concepts:
+- coercion
+- legitimacy
+- total-authority
 patterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters

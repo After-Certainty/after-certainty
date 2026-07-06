@@ -4,7 +4,12 @@ name: 'Herbert A Simon — Administrative Behavior: A Study of Decision-Making P
 type: book
 summary: 'Simon, Herbert A. *Administrative Behavior: A Study of Decision-Making Processes
   in Administrative Organizations*. 4th ed. New York: Free Press, 1997.'
-concepts: []
+concepts:
+- attention
+- constraints
+- finite-perspective
+- judgment
+- uncertainty
 patterns: []
 relatedBooks:
 - coupling

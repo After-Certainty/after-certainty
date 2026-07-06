@@ -2,7 +2,11 @@ slug: cockburn-alistair-hexagonal-architecture-ports-and-adapters
 name: Alistair Cockburn — Hexagonal Architecture (Ports and Adapters).
 type: article
 summary: Cockburn, Alistair. "Hexagonal Architecture (Ports and Adapters)." https://alistair.cockburn.us/hexagonal-architecture/.
-concepts: []
+concepts:
+- boundary
+- coupling
+- hexagonal-architecture
+- interface
 patterns: []
 relatedBooks:
 - coupling

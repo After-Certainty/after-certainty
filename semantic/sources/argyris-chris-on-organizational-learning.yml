@@ -3,7 +3,11 @@ name: Chris Argyris — On Organizational Learning
 type: book
 summary: 'Argyris, Chris. *On Organizational Learning*. 2nd ed. Malden, MA: Blackwell,
   1999.'
-concepts: []
+concepts:
+- contestability
+- correction
+- erosion
+- feedback
 patterns: []
 relatedBooks:
 - when-accountability-no-longer-expires

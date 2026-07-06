@@ -3,7 +3,13 @@ name: Philip Selznick
 type: person
 summary: Sociologist of leadership, institutional integrity, and how organizations
   acquire character and mission.
-concepts: []
+concepts:
+- authority
+- governance-coupling
+- institutional-memory
+- legitimacy
+- responsibility
+- vitality
 patterns: []
 relatedBooks:
 - how-serious-systems-learn

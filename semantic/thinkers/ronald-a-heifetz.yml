@@ -3,7 +3,13 @@ name: Ronald A Heifetz
 type: person
 summary: Leadership scholar of adaptive work—mobilizing people to tackle problems
   that require learning and loss.
-concepts: []
+concepts:
+- adaptability
+- authority
+- friction
+- judgment
+- responsibility
+- uncertainty
 patterns: []
 relatedBooks:
 - when-authority-outlives-accountability

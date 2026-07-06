@@ -3,7 +3,9 @@ name: 'Niklas Luhmann — Trust and Power: Two Works'
 type: book
 summary: 'Luhmann, Niklas. *Trust and Power: Two Works*. Translated by Howard Davis,
   John Raffan, and Kathryn Rooney. Chichester, UK: John Wiley & Sons, 1979.'
-concepts: []
+concepts:
+- legitimacy
+- trust
 patterns: []
 relatedBooks:
 - how-trust-forms

@@ -3,7 +3,13 @@ name: John Dewey
 type: person
 summary: Pragmatist philosopher of inquiry, democracy, and education whose work links
   experience, habit, and public problem-solving.
-concepts: []
+concepts:
+- correction
+- feedback
+- judgment
+- public-interpretation
+- thinking
+- trust
 patterns: []
 relatedBooks:
 - after-certainty

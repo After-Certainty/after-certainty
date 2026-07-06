@@ -3,7 +3,14 @@ name: James Reason
 type: person
 summary: Safety scientist whose work on human error, organizational accidents, and
   resilient systems shaped modern safety thinking.
-concepts: []
+concepts:
+- accountability
+- correction
+- coupling
+- drift
+- feedback
+- harm
+- responsibility
 patterns: []
 relatedBooks:
 - the-discipline-of-uncertainty

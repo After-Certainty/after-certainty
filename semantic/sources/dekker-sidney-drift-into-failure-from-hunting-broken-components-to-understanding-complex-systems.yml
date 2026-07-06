@@ -4,7 +4,10 @@ name: 'Sidney Dekker — Drift into Failure: From Hunting Broken Components to U
 type: book
 summary: 'Dekker, Sidney. *Drift into Failure: From Hunting Broken Components to Understanding
   Complex Systems*. Farnham, UK: Ashgate, 2011.'
-concepts: []
+concepts:
+- coupling
+- drift
+- harm
 patterns: []
 relatedBooks:
 - coupling

@@ -29,6 +29,16 @@ from book_specs import (
     load_upcoming_spec,
 )
 
+_TOOLS_DIR = Path(__file__).resolve().parent
+if str(_TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(_TOOLS_DIR))
+
+from thinker_concept_audit import (  # noqa: E402
+    collect_advisory_warnings,
+    find_creator_slug_mismatches,
+    load_entity_dir,
+)
+
 SEMANTIC = Path("semantic")
 SCHEMA_DIR = Path("schema") / "semantic"
 SLUG_PARENTS = frozenset({"glossary", "patterns", "sources", "situations", "thinkers"})
@@ -258,11 +268,26 @@ def _manifest_round_trip(repo: Path, errors: list[str]) -> None:
             )
 
 
+def _check_creator_slugs(
+    repo: Path,
+    *,
+    thinker_slugs: set[str],
+    errors: list[str],
+) -> None:
+    sources = load_entity_dir(repo, "sources")
+    for source_slug, creator_slug in find_creator_slug_mismatches(sources, thinker_slugs):
+        errors.append(
+            f"semantic/sources/{source_slug}.yml: creatorSlugs references "
+            f"unknown thinker slug {creator_slug!r}"
+        )
+
+
 def validate(
     repo: Path,
     *,
     include_drafts: bool,
     strict_refs: bool,
+    strict_audit: bool,
     skip_manifest_round_trip: bool,
 ) -> int:
     store = _schema_store(repo)
@@ -274,7 +299,9 @@ def validate(
     patterns = _collect_dir_slugs(repo, "patterns")
     sources = _collect_dir_slugs(repo, "sources")
     situations = _collect_dir_slugs(repo, "situations")
+    thinkers = _collect_dir_slugs(repo, "thinkers")
     books = _collect_book_slugs(repo)
+    audit_warnings: list[str] = []
 
     seen_slugs: dict[str, Path] = {}
 
@@ -361,6 +388,18 @@ def validate(
         for line in ref_errors:
             print(f"  {line}", file=sys.stderr)
 
+    _check_creator_slugs(repo, thinker_slugs=thinkers, errors=audit_warnings)
+    audit_warnings.extend(collect_advisory_warnings(repo))
+    if audit_warnings:
+        if strict_audit:
+            rc = 1
+        print(
+            f"{'Audit error(s)' if strict_audit else 'Audit warning(s)'}: {len(audit_warnings)}",
+            file=sys.stderr,
+        )
+        for line in audit_warnings:
+            print(f"  {line}", file=sys.stderr)
+
     if not skip_manifest_round_trip:
         manifest_errors: list[str] = []
         _manifest_round_trip(repo, manifest_errors)
@@ -397,12 +436,18 @@ def main() -> None:
         action="store_true",
         help="Skip generate + validate semantic-manifest.json",
     )
+    parser.add_argument(
+        "--strict-audit",
+        action="store_true",
+        help="Treat thinker/source concept audit warnings as errors",
+    )
     args = parser.parse_args()
     sys.exit(
         validate(
             Path(args.repo).resolve(),
             include_drafts=args.include_drafts,
             strict_refs=args.strict_refs,
+            strict_audit=args.strict_audit,
             skip_manifest_round_trip=args.skip_manifest_round_trip,
         )
     )

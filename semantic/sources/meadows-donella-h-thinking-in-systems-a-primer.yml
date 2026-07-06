@@ -3,7 +3,11 @@ name: 'Donella H Meadows — Thinking in Systems: A Primer'
 type: book
 summary: 'Meadows, Donella H. *Thinking in Systems: A Primer*. Edited by Diana Wright.
   White River Junction, VT: Chelsea Green, 2008.'
-concepts: []
+concepts:
+- coupling
+- feedback
+- humility
+- system
 patterns: []
 relatedBooks:
 - how-serious-systems-learn

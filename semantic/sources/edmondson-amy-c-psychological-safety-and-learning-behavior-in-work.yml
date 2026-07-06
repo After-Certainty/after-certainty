@@ -4,10 +4,9 @@ type: article
 summary: 'Edmondson, Amy C. "Psychological Safety and Learning Behavior in Work Teams."
   *Administrative Science Quarterly* 44, no. 2 (1999): 350–383.'
 concepts:
+- contestability
 - correction
-- guest-leadership
-- legitimacy
-- normalization
+- trust
 patterns: []
 relatedBooks:
 - when-others-look-to-you-v1

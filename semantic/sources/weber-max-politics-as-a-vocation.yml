@@ -4,7 +4,9 @@ type: article
 summary: 'Weber, Max. "Politics as a Vocation." In *From Max Weber: Essays in Sociology*,
   edited by H. H. Gerth and C. Wright Mills, 77–128. New York: Oxford University Press,
   1946.'
-concepts: []
+concepts:
+- authority
+- legitimacy
 patterns: []
 relatedBooks:
 - when-authority-outlives-accountability

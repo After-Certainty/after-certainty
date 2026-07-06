@@ -3,7 +3,10 @@ name: Herbert A Simon — A Behavioral Model of Rational Choice.
 type: article
 summary: 'Simon, Herbert A. "A Behavioral Model of Rational Choice." *Quarterly Journal
   of Economics* 69, no. 1 (1955): 99–118.'
-concepts: []
+concepts:
+- constraints
+- finite-perspective
+- judgment
 patterns: []
 relatedBooks:
 - after-certainty

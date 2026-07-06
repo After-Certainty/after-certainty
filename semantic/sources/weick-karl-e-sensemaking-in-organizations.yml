@@ -3,7 +3,11 @@ name: Karl E Weick — Sensemaking in Organizations
 type: book
 summary: 'Weick, Karl E. *Sensemaking in Organizations*. Foundations for Organizational
   Science. Thousand Oaks, CA: Sage, 1995.'
-concepts: []
+concepts:
+- coordination
+- interpretation
+- meaning
+- uncertainty
 patterns: []
 relatedBooks:
 - how-serious-systems-learn

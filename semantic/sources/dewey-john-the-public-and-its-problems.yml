@@ -3,7 +3,9 @@ name: John Dewey — The Public and Its Problems
 type: book
 summary: 'Dewey, John. *The Public and Its Problems*. Athens, OH: Ohio University
   Press, 1954. First published 1927.'
-concepts: []
+concepts:
+- public-interpretation
+- trust
 patterns: []
 relatedBooks:
 - how-trust-forms

@@ -3,7 +3,11 @@ name: James Reason — Managing the Risks of Organizational Accidents
 type: book
 summary: 'Reason, James. *Managing the Risks of Organizational Accidents*. Aldershot,
   UK: Ashgate, 1997.'
-concepts: []
+concepts:
+- accountability
+- coupling
+- correction
+- responsibility
 patterns: []
 relatedBooks:
 - when-trust-stops-tracking-reality

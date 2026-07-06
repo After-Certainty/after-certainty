@@ -3,7 +3,8 @@ name: Alistair Cockburn — Agile Software Development
 type: book
 summary: 'Cockburn, Alistair. *Agile Software Development*. Boston: Addison-Wesley,
   2002.'
-concepts: []
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling

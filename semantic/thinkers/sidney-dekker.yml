@@ -3,7 +3,13 @@ name: Sidney Dekker
 type: person
 summary: Safety scientist advocating just culture, human factors, and learning from
   failure without scapegoating.
-concepts: []
+concepts:
+- accountability
+- correction
+- drift
+- harm
+- repair
+- responsibility
 patterns: []
 relatedBooks:
 - coupling

@@ -3,7 +3,13 @@ name: Chris Argyris
 type: person
 summary: Organizational theorist of double-loop learning, defensive routines, and
   how organizations avoid painful truth.
-concepts: []
+concepts:
+- contestability
+- correction
+- erosion
+- feedback
+- repair
+- thinking
 patterns: []
 relatedBooks:
 - when-accountability-no-longer-expires

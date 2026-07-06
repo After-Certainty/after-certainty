@@ -2,7 +2,10 @@ slug: dewey-john-experience-and-education
 name: John Dewey — Experience and Education
 type: book
 summary: 'Dewey, John. *Experience and Education*. New York: Macmillan, 1938.'
-concepts: []
+concepts:
+- correction
+- feedback
+- thinking
 patterns: []
 relatedBooks:
 - when-trust-stops-tracking-reality

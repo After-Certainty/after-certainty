@@ -3,7 +3,12 @@ name: Herbert A Simon
 type: person
 summary: Nobel laureate in economics; bounded rationality, satisficing, and administrative
   behavior in organizations.
-concepts: []
+concepts:
+- attention
+- constraints
+- finite-perspective
+- judgment
+- uncertainty
 patterns: []
 relatedBooks:
 - after-certainty

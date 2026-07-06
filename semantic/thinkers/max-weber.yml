@@ -4,10 +4,12 @@ type: person
 summary: Sociologist of bureaucracy, authority types, rationalization, and the iron
   cage of modern institutions.
 concepts:
-- correction
+- authority
+- bureaucracy
 - distance
-- guest-leadership
+- institutional-memory
 - legitimacy
+- throughput
 patterns:
 - disagreement-is-suppressed
 relatedBooks:

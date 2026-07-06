@@ -3,7 +3,10 @@ name: 'John Dewey — Human Nature and Conduct: An Introduction to Social Psycho
 type: book
 summary: 'Dewey, John. *Human Nature and Conduct: An Introduction to Social Psychology*.
   New York: Henry Holt, 1922.'
-concepts: []
+concepts:
+- correction
+- judgment
+- thinking
 patterns: []
 relatedBooks:
 - how-trust-forms

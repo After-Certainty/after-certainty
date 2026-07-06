@@ -3,7 +3,9 @@ name: Hannah Arendt — The Life of the Mind
 type: book
 summary: 'Arendt, Hannah. *The Life of the Mind*. New York: Harcourt Brace Jovanovich,
   1978.'
-concepts: []
+concepts:
+- judgment
+- thinking
 patterns: []
 relatedBooks:
 - when-moral-seriousness-scales

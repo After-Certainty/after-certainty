@@ -3,7 +3,9 @@ name: 'John Dewey — The Quest for Certainty: A Study of the Relation of'
 type: book
 summary: 'Dewey, John. *The Quest for Certainty: A Study of the Relation of Knowledge
   and Action*. New York: Minton, Balch, 1929.'
-concepts: []
+concepts:
+- correction
+- judgment
 patterns: []
 relatedBooks:
 - after-certainty

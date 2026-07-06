@@ -3,7 +3,12 @@ name: Elinor Ostrom
 type: person
 summary: Nobel laureate in economics; commons governance, institutional design beyond
   markets and states.
-concepts: []
+concepts:
+- coordination
+- governance-coupling
+- legitimacy
+- reciprocity
+- trust
 patterns: []
 relatedBooks:
 - how-trust-forms

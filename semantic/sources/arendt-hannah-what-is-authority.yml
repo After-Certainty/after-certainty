@@ -3,7 +3,8 @@ name: Hannah Arendt — What Is Authority?
 type: article
 summary: 'Arendt, Hannah. "What Is Authority?" In *Between Past and Future*. New York:
   Viking Press, 1961.'
-concepts: []
+concepts:
+- authority
 patterns: []
 relatedBooks:
 - when-others-look-to-you-v2

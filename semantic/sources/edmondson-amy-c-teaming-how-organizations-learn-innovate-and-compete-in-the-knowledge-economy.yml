@@ -4,7 +4,10 @@ name: 'Amy C Edmondson — Teaming: How Organizations Learn, Innovate, and Compe
 type: book
 summary: 'Edmondson, Amy C. *Teaming: How Organizations Learn, Innovate, and Compete
   in the Knowledge Economy*. San Francisco: Jossey-Bass, 2012.'
-concepts: []
+concepts:
+- adaptation
+- correction
+- uncertainty
 patterns: []
 relatedBooks:
 - trust-beyond-similarity
