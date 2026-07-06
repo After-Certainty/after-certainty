@@ -57,6 +57,15 @@ describe("source display helpers", () => {
     expect(sourceDisplayBody(enrichedSource)).toContain("Between Past and Future");
   });
 
+  it("formats snake_case source kinds for display", () => {
+    expect(
+      sourceDisplayLabel({
+        ...enrichedSource,
+        sourceKind: "institutional_document",
+      }),
+    ).toBe("institutional document");
+  });
+
   it("returns thinker links only for resolvable creator slugs", () => {
     const graph: SemanticGraph = {
       ...enrichedGraph,
