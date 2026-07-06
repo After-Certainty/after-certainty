@@ -222,6 +222,14 @@ Phase 5: site issues 3–7 (thinker pages, book split, JSON-LD)
 | 6 | Book page: thinkers vs research sources | Split book-page sections |
 | — | JSON-LD for sources and thinkers | JSON-LD updates |
 
+**Cursor skills**
+
+| Repo | Skill | Role |
+|------|-------|------|
+| after-certainty | `semantic-sources` | Bibliography → `semantic/sources/` + v1.5 metadata |
+| after-certainty | `semantic-thinkers` | `semantic/thinkers/` + manifest v2 |
+| after-certainty-site | `refresh-manifest` | Pull release manifest; check `manifestVersion`, optional `thinkers[]`, enriched `sources[]` |
+
 ---
 
 ## Risks and mitigations

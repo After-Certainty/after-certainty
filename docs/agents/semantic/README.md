@@ -8,6 +8,8 @@ Enrichment **proposes** meaning in gitignored drafts; humans **ratify** via `pro
 |-------|---------|
 | **glossary-extract** | Discover and add new `semantic/glossary/` entries from a book (two-tier definitions) → PR |
 | **semantic-enrichment** | Add or revise definitions, enrichment fields on existing glossary/patterns → PR |
+| **semantic-sources** | Extract/promote bibliography into `semantic/sources/` (works) with v1.5 metadata → PR |
+| **semantic-thinkers** | Derive/promote `semantic/thinkers/` (people/institutions) for manifest v2 → PR |
 | **glossary-usage-audit** | Report where existing glossary terms appear in a manuscript → PR |
 
 Paths: `.cursor/skills/<skill-name>/SKILL.md`

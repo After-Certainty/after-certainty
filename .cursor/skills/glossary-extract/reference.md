@@ -69,4 +69,5 @@ Search before inventing: `rg -l 'keyword' semantic/glossary/`
 
 - **semantic-enrichment** (`definitions`) — revise definitions and `relatedConcepts` for existing book-scoped terms
 - **semantic-enrichment** (other types) — add recognitionSignals, questions, etc. after glossary exists
+- **semantic-sources** — bibliography works for the same book
 - **glossary-usage-audit** — where existing terms appear in the manuscript

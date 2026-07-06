@@ -29,6 +29,8 @@ Map `book_id` → `BOOK_DIR` (see [reference.md](reference.md)). Accept synonyms
 
 Entities in scope: `semantic/glossary/`, `semantic/patterns/`, `semantic/situations/` where `relatedBooks` is empty or includes this `book_id`.
 
+**Not in scope:** `semantic/sources/` (works) and `semantic/thinkers/` — use **semantic-sources** and **semantic-thinkers** skills.
+
 List them:
 
 ```bash
@@ -127,7 +129,9 @@ Return the PR URL to the user.
 1. **glossary-extract** — new slugs + initial two-tier definitions
 2. **semantic-enrichment** → `definitions` — revise book-scoped terms, disambiguation, `relatedConcepts`
 3. **semantic-relationships** — add typed edges for "differs from" statements and force dynamics
-4. **semantic-enrichment** → `recognition-signals` / `all` — signals, trajectories, manifestations
+4. **semantic-sources** — bibliography works + v1.5 metadata (`creatorSlugs`, `citation`, …)
+5. **semantic-thinkers** — thinker nodes after sources enriched (optional manifest v2)
+6. **semantic-enrichment** → `recognition-signals` / `all` — signals, trajectories, manifestations
 
 ## Do not
 
