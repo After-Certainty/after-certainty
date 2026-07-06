@@ -1,6 +1,6 @@
 {
-  "manifestVersion": 1,
-  "generatedAt": "2026-07-06T05:38:20.100174+00:00",
+  "manifestVersion": 2,
+  "generatedAt": "2026-07-06T06:38:41.376861+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
@@ -20493,5 +20493,1037 @@
         "effect": "hardens adaptation"
       }
     ]
-  }
+  },
+  "thinkers": [
+    {
+      "id": "thinker-albert-o-hirschman",
+      "slug": "albert-o-hirschman",
+      "name": "Albert O Hirschman",
+      "type": "person",
+      "summary": "Economist and social theorist of exit, voice, and loyalty\u2014how people respond when institutions disappoint.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-accountability-no-longer-expires",
+        "book-when-authority-outlives-accountability",
+        "book-when-interpretation-no-longer-matters",
+        "book-when-moral-seriousness-scales",
+        "book-why-collaboration-is-so-hard"
+      ],
+      "works": [
+        "source-hirschman-albert-o-exit-voice-and-loyalty-responses-to-decline-in-firms-organizations-and-states",
+        "source-hirschman-albert-o-the-rhetoric-of-reaction-perversity-futility"
+      ],
+      "whyThisMatters": "Hirschman names the basic repertoire of response when trust thins\u2014stay, speak, or leave."
+    },
+    {
+      "id": "thinker-alistair-cockburn",
+      "slug": "alistair-cockburn",
+      "name": "Alistair Cockburn",
+      "type": "person",
+      "summary": "Software methodologist (Agile, Crystal, hexagonal architecture) and writer on cooperative knowledge work.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-coupling", "book-when-others-look-to-you-v2"],
+      "works": [
+        "source-cockburn-alistair-agile-software-development",
+        "source-cockburn-alistair-hexagonal-architecture-ports-and-adapters",
+        "source-cockburn-alistair-how-to-step-up-stepping-up-promoting-guest",
+        "source-cockburn-alistair-the-heart-of-agile"
+      ],
+      "whyThisMatters": "Cockburn bridges craft practice and team coordination\u2014how collaboration fails and recovers in delivery."
+    },
+    {
+      "id": "thinker-amy-c-edmondson",
+      "slug": "amy-c-edmondson",
+      "name": "Amy C Edmondson",
+      "type": "person",
+      "summary": "Organizational scholar known for psychological safety, teaming, and learning under uncertainty in high-stakes work.",
+      "concepts": [
+        "concept-adaptation",
+        "concept-correction",
+        "concept-guest-leadership",
+        "concept-interpretation",
+        "concept-legitimacy",
+        "concept-normalization",
+        "concept-thinking",
+        "concept-uncertainty"
+      ],
+      "patterns": ["pattern-contact-keeps-the-read-open", "pattern-meaning-gets-distorted"],
+      "relatedBooks": [
+        "book-how-meaning-moves",
+        "book-how-serious-systems-learn",
+        "book-trust-beyond-similarity",
+        "book-when-authority-outlives-accountability",
+        "book-when-moral-seriousness-scales",
+        "book-when-others-look-to-you-v1",
+        "book-when-others-look-to-you-v2"
+      ],
+      "works": [
+        "source-edmondson-amy-c-psychological-safety-and-learning-behavior-in-work",
+        "source-edmondson-amy-c-teaming-how-organizations-learn-innovate-and-compete-in-the-knowledge-economy",
+        "source-edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea"
+      ],
+      "whyThisMatters": "Edmondson connects trust, voice, and error reporting\u2014the interpersonal conditions under which correction can happen."
+    },
+    {
+      "id": "thinker-arie-w-kruglanski",
+      "slug": "arie-w-kruglanski",
+      "name": "Arie W Kruglanski",
+      "type": "person",
+      "summary": "Social psychologist of motivated cognition, need for closure, and how certainty-seeking shapes belief under uncertainty.",
+      "concepts": [
+        "concept-adaptation",
+        "concept-interpretation",
+        "concept-meaning",
+        "concept-thinking",
+        "concept-uncertainty"
+      ],
+      "patterns": [
+        "pattern-contact-keeps-the-read-open",
+        "pattern-gaps-invite-completion",
+        "pattern-meaning-drifts-over-time",
+        "pattern-meaning-forms-early",
+        "pattern-meaning-gets-distorted",
+        "pattern-meaning-reinforces-itself",
+        "pattern-meaning-shifts-under-pressure"
+      ],
+      "relatedBooks": ["book-how-meaning-moves"],
+      "works": [
+        "source-kruglanski-arie-w-the-need-for-cognitive-closure",
+        "source-kruglanski-arie-w-the-psychology-of-closed-mindedness"
+      ],
+      "whyThisMatters": "Kruglanski links interpretation, meaning, and closure\u2014the psychological pressure that makes premature certainty feel like relief."
+    },
+    {
+      "id": "thinker-c-thi-nguyen",
+      "slug": "c-thi-nguyen",
+      "name": "C. Thi Nguyen",
+      "type": "person",
+      "summary": "Philosopher of games, value capture, and how designed environments reshape what people want and notice.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-trust-beyond-similarity"],
+      "works": [
+        "source-nguyen-c-thi-echo-chambers-and-epistemic-bubbles",
+        "source-nguyen-c-thi-games-agency-as-art"
+      ],
+      "whyThisMatters": "Nguyen names how systems gamify commitment\u2014relevant for trust, attention, and moral seriousness at scale."
+    },
+    {
+      "id": "thinker-cass-r-sunstein",
+      "slug": "cass-r-sunstein",
+      "name": "Cass R Sunstein",
+      "type": "person",
+      "summary": "Legal scholar of behavioral economics, group polarization, and how information environments shape belief.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-after-certainty",
+        "book-the-discipline-of-uncertainty",
+        "book-the-economy-we-dont-experience",
+        "book-trust-beyond-similarity",
+        "book-when-interpretation-no-longer-matters"
+      ],
+      "works": [
+        "source-sunstein-cass-r-how-facts-change-minds-cognitive-foundations-of-political-persuasion",
+        "source-sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media"
+      ],
+      "whyThisMatters": "Sunstein helps explain echo effects and why more speech alone does not restore shared reality."
+    },
+    {
+      "id": "thinker-charles-perrow",
+      "slug": "charles-perrow",
+      "name": "Charles Perrow",
+      "type": "person",
+      "summary": "Sociologist of normal accidents\u2014tight coupling and complex systems where failures cascade.",
+      "concepts": ["concept-meaning"],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves",
+        "book-how-serious-systems-learn",
+        "book-when-moral-seriousness-scales",
+        "book-when-others-look-to-you-v2"
+      ],
+      "works": ["source-perrow-charles-normal-accidents-living-with-high-risk-technologies"],
+      "whyThisMatters": "Perrow is essential for serious systems, coupling, and why some failures are structurally likely."
+    },
+    {
+      "id": "thinker-chris-argyris",
+      "slug": "chris-argyris",
+      "name": "Chris Argyris",
+      "type": "person",
+      "summary": "Organizational theorist of double-loop learning, defensive routines, and how organizations avoid painful truth.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-accountability-no-longer-expires",
+        "book-when-others-look-to-you-v2"
+      ],
+      "works": [
+        "source-argyris-chris-on-organizational-learning",
+        "source-argyris-chris-overcoming-organizational-defenses"
+      ],
+      "whyThisMatters": "Argyris names why teams talk about learning while protecting the assumptions that block it."
+    },
+    {
+      "id": "thinker-dan-m-kahan",
+      "slug": "dan-m-kahan",
+      "name": "Dan M Kahan",
+      "type": "person",
+      "summary": "Legal scholar studying cultural cognition\u2014how group identity shapes risk perception and belief formation.",
+      "concepts": ["concept-adaptation", "concept-interpretation"],
+      "patterns": [],
+      "relatedBooks": ["book-after-certainty", "book-how-meaning-moves"],
+      "works": [
+        "source-kahan-dan-m-cultural-cognition-and-public-policy",
+        "source-kahan-dan-m-motivated-reasoning"
+      ],
+      "whyThisMatters": "Kahan explains why more information rarely settles disputes that are really about belonging."
+    },
+    {
+      "id": "thinker-daniel-kahneman",
+      "slug": "daniel-kahneman",
+      "name": "Daniel Kahneman",
+      "type": "person",
+      "summary": "Psychologist of judgment and decision-making\u2014biases, heuristics, and noise in expert choice.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-serious-systems-learn",
+        "book-the-discipline-of-uncertainty",
+        "book-trust-beyond-similarity",
+        "book-when-authority-outlives-accountability",
+        "book-when-moral-seriousness-scales"
+      ],
+      "works": ["source-kahneman-daniel-thinking-fast-and-slow"],
+      "whyThisMatters": "Kahneman is a core reference for how meaning and confidence diverge from statistical reality."
+    },
+    {
+      "id": "thinker-david-graeber",
+      "slug": "david-graeber",
+      "name": "David Graeber",
+      "type": "person",
+      "summary": "Anthropologist and critic of bureaucracy, debt, and the moral economies embedded in institutions.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-how-serious-systems-learn", "book-living-in-sediment"],
+      "works": [
+        "source-graeber-david-debt-the-first-5-000-years",
+        "source-graeber-david-on-the-phenomenon-of-bullshit-jobs"
+      ],
+      "whyThisMatters": "Graeber helps connect moral language, obligation, and the lived experience of administrative power."
+    },
+    {
+      "id": "thinker-diane-vaughan",
+      "slug": "diane-vaughan",
+      "name": "Diane Vaughan",
+      "type": "person",
+      "summary": "Sociologist of the Challenger disaster and normalization of deviance\u2014how risky practices become routine.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-serious-systems-learn",
+        "book-when-accountability-no-longer-expires",
+        "book-when-others-look-to-you-v2",
+        "book-when-trust-stops-tracking-reality"
+      ],
+      "works": [
+        "source-vaughan-diane-the-challenger-launch-decision-risky-technology-culture-and-deviance-at-nasa"
+      ],
+      "whyThisMatters": "Vaughan explains how organizations learn the wrong lesson while appearing compliant."
+    },
+    {
+      "id": "thinker-donald-m-berwick",
+      "slug": "donald-m-berwick",
+      "name": "Donald M Berwick",
+      "type": "person",
+      "summary": "Physician-leader in quality improvement and patient safety\u2014learning health systems and healthcare redesign.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-coupling"],
+      "works": [
+        "source-berwick-donald-m-developing-and-testing-changes-in-delivery-of-care",
+        "source-berwick-donald-m-era-3-for-medicine-and-health-care",
+        "source-berwick-donald-m-measuring-surgical-outcomes-for-improvement-was-codman-wrong"
+      ],
+      "whyThisMatters": "Berwick connects moral seriousness in medicine to measurable improvement and institutional learning."
+    },
+    {
+      "id": "thinker-donella-h-meadows",
+      "slug": "donella-h-meadows",
+      "name": "Donella H Meadows",
+      "type": "person",
+      "summary": "Systems thinker and writer on leverage points, feedback loops, and learning to intervene in complex systems without hubris.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-how-serious-systems-learn", "book-living-in-sediment"],
+      "works": ["source-meadows-donella-h-thinking-in-systems-a-primer"],
+      "whyThisMatters": "Meadows is a core reference for serious systems\u2014where to push, what resists, and why small changes sometimes move everything."
+    },
+    {
+      "id": "thinker-edgar-h-schein",
+      "slug": "edgar-h-schein",
+      "name": "Edgar H Schein",
+      "type": "person",
+      "summary": "Organizational psychologist of culture, career anchors, and how tacit assumptions persist beneath stated values.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-authority-outlives-accountability",
+        "book-when-moral-seriousness-scales",
+        "book-when-others-look-to-you-v2"
+      ],
+      "works": ["source-schein-edgar-h-organizational-culture-and-leadership"],
+      "whyThisMatters": "Schein helps read what institutions actually believe\u2014the layer below mission statements where correction stalls or spreads."
+    },
+    {
+      "id": "thinker-elinor-ostrom",
+      "slug": "elinor-ostrom",
+      "name": "Elinor Ostrom",
+      "type": "person",
+      "summary": "Nobel laureate in economics; commons governance, institutional design beyond markets and states.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-trust-forms",
+        "book-living-in-sediment",
+        "book-trust-beyond-similarity",
+        "book-when-trust-stops-tracking-reality"
+      ],
+      "works": [
+        "source-ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action"
+      ],
+      "whyThisMatters": "Ostrom shows how communities can steward shared resources when scale and trust still matter."
+    },
+    {
+      "id": "thinker-elizabeth-w-morrison",
+      "slug": "elizabeth-w-morrison",
+      "name": "Elizabeth W Morrison",
+      "type": "organization",
+      "summary": "Organizational scholar of voice, silence, and why employees withhold concerns even when stakes are high.",
+      "concepts": ["concept-interpretation"],
+      "patterns": [],
+      "relatedBooks": ["book-how-meaning-moves"],
+      "works": ["source-morrison-elizabeth-w-employee-voice-behavior"],
+      "whyThisMatters": "Morrison connects psychological safety to everyday withholding\u2014the gap between policy and what people will actually say."
+    },
+    {
+      "id": "thinker-erving-goffman",
+      "slug": "erving-goffman",
+      "name": "Erving Goffman",
+      "type": "person",
+      "summary": "Sociologist of interaction ritual, face, framing, and the presentation of self in everyday life.",
+      "concepts": ["concept-thinking", "concept-uncertainty"],
+      "patterns": [],
+      "relatedBooks": ["book-how-meaning-moves", "book-how-trust-forms"],
+      "works": [
+        "source-goffman-erving-interaction-ritual",
+        "source-goffman-erving-the-presentation-of-self-in-everyday-life"
+      ],
+      "whyThisMatters": "Goffman clarifies how status, embarrassment, and impression management shape public judgment."
+    },
+    {
+      "id": "thinker-fernand-braudel",
+      "slug": "fernand-braudel",
+      "name": "Fernand Braudel",
+      "type": "person",
+      "summary": "Historian of the longue dur\u00e9e\u2014slow structures, material life, and how deep time constrains political events.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-before-certainty-arrives", "book-living-in-sediment"],
+      "works": [
+        "source-braudel-fernand-on-history",
+        "source-braudel-fernand-the-structures-of-everyday-life"
+      ],
+      "whyThisMatters": "Braudel reminds readers that visible crises sit on slower layers that outlast any single decision cycle."
+    },
+    {
+      "id": "thinker-francis-fukuyama",
+      "slug": "francis-fukuyama",
+      "name": "Francis Fukuyama",
+      "type": "person",
+      "summary": "Political scientist of state capacity, trust, social capital, and how institutions gain or lose governing legitimacy.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-trust-beyond-similarity",
+        "book-when-authority-outlives-accountability"
+      ],
+      "works": ["source-fukuyama-francis-trust-the-social-virtues-and-the-creation-of-prosperity"],
+      "whyThisMatters": "Fukuyama links trust formation to institutional quality\u2014when scale outruns the bonds that make cooperation possible."
+    },
+    {
+      "id": "thinker-gerd-gigerenzer",
+      "slug": "gerd-gigerenzer",
+      "name": "Gerd Gigerenzer",
+      "type": "person",
+      "summary": "Psychologist of ecological rationality\u2014heuristics, fast-and-frugal judgment, and when simple rules outperform complex models.",
+      "concepts": ["concept-interpretation", "concept-meaning"],
+      "patterns": [
+        "pattern-contact-keeps-the-read-open",
+        "pattern-meaning-drifts-over-time",
+        "pattern-meaning-forms-early",
+        "pattern-meaning-gets-distorted",
+        "pattern-meaning-reinforces-itself",
+        "pattern-meaning-shifts-under-pressure"
+      ],
+      "relatedBooks": ["book-how-meaning-moves"],
+      "works": ["source-gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious"],
+      "whyThisMatters": "Gigerenzer counters bias-only stories with environment-shaped reason\u2014how people actually decide under constraint."
+    },
+    {
+      "id": "thinker-guy-deutscher",
+      "slug": "guy-deutscher",
+      "name": "Guy Deutscher",
+      "type": "person",
+      "summary": "Linguist and writer on how language shapes thought, color, and the habits of attention cultures train into perception.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-living-in-sediment"],
+      "works": [
+        "source-deutscher-guy-the-unfolding-of-language-an-evolutionary-tour-of-mankind-s",
+        "source-deutscher-guy-through-the-language-glass-why-the-world-looks-different-in-other"
+      ],
+      "whyThisMatters": "Deutscher makes interpretation concrete\u2014how categories in language become categories in judgment."
+    },
+    {
+      "id": "thinker-hannah-arendt",
+      "slug": "hannah-arendt",
+      "name": "Hannah Arendt",
+      "type": "person",
+      "summary": "Political theorist whose work helps frame authority, judgment, responsibility, violence, and public action.",
+      "concepts": ["concept-correction", "concept-guest-leadership", "concept-legitimacy"],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-serious-systems-learn",
+        "book-how-trust-forms",
+        "book-living-in-sediment",
+        "book-the-discipline-of-uncertainty",
+        "book-when-accountability-no-longer-expires",
+        "book-when-authority-outlives-accountability",
+        "book-when-interpretation-no-longer-matters",
+        "book-when-moral-seriousness-scales",
+        "book-when-others-look-to-you-v1",
+        "book-when-others-look-to-you-v2"
+      ],
+      "works": [
+        "source-arendt-hannah-between-past-and-future",
+        "source-arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of-evil",
+        "source-arendt-hannah-on-revolution",
+        "source-arendt-hannah-on-violence",
+        "source-arendt-hannah-responsibility-and-judgment",
+        "source-arendt-hannah-the-human-condition",
+        "source-arendt-hannah-the-life-of-the-mind",
+        "source-arendt-hannah-the-origins-of-totalitarianism",
+        "source-arendt-hannah-what-is-authority"
+      ],
+      "whyThisMatters": "Arendt helps distinguish authority from force and responsibility from obedience\u2014recurring lenses across legitimacy, scale, and moral seriousness."
+    },
+    {
+      "id": "thinker-herbert-a-simon",
+      "slug": "herbert-a-simon",
+      "name": "Herbert A Simon",
+      "type": "person",
+      "summary": "Nobel laureate in economics; bounded rationality, satisficing, and administrative behavior in organizations.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-after-certainty", "book-coupling"],
+      "works": [
+        "source-simon-herbert-a-a-behavioral-model-of-rational-choice",
+        "source-simon-herbert-a-administrative-behavior-a-study-of-decision-making-processes-in-administrative-o"
+      ],
+      "whyThisMatters": "Simon grounds why judgment is always constrained\u2014and why institutions must design for that fact."
+    },
+    {
+      "id": "thinker-irving-l-janis",
+      "slug": "irving-l-janis",
+      "name": "Irving L Janis",
+      "type": "person",
+      "summary": "Psychologist of groupthink\u2014how cohesive groups suppress dissent and convince themselves their consensus is rational.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-trust-beyond-similarity",
+        "book-when-others-look-to-you-v1",
+        "book-when-others-look-to-you-v2"
+      ],
+      "works": [
+        "source-janis-irving-l-groupthink-psychological-studies-of-policy-decisions-and-fiascoes"
+      ],
+      "whyThisMatters": "Janis explains premature closure in high-stakes teams\u2014when moral seriousness requires someone to break the spell."
+    },
+    {
+      "id": "thinker-jack-w-brehm",
+      "slug": "jack-w-brehm",
+      "name": "Jack W Brehm",
+      "type": "person",
+      "summary": "Psychologist of psychological reactance\u2014how perceived freedom loss triggers resistance and entrenchment.",
+      "concepts": [
+        "concept-correction",
+        "concept-guest-leadership",
+        "concept-legitimacy",
+        "concept-normalization"
+      ],
+      "patterns": [],
+      "relatedBooks": ["book-when-others-look-to-you-v1"],
+      "works": ["source-brehm-jack-w-a-theory-of-psychological-reactance"],
+      "whyThisMatters": "Brehm explains backlash when authority overreaches\u2014essential for legitimacy, voice, and correction that does not harden opposition."
+    },
+    {
+      "id": "thinker-james-c-scott",
+      "slug": "james-c-scott",
+      "name": "James C Scott",
+      "type": "person",
+      "summary": "Political scientist of state simplification, legibility, and how high-modernist schemes misfire on local knowledge.",
+      "concepts": ["concept-correction", "concept-distance", "concept-harm", "concept-legitimacy"],
+      "patterns": [
+        "pattern-disagreement-is-suppressed",
+        "pattern-examples-accumulate",
+        "pattern-leaders-feel-the-consequences"
+      ],
+      "relatedBooks": [
+        "book-after-certainty",
+        "book-how-serious-systems-learn",
+        "book-how-trust-forms",
+        "book-living-in-sediment",
+        "book-when-others-look-to-you-v1",
+        "book-when-trust-stops-tracking-reality"
+      ],
+      "works": [
+        "source-scott-james-c-domination-and-the-arts-of-resistance-hidden-transcripts",
+        "source-scott-james-c-seeing-like-a-state-how-certain-schemes-to-improve-the-human-condition-have-failed"
+      ],
+      "whyThisMatters": "Scott explains why centralized seeing and standardization can destroy the detail judgment depends on."
+    },
+    {
+      "id": "thinker-james-reason",
+      "slug": "james-reason",
+      "name": "James Reason",
+      "type": "person",
+      "summary": "Safety scientist whose work on human error, organizational accidents, and resilient systems shaped modern safety thinking.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-the-discipline-of-uncertainty",
+        "book-trust-beyond-similarity",
+        "book-when-others-look-to-you-v2",
+        "book-when-trust-stops-tracking-reality"
+      ],
+      "works": [
+        "source-reason-james-human-error",
+        "source-reason-james-managing-the-risks-of-organizational-accidents",
+        "source-reason-james-the-human-contribution-unsafe-acts-accidents-and-heroic-recoveries"
+      ],
+      "whyThisMatters": "Reason reframes failure as systemic\u2014essential for coupling, accountability, and learning without blame theater."
+    },
+    {
+      "id": "thinker-john-dewey",
+      "slug": "john-dewey",
+      "name": "John Dewey",
+      "type": "person",
+      "summary": "Pragmatist philosopher of inquiry, democracy, and education whose work links experience, habit, and public problem-solving.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-after-certainty",
+        "book-how-trust-forms",
+        "book-when-trust-stops-tracking-reality"
+      ],
+      "works": [
+        "source-dewey-john-ethics",
+        "source-dewey-john-experience-and-education",
+        "source-dewey-john-experience-and-nature",
+        "source-dewey-john-human-nature-and-conduct-an-introduction-to-social-psychology",
+        "source-dewey-john-the-public-and-its-problems",
+        "source-dewey-john-the-quest-for-certainty-a-study-of-the-relation-of"
+      ],
+      "whyThisMatters": "Dewey grounds how correction, learning, and democratic judgment stay tied to lived practice rather than abstract certainty."
+    },
+    {
+      "id": "thinker-joseph-henrich",
+      "slug": "joseph-henrich",
+      "name": "Joseph Henrich",
+      "type": "person",
+      "summary": "Anthropologist and evolutionary theorist of cultural evolution, collective brains, and how societies scale cooperation differently.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-before-certainty-arrives", "book-living-in-sediment"],
+      "works": [
+        "source-henrich-joseph-the-secret-of-our-success-how-culture-is-driving-human-evolution"
+      ],
+      "whyThisMatters": "Henrich explains variation in norms and institutions\u2014why what works in one moral community fails in another."
+    },
+    {
+      "id": "thinker-joseph-ledoux",
+      "slug": "joseph-ledoux",
+      "name": "Joseph LeDoux",
+      "type": "person",
+      "summary": "Neuroscientist of fear, memory, and the circuits that turn threat signals into conscious experience.",
+      "concepts": ["concept-thinking", "concept-uncertainty"],
+      "patterns": [],
+      "relatedBooks": ["book-how-meaning-moves"],
+      "works": ["source-ledoux-joseph-the-emotional-brain"],
+      "whyThisMatters": "LeDoux separates alarm from narrative\u2014useful when institutions must distinguish panic from proportionate response."
+    },
+    {
+      "id": "thinker-karl-e-weick",
+      "slug": "karl-e-weick",
+      "name": "Karl E Weick",
+      "type": "person",
+      "summary": "Organizational theorist of sensemaking\u2014how people enact and retrospectively rationalize meaning under ambiguity.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-serious-systems-learn",
+        "book-trust-beyond-similarity",
+        "book-when-accountability-no-longer-expires",
+        "book-when-others-look-to-you-v2",
+        "book-when-trust-stops-tracking-reality"
+      ],
+      "works": [
+        "source-weick-karl-e-sensemaking-in-organizations",
+        "source-weick-karl-e-the-social-psychology-of-organizing"
+      ],
+      "whyThisMatters": "Weick is central to how meaning moves, organizes, and rewrites itself under pressure."
+    },
+    {
+      "id": "thinker-karl-polanyi",
+      "slug": "karl-polanyi",
+      "name": "Karl Polanyi",
+      "type": "person",
+      "summary": "Economic historian of the Great Transformation\u2014how markets get embedded in social relations and what happens when they are not.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-before-certainty-arrives", "book-living-in-sediment"],
+      "works": [
+        "source-polanyi-karl-the-great-transformation-the-political-and-economic-origins-of-our"
+      ],
+      "whyThisMatters": "Polanyi warns that treating land, labor, and money as pure commodities destabilizes the social fabric judgment depends on."
+    },
+    {
+      "id": "thinker-lisa-feldman-barrett",
+      "slug": "lisa-feldman-barrett",
+      "name": "Lisa Feldman Barrett",
+      "type": "person",
+      "summary": "Neuroscientist and psychologist of constructed emotion\u2014how the brain predicts and categorizes affect from context and culture.",
+      "concepts": ["concept-thinking", "concept-uncertainty"],
+      "patterns": [],
+      "relatedBooks": ["book-how-meaning-moves"],
+      "works": ["source-barrett-lisa-feldman-how-emotions-are-made-the-secret-life-of-the-brain"],
+      "whyThisMatters": "Barrett reframes feeling as interpretation-in-motion, not a fixed inner readout\u2014relevant wherever meaning and bodies meet judgment."
+    },
+    {
+      "id": "thinker-martin-fowler",
+      "slug": "martin-fowler",
+      "name": "Martin Fowler",
+      "type": "person",
+      "summary": "Software writer and methodologist on architecture, refactoring, and how teams evolve systems without losing coherence.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-coupling"],
+      "works": [
+        "source-fowler-martin-integration-metadata",
+        "source-fowler-martin-refactoring-improving-the-design-of-existing-code"
+      ],
+      "whyThisMatters": "Fowler connects craft discipline to organizational learning\u2014how codebases and teams carry sedimented decisions forward."
+    },
+    {
+      "id": "thinker-mary-douglas",
+      "slug": "mary-douglas",
+      "name": "Mary Douglas",
+      "type": "person",
+      "summary": "Anthropologist of risk, purity, and how institutions think through classification and blame.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-before-certainty-arrives", "book-living-in-sediment"],
+      "works": [
+        "source-douglas-mary-how-institutions-think",
+        "source-douglas-mary-purity-and-danger-an-analysis-of-concepts-of-pollution"
+      ],
+      "whyThisMatters": "Douglas links culture, taboo, and accountability\u2014how groups decide what failure means."
+    },
+    {
+      "id": "thinker-max-weber",
+      "slug": "max-weber",
+      "name": "Max Weber",
+      "type": "person",
+      "summary": "Sociologist of bureaucracy, authority types, rationalization, and the iron cage of modern institutions.",
+      "concepts": [
+        "concept-correction",
+        "concept-distance",
+        "concept-guest-leadership",
+        "concept-legitimacy"
+      ],
+      "patterns": ["pattern-disagreement-is-suppressed"],
+      "relatedBooks": [
+        "book-how-trust-forms",
+        "book-living-in-sediment",
+        "book-when-accountability-no-longer-expires",
+        "book-when-authority-outlives-accountability",
+        "book-when-interpretation-no-longer-matters",
+        "book-when-moral-seriousness-scales",
+        "book-when-others-look-to-you-v1",
+        "book-when-others-look-to-you-v2",
+        "book-when-trust-stops-tracking-reality"
+      ],
+      "works": [
+        "source-weber-max-economy-and-society-an-outline-of-interpretive-sociology",
+        "source-weber-max-politics-as-a-vocation"
+      ],
+      "whyThisMatters": "Weber's authority and bureaucracy frames appear wherever scale, procedure, and legitimacy interact."
+    },
+    {
+      "id": "thinker-michel-foucault",
+      "slug": "michel-foucault",
+      "name": "Michel Foucault",
+      "type": "person",
+      "summary": "Historian and philosopher of power, knowledge, and institutions\u2014discipline, surveillance, and how subjects are formed.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-living-in-sediment", "book-when-interpretation-no-longer-matters"],
+      "works": [
+        "source-foucault-michel-discipline-and-punish-the-birth-of-the-prison",
+        "source-foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977",
+        "source-foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76",
+        "source-foucault-michel-the-order-of-things-an-archaeology-of-the-human-sciences"
+      ],
+      "whyThisMatters": "Foucault sharpens readings of how systems shape visibility, compliance, and what counts as normal."
+    },
+    {
+      "id": "thinker-miranda-fricker",
+      "slug": "miranda-fricker",
+      "name": "Miranda Fricker",
+      "type": "person",
+      "summary": "Philosopher of epistemic injustice\u2014testimonial and hermeneutical wrongs that distort who gets heard and what can be named.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-meaning-moves",
+        "book-how-trust-forms",
+        "book-when-trust-stops-tracking-reality"
+      ],
+      "works": ["source-fricker-miranda-epistemic-injustice-power-and-the-ethics-of-knowing"],
+      "whyThisMatters": "Fricker gives precise language for credibility deficits and interpretive gaps\u2014when correction depends on whose voice counts."
+    },
+    {
+      "id": "thinker-morton-deutsch",
+      "slug": "morton-deutsch",
+      "name": "Morton Deutsch",
+      "type": "person",
+      "summary": "Social psychologist of cooperation, conflict resolution, and the conditions under which competitive groups find workable trust.",
+      "concepts": ["concept-adaptation"],
+      "patterns": [],
+      "relatedBooks": ["book-how-meaning-moves"],
+      "works": ["source-deutsch-morton-the-resolution-of-conflict"],
+      "whyThisMatters": "Deutsch supplies durable vocabulary for negotiation, justice, and when correction requires relationship repair."
+    },
+    {
+      "id": "thinker-nassim-nicholas-taleb",
+      "slug": "nassim-nicholas-taleb",
+      "name": "Nassim Nicholas Taleb",
+      "type": "person",
+      "summary": "Essayist and risk thinker of antifragility, black swans, and fragility under model-driven certainty.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-how-serious-systems-learn", "book-the-discipline-of-uncertainty"],
+      "works": ["source-taleb-nassim-nicholas-antifragile-things-that-gain-from-disorder"],
+      "whyThisMatters": "Taleb disciplines overconfidence in prediction and design\u2014when systems need slack, optionality, and honest tail risk."
+    },
+    {
+      "id": "thinker-national-institute-of-standards-and-technology",
+      "slug": "national-institute-of-standards-and-technology",
+      "name": "National Institute of Standards and Technology",
+      "type": "organization",
+      "summary": "U.S. federal agency publishing frameworks for secure software development and AI risk management used across industry and government.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-coupling"],
+      "works": [
+        "source-national-institute-of-standards-and-technology-artificial-intelligence-risk-management-framework",
+        "source-national-institute-of-standards-and-technology-secure-software-development-framework-ssdf-versio"
+      ],
+      "whyThisMatters": "NIST sources anchor how serious systems formalize risk, coupling, and accountable design at institutional scale."
+    },
+    {
+      "id": "thinker-niklas-luhmann",
+      "slug": "niklas-luhmann",
+      "name": "Niklas Luhmann",
+      "type": "person",
+      "summary": "Systems theorist of autopoietic social systems, communication, and functional differentiation.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-after-certainty",
+        "book-how-trust-forms",
+        "book-when-trust-stops-tracking-reality"
+      ],
+      "works": [
+        "source-luhmann-niklas-social-systems",
+        "source-luhmann-niklas-trust-and-power-two-works"
+      ],
+      "whyThisMatters": "Luhmann offers a structural vocabulary for how institutions observe themselves and close against disturbance."
+    },
+    {
+      "id": "thinker-onora-o-neill",
+      "slug": "onora-o-neill",
+      "name": "Onora O'Neill",
+      "type": "person",
+      "summary": "Philosopher of trust, accountability, and intelligent transparency in public institutions and professional ethics.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-how-trust-forms", "book-when-trust-stops-tracking-reality"],
+      "works": ["source-o-neill-onora-a-question-of-trust"],
+      "whyThisMatters": "O'Neill reframes trust as judgment about reliability\u2014not blind faith or mere disclosure volume."
+    },
+    {
+      "id": "thinker-philip-e-tetlock",
+      "slug": "philip-e-tetlock",
+      "name": "Philip E Tetlock",
+      "type": "person",
+      "summary": "Psychologist of forecasting, expert judgment, and superforecasting under uncertainty.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-the-economy-we-dont-experience",
+        "book-trust-beyond-similarity",
+        "book-when-authority-outlives-accountability"
+      ],
+      "works": [
+        "source-tetlock-philip-e-expert-political-judgment-how-good-is-it-how-can-we-know",
+        "source-tetlock-philip-e-superforecasting-the-art-and-science-of-prediction"
+      ],
+      "whyThisMatters": "Tetlock disciplines claims about prediction\u2014when confidence outruns evidence."
+    },
+    {
+      "id": "thinker-philip-selznick",
+      "slug": "philip-selznick",
+      "name": "Philip Selznick",
+      "type": "person",
+      "summary": "Sociologist of leadership, institutional integrity, and how organizations acquire character and mission.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-how-serious-systems-learn",
+        "book-living-in-sediment",
+        "book-when-authority-outlives-accountability",
+        "book-when-moral-seriousness-scales"
+      ],
+      "works": [
+        "source-selznick-philip-leadership-in-administration-a-sociological-interpretation"
+      ],
+      "whyThisMatters": "Selznick connects legitimacy and purpose\u2014when institutions become more than their formal rules."
+    },
+    {
+      "id": "thinker-rebecca-solnit",
+      "slug": "rebecca-solnit",
+      "name": "Rebecca Solnit",
+      "type": "person",
+      "summary": "Writer and critic of certainty, disaster response, and the politics of hope\u2014narrative sense-making in public life.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-living-in-sediment"],
+      "works": [
+        "source-solnit-rebecca-a-field-guide-to-getting-lost",
+        "source-solnit-rebecca-hope-in-the-dark-untold-histories-wild-possibilities",
+        "source-solnit-rebecca-no-straight-road-takes-you-there-essays-for-uneven-terrain"
+      ],
+      "whyThisMatters": "Solnit offers language for provisional knowledge, collective action, and why premature closure distorts judgment."
+    },
+    {
+      "id": "thinker-robert-a-dahl",
+      "slug": "robert-a-dahl",
+      "name": "Robert A Dahl",
+      "type": "person",
+      "summary": "Political theorist of democracy, polyarchy, and power distributions in modern states.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-trust-beyond-similarity", "book-when-moral-seriousness-scales"],
+      "works": [
+        "source-dahl-robert-a-on-democracy",
+        "source-dahl-robert-a-polyarchy-participation-and-opposition"
+      ],
+      "whyThisMatters": "Dahl supplies baseline vocabulary for authority, participation, and when rule is accountable."
+    },
+    {
+      "id": "thinker-robert-k-merton",
+      "slug": "robert-k-merton",
+      "name": "Robert K Merton",
+      "type": "person",
+      "summary": "Sociologist of unintended consequences, bureaucracy, and the normative structure of science.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-moral-seriousness-scales",
+        "book-when-trust-stops-tracking-reality"
+      ],
+      "works": [
+        "source-merton-robert-k-bureaucratic-structure-and-personality",
+        "source-merton-robert-k-the-normative-structure-of-science"
+      ],
+      "whyThisMatters": "Merton's patterns\u2014manifest and latent function\u2014help read how incentives reproduce behavior."
+    },
+    {
+      "id": "thinker-scott-e-page",
+      "slug": "scott-e-page",
+      "name": "Scott E Page",
+      "type": "person",
+      "summary": "Social scientist of diversity, collective prediction, and how heterogeneous groups can outperform homogeneous experts.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-trust-beyond-similarity"],
+      "works": [
+        "source-page-scott-e-the-difference-how-the-power-of-diversity-creates-better-groups-firms-schools-and-s",
+        "source-page-scott-e-the-diversity-bonus-how-great-teams-pay-off-in-the-knowledge-economy"
+      ],
+      "whyThisMatters": "Page gives formal backing for why difference of perspective is operational, not decorative, in serious systems."
+    },
+    {
+      "id": "thinker-shoshana-zuboff",
+      "slug": "shoshana-zuboff",
+      "name": "Shoshana Zuboff",
+      "type": "person",
+      "summary": "Scholar of surveillance capitalism\u2014how data extraction turns experience into behavioral prediction and market power.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-coupling", "book-living-in-sediment"],
+      "works": [
+        "source-zuboff-shoshana-the-age-of-surveillance-capitalism-the-fight-for-a-human-future-at-the-new-front"
+      ],
+      "whyThisMatters": "Zuboff connects scale, attention, and institutional power\u2014when interpretation becomes an extractive business model."
+    },
+    {
+      "id": "thinker-sidney-dekker",
+      "slug": "sidney-dekker",
+      "name": "Sidney Dekker",
+      "type": "person",
+      "summary": "Safety scientist advocating just culture, human factors, and learning from failure without scapegoating.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-coupling", "book-how-serious-systems-learn"],
+      "works": [
+        "source-dekker-sidney-drift-into-failure-from-hunting-broken-components-to-understanding-complex-systems",
+        "source-dekker-sidney-the-field-guide-to-understanding-human-error"
+      ],
+      "whyThisMatters": "Dekker bridges operational safety and moral accountability when systems hurt people."
+    },
+    {
+      "id": "thinker-stanley-milgram",
+      "slug": "stanley-milgram",
+      "name": "Stanley Milgram",
+      "type": "person",
+      "summary": "Social psychologist whose obedience experiments showed how ordinary people defer to authority even against conscience.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-how-meaning-moves", "book-when-authority-outlives-accountability"],
+      "works": ["source-milgram-stanley-obedience-to-authority-an-experimental-view"],
+      "whyThisMatters": "Milgram remains a baseline for authority, responsibility, and when people outsource moral judgment to roles."
+    },
+    {
+      "id": "thinker-ulrich-beck",
+      "slug": "ulrich-beck",
+      "name": "Ulrich Beck",
+      "type": "person",
+      "summary": "Sociologist of the risk society\u2014how modern institutions distribute manufactured uncertainty and individualized responsibility.",
+      "concepts": ["concept-harm"],
+      "patterns": [],
+      "relatedBooks": ["book-when-others-look-to-you-v1"],
+      "works": ["source-beck-ulrich-risk-society-towards-a-new-modernity"],
+      "whyThisMatters": "Beck frames why accountability and risk get personal when systems are opaque but consequences are shared."
+    },
+    {
+      "id": "thinker-v-clav-havel",
+      "slug": "v-clav-havel",
+      "name": "V\u00e1clav Havel",
+      "type": "person",
+      "summary": "Writer and statesman of living in truth, dissident responsibility, and moral seriousness under ideological pressure.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-when-interpretation-no-longer-matters"],
+      "works": ["source-havel-v-clav-the-power-of-the-powerless"],
+      "whyThisMatters": "Havel articulates how people sustain integrity when systems demand performative loyalty\u2014guest leadership under constraint."
+    },
+    {
+      "id": "thinker-w-brian-arthur",
+      "slug": "w-brian-arthur",
+      "name": "W. Brian Arthur",
+      "type": "person",
+      "summary": "Economist of complexity, increasing returns, and path dependence in technology and economic systems.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-living-in-sediment"],
+      "works": [
+        "source-arthur-w-brian-competing-technologies-increasing-returns-and-lock-in-by",
+        "source-arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy"
+      ],
+      "whyThisMatters": "Arthur shows how small early advantages compound\u2014why lock-in and sediment matter for institutions and infrastructure."
+    },
+    {
+      "id": "thinker-w-edwards-deming",
+      "slug": "w-edwards-deming",
+      "name": "W. Edwards Deming",
+      "type": "person",
+      "summary": "Statistician and management thinker of quality, systems improvement, and how organizations learn from variation rather than blame.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-coupling"],
+      "works": ["source-deming-w-edwards-out-of-the-crisis"],
+      "whyThisMatters": "Deming links measurement to institutional learning\u2014why accountability without system thinking becomes cruelty theater."
+    },
+    {
+      "id": "thinker-william-h-mcneill",
+      "slug": "william-h-mcneill",
+      "name": "William H McNeill",
+      "type": "person",
+      "summary": "Historian of plagues, populations, and macro-social cohesion\u2014how disease and mobility reshape collective life.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-living-in-sediment"],
+      "works": [
+        "source-mcneill-william-h-keeping-together-in-time-dance-and-drill-in-human-history"
+      ],
+      "whyThisMatters": "McNeill offers long-horizon context for disruption, trust, and how societies absorb shocks across generations."
+    },
+    {
+      "id": "thinker-world-bank",
+      "slug": "world-bank",
+      "name": "World Bank",
+      "type": "organization",
+      "summary": "Multilateral development institution publishing economic, climate, and governance data and policy reports.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-when-incentives-become-the-moral-language"],
+      "works": ["source-world-bank-state-and-trends-of-carbon-pricing"],
+      "whyThisMatters": "World Bank sources anchor arguments about incentives, carbon pricing, and how global institutions frame moral language at scale."
+    },
+    {
+      "id": "thinker-zeynep-tufekci",
+      "slug": "zeynep-tufekci",
+      "name": "Zeynep Tufekci",
+      "type": "person",
+      "summary": "Sociologist of technology, protest, and how digital networks change mobilization, visibility, and collective action.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": ["book-coupling"],
+      "works": [
+        "source-tufekci-zeynep-twitter-and-tear-gas-the-power-and-fragility-of-networked-protest"
+      ],
+      "whyThisMatters": "Tufekci shows how platforms reshape public judgment\u2014speed, signal, and the new politics of attention."
+    },
+    {
+      "id": "thinker-zygmunt-bauman",
+      "slug": "zygmunt-bauman",
+      "name": "Zygmunt Bauman",
+      "type": "person",
+      "summary": "Sociologist of liquid modernity\u2014how mobility, fragmentation, and insecurity reshape identity, community, and moral obligation.",
+      "concepts": [],
+      "patterns": [],
+      "relatedBooks": [
+        "book-when-accountability-no-longer-expires",
+        "book-when-authority-outlives-accountability"
+      ],
+      "works": ["source-bauman-zygmunt-modernity-and-the-holocaust"],
+      "whyThisMatters": "Bauman names the loosening of durable bonds\u2014why trust and accountability feel harder when nothing stays put."
+    }
+  ]
 }
