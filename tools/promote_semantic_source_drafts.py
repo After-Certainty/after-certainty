@@ -35,6 +35,7 @@ if str(_TOOLS_DIR) not in sys.path:
     sys.path.insert(0, str(_TOOLS_DIR))
 
 from dedupe_semantic_sources import collapse_prefix_duplicates, dedupe  # noqa: E402
+from source_metadata import enrich_source_record  # noqa: E402
 
 DEFAULT_DRAFT_ROOT = Path("semantic/_drafts/generated/sources")
 DEFAULT_DEST = Path("semantic/sources")
@@ -99,8 +100,8 @@ def _merge_records(a: dict, b: dict) -> dict:
 
 
 def _to_canonical(rec: dict) -> dict:
-    """Drop draft-only keys and workTitle; set combined display name."""
-    out = {
+    """Drop draft-only keys; set combined display name and v1.5 metadata when available."""
+    base = {
         "slug": str(rec.get("slug", "")).strip(),
         "name": _display_name(rec),
         "type": str(rec.get("type", "book")).strip() or "book",
@@ -109,9 +110,12 @@ def _to_canonical(rec: dict) -> dict:
         "patterns": _merge_related_books(rec.get("patterns")),
         "relatedBooks": _merge_related_books(rec.get("relatedBooks")),
     }
-    if not out["slug"]:
+    work_title = rec.get("workTitle")
+    if isinstance(work_title, str) and work_title.strip():
+        base["workTitle"] = work_title.strip()
+    if not base["slug"]:
         raise ValueError("record missing slug")
-    return out
+    return enrich_source_record(base, overwrite=False)
 
 
 def _discover_book_dirs(draft_root: Path, book_ids: list[str]) -> list[Path]:

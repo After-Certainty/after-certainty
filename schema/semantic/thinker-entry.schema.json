@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/thinker-entry.schema.json",
+  "title": "Semantic thinker entry YAML",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "name", "type", "summary", "concepts", "patterns", "relatedBooks", "works"],
+  "properties": {
+    "slug": { "$ref": "common.json#/$defs/slug" },
+    "name": { "$ref": "common.json#/$defs/nonEmptyString" },
+    "type": {
+      "type": "string",
+      "enum": ["person", "organization"]
+    },
+    "summary": { "type": "string" },
+    "concepts": { "$ref": "common.json#/$defs/conceptSlugList" },
+    "patterns": { "$ref": "common.json#/$defs/patternSlugList" },
+    "relatedBooks": { "$ref": "common.json#/$defs/bookSlugList" },
+    "works": { "$ref": "common.json#/$defs/sourceSlugList" },
+    "whyThisMatters": { "type": "string" }
+  }
+}

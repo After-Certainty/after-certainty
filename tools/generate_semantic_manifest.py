@@ -60,6 +60,66 @@ def source_id(slug: str) -> str:
     return f"source-{slug}"
 
 
+def thinker_id(slug: str) -> str:
+    return f"thinker-{slug}"
+
+
+SOURCE_KIND_VALUES = frozenset(
+    {
+        "book",
+        "article",
+        "report",
+        "standard",
+        "dataset",
+        "speech",
+        "case",
+        "website",
+        "institutional_document",
+    }
+)
+
+OPTIONAL_SOURCE_STRING_FIELDS = (
+    "title",
+    "citation",
+    "publisher",
+    "institution",
+    "url",
+    "whyThisMatters",
+)
+
+
+def _optional_string_list(data: dict, key: str) -> list[str] | None:
+    raw = data.get(key)
+    if not isinstance(raw, list):
+        return None
+    out = [str(x).strip() for x in raw if str(x).strip()]
+    return out or None
+
+
+def _optional_source_fields(data: dict) -> dict:
+    """Pass through v1.5 optional source metadata when present in YAML."""
+    out: dict = {}
+    source_kind = str(data.get("sourceKind", "")).strip()
+    if source_kind in SOURCE_KIND_VALUES:
+        out["sourceKind"] = source_kind
+    for key in ("creatorNames", "creatorSlugs"):
+        values = _optional_string_list(data, key)
+        if values:
+            out[key] = values
+    for key in OPTIONAL_SOURCE_STRING_FIELDS:
+        value = str(data.get(key, "")).strip()
+        if value:
+            out[key] = value
+    year = data.get("year")
+    if isinstance(year, int) and 1000 <= year <= 2100:
+        out["year"] = year
+    elif isinstance(year, str) and year.strip().isdigit():
+        y = int(year.strip())
+        if 1000 <= y <= 2100:
+            out["year"] = y
+    return out
+
+
 def book_id(slug: str) -> str:
     return f"book-{slug}"
 
@@ -538,6 +598,33 @@ def build_sources(repo: Path) -> list[dict]:
             "patterns": [pattern_id(s) for s in _normalize_pattern_slugs(data.get("patterns"))],
             "relatedBooks": [book_id(s) for s in _normalize_book_slugs(data.get("relatedBooks"))],
         }
+        entry.update(_optional_source_fields(data))
+        out.append(entry)
+    return out
+
+
+def build_thinkers(repo: Path) -> list[dict]:
+    raw = _load_dir_yml(repo / SEMANTIC_ROOT / "thinkers")
+    out: list[dict] = []
+    for slug in sorted(raw.keys()):
+        data = raw[slug]
+        thinker_type = str(data.get("type", "person")).strip().lower()
+        if thinker_type not in ("person", "organization"):
+            thinker_type = "person"
+        entry: dict = {
+            "id": thinker_id(slug),
+            "slug": slug,
+            "name": str(data.get("name", slug)).strip(),
+            "type": thinker_type,
+            "summary": str(data.get("summary", "")).strip(),
+            "concepts": [concept_id(s) for s in _normalize_concept_slugs(data.get("concepts"))],
+            "patterns": [pattern_id(s) for s in _normalize_pattern_slugs(data.get("patterns"))],
+            "relatedBooks": [book_id(s) for s in _normalize_book_slugs(data.get("relatedBooks"))],
+            "works": [source_id(s) for s in _normalize_source_slugs(data.get("works"))],
+        }
+        why = str(data.get("whyThisMatters", "")).strip()
+        if why:
+            entry["whyThisMatters"] = why
         out.append(entry)
     return out
 
@@ -852,6 +939,7 @@ def main() -> None:
     patterns = build_patterns(repo, repo_slug=repo_slug, ref=args.github_ref)
     situations = build_situations(repo)
     sources = build_sources(repo)
+    thinkers = build_thinkers(repo)
     relationships = build_relationships(repo)
     rev = _reverse_index_entities(glossary, patterns, sources)
     books = _enriched_books(base_books, rev, book_media_by_slug, book_commerce_by_slug)
@@ -859,8 +947,9 @@ def main() -> None:
     scan_slugs = set(core_slugs) | set(supporting_slugs)
     _apply_mentions(base_books, glossary, repo, scan_slugs=scan_slugs)
 
-    payload = {
-        "manifestVersion": 1,
+    manifest_version = 2 if thinkers else 1
+    payload: dict = {
+        "manifestVersion": manifest_version,
         "generatedAt": datetime.now(UTC).isoformat(),
         "repository": repo_slug or None,
         "ref": args.github_ref,
@@ -873,6 +962,8 @@ def main() -> None:
         "relationships": relationships,
         "ontology": build_ontology_block(repo),
     }
+    if thinkers:
+        payload["thinkers"] = thinkers
 
     out_path = Path(args.out).resolve()
     out_path.parent.mkdir(parents=True, exist_ok=True)
