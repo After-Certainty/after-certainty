@@ -60,8 +60,9 @@ For each **approved** new term (user may narrow the list):
    | `longDefinition` | Hub terms, disambiguation pairs, or cross-book reuse | 40–140 words; contrasts + book application |
 
 5. Wire **`relatedConcepts`** to 2–5 nearby slugs when the term is a hub or part of a disambiguation pair.
-6. Do **not** duplicate an existing slug.
-7. Do **not** add `recognitionSignals` / `trajectory` / etc. unless the user asks — use **semantic-enrichment** after definitions exist.
+6. Consider adding typed relationships to `semantic/relationships.yml` when definitions contain "differs from" statements or force dynamics (see **[semantic-relationships skill](../semantic-relationships/SKILL.md)**).
+7. Do **not** duplicate an existing slug.
+8. Do **not** add `recognitionSignals` / `trajectory` / etc. unless the user asks — use **semantic-enrichment** after definitions exist.
 
 Copy from drafts when present; otherwise write from manuscript source. Prefer manuscript wording for book-specific color; generalize the opening sentence when the term will appear on the portfolio concepts index.
 
@@ -117,6 +118,7 @@ Return the PR URL.
 | Next step | Skill / type |
 |-----------|----------------|
 | Revise definitions for book-scoped terms already in glossary | **semantic-enrichment** → `definitions` |
+| Add typed relationships for "differs from" statements and force dynamics | **semantic-relationships** |
 | Add recognition signals, trajectories, etc. | **semantic-enrichment** → `recognition-signals`, `all`, … |
 | Report where terms appear in manuscript | **glossary-usage-audit** |
 
