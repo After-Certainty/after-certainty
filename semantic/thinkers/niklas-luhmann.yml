@@ -3,7 +3,12 @@ name: Niklas Luhmann
 type: person
 summary: Systems theorist of autopoietic social systems, communication, and functional
   differentiation.
-concepts: []
+concepts:
+- boundary
+- coherence-maintenance
+- legitimacy
+- system
+- trust
 patterns: []
 relatedBooks:
 - after-certainty

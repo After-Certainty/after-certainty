@@ -3,7 +3,12 @@ name: Karl E Weick
 type: person
 summary: Organizational theorist of sensemaking—how people enact and retrospectively
   rationalize meaning under ambiguity.
-concepts: []
+concepts:
+- coherence-maintenance
+- coordination
+- interpretation
+- meaning
+- uncertainty
 patterns: []
 relatedBooks:
 - how-serious-systems-learn

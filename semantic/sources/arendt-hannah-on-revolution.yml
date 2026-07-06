@@ -2,7 +2,9 @@ slug: arendt-hannah-on-revolution
 name: Hannah Arendt — On Revolution
 type: book
 summary: 'Arendt, Hannah. *On Revolution*. New York: Viking Press, 1963.'
-concepts: []
+concepts:
+- legitimacy
+- public-interpretation
 patterns: []
 relatedBooks:
 - when-moral-seriousness-scales

@@ -5,8 +5,11 @@ summary: Software methodologist (Agile, Crystal, hexagonal architecture) and wri
   on cooperative knowledge work.
 concepts:
 - agile
+- boundary
+- coupling
 - guest-leadership
 - hexagonal-architecture
+- interface
 patterns: []
 relatedBooks:
 - coupling

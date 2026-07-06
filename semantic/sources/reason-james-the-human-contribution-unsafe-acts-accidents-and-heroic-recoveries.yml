@@ -3,7 +3,11 @@ name: 'James Reason — The Human Contribution: Unsafe Acts, Accidents and Heroi
 type: book
 summary: 'Reason, James. *The Human Contribution: Unsafe Acts, Accidents and Heroic
   Recoveries*. Farnham, UK: Ashgate, 2008.'
-concepts: []
+concepts:
+- accountability
+- feedback
+- harm
+- responsibility
 patterns: []
 relatedBooks:
 - the-discipline-of-uncertainty

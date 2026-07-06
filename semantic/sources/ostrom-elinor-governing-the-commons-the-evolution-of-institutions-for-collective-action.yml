@@ -4,7 +4,12 @@ name: 'Elinor Ostrom — Governing the Commons: The Evolution of Institutions fo
 type: book
 summary: 'Ostrom, Elinor. *Governing the Commons: The Evolution of Institutions for
   Collective Action*. Cambridge: Cambridge University Press, 1990.'
-concepts: []
+concepts:
+- coordination
+- governance-coupling
+- legitimacy
+- reciprocity
+- trust
 patterns: []
 relatedBooks:
 - how-trust-forms

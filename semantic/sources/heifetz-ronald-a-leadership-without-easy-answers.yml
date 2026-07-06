@@ -3,7 +3,13 @@ name: Ronald A Heifetz — Leadership Without Easy Answers
 type: book
 summary: 'Heifetz, Ronald A. *Leadership Without Easy Answers*. Cambridge, MA: Belknap
   Press of Harvard University Press, 1994.'
-concepts: []
+concepts:
+- adaptability
+- authority
+- friction
+- judgment
+- responsibility
+- uncertainty
 patterns: []
 relatedBooks:
 - when-authority-outlives-accountability

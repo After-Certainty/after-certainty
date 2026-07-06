@@ -4,7 +4,11 @@ name: 'James C Scott — Seeing Like a State: How Certain Schemes to Improve the
 type: book
 summary: 'Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the
   Human Condition Have Failed*. New Haven, CT: Yale University Press, 1998.'
-concepts: []
+concepts:
+- abstraction
+- distance
+- harm
+- legibility
 patterns: []
 relatedBooks:
 - after-certainty

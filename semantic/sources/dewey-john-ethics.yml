@@ -3,7 +3,9 @@ name: John Dewey — Ethics
 type: book
 summary: 'Dewey, John. *Ethics*. 2nd ed. 1932. Reprint, Carbondale: Southern Illinois
   University Press, 1989.'
-concepts: []
+concepts:
+- judgment
+- trust
 patterns: []
 relatedBooks:
 - after-certainty

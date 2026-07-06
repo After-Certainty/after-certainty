@@ -3,7 +3,11 @@ name: Chris Argyris — Overcoming Organizational Defenses
 type: book
 summary: 'Argyris, Chris. *Overcoming Organizational Defenses*. Boston: Allyn and
   Bacon, 1990.'
-concepts: []
+concepts:
+- correction
+- erosion
+- feedback
+- repair
 patterns: []
 relatedBooks:
 - when-others-look-to-you-v2

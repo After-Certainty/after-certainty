@@ -3,7 +3,9 @@ name: Hannah Arendt — The Human Condition
 type: book
 summary: 'Arendt, Hannah. *The Human Condition*. 2nd ed. Chicago: University of Chicago
   Press, 1998.'
-concepts: []
+concepts:
+- authority
+- public-interpretation
 patterns: []
 relatedBooks:
 - how-trust-forms

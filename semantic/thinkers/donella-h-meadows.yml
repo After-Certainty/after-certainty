@@ -3,7 +3,13 @@ name: Donella H Meadows
 type: person
 summary: Systems thinker and writer on leverage points, feedback loops, and learning
   to intervene in complex systems without hubris.
-concepts: []
+concepts:
+- correction
+- coupling
+- drift
+- feedback
+- humility
+- system
 patterns: []
 relatedBooks:
 - how-serious-systems-learn

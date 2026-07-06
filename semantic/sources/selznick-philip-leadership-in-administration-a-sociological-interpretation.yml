@@ -3,7 +3,13 @@ name: 'Philip Selznick — Leadership in Administration: A Sociological Interpre
 type: book
 summary: 'Selznick, Philip. *Leadership in Administration: A Sociological Interpretation*.
   New York: Harper & Row, 1957.'
-concepts: []
+concepts:
+- authority
+- governance-coupling
+- institutional-memory
+- legitimacy
+- responsibility
+- vitality
 patterns: []
 relatedBooks:
 - how-serious-systems-learn

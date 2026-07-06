@@ -3,7 +3,13 @@ name: Nancy G Leveson
 type: person
 summary: Engineer and safety scientist of systems thinking, STAMP, and building software
   and sociotechnical systems that fail safely.
-concepts: []
+concepts:
+- consequence-architecture
+- coupling
+- feedback
+- harm
+- responsibility
+- system
 patterns: []
 relatedBooks:
 - how-serious-systems-learn

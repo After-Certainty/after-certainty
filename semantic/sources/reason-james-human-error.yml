@@ -2,7 +2,10 @@ slug: reason-james-human-error
 name: James Reason — Human Error
 type: book
 summary: 'Reason, James. *Human Error*. Cambridge: Cambridge University Press, 1990.'
-concepts: []
+concepts:
+- accountability
+- feedback
+- harm
 patterns: []
 relatedBooks:
 - trust-beyond-similarity
