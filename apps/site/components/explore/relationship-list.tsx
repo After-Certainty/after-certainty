@@ -1,5 +1,8 @@
 import type { GraphIndex } from "@/lib/graph/graph";
-import { exploreHrefForCanonicalId, exploreObservatoryRelationshipHref } from "@/lib/graph/explorePaths";
+import {
+  exploreHrefForCanonicalId,
+  exploreObservatoryRelationshipHref,
+} from "@/lib/graph/explorePaths";
 import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
 import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
 import type { GraphEntityKind, Relationship } from "@/types/semanticGraph";
@@ -50,7 +53,11 @@ export function RelationshipList({
           const href = exploreHrefForCanonicalId(index, otherId);
           const edgeKey = vizEdgeDedupKey(ends.sourceId, ends.targetId, r.relationship);
           const observatoryHref = observatoryFocus
-            ? exploreObservatoryRelationshipHref(observatoryFocus.kind, observatoryFocus.slug, edgeKey)
+            ? exploreObservatoryRelationshipHref(
+                observatoryFocus.kind,
+                observatoryFocus.slug,
+                edgeKey,
+              )
             : undefined;
           return [
             <li key={`${r.source}-${r.target}-${r.relationship}-${i}`}>
@@ -59,6 +66,7 @@ export function RelationshipList({
                 counterpartyLabel={labelForCanonicalId(index, otherId)}
                 counterpartyHref={href}
                 observatoryHref={observatoryHref}
+                direction={mode}
               />
             </li>,
           ];

@@ -172,6 +172,12 @@ export interface SemanticGraph {
   sources: Source[];
   relationships: Relationship[];
   ontology?: SemanticOntology;
+  /** Manifest metadata (optional, from semantic-manifest.json) */
+  manifestVersion?: number;
+  generatedAt?: string;
+  repository?: string;
+  ref?: string;
+  releaseTag?: string;
 }
 
 /** Entity collections exposed in the explore UI */

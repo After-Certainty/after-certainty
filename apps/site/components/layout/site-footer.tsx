@@ -8,11 +8,20 @@ import { MediumSymbol } from "@/components/icons/social/MediumSymbol";
 import { YouTubeSymbol } from "@/components/icons/social/YouTubeSymbol";
 import { resolvePodcastRssUrl, resolveSiteSocialLinks, siteConfig } from "@/lib/site-config";
 import { Container } from "@/components/ui/container";
+import { getSemanticGraph } from "@/lib/graph/manifest";
 
 const socialIconClass =
   "rounded-md p-2 text-muted transition-colors duration-200 ease-out hover:bg-border/50 hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent/60";
 
-export function SiteFooter() {
+export async function SiteFooter() {
+  const semanticGraph = await getSemanticGraph();
+  const manifestDate = semanticGraph.generatedAt
+    ? new Date(semanticGraph.generatedAt).toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+      })
+    : null;
   const footerLinks = [
     { label: "GitHub", href: siteConfig.githubUrl },
     { label: "RSS / Podcast feed", href: resolvePodcastRssUrl() },
@@ -30,10 +39,15 @@ export function SiteFooter() {
         <div className="grid gap-12 md:grid-cols-[2fr_1fr]">
           <div>
             <SiteLockup variant="footer" />
-            <p className="mt-6 max-w-xl text-sm leading-relaxed text-muted">{siteConfig.description}</p>
+            <p className="mt-6 max-w-xl text-sm leading-relaxed text-muted">
+              {siteConfig.description}
+            </p>
             <p className="mt-8 text-xs uppercase tracking-[0.25em] text-muted">
               Content licensed{" "}
-              <a className="text-accent underline-offset-4 hover:underline" href={siteConfig.license.url}>
+              <a
+                className="text-accent underline-offset-4 hover:underline"
+                href={siteConfig.license.url}
+              >
                 {siteConfig.license.name}
               </a>
               . Attribution appreciated; remix thoughtfully.
@@ -44,7 +58,10 @@ export function SiteFooter() {
             <ul className="mt-4 space-y-3">
               {footerLinks.map((link) => (
                 <li key={link.href}>
-                  <Link className="text-sm text-fg transition-colors hover:text-accent" href={link.href}>
+                  <Link
+                    className="text-sm text-fg transition-colors hover:text-accent"
+                    href={link.href}
+                  >
                     {link.label}
                   </Link>
                 </li>
@@ -58,7 +75,12 @@ export function SiteFooter() {
                 rel="noopener noreferrer"
                 aria-label="After Certainty on GitHub"
                 className={socialIconClass}
-                analytics={outboundLinkAnalytics(social.github, "GitHub", "footer_social", "github")}
+                analytics={outboundLinkAnalytics(
+                  social.github,
+                  "GitHub",
+                  "footer_social",
+                  "github",
+                )}
               >
                 <GitHubSymbol className="h-5 w-5" />
               </TrackedLink>
@@ -68,7 +90,12 @@ export function SiteFooter() {
                 rel="noopener noreferrer"
                 aria-label="Kevin Steffensen on Medium"
                 className={socialIconClass}
-                analytics={outboundLinkAnalytics(social.medium, "Medium", "footer_social", "medium")}
+                analytics={outboundLinkAnalytics(
+                  social.medium,
+                  "Medium",
+                  "footer_social",
+                  "medium",
+                )}
               >
                 <MediumSymbol className="h-5 w-auto" />
               </TrackedLink>
@@ -78,7 +105,12 @@ export function SiteFooter() {
                 rel="noopener noreferrer"
                 aria-label="Kevin Steffensen on LinkedIn"
                 className={socialIconClass}
-                analytics={outboundLinkAnalytics(social.linkedIn, "LinkedIn", "footer_social", "linkedin")}
+                analytics={outboundLinkAnalytics(
+                  social.linkedIn,
+                  "LinkedIn",
+                  "footer_social",
+                  "linkedin",
+                )}
               >
                 <LinkedInSymbol className="h-5 w-5" />
               </TrackedLink>
@@ -88,7 +120,12 @@ export function SiteFooter() {
                 rel="noopener noreferrer"
                 aria-label="@kstefftube on YouTube"
                 className={socialIconClass}
-                analytics={outboundLinkAnalytics(social.youtube, "YouTube", "footer_social", "youtube")}
+                analytics={outboundLinkAnalytics(
+                  social.youtube,
+                  "YouTube",
+                  "footer_social",
+                  "youtube",
+                )}
               >
                 <YouTubeSymbol className="h-5 w-5" />
               </TrackedLink>
@@ -96,8 +133,13 @@ export function SiteFooter() {
           </div>
         </div>
         <p className="mt-12 text-xs text-muted">
-          Built as an open commons — books ship from sibling repositories; this site aggregates manifests and
-          surfaces collaboration entry points.
+          Built as an open commons — books ship from sibling repositories; this site aggregates
+          manifests and surfaces collaboration entry points.
+          {manifestDate && (
+            <span className="mt-2 block text-[11px] text-muted/70">
+              Semantic data: {manifestDate}
+            </span>
+          )}
         </p>
       </Container>
     </footer>

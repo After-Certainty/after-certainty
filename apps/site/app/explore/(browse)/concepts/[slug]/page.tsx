@@ -4,12 +4,15 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
-import { GraphNeighborhood } from "@/components/explore/graph-neighborhood";
+import { GraphNeighborhoodCards } from "@/components/explore/graph-neighborhood-cards";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
 import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
 import { Section } from "@/components/ui/section";
-import { conceptsSortedForExploreIndex, exploreConceptAdjacentInIndexOrder } from "@/lib/explore/explore-concepts-order";
+import {
+  conceptsSortedForExploreIndex,
+  exploreConceptAdjacentInIndexOrder,
+} from "@/lib/explore/explore-concepts-order";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { getAdjacentSourcesFromRelationships, getConceptBySlug } from "@/lib/graph/graphQueries";
@@ -65,14 +68,31 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
   );
 
   const hasRelated =
-    related.concepts.length + related.patterns.length + related.books.length + mergedSources.length > 0;
+    related.concepts.length +
+      related.patterns.length +
+      related.books.length +
+      mergedSources.length >
+    0;
   const hasRelationships = entityHasSemanticRelationships(index, concept.id);
-  const hasNeighborhood =
-    getConnectedGraphNeighborhood(
-      index,
-      { kind: "concept", id: concept.id, slug: concept.slug },
-      { maxDepth: 1, maxNodes: 20 },
-    ).length > 0;
+
+  // Get neighborhood and deduplicate against related sections
+  const allNeighbors = getConnectedGraphNeighborhood(
+    index,
+    { kind: "concept", id: concept.id, slug: concept.slug },
+    { maxDepth: 1, maxNodes: 20 },
+  );
+
+  // Build set of IDs already shown in related sections
+  const alreadyShownIds = new Set<string>([
+    ...related.concepts.map((c) => c.id),
+    ...related.patterns.map((p) => p.id),
+    ...related.books.map((b) => b.id),
+    ...mergedSources.map((s) => s.id),
+  ]);
+
+  // Filter neighbors to only those not already shown
+  const uniqueNeighbors = allNeighbors.filter((node) => !alreadyShownIds.has(node.id));
+  const hasNeighborhood = uniqueNeighbors.length > 0;
 
   const conceptBreadcrumbs = [
     { label: "Explore", href: explorePaths.home },
@@ -113,25 +133,19 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
       </Section>
 
       {hasRelated ? (
-        <Section atmosphere="transition" className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20">
+        <Section
+          atmosphere="transition"
+          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+        >
           <div className="flex flex-col gap-14">
-            <RelatedContentGrid
-              heading="Related concepts"
-              concepts={related.concepts}
-            />
-            <RelatedContentGrid
-              heading="Related patterns"
-              patterns={related.patterns}
-            />
+            <RelatedContentGrid heading="Related concepts" concepts={related.concepts} />
+            <RelatedContentGrid heading="Related patterns" patterns={related.patterns} />
             <RelatedContentGrid
               heading="Related books"
               books={related.books}
               catalogBooksForBookCovers={catalogBooks}
             />
-            <RelatedContentGrid
-              heading="Thinkers & sources"
-              sources={mergedSources}
-            />
+            <RelatedContentGrid heading="Thinkers & sources" sources={mergedSources} />
           </div>
         </Section>
       ) : null}
@@ -156,10 +170,9 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
 
       {hasNeighborhood ? (
         <Section atmosphere="none" className="!pt-0 pb-16 md:!pt-0 md:pb-20">
-          <GraphNeighborhood
-            index={index}
-            focal={{ kind: "concept", id: concept.id, slug: concept.slug }}
-            title="Neighboring terrain"
+          <GraphNeighborhoodCards
+            nodes={uniqueNeighbors}
+            title="Neighboring terrain (other connected entities)"
           />
         </Section>
       ) : null}

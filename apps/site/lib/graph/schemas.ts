@@ -190,6 +190,12 @@ export const semanticGraphSchema = z.object({
   sources: z.array(sourceSchema).default([]),
   relationships: z.array(relationshipSchema).default([]),
   ontology: ontologySchema,
+  /** Manifest metadata (optional) */
+  manifestVersion: z.number().optional(),
+  generatedAt: z.string().optional(),
+  repository: z.string().optional(),
+  ref: z.string().optional(),
+  releaseTag: z.string().optional(),
 });
 
 export type SemanticGraphZod = z.infer<typeof semanticGraphSchema>;
@@ -203,5 +209,10 @@ export function toSemanticGraph(data: SemanticGraphZod): SemanticGraph {
     sources: data.sources,
     relationships: data.relationships,
     ontology: data.ontology,
+    manifestVersion: data.manifestVersion,
+    generatedAt: data.generatedAt,
+    repository: data.repository,
+    ref: data.ref,
+    releaseTag: data.releaseTag,
   };
 }
