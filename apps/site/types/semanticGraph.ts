@@ -123,6 +123,17 @@ export interface Pattern extends SemanticEnrichment {
   infographic?: MediaInfographic;
 }
 
+export type SourceKind =
+  | "book"
+  | "article"
+  | "report"
+  | "standard"
+  | "dataset"
+  | "speech"
+  | "case"
+  | "website"
+  | "institutional_document";
+
 export interface Source {
   id: string;
   slug: string;
@@ -132,6 +143,17 @@ export interface Source {
   concepts?: string[];
   patterns?: string[];
   relatedBooks?: string[];
+  /** v1.5 — fine-grained work classifier (prefer over legacy `type` when set). */
+  sourceKind?: SourceKind | string;
+  creatorNames?: string[];
+  creatorSlugs?: string[];
+  title?: string;
+  citation?: string;
+  year?: number;
+  publisher?: string;
+  institution?: string;
+  url?: string;
+  whyThisMatters?: string;
 }
 
 export interface Relationship {
