@@ -10,4 +10,14 @@ patterns: []
 relatedBooks:
 - coupling
 - how-serious-systems-learn
-
+title: 'Accelerate: The Science of Lean Software and DevOps: Building and Scaling
+  High Performing Technology Organizations'
+creatorNames:
+- Forsgren, Nicole, Jez Humble, and Gene Kim
+creatorSlugs:
+- forsgren-nicole-jez-humble-and-gene-kim
+citation: 'Forsgren, Nicole, Jez Humble, and Gene Kim. *Accelerate: The Science of
+  Lean Software and DevOps: Building and Scaling High Performing Technology Organizations*.
+  Portland, OR: IT Revolution Press, 2018.'
+sourceKind: book
+year: 2018

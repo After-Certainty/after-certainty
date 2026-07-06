@@ -9,3 +9,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: 'Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure.'
+creatorNames:
+- Jensen, Michael C., and William H. Meckling
+creatorSlugs:
+- jensen-michael-c-and-william-h-meckling
+citation: 'Jensen, Michael C., and William H. Meckling. "Theory of the Firm: Managerial
+  Behavior, Agency Costs and Ownership Structure." *Journal of Financial Economics*
+  3, no. 4 (1976): 305-360.'
+sourceKind: article

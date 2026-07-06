@@ -8,3 +8,11 @@ concepts: []
 patterns: []
 relatedBooks:
 - what-we-cannot-see
+title: Estimating the Reproducibility of Psychological Science.
+creatorNames:
+- Open Science Collaboration
+creatorSlugs:
+- open-science-collaboration
+citation: 'Open Science Collaboration. "Estimating the Reproducibility of Psychological
+  Science." *Science* 349, no. 6251 (2015): aac4716.'
+sourceKind: article

@@ -7,3 +7,11 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: Guidelines for Human-AI Interaction.
+creatorNames:
+- Amershi, Saleema, et al
+creatorSlugs:
+- amershi-saleema-et-al
+citation: Amershi, Saleema, et al. "Guidelines for Human-AI Interaction." *Proceedings
+  of the 2019 CHI Conference on Human Factors in Computing Systems*, paper 3. https://doi.org/10.1145/3290605.3300233.
+sourceKind: article

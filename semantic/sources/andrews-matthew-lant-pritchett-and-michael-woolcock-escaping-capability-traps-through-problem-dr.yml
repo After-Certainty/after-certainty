@@ -9,3 +9,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: Escaping Capability Traps Through Problem Driven Iterative Adaptation (PDIA).
+creatorNames:
+- Andrews, Matthew, Lant Pritchett, and Michael Woolcock
+creatorSlugs:
+- andrews-matthew-lant-pritchett-and-michael-woolcock
+citation: 'Andrews, Matthew, Lant Pritchett, and Michael Woolcock. "Escaping Capability
+  Traps Through Problem Driven Iterative Adaptation (PDIA)." *World Development* 51
+  (2013): 234-244. https://doi.org/10.1016/j.worlddev.2013.05.011.'
+sourceKind: article

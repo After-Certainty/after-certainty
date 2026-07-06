@@ -8,3 +8,11 @@ concepts: []
 patterns: []
 relatedBooks:
 - trust-beyond-similarity
+title: 'Birds of a Feather: Homophily in Social Networks.'
+creatorNames:
+- McPherson, Miller, Lynn Smith-Lovin, and James M. Cook
+creatorSlugs:
+- mcpherson-miller-lynn-smith-lovin-and-james-m-cook
+citation: 'McPherson, Miller, Lynn Smith-Lovin, and James M. Cook. "Birds of a Feather:
+  Homophily in Social Networks." *Annual Review of Sociology* 27 (2001): 415–444.'
+sourceKind: article

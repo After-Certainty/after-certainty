@@ -8,3 +8,11 @@ concepts: []
 patterns: []
 relatedBooks:
 - the-economy-we-dont-experience
+title: 'Prospect Theory: An Analysis of Decision under Risk.'
+creatorNames:
+- Kahneman, Daniel, and Amos Tversky
+creatorSlugs:
+- kahneman-daniel-and-amos-tversky
+citation: 'Kahneman, Daniel, and Amos Tversky. "Prospect Theory: An Analysis of Decision
+  under Risk." *Econometrica* 47, no. 2 (1979): 263–291.'
+sourceKind: article

@@ -7,3 +7,13 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: Agile Software Development
+creatorNames:
+- Alistair Cockburn
+creatorSlugs:
+- alistair-cockburn
+citation: 'Cockburn, Alistair. *Agile Software Development*. Boston: Addison-Wesley,
+  2002.'
+sourceKind: book
+year: 2002
+publisher: Addison-Wesley

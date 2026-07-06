@@ -9,3 +9,14 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: 'The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security
+  in Technology Organizations'
+creatorNames:
+- Kim, Gene, Jez Humble, Patrick Debois, and John Willis
+creatorSlugs:
+- kim-gene-jez-humble-patrick-debois-and-john-willis
+citation: 'Kim, Gene, Jez Humble, Patrick Debois, and John Willis. *The DevOps Handbook:
+  How to Create World-Class Agility, Reliability, and Security in Technology Organizations*.
+  2nd ed. Portland, OR: IT Revolution Press, 2021.'
+sourceKind: book
+year: 2021

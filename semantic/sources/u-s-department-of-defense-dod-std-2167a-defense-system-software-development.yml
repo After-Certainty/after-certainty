@@ -7,3 +7,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+creatorNames:
+- '*Defense System Software Development* U.S. Department of Defense. DOD-STD-2167A'
+creatorSlugs:
+- defense-system-software-development-u-s-department-of-defense-dod-std-2167a
+citation: U.S. Department of Defense. DOD-STD-2167A, *Defense System Software Development*.
+  1988.
+sourceKind: institutional_document
+year: 1988
+institution: '*Defense System Software Development* U.S. Department of Defense. DOD-STD-2167A'

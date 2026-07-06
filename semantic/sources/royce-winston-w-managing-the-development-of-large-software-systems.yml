@@ -7,3 +7,11 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: Managing the Development of Large Software Systems.
+creatorNames:
+- Winston W Royce
+creatorSlugs:
+- winston-w-royce
+citation: Royce, Winston W. "Managing the Development of Large Software Systems."
+  Proceedings, IEEE WESCON, August 1970, 1-9.
+sourceKind: article

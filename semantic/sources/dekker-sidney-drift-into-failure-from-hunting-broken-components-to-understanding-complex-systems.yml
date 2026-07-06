@@ -9,4 +9,13 @@ patterns: []
 relatedBooks:
 - coupling
 - how-serious-systems-learn
-
+title: 'Drift into Failure: From Hunting Broken Components to Understanding Complex
+  Systems'
+creatorNames:
+- Sidney Dekker
+creatorSlugs:
+- sidney-dekker
+citation: 'Dekker, Sidney. *Drift into Failure: From Hunting Broken Components to
+  Understanding Complex Systems*. Farnham, UK: Ashgate, 2011.'
+sourceKind: book
+year: 2011

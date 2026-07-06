@@ -7,3 +7,11 @@ concepts: []
 patterns: []
 relatedBooks:
 - what-we-cannot-see
+title: An Investigation of the Therac-25 Accidents.
+creatorNames:
+- Leveson, Nancy G., and Clark S. Turner
+creatorSlugs:
+- leveson-nancy-g-and-clark-s-turner
+citation: 'Leveson, Nancy G., and Clark S. Turner. "An Investigation of the Therac-25
+  Accidents." *Computer* 26, no. 7 (1993): 18–41.'
+sourceKind: article

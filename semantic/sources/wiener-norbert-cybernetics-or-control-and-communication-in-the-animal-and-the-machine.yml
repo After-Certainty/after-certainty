@@ -8,3 +8,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: 'Cybernetics: Or Control and Communication in the Animal and the Machine'
+creatorNames:
+- Norbert Wiener
+creatorSlugs:
+- norbert-wiener
+citation: 'Wiener, Norbert. *Cybernetics: Or Control and Communication in the Animal
+  and the Machine*. 2nd ed. Cambridge, MA: MIT Press, 1961.'
+sourceKind: book
+year: 1961

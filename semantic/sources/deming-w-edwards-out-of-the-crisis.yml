@@ -7,3 +7,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: Out of the Crisis
+creatorNames:
+- W. Edwards Deming
+creatorSlugs:
+- w-edwards-deming
+citation: 'Deming, W. Edwards. *Out of the Crisis*. Cambridge, MA: MIT Center for
+  Advanced Engineering Study, 1986.'
+sourceKind: book
+year: 1986

@@ -7,3 +7,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: Software Engineering Economics
+creatorNames:
+- Barry W Boehm
+creatorSlugs:
+- barry-w-boehm
+citation: 'Boehm, Barry W. *Software Engineering Economics*. Englewood Cliffs, NJ:
+  Prentice-Hall, 1981.'
+sourceKind: book
+year: 1981

@@ -6,3 +6,10 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: Hexagonal Architecture (Ports and Adapters).
+creatorNames:
+- Alistair Cockburn
+creatorSlugs:
+- alistair-cockburn
+citation: Cockburn, Alistair. "Hexagonal Architecture (Ports and Adapters)." https://alistair.cockburn.us/hexagonal-architecture/.
+sourceKind: article

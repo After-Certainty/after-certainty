@@ -8,3 +8,11 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: Artificial Intelligence Risk Management Framework (AI RMF 1.0)
+creatorNames:
+- National Institute of Standards and Technology
+creatorSlugs:
+- national-institute-of-standards-and-technology
+citation: National Institute of Standards and Technology. *Artificial Intelligence
+  Risk Management Framework (AI RMF 1.0)*. NIST AI 100-1. 2023. https://doi.org/10.6028/NIST.AI.100-1.
+sourceKind: book

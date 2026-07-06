@@ -6,3 +6,11 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: OWASP Top 10 for Large Language Model Applications
+creatorNames:
+- OWASP Foundation
+creatorSlugs:
+- owasp-foundation
+citation: OWASP Foundation. *OWASP Top 10 for Large Language Model Applications*.
+  https://owasp.org/www-project-top-10-for-large-language-model-applications/.
+sourceKind: book

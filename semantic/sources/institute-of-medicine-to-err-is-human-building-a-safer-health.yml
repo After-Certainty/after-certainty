@@ -7,3 +7,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+title: 'To Err Is Human: Building a Safer Health'
+creatorNames:
+- Institute of Medicine
+creatorSlugs:
+- institute-of-medicine
+citation: 'Institute of Medicine. *To Err Is Human: Building a Safer Health System*.
+  Washington, DC: National Academies Press, 1999. https://doi.org/10.17226/9728.'
+sourceKind: book
+publisher: National Academies Press
