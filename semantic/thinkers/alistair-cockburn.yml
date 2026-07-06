@@ -3,7 +3,10 @@ name: Alistair Cockburn
 type: person
 summary: Software methodologist (Agile, Crystal, hexagonal architecture) and writer
   on cooperative knowledge work.
-concepts: []
+concepts:
+- agile
+- guest-leadership
+- hexagonal-architecture
 patterns: []
 relatedBooks:
 - coupling
