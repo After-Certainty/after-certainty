@@ -16,17 +16,18 @@ import {
   buildCoverImageBySlugLookup,
   resolveCoverForGraphBookSlug,
 } from "@/lib/explore/graph-book-covers";
-import { booksSortedForExploreIndex, exploreBookAdjacentInIndexOrder } from "@/lib/explore/explore-books-order";
+import {
+  booksSortedForExploreIndex,
+  exploreBookAdjacentInIndexOrder,
+} from "@/lib/explore/explore-books-order";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { getBookBySlug as getGraphBookBySlug } from "@/lib/graph/graphQueries";
 import { relatedContentForBook } from "@/lib/graph/relatedContent";
+import { resolveThinkersForBook } from "@/lib/graph/bookThinkers";
 import { getSemanticBookActionLinkItems } from "@/lib/books/semantic-book-action-links";
 import { createPageMetadata } from "@/lib/metadata";
-import {
-  buildBookPageJsonLd,
-  resolveCatalogBookForSemanticBook,
-} from "@/lib/seo/json-ld";
+import { buildBookPageJsonLd, resolveCatalogBookForSemanticBook } from "@/lib/seo/json-ld";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -64,16 +65,26 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
   if (!book) notFound();
 
   const coverLookup = buildCoverImageBySlugLookup(catalogBooks);
-  const coverSrc = resolveCoverForGraphBookSlug(coverLookup, catalogBooks, book.slug) ?? book.coverImage;
+  const coverSrc =
+    resolveCoverForGraphBookSlug(coverLookup, catalogBooks, book.slug) ?? book.coverImage;
 
   const related = relatedContentForBook(index, book);
+  const bookThinkerContent = resolveThinkersForBook(index, book, graph);
   const booksInListOrder = booksSortedForExploreIndex(graph.books);
-  const { prev: prevBook, next: nextBook } = exploreBookAdjacentInIndexOrder(booksInListOrder, book.slug);
+  const { prev: prevBook, next: nextBook } = exploreBookAdjacentInIndexOrder(
+    booksInListOrder,
+    book.slug,
+  );
 
   const publicationLinks = getSemanticBookActionLinkItems(book);
 
   const hasRelated =
-    related.concepts.length + related.patterns.length + related.sources.length > 0;
+    related.concepts.length +
+      related.patterns.length +
+      (bookThinkerContent.useLegacyThinkersSection
+        ? bookThinkerContent.researchSources.length
+        : bookThinkerContent.thinkers.length + bookThinkerContent.researchSources.length) >
+    0;
   const hasRelationships = entityHasSemanticRelationships(index, book.id);
 
   const bookBreadcrumbs = [
@@ -119,10 +130,14 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
               {book.title}
             </h1>
             {book.subtitle ? (
-              <p className="max-w-2xl font-display text-xl text-muted md:text-2xl">{book.subtitle}</p>
+              <p className="max-w-2xl font-display text-xl text-muted md:text-2xl">
+                {book.subtitle}
+              </p>
             ) : null}
             {book.summary ? (
-              <p className="max-w-2xl text-lg leading-relaxed text-muted md:text-xl">{book.summary}</p>
+              <p className="max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
+                {book.summary}
+              </p>
             ) : null}
           </div>
         </div>
@@ -140,17 +155,39 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
       </Section>
 
       {hasRelated ? (
-        <Section atmosphere="transition" className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20">
+        <Section
+          atmosphere="transition"
+          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+        >
           <div className="flex flex-col gap-14">
             <RelatedContentGrid heading="Major concepts" concepts={related.concepts} />
             <RelatedContentGrid heading="Major patterns" patterns={related.patterns} />
-            <RelatedContentGrid heading="Major thinkers" sources={related.sources} />
+            {bookThinkerContent.useLegacyThinkersSection ? (
+              <RelatedContentGrid
+                heading="Major thinkers"
+                sources={bookThinkerContent.researchSources}
+              />
+            ) : (
+              <>
+                <RelatedContentGrid
+                  heading="Major thinkers"
+                  thinkers={bookThinkerContent.thinkers}
+                />
+                <RelatedContentGrid
+                  heading="Research sources"
+                  sources={bookThinkerContent.researchSources}
+                />
+              </>
+            )}
           </div>
         </Section>
       ) : null}
 
       {hasRelationships ? (
-        <Section atmosphere="none" className="border-t border-border/25 !pt-10 md:!pt-14 !pb-20 md:!pb-28">
+        <Section
+          atmosphere="none"
+          className="border-t border-border/25 !pt-10 md:!pt-14 !pb-20 md:!pb-28"
+        >
           <SemanticRelationshipsSection
             index={index}
             focalCanonicalId={book.id}
