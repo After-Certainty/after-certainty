@@ -9,3 +9,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: Do Users Write More Insecure Code with AI Assistants?
+creatorNames:
+- Perry, Neil, Megha Srivastava, Deepak Kumar, and Dan Boneh
+creatorSlugs:
+- perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh
+citation: Perry, Neil, Megha Srivastava, Deepak Kumar, and Dan Boneh. "Do Users Write
+  More Insecure Code with AI Assistants?" *Proceedings of the 2023 ACM SIGSAC Conference
+  on Computer and Communications Security (CCS)*. https://doi.org/10.1145/3576915.3623157.
+sourceKind: article

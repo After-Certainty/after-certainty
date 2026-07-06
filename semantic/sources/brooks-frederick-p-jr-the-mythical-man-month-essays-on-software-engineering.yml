@@ -7,3 +7,13 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: 'The Mythical Man-Month: Essays on Software Engineering'
+creatorNames:
+- Brooks, Frederick P., Jr
+creatorSlugs:
+- brooks-frederick-p-jr
+citation: 'Brooks, Frederick P., Jr. *The Mythical Man-Month: Essays on Software Engineering*.
+  Anniversary ed. Boston: Addison-Wesley, 1995.'
+sourceKind: book
+year: 1995
+publisher: Addison-Wesley

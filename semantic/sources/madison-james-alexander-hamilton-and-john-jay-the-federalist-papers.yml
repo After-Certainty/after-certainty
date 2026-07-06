@@ -8,3 +8,13 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: The Federalist Papers
+creatorNames:
+- Madison, James, Alexander Hamilton, and John Jay
+creatorSlugs:
+- madison-james-alexander-hamilton-and-john-jay
+citation: Madison, James, Alexander Hamilton, and John Jay. *The Federalist Papers*.
+  Various editions; citations in this book refer to standard numbering of essays 10
+  and 51 where noted.
+sourceKind: institutional_document
+institution: Madison, James, Alexander Hamilton, and John Jay

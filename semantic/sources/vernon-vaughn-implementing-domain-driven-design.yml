@@ -7,3 +7,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: Implementing Domain-Driven Design
+creatorNames:
+- Vaughn Vernon
+creatorSlugs:
+- vaughn-vernon
+citation: 'Vernon, Vaughn. *Implementing Domain-Driven Design*. Upper Saddle River,
+  NJ: Addison-Wesley, 2013.'
+sourceKind: book
+year: 2013

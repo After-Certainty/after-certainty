@@ -7,3 +7,13 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: 'Domain-Driven Design: Tackling Complexity in the Heart of Software'
+creatorNames:
+- Eric Evans
+creatorSlugs:
+- eric-evans
+citation: 'Evans, Eric. *Domain-Driven Design: Tackling Complexity in the Heart of
+  Software*. Boston: Addison-Wesley, 2003.'
+sourceKind: book
+year: 2003
+publisher: Addison-Wesley

@@ -8,3 +8,15 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: 'Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment
+  Automation'
+creatorNames:
+- Humble, Jez, and David Farley
+creatorSlugs:
+- humble-jez-and-david-farley
+citation: 'Humble, Jez, and David Farley. *Continuous Delivery: Reliable Software
+  Releases through Build, Test, and Deployment Automation*. Boston: Addison-Wesley,
+  2010.'
+sourceKind: book
+year: 2010
+publisher: Addison-Wesley

@@ -10,3 +10,13 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: 'On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?'
+creatorNames:
+- Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell
+creatorSlugs:
+- bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell
+citation: 'Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret
+  Shmitchell. "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
+  *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency
+  (FAccT)*, 610-623. https://doi.org/10.1145/3442188.3445922.'
+sourceKind: article

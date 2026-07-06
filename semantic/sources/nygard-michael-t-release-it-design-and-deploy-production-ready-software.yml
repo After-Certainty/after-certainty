@@ -7,3 +7,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: Release It! Design and Deploy Production-Ready Software
+creatorNames:
+- Michael T Nygard
+creatorSlugs:
+- michael-t-nygard
+citation: 'Nygard, Michael T. *Release It! Design and Deploy Production-Ready Software*.
+  2nd ed. Raleigh, NC: Pragmatic Bookshelf, 2018.'
+sourceKind: book
+year: 2018

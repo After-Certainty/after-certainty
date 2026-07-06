@@ -8,3 +8,11 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: 'The Impact of AI on Developer Productivity: Evidence from GitHub Copilot.'
+creatorNames:
+- Peng, Sida, et al
+creatorSlugs:
+- peng-sida-et-al
+citation: 'Peng, Sida, et al. "The Impact of AI on Developer Productivity: Evidence
+  from GitHub Copilot." *arXiv* preprint arXiv:2302.06590 (2023). https://doi.org/10.48550/arXiv.2302.06590.'
+sourceKind: article

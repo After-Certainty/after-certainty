@@ -9,3 +9,14 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: 'Clean Architecture: A Craftsman''s Guide to Software Structure and the Design
+  of Professional Systems'
+creatorNames:
+- Robert C Martin
+creatorSlugs:
+- robert-c-martin
+citation: 'Martin, Robert C. *Clean Architecture: A Craftsman''s Guide to Software
+  Structure and the Design of Professional Systems*. Upper Saddle River, NJ: Prentice
+  Hall, 2017.'
+sourceKind: book
+year: 2017

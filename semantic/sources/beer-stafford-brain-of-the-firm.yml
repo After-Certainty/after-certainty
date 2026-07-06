@@ -6,3 +6,12 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: Brain of the Firm
+creatorNames:
+- Stafford Beer
+creatorSlugs:
+- stafford-beer
+citation: 'Beer, Stafford. *Brain of the Firm*. New York: Wiley, 1972.'
+sourceKind: book
+year: 1972
+publisher: Wiley

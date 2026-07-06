@@ -8,3 +8,14 @@ concepts: []
 patterns: []
 relatedBooks:
 - when-authority-is-misread
+title: Logic and Conversation.
+creatorNames:
+- H. P Grice
+creatorSlugs:
+- h-p-grice
+citation: 'Grice, H. P. "Logic and Conversation." In *Syntax and Semantics*, vol.
+  3, *Speech Acts*, edited by Peter Cole and Jerry L. Morgan, 41–58. New York: Academic
+  Press, 1975.'
+sourceKind: article
+year: 1975
+publisher: Academic Press

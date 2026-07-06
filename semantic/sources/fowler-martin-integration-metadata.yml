@@ -6,3 +6,10 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: Integration Metadata.
+creatorNames:
+- Martin Fowler
+creatorSlugs:
+- martin-fowler
+citation: Fowler, Martin. "Integration Metadata." https://martinfowler.com/articles/integrationMetadata.html.
+sourceKind: article

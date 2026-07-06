@@ -6,3 +6,10 @@ concepts: []
 patterns: []
 relatedBooks:
 - coupling
+title: The Heart of Agile.
+creatorNames:
+- Alistair Cockburn
+creatorSlugs:
+- alistair-cockburn
+citation: Cockburn, Alistair. "The Heart of Agile." https://heartofagile.com/.
+sourceKind: article
