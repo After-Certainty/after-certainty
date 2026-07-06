@@ -1,445 +1,430 @@
 version: 1
 relationships:
-  - source: scale
-    target: correction
-    relationship: thins
-    description: As scale increases, feedback loops weaken and correction becomes more expensive.
-  - source: circulation
-    target: authority
-    relationship: reproduces
-    description: Circulation allows authority structures to persist beyond individuals.
-  - source: correction
-    target: legitimacy
-    relationship: renews
-    description: Legitimacy remains durable when systems preserve visible correction.
-  - source: acceleration
-    target: judgment
-    relationship: pressures
-    description: Acceleration favors rapid coordination over reflective deliberation.
-  - source: friction
-    target: corrigibility
-    relationship: preserves
-    description: Corrective resistance helps systems remain revisable.
-  - source: certainty
-    target: coordination
-    relationship: stabilizes
-    description: Certainty reduces the cost of ongoing renegotiation.
-  - source: uncertainty
-    target: correction
-    relationship: preserves
-    description: Uncertainty keeps systems open to revision and learning.
-  - source: alignment
-    target: alignment-at-scale
-    relationship: reproduces
-    description: Belonging-signal alignment can harden into institutional reproduction at scale.
-  - source: repair
-    target: witness
-    relationship: contrasts
-    description: Repair aims to restore standing; witness preserves record when repair cannot yet change the scene.
-  - source: correction
-    target: repair
-    relationship: contrasts
-    description: Correction updates belief and behavior; repair addresses damaged trust and legitimacy.
-  - source: correction
-    target: revisability
-    relationship: requires
-    description: Correction depends on decisions remaining open to update after action begins.
-  - source: constraint
-    target: constraints
-    relationship: contrasts
-    description: Constraint names originating historical pressure; constraints names operational limits inside a system.
-  - source: public-interpretation
-    target: interpretive-collapse
-    relationship: precedes
-    description: Interpretive collapse is the loss of public interpretation as shared evaluative activity.
-  - source: post-interpretive-authority
-    target: total-authority
-    relationship: intensifies
-    description: Post-interpretive authority can intensify toward total elimination of public evaluative space.
-  - source: cohesion
-    target: coupling
-    relationship: complements
-    description: Cohesion clarifies ownership within boundaries; coupling tracks attachment between action and consequence.
-  - source: proximity
-    target: contact
-    relationship: contrasts
-    description: Proximity is ongoing relational nearness; contact is staying close to unfinished meaning in the moment.
-  - source: drift
-    target: normalization
-    relationship: precedes
-    description: Drift can settle into normalization when decoupling becomes expected baseline.
-  # Scale dynamics
-  - source: scale
-    target: feedback
-    relationship: thins
-    description: Scale weakens feedback loops as distance and delay separate action from consequence.
-  - source: scale
-    target: accountability
-    relationship: thins
-    description: Scale diffuses answerability across roles and distance, making it harder to trace consequences to decision-makers.
-  - source: scale
-    target: coupling
-    relationship: thins
-    description: Scale lengthens the chain between decision and lived harm, weakening the attachment between action and consequence.
-  - source: scale
-    target: moral-density
-    relationship: thins
-    description: Scale abstracts coordination away from visible consequence and relational accountability.
-  - source: abstraction
-    target: accountability
-    relationship: thins
-    description: Abstraction obscures consequence, thinning contact between decision-makers and effects.
-  # Structural dependencies
-  - source: judgment
-    target: revisability
-    relationship: requires
-    description: Judgment depends on decisions remaining open to update as conditions and understanding change.
-  - source: accountability
-    target: coupling
-    relationship: requires
-    description: Accountability cannot exist without coupling—without attachment between action and consequence, there is no exposure to answer for.
-  - source: trust
-    target: feedback
-    relationship: requires
-    description: Trust without feedback becomes closure—trust depends on signals that can be tested, strained, or withdrawn.
-  - source: legitimacy
-    target: contestability
-    relationship: requires
-    description: Legitimacy depends on being contestable enough to hold under stress—authority that cannot be questioned becomes coercion.
-  # Disambiguation relationships
-  - source: responsibility
-    target: accountability
-    relationship: contrasts
-    description: Responsibility names the enduring obligation to account; accountability names whether consequence still reaches those who can respond.
-  - source: responsibility
-    target: answerability
-    relationship: contrasts
-    description: Responsibility is the broader obligation to account for consequences; answerability is the specific debt owed to those affected by partial-perspective decisions.
-  - source: certainty
-    target: judgment
-    relationship: contrasts
-    description: Certainty stabilizes coordination by compressing choice; judgment weighs tradeoffs under uncertainty without pretending to see from nowhere.
-  # Preservation relationships
-  - source: friction
-    target: judgment
-    relationship: preserves
-    description: Friction preserves space for deliberation and discernment by slowing automatic action.
-  # Enablement relationships
-  - source: coupling
-    target: correction
-    relationship: enables
-    description: Tight coupling between action and consequence enables correction by making feedback fast and traceable.
-  - source: feedback
-    target: correction
-    relationship: enables
-    description: Feedback enables correction by returning consequence as signal that can update future decisions.
-  - source: coupling
-    target: legitimacy
-    relationship: renews
-    description: Coupling renews legitimacy by keeping decision-makers exposed to consequences, preserving trust.
-  # Stabilization relationships
-  - source: circulation
-    target: meaning
-    relationship: stabilizes
-    description: Circulation stabilizes meaning by allowing it to persist and reproduce through systems beyond individual presence.
-  # Force dynamics from structural pressures
-  - source: mediation
-    target: interpretation
-    relationship: distorts
-    description: Mediation can distort interpretation as meaning travels through intermediaries rather than direct encounter.
-  - source: asymmetry
-    target: reciprocity
-    relationship: weakens
-    description: Asymmetry weakens reciprocity by creating uneven exposure to risk and consequence.
-  - source: normalization
-    target: adaptation
-    relationship: hardens
-    description: Normalization hardens adaptation into fixed expectation, making what was once temporary response into permanent baseline.
-  # Capacity relationships
-  - source: corrigibility
-    target: correction
-    relationship: enables
-    description: Corrigibility provides the capacity for revision and recovery that makes correction possible over time.
-  - source: certainty
-    target: corrigibility
-    relationship: constrains
-    description: Tools built to preserve certainty can constrain corrigibility—when admitting error threatens authority's foundation, the capacity for correction thins.
-  # Phase 4 Category A: Disambiguation relationships from "differs from" statements
-  - source: acceleration
-    target: momentum
-    relationship: contrasts
-    description: Acceleration is actively pressured forward, while momentum is continuation without renewed judgment.
-  - source: adaptation
-    target: inheritance
-    relationship: contrasts
-    description: Adaptation names responsive change; inheritance names what gets carried forward after conditions shift.
-  - source: adaptation
-    target: drift
-    relationship: contrasts
-    description: Adaptation is active response; drift is loss of fit over time.
-  - source: agency
-    target: responsibility
-    relationship: contrasts
-    description: Responsibility can remain assigned when agency has thinned; agency is capacity to act.
-  - source: agency
-    target: judgment
-    relationship: contrasts
-    description: Agency is capacity to act, not the evaluative practice of deciding well.
-  - source: alignment-at-scale
-    target: alignment
-    relationship: contrasts
-    description: Alignment-at-scale is institutional reproduction; alignment is belonging-signal coordination.
-  - source: alignment
-    target: legitimacy
-    relationship: contrasts
-    description: Alignment can persist without justified recognition; legitimacy requires contestability.
-  - source: alignment
-    target: coordination
-    relationship: contrasts
-    description: Alignment can bind identity, not only sequence action.
-  - source: answerability
-    target: accountability
-    relationship: contrasts
-    description: Answerability is specific debt owed to affected parties; accountability is exposure to consequence generally.
-  - source: attention
-    target: bias
-    relationship: contrasts
-    description: Attention names the selective capacity itself; bias names the selective work performed.
-  - source: authority
-    target: legitimacy
-    relationship: contrasts
-    description: Authority is operational power to steer; legitimacy is justified recognition of that power.
-  - source: authorization
-    target: permission
-    relationship: contrasts
-    description: Authorization is permission that has become routinized and institutionally durable.
-  - source: bias
-    target: integration
-    relationship: contrasts
-    description: Bias describes what each partial view leaves out, not how partial views combine.
-  - source: boundary
-    target: coupling
-    relationship: contrasts
-    description: A boundary marks a shift in shape, not the strength of attachment between action and consequence.
-  - source: care
-    target: attention
-    relationship: contrasts
-    description: Care carries obligation toward a person, not only selective availability of signal.
-  - source: cohesion
-    target: coupling
-    relationship: contrasts
-    description: Cohesion is ownership clarity within a boundary; coupling is attachment between action and consequence.
-  - source: connection
-    target: contact
-    relationship: contrasts
-    description: Connection outlasts a single exchange; contact is staying close to unfinished meaning in the moment.
-  - source: consequence-architecture
-    target: coupling
-    relationship: contrasts
-    description: Consequence-architecture is designed structure; coupling is the resulting attachment strength.
-  - source: consequence-architecture
-    target: cohesion
-    relationship: contrasts
-    description: Consequence-architecture designs the whole path; cohesion is ownership within a boundary.
-  - source: contact
-    target: connection
-    relationship: contrasts
-    description: Contact is moment-to-moment closeness; connection is reachability that persists.
-  - source: correction
-    target: revisability
-    relationship: contrasts
-    description: Correction is the act of noticing mismatch; revisability is the designed openness.
-  - source: corrigibility
-    target: revisability
-    relationship: contrasts
-    description: Corrigibility is capacity for revision when reality pushes back; revisability is designed openness to update.
-  - source: coupling
-    target: cohesion
-    relationship: contrasts
-    description: Coupling tracks action-to-effect attachment; cohesion tracks ownership clarity.
-  - source: coupling
-    target: consequence-architecture
-    relationship: contrasts
-    description: Coupling describes the attachment; consequence-architecture describes intentional design.
-  - source: drift
-    target: normalization
-    relationship: contrasts
-    description: Drift is decoupling from original conditions; normalization is drift absorbed into baseline.
-  - source: drift
-    target: inheritance
-    relationship: contrasts
-    description: Drift emphasizes loss of fit over time; inheritance emphasizes what persists.
-  - source: erosion
-    target: decay
-    relationship: contrasts
-    description: Erosion names the process of thinning; decay names the end state.
-  - source: feedback
-    target: trust
-    relationship: contrasts
-    description: Feedback is the returning signal itself; trust is the bridge that lets people act before signals arrive.
-  - source: feedback
-    target: correction
-    relationship: contrasts
-    description: Feedback is what returns; correction is the work of updating in response.
-  - source: finite-perspective
-    target: bias
-    relationship: contrasts
-    description: Finite perspective names the structural condition of partiality; bias names the selective work within it.
-  - source: finite-perspective
-    target: trust
-    relationship: contrasts
-    description: Finite perspective is the condition; trust extends action beyond firsthand sight without pretending completeness.
-  - source: friction
-    target: contestability
-    relationship: contrasts
-    description: Friction is the slowness itself; contestability is the capacity to reopen what has been settled.
-  - source: inheritance
-    target: adaptation
-    relationship: contrasts
-    description: Inheritance carries forward what stabilized; adaptation names the original responsive work.
-  - source: inheritance
-    target: drift
-    relationship: contrasts
-    description: Inheritance emphasizes persistence of form; drift emphasizes loss of fit.
-  - source: interpretation
-    target: meaning
-    relationship: contrasts
-    description: Interpretation is the active reconstruction; meaning is what gets held steady.
-  - source: judgment
-    target: optimization
-    relationship: contrasts
-    description: Judgment keeps contestability and human proportion in view; optimization maximizes metrics.
-  - source: legitimacy
-    target: authority
-    relationship: contrasts
-    description: Legitimacy is justified recognition; authority is operational power.
-  - source: legitimacy
-    target: alignment
-    relationship: contrasts
-    description: Legitimacy invites proportionate inquiry; alignment can bind through belonging signals alone.
-  - source: meaning
-    target: interpretation
-    relationship: contrasts
-    description: Meaning is what gets held steady; interpretation is active reconstruction.
-  - source: mediation
-    target: distance
-    relationship: contrasts
-    description: Mediation is the system of intermediaries; distance is the separation they attempt to bridge.
-  - source: momentum
-    target: acceleration
-    relationship: contrasts
-    description: Momentum is continuation without renewed judgment; acceleration is actively pressured forward.
-  - source: normalization
-    target: drift
-    relationship: contrasts
-    description: Normalization is drift absorbed into baseline expectation; drift is ongoing decoupling.
-  - source: permission
-    target: authority
-    relationship: contrasts
-    description: Permission is granted socially through pattern and response; authority is granted formally through role.
-  - source: post-interpretive-authority
-    target: boundary
-    relationship: contrasts
-    description: Post-interpretive authority persists without external interpretation; boundary marks where understanding ceases to govern.
-  - source: proximity
-    target: connection
-    relationship: contrasts
-    description: Proximity names ongoing relational nearness; connection is reachability with consequence.
-  - source: repair
-    target: accountability
-    relationship: contrasts
-    description: Repair seeks restoration of standing; accountability is exposure to consequence.
-  - source: reversibility
-    target: revisability
-    relationship: contrasts
-    description: Reversibility is ability to undo without rupture; revisability is disciplined openness to correction after action begins.
-  - source: revisability
-    target: correction
-    relationship: contrasts
-    description: Revisability is the designed openness; correction is the specific act of updating.
-  - source: revisability
-    target: judgment
-    relationship: contrasts
-    description: Revisability keeps decisions attached to reality over time; judgment weighs tradeoffs at the moment of decision.
-  - source: throughput
-    target: acceleration
-    relationship: contrasts
-    description: Throughput is about sustained flow; acceleration is about speed under pressure.
-  - source: trust
-    target: certainty
-    relationship: contrasts
-    description: Trust accepts incomplete verification; certainty compresses choice into stable expectation.
-  - source: witness
-    target: correction
-    relationship: contrasts
-    description: Witness may record harm without altering it; correction updates belief and behavior.
-  - source: witness
-    target: accountability
-    relationship: contrasts
-    description: Witness can persist where consequence pathways are blocked; accountability requires exposure.
-  # Phase 4 Category B: Force dynamics (enables, preserves, thins)
-  - source: public-interpretation
-    target: repair
-    relationship: enables
-    description: Public interpretation enables repair by creating shared space where harm can be addressed collectively.
-  - source: accountability
-    target: correction
-    relationship: preserves
-    description: Accountability preserves correction by maintaining contact between decision-makers and effects.
-  - source: alignment
-    target: cohesion
-    relationship: preserves
-    description: Alignment preserves cohesion under pressure through shared belonging signals.
-  - source: compression
-    target: coordination
-    relationship: preserves
-    description: Compression preserves coordination when full discernment is too costly, though it can thin corrective capacity.
-  - source: connection
-    target: answerability
-    relationship: preserves
-    description: Connection preserves answerability across encounters by maintaining reachability with consequence.
-  - source: consequence-architecture
-    target: corrigibility
-    relationship: preserves
-    description: Consequence-architecture preserves corrigibility under acceleration by designing feedback paths that reach redesign authority.
-  - source: finite-perspective
-    target: humility
-    relationship: preserves
-    description: Finite perspective preserves humility by recognizing the structural condition that no view can be complete.
-  - source: judgment
-    target: proportionality
-    relationship: preserves
-    description: Judgment preserves proportionality by weighing tradeoffs and maintaining room for revision.
-  - source: legitimacy
-    target: trust
-    relationship: preserves
-    description: Legitimacy preserves trust and willing participation when power reads as earned and contestable.
-  - source: mediation
-    target: coordination
-    relationship: preserves
-    description: Mediation preserves coordination at scale by allowing strangers to exchange under shared rules.
-  - source: momentum
-    target: coordination
-    relationship: preserves
-    description: Momentum preserves coordination when alternatives are missing—systems still run though judgment has stopped.
-  - source: abstraction
-    target: contact
-    relationship: thins
-    description: Abstraction thins contact between decision-makers and effects as categories replace direct encounter.
-  - source: abstraction
-    target: reciprocity
-    relationship: thins
-    description: Scale and abstraction thin reciprocity as categories replace relationships and consequence travels far from action.
-  # Phase 4 Category C: Dependencies (requires)
-  - source: machine-perspective
-    target: answerability
-    relationship: requires
-    description: Machine perspective requires answerability—models are useful extensions that must remain answerable for outputs.
-  - source: reversibility
-    target: stability
-    relationship: requires
-    description: Reversibility requires underlying stability—the capacity to undo depends on coordination that can absorb change.
-  - source: vitality
-    target: feedback
-    relationship: requires
-    description: Vitality depends on feedback, participation, and renewal to keep adapting without losing coherence.
+- source: scale
+  target: correction
+  relationship: thins
+  description: As scale increases, feedback loops weaken and correction becomes more expensive.
+- source: circulation
+  target: authority
+  relationship: reproduces
+  description: Circulation allows authority structures to persist beyond individuals.
+- source: correction
+  target: legitimacy
+  relationship: renews
+  description: Legitimacy remains durable when systems preserve visible correction.
+- source: acceleration
+  target: judgment
+  relationship: pressures
+  description: Acceleration favors rapid coordination over reflective deliberation.
+- source: friction
+  target: corrigibility
+  relationship: preserves
+  description: Corrective resistance helps systems remain revisable.
+- source: certainty
+  target: coordination
+  relationship: stabilizes
+  description: Certainty reduces the cost of ongoing renegotiation.
+- source: uncertainty
+  target: correction
+  relationship: preserves
+  description: Uncertainty keeps systems open to revision and learning.
+- source: alignment
+  target: alignment-at-scale
+  relationship: reproduces
+  description: Belonging-signal alignment can harden into institutional reproduction at scale.
+- source: repair
+  target: witness
+  relationship: contrasts
+  description: Repair aims to restore standing; witness preserves record when repair cannot yet change
+    the scene.
+- source: correction
+  target: repair
+  relationship: contrasts
+  description: Correction updates belief and behavior; repair addresses damaged trust and legitimacy.
+- source: correction
+  target: revisability
+  relationship: requires
+  description: Correction depends on decisions remaining open to update after action begins.
+- source: constraint
+  target: constraints
+  relationship: contrasts
+  description: Constraint names originating historical pressure; constraints names operational limits
+    inside a system.
+- source: public-interpretation
+  target: interpretive-collapse
+  relationship: precedes
+  description: Interpretive collapse is the loss of public interpretation as shared evaluative activity.
+- source: post-interpretive-authority
+  target: total-authority
+  relationship: intensifies
+  description: Post-interpretive authority can intensify toward total elimination of public evaluative
+    space.
+- source: cohesion
+  target: coupling
+  relationship: complements
+  description: Cohesion clarifies ownership within boundaries; coupling tracks attachment between action
+    and consequence.
+- source: proximity
+  target: contact
+  relationship: contrasts
+  description: Proximity is ongoing relational nearness; contact is staying close to unfinished meaning
+    in the moment.
+- source: drift
+  target: normalization
+  relationship: precedes
+  description: Drift can settle into normalization when decoupling becomes expected baseline.
+- source: scale
+  target: feedback
+  relationship: thins
+  description: Scale weakens feedback loops as distance and delay separate action from consequence.
+- source: scale
+  target: accountability
+  relationship: thins
+  description: Scale diffuses answerability across roles and distance, making it harder to trace consequences
+    to decision-makers.
+- source: scale
+  target: coupling
+  relationship: thins
+  description: Scale lengthens the chain between decision and lived harm, weakening the attachment between
+    action and consequence.
+- source: scale
+  target: moral-density
+  relationship: thins
+  description: Scale abstracts coordination away from visible consequence and relational accountability.
+- source: abstraction
+  target: accountability
+  relationship: thins
+  description: Abstraction obscures consequence, thinning contact between decision-makers and effects.
+- source: judgment
+  target: revisability
+  relationship: requires
+  description: Judgment depends on decisions remaining open to update as conditions and understanding
+    change.
+- source: accountability
+  target: coupling
+  relationship: requires
+  description: Accountability cannot exist without coupling—without attachment between action and consequence,
+    there is no exposure to answer for.
+- source: trust
+  target: feedback
+  relationship: requires
+  description: Trust without feedback becomes closure—trust depends on signals that can be tested, strained,
+    or withdrawn.
+- source: legitimacy
+  target: contestability
+  relationship: requires
+  description: Legitimacy depends on being contestable enough to hold under stress—authority that cannot
+    be questioned becomes coercion.
+- source: responsibility
+  target: accountability
+  relationship: contrasts
+  description: Responsibility names the enduring obligation to account; accountability names whether consequence
+    still reaches those who can respond.
+- source: responsibility
+  target: answerability
+  relationship: contrasts
+  description: Responsibility is the broader obligation to account for consequences; answerability is
+    the specific debt owed to those affected by partial-perspective decisions.
+- source: certainty
+  target: judgment
+  relationship: contrasts
+  description: Certainty stabilizes coordination by compressing choice; judgment weighs tradeoffs under
+    uncertainty without pretending to see from nowhere.
+- source: friction
+  target: judgment
+  relationship: preserves
+  description: Friction preserves space for deliberation and discernment by slowing automatic action.
+- source: coupling
+  target: correction
+  relationship: enables
+  description: Tight coupling between action and consequence enables correction by making feedback fast
+    and traceable.
+- source: feedback
+  target: correction
+  relationship: enables
+  description: Feedback enables correction by returning consequence as signal that can update future decisions.
+- source: coupling
+  target: legitimacy
+  relationship: renews
+  description: Coupling renews legitimacy by keeping decision-makers exposed to consequences, preserving
+    trust.
+- source: circulation
+  target: meaning
+  relationship: stabilizes
+  description: Circulation stabilizes meaning by allowing it to persist and reproduce through systems
+    beyond individual presence.
+- source: mediation
+  target: interpretation
+  relationship: distorts
+  description: Mediation can distort interpretation as meaning travels through intermediaries rather than
+    direct encounter.
+- source: asymmetry
+  target: reciprocity
+  relationship: weakens
+  description: Asymmetry weakens reciprocity by creating uneven exposure to risk and consequence.
+- source: normalization
+  target: adaptation
+  relationship: hardens
+  description: Normalization hardens adaptation into fixed expectation, making what was once temporary
+    response into permanent baseline.
+- source: corrigibility
+  target: correction
+  relationship: enables
+  description: Corrigibility provides the capacity for revision and recovery that makes correction possible
+    over time.
+- source: certainty
+  target: corrigibility
+  relationship: constrains
+  description: Tools built to preserve certainty can constrain corrigibility—when admitting error threatens
+    authority's foundation, the capacity for correction thins.
+- source: acceleration
+  target: momentum
+  relationship: contrasts
+  description: Acceleration is actively pressured forward, while momentum is continuation without renewed
+    judgment.
+- source: adaptation
+  target: inheritance
+  relationship: contrasts
+  description: Adaptation names responsive change; inheritance names what gets carried forward after conditions
+    shift.
+- source: adaptation
+  target: drift
+  relationship: contrasts
+  description: Adaptation is active response; drift is loss of fit over time.
+- source: agency
+  target: responsibility
+  relationship: contrasts
+  description: Responsibility can remain assigned when agency has thinned; agency is capacity to act.
+- source: agency
+  target: judgment
+  relationship: contrasts
+  description: Agency is capacity to act, not the evaluative practice of deciding well.
+- source: alignment
+  target: legitimacy
+  relationship: contrasts
+  description: Alignment can persist without justified recognition; legitimacy requires contestability.
+- source: answerability
+  target: accountability
+  relationship: contrasts
+  description: Answerability is specific debt owed to affected parties; accountability is exposure to
+    consequence generally.
+- source: attention
+  target: bias
+  relationship: contrasts
+  description: Attention names the selective capacity itself; bias names the selective work performed.
+- source: authority
+  target: legitimacy
+  relationship: contrasts
+  description: Authority is operational power to steer; legitimacy is justified recognition of that power.
+- source: authorization
+  target: permission
+  relationship: precedes
+  description: Permission can harden into authorization when informal social patterns become routinized
+    and institutionally durable.
+- source: boundary
+  target: coupling
+  relationship: shapes
+  description: Boundaries shape coupling by marking where consequence pathways change, often weakening
+    attachment as effects cross organizational or geographic divides.
+- source: care
+  target: attention
+  relationship: contrasts
+  description: Care carries obligation toward a person, not only selective availability of signal.
+- source: connection
+  target: contact
+  relationship: contrasts
+  description: Connection outlasts a single exchange; contact is staying close to unfinished meaning in
+    the moment.
+- source: consequence-architecture
+  target: coupling
+  relationship: shapes
+  description: Consequence-architecture shapes coupling by intentionally designing feedback paths, boundaries,
+    and escalation routes that determine attachment strength.
+- source: contact
+  target: connection
+  relationship: contrasts
+  description: Contact is moment-to-moment closeness; connection is reachability that persists.
+- source: corrigibility
+  target: revisability
+  relationship: contrasts
+  description: Corrigibility is capacity for revision when reality pushes back; revisability is designed
+    openness to update.
+- source: drift
+  target: inheritance
+  relationship: contrasts
+  description: Drift emphasizes loss of fit over time; inheritance emphasizes what persists.
+- source: erosion
+  target: decay
+  relationship: contrasts
+  description: Erosion names the process of thinning; decay names the end state.
+- source: feedback
+  target: trust
+  relationship: calibrates
+  description: Feedback calibrates trust by providing testable signals that update confidence and expose
+    when trust has thinned.
+- source: feedback
+  target: correction
+  relationship: enables
+  description: Feedback enables correction by returning consequence as signal that can update future decisions.
+- source: finite-perspective
+  target: bias
+  relationship: grounds
+  description: Finite perspective creates the structural condition of partiality within which bias emerges
+    as the necessary selective work of attention.
+- source: finite-perspective
+  target: trust
+  relationship: grounds
+  description: Finite perspective creates the structural condition that makes trust necessary—we cannot
+    verify everything firsthand.
+- source: friction
+  target: contestability
+  relationship: contrasts
+  description: Friction is the slowness itself; contestability is the capacity to reopen what has been
+    settled.
+- source: inheritance
+  target: adaptation
+  relationship: contrasts
+  description: Inheritance carries forward what stabilized; adaptation names the original responsive work.
+- source: inheritance
+  target: drift
+  relationship: contrasts
+  description: Inheritance emphasizes persistence of form; drift emphasizes loss of fit.
+- source: interpretation
+  target: meaning
+  relationship: contrasts
+  description: Interpretation is the active reconstruction; meaning is what gets held steady.
+- source: judgment
+  target: optimization
+  relationship: contrasts
+  description: Judgment keeps contestability and human proportion in view; optimization maximizes metrics.
+- source: legitimacy
+  target: authority
+  relationship: contrasts
+  description: Legitimacy is justified recognition; authority is operational power.
+- source: meaning
+  target: interpretation
+  relationship: contrasts
+  description: Meaning is what gets held steady; interpretation is active reconstruction.
+- source: mediation
+  target: distance
+  relationship: contrasts
+  description: Mediation is the system of intermediaries; distance is the separation they attempt to bridge.
+- source: momentum
+  target: acceleration
+  relationship: contrasts
+  description: Momentum is continuation without renewed judgment; acceleration is actively pressured forward.
+- source: permission
+  target: authority
+  relationship: contrasts
+  description: Permission is granted socially through pattern and response; authority is granted formally
+    through role.
+- source: proximity
+  target: connection
+  relationship: contrasts
+  description: Proximity names ongoing relational nearness; connection is reachability with consequence.
+- source: repair
+  target: accountability
+  relationship: contrasts
+  description: Repair seeks restoration of standing; accountability is exposure to consequence.
+- source: reversibility
+  target: revisability
+  relationship: contrasts
+  description: Reversibility is ability to undo without rupture; revisability is disciplined openness
+    to correction after action begins.
+- source: revisability
+  target: judgment
+  relationship: contrasts
+  description: Revisability keeps decisions attached to reality over time; judgment weighs tradeoffs at
+    the moment of decision.
+- source: throughput
+  target: acceleration
+  relationship: contrasts
+  description: Throughput is about sustained flow; acceleration is about speed under pressure.
+- source: trust
+  target: certainty
+  relationship: contrasts
+  description: Trust accepts incomplete verification; certainty compresses choice into stable expectation.
+- source: witness
+  target: correction
+  relationship: contrasts
+  description: Witness may record harm without altering it; correction updates belief and behavior.
+- source: witness
+  target: accountability
+  relationship: contrasts
+  description: Witness can persist where consequence pathways are blocked; accountability requires exposure.
+- source: public-interpretation
+  target: repair
+  relationship: enables
+  description: Public interpretation enables repair by creating shared space where harm can be addressed
+    collectively.
+- source: accountability
+  target: correction
+  relationship: preserves
+  description: Accountability preserves correction by maintaining contact between decision-makers and
+    effects.
+- source: alignment
+  target: cohesion
+  relationship: preserves
+  description: Alignment preserves cohesion under pressure through shared belonging signals.
+- source: compression
+  target: coordination
+  relationship: preserves
+  description: Compression preserves coordination when full discernment is too costly, though it can thin
+    corrective capacity.
+- source: connection
+  target: answerability
+  relationship: preserves
+  description: Connection preserves answerability across encounters by maintaining reachability with consequence.
+- source: consequence-architecture
+  target: corrigibility
+  relationship: preserves
+  description: Consequence-architecture preserves corrigibility under acceleration by designing feedback
+    paths that reach redesign authority.
+- source: finite-perspective
+  target: humility
+  relationship: preserves
+  description: Finite perspective preserves humility by recognizing the structural condition that no view
+    can be complete.
+- source: judgment
+  target: proportionality
+  relationship: preserves
+  description: Judgment preserves proportionality by weighing tradeoffs and maintaining room for revision.
+- source: legitimacy
+  target: trust
+  relationship: preserves
+  description: Legitimacy preserves trust and willing participation when power reads as earned and contestable.
+- source: mediation
+  target: coordination
+  relationship: preserves
+  description: Mediation preserves coordination at scale by allowing strangers to exchange under shared
+    rules.
+- source: momentum
+  target: coordination
+  relationship: preserves
+  description: Momentum preserves coordination when alternatives are missing—systems still run though
+    judgment has stopped.
+- source: abstraction
+  target: contact
+  relationship: thins
+  description: Abstraction thins contact between decision-makers and effects as categories replace direct
+    encounter.
+- source: abstraction
+  target: reciprocity
+  relationship: thins
+  description: Scale and abstraction thin reciprocity as categories replace relationships and consequence
+    travels far from action.
+- source: machine-perspective
+  target: answerability
+  relationship: requires
+  description: Machine perspective requires answerability—models are useful extensions that must remain
+    answerable for outputs.
+- source: reversibility
+  target: stability
+  relationship: requires
+  description: Reversibility requires underlying stability—the capacity to undo depends on coordination
+    that can absorb change.
+- source: vitality
+  target: feedback
+  relationship: requires
+  description: Vitality depends on feedback, participation, and renewal to keep adapting without losing
+    coherence.
