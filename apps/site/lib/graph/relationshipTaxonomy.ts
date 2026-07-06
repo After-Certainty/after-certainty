@@ -32,8 +32,19 @@ export function isSymmetricRelationship(predicate: string): boolean {
 
 export function dynamicVerbGroup(predicate: string): DynamicVerbGroup | null {
   const key = normalizePredicateKey(predicate);
-  if (key === "preserves" || key === "renews" || key === "stabilizes") return "sustaining";
-  if (key === "thins" || key === "pressures") return "erosive";
+  if (key === "preserves" || key === "renews" || key === "stabilizes" || key === "enables") {
+    return "sustaining";
+  }
+  if (
+    key === "thins" ||
+    key === "pressures" ||
+    key === "weakens" ||
+    key === "hardens" ||
+    key === "constrains" ||
+    key === "distorts"
+  ) {
+    return "erosive";
+  }
   if (key === "reproduces") return "reproductive";
   return null;
 }

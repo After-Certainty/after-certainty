@@ -26,6 +26,32 @@ describe("relationshipVisuals", () => {
     expect(styleForRelationshipPredicate("Decouples").strokeDasharray).toBeDefined();
   });
 
+  it("styles new relationship types", () => {
+    expect(styleForRelationshipPredicate("weakens").stroke).toMatch(/^#/);
+    expect(styleForRelationshipPredicate("weakens").strokeWidth).toBe(1.5);
+
+    expect(styleForRelationshipPredicate("hardens").stroke).toMatch(/^#/);
+    expect(styleForRelationshipPredicate("hardens").strokeWidth).toBe(1.5);
+
+    expect(styleForRelationshipPredicate("constrains").stroke).toMatch(/^#/);
+    expect(styleForRelationshipPredicate("constrains").strokeDasharray).toBe("5 3");
+
+    expect(styleForRelationshipPredicate("contrasts").stroke).toContain("var(--muted)");
+    expect(styleForRelationshipPredicate("contrasts").strokeWidth).toBe(1.2);
+
+    expect(styleForRelationshipPredicate("requires").stroke).toMatch(/^#/);
+    expect(styleForRelationshipPredicate("requires").strokeWidth).toBe(1.3);
+
+    expect(styleForRelationshipPredicate("precedes").stroke).toMatch(/^#/);
+    expect(styleForRelationshipPredicate("precedes").strokeDasharray).toBe("8 4");
+
+    expect(styleForRelationshipPredicate("intensifies").stroke).toMatch(/^#/);
+    expect(styleForRelationshipPredicate("intensifies").strokeWidth).toBe(1.5);
+
+    expect(styleForRelationshipPredicate("complements").stroke).toMatch(/^#/);
+    expect(styleForRelationshipPredicate("complements").strokeWidth).toBe(1.4);
+  });
+
   it("falls back for unknown predicates", () => {
     const s = styleForRelationshipPredicate("custom-link");
     expect(s.strokeWidth).toBe(1.05);

@@ -646,3 +646,38 @@ export function relatedConceptUrls(index: GraphIndex, ids: string[] | undefined)
     .filter((slug): slug is string => Boolean(slug))
     .map((slug) => absoluteUrl(`${explorePaths.concepts}/${slug}`));
 }
+
+/** Extract concept URLs from semantic relationships (tensions + dynamics) for JSON-LD. */
+export function conceptRelationshipUrls(index: GraphIndex, canonicalFocalId: string): string[] {
+  const { relationshipsForConcept } = require("@/lib/graph/relationshipTaxonomy");
+  const { relationshipEndpointsResolved } = require("@/lib/graph/graphTraversal");
+
+  const { tensions, outgoingDynamics, incomingDynamics } = relationshipsForConcept(
+    index,
+    canonicalFocalId,
+  );
+
+  const counterpartyIds = new Set<string>();
+
+  for (const r of tensions) {
+    const ends = relationshipEndpointsResolved(index, r);
+    if (!ends) continue;
+    const other = ends.sourceId === canonicalFocalId ? ends.targetId : ends.sourceId;
+    counterpartyIds.add(other);
+  }
+
+  for (const r of outgoingDynamics) {
+    const ends = relationshipEndpointsResolved(index, r);
+    if (ends) counterpartyIds.add(ends.targetId);
+  }
+
+  for (const r of incomingDynamics) {
+    const ends = relationshipEndpointsResolved(index, r);
+    if (ends) counterpartyIds.add(ends.sourceId);
+  }
+
+  return Array.from(counterpartyIds)
+    .map((id) => index.getNodeByCanonicalId(id)?.slug)
+    .filter((slug): slug is string => Boolean(slug))
+    .map((slug) => absoluteUrl(`${explorePaths.concepts}/${slug}`));
+}

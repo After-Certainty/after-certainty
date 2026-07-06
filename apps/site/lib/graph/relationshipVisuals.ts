@@ -72,6 +72,49 @@ const RULES: { test: (p: string) => boolean; style: RelationshipVisualStyle }[] 
       strokeDasharray: "4 6",
     },
   },
+  {
+    test: (p) => /weakens/i.test(p),
+    style: { stroke: "#a8526a", strokeWidth: 1.5 },
+  },
+  {
+    test: (p) => /hardens/i.test(p),
+    style: { stroke: "#9b3d55", strokeWidth: 1.5 },
+  },
+  {
+    test: (p) => /constrains/i.test(p),
+    style: {
+      stroke: "#8b5a72",
+      strokeWidth: 1.4,
+      strokeDasharray: "5 3",
+    },
+  },
+  {
+    test: (p) => /contrasts/i.test(p),
+    style: {
+      stroke: "color-mix(in srgb, var(--muted) 70%, var(--accent) 30%)",
+      strokeWidth: 1.2,
+    },
+  },
+  {
+    test: (p) => /requires/i.test(p),
+    style: { stroke: "#7a8fb8", strokeWidth: 1.3 },
+  },
+  {
+    test: (p) => /precedes/i.test(p),
+    style: {
+      stroke: "#8b7ab8",
+      strokeWidth: 1.25,
+      strokeDasharray: "8 4",
+    },
+  },
+  {
+    test: (p) => /intensifies/i.test(p),
+    style: { stroke: "#c47a4d", strokeWidth: 1.5 },
+  },
+  {
+    test: (p) => /complements/i.test(p),
+    style: { stroke: "#6aa89b", strokeWidth: 1.4 },
+  },
 ];
 
 export function normalizePredicateKey(predicate: string): string {
