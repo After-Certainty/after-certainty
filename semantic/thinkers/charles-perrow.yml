@@ -1,0 +1,17 @@
+slug: charles-perrow
+name: Charles Perrow
+type: person
+summary: Sociologist of normal accidents—tight coupling and complex systems where
+  failures cascade.
+concepts:
+- meaning
+patterns: []
+relatedBooks:
+- how-meaning-moves
+- how-serious-systems-learn
+- when-moral-seriousness-scales
+- when-others-look-to-you-v2
+works:
+- perrow-charles-normal-accidents-living-with-high-risk-technologies
+whyThisMatters: Perrow is essential for serious systems, coupling, and why some failures
+  are structurally likely.

@@ -1,0 +1,18 @@
+slug: james-reason
+name: James Reason
+type: person
+summary: Safety scientist whose work on human error, organizational accidents, and
+  resilient systems shaped modern safety thinking.
+concepts: []
+patterns: []
+relatedBooks:
+- the-discipline-of-uncertainty
+- trust-beyond-similarity
+- when-others-look-to-you-v2
+- when-trust-stops-tracking-reality
+works:
+- reason-james-human-error
+- reason-james-managing-the-risks-of-organizational-accidents
+- reason-james-the-human-contribution-unsafe-acts-accidents-and-heroic-recoveries
+whyThisMatters: Reason reframes failure as systemic—essential for coupling, accountability,
+  and learning without blame theater.

@@ -1,0 +1,98 @@
+# Editorial overrides for pilot promotion into semantic/thinkers/.
+# Used by tools/promote_thinker_drafts.py (aggregated works/books/concepts come from drafts).
+
+thinkers:
+  hannah-arendt:
+    summary: Political theorist whose work helps frame authority, judgment, responsibility, violence, and public action.
+    whyThisMatters: Arendt helps distinguish authority from force and responsibility from obedience—recurring lenses across legitimacy, scale, and moral seriousness.
+  john-dewey:
+    summary: Pragmatist philosopher of inquiry, democracy, and education whose work links experience, habit, and public problem-solving.
+    whyThisMatters: Dewey grounds how correction, learning, and democratic judgment stay tied to lived practice rather than abstract certainty.
+  michel-foucault:
+    summary: Historian and philosopher of power, knowledge, and institutions—discipline, surveillance, and how subjects are formed.
+    whyThisMatters: Foucault sharpens readings of how systems shape visibility, compliance, and what counts as normal.
+  amy-c-edmondson:
+    summary: Organizational scholar known for psychological safety, teaming, and learning under uncertainty in high-stakes work.
+    whyThisMatters: Edmondson connects trust, voice, and error reporting—the interpersonal conditions under which correction can happen.
+  james-reason:
+    summary: Safety scientist whose work on human error, organizational accidents, and resilient systems shaped modern safety thinking.
+    whyThisMatters: Reason reframes failure as systemic—essential for coupling, accountability, and learning without blame theater.
+  rebecca-solnit:
+    summary: Writer and critic of certainty, disaster response, and the politics of hope—narrative sense-making in public life.
+    whyThisMatters: Solnit offers language for provisional knowledge, collective action, and why premature closure distorts judgment.
+  max-weber:
+    summary: Sociologist of bureaucracy, authority types, rationalization, and the iron cage of modern institutions.
+    whyThisMatters: Weber's authority and bureaucracy frames appear wherever scale, procedure, and legitimacy interact.
+  james-c-scott:
+    summary: Political scientist of state simplification, legibility, and how high-modernist schemes misfire on local knowledge.
+    whyThisMatters: Scott explains why centralized seeing and standardization can destroy the detail judgment depends on.
+  albert-o-hirschman:
+    summary: Economist and social theorist of exit, voice, and loyalty—how people respond when institutions disappoint.
+    whyThisMatters: Hirschman names the basic repertoire of response when trust thins—stay, speak, or leave.
+  cass-r-sunstein:
+    summary: Legal scholar of behavioral economics, group polarization, and how information environments shape belief.
+    whyThisMatters: Sunstein helps explain echo effects and why more speech alone does not restore shared reality.
+  karl-e-weick:
+    summary: Organizational theorist of sensemaking—how people enact and retrospectively rationalize meaning under ambiguity.
+    whyThisMatters: Weick is central to how meaning moves, organizes, and rewrites itself under pressure.
+  niklas-luhmann:
+    summary: Systems theorist of autopoietic social systems, communication, and functional differentiation.
+    whyThisMatters: Luhmann offers a structural vocabulary for how institutions observe themselves and close against disturbance.
+  philip-e-tetlock:
+    summary: Psychologist of forecasting, expert judgment, and superforecasting under uncertainty.
+    whyThisMatters: Tetlock disciplines claims about prediction—when confidence outruns evidence.
+  dan-m-kahan:
+    summary: Legal scholar studying cultural cognition—how group identity shapes risk perception and belief formation.
+    whyThisMatters: Kahan explains why more information rarely settles disputes that are really about belonging.
+  erving-goffman:
+    summary: Sociologist of interaction ritual, face, framing, and the presentation of self in everyday life.
+    whyThisMatters: Goffman clarifies how status, embarrassment, and impression management shape public judgment.
+  chris-argyris:
+    summary: Organizational theorist of double-loop learning, defensive routines, and how organizations avoid painful truth.
+    whyThisMatters: Argyris names why teams talk about learning while protecting the assumptions that block it.
+  david-graeber:
+    summary: Anthropologist and critic of bureaucracy, debt, and the moral economies embedded in institutions.
+    whyThisMatters: Graeber helps connect moral language, obligation, and the lived experience of administrative power.
+  fernand-braudel:
+    summary: Historian of the longue durée—slow structures, material life, and how deep time constrains political events.
+    whyThisMatters: Braudel reminds readers that visible crises sit on slower layers that outlast any single decision cycle.
+  herbert-a-simon:
+    summary: Nobel laureate in economics; bounded rationality, satisficing, and administrative behavior in organizations.
+    whyThisMatters: Simon grounds why judgment is always constrained—and why institutions must design for that fact.
+  mary-douglas:
+    summary: Anthropologist of risk, purity, and how institutions think through classification and blame.
+    whyThisMatters: Douglas links culture, taboo, and accountability—how groups decide what failure means.
+  robert-a-dahl:
+    summary: Political theorist of democracy, polyarchy, and power distributions in modern states.
+    whyThisMatters: Dahl supplies baseline vocabulary for authority, participation, and when rule is accountable.
+  robert-k-merton:
+    summary: Sociologist of unintended consequences, bureaucracy, and the normative structure of science.
+    whyThisMatters: Merton's patterns—manifest and latent function—help read how incentives reproduce behavior.
+  sidney-dekker:
+    summary: Safety scientist advocating just culture, human factors, and learning from failure without scapegoating.
+    whyThisMatters: Dekker bridges operational safety and moral accountability when systems hurt people.
+  elinor-ostrom:
+    summary: Nobel laureate in economics; commons governance, institutional design beyond markets and states.
+    whyThisMatters: Ostrom shows how communities can steward shared resources when scale and trust still matter.
+  charles-perrow:
+    summary: Sociologist of normal accidents—tight coupling and complex systems where failures cascade.
+    whyThisMatters: Perrow is essential for serious systems, coupling, and why some failures are structurally likely.
+  diane-vaughan:
+    summary: Sociologist of the Challenger disaster and normalization of deviance—how risky practices become routine.
+    whyThisMatters: Vaughan explains how organizations learn the wrong lesson while appearing compliant.
+  daniel-kahneman:
+    summary: Psychologist of judgment and decision-making—biases, heuristics, and noise in expert choice.
+    whyThisMatters: Kahneman is a core reference for how meaning and confidence diverge from statistical reality.
+  philip-selznick:
+    summary: Sociologist of leadership, institutional integrity, and how organizations acquire character and mission.
+    whyThisMatters: Selznick connects legitimacy and purpose—when institutions become more than their formal rules.
+  alistair-cockburn:
+    summary: Software methodologist (Agile, Crystal, hexagonal architecture) and writer on cooperative knowledge work.
+    whyThisMatters: Cockburn bridges craft practice and team coordination—how collaboration fails and recovers in delivery.
+  world-bank:
+    type: organization
+    summary: Multilateral development institution publishing economic, climate, and governance data and policy reports.
+    whyThisMatters: World Bank sources anchor arguments about incentives, carbon pricing, and how global institutions frame moral language at scale.
+  donald-m-berwick:
+    summary: Physician-leader in quality improvement and patient safety—learning health systems and healthcare redesign.
+    whyThisMatters: Berwick connects moral seriousness in medicine to measurable improvement and institutional learning.

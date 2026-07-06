@@ -28,7 +28,16 @@ def test_generate_semantic_manifest_cli(repo_root: Path, tmp_path: Path) -> None
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
     assert r.returncode == 0, f"stderr:\n{r.stderr}\nstdout:\n{r.stdout}"
     data = json.loads(out.read_text(encoding="utf-8"))
-    assert data.get("manifestVersion") == 1
+    version = data.get("manifestVersion")
+    assert version in (1, 2)
+    if (repo_root / "semantic" / "thinkers").is_dir() and any(
+        (repo_root / "semantic" / "thinkers").glob("*.yml")
+    ):
+        assert version == 2
+        assert isinstance(data.get("thinkers"), list)
+        assert len(data["thinkers"]) >= 1
+    else:
+        assert version == 1
     assert isinstance(data.get("books"), list)
     assert isinstance(data.get("glossary"), list)
     assert isinstance(data.get("patterns"), list)

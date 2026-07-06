@@ -1,0 +1,15 @@
+slug: sidney-dekker
+name: Sidney Dekker
+type: person
+summary: Safety scientist advocating just culture, human factors, and learning from
+  failure without scapegoating.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+- how-serious-systems-learn
+works:
+- dekker-sidney-drift-into-failure-from-hunting-broken-components-to-understanding-complex-systems
+- dekker-sidney-the-field-guide-to-understanding-human-error
+whyThisMatters: Dekker bridges operational safety and moral accountability when systems
+  hurt people.

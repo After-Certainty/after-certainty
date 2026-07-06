@@ -1,0 +1,17 @@
+slug: alistair-cockburn
+name: Alistair Cockburn
+type: person
+summary: Software methodologist (Agile, Crystal, hexagonal architecture) and writer
+  on cooperative knowledge work.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+- when-others-look-to-you-v2
+works:
+- cockburn-alistair-agile-software-development
+- cockburn-alistair-hexagonal-architecture-ports-and-adapters
+- cockburn-alistair-how-to-step-up-stepping-up-promoting-guest
+- cockburn-alistair-the-heart-of-agile
+whyThisMatters: Cockburn bridges craft practice and team coordination—how collaboration
+  fails and recovers in delivery.
