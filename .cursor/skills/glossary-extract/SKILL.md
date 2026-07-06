@@ -121,6 +121,8 @@ Return the PR URL.
 | Add typed relationships for "differs from" statements and force dynamics | **semantic-relationships** |
 | Add recognition signals, trajectories, etc. | **semantic-enrichment** → `recognition-signals`, `all`, … |
 | Report where terms appear in manuscript | **glossary-usage-audit** |
+| Ingest bibliography / research works | **semantic-sources** |
+| Aggregate authors into thinker nodes (after sources enriched) | **semantic-thinkers** |
 
 ## Manuscript glossary only (no new canonical yet)
 

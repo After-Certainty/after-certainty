@@ -31,7 +31,7 @@ from book_specs import (
 
 SEMANTIC = Path("semantic")
 SCHEMA_DIR = Path("schema") / "semantic"
-SLUG_PARENTS = frozenset({"glossary", "patterns", "sources", "situations"})
+SLUG_PARENTS = frozenset({"glossary", "patterns", "sources", "situations", "thinkers"})
 
 ONTOLOGY_SCHEMA_BY_NAME = {
     "core-terms.yml": "ontology-core-terms.schema.json",
@@ -46,6 +46,7 @@ DIR_SCHEMA = {
     "patterns": "pattern-entry.schema.json",
     "sources": "source-entry.schema.json",
     "situations": "situation-entry.schema.json",
+    "thinkers": "thinker-entry.schema.json",
 }
 
 
@@ -177,6 +178,7 @@ def _check_refs_in_doc(
         ("relatedPatterns", patterns, "pattern"),
         ("patterns", patterns, "pattern"),
         ("relatedSources", sources, "source"),
+        ("works", sources, "source"),
         ("activePatterns", patterns, "pattern"),
         ("relatedBooks", books, "book"),
     )

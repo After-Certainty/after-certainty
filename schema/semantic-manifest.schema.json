@@ -12,6 +12,7 @@
     "books",
     "glossary",
     "patterns",
+    "situations",
     "sources",
     "relationships",
     "ontology"
@@ -19,7 +20,7 @@
   "properties": {
     "manifestVersion": {
       "type": "integer",
-      "const": 1
+      "enum": [1, 2]
     },
     "generatedAt": {
       "type": "string"
@@ -63,6 +64,12 @@
       "type": "array",
       "items": {
         "$ref": "#/$defs/sourceEntry"
+      }
+    },
+    "thinkers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/thinkerEntry"
       }
     },
     "relationships": {
@@ -612,7 +619,95 @@
             "type": "string",
             "pattern": "^book-[a-zA-Z0-9._-]+$"
           }
-        }
+        },
+        "sourceKind": {
+          "type": "string",
+          "enum": [
+            "book",
+            "article",
+            "report",
+            "standard",
+            "dataset",
+            "speech",
+            "case",
+            "website",
+            "institutional_document"
+          ]
+        },
+        "creatorNames": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        },
+        "creatorSlugs": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "citation": { "type": "string" },
+        "year": { "type": "integer", "minimum": 1000, "maximum": 2100 },
+        "publisher": { "type": "string", "minLength": 1 },
+        "institution": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "whyThisMatters": { "type": "string" }
+      }
+    },
+    "thinkerEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "name",
+        "type",
+        "summary",
+        "concepts",
+        "patterns",
+        "relatedBooks",
+        "works"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^thinker-[a-zA-Z0-9._-]+$"
+        },
+        "slug": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "type": {
+          "type": "string",
+          "enum": ["person", "organization"]
+        },
+        "summary": { "type": "string" },
+        "concepts": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^concept-[a-zA-Z0-9._-]+$"
+          }
+        },
+        "patterns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^pattern-[a-zA-Z0-9._-]+$"
+          }
+        },
+        "relatedBooks": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^book-[a-zA-Z0-9._-]+$"
+          }
+        },
+        "works": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^source-[a-zA-Z0-9._-]+$"
+          }
+        },
+        "whyThisMatters": { "type": "string" }
       }
     },
     "relationshipEntry": {

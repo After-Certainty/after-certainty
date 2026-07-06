@@ -12,6 +12,37 @@
     "summary": { "type": "string" },
     "concepts": { "$ref": "common.json#/$defs/conceptSlugList" },
     "patterns": { "$ref": "common.json#/$defs/patternSlugList" },
-    "relatedBooks": { "$ref": "common.json#/$defs/bookSlugList" }
+    "relatedBooks": { "$ref": "common.json#/$defs/bookSlugList" },
+    "sourceKind": {
+      "type": "string",
+      "enum": [
+        "book",
+        "article",
+        "report",
+        "standard",
+        "dataset",
+        "speech",
+        "case",
+        "website",
+        "institutional_document"
+      ]
+    },
+    "creatorNames": {
+      "type": "array",
+      "items": { "$ref": "common.json#/$defs/nonEmptyString" },
+      "minItems": 1
+    },
+    "creatorSlugs": {
+      "type": "array",
+      "items": { "$ref": "common.json#/$defs/slug" },
+      "minItems": 1
+    },
+    "title": { "$ref": "common.json#/$defs/nonEmptyString" },
+    "citation": { "type": "string" },
+    "year": { "type": "integer", "minimum": 1000, "maximum": 2100 },
+    "publisher": { "$ref": "common.json#/$defs/nonEmptyString" },
+    "institution": { "$ref": "common.json#/$defs/nonEmptyString" },
+    "url": { "type": "string", "format": "uri" },
+    "whyThisMatters": { "type": "string" }
   }
 }
