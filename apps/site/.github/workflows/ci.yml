@@ -39,3 +39,14 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: E2E tests
+        run: npm run test:e2e
+        env:
+          CI: true
+          BOOKS_MANIFEST_OFFLINE: "1"
+          SEMANTIC_MANIFEST_OFFLINE: "1"
+          NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3000
