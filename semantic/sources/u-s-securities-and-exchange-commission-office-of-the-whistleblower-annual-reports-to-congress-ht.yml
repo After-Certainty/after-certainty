@@ -1,6 +1,5 @@
 slug: u-s-securities-and-exchange-commission-office-of-the-whistleblower-annual-reports-to-congress-ht
-name: U.S. Securities and Exchange Commission, Office of the Whistleblower. Annual
-  reports to Congress. https://www.sec.gov/whistleblower
+name: U.S. Securities and Exchange Commission — Annual reports to Congress.
 type: book
 summary: U.S. Securities and Exchange Commission, Office of the Whistleblower. Annual
   reports to Congress. https://www.sec.gov/whistleblower.
@@ -9,10 +8,11 @@ patterns: []
 relatedBooks:
 - the-discipline-of-uncertainty
 creatorNames:
-- U.S. Securities and Exchange Commission, Office of the Whistleblower. Annual reports
-  to Congress. https://www.sec.gov/whistleblower
+- U.S. Securities and Exchange Commission
 creatorSlugs:
 - u-s-securities-and-exchange-commission
 citation: U.S. Securities and Exchange Commission, Office of the Whistleblower. Annual
   reports to Congress. https://www.sec.gov/whistleblower.
-sourceKind: book
+sourceKind: report
+title: Annual reports to Congress.
+institution: U.S. Securities and Exchange Commission

@@ -1,5 +1,6 @@
 slug: centers-for-medicare-medicaid-services-hospital-readmissions
-name: Centers for Medicare & Medicaid Services. Hospital Readmissions
+name: Centers for Medicare & Medicaid Services — Hospital Readmissions Reduction Program
+  (HRRP). Program overview and statutory authority. Updated 2023
 type: book
 summary: Centers for Medicare & Medicaid Services. Hospital Readmissions Reduction
   Program (HRRP). Program overview and statutory authority. Updated 2023.
@@ -8,10 +9,13 @@ patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 creatorNames:
-- Centers for Medicare & Medicaid Services. Hospital Readmissions
+- Centers for Medicare & Medicaid Services
 creatorSlugs:
 - centers-for-medicare-medicaid-services
 citation: Centers for Medicare & Medicaid Services. Hospital Readmissions Reduction
   Program (HRRP). Program overview and statutory authority. Updated 2023.
-sourceKind: book
+sourceKind: institutional_document
 year: 2023
+title: Hospital Readmissions Reduction Program (HRRP). Program overview and statutory
+  authority. Updated 2023
+institution: Centers for Medicare & Medicaid Services
