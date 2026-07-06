@@ -138,6 +138,18 @@ const patternSchema = z.object({
   ...enrichmentFields,
 });
 
+const sourceKindSchema = z.enum([
+  "book",
+  "article",
+  "report",
+  "standard",
+  "dataset",
+  "speech",
+  "case",
+  "website",
+  "institutional_document",
+]);
+
 const sourceSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
@@ -147,6 +159,16 @@ const sourceSchema = z.object({
   concepts: stringList,
   patterns: stringList,
   relatedBooks: stringList,
+  sourceKind: sourceKindSchema.or(z.string().min(1)).optional(),
+  creatorNames: z.array(z.string().min(1)).optional(),
+  creatorSlugs: z.array(z.string().min(1)).optional(),
+  title: z.string().min(1).optional(),
+  citation: z.string().min(1).optional(),
+  year: z.number().int().optional(),
+  publisher: z.string().min(1).optional(),
+  institution: z.string().min(1).optional(),
+  url: z.string().url().optional(),
+  whyThisMatters: z.string().min(1).optional(),
 });
 
 const relationshipSchema = z.object({

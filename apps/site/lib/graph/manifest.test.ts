@@ -76,9 +76,14 @@ describe("validateSemanticGraph", () => {
       const pattern = result.data.patterns[0];
       expect(pattern?.setup).toBe("An exchange contains ambiguity or missing context.");
       expect(pattern?.problem).toBe("Open meaning is hard to sustain without active facilitation.");
-      expect(pattern?.forces).toEqual(["Cognitive efficiency drives quick closure", "Social norms favor certainty"]);
+      expect(pattern?.forces).toEqual([
+        "Cognitive efficiency drives quick closure",
+        "Social norms favor certainty",
+      ]);
       expect(pattern?.observation).toBe("Teams tend to rush toward consensus.");
-      expect(pattern?.example).toBe("A manager sends a terse email; team members interpret urgency.");
+      expect(pattern?.example).toBe(
+        "A manager sends a terse email; team members interpret urgency.",
+      );
     }
   });
 
@@ -130,8 +135,17 @@ describe("validateSemanticGraph", () => {
       sources: [],
       relationships: [],
       ontology: {
-        masterTerms: [{ id: "concept-circulation", slug: "circulation", title: "Circulation", preserves: "continuity" }],
-        structuralPressures: [{ id: "concept-scale", slug: "scale", title: "Scale", effect: "weakens proximity" }],
+        masterTerms: [
+          {
+            id: "concept-circulation",
+            slug: "circulation",
+            title: "Circulation",
+            preserves: "continuity",
+          },
+        ],
+        structuralPressures: [
+          { id: "concept-scale", slug: "scale", title: "Scale", effect: "weakens proximity" },
+        ],
       },
     });
     expect(result.success).toBe(true);
@@ -194,6 +208,74 @@ describe("validateSemanticGraph", () => {
     }
   });
 
+  it("accepts legacy sources without v1.5 enrichment fields", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [],
+      patterns: [],
+      sources: [
+        {
+          id: "source-legacy",
+          slug: "legacy-source",
+          name: "Author — Title",
+          type: "book",
+          summary: "Citation line.",
+          concepts: [],
+          patterns: [],
+          relatedBooks: [],
+        },
+      ],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      const source = result.data.sources[0];
+      expect(source?.name).toBe("Author — Title");
+      expect(source?.sourceKind).toBeUndefined();
+      expect(source?.creatorSlugs).toBeUndefined();
+    }
+  });
+
+  it("accepts sources with full v1.5 enrichment fields", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [],
+      patterns: [],
+      sources: [
+        {
+          id: "source-arendt-hannah-between-past-and-future",
+          slug: "arendt-hannah-between-past-and-future",
+          name: "Hannah Arendt — Between Past and Future",
+          type: "book",
+          sourceKind: "book",
+          creatorNames: ["Hannah Arendt"],
+          creatorSlugs: ["hannah-arendt"],
+          title: "Between Past and Future",
+          citation: "Arendt, Hannah. *Between Past and Future*. New York: Penguin Books, 2006.",
+          year: 2006,
+          publisher: "Penguin Books",
+          summary: "Arendt, Hannah. *Between Past and Future*. New York: Penguin Books, 2006.",
+          whyThisMatters: "Arendt helps distinguish authority from force.",
+          url: "https://example.com/arendt",
+          concepts: ["concept-authority"],
+          patterns: [],
+          relatedBooks: ["book-living-in-sediment"],
+        },
+      ],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      const source = result.data.sources[0];
+      expect(source?.sourceKind).toBe("book");
+      expect(source?.creatorSlugs).toEqual(["hannah-arendt"]);
+      expect(source?.title).toBe("Between Past and Future");
+      expect(source?.citation).toContain("Between Past and Future");
+      expect(source?.year).toBe(2006);
+      expect(source?.whyThisMatters).toContain("authority");
+    }
+  });
+
   it("rejects invalid entity field types", () => {
     const result = validateSemanticGraph({
       books: [{ id: "b1", slug: "b", title: 123 }],
@@ -232,7 +314,8 @@ describe("validateSemanticGraph", () => {
   });
 
   it("accepts null subtitle and PDF-only exports (poetry books)", () => {
-    const pdfUrl = "https://github.com/ksteffe/after-certainty/releases/download/latest/observer-patterns.pdf";
+    const pdfUrl =
+      "https://github.com/ksteffe/after-certainty/releases/download/latest/observer-patterns.pdf";
     const result = validateSemanticGraph({
       books: [
         {
@@ -318,7 +401,9 @@ describe("fetchSemanticGraphUncached", () => {
   it("fetches and parses remote JSON when online", async () => {
     delete process.env.SEMANTIC_MANIFEST_OFFLINE;
     const payload = {
-      books: [{ id: "b1", slug: "book-one", title: "Book One", concepts: [], patterns: [], sources: [] }],
+      books: [
+        { id: "b1", slug: "book-one", title: "Book One", concepts: [], patterns: [], sources: [] },
+      ],
       glossary: [
         {
           id: "c1",
