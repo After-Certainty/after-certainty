@@ -1,0 +1,13 @@
+slug: vaughn-vernon
+name: Vaughn Vernon
+type: person
+summary: Software architect and author on domain-driven design, messaging, and modeling
+  complex business domains.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- vernon-vaughn-implementing-domain-driven-design
+whyThisMatters: Vernon helps teams keep meaning explicit as systems grow—boundary
+  and context before code sediment hardens.

@@ -1,0 +1,13 @@
+slug: norbert-wiener
+name: Norbert Wiener
+type: person
+summary: Mathematician and founder of cybernetics—feedback, communication, and control
+  in machines and organisms.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- wiener-norbert-cybernetics-or-control-and-communication-in-the-animal-and-the-machine
+whyThisMatters: Wiener is foundational for serious systems—prediction, noise, and
+  responsibility in coupled control loops.

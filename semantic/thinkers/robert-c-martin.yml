@@ -1,0 +1,13 @@
+slug: robert-c-martin
+name: Robert C Martin
+type: person
+summary: Software craftsman and author on clean code, SOLID principles, and professional
+  responsibility in engineering.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- martin-robert-c-clean-architecture-a-craftsman-s-guide-to-software-structure-and-the-design-of-p
+whyThisMatters: Martin argues for moral seriousness in craft—code as sediment that
+  future people must live inside.
