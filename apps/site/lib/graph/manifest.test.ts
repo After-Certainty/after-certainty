@@ -6,10 +6,11 @@ import { DEFAULT_SEMANTIC_MANIFEST_URL } from "@/lib/site-config";
 import {
   dedupeSemanticGraphBooks,
   fetchSemanticGraphUncached,
+  pickSemanticGraph,
   validateSemanticGraph,
   SEMANTIC_GRAPH_CACHE_TAG,
 } from "@/lib/graph/manifest";
-import type { Book } from "@/types/semanticGraph";
+import type { Book, SemanticGraph } from "@/types/semanticGraph";
 
 function validatedFallbackGraph() {
   const result = validateSemanticGraph(fallback as unknown);
@@ -436,6 +437,29 @@ describe("dedupeSemanticGraphBooks", () => {
   });
 });
 
+describe("pickSemanticGraph", () => {
+  it("prefers bundled graph when remote lacks enrichment", () => {
+    const remote = validatedFallbackGraph();
+    const legacyRemote: SemanticGraph = {
+      ...remote,
+      generatedAt: "2026-07-01T00:00:00.000Z",
+      sources: remote.sources.map((source) => ({
+        id: source.id,
+        slug: source.slug,
+        name: source.name,
+        type: source.type,
+        summary: source.summary,
+        concepts: source.concepts,
+        patterns: source.patterns,
+        relatedBooks: source.relatedBooks,
+      })),
+    };
+
+    const picked = pickSemanticGraph(legacyRemote, remote);
+    expect(picked.sources.some((source) => (source.creatorSlugs?.length ?? 0) > 0)).toBe(true);
+  });
+});
+
 describe("fetchSemanticGraphUncached", () => {
   let prevOffline: string | undefined;
   let prevManifestUrl: string | undefined;
@@ -462,7 +486,7 @@ describe("fetchSemanticGraphUncached", () => {
     expect(graph.glossary).toEqual(validatedFallbackGraph().glossary);
   });
 
-  it("fetches and parses remote JSON when online", async () => {
+  it("fetches remote JSON when online and prefers enriched bundled data when remote is legacy", async () => {
     delete process.env.SEMANTIC_MANIFEST_OFFLINE;
     const payload = {
       books: [
@@ -500,8 +524,7 @@ describe("fetchSemanticGraphUncached", () => {
         }),
       }),
     );
-    expect(graph.glossary).toHaveLength(1);
-    expect(graph.glossary[0].slug).toBe("concept-one");
+    expect(graph.sources.some((source) => (source.creatorSlugs?.length ?? 0) > 0)).toBe(true);
   });
 
   it("falls back to bundled graph when fetch fails", async () => {
@@ -532,5 +555,43 @@ describe("fetchSemanticGraphUncached", () => {
     const graph = await fetchSemanticGraphUncached();
 
     expect(graph.glossary).toEqual(validatedFallbackGraph().glossary);
+  });
+
+  it("prefers bundled graph when remote lacks source enrichment", async () => {
+    delete process.env.SEMANTIC_MANIFEST_OFFLINE;
+    fetchSpy.mockResolvedValue({
+      ok: true,
+      json: async () => ({
+        manifestVersion: 1,
+        generatedAt: "2026-07-01T00:00:00.000Z",
+        books: [],
+        glossary: [],
+        patterns: [],
+        sources: [
+          {
+            id: "source-legacy",
+            slug: "legacy-source",
+            name: "Legacy Source",
+            type: "book",
+            summary: "Legacy",
+            concepts: [],
+            patterns: [],
+            relatedBooks: [],
+          },
+        ],
+        relationships: [],
+      }),
+    } as Response);
+
+    const graph = await fetchSemanticGraphUncached();
+    const bundled = validatedFallbackGraph();
+
+    expect(graph.sources.filter((s) => (s.creatorSlugs?.length ?? 0) > 0).length).toBeGreaterThan(
+      0,
+    );
+    expect(bundled.sources.filter((s) => (s.creatorSlugs?.length ?? 0) > 0).length).toBeGreaterThan(
+      0,
+    );
+    expect(graph.sources.some((source) => (source.creatorSlugs?.length ?? 0) > 0)).toBe(true);
   });
 });
