@@ -276,6 +276,70 @@ describe("validateSemanticGraph", () => {
     }
   });
 
+  it("accepts manifest version 1 without thinkers key", () => {
+    const result = validateSemanticGraph({
+      manifestVersion: 1,
+      books: [],
+      glossary: [],
+      patterns: [],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.manifestVersion).toBe(1);
+      expect(result.data.thinkers).toBeUndefined();
+    }
+  });
+
+  it("accepts manifest version 2 with top-level thinkers array", () => {
+    const result = validateSemanticGraph({
+      manifestVersion: 2,
+      books: [],
+      glossary: [],
+      patterns: [],
+      sources: [],
+      relationships: [],
+      thinkers: [
+        {
+          id: "thinker-hannah-arendt",
+          slug: "hannah-arendt",
+          name: "Hannah Arendt",
+          type: "person",
+          summary: "Political theorist.",
+          works: ["source-arendt-between-past-and-future"],
+          concepts: ["concept-authority"],
+          patterns: [],
+          relatedBooks: ["book-after-certainty"],
+          whyThisMatters: "Arendt on authority and judgment.",
+        },
+      ],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.manifestVersion).toBe(2);
+      expect(result.data.thinkers).toHaveLength(1);
+      expect(result.data.thinkers?.[0]?.slug).toBe("hannah-arendt");
+      expect(result.data.thinkers?.[0]?.works).toEqual(["source-arendt-between-past-and-future"]);
+    }
+  });
+
+  it("accepts empty thinkers array for v2 manifests", () => {
+    const result = validateSemanticGraph({
+      manifestVersion: 2,
+      books: [],
+      glossary: [],
+      patterns: [],
+      sources: [],
+      relationships: [],
+      thinkers: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.thinkers).toEqual([]);
+    }
+  });
+
   it("rejects invalid entity field types", () => {
     const result = validateSemanticGraph({
       books: [{ id: "b1", slug: "b", title: 123 }],

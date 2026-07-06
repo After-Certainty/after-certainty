@@ -1,18 +1,4 @@
-import type { SemanticGraph, Source } from "@/types/semanticGraph";
-
-/** Person or institution aggregated from enriched source metadata. */
-export interface DerivedThinker {
-  id: string;
-  slug: string;
-  name: string;
-  type: "person" | "organization";
-  summary?: string;
-  works: string[];
-  concepts: string[];
-  patterns: string[];
-  relatedBooks: string[];
-  whyThisMatters?: string;
-}
+import type { SemanticGraph, Source, Thinker } from "@/types/semanticGraph";
 
 const INSTITUTIONAL_SOURCE_KINDS = new Set(["institutional_document", "report", "standard"]);
 
@@ -61,10 +47,7 @@ function isInstitutionalSource(source: Source): boolean {
  * Aggregate thinkers from enriched sources when `manifest.thinkers` is absent.
  * Returns an empty array when no source has `creatorSlugs`.
  */
-export function deriveThinkersFromSources(
-  sources: Source[],
-  _graph?: SemanticGraph,
-): DerivedThinker[] {
+export function deriveThinkersFromSources(sources: Source[], _graph?: SemanticGraph): Thinker[] {
   const hasCreatorSlugs = sources.some((s) => (s.creatorSlugs?.length ?? 0) > 0);
   if (!hasCreatorSlugs) return [];
 
@@ -82,7 +65,7 @@ export function deriveThinkersFromSources(
     }
   }
 
-  const thinkers: DerivedThinker[] = [];
+  const thinkers: Thinker[] = [];
 
   for (const [slug, { sources: grouped }] of bySlug) {
     const representative = grouped[0]!;
@@ -103,4 +86,15 @@ export function deriveThinkersFromSources(
   }
 
   return thinkers.sort((a, b) => a.name.localeCompare(b.name));
+}
+
+/**
+ * Resolve thinkers for the explore UI: prefer explicit manifest thinkers,
+ * otherwise derive from enriched source metadata.
+ */
+export function resolveThinkers(graph: SemanticGraph): Thinker[] {
+  if (graph.thinkers && graph.thinkers.length > 0) {
+    return graph.thinkers;
+  }
+  return deriveThinkersFromSources(graph.sources, graph);
 }

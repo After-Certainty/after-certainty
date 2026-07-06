@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
-import { deriveThinkersFromSources } from "@/lib/graph/thinkers";
-import type { Source } from "@/types/semanticGraph";
+import { deriveThinkersFromSources, resolveThinkers } from "@/lib/graph/thinkers";
+import type { SemanticGraph, Source, Thinker } from "@/types/semanticGraph";
 
 const legacySource: Source = {
   id: "source-legacy",
@@ -60,6 +60,27 @@ const worldBankReport: Source = {
   relatedBooks: [],
 };
 
+const manifestArendt: Thinker = {
+  id: "thinker-hannah-arendt",
+  slug: "hannah-arendt",
+  name: "Hannah Arendt",
+  type: "person",
+  summary: "Political theorist.",
+  works: ["source-arendt-between-past-and-future"],
+  concepts: ["concept-authority"],
+  patterns: [],
+  relatedBooks: ["book-after-certainty"],
+  whyThisMatters: "Canonical manifest thinker.",
+};
+
+const enrichedGraphBase: SemanticGraph = {
+  books: [],
+  glossary: [],
+  patterns: [],
+  sources: [arendtWorkA, arendtWorkB],
+  relationships: [],
+};
+
 describe("deriveThinkersFromSources", () => {
   it("returns an empty array for legacy sources without creatorSlugs", () => {
     expect(deriveThinkersFromSources([legacySource])).toEqual([]);
@@ -106,5 +127,52 @@ describe("deriveThinkersFromSources", () => {
     expect(thinkers).toHaveLength(1);
     expect(thinkers[0]?.type).toBe("organization");
     expect(thinkers[0]?.slug).toBe("world-bank");
+  });
+});
+
+describe("resolveThinkers", () => {
+  it("prefers explicit manifest thinkers over derived groupings", () => {
+    const graph: SemanticGraph = {
+      ...enrichedGraphBase,
+      manifestVersion: 2,
+      thinkers: [manifestArendt],
+    };
+
+    const thinkers = resolveThinkers(graph);
+    expect(thinkers).toHaveLength(1);
+    expect(thinkers[0]?.id).toBe("thinker-hannah-arendt");
+    expect(thinkers[0]?.whyThisMatters).toBe("Canonical manifest thinker.");
+  });
+
+  it("falls back to derived thinkers when thinkers array is empty", () => {
+    const graph: SemanticGraph = {
+      ...enrichedGraphBase,
+      manifestVersion: 2,
+      thinkers: [],
+    };
+
+    const thinkers = resolveThinkers(graph);
+    expect(thinkers).toHaveLength(1);
+    expect(thinkers[0]?.slug).toBe("hannah-arendt");
+    expect(thinkers[0]?.works).toHaveLength(2);
+  });
+
+  it("falls back to derived thinkers when thinkers key is absent", () => {
+    const thinkers = resolveThinkers(enrichedGraphBase);
+    expect(thinkers).toHaveLength(1);
+    expect(thinkers[0]?.slug).toBe("hannah-arendt");
+  });
+
+  it("returns an empty array for legacy manifests without thinkers or creatorSlugs", () => {
+    const graph: SemanticGraph = {
+      books: [],
+      glossary: [],
+      patterns: [],
+      sources: [legacySource],
+      relationships: [],
+      manifestVersion: 1,
+    };
+
+    expect(resolveThinkers(graph)).toEqual([]);
   });
 });
