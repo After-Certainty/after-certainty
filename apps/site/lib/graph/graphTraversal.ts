@@ -1,4 +1,5 @@
 import type { GraphIndex, GraphNode } from "@/lib/graph/graph";
+import { relatedRefsForThinker, thinkerIdsForConcept } from "@/lib/graph/conceptThinkers";
 import type { GraphFocalNode, Relationship } from "@/types/semanticGraph";
 
 /** Resolved endpoints for a relationship; `null` if either side does not map to a known entity. */
@@ -32,14 +33,20 @@ export function getValidRelationships(index: GraphIndex): Relationship[] {
   return valid;
 }
 
-export function getIncomingRelationships(index: GraphIndex, canonicalFocalId: string): Relationship[] {
+export function getIncomingRelationships(
+  index: GraphIndex,
+  canonicalFocalId: string,
+): Relationship[] {
   return index.graph.relationships.filter((r) => {
     const ends = relationshipEndpointsResolved(index, r);
     return Boolean(ends && ends.targetId === canonicalFocalId);
   });
 }
 
-export function getOutgoingRelationships(index: GraphIndex, canonicalFocalId: string): Relationship[] {
+export function getOutgoingRelationships(
+  index: GraphIndex,
+  canonicalFocalId: string,
+): Relationship[] {
   return index.graph.relationships.filter((r) => {
     const ends = relationshipEndpointsResolved(index, r);
     return Boolean(ends && ends.sourceId === canonicalFocalId);
@@ -87,7 +94,12 @@ export function getConnectedGraphNeighborhood(
   if (focalNode) {
     if (focalNode.kind === "concept") {
       const e = focalNode.entity;
-      for (const ref of [...(e.relatedConcepts ?? []), ...(e.relatedPatterns ?? []), ...(e.relatedBooks ?? [])]) {
+      for (const ref of [
+        ...(e.relatedConcepts ?? []),
+        ...(e.relatedPatterns ?? []),
+        ...(e.relatedBooks ?? []),
+        ...thinkerIdsForConcept(index, focalId),
+      ]) {
         addNeighbor(index, ref, focalId, depth1);
       }
     } else if (focalNode.kind === "pattern") {
@@ -103,6 +115,10 @@ export function getConnectedGraphNeighborhood(
     } else if (focalNode.kind === "source") {
       const e = focalNode.entity;
       for (const ref of [...(e.concepts ?? []), ...(e.patterns ?? []), ...(e.relatedBooks ?? [])]) {
+        addNeighbor(index, ref, focalId, depth1);
+      }
+    } else if (focalNode.kind === "thinker") {
+      for (const ref of relatedRefsForThinker(focalNode.entity)) {
         addNeighbor(index, ref, focalId, depth1);
       }
     }

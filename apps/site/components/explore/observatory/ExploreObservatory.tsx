@@ -76,7 +76,7 @@ import type { FocusCameraTarget } from "@/components/explore/observatory/hooks/u
 import type { InsightEdge } from "@/lib/graph/graphInsights";
 import { trackSelectContent } from "@/lib/analytics/track";
 
-const ALL_KINDS: GraphEntityKind[] = ["concept", "pattern", "book", "source"];
+const ALL_KINDS: GraphEntityKind[] = ["concept", "pattern", "book", "source", "thinker"];
 
 function undirectedPairKey(a: string, b: string): string {
   return a < b ? `${a}|${b}` : `${b}|${a}`;

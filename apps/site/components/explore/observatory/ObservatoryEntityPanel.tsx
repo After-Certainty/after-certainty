@@ -3,10 +3,20 @@
 import Link from "next/link";
 
 import { RelationshipCard } from "@/components/explore/relationship-card";
-import type { GraphIndex, GraphNode } from "@/lib/graph/graph";
+import { graphNodeTitle, type GraphIndex, type GraphNode } from "@/lib/graph/graph";
 import { exploreHrefForNode, exploreObservatoryFocusHref } from "@/lib/graph/explorePaths";
-import { relatedContentForBook, relatedContentForConcept, relatedContentForPattern, relatedContentForSource } from "@/lib/graph/relatedContent";
-import { getIncomingRelationships, getOutgoingRelationships, relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
+import {
+  relatedContentForBook,
+  relatedContentForConcept,
+  relatedContentForPattern,
+  relatedContentForSource,
+  relatedContentForThinker,
+} from "@/lib/graph/relatedContent";
+import {
+  getIncomingRelationships,
+  getOutgoingRelationships,
+  relationshipEndpointsResolved,
+} from "@/lib/graph/graphTraversal";
 import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
 import type { Relationship } from "@/types/semanticGraph";
 import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
@@ -27,7 +37,7 @@ type ObservatoryEntityPanelProps = {
 function labelForId(index: GraphIndex, id: string): string {
   const n = index.getNodeByCanonicalId(id);
   if (!n) return "Unknown";
-  return n.kind === "source" ? n.entity.name : n.entity.title;
+  return graphNodeTitle(n);
 }
 
 export function ObservatoryEntityPanel({
@@ -44,7 +54,9 @@ export function ObservatoryEntityPanel({
     return (
       <div className="space-y-3 p-1">
         <p className="text-[11px] uppercase tracking-[0.26em] text-muted">Focus</p>
-        <p className="text-sm leading-relaxed text-muted">Select a node on the map to read its semantic context.</p>
+        <p className="text-sm leading-relaxed text-muted">
+          Select a node on the map to read its semantic context.
+        </p>
       </div>
     );
   }
@@ -58,33 +70,44 @@ export function ObservatoryEntityPanel({
         ? relatedContentForPattern(index, node.entity)
         : node.kind === "book"
           ? relatedContentForBook(index, node.entity)
-          : relatedContentForSource(index, node.entity);
+          : node.kind === "thinker"
+            ? relatedContentForThinker(index, node.entity)
+            : relatedContentForSource(index, node.entity);
 
   const hasRelatedTerrain =
     bundle.concepts.length > 0 ||
     bundle.patterns.length > 0 ||
     bundle.books.length > 0 ||
-    bundle.sources.length > 0;
+    bundle.sources.length > 0 ||
+    bundle.thinkers.length > 0;
 
-  const cover = node.kind === "book" ? coverBySlug[node.entity.slug] ?? node.entity.coverImage : undefined;
+  const cover =
+    node.kind === "book" ? (coverBySlug[node.entity.slug] ?? node.entity.coverImage) : undefined;
 
   return (
     <div className="space-y-8 p-1">
       <div>
         <p className="text-[11px] uppercase tracking-[0.26em] text-accent">{node.kind}</p>
         <h2 className="mt-3 font-display text-xl font-medium leading-snug text-fg md:text-2xl">
-          {node.kind === "source" ? node.entity.name : node.entity.title}
+          {graphNodeTitle(node)}
         </h2>
         {node.kind === "concept" ? (
-          <p className="mt-4 text-sm leading-relaxed text-muted">{getConceptDisplayDefinition(node.entity)}</p>
+          <p className="mt-4 text-sm leading-relaxed text-muted">
+            {getConceptDisplayDefinition(node.entity)}
+          </p>
         ) : null}
         {node.kind === "pattern" ? (
           <p className="mt-4 text-sm leading-relaxed text-muted">{node.entity.summary}</p>
         ) : null}
         {node.kind === "book" ? (
-          <p className="mt-4 text-sm leading-relaxed text-muted">{node.entity.summary ?? node.entity.subtitle}</p>
+          <p className="mt-4 text-sm leading-relaxed text-muted">
+            {node.entity.summary ?? node.entity.subtitle}
+          </p>
         ) : null}
         {node.kind === "source" && node.entity.summary ? (
+          <p className="mt-4 text-sm leading-relaxed text-muted">{node.entity.summary}</p>
+        ) : null}
+        {node.kind === "thinker" && node.entity.summary ? (
           <p className="mt-4 text-sm leading-relaxed text-muted">{node.entity.summary}</p>
         ) : null}
         {node.kind === "concept" && node.entity.layer ? (
@@ -112,7 +135,11 @@ export function ObservatoryEntityPanel({
 
       {node.kind === "book" && cover ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={cover} alt="" className="max-h-40 w-auto rounded-sm border border-border/80 object-contain" />
+        <img
+          src={cover}
+          alt=""
+          className="max-h-40 w-auto rounded-sm border border-border/80 object-contain"
+        />
       ) : null}
 
       {(incoming.length > 0 || outgoing.length > 0) && (
@@ -202,6 +229,17 @@ export function ObservatoryEntityPanel({
                   onClick={() => onRelatedTerrainLinkNavigate?.()}
                 >
                   {s.name}
+                </Link>
+              </li>
+            ))}
+            {bundle.thinkers.slice(0, 6).map((t) => (
+              <li key={t.id}>
+                <Link
+                  href={exploreObservatoryFocusHref("thinker", t.slug)}
+                  className="block text-left hover:text-accent"
+                  onClick={() => onRelatedTerrainLinkNavigate?.()}
+                >
+                  {t.name}
                 </Link>
               </li>
             ))}

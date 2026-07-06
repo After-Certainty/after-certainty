@@ -33,6 +33,8 @@ export function exploreHrefForNode(node: GraphNode): string {
       return `${explorePaths.books}/${node.slug}`;
     case "source":
       return `${explorePaths.sources}/${node.slug}`;
+    case "thinker":
+      return `${explorePaths.thinkers}/${node.slug}`;
   }
 }
 

@@ -71,6 +71,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
     related.concepts.length +
       related.patterns.length +
       related.books.length +
+      related.thinkers.length +
       mergedSources.length >
     0;
   const hasRelationships = entityHasSemanticRelationships(index, concept.id);
@@ -87,6 +88,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
     ...related.concepts.map((c) => c.id),
     ...related.patterns.map((p) => p.id),
     ...related.books.map((b) => b.id),
+    ...related.thinkers.map((t) => t.id),
     ...mergedSources.map((s) => s.id),
   ]);
 
@@ -145,7 +147,11 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
               books={related.books}
               catalogBooksForBookCovers={catalogBooks}
             />
-            <RelatedContentGrid heading="Thinkers & sources" sources={mergedSources} />
+            <RelatedContentGrid
+              heading="Thinkers & sources"
+              thinkers={related.thinkers}
+              sources={mergedSources}
+            />
           </div>
         </Section>
       ) : null}

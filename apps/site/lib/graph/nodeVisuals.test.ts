@@ -59,4 +59,25 @@ describe("visualProfileForGraphNode", () => {
       accent: "slate",
     });
   });
+
+  it("maps thinker nodes", () => {
+    const thinkerGraph: SemanticGraph = {
+      ...graph,
+      thinkers: [
+        {
+          id: "t1",
+          slug: "arendt",
+          name: "Hannah Arendt",
+          type: "person",
+          works: [],
+        },
+      ],
+    };
+    const thinkerIndex = buildGraphIndex(thinkerGraph);
+    expect(visualProfileForGraphNode(thinkerIndex.getNodeByCanonicalId("t1")!)).toMatchObject({
+      kind: "thinker",
+      shape: "circle",
+      accent: "violet",
+    });
+  });
 });

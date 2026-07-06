@@ -1,4 +1,4 @@
-import type { GraphIndex, GraphNode } from "@/lib/graph/graph";
+import { graphNodeTitle, type GraphIndex, type GraphNode } from "@/lib/graph/graph";
 import { isSymmetricRelationship } from "@/lib/graph/relationshipTaxonomy";
 import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
 import type { RelationshipSelection } from "@/lib/observatory/types";
@@ -6,11 +6,11 @@ import type { RelationshipSelection } from "@/lib/observatory/types";
 export function nodeLabel(index: GraphIndex, canonicalId: string): string {
   const n = index.getNodeByCanonicalId(canonicalId);
   if (!n) return "Unknown";
-  return n.kind === "source" ? n.entity.name : n.entity.title;
+  return graphNodeTitle(n);
 }
 
 export function entityFocusSummary(node: GraphNode): string {
-  const title = node.kind === "source" ? node.entity.name : node.entity.title;
+  const title = graphNodeTitle(node);
   const kindLabel = node.kind.charAt(0).toUpperCase() + node.kind.slice(1);
   return `${kindLabel} · ${title}`;
 }

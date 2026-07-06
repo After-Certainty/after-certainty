@@ -3,7 +3,7 @@ import type { GraphIndex } from "@/lib/graph/graph";
 import type { Book } from "@/types/content";
 import type { GraphEntityKind } from "@/types/semanticGraph";
 
-const FOCUS_KINDS = new Set<GraphEntityKind>(["concept", "pattern", "book", "source"]);
+const FOCUS_KINDS = new Set<GraphEntityKind>(["concept", "pattern", "book", "source", "thinker"]);
 
 export function isValidExploreFocusKind(v: string): v is GraphEntityKind {
   return FOCUS_KINDS.has(v as GraphEntityKind);
@@ -36,5 +36,7 @@ export function resolveExploreFocusCanonicalId(
       }
       return null;
     }
+    case "thinker":
+      return index.thinkerBySlug.get(s)?.id ?? null;
   }
 }

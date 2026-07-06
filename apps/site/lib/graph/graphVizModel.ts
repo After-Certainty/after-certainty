@@ -4,6 +4,7 @@
  */
 
 import type { GraphIndex } from "@/lib/graph/graph";
+import { relatedRefsForThinker, thinkerIdsForConcept } from "@/lib/graph/conceptThinkers";
 import type { GraphEntityKind, Relationship } from "@/types/semanticGraph";
 import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
 import { normalizePredicateKey } from "@/lib/graph/relationshipVisuals";
@@ -61,7 +62,11 @@ export function passesNodeFilters(
       if (!ly || !opt.layers.includes(ly)) return false;
     }
   }
-  if (opt.ontologyAllowedConceptIds && n.kind === "concept" && !opt.ontologyAllowedConceptIds.has(id)) {
+  if (
+    opt.ontologyAllowedConceptIds &&
+    n.kind === "concept" &&
+    !opt.ontologyAllowedConceptIds.has(id)
+  ) {
     return false;
   }
   return true;
@@ -100,13 +105,24 @@ function collectNeighbors(index: GraphIndex, id: string, opt: GraphVizBuildOptio
         ...(n.entity.relatedConcepts ?? []),
         ...(n.entity.relatedPatterns ?? []),
         ...(n.entity.relatedBooks ?? []),
+        ...thinkerIdsForConcept(index, id),
       );
     } else if (n.kind === "pattern") {
       refs.push(...(n.entity.relatedConcepts ?? []), ...(n.entity.relatedBooks ?? []));
     } else if (n.kind === "book") {
-      refs.push(...(n.entity.concepts ?? []), ...(n.entity.patterns ?? []), ...(n.entity.sources ?? []));
+      refs.push(
+        ...(n.entity.concepts ?? []),
+        ...(n.entity.patterns ?? []),
+        ...(n.entity.sources ?? []),
+      );
     } else if (n.kind === "source") {
-      refs.push(...(n.entity.concepts ?? []), ...(n.entity.patterns ?? []), ...(n.entity.relatedBooks ?? []));
+      refs.push(
+        ...(n.entity.concepts ?? []),
+        ...(n.entity.patterns ?? []),
+        ...(n.entity.relatedBooks ?? []),
+      );
+    } else if (n.kind === "thinker") {
+      refs.push(...relatedRefsForThinker(n.entity));
     }
     for (const ref of refs) {
       const cid = index.resolveCanonicalId(ref);
@@ -197,7 +213,11 @@ export function vizEdgeDedupKey(sourceId: string, targetId: string, relationship
   return `${pair}::${normalizePredicateKey(relationship)}`;
 }
 
-function computeVizEdges(index: GraphIndex, nodeSet: ReadonlySet<string>, opt: GraphVizBuildOptions): VizEdge[] {
+function computeVizEdges(
+  index: GraphIndex,
+  nodeSet: ReadonlySet<string>,
+  opt: GraphVizBuildOptions,
+): VizEdge[] {
   const nodeIds = [...nodeSet];
   const edgeKeySeen = new Set<string>();
   const edges: VizEdge[] = [];
@@ -226,7 +246,11 @@ function computeVizEdges(index: GraphIndex, nodeSet: ReadonlySet<string>, opt: G
     });
   };
 
-  for (let manifestIndex = 0; manifestIndex < index.graph.relationships.length; manifestIndex += 1) {
+  for (
+    let manifestIndex = 0;
+    manifestIndex < index.graph.relationships.length;
+    manifestIndex += 1
+  ) {
     const r = index.graph.relationships[manifestIndex]!;
     if (!passesPredicateFilter(r, opt.predicates)) continue;
     const ends = relationshipEndpointsResolved(index, r);
@@ -249,13 +273,24 @@ function computeVizEdges(index: GraphIndex, nodeSet: ReadonlySet<string>, opt: G
           ...(n.entity.relatedConcepts ?? []),
           ...(n.entity.relatedPatterns ?? []),
           ...(n.entity.relatedBooks ?? []),
+          ...thinkerIdsForConcept(index, id),
         );
       } else if (n.kind === "pattern") {
         refs.push(...(n.entity.relatedConcepts ?? []), ...(n.entity.relatedBooks ?? []));
       } else if (n.kind === "book") {
-        refs.push(...(n.entity.concepts ?? []), ...(n.entity.patterns ?? []), ...(n.entity.sources ?? []));
+        refs.push(
+          ...(n.entity.concepts ?? []),
+          ...(n.entity.patterns ?? []),
+          ...(n.entity.sources ?? []),
+        );
       } else if (n.kind === "source") {
-        refs.push(...(n.entity.concepts ?? []), ...(n.entity.patterns ?? []), ...(n.entity.relatedBooks ?? []));
+        refs.push(
+          ...(n.entity.concepts ?? []),
+          ...(n.entity.patterns ?? []),
+          ...(n.entity.relatedBooks ?? []),
+        );
+      } else if (n.kind === "thinker") {
+        refs.push(...relatedRefsForThinker(n.entity));
       }
       for (const ref of refs) {
         const cid = index.resolveCanonicalId(ref);
@@ -308,7 +343,9 @@ export function buildProgressiveGraphVizModel(
       if (!passesNodeFilters(index, root, opt) || !nodeSet.has(root)) continue;
       trimmed.add(root);
     }
-    const remainder = [...nodeSet].filter((id) => !trimmed.has(id)).sort((a, b) => a.localeCompare(b));
+    const remainder = [...nodeSet]
+      .filter((id) => !trimmed.has(id))
+      .sort((a, b) => a.localeCompare(b));
     for (const id of remainder) {
       if (trimmed.size >= opt.maxNodes) break;
       trimmed.add(id);
@@ -320,7 +357,10 @@ export function buildProgressiveGraphVizModel(
   return { nodeIds: [...nodeSet], edges: computeVizEdges(index, nodeSet, opt) };
 }
 
-export function buildGraphVizModel(index: GraphIndex, opt: GraphVizBuildOptions): { nodeIds: string[]; edges: VizEdge[] } {
+export function buildGraphVizModel(
+  index: GraphIndex,
+  opt: GraphVizBuildOptions,
+): { nodeIds: string[]; edges: VizEdge[] } {
   const shelf = Math.max(0, opt.shelfPaddingBooks ?? 0);
   const bfsMax = Math.max(1, opt.maxNodes - shelf);
   const bfs = bfsNodeIds(index, { ...opt, maxNodes: bfsMax });

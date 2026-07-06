@@ -1,7 +1,10 @@
-import type { GraphIndex } from "@/lib/graph/graph";
+import { graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 import { computeGraphInsights, type InsightEdge } from "@/lib/graph/graphInsights";
 import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
-import { isSymmetricRelationship, STRUCTURAL_TENSION_PREDICATE } from "@/lib/graph/relationshipTaxonomy";
+import {
+  isSymmetricRelationship,
+  STRUCTURAL_TENSION_PREDICATE,
+} from "@/lib/graph/relationshipTaxonomy";
 import { normalizePredicateKey } from "@/lib/graph/relationshipVisuals";
 import type { Relationship } from "@/types/semanticGraph";
 
@@ -32,10 +35,14 @@ function edgeReadsAsTension(relationship: string): boolean {
 function labelForId(index: GraphIndex, id: string): string {
   const n = index.getNodeByCanonicalId(id);
   if (!n) return id;
-  return n.kind === "source" ? n.entity.name : n.entity.title;
+  return graphNodeTitle(n);
 }
 
-function connectivityBand(visibleCount: number, edgeCount: number, isolatedCount: number): ConnectivityBand {
+function connectivityBand(
+  visibleCount: number,
+  edgeCount: number,
+  isolatedCount: number,
+): ConnectivityBand {
   if (visibleCount <= 1) return "isolated";
   const avgDegree = visibleCount > 0 ? (edgeCount * 2) / visibleCount : 0;
   if (isolatedCount > visibleCount * 0.4 || avgDegree < 1.2) return "isolated";

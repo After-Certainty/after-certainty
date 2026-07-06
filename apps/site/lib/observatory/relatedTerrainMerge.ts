@@ -4,6 +4,7 @@ import {
   relatedContentForConcept,
   relatedContentForPattern,
   relatedContentForSource,
+  relatedContentForThinker,
   type RelatedContentBundle,
 } from "@/lib/graph/relatedContent";
 
@@ -17,6 +18,8 @@ function bundleForNode(index: GraphIndex, node: GraphNode): RelatedContentBundle
       return relatedContentForBook(index, node.entity);
     case "source":
       return relatedContentForSource(index, node.entity);
+    case "thinker":
+      return relatedContentForThinker(index, node.entity);
   }
 }
 
@@ -44,5 +47,6 @@ export function mergeRelatedTerrain(
     patterns: mergeUnique(a.patterns, b.patterns),
     books: mergeUnique(a.books, b.books),
     sources: mergeUnique(a.sources, b.sources),
+    thinkers: mergeUnique(a.thinkers, b.thinkers),
   };
 }
