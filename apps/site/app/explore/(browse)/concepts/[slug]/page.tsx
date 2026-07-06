@@ -19,6 +19,7 @@ import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 import {
   buildConceptPageJsonLd,
+  conceptRelationshipUrls,
   relatedBookUrls,
   relatedPatternUrls,
 } from "@/lib/seo/json-ld";
@@ -81,6 +82,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
   const relatedUrls = [
     ...relatedBookUrls(index, concept.relatedBooks),
     ...relatedPatternUrls(index, concept.relatedPatterns),
+    ...conceptRelationshipUrls(index, concept.id),
   ];
 
   return (

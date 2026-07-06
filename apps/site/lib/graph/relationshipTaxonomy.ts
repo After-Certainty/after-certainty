@@ -1,7 +1,7 @@
 import type { GraphIndex } from "@/lib/graph/graph";
 import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
 import { normalizePredicateKey } from "@/lib/graph/relationshipVisuals";
-import type { Relationship, SemanticGraph } from "@/types/semanticGraph";
+import type { Relationship } from "@/types/semanticGraph";
 
 export const STRUCTURAL_TENSION_PREDICATE = "structural_tension";
 
@@ -32,8 +32,19 @@ export function isSymmetricRelationship(predicate: string): boolean {
 
 export function dynamicVerbGroup(predicate: string): DynamicVerbGroup | null {
   const key = normalizePredicateKey(predicate);
-  if (key === "preserves" || key === "renews" || key === "stabilizes") return "sustaining";
-  if (key === "thins" || key === "pressures") return "erosive";
+  if (key === "preserves" || key === "renews" || key === "stabilizes" || key === "enables") {
+    return "sustaining";
+  }
+  if (
+    key === "thins" ||
+    key === "pressures" ||
+    key === "weakens" ||
+    key === "hardens" ||
+    key === "constrains" ||
+    key === "distorts"
+  ) {
+    return "erosive";
+  }
   if (key === "reproduces") return "reproductive";
   return null;
 }
