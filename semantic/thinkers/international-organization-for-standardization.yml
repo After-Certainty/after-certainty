@@ -1,0 +1,13 @@
+slug: international-organization-for-standardization
+name: International Organization for Standardization
+type: organization
+summary: Global standards body (ISO) publishing international norms for quality, safety,
+  and interoperability.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- international-organization-for-standardization-iso-iec-42001-2023-information-technology-artific
+whyThisMatters: ISO standards sediment global coupling—when shared rules substitute
+  for local trust negotiation.

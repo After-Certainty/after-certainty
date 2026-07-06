@@ -1,0 +1,13 @@
+slug: columbia-accident-investigation-board
+name: Columbia Accident Investigation Board
+type: organization
+summary: NASA investigative board that examined the Space Shuttle Columbia disaster
+  and organizational causes of failure.
+concepts: []
+patterns: []
+relatedBooks:
+- what-we-cannot-see
+works:
+- columbia-accident-investigation-board-report-of-the-columbia-accident-investigation-board
+whyThisMatters: The CAIB report extends Challenger lessons—foam strikes, silence,
+  and normalization in serious systems.

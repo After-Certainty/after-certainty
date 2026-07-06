@@ -1,0 +1,13 @@
+slug: humble-jez-and-david-farley
+name: Humble, Jez, and David Farley
+type: person
+summary: Engineering writers on continuous delivery, deployment pipelines, and reducing
+  release risk.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an
+whyThisMatters: Humble extends DevOps sediment—technical habits that make correction
+  routine rather than heroic.

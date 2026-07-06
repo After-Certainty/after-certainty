@@ -1,0 +1,13 @@
+slug: cathy-o-neil
+name: Cathy O'Neil
+type: person
+summary: Data scientist and critic of Weapons of Math Destruction—opaque models that
+  encode harm at scale.
+concepts: []
+patterns: []
+relatedBooks:
+- living-in-sediment
+works:
+- o-neil-cathy-weapons-of-math-destruction-how-big-data-increases-inequality-and
+whyThisMatters: O'Neil warns when algorithms become moral arbiters without accountability
+  or appeal.

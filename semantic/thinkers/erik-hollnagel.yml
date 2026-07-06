@@ -1,0 +1,13 @@
+slug: erik-hollnagel
+name: Erik Hollnagel
+type: person
+summary: Safety scientist of resilience engineering, ETTO principle, and performance
+  variability in complex systems.
+concepts: []
+patterns: []
+relatedBooks:
+- how-serious-systems-learn
+works:
+- hollnagel-erik-safety-i-and-safety-ii-the-past-and-future-of-safety
+whyThisMatters: Hollnagel reframes failure as tradeoffs in coupled work—essential
+  for serious systems learning.

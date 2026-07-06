@@ -1,0 +1,13 @@
+slug: atul-gawande
+name: Atul Gawande
+type: person
+summary: Surgeon-writer on checklists, systems improvement, and reducing harm through
+  disciplined routine.
+concepts: []
+patterns: []
+relatedBooks:
+- how-serious-systems-learn
+works:
+- gawande-atul-the-checklist-manifesto-how-to-get-things-right
+whyThisMatters: Gawande makes correction mundane and lifesaving—serious systems learn
+  through humble infrastructure.

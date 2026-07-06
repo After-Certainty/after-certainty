@@ -1,0 +1,13 @@
+slug: barry-w-boehm
+name: Barry W Boehm
+type: person
+summary: Software economist of cost-of-change curves and risk-driven process tradeoffs
+  in engineering.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- boehm-barry-w-software-engineering-economics
+whyThisMatters: Boehm's spiral and cost models sediment why late correction is expensive—coupling
+  in project time.

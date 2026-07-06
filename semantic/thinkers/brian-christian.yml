@@ -1,0 +1,13 @@
+slug: brian-christian
+name: Brian Christian
+type: person
+summary: Writer on algorithms, human-computer interaction, and the alignment problem
+  in machine decision systems.
+concepts: []
+patterns: []
+relatedBooks:
+- living-in-sediment
+works:
+- christian-brian-the-alignment-problem-machine-learning-and-human-values
+whyThisMatters: Christian connects AI coupling to human values—when automated interpretation
+  needs explicit moral constraints.
