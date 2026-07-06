@@ -21,6 +21,7 @@ relatedConcepts:
 - interface
 relatedPatterns: []
 relatedBooks:
+- when-authority-is-misread
 - when-interpretation-no-longer-matters
 recognitionSignals:
 - authority persists after external interpretive agreement ends

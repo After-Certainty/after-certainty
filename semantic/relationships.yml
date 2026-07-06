@@ -64,6 +64,16 @@ relationships:
   relationship: complements
   description: Cohesion clarifies ownership within boundaries; coupling tracks attachment between action
     and consequence.
+- source: cohesion
+  target: boundary
+  relationship: requires
+  description: Cohesion requires clear boundaries—ownership cannot be legible without marking
+    where one responsibility ends and another begins.
+- source: cohesion
+  target: accountability
+  relationship: preserves
+  description: Cohesion preserves accountability by keeping ownership legible—when it is clear
+    who holds responsibility, answerability can still reach the right people.
 - source: proximity
   target: contact
   relationship: contrasts
@@ -226,6 +236,21 @@ relationships:
   relationship: shapes
   description: Boundaries shape coupling by marking where consequence pathways change, often weakening
     attachment as effects cross organizational or geographic divides.
+- source: boundary
+  target: accountability
+  relationship: shapes
+  description: Boundaries shape accountability by marking where consequence and answerability
+    shift—effects can cross boundaries while responsibility stops at the line.
+- source: boundary
+  target: interpretation
+  relationship: shapes
+  description: Boundaries shape interpretation by marking where evaluative frames shift—what
+    counts as legitimate meaning changes across organizational, geographic, or authority boundaries.
+- source: scale
+  target: boundary
+  relationship: thins
+  description: Scale thins boundaries by making them less visible and harder to maintain—distance
+    and abstraction obscure where responsibility and consequence pathways shift.
 - source: care
   target: attention
   relationship: contrasts
