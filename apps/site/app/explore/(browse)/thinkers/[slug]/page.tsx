@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/seo/json-ld";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
+import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { Section } from "@/components/ui/section";
@@ -94,6 +95,7 @@ export default async function ExploreThinkerDetailPage({ params }: PageProps) {
             </p>
           </div>
         ) : null}
+        <ExploreEntityDetailActions observatory={{ kind: "thinker", slug: thinker.slug }} />
         <ExploreAdjacentNav
           basePath={explorePaths.thinkers}
           entityLabel="thinker"
