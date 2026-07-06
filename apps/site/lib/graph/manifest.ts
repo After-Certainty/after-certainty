@@ -60,6 +60,10 @@ function enrichedSourceCount(graph: SemanticGraph): number {
   return graph.sources.filter((source) => (source.creatorSlugs?.length ?? 0) > 0).length;
 }
 
+function thinkerCount(graph: SemanticGraph): number {
+  return graph.thinkers?.length ?? 0;
+}
+
 function parseGeneratedAt(graph: SemanticGraph): number {
   if (!graph.generatedAt) return 0;
   const parsed = Date.parse(graph.generatedAt);
@@ -83,9 +87,25 @@ export function pickSemanticGraph(remote: SemanticGraph, bundled: SemanticGraph)
     return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
   }
 
+  const remoteThinkers = thinkerCount(remote);
+  const bundledThinkers = thinkerCount(bundled);
+
+  if (remoteThinkers === 0 && bundledThinkers > 0) {
+    logSemanticGraphError("Remote manifest lacks thinkers; using bundled fallback.");
+    return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
+  }
+
+  if (bundledThinkers > remoteThinkers) {
+    logSemanticGraphError(
+      "Bundled manifest has more thinkers than remote; using bundled fallback.",
+    );
+    return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
+  }
+
   if (
     bundledEnriched > 0 &&
     bundledEnriched === remoteEnriched &&
+    bundledThinkers === remoteThinkers &&
     parseGeneratedAt(bundled) > parseGeneratedAt(remote)
   ) {
     logSemanticGraphError("Bundled manifest is newer than remote; using bundled fallback.");

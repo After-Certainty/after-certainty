@@ -39,6 +39,9 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          BOOKS_MANIFEST_OFFLINE: "1"
+          SEMANTIC_MANIFEST_OFFLINE: "1"
 
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
