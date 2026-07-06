@@ -1,5 +1,5 @@
 slug: march-james-g-and-herbert-a-simon-organizations
-name: March, James G., and Herbert A. Simon — Organizations
+name: "March, James G., and Herbert A. Simon \u2014 Organizations"
 type: book
 summary: 'March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley,
   1958.'
@@ -12,7 +12,8 @@ title: Organizations
 creatorNames:
 - March, James G., and Herbert A. Simon
 creatorSlugs:
-- march-james-g-and-herbert-a-simon
+- james-g-march
+- herbert-a-simon
 citation: 'March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley,
   1958.'
 sourceKind: book

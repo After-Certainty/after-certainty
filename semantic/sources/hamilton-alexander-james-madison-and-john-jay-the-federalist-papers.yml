@@ -1,5 +1,5 @@
 slug: hamilton-alexander-james-madison-and-john-jay-the-federalist-papers
-name: Hamilton, Alexander, James Madison, and John Jay — The Federalist Papers
+name: "Hamilton, Alexander, James Madison, and John Jay \u2014 The Federalist Papers"
 type: book
 summary: 'Hamilton, Alexander, James Madison, and John Jay. *The Federalist Papers*.
   Edited by Clinton Rossiter. New York: New American Library, 1961.'
@@ -11,7 +11,7 @@ title: The Federalist Papers
 creatorNames:
 - Hamilton, Alexander, James Madison, and John Jay
 creatorSlugs:
-- hamilton-alexander-james-madison-and-john-jay
+- madison-james-alexander-hamilton-and-john-jay
 citation: 'Hamilton, Alexander, James Madison, and John Jay. *The Federalist Papers*.
   Edited by Clinton Rossiter. New York: New American Library, 1961.'
 sourceKind: institutional_document
