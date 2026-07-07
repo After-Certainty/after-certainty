@@ -19,9 +19,15 @@ def _mini_repo(tmp_path: Path) -> Path:
     _write(repo / "semantic/ontology/core-terms.yml", "version: 1\nterms: []\n")
     _write(repo / "semantic/ontology/supporting-terms.yml", "version: 1\nterms: []\n")
     _write(
-        repo / "semantic/thinkers/ross-lee-and-richard-nisbett.yml",
-        "slug: ross-lee-and-richard-nisbett\n"
-        "name: Ross and Nisbett\ntype: person\nsummary: test\n"
+        repo / "semantic/thinkers/richard-nisbett.yml",
+        "slug: richard-nisbett\n"
+        "name: Richard Nisbett\ntype: person\nsummary: test\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\nworks: []\n",
+    )
+    _write(
+        repo / "semantic/thinkers/lee-ross.yml",
+        "slug: lee-ross\n"
+        "name: Lee Ross\ntype: person\nsummary: test\n"
         "concepts: []\npatterns: []\nrelatedBooks: []\nworks: []\n",
     )
     _write(
@@ -38,14 +44,19 @@ def _mini_repo(tmp_path: Path) -> Path:
 
 def test_apply_remaps_to_existing_thinker(tmp_path: Path) -> None:
     repo = _mini_repo(tmp_path)
-    actions = acs.apply_remaps(repo, apply=True)
-    assert any("lee-ross" in line for line in actions)
-    doc = yaml.safe_load(
-        (
-            repo / "semantic/sources/ross-lee-the-intuitive-psychologist-and-his-shortcomings.yml"
-        ).read_text(encoding="utf-8")
+    _write(
+        repo / "semantic/sources/legacy-ross.yml",
+        "slug: legacy-ross\n"
+        "name: Legacy Ross paper\ntype: article\nsummary: test\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\n"
+        "creatorNames:\n- Ross, Lee, and Richard Nisbett\n"
+        "creatorSlugs:\n- ross-lee-and-richard-nisbett\n"
+        "sourceKind: article\n",
     )
-    assert doc["creatorSlugs"] == ["ross-lee-and-richard-nisbett"]
+    actions = acs.apply_remaps(repo, apply=True)
+    assert any("ross-lee-and-richard-nisbett" in line for line in actions)
+    doc = yaml.safe_load((repo / "semantic/sources/legacy-ross.yml").read_text(encoding="utf-8"))
+    assert doc["creatorSlugs"] == ["lee-ross", "richard-nisbett"]
 
 
 def test_create_missing_thinker(tmp_path: Path) -> None:

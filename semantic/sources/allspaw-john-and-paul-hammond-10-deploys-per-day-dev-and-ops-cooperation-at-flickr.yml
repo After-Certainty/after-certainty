@@ -1,5 +1,5 @@
 slug: allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr
-name: 'Allspaw, John, and Paul Hammond — 10+ Deploys Per Day: Dev and Ops Cooperation
+name: 'John Allspaw and Paul Hammond — 10+ Deploys Per Day: Dev and Ops Cooperation
   at Flickr.'
 type: article
 summary: 'Allspaw, John, and Paul Hammond. "10+ Deploys Per Day: Dev and Ops Cooperation
@@ -10,9 +10,11 @@ relatedBooks:
 - coupling
 title: '10+ Deploys Per Day: Dev and Ops Cooperation at Flickr.'
 creatorNames:
-- Allspaw, John, and Paul Hammond
+- John Allspaw
+- Paul Hammond
 creatorSlugs:
-- allspaw-john-and-paul-hammond
+- john-allspaw
+- paul-hammond
 citation: 'Allspaw, John, and Paul Hammond. "10+ Deploys Per Day: Dev and Ops Cooperation
   at Flickr." Velocity conference presentation, 2009.'
 sourceKind: article

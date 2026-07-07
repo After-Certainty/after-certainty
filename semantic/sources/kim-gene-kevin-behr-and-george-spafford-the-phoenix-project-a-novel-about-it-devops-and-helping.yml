@@ -1,5 +1,5 @@
 slug: kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping
-name: 'Kim, Gene, Kevin Behr, and George Spafford — The Phoenix Project: A Novel About
+name: 'Gene Kim, George Spafford, and Kevin Behr — The Phoenix Project: A Novel About
   IT, DevOps, and Helping Your Business Win'
 type: book
 summary: 'Kim, Gene, Kevin Behr, and George Spafford. *The Phoenix Project: A Novel
@@ -11,9 +11,13 @@ relatedBooks:
 - coupling
 title: 'The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win'
 creatorNames:
-- Kim, Gene, Kevin Behr, and George Spafford
+- Gene Kim
+- George Spafford
+- Kevin Behr
 creatorSlugs:
-- kim-gene-kevin-behr-and-george-spafford
+- gene-kim
+- george-spafford
+- kevin-behr
 citation: 'Kim, Gene, Kevin Behr, and George Spafford. *The Phoenix Project: A Novel
   About IT, DevOps, and Helping Your Business Win*. Portland, OR: IT Revolution Press,
   2013.'

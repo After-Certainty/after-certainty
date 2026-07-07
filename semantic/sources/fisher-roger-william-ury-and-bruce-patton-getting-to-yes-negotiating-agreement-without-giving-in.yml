@@ -1,6 +1,6 @@
 slug: fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in
-name: 'Fisher, Roger, William Ury, and Bruce Patton — Getting to Yes: Negotiating
-  Agreement Without Giving In'
+name: 'Bruce Patton, Roger Fisher, and William Ury — Getting to Yes: Negotiating Agreement
+  Without Giving In'
 type: book
 summary: 'Fisher, Roger, William Ury, and Bruce Patton. *Getting to Yes: Negotiating
   Agreement Without Giving In*. 3rd ed. New York: Penguin Books, 2011.'
@@ -10,9 +10,13 @@ relatedBooks:
 - trust-beyond-similarity
 title: 'Getting to Yes: Negotiating Agreement Without Giving In'
 creatorNames:
-- Fisher, Roger, William Ury, and Bruce Patton
+- Bruce Patton
+- Roger Fisher
+- William Ury
 creatorSlugs:
-- fisher-roger-william-ury-and-bruce-patton
+- bruce-patton
+- roger-fisher
+- william-ury
 citation: 'Fisher, Roger, William Ury, and Bruce Patton. *Getting to Yes: Negotiating
   Agreement Without Giving In*. 3rd ed. New York: Penguin Books, 2011.'
 sourceKind: book

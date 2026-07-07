@@ -1,5 +1,5 @@
 slug: forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build
-name: 'Forsgren, Nicole, Jez Humble, and Gene Kim — Accelerate: The Science of Lean
+name: 'Gene Kim, Jez Humble, and Nicole Forsgren — Accelerate: The Science of Lean
   Software and DevOps: Building and Scaling High Performing Technology Organizations'
 type: book
 summary: 'Forsgren, Nicole, Jez Humble, and Gene Kim. *Accelerate: The Science of
@@ -13,9 +13,13 @@ relatedBooks:
 title: 'Accelerate: The Science of Lean Software and DevOps: Building and Scaling
   High Performing Technology Organizations'
 creatorNames:
-- Forsgren, Nicole, Jez Humble, and Gene Kim
+- Gene Kim
+- Jez Humble
+- Nicole Forsgren
 creatorSlugs:
-- forsgren-nicole-jez-humble-and-gene-kim
+- gene-kim
+- jez-humble
+- nicole-forsgren
 citation: 'Forsgren, Nicole, Jez Humble, and Gene Kim. *Accelerate: The Science of
   Lean Software and DevOps: Building and Scaling High Performing Technology Organizations*.
   Portland, OR: IT Revolution Press, 2018.'

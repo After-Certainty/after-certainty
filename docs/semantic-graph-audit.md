@@ -76,6 +76,8 @@ Some checks are intentionally conservative and were refined to reduce false posi
 - **Multi-person thinker names** — flags person thinkers whose `name` lists multiple authors (`et al`, `, and `, long comma-separated lists). Suggests splitting into one thinker per author and linking shared sources via `creatorSlugs`.
 - **Last-first thinker names** — flags bibliographic `Last, First` display order (info); editor suffixes like `, ed` are ignored for detection.
 
+Bulk splitting of composite thinkers is supported by `tools/split_multi_person_thinkers.py` (`--apply`, then `--sync-source-names`).
+
 ## What is checked
 
 - **Source metadata** — years (including page-range misparsing), truncated titles, citation leaks, type mismatches

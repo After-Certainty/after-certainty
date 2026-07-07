@@ -5,41 +5,24 @@
 - Repository type: **source**
 - Input files: build/semantic-manifest.json, build/books-manifest.json
 - Errors: **0**
-- Warnings: **76**
-- Info: **394**
-- Entities scanned: {'books': 28, 'concepts': 137, 'patterns': 30, 'thinkers': 340, 'sources': 408, 'relationships': 109}
+- Warnings: **2**
+- Info: **350**
+- Entities scanned: {'books': 28, 'concepts': 137, 'patterns': 30, 'thinkers': 440, 'sources': 408, 'relationships': 109}
 
 ## Top priority issues
 
-- **[warning]** thinker-metadata / thinker `acemoglu-daron-and-james-a-robinson` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power.*
-- **[warning]** thinker-metadata / thinker `allspaw-john-and-paul-hammond` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr.*
-- **[warning]** thinker-metadata / thinker `amershi-saleema-et-al` — Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries. — *Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: amershi-saleema-et-al-guidelines-for-human-ai-interaction.*
-- **[warning]** thinker-metadata / thinker `andrews-matthew-lant-pritchett-and-michael-woolcock` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr.*
-- **[warning]** thinker-metadata / thinker `argyris-chris-and-donald-a-schon` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: argyris-chris-and-donald-a-schon-organizational-learning-ii.*
-- **[warning]** thinker-metadata / thinker `barke-helena-and-lutz-prechelt` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams.*
-- **[warning]** thinker-metadata / thinker `baron-jonathan-and-john-c-hershey` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: baron-jonathan-and-john-c-hershey-outcome-bias-in-decision.*
-- **[warning]** thinker-metadata / thinker `baumeister-roy-f-and-mark-r-leary` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: baumeister-roy-f-and-mark-r-leary-the-need-to-belong.*
-- **[warning]** thinker-metadata / thinker `bebchuk-lucian-a-and-scott-hirst` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide.*
-- **[warning]** thinker-metadata / thinker `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas` — Thinker name lists ~16 people who could be separate thinker entries. — *Create 16 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr.*
-- **[warning]** thinker-metadata / thinker `bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell` — Thinker name lists ~3 people who could be separate thinker entries. — *Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of.*
-- **[warning]** thinker-metadata / thinker `berger-peter-l-and-thomas-luckmann` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog.*
-- **[warning]** thinker-metadata / thinker `berle-adolf-a-jr-and-gardiner-c-means` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property.*
-- **[warning]** thinker-metadata / thinker `beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds` — Thinker name lists ~3 people who could be separate thinker entries. — *Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin.*
-- **[warning]** thinker-metadata / thinker `bowker-geoffrey-c-and-susan-leigh-star` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and.*
-- **[warning]** thinker-metadata / thinker `brooks-frederick-p-jr` — Thinker name lists ~3 people who could be separate thinker entries. — *Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering.*
-- **[warning]** thinker-metadata / thinker `brown-eliot-and-maureen-farrell` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio.*
-- **[warning]** thinker-metadata / thinker `cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus.*
-- **[warning]** thinker-metadata / thinker `corrales-javier-and-michael-penfold` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy.*
-- **[warning]** thinker-metadata / thinker `demarco-tom-and-timothy-lister` — Thinker name lists ~2 people who could be separate thinker entries. — *Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: demarco-tom-and-timothy-lister-slack-getting-past-burnout-busywork-and-the.*
+- **[warning]** slug-quality / thinker `hal-daum-iii` — Slug appears damaged by diacritic stripping. — *Consider renaming slug to 'hal-daume-iii' with a redirect strategy.*
+- **[warning]** slug-quality / thinker `hal-daum-iii` — Slug may be stale after title change (diacritic damage). — *Use transliterated slug 'hal-daume-iii'.*
 
 ## Issue counts by category
 
-- thinker-metadata: 178
 - pattern-metadata: 120
 - concept-metadata: 82
 - relationship-quality: 79
+- thinker-metadata: 58
 - book-metadata: 9
 - manifest-consistency: 2
+- slug-quality: 2
 
 ## Relationship vocabulary (top labels)
 
@@ -76,82 +59,8 @@
 
 ### Warning
 
-- **thinker-metadata** — thinker `acemoglu-daron-and-james-a-robinson` (Acemoglu, Daron, and James A. Robinson): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `allspaw-john-and-paul-hammond` (Allspaw, John, and Paul Hammond): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `amershi-saleema-et-al` (Amershi, Saleema, et al): Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.
-- **thinker-metadata** — thinker `andrews-matthew-lant-pritchett-and-michael-woolcock` (Andrews, Matthew, Lant Pritchett, and Michael Woolcock): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `argyris-chris-and-donald-a-schon` (Argyris, Chris, and Donald A. Schon): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `barke-helena-and-lutz-prechelt` (Barke, Helena, and Lutz Prechelt): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `baron-jonathan-and-john-c-hershey` (Baron, Jonathan, and John C. Hershey): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `baumeister-roy-f-and-mark-r-leary` (Baumeister, Roy F., and Mark R. Leary): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `bebchuk-lucian-a-and-scott-hirst` (Bebchuk, Lucian A., and Scott Hirst): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas` (Beck, Kent, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, and Dave Thomas): Thinker name lists ~16 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell` (Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell): Thinker name lists ~3 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `berger-peter-l-and-thomas-luckmann` (Berger, Peter L., and Thomas Luckmann): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `berle-adolf-a-jr-and-gardiner-c-means` (Berle, Adolf A., Jr., and Gardiner C. Means): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds` (Beyer, Betsy, Chris Jones, Jennifer Petoff, and Niall Richard Murphy, eds): Thinker name lists ~3 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `bowker-geoffrey-c-and-susan-leigh-star` (Bowker, Geoffrey C., and Susan Leigh Star): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `brooks-frederick-p-jr` (Brooks, Frederick P., Jr): Thinker name lists ~3 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `brown-eliot-and-maureen-farrell` (Brown, Eliot, and Maureen Farrell): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren` (Cialdini, Robert B., Raymond R. Reno, and Carl A. Kallgren): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `corrales-javier-and-michael-penfold` (Corrales, Javier, and Michael Penfold): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `demarco-tom-and-timothy-lister` (DeMarco, Tom, and Timothy Lister): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `demarco-tom-and-timothy-r-lister` (DeMarco, Tom, and Timothy R. Lister): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `dikert-karina-maria-paasivaara-and-casper-lassenius` (Dikert, Karina, Maria Paasivaara, and Casper Lassenius): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `douglas-karen-m-et-al` (Douglas, Karen M., et al): Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.
-- **thinker-metadata** — thinker `druckman-james-n-et-al` (Druckman, James N., et al): Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.
-- **thinker-metadata** — thinker `eagly-alice-h-and-linda-l-carli` (Eagly, Alice H., and Linda L. Carli): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `faden-ruth-r-and-tom-l-beauchamp` (Faden, Ruth R., and Tom L. Beauchamp): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `fahey-liam-and-robert-m-randall-eds` (Fahey, Liam, and Robert M. Randall, eds): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `festinger-leon-henry-w-riecken-and-stanley-schachter` (Festinger, Leon, Henry W. Riecken, and Stanley Schachter): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `fisher-roger-william-ury-and-bruce-patton` (Fisher, Roger, William Ury, and Bruce Patton): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `ford-neal-rebecca-parsons-and-patrick-kua` (Ford, Neal, Rebecca Parsons, and Patrick Kua): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `forsgren-nicole-jez-humble-and-gene-kim` (Forsgren, Nicole, Jez Humble, and Gene Kim): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `french-john-r-p-and-bertram-raven` (French, John R. P., and Bertram Raven): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `garud-raghu-and-peter-karn-e` (Garud, Raghu, and Peter Karnøe): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daume-iii-and-kate-crawford` (Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford): Thinker name lists ~6 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `goldratt-eliyahu-m-and-jeff-cox` (Goldratt, Eliyahu M., and Jeff Cox): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `hendrycks-dan-collin-burns-anya-chen-and-spencer-ball` (Hendrycks, Dan, Collin Burns, Anya Chen, and Spencer Ball): Thinker name lists ~3 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `hood-christopher-and-ruth-dixon` (Hood, Christopher, and Ruth Dixon): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `humble-jez-and-david-farley` (Humble, Jez, and David Farley): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `jensen-michael-c-and-william-h-meckling` (Jensen, Michael C., and William H. Meckling): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `kashyap-anil-k-and-jeremy-c-stein` (Kashyap, Anil K., and Jeremy C. Stein): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `keep-william-w-and-peter-j-vander-nat` (Keep, William W., and Peter J. Vander Nat): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `kim-gene-jez-humble-patrick-debois-and-john-willis` (Kim, Gene, Jez Humble, Patrick Debois, and John Willis): Thinker name lists ~3 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `kim-gene-kevin-behr-and-george-spafford` (Kim, Gene, Kevin Behr, and George Spafford): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `king-martin-luther-jr` (King, Martin Luther, Jr): Thinker name lists ~3 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `knutti-reto-et-al` (Knutti, Reto, et al): Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.
-- **thinker-metadata** — thinker `lakoff-george-and-mark-johnson` (Lakoff, George, and Mark Johnson): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `lewis-catherine-c-rebecca-r-perry-and-akihiko-murata` (Lewis, Catherine C., Rebecca R. Perry, and Akihiko Murata): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `liebowitz-s-j-and-stephen-e-margolis` (Liebowitz, S. J., and Stephen E. Margolis): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `lord-charles-g-lee-ross-and-mark-r-lepper` (Lord, Charles G., Lee Ross, and Mark R. Lepper): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `lovell-jim-and-jeffrey-kluger` (Lovell, Jim, and Jeffrey Kluger): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `macfarquhar-roderick-and-michael-schoenhals` (MacFarquhar, Roderick, and Michael Schoenhals): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `march-james-g-and-johan-p-olsen` (March, James G., and Johan P. Olsen): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `maslach-christina-and-michael-p-leiter` (Maslach, Christina, and Michael P. Leiter): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `mccombs-maxwell-e-and-donald-l-shaw` (McCombs, Maxwell E., and Donald L. Shaw): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `mcpherson-miller-lynn-smith-lovin-and-james-m-cook` (McPherson, Miller, Lynn Smith-Lovin, and James M. Cook): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `mellers-barbara-et-al` (Mellers, Barbara, et al): Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.
-- **thinker-metadata** — thinker `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru` (Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru): Thinker name lists ~8 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `parker-ashley-and-michael-scherer` (Parker, Ashley, and Michael Scherer): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `peng-sida-et-al` (Peng, Sida, et al): Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.
-- **thinker-metadata** — thinker `perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh` (Perry, Neil, Megha Srivastava, Deepak Kumar, and Dan Boneh): Thinker name lists ~3 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `pollitt-christopher-and-geert-bouckaert` (Pollitt, Christopher, and Geert Bouckaert): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `reinhart-carmen-m-and-kenneth-s-rogoff` (Reinhart, Carmen M., and Kenneth S. Rogoff): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `ross-lee-and-andrew-ward` (Ross, Lee, and Andrew Ward): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `ross-lee-and-richard-nisbett` (Ross, Lee, and Richard Nisbett): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `schulz-kenneth-f-et-al` (Schulz, Kenneth F., et al): Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.
-- **thinker-metadata** — thinker `simons-daniel-j-and-christopher-f-chabris` (Simons, Daniel J., and Christopher F. Chabris): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `skelton-matthew-and-manuel-pais` (Skelton, Matthew, and Manuel Pais): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `star-susan-leigh-and-anselm-strauss` (Star, Susan Leigh, and Anselm Strauss): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `star-susan-leigh-and-james-r-griesemer` (Star, Susan Leigh, and James R. Griesemer): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `suedfeld-peter-philip-e-tetlock-and-sally-streufert` (Suedfeld, Peter, Philip E. Tetlock, and Sally Streufert): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `tabor-james-d-and-eugene-v-gallagher` (Tabor, James D., and Eugene V. Gallagher): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `tajfel-henri-and-john-c-turner` (Tajfel, Henri, and John C. Turner): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `talbot-s-g-and-w-dean` (Talbot, S. G., and W. Dean): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `tavris-carol-and-elliot-aronson` (Tavris, Carol, and Elliot Aronson): Thinker name lists ~2 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b-carsten` (Uhl-Bien, Michael, Ronald E. Riggio, Kelly Lowe, and Gerard B. Carsten): Thinker name lists ~3 people who could be separate thinker entries.
-- **thinker-metadata** — thinker `wachsmuth-david-and-alexander-weisler` (Wachsmuth, David, and Alexander Weisler): Thinker name lists ~2 people who could be separate thinker entries.
+- **slug-quality** — thinker `hal-daum-iii` (Hal Daumé III): Slug appears damaged by diacritic stripping.
+- **slug-quality** — thinker `hal-daum-iii` (Hal Daumé III): Slug may be stale after title change (diacritic damage).
 ### Info
 
 - **book-metadata** — book `before-certainty-arrives` (Before Certainty Arrives): Book has unusually many concepts compared to peers.
@@ -446,105 +355,61 @@
 - **relationship-quality** — relationship `witness->accountability` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `witness->correction` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `witness->correction` (contrasts): Symmetric relationship label used in only one direction.
-- **thinker-metadata** — thinker `acemoglu-daron-and-james-a-robinson` (Acemoglu, Daron, and James A. Robinson): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `allspaw-john-and-paul-hammond` (Allspaw, John, and Paul Hammond): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `amershi-saleema-et-al` (amershi-saleema-et-al): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `amershi-saleema-et-al` (Amershi, Saleema, et al): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `andrews-matthew-lant-pritchett-and-michael-woolcock` (Andrews, Matthew, Lant Pritchett, and Michael Woolcock): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `argyris-chris-and-donald-a-schon` (Argyris, Chris, and Donald A. Schon): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `barke-helena-and-lutz-prechelt` (Barke, Helena, and Lutz Prechelt): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `baron-jonathan-and-john-c-hershey` (Baron, Jonathan, and John C. Hershey): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `baumeister-roy-f-and-mark-r-leary` (Baumeister, Roy F., and Mark R. Leary): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `bebchuk-lucian-a-and-scott-hirst` (Bebchuk, Lucian A., and Scott Hirst): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas` (beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas` (Beck, Kent, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, and Dave Thomas): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell` (Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `berger-peter-l-and-thomas-luckmann` (Berger, Peter L., and Thomas Luckmann): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `berle-adolf-a-jr-and-gardiner-c-means` (Berle, Adolf A., Jr., and Gardiner C. Means): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds` (Beyer, Betsy, Chris Jones, Jennifer Petoff, and Niall Richard Murphy, eds): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `bowker-geoffrey-c-and-susan-leigh-star` (Bowker, Geoffrey C., and Susan Leigh Star): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `brooks-frederick-p-jr` (Brooks, Frederick P., Jr): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `brown-eliot-and-maureen-farrell` (Brown, Eliot, and Maureen Farrell): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren` (Cialdini, Robert B., Raymond R. Reno, and Carl A. Kallgren): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `corrales-javier-and-michael-penfold` (Corrales, Javier, and Michael Penfold): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `demarco-tom-and-timothy-lister` (DeMarco, Tom, and Timothy Lister): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `demarco-tom-and-timothy-r-lister` (DeMarco, Tom, and Timothy R. Lister): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `dikert-karina-maria-paasivaara-and-casper-lassenius` (Dikert, Karina, Maria Paasivaara, and Casper Lassenius): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `douglas-karen-m-et-al` (douglas-karen-m-et-al): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `douglas-karen-m-et-al` (Douglas, Karen M., et al): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `druckman-james-n-et-al` (druckman-james-n-et-al): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `druckman-james-n-et-al` (Druckman, James N., et al): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `eagly-alice-h-and-linda-l-carli` (Eagly, Alice H., and Linda L. Carli): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `faden-ruth-r-and-tom-l-beauchamp` (Faden, Ruth R., and Tom L. Beauchamp): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `fahey-liam-and-robert-m-randall-eds` (Fahey, Liam, and Robert M. Randall, eds): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `festinger-leon-henry-w-riecken-and-stanley-schachter` (Festinger, Leon, Henry W. Riecken, and Stanley Schachter): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `fisher-roger-william-ury-and-bruce-patton` (Fisher, Roger, William Ury, and Bruce Patton): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `ford-neal-rebecca-parsons-and-patrick-kua` (ford-neal-rebecca-parsons-and-patrick-kua): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `ford-neal-rebecca-parsons-and-patrick-kua` (Ford, Neal, Rebecca Parsons, and Patrick Kua): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `forsgren-nicole-jez-humble-and-gene-kim` (Forsgren, Nicole, Jez Humble, and Gene Kim): Thinker name uses bibliographic Last, First order instead of First Last.
+- **thinker-metadata** — thinker `akihiko-murata` (akihiko-murata): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `alexander-weisler` (alexander-weisler): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `andrew-hunt` (andrew-hunt): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `andrew-zaldivar` (andrew-zaldivar): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `anya-chen` (anya-chen): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `arie-van-bennekum` (arie-van-bennekum): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `ashley-parker` (ashley-parker): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `barbara-mellers` (barbara-mellers): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `ben-hutchinson` (ben-hutchinson): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `brian-marick` (brian-marick): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `catherine-c-lewis` (catherine-c-lewis): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `collin-burns` (collin-burns): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `dan-boneh` (dan-boneh): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `dan-hendrycks` (dan-hendrycks): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `dave-thomas` (dave-thomas): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `david-wachsmuth` (david-wachsmuth): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `deepak-kumar` (deepak-kumar): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `elena-spitzer` (elena-spitzer): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `freeh-sporkin-sullivan-llc` (freeh-sporkin-sullivan-llc): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `french-john-r-p-and-bertram-raven` (French, John R. P., and Bertram Raven): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `garud-raghu-and-peter-karn-e` (Garud, Raghu, and Peter Karnøe): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daume-iii-and-kate-crawford` (Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `goldratt-eliyahu-m-and-jeff-cox` (Goldratt, Eliyahu M., and Jeff Cox): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `hendrycks-dan-collin-burns-anya-chen-and-spencer-ball` (hendrycks-dan-collin-burns-anya-chen-and-spencer-ball): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `hendrycks-dan-collin-burns-anya-chen-and-spencer-ball` (Hendrycks, Dan, Collin Burns, Anya Chen, and Spencer Ball): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `hood-christopher-and-ruth-dixon` (Hood, Christopher, and Ruth Dixon): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `humble-jez-and-david-farley` (Humble, Jez, and David Farley): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `jensen-michael-c-and-william-h-meckling` (Jensen, Michael C., and William H. Meckling): Thinker name uses bibliographic Last, First order instead of First Last.
+- **thinker-metadata** — thinker `inioluwa-deborah-raji` (inioluwa-deborah-raji): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `james-grenning` (james-grenning): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `james-n-druckman` (james-n-druckman): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `jeff-sutherland` (jeff-sutherland): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `jim-highsmith` (jim-highsmith): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `john-carreyrou` (john-carreyrou): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `kashyap-anil-k-and-jeremy-c-stein` (Kashyap, Anil K., and Jeremy C. Stein): Thinker name uses bibliographic Last, First order instead of First Last.
+- **thinker-metadata** — thinker `jon-kern` (jon-kern): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `karen-m-douglas` (karen-m-douglas): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `kati-marton` (kati-marton): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `keep-william-w-and-peter-j-vander-nat` (Keep, William W., and Peter J. Vander Nat): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `kim-gene-jez-humble-patrick-debois-and-john-willis` (Kim, Gene, Jez Humble, Patrick Debois, and John Willis): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `kim-gene-kevin-behr-and-george-spafford` (Kim, Gene, Kevin Behr, and George Spafford): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `king-martin-luther-jr` (King, Martin Luther, Jr): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `knutti-reto-et-al` (knutti-reto-et-al): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `knutti-reto-et-al` (Knutti, Reto, et al): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `lakoff-george-and-mark-johnson` (Lakoff, George, and Mark Johnson): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `lewis-catherine-c-rebecca-r-perry-and-akihiko-murata` (lewis-catherine-c-rebecca-r-perry-and-akihiko-murata): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `lewis-catherine-c-rebecca-r-perry-and-akihiko-murata` (Lewis, Catherine C., Rebecca R. Perry, and Akihiko Murata): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `liebowitz-s-j-and-stephen-e-margolis` (Liebowitz, S. J., and Stephen E. Margolis): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `lord-charles-g-lee-ross-and-mark-r-lepper` (Lord, Charles G., Lee Ross, and Mark R. Lepper): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `lovell-jim-and-jeffrey-kluger` (Lovell, Jim, and Jeffrey Kluger): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `macfarquhar-roderick-and-michael-schoenhals` (MacFarquhar, Roderick, and Michael Schoenhals): Thinker name uses bibliographic Last, First order instead of First Last.
+- **thinker-metadata** — thinker `ken-schwaber` (ken-schwaber): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `kenneth-f-schulz` (kenneth-f-schulz): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `kent-beck` (kent-beck): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `lucy-vasserman` (lucy-vasserman): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `maggie-haberman` (maggie-haberman): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `march-james-g-and-johan-p-olsen` (March, James G., and Johan P. Olsen): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `maslach-christina-and-michael-p-leiter` (Maslach, Christina, and Michael P. Leiter): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `mccombs-maxwell-e-and-donald-l-shaw` (McCombs, Maxwell E., and Donald L. Shaw): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `mcpherson-miller-lynn-smith-lovin-and-james-m-cook` (McPherson, Miller, Lynn Smith-Lovin, and James M. Cook): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `mellers-barbara-et-al` (mellers-barbara-et-al): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `mellers-barbara-et-al` (Mellers, Barbara, et al): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru` (mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru` (Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `parker-ashley-and-michael-scherer` (parker-ashley-and-michael-scherer): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `parker-ashley-and-michael-scherer` (Parker, Ashley, and Michael Scherer): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `peng-sida-et-al` (peng-sida-et-al): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `peng-sida-et-al` (Peng, Sida, et al): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh` (perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh` (Perry, Neil, Megha Srivastava, Deepak Kumar, and Dan Boneh): Thinker name uses bibliographic Last, First order instead of First Last.
+- **thinker-metadata** — thinker `margaret-mitchell` (margaret-mitchell): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `megha-srivastava` (megha-srivastava): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `michael-scherer` (michael-scherer): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `mike-beedle` (mike-beedle): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `neal-ford` (neal-ford): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `neil-perry` (neil-perry): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `parker-barnes` (parker-barnes): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `patrick-kua` (patrick-kua): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `peter-grady` (peter-grady): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `pollitt-christopher-and-geert-bouckaert` (Pollitt, Christopher, and Geert Bouckaert): Thinker name uses bibliographic Last, First order instead of First Last.
+- **thinker-metadata** — thinker `rebecca-parsons` (rebecca-parsons): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `rebecca-r-perry` (rebecca-r-perry): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `reeves-wiedeman` (reeves-wiedeman): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `reinhart-carmen-m-and-kenneth-s-rogoff` (Reinhart, Carmen M., and Kenneth S. Rogoff): Thinker name uses bibliographic Last, First order instead of First Last.
+- **thinker-metadata** — thinker `reto-knutti` (reto-knutti): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `richard-gott` (richard-gott): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `ross-lee-and-andrew-ward` (Ross, Lee, and Andrew Ward): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `ross-lee-and-richard-nisbett` (Ross, Lee, and Richard Nisbett): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `schulz-kenneth-f-et-al` (schulz-kenneth-f-et-al): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `schulz-kenneth-f-et-al` (Schulz, Kenneth F., et al): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `simons-daniel-j-and-christopher-f-chabris` (Simons, Daniel J., and Christopher F. Chabris): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `skelton-matthew-and-manuel-pais` (Skelton, Matthew, and Manuel Pais): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `star-susan-leigh-and-anselm-strauss` (Star, Susan Leigh, and Anselm Strauss): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `star-susan-leigh-and-james-r-griesemer` (Star, Susan Leigh, and James R. Griesemer): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `suedfeld-peter-philip-e-tetlock-and-sally-streufert` (Suedfeld, Peter, Philip E. Tetlock, and Sally Streufert): Thinker name uses bibliographic Last, First order instead of First Last.
+- **thinker-metadata** — thinker `ron-jeffries` (ron-jeffries): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `s-g-talbot` (s-g-talbot): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `saleema-amershi` (saleema-amershi): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `sida-peng` (sida-peng): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `simone-wu` (simone-wu): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `spencer-ball` (spencer-ball): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `steve-mellor` (steve-mellor): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `susan-raine` (susan-raine): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `tabor-james-d-and-eugene-v-gallagher` (Tabor, James D., and Eugene V. Gallagher): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `tajfel-henri-and-john-c-turner` (Tajfel, Henri, and John C. Turner): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `talbot-s-g-and-w-dean` (talbot-s-g-and-w-dean): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `talbot-s-g-and-w-dean` (Talbot, S. G., and W. Dean): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `tavris-carol-and-elliot-aronson` (Tavris, Carol, and Elliot Aronson): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b-carsten` (Uhl-Bien, Michael, Ronald E. Riggio, Kelly Lowe, and Gerard B. Carsten): Thinker name uses bibliographic Last, First order instead of First Last.
-- **thinker-metadata** — thinker `wachsmuth-david-and-alexander-weisler` (wachsmuth-david-and-alexander-weisler): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `wachsmuth-david-and-alexander-weisler` (Wachsmuth, David, and Alexander Weisler): Thinker name uses bibliographic Last, First order instead of First Last.
+- **thinker-metadata** — thinker `w-dean` (w-dean): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `ward-cunningham` (ward-cunningham): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `wright-stuart-a-ed` (wright-stuart-a-ed): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `wright-stuart-a-ed` (Wright, Stuart A., ed): Thinker name uses bibliographic Last, First order instead of First Last.

@@ -1,0 +1,16 @@
+slug: jez-humble
+name: Jez Humble
+type: person
+summary: Authors and practitioners who helped define DevOps culture, tooling, and
+  continuous delivery practice.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+- how-serious-systems-learn
+works:
+- forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build
+- humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an
+- kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class
+whyThisMatters: The DevOps Handbook sediment—bridging dev and ops accountability under
+  coupling.

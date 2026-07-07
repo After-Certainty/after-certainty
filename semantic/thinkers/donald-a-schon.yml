@@ -1,13 +1,15 @@
 slug: donald-a-schon
 name: Donald A Schön
 type: person
-summary: Organizational theorist of reflective practice, learning systems, and professional
-  knowing-in-action.
+summary: Organizational theorists of double-loop learning and reflective practice
+  in professional work.
 concepts: []
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+- when-others-look-to-you-v2
 works:
+- argyris-chris-and-donald-a-schon-organizational-learning-ii
 - sch-n-donald-a-the-reflective-practitioner-how-professionals-think
-whyThisMatters: Schön pairs with Argyris in the portfolio—correction through surfacing
-  tacit theory-in-use.
+whyThisMatters: Argyris and Schön extend correction beneath single-loop fixes—when
+  teams protect the assumptions that hurt them.

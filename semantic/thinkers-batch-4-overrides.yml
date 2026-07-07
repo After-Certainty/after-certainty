@@ -1,12 +1,9 @@
-# Editorial overrides for batch 4 (large) promotion into semantic/thinkers/.
-# Used by tools/promote_thinker_drafts.py --overrides semantic/thinkers-batch-4-overrides.yml
-
 thinkers:
-  acemoglu-daron-and-james-a-robinson:
-    summary: Economists of institutions, extractive versus inclusive political economy,
-      and why nations fail or flourish.
-    whyThisMatters: Acemoglu and Robinson tie legitimacy and trust to institutional
-      design—when incentives become the moral language of power.
+  adolf-a-berle:
+    summary: Economists who analyzed the separation of corporate ownership and control
+      in modern capitalism.
+    whyThisMatters: Berle and Means foreshadow accountability gaps—when authority
+      runs firms owners cannot really steer.
   alasdair-macintyre:
     summary: Moral philosopher of virtue ethics, tradition-constituted practice, and
       critique of emotivist modern morality.
@@ -22,11 +19,11 @@ thinkers:
       reshapes employer-employee trust.
     whyThisMatters: Rosenblat documents when interpretation is outsourced to opaque
       systems—workers judged by metrics they cannot see.
-  allspaw-john-and-paul-hammond:
-    summary: Engineering leaders who documented high-frequency deployment and DevOps
-      cooperation at Flickr.
-    whyThisMatters: Their deploy cadence essay is sediment for coupling—how technical
-      practice enables continuous correction.
+  alice-h-eagly:
+    summary: Psychologists of gender and leadership, labyrinth metaphors, and bias
+      in authority evaluation.
+    whyThisMatters: Their work shows how legitimacy is gendered—who gets heard when
+      moral seriousness is required.
   andrew-abbott:
     summary: Sociologist of professions, jurisdictional boundaries, and how expert
       communities claim authority.
@@ -42,11 +39,16 @@ thinkers:
       and operational discipline.
     whyThisMatters: Grove models how seriousness scales through measurement—accountability
       with eyes on the work.
-  andrews-matthew-lant-pritchett-and-michael-woolcock:
-    summary: Development scholars of capability traps, problem-driven iteration, and
-      institutional reform in weak states.
-    whyThisMatters: Their work warns that imported solutions sediment failure—correction
-      requires local problem framing.
+  angelina-mcmillan-major:
+    summary: AI ethics researchers documenting bias in large language models and harms
+      of opaque training data.
+    whyThisMatters: Their Stochastic Parrots paper names when interpretation at scale
+      reproduces inequality and erases accountability.
+  anil-k-kashyap:
+    summary: Economists of bank lending, financial stability, and macroprudential
+      limits on credit booms.
+    whyThisMatters: Their work links trust in money to institutional slack—when coupling
+      propagates shocks.
   annette-c-baier:
     summary: Philosopher of trust, moral sentiment, and relational ethics beyond contract
       and suspicion.
@@ -57,11 +59,6 @@ thinkers:
       co-produce social life.
     whyThisMatters: Giddens helps read how institutions and individuals co-make the
       worlds they later call inevitable.
-  argyris-chris-and-donald-a-schon:
-    summary: Organizational theorists of double-loop learning and reflective practice
-      in professional work.
-    whyThisMatters: Argyris and Schön extend correction beneath single-loop fixes—when
-      teams protect the assumptions that hurt them.
   arlie-russell-hochschild:
     summary: Sociologist of emotion labor, feeling rules, and how service work commercializes
       human expression.
@@ -77,26 +74,11 @@ thinkers:
       policies against evidence.
     whyThisMatters: Tuchman narrates normalization before catastrophe—when moral seriousness
       loses to momentum.
-  barke-helena-and-lutz-prechelt:
-    summary: Software researchers studying developer experience, flow interruption,
-      and productivity measurement limits.
-    whyThisMatters: Their work questions metric theater in engineering—when measurement
-      distorts the craft it claims to improve.
-  baron-jonathan-and-john-c-hershey:
-    summary: Behavioral decision researchers on heuristics, framing, and departures
-      from expected utility.
-    whyThisMatters: Baron and Hershey extend judgment-under-uncertainty themes—how
-      frames steer moral and practical choice.
   barry-w-boehm:
     summary: Software economist of cost-of-change curves and risk-driven process tradeoffs
       in engineering.
     whyThisMatters: Boehm's spiral and cost models sediment why late correction is
       expensive—coupling in project time.
-  bebchuk-lucian-a-and-scott-hirst:
-    summary: Legal scholars of corporate governance, index funds, and concentrated
-      shareholder power.
-    whyThisMatters: Their work links scale and accountability—when ownership structures
-      outrun fiduciary imagination.
   ben-kiernan:
     summary: Historian of genocide and mass violence, documenting how regimes mobilize
       ideology and bureaucracy.
@@ -107,21 +89,11 @@ thinkers:
       and financial crisis response.
     whyThisMatters: Bernanke anchors macro sediment—how institutions learn (or fail)
       when trust in money breaks.
-  bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell:
-    summary: AI ethics researchers documenting bias in large language models and harms
-      of opaque training data.
-    whyThisMatters: Their Stochastic Parrots paper names when interpretation at scale
-      reproduces inequality and erases accountability.
   benedict-anderson:
     summary: Political scientist of imagined communities—how nations cohere through
       shared narrative and print culture.
     whyThisMatters: Anderson explains belonging at scale—trust among strangers held
       by stories more than contact.
-  berle-adolf-a-jr-and-gardiner-c-means:
-    summary: Economists who analyzed the separation of corporate ownership and control
-      in modern capitalism.
-    whyThisMatters: Berle and Means foreshadow accountability gaps—when authority
-      runs firms owners cannot really steer.
   board-of-governors-of-the-federal-reserve-system:
     summary: U.S. central bank publishing monetary policy, financial stability research,
       and systemic risk assessments.
@@ -133,11 +105,6 @@ thinkers:
       and bureaucratic power.
     whyThisMatters: Woodward's narratives show interpretation shaped by access and
       fear—how truth moves inside institutions.
-  bowker-geoffrey-c-and-susan-leigh-star:
-    summary: Science studies scholars of classification, infrastructure, and how categories
-      hide work and marginalize cases.
-    whyThisMatters: Sorting Things Out is essential for boundary objects—when infrastructure
-      decides what counts.
   brene-brown:
     summary: Researcher and writer on vulnerability, shame resilience, and courage
       in leadership and belonging.
@@ -148,16 +115,11 @@ thinkers:
       in machine decision systems.
     whyThisMatters: Christian connects AI coupling to human values—when automated
       interpretation needs explicit moral constraints.
-  brooks-frederick-p-jr:
-    summary: Software engineer of the mythical man-month, Brooks's Law, and essential
-      complexity in large projects.
-    whyThisMatters: Brooks names why adding people can slow correction—coordination
-      sediment in serious systems delivery.
-  brown-eliot-and-maureen-farrell:
-    summary: Journalists documenting corporate scandal, incentive distortion, and
-      executive accountability failures.
-    whyThisMatters: Their reporting shows moral language weaponized—when incentives
-      replace responsibility in public story.
+  bruce-patton:
+    summary: Negotiation theorists of principled bargaining, interests versus positions,
+      and Getting to Yes.
+    whyThisMatters: Their method separates people from problem—trust repair as structured
+      interpretation work.
   bruno-latour:
     summary: Sociologist of science, actor-networks, and how facts are assembled through
       alliances and instruments.
@@ -168,6 +130,11 @@ thinkers:
       constructs public reality.
     whyThisMatters: Anderson tracks who gets to stabilize meaning for strangers—public
       interpretation as organized labor.
+  carl-a-kallgren:
+    summary: Social psychologists studying focus theory of normative conduct and situational
+      influence on behavior.
+    whyThisMatters: Cialdini's influence research explains compliance without conviction—when
+      norms steer without reflection.
   carl-schmitt:
     summary: Political theorist of sovereignty, the friend-enemy distinction, and
       states of exception.
@@ -182,6 +149,11 @@ thinkers:
     summary: Historian of economic thought and Latin American political economy.
     whyThisMatters: Escudé offers comparative institutional sediment—how different
       polities learn (or avoid) correction.
+  casper-lassenius:
+    summary: Software engineering researchers on large-scale agile adoption and coordination
+      across sites.
+    whyThisMatters: Their work maps scaling collaboration—when agile sediment meets
+      organizational coupling.
   cathy-o-neil:
     summary: Data scientist and critic of Weapons of Math Destruction—opaque models
       that encode harm at scale.
@@ -197,6 +169,11 @@ thinkers:
       ceases to be a good measure.
     whyThisMatters: Goodhart disciplines metric regimes—central to incentives-as-moral-language
       arguments.
+  charles-g-lord:
+    summary: Psychologists of belief perseverance and biased assimilation of disconfirming
+      evidence.
+    whyThisMatters: Their experiments show interpretation hardened under challenge—correction
+      needs more than facts.
   charles-taylor:
     summary: Philosopher of recognition, secular age, and how modern selves seek sources
       of moral orientation.
@@ -207,11 +184,21 @@ thinkers:
       politics.
     whyThisMatters: Tilly shows how trust and violence co-evolve—institutions built
       from war and extraction sediment.
+  chris-argyris:
+    summary: Organizational theorists of double-loop learning and reflective practice
+      in professional work.
+    whyThisMatters: Argyris and Schön extend correction beneath single-loop fixes—when
+      teams protect the assumptions that hurt them.
   christian-albrekt-larsen:
     summary: Political scientist of trust in welfare states and Nordic institutional
       legitimacy.
     whyThisMatters: Larsen compares how societies sustain trust at scale—not similarity
       alone but credible institutions.
+  christina-maslach:
+    summary: Researchers of burnout, emotional exhaustion, and organizational conditions
+      that erode care work.
+    whyThisMatters: Maslach links burnout to structure—not weak people—when institutions
+      demand endless moral performance.
   christopher-alexander:
     summary: Architect and theorist of pattern languages, living structure, and humane
       scale in built environment.
@@ -222,11 +209,11 @@ thinkers:
       of social control.
     whyThisMatters: Boehm roots accountability in group sanction—how moral seriousness
       predates formal institutions.
-  cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren:
-    summary: Social psychologists studying focus theory of normative conduct and situational
-      influence on behavior.
-    whyThisMatters: Cialdini's influence research explains compliance without conviction—when
-      norms steer without reflection.
+  christopher-hood:
+    summary: Public administration scholars of blame avoidance, reputation management,
+      and government accountability theater.
+    whyThisMatters: Hood explains defensive institutions—when accountability processes
+      protect officials from correction.
   claude-m-steele:
     summary: Psychologist of stereotype threat and how identity contingencies distort
       performance under scrutiny.
@@ -243,21 +230,26 @@ thinkers:
     whyThisMatters: The CAIB report extends Challenger lessons—foam strikes, silence,
       and normalization in serious systems.
     type: organization
-  corrales-javier-and-michael-penfold:
-    summary: Political scientists of Venezuelan authoritarianism, oil states, and
-      democratic backsliding.
-    whyThisMatters: Their work narrates when legitimacy becomes performance—institutions
-      that cannot correct course.
   dani-rodrik:
     summary: Economist of globalization trilemma, industrial policy, and pragmatic
       institutional diversity.
     whyThisMatters: Rodrik resists one-size development certainty—local legitimacy
       matters for sustainable reform.
+  daron-acemoglu:
+    summary: Economists of institutions, extractive versus inclusive political economy,
+      and why nations fail or flourish.
+    whyThisMatters: Acemoglu and Robinson tie legitimacy and trust to institutional
+      design—when incentives become the moral language of power.
   david-edgerton:
     summary: Historian of technology-in-use, shock of the old, and how innovation
       narratives misread sedimented tools.
     whyThisMatters: Edgerton corrects novelty bias—serious systems often run on old
       infrastructure longer than stories admit.
+  david-farley:
+    summary: Engineering writers on continuous delivery, deployment pipelines, and
+      reducing release risk.
+    whyThisMatters: Humble extends DevOps sediment—technical habits that make correction
+      routine rather than heroic.
   david-j-flook:
     summary: Scholar contributing to Latter-day Saint historical and community studies.
     whyThisMatters: Flook supports portfolio grounding in lived religious community—not
@@ -272,22 +264,6 @@ thinkers:
       nations.
     whyThisMatters: Landes provokes debate on cultural sediment in development—without
       replacing institutional analysis.
-  u-s-department-of-defense:
-    summary: U.S. DoD standard defining software development lifecycle requirements
-      for defense systems.
-    whyThisMatters: DOD-STD-2167A is sediment of waterfall accountability—formal process
-      as moral substitute in coupling.
-    type: organization
-  demarco-tom-and-timothy-lister:
-    summary: Consultants and authors on software risk, estimation, and people problems
-      in technology projects.
-    whyThisMatters: DeMarco and Lister name fear-driven management—when uncertainty
-      produces control theater not learning.
-  demarco-tom-and-timothy-r-lister:
-    summary: Authors on software team dynamics, flow, and the human sources of project
-      risk.
-    whyThisMatters: Their peopleware frame links collaboration difficulty to environment—not
-      defective individuals.
   dennis-f-thompson:
     summary: Political theorist of democratic accountability, institutional ethics,
       and responsibility in public life.
@@ -298,16 +274,16 @@ thinkers:
       mismanage coupled systems.
     whyThisMatters: Dörner's Moro study shows catastrophic learning failures—when
       operators trust the wrong feedback.
-  dikert-karina-maria-paasivaara-and-casper-lassenius:
-    summary: Software engineering researchers on large-scale agile adoption and coordination
-      across sites.
-    whyThisMatters: Their work maps scaling collaboration—when agile sediment meets
-      organizational coupling.
   donald-a-schon:
     summary: Organizational theorist of reflective practice, learning systems, and
       professional knowing-in-action.
     whyThisMatters: Schön pairs with Argyris in the portfolio—correction through surfacing
       tacit theory-in-use.
+  donald-l-shaw:
+    summary: Communication scholars of agenda-setting—media telling people what to
+      think about, not what to think.
+    whyThisMatters: Agenda-setting shows attention infrastructure—public interpretation
+      shaped before argument begins.
   donald-t-campbell:
     summary: Social scientist of evolutionary epistemology and Campbell's Law—corrupting
       influence of measured targets.
@@ -323,11 +299,6 @@ thinkers:
       as fact versus interpretation in history.
     whyThisMatters: Carr insists history is dialogue between past and present—no interpretation-free
       certainty.
-  eagly-alice-h-and-linda-l-carli:
-    summary: Psychologists of gender and leadership, labyrinth metaphors, and bias
-      in authority evaluation.
-    whyThisMatters: Their work shows how legitimacy is gendered—who gets heard when
-      moral seriousness is required.
   eileen-barker:
     summary: Sociologist of new religious movements and how scholars study high-demand
       communities ethically.
@@ -338,6 +309,21 @@ thinkers:
       reality online.
     whyThisMatters: Pariser names echo infrastructure—when platforms shrink the contact
       that keeps reads open.
+  eliot-brown:
+    summary: Journalists documenting corporate scandal, incentive distortion, and
+      executive accountability failures.
+    whyThisMatters: Their reporting shows moral language weaponized—when incentives
+      replace responsibility in public story.
+  eliyahu-m-goldratt:
+    summary: Authors of The Goal—theory of constraints narrated through manufacturing
+      operations management.
+    whyThisMatters: Goldratt dramatizes bottlenecks and flow—systems learning through
+      identifying what actually limits work.
+  emily-m-bender:
+    summary: AI ethics researchers documenting bias in large language models and harms
+      of opaque training data.
+    whyThisMatters: Their Stochastic Parrots paper names when interpretation at scale
+      reproduces inequality and erases accountability.
   eric-evans:
     summary: Software strategist who articulated domain-driven design and ubiquitous
       language for complex systems.
@@ -368,16 +354,6 @@ thinkers:
       institutional dysfunction.
     whyThisMatters: Klein connects polarization to structure—not bad faith alone but
       systems that reward closure.
-  faden-ruth-r-and-tom-l-beauchamp:
-    summary: Bioethicists of informed consent, trust, and moral foundations of research
-      with human subjects.
-    whyThisMatters: Their framework grounds when accountability to participants must
-      precede institutional convenience.
-  fahey-liam-and-robert-m-randall-eds:
-    summary: Editors of ethnographic and historical studies relevant to Mormon and
-      American religious experience.
-    whyThisMatters: Edited volumes aggregate community voices—interpretation from
-      inside rather than only outside gaze.
   federal-aviation-administration-and-nasa:
     summary: U.S. aviation regulators and NASA publishing safety reporting, human
       factors, and accident learning materials.
@@ -389,41 +365,46 @@ thinkers:
       of currency.
     whyThisMatters: Martin demystifies money as institution—trust sediment that can
       fail when legitimacy thins.
-  festinger-leon-henry-w-riecken-and-stanley-schachter:
-    summary: Social psychologists who studied cognitive dissonance in a doomsday cult
-      when prophecy failed.
-    whyThisMatters: When Prophecy Fails is a classic on doubling down—correction resisted
-      through reinterpretation.
-  fisher-roger-william-ury-and-bruce-patton:
-    summary: Negotiation theorists of principled bargaining, interests versus positions,
-      and Getting to Yes.
-    whyThisMatters: Their method separates people from problem—trust repair as structured
-      interpretation work.
   frank-dikotter:
     summary: Historian of Mao's China, mass campaigns, and bureaucratic terror in
       the People's Republic.
     whyThisMatters: Dikötter documents when moral language masks coercion—authority
       without accountable feedback.
+  frederick-p-brooks:
+    summary: Software engineer of the mythical man-month, Brooks's Law, and essential
+      complexity in large projects.
+    whyThisMatters: Brooks names why adding people can slow correction—coordination
+      sediment in serious systems delivery.
   friedrich-a-hayek:
     summary: Economist and philosopher of dispersed knowledge, spontaneous order,
       and limits of central planning.
     whyThisMatters: Hayek argues markets aggregate local knowledge—skepticism toward
       certainty from the center.
-  garud-raghu-and-peter-karn-e:
-    summary: Management scholars of innovation journeys, path creation, and entrepreneurship
-      in evolving markets.
-    whyThisMatters: Their work tracks how meaning and resources co-evolve—sediment
-      and pivot in institutional time.
+  gardiner-c-means:
+    summary: Economists who analyzed the separation of corporate ownership and control
+      in modern capitalism.
+    whyThisMatters: Berle and Means foreshadow accountability gaps—when authority
+      runs firms owners cannot really steer.
   gary-klein:
     summary: Psychologist of naturalistic decision making, recognition-primed judgment,
       and expertise under pressure.
     whyThisMatters: Klein complements bias research—how experts read situations holistically
       when time forbids analysis.
+  gene-kim:
+    summary: Authors and practitioners who helped define DevOps culture, tooling,
+      and continuous delivery practice.
+    whyThisMatters: The DevOps Handbook sediment—bridging dev and ops accountability
+      under coupling.
   gene-kranz:
     summary: NASA flight director famed for Apollo 13 crisis leadership and failure-is-not-an-option
       operations culture.
     whyThisMatters: Kranz embodies guest leadership under coupling—accountability
       with room for improvisation.
+  geoffrey-c-bowker:
+    summary: Science studies scholars of classification, infrastructure, and how categories
+      hide work and marginalize cases.
+    whyThisMatters: Sorting Things Out is essential for boundary objects—when infrastructure
+      decides what counts.
   geoffrey-ingham:
     summary: Sociologist of money, credit, and the social relations underlying monetary
       systems.
@@ -439,6 +420,16 @@ thinkers:
       modern societies.
     whyThisMatters: Chryssides supports fair description of religious groups—boundary
       between study and polemic.
+  george-lakoff:
+    summary: Cognitive linguists of conceptual metaphor—how embodied experience structures
+      abstract thought.
+    whyThisMatters: Metaphors We Live By grounds meaning in body and culture—interpretation
+      not free-floating logic.
+  george-spafford:
+    summary: Authors of The Phoenix Project—narrative introduction to Theory of Constraints
+      and DevOps flow.
+    whyThisMatters: Their novel format teaches systems thinking—bottlenecks visible
+      when heroes stop firefighting.
   gert-tinggaard-svendsen:
     summary: Political economist of social capital, trust, and civic participation
       in democracies.
@@ -449,11 +440,6 @@ thinkers:
       excluded populations.
     whyThisMatters: Agamben sharpens emergency politics—when law suspends and accountability
       thins.
-  goldratt-eliyahu-m-and-jeff-cox:
-    summary: Authors of The Goal—theory of constraints narrated through manufacturing
-      operations management.
-    whyThisMatters: Goldratt dramatizes bottlenecks and flow—systems learning through
-      identifying what actually limits work.
   h-p-grice:
     summary: Philosopher of language whose cooperative maxims underpin pragmatic inference
       and conversational implicature.
@@ -469,26 +455,26 @@ thinkers:
       organizational learning.
     whyThisMatters: Their work warns that coupling without cultural correction produces
       silent failure.
+  helena-barke:
+    summary: Software researchers studying developer experience, flow interruption,
+      and productivity measurement limits.
+    whyThisMatters: Their work questions metric theater in engineering—when measurement
+      distorts the craft it claims to improve.
   henry-petroski:
     summary: Engineer-historian of design failure, success through error, and how
       artifacts teach by breaking.
     whyThisMatters: Petroski makes failure archival—serious systems learn from what
       broke, not from boastful success stories.
+  henry-w-riecken:
+    summary: Social psychologists who studied cognitive dissonance in a doomsday cult
+      when prophecy failed.
+    whyThisMatters: When Prophecy Fails is a classic on doubling down—correction resisted
+      through reinterpretation.
   hilary-putnam:
     summary: Philosopher of meaning, realism, and the collapse of fact-value dichotomies
       in pragmatic inquiry.
     whyThisMatters: Putnam resists sharp certainty divides—interpretation and world
       co-constrained, not sealed off.
-  hood-christopher-and-ruth-dixon:
-    summary: Public administration scholars of blame avoidance, reputation management,
-      and government accountability theater.
-    whyThisMatters: Hood explains defensive institutions—when accountability processes
-      protect officials from correction.
-  humble-jez-and-david-farley:
-    summary: Engineering writers on continuous delivery, deployment pipelines, and
-      reducing release risk.
-    whyThisMatters: Humble extends DevOps sediment—technical habits that make correction
-      routine rather than heroic.
   ian-hacking:
     summary: Philosopher of historical ontology, looping effects, and how classifications
       make up people.
@@ -526,21 +512,26 @@ thinkers:
       that disable communal competence.
     whyThisMatters: Illich questions when help becomes dependency—scale that strips
       local capacity for judgment.
-  jurgen-habermas:
-    summary: Philosopher of communicative action, public sphere, and legitimacy through
-      discursive justification.
-    whyThisMatters: Habermas asks what counts as reasons strangers can accept—interpretation
-      seeking warrant, not force.
   jacques-ellul:
     summary: Theologian and critic of technique—autonomous efficiency logic colonizing
       moral and political life.
     whyThisMatters: Ellul warns when means become ends—moral seriousness swallowed
       by procedural optimization.
+  james-a-robinson:
+    summary: Economists of institutions, extractive versus inclusive political economy,
+      and why nations fail or flourish.
+    whyThisMatters: Acemoglu and Robinson tie legitimacy and trust to institutional
+      design—when incentives become the moral language of power.
   james-g-march:
     summary: Organizational theorist of bounded rationality, garbage cans, and ambiguity
       in institutional choice.
     whyThisMatters: March (solo) complements promoted co-authored work—uncertainty
       as normal operating condition.
+  james-m-cook:
+    summary: Sociologists of social networks, homophily, and how tie structure shapes
+      information and trust.
+    whyThisMatters: Birds of a feather explains trust beyond similarity's limits—networks
+      sediment who hears correction.
   jan-shipps:
     summary: Historian of Mormonism as new religious tradition emerging in American
       society.
@@ -556,11 +547,26 @@ thinkers:
       on eyes on the street.
     whyThisMatters: Jacobs champions local knowledge over planner certainty—trust
       from contact and mixed use.
-  jensen-michael-c-and-william-h-meckling:
-    summary: Economists of agency theory, shareholder primacy, and corporate governance
-      as contracting problem.
-    whyThisMatters: Jensen and Meckling sediment incentives discourse—when moral language
-      becomes alignment math.
+  javier-corrales:
+    summary: Political scientists of Venezuelan authoritarianism, oil states, and
+      democratic backsliding.
+    whyThisMatters: Their work narrates when legitimacy becomes performance—institutions
+      that cannot correct course.
+  jeff-cox:
+    summary: Authors of The Goal—theory of constraints narrated through manufacturing
+      operations management.
+    whyThisMatters: Goldratt dramatizes bottlenecks and flow—systems learning through
+      identifying what actually limits work.
+  jeffrey-kluger:
+    summary: Apollo 13 commander and journalist narrating crisis teamwork and NASA
+      operational learning.
+    whyThisMatters: Lovell's story complements Kranz—serious systems improvising without
+      losing shared aim.
+  jeremy-c-stein:
+    summary: Economists of bank lending, financial stability, and macroprudential
+      limits on credit booms.
+    whyThisMatters: Their work links trust in money to institutional slack—when coupling
+      propagates shocks.
   jerry-b-harvey:
     summary: Management scholar who named the Abilene paradox—groups undertaking unwanted
       actions to avoid conflict.
@@ -571,16 +577,31 @@ thinkers:
       in the regulatory state.
     whyThisMatters: Mashaw grounds how agencies can be fair—procedure as moral substance,
       not obstacle.
+  jez-humble:
+    summary: Engineering writers on continuous delivery, deployment pipelines, and
+      reducing release risk.
+    whyThisMatters: Humble extends DevOps sediment—technical habits that make correction
+      routine rather than heroic.
   jim-collins:
     summary: Management author studying enduring companies, Level 5 leadership, and
       disciplined culture.
     whyThisMatters: Collins popularizes institutional humility and focus—though readers
       should watch survivor bias.
+  jim-lovell:
+    summary: Apollo 13 commander and journalist narrating crisis teamwork and NASA
+      operational learning.
+    whyThisMatters: Lovell's story complements Kranz—serious systems improvising without
+      losing shared aim.
   joan-c-tronto:
     summary: Political ethicist of care, democratic caregiving, and moral boundaries
       of responsibility.
     whyThisMatters: Tronto widens accountability beyond contract—care as political
       and interpretive practice.
+  john-allspaw:
+    summary: Engineering leaders who documented high-frequency deployment and DevOps
+      cooperation at Flickr.
+    whyThisMatters: Their deploy cadence essay is sediment for coupling—how technical
+      practice enables continuous correction.
   john-bowlby:
     summary: Psychiatrist of attachment theory—how early bonds shape trust, exploration,
       and emotional security.
@@ -591,6 +612,11 @@ thinkers:
       and low-cost financial institutions.
     whyThisMatters: Bogle challenged finance industry incentives—when fees sediment
       against investor trust.
+  john-c-hershey:
+    summary: Behavioral decision researchers on heuristics, framing, and departures
+      from expected utility.
+    whyThisMatters: Baron and Hershey extend judgment-under-uncertainty themes—how
+      frames steer moral and practical choice.
   john-m-gottman:
     summary: Psychologist of marital stability, interaction patterns, and predicting
       relationship repair or collapse.
@@ -606,6 +632,16 @@ thinkers:
       case of data overturning theory.
     whyThisMatters: Snow exemplifies correction through contact with reality—maps
       against confident wrong consensus.
+  john-willis:
+    summary: Authors and practitioners who helped define DevOps culture, tooling,
+      and continuous delivery practice.
+    whyThisMatters: The DevOps Handbook sediment—bridging dev and ops accountability
+      under coupling.
+  jonathan-baron:
+    summary: Behavioral decision researchers on heuristics, framing, and departures
+      from expected utility.
+    whyThisMatters: Baron and Hershey extend judgment-under-uncertainty themes—how
+      frames steer moral and practical choice.
   jonathan-haidt:
     summary: Social psychologist of moral foundations, righteous mind, and intuitive
       ethics in political conflict.
@@ -620,6 +656,11 @@ thinkers:
     summary: Scholar of Brazilian and Latin American political development.
     whyThisMatters: Page contributes comparative institutional context—legitimacy
       outside Anglo-American defaults.
+  jr:
+    summary: Economists who analyzed the separation of corporate ownership and control
+      in modern capitalism.
+    whyThisMatters: Berle and Means foreshadow accountability gaps—when authority
+      runs firms owners cannot really steer.
   judith-butler:
     summary: Philosopher of gender performativity, precarity, and how norms shape
       livable lives.
@@ -629,11 +670,21 @@ thinkers:
     summary: Political theorist of liberalism of fear, cruelty, and putting avoidance
       of atrocity first.
     whyThisMatters: Shklar prioritizes moral seriousness about harm over utopian certainty.
+  jurgen-habermas:
+    summary: Philosopher of communicative action, public sphere, and legitimacy through
+      discursive justification.
+    whyThisMatters: Habermas asks what counts as reasons strangers can accept—interpretation
+      seeking warrant, not force.
   k-e-l-gstrup:
     summary: Danish philosopher and theologian of sovereign expressions of life, trust,
       and indirect communication.
     whyThisMatters: Grønsted (K.E. Løgstrup slug) grounds trust as ethical demand—responsibility
       encountered in the other.
+  karina-dikert:
+    summary: Software engineering researchers on large-scale agile adoption and coordination
+      across sites.
+    whyThisMatters: Their work maps scaling collaboration—when agile sediment meets
+      organizational coupling.
   karl-jaspers:
     summary: Philosopher of Axial Age, existential communication, and limits of totalizing
       ideologies.
@@ -644,11 +695,6 @@ thinkers:
       certainty.
     whyThisMatters: Popper champions correction over proof—science and politics as
       provisional, testable claims.
-  kashyap-anil-k-and-jeremy-c-stein:
-    summary: Economists of bank lending, financial stability, and macroprudential
-      limits on credit booms.
-    whyThisMatters: Their work links trust in money to institutional slack—when coupling
-      propagates shocks.
   kate-crawford:
     summary: Scholar of AI politics, Atlas of AI, and material supply chains behind
       machine intelligence.
@@ -659,70 +705,70 @@ thinkers:
       and varieties of capitalism.
     whyThisMatters: Thelen shows correction as incremental sediment—not always revolutionary
       break.
-  keep-william-w-and-peter-j-vander-nat:
-    summary: Philosophers analyzing infinite regresses, justification, and foundational
-      problems in knowledge claims.
-    whyThisMatters: Their formal work sharpens when certainty claims need stopping
-      rules—epistemic boundary discipline.
-  kim-gene-jez-humble-patrick-debois-and-john-willis:
-    summary: Authors and practitioners who helped define DevOps culture, tooling,
-      and continuous delivery practice.
-    whyThisMatters: The DevOps Handbook sediment—bridging dev and ops accountability
-      under coupling.
-  kim-gene-kevin-behr-and-george-spafford:
+  kevin-behr:
     summary: Authors of The Phoenix Project—narrative introduction to Theory of Constraints
       and DevOps flow.
     whyThisMatters: Their novel format teaches systems thinking—bottlenecks visible
       when heroes stop firefighting.
-  king-martin-luther-jr:
-    summary: Civil rights leader whose sermons and letters articulate moral authority,
-      nonviolent correction, and beloved community.
-    whyThisMatters: King models guest leadership—legitimacy from moral seriousness
-      that invites collective responsibility.
   kirk-a-hawkins:
     summary: Political scientist of populist discourse, Chávez-era Venezuela, and
       measuring ideological constraints.
     whyThisMatters: Hawkins codes how leaders frame us-versus-them—interpretation
       that can erode democratic trust.
-  leon-krier:
-    summary: Architectural theorist and critic of modernist urbanism, advocating humane
-      proportion and traditional form.
-    whyThisMatters: Krier argues built environment teaches values—sediment in stone
-      that shapes public life.
-  lakoff-george-and-mark-johnson:
-    summary: Cognitive linguists of conceptual metaphor—how embodied experience structures
-      abstract thought.
-    whyThisMatters: Metaphors We Live By grounds meaning in body and culture—interpretation
-      not free-floating logic.
   langdon-winner:
     summary: Political theorist of technology—do artifacts have politics?—and autonomous
       technical systems.
     whyThisMatters: Winner insists design embeds authority—coupling choices are moral,
       not merely technical.
-  lewis-mumford:
-    summary: Historian and critic of technics, megamachine, and human scale in civilization.
-    whyThisMatters: Mumford warns when tools outgrow human purposes—scale without
-      moral seriousness.
-  liebowitz-s-j-and-stephen-e-margolis:
-    summary: Economists who challenged path-dependence myths like QWERTY—debating
-      lock-in and market correction.
-    whyThisMatters: Their debate sharpens when sediment is real versus when correction
-      was always possible.
-  lord-charles-g-lee-ross-and-mark-r-lepper:
+  lant-pritchett:
+    summary: Development scholars of capability traps, problem-driven iteration, and
+      institutional reform in weak states.
+    whyThisMatters: Their work warns that imported solutions sediment failure—correction
+      requires local problem framing.
+  lee-ross:
     summary: Psychologists of belief perseverance and biased assimilation of disconfirming
       evidence.
     whyThisMatters: Their experiments show interpretation hardened under challenge—correction
       needs more than facts.
-  lovell-jim-and-jeffrey-kluger:
-    summary: Apollo 13 commander and journalist narrating crisis teamwork and NASA
-      operational learning.
-    whyThisMatters: Lovell's story complements Kranz—serious systems improvising without
-      losing shared aim.
-  macfarquhar-roderick-and-michael-schoenhals:
-    summary: Historians of Mao's China drawing on archival sources for everyday life
-      under radical campaigns.
-    whyThisMatters: Their documentary history shows interpretation under terror—what
-      people could say and remember.
+  leon-festinger:
+    summary: Social psychologists who studied cognitive dissonance in a doomsday cult
+      when prophecy failed.
+    whyThisMatters: When Prophecy Fails is a classic on doubling down—correction resisted
+      through reinterpretation.
+  leon-krier:
+    summary: Architectural theorist and critic of modernist urbanism, advocating humane
+      proportion and traditional form.
+    whyThisMatters: Krier argues built environment teaches values—sediment in stone
+      that shapes public life.
+  lewis-mumford:
+    summary: Historian and critic of technics, megamachine, and human scale in civilization.
+    whyThisMatters: Mumford warns when tools outgrow human purposes—scale without
+      moral seriousness.
+  liam-fahey:
+    summary: Editors of ethnographic and historical studies relevant to Mormon and
+      American religious experience.
+    whyThisMatters: Edited volumes aggregate community voices—interpretation from
+      inside rather than only outside gaze.
+  linda-l-carli:
+    summary: Psychologists of gender and leadership, labyrinth metaphors, and bias
+      in authority evaluation.
+    whyThisMatters: Their work shows how legitimacy is gendered—who gets heard when
+      moral seriousness is required.
+  lucian-a-bebchuk:
+    summary: Legal scholars of corporate governance, index funds, and concentrated
+      shareholder power.
+    whyThisMatters: Their work links scale and accountability—when ownership structures
+      outrun fiduciary imagination.
+  lutz-prechelt:
+    summary: Software researchers studying developer experience, flow interruption,
+      and productivity measurement limits.
+    whyThisMatters: Their work questions metric theater in engineering—when measurement
+      distorts the craft it claims to improve.
+  lynn-smith-lovin:
+    summary: Sociologists of social networks, homophily, and how tie structure shapes
+      information and trust.
+    whyThisMatters: Birds of a feather explains trust beyond similarity's limits—networks
+      sediment who hears correction.
   madison-james-alexander-hamilton-and-john-jay:
     summary: Authors of The Federalist—constitutional argument for union, checks,
       and faction management.
@@ -733,46 +779,86 @@ thinkers:
       to pursue shared interests.
     whyThisMatters: Olson explains trust and organization dilemmas—when scale makes
       coordination costly.
+  maria-paasivaara:
+    summary: Software engineering researchers on large-scale agile adoption and coordination
+      across sites.
+    whyThisMatters: Their work maps scaling collaboration—when agile sediment meets
+      organizational coupling.
   mark-c-suchman:
     summary: Legal scholar of legitimacy as process—managing ambivalence in institutional
       relationships.
     whyThisMatters: Suchman's framing helps organizations earn warranted trust—not
       assume it from status.
+  mark-johnson:
+    summary: Cognitive linguists of conceptual metaphor—how embodied experience structures
+      abstract thought.
+    whyThisMatters: Metaphors We Live By grounds meaning in body and culture—interpretation
+      not free-floating logic.
+  mark-r-lepper:
+    summary: Psychologists of belief perseverance and biased assimilation of disconfirming
+      evidence.
+    whyThisMatters: Their experiments show interpretation hardened under challenge—correction
+      needs more than facts.
   martha-minow:
     summary: Legal scholar of forgiveness, memory, and justice after mass atrocity
       and historical harm.
     whyThisMatters: Minow asks how societies correct without erasing—accountability
       that can outlive certainty of verdict.
+  martin-luther-king:
+    summary: Civil rights leader whose sermons and letters articulate moral authority,
+      nonviolent correction, and beloved community.
+    whyThisMatters: King models guest leadership—legitimacy from moral seriousness
+      that invites collective responsibility.
   mary-beard:
     summary: Classicist and public historian of Rome, rhetoric, and how power speaks
       through cultural memory.
     whyThisMatters: Beard models reading sources with skepticism—sediment of empire
       in stories we still tell.
-  maslach-christina-and-michael-p-leiter:
-    summary: Researchers of burnout, emotional exhaustion, and organizational conditions
-      that erode care work.
-    whyThisMatters: Maslach links burnout to structure—not weak people—when institutions
-      demand endless moral performance.
+  matthew-andrews:
+    summary: Development scholars of capability traps, problem-driven iteration, and
+      institutional reform in weak states.
+    whyThisMatters: Their work warns that imported solutions sediment failure—correction
+      requires local problem framing.
+  maureen-farrell:
+    summary: Journalists documenting corporate scandal, incentive distortion, and
+      executive accountability failures.
+    whyThisMatters: Their reporting shows moral language weaponized—when incentives
+      replace responsibility in public story.
   maurice-merleau-ponty:
     summary: Phenomenologist of embodied perception, habit, and being-in-the-world
       before objectifying thought.
     whyThisMatters: Merleau-Ponty grounds interpretation in lived body—meaning never
       purely abstract.
-  mccombs-maxwell-e-and-donald-l-shaw:
+  maxwell-e-mccombs:
     summary: Communication scholars of agenda-setting—media telling people what to
       think about, not what to think.
     whyThisMatters: Agenda-setting shows attention infrastructure—public interpretation
       shaped before argument begins.
-  mcpherson-miller-lynn-smith-lovin-and-james-m-cook:
-    summary: Sociologists of social networks, homophily, and how tie structure shapes
-      information and trust.
-    whyThisMatters: Birds of a feather explains trust beyond similarity's limits—networks
-      sediment who hears correction.
+  michael-c-jensen:
+    summary: Economists of agency theory, shareholder primacy, and corporate governance
+      as contracting problem.
+    whyThisMatters: Jensen and Meckling sediment incentives discourse—when moral language
+      becomes alignment math.
   michael-lipsky:
     summary: Political scientist of street-level bureaucracy—how frontline workers
       effectively make policy.
     whyThisMatters: Lipsky shows discretion as sediment—accountability must reach
       the interpretive edge of the state.
+  michael-p-leiter:
+    summary: Researchers of burnout, emotional exhaustion, and organizational conditions
+      that erode care work.
+    whyThisMatters: Maslach links burnout to structure—not weak people—when institutions
+      demand endless moral performance.
+  michael-penfold:
+    summary: Political scientists of Venezuelan authoritarianism, oil states, and
+      democratic backsliding.
+    whyThisMatters: Their work narrates when legitimacy becomes performance—institutions
+      that cannot correct course.
+  michael-schoenhals:
+    summary: Historians of Mao's China drawing on archival sources for everyday life
+      under radical campaigns.
+    whyThisMatters: Their documentary history shows interpretation under terror—what
+      people could say and remember.
   michael-t-nygard:
     summary: Software architect of release it!, stability patterns, and production
       operations for living systems.
@@ -783,6 +869,16 @@ thinkers:
       moral language.
     whyThisMatters: Walzer resists one moral dialect for all spheres—legitimacy is
       contextual, not universal formula.
+  michael-woolcock:
+    summary: Development scholars of capability traps, problem-driven iteration, and
+      institutional reform in weak states.
+    whyThisMatters: Their work warns that imported solutions sediment failure—correction
+      requires local problem framing.
+  miller-mcpherson:
+    summary: Sociologists of social networks, homophily, and how tie structure shapes
+      information and trust.
+    whyThisMatters: Birds of a feather explains trust beyond similarity's limits—networks
+      sediment who hears correction.
   n-gregory-mankiw:
     summary: Macroeconomist and textbook author on growth, inflation, and mainstream
       fiscal-monetary frameworks.
@@ -824,3 +920,139 @@ thinkers:
       in shame, violence, and self-control.
     whyThisMatters: Elias shows morality as sedimented habit—what feels natural was
       learned over generations.
+  patrick-debois:
+    summary: Authors and practitioners who helped define DevOps culture, tooling,
+      and continuous delivery practice.
+    whyThisMatters: The DevOps Handbook sediment—bridging dev and ops accountability
+      under coupling.
+  paul-hammond:
+    summary: Engineering leaders who documented high-frequency deployment and DevOps
+      cooperation at Flickr.
+    whyThisMatters: Their deploy cadence essay is sediment for coupling—how technical
+      practice enables continuous correction.
+  peter-j-vander-nat:
+    summary: Philosophers analyzing infinite regresses, justification, and foundational
+      problems in knowledge claims.
+    whyThisMatters: Their formal work sharpens when certainty claims need stopping
+      rules—epistemic boundary discipline.
+  peter-karn-e:
+    summary: Management scholars of innovation journeys, path creation, and entrepreneurship
+      in evolving markets.
+    whyThisMatters: Their work tracks how meaning and resources co-evolve—sediment
+      and pivot in institutional time.
+  raghu-garud:
+    summary: Management scholars of innovation journeys, path creation, and entrepreneurship
+      in evolving markets.
+    whyThisMatters: Their work tracks how meaning and resources co-evolve—sediment
+      and pivot in institutional time.
+  raymond-r-reno:
+    summary: Social psychologists studying focus theory of normative conduct and situational
+      influence on behavior.
+    whyThisMatters: Cialdini's influence research explains compliance without conviction—when
+      norms steer without reflection.
+  robert-b-cialdini:
+    summary: Social psychologists studying focus theory of normative conduct and situational
+      influence on behavior.
+    whyThisMatters: Cialdini's influence research explains compliance without conviction—when
+      norms steer without reflection.
+  robert-m-randall:
+    summary: Editors of ethnographic and historical studies relevant to Mormon and
+      American religious experience.
+    whyThisMatters: Edited volumes aggregate community voices—interpretation from
+      inside rather than only outside gaze.
+  roderick-macfarquhar:
+    summary: Historians of Mao's China drawing on archival sources for everyday life
+      under radical campaigns.
+    whyThisMatters: Their documentary history shows interpretation under terror—what
+      people could say and remember.
+  roger-fisher:
+    summary: Negotiation theorists of principled bargaining, interests versus positions,
+      and Getting to Yes.
+    whyThisMatters: Their method separates people from problem—trust repair as structured
+      interpretation work.
+  ruth-dixon:
+    summary: Public administration scholars of blame avoidance, reputation management,
+      and government accountability theater.
+    whyThisMatters: Hood explains defensive institutions—when accountability processes
+      protect officials from correction.
+  ruth-r-faden:
+    summary: Bioethicists of informed consent, trust, and moral foundations of research
+      with human subjects.
+    whyThisMatters: Their framework grounds when accountability to participants must
+      precede institutional convenience.
+  s-j-liebowitz:
+    summary: Economists who challenged path-dependence myths like QWERTY—debating
+      lock-in and market correction.
+    whyThisMatters: Their debate sharpens when sediment is real versus when correction
+      was always possible.
+  scott-hirst:
+    summary: Legal scholars of corporate governance, index funds, and concentrated
+      shareholder power.
+    whyThisMatters: Their work links scale and accountability—when ownership structures
+      outrun fiduciary imagination.
+  shmargaret-shmitchell:
+    summary: AI ethics researchers documenting bias in large language models and harms
+      of opaque training data.
+    whyThisMatters: Their Stochastic Parrots paper names when interpretation at scale
+      reproduces inequality and erases accountability.
+  stanley-schachter:
+    summary: Social psychologists who studied cognitive dissonance in a doomsday cult
+      when prophecy failed.
+    whyThisMatters: When Prophecy Fails is a classic on doubling down—correction resisted
+      through reinterpretation.
+  stephen-e-margolis:
+    summary: Economists who challenged path-dependence myths like QWERTY—debating
+      lock-in and market correction.
+    whyThisMatters: Their debate sharpens when sediment is real versus when correction
+      was always possible.
+  susan-leigh-star:
+    summary: Science studies scholars of classification, infrastructure, and how categories
+      hide work and marginalize cases.
+    whyThisMatters: Sorting Things Out is essential for boundary objects—when infrastructure
+      decides what counts.
+  timnit-gebru:
+    summary: AI ethics researchers documenting bias in large language models and harms
+      of opaque training data.
+    whyThisMatters: Their Stochastic Parrots paper names when interpretation at scale
+      reproduces inequality and erases accountability.
+  timothy-lister:
+    summary: Consultants and authors on software risk, estimation, and people problems
+      in technology projects.
+    whyThisMatters: DeMarco and Lister name fear-driven management—when uncertainty
+      produces control theater not learning.
+  timothy-r-lister:
+    summary: Authors on software team dynamics, flow, and the human sources of project
+      risk.
+    whyThisMatters: Their peopleware frame links collaboration difficulty to environment—not
+      defective individuals.
+  tom-demarco:
+    summary: Consultants and authors on software risk, estimation, and people problems
+      in technology projects.
+    whyThisMatters: DeMarco and Lister name fear-driven management—when uncertainty
+      produces control theater not learning.
+  tom-l-beauchamp:
+    summary: Bioethicists of informed consent, trust, and moral foundations of research
+      with human subjects.
+    whyThisMatters: Their framework grounds when accountability to participants must
+      precede institutional convenience.
+  u-s-department-of-defense:
+    summary: U.S. DoD standard defining software development lifecycle requirements
+      for defense systems.
+    whyThisMatters: DOD-STD-2167A is sediment of waterfall accountability—formal process
+      as moral substitute in coupling.
+    type: organization
+  william-h-meckling:
+    summary: Economists of agency theory, shareholder primacy, and corporate governance
+      as contracting problem.
+    whyThisMatters: Jensen and Meckling sediment incentives discourse—when moral language
+      becomes alignment math.
+  william-ury:
+    summary: Negotiation theorists of principled bargaining, interests versus positions,
+      and Getting to Yes.
+    whyThisMatters: Their method separates people from problem—trust repair as structured
+      interpretation work.
+  william-w-keep:
+    summary: Philosophers analyzing infinite regresses, justification, and foundational
+      problems in knowledge claims.
+    whyThisMatters: Their formal work sharpens when certainty claims need stopping
+      rules—epistemic boundary discipline.

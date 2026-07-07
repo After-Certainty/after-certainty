@@ -1,0 +1,16 @@
+slug: gene-kim
+name: Gene Kim
+type: person
+summary: Authors of The Phoenix Project—narrative introduction to Theory of Constraints
+  and DevOps flow.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+- how-serious-systems-learn
+works:
+- forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build
+- kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class
+- kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping
+whyThisMatters: Their novel format teaches systems thinking—bottlenecks visible when
+  heroes stop firefighting.

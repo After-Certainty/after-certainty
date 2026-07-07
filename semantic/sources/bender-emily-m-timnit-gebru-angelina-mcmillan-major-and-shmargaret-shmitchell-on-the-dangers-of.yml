@@ -1,6 +1,6 @@
 slug: bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of
-name: 'Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell
-  — On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?'
+name: 'Angelina McMillan-Major, Emily M. Bender, Shmargaret Shmitchell, and Timnit
+  Gebru — On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?'
 type: article
 summary: 'Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret
   Shmitchell. "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
@@ -12,9 +12,15 @@ relatedBooks:
 - coupling
 title: 'On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?'
 creatorNames:
-- Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell
+- Angelina McMillan-Major
+- Emily M. Bender
+- Shmargaret Shmitchell
+- Timnit Gebru
 creatorSlugs:
-- bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell
+- angelina-mcmillan-major
+- emily-m-bender
+- shmargaret-shmitchell
+- timnit-gebru
 citation: 'Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret
   Shmitchell. "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
   *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency

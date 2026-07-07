@@ -1,5 +1,5 @@
 slug: king-martin-luther-jr-letter-from-birmingham-jail
-name: King, Martin Luther, Jr — Letter from Birmingham Jail.
+name: Jr and Martin Luther King — Letter from Birmingham Jail.
 type: article
 summary: 'King, Martin Luther, Jr. "Letter from Birmingham Jail." In *Why We Can''t
   Wait*, 75–100. New York: Signet Classics, 2000.'
@@ -9,9 +9,11 @@ relatedBooks:
 - when-authority-is-misread
 title: Letter from Birmingham Jail.
 creatorNames:
-- King, Martin Luther, Jr
+- Jr
+- Martin Luther King
 creatorSlugs:
-- king-martin-luther-jr
+- jr
+- martin-luther-king
 citation: 'King, Martin Luther, Jr. "Letter from Birmingham Jail." In *Why We Can''t
   Wait*, 75–100. New York: Signet Classics, 2000.'
 sourceKind: article

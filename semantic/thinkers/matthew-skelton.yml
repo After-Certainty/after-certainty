@@ -1,0 +1,13 @@
+slug: matthew-skelton
+name: Matthew Skelton
+type: person
+summary: Authors on team topologies—organizing software teams for flow, cognitive
+  load, and interaction modes.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- skelton-matthew-and-manuel-pais-team-topologies-organizing-business-and-technology-teams-for-fas
+whyThisMatters: Team Topologies links collaboration difficulty to structure—why coupling
+  is a design choice not an accident.

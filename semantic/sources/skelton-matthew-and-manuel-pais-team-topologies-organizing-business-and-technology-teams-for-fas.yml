@@ -1,5 +1,5 @@
 slug: skelton-matthew-and-manuel-pais-team-topologies-organizing-business-and-technology-teams-for-fas
-name: 'Skelton, Matthew, and Manuel Pais — Team Topologies: Organizing Business and
+name: 'Manuel Pais and Matthew Skelton — Team Topologies: Organizing Business and
   Technology Teams for Fast Flow'
 type: book
 summary: 'Skelton, Matthew, and Manuel Pais. *Team Topologies: Organizing Business
@@ -10,9 +10,11 @@ relatedBooks:
 - coupling
 title: 'Team Topologies: Organizing Business and Technology Teams for Fast Flow'
 creatorNames:
-- Skelton, Matthew, and Manuel Pais
+- Manuel Pais
+- Matthew Skelton
 creatorSlugs:
-- skelton-matthew-and-manuel-pais
+- manuel-pais
+- matthew-skelton
 citation: 'Skelton, Matthew, and Manuel Pais. *Team Topologies: Organizing Business
   and Technology Teams for Fast Flow*. Portland, OR: IT Revolution Press, 2019.'
 sourceKind: book

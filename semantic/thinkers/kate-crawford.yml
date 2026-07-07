@@ -6,8 +6,10 @@ summary: Scholar of AI politics, Atlas of AI, and material supply chains behind 
 concepts: []
 patterns: []
 relatedBooks:
+- coupling
 - living-in-sediment
 works:
 - crawford-kate-atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial
+- gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum
 whyThisMatters: Crawford demystifies AI as extractive infrastructure—not disembodied
   interpretation engine.

@@ -1,5 +1,5 @@
 slug: bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and
-name: 'Bowker, Geoffrey C., and Susan Leigh Star — Sorting Things Out: Classification
+name: 'Geoffrey C. Bowker and Susan Leigh Star — Sorting Things Out: Classification
   and'
 type: book
 summary: 'Bowker, Geoffrey C., and Susan Leigh Star. *Sorting Things Out: Classification
@@ -10,9 +10,11 @@ relatedBooks:
 - living-in-sediment
 title: 'Sorting Things Out: Classification and'
 creatorNames:
-- Bowker, Geoffrey C., and Susan Leigh Star
+- Geoffrey C. Bowker
+- Susan Leigh Star
 creatorSlugs:
-- bowker-geoffrey-c-and-susan-leigh-star
+- geoffrey-c-bowker
+- susan-leigh-star
 citation: 'Bowker, Geoffrey C., and Susan Leigh Star. *Sorting Things Out: Classification
   and Its Consequences*. Cambridge, MA: MIT Press, 1999.'
 sourceKind: book

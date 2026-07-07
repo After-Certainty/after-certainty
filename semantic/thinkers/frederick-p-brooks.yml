@@ -1,0 +1,13 @@
+slug: frederick-p-brooks
+name: Frederick P. Brooks
+type: person
+summary: Software engineer of the mythical man-month, Brooks's Law, and essential
+  complexity in large projects.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering
+whyThisMatters: Brooks names why adding people can slow correction—coordination sediment
+  in serious systems delivery.

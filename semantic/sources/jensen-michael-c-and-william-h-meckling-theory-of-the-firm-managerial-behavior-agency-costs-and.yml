@@ -1,5 +1,5 @@
 slug: jensen-michael-c-and-william-h-meckling-theory-of-the-firm-managerial-behavior-agency-costs-and
-name: 'Jensen, Michael C., and William H. Meckling — Theory of the Firm: Managerial
+name: 'Michael C. Jensen and William H. Meckling — Theory of the Firm: Managerial
   Behavior, Agency Costs and Ownership Structure.'
 type: article
 summary: 'Jensen, Michael C., and William H. Meckling. "Theory of the Firm: Managerial
@@ -11,9 +11,11 @@ relatedBooks:
 - coupling
 title: 'Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure.'
 creatorNames:
-- Jensen, Michael C., and William H. Meckling
+- Michael C. Jensen
+- William H. Meckling
 creatorSlugs:
-- jensen-michael-c-and-william-h-meckling
+- michael-c-jensen
+- william-h-meckling
 citation: 'Jensen, Michael C., and William H. Meckling. "Theory of the Firm: Managerial
   Behavior, Agency Costs and Ownership Structure." *Journal of Financial Economics*
   3, no. 4 (1976): 305-360.'

@@ -1,6 +1,6 @@
 slug: perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai
-name: Perry, Neil, Megha Srivastava, Deepak Kumar, and Dan Boneh — Do Users Write
-  More Insecure Code with AI Assistants?
+name: Dan Boneh, Deepak Kumar, Megha Srivastava, and Neil Perry — Do Users Write More
+  Insecure Code with AI Assistants?
 type: article
 summary: Perry, Neil, Megha Srivastava, Deepak Kumar, and Dan Boneh. "Do Users Write
   More Insecure Code with AI Assistants?" *Proceedings of the 2023 ACM SIGSAC Conference
@@ -11,9 +11,15 @@ relatedBooks:
 - coupling
 title: Do Users Write More Insecure Code with AI Assistants?
 creatorNames:
-- Perry, Neil, Megha Srivastava, Deepak Kumar, and Dan Boneh
+- Dan Boneh
+- Deepak Kumar
+- Megha Srivastava
+- Neil Perry
 creatorSlugs:
-- perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh
+- dan-boneh
+- deepak-kumar
+- megha-srivastava
+- neil-perry
 citation: Perry, Neil, Megha Srivastava, Deepak Kumar, and Dan Boneh. "Do Users Write
   More Insecure Code with AI Assistants?" *Proceedings of the 2023 ACM SIGSAC Conference
   on Computer and Communications Security (CCS)*. https://doi.org/10.1145/3576915.3623157.
