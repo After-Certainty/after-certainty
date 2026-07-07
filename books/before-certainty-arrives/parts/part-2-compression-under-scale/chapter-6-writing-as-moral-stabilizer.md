@@ -12,12 +12,14 @@ Mediterranean world, South Asia, East Asia
 *(Scripture, canon, law, bureaucracy across empires)*
 
 In the third century BCE, orders from the Mauryan emperor Ashoka were
-cut into rock faces and polished pillars across a vast empire. The same
-phrases appeared in different provinces: restraint toward living beings,
-obedience to parents and elders, respect for teachers, mercy in judgment,
-duties owed to neighbors and officials. A traveler who could not read
-might still hear the text read aloud; a provincial officer who would
-never see the emperor could still enforce what the stone declared.[^c6-ashoka-edicts]
+cut into rock faces and polished pillars across a vast empire. Related
+formulations appeared across provinces, repeatedly naming restraint toward
+living beings, obedience to parents and elders, respect for teachers,
+mercy in judgment, and duties owed to neighbors and officials—though
+wording, script, and emphasis varied by location and audience. A traveler
+who could not read might still hear the text read aloud; a provincial
+officer who would never see the emperor could still enforce what the
+stone declared.[^c6-ashoka-edicts]
 
 The edicts made dharma visible as public obligation—not private insight
 alone, but conduct legible across distance. What had once depended on
@@ -29,7 +31,7 @@ authority of the inscribed word.
 The logic was not new. Centuries earlier, law codes such as Hammurabi's
 had fixed judgment in stone for crowds who would never meet the king who
 ordered them cut. What changed in Ashoka's empire was scale, repetition,
-and the reach of a moral vocabulary copied across regions that shared
+and the reach of a moral vocabulary inscribed across regions that shared
 neither kinship nor shrine.
 
 Earlier forms of certainty had relied on repetition, proximity, and shared
@@ -96,15 +98,17 @@ how to prevent endless fragmentation without returning entirely to oral
 authority.
 
 At Qumran and in related Jewish communities of the late Second Temple
-period, scribes copied and preserved texts with painstaking care—Torah,
-prophets, hymns, rules for community life—treating certain writings as
-authoritative in ways everyday speech could not replicate.[^c6-qumran-canon]
-Canon formation, wherever it occurred, answered a real problem: which
-words would be treated as binding across generations.
+period, scribes copied and preserved texts treated with differing forms
+of authority—Torah, prophets, hymns, rules for community life—alongside
+other writings whose status remained less settled.[^c6-qumran-canon]
+Careful copying made a text durable. It did not by itself mean that a
+single, closed canon had already been agreed upon. Communities could
+treat multiple writings as binding while still disputing which texts
+belonged at the center and which did not.
 
-By declaring certain texts authoritative and others excluded, moral
-systems drew firmer boundaries around meaning. Canon stabilized
-identity, doctrine, and interpretation across distance.
+Where formal canon did eventually take shape, it answered a practical
+problem: which words would be treated as authoritative across generations
+and which interpretations could claim inherited force.
 
 But canon also slowed revision.
 
@@ -171,5 +175,5 @@ The archives still stood.
 The roads between them did not.
 
 [^c6-ashoka-edicts]: See Romila Thapar, *Asoka and the Decline of the Mauryas*, 2nd ed. (Delhi: Oxford University Press, 1998); Richard Salomon, *Indian Epigraphy: A Guide to the Study of Inscriptions in Sanskrit, Prakrit, and the Other Indo-Aryan Languages* (New York: Oxford University Press, 1998).
-[^c6-qumran-canon]: See Bruce M. Metzger, *The Canon of the New Testament: Its Origin, Development, and Significance* (Oxford: Clarendon Press, 1987).
+[^c6-qumran-canon]: See Emanuel Tov, *Textual Criticism of the Hebrew Bible*, 3rd ed. (Minneapolis: Fortress Press, 2011); Eugene Ulrich, *The Dead Sea Scrolls and the Developmental Composition of the Bible* (Grand Rapids, MI: William B. Eerdmans, 2012); James C. VanderKam, *The Dead Sea Scrolls Today*, rev. ed. (Grand Rapids, MI: William B. Eerdmans, 2010).
 [^c6-tools-outliving]: See Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973); Thomas S. Kuhn, *The Structure of Scientific Revolutions* (Chicago: University of Chicago Press, 1962).

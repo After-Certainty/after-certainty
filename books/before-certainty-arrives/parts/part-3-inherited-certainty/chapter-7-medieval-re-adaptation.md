@@ -111,9 +111,9 @@ might have failed.
 The pattern did not end with the early medieval reassembly of order.
 
 After the Black Death decimated villages across England in the 1340s,
-material conditions changed sharply. Labor was scarce. Wages rose when
-markets were left alone. Survivors could sometimes bargain for better
-terms. Authorities responded not by embracing openness but by attempting
+material conditions changed sharply. Labor was scarce. Labor scarcity
+placed upward pressure on wages, especially where workers could bargain
+or move. Authorities responded not by embracing openness but by attempting
 to freeze the older wage and labor order in law.
 
 The **Statute of Labourers** (1351) declared that men and women under
@@ -121,10 +121,11 @@ sixty must work, that wages must not rise above pre-plague levels, and
 that leaving a manor without permission remained punishable.[^c7-statute-labourers]
 Catastrophe had altered the ground. The statute tried to hold the map.
 
-The Domesday survey had fixed obligation in writing when central rule
-needed a durable record. The Statute attempted the same moral economy
-six centuries later when plague had changed the facts on the ground but
-not the inherited claim about what labor owed.
+The Domesday survey had fixed landholding, resources, and obligation in
+writing when central rule needed a durable record. The Statute expressed
+a related administrative reflex: when obligation became unstable, record
+it, categorize it, and enforce the inherited claim—here over wages,
+mobility, and work rather than tenure and fiscal survey.
 
 The statute did not succeed everywhere or forever. Markets and mobility
 pressed against it. But the attempt reveals the recurring pattern: when

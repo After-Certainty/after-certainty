@@ -69,10 +69,11 @@ sequentially, but simultaneously. Moral imagination widened faster than
 coordination could follow.
 
 At Valladolid, both sides appealed to scripture, Aristotle, and law.
-Both operated inside inherited moral languages that assumed empire,
-hierarchy, and the legitimacy of Spanish rule. The fracture was not
-between morality and immorality in modern terms, but between categories
-under pressure they had not been built to bear.
+Both argued within Christian, Aristotelian, and imperial legal languages,
+though they reached sharply different conclusions about conquest, coercion,
+and Indigenous sovereignty. The fracture was not between morality and
+immorality in modern terms, but between inherited categories under
+pressure they had not been built to bear.
 
 ### **Fragmentation of Authority**
 

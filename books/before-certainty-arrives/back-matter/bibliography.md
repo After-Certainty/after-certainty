@@ -75,9 +75,6 @@
 - Lewis, Mark Edward. *Sanctioned Violence in Early China*. Albany: State
   University of New York Press, 1990.
 
-- Metzger, Bruce M. *The Canon of the New Testament: Its Origin,
-  Development, and Significance*. Oxford: Clarendon Press, 1987.
-
 - Nissen, Hans J., Peter Damerow, and Robert K. Englund. *Archaic
   Bookkeeping: Early Writing and Techniques of Economic Administration in
   the Ancient Near East*. Chicago: University of Chicago Press, 1993.
@@ -115,6 +112,12 @@
 - Thapar, Romila. *Asoka and the Decline of the Mauryas*. 2nd ed. Delhi:
   Oxford University Press, 1998.
 
+- Tov, Emanuel. *Textual Criticism of the Hebrew Bible*. 3rd ed.
+  Minneapolis: Fortress Press, 2011.
+
+- Ulrich, Eugene. *The Dead Sea Scrolls and the Developmental Composition
+  of the Bible*. Grand Rapids, MI: William B. Eerdmans, 2012.
+
 - Ussishkin, David. *The Renewed Archaeological Excavations at Lachish
   (1973–1994)*. Tel Aviv: Tel Aviv University, 2004.
 
@@ -125,6 +128,9 @@
 
 - U.S. White House. *The Federal Response to Hurricane Katrina: Lessons
   Learned*. Washington, DC: U.S. Government Printing Office, 2006.
+
+- VanderKam, James C. *The Dead Sea Scrolls Today*. Rev. ed. Grand
+  Rapids, MI: William B. Eerdmans, 2010.
 
 - Weber, Max. *Economy and Society: An Outline of Interpretive Sociology*.
   Edited by Guenther Roth and Claus Wittich. Berkeley: University of

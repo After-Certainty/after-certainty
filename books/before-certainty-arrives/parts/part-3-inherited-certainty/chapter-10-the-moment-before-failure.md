@@ -23,15 +23,13 @@ the map and the ground widens.
 On August 28, 2005, as Hurricane Katrina approached the Gulf Coast, federal
 and state agencies issued situation reports, scheduled conference calls,
 and updated organizational charts that still named who was responsible for
-what. Evacuation plans existed on file. Transport assumptions were
-entered into logs. Requests moved upward through jurisdictions that
-overlapped but had not yet failed in form.[^c10-katrina-response]
+what. Evacuation plans existed on file. Requests moved upward through
+jurisdictions that overlapped but had not yet failed in form.[^c10-katrina-response]
 
-Warnings had arrived from the field: levee vulnerability, shelter
-capacity, the need for buses, the fragility of systems built to handle
-smaller storms. That knowledge traveled through channels designed for
-emergencies. It did not always travel with the urgency the ground
-required.
+Warnings had identified vulnerabilities in levees, evacuation capacity,
+sheltering, communications, and transport. That knowledge traveled through
+channels designed for emergencies. It did not always travel with the
+urgency the ground required.
 
 The machinery was active. The fit had already thinned.
 
@@ -127,10 +125,7 @@ triplicate without reading the third copy.
 
 Nothing in those gestures required faith in the system.
 
-Only the habit of continuing while the fit thinned.
-
-The systems still ran.
-
-The fit had thinned.
+Habit continued to carry the week, even after explanation had begun to
+lose its hold.
 
 [^c10-katrina-response]: See U.S. House of Representatives, *A Failure of Initiative: Final Report of the Select Bipartisan Committee to Investigate the Preparation for and Response to Hurricane Katrina* (Washington, DC: U.S. Government Printing Office, 2006); U.S. White House, *The Federal Response to Hurricane Katrina: Lessons Learned* (Washington, DC: U.S. Government Printing Office, 2006).

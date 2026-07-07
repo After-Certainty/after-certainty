@@ -77,7 +77,9 @@ not philosophical positions. They were survival equipment.
 ### **Coordination Before Explanation**
 
 Explanation requires distance. It requires time, language, and cognitive
-surplus. Early moral systems could not rely on these luxuries.
+surplus. Early moral systems could not always depend on prolonged
+explanation or deliberation when material pressures demanded immediate
+coordination.
 
 Meaning was therefore embedded in practice. Rituals did not need to be
 explained in order to work. Taboos did not require justification to be
@@ -112,9 +114,9 @@ survival.
 
 From a modern perspective, this narrowing can look oppressive or rigid.
 But rigidity under constraint is not automatically a moral failure. It
-is often an adaptive response. Groups that tolerated too much variance
-sometimes fractured. Groups that enforced norms more consistently often
-held together longer.
+is often an adaptive response. Under some conditions of threat, tighter
+norm enforcement can improve cohesion, though the relationship varies
+substantially across groups and environments.
 
 Evolutionary and cultural anthropology support this reframing: norm
 repetition, moral rigidity, and deference to authority tend to increase
