@@ -79,8 +79,5 @@ the world changes.
 This book does not tell a story of ascent.
 It tells a story of recurrence.
 
-What comes next—how to live once those patterns are recognized—belongs
-to the book that follows.
-
 [^howread-structural-history]: See Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001); Fernand Braudel, *On History* (Chicago: University of Chicago Press, 1980).
 [^howread-adaptation]: See Joseph Henrich, *The Secret of Our Success* (Princeton, NJ: Princeton University Press, 2015).

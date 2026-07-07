@@ -114,15 +114,11 @@ survival.
 
 From a modern perspective, this narrowing can look oppressive or rigid.
 But rigidity under constraint is not automatically a moral failure. It
-is often an adaptive response. Under some conditions of threat, tighter
-norm enforcement can improve cohesion, though the relationship varies
-substantially across groups and environments.
-
-Evidence from evolutionary and cultural anthropology suggests that, in
-some conditions of threat, repeated norms and recognized authority can
-strengthen cohesion, though their effects vary across groups and
-environments. Early certainty was not a misunderstanding of moral
-complexity. It was a way of surviving it.
+is often an adaptive response. Evidence from evolutionary and cultural
+anthropology suggests that, under some conditions of threat, repeated
+norms and recognized authority can strengthen cohesion, though their
+effects vary across groups and environments. Early certainty was not a
+misunderstanding of moral complexity. It was a way of surviving it.
 
 ### **Why Early Certainty Was Necessary**
 

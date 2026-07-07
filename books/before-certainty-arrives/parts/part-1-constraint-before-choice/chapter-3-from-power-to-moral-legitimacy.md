@@ -101,10 +101,11 @@ moral anchors. Grain flowed through sacred storehouses. Priests tracked
 planting cycles, tribute obligations, and festival rhythms that kept
 large populations synchronized across seasons.
 
-On distribution days, households queued with marked jars while priests
-checked ledger marks against what the harvest had actually yielded.
-Disputes were settled by what the temple had recorded, not by what each
-party remembered—or preferred to remember.
+A distribution day might have gathered households carrying marked
+containers while temple personnel checked recorded portions against what
+the harvest had yielded. Disputes were settled by
+what the temple had recorded, not by what each party remembered—or
+preferred to remember.
 
 What began as coordination—who eats when, who owes what—gradually became
 moral order itself, experienced not merely as necessity but as goodness.[^c3-temple-economy]
@@ -112,8 +113,8 @@ moral order itself, experienced not merely as necessity but as goodness.[^c3-tem
 Families ate from what the storehouse released. Hunger remained close
 enough that shared ritual felt less like ornament than survival.
 
-The queue moved slowly: marked jars checked against ledger marks,
-children held close, priests calling names in an order everyone knew.
+The queue may have moved slowly: containers checked against records,
+households waiting to learn what the storehouse would release.
 
 We cannot know what a particular recipient thought while waiting. The
 surviving records emphasize measurement, timing, and recorded obligation

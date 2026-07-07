@@ -51,6 +51,10 @@ These patterns appear across civilizations when similar pressures
 produce similar adaptations—not when humans arrive at identical
 conclusions.
 
+Pressure narrows the field of action, but it does not choose on anyone's
+behalf; people still improvise, resist, misjudge, and create within the
+conditions they inherit.
+
 Collapse, scale, and fragmentation do not always produce the same
 institutions. A city under siege tightens differently than a trade port
 widens. A monastery copying scripture through winter preserves certainty
@@ -95,5 +99,3 @@ claim that lived meaning was ever only machinery.
 
 To see how certainty arrives, understand why it feels earned, and notice
 the moment just before it becomes difficult to question at all.
-
-The next book begins after that recognition arrives.

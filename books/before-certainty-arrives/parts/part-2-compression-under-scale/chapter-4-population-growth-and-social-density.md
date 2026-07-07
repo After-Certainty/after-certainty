@@ -32,8 +32,9 @@ the distance a sealed order had opened.
 
 ### **Population Growth and Social Density**
 
-Iron Age societies were larger, denser, and more interconnected than
-anything that came before. Cities grew. Social roles multiplied.
+In many regions, Iron Age societies became larger, denser, and more
+interconnected, while older forms of personal authority struggled to
+span the resulting distance. Cities grew. Social roles multiplied.
 Individuals increasingly interacted with strangers rather than kin.
 
 In small groups, behavior could be regulated through familiarity and
@@ -48,9 +49,10 @@ failure now carried larger consequences.
 
 ### **Warfare and the Acceleration of Authority**
 
-Iron Age warfare intensified both frequency and scope—armies larger,
-conflicts longer, victories and defeats reshaping entire regions rather
-than isolated communities. Under such pressure, societies narrowed what
+In expanding Iron Age states such as Assyria, warfare acquired greater
+administrative reach: large populations could be mobilized across
+territories, while conquest was recorded, taxed, represented, and
+governed from a distance. Under such pressure, societies narrowed what
 they would tolerate, elevated obedience, and treated dissent as risk and
 delay as weakness.
 
@@ -65,10 +67,11 @@ survives.
 War made obedience immediate because delay meant hunger inside the
 walls—not merely defeat in theory.
 
-What changed in the Iron Age was not the presence of war, but its scale.
-Authority had to mobilize large populations quickly and decisively.
-Moral systems that tolerated prolonged disagreement or local variation
-often struggled under those conditions.
+Authority and consequence increasingly occurred in different places.
+Reliefs, annals, couriers, tribute records, and provincial administration
+made conquest legible to rulers far from the wall. Moral systems that
+tolerated prolonged disagreement or local variation often struggled under
+those conditions.
 
 In many Iron Age cities, certainty tightened because hesitation could be
 read as weakness at the wall.
