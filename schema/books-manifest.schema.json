@@ -33,6 +33,28 @@
       "type": "string",
       "minLength": 1
     },
+    "readingOrders": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "core": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "trust": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        }
+      }
+    },
     "books": {
       "type": "array",
       "items": {
@@ -107,6 +129,20 @@
             "type": "string",
             "minLength": 1
           }
+        },
+        "readingOrder": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Position in the core series reading order from docs/series-guide.md"
+        },
+        "relatedSlugs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "description": "Related portfolio book slugs from cluster and reading-order peers"
         },
         "source": {
           "type": "string",

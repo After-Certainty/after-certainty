@@ -29,6 +29,16 @@ def test_generate_and_validate_books_manifest_cli(repo_root: Path, tmp_path: Pat
     data = json.loads(out.read_text(encoding="utf-8"))
     assert isinstance(data.get("books"), list)
     assert len(data["books"]) >= 1
+    assert "readingOrders" in data
+    assert "core" in data["readingOrders"]
+    assert len(data["readingOrders"]["core"]) == 8
+    core_member = next(
+        (b for b in data["books"] if b.get("slug") == "how-meaning-moves"),
+        None,
+    )
+    assert core_member is not None
+    assert core_member.get("readingOrder") == 2
+    assert isinstance(core_member.get("relatedSlugs"), list)
 
     val = subprocess.run(
         [

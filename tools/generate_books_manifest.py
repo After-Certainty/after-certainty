@@ -17,6 +17,7 @@ from book_specs import (
     load_upcoming_spec,
 )
 from manifest_books import build_book_entry, resolve_repo_slug
+from series_order import enrich_book_entries, parse_series_guide
 
 
 def main() -> None:
@@ -76,7 +77,10 @@ def main() -> None:
         )
 
     books.sort(key=lambda item: (item["slug"], item["source"]))
-    payload = {
+    reading_orders, related_by_slug = parse_series_guide(repo)
+    enrich_book_entries(books, reading_orders, related_by_slug)
+
+    payload: dict = {
         "manifestVersion": 1,
         "generatedAt": datetime.now(UTC).isoformat(),
         "repository": repo_slug or None,
@@ -84,6 +88,8 @@ def main() -> None:
         "releaseTag": args.release_tag,
         "books": books,
     }
+    if reading_orders:
+        payload["readingOrders"] = reading_orders
 
     out_path = Path(args.out).resolve()
     out_path.parent.mkdir(parents=True, exist_ok=True)
