@@ -23,10 +23,18 @@ generations, and stress, it needed protection.
 
 That protection came through sacralization.
 
-In Shang courts, bronze vessels inscribed with ancestral names held
-offerings at feasts where power and piety occupied the same ceremony.
-To break ritual was to break order—not as metaphor, but as lived social
-reality visible in rank, obligation, and consequence.
+In Shang courts, a scribe heated a tortoise shell or ox shoulder blade
+until it cracked. The king posed the question; the cracks answered. The
+result was inscribed on bone and stored in archive: which ancestor to
+honor, which campaign to launch, which harvest to fear. Oracle bones
+made authority legible in matter that outlasted any single
+ruler—decisions recorded in fire and fracture before they were argued
+in open court.[^c3-oracle-bones]
+
+Bronze vessels inscribed with ancestral names held offerings at feasts
+where power and piety occupied the same ceremony. To break ritual was to
+break order—not as metaphor, but as lived social reality visible in
+rank, obligation, and consequence.
 
 ### **From Power to Moral Legitimacy**
 
@@ -138,7 +146,19 @@ collapse. Certainty became one way of buying time against fracture.
 At this stage, certainty gains emotional armor. It is no longer only
 believed. It is defended.
 
-### **The Cost of Sacred Authority**
+### **The Mandate and Its Moral Cost**
+
+When the Zhou overthrew the Shang, they did not claim that heaven had
+ceased to care about order. They claimed that the last king had lost
+heaven's favor through cruelty and neglect. The **Mandate of Heaven**
+did two things at once: it protected authority by grounding it in cosmic
+moral law, and it created a language for replacing rulers who failed.
+Sacred legitimacy could condemn as well as bless.[^c3-mandate-heaven]
+
+That double function was not a modern invention of constitutional
+theory. It was a coordination technology. A dynasty that could explain
+defeat as moral failure preserved the framework even while changing the
+occupant of the throne.
 
 Sacralization stabilizes authority—but at a price.
 
@@ -168,10 +188,16 @@ temple, ritual through the calendar, obedience through the gods—what
 held the city together increasingly came to feel like the shape of the
 good itself.
 
-When sacred order was fixed in stone and calendar, empires could still
-fracture faster than priests could explain.
+The oracle bone in archive and the bronze on the altar said the same
+thing in different materials: this order was not merely useful. It was
+the world as it should be.
+
+When sacred order was fixed in bone, bronze, and calendar, empires could
+still fracture faster than priests could explain.
 
 Iron would test whether morality could travel farther than the hand that
 enforced it.
 
+[^c3-oracle-bones]: See David N. Keightley, *Sources of Shang History: The Oracle-Bone Inscriptions of Bronze Age China* (Berkeley: University of California Press, 1978).
 [^c3-temple-economy]: See Mary Douglas, *Purity and Danger* (London: Routledge, 1966); Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).
+[^c3-mandate-heaven]: See Robert Eno, *The Mandate of Heaven and the Origins of History in China* (Berkeley, CA: Society for the Study of Early China, 1989).

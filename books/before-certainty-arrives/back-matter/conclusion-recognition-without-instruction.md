@@ -2,9 +2,7 @@
 
 ## **Recognition Without Instruction**
 
-This book stops here on purpose.
-
-It does not end with failure, collapse, or rejection. It does not
+This book does not end with failure, collapse, or rejection. It does not
 declare certainty an illusion, a mistake, or a moral error. It does not
 urge liberation from authority, tradition, or inherited frameworks.
 
@@ -72,11 +70,11 @@ before certainty fails.
 There is a moment that follows recognition—patterns visible, tools still
 in place, nothing collapsed but nothing resolved.
 
-Picture an ordinary Tuesday: a clerk stamps a form, a parent signs a
-school permission slip, a neighbor waits on hold for a callback that may
-or may not come today. None of these acts requires full belief in the
-system. They require only that the machinery still recognize a name long
-enough for life to continue.
+Picture a clerk stamping a form, a parent signing a school permission
+slip, a neighbor waiting on hold for a callback that may or may not come
+today. None of these acts requires full belief in the system. They
+require only that the machinery still recognize a name long enough for
+life to continue.
 
 The neighbor on hold hears hold music, checks the clock, and wonders
 whether to start dinner before the call comes back. Nothing is resolved.
@@ -96,4 +94,6 @@ it.
 
 The restraint is the point.
 
-And the ordinary Tuesday is still underway.
+The machinery is still running.
+
+The fit has thinned.

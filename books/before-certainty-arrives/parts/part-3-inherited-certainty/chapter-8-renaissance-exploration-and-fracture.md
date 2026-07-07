@@ -19,13 +19,21 @@ frameworks could absorb. New lands, new peoples, new cosmologies, and
 new forms of knowledge appeared not at the margins, but increasingly at
 the center of European life.
 
-In Lisbon and Seville, ships returned with goods, peoples, and charts
-that inherited categories could not fully contain. The ledger could
-balance while the moral map could not.
-
 What changed was not collapse, but exposure.
 
 Certainty was no longer wrong so much as no longer alone.
+
+In 1550 and 1551, at Valladolid in Spain, Bartolomé de las Casas and
+Juan Ginés de Sepúlveda argued before a panel of theologians and
+jurists whether the indigenous peoples of the Americas were fully human
+in the sense Christian natural law required, whether conquest and
+enslavement could be justified, and which inherited categories still
+applied across an ocean Sepúlveda had never crossed.[^c8-valladolid-debate]
+
+The debate did not end violence. It did not produce a clean triumph of
+conscience over empire. It made visible something more unsettling:
+inherited moral order meeting peoples and places its categories had not
+anticipated—and tightening even as it argued.
 
 When Gutenberg's press multiplied identical texts across cities within
 years rather than generations, disagreement could spread as quickly as
@@ -66,6 +74,12 @@ sequentially, but simultaneously. Moral imagination widened faster than
 coordination could follow. Competing explanations addressed different
 parts of reality using standards that did not fully reconcile.
 
+At Valladolid, both sides appealed to scripture, Aristotle, and law.
+Both assumed a moral universe in which some peoples could be ruled by
+others. The fracture was not between morality and immorality in modern
+terms, but between inherited categories under pressure they had not been
+built to bear.
+
 ### **Fragmentation of Authority**
 
 In print shops where ink dried on fresh pages, religious authority
@@ -105,4 +119,15 @@ cities, trade rewired obligation faster than doctrine could follow.
 
 Certainty was defended increasingly as order—not merely as truth.
 
-[^c8-printing-press]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).
+Collapse destabilizes certainty by destroying the world that sustained
+it. Expansion destabilizes certainty by placing it beside alternatives it
+can no longer ignore.
+
+The Valladolid hearings ended without a single lasting decree that
+settled the argument for empire. What remained was exposure itself:
+inherited moral language still functioning, still authoritative in the
+room, already strained by a world larger than the room had been built to
+govern.
+
+[^c8-valladolid-debate]: See Lewis Hanke, *All Mankind Is One: A Study of the Disputation between Bartolomé de las Casas and Juan Ginés de Sepúlveda in 1550 on the Intellectual and Religious Capacity of the American Indians* (DeKalb: Northern Illinois University Press, 1974); Anthony Pagden, *The Fall of Natural Man: The American Indian and the Origins of Comparative Ethnology* (Cambridge: Cambridge University Press, 1982).
+[^c8-printing-press]: See Elizabeth L. Eisenstein, *The Printing Press as an Agent of Change* (Cambridge: Cambridge University Press, 1979).

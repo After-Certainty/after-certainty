@@ -18,8 +18,26 @@ in the fit began to loosen.
 
 Nothing had failed yet.
 
-In airports and filing queues, the machinery still turned on schedule:
-forms cleared, gates called, obligations met.
+In the days after Hurricane Katrina made landfall on August 29, 2005,
+FEMA situation reports and interagency conference calls continued. Status
+lines were updated. Organizational charts still named who was responsible
+for what. Press briefings were scheduled. Forms still moved through
+channels designed for emergencies that arrived on paper before they
+arrived in bodies.[^c10-katrina-response]
+
+Meanwhile in New Orleans and along the Gulf Coast, people waited on
+roofs, in shelters, and in lines for buses that did not come on the
+schedule the charts implied. Local officials could see levees failing and
+water rising. That knowledge did not always translate into the same
+urgency upstream. The machinery was active. The fit had already thinned.
+
+This is not a story of simple negligence. It is a story of distributed
+judgment under strain: jurisdictions overlapping, procedures continuing,
+expertise still carrying formal authority, while explanation,
+responsibility, and lived consequence no longer aligned cleanly.
+
+In airports and filing queues elsewhere that week, the machinery still
+turned on schedule: forms cleared, gates called, obligations met.
 
 Compliance felt like relief and dependency at once—structure holding
 lives together even as identification faded. A traveler who cleared
@@ -96,13 +114,18 @@ wait.
 
 Downstream, the week still depended on whether a stamp arrived on time.
 
+The House Select Bipartisan Committee later titled its report *A Failure
+of Initiative*—not because no one was working, but because initiative
+had been dispersed across procedures that continued even when the map no
+longer matched the ground.
+
 ### **Visible Strain Without Open Failure**
 
 Postwar planning offices, actuarial tables, and technocratic committees
 had promised that complexity could be managed through expertise. The
 promise still shaped budgets, credentials, and the language of public
 response even after the conditions being managed had outgrown the
-offices that first made centralized certainty feel indispensable.[^c10-technocracy]
+offices that first made centralized certainty feel indispensable.
 
 In one such office, binders stacked on binders while a junior analyst
 updated a chart no elected official would ever read in full.
@@ -116,10 +139,6 @@ Institutions had become overextended. Moral credibility eroded faster
 than authority itself—not collapse, but saturation; not dysfunction, but
 thinning fit.
 
-This book stops here on purpose: at the edge of recognition, before
-certainty is rejected and before understanding gives way to something
-else.
-
 Outside, the week still ran on appointments: a child late for school
 because a bus pass had to be revalidated, a neighbor signing a form in
 triplicate without reading the third copy.
@@ -132,4 +151,4 @@ The systems still ran.
 
 The fit had thinned.
 
-[^c10-technocracy]: See Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001); Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).
+[^c10-katrina-response]: See U.S. House of Representatives, *A Failure of Initiative: Final Report of the Select Bipartisan Committee to Investigate the Preparation for and Response to Hurricane Katrina* (Washington, DC: U.S. Government Printing Office, 2006); U.S. White House, *The Federal Response to Hurricane Katrina: Lessons Learned* (Washington, DC: U.S. Government Printing Office, 2006).

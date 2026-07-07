@@ -6,14 +6,9 @@
 c. 500–1400 CE
 
 **Geographic Scope:**
-Post-Roman Europe
+Post-Roman Europe (with regional variation)
 
 Collapse does not create openness. It creates urgency.
-
-Roman milestones rotted in weeds. Smoke rose from villages that no
-longer answered to a distant capital. A farmer who had paid tribute all
-his life might learn that the wall at the end of the lane mattered more
-than the edict no collector would come to read.
 
 When Roman authority fragmented in Western Europe, what followed was not
 moral experimentation or pluralism. It was uncertainty at scale. Roads
@@ -65,13 +60,21 @@ weakened. It privileged precedent over reinterpretation, continuity over
 revision. What had been done before became the strongest available
 justification for what should be done again.
 
-After the Black Death decimated villages across Europe, land tenure and
-labor obligation were renegotiated under pressure—but often through
-appeal to custom rather than open invention. Catastrophe did not produce
-moral experimentation. It produced tighter claims on what still held.[^c7-post-plague-tenure]
+After the Black Death decimated villages across England in the 1340s,
+material conditions changed sharply. Labor was scarce. Wages rose when
+markets were left alone. Survivors could sometimes bargain for better
+terms. Authorities responded not by embracing openness but by attempting
+to freeze the old order in law.
+
+The **Statute of Labourers** (1351) declared that men and women under
+sixty must work, that wages must not rise above pre-plague levels, and
+that leaving a manor without permission remained punishable.[^c7-statute-labourers]
+Catastrophe had altered the ground. The statute tried to hold the map.
 
 Villagers who survived watched neighbors buried and fields go untilled.
-Urgency arrived as hunger, not as philosophical openness.
+Urgency arrived as hunger, not as philosophical openness. A craftsman who
+might have commanded higher pay in open market found the old obligation
+reasserted in parchment and penalty.
 
 The Church offered moral universality where political unity no longer
 existed. Sacred authority did not merely sanctify belief; it anchored
@@ -116,6 +119,12 @@ more heavily on shared belief because shared infrastructure had thinned.
 
 Under those conditions, certainty became protective.
 
+The Statute of Labourers did not succeed everywhere or forever. Markets
+and mobility pressed against it. But the attempt itself reveals the
+pattern: when inherited obligation loosened under new conditions,
+authorities often reached first for older certainty rather than new
+negotiation.
+
 ### **Re-Adaptation, Not Regression**
 
 Calling the medieval period a "Dark Age" imposes the wrong standard. It
@@ -147,4 +156,4 @@ recognize without debate.
 
 It held.
 
-[^c7-post-plague-tenure]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).
+[^c7-statute-labourers]: See *Statutes of the Realm*, vol. 1 (London: Record Commission, 1810); John Hatcher, *Plague, Population and the English Economy, 1348–1530* (London: Macmillan, 1977).

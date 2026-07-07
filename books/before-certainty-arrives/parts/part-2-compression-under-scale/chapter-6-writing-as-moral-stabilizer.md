@@ -19,6 +19,12 @@ king who ordered it cut.
 What had once been judgment in a room became judgment fixed in matter,
 visible to strangers who would never meet the authority it represented.[^c6-hammurabi-stele]
 
+People gathered in the stele's shade while a reader sounded out the
+cases. Some listened for principle. Most watched to learn whether the
+dispute they had brought would end today. When the code answered, both
+parties walked away knowing what would follow—not necessarily satisfied,
+but less exposed to arbitrary force.
+
 Permanence became the answer when presence could no longer hold—and when
 even portable ethics could no longer travel on voice alone.
 
@@ -57,6 +63,10 @@ meet their authors.
 Writing did not invent certainty.
 
 It preserved it.
+
+The Hammurabi stele returned the chapter's opening question in a harder
+form: if law could outlive the king, what happened when the world that
+produced the law had changed but the stone had not?
 
 ### **Law and the Compression of Judgment**
 
@@ -153,6 +163,6 @@ The archives still stood.
 
 The roads between them did not.
 
-[^c6-hammurabi-stele]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).
+[^c6-hammurabi-stele]: See Martha T. Roth, ed., *Law Collections from Mesopotamia and Asia Minor*, 2nd ed. (Atlanta: Scholars Press, 1997).
 [^c6-monastic-copying]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).
 [^c6-tools-outliving]: See Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973); Thomas S. Kuhn, *The Structure of Scientific Revolutions* (Chicago: University of Chicago Press, 1962).

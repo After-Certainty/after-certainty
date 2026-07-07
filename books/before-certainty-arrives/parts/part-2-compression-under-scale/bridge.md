@@ -2,29 +2,22 @@
 
 ## **Compression Under Scale**
 
-Scale changed the moral problem before it changed the moral vocabulary.
+Scale changes what moral life must do.
 
-Distance widened between decision and consequence. A governor in distant
-Syria could sign an order months before a village learned what that
-signature had cost them. Strangers traded under weights neither party
-fully trusted. Siege walls counted households while smiths postponed
-quarrels because the gate mattered more than the grievance.
+The next three chapters follow that pressure across the Iron Age and
+classical world: Assyrian reliefs at Lachish making distant conquest
+visible in stone; exiles and teachers carrying law and ritual where
+shrines no longer held; Hammurabi's stele fixing judgment in matter that
+outlasted the king who ordered it cut.
 
-As older tools of proximity and repetition weakened, societies did not
-abandon certainty. They asked inherited certainty to coordinate
-strangers, justify abstraction, and anchor authority where presence
-could no longer follow.
+Each case is different. The question rhymes: how does certainty travel
+when presence cannot follow—across provinces, across diaspora, across
+generations?
 
-Part II follows that compression under pressure: population density and
-warfare, shared conditions producing structurally similar traditions
-across distant cultures, and finally writing—the stele, the scroll, the
-archive—designed to hold meaning steady when people could no longer
-remain present to one another.
+Part II follows compression under density, shared structural conditions,
+and writing as stabilizer. What once coordinated a room becomes what
+coordinates an empire.
 
-Permanence solved one problem and quietly introduced another. Tools
-built to preserve coordination gradually began to outlive the conditions
-that first made them necessary.
+When the roads fail, the archives still stand.
 
-The archives still stood.
-
-The roads between them did not.
+The roads between them do not.
