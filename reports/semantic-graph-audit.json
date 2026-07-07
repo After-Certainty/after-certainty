@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-07-07T03:36:57.719363+00:00",
+  "generatedAt": "2026-07-07T03:41:46.200969+00:00",
   "repoContext": {
     "detectedRepoType": "source",
     "inputFiles": [
-      "docs/portfolio-audit/data/semantic-manifest.json",
-      "docs/portfolio-audit/data/books-manifest.json"
+      "build/semantic-manifest.json",
+      "build/books-manifest.json"
     ]
   },
   "summary": {
-    "errors": 8,
-    "warnings": 147,
-    "info": 291,
+    "errors": 0,
+    "warnings": 140,
+    "info": 317,
     "entitiesScanned": {
       "books": 28,
       "concepts": 137,
       "patterns": 30,
       "thinkers": 339,
-      "sources": 411,
-      "relationships": 27
+      "sources": 408,
+      "relationships": 110
     }
   },
   "issues": [
@@ -385,17 +385,6 @@
       "suggestedFix": "Use a short author display name."
     },
     {
-      "severity": "error",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "berwick-donald-m-era-3-for-medicine-and-health-care",
-      "entityTitle": "Era 3 for Medicine and Health Care.",
-      "field": "year",
-      "currentValue": 1330,
-      "reason": "Publication year appears to have been parsed from a page range.",
-      "suggestedFix": "Set year to 2016 based on citation."
-    },
-    {
       "severity": "warning",
       "category": "source-metadata",
       "entityType": "source",
@@ -416,17 +405,6 @@
       "currentValue": "Centers for Medicare & Medicaid Services",
       "reason": "Institution field duplicates a creator name (person misfiled as org).",
       "suggestedFix": "Clear institution or use the actual publishing organization."
-    },
-    {
-      "severity": "error",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus",
-      "entityTitle": "A Focus",
-      "field": "year",
-      "currentValue": 1026,
-      "reason": "Publication year appears to have been parsed from a page range.",
-      "suggestedFix": "Set year to 1990 based on citation."
     },
     {
       "severity": "warning",
@@ -471,17 +449,6 @@
       "currentValue": "Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Ha...",
       "reason": "Creator name appears to be a full citation string.",
       "suggestedFix": "Use a short author display name."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "hamilton-alexander-james-madison-and-john-jay-the-federalist-papers",
-      "entityTitle": "The Federalist Papers",
-      "field": "institution",
-      "currentValue": "Hamilton, Alexander, James Madison, and John Jay",
-      "reason": "Institution field duplicates a creator name (person misfiled as org).",
-      "suggestedFix": "Clear institution or use the actual publishing organization."
     },
     {
       "severity": "warning",
@@ -553,17 +520,6 @@
       "severity": "warning",
       "category": "source-metadata",
       "entityType": "source",
-      "entityId": "madison-james-alexander-hamilton-and-john-jay-the-federalist-papers",
-      "entityTitle": "The Federalist Papers",
-      "field": "institution",
-      "currentValue": "Madison, James, Alexander Hamilton, and John Jay",
-      "reason": "Institution field duplicates a creator name (person misfiled as org).",
-      "suggestedFix": "Clear institution or use the actual publishing organization."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
       "entityId": "maslach-christina-and-michael-p-leiter-the-truth-about-burnout",
       "entityTitle": "The Truth About Burnout:",
       "field": "title",
@@ -597,45 +553,12 @@
       "severity": "warning",
       "category": "source-metadata",
       "entityType": "source",
-      "entityId": "morrison-elizabeth-w-employee-voice-behavior",
-      "entityTitle": "Employee Voice Behavior.",
-      "field": "institution",
-      "currentValue": "Elizabeth W Morrison",
-      "reason": "Institution field duplicates a creator name (person misfiled as org).",
-      "suggestedFix": "Clear institution or use the actual publishing organization."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
       "entityId": "national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate",
       "entityTitle": "Aviation Safety Reporting System (ASRS) program materials.",
       "field": "institution",
       "currentValue": "National Aeronautics and Space Administration",
       "reason": "Institution field duplicates a creator name (person misfiled as org).",
       "suggestedFix": "Clear institution or use the actual publishing organization."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "ross-lee-and-richard-e-nisbett-the-person-and-the-situation",
-      "entityTitle": "The Person and the Situation:",
-      "field": "title",
-      "currentValue": "The Person and the Situation:",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "ross-lee-and-richard-e-nisbett-the-person-and-the-situation",
-      "entityTitle": "The Person and the Situation:",
-      "field": "name",
-      "currentValue": "Ross, Lee, and Richard E. Nisbett \u2014 The Person and the Situation:",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
     },
     {
       "severity": "warning",
@@ -658,17 +581,6 @@
       "currentValue": "Lee Ross \u2014 The Intuitive Psychologist and His Shortcomings:",
       "reason": "Title or name ends with dangling punctuation.",
       "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "error",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes",
-      "entityTitle": "Gorillas in Our Midst: Sustained Inattentional Blindness for Dynamic Events.",
-      "field": "year",
-      "currentValue": 1074,
-      "reason": "Publication year appears to have been parsed from a page range.",
-      "suggestedFix": "Set year to 1999 based on citation."
     },
     {
       "severity": "warning",
@@ -757,17 +669,6 @@
       "currentValue": "book",
       "reason": "Institutional statistics or report classified like a book.",
       "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "error",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing",
-      "entityTitle": "Airbnb and the Rent Gap: Gentrification Through the Sharing Economy.",
-      "field": "year",
-      "currentValue": 1170,
-      "reason": "Publication year appears to have been parsed from a page range.",
-      "suggestedFix": "Set year to 2018 based on citation."
     },
     {
       "severity": "warning",
@@ -900,17 +801,6 @@
       "currentValue": "organization",
       "reason": "Person-like name classified as organization.",
       "suggestedFix": "Set type to person."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "v-clav-havel",
-      "entityTitle": "V\u00e1clav Havel",
-      "field": "slug",
-      "currentValue": "v-clav-havel",
-      "reason": "Slug appears damaged by diacritic stripping.",
-      "suggestedFix": "Consider renaming slug to 'vaclav-havel' with a redirect strategy."
     },
     {
       "severity": "warning",
@@ -3427,17 +3317,6 @@
       "entityId": "attention-finds-a-focus",
       "entityTitle": "Attention Finds a Focus",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'examples-accumulate'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "attention-finds-a-focus",
-      "entityTitle": "Attention Finds a Focus",
-      "field": "relatedPatterns",
       "currentValue": "leadership-coalesces",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'leadership-coalesces'."
@@ -3446,12 +3325,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "attention-finds-a-signal",
-      "entityTitle": "Attention Finds a Signal",
+      "entityId": "attention-finds-a-focus",
+      "entityTitle": "Attention Finds a Focus",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
+      "currentValue": "examples-accumulate",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-forms-early'."
+      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -3463,6 +3342,17 @@
       "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-outruns-the-words'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "attention-finds-a-signal",
+      "entityTitle": "Attention Finds a Signal",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-forms-early",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-forms-early'."
     },
     {
       "severity": "info",
@@ -3625,9 +3515,9 @@
       "entityId": "exceptions-are-forever",
       "entityTitle": "Exceptions are Forever",
       "field": "relatedPatterns",
-      "currentValue": "disagreement-is-suppressed",
+      "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'disagreement-is-suppressed'."
+      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -3636,9 +3526,9 @@
       "entityId": "exceptions-are-forever",
       "entityTitle": "Exceptions are Forever",
       "field": "relatedPatterns",
-      "currentValue": "learning-collapses",
+      "currentValue": "disagreement-is-suppressed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'disagreement-is-suppressed'."
     },
     {
       "severity": "info",
@@ -3735,17 +3625,6 @@
       "entityId": "intent-gets-assigned",
       "entityTitle": "Intent Gets Assigned",
       "field": "relatedPatterns",
-      "currentValue": "gaps-invite-completion",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'intent-gets-assigned' to relatedPatterns on 'gaps-invite-completion'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "intent-gets-assigned",
-      "entityTitle": "Intent Gets Assigned",
-      "field": "relatedPatterns",
       "currentValue": "meaning-gets-distorted",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'intent-gets-assigned' to relatedPatterns on 'meaning-gets-distorted'."
@@ -3754,12 +3633,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "leaders-feel-the-consequences",
-      "entityTitle": "Leaders Feel the Consequences",
+      "entityId": "intent-gets-assigned",
+      "entityTitle": "Intent Gets Assigned",
       "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
+      "currentValue": "gaps-invite-completion",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leaders-feel-the-consequences' to relatedPatterns on 'dissent-is-welcomed'."
+      "suggestedFix": "Consider adding 'intent-gets-assigned' to relatedPatterns on 'gaps-invite-completion'."
     },
     {
       "severity": "info",
@@ -3776,12 +3655,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "leadership-coalesces",
-      "entityTitle": "Leadership Coalesces",
+      "entityId": "leaders-feel-the-consequences",
+      "entityTitle": "Leaders Feel the Consequences",
       "field": "relatedPatterns",
-      "currentValue": "disagreement-is-suppressed",
+      "currentValue": "dissent-is-welcomed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'disagreement-is-suppressed'."
+      "suggestedFix": "Consider adding 'leaders-feel-the-consequences' to relatedPatterns on 'dissent-is-welcomed'."
     },
     {
       "severity": "info",
@@ -3798,12 +3677,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "leadership-reproduces-itself",
-      "entityTitle": "Leadership Reproduces Itself",
+      "entityId": "leadership-coalesces",
+      "entityTitle": "Leadership Coalesces",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "disagreement-is-suppressed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'disagreement-is-suppressed'."
     },
     {
       "severity": "info",
@@ -3815,6 +3694,17 @@
       "currentValue": "leadership-coalesces",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'leadership-coalesces'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "leadership-reproduces-itself",
+      "entityTitle": "Leadership Reproduces Itself",
+      "field": "relatedPatterns",
+      "currentValue": "examples-accumulate",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -3889,17 +3779,6 @@
       "entityId": "meaning-gets-distorted",
       "entityTitle": "Meaning Gets Distorted",
       "field": "relatedPatterns",
-      "currentValue": "intent-gets-assigned",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'intent-gets-assigned'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "meaning-gets-distorted",
-      "entityTitle": "Meaning Gets Distorted",
-      "field": "relatedPatterns",
       "currentValue": "meaning-reinforces-itself",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'meaning-reinforces-itself'."
@@ -3908,12 +3787,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-outruns-the-words",
-      "entityTitle": "Meaning Outruns the Words",
+      "entityId": "meaning-gets-distorted",
+      "entityTitle": "Meaning Gets Distorted",
       "field": "relatedPatterns",
-      "currentValue": "gaps-invite-completion",
+      "currentValue": "intent-gets-assigned",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-outruns-the-words' to relatedPatterns on 'gaps-invite-completion'."
+      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'intent-gets-assigned'."
     },
     {
       "severity": "info",
@@ -3930,12 +3809,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-reinforces-itself",
-      "entityTitle": "Meaning Reinforces Itself",
+      "entityId": "meaning-outruns-the-words",
+      "entityTitle": "Meaning Outruns the Words",
       "field": "relatedPatterns",
-      "currentValue": "meaning-shifts-under-pressure",
+      "currentValue": "gaps-invite-completion",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-shifts-under-pressure'."
+      "suggestedFix": "Consider adding 'meaning-outruns-the-words' to relatedPatterns on 'gaps-invite-completion'."
     },
     {
       "severity": "info",
@@ -3947,6 +3826,17 @@
       "currentValue": "meaning-gets-distorted",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-gets-distorted'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "meaning-reinforces-itself",
+      "entityTitle": "Meaning Reinforces Itself",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-shifts-under-pressure",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-shifts-under-pressure'."
     },
     {
       "severity": "info",
@@ -3977,9 +3867,9 @@
       "entityId": "responsibility-persists-beyond-control",
       "entityTitle": "Responsibility Persists Beyond Control",
       "field": "relatedPatterns",
-      "currentValue": "explanation-replaces-response",
+      "currentValue": "attention-restores-contact",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'responsibility-persists-beyond-control' to relatedPatterns on 'explanation-replaces-response'."
+      "suggestedFix": "Consider adding 'responsibility-persists-beyond-control' to relatedPatterns on 'attention-restores-contact'."
     },
     {
       "severity": "info",
@@ -3988,9 +3878,9 @@
       "entityId": "responsibility-persists-beyond-control",
       "entityTitle": "Responsibility Persists Beyond Control",
       "field": "relatedPatterns",
-      "currentValue": "attention-restores-contact",
+      "currentValue": "explanation-replaces-response",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'responsibility-persists-beyond-control' to relatedPatterns on 'attention-restores-contact'."
+      "suggestedFix": "Consider adding 'responsibility-persists-beyond-control' to relatedPatterns on 'explanation-replaces-response'."
     },
     {
       "severity": "info",
@@ -4043,9 +3933,9 @@
       "entityId": "speech-escalates-faster-than-meaning",
       "entityTitle": "Speech Escalates Faster Than Meaning",
       "field": "relatedPatterns",
-      "currentValue": "finality-compensates-for-uncertainty",
+      "currentValue": "explanation-replaces-response",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'finality-compensates-for-uncertainty'."
+      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'explanation-replaces-response'."
     },
     {
       "severity": "info",
@@ -4054,9 +3944,9 @@
       "entityId": "speech-escalates-faster-than-meaning",
       "entityTitle": "Speech Escalates Faster Than Meaning",
       "field": "relatedPatterns",
-      "currentValue": "explanation-replaces-response",
+      "currentValue": "finality-compensates-for-uncertainty",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'explanation-replaces-response'."
+      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'finality-compensates-for-uncertainty'."
     },
     {
       "severity": "warning",
@@ -4090,7 +3980,7 @@
       "entityId": "coupling",
       "entityTitle": "Coupling",
       "field": "concepts",
-      "currentValue": 34,
+      "currentValue": 40,
       "reason": "Book has unusually many concepts compared to peers.",
       "suggestedFix": null
     },
@@ -4170,6 +4060,34 @@
       "currentValue": [],
       "reason": "Published book has no sources while peers typically do.",
       "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "manifest-consistency",
+      "entityType": "manifest",
+      "entityId": "semantic",
+      "entityTitle": "semantic",
+      "field": "generatedAt",
+      "currentValue": {
+        "build": "2026-07-07T03:41:35.974132+00:00",
+        "snapshot": "2026-07-05T21:49:00.134567+00:00"
+      },
+      "reason": "Portfolio audit snapshot appears older than build manifest.",
+      "suggestedFix": "Regenerate docs/portfolio-audit/data/* per docs/portfolio-audit/data/README.md."
+    },
+    {
+      "severity": "info",
+      "category": "manifest-consistency",
+      "entityType": "manifest",
+      "entityId": "books",
+      "entityTitle": "books",
+      "field": "generatedAt",
+      "currentValue": {
+        "build": "2026-07-07T03:41:40.626151+00:00",
+        "snapshot": "2026-07-05T21:54:21.267730+00:00"
+      },
+      "reason": "Portfolio audit snapshot appears older than build manifest.",
+      "suggestedFix": "Regenerate docs/portfolio-audit/data/* per docs/portfolio-audit/data/README.md."
     },
     {
       "severity": "warning",
@@ -4779,11 +4697,275 @@
     {
       "severity": "info",
       "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "responsibility->accountability",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge accountability contrasts responsibility."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "responsibility->answerability",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge answerability contrasts responsibility."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "certainty->judgment",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge judgment contrasts certainty."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "adaptation->drift",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge drift contrasts adaptation."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "agency->responsibility",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge responsibility contrasts agency."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "agency->judgment",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge judgment contrasts agency."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "alignment->legitimacy",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge legitimacy contrasts alignment."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "answerability->accountability",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge accountability contrasts answerability."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "attention->bias",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge bias contrasts attention."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "care->attention",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge attention contrasts care."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "corrigibility->revisability",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge revisability contrasts corrigibility."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "erosion->decay",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge decay contrasts erosion."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "friction->contestability",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge contestability contrasts friction."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "judgment->optimization",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge optimization contrasts judgment."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "mediation->distance",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge distance contrasts mediation."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "permission->authority",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge authority contrasts permission."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "proximity->connection",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge connection contrasts proximity."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "repair->accountability",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge accountability contrasts repair."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "reversibility->revisability",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge revisability contrasts reversibility."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "revisability->judgment",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge judgment contrasts revisability."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "throughput->acceleration",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge acceleration contrasts throughput."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "trust->certainty",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge certainty contrasts trust."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "witness->correction",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge correction contrasts witness."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
+      "entityType": "relationship",
+      "entityId": "witness->accountability",
+      "entityTitle": "contrasts",
+      "field": "direction",
+      "currentValue": "one-way",
+      "reason": "Symmetric relationship label used in only one direction.",
+      "suggestedFix": "Consider adding reverse edge accountability contrasts witness."
+    },
+    {
+      "severity": "info",
+      "category": "relationship-quality",
       "entityType": "concept",
       "entityId": "correction",
       "entityTitle": "correction",
       "field": "degree",
-      "currentValue": 18,
+      "currentValue": 24,
       "reason": "Entity has extremely high relationship density compared to peers.",
       "suggestedFix": null
     },
@@ -4874,73 +5056,6 @@
       "currentValue": "l-on-krier",
       "reason": "Slug may be stale after title change (diacritic damage).",
       "suggestedFix": "Use transliterated slug 'leon-krier'."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "v-clav-havel",
-      "entityTitle": "V\u00e1clav Havel",
-      "field": "slug",
-      "currentValue": "v-clav-havel",
-      "reason": "Slug may be stale after title change (diacritic damage).",
-      "suggestedFix": "Use transliterated slug 'vaclav-havel'."
-    },
-    {
-      "severity": "error",
-      "category": "slug-quality",
-      "entityType": "source",
-      "entityId": "brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio",
-      "entityTitle": "the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion",
-      "field": "slug",
-      "currentValue": [
-        "brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio",
-        "wiedeman-reeves-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion"
-      ],
-      "reason": "Slug collision after Unicode transliteration normalization.",
-      "suggestedFix": "Differentiate slugs or merge duplicate entities."
-    },
-    {
-      "severity": "error",
-      "category": "slug-quality",
-      "entityType": "source",
-      "entityId": "hamilton-alexander-james-madison-and-john-jay-the-federalist-papers",
-      "entityTitle": "the-federalist-papers",
-      "field": "slug",
-      "currentValue": [
-        "hamilton-alexander-james-madison-and-john-jay-the-federalist-papers",
-        "madison-james-alexander-hamilton-and-john-jay-the-federalist-papers"
-      ],
-      "reason": "Slug collision after Unicode transliteration normalization.",
-      "suggestedFix": "Differentiate slugs or merge duplicate entities."
-    },
-    {
-      "severity": "error",
-      "category": "slug-quality",
-      "entityType": "source",
-      "entityId": "ross-lee-and-richard-e-nisbett-the-person-and-the-situation",
-      "entityTitle": "the-person-and-the-situation",
-      "field": "slug",
-      "currentValue": [
-        "ross-lee-and-richard-e-nisbett-the-person-and-the-situation",
-        "ross-lee-and-richard-nisbett-the-person-and-the-situation"
-      ],
-      "reason": "Slug collision after Unicode transliteration normalization.",
-      "suggestedFix": "Differentiate slugs or merge duplicate entities."
-    },
-    {
-      "severity": "error",
-      "category": "slug-quality",
-      "entityType": "source",
-      "entityId": "tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction",
-      "entityTitle": "superforecasting-the-art-and-science-of-prediction",
-      "field": "slug",
-      "currentValue": [
-        "tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction",
-        "tetlock-philip-e-superforecasting-the-art-and-science-of-prediction"
-      ],
-      "reason": "Slug collision after Unicode transliteration normalization.",
-      "suggestedFix": "Differentiate slugs or merge duplicate entities."
     }
   ],
   "relationshipVocabulary": [
@@ -4948,7 +5063,7 @@
       "label": "contrasts",
       "sourceType": "concept",
       "targetType": "concept",
-      "count": 44,
+      "count": 80,
       "examples": [
         {
           "source": "repair",
@@ -4961,6 +5076,26 @@
         {
           "source": "constraint",
           "target": "constraints"
+        }
+      ]
+    },
+    {
+      "label": "preserves",
+      "sourceType": "concept",
+      "targetType": "concept",
+      "count": 28,
+      "examples": [
+        {
+          "source": "friction",
+          "target": "corrigibility"
+        },
+        {
+          "source": "uncertainty",
+          "target": "correction"
+        },
+        {
+          "source": "cohesion",
+          "target": "accountability"
         }
       ]
     },
@@ -4985,30 +5120,10 @@
       ]
     },
     {
-      "label": "preserves",
-      "sourceType": "concept",
-      "targetType": "concept",
-      "count": 16,
-      "examples": [
-        {
-          "source": "friction",
-          "target": "corrigibility"
-        },
-        {
-          "source": "uncertainty",
-          "target": "correction"
-        },
-        {
-          "source": "cohesion",
-          "target": "accountability"
-        }
-      ]
-    },
-    {
       "label": "requires",
       "sourceType": "concept",
       "targetType": "concept",
-      "count": 10,
+      "count": 18,
       "examples": [
         {
           "source": "correction",
@@ -5028,7 +5143,7 @@
       "label": "thins",
       "sourceType": "concept",
       "targetType": "concept",
-      "count": 10,
+      "count": 18,
       "examples": [
         {
           "source": "scale",
@@ -5048,7 +5163,7 @@
       "label": "enables",
       "sourceType": "concept",
       "targetType": "concept",
-      "count": 5,
+      "count": 10,
       "examples": [
         {
           "source": "coupling",
@@ -5065,10 +5180,30 @@
       ]
     },
     {
+      "label": "shapes",
+      "sourceType": "concept",
+      "targetType": "concept",
+      "count": 8,
+      "examples": [
+        {
+          "source": "boundary",
+          "target": "coupling"
+        },
+        {
+          "source": "boundary",
+          "target": "accountability"
+        },
+        {
+          "source": "boundary",
+          "target": "interpretation"
+        }
+      ]
+    },
+    {
       "label": "precedes",
       "sourceType": "concept",
       "targetType": "concept",
-      "count": 5,
+      "count": 6,
       "examples": [
         {
           "source": "public-interpretation",
@@ -5081,6 +5216,46 @@
         {
           "source": "authorization",
           "target": "permission"
+        }
+      ]
+    },
+    {
+      "label": "grounds",
+      "sourceType": "concept",
+      "targetType": "concept",
+      "count": 4,
+      "examples": [
+        {
+          "source": "finite-perspective",
+          "target": "bias"
+        },
+        {
+          "source": "finite-perspective",
+          "target": "trust"
+        },
+        {
+          "source": "finite-perspective",
+          "target": "bias"
+        }
+      ]
+    },
+    {
+      "label": "renews",
+      "sourceType": "concept",
+      "targetType": "concept",
+      "count": 4,
+      "examples": [
+        {
+          "source": "correction",
+          "target": "legitimacy"
+        },
+        {
+          "source": "coupling",
+          "target": "legitimacy"
+        },
+        {
+          "source": "correction",
+          "target": "legitimacy"
         }
       ]
     },
@@ -5105,50 +5280,10 @@
       ]
     },
     {
-      "label": "shapes",
-      "sourceType": "concept",
-      "targetType": "concept",
-      "count": 4,
-      "examples": [
-        {
-          "source": "boundary",
-          "target": "coupling"
-        },
-        {
-          "source": "boundary",
-          "target": "accountability"
-        },
-        {
-          "source": "boundary",
-          "target": "interpretation"
-        }
-      ]
-    },
-    {
-      "label": "renews",
-      "sourceType": "concept",
-      "targetType": "concept",
-      "count": 3,
-      "examples": [
-        {
-          "source": "correction",
-          "target": "legitimacy"
-        },
-        {
-          "source": "coupling",
-          "target": "legitimacy"
-        },
-        {
-          "source": "correction",
-          "target": "legitimacy"
-        }
-      ]
-    },
-    {
       "label": "stabilizes",
       "sourceType": "concept",
       "targetType": "concept",
-      "count": 3,
+      "count": 4,
       "examples": [
         {
           "source": "certainty",
@@ -5161,6 +5296,22 @@
         {
           "source": "certainty",
           "target": "coordination"
+        }
+      ]
+    },
+    {
+      "label": "calibrates",
+      "sourceType": "concept",
+      "targetType": "concept",
+      "count": 2,
+      "examples": [
+        {
+          "source": "feedback",
+          "target": "trust"
+        },
+        {
+          "source": "feedback",
+          "target": "trust"
         }
       ]
     },
@@ -5181,18 +5332,50 @@
       ]
     },
     {
-      "label": "grounds",
+      "label": "constrains",
       "sourceType": "concept",
       "targetType": "concept",
       "count": 2,
       "examples": [
         {
-          "source": "finite-perspective",
-          "target": "bias"
+          "source": "certainty",
+          "target": "corrigibility"
         },
         {
-          "source": "finite-perspective",
-          "target": "trust"
+          "source": "certainty",
+          "target": "corrigibility"
+        }
+      ]
+    },
+    {
+      "label": "distorts",
+      "sourceType": "concept",
+      "targetType": "concept",
+      "count": 2,
+      "examples": [
+        {
+          "source": "mediation",
+          "target": "interpretation"
+        },
+        {
+          "source": "mediation",
+          "target": "interpretation"
+        }
+      ]
+    },
+    {
+      "label": "hardens",
+      "sourceType": "concept",
+      "targetType": "concept",
+      "count": 2,
+      "examples": [
+        {
+          "source": "normalization",
+          "target": "adaptation"
+        },
+        {
+          "source": "normalization",
+          "target": "adaptation"
         }
       ]
     },
@@ -5229,59 +5412,15 @@
       ]
     },
     {
-      "label": "calibrates",
-      "sourceType": "concept",
-      "targetType": "concept",
-      "count": 1,
-      "examples": [
-        {
-          "source": "feedback",
-          "target": "trust"
-        }
-      ]
-    },
-    {
-      "label": "constrains",
-      "sourceType": "concept",
-      "targetType": "concept",
-      "count": 1,
-      "examples": [
-        {
-          "source": "certainty",
-          "target": "corrigibility"
-        }
-      ]
-    },
-    {
-      "label": "distorts",
-      "sourceType": "concept",
-      "targetType": "concept",
-      "count": 1,
-      "examples": [
-        {
-          "source": "mediation",
-          "target": "interpretation"
-        }
-      ]
-    },
-    {
-      "label": "hardens",
-      "sourceType": "concept",
-      "targetType": "concept",
-      "count": 1,
-      "examples": [
-        {
-          "source": "normalization",
-          "target": "adaptation"
-        }
-      ]
-    },
-    {
       "label": "weakens",
       "sourceType": "concept",
       "targetType": "concept",
-      "count": 1,
+      "count": 2,
       "examples": [
+        {
+          "source": "asymmetry",
+          "target": "reciprocity"
+        },
         {
           "source": "asymmetry",
           "target": "reciprocity"
@@ -5293,10 +5432,10 @@
     "concept": [
       {
         "entityType": "concept",
-        "min": 1,
-        "median": 3.0,
-        "max": 18,
-        "p90": 7,
+        "min": 2,
+        "median": 6.0,
+        "max": 24,
+        "p90": 12,
         "count": 68
       }
     ]

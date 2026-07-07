@@ -3,22 +3,14 @@
 ## Executive summary
 
 - Repository type: **source**
-- Input files: docs/portfolio-audit/data/semantic-manifest.json, docs/portfolio-audit/data/books-manifest.json
-- Errors: **8**
-- Warnings: **147**
-- Info: **291**
-- Entities scanned: {'books': 28, 'concepts': 137, 'patterns': 30, 'thinkers': 339, 'sources': 411, 'relationships': 27}
+- Input files: build/semantic-manifest.json, build/books-manifest.json
+- Errors: **0**
+- Warnings: **140**
+- Info: **317**
+- Entities scanned: {'books': 28, 'concepts': 137, 'patterns': 30, 'thinkers': 339, 'sources': 408, 'relationships': 110}
 
 ## Top priority issues
 
-- **[error]** slug-quality / source `brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio` — Slug collision after Unicode transliteration normalization. — *Differentiate slugs or merge duplicate entities.*
-- **[error]** slug-quality / source `hamilton-alexander-james-madison-and-john-jay-the-federalist-papers` — Slug collision after Unicode transliteration normalization. — *Differentiate slugs or merge duplicate entities.*
-- **[error]** slug-quality / source `ross-lee-and-richard-e-nisbett-the-person-and-the-situation` — Slug collision after Unicode transliteration normalization. — *Differentiate slugs or merge duplicate entities.*
-- **[error]** slug-quality / source `tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction` — Slug collision after Unicode transliteration normalization. — *Differentiate slugs or merge duplicate entities.*
-- **[error]** source-metadata / source `berwick-donald-m-era-3-for-medicine-and-health-care` — Publication year appears to have been parsed from a page range. — *Set year to 2016 based on citation.*
-- **[error]** source-metadata / source `cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus` — Publication year appears to have been parsed from a page range. — *Set year to 1990 based on citation.*
-- **[error]** source-metadata / source `simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes` — Publication year appears to have been parsed from a page range. — *Set year to 1999 based on citation.*
-- **[error]** source-metadata / source `wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing` — Publication year appears to have been parsed from a page range. — *Set year to 2018 based on citation.*
 - **[warning]** book-metadata / book `when-others-look-to-you-v1` — Duplicate or near-duplicate book titles. — *Model editions explicitly or differentiate titles.*
 - **[warning]** concept-metadata / concept `abstraction` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
 - **[warning]** concept-metadata / concept `acceleration` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
@@ -31,44 +23,50 @@
 - **[warning]** concept-metadata / concept `attention` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
 - **[warning]** concept-metadata / concept `authority` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
 - **[warning]** concept-metadata / concept `authorization` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `bias` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `bureaucracy` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `care` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `certainty` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `circulation` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `coercion` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `cohesion` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `compression` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
 
 ## Issue counts by category
 
 - concept-metadata: 165
 - pattern-metadata: 120
-- relationship-quality: 56
-- source-metadata: 46
+- relationship-quality: 80
+- source-metadata: 37
 - thinker-metadata: 27
-- slug-quality: 22
+- slug-quality: 16
 - book-metadata: 10
+- manifest-consistency: 2
 
 ## Relationship vocabulary (top labels)
 
-- `contrasts` (concept → concept): 44 — e.g. [{'source': 'repair', 'target': 'witness'}, {'source': 'correction', 'target': 'repair'}]
+- `contrasts` (concept → concept): 80 — e.g. [{'source': 'repair', 'target': 'witness'}, {'source': 'correction', 'target': 'repair'}]
+- `preserves` (concept → concept): 28 — e.g. [{'source': 'friction', 'target': 'corrigibility'}, {'source': 'uncertainty', 'target': 'correction'}]
 - `structural_tension` (concept → concept): 20 — e.g. [{'source': 'circulation', 'target': 'correction'}, {'source': 'authority', 'target': 'legitimacy'}]
-- `preserves` (concept → concept): 16 — e.g. [{'source': 'friction', 'target': 'corrigibility'}, {'source': 'uncertainty', 'target': 'correction'}]
-- `requires` (concept → concept): 10 — e.g. [{'source': 'correction', 'target': 'revisability'}, {'source': 'cohesion', 'target': 'boundary'}]
-- `thins` (concept → concept): 10 — e.g. [{'source': 'scale', 'target': 'correction'}, {'source': 'scale', 'target': 'feedback'}]
-- `enables` (concept → concept): 5 — e.g. [{'source': 'coupling', 'target': 'correction'}, {'source': 'feedback', 'target': 'correction'}]
-- `precedes` (concept → concept): 5 — e.g. [{'source': 'public-interpretation', 'target': 'interpretive-collapse'}, {'source': 'drift', 'target': 'normalization'}]
+- `requires` (concept → concept): 18 — e.g. [{'source': 'correction', 'target': 'revisability'}, {'source': 'cohesion', 'target': 'boundary'}]
+- `thins` (concept → concept): 18 — e.g. [{'source': 'scale', 'target': 'correction'}, {'source': 'scale', 'target': 'feedback'}]
+- `enables` (concept → concept): 10 — e.g. [{'source': 'coupling', 'target': 'correction'}, {'source': 'feedback', 'target': 'correction'}]
+- `shapes` (concept → concept): 8 — e.g. [{'source': 'boundary', 'target': 'coupling'}, {'source': 'boundary', 'target': 'accountability'}]
+- `precedes` (concept → concept): 6 — e.g. [{'source': 'public-interpretation', 'target': 'interpretive-collapse'}, {'source': 'drift', 'target': 'normalization'}]
+- `grounds` (concept → concept): 4 — e.g. [{'source': 'finite-perspective', 'target': 'bias'}, {'source': 'finite-perspective', 'target': 'trust'}]
+- `renews` (concept → concept): 4 — e.g. [{'source': 'correction', 'target': 'legitimacy'}, {'source': 'coupling', 'target': 'legitimacy'}]
 - `reproduces` (concept → concept): 4 — e.g. [{'source': 'circulation', 'target': 'authority'}, {'source': 'alignment', 'target': 'alignment-at-scale'}]
-- `shapes` (concept → concept): 4 — e.g. [{'source': 'boundary', 'target': 'coupling'}, {'source': 'boundary', 'target': 'accountability'}]
-- `renews` (concept → concept): 3 — e.g. [{'source': 'correction', 'target': 'legitimacy'}, {'source': 'coupling', 'target': 'legitimacy'}]
-- `stabilizes` (concept → concept): 3 — e.g. [{'source': 'certainty', 'target': 'coordination'}, {'source': 'circulation', 'target': 'meaning'}]
+- `stabilizes` (concept → concept): 4 — e.g. [{'source': 'certainty', 'target': 'coordination'}, {'source': 'circulation', 'target': 'meaning'}]
+- `calibrates` (concept → concept): 2 — e.g. [{'source': 'feedback', 'target': 'trust'}, {'source': 'feedback', 'target': 'trust'}]
 - `complements` (concept → concept): 2 — e.g. [{'source': 'cohesion', 'target': 'coupling'}, {'source': 'cohesion', 'target': 'coupling'}]
-- `grounds` (concept → concept): 2 — e.g. [{'source': 'finite-perspective', 'target': 'bias'}, {'source': 'finite-perspective', 'target': 'trust'}]
-- `intensifies` (concept → concept): 2 — e.g. [{'source': 'post-interpretive-authority', 'target': 'total-authority'}, {'source': 'post-interpretive-authority', 'target': 'total-authority'}]
-- `pressures` (concept → concept): 2 — e.g. [{'source': 'acceleration', 'target': 'judgment'}, {'source': 'acceleration', 'target': 'judgment'}]
+- `constrains` (concept → concept): 2 — e.g. [{'source': 'certainty', 'target': 'corrigibility'}, {'source': 'certainty', 'target': 'corrigibility'}]
 
 ## Suspected duplicates
 
 - source `centers-for-medicare-medicaid-services-hospital-readmissions`: Institution field duplicates a creator name (person misfiled as org).
 - source `federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs`: Institution field duplicates a creator name (person misfiled as org).
-- source `hamilton-alexander-james-madison-and-john-jay-the-federalist-papers`: Institution field duplicates a creator name (person misfiled as org).
 - source `haspeslagh-philippe-c-and-david-b-jemison-managing-acquisitions-creating-value-from-corporate-an`: Institution field duplicates a creator name (person misfiled as org).
 - source `international-organization-for-standardization-iso-iec-42001-2023-information-technology-artific`: Institution field duplicates a creator name (person misfiled as org).
-- source `madison-james-alexander-hamilton-and-john-jay-the-federalist-papers`: Institution field duplicates a creator name (person misfiled as org).
-- source `morrison-elizabeth-w-employee-voice-behavior`: Institution field duplicates a creator name (person misfiled as org).
 - source `national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate`: Institution field duplicates a creator name (person misfiled as org).
 - source `u-s-bureau-of-labor-statistics-consumer-price-index-cpi-news-releases-and-databases-2020-2024-ht`: Institution field duplicates a creator name (person misfiled as org).
 - source `u-s-bureau-of-labor-statistics-employment-situation-news-releases-job-openings-and-labor-turnove`: Institution field duplicates a creator name (person misfiled as org).
@@ -77,6 +75,12 @@
 - source `u-s-securities-and-exchange-commission-office-of-the-whistleblower-annual-reports-to-congress-ht`: Institution field duplicates a creator name (person misfiled as org).
 - source `world-bank-state-and-trends-of-carbon-pricing`: Institution field duplicates a creator name (person misfiled as org).
 - book `when-others-look-to-you-v1`: Duplicate or near-duplicate book titles.
+- relationship `feedback->correction`: Duplicate relationship edge.
+
+## Stale or divergent manifests
+
+- Portfolio audit snapshot appears older than build manifest. (`semantic`)
+- Portfolio audit snapshot appears older than build manifest. (`books`)
 
 ## Recommended next fixes
 
@@ -88,16 +92,6 @@
 
 ## Full issue list
 
-### Error
-
-- **slug-quality** — source `brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio` (the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion): Slug collision after Unicode transliteration normalization.
-- **slug-quality** — source `hamilton-alexander-james-madison-and-john-jay-the-federalist-papers` (the-federalist-papers): Slug collision after Unicode transliteration normalization.
-- **slug-quality** — source `ross-lee-and-richard-e-nisbett-the-person-and-the-situation` (the-person-and-the-situation): Slug collision after Unicode transliteration normalization.
-- **slug-quality** — source `tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction` (superforecasting-the-art-and-science-of-prediction): Slug collision after Unicode transliteration normalization.
-- **source-metadata** — source `berwick-donald-m-era-3-for-medicine-and-health-care` (Era 3 for Medicine and Health Care.): Publication year appears to have been parsed from a page range.
-- **source-metadata** — source `cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus` (A Focus): Publication year appears to have been parsed from a page range.
-- **source-metadata** — source `simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes` (Gorillas in Our Midst: Sustained Inattentional Blindness for Dynamic Events.): Publication year appears to have been parsed from a page range.
-- **source-metadata** — source `wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing` (Airbnb and the Rent Gap: Gentrification Through the Sharing Economy.): Publication year appears to have been parsed from a page range.
 ### Warning
 
 - **book-metadata** — book `when-others-look-to-you-v1` (when others look to you): Duplicate or near-duplicate book titles.
@@ -201,8 +195,6 @@
 - **slug-quality** — thinker `j-rgen-habermas` (Jürgen Habermas): Slug may be stale after title change (diacritic damage).
 - **slug-quality** — thinker `l-on-krier` (Léon Krier): Slug appears damaged by diacritic stripping.
 - **slug-quality** — thinker `l-on-krier` (Léon Krier): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `v-clav-havel` (Václav Havel): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `v-clav-havel` (Václav Havel): Slug may be stale after title change (diacritic damage).
 - **source-metadata** — source `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` (Why Nations Fail: The Origins of Power,): Title or name ends with dangling punctuation.
 - **source-metadata** — source `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` (Why Nations Fail: The Origins of Power,): Title or name ends with dangling punctuation.
 - **source-metadata** — source `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language` (A Pattern Language:): Title or name ends with dangling punctuation.
@@ -216,21 +208,16 @@
 - **source-metadata** — source `fahey-liam-and-robert-m-randall-eds-learning-from-the-future` (Learning from the Future:): Title or name ends with dangling punctuation.
 - **source-metadata** — source `federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs` (Aviation Safety Reporting System (ASRS).): Institution field duplicates a creator name (person misfiled as org).
 - **source-metadata** — source `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum` (Datasheets for Datasets.): Creator name appears to be a full citation string.
-- **source-metadata** — source `hamilton-alexander-james-madison-and-john-jay-the-federalist-papers` (The Federalist Papers): Institution field duplicates a creator name (person misfiled as org).
 - **source-metadata** — source `haspeslagh-philippe-c-and-david-b-jemison-managing-acquisitions-creating-value-from-corporate-an` (Managing Acquisitions: Creating Value from Corporate and Technology Acquisitions): Institution field duplicates a creator name (person misfiled as org).
 - **source-metadata** — source `henrich-joseph-the-secret-of-our-success-how-culture-is-driving-human-evolution` (The Secret of Our Success: How Culture Is Driving Human Evolution,): Title or name ends with dangling punctuation.
 - **source-metadata** — source `henrich-joseph-the-secret-of-our-success-how-culture-is-driving-human-evolution` (The Secret of Our Success: How Culture Is Driving Human Evolution,): Title or name ends with dangling punctuation.
 - **source-metadata** — source `hirschman-albert-o-the-rhetoric-of-reaction-perversity-futility` (The Rhetoric of Reaction: Perversity, Futility,): Title or name ends with dangling punctuation.
 - **source-metadata** — source `hirschman-albert-o-the-rhetoric-of-reaction-perversity-futility` (The Rhetoric of Reaction: Perversity, Futility,): Title or name ends with dangling punctuation.
 - **source-metadata** — source `international-organization-for-standardization-iso-iec-42001-2023-information-technology-artific` (ISO/IEC 42001:2023 — Information Technology — Artificial Intelligence — Management System): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `madison-james-alexander-hamilton-and-john-jay-the-federalist-papers` (The Federalist Papers): Institution field duplicates a creator name (person misfiled as org).
 - **source-metadata** — source `maslach-christina-and-michael-p-leiter-the-truth-about-burnout` (The Truth About Burnout:): Title or name ends with dangling punctuation.
 - **source-metadata** — source `maslach-christina-and-michael-p-leiter-the-truth-about-burnout` (The Truth About Burnout:): Title or name ends with dangling punctuation.
 - **source-metadata** — source `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp` (Model Cards for Model Reporting.): Creator name appears to be a full citation string.
-- **source-metadata** — source `morrison-elizabeth-w-employee-voice-behavior` (Employee Voice Behavior.): Institution field duplicates a creator name (person misfiled as org).
 - **source-metadata** — source `national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate` (Aviation Safety Reporting System (ASRS) program materials.): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `ross-lee-and-richard-e-nisbett-the-person-and-the-situation` (The Person and the Situation:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `ross-lee-and-richard-e-nisbett-the-person-and-the-situation` (The Person and the Situation:): Title or name ends with dangling punctuation.
 - **source-metadata** — source `ross-lee-the-intuitive-psychologist-and-his-shortcomings` (The Intuitive Psychologist and His Shortcomings:): Title or name ends with dangling punctuation.
 - **source-metadata** — source `ross-lee-the-intuitive-psychologist-and-his-shortcomings` (The Intuitive Psychologist and His Shortcomings:): Title or name ends with dangling punctuation.
 - **source-metadata** — source `tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me` (Mistakes Were Made (But Not by Me):): Title or name ends with dangling punctuation.
@@ -340,6 +327,8 @@
 - **concept-metadata** — concept `vitality` (Vitality): Concept has no related concepts.
 - **concept-metadata** — concept `waterfall` (Waterfall): Concept has no related concepts.
 - **concept-metadata** — concept `who-can-leave-safely` (Who can leave safely): Concept has no related concepts.
+- **manifest-consistency** — manifest `books` (books): Portfolio audit snapshot appears older than build manifest.
+- **manifest-consistency** — manifest `semantic` (semantic): Portfolio audit snapshot appears older than build manifest.
 - **pattern-metadata** — pattern `admiration-becomes-insulation` (Admiration Becomes Insulation): Pattern has no related sources.
 - **pattern-metadata** — pattern `admiration-becomes-insulation` (Admiration Becomes Insulation): Pattern has no related thinkers.
 - **pattern-metadata** — pattern `admiration-becomes-insulation` (Admiration Becomes Insulation): Pattern appears to be original synthesis but does not say so.
@@ -466,14 +455,22 @@
 - **relationship-quality** — relationship `adaptation->authorization` (structural_tension): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `adaptation->authorization` (structural_tension): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `adaptation->drift` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `adaptation->drift` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `agency->judgment` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `agency->judgment` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `agency->responsibility` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `agency->responsibility` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `alignment->legitimacy` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `alignment->legitimacy` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `answerability->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `answerability->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `attention->bias` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `attention->bias` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `authority->legitimacy` (structural_tension): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `authority->legitimacy` (structural_tension): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `care->attention` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `care->attention` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `certainty->judgment` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `certainty->judgment` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `certainty->uncertainty` (structural_tension): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `certainty->uncertainty` (structural_tension): Symmetric relationship label used in only one direction.
@@ -490,30 +487,46 @@
 - **relationship-quality** — relationship `correction->repair` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `correction->repair` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `corrigibility->revisability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `corrigibility->revisability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `erosion->decay` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `erosion->decay` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `friction->contestability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `friction->contestability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `judgment->optimization` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `judgment->optimization` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `meaning->interpretation` (structural_tension): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `meaning->interpretation` (structural_tension): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `mediation->distance` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `mediation->distance` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `permission->authority` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `permission->authority` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `proximity->connection` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `proximity->connection` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `proximity->contact` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `proximity->contact` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `reciprocity->asymmetry` (structural_tension): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `reciprocity->asymmetry` (structural_tension): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `repair->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `repair->accountability` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `repair->witness` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `repair->witness` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `responsibility->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `responsibility->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `responsibility->answerability` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `responsibility->answerability` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `reversibility->revisability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `reversibility->revisability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `revisability->judgment` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `revisability->judgment` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `scale->moral-density` (structural_tension): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `scale->moral-density` (structural_tension): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `throughput->acceleration` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `throughput->acceleration` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `trust->certainty` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `trust->certainty` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `witness->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `witness->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `witness->correction` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `witness->correction` (contrasts): Symmetric relationship label used in only one direction.
 - **thinker-metadata** — thinker `amershi-saleema-et-al` (amershi-saleema-et-al): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas` (beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas): summary or whyThisMatters still has auto-generated placeholder text

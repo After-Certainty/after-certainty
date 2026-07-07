@@ -128,6 +128,15 @@ def entity_title(entity: dict) -> str:
     return ""
 
 
+def slug_audit_label(entity: dict, entity_type: str) -> str:
+    """Prefer display name over bare title for slug transliteration checks."""
+    if entity_type in ("source", "thinker"):
+        name = str(entity.get("name", "")).strip()
+        if name:
+            return name
+    return entity_title(entity)
+
+
 def _collapse_ws(text: str) -> str:
     return re.sub(r"\s+", " ", (text or "").strip()).lower()
 
@@ -1378,7 +1387,7 @@ def audit_slugs(
         for path in sorted(dir_path.glob("*.yml")):
             data = _load_yaml(path)
             slug = str(data.get("slug", path.stem)).strip()
-            name = entity_title(data)
+            name = slug_audit_label(data, etype)
 
             if slug != path.stem:
                 issues.append(
