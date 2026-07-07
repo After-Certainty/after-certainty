@@ -3,7 +3,8 @@ name: Karina Dikert
 type: person
 summary: Software engineering researchers on large-scale agile adoption and coordination
   across sites.
-concepts: []
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling

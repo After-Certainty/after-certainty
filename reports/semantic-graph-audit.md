@@ -5,40 +5,21 @@
 - Repository type: **source**
 - Input files: build/semantic-manifest.json, build/books-manifest.json
 - Errors: **0**
-- Warnings: **47**
-- Info: **350**
+- Warnings: **2**
+- Info: **336**
 - Entities scanned: {'books': 28, 'concepts': 137, 'patterns': 30, 'thinkers': 439, 'sources': 408, 'relationships': 109}
 
 ## Top priority issues
 
-- **[warning]** concept-grounding / source `argyris-chris-and-donald-a-schon-organizational-learning-ii` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'contestability'. — *Add 'contestability' to source concepts.*
-- **[warning]** concept-grounding / source `argyris-chris-and-donald-a-schon-organizational-learning-ii` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'correction'. — *Add 'correction' to source concepts.*
-- **[warning]** concept-grounding / source `argyris-chris-and-donald-a-schon-organizational-learning-ii` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'. — *Add 'feedback' to source concepts.*
-- **[warning]** concept-grounding / source `barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'. — *Add 'agile' to source concepts.*
-- **[warning]** concept-grounding / source `dekker-sidney-the-field-guide-to-understanding-human-error` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'. — *Add 'feedback' to source concepts.*
-- **[warning]** concept-grounding / source `dekker-sidney-w-a-just-culture-restoring-trust-and-accountability` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'accountability'. — *Add 'accountability' to source concepts.*
-- **[warning]** concept-grounding / source `dekker-sidney-w-a-just-culture-restoring-trust-and-accountability` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'trust'. — *Add 'trust' to source concepts.*
-- **[warning]** concept-grounding / source `dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'. — *Add 'agile' to source concepts.*
-- **[warning]** concept-grounding / source `march-james-g-exploration-and-exploitation-in-organizational` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'contestability'. — *Add 'contestability' to source concepts.*
-- **[warning]** concept-grounding / source `march-james-g-exploration-and-exploitation-in-organizational` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'correction'. — *Add 'correction' to source concepts.*
-- **[warning]** concept-grounding / source `march-james-g-exploration-and-exploitation-in-organizational` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'. — *Add 'feedback' to source concepts.*
-- **[warning]** concept-grounding / source `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'coherence-maintenance'. — *Add 'coherence-maintenance' to source concepts.*
-- **[warning]** concept-grounding / source `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'meaning'. — *Add 'meaning' to source concepts.*
-- **[warning]** concept-grounding / source `weick-karl-e-sensemaking-in-organizations` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'coherence-maintenance'. — *Add 'coherence-maintenance' to source concepts.*
-- **[warning]** concept-grounding / thinker `alistair-cockburn` — Linked work supports this concept but thinker.concepts omits it. (via work cockburn-alistair-the-heart-of-agile) Suggested concept: 'feedback'. — *Add 'feedback' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `casper-lassenius` — Linked work supports this concept but thinker.concepts omits it. (via work dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca) Suggested concept: 'agile'. — *Add 'agile' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `donald-a-schon` — Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'contestability'. — *Add 'contestability' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `donald-a-schon` — Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'correction'. — *Add 'correction' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `donald-a-schon` — Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'feedback'. — *Add 'feedback' to thinker concepts.*
-- **[warning]** concept-grounding / thinker `gerard-b-carsten` — Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'. — *Add 'correction' to thinker concepts.*
+- **[warning]** slug-quality / thinker `hal-daum-iii` — Slug appears damaged by diacritic stripping. — *Consider renaming slug to 'hal-daume-iii' with a redirect strategy.*
+- **[warning]** slug-quality / thinker `hal-daum-iii` — Slug may be stale after title change (diacritic damage). — *Use transliterated slug 'hal-daume-iii'.*
 
 ## Issue counts by category
 
 - pattern-metadata: 120
 - concept-metadata: 82
 - relationship-quality: 79
-- thinker-metadata: 58
-- concept-grounding: 45
+- thinker-metadata: 44
 - book-metadata: 9
 - manifest-consistency: 2
 - slug-quality: 2
@@ -78,51 +59,6 @@
 
 ### Warning
 
-- **concept-grounding** — source `argyris-chris-and-donald-a-schon-organizational-learning-ii` (Organizational Learning II: Theory, Method, and Practice): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'contestability'.
-- **concept-grounding** — source `argyris-chris-and-donald-a-schon-organizational-learning-ii` (Organizational Learning II: Theory, Method, and Practice): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'correction'.
-- **concept-grounding** — source `argyris-chris-and-donald-a-schon-organizational-learning-ii` (Organizational Learning II: Theory, Method, and Practice): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'.
-- **concept-grounding** — source `barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams` (Role Clarity Deficiencies Can Wreck Agile Teams.): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'.
-- **concept-grounding** — source `dekker-sidney-the-field-guide-to-understanding-human-error` (The Field Guide to Understanding Human Error): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'.
-- **concept-grounding** — source `dekker-sidney-w-a-just-culture-restoring-trust-and-accountability` (Just Culture: Restoring Trust and Accountability): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'accountability'.
-- **concept-grounding** — source `dekker-sidney-w-a-just-culture-restoring-trust-and-accountability` (Just Culture: Restoring Trust and Accountability): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'trust'.
-- **concept-grounding** — source `dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca` (Challenges and Success Factors for Large-Scale Agile Transformations: A Systematic Literature Review.): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'.
-- **concept-grounding** — source `march-james-g-exploration-and-exploitation-in-organizational` (Exploration and Exploitation in Organizational): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'contestability'.
-- **concept-grounding** — source `march-james-g-exploration-and-exploitation-in-organizational` (Exploration and Exploitation in Organizational): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'correction'.
-- **concept-grounding** — source `march-james-g-exploration-and-exploitation-in-organizational` (Exploration and Exploitation in Organizational): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'.
-- **concept-grounding** — source `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing` (Organizing): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'coherence-maintenance'.
-- **concept-grounding** — source `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing` (Organizing): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'meaning'.
-- **concept-grounding** — source `weick-karl-e-sensemaking-in-organizations` (Sensemaking in Organizations): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'coherence-maintenance'.
-- **concept-grounding** — thinker `alistair-cockburn` (Alistair Cockburn): Linked work supports this concept but thinker.concepts omits it. (via work cockburn-alistair-the-heart-of-agile) Suggested concept: 'feedback'.
-- **concept-grounding** — thinker `casper-lassenius` (Casper Lassenius): Linked work supports this concept but thinker.concepts omits it. (via work dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca) Suggested concept: 'agile'.
-- **concept-grounding** — thinker `donald-a-schon` (Donald A Schön): Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'contestability'.
-- **concept-grounding** — thinker `donald-a-schon` (Donald A Schön): Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'correction'.
-- **concept-grounding** — thinker `donald-a-schon` (Donald A Schön): Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'feedback'.
-- **concept-grounding** — thinker `gerard-b-carsten` (Gerard B. Carsten): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'.
-- **concept-grounding** — thinker `gerard-b-carsten` (Gerard B. Carsten): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'guest-leadership'.
-- **concept-grounding** — thinker `gerard-b-carsten` (Gerard B. Carsten): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'legitimacy'.
-- **concept-grounding** — thinker `gerard-b-carsten` (Gerard B. Carsten): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'normalization'.
-- **concept-grounding** — thinker `hannah-arendt` (Hannah Arendt): Linked work supports this concept but thinker.concepts omits it. (via work arendt-hannah-the-life-of-the-mind) Suggested concept: 'thinking'.
-- **concept-grounding** — thinker `helena-barke` (Helena Barke): Linked work supports this concept but thinker.concepts omits it. (via work barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams) Suggested concept: 'agile'.
-- **concept-grounding** — thinker `james-g-march` (James G March): Linked work supports this concept but thinker.concepts omits it. (via work march-james-g-exploration-and-exploitation-in-organizational) Suggested concept: 'contestability'.
-- **concept-grounding** — thinker `james-g-march` (James G March): Linked work supports this concept but thinker.concepts omits it. (via work march-james-g-exploration-and-exploitation-in-organizational) Suggested concept: 'correction'.
-- **concept-grounding** — thinker `james-g-march` (James G March): Linked work supports this concept but thinker.concepts omits it. (via work march-james-g-exploration-and-exploitation-in-organizational) Suggested concept: 'feedback'.
-- **concept-grounding** — thinker `karina-dikert` (Karina Dikert): Linked work supports this concept but thinker.concepts omits it. (via work dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca) Suggested concept: 'agile'.
-- **concept-grounding** — thinker `kelly-lowe` (Kelly Lowe): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'.
-- **concept-grounding** — thinker `kelly-lowe` (Kelly Lowe): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'guest-leadership'.
-- **concept-grounding** — thinker `kelly-lowe` (Kelly Lowe): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'legitimacy'.
-- **concept-grounding** — thinker `kelly-lowe` (Kelly Lowe): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'normalization'.
-- **concept-grounding** — thinker `lutz-prechelt` (Lutz Prechelt): Linked work supports this concept but thinker.concepts omits it. (via work barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams) Suggested concept: 'agile'.
-- **concept-grounding** — thinker `maria-paasivaara` (Maria Paasivaara): Linked work supports this concept but thinker.concepts omits it. (via work dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca) Suggested concept: 'agile'.
-- **concept-grounding** — thinker `michael-uhl-bien` (Michael Uhl-Bien): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'.
-- **concept-grounding** — thinker `michael-uhl-bien` (Michael Uhl-Bien): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'guest-leadership'.
-- **concept-grounding** — thinker `michael-uhl-bien` (Michael Uhl-Bien): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'legitimacy'.
-- **concept-grounding** — thinker `michael-uhl-bien` (Michael Uhl-Bien): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'normalization'.
-- **concept-grounding** — thinker `ronald-e-riggio` (Ronald E. Riggio): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'.
-- **concept-grounding** — thinker `ronald-e-riggio` (Ronald E. Riggio): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'guest-leadership'.
-- **concept-grounding** — thinker `ronald-e-riggio` (Ronald E. Riggio): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'legitimacy'.
-- **concept-grounding** — thinker `ronald-e-riggio` (Ronald E. Riggio): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'normalization'.
-- **concept-grounding** — thinker `sidney-dekker` (Sidney Dekker): Linked work supports this concept but thinker.concepts omits it. (via work dekker-sidney-drift-into-failure-from-hunting-broken-components-to-understanding-complex-systems) Suggested concept: 'coupling'.
-- **concept-grounding** — thinker `sidney-dekker` (Sidney Dekker): Linked work supports this concept but thinker.concepts omits it. (via work dekker-sidney-the-field-guide-to-understanding-human-error) Suggested concept: 'feedback'.
 - **slug-quality** — thinker `hal-daum-iii` (Hal Daumé III): Slug appears damaged by diacritic stripping.
 - **slug-quality** — thinker `hal-daum-iii` (Hal Daumé III): Slug may be stale after title change (diacritic damage).
 ### Info
@@ -421,41 +357,30 @@
 - **relationship-quality** — relationship `witness->correction` (contrasts): Symmetric relationship label used in only one direction.
 - **thinker-metadata** — thinker `akihiko-murata` (akihiko-murata): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `alexander-weisler` (alexander-weisler): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `andrew-hunt` (andrew-hunt): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `andrew-zaldivar` (andrew-zaldivar): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `anya-chen` (anya-chen): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `arie-van-bennekum` (arie-van-bennekum): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `ashley-parker` (ashley-parker): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `barbara-mellers` (barbara-mellers): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `ben-hutchinson` (ben-hutchinson): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `brian-marick` (brian-marick): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `catherine-c-lewis` (catherine-c-lewis): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `collin-burns` (collin-burns): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `dan-boneh` (dan-boneh): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `dan-hendrycks` (dan-hendrycks): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `dave-thomas` (dave-thomas): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `david-wachsmuth` (david-wachsmuth): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `deepak-kumar` (deepak-kumar): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `elena-spitzer` (elena-spitzer): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `freeh-sporkin-sullivan-llc` (freeh-sporkin-sullivan-llc): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `inioluwa-deborah-raji` (inioluwa-deborah-raji): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `james-grenning` (james-grenning): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `james-n-druckman` (james-n-druckman): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `jeff-sutherland` (jeff-sutherland): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `jim-highsmith` (jim-highsmith): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `john-carreyrou` (john-carreyrou): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `jon-kern` (jon-kern): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `karen-m-douglas` (karen-m-douglas): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `kati-marton` (kati-marton): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `ken-schwaber` (ken-schwaber): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `kenneth-f-schulz` (kenneth-f-schulz): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `kent-beck` (kent-beck): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `lucy-vasserman` (lucy-vasserman): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `maggie-haberman` (maggie-haberman): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `margaret-mitchell` (margaret-mitchell): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `megha-srivastava` (megha-srivastava): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `michael-scherer` (michael-scherer): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `mike-beedle` (mike-beedle): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `neal-ford` (neal-ford): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `neil-perry` (neil-perry): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `parker-barnes` (parker-barnes): summary or whyThisMatters still has auto-generated placeholder text
@@ -466,14 +391,11 @@
 - **thinker-metadata** — thinker `reeves-wiedeman` (reeves-wiedeman): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `reto-knutti` (reto-knutti): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `richard-gott` (richard-gott): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `ron-jeffries` (ron-jeffries): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `s-g-talbot` (s-g-talbot): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `saleema-amershi` (saleema-amershi): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `sida-peng` (sida-peng): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `simone-wu` (simone-wu): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `spencer-ball` (spencer-ball): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `steve-mellor` (steve-mellor): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `susan-raine` (susan-raine): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `w-dean` (w-dean): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `ward-cunningham` (ward-cunningham): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `wright-stuart-a-ed` (wright-stuart-a-ed): summary or whyThisMatters still has auto-generated placeholder text

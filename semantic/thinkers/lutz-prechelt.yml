@@ -3,7 +3,8 @@ name: Lutz Prechelt
 type: person
 summary: Software researchers studying developer experience, flow interruption, and
   productivity measurement limits.
-concepts: []
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling

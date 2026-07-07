@@ -78,6 +78,10 @@ Some checks are intentionally conservative and were refined to reduce false posi
 
 Bulk splitting of composite thinkers is supported by `tools/split_multi_person_thinkers.py` (`--apply`, then `--sync-source-names`).
 
+To auto-apply concept-grounding warnings::
+
+    python3 tools/apply_concept_grounding.py --repo . --apply
+
 ## What is checked
 
 - **Source metadata** — years (including page-range misparsing), truncated titles, citation leaks, type mismatches

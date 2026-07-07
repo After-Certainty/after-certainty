@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T05:28:12.477019+00:00",
+  "generatedAt": "2026-07-07T05:33:49.652284+00:00",
   "repoContext": {
     "detectedRepoType": "source",
     "inputFiles": [
@@ -9,8 +9,8 @@
   },
   "summary": {
     "errors": 0,
-    "warnings": 47,
-    "info": 350,
+    "warnings": 2,
+    "info": 336,
     "entitiesScanned": {
       "books": 28,
       "concepts": 137,
@@ -47,17 +47,6 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "andrew-hunt",
-      "entityTitle": "andrew-hunt",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
       "entityId": "andrew-zaldivar",
       "entityTitle": "andrew-zaldivar",
       "field": "placeholder_summary",
@@ -71,17 +60,6 @@
       "entityType": "thinker",
       "entityId": "anya-chen",
       "entityTitle": "anya-chen",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "arie-van-bennekum",
-      "entityTitle": "arie-van-bennekum",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -115,17 +93,6 @@
       "entityType": "thinker",
       "entityId": "ben-hutchinson",
       "entityTitle": "ben-hutchinson",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "brian-marick",
-      "entityTitle": "brian-marick",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -170,17 +137,6 @@
       "entityType": "thinker",
       "entityId": "dan-hendrycks",
       "entityTitle": "dan-hendrycks",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "dave-thomas",
-      "entityTitle": "dave-thomas",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -245,17 +201,6 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "james-grenning",
-      "entityTitle": "james-grenning",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
       "entityId": "james-n-druckman",
       "entityTitle": "james-n-druckman",
       "field": "placeholder_summary",
@@ -267,41 +212,8 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "jeff-sutherland",
-      "entityTitle": "jeff-sutherland",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "jim-highsmith",
-      "entityTitle": "jim-highsmith",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
       "entityId": "john-carreyrou",
       "entityTitle": "john-carreyrou",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "jon-kern",
-      "entityTitle": "jon-kern",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -333,30 +245,8 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "ken-schwaber",
-      "entityTitle": "ken-schwaber",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
       "entityId": "kenneth-f-schulz",
       "entityTitle": "kenneth-f-schulz",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "kent-beck",
-      "entityTitle": "kent-beck",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -412,17 +302,6 @@
       "entityType": "thinker",
       "entityId": "michael-scherer",
       "entityTitle": "michael-scherer",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "mike-beedle",
-      "entityTitle": "mike-beedle",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -542,17 +421,6 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "ron-jeffries",
-      "entityTitle": "ron-jeffries",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
       "entityId": "s-g-talbot",
       "entityTitle": "s-g-talbot",
       "field": "placeholder_summary",
@@ -608,17 +476,6 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "steve-mellor",
-      "entityTitle": "steve-mellor",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
       "entityId": "susan-raine",
       "entityTitle": "susan-raine",
       "field": "placeholder_summary",
@@ -632,17 +489,6 @@
       "entityType": "thinker",
       "entityId": "w-dean",
       "entityTitle": "w-dean",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "ward-cunningham",
-      "entityTitle": "ward-cunningham",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -669,501 +515,6 @@
       "currentValue": "hal-daum-iii",
       "reason": "Slug appears damaged by diacritic stripping.",
       "suggestedFix": "Consider renaming slug to 'hal-daume-iii' with a redirect strategy."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "argyris-chris-and-donald-a-schon-organizational-learning-ii",
-      "entityTitle": "Organizational Learning II: Theory, Method, and Practice",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'contestability'.",
-      "suggestedFix": "Add 'contestability' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "argyris-chris-and-donald-a-schon-organizational-learning-ii",
-      "entityTitle": "Organizational Learning II: Theory, Method, and Practice",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'correction'.",
-      "suggestedFix": "Add 'correction' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "argyris-chris-and-donald-a-schon-organizational-learning-ii",
-      "entityTitle": "Organizational Learning II: Theory, Method, and Practice",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'.",
-      "suggestedFix": "Add 'feedback' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams",
-      "entityTitle": "Role Clarity Deficiencies Can Wreck Agile Teams.",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'.",
-      "suggestedFix": "Add 'agile' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "dekker-sidney-the-field-guide-to-understanding-human-error",
-      "entityTitle": "The Field Guide to Understanding Human Error",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'.",
-      "suggestedFix": "Add 'feedback' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "dekker-sidney-w-a-just-culture-restoring-trust-and-accountability",
-      "entityTitle": "Just Culture: Restoring Trust and Accountability",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'accountability'.",
-      "suggestedFix": "Add 'accountability' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "dekker-sidney-w-a-just-culture-restoring-trust-and-accountability",
-      "entityTitle": "Just Culture: Restoring Trust and Accountability",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'trust'.",
-      "suggestedFix": "Add 'trust' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca",
-      "entityTitle": "Challenges and Success Factors for Large-Scale Agile Transformations: A Systematic Literature Review.",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'.",
-      "suggestedFix": "Add 'agile' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "march-james-g-exploration-and-exploitation-in-organizational",
-      "entityTitle": "Exploration and Exploitation in Organizational",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'contestability'.",
-      "suggestedFix": "Add 'contestability' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "march-james-g-exploration-and-exploitation-in-organizational",
-      "entityTitle": "Exploration and Exploitation in Organizational",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'correction'.",
-      "suggestedFix": "Add 'correction' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "march-james-g-exploration-and-exploitation-in-organizational",
-      "entityTitle": "Exploration and Exploitation in Organizational",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'.",
-      "suggestedFix": "Add 'feedback' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing",
-      "entityTitle": "Organizing",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'coherence-maintenance'.",
-      "suggestedFix": "Add 'coherence-maintenance' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing",
-      "entityTitle": "Organizing",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'meaning'.",
-      "suggestedFix": "Add 'meaning' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "source",
-      "entityId": "weick-karl-e-sensemaking-in-organizations",
-      "entityTitle": "Sensemaking in Organizations",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'coherence-maintenance'.",
-      "suggestedFix": "Add 'coherence-maintenance' to source concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "alistair-cockburn",
-      "entityTitle": "Alistair Cockburn",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work cockburn-alistair-the-heart-of-agile) Suggested concept: 'feedback'.",
-      "suggestedFix": "Add 'feedback' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "casper-lassenius",
-      "entityTitle": "Casper Lassenius",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca) Suggested concept: 'agile'.",
-      "suggestedFix": "Add 'agile' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "donald-a-schon",
-      "entityTitle": "Donald A Sch\u00f6n",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'contestability'.",
-      "suggestedFix": "Add 'contestability' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "donald-a-schon",
-      "entityTitle": "Donald A Sch\u00f6n",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'correction'.",
-      "suggestedFix": "Add 'correction' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "donald-a-schon",
-      "entityTitle": "Donald A Sch\u00f6n",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'feedback'.",
-      "suggestedFix": "Add 'feedback' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "gerard-b-carsten",
-      "entityTitle": "Gerard B. Carsten",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'.",
-      "suggestedFix": "Add 'correction' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "gerard-b-carsten",
-      "entityTitle": "Gerard B. Carsten",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'guest-leadership'.",
-      "suggestedFix": "Add 'guest-leadership' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "gerard-b-carsten",
-      "entityTitle": "Gerard B. Carsten",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'legitimacy'.",
-      "suggestedFix": "Add 'legitimacy' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "gerard-b-carsten",
-      "entityTitle": "Gerard B. Carsten",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'normalization'.",
-      "suggestedFix": "Add 'normalization' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "hannah-arendt",
-      "entityTitle": "Hannah Arendt",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work arendt-hannah-the-life-of-the-mind) Suggested concept: 'thinking'.",
-      "suggestedFix": "Add 'thinking' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "helena-barke",
-      "entityTitle": "Helena Barke",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams) Suggested concept: 'agile'.",
-      "suggestedFix": "Add 'agile' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "james-g-march",
-      "entityTitle": "James G March",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work march-james-g-exploration-and-exploitation-in-organizational) Suggested concept: 'contestability'.",
-      "suggestedFix": "Add 'contestability' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "james-g-march",
-      "entityTitle": "James G March",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work march-james-g-exploration-and-exploitation-in-organizational) Suggested concept: 'correction'.",
-      "suggestedFix": "Add 'correction' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "james-g-march",
-      "entityTitle": "James G March",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work march-james-g-exploration-and-exploitation-in-organizational) Suggested concept: 'feedback'.",
-      "suggestedFix": "Add 'feedback' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "karina-dikert",
-      "entityTitle": "Karina Dikert",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca) Suggested concept: 'agile'.",
-      "suggestedFix": "Add 'agile' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "kelly-lowe",
-      "entityTitle": "Kelly Lowe",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'.",
-      "suggestedFix": "Add 'correction' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "kelly-lowe",
-      "entityTitle": "Kelly Lowe",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'guest-leadership'.",
-      "suggestedFix": "Add 'guest-leadership' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "kelly-lowe",
-      "entityTitle": "Kelly Lowe",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'legitimacy'.",
-      "suggestedFix": "Add 'legitimacy' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "kelly-lowe",
-      "entityTitle": "Kelly Lowe",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'normalization'.",
-      "suggestedFix": "Add 'normalization' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "lutz-prechelt",
-      "entityTitle": "Lutz Prechelt",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams) Suggested concept: 'agile'.",
-      "suggestedFix": "Add 'agile' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "maria-paasivaara",
-      "entityTitle": "Maria Paasivaara",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca) Suggested concept: 'agile'.",
-      "suggestedFix": "Add 'agile' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "michael-uhl-bien",
-      "entityTitle": "Michael Uhl-Bien",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'.",
-      "suggestedFix": "Add 'correction' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "michael-uhl-bien",
-      "entityTitle": "Michael Uhl-Bien",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'guest-leadership'.",
-      "suggestedFix": "Add 'guest-leadership' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "michael-uhl-bien",
-      "entityTitle": "Michael Uhl-Bien",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'legitimacy'.",
-      "suggestedFix": "Add 'legitimacy' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "michael-uhl-bien",
-      "entityTitle": "Michael Uhl-Bien",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'normalization'.",
-      "suggestedFix": "Add 'normalization' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "ronald-e-riggio",
-      "entityTitle": "Ronald E. Riggio",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'.",
-      "suggestedFix": "Add 'correction' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "ronald-e-riggio",
-      "entityTitle": "Ronald E. Riggio",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'guest-leadership'.",
-      "suggestedFix": "Add 'guest-leadership' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "ronald-e-riggio",
-      "entityTitle": "Ronald E. Riggio",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'legitimacy'.",
-      "suggestedFix": "Add 'legitimacy' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "ronald-e-riggio",
-      "entityTitle": "Ronald E. Riggio",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'normalization'.",
-      "suggestedFix": "Add 'normalization' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "sidney-dekker",
-      "entityTitle": "Sidney Dekker",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work dekker-sidney-drift-into-failure-from-hunting-broken-components-to-understanding-complex-systems) Suggested concept: 'coupling'.",
-      "suggestedFix": "Add 'coupling' to thinker concepts."
-    },
-    {
-      "severity": "warning",
-      "category": "concept-grounding",
-      "entityType": "thinker",
-      "entityId": "sidney-dekker",
-      "entityTitle": "Sidney Dekker",
-      "field": "concepts",
-      "currentValue": [],
-      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work dekker-sidney-the-field-guide-to-understanding-human-error) Suggested concept: 'feedback'.",
-      "suggestedFix": "Add 'feedback' to thinker concepts."
     },
     {
       "severity": "info",
@@ -2756,9 +2107,9 @@
       "entityId": "attention-finds-a-focus",
       "entityTitle": "Attention Finds a Focus",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "leadership-coalesces",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'leadership-coalesces'."
     },
     {
       "severity": "info",
@@ -2767,9 +2118,9 @@
       "entityId": "attention-finds-a-focus",
       "entityTitle": "Attention Finds a Focus",
       "field": "relatedPatterns",
-      "currentValue": "leadership-coalesces",
+      "currentValue": "examples-accumulate",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'leadership-coalesces'."
+      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -2822,17 +2173,6 @@
       "entityId": "blame-compresses-complexity",
       "entityTitle": "Blame Compresses Complexity",
       "field": "relatedPatterns",
-      "currentValue": "admiration-becomes-insulation",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'admiration-becomes-insulation'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "blame-compresses-complexity",
-      "entityTitle": "Blame Compresses Complexity",
-      "field": "relatedPatterns",
       "currentValue": "attention-restores-contact",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'attention-restores-contact'."
@@ -2841,12 +2181,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "contact-keeps-the-read-open",
-      "entityTitle": "Contact Keeps the Read Open",
+      "entityId": "blame-compresses-complexity",
+      "entityTitle": "Blame Compresses Complexity",
       "field": "relatedPatterns",
-      "currentValue": "meaning-outruns-the-words",
+      "currentValue": "admiration-becomes-insulation",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-outruns-the-words'."
+      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'admiration-becomes-insulation'."
     },
     {
       "severity": "info",
@@ -2858,6 +2198,17 @@
       "currentValue": "meaning-gets-distorted",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-gets-distorted'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "contact-keeps-the-read-open",
+      "entityTitle": "Contact Keeps the Read Open",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-outruns-the-words",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-outruns-the-words'."
     },
     {
       "severity": "info",
@@ -2954,9 +2305,9 @@
       "entityId": "exceptions-are-forever",
       "entityTitle": "Exceptions are Forever",
       "field": "relatedPatterns",
-      "currentValue": "learning-collapses",
+      "currentValue": "disagreement-is-suppressed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'disagreement-is-suppressed'."
     },
     {
       "severity": "info",
@@ -2965,9 +2316,9 @@
       "entityId": "exceptions-are-forever",
       "entityTitle": "Exceptions are Forever",
       "field": "relatedPatterns",
-      "currentValue": "disagreement-is-suppressed",
+      "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'disagreement-is-suppressed'."
+      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -3064,9 +2415,9 @@
       "entityId": "intent-gets-assigned",
       "entityTitle": "Intent Gets Assigned",
       "field": "relatedPatterns",
-      "currentValue": "gaps-invite-completion",
+      "currentValue": "meaning-gets-distorted",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'intent-gets-assigned' to relatedPatterns on 'gaps-invite-completion'."
+      "suggestedFix": "Consider adding 'intent-gets-assigned' to relatedPatterns on 'meaning-gets-distorted'."
     },
     {
       "severity": "info",
@@ -3075,9 +2426,9 @@
       "entityId": "intent-gets-assigned",
       "entityTitle": "Intent Gets Assigned",
       "field": "relatedPatterns",
-      "currentValue": "meaning-gets-distorted",
+      "currentValue": "gaps-invite-completion",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'intent-gets-assigned' to relatedPatterns on 'meaning-gets-distorted'."
+      "suggestedFix": "Consider adding 'intent-gets-assigned' to relatedPatterns on 'gaps-invite-completion'."
     },
     {
       "severity": "info",
@@ -3108,17 +2459,6 @@
       "entityId": "leadership-coalesces",
       "entityTitle": "Leadership Coalesces",
       "field": "relatedPatterns",
-      "currentValue": "attention-finds-a-focus",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'attention-finds-a-focus'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "leadership-coalesces",
-      "entityTitle": "Leadership Coalesces",
-      "field": "relatedPatterns",
       "currentValue": "disagreement-is-suppressed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'disagreement-is-suppressed'."
@@ -3127,12 +2467,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "leadership-reproduces-itself",
-      "entityTitle": "Leadership Reproduces Itself",
+      "entityId": "leadership-coalesces",
+      "entityTitle": "Leadership Coalesces",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "attention-finds-a-focus",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'attention-finds-a-focus'."
     },
     {
       "severity": "info",
@@ -3149,12 +2489,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "learning-collapses",
-      "entityTitle": "Learning Collapses",
+      "entityId": "leadership-reproduces-itself",
+      "entityTitle": "Leadership Reproduces Itself",
       "field": "relatedPatterns",
-      "currentValue": "leaders-feel-the-consequences",
+      "currentValue": "examples-accumulate",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'learning-collapses' to relatedPatterns on 'leaders-feel-the-consequences'."
+      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -3171,12 +2511,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-drifts-over-time",
-      "entityTitle": "Meaning Drifts Over Time",
+      "entityId": "learning-collapses",
+      "entityTitle": "Learning Collapses",
       "field": "relatedPatterns",
-      "currentValue": "meaning-outruns-the-words",
+      "currentValue": "leaders-feel-the-consequences",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-outruns-the-words'."
+      "suggestedFix": "Consider adding 'learning-collapses' to relatedPatterns on 'leaders-feel-the-consequences'."
     },
     {
       "severity": "info",
@@ -3193,12 +2533,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-forms-early",
-      "entityTitle": "Meaning Forms Early",
+      "entityId": "meaning-drifts-over-time",
+      "entityTitle": "Meaning Drifts Over Time",
       "field": "relatedPatterns",
-      "currentValue": "gaps-invite-completion",
+      "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-forms-early' to relatedPatterns on 'gaps-invite-completion'."
+      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-outruns-the-words'."
     },
     {
       "severity": "info",
@@ -3215,12 +2555,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-gets-distorted",
-      "entityTitle": "Meaning Gets Distorted",
+      "entityId": "meaning-forms-early",
+      "entityTitle": "Meaning Forms Early",
       "field": "relatedPatterns",
-      "currentValue": "meaning-reinforces-itself",
+      "currentValue": "gaps-invite-completion",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'meaning-reinforces-itself'."
+      "suggestedFix": "Consider adding 'meaning-forms-early' to relatedPatterns on 'gaps-invite-completion'."
     },
     {
       "severity": "info",
@@ -3237,12 +2577,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-outruns-the-words",
-      "entityTitle": "Meaning Outruns the Words",
+      "entityId": "meaning-gets-distorted",
+      "entityTitle": "Meaning Gets Distorted",
       "field": "relatedPatterns",
-      "currentValue": "gaps-invite-completion",
+      "currentValue": "meaning-reinforces-itself",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-outruns-the-words' to relatedPatterns on 'gaps-invite-completion'."
+      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'meaning-reinforces-itself'."
     },
     {
       "severity": "info",
@@ -3259,12 +2599,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-reinforces-itself",
-      "entityTitle": "Meaning Reinforces Itself",
+      "entityId": "meaning-outruns-the-words",
+      "entityTitle": "Meaning Outruns the Words",
       "field": "relatedPatterns",
-      "currentValue": "meaning-shifts-under-pressure",
+      "currentValue": "gaps-invite-completion",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-shifts-under-pressure'."
+      "suggestedFix": "Consider adding 'meaning-outruns-the-words' to relatedPatterns on 'gaps-invite-completion'."
     },
     {
       "severity": "info",
@@ -3276,6 +2616,17 @@
       "currentValue": "meaning-gets-distorted",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-gets-distorted'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "meaning-reinforces-itself",
+      "entityTitle": "Meaning Reinforces Itself",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-shifts-under-pressure",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-shifts-under-pressure'."
     },
     {
       "severity": "info",
@@ -3350,9 +2701,9 @@
       "entityId": "scrutiny-preserves-trust",
       "entityTitle": "Scrutiny Preserves Trust",
       "field": "relatedPatterns",
-      "currentValue": "admiration-becomes-insulation",
+      "currentValue": "revisability-preserves-judgment",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'scrutiny-preserves-trust' to relatedPatterns on 'admiration-becomes-insulation'."
+      "suggestedFix": "Consider adding 'scrutiny-preserves-trust' to relatedPatterns on 'revisability-preserves-judgment'."
     },
     {
       "severity": "info",
@@ -3361,9 +2712,9 @@
       "entityId": "scrutiny-preserves-trust",
       "entityTitle": "Scrutiny Preserves Trust",
       "field": "relatedPatterns",
-      "currentValue": "revisability-preserves-judgment",
+      "currentValue": "admiration-becomes-insulation",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'scrutiny-preserves-trust' to relatedPatterns on 'revisability-preserves-judgment'."
+      "suggestedFix": "Consider adding 'scrutiny-preserves-trust' to relatedPatterns on 'admiration-becomes-insulation'."
     },
     {
       "severity": "info",
@@ -3494,7 +2845,7 @@
       "entityTitle": "semantic",
       "field": "generatedAt",
       "currentValue": {
-        "build": "2026-07-07T05:28:08.873864+00:00",
+        "build": "2026-07-07T05:33:46.054047+00:00",
         "snapshot": "2026-07-05T21:49:00.134567+00:00"
       },
       "reason": "Portfolio audit snapshot appears older than build manifest.",

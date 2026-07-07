@@ -4,7 +4,10 @@ name: 'Chris Argyris and Donald A Schön — Organizational Learning II: Theory,
 type: book
 summary: 'Argyris, Chris, and Donald A. Schon. *Organizational Learning II: Theory,
   Method, and Practice*. Reading, MA: Addison-Wesley, 1996.'
-concepts: []
+concepts:
+- contestability
+- correction
+- feedback
 patterns: []
 relatedBooks:
 - when-others-look-to-you-v2
