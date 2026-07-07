@@ -1,0 +1,555 @@
+# Semantic graph data-quality audit
+
+## Executive summary
+
+- Repository type: **source**
+- Input files: build/semantic-manifest.json, build/books-manifest.json
+- Errors: **0**
+- Warnings: **140**
+- Info: **317**
+- Entities scanned: {'books': 28, 'concepts': 137, 'patterns': 30, 'thinkers': 339, 'sources': 408, 'relationships': 110}
+
+## Top priority issues
+
+- **[warning]** book-metadata / book `when-others-look-to-you-v1` — Duplicate or near-duplicate book titles. — *Model editions explicitly or differentiate titles.*
+- **[warning]** concept-metadata / concept `abstraction` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `acceleration` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `accountability` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `agency` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `agile` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `alignment-at-scale` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `answerability` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `asymmetry` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `attention` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `authority` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `authorization` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `bias` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `bureaucracy` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `care` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `certainty` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `circulation` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `coercion` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `cohesion` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- **[warning]** concept-metadata / concept `compression` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+
+## Issue counts by category
+
+- concept-metadata: 165
+- pattern-metadata: 120
+- relationship-quality: 80
+- source-metadata: 37
+- thinker-metadata: 27
+- slug-quality: 16
+- book-metadata: 10
+- manifest-consistency: 2
+
+## Relationship vocabulary (top labels)
+
+- `contrasts` (concept → concept): 80 — e.g. [{'source': 'repair', 'target': 'witness'}, {'source': 'correction', 'target': 'repair'}]
+- `preserves` (concept → concept): 28 — e.g. [{'source': 'friction', 'target': 'corrigibility'}, {'source': 'uncertainty', 'target': 'correction'}]
+- `structural_tension` (concept → concept): 20 — e.g. [{'source': 'circulation', 'target': 'correction'}, {'source': 'authority', 'target': 'legitimacy'}]
+- `requires` (concept → concept): 18 — e.g. [{'source': 'correction', 'target': 'revisability'}, {'source': 'cohesion', 'target': 'boundary'}]
+- `thins` (concept → concept): 18 — e.g. [{'source': 'scale', 'target': 'correction'}, {'source': 'scale', 'target': 'feedback'}]
+- `enables` (concept → concept): 10 — e.g. [{'source': 'coupling', 'target': 'correction'}, {'source': 'feedback', 'target': 'correction'}]
+- `shapes` (concept → concept): 8 — e.g. [{'source': 'boundary', 'target': 'coupling'}, {'source': 'boundary', 'target': 'accountability'}]
+- `precedes` (concept → concept): 6 — e.g. [{'source': 'public-interpretation', 'target': 'interpretive-collapse'}, {'source': 'drift', 'target': 'normalization'}]
+- `grounds` (concept → concept): 4 — e.g. [{'source': 'finite-perspective', 'target': 'bias'}, {'source': 'finite-perspective', 'target': 'trust'}]
+- `renews` (concept → concept): 4 — e.g. [{'source': 'correction', 'target': 'legitimacy'}, {'source': 'coupling', 'target': 'legitimacy'}]
+- `reproduces` (concept → concept): 4 — e.g. [{'source': 'circulation', 'target': 'authority'}, {'source': 'alignment', 'target': 'alignment-at-scale'}]
+- `stabilizes` (concept → concept): 4 — e.g. [{'source': 'certainty', 'target': 'coordination'}, {'source': 'circulation', 'target': 'meaning'}]
+- `calibrates` (concept → concept): 2 — e.g. [{'source': 'feedback', 'target': 'trust'}, {'source': 'feedback', 'target': 'trust'}]
+- `complements` (concept → concept): 2 — e.g. [{'source': 'cohesion', 'target': 'coupling'}, {'source': 'cohesion', 'target': 'coupling'}]
+- `constrains` (concept → concept): 2 — e.g. [{'source': 'certainty', 'target': 'corrigibility'}, {'source': 'certainty', 'target': 'corrigibility'}]
+
+## Suspected duplicates
+
+- source `centers-for-medicare-medicaid-services-hospital-readmissions`: Institution field duplicates a creator name (person misfiled as org).
+- source `federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs`: Institution field duplicates a creator name (person misfiled as org).
+- source `haspeslagh-philippe-c-and-david-b-jemison-managing-acquisitions-creating-value-from-corporate-an`: Institution field duplicates a creator name (person misfiled as org).
+- source `international-organization-for-standardization-iso-iec-42001-2023-information-technology-artific`: Institution field duplicates a creator name (person misfiled as org).
+- source `national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate`: Institution field duplicates a creator name (person misfiled as org).
+- source `u-s-bureau-of-labor-statistics-consumer-price-index-cpi-news-releases-and-databases-2020-2024-ht`: Institution field duplicates a creator name (person misfiled as org).
+- source `u-s-bureau-of-labor-statistics-employment-situation-news-releases-job-openings-and-labor-turnove`: Institution field duplicates a creator name (person misfiled as org).
+- source `u-s-census-bureau-housing-statistics-and-american-community-survey-materials-on-regional-cost-pr`: Institution field duplicates a creator name (person misfiled as org).
+- source `u-s-department-of-defense-dod-std-2167a-defense-system-software-development`: Institution field duplicates a creator name (person misfiled as org).
+- source `u-s-securities-and-exchange-commission-office-of-the-whistleblower-annual-reports-to-congress-ht`: Institution field duplicates a creator name (person misfiled as org).
+- source `world-bank-state-and-trends-of-carbon-pricing`: Institution field duplicates a creator name (person misfiled as org).
+- book `when-others-look-to-you-v1`: Duplicate or near-duplicate book titles.
+- relationship `feedback->correction`: Duplicate relationship edge.
+
+## Stale or divergent manifests
+
+- Portfolio audit snapshot appears older than build manifest. (`semantic`)
+- Portfolio audit snapshot appears older than build manifest. (`books`)
+
+## Recommended next fixes
+
+1. Fix **error**-severity issues first (dangling refs, manifest divergence, bad years).
+2. Address **warning**-severity metadata and slug issues.
+3. For original-synthesis patterns, add optional `evidenceType` or `grounding` (no schema break).
+4. Regenerate manifests: `make verify-semantic-manifest` and `make verify-books-manifest`.
+5. Future: optional `auditWaivers` YAML for known false positives.
+
+## Full issue list
+
+### Warning
+
+- **book-metadata** — book `when-others-look-to-you-v1` (when others look to you): Duplicate or near-duplicate book titles.
+- **concept-metadata** — concept `abstraction` (Abstraction): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `acceleration` (Acceleration): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `accountability` (Accountability): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `agency` (Agency): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `agile` (Agile): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `alignment-at-scale` (Alignment at scale): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `answerability` (Answerability): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `asymmetry` (Asymmetry): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `attention` (Attention): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `authority` (Authority): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `authorization` (Authorization): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `bias` (Bias): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `bureaucracy` (Bureaucracy): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `care` (Care): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `certainty` (Certainty): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `circulation` (Circulation): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `coercion` (Coercion): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `cohesion` (Cohesion): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `compression` (Compression): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `connection` (Connection): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `consequence` (Consequence): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `consequence-architecture` (Consequence Architecture): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `contact` (Contact): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `contestability` (Contestability): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `context-collapse` (Context Collapse): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `contract` (Contract): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `coordination` (Coordination): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `correction` (Correction): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `corrigibility` (Corrigibility): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `coupling` (Coupling): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `devops` (DevOps): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `distance` (Distance): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `dora` (DORA): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `drift` (Drift): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `effectiveness` (Effectiveness): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `erosion` (Erosion): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `exit` (Exit): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `exposure` (Exposure): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `feedback` (Feedback): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `friction` (Friction): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `harm` (Harm): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `hexagonal-architecture` (Hexagonal Architecture): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `inheritance` (Inheritance): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `institutional-memory` (Institutional memory): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `integration` (Integration): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `interface` (Interface): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `interpretation` (Interpretation): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `interpretive-collapse` (Interpretive collapse): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `judgment` (Judgment): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `legibility` (Legibility): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `legitimacy` (Legitimacy): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `machine-perspective` (Machine perspective): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `meaning` (Meaning): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `mediation` (Mediation): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `momentum` (Momentum): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `moral-density` (Moral Density): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `moral-surplus` (Moral Surplus): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `narrative-enclosure` (Narrative enclosure): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `normalization` (Normalization): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `performative-legitimacy` (Performative legitimacy): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `permission` (Permission): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `post-interpretive-authority` (Post-interpretive authority): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `private-understanding` (Private understanding): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `proportionality` (Proportionality): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `proximity` (Proximity): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `public-interpretation` (Public interpretation): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `reciprocity` (Reciprocity): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `relational-credibility` (Relational Credibility): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `renewal` (Renewal): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `repair` (Repair): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `responsibility` (Responsibility): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `reversibility` (Reversibility): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `revisability` (Revisability): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `scale` (Scale): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `shift-left` (Shift Left): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `thinking` (Thinking): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `throughput` (Throughput): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `total-authority` (Total authority): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `trust` (Trust): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `uncertainty` (Uncertainty): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `vitality` (Vitality): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `waterfall` (Waterfall): Definition appears tautological (repeats the title).
+- **concept-metadata** — concept `witness` (Witness): Definition appears tautological (repeats the title).
+- **relationship-quality** — relationship `feedback->correction` (enables): Duplicate relationship edge.
+- **slug-quality** — thinker `bren-brown` (Brené Brown): Slug appears damaged by diacritic stripping.
+- **slug-quality** — thinker `bren-brown` (Brené Brown): Slug may be stale after title change (diacritic damage).
+- **slug-quality** — thinker `carlos-escud` (Carlos Escudé): Slug appears damaged by diacritic stripping.
+- **slug-quality** — thinker `carlos-escud` (Carlos Escudé): Slug may be stale after title change (diacritic damage).
+- **slug-quality** — thinker `dietrich-d-rner` (Dietrich Dörner): Slug appears damaged by diacritic stripping.
+- **slug-quality** — thinker `dietrich-d-rner` (Dietrich Dörner): Slug may be stale after title change (diacritic damage).
+- **slug-quality** — thinker `donald-a-sch-n` (Donald A Schön): Slug appears damaged by diacritic stripping.
+- **slug-quality** — thinker `donald-a-sch-n` (Donald A Schön): Slug may be stale after title change (diacritic damage).
+- **slug-quality** — thinker `frank-dik-tter` (Frank Dikötter): Slug appears damaged by diacritic stripping.
+- **slug-quality** — thinker `frank-dik-tter` (Frank Dikötter): Slug may be stale after title change (diacritic damage).
+- **slug-quality** — thinker `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford` (Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford): Slug appears damaged by diacritic stripping.
+- **slug-quality** — thinker `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford` (Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford): Slug may be stale after title change (diacritic damage).
+- **slug-quality** — thinker `j-rgen-habermas` (Jürgen Habermas): Slug appears damaged by diacritic stripping.
+- **slug-quality** — thinker `j-rgen-habermas` (Jürgen Habermas): Slug may be stale after title change (diacritic damage).
+- **slug-quality** — thinker `l-on-krier` (Léon Krier): Slug appears damaged by diacritic stripping.
+- **slug-quality** — thinker `l-on-krier` (Léon Krier): Slug may be stale after title change (diacritic damage).
+- **source-metadata** — source `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` (Why Nations Fail: The Origins of Power,): Title or name ends with dangling punctuation.
+- **source-metadata** — source `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` (Why Nations Fail: The Origins of Power,): Title or name ends with dangling punctuation.
+- **source-metadata** — source `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language` (A Pattern Language:): Title or name ends with dangling punctuation.
+- **source-metadata** — source `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language` (A Pattern Language:): Title or name ends with dangling punctuation.
+- **source-metadata** — source `argyris-chris-and-donald-a-schon-organizational-learning-ii` (Organizational Learning II:): Title or name ends with dangling punctuation.
+- **source-metadata** — source `argyris-chris-and-donald-a-schon-organizational-learning-ii` (Organizational Learning II:): Title or name ends with dangling punctuation.
+- **source-metadata** — source `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr` (Manifesto for Agile Software Development.): Creator name appears to be a full citation string.
+- **source-metadata** — source `board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ` (Report on the Economic Well-Being of U.S. Households): Institutional statistics or report classified like a book.
+- **source-metadata** — source `centers-for-medicare-medicaid-services-hospital-readmissions` (Hospital Readmissions Reduction Program (HRRP). Program overview and statutory authority. Updated 2023): Institution field duplicates a creator name (person misfiled as org).
+- **source-metadata** — source `fahey-liam-and-robert-m-randall-eds-learning-from-the-future` (Learning from the Future:): Title or name ends with dangling punctuation.
+- **source-metadata** — source `fahey-liam-and-robert-m-randall-eds-learning-from-the-future` (Learning from the Future:): Title or name ends with dangling punctuation.
+- **source-metadata** — source `federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs` (Aviation Safety Reporting System (ASRS).): Institution field duplicates a creator name (person misfiled as org).
+- **source-metadata** — source `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum` (Datasheets for Datasets.): Creator name appears to be a full citation string.
+- **source-metadata** — source `haspeslagh-philippe-c-and-david-b-jemison-managing-acquisitions-creating-value-from-corporate-an` (Managing Acquisitions: Creating Value from Corporate and Technology Acquisitions): Institution field duplicates a creator name (person misfiled as org).
+- **source-metadata** — source `henrich-joseph-the-secret-of-our-success-how-culture-is-driving-human-evolution` (The Secret of Our Success: How Culture Is Driving Human Evolution,): Title or name ends with dangling punctuation.
+- **source-metadata** — source `henrich-joseph-the-secret-of-our-success-how-culture-is-driving-human-evolution` (The Secret of Our Success: How Culture Is Driving Human Evolution,): Title or name ends with dangling punctuation.
+- **source-metadata** — source `hirschman-albert-o-the-rhetoric-of-reaction-perversity-futility` (The Rhetoric of Reaction: Perversity, Futility,): Title or name ends with dangling punctuation.
+- **source-metadata** — source `hirschman-albert-o-the-rhetoric-of-reaction-perversity-futility` (The Rhetoric of Reaction: Perversity, Futility,): Title or name ends with dangling punctuation.
+- **source-metadata** — source `international-organization-for-standardization-iso-iec-42001-2023-information-technology-artific` (ISO/IEC 42001:2023 — Information Technology — Artificial Intelligence — Management System): Institution field duplicates a creator name (person misfiled as org).
+- **source-metadata** — source `maslach-christina-and-michael-p-leiter-the-truth-about-burnout` (The Truth About Burnout:): Title or name ends with dangling punctuation.
+- **source-metadata** — source `maslach-christina-and-michael-p-leiter-the-truth-about-burnout` (The Truth About Burnout:): Title or name ends with dangling punctuation.
+- **source-metadata** — source `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp` (Model Cards for Model Reporting.): Creator name appears to be a full citation string.
+- **source-metadata** — source `national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate` (Aviation Safety Reporting System (ASRS) program materials.): Institution field duplicates a creator name (person misfiled as org).
+- **source-metadata** — source `ross-lee-the-intuitive-psychologist-and-his-shortcomings` (The Intuitive Psychologist and His Shortcomings:): Title or name ends with dangling punctuation.
+- **source-metadata** — source `ross-lee-the-intuitive-psychologist-and-his-shortcomings` (The Intuitive Psychologist and His Shortcomings:): Title or name ends with dangling punctuation.
+- **source-metadata** — source `tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me` (Mistakes Were Made (But Not by Me):): Title or name ends with dangling punctuation.
+- **source-metadata** — source `tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me` (Mistakes Were Made (But Not by Me):): Title or name ends with dangling punctuation.
+- **source-metadata** — source `u-s-bureau-of-labor-statistics-consumer-price-index-cpi-news-releases-and-databases-2020-2024-ht` (Consumer Price Index (CPI) news releases and databases): Institution field duplicates a creator name (person misfiled as org).
+- **source-metadata** — source `u-s-bureau-of-labor-statistics-employment-situation-news-releases-job-openings-and-labor-turnove` (Employment Situation news releases; Job Openings and Labor Turnover Survey (JOLTS)): Institution field duplicates a creator name (person misfiled as org).
+- **source-metadata** — source `u-s-census-bureau-housing-statistics-and-american-community-survey-materials-on-regional-cost-pr` (Housing statistics and American Community Survey materials on regional cost pressures): Institution field duplicates a creator name (person misfiled as org).
+- **source-metadata** — source `u-s-department-of-defense-dod-std-2167a-defense-system-software-development` (Defense System Software Development): Institution field duplicates a creator name (person misfiled as org).
+- **source-metadata** — source `u-s-securities-and-exchange-commission-office-of-the-whistleblower-annual-reports-to-congress-ht` (Annual reports to Congress.): Institution field duplicates a creator name (person misfiled as org).
+- **source-metadata** — source `vaughan-diane-the-challenger-launch-decision-risky-technology-culture-and-deviance-at-nasa` (The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA): Institutional statistics or report classified like a book.
+- **source-metadata** — source `world-bank-state-and-trends-of-carbon-pricing` (State and Trends of Carbon Pricing): Institution field duplicates a creator name (person misfiled as org).
+- **source-metadata** — source `yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of` (yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of): name lacks Author — Title separator and title is missing or equals name: 'Yellen, Janet L. Speeches on inflation, labor markets, and financial stability, Board of Governors of the Federal Reserve System and U.S. Department of the Treasury, 2021–2024'
+- **source-metadata** — source `yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of` (Yellen, Janet L. Speeches on inflation, labor markets, and financial stability, Board of Governors of the Federal Reserve System and U.S. Department of the Treasury, 2021–2024): Creator name appears to be a full citation string.
+- **source-metadata** — source `yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of` (Yellen, Janet L. Speeches on inflation, labor markets, and financial stability, Board of Governors of the Federal Reserve System and U.S. Department of the Treasury, 2021–2024): Institutional statistics or report classified like a book.
+- **thinker-metadata** — thinker `open-science-collaboration` (Open Science Collaboration): Person-like name classified as organization.
+- **thinker-metadata** — thinker `world-bank` (World Bank): Person-like name classified as organization.
+### Info
+
+- **book-metadata** — book `before-certainty-arrives` (Before Certainty Arrives): Book has unusually many concepts compared to peers.
+- **book-metadata** — book `boundary-conditions` (Boundary Conditions): Published book has no sources while peers typically do.
+- **book-metadata** — book `coupling` (Coupling): Book has unusually many concepts compared to peers.
+- **book-metadata** — book `curiosity-before-certainty` (Curiosity Before Certainty): Published book has no sources while peers typically do.
+- **book-metadata** — book `everyone-knows-love` (Everyone Knows Love): Published book has no sources while peers typically do.
+- **book-metadata** — book `observer-patterns` (Observer Patterns): Published book has no sources while peers typically do.
+- **book-metadata** — book `the-relay` (The Relay): Published book has no sources while peers typically do.
+- **book-metadata** — book `velorum` (Velorum): Published book has no sources while peers typically do.
+- **book-metadata** — book `why-diversity-matters` (Why Diversity Matters): Published book has no sources while peers typically do.
+- **concept-metadata** — concept `abstraction` (Abstraction): Concept has no related concepts.
+- **concept-metadata** — concept `adaptability` (Adaptability): Concept has no related concepts.
+- **concept-metadata** — concept `agile` (Agile): Concept has no related concepts.
+- **concept-metadata** — concept `asymmetry` (Asymmetry): Concept has no related concepts.
+- **concept-metadata** — concept `attention-budget` (Attention budget): Concept has no related concepts.
+- **concept-metadata** — concept `bureaucracy` (Bureaucracy): Concept has no related concepts.
+- **concept-metadata** — concept `circulation` (Circulation): Concept has no related concepts.
+- **concept-metadata** — concept `coherence-maintenance` (Coherence Maintenance): Concept has no related concepts.
+- **concept-metadata** — concept `compression` (Compression): Concept has no related concepts.
+- **concept-metadata** — concept `consequence` (Consequence): Concept has no related concepts.
+- **concept-metadata** — concept `contestability` (Contestability): Concept has no related concepts.
+- **concept-metadata** — concept `context-collapse` (Context Collapse): Concept has no related concepts.
+- **concept-metadata** — concept `contract` (Contract): Concept has no related concepts.
+- **concept-metadata** — concept `contribution-asymmetry` (Contribution asymmetry): Concept has no related concepts.
+- **concept-metadata** — concept `coordination` (Coordination): Concept has no related concepts.
+- **concept-metadata** — concept `coordination-pressure` (Coordination Pressure): Concept has no related concepts.
+- **concept-metadata** — concept `corrigibility` (Corrigibility): Concept has no related concepts.
+- **concept-metadata** — concept `counterfactual-success` (Counterfactual Success): Concept has no related concepts.
+- **concept-metadata** — concept `decay` (Decay): Concept has no related concepts.
+- **concept-metadata** — concept `democratic-procedures-can-persist-while-shared-meaning-erodes` (Democratic Procedures Can Persist While Shared Meaning Erodes): Concept has no related concepts.
+- **concept-metadata** — concept `designed-friction` (Designed friction): Concept has no related concepts.
+- **concept-metadata** — concept `devops` (DevOps): Concept has no related concepts.
+- **concept-metadata** — concept `diffuse-ownership` (Diffuse ownership): Concept has no related concepts.
+- **concept-metadata** — concept `distance` (Distance): Concept has no related concepts.
+- **concept-metadata** — concept `dora` (DORA): Concept has no related concepts.
+- **concept-metadata** — concept `engagement` (Engagement): Concept has no related concepts.
+- **concept-metadata** — concept `erosion` (Erosion): Concept has no related concepts.
+- **concept-metadata** — concept `exit` (Exit): Concept has no related concepts.
+- **concept-metadata** — concept `experiential-cross-checking` (Experiential Cross-Checking): Concept has no related concepts.
+- **concept-metadata** — concept `exposure` (Exposure): Concept has no related concepts.
+- **concept-metadata** — concept `fairness` (Fairness): Concept has no related concepts.
+- **concept-metadata** — concept `formation` (Formation): Concept has no related concepts.
+- **concept-metadata** — concept `governance-coupling` (Governance Coupling): Concept has no related concepts.
+- **concept-metadata** — concept `harm` (Harm): Concept has no related concepts.
+- **concept-metadata** — concept `hexagonal-architecture` (Hexagonal Architecture): Concept has no related concepts.
+- **concept-metadata** — concept `humility` (Humility): Concept has no related concepts.
+- **concept-metadata** — concept `identity-saturated-political-authority` (Identity-saturated political authority): Concept has no related concepts.
+- **concept-metadata** — concept `identity-saturation` (Identity saturation): Concept has no related concepts.
+- **concept-metadata** — concept `incentives` (Incentives): Concept has no related concepts.
+- **concept-metadata** — concept `institutional-memory` (Institutional memory): Concept has no related concepts.
+- **concept-metadata** — concept `interface` (Interface): Concept has no related concepts.
+- **concept-metadata** — concept `invariant` (Invariant): Concept has no related concepts.
+- **concept-metadata** — concept `invisible-labor` (Invisible labor): Concept has no related concepts.
+- **concept-metadata** — concept `judgment-failure` (Judgment failure): Concept has no related concepts.
+- **concept-metadata** — concept `legibility` (Legibility): Concept has no related concepts.
+- **concept-metadata** — concept `legitimacy-over-time` (Legitimacy Over Time): Concept has no related concepts.
+- **concept-metadata** — concept `mediation` (Mediation): Concept has no related concepts.
+- **concept-metadata** — concept `memory-archive` (Memory archive): Concept has no related concepts.
+- **concept-metadata** — concept `momentum` (Momentum): Concept has no related concepts.
+- **concept-metadata** — concept `moral-density` (Moral Density): Concept has no related concepts.
+- **concept-metadata** — concept `moral-posture-toward-harm` (Moral Posture Toward Harm): Concept has no related concepts.
+- **concept-metadata** — concept `moral-surplus` (Moral Surplus): Concept has no related concepts.
+- **concept-metadata** — concept `operational-coupling` (Operational Coupling): Concept has no related concepts.
+- **concept-metadata** — concept `optimization` (Optimization): Concept has no related concepts.
+- **concept-metadata** — concept `partial-coherence` (Partial coherence): Concept has no related concepts.
+- **concept-metadata** — concept `polling` (Polling): Concept has no related concepts.
+- **concept-metadata** — concept `proportionality` (Proportionality): Concept has no related concepts.
+- **concept-metadata** — concept `provisional-commitment` (Provisional commitment): Concept has no related concepts.
+- **concept-metadata** — concept `publishing` (Publishing): Concept has no related concepts.
+- **concept-metadata** — concept `reciprocity` (Reciprocity): Concept has no related concepts.
+- **concept-metadata** — concept `renewal` (Renewal): Concept has no related concepts.
+- **concept-metadata** — concept `residue` (Residue): Concept has no related concepts.
+- **concept-metadata** — concept `scalability` (Scalability): Concept has no related concepts.
+- **concept-metadata** — concept `scale` (Scale): Concept has no related concepts.
+- **concept-metadata** — concept `shared-contribution` (Shared contribution): Concept has no related concepts.
+- **concept-metadata** — concept `shared-movement` (Shared movement): Concept has no related concepts.
+- **concept-metadata** — concept `shift-left` (Shift Left): Concept has no related concepts.
+- **concept-metadata** — concept `sorting` (Sorting): Concept has no related concepts.
+- **concept-metadata** — concept `stabilizing-practices` (Stabilizing practices): Concept has no related concepts.
+- **concept-metadata** — concept `stale-representation` (Stale Representation): Concept has no related concepts.
+- **concept-metadata** — concept `structural-fragility` (Structural fragility): Concept has no related concepts.
+- **concept-metadata** — concept `structure` (Structure): Concept has no related concepts.
+- **concept-metadata** — concept `system` (System): Concept has no related concepts.
+- **concept-metadata** — concept `targets` (Targets): Concept has no related concepts.
+- **concept-metadata** — concept `temporal-coupling` (Temporal Coupling): Concept has no related concepts.
+- **concept-metadata** — concept `thinking` (Thinking): Concept has no related concepts.
+- **concept-metadata** — concept `throughput` (Throughput): Concept has no related concepts.
+- **concept-metadata** — concept `transitional-authority` (Transitional authority): Concept has no related concepts.
+- **concept-metadata** — concept `uncertainty` (Uncertainty): Concept has no related concepts.
+- **concept-metadata** — concept `vitality` (Vitality): Concept has no related concepts.
+- **concept-metadata** — concept `waterfall` (Waterfall): Concept has no related concepts.
+- **concept-metadata** — concept `who-can-leave-safely` (Who can leave safely): Concept has no related concepts.
+- **manifest-consistency** — manifest `books` (books): Portfolio audit snapshot appears older than build manifest.
+- **manifest-consistency** — manifest `semantic` (semantic): Portfolio audit snapshot appears older than build manifest.
+- **pattern-metadata** — pattern `admiration-becomes-insulation` (Admiration Becomes Insulation): Pattern has no related sources.
+- **pattern-metadata** — pattern `admiration-becomes-insulation` (Admiration Becomes Insulation): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `admiration-becomes-insulation` (Admiration Becomes Insulation): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `admiration-becomes-insulation` (Admiration Becomes Insulation): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `admiration-becomes-insulation` (Admiration Becomes Insulation): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern has no related sources.
+- **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern has no related sources.
+- **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern has no related sources.
+- **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern has no related sources.
+- **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `contact-keeps-the-read-open` (Contact Keeps the Read Open): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `contact-keeps-the-read-open` (Contact Keeps the Read Open): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern has no related sources.
+- **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `disagreement-is-suppressed` (Disagreement is Suppressed): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `disagreement-is-suppressed` (Disagreement is Suppressed): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern has no related sources.
+- **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `examples-accumulate` (Examples Accumulate): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `examples-accumulate` (Examples Accumulate): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern has no related sources.
+- **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `explanation-replaces-response` (Explanation Replaces Response): Pattern has no related sources.
+- **pattern-metadata** — pattern `explanation-replaces-response` (Explanation Replaces Response): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `explanation-replaces-response` (Explanation Replaces Response): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `explanation-replaces-response` (Explanation Replaces Response): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `explanation-replaces-response` (Explanation Replaces Response): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `feedback-drives-change` (Feedback Drives Change): Pattern has no related sources.
+- **pattern-metadata** — pattern `feedback-drives-change` (Feedback Drives Change): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `feedback-drives-change` (Feedback Drives Change): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `feedback-drives-change` (Feedback Drives Change): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `feedback-drives-change` (Feedback Drives Change): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `finality-compensates-for-uncertainty` (Finality Compensates for Uncertainty): Pattern has no related sources.
+- **pattern-metadata** — pattern `finality-compensates-for-uncertainty` (Finality Compensates for Uncertainty): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `finality-compensates-for-uncertainty` (Finality Compensates for Uncertainty): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `finality-compensates-for-uncertainty` (Finality Compensates for Uncertainty): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `finality-compensates-for-uncertainty` (Finality Compensates for Uncertainty): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `gaps-invite-completion` (Gaps Invite Completion): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `gaps-invite-completion` (Gaps Invite Completion): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `intent-gets-assigned` (Intent Gets Assigned): Pattern has no related sources.
+- **pattern-metadata** — pattern `intent-gets-assigned` (Intent Gets Assigned): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `intent-gets-assigned` (Intent Gets Assigned): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `intent-gets-assigned` (Intent Gets Assigned): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `intent-gets-assigned` (Intent Gets Assigned): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `leaders-feel-the-consequences` (Leaders Feel the Consequences): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `leaders-feel-the-consequences` (Leaders Feel the Consequences): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern has no related sources.
+- **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `leadership-reproduces-itself` (Leadership Reproduces Itself): Pattern has no related sources.
+- **pattern-metadata** — pattern `leadership-reproduces-itself` (Leadership Reproduces Itself): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `leadership-reproduces-itself` (Leadership Reproduces Itself): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `leadership-reproduces-itself` (Leadership Reproduces Itself): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `leadership-reproduces-itself` (Leadership Reproduces Itself): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `learning-collapses` (Learning Collapses): Pattern has no related sources.
+- **pattern-metadata** — pattern `learning-collapses` (Learning Collapses): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `learning-collapses` (Learning Collapses): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `learning-collapses` (Learning Collapses): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `learning-collapses` (Learning Collapses): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `meaning-drifts-over-time` (Meaning Drifts Over Time): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `meaning-drifts-over-time` (Meaning Drifts Over Time): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `meaning-forms-early` (Meaning Forms Early): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `meaning-forms-early` (Meaning Forms Early): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `meaning-gets-distorted` (Meaning Gets Distorted): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `meaning-gets-distorted` (Meaning Gets Distorted): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `meaning-outruns-the-words` (Meaning Outruns the Words): Pattern has no related sources.
+- **pattern-metadata** — pattern `meaning-outruns-the-words` (Meaning Outruns the Words): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `meaning-outruns-the-words` (Meaning Outruns the Words): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `meaning-outruns-the-words` (Meaning Outruns the Words): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `meaning-outruns-the-words` (Meaning Outruns the Words): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `meaning-reinforces-itself` (Meaning Reinforces Itself): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `meaning-reinforces-itself` (Meaning Reinforces Itself): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `meaning-shifts-under-pressure` (Meaning Shifts Under Pressure): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `meaning-shifts-under-pressure` (Meaning Shifts Under Pressure): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern has no related sources.
+- **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `revisability-preserves-judgment` (Revisability Preserves Judgment): Pattern has no related sources.
+- **pattern-metadata** — pattern `revisability-preserves-judgment` (Revisability Preserves Judgment): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `revisability-preserves-judgment` (Revisability Preserves Judgment): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `revisability-preserves-judgment` (Revisability Preserves Judgment): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `revisability-preserves-judgment` (Revisability Preserves Judgment): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `scrutiny-preserves-trust` (Scrutiny Preserves Trust): Pattern has no related sources.
+- **pattern-metadata** — pattern `scrutiny-preserves-trust` (Scrutiny Preserves Trust): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `scrutiny-preserves-trust` (Scrutiny Preserves Trust): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `scrutiny-preserves-trust` (Scrutiny Preserves Trust): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `scrutiny-preserves-trust` (Scrutiny Preserves Trust): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `speech-escalates-faster-than-meaning` (Speech Escalates Faster Than Meaning): Pattern has no related sources.
+- **pattern-metadata** — pattern `speech-escalates-faster-than-meaning` (Speech Escalates Faster Than Meaning): Pattern has no related thinkers.
+- **pattern-metadata** — pattern `speech-escalates-faster-than-meaning` (Speech Escalates Faster Than Meaning): Pattern appears to be original synthesis but does not say so.
+- **pattern-metadata** — pattern `speech-escalates-faster-than-meaning` (Speech Escalates Faster Than Meaning): Pattern relationship appears one-way; inverse may be expected.
+- **pattern-metadata** — pattern `speech-escalates-faster-than-meaning` (Speech Escalates Faster Than Meaning): Pattern relationship appears one-way; inverse may be expected.
+- **relationship-quality** — concept `correction` (correction): Entity has extremely high relationship density compared to peers.
+- **relationship-quality** — relationship `acceleration->friction` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `acceleration->friction` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `adaptation->authorization` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `adaptation->authorization` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `adaptation->drift` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `adaptation->drift` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `agency->judgment` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `agency->judgment` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `agency->responsibility` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `agency->responsibility` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `alignment->legitimacy` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `alignment->legitimacy` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `answerability->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `answerability->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `attention->bias` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `attention->bias` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `authority->legitimacy` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `authority->legitimacy` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `care->attention` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `care->attention` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `certainty->judgment` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `certainty->judgment` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `certainty->uncertainty` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `certainty->uncertainty` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `circulation->correction` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `circulation->correction` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `cohesion->coupling` (complements): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `cohesion->coupling` (complements): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `consequence->coupling` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `consequence->coupling` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `constraint->constraints` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `constraint->constraints` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `contestability->stability` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `contestability->stability` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `correction->repair` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `correction->repair` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `corrigibility->revisability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `corrigibility->revisability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `erosion->decay` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `erosion->decay` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `friction->contestability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `friction->contestability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `judgment->optimization` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `judgment->optimization` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `meaning->interpretation` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `meaning->interpretation` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `mediation->distance` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `mediation->distance` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `permission->authority` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `permission->authority` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `proximity->connection` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `proximity->connection` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `proximity->contact` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `proximity->contact` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `reciprocity->asymmetry` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `reciprocity->asymmetry` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `repair->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `repair->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `repair->witness` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `repair->witness` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `responsibility->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `responsibility->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `responsibility->answerability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `responsibility->answerability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `reversibility->revisability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `reversibility->revisability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `revisability->judgment` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `revisability->judgment` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `scale->moral-density` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `scale->moral-density` (structural_tension): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `throughput->acceleration` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `throughput->acceleration` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `trust->certainty` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `trust->certainty` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `witness->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `witness->accountability` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `witness->correction` (contrasts): Symmetric relationship label used in only one direction.
+- **relationship-quality** — relationship `witness->correction` (contrasts): Symmetric relationship label used in only one direction.
+- **thinker-metadata** — thinker `amershi-saleema-et-al` (amershi-saleema-et-al): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas` (beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `douglas-karen-m-et-al` (douglas-karen-m-et-al): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `druckman-james-n-et-al` (druckman-james-n-et-al): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `ford-neal-rebecca-parsons-and-patrick-kua` (ford-neal-rebecca-parsons-and-patrick-kua): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `freeh-sporkin-sullivan-llc` (freeh-sporkin-sullivan-llc): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `hendrycks-dan-collin-burns-anya-chen-and-spencer-ball` (hendrycks-dan-collin-burns-anya-chen-and-spencer-ball): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `john-carreyrou` (john-carreyrou): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `kati-marton` (kati-marton): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `knutti-reto-et-al` (knutti-reto-et-al): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `lewis-catherine-c-rebecca-r-perry-and-akihiko-murata` (lewis-catherine-c-rebecca-r-perry-and-akihiko-murata): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `maggie-haberman` (maggie-haberman): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `mellers-barbara-et-al` (mellers-barbara-et-al): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru` (mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `parker-ashley-and-michael-scherer` (parker-ashley-and-michael-scherer): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `peng-sida-et-al` (peng-sida-et-al): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh` (perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `peter-grady` (peter-grady): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `reeves-wiedeman` (reeves-wiedeman): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `richard-gott` (richard-gott): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `schulz-kenneth-f-et-al` (schulz-kenneth-f-et-al): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `susan-raine` (susan-raine): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `talbot-s-g-and-w-dean` (talbot-s-g-and-w-dean): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `wachsmuth-david-and-alexander-weisler` (wachsmuth-david-and-alexander-weisler): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `wright-stuart-a-ed` (wright-stuart-a-ed): summary or whyThisMatters still has auto-generated placeholder text

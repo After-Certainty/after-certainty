@@ -1,0 +1,97 @@
+# Semantic graph data-quality audit
+
+Systematic read-only audit of the After Certainty semantic graph: sources, thinkers, concepts, patterns, books, relationships, slugs, and manifest consistency.
+
+## Relationship to other checks
+
+| Command | Scope |
+|---------|--------|
+| `make verify-semantic-ontology` | Hard gate: schema, YAML parse, manifest round-trip, graph lint |
+| `make lint-semantic-graph` | Structural warnings (over-connected nodes, duplicate defs) |
+| `make audit-semantic-metadata-quality` | Source/thinker display-field metadata only |
+| `make audit-thinker-concepts` | Thinker↔concept coverage and creator slug alignment |
+| **`make audit-semantic-graph`** | **Unified data-quality audit with JSON + Markdown reports** |
+
+The unified audit **calls** the metadata-quality audit and adds broader checks. It does not replace the hard validation gate.
+
+## How to run
+
+```bash
+make audit-semantic-graph
+```
+
+Or directly:
+
+```bash
+python3 tools/audit_semantic_graph.py --repo .
+```
+
+Optional manifest overrides:
+
+```bash
+python3 tools/audit_semantic_graph.py \
+  --semantic-manifest build/semantic-manifest.json \
+  --books-manifest build/books-manifest.json
+```
+
+If `build/` manifests are missing, the audit auto-discovers:
+
+1. `build/semantic-manifest.json` / `build/books-manifest.json`
+2. `docs/portfolio-audit/data/semantic-manifest.json` / `books-manifest.json` (snapshot)
+
+For best results, generate fresh manifests first:
+
+```bash
+make verify-semantic-manifest
+make verify-books-manifest
+make audit-semantic-graph
+```
+
+## Output
+
+| File | Format |
+|------|--------|
+| `reports/semantic-graph-audit.json` | Machine-readable (CI, automation) |
+| `reports/semantic-graph-audit.md` | Human-readable summary |
+
+## Severity rubric
+
+| Severity | Meaning |
+|----------|---------|
+| **error** | Likely data bug (bad year, dangling ref, manifest divergence) |
+| **warning** | Review recommended (metadata heuristic, slug damage, tautological defs) |
+| **info** | Outlier or sparsity (unlinked entity, missing optional enrichment) |
+
+The audit exits 0 by default (advisory). It does not mutate YAML or manifests.
+
+## What is checked
+
+- **Source metadata** — years (including page-range misparsing), truncated titles, citation leaks, type mismatches
+- **Thinker metadata** — person/org classification, empty summaries, disconnected thinkers
+- **Concept metadata** — missing/tautological/short definitions, sparse grounding, high-traffic thin concepts
+- **Pattern metadata** — missing links, duplicate titles, original synthesis without `evidenceType`
+- **Book metadata** — manifest divergence, duplicate titles, concept-count outliers
+- **Relationships** — dangling refs, duplicates, unsupported labels, vocabulary inventory
+- **Slug quality** — diacritic damage, collisions, filename mismatches
+- **Manifest consistency** — stale portfolio-audit snapshots vs `build/`
+
+## Adding new checks
+
+1. Add a function in [`tools/semantic_graph_audit.py`](../tools/semantic_graph_audit.py) returning `list[AuditIssue]`.
+2. Register it in `run_audit()`.
+3. Add a pytest fixture in [`tests/test_audit_semantic_graph.py`](../tests/test_audit_semantic_graph.py).
+
+Use `get_list(entity, "relatedConcepts", "concepts")` for schema-tolerant field access.
+
+## Waiving false positives
+
+No waiver mechanism is implemented yet. A future optional `auditWaivers` YAML (per-entity check suppressions) can be added without breaking the schema. Until then, document known false positives in PR notes.
+
+## Site repository (`after-certainty-site`)
+
+The site consumes release artifacts (`semantic-manifest.json`, `books-manifest.json`). Options:
+
+1. Publish `semantic-graph-audit.json` from this repo's CI and link to it from the site, or
+2. Vendor shared audit helpers and run against downloaded manifests in the site repo.
+
+Canonical fixes belong in this content repo under `semantic/`.

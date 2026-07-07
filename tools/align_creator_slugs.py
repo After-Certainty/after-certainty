@@ -264,7 +264,6 @@ def augment_thinker_works(repo: Path, *, apply: bool) -> list[str]:
     additions["ross-lee-and-richard-nisbett"].update(
         {
             "ross-lee-the-intuitive-psychologist-and-his-shortcomings",
-            "ross-lee-and-richard-e-nisbett-the-person-and-the-situation",
         }
     )
     for thinker_slug, work_slugs in additions.items():
