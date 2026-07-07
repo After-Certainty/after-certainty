@@ -76,10 +76,10 @@ not philosophical positions. They were survival equipment.
 
 ### **Coordination Before Explanation**
 
-Explanation requires distance. It requires time, language, and cognitive
-surplus. Early moral systems could not always depend on prolonged
-explanation or deliberation when material pressures demanded immediate
-coordination.
+Extended explanation requires time, safety, and enough distance from
+immediate pressure to deliberate. Early moral systems could not always
+depend on prolonged explanation or deliberation when material pressures
+demanded immediate coordination.
 
 Meaning was therefore embedded in practice. Rituals did not need to be
 explained in order to work. Taboos did not require justification to be
@@ -118,10 +118,11 @@ is often an adaptive response. Under some conditions of threat, tighter
 norm enforcement can improve cohesion, though the relationship varies
 substantially across groups and environments.
 
-Evolutionary and cultural anthropology support this reframing: norm
-repetition, moral rigidity, and deference to authority tend to increase
-group cohesion under conditions of threat. Early certainty was not a
-misunderstanding of moral complexity. It was a way of surviving it.
+Evidence from evolutionary and cultural anthropology suggests that, in
+some conditions of threat, repeated norms and recognized authority can
+strengthen cohesion, though their effects vary across groups and
+environments. Early certainty was not a misunderstanding of moral
+complexity. It was a way of surviving it.
 
 ### **Why Early Certainty Was Necessary**
 

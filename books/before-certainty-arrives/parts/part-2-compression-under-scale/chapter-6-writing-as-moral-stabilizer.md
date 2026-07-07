@@ -11,15 +11,15 @@ c. 800 BCE – 500 CE
 Mediterranean world, South Asia, East Asia
 *(Scripture, canon, law, bureaucracy across empires)*
 
-In the third century BCE, orders from the Mauryan emperor Ashoka were
-cut into rock faces and polished pillars across a vast empire. Related
-formulations appeared across provinces, repeatedly naming restraint toward
-living beings, obedience to parents and elders, respect for teachers,
-mercy in judgment, and duties owed to neighbors and officials—though
-wording, script, and emphasis varied by location and audience. A traveler
-who could not read might still hear the text read aloud; a provincial
-officer who would never see the emperor could still enforce what the
-stone declared.[^c6-ashoka-edicts]
+In the third century BCE, inscriptions commissioned by the Mauryan
+emperor Ashoka were cut into rock faces and polished pillars across a
+vast empire. Related formulations appeared across provinces, repeatedly
+naming restraint toward living beings, obedience to parents and elders,
+respect for teachers, mercy in judgment, and duties owed to neighbors
+and officials—though wording, script, and emphasis varied by location
+and audience. A traveler who could not read might still hear the text
+read aloud; a provincial officer who would never see the emperor could
+still act under the standards the stone declared.[^c6-ashoka-edicts]
 
 The edicts made dharma visible as public obligation—not private insight
 alone, but conduct legible across distance. What had once depended on
@@ -97,18 +97,18 @@ Once writing multiplied voices, communities faced a different problem:
 how to prevent endless fragmentation without returning entirely to oral
 authority.
 
-At Qumran and in related Jewish communities of the late Second Temple
-period, scribes copied and preserved texts treated with differing forms
-of authority—Torah, prophets, hymns, rules for community life—alongside
+At Qumran, and more broadly within the late Second Temple Jewish world,
+scribes copied and preserved texts treated with differing forms of
+authority—Torah, prophets, hymns, rules for community life—alongside
 other writings whose status remained less settled.[^c6-qumran-canon]
 Careful copying made a text durable. It did not by itself mean that a
-single, closed canon had already been agreed upon. Communities could
-treat multiple writings as binding while still disputing which texts
-belonged at the center and which did not.
+single, closed canon had already been agreed upon. Multiple writings
+could carry binding force even while the boundaries of authoritative
+collections remained unsettled.
 
-Where formal canon did eventually take shape, it answered a practical
-problem: which words would be treated as authoritative across generations
-and which interpretations could claim inherited force.
+Where more formally bounded canons eventually developed, they answered a
+practical problem: which words would be treated as authoritative across
+generations and which interpretations could claim inherited force.
 
 But canon also slowed revision.
 

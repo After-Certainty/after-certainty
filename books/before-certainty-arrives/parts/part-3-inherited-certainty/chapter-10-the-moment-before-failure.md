@@ -23,8 +23,9 @@ the map and the ground widens.
 On August 28, 2005, as Hurricane Katrina approached the Gulf Coast, federal
 and state agencies issued situation reports, scheduled conference calls,
 and updated organizational charts that still named who was responsible for
-what. Evacuation plans existed on file. Requests moved upward through
-jurisdictions that overlapped but had not yet failed in form.[^c10-katrina-response]
+what. Evacuation plans existed on file. Information and requests moved
+through overlapping jurisdictions whose formal responsibilities still
+appeared intact.[^c10-katrina-response]
 
 Warnings had identified vulnerabilities in levees, evacuation capacity,
 sheltering, communications, and transport. That knowledge traveled through

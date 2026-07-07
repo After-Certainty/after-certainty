@@ -18,11 +18,9 @@
 - Carr, E. H. *What Is History?* New York: Vintage Books, 1961.
 
 - Cogan, Mordechai. *The Raging Torrent: Historical Inscriptions from
-  Assyria and Babylonia Relating to Ancient Israel*. Jerusalem: Carta,
-  2008.
+  Assyria and Babylonia Relating to Ancient Israel*. Jerusalem: Carta, 2008.
 
-- Darby, H. C. *Domesday England*. Cambridge: Cambridge University Press,
-  1977.
+- Darby, H. C. *Domesday England*. Cambridge: Cambridge University Press, 1977.
 
 - Douglas, Mary. *Purity and Danger: An Analysis of Concepts of Pollution
   and Taboo*. London: Routledge, 1966.
