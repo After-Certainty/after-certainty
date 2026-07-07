@@ -1,7 +1,8 @@
 slug: ward-cunningham
 name: Ward Cunningham
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Programmer who invented the wiki, named technical debt, and helped early patterns
+  and Extreme Programming communities connect practice to shared knowledge.
 concepts:
 - agile
 patterns: []
@@ -9,5 +10,5 @@ relatedBooks:
 - coupling
 works:
 - beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Cunningham made collective learning infrastructure visible—wikis and
+  metaphors that let teams see sediment before it hardens.

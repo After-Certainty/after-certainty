@@ -1,7 +1,8 @@
 slug: jon-kern
 name: Jon Kern
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Early Agile practitioner and manifesto signatory; consultant on lean-agile
+  adoption in enterprise software delivery.
 concepts:
 - agile
 patterns: []
@@ -9,5 +10,5 @@ relatedBooks:
 - coupling
 works:
 - beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Kern represents practitioners who translated manifesto values into
+  organizational change—not only team-level technique.

@@ -1,7 +1,8 @@
 slug: steve-mellor
 name: Steve Mellor
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Software engineer and methodologist associated with model-driven development,
+  executable models, and Shlaer-Mellor analysis.
 concepts:
 - agile
 patterns: []
@@ -9,5 +10,5 @@ relatedBooks:
 - coupling
 works:
 - beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Mellor pressed rigor into specification—models that either run or fail
+  visibly, a different path to feedback than iteration alone.
