@@ -419,6 +419,25 @@ def test_first_last_thinker_not_flagged_for_name_order(tmp_path: Path) -> None:
     assert not name_issues
 
 
+def test_jr_suffix_not_flagged_as_multi_person(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/thinkers/king-martin-luther-jr.yml",
+        "slug: king-martin-luther-jr\n"
+        "name: King, Martin Luther, Jr\n"
+        "type: person\n"
+        "summary: Civil rights leader.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\nworks: []\n",
+    )
+    thinkers = sga.load_entity_dir(repo, "thinkers")
+    issues = sga.audit_thinkers(repo, thinkers)
+    assert not any(
+        i.entityId == "king-martin-luther-jr" and i.field == "name" and i.severity == "warning"
+        for i in issues
+    )
+
+
 def test_et_al_thinker_flagged_as_multi_person(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
     _base_semantic_dirs(repo)

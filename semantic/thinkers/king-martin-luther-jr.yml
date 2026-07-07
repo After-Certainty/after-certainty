@@ -1,16 +1,13 @@
-slug: jr
-name: Jr
+slug: king-martin-luther-jr
+name: Martin Luther King Jr.
 type: person
 summary: Civil rights leader whose sermons and letters articulate moral authority,
   nonviolent correction, and beloved community.
 concepts: []
 patterns: []
 relatedBooks:
-- coupling
 - when-authority-is-misread
 works:
-- berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property
-- brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering
 - king-martin-luther-jr-letter-from-birmingham-jail
 whyThisMatters: King models guest leadership—legitimacy from moral seriousness that
   invites collective responsibility.

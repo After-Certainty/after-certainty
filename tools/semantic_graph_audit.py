@@ -24,7 +24,12 @@ from semantic_metadata_quality_audit import (  # noqa: E402
     QualityIssue,
     run_metadata_quality_audit,
 )
-from source_metadata import parse_year_from_citation, split_display_name  # noqa: E402
+from source_metadata import (  # noqa: E402
+    is_multi_person_thinker_name,
+    parse_year_from_citation,
+    split_display_name,
+    strip_thinker_role_suffix,
+)
 from thinker_concept_audit import (  # noqa: E402
     PRIORITY_THINKER_SLUGS,
     collect_concept_slugs,
@@ -332,13 +337,12 @@ def _looks_like_organization(name: str) -> bool:
     return bool(ORG_KEYWORDS.search(name))
 
 
-_THINKER_ROLE_SUFFIX_RE = re.compile(r",\s*(ed\.?|eds\.?|editor|editors)\s*$", re.I)
 _LAST_FIRST_NAME_RE = re.compile(r"^[A-Z][A-Za-z'.ëüöáéíóúÄÖÜÀ-ÿ-]+,\s+[A-Z]")
 _ET_AL_RE = re.compile(r"\bet\s+al\.?\b", re.I)
 
 
 def _strip_thinker_role_suffix(name: str) -> str:
-    return _THINKER_ROLE_SUFFIX_RE.sub("", name.strip()).strip()
+    return strip_thinker_role_suffix(name)
 
 
 def _is_last_first_display_name(name: str) -> bool:
@@ -351,16 +355,9 @@ def _is_last_first_display_name(name: str) -> bool:
 
 def _is_multi_person_thinker_name(name: str) -> bool:
     """Thinker display name lists multiple creators that could be split."""
-    clean = _strip_thinker_role_suffix(name)
-    if not clean or _looks_like_organization(clean):
+    if _looks_like_organization(name):
         return False
-    if _ET_AL_RE.search(clean):
-        return True
-    if ", and " in clean:
-        return True
-    if clean.count(" and ") >= 2:
-        return True
-    return clean.count(",") >= 2
+    return is_multi_person_thinker_name(name)
 
 
 def _estimate_thinker_author_count(name: str) -> int | None:

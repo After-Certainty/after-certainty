@@ -43,6 +43,81 @@ _SOURCE_KIND_BY_TYPE = {
     "article": "article",
 }
 
+_THINKER_ROLE_SUFFIX_RE = re.compile(r",\s*(ed\.?|eds\.?|editor|editors)\s*$", re.I)
+_ET_AL_RE = re.compile(r"\bet\s+al\.?\b", re.I)
+_GEN_SUFFIX_RE = re.compile(r"^(Jr\.?|Sr\.?|III|IV|2nd|3rd)$", re.I)
+
+
+def strip_thinker_role_suffix(name: str) -> str:
+    return _THINKER_ROLE_SUFFIX_RE.sub("", name.strip()).strip()
+
+
+def is_generational_suffix(token: str) -> bool:
+    return bool(_GEN_SUFFIX_RE.match(token.strip()))
+
+
+def format_first_last_author(last: str, first_parts: list[str]) -> str:
+    """Build ``First … Last [Jr.]`` from bibliographic fragments."""
+    suffix_tokens: list[str] = []
+    core = list(first_parts)
+    while core and is_generational_suffix(core[-1]):
+        suffix_tokens.insert(0, core.pop())
+    first = " ".join(core).strip()
+    suffix = ""
+    if suffix_tokens:
+        token = suffix_tokens[-1].rstrip(".")
+        suffix = f" {token}." if token.lower() in {"jr", "sr"} else f" {suffix_tokens[-1]}"
+    return f"{first} {last}{suffix}".strip()
+
+
+def parse_bibliographic_author_list(name: str) -> list[str]:
+    """Parse a bibliographic author list into First Last display names."""
+    clean = strip_thinker_role_suffix(name)
+    if _ET_AL_RE.search(clean):
+        clean = _ET_AL_RE.sub("", clean).strip().rstrip(",").strip()
+    if ", and " in clean:
+        head, tail = clean.rsplit(", and ", 1)
+        tail_authors = [tail.strip()]
+    else:
+        head = clean
+        tail_authors = []
+    parts = [p.strip() for p in head.split(",") if p.strip()]
+    if len(parts) < 2:
+        return [clean] if clean else []
+    first_parts = [parts[1]]
+    idx = 2
+    while idx < len(parts) and is_generational_suffix(parts[idx]):
+        first_parts.append(parts[idx])
+        idx += 1
+    authors = [format_first_last_author(parts[0], first_parts)]
+    while idx < len(parts):
+        authors.append(parts[idx])
+        idx += 1
+    authors.extend(tail_authors)
+    return [a for a in authors if a]
+
+
+def is_multi_person_thinker_name(name: str) -> bool:
+    """True when a thinker display name lists multiple creators."""
+    clean = strip_thinker_role_suffix(name)
+    if not clean:
+        return False
+    if _ET_AL_RE.search(clean):
+        return True
+    if ", and " in clean:
+        return True
+    if clean.count(" and ") >= 2:
+        return True
+    head = clean.split(", and ", 1)[0]
+    parts = [p.strip() for p in head.split(",") if p.strip()]
+    while len(parts) > 2 and is_generational_suffix(parts[-1]):
+        parts = parts[:-1]
+    if len(parts) >= 4:
+        return True
+    if len(parts) == 3 and not is_generational_suffix(parts[2]) and " " in parts[2]:
+        return True
+    return False
+
 
 def strip_markdown_italics(text: str) -> str:
     """Remove ``*italic*`` markers from display fields."""

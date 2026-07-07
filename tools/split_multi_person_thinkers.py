@@ -27,12 +27,8 @@ _TOOLS_DIR = Path(__file__).resolve().parent
 if str(_TOOLS_DIR) not in sys.path:
     sys.path.insert(0, str(_TOOLS_DIR))
 
-from semantic_graph_audit import (  # noqa: E402
-    _ET_AL_RE,
-    _is_multi_person_thinker_name,
-    _strip_thinker_role_suffix,
-)
-from source_metadata import creator_slug_from_name  # noqa: E402
+from semantic_graph_audit import _is_multi_person_thinker_name  # noqa: E402
+from source_metadata import creator_slug_from_name, parse_bibliographic_author_list  # noqa: E402
 from thinker_concept_audit import load_entity_dir  # noqa: E402
 
 SEMANTIC = Path("semantic")
@@ -42,21 +38,7 @@ OVERRIDE_GLOBS = ("thinkers-batch-*-overrides.yml", "thinkers-pilot-overrides.ym
 
 
 def parse_author_list(name: str) -> list[str]:
-    """Parse a bibliographic author list into First Last display names."""
-    clean = _strip_thinker_role_suffix(name)
-    if _ET_AL_RE.search(clean):
-        clean = _ET_AL_RE.sub("", clean).strip().rstrip(",").strip()
-    if ", and " in clean:
-        head, tail = clean.rsplit(", and ", 1)
-        tail_authors = [tail.strip()]
-    else:
-        head = clean
-        tail_authors = []
-    parts = [p.strip() for p in head.split(",") if p.strip()]
-    if len(parts) < 2:
-        return [clean] if clean else []
-    first = f"{parts[1]} {parts[0]}".strip()
-    return [first, *parts[2:], *tail_authors]
+    return parse_bibliographic_author_list(name)
 
 
 def _union_sorted(*lists: object) -> list[str]:
