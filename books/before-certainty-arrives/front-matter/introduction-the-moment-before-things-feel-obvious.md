@@ -2,6 +2,11 @@
 
 ## **The Moment Before Things Feel Obvious**
 
+A clay tablet dried in a temple archive while the harvest was still being
+argued in the yard. The impression held what speech could not: how much
+grain was owed, whose labor was due, what would count as compliance when
+the official had gone home. The tablet did not preach. It waited.
+
 Certainty rarely arrives because humans finally discover the truth.
 More often it arrives when instability becomes intolerable—when lives
 fragment, violence spreads, and coordination breaks down so thoroughly
@@ -35,9 +40,20 @@ like theory than like habit under pressure: people learning what will
 still be recognized tomorrow, what dispute can wait, what must be
 settled before the season turns.
 
+This book reads history that way—not as a comprehensive chronology of
+civilizations, but as a sequence of cases in which concrete objects,
+records, and institutions make coordination problems visible. Each
+chapter centers one such anchor and returns to it as the argument
+widens. Where the evidence is incomplete, the limit of inference is
+part of the story.
+
 These patterns appear across civilizations when similar pressures
 produce similar adaptations—not when humans arrive at identical
 conclusions.
+
+Pressure narrows the field of action, but it does not choose on anyone's
+behalf; people still improvise, resist, misjudge, and create within the
+conditions they inherit.
 
 Collapse, scale, and fragmentation do not always produce the same
 institutions. A city under siege tightens differently than a trade port
@@ -78,17 +94,8 @@ made them necessary.
 Its focus is the moment **before** certainty feels excessive—when it
 still appears obvious, justified, and indispensable.
 
-This book stops there on purpose.
-
-It does not ask what we should do once certainty begins to thin. It does
-not explore how to live once explanation no longer reassures or
-interpretation no longer resolves responsibility. That work belongs to
-the book that follows.
-
 The task here is recognition—not a verdict on every tradition, and not a
 claim that lived meaning was ever only machinery.
 
 To see how certainty arrives, understand why it feels earned, and notice
 the moment just before it becomes difficult to question at all.
-
-The next book begins after that recognition arrives.

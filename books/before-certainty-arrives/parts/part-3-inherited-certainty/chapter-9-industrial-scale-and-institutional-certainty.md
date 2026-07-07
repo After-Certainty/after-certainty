@@ -9,6 +9,14 @@ c. 1800 CE – mid/late 20th century
 Industrialized Europe and North America; global influence through
 empire, trade, and modernization
 
+On November 18, 1883, North American railroads adopted a system of
+standard time zones so that departure boards, telegraph schedules, and
+freight contracts could refer to the same hour across hundreds of miles
+of track. Before that day, local noon still differed town by town. A traveler who
+missed a connection because one town's clock ran ahead of another had
+learned what abstraction felt like in the body: not argument about time,
+but a train gone.[^c9-railway-time]
+
 The factory bell did not ask whether the shift was fair. It marked time
 in uniform intervals so thousands of workers could coordinate without
 knowing one another's names.
@@ -31,9 +39,9 @@ number, trusted by strangers who would never meet.
 Millions of people now had to work, move, fight, trade, and comply
 together—often without shared culture, direct trust, or interpersonal
 accountability. Coordination increasingly depended on durable,
-repeatable, impersonal systems. The factory bell, the file, and the
-timetable gradually replaced the temple wall as the visible limit of
-argument.
+repeatable, impersonal systems. The timetable, the file, and the
+standardized hour gradually replaced the temple wall as the visible limit
+of argument.
 
 This is the environment in which institutional certainty flourished.
 
@@ -45,7 +53,7 @@ handwriting no citizen was meant to reproduce.
 
 The room did not feel cosmic.
 
-It felt like Tuesday.
+It felt like any other working morning.
 
 One clerk might spend a morning matching a misspelled surname on a birth
 certificate to the spelling on a tax roll three years earlier. The work
@@ -138,8 +146,9 @@ failure: fluorescent lights still humming at closing time, ticket
 numbers still called, machinery still running while meaning quietly
 thinned.
 
-The system had not failed.
+A century after the railroads synchronized the clock, the same logic
+had spread into offices, schools, armies, and markets: conduct held by
+schedule and file rather than by presence or sacred awe.
 
-But its costs were no longer invisible.
-
-[^c9-factory-time]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978); Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001).
+[^c9-railway-time]: See Ian R. Bartky, "The Adoption of Standard Time," *Technology and Culture* 30, no. 1 (1989): 25–56; Wolfgang Schivelbusch, *The Railway Journey: The Industrialization of Time and Space in the Nineteenth Century* (Berkeley: University of California Press, 1986).
+[^c9-factory-time]: See Hew Strachan, *The First World War* (New York: Viking, 2004); Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001).

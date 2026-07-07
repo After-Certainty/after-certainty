@@ -30,11 +30,17 @@ The moral question was not *what is right*, but *what holds*.
 
 As populations expand, coordination becomes abstract.
 
-Surveyors marked fields with pegs and cords. Clerks pressed harvest
-counts into wet clay while the river still ran high. Before anyone asked
-whether the arrangement was just, farmers needed to know what would be
-taken and what would remain. A household might accept the count with
-resentment, relief, or both on the same day.
+In the temple economies of Uruk, clerks pressed reeds into wet clay while
+the harvest was still being counted. A tablet might record barley
+measured in gur, laborers assigned by the month, fields allotted by the
+cord. The impression dried hard. What had been spoken at the threshing
+floor became obligation that could be checked when the official was
+gone.[^c2-uruk-tablets]
+
+Surveyors marked fields with pegs and cords. Before anyone asked whether
+the arrangement was just, farmers needed to know what would be taken and
+what would remain. A household might accept the count with resentment,
+relief, or both on the same day.
 
 Rules now had to bind people who were absent. Authority had to outlive
 individual rulers. Expectations had to remain recognizable across
@@ -42,7 +48,7 @@ generations.
 
 Under those conditions, moral systems built primarily on explanation,
 persuasion, or personal judgment struggled to scale reliably. What
-emerged instead was order made visible in law, cosmology, ritual, and
+emerged instead was order made visible in clay, irrigation, ritual, and
 kingship.
 
 ### **Order Before Justification**
@@ -50,8 +56,8 @@ kingship.
 In early large-scale societies, moral legitimacy flowed first from
 stability, not argument.
 
-A law was authoritative because it was enacted, recorded, and enforced:
-settled in the street and the storehouse before it was debated in the
+A record was authoritative because it was impressed, stored, and
+enforced: settled in the storehouse before it was debated in the
 abstract.
 
 A ruler's authority rested in lineage, ritual, conquest, or divine
@@ -73,18 +79,12 @@ the part that made the rest survivable.
 
 ### **Moral Compression as Coordination Technology**
 
-On irrigation day, water moved along channels everyone knew by habit.
-Women carried jars to the upper terraces while elders watched the level
-in the main channel. A breach in an embankment could starve three
-households before anyone finished arguing principle.
-
-In one village after a poor harvest, the dispute was not over theology.
-It was over who would draw first when the sluice opened.
-
-The elder who decided had no special wisdom about justice. He had the
-authority to stop the quarrel before it spread to neighboring fields.
-People accepted the ruling because the season would not wait, not
-because they had resolved the deeper question of fairness.
+When irrigation mattered, water had to move along channels everyone
+recognized before argument could finish. A breach in an embankment could
+starve neighboring fields in the time it took to dispute principle. Under
+that pressure, whoever held recognized authority to open a sluice or settle
+a count could stop a quarrel from spreading faster than the season would
+wait.
 
 Only later, after scale had already narrowed acceptable behaviors,
 interpretations, and identities—and after deviation had grown costly—did
@@ -94,25 +94,19 @@ This is **moral compression**.
 
 ### **Law, Kingship, and Cosmos as Stabilizers**
 
-The stele of Hammurabi stood in public view: hundreds of cases rendered
-as fixed categories—if a builder's house collapses, if a debtor
-defaults, if a son strikes his father. The code did not invite endless
-deliberation. It externalized judgment so disputes could be resolved
-without constant renegotiation.[^c2-hammurabi-order]
+The clay tablets themselves were coordination technologies. Grain owed,
+labor due, households counted—these were not merely economic entries.
+They made abstract obligation concrete enough to survive quarrels,
+absence, and succession. Standardized weights and measures let strangers
+complete exchanges under rules neither fully trusted but both needed.
+Divine kingship centralized authority so decision-making did not
+fracture under scale. Cosmology embedded moral order into the structure
+of reality itself, making compliance feel less negotiable and more
+inevitable.
 
-People gathered in the stele's shade while a reader sounded out the
-cases. Some listened for principle. Most watched to learn whether the
-dispute they had brought would end today.
-
-When the code answered, both parties walked away knowing what would
-follow—not necessarily satisfied, but less exposed to arbitrary force.
-
-Elsewhere, tribute lists and census records made abstract obligation
-concrete. Grain owed, labor due, households counted—these were
-coordination technologies as much as economic ones. Divine kingship
-centralized authority so decision-making did not fracture under scale.
-Cosmology embedded moral order into the structure of reality itself,
-making compliance feel less negotiable and more inevitable.
+A clerk storing tablets in a temple archive knew that next season's
+dispute might turn on what had been impressed while the clay was still
+soft. The record outlasted the quarrel.
 
 Taken together, these tools compressed moral space, reduced uncertainty,
 and made large societies governable in ways kinship alone never could.
@@ -143,4 +137,4 @@ The practical question is how to keep the system intact.
 
 Whether it is *true* can wait.
 
-[^c2-hammurabi-order]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).
+[^c2-uruk-tablets]: See Hans J. Nissen, Peter Damerow, and Robert K. Englund, *Archaic Bookkeeping: Early Writing and Techniques of Economic Administration in the Ancient Near East* (Chicago: University of Chicago Press, 1993); D. T. Potts, *Mesopotamian Civilization: The Material Foundations* (London: Athlone Press, 1997).

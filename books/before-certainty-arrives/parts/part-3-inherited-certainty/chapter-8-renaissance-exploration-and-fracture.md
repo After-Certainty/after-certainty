@@ -19,13 +19,22 @@ frameworks could absorb. New lands, new peoples, new cosmologies, and
 new forms of knowledge appeared not at the margins, but increasingly at
 the center of European life.
 
-In Lisbon and Seville, ships returned with goods, peoples, and charts
-that inherited categories could not fully contain. The ledger could
-balance while the moral map could not.
-
 What changed was not collapse, but exposure.
 
 Certainty was no longer wrong so much as no longer alone.
+
+In 1550 and 1551, at Valladolid in Spain, Bartolomé de las Casas and
+Juan Ginés de Sepúlveda argued before a panel of theologians and
+jurists over whether Spanish conquest in the Americas could be justified,
+whether Indigenous peoples could be ruled as natural slaves under inherited
+Aristotelian categories, what duties Christian natural law imposed on
+conquerors, and how conversion, sovereignty, and imperial authority should
+be understood across an ocean Sepúlveda had never crossed.[^c8-valladolid-debate]
+
+The debate did not end violence. It did not produce a clean triumph of
+conscience over empire. It made visible something more unsettling:
+inherited moral order meeting peoples and places its categories had not
+anticipated—and tightening even as it argued.
 
 When Gutenberg's press multiplied identical texts across cities within
 years rather than generations, disagreement could spread as quickly as
@@ -45,26 +54,26 @@ It appeared in invitations withheld from weddings, suspicion at market
 scales, and uncertainty about which funeral rites a household could
 still expect the parish to perform.
 
-### **The Diversification of Moral Imagination**
+### **Inherited Categories Under Pressure**
 
 Scientific inquiry, artistic experimentation, and philosophical revival
 expanded the range of what could be imagined, questioned, and said.
 
 New knowledge was often absorbed into inherited frameworks and explained
-as deeper insight into divine order or natural law. Copernican astronomy,
-anatomical study, and humanist philosophy were frequently experienced as
-refinement before they were experienced as rupture.
-
-In Padua and Leiden, students gathered in anatomical theaters to watch
-flesh opened beneath lantern light—knowledge acquired through the body
-even while doctrine insisted the soul's deepest truths lay elsewhere.
-
-Observation widened before allegiance could fully absorb it.
+as deeper insight into divine order or natural law. Copernican astronomy
+and humanist philosophy were frequently experienced as refinement before
+they were experienced as rupture.
 
 Multiple ways of understanding the world began to coexist—not
 sequentially, but simultaneously. Moral imagination widened faster than
-coordination could follow. Competing explanations addressed different
-parts of reality using standards that did not fully reconcile.
+coordination could follow.
+
+At Valladolid, both sides appealed to scripture, Aristotle, and law.
+Both argued within Christian, Aristotelian, and imperial legal languages,
+though they reached sharply different conclusions about conquest, coercion,
+and Indigenous sovereignty. The fracture was not between morality and
+immorality in modern terms, but between inherited categories under
+pressure they had not been built to bear.
 
 ### **Fragmentation of Authority**
 
@@ -75,9 +84,9 @@ and courts.
 
 No single institution could fully govern meaning across the whole.
 
-Certainty did not disappear so much as relocate. Traditions retained
-internal coherence even as uncontested universal authority became harder
-to sustain.
+Certainty relocated rather than vanished. Traditions retained internal
+coherence even as uncontested universal authority became harder to
+sustain.
 
 ### **Competing Moral Systems**
 
@@ -105,4 +114,15 @@ cities, trade rewired obligation faster than doctrine could follow.
 
 Certainty was defended increasingly as order—not merely as truth.
 
-[^c8-printing-press]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).
+Collapse destabilizes certainty by destroying the world that sustained
+it. Expansion destabilizes certainty by placing it beside alternatives it
+can no longer ignore.
+
+The Valladolid hearings ended without a single lasting decree that
+settled the argument for empire. What remained was exposure itself:
+inherited moral language still functioning, still authoritative in the
+room, already strained by a world larger than the room had been built to
+govern.
+
+[^c8-valladolid-debate]: See Lewis Hanke, *All Mankind Is One: A Study of the Disputation between Bartolomé de las Casas and Juan Ginés de Sepúlveda in 1550 on the Intellectual and Religious Capacity of the American Indians* (DeKalb: Northern Illinois University Press, 1974); Anthony Pagden, *The Fall of Natural Man: The American Indian and the Origins of Comparative Ethnology* (Cambridge: Cambridge University Press, 1982).
+[^c8-printing-press]: See Elizabeth L. Eisenstein, *The Printing Press as an Agent of Change* (Cambridge: Cambridge University Press, 1979).

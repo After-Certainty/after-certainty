@@ -1,30 +1,38 @@
 # Grounding Pass Checklist — Before Certainty Arrives
 
-Branch: `before-certainty-arrives/editorial-grounding`
+Branch: `cursor/historical-grounding-revision-3147`
 
-| Ch | Unit | Dominant pattern | Anchor(s) | Rhythm | Pattern surfacing | Motif | Status |
-|----|------|------------------|-----------|--------|-------------------|-------|--------|
-| — | Introduction | All three (quiet) | — | — | intro block | — | done |
-| 1 | Ch 1 | Instability Demands Compression | foraging/scarcity | — | done | — | done |
-| 2 | Ch 2 | Instability Demands Compression | Hammurabi/census | — | done | — | done |
-| 3 | Ch 3 | What Holds Becomes Moral | temple economy | — | done | — | done |
-| 4 | Ch 4 | Instability Demands Compression | Roman province, trade | asymmetric open | done | closing | done |
-| 5 | Ch 5 | What Holds Becomes Moral | Ashoka (light) | — | done | — | done |
-| 6 | Ch 6 | Tools Survive Their Purpose | stele, scriptorium, archive | asymmetric open | done | closing | done |
-| 7 | Ch 7 | Instability Demands Compression | post-plague tenure | preserve reversal | done | — | done |
-| 8 | Ch 8 | What Holds Becomes Moral | printing press | — | done | — | done |
-| 9 | Ch 9 | Tools Survive Their Purpose | factory time, WWI staff | asymmetric open | done | closing | done |
-| 10 | Ch 10 | Tools Survive Their Purpose | technocracy (light) | preserve restraint | done | — | done |
-| — | Conclusion | Tools Survive | — | — | recognition line | — | done |
-| — | How to Read | — | — | — | three-pattern sentence | — | done |
+## Phase 1 — Anchor integration (complete, PR #268)
 
-## Word budget
+| Ch | Primary anchor | Status |
+|----|----------------|--------|
+| 1 | Çatalhöyük | done |
+| 2 | Uruk tablets | done |
+| 3 | Oracle bones + Mandate | done |
+| 4 | Lachish reliefs | done |
+| 5 | Babylonian exile + Warring States | done |
+| 6 | ~~Hammurabi~~ → **Ashoka edicts** | Phase 6 |
+| 7 | ~~Statute only~~ → **Domesday + Statute** | Phase 6 |
+| 8 | Valladolid + printing | done |
+| 9 | Railway standard time | done |
+| 10 | Katrina (reframed threshold) | Phase 6 |
 
-Target: ~11–12k total. Actual: ~10.2k (May 2026 grounding pass).
+## Phase 6 — Precision pass (July 2026)
+
+See [`phase6-historical-plan.md`](phase6-historical-plan.md).
+
+- [x] Ch 6 re-anchored to Ashoka (c. 250 BCE); Qumran for canon; Hammurabi precursor only
+- [x] Ch 5 deepened exile materiality; Warring States contrast; qualified inward-authority claims
+- [x] Ch 7 reframed as repeated re-adaptation; Domesday + Statute
+- [x] Ch 8 Valladolid terminology corrected; anatomical theater trimmed
+- [x] Ch 9 Cleveland specificity removed; Strachan for WWI
+- [x] Ch 10 Katrina pre-landfall opening; returns in second half
+- [x] Ch 1–4 light touches (inference, irrigation, Lachish, temple queue)
+- [x] Conclusion trimmed ~25%; removed "The restraint is the point"
+- [x] Bibliography completed and aligned to footnotes
+- [x] Rhythm pass on repeated antithesis motifs
 
 ## Export
 
-- [x] `make build-book DIR=books/before-certainty-arrives`
-- [x] Footnote warnings resolved
-- [ ] Bibliography spot-check (author gate)
-- [x] `status.md` word count updated
+- [ ] `make build-book DIR=books/before-certainty-arrives`
+- [x] Footnote integrity check
