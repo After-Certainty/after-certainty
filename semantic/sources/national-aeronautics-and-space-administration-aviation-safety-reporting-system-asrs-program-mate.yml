@@ -1,6 +1,6 @@
 slug: national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate
-name: National Aeronautics and Space Administration. Aviation Safety Reporting System
-  (ASRS) program materials
+name: National Aeronautics and Space Administration — Aviation Safety Reporting System
+  (ASRS) program materials.
 type: book
 summary: National Aeronautics and Space Administration. Aviation Safety Reporting
   System (ASRS) program materials. https://asrs.arc.nasa.gov/.
@@ -9,10 +9,11 @@ patterns: []
 relatedBooks:
 - coupling
 creatorNames:
-- National Aeronautics and Space Administration. Aviation Safety Reporting System
-  (ASRS) program materials
+- National Aeronautics and Space Administration
 creatorSlugs:
 - federal-aviation-administration-and-nasa
 citation: National Aeronautics and Space Administration. Aviation Safety Reporting
   System (ASRS) program materials. https://asrs.arc.nasa.gov/.
-sourceKind: book
+sourceKind: report
+title: Aviation Safety Reporting System (ASRS) program materials.
+institution: National Aeronautics and Space Administration

@@ -33,6 +33,7 @@ _TOOLS_DIR = Path(__file__).resolve().parent
 if str(_TOOLS_DIR) not in sys.path:
     sys.path.insert(0, str(_TOOLS_DIR))
 
+from semantic_metadata_quality_audit import collect_metadata_quality_warnings  # noqa: E402
 from thinker_concept_audit import (  # noqa: E402
     collect_advisory_warnings,
     find_creator_slug_mismatches,
@@ -390,6 +391,7 @@ def validate(
 
     _check_creator_slugs(repo, thinker_slugs=thinkers, errors=audit_warnings)
     audit_warnings.extend(collect_advisory_warnings(repo))
+    audit_warnings.extend(collect_metadata_quality_warnings(repo))
     if audit_warnings:
         if strict_audit:
             rc = 1

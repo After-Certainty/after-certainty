@@ -28,6 +28,7 @@ except ModuleNotFoundError as exc:  # pragma: no cover
     raise SystemExit("PyYAML is required. Install with: python3 -m pip install pyyaml") from exc
 
 from semantic_extract import repo_relative, slugify_heading
+from source_metadata import parse_bibliography_author_title
 
 
 def _split_bibliography_blocks(text: str) -> list[str]:
@@ -66,6 +67,12 @@ def _author_and_title_fragment(first: str) -> tuple[str, str, str]:
     if ". *" in first:
         author, rest = first.rsplit(". *", 1)
         return author.strip(), "*" + rest, "book"
+    if ", *" in first:
+        author, rest = first.rsplit(", *", 1)
+        return author.strip(), "*" + rest, "book"
+    author, title = parse_bibliography_author_title(first)
+    if author and title:
+        return author, f"*{title}*", "book"
     return first.strip(), "", "unknown"
 
 
