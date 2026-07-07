@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T04:12:23.329359+00:00",
+  "generatedAt": "2026-07-07T04:49:21.343632+00:00",
   "repoContext": {
     "detectedRepoType": "source",
     "inputFiles": [
@@ -9,8 +9,8 @@
   },
   "summary": {
     "errors": 0,
-    "warnings": 0,
-    "info": 317,
+    "warnings": 76,
+    "info": 394,
     "entitiesScanned": {
       "books": 28,
       "concepts": 137,
@@ -295,6 +295,1689 @@
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
       "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "acemoglu-daron-and-james-a-robinson",
+      "entityTitle": "Acemoglu, Daron, and James A. Robinson",
+      "field": "name",
+      "currentValue": "Acemoglu, Daron, and James A. Robinson",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "acemoglu-daron-and-james-a-robinson",
+      "entityTitle": "Acemoglu, Daron, and James A. Robinson",
+      "field": "name",
+      "currentValue": "Acemoglu, Daron, and James A. Robinson",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "allspaw-john-and-paul-hammond",
+      "entityTitle": "Allspaw, John, and Paul Hammond",
+      "field": "name",
+      "currentValue": "Allspaw, John, and Paul Hammond",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "allspaw-john-and-paul-hammond",
+      "entityTitle": "Allspaw, John, and Paul Hammond",
+      "field": "name",
+      "currentValue": "Allspaw, John, and Paul Hammond",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "amershi-saleema-et-al",
+      "entityTitle": "Amershi, Saleema, et al",
+      "field": "name",
+      "currentValue": "Amershi, Saleema, et al",
+      "reason": "Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.",
+      "suggestedFix": "Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: amershi-saleema-et-al-guidelines-for-human-ai-interaction."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "amershi-saleema-et-al",
+      "entityTitle": "Amershi, Saleema, et al",
+      "field": "name",
+      "currentValue": "Amershi, Saleema, et al",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: amershi-saleema-et-al-guidelines-for-human-ai-interaction."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "andrews-matthew-lant-pritchett-and-michael-woolcock",
+      "entityTitle": "Andrews, Matthew, Lant Pritchett, and Michael Woolcock",
+      "field": "name",
+      "currentValue": "Andrews, Matthew, Lant Pritchett, and Michael Woolcock",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "andrews-matthew-lant-pritchett-and-michael-woolcock",
+      "entityTitle": "Andrews, Matthew, Lant Pritchett, and Michael Woolcock",
+      "field": "name",
+      "currentValue": "Andrews, Matthew, Lant Pritchett, and Michael Woolcock",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "argyris-chris-and-donald-a-schon",
+      "entityTitle": "Argyris, Chris, and Donald A. Schon",
+      "field": "name",
+      "currentValue": "Argyris, Chris, and Donald A. Schon",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: argyris-chris-and-donald-a-schon-organizational-learning-ii."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "argyris-chris-and-donald-a-schon",
+      "entityTitle": "Argyris, Chris, and Donald A. Schon",
+      "field": "name",
+      "currentValue": "Argyris, Chris, and Donald A. Schon",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: argyris-chris-and-donald-a-schon-organizational-learning-ii."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "barke-helena-and-lutz-prechelt",
+      "entityTitle": "Barke, Helena, and Lutz Prechelt",
+      "field": "name",
+      "currentValue": "Barke, Helena, and Lutz Prechelt",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "barke-helena-and-lutz-prechelt",
+      "entityTitle": "Barke, Helena, and Lutz Prechelt",
+      "field": "name",
+      "currentValue": "Barke, Helena, and Lutz Prechelt",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "baron-jonathan-and-john-c-hershey",
+      "entityTitle": "Baron, Jonathan, and John C. Hershey",
+      "field": "name",
+      "currentValue": "Baron, Jonathan, and John C. Hershey",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: baron-jonathan-and-john-c-hershey-outcome-bias-in-decision."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "baron-jonathan-and-john-c-hershey",
+      "entityTitle": "Baron, Jonathan, and John C. Hershey",
+      "field": "name",
+      "currentValue": "Baron, Jonathan, and John C. Hershey",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: baron-jonathan-and-john-c-hershey-outcome-bias-in-decision."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "baumeister-roy-f-and-mark-r-leary",
+      "entityTitle": "Baumeister, Roy F., and Mark R. Leary",
+      "field": "name",
+      "currentValue": "Baumeister, Roy F., and Mark R. Leary",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: baumeister-roy-f-and-mark-r-leary-the-need-to-belong."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "baumeister-roy-f-and-mark-r-leary",
+      "entityTitle": "Baumeister, Roy F., and Mark R. Leary",
+      "field": "name",
+      "currentValue": "Baumeister, Roy F., and Mark R. Leary",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: baumeister-roy-f-and-mark-r-leary-the-need-to-belong."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "bebchuk-lucian-a-and-scott-hirst",
+      "entityTitle": "Bebchuk, Lucian A., and Scott Hirst",
+      "field": "name",
+      "currentValue": "Bebchuk, Lucian A., and Scott Hirst",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "bebchuk-lucian-a-and-scott-hirst",
+      "entityTitle": "Bebchuk, Lucian A., and Scott Hirst",
+      "field": "name",
+      "currentValue": "Bebchuk, Lucian A., and Scott Hirst",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas",
+      "entityTitle": "Beck, Kent, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, and Dave Thomas",
+      "field": "name",
+      "currentValue": "Beck, Kent, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, and Dave Thomas",
+      "reason": "Thinker name lists ~16 people who could be separate thinker entries.",
+      "suggestedFix": "Create 16 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas",
+      "entityTitle": "Beck, Kent, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, and Dave Thomas",
+      "field": "name",
+      "currentValue": "Beck, Kent, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, and Dave Thomas",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 16 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell",
+      "entityTitle": "Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell",
+      "field": "name",
+      "currentValue": "Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell",
+      "reason": "Thinker name lists ~3 people who could be separate thinker entries.",
+      "suggestedFix": "Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell",
+      "entityTitle": "Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell",
+      "field": "name",
+      "currentValue": "Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "berger-peter-l-and-thomas-luckmann",
+      "entityTitle": "Berger, Peter L., and Thomas Luckmann",
+      "field": "name",
+      "currentValue": "Berger, Peter L., and Thomas Luckmann",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "berger-peter-l-and-thomas-luckmann",
+      "entityTitle": "Berger, Peter L., and Thomas Luckmann",
+      "field": "name",
+      "currentValue": "Berger, Peter L., and Thomas Luckmann",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "berle-adolf-a-jr-and-gardiner-c-means",
+      "entityTitle": "Berle, Adolf A., Jr., and Gardiner C. Means",
+      "field": "name",
+      "currentValue": "Berle, Adolf A., Jr., and Gardiner C. Means",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "berle-adolf-a-jr-and-gardiner-c-means",
+      "entityTitle": "Berle, Adolf A., Jr., and Gardiner C. Means",
+      "field": "name",
+      "currentValue": "Berle, Adolf A., Jr., and Gardiner C. Means",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds",
+      "entityTitle": "Beyer, Betsy, Chris Jones, Jennifer Petoff, and Niall Richard Murphy, eds",
+      "field": "name",
+      "currentValue": "Beyer, Betsy, Chris Jones, Jennifer Petoff, and Niall Richard Murphy, eds",
+      "reason": "Thinker name lists ~3 people who could be separate thinker entries.",
+      "suggestedFix": "Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds",
+      "entityTitle": "Beyer, Betsy, Chris Jones, Jennifer Petoff, and Niall Richard Murphy, eds",
+      "field": "name",
+      "currentValue": "Beyer, Betsy, Chris Jones, Jennifer Petoff, and Niall Richard Murphy, eds",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "bowker-geoffrey-c-and-susan-leigh-star",
+      "entityTitle": "Bowker, Geoffrey C., and Susan Leigh Star",
+      "field": "name",
+      "currentValue": "Bowker, Geoffrey C., and Susan Leigh Star",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "bowker-geoffrey-c-and-susan-leigh-star",
+      "entityTitle": "Bowker, Geoffrey C., and Susan Leigh Star",
+      "field": "name",
+      "currentValue": "Bowker, Geoffrey C., and Susan Leigh Star",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: bowker-geoffrey-c-and-susan-leigh-star-sorting-things-out-classification-and."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "brooks-frederick-p-jr",
+      "entityTitle": "Brooks, Frederick P., Jr",
+      "field": "name",
+      "currentValue": "Brooks, Frederick P., Jr",
+      "reason": "Thinker name lists ~3 people who could be separate thinker entries.",
+      "suggestedFix": "Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "brooks-frederick-p-jr",
+      "entityTitle": "Brooks, Frederick P., Jr",
+      "field": "name",
+      "currentValue": "Brooks, Frederick P., Jr",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "brown-eliot-and-maureen-farrell",
+      "entityTitle": "Brown, Eliot, and Maureen Farrell",
+      "field": "name",
+      "currentValue": "Brown, Eliot, and Maureen Farrell",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "brown-eliot-and-maureen-farrell",
+      "entityTitle": "Brown, Eliot, and Maureen Farrell",
+      "field": "name",
+      "currentValue": "Brown, Eliot, and Maureen Farrell",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren",
+      "entityTitle": "Cialdini, Robert B., Raymond R. Reno, and Carl A. Kallgren",
+      "field": "name",
+      "currentValue": "Cialdini, Robert B., Raymond R. Reno, and Carl A. Kallgren",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren",
+      "entityTitle": "Cialdini, Robert B., Raymond R. Reno, and Carl A. Kallgren",
+      "field": "name",
+      "currentValue": "Cialdini, Robert B., Raymond R. Reno, and Carl A. Kallgren",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "corrales-javier-and-michael-penfold",
+      "entityTitle": "Corrales, Javier, and Michael Penfold",
+      "field": "name",
+      "currentValue": "Corrales, Javier, and Michael Penfold",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "corrales-javier-and-michael-penfold",
+      "entityTitle": "Corrales, Javier, and Michael Penfold",
+      "field": "name",
+      "currentValue": "Corrales, Javier, and Michael Penfold",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "demarco-tom-and-timothy-lister",
+      "entityTitle": "DeMarco, Tom, and Timothy Lister",
+      "field": "name",
+      "currentValue": "DeMarco, Tom, and Timothy Lister",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: demarco-tom-and-timothy-lister-slack-getting-past-burnout-busywork-and-the."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "demarco-tom-and-timothy-lister",
+      "entityTitle": "DeMarco, Tom, and Timothy Lister",
+      "field": "name",
+      "currentValue": "DeMarco, Tom, and Timothy Lister",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: demarco-tom-and-timothy-lister-slack-getting-past-burnout-busywork-and-the."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "demarco-tom-and-timothy-r-lister",
+      "entityTitle": "DeMarco, Tom, and Timothy R. Lister",
+      "field": "name",
+      "currentValue": "DeMarco, Tom, and Timothy R. Lister",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: demarco-tom-and-timothy-r-lister-peopleware-productive-projects."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "demarco-tom-and-timothy-r-lister",
+      "entityTitle": "DeMarco, Tom, and Timothy R. Lister",
+      "field": "name",
+      "currentValue": "DeMarco, Tom, and Timothy R. Lister",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: demarco-tom-and-timothy-r-lister-peopleware-productive-projects."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "dikert-karina-maria-paasivaara-and-casper-lassenius",
+      "entityTitle": "Dikert, Karina, Maria Paasivaara, and Casper Lassenius",
+      "field": "name",
+      "currentValue": "Dikert, Karina, Maria Paasivaara, and Casper Lassenius",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "dikert-karina-maria-paasivaara-and-casper-lassenius",
+      "entityTitle": "Dikert, Karina, Maria Paasivaara, and Casper Lassenius",
+      "field": "name",
+      "currentValue": "Dikert, Karina, Maria Paasivaara, and Casper Lassenius",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "douglas-karen-m-et-al",
+      "entityTitle": "Douglas, Karen M., et al",
+      "field": "name",
+      "currentValue": "Douglas, Karen M., et al",
+      "reason": "Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.",
+      "suggestedFix": "Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: douglas-karen-m-et-al-understanding-conspiracy-theories."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "douglas-karen-m-et-al",
+      "entityTitle": "Douglas, Karen M., et al",
+      "field": "name",
+      "currentValue": "Douglas, Karen M., et al",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: douglas-karen-m-et-al-understanding-conspiracy-theories."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "druckman-james-n-et-al",
+      "entityTitle": "Druckman, James N., et al",
+      "field": "name",
+      "currentValue": "Druckman, James N., et al",
+      "reason": "Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.",
+      "suggestedFix": "Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: druckman-james-n-et-al-a-framework-for-the-study-of-misinformation-and-health."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "druckman-james-n-et-al",
+      "entityTitle": "Druckman, James N., et al",
+      "field": "name",
+      "currentValue": "Druckman, James N., et al",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: druckman-james-n-et-al-a-framework-for-the-study-of-misinformation-and-health."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "eagly-alice-h-and-linda-l-carli",
+      "entityTitle": "Eagly, Alice H., and Linda L. Carli",
+      "field": "name",
+      "currentValue": "Eagly, Alice H., and Linda L. Carli",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "eagly-alice-h-and-linda-l-carli",
+      "entityTitle": "Eagly, Alice H., and Linda L. Carli",
+      "field": "name",
+      "currentValue": "Eagly, Alice H., and Linda L. Carli",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: eagly-alice-h-and-linda-l-carli-through-the-labyrinth-the-truth."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "faden-ruth-r-and-tom-l-beauchamp",
+      "entityTitle": "Faden, Ruth R., and Tom L. Beauchamp",
+      "field": "name",
+      "currentValue": "Faden, Ruth R., and Tom L. Beauchamp",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: faden-ruth-r-and-tom-l-beauchamp-a-history-and-theory-of-informed-consent."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "faden-ruth-r-and-tom-l-beauchamp",
+      "entityTitle": "Faden, Ruth R., and Tom L. Beauchamp",
+      "field": "name",
+      "currentValue": "Faden, Ruth R., and Tom L. Beauchamp",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: faden-ruth-r-and-tom-l-beauchamp-a-history-and-theory-of-informed-consent."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "fahey-liam-and-robert-m-randall-eds",
+      "entityTitle": "Fahey, Liam, and Robert M. Randall, eds",
+      "field": "name",
+      "currentValue": "Fahey, Liam, and Robert M. Randall, eds",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: fahey-liam-and-robert-m-randall-eds-learning-from-the-future."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "fahey-liam-and-robert-m-randall-eds",
+      "entityTitle": "Fahey, Liam, and Robert M. Randall, eds",
+      "field": "name",
+      "currentValue": "Fahey, Liam, and Robert M. Randall, eds",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: fahey-liam-and-robert-m-randall-eds-learning-from-the-future."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "festinger-leon-henry-w-riecken-and-stanley-schachter",
+      "entityTitle": "Festinger, Leon, Henry W. Riecken, and Stanley Schachter",
+      "field": "name",
+      "currentValue": "Festinger, Leon, Henry W. Riecken, and Stanley Schachter",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "festinger-leon-henry-w-riecken-and-stanley-schachter",
+      "entityTitle": "Festinger, Leon, Henry W. Riecken, and Stanley Schachter",
+      "field": "name",
+      "currentValue": "Festinger, Leon, Henry W. Riecken, and Stanley Schachter",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "fisher-roger-william-ury-and-bruce-patton",
+      "entityTitle": "Fisher, Roger, William Ury, and Bruce Patton",
+      "field": "name",
+      "currentValue": "Fisher, Roger, William Ury, and Bruce Patton",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "fisher-roger-william-ury-and-bruce-patton",
+      "entityTitle": "Fisher, Roger, William Ury, and Bruce Patton",
+      "field": "name",
+      "currentValue": "Fisher, Roger, William Ury, and Bruce Patton",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: fisher-roger-william-ury-and-bruce-patton-getting-to-yes-negotiating-agreement-without-giving-in."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "ford-neal-rebecca-parsons-and-patrick-kua",
+      "entityTitle": "Ford, Neal, Rebecca Parsons, and Patrick Kua",
+      "field": "name",
+      "currentValue": "Ford, Neal, Rebecca Parsons, and Patrick Kua",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "ford-neal-rebecca-parsons-and-patrick-kua",
+      "entityTitle": "Ford, Neal, Rebecca Parsons, and Patrick Kua",
+      "field": "name",
+      "currentValue": "Ford, Neal, Rebecca Parsons, and Patrick Kua",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "forsgren-nicole-jez-humble-and-gene-kim",
+      "entityTitle": "Forsgren, Nicole, Jez Humble, and Gene Kim",
+      "field": "name",
+      "currentValue": "Forsgren, Nicole, Jez Humble, and Gene Kim",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "forsgren-nicole-jez-humble-and-gene-kim",
+      "entityTitle": "Forsgren, Nicole, Jez Humble, and Gene Kim",
+      "field": "name",
+      "currentValue": "Forsgren, Nicole, Jez Humble, and Gene Kim",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: forsgren-nicole-jez-humble-and-gene-kim-accelerate-the-science-of-lean-software-and-devops-build."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "french-john-r-p-and-bertram-raven",
+      "entityTitle": "French, John R. P., and Bertram Raven",
+      "field": "name",
+      "currentValue": "French, John R. P., and Bertram Raven",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: french-john-r-p-and-bertram-raven-the-bases-of-social-power."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "french-john-r-p-and-bertram-raven",
+      "entityTitle": "French, John R. P., and Bertram Raven",
+      "field": "name",
+      "currentValue": "French, John R. P., and Bertram Raven",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: french-john-r-p-and-bertram-raven-the-bases-of-social-power."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "garud-raghu-and-peter-karn-e",
+      "entityTitle": "Garud, Raghu, and Peter Karn\u00f8e",
+      "field": "name",
+      "currentValue": "Garud, Raghu, and Peter Karn\u00f8e",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: garud-raghu-and-peter-karn-e-path-dependence-and-creation."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "garud-raghu-and-peter-karn-e",
+      "entityTitle": "Garud, Raghu, and Peter Karn\u00f8e",
+      "field": "name",
+      "currentValue": "Garud, Raghu, and Peter Karn\u00f8e",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: garud-raghu-and-peter-karn-e-path-dependence-and-creation."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daume-iii-and-kate-crawford",
+      "entityTitle": "Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daum\u00e9 III, and Kate Crawford",
+      "field": "name",
+      "currentValue": "Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daum\u00e9 III, and Kate Crawford",
+      "reason": "Thinker name lists ~6 people who could be separate thinker entries.",
+      "suggestedFix": "Create 6 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daume-iii-and-kate-crawford",
+      "entityTitle": "Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daum\u00e9 III, and Kate Crawford",
+      "field": "name",
+      "currentValue": "Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daum\u00e9 III, and Kate Crawford",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 6 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "goldratt-eliyahu-m-and-jeff-cox",
+      "entityTitle": "Goldratt, Eliyahu M., and Jeff Cox",
+      "field": "name",
+      "currentValue": "Goldratt, Eliyahu M., and Jeff Cox",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "goldratt-eliyahu-m-and-jeff-cox",
+      "entityTitle": "Goldratt, Eliyahu M., and Jeff Cox",
+      "field": "name",
+      "currentValue": "Goldratt, Eliyahu M., and Jeff Cox",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "hendrycks-dan-collin-burns-anya-chen-and-spencer-ball",
+      "entityTitle": "Hendrycks, Dan, Collin Burns, Anya Chen, and Spencer Ball",
+      "field": "name",
+      "currentValue": "Hendrycks, Dan, Collin Burns, Anya Chen, and Spencer Ball",
+      "reason": "Thinker name lists ~3 people who could be separate thinker entries.",
+      "suggestedFix": "Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: hendrycks-dan-collin-burns-anya-chen-and-spencer-ball-holistic-evaluation-of-language-models."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "hendrycks-dan-collin-burns-anya-chen-and-spencer-ball",
+      "entityTitle": "Hendrycks, Dan, Collin Burns, Anya Chen, and Spencer Ball",
+      "field": "name",
+      "currentValue": "Hendrycks, Dan, Collin Burns, Anya Chen, and Spencer Ball",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: hendrycks-dan-collin-burns-anya-chen-and-spencer-ball-holistic-evaluation-of-language-models."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "hood-christopher-and-ruth-dixon",
+      "entityTitle": "Hood, Christopher, and Ruth Dixon",
+      "field": "name",
+      "currentValue": "Hood, Christopher, and Ruth Dixon",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "hood-christopher-and-ruth-dixon",
+      "entityTitle": "Hood, Christopher, and Ruth Dixon",
+      "field": "name",
+      "currentValue": "Hood, Christopher, and Ruth Dixon",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "humble-jez-and-david-farley",
+      "entityTitle": "Humble, Jez, and David Farley",
+      "field": "name",
+      "currentValue": "Humble, Jez, and David Farley",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "humble-jez-and-david-farley",
+      "entityTitle": "Humble, Jez, and David Farley",
+      "field": "name",
+      "currentValue": "Humble, Jez, and David Farley",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: humble-jez-and-david-farley-continuous-delivery-reliable-software-releases-through-build-test-an."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "jensen-michael-c-and-william-h-meckling",
+      "entityTitle": "Jensen, Michael C., and William H. Meckling",
+      "field": "name",
+      "currentValue": "Jensen, Michael C., and William H. Meckling",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: jensen-michael-c-and-william-h-meckling-theory-of-the-firm-managerial-behavior-agency-costs-and."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "jensen-michael-c-and-william-h-meckling",
+      "entityTitle": "Jensen, Michael C., and William H. Meckling",
+      "field": "name",
+      "currentValue": "Jensen, Michael C., and William H. Meckling",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: jensen-michael-c-and-william-h-meckling-theory-of-the-firm-managerial-behavior-agency-costs-and."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "kashyap-anil-k-and-jeremy-c-stein",
+      "entityTitle": "Kashyap, Anil K., and Jeremy C. Stein",
+      "field": "name",
+      "currentValue": "Kashyap, Anil K., and Jeremy C. Stein",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: kashyap-anil-k-and-jeremy-c-stein-what-do-a-million-observations-on-banks-say-about-the-transmis."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "kashyap-anil-k-and-jeremy-c-stein",
+      "entityTitle": "Kashyap, Anil K., and Jeremy C. Stein",
+      "field": "name",
+      "currentValue": "Kashyap, Anil K., and Jeremy C. Stein",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: kashyap-anil-k-and-jeremy-c-stein-what-do-a-million-observations-on-banks-say-about-the-transmis."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "keep-william-w-and-peter-j-vander-nat",
+      "entityTitle": "Keep, William W., and Peter J. Vander Nat",
+      "field": "name",
+      "currentValue": "Keep, William W., and Peter J. Vander Nat",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: keep-william-w-and-peter-j-vander-nat-multilevel-marketing-and-pyramid-schemes-in-the-united-sta."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "keep-william-w-and-peter-j-vander-nat",
+      "entityTitle": "Keep, William W., and Peter J. Vander Nat",
+      "field": "name",
+      "currentValue": "Keep, William W., and Peter J. Vander Nat",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: keep-william-w-and-peter-j-vander-nat-multilevel-marketing-and-pyramid-schemes-in-the-united-sta."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "kim-gene-jez-humble-patrick-debois-and-john-willis",
+      "entityTitle": "Kim, Gene, Jez Humble, Patrick Debois, and John Willis",
+      "field": "name",
+      "currentValue": "Kim, Gene, Jez Humble, Patrick Debois, and John Willis",
+      "reason": "Thinker name lists ~3 people who could be separate thinker entries.",
+      "suggestedFix": "Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "kim-gene-jez-humble-patrick-debois-and-john-willis",
+      "entityTitle": "Kim, Gene, Jez Humble, Patrick Debois, and John Willis",
+      "field": "name",
+      "currentValue": "Kim, Gene, Jez Humble, Patrick Debois, and John Willis",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "kim-gene-kevin-behr-and-george-spafford",
+      "entityTitle": "Kim, Gene, Kevin Behr, and George Spafford",
+      "field": "name",
+      "currentValue": "Kim, Gene, Kevin Behr, and George Spafford",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "kim-gene-kevin-behr-and-george-spafford",
+      "entityTitle": "Kim, Gene, Kevin Behr, and George Spafford",
+      "field": "name",
+      "currentValue": "Kim, Gene, Kevin Behr, and George Spafford",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: kim-gene-kevin-behr-and-george-spafford-the-phoenix-project-a-novel-about-it-devops-and-helping."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "king-martin-luther-jr",
+      "entityTitle": "King, Martin Luther, Jr",
+      "field": "name",
+      "currentValue": "King, Martin Luther, Jr",
+      "reason": "Thinker name lists ~3 people who could be separate thinker entries.",
+      "suggestedFix": "Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: king-martin-luther-jr-letter-from-birmingham-jail."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "king-martin-luther-jr",
+      "entityTitle": "King, Martin Luther, Jr",
+      "field": "name",
+      "currentValue": "King, Martin Luther, Jr",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: king-martin-luther-jr-letter-from-birmingham-jail."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "knutti-reto-et-al",
+      "entityTitle": "Knutti, Reto, et al",
+      "field": "name",
+      "currentValue": "Knutti, Reto, et al",
+      "reason": "Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.",
+      "suggestedFix": "Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: knutti-reto-et-al-challenges-in-combining-projections-from-multiple-climate-models."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "knutti-reto-et-al",
+      "entityTitle": "Knutti, Reto, et al",
+      "field": "name",
+      "currentValue": "Knutti, Reto, et al",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: knutti-reto-et-al-challenges-in-combining-projections-from-multiple-climate-models."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "lakoff-george-and-mark-johnson",
+      "entityTitle": "Lakoff, George, and Mark Johnson",
+      "field": "name",
+      "currentValue": "Lakoff, George, and Mark Johnson",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: lakoff-george-and-mark-johnson-metaphors-we-live-by."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "lakoff-george-and-mark-johnson",
+      "entityTitle": "Lakoff, George, and Mark Johnson",
+      "field": "name",
+      "currentValue": "Lakoff, George, and Mark Johnson",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: lakoff-george-and-mark-johnson-metaphors-we-live-by."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "lewis-catherine-c-rebecca-r-perry-and-akihiko-murata",
+      "entityTitle": "Lewis, Catherine C., Rebecca R. Perry, and Akihiko Murata",
+      "field": "name",
+      "currentValue": "Lewis, Catherine C., Rebecca R. Perry, and Akihiko Murata",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "lewis-catherine-c-rebecca-r-perry-and-akihiko-murata",
+      "entityTitle": "Lewis, Catherine C., Rebecca R. Perry, and Akihiko Murata",
+      "field": "name",
+      "currentValue": "Lewis, Catherine C., Rebecca R. Perry, and Akihiko Murata",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: lewis-catherine-c-rebecca-r-perry-and-akihiko-murata-how-should-research-contribute-to-instructi."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "liebowitz-s-j-and-stephen-e-margolis",
+      "entityTitle": "Liebowitz, S. J., and Stephen E. Margolis",
+      "field": "name",
+      "currentValue": "Liebowitz, S. J., and Stephen E. Margolis",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: liebowitz-s-j-and-stephen-e-margolis-path-dependence-lock-in-and-history."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "liebowitz-s-j-and-stephen-e-margolis",
+      "entityTitle": "Liebowitz, S. J., and Stephen E. Margolis",
+      "field": "name",
+      "currentValue": "Liebowitz, S. J., and Stephen E. Margolis",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: liebowitz-s-j-and-stephen-e-margolis-path-dependence-lock-in-and-history."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "lord-charles-g-lee-ross-and-mark-r-lepper",
+      "entityTitle": "Lord, Charles G., Lee Ross, and Mark R. Lepper",
+      "field": "name",
+      "currentValue": "Lord, Charles G., Lee Ross, and Mark R. Lepper",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: lord-charles-g-lee-ross-and-mark-r-lepper-biased-assimilation-and-attitude-polarization-the-effe."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "lord-charles-g-lee-ross-and-mark-r-lepper",
+      "entityTitle": "Lord, Charles G., Lee Ross, and Mark R. Lepper",
+      "field": "name",
+      "currentValue": "Lord, Charles G., Lee Ross, and Mark R. Lepper",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: lord-charles-g-lee-ross-and-mark-r-lepper-biased-assimilation-and-attitude-polarization-the-effe."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "lovell-jim-and-jeffrey-kluger",
+      "entityTitle": "Lovell, Jim, and Jeffrey Kluger",
+      "field": "name",
+      "currentValue": "Lovell, Jim, and Jeffrey Kluger",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: lovell-jim-and-jeffrey-kluger-lost-moon-the-perilous-voyage-of-apollo-13."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "lovell-jim-and-jeffrey-kluger",
+      "entityTitle": "Lovell, Jim, and Jeffrey Kluger",
+      "field": "name",
+      "currentValue": "Lovell, Jim, and Jeffrey Kluger",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: lovell-jim-and-jeffrey-kluger-lost-moon-the-perilous-voyage-of-apollo-13."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "macfarquhar-roderick-and-michael-schoenhals",
+      "entityTitle": "MacFarquhar, Roderick, and Michael Schoenhals",
+      "field": "name",
+      "currentValue": "MacFarquhar, Roderick, and Michael Schoenhals",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "macfarquhar-roderick-and-michael-schoenhals",
+      "entityTitle": "MacFarquhar, Roderick, and Michael Schoenhals",
+      "field": "name",
+      "currentValue": "MacFarquhar, Roderick, and Michael Schoenhals",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "march-james-g-and-johan-p-olsen",
+      "entityTitle": "March, James G., and Johan P. Olsen",
+      "field": "name",
+      "currentValue": "March, James G., and Johan P. Olsen",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: march-james-g-and-johan-p-olsen-rediscovering-institutions-the."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "march-james-g-and-johan-p-olsen",
+      "entityTitle": "March, James G., and Johan P. Olsen",
+      "field": "name",
+      "currentValue": "March, James G., and Johan P. Olsen",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: march-james-g-and-johan-p-olsen-rediscovering-institutions-the."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "maslach-christina-and-michael-p-leiter",
+      "entityTitle": "Maslach, Christina, and Michael P. Leiter",
+      "field": "name",
+      "currentValue": "Maslach, Christina, and Michael P. Leiter",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: maslach-christina-and-michael-p-leiter-the-truth-about-burnout."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "maslach-christina-and-michael-p-leiter",
+      "entityTitle": "Maslach, Christina, and Michael P. Leiter",
+      "field": "name",
+      "currentValue": "Maslach, Christina, and Michael P. Leiter",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: maslach-christina-and-michael-p-leiter-the-truth-about-burnout."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "mccombs-maxwell-e-and-donald-l-shaw",
+      "entityTitle": "McCombs, Maxwell E., and Donald L. Shaw",
+      "field": "name",
+      "currentValue": "McCombs, Maxwell E., and Donald L. Shaw",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: mccombs-maxwell-e-and-donald-l-shaw-the-agenda-setting-function-of-mass-media."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "mccombs-maxwell-e-and-donald-l-shaw",
+      "entityTitle": "McCombs, Maxwell E., and Donald L. Shaw",
+      "field": "name",
+      "currentValue": "McCombs, Maxwell E., and Donald L. Shaw",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: mccombs-maxwell-e-and-donald-l-shaw-the-agenda-setting-function-of-mass-media."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "mcpherson-miller-lynn-smith-lovin-and-james-m-cook",
+      "entityTitle": "McPherson, Miller, Lynn Smith-Lovin, and James M. Cook",
+      "field": "name",
+      "currentValue": "McPherson, Miller, Lynn Smith-Lovin, and James M. Cook",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: mcpherson-miller-lynn-smith-lovin-and-james-m-cook-birds-of-a-feather-homophily-in-social-networ."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "mcpherson-miller-lynn-smith-lovin-and-james-m-cook",
+      "entityTitle": "McPherson, Miller, Lynn Smith-Lovin, and James M. Cook",
+      "field": "name",
+      "currentValue": "McPherson, Miller, Lynn Smith-Lovin, and James M. Cook",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: mcpherson-miller-lynn-smith-lovin-and-james-m-cook-birds-of-a-feather-homophily-in-social-networ."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "mellers-barbara-et-al",
+      "entityTitle": "Mellers, Barbara, et al",
+      "field": "name",
+      "currentValue": "Mellers, Barbara, et al",
+      "reason": "Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.",
+      "suggestedFix": "Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: mellers-barbara-et-al-identifying-and-cultivating-superforecasters-as-a-method-of-improving-prob."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "mellers-barbara-et-al",
+      "entityTitle": "Mellers, Barbara, et al",
+      "field": "name",
+      "currentValue": "Mellers, Barbara, et al",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: mellers-barbara-et-al-identifying-and-cultivating-superforecasters-as-a-method-of-improving-prob."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru",
+      "entityTitle": "Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru",
+      "field": "name",
+      "currentValue": "Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru",
+      "reason": "Thinker name lists ~8 people who could be separate thinker entries.",
+      "suggestedFix": "Create 8 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru",
+      "entityTitle": "Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru",
+      "field": "name",
+      "currentValue": "Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 8 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "parker-ashley-and-michael-scherer",
+      "entityTitle": "Parker, Ashley, and Michael Scherer",
+      "field": "name",
+      "currentValue": "Parker, Ashley, and Michael Scherer",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "parker-ashley-and-michael-scherer",
+      "entityTitle": "Parker, Ashley, and Michael Scherer",
+      "field": "name",
+      "currentValue": "Parker, Ashley, and Michael Scherer",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "peng-sida-et-al",
+      "entityTitle": "Peng, Sida, et al",
+      "field": "name",
+      "currentValue": "Peng, Sida, et al",
+      "reason": "Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.",
+      "suggestedFix": "Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: peng-sida-et-al-the-impact-of-ai-on-developer-productivity-evidence-from-github-copilot."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "peng-sida-et-al",
+      "entityTitle": "Peng, Sida, et al",
+      "field": "name",
+      "currentValue": "Peng, Sida, et al",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: peng-sida-et-al-the-impact-of-ai-on-developer-productivity-evidence-from-github-copilot."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh",
+      "entityTitle": "Perry, Neil, Megha Srivastava, Deepak Kumar, and Dan Boneh",
+      "field": "name",
+      "currentValue": "Perry, Neil, Megha Srivastava, Deepak Kumar, and Dan Boneh",
+      "reason": "Thinker name lists ~3 people who could be separate thinker entries.",
+      "suggestedFix": "Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh",
+      "entityTitle": "Perry, Neil, Megha Srivastava, Deepak Kumar, and Dan Boneh",
+      "field": "name",
+      "currentValue": "Perry, Neil, Megha Srivastava, Deepak Kumar, and Dan Boneh",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "pollitt-christopher-and-geert-bouckaert",
+      "entityTitle": "Pollitt, Christopher, and Geert Bouckaert",
+      "field": "name",
+      "currentValue": "Pollitt, Christopher, and Geert Bouckaert",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: pollitt-christopher-and-geert-bouckaert-public-management-reform-a-comparative-analysis."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "pollitt-christopher-and-geert-bouckaert",
+      "entityTitle": "Pollitt, Christopher, and Geert Bouckaert",
+      "field": "name",
+      "currentValue": "Pollitt, Christopher, and Geert Bouckaert",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: pollitt-christopher-and-geert-bouckaert-public-management-reform-a-comparative-analysis."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "reinhart-carmen-m-and-kenneth-s-rogoff",
+      "entityTitle": "Reinhart, Carmen M., and Kenneth S. Rogoff",
+      "field": "name",
+      "currentValue": "Reinhart, Carmen M., and Kenneth S. Rogoff",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: reinhart-carmen-m-and-kenneth-s-rogoff-this-time-is-different-eight-centuries-of-financial-folly."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "reinhart-carmen-m-and-kenneth-s-rogoff",
+      "entityTitle": "Reinhart, Carmen M., and Kenneth S. Rogoff",
+      "field": "name",
+      "currentValue": "Reinhart, Carmen M., and Kenneth S. Rogoff",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: reinhart-carmen-m-and-kenneth-s-rogoff-this-time-is-different-eight-centuries-of-financial-folly."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "ross-lee-and-andrew-ward",
+      "entityTitle": "Ross, Lee, and Andrew Ward",
+      "field": "name",
+      "currentValue": "Ross, Lee, and Andrew Ward",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: ross-lee-and-andrew-ward-naive-realism-in-everyday-life."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "ross-lee-and-andrew-ward",
+      "entityTitle": "Ross, Lee, and Andrew Ward",
+      "field": "name",
+      "currentValue": "Ross, Lee, and Andrew Ward",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: ross-lee-and-andrew-ward-naive-realism-in-everyday-life."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "ross-lee-and-richard-nisbett",
+      "entityTitle": "Ross, Lee, and Richard Nisbett",
+      "field": "name",
+      "currentValue": "Ross, Lee, and Richard Nisbett",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: ross-lee-and-richard-nisbett-the-person-and-the-situation, ross-lee-the-intuitive-psychologist-and-his-shortcomings."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "ross-lee-and-richard-nisbett",
+      "entityTitle": "Ross, Lee, and Richard Nisbett",
+      "field": "name",
+      "currentValue": "Ross, Lee, and Richard Nisbett",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: ross-lee-and-richard-nisbett-the-person-and-the-situation, ross-lee-the-intuitive-psychologist-and-his-shortcomings."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "schulz-kenneth-f-et-al",
+      "entityTitle": "Schulz, Kenneth F., et al",
+      "field": "name",
+      "currentValue": "Schulz, Kenneth F., et al",
+      "reason": "Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.",
+      "suggestedFix": "Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: schulz-kenneth-f-et-al-empirical-evidence-of-bias-dimensions-of-methodological-quality-associate."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "schulz-kenneth-f-et-al",
+      "entityTitle": "Schulz, Kenneth F., et al",
+      "field": "name",
+      "currentValue": "Schulz, Kenneth F., et al",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: schulz-kenneth-f-et-al-empirical-evidence-of-bias-dimensions-of-methodological-quality-associate."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "simons-daniel-j-and-christopher-f-chabris",
+      "entityTitle": "Simons, Daniel J., and Christopher F. Chabris",
+      "field": "name",
+      "currentValue": "Simons, Daniel J., and Christopher F. Chabris",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "simons-daniel-j-and-christopher-f-chabris",
+      "entityTitle": "Simons, Daniel J., and Christopher F. Chabris",
+      "field": "name",
+      "currentValue": "Simons, Daniel J., and Christopher F. Chabris",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: simons-daniel-j-and-christopher-f-chabris-gorillas-in-our-midst-sustained-inattentional-blindnes."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "skelton-matthew-and-manuel-pais",
+      "entityTitle": "Skelton, Matthew, and Manuel Pais",
+      "field": "name",
+      "currentValue": "Skelton, Matthew, and Manuel Pais",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: skelton-matthew-and-manuel-pais-team-topologies-organizing-business-and-technology-teams-for-fas."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "skelton-matthew-and-manuel-pais",
+      "entityTitle": "Skelton, Matthew, and Manuel Pais",
+      "field": "name",
+      "currentValue": "Skelton, Matthew, and Manuel Pais",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: skelton-matthew-and-manuel-pais-team-topologies-organizing-business-and-technology-teams-for-fas."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "star-susan-leigh-and-anselm-strauss",
+      "entityTitle": "Star, Susan Leigh, and Anselm Strauss",
+      "field": "name",
+      "currentValue": "Star, Susan Leigh, and Anselm Strauss",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "star-susan-leigh-and-anselm-strauss",
+      "entityTitle": "Star, Susan Leigh, and Anselm Strauss",
+      "field": "name",
+      "currentValue": "Star, Susan Leigh, and Anselm Strauss",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "star-susan-leigh-and-james-r-griesemer",
+      "entityTitle": "Star, Susan Leigh, and James R. Griesemer",
+      "field": "name",
+      "currentValue": "Star, Susan Leigh, and James R. Griesemer",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: star-susan-leigh-and-james-r-griesemer-institutional-ecology-translations-and-boundary-objects."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "star-susan-leigh-and-james-r-griesemer",
+      "entityTitle": "Star, Susan Leigh, and James R. Griesemer",
+      "field": "name",
+      "currentValue": "Star, Susan Leigh, and James R. Griesemer",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: star-susan-leigh-and-james-r-griesemer-institutional-ecology-translations-and-boundary-objects."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "suedfeld-peter-philip-e-tetlock-and-sally-streufert",
+      "entityTitle": "Suedfeld, Peter, Philip E. Tetlock, and Sally Streufert",
+      "field": "name",
+      "currentValue": "Suedfeld, Peter, Philip E. Tetlock, and Sally Streufert",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: suedfeld-peter-philip-e-tetlock-and-sally-streufert-conceptual-integrative-complexity."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "suedfeld-peter-philip-e-tetlock-and-sally-streufert",
+      "entityTitle": "Suedfeld, Peter, Philip E. Tetlock, and Sally Streufert",
+      "field": "name",
+      "currentValue": "Suedfeld, Peter, Philip E. Tetlock, and Sally Streufert",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: suedfeld-peter-philip-e-tetlock-and-sally-streufert-conceptual-integrative-complexity."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "tabor-james-d-and-eugene-v-gallagher",
+      "entityTitle": "Tabor, James D., and Eugene V. Gallagher",
+      "field": "name",
+      "currentValue": "Tabor, James D., and Eugene V. Gallagher",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "tabor-james-d-and-eugene-v-gallagher",
+      "entityTitle": "Tabor, James D., and Eugene V. Gallagher",
+      "field": "name",
+      "currentValue": "Tabor, James D., and Eugene V. Gallagher",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "tajfel-henri-and-john-c-turner",
+      "entityTitle": "Tajfel, Henri, and John C. Turner",
+      "field": "name",
+      "currentValue": "Tajfel, Henri, and John C. Turner",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "tajfel-henri-and-john-c-turner",
+      "entityTitle": "Tajfel, Henri, and John C. Turner",
+      "field": "name",
+      "currentValue": "Tajfel, Henri, and John C. Turner",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "talbot-s-g-and-w-dean",
+      "entityTitle": "Talbot, S. G., and W. Dean",
+      "field": "name",
+      "currentValue": "Talbot, S. G., and W. Dean",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "talbot-s-g-and-w-dean",
+      "entityTitle": "Talbot, S. G., and W. Dean",
+      "field": "name",
+      "currentValue": "Talbot, S. G., and W. Dean",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "tavris-carol-and-elliot-aronson",
+      "entityTitle": "Tavris, Carol, and Elliot Aronson",
+      "field": "name",
+      "currentValue": "Tavris, Carol, and Elliot Aronson",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "tavris-carol-and-elliot-aronson",
+      "entityTitle": "Tavris, Carol, and Elliot Aronson",
+      "field": "name",
+      "currentValue": "Tavris, Carol, and Elliot Aronson",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b-carsten",
+      "entityTitle": "Uhl-Bien, Michael, Ronald E. Riggio, Kelly Lowe, and Gerard B. Carsten",
+      "field": "name",
+      "currentValue": "Uhl-Bien, Michael, Ronald E. Riggio, Kelly Lowe, and Gerard B. Carsten",
+      "reason": "Thinker name lists ~3 people who could be separate thinker entries.",
+      "suggestedFix": "Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b-carsten",
+      "entityTitle": "Uhl-Bien, Michael, Ronald E. Riggio, Kelly Lowe, and Gerard B. Carsten",
+      "field": "name",
+      "currentValue": "Uhl-Bien, Michael, Ronald E. Riggio, Kelly Lowe, and Gerard B. Carsten",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 3 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "wachsmuth-david-and-alexander-weisler",
+      "entityTitle": "Wachsmuth, David, and Alexander Weisler",
+      "field": "name",
+      "currentValue": "Wachsmuth, David, and Alexander Weisler",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "wachsmuth-david-and-alexander-weisler",
+      "entityTitle": "Wachsmuth, David, and Alexander Weisler",
+      "field": "name",
+      "currentValue": "Wachsmuth, David, and Alexander Weisler",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First. Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing."
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "wright-stuart-a-ed",
+      "entityTitle": "Wright, Stuart A., ed",
+      "field": "name",
+      "currentValue": "Wright, Stuart A., ed",
+      "reason": "Thinker name uses bibliographic Last, First order instead of First Last.",
+      "suggestedFix": "Use First Last display order instead of bibliographic Last, First."
     },
     {
       "severity": "info",
@@ -1865,17 +3548,6 @@
       "entityId": "admiration-becomes-insulation",
       "entityTitle": "Admiration Becomes Insulation",
       "field": "relatedPatterns",
-      "currentValue": "scrutiny-preserves-trust",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'admiration-becomes-insulation' to relatedPatterns on 'scrutiny-preserves-trust'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "admiration-becomes-insulation",
-      "entityTitle": "Admiration Becomes Insulation",
-      "field": "relatedPatterns",
       "currentValue": "blame-compresses-complexity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'admiration-becomes-insulation' to relatedPatterns on 'blame-compresses-complexity'."
@@ -1884,12 +3556,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "attention-finds-a-focus",
-      "entityTitle": "Attention Finds a Focus",
+      "entityId": "admiration-becomes-insulation",
+      "entityTitle": "Admiration Becomes Insulation",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "scrutiny-preserves-trust",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'admiration-becomes-insulation' to relatedPatterns on 'scrutiny-preserves-trust'."
     },
     {
       "severity": "info",
@@ -1906,12 +3578,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "attention-finds-a-signal",
-      "entityTitle": "Attention Finds a Signal",
+      "entityId": "attention-finds-a-focus",
+      "entityTitle": "Attention Finds a Focus",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
+      "currentValue": "examples-accumulate",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-forms-early'."
+      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -1923,6 +3595,17 @@
       "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-outruns-the-words'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "attention-finds-a-signal",
+      "entityTitle": "Attention Finds a Signal",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-forms-early",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-forms-early'."
     },
     {
       "severity": "info",
@@ -1953,17 +3636,6 @@
       "entityId": "blame-compresses-complexity",
       "entityTitle": "Blame Compresses Complexity",
       "field": "relatedPatterns",
-      "currentValue": "attention-restores-contact",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'attention-restores-contact'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "blame-compresses-complexity",
-      "entityTitle": "Blame Compresses Complexity",
-      "field": "relatedPatterns",
       "currentValue": "admiration-becomes-insulation",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'admiration-becomes-insulation'."
@@ -1972,12 +3644,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "contact-keeps-the-read-open",
-      "entityTitle": "Contact Keeps the Read Open",
+      "entityId": "blame-compresses-complexity",
+      "entityTitle": "Blame Compresses Complexity",
       "field": "relatedPatterns",
-      "currentValue": "meaning-gets-distorted",
+      "currentValue": "attention-restores-contact",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-gets-distorted'."
+      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'attention-restores-contact'."
     },
     {
       "severity": "info",
@@ -1989,6 +3661,17 @@
       "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-outruns-the-words'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "contact-keeps-the-read-open",
+      "entityTitle": "Contact Keeps the Read Open",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-gets-distorted",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-gets-distorted'."
     },
     {
       "severity": "info",
@@ -2041,9 +3724,9 @@
       "entityId": "dissent-is-welcomed",
       "entityTitle": "Dissent is Welcomed",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -2052,9 +3735,9 @@
       "entityId": "dissent-is-welcomed",
       "entityTitle": "Dissent is Welcomed",
       "field": "relatedPatterns",
-      "currentValue": "learning-collapses",
+      "currentValue": "examples-accumulate",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -2085,9 +3768,9 @@
       "entityId": "exceptions-are-forever",
       "entityTitle": "Exceptions are Forever",
       "field": "relatedPatterns",
-      "currentValue": "learning-collapses",
+      "currentValue": "disagreement-is-suppressed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'disagreement-is-suppressed'."
     },
     {
       "severity": "info",
@@ -2096,9 +3779,9 @@
       "entityId": "exceptions-are-forever",
       "entityTitle": "Exceptions are Forever",
       "field": "relatedPatterns",
-      "currentValue": "disagreement-is-suppressed",
+      "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'disagreement-is-suppressed'."
+      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -2173,9 +3856,9 @@
       "entityId": "gaps-invite-completion",
       "entityTitle": "Gaps Invite Completion",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
+      "currentValue": "intent-gets-assigned",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'meaning-forms-early'."
+      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'intent-gets-assigned'."
     },
     {
       "severity": "info",
@@ -2184,9 +3867,9 @@
       "entityId": "gaps-invite-completion",
       "entityTitle": "Gaps Invite Completion",
       "field": "relatedPatterns",
-      "currentValue": "intent-gets-assigned",
+      "currentValue": "meaning-forms-early",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'intent-gets-assigned'."
+      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'meaning-forms-early'."
     },
     {
       "severity": "info",
@@ -2239,17 +3922,6 @@
       "entityId": "leadership-coalesces",
       "entityTitle": "Leadership Coalesces",
       "field": "relatedPatterns",
-      "currentValue": "attention-finds-a-focus",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'attention-finds-a-focus'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "leadership-coalesces",
-      "entityTitle": "Leadership Coalesces",
-      "field": "relatedPatterns",
       "currentValue": "disagreement-is-suppressed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'disagreement-is-suppressed'."
@@ -2258,12 +3930,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "leadership-reproduces-itself",
-      "entityTitle": "Leadership Reproduces Itself",
+      "entityId": "leadership-coalesces",
+      "entityTitle": "Leadership Coalesces",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "attention-finds-a-focus",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'attention-finds-a-focus'."
     },
     {
       "severity": "info",
@@ -2275,6 +3947,17 @@
       "currentValue": "leadership-coalesces",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'leadership-coalesces'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "leadership-reproduces-itself",
+      "entityTitle": "Leadership Reproduces Itself",
+      "field": "relatedPatterns",
+      "currentValue": "examples-accumulate",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -2305,17 +3988,6 @@
       "entityId": "meaning-drifts-over-time",
       "entityTitle": "Meaning Drifts Over Time",
       "field": "relatedPatterns",
-      "currentValue": "meaning-reinforces-itself",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-reinforces-itself'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "meaning-drifts-over-time",
-      "entityTitle": "Meaning Drifts Over Time",
-      "field": "relatedPatterns",
       "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-outruns-the-words'."
@@ -2324,12 +3996,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-forms-early",
-      "entityTitle": "Meaning Forms Early",
+      "entityId": "meaning-drifts-over-time",
+      "entityTitle": "Meaning Drifts Over Time",
       "field": "relatedPatterns",
-      "currentValue": "gaps-invite-completion",
+      "currentValue": "meaning-reinforces-itself",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-forms-early' to relatedPatterns on 'gaps-invite-completion'."
+      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-reinforces-itself'."
     },
     {
       "severity": "info",
@@ -2346,12 +4018,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-gets-distorted",
-      "entityTitle": "Meaning Gets Distorted",
+      "entityId": "meaning-forms-early",
+      "entityTitle": "Meaning Forms Early",
       "field": "relatedPatterns",
-      "currentValue": "meaning-reinforces-itself",
+      "currentValue": "gaps-invite-completion",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'meaning-reinforces-itself'."
+      "suggestedFix": "Consider adding 'meaning-forms-early' to relatedPatterns on 'gaps-invite-completion'."
     },
     {
       "severity": "info",
@@ -2368,12 +4040,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-outruns-the-words",
-      "entityTitle": "Meaning Outruns the Words",
+      "entityId": "meaning-gets-distorted",
+      "entityTitle": "Meaning Gets Distorted",
       "field": "relatedPatterns",
-      "currentValue": "attention-finds-a-signal",
+      "currentValue": "meaning-reinforces-itself",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-outruns-the-words' to relatedPatterns on 'attention-finds-a-signal'."
+      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'meaning-reinforces-itself'."
     },
     {
       "severity": "info",
@@ -2390,12 +4062,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-reinforces-itself",
-      "entityTitle": "Meaning Reinforces Itself",
+      "entityId": "meaning-outruns-the-words",
+      "entityTitle": "Meaning Outruns the Words",
       "field": "relatedPatterns",
-      "currentValue": "meaning-shifts-under-pressure",
+      "currentValue": "attention-finds-a-signal",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-shifts-under-pressure'."
+      "suggestedFix": "Consider adding 'meaning-outruns-the-words' to relatedPatterns on 'attention-finds-a-signal'."
     },
     {
       "severity": "info",
@@ -2412,12 +4084,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-shifts-under-pressure",
-      "entityTitle": "Meaning Shifts Under Pressure",
+      "entityId": "meaning-reinforces-itself",
+      "entityTitle": "Meaning Reinforces Itself",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
+      "currentValue": "meaning-shifts-under-pressure",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-forms-early'."
+      "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-shifts-under-pressure'."
     },
     {
       "severity": "info",
@@ -2434,12 +4106,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "responsibility-persists-beyond-control",
-      "entityTitle": "Responsibility Persists Beyond Control",
+      "entityId": "meaning-shifts-under-pressure",
+      "entityTitle": "Meaning Shifts Under Pressure",
       "field": "relatedPatterns",
-      "currentValue": "attention-restores-contact",
+      "currentValue": "meaning-forms-early",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'responsibility-persists-beyond-control' to relatedPatterns on 'attention-restores-contact'."
+      "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-forms-early'."
     },
     {
       "severity": "info",
@@ -2456,12 +4128,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "revisability-preserves-judgment",
-      "entityTitle": "Revisability Preserves Judgment",
+      "entityId": "responsibility-persists-beyond-control",
+      "entityTitle": "Responsibility Persists Beyond Control",
       "field": "relatedPatterns",
-      "currentValue": "finality-compensates-for-uncertainty",
+      "currentValue": "attention-restores-contact",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'finality-compensates-for-uncertainty'."
+      "suggestedFix": "Consider adding 'responsibility-persists-beyond-control' to relatedPatterns on 'attention-restores-contact'."
     },
     {
       "severity": "info",
@@ -2473,6 +4145,17 @@
       "currentValue": "correctness-hardens-into-identity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'correctness-hardens-into-identity'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "revisability-preserves-judgment",
+      "entityTitle": "Revisability Preserves Judgment",
+      "field": "relatedPatterns",
+      "currentValue": "finality-compensates-for-uncertainty",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'finality-compensates-for-uncertainty'."
     },
     {
       "severity": "info",
@@ -2503,9 +4186,9 @@
       "entityId": "speech-escalates-faster-than-meaning",
       "entityTitle": "Speech Escalates Faster Than Meaning",
       "field": "relatedPatterns",
-      "currentValue": "finality-compensates-for-uncertainty",
+      "currentValue": "explanation-replaces-response",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'finality-compensates-for-uncertainty'."
+      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'explanation-replaces-response'."
     },
     {
       "severity": "info",
@@ -2514,9 +4197,9 @@
       "entityId": "speech-escalates-faster-than-meaning",
       "entityTitle": "Speech Escalates Faster Than Meaning",
       "field": "relatedPatterns",
-      "currentValue": "explanation-replaces-response",
+      "currentValue": "finality-compensates-for-uncertainty",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'explanation-replaces-response'."
+      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'finality-compensates-for-uncertainty'."
     },
     {
       "severity": "info",
