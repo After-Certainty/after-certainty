@@ -287,10 +287,6 @@ relationships:
   relationship: calibrates
   description: Feedback calibrates trust by providing testable signals that update confidence and expose
     when trust has thinned.
-- source: feedback
-  target: correction
-  relationship: enables
-  description: Feedback enables correction by returning consequence as signal that can update future decisions.
 - source: finite-perspective
   target: bias
   relationship: grounds

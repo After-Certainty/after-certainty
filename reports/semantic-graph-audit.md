@@ -5,42 +5,21 @@
 - Repository type: **source**
 - Input files: build/semantic-manifest.json, build/books-manifest.json
 - Errors: **0**
-- Warnings: **140**
+- Warnings: **0**
 - Info: **317**
-- Entities scanned: {'books': 28, 'concepts': 137, 'patterns': 30, 'thinkers': 339, 'sources': 408, 'relationships': 110}
+- Entities scanned: {'books': 28, 'concepts': 137, 'patterns': 30, 'thinkers': 340, 'sources': 408, 'relationships': 109}
 
 ## Top priority issues
 
-- **[warning]** book-metadata / book `when-others-look-to-you-v1` — Duplicate or near-duplicate book titles. — *Model editions explicitly or differentiate titles.*
-- **[warning]** concept-metadata / concept `abstraction` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `acceleration` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `accountability` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `agency` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `agile` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `alignment-at-scale` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `answerability` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `asymmetry` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `attention` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `authority` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `authorization` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `bias` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `bureaucracy` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `care` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `certainty` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `circulation` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `coercion` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `cohesion` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
-- **[warning]** concept-metadata / concept `compression` — Definition appears tautological (repeats the title). — *Rewrite to explain the concept without restating the title.*
+- No errors or warnings found.
 
 ## Issue counts by category
 
-- concept-metadata: 165
 - pattern-metadata: 120
-- relationship-quality: 80
-- source-metadata: 37
-- thinker-metadata: 27
-- slug-quality: 16
-- book-metadata: 10
+- concept-metadata: 82
+- relationship-quality: 79
+- thinker-metadata: 25
+- book-metadata: 9
 - manifest-consistency: 2
 
 ## Relationship vocabulary (top labels)
@@ -50,7 +29,7 @@
 - `structural_tension` (concept → concept): 20 — e.g. [{'source': 'circulation', 'target': 'correction'}, {'source': 'authority', 'target': 'legitimacy'}]
 - `requires` (concept → concept): 18 — e.g. [{'source': 'correction', 'target': 'revisability'}, {'source': 'cohesion', 'target': 'boundary'}]
 - `thins` (concept → concept): 18 — e.g. [{'source': 'scale', 'target': 'correction'}, {'source': 'scale', 'target': 'feedback'}]
-- `enables` (concept → concept): 10 — e.g. [{'source': 'coupling', 'target': 'correction'}, {'source': 'feedback', 'target': 'correction'}]
+- `enables` (concept → concept): 8 — e.g. [{'source': 'coupling', 'target': 'correction'}, {'source': 'feedback', 'target': 'correction'}]
 - `shapes` (concept → concept): 8 — e.g. [{'source': 'boundary', 'target': 'coupling'}, {'source': 'boundary', 'target': 'accountability'}]
 - `precedes` (concept → concept): 6 — e.g. [{'source': 'public-interpretation', 'target': 'interpretive-collapse'}, {'source': 'drift', 'target': 'normalization'}]
 - `grounds` (concept → concept): 4 — e.g. [{'source': 'finite-perspective', 'target': 'bias'}, {'source': 'finite-perspective', 'target': 'trust'}]
@@ -60,22 +39,6 @@
 - `calibrates` (concept → concept): 2 — e.g. [{'source': 'feedback', 'target': 'trust'}, {'source': 'feedback', 'target': 'trust'}]
 - `complements` (concept → concept): 2 — e.g. [{'source': 'cohesion', 'target': 'coupling'}, {'source': 'cohesion', 'target': 'coupling'}]
 - `constrains` (concept → concept): 2 — e.g. [{'source': 'certainty', 'target': 'corrigibility'}, {'source': 'certainty', 'target': 'corrigibility'}]
-
-## Suspected duplicates
-
-- source `centers-for-medicare-medicaid-services-hospital-readmissions`: Institution field duplicates a creator name (person misfiled as org).
-- source `federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs`: Institution field duplicates a creator name (person misfiled as org).
-- source `haspeslagh-philippe-c-and-david-b-jemison-managing-acquisitions-creating-value-from-corporate-an`: Institution field duplicates a creator name (person misfiled as org).
-- source `international-organization-for-standardization-iso-iec-42001-2023-information-technology-artific`: Institution field duplicates a creator name (person misfiled as org).
-- source `national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate`: Institution field duplicates a creator name (person misfiled as org).
-- source `u-s-bureau-of-labor-statistics-consumer-price-index-cpi-news-releases-and-databases-2020-2024-ht`: Institution field duplicates a creator name (person misfiled as org).
-- source `u-s-bureau-of-labor-statistics-employment-situation-news-releases-job-openings-and-labor-turnove`: Institution field duplicates a creator name (person misfiled as org).
-- source `u-s-census-bureau-housing-statistics-and-american-community-survey-materials-on-regional-cost-pr`: Institution field duplicates a creator name (person misfiled as org).
-- source `u-s-department-of-defense-dod-std-2167a-defense-system-software-development`: Institution field duplicates a creator name (person misfiled as org).
-- source `u-s-securities-and-exchange-commission-office-of-the-whistleblower-annual-reports-to-congress-ht`: Institution field duplicates a creator name (person misfiled as org).
-- source `world-bank-state-and-trends-of-carbon-pricing`: Institution field duplicates a creator name (person misfiled as org).
-- book `when-others-look-to-you-v1`: Duplicate or near-duplicate book titles.
-- relationship `feedback->correction`: Duplicate relationship edge.
 
 ## Stale or divergent manifests
 
@@ -92,148 +55,6 @@
 
 ## Full issue list
 
-### Warning
-
-- **book-metadata** — book `when-others-look-to-you-v1` (when others look to you): Duplicate or near-duplicate book titles.
-- **concept-metadata** — concept `abstraction` (Abstraction): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `acceleration` (Acceleration): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `accountability` (Accountability): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `agency` (Agency): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `agile` (Agile): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `alignment-at-scale` (Alignment at scale): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `answerability` (Answerability): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `asymmetry` (Asymmetry): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `attention` (Attention): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `authority` (Authority): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `authorization` (Authorization): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `bias` (Bias): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `bureaucracy` (Bureaucracy): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `care` (Care): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `certainty` (Certainty): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `circulation` (Circulation): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `coercion` (Coercion): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `cohesion` (Cohesion): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `compression` (Compression): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `connection` (Connection): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `consequence` (Consequence): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `consequence-architecture` (Consequence Architecture): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `contact` (Contact): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `contestability` (Contestability): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `context-collapse` (Context Collapse): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `contract` (Contract): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `coordination` (Coordination): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `correction` (Correction): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `corrigibility` (Corrigibility): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `coupling` (Coupling): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `devops` (DevOps): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `distance` (Distance): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `dora` (DORA): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `drift` (Drift): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `effectiveness` (Effectiveness): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `erosion` (Erosion): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `exit` (Exit): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `exposure` (Exposure): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `feedback` (Feedback): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `friction` (Friction): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `harm` (Harm): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `hexagonal-architecture` (Hexagonal Architecture): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `inheritance` (Inheritance): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `institutional-memory` (Institutional memory): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `integration` (Integration): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `interface` (Interface): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `interpretation` (Interpretation): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `interpretive-collapse` (Interpretive collapse): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `judgment` (Judgment): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `legibility` (Legibility): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `legitimacy` (Legitimacy): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `machine-perspective` (Machine perspective): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `meaning` (Meaning): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `mediation` (Mediation): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `momentum` (Momentum): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `moral-density` (Moral Density): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `moral-surplus` (Moral Surplus): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `narrative-enclosure` (Narrative enclosure): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `normalization` (Normalization): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `performative-legitimacy` (Performative legitimacy): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `permission` (Permission): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `post-interpretive-authority` (Post-interpretive authority): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `private-understanding` (Private understanding): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `proportionality` (Proportionality): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `proximity` (Proximity): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `public-interpretation` (Public interpretation): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `reciprocity` (Reciprocity): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `relational-credibility` (Relational Credibility): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `renewal` (Renewal): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `repair` (Repair): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `responsibility` (Responsibility): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `reversibility` (Reversibility): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `revisability` (Revisability): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `scale` (Scale): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `shift-left` (Shift Left): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `thinking` (Thinking): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `throughput` (Throughput): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `total-authority` (Total authority): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `trust` (Trust): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `uncertainty` (Uncertainty): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `vitality` (Vitality): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `waterfall` (Waterfall): Definition appears tautological (repeats the title).
-- **concept-metadata** — concept `witness` (Witness): Definition appears tautological (repeats the title).
-- **relationship-quality** — relationship `feedback->correction` (enables): Duplicate relationship edge.
-- **slug-quality** — thinker `bren-brown` (Brené Brown): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `bren-brown` (Brené Brown): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `carlos-escud` (Carlos Escudé): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `carlos-escud` (Carlos Escudé): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `dietrich-d-rner` (Dietrich Dörner): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `dietrich-d-rner` (Dietrich Dörner): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `donald-a-sch-n` (Donald A Schön): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `donald-a-sch-n` (Donald A Schön): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `frank-dik-tter` (Frank Dikötter): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `frank-dik-tter` (Frank Dikötter): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford` (Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford` (Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `j-rgen-habermas` (Jürgen Habermas): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `j-rgen-habermas` (Jürgen Habermas): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `l-on-krier` (Léon Krier): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `l-on-krier` (Léon Krier): Slug may be stale after title change (diacritic damage).
-- **source-metadata** — source `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` (Why Nations Fail: The Origins of Power,): Title or name ends with dangling punctuation.
-- **source-metadata** — source `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` (Why Nations Fail: The Origins of Power,): Title or name ends with dangling punctuation.
-- **source-metadata** — source `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language` (A Pattern Language:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language` (A Pattern Language:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `argyris-chris-and-donald-a-schon-organizational-learning-ii` (Organizational Learning II:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `argyris-chris-and-donald-a-schon-organizational-learning-ii` (Organizational Learning II:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr` (Manifesto for Agile Software Development.): Creator name appears to be a full citation string.
-- **source-metadata** — source `board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ` (Report on the Economic Well-Being of U.S. Households): Institutional statistics or report classified like a book.
-- **source-metadata** — source `centers-for-medicare-medicaid-services-hospital-readmissions` (Hospital Readmissions Reduction Program (HRRP). Program overview and statutory authority. Updated 2023): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `fahey-liam-and-robert-m-randall-eds-learning-from-the-future` (Learning from the Future:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `fahey-liam-and-robert-m-randall-eds-learning-from-the-future` (Learning from the Future:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs` (Aviation Safety Reporting System (ASRS).): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum` (Datasheets for Datasets.): Creator name appears to be a full citation string.
-- **source-metadata** — source `haspeslagh-philippe-c-and-david-b-jemison-managing-acquisitions-creating-value-from-corporate-an` (Managing Acquisitions: Creating Value from Corporate and Technology Acquisitions): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `henrich-joseph-the-secret-of-our-success-how-culture-is-driving-human-evolution` (The Secret of Our Success: How Culture Is Driving Human Evolution,): Title or name ends with dangling punctuation.
-- **source-metadata** — source `henrich-joseph-the-secret-of-our-success-how-culture-is-driving-human-evolution` (The Secret of Our Success: How Culture Is Driving Human Evolution,): Title or name ends with dangling punctuation.
-- **source-metadata** — source `hirschman-albert-o-the-rhetoric-of-reaction-perversity-futility` (The Rhetoric of Reaction: Perversity, Futility,): Title or name ends with dangling punctuation.
-- **source-metadata** — source `hirschman-albert-o-the-rhetoric-of-reaction-perversity-futility` (The Rhetoric of Reaction: Perversity, Futility,): Title or name ends with dangling punctuation.
-- **source-metadata** — source `international-organization-for-standardization-iso-iec-42001-2023-information-technology-artific` (ISO/IEC 42001:2023 — Information Technology — Artificial Intelligence — Management System): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `maslach-christina-and-michael-p-leiter-the-truth-about-burnout` (The Truth About Burnout:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `maslach-christina-and-michael-p-leiter-the-truth-about-burnout` (The Truth About Burnout:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp` (Model Cards for Model Reporting.): Creator name appears to be a full citation string.
-- **source-metadata** — source `national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate` (Aviation Safety Reporting System (ASRS) program materials.): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `ross-lee-the-intuitive-psychologist-and-his-shortcomings` (The Intuitive Psychologist and His Shortcomings:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `ross-lee-the-intuitive-psychologist-and-his-shortcomings` (The Intuitive Psychologist and His Shortcomings:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me` (Mistakes Were Made (But Not by Me):): Title or name ends with dangling punctuation.
-- **source-metadata** — source `tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me` (Mistakes Were Made (But Not by Me):): Title or name ends with dangling punctuation.
-- **source-metadata** — source `u-s-bureau-of-labor-statistics-consumer-price-index-cpi-news-releases-and-databases-2020-2024-ht` (Consumer Price Index (CPI) news releases and databases): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `u-s-bureau-of-labor-statistics-employment-situation-news-releases-job-openings-and-labor-turnove` (Employment Situation news releases; Job Openings and Labor Turnover Survey (JOLTS)): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `u-s-census-bureau-housing-statistics-and-american-community-survey-materials-on-regional-cost-pr` (Housing statistics and American Community Survey materials on regional cost pressures): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `u-s-department-of-defense-dod-std-2167a-defense-system-software-development` (Defense System Software Development): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `u-s-securities-and-exchange-commission-office-of-the-whistleblower-annual-reports-to-congress-ht` (Annual reports to Congress.): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `vaughan-diane-the-challenger-launch-decision-risky-technology-culture-and-deviance-at-nasa` (The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA): Institutional statistics or report classified like a book.
-- **source-metadata** — source `world-bank-state-and-trends-of-carbon-pricing` (State and Trends of Carbon Pricing): Institution field duplicates a creator name (person misfiled as org).
-- **source-metadata** — source `yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of` (yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of): name lacks Author — Title separator and title is missing or equals name: 'Yellen, Janet L. Speeches on inflation, labor markets, and financial stability, Board of Governors of the Federal Reserve System and U.S. Department of the Treasury, 2021–2024'
-- **source-metadata** — source `yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of` (Yellen, Janet L. Speeches on inflation, labor markets, and financial stability, Board of Governors of the Federal Reserve System and U.S. Department of the Treasury, 2021–2024): Creator name appears to be a full citation string.
-- **source-metadata** — source `yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of` (Yellen, Janet L. Speeches on inflation, labor markets, and financial stability, Board of Governors of the Federal Reserve System and U.S. Department of the Treasury, 2021–2024): Institutional statistics or report classified like a book.
-- **thinker-metadata** — thinker `open-science-collaboration` (Open Science Collaboration): Person-like name classified as organization.
-- **thinker-metadata** — thinker `world-bank` (World Bank): Person-like name classified as organization.
 ### Info
 
 - **book-metadata** — book `before-certainty-arrives` (Before Certainty Arrives): Book has unusually many concepts compared to peers.

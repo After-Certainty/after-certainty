@@ -64,6 +64,16 @@ make audit-semantic-graph
 
 The audit exits 0 by default (advisory). It does not mutate YAML or manifests.
 
+### Heuristic tuning notes
+
+Some checks are intentionally conservative and were refined to reduce false positives:
+
+- **Concept tautology** — flags only when a definition restates the title without substantive content (e.g. `Agile is agile`). The house glossary pattern `Title is …` with a real explanation is allowed.
+- **Institution vs creator** — skipped for `report`, `institutional_document`, `standard`, and other org-authored works where `institution` correctly mirrors the publishing organization.
+- **sourceKind mismatch** — only when the **author/creator** looks institutional, not when an agency name appears in a scholarly book title (e.g. NASA in a Diane Vaughan monograph).
+- **Thinker person/org** — organization names containing words like `bank` or `collaboration` are not treated as person names.
+- **Long creatorNames** — multi-author lists (manifestos, consortia) are not flagged; citation blobs with years/URLs still are.
+
 ## What is checked
 
 - **Source metadata** — years (including page-range misparsing), truncated titles, citation leaks, type mismatches
