@@ -1,0 +1,13 @@
+slug: lutz-prechelt
+name: Lutz Prechelt
+type: person
+summary: Software researchers studying developer experience, flow interruption, and
+  productivity measurement limits.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams
+whyThisMatters: Their work questions metric theater in engineering—when measurement
+  distorts the craft it claims to improve.

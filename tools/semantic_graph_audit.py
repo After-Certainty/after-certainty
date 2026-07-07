@@ -24,7 +24,12 @@ from semantic_metadata_quality_audit import (  # noqa: E402
     QualityIssue,
     run_metadata_quality_audit,
 )
-from source_metadata import parse_year_from_citation, split_display_name  # noqa: E402
+from source_metadata import (  # noqa: E402
+    is_multi_person_thinker_name,
+    parse_year_from_citation,
+    split_display_name,
+    strip_thinker_role_suffix,
+)
 from thinker_concept_audit import (  # noqa: E402
     PRIORITY_THINKER_SLUGS,
     collect_concept_slugs,
@@ -332,6 +337,75 @@ def _looks_like_organization(name: str) -> bool:
     return bool(ORG_KEYWORDS.search(name))
 
 
+_LAST_FIRST_NAME_RE = re.compile(r"^[A-Z][A-Za-z'.ëüöáéíóúÄÖÜÀ-ÿ-]+,\s+[A-Z]")
+_ET_AL_RE = re.compile(r"\bet\s+al\.?\b", re.I)
+
+
+def _strip_thinker_role_suffix(name: str) -> str:
+    return strip_thinker_role_suffix(name)
+
+
+def _is_last_first_display_name(name: str) -> bool:
+    """Bibliographic ``Last, First`` order (not preferred ``First Last``)."""
+    clean = _strip_thinker_role_suffix(name)
+    if not clean or _looks_like_organization(clean):
+        return False
+    return bool(_LAST_FIRST_NAME_RE.match(clean))
+
+
+def _is_multi_person_thinker_name(name: str) -> bool:
+    """Thinker display name lists multiple creators that could be split."""
+    if _looks_like_organization(name):
+        return False
+    return is_multi_person_thinker_name(name)
+
+
+def _estimate_thinker_author_count(name: str) -> int | None:
+    clean = _strip_thinker_role_suffix(name)
+    if not _is_multi_person_thinker_name(clean):
+        return None
+    if _ET_AL_RE.search(clean):
+        return None
+    if ", and " in clean:
+        before, after = clean.split(", and ", 1)
+        return max(2, 1 + after.count(" and ") + max(0, before.count(",") - 1))
+    if clean.count(" and ") >= 2:
+        return clean.count(" and ") + 1
+    return max(2, clean.count(",") + 1)
+
+
+def _thinker_linked_work_slugs(thinker_data: dict, sources: dict[str, dict]) -> list[str]:
+    return [slug for slug in get_list(thinker_data, "works") if slug in sources]
+
+
+def _split_thinker_suggested_fix(
+    name: str,
+    linked_works: list[str],
+    *,
+    last_first: bool = False,
+    multi_person: bool = False,
+) -> str:
+    parts: list[str] = []
+    if last_first:
+        parts.append("Use First Last display order instead of bibliographic Last, First.")
+    if multi_person:
+        count = _estimate_thinker_author_count(name)
+        if count and count > 1:
+            parts.append(f"Create {count} separate thinker entries (one per author).")
+        else:
+            parts.append("Create separate thinker entries (one per author).")
+        if linked_works:
+            work_list = ", ".join(linked_works[:3])
+            if len(linked_works) > 3:
+                work_list += f", … (+{len(linked_works) - 3} more)"
+            parts.append(
+                f"Link each thinker to the shared source(s) via creatorSlugs on: {work_list}."
+            )
+        else:
+            parts.append("Link each thinker to shared sources via creatorSlugs on the work YAML.")
+    return " ".join(parts)
+
+
 def _page_range_tail_year(citation: str) -> int | None:
     matches = _PAGE_RANGE_RE.findall(citation)
     if not matches:
@@ -551,13 +625,20 @@ def audit_sources_extended(
     return issues
 
 
-def audit_thinkers(repo: Path, thinkers: dict[str, dict]) -> list[AuditIssue]:
+def audit_thinkers(
+    repo: Path,
+    thinkers: dict[str, dict],
+    *,
+    sources: dict[str, dict] | None = None,
+) -> list[AuditIssue]:
     issues: list[AuditIssue] = []
+    source_index = sources or {}
 
     for slug, data in sorted(thinkers.items()):
         name = str(data.get("name", slug)).strip()
         thinker_type = str(data.get("type", "person")).strip().lower()
         summary = str(data.get("summary", "")).strip()
+        linked_works = _thinker_linked_work_slugs(data, source_index)
 
         if thinker_type == "organization" and _looks_like_person_name(name):
             issues.append(
@@ -639,6 +720,54 @@ def audit_thinkers(repo: Path, thinkers: dict[str, dict]) -> list[AuditIssue]:
                     current_value=slug,
                     reason="Slug appears damaged by diacritic stripping.",
                     suggested_fix=f"Consider renaming slug to {expected!r} with a redirect strategy.",
+                )
+            )
+
+        if thinker_type == "person" and _is_multi_person_thinker_name(name):
+            count_hint = _estimate_thinker_author_count(name)
+            reason = "Thinker name lists multiple people who could be separate thinker entries."
+            if count_hint:
+                reason = f"Thinker name lists ~{count_hint} people who could be separate thinker entries."
+            if _ET_AL_RE.search(name):
+                reason = (
+                    "Thinker name uses 'et al' and aggregates multiple authors "
+                    "who could be separate thinker entries."
+                )
+            issues.append(
+                _issue(
+                    severity="warning",
+                    category="thinker-metadata",
+                    entity_type="thinker",
+                    entity_id=slug,
+                    entity_title=name,
+                    field="name",
+                    current_value=name,
+                    reason=reason,
+                    suggested_fix=_split_thinker_suggested_fix(
+                        name,
+                        linked_works,
+                        multi_person=True,
+                    ),
+                )
+            )
+
+        if thinker_type == "person" and _is_last_first_display_name(name):
+            issues.append(
+                _issue(
+                    severity="info",
+                    category="thinker-metadata",
+                    entity_type="thinker",
+                    entity_id=slug,
+                    entity_title=name,
+                    field="name",
+                    current_value=name,
+                    reason="Thinker name uses bibliographic Last, First order instead of First Last.",
+                    suggested_fix=_split_thinker_suggested_fix(
+                        name,
+                        linked_works,
+                        last_first=True,
+                        multi_person=_is_multi_person_thinker_name(name),
+                    ),
                 )
             )
 
@@ -1650,7 +1779,7 @@ def run_audit(
     meta_result = run_metadata_quality_audit(repo)
     issues.extend(_map_quality_issue(i) for i in meta_result.issues)
     issues.extend(audit_sources_extended(repo, sources))
-    issues.extend(audit_thinkers(repo, thinkers))
+    issues.extend(audit_thinkers(repo, thinkers, sources=sources))
 
     thinker_concepts, source_concepts, source_patterns, thinker_patterns = _build_ref_indexes(
         sources, thinkers, patterns

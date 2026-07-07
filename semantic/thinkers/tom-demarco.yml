@@ -1,0 +1,15 @@
+slug: tom-demarco
+name: Tom DeMarco
+type: person
+summary: Authors on software team dynamics, flow, and the human sources of project
+  risk.
+concepts: []
+patterns: []
+relatedBooks:
+- how-serious-systems-learn
+- living-in-sediment
+works:
+- demarco-tom-and-timothy-lister-slack-getting-past-burnout-busywork-and-the
+- demarco-tom-and-timothy-r-lister-peopleware-productive-projects
+whyThisMatters: Their peopleware frame links collaboration difficulty to environment—not
+  defective individuals.

@@ -1,5 +1,5 @@
 slug: ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c
-name: 'Ford, Neal, Rebecca Parsons, and Patrick Kua — Building Evolutionary Architectures:
+name: 'Neal Ford, Patrick Kua, and Rebecca Parsons — Building Evolutionary Architectures:
   Support Constant Change'
 type: book
 summary: 'Ford, Neal, Rebecca Parsons, and Patrick Kua. *Building Evolutionary Architectures:
@@ -10,9 +10,13 @@ relatedBooks:
 - coupling
 title: 'Building Evolutionary Architectures: Support Constant Change'
 creatorNames:
-- Ford, Neal, Rebecca Parsons, and Patrick Kua
+- Neal Ford
+- Patrick Kua
+- Rebecca Parsons
 creatorSlugs:
-- ford-neal-rebecca-parsons-and-patrick-kua
+- neal-ford
+- patrick-kua
+- rebecca-parsons
 citation: 'Ford, Neal, Rebecca Parsons, and Patrick Kua. *Building Evolutionary Architectures:
   Support Constant Change*. Sebastopol, CA: O''Reilly Media, 2017.'
 sourceKind: book

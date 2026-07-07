@@ -1,5 +1,5 @@
 slug: mcpherson-miller-lynn-smith-lovin-and-james-m-cook-birds-of-a-feather-homophily-in-social-networ
-name: 'McPherson, Miller, Lynn Smith-Lovin, and James M. Cook — Birds of a Feather:
+name: 'James M. Cook, Lynn Smith-Lovin, and Miller McPherson — Birds of a Feather:
   Homophily in Social Networks.'
 type: article
 summary: 'McPherson, Miller, Lynn Smith-Lovin, and James M. Cook. "Birds of a Feather:
@@ -10,9 +10,13 @@ relatedBooks:
 - trust-beyond-similarity
 title: 'Birds of a Feather: Homophily in Social Networks.'
 creatorNames:
-- McPherson, Miller, Lynn Smith-Lovin, and James M. Cook
+- James M. Cook
+- Lynn Smith-Lovin
+- Miller McPherson
 creatorSlugs:
-- mcpherson-miller-lynn-smith-lovin-and-james-m-cook
+- james-m-cook
+- lynn-smith-lovin
+- miller-mcpherson
 citation: 'McPherson, Miller, Lynn Smith-Lovin, and James M. Cook. "Birds of a Feather:
   Homophily in Social Networks." *Annual Review of Sociology* 27 (2001): 415–444.'
 sourceKind: article

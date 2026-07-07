@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T04:12:23.329359+00:00",
+  "generatedAt": "2026-07-07T04:57:50.620479+00:00",
   "repoContext": {
     "detectedRepoType": "source",
     "inputFiles": [
@@ -9,13 +9,13 @@
   },
   "summary": {
     "errors": 0,
-    "warnings": 0,
-    "info": 317,
+    "warnings": 2,
+    "info": 350,
     "entitiesScanned": {
       "books": 28,
       "concepts": 137,
       "patterns": 30,
-      "thinkers": 340,
+      "thinkers": 439,
       "sources": 408,
       "relationships": 109
     }
@@ -25,8 +25,8 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "amershi-saleema-et-al",
-      "entityTitle": "amershi-saleema-et-al",
+      "entityId": "akihiko-murata",
+      "entityTitle": "akihiko-murata",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -36,8 +36,8 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas",
-      "entityTitle": "beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas",
+      "entityId": "alexander-weisler",
+      "entityTitle": "alexander-weisler",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -47,8 +47,8 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "douglas-karen-m-et-al",
-      "entityTitle": "douglas-karen-m-et-al",
+      "entityId": "andrew-hunt",
+      "entityTitle": "andrew-hunt",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -58,8 +58,8 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "druckman-james-n-et-al",
-      "entityTitle": "druckman-james-n-et-al",
+      "entityId": "andrew-zaldivar",
+      "entityTitle": "andrew-zaldivar",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -69,8 +69,151 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "ford-neal-rebecca-parsons-and-patrick-kua",
-      "entityTitle": "ford-neal-rebecca-parsons-and-patrick-kua",
+      "entityId": "anya-chen",
+      "entityTitle": "anya-chen",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "arie-van-bennekum",
+      "entityTitle": "arie-van-bennekum",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "ashley-parker",
+      "entityTitle": "ashley-parker",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "barbara-mellers",
+      "entityTitle": "barbara-mellers",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "ben-hutchinson",
+      "entityTitle": "ben-hutchinson",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "brian-marick",
+      "entityTitle": "brian-marick",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "catherine-c-lewis",
+      "entityTitle": "catherine-c-lewis",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "collin-burns",
+      "entityTitle": "collin-burns",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "dan-boneh",
+      "entityTitle": "dan-boneh",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "dan-hendrycks",
+      "entityTitle": "dan-hendrycks",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "dave-thomas",
+      "entityTitle": "dave-thomas",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "david-wachsmuth",
+      "entityTitle": "david-wachsmuth",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "deepak-kumar",
+      "entityTitle": "deepak-kumar",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "elena-spitzer",
+      "entityTitle": "elena-spitzer",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -91,8 +234,52 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "hendrycks-dan-collin-burns-anya-chen-and-spencer-ball",
-      "entityTitle": "hendrycks-dan-collin-burns-anya-chen-and-spencer-ball",
+      "entityId": "inioluwa-deborah-raji",
+      "entityTitle": "inioluwa-deborah-raji",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "james-grenning",
+      "entityTitle": "james-grenning",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "james-n-druckman",
+      "entityTitle": "james-n-druckman",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "jeff-sutherland",
+      "entityTitle": "jeff-sutherland",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "jim-highsmith",
+      "entityTitle": "jim-highsmith",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -113,6 +300,28 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
+      "entityId": "jon-kern",
+      "entityTitle": "jon-kern",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "karen-m-douglas",
+      "entityTitle": "karen-m-douglas",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
       "entityId": "kati-marton",
       "entityTitle": "kati-marton",
       "field": "placeholder_summary",
@@ -124,8 +333,8 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "knutti-reto-et-al",
-      "entityTitle": "knutti-reto-et-al",
+      "entityId": "ken-schwaber",
+      "entityTitle": "ken-schwaber",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -135,8 +344,30 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "lewis-catherine-c-rebecca-r-perry-and-akihiko-murata",
-      "entityTitle": "lewis-catherine-c-rebecca-r-perry-and-akihiko-murata",
+      "entityId": "kenneth-f-schulz",
+      "entityTitle": "kenneth-f-schulz",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "kent-beck",
+      "entityTitle": "kent-beck",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "lucy-vasserman",
+      "entityTitle": "lucy-vasserman",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -157,8 +388,8 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "mellers-barbara-et-al",
-      "entityTitle": "mellers-barbara-et-al",
+      "entityId": "margaret-mitchell",
+      "entityTitle": "margaret-mitchell",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -168,8 +399,8 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru",
-      "entityTitle": "mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru",
+      "entityId": "megha-srivastava",
+      "entityTitle": "megha-srivastava",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -179,8 +410,8 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "parker-ashley-and-michael-scherer",
-      "entityTitle": "parker-ashley-and-michael-scherer",
+      "entityId": "michael-scherer",
+      "entityTitle": "michael-scherer",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -190,8 +421,8 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "peng-sida-et-al",
-      "entityTitle": "peng-sida-et-al",
+      "entityId": "mike-beedle",
+      "entityTitle": "mike-beedle",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -201,8 +432,41 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh",
-      "entityTitle": "perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh",
+      "entityId": "neal-ford",
+      "entityTitle": "neal-ford",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "neil-perry",
+      "entityTitle": "neil-perry",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "parker-barnes",
+      "entityTitle": "parker-barnes",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "patrick-kua",
+      "entityTitle": "patrick-kua",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -223,8 +487,41 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
+      "entityId": "rebecca-parsons",
+      "entityTitle": "rebecca-parsons",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "rebecca-r-perry",
+      "entityTitle": "rebecca-r-perry",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
       "entityId": "reeves-wiedeman",
       "entityTitle": "reeves-wiedeman",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "reto-knutti",
+      "entityTitle": "reto-knutti",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -245,8 +542,74 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "schulz-kenneth-f-et-al",
-      "entityTitle": "schulz-kenneth-f-et-al",
+      "entityId": "ron-jeffries",
+      "entityTitle": "ron-jeffries",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "s-g-talbot",
+      "entityTitle": "s-g-talbot",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "saleema-amershi",
+      "entityTitle": "saleema-amershi",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "sida-peng",
+      "entityTitle": "sida-peng",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "simone-wu",
+      "entityTitle": "simone-wu",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "spencer-ball",
+      "entityTitle": "spencer-ball",
+      "field": "placeholder_summary",
+      "currentValue": null,
+      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
+      "suggestedFix": null
+    },
+    {
+      "severity": "info",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "steve-mellor",
+      "entityTitle": "steve-mellor",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -267,8 +630,8 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "talbot-s-g-and-w-dean",
-      "entityTitle": "talbot-s-g-and-w-dean",
+      "entityId": "w-dean",
+      "entityTitle": "w-dean",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -278,8 +641,8 @@
       "severity": "info",
       "category": "thinker-metadata",
       "entityType": "thinker",
-      "entityId": "wachsmuth-david-and-alexander-weisler",
-      "entityTitle": "wachsmuth-david-and-alexander-weisler",
+      "entityId": "ward-cunningham",
+      "entityTitle": "ward-cunningham",
       "field": "placeholder_summary",
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
@@ -295,6 +658,17 @@
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
       "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "slug-quality",
+      "entityType": "thinker",
+      "entityId": "hal-daum-iii",
+      "entityTitle": "Hal Daum\u00e9 III",
+      "field": "slug",
+      "currentValue": "hal-daum-iii",
+      "reason": "Slug appears damaged by diacritic stripping.",
+      "suggestedFix": "Consider renaming slug to 'hal-daume-iii' with a redirect strategy."
     },
     {
       "severity": "info",
@@ -1887,9 +2261,9 @@
       "entityId": "attention-finds-a-focus",
       "entityTitle": "Attention Finds a Focus",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "leadership-coalesces",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'leadership-coalesces'."
     },
     {
       "severity": "info",
@@ -1898,9 +2272,9 @@
       "entityId": "attention-finds-a-focus",
       "entityTitle": "Attention Finds a Focus",
       "field": "relatedPatterns",
-      "currentValue": "leadership-coalesces",
+      "currentValue": "examples-accumulate",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'leadership-coalesces'."
+      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -1931,17 +2305,6 @@
       "entityId": "attention-restores-contact",
       "entityTitle": "Attention Restores Contact",
       "field": "relatedPatterns",
-      "currentValue": "blame-compresses-complexity",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-restores-contact' to relatedPatterns on 'blame-compresses-complexity'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "attention-restores-contact",
-      "entityTitle": "Attention Restores Contact",
-      "field": "relatedPatterns",
       "currentValue": "responsibility-persists-beyond-control",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'attention-restores-contact' to relatedPatterns on 'responsibility-persists-beyond-control'."
@@ -1950,12 +2313,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "blame-compresses-complexity",
-      "entityTitle": "Blame Compresses Complexity",
+      "entityId": "attention-restores-contact",
+      "entityTitle": "Attention Restores Contact",
       "field": "relatedPatterns",
-      "currentValue": "attention-restores-contact",
+      "currentValue": "blame-compresses-complexity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'attention-restores-contact'."
+      "suggestedFix": "Consider adding 'attention-restores-contact' to relatedPatterns on 'blame-compresses-complexity'."
     },
     {
       "severity": "info",
@@ -1972,12 +2335,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "contact-keeps-the-read-open",
-      "entityTitle": "Contact Keeps the Read Open",
+      "entityId": "blame-compresses-complexity",
+      "entityTitle": "Blame Compresses Complexity",
       "field": "relatedPatterns",
-      "currentValue": "meaning-gets-distorted",
+      "currentValue": "attention-restores-contact",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-gets-distorted'."
+      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'attention-restores-contact'."
     },
     {
       "severity": "info",
@@ -1989,6 +2352,17 @@
       "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-outruns-the-words'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "contact-keeps-the-read-open",
+      "entityTitle": "Contact Keeps the Read Open",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-gets-distorted",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-gets-distorted'."
     },
     {
       "severity": "info",
@@ -2041,9 +2415,9 @@
       "entityId": "dissent-is-welcomed",
       "entityTitle": "Dissent is Welcomed",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -2052,9 +2426,9 @@
       "entityId": "dissent-is-welcomed",
       "entityTitle": "Dissent is Welcomed",
       "field": "relatedPatterns",
-      "currentValue": "learning-collapses",
+      "currentValue": "examples-accumulate",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -2085,9 +2459,9 @@
       "entityId": "exceptions-are-forever",
       "entityTitle": "Exceptions are Forever",
       "field": "relatedPatterns",
-      "currentValue": "learning-collapses",
+      "currentValue": "disagreement-is-suppressed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'disagreement-is-suppressed'."
     },
     {
       "severity": "info",
@@ -2096,9 +2470,9 @@
       "entityId": "exceptions-are-forever",
       "entityTitle": "Exceptions are Forever",
       "field": "relatedPatterns",
-      "currentValue": "disagreement-is-suppressed",
+      "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'disagreement-is-suppressed'."
+      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -2261,9 +2635,9 @@
       "entityId": "leadership-reproduces-itself",
       "entityTitle": "Leadership Reproduces Itself",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "leadership-coalesces",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'leadership-coalesces'."
     },
     {
       "severity": "info",
@@ -2272,9 +2646,9 @@
       "entityId": "leadership-reproduces-itself",
       "entityTitle": "Leadership Reproduces Itself",
       "field": "relatedPatterns",
-      "currentValue": "leadership-coalesces",
+      "currentValue": "examples-accumulate",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'leadership-coalesces'."
+      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -2305,9 +2679,9 @@
       "entityId": "meaning-drifts-over-time",
       "entityTitle": "Meaning Drifts Over Time",
       "field": "relatedPatterns",
-      "currentValue": "meaning-reinforces-itself",
+      "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-reinforces-itself'."
+      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-outruns-the-words'."
     },
     {
       "severity": "info",
@@ -2316,9 +2690,9 @@
       "entityId": "meaning-drifts-over-time",
       "entityTitle": "Meaning Drifts Over Time",
       "field": "relatedPatterns",
-      "currentValue": "meaning-outruns-the-words",
+      "currentValue": "meaning-reinforces-itself",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-outruns-the-words'."
+      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-reinforces-itself'."
     },
     {
       "severity": "info",
@@ -2371,17 +2745,6 @@
       "entityId": "meaning-outruns-the-words",
       "entityTitle": "Meaning Outruns the Words",
       "field": "relatedPatterns",
-      "currentValue": "attention-finds-a-signal",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-outruns-the-words' to relatedPatterns on 'attention-finds-a-signal'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "meaning-outruns-the-words",
-      "entityTitle": "Meaning Outruns the Words",
-      "field": "relatedPatterns",
       "currentValue": "gaps-invite-completion",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-outruns-the-words' to relatedPatterns on 'gaps-invite-completion'."
@@ -2390,12 +2753,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-reinforces-itself",
-      "entityTitle": "Meaning Reinforces Itself",
+      "entityId": "meaning-outruns-the-words",
+      "entityTitle": "Meaning Outruns the Words",
       "field": "relatedPatterns",
-      "currentValue": "meaning-shifts-under-pressure",
+      "currentValue": "attention-finds-a-signal",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-shifts-under-pressure'."
+      "suggestedFix": "Consider adding 'meaning-outruns-the-words' to relatedPatterns on 'attention-finds-a-signal'."
     },
     {
       "severity": "info",
@@ -2407,6 +2770,17 @@
       "currentValue": "meaning-gets-distorted",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-gets-distorted'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "meaning-reinforces-itself",
+      "entityTitle": "Meaning Reinforces Itself",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-shifts-under-pressure",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-shifts-under-pressure'."
     },
     {
       "severity": "info",
@@ -2437,17 +2811,6 @@
       "entityId": "responsibility-persists-beyond-control",
       "entityTitle": "Responsibility Persists Beyond Control",
       "field": "relatedPatterns",
-      "currentValue": "attention-restores-contact",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'responsibility-persists-beyond-control' to relatedPatterns on 'attention-restores-contact'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "responsibility-persists-beyond-control",
-      "entityTitle": "Responsibility Persists Beyond Control",
-      "field": "relatedPatterns",
       "currentValue": "explanation-replaces-response",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'responsibility-persists-beyond-control' to relatedPatterns on 'explanation-replaces-response'."
@@ -2456,12 +2819,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "revisability-preserves-judgment",
-      "entityTitle": "Revisability Preserves Judgment",
+      "entityId": "responsibility-persists-beyond-control",
+      "entityTitle": "Responsibility Persists Beyond Control",
       "field": "relatedPatterns",
-      "currentValue": "finality-compensates-for-uncertainty",
+      "currentValue": "attention-restores-contact",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'finality-compensates-for-uncertainty'."
+      "suggestedFix": "Consider adding 'responsibility-persists-beyond-control' to relatedPatterns on 'attention-restores-contact'."
     },
     {
       "severity": "info",
@@ -2473,6 +2836,17 @@
       "currentValue": "correctness-hardens-into-identity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'correctness-hardens-into-identity'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "revisability-preserves-judgment",
+      "entityTitle": "Revisability Preserves Judgment",
+      "field": "relatedPatterns",
+      "currentValue": "finality-compensates-for-uncertainty",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'finality-compensates-for-uncertainty'."
     },
     {
       "severity": "info",
@@ -2503,9 +2877,9 @@
       "entityId": "speech-escalates-faster-than-meaning",
       "entityTitle": "Speech Escalates Faster Than Meaning",
       "field": "relatedPatterns",
-      "currentValue": "finality-compensates-for-uncertainty",
+      "currentValue": "explanation-replaces-response",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'finality-compensates-for-uncertainty'."
+      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'explanation-replaces-response'."
     },
     {
       "severity": "info",
@@ -2514,9 +2888,9 @@
       "entityId": "speech-escalates-faster-than-meaning",
       "entityTitle": "Speech Escalates Faster Than Meaning",
       "field": "relatedPatterns",
-      "currentValue": "explanation-replaces-response",
+      "currentValue": "finality-compensates-for-uncertainty",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'explanation-replaces-response'."
+      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'finality-compensates-for-uncertainty'."
     },
     {
       "severity": "info",
@@ -2625,7 +2999,7 @@
       "entityTitle": "semantic",
       "field": "generatedAt",
       "currentValue": {
-        "build": "2026-07-07T04:12:01.605409+00:00",
+        "build": "2026-07-07T04:57:46.579915+00:00",
         "snapshot": "2026-07-05T21:49:00.134567+00:00"
       },
       "reason": "Portfolio audit snapshot appears older than build manifest.",
@@ -2639,7 +3013,7 @@
       "entityTitle": "books",
       "field": "generatedAt",
       "currentValue": {
-        "build": "2026-07-07T04:12:20.893778+00:00",
+        "build": "2026-07-07T04:55:10.221836+00:00",
         "snapshot": "2026-07-05T21:54:21.267730+00:00"
       },
       "reason": "Portfolio audit snapshot appears older than build manifest.",
@@ -3513,6 +3887,17 @@
       "currentValue": 22,
       "reason": "Entity has extremely high relationship density compared to peers.",
       "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "slug-quality",
+      "entityType": "thinker",
+      "entityId": "hal-daum-iii",
+      "entityTitle": "Hal Daum\u00e9 III",
+      "field": "slug",
+      "currentValue": "hal-daum-iii",
+      "reason": "Slug may be stale after title change (diacritic damage).",
+      "suggestedFix": "Use transliterated slug 'hal-daume-iii'."
     }
   ],
   "relationshipVocabulary": [

@@ -1,5 +1,5 @@
 slug: andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr
-name: Andrews, Matthew, Lant Pritchett, and Michael Woolcock — Escaping Capability
+name: Lant Pritchett, Matthew Andrews, and Michael Woolcock — Escaping Capability
   Traps Through Problem Driven Iterative Adaptation (PDIA).
 type: article
 summary: 'Andrews, Matthew, Lant Pritchett, and Michael Woolcock. "Escaping Capability
@@ -11,9 +11,13 @@ relatedBooks:
 - coupling
 title: Escaping Capability Traps Through Problem Driven Iterative Adaptation (PDIA).
 creatorNames:
-- Andrews, Matthew, Lant Pritchett, and Michael Woolcock
+- Lant Pritchett
+- Matthew Andrews
+- Michael Woolcock
 creatorSlugs:
-- andrews-matthew-lant-pritchett-and-michael-woolcock
+- lant-pritchett
+- matthew-andrews
+- michael-woolcock
 citation: 'Andrews, Matthew, Lant Pritchett, and Michael Woolcock. "Escaping Capability
   Traps Through Problem Driven Iterative Adaptation (PDIA)." *World Development* 51
   (2013): 234-244. https://doi.org/10.1016/j.worlddev.2013.05.011.'

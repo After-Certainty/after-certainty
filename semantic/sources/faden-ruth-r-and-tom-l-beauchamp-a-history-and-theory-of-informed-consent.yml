@@ -1,5 +1,5 @@
 slug: faden-ruth-r-and-tom-l-beauchamp-a-history-and-theory-of-informed-consent
-name: Faden, Ruth R., and Tom L. Beauchamp — A History and Theory of Informed Consent
+name: Ruth R. Faden and Tom L. Beauchamp — A History and Theory of Informed Consent
 type: book
 summary: 'Faden, Ruth R., and Tom L. Beauchamp. *A History and Theory of Informed
   Consent*. New York: Oxford University Press, 1986.'
@@ -9,9 +9,11 @@ relatedBooks:
 - how-meaning-moves
 title: A History and Theory of Informed Consent
 creatorNames:
-- Faden, Ruth R., and Tom L. Beauchamp
+- Ruth R. Faden
+- Tom L. Beauchamp
 creatorSlugs:
-- faden-ruth-r-and-tom-l-beauchamp
+- ruth-r-faden
+- tom-l-beauchamp
 citation: 'Faden, Ruth R., and Tom L. Beauchamp. *A History and Theory of Informed
   Consent*. New York: Oxford University Press, 1986.'
 sourceKind: book

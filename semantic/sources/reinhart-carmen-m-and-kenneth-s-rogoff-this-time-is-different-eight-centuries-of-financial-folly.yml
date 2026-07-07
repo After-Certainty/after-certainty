@@ -1,6 +1,6 @@
 slug: reinhart-carmen-m-and-kenneth-s-rogoff-this-time-is-different-eight-centuries-of-financial-folly
-name: 'Reinhart, Carmen M., and Kenneth S. Rogoff — This Time Is Different: Eight
-  Centuries of Financial Folly'
+name: 'Carmen M. Reinhart and Kenneth S. Rogoff — This Time Is Different: Eight Centuries
+  of Financial Folly'
 type: book
 summary: 'Reinhart, Carmen M., and Kenneth S. Rogoff. *This Time Is Different: Eight
   Centuries of Financial Folly*. Princeton, NJ: Princeton University Press, 2009.'
@@ -10,9 +10,11 @@ relatedBooks:
 - the-economy-we-dont-experience
 title: 'This Time Is Different: Eight Centuries of Financial Folly'
 creatorNames:
-- Reinhart, Carmen M., and Kenneth S. Rogoff
+- Carmen M. Reinhart
+- Kenneth S. Rogoff
 creatorSlugs:
-- reinhart-carmen-m-and-kenneth-s-rogoff
+- carmen-m-reinhart
+- kenneth-s-rogoff
 citation: 'Reinhart, Carmen M., and Kenneth S. Rogoff. *This Time Is Different: Eight
   Centuries of Financial Folly*. Princeton, NJ: Princeton University Press, 2009.'
 sourceKind: book

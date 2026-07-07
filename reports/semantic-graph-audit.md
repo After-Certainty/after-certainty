@@ -5,22 +5,24 @@
 - Repository type: **source**
 - Input files: build/semantic-manifest.json, build/books-manifest.json
 - Errors: **0**
-- Warnings: **0**
-- Info: **317**
-- Entities scanned: {'books': 28, 'concepts': 137, 'patterns': 30, 'thinkers': 340, 'sources': 408, 'relationships': 109}
+- Warnings: **2**
+- Info: **350**
+- Entities scanned: {'books': 28, 'concepts': 137, 'patterns': 30, 'thinkers': 439, 'sources': 408, 'relationships': 109}
 
 ## Top priority issues
 
-- No errors or warnings found.
+- **[warning]** slug-quality / thinker `hal-daum-iii` — Slug appears damaged by diacritic stripping. — *Consider renaming slug to 'hal-daume-iii' with a redirect strategy.*
+- **[warning]** slug-quality / thinker `hal-daum-iii` — Slug may be stale after title change (diacritic damage). — *Use transliterated slug 'hal-daume-iii'.*
 
 ## Issue counts by category
 
 - pattern-metadata: 120
 - concept-metadata: 82
 - relationship-quality: 79
-- thinker-metadata: 25
+- thinker-metadata: 58
 - book-metadata: 9
 - manifest-consistency: 2
+- slug-quality: 2
 
 ## Relationship vocabulary (top labels)
 
@@ -55,6 +57,10 @@
 
 ## Full issue list
 
+### Warning
+
+- **slug-quality** — thinker `hal-daum-iii` (Hal Daumé III): Slug appears damaged by diacritic stripping.
+- **slug-quality** — thinker `hal-daum-iii` (Hal Daumé III): Slug may be stale after title change (diacritic damage).
 ### Info
 
 - **book-metadata** — book `before-certainty-arrives` (Before Certainty Arrives): Book has unusually many concepts compared to peers.
@@ -349,28 +355,61 @@
 - **relationship-quality** — relationship `witness->accountability` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `witness->correction` (contrasts): Symmetric relationship label used in only one direction.
 - **relationship-quality** — relationship `witness->correction` (contrasts): Symmetric relationship label used in only one direction.
-- **thinker-metadata** — thinker `amershi-saleema-et-al` (amershi-saleema-et-al): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas` (beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `douglas-karen-m-et-al` (douglas-karen-m-et-al): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `druckman-james-n-et-al` (druckman-james-n-et-al): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `ford-neal-rebecca-parsons-and-patrick-kua` (ford-neal-rebecca-parsons-and-patrick-kua): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `akihiko-murata` (akihiko-murata): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `alexander-weisler` (alexander-weisler): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `andrew-hunt` (andrew-hunt): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `andrew-zaldivar` (andrew-zaldivar): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `anya-chen` (anya-chen): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `arie-van-bennekum` (arie-van-bennekum): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `ashley-parker` (ashley-parker): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `barbara-mellers` (barbara-mellers): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `ben-hutchinson` (ben-hutchinson): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `brian-marick` (brian-marick): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `catherine-c-lewis` (catherine-c-lewis): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `collin-burns` (collin-burns): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `dan-boneh` (dan-boneh): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `dan-hendrycks` (dan-hendrycks): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `dave-thomas` (dave-thomas): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `david-wachsmuth` (david-wachsmuth): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `deepak-kumar` (deepak-kumar): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `elena-spitzer` (elena-spitzer): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `freeh-sporkin-sullivan-llc` (freeh-sporkin-sullivan-llc): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `hendrycks-dan-collin-burns-anya-chen-and-spencer-ball` (hendrycks-dan-collin-burns-anya-chen-and-spencer-ball): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `inioluwa-deborah-raji` (inioluwa-deborah-raji): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `james-grenning` (james-grenning): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `james-n-druckman` (james-n-druckman): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `jeff-sutherland` (jeff-sutherland): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `jim-highsmith` (jim-highsmith): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `john-carreyrou` (john-carreyrou): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `jon-kern` (jon-kern): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `karen-m-douglas` (karen-m-douglas): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `kati-marton` (kati-marton): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `knutti-reto-et-al` (knutti-reto-et-al): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `lewis-catherine-c-rebecca-r-perry-and-akihiko-murata` (lewis-catherine-c-rebecca-r-perry-and-akihiko-murata): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `ken-schwaber` (ken-schwaber): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `kenneth-f-schulz` (kenneth-f-schulz): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `kent-beck` (kent-beck): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `lucy-vasserman` (lucy-vasserman): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `maggie-haberman` (maggie-haberman): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `mellers-barbara-et-al` (mellers-barbara-et-al): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru` (mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `parker-ashley-and-michael-scherer` (parker-ashley-and-michael-scherer): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `peng-sida-et-al` (peng-sida-et-al): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh` (perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `margaret-mitchell` (margaret-mitchell): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `megha-srivastava` (megha-srivastava): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `michael-scherer` (michael-scherer): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `mike-beedle` (mike-beedle): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `neal-ford` (neal-ford): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `neil-perry` (neil-perry): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `parker-barnes` (parker-barnes): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `patrick-kua` (patrick-kua): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `peter-grady` (peter-grady): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `rebecca-parsons` (rebecca-parsons): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `rebecca-r-perry` (rebecca-r-perry): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `reeves-wiedeman` (reeves-wiedeman): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `reto-knutti` (reto-knutti): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `richard-gott` (richard-gott): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `schulz-kenneth-f-et-al` (schulz-kenneth-f-et-al): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `ron-jeffries` (ron-jeffries): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `s-g-talbot` (s-g-talbot): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `saleema-amershi` (saleema-amershi): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `sida-peng` (sida-peng): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `simone-wu` (simone-wu): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `spencer-ball` (spencer-ball): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `steve-mellor` (steve-mellor): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `susan-raine` (susan-raine): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `talbot-s-g-and-w-dean` (talbot-s-g-and-w-dean): summary or whyThisMatters still has auto-generated placeholder text
-- **thinker-metadata** — thinker `wachsmuth-david-and-alexander-weisler` (wachsmuth-david-and-alexander-weisler): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `w-dean` (w-dean): summary or whyThisMatters still has auto-generated placeholder text
+- **thinker-metadata** — thinker `ward-cunningham` (ward-cunningham): summary or whyThisMatters still has auto-generated placeholder text
 - **thinker-metadata** — thinker `wright-stuart-a-ed` (wright-stuart-a-ed): summary or whyThisMatters still has auto-generated placeholder text

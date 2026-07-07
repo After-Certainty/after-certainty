@@ -1,5 +1,5 @@
 slug: kim-gene-jez-humble-patrick-debois-and-john-willis-the-devops-handbook-how-to-create-world-class
-name: 'Kim, Gene, Jez Humble, Patrick Debois, and John Willis — The DevOps Handbook:
+name: 'Gene Kim, Jez Humble, John Willis, and Patrick Debois — The DevOps Handbook:
   How to Create World-Class Agility, Reliability, and Security in Technology Organizations'
 type: book
 summary: 'Kim, Gene, Jez Humble, Patrick Debois, and John Willis. *The DevOps Handbook:
@@ -12,9 +12,15 @@ relatedBooks:
 title: 'The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security
   in Technology Organizations'
 creatorNames:
-- Kim, Gene, Jez Humble, Patrick Debois, and John Willis
+- Gene Kim
+- Jez Humble
+- John Willis
+- Patrick Debois
 creatorSlugs:
-- kim-gene-jez-humble-patrick-debois-and-john-willis
+- gene-kim
+- jez-humble
+- john-willis
+- patrick-debois
 citation: 'Kim, Gene, Jez Humble, Patrick Debois, and John Willis. *The DevOps Handbook:
   How to Create World-Class Agility, Reliability, and Security in Technology Organizations*.
   2nd ed. Portland, OR: IT Revolution Press, 2021.'

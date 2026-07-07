@@ -1,0 +1,13 @@
+slug: hal-daum-iii
+name: Hal Daumé III
+type: person
+summary: AI ethics researchers documenting dataset documentation practices and harms
+  of opaque training data governance.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum
+whyThisMatters: Datasheets for Datasets names how documentation can keep interpretation
+  and accountability attached to data used at scale.

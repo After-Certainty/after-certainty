@@ -1,0 +1,12 @@
+slug: sida-peng
+name: Sida Peng
+type: person
+summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+concepts: []
+patterns: []
+relatedBooks:
+- coupling
+works:
+- peng-sida-et-al-the-impact-of-ai-on-developer-productivity-evidence-from-github-copilot
+whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
+  as needed.

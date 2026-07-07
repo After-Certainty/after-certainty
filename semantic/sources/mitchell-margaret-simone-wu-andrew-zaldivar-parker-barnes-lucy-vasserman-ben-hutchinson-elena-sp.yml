@@ -1,7 +1,7 @@
 slug: mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp
-name: Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman,
-  Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru — Model Cards
-  for Model Reporting.
+name: Andrew Zaldivar, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, Lucy
+  Vasserman, Margaret Mitchell, Parker Barnes, Simone Wu, and Timnit Gebru — Model
+  Cards for Model Reporting.
 type: article
 summary: Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman,
   Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. "Model Cards
@@ -13,10 +13,25 @@ relatedBooks:
 - coupling
 title: Model Cards for Model Reporting.
 creatorNames:
-- Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben
-  Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru
+- Andrew Zaldivar
+- Ben Hutchinson
+- Elena Spitzer
+- Inioluwa Deborah Raji
+- Lucy Vasserman
+- Margaret Mitchell
+- Parker Barnes
+- Simone Wu
+- Timnit Gebru
 creatorSlugs:
-- mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru
+- andrew-zaldivar
+- ben-hutchinson
+- elena-spitzer
+- inioluwa-deborah-raji
+- lucy-vasserman
+- margaret-mitchell
+- parker-barnes
+- simone-wu
+- timnit-gebru
 citation: Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman,
   Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. "Model Cards
   for Model Reporting." *Proceedings of the Conference on Fairness, Accountability,

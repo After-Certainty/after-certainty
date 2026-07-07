@@ -8,6 +8,7 @@ patterns: []
 relatedBooks:
 - coupling
 works:
+- beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr
 - martin-robert-c-clean-architecture-a-craftsman-s-guide-to-software-structure-and-the-design-of-p
 whyThisMatters: Martin argues for moral seriousness in craft—code as sediment that
   future people must live inside.

@@ -1,6 +1,6 @@
 slug: peng-sida-et-al-the-impact-of-ai-on-developer-productivity-evidence-from-github-copilot
-name: 'Peng, Sida, et al — The Impact of AI on Developer Productivity: Evidence from
-  GitHub Copilot.'
+name: 'Sida Peng — The Impact of AI on Developer Productivity: Evidence from GitHub
+  Copilot.'
 type: article
 summary: 'Peng, Sida, et al. "The Impact of AI on Developer Productivity: Evidence
   from GitHub Copilot." *arXiv* preprint arXiv:2302.06590 (2023). https://doi.org/10.48550/arXiv.2302.06590.'
@@ -10,9 +10,9 @@ relatedBooks:
 - coupling
 title: 'The Impact of AI on Developer Productivity: Evidence from GitHub Copilot.'
 creatorNames:
-- Peng, Sida, et al
+- Sida Peng
 creatorSlugs:
-- peng-sida-et-al
+- sida-peng
 citation: 'Peng, Sida, et al. "The Impact of AI on Developer Productivity: Evidence
   from GitHub Copilot." *arXiv* preprint arXiv:2302.06590 (2023). https://doi.org/10.48550/arXiv.2302.06590.'
 sourceKind: article

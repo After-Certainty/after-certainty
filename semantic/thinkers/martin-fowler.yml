@@ -8,6 +8,7 @@ patterns: []
 relatedBooks:
 - coupling
 works:
+- beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr
 - fowler-martin-integration-metadata
 - fowler-martin-refactoring-improving-the-design-of-existing-code
 whyThisMatters: Fowler connects craft discipline to organizational learning—how codebases

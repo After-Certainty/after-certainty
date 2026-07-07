@@ -1,6 +1,5 @@
 slug: barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams
-name: Barke, Helena, and Lutz Prechelt — Role Clarity Deficiencies Can Wreck Agile
-  Teams.
+name: Helena Barke and Lutz Prechelt — Role Clarity Deficiencies Can Wreck Agile Teams.
 type: article
 summary: 'Barke, Helena, and Lutz Prechelt. "Role Clarity Deficiencies Can Wreck Agile
   Teams." *PeerJ Computer Science* 5 (2019): e241. https://doi.org/10.7717/peerj-cs.241.'
@@ -10,9 +9,11 @@ relatedBooks:
 - coupling
 title: Role Clarity Deficiencies Can Wreck Agile Teams.
 creatorNames:
-- Barke, Helena, and Lutz Prechelt
+- Helena Barke
+- Lutz Prechelt
 creatorSlugs:
-- barke-helena-and-lutz-prechelt
+- helena-barke
+- lutz-prechelt
 citation: 'Barke, Helena, and Lutz Prechelt. "Role Clarity Deficiencies Can Wreck
   Agile Teams." *PeerJ Computer Science* 5 (2019): e241. https://doi.org/10.7717/peerj-cs.241.'
 sourceKind: article

@@ -33,8 +33,8 @@ SEMANTIC = Path("semantic")
 
 # Map bad creatorSlug -> existing thinker slug(s)
 REMAP_TO_EXISTING: dict[str, list[str]] = {
-    "ross-lee-and-richard-e-nisbett": ["ross-lee-and-richard-nisbett"],
-    "lee-ross": ["ross-lee-and-richard-nisbett"],
+    "ross-lee-and-richard-e-nisbett": ["lee-ross", "richard-nisbett"],
+    "ross-lee-and-richard-nisbett": ["lee-ross", "richard-nisbett"],
     "national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-materials": [
         "federal-aviation-administration-and-nasa"
     ],
@@ -261,7 +261,7 @@ def augment_thinker_works(repo: Path, *, apply: bool) -> list[str]:
     """Add remapped sources to existing thinkers' works lists."""
     actions: list[str] = []
     additions: dict[str, set[str]] = defaultdict(set)
-    additions["ross-lee-and-richard-nisbett"].update(
+    additions["lee-ross"].update(
         {
             "ross-lee-the-intuitive-psychologist-and-his-shortcomings",
         }

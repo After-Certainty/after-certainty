@@ -1,13 +1,16 @@
 slug: james-g-march
 name: James G March
 type: person
-summary: Organizational theorist of bounded rationality, garbage cans, and ambiguity
-  in institutional choice.
+summary: Organizational theorists of ambiguous preferences, garbage can decision-making,
+  and institutional choice under uncertainty.
 concepts: []
 patterns: []
 relatedBooks:
 - when-accountability-no-longer-expires
+- when-authority-outlives-accountability
+- when-moral-seriousness-scales
 works:
+- march-james-g-and-johan-p-olsen-rediscovering-institutions-the
 - march-james-g-exploration-and-exploitation-in-organizational
-whyThisMatters: March (solo) complements promoted co-authored work—uncertainty as
-  normal operating condition.
+whyThisMatters: March and Olsen model how decisions happen in messy systems—problems,
+  solutions, and participants arrive on different clocks.

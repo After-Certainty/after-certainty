@@ -340,3 +340,121 @@ def test_scholarly_book_with_nasa_in_title_not_misclassified(tmp_path: Path) -> 
     sources = sga.load_entity_dir(repo, "sources")
     issues = sga.audit_sources_extended(repo, sources)
     assert not any("Institutional statistics or report" in i.reason for i in issues)
+
+
+def test_multi_person_thinker_flagged(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/sources/ross-work.yml",
+        "slug: ross-work\n"
+        "name: Ross, Lee, and Richard Nisbett — The Person and the Situation\n"
+        "type: book\nsummary: Social psychology.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\n"
+        "creatorSlugs:\n- ross-lee-and-richard-nisbett\n",
+    )
+    _write(
+        repo / "semantic/thinkers/ross-lee-and-richard-nisbett.yml",
+        "slug: ross-lee-and-richard-nisbett\n"
+        "name: Ross, Lee, and Richard Nisbett\n"
+        "type: person\n"
+        "summary: Social psychologists.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\n"
+        "works:\n- ross-work\n",
+    )
+    thinkers = sga.load_entity_dir(repo, "thinkers")
+    sources = sga.load_entity_dir(repo, "sources")
+    issues = sga.audit_thinkers(repo, thinkers, sources=sources)
+    multi = [
+        i
+        for i in issues
+        if i.entityId == "ross-lee-and-richard-nisbett"
+        and i.field == "name"
+        and i.severity == "warning"
+    ]
+    assert len(multi) == 1
+    assert "separate thinker" in multi[0].reason.lower()
+    assert "creatorSlugs" in (multi[0].suggestedFix or "")
+    assert "ross-work" in (multi[0].suggestedFix or "")
+
+
+def test_last_first_single_thinker_flagged(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/thinkers/wright-stuart-a-ed.yml",
+        "slug: wright-stuart-a-ed\n"
+        "name: Wright, Stuart A., ed\n"
+        "type: person\n"
+        "summary: Editor.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\nworks: []\n",
+    )
+    thinkers = sga.load_entity_dir(repo, "thinkers")
+    issues = sga.audit_thinkers(repo, thinkers)
+    last_first = [
+        i
+        for i in issues
+        if i.entityId == "wright-stuart-a-ed" and i.field == "name" and i.severity == "info"
+    ]
+    assert len(last_first) == 1
+    assert "last, first" in last_first[0].reason.lower()
+    assert "First Last" in (last_first[0].suggestedFix or "")
+    assert "separate thinker" not in (last_first[0].suggestedFix or "").lower()
+
+
+def test_first_last_thinker_not_flagged_for_name_order(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/thinkers/elizabeth-w-morrison.yml",
+        "slug: elizabeth-w-morrison\n"
+        "name: Elizabeth W Morrison\n"
+        "type: person\n"
+        "summary: Scholar of voice and silence.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\nworks: []\n",
+    )
+    thinkers = sga.load_entity_dir(repo, "thinkers")
+    issues = sga.audit_thinkers(repo, thinkers)
+    name_issues = [i for i in issues if i.entityId == "elizabeth-w-morrison" and i.field == "name"]
+    assert not name_issues
+
+
+def test_jr_suffix_not_flagged_as_multi_person(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/thinkers/king-martin-luther-jr.yml",
+        "slug: king-martin-luther-jr\n"
+        "name: King, Martin Luther, Jr\n"
+        "type: person\n"
+        "summary: Civil rights leader.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\nworks: []\n",
+    )
+    thinkers = sga.load_entity_dir(repo, "thinkers")
+    issues = sga.audit_thinkers(repo, thinkers)
+    assert not any(
+        i.entityId == "king-martin-luther-jr" and i.field == "name" and i.severity == "warning"
+        for i in issues
+    )
+
+
+def test_et_al_thinker_flagged_as_multi_person(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/thinkers/amershi-saleema-et-al.yml",
+        "slug: amershi-saleema-et-al\n"
+        "name: Amershi, Saleema, et al\n"
+        "type: person\n"
+        "summary: HCI researchers.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\nworks: []\n",
+    )
+    thinkers = sga.load_entity_dir(repo, "thinkers")
+    issues = sga.audit_thinkers(repo, thinkers)
+    assert any(
+        i.entityId == "amershi-saleema-et-al"
+        and i.field == "name"
+        and i.severity == "warning"
+        and "et al" in i.reason.lower()
+        for i in issues
+    )

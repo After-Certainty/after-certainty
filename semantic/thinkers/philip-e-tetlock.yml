@@ -1,8 +1,8 @@
 slug: philip-e-tetlock
 name: Philip E Tetlock
 type: person
-summary: Psychologist of forecasting, expert judgment, and superforecasting under
-  uncertainty.
+summary: Researchers on integrative complexity and how leaders structure thinking
+  under conflict and uncertainty.
 concepts: []
 patterns: []
 relatedBooks:
@@ -10,7 +10,8 @@ relatedBooks:
 - trust-beyond-similarity
 - when-authority-outlives-accountability
 works:
-- tetlock-philip-e-expert-political-judgment-how-good-is-it-how-can-we-know
+- suedfeld-peter-philip-e-tetlock-and-sally-streufert-conceptual-integrative-complexity
 - tetlock-philip-e-and-dan-gardner-superforecasting-the-art-and-science-of-prediction
-whyThisMatters: Tetlock disciplines claims about prediction—when confidence outruns
-  evidence.
+- tetlock-philip-e-expert-political-judgment-how-good-is-it-how-can-we-know
+whyThisMatters: This line of work measures whether judgment stays open—or collapses
+  into binary closure under pressure.

@@ -73,11 +73,15 @@ Some checks are intentionally conservative and were refined to reduce false posi
 - **sourceKind mismatch** — only when the **author/creator** looks institutional, not when an agency name appears in a scholarly book title (e.g. NASA in a Diane Vaughan monograph).
 - **Thinker person/org** — organization names containing words like `bank` or `collaboration` are not treated as person names.
 - **Long creatorNames** — multi-author lists (manifestos, consortia) are not flagged; citation blobs with years/URLs still are.
+- **Multi-person thinker names** — flags person thinkers whose `name` lists multiple authors (`et al`, `, and `, long comma-separated lists). Suggests splitting into one thinker per author and linking shared sources via `creatorSlugs`.
+- **Last-first thinker names** — flags bibliographic `Last, First` display order (info); editor suffixes like `, ed` are ignored for detection.
+
+Bulk splitting of composite thinkers is supported by `tools/split_multi_person_thinkers.py` (`--apply`, then `--sync-source-names`).
 
 ## What is checked
 
 - **Source metadata** — years (including page-range misparsing), truncated titles, citation leaks, type mismatches
-- **Thinker metadata** — person/org classification, empty summaries, disconnected thinkers
+- **Thinker metadata** — person/org classification, empty summaries, disconnected thinkers, multi-person author lists, Last/First name order
 - **Concept metadata** — missing/tautological/short definitions, sparse grounding, high-traffic thin concepts
 - **Pattern metadata** — missing links, duplicate titles, original synthesis without `evidenceType`
 - **Book metadata** — manifest divergence, duplicate titles, concept-count outliers

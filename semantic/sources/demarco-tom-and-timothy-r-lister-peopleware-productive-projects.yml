@@ -1,5 +1,5 @@
 slug: demarco-tom-and-timothy-r-lister-peopleware-productive-projects
-name: 'DeMarco, Tom, and Timothy R. Lister — Peopleware: Productive Projects'
+name: 'Timothy R. Lister and Tom DeMarco — Peopleware: Productive Projects'
 type: book
 summary: 'DeMarco, Tom, and Timothy R. Lister. *Peopleware: Productive Projects and
   Teams*. New York: Dorset House, 1987.'
@@ -9,9 +9,11 @@ relatedBooks:
 - how-serious-systems-learn
 title: 'Peopleware: Productive Projects'
 creatorNames:
-- DeMarco, Tom, and Timothy R. Lister
+- Timothy R. Lister
+- Tom DeMarco
 creatorSlugs:
-- demarco-tom-and-timothy-r-lister
+- timothy-r-lister
+- tom-demarco
 citation: 'DeMarco, Tom, and Timothy R. Lister. *Peopleware: Productive Projects and
   Teams*. New York: Dorset House, 1987.'
 sourceKind: book
