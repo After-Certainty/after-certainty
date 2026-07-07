@@ -242,3 +242,101 @@ def test_audit_cli_writes_reports(tmp_path: Path, monkeypatch: pytest.MonkeyPatc
     assert (repo / "reports/semantic-graph-audit.json").is_file()
     data = json.loads((repo / "reports/semantic-graph-audit.json").read_text())
     assert "summary" in data
+
+
+def test_glossary_opener_is_not_tautological(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/glossary/agile.yml",
+        "slug: agile\ntitle: Agile\n"
+        "shortDefinition: Agile is used in a software engineering sense. Agile refers to iterative approaches.\n"
+        "termKind: extended\nrelatedConcepts: []\nrelatedPatterns: []\nrelatedBooks: []\n",
+    )
+    glossary = sga._load_glossary(repo)
+    issues = sga.audit_concepts(
+        repo,
+        glossary,
+        inbound_counts={},
+        thinker_concept_refs={},
+        source_concept_refs={},
+    )
+    assert not any("tautological" in i.reason.lower() for i in issues)
+
+
+def test_strict_tautology_is_flagged(tmp_path: Path) -> None:
+    assert sga._is_tautological_definition("Agile", "Agile is agile")
+    assert not sga._is_tautological_definition(
+        "Agile",
+        "Agile is used in a software engineering sense with iterative delivery.",
+    )
+
+
+def test_institutional_source_skips_institution_duplicate_warning(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/sources/world-bank-example.yml",
+        "slug: world-bank-example\n"
+        "name: World Bank — State and Trends of Carbon Pricing\n"
+        "type: book\nsummary: World Bank report.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\n"
+        "title: State and Trends of Carbon Pricing\n"
+        "creatorNames:\n- World Bank\n"
+        "creatorSlugs:\n- world-bank\n"
+        "sourceKind: report\n"
+        "institution: World Bank\n",
+    )
+    sources = sga.load_entity_dir(repo, "sources")
+    issues = sga.audit_sources_extended(repo, sources)
+    assert not any("Institution field duplicates" in i.reason for i in issues)
+
+
+def test_person_institution_duplicate_still_flagged(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/sources/haspeslagh-example.yml",
+        "slug: haspeslagh-example\n"
+        "name: Haspeslagh — Managing Acquisitions\n"
+        "type: book\nsummary: Book.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\n"
+        "creatorNames:\n- Haspeslagh, Philippe C., and David B. Jemison\n"
+        "institution: Haspeslagh, Philippe C., and David B. Jemison\n"
+        "sourceKind: book\n",
+    )
+    sources = sga.load_entity_dir(repo, "sources")
+    issues = sga.audit_sources_extended(repo, sources)
+    assert any("Institution field duplicates" in i.reason for i in issues)
+
+
+def test_org_thinker_not_flagged_as_person_like(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/thinkers/world-bank.yml",
+        "slug: world-bank\nname: World Bank\ntype: organization\n"
+        "summary: Development institution.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\nworks: []\n",
+    )
+    thinkers = sga.load_entity_dir(repo, "thinkers")
+    issues = sga.audit_thinkers(repo, thinkers)
+    assert not any(i.entityId == "world-bank" and i.field == "type" for i in issues)
+
+
+def test_scholarly_book_with_nasa_in_title_not_misclassified(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/sources/vaughan-example.yml",
+        "slug: vaughan-example\n"
+        "name: Diane Vaughan — The Challenger Launch Decision at NASA\n"
+        "type: book\nsummary: University of Chicago Press book.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\n"
+        "title: The Challenger Launch Decision at NASA\n"
+        "creatorNames:\n- Diane Vaughan\n"
+        "sourceKind: book\n",
+    )
+    sources = sga.load_entity_dir(repo, "sources")
+    issues = sga.audit_sources_extended(repo, sources)
+    assert not any("Institutional statistics or report" in i.reason for i in issues)

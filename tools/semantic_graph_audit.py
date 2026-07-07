@@ -24,7 +24,7 @@ from semantic_metadata_quality_audit import (  # noqa: E402
     QualityIssue,
     run_metadata_quality_audit,
 )
-from source_metadata import parse_year_from_citation  # noqa: E402
+from source_metadata import parse_year_from_citation, split_display_name  # noqa: E402
 from thinker_concept_audit import (  # noqa: E402
     PRIORITY_THINKER_SLUGS,
     collect_concept_slugs,
@@ -63,9 +63,21 @@ ALLOWED_RELATIONSHIP_TYPES = frozenset(
 ORG_KEYWORDS = re.compile(
     r"\b(inc|llc|ltd|university|college|institute|bureau|commission|board|"
     r"foundation|department|administration|center|centre|agency|committee|"
-    r"organization|organisation|society|press|museum|church|nasa|noaa|nist|iso)\b",
+    r"organization|organisation|society|press|museum|church|nasa|noaa|nist|iso|"
+    r"bank|collaboration|consortium)\b",
     re.I,
 )
+INSTITUTIONAL_SOURCE_KINDS = frozenset(
+    {
+        "report",
+        "standard",
+        "dataset",
+        "institutional_document",
+        "speech",
+        "website",
+    }
+)
+TAUTOLOGY_MIN_REMAINDER_CHARS = 25
 _PAGE_RANGE_RE = re.compile(r"\b(\d{3,4})\s*[–\-]\s*(\d{3,4})\b")
 _PAREN_YEAR_RE = re.compile(r"\((1[0-9]{3}|20[0-9]{2})\)")
 _CITATION_IN_FIELD_RE = re.compile(
@@ -139,6 +151,63 @@ def slug_audit_label(entity: dict, entity_type: str) -> str:
 
 def _collapse_ws(text: str) -> str:
     return re.sub(r"\s+", " ", (text or "").strip()).lower()
+
+
+def _is_tautological_definition(title: str, definition: str) -> bool:
+    """True only when the definition restates the title without substantive content."""
+    norm_title = _collapse_ws(title)
+    norm_def = _collapse_ws(definition)
+    if not norm_title or not norm_def:
+        return False
+    if norm_def == norm_title:
+        return True
+    if re.match(rf"^{re.escape(norm_title)}\s+is\s+{re.escape(norm_title)}\b", norm_def):
+        return True
+    if norm_def.startswith(f"{norm_title} is "):
+        remainder = norm_def[len(norm_title) + 4 :].strip()
+        if len(remainder) < TAUTOLOGY_MIN_REMAINDER_CHARS:
+            return True
+        if remainder.startswith(norm_title):
+            return True
+        return False
+    return False
+
+
+def _institution_duplicates_person_creator(
+    institution: str,
+    creator_names: list[str],
+    *,
+    source_kind: str,
+) -> bool:
+    """Flag when institution mirrors a person-like creator, not org-authored works."""
+    if not institution or institution not in creator_names:
+        return False
+    if source_kind in INSTITUTIONAL_SOURCE_KINDS:
+        return False
+    if _looks_like_organization(institution) or _INSTITUTIONAL_NAME_RE.search(institution):
+        return False
+    return _looks_like_person_name(institution) or "," in institution
+
+
+def _author_looks_institutional(data: dict) -> bool:
+    """True when creator/author metadata indicates an institutional publisher."""
+    name = str(data.get("name", "")).strip()
+    author, _ = split_display_name(name)
+    blobs = [author] + [str(c).strip() for c in get_list(data, "creatorNames")]
+    return any(
+        blob and (_INSTITUTIONAL_NAME_RE.search(blob) or _looks_like_organization(blob))
+        for blob in blobs
+    )
+
+
+def _creator_name_looks_like_citation_blob(text: str) -> bool:
+    """Conservative: long single-line creator strings that are not author lists."""
+    text = text.strip()
+    if len(text) <= 120:
+        return False
+    if text.count(",") >= 4 or text.lower().count(" and ") >= 3:
+        return False
+    return bool(_CITATION_IN_FIELD_RE.search(text) or re.search(r"\b(19|20)\d{2}\b", text))
 
 
 def _load_yaml(path: Path) -> dict:
@@ -292,7 +361,6 @@ def audit_sources_extended(
 
     for slug, data in sorted(sources.items()):
         title = entity_title(data)
-        name = str(data.get("name", "")).strip()
         year = data.get("year")
         citation = str(data.get("citation", "") or data.get("summary", ""))
         source_kind = str(data.get("sourceKind", "")).strip().lower()
@@ -394,7 +462,9 @@ def audit_sources_extended(
                                 suggested_fix="Move bibliographic detail to citation/summary.",
                             )
                         )
-                    if field_name == "creatorNames" and len(text) > 120:
+                    if field_name == "creatorNames" and _creator_name_looks_like_citation_blob(
+                        text
+                    ):
                         issues.append(
                             _issue(
                                 severity="warning",
@@ -427,7 +497,9 @@ def audit_sources_extended(
 
         institution = str(data.get("institution", "")).strip()
         creator_names = [str(c).strip() for c in get_list(data, "creatorNames")]
-        if institution and institution in creator_names:
+        if _institution_duplicates_person_creator(
+            institution, creator_names, source_kind=source_kind
+        ):
             issues.append(
                 _issue(
                     severity="warning",
@@ -442,11 +514,10 @@ def audit_sources_extended(
                 )
             )
 
-        combined = f"{name} {title}"
         if (
             source_kind in ("", "book")
             and entry_type == "book"
-            and _INSTITUTIONAL_NAME_RE.search(combined)
+            and _author_looks_institutional(data)
         ):
             issues.append(
                 _issue(
@@ -613,8 +684,6 @@ def audit_concepts(
         title = entity_title(data)
         short_def = str(data.get("shortDefinition", "")).strip()
         long_def = str(data.get("longDefinition", "")).strip()
-        norm_title = _collapse_ws(title)
-        norm_def = _collapse_ws(short_def)
 
         if not short_def:
             issues.append(
@@ -632,7 +701,7 @@ def audit_concepts(
             )
             continue
 
-        if norm_def == norm_title or norm_def.startswith(f"{norm_title} is"):
+        if _is_tautological_definition(title, short_def):
             issues.append(
                 _issue(
                     severity="warning",
