@@ -5,14 +5,32 @@
 - Repository type: **source**
 - Input files: build/semantic-manifest.json, build/books-manifest.json
 - Errors: **0**
-- Warnings: **2**
+- Warnings: **47**
 - Info: **350**
 - Entities scanned: {'books': 28, 'concepts': 137, 'patterns': 30, 'thinkers': 439, 'sources': 408, 'relationships': 109}
 
 ## Top priority issues
 
-- **[warning]** slug-quality / thinker `hal-daum-iii` — Slug appears damaged by diacritic stripping. — *Consider renaming slug to 'hal-daume-iii' with a redirect strategy.*
-- **[warning]** slug-quality / thinker `hal-daum-iii` — Slug may be stale after title change (diacritic damage). — *Use transliterated slug 'hal-daume-iii'.*
+- **[warning]** concept-grounding / source `argyris-chris-and-donald-a-schon-organizational-learning-ii` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'contestability'. — *Add 'contestability' to source concepts.*
+- **[warning]** concept-grounding / source `argyris-chris-and-donald-a-schon-organizational-learning-ii` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'correction'. — *Add 'correction' to source concepts.*
+- **[warning]** concept-grounding / source `argyris-chris-and-donald-a-schon-organizational-learning-ii` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'. — *Add 'feedback' to source concepts.*
+- **[warning]** concept-grounding / source `barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'. — *Add 'agile' to source concepts.*
+- **[warning]** concept-grounding / source `dekker-sidney-the-field-guide-to-understanding-human-error` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'. — *Add 'feedback' to source concepts.*
+- **[warning]** concept-grounding / source `dekker-sidney-w-a-just-culture-restoring-trust-and-accountability` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'accountability'. — *Add 'accountability' to source concepts.*
+- **[warning]** concept-grounding / source `dekker-sidney-w-a-just-culture-restoring-trust-and-accountability` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'trust'. — *Add 'trust' to source concepts.*
+- **[warning]** concept-grounding / source `dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'. — *Add 'agile' to source concepts.*
+- **[warning]** concept-grounding / source `march-james-g-exploration-and-exploitation-in-organizational` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'contestability'. — *Add 'contestability' to source concepts.*
+- **[warning]** concept-grounding / source `march-james-g-exploration-and-exploitation-in-organizational` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'correction'. — *Add 'correction' to source concepts.*
+- **[warning]** concept-grounding / source `march-james-g-exploration-and-exploitation-in-organizational` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'. — *Add 'feedback' to source concepts.*
+- **[warning]** concept-grounding / source `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'coherence-maintenance'. — *Add 'coherence-maintenance' to source concepts.*
+- **[warning]** concept-grounding / source `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'meaning'. — *Add 'meaning' to source concepts.*
+- **[warning]** concept-grounding / source `weick-karl-e-sensemaking-in-organizations` — Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'coherence-maintenance'. — *Add 'coherence-maintenance' to source concepts.*
+- **[warning]** concept-grounding / thinker `alistair-cockburn` — Linked work supports this concept but thinker.concepts omits it. (via work cockburn-alistair-the-heart-of-agile) Suggested concept: 'feedback'. — *Add 'feedback' to thinker concepts.*
+- **[warning]** concept-grounding / thinker `casper-lassenius` — Linked work supports this concept but thinker.concepts omits it. (via work dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca) Suggested concept: 'agile'. — *Add 'agile' to thinker concepts.*
+- **[warning]** concept-grounding / thinker `donald-a-schon` — Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'contestability'. — *Add 'contestability' to thinker concepts.*
+- **[warning]** concept-grounding / thinker `donald-a-schon` — Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'correction'. — *Add 'correction' to thinker concepts.*
+- **[warning]** concept-grounding / thinker `donald-a-schon` — Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'feedback'. — *Add 'feedback' to thinker concepts.*
+- **[warning]** concept-grounding / thinker `gerard-b-carsten` — Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'. — *Add 'correction' to thinker concepts.*
 
 ## Issue counts by category
 
@@ -20,6 +38,7 @@
 - concept-metadata: 82
 - relationship-quality: 79
 - thinker-metadata: 58
+- concept-grounding: 45
 - book-metadata: 9
 - manifest-consistency: 2
 - slug-quality: 2
@@ -59,6 +78,51 @@
 
 ### Warning
 
+- **concept-grounding** — source `argyris-chris-and-donald-a-schon-organizational-learning-ii` (Organizational Learning II: Theory, Method, and Practice): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'contestability'.
+- **concept-grounding** — source `argyris-chris-and-donald-a-schon-organizational-learning-ii` (Organizational Learning II: Theory, Method, and Practice): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'correction'.
+- **concept-grounding** — source `argyris-chris-and-donald-a-schon-organizational-learning-ii` (Organizational Learning II: Theory, Method, and Practice): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'.
+- **concept-grounding** — source `barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams` (Role Clarity Deficiencies Can Wreck Agile Teams.): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'.
+- **concept-grounding** — source `dekker-sidney-the-field-guide-to-understanding-human-error` (The Field Guide to Understanding Human Error): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'.
+- **concept-grounding** — source `dekker-sidney-w-a-just-culture-restoring-trust-and-accountability` (Just Culture: Restoring Trust and Accountability): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'accountability'.
+- **concept-grounding** — source `dekker-sidney-w-a-just-culture-restoring-trust-and-accountability` (Just Culture: Restoring Trust and Accountability): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'trust'.
+- **concept-grounding** — source `dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca` (Challenges and Success Factors for Large-Scale Agile Transformations: A Systematic Literature Review.): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'agile'.
+- **concept-grounding** — source `march-james-g-exploration-and-exploitation-in-organizational` (Exploration and Exploitation in Organizational): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'contestability'.
+- **concept-grounding** — source `march-james-g-exploration-and-exploitation-in-organizational` (Exploration and Exploitation in Organizational): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'correction'.
+- **concept-grounding** — source `march-james-g-exploration-and-exploitation-in-organizational` (Exploration and Exploitation in Organizational): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'feedback'.
+- **concept-grounding** — source `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing` (Organizing): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'coherence-maintenance'.
+- **concept-grounding** — source `weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing` (Organizing): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'meaning'.
+- **concept-grounding** — source `weick-karl-e-sensemaking-in-organizations` (Sensemaking in Organizations): Source title or summary matches a concept heuristic but concepts is empty. Suggested concept: 'coherence-maintenance'.
+- **concept-grounding** — thinker `alistair-cockburn` (Alistair Cockburn): Linked work supports this concept but thinker.concepts omits it. (via work cockburn-alistair-the-heart-of-agile) Suggested concept: 'feedback'.
+- **concept-grounding** — thinker `casper-lassenius` (Casper Lassenius): Linked work supports this concept but thinker.concepts omits it. (via work dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca) Suggested concept: 'agile'.
+- **concept-grounding** — thinker `donald-a-schon` (Donald A Schön): Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'contestability'.
+- **concept-grounding** — thinker `donald-a-schon` (Donald A Schön): Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'correction'.
+- **concept-grounding** — thinker `donald-a-schon` (Donald A Schön): Linked work supports this concept but thinker.concepts omits it. (via work argyris-chris-and-donald-a-schon-organizational-learning-ii) Suggested concept: 'feedback'.
+- **concept-grounding** — thinker `gerard-b-carsten` (Gerard B. Carsten): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'.
+- **concept-grounding** — thinker `gerard-b-carsten` (Gerard B. Carsten): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'guest-leadership'.
+- **concept-grounding** — thinker `gerard-b-carsten` (Gerard B. Carsten): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'legitimacy'.
+- **concept-grounding** — thinker `gerard-b-carsten` (Gerard B. Carsten): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'normalization'.
+- **concept-grounding** — thinker `hannah-arendt` (Hannah Arendt): Linked work supports this concept but thinker.concepts omits it. (via work arendt-hannah-the-life-of-the-mind) Suggested concept: 'thinking'.
+- **concept-grounding** — thinker `helena-barke` (Helena Barke): Linked work supports this concept but thinker.concepts omits it. (via work barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams) Suggested concept: 'agile'.
+- **concept-grounding** — thinker `james-g-march` (James G March): Linked work supports this concept but thinker.concepts omits it. (via work march-james-g-exploration-and-exploitation-in-organizational) Suggested concept: 'contestability'.
+- **concept-grounding** — thinker `james-g-march` (James G March): Linked work supports this concept but thinker.concepts omits it. (via work march-james-g-exploration-and-exploitation-in-organizational) Suggested concept: 'correction'.
+- **concept-grounding** — thinker `james-g-march` (James G March): Linked work supports this concept but thinker.concepts omits it. (via work march-james-g-exploration-and-exploitation-in-organizational) Suggested concept: 'feedback'.
+- **concept-grounding** — thinker `karina-dikert` (Karina Dikert): Linked work supports this concept but thinker.concepts omits it. (via work dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca) Suggested concept: 'agile'.
+- **concept-grounding** — thinker `kelly-lowe` (Kelly Lowe): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'.
+- **concept-grounding** — thinker `kelly-lowe` (Kelly Lowe): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'guest-leadership'.
+- **concept-grounding** — thinker `kelly-lowe` (Kelly Lowe): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'legitimacy'.
+- **concept-grounding** — thinker `kelly-lowe` (Kelly Lowe): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'normalization'.
+- **concept-grounding** — thinker `lutz-prechelt` (Lutz Prechelt): Linked work supports this concept but thinker.concepts omits it. (via work barke-helena-and-lutz-prechelt-role-clarity-deficiencies-can-wreck-agile-teams) Suggested concept: 'agile'.
+- **concept-grounding** — thinker `maria-paasivaara` (Maria Paasivaara): Linked work supports this concept but thinker.concepts omits it. (via work dikert-karina-maria-paasivaara-and-casper-lassenius-challenges-and-success-factors-for-large-sca) Suggested concept: 'agile'.
+- **concept-grounding** — thinker `michael-uhl-bien` (Michael Uhl-Bien): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'.
+- **concept-grounding** — thinker `michael-uhl-bien` (Michael Uhl-Bien): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'guest-leadership'.
+- **concept-grounding** — thinker `michael-uhl-bien` (Michael Uhl-Bien): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'legitimacy'.
+- **concept-grounding** — thinker `michael-uhl-bien` (Michael Uhl-Bien): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'normalization'.
+- **concept-grounding** — thinker `ronald-e-riggio` (Ronald E. Riggio): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'correction'.
+- **concept-grounding** — thinker `ronald-e-riggio` (Ronald E. Riggio): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'guest-leadership'.
+- **concept-grounding** — thinker `ronald-e-riggio` (Ronald E. Riggio): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'legitimacy'.
+- **concept-grounding** — thinker `ronald-e-riggio` (Ronald E. Riggio): Linked work supports this concept but thinker.concepts omits it. (via work uhl-bien-michael-ronald-e-riggio-kelly-lowe-and-gerard-b) Suggested concept: 'normalization'.
+- **concept-grounding** — thinker `sidney-dekker` (Sidney Dekker): Linked work supports this concept but thinker.concepts omits it. (via work dekker-sidney-drift-into-failure-from-hunting-broken-components-to-understanding-complex-systems) Suggested concept: 'coupling'.
+- **concept-grounding** — thinker `sidney-dekker` (Sidney Dekker): Linked work supports this concept but thinker.concepts omits it. (via work dekker-sidney-the-field-guide-to-understanding-human-error) Suggested concept: 'feedback'.
 - **slug-quality** — thinker `hal-daum-iii` (Hal Daumé III): Slug appears damaged by diacritic stripping.
 - **slug-quality** — thinker `hal-daum-iii` (Hal Daumé III): Slug may be stale after title change (diacritic damage).
 ### Info

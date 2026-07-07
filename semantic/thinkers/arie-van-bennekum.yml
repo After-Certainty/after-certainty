@@ -2,7 +2,8 @@ slug: arie-van-bennekum
 name: Arie van Bennekum
 type: person
 summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
-concepts: []
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling

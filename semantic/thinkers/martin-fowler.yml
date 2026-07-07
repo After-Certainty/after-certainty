@@ -3,7 +3,8 @@ name: Martin Fowler
 type: person
 summary: Software writer and methodologist on architecture, refactoring, and how teams
   evolve systems without losing coherence.
-concepts: []
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling

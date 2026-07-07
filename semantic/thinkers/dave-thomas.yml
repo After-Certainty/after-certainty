@@ -2,7 +2,8 @@ slug: dave-thomas
 name: Dave Thomas
 type: person
 summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
-concepts: []
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling

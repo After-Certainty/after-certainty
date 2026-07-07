@@ -33,6 +33,7 @@ from source_metadata import (  # noqa: E402
 from thinker_concept_audit import (  # noqa: E402
     PRIORITY_THINKER_SLUGS,
     collect_concept_slugs,
+    find_concept_grounding_gaps,
     load_entity_dir,
 )
 
@@ -1713,6 +1714,27 @@ def _build_ref_indexes(
     return thinker_concepts, source_concepts, source_patterns, thinker_patterns
 
 
+def audit_concept_grounding(repo: Path) -> list[AuditIssue]:
+    """Flag sources/thinkers that should link concepts supported by work metadata."""
+    issues: list[AuditIssue] = []
+    for gap in find_concept_grounding_gaps(repo):
+        work_hint = f" (via work {gap.work_slug})" if gap.work_slug else ""
+        issues.append(
+            _issue(
+                severity="warning",
+                category="concept-grounding",
+                entity_type=gap.entity_type,
+                entity_id=gap.entity_id,
+                entity_title=gap.entity_title,
+                field="concepts",
+                current_value=[],
+                reason=f"{gap.reason}{work_hint} Suggested concept: {gap.concept!r}.",
+                suggested_fix=f"Add {gap.concept!r} to {gap.entity_type} concepts.",
+            )
+        )
+    return issues
+
+
 def _inbound_concept_counts(repo: Path, concept_slugs: set[str]) -> dict[str, int]:
     counts: dict[str, int] = defaultdict(int)
     rel_doc = _load_yaml(repo / SEMANTIC / "relationships.yml")
@@ -1780,6 +1802,7 @@ def run_audit(
     issues.extend(_map_quality_issue(i) for i in meta_result.issues)
     issues.extend(audit_sources_extended(repo, sources))
     issues.extend(audit_thinkers(repo, thinkers, sources=sources))
+    issues.extend(audit_concept_grounding(repo))
 
     thinker_concepts, source_concepts, source_patterns, thinker_patterns = _build_ref_indexes(
         sources, thinkers, patterns
