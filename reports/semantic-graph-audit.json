@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T04:57:50.620479+00:00",
+  "generatedAt": "2026-07-07T05:37:33.797455+00:00",
   "repoContext": {
     "detectedRepoType": "source",
     "inputFiles": [
@@ -10,7 +10,7 @@
   "summary": {
     "errors": 0,
     "warnings": 2,
-    "info": 350,
+    "info": 292,
     "entitiesScanned": {
       "books": 28,
       "concepts": 137,
@@ -21,644 +21,6 @@
     }
   },
   "issues": [
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "akihiko-murata",
-      "entityTitle": "akihiko-murata",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "alexander-weisler",
-      "entityTitle": "alexander-weisler",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "andrew-hunt",
-      "entityTitle": "andrew-hunt",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "andrew-zaldivar",
-      "entityTitle": "andrew-zaldivar",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "anya-chen",
-      "entityTitle": "anya-chen",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "arie-van-bennekum",
-      "entityTitle": "arie-van-bennekum",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "ashley-parker",
-      "entityTitle": "ashley-parker",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "barbara-mellers",
-      "entityTitle": "barbara-mellers",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "ben-hutchinson",
-      "entityTitle": "ben-hutchinson",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "brian-marick",
-      "entityTitle": "brian-marick",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "catherine-c-lewis",
-      "entityTitle": "catherine-c-lewis",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "collin-burns",
-      "entityTitle": "collin-burns",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "dan-boneh",
-      "entityTitle": "dan-boneh",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "dan-hendrycks",
-      "entityTitle": "dan-hendrycks",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "dave-thomas",
-      "entityTitle": "dave-thomas",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "david-wachsmuth",
-      "entityTitle": "david-wachsmuth",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "deepak-kumar",
-      "entityTitle": "deepak-kumar",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "elena-spitzer",
-      "entityTitle": "elena-spitzer",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "freeh-sporkin-sullivan-llc",
-      "entityTitle": "freeh-sporkin-sullivan-llc",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "inioluwa-deborah-raji",
-      "entityTitle": "inioluwa-deborah-raji",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "james-grenning",
-      "entityTitle": "james-grenning",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "james-n-druckman",
-      "entityTitle": "james-n-druckman",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "jeff-sutherland",
-      "entityTitle": "jeff-sutherland",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "jim-highsmith",
-      "entityTitle": "jim-highsmith",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "john-carreyrou",
-      "entityTitle": "john-carreyrou",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "jon-kern",
-      "entityTitle": "jon-kern",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "karen-m-douglas",
-      "entityTitle": "karen-m-douglas",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "kati-marton",
-      "entityTitle": "kati-marton",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "ken-schwaber",
-      "entityTitle": "ken-schwaber",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "kenneth-f-schulz",
-      "entityTitle": "kenneth-f-schulz",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "kent-beck",
-      "entityTitle": "kent-beck",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "lucy-vasserman",
-      "entityTitle": "lucy-vasserman",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "maggie-haberman",
-      "entityTitle": "maggie-haberman",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "margaret-mitchell",
-      "entityTitle": "margaret-mitchell",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "megha-srivastava",
-      "entityTitle": "megha-srivastava",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "michael-scherer",
-      "entityTitle": "michael-scherer",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "mike-beedle",
-      "entityTitle": "mike-beedle",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "neal-ford",
-      "entityTitle": "neal-ford",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "neil-perry",
-      "entityTitle": "neil-perry",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "parker-barnes",
-      "entityTitle": "parker-barnes",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "patrick-kua",
-      "entityTitle": "patrick-kua",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "peter-grady",
-      "entityTitle": "peter-grady",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "rebecca-parsons",
-      "entityTitle": "rebecca-parsons",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "rebecca-r-perry",
-      "entityTitle": "rebecca-r-perry",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "reeves-wiedeman",
-      "entityTitle": "reeves-wiedeman",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "reto-knutti",
-      "entityTitle": "reto-knutti",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "richard-gott",
-      "entityTitle": "richard-gott",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "ron-jeffries",
-      "entityTitle": "ron-jeffries",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "s-g-talbot",
-      "entityTitle": "s-g-talbot",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "saleema-amershi",
-      "entityTitle": "saleema-amershi",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "sida-peng",
-      "entityTitle": "sida-peng",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "simone-wu",
-      "entityTitle": "simone-wu",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "spencer-ball",
-      "entityTitle": "spencer-ball",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "steve-mellor",
-      "entityTitle": "steve-mellor",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "susan-raine",
-      "entityTitle": "susan-raine",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "w-dean",
-      "entityTitle": "w-dean",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "ward-cunningham",
-      "entityTitle": "ward-cunningham",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "wright-stuart-a-ed",
-      "entityTitle": "wright-stuart-a-ed",
-      "field": "placeholder_summary",
-      "currentValue": null,
-      "reason": "summary or whyThisMatters still has auto-generated placeholder text",
-      "suggestedFix": null
-    },
     {
       "severity": "warning",
       "category": "slug-quality",
@@ -2239,9 +1601,9 @@
       "entityId": "admiration-becomes-insulation",
       "entityTitle": "Admiration Becomes Insulation",
       "field": "relatedPatterns",
-      "currentValue": "scrutiny-preserves-trust",
+      "currentValue": "blame-compresses-complexity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'admiration-becomes-insulation' to relatedPatterns on 'scrutiny-preserves-trust'."
+      "suggestedFix": "Consider adding 'admiration-becomes-insulation' to relatedPatterns on 'blame-compresses-complexity'."
     },
     {
       "severity": "info",
@@ -2250,9 +1612,9 @@
       "entityId": "admiration-becomes-insulation",
       "entityTitle": "Admiration Becomes Insulation",
       "field": "relatedPatterns",
-      "currentValue": "blame-compresses-complexity",
+      "currentValue": "scrutiny-preserves-trust",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'admiration-becomes-insulation' to relatedPatterns on 'blame-compresses-complexity'."
+      "suggestedFix": "Consider adding 'admiration-becomes-insulation' to relatedPatterns on 'scrutiny-preserves-trust'."
     },
     {
       "severity": "info",
@@ -2283,17 +1645,6 @@
       "entityId": "attention-finds-a-signal",
       "entityTitle": "Attention Finds a Signal",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-forms-early'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "attention-finds-a-signal",
-      "entityTitle": "Attention Finds a Signal",
-      "field": "relatedPatterns",
       "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-outruns-the-words'."
@@ -2302,12 +1653,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "attention-restores-contact",
-      "entityTitle": "Attention Restores Contact",
+      "entityId": "attention-finds-a-signal",
+      "entityTitle": "Attention Finds a Signal",
       "field": "relatedPatterns",
-      "currentValue": "responsibility-persists-beyond-control",
+      "currentValue": "meaning-forms-early",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-restores-contact' to relatedPatterns on 'responsibility-persists-beyond-control'."
+      "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-forms-early'."
     },
     {
       "severity": "info",
@@ -2324,12 +1675,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "blame-compresses-complexity",
-      "entityTitle": "Blame Compresses Complexity",
+      "entityId": "attention-restores-contact",
+      "entityTitle": "Attention Restores Contact",
       "field": "relatedPatterns",
-      "currentValue": "admiration-becomes-insulation",
+      "currentValue": "responsibility-persists-beyond-control",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'admiration-becomes-insulation'."
+      "suggestedFix": "Consider adding 'attention-restores-contact' to relatedPatterns on 'responsibility-persists-beyond-control'."
     },
     {
       "severity": "info",
@@ -2341,6 +1692,17 @@
       "currentValue": "attention-restores-contact",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'attention-restores-contact'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "blame-compresses-complexity",
+      "entityTitle": "Blame Compresses Complexity",
+      "field": "relatedPatterns",
+      "currentValue": "admiration-becomes-insulation",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'admiration-becomes-insulation'."
     },
     {
       "severity": "info",
@@ -2437,9 +1799,9 @@
       "entityId": "examples-accumulate",
       "entityTitle": "Examples Accumulate",
       "field": "relatedPatterns",
-      "currentValue": "attention-finds-a-focus",
+      "currentValue": "dissent-is-welcomed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'attention-finds-a-focus'."
+      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'dissent-is-welcomed'."
     },
     {
       "severity": "info",
@@ -2448,9 +1810,9 @@
       "entityId": "examples-accumulate",
       "entityTitle": "Examples Accumulate",
       "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
+      "currentValue": "attention-finds-a-focus",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'dissent-is-welcomed'."
+      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'attention-finds-a-focus'."
     },
     {
       "severity": "info",
@@ -2481,17 +1843,6 @@
       "entityId": "explanation-replaces-response",
       "entityTitle": "Explanation Replaces Response",
       "field": "relatedPatterns",
-      "currentValue": "responsibility-persists-beyond-control",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'explanation-replaces-response' to relatedPatterns on 'responsibility-persists-beyond-control'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "explanation-replaces-response",
-      "entityTitle": "Explanation Replaces Response",
-      "field": "relatedPatterns",
       "currentValue": "speech-escalates-faster-than-meaning",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'explanation-replaces-response' to relatedPatterns on 'speech-escalates-faster-than-meaning'."
@@ -2500,12 +1851,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "feedback-drives-change",
-      "entityTitle": "Feedback Drives Change",
+      "entityId": "explanation-replaces-response",
+      "entityTitle": "Explanation Replaces Response",
       "field": "relatedPatterns",
-      "currentValue": "leaders-feel-the-consequences",
+      "currentValue": "responsibility-persists-beyond-control",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'feedback-drives-change' to relatedPatterns on 'leaders-feel-the-consequences'."
+      "suggestedFix": "Consider adding 'explanation-replaces-response' to relatedPatterns on 'responsibility-persists-beyond-control'."
     },
     {
       "severity": "info",
@@ -2517,6 +1868,17 @@
       "currentValue": "dissent-is-welcomed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'feedback-drives-change' to relatedPatterns on 'dissent-is-welcomed'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "feedback-drives-change",
+      "entityTitle": "Feedback Drives Change",
+      "field": "relatedPatterns",
+      "currentValue": "leaders-feel-the-consequences",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'feedback-drives-change' to relatedPatterns on 'leaders-feel-the-consequences'."
     },
     {
       "severity": "info",
@@ -2547,9 +1909,9 @@
       "entityId": "gaps-invite-completion",
       "entityTitle": "Gaps Invite Completion",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
+      "currentValue": "intent-gets-assigned",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'meaning-forms-early'."
+      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'intent-gets-assigned'."
     },
     {
       "severity": "info",
@@ -2558,9 +1920,9 @@
       "entityId": "gaps-invite-completion",
       "entityTitle": "Gaps Invite Completion",
       "field": "relatedPatterns",
-      "currentValue": "intent-gets-assigned",
+      "currentValue": "meaning-forms-early",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'intent-gets-assigned'."
+      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'meaning-forms-early'."
     },
     {
       "severity": "info",
@@ -2613,9 +1975,9 @@
       "entityId": "leadership-coalesces",
       "entityTitle": "Leadership Coalesces",
       "field": "relatedPatterns",
-      "currentValue": "attention-finds-a-focus",
+      "currentValue": "disagreement-is-suppressed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'attention-finds-a-focus'."
+      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'disagreement-is-suppressed'."
     },
     {
       "severity": "info",
@@ -2624,9 +1986,9 @@
       "entityId": "leadership-coalesces",
       "entityTitle": "Leadership Coalesces",
       "field": "relatedPatterns",
-      "currentValue": "disagreement-is-suppressed",
+      "currentValue": "attention-finds-a-focus",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'disagreement-is-suppressed'."
+      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'attention-finds-a-focus'."
     },
     {
       "severity": "info",
@@ -2679,17 +2041,6 @@
       "entityId": "meaning-drifts-over-time",
       "entityTitle": "Meaning Drifts Over Time",
       "field": "relatedPatterns",
-      "currentValue": "meaning-outruns-the-words",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-outruns-the-words'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "meaning-drifts-over-time",
-      "entityTitle": "Meaning Drifts Over Time",
-      "field": "relatedPatterns",
       "currentValue": "meaning-reinforces-itself",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-reinforces-itself'."
@@ -2698,12 +2049,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-forms-early",
-      "entityTitle": "Meaning Forms Early",
+      "entityId": "meaning-drifts-over-time",
+      "entityTitle": "Meaning Drifts Over Time",
       "field": "relatedPatterns",
-      "currentValue": "gaps-invite-completion",
+      "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-forms-early' to relatedPatterns on 'gaps-invite-completion'."
+      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-outruns-the-words'."
     },
     {
       "severity": "info",
@@ -2720,12 +2071,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-gets-distorted",
-      "entityTitle": "Meaning Gets Distorted",
+      "entityId": "meaning-forms-early",
+      "entityTitle": "Meaning Forms Early",
       "field": "relatedPatterns",
-      "currentValue": "meaning-reinforces-itself",
+      "currentValue": "gaps-invite-completion",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'meaning-reinforces-itself'."
+      "suggestedFix": "Consider adding 'meaning-forms-early' to relatedPatterns on 'gaps-invite-completion'."
     },
     {
       "severity": "info",
@@ -2737,6 +2088,17 @@
       "currentValue": "intent-gets-assigned",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'intent-gets-assigned'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "meaning-gets-distorted",
+      "entityTitle": "Meaning Gets Distorted",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-reinforces-itself",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'meaning-reinforces-itself'."
     },
     {
       "severity": "info",
@@ -2789,17 +2151,6 @@
       "entityId": "meaning-shifts-under-pressure",
       "entityTitle": "Meaning Shifts Under Pressure",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-forms-early'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "meaning-shifts-under-pressure",
-      "entityTitle": "Meaning Shifts Under Pressure",
-      "field": "relatedPatterns",
       "currentValue": "meaning-gets-distorted",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-gets-distorted'."
@@ -2808,12 +2159,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "responsibility-persists-beyond-control",
-      "entityTitle": "Responsibility Persists Beyond Control",
+      "entityId": "meaning-shifts-under-pressure",
+      "entityTitle": "Meaning Shifts Under Pressure",
       "field": "relatedPatterns",
-      "currentValue": "explanation-replaces-response",
+      "currentValue": "meaning-forms-early",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'responsibility-persists-beyond-control' to relatedPatterns on 'explanation-replaces-response'."
+      "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-forms-early'."
     },
     {
       "severity": "info",
@@ -2825,6 +2176,17 @@
       "currentValue": "attention-restores-contact",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'responsibility-persists-beyond-control' to relatedPatterns on 'attention-restores-contact'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "responsibility-persists-beyond-control",
+      "entityTitle": "Responsibility Persists Beyond Control",
+      "field": "relatedPatterns",
+      "currentValue": "explanation-replaces-response",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'responsibility-persists-beyond-control' to relatedPatterns on 'explanation-replaces-response'."
     },
     {
       "severity": "info",
@@ -2877,9 +2239,9 @@
       "entityId": "speech-escalates-faster-than-meaning",
       "entityTitle": "Speech Escalates Faster Than Meaning",
       "field": "relatedPatterns",
-      "currentValue": "explanation-replaces-response",
+      "currentValue": "finality-compensates-for-uncertainty",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'explanation-replaces-response'."
+      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'finality-compensates-for-uncertainty'."
     },
     {
       "severity": "info",
@@ -2888,9 +2250,9 @@
       "entityId": "speech-escalates-faster-than-meaning",
       "entityTitle": "Speech Escalates Faster Than Meaning",
       "field": "relatedPatterns",
-      "currentValue": "finality-compensates-for-uncertainty",
+      "currentValue": "explanation-replaces-response",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'finality-compensates-for-uncertainty'."
+      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'explanation-replaces-response'."
     },
     {
       "severity": "info",
@@ -2999,7 +2361,7 @@
       "entityTitle": "semantic",
       "field": "generatedAt",
       "currentValue": {
-        "build": "2026-07-07T04:57:46.579915+00:00",
+        "build": "2026-07-07T05:33:46.054047+00:00",
         "snapshot": "2026-07-05T21:49:00.134567+00:00"
       },
       "reason": "Portfolio audit snapshot appears older than build manifest.",

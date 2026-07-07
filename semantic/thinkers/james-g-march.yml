@@ -3,7 +3,10 @@ name: James G March
 type: person
 summary: Organizational theorists of ambiguous preferences, garbage can decision-making,
   and institutional choice under uncertainty.
-concepts: []
+concepts:
+- contestability
+- correction
+- feedback
 patterns: []
 relatedBooks:
 - when-accountability-no-longer-expires

@@ -1,12 +1,13 @@
 slug: inioluwa-deborah-raji
 name: Inioluwa Deborah Raji
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: AI accountability researcher on auditing, model documentation, and algorithmic
+  harms in deployed systems.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 works:
 - mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Raji treats documentation as civic infrastructure—without it, interpretation
+  of model behavior stays proprietary.

@@ -1,12 +1,14 @@
 slug: ron-jeffries
 name: Ron Jeffries
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
-concepts: []
+summary: Extreme Programming co-founder with Kent Beck; coach and writer on test-first
+  development, pairing, and sustainable team practice.
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling
 works:
 - beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Jeffries insists agile is technical, not ceremonial—without engineering
+  discipline, iteration becomes theater.

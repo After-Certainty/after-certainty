@@ -3,7 +3,10 @@ name: Donald A Schön
 type: person
 summary: Organizational theorists of double-loop learning and reflective practice
   in professional work.
-concepts: []
+concepts:
+- contestability
+- correction
+- feedback
 patterns: []
 relatedBooks:
 - how-serious-systems-learn

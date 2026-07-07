@@ -1,12 +1,13 @@
 slug: simone-wu
 name: Simone Wu
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Researcher contributing to model cards and transparency practices in machine
+  learning.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 works:
 - mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Wu extends documentation into product reality—models judged by what
+  they declare, not only what they output.

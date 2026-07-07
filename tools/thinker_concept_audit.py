@@ -427,6 +427,78 @@ def collect_advisory_warnings(repo: Path) -> list[str]:
     return warnings
 
 
+@dataclass(frozen=True)
+class ConceptGroundingGap:
+    """Conservative source/thinker concept link missing from the graph."""
+
+    entity_type: str
+    entity_id: str
+    entity_title: str
+    concept: str
+    work_slug: str | None
+    reason: str
+
+
+def work_supported_concepts(work: dict, *, valid_slugs: set[str]) -> set[str]:
+    """Concepts explicitly on a work plus conservative title-heuristic matches."""
+    supported = set(_normalize_slug_list(work.get("concepts")))
+    supported.update(title_heuristic_concepts(source_text_blob(work), valid_slugs=valid_slugs))
+    return supported
+
+
+def find_concept_grounding_gaps(repo: Path) -> list[ConceptGroundingGap]:
+    """
+    Find sources and thinkers that should link a concept based on work metadata.
+
+    Uses explicit work concepts and TITLE_HEURISTICS only (not broad text matching).
+    """
+    repo = repo.resolve()
+    valid_slugs = collect_concept_slugs(repo)
+    thinkers = load_entity_dir(repo, "thinkers")
+    sources = load_entity_dir(repo, "sources")
+    gaps: list[ConceptGroundingGap] = []
+
+    for slug, data in sorted(sources.items()):
+        current = set(_normalize_slug_list(data.get("concepts")))
+        suggested = work_supported_concepts(data, valid_slugs=valid_slugs)
+        title = str(data.get("title", data.get("name", slug))).strip()
+        for concept in sorted(suggested - current):
+            gaps.append(
+                ConceptGroundingGap(
+                    entity_type="source",
+                    entity_id=slug,
+                    entity_title=title,
+                    concept=concept,
+                    work_slug=None,
+                    reason="Source title or summary matches a concept heuristic but concepts is empty.",
+                )
+            )
+
+    for slug, data in sorted(thinkers.items()):
+        current = set(_normalize_slug_list(data.get("concepts")))
+        name = str(data.get("name", slug)).strip()
+        works = _normalize_slug_list(data.get("works"))
+        supported: dict[str, str | None] = {}
+        for work_slug in works:
+            work = sources.get(work_slug, {})
+            for concept in work_supported_concepts(work, valid_slugs=valid_slugs):
+                supported.setdefault(concept, work_slug)
+        for concept in sorted(set(supported) - current):
+            work_slug = supported[concept]
+            gaps.append(
+                ConceptGroundingGap(
+                    entity_type="thinker",
+                    entity_id=slug,
+                    entity_title=name,
+                    concept=concept,
+                    work_slug=work_slug,
+                    reason="Linked work supports this concept but thinker.concepts omits it.",
+                )
+            )
+
+    return gaps
+
+
 def format_thinker_section(audit: ThinkerAudit, *, detailed: bool) -> list[str]:
     lines = [
         f"### {audit.name} (`{audit.slug}`)",

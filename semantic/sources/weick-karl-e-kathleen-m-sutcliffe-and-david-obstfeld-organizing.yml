@@ -1,11 +1,12 @@
 slug: weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing
-name: "Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld \u2014 Organizing"
+name: Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld — Organizing
 type: article
-summary: "Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld. \"Organizing\
-  \ and the Process of Sensemaking.\" *Organization Science* 16, no. 4 (2005): 409\u2013\
-  421."
+summary: 'Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld. "Organizing and
+  the Process of Sensemaking." *Organization Science* 16, no. 4 (2005): 409–421.'
 concepts:
+- coherence-maintenance
 - interpretation
+- meaning
 patterns: []
 relatedBooks:
 - how-meaning-moves
@@ -15,7 +16,6 @@ creatorNames:
 - Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld
 creatorSlugs:
 - karl-e-weick
-citation: "Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld. \"Organizing\
-  \ and the Process of Sensemaking.\" *Organization Science* 16, no. 4 (2005): 409\u2013\
-  421."
+citation: 'Weick, Karl E., Kathleen M. Sutcliffe, and David Obstfeld. "Organizing
+  and the Process of Sensemaking." *Organization Science* 16, no. 4 (2005): 409–421.'
 sourceKind: article

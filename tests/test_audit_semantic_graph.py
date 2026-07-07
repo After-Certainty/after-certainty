@@ -458,3 +458,58 @@ def test_et_al_thinker_flagged_as_multi_person(tmp_path: Path) -> None:
         and "et al" in i.reason.lower()
         for i in issues
     )
+
+
+def test_concept_grounding_flags_manifesto_source(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/glossary/agile.yml",
+        "slug: agile\ntitle: Agile\nshortDefinition: Agile is iterative development.\n"
+        "termKind: extended\nrelatedConcepts: []\nrelatedPatterns: []\nrelatedBooks: []\n",
+    )
+    _write(
+        repo / "semantic/sources/agile-manifesto.yml",
+        "slug: agile-manifesto\n"
+        "name: Kent Beck — Manifesto for Agile Software Development\n"
+        "type: article\nsummary: Manifesto for Agile Software Development.\n"
+        "title: Manifesto for Agile Software Development.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\n"
+        "creatorSlugs:\n- kent-beck\n",
+    )
+    _write(
+        repo / "semantic/thinkers/kent-beck.yml",
+        "slug: kent-beck\nname: Kent Beck\ntype: person\nsummary: Manifesto signatory.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\n"
+        "works:\n- agile-manifesto\n",
+    )
+    issues = sga.audit_concept_grounding(repo)
+    assert any(
+        i.category == "concept-grounding"
+        and i.entityType == "source"
+        and i.entityId == "agile-manifesto"
+        and "agile" in i.reason
+        for i in issues
+    )
+    assert any(
+        i.category == "concept-grounding"
+        and i.entityType == "thinker"
+        and i.entityId == "kent-beck"
+        and "agile" in i.reason
+        for i in issues
+    )
+
+
+def test_placeholder_thinker_summary_flagged(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/thinkers/stub.yml",
+        "slug: stub\nname: Stub Thinker\ntype: person\n"
+        "summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\nworks: []\n"
+        "whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts\n",
+    )
+    thinkers = sga.load_entity_dir(repo, "thinkers")
+    issues = sga.audit_thinkers(repo, thinkers)
+    assert any(i.entityId == "stub" and "placeholder" in i.reason.lower() for i in issues)

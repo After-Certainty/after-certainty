@@ -10,7 +10,7 @@ Systematic read-only audit of the After Certainty semantic graph: sources, think
 | `make lint-semantic-graph` | Structural warnings (over-connected nodes, duplicate defs) |
 | `make audit-semantic-metadata-quality` | Source/thinker display-field metadata only |
 | `make audit-thinker-concepts` | Thinker↔concept coverage and creator slug alignment |
-| **`make audit-semantic-graph`** | **Unified data-quality audit with JSON + Markdown reports** |
+| **`make audit-semantic-graph`** | **Unified data-quality audit with JSON + Markdown reports (includes concept-grounding checks)** |
 
 The unified audit **calls** the metadata-quality audit and adds broader checks. It does not replace the hard validation gate.
 
@@ -78,6 +78,12 @@ Some checks are intentionally conservative and were refined to reduce false posi
 
 Bulk splitting of composite thinkers is supported by `tools/split_multi_person_thinkers.py` (`--apply`, then `--sync-source-names`).
 
+To auto-apply concept-grounding warnings::
+
+    python3 tools/apply_concept_grounding.py --repo . --apply
+
+Placeholder thinker summaries (`aggregated from N work(s)`) are flagged as **info** under thinker-metadata. Batch enrichment lives in `tools/enrich_thinker_stubs.py`.
+
 ## What is checked
 
 - **Source metadata** — years (including page-range misparsing), truncated titles, citation leaks, type mismatches
@@ -88,6 +94,7 @@ Bulk splitting of composite thinkers is supported by `tools/split_multi_person_t
 - **Relationships** — dangling refs, duplicates, unsupported labels, vocabulary inventory
 - **Slug quality** — diacritic damage, collisions, filename mismatches
 - **Manifest consistency** — stale portfolio-audit snapshots vs `build/`
+- **Concept grounding** — sources or thinkers that should link a concept because a linked work's title/heuristic matches (e.g. Agile Manifesto → `agile`); uses conservative `TITLE_HEURISTICS` from the thinker-concept audit, not broad text matching
 
 ## Adding new checks
 

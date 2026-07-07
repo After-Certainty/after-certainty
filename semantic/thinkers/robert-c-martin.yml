@@ -3,7 +3,8 @@ name: Robert C Martin
 type: person
 summary: Software craftsman and author on clean code, SOLID principles, and professional
   responsibility in engineering.
-concepts: []
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling

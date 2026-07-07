@@ -1,12 +1,13 @@
 slug: neil-perry
 name: Neil Perry
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Computer science researcher studying security risks when developers use AI
+  coding assistants.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 works:
 - perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Perry asks whether speed tools quietly lower the security bar—assistance
+  that ships vulnerabilities faster than review can catch.

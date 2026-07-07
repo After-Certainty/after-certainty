@@ -1,12 +1,14 @@
 slug: arie-van-bennekum
 name: Arie van Bennekum
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
-concepts: []
+summary: Agile transformation consultant and Integrated Agile representative among
+  the manifesto authors.
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling
 works:
 - beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Van Bennekum anchors European agile adoption—integration across roles
+  when delivery spans vendors and internal teams.

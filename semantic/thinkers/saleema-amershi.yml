@@ -1,12 +1,13 @@
 slug: saleema-amershi
 name: Saleema Amershi
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: HCI researcher and co-author of guidelines for human-AI interaction in product
+  design and responsible machine learning.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 works:
 - amershi-saleema-et-al-guidelines-for-human-ai-interaction
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Amershi translates model capability into interaction design—when AI
+  enters workflows, correction needs interface-level seriousness.

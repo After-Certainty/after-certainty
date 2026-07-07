@@ -3,7 +3,11 @@ name: Michael Uhl-Bien
 type: person
 summary: Leadership scholars of followership theory and how followers shape organizational
   authority.
-concepts: []
+concepts:
+- correction
+- guest-leadership
+- legitimacy
+- normalization
 patterns: []
 relatedBooks:
 - when-others-look-to-you-v1

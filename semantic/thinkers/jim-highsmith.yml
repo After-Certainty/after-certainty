@@ -1,12 +1,14 @@
 slug: jim-highsmith
 name: Jim Highsmith
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
-concepts: []
+summary: Consultant and author on adaptive software development and agile leadership
+  in turbulent, requirements-rich environments.
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling
 works:
 - beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Highsmith argues for steering under uncertainty—plans that adapt when
+  the environment refuses to hold still.

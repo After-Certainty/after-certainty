@@ -4,6 +4,7 @@ type: book
 summary: 'Weick, Karl E. *Sensemaking in Organizations*. Foundations for Organizational
   Science. Thousand Oaks, CA: Sage, 1995.'
 concepts:
+- coherence-maintenance
 - coordination
 - interpretation
 - meaning

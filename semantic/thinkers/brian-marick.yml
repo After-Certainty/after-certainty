@@ -1,12 +1,14 @@
 slug: brian-marick
 name: Brian Marick
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
-concepts: []
+summary: Software tester and early Agile advocate, known for writing on testing craft,
+  the limits of automation, and honest assessment in XP teams.
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling
 works:
 - beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Marick keeps agile honest about evidence—testing as the discipline
+  that tells teams whether change actually worked.

@@ -1,12 +1,14 @@
 slug: andrew-hunt
 name: Andrew Hunt
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
-concepts: []
+summary: Software author and Pragmatic Programmer co-author, writing on craft, continuous
+  learning, and the habits of effective developers.
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling
 works:
 - beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Hunt treats expertise as maintenance—skills that decay when teams stop
+  refactoring how they work, not only how they code.

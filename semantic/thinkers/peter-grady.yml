@@ -1,12 +1,13 @@
 slug: peter-grady
 name: Peter Grady
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Journalist and author on the Boeing 737 MAX disasters and institutional failure
+  in aviation safety culture.
 concepts: []
 patterns: []
 relatedBooks:
 - when-trust-stops-tracking-reality
 works:
 - grady-peter-flying-blind-the-737-max-tragedy-and-the-fall-of-boeing
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Grady traces how metrics and incentives displaced engineering judgment—correction
+  loops silenced until catastrophe forced attention.

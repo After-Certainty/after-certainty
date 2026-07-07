@@ -1,12 +1,13 @@
 slug: elena-spitzer
 name: Elena Spitzer
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Researcher contributing to model cards and transparent reporting for machine
+  learning systems.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 works:
 - mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Spitzer makes model behavior legible to non-authors—when metadata
+  travels with the artifact, trust can be negotiated.

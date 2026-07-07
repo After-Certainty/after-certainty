@@ -1,12 +1,14 @@
 slug: dave-thomas
 name: Dave Thomas
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
-concepts: []
+summary: Programmer, educator, and Pragmatic Programmer co-author known for advocacy
+  of craftsmanship, automation, and developer autonomy.
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling
 works:
 - beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Thomas links individual craft to team survivability—tools and habits
+  that keep correction cheap as systems grow.

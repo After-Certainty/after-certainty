@@ -1,12 +1,13 @@
 slug: lucy-vasserman
 name: Lucy Vasserman
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Software engineer and researcher on model documentation and responsible machine
+  learning reporting.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 works:
 - mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Vasserman bridges engineering practice and accountability—reporting
+  formats that teams can actually maintain.

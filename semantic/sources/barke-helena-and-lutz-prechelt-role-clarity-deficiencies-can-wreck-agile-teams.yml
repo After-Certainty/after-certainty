@@ -3,7 +3,8 @@ name: Helena Barke and Lutz Prechelt — Role Clarity Deficiencies Can Wreck Agi
 type: article
 summary: 'Barke, Helena, and Lutz Prechelt. "Role Clarity Deficiencies Can Wreck Agile
   Teams." *PeerJ Computer Science* 5 (2019): e241. https://doi.org/10.7717/peerj-cs.241.'
-concepts: []
+concepts:
+- agile
 patterns: []
 relatedBooks:
 - coupling

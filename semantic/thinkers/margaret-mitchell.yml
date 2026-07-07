@@ -1,12 +1,13 @@
 slug: margaret-mitchell
 name: Margaret Mitchell
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Machine learning researcher known for model cards, documentation transparency,
+  and fairness in NLP systems.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 works:
 - mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-sp
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Mitchell argues models need accountable packaging—documentation as
+  the interface where hidden harms become discussable.
