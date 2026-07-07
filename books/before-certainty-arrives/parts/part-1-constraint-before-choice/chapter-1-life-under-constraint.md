@@ -50,9 +50,9 @@ tomorrow.
 Certainty, in this sense, was what allowed people to act together
 without renegotiating reality each time.
 
-Anthropological evidence consistently shows that early moral formation
-emphasized role stability, norm enforcement, and coordinated behavior
-more than individual justification or deliberative ethics. Ritual,
+Evidence from many anthropological settings suggests that early moral
+formation emphasized role stability, norm enforcement, and coordinated
+behavior more than individual justification or deliberative ethics. Ritual,
 taboo, and authority functioned as social technologies for reducing
 uncertainty when material and existential risk was high.[^c1-early-moral-anthropology]
 
@@ -60,8 +60,8 @@ At Çatalhöyük, the same domestic patterns recurred across generations:
 houses rebuilt in place, burials beneath living floors, images renewed
 on plaster. Whatever meaning those practices carried—and they likely
 carried grief, belonging, and awe as well as constraint—they also
-narrowed choice. A household that knew where the dead lay and which
-thresholds were shared had less to negotiate when night came.
+narrowed choice. The repeated arrangement suggests a life in which fewer
+relationships and obligations had to be invented anew each night.
 
 In lean seasons, who drew water first and who guarded the stores
 overnight mattered more than why the rule existed. Obligation showed

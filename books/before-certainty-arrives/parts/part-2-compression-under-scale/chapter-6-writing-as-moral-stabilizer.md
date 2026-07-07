@@ -11,37 +11,41 @@ c. 800 BCE – 500 CE
 Mediterranean world, South Asia, East Asia
 *(Scripture, canon, law, bureaucracy across empires)*
 
-The Code of Hammurabi was carved into black diorite and placed in a
-public space so that any subject could read—or hear read—the same
-rules. The stone did not negotiate. It did not forget. It outlasted the
-king who ordered it cut.
+In the third century BCE, orders from the Mauryan emperor Ashoka were
+cut into rock faces and polished pillars across a vast empire. The same
+phrases appeared in different provinces: restraint toward living beings,
+obedience to parents and elders, respect for teachers, mercy in judgment,
+duties owed to neighbors and officials. A traveler who could not read
+might still hear the text read aloud; a provincial officer who would
+never see the emperor could still enforce what the stone declared.[^c6-ashoka-edicts]
 
-What had once been judgment in a room became judgment fixed in matter,
-visible to strangers who would never meet the authority it represented.[^c6-hammurabi-stele]
+The edicts made dharma visible as public obligation—not private insight
+alone, but conduct legible across distance. What had once depended on
+court presence and oral command could now be encountered on a roadside,
+at a frontier, in a market town. Writing did not end interpretation. It
+changed where interpretation happened and which readings could claim the
+authority of the inscribed word.
 
-People gathered in the stele's shade while a reader sounded out the
-cases. Some listened for principle. Most watched to learn whether the
-dispute they had brought would end today. When the code answered, both
-parties walked away knowing what would follow—not necessarily satisfied,
-but less exposed to arbitrary force.
+The logic was not new. Centuries earlier, law codes such as Hammurabi's
+had fixed judgment in stone for crowds who would never meet the king who
+ordered them cut. What changed in Ashoka's empire was scale, repetition,
+and the reach of a moral vocabulary copied across regions that shared
+neither kinship nor shrine.
 
-Permanence became the answer when presence could no longer hold—and when
-even portable ethics could no longer travel on voice alone.
-
-Earlier forms of certainty relied on repetition, proximity, and shared
+Earlier forms of certainty had relied on repetition, proximity, and shared
 memory. But as populations expanded and authority stretched across
 distance, these mechanisms weakened. Oral traditions fractured. Local
 enforcement varied. Meaning drifted as it traveled.
 
 The response was storage as much as compression: writing, law, and canon
-designed to hold meaning steady when people could no longer remain
+designed to preserve coordination when people could no longer remain
 present to one another.
 
 ### **Stone, Scroll, Archive**
 
 Material form shaped moral reach.
 
-Stone codes announced law to crowds who would never see the ruler.
+Stone announced law and duty to crowds who would never see the ruler.
 Scrolls carried commandments across trade routes and military camps.
 Imperial archives accumulated births, taxes, judgments, and obligations,
 making abstract categories enforceable across generations.
@@ -51,53 +55,56 @@ enforcement did not depend entirely on the emperor's presence in every
 district. With each copy, certainty traveled farther from the body that
 first required it.
 
-What is written does not rely on memory, presence, or interpretation in
-the same way speech does. It persists across time and distance. It
-allows norms to outlive those who first articulated them.
+What is written persists across time and distance. It allows norms to
+outlive those who first articulated them. It can also stabilize the
+words considered authoritative while multiplying disputes over what those
+words mean—because absent readers encounter the same text in new places,
+under new pressures, with no speaker present to narrow the sense.
 
-Written commandments, narratives, and codes narrowed variance. They
-limited reinterpretation. They made expectations recognizable to people
-who had never met one another—and to future generations who would never
-meet their authors.
+Written commandments, narratives, and codes made expectations
+recognizable to people who had never met one another—and to future
+generations who would never meet their authors.
 
 Writing did not invent certainty.
 
-It preserved it.
-
-The Hammurabi stele returned the chapter's opening question in a harder
-form: if law could outlive the king, what happened when the world that
-produced the law had changed but the stone had not?
+It preserved and transported it.
 
 ### **Law and the Compression of Judgment**
 
-At a city gate, a clerk read the case aloud while farmers and merchants
-waited in the heat. No one in the crowd needed a theory of justice to
-know what mattered: whether the ruling would still hold tomorrow, and
-whether the same words would be read if the dispute returned.
+Public legal texts formalized a recurring expectation: that the same
+categories would be applied again.
 
-Legal codes formalized that expectation.
-
-They translated diffuse norms into enforceable categories: permitted,
+They translated diffuse norms into enforceable forms: permitted,
 forbidden, punishable. Law reduced ambiguity not by resolving moral
-disagreement, but by declaring which interpretations would count.
+disagreement, but by declaring which interpretations would count when
+officials acted.
 
 Law narrowed discretion so coordination could persist without constant
-renegotiation. Authority could now act more consistently across cases,
+renegotiation. Authority could act more consistently across cases,
 locations, and officials—predictable at the cost of flexibility, as
 judgment gradually gave way to category and discernment to procedure.
 
-### **Canon and the Freezing of Meaning**
+Ashoka's inscriptions worked similarly at the level of moral conduct:
+they named obligations that could be cited, copied, and cited again.
+The stone did not settle every dispute. It declared which standards
+public life would be asked to recognize.
 
-In monastic scriptoria, copyists reproduced texts with painstaking
-uniformity. A gospel copied differently in one abbey could fracture
-doctrine in the next province.
+### **Canon and Inherited Authority**
 
-Canon formation answered a real problem: how to prevent endless
-fragmentation once writing multiplied voices.[^c6-monastic-copying]
+Once writing multiplied voices, communities faced a different problem:
+how to prevent endless fragmentation without returning entirely to oral
+authority.
+
+At Qumran and in related Jewish communities of the late Second Temple
+period, scribes copied and preserved texts with painstaking care—Torah,
+prophets, hymns, rules for community life—treating certain writings as
+authoritative in ways everyday speech could not replicate.[^c6-qumran-canon]
+Canon formation, wherever it occurred, answered a real problem: which
+words would be treated as binding across generations.
 
 By declaring certain texts authoritative and others excluded, moral
 systems drew firmer boundaries around meaning. Canon stabilized
-identity, doctrine, and interpretation across generations.
+identity, doctrine, and interpretation across distance.
 
 But canon also slowed revision.
 
@@ -163,6 +170,6 @@ The archives still stood.
 
 The roads between them did not.
 
-[^c6-hammurabi-stele]: See Martha T. Roth, ed., *Law Collections from Mesopotamia and Asia Minor*, 2nd ed. (Atlanta: Scholars Press, 1997).
-[^c6-monastic-copying]: See Fernand Braudel, *The Structures of Everyday Life*, vol. 1 of *Civilization and Capitalism, 15th–18th Century*, trans. Siân Reynolds (New York: Harper & Row, 1981).
+[^c6-ashoka-edicts]: See Romila Thapar, *Asoka and the Decline of the Mauryas*, 2nd ed. (Delhi: Oxford University Press, 1998); Richard Salomon, *Indian Epigraphy: A Guide to the Study of Inscriptions in Sanskrit, Prakrit, and the Other Indo-Aryan Languages* (New York: Oxford University Press, 1998).
+[^c6-qumran-canon]: See Bruce M. Metzger, *The Canon of the New Testament: Its Origin, Development, and Significance* (Oxford: Clarendon Press, 1987).
 [^c6-tools-outliving]: See Ivan Illich, *Tools for Conviviality* (New York: Harper & Row, 1973); Thomas S. Kuhn, *The Structure of Scientific Revolutions* (Chicago: University of Chicago Press, 1962).

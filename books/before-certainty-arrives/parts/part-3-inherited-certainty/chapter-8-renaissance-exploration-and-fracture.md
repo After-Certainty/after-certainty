@@ -25,10 +25,11 @@ Certainty was no longer wrong so much as no longer alone.
 
 In 1550 and 1551, at Valladolid in Spain, Bartolomé de las Casas and
 Juan Ginés de Sepúlveda argued before a panel of theologians and
-jurists whether the indigenous peoples of the Americas were fully human
-in the sense Christian natural law required, whether conquest and
-enslavement could be justified, and which inherited categories still
-applied across an ocean Sepúlveda had never crossed.[^c8-valladolid-debate]
+jurists over whether Spanish conquest in the Americas could be justified,
+whether Indigenous peoples could be ruled as natural slaves under inherited
+Aristotelian categories, what duties Christian natural law imposed on
+conquerors, and how conversion, sovereignty, and imperial authority should
+be understood across an ocean Sepúlveda had never crossed.[^c8-valladolid-debate]
 
 The debate did not end violence. It did not produce a clean triumph of
 conscience over empire. It made visible something more unsettling:
@@ -53,32 +54,25 @@ It appeared in invitations withheld from weddings, suspicion at market
 scales, and uncertainty about which funeral rites a household could
 still expect the parish to perform.
 
-### **The Diversification of Moral Imagination**
+### **Inherited Categories Under Pressure**
 
 Scientific inquiry, artistic experimentation, and philosophical revival
 expanded the range of what could be imagined, questioned, and said.
 
 New knowledge was often absorbed into inherited frameworks and explained
-as deeper insight into divine order or natural law. Copernican astronomy,
-anatomical study, and humanist philosophy were frequently experienced as
-refinement before they were experienced as rupture.
-
-In Padua and Leiden, students gathered in anatomical theaters to watch
-flesh opened beneath lantern light—knowledge acquired through the body
-even while doctrine insisted the soul's deepest truths lay elsewhere.
-
-Observation widened before allegiance could fully absorb it.
+as deeper insight into divine order or natural law. Copernican astronomy
+and humanist philosophy were frequently experienced as refinement before
+they were experienced as rupture.
 
 Multiple ways of understanding the world began to coexist—not
 sequentially, but simultaneously. Moral imagination widened faster than
-coordination could follow. Competing explanations addressed different
-parts of reality using standards that did not fully reconcile.
+coordination could follow.
 
 At Valladolid, both sides appealed to scripture, Aristotle, and law.
-Both assumed a moral universe in which some peoples could be ruled by
-others. The fracture was not between morality and immorality in modern
-terms, but between inherited categories under pressure they had not been
-built to bear.
+Both operated inside inherited moral languages that assumed empire,
+hierarchy, and the legitimacy of Spanish rule. The fracture was not
+between morality and immorality in modern terms, but between categories
+under pressure they had not been built to bear.
 
 ### **Fragmentation of Authority**
 
@@ -89,9 +83,9 @@ and courts.
 
 No single institution could fully govern meaning across the whole.
 
-Certainty did not disappear so much as relocate. Traditions retained
-internal coherence even as uncontested universal authority became harder
-to sustain.
+Certainty relocated rather than vanished. Traditions retained internal
+coherence even as uncontested universal authority became harder to
+sustain.
 
 ### **Competing Moral Systems**
 

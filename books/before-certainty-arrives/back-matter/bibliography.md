@@ -15,15 +15,14 @@
 - Braudel, Fernand. *On History*. Translated by Sarah Matthews. Chicago:
   University of Chicago Press, 1980.
 
-- Braudel, Fernand. *The Structures of Everyday Life*. Vol. 1 of
-  *Civilization and Capitalism, 15th–18th Century*. Translated by Siân
-  Reynolds. New York: Harper & Row, 1981.
-
 - Carr, E. H. *What Is History?* New York: Vintage Books, 1961.
 
 - Cogan, Mordechai. *The Raging Torrent: Historical Inscriptions from
   Assyria and Babylonia Relating to Ancient Israel*. Jerusalem: Carta,
   2008.
+
+- Darby, H. C. *Domesday England*. Cambridge: Cambridge University Press,
+  1977.
 
 - Douglas, Mary. *Purity and Danger: An Analysis of Concepts of Pollution
   and Taboo*. London: Routledge, 1966.
@@ -70,13 +69,26 @@
 - Layard, Austen Henry. *Discoveries in the Ruins of Nineveh and Babylon*.
   London: John Murray, 1853.
 
+- Levenson, Jon D. *Sinai and Zion: An Entry into the Jewish Bible*.
+  Minneapolis: Winston Press, 1985.
+
+- Lewis, Mark Edward. *Sanctioned Violence in Early China*. Albany: State
+  University of New York Press, 1990.
+
+- Metzger, Bruce M. *The Canon of the New Testament: Its Origin,
+  Development, and Significance*. Oxford: Clarendon Press, 1987.
+
 - Nissen, Hans J., Peter Damerow, and Robert K. Englund. *Archaic
   Bookkeeping: Early Writing and Techniques of Economic Administration in
   the Ancient Near East*. Chicago: University of Chicago Press, 1993.
 
+- Oppenheim, A. Leo. *Ancient Mesopotamia: Portrait of a Dead
+  Civilization*. Revised by Erica Reiner. Chicago: University of Chicago
+  Press, 1977.
+
 - Pagden, Anthony. *The Fall of Natural Man: The American Indian and the
-  Origins of Comparative Ethnology*. Cambridge: Cambridge University Press,
-  1982.
+  Origins of Comparative Ethnology*. Cambridge: Cambridge University
+  Press, 1982.
 
 - Polanyi, Karl. *The Great Transformation: The Political and Economic
   Origins of Our Time*. 1944. Reprint, Boston: Beacon Press, 2001.
@@ -84,17 +96,24 @@
 - Potts, D. T. *Mesopotamian Civilization: The Material Foundations*.
   London: Athlone Press, 1997.
 
-- Roth, Martha T., ed. *Law Collections from Mesopotamia and Asia Minor*.
-  2nd ed. Atlanta: Scholars Press, 1997.
+- Puett, Michael J. *To Become a God: Cosmology, Sacrifice, and
+  Self-Divinization in Early China*. Cambridge, MA: Harvard University
+  Press, 2002.
+
+- Salomon, Richard. *Indian Epigraphy: A Guide to the Study of Inscriptions
+  in Sanskrit, Prakrit, and the Other Indo-Aryan Languages*. New York:
+  Oxford University Press, 1998.
 
 - Schivelbusch, Wolfgang. *The Railway Journey: The Industrialization of
   Time and Space in the Nineteenth Century*. Berkeley: University of
   California Press, 1986.
 
-- Shaughnessy, Edward L., trans. *Confucius: The Analects*. New York:
-  Ballantine Books, 1998.
-
 - *Statutes of the Realm*. Vol. 1. London: Record Commission, 1810.
+
+- Strachan, Hew. *The First World War*. New York: Viking, 2004.
+
+- Thapar, Romila. *Asoka and the Decline of the Mauryas*. 2nd ed. Delhi:
+  Oxford University Press, 1998.
 
 - Ussishkin, David. *The Renewed Archaeological Excavations at Lachish
   (1973–1994)*. Tel Aviv: Tel Aviv University, 2004.

@@ -12,53 +12,53 @@ interdependence
 ### **A Threshold, Not a Break**
 
 By the late twentieth century, the tools of certainty still largely
-functioned. Institutions continued to govern. Law, markets, and
+functioned on paper. Institutions continued to govern. Law, markets, and
 administrative systems still coordinated life at scale even as something
 in the fit began to loosen.
 
-Nothing had failed yet.
+The threshold is not always the moment when a system stops. It is often
+the moment when procedures still signal readiness while the gap between
+the map and the ground widens.
 
-In the days after Hurricane Katrina made landfall on August 29, 2005,
-FEMA situation reports and interagency conference calls continued. Status
-lines were updated. Organizational charts still named who was responsible
-for what. Press briefings were scheduled. Forms still moved through
-channels designed for emergencies that arrived on paper before they
-arrived in bodies.[^c10-katrina-response]
+On August 28, 2005, as Hurricane Katrina approached the Gulf Coast, federal
+and state agencies issued situation reports, scheduled conference calls,
+and updated organizational charts that still named who was responsible for
+what. Evacuation plans existed on file. Transport assumptions were
+entered into logs. Requests moved upward through jurisdictions that
+overlapped but had not yet failed in form.[^c10-katrina-response]
 
-Meanwhile in New Orleans and along the Gulf Coast, people waited on
-roofs, in shelters, and in lines for buses that did not come on the
-schedule the charts implied. Local officials could see levees failing and
-water rising. That knowledge did not always translate into the same
-urgency upstream. The machinery was active. The fit had already thinned.
+Warnings had arrived from the field: levee vulnerability, shelter
+capacity, the need for buses, the fragility of systems built to handle
+smaller storms. That knowledge traveled through channels designed for
+emergencies. It did not always travel with the urgency the ground
+required.
+
+The machinery was active. The fit had already thinned.
+
+When Katrina made landfall on August 29, the contrast became visible in
+bodies rather than charts. People waited on roofs, in shelters, and in
+lines for buses that did not come on the schedule the plans implied.
+Local officials could see water rising. Upstream, status lines were still
+updated, press briefings still scheduled, forms still routed through
+channels built to show control.
 
 This is not a story of simple negligence. It is a story of distributed
 judgment under strain: jurisdictions overlapping, procedures continuing,
 expertise still carrying formal authority, while explanation,
 responsibility, and lived consequence no longer aligned cleanly.
 
-In airports and filing queues elsewhere that week, the machinery still
-turned on schedule: forms cleared, gates called, obligations met.
-
-Compliance felt like relief and dependency at once—structure holding
-lives together even as identification faded. A traveler who cleared
-customs without incident might feel nothing so grand as belief: only the
-quiet satisfaction of being recognized by a system that did not require
-intimacy to function.
-
-Overnight briefings and morning headlines multiplied faster than
-consequences could be fully absorbed. Each closed account opened others.
-Saturation arrived as noise, not yet as rupture.
-
-Elsewhere the week continued in the usual way: payroll deposits
-clearing, children delivered to school, prescriptions refilled because
-the system still recognized a name.
+Elsewhere that week, airports and filing queues still turned on schedule:
+forms cleared, gates called, obligations met. Payroll deposits cleared.
+Children were delivered to school. Prescriptions were refilled because
+systems still recognized a name.
 
 Nothing in those routines required conviction.
 
 They required only that the machinery keep its appointments.
 
 And yet something no longer held in quite the same way—not a collapse of
-belief, but a growing tension between necessity and fit.
+belief everywhere at once, but a growing tension between necessity and
+fit.
 
 ### **Why Certainty Still Feels Necessary**
 
@@ -72,19 +72,13 @@ depend on the systems they question.
 
 To opt out was to lose wages, medicine, transit, and legal standing in
 the same motion. Dependency made certainty feel less like belief than
-like air. Renewals cleared automatically. Payroll continued.
-Credentials expired if forms were not filed on time.
+like air.
 
-At a benefits office, a clerk might call the next number while an
-applicant rehearsed answers no one had asked for yet. The room smelled
-of copier toner and rain on coats.
-
-Nothing in that scene required conviction.
-
-Only that the line keep moving.
-
-People still depended on that movement. Certainty here resembled a
-schedule that had not yet broken.
+At a benefits office far from the Gulf Coast, a clerk might call the next
+number while an applicant rehearsed answers no one had asked for yet.
+The room smelled of copier toner and rain on coats. The line kept moving
+because local procedure still held—even while televised images showed a
+different map failing elsewhere.
 
 ### **Explanation and Managed Doubt**
 
@@ -93,33 +87,24 @@ investigated, reports issued, causes identified.
 
 Yet in hearing rooms far from the harm, investigators spread binders
 across tables and traced causation on charts while downstream people
-still waited in lines for forms to clear.
-
-In offices that never fully closed, staff rotated from one crisis into
-the next—institutional exhaustion without open collapse. Meetings ended
-with conclusions everyone recorded and fewer fully believed.
-
-Down the hall, someone still waited for a callback that would determine
-whether a prescription renewed or a lease continued.
-
-The delay was not dramatic.
-
-It was administrative—and therefore ordinary enough to endure.
-
-The phone did not ring. The form on the counter stayed in the same
-place. No one came out to explain why.
-
-Investigators could trace causation on charts in rooms far from that
-wait.
-
-Downstream, the week still depended on whether a stamp arrived on time.
-
-The House Select Bipartisan Committee later titled its report *A Failure
-of Initiative*—not because no one was working, but because initiative
-had been dispersed across procedures that continued even when the map no
+still waited in lines for forms to clear. In Katrina's aftermath, the
+House Select Bipartisan Committee would later title its report *A Failure
+of Initiative*—not because no one was working, but because initiative had
+been dispersed across procedures that continued even when the map no
 longer matched the ground.
 
-### **Visible Strain Without Open Failure**
+Situation reports had crossed desks before landfall. Conference calls had
+been held. Transport plans had existed on paper. The gap was not the
+absence of paperwork. It was the misalignment between what paperwork
+claimed and what people experienced.
+
+Down the hall from any hearing room, someone still waited for a callback
+that would determine whether a prescription renewed or a lease continued.
+The phone did not ring. The form on the counter stayed in the same place.
+
+The delay was administrative—and therefore ordinary enough to endure.
+
+### **Visible Strain Without Open Collapse**
 
 Postwar planning offices, actuarial tables, and technocratic committees
 had promised that complexity could be managed through expertise. The
@@ -128,16 +113,13 @@ response even after the conditions being managed had outgrown the
 offices that first made centralized certainty feel indispensable.
 
 In one such office, binders stacked on binders while a junior analyst
-updated a chart no elected official would ever read in full.
-
-The work was serious.
-
-It was also distant from the queue downstairs where a name still had not
-cleared.
+updated a chart no elected official would ever read in full. The work was
+serious. It was also distant from the queue downstairs—and from the
+shelters where names still had not cleared transport lists.
 
 Institutions had become overextended. Moral credibility eroded faster
-than authority itself—not collapse, but saturation; not dysfunction, but
-thinning fit.
+than authority itself—not collapse everywhere at once, but saturation;
+not universal dysfunction, but thinning fit.
 
 Outside, the week still ran on appointments: a child late for school
 because a bus pass had to be revalidated, a neighbor signing a form in

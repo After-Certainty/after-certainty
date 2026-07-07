@@ -11,18 +11,17 @@ c. 1200–600 BCE
 Eastern Mediterranean, Near East, South Asia, East Asia
 
 In 701 BCE, Assyrian soldiers raised siege ramps against the walls of
-Lachish in Judah while sculptors in Nineveh prepared to record what had
-happened. The king who ordered the assault would never stand where the
-defenders stood. He would see the city rendered in stone: archers on
-ramparts, captives led away, tribute counted in rows. The relief made
-visible what distance otherwise hid—that decision and consequence no
-longer met in the same place.[^c4-lachish-siege]
+Lachish in Judah. The king who ordered the assault would never stand where
+the defenders stood. He would later see the city rendered in stone at
+Nineveh: archers on ramparts, captives led away, tribute counted in rows.
+The relief made visible what distance otherwise hid—that decision and
+consequence no longer met in the same place.[^c4-lachish-siege]
 
 A subject in a provincial town might learn of imperial will only when
 soldiers arrived or when a monument proclaimed it years later. Orders
 traveled on clay and courier; consequences arrived in bodies, emptied
-granaries, and families translated into lists. This was not corruption
-by modern standards. It was scale.
+granaries, and families translated into lists. The distance was not an
+administrative accident. It was one of empire's achievements.
 
 Authority had learned to operate where presence could not follow.
 
@@ -58,10 +57,10 @@ delay as weakness.
 At Lachish, defenders waited on walls while grain was ground below and
 messengers carried orders the city could not refuse. The Assyrian annals
 counted the siege as victory; the relief turned that count into permanent
-image. Families rationed by the day. A smith who had argued with a local
-official yesterday still forged nails for the gate today. Quarrels did
-not disappear; they were postponed because the wall mattered more than
-the grievance.
+image. A person in such a city might have rationed food while quarrels
+were postponed because the wall mattered more than the grievance. We
+cannot recover individual scenes from the record; the pattern is what
+survives.
 
 War made obedience immediate because delay meant hunger inside the
 walls—not merely defeat in theory.

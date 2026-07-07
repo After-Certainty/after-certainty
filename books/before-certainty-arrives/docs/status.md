@@ -2,43 +2,21 @@
 
 ## Current phase
 
-**Historical grounding revision** — integrated chapter anchors, expanded bibliography
+**Phase 6 — precision and pruning pass** (historical integrity, source alignment, rhythm)
 
-Branch: `cursor/historical-grounding-revision-3147`
-
-## Manuscript hub
-
-[`index.md`](../index.md)
+Branch: `cursor/historical-grounding-revision-3147` · PR #268
 
 ## Word target
 
-~11.5k words in intro + 10 chapters + conclusion (~17k full manuscript per build manifest)
+~11.8k words in intro + 10 chapters + conclusion (essay edition)
 
-## Unit progress
+## Phase 6 changes
 
-| Unit | Phase | Notes |
-|------|-------|-------|
-| Introduction | revised | Clay tablet opening; historical method |
-| Ch 1 — Life Under Constraint | revised | Çatalhöyük anchor |
-| Ch 2 — Order Before Truth | revised | Uruk tablets; Hammurabi removed |
-| Ch 3 — From Power to Moral Legitimacy | revised | Oracle bones + Mandate of Heaven |
-| Ch 4 — Population Growth and Social Density | revised | Lachish; Roman governor removed |
-| Ch 5 — Shared Conditions, Not Shared Revelation | revised | Babylonian exile + Warring States |
-| Ch 6 — Writing as Moral Stabilizer | revised | Hammurabi stele (sole home) |
-| Ch 7 — Medieval Re-Adaptation | revised | Statute of Labourers 1351 |
-| Ch 8 — Renaissance, Exploration, and Fracture | revised | Valladolid Debate + printing |
-| Ch 9 — Industrial Scale and Institutional Certainty | revised | Railway standard time |
-| Ch 10 — The Moment Before Failure | revised | Hurricane Katrina FEMA response |
-| Conclusion | revised | Tuesday references removed |
-| Bibliography | revised | Anchor-specific scholarship added |
+- Ch 6: Ashoka edicts primary anchor (chronology fix)
+- Ch 5: Deepened Babylonian exile; Warring States contrast
+- Ch 7: Domesday Book + Statute of Labourers; repeated re-adaptation frame
+- Ch 8: Valladolid terminology corrected
+- Ch 10: Katrina reframed as pre-landfall threshold
+- Conclusion trimmed; bibliography completed
 
-## Validation
-
-- [x] Footnote integrity (missing/unused: none)
-- [x] `make validate-book-specs`
-- [x] `make build-book DIR=books/before-certainty-arrives`
-- [ ] Author read-through gate
-
-## Anchor summary
-
-See [`grounding-pass-checklist.md`](grounding-pass-checklist.md).
+See [`phase6-historical-plan.md`](phase6-historical-plan.md) and [`grounding-pass-checklist.md`](grounding-pass-checklist.md).

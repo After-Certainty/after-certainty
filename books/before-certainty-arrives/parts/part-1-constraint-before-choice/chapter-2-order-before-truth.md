@@ -79,18 +79,12 @@ the part that made the rest survivable.
 
 ### **Moral Compression as Coordination Technology**
 
-On irrigation day, water moved along channels everyone knew by habit.
-Women carried jars to the upper terraces while elders watched the level
-in the main channel. A breach in an embankment could starve three
-households before anyone finished arguing principle.
-
-In one village after a poor harvest, the dispute was not over theology.
-It was over who would draw first when the sluice opened.
-
-The elder who decided had no special wisdom about justice. He had the
-authority to stop the quarrel before it spread to neighboring fields.
-People accepted the ruling because the season would not wait, not
-because they had resolved the deeper question of fairness.
+When irrigation mattered, water had to move along channels everyone
+recognized before argument could finish. A breach in an embankment could
+starve neighboring fields in the time it took to dispute principle. Under
+that pressure, whoever held recognized authority to open a sluice or settle
+a count could stop a quarrel from spreading faster than the season would
+wait.
 
 Only later, after scale had already narrowed acceptable behaviors,
 interpretations, and identities—and after deviation had grown costly—did
@@ -112,7 +106,7 @@ inevitable.
 
 A clerk storing tablets in a temple archive knew that next season's
 dispute might turn on what had been impressed while the clay was still
-soft. The record did not argue. It waited.
+soft. The record outlasted the quarrel.
 
 Taken together, these tools compressed moral space, reduced uncertainty,
 and made large societies governable in ways kinship alone never could.

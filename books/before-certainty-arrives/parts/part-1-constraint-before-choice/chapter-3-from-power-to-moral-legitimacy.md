@@ -115,9 +115,11 @@ enough that shared ritual felt less like ornament than survival.
 The queue moved slowly: marked jars checked against ledger marks,
 children held close, priests calling names in an order everyone knew.
 
-A widow who received her portion on time might feel something closer to
-grace than to accounting—relief mixed with belonging, fear of shortage
-mixed with reverence for the place that still fed her.
+We cannot know what a particular recipient thought while waiting. The
+surviving records emphasize measurement, timing, and recorded obligation
+rather than interior feeling. Whatever participants believed about the
+distribution, the practice made visible who ate when and who had been
+counted.
 
 Ritual obligation made visible what abstract law alone could not:
 belonging, purity, memory, and the cost of deviation.
@@ -199,5 +201,5 @@ Iron would test whether morality could travel farther than the hand that
 enforced it.
 
 [^c3-oracle-bones]: See David N. Keightley, *Sources of Shang History: The Oracle-Bone Inscriptions of Bronze Age China* (Berkeley: University of California Press, 1978).
-[^c3-temple-economy]: See Mary Douglas, *Purity and Danger* (London: Routledge, 1966); Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978).
+[^c3-temple-economy]: See A. Leo Oppenheim, *Ancient Mesopotamia: Portrait of a Dead Civilization*, rev. ed. (Chicago: University of Chicago Press, 1977); Mary Douglas, *Purity and Danger* (London: Routledge, 1966).
 [^c3-mandate-heaven]: See Robert Eno, *The Mandate of Heaven and the Origins of History in China* (Berkeley, CA: Society for the Study of Early China, 1989).

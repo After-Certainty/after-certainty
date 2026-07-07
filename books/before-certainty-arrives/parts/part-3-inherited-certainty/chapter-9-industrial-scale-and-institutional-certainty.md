@@ -12,10 +12,10 @@ empire, trade, and modernization
 On November 18, 1883, North American railroads adopted a system of
 standard time zones so that departure boards, telegraph schedules, and
 freight contracts could refer to the same hour across hundreds of miles
-of track. Before that day, local noon still differed town by town. A
-traveler who missed a connection in Chicago because Cleveland's clock
-ran seven minutes ahead had learned what abstraction felt like in the
-body: not argument about time, but a train gone.[^c9-railway-time]
+of track. Before that day, local noon still differed town by town. A traveler who
+missed a connection because one town's clock ran ahead of another had
+learned what abstraction felt like in the body: not argument about time,
+but a train gone.[^c9-railway-time]
 
 The factory bell did not ask whether the shift was fair. It marked time
 in uniform intervals so thousands of workers could coordinate without
@@ -146,13 +146,9 @@ failure: fluorescent lights still humming at closing time, ticket
 numbers still called, machinery still running while meaning quietly
 thinned.
 
-The system had not failed.
-
-But its costs were no longer invisible.
-
 A century after the railroads synchronized the clock, the same logic
 had spread into offices, schools, armies, and markets: conduct held by
 schedule and file rather than by presence or sacred awe.
 
 [^c9-railway-time]: See Ian R. Bartky, "The Adoption of Standard Time," *Technology and Culture* 30, no. 1 (1989): 25–56; Wolfgang Schivelbusch, *The Railway Journey: The Industrialization of Time and Space in the Nineteenth Century* (Berkeley: University of California Press, 1986).
-[^c9-factory-time]: See Max Weber, *Economy and Society* (Berkeley: University of California Press, 1978); Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001).
+[^c9-factory-time]: See Hew Strachan, *The First World War* (New York: Viking, 2004); Karl Polanyi, *The Great Transformation* (Boston: Beacon Press, 2001).
