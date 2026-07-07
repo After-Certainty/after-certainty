@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T04:08:40.289816+00:00",
+  "generatedAt": "2026-07-07T04:12:23.329359+00:00",
   "repoContext": {
     "detectedRepoType": "source",
     "inputFiles": [
@@ -9,29 +9,18 @@
   },
   "summary": {
     "errors": 0,
-    "warnings": 48,
+    "warnings": 0,
     "info": 317,
     "entitiesScanned": {
       "books": 28,
       "concepts": 137,
       "patterns": 30,
-      "thinkers": 339,
+      "thinkers": 340,
       "sources": 408,
-      "relationships": 110
+      "relationships": 109
     }
   },
   "issues": [
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of",
-      "entityTitle": "yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of",
-      "field": "missing_name_separator",
-      "currentValue": null,
-      "reason": "name lacks Author \u2014 Title separator and title is missing or equals name: 'Yellen, Janet L. Speeches on inflation, labor markets, and financial stability, Board of Governors of the Federal Reserve System and U.S. Department of the Treasury, 2021\u20132024'",
-      "suggestedFix": null
-    },
     {
       "severity": "info",
       "category": "thinker-metadata",
@@ -306,413 +295,6 @@
       "currentValue": null,
       "reason": "summary or whyThisMatters still has auto-generated placeholder text",
       "suggestedFix": null
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power",
-      "entityTitle": "Why Nations Fail: The Origins of Power,",
-      "field": "title",
-      "currentValue": "Why Nations Fail: The Origins of Power,",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power",
-      "entityTitle": "Why Nations Fail: The Origins of Power,",
-      "field": "name",
-      "currentValue": "Acemoglu, Daron, and James A. Robinson \u2014 Why Nations Fail: The Origins of Power,",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language",
-      "entityTitle": "A Pattern Language:",
-      "field": "title",
-      "currentValue": "A Pattern Language:",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language",
-      "entityTitle": "A Pattern Language:",
-      "field": "name",
-      "currentValue": "Alexander, Christopher, Sara Ishikawa, Murray Silverstein, et al \u2014 A Pattern Language:",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "argyris-chris-and-donald-a-schon-organizational-learning-ii",
-      "entityTitle": "Organizational Learning II:",
-      "field": "title",
-      "currentValue": "Organizational Learning II:",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "argyris-chris-and-donald-a-schon-organizational-learning-ii",
-      "entityTitle": "Organizational Learning II:",
-      "field": "name",
-      "currentValue": "Argyris, Chris, and Donald A. Schon \u2014 Organizational Learning II:",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ",
-      "entityTitle": "Report on the Economic Well-Being of U.S. Households",
-      "field": "sourceKind",
-      "currentValue": "book",
-      "reason": "Institutional statistics or report classified like a book.",
-      "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "columbia-accident-investigation-board-report-of-the-columbia-accident-investigation-board",
-      "entityTitle": "Report of the Columbia Accident Investigation Board",
-      "field": "sourceKind",
-      "currentValue": "book",
-      "reason": "Institutional statistics or report classified like a book.",
-      "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "fahey-liam-and-robert-m-randall-eds-learning-from-the-future",
-      "entityTitle": "Learning from the Future:",
-      "field": "title",
-      "currentValue": "Learning from the Future:",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "fahey-liam-and-robert-m-randall-eds-learning-from-the-future",
-      "entityTitle": "Learning from the Future:",
-      "field": "name",
-      "currentValue": "Fahey, Liam, and Robert M. Randall, eds \u2014 Learning from the Future:",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "freeh-sporkin-sullivan-llc-report-of-the-special-investigative-counsel-regarding-the-actions-of",
-      "entityTitle": "Report of the Special Investigative Counsel Regarding the Actions of the Pennsylvania State University Related to the Child Sexual Abuse Committed by Gerald A. Sandusky",
-      "field": "sourceKind",
-      "currentValue": "book",
-      "reason": "Institutional statistics or report classified like a book.",
-      "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "henrich-joseph-the-secret-of-our-success-how-culture-is-driving-human-evolution",
-      "entityTitle": "The Secret of Our Success: How Culture Is Driving Human Evolution,",
-      "field": "title",
-      "currentValue": "The Secret of Our Success: How Culture Is Driving Human Evolution,",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "henrich-joseph-the-secret-of-our-success-how-culture-is-driving-human-evolution",
-      "entityTitle": "The Secret of Our Success: How Culture Is Driving Human Evolution,",
-      "field": "name",
-      "currentValue": "Joseph Henrich \u2014 The Secret of Our Success: How Culture Is Driving Human Evolution,",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "hirschman-albert-o-the-rhetoric-of-reaction-perversity-futility",
-      "entityTitle": "The Rhetoric of Reaction: Perversity, Futility,",
-      "field": "title",
-      "currentValue": "The Rhetoric of Reaction: Perversity, Futility,",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "hirschman-albert-o-the-rhetoric-of-reaction-perversity-futility",
-      "entityTitle": "The Rhetoric of Reaction: Perversity, Futility,",
-      "field": "name",
-      "currentValue": "Albert O Hirschman \u2014 The Rhetoric of Reaction: Perversity, Futility,",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "institute-of-medicine-to-err-is-human-building-a-safer-health",
-      "entityTitle": "To Err Is Human: Building a Safer Health",
-      "field": "sourceKind",
-      "currentValue": "book",
-      "reason": "Institutional statistics or report classified like a book.",
-      "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "maslach-christina-and-michael-p-leiter-the-truth-about-burnout",
-      "entityTitle": "The Truth About Burnout:",
-      "field": "title",
-      "currentValue": "The Truth About Burnout:",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "maslach-christina-and-michael-p-leiter-the-truth-about-burnout",
-      "entityTitle": "The Truth About Burnout:",
-      "field": "name",
-      "currentValue": "Maslach, Christina, and Michael P. Leiter \u2014 The Truth About Burnout:",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "national-institute-of-standards-and-technology-artificial-intelligence-risk-management-framework",
-      "entityTitle": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
-      "field": "sourceKind",
-      "currentValue": "book",
-      "reason": "Institutional statistics or report classified like a book.",
-      "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "national-institute-of-standards-and-technology-secure-software-development-framework-ssdf-versio",
-      "entityTitle": "Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities",
-      "field": "sourceKind",
-      "currentValue": "book",
-      "reason": "Institutional statistics or report classified like a book.",
-      "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "owasp-foundation-owasp-top-10-for-large-language-model-applications",
-      "entityTitle": "OWASP Top 10 for Large Language Model Applications",
-      "field": "sourceKind",
-      "currentValue": "book",
-      "reason": "Institutional statistics or report classified like a book.",
-      "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "president-s-commission-on-the-space-shuttle-challenger-accident-report-of-the-presidential-commi",
-      "entityTitle": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
-      "field": "sourceKind",
-      "currentValue": "book",
-      "reason": "Institutional statistics or report classified like a book.",
-      "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "ross-lee-the-intuitive-psychologist-and-his-shortcomings",
-      "entityTitle": "The Intuitive Psychologist and His Shortcomings:",
-      "field": "title",
-      "currentValue": "The Intuitive Psychologist and His Shortcomings:",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "ross-lee-the-intuitive-psychologist-and-his-shortcomings",
-      "entityTitle": "The Intuitive Psychologist and His Shortcomings:",
-      "field": "name",
-      "currentValue": "Lee Ross \u2014 The Intuitive Psychologist and His Shortcomings:",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "substance-abuse-and-mental-health-services-administration-samhsa-s",
-      "entityTitle": "SAMHSA's",
-      "field": "sourceKind",
-      "currentValue": "book",
-      "reason": "Institutional statistics or report classified like a book.",
-      "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me",
-      "entityTitle": "Mistakes Were Made (But Not by Me):",
-      "field": "title",
-      "currentValue": "Mistakes Were Made (But Not by Me):",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me",
-      "entityTitle": "Mistakes Were Made (But Not by Me):",
-      "field": "name",
-      "currentValue": "Tavris, Carol, and Elliot Aronson \u2014 Mistakes Were Made (But Not by Me):",
-      "reason": "Title or name ends with dangling punctuation.",
-      "suggestedFix": "Remove trailing comma, colon, or semicolon."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "the-church-of-jesus-christ-of-latter-day-saints-pearl-of-great-price",
-      "entityTitle": "Pearl of Great Price",
-      "field": "sourceKind",
-      "currentValue": "book",
-      "reason": "Institutional statistics or report classified like a book.",
-      "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "warning",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of",
-      "entityTitle": "Yellen, Janet L. Speeches on inflation, labor markets, and financial stability, Board of Governors of the Federal Reserve System and U.S. Department of the Treasury, 2021\u20132024",
-      "field": "sourceKind",
-      "currentValue": "book",
-      "reason": "Institutional statistics or report classified like a book.",
-      "suggestedFix": "Set sourceKind to report or institutional_document."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "bren-brown",
-      "entityTitle": "Bren\u00e9 Brown",
-      "field": "slug",
-      "currentValue": "bren-brown",
-      "reason": "Slug appears damaged by diacritic stripping.",
-      "suggestedFix": "Consider renaming slug to 'brene-brown' with a redirect strategy."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "carlos-escud",
-      "entityTitle": "Carlos Escud\u00e9",
-      "field": "slug",
-      "currentValue": "carlos-escud",
-      "reason": "Slug appears damaged by diacritic stripping.",
-      "suggestedFix": "Consider renaming slug to 'carlos-escude' with a redirect strategy."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "dietrich-d-rner",
-      "entityTitle": "Dietrich D\u00f6rner",
-      "field": "slug",
-      "currentValue": "dietrich-d-rner",
-      "reason": "Slug appears damaged by diacritic stripping.",
-      "suggestedFix": "Consider renaming slug to 'dietrich-dorner' with a redirect strategy."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "donald-a-sch-n",
-      "entityTitle": "Donald A Sch\u00f6n",
-      "field": "slug",
-      "currentValue": "donald-a-sch-n",
-      "reason": "Slug appears damaged by diacritic stripping.",
-      "suggestedFix": "Consider renaming slug to 'donald-a-schon' with a redirect strategy."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "frank-dik-tter",
-      "entityTitle": "Frank Dik\u00f6tter",
-      "field": "slug",
-      "currentValue": "frank-dik-tter",
-      "reason": "Slug appears damaged by diacritic stripping.",
-      "suggestedFix": "Consider renaming slug to 'frank-dikotter' with a redirect strategy."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford",
-      "entityTitle": "Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daum\u00e9 III, and Kate Crawford",
-      "field": "slug",
-      "currentValue": "gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford",
-      "reason": "Slug appears damaged by diacritic stripping.",
-      "suggestedFix": "Consider renaming slug to 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daume-iii-and-kate-crawford' with a redirect strategy."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "j-rgen-habermas",
-      "entityTitle": "J\u00fcrgen Habermas",
-      "field": "slug",
-      "currentValue": "j-rgen-habermas",
-      "reason": "Slug appears damaged by diacritic stripping.",
-      "suggestedFix": "Consider renaming slug to 'jurgen-habermas' with a redirect strategy."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "l-on-krier",
-      "entityTitle": "L\u00e9on Krier",
-      "field": "slug",
-      "currentValue": "l-on-krier",
-      "reason": "Slug appears damaged by diacritic stripping.",
-      "suggestedFix": "Consider renaming slug to 'leon-krier' with a redirect strategy."
     },
     {
       "severity": "info",
@@ -2371,9 +1953,9 @@
       "entityId": "blame-compresses-complexity",
       "entityTitle": "Blame Compresses Complexity",
       "field": "relatedPatterns",
-      "currentValue": "admiration-becomes-insulation",
+      "currentValue": "attention-restores-contact",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'admiration-becomes-insulation'."
+      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'attention-restores-contact'."
     },
     {
       "severity": "info",
@@ -2382,9 +1964,9 @@
       "entityId": "blame-compresses-complexity",
       "entityTitle": "Blame Compresses Complexity",
       "field": "relatedPatterns",
-      "currentValue": "attention-restores-contact",
+      "currentValue": "admiration-becomes-insulation",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'attention-restores-contact'."
+      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'admiration-becomes-insulation'."
     },
     {
       "severity": "info",
@@ -2415,17 +1997,6 @@
       "entityId": "correctness-hardens-into-identity",
       "entityTitle": "Correctness Hardens Into Identity",
       "field": "relatedPatterns",
-      "currentValue": "revisability-preserves-judgment",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'correctness-hardens-into-identity' to relatedPatterns on 'revisability-preserves-judgment'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "correctness-hardens-into-identity",
-      "entityTitle": "Correctness Hardens Into Identity",
-      "field": "relatedPatterns",
       "currentValue": "finality-compensates-for-uncertainty",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'correctness-hardens-into-identity' to relatedPatterns on 'finality-compensates-for-uncertainty'."
@@ -2434,12 +2005,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "disagreement-is-suppressed",
-      "entityTitle": "Disagreement is Suppressed",
+      "entityId": "correctness-hardens-into-identity",
+      "entityTitle": "Correctness Hardens Into Identity",
       "field": "relatedPatterns",
-      "currentValue": "learning-collapses",
+      "currentValue": "revisability-preserves-judgment",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'disagreement-is-suppressed' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'correctness-hardens-into-identity' to relatedPatterns on 'revisability-preserves-judgment'."
     },
     {
       "severity": "info",
@@ -2456,12 +2027,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "dissent-is-welcomed",
-      "entityTitle": "Dissent is Welcomed",
+      "entityId": "disagreement-is-suppressed",
+      "entityTitle": "Disagreement is Suppressed",
       "field": "relatedPatterns",
       "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'disagreement-is-suppressed' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -2478,12 +2049,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "examples-accumulate",
-      "entityTitle": "Examples Accumulate",
+      "entityId": "dissent-is-welcomed",
+      "entityTitle": "Dissent is Welcomed",
       "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
+      "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'dissent-is-welcomed'."
+      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -2495,6 +2066,17 @@
       "currentValue": "attention-finds-a-focus",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'attention-finds-a-focus'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "examples-accumulate",
+      "entityTitle": "Examples Accumulate",
+      "field": "relatedPatterns",
+      "currentValue": "dissent-is-welcomed",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'dissent-is-welcomed'."
     },
     {
       "severity": "info",
@@ -2525,17 +2107,6 @@
       "entityId": "explanation-replaces-response",
       "entityTitle": "Explanation Replaces Response",
       "field": "relatedPatterns",
-      "currentValue": "speech-escalates-faster-than-meaning",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'explanation-replaces-response' to relatedPatterns on 'speech-escalates-faster-than-meaning'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "explanation-replaces-response",
-      "entityTitle": "Explanation Replaces Response",
-      "field": "relatedPatterns",
       "currentValue": "responsibility-persists-beyond-control",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'explanation-replaces-response' to relatedPatterns on 'responsibility-persists-beyond-control'."
@@ -2544,12 +2115,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "feedback-drives-change",
-      "entityTitle": "Feedback Drives Change",
+      "entityId": "explanation-replaces-response",
+      "entityTitle": "Explanation Replaces Response",
       "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
+      "currentValue": "speech-escalates-faster-than-meaning",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'feedback-drives-change' to relatedPatterns on 'dissent-is-welcomed'."
+      "suggestedFix": "Consider adding 'explanation-replaces-response' to relatedPatterns on 'speech-escalates-faster-than-meaning'."
     },
     {
       "severity": "info",
@@ -2561,6 +2132,17 @@
       "currentValue": "leaders-feel-the-consequences",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'feedback-drives-change' to relatedPatterns on 'leaders-feel-the-consequences'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "feedback-drives-change",
+      "entityTitle": "Feedback Drives Change",
+      "field": "relatedPatterns",
+      "currentValue": "dissent-is-welcomed",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'feedback-drives-change' to relatedPatterns on 'dissent-is-welcomed'."
     },
     {
       "severity": "info",
@@ -2591,9 +2173,9 @@
       "entityId": "gaps-invite-completion",
       "entityTitle": "Gaps Invite Completion",
       "field": "relatedPatterns",
-      "currentValue": "intent-gets-assigned",
+      "currentValue": "meaning-forms-early",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'intent-gets-assigned'."
+      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'meaning-forms-early'."
     },
     {
       "severity": "info",
@@ -2602,9 +2184,9 @@
       "entityId": "gaps-invite-completion",
       "entityTitle": "Gaps Invite Completion",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
+      "currentValue": "intent-gets-assigned",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'meaning-forms-early'."
+      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'intent-gets-assigned'."
     },
     {
       "severity": "info",
@@ -2635,9 +2217,9 @@
       "entityId": "leaders-feel-the-consequences",
       "entityTitle": "Leaders Feel the Consequences",
       "field": "relatedPatterns",
-      "currentValue": "learning-collapses",
+      "currentValue": "dissent-is-welcomed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leaders-feel-the-consequences' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'leaders-feel-the-consequences' to relatedPatterns on 'dissent-is-welcomed'."
     },
     {
       "severity": "info",
@@ -2646,9 +2228,9 @@
       "entityId": "leaders-feel-the-consequences",
       "entityTitle": "Leaders Feel the Consequences",
       "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
+      "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leaders-feel-the-consequences' to relatedPatterns on 'dissent-is-welcomed'."
+      "suggestedFix": "Consider adding 'leaders-feel-the-consequences' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -2701,9 +2283,9 @@
       "entityId": "learning-collapses",
       "entityTitle": "Learning Collapses",
       "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
+      "currentValue": "leaders-feel-the-consequences",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'learning-collapses' to relatedPatterns on 'dissent-is-welcomed'."
+      "suggestedFix": "Consider adding 'learning-collapses' to relatedPatterns on 'leaders-feel-the-consequences'."
     },
     {
       "severity": "info",
@@ -2712,9 +2294,9 @@
       "entityId": "learning-collapses",
       "entityTitle": "Learning Collapses",
       "field": "relatedPatterns",
-      "currentValue": "leaders-feel-the-consequences",
+      "currentValue": "dissent-is-welcomed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'learning-collapses' to relatedPatterns on 'leaders-feel-the-consequences'."
+      "suggestedFix": "Consider adding 'learning-collapses' to relatedPatterns on 'dissent-is-welcomed'."
     },
     {
       "severity": "info",
@@ -2745,17 +2327,6 @@
       "entityId": "meaning-forms-early",
       "entityTitle": "Meaning Forms Early",
       "field": "relatedPatterns",
-      "currentValue": "intent-gets-assigned",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-forms-early' to relatedPatterns on 'intent-gets-assigned'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "meaning-forms-early",
-      "entityTitle": "Meaning Forms Early",
-      "field": "relatedPatterns",
       "currentValue": "gaps-invite-completion",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-forms-early' to relatedPatterns on 'gaps-invite-completion'."
@@ -2764,12 +2335,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-gets-distorted",
-      "entityTitle": "Meaning Gets Distorted",
+      "entityId": "meaning-forms-early",
+      "entityTitle": "Meaning Forms Early",
       "field": "relatedPatterns",
       "currentValue": "intent-gets-assigned",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'intent-gets-assigned'."
+      "suggestedFix": "Consider adding 'meaning-forms-early' to relatedPatterns on 'intent-gets-assigned'."
     },
     {
       "severity": "info",
@@ -2786,12 +2357,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-outruns-the-words",
-      "entityTitle": "Meaning Outruns the Words",
+      "entityId": "meaning-gets-distorted",
+      "entityTitle": "Meaning Gets Distorted",
       "field": "relatedPatterns",
-      "currentValue": "gaps-invite-completion",
+      "currentValue": "intent-gets-assigned",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-outruns-the-words' to relatedPatterns on 'gaps-invite-completion'."
+      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'intent-gets-assigned'."
     },
     {
       "severity": "info",
@@ -2803,6 +2374,17 @@
       "currentValue": "attention-finds-a-signal",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-outruns-the-words' to relatedPatterns on 'attention-finds-a-signal'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "meaning-outruns-the-words",
+      "entityTitle": "Meaning Outruns the Words",
+      "field": "relatedPatterns",
+      "currentValue": "gaps-invite-completion",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'meaning-outruns-the-words' to relatedPatterns on 'gaps-invite-completion'."
     },
     {
       "severity": "info",
@@ -2833,9 +2415,9 @@
       "entityId": "meaning-shifts-under-pressure",
       "entityTitle": "Meaning Shifts Under Pressure",
       "field": "relatedPatterns",
-      "currentValue": "meaning-gets-distorted",
+      "currentValue": "meaning-forms-early",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-gets-distorted'."
+      "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-forms-early'."
     },
     {
       "severity": "info",
@@ -2844,9 +2426,9 @@
       "entityId": "meaning-shifts-under-pressure",
       "entityTitle": "Meaning Shifts Under Pressure",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
+      "currentValue": "meaning-gets-distorted",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-forms-early'."
+      "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-gets-distorted'."
     },
     {
       "severity": "info",
@@ -2877,9 +2459,9 @@
       "entityId": "revisability-preserves-judgment",
       "entityTitle": "Revisability Preserves Judgment",
       "field": "relatedPatterns",
-      "currentValue": "correctness-hardens-into-identity",
+      "currentValue": "finality-compensates-for-uncertainty",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'correctness-hardens-into-identity'."
+      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'finality-compensates-for-uncertainty'."
     },
     {
       "severity": "info",
@@ -2888,9 +2470,9 @@
       "entityId": "revisability-preserves-judgment",
       "entityTitle": "Revisability Preserves Judgment",
       "field": "relatedPatterns",
-      "currentValue": "finality-compensates-for-uncertainty",
+      "currentValue": "correctness-hardens-into-identity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'finality-compensates-for-uncertainty'."
+      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'correctness-hardens-into-identity'."
     },
     {
       "severity": "info",
@@ -2921,9 +2503,9 @@
       "entityId": "speech-escalates-faster-than-meaning",
       "entityTitle": "Speech Escalates Faster Than Meaning",
       "field": "relatedPatterns",
-      "currentValue": "explanation-replaces-response",
+      "currentValue": "finality-compensates-for-uncertainty",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'explanation-replaces-response'."
+      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'finality-compensates-for-uncertainty'."
     },
     {
       "severity": "info",
@@ -2932,23 +2514,9 @@
       "entityId": "speech-escalates-faster-than-meaning",
       "entityTitle": "Speech Escalates Faster Than Meaning",
       "field": "relatedPatterns",
-      "currentValue": "finality-compensates-for-uncertainty",
+      "currentValue": "explanation-replaces-response",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'finality-compensates-for-uncertainty'."
-    },
-    {
-      "severity": "warning",
-      "category": "book-metadata",
-      "entityType": "book",
-      "entityId": "when-others-look-to-you-v1",
-      "entityTitle": "when others look to you",
-      "field": "title",
-      "currentValue": [
-        "when-others-look-to-you-v1",
-        "when-others-look-to-you-v2"
-      ],
-      "reason": "Duplicate or near-duplicate book titles.",
-      "suggestedFix": "Model editions explicitly or differentiate titles."
+      "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'explanation-replaces-response'."
     },
     {
       "severity": "info",
@@ -3057,7 +2625,7 @@
       "entityTitle": "semantic",
       "field": "generatedAt",
       "currentValue": {
-        "build": "2026-07-07T03:41:35.974132+00:00",
+        "build": "2026-07-07T04:12:01.605409+00:00",
         "snapshot": "2026-07-05T21:49:00.134567+00:00"
       },
       "reason": "Portfolio audit snapshot appears older than build manifest.",
@@ -3071,22 +2639,11 @@
       "entityTitle": "books",
       "field": "generatedAt",
       "currentValue": {
-        "build": "2026-07-07T03:41:40.626151+00:00",
+        "build": "2026-07-07T04:12:20.893778+00:00",
         "snapshot": "2026-07-05T21:54:21.267730+00:00"
       },
       "reason": "Portfolio audit snapshot appears older than build manifest.",
       "suggestedFix": "Regenerate docs/portfolio-audit/data/* per docs/portfolio-audit/data/README.md."
-    },
-    {
-      "severity": "warning",
-      "category": "relationship-quality",
-      "entityType": "relationship",
-      "entityId": "feedback->correction",
-      "entityTitle": "enables",
-      "field": "duplicate",
-      "currentValue": 2,
-      "reason": "Duplicate relationship edge.",
-      "suggestedFix": "Remove duplicate entry from relationships.yml."
     },
     {
       "severity": "info",
@@ -3953,97 +3510,9 @@
       "entityId": "correction",
       "entityTitle": "correction",
       "field": "degree",
-      "currentValue": 24,
+      "currentValue": 22,
       "reason": "Entity has extremely high relationship density compared to peers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "bren-brown",
-      "entityTitle": "Bren\u00e9 Brown",
-      "field": "slug",
-      "currentValue": "bren-brown",
-      "reason": "Slug may be stale after title change (diacritic damage).",
-      "suggestedFix": "Use transliterated slug 'brene-brown'."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "carlos-escud",
-      "entityTitle": "Carlos Escud\u00e9",
-      "field": "slug",
-      "currentValue": "carlos-escud",
-      "reason": "Slug may be stale after title change (diacritic damage).",
-      "suggestedFix": "Use transliterated slug 'carlos-escude'."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "dietrich-d-rner",
-      "entityTitle": "Dietrich D\u00f6rner",
-      "field": "slug",
-      "currentValue": "dietrich-d-rner",
-      "reason": "Slug may be stale after title change (diacritic damage).",
-      "suggestedFix": "Use transliterated slug 'dietrich-dorner'."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "donald-a-sch-n",
-      "entityTitle": "Donald A Sch\u00f6n",
-      "field": "slug",
-      "currentValue": "donald-a-sch-n",
-      "reason": "Slug may be stale after title change (diacritic damage).",
-      "suggestedFix": "Use transliterated slug 'donald-a-schon'."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "frank-dik-tter",
-      "entityTitle": "Frank Dik\u00f6tter",
-      "field": "slug",
-      "currentValue": "frank-dik-tter",
-      "reason": "Slug may be stale after title change (diacritic damage).",
-      "suggestedFix": "Use transliterated slug 'frank-dikotter'."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford",
-      "entityTitle": "Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daum\u00e9 III, and Kate Crawford",
-      "field": "slug",
-      "currentValue": "gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford",
-      "reason": "Slug may be stale after title change (diacritic damage).",
-      "suggestedFix": "Use transliterated slug 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daume-iii-and-kate-crawford'."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "j-rgen-habermas",
-      "entityTitle": "J\u00fcrgen Habermas",
-      "field": "slug",
-      "currentValue": "j-rgen-habermas",
-      "reason": "Slug may be stale after title change (diacritic damage).",
-      "suggestedFix": "Use transliterated slug 'jurgen-habermas'."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "l-on-krier",
-      "entityTitle": "L\u00e9on Krier",
-      "field": "slug",
-      "currentValue": "l-on-krier",
-      "reason": "Slug may be stale after title change (diacritic damage).",
-      "suggestedFix": "Use transliterated slug 'leon-krier'."
     }
   ],
   "relationshipVocabulary": [
@@ -4151,7 +3620,7 @@
       "label": "enables",
       "sourceType": "concept",
       "targetType": "concept",
-      "count": 10,
+      "count": 8,
       "examples": [
         {
           "source": "coupling",
@@ -4422,8 +3891,8 @@
         "entityType": "concept",
         "min": 2,
         "median": 6.0,
-        "max": 24,
-        "p90": 12,
+        "max": 22,
+        "p90": 10,
         "count": 68
       }
     ]

@@ -5,42 +5,21 @@
 - Repository type: **source**
 - Input files: build/semantic-manifest.json, build/books-manifest.json
 - Errors: **0**
-- Warnings: **48**
+- Warnings: **0**
 - Info: **317**
-- Entities scanned: {'books': 28, 'concepts': 137, 'patterns': 30, 'thinkers': 339, 'sources': 408, 'relationships': 110}
+- Entities scanned: {'books': 28, 'concepts': 137, 'patterns': 30, 'thinkers': 340, 'sources': 408, 'relationships': 109}
 
 ## Top priority issues
 
-- **[warning]** book-metadata / book `when-others-look-to-you-v1` — Duplicate or near-duplicate book titles. — *Model editions explicitly or differentiate titles.*
-- **[warning]** relationship-quality / relationship `feedback->correction` — Duplicate relationship edge. — *Remove duplicate entry from relationships.yml.*
-- **[warning]** slug-quality / thinker `bren-brown` — Slug appears damaged by diacritic stripping. — *Consider renaming slug to 'brene-brown' with a redirect strategy.*
-- **[warning]** slug-quality / thinker `bren-brown` — Slug may be stale after title change (diacritic damage). — *Use transliterated slug 'brene-brown'.*
-- **[warning]** slug-quality / thinker `carlos-escud` — Slug appears damaged by diacritic stripping. — *Consider renaming slug to 'carlos-escude' with a redirect strategy.*
-- **[warning]** slug-quality / thinker `carlos-escud` — Slug may be stale after title change (diacritic damage). — *Use transliterated slug 'carlos-escude'.*
-- **[warning]** slug-quality / thinker `dietrich-d-rner` — Slug appears damaged by diacritic stripping. — *Consider renaming slug to 'dietrich-dorner' with a redirect strategy.*
-- **[warning]** slug-quality / thinker `dietrich-d-rner` — Slug may be stale after title change (diacritic damage). — *Use transliterated slug 'dietrich-dorner'.*
-- **[warning]** slug-quality / thinker `donald-a-sch-n` — Slug appears damaged by diacritic stripping. — *Consider renaming slug to 'donald-a-schon' with a redirect strategy.*
-- **[warning]** slug-quality / thinker `donald-a-sch-n` — Slug may be stale after title change (diacritic damage). — *Use transliterated slug 'donald-a-schon'.*
-- **[warning]** slug-quality / thinker `frank-dik-tter` — Slug appears damaged by diacritic stripping. — *Consider renaming slug to 'frank-dikotter' with a redirect strategy.*
-- **[warning]** slug-quality / thinker `frank-dik-tter` — Slug may be stale after title change (diacritic damage). — *Use transliterated slug 'frank-dikotter'.*
-- **[warning]** slug-quality / thinker `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford` — Slug appears damaged by diacritic stripping. — *Consider renaming slug to 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daume-iii-and-kate-crawford' with a redirect strategy.*
-- **[warning]** slug-quality / thinker `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford` — Slug may be stale after title change (diacritic damage). — *Use transliterated slug 'gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daume-iii-and-kate-crawford'.*
-- **[warning]** slug-quality / thinker `j-rgen-habermas` — Slug appears damaged by diacritic stripping. — *Consider renaming slug to 'jurgen-habermas' with a redirect strategy.*
-- **[warning]** slug-quality / thinker `j-rgen-habermas` — Slug may be stale after title change (diacritic damage). — *Use transliterated slug 'jurgen-habermas'.*
-- **[warning]** slug-quality / thinker `l-on-krier` — Slug appears damaged by diacritic stripping. — *Consider renaming slug to 'leon-krier' with a redirect strategy.*
-- **[warning]** slug-quality / thinker `l-on-krier` — Slug may be stale after title change (diacritic damage). — *Use transliterated slug 'leon-krier'.*
-- **[warning]** source-metadata / source `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` — Title or name ends with dangling punctuation. — *Remove trailing comma, colon, or semicolon.*
-- **[warning]** source-metadata / source `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` — Title or name ends with dangling punctuation. — *Remove trailing comma, colon, or semicolon.*
+- No errors or warnings found.
 
 ## Issue counts by category
 
 - pattern-metadata: 120
 - concept-metadata: 82
-- relationship-quality: 80
-- source-metadata: 30
+- relationship-quality: 79
 - thinker-metadata: 25
-- slug-quality: 16
-- book-metadata: 10
+- book-metadata: 9
 - manifest-consistency: 2
 
 ## Relationship vocabulary (top labels)
@@ -50,7 +29,7 @@
 - `structural_tension` (concept → concept): 20 — e.g. [{'source': 'circulation', 'target': 'correction'}, {'source': 'authority', 'target': 'legitimacy'}]
 - `requires` (concept → concept): 18 — e.g. [{'source': 'correction', 'target': 'revisability'}, {'source': 'cohesion', 'target': 'boundary'}]
 - `thins` (concept → concept): 18 — e.g. [{'source': 'scale', 'target': 'correction'}, {'source': 'scale', 'target': 'feedback'}]
-- `enables` (concept → concept): 10 — e.g. [{'source': 'coupling', 'target': 'correction'}, {'source': 'feedback', 'target': 'correction'}]
+- `enables` (concept → concept): 8 — e.g. [{'source': 'coupling', 'target': 'correction'}, {'source': 'feedback', 'target': 'correction'}]
 - `shapes` (concept → concept): 8 — e.g. [{'source': 'boundary', 'target': 'coupling'}, {'source': 'boundary', 'target': 'accountability'}]
 - `precedes` (concept → concept): 6 — e.g. [{'source': 'public-interpretation', 'target': 'interpretive-collapse'}, {'source': 'drift', 'target': 'normalization'}]
 - `grounds` (concept → concept): 4 — e.g. [{'source': 'finite-perspective', 'target': 'bias'}, {'source': 'finite-perspective', 'target': 'trust'}]
@@ -60,11 +39,6 @@
 - `calibrates` (concept → concept): 2 — e.g. [{'source': 'feedback', 'target': 'trust'}, {'source': 'feedback', 'target': 'trust'}]
 - `complements` (concept → concept): 2 — e.g. [{'source': 'cohesion', 'target': 'coupling'}, {'source': 'cohesion', 'target': 'coupling'}]
 - `constrains` (concept → concept): 2 — e.g. [{'source': 'certainty', 'target': 'corrigibility'}, {'source': 'certainty', 'target': 'corrigibility'}]
-
-## Suspected duplicates
-
-- book `when-others-look-to-you-v1`: Duplicate or near-duplicate book titles.
-- relationship `feedback->correction`: Duplicate relationship edge.
 
 ## Stale or divergent manifests
 
@@ -81,56 +55,6 @@
 
 ## Full issue list
 
-### Warning
-
-- **book-metadata** — book `when-others-look-to-you-v1` (when others look to you): Duplicate or near-duplicate book titles.
-- **relationship-quality** — relationship `feedback->correction` (enables): Duplicate relationship edge.
-- **slug-quality** — thinker `bren-brown` (Brené Brown): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `bren-brown` (Brené Brown): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `carlos-escud` (Carlos Escudé): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `carlos-escud` (Carlos Escudé): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `dietrich-d-rner` (Dietrich Dörner): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `dietrich-d-rner` (Dietrich Dörner): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `donald-a-sch-n` (Donald A Schön): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `donald-a-sch-n` (Donald A Schön): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `frank-dik-tter` (Frank Dikötter): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `frank-dik-tter` (Frank Dikötter): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford` (Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `gebru-timnit-jamie-morgenstern-briana-vecchione-jennifer-wortman-vaughan-hanna-wallach-hal-daum-iii-and-kate-crawford` (Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `j-rgen-habermas` (Jürgen Habermas): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `j-rgen-habermas` (Jürgen Habermas): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `l-on-krier` (Léon Krier): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `l-on-krier` (Léon Krier): Slug may be stale after title change (diacritic damage).
-- **source-metadata** — source `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` (Why Nations Fail: The Origins of Power,): Title or name ends with dangling punctuation.
-- **source-metadata** — source `acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power` (Why Nations Fail: The Origins of Power,): Title or name ends with dangling punctuation.
-- **source-metadata** — source `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language` (A Pattern Language:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language` (A Pattern Language:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `argyris-chris-and-donald-a-schon-organizational-learning-ii` (Organizational Learning II:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `argyris-chris-and-donald-a-schon-organizational-learning-ii` (Organizational Learning II:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `board-of-governors-of-the-federal-reserve-system-report-on-the-economic-well-being-of-u-s-househ` (Report on the Economic Well-Being of U.S. Households): Institutional statistics or report classified like a book.
-- **source-metadata** — source `columbia-accident-investigation-board-report-of-the-columbia-accident-investigation-board` (Report of the Columbia Accident Investigation Board): Institutional statistics or report classified like a book.
-- **source-metadata** — source `fahey-liam-and-robert-m-randall-eds-learning-from-the-future` (Learning from the Future:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `fahey-liam-and-robert-m-randall-eds-learning-from-the-future` (Learning from the Future:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `freeh-sporkin-sullivan-llc-report-of-the-special-investigative-counsel-regarding-the-actions-of` (Report of the Special Investigative Counsel Regarding the Actions of the Pennsylvania State University Related to the Child Sexual Abuse Committed by Gerald A. Sandusky): Institutional statistics or report classified like a book.
-- **source-metadata** — source `henrich-joseph-the-secret-of-our-success-how-culture-is-driving-human-evolution` (The Secret of Our Success: How Culture Is Driving Human Evolution,): Title or name ends with dangling punctuation.
-- **source-metadata** — source `henrich-joseph-the-secret-of-our-success-how-culture-is-driving-human-evolution` (The Secret of Our Success: How Culture Is Driving Human Evolution,): Title or name ends with dangling punctuation.
-- **source-metadata** — source `hirschman-albert-o-the-rhetoric-of-reaction-perversity-futility` (The Rhetoric of Reaction: Perversity, Futility,): Title or name ends with dangling punctuation.
-- **source-metadata** — source `hirschman-albert-o-the-rhetoric-of-reaction-perversity-futility` (The Rhetoric of Reaction: Perversity, Futility,): Title or name ends with dangling punctuation.
-- **source-metadata** — source `institute-of-medicine-to-err-is-human-building-a-safer-health` (To Err Is Human: Building a Safer Health): Institutional statistics or report classified like a book.
-- **source-metadata** — source `maslach-christina-and-michael-p-leiter-the-truth-about-burnout` (The Truth About Burnout:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `maslach-christina-and-michael-p-leiter-the-truth-about-burnout` (The Truth About Burnout:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `national-institute-of-standards-and-technology-artificial-intelligence-risk-management-framework` (Artificial Intelligence Risk Management Framework (AI RMF 1.0)): Institutional statistics or report classified like a book.
-- **source-metadata** — source `national-institute-of-standards-and-technology-secure-software-development-framework-ssdf-versio` (Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities): Institutional statistics or report classified like a book.
-- **source-metadata** — source `owasp-foundation-owasp-top-10-for-large-language-model-applications` (OWASP Top 10 for Large Language Model Applications): Institutional statistics or report classified like a book.
-- **source-metadata** — source `president-s-commission-on-the-space-shuttle-challenger-accident-report-of-the-presidential-commi` (Report of the Presidential Commission on the Space Shuttle Challenger Accident): Institutional statistics or report classified like a book.
-- **source-metadata** — source `ross-lee-the-intuitive-psychologist-and-his-shortcomings` (The Intuitive Psychologist and His Shortcomings:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `ross-lee-the-intuitive-psychologist-and-his-shortcomings` (The Intuitive Psychologist and His Shortcomings:): Title or name ends with dangling punctuation.
-- **source-metadata** — source `substance-abuse-and-mental-health-services-administration-samhsa-s` (SAMHSA's): Institutional statistics or report classified like a book.
-- **source-metadata** — source `tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me` (Mistakes Were Made (But Not by Me):): Title or name ends with dangling punctuation.
-- **source-metadata** — source `tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me` (Mistakes Were Made (But Not by Me):): Title or name ends with dangling punctuation.
-- **source-metadata** — source `the-church-of-jesus-christ-of-latter-day-saints-pearl-of-great-price` (Pearl of Great Price): Institutional statistics or report classified like a book.
-- **source-metadata** — source `yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of` (yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of): name lacks Author — Title separator and title is missing or equals name: 'Yellen, Janet L. Speeches on inflation, labor markets, and financial stability, Board of Governors of the Federal Reserve System and U.S. Department of the Treasury, 2021–2024'
-- **source-metadata** — source `yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of` (Yellen, Janet L. Speeches on inflation, labor markets, and financial stability, Board of Governors of the Federal Reserve System and U.S. Department of the Treasury, 2021–2024): Institutional statistics or report classified like a book.
 ### Info
 
 - **book-metadata** — book `before-certainty-arrives` (Before Certainty Arrives): Book has unusually many concepts compared to peers.
