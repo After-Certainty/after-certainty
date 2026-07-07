@@ -1,12 +1,13 @@
 slug: reeves-wiedeman
 name: Reeves Wiedeman
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Journalist and author on WeWork, Adam Neumann, and the mythology of venture-scale
+  startup culture.
 concepts: []
 patterns: []
 relatedBooks:
 - when-trust-stops-tracking-reality
 works:
 - wiedeman-reeves-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Wiedeman shows narrative outrunning operations—when story becomes
+  the product, trust decouples from reality.

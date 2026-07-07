@@ -626,6 +626,13 @@ def audit_sources_extended(
     return issues
 
 
+def _is_placeholder_thinker_text(summary: str, why: str) -> bool:
+    blob = f"{summary} {why}".lower()
+    return ("aggregated from" in blob and "edit summary" in blob) or (
+        "canonical thinker entry for source grouping" in blob
+    )
+
+
 def audit_thinkers(
     repo: Path,
     thinkers: dict[str, dict],
@@ -639,6 +646,7 @@ def audit_thinkers(
         name = str(data.get("name", slug)).strip()
         thinker_type = str(data.get("type", "person")).strip().lower()
         summary = str(data.get("summary", "")).strip()
+        why = str(data.get("whyThisMatters", "")).strip()
         linked_works = _thinker_linked_work_slugs(data, source_index)
 
         if thinker_type == "organization" and _looks_like_person_name(name):
@@ -686,6 +694,21 @@ def audit_thinkers(
                     current_value="",
                     reason="Thinker has missing or empty description.",
                     suggested_fix="Add a summary describing why this thinker matters.",
+                )
+            )
+
+        if summary and _is_placeholder_thinker_text(summary, why):
+            issues.append(
+                _issue(
+                    severity="info",
+                    category="thinker-metadata",
+                    entity_type="thinker",
+                    entity_id=slug,
+                    entity_title=name,
+                    field="summary",
+                    current_value=summary,
+                    reason="Thinker summary or whyThisMatters still uses draft promotion placeholder text.",
+                    suggested_fix="Replace with an editorial summary and whyThisMatters.",
                 )
             )
 

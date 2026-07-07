@@ -498,3 +498,18 @@ def test_concept_grounding_flags_manifesto_source(tmp_path: Path) -> None:
         and "agile" in i.reason
         for i in issues
     )
+
+
+def test_placeholder_thinker_summary_flagged(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    _base_semantic_dirs(repo)
+    _write(
+        repo / "semantic/thinkers/stub.yml",
+        "slug: stub\nname: Stub Thinker\ntype: person\n"
+        "summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.\n"
+        "concepts: []\npatterns: []\nrelatedBooks: []\nworks: []\n"
+        "whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts\n",
+    )
+    thinkers = sga.load_entity_dir(repo, "thinkers")
+    issues = sga.audit_thinkers(repo, thinkers)
+    assert any(i.entityId == "stub" and "placeholder" in i.reason.lower() for i in issues)

@@ -82,6 +82,8 @@ To auto-apply concept-grounding warnings::
 
     python3 tools/apply_concept_grounding.py --repo . --apply
 
+Placeholder thinker summaries (`aggregated from N work(s)`) are flagged as **info** under thinker-metadata. Batch enrichment lives in `tools/enrich_thinker_stubs.py`.
+
 ## What is checked
 
 - **Source metadata** — years (including page-range misparsing), truncated titles, citation leaks, type mismatches

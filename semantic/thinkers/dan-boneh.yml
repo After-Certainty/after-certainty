@@ -1,12 +1,13 @@
 slug: dan-boneh
 name: Dan Boneh
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Cryptography and computer security professor studying practical security
+  failures in modern software workflows.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 works:
 - perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Boneh grounds AI assistance in security discipline—new tools, old
+  requirement that harm be anticipated before deployment.

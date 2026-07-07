@@ -1,12 +1,13 @@
 slug: neal-ford
 name: Neal Ford
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Software architect and author on evolutionary architectures, polyglot systems,
+  and designing for constant change in large codebases.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 works:
 - ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Ford treats architecture as something that must evolve—fitness functions
+  instead of one-shot blueprints when reality keeps moving.

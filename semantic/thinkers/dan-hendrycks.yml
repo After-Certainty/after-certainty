@@ -1,12 +1,13 @@
 slug: dan-hendrycks
 name: Dan Hendrycks
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: AI safety researcher and director of the Center for AI Safety, known for
+  benchmarking and holistic evaluation of language models.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 works:
 - hendrycks-dan-collin-burns-anya-chen-and-spencer-ball-holistic-evaluation-of-language-models
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Hendrycks pushes measurement before myth—when models scale faster
+  than understanding, evaluation becomes the correction loop.

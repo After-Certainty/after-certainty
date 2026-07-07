@@ -1,12 +1,13 @@
 slug: rebecca-parsons
 name: Rebecca Parsons
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Computer scientist and technology strategist on evolutionary architecture,
+  distributed systems, and engineering leadership.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 works:
 - ford-neal-rebecca-parsons-and-patrick-kua-building-evolutionary-architectures-support-constant-c
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Parsons argues for architectures that expect change—when coupling
+  is inevitable, design for reversible decisions.

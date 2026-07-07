@@ -1,12 +1,13 @@
 slug: megha-srivastava
 name: Megha Srivastava
 type: person
-summary: Scholarly source aggregated from 1 work(s); edit summary before promotion.
+summary: Computer science researcher on secure coding practices and risks introduced
+  by AI-assisted software development.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 works:
 - perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh-do-users-write-more-insecure-code-with-ai
-whyThisMatters: Canonical thinker entry for source grouping; refine summary and concepts
-  as needed.
+whyThisMatters: Srivastava tests whether convenience reshapes caution—developers trusting
+  generated code they would not have written themselves.
