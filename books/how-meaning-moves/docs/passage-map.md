@@ -39,9 +39,9 @@ Maps each legacy manuscript unit to **preserve**, **move**, **merge**, **revise*
 
 | Legacy | Action | New ch | Status |
 |--------|--------|--------|--------|
-| Old Ch 12 Being Right Still Hurts | revise | Ch 8 Room After You Are Right | stub |
-| Old Ch 13 Reachable Afterward | revise | Ch 9 Still Reachable | stub |
-| Old Ch 14 Restraint Makes Possible | revise | Ch 10 What Restraint Makes Possible | stub |
+| Old Ch 12 Being Right Still Hurts | revise | Ch 8 Room After You Are Right | **done** |
+| Old Ch 13 Reachable Afterward | revise | Ch 9 Still Reachable | **done** |
+| Old Ch 14 Restraint Makes Possible | revise | Ch 10 What Restraint Makes Possible | **done** |
 
 ## Retired after rewrite (cut from index)
 
@@ -64,13 +64,14 @@ Maps each legacy manuscript unit to **preserve**, **move**, **merge**, **revise*
 | Echoed Comment | B | Ch 5 opening **done** |
 | Aligned Surface | C | Ch 7 **done** |
 | Affordable Pace | A | Ch 7 opening **done** |
-| Cost of Correctness / When Rightness Repairs | C | Ch 8 (pending) |
-| After the Meeting | — | Ch 9 opening (pending) |
-| Holding the Decision Open | A | Ch 10 (pending) |
+| Cost of Correctness / When Rightness Repairs | C | Ch 8 **done** |
+| After the Meeting | A | Ch 9 opening **done** |
+| Holding the Decision Open | A | Ch 10 **done** |
 
 ## Next rewrite batches
 
 1. ~~**Part I** (Ch 1–3)~~ **done**
 2. ~~**Part II** (Ch 4–5, 7)~~ **done** — Part II complete (Ch 6 was calibration benchmark).
-3. **Part III** (Ch 8–10) + epilogue: reachability arc.
+3. ~~**Part III** (Ch 8–10) + epilogue~~ **done** — Option B essayistic rewrite complete.
 4. **Retire** legacy `parts/` directories and orphaned front matter.
+5. Update `pattern-evidence-map.md`, cadence pass, build verify.
