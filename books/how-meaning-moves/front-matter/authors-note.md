@@ -8,4 +8,6 @@ I wrote this book because that pattern is common, easy to miss, and usually expl
 
 I kept the language plain so the structure stays visible—not to sound impressive.
 
+This book offers a lens, not a script. Read for recognition before classification; the patterns are named after you have seen them move.
+
 For transparency: I used an AI language model as a drafting and revision aid, much like an editor or analytical assistant. It helped with structure, phrasing, and coherence checks. It did not determine the book’s claims, values, or conclusions. All judgments and final decisions are mine.
