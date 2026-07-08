@@ -10,39 +10,30 @@
 - [Copyright](front-matter/copyright.md)
 - [About the Series](front-matter/about-the-series.md)
 - [Author's Note](front-matter/authors-note.md)
-- [Preface — Before Understanding](front-matter/preface-before-understanding.md)
-- [Introduction — Why Communication Fails Before Anyone Is Wrong](front-matter/introduction-why-communication-fails-before-anyone-is-wrong.md)
-- [How to Read This Book](front-matter/how-to-read-this-book.md)
+- [Introduction — The Sentence Before the Sentence](front-matter/introduction-the-sentence-before-the-sentence.md)
 
-## Part I — The Three Forces
+## Part I — What Arrives First
 
-- [Part I — The Three Forces](parts/part-i-the-three-forces/bridge.md)
-- [Chapter 1 — Signal: What Arrives Before Words](parts/part-i-the-three-forces/chapter-1-signal-what-arrives-before-words.md)
-- [Chapter 2 — Compression: Why We Decide What Someone Meant So Quickly](parts/part-i-the-three-forces/chapter-2-compression-why-we-decide-what-someone-meant-so-quickly.md)
-- [Chapter 3 — Restraint: The Costliest Part of Communication](parts/part-i-the-three-forces/chapter-3-restraint-the-costliest-part-of-communication.md)
+- [Part I — What Arrives First](parts/part-i-what-arrives-first/bridge.md)
+- [Chapter 1 — Before the Words](parts/part-i-what-arrives-first/chapter-1-before-the-words.md)
+- [Chapter 2 — The Story That Arrives First](parts/part-i-what-arrives-first/chapter-2-the-story-that-arrives-first.md)
+- [Chapter 3 — The Cost of Leaving It Open](parts/part-i-what-arrives-first/chapter-3-the-cost-of-leaving-it-open.md)
+- [How the Patterns Cluster](parts/part-i-what-arrives-first/pattern-map.md)
 
-## Part II — Speaking and Listening Under Pressure
+## Part II — Rooms That Accelerate Meaning
 
-- [Part II — Speaking and Listening Under Pressure](parts/part-ii-speaking-and-listening-under-pressure/bridge.md)
-- [Chapter 4 — Speaking Under Signal](parts/part-ii-speaking-and-listening-under-pressure/chapter-4-speaking-under-signal.md)
-- [Chapter 5 — Listening Under Compression](parts/part-ii-speaking-and-listening-under-pressure/chapter-5-listening-under-compression.md)
-- [Chapter 6 — When Restraint Fails](parts/part-ii-speaking-and-listening-under-pressure/chapter-6-when-restraint-fails.md)
+- [Part II — Rooms That Accelerate Meaning](parts/part-ii-rooms-that-accelerate-meaning/bridge.md)
+- [Chapter 4 — When the Pauses Disappear](parts/part-ii-rooms-that-accelerate-meaning/chapter-4-when-the-pauses-disappear.md)
+- [Chapter 5 — The Archive in the Kitchen](parts/part-ii-rooms-that-accelerate-meaning/chapter-5-the-archive-in-the-kitchen.md)
+- [Chapter 6 — A Passing Comment Becomes a Plan](parts/part-ii-rooms-that-accelerate-meaning/chapter-6-a-passing-comment-becomes-a-plan.md)
+- [Chapter 7 — What the Calendar Can Afford](parts/part-ii-rooms-that-accelerate-meaning/chapter-7-what-the-calendar-can-afford.md)
 
-## Part III — Familiar Situations
+## Part III — What Can Still Move
 
-- [Part III — Familiar Situations](parts/part-iii-familiar-situations/bridge.md)
-- [Chapter 7 — Conflict](parts/part-iii-familiar-situations/chapter-7-conflict.md)
-- [Chapter 8 — Intimacy and Family](parts/part-iii-familiar-situations/chapter-8-intimacy-and-family.md)
-- [Chapter 9 — Leadership and Authority](parts/part-iii-familiar-situations/chapter-9-leadership-and-authority.md)
-- [Chapter 10 — Work, Feedback, and Misalignment](parts/part-iii-familiar-situations/chapter-10-work-feedback-and-misalignment.md)
-
-## Part IV — What This Lens Changes
-
-- [Part IV — What This Lens Changes](parts/part-iv-what-this-lens-changes/bridge.md)
-- [Chapter 11 — Why Better Communication Is Rare](parts/part-iv-what-this-lens-changes/chapter-11-why-better-communication-is-rare.md)
-- [Chapter 12 — Why Being Right Still Hurts](parts/part-iv-what-this-lens-changes/chapter-12-why-being-right-still-hurts.md)
-- [Chapter 13 — Reachable Afterward](parts/part-iv-what-this-lens-changes/chapter-13-reachable-afterward.md)
-- [Chapter 14 — What Restraint Makes Possible (and What It Does Not)](parts/part-iv-what-this-lens-changes/chapter-14-what-restraint-makes-possible-and-what-it-doesnt.md)
+- [Part III — What Can Still Move](parts/part-iii-what-can-still-move/bridge.md)
+- [Chapter 8 — The Room After You Are Right](parts/part-iii-what-can-still-move/chapter-8-the-room-after-you-are-right.md)
+- [Chapter 9 — Still Reachable](parts/part-iii-what-can-still-move/chapter-9-still-reachable.md)
+- [Chapter 10 — What Restraint Makes Possible](parts/part-iii-what-can-still-move/chapter-10-what-restraint-makes-possible.md)
 
 ## Back Matter
 

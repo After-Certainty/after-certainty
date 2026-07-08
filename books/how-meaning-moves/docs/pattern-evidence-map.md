@@ -1,68 +1,78 @@
 # Pattern Evidence Map
 
-This map anchors the canonical pattern language to existing manuscript
-sections.
+This map anchors the canonical pattern language to the Option B essayistic manuscript (scene-first chapters; Core Principles at chapter end).
+
+Paths are relative to `books/how-meaning-moves/`.
 
 ## **Formation**
 
 ### **Attention finds a signal.**
 
-- `chapter-1-signal-what-arrives-before-words.md` — "Signal is always present"
-- `chapter-4-speaking-under-signal.md` — "Speaking is never just expression"
+- `parts/part-i-what-arrives-first/chapter-1-before-the-words.md` — routine meeting opening; engineer's timing lands before the sentence; Core Principle
+- `front-matter/introduction-the-sentence-before-the-sentence.md` — sentence before the sentence; signal loads before understanding
 
 ### **Meaning forms early.**
 
-- `chapter-1-signal-what-arrives-before-words.md` — Pattern Block immediately after “Attention finds a signal” (first introduction)
-- `introduction-why-communication-fails-before-anyone-is-wrong.md` — opening argument on upstream meaning formation
-- `chapter-2-compression-why-we-decide-what-someone-meant-so-quickly.md` — "Compression happens before we notice it"
+- `parts/part-i-what-arrives-first/chapter-1-before-the-words.md` — room settles while people still believe they are listening; Core Principle prose
+- `parts/part-i-what-arrives-first/chapter-2-the-story-that-arrives-first.md` — compression before listening finishes
 
 ### **Meaning outruns the words.**
 
-- `chapter-1-signal-what-arrives-before-words.md` — Pattern Block in Formation sequence after “Meaning forms early” (first introduction); signal as environment for interpretation
-- `chapter-2-compression-why-we-decide-what-someone-meant-so-quickly.md` — “What Compression Makes Unavoidable” (echoes the pattern without a second Pattern Block)
-- `chapter-5-listening-under-compression.md` — interpretation preceding full language processing
+- `parts/part-i-what-arrives-first/chapter-1-before-the-words.md` — what she said never carried the whole situation; Core Principle prose
+- `parts/part-i-what-arrives-first/chapter-2-the-story-that-arrives-first.md` — transcript preserves words, not the half-second of bracing
 
 ## **Completion**
 
 ### **Gaps invite completion.**
 
-- `chapter-2-compression-why-we-decide-what-someone-meant-so-quickly.md` — closure under ambiguity
-- `chapter-6-when-restraint-fails.md` — "Assumptions harden into facts"
+- `parts/part-i-what-arrives-first/chapter-2-the-story-that-arrives-first.md` — nightstand *ok*; telegraph widening; Core Principle
+- `parts/part-i-what-arrives-first/chapter-2-the-story-that-arrives-first.md` — listener recognition disguised as hearing (Strand C seed)
 
 ### **Intent gets assigned.**
 
-- `chapter-2-compression-why-we-decide-what-someone-meant-so-quickly.md` — "Attribution is compression with a moral edge"
-- `chapter-5-listening-under-compression.md` — "Tone becomes intent under compression"
+- `parts/part-i-what-arrives-first/chapter-2-the-story-that-arrives-first.md` — tone becomes motive; Core Principle prose
+- `parts/part-i-what-arrives-first/chapter-2-the-story-that-arrives-first.md` — attribution section (character over circumstance)
 
 ## **Movement**
 
 ### **Meaning shifts under pressure.**
 
-- `chapter-2-compression-why-we-decide-what-someone-meant-so-quickly.md` — Pattern Block under “Compression Accelerates Under Pressure” (first introduction)
-- `chapter-7-conflict.md` — applies *Meaning shifts under pressure* in prose (**Speed buys closure before doubt gets air.**); no duplicate Pattern Block
+- `parts/part-ii-rooms-that-accelerate-meaning/chapter-4-when-the-pauses-disappear.md` — Pace Shift opening; pauses disappear; Core Principle
+- `parts/part-i-what-arrives-first/chapter-3-the-cost-of-leaving-it-open.md` — quiet escalation when restraint fails
 
 ### **Meaning drifts over time.**
 
-- `chapter-5-listening-under-compression.md` — earlier reads press on new listening when the same lives recur
-- `chapter-8-intimacy-and-family.md` — Pattern Block; history and accumulated meaning (first Pattern Block in Part III sequence before reinforcement)
-- `chapter-9-leadership-and-authority.md` — legitimacy transfer over time
+- `parts/part-ii-rooms-that-accelerate-meaning/chapter-5-the-archive-in-the-kitchen.md` — echoed comment; oral-story drift; Core Principle
+- `parts/part-ii-rooms-that-accelerate-meaning/chapter-5-the-archive-in-the-kitchen.md` — weekend plan weight accumulates without new words
 
 ## **Resolution**
 
 ### **Contact keeps the read open.**
 
-- `chapter-3-restraint-the-costliest-part-of-communication.md` — clarification without closure
-- `chapter-13-reachable-afterward.md` — contact versus connection; consequence after sentences end
-- `chapter-14-what-restraint-makes-possible-and-what-it-doesnt.md` — slowing meaning without stopping action
+- `parts/part-i-what-arrives-first/chapter-3-the-cost-of-leaving-it-open.md` — delayed correction; breakfast restraint; Core Principle
+- `parts/part-iii-what-can-still-move/chapter-9-still-reachable.md` — contact versus connection; second questions after the meeting
+- `parts/part-iii-what-can-still-move/chapter-10-what-restraint-makes-possible.md` — holding the decision open; **Returning Principle: Contact Keeps the Read Open**
 
 ### **Meaning gets distorted.**
 
-- `chapter-6-when-restraint-fails.md` — emotional signal treated as evidence
-- `chapter-12-why-being-right-still-hurts.md` — interpretive violence and coercive certainty; truth moving through consequence after sentences end
+- `parts/part-i-what-arrives-first/chapter-3-the-cost-of-leaving-it-open.md` — meaning hardens after contact drops (opening prose)
+- `parts/part-iii-what-can-still-move/chapter-8-the-room-after-you-are-right.md` — cost of correctness; Core Principle
+- `parts/part-ii-rooms-that-accelerate-meaning/chapter-7-what-the-calendar-can-afford.md` — aligned surface narrows range
 
 ## **Reinforcement**
 
 ### **Meaning reinforces itself.**
 
-- `chapter-9-leadership-and-authority.md` — Pattern Block; authority-accelerated repeating interpretations
-- `chapter-11-why-better-communication-is-rare.md` — systems that reward speed over revision
+- `parts/part-ii-rooms-that-accelerate-meaning/chapter-6-a-passing-comment-becomes-a-plan.md` — passing comment → notes → plan; Core Principle (benchmark chapter)
+- `parts/part-ii-rooms-that-accelerate-meaning/chapter-7-what-the-calendar-can-afford.md` — calendar, incentives, shorthand becomes default; Core Principle
+
+## **Reachability** *(culminating relational condition — not an Appendix A pattern)*
+
+- `parts/part-iii-what-can-still-move/chapter-9-still-reachable.md` — workplace + intimate reachability; **Culminating Principle: Reachability** (primary taxonomy location)
+- `back-matter/appendix-a-pattern-language-of-meaning.md` — short Reachability note (not eleventh pattern)
+
+## **Returning principles**
+
+- `parts/part-ii-rooms-that-accelerate-meaning/chapter-7-what-the-calendar-can-afford.md` — **Returning Principle: Meaning Reinforces Itself** (after Ch 6)
+- `parts/part-iii-what-can-still-move/chapter-10-what-restraint-makes-possible.md` — **Returning Principle: Contact Keeps the Read Open** (after Ch 3)
+- `back-matter/epilogue-holding-the-lens.md` — leave meaning somewhere to return

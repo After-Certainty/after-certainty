@@ -1,3 +1,5 @@
+\newpage
+
 # **Appendix A — A Pattern Language of Meaning**
 
 This appendix names recurring patterns in how meaning moves between people. The patterns are grouped into five clusters: **Formation**, **Completion**, **Movement**, **Resolution**, and **Reinforcement**. Each entry describes a recognizable dynamic, not a prescription.
@@ -5,6 +7,8 @@ This appendix names recurring patterns in how meaning moves between people. The 
 These patterns work best as observation tools. They name what is already happening in conversation before anyone has agreed on what it means.
 
 Use them when the transcript reads innocent but the room did not feel innocent—when something moved before anyone agreed on words.
+
+**Reachability** is the book's culminating relational condition—not an eleventh pattern in this appendix. It names whether later correction or revised understanding still has somewhere to land.
 
 ## **Formation**
 
