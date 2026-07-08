@@ -37,14 +37,26 @@ Removed from the repository after passage map completion:
 
 Approximate reader-facing word count (parts + front matter + back matter, excluding `docs/`): **~19,500 words** — within the Option B target band (~17.5k revised scaffold → ~25–35k stretch goal; room remains for a late cadence polish pass if desired).
 
-## Cadence spot-check (not a full audiobook pass)
+## Cadence spot-check (post–editorial pass)
 
-Recurring closure phrases after essayistic rewrite:
+Recurring closure phrases after essayistic rewrite and full editorial pass:
 
 | Phrase | Chapter hits | Notes |
 |--------|--------------|-------|
-| `Seeing this clearly does not` | 12 across 10 chapters | Rationed to Core Principle zones; Ch 4, 5, 8 use twice (body + principle). Monitor on audio pass. |
-| `If you want to see` | 8 chapters | Deliberate reader-orientation hinge; varies slightly in Part III (`what still can move`, `what restraint makes possible`). |
+| `Seeing this clearly does not` | 2 (Ch 1, Ch 6 Core Principles only) | Body duplicates removed; other chapters use varied landings |
+| `If you want to see` | 0 | Replaced with scene residues, hard stops, or plain claims |
+
+## Editorial pass (2026-07-08)
+
+Full manuscript pass applied per `docs/book-rules.md` Advanced Polish:
+
+- Removed writer-facing meta (`Strand C`, `Ch 7 had already…`)
+- Cut duplicate restraint/sincerity/speaker-listener exposition in Ch 1
+- Varied chapter endings: scene residue, hard stop, or Core Principle without template rhyme
+- Trimmed over-stabilizer paragraphs in Ch 4–5, 7–10, epilogue
+- Restored Ch 6 connection-at-work beat; light trim to closing authority paragraph (benchmark preserved)
+- Fixed Ch 7 typo (`an owner`); removed orphan Gigerenzer footnote
+- Introduction: unnamed temporal anchor (`within a few days`) per series guardrails
 
 No `Pattern Block` or `Vignette Block` fences remain in chapter bodies (essayistic integration). Part I `pattern-map.md` retains Pattern Block typography by design.
 

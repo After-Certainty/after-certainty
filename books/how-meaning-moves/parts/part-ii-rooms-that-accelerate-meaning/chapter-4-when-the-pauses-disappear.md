@@ -38,11 +38,7 @@ Most clashes are not really about two moral worlds colliding—at least not at f
 
 That is not always the whole story. Some conflicts run deep enough that values genuinely diverge. Even then, pace often decides whether the gap stays discussable or hardens into identity threat. The room in this chapter was not fighting about irreconcilable worlds. It was fighting faster than either person could stay with what the other meant.
 
-Conflict stains connection faster than it settles the issue on the table. The shift reaches deeper than the topic. Each side updates their sketch of the other: colder, less generous, easier to predict in the worst way. Contact—what was actually said—often stays disputed. Connection—who you take each other to be afterward—can shift in one afternoon. Vigilance replaces curiosity. Repair needs slower contact than either person feels fair offering while still feeling wronged. Apologies often arrive after connection has already moved.
-
-Seeing this clearly does not end the fight. It explains why fights often refuse tidy endings—and why tidy endings fail when the tempo changes before the topic does.
-
-If you want to see the force at work, watch the pauses disappear. Watch when clarification stops asking and starts defending. Watch when both sides are still talking about the same subject and no longer hearing the same conversation.
+Conflict stains connection faster than it settles the issue on the table. Each side updates their sketch of the other: colder, less generous, easier to predict in the worst way. Contact—what was actually said—often stays disputed. Connection—who you take each other to be afterward—can shift in one afternoon. Apologies often arrive after connection has already moved.
 
 The disagreement had not become louder. It had become faster. By the time either person might have slowed down, the room was already answering a different question.
 
@@ -50,7 +46,7 @@ The disagreement had not become louder. It had become faster. By the time either
 
 Pressure shrinks the distance between what people notice and what they treat as settled. Under conflict, that distance can vanish in a single exchange. Signal sharpens. Compression hardens. Restraint loses the social permission it needs to hold.
 
-What locked in during the fight does not stay in the fight. It travels into the next conversation, the next glance, the next assumption about what the other person is likely to mean. Seeing this clearly does not give you a technique for staying calm. It makes one thing visible: when the pauses disappear, meaning is already moving faster than understanding can follow—and the story of who someone is often moves with it.
+What locked in during the fight does not stay in the fight. It travels into the next conversation, the next glance, the next assumption about what the other person is likely to mean. When the pauses disappear, meaning is already moving faster than understanding can follow—and the story of who someone is often moves with it.
 
 [^c4-lazarus-emotion-adaptation]: Lazarus, Richard S. *Emotion and Adaptation*. New York: Oxford University Press, 1991.
 [^c4-edmondson-fearless-organization]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.

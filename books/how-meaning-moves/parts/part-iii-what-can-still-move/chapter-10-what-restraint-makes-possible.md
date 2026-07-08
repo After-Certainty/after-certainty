@@ -32,11 +32,9 @@ Restraint is not freezing. People still decide, act, respond. It asks them to no
 
 Responsibility cannot live inside total certainty. Once meaning hardens into a final story, responsibility thins into justification. Action starts to feel like fate. Outcomes start to feel like they could not have gone another way. Harm then reads as "what happened," not as something people built together. Restraint keeps meaning open long enough for responsibility to stay awake—for "it could still be otherwise" to remain thinkable, and for choices to count.[^c10-arendt-life-of-mind]
 
-Correction needs room. It needs a path back to interpretation that does not automatically trigger fight or shutdown. When restraint is present, correction can land as information. When it is absent, correction often lands as attack. Restraint does not mean people will accept the fix. It means acceptance is not ruled out in advance. Without that room, correction usually arrives too late to change how people hold the story.[^c10-edmondson-fearless-organization]
+Correction needs room—a path back to interpretation that does not automatically trigger fight or shutdown. When restraint is present, correction can land as information. When it is absent, correction often lands as attack.[^c10-edmondson-fearless-organization]
 
-Consent works the same way. It needs time, exposure, and a real option to refuse without instant punishment. When meaning moves too fast, "yes" often means "I can't afford to push back." Alignment becomes performance and connection thins into choreography. When interpretation slows, there is more space for a yes or a no that people can own.[^c10-faden-beauchamp-informed-consent] That matters in intimate relationships, workplaces, and any place power runs through the room.
-
-Repair needs harm to be nameable without turning a person into a label. With restraint, damage can be spoken without reducing the other person to one bad act. People can stay answerable without being flattened. Repair is connection work: updating what two people can say to each other without rehearsing the worst version of the story every time. Repair does not delete harm. It keeps harm talkable.[^c10-fricker-epistemic-injustice]
+Repair needs harm to be nameable without turning a person into a label. With restraint, damage can be spoken without reducing the other person to one bad act. Repair does not delete harm. It keeps harm talkable.[^c10-fricker-epistemic-injustice]
 
 Philip had learned that lesson in reverse over the past months—the passing comment that became a plan, the affordable pace that skipped the pause, the feedback that narrowed the engineer's range, the correctness that closed the room. Each scene had its own failure mode. Together they showed what restraint would have bought: not certainty, not harmony, but a little more room before meaning hardened into something the document could no longer question.
 
@@ -48,17 +46,14 @@ Human talk is fragile because it runs on partial understanding. People move befo
 
 Restraint does not solve communication. It keeps it human.
 
-If you want to see what restraint makes possible, watch the moment before closure—the breath before the ruling, the question before the notes get cleaned, the pause before "we all know what this means." Watch what becomes available when that pause is protected long enough for someone else to meet you there.
-
 Philip could not undo the sentences that had already moved through his team. He could still choose, in the next room, not to close meaning faster than the people in it could bear.
 
 ### **Core Principle: Contact Keeps the Read Open**
 
 Slowing down lets people revisit what they heard without forcing an immediate verdict. Contact is not warmth and not agreement. It is staying close enough to what was actually said—and to what remains unclear—that meaning can still be revised together.
 
-This book has named that principle before. It returns here because restraint is not an idea you master once. It is a cost you keep choosing, unevenly, under pressure, in rooms that rarely reward it. Seeing this clearly does not give you a method for perfect communication. It leaves you with one durable possibility: that meaning might still move if you leave it somewhere people can still return.
+Restraint is not an idea you master once. It is a cost you keep choosing, unevenly, under pressure, in rooms that rarely reward it. The durable possibility is simpler: meaning might still move if you leave it somewhere people can still return.
 
 [^c10-arendt-life-of-mind]: Arendt, Hannah. *The Life of the Mind*. New York: Harcourt Brace Jovanovich, 1978.
 [^c10-edmondson-fearless-organization]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.
-[^c10-faden-beauchamp-informed-consent]: Faden, Ruth R., and Tom L. Beauchamp. *A History and Theory of Informed Consent*. New York: Oxford University Press, 1986.
 [^c10-fricker-epistemic-injustice]: Fricker, Miranda. *Epistemic Injustice*. New York: Oxford University Press, 2007.

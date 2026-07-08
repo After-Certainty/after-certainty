@@ -42,11 +42,7 @@ Intimacy shows how far a few syllables can travel on almost nothing. Meaning out
 
 A week later the weekend plan had been revised twice without either of them naming the kitchen conversation directly. The words had not changed much. The weight had. He asked whether she was still angry. She said she was not. Both statements were true in the narrow sense and incomplete in the way that matters between people who share a table.
 
-Seeing this clearly does not fix family pain. Family pain stays stubborn—not because love wore out on schedule, but because thick history lets small syllables carry whole archives.
-
-Restraint at home does not promise harmony. It can keep people from turning each other into one-sentence verdicts. It can also cost the person who holds it more than the person who does not—another asymmetry this book will return to. What kitchens teach is not how to avoid drift. It is how little new language is required for old meaning to move.
-
-If you want to see the force at work, listen for the echo under an ordinary sentence. Watch how fast the present disappears into what already felt true.
+Restraint at home does not promise harmony. It can keep people from turning each other into one-sentence verdicts. It can also cost the person who holds it more than the person who does not. What kitchens teach is not how to avoid drift. It is how little new language is required for old meaning to move.
 
 The coffee pot was still on the counter. The visit was still scheduled. What had moved was the story of whether they were planning it together.
 
@@ -54,7 +50,7 @@ The coffee pot was still on the counter. The visit was still scheduled. What had
 
 Each new moment gets heard through what people already believe happened. Drift is not always dramatic. It accumulates in repeated phrases, half-corrected misunderstandings, and silences that never quite get named. The same words can arrive with different weight years later—not because the dictionary changed, but because the archive between two people grew.
 
-At home, that archive is often the loudest signal in the room. Seeing this clearly does not give you a method for starting fresh. It makes one thing harder to deny: intimacy does not hear today's sentence alone. It hears today's sentence plus every version of you the other person has had to live with—and meaning moves through that stack whether anyone intends it to.
+At home, that archive is often the loudest signal in the room. Intimacy does not hear today's sentence alone. It hears today's sentence plus every version of you the other person has had to live with—and meaning moves through that stack whether anyone intends it to.
 
 [^c5-bowlby-attachment-loss]: Bowlby, John. *Attachment and Loss*. New York: Basic Books, 1969.
 [^c5-bonds-and-belonging-pressure]: On how attachment history layers into present speech and on how the need to belong intensifies pressure when closeness feels threatened, see Bowlby, John. *Attachment and Loss*. New York: Basic Books, 1969; Baumeister, Roy F., and Mark R. Leary. "The Need to Belong." *Psychological Bulletin* (1995).

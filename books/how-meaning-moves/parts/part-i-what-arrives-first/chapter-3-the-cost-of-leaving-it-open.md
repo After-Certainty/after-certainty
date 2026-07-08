@@ -18,7 +18,7 @@ That was not the whole truth. She had chosen to leave meaning unfinished, and to
 
 Restraint is what slows compression down. It interrupts the rush to decide what something means. It keeps a first read from hardening too quickly into certainty. Without restraint, meaning gets distorted: a first reading hardens after contact drops, and certainty stays active even when it no longer matches what is happening. With restraint, people can revisit what they heard without forcing an immediate verdict. That openness has a price—and the price is rarely paid evenly.
 
-Restraint does not stop people from forming a read. It delays closure. People cannot avoid settling on what they think something means. They naturally move toward conclusions, even when certainty arrives too early. Restraint gives conversations more time before conclusions harden—not by banning judgment, but by refusing to finalize it too soon. Restraint is not the absence of judgment. It is refusing to finalize judgment too soon.
+Restraint does not stop people from forming a read. It delays closure. People cannot avoid settling on what they think something means. They naturally move toward conclusions, even when certainty arrives too early. Restraint gives conversations more time before conclusions harden—not by banning judgment, but by refusing to finalize it too soon.
 
 It also does not look like the listening people praise. It looks like hesitation when a response feels obvious. Silence when correction feels justified. Delay when resolution feels urgent. Restraint does not announce itself. It shows up as what does not happen. That is why it is often misread as disengagement, weakness, or uncertainty—especially where decisiveness and speed are rewarded.
 
@@ -80,17 +80,15 @@ That asymmetry is the moral center of this chapter. Restraint is not equally ava
 
 No rule can fully automate restraint. It is always situational, always costly, always imperfect. People choose it again and again—usually without applause. That is not a failure of communication. It is one of its limits.
 
-By evening she had still not corrected the weekend plan. He had moved forward as though the matter were settled. The misunderstanding was small. It was also accumulating—the way misunderstandings do when contact drops and the first read is allowed to stand.
-
 At work, the notes had circulated. The engineer's caution had become a texture in the room, heavier than anyone's single sentence. Meaning had moved while people were still sincere.
 
-If you want to see what restraint protects, watch what happens when it leaves. Watch curiosity end. Watch correction outrun contact. Watch who carries the discomfort when the read stays open—and who benefits when it closes.
+By evening she had still not corrected the weekend plan. He had moved forward as though the matter were settled. The misunderstanding was small. It was also accumulating—the way misunderstandings do when contact drops and the first read is allowed to stand.
 
 ### **Core Principle: Contact Keeps the Read Open**
 
 Slowing down lets people revisit what they heard without forcing an immediate verdict. Contact is not warmth and not agreement. It is staying close enough to what was actually said—and to what remains unclear—that meaning can still be revised together.
 
-When restraint holds, distortion is slower. When restraint fails, meaning hardens faster than understanding can track. Seeing this clearly does not make openness easy. It makes the bill visible: who pays, who profits from speed, and what a transcript cannot carry back into the room.
+When restraint holds, distortion is slower. When restraint fails, meaning hardens faster than understanding can track. The bill becomes visible: who pays, who profits from speed, and what a transcript cannot carry back into the room.
 
 Restraint is not silence. It is unfinished interpretation—and the courage, or the luxury, to leave it unfinished long enough for another person to meet you there.
 

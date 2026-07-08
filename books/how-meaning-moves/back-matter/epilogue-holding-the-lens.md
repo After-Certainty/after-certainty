@@ -6,11 +6,9 @@ The assumption was still gone. The milestone had been adjusted. His line from an
 
 He had not made every call the document attributed to him. He had made enough of them, late enough, with enough authority in the room, that the difference no longer mattered for coordination. The organization was already moving on what the record said.
 
-That is not a story about a careless leader or a disobedient team. It is a story about how meaning moves through people, notes, and memory until it is no longer anyone's sentence alone. It is the story this book has been tracing from the first room to the last.
+That is not a story about a careless leader or a disobedient team. It is the story this book has been tracing from the first room to the last: meaning moving through people, notes, and memory until it is no longer anyone's sentence alone.
 
-This book does not fix communication. Signal stays loud. Compression stays fast. Restraint stays costly. Seeing these forces does not graduate you out of them. They will still be there tomorrow.
-
-The only thing that really changes is whether you keep pretending you do not see them.
+Signal stays loud. Compression stays fast. Restraint stays costly. Seeing these forces does not graduate you out of them.
 
 When you stop pretending, breakdowns look less like bad luck. A fight that came "out of nowhere" starts to look like something that was building the whole time: meaning settling early, bodies tightening, people answering a story that has not been checked yet. Certainty stops looking like a prize and starts looking like a shortcut—something you grabbed because waiting felt unsafe.
 

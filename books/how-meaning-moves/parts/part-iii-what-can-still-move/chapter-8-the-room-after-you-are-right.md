@@ -26,11 +26,11 @@ She could not explain how much room correctness had taken, or why it still hurt.
 
 Correct interpretations can still cause damage. Accuracy does not guarantee safety. Truth still moves through signal, compression, and relationship—and through whatever still binds people once the sentences end. When that pace outruns restraint, harm starts even if the facts are correct. The story hardens before people can absorb it. Settled truth invites closure; slower interpretation looks wasteful; discussion slides from inquiry toward enforcement.[^c8-cognition-enforcement]
 
-This does not require yelling or bad faith. It can happen in calm language with accurate premises.[^c8-fricker-epistemic-injustice] Many painful exchanges involve good intentions on both sides. Speakers believe they are being direct. Listeners believe they are being rational. Both use correctness to justify speed.
+This does not require yelling or bad faith. It can happen in calm language with accurate premises. Many painful exchanges involve good intentions on both sides. Speakers believe they are being direct. Listeners believe they are being rational. Both use correctness to justify speed.[^c8-fricker-epistemic-injustice]
 
 Philip believed he was presenting facts. The engineer heard a ruling.
 
-The bruise often lands in connection: the next honest question becomes harder to ask.[^c8-ross-ward-naive-realism] That was what Ch 7 had already begun to show—the aligned surface, the narrowed range, the progress that looked like success from the outside. Correctness can finish what incentives started. Once someone's caution has been read as blockage and then corrected with evidence, the lesson is not only about the estimate. It is about what kind of speech still pays.
+The bruise often lands in connection: the next honest question becomes harder to ask.[^c8-ross-ward-naive-realism] The aligned surface from weeks earlier had already narrowed her range. The progress review looked like success from the outside. Correctness can finish what incentives started. Once someone's caution has been read as blockage and then corrected with evidence, the lesson is not only about the estimate. It is about what kind of speech still pays.
 
 Being right does not end responsibility. Accuracy can establish facts and correct error. It cannot choose timing, pace, or relational cost by itself. Those require restraint.
 
@@ -48,15 +48,11 @@ The difference was not accuracy. Both scenes involved correct facts. The differe
 
 That second move is restraint in miniature—not softness, not endless process, but refusal to let truth seal a person into a final role before the room has had time to stay with what the truth does between them.
 
-Fricker's term for one version of this harm is epistemic injustice: when someone suffers a wrong in their capacity as a knower.[^c8-fricker-epistemic-injustice] The engineer's quiet was not caused by Philip's facts. It was caused by what correctness had come to mean inside a room that had already priced her caution too low. Once a person's speech has been heard as misalignment, later accuracy from someone with rank lands differently than the same accuracy from someone without it. The transcript looks fair. The archive between them does not.
-
-This asymmetry is why Strand C matters at work. Technically correct explanation can narrow whether another person will speak again—not because they stop caring about truth, but because they learn what truth costs when it arrives faster than trust can catch up.
+Fricker's term for one version of this harm is epistemic injustice: when someone suffers a wrong in their capacity as a knower. The engineer's quiet was not caused by Philip's facts. It was caused by what correctness had come to mean inside a room that had already priced her caution too low. Once a person's speech has been heard as misalignment, later accuracy from someone with rank lands differently than the same accuracy from someone without it. The transcript looks fair. The archive between them does not.
 
 Philip noticed the change before he named it. Fewer early flags. Cleaner updates. Less friction. He had called it alignment. He had not asked what had been traded for the cleaner surface.
 
-Seeing this clearly does not make correctness suspect. Some errors need to be named plainly and soon. The moral limit of accuracy is not truth itself, but the speed at which truth is used to close what still needs room.
-
-If you want to see the force at work, watch the room after someone is right. Watch whether the next question arrives or retreats. Watch whether truth makes contact easier or scarcer.
+Some errors need to be named plainly and soon. The moral limit of accuracy is not truth itself, but the speed at which truth is used to close what still needs room.
 
 He had won the point about the estimate. He had not yet won back the place where doubt could arrive early, before it became expensive.
 
@@ -64,7 +60,7 @@ He had won the point about the estimate. He had not yet won back the place where
 
 A first reading hardens after contact drops, so certainty stays active even when it no longer matches what is happening. Correctness can harden as cleanly as error. When facts arrive as finality, listeners do not only update their beliefs. They update their map of what can safely be said.
 
-Seeing this clearly does not give you a rule for when to speak and when to soften. It makes one distinction harder to miss: accuracy asks whether something is true; restraint asks what truth is doing here, now, between these people—and whether the story that is settling still has anywhere left to move.
+Accuracy asks whether something is true. Restraint asks what truth is doing here, now, between these people—and whether the story that is settling still has anywhere left to move.
 
 [^c8-cognition-enforcement]: On how truth moves through bodies and relationships before it settles as "fact," and how closure and confirmation dynamics accelerate once correctness feels settled, see Barrett, Lisa Feldman. *How Emotions Are Made: The Secret Life of the Brain*. Boston: Houghton Mifflin Harcourt, 2017; Kruglanski, Arie W. "The Need for Cognitive Closure." *Psychological Review* (1990); Nickerson, Raymond S. "Confirmation Bias." *Review of General Psychology* (1998).
 [^c8-fricker-epistemic-injustice]: Fricker, Miranda. *Epistemic Injustice*. New York: Oxford University Press, 2007.

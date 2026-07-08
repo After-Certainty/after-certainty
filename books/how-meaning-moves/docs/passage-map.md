@@ -82,4 +82,4 @@ Maps each legacy manuscript unit to **preserve**, **move**, **merge**, **revise*
 3. ~~**Part III** (Ch 8–10) + epilogue~~ **done**
 4. ~~**Retire** legacy `parts/` directories and orphaned front matter~~ **done**
 5. ~~Update `pattern-evidence-map.md`~~ **done**
-6. Cadence pass / full Pandoc build verify (see `docs/housekeeping-verification.md`)
+6. ~~Cadence pass / full Pandoc build verify~~ editorial pass **done** (see `docs/housekeeping-verification.md`); Pandoc build pending CI/local

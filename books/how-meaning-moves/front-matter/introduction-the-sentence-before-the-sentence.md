@@ -4,7 +4,7 @@ He had not decided yet. He was still weighing tradeoffs—the kind that do not f
 
 It was not a directive. It was a sentence still forming.
 
-No one argued. A few people nodded the way you nod when a meeting is ending and you are already halfway to the next obligation. Someone wrote the line down. The notes would circulate. By Thursday the assumption would be gone from the plan, and he would wonder when he had made the call.
+No one argued. A few people nodded the way you nod when a meeting is ending and you are already halfway to the next obligation. Someone wrote the line down. The notes would circulate. Within a few days the assumption would be gone from the plan, and he would wonder when he had made the call.
 
 He had not made the call. The sentence had.
 

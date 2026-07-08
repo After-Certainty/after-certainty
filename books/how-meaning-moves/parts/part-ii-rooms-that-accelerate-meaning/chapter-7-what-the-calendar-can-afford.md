@@ -60,11 +60,9 @@ When that reading hardens, clarification often backfires. More detail adds conte
 
 The closing line of the exchange matters: performance improves while expressive range narrows. Organizations often read this as success—fewer questions, cleaner updates, less friction. Those same signs can mean candor has withdrawn. Work continues. Metrics hold. People coordinate behavior while privately revising what can safely be said.
 
-When only motion gets scored, talk bends toward fast reads. Across cycles, meaning reinforces itself: yesterday's shorthand becomes tomorrow's default—more a product of incentives than of anyone's character. The drag shows up in hallways and side threads before it shows up on any ledger.
+When only motion gets scored, talk bends toward fast reads. Across cycles, meaning reinforces itself: yesterday's shorthand becomes tomorrow's default—more a product of incentives than of anyone's character.
 
-Closure wins scoreboards. Clarity feels like progress; firm lines invite replies; boxes get filled. Understanding stays slow and hard to summarize. Under that scoring, "clear enough" replaces understood. The gap gets blamed on skill—better wording, cleaner facilitation—instead of on what the system rewards. Skill helps at the margins. It does not remove the pressure that keeps rewarding early closure.[^c7-gigerenzer-gut-feelings]
-
-Many teams rely on goodwill to absorb the cost of restraint. They hope trusted people will pause when needed. Sometimes that holds, until urgency or scale rises. Then incentives outrun goodwill.[^c7-deming-out-of-crisis] Keeping meaning unfinished draws a social tax—unclear, slow, unprepared—and trains people away from restraint.
+Many teams rely on goodwill to absorb the cost of restraint until urgency or scale rises. Then incentives outrun goodwill.[^c7-deming-out-of-crisis] Keeping meaning unfinished draws a social tax—unclear, slow, unprepared—and trains people away from restraint.
 
 Nora saw both costs in the same week. In the meeting, she had cleaned the notes the way she always did: repetition trimmed, decisions smoothed, the record made legible for people who had not been there. In the feedback session she had not attended, something else had been smoothed—the engineer's willingness to say the uncomfortable thing early, before it became a larger issue on the calendar.
 
@@ -74,7 +72,7 @@ Better communication appears where someone or something absorbs restraint's cost
 
 This lens does not promise nicer outcomes. It makes attribution more accurate. Some failures stop sounding like private moral collapse. Other failures become harder to dismiss as bad luck. Responsibility expands toward system design without erasing individual consequence. Philip had standing to protect the pause in the meeting. He had also benefited from the engineer's narrowed range. Anyone could have circled back. He had the greatest obligation to make that affordable—and the least personal incentive to pay for it while the timeline still held.
 
-By the next monthly review, the larger issue had a name and a owner and a remediation plan. Someone said they should have slowed down weeks ago. Everyone nodded again. Nora opened the old notes. The confusion was there, polite and reasonable, buried between action items no one had revisited.
+By the next monthly review, the larger issue had a name and an owner and a remediation plan. Someone said they should have slowed down weeks ago. Everyone nodded again. Nora opened the old notes. The confusion was there, polite and reasonable, buried between action items no one had revisited.
 
 The calendar had won. Not because people were careless. Because the calendar was what everyone was coordinating around.
 
@@ -82,11 +80,10 @@ The calendar had won. Not because people were careless. Because the calendar was
 
 What locked in yesterday quietly trains what people notice tomorrow. Under institutional pressure, that reinforcement speeds up. Early reads become defaults. Defaults become records. Records become the story new people inherit before they have heard a single live voice. Aligned surfaces—fewer questions, cleaner updates, less visible friction—can be signs that meaning has reinforced itself into a narrower channel.
 
-Each settled interpretation makes the next one easier to settle, until correction requires contending not only with a person's memory but with a trail of reasonable documents, reasonable meetings, and reasonable decisions that all point in the same direction. Seeing this clearly does not give organizations a new script. It makes one line harder to dodge: better communication is often possible long before it becomes affordable—and the gap between those two truths is where meaning keeps moving whether anyone has time to notice.
+Each settled interpretation makes the next one easier to settle, until correction requires contending not only with a person's memory but with a trail of reasonable documents, reasonable meetings, and reasonable decisions that all point in the same direction. Better communication is often possible long before it becomes affordable—and the gap between those two truths is where meaning keeps moving whether anyone has time to notice.
 
 [^c7-march-simon-organizations]: March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley, 1958.
 [^c7-perrow-normal-accidents]: Perrow, Charles. *Normal Accidents*. Princeton, NJ: Princeton University Press, 1984.
 [^c7-evaluative-threat-and-identity]: On psychological safety and threat in organizational life, and on how evaluative contexts pull fast identity-level answers, see Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018; Steele, Claude M. *Whistling Vivaldi*. New York: W. W. Norton & Company, 2010.
 [^c7-nickerson-confirmation-bias]: Nickerson, Raymond S. "Confirmation Bias." *Review of General Psychology* (1998).
-[^c7-gigerenzer-gut-feelings]: Gigerenzer, Gerd. *Gut Feelings: The Intelligence of the Unconscious*. New York: Viking, 2007.
 [^c7-deming-out-of-crisis]: Deming, W. Edwards. *Out of the Crisis*. Cambridge, MA: MIT Press, 1986.

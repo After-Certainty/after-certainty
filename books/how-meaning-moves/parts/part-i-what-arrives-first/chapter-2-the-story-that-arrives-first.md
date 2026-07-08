@@ -68,15 +68,13 @@ He told himself he had been reading carefully. She told herself she had been tir
 
 When compression finishes its job, curiosity is often what ends first. The listener may stay polite and quiet. Meaning has already set. New detail gets filtered through the story already chosen. That is how talk can keep going after understanding stopped.
 
-If you want to see the force at work, watch the first gap—the pause, the short reply, the sentence that could still mean more than one thing. Watch how fast the mind completes it. Watch what becomes expensive to take back once the completion feels obvious.
-
 The phone on the nightstand did not change. The message did not change. What changed was the story that arrived before anyone had earned the right to be sure.
 
 ### **Core Principle: Gaps Invite Completion**
 
 When meaning is incomplete, people rapidly fill in what is missing so action can continue. The fill is not random. It draws on tone, history, fear, rank, and whatever story already feels most available in the body.
 
-Listeners infer motive quickly from impact and signal, often before they know enough about what happened. That inference can feel like recognition, which is why it is so hard to interrupt. Seeing this clearly does not make listening comfortable. It makes the deciding step visible—and once that step is visible, the three letters on a screen are never only three letters. They are a space the mind cannot bear to leave empty.
+Listeners infer motive quickly from impact and signal, often before they know enough about what happened. That inference can feel like recognition, which is why it is so hard to interrupt. Once the deciding step is visible, the three letters on a screen are never only three letters. They are a space the mind cannot bear to leave empty.
 
 [^c2-gigerenzer-gut-feelings]: Gigerenzer, Gerd. *Gut Feelings: The Intelligence of the Unconscious*. New York: Viking, 2007.
 [^c2-clark-using-language]: Clark, Herbert H. *Using Language*. Cambridge: Cambridge University Press, 1996.

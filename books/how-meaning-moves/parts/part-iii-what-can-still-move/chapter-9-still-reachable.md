@@ -38,33 +38,21 @@ Throughput rewards visibility, turnover, and crisp narrative closure: what ships
 
 Institutions optimize for coordination at distance—which often means treating humans as interchangeable enough that return becomes optional. Under that pressure, connection does not disappear so much as thin into choreography: people coordinate tasks while quietly sealing each other into roles that make the next quarter predictable.[^c9-perrow-normal-accidents] That thinning is how misunderstanding hardens socially—not always because anyone intended cruelty, but because the affordances for coming back shrink faster than people's need for each other does.
 
-Philip had seen that thinning in his own team. The engineer's narrowed range. The notes that made one reading easier to inherit. The review where correctness had closed the room. None of it required bad faith. It required a system that kept rewarding motion while connection thinned at the edges.
+Philip had seen that thinning in his own team—the engineer's narrowed range, the notes that made one reading easier to inherit, the review where correctness had closed the room. None of it required bad faith. It required a system that kept rewarding motion while connection thinned at the edges.
 
-Reachability means something modest.
-
-People live inside imperfect understanding not because the fog lifts, but because they remain addressable afterward—not infinitely patient, not without boundaries, not guaranteed safe—still reachable in a way that keeps correction from turning purely abstract.
-
-Restraint protects that reachability more often than it produces elegant dialogue. It refuses to finish someone in the room when finishing them would make return impossible—sometimes from mercy, sometimes from fear, sometimes from plain realism about what still has to get done.
-
-Connection is why that refusal can weigh more than how the sentence sounded at the time.
-
-Meaning keeps moving when lives stay coupled strongly enough that frozen readings carry a cost people can feel. That coupling is not positivity. It is not emotional safety as an entitlement. It is the persistence of consequence between people—the ordinary pressure that keeps "we might have gotten this wrong" from dissolving into background noise.
+Reachability means something modest: whether correction can still find a person after meaning has hardened—not whether everyone feels good, not whether trust is intact, but whether the relationship, the work, or the shared consequence still leaves a path back to revision.
 
 Weeks after the conference room, Nora asked Philip whether he had meant the dependency discussion as a decision. He had not. She knew what the room had begun doing anyway. They were able to say both things without either sentence canceling the other—not because they had achieved perfect understanding, but because they had not yet spent the relational credit required to make misunderstanding permanent.
 
 That is reachability in practice: not harmony, not agreement, not proof that the lens solved anything. Just enough ongoing consequence that a hardened read can still move when new facts, or new courage, arrives.
 
-Restraint asks people to slow interpretation when speed would seal a person into a story that leaves no path back. That demand can look like softness from systems trained to reward closure. Later understanding sometimes needs somewhere to land—and "somewhere" is usually another life, still reachable, not a cleaner transcript.
-
-If you want to see what still can move, watch what happens after the meeting ends. Watch whether people still answer each other. Watch whether the story has to be final in order for work—or love, or care, or plain necessity—to continue.
-
 They left the conference room with different summaries. They did not leave each other.
 
 ### **Core Principle: Reachability**
 
-Reachability is whether correction can still find a person after meaning has hardened—not whether everyone feels good, not whether trust is intact, not whether the first read was fair. It is whether the relationship, the work, or the shared consequence still leaves a path back to revision.
+People live inside imperfect understanding not because the fog lifts, but because they remain addressable afterward—not infinitely patient, not without boundaries, not guaranteed safe—still reachable in a way that keeps correction from turning purely abstract.
 
-Seeing this clearly does not promise that path will be taken. It makes one thing visible: understanding is not only a cognitive achievement. It is a relational condition. Where reachability survives, meaning can still move. Where it does not, even perfect clarity arrives too late to matter.
+Understanding is not only a cognitive achievement. It is a relational condition. Where reachability survives, meaning can still move. Where it does not, even perfect clarity arrives too late to matter.
 
 [^c9-clark-using-language]: Clark, Herbert H. *Using Language*. Cambridge: Cambridge University Press, 1996.
 [^c9-goffman-interaction-ritual]: Goffman, Erving. *Interaction Ritual*. New York: Pantheon Books, 1967.
