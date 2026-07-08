@@ -83,11 +83,10 @@ read as weakness at the wall.
 Expanded trade networks connected societies with different customs,
 gods, and moral norms. Goods traveled farther than shared meaning.
 
-A merchant in Tyre, a Phoenician port on the eastern Mediterranean in
-what is now Lebanon, might honor one god at home and invoke another at
-the counter where copper ingots changed hands, using weights stamped by an
-authority neither party fully trusted but both needed if trade was to
-proceed.
+A merchant in Tyre, a Phoenician port on the eastern Mediterranean,
+might honor one god at home and invoke another at the counter where
+copper ingots changed hands, using weights stamped by an authority
+neither party fully trusted but both needed if trade was to proceed.
 
 The ingots were heavy. The journey home long. Dispute at the scales
 could ruin a season's profit, so both parties learned to complete the

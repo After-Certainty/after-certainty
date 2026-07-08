@@ -34,8 +34,9 @@ displacement, warfare, and expanding abstraction. They were not answers
 to metaphysical curiosity alone. They were also responses to moral
 overload.
 
-In 586 BCE, Babylonian forces from Mesopotamia destroyed the temple in
-Jerusalem, in the hill country of Judah, and deported elites into exile. Priests, scribes, and families who had
+In 586 BCE, Babylonian forces destroyed the temple in Jerusalem, in the
+hill country of Judah, and deported elites into exile. Priests, scribes,
+and families who had
 organized life around a single sanctuary suddenly had to ask what could
 continue when the shrine no longer stood.[^c5-babylonian-exile]
 
@@ -99,10 +100,9 @@ effects.
 
 ### **A Different Portable Ethics: Warring States China**
 
-In Warring States China—a stretch of competing kingdoms across the Yellow
-River basin and beyond, in what is now eastern China—the background
-condition was different from exile, though the coordination problem
-rhymed. Political fragmentation
+In Warring States China—a landscape of competing kingdoms spread across
+much of the Chinese heartland—the background condition was different from
+exile, though the coordination problem rhymed. Political fragmentation
 outran any single court's ability to hold conduct steady across
 territories that warred, shifted allegiance, and absorbed refugees.
 
