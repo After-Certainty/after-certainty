@@ -16,6 +16,8 @@ She wanted to argue. Then she didn't. Something in her chest loosened—not beca
 
 That is one face of love, or something close enough to love that most of us recognize it immediately: someone seeing what you are actually experiencing, not only what you are saying.
 
+They had known each other since college. Her friend had been naming the true thing beneath the polite version for twenty years—not always correctly, not always kindly, but often enough that embarrassment, when it came, did not have to travel alone.
+
 ## What it looks like when someone sees you
 
 To see another person, in love, is not mainly an opinion.

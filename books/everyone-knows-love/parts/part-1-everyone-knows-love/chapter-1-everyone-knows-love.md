@@ -38,7 +38,7 @@ At a funeral, love shows up as a casserole chain, as someone folding chairs when
 
 A song comes on in a grocery store—some old chorus everyone knows—and for a second you are seventeen again, or newly married, or grieving, or all of those at once. You did not choose the memory. It chose you.
 
-Perhaps you have stood in a hospital hallway waiting for news that would not arrive quickly. You have watched someone sleep in a chair they did not intend to sleep in, because leaving felt impossible. You have brought soup to a neighbor you do not know well, because the situation asked for soup and you had a pot.
+Perhaps you have found, six months after someone came home from the hospital, that you still call at the same hour—not because anyone asked you to, but because the habit outlasted the crisis. You have brought soup to a neighbor you did not know well, because the situation asked for soup and you had a pot—and years later you may still make that soup, even after the neighbor has moved away, because the recipe has become how you remember a season when showing up was the whole vocabulary.
 
 You have read the same bedtime story for the hundredth time because the request was not really about the story.
 

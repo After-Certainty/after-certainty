@@ -16,7 +16,7 @@ Staying is love made visible across time.
 
 You can see a gift. You can hear a kind word. Staying is harder to photograph. It is the shift that does not come, the return, the second year, the ordinary Tuesday when leaving would be easier and no one would blame you.
 
-A parent wakes again at two in the morning.
+A grown child cuts food at the table for a parent who once prepared every meal—irritated by the slowness, tender without meaning to be, staying because the role reversed when no one was watching.
 
 A friend keeps calling back after the conversation went badly.
 
@@ -64,7 +64,7 @@ This is where the expressions begin to interact.
 
 You can stay and fail to see the person beside you—remain in the house but not in the relationship; fail to give—occupy a role without spending anything real; fail to repair—let wounds accumulate because leaving has been ruled out and mending has never been learned.
 
-You can also leave and still love, which confuses people who treat staying as the whole proof. Sometimes love requires distance. Sometimes the loving act is not remaining. That is a harder truth, and we will not pretend it is not.
+You can also leave and still love, which confuses people who treat staying as the whole proof. Sometimes love requires distance. Sometimes the loving act is not remaining—a former partner exchanging logistics about the children without reopening what cannot be repaired, still hoping, from a careful distance, that the other person becomes well. That is a harder truth, and we will not pretend it is not.
 
 But when someone remains and also sees, also gives, also tries to mend what breaks—when staying is chosen rather than merely endured—the face of love becomes easier to recognize.
 

@@ -38,7 +38,7 @@ Someone remains when remaining is costly.
 
 Someone turns back after failure and changes what can be changed.
 
-Each of these can deepen trust. Each can also be performed without it. The casserole looks the same whether it comes from generosity or strategy. The waiting room looks the same whether love or fear is sitting in the chair.
+Each of these can deepen trust. Each can also be performed without it. The same gesture can arrive from generosity or strategy—you learn the difference over years, not from one beautiful week. Trust is what a waiting-room chair becomes when someone has returned often enough that their staying stops feeling provisional.
 
 Trust is not proven by one beautiful week.
 

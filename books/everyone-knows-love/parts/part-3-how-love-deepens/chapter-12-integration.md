@@ -4,6 +4,8 @@ A couple was trying to decide whether to move closer to her father.
 
 Not a dramatic fight. Two maps on the kitchen table, coffee going cold, the ordinary weather of a long marriage. His work was here. Their children's schools were here. Her father's health was worsening three hours away, and the phone calls had begun to carry a new weight—not only information, but absence.
 
+They had begun making changes at his house before he agreed he needed them—grab bars installed while he was at a doctor's appointment, drawers labeled while he still insisted he knew where everything was, his wife's soup recipe photographed and saved in case memory outran appetite. Anticipatory love is not always welcomed. It is often how families try to answer a future that has not arrived yet.
+
 One of them thought they were weighing her preference against his.
 
 Then they noticed something else was happening.

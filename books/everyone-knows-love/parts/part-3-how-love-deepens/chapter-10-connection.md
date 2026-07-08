@@ -14,7 +14,7 @@ That is connection, or something close enough that most of us recognize it immed
 
 Connection often begins when a person stops being a category and becomes a particular someone—the coworker who is afraid of losing her mother, the teacher who notices a student is not lazy but afraid, the neighbor whose marriage is quieter than it used to be, the child who is brave in public and frightened in the dark.
 
-You do not always notice the moment it happens. Sometimes it arrives slowly—through years of small answers, shared weather, ordinary Tuesdays. Sometimes it arrives suddenly, in one conversation that changes the furniture of a relationship.
+You do not always notice the moment it happens. Sometimes it arrives slowly—through years of small answers and repeated Tuesdays until you know the baseline by heart. Sometimes it arrives suddenly, in one conversation that changes the furniture of a relationship.
 
 Either way, something shifts.
 
@@ -36,7 +36,7 @@ There is a difference between a pleasant acquaintance and a person whose name on
 
 Loneliness is not always solitude. Often it is the ache of being surrounded by people who do not quite have access to your inner life—and of sensing that you do not quite have access to theirs.
 
-Connection can exist long before reciprocity is equal. A parent and an infant. A partner caring for someone whose dementia has altered what return is possible. A friendship that is not fully returned and is nonetheless real on one side. Often, connection deepens as access becomes mutual—but it does not always begin there.
+Connection can exist long before reciprocity is equal. A parent and an infant. A partner caring for someone whose dementia has altered what return is possible—who may not recognize them today and still receives the mug set out every morning, the same mug, the same place, a ritual love keeps performing when memory cannot answer back. A friendship that is not fully returned and is nonetheless real on one side. Often, connection deepens as access becomes mutual—but it does not always begin there.
 
 When someone's joy improves your day; when someone's trouble sits down at your table; when you begin carrying one another without noticing you have started; when silence between you is not empty; when you do not have to begin from zero every time.
 
