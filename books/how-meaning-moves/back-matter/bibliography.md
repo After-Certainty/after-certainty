@@ -21,9 +21,6 @@
 - Deutsch, Morton. *The Resolution of Conflict*.
   New Haven, CT: Yale University Press, 1973.
 
-- Easterbrook, J. A. "The Effect of Emotion on Cue Utilization."
-  *Psychological Review* 66, no. 3 (1959): 183–201.
-
 - Edmondson, Amy C. *The Fearless Organization*.
   Hoboken, NJ: Wiley, 2018.
 
@@ -47,9 +44,6 @@
 
 - Kahneman, Daniel. *Thinking, Fast and Slow*.
   New York: Farrar, Straus and Giroux, 2011.
-
-- Kruglanski, Arie W. *The Psychology of Closed-Mindedness*.
-  New York: Psychology Press, 2004.
 
 - Kruglanski, Arie W. "The Need for Cognitive Closure."
   *Psychological Review* 97, no. 1 (1990): 37–52.
