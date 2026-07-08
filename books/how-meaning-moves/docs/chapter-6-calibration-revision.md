@@ -1,6 +1,6 @@
 # Chapter 6 — Calibration revision brief
 
-**Status:** **v2 complete** (author revision brief implemented)  
+**Status:** **v2.1 — style calibration benchmark** (author final-pass feedback implemented)  
 **File:** [`chapter-6-a-passing-comment-becomes-a-plan.md`](../parts/part-ii-rooms-that-accelerate-meaning/chapter-6-a-passing-comment-becomes-a-plan.md)  
 **Verdict:** Calibration validates Option B rewrite. Preserve opening almost completely; expand second Philip/Nora scene; cut or merge ~20–25% of middle exposition.
 

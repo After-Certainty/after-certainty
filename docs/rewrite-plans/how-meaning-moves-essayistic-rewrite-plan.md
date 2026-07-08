@@ -393,7 +393,7 @@ Drawn from HMM draft + comparison books—not Solnit mimicry, but **transferable
 | Field | Content |
 |-------|---------|
 | Merges | Old Ch 9 (primary) |
-| **Calibration status** | **v1 approved direction; v2 revision brief** — see [`chapter-6-calibration-revision.md`](books/how-meaning-moves/docs/chapter-6-calibration-revision.md) |
+| **Calibration status** | **v2.1 — style benchmark chapter** (final calibration pass complete) |
 | Opening | Passing comment → notes → plan change → denial — **preserve v1 opening almost completely** |
 | Authority in-scene | Add one line: launch date / judgment weight so room’s read is intelligible before abstraction |
 | Central object | **Shared document** = boundary object (fence-equivalent); meaning moves through artifact |
