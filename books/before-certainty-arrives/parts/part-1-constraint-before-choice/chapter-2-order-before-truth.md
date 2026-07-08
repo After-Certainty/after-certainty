@@ -30,8 +30,9 @@ The moral question was not *what is right*, but *what holds*.
 
 As populations expand, coordination becomes abstract.
 
-In the temple economies of Uruk, clerks pressed reeds into wet clay while
-the harvest was still being counted. A tablet might record barley
+In the temple economies of Uruk, a city on the Mesopotamian plain between
+the Tigris and Euphrates in what is now southern Iraq, clerks pressed
+reeds into wet clay while the harvest was still being counted. A tablet might record barley
 measured in gur, laborers assigned by the month, fields allotted by the
 cord. The impression dried hard. What had been spoken at the threshing
 floor became obligation that could be checked when the official was
