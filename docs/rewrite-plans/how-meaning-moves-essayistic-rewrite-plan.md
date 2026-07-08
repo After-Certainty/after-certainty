@@ -117,7 +117,7 @@ Drawn from HMM draft + comparison books—not Solnit mimicry, but **transferable
 - **HMM adaptation:** Telegram compression, cockpit CRM, meeting minutes as record—**one widening per chapter max**, return to scene.
 
 ### Everyone Knows Love ([`books/everyone-knows-love/`](books/everyone-knows-love/))
-- **Learn:** Ordinary Tuesdays, domestic objects (toast, chair), sensory particularity, recognition before explanation, brief aphorisms **supported** by fuller prose.
+- **Learn:** Domestic objects (toast, chair), sensory particularity, recognition before explanation, brief aphorisms **supported** by fuller prose—not the *Tuesday* temporal refrain (reserved for EKL; HMM avoids it).
 - **HMM adaptation:** Kitchen-table phrase, phone on nightstand, dish towel—**particular anchors** instead of “a manager” / “she.”
 
 ### What HMM must keep that is uniquely its own
@@ -389,14 +389,21 @@ Drawn from HMM draft + comparison books—not Solnit mimicry, but **transferable
 | Intensity | **Medium** |
 
 ### Chapter 6 — A Passing Comment Becomes a Plan
+
 | Field | Content |
 |-------|---------|
 | Merges | Old Ch 9 (primary) |
-| Opening | Passing comment → notes → plan change → denial |
-| Widening | Meeting minutes as institutional memory (verify) |
-| Strand A | **Keystone**—meaning moves through room, document, memory |
-| End principle | **Meaning Reinforces Itself** |
-| Intensity | **Heavy** (expand; calibration chapter) |
+| **Calibration status** | **v1 approved direction; v2 revision brief** — see [`chapter-6-calibration-revision.md`](books/how-meaning-moves/docs/chapter-6-calibration-revision.md) |
+| Opening | Passing comment → notes → plan change → denial — **preserve v1 opening almost completely** |
+| Authority in-scene | Add one line: launch date / judgment weight so room’s read is intelligible before abstraction |
+| Central object | **Shared document** = boundary object (fence-equivalent); meaning moves through artifact |
+| Second scene | **Expand** week-later check-in with dialogue; Nora as second perspective (coordination compression, not villain) |
+| Structure | 6 movements interleaving scene + argument (see revision brief); cut ~20–25% middle exposition |
+| Connection | Embody first (“Did you mean that as a decision?”); show nobody asked; observable underground correction |
+| Claim refine | Replace “less control over how people hear them” → authority paradox (words land heavier than speaker felt) |
+| End principle | **Meaning Reinforces Itself** — author-approved 3-paragraph close (cut “not malice/stupidity” middle) |
+| Citations | Milgram: cite or remove; Suchman/Morrison: complete bib metadata |
+| Intensity | **Heavy** (v2 pass) |
 
 ### Chapter 7 — What the Calendar Can Afford
 | Field | Content |
@@ -750,7 +757,7 @@ All additions flagged **requires verification** in bibliography pass.
 3. **Passage map** — spreadsheet: preserve / move / merge / revise / cut per § in each old `.md` → new chapter target.
 4. **Scaffold new TOC** — create `parts/part-i-what-arrives-first/`, `part-ii-rooms-that-accelerate-meaning/`, `part-iii-what-can-still-move/`; update `index.md` atomically.
 5. **Strand bible** — `books/how-meaning-moves/docs/recurring-strands.md`.
-6. **Calibration:** rewrite new Introduction + new Ch 6 (Passing Comment) → **author review before bulk rewrite**.
+6. **Calibration:** rewrite new Introduction + new Ch 6 (Passing Comment) → **author review** — Ch 6 v1 validated; **v2 revision** per [`chapter-6-calibration-revision.md`](books/how-meaning-moves/docs/chapter-6-calibration-revision.md) before Part I bulk rewrite.
 7. **Part I** — new Ch 1–3 (merge old 1–6 source material).
 8. **Part II** — new Ch 4–7 (domain + systems).
 9. **Part III** — new Ch 8–10 + epilogue (reachability culmination).

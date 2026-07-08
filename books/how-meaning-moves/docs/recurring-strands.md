@@ -11,7 +11,9 @@ Writer-facing continuity guide for the Option B essayistic rewrite. Do not publi
 | Name | Role | Notes |
 |------|------|-------|
 | **Philip** | Leader / director-level voice | Thinks aloud; hears himself as exploratory; authority he did not ask for |
-| **Nora** | Note-taker / project lead | Converts live speech into durable records; not antagonist |
+| **Nora** | Note-taker / project lead | Converts live speech into durable records; not antagonist. **Second perspective:** knows what the room began doing; her compression may be coordination work the organization requires—not careless falsification |
+
+**Central object:** The evolving **shared document** (notes → cleaned plan → ground truth). Treat as boundary object—like the fence in *Trust Beyond Similarity*: ordinary artifact, different kinds of truth for different people.
 
 **Naming:** Do not reuse character names from other books in the series (e.g. Trust Beyond Similarity's Marcus, Elena, David, Priya, Jade, Grace). Philip and Nora are reserved for this strand.
 
