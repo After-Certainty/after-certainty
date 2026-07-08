@@ -2,7 +2,7 @@
 
 Writer-facing continuity guide for the Option B essayistic rewrite. Do not publish this file in exports.
 
-## Strand A — The passing comment (Marcus / Elena)
+## Strand A — The passing comment (Philip / Nora)
 
 **Dramatic function:** Tentative leader language → notes → plan change → denial → institutional memory.
 
@@ -10,8 +10,10 @@ Writer-facing continuity guide for the Option B essayistic rewrite. Do not publi
 
 | Name | Role | Notes |
 |------|------|-------|
-| **Marcus** | Leader / director-level voice | Thinks aloud; hears himself as exploratory; authority he did not ask for |
-| **Elena** | Note-taker / project lead | Converts live speech into durable records; not antagonist |
+| **Philip** | Leader / director-level voice | Thinks aloud; hears himself as exploratory; authority he did not ask for |
+| **Nora** | Note-taker / project lead | Converts live speech into durable records; not antagonist |
+
+**Naming:** Do not reuse character names from other books in the series (e.g. Trust Beyond Similarity's Marcus, Elena, David, Priya, Jade, Grace). Philip and Nora are reserved for this strand.
 
 **Objects:** Whiteboard launch date (circled, rewritten); shared plan document; meeting notes.
 
@@ -28,8 +30,8 @@ Writer-facing continuity guide for the Option B essayistic rewrite. Do not publi
 
 **Continuity rules:**
 
-- Marcus never becomes a villain; authority is structural.
-- Elena writes accurately from the room's convergence, not from malice.
+- Philip never becomes a villain; authority is structural.
+- Nora writes accurately from the room's convergence, not from malice.
 - The assumption / launch thread must stay consistent across appearances.
 
 ## Strand B — The echoed phrase (family)
@@ -72,6 +74,7 @@ Writer-facing continuity guide for the Option B essayistic rewrite. Do not publi
 
 ## Cross-strand discipline
 
+- **No Tuesday motif:** Do not use *Tuesday*, *ordinary Tuesday*, *a Tuesday*, or *only on Tuesdays* as temporal anchors. That refrain belongs to *Everyone Knows Love*; use other days, seasons, or unnamed time ("a few days later," "midweek," "before the review") instead.
 - Strands may echo in the same chapter but one primary strand owns the opening scene.
 - No new anonymous one-off meeting vignettes unless universality is the point.
 - Return to an image or phrase before naming the Core Principle at chapter end.

@@ -368,6 +368,13 @@ Use these conventions consistently in manuscript files:
 - Wrap scene text in `::: {custom-style="Vignette Block"}` ... `:::`.
 - Keep interpretive analysis before or after the block, not inside it.
 
+## Recurring strands and series voice (Option B rewrite)
+
+When using recurring workplace strand characters (see `docs/recurring-strands.md`):
+
+- **Do not reuse names** from other books in the After Certainty series as fictional characters (e.g. Trust Beyond Similarity's Marcus, Elena, David, Priya, Jade, Grace). Strand A uses **Philip** and **Nora** unless the strand bible is updated.
+- **Avoid the Tuesday motif** from *Everyone Knows Love*: do not use *Tuesday*, *ordinary Tuesday*, *a Tuesday*, or *only on Tuesdays* as temporal anchors. Prefer unnamed time, other weekdays only when specific, or seasonal markers.
+
 ## Reader-Facing vs Writer-Facing
 
 - Reader-facing: `index.md`, `front-matter/`, `parts/`, `back-matter/`.

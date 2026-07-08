@@ -71,6 +71,11 @@ Drawn from HMM draft + comparison books—not Solnit mimicry, but **transferable
 
 **Voice lock:** Keep Part I’s calm observer register ([`book-rules.md`](books/how-meaning-moves/docs/book-rules.md) Part I voice lock)—but **invert delivery order**, not tone.
 
+### Series motif and naming guardrails
+
+- **Character names:** Recurring strand cast must not reuse names from other series books. Strand A uses **Philip** (leader) and **Nora** (note-taker)—not Marcus or Elena (*Trust Beyond Similarity*). See [`recurring-strands.md`](books/how-meaning-moves/docs/recurring-strands.md).
+- **Tuesday motif:** Do not borrow *Everyone Knows Love*'s temporal refrain. Avoid *Tuesday*, *ordinary Tuesday*, *a Tuesday*, and *only on Tuesdays* in HMM prose. Use other temporal anchors (e.g. "a few days later," "before the review," "midweek").
+
 ---
 
 ## 3. What must remain unchanged
