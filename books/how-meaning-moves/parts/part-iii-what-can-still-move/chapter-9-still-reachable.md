@@ -34,6 +34,10 @@ The phrase remained unfinished enough that correction could still find them—no
 
 Where lives stay coupled—by trust, dependence, history, care, or plain necessity—meaning cannot retire cleanly into "what we decided it meant." Contact shows up where people can still return to what was said and what remains unclear.[^c9-clark-using-language] Connection is what remains after people stop talking: whether return stays imaginable, whether a harsh read can still move, whether two lives stay coupled enough that a frozen story carries a cost someone can feel.[^c9-goffman-interaction-ritual]
 
+Meaning that cannot move turns people into fixed objects—easier to manage, harder to correct. But people keep generating behavior after a reading settles. Humans stay larger than stabilized readings of them.
+
+That obligation need not be warm. Sometimes it is familial, sometimes contractual, and sometimes simply the consequence of having to continue together.
+
 Connection is what keeps a stale reading from turning into a cage.
 
 Institutions optimize for coordination at distance—which often means treating humans as interchangeable enough that return becomes optional. Under that pressure, connection thins into choreography: people coordinate tasks while quietly sealing each other into roles that make the next quarter predictable.[^c9-perrow-normal-accidents] Philip had seen that thinning at work. The same pressure exists at home when two people learn to speak around a hardened phrase rather than through it.

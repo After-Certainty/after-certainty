@@ -18,6 +18,7 @@ book:
       url: https://www.amazon.com/gp/product/B0GM8TCB4P
       label: Buy on Amazon
   title_page_cover: BookCover.png
+  title_page_cover_unnumbered: true
   open_graph_image: open-graph.png
 
 paths:

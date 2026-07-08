@@ -75,8 +75,8 @@
 - Ross, Lee, and Richard Nisbett. *The Person and the Situation*.
   New York: McGraw-Hill, 1991.
 
-- Ross, Lee, and Andrew Ward. "Naive Realism in Everyday Life."
-  *Psychological Review* (1996).
+- Ross, Lee, and Andrew Ward. "Naive Realism in Everyday Life: Implications for Social Conflict and Misunderstanding."
+  In *Values and Knowledge*, edited by Edward S. Reed, Elliot Turiel, and Terrance Brown, 103–135. Hillsdale, NJ: Lawrence Erlbaum Associates, 1996.
 
 - Steele, Claude M. *Whistling Vivaldi*.
   New York: W. W. Norton & Company, 2010.

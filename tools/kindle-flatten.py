@@ -130,7 +130,7 @@ def strip_inline_cover_image(text: str) -> str:
     # or the first spine section is empty and readers open on copyright.
     lines = []
     for line in text.splitlines():
-        if re.search(r"!\[[^\]]*\]\(([^)]*(?:BookCover|book_cover)\.png)\)", line):
+        if re.search(r"!\[[^\]]*\]\(([^)]*(?:BookCover|book_cover|book-cover)\.png)\)", line):
             continue
         lines.append(line)
     cleaned = "\n".join(lines)

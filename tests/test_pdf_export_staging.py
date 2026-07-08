@@ -28,7 +28,9 @@ def test_stage_pdf_units_keeps_distinct_bridge_files(tmp_path: Path) -> None:
     bridge5.write_text("# Part V bridge\n", encoding="utf-8")
     closing_md.write_text("::: closing-quote\nQuote\n:::\n", encoding="utf-8")
 
-    staged = stage_pdf_units([bridge1, bridge5, closing_md], tmp_path / "pdf-tmp")
+    staged = stage_pdf_units(
+        [bridge1, bridge5, closing_md], tmp_path / "pdf-tmp", spec={}, book_dir=book
+    )
 
     assert staged[0] == bridge1.resolve()
     assert staged[1] == bridge5.resolve()

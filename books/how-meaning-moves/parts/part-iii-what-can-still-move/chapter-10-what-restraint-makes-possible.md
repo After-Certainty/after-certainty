@@ -28,7 +28,7 @@ They acted anyway—not because uncertainty had vanished, but because the launch
 
 A director who had not been in the room read Nora's notes the next morning and emailed Philip asking whether the team had lost confidence. The record had done its work: it made responsibility visible. It also made hesitation legible to someone grading surfaces rather than dependencies.
 
-Philip had the greatest standing to make the pause safe—and the most visible organizational accountability if asking it delayed the launch. The engineer had borne more of the vulnerable cost over the past months: whose caution had been read as blockage, whose speech had narrowed when feedback landed as verdict. Restraint is expensive everywhere. It is most expensive where authority and urgency meet.
+Philip had the greatest standing to make the pause safe—and the most visible organizational accountability if asking it delayed the launch. The engineer had borne more of the vulnerable cost over the past months: whose caution had been read as blockage, whose speech had narrowed when feedback landed as verdict. Restraint is expensive everywhere. It becomes especially consequential where authority and urgency meet.
 
 Restraint does not promise a clean ending. It promises that responsibility can keep working. Because uncertainty had remained visible in the room and in the record, correction remained possible after the decision— not a return to innocence, but a path back to revision without pretending the first choice had been fate.
 
@@ -38,6 +38,6 @@ Restraint does not solve communication. It keeps it human.
 
 ### **Returning Principle: Contact Keeps the Read Open**
 
-Here Contact is preserved in a decision and in a record: uncertainty left visible after action, so correction, consent, and responsibility still have somewhere to land. The reader already knows the discipline. This chapter shows what it can look like when authority makes that discipline structural.
+Here Contact is preserved in a decision and in a record: uncertainty left visible after action, so correction, consent, and responsibility still have somewhere to land. This chapter shows what it can look like when authority makes that discipline structural.
 
 [^c10-edmondson-fearless-organization]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.

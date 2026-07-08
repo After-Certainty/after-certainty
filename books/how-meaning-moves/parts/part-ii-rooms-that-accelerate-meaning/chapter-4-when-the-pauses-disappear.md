@@ -58,6 +58,6 @@ Pressure shrinks the distance between what people notice and what they treat as 
 
 [^c4-lazarus-emotion-adaptation]: Lazarus, Richard S. *Emotion and Adaptation*. New York: Oxford University Press, 1991.
 [^c4-edmondson-fearless-organization]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.
-[^c4-identity-and-caricature]: On how fights slide from topic to identity and how each side answers a simplified version of the other, see Ross, Lee, and Andrew Ward. "Naive Realism in Everyday Life." *Psychological Review* (1996); Tajfel, Henri, and John C. Turner. "The Social Identity Theory of Intergroup Behavior." In *Psychology of Intergroup Relations*, 1979.
+[^c4-identity-and-caricature]: On how fights slide from topic to identity and how each side answers a simplified version of the other, see Ross, Lee, and Andrew Ward. "Naive Realism in Everyday Life: Implications for Social Conflict and Misunderstanding." In *Values and Knowledge*, edited by Edward S. Reed, Elliot Turiel, and Terrance Brown, 103–135. Hillsdale, NJ: Lawrence Erlbaum Associates, 1996; Tajfel, Henri, and John C. Turner. "The Social Identity Theory of Intergroup Behavior." In *Psychology of Intergroup Relations*, 1979.
 [^c4-kahan-motivated-reasoning]: Kahan, Dan M. "Motivated Reasoning." *Behavioral and Brain Sciences* (2017).
 [^c4-deutsch-resolution-conflict]: Deutsch, Morton. *The Resolution of Conflict*. New Haven, CT: Yale University Press, 1973.

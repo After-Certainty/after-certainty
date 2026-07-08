@@ -56,5 +56,5 @@ Accuracy asks whether something is true. Restraint asks what truth is doing here
 
 [^c8-cognition-enforcement]: On how truth moves through bodies and relationships before it settles as "fact," and how closure and confirmation dynamics accelerate once correctness feels settled, see Barrett, Lisa Feldman. *How Emotions Are Made: The Secret Life of the Brain*. Boston: Houghton Mifflin Harcourt, 2017; Kruglanski, Arie W. "The Need for Cognitive Closure." *Psychological Review* (1990); Nickerson, Raymond S. "Confirmation Bias." *Review of General Psychology* (1998).
 [^c8-fricker-epistemic-injustice]: Fricker, Miranda. *Epistemic Injustice*. New York: Oxford University Press, 2007.
-[^c8-ross-ward-naive-realism]: Ross, Lee, and Andrew Ward. "Naive Realism in Everyday Life." *Psychological Review* (1996).
+[^c8-ross-ward-naive-realism]: Ross, Lee, and Andrew Ward. "Naive Realism in Everyday Life: Implications for Social Conflict and Misunderstanding." In *Values and Knowledge*, edited by Edward S. Reed, Elliot Turiel, and Terrance Brown, 103–135. Hillsdale, NJ: Lawrence Erlbaum Associates, 1996.
 [^c8-arendt-responsibility-judgment]: Arendt, Hannah. *Responsibility and Judgment*. New York: Schocken Books, 2003.

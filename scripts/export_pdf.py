@@ -17,7 +17,13 @@ if str(Path(__file__).resolve().parent) not in sys.path:
     sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from assemble import assemble_markdown_units  # noqa: E402
-from book_export_assets import pdf_header_tex, prepare_closing_markdown_for_pdf  # noqa: E402
+from book_export_assets import (  # noqa: E402
+    pdf_header_tex,
+    prepare_closing_markdown_for_pdf,
+    prepare_title_page_for_pdf,
+    title_page_cover_basename,
+    title_page_cover_unnumbered,
+)
 from book_output_stem import stem_for_book_dir  # noqa: E402
 from book_specs import load_spec_for_book_dir, spec_format_config  # noqa: E402
 from diagram_rasterize import rasterize_book_diagrams  # noqa: E402
@@ -30,18 +36,37 @@ def run(cmd: list[str]) -> None:
         raise SystemExit(f"PDF export failed (exit {exc.returncode}): {' '.join(cmd)}") from exc
 
 
-def stage_pdf_units(units: list[Path], tmp_dir: Path) -> list[Path]:
+def stage_pdf_units(
+    units: list[Path],
+    tmp_dir: Path,
+    *,
+    spec: dict,
+    book_dir: Path,
+) -> list[Path]:
     """
     Return pandoc input paths in manuscript order.
 
-    Only ``closing.md`` is copied into ``tmp_dir`` (PDF-specific LaTeX tweaks).
-    Other units keep their repo paths so duplicate basenames (e.g. part bridges)
-    are not collapsed into one temp file.
+    ``closing.md`` and ``title-page.md`` may be copied into ``tmp_dir`` for
+    format-specific tweaks. Other units keep their repo paths so duplicate
+    basenames (e.g. part bridges) are not collapsed into one temp file.
     """
+    unnumbered_cover = title_page_cover_unnumbered(spec)
+    cover_basename = title_page_cover_basename(spec)
     staged: list[Path] = []
     for unit in units:
         if unit.name == "closing.md":
             text = prepare_closing_markdown_for_pdf(unit.read_text(encoding="utf-8"))
+            tmp_dir.mkdir(parents=True, exist_ok=True)
+            dest = tmp_dir / unit.name
+            dest.write_text(text, encoding="utf-8")
+            staged.append(dest)
+        elif unit.name == "title-page.md" and unnumbered_cover and cover_basename:
+            cover_src = book_dir / cover_basename
+            text = prepare_title_page_for_pdf(
+                unit.read_text(encoding="utf-8"),
+                cover_basename,
+                cover_path=cover_src if cover_src.is_file() else None,
+            )
             tmp_dir.mkdir(parents=True, exist_ok=True)
             dest = tmp_dir / unit.name
             dest.write_text(text, encoding="utf-8")
@@ -85,7 +110,7 @@ def main() -> None:
     rasterize_book_diagrams(book_dir)
 
     with tempfile.TemporaryDirectory(prefix="pdf-export-") as tmp:
-        pdf_units = stage_pdf_units(units, Path(tmp))
+        pdf_units = stage_pdf_units(units, Path(tmp), spec=spec, book_dir=book_dir)
 
         page_size = args.page_size.strip() or str(pdf_cfg.get("page_size", "")).strip()
         margins = pdf_cfg.get("margins", {})
