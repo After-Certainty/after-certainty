@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 _ROOT = Path(__file__).resolve().parents[1]
@@ -18,13 +19,41 @@ if str(Path(__file__).resolve().parent) not in sys.path:
     sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from assemble import assemble_markdown_units, assemble_part_sections  # noqa: E402
-from book_export_assets import reference_docx  # noqa: E402
+from book_export_assets import (  # noqa: E402
+    prepare_title_page_for_docx,
+    reference_docx,
+    title_page_cover_basename,
+    title_page_cover_unnumbered,
+)
 from book_output_stem import stem_for_book_dir  # noqa: E402
+from book_specs import load_spec_for_book_dir  # noqa: E402
 from diagram_rasterize import rasterize_book_diagrams  # noqa: E402
 
 
 def run(cmd: list[str]) -> None:
     subprocess.run(cmd, check=True)
+
+
+def stage_docx_units(units: list[Path], tmp_dir: Path, *, spec: dict) -> list[Path]:
+    unnumbered_cover = title_page_cover_unnumbered(spec)
+    cover_basename = title_page_cover_basename(spec)
+    if not (unnumbered_cover and cover_basename):
+        return units
+
+    staged: list[Path] = []
+    for unit in units:
+        if unit.name == "title-page.md":
+            text = prepare_title_page_for_docx(
+                unit.read_text(encoding="utf-8"),
+                cover_basename,
+            )
+            tmp_dir.mkdir(parents=True, exist_ok=True)
+            dest = tmp_dir / unit.name
+            dest.write_text(text, encoding="utf-8")
+            staged.append(dest)
+        else:
+            staged.append(unit)
+    return staged
 
 
 def build_pandoc_cmd(
@@ -84,6 +113,7 @@ def main() -> None:
 
     repo = Path(args.repo).resolve()
     book_dir = (repo / args.book_dir).resolve()
+    spec = load_spec_for_book_dir(book_dir)
     book_stem = args.out_stem.strip() or stem_for_book_dir(book_dir.as_posix(), root=repo)
 
     rasterize_book_diagrams(book_dir)
@@ -114,13 +144,15 @@ def main() -> None:
     if not units:
         raise SystemExit(f"No markdown units found from {book_dir / 'index.md'}")
 
-    out = book_dir / f"{book_stem}.docx"
-    export_docx_file(
-        pandoc=args.pandoc,
-        book_dir=book_dir,
-        units=units,
-        out=out,
-    )
+    with tempfile.TemporaryDirectory(prefix="docx-export-") as tmp:
+        docx_units = stage_docx_units(units, Path(tmp), spec=spec)
+        out = book_dir / f"{book_stem}.docx"
+        export_docx_file(
+            pandoc=args.pandoc,
+            book_dir=book_dir,
+            units=docx_units,
+            out=out,
+        )
 
 
 if __name__ == "__main__":

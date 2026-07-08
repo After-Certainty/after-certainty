@@ -88,6 +88,9 @@
           "type": "string",
           "minLength": 1
         },
+        "title_page_cover_unnumbered": {
+          "type": "boolean"
+        },
         "open_graph_image": {
           "type": "string",
           "minLength": 1

@@ -15,8 +15,9 @@ _TOOLS = _ROOT / "tools"
 if str(_TOOLS) not in sys.path:
     sys.path.insert(0, str(_TOOLS))
 
-from book_export_assets import epub_css  # noqa: E402
+from book_export_assets import epub_css, resolve_title_page_cover_path  # noqa: E402
 from book_output_stem import stem_for_book_dir  # noqa: E402
+from book_specs import load_spec_for_book_dir  # noqa: E402
 
 
 def run(cmd: list[str]) -> None:
@@ -33,6 +34,7 @@ def main() -> None:
 
     repo = Path(args.repo).resolve()
     book_dir = (repo / args.book_dir).resolve()
+    spec = load_spec_for_book_dir(book_dir)
     index = book_dir / "index.md"
     if not index.exists():
         raise SystemExit(f"Missing index.md: {index}")
@@ -55,13 +57,8 @@ def main() -> None:
         ]
     )
 
-    cover = ""
-    if (book_dir / "BookCover.png").exists():
-        cover = (book_dir / "BookCover.png").as_posix()
-    elif (book_dir / "book_cover.png").exists():
-        cover = (book_dir / "book_cover.png").as_posix()
-    elif (book_dir / "book-cover.png").exists():
-        cover = (book_dir / "book-cover.png").as_posix()
+    cover_path = resolve_title_page_cover_path(book_dir, spec)
+    cover = cover_path.as_posix() if cover_path is not None else ""
 
     cmd = [
         args.pandoc,
