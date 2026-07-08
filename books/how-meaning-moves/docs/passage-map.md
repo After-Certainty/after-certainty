@@ -18,12 +18,12 @@ Maps each legacy manuscript unit to **preserve**, **move**, **merge**, **revise*
 
 | Legacy | Action | New ch | Status |
 |--------|--------|--------|--------|
-| Old Ch 1 Signal | merge + revise | Ch 1 Before the Words | stub |
-| Old Ch 4 Speaking Under Signal | merge | Ch 1 | pending |
-| Old Ch 2 Compression | merge + revise | Ch 2 Story That Arrives First | stub |
-| Old Ch 5 Listening | merge | Ch 2 | pending |
-| Old Ch 3 Restraint | merge + revise | Ch 3 Cost of Leaving It Open | stub |
-| Old Ch 6 When Restraint Fails | merge | Ch 3 | pending |
+| Old Ch 1 Signal | merge + revise | Ch 1 Before the Words | **done** |
+| Old Ch 4 Speaking Under Signal | merge | Ch 1 | **done** |
+| Old Ch 2 Compression | merge + revise | Ch 2 Story That Arrives First | **done** |
+| Old Ch 5 Listening | merge | Ch 2 | **done** |
+| Old Ch 3 Restraint | merge + revise | Ch 3 Cost of Leaving It Open | **done** |
+| Old Ch 6 When Restraint Fails | merge | Ch 3 | **done** |
 
 ## Part II — Rooms That Accelerate Meaning
 
@@ -56,9 +56,9 @@ Maps each legacy manuscript unit to **preserve**, **move**, **merge**, **revise*
 
 | Vignette | Strand | New home |
 |----------|--------|----------|
-| Routine Meeting | A | Ch 1 opening (pending) |
-| Message Thread | B | Ch 2 opening (pending) |
-| Delayed Correction | B | Ch 3 opening (pending) |
+| Routine Meeting | A | Ch 1 opening **done** |
+| Message Thread | B | Ch 2 opening **done** |
+| Delayed Correction | B | Ch 3 opening **done** |
 | Passing Comment | A | Ch 6 **done** |
 | Pace Shift | — | Ch 4 opening (pending) |
 | Echoed Comment | B | Ch 5 opening (pending) |
@@ -70,7 +70,7 @@ Maps each legacy manuscript unit to **preserve**, **move**, **merge**, **revise*
 
 ## Next rewrite batches
 
-1. **Part I** (Ch 1–3): merge old 1+4, 2+5, 3+6; scene-first; Core Principle endings.
+1. ~~**Part I** (Ch 1–3)~~ **done** — Ch 4–5, 7 next.
 2. **Part II** (Ch 4–5, 7): domain chapters + Ch 7 merge of old 10+11.
 3. **Part III** (Ch 8–10) + epilogue: reachability arc.
 4. **Retire** legacy `parts/` directories and orphaned front matter.

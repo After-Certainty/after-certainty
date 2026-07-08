@@ -151,5 +151,13 @@ Seeing this clearly does not give leaders a new script. It makes one obligation 
 - [ ] Connection embodied before named
 - [ ] ~20–25% shorter middle; three consolidated movements
 - [ ] Core principle uses author-approved three-paragraph close
-- [ ] Milgram cited or removed
-- [ ] No Tuesday motif; Philip/Nora names only
+- [x] Milgram cited or removed — **removed** (v2.1)
+- [x] No Tuesday motif; Philip/Nora names only
+
+## v2.1 final pass (benchmark chapter)
+
+- Removed Milgram; narrowed risk-management sentence; French/Raven only
+- "Distortion under authority" replaces premature "harm"; harm named after engineer withholds questions
+- Engineer glance less narratively decoded; cost named after action
+- Concrete structural restraint (pause room, ask what was decided); asymmetric obligation (anyone could ask; Philip greatest obligation)
+- Smoothed Philip → leaders tense shift; cut "no villain" / "not careless" repetitions
