@@ -2,11 +2,7 @@
 
 ## Current phase
 
-**Phase 5 (agent pipeline)** — Parts I–IV complete; **08** manuscript echo gate complete (May 2026)
-
-## Active branch
-
-`promote/when-interpretation-no-longer-matters`
+**Phase 5 (essay edition)** — Parts I–IV complete; agent pipeline **01–08** complete (May 2026)
 
 ## Manuscript hub
 
@@ -14,7 +10,14 @@
 
 ## Expansion decision
 
-**Essay maintenance** (~13–15k) until author selects full case-study band (~80–110k). Agent **01** runs light deepen only under essay maintenance.
+**Locked (July 2026):** concentrated **essay edition** (~14.5k) is the export band. Promoted to `books/` in PR #155.
+
+| Band | Status |
+|------|--------|
+| **Essay edition** (~13–15k) | **Current** — export-ready after author gate + build smoke |
+| **Full case-study band** (~80–110k) | **Deferred** — schedule Agent **01** heavy passes when author requests |
+
+Agent **01** runs light deepen only under the essay edition.
 
 ## Unit progress (agent pipeline)
 
@@ -127,11 +130,19 @@
 
 **Cluster note:** No re-teaching of incentives/metrics or compression-as-primary mechanism; book lens stays authority-after-interpretation-fails.
 
+## Author gate
+
+Parts III–IV human read-through: [`author-read-through-gate-parts-iii-iv.md`](author-read-through-gate-parts-iii-iv.md)
+
+## Build smoke
+
+**July 2026:** `make validate-book-specs` pass; `make build-book DIR=books/when-interpretation-no-longer-matters FORMATS="docx epub"` pass (28 units). PDF export requires `xelatex` (verify in CI/release workflow).
+
 ## Next actions
 
-1. `make build-book DIR=books/when-interpretation-no-longer-matters` smoke test.
-2. Author read-through before full-band expansion decision.
+1. Author sign-off on Parts III–IV gate checklist.
+2. Export smoke test (see **Build smoke** above).
 
 ## Rough scale
 
-- ~13,400 words baseline (May 2026); pipeline edits are structural/voice under essay maintenance, not full-band growth
+- ~14,500 words (July 2026); pipeline edits are structural/voice under essay edition, not full-band growth

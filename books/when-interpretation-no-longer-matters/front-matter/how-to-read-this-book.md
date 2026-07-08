@@ -1,5 +1,9 @@
 # **How to Read This Book**
 
+## **Edition**
+
+This is a concentrated essay in the judgment / compression cluster of the series. It presents the full four-part arc—where interpretation ends, what replaces it, comparative cases, and what remains afterward—in a compact form. A longer case-study edition may follow later; for cluster boundaries and reading order, see the [series guide](../../../docs/series-guide.md).
+
 This book is not designed to be consumed quickly. It does not reward skimming, nor does it assume that clarity will arrive all at once. Many of the distinctions developed here are subtle by necessity. They are meant to slow perception rather than accelerate conclusion.
 
 If that feels demanding, it is not because the material is technical. The subject resists simplification.

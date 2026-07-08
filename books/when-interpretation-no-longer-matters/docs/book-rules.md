@@ -8,7 +8,8 @@ Architectural constraints for **When Interpretation No Longer Matters** (*Author
 
 ### Target length
 
-- Full case-study book (~80–110k words at completion; current draft ~13.3k)
+- **Current edition:** concentrated essay (~14.5k words) — export band locked July 2026
+- **Long-term full band:** case-study book (~80–110k words) — deferred; see `docs/status.md`
 - 4 parts, 13 chapters, glossary, structural appendix
 
 ### Case-study chapter template
