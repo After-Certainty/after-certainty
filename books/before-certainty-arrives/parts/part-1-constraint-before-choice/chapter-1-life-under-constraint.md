@@ -10,13 +10,15 @@ Early human societies globally (Stone Age through Early Bronze Age)
 
 Before morality could be debated, it had to function.
 
-At Çatalhöyük, in what is now central Turkey, people built houses that
-shared walls with their neighbors and buried their dead beneath the
-floors where they slept. Plastered skulls rested in corners. Wall
-paintings showed cattle and hands. A visitor walking the settlement's
-roof-level paths would have seen a dense lattice of domestic life with
-no streets below—only thresholds, ovens, and the same plastered surfaces
-touched daily by many hands.[^c1-catalhoyuk]
+Çatalhöyük—a modern name for a Neolithic mound in what is now central
+Turkey—was home to farmers, herders, and hunters who lived in dense
+houses entered from the roof. We do not know what they called their
+settlement or themselves. They shared walls with their neighbors and
+buried their dead beneath the floors where they slept. Plastered skulls
+rested in corners. Wall paintings showed cattle and hands. A visitor
+walking the settlement's roof-level paths would have seen a dense lattice
+of domestic life with no streets below—only thresholds, ovens, and the
+same plastered surfaces touched daily by many hands.[^c1-catalhoyuk]
 
 We cannot know what those people believed about the good. The material
 record does not give us sermons or arguments. It gives us repetition:
@@ -56,9 +58,9 @@ behavior more than individual justification or deliberative ethics. Ritual,
 taboo, and authority functioned as social technologies for reducing
 uncertainty when material and existential risk was high.[^c1-early-moral-anthropology]
 
-At Çatalhöyük, the same domestic patterns recurred across generations:
-houses rebuilt in place, burials beneath living floors, images renewed
-on plaster. Whatever meaning those practices carried—and they likely
+In those households, the same domestic patterns recurred across
+generations: houses rebuilt in place, burials beneath living floors,
+images renewed on plaster. Whatever meaning those practices carried—and they likely
 carried grief, belonging, and awe as well as constraint—they also
 narrowed choice. The repeated arrangement suggests a life in which fewer
 relationships and obligations had to be invented anew each night.
@@ -160,9 +162,8 @@ When coordination becomes fragile, societies narrow interpretation,
 behavior, and acceptable disagreement in order to hold action steady.
 That narrowing often arrives long before anyone names it doctrine.
 
-At Çatalhöyük, the plastered skull in the corner did not argue for a
-theology. It sat there, renewed or remembered, while the household
-carried on around it. Whatever its participants believed about it, the
+The plastered skull in the corner did not argue for a theology. It sat
+there, renewed or remembered, while the household carried on around it. Whatever its participants believed about it, the
 object made visible a pattern that would recur across millennia:
 conduct held steady first; meaning thickened later.
 
