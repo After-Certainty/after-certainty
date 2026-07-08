@@ -8,6 +8,8 @@ No one used the word love in anyone's hearing, as far as anyone could tell.
 
 The word would have been too small for what was happening and somehow exactly right.
 
+Six months later, the casseroles had stopped arriving, but one neighbor still called on the first Monday of the month—not with food, just to ask whether the walk had been cleared. Grief, she was learning, was not only a funeral and a week of kindness. It was also a schedule that kept rearranging itself around an absence that did not move.
+
 That was community, or something close enough that most of us recognize it when it appears: love practiced at a scale larger than a household, often without names, often without claims—and often among people who were not already bound together at the start.
 
 ## When strangers become neighbors
@@ -26,7 +28,7 @@ Community stretches love toward people we do not fully know.
 
 In community, love often arrives as noticing—who is missing from the gathering, who is new, who is carrying something heavy in the checkout line. It arrives as the casserole, the shovel, the hour volunteered, the donation sent without needing to be admired. It arrives as the neighbor who does not treat your grief as a season with an expiration date, the organization that keeps meeting after the crisis fades, the apology offered after the block party went wrong.
 
-The casserole looks identical. Community is where you sometimes learn, slowly, to feel the difference between regard and performance.
+The casserole looks identical from the outside. Community is where you sometimes learn, slowly, to feel the difference between regard and performance.
 
 ## How it passes on
 
@@ -36,7 +38,7 @@ You will not integrate with every neighbor. You will not trust every committee m
 
 Community also reaches people who live alone. Not every answer arrives from a spouse at the door. Sometimes it is the retired neighbor who remembers your schedule, the friend who checks in on Tuesday, the coworker who notices you have gone quiet.
 
-A child may first learn this at a table that is not their own—food appearing on the worst week, a shovel at the door, an adult who stays long enough for silence to soften. Years later, the same child may be the one clearing the walk.
+A child may first learn this at a table that is not their own—food appearing on the worst week, a shovel at the door, an adult who stays long enough for silence to soften. Years later, the same child may be the one clearing the walk, not because anyone assigned the task, but because they remember a winter when someone did it without being asked and the gesture became part of how they understand a street.
 
 ## What community does not promise
 

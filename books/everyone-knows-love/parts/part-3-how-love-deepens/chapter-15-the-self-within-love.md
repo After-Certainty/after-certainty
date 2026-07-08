@@ -6,6 +6,8 @@ Not a dramatic breakdown. The quieter kind—always available, always useful, al
 
 There is a feeling many people recognize—the parent who has become only a parent, the partner who has become only a caretaker, the friend who is excellent in everyone else's crisis and vague in their own, the grown child who still orbits the family weather and calls it devotion, the person who gives beautifully and cannot receive.
 
+Sometimes the person who answers every text before finishing a thought of their own learned that reflex when someone in the house really needed reaching—not wrong then, but the need has changed and the habit has not. What once protected can begin to organize someone else's day without asking.
+
 None of this means love is absent. Often it means love has been real for so long that the self doing the loving has gone quiet.
 
 ## When the self goes missing

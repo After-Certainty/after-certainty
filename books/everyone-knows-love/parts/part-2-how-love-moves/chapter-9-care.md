@@ -34,7 +34,7 @@ Why does a parent's Sunday call stay with them in a way a pleasant conversation 
 
 Why does a partner's bad morning become their bad morning before they have exchanged more than a look?
 
-Why does one friend's silence feel like weather in the house, while another friend's silence might not register at all until the next time they meet?
+Why does one friend's silence settle in the house like a change of pressure, while another friend's silence might not register at all until the next time they meet?
 
 You have your own list. A child. A parent. A spouse. A friend who has become, without ceremony, part of your inner furniture. Someone whose good news you celebrate before you have heard the details. Someone whose pain you do not merely understand—you feel it in the body, as if the day itself has grown a new nerve.
 
@@ -50,7 +50,7 @@ You can hear that a person lost a job and feel appropriate concern. You can also
 
 Same fact. Different weight.
 
-Their good week improves yours—not always visibly, not always fairly, but often enough that you recognize the pattern. Their ordinary Tuesday can brighten your kitchen. Their hard season can make your own pleasures feel slightly indecent, as if joy needed permission while someone you love is struggling.
+Their good week improves yours—not always visibly, not always fairly, but often enough that you recognize the pattern. Their good day can brighten your kitchen without announcement. Their hard season can make your own pleasures feel slightly indecent, as if joy needed permission while someone you love is struggling.
 
 Their pain is not merely information—it is weight.
 

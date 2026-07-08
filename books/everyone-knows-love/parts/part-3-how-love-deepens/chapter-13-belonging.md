@@ -36,7 +36,7 @@ A child fails a class and dreads the drive home—not because the parents are cr
 
 A person returns to a family gathering after an embarrassing mistake—the wrong words at the wrong time, the story everyone will remember longer than they will. They brace for the subtle exile: the shorter conversation, the look that says *We are still polite, but you have moved one ring outward.* Then an aunt catches their eye across the room and makes space on the couch without making a speech about it. Nothing is named. The place is simply still there.
 
-A friend has not called in months—not from malice, from the ordinary drift of adult life, the shame of having been absent, the fear that too much time has passed. They finally show up at the door with nothing to offer but awkwardness. The friend opens it as if no time had been required to earn re-entry. *Get in here,* they say. *I was starting to wonder where you went.*
+A friendship that has survived since high school can absorb months of drift—not because nothing changed, but because twenty years of return have taught both people that silence is not always exile. A friend finally shows up at the door with nothing to offer but awkwardness. The friend opens it as if no time had been required to earn re-entry. *Get in here,* they say. *I was starting to wonder where you went.*
 
 In each case, something more than kindness is happening.
 

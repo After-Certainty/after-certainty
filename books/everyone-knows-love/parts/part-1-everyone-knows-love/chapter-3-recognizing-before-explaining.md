@@ -50,7 +50,7 @@ That failure does not mean the recognition was false.
 
 It often means language arrived late.
 
-We knew love in practice before we had theories for it. The held hand. The repaired argument. The person who stayed. The grief that rearranged a room. The small act no one filmed. We recognized these as belonging to something important before we could say what that something was.
+We knew love in practice before we had theories for it. The held hand. The repaired argument. The person who stayed. The grief that changed how a room sounded when you walked in. The small act no one filmed. We recognized these as belonging to something important before we could say what that something was.
 
 ## The agreement beneath the arguments
 

@@ -18,7 +18,7 @@ How can two people stop talking for years and still feel like friends?
 
 Life happens. Children happen. Jobs happen. Moves happen. Years happen. And somehow real friendship often says *Welcome back* instead of *Where have you been?*
 
-The college roommate you have not seen since graduation. The coworker from another city. The person you kayak with once a summer. Two friends in their eighties who meet for coffee every Thursday—not because they have much news, but because the friendship has outlasted almost everyone else they used to call.
+The college roommate you have not seen since graduation. The coworker from another city. The person you kayak with once a summer. Two friends in their eighties who meet for coffee every Thursday—not because they have much news, but because forty years of Thursdays have made the ritual easier than explaining why they still need it. They know how each other takes sugar. They know which pauses mean grief and which mean arthritis. The friendship has outlasted almost everyone else they used to call.
 
 You start talking—and within minutes you are back. Not because nothing changed. Because the bond was built to tolerate drift.
 

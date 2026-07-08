@@ -18,11 +18,11 @@ Love shows up as small acts of voluntary inconvenience.
 
 Not every inconvenience is love. Traffic is inconvenient. Bureaucracy is inconvenient. But love often announces itself in the small places where someone could have stayed home and did not.
 
-A parent wakes at two in the morning because the child is frightened.
+A friend calls after every difficult appointment—not because you asked, but because, somewhere in the third year, the pattern became part of how you both measure a hard season.
 
-A friend cancels plans because your voice sounded wrong on the phone.
+Someone cancels plans because your voice sounded wrong on the phone.
 
-A coworker stays late to help you finish something that is not, strictly speaking, their problem.
+A grown child fills a pill organizer every Sunday for a parent who once filled theirs—grumbling a little, forgetting once, returning to the habit anyway because the week has been organized around it for a decade.
 
 A stranger holds a door longer than necessary because your hands are full.
 
