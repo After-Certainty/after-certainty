@@ -16,7 +16,7 @@ Staying is love made visible across time.
 
 You can see a gift. You can hear a kind word. Staying is harder to photograph. It is the shift that does not come, the return, the second year, the ordinary Tuesday when leaving would be easier and no one would blame you.
 
-A grown child cuts food at the table for a parent who once prepared every meal—irritated by the slowness, tender without meaning to be, staying anyway.
+A grown child cuts food at the table for a parent who once prepared every meal—irritated by the slowness, tender without meaning to be.
 
 A friend keeps calling back after the conversation went badly.
 
