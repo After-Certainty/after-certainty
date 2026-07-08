@@ -23,8 +23,9 @@ What changed was not collapse, but exposure.
 
 Certainty was no longer wrong so much as no longer alone.
 
-In 1550 and 1551, at Valladolid in Spain, Bartolomé de las Casas and
-Juan Ginés de Sepúlveda argued before a panel of theologians and
+In 1550 and 1551, at Valladolid, then the administrative capital of
+Castile in central Spain, Bartolomé de las Casas and Juan Ginés de
+Sepúlveda argued before a panel of theologians and
 jurists over whether Spanish conquest in the Americas could be justified,
 whether Indigenous peoples could be ruled as natural slaves under inherited
 Aristotelian categories, what duties Christian natural law imposed on
