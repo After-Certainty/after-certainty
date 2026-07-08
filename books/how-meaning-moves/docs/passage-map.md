@@ -29,11 +29,11 @@ Maps each legacy manuscript unit to **preserve**, **move**, **merge**, **revise*
 
 | Legacy | Action | New ch | Status |
 |--------|--------|--------|--------|
-| Old Ch 7 Conflict | revise | Ch 4 When the Pauses Disappear | stub |
-| Old Ch 8 Intimacy/Family | revise | Ch 5 Archive in the Kitchen | stub |
+| Old Ch 7 Conflict | revise | Ch 4 When the Pauses Disappear | **done** |
+| Old Ch 8 Intimacy/Family | revise | Ch 5 Archive in the Kitchen | **done** |
 | Old Ch 9 Leadership | revise + expand | Ch 6 Passing Comment | **done** (v2) |
-| Old Ch 10 Work/Feedback | merge | Ch 7 Calendar Can Afford | pending |
-| Old Ch 11 Better Communication Rare | merge + revise | Ch 7 | stub |
+| Old Ch 10 Work/Feedback | merge | Ch 7 Calendar Can Afford | **done** |
+| Old Ch 11 Better Communication Rare | merge + revise | Ch 7 | **done** |
 
 ## Part III — What Can Still Move
 
@@ -60,17 +60,17 @@ Maps each legacy manuscript unit to **preserve**, **move**, **merge**, **revise*
 | Message Thread | B | Ch 2 opening **done** |
 | Delayed Correction | B | Ch 3 opening **done** |
 | Passing Comment | A | Ch 6 **done** |
-| Pace Shift | — | Ch 4 opening (pending) |
-| Echoed Comment | B | Ch 5 opening (pending) |
-| Aligned Surface | C | Ch 7 (pending merge) |
-| Affordable Pace | A | Ch 7 opening (pending) |
+| Pace Shift | — | Ch 4 opening **done** |
+| Echoed Comment | B | Ch 5 opening **done** |
+| Aligned Surface | C | Ch 7 **done** |
+| Affordable Pace | A | Ch 7 opening **done** |
 | Cost of Correctness / When Rightness Repairs | C | Ch 8 (pending) |
 | After the Meeting | — | Ch 9 opening (pending) |
 | Holding the Decision Open | A | Ch 10 (pending) |
 
 ## Next rewrite batches
 
-1. ~~**Part I** (Ch 1–3)~~ **done** — Ch 4–5, 7 next.
-2. **Part II** (Ch 4–5, 7): domain chapters + Ch 7 merge of old 10+11.
+1. ~~**Part I** (Ch 1–3)~~ **done**
+2. ~~**Part II** (Ch 4–5, 7)~~ **done** — Part II complete (Ch 6 was calibration benchmark).
 3. **Part III** (Ch 8–10) + epilogue: reachability arc.
 4. **Retire** legacy `parts/` directories and orphaned front matter.
