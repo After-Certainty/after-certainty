@@ -18,9 +18,6 @@
 - Clark, Herbert H. *Using Language*.
   Cambridge: Cambridge University Press, 1996.
 
-- Deming, W. Edwards. *Out of the Crisis*.
-  Cambridge, MA: MIT Press, 1986.
-
 - Deutsch, Morton. *The Resolution of Conflict*.
   New Haven, CT: Yale University Press, 1973.
 

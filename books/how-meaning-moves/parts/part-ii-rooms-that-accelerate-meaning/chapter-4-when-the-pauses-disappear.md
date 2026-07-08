@@ -10,7 +10,11 @@ But as the exchange continued, the meaning shifted. The words stopped being abou
 
 No one said that out loud.
 
-Responses tightened. Listening narrowed. Each side began answering what they feared was being implied rather than what was actually said. By the end, nothing had been resolved. Both left convinced the other had missed something obvious.
+Someone tried to slow the exchange—a half-beat, a "wait," a hand lifted as if to reopen what had just been said. The room did not take the opening. The sentence had already landed as challenge. By the time the speaker tried to soften it, the other person was no longer hearing the words. They were hearing what the pause seemed to prove.
+
+Responses tightened. Listening narrowed. Each side began answering what they feared was being implied rather than what was actually said. A careful question came back sharper than it was meant. A clarification sounded like accusation. Neither person could find the moment to ask, *Is that what you meant?*—not because they did not care, but because the tempo had already decided what caring would look like.
+
+By the end, nothing had been resolved. Both left convinced the other had missed something obvious.
 
 The conflict had not failed because they disagreed. It failed because the pace made disagreement feel personal.
 

@@ -32,39 +32,15 @@ The *ok* from months ago still sat in the thread if he scrolled back far enough.
 
 The phrase remained unfinished enough that correction could still find them—not because the old argument had disappeared, but because the life between them had not closed the door.
 
-People do not leave interpretation unfinished because ambiguity feels pleasant. They leave it unfinished because something beyond the sentence is still in play—something that does not disappear when the room clears.
-
-That something is not affection as a mood, agreement as a prize, or perpetual openness as a moral posture. It is consequence that survives the exchange.
-
-Where lives stay coupled—by trust, dependence, history, care, or plain necessity—meaning cannot retire cleanly into "what we decided it meant." It stays hooked to bodies that still have to coordinate tomorrow.
-
-Contact shows up where people can still behave toward unfinished meaning: second questions, returns to the phrase that jammed, refusal to let "clear enough" substitute for understanding while the moment still holds.[^c9-clark-using-language] Philip and Nora had that, imperfectly, in the ongoing work. They could still ask what the room had heard. They could still return to the document and find the sentence that had started the drift.
-
-Connection is slower and harder to transcript. It is what remains after people stop talking: whether return stays imaginable, whether a harsh read can still move, whether two lives stay coupled enough that a frozen story carries a cost someone can feel.[^c9-goffman-interaction-ritual] The same sentence lands with different weight depending on whether two people will share a payroll for years, answer to each other on a shift, or sit at the same table on holidays regardless of what either thinks the other deserves.
-
-Connection shifts threat assessment—not because affection dissolves ambiguity, but because escalation has a price neither party can pretend will never arrive. Slow interpretation feels expensive everywhere. It feels differently expensive when neither person can simply disappear after the meeting. People sometimes grant slack they would withhold from a stranger—not because kindness is assured, but because sealed certainty is harder to afford when the relationship still has work to do.
-
-Certainty closes early because closure scores well: it moves queues, ends meetings, protects reputations for decisiveness. Restraint preserves revisability because meaning that cannot move turns people into fixed objects—easier to manage, harder to correct. Humans stay larger than stabilized readings of them. That is not a sentimental claim about inner richness. It is a structural fact: people keep generating behavior; behavior keeps ramifying; old readings go stale.
+Where lives stay coupled—by trust, dependence, history, care, or plain necessity—meaning cannot retire cleanly into "what we decided it meant." Contact shows up where people can still return to what was said and what remains unclear.[^c9-clark-using-language] Connection is what remains after people stop talking: whether return stays imaginable, whether a harsh read can still move, whether two lives stay coupled enough that a frozen story carries a cost someone can feel.[^c9-goffman-interaction-ritual]
 
 Connection is what keeps a stale reading from turning into a cage.
 
-When interpretation stays unfinished inside a connected life, what survives is not romance about mystery but room—room for later evidence, for shame to metabolize, for a harsh read to soften without a theatrical apology tour. Without connection, unfinished interpretation becomes noise people are allowed to ignore. With connection, it stays attached to obligation—not necessarily warm obligation, sometimes grimly contractual obligation—which is why it cannot be purely cognitive.
-
-Nothing here requires malice.
-
-Throughput rewards visibility, turnover, and crisp narrative closure: what ships, what clears the queue, what can be defended in a status update. Scale stretches consequence thin. Pace asks meaning to settle faster than relationships can metabolize blame. Dashboards and performance surfaces reward decisive reads because decisive reads are easy to score where return is not.
-
-Institutions optimize for coordination at distance—which often means treating humans as interchangeable enough that return becomes optional. Under that pressure, connection does not disappear so much as thin into choreography: people coordinate tasks while quietly sealing each other into roles that make the next quarter predictable.[^c9-perrow-normal-accidents] That thinning is how misunderstanding hardens socially—not always because anyone intended cruelty, but because the affordances for coming back shrink faster than people's need for each other does.
-
-Philip had seen that thinning at work—the cleaned notes, the review where correctness had closed the room, the calendar that kept winning before anyone could afford to pause. The same pressure exists at home when two people learn to speak around a hardened phrase rather than through it.
-
-Reachability means something modest: whether correction can still find a person after meaning has hardened—not whether everyone feels good, not whether trust is intact, but whether the relationship, the work, or the shared consequence still leaves a path back to revision.
+Institutions optimize for coordination at distance—which often means treating humans as interchangeable enough that return becomes optional. Under that pressure, connection thins into choreography: people coordinate tasks while quietly sealing each other into roles that make the next quarter predictable.[^c9-perrow-normal-accidents] Philip had seen that thinning at work. The same pressure exists at home when two people learn to speak around a hardened phrase rather than through it.
 
 Weeks after the conference room, Nora asked Philip whether he had meant the dependency discussion as a decision. He had not. She knew what the room had begun doing anyway. They were able to say both things without either sentence canceling the other—not because they had achieved perfect understanding, but because they had not yet spent the relational credit required to make misunderstanding permanent.
 
-That is reachability in practice: not harmony, not agreement, not proof that the lens solved anything. Just enough ongoing consequence that a hardened read can still move when new facts, or new courage, arrives.
-
-They left the conference room with different summaries. They did not leave each other.
+They did not leave each other.
 
 ### **Culminating Principle: Reachability**
 

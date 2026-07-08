@@ -24,19 +24,11 @@ She agreed.
 
 She could not explain how much room correctness had taken, or why it still hurt.
 
-Correct interpretations can still cause damage. Accuracy does not guarantee safety. Truth still moves through signal, compression, and relationship—and through whatever still binds people once the sentences end. When that pace outruns restraint, harm starts even if the facts are correct. The story hardens before people can absorb it. Settled truth invites closure; slower interpretation looks wasteful; discussion slides from inquiry toward enforcement.[^c8-cognition-enforcement]
+Correct interpretations can still cause damage even in calm language with accurate premises. Philip believed he was presenting facts. The engineer heard a ruling. The bruise often lands in connection: the next honest question becomes harder to ask.[^c8-ross-ward-naive-realism] Weeks of cleaner updates had already taught her which doubts were expensive to voice. Correctness can finish what incentives started. When that pace outruns restraint, harm starts even if the facts are correct.[^c8-cognition-enforcement]
 
-This does not require yelling or bad faith. It can happen in calm language with accurate premises. Many painful exchanges involve good intentions on both sides. Speakers believe they are being direct. Listeners believe they are being rational. Both use correctness to justify speed.[^c8-fricker-epistemic-injustice]
+This does not require yelling or bad faith. Speakers believe they are being direct. Listeners believe they are being rational. Both use correctness to justify speed.[^c8-fricker-epistemic-injustice] Without restraint, truth can stay firm and still become a ruling that flattens people. Care does not erase truth. It shapes what truth is doing here, now, between these people—and what remains possible afterward.[^c8-arendt-responsibility-judgment]
 
-Philip believed he was presenting facts. The engineer heard a ruling.
-
-The bruise often lands in connection: the next honest question becomes harder to ask.[^c8-ross-ward-naive-realism] Weeks of cleaner updates had already taught her which doubts were expensive to voice. The progress review looked like success from the outside. Correctness can finish what incentives started.
-
-Being right does not end responsibility. Accuracy can establish facts and correct error. It cannot choose timing, pace, or relational cost by itself. Those require restraint.
-
-People often respond as though clarity alone should resolve discomfort. Without restraint, correctness becomes a shield. Impact gets treated as someone else's private problem. With restraint, truth can stay firm without becoming a ruling that flattens people. Care does not erase truth. It shapes how truth is delivered and what remains possible afterward.[^c8-arendt-responsibility-judgment]
-
-The contrast is not hypothetical. A few weeks later, in a smaller working session, the engineer named a mistake plainly. The numbers on a secondary sheet were wrong, and everyone in the room could see it once she walked through the line items.
+A few weeks later, in a smaller working session, the engineer named a mistake plainly. The numbers on a secondary sheet were wrong, and everyone in the room could see it once she walked through the line items.
 
 No one argued the point.
 
