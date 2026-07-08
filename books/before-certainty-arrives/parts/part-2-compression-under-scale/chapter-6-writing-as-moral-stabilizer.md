@@ -53,9 +53,9 @@ Scrolls carried commandments across trade routes and military camps.
 Imperial archives accumulated births, taxes, judgments, and obligations,
 making abstract categories enforceable across generations.
 
-In Han China, centered on the Yellow River basin in what is now eastern
-China, clerks copied edicts into provincial registers so enforcement did
-not depend entirely on the emperor's presence in every district. With each copy, certainty traveled farther from the body that
+In Han China, centered on the Yellow River basin, clerks copied edicts
+into provincial registers so enforcement did not depend entirely on the
+emperor's presence in every district. With each copy, certainty traveled farther from the body that
 first required it.
 
 What is written persists across time and distance. It allows norms to
@@ -98,7 +98,7 @@ Once writing multiplied voices, communities faced a different problem:
 how to prevent endless fragmentation without returning entirely to oral
 authority.
 
-At Qumran, a settlement near the Dead Sea in what is now the West Bank,
+At Qumran, a settlement near the northwestern shore of the Dead Sea,
 and more broadly within the late Second Temple Jewish world, scribes
 copied and preserved texts treated with differing forms of authority—Torah,
 prophets, hymns, rules for community life—alongside other writings whose

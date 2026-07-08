@@ -63,8 +63,8 @@ Centuries after the first post-Roman tightening, kings still faced the
 same underlying problem: how to make obligation visible across
 territories they could not personally oversee.
 
-In 1086, William I ordered a survey of England—then a kingdom covering
-much of what is now Great Britain—so thorough that later chroniclers
+In 1086, William I ordered a survey of his English kingdom, covering
+much of England and parts of Wales, so thorough that later chroniclers
 compared it to the Last Judgment. Commissioners moved through
 shires recording who held which land, what stock and plough teams it
 supported, what dues were owed, and what had changed since the Conquest.
