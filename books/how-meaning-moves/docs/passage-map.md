@@ -43,13 +43,20 @@ Maps each legacy manuscript unit to **preserve**, **move**, **merge**, **revise*
 | Old Ch 13 Reachable Afterward | revise | Ch 9 Still Reachable | **done** |
 | Old Ch 14 Restraint Makes Possible | revise | Ch 10 What Restraint Makes Possible | **done** |
 
-## Retired after rewrite (cut from index)
+## Retired after rewrite (removed from repository)
 
 | Legacy | Action | Notes |
 |--------|--------|-------|
+| `parts/part-i-the-three-forces/` | deleted | Merged into Part I (Ch 1–3) |
+| `parts/part-ii-speaking-and-listening-under-pressure/` | deleted | Merged into Part I |
+| `parts/part-iii-familiar-situations/` | deleted | Distributed to Part II |
+| `parts/part-iv-what-this-lens-changes/` | deleted | Distributed to Part II–III |
+| `preface-before-understanding.md` | deleted | Merged into introduction |
+| `introduction-why-communication-fails-…` | deleted | Merged into introduction |
+| `how-to-read-this-book.md` | deleted | Cut; limits in Author's Note |
 | Old Part II bridge + Ch 4–6 as standalone band | cut | Merged into Part I |
 | Old Part IV bridge | cut | Distributed to Part III |
-| Vignettes: Listening Shift, Compressed Directive | cut | Fold into merged chapters or strands |
+| Vignettes: Listening Shift, Compressed Directive | cut | Folded into merged chapters |
 | Duplicate meeting vignettes | cut | Replaced by Strand A |
 
 ## Vignette → strand mapping
@@ -72,6 +79,7 @@ Maps each legacy manuscript unit to **preserve**, **move**, **merge**, **revise*
 
 1. ~~**Part I** (Ch 1–3)~~ **done**
 2. ~~**Part II** (Ch 4–5, 7)~~ **done** — Part II complete (Ch 6 was calibration benchmark).
-3. ~~**Part III** (Ch 8–10) + epilogue~~ **done** — Option B essayistic rewrite complete.
-4. **Retire** legacy `parts/` directories and orphaned front matter.
-5. Update `pattern-evidence-map.md`, cadence pass, build verify.
+3. ~~**Part III** (Ch 8–10) + epilogue~~ **done**
+4. ~~**Retire** legacy `parts/` directories and orphaned front matter~~ **done**
+5. ~~Update `pattern-evidence-map.md`~~ **done**
+6. Cadence pass / full Pandoc build verify (see `docs/housekeeping-verification.md`)

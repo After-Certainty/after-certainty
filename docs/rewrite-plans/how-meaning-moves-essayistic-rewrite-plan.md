@@ -2,7 +2,7 @@
 
 **Branch:** `cursor/hmm-essayistic-rewrite-4cdb`  
 **Architecture:** Option B (confirmed)  
-**Phase:** Calibration (Introduction + Ch 6 complete; Ch 1–5, 7–10 stubs)
+**Phase:** Complete (Option B essayistic rewrite + housekeeping)
 
 # How Meaning Moves — Essayistic Editorial Rewrite Plan
 
