@@ -31,7 +31,7 @@ Maps each legacy manuscript unit to **preserve**, **move**, **merge**, **revise*
 |--------|--------|--------|--------|
 | Old Ch 7 Conflict | revise | Ch 4 When the Pauses Disappear | stub |
 | Old Ch 8 Intimacy/Family | revise | Ch 5 Archive in the Kitchen | stub |
-| Old Ch 9 Leadership | revise + expand | Ch 6 Passing Comment | **done** |
+| Old Ch 9 Leadership | revise + expand | Ch 6 Passing Comment | **done** (v2) |
 | Old Ch 10 Work/Feedback | merge | Ch 7 Calendar Can Afford | pending |
 | Old Ch 11 Better Communication Rare | merge + revise | Ch 7 | stub |
 
