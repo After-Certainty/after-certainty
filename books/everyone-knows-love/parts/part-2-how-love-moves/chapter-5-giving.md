@@ -18,7 +18,7 @@ Love shows up as small acts of voluntary inconvenience.
 
 Not every inconvenience is love. Traffic is inconvenient. Bureaucracy is inconvenient. But love often announces itself in the small places where someone could have stayed home and did not.
 
-A friend calls after every difficult appointment—not because you asked, but because, somewhere in the third year, the pattern became part of how you both measure a hard season.
+A friend calls after every difficult appointment—not because you asked, but because, over time, the pattern became part of how you both measure a hard season.
 
 Someone cancels plans because your voice sounded wrong on the phone.
 

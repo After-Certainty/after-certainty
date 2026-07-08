@@ -38,9 +38,11 @@ Some people build family on purpose from friendship—the table that belongs to 
 
 ## After the table went wrong
 
-The third winter after a family argument went bad over a holiday meal—not dramatic enough for anyone to tell the story at work, bad enough that nobody called for three weeks afterward. The fight was never really about the meal. It was about years carried into one room.
+One winter, a family argument went bad over a holiday meal—not dramatic enough for anyone to tell the story at work, but bad enough that nobody called for three weeks afterward. The fight was never really about the meal. It was about years carried into one room.
 
-Then one of them dialed anyway. Not to win. Not to relitigate. To say, "I hated that we left it like that." Old harm does not disappear because someone finally names it. But families do repair, quietly, through return—the chair pulled out again, the place setting returned one Thursday at a time, the visit made, the willingness to be changed a little by what could not be undone.
+One of them finally dialed. Not to win. Not to relitigate. To say, "I hated that we left it like that."
+
+Repair did not happen in that call alone. It continued through later meals: the chair pulled out again, the invitation extended, the willingness to return without pretending nothing had happened.
 
 ## The rooms you can and cannot stay in
 
