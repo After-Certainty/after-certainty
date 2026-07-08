@@ -2,7 +2,7 @@
 
 Most books on communication begin with skill: how to speak better, how to listen better, how to persuade more effectively. This one does not. It begins with how meaning forms.
 
-By the time people start replying, a lot has already been decided. Signal has landed. Compression has tightened the read. Restraint is being tested. That sequence appears in families, teams, institutions, and intimate relationships—same pattern, different settings.
+By the time people start replying, a lot has already been decided. Signal has landed. Compression has tightened the read. Restraint is being tested. That sequence appears in families, teams, institutions, and intimate relationships—the same forces moving through different settings.
 
 I wrote this book because that pattern is common, easy to miss, and usually explained too late—after words are judged and positions fixed. I wanted to look earlier: what moves before understanding, and why it so often outruns care.
 

@@ -24,13 +24,13 @@ One evening he reached for the coffee pot and said, almost idly, the line that h
 
 She heard the echo—the bracing reply, the years behind one sentence—and also heard that he was not starting a fight. He was returning to a phrase that had hardened between them, as though the words still needed somewhere to land.
 
-She set the mug down. "I wasn't planning without you," she said. "I was tired. I meant we should talk."
+She set the mug down. "I wasn't planning it without you," she said. "I thought we were still leaving it open."
 
 He nodded. Not agreement. Not apology. Recognition that the first version had stuck longer than either of them wanted.
 
-They did not rewrite the history. They did not discover one correct account of the thread, the breakfast, or the *ok* that had arrived too fast. What shifted was smaller: the phrase remained unfinished enough that correction could still find them—not because trust was restored, but because the life between them had not closed the door.
+The *ok* from months ago still sat in the thread if he scrolled back far enough. That confusion had its own shape. This one was about the visit and the weekend—the question of whether they were deciding together.
 
-No warmth was required. No perfect apology arrived. They remained reachable across a counter because the kitchen, the history, and the routines of care still coupled them after the argument had gone cold.
+The phrase remained unfinished enough that correction could still find them—not because the old argument had disappeared, but because the life between them had not closed the door.
 
 People do not leave interpretation unfinished because ambiguity feels pleasant. They leave it unfinished because something beyond the sentence is still in play—something that does not disappear when the room clears.
 

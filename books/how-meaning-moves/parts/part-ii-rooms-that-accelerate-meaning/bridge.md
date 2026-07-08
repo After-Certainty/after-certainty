@@ -1,3 +1,5 @@
+\newpage
+
 # **Part II — Rooms That Accelerate Meaning**
 
 Some rooms make early reads harder to revise.

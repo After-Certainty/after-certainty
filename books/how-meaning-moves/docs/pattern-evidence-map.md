@@ -68,10 +68,8 @@ Paths are relative to `books/how-meaning-moves/`.
 
 ## **Reachability** *(culminating relational condition — not an Appendix A pattern)*
 
-- `parts/part-iii-what-can-still-move/chapter-9-still-reachable.md` — workplace + intimate reachability; **Culminating Principle: Reachability**
-- `front-matter/introduction-the-sentence-before-the-sentence.md` — Reachability distinguished from pattern map
-- `parts/part-iii-what-can-still-move/bridge.md` — culminating condition named
-- `back-matter/appendix-a-pattern-language-of-meaning.md` — intro clarifies Reachability vs Connection/Contact
+- `parts/part-iii-what-can-still-move/chapter-9-still-reachable.md` — workplace + intimate reachability; **Culminating Principle: Reachability** (primary taxonomy location)
+- `back-matter/appendix-a-pattern-language-of-meaning.md` — short Reachability note (not eleventh pattern)
 
 ## **Returning principles**
 

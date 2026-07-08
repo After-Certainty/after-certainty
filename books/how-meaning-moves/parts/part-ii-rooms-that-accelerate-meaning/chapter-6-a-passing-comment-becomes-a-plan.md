@@ -58,7 +58,7 @@ Authority gives people more power over what happens and less freedom to pretend 
 
 Philip's sentence had moved through people, paper, and memory until it was no longer his sentence. It was the plan. And the plan was already training the next room in what to notice and what to treat as settled before anyone spoke.
 
-Philip could not control every interpretation, and no leader can script every reading. But leaders still live inside the effects.[^c6-arendt-responsibility-judgment] Once Philip saw the weight his words carried, he became more responsible for creating visible permission to question them. Under authority, restraint can be as small as stopping the room after a tentative comment and asking what everyone now believes was decided. Anyone could have asked. Philip had the greatest obligation to make the question safe.
+Philip could not control every interpretation, and no leader can script every reading. But leaders still live inside the effects.[^c6-arendt-responsibility-judgment] Once Philip saw the weight his words carried, he became more responsible for making interpretation testable—stopping the room after a tentative comment and asking what everyone now believes was decided.
 
 ### **Core Principle: Meaning Reinforces Itself**
 

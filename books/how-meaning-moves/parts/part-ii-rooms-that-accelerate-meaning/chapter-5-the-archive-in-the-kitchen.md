@@ -38,7 +38,7 @@ When restraint collapses at home, things escalate fast. Corrections carry extra 
 
 At home, facts rarely slow a spiral by themselves once history is driving the read. Facts compete with memory. Explanations compete with feeling. Accuracy competes with years of meaning already stored. When compression is driven by history more than by information, new data rarely uproots the story in place. Being right still often fails to bring relief at home.
 
-Intimacy shows how far a few syllables can travel on almost nothing. Meaning outruns understanding quickly when history is thick and stakes run high. Restraint is most needed and most breakable in the same rooms.
+Intimacy shows how far a few syllables can travel on almost nothing. In a shared kitchen, meaning outruns the words—the archive speaks before today's sentence finishes. Restraint is most needed and most breakable in the same rooms.
 
 A week later the weekend plan had been revised twice without either of them naming the kitchen conversation directly. The words had not changed much. The weight had. He asked whether she was still angry. She said she was not. Both statements were true in the narrow sense and incomplete in the way that matters between people who share a table.
 

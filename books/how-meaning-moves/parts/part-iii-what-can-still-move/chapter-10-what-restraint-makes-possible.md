@@ -10,7 +10,7 @@ Instead, he named what was not settled.
 
 The room went quiet. Not tense. Just exposed.
 
-Someone asked what would happen if they waited. Another asked what would happen if they did not. Nora did not smooth the moment away in her notes. She wrote the question down.
+Someone asked what would happen if they waited. Another asked what would happen if they did not. Nora did not smooth the moment away in her notes. She wrote the question down as unresolved—both paths, both risks—leaving it visible in the record that the room had not yet understood the dependency well enough to call.
 
 The questions did not fix everything. They made the tradeoffs easier to see.
 
@@ -40,7 +40,7 @@ Philip had learned that lesson in reverse over the past months—the passing com
 
 At home, restraint had looked different: returning to a phrase that had hardened months earlier—not to win the old argument, but to keep a shared life from sealing around a single reading.
 
-The obligation was not evenly distributed. Anyone in the room could have asked whether they were deciding or merely converging. Philip had the greatest standing to make that question safe—and the greatest cost if asking it delayed the launch. Restraint is expensive everywhere. It is most expensive where authority and urgency meet.
+Philip had learned what his standing could do. Anyone in the room could have asked whether they were deciding or merely converging. He had the greatest standing to make that question safe—and the most visible organizational cost if asking it delayed the launch. Restraint is expensive everywhere. It is most expensive where authority and urgency meet.
 
 Without restraint, talk collapses into speed, rank, and "I am right," and responsibility hides behind "it could not be helped." Connection turns transactional: people coordinate words and tasks while backing away from risking more. Restraint is what keeps exchange from turning purely mechanical.
 

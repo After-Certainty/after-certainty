@@ -64,13 +64,13 @@ When only motion gets scored, talk bends toward fast reads. Across cycles, meani
 
 Many teams rely on goodwill to absorb the cost of restraint until urgency or scale rises. Then incentives outrun goodwill.[^c7-deming-out-of-crisis] Keeping meaning unfinished draws a social tax—unclear, slow, unprepared—and trains people away from restraint.
 
-Nora saw both costs in the same week. In the meeting, she had cleaned the notes the way she always did: repetition trimmed, decisions smoothed, the record made legible for people who had not been there. In the feedback session she had not attended, something else had been smoothed—the engineer's willingness to say the uncomfortable thing early, before it became a larger issue on the calendar.
+Nora saw both costs in the same week. In the meeting, she had converted another living hour into the kind of record the organization could run on. In the feedback session she had not attended, something else had been smoothed—the engineer's willingness to say the uncomfortable thing early, before it became a larger issue on the calendar.
 
 Philip noticed the alignment before he noticed the silence. That is how these systems work. The surface improves first.
 
 Better communication appears where someone or something absorbs restraint's cost: where delay is permitted, ambiguity is protected, and interpretation can settle before action closes options. Those conditions are real but fragile. Most organizations do not stock them by default. That is why improvement appears in pockets and bursts, not as a durable norm.
 
-This lens does not promise nicer outcomes. It makes attribution more accurate. Some failures stop sounding like private moral collapse. Other failures become harder to dismiss as bad luck. Responsibility expands toward system design without erasing individual consequence. Philip had standing to protect the pause in the meeting. He had also benefited from the engineer's narrowed range. Anyone could have circled back. He had the greatest obligation to make that affordable—and the least personal incentive to pay for it while the timeline still held.
+This lens does not promise nicer outcomes. It makes attribution more accurate. Some failures stop sounding like private moral collapse. Other failures become harder to dismiss as bad luck. Responsibility expands toward system design without erasing individual consequence. Philip had standing to protect the pause in the meeting. He had also benefited from the engineer's narrowed range—the quieter surface that made the calendar easier to honor. Anyone could have circled back. He had the greatest obligation to make that affordable—and the least personal incentive to pay for it while the timeline still held.
 
 By the next monthly review, the larger issue had a name and an owner and a remediation plan. Someone said they should have slowed down weeks ago. Everyone nodded again. Nora opened the old notes. The confusion was there, polite and reasonable, buried between action items no one had revisited.
 
