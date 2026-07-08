@@ -11,9 +11,11 @@ c. 1200–600 BCE
 Eastern Mediterranean, Near East, South Asia, East Asia
 
 In 701 BCE, Assyrian soldiers raised siege ramps against the walls of
-Lachish in Judah. The king who ordered the assault would never stand where
-the defenders stood. He would later see the city rendered in stone at
-Nineveh: archers on ramparts, captives led away, tribute counted in rows.
+Lachish, a fortified city in the kingdom of Judah in what is now southern
+Israel. The king who ordered the assault would never stand where the
+defenders stood. He would later see the city rendered in stone at
+Nineveh, the Assyrian capital in what is now northern Iraq: archers on
+ramparts, captives led away, tribute counted in rows.
 The relief made visible what distance otherwise hid—that decision and
 consequence no longer met in the same place.[^c4-lachish-siege]
 
@@ -81,8 +83,9 @@ read as weakness at the wall.
 Expanded trade networks connected societies with different customs,
 gods, and moral norms. Goods traveled farther than shared meaning.
 
-A merchant in Tyre might honor one god at home and invoke another at the
-counter where copper ingots changed hands, using weights stamped by an
+A merchant in Tyre, a Phoenician port on the eastern Mediterranean in
+what is now Lebanon, might honor one god at home and invoke another at
+the counter where copper ingots changed hands, using weights stamped by an
 authority neither party fully trusted but both needed if trade was to
 proceed.
 

@@ -23,8 +23,9 @@ generations, and stress, it needed protection.
 
 That protection came through sacralization.
 
-In Shang courts, a scribe heated a tortoise shell or ox shoulder blade
-until it cracked. The king posed the question; the cracks answered. The
+In Shang courts along the Yellow River valley in what is now northern
+China, a scribe heated a tortoise shell or ox shoulder blade until it
+cracked. The king posed the question; the cracks answered. The
 result was inscribed on bone and stored in archive: which ancestor to
 honor, which campaign to launch, which harvest to fear. Oracle bones
 made authority legible in matter that outlasted any single
@@ -95,7 +96,8 @@ this book treats the first without pretending the second was absent.
 
 ### **Temple Economies and Ritual Obligation**
 
-In Egypt and Mesopotamia, temple complexes were not merely religious
+In Egypt along the Nile and in the river valleys of Mesopotamia between
+the Tigris and Euphrates, temple complexes were not merely religious
 sites. They were redistribution centers, record keepers, calendars, and
 moral anchors. Grain flowed through sacred storehouses. Priests tracked
 planting cycles, tribute obligations, and festival rhythms that kept

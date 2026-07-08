@@ -13,7 +13,8 @@ Mediterranean world, South Asia, East Asia
 
 In the third century BCE, inscriptions commissioned by the Mauryan
 emperor Ashoka were cut into rock faces and polished pillars across a
-vast empire. Related formulations appeared across provinces, repeatedly
+vast empire stretching across much of the Indian subcontinent. Related
+formulations appeared across provinces, repeatedly
 naming restraint toward living beings, obedience to parents and elders,
 respect for teachers, mercy in judgment, and duties owed to neighbors
 and officials—though wording, script, and emphasis varied by location
@@ -52,9 +53,9 @@ Scrolls carried commandments across trade routes and military camps.
 Imperial archives accumulated births, taxes, judgments, and obligations,
 making abstract categories enforceable across generations.
 
-In Han China, clerks copied edicts into provincial registers so
-enforcement did not depend entirely on the emperor's presence in every
-district. With each copy, certainty traveled farther from the body that
+In Han China, centered on the Yellow River basin in what is now eastern
+China, clerks copied edicts into provincial registers so enforcement did
+not depend entirely on the emperor's presence in every district. With each copy, certainty traveled farther from the body that
 first required it.
 
 What is written persists across time and distance. It allows norms to
@@ -97,10 +98,11 @@ Once writing multiplied voices, communities faced a different problem:
 how to prevent endless fragmentation without returning entirely to oral
 authority.
 
-At Qumran, and more broadly within the late Second Temple Jewish world,
-scribes copied and preserved texts treated with differing forms of
-authority—Torah, prophets, hymns, rules for community life—alongside
-other writings whose status remained less settled.[^c6-qumran-canon]
+At Qumran, a settlement near the Dead Sea in what is now the West Bank,
+and more broadly within the late Second Temple Jewish world, scribes
+copied and preserved texts treated with differing forms of authority—Torah,
+prophets, hymns, rules for community life—alongside other writings whose
+status remained less settled.[^c6-qumran-canon]
 Careful copying made a text durable. It did not by itself mean that a
 single, closed canon had already been agreed upon. Multiple writings
 could carry binding force even while the boundaries of authoritative

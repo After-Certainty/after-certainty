@@ -20,10 +20,10 @@ The threshold is not always the moment when a system stops. It is often
 the moment when procedures still signal readiness while the gap between
 the map and the ground widens.
 
-On August 28, 2005, as Hurricane Katrina approached the Gulf Coast, federal
-and state agencies issued situation reports, scheduled conference calls,
-and updated organizational charts that still named who was responsible for
-what. Evacuation plans existed on file. Information and requests moved
+On August 28, 2005, as Hurricane Katrina approached the U.S. Gulf Coast
+from Louisiana toward Mississippi, federal and state agencies issued
+situation reports, scheduled conference calls, and updated organizational
+charts that still named who was responsible for what. Evacuation plans existed on file. Information and requests moved
 through overlapping jurisdictions whose formal responsibilities still
 appeared intact.[^c10-katrina-response]
 
