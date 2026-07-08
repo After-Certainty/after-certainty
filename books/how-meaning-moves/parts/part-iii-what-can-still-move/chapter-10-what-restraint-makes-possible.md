@@ -2,7 +2,7 @@
 
 The decision still had to be made.
 
-Time was short. The launch date on the whiteboard had been crossed and rewritten so many times it looked less like a plan than a record of hope. The dependency was still unresolved. Philip felt the pull toward certainty, the relief of picking a direction and moving on.
+Time was short. The revised date on the board looked less like a plan than a record of hope. The dependency was still unresolved. Philip felt the pull toward certainty, the relief of picking a direction and moving on.
 
 Instead, he named what was not settled.
 
@@ -36,7 +36,9 @@ Correction needs room—a path back to interpretation that does not automaticall
 
 Repair needs harm to be nameable without turning a person into a label. With restraint, damage can be spoken without reducing the other person to one bad act. Repair does not delete harm. It keeps harm talkable.[^c10-fricker-epistemic-injustice]
 
-Philip had learned that lesson in reverse over the past months—the passing comment that became a plan, the affordable pace that skipped the pause, the feedback that narrowed the engineer's range, the correctness that closed the room. Each scene had its own failure mode. Together they showed what restraint would have bought: not certainty, not harmony, but a little more room before meaning hardened into something the document could no longer question.
+Philip had learned that lesson in reverse over the past months—the passing comment that became a plan, the affordable pace that skipped the pause, the feedback that narrowed what could be said early, the correctness that closed the room. Each scene had its own failure mode. Together they showed what restraint would have bought: not certainty, not harmony, but a little more room before meaning hardened into something the document could no longer question.
+
+At home, restraint had looked different: returning to a phrase that had hardened months earlier—not to win the old argument, but to keep a shared life from sealing around a single reading.
 
 The obligation was not evenly distributed. Anyone in the room could have asked whether they were deciding or merely converging. Philip had the greatest standing to make that question safe—and the greatest cost if asking it delayed the launch. Restraint is expensive everywhere. It is most expensive where authority and urgency meet.
 
@@ -48,9 +50,11 @@ Restraint does not solve communication. It keeps it human.
 
 Philip could not undo the sentences that had already moved through his team. He could still choose, in the next room, not to close meaning faster than the people in it could bear.
 
-### **Core Principle: Contact Keeps the Read Open**
+### **Returning Principle: Contact Keeps the Read Open**
 
 Slowing down lets people revisit what they heard without forcing an immediate verdict. Contact is not warmth and not agreement. It is staying close enough to what was actually said—and to what remains unclear—that meaning can still be revised together.
+
+At breakfast and in the working session, Contact was the discipline of leaving interpretation unfinished at personal cost. After documents, calendars, kitchens, and rooms where correctness landed as finality, Contact names the continuing work: keeping responsibility, correction, consent, and repair possible even when no one reaches full certainty.
 
 Restraint is not an idea you master once. It is a cost you keep choosing, unevenly, under pressure, in rooms that rarely reward it. The durable possibility is simpler: meaning might still move if you leave it somewhere people can still return.
 

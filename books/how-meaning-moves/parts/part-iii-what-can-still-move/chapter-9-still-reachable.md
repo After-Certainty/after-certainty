@@ -14,6 +14,24 @@ Later, when more facts arrived about the dependency, the earlier read could move
 
 They did not become friends. They remained reachable.
 
+Reachability at work looks like that: shared deliverables, circulating notes, a launch date everyone is still pretending to honor, and enough ongoing consequence that a hardened read can move when new facts arrive.
+
+The same condition shows up elsewhere, on a smaller scale and without a shared document.
+
+Her sister's visit had come and gone. The weekend plan they had fought about at breakfast—when he heard commitment where she had meant to leave room—was no longer urgent. It had been revised twice without either of them naming the kitchen conversation directly. The dispute had not been solved so much as outlasted by logistics, fatigue, and the ordinary fact of two people who still shared a table.
+
+One evening he reached for the coffee pot and said, almost idly, the line that had once tightened the room: "I didn't know you were planning that."
+
+She heard the echo—the bracing reply, the years behind one sentence—and also heard that he was not starting a fight. He was returning to a phrase that had hardened between them, as though the words still needed somewhere to land.
+
+She set the mug down. "I wasn't planning without you," she said. "I was tired. I meant we should talk."
+
+He nodded. Not agreement. Not apology. Recognition that the first version had stuck longer than either of them wanted.
+
+They did not rewrite the history. They did not discover one correct account of the thread, the breakfast, or the *ok* that had arrived too fast. What shifted was smaller: the phrase remained unfinished enough that correction could still find them—not because trust was restored, but because the life between them had not closed the door.
+
+No warmth was required. No perfect apology arrived. They remained reachable across a counter because the kitchen, the history, and the routines of care still coupled them after the argument had gone cold.
+
 People do not leave interpretation unfinished because ambiguity feels pleasant. They leave it unfinished because something beyond the sentence is still in play—something that does not disappear when the room clears.
 
 That something is not affection as a mood, agreement as a prize, or perpetual openness as a moral posture. It is consequence that survives the exchange.
@@ -32,13 +50,13 @@ Connection is what keeps a stale reading from turning into a cage.
 
 When interpretation stays unfinished inside a connected life, what survives is not romance about mystery but room—room for later evidence, for shame to metabolize, for a harsh read to soften without a theatrical apology tour. Without connection, unfinished interpretation becomes noise people are allowed to ignore. With connection, it stays attached to obligation—not necessarily warm obligation, sometimes grimly contractual obligation—which is why it cannot be purely cognitive.
 
-Nothing here requires a villain.
+Nothing here requires malice.
 
 Throughput rewards visibility, turnover, and crisp narrative closure: what ships, what clears the queue, what can be defended in a status update. Scale stretches consequence thin. Pace asks meaning to settle faster than relationships can metabolize blame. Dashboards and performance surfaces reward decisive reads because decisive reads are easy to score where return is not.
 
 Institutions optimize for coordination at distance—which often means treating humans as interchangeable enough that return becomes optional. Under that pressure, connection does not disappear so much as thin into choreography: people coordinate tasks while quietly sealing each other into roles that make the next quarter predictable.[^c9-perrow-normal-accidents] That thinning is how misunderstanding hardens socially—not always because anyone intended cruelty, but because the affordances for coming back shrink faster than people's need for each other does.
 
-Philip had seen that thinning in his own team—the engineer's narrowed range, the notes that made one reading easier to inherit, the review where correctness had closed the room. None of it required bad faith. It required a system that kept rewarding motion while connection thinned at the edges.
+Philip had seen that thinning at work—the cleaned notes, the review where correctness had closed the room, the calendar that kept winning before anyone could afford to pause. The same pressure exists at home when two people learn to speak around a hardened phrase rather than through it.
 
 Reachability means something modest: whether correction can still find a person after meaning has hardened—not whether everyone feels good, not whether trust is intact, but whether the relationship, the work, or the shared consequence still leaves a path back to revision.
 
@@ -48,7 +66,9 @@ That is reachability in practice: not harmony, not agreement, not proof that the
 
 They left the conference room with different summaries. They did not leave each other.
 
-### **Core Principle: Reachability**
+### **Culminating Principle: Reachability**
+
+Reachability is not an eleventh pattern in the map. **Connection** is the continuing relationship and consequence between people. **Contact** is staying near what was said and what remains unclear. **Reachability** is the condition in which later correction or revised understanding still has somewhere to land—what Contact, Connection, and Restraint sometimes preserve when meaning has already hardened.
 
 People live inside imperfect understanding not because the fog lifts, but because they remain addressable afterward—not infinitely patient, not without boundaries, not guaranteed safe—still reachable in a way that keeps correction from turning purely abstract.
 

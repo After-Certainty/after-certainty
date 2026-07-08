@@ -96,6 +96,9 @@
 - Steele, Claude M. *Whistling Vivaldi*.
   New York: W. W. Norton & Company, 2010.
 
+- Standage, Tom. *The Victorian Internet*.
+  New York: Walker & Company, 1998.
+
 - Suchman, Mark C. "Managing Legitimacy."
   *Academy of Management Review* (1995).
 

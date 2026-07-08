@@ -2,7 +2,7 @@
 
 Everyone agreed the conversation could have gone better.
 
-The meeting ended with polite summaries and reasonable next steps. Philip closed his laptop. Nora saved the notes. The launch date on the whiteboard was still there, circled and rewritten, carrying more weight than anyone wanted to say aloud after the past few weeks.
+The meeting ended with polite summaries and reasonable next steps. Philip closed his laptop. Nora saved the notes. The revised date on the board was still there, carrying more weight than anyone wanted to say aloud after the past few weeks.
 
 As people packed up, someone mentioned they had been confused earlier about whether the dependency was actually resolved. Another said they had noticed tension but did not want to derail things. A third admitted they had assumed clarification would come later.
 
@@ -52,7 +52,7 @@ What neither of them named was what had quietly narrowed—or how much of the or
 
 Workplaces reward compression. Decisions have to land; feedback has to stick. Fast gets treated as capable, clear as effective. In that air, people expect talk to race from signal to action. Ambiguity slows coordination. Delay reads as negligence. Pressure reshapes how meaning moves at work.
 
-The scene was ordinary precisely because no one behaved badly. Philip was trying to deliver constructive input. The engineer heard consequence first. Feedback at work almost never lands as neutral content: rank, stakes, comparison ride along. Even careful phrasing can load threat when the room already assumes evaluation.
+The scene was ordinary precisely because no cruelty was required. Philip was trying to deliver constructive input. The engineer heard consequence first. Feedback at work almost never lands as neutral content: rank, stakes, comparison ride along. Even careful phrasing can load threat when the room already assumes evaluation.
 
 At work, connection means mutual reliance under role—whether people trust they can still speak, risk uncertainty, and belong after a difficult exchange. When signal gets loud, those worries outrun the literal words. Once feedback lands as consequence, a second move follows. The feedback aims at behavior; the listener hears a verdict about them, not only the work. That shift is not thin skin; it is speed. Under performance pressure, people answer fast: *What does this say about me? Am I still safe here?* Those answers arrive before reflection can test them.[^c7-evaluative-threat-and-identity]
 
@@ -76,9 +76,9 @@ By the next monthly review, the larger issue had a name and an owner and a remed
 
 The calendar had won. Not because people were careless. Because the calendar was what everyone was coordinating around.
 
-### **Core Principle: Meaning Reinforces Itself**
+### **Returning Principle: Meaning Reinforces Itself**
 
-What locked in yesterday quietly trains what people notice tomorrow. Under institutional pressure, that reinforcement speeds up. Early reads become defaults. Defaults become records. Records become the story new people inherit before they have heard a single live voice. Aligned surfaces—fewer questions, cleaner updates, less visible friction—can be signs that meaning has reinforced itself into a narrower channel.
+What locked in yesterday quietly trains what people notice tomorrow. When authority turns an unfinished comment into a plan, the same dynamic can run through calendars, incentives, feedback, records, and aligned surfaces—institutional machinery that lets one settled read train the next without anyone deciding to be careless.
 
 Each settled interpretation makes the next one easier to settle, until correction requires contending not only with a person's memory but with a trail of reasonable documents, reasonable meetings, and reasonable decisions that all point in the same direction. Better communication is often possible long before it becomes affordable—and the gap between those two truths is where meaning keeps moving whether anyone has time to notice.
 

@@ -22,7 +22,7 @@ Restraint does not stop people from forming a read. It delays closure. People ca
 
 It also does not look like the listening people praise. It looks like hesitation when a response feels obvious. Silence when correction feels justified. Delay when resolution feels urgent. Restraint does not announce itself. It shows up as what does not happen. That is why it is often misread as disengagement, weakness, or uncertainty—especially where decisiveness and speed are rewarded.
 
-At human scale, restraint often feels terrible in the moment. It costs comfort, clarity, control, and social ease. You stay quiet when correction feels justified. You leave tension unresolved. You tolerate not knowing what someone really meant. You resist the relief certainty gives. People are pulled to reduce uncertainty and restore a stable story as quickly as possible.[^c3-kruglanski-need-closure] Restraint runs directly against that impulse. When it feels that bad, restraint is usually real.
+At human scale, restraint often feels terrible in the moment. It costs comfort, clarity, control, and social ease. You stay quiet when correction feels justified. You leave tension unresolved. You tolerate not knowing what someone really meant. You resist the relief certainty gives. People are pulled to reduce uncertainty and restore a stable story as quickly as possible.[^c3-kruglanski-need-closure] Restraint runs directly against that impulse. Discomfort is part of restraint's cost. It is not proof that the choice was wise—the same tension can come from fear, conditioning, exclusion, self-erasure, or powerlessness.
 
 It also leaves you without the protection certainty usually provides. Without quick compression, you cannot easily defend yourself, justify a response, or lock in your position. You stay open to being surprised, corrected, or affected by what emerges next. In relationships, restraint can look like giving less than you feel. In conflict, it can look like losing ground. In leadership, it can look like uncertainty. The closer the connection, the higher the cost tends to feel—which is why restraint is often abandoned precisely when it matters most.[^c3-edmondson-fearless-organization]
 
@@ -58,7 +58,7 @@ Certainty feels stabilizing. It cuts mental effort. It steadies identity. It let
 
 There is no bell when restraint fails. People notice afterward, when harm is already on the table. While restraint holds, the room looks calm. Once it breaks, everything looks loud at once. That makes restraint easy to undervalue and easy to mock—especially in systems that reward speed, clarity, and decisive action.
 
-Institutions make the cost visible in a different register. A court transcript preserves words. It does not preserve the pause before them, the glance away, the voice that almost broke and then steadied. Tone loss is not a technical detail. It is how a living exchange becomes a record that future readers treat as complete. What gets written becomes what happened. What gets omitted becomes hard to retrieve.
+Institutions make the cost visible in a different register. A textual record preserves words more readily than the pause before them, the glance away, the voice that almost broke and then steadied. That is not a claim about courts alone. It is what happens whenever a living exchange becomes a document that future readers treat as complete. What gets written becomes what happened. What gets omitted becomes hard to retrieve.
 
 Something similar happens to people whose credibility has already been priced lower than their peers'. When a woman's hesitation is read as evasiveness, or a junior employee's pause as resistance, the misread does not stay personal. It becomes evidence in the next room.[^c3-fricker-epistemic-injustice] Restraint is harder to afford when openness has historically been punished—and easier to demand from people who already pay the bill.
 
@@ -76,7 +76,7 @@ She knew, at breakfast, that speaking would have been cheaper for her than stayi
 
 Philip, in the working session, had a different set of options and a different set of obligations. Anyone could have asked whether they were still interpreting the engineer or already prosecuting her. He had the greatest standing to make that question safe. He did not. Speed felt responsible. Restraint felt like fog.
 
-That asymmetry is the moral center of this chapter. Restraint is not equally available. The person with less power often pays more for leaving meaning open. The person with more power often pays more for closing it too fast. Silence from below can be fear dressed as patience. Silence from above can be permission denied.
+That asymmetry is the moral center of this chapter. Restraint is not equally available. The person with less power often bears more immediate cost for leaving meaning open. The person with more power can impose more cost by closing meaning prematurely—and therefore carries more responsibility for protecting the pause. Silence from below can be fear dressed as patience. Silence from above can be permission denied.
 
 No rule can fully automate restraint. It is always situational, always costly, always imperfect. People choose it again and again—usually without applause. That is not a failure of communication. It is one of its limits.
 

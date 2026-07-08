@@ -51,7 +51,7 @@ Paths are relative to `books/how-meaning-moves/`.
 
 - `parts/part-i-what-arrives-first/chapter-3-the-cost-of-leaving-it-open.md` — delayed correction; breakfast restraint; Core Principle
 - `parts/part-iii-what-can-still-move/chapter-9-still-reachable.md` — contact versus connection; second questions after the meeting
-- `parts/part-iii-what-can-still-move/chapter-10-what-restraint-makes-possible.md` — holding the decision open; Core Principle revisit
+- `parts/part-iii-what-can-still-move/chapter-10-what-restraint-makes-possible.md` — holding the decision open; **Returning Principle: Contact Keeps the Read Open**
 
 ### **Meaning gets distorted.**
 
@@ -66,7 +66,15 @@ Paths are relative to `books/how-meaning-moves/`.
 - `parts/part-ii-rooms-that-accelerate-meaning/chapter-6-a-passing-comment-becomes-a-plan.md` — passing comment → notes → plan; Core Principle (benchmark chapter)
 - `parts/part-ii-rooms-that-accelerate-meaning/chapter-7-what-the-calendar-can-afford.md` — calendar, incentives, shorthand becomes default; Core Principle
 
-## **Reachability** *(glossary term — not an Appendix A pattern)*
+## **Reachability** *(culminating relational condition — not an Appendix A pattern)*
 
-- `parts/part-iii-what-can-still-move/chapter-9-still-reachable.md` — After the Meeting; Philip/Nora still addressable; Core Principle
+- `parts/part-iii-what-can-still-move/chapter-9-still-reachable.md` — workplace + intimate reachability; **Culminating Principle: Reachability**
+- `front-matter/introduction-the-sentence-before-the-sentence.md` — Reachability distinguished from pattern map
+- `parts/part-iii-what-can-still-move/bridge.md` — culminating condition named
+- `back-matter/appendix-a-pattern-language-of-meaning.md` — intro clarifies Reachability vs Connection/Contact
+
+## **Returning principles**
+
+- `parts/part-ii-rooms-that-accelerate-meaning/chapter-7-what-the-calendar-can-afford.md` — **Returning Principle: Meaning Reinforces Itself** (after Ch 6)
+- `parts/part-iii-what-can-still-move/chapter-10-what-restraint-makes-possible.md` — **Returning Principle: Contact Keeps the Read Open** (after Ch 3)
 - `back-matter/epilogue-holding-the-lens.md` — leave meaning somewhere to return

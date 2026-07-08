@@ -30,7 +30,7 @@ This does not require yelling or bad faith. It can happen in calm language with 
 
 Philip believed he was presenting facts. The engineer heard a ruling.
 
-The bruise often lands in connection: the next honest question becomes harder to ask.[^c8-ross-ward-naive-realism] The aligned surface from weeks earlier had already narrowed her range. The progress review looked like success from the outside. Correctness can finish what incentives started. Once someone's caution has been read as blockage and then corrected with evidence, the lesson is not only about the estimate. It is about what kind of speech still pays.
+The bruise often lands in connection: the next honest question becomes harder to ask.[^c8-ross-ward-naive-realism] Weeks of cleaner updates had already taught her which doubts were expensive to voice. The progress review looked like success from the outside. Correctness can finish what incentives started.
 
 Being right does not end responsibility. Accuracy can establish facts and correct error. It cannot choose timing, pace, or relational cost by itself. Those require restraint.
 
@@ -50,7 +50,7 @@ That second move is restraint in miniature—not softness, not endless process, 
 
 Fricker's term for one version of this harm is epistemic injustice: when someone suffers a wrong in their capacity as a knower. The engineer's quiet was not caused by Philip's facts. It was caused by what correctness had come to mean inside a room that had already priced her caution too low. Once a person's speech has been heard as misalignment, later accuracy from someone with rank lands differently than the same accuracy from someone without it. The transcript looks fair. The archive between them does not.
 
-Philip noticed the change before he named it. Fewer early flags. Cleaner updates. Less friction. He had called it alignment. He had not asked what had been traded for the cleaner surface.
+Philip noticed the change before he named it. Fewer early flags. Cleaner updates. Less friction. He had called it alignment. He had not asked what had been traded for the quieter room.
 
 Some errors need to be named plainly and soon. The moral limit of accuracy is not truth itself, but the speed at which truth is used to close what still needs room.
 

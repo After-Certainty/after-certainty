@@ -29,7 +29,3 @@ Philip closed the document. He did not correct the summary block. He did add one
 The work is not to keep meaning from moving. It will move.
 
 The work is to leave it somewhere to return.
-
-Look again before you lock it in.
-
-Own what you closed too soon.

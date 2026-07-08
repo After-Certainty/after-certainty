@@ -6,6 +6,8 @@ These patterns work best as observation tools. They name what is already happeni
 
 Use them when the transcript reads innocent but the room did not feel innocent—when something moved before anyone agreed on words.
 
+**Reachability** names the book's culminating relational condition—whether later correction or revised understanding still has somewhere to land. It is not an eleventh pattern in this appendix. **Connection** is ongoing relationship and consequence between people. **Contact** is staying near what was said and what remains unclear. Reachability is what those forces sometimes preserve when compression has already hardened meaning.
+
 ## **Formation**
 
 _Patterns that describe how interpretation starts before language is

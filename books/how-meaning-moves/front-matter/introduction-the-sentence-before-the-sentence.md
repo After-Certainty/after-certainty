@@ -4,7 +4,7 @@ He had not decided yet. He was still weighing tradeoffs—the kind that do not f
 
 It was not a directive. It was a sentence still forming.
 
-No one argued. A few people nodded the way you nod when a meeting is ending and you are already halfway to the next obligation. Someone wrote the line down. The notes would circulate. Within a few days the assumption would be gone from the plan, and he would wonder when he had made the call.
+No one argued. A few people nodded the way you nod when a meeting is ending and you are already halfway to the next obligation. Someone wrote the line down. The note would outlast the pause that had made the words sound tentative—and the room had already begun doing something with the sentence before he understood what it might become.
 
 He had not made the call. The sentence had.
 
@@ -20,6 +20,6 @@ The lens can be uncomfortable. Once you see how fast meaning forms, how quickly 
 
 You do not need to agree with every claim for the book to be useful. Its job is to help you notice more of what is happening while people speak and listen—and to make responsibility harder to deny once those forces are visible.
 
-The chapters that follow enter rooms, threads, and kitchens where meaning is already in motion. They widen into history, institutions, and power where that widening complicates what the scene showed. They return to the same sentences with altered weight. Some of those rooms belong to the same people, watched across weeks and reviews—not to tell a serial story, but so you can feel how meaning accumulates when lives stay coupled. Only then do they name the patterns at work. Full definitions live in Appendix A. A map of how those patterns cluster appears after Part I, once you have met the forces in action.
+The chapters that follow enter rooms, threads, and kitchens where meaning is already in motion. They widen into history, institutions, and power where that widening complicates what the scene showed. They return to the same sentences with altered weight. Some of those rooms belong to the same people, watched across weeks and reviews—not to tell a serial story, but so you can feel how meaning accumulates when lives stay coupled. Only then do they name the patterns at work. Full definitions live in Appendix A. A map of how those patterns cluster appears after Part I, once you have met the forces in action. **Reachability**—whether revised understanding still has somewhere to land—is the book's culminating relational condition, not an eleventh pattern in that map.
 
 For now, stay with the sentence before the sentence—the one still forming while everyone else is already moving on.

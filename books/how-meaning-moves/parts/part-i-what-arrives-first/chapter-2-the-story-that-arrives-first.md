@@ -46,11 +46,11 @@ One of the quickest roads from signal to story is tone. A loud voice becomes ang
 
 His *ok* was ambiguous. Hers had been too. In the space between them, both gaps filled at once.
 
-Early telegraph operators learned something modern texters still live inside: short messages force the receiver to supply what the wire left out. Stop words, context, hesitation—all compressed out for speed. The operator on the other end did not hear a voice. He read urgency into spacing, irritation into brevity, affection into a name omitted. The system was built for efficiency. The human mind was built to finish the sentence anyway.
+Early telegraphy offers a useful structural comparison: a medium built for compressed transmission leaves receivers to supply what the wire omitted—stop words, hesitation, context. The tariff rewarded brevity; the human mind still had to finish the sentence.[^c2-hutchins-telegraph] Modern text threads inherit the same pressure without inheriting any operator's discipline.
 
 Compression does not operate on words alone. It takes in tone, urgency, emotion, and power, then turns them into a conclusion. Fear becomes threat. Confidence becomes arrogance. Hesitation becomes evasion. Once that conclusion forms, it hardens quickly. The listener is no longer engaging with what is being said. They are engaging with what they believe is happening. Additional information rarely helps. New words get filtered through what the listener has already decided.
 
-One of the strongest forms of compression is attribution: deciding who someone is instead of asking why something happened. It works quickly and distorts easily. Once attribution takes hold, correction feels unnecessary. The story already explains everything.[^c2-ross-nisbett-person-situation]
+One of the strongest forms of compression is attribution: deciding who someone is instead of asking why something happened. Intent gets assigned before intent has been earned. It works quickly and distorts easily. Once attribution takes hold, correction feels unnecessary. The story already explains everything.[^c2-ross-nisbett-person-situation]
 
 Compression accelerates when stakes are high. Conflict, authority, time constraints, and emotional arousal all increase the demand for fast conclusions. In those moments, waiting feels risky and delay feels unsafe. Reads tighten sooner. People become more certain. Stories become cleaner. Nuance disappears. A manager reads a pause as resistance. A partner reads a delayed reply as withdrawal. A short *ok* reads as contempt. Speed feels protective, so detail gets dropped.[^c2-closure-pressure-and-cues]
 
@@ -76,6 +76,7 @@ When meaning is incomplete, people rapidly fill in what is missing so action can
 
 Listeners infer motive quickly from impact and signal, often before they know enough about what happened. That inference can feel like recognition, which is why it is so hard to interrupt. Once the deciding step is visible, the three letters on a screen are never only three letters. They are a space the mind cannot bear to leave empty.
 
+[^c2-hutchins-telegraph]: On how telegraphic tariffs and brevity conventions shaped what senders omitted and receivers had to infer, see Standage, Tom. *The Victorian Internet*. New York: Walker & Company, 1998.
 [^c2-gigerenzer-gut-feelings]: Gigerenzer, Gerd. *Gut Feelings: The Intelligence of the Unconscious*. New York: Viking, 2007.
 [^c2-clark-using-language]: Clark, Herbert H. *Using Language*. Cambridge: Cambridge University Press, 1996.
 [^c2-kahneman-thinking-fast-slow]: Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011.

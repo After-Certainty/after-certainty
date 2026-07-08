@@ -22,7 +22,7 @@ Here connection carries the most weight: few bonds let you injure or soothe some
 
 Family talk compresses almost instantly. A short phrase can wake years of shared story. Tone gets checked against old patterns. Silence echoes older silences. Meaning finishes before anyone finishes explaining. This speed is not proof people stopped caring. It is what familiarity does. The mind already owns a version of the story. Updating feels easier than opening the story back up.
 
-Oral stories drift the same way across generations—not because anyone lies, but because each retelling carries what the last teller needed the story to mean. A detail drops. A motive sharpens. A pause becomes proof. By the fifth version, the tale sounds ancient and inevitable, as though it had always been told that way. Kitchens work on a smaller clock, but the mechanism is familiar: each new moment gets heard through what people already believe happened.
+Families retell their own stories the same way—a detail drops, a motive sharpens, a pause becomes proof in the next telling. That is not a law of all oral tradition. It is familiar enough at the kitchen table that almost everyone has felt a phrase accumulate history it did not start with.
 
 Intimacy turns signal up. The stakes are personal in the plain sense: belonging, love, safety, selfhood. When those feel shaky, ambiguity can feel unbearable. People want an answer less to win and more to feel close again. Restraint is hardest here—not because people do not care, but because they care so much they want the ache to stop now.[^c5-bonds-and-belonging-pressure]
 
