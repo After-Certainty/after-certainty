@@ -8,6 +8,8 @@
 
 - [Title Page](front-matter/title-page.md)
 - [What This Book Is](front-matter/what-this-book-is.md)
+- [Reading With the Series](front-matter/reading-with-the-series.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Introduction — The Wrong Question](front-matter/introduction-the-wrong-question.md)
 
 ## Part I — How Influence Begins

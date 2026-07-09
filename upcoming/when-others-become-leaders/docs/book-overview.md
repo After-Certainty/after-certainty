@@ -30,7 +30,7 @@ This project is related to *When Others Look To You* but stands fully on its own
 *When Others Look To You* examines what happens when influence accumulates around someone.  
 *When Others Become Leaders* examines what healthier leaders do with that influence: they help leadership move beyond themselves.
 
-A brief standalone note appears in [`what-this-book-is.md`](../front-matter/what-this-book-is.md). The introduction does not require prior reading of the sibling title.
+A brief standalone note appears in [`what-this-book-is.md`](../front-matter/what-this-book-is.md). Series positioning, *When Others Look To You*, and the term **circulation** are developed in [`reading-with-the-series.md`](../front-matter/reading-with-the-series.md). The introduction does not require prior reading of the sibling title.
 
 ## Why this is not biography collection or conventional leadership book
 

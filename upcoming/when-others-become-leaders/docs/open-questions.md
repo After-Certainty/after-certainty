@@ -9,7 +9,8 @@ Deliberate unresolved decisions. Keep these visible rather than settling them im
 | — | Edition length / expansion band | **Locked at ~50k words.** Current draft is the target edition; no expansion toward 70–90k. |
 | 1 | Is nine the right number of central figures? | **Locked for this edition.** Nine chapters drafted with assigned figures; revisit only if a structural rewrite is planned. |
 | 2 | Three-part ordering vs associative sequence? | **Locked.** Current three-part arc and chapter order stand for this edition. |
-| 4 | Introduction mention of *When Others Look To You*? | **Brief standalone note only** in `what-this-book-is.md`; introduction remains independent. |
+| 4 | WOLTY cross-reference placement | **Dedicated front matter** — [`reading-with-the-series.md`](../front-matter/reading-with-the-series.md) and [`about-the-series.md`](../front-matter/about-the-series.md); introduction remains case-led. |
+| 6 | Use “circulation” explicitly in prose? | **Yes.** Series vocabulary (defined in *When Others Look To You*); used directly throughout. See reading-with-the-series. |
 
 ## Structure and scope (open)
 
@@ -18,7 +19,6 @@ Deliberate unresolved decisions. Keep these visible rather than settling them im
 ## Voice and method (open)
 
 5. How much personal narrative should appear, and where does it clarify versus distract?
-6. Should the manuscript use the term “circulation” explicitly, or mostly show it through scenes and cases?
 7. How can chapters preserve essayistic wandering without losing question clarity?
 
 ## Ethics, comparison, and controversy (open)

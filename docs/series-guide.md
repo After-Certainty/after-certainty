@@ -38,6 +38,14 @@ Leadership begins when attention accumulates, when responsibility accumulates, w
 
 **Question:** How does authority become legitimate?
 
+### [When Others Become Leaders](../upcoming/when-others-become-leaders/index.md) *(upcoming)*
+
+Once influence gathers around a person, what kind of leader leaves behind more leaders? This book studies **circulation** through nine historical cases — whether agency, practice, and moral posture survive the leader's absence.
+
+**Question:** What does enduring influence leave behind?
+
+**Pair with:** *When Others Look To You* (formation and accumulation) → this book (circulation and legacy). Each stands alone.
+
 ---
 
 ## Stabilization

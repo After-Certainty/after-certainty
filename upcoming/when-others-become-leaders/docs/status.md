@@ -32,13 +32,15 @@ Source packets, claims ledger, bibliography guide, and export bibliography built
 | Target length | **Locked** | ~50,000 words at current draft; no expansion pass toward 70–90k band |
 | Chapter count | **Locked** | Nine chapters + intro + epilogue for this edition |
 | Part structure | **Locked** | Three-part arc as drafted |
-| WOLTY relationship | **Locked** | Brief standalone note in `what-this-book-is.md`; no dependency on *When Others Look To You* |
+| WOLTY relationship | **Locked** | [`reading-with-the-series.md`](../front-matter/reading-with-the-series.md); circulation used as series vocabulary |
 
 ## Unit progress
 
 | Unit | Phase | Words | Notes |
 |------|-------|------:|-------|
-| What This Book Is | draft | ~130 | Reader positioning |
+| What This Book Is | draft | ~130 | Reader positioning; links to series reader |
+| Reading With the Series | complete | ~450 | WOLTY pair, circulation vocabulary, related titles |
+| About the Series | complete | — | Standard After Certainty series frame |
 | Introduction — The Wrong Question | draft | ~2,170 | [^i1] → research hub |
 | Part I bridge | stub | ~40 | May expand in Part coherence gate |
 | Ch. 1 — The Table | draft | ~6,020 | Citations verified at pivots [^t1-1]–[^t1-6] |
@@ -68,7 +70,6 @@ Source packets, claims ledger, bibliography guide, and export bibliography built
 
 - How explicitly to name the recurring architecture in the epilogue.
 - How to frame “enduring” for a living figure (Taylor Swift) without overclaim.
-- Whether to use the term “circulation” explicitly in prose or mostly show it.
 - Part bridges may need light expansion during Part coherence gates (Phase 3).
 
 ## Rough scale

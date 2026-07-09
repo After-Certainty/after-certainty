@@ -64,7 +64,7 @@ Research standards and source mix are in [`research-plan.md`](research-plan.md).
 ## Relationship to other books
 
 - The book is related to *When Others Look To You* but stands alone.
-- If cross-book relation appears in manuscript prose, keep it brief and non-dependent.
+- Series positioning and circulation vocabulary: [`reading-with-the-series.md`](../front-matter/reading-with-the-series.md).
 - Planning detail and unresolved decisions are tracked in [`book-overview.md`](book-overview.md) and [`open-questions.md`](open-questions.md).
 
 ## Key docs
