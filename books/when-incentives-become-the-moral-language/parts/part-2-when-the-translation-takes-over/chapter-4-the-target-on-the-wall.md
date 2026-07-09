@@ -18,7 +18,7 @@ What the frame accepts is not everything the situation contains.
 
 She opens a tab showing Scope 3 estimates for the supply chain. The numbers are improving on paper because a vendor changed reporting methodology, not because anyone visited the factories where the change is supposed to have occurred. She has requested the visit. It is scheduled for next fiscal year. The target does not wait.
 
-The pattern is not abstract. When Volkswagen's diesel emissions scandal broke in 2015, investigators found that vehicles met laboratory testing protocols while emitting far more nitrogen oxides on the road—the compliance language and the physical harm had diverged for years.[^c4-vw] Corporate climate reporting faces a softer version of the same tension: boundaries shift, methodologies revise, and the curve on the poster can improve while local conditions do not.
+The pattern is not abstract. When Volkswagen's diesel emissions scandal broke in 2015, investigators found that vehicles met laboratory testing protocols while emitting far more nitrogen oxides on the road—the compliance language and the physical harm had diverged for years.[^c4-vw] Corporate climate accounting usually involves no comparable deception. The structural resemblance is narrower: compliance within a defined reporting frame can diverge from conditions outside it—boundaries shift, methodologies revise, and the curve on the poster can improve while local conditions do not.
 
 ### The Harm That Does Not Fit on the Poster
 

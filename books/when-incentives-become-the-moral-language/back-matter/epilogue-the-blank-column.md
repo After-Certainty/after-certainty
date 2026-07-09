@@ -30,11 +30,7 @@ A pattern can hide inside stories. Numbers can force it into view. A hospital ma
 
 The problem begins when the column becomes the boundary of what the institution is capable of knowing. Then what cannot be entered begins to look anecdotal. What cannot be aggregated begins to look exceptional. What cannot be compared begins to look subjective. And what cannot be defended in the language of the system is pushed back toward the people who noticed it. They carry the missing column within themselves.
 
-### Cross-Domain Pairs
-
-A citation count cannot show which question a researcher abandoned. A poll cannot show the conversation through which minds might change. A report card cannot record patience forming over months. A workforce matrix cannot show whether criteria were adequate to the lives reorganized. None of these absences invalidates the measure. The measure becomes dangerous only when the absence is mistaken for emptiness.
-
-The missing knowledge survives in margin notes, hallway conversations, and the private unease of people who know the official account is accurate and incomplete.
+A citation count cannot show which question a researcher abandoned. A poll cannot show the conversation through which minds might change. A report card cannot record patience forming over months. None of these absences invalidates the measure. The measure becomes dangerous only when the absence is mistaken for emptiness. The missing knowledge survives in margin notes, hallway conversations, and the private unease of people who know the official account is accurate and incomplete.
 
 ### The Comfort of Completion
 

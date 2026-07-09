@@ -126,15 +126,9 @@ The transition happens through thousands of improvements. A ranking model become
 
 Responsibility disperses. The engineer worked on prediction. The product manager improved retention. The moderator enforced policy. The creator made material people chose to watch. The user chose to watch it. The advertiser paid for access to attention already present. Everyone touched the system. No one authored the whole.
 
+Large platforms often know a great deal about the environments they create—and struggle to say so publicly without admitting editorial power they are structured to deny.[^c2-pichai-house][^c2-haugen-senate] Their business depends on systems powerful enough to shape attention; their public defense often presents those systems as merely responsive to users. Moderators perform human judgment at the edges of that scale—policies, appeals, interpreters who see what categories miss. Their work is essential and often classified as operational labor rather than editorial authority, judgment hidden where the institution prefers to describe itself as responsive.
+
 This is one reason platform harm is difficult to name. Ordinary moral language looks for intention, decision, and consequence in a line. The feed operates through loops.
-
-### The Platform Knows More Than It Can Say
-
-Large platforms often know a great deal about the environments they create—and struggle to say so publicly without admitting editorial power they are structured to deny.[^c2-pichai-house][^c2-haugen-senate]
-
-### The Moderator at the Edge
-
-Content moderation restores human judgment at the edges of scale: policies, appeals, and interpreters who see what categories miss. Their work is essential and often treated as operational labor rather than editorial choice—judgment hidden where the institution prefers to describe itself as responsive to users.
 
 ### The Person the Metric Cannot Recognize
 

@@ -49,6 +49,13 @@
 - Ch 7: added `[^c7-aca]` (ACA public-option debate).
 - Bibliography: Introduction section removed; Ch 4/7 entries added.
 
+### Final editorial pass (July 2026)
+
+- **Ch 4:** `[^c4-vw]` retained; prose qualifies VW analogy (defeat devices/fraud vs ordinary reporting). Scope 1/2/3, Paris/SBTi, ISSB/ESRS, VCMI/ICVCM footnotes unchanged.
+- **Ch 7:** `[^c7-aca]` revised — Congressional Record (111th Cong.) + Jonathan Cohn, *The Ten Year War* (2021). Prose no longer claims polling/fundraising alone caused public-option removal; cites vote counts, procedure, coalition constraints, industry opposition.
+- **Bibliography:** Cohn (2021) added under Chapter 7; Congressional Record entry specified to 111th Congress.
+- **Footnote count:** 43 definitions (unchanged).
+
 ---
 
 ## Issues found and resolved

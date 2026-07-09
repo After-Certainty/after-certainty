@@ -38,7 +38,9 @@ This is translation in the domain of legitimacy. The moral aim was representatio
 
 ### The Primary That Teaches the Rule
 
-The housing decision does not occur in a vacuum. In the 2009–2010 debate over the Affordable Care Act, congressional leaders and the White House faced sustained pressure over whether to include a public insurance option. Polling showed the option popular in abstract; vote-count models and fundraising signals showed it costly among senators whose support was required.[^c7-aca] The provision was softened, then dropped—not because no one argued for it on merits, but because the institution learned to defend positions that could survive the next tracking survey and the next news cycle. Staff internalize these lessons without writing them down.
+The housing decision does not occur in a vacuum. In the 2009–2010 debate over the Affordable Care Act, congressional leaders and the White House faced sustained pressure over whether to include a public insurance option. Polling showed substantial public support in abstract surveys; Senate vote counts, procedural constraints, and coalition management told a harder story.[^c7-aca] The provision was softened and ultimately dropped as leaders weighed that support against the votes required for passage, industry opposition, and the political cost of prolonging the fight. The episode showed how quickly a policy argument can become an assessment of what the institution can carry—and how measurable viability can begin displacing the underlying question of what representation requires.
+
+Staff internalize these lessons without writing them down.
 
 ### The Other Numbers in the Room
 
@@ -48,11 +50,7 @@ Polling, fundraising, turnout models, and ad performance do not announce that re
 
 Trust in government has declined across many democracies for reasons no single chapter can exhaust.[^c7-trust] But one recurring experience contributes: the sense that public speech orbits signals the institution can count rather than reasons the institution is willing to own. The system records approval ratings. It does not record the voter who wanted an argument, not a snapshot.
 
-### The Difference From the Newsroom
-
-The pattern here differs from the platform feed and from the newsroom homepage, though the family resemblance is strong. Platforms substitute engagement for editorial judgment about what deserves distribution at global scale. Newsrooms substitute attention metrics for judgment about public consequence. Politics substitutes popularity signals for judgment about representation and the good of the whole. The domain changes. The substitution structure does not.
-
-In journalism, the danger is that what moves fastest becomes what matters most. In politics, the danger is that what tests best becomes what leaders are willing to say they believe. Both systems learn from behavior. Both can correct blindness. Both can also teach institutions to treat the measurable response as the moral whole.
+In politics, the danger is that what tests best becomes what leaders are willing to say they believe—a different substitution from attention metrics in journalism, but the same drift toward treating measurable response as the moral whole.
 
 A city council member later tells the candidate she appreciated the final statement. She did not find it courageous. She found it familiar—the kind of language that allows everyone to claim listening while postponing the argument about who pays. The candidate nods. She knows what was lost. She also knows what a sharper statement would have cost in the overnight tracking that will run again tomorrow.
 
@@ -84,7 +82,7 @@ Elections continue. Legitimacy thins—not because democracy ended, but because 
 
 Polls began as instruments for listening. They became, for many campaigns, the practical definition of what leaders are allowed to say they believe. The translation solves real problems of uncertainty and scale. It also teaches politics to treat present preference as moral authority. The numbers are on the screen before the argument begins. The argument learns to wait.
 
-[^c7-aca]: Congressional Record and contemporaneous reporting on Affordable Care Act negotiations (2009–2010), including public-option debate; see also Eitan Hersh, *Politics Is for Power* (New York: Scribner, 2020), on organizing vs poll-driven campaigning.
+[^c7-aca]: Congressional Record, 111th Cong., debate on Affordable Care Act and public-option provisions (2009–2010); Jonathan Cohn, *The Ten Year War: Obamacare and the Unmaking of American Establishment* (New York: St. Martin's Press, 2021), on Senate vote counts, coalition constraints, and the option's removal from final legislation.
 [^c7-pew]: Pew Research Center, U.S. politics polling methodology and election surveys.
 [^c7-fec]: Federal Election Commission, campaign finance disclosure data; OpenSecrets reporting on fundraising totals.
 [^c7-hersh]: Eitan Hersh, *Politics Is for Power* (New York: Scribner, 2020).

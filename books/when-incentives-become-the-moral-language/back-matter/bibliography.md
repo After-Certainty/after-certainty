@@ -78,7 +78,9 @@ Reuters Institute for the Study of Journalism. *Digital News Report*. Annual edi
 
 ## Chapter 7
 
-Congressional Record. Debate on the Affordable Care Act and public-option provisions, 2009–2010.
+Congressional Record. 111th Congress. Debate on Affordable Care Act and public-option provisions, 2009–2010.
+
+Cohn, Jonathan. *The Ten Year War: Obamacare and the Unmaking of American Establishment*. New York: St. Martin's Press, 2021.
 
 Federal Election Commission. Campaign finance disclosure data; OpenSecrets reporting on fundraising totals.
 

@@ -34,6 +34,6 @@ Named institutions, policies, and public episodes appear when they illustrate st
 
 ### **Citations and bibliography**
 
-Claims that depend on external sources carry Pandoc-style footnotes in the chapter files (`[^id]` markers with definitions at chapter end). A consolidated bibliography appears in [`bibliography.md`](bibliography.md).
+Claims that depend on external sources are footnoted. A consolidated bibliography follows.
 
 Documented facts and authorial synthesis are distinguished here; footnotes mark the boundary in individual chapters.
