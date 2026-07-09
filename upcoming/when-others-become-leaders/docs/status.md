@@ -43,7 +43,7 @@ Working in manuscript order: rules, echo, editorial, citation, and linkage check
 | About the Series | revised | — | Phase 2 pass; pointer to reading-with-the-series |
 | Introduction — The Wrong Question | revised | ~2,140 | Phase 2 pass; staccato reflow at pivots; circulation retained |
 | Part I bridge | revised | ~75 | Phase 2 pass; expanded hinge from introduction |
-| Ch. 1 — The Table | in_progress | ~6,000 | Phase 2 opening pass (through Zacchaeus section pending) |
+| Ch. 1 — The Table | revised | ~5,850 | Phase 2 complete; staccato reflow; citations [^t1-1]–[^t1-6] |
 | Ch. 2 — Salt | draft | ~5,370 | Awaiting Phase 2 |
 | Ch. 3 — Victory | draft | ~4,830 | Awaiting Phase 2 |
 | Part II bridge | stub | ~30 | Awaiting Phase 2 |
@@ -61,8 +61,8 @@ Working in manuscript order: rules, echo, editorial, citation, and linkage check
 
 ## Next actions
 
-1. Continue Phase 2 on Ch. 1 — The Table (remainder of chapter).
-2. Ch. 2 — Salt, Ch. 3 — Victory, then Part I coherence gate (Phase 3).
+1. Phase 2 unit pass: Ch. 2 — Salt.
+2. Ch. 3 — Victory, then Part I coherence gate (Phase 3).
 3. Proceed through Parts II and III in manuscript order.
 
 ## Open decisions / known issues
@@ -73,7 +73,7 @@ Working in manuscript order: rules, echo, editorial, citation, and linkage check
 ## Rough scale
 
 - Manuscript words (current draft): ~50,300
-- Last assessed: July 2026 — Phase 2 started (front matter + intro + Part I bridge + Ch. 1 opening)
+- Last assessed: July 2026 — Phase 2; Ch. 1 revised
 
 ## Promotion readiness
 
