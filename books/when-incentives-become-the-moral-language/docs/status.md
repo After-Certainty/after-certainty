@@ -2,11 +2,19 @@
 
 ## Current phase
 
-**Phase 5 — Published in `books/`** (agent pipeline **01–08** in progress on branch `promote/when-incentives-become-the-moral-language`)
+**Phase 5 (essay edition)** — agent pipeline **01–08** complete (May 2026); author gate Ch 3–8 signed off (July 2026)
 
-## Active branch
+## Expansion decision
 
-`promote/when-incentives-become-the-moral-language`
+**Locked (July 2026):** concentrated **essay edition** (~9–11k) is the export band. Promoted to `books/` in Pass 5.
+
+| Band | Status |
+|------|--------|
+| **Essay edition** (~9–11k) | **Current** — export-ready after build smoke |
+| **First editorial cycle** (~12–18k) | **Deferred** — schedule Agent **01** passes when author requests |
+| **Long-term completion** (~60–80k) | **Deferred** — per `book-rules.md` |
+
+Agent **01** runs light deepen only under essay edition.
 
 ## Manuscript hub
 
@@ -100,14 +108,21 @@ Severity: **medium → low** after pass. Cluster skim: after-certainty, economy,
 | `chapter-3` cross-domain callback | reframe | Generic "earlier domains" |
 | `chapter-6` / `chapter-7` closings | reframe | Varied "At human scale" phrasing across Part II |
 
+## Author gate
+
+Ch 3–8 human read-through: **complete (July 2026)** — [`author-read-through-gate-ch-3-8.md`](author-read-through-gate-ch-3-8.md)
+
+## Build smoke
+
+**July 2026:** `make validate-book-specs` pass; `make build-book DIR=books/when-incentives-become-the-moral-language FORMATS="docx epub"` pass (18 units). PDF export requires `xelatex` (verify in CI/release workflow).
+
 ## Next actions
 
-1. Author review; enable exports in `book.yml` when ready.
-2. `make generate-books-manifest` on merge.
+1. Export release via GitHub release workflow (exports enabled in `book.yml`).
 
 ## Rough scale
 
-- ~9.1k words after intro/conclusion pass (May 2026); target ~12–18k cycle one
+- ~9.1k words (July 2026); pipeline edits are structural/voice under essay edition, not full-band growth
 
 ## Promote checklist (structure)
 

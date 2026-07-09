@@ -8,7 +8,8 @@ Architectural constraints for **When Incentives Become the Moral Language** (*Ho
 
 ### Target length
 
-- Domain-essay book (~60–80k words at long-term completion; first editorial cycle ~12–18k from current ~8.3k draft)
+- Domain-essay book (~60–80k words at long-term completion; first editorial cycle ~12–18k deferred)
+- **Essay edition export band:** ~9–11k words — see expansion decision in [`docs/status.md`](status.md)
 - **Two parts**, four domain chapters each:
   - **Part I — When Judgment Fractures** (care, engagement, publishing, targets)
   - **Part II — When Formula Speaks** (fairness, attention, polling, formation)
