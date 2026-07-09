@@ -30,6 +30,8 @@ This project is related to *When Others Look To You* but stands fully on its own
 *When Others Look To You* examines what happens when influence accumulates around someone.  
 *When Others Become Leaders* examines what healthier leaders do with that influence: they help leadership move beyond themselves.
 
+A brief standalone note appears in [`what-this-book-is.md`](../front-matter/what-this-book-is.md). The introduction does not require prior reading of the sibling title.
+
 ## Why this is not biography collection or conventional leadership book
 
 - The book does not rank “great people.”
@@ -37,14 +39,24 @@ This project is related to *When Others Look To You* but stands fully on its own
 - Pattern language emerges near chapter endings rather than being front-loaded.
 - Context, criticism, and limitations are integral to each chapter, not appendices.
 
+## Edition scale
+
+| Field | Value |
+|-------|-------|
+| Current draft | ~50,300 words |
+| Target band | **Locked at current length** (~50k) — July 2026 author decision |
+| Structure | Intro + 3 parts (9 chapters) + epilogue |
+| Prior planning band | ~~70,000–90,000~~ — superseded; no expansion pass planned |
+
 ## Current status
 
-- Planning scaffold created under `upcoming/when-others-become-leaders`.
-- Chapter architecture, voice rules, research roadmap, and open questions documented.
-- No full chapter drafting started.
+- First-draft manuscript complete (all nine chapters, intro, epilogue).
+- Planning docs, voice rules, research roadmap, and open questions in place.
+- Cover and open-graph assets wired via `book.yml` (`publishing.enabled: false` until promote).
+- **Active phase:** research architecture and citation integrity ([`status.md`](status.md)).
 
-## Next planning steps
+## Next steps
 
-1. Expand chapter-level source packets and claim ledgers (see [`research-plan.md`](research-plan.md)).
-2. Decide unresolved framing choices (see [`open-questions.md`](open-questions.md)).
-3. Draft introduction and one pilot chapter opening in Phase 2 (see [`drafting-process.md`](drafting-process.md)).
+1. Per-chapter source packets and claims ledger ([`research-plan.md`](research-plan.md)).
+2. Citation verification and bibliography expansion.
+3. Unit editorial passes, then part coherence and manuscript-wide editorial (see [`drafting-process.md`](drafting-process.md)).

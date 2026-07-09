@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Workflow for planning, researching, and drafting *When Others Become Leaders* while preserving essayistic discovery and historical complexity.
+Workflow for planning, researching, and revising *When Others Become Leaders* while preserving essayistic discovery and historical complexity.
 
 ## Key references
 
@@ -14,54 +14,73 @@ Workflow for planning, researching, and drafting *When Others Become Leaders* wh
 
 ## Branch naming
 
-Use phase-scoped branches when active drafting begins:
+Use phase-scoped branches when active work continues:
 
-- `upcoming/when-others-become-leaders-structure`
-- `upcoming/when-others-become-leaders-draft`
+- `cursor/when-others-become-leaders-planning-ba72` (current)
+- `upcoming/when-others-become-leaders-research`
 - `upcoming/when-others-become-leaders-editorial`
+
+## Edition policy
+
+**Length locked at ~50k words** (July 2026). Editorial passes compress and sharpen; they do not expand toward a 70–90k band.
 
 ## Phases
 
-### Phase 0 — Planning scaffold (current)
+### Phase 0 — Planning scaffold ✓
 
 - Finalize foundational docs in `docs/`.
-- Align title/subtitle/chapter ordering across all planning files.
-- Record open decisions in [`open-questions.md`](open-questions.md) instead of silently resolving.
+- Align title/subtitle/chapter ordering across planning files.
+- Record open decisions in [`open-questions.md`](open-questions.md).
 
-### Phase 1 — Research architecture
+### Phase 1 — Research architecture (current)
 
 - Build chapter-by-chapter source packets from [`research-plan.md`](research-plan.md).
 - Establish a claims ledger: each factual claim maps to at least one reliable source.
 - Gather sources that complicate heroic narratives and surface limits/criticisms.
+- Replace seeded footnotes with verified citations.
+- Expand bibliography from working stub.
 
-### Phase 2 — Outline-to-prose pilots
+### Phase 2 — Unit passes
 
-- Draft introduction and 1-2 chapter openings using [`chapter-architecture.md`](chapter-architecture.md).
-- Keep central figure entry delayed until the chapter question has formed.
-- Run voice checks against [`voice-guide.md`](voice-guide.md) after each pilot section.
+For each chapter, intro, epilogue, and front-matter unit:
 
-### Phase 3 — Chapter drafting loop
+1. **Rules check** — alignment with [`book-rules.md`](book-rules.md).
+2. **Echo pass** — repeated phrasing, claims, and examples against prior units.
+3. **Editorial pass** — clarity, rhythm, staccato reflow where not intentional ([`voice-guide.md`](voice-guide.md)).
+4. **Self-critique** — top weaknesses and concrete fixes.
+5. **Citation pass** — footnotes at structural pivots; verified sources only.
+6. **Linkage check** — [`index.md`](../index.md) and internal links resolve.
+7. **Status update** — unit row in [`status.md`](status.md).
 
-For each chapter:
+Pause for author review between units unless explicitly told to continue.
 
-1. Draft opening object/mystery movement.
-2. Expand associative exploration and counterpoints.
-3. Introduce central figure later in the arc.
-4. Draft choices/consequences plus complications/limitations.
-5. Surface leadership pattern near ending, then resonate back to opening image.
-6. Update source ledger and `status.md`.
+### Phase 3 — Part coherence gate
 
-### Phase 4 — Coherence and integrity pass
+After all units in a part are at least `draft`:
 
-- Ensure patterns emerge through experience, not framework-first exposition.
-- Verify no chapter implies moral equivalence among unlike contexts.
-- Check all controversial claims against reliable sources.
-- Remove repeated prose where cross-links suffice.
+- Part opener-to-chapter continuity (bridges may expand lightly).
+- Chapter-to-chapter progression within the part.
+- Consistent terminology and confidence level.
+- Example and figure distribution.
 
-### Phase 5 — Manuscript packaging (future)
+### Phase 4 — Manuscript-wide editorial
 
-- Promote from `upcoming/` into `books/` when manuscript is mature.
-- Add publication-facing assets (`book.yml`, front/back matter export wiring) in a separate change set.
+- Structural cohesion across parts.
+- Global echo and compression pass.
+- Full copy edit.
+- Citation integrity and bibliography completeness.
+- Resolve or defer remaining items in [`open-questions.md`](open-questions.md).
+- Optional reader-facing front matter (author's note, how-to-read) before promote.
+
+### Phase 5 — Promote to `books/`
+
+When manuscript is mature and author read-through is complete:
+
+- Copy to `books/when-others-become-leaders/`.
+- Enable `publishing.enabled` and `build.formats.*` in `book.yml`.
+- Export smoke test (`make build-book DIR=books/when-others-become-leaders`).
+- Update [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md) and series guide.
+- Add WOLTY differentiation blurb if not already in index/front matter.
 
 ## Commit discipline
 
@@ -71,4 +90,4 @@ For each chapter:
 
 ## Current starting phase
 
-See [`status.md`](status.md) — **Phase 0 — Planning foundation scaffold**.
+See [`status.md`](status.md) — **Phase 1 — Research architecture**.

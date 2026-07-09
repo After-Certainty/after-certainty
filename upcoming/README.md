@@ -32,6 +32,6 @@ Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/af
 
 | Book | Phase | Notes |
 |------|-------|-------|
-| *(none — scaffold new work from [`docs/_templates/`](docs/_templates/))* | | |
+| [When Others Become Leaders](when-others-become-leaders/) | Phase 1 | ~50k first draft; length locked; citation pass next |
 
-Scaffold new work here or copy from [`docs/_templates/`](docs/_templates/).
+Scaffold additional work from [`docs/_templates/`](docs/_templates/).
