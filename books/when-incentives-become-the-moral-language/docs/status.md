@@ -10,6 +10,7 @@ Essay edition (Phase 5) remains complete and exportable at current manuscript pa
 |-----------|--------|
 | Essay edition (~9–11k) | **Complete** (Phase 5, July 2026) |
 | Rewrite planning document | **Complete** — [`WHEN_INCENTIVES_REWRITE_PLAN.md`](WHEN_INCENTIVES_REWRITE_PLAN.md) |
+| Ch 1 reference draft | **Complete** — [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) |
 | Author approval gates | **Pending** — [`author-approval-gates.md`](author-approval-gates.md) |
 | Chapter rewrites | **Not started** |
 

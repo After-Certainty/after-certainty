@@ -59,6 +59,14 @@ Full mechanism naming belongs in **Ch 9** (*When the Proxy Becomes the Good*), n
 
 > When judgment no longer scales, incentives become the moral language—systems coordinate action through survivability, visibility, and formulaic fairness rather than through shared understanding of what matters.
 
+## Voice reference
+
+**North star:** [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) (author reference draft)
+
+Pattern notes: [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md)
+
+Rewrite agents and human editors should match this chapter's movement—scene before mechanism, dual truth, return to object, Core Principle earned at end—not its exact sentence length or short-line cadence on every page.
+
 ## Tone and positioning
 
 ### This book must not be

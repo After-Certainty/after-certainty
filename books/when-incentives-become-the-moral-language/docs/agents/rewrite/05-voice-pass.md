@@ -35,7 +35,7 @@ Ensure prose matches author's recent essayistic voice—flowing paragraphs, vari
 
 ### Cluster skim
 
-Quick read against *After Certainty* and *How Meaning Moves* for register drift.
+Quick read against reference Ch 1 ([`reference/chapter-1-the-bed-someone-else-needs.md`](../../reference/chapter-1-the-bed-someone-else-needs.md)) and *After Certainty* / *How Meaning Moves* for register drift.
 
 ## DO NOT
 

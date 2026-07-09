@@ -16,8 +16,9 @@ Replace essay-edition scaffold prose with **scene-first essayistic** chapters. E
 
 ## INPUTS
 
-- Target chapter brief (plan §5)
-- Current essay-edition source file (if mapping exists in plan §6)
+- [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../../WHEN_INCENTIVES_REWRITE_PLAN.md) §5 — chapter brief
+- [`reference/chapter-1-the-bed-someone-else-needs.md`](../../reference/chapter-1-the-bed-someone-else-needs.md) — **voice north star** (Ch 1; pattern for all chapters)
+- [`reference/VOICE-NOTES.md`](../../reference/VOICE-NOTES.md) — compositional patterns
 - [`book-rules.md`](../../book-rules.md) — invisible craft scaffold
 - [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../../WHEN_INCENTIVES_REWRITE_PLAN.md) §7 (anchors), §12 (preserve), §13 (cut)
 - Prior chapter in reading order (for transition concept, plan §10—not preview prose)

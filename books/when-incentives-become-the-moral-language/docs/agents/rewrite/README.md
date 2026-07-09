@@ -3,9 +3,8 @@
 **Phase 6** — scene-led essayistic rewrite (length follows craft; no fixed word band for now)
 
 **Plan:** [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../../WHEN_INCENTIVES_REWRITE_PLAN.md)  
-**Chapter briefs:** Plan §5  
-**Craft template:** Plan §15 (invisible scaffold—never label in prose)  
-**Author gates:** [`author-approval-gates.md`](../../author-approval-gates.md)
+**Voice north star:** [`reference/chapter-1-the-bed-someone-else-needs.md`](../../reference/chapter-1-the-bed-someone-else-needs.md) · [`reference/VOICE-NOTES.md`](../../reference/VOICE-NOTES.md)  
+**Chapter briefs:** Plan §5
 
 ---
 

@@ -16,6 +16,8 @@
 
 **Author approval gates:** [`author-approval-gates.md`](author-approval-gates.md)
 
+**Voice north star (Ch 1):** [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) · [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md)
+
 ---
 
 ## 1. Executive assessment
@@ -102,6 +104,7 @@ flowchart LR
 
 ### What the incentives rewrite should adopt
 
+- **Match the reference chapter** ([`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md)) for scene-first entry, evocative section titles, dual-truth counterpressure, and earned Core Principle
 - Enter through **institutional surfaces** (whiteboard, feed, matrix, front page) not thesis paragraphs
 - Keep **one widening per chapter** (policy history, documented episode, research)—return to opening image
 - Move **"moral residue"** from heading to **experienced consequence** before the term appears (Part IV may name it)
@@ -341,13 +344,15 @@ flowchart LR
 
 ### Ch 1 — The Bed Someone Else Needs
 
-- **Current:** Ch 1 Care Without Caring
+- **Reference draft (author):** [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) — **primary voice north star** for the rewrite
+- **Current essay edition:** Ch 1 Care Without Caring
 - **Object:** Hospital whiteboard with expected discharge date
-- **Anchors:** HRRP, MS-DRGs (preserve citations); NAM burnout; Talbot/Dean moral injury
-- **Preserve intact:** Double bind bullets; "patient met discharge criteria"; privatized caring line
-- **Rewrite:** Open on whiteboard/ward scene; weave mechanisms into narrative; end on whiteboard field that has no column for family fear
-- **Principle (earned):** Criteria carry a decision farther than judgment can, but not the whole reason
-- **Target:** Room for scene-led craft (no fixed word count)
+- **Action:** Integrate reference draft into manuscript structure; add citations at pivots (HRRP, DRG, capacity/boarding sources per §11)
+- **Preserve from reference:** Scene structure, section movement, criteria language, hidden-subsidy preview, Core Principle, closing whiteboard return
+- **Preserve from essay edition:** Footnote anchors where claims align
+- **Do not:** Reintroduce scaffold headings; expand hidden-subsidy section to Ch 10 scope
+- **Principle (earned):** Care continues; caring becomes private (reference draft closing)
+- **Target:** Room for scene-led craft (reference draft sets pacing)
 
 ### Ch 2 — The Feed That Never Empties
 
@@ -771,4 +776,5 @@ See [`author-approval-gates.md`](author-approval-gates.md) for decisions requiri
 | [`status.md`](status.md) | Rewrite phase tracking |
 | [`drafting-process.md`](drafting-process.md) | Rewrite workflow |
 | [`agents/rewrite/README.md`](agents/rewrite/README.md) | New agent specs for essayistic rewrite |
-| [`agents/legacy-essay-edition/README.md`](agents/legacy-essay-edition/README.md) | Archived Phase 5 pipeline |
+| [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) | Author reference draft — Ch 1 voice north star |
+| [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md) | Compositional patterns extracted from reference Ch 1 |
