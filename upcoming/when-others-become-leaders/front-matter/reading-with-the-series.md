@@ -4,12 +4,12 @@
 
 ## The closest companion: *When Others Look To You*
 
-The nearest book in the series is [**When Others Look To You**](https://www.after-certainty.com) — published in two editions that share language but serve different reading paths:
+The nearest book in the series is [**When Others Look To You**](../../../books/when-others-look-to-you/v1/index.md) — published in two editions that share language but serve different reading paths:
 
 | Edition | Subtitle | Best for |
 |---------|----------|----------|
-| **v1** | *Renewal and Erosion in Leadership* | The integrated field guide: how attention gathers, how influence renews or erodes, and how **circulation** and **correction** are tested in practice |
-| **v2** | *Forming, Renewing, Eroding, Repeating* | A pattern-level companion that walks the same dynamics in a linear sequence |
+| **v1** | *Renewal and Erosion in Leadership* | The integrated field guide: how attention gathers, how influence renews or erodes, and how **circulation** and **correction** are tested in practice ([v1 index](../../../books/when-others-look-to-you/v1/index.md)) |
+| **v2** | *Forming, Renewing, Eroding, Repeating* | A pattern-level companion that walks the same dynamics in a linear sequence ([v2 index](../../../books/when-others-look-to-you/v2/index.md)) |
 
 **How they differ:** *When Others Look To You* asks what happens when others begin looking toward someone — when authority, expectation, and responsibility accumulate around a person. *When Others Become Leaders* asks what happens next: whether that influence leaves behind more capable people and communities, or dependence on the original figure.
 

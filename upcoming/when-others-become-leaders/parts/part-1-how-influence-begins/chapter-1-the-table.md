@@ -48,25 +48,11 @@ These understandings cannot be flattened into agreement.
 
 A book about leadership should not pretend to resolve questions that have organized religious life for two thousand years. It can notice something more modest and still consequential: the stories earliest communities preserved about Jesus repeatedly place him at tables, near food, among people whose presence created trouble.[^t1-1]
 
-He eats with tax collectors and people described as sinners. He accepts hospitality from religious leaders and then disrupts the moral clarity of the room. He feeds crowds. He tells stories about banquets where expected guests refuse to come and strangers are brought in from roads and alleys. He compares the kingdom of God to meals, bread, seed, harvest, wine, and invitations that do not behave according to ordinary rank.
-
-The table is not scenery.
-
-It is one of the places where his leadership becomes visible.
+He eats with tax collectors and people described as sinners. He accepts hospitality from religious leaders and then disrupts the moral clarity of the room. He feeds crowds. He tells stories about banquets where expected guests refuse to come and strangers are brought in from roads and alleys. He compares the kingdom of God to meals, bread, seed, harvest, wine, and invitations that do not behave according to ordinary rank. The table is not scenery in these stories; it is one of the places where his leadership becomes visible.
 
 The Roman world into which Jesus was born was layered with distinctions: citizen and subject, enslaved and free, male and female, wealthy and poor, ritually clean and unclean, Roman and provincial, respected and disreputable. Jewish life within that world contained its own complex practices of covenant, purity, family, worship, and communal belonging. Meals could express these boundaries with unusual precision because eating requires bodies to come near one another.
 
-Who prepared the food?
-
-Whose hands touched it?
-
-Where did it come from?
-
-Who is permitted to eat it?
-
-What kind of person would enter this house?
-
-These were not merely questions of preference. Food could make visible a person’s religious faithfulness, social standing, cultural identity, and willingness to remain separate from people regarded as dangerous or dishonorable.
+Meals made visible questions ordinary politeness often hid: who prepared the food, whose hands touched it, where it came from, who was permitted to eat it, and what kind of person would enter the house at all.
 
 Then Jesus sits down with the wrong people.
 

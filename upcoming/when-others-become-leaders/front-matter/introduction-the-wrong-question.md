@@ -32,13 +32,7 @@ But: What kind of leader leaves behind more leaders?
 
 The distinction appears small until the original leader is gone.
 
-A founder dies. A president leaves office. A teacher retires. A movement loses the voice through which millions learned to recognize it. The people who remain look toward the place where the leader used to stand and discover what kind of influence they had received.
-
-Perhaps they possess stories but no judgment.
-
-Perhaps they have rituals but no capacity to revise them.
-
-Perhaps every conflict still travels toward an absent authority whose imagined answer becomes more powerful because it can no longer be questioned.
+A founder dies. A president leaves office. A teacher retires. A movement loses the voice through which millions learned to recognize it. The people who remain look toward the place where the leader used to stand and discover what kind of influence they had received. Perhaps they possess stories but no judgment, rituals but no capacity to revise them, or habits so deep that every conflict still travels toward an absent authority whose imagined answer becomes more powerful because it can no longer be questioned.
 
 Or perhaps something else has happened.
 
@@ -56,19 +50,9 @@ But effectiveness does not tell us what influence leaves behind.
 
 A leader can achieve extraordinary results while making everyone around him smaller. He becomes the necessary interpreter, the final decision-maker, the person whose approval turns thought into action. The institution performs well while he is present. His indispensability is celebrated as proof of his gift.
 
-Then he leaves.
+Then he leaves. The people who remain have learned the wrong lesson from his strength: they know how to follow him, not how to continue.
 
-The people who remain have learned the wrong lesson from his strength.
-
-They know how to follow him.
-
-They do not know how to continue.
-
-Other leaders exert influence that appears almost to reverse this gravity. Attention gathers around them, but some of it begins moving outward again. People become visible. Responsibility changes hands. A recipient becomes an organizer. A disciple becomes a teacher. A stranger welcomed into a room later opens the door for someone else.
-
-The leader remains important.
-
-The importance does not require everyone else to remain peripheral.
+Other leaders exert influence that appears almost to reverse this gravity. Attention gathers around them, but some of it begins moving outward again. People become visible. Responsibility changes hands. A recipient becomes an organizer. A disciple becomes a teacher. A stranger welcomed into a room later opens the door for someone else. The leader remains important, but that importance does not require everyone else to remain peripheral.
 
 There is no single method through which this happens. The people in this book worked in circumstances so different that reducing them to a shared set of techniques would make the comparison nearly meaningless.
 
@@ -88,11 +72,7 @@ They belong together because each reveals a different way influence can enter ot
 
 Even that claim requires caution.
 
-Influence is not healthy merely because it spreads. Cruelty circulates. Conspiracy circulates. Fear teaches people to become local enforcers without waiting for orders. A leader can produce thousands of smaller leaders devoted to humiliation, exclusion, or domination.
-
-Multiplication is not enough.
-
-We must also ask what is being multiplied.
+Influence is not healthy merely because it spreads. Cruelty circulates. Conspiracy circulates. Fear teaches people to become local enforcers without waiting for orders. A leader can produce thousands of smaller imitators devoted to humiliation, exclusion, or domination — yet multiplication is not enough. We must also ask what is being multiplied.
 
 Does the leader’s moral posture toward harm survive when the next person acts? Do people become more attentive to consequence or merely more confident in belonging? Does the movement align its methods with the future it claims to seek, or excuse every method as necessary because the destination is good? Can people challenge the central figure, or does admiration convert disagreement into betrayal?
 
