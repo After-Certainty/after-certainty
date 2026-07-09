@@ -11,10 +11,12 @@ Deliberate unresolved decisions. Keep these visible rather than settling them im
 | 2 | Three-part ordering vs associative sequence? | **Locked.** Current three-part arc and chapter order stand for this edition. |
 | 4 | WOLTY cross-reference placement | **Dedicated front matter** — [`reading-with-the-series.md`](../front-matter/reading-with-the-series.md) and [`about-the-series.md`](../front-matter/about-the-series.md); introduction remains case-led. |
 | 6 | Use “circulation” explicitly in prose? | **Yes.** Series vocabulary (defined in *When Others Look To You*); used directly throughout. See reading-with-the-series. |
+| 3 | How directly should the epilogue name the recurring architecture? | **Mostly implicit (July 2026).** Circulation as series term; “recurring reversal” synthesis in epilogue; no framework dump. See [`part-3-coherence-pass.md`](part-3-coherence-pass.md). |
+| 13 | What does “enduring” mean for Taylor Swift? | **Circulation-in-progress (July 2026).** Ch. 9 and epilogue frame open chapter; no settled legacy claim while figure remains active. |
 
 ## Structure and scope (open)
 
-3. How directly should the epilogue name the recurring architecture versus leaving it mostly implicit?
+_(none — structure items resolved for this edition)_
 
 ## Voice and method (open)
 
@@ -31,7 +33,7 @@ Deliberate unresolved decisions. Keep these visible rather than settling them im
 ## Evidence and historical method (open)
 
 12. What minimum evidence threshold should be set before including a memorable anecdote?
-13. What does “enduring” mean for a living contemporary figure such as Taylor Swift?
+13. _(Resolved July 2026 — see Resolved table: Swift “enduring” framing.)_
 14. Which claims require strongest primary-source corroboration before promotion?
 
 ## Process checkpoints

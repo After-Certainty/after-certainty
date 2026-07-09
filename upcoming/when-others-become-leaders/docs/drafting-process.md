@@ -54,7 +54,7 @@ For each chapter, intro, epilogue, and front-matter unit:
 
 Pause for author review between units unless explicitly told to continue.
 
-### Phase 3 — Part coherence gate (current)
+### Phase 3 — Part coherence gate ✓
 
 After all units in a part are at least `draft`:
 
@@ -63,7 +63,9 @@ After all units in a part are at least `draft`:
 - Consistent terminology and confidence level.
 - Example and figure distribution.
 
-### Phase 4 — Manuscript-wide editorial
+Gate docs: [`part-1-coherence-pass.md`](part-1-coherence-pass.md), [`part-2-coherence-pass.md`](part-2-coherence-pass.md), [`part-3-coherence-pass.md`](part-3-coherence-pass.md).
+
+### Phase 4 — Manuscript-wide editorial (current)
 
 - Structural cohesion across parts.
 - Global echo and compression pass.
@@ -90,4 +92,4 @@ When manuscript is mature and author read-through is complete:
 
 ## Current starting phase
 
-See [`status.md`](status.md) — **Phase 2 — Unit passes** (Phase 1 research complete).
+See [`status.md`](status.md) — **Phase 4 — Manuscript-wide editorial** (Phase 3 coherence gates complete).

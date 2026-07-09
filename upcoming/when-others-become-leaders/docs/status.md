@@ -2,9 +2,9 @@
 
 ## Current phase
 
-**Phase 2 — Unit editorial passes (complete)**
+**Phase 3 — Part coherence gates (complete)**
 
-All manuscript units revised in reading order (staccato reflow, bridges expanded). Ready for **Phase 3 — Part coherence gates**.
+All three parts gated; epilogue architecture and Swift framing documented in part pass docs. Ready for **Phase 4 — Manuscript-wide editorial**.
 
 ## Active branch
 
@@ -23,6 +23,7 @@ All manuscript units revised in reading order (staccato reflow, bridges expanded
 - [`drafting-process.md`](drafting-process.md)
 - [`bibliography-guide.md`](bibliography-guide.md)
 - [`research/README.md`](research/README.md)
+- Phase 3 gates: [`part-1-coherence-pass.md`](part-1-coherence-pass.md), [`part-2-coherence-pass.md`](part-2-coherence-pass.md), [`part-3-coherence-pass.md`](part-3-coherence-pass.md)
 - Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md)
 
 ## Edition policy
@@ -33,6 +34,8 @@ All manuscript units revised in reading order (staccato reflow, bridges expanded
 | Chapter count | **Locked** | Nine chapters + intro + epilogue |
 | Part structure | **Locked** | Three-part arc as drafted |
 | WOLTY / circulation | **Locked** | [`reading-with-the-series.md`](../front-matter/reading-with-the-series.md) |
+| Epilogue architecture naming | **Locked (July 2026)** | Mostly implicit; circulation + “recurring reversal” — see Part III gate |
+| Swift “enduring” framing | **Locked (July 2026)** | Circulation-in-progress; epilogue keeps chapter open |
 
 ## Unit progress
 
@@ -42,40 +45,40 @@ All manuscript units revised in reading order (staccato reflow, bridges expanded
 | Reading With the Series | revised | ~450 | Phase 2 |
 | About the Series | revised | — | Phase 2 |
 | Introduction — The Wrong Question | revised | ~2,140 | Phase 2 |
-| Part I bridge | revised | ~75 | Phase 2 |
-| Ch. 1 — The Table | revised | ~6,040 | Phase 2 |
-| Ch. 2 — Salt | revised | ~5,380 | Phase 2 |
-| Ch. 3 — Victory | revised | ~4,870 | Phase 2 |
-| Part II bridge | revised | ~90 | Phase 2 |
-| Ch. 4 — The March | revised | ~5,910 | Phase 2 |
-| Ch. 5 — The Tree | revised | ~4,060 | Phase 2 |
-| Ch. 6 — The Sign | revised | ~5,300 | Phase 2 |
-| Part III bridge | revised | ~105 | Phase 2 |
-| Ch. 7 — The House | revised | ~3,895 | Phase 2 |
-| Ch. 8 — The Neighborhood | revised | ~4,790 | Phase 2 |
-| Ch. 9 — The Bracelet | revised | ~2,540 | Phase 2 |
-| Epilogue — The Empty Chair | revised | ~4,890 | Phase 2 |
+| Part I bridge | gated | ~75 | Phase 3 |
+| Ch. 1 — The Table | gated | ~6,040 | Phase 3 |
+| Ch. 2 — Salt | gated | ~5,380 | Phase 3 |
+| Ch. 3 — Victory | gated | ~4,870 | Phase 3 |
+| Part II bridge | gated | ~90 | Phase 3 |
+| Ch. 4 — The March | gated | ~5,910 | Phase 3 |
+| Ch. 5 — The Tree | gated | ~4,060 | Phase 3 |
+| Ch. 6 — The Sign | gated | ~5,300 | Phase 3 |
+| Part III bridge | gated | ~105 | Phase 3; “begins and moves” fix |
+| Ch. 7 — The House | gated | ~3,895 | Phase 3 |
+| Ch. 8 — The Neighborhood | gated | ~4,790 | Phase 3 |
+| Ch. 9 — The Bracelet | gated | ~2,540 | Phase 3 |
+| Epilogue — The Empty Chair | gated | ~4,890 | Phase 3 |
 | Bibliography | complete | — | Phase 1 |
 | Research packets | complete | — | Phase 1 |
 | Cover + OG assets | complete | — | — |
 
 ## Next actions
 
-1. Phase 3 — Part I coherence gate (bridge ↔ Ch. 1–3 progression, terminology).
-2. Phase 3 — Part II coherence gate (Ch. 4–6).
-3. Phase 3 — Part III coherence gate (Ch. 7–9 + epilogue architecture naming).
+1. Phase 4 — Manuscript-wide editorial (global echo, compression, copy edit).
+2. Phase 4 — Citation integrity and bibliography completeness check.
+3. Author read-through gate before Phase 5 promote.
 
 ## Open decisions / known issues
 
-- How explicitly to name the recurring architecture in the epilogue (defer to Phase 3/4).
-- How to frame “enduring” for a living figure (Taylor Swift) without overclaim.
+- Personal narrative density (open question #5) — defer to Phase 4.
+- Remaining ethics/comparison items (#8–11) — monitored in Phase 4 global pass.
 
 ## Rough scale
 
 - Manuscript words (prose units): ~50,900
 - Edition target (locked): ~50,000
-- Last assessed: July 2026 — Phase 2 complete
+- Last assessed: July 2026 — Phase 3 complete
 
 ## Promotion readiness
 
-**R1** — internal/share draft with citation backbone and editorial pass. Path to **R2**: Phase 3–4 + author read-through.
+**R1** — internal/share draft with citation backbone, unit editorial, and part coherence gates. Path to **R2**: Phase 4 + author read-through.
