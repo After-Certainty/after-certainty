@@ -30,6 +30,8 @@ Zuckerberg, Mark. Testimony before the U.S. Senate Judiciary and Commerce Commit
 
 ## Chapter 3
 
+Garfield, Eugene. "The History and Meaning of the Impact Factor." *JAMA* 295, no. 1 (2006): 90–93.
+
 Hirsch, Jorge E. "An Index to Quantify an Individual's Scientific Research Output." *Proceedings of the National Academy of Sciences* 102, no. 46 (2005): 16569–16572.
 
 Ioannidis, John P. A. "Why Most Published Research Findings Are False." *PLoS Medicine* 2, no. 8 (2005): e124.
@@ -39,6 +41,12 @@ National Science Foundation. Merit review criteria and proposal evaluation guide
 Open Science Collaboration. "Estimating the Reproducibility of Psychological Science." *Science* 349, no. 6251 (2015).
 
 San Francisco Declaration on Research Assessment (DORA). 2012. https://sfdora.org/.
+
+## Interlude
+
+Monmonier, Mark. *How to Lie with Maps*. 3rd ed. Chicago: University of Chicago Press, 2018.
+
+Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press, 1998.
 
 ## Essay edition (remaining chapters)
 

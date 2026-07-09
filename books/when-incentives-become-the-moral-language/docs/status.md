@@ -17,6 +17,7 @@ Essay edition (Phase 5) remains available at legacy paths. Rewrite work has begu
 | Epilogue reference draft | **Complete** — [`reference/epilogue-the-blank-column.md`](reference/epilogue-the-blank-column.md) |
 | **Introduction rewrite** | **Complete** — [`introduction-the-question-the-dashboard-cannot-ask.md`](../front-matter/introduction-the-question-the-dashboard-cannot-ask.md) |
 | **Part I rewrite (Ch 1–3)** | **Complete** — [`part-1-the-need-for-translation/`](../parts/part-1-the-need-for-translation/) |
+| **Interlude rewrite** | **Complete** — [`interlude-the-map-was-not-a-lie.md`](../front-matter/interlude-the-map-was-not-a-lie.md) |
 | Author approval gates | **Pending** — [`author-approval-gates.md`](author-approval-gates.md) |
 | Remaining chapters | **Not started** |
 

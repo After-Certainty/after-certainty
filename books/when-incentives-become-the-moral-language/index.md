@@ -19,7 +19,7 @@
 
 ## Interlude — The Map Was Not a Lie
 
-- [Interlude — What This Book Is Not](front-matter/interlude-what-this-book-is-not.md) *(essay edition — rewrite pending)*
+- [Interlude — The Map Was Not a Lie](front-matter/interlude-the-map-was-not-a-lie.md)
 
 ## Part II — When the Translation Takes Over
 
