@@ -109,4 +109,4 @@ After July 2026 fixes: `missing_defs=0`, `unused_defs=0` on rewrite paths.
 
 1. Add Sunstein *#Republic* if Ch 6 civic-trust claims are strengthened in a later pass (cited in legacy essay Ch 6, not rewrite).
 2. Split combined footnotes (Ch 4 Paris/SBTi; Ch 11 Jameton/Rushton) if author prefers one-source-per-note discipline.
-3. Update [`appendix-method-and-sources.md`](../back-matter/appendix-method-and-sources.md) composite-scene disclosure when appendix pass runs.
+3. ~~Update [`appendix-method-and-sources.md`](../back-matter/appendix-method-and-sources.md) composite-scene disclosure when appendix pass runs.~~ **Complete** (July 2026)
