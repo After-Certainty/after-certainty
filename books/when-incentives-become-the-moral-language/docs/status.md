@@ -118,7 +118,7 @@ During active rewrite, consider disabling `github.release` in `book.yml` until m
 ## Next actions
 
 1. Author sign-off on [`author-approval-gates.md`](author-approval-gates.md)
-2. Full transition and repetition pass across manuscript
+2. ~~Full transition and repetition pass across manuscript~~ **Complete** (July 2026)
 3. Citation verification + bibliography consolidation
 4. Voice consistency pass (compare to After Certainty / HMM post-rewrite)
 5. Update [`appendix-method-and-sources.md`](../back-matter/appendix-method-and-sources.md) for scene-first method

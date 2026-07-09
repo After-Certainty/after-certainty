@@ -36,7 +36,7 @@ In each case, the displaced knowledge is not destroyed. It returns in the only d
 
 ### The Success That Teaches the Wrong Lesson
 
-Chapter 10 described the hidden subsidy: people supplying judgment, care, and interpretation beyond what formal systems request. This chapter names what happens when that subsidy succeeds. The institution receives the benefit and misreads the source.
+When that unofficial labor succeeds, the institution receives the benefit and misreads the source.
 
 If patients leave safely because nurses stayed nine extra minutes, the discharge process appears sufficient. If employees land elsewhere because managers wrote recommendations in the evening, the layoff matrix appears humane. If students recover because teachers gave up lunch periods, the school appears responsive. If investigations survive because editors defended them privately, the newsroom appears committed to public service. If campaigns win because field organizers carried relationships the polling deck could not see, the strategy appears sound.
 
@@ -74,9 +74,11 @@ Displaced knowledge does not disappear. It relocates.
 
 It survives in after-meeting conversations, margin notes, private warnings, and the unease of people who know the official account is accurate and incomplete. It survives in turnover patterns leadership interprets too late. It survives in families who stop trusting instructions they were too frightened to question. It survives in citizens who hear positions before reasons. It survives in students who learn which parts of themselves will be graded. It survives in journalists who defend public importance through arguments the analytics deck cannot hear.
 
-Sometimes this relocated knowledge eventually forces its way back into measurable form—a spike, a scandal, a cluster of returns, a protest, a lawsuit, a election result leadership did not predict. The institution then acts, sincerely, on the signal that arrived. It may improve something real. It may also learn the wrong lesson: that the problem began when the numbers moved, rather than when the numbers were mistaken for the whole.
+Sometimes this relocated knowledge eventually forces its way back into measurable form—a spike, a scandal, a cluster of returns, a protest, a lawsuit, an election result leadership did not predict. The institution then acts, sincerely, on the signal that arrived. It may improve something real. It may also learn the wrong lesson: that the problem began when the numbers moved, rather than when the numbers were mistaken for the whole.
 
 The deeper loss is earlier. It is the loss of learning while learning is still possible—while the gap is narrow, while the people who know are still inside the building, while the correction does not require crisis language. Institutions that cannot hear themselves in time often hear themselves only in damage.
+
+Seeing that deafness does not repair it. The question that remains is how to live inside systems that still depend on what they cannot fully hear.
 
 ### Core Principle
 

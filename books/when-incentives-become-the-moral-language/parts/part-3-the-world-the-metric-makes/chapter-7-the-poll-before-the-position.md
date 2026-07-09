@@ -52,7 +52,7 @@ Trust in government has declined across many democracies for reasons no single c
 
 ### The Difference From the Newsroom
 
-This chapter's pattern differs from the platform feed and from the newsroom homepage, though the family resemblance is strong. Platforms substitute engagement for editorial judgment about what deserves distribution at global scale. Newsrooms substitute attention metrics for judgment about public consequence. Politics substitutes popularity signals for judgment about representation and the good of the whole. The domain changes. The substitution structure does not.
+The pattern here differs from the platform feed and from the newsroom homepage, though the family resemblance is strong. Platforms substitute engagement for editorial judgment about what deserves distribution at global scale. Newsrooms substitute attention metrics for judgment about public consequence. Politics substitutes popularity signals for judgment about representation and the good of the whole. The domain changes. The substitution structure does not.
 
 In journalism, the danger is that what moves fastest becomes what matters most. In politics, the danger is that what tests best becomes what leaders are willing to say they believe. Both systems learn from behavior. Both can correct blindness. Both can also teach institutions to treat the measurable response as the moral whole.
 

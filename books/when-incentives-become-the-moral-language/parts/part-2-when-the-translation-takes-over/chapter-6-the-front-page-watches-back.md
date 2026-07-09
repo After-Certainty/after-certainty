@@ -168,6 +168,8 @@ The article reached fewer people than the newsroom hoped. Perhaps its presentati
 
 It must attract attention without allowing attraction to become its definition of importance. It must listen to audiences without pretending that present behavior contains the whole public. It must correct editorial arrogance without surrendering editorial responsibility. The front page should watch back. But it should not merely obey what it sees.
 
+Elsewhere, in rooms with no windows and no homepage, the same temptation appears in a different dialect: present response mistaken for the whole meaning of legitimacy.
+
 ### Core Principle
 
 **Attention Is Evidence, Not Authority**

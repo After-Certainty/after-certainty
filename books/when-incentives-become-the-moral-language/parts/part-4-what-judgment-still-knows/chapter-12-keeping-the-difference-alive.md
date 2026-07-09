@@ -16,13 +16,13 @@ Reclaiming moral agency inside these systems does not require pretending to stan
 
 ### Orientation, Not Escape
 
-The interlude named a stance between parts: not nostalgia for a world before metrics, not surrender to metrics as moral whole. This chapter names what that stance looks like in practice—not as a reform program, but as orientation.
+The argument has held a stance throughout: not nostalgia for a world before metrics, not surrender to metrics as moral whole. What follows is what that stance looks like in practice—not as a reform program, but as orientation.
 
 Orientation begins with a question simple enough to forget and difficult enough to keep asking: *What does this measure, and what does it make difficult to see?* The question does not abolish the measure. It keeps the measure in its place. A readmission rate can reveal unequal discharge patterns. An engagement score can show that a team is fraying. A test score can expose neglect the school would rather not name. Each signal can do real work. Orientation refuses the next step: treating the signal as the thing itself.
 
 Orientation also refuses procedural language when harm still needs a name. Institutions prefer sentences that close. *The process was followed.* *The criteria were applied consistently.* *The target was met.* These sentences are often true. They are also incomplete in ways that matter to the people who bear the cost. Naming the incompleteness is not sabotage. It is how judgment remains visible inside systems designed to make judgment private.
 
-A clinician can say the discharge was medically defensible and the family may still need more support than the paperwork contains. A manager can say the matrix was fair by its own rules and still failed to contain the full meaning of contribution. A teacher can say scores improved and still worry about what curiosity lost in the improvement. None of these statements requires abandoning standards. They require tolerating an unfinished account—the decision can be defensible without being complete, necessary without being morally sufficient.
+A clinician can say the discharge was medically defensible and the family may still need more support than the paperwork contains. A manager can say the matrix was fair by its own rules and still failed to contain the full meaning of contribution. A teacher can say scores improved and still worry about what curiosity lost in the improvement. These paired truths do not require abandoning standards. They require tolerating an unfinished account—the decision can be defensible without being complete, necessary without being morally sufficient.
 
 ### Signals and Definitions
 
@@ -46,7 +46,7 @@ Orientation changes how moral exhaustion is interpreted.
 
 When many competent people in the same institution describe the same quiet complicity—the sense that something essential is being performed rather than practiced—the problem is rarely missing character. It is often missing institutional language for judgments the system cannot absorb. The nurse, the manager, the teacher, the editor, and the campaign aide may never meet. They may use different vocabulary. They are often describing the same structural gap: between what was decided in auditable language and what was owed in human terms.
 
-Recognizing the pattern does not dissolve incentive structures. It makes complicity legible. It also makes room for judgment that does not pretend metrics are enough. People stop experiencing private knowledge only as private failure. They begin to see what Chapter 10 named as subsidy and Chapter 11 named as deafness: a shared condition produced by design, not a personal defect cured by resilience training.
+Recognizing the pattern does not dissolve incentive structures. It makes complicity legible. It also makes room for judgment that does not pretend metrics are enough. People stop experiencing private knowledge only as private failure. They begin to see unofficial labor and institutional deafness as a shared condition produced by design—not a personal defect cured by resilience training.
 
 That recognition is not control. It is not nothing.
 
@@ -54,9 +54,9 @@ That recognition is not control. It is not nothing.
 
 This book does not end with a checklist to fix healthcare, platforms, universities, firms, media, politics, or schools. Any such checklist would re-enter the logic this book describes: define what to reward, optimize, and enforce. Reform programs are not forbidden. They are simply not what this volume provides.
 
-What remains is diagnostic discipline: seeing substitution clearly enough to act with eyes open inside systems we still depend on. The book has followed one mechanism—how incentives become moral language when judgment stops coordinating action—through eight surfaces and the pattern that connects them. Other books in the same arc examine interpretation, economy, and practice after certainty. This one stays with metrics, targets, and formulaic fairness as the surviving speech of institutions under pressure.
+What remains is diagnostic discipline: seeing substitution clearly enough to act with eyes open inside systems we still depend on. The book has followed one mechanism—how incentives become moral language when judgment stops coordinating action—across hospital corridors, feeds, manuscripts, targets, matrices, front pages, polls, and classrooms. Other books in the same arc examine interpretation, economy, and practice after certainty. This one stays with metrics, targets, and formulaic fairness as the surviving speech of institutions under pressure.
 
-Care without caring. Engagement as value. Publishing as throughput. Targets without judgment. Fairness by formula. Attention as importance. Polling as legitimacy. Formation without formation. Each phrase names a fracture readers may already feel. Naming the fracture does not remove the systems that produced it. It makes the fracture harder to mistake for personal weakness—and harder to mistake for the whole of moral life.
+Readers may already feel these fractures before they have names for them: care reduced to criteria, connection to engagement, inquiry to throughput, responsibility to targets, fairness to procedure, consequence to attention, legitimacy to polling, formation to scores. Naming the fracture does not remove the systems that produced it. It makes the fracture harder to mistake for personal weakness—and harder to mistake for the whole of moral life.
 
 ### The Work That Remains
 
@@ -68,6 +68,4 @@ That work is not dramatic. It happens in margin notes and hallway minutes. It ha
 
 No one lives outside the dashboard. The question is whether the dashboard becomes the only place we are allowed to look.
 
-Awareness is not control. It is not nothing.
-
-The difference, kept alive, is the difference.
+Awareness is not control. It is not nothing. Keep the difference alive, and the whiteboard will still have blank space around the words.

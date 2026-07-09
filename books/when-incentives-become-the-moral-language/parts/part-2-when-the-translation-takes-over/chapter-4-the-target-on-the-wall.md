@@ -2,7 +2,7 @@
 
 ## The Target on the Wall
 
-The target is printed on a poster in the lobby.
+The map on the car seat showed a highway. The poster in the lobby shows a curve.
 
 Net zero by 2040.
 
@@ -54,7 +54,7 @@ She approves the purchase. She adds a memo to the internal file noting methodolo
 
 The director feels this gap in ordinary work. An offset purchase may be compliant and still direct resources to projects whose long-term durability is contested among scientists. A reported emissions reduction may be real at the facility level while the product manufactured there generates larger downstream emissions that fall into a different category. A net-zero timeline may be technically plausible under optimistic assumptions about technology that does not yet exist at scale.
 
-None of this is hidden from specialists. These debates occur in conferences, working papers, and internal memos. They do not surface cleanly in institutional reporting because the reporting frameworks do not yet have a standard column for *here is what we do not know*. The interlude called this a map's necessary omission. Here the omission has a cost measured in places rather than miles.
+None of this is hidden from specialists. These debates occur in conferences, working papers, and internal memos. They do not surface cleanly in institutional reporting because the reporting frameworks do not yet have a standard column for *here is what we do not know*. A map's necessary omission becomes, here, a cost measured in places rather than miles.
 
 Teams carry the gap. Communities near still-polluting facilities carry it. Policymakers who understand the mechanics carry it. The institution continues to speak in the language that survives its accountability structures: target met, on track, disclosure complete.
 
@@ -68,7 +68,7 @@ Thirty miles from the lobby, a facility continues operating under permits the co
 
 That question does not have a standard column. There is a column for Scope 1 emissions. There is a column for disclosure alignment. There is not a column for *the family that has stopped opening windows*. The absence does not mean the family is wrong. It means the family's knowledge does not yet have an institutional address the target can carry.
 
-This is where moral life continues unofficially. Engineers adjust schedules to reduce peak emissions when they can. Community liaisons extend meetings longer than the script requires. The director keeps a list of questions she wants the next audit to ask, knowing the audit may not be built to ask them. Her judgment becomes a hidden subsidy. The poster stays legible because people like her do work the poster cannot describe—work that helps the institution appear responsible while responsibility's harder parts remain locally borne.
+This is where moral life continues unofficially. Engineers adjust schedules to reduce peak emissions when they can. Community liaisons extend meetings longer than the script requires. The director keeps a list of questions she wants the next audit to ask, knowing the audit may not be built to ask them. The poster stays legible because people like her do work the poster cannot describe—work that helps the institution appear responsible while responsibility's harder parts remain locally borne.
 
 ### What the Target Teaches
 
