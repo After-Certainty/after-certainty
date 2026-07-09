@@ -6,9 +6,40 @@ from __future__ import annotations
 
 import subprocess
 from pathlib import Path
+from urllib.parse import urlparse
 
 from book_output_stem import stem_for_book_dir
 from book_specs import spec_formats
+
+
+def sanitize_github_repo_slug(raw: str) -> str:
+    """
+    Normalize owner/repo from a slug, HTTPS URL, or git@github.com URL.
+
+    Strips embedded credentials from authenticated HTTPS git remotes so manifests
+    never embed access tokens from `git remote get-url origin`.
+    """
+    value = raw.strip()
+    if not value:
+        return ""
+
+    if value.startswith("git@github.com:"):
+        value = value.replace("git@github.com:", "", 1)
+    elif "://" in value:
+        parsed = urlparse(value)
+        host = parsed.netloc.rsplit("@", 1)[-1]
+        path = parsed.path.lstrip("/")
+        if host.endswith("github.com") and path:
+            value = path
+        elif path:
+            value = f"{host}/{path}" if host else path
+        else:
+            value = host
+
+    if "@" in value:
+        value = value.rsplit("@", 1)[-1]
+
+    return value.rstrip("/").removesuffix(".git")
 
 
 def extract_author_names(book: dict) -> list[str]:
@@ -38,7 +69,7 @@ def extract_author_names(book: dict) -> list[str]:
 
 def resolve_repo_slug(repo: Path, explicit: str) -> str:
     if explicit.strip():
-        return explicit.strip().rstrip("/").removesuffix(".git")
+        return sanitize_github_repo_slug(explicit)
     result = subprocess.run(
         ["git", "-C", str(repo), "remote", "get-url", "origin"],
         capture_output=True,
@@ -48,12 +79,7 @@ def resolve_repo_slug(repo: Path, explicit: str) -> str:
     raw = result.stdout.strip()
     if result.returncode != 0 or not raw:
         return ""
-    if raw.startswith("git@github.com:"):
-        raw = raw.replace("git@github.com:", "", 1)
-    elif raw.startswith("https://github.com/"):
-        raw = raw.replace("https://github.com/", "", 1)
-    raw = raw.rstrip("/").removesuffix(".git")
-    return raw
+    return sanitize_github_repo_slug(raw)
 
 
 def to_repo_relative(repo: Path, candidate: Path) -> str | None:
