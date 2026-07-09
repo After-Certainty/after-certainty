@@ -19,8 +19,8 @@ Essay edition (Phase 5) remains available at legacy paths. Rewrite work has begu
 | **Part I rewrite (Ch 1–3)** | **Complete** — [`part-1-the-need-for-translation/`](../parts/part-1-the-need-for-translation/) |
 | **Interlude rewrite** | **Complete** — [`interlude-the-map-was-not-a-lie.md`](../front-matter/interlude-the-map-was-not-a-lie.md) |
 | Author approval gates | **Pending** — [`author-approval-gates.md`](author-approval-gates.md) |
-| **Part II rewrite (Ch 4–6)** | **Complete** — [`part-2-when-the-translation-takes-over/`](../parts/part-2-when-the-translation-takes-over/) |
-| Remaining chapters | **Not started** |
+| **Part III rewrite (Ch 7–9)** | **Complete** — [`part-3-the-world-the-metric-makes/`](../parts/part-3-the-world-the-metric-makes/) |
+| Remaining chapters | **Not started** (Part IV + epilogue) |
 
 ## Rewrite target
 

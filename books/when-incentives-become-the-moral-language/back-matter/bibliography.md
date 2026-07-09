@@ -76,6 +76,32 @@ Pew Research Center. News consumption and trust surveys.
 
 Reuters Institute for the Study of Journalism. *Digital News Report*. Annual editions.
 
+## Chapter 7
+
+Federal Election Commission. Campaign finance disclosure data; OpenSecrets reporting on fundraising totals.
+
+Hersh, Eitan. *Politics Is for Power*. New York: Scribner, 2020.
+
+Pew Research Center. "Public Trust in Government" time series, 1958–present.
+
+Pew Research Center. U.S. politics polling methodology and election surveys.
+
+## Chapter 8
+
+Learning Policy Institute. Teacher shortage analyses.
+
+National Center for Education Statistics. Adjusted Cohort Graduation Rate (ACGR) documentation.
+
+Organisation for Economic Co-operation and Development. Programme for International Student Assessment (PISA) reports.
+
+RAND Corporation. Reports on teacher stress and attrition.
+
+U.S. Department of Education. Elementary and Secondary Education Act accountability provisions; state report card requirements.
+
+## Chapter 9
+
+Campbell, Donald T. "Assessing the Impact of Planned Social Change." *Evaluation and Program Planning* 2, no. 1 (1979): 85–87.
+
 ## Essay edition (remaining chapters)
 
 Centers for Medicare & Medicaid Services. Hospital Readmissions Reduction Program (HRRP). Program overview and statutory authority. Updated 2023.

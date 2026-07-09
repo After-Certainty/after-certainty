@@ -29,8 +29,9 @@
 
 ## Part III — The World the Metric Makes
 
-- [Chapter 7 — Polling as Moral Signal](parts/part-2-when-formula-speaks/chapter-7-polling-as-moral-signal.md) *(essay edition — rewrite pending)*
-- [Chapter 8 — Formation Without Formation](parts/part-2-when-formula-speaks/chapter-8-formation-without-formation.md) *(essay edition — rewrite pending)*
+- [Chapter 7 — The Poll Before the Position](parts/part-3-the-world-the-metric-makes/chapter-7-the-poll-before-the-position.md)
+- [Chapter 8 — The Child the Score Cannot Hold](parts/part-3-the-world-the-metric-makes/chapter-8-the-child-the-score-cannot-hold.md)
+- [Chapter 9 — When the Proxy Becomes the Good](parts/part-3-the-world-the-metric-makes/chapter-9-when-the-proxy-becomes-the-good.md)
 
 ## Part IV — What Judgment Still Knows
 
