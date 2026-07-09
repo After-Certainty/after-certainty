@@ -22,6 +22,10 @@ Essay edition (Phase 5) remains available at legacy paths. Rewrite manuscript is
 | **Part III rewrite (Ch 7–9)** | **Complete** — [`part-3-the-world-the-metric-makes/`](../parts/part-3-the-world-the-metric-makes/) |
 | **Part IV rewrite (Ch 10–12)** | **Complete** — [`part-4-what-judgment-still-knows/`](../parts/part-4-what-judgment-still-knows/) |
 | **Epilogue rewrite** | **Complete** — [`epilogue-the-blank-column.md`](../back-matter/epilogue-the-blank-column.md) |
+| Transition / repetition pass | **Complete** (July 2026) |
+| Citation audit | **Complete** — [`citation-audit.md`](citation-audit.md) |
+| Appendix (scene-first method) | **Complete** — [`appendix-method-and-sources.md`](../back-matter/appendix-method-and-sources.md) |
+| Voice consistency pass | **Complete** — [`voice-pass-notes.md`](voice-pass-notes.md) |
 | Author approval gates | **Pending** — [`author-approval-gates.md`](author-approval-gates.md) |
 
 ## Rewrite target
@@ -118,10 +122,6 @@ During active rewrite, consider disabling `github.release` in `book.yml` until m
 ## Next actions
 
 1. Author sign-off on [`author-approval-gates.md`](author-approval-gates.md)
-2. ~~Full transition and repetition pass across manuscript~~ **Complete** (July 2026)
-3. ~~Citation verification + bibliography consolidation~~ **Complete** — [`citation-audit.md`](citation-audit.md)
-4. Voice consistency pass (compare to After Certainty / HMM post-rewrite)
-5. ~~Update [`appendix-method-and-sources.md`](../back-matter/appendix-method-and-sources.md) for scene-first method~~ **Complete** (July 2026)
 
 ## Key documents
 

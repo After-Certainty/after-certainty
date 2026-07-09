@@ -54,7 +54,7 @@ This is not necessarily manipulation in the ordinary sense. There may be no indi
 
 Platforms often describe themselves as mirrors. People post what they post. Users respond as they respond. The platform reflects society back to itself. The metaphor is attractive because mirrors do not author the faces they display. They may distort, but they do not invent the person standing before them.
 
-A feed is not quite a mirror. A mirror shows what is present. A feed remembers what held attention yesterday and uses that memory to arrange what will be visible today. It is a mirror that moves objects before reflecting them.
+A feed is not quite a mirror. A mirror shows what is present. A feed remembers what held attention yesterday and uses that memory to arrange what will be visible today. It is a mirror with a memory: it rearranges what it will reflect before the reflection arrives.
 
 This does not mean that the platform creates every desire it amplifies. Anger, fear, curiosity, affection, envy, solidarity, and cruelty exist before the feed encounters them. People brought those capacities with them. But a system can change the relative visibility of what already exists. It can make a rare behavior appear common by showing it repeatedly. It can make a distant conflict feel immediate. It can turn one person's impulsive statement into an event witnessed by millions. It can bring together people who thought they were alone. It can also bring together people who become more certain because they no longer feel alone.
 

@@ -32,7 +32,7 @@ Once the mechanism is in motion, three consequences follow.
 
 Judgment moves inward. It is still practiced by nurses, editors, researchers, managers, moderators, teachers, sustainability officers, and campaign staff. It is increasingly expressed in private because institutions cannot absorb it publicly without reopening the risks metrics were meant to contain. The nurse's *I'm not sure she was ready* belongs to the hallway. The teacher's notebook belongs to the desk. The director's memo about offset caveats belongs to the internal file. Judgment becomes a hidden subsidy that helps the official account succeed.
 
-Moral residue accumulates. Burnout, distrust, quiet harm, and the sense that something essential is being performed rather than practiced are not random personal failures. They are structural traces of a gap between what was decided in auditable language and what was owed in human terms. The institution can close the file. The person often cannot. Both descriptions can be true at once.
+Burnout, distrust, quiet harm, and the sense that something essential is being performed rather than practiced are not random personal failures. They are structural traces of a gap between what was decided in auditable language and what was owed in human terms. The institution can close the file. The person often cannot. Both descriptions can be true at once.
 
 Institutions lose the ability to hear what they displaced. To admit that a metric failed morally would require admitting that the metric was doing moral work. That admission would weaken the only language leadership can defend at scale. Moral knowledge that cannot enter in its own form tends to return only in metrics the institution already knows how to count.
 

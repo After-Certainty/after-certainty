@@ -48,8 +48,6 @@ When many competent people in the same institution describe the same quiet compl
 
 Recognizing the pattern does not dissolve incentive structures. It makes complicity legible. It also makes room for judgment that does not pretend metrics are enough. People stop experiencing private knowledge only as private failure. They begin to see unofficial labor and institutional deafness as a shared condition produced by design—not a personal defect cured by resilience training.
 
-That recognition is not control. It is not nothing.
-
 ### What This Book Does Not Offer
 
 This book does not end with a checklist to fix healthcare, platforms, universities, firms, media, politics, or schools. Any such checklist would re-enter the logic this book describes: define what to reward, optimize, and enforce. Reform programs are not forbidden. They are simply not what this volume provides.
@@ -68,4 +66,4 @@ That work is not dramatic. It happens in margin notes and hallway minutes. It ha
 
 No one lives outside the dashboard. The question is whether the dashboard becomes the only place we are allowed to look.
 
-Awareness is not control. It is not nothing. Keep the difference alive, and the whiteboard will still have blank space around the words.
+Awareness is not control. It cannot dismantle incentive structures on its own. Keep the difference alive, and the whiteboard will still have blank space around the words.
