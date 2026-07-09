@@ -11,6 +11,7 @@ Central navigation for planning documents for *When Others Become Leaders: What 
 - [Research plan](research-plan.md) — source roadmap and research principles
 - [Themes and patterns](themes-and-patterns.md) — recurring concepts across chapters
 - [Samples or fragments](samples-or-fragments.md) — exploratory style fragments
+- [Sample chapter draft: The Bracelet](sample-chapter-the-bracelet.md) — full working sample capture for Chapter 9 drafting reference
 - [Open questions](open-questions.md) — unresolved editorial and structural decisions
 
 ## Process docs
