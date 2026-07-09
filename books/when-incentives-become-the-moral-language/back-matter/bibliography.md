@@ -102,6 +102,24 @@ U.S. Department of Education. Elementary and Secondary Education Act accountabil
 
 Campbell, Donald T. "Assessing the Impact of Planned Social Change." *Evaluation and Program Planning* 2, no. 1 (1979): 85–87.
 
+## Chapter 10
+
+Greenberg, Jerald. "Organizational Justice: Yesterday, Today, and Tomorrow." *Journal of Management* 16, no. 2 (1990): 399–432.
+
+National Academy of Medicine. *Taking Action Against Clinician Burnout: A Systems Approach to Professional Well-Being*. Washington, DC: National Academies Press, 2019.
+
+## Chapter 11
+
+Jameton, Andrew. "Nursing Practice: The Ethical Issues." In *Clinical Medical Ethics*, edited by H. Tristram Englehardt Jr. Englewood Cliffs, NJ: Prentice-Hall, 1982.
+
+Rushton, Cynda Hylton. "Moral Distress and Moral Resilience." *American Journal of Nursing* 116, no. 7 (2016): 34–39.
+
+## Epilogue
+
+Campbell, Donald T. "Assessing the Impact of Planned Social Change." *Evaluation and Program Planning* 2, no. 1 (1979): 85–87.
+
+Monmonier, Mark. *How to Lie with Maps*. 3rd ed. Chicago: University of Chicago Press, 2018.
+
 ## Essay edition (remaining chapters)
 
 Centers for Medicare & Medicaid Services. Hospital Readmissions Reduction Program (HRRP). Program overview and statutory authority. Updated 2023.

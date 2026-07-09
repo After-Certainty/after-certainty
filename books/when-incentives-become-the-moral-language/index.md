@@ -35,12 +35,19 @@
 
 ## Part IV — What Judgment Still Knows
 
-- [Conclusion — Living Inside Incentive Systems](back-matter/conclusion-living-inside-incentive-systems.md) *(essay edition — rewrite pending)*
+- [Chapter 10 — The Hidden Subsidy](parts/part-4-what-judgment-still-knows/chapter-10-the-hidden-subsidy.md)
+- [Chapter 11 — The Institution That Cannot Hear Itself](parts/part-4-what-judgment-still-knows/chapter-11-the-institution-that-cannot-hear-itself.md)
+- [Chapter 12 — Keeping the Difference Alive](parts/part-4-what-judgment-still-knows/chapter-12-keeping-the-difference-alive.md)
+
+## Epilogue
+
+- [Epilogue — The Blank Column](back-matter/epilogue-the-blank-column.md)
 
 ## Back Matter
 
 - [Appendix — A Note on Method and Sources](back-matter/appendix-method-and-sources.md)
 - [Bibliography](back-matter/bibliography.md)
+- [Conclusion — Living Inside Incentive Systems](back-matter/conclusion-living-inside-incentive-systems.md) *(essay edition — superseded by Ch 12)*
 
 ## Related books
 
