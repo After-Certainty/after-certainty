@@ -1,14 +1,14 @@
 # Essayistic Rewrite — Agent Pipeline
 
-**Phase 6** — scene-led essayistic rewrite (length follows craft; no fixed word band for now)
+**Scene-led essayistic rewrite** (length follows craft; no fixed word band)
 
 **Plan:** [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../../WHEN_INCENTIVES_REWRITE_PLAN.md)  
-**Voice north stars:**  
-[`reference/chapter-1-the-bed-someone-else-needs.md`](../../reference/chapter-1-the-bed-someone-else-needs.md) (Ch 1) ·  
-[`reference/chapter-2-the-feed-that-never-empties.md`](../../reference/chapter-2-the-feed-that-never-empties.md) (Ch 2 / platforms) ·  
-[`reference/chapter-6-the-front-page-watches-back.md`](../../reference/chapter-6-the-front-page-watches-back.md) (Ch 6 / journalism) ·  
-[`reference/chapter-10-the-hidden-subsidy.md`](../../reference/chapter-10-the-hidden-subsidy.md) (Ch 10) ·  
-[`reference/epilogue-the-blank-column.md`](../../reference/epilogue-the-blank-column.md) (Epilogue) ·  
+**Voice north stars (manuscript):**  
+[`chapter-1-the-bed-someone-else-needs.md`](../../parts/part-1-the-need-for-translation/chapter-1-the-bed-someone-else-needs.md) (Ch 1) ·  
+[`chapter-2-the-feed-that-never-empties.md`](../../parts/part-1-the-need-for-translation/chapter-2-the-feed-that-never-empties.md) (Ch 2 / platforms) ·  
+[`chapter-6-the-front-page-watches-back.md`](../../parts/part-2-when-the-translation-takes-over/chapter-6-the-front-page-watches-back.md) (Ch 6 / journalism) ·  
+[`chapter-10-the-hidden-subsidy.md`](../../parts/part-4-what-judgment-still-knows/chapter-10-the-hidden-subsidy.md) (Ch 10) ·  
+[`epilogue-the-blank-column.md`](../../back-matter/epilogue-the-blank-column.md) (Epilogue) ·  
 [`reference/VOICE-NOTES.md`](../../reference/VOICE-NOTES.md)
 
 ---
@@ -75,5 +75,3 @@ Compare finished chapters to:
 | `03-echo-pass.md` | Repetition and scaffold removal |
 | `04-citation-pass.md` | Evidence hygiene |
 | `05-voice-pass.md` | Rhythm and cluster echo |
-
-Legacy Phase 5 agents: [`../legacy-essay-edition/`](../legacy-essay-edition/)

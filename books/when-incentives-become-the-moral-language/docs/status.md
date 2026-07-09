@@ -2,19 +2,11 @@
 
 ## Current phase
 
-**Phase 6 (essayistic rewrite — complete)** — July 2026
-
-Essay edition (Phase 5) remains available at legacy paths. Rewrite manuscript is complete through epilogue.
+**Essayistic rewrite — complete** — July 2026
 
 | Milestone | Status |
 |-----------|--------|
-| Essay edition (~9–11k) | **Complete** (Phase 5, July 2026) — legacy paths |
 | Rewrite planning document | **Complete** — [`WHEN_INCENTIVES_REWRITE_PLAN.md`](WHEN_INCENTIVES_REWRITE_PLAN.md) |
-| Ch 1 reference draft | **Complete** — [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) |
-| Ch 2 reference draft | **Complete** — [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md) |
-| Ch 6 reference draft | **Complete** — [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md) |
-| Ch 10 reference draft | **Complete** — [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md) |
-| Epilogue reference draft | **Complete** — [`reference/epilogue-the-blank-column.md`](reference/epilogue-the-blank-column.md) |
 | **Introduction rewrite** | **Complete** — [`introduction-the-question-the-dashboard-cannot-ask.md`](../front-matter/introduction-the-question-the-dashboard-cannot-ask.md) |
 | **Part I rewrite (Ch 1–3)** | **Complete** — [`part-1-the-need-for-translation/`](../parts/part-1-the-need-for-translation/) |
 | **Interlude rewrite** | **Complete** — [`interlude-the-map-was-not-a-lie.md`](../front-matter/interlude-the-map-was-not-a-lie.md) |
@@ -26,20 +18,20 @@ Essay edition (Phase 5) remains available at legacy paths. Rewrite manuscript is
 | Citation audit | **Complete** — [`citation-audit.md`](citation-audit.md) |
 | Appendix (scene-first method) | **Complete** — [`appendix-method-and-sources.md`](../back-matter/appendix-method-and-sources.md) |
 | Voice consistency pass | **Complete** — [`voice-pass-notes.md`](voice-pass-notes.md) |
+| Legacy manuscript and docs removed | **Complete** (July 2026) |
 | Author approval gates | **Pending** — [`author-approval-gates.md`](author-approval-gates.md) |
 
-## Rewrite target
+## Manuscript
 
 | Edition | Notes | Status |
 |---------|-------|--------|
-| Essay edition (baseline) | ~9–11k; frozen at legacy paths | **Frozen** |
 | **Essayistic rewrite** | Length follows craft—no fixed word band | **Complete** — ~36.5k words (July 2026) |
 
 ## Manuscript hub
 
-[`index.md`](../index.md) — **rewrite structure** (essay edition conclusion retained as legacy)
+[`index.md`](../index.md)
 
-## Rewrite structure
+## Structure
 
 | Part | Chapters |
 |------|----------|
@@ -53,7 +45,7 @@ Essay edition (Phase 5) remains available at legacy paths. Rewrite manuscript is
 
 See [`WHEN_INCENTIVES_REWRITE_PLAN.md` §4](WHEN_INCENTIVES_REWRITE_PLAN.md#4-proposed-book-architecture) for full architecture.
 
-## Rewrite unit progress
+## Unit progress
 
 | Unit | Words (approx.) | Status |
 |------|----------------:|--------|
@@ -73,51 +65,23 @@ See [`WHEN_INCENTIVES_REWRITE_PLAN.md` §4](WHEN_INCENTIVES_REWRITE_PLAN.md#4-pr
 | Ch 12 — Keeping the Difference Alive | 1,440 | Complete |
 | Epilogue — The Blank Column | 2,440 | Complete |
 
-**Rewrite total:** ~36,520 words (July 2026).
-
-## Essay edition unit progress (baseline — unchanged)
-
-| Unit | Words | Phase 5 | Notes |
-|------|------:|---------|-------|
-| Introduction | 849 | Complete | Superseded by rewrite |
-| Interlude | 490 | Complete | Superseded by rewrite |
-| Part I bridge | ~720 | Complete | Deprecated in rewrite |
-| Ch 1 — Care | 1208 | Complete | → Ch 1 Bed |
-| Ch 2 — Engagement | 1408 | Complete | → Ch 2 Feed |
-| Ch 3 — Publishing | 1086 | Complete | → Ch 3 Paper |
-| Ch 4 — Targets | 1192 | Complete | → Ch 4 Target |
-| Part II bridge | ~140 | Complete | Deprecated in rewrite |
-| Ch 5 — Fairness | 1025 | Complete | → Ch 5 Matrix |
-| Ch 6 — Attention | 1022 | Complete | → Ch 6 Front Page |
-| Ch 7 — Polling | 863 | Complete | → Ch 7 Poll |
-| Ch 8 — Formation | 763 | Complete | → Ch 8 Child/Score |
-| Conclusion | 920 | Complete | → Ch 12 + new Ch 9–11, epilogue |
-| Appendix | 330 | Complete | Update planned |
-| Bibliography | — | Partial | Expanded through Ch 11 + epilogue |
-
-**Essay edition total:** ~11.5k words (July 2026).
+**Total:** ~36,520 words (July 2026).
 
 ## Author gates
 
 | Gate | Status |
 |------|--------|
-| Ch 3–8 read-through (essay edition) | **Complete** (July 2026) — [`author-read-through-gate-ch-3-8.md`](author-read-through-gate-ch-3-8.md) |
 | Rewrite approval gates | **Pending** — [`author-approval-gates.md`](author-approval-gates.md) |
 
 ## Agent pipeline
 
 | Pipeline | Status | Location |
 |----------|--------|----------|
-| Essay edition 01–08 | **Archived** | [`agents/legacy-essay-edition/`](agents/legacy-essay-edition/) |
-| Essayistic rewrite | **Active (specs ready)** | [`agents/rewrite/`](agents/rewrite/) |
-
-Do not use legacy essay-edition Agent **01** (expansion/scaffold) for rewrite work.
+| Essayistic rewrite | **Active** | [`agents/rewrite/`](agents/rewrite/) |
 
 ## Build smoke
 
-**July 2026 (essay edition):** `make validate-book-specs` pass; `make build-book` pass.
-
-During active rewrite, consider disabling `github.release` in `book.yml` until milestone (see author gates).
+Run `make validate-book-specs` and `make build-book` before release promotion.
 
 ## Next actions
 

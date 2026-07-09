@@ -1,16 +1,10 @@
 # When Incentives Become the Moral Language — Agent Specs
 
-## Active pipeline (Phase 6 rewrite)
+## Active pipeline
 
 **Essayistic rewrite** (length follows craft): [`rewrite/README.md`](rewrite/README.md)
 
-Use rewrite agents after author gates clear ([`author-approval-gates.md`](../author-approval-gates.md)).
-
-## Archived pipeline (Phase 5 essay edition)
-
-**Essay edition** (~9–11k): [`legacy-essay-edition/README.md`](legacy-essay-edition/README.md)
-
-Complete July 2026. Do not use legacy Agent **01** for rewrite—it adds visible domain scaffold headings.
+Use rewrite agents for future revision passes after author gates clear ([`author-approval-gates.md`](../author-approval-gates.md)).
 
 ## House rules (all agents)
 

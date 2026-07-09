@@ -17,11 +17,11 @@ Replace essay-edition scaffold prose with **scene-first essayistic** chapters. E
 ## INPUTS
 
 - [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../../WHEN_INCENTIVES_REWRITE_PLAN.md) §5 — chapter brief
-- [`reference/chapter-1-the-bed-someone-else-needs.md`](../../reference/chapter-1-the-bed-someone-else-needs.md) — Ch 1; translation opening pattern
-- [`reference/chapter-2-the-feed-that-never-empties.md`](../../reference/chapter-2-the-feed-that-never-empties.md) — Ch 2; platforms / feed opening pattern
-- [`reference/chapter-6-the-front-page-watches-back.md`](../../reference/chapter-6-the-front-page-watches-back.md) — Ch 6; sustained domain chapter pattern
-- [`reference/chapter-10-the-hidden-subsidy.md`](../../reference/chapter-10-the-hidden-subsidy.md) — Ch 10; Part IV human cost
-- [`reference/epilogue-the-blank-column.md`](../../reference/epilogue-the-blank-column.md) — Epilogue; Ch 1 whiteboard bookend
+- [`chapter-1-the-bed-someone-else-needs.md`](../../parts/part-1-the-need-for-translation/chapter-1-the-bed-someone-else-needs.md) — Ch 1; translation opening pattern
+- [`chapter-2-the-feed-that-never-empties.md`](../../parts/part-1-the-need-for-translation/chapter-2-the-feed-that-never-empties.md) — Ch 2; platforms / feed opening pattern
+- [`chapter-6-the-front-page-watches-back.md`](../../parts/part-2-when-the-translation-takes-over/chapter-6-the-front-page-watches-back.md) — Ch 6; sustained domain chapter pattern
+- [`chapter-10-the-hidden-subsidy.md`](../../parts/part-4-what-judgment-still-knows/chapter-10-the-hidden-subsidy.md) — Ch 10; Part IV human cost
+- [`epilogue-the-blank-column.md`](../../back-matter/epilogue-the-blank-column.md) — Epilogue; Ch 1 whiteboard bookend
 - [`reference/VOICE-NOTES.md`](../../reference/VOICE-NOTES.md) — compositional patterns
 - [`book-rules.md`](../../book-rules.md) — invisible craft scaffold
 - [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../../WHEN_INCENTIVES_REWRITE_PLAN.md) §7 (anchors), §12 (preserve), §13 (cut)
@@ -53,7 +53,7 @@ Replace essay-edition scaffold prose with **scene-first essayistic** chapters. E
 - Use "Three mechanisms…" as heading or counted list (Ch 9 only, once)
 - End with "Chapter N+1 tests…"
 - Add policy checklist or reform program
-- Use legacy Agent 01 expansion patterns from [`legacy-essay-edition/`](../legacy-essay-edition/)
+- Reintroduce labeled scaffold headings or visible domain-inventory structure
 
 ## OUTPUT
 

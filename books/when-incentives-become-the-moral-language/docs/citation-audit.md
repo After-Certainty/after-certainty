@@ -16,7 +16,6 @@
 | Chicago `# **Bibliography**` heading | **Pass** |
 | Rewrite footnote count | **42** definitions, **40** unique IDs cited inline |
 | Bibliography entries (rewrite) | **38** source lines across 15 units |
-| Legacy essay-edition paths | **Out of scope** — retained at old paths for reference |
 
 **Tier:** C (compliant)
 
@@ -82,9 +81,8 @@ Bibliography lists these once per chapter section where they appear, per house p
 
 | Item | Notes |
 |------|-------|
-| Legacy paths (`parts/part-1-when-judgment-fractures/`, etc.) | Essay edition; separate footnote IDs (`c*-ref-*`); not migrated |
 | Ch 10–12 synthesis claims | Authorial synthesis; no new empirical citations required |
-| Composite scenes | Disclosed in appendix (update pending); no documentary citations added |
+| Composite scenes | Disclosed in appendix; no documentary citations added |
 | Sparse Ch 9–12 citation density | Structural/synthesis chapters; intentional |
 
 ---
@@ -107,6 +105,6 @@ After July 2026 fixes: `missing_defs=0`, `unused_defs=0` on rewrite paths.
 
 ## Remaining optional follow-ups
 
-1. Add Sunstein *#Republic* if Ch 6 civic-trust claims are strengthened in a later pass (cited in legacy essay Ch 6, not rewrite).
+1. Add Sunstein *#Republic* if Ch 6 civic-trust claims are strengthened in a later pass.
 2. Split combined footnotes (Ch 4 Paris/SBTi; Ch 11 Jameton/Rushton) if author prefers one-source-per-note discipline.
 3. ~~Update [`appendix-method-and-sources.md`](../back-matter/appendix-method-and-sources.md) composite-scene disclosure when appendix pass runs.~~ **Complete** (July 2026)

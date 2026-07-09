@@ -1,8 +1,7 @@
 # When Incentives Become the Moral Language — Rewrite Planning Document
 
-**Status:** Planning complete (July 2026) — essayistic rewrite not yet started  
-**Canon manuscript:** [`index.md`](../index.md) — split Markdown, ~11.5k words (July 2026 essay edition)  
-**Target manuscript:** four parts; twelve chapters + epilogue (length follows craft—not a fixed word band for now)  
+**Status:** Rewrite complete (July 2026)  
+**Canon manuscript:** [`index.md`](../index.md) — four parts, twelve chapters + epilogue (~36.5k words)  
 **Model plan:** [`docs/rewrite-plans/how-meaning-moves-essayistic-rewrite-plan.md`](../../../docs/rewrite-plans/how-meaning-moves-essayistic-rewrite-plan.md)
 
 **Reference books (latest Markdown canon):**
@@ -16,12 +15,12 @@
 
 **Author approval gates:** [`author-approval-gates.md`](author-approval-gates.md)
 
-**Voice north star:**  
-- Ch 1: [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md)  
-- Ch 2: [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md)  
-- Ch 6: [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md)  
-- Ch 10: [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md)  
-- Epilogue: [`reference/epilogue-the-blank-column.md`](reference/epilogue-the-blank-column.md)  
+**Voice north star (manuscript):**  
+- Ch 1: [`chapter-1-the-bed-someone-else-needs.md`](../parts/part-1-the-need-for-translation/chapter-1-the-bed-someone-else-needs.md)  
+- Ch 2: [`chapter-2-the-feed-that-never-empties.md`](../parts/part-1-the-need-for-translation/chapter-2-the-feed-that-never-empties.md)  
+- Ch 6: [`chapter-6-the-front-page-watches-back.md`](../parts/part-2-when-the-translation-takes-over/chapter-6-the-front-page-watches-back.md)  
+- Ch 10: [`chapter-10-the-hidden-subsidy.md`](../parts/part-4-what-judgment-still-knows/chapter-10-the-hidden-subsidy.md)  
+- Epilogue: [`epilogue-the-blank-column.md`](../back-matter/epilogue-the-blank-column.md)  
 - Patterns: [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md)
 
 ---
@@ -67,7 +66,7 @@ flowchart LR
 ### Three largest risks
 
 1. **Scale jump without scene-led expansion** — the essay edition’s compression reinforces formula; rewrites need room to breathe, but no fixed word target applies yet
-2. **Scaffold creep** via legacy agent pipeline — old specs explicitly add "mechanism paragraphs" and domain scaffold; must use [`agents/rewrite/`](agents/rewrite/) specs instead
+2. **Scaffold creep** — rewrites must use [`agents/rewrite/`](agents/rewrite/) specs, not expansion/scaffold patterns
 3. **Composite scenes presented as reportage** — undermines trust; requires disclosure discipline in appendix and author notes
 
 ---
@@ -110,7 +109,7 @@ flowchart LR
 
 ### What the incentives rewrite should adopt
 
-- **Match the reference chapter** ([`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md)) for scene-first entry, evocative section titles, dual-truth counterpressure, and earned Core Principle
+- **Match Ch 1** ([`chapter-1-the-bed-someone-else-needs.md`](../parts/part-1-the-need-for-translation/chapter-1-the-bed-someone-else-needs.md)) for scene-first entry, evocative section titles, dual-truth counterpressure, and earned Core Principle
 - Enter through **institutional surfaces** (whiteboard, feed, matrix, front page) not thesis paragraphs
 - Keep **one widening per chapter** (policy history, documented episode, research)—return to opening image
 - Move **"moral residue"** from heading to **experienced consequence** before the term appears (Part IV may name it)
@@ -341,8 +340,7 @@ flowchart LR
 
 ### Introduction — The Question the Dashboard Cannot Ask
 
-- **Current source:** [`introduction-why-judgment-no-longer-coordinates-action.md`](../front-matter/introduction-why-judgment-no-longer-coordinates-action.md)
-- **Action:** Rewrite substantially
+- **Manuscript:** [`introduction-the-question-the-dashboard-cannot-ask.md`](../front-matter/introduction-the-question-the-dashboard-cannot-ask.md)
 - **Opening scene:** Organizational meeting where human consequences are debated until someone turns to a dashboard/score (composite scene—label in author notes)
 - **Preserve:** Coordination failure framing; metrics' real advantages; judgment-not-failed-morally-but-operationally
 - **Cut:** "Part I and Part II develop eight cases"; labeled "Moral Residue" section; domain inventory
@@ -350,10 +348,8 @@ flowchart LR
 
 ### Ch 1 — The Bed Someone Else Needs
 
-- **Reference draft (author):** [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) — **primary voice north star** for the rewrite
-- **Current essay edition:** Ch 1 Care Without Caring
+- **Manuscript:** [`chapter-1-the-bed-someone-else-needs.md`](../parts/part-1-the-need-for-translation/chapter-1-the-bed-someone-else-needs.md) — **primary voice north star**
 - **Object:** Hospital whiteboard with expected discharge date
-- **Action:** Integrate reference draft into manuscript structure; add citations at pivots (HRRP, DRG, capacity/boarding sources per §11)
 - **Preserve from reference:** Scene structure, section movement, criteria language, hidden-subsidy preview, Core Principle, closing whiteboard return
 - **Preserve from essay edition:** Footnote anchors where claims align
 - **Do not:** Reintroduce scaffold headings; expand hidden-subsidy section to Ch 10 scope
@@ -362,8 +358,7 @@ flowchart LR
 
 ### Ch 2 — The Feed That Never Empties
 
-- **Reference draft (author):** [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md) — **primary voice north star** for platforms domain
-- **Current essay edition:** Ch 2 Engagement as a Theory of Value
+- **Manuscript:** [`chapter-2-the-feed-that-never-empties.md`](../parts/part-1-the-need-for-translation/chapter-2-the-feed-that-never-empties.md) — **primary voice north star** for platforms domain
 - **Essential movement (preserve):** Engagement as useful information → distribution mechanism → theory of what deserves attention
 - **Ch 6 differentiation (preserve):** *Mirror with a memory* — feed remembers what held attention and rearranges before reflecting; newsroom uses *mirror with a hand*
 - **Action:** Integrate reference draft; add citations at pivots (Zuckerberg/Pichai testimony, Haugen disclosures, WSJ Horwitz/Seetharaman—per §11)
@@ -385,8 +380,7 @@ flowchart LR
 
 ### Interlude — The Map Was Not a Lie
 
-- **Current:** [`interlude-what-this-book-is-not.md`](../front-matter/interlude-what-this-book-is-not.md)
-- **Action:** Full rewrite as essay (maps, compression, omission)
+- **Manuscript:** [`interlude-the-map-was-not-a-lie.md`](../front-matter/interlude-the-map-was-not-a-lie.md)
 - **Preserve:** Anti-metric/anti-capitalism/nostalgia/solutions refusals—but as discovered thought, not bullet negations
 - **Target:** Room for scene-led craft (no fixed word count)
 
@@ -413,8 +407,7 @@ flowchart LR
 
 ### Ch 6 — The Front Page Watches Back
 
-- **Reference draft (author):** [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md) — **primary voice north star** for domain chapters (sustained single-thread scene)
-- **Current essay edition:** Ch 6 Attention as Importance
+- **Manuscript:** [`chapter-6-the-front-page-watches-back.md`](../parts/part-2-when-the-translation-takes-over/chapter-6-the-front-page-watches-back.md) — **primary voice north star** for domain chapters (sustained single-thread scene)
 - **Essential distinction (preserve):** Audience measures response; public requires judgment about consequences—including stories people may not initially choose to read. Economic pressure is real; not simple abandonment of civic purpose.
 - **Ch 2 differentiation (preserve):** *Mirror with a hand* — newsroom allocates while reflecting; platform distributes engagement at global scale
 - **Action:** Integrate reference draft; add citations at pivots (Reuters Digital News Report, Pew, trust surveys, advertising collapse—per §11)
@@ -460,7 +453,7 @@ flowchart LR
 
 ### Ch 10 — The Hidden Subsidy (NEW)
 
-- **Reference draft (author):** [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md) — **primary voice north star** for Part IV opening
+- **Manuscript:** [`chapter-10-the-hidden-subsidy.md`](../parts/part-4-what-judgment-still-knows/chapter-10-the-hidden-subsidy.md) — **primary voice north star** for Part IV opening
 - **Bookend with Ch 1:** 11:42 discharge time vs nine unrecorded minutes; *Nine Minutes* closing returns to nurse hallway
 - **Sources:** Scattered practitioner material across essay-edition Ch 1–8 + conclusion orientation examples
 - **Action:** Integrate reference draft; ensure Ch 1 hidden-subsidy preview stays lighter than this chapter
@@ -478,15 +471,13 @@ flowchart LR
 
 ### Ch 12 — Keeping the Difference Alive
 
-- **Current:** [`conclusion-living-inside-incentive-systems.md`](../back-matter/conclusion-living-inside-incentive-systems.md)
-- **Action:** Rewrite—orientation not checklist; preserve closing distinction
+- **Manuscript:** [`chapter-12-keeping-the-difference-alive.md`](../parts/part-4-what-judgment-still-knows/chapter-12-keeping-the-difference-alive.md)
 - **Cut:** Eight-domain inventory recap; three-pattern numbered list (moved to Ch 9)
 - **Target:** Room for scene-led craft (no fixed word count)
 
 ### Epilogue — The Blank Column
 
-- **Reference draft (author):** [`reference/epilogue-the-blank-column.md`](reference/epilogue-the-blank-column.md) — **primary voice north star** for book closing
-- **Action:** Integrate reference draft; ensure Ch 12 does not duplicate epilogue closing (*signal vs whole*, blank column concept)
+- **Manuscript:** [`epilogue-the-blank-column.md`](../back-matter/epilogue-the-blank-column.md) — **primary voice north star** for book closing
 - **Bookend (preserve):** Returns to Ch 1 whiteboard—cleaned, blank, next patient; chair beside window
 - **Preserve from reference:** Absent fields (daughter, nurse unease, patient waiting for bed); *What a Column Does*; cross-domain absent-column pairs; comfort of completion; what people remember; institution after everyone leaves; sincere drift; *The Return*; closing—keep blank visible, every measure is translation
 - **Do not:** Reform checklist; eight-domain inventory recap; anti-metric polemic; merge with Ch 12 orientation section
@@ -734,7 +725,7 @@ Do not write polished transition prose yet. Each boundary should accomplish the 
 - Do not preview the next chapter by number/name
 - Do not invent named patients, employees, or quoted dialogue as reported fact
 - Run echo pass after Part I, Part III, and full manuscript
-- Use [`agents/rewrite/`](agents/rewrite/) specs, not legacy essay-edition agents **01–08**
+- Use [`agents/rewrite/`](agents/rewrite/) specs for future revision passes
 
 ---
 
@@ -794,10 +785,5 @@ See [`author-approval-gates.md`](author-approval-gates.md) for decisions requiri
 | [`book-rules.md`](book-rules.md) | Updated architectural constraints |
 | [`status.md`](status.md) | Rewrite phase tracking |
 | [`drafting-process.md`](drafting-process.md) | Rewrite workflow |
-| [`agents/rewrite/README.md`](agents/rewrite/README.md) | New agent specs for essayistic rewrite |
-| [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) | Author reference — Ch 1; translation arc |
-| [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md) | Author reference — Ch 2; platforms / feed arc |
-| [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md) | Author reference — Ch 6; journalism / domain model |
-| [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md) | Author reference — Ch 10; human cost arc |
-| [`reference/epilogue-the-blank-column.md`](reference/epilogue-the-blank-column.md) | Author reference — epilogue; blank column / Ch 1 bookend |
+| [`agents/rewrite/README.md`](agents/rewrite/README.md) | Rewrite agent specs |
 | [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md) | Compositional patterns; Ch 1/epilogue bookend; Ch 2/6 distinction |

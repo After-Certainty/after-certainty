@@ -47,7 +47,6 @@
 
 - [Appendix — A Note on Method and Sources](back-matter/appendix-method-and-sources.md)
 - [Bibliography](back-matter/bibliography.md)
-- [Conclusion — Living Inside Incentive Systems](back-matter/conclusion-living-inside-incentive-systems.md) *(essay edition — superseded by Ch 12)*
 
 ## Related books
 

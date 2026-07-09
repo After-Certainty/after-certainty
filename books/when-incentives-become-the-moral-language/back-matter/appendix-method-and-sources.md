@@ -62,10 +62,6 @@ Documented facts and authorial synthesis are distinguished here; footnotes mark 
 
 Primary documentary anchors by chapter (not exhaustive): HRRP and DRGs (1); congressional and Senate testimony on engagement (2); impact factor, DORA, replication literature (3); Paris, SBTi, ISSB/ESRS, offset integrity debates (4); performance management and WARN (5); *Digital News Report*, trust surveys (6); Pew, FEC, Hersh (7); ESEA, ACGR, PISA, teacher stress research (8); Campbell's law and cross-domain synthesis (9); organizational justice and clinician burnout research (10–11); orientation without reform checklist (12).
 
-### **Relation to the essay edition**
-
-An earlier compressed edition (Phase 5, ~11k words) remains in the repository at legacy paths. It used an explicit eight-chapter scaffold visible in headings. This rewrite preserves the central argument while replacing that scaffold with scene-led prose, expanding Part IV, and adding an epilogue. The legacy conclusion is superseded by Chapter 12 and the epilogue.
-
 ### **What this appendix does not provide**
 
 This book does not offer implementation guidance, optimization playbooks, or sector-specific reform programs. Its aim is diagnostic: to make substitution visible enough that judgment can remain distinguishable from the metrics that translate it.

@@ -1,12 +1,12 @@
 # Voice notes — reference chapter analysis
 
-**Sources:**
+**Sources (manuscript):**
 
-- Ch 1: [`chapter-1-the-bed-someone-else-needs.md`](chapter-1-the-bed-someone-else-needs.md)
-- Ch 2: [`chapter-2-the-feed-that-never-empties.md`](chapter-2-the-feed-that-never-empties.md)
-- Ch 6: [`chapter-6-the-front-page-watches-back.md`](chapter-6-the-front-page-watches-back.md)
-- Ch 10: [`chapter-10-the-hidden-subsidy.md`](chapter-10-the-hidden-subsidy.md)
-- Epilogue: [`epilogue-the-blank-column.md`](epilogue-the-blank-column.md)
+- Ch 1: [`chapter-1-the-bed-someone-else-needs.md`](../parts/part-1-the-need-for-translation/chapter-1-the-bed-someone-else-needs.md)
+- Ch 2: [`chapter-2-the-feed-that-never-empties.md`](../parts/part-1-the-need-for-translation/chapter-2-the-feed-that-never-empties.md)
+- Ch 6: [`chapter-6-the-front-page-watches-back.md`](../parts/part-2-when-the-translation-takes-over/chapter-6-the-front-page-watches-back.md)
+- Ch 10: [`chapter-10-the-hidden-subsidy.md`](../parts/part-4-what-judgment-still-knows/chapter-10-the-hidden-subsidy.md)
+- Epilogue: [`epilogue-the-blank-column.md`](../back-matter/epilogue-the-blank-column.md)
 
 Use these patterns when rewriting other chapters. Do not copy surface moves (short-line stacks) mechanically—match the **logic of movement**.
 
@@ -142,9 +142,9 @@ Two-line principle plus short closing movement—not a summary inventory of the 
 
 ---
 
-## Citation gaps (for Agent 04 on manuscript integration)
+## Citation gaps (for Agent 04 on future revision passes)
 
-Reference drafts are prose-first. When moving into manuscript, add footnotes at pivots for:
+Manuscript chapters carry footnotes at pivots. Optional additions:
 
 **Ch 1**
 
@@ -164,8 +164,6 @@ Reference drafts are prose-first. When moving into manuscript, add footnotes at 
 
 - See chapter briefs in [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../WHEN_INCENTIVES_REWRITE_PLAN.md) §5 and §11
 
-Do not bolt citations into reference drafts unless author requests.
-
 ---
 
 ## Cross-chapter guidance
@@ -179,15 +177,13 @@ Do not bolt citations into reference drafts unless author requests.
 
 ---
 
-## Preserve near-verbatim from essay edition
+## Preserve near-verbatim (manuscript)
 
-This reference draft already incorporates and exceeds essay-edition keepers:
+Key keeper phrases integrated in the rewrite manuscript:
 
-- "Patient met discharge criteria" (as "Patient met discharge criteria" / criteria language)
+- "Patient met discharge criteria" / criteria language
 - Privatized caring (Core Principle: "Caring Becomes Private")
 - Double bind (woman vs unseen patient needing bed)
-
-Legacy essay-edition Ch 1 footnotes should migrate on manuscript integration pass.
 
 ---
 

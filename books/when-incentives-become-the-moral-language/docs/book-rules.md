@@ -7,18 +7,13 @@ Architectural constraints for **When Incentives Become the Moral Language** (*Ho
 **Rewrite plan (July 2026):** [`WHEN_INCENTIVES_REWRITE_PLAN.md`](WHEN_INCENTIVES_REWRITE_PLAN.md)  
 **Author gates:** [`author-approval-gates.md`](author-approval-gates.md)
 
-## Current edition vs rewrite target
+## Current edition
 
 | Edition | Words | Status |
 |---------|------:|--------|
-| Essay edition (published baseline) | ~9–11k | Complete (Phase 5, July 2026) — frozen at current manuscript |
-| **Essayistic rewrite (planned)** | Length follows craft | Awaiting remaining author gates |
+| **Essayistic rewrite** | ~36.5k | Complete (July 2026) |
 
-Word count is **not gated** for now. Chapters take the room scene-led craft requires.
-
-Do not attempt scene-led rewrite by compressing into the essay edition’s ~11k prose.
-
-## Book scope and structure (rewrite target)
+Word count is **not gated**. Chapters take the room scene-led craft requires.
 
 ### Four parts, twelve chapters + epilogue
 
@@ -29,7 +24,7 @@ Do not attempt scene-led rewrite by compressing into the essay edition’s ~11k 
 - **Part IV — What Judgment Still Knows** (Ch 10–12: hidden subsidy, institutional deafness, orientation)
 - **Epilogue — The Blank Column**
 
-Part bridges from the essay edition are **deprecated** for the rewrite—use relational chapter transitions instead (see rewrite plan §10).
+Part bridges are **not used**—relational chapter transitions instead (see rewrite plan §10).
 
 ### Chapter craft (invisible scaffold — do not label in prose)
 
@@ -61,13 +56,13 @@ Full mechanism naming belongs in **Ch 9** (*When the Proxy Becomes the Good*), n
 
 ## Voice reference
 
-**North stars:**
+**North stars (manuscript):**
 
-- Ch 1 (translation): [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md)
-- Ch 2 (platforms / feed): [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md)
-- Ch 6 (domain / journalism): [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md)
-- Ch 10 (human cost): [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md)
-- Epilogue (closing): [`reference/epilogue-the-blank-column.md`](reference/epilogue-the-blank-column.md)
+- Ch 1 (translation): [`chapter-1-the-bed-someone-else-needs.md`](../parts/part-1-the-need-for-translation/chapter-1-the-bed-someone-else-needs.md)
+- Ch 2 (platforms / feed): [`chapter-2-the-feed-that-never-empties.md`](../parts/part-1-the-need-for-translation/chapter-2-the-feed-that-never-empties.md)
+- Ch 6 (domain / journalism): [`chapter-6-the-front-page-watches-back.md`](../parts/part-2-when-the-translation-takes-over/chapter-6-the-front-page-watches-back.md)
+- Ch 10 (human cost): [`chapter-10-the-hidden-subsidy.md`](../parts/part-4-what-judgment-still-knows/chapter-10-the-hidden-subsidy.md)
+- Epilogue (closing): [`epilogue-the-blank-column.md`](../back-matter/epilogue-the-blank-column.md)
 
 Pattern notes: [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md)
 
@@ -104,5 +99,4 @@ Opening scenes may be composite or indefinite ("a hospital," "a campaign team") 
 - `docs/WHEN_INCENTIVES_REWRITE_PLAN.md` — full rewrite brief
 - `docs/drafting-process.md`
 - `docs/status.md`
-- `docs/agents/rewrite/README.md` — **active** rewrite agents
-- `docs/agents/legacy-essay-edition/README.md` — archived Phase 5 pipeline
+- `docs/agents/rewrite/README.md` — rewrite agents
