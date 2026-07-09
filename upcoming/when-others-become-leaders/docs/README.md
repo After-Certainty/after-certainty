@@ -14,6 +14,7 @@ Central navigation for planning documents for *When Others Become Leaders: What 
 - [Sample chapter draft: The Bracelet](sample-chapter-the-bracelet.md) — full working sample capture for Chapter 9 drafting reference
 - [Sample chapter draft: The House](sample-chapter-the-house.md) — full working sample capture for Chapter 7 drafting reference
 - [Sample chapter draft: The Tree](sample-chapter-the-tree.md) — full working sample capture for Chapter 5 drafting reference
+- [Sample chapter draft: Victory](sample-chapter-victory.md) — full working sample capture for Chapter 3 drafting reference
 - [Open questions](open-questions.md) — unresolved editorial and structural decisions
 
 ## Process docs
