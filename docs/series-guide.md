@@ -38,7 +38,7 @@ Leadership begins when attention accumulates, when responsibility accumulates, w
 
 **Question:** How does authority become legitimate?
 
-### [When Others Become Leaders](../upcoming/when-others-become-leaders/index.md) *(upcoming)*
+### [When Others Become Leaders](../books/when-others-become-leaders/index.md)
 
 Once influence gathers around a person, what kind of leader leaves behind more leaders? This book studies **circulation** through nine historical cases — whether agency, practice, and moral posture survive the leader's absence.
 

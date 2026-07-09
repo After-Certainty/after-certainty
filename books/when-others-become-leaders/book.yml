@@ -1,7 +1,7 @@
 version: 1
 
-upcoming:
-  status: in_progress
+publishing:
+  enabled: true
 
 book:
   id: when-others-become-leaders
@@ -33,8 +33,16 @@ frontmatter:
 build:
   formats:
     docx:
-      enabled: false
+      enabled: true
     epub:
-      enabled: false
+      enabled: true
     pdf:
-      enabled: false
+      enabled: true
+
+github:
+  release: true
+  release_tag: "latest"
+  artifacts:
+    - docx
+    - epub
+    - pdf

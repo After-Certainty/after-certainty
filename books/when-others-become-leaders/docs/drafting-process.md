@@ -76,15 +76,17 @@ Gate docs: [`part-1-coherence-pass.md`](part-1-coherence-pass.md), [`part-2-cohe
 
 Gate doc: [`manuscript-wide-pass.md`](manuscript-wide-pass.md).
 
-### Phase 5 — Promote to `books/` (next)
+### Phase 5 — Promote to `books/` ✓
 
 When manuscript is mature and author read-through is complete:
 
 - Copy to `books/when-others-become-leaders/`.
 - Enable `publishing.enabled` and `build.formats.*` in `book.yml`.
 - Export smoke test (`make build-book DIR=books/when-others-become-leaders`).
-- Update [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md) and series guide.
+- Update [`upcoming/docs/portfolio-status.md`](../../../upcoming/docs/portfolio-status.md) and series guide.
 - Add WOLTY differentiation blurb if not already in index/front matter.
+
+**Completed July 2026** — promoted on branch `cursor/when-others-become-leaders-planning-ba72`.
 
 ## Commit discipline
 
@@ -94,4 +96,4 @@ When manuscript is mature and author read-through is complete:
 
 ## Current starting phase
 
-See [`status.md`](status.md) — **Phase 5 — Promote to `books/`** (Phase 4 manuscript-wide pass complete; author read-through next).
+See [`status.md`](status.md) — **Phase 5 complete** (promoted to `books/`).

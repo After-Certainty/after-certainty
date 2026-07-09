@@ -4,12 +4,12 @@
 
 ## The closest companion: *When Others Look To You*
 
-The nearest book in the series is [**When Others Look To You**](../../../books/when-others-look-to-you/v1/index.md) — published in two editions that share language but serve different reading paths:
+The nearest book in the series is [**When Others Look To You**](../../when-others-look-to-you/v1/index.md) — published in two editions that share language but serve different reading paths:
 
 | Edition | Subtitle | Best for |
 |---------|----------|----------|
-| **v1** | *Renewal and Erosion in Leadership* | The integrated field guide: how attention gathers, how influence renews or erodes, and how **circulation** and **correction** are tested in practice ([v1 index](../../../books/when-others-look-to-you/v1/index.md)) |
-| **v2** | *Forming, Renewing, Eroding, Repeating* | A pattern-level companion that walks the same dynamics in a linear sequence ([v2 index](../../../books/when-others-look-to-you/v2/index.md)) |
+| **v1** | *Renewal and Erosion in Leadership* | The integrated field guide: how attention gathers, how influence renews or erodes, and how **circulation** and **correction** are tested in practice ([v1 index](../../when-others-look-to-you/v1/index.md)) |
+| **v2** | *Forming, Renewing, Eroding, Repeating* | A pattern-level companion that walks the same dynamics in a linear sequence ([v2 index](../../when-others-look-to-you/v2/index.md)) |
 
 **How they differ:** *When Others Look To You* asks what happens when others begin looking toward someone — when authority, expectation, and responsibility accumulate around a person. *When Others Become Leaders* asks what happens next: whether that influence leaves behind more capable people and communities, or dependence on the original figure.
 
@@ -21,7 +21,7 @@ This book uses **circulation** directly. In the After Certainty series, circulat
 
 That is the question behind every chapter: does influence **circulate**, or does it only **accumulate**?
 
-The fullest working definition appears in the glossary of [*When Others Look To You* (v1)](../../../books/when-others-look-to-you/v1/back-matter/glossary.md). This book does not redefine the term. It tests it against nine lives in which circulation succeeded, failed, or remained painfully mixed.
+The fullest working definition appears in the glossary of [*When Others Look To You* (v1)](../../when-others-look-to-you/v1/back-matter/glossary.md). This book does not redefine the term. It tests it against nine lives in which circulation succeeded, failed, or remained painfully mixed.
 
 **Circulation is not automatically healthy.** Cruelty, fear, and domination also spread. Multiplication is not enough. The introduction names that caution; the chapters return to it through specific figures and limits.
 
@@ -29,9 +29,9 @@ The fullest working definition appears in the glossary of [*When Others Look To 
 
 Several series titles orbit the same problems from different angles. None is required reading:
 
-- [**When Authority Outlives Accountability**](../../../books/when-authority-outlives-accountability/index.md) — evaluating leaders when accountability has already thinned
-- [**When Authority Is Misread**](../../../books/when-authority-is-misread/index.md) — how leaders are understood, idealized, and condemned at scale
-- [**After Certainty**](../../../books/after-certainty/index.md) — judgment, responsibility, and speech when understanding is not enough
+- [**When Authority Outlives Accountability**](../../when-authority-outlives-accountability/index.md) — evaluating leaders when accountability has already thinned
+- [**When Authority Is Misread**](../../when-authority-is-misread/index.md) — how leaders are understood, idealized, and condemned at scale
+- [**After Certainty**](../../after-certainty/index.md) — judgment, responsibility, and speech when understanding is not enough
 
 For reading order, title pairs, and cluster maps, see the [series guide](../../../docs/series-guide.md) and [portfolio reader map](../../../docs/portfolio-reader-map.md).
 
