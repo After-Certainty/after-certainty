@@ -85,5 +85,5 @@ The danger begins when consistency is mistaken for sufficiency—when the instit
 Workforce formulas began as ways to make fairness legible across organizations too large for authored judgment to coordinate. They became, for many firms, the practical definition of equitable treatment. The translation solves real coordination problems. It also diffuses authorship until harm can be administered according to an auditable standard without anyone being fully accountable for what is owed in the case. The matrix closes. The rows remain.
 
 [^c5-cappelli]: Peter Cappelli and Anna Tavis, "The Performance Management Revolution," *Harvard Business Review*, October 2016.
-[^c5-warn]: U.S. Worker Adjustment and Retraining Notification (WARN) Act; representative workforce reduction disclosures in SEC filings.
+[^c5-warn]: Worker Adjustment and Retraining Notification Act, 29 U.S.C. §§ 2101–2109; see also representative SEC Form 8-K workforce-reduction disclosures.
 [^c5-greenberg]: Jerald Greenberg, "Organizational Justice: Yesterday, Today, and Tomorrow," *Journal of Management* 16, no. 2 (1990): 399–432.

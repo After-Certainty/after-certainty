@@ -64,7 +64,9 @@ An audience is present. It can be observed gathering, leaving, responding, shari
 
 An audience tells a newsroom what attracts attention. A public asks the newsroom to exercise judgment about where attention may be needed. The two overlap. Journalism that never reaches an audience cannot serve a public for long. But they are not identical.
 
-The distinction becomes clearer in local reporting. A city council changes a procurement rule. Few readers click. A school board revises the process for evaluating special education services. The article receives modest traffic. A regional authority adjusts water pricing in a way that will shape development for decades. Readers are more interested that day in a dramatic crime, a weather warning, or a dispute involving a familiar public figure.
+The distinction becomes clearer in local reporting. A city council changes a procurement rule. Few readers click.
+
+A school board revises the process for evaluating special education services. The article receives modest traffic. A regional authority adjusts water pricing in a way that will shape development for decades. Readers are more interested that day in a dramatic crime, a weather warning, or a dispute involving a familiar public figure.
 
 The audience has not done anything wrong. People live limited lives. They work, care for children, worry about money, seek relief, and make choices about attention under conditions the newsroom does not control. No citizen can maintain equal interest in every decision that may eventually matter. That limitation is one reason journalism exists. A newsroom is not merely a machine for satisfying existing curiosity. It is also an institution organized to notice before everyone else has reason to notice.
 
@@ -112,8 +114,6 @@ This resembles the platform feed, but the moral position of the newsroom is diff
 
 The editor knows that attention is allocated—placement, repetition, notification, framing. The front page is a mirror with a hand: it reflects while arranging what attention can find. On a platform feed, the mirror has a memory; here the newsroom still claims the authority to choose—and the responsibility for what that choice teaches the public about what matters.
 
-### When Relevance Becomes Circular
-
 Newsrooms often say they cover what audiences care about. The circle closes quickly: promote a story, measure attention, treat the response as demand, justify more coverage. The measure enters the world it measures—signal and influence become difficult to separate.
 
 ### The Story That Cannot Prove Itself in Advance
@@ -158,6 +158,6 @@ Elsewhere, in rooms with no windows and no homepage, present response is mistake
 
 Journalism needs audiences. When attention becomes the moral language of journalism, the front page says what matters by moving. The work is not to stop watching the audience. It is to remember that the audience is not the whole public, the present is not the whole future, and the story that moves fastest is not always the story that should move us.
 
-[^c6-reuters]: Reuters Institute for the Study of Journalism, *Digital News Report* (annual edition); see especially sections on advertising revenue, subscription models, and newsroom economics.
-[^c6-pew]: Pew Research Center, news consumption and audience measurement surveys; see journalism and media research on headline testing, digital engagement, and reader behavior.
-[^c6-knight]: Knight Foundation and Gallup, *American Views: Trust, Media and Democracy* (2018); American Press Institute, trust and reader engagement research.
+[^c6-reuters]: Reuters Institute for the Study of Journalism, *Digital News Report 2024* (Oxford: Reuters Institute, 2024).
+[^c6-pew]: Pew Research Center, "How Pew Research Center Conducts Surveys in the United States," methodology overview; see also journalism and media research on headline testing and digital engagement.
+[^c6-knight]: Knight Foundation and Gallup, *American Views: Trust, Media and Democracy* (2018).

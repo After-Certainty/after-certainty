@@ -103,6 +103,6 @@ Publication metrics began as ways to compare influence and activity. They became
 [^c3-garfield]: Eugene Garfield, "The History and Meaning of the Impact Factor," *JAMA* 295, no. 1 (2006): 90–93. Garfield argued that the journal impact factor was a tool for evaluating journals, not individual scientists.
 [^c3-hirsch]: Jorge E. Hirsch, "An Index to Quantify an Individual's Scientific Research Output," *Proceedings of the National Academy of Sciences* 102, no. 46 (2005): 16569–16572.
 [^c3-dora]: San Francisco Declaration on Research Assessment (DORA), 2012, https://sfdora.org/.
-[^c3-nsf-merit]: National Science Foundation, merit review criteria and proposal evaluation guidelines, current program documentation.
+[^c3-nsf-merit]: National Science Foundation, *Proposal & Award Policies & Procedures Guide* (PAPPG), "Merit Review Principles and Criteria."
 [^c3-osc]: Open Science Collaboration, "Estimating the Reproducibility of Psychological Science," *Science* 349, no. 6251 (2015).
 [^c3-ioannidis]: John P. A. Ioannidis, "Why Most Published Research Findings Are False," *PLoS Medicine* 2, no. 8 (2005): e124.

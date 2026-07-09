@@ -32,7 +32,7 @@ Attention, popularity, polling movement, and scores are signals. They indicate m
 
 This distinction is easy to state and hard to maintain because institutions reward those who treat signals as definitions. The story that travels is the story that performed. The employee who survives is the employee who scored well. The candidate who leads is the candidate who tests well tonight. The school that thrives is the school whose numbers rose. In each domain, the signal becomes a moral shorthand because moral shorthand is governable.
 
-Keeping the difference alive means letting signals inform judgment without replacing it. A newsroom can notice that an investigation is not reaching readers without concluding that reach equals importance. A hospital can notice that length of stay improved without concluding that shorter stays equal better care. A firm can notice that emissions fell within the boundary without concluding that the boundary equals responsibility. The signal enters the room. It does not get the last word.
+Keeping the difference alive means letting signals inform judgment without replacing it. A newsroom can notice that an investigation is not reaching readers without concluding that reach equals importance. A hospital can notice that length of stay improved without concluding that shorter stays equal better care. A firm can notice that emissions fell within the boundary without concluding that the boundary equals responsibility. The signal enters the room. It does not get the last word. This is what institutional judgment looks like when it survives: not freedom from measurement, but the refusal to let measurement close the account.
 
 ### Compliance and Responsibility
 

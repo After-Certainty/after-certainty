@@ -20,15 +20,15 @@ She opens a tab showing Scope 3 estimates for the supply chain. The numbers are 
 
 The pattern is not abstract. When Volkswagen's diesel emissions scandal broke in 2015, investigators found that vehicles met laboratory testing protocols while emitting far more nitrogen oxides on the road—the compliance language and the physical harm had diverged for years.[^c4-vw] Corporate climate accounting usually involves no comparable deception. The structural resemblance is narrower: compliance within a defined reporting frame can diverge from conditions outside it—boundaries shift, methodologies revise, and the curve on the poster can improve while local conditions do not.
 
-### The Harm That Does Not Fit on the Poster
-
-Climate policy begins with a moral claim that is not difficult to articulate: limit damage to people and places that cannot absorb it. For a long time, institutional language tried to follow that chain. As coordination scaled, saying *in my judgment, this path is the responsible one* created exposure. Saying *we met the target* shifts the argument to compliance.
+Local air pollution and greenhouse-gas emissions are distinct harms, governed through different measures. They meet here only as examples of what happens when improvement inside a reporting boundary is mistaken for the whole physical consequence.
 
 ### How the Target Became the Sentence
 
 Institutions learned to lead with targets because targets travel.
 
-The Paris Agreement gave nations a shared vocabulary of limits and timelines.[^c4-paris] Science-based target initiatives translated global pathways into corporate pledges with dates and percentages. Carbon markets and offset mechanisms created instruments—credits, removals, avoidance claims—that let organizations report balance-sheet progress on emissions. Disclosure regimes now require standardized metrics on exposure, governance, and transition risk; investors, ratings agencies, and boards use those reports to rank firms and allocate capital.[^c4-issb]
+Climate policy begins with a moral claim that is not difficult to articulate: limit damage to people and places that cannot absorb it. For a long time, institutional language tried to follow that chain. As coordination scaled, saying *in my judgment, this path is the responsible one* created exposure. Saying *we met the target* shifts the argument to compliance.
+
+The Paris Agreement gave nations a shared vocabulary of limits and timelines.[^c4-paris] Science-based target initiatives translated global pathways into corporate pledges with dates and percentages. Carbon markets and offset mechanisms created instruments—credits, removals, avoidance claims—that let organizations report balance-sheet progress on emissions.[^c4-world-bank] Disclosure regimes now require standardized metrics on exposure, governance, and transition risk; investors, ratings agencies, and boards use those reports to rank firms and allocate capital.[^c4-issb]
 
 Each tool answered a genuine coordination problem. They made institutional behavior comparable across jurisdictions and sectors. They created shared language for capital markets. They established checkpoints that would not otherwise exist. Without them, delay could hide behind rhetoric, and unequal exposure could remain invisible because each company told a locally persuasive story.
 
@@ -40,7 +40,7 @@ Net zero by 2040 becomes the sentence everyone can repeat—the sustainability e
 
 Late in the afternoon, she joins a call about an offset purchase. The project is listed in a registry. Third-party verification is attached. The price fits the budget line reserved for neutralizing emissions the company cannot yet eliminate operationally. Someone from finance asks whether the purchase keeps the quarterly trajectory aligned with the curve on the poster. Someone from legal asks whether the claim language is defensible in the jurisdictions where the company advertises its commitment.
 
-The questions are reasonable. They are also narrower than the ones she would ask if the room were organized around harm rather than compliance. Is the reduction additional to what would have occurred without the payment? Will it persist for the decades the atmosphere will remember? Does the project displace communities or protect them? Who verified the verification?
+The questions are reasonable. They are also narrower than the ones she would ask if the room were organized around harm rather than compliance. Is the reduction additional to what would have occurred without the payment? Will it persist for the decades the atmosphere will remember? Does the project displace communities or protect them? Who verified the verification?[^c4-vcmi]
 
 Specialists debate these questions in journals and investigative reports. The debate does not slow the purchase. The institution needs the line item. Investors expect progress. The alternative—pausing the claim until uncertainty is resolved—would require a public admission that the target and the harm are not yet fully aligned. That admission is not impossible. It is expensive in the currency the institution uses most easily: confidence, comparability, and the appearance of control.
 
@@ -50,7 +50,9 @@ She approves the purchase. She adds a memo to the internal file noting methodolo
 
 The director feels this gap in ordinary work. An offset purchase may be compliant and still direct resources to projects whose long-term durability is contested among scientists. A reported emissions reduction may be real at the facility level while the product manufactured there generates larger downstream emissions that fall into a different category. A net-zero timeline may be technically plausible under optimistic assumptions about technology that does not yet exist at scale.
 
-None of this is hidden from specialists. These debates occur in conferences, working papers, and internal memos. They do not surface cleanly in institutional reporting because the reporting frameworks do not yet have a standard column for *here is what we do not know*. A map's necessary omission becomes, here, a cost measured in places rather than miles.
+None of this is hidden from specialists. These debates occur in conferences, working papers, and internal memos. They do not surface cleanly in institutional reporting because the reporting frameworks do not yet have a standard column for *here is what we do not know*.
+
+A map's necessary omission becomes, here, a cost measured in places rather than miles.
 
 Teams carry the gap. Communities near still-polluting facilities carry it. Policymakers who understand the mechanics carry it. The institution continues to speak in the language that survives its accountability structures: target met, on track, disclosure complete.
 
@@ -96,8 +98,8 @@ Action continues. Targets accumulate. Accountability for outcomes that cannot be
 
 Targets made climate obligation legible across institutions that could not negotiate every tradeoff in public. They became, for many organizations, the practical definition of responsibility. The translation solves real coordination problems. It also teaches institutions to defend seriousness before they defend outcomes.
 
-[^c4-vw]: U.S. Environmental Protection Agency and California Air Resources Board, findings and settlement regarding Volkswagen diesel emissions (2015–2016); investigative reporting on defeat devices and laboratory-vs-road testing gaps.
-[^c4-paris]: United Nations Framework Convention on Climate Change, *Paris Agreement*, 2015; Science Based Targets initiative, corporate target-setting criteria and net-zero standard.
-[^c4-world-bank]: World Bank, *State and Trends of Carbon Pricing*, annual reports.
-[^c4-vcmi]: Voluntary Carbon Markets Integrity Initiative (VCMI) and Integrity Council for the Voluntary Carbon Market (ICVCM), guidance on offset claims and integrity.
-[^c4-issb]: International Sustainability Standards Board (ISSB), IFRS S1 General Requirements and S2 Climate-related Disclosures, 2023; European Sustainability Reporting Standards (ESRS), European Financial Reporting Advisory Group.
+[^c4-vw]: U.S. Environmental Protection Agency, "Notice of Violation: Volkswagen Clean Diesel Vehicles," September 18, 2015; U.S. EPA and California Air Resources Board, settlements and consent decrees regarding defeat devices and laboratory-vs-road testing gaps (2016).
+[^c4-paris]: United Nations Framework Convention on Climate Change, *Paris Agreement*, adopted December 12, 2015; Science Based Targets initiative, *Corporate Net-Zero Standard*, Version 1.2 (2023).
+[^c4-world-bank]: World Bank, *State and Trends of Carbon Pricing 2024* (Washington, DC: World Bank, 2024).
+[^c4-vcmi]: Integrity Council for the Voluntary Carbon Market, *Core Carbon Principles* (2023); Voluntary Carbon Markets Integrity Initiative, *Claims Code of Practice* (2023).
+[^c4-issb]: International Sustainability Standards Board, IFRS S1 *General Requirements for Disclosure of Sustainability-related Financial Information* and S2 *Climate-related Disclosures* (2023); European Financial Reporting Advisory Group, European Sustainability Reporting Standards (ESRS), 2023.

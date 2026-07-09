@@ -83,7 +83,7 @@ Elections continue. Legitimacy thins—not because democracy ended, but because 
 Polls began as instruments for listening. They became, for many campaigns, the practical definition of what leaders are allowed to say they believe. The translation solves real problems of uncertainty and scale. It also teaches politics to treat present preference as moral authority. The numbers are on the screen before the argument begins. The argument learns to wait.
 
 [^c7-aca]: Congressional Record, 111th Cong., debate on Affordable Care Act and public-option provisions (2009–2010); Jonathan Cohn, *The Ten Year War: Obamacare and the Unmaking of American Establishment* (New York: St. Martin's Press, 2021), on Senate vote counts, coalition constraints, and the option's removal from final legislation.
-[^c7-pew]: Pew Research Center, U.S. politics polling methodology and election surveys.
-[^c7-fec]: Federal Election Commission, campaign finance disclosure data; OpenSecrets reporting on fundraising totals.
+[^c7-pew]: Pew Research Center, *A Guide to Pew Research Center's Methodology*; U.S. election and politics survey documentation.
+[^c7-fec]: Federal Election Commission, campaign finance disclosure data, https://www.fec.gov/; Center for Responsive Politics (OpenSecrets), fundraising totals and donor reporting.
 [^c7-hersh]: Eitan Hersh, *Politics Is for Power* (New York: Scribner, 2020).
-[^c7-trust]: Pew Research Center, "Public Trust in Government" time series, 1958–present.
+[^c7-trust]: Pew Research Center, "Public Trust in Government: 1958–2024," April 2024.

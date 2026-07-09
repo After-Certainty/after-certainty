@@ -92,7 +92,7 @@ The child the score cannot hold continues to exist in the classroom. The score w
 
 Measurement began as a way to make educational obligation visible across schools no administrator could visit personally. It became, for many institutions, the practical definition of educational success. The translation solves real problems of equity and accountability. It also teaches schools to defend snapshots before they defend persons. The comment box is too small. The work continues in the margin.
 
-[^c8-esea]: U.S. Department of Education, Elementary and Secondary Education Act accountability provisions; state report card requirements.
-[^c8-acgr]: National Center for Education Statistics, Adjusted Cohort Graduation Rate (ACGR) documentation.
-[^c8-pisa]: Organisation for Economic Co-operation and Development, Programme for International Student Assessment (PISA) reports.
-[^c8-rand]: RAND Corporation, reports on teacher stress and attrition; Learning Policy Institute, teacher shortage analyses.
+[^c8-esea]: Every Student Succeeds Act of 2015, Pub. L. No. 114-95, §§ 1111–1112 (accountability and state report cards).
+[^c8-acgr]: National Center for Education Statistics, "Adjusted Cohort Graduation Rate (ACGR)," documentation and data tables.
+[^c8-pisa]: Organisation for Economic Co-operation and Development, *PISA 2022 Results* (Volume I): *The State of Learning and Equity in Education* (Paris: OECD, 2023).
+[^c8-rand]: Jason A. Grissom et al., "Teacher Stress and Health: Effects on Teachers, Students, and Schools," RAND Corporation, 2021; Learning Policy Institute, *Teacher Shortages and Turnover in the United States* (2024).

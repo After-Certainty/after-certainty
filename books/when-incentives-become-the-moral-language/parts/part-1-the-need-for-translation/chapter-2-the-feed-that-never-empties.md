@@ -90,8 +90,6 @@ Changing a ranking signal can affect creators, businesses, political groups, new
 
 Behavioral metrics offer shelter because they make the system appear responsive rather than authoritative. The platform can say that it does not decide what people should value. It learns from what people do. A human judgment about desirable public life is contestable. A graph of user behavior looks descriptive. The institution gravitates toward the language it can defend.[^c2-horwitz-seetharaman][^c2-haugen-senate]
 
-### The Impossibility of Neutral Ranking
-
 Any ordering rule distributes visibility. Chronology favors frequent posters; recency is still a choice. The relevant question is whether the values remain visible and contestable after being translated into signals.
 
 ### The User Who Did Not Ask for This

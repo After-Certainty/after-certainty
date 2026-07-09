@@ -2,17 +2,17 @@
 
 ## Chapter 1
 
-American College of Emergency Physicians. "Boarding." Policy statement, updated 2023.
+American College of Emergency Physicians. "Boarding." Policy statement, updated 2023. https://www.acep.org/.
 
-Centers for Medicare & Medicaid Services. "Hospital Readmissions Reduction Program (HRRP)." Program overview and statutory authority. Updated 2023.
+Centers for Medicare & Medicaid Services. "Hospital Readmissions Reduction Program (HRRP)." Program overview and statutory authority. Updated 2023. https://www.cms.gov/medicare/payment/prospective-payment-systems/acute-inpatient-pps/hospital-readmissions-reduction-program.
 
-Centers for Medicare & Medicaid Services. "MS-DRG Classifications and Software." Annual IPPS rulemaking and DRG overview documentation.
+Centers for Medicare & Medicaid Services. "MS-DRG Classifications and Software." Annual IPPS rulemaking and DRG overview documentation. https://www.cms.gov/medicare/payment/prospective-payment-systems/acute-inpatient-pps/ms-drg-classifications-and-software.
 
 Institute of Medicine. *Hospital-Based Emergency Care: At the Breaking Point*. Washington, DC: National Academies Press, 2007.
 
 National Academy of Medicine. *Taking Action Against Clinician Burnout: A Systems Approach to Professional Well-Being*. Washington, DC: National Academies Press, 2019.
 
-Talbot, S. G., and W. Dean. "Physicians Aren't 'Burning Out.' They're Suffering from Moral Injury." *STAT*, July 26, 2018.
+Talbot, S. G., and W. Dean. "Physicians Aren't 'Burning Out.' They're Suffering from Moral Injury." *STAT*, July 26, 2018. https://www.statnews.com/2018/07/26/physicians-not-burning-out-they-are-suffering-moral-injury/.
 
 ## Chapter 2
 
@@ -32,7 +32,7 @@ Hirsch, Jorge E. "An Index to Quantify an Individual's Scientific Research Outpu
 
 Ioannidis, John P. A. "Why Most Published Research Findings Are False." *PLoS Medicine* 2, no. 8 (2005): e124.
 
-National Science Foundation. Merit review criteria and proposal evaluation guidelines. Current program documentation.
+National Science Foundation. *Proposal & Award Policies & Procedures Guide* (PAPPG), "Merit Review Principles and Criteria." https://www.nsf.gov/policies/pappg/.
 
 Open Science Collaboration. "Estimating the Reproducibility of Psychological Science." *Science* 349, no. 6251 (2015).
 
@@ -46,19 +46,21 @@ Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human C
 
 ## Chapter 4
 
-U.S. Environmental Protection Agency and California Air Resources Board. Findings and settlement regarding Volkswagen diesel emissions (2015–2016).
+U.S. Environmental Protection Agency. "Notice of Violation: Volkswagen Clean Diesel Vehicles." September 18, 2015. U.S. EPA and California Air Resources Board, settlements and consent decrees regarding defeat devices (2016).
 
-European Financial Reporting Advisory Group (EFRAG). European Sustainability Reporting Standards (ESRS). 2023.
+European Financial Reporting Advisory Group (EFRAG). European Sustainability Reporting Standards (ESRS). 2023. https://www.efrag.org/.
 
-International Sustainability Standards Board (ISSB). IFRS S1 General Requirements and S2 Climate-related Disclosures. 2023.
+Integrity Council for the Voluntary Carbon Market. *Core Carbon Principles*. 2023. https://icvcm.org/.
 
-Science Based Targets initiative. Corporate target-setting criteria and net-zero standard.
+International Sustainability Standards Board (ISSB). IFRS S1 *General Requirements for Disclosure of Sustainability-related Financial Information* and S2 *Climate-related Disclosures*. 2023. https://www.ifrs.org/.
 
-United Nations Framework Convention on Climate Change. *Paris Agreement*. 2015.
+Science Based Targets initiative. *Corporate Net-Zero Standard*, Version 1.2. 2023. https://sciencebasedtargets.org/.
 
-Voluntary Carbon Markets Integrity Initiative (VCMI) and Integrity Council for the Voluntary Carbon Market (ICVCM). Guidance on offset claims and integrity.
+United Nations Framework Convention on Climate Change. *Paris Agreement*. Adopted December 12, 2015. https://unfccc.int/.
 
-World Bank. *State and Trends of Carbon Pricing*. Annual reports.
+Voluntary Carbon Markets Integrity Initiative. *Claims Code of Practice*. 2023. https://vcmintegrity.org/.
+
+World Bank. *State and Trends of Carbon Pricing 2024*. Washington, DC: World Bank, 2024. https://openknowledge.worldbank.org/.
 
 ## Chapter 5
 
@@ -66,41 +68,43 @@ Cappelli, Peter, and Anna Tavis. "The Performance Management Revolution." *Harva
 
 Greenberg, Jerald. "Organizational Justice: Yesterday, Today, and Tomorrow." *Journal of Management* 16, no. 2 (1990): 399–432.
 
-U.S. Worker Adjustment and Retraining Notification (WARN) Act. Representative workforce reduction disclosures in SEC filings.
+Worker Adjustment and Retraining Notification Act, 29 U.S.C. §§ 2101–2109.
 
 ## Chapter 6
 
-Knight Foundation and Gallup. *American Views: Trust, Media, and Democracy* (and related trust surveys).
+Knight Foundation and Gallup. *American Views: Trust, Media and Democracy*. 2018. https://knightfoundation.org/.
 
-Pew Research Center. News consumption and trust surveys.
+Pew Research Center. "How Pew Research Center Conducts Surveys in the United States." Methodology overview. https://www.pewresearch.org/.
 
-Reuters Institute for the Study of Journalism. *Digital News Report*. Annual editions.
+Reuters Institute for the Study of Journalism. *Digital News Report 2024*. Oxford: Reuters Institute, 2024. https://reutersinstitute.politics.ox.ac.uk/.
 
 ## Chapter 7
 
-Congressional Record. 111th Congress. Debate on Affordable Care Act and public-option provisions, 2009–2010.
-
 Cohn, Jonathan. *The Ten Year War: Obamacare and the Unmaking of American Establishment*. New York: St. Martin's Press, 2021.
 
-Federal Election Commission. Campaign finance disclosure data; OpenSecrets reporting on fundraising totals.
+Congressional Record. 111th Congress. Debate on Affordable Care Act and public-option provisions, 2009–2010.
+
+Federal Election Commission. Campaign finance disclosure data. https://www.fec.gov/.
+
+Center for Responsive Politics (OpenSecrets). Fundraising totals and donor reporting. https://www.opensecrets.org/.
 
 Hersh, Eitan. *Politics Is for Power*. New York: Scribner, 2020.
 
-Pew Research Center. "Public Trust in Government" time series, 1958–present.
+Pew Research Center. *A Guide to Pew Research Center's Methodology*. https://www.pewresearch.org/.
 
-Pew Research Center. U.S. politics polling methodology and election surveys.
+Pew Research Center. "Public Trust in Government: 1958–2024." April 2024. https://www.pewresearch.org/.
 
 ## Chapter 8
 
-Learning Policy Institute. Teacher shortage analyses.
+Every Student Succeeds Act of 2015, Pub. L. No. 114-95, §§ 1111–1112.
 
-National Center for Education Statistics. Adjusted Cohort Graduation Rate (ACGR) documentation.
+Grissom, Jason A., et al. "Teacher Stress and Health: Effects on Teachers, Students, and Schools." RAND Corporation, 2021. https://www.rand.org/.
 
-Organisation for Economic Co-operation and Development. Programme for International Student Assessment (PISA) reports.
+Learning Policy Institute. *Teacher Shortages and Turnover in the United States*. 2024. https://learningpolicyinstitute.org/.
 
-RAND Corporation. Reports on teacher stress and attrition.
+National Center for Education Statistics. "Adjusted Cohort Graduation Rate (ACGR)." Documentation and data tables. https://nces.ed.gov/.
 
-U.S. Department of Education. Elementary and Secondary Education Act accountability provisions; state report card requirements.
+Organisation for Economic Co-operation and Development. *PISA 2022 Results* (Volume I): *The State of Learning and Equity in Education*. Paris: OECD, 2023. https://www.oecd.org/pisa/.
 
 ## Chapter 9
 

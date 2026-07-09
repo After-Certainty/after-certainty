@@ -1,6 +1,6 @@
 # **When Incentives Become the Moral Language**
 
-## **How Systems Decide for Us When Judgment No Longer Scales**
+## **How Systems Decide For Us When Judgment No Longer Scales**
 
 ### **Contents**
 
