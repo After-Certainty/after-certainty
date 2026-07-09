@@ -86,11 +86,9 @@ She works on the narrower project because that project can pass through the gate
 
 When the hidden work fails, the failure is private. When it succeeds, the institution may claim it as evidence of excellence. Either way, the subsidy remains unnamed. This is one reason researchers can feel exhausted inside fields they still love. They are not only producing knowledge. They are maintaining two accounts of what their work is for—one the institution can repeat, and one they still believe the field needs.
 
-### The Return to the Desk
-
 The annual review ends. The spreadsheet is submitted. The narrower project moves forward on schedule. The ambitious folder remains open.
 
-She does not experience this as heroism or betrayal. She experiences it as the ordinary condition of working inside a system that solved real coordination problems and, in solving them, taught her which questions could be asked in public. Publication metrics began as ways to compare influence and activity across a literature no person could read whole. They became, for many institutions, the practical definition of scholarly merit. The translation was necessary. Universities cannot govern entirely through close reading. But when the translation becomes the only language a career can speak, truth-seeking does not disappear. It becomes private craft inside public systems that speak in throughput.
+She does not experience this as heroism or betrayal. She experiences it as the ordinary condition of working inside a system that solved real coordination problems and, in solving them, taught her which questions could be asked in public.
 
 Knowledge keeps moving. Meaning becomes harder to defend at scale.
 

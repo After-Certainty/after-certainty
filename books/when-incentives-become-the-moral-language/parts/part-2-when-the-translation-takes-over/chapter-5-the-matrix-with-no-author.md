@@ -70,13 +70,11 @@ Fairness asks what is owed in this case. Formula asks whether this case fits the
 
 When formula becomes the dominant moral language of workforce decisions, care for people does not disappear. It moves inward, into private discomfort and unofficial conversations the institution cannot absorb without weakening the defense it depends on. A manager spends an extra hour helping someone navigate benefits. An HR partner quietly adjusts the timing of a conversation so the employee can reach home before telling family. A team lead tells the people who remain something closer to the truth than the script allows. These acts matter. They are also evidence of the gap. The more moral work that must happen unofficially, the less the institution can acknowledge what its operation requires.
 
-### The Return to the Spreadsheet
-
 By Friday the notifications have gone out. The matrix is archived in a folder with a date in the title. Counsel marks the file reviewed. The board receives a summary showing that selection criteria were applied consistently across regions. A disclosure is filed listing the number affected, the estimated charge, and the expected completion date. The numbers are correct. The process is complete.
 
 The manager closes the laptop. The spreadsheet will reopen for someone else in another season of alignment. The names will change. The columns will remain. She walks through a floor that is quieter than it was, past desks that are already being cleared, past people who nod without knowing what to say. No one in the building can point to a single author of what happened. There were many authors at different elevations: strategy, policy, calibration, compliance. Each layer can defend its portion. The employee experiences the whole as one event without a face.
 
-This is not an argument against procedure. Large organizations cannot govern workforce decisions through intimacy alone. Without shared criteria, bias and favoritism can hide inside discretion. Without reproducible process, people with less power suffer arbitrary treatment more often. The matrix solves real problems. It enables comparability where narrative would be impossible to arbitrate. It creates a record when memory would fail. It allows an institution under pressure to act without collapsing into chaos.
+Large organizations cannot govern workforce decisions through intimacy alone. Without shared criteria, bias and favoritism can hide inside discretion. The matrix solves real problems. It enables comparability where narrative would be impossible to arbitrate.
 
 The danger begins when consistency is mistaken for sufficiency—when the institution learns to defend the process before it can defend the people inside it, and when managers and employees are left carrying the difference between what was procedurally correct and what still feels morally unowned.
 

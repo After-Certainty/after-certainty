@@ -38,9 +38,7 @@ This is translation in the domain of legitimacy. The moral aim was representatio
 
 ### The Primary That Teaches the Rule
 
-The housing decision does not occur in a vacuum. Months earlier, in a primary race, the same campaign watched a rival gain ground after taking a hard position on a school issue that polled well on social media and poorly among parents who actually sent children to the district's schools. The rival won the news cycle and lost the coalition needed to govern. The lesson was not *be wrong.* The lesson was *be early only when early is safe.*
-
-Staff internalize these lessons without writing them down. Speechwriters learn which words require testing. Policy aides learn to frame judgment as *likely voter concern.* Candidates learn that updating a view is called a flip even when the update is honest. The institution does not need to forbid deliberation. It need only make deliberation expensive in the currency campaigns spend most easily: narrative control.
+The housing decision does not occur in a vacuum. In the 2009–2010 debate over the Affordable Care Act, congressional leaders and the White House faced sustained pressure over whether to include a public insurance option. Polling showed the option popular in abstract; vote-count models and fundraising signals showed it costly among senators whose support was required.[^c7-aca] The provision was softened, then dropped—not because no one argued for it on merits, but because the institution learned to defend positions that could survive the next tracking survey and the next news cycle. Staff internalize these lessons without writing them down.
 
 ### The Other Numbers in the Room
 
@@ -86,6 +84,7 @@ Elections continue. Legitimacy thins—not because democracy ended, but because 
 
 Polls began as instruments for listening. They became, for many campaigns, the practical definition of what leaders are allowed to say they believe. The translation solves real problems of uncertainty and scale. It also teaches politics to treat present preference as moral authority. The numbers are on the screen before the argument begins. The argument learns to wait.
 
+[^c7-aca]: Congressional Record and contemporaneous reporting on Affordable Care Act negotiations (2009–2010), including public-option debate; see also Eitan Hersh, *Politics Is for Power* (New York: Scribner, 2020), on organizing vs poll-driven campaigning.
 [^c7-pew]: Pew Research Center, U.S. politics polling methodology and election surveys.
 [^c7-fec]: Federal Election Commission, campaign finance disclosure data; OpenSecrets reporting on fundraising totals.
 [^c7-hersh]: Eitan Hersh, *Politics Is for Power* (New York: Scribner, 2020).

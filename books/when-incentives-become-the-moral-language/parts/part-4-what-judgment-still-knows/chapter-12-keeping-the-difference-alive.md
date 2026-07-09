@@ -10,7 +10,9 @@ She also knows what the matrix cannot see.
 
 After one call ends, she stays on the line long enough to answer a question the script did not invite. She offers to review a résumé that evening. She sends a name to a colleague at another firm. None of this changes the decision. None of it appears in the official record. She is not resisting the process. She is living inside the remainder the process leaves behind.
 
-This is not a hero story. It is an ordinary Tuesday inside incentive systems most adults already inhabit. The nurse meets discharge criteria and still tells the family what uncertainty remains. The teacher teaches to the test and still protects time for habits no rubric names. The editor follows traffic data and still argues for a story the dashboard cannot yet justify. The campaign consultant reads overnight polling and still leaves room for a position that may test badly but needs to be said. Each act is small. Each preserves a distinction the system cannot make on its own.
+It is an ordinary Tuesday inside incentive systems most adults already inhabit.
+
+The nurse meets discharge criteria and still tells the family what uncertainty remains. The teacher teaches to the test and still protects time for habits no rubric names. The editor follows traffic data and still argues for a story the analytics screen cannot yet justify. The campaign consultant reads overnight polling and still leaves room for a position that may test badly but needs to be said. Each act is small. Each preserves a distinction the system cannot make on its own.
 
 Reclaiming moral agency inside these systems does not require pretending to stand outside them. No one does. It requires clarity about where judgment still lives, what the system can say, and what it forces individuals to carry alone.
 
@@ -48,13 +50,9 @@ When many competent people in the same institution describe the same quiet compl
 
 Recognizing the pattern does not dissolve incentive structures. It makes complicity legible. It also makes room for judgment that does not pretend metrics are enough. People stop experiencing private knowledge only as private failure. They begin to see unofficial labor and institutional deafness as a shared condition produced by design—not a personal defect cured by resilience training.
 
-### What This Book Does Not Offer
+### What Remains
 
-This book does not end with a checklist to fix healthcare, platforms, universities, firms, media, politics, or schools. Any such checklist would re-enter the logic this book describes: define what to reward, optimize, and enforce. Reform programs are not forbidden. They are simply not what this volume provides.
-
-What remains is diagnostic discipline: seeing substitution clearly enough to act with eyes open inside systems we still depend on. The book has followed one mechanism—how incentives become moral language when judgment stops coordinating action—across hospital corridors, feeds, manuscripts, targets, matrices, front pages, polls, and classrooms. Other books in the same arc examine interpretation, economy, and practice after certainty. This one stays with metrics, targets, and formulaic fairness as the surviving speech of institutions under pressure.
-
-Readers may already feel these fractures before they have names for them: care reduced to criteria, connection to engagement, inquiry to throughput, responsibility to targets, fairness to procedure, consequence to attention, legitimacy to polling, formation to scores. Naming the fracture does not remove the systems that produced it. It makes the fracture harder to mistake for personal weakness—and harder to mistake for the whole of moral life.
+No checklist follows. The work here has been diagnostic: to keep judgment distinguishable from the systems that translate it. Readers may already feel these fractures before they have names for them—care reduced to criteria, connection to engagement, inquiry to throughput, responsibility to targets, fairness to procedure, consequence to attention, legitimacy to polling, formation to scores. Naming the fracture does not remove the systems that produced it. It makes the fracture harder to mistake for personal weakness—and harder to mistake for the whole of moral life.
 
 ### The Work That Remains
 
@@ -64,6 +62,6 @@ The work is to keep them from pretending to be the same thing.
 
 That work is not dramatic. It happens in margin notes and hallway minutes. It happens when someone asks what a number cannot see before the room treats the number as complete. It happens when a leader tolerates an unfinished account without treating incompleteness as disloyalty. It happens when practitioners continue to do their jobs while refusing to let their jobs become their only moral vocabulary.
 
-No one lives outside the dashboard. The question is whether the dashboard becomes the only place we are allowed to look.
+No one lives outside these systems. The question is whether the metric becomes the only place we are allowed to look.
 
 Awareness is not control. It cannot dismantle incentive structures on its own. Keep the difference alive, and the whiteboard will still have blank space around the words.

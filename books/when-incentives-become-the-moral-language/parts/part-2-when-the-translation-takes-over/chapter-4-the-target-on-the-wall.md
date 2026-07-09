@@ -18,15 +18,11 @@ What the frame accepts is not everything the situation contains.
 
 She opens a tab showing Scope 3 estimates for the supply chain. The numbers are improving on paper because a vendor changed reporting methodology, not because anyone visited the factories where the change is supposed to have occurred. She has requested the visit. It is scheduled for next fiscal year. The target does not wait.
 
+The pattern is not abstract. When Volkswagen's diesel emissions scandal broke in 2015, investigators found that vehicles met laboratory testing protocols while emitting far more nitrogen oxides on the road—the compliance language and the physical harm had diverged for years.[^c4-vw] Corporate climate reporting faces a softer version of the same tension: boundaries shift, methodologies revise, and the curve on the poster can improve while local conditions do not.
+
 ### The Harm That Does Not Fit on the Poster
 
-Climate policy and corporate responsibility programs begin with a moral claim that is not difficult to articulate: limit damage to people and places that cannot absorb it. Drought disrupts specific farms and specific families. Storm surge floods specific neighborhoods. Unsafe working conditions injure specific workers. The harm is real even when the causal chain connecting corporate decisions to those outcomes runs through decades and continents.
-
-For a long time, institutional language tried to follow that chain. Governments negotiated emissions limits. Companies published environmental commitments. Advocates pushed firms on practices that extended beyond legal requirements. The language was contested, but it was legible. You could ask whether a commitment would actually reduce the harm it named, whether the parties bearing costs were the same ones most exposed to risk, and whether the timeline was honest.
-
-That kind of question-asking became harder to sustain as the coordination problem scaled. Climate harm does not map cleanly onto organizational boundaries, annual reporting cycles, or the jurisdictional reach of any single regulator. A factory that reduces its own emissions may shift production to a facility with weaker standards elsewhere. A net-zero pledge can be technically correct about operational carbon while leaving supply-chain emissions—often several times larger—unresolved in the same reporting period. An offset may represent reductions that are real, permanent, and additional to what would have happened anyway, or none of those things, depending on methodological choices that specialists argue about and auditors rarely verify on the ground.[^c4-world-bank][^c4-vcmi]
-
-This is not an argument that climate commitments are meaningless. It is an argument that moral responsibility under deep uncertainty is genuinely hard to own in institutional language. Causal chains are long. Benefits and costs are unevenly distributed across populations and time horizons. Uncertainty about physical outcomes is irreducible for decades. In that environment, saying *in my judgment, this path is the responsible one* creates exposure. The judgment can always be challenged on its assumptions. Saying *we met the target* shifts the argument to compliance.
+Climate policy begins with a moral claim that is not difficult to articulate: limit damage to people and places that cannot absorb it. For a long time, institutional language tried to follow that chain. As coordination scaled, saying *in my judgment, this path is the responsible one* created exposure. Saying *we met the target* shifts the argument to compliance.
 
 ### How the Target Became the Sentence
 
@@ -86,8 +82,6 @@ She could raise the question. She has raised versions of it before. She knows ho
 
 This does not make the executives villains. They are managing a firm inside capital markets, legal regimes, and public expectations that punish vagueness and reward measurable commitment. They are also, like the director, caught between seriousness and responsibility—between demonstrating engagement with the recognized language of obligation and owning outcomes that language cannot fully express.
 
-### The Return to the Lobby
-
 At the end of the quarter, the director submits the disclosure. The numbers align with the curve on the poster. Executives mention the progress in an earnings call. A rating agency notes improved disclosure quality. Someone orders a refreshed version of the lobby graphic because the old one photographed poorly in the new lighting.
 
 The target remains on the wall.
@@ -100,8 +94,9 @@ Action continues. Targets accumulate. Accountability for outcomes that cannot be
 
 **Meeting a Target Can Substitute for Owning the Harm the Target Was Meant to Reduce**
 
-Targets began as ways to make climate obligation legible across institutions that could not negotiate every tradeoff in public. They became, for many organizations, the practical definition of responsibility. The translation solves real coordination problems. It also teaches institutions to defend seriousness before they defend outcomes. The poster stays on the wall. The harm travels elsewhere.
+Targets made climate obligation legible across institutions that could not negotiate every tradeoff in public. They became, for many organizations, the practical definition of responsibility. The translation solves real coordination problems. It also teaches institutions to defend seriousness before they defend outcomes.
 
+[^c4-vw]: U.S. Environmental Protection Agency and California Air Resources Board, findings and settlement regarding Volkswagen diesel emissions (2015–2016); investigative reporting on defeat devices and laboratory-vs-road testing gaps.
 [^c4-paris]: United Nations Framework Convention on Climate Change, *Paris Agreement*, 2015; Science Based Targets initiative, corporate target-setting criteria and net-zero standard.
 [^c4-world-bank]: World Bank, *State and Trends of Carbon Pricing*, annual reports.
 [^c4-vcmi]: Voluntary Carbon Markets Integrity Initiative (VCMI) and Integrity Council for the Voluntary Carbon Market (ICVCM), guidance on offset claims and integrity.

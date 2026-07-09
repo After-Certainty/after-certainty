@@ -2,7 +2,7 @@
 
 **Date:** July 2026  
 **Book:** *When Incentives Become the Moral Language*  
-**Scope:** Rewrite manuscript only (15 units: introduction, interlude, Ch 1–12, epilogue)  
+**Scope:** Rewrite manuscript (15 units + 4 part bridges: introduction, interlude, Ch 1–12, epilogue)  
 **Automation:** [`tools/audit_citations.py`](../../../tools/audit_citations.py)
 
 ---
@@ -14,8 +14,8 @@
 | Pandoc footnote integrity | **Pass** — 0 missing definitions, 0 unused definitions (after interlude fix) |
 | Bibliography present in `index.md` | **Pass** |
 | Chicago `# **Bibliography**` heading | **Pass** |
-| Rewrite footnote count | **42** definitions, **40** unique IDs cited inline |
-| Bibliography entries (rewrite) | **38** source lines across 15 units |
+| Rewrite footnote count | **43** definitions (post revision pass) |
+| Bibliography entries (rewrite) | **39** source lines across 15 units + epilogue |
 
 **Tier:** C (compliant)
 
@@ -39,6 +39,15 @@
 | Ch 10 | 2 | Greenberg, NAM |
 | Ch 11 | 1 | Jameton, Rushton (combined note) |
 | Epilogue | 2 | Monmonier, Campbell |
+
+---
+
+### Revision pass (July 2026)
+
+- Introduction Campbell footnote removed with prose.
+- Ch 4: added `[^c4-vw]` (Volkswagen diesel compliance gap).
+- Ch 7: added `[^c7-aca]` (ACA public-option debate).
+- Bibliography: Introduction section removed; Ch 4/7 entries added.
 
 ---
 

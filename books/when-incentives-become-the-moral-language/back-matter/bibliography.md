@@ -1,9 +1,5 @@
 # **Bibliography**
 
-## Introduction
-
-Campbell, Donald T. "Assessing the Impact of Planned Social Change." *Evaluation and Program Planning* 2, no. 1 (1979): 85–87.
-
 ## Chapter 1
 
 American College of Emergency Physicians. "Boarding." Policy statement, updated 2023.
@@ -50,6 +46,8 @@ Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human C
 
 ## Chapter 4
 
+U.S. Environmental Protection Agency and California Air Resources Board. Findings and settlement regarding Volkswagen diesel emissions (2015–2016).
+
 European Financial Reporting Advisory Group (EFRAG). European Sustainability Reporting Standards (ESRS). 2023.
 
 International Sustainability Standards Board (ISSB). IFRS S1 General Requirements and S2 Climate-related Disclosures. 2023.
@@ -79,6 +77,8 @@ Pew Research Center. News consumption and trust surveys.
 Reuters Institute for the Study of Journalism. *Digital News Report*. Annual editions.
 
 ## Chapter 7
+
+Congressional Record. Debate on the Affordable Care Act and public-option provisions, 2009–2010.
 
 Federal Election Commission. Campaign finance disclosure data; OpenSecrets reporting on fundraising totals.
 

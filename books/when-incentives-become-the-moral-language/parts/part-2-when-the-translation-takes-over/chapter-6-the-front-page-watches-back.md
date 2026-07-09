@@ -38,15 +38,9 @@ Journalists sometimes speak as though the analytics dashboard arrived as an inva
 
 That arrangement had its own distortions. Advertisers exerted pressure. Owners influenced coverage. Wealthier communities attracted more attention because they attracted more customers. The old business model did not isolate journalism from incentives. It simply allowed those incentives to remain farther from each individual article.
 
-As advertising moved elsewhere and subscriptions declined, the distance collapsed.[^c6-reuters] The story itself was increasingly asked to demonstrate value. How many people opened it? How long did they stay? Did they register? Did they subscribe? Did they return? Did the story reach the kind of reader the publication hoped to retain?
+As advertising moved elsewhere and subscriptions declined, the distance collapsed.[^c6-reuters] Each story was increasingly asked to demonstrate value—opens, time on page, subscriptions, return visits.
 
-These are not foolish questions. A newsroom that does not know whether anyone reads its work may confuse indifference with integrity. Journalists cannot serve a public they consistently fail to reach. A beautifully reported investigation hidden behind an incomprehensible headline or delivered in a format no one can use has not completed its purpose merely because the reporting was good. Attention is part of communication.
-
-The problem begins when evidence of reception becomes the institution's most credible evidence of worth. A reporter can explain that a story will help residents understand how public money is being spent. An editor can argue that a subject will shape the city for years. A desk can insist that sustained coverage is necessary even when each individual article attracts modest traffic. These are judgments about consequence. The dashboard offers something easier to carry into the budget meeting.
-
-This story produced twelve subscriptions. This newsletter has a forty-two percent open rate. This topic retains readers. This format converts. The numbers do not need the people in the room to share a theory of journalism. They do not need agreement about democratic responsibility, proportionality, or the obligation to investigate institutions that would prefer to remain unnoticed. They travel. The editor can present them to executives, investors, donors, product teams, and advertisers who may disagree about nearly everything else. A metric survives the meeting more easily than an argument about what citizens ought to know.
-
-That does not make the metric false. It makes it powerful.
+These are not foolish questions. Attention is part of communication. The problem begins when evidence of reception becomes the institution's most credible evidence of worth. The analytics screen offers something easier to carry into the budget meeting than an argument about democratic consequence. The numbers travel. That does not make the metric false. It makes it powerful.
 
 ### The Story That Performs
 
@@ -60,15 +54,9 @@ The world contains conflict, but conflict is also one of the easiest forms of me
 
 ### A Headline Learns About Its Readers
 
-Before publication, the headline is an editorial judgment. After publication, it becomes an experiment. One version emphasizes the substance of the policy. Another emphasizes the political conflict surrounding it. The newsroom can observe which version draws more readers and use the stronger one.[^c6-pew]
+Before publication, the headline is an editorial judgment. After publication, it becomes an experiment—which version draws more readers, which emotion opens the door.[^c6-pew] The institution can learn clarity from the test. It can also learn that alarm, vindication, and offense travel faster than context.
 
-This can be understood as learning. Perhaps the original headline was obscure. Perhaps editors used institutional language that made sense only to people already following the subject. Perhaps a clearer headline allows more people to encounter reporting they genuinely need. But the experiment teaches more than clarity. It teaches which emotions open the door.
-
-Readers may click because they are curious. They may also click because they are alarmed, pleased, vindicated, offended, or eager to discover that someone they dislike has behaved exactly as expected. The dashboard sees the opening. It does not see the motive in a form precise enough to govern by. An article that makes readers angrier may produce more comments and longer sessions. A story that confirms identity may be shared as a signal of belonging. A misleadingly dramatic headline may attract people who leave feeling manipulated, but the first part of that interaction still appears as success.
-
-The institution can attempt to correct for this. It can track satisfaction surveys, returning readership, trust indicators, and subscription retention. It can penalize headlines that generate clicks without engagement. Each new measure improves part of the picture. None gives the newsroom direct access to the moral meaning of the encounter. The reader is not only a sequence of behaviors. The reader may finish an article and understand less, despite having remained on the page for six minutes. She may leave quickly because the first paragraph answered the question she brought. He may read every word of an investigation, feel grateful that someone did the work, and never click another article from the publication that month.
-
-A number can record the behavior. Judgment must still interpret what the behavior means. The more pressure placed on the number, the more tempting it becomes to treat interpretation as optional.
+The reader may finish an article and understand less, despite having remained on the page for six minutes. She may leave quickly because the first paragraph answered her question. A number can record the behavior. Judgment must still interpret what the behavior means. The more pressure placed on the number, the more tempting it becomes to treat interpretation as optional.
 
 ### Audience and Public
 
@@ -122,17 +110,11 @@ Editors also remember stories that received too much. A minor controversy extend
 
 This resembles the platform feed, but the moral position of the newsroom is different. The platform can describe itself as distributing what users engage with. The newsroom still claims to exercise judgment about proportion, verification, and public consequence. That claim creates tension.
 
-The editor knows that attention is not merely found. It is allocated. Placement, repetition, notification, framing, and follow-up all contribute to the behavior later presented as audience demand. The front page is not simply a mirror. It is a mirror with a hand. It reflects attention while arranging what attention can find.
-
-On a platform feed, the mirror has a memory. It remembers what held attention yesterday and rearranges the world before reflecting it back. The newsroom's mirror is different. It still claims the authority to choose—and the responsibility for what that choice teaches the public about what matters.
+The editor knows that attention is allocated—placement, repetition, notification, framing. The front page is a mirror with a hand: it reflects while arranging what attention can find. On a platform feed, the mirror has a memory; here the newsroom still claims the authority to choose—and the responsibility for what that choice teaches the public about what matters.
 
 ### When Relevance Becomes Circular
 
-News organizations often say they cover what their audiences care about. The phrase sounds democratic. It rejects the image of distant editors imposing priorities on people whose lives they do not understand. But the circle closes quickly. The newsroom promotes a story. The story receives attention. The attention demonstrates demand. The demand justifies more coverage. The additional coverage makes the subject more visible. Visibility produces further attention.
-
-At no point does the newsroom need to make an explicit claim that the story is the most important thing happening. The loop makes the claim operationally. What matters is what spreads. What spreads is what receives placement, follow-up, and distribution. What receives those things spreads again. The circle does not manufacture interest from nothing. It amplifies some interests from among many. The institution then reads the amplified result as a direct expression of the audience.
-
-This is how relevance can become self-referential. The system listens to a response partly shaped by the system and calls the response neutral information. The process is not unique to journalism. Schools teach toward tests and then use test performance to define educational success. Political campaigns shape messages through polls and then treat the resulting opinion as mandate. Platforms optimize feeds around engagement and then describe engagement as user preference. The measure enters the world it measures. Once there, it becomes difficult to separate signal from influence.
+Newsrooms often say they cover what audiences care about. The circle closes quickly: promote a story, measure attention, treat the response as demand, justify more coverage. The measure enters the world it measures—signal and influence become difficult to separate.
 
 ### The Story That Cannot Prove Itself in Advance
 
@@ -166,17 +148,15 @@ The reporter sits near the back, taking notes as officials debate the findings. 
 
 The article reached fewer people than the newsroom hoped. Perhaps its presentation failed. Perhaps readers had limited attention. Perhaps the subject seemed remote until the meeting made its consequences visible. The story's civic effect does not erase the need to reach readers. Its modest traffic does not erase the effect. Journalism lives between these accounts.
 
-It must attract attention without allowing attraction to become its definition of importance. It must listen to audiences without pretending that present behavior contains the whole public. It must correct editorial arrogance without surrendering editorial responsibility. The front page should watch back. But it should not merely obey what it sees.
+It must attract attention without allowing attraction to become its definition of importance. It must listen to audiences without pretending that present behavior contains the whole public. The front page should watch back without merely obeying what it sees.
 
-Elsewhere, in rooms with no windows and no homepage, the same temptation appears in a different dialect: present response mistaken for the whole meaning of legitimacy.
+Elsewhere, in rooms with no windows and no homepage, present response is mistaken for the whole meaning of legitimacy.
 
 ### Core Principle
 
 **Attention Is Evidence, Not Authority**
 
-Journalism needs audiences. A story unread cannot inform anyone, and editorial judgment insulated from public response can become narrow, arrogant, and blind. But what people click and what a public needs are not the same question. Attention measures response after a story has been offered. Importance requires judgment about consequence, proportion, and the people who may not yet know to look.
-
-When attention becomes the moral language of journalism, the newsroom no longer needs to say that what spreads matters most. The front page says it by moving. The work is not to stop watching the audience. It is to remember that the audience is not the whole public, the present is not the whole future, and the story that moves fastest is not always the story that should move us.
+Journalism needs audiences. When attention becomes the moral language of journalism, the front page says what matters by moving. The work is not to stop watching the audience. It is to remember that the audience is not the whole public, the present is not the whole future, and the story that moves fastest is not always the story that should move us.
 
 [^c6-reuters]: Reuters Institute for the Study of Journalism, *Digital News Report* (annual edition); see especially sections on advertising revenue, subscription models, and newsroom economics.
 [^c6-pew]: Pew Research Center, news consumption and audience measurement surveys; see journalism and media research on headline testing, digital engagement, and reader behavior.
