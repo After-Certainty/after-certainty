@@ -43,7 +43,7 @@ Working in manuscript order: rules, echo, editorial, citation, and linkage check
 | About the Series | revised | — | Phase 2 pass; pointer to reading-with-the-series |
 | Introduction — The Wrong Question | revised | ~2,140 | Phase 2 pass; staccato reflow at pivots; circulation retained |
 | Part I bridge | revised | ~75 | Phase 2 pass; expanded hinge from introduction |
-| Ch. 1 — The Table | revised | ~5,850 | Phase 2 complete; staccato reflow; citations [^t1-1]–[^t1-6] |
+| Ch. 1 — The Table | revised | ~6,040 | Phase 2 complete; staccato reflow; citations [^t1-1]–[^t1-6] |
 | Ch. 2 — Salt | draft | ~5,370 | Awaiting Phase 2 |
 | Ch. 3 — Victory | draft | ~4,830 | Awaiting Phase 2 |
 | Part II bridge | stub | ~30 | Awaiting Phase 2 |
