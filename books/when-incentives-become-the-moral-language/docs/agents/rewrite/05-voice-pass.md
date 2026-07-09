@@ -35,7 +35,7 @@ Ensure prose matches author's recent essayistic voice—flowing paragraphs, vari
 
 ### Cluster skim
 
-Quick read against reference Ch 1, Ch 6 (domain chapters), Ch 10 (Part IV), and *After Certainty* / *How Meaning Moves* for register drift.
+Quick read against reference Ch 1, Ch 2 and Ch 6 (domain chapters), Ch 10 (Part IV), and *After Certainty* / *How Meaning Moves* for register drift.
 
 ## DO NOT
 

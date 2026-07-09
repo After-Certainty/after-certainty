@@ -11,6 +11,7 @@ Essay edition (Phase 5) remains complete and exportable at current manuscript pa
 | Essay edition (~9–11k) | **Complete** (Phase 5, July 2026) |
 | Rewrite planning document | **Complete** — [`WHEN_INCENTIVES_REWRITE_PLAN.md`](WHEN_INCENTIVES_REWRITE_PLAN.md) |
 | Ch 1 reference draft | **Complete** — [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) |
+| Ch 2 reference draft | **Complete** — [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md) |
 | Ch 6 reference draft | **Complete** — [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md) |
 | Ch 10 reference draft | **Complete** — [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md) |
 | Author approval gates | **Pending** — [`author-approval-gates.md`](author-approval-gates.md) |

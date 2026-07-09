@@ -18,6 +18,7 @@
 
 **Voice north star:**  
 - Ch 1: [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md)  
+- Ch 2: [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md)  
 - Ch 6: [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md)  
 - Ch 10: [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md)  
 - Patterns: [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md)
@@ -360,13 +361,16 @@ flowchart LR
 
 ### Ch 2 — The Feed That Never Empties
 
-- **Current:** Ch 2 Engagement
-- **Object:** Endless scroll / feed after user forgot why they opened app
-- **Anchors:** Zuckerberg/Pichai testimony; WSJ Horwitz/Seetharaman; Haugen disclosures
-- **Preserve:** Mirror/deflection; moderator residue; distinction from healthcare concentration vs distributed gap
-- **New emphasis:** Feedback loop—signal shapes future behavior
-- **Principle:** What receives attention begins to look worthy of attention
-- **Target:** Room for scene-led craft (no fixed word count)
+- **Reference draft (author):** [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md) — **primary voice north star** for platforms domain
+- **Current essay edition:** Ch 2 Engagement as a Theory of Value
+- **Essential movement (preserve):** Engagement as useful information → distribution mechanism → theory of what deserves attention
+- **Ch 6 differentiation (preserve):** *Mirror with a memory* — feed remembers what held attention and rearranges before reflecting; newsroom uses *mirror with a hand*
+- **Action:** Integrate reference draft; add citations at pivots (Zuckerberg/Pichai testimony, Haugen disclosures, WSJ Horwitz/Seetharaman—per §11)
+- **Preserve from reference:** Opening message/feed bookend (*The pause becomes information*); empty-screen problem; signal enters environment it measures; connection as moral claim; engineer two graphs; moderator at edge; enough is not a category; creator learns feed; dispersed responsibility loops; Ch 1 hospital callback (one paragraph only)
+- **Preserve from essay edition:** Congressional testimony anchors; internal research on engagement-harm tradeoffs where claims align
+- **Do not:** Merge with Ch 6; anti-platform polemic; lose connection as genuine achievement
+- **Principle (earned):** What holds attention receives more attention (reference Core Principle)
+- **Target:** Room for scene-led craft (reference draft sets pacing)
 
 ### Ch 3 — The Paper That Must Count
 
@@ -787,6 +791,7 @@ See [`author-approval-gates.md`](author-approval-gates.md) for decisions requiri
 | [`drafting-process.md`](drafting-process.md) | Rewrite workflow |
 | [`agents/rewrite/README.md`](agents/rewrite/README.md) | New agent specs for essayistic rewrite |
 | [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) | Author reference — Ch 1; translation arc |
+| [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md) | Author reference — Ch 2; platforms / feed arc |
 | [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md) | Author reference — Ch 6; journalism / domain model |
 | [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md) | Author reference — Ch 10; human cost arc |
 | [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md) | Compositional patterns; Ch 2/6 distinction; bookends |

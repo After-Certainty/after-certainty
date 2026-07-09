@@ -64,12 +64,13 @@ Full mechanism naming belongs in **Ch 9** (*When the Proxy Becomes the Good*), n
 **North stars:**
 
 - Ch 1 (translation): [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md)
+- Ch 2 (platforms / feed): [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md)
 - Ch 6 (domain / journalism): [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md)
 - Ch 10 (human cost): [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md)
 
 Pattern notes: [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md)
 
-Domain chapters (Ch 2–8) should match Ch 1's scene-first movement and Ch 6's sustained thread. Part IV should match Ch 10's cross-domain human cost.
+Domain chapters (Ch 2–8) should match Ch 1's scene-first movement. Ch 2 and Ch 6 are paired domain models (platform feed vs newsroom front page)—keep *mirror with a memory* and *mirror with a hand* distinct. Part IV should match Ch 10's cross-domain human cost.
 
 ## Tone and positioning
 

@@ -3,6 +3,7 @@
 **Sources:**
 
 - Ch 1: [`chapter-1-the-bed-someone-else-needs.md`](chapter-1-the-bed-someone-else-needs.md)
+- Ch 2: [`chapter-2-the-feed-that-never-empties.md`](chapter-2-the-feed-that-never-empties.md)
 - Ch 6: [`chapter-6-the-front-page-watches-back.md`](chapter-6-the-front-page-watches-back.md)
 - Ch 10: [`chapter-10-the-hidden-subsidy.md`](chapter-10-the-hidden-subsidy.md)
 
@@ -28,11 +29,54 @@ Ch 1 preview of hidden subsidy should stay light. Ch 10 owns the concept. *Nine 
 | Ch 2 (platforms / feed) | Ch 6 (journalism / front page) |
 |---------------------------|--------------------------------|
 | Engagement governs **distribution at global scale** | Attention governs **survival** while newsroom **claims civic judgment** |
-| Platform: mirror / neutrality defense | Newsroom: **mirror with a hand** (allocates while reflecting) |
-| Billions of interactions; moderation at scale | Municipal investigation vs celebrity story; editor protection act |
-| Feedback loop shapes **what gets shown** | Feedback loop shapes **what gets commissioned and placed** |
+| **Mirror with a memory** — remembers what held attention, rearranges before reflecting | **Mirror with a hand** — allocates placement while reflecting |
+| Billions of interactions; responsibility **dispersed in loops** | Municipal investigation thread; **editor can protect** |
+| Feedback shapes **what gets shown and created** | Feedback shapes **commissioning and placement** |
+| Opening: user opens app for **message**, feed never ends | Opening: **8:12 homepage**, investigation moves down |
 
-Ch 6 reference explicitly contrasts platform feed in *What Editors Carry*—do not merge chapters in rewrite.
+Ch 2 reference uses *mirror with a memory*; Ch 6 uses *mirror with a hand*—do not merge vocabulary.
+
+Ch 2's brief hospital callback (*No Single Moment of Renunciation*) links to Ch 1 without re-arguing discharge—keep one paragraph only.
+
+---
+
+## Ch 2 — what this chapter does right
+
+### 1. Opens on intended task hijacked by feed
+
+Brother's dog message → pause on high-school photo → eleven minutes → feed never ends. **The pause becomes information**—mechanism shown before named.
+
+### 2. Central movement in prose, not scaffold
+
+Signal → distribution → theory of value: *A Signal Is Not Yet a Value*, *First Small Preference*, *Creator Learns the Feed*.
+
+### 3. Mirror with a memory
+
+Distinct from Ch 6's mirror with a hand. Feed remembers yesterday's attention to arrange today.
+
+### 4. Connection preserved as moral achievement
+
+*Connection Was a Moral Claim* — movements, witnesses, communities. Anti-platform polemic avoided.
+
+### 5. Engineer two graphs / moderator at edge
+
+Practitioner moral residue without villains. Institutional language gravitates to defensible metrics.
+
+### 6. Enough is not a category
+
+*Person the Metric Cannot Recognize* — grief, relief, worried investigation, satisfied departure.
+
+### 7. Returns to brother message
+
+*Return to the Message* — connection fulfilled briefly, then notification pulls back into feed. Bookend opening.
+
+### 8. Ch 1 link restrained
+
+Hospital discharge paragraph in *No Single Moment of Renunciation* — one contrast only.
+
+### 9. Core Principle
+
+What holds attention receives more attention — signal becomes evidence and reward.
 
 ---
 
@@ -88,14 +132,27 @@ Two-line principle plus short closing movement—not a summary inventory of the 
 
 ## Citation gaps (for Agent 04 on manuscript integration)
 
-Reference draft is prose-first. When moving into manuscript, add footnotes at pivots for:
+Reference drafts are prose-first. When moving into manuscript, add footnotes at pivots for:
+
+**Ch 1**
 
 - Hospital Readmissions Reduction Program
 - MS-DRG / diagnosis-related payment
 - Moral injury / clinician distress literature (optional at nurse section)
 - Boarding / capacity pressure (if specific claims added)
 
-Do not bolt citations into the reference draft unless author requests.
+**Ch 2**
+
+- Congressional testimony (Zuckerberg, Pichai — algorithmic ranking / engagement language)
+- Frances Haugen disclosures / internal Facebook research on engagement and harm
+- WSJ *Facebook Files* (Horwitz, Seetharaman) where specific claims added
+- Optional: documented recommender-system / filter-bubble literature at circular-relevance pivots
+
+**Ch 6, Ch 10**
+
+- See chapter briefs in [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../WHEN_INCENTIVES_REWRITE_PLAN.md) §5 and §11
+
+Do not bolt citations into reference drafts unless author requests.
 
 ---
 
