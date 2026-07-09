@@ -58,11 +58,7 @@ Then Jesus sits down with the wrong people.
 
 The act is easy to sentimentalize from a distance. Modern readers may imagine an effortlessly inclusive teacher welcoming everyone into a warm circle of acceptance. But inclusion always has a location. Someone believes the person being welcomed should have remained outside. Otherwise the welcome would not be remembered as significant.
 
-The scandal was not that Jesus believed kindness was good.
-
-It was that he behaved as though proximity to certain people did not contaminate his legitimacy.
-
-He allowed their presence to become part of it.
+The scandal was not that Jesus believed kindness was good. It was that he behaved as though proximity to certain people did not contaminate his legitimacy — that he allowed their presence to become part of it.
 
 ---
 
@@ -70,23 +66,17 @@ Tax collectors occupy a peculiar place in the gospel stories.
 
 They were not merely unpopular bureaucrats. Taxation under Roman rule involved systems through which imperial demands entered local life, often enriched intermediaries, and reminded subject populations that their labor supported a political order they did not control. A tax collector could be seen not only as greedy but as collaborating with domination.
 
-To eat with such a person was not simply to be open-minded.
-
-It could look like moral confusion.
+To eat with such a person was not simply to be open-minded; it could look like moral confusion.
 
 The question remains familiar. At what point does welcoming the person become normalizing the harm? When does relationship become complicity? Does the open table protect the vulnerable, or does it ask them to sit beside someone who has injured them before the injury has been repaired?
 
-These are not problems solved by saying everyone belongs.
-
-Belonging changes depending on who is required to absorb the discomfort.
+These are not problems solved by saying everyone belongs. Belonging changes depending on who is required to absorb the discomfort.
 
 The meal with Zacchaeus in Luke’s Gospel preserves this tension. Jesus enters the house of a wealthy chief tax collector while the crowd complains that he has become the guest of a sinner. Zacchaeus then promises substantial restitution and generosity toward the poor. The sequence matters. The welcome is not presented as indifference to what he has done. Relationship creates a setting in which his use of wealth becomes answerable.[^t1-2]
 
 Yet the story is too neat to become a general procedure. Not every harmful person responds to welcome by making restitution. Some enjoy the meal, accept forgiveness, and preserve the arrangement that made repentance necessary.
 
-A table can invite transformation.
-
-It cannot guarantee it.
+A table can invite transformation; it cannot guarantee it.
 
 Jesus’ leadership does not offer a mechanism through which proximity automatically becomes justice. It offers a posture in which the person is not reduced completely to the harm, while the harm is not treated as irrelevant to the relationship.
 
@@ -96,11 +86,7 @@ At scale, institutions usually choose one side.
 
 They establish rules that classify the person by conduct, or they declare a generous openness that leaves injured people wondering whether anyone noticed what happened. Mercy becomes irresponsible. Accountability becomes permanent exclusion.
 
-The meal holds both questions in one room.
-
-Who is this person beyond the worst thing associated with him?
-
-What must change before this table becomes honest?
+The meal holds both questions in one room: who is this person beyond the worst thing associated with him, and what must change before the table becomes honest?
 
 ---
 
@@ -112,11 +98,7 @@ The teaching is often heard as humility.
 
 It is also an analysis of networks.
 
-Meals reproduce relationships. A host invites people whose presence increases prestige, strengthens alliances, repays previous hospitality, or creates future obligation. Generosity circulates within a closed system and returns to the giver wearing the appearance of virtue.
-
-The gift is real.
-
-So is the return.
+Meals reproduce relationships. A host invites people whose presence increases prestige, strengthens alliances, repays previous hospitality, or creates future obligation. Generosity circulates within a closed system and returns to the giver wearing the appearance of virtue. The gift is real, and so is the return.
 
 Invite someone who cannot invite you back, Jesus says, and the architecture changes. Hospitality no longer functions as disguised investment. The table expands toward people whose presence may reduce status rather than increase it.
 
@@ -126,33 +108,17 @@ Leaders are always surrounded by people who can return something.
 
 Advisers provide loyalty. Donors provide money. Influential guests provide access. Admiring audiences provide confirmation that the leader remains important. Even service to the vulnerable can produce moral status, public gratitude, and the reassuring identity of being the person who helps.
 
-Jesus repeatedly directs attention toward the places from which recognition is least likely to return.
-
-The widow’s small offering matters more than impressive gifts.
-
-The overlooked child becomes the model for receiving the kingdom.
-
-The person performing humble service possesses a form of greatness the surrounding culture cannot easily measure.
-
-The Samaritan, member of a distrusted group, becomes the moral center of a story about neighborly responsibility.
+Jesus repeatedly directs attention toward the places from which recognition is least likely to return: the widow whose small offering matters more than impressive gifts; the overlooked child who becomes a model for receiving the kingdom; the person performing humble service who possesses a form of greatness the surrounding culture cannot easily measure; the Samaritan, member of a distrusted group, who becomes the moral center of a story about neighborly responsibility.
 
 These reversals are now so familiar that their instability has become difficult to recover. Institutions named after Jesus have had centuries to place the child, widow, servant, and stranger into stained glass without allowing them to rearrange authority.
 
-A symbol can honor the excluded while keeping them safely symbolic.
-
-The child remains in the painting.
-
-The adult remains in charge.
+A symbol can honor the excluded while keeping them safely symbolic. The child remains in the painting; the adult remains in charge.
 
 ---
 
 Jesus gathered disciples, which is already a statement about how his influence was meant to move.
 
-A teacher could attract admirers. A healer could attract petitioners. A preacher could draw crowds that returned whenever he spoke.
-
-A disciple was expected to learn a way of life.
-
-The word implies imitation, practice, misunderstanding, correction, and eventual responsibility. The disciple begins by following because someone else sees more clearly. The relationship matures only if the learner becomes capable of acting when the teacher is absent.
+A teacher could attract admirers, a healer petitioners, a preacher crowds that returned whenever he spoke. A disciple was expected to learn a way of life. The word implies imitation, practice, misunderstanding, correction, and eventual responsibility. The disciple begins by following because someone else sees more clearly. The relationship matures only if the learner becomes capable of acting when the teacher is absent.
 
 The gospel accounts do not present the disciples as an elite selected for obvious readiness. They misunderstand parables, compete for status, panic, fall asleep, argue about who is greatest, fail to heal, attempt to exclude people Jesus welcomes, and repeatedly interpret his mission through more familiar expectations of power.
 
@@ -184,9 +150,7 @@ The servant remains the most important person in the room because everyone knows
 
 Jesus’ deeper inversion is harder. He does not merely tell the powerful person to behave kindly from the same protected position. He places the legitimacy of leadership inside service itself.
 
-The person does not first become great and then serve.
-
-Service is the measure by which greatness is being redefined.
+The person does not first become great and then serve. Service is the measure by which greatness is being redefined.
 
 ---
 
@@ -196,15 +160,7 @@ In the Synoptic Gospels, the meal is connected to Passover and becomes the setti
 
 The differences matter historically and theologically. They remind us that the earliest communities did not preserve one neutral transcript. They preserved traditions shaped by worship, memory, argument, and the questions each community was trying to answer.
 
-Yet both forms of the meal point toward the same reversal.
-
-The person at the center gives himself away.
-
-Bread is broken.
-
-A cup is shared.
-
-The teacher kneels.
+Yet both forms of the meal point toward the same reversal: the person at the center gives himself away. Bread is broken, a cup is shared, the teacher kneels.
 
 Foot washing belonged to the work made necessary by roads, dust, sandals, and bodies entering a house. It was ordinary enough to be low-status and intimate enough to produce discomfort. In John’s account, Peter initially refuses to allow Jesus to wash him.
 
@@ -212,11 +168,7 @@ The resistance is revealing.
 
 People often prefer serving to being served when service preserves control. The giver chooses the gift, the timing, and the terms. Receiving places the self in another person’s hands.
 
-Peter appears unable to reconcile Jesus’ authority with the posture before him.
-
-A leader should not be there.
-
-That is precisely why Jesus goes there.
+Peter appears unable to reconcile Jesus’ authority with the posture before him. A leader should not be there — which is precisely why Jesus goes there.
 
 The washing is not only an act of kindness. It is instruction conducted through the body. If the disciples are to carry his leadership, they must understand what kind of authority they are carrying. The lesson cannot remain a sentence because sentences are easily admired without being practiced.
 
@@ -260,9 +212,7 @@ It is a meal.
 
 The disciples will carry the movement not because they demonstrated flawless readiness before receiving it. They will carry it through failure, grief, reinterpretation, conflict, and whatever they believe happened after the tomb.
 
-Their inadequacy does not make leadership impossible.
-
-It makes transformation necessary.
+Their inadequacy does not make leadership impossible; it makes transformation necessary.
 
 ---
 
@@ -286,15 +236,7 @@ Then something happens among them.
 
 The historical claims become inseparable from faith at this point. Christian tradition proclaims resurrection: Jesus did not remain dead, appeared to followers, and transformed the meaning of the crucifixion itself. People outside that faith interpret the accounts differently and may understand them through grief, vision, communal experience, theological construction, or historical uncertainty.
 
-What can be said without resolving the belief is that the followers came to act as though death had not invalidated the leadership they had received.
-
-The frightened group became public.
-
-The message traveled.
-
-Meals continued.
-
-The person was absent in one sense and present in another so consequential that communities formed around the claim across cities, languages, and social divisions.
+What can be said without resolving the belief is that the followers came to act as though death had not invalidated the leadership they had received. The frightened group became public. The message traveled. Meals continued. The person was absent in one sense and present in another so consequential that communities formed around the claim across cities, languages, and social divisions.
 
 Whether a reader sees resurrection as divine action or the foundational conviction of a religious movement, the leadership pattern is astonishing.
 
@@ -316,19 +258,7 @@ This is useful evidence.
 
 A movement that produces other leaders produces interpretation. Interpretation produces conflict.
 
-The first followers did not simply retrieve a complete institutional design left behind by Jesus. They had to decide what his example meant in situations he had not directly addressed, among people who had not walked the roads of Galilee, within cities governed by different customs and pressures.
-
-Could Gentiles belong without adopting the full practices of Jewish life?
-
-How should wealth be shared?
-
-Who could speak during worship?
-
-Which teachings carried authority?
-
-How should communities respond to exploitation, disorder, disagreement, or competing claims of revelation?
-
-Who leads after the leader?
+The first followers did not simply retrieve a complete institutional design left behind by Jesus. They had to decide what his example meant in situations he had not directly addressed, among people who had not walked the roads of Galilee, within cities governed by different customs and pressures. Could Gentiles belong without adopting the full practices of Jewish life? How should wealth be shared? Who could speak during worship? Which teachings carried authority? How should communities respond to exploitation, disorder, disagreement, or competing claims of revelation? Who leads after the leader?
 
 The New Testament itself preserves arguments about these questions. Peter, Paul, James, John, women who hosted and supported house churches, traveling teachers, elders, deacons, prophets, apostles, and local communities all appear inside emerging forms of leadership.
 
@@ -340,17 +270,7 @@ Leadership had circulated.
 
 So had disagreement.
 
-This is the price of multiplication. The leader who leaves behind only precise obedience may achieve temporary coherence. The leader whose influence enters other people’s judgment accepts that the result will not remain pure.
-
-The teaching will be translated.
-
-Practices will be adapted.
-
-Some followers will become more generous than the institutions around them.
-
-Others will use the sacred language to justify domination the teacher appears to have reversed.
-
-Enduring influence is not controlled influence.
+This is the price of multiplication. The leader who leaves behind only precise obedience may achieve temporary coherence. The leader whose influence enters other people’s judgment accepts that the result will not remain pure. The teaching will be translated; practices will be adapted. Some followers will become more generous than the institutions around them; others will use the sacred language to justify domination the teacher appears to have reversed. Enduring influence is not controlled influence.
 
 ---
 
@@ -366,13 +286,7 @@ A tradition can preserve the memory of women carrying the decisive message while
 
 This is not unique to Christianity. Movements often depend upon people during periods of danger and then become more formal once survival seems possible. Informal leadership flourishes because someone must act. Institutional authority later arrives and asks who is officially permitted to have acted.
 
-The table becomes an altar.
-
-The house becomes a church.
-
-The recurring meal becomes sacrament.
-
-The person who hosted, funded, taught, organized, and proclaimed may discover that legitimacy now flows through offices she cannot occupy.
+The table becomes an altar, the house a church, the recurring meal a sacrament. The person who hosted, funded, taught, organized, and proclaimed may discover that legitimacy now flows through offices she cannot occupy.
 
 Institutionalization is not merely betrayal. Communities require continuity, standards, memory, coordination, protection from abuse, and ways to decide what belongs within the tradition. Pure informality often conceals power rather than eliminating it.
 
@@ -400,19 +314,9 @@ This makes Jesus unlike Taylor Swift, Fred Rogers, or Václav Havel in one cruci
 
 Their personal legitimacy cannot become someone else’s through a sacred line of succession. People may imitate, remember, institutionalize, and reinterpret them, but no successor becomes authoritative by claiming a divinely protected continuity with their persons.
 
-Christian institutions made exactly such claims around Jesus.
+Christian institutions made exactly such claims around Jesus. The example became office, the meal ritual, the community church. This transformation allowed the movement to endure across centuries and continents with extraordinary coherence compared with movements that vanished after their founders. It also created conditions under which authority could outlive accountability. An officeholder could claim legitimacy derived from Christ while behaving in ways difficult to reconcile with the table, the towel, or the warning against domination.
 
-The example became office.
-
-The meal became ritual.
-
-The community became church.
-
-This transformation allowed the movement to endure across centuries and continents with extraordinary coherence compared with movements that vanished after their founders. It also created conditions under which authority could outlive accountability. An officeholder could claim legitimacy derived from Christ while behaving in ways difficult to reconcile with the table, the towel, or the warning against domination.
-
-Sacralized legitimacy can preserve memory.
-
-It can also shield contradiction.
+Sacralized legitimacy can preserve memory; it can also shield contradiction.
 
 A leader serves because Jesus served.
 
@@ -474,17 +378,7 @@ The table is among the practices that survived.
 
 Christians gathered to break bread in homes, churches, catacombs, chapels, basilicas, fields, prisons, monasteries, schoolrooms, and temporary shelters. The meal took different theological forms. In some traditions it became the literal body and blood of Christ; in others, a memorial, sign, mystery, covenant, or communal act.
 
-Arguments over the meal helped divide churches because the table carried the largest questions.
-
-Who is present?
-
-What happens here?
-
-Who may preside?
-
-Who may receive?
-
-What kind of community is being created through eating?
+Arguments over the meal helped divide churches because the table carried the largest questions: who is present, what happens here, who may preside, who may receive, and what kind of community is being created through eating.
 
 The practice endures partly because it cannot become entirely abstract. Bread must be held. A cup must move. Bodies come forward or remain seated. Someone gives. Someone receives.
 
@@ -526,11 +420,7 @@ The response attributed to Jesus is unsettlingly direct.
 
 The disciples have already calculated inadequacy. They do not have enough money, food, or organizational capacity for the scale in front of them. The instruction sounds impossible because it refuses the logic through which the need is made someone else’s problem.
 
-The miracle, as believers understand it, belongs to Jesus.
-
-The distribution belongs to the disciples.
-
-They receive what they cannot explain and carry it into the crowd. The people sit in groups. Food passes through many hands. The event is not performed entirely from the center.
+The miracle, as believers understand it, belongs to Jesus; the distribution belongs to the disciples. They receive what they cannot explain and carry it into the crowd. The people sit in groups. Food passes through many hands. The event is not performed entirely from the center.
 
 Even a miracle requires coordination.
 
@@ -542,21 +432,13 @@ Jesus repeatedly resists being reduced to provider of spectacle or material abun
 
 This is the difference between charity that reinforces the center and generosity that increases agency.
 
-The rare leader does not merely feed people.
-
-He makes the disciples responsible for the baskets.
+The rare leader does not merely feed people. He makes the disciples responsible for the baskets.
 
 ---
 
 The stories also preserve moments when Jesus refuses ordinary accumulation.
 
-Crowds gather, and he withdraws.
-
-People seek signs, and he declines to perform on demand.
-
-Followers want him to seize political kingship, and he evades the role.
-
-A wealthy man asks what remains to be done, and Jesus names a relinquishment more severe than admiration had anticipated.
+Crowds gather and he withdraws. People seek signs and he declines to perform on demand. Followers want him to seize political kingship and he evades the role. A wealthy man asks what remains to be done, and Jesus names a relinquishment more severe than admiration had anticipated.
 
 These refusals complicate effectiveness.
 
@@ -588,37 +470,7 @@ They must interpret the memory.
 
 The gospels themselves are products of this condition. Communities gathered traditions, arranged stories, emphasized themes, and wrote for readers facing circumstances different from those of the original listeners. The texts preserve Jesus’ influence and demonstrate that preservation already involves interpretation.
 
-There is no unmediated access to the table.
-
-Someone remembered.
-
-Someone told.
-
-Someone translated.
-
-Someone wrote.
-
-Someone copied.
-
-Someone selected these writings as authoritative.
-
-Someone carried them across a border.
-
-Someone read them aloud to people who could not read.
-
-The movement survived through countless acts of secondary leadership, most of them anonymous.
-
-The famous apostles matter.
-
-So does the person who prepared the room.
-
-The person who hosted the travelers.
-
-The person who protected the manuscript.
-
-The person who explained the story to a child.
-
-The person who noticed that the community’s practice had drifted away from the life it claimed to follow.
+There is no unmediated access to the table. Someone remembered, told, translated, wrote, copied, selected these writings as authoritative, carried them across a border, read them aloud to people who could not read. The movement survived through countless acts of secondary leadership, most of them anonymous. The famous apostles matter, and so does the person who prepared the room, hosted the travelers, protected the manuscript, explained the story to a child, or noticed that the community’s practice had drifted away from the life it claimed to follow.
 
 Enduring influence leaves work for people whose names will not endure.
 
