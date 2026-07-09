@@ -88,4 +88,4 @@ Workforce formulas began as ways to make fairness legible across organizations t
 
 [^c5-cappelli]: Peter Cappelli and Anna Tavis, "The Performance Management Revolution," *Harvard Business Review*, October 2016.
 [^c5-warn]: U.S. Worker Adjustment and Retraining Notification (WARN) Act; representative workforce reduction disclosures in SEC filings.
-[^c5-greenberg]: Jerald Greenberg, "Organizational Justice: Yesterday, Today, and Tomorrow," *Journal of Management* 16, no. 2 (1990): 399-432.
+[^c5-greenberg]: Jerald Greenberg, "Organizational Justice: Yesterday, Today, and Tomorrow," *Journal of Management* 16, no. 2 (1990): 399–432.

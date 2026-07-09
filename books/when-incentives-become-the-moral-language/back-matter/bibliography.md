@@ -50,6 +50,8 @@ Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human C
 
 ## Chapter 4
 
+European Financial Reporting Advisory Group (EFRAG). European Sustainability Reporting Standards (ESRS). 2023.
+
 International Sustainability Standards Board (ISSB). IFRS S1 General Requirements and S2 Climate-related Disclosures. 2023.
 
 Science Based Targets initiative. Corporate target-setting criteria and net-zero standard.
@@ -110,7 +112,7 @@ National Academy of Medicine. *Taking Action Against Clinician Burnout: A System
 
 ## Chapter 11
 
-Jameton, Andrew. "Nursing Practice: The Ethical Issues." In *Clinical Medical Ethics*, edited by H. Tristram Englehardt Jr. Englewood Cliffs, NJ: Prentice-Hall, 1982.
+Jameton, Andrew. "Nursing Practice: The Ethical Issues." In *Clinical Medical Ethics*, edited by H. Tristram Engelhardt Jr. Englewood Cliffs, NJ: Prentice-Hall, 1982.
 
 Rushton, Cynda Hylton. "Moral Distress and Moral Resilience." *American Journal of Nursing* 116, no. 7 (2016): 34–39.
 
@@ -119,11 +121,3 @@ Rushton, Cynda Hylton. "Moral Distress and Moral Resilience." *American Journal 
 Campbell, Donald T. "Assessing the Impact of Planned Social Change." *Evaluation and Program Planning* 2, no. 1 (1979): 85–87.
 
 Monmonier, Mark. *How to Lie with Maps*. 3rd ed. Chicago: University of Chicago Press, 2018.
-
-## Essay edition (remaining chapters)
-
-Centers for Medicare & Medicaid Services. Hospital Readmissions Reduction Program (HRRP). Program overview and statutory authority. Updated 2023.
-
-United Nations Framework Convention on Climate Change. *Paris Agreement*. 2015.
-
-World Bank. *State and Trends of Carbon Pricing*. Annual reports.

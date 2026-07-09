@@ -6,9 +6,9 @@ She unfolds the map on the hood of the car.
 
 The road ahead crosses three states, two mountain ranges, and a stretch of desert where her phone has already lost signal twice. The map shows none of the particulars that will matter when she is tired: the gas station that closes early, the pass where snow lingers into late spring, the diner where the coffee is drinkable and the bathroom is not. It shows highways in confident colors, distances in neat numerals, and towns reduced to dots large enough to suggest civilization without promising it.
 
-The map is not wrong. It is not trying to deceive her. It is doing what maps must do to be usable. It simplifies. It omits. It compresses a world too large to carry into a surface small enough to fold. If she mistakes the map for the territory—if she forgets that every simplification leaves something out—she will blame the road when the road was never obliged to match the page.
+The map is not wrong. It is not trying to deceive her. It is doing what maps must do to be usable. It simplifies. It omits. It compresses a world too large to carry into a surface small enough to fold.[^int-monmonier] If she mistakes the map for the territory—if she forgets that every simplification leaves something out—she will blame the road when the road was never obliged to match the page.
 
-Institutions live inside maps like this.
+Institutions live inside maps like this—and, like states and firms, they often build their maps by making complex human life legible enough to govern.[^int-scott]
 
 The first three chapters of this book have followed translation in three domains: a hospital whiteboard that turns readiness into an expected discharge date; a feed that turns attention into a theory of what deserves to be shown; a journal shelf that turns inquiry into a publication record others can compare. In each case, the map solved a real problem. Without it, coordination would fail, patterns would stay hidden, and decisions would depend on stories no outsider could audit. The hospital could not run on intuition alone. The platform could not sort billions of posts by hand. The university could not read every scholar's work before granting tenure.
 

@@ -86,4 +86,4 @@ Seeing that deafness does not repair it. The question that remains is how to liv
 
 When moral knowledge cannot enter an institution in its own form, it returns as the metrics the institution already knows how to count. The translation allows action. It also trains the institution to hear distress as engagement, distrust as retention risk, alienation as polling movement, poor formation as test performance, quality failures as readmission data, and loss of meaning as productivity decline. The dashboard may improve. The deafness may deepen. Both can be true at once.
 
-[^c11-jameton]: Andrew Jameton, "Nursing Practice: The Ethical Issues," *Englehardt*, ed., *Clinical Medical Ethics* (Englewood Cliffs, NJ: Prentice-Hall, 1982); see also Cynda Hylton Rushton, "Moral Distress and Moral Resilience," *American Journal of Nursing* 116, no. 7 (2016): 34–39.
+[^c11-jameton]: Andrew Jameton, "Nursing Practice: The Ethical Issues," in *Clinical Medical Ethics*, edited by H. Tristram Engelhardt Jr. (Englewood Cliffs, NJ: Prentice-Hall, 1982); see also Cynda Hylton Rushton, "Moral Distress and Moral Resilience," *American Journal of Nursing* 116, no. 7 (2016): 34–39.
