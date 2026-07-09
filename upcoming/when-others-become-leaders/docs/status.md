@@ -29,7 +29,7 @@
 | Manuscript structure scaffold | complete | Front matter, three parts, chapter files, epilogue, bibliography created |
 | Sample chapters integrated | in_progress | Chapters 3, 5, 6, 7, 8, 9 promoted to manuscript files |
 | Citation seeding | in_progress | Initial chapter notes added; full source packets still required |
-| Stub chapters | complete | Chapters 1, 2, 4 + epilogue scaffolded pending full samples |
+| Cover + OG assets | complete | `book-cover.png`, `open-graph.png`, `book.yml`, `open-graph.config.yml` |
 | Open questions register | active | Deliberate unresolved decisions preserved |
 
 ## Next actions

@@ -1,5 +1,9 @@
-# When Others Become Leaders
+![Cover](book-cover.png){ width=100% }
 
-## What Enduring Influence Leaves Behind
+\newpage
 
-By Kevin Steffey
+# **When Others Become Leaders**
+
+## **What Enduring Influence Leaves Behind**
+
+**Kevin Steffensen**
