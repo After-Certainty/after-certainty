@@ -236,6 +236,8 @@ They begin moving chairs. They organize meetings the founder did not propose. Th
 
 They invite people the original hosts did not know.
 
+That transition can look ungrateful from the founder’s side. A guest who moves furniture alters more than layout; she suggests the host’s original arrangement was incomplete. Correction can be received as presumption. The guest becomes a participant precisely when she risks being mistaken for someone who forgot who opened the door.
+
 Eventually, they acquire the confidence to say that the house itself must change.
 
 ---

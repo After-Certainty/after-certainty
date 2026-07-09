@@ -408,6 +408,8 @@ A woman who printed the leaflet becomes the person everyone calls when the plan 
 
 A worker who once waited for the famous leader decides that the next action cannot wait.
 
+That decision carries its own risk. Local organizers who moved before King arrived could be treated as impatient; those who continued after his death could be accused of exploiting grief or diluting his message. Continuing the work sometimes required resisting the simplified memory of King as much as preserving it.
+
 The leader may still be visible at the front.
 
 The movement’s future is forming elsewhere.

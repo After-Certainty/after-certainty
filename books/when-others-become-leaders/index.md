@@ -7,9 +7,8 @@
 ## Front Matter
 
 - [Title Page](front-matter/title-page.md)
-- [What This Book Is](front-matter/what-this-book-is.md)
+- [Copyright](front-matter/copyright.md)
 - [Reading With the Series](front-matter/reading-with-the-series.md)
-- [About the Series](front-matter/about-the-series.md)
 - [Introduction — The Wrong Question](front-matter/introduction-the-wrong-question.md)
 
 ## Part I — How Influence Begins
@@ -36,12 +35,5 @@
 ## Back Matter
 
 - [Epilogue — The Empty Chair](back-matter/epilogue-the-empty-chair.md)
+- [About the Series](back-matter/about-the-series.md)
 - [Bibliography](back-matter/bibliography.md)
-
-## Related books
-
-[Series guide](../../../docs/series-guide.md) · Formation cluster · Pair with [*When Others Look To You* (v1)](../when-others-look-to-you/v1/index.md)
-
-## Planning docs
-
-- [Docs hub](docs/README.md)

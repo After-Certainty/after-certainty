@@ -60,7 +60,9 @@ Jesus taught in villages under Roman rule and became the center of a faith whose
 
 Martin Luther King Jr. became the most recognizable voice of a movement built by people whose names history remembers less easily. Wangari Maathai began with women describing firewood, water, and soil, then watched the work of planting trees become a language for political agency. Václav Havel saw how systems are sustained by ordinary performances of belief, and how refusing one expected performance might return responsibility to the person performing it.
 
-Jane Addams built a house whose deepest purpose was not to dispense help but to allow people separated by class, language, knowledge, and power to become consequential to one another. Fred Rogers used a medium designed for mass attention to offer children the strange experience of being addressed as though their inner lives deserved time. Taylor Swift stands closest to us, still too present to be judged as history, surrounded by a culture in which bracelets, gifts, recognition, loyalty, cruelty, generosity, and initiative move through people she cannot fully direct.[^i1]
+Jane Addams built a house whose deepest purpose was not to dispense help but to allow people separated by class, language, knowledge, and power to become consequential to one another. Fred Rogers used a medium designed for mass attention to offer children the strange experience of being addressed as though their inner lives deserved time. Taylor Swift stands closest to us, still too present to be judged as history, surrounded by a culture in which bracelets, gifts, recognition, loyalty, cruelty, generosity, and initiative move through people she cannot fully direct.
+
+The comparison is not between their moral stature, historical consequence, sacrifice, or claims upon belief. It is between the different ways attention gathered around them and what other people became capable of doing afterward.
 
 These figures are not morally equivalent. Their sacrifices were not equal. Their causes do not carry the same historical weight, and their limitations cannot be softened merely because each life illuminates something useful.
 
@@ -175,7 +177,3 @@ This book looks for the moment those people begin turning toward one another.
 That may be where leadership finally becomes enduring.
 
 It may also be where leadership, in its rarest form, ceases to belong to the leader.
-
-## Notes
-
-[^i1]: Chapter-level source packets and claim ledger: [`docs/research/`](../docs/research/README.md). Major pivots are footnoted in each chapter; interpretive synthesis in the introduction is intentionally unfootnoted.

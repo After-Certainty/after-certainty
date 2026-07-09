@@ -468,7 +468,7 @@ Afterward, they cannot.
 
 They must interpret the memory.
 
-The gospels themselves are products of this condition. Communities gathered traditions, arranged stories, emphasized themes, and wrote for readers facing circumstances different from those of the original listeners. The texts preserve Jesus’ influence and demonstrate that preservation already involves interpretation.
+The gospels themselves are products of this condition. Communities gathered traditions, arranged stories, emphasized themes, and wrote for readers facing circumstances different from those of the original listeners. Gentile inclusion, women’s leadership, house churches, and competing readings of fidelity all required people to act without the teacher who could settle the next argument. Interpretation was also dangerous: a community could treat any change as disloyalty to the remembered teacher. The first disciples were not only carrying forward what Jesus had done; they were deciding what fidelity meant when he could no longer answer. The texts preserve Jesus’ influence and demonstrate that preservation already involves interpretation.
 
 There is no unmediated access to the table. Someone remembered, told, translated, wrote, copied, selected these writings as authoritative, carried them across a border, read them aloud to people who could not read. The movement survived through countless acts of secondary leadership, most of them anonymous. The famous apostles matter, and so does the person who prepared the room, hosted the travelers, protected the manuscript, explained the story to a child, or noticed that the community’s practice had drifted away from the life it claimed to follow.
 

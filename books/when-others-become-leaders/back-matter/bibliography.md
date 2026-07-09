@@ -57,9 +57,11 @@ Sources cited in the manuscript and research packets. See [`docs/bibliography-gu
 
 ## Journalism and contemporary reporting
 
-- Associated Press. Reporting on Taylor Swift Eras Tour food-bank donations. 2023.
-- CNN; *People*; *The New York Times*. Reporting on Eras Tour crew bonus distributions. 2023.
-- Pollstar. Year-end touring reports on the Eras Tour. 2023–2024.
+- Associated Press. “Taylor Swift Donates to Food Banks on Eras Tour, Providing Thousands of Meals.” August 2023.
+- Melas, Chloe. “Taylor Swift Gave Eras Tour Crew $197 Million in Bonuses (Exclusive).” *People*, December 9, 2024. https://people.com/taylor-swift-gave-eras-tour-crew-usd197-million-in-bonuses-exclusive-8758216.
+- Melas, Chloe. “Taylor Swift Gives ‘Life-Changing’ $100,000 Bonuses to Eras Tour Truck Drivers.” CNN Business, August 2, 2023. https://www.cnn.com/2023/08/02/business/taylor-swift-100000-life-changing-bonus-truck-crew.
+- Pollstar. “Year-End Special Features: Top Tours.” December 2023.
+- Sisario, Ben. “Taylor Swift’s Eras Tour Is the First to Surpass $2 Billion.” *The New York Times*, December 9, 2024. https://www.nytimes.com/2024/12/09/arts/music/taylor-swift-eras-tour-2-billion.html.
 
 ## Scripture (cited in Chapter 1)
 

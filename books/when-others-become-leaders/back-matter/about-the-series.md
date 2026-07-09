@@ -1,4 +1,4 @@
-# **About the Series**
+# About the Series
 
 The books in the After Certainty series explore a recurring problem: human beings create systems to coordinate meaning, authority, responsibility, and collective action. Those systems solve real problems—they create stability where there was uncertainty, continuity where there was fragmentation, and cooperation where none was previously possible.
 
@@ -7,5 +7,3 @@ Over time, however, the same mechanisms that make coordination possible create n
 The books in this series examine those tensions from different angles. Each book stands alone. Together they form a single investigation into judgment, legitimacy, and responsibility under conditions of scale and uncertainty.
 
 For the full catalog, reading guides, and related work, visit [www.after-certainty.com](https://www.after-certainty.com).
-
-For how *When Others Become Leaders* fits this series — especially its relationship to [*When Others Look To You*](reading-with-the-series.md) — see [Reading With the Series](reading-with-the-series.md).

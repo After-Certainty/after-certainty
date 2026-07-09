@@ -14,21 +14,7 @@ This is one of the stranger functions of language. A sentence can continue perfo
 
 The sign says less through what it declares than through the fact that someone agreed to hang it.
 
-Children discover this kind of language early. They learn that adults sometimes ask questions whose answers have already been decided.
-
-Did you have a good time?
-
-A nod is expected.
-
-Aren’t you grateful?
-
-The correct answer is contained in the question.
-
-Do you understand?
-
-Understanding may matter less than allowing the conversation to end.
-
-The child learns that language is not always an exchange of meaning. Sometimes it is a small ceremony of belonging. The adult offers the expected phrase, and the child returns it. Both are released from the discomfort of discovering what the other person actually thinks.
+Children discover this kind of language early. They learn that adults sometimes ask questions whose answers have already been decided — *Did you have a good time?* (a nod is expected), *Aren’t you grateful?* (the correct answer is contained in the question), *Do you understand?* (understanding may matter less than allowing the conversation to end). The child learns that language is not always an exchange of meaning. Sometimes it is a small ceremony of belonging. The adult offers the expected phrase, and the child returns it. Both are released from the discomfort of discovering what the other person actually thinks.
 
 Most of these performances are harmless. Civilization would be exhausting if every greeting required full disclosure and every polite response became a referendum on truth. We say we are fine because the cashier is not responsible for carrying our grief. We compliment the meal because affection matters more than culinary precision. Social life depends upon tact, restraint, and the merciful decision not to say everything.
 

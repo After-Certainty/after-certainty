@@ -236,6 +236,8 @@ But institutional legitimacy can be strengthened when the example-based leader a
 
 By leaving, Mandela did not give Mbeki his moral authority; he gave the presidency a chance to become more than Mandela.
 
+Mbeki inherited the office but not the expectation no ordinary successor could satisfy. Voters and rivals alike had learned to treat Mandela as the country’s moral guarantor. The successor’s decisions—economic policy, party discipline, responses to criticism—could be measured against a founder who no longer had to govern. That is a particular friction: responsibility without the founder’s credibility, and the fear that any adaptation will look like betrayal of the person who made succession possible.
+
 ---
 
 The story of reconciliation is often told as though Mandela forgave South Africa.
