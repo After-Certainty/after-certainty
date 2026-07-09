@@ -21,6 +21,7 @@ Replace essay-edition scaffold prose with **scene-first essayistic** chapters. E
 - [`reference/chapter-2-the-feed-that-never-empties.md`](../../reference/chapter-2-the-feed-that-never-empties.md) — Ch 2; platforms / feed opening pattern
 - [`reference/chapter-6-the-front-page-watches-back.md`](../../reference/chapter-6-the-front-page-watches-back.md) — Ch 6; sustained domain chapter pattern
 - [`reference/chapter-10-the-hidden-subsidy.md`](../../reference/chapter-10-the-hidden-subsidy.md) — Ch 10; Part IV human cost
+- [`reference/epilogue-the-blank-column.md`](../../reference/epilogue-the-blank-column.md) — Epilogue; Ch 1 whiteboard bookend
 - [`reference/VOICE-NOTES.md`](../../reference/VOICE-NOTES.md) — compositional patterns
 - [`book-rules.md`](../../book-rules.md) — invisible craft scaffold
 - [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../../WHEN_INCENTIVES_REWRITE_PLAN.md) §7 (anchors), §12 (preserve), §13 (cut)

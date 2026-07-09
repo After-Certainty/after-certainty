@@ -14,6 +14,7 @@ Essay edition (Phase 5) remains complete and exportable at current manuscript pa
 | Ch 2 reference draft | **Complete** — [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md) |
 | Ch 6 reference draft | **Complete** — [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md) |
 | Ch 10 reference draft | **Complete** — [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md) |
+| Epilogue reference draft | **Complete** — [`reference/epilogue-the-blank-column.md`](reference/epilogue-the-blank-column.md) |
 | Author approval gates | **Pending** — [`author-approval-gates.md`](author-approval-gates.md) |
 | Chapter rewrites | **Not started** |
 

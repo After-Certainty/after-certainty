@@ -21,6 +21,7 @@
 - Ch 2: [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md)  
 - Ch 6: [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md)  
 - Ch 10: [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md)  
+- Epilogue: [`reference/epilogue-the-blank-column.md`](reference/epilogue-the-blank-column.md)  
 - Patterns: [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md)
 
 ---
@@ -482,11 +483,15 @@ flowchart LR
 - **Cut:** Eight-domain inventory recap; three-pattern numbered list (moved to Ch 9)
 - **Target:** Room for scene-led craft (no fixed word count)
 
-### Epilogue — The Blank Column (NEW)
+### Epilogue — The Blank Column
 
-- **Return:** Hospital whiteboard or institutional surface
-- **Show:** Fields for recorded knowledge vs blank space for fear, uncertainty, another patient's need
-- **Target:** Room for scene-led craft (no fixed word count)
+- **Reference draft (author):** [`reference/epilogue-the-blank-column.md`](reference/epilogue-the-blank-column.md) — **primary voice north star** for book closing
+- **Action:** Integrate reference draft; ensure Ch 12 does not duplicate epilogue closing (*signal vs whole*, blank column concept)
+- **Bookend (preserve):** Returns to Ch 1 whiteboard—cleaned, blank, next patient; chair beside window
+- **Preserve from reference:** Absent fields (daughter, nurse unease, patient waiting for bed); *What a Column Does*; cross-domain absent-column pairs; comfort of completion; what people remember; institution after everyone leaves; sincere drift; *The Return*; closing—keep blank visible, every measure is translation
+- **Do not:** Reform checklist; eight-domain inventory recap; anti-metric polemic; merge with Ch 12 orientation section
+- **Principle (earned):** Every measure is a translation; every translation leaves something behind
+- **Target:** Room for scene-led craft (reference draft sets pacing)
 
 ---
 
@@ -794,4 +799,5 @@ See [`author-approval-gates.md`](author-approval-gates.md) for decisions requiri
 | [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md) | Author reference — Ch 2; platforms / feed arc |
 | [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md) | Author reference — Ch 6; journalism / domain model |
 | [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md) | Author reference — Ch 10; human cost arc |
-| [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md) | Compositional patterns; Ch 2/6 distinction; bookends |
+| [`reference/epilogue-the-blank-column.md`](reference/epilogue-the-blank-column.md) | Author reference — epilogue; blank column / Ch 1 bookend |
+| [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md) | Compositional patterns; Ch 1/epilogue bookend; Ch 2/6 distinction |

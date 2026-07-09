@@ -8,6 +8,7 @@
 [`reference/chapter-2-the-feed-that-never-empties.md`](../../reference/chapter-2-the-feed-that-never-empties.md) (Ch 2 / platforms) ·  
 [`reference/chapter-6-the-front-page-watches-back.md`](../../reference/chapter-6-the-front-page-watches-back.md) (Ch 6 / journalism) ·  
 [`reference/chapter-10-the-hidden-subsidy.md`](../../reference/chapter-10-the-hidden-subsidy.md) (Ch 10) ·  
+[`reference/epilogue-the-blank-column.md`](../../reference/epilogue-the-blank-column.md) (Epilogue) ·  
 [`reference/VOICE-NOTES.md`](../../reference/VOICE-NOTES.md)
 
 ---

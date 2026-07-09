@@ -67,10 +67,11 @@ Full mechanism naming belongs in **Ch 9** (*When the Proxy Becomes the Good*), n
 - Ch 2 (platforms / feed): [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md)
 - Ch 6 (domain / journalism): [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md)
 - Ch 10 (human cost): [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md)
+- Epilogue (closing): [`reference/epilogue-the-blank-column.md`](reference/epilogue-the-blank-column.md)
 
 Pattern notes: [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md)
 
-Domain chapters (Ch 2–8) should match Ch 1's scene-first movement. Ch 2 and Ch 6 are paired domain models (platform feed vs newsroom front page)—keep *mirror with a memory* and *mirror with a hand* distinct. Part IV should match Ch 10's cross-domain human cost.
+Domain chapters (Ch 2–8) should match Ch 1's scene-first movement. Ch 2 and Ch 6 are paired domain models (platform feed vs newsroom front page)—keep *mirror with a memory* and *mirror with a hand* distinct. Part IV should match Ch 10's cross-domain human cost. Epilogue bookends Ch 1 whiteboard; Ch 12 offers orientation without duplicating epilogue close.
 
 ## Tone and positioning
 

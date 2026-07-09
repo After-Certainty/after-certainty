@@ -6,6 +6,7 @@
 - Ch 2: [`chapter-2-the-feed-that-never-empties.md`](chapter-2-the-feed-that-never-empties.md)
 - Ch 6: [`chapter-6-the-front-page-watches-back.md`](chapter-6-the-front-page-watches-back.md)
 - Ch 10: [`chapter-10-the-hidden-subsidy.md`](chapter-10-the-hidden-subsidy.md)
+- Epilogue: [`epilogue-the-blank-column.md`](epilogue-the-blank-column.md)
 
 Use these patterns when rewriting other chapters. Do not copy surface moves (short-line stacks) mechanically—match the **logic of movement**.
 
@@ -21,6 +22,17 @@ Use these patterns when rewriting other chapters. Do not copy surface moves (sho
 | Dashboard innocence | Dashboard receives credit for subsidized success |
 
 Ch 1 preview of hidden subsidy should stay light. Ch 10 owns the concept. *Nine Minutes* closing returns to Ch 1's nurse without re-arguing discharge mechanics.
+
+## Bookends: Ch 1 and Epilogue
+
+| Ch 1 | Epilogue |
+|------|----------|
+| Whiteboard date written before anyone speaks | Whiteboard cleaned; blank; then next name |
+| Daughter asks readiness; no field for it | Lists absent fields (daughter, nurse unease, patient waiting for bed) |
+| Criteria language closes the conversation | *Comfort of Completion* — metrics allow decision to end |
+| Erases date at close | Returns to occupied room; board not wrong but leaves space around words |
+
+Epilogue earns *blank column* as book's closing concept. Ch 12 (*Keeping the Difference Alive*) offers orientation; do not pre-empt epilogue's closing distinction in Ch 12 integration.
 
 ---
 
@@ -220,7 +232,43 @@ Credit to process when subsidy succeeds; blame to person when subsidy fails.
 - Part IV may be slightly more conceptual than domain chapters—but each section should still **enter through work** (time on a clock, spreadsheet before conversation, standards list)
 - Avoid turning Ch 10 into eight parallel mini-case studies with identical paragraph shape; vary scene length and depth (nurse and manager longest; editor/researcher in montage)
 - Ch 11 (*Cannot Hear Itself*) should follow Ch 10's emotional register but shift to **misread signals** (distress → engagement data)—do not repeat Ch 10's subsidy argument
-- Ch 12 offers orientation; Ch 10 should not pre-empt Ch 12's closing distinction
+- Ch 12 offers orientation; epilogue owns *blank column* closing—do not merge Ch 12 ending into epilogue
+
+---
+
+## Epilogue — what this unit does right
+
+### 1. Returns to Ch 1 whiteboard without re-arguing discharge
+
+Cleaned board → blank → next patient. The room has turned over; the institution remembers what it records. Book closes on object, not summary inventory.
+
+### 2. Cross-domain montage earned through absent columns
+
+*What the Bookshelf Cannot Show* — citation, dashboard, poll, school, emissions, matrix. Each measure named with what it cannot carry. Not a domain recap list; each pair is one absent field.
+
+### 3. Dual truth on measurement
+
+Columns reveal patterns and interrupt self-deception **and** become boundaries when absence is mistaken for emptiness. No anti-metric polemic.
+
+### 4. Comfort of completion
+
+Metrics close conversations; judgment leaves moral residue. *Was it good?* does not fit the same form—this is the book's thesis in closing register.
+
+### 5. Signal vs whole (not human vs inhuman)
+
+Distinction list (dashboard/conscience, target/responsibility, etc.) holds both terms—neither discarded. Matches Ch 12 orientation without checklist reform.
+
+### 6. Sincere drift more dangerous than gaming
+
+*Question That Remains Open* — proxy succeeds so thoroughly institution forgets what success was for. No villains.
+
+### 7. The Return — occupied room again
+
+Chair beside window, expected discharge, space around the words. Blank space is not defect; danger is forgetting omission.
+
+### 8. Closing movement without reform checklist
+
+Keep blank visible; every measure is translation. Ends on what was left behind—the thing we were trying to serve.
 
 ---
 
