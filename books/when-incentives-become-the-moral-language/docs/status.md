@@ -2,28 +2,30 @@
 
 ## Current phase
 
-**Phase 6 (essayistic rewrite — planning)** — July 2026
+**Phase 6 (essayistic rewrite — in progress)** — July 2026
 
-Essay edition (Phase 5) remains complete and exportable at current manuscript paths. Rewrite work has **not** started on prose files.
+Essay edition (Phase 5) remains available at legacy paths. Rewrite work has begun on manuscript prose.
 
 | Milestone | Status |
 |-----------|--------|
-| Essay edition (~9–11k) | **Complete** (Phase 5, July 2026) |
+| Essay edition (~9–11k) | **Complete** (Phase 5, July 2026) — legacy paths |
 | Rewrite planning document | **Complete** — [`WHEN_INCENTIVES_REWRITE_PLAN.md`](WHEN_INCENTIVES_REWRITE_PLAN.md) |
 | Ch 1 reference draft | **Complete** — [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) |
 | Ch 2 reference draft | **Complete** — [`reference/chapter-2-the-feed-that-never-empties.md`](reference/chapter-2-the-feed-that-never-empties.md) |
 | Ch 6 reference draft | **Complete** — [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md) |
 | Ch 10 reference draft | **Complete** — [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md) |
 | Epilogue reference draft | **Complete** — [`reference/epilogue-the-blank-column.md`](reference/epilogue-the-blank-column.md) |
+| **Introduction rewrite** | **Complete** — [`introduction-the-question-the-dashboard-cannot-ask.md`](../front-matter/introduction-the-question-the-dashboard-cannot-ask.md) |
+| **Part I rewrite (Ch 1–3)** | **Complete** — [`part-1-the-need-for-translation/`](../parts/part-1-the-need-for-translation/) |
 | Author approval gates | **Pending** — [`author-approval-gates.md`](author-approval-gates.md) |
-| Chapter rewrites | **Not started** |
+| Remaining chapters | **Not started** |
 
 ## Rewrite target
 
 | Edition | Notes | Status |
 |---------|-------|--------|
 | Essay edition (baseline) | ~9–11k; frozen at current `index.md` paths | **Frozen** |
-| **Essayistic rewrite** | Length follows craft—no fixed word band for now | Awaiting remaining author gates |
+| **Essayistic rewrite** | Length follows craft—no fixed word band for now | **In progress** — intro + Part I complete |
 
 ## Manuscript hub
 
