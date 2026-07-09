@@ -1,6 +1,6 @@
 # Upcoming nonfiction — portfolio status
 
-Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a separate track (below). Tier A nonfiction titles, *The Economy We Don't Experience*, *When Incentives Become the Moral Language*, *Why Collaboration Is So Hard*, the trust trilogy (*How Trust Forms*, *When Trust Stops Tracking Reality*, *Trust Beyond Similarity*), and others were promoted to `books/` and no longer live under `upcoming/`.
+Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a separate track (below). Tier A nonfiction titles, *The Economy We Don't Experience*, *When Incentives Become the Moral Language*, *Why Collaboration Is So Hard*, *When Others Become Leaders*, the trust trilogy (*How Trust Forms*, *When Trust Stops Tracking Reality*, *Trust Beyond Similarity*), and others were promoted to `books/` and no longer live under `upcoming/`.
 
 **Refresh rule:** When a book's `docs/status.md` changes phase or next actions materially, update the relevant table in the same PR (nonfiction rows here; fiction rows in **Upcoming fiction**).
 
@@ -12,7 +12,6 @@ Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a sep
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
-| [When Others Become Leaders](../../books/when-others-become-leaders/) | Phase 5 | Promoted (~51k); exports enabled | CI export smoke | [status](../../books/when-others-become-leaders/docs/status.md) |
 | [Why Diversity Matters](../../books/why-diversity-matters/) | Phase 0–1 | Essay edition in `books/`; outline scaffolds + interview questions | Author intro + chapter drafts | [status](../../books/why-diversity-matters/docs/status.md) |
 | [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Phase 5 (essay edition) | Agent pipeline + echo gates complete; expansion decision locked (~14.5k) | Author sign-off on Parts III–IV gate; export smoke | [status](../../books/when-interpretation-no-longer-matters/docs/status.md) |
 

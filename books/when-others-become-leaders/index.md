@@ -38,6 +38,10 @@
 - [Epilogue — The Empty Chair](back-matter/epilogue-the-empty-chair.md)
 - [Bibliography](back-matter/bibliography.md)
 
+## Related books
+
+[Series guide](../../../docs/series-guide.md) · Formation cluster · Pair with [*When Others Look To You* (v1)](../when-others-look-to-you/v1/index.md)
+
 ## Planning docs
 
 - [Docs hub](docs/README.md)

@@ -2,9 +2,9 @@
 
 ## Current phase
 
-**Phase 5 — Promoted to `books/` (July 2026)**
+**Phase 5 — Published (July 2026)**
 
-Manuscript at [`books/when-others-become-leaders/`](../). Exports enabled (docx, epub, pdf). Build smoke pending CI.
+Manuscript at [`books/when-others-become-leaders/`](../). Exports enabled (docx, epub, pdf). CI export smoke passed on PR #284.
 
 ## Manuscript hub
 
@@ -26,12 +26,11 @@ Manuscript at [`books/when-others-become-leaders/`](../). Exports enabled (docx,
 
 ## Build smoke
 
+**July 2026:** `make validate-book-specs` pass; CI book-export job built docx/epub/pdf for `books/when-others-become-leaders`.
+
 ```bash
-make validate-book-specs
 make build-book DIR=books/when-others-become-leaders FORMATS="docx epub"
 ```
-
-PDF requires `xelatex` (CI book-export workflow).
 
 ## Rough scale
 
@@ -39,4 +38,4 @@ PDF requires `xelatex` (CI book-export workflow).
 
 ## Promotion readiness
 
-**R2** — published in `books/`; export smoke on merge.
+**R2** — published in `books/`; exports verified in CI.

@@ -77,3 +77,12 @@ It is not a summary of this volume or a sequel.
 
 Read it before, after, or alongside this book when you want that
 vocabulary in one clear throughline.
+
+### **What happens next**
+
+[*When Others Become Leaders*](../../../when-others-become-leaders/index.md)
+asks a different question once influence has gathered: what kind of leader
+leaves behind more leaders? It tests **circulation** through nine historical
+cases—whether agency, practice, and moral posture survive the leader's
+absence. Read it after this book when formation and accumulation are already
+visible; read it alone if historical cases are your entry point.

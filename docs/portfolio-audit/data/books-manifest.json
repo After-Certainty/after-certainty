@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-07-09T00:50:21.690163+00:00",
+  "generatedAt": "2026-07-09T23:10:55.502740+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
@@ -671,7 +671,7 @@
       "status": "published",
       "title": "When Incentives Become the Moral Language",
       "subtitle": "How Systems Decide For Us When Judgment No Longer Scales",
-      "description": "Essay edition (~9\u201311k words)\u2014eight institutional domains where metrics and incentives replaced judgment when coordination outran shared meaning. Distinct from When Interpretation No Longer Matters (authority without shared meaning) and The Economy We Don't Experience (lived vs aggregate narrative under compression).",
+      "description": "Essayistic edition (~36.5k words), July 2026. Twelve chapters across eight institutional domains where metrics and incentives replaced judgment when coordination outran shared meaning.",
       "authors": [
         "Kevin Steffensen"
       ],
@@ -762,6 +762,39 @@
         "enabled": true,
         "file": "when-moral-seriousness-scales.pdf",
         "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-moral-seriousness-scales.pdf"
+      }
+    },
+    {
+      "slug": "when-others-become-leaders",
+      "source": "books",
+      "status": "published",
+      "title": "When Others Become Leaders",
+      "subtitle": "What Enduring Influence Leaves Behind",
+      "description": "What kind of leadership increases the capacity of others to act, care, organize, and lead beyond the originating person.",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "publicationDate": null,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-become-leaders/book-cover.png",
+      "coverImagePath": "books/when-others-become-leaders/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-become-leaders/open-graph.png",
+      "openGraphImagePath": "books/when-others-become-leaders/open-graph.png",
+      "bookDir": "books/when-others-become-leaders",
+      "docx": {
+        "enabled": true,
+        "file": "when-others-become-leaders.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-become-leaders.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "when-others-become-leaders.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-become-leaders.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "when-others-become-leaders.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/when-others-become-leaders.pdf"
       }
     },
     {

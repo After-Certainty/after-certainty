@@ -16,9 +16,7 @@ Workflow for planning, researching, and revising *When Others Become Leaders* wh
 
 Use phase-scoped branches when active work continues:
 
-- `cursor/when-others-become-leaders-planning-ba72` (current)
-- `upcoming/when-others-become-leaders-research`
-- `upcoming/when-others-become-leaders-editorial`
+- Branch history: `cursor/when-others-become-leaders-planning-ba72` (promote PR #284)
 
 ## Edition policy
 
