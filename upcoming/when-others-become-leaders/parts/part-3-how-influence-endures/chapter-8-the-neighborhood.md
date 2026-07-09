@@ -106,9 +106,7 @@ Who is expected to return?
 
 The Neighborhood of Make-Believe offered kings, owls, cats, tigers, musicians, workers, inventors, and visitors who misunderstood one another. The stories allowed children to encounter jealousy, anger, fear, competition, separation, and uncertainty at the protective distance of imagination. The puppets could express what the adult host helped the child examine. Rogers’s team developed these stories in close conversation with knowledge of child development rather than treating fantasy as escape from serious emotional life.
 
-Make-believe was not the opposite of truth.
-
-It was one of the places truth could be approached safely.
+Make-believe was not the opposite of truth; it was one of the places truth could be approached safely.
 
 A child may not be able to say that the arrival of a new baby has made love feel scarce. A puppet can fear replacement. A child may know that adults are arguing but lack the power to ask whether the family will survive. A prince can disappear because his parents are fighting.
 
@@ -144,9 +142,7 @@ A leader who can make this distinction possible for others does not merely creat
 
 This kind of growth is difficult to display on a résumé. It may appear years later when someone pauses before repeating a cruelty, tells the truth about fear, or allows another person’s anger to be heard without immediately treating it as threat.
 
-The original lesson has disappeared into behavior.
-
-Influence has become difficult to attribute because it has become part of the person.
+The original lesson has disappeared into behavior. Influence has become difficult to attribute because it has become part of the person.
 
 ---
 
@@ -162,11 +158,7 @@ He explained the modest budget of his program and the daily work of helping chil
 
 The mythology is less interesting than the change in the room.
 
-Rogers did not acquire procedural authority. He could not vote on the appropriation. He entered carrying another form of legitimacy: years spent attending carefully to a population that could not lobby for itself.
-
-Effectiveness gave the moral claim weight. He had built a program, worked within a small budget, studied childhood, and produced something families actually used. Moral posture without effectiveness can remain admirable but peripheral. Effectiveness without moral posture can become domination performed efficiently.
-
-Rogers brought both.
+Rogers did not acquire procedural authority. He could not vote on the appropriation. He entered carrying another form of legitimacy: years spent attending carefully to a population that could not lobby for itself. Effectiveness gave the moral claim weight. He had built a program, worked within a small budget, studied childhood, and produced something families actually used. Moral posture without effectiveness can remain admirable but peripheral. Effectiveness without moral posture can become domination performed efficiently. Rogers brought both.
 
 Then he addressed the senator not as an obstacle to defeat, but as a person capable of recognition.
 
@@ -204,11 +196,7 @@ Clemmons still carried the burden. The show’s continuation was protected partl
 
 This reveals a danger inside relational credibility. To see a person deeply in one dimension can create the belief that we see the whole person. Affection begins serving as evidence that exclusion cannot be occurring.
 
-But love can coexist with fear.
-
-Care can be sincere and still ask the cared-for person to become smaller.
-
-The test of attention is not whether the listener feels kind. It is whether the other person’s reality is allowed to revise the relationship.
+But love can coexist with fear. Care can be sincere and still ask the cared-for person to become smaller. The test of attention is not whether the listener feels kind. It is whether the other person’s reality is allowed to revise the relationship.
 
 Rogers’s moral significance does not require us to invent a version of him who had already arrived at every truth we now wish he had understood. It may become more instructive when we refuse that invention. The person who taught millions that feelings could be named still lived inside a culture that rendered some lives dangerous to name.
 
@@ -236,9 +224,7 @@ Recognition does not look away from difference. It refuses to let difference bec
 
 Nearly two decades later, Jeff surprised Rogers during Rogers’s induction into the Television Hall of Fame. The encounter moved Rogers visibly, not because a former child viewer had returned as proof that Rogers mattered, but because the relationship had continued.
 
-A program can make a person famous.
-
-A relationship allows someone else to return with a life of his own.
+A program can make a person famous. A relationship allows someone else to return with a life of his own.
 
 ---
 
@@ -264,13 +250,7 @@ These ideas are often separated. Some environments make love conditional upon im
 
 Rogers tried to hold both.
 
-The child could be accepted as she was and still be invited to become more capable of expressing anger, surviving disappointment, making music, asking questions, and living among people whose needs differed from her own.
-
-This is what developmental leadership looks like when stripped of organizational vocabulary.
-
-The leader does not create dependence upon reassurance.
-
-He helps a person acquire the inner resources through which reassurance becomes less necessary.
+The child could be accepted as she was and still be invited to become more capable of expressing anger, surviving disappointment, making music, asking questions, and living among people whose needs differed from her own. This is what developmental leadership looks like when stripped of organizational vocabulary. The leader does not create dependence upon reassurance. He helps a person acquire the inner resources through which reassurance becomes less necessary.
 
 ---
 
@@ -282,13 +262,7 @@ Speed can be necessary. Emergencies do not wait for every voice to feel complete
 
 But speed also protects hierarchy. The person who already understands the language, knows the process, and has prepared an answer benefits when the room moves quickly. Everyone else must compress experience into the available interval.
 
-Rogers’s pauses redistributed time.
-
-He waited after questions. He allowed the trolley to cross the small distance between rooms without editing away the journey. He showed factories completing processes step by step. He did not behave as though children’s attention required constant shocks of novelty.
-
-The slow pace was not emptiness.
-
-It communicated that the viewer did not need to race in order to remain worthy of company.
+Rogers’s pauses redistributed time. He waited after questions, allowed the trolley to cross the small distance between rooms without editing away the journey, showed factories completing processes step by step, and did not behave as though children’s attention required constant shocks of novelty. The slow pace was not emptiness. It communicated that the viewer did not need to race in order to remain worthy of company.
 
 In 1997, accepting a lifetime achievement award at the Daytime Emmys, Rogers used one of television’s most self-congratulatory rooms to redirect attention away from himself. He asked the audience to spend ten seconds silently remembering people who had helped them become who they were, then watched the time while the room obeyed.
 
@@ -314,31 +288,11 @@ There was no office of Mister Rogers that another host could occupy and receive 
 
 But procedure cannot produce the particular trust attached to a person’s life.
 
-Example-based legitimacy ends at the boundary of the example.
-
-Its influence continues differently. An adult kneels before speaking to a child.
-
-A teacher treats behavior as communication rather than immediate defiance.
-
-A parent admits that anger is real without making the child responsible for the parent’s anger.
-
-A television writer decides that children can endure complexity when it is offered with care.
-
-A person hears the word neighbor and imagines obligation rather than proximity.
-
-None of these people becomes Fred Rogers. That is not what circulation requires.
-
-They become more capable of making the next move themselves.
+Example-based legitimacy ends at the boundary of the example. Its influence continues differently. An adult kneels before speaking to a child. A teacher treats behavior as communication rather than immediate defiance. A parent admits that anger is real without making the child responsible for the parent’s anger. A television writer decides that children can endure complexity when it is offered with care. A person hears the word neighbor and imagines obligation rather than proximity. None of these people becomes Fred Rogers. That is not what circulation requires. They become more capable of making the next move themselves.
 
 This is where Rogers belongs among leaders whose influence reached far beyond office. He did not organize a mass movement in the ordinary sense. He did not ask viewers to join an institution bearing his name or repeat a political program. His leadership entered through repeated encounters small enough to be mistaken for temperament.
 
-Look at the person. Name what is real. Do not confuse feeling with wrongdoing.
-
-Do not make difference disappear in order to offer belonging.
-
-Take enough time that the other person’s answer can surprise you.
-
-These practices do not remain dramatic once absorbed. They become the way someone conducts a conversation. The influence disappears into character.
+Look at the person. Name what is real. Do not confuse feeling with wrongdoing. Do not make difference disappear in order to offer belonging. Take enough time that the other person’s answer can surprise you. These practices do not remain dramatic once absorbed. They become the way someone conducts a conversation. The influence disappears into character.
 
 That may be one of its most enduring forms.
 

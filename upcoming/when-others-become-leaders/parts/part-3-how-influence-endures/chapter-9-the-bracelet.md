@@ -40,11 +40,7 @@ A business can require employees to welcome customers. A school can instruct chi
 
 The difference is imitation.
 
-Human beings copy one another before they understand why. A new employee watches who speaks first and who may interrupt. A child notices whether an unfamiliar person is treated as guest or inconvenience. A neighborhood learns whether snow is each household’s private burden or whether the first person outside keeps shoveling past his own driveway.
-
-The first act is a decision.  
-The second establishes a possibility.  
-After enough repetitions, no one remembers another way once seemed normal.
+Human beings copy one another before they understand why. A new employee watches who speaks first and who may interrupt. A child notices whether an unfamiliar person is treated as guest or inconvenience. A neighborhood learns whether snow is each household’s private burden or whether the first person outside keeps shoveling past his own driveway. The first act is a decision. The second establishes a possibility. After enough repetitions, no one remembers another way once seemed normal.
 
 Leadership books usually begin with the person at the center—speeches, strategies, habits, traits—and ask how followers were gathered. The person is visible.
 
@@ -64,15 +60,11 @@ Every spectacle rests on workers: riggers, carpenters, drivers, caterers, securi
 
 That is what attention does. The more visible the leader, the easier it becomes to miss the system around her.
 
-At the tour’s conclusion, reports estimated Swift distributed $197 million in bonuses across the crew.[^b2] During the first U.S. leg, truck drivers reportedly received $100,000 each, with handwritten notes. The money was extraordinary, but the notes reveal what numbers cannot. Compensation recognizes labor in aggregate. A note addresses a person.
+At the tour’s conclusion, reports estimated Swift distributed $197 million in bonuses across the crew.[^b2] During the first U.S. leg, truck drivers reportedly received $100,000 each, with handwritten notes. The money was extraordinary, but the notes reveal what numbers cannot. Compensation recognizes labor in aggregate; a note addresses a person.
 
-A bonus can still read as transaction: the tour succeeded, revenue rose, participants received a share. That matters. Many leaders praise teamwork while allowing most reward to move upward. Gratitude is easiest when it costs nothing.
+A bonus can still read as transaction: the tour succeeded, revenue rose, participants received a share. That matters. Many leaders praise teamwork while allowing most reward to move upward; gratitude is easiest when it costs nothing.
 
-Money and attention, though, perform different kinds of recognition. The check says success belongs partly to you. The note says you were not interchangeable while creating it.
-
-Organizations often call people their most important resource. It sounds flattering while converting persons into material: acquired, allocated, exhausted, replaced.
-
-To recognize someone is to reverse the direction of sight. The system becomes answerable to the person.
+Money and attention, though, perform different kinds of recognition. The check says success belongs partly to you. The note says you were not interchangeable while creating it. Organizations often call people their most important resource. It sounds flattering while converting persons into material: acquired, allocated, exhausted, replaced. To recognize someone is to reverse the direction of sight. The system becomes answerable to the person.
 
 Swift also made large food-bank donations along the tour route, often without centering those gifts in tour promotion. The Associated Press reported that the donations amounted to hundreds of thousands of meals, while noting that private generosity cannot resolve structural causes of food insecurity.[^b3] In New Orleans, one food bank said her contribution would support 75,000 meals.
 
@@ -96,21 +88,15 @@ Religions transformed personal authority into offices, doctrines, rituals, succe
 
 Celebrity has no stable succession mechanism. Its continuity lies elsewhere.
 
-Songs are carried by memory. Norms are carried by behavior. Communities survive when people keep performing them.
-
-This is why the Swifties matter more, analytically, than sales figures. Sales measure transactions near her work. A community appears when people begin doing things for one another that the central figure neither directs nor controls.
+Songs are carried by memory. Norms are carried by behavior. Communities survive when people keep performing them. This is why the Swifties matter more, analytically, than sales figures. Sales measure transactions near her work. A community appears when people begin doing things for one another that the central figure neither directs nor controls.
 
 Some fan actions remain close to admiration: decoding clues, making costumes, defending decisions, organizing listening events. Other actions drift farther. Fans have used shared identity to raise funds, coordinate mutual aid, teach each other unfamiliar subjects, and mobilize around political causes. During the Eras Tour, some fans organized as Swifties for Palestine, distributing bracelets and information while publicly urging Swift to speak about Gaza. That is not simple obedience. It is people using a culture built partly around her to question her silence.
 
-A crowd that repeats the leader’s words remains a crowd. A community that can act beyond, beside, or against the leader’s preferences has begun to acquire agency.
-
-That distinction is uncomfortable. Leaders often say they want empowered followers while preferring empowerment that stays near their own judgments. We praise initiative until it produces disagreement. We encourage ownership until someone reinterprets purpose.
+A crowd that repeats the leader’s words remains a crowd. A community that can act beyond, beside, or against the leader’s preferences has begun to acquire agency. That distinction is uncomfortable. Leaders often say they want empowered followers while preferring empowerment that stays near their own judgments. We praise initiative until it produces disagreement and encourage ownership until someone reinterprets purpose.
 
 Circulation requires surrender.
 
-Once an example enters culture, the original person cannot govern every use. The bracelet may carry a song title, affection, political demand, inside joke the artist will never understand. It belongs to maker and recipient now.
-
-Loss of control is not a side effect. It is evidence that influence has moved.
+Once an example enters culture, the original person cannot govern every use. The bracelet may carry a song title, affection, political demand, or inside joke the artist will never understand. It belongs to maker and recipient now. Loss of control is not a side effect. It is evidence that influence has moved.
 
 ---
 
@@ -126,9 +112,7 @@ No leader controls all of this. That does not remove responsibility.
 
 Leadership at scale includes deciding which behaviors are recognized, ignored, or rejected—even when rejection disappoints devoted followers. A community’s moral posture is shaped not only by what its leader performs but by what the leader permits admirers to do in her defense.
 
-That question remains open in Swift’s case. The story is still unfolding, and much of her legacy belongs to a future we cannot inspect. A living person cannot yet show fully what enduring influence leaves behind; she is still present to reinforce, revise, or contradict the culture around her.
-
-That makes her unlike other figures in this book. We can examine what persisted after King was killed, what movements did with Gandhi after his death, how institutions carried Jane Addams or Fred Rogers. Swift offers no such historical distance.
+That question remains open in Swift’s case. The story is still unfolding, and much of her legacy belongs to a future we cannot inspect. A living person cannot yet show fully what enduring influence leaves behind; she is still present to reinforce, revise, or contradict the culture around her. That makes her unlike other figures in this book. We can examine what persisted after King was killed, what movements did with Gandhi after his death, how institutions carried Jane Addams or Fred Rogers. Swift offers no such historical distance.
 
 She offers something else: a chance to watch circulation before it hardens into legacy.
 
@@ -146,9 +130,7 @@ Do they become more dependent on the center, or more attentive to one another? D
 
 Swift does not answer these cleanly. No serious subject should.
 
-Her example contains accumulation and circulation at once. Attention concentrates around her at astonishing scale. Wealth concentrates. Narrative concentrates. Yet within that centralization, other things repeatedly move outward: gifts, money, recognition, shared language, creative participation, permission to approach strangers.
-
-Perhaps rare leadership is not the absence of concentration. Any figure visible enough to shape culture will gather attention. The distinction is what happens next.
+Her example contains accumulation and circulation at once. Attention concentrates around her at astonishing scale. Wealth concentrates. Narrative concentrates. Yet within that centralization, other things repeatedly move outward: gifts, money, recognition, shared language, creative participation, permission to approach strangers. Perhaps rare leadership is not the absence of concentration. Any figure visible enough to shape culture will gather attention. The distinction is what happens next.
 
 Some leaders use accumulated attention to make everyone else more peripheral.  
 Others create openings through which attention returns to the world.

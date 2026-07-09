@@ -32,7 +32,7 @@ Use phase-scoped branches when active work continues:
 - Align title/subtitle/chapter ordering across planning files.
 - Record open decisions in [`open-questions.md`](open-questions.md).
 
-### Phase 1 — Research architecture (current)
+### Phase 1 — Research architecture ✓
 
 - Build chapter-by-chapter source packets from [`research-plan.md`](research-plan.md).
 - Establish a claims ledger: each factual claim maps to at least one reliable source.
@@ -40,7 +40,7 @@ Use phase-scoped branches when active work continues:
 - Replace seeded footnotes with verified citations.
 - Expand bibliography from working stub.
 
-### Phase 2 — Unit passes
+### Phase 2 — Unit passes ✓
 
 For each chapter, intro, epilogue, and front-matter unit:
 
@@ -54,7 +54,7 @@ For each chapter, intro, epilogue, and front-matter unit:
 
 Pause for author review between units unless explicitly told to continue.
 
-### Phase 3 — Part coherence gate
+### Phase 3 — Part coherence gate (current)
 
 After all units in a part are at least `draft`:
 

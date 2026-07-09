@@ -48,25 +48,13 @@ From far away, people appear as categories: immigrants, laborers, mothers, the p
 
 Addams came to describe the dependence between social classes as reciprocal. Hull-House was not meant to be a pipeline carrying refinement from educated women toward an impoverished neighborhood. At least at its most ambitious, it was an experiment in what might happen when people who had been separated by class and experience began acquiring knowledge of one another.
 
-Reciprocity is one of those words that becomes harmless when spoken abstractly.
+Reciprocity is one of those words that becomes harmless when spoken abstractly. Most organizations approve of mutual learning, but few arrange themselves so that the people with less formal power can prove the people with more power wrong. We welcome feedback after the important decisions have been made and invite participation within the boundaries of a design whose authorship remains untouched.
 
-Most organizations approve of mutual learning. Few arrange themselves so that the people with less formal power can prove the people with more power wrong. We welcome feedback after the important decisions have been made. We invite participation within the boundaries of a design whose authorship remains untouched.
-
-Real reciprocity is dangerous because it places the giver at risk of revision.
-
-The house might become something its founders did not anticipate.
-
-That is exactly what happened.
+Real reciprocity is dangerous because it places the giver at risk of revision. The house might become something its founders did not anticipate. That is exactly what happened.
 
 Hull-House expanded into a thirteen-building complex. It included childcare, an employment bureau, libraries, language and citizenship classes, art and music instruction, a theater, meeting rooms for labor groups, clubs, cultural events, and eventually a Labor Museum. No single blueprint contained all of this at the beginning. The institution grew through encounter, experiment, failure, and the appearance of people who recognized possibilities that Addams and Starr could not have created alone.
 
-A house accumulates life room by room.
-
-One person arrives with a need. Another arrives with a skill. Someone notices that the same difficulty keeps appearing. A room is made available. A club forms. A class begins. A complaint becomes an investigation. What appeared to be a private hardship reveals a public pattern.
-
-Eventually the building is no longer merely containing activity.
-
-It is producing relationships from which new activity becomes possible.
+A house accumulates life room by room. One person arrives with a need, another with a skill, someone notices that the same difficulty keeps appearing, a room is made available, a club forms, a class begins, a complaint becomes an investigation, and what appeared to be a private hardship reveals a public pattern. Eventually the building is no longer merely containing activity; it is producing relationships from which new activity becomes possible.
 
 ---
 
@@ -100,7 +88,7 @@ In 1895, Hull-House residents published *Hull-House Maps and Papers*, a study of
 
 Maps create a strange kind of authority.
 
-The person holding the map can see relationships that disappear at street level. One building becomes part of a wage pattern. One sick child becomes evidence of sanitation failure. One exhausted worker becomes part of an industry organized around hours no individual family can repair.
+The person holding the map can see relationships that disappear at street level: one building becomes part of a wage pattern, one sick child becomes evidence of sanitation failure, one exhausted worker becomes part of an industry organized around hours no individual family can repair.
 
 But maps can also conceal. A colored rectangle cannot show what it feels like to live inside the building it represents. Data may reveal a pattern while flattening the lives that produced it.
 
@@ -116,11 +104,7 @@ Addams’s philosophy grew through this movement between action and reflection. 
 
 That phrase can sound softer than it is.
 
-To know sympathetically is not simply to feel sorry for someone. Pity can preserve distance. The giver remains intact while observing the recipient’s suffering.
-
-Sympathetic knowledge allows another life to interfere with your own explanation.
-
-It makes ignorance harder to maintain.
+To know sympathetically is not simply to feel sorry for someone. Pity can preserve distance. The giver remains intact while observing the recipient’s suffering. Sympathetic knowledge allows another life to interfere with your own explanation and makes ignorance harder to maintain.
 
 ---
 
@@ -136,9 +120,7 @@ But the work contains her philosophy in miniature.
 
 A moral problem had become physical. It occupied alleys. Children walked around it. Residents could complain individually and remain individually dismissible. Hull-House helped convert scattered experience into collective knowledge, and collective knowledge into pressure upon the city.
 
-The house did not solve the problem by keeping its own rooms clean.
-
-Its doors allowed the neighborhood’s disorder to become public business.
+The house did not solve the problem by keeping its own rooms clean. Its doors allowed the neighborhood’s disorder to become public business.
 
 This is one of the differences between charity and democracy. Charity may rescue a person from a condition. Democracy asks why the condition was allowed to persist and who must acquire the power to change it.
 
@@ -176,11 +158,7 @@ A mother could demonstrate something her child did not know. A worker could beco
 
 This was not a complete escape from paternalism. The museum still existed within an institution founded and financed largely by privileged reformers. Other people selected, interpreted, and displayed the work. Admiration can preserve hierarchy almost as effectively as contempt when the admired person is never given control.
 
-Still, a threshold had shifted. Expertise moved.
-
-The house was no longer only offering its knowledge to the neighborhood. It was creating a place where the neighborhood’s knowledge could become publicly authoritative.
-
-Leadership had begun circulating through the rooms.
+Still, a threshold had shifted. Expertise moved. The house was no longer only offering its knowledge to the neighborhood; it was creating a place where the neighborhood’s knowledge could become publicly authoritative. Leadership had begun circulating through the rooms.
 
 ---
 
@@ -212,9 +190,7 @@ The test is whether the criticism can rearrange the house.
 
 Addams appears more unusual when we allow these failures to remain visible, not because she transcended them, but because she sometimes exposed her own mistakes to public examination and treated correction as part of the work. Fallibility was not merely a private admission. It became a method: act, encounter consequences, listen, revise, and act again.
 
-That method does not absolve a leader. It makes further accountability possible.
-
-Purity cannot be corrected because purity never admits that correction is needed.
+That method does not absolve a leader. It makes further accountability possible. Purity cannot be corrected because purity never admits that correction is needed.
 
 ---
 
@@ -252,11 +228,7 @@ Do not decide too early who the leaders are.
 
 The Jane Club, for example, offered cooperative housing for working women. Trade unionists used meeting spaces. Clubs organized around ethnicity, occupation, politics, recreation, and shared concerns, sometimes operating with substantial direction from their own members. These were not merely audiences assembled to receive Addams’s wisdom. They were small structures through which people practiced association and self-government.
 
-Leadership was not transferred from Addams to each participant.
-
-It emerged from participation.
-
-That is a quieter form of influence than a speech or a march. It is difficult to attribute and nearly impossible to possess. The founder may create conditions, protect the space, connect people, resolve conflicts, and attract resources. But the outcome depends upon activities she does not control.
+Leadership was not transferred from Addams to each participant. It emerged from participation. That is a quieter form of influence than a speech or a march. It is difficult to attribute and nearly impossible to possess. The founder may create conditions, protect the space, connect people, resolve conflicts, and attract resources. But the outcome depends upon activities she does not control.
 
 A place becomes generative when the people entering it stop remaining guests.
 
@@ -272,11 +244,7 @@ A house is often remembered by the person whose name appears above the door.
 
 But houses are kept alive by people whose names do not.
 
-Someone makes the food. Someone notices the child waiting alone. Someone welcomes the new arrival and explains how things work. Someone raises an uncomfortable subject. Someone repairs what has broken. Someone decides that a room used for one purpose might serve another.
-
-The leader can perform these acts.
-
-The enduring leader makes them possible without performing all of them.
+Someone makes the food, notices the child waiting alone, welcomes the new arrival and explains how things work, raises an uncomfortable subject, repairs what has broken, or decides that a room used for one purpose might serve another. The leader can perform these acts. The enduring leader makes them possible without performing all of them.
 
 This is what Jane Addams reveals that a simpler story of service would miss. Her influence did not endure only because she helped people, wrote books, advocated reforms, or became one of the most prominent women of her era. It endured because Hull-House became an environment in which other people could notice, learn, organize, teach, investigate, and acquire public consequence. Her leadership was expressed not only in what she did, but in the number of meaningful things that no longer required her to do them.
 
@@ -284,7 +252,7 @@ That does not make her peripheral to the story.
 
 It reveals a different kind of center.
 
-Some centers pull everything inward. Every decision returns to the founder. Every accomplishment confirms the founder’s importance. Other centers create enough gravity for people to find one another, then enough freedom for them to move.
+Some centers pull everything inward: every decision returns to the founder, every accomplishment confirms the founder’s importance. Other centers create enough gravity for people to find one another, then enough freedom for them to move.
 
 A house makes this visible.
 
