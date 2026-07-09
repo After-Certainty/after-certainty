@@ -18,9 +18,9 @@ After every unit in a part completes **01–06**, the bridge and chapters often 
 ## INPUTS
 
 - All files in part scope (see table below)
-- [`docs/book-rules.md`](../book-rules.md)
+- [`docs/book-rules.md`](../../book-rules.md)
 - [`docs/agents/README.md`](./README.md)
-- [`docs/status.md`](../status.md)
+- [`docs/status.md`](../../status.md)
 
 ## SCOPE
 

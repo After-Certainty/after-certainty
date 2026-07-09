@@ -1,49 +1,79 @@
 # When Incentives Become the Moral Language — Drafting Process
 
-## Key references
-
-- [`docs/book-rules.md`](book-rules.md) — domain scaffold, tone, length bands
-- [`docs/status.md`](status.md) — phase, expansion decision, unit progress
-- [`docs/author-read-through-gate-ch-3-8.md`](author-read-through-gate-ch-3-8.md) — human sign-off (Ch 3–8)
-- [`docs/agents/`](agents/) — chapter pipeline agents **01–08**
-- [`index.md`](../index.md) — manuscript hub
-
 ## Current phase
 
-**Phase 5 (essay edition)** — agent pipeline complete (May 2026). Expansion decision locked: essay band (~9–11k) is the export edition; first-cycle (~12–18k) and long-term (~60–80k) bands deferred.
+**Phase 6 (essayistic rewrite — planning)** — July 2026
 
-## Agent pipeline
+Essay edition (Phase 5) pipeline is **archived**. Rewrite specs live under [`agents/rewrite/`](agents/rewrite/).
 
-Per-unit order: **01** → **02** → **03** → **04** → **05** → **06**. After all units in a part: **07** (part echo). After Part II + conclusion: **08** (manuscript echo).
+## Key references
 
-See [`docs/agents/chapter-pipeline.md`](agents/chapter-pipeline.md) for prerequisites and expansion-band rules.
+- [`WHEN_INCENTIVES_REWRITE_PLAN.md`](WHEN_INCENTIVES_REWRITE_PLAN.md) — full rewrite brief
+- [`author-approval-gates.md`](author-approval-gates.md) — blocking decisions
+- [`book-rules.md`](book-rules.md) — scene-first craft rules (invisible scaffold)
+- [`status.md`](status.md) — phase and unit progress
+- [`index.md`](../index.md) — manuscript hub (essay edition until restructure)
 
-**Agent 01 under essay edition:** light deepen only — do not double manuscript length in one pass.
+## Essay edition (Phase 5 — complete)
 
-### Per-part gate (after all units in part complete 01–06)
+Per-unit order was **01 → 02 → 03 → 04 → 05 → 06**, then **07** (part echo), **08** (manuscript echo).
 
-7. [Part echo](../agents/07-part-echo-pass.md)
+Archived specs: [`agents/legacy-essay-edition/`](agents/legacy-essay-edition/)
 
-### Manuscript gate (after Part II 07 + conclusion 01–06)
+**Do not use** legacy Agent **01** (expansion/scaffold) for rewrite work—it reinforces the visible domain scaffold the rewrite removes.
 
-8. [Full manuscript echo](../agents/08-full-manuscript-echo-pass.md)
+## Essayistic rewrite (Phase 6 — planned)
 
-Chained single-unit prompt: [chapter-pipeline.md](../agents/chapter-pipeline.md)
+### Prerequisites
 
-See [upcoming/docs/_templates/drafting-process.md.template](../../../upcoming/docs/_templates/drafting-process.md.template) for portfolio-wide phases.
+1. Author sign-off on [`author-approval-gates.md`](author-approval-gates.md)
+2. Rewrite branch created
+3. `index.md` restructured for four-part / twelve-chapter architecture
 
-## Author gate
+### Rewrite sequence
 
-Human read-through for Ch 3–8 before export release. Checklist: [`author-read-through-gate-ch-3-8.md`](author-read-through-gate-ch-3-8.md). **Signed off July 2026.**
+Per [`WHEN_INCENTIVES_REWRITE_PLAN.md` §16](WHEN_INCENTIVES_REWRITE_PLAN.md#16-recommended-rewrite-sequence):
+
+1. Introduction
+2. Ch 1 (Bed)
+3. Ch 9 (Proxy — provisional)
+4. Ch 10 (Hidden Subsidy)
+5. Interlude (Map)
+6. Ch 2–8 (domain chapters)
+7. Ch 9 revision
+8. Ch 11
+9. Ch 12 + Epilogue
+10. Transition and repetition pass
+11. Citation verification
+12. Voice consistency pass
+
+### Per-chapter agents
+
+See [`agents/rewrite/README.md`](agents/rewrite/README.md).
+
+### Echo gates (rewrite)
+
+| Gate | When |
+|------|------|
+| Part I echo | After Ch 1–3 + interlude draft |
+| Part III echo | After Ch 7–9 draft |
+| Full manuscript echo | After Ch 12 + epilogue |
 
 ## Export
+
+Essay edition (current manuscript):
 
 ```bash
 make build-book DIR=books/when-incentives-become-the-moral-language FORMATS="docx epub pdf"
 ```
 
-Record result in [`status.md`](status.md) under **Build smoke**.
+During active rewrite, consider disabling `github.release` in `book.yml` until milestone (see author gates).
 
-## Full-band expansion (deferred)
+Record build results in [`status.md`](status.md).
 
-When author selects the ~12–18k first-cycle or ~60–80k long-term band, re-read Agent **01** spec and update `status.md` before heavy expansion passes.
+## Author gates
+
+| Gate | Document | Status |
+|------|----------|--------|
+| Essay edition Ch 3–8 | [`author-read-through-gate-ch-3-8.md`](author-read-through-gate-ch-3-8.md) | Complete (July 2026) |
+| Rewrite start | [`author-approval-gates.md`](author-approval-gates.md) | Pending |

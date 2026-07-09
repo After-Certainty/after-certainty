@@ -2,7 +2,7 @@
 
 Use this doc as a **single Cursor prompt** to run agents **01 → 06** on **one unit file** in order. Replace `TARGET_UNIT` below with the path from [README.md](./README.md).
 
-**Prerequisites:** branch from `main` or `books/when-incentives-become-the-moral-language-editorial-fold`; read [`book-rules.md`](../book-rules.md) once.
+**Prerequisites:** branch from `main` or `books/when-incentives-become-the-moral-language-editorial-fold`; read [`book-rules.md`](../../book-rules.md) once.
 
 **Do not merge PRs automatically**—stop after each stage if the author requested review between passes.
 

@@ -16,7 +16,7 @@ Structural and surface readability: **paragraph shape**, **heading convention**,
 ## INPUTS
 
 - Target unit file
-- [`docs/book-rules.md`](../book-rules.md)
+- [`docs/book-rules.md`](../../book-rules.md)
 - [`docs/agents/README.md`](./README.md) — invariant + two clocks
 - Prior unit (skim opening/closing for handoff continuity)
 

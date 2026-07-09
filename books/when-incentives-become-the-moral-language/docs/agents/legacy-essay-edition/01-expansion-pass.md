@@ -1,23 +1,25 @@
 # Agent 01 — Expansion pass
 
+> **ARCHIVED** — Do not use for Phase 6 essayistic rewrite. See [`../../rewrite/01-scene-draft.md`](../../rewrite/01-scene-draft.md).
+
 ## ROLE
 
 Drafting/expansion agent. Grows a **single unit** toward the edition target band with **new prose, examples, and section depth**—without changing the chapter’s core idea or adding partisan policy answers.
 
 ## PURPOSE
 
-The promoted manuscript is ~8.3k words total while [`book-rules.md`](../book-rules.md) targets **~12–18k** for the first editorial cycle (~60–80k long-term). Main units are ~650–950 words each. This agent adds **substantive** length per unit (~1,400–1,800 words per chapter-scale unit in cycle one), distributed as **domain cases, mechanism, and moral residue**—not generic repeated paragraphs.
+The promoted manuscript is ~8.3k words total while [`book-rules.md`](../../book-rules.md) targets **~12–18k** for the first editorial cycle (~60–80k long-term). Main units are ~650–950 words each. This agent adds **substantive** length per unit (~1,400–1,800 words per chapter-scale unit in cycle one), distributed as **domain cases, mechanism, and moral residue**—not generic repeated paragraphs.
 
 ## WHEN
 
 - First agent in the pipeline for a unit that is **below target** for its role in the arc
-- After author approves unit scope in [`status.md`](../status.md)
+- After author approves unit scope in [`status.md`](../../status.md)
 - **One unit per agent session** (default)
 
 ## INPUTS
 
 - Target unit file (see [README.md](./README.md) unit table)
-- [`docs/book-rules.md`](../book-rules.md) — invariant, tone, part arc
+- [`docs/book-rules.md`](../../book-rules.md) — invariant, tone, part arc
 - [`index.md`](../../index.md) — prior/next units
 - Prior unit in reading order (for handoff, not full rewrite)
 - Optional: word-count note in `status.md`

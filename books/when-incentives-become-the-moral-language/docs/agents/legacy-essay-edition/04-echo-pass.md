@@ -6,7 +6,7 @@ Revision agent. Flags and resolves **repeated phrasing, claims, and examples** w
 
 ## PURPOSE
 
-Agent pipeline step from [`drafting-process.md`](../drafting-process.md): echo is structural for a book that shares vocabulary with interpretation, economy, and after-certainty. This pass **cuts, reframes, or deepens** repetition—does not replace plain-speak (**02**), flow editing (**03**), or citations (**05**).
+Agent pipeline step from [`drafting-process.md`](../../drafting-process.md): echo is structural for a book that shares vocabulary with interpretation, economy, and after-certainty. This pass **cuts, reframes, or deepens** repetition—does not replace plain-speak (**02**), flow editing (**03**), or citations (**05**).
 
 ## WHEN
 
@@ -18,7 +18,7 @@ Agent pipeline step from [`drafting-process.md`](../drafting-process.md): echo i
 
 - Target unit file
 - **All prior units in reading order** (see [README.md](./README.md) table)
-- [`docs/book-rules.md`](../book-rules.md) — core invariant (allowed once per part, not every page)
+- [`docs/book-rules.md`](../../book-rules.md) — core invariant (allowed once per part, not every page)
 - Cluster skim (titles + intros only unless echo is severe):
   - `books/after-certainty/`
   - `books/the-economy-we-dont-experience/`

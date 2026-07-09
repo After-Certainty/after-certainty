@@ -2,135 +2,96 @@
 
 ## Current phase
 
-**Phase 5 (essay edition)** — agent pipeline **01–08** complete (May 2026); author gate Ch 3–8 signed off (July 2026)
+**Phase 6 (essayistic rewrite — planning)** — July 2026
 
-## Expansion decision
+Essay edition (Phase 5) remains complete and exportable at current manuscript paths. Rewrite work has **not** started on prose files.
 
-**Locked (July 2026):** concentrated **essay edition** (~9–11k) is the export band. Promoted to `books/` in Pass 5.
+| Milestone | Status |
+|-----------|--------|
+| Essay edition (~9–11k) | **Complete** (Phase 5, July 2026) |
+| Rewrite planning document | **Complete** — [`WHEN_INCENTIVES_REWRITE_PLAN.md`](WHEN_INCENTIVES_REWRITE_PLAN.md) |
+| Author approval gates | **Pending** — [`author-approval-gates.md`](author-approval-gates.md) |
+| Chapter rewrites | **Not started** |
 
-| Band | Status |
-|------|--------|
-| **Essay edition** (~9–11k) | **Current** — export-ready after build smoke |
-| **First editorial cycle** (~12–18k) | **Deferred** — schedule Agent **01** passes when author requests |
-| **Long-term completion** (~60–80k) | **Deferred** — per `book-rules.md` |
+## Rewrite target
 
-Agent **01** runs light deepen only under essay edition.
+| Band | Words | Status |
+|------|------:|--------|
+| Essay edition (baseline) | ~9–11k | **Frozen** — current `index.md` paths |
+| **Essayistic rewrite (planned)** | **~42,000–52,000** | Awaiting author gates |
+| Long-term ceiling | ~60–80k | Optional (author Band B) |
 
 ## Manuscript hub
 
-[`index.md`](../index.md)
+[`index.md`](../index.md) — **essay edition structure** until rewrite restructures `index.md`
 
-## Structure
+## Planned structure (rewrite)
 
-| Part | Slug | Chapters |
-|------|------|----------|
-| I — When Judgment Fractures | `part-1-when-judgment-fractures` | 1–4 |
-| II — When Formula Speaks | `part-2-when-formula-speaks` | 5–8 |
+| Part | Chapters |
+|------|----------|
+| Introduction | The Question the Dashboard Cannot Ask |
+| I — The Need for Translation | 1–3 (healthcare, platforms, academia) |
+| Interlude | The Map Was Not a Lie |
+| II — When the Translation Takes Over | 4–6 (climate, workforce, journalism) |
+| III — The World the Metric Makes | 7–9 (politics, education, synthesis) |
+| IV — What Judgment Still Knows | 10–12 (subsidy, deafness, orientation) |
+| Epilogue | The Blank Column |
 
-## Unit progress
+See [`WHEN_INCENTIVES_REWRITE_PLAN.md` §4](WHEN_INCENTIVES_REWRITE_PLAN.md#4-proposed-book-architecture) for full architecture.
 
-| Unit | Words | Agents 01–06 | Notes |
-|------|------:|--------------|-------|
-| Title Page | — | — | Out of pipeline |
-| Copyright | — | — | Out of pipeline |
-| Introduction | 849 | **Complete** | 01–06 on promote branch |
-| Interlude | 490 | **Complete** | Between Part I and II; scope handoff prose updated |
-| Part I bridge | ~720 | **Complete** | Drafted at promote; reflow |
-| Ch 1 — Care | 1208 | **Complete** | 01–06 complete; expanded mechanism + citation cleanup |
-| Ch 2 — Engagement | 1408 | **Complete** | 01–06 complete; editorial-judgment collapse mechanism expanded; citations cleaned |
-| Ch 3 — Publishing | 1086 | **Complete** | 01–06 complete; productivity-vs-contribution mechanism expanded; citations normalized |
-| Ch 4 — Targets | 1192 | **Complete** | 01–06 complete; offset/ESG mechanism expanded; responsibility-vs-seriousness distinction sharpened |
-| Ch 5 — Fairness | 1025 | **Complete** | 01–06 complete; fairness-vs-defensibility mechanism expanded; citations normalized |
-| Ch 6 — Attention | 1022 | **Complete** | 01–06 complete; audience-vs-public distinction; differentiated from Ch 2 platform case |
-| Ch 7 — Polling | 863 | **Complete** | 01–06 complete; polling-vs-legitimacy mechanism; differentiated from Ch 6 |
-| Ch 8 — Formation | 763 | **Complete** | 01–06 complete; formation-vs-measurement capstone; handoff to conclusion |
-| Part II bridge | ~140 | **Complete** | Part II echo pass: trimmed previews |
-| Conclusion | 920 | **Complete** | 01–06 complete; synthesis + orientation (no program); handoff from Ch 8 |
-| Appendix | 330 | Optional | |
-| Bibliography | — | — | Linked from index |
+## Essay edition unit progress (baseline — unchanged)
 
-**Agent 00:** Not required — all units are drafted prose (no outline-only stubs).
+| Unit | Words | Phase 5 | Notes |
+|------|------:|---------|-------|
+| Introduction | 849 | Complete | Rewrite planned |
+| Interlude | 490 | Complete | Full rewrite planned |
+| Part I bridge | ~720 | Complete | Deprecated in rewrite |
+| Ch 1 — Care | 1208 | Complete | → Ch 1 Bed |
+| Ch 2 — Engagement | 1408 | Complete | → Ch 2 Feed |
+| Ch 3 — Publishing | 1086 | Complete | → Ch 3 Paper |
+| Ch 4 — Targets | 1192 | Complete | → Ch 4 Target |
+| Part II bridge | ~140 | Complete | Deprecated in rewrite |
+| Ch 5 — Fairness | 1025 | Complete | → Ch 5 Matrix |
+| Ch 6 — Attention | 1022 | Complete | → Ch 6 Front Page |
+| Ch 7 — Polling | 863 | Complete | → Ch 7 Poll |
+| Ch 8 — Formation | 763 | Complete | → Ch 8 Child/Score |
+| Conclusion | 920 | Complete | → Ch 12 + new Ch 9–11, epilogue |
+| Appendix | 330 | Complete | Update planned |
+| Bibliography | — | Incomplete | Expand on rewrite |
 
-## Part echo gates
+**Essay edition total:** ~11.5k words (July 2026).
 
-| Part | Status | Severity |
-|------|--------|----------|
-| Part I | **Complete** | low |
-| Part II | **Complete** | low |
-| Conclusion (07-lite vs Part II) | **Complete** | low |
+## Author gates
 
-### Part I echo gate
+| Gate | Status |
+|------|--------|
+| Ch 3–8 read-through (essay edition) | **Complete** (July 2026) — [`author-read-through-gate-ch-3-8.md`](author-read-through-gate-ch-3-8.md) |
+| Rewrite approval gates | **Pending** — [`author-approval-gates.md`](author-approval-gates.md) |
 
-Severity: **medium → low** after pass.
+## Agent pipeline
 
-| Location | Action | Rationale |
-|----------|--------|-----------|
-| `parts/part-1-when-judgment-fractures/bridge.md` opening | cut/reframe | Intro and interlude already own global frame; bridge now owns Part I arc directly |
-| `parts/part-1-when-judgment-fractures/bridge.md` invariant restatement | cut | Removed duplicate invariant paragraph already established in introduction |
-| `parts/part-1-when-judgment-fractures/chapter-1-care-without-caring.md` closing | cut/reframe | Avoided repeating bridge-level "this chapter begins Part I" scaffolding |
-| `parts/part-1-when-judgment-fractures/chapter-4-targets-without-judgment.md` cross-chapter callback | reframe | Kept continuity while reducing repeated chapter-by-chapter recap language |
+| Pipeline | Status | Location |
+|----------|--------|----------|
+| Essay edition 01–08 | **Archived** | [`agents/legacy-essay-edition/`](agents/legacy-essay-edition/) |
+| Essayistic rewrite | **Active (specs ready)** | [`agents/rewrite/`](agents/rewrite/) |
 
-### Part II echo gate
-
-Severity: **medium → low** after pass.
-
-| Location | Action | Rationale |
-|----------|--------|-----------|
-| `parts/part-2-when-formula-speaks/bridge.md` | cut/reframe | Removed Part I recap and long chapter previews; interlude owns scope; bridge owns Part II arc |
-| `parts/part-2-when-formula-speaks/chapter-5`–`7` closings | reframe | Shortened forward handoffs; bridge already orients Part II |
-| `parts/part-2-when-formula-speaks/chapter-8` closing | reframe | Capstone ends toward conclusion, not another domain preview |
-
-### Conclusion echo gate (07-lite)
-
-Severity: **medium → low** after pass.
-
-| Location | Action | Rationale |
-|----------|--------|-----------|
-| `back-matter/conclusion-living-inside-incentive-systems.md` Part I/II recap | cut/reframe | Removed second domain inventory and invariant restatement already in intro + Part II bridge |
-| `back-matter/conclusion-living-inside-incentive-systems.md` interlude callback | reframe | Short pointer; interlude owns full scope refusal |
-| `parts/part-2-when-formula-speaks/chapter-8` capstone label | cut | Conclusion owns manuscript synthesis |
-| `parts/part-2-when-formula-speaks/chapter-8` closing | reframe | Avoid repeating conclusion's no-program refusal |
-
-## Manuscript echo gate (08)
-
-| Status | Severity |
-|--------|----------|
-| **Complete** | low |
-
-Severity: **medium → low** after pass. Cluster skim: after-certainty, economy, interpretation (titles + intros)—no long re-argue of compression or interpretation collapse; conclusion owns portfolio boundary sentence.
-
-| Location | Action | Rationale |
-|----------|--------|-----------|
-| `front-matter/introduction-*.md` procedure section | cut/reframe | Removed Google/Meta, hospital, platform vignettes; chapters own canonical examples |
-| `front-matter/introduction-*.md` moral residue vignette | cut | Avoided nurse/manager/moderator list duplicated in conclusion |
-| `parts/part-1-*/bridge.md` | cut/reframe | Thin domain labels; removed mechanism repetition from Ch 1–4 |
-| `parts/part-2-*/bridge.md` | cut | Removed invariant restatement (intro + conclusion own) |
-| `chapter-3` cross-domain callback | reframe | Generic "earlier domains" |
-| `chapter-6` / `chapter-7` closings | reframe | Varied "At human scale" phrasing across Part II |
-
-## Author gate
-
-Ch 3–8 human read-through: **complete (July 2026)** — [`author-read-through-gate-ch-3-8.md`](author-read-through-gate-ch-3-8.md)
+Do not use legacy essay-edition Agent **01** (expansion/scaffold) for rewrite work.
 
 ## Build smoke
 
-**July 2026:** `make validate-book-specs` pass; `make build-book DIR=books/when-incentives-become-the-moral-language FORMATS="docx epub"` pass (18 units). PDF export requires `xelatex` (verify in CI/release workflow).
+**July 2026 (essay edition):** `make validate-book-specs` pass; `make build-book` pass.
+
+During active rewrite, consider disabling `github.release` in `book.yml` until milestone (see author gates).
 
 ## Next actions
 
-1. Export release via GitHub release workflow (exports enabled in `book.yml`).
+1. Author sign-off on [`author-approval-gates.md`](author-approval-gates.md)
+2. Create rewrite branch and restructure `index.md` when gates clear
+3. Begin rewrite sequence per [`WHEN_INCENTIVES_REWRITE_PLAN.md` §16](WHEN_INCENTIVES_REWRITE_PLAN.md#16-recommended-rewrite-sequence): Introduction → Ch 1 → Ch 9 (provisional) → Ch 10 → Interlude → Ch 2–8 → …
 
-## Rough scale
+## Key documents
 
-- ~9.1k words (July 2026); pipeline edits are structural/voice under essay edition, not full-band growth
-
-## Promote checklist (structure)
-
-- [x] Copy to `books/when-incentives-become-the-moral-language/`
-- [x] Two-part folder layout + bridges
-- [x] `docs/agents/` 01–08 + README + chapter-pipeline
-- [x] `book.yml` publishing enabled; exports enabled (docx/epub/pdf); `github.release: true`
-- [x] `make validate-book-specs` passes
-- [x] Cross-links updated (series-guide, README, cluster books)
-- [x] Full agent pipeline **01–08**
-- [x] Regenerate `docs/portfolio-audit/data/books-manifest.json` (books path; exports on)
+- [`WHEN_INCENTIVES_REWRITE_PLAN.md`](WHEN_INCENTIVES_REWRITE_PLAN.md)
+- [`author-approval-gates.md`](author-approval-gates.md)
+- [`book-rules.md`](book-rules.md)
+- [`drafting-process.md`](drafting-process.md)

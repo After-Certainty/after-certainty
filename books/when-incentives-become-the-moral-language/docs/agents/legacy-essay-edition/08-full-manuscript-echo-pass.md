@@ -16,8 +16,8 @@ Unit-level echo (**04**) and part echo (**07**) leave book-wide duplicates: the 
 ## INPUTS
 
 - All units in [`index.md`](../../index.md) reading order
-- [`docs/book-rules.md`](../book-rules.md)
-- [`docs/status.md`](../status.md) — part echo gate notes
+- [`docs/book-rules.md`](../../book-rules.md)
+- [`docs/status.md`](../../status.md) — part echo gate notes
 - Cluster skim (titles + intros + invariant paragraphs):
   - [`books/after-certainty/`](../../../after-certainty/)
   - [`books/the-economy-we-dont-experience/`](../../../the-economy-we-dont-experience/)

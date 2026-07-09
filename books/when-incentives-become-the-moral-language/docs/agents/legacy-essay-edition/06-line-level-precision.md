@@ -17,7 +17,7 @@ Late **micro-pass** when the unit is sound through **01–05** but still feels s
 ## INPUTS
 
 - Target unit file
-- [`docs/book-rules.md`](../book-rules.md)
+- [`docs/book-rules.md`](../../book-rules.md)
 - Footnotes present—**do not** break `[^id]` markers or move them off-claim
 
 ## FOCUS

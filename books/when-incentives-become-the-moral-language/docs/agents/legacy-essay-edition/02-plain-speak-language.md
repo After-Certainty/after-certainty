@@ -16,7 +16,7 @@ Expansion (**01**) adds length and examples; this pass makes that material **leg
 ## INPUTS
 
 - Target unit file
-- [`docs/book-rules.md`](../book-rules.md) — tone, invariant, two clocks
+- [`docs/book-rules.md`](../../book-rules.md) — tone, invariant, two clocks
 - [`docs/agents/README.md`](./README.md)
 - Prior unit (skim one representative paragraph for voice continuity)
 
