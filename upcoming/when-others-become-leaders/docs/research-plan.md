@@ -93,9 +93,10 @@ For each chapter, maintain:
 
 ## Near-term roadmap
 
-1. Build preliminary bibliography and archive list for each chapter anchor.
-2. Create chapter-specific source tables in a follow-up research folder.
-3. Mark all unverified anecdotes as provisional before prose drafting.
+1. ~~Build preliminary bibliography and archive list for each chapter anchor.~~
+2. ~~Create chapter-specific source tables in [`research/source-packets/`](research/source-packets/).~~
+3. ~~Mark major factual pivots with verified footnotes before unit editorial passes.~~
+4. Phase 2 unit passes (rules, echo, editorial, citation check per chapter).
 
 ## Cross-links
 

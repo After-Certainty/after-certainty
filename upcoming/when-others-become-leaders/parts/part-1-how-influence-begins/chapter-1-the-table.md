@@ -324,7 +324,7 @@ The followers interpreted service, sacrifice, and life given for others as a for
 
 The earliest Christian communities did not reproduce one perfectly unified society.
 
-Acts describes believers gathering for teaching, fellowship, breaking bread, prayer, and forms of shared material support. Paul’s letters reveal communities full of disagreement over status, food, sexuality, spiritual gifts, ethnicity, doctrine, wealth, and authority.
+Acts describes believers gathering for teaching, fellowship, breaking bread, prayer, and forms of shared material support. Paul’s letters reveal communities full of disagreement over status, food, sexuality, spiritual gifts, ethnicity, doctrine, wealth, and authority.[^t1-5]
 
 This is useful evidence.
 
@@ -370,7 +370,7 @@ Enduring influence is not controlled influence.
 
 Women were central to this circulation, though later memory often arranged the table differently.
 
-The gospel traditions describe women traveling with Jesus, supporting the movement, entering theological conversation, anointing him, remaining near the crucifixion, and becoming the first witnesses to the empty tomb. Mary Magdalene holds an especially important place in the resurrection narratives. In several accounts, the first announcement that Jesus is alive moves from a woman toward male disciples who do not immediately believe her.
+The gospel traditions describe women traveling with Jesus, supporting the movement, entering theological conversation, anointing him, remaining near the crucifixion, and becoming the first witnesses to the empty tomb. Mary Magdalene holds an especially important place in the resurrection narratives. In several accounts, the first announcement that Jesus is alive moves from a woman toward male disciples who do not immediately believe her.[^t1-6]
 
 The movement begins again through testimony its later institutions would frequently restrict.
 
@@ -734,3 +734,5 @@ Someone reaches for it, breaks it, and passes it on.
 [^t1-2]: Luke 19:1–10; Amy-Jill Levine, *Short Stories by Jesus* (New York: HarperOne, 2014), and historical commentary on social status and tax collection under Roman rule.
 [^t1-3]: Luke 14:1–24; Dennis E. Smith, *From Symposium to Eucharist* (Minneapolis: Fortress Press, 2003), on meals, status, and early Christian practice.
 [^t1-4]: Mark 6:7–13; Luke 9:1–6 and 10:1–24; N. T. Wright, *Jesus and the Victory of God* (Minneapolis: Fortress Press, 1996), on mission and kingdom praxis.
+[^t1-5]: Acts 2:42–47; 1 Corinthians 11:17–34; Galatians 2:11–14; Wayne A. Meeks, *The First Urban Christians* (New Haven: Yale University Press, 1983), on early community dispute and practice.
+[^t1-6]: Mark 16:9; John 20:11–18; Matthew 28:1–10; Amy-Jill Levine, *Short Stories by Jesus* (New York: HarperOne, 2014), on Mary Magdalene and resurrection witness traditions.

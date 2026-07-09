@@ -198,4 +198,4 @@ It may also be where leadership, in its rarest form, ceases to belong to the lea
 
 ## Notes
 
-[^i1]: High-level framing details are documented in chapter-level sources: gospel and early-church scholarship (Ch. 1), Salt March and Gandhi scholarship (Ch. 2), South African transition records (Ch. 3), U.S. civil-rights movement archives (Ch. 4), Green Belt Movement and Nobel records (Ch. 5), Havel and Charter 77 primary texts (Ch. 6), Hull-House records (Ch. 7), Fred Rogers archives and testimony (Ch. 8), and major-source reporting/cultural records for Swift/Eras context (Ch. 9).
+[^i1]: Chapter-level source packets and claim ledger: [`docs/research/`](../docs/research/README.md). Major pivots are footnoted in each chapter; interpretive synthesis in the introduction is intentionally unfootnoted.

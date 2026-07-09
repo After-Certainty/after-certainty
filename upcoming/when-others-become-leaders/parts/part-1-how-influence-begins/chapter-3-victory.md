@@ -100,7 +100,7 @@ The Mandela remembered through reconciliation can become almost weightless.
 
 He smiles. He forgives. He wears a colorful shirt and speaks about peace. The decades before the smile disappear.
 
-Mandela was not a lifelong pacifist. After peaceful resistance had been met with state violence, political organizations were banned, and legal avenues were closed, he helped establish Umkhonto we Sizwe, the ANC’s armed wing. In his 1964 statement from the dock at the Rivonia Trial, he explained the decision to pursue sabotage, arguing that continued demands for nonviolence in the face of government force had become unrealistic. He presented sabotage as an attempt to avoid terrorism and racial war while making the costs of apartheid impossible to ignore.
+Mandela was not a lifelong pacifist. After peaceful resistance had been met with state violence, political organizations were banned, and legal avenues were closed, he helped establish Umkhonto we Sizwe, the ANC’s armed wing. In his 1964 statement from the dock at the Rivonia Trial, he explained the decision to pursue sabotage, arguing that continued demands for nonviolence in the face of government force had become unrealistic. He presented sabotage as an attempt to avoid terrorism and racial war while making the costs of apartheid impossible to ignore.[^v4]
 
 This belongs in the story.
 
@@ -112,7 +112,7 @@ The distinction matters because moral posture toward harm is not revealed by ref
 
 The harder question is how power is used, what alternatives have been exhausted, which harms are deliberately constrained, and whether the methods chosen preserve any possibility of a different relationship later.
 
-Mandela’s account of sabotage was itself an attempt to draw such a boundary. Infrastructure and symbols of state power could be attacked while loss of life was to be avoided. Whether such distinctions can remain stable once violence begins is another question. Armed movements generate their own escalations, errors, factions, and moral compromises. The ANC’s armed struggle, like the state and other forces in the conflict, became connected to actions that could not be contained inside a purified story of liberation. The Truth and Reconciliation Commission would later investigate abuses committed across the political conflict, not only by the apartheid government.
+Mandela’s account of sabotage was itself an attempt to draw such a boundary. Infrastructure and symbols of state power could be attacked while loss of life was to be avoided. Whether such distinctions can remain stable once violence begins is another question. Armed movements generate their own escalations, errors, factions, and moral compromises. The ANC’s armed struggle, like the state and other forces in the conflict, became connected to actions that could not be contained inside a purified story of liberation. The Truth and Reconciliation Commission would later investigate abuses committed across the political conflict, not only by the apartheid government.[^v5]
 
 This does not create an equivalence between apartheid and resistance to apartheid. One was a racial order enforced through the state; the other arose against it.
 
@@ -254,7 +254,7 @@ The people whose relatives were tortured or killed possessed claims that the pre
 
 Forgiveness cannot be nationalized without becoming another form of dispossession.
 
-The Truth and Reconciliation Commission attempted a different arrangement. Established under the Government of National Unity and chaired by Archbishop Desmond Tutu, it created public processes for victims to describe gross human-rights violations and for perpetrators to seek amnesty. Amnesty was not meant to be automatic: applicants had to make full disclosure and demonstrate that the act was associated with a political objective. The Commission examined violations connected to the wider conflict, including those committed by the apartheid state and liberation movements.
+The Truth and Reconciliation Commission attempted a different arrangement. Established under the Government of National Unity and chaired by Archbishop Desmond Tutu, it created public processes for victims to describe gross human-rights violations and for perpetrators to seek amnesty. Amnesty was not meant to be automatic: applicants had to make full disclosure and demonstrate that the act was associated with a political objective. The Commission examined violations connected to the wider conflict, including those committed by the apartheid state and liberation movements.[^v5]
 
 Truth was offered as something between vengeance and amnesia.
 
@@ -404,3 +404,5 @@ Leadership appeared in what he chose not to keep there.
 [^v1]: South African History Online, “South Africa’s first democratic elections, 27 April 1994,” and Nelson Mandela Foundation chronology pages.
 [^v2]: John Carlin, *Playing the Enemy: Nelson Mandela and the Game That Made a Nation* (New York: Penguin, 2008).
 [^v3]: Nelson Mandela, *Long Walk to Freedom* (Boston: Little, Brown and Company, 1994); South African Government and Parliamentary records for 1999 transition.
+[^v4]: Nelson Mandela, statement from the dock, Rivonia Trial (20 April 1964); *Long Walk to Freedom*, chs. on Umkhonto we Sizwe.
+[^v5]: Truth and Reconciliation Commission of South Africa, *Final Report* (1998); Desmond Tutu, *No Future Without Forgiveness* (New York: Doubleday, 1999).

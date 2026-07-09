@@ -90,4 +90,4 @@ When manuscript is mature and author read-through is complete:
 
 ## Current starting phase
 
-See [`status.md`](status.md) — **Phase 1 — Research architecture**.
+See [`status.md`](status.md) — **Phase 2 — Unit passes** (Phase 1 research complete).

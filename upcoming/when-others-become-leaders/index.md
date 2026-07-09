@@ -34,7 +34,7 @@
 ## Back Matter
 
 - [Epilogue — The Empty Chair](back-matter/epilogue-the-empty-chair.md)
-- [Bibliography (Working)](back-matter/bibliography.md)
+- [Bibliography](back-matter/bibliography.md)
 
 ## Planning docs
 
