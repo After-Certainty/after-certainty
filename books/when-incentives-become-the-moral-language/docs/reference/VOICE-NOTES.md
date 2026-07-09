@@ -3,6 +3,7 @@
 **Sources:**
 
 - Ch 1: [`chapter-1-the-bed-someone-else-needs.md`](chapter-1-the-bed-someone-else-needs.md)
+- Ch 6: [`chapter-6-the-front-page-watches-back.md`](chapter-6-the-front-page-watches-back.md)
 - Ch 10: [`chapter-10-the-hidden-subsidy.md`](chapter-10-the-hidden-subsidy.md)
 
 Use these patterns when rewriting other chapters. Do not copy surface moves (short-line stacks) mechanically—match the **logic of movement**.
@@ -19,6 +20,19 @@ Use these patterns when rewriting other chapters. Do not copy surface moves (sho
 | Dashboard innocence | Dashboard receives credit for subsidized success |
 
 Ch 1 preview of hidden subsidy should stay light. Ch 10 owns the concept. *Nine Minutes* closing returns to Ch 1's nurse without re-arguing discharge mechanics.
+
+---
+
+## Ch 2 vs Ch 6 — keep distinct
+
+| Ch 2 (platforms / feed) | Ch 6 (journalism / front page) |
+|---------------------------|--------------------------------|
+| Engagement governs **distribution at global scale** | Attention governs **survival** while newsroom **claims civic judgment** |
+| Platform: mirror / neutrality defense | Newsroom: **mirror with a hand** (allocates while reflecting) |
+| Billions of interactions; moderation at scale | Municipal investigation vs celebrity story; editor protection act |
+| Feedback loop shapes **what gets shown** | Feedback loop shapes **what gets commissioned and placed** |
+
+Ch 6 reference explicitly contrasts platform feed in *What Editors Carry*—do not merge chapters in rewrite.
 
 ---
 
@@ -150,3 +164,60 @@ Credit to process when subsidy succeeds; blame to person when subsidy fails.
 - Avoid turning Ch 10 into eight parallel mini-case studies with identical paragraph shape; vary scene length and depth (nurse and manager longest; editor/researcher in montage)
 - Ch 11 (*Cannot Hear Itself*) should follow Ch 10's emotional register but shift to **misread signals** (distress → engagement data)—do not repeat Ch 10's subsidy argument
 - Ch 12 offers orientation; Ch 10 should not pre-empt Ch 12's closing distinction
+
+---
+
+## Ch 6 — what this chapter does right
+
+### 1. Opens on homepage position and dashboard at 8:12
+
+The municipal investigation **in third position** while the celebrity story climbs—concrete, timed, watchable. "The front page has begun to watch back" names the mechanism after the scene.
+
+### 2. Historical widening without nostalgia
+
+*When the Front Page Was an Argument* — print page could not listen in real time; no golden age; old page made **authorship visible**. Digital page redraws continuously. Dual truth: responsiveness can correct blindness **and** become survival evidence.
+
+### 3. Business model as subsidy history
+
+Classified ads, comics, sports pages carried investigations—**old subsidy was farther from each article**. Collapse of distance is the story, not "marketing invaded the newsroom."
+
+### 4. Audience vs public (essential distinction)
+
+Earned through local reporting examples—not asserted in a thesis paragraph. Public includes those not reading today, future consequences, people who cannot afford subscription.
+
+### 5. Metrics can puncture editorial arrogance
+
+*What the Audience Teaches* — dual truth again. Dashboard can make public visible; also becomes command when revenue attaches.
+
+### 6. Ch 2 differentiation explicit
+
+*Mirror with a hand* — newsroom allocates while reflecting; platform claims distribution of engagement. Keep this paragraph in manuscript integration.
+
+### 7. Circular relevance / measure enters world it measures
+
+Brief cross-domain echo (schools, polls, platforms) without becoming a literature review.
+
+### 8. Story that cannot prove itself in advance
+
+Bridge inspection / demand before understanding—extends Ch 3's upstream shaping into **civic** frame.
+
+### 9. Small act of protection
+
+Editor moves story to second position—judgment **inside** metric system, not anti-analytics polemic. Models hidden subsidy lightly before Ch 10.
+
+### 10. Two accounts at dusk
+
+Dashboard underperformance vs council meeting effect—holds tension without resolving which "wins."
+
+### 11. Core Principle
+
+Attention is evidence, not authority—earned; closing returns to front page movement.
+
+---
+
+## Domain chapter craft (Ch 2–8)
+
+- Use Ch 6 as model for **sustained single-domain scene** (investigation thread runs whole chapter)
+- Vary opening: Ch 6 uses clock time + homepage; Ch 2 will use feed; Ch 5 matrix, etc.
+- One historical widening per chapter (Ch 6: print front page)
+- Cross-reference other domains sparingly (Ch 6 does this well in circular relevance section)

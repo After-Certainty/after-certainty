@@ -4,8 +4,9 @@
 
 **Plan:** [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../../WHEN_INCENTIVES_REWRITE_PLAN.md)  
 **Voice north stars:**  
-[`reference/chapter-1-the-bed-someone-else-needs.md`](../../reference/chapter-1-the-bed-someone-else-needs.md) (Ch 1 / domain chapters) ·  
-[`reference/chapter-10-the-hidden-subsidy.md`](../../reference/chapter-10-the-hidden-subsidy.md) (Ch 10 / Part IV) ·  
+[`reference/chapter-1-the-bed-someone-else-needs.md`](../../reference/chapter-1-the-bed-someone-else-needs.md) (Ch 1) ·  
+[`reference/chapter-6-the-front-page-watches-back.md`](../../reference/chapter-6-the-front-page-watches-back.md) (Ch 6 / domain) ·  
+[`reference/chapter-10-the-hidden-subsidy.md`](../../reference/chapter-10-the-hidden-subsidy.md) (Ch 10) ·  
 [`reference/VOICE-NOTES.md`](../../reference/VOICE-NOTES.md)
 
 ---

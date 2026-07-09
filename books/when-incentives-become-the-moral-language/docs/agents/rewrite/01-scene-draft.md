@@ -17,8 +17,9 @@ Replace essay-edition scaffold prose with **scene-first essayistic** chapters. E
 ## INPUTS
 
 - [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../../WHEN_INCENTIVES_REWRITE_PLAN.md) §5 — chapter brief
-- [`reference/chapter-1-the-bed-someone-else-needs.md`](../../reference/chapter-1-the-bed-someone-else-needs.md) — voice north star (Ch 1; pattern for domain chapters)
-- [`reference/chapter-10-the-hidden-subsidy.md`](../../reference/chapter-10-the-hidden-subsidy.md) — voice north star (Ch 10; Part IV)
+- [`reference/chapter-1-the-bed-someone-else-needs.md`](../../reference/chapter-1-the-bed-someone-else-needs.md) — Ch 1; translation opening pattern
+- [`reference/chapter-6-the-front-page-watches-back.md`](../../reference/chapter-6-the-front-page-watches-back.md) — Ch 6; sustained domain chapter pattern
+- [`reference/chapter-10-the-hidden-subsidy.md`](../../reference/chapter-10-the-hidden-subsidy.md) — Ch 10; Part IV human cost
 - [`reference/VOICE-NOTES.md`](../../reference/VOICE-NOTES.md) — compositional patterns
 - [`book-rules.md`](../../book-rules.md) — invisible craft scaffold
 - [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../../WHEN_INCENTIVES_REWRITE_PLAN.md) §7 (anchors), §12 (preserve), §13 (cut)

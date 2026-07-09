@@ -18,6 +18,7 @@
 
 **Voice north star:**  
 - Ch 1: [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md)  
+- Ch 6: [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md)  
 - Ch 10: [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md)  
 - Patterns: [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md)
 
@@ -407,13 +408,15 @@ flowchart LR
 
 ### Ch 6 — The Front Page Watches Back
 
-- **Current:** Ch 6 Attention
-- **Object:** Digital front page shifting with audience analytics
-- **Anchors:** Pew, Reuters Digital News Report, Sunstein, Gallup/Knight trust surveys
-- **Must preserve:** Explicit Ch 2 differentiation (platforms govern distribution globally; newsrooms survive via civic claim)
-- **Evidence needed:** Documented newsroom analytics pivot (Chartbeat era industry reporting)
-- **Principle:** What spreads and what matters can overlap without becoming the same thing
-- **Target:** Room for scene-led craft (no fixed word count)
+- **Reference draft (author):** [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md) — **primary voice north star** for domain chapters (sustained single-thread scene)
+- **Current essay edition:** Ch 6 Attention as Importance
+- **Essential distinction (preserve):** Audience measures response; public requires judgment about consequences—including stories people may not initially choose to read. Economic pressure is real; not simple abandonment of civic purpose.
+- **Ch 2 differentiation (preserve):** *Mirror with a hand* — newsroom allocates while reflecting; platform distributes engagement at global scale
+- **Action:** Integrate reference draft; add citations at pivots (Reuters Digital News Report, Pew, trust surveys, advertising collapse—per §11)
+- **Preserve:** 8:12 homepage opening; print front page history; business-model subsidy; performs reaching backward; audience/public section; circular relevance; story that cannot prove demand in advance; editor protection act; dusk two-accounts close
+- **Do not:** Merge with Ch 2; anti-analytics polemic; golden-age journalism nostalgia
+- **Principle (earned):** Attention is evidence, not authority (reference Core Principle)
+- **Target:** Room for scene-led craft (reference draft sets pacing)
 
 ### Ch 7 — The Poll Before the Position
 
@@ -784,5 +787,6 @@ See [`author-approval-gates.md`](author-approval-gates.md) for decisions requiri
 | [`drafting-process.md`](drafting-process.md) | Rewrite workflow |
 | [`agents/rewrite/README.md`](agents/rewrite/README.md) | New agent specs for essayistic rewrite |
 | [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) | Author reference — Ch 1; translation arc |
+| [`reference/chapter-6-the-front-page-watches-back.md`](reference/chapter-6-the-front-page-watches-back.md) | Author reference — Ch 6; journalism / domain model |
 | [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md) | Author reference — Ch 10; human cost arc |
-| [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md) | Compositional patterns; Ch 1/Ch 10 bookends |
+| [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md) | Compositional patterns; Ch 2/6 distinction; bookends |
