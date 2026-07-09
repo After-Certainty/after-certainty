@@ -82,9 +82,7 @@ A person who had been governed as a racial category enters the booth as a citize
 
 Mandela entered office carrying unusual personal legitimacy. He had spent twenty-seven years in prison, become an international symbol of resistance to apartheid, and emerged as both leader of the African National Congress and the central public figure in the negotiated transition. But the country’s liberation was never the work of one man. It came through decades of organizing, strikes, student movements, churches, unions, underground networks, international pressure, armed resistance, civic groups, and people whose names never acquired the simplifying force of a single symbol. The negotiations themselves depended on figures across opposing political formations, including colleagues such as Oliver Tambo, Walter Sisulu, Cyril Ramaphosa, and many others who carried the struggle while Mandela was imprisoned.
 
-History prefers to bring one person onto the balcony.
-
-Movements happen in rooms the camera never enters.
+History prefers to bring one person onto the balcony; movements happen in rooms the camera never enters.
 
 The danger of Mandela’s greatness is that it can make South Africa’s transition look like an achievement of personality: a remarkable man forgave his jailers, the country followed, and peace appeared. The story is comforting because it places reconciliation inside individual character. We need only wait for an unusually magnanimous person.
 
@@ -218,9 +216,7 @@ This is how exceptional leaders become permanent ones.
 
 The reasons for staying are rarely described as vanity. The work is unfinished. Opponents remain dangerous. Successors are unprepared. The people are not ready. History requires one more term.
 
-Each explanation may be true.
-
-Together they can produce a system unable to survive the person credited with saving it.
+Each explanation may be true, yet together they can produce a system unable to survive the person credited with saving it.
 
 Mandela announced early that he would not seek another presidential term.[^v3] He stepped down in 1999 and was succeeded by Thabo Mbeki, having already relinquished the ANC presidency in 1997. The constitution would have allowed him to remain longer; he chose not to.
 
@@ -232,17 +228,13 @@ A new democracy received an early example of political succession in which the f
 
 The distinction between leadership and indispensability is easy to praise and hard to practice. A leader may sincerely want other people to grow while continuing to occupy every space in which growth would become visible. He delegates tasks but retains symbolic ownership. Others can administer the work, yet every achievement remains part of his story.
 
-Stepping aside changes the story’s grammar. The government no longer belongs to the liberator.
-
-The office becomes something another person can occupy without becoming a lesser copy.
+Stepping aside changes the story’s grammar. The government no longer belongs to the liberator; the office becomes something another person can occupy without becoming a lesser copy.
 
 Mandela’s legitimacy could not be transferred intact to Mbeki. No successor could inherit the prison years, the Rivonia speech, the release, or the election. Example-based legitimacy ends at the boundary of the person who earned it.
 
 But institutional legitimacy can be strengthened when the example-based leader accepts that boundary.
 
-By leaving, Mandela did not give Mbeki his moral authority.
-
-He gave the presidency a chance to become more than Mandela.
+By leaving, Mandela did not give Mbeki his moral authority; he gave the presidency a chance to become more than Mandela.
 
 ---
 
@@ -272,9 +264,7 @@ Some victims experienced the amnesty process as another transfer of burden. Perp
 
 This limitation cannot be placed outside Mandela’s leadership as though it belongs to another story.
 
-Reconciliation helped make democracy possible.
-
-It also risked becoming a beautiful language spoken over arrangements that remained profoundly unequal.
+Reconciliation helped make democracy possible; it also risked becoming a beautiful language spoken over arrangements that remained profoundly unequal.
 
 Political power changed hands much faster than land, capital, housing, education, and economic security. The democratic government expanded services and social support, but the distributional architecture of apartheid did not vanish. Critics have long argued that the negotiated transition protected too much existing economic power and that the language of national unity made more disruptive forms of redistribution harder to pursue.
 
@@ -282,9 +272,7 @@ A moral success can create the shelter beneath which another failure survives.
 
 This does not mean reconciliation was a mistake. It means reconciliation was unfinished.
 
-The absence of civil war is not the presence of justice.
-
-A country can avoid vengeance and still owe repair.
+The absence of civil war is not the presence of justice; a country can avoid vengeance and still owe repair.
 
 ---
 
@@ -304,17 +292,7 @@ Mandela did not personally reconcile each town, integrate each institution, or n
 
 The country’s most durable achievements came not from everyone becoming Mandela, but from enough people becoming capable of making the next decision without him.
 
-A civil servant had to apply new law through an inherited bureaucracy.
-
-A police officer had to understand that citizenship no longer had a color.
-
-A teacher had to enter a classroom where children carried different memories of the same country.
-
-A local organizer had to tell supporters that the restraint requested of them was not surrender.
-
-A white family had to decide whether equality meant loss or belonging.
-
-A Black family had to decide whether national reconciliation had any credibility when daily life remained unequal.
+A civil servant had to apply new law through an inherited bureaucracy; a police officer had to understand that citizenship no longer had a color; a teacher had to enter a classroom where children carried different memories of the same country; a local organizer had to tell supporters that the restraint requested of them was not surrender; a white family had to decide whether equality meant loss or belonging; a Black family had to decide whether national reconciliation had any credibility when daily life remained unequal.
 
 No president could answer all of these questions.
 

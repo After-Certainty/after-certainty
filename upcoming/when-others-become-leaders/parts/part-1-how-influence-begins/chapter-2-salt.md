@@ -12,9 +12,7 @@ A person can live without gold. Salt is more difficult.
 
 Perhaps this is why power has so often been tempted by it. Authority likes to stand near necessity. When people can refuse the thing being offered, the seller must persuade them. When they cannot refuse, persuasion becomes optional.
 
-The tax collector does not need to make salt valuable.
-
-The body has already done that.
+The tax collector does not need to make salt valuable; the body has already done that.
 
 A government may tax luxuries without entering every household. Tax salt and the state appears at every table. It reaches the rich and poor alike, but equality of reach is not equality of burden. A small charge disappears inside one family’s abundance and enters another family as subtraction: a little less food, a little more debt, another necessity postponed.
 
@@ -22,7 +20,7 @@ The tax seems modest because the object is modest.
 
 That is often how domination survives inspection. Its most durable forms rarely announce themselves as spectacular cruelty. They become part of the price of ordinary life.
 
-People pay. Children eat. The receipt disappears. The arrangement begins to look natural.
+People pay, children eat, the receipt disappears, and the arrangement begins to look natural.
 
 ---
 
@@ -78,9 +76,7 @@ It simplified the entry into the struggle without pretending the struggle itself
 
 Breaking the salt law would not redistribute land, end religious conflict, abolish caste, create democratic institutions, or determine what an independent Indian economy should become. It could not answer every dispute within the nationalist movement. It did not eliminate the differences between a rural laborer, a merchant, an industrial worker, a landlord, a Muslim political leader, a Dalit organizer, or a woman whose participation in public life was constrained by both empire and household.
 
-Salt did not resolve these conflicts.
-
-It allowed people separated by them to recognize one shared intrusion.
+Salt did not resolve these conflicts; it allowed people separated by them to recognize one shared intrusion.
 
 A symbol becomes useful when it reveals more than it conceals. The best symbols do not replace reality. They create a doorway into it.
 
@@ -96,21 +92,15 @@ It would be practiced along the road.
 
 On the morning of March 12, 1930, Gandhi left Sabarmati Ashram with seventy-eight selected companions. He was sixty-one years old. Their destination was Dandi, a coastal village roughly 241 miles away. The walk would take more than three weeks, passing through towns and villages where crowds gathered, local people joined portions of the procession, and Gandhi spoke repeatedly about salt, independence, foreign cloth, alcohol, discipline, and nonviolence.[^s2-3]
 
-A march makes politics visible through bodies.
-
-People who might otherwise exist as petitioners begin occupying distance together. Their argument appears not only in what they say but in the road they are willing to travel. Each step imposes a small cost. Feet blister. Muscles tire. Heat becomes part of the claim.
+A march makes politics visible through bodies. People who might otherwise exist as petitioners begin occupying distance together. Their argument appears not only in what they say but in the road they are willing to travel. Each step imposes a small cost: feet blister, muscles tire, and heat becomes part of the claim.
 
 Walking is among the least specialized forms of public action. A person does not need formal office to join a road. She does not need to understand every clause of a proposed constitution. She needs enough conviction to leave where she was and continue toward somewhere else.
 
-This availability is one of the differences between admiration and participation.
-
-A brilliant speech can make listeners feel that they have witnessed courage. A march asks whether they will move.
+This availability is one of the differences between admiration and participation. A brilliant speech can make listeners feel that they have witnessed courage; a march asks whether they will move.
 
 The distinction mattered to Gandhi. His influence had already accumulated to a degree almost impossible to separate from the campaign. Newspapers followed him. Crowds waited. The frail body, walking staff, plain clothing, and disciplined routine had become part of a public image recognizable far beyond India.
 
-It would be easy to call this humility and leave the matter there.
-
-Humility can itself become theatrical once a person knows the world is watching. Plain clothing can become a uniform. A refusal of luxury can produce another kind of status. The person who appears to possess nothing may acquire immense moral power through the appearance.
+It would be easy to call this humility and leave the matter there; humility can itself become theatrical once a person knows the world is watching. Plain clothing can become a uniform. A refusal of luxury can produce another kind of status. The person who appears to possess nothing may acquire immense moral power through the appearance.
 
 Gandhi understood symbolism too well to be innocent of this.
 
@@ -124,9 +114,7 @@ The walk did not merely display Gandhi’s sacrifice. It created a form others c
 
 We sometimes talk about example as though it were a gentler alternative to power.
 
-The leader does not order. He demonstrates.
-
-Others freely imitate.
+The leader does not order; he demonstrates, and others freely imitate.
 
 But an example can exert extraordinary pressure. The more morally revered the person becomes, the harder it is to decline the invitation without appearing selfish, cowardly, or impure. A leader who undertakes a sacrifice may claim no authority over anyone else while making ordinary hesitation feel like betrayal.
 
@@ -144,11 +132,7 @@ A movement that relies upon humiliation becomes skilled at humiliation. A party 
 
 The future begins taking shape inside the methods used to approach it.
 
-Nonviolence therefore had both a moral and an architectural purpose. It limited what participants were permitted to do to opponents, but it also attempted to create people capable of self-government. A person who could endure provocation without surrendering judgment had acquired something more than obedience to Gandhi.
-
-He had acquired the capacity to choose under pressure.
-
-At least, that was the hope.
+Nonviolence therefore had both a moral and an architectural purpose. It limited what participants were permitted to do to opponents, but it also attempted to create people capable of self-government. A person who could endure provocation without surrendering judgment had acquired something more than obedience to Gandhi. He had acquired the capacity to choose under pressure — at least, that was the hope.
 
 ---
 
@@ -162,23 +146,13 @@ Someone must arrange food. Someone must carry messages. Someone must maintain di
 
 Leadership begins to circulate whenever the work produces decisions the central person cannot personally make.
 
-A village resident sees the march and decides to violate the law locally.
-
-A merchant stops selling foreign cloth.
-
-A student leaves school.
-
-A woman begins picketing a liquor shop.
-
-A local organizer explains the discipline to people who never heard Gandhi speak.
+A village resident sees the march and decides to violate the law locally; a merchant stops selling foreign cloth; a student leaves school; a woman begins picketing a liquor shop; a local organizer explains the discipline to people who never heard Gandhi speak.
 
 The leader’s example remains the catalyst, but the next act no longer belongs entirely to him.
 
 This is the point at which influence becomes dangerous to the institution resisting it. An authority can arrest a leader. It cannot arrest a method as easily once thousands of people understand how to enact it.
 
-The state needs the movement to remain dependent upon the famous person.
-
-The healthy movement must prepare for his absence.
+The state needs the movement to remain dependent upon the famous person; the healthy movement must prepare for his absence.
 
 ---
 
@@ -186,9 +160,7 @@ When Gandhi and the marchers reached Dandi, he did not seize a fortress or occup
 
 On April 6, he bent toward the shore and lifted salt-bearing material from the ground, committing the ceremonial violation he had announced. He then declared the act available to anyone willing to risk prosecution: people could manufacture salt wherever possible and refuse the monopoly themselves.[^s2-4]
 
-The gesture worked because it was both singular and reproducible.
-
-Only Gandhi could perform Gandhi’s act. His particular legitimacy had gathered around the journey. The newspapers had followed his body to the coast.
+The gesture worked because it was both singular and reproducible. Only Gandhi could perform Gandhi’s act. His particular legitimacy had gathered around the journey. The newspapers had followed his body to the coast.
 
 But no special legitimacy was required to make salt afterward.
 
@@ -224,9 +196,7 @@ A movement may invite people to participate while retaining a clear image of wha
 
 Then participation changes the participants.
 
-The person asked to help discovers she can organize.
-
-The person invited into a supporting role sees that she can lead.
+The person asked to help discovers she can organize; the person invited into a supporting role sees that she can lead.
 
 The movement’s own moral language becomes a tool through which its boundaries can be challenged.
 
@@ -238,9 +208,7 @@ A leader cannot reliably contain the meaning of the capacities he helps awaken.
 
 This is one of the most generative and unsettling qualities of leadership circulation. The people influenced by the leader may use their new agency to exceed his design. They may expose contradictions the leader had learned to tolerate. They may become evidence against the limits of his imagination.
 
-The healthiest response is not to treat this as disloyalty.
-
-It is to recognize that the influence has begun living beyond its source.
+The healthiest response is not to treat this as disloyalty; it is to recognize that the influence has begun living beyond its source.
 
 ---
 
@@ -256,21 +224,15 @@ This is what distributed leadership looks like before organizations give it a na
 
 The next leader is not manufactured instantly by the absence of the first. She has been developing elsewhere, acquiring knowledge and credibility through work the central narrative may have treated as secondary.
 
-Then the center disappears.
-
-What had been peripheral becomes visible.
+Then the center disappears, and what had been peripheral becomes visible.
 
 Thousands of volunteers advanced on the Dharasana Salt Works. Police struck the unresisting marchers with steel-tipped batons. The American journalist Webb Miller described rows of protesters moving forward, falling under the blows, and being carried away while others replaced them. He later counted hundreds injured at a temporary hospital, and his reporting circulated internationally despite efforts at censorship.[^s2-6]
 
-The bodies became an argument.
-
-Not because suffering is inherently truthful. A person can suffer for a lie, a hatred, or a fantasy. Pain does not prove moral correctness.
+The bodies became an argument — not because suffering is inherently truthful. A person can suffer for a lie, a hatred, or a fantasy. Pain does not prove moral correctness.
 
 The argument arose from the visible relationship between action and response.
 
-People approached without weapons.
-
-The state answered with force.
+People approached without weapons; the state answered with force.
 
 The empire claimed to preserve order, yet the order could be maintained only by striking people who would not strike back.
 
@@ -292,9 +254,7 @@ Each choice costs something.
 
 But suffering alone does not produce this effect. The suffering must be visible, interpretable, and connected to a claim others can understand. It also requires extraordinary discipline from the people receiving the blows.
 
-To refuse retaliation in a meeting is difficult.
-
-To refuse it when a person beside you has been struck unconscious asks something few people can reliably promise.
+To refuse retaliation in a meeting is difficult; to refuse it when a person beside you has been struck unconscious asks something few people can reliably promise.
 
 This is why Gandhi’s nonviolence cannot be reduced to gentleness. It was a demanding form of coordination. The movement attempted to train fear, anger, loyalty, and bodily instinct so that participants could preserve the contrast between their conduct and the violence of the state.
 
@@ -306,17 +266,13 @@ The wounded body can become material in the leader’s moral strategy. The perso
 
 A movement committed to moral ends must therefore ask not only whether suffering is voluntary, but whose suffering becomes useful to whom.
 
-The leader who accepts danger alongside others gains one kind of credibility.
-
-The leader who repeatedly spends other people’s bodies may retain the language of sacrifice while practicing another form of domination.
+The leader who accepts danger alongside others gains one kind of credibility; the leader who repeatedly spends other people’s bodies may retain the language of sacrifice while practicing another form of domination.
 
 Gandhi understood this danger better than many leaders, but he did not escape it completely.
 
 ---
 
-Moral authority is often described as power acquired without coercion.
-
-The phrase is too clean.
+Moral authority is often described as power acquired without coercion; the phrase is too clean.
 
 A person may possess no legal authority and still exert pressure that others cannot realistically resist. Love, admiration, religious reverence, public expectation, and fear of communal blame can constrain a decision as powerfully as a written order.
 
@@ -330,19 +286,13 @@ Ambedkar experienced its political force from the other side.
 
 The body Gandhi endangered was his own. The moral burden did not remain there. If Gandhi died, Ambedkar and the Dalit cause could be blamed by millions who revered him. A choice that appeared nonviolent in physical form placed immense coercive pressure upon a leader representing people with far less social power.
 
-This does not mean the fast and a police baton were equivalent.
-
-It means voluntary suffering can become a lever.
-
-The more beloved the person undertaking it, the longer the lever becomes.
+This does not mean the fast and a police baton were equivalent; it means voluntary suffering can become a lever — and the more beloved the person undertaking it, the longer the lever becomes.
 
 This is one of the central ambiguities of example-based legitimacy. The leader acquires trust by accepting costs others avoid. That trust allows him to move people without office or procedure. But once the moral authority becomes sufficiently large, his personal conscience can begin overriding the judgment of people who do not share it.
 
 The person who has mastered himself may become less able to see how much power he now holds over others.
 
-Restraint is therefore not merely the refusal to use physical force.
-
-It includes restraint in the use of moral pressure.
+Restraint is therefore not merely the refusal to use physical force; it includes restraint in the use of moral pressure.
 
 ---
 
@@ -402,7 +352,7 @@ The story of development should not become a machine for converting every harm i
 
 The people encountered before the leader learned better still encountered him then.
 
-Moral leadership must be judged by its capacity for revision, but revision begins with admitting that the earlier posture was not merely incomplete in theory. It participated in the world’s distribution of dignity.
+Moral leadership must be judged by its capacity for revision, but revision begins with admitting that the earlier posture was not merely incomplete in theory — it participated in the world’s distribution of dignity.
 
 The person who later teaches humanity may first have required other people to expose the limits of his own.
 
@@ -416,9 +366,7 @@ But an experiment conducted by a leader rarely remains purely personal.
 
 In the final years of his life, Gandhi involved young women close to him in controversial “experiments” intended to test his celibacy, including sharing a bed while unclothed. The women included his young grandnieces and a close female physician. The practices troubled members of his own circle and have remained among the most disturbing aspects of his life because the spiritual test was his while the asymmetry of age, reverence, dependence, and authority was borne by everyone involved.[^s2-9]
 
-The point is not to use one unsettling episode to cancel a life.
-
-Cancellation is another form of simplification.
+The point is not to use one unsettling episode to cancel a life; cancellation is another form of simplification.
 
 The point is to notice what can happen when moral authority becomes too concentrated around a person’s interpretation of his own purity.
 
@@ -426,11 +374,7 @@ Gandhi may have believed the experiments demonstrated mastery over desire. Yet s
 
 The leader can sincerely believe that everyone is participating voluntarily while occupying a position from which refusal has become nearly unimaginable.
 
-This is the shadow of example-based legitimacy.
-
-People trust the leader because he has accepted unusual discipline.
-
-That trust then shields his unusual demands from ordinary scrutiny.
+This is the shadow of example-based legitimacy. People trust the leader because he has accepted unusual discipline; that trust then shields his unusual demands from ordinary scrutiny.
 
 A leader’s willingness to suffer is not enough. He must also remain alert to the possibility that other people are suffering inside the story he tells about his sacrifice.
 
@@ -446,23 +390,11 @@ Gandhi was not extraordinary because he became harmless.
 
 He was extraordinary because he repeatedly attempted to connect political effectiveness with moral means, accepted substantial personal costs, and designed forms of resistance that ordinary people could reproduce. He was also capable of allowing his personal moral certainty to become pressure upon people with less authority, and his vision widened unevenly across race, caste, gender, and intimate power.
 
-The contradictions are not debris surrounding the useful lesson.
+The contradictions are not debris surrounding the useful lesson; they define its boundaries.
 
-They define its boundaries.
+A leader’s example becomes generative when it creates agency in other people; it becomes dangerous when it demands that their agency remain subordinate to his conscience.
 
-A leader’s example becomes generative when it creates agency in other people.
-
-It becomes dangerous when it demands that their agency remain subordinate to his conscience.
-
-The salt campaign moved toward the generative form because the central act could escape Gandhi’s control.
-
-People made salt without him.
-
-Women entered leadership roles he had not initially offered them.
-
-Sarojini Naidu continued after his arrest.
-
-Local communities turned one violation into many.
+The salt campaign moved toward the generative form because the central act could escape Gandhi’s control. People made salt without him. Women entered leadership roles he had not initially offered them. Sarojini Naidu continued after his arrest. Local communities turned one violation into many.
 
 The campaign did not require every participant to become morally identical to Gandhi before acting.
 
@@ -516,9 +448,7 @@ Influence often survives this way.
 
 We search for the leader’s image, institution, successor, or name. We ask whether the movement remained loyal to the original teaching. We look for a line connecting the famous act to everything that followed.
 
-But example rarely travels intact.
-
-It enters other people’s circumstances. They borrow a method and abandon part of its philosophy. They preserve a posture and reinterpret the purpose. They discover that the leader who made action imaginable also carried assumptions they must reject.
+But example rarely travels intact. It enters other people’s circumstances. They borrow a method and abandon part of its philosophy. They preserve a posture and reinterpret the purpose. They discover that the leader who made action imaginable also carried assumptions they must reject.
 
 The influence becomes less visible as it becomes more widely usable.
 
@@ -552,11 +482,7 @@ That is part of the lesson.
 
 Power becomes difficult to challenge when it persuades people that political action belongs elsewhere—to capitals, parties, famous speakers, courts, executives, armies, and people whose biographies already resemble history.
 
-Gandhi understood that the distance between authority and ordinary life could become a weakness.
-
-The empire stood behind statutes, police, prisons, and the accumulated confidence of rule.
-
-The resistance began with something small enough to hold.
+Gandhi understood that the distance between authority and ordinary life could become a weakness. The empire stood behind statutes, police, prisons, and the accumulated confidence of rule; the resistance began with something small enough to hold.
 
 This was moral authority through disciplined example, but the pattern did not end with admiration for the example. Gandhi walked, suffered, broke the law, and accepted arrest. Those acts concentrated legitimacy around him.
 
