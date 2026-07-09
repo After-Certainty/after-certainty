@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-07-05T21:54:21.267730+00:00",
+  "generatedAt": "2026-07-09T00:50:21.690163+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
@@ -671,7 +671,7 @@
       "status": "published",
       "title": "When Incentives Become the Moral Language",
       "subtitle": "How Systems Decide For Us When Judgment No Longer Scales",
-      "description": "Essay edition (~11\u201312k words)\u2014eight institutional domains where metrics and incentives replaced judgment when coordination outran shared meaning. Distinct from When Interpretation No Longer Matters (authority without shared meaning) and The Economy We Don't Experience (lived vs aggregate narrative under compression).",
+      "description": "Essay edition (~9\u201311k words)\u2014eight institutional domains where metrics and incentives replaced judgment when coordination outran shared meaning. Distinct from When Interpretation No Longer Matters (authority without shared meaning) and The Economy We Don't Experience (lived vs aggregate narrative under compression).",
       "authors": [
         "Kevin Steffensen"
       ],
@@ -807,7 +807,7 @@
       "slug": "when-others-look-to-you-v2",
       "source": "books",
       "status": "published",
-      "title": "When Others Look to You",
+      "title": "When Others Look to You: Companion Edition",
       "subtitle": "Forming, Renewing, Eroding, Repeating",
       "description": "A companion edition that extends the leadership cycle across formation, renewal, erosion, and repetition with sharper operational patterns.",
       "authors": [

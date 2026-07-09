@@ -32,7 +32,7 @@ These titles share vocabulary (compression, alignment, judgment) but serve diffe
 |------|-----------------|
 | [Why Collaboration Is So Hard](../../books/why-collaboration-is-so-hard/) | Coordination under diffuse ownership—contribution, trust, structural fragility |
 | [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Authority types when public understanding collapses (essay edition; full case-study band deferred) |
-| [When Incentives Become the Moral Language](../../books/when-incentives-become-the-moral-language/) | Eight domains where metrics replaced judgment |
+| [When Incentives Become the Moral Language](../../books/when-incentives-become-the-moral-language/) | Eight domains where metrics replaced judgment (essay edition; Ch 3–8 author gate signed off July 2026) |
 | [The Economy We Don't Experience](../../books/the-economy-we-dont-experience/) | Lived economy vs aggregate narrative; credibility under pressure |
 | [After Certainty](../../books/after-certainty/) | Practice capstone—how to live and judge after frameworks fail |
 
