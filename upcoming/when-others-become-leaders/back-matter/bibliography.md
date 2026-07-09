@@ -6,6 +6,7 @@ Sources cited in the manuscript and research packets. See [`docs/bibliography-gu
 
 - Ambedkar, B. R. *What Congress and Gandhi Have Done to the Untouchables*. 1945.
 - Charter 77. Founding declaration. 1977. Václav Havel Library.
+- Fred Rogers Productions. Episode archives; Television Hall of Fame materials (Jeff Erlanger appearances).
 - Gandhi, Mohandas K. Letter to Lord Irwin. 2 March 1930. In *The Collected Works of Mahatma Gandhi*.
 - Government of South Africa. Truth and Reconciliation Commission. *Final Report*. 1998.
 - King, Martin Luther Jr. “Beyond Vietnam.” Riverside Church, New York. 4 April 1967.

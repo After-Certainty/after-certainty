@@ -148,7 +148,7 @@ Master claim map in **manuscript reading order**. Footnote IDs match manuscript 
 | Eras Tour scale (~10M tickets; ~$2.2B gross per Pollstar) | verified | [^b1] | Pollstar year-end 2023–2024 |
 | ~$197M crew bonuses reported at tour end | verified | [^b2] | NYT, CNN, *People* (2023) |
 | Regional food-bank donations; AP meal estimates | verified | [^b3] | Associated Press (2023) |
-| “Enduring” for living figure | open | — | See [`open-questions.md`](../open-questions.md) #13 |
+| “Enduring” for living figure | resolved | Ch. 9; epilogue | Circulation-in-progress framing (July 2026); see [`open-questions.md`](../open-questions.md) |
 
 ---
 

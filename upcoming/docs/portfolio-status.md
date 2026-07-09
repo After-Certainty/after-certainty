@@ -12,7 +12,7 @@ Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a sep
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
-| [When Others Become Leaders](../when-others-become-leaders/) | Phase 4 prep | Phase 3 complete (~51k); manuscript-wide editorial next | Global echo + copy edit | [status](../when-others-become-leaders/docs/status.md) |
+| [When Others Become Leaders](../when-others-become-leaders/) | Author gate | Phase 4 complete (~51k); read-through then promote | Author sign-off → Phase 5 | [status](../when-others-become-leaders/docs/status.md) |
 | [Why Diversity Matters](../../books/why-diversity-matters/) | Phase 0–1 | Essay edition in `books/`; outline scaffolds + interview questions | Author intro + chapter drafts | [status](../../books/why-diversity-matters/docs/status.md) |
 | [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Phase 5 (essay edition) | Agent pipeline + echo gates complete; expansion decision locked (~14.5k) | Author sign-off on Parts III–IV gate; export smoke | [status](../../books/when-interpretation-no-longer-matters/docs/status.md) |
 

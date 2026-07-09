@@ -65,7 +65,7 @@ After all units in a part are at least `draft`:
 
 Gate docs: [`part-1-coherence-pass.md`](part-1-coherence-pass.md), [`part-2-coherence-pass.md`](part-2-coherence-pass.md), [`part-3-coherence-pass.md`](part-3-coherence-pass.md).
 
-### Phase 4 — Manuscript-wide editorial (current)
+### Phase 4 — Manuscript-wide editorial ✓
 
 - Structural cohesion across parts.
 - Global echo and compression pass.
@@ -74,7 +74,9 @@ Gate docs: [`part-1-coherence-pass.md`](part-1-coherence-pass.md), [`part-2-cohe
 - Resolve or defer remaining items in [`open-questions.md`](open-questions.md).
 - Optional reader-facing front matter (author's note, how-to-read) before promote.
 
-### Phase 5 — Promote to `books/`
+Gate doc: [`manuscript-wide-pass.md`](manuscript-wide-pass.md).
+
+### Phase 5 — Promote to `books/` (next)
 
 When manuscript is mature and author read-through is complete:
 
@@ -92,4 +94,4 @@ When manuscript is mature and author read-through is complete:
 
 ## Current starting phase
 
-See [`status.md`](status.md) — **Phase 4 — Manuscript-wide editorial** (Phase 3 coherence gates complete).
+See [`status.md`](status.md) — **Phase 5 — Promote to `books/`** (Phase 4 manuscript-wide pass complete; author read-through next).

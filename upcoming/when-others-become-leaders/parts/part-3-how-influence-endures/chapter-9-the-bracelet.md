@@ -122,8 +122,6 @@ Uncertainty is part of the evidence.
 
 It would be easy to confuse scale with quality of leadership. Effectiveness matters, but it cannot settle the argument. Many people have coordinated vast enterprises. Many have attracted devoted audiences. Demagogues can inspire imitation. Markets can produce compliance without moral growth. Culture can reproduce itself efficiently while becoming crueler.
 
-Influence is not healthy merely because it spreads.
-
 The question is what people become while carrying it.
 
 Do they become more dependent on the center, or more attentive to one another? Does participation narrow judgment, or enlarge agency? Does the leader absorb success, or allow recognition to move outward? Do people learn to wait for instruction, or to initiate what no one requested?

@@ -19,6 +19,7 @@ Central navigation for planning documents for *When Others Become Leaders: What 
 - [Drafting process](drafting-process.md) — phase workflow and quality gates
 - [Status](status.md) — current phase, unit progress, next actions
 - [Part coherence passes](part-1-coherence-pass.md) — Phase 3 gates (Parts I–III)
+- [Manuscript-wide pass](manuscript-wide-pass.md) — Phase 4 gate
 - [Bibliography guide](bibliography-guide.md) — sources by unit; drives export bibliography
 - [Research hub](research/README.md) — claims ledger and per-unit source packets
 - [Manuscript hub](../index.md) — manuscript reading order and chapter links
