@@ -1,0 +1,162 @@
+# Chapter 2
+
+## The Feed That Never Empties
+
+He opens the app to answer a message.
+
+The message is from his brother, sent the night before. There is a photograph attached, something involving a dog, a couch, and a cushion that will need to be replaced. He laughs, begins typing a reply, then notices the first post beneath the message: a former coworker announcing a new job, a video of a storm moving toward a town he has never visited, a politician saying something that seems, from the caption, impossible to ignore, a recipe, a woman explaining why the recipe is wrong, and a photograph posted by someone he knew in high school and has not spoken to in twenty-seven years. He pauses over that one.
+
+The platform notices. It does not know why he paused. It cannot see recognition passing across his face or the sudden memory of a cafeteria, a winter coat, and a conversation he had forgotten until the photograph restored it. It knows only that the motion of his thumb stopped.
+
+The pause becomes information.
+
+He keeps moving. A video begins before he has decided to watch it. A man is angry about something that happened in a school district several states away. The first seconds suggest that the event confirms a larger danger. The man speaks quickly. Text appears across the screen, emphasizing particular words. He watches long enough to understand the accusation, then long enough to hear the response, then long enough to become irritated by both. The platform notices this too.
+
+By the time he remembers the message from his brother, eleven minutes have passed. The feed has not ended. It will not end. There is no final page, no closing article, no small blank space announcing that he has reached the limits of what the world has to show him today. The next item waits beneath the one already on the screen, and beneath that another, assembled from people he follows, people they follow, things they admired, things they hated, things strangers watched until the platform learned that people like him might watch them too.
+
+He closes the app. A few hours later, he will open it again. He may say he was bored. He may say he wanted to see whether anyone responded. The platform will have another explanation.
+
+He returned.
+
+### The Problem of the Empty Screen
+
+An empty screen is a failure. This was not always obvious. Early websites had edges. A person arrived at a page, read what was there, followed a link, perhaps clicked back, and eventually encountered the end of what someone had chosen to publish. The page did not need to know the reader personally. It did not rearrange itself while being read.
+
+The early internet was not free of incentives. Pages counted visitors. Advertisers wanted impressions. Publishers learned which headlines drew attention. Search engines ranked some sites above others. People discovered quickly that visibility could be measured and that what could be measured could be sold. But the feed introduced a different relationship. The screen no longer waited for a person to decide where to go next. It decided what next would look like.
+
+This solved a real problem. As more people joined, more material appeared than anyone could reasonably sort through. Friends posted photographs. Newspapers published articles. Musicians uploaded songs. Companies announced products. Strangers offered commentary on events occurring everywhere at once. A chronological list could display the flood, but it could not make the flood meaningful. The platform needed to choose: which photograph should appear first, which article should be shown now rather than tomorrow, which friend's update was likely to matter, which video might hold attention long enough to justify the space it occupied.
+
+These questions sound editorial because they are editorial. Any ranked feed is an arrangement of importance, even when the importance is temporary and personalized. But platforms could not hire enough editors to make those decisions one person at a time. No group of human beings could read everything produced by millions, then billions, of people across languages, cultures, and legal systems and decide what each individual should encounter next. Judgment had to travel farther than judgment could go.
+
+So the platforms learned to watch behavior. A click meant something. A pause meant something. A share meant something. A comment, reaction, replay, follow, hide, unfollow, or return each supplied another fragment of information. None of these signals offered a complete account of value. They did not need to. They helped solve the immediate problem of the empty screen: show the person something likely to keep the person present, then learn from what happens. The feed began to fill itself.
+
+### A Signal Is Not Yet a Value
+
+There is nothing inherently sinister about measuring attention. A librarian notices which books are checked out. A teacher sees where students lose interest. A newspaper editor learns which sections readers return to. A shopkeeper notices what remains on the shelf. People have always interpreted behavior because behavior contains information. What people do can challenge what they say they want. It can reveal desires, habits, and needs that surveys or conversations fail to capture.
+
+Platforms made that observation continuous. A person might claim to prefer long, thoughtful articles and spend most of the evening watching short videos. She might say she wants to hear from close friends and repeatedly engage with strangers. He might insist that political conflict exhausts him while returning to it several times a day. The system does not need to accuse anyone of hypocrisy. It simply adjusts.
+
+This makes behavioral data feel more honest than judgment. An editor might claim that a post is important because of personal bias, professional ideology, or cultural blindness. A user's action appears to come from the user. *We did not choose this for you,* the logic suggests. *You showed us what you wanted.* There is truth in that defense. The person did pause. The person did click. The person did return.
+
+But a signal becomes more than a description once the system uses it to shape the next choice. The pause influences what appears later. What appears later creates another opportunity to pause. The signal enters the environment it measures. From that moment forward, behavior is neither simply discovered nor simply created. It emerges through an exchange between the person and a system continually adapting to the person. The feed watches the user. The user learns from the feed what is available to watch.
+
+### The First Small Preference
+
+Imagine that a person slows down for one political video. Perhaps the video confirms something she already believes. Perhaps she disagrees and wants to understand how anyone could say such a thing. Perhaps the speaker resembles someone she knows. Perhaps the caption makes a claim she is not sure is true. Her attention has a reason. The system does not need to know it. It needs only the response.
+
+The next political video is slightly easier to justify because of the first one. If she watches that too, the system gains confidence. The sequence need not become extreme. It may simply become more coherent. More material arrives from the same subject, tone, or community. Soon the feed appears to reveal a world in which this topic is unusually important. Other people are talking about it. New examples keep appearing. The issue seems to be everywhere.
+
+The platform can say, accurately, that it is responding to demonstrated interest. The user can say, accurately, that she is responding to what keeps appearing. Neither statement explains the whole loop. A preference that began as a moment becomes an environment. The environment strengthens the preference. Then the strengthened preference returns as evidence that the system understood the person correctly.
+
+This is not necessarily manipulation in the ordinary sense. There may be no individual planning the path. No one needs to decide that this particular person should become angrier, more frightened, or more certain. The system optimizes a response. The response becomes a direction. Direction accumulates.
+
+### The Mirror With a Memory
+
+Platforms often describe themselves as mirrors. People post what they post. Users respond as they respond. The platform reflects society back to itself. The metaphor is attractive because mirrors do not author the faces they display. They may distort, but they do not invent the person standing before them.
+
+A feed is not quite a mirror. A mirror shows what is present. A feed remembers what held attention yesterday and uses that memory to arrange what will be visible today. It is a mirror with a memory: it rearranges what it will reflect before the reflection arrives.
+
+This does not mean that the platform creates every desire it amplifies. Anger, fear, curiosity, affection, envy, solidarity, and cruelty exist before the feed encounters them. People brought those capacities with them. But a system can change the relative visibility of what already exists. It can make a rare behavior appear common by showing it repeatedly. It can make a distant conflict feel immediate. It can turn one person's impulsive statement into an event witnessed by millions. It can bring together people who thought they were alone. It can also bring together people who become more certain because they no longer feel alone.
+
+The mirror does not merely show society. It changes which parts of society can see one another.
+
+### Connection Was a Moral Claim
+
+The earliest promises of social platforms often sounded technical: connect people, make the world more open, allow anyone to publish, reduce the distance between friends, communities, public figures, and institutions. But these were moral claims as much as product descriptions. They assumed that connection was generally good, that expression benefited from wider access, and that people would gain something from encountering more of one another.[^c2-zuckerberg-senate]
+
+Those assumptions were not foolish. Families separated by continents could remain present in each other's lives. People with rare illnesses could find communities. Artists could reach audiences without asking established institutions for permission. Witnesses could show events that powerful organizations preferred to keep unseen. Movements could form before gatekeepers decided whether their causes were legitimate. The platform did not merely create distraction. It expanded who could speak and who could be heard. Any honest account of what followed has to preserve that achievement.
+
+The same architecture that spreads cruelty can spread warnings, humor, companionship, and help. The same recommendation system that captures attention can introduce someone to a teacher, writer, community, or idea that changes a life. Connection is not an illusion because connection can be exploited. The difficulty is that connection is not one measurable thing.
+
+A conversation can deepen a relationship without producing many reactions. A photograph can matter enormously to twelve people and not at all to twelve million. A careful explanation can reduce certainty rather than provoke a response. A person can leave the platform after receiving exactly what she needed. These outcomes are difficult to infer from behavior because the behaviors may look like failure. The meaningful conversation may be private. The photograph may not travel. The explanation may generate less reaction than the accusation it complicates. The satisfied person may close the app.
+
+A system built to sustain connection therefore faces a practical question: how does it recognize that connection succeeded? One available answer is continued engagement. The person stayed. The person responded. The person came back. The signal is imperfect, but it travels. Soon it becomes difficult to distinguish the measure of connection from connection itself.
+
+### What Holds Attention
+
+Not everything holds attention equally. A quiet photograph may invite a glance. A threat invites vigilance. A joke rewards recognition. An insult creates the possibility of reply. A claim that confirms identity offers belonging. A claim that attacks identity offers defense. Emotion is not an accidental feature of communication. People care through emotion. Grief, delight, anger, fear, and affection are among the ways significance becomes visible.
+
+A platform cannot simply remove emotional material without removing much of what makes human communication human. But systems learn from intensity. A person who is mildly pleased may continue scrolling. A person who is offended may stop, reread, comment, share, search for context, return to see responses, and discuss the post elsewhere. From the perspective of observable behavior, outrage is rich with information.
+
+The system does not need to prefer anger as a moral condition. It needs only to discover that anger produces signals. This distinction protects the institution from the language of editorial intention. *We did not choose anger. We chose predicted relevance. Users supplied the anger.* Again, the claim is not fully false. But relevance determined by behavioral intensity becomes a theory of value whether anyone calls it one. The system learns that what agitates people deserves further distribution because agitation demonstrates interest. Then people encounter more of what agitates them. Attention becomes both the measurement and the reward.[^c2-horwitz-seetharaman]
+
+### The Engineer Looking at Two Graphs
+
+Somewhere inside the company, an engineer or product manager looks at two graphs. One shows a measure the organization values: time spent, return visits, meaningful interactions, video completion, or another indicator of continued use. The second shows something more difficult: reports of harmful content, surveys of user satisfaction, internal research on well-being, the prevalence of material employees believe is divisive, misleading, or corrosive. The graphs do not point in the same direction. A change that improves one may weaken the other.
+
+Reducing the spread of highly activating material may make the environment calmer. It may also reduce the behavior the system has learned to recognize as engagement. The person studying the graphs may care deeply about the second one. She may have joined the company because she believed connection could help people. She may be alarmed by what the research suggests. She is also responsible for a system serving an enormous population.
+
+Changing a ranking signal can affect creators, businesses, political groups, news organizations, and ordinary users in ways no one can fully predict. A decision presented internally as reducing harm may be experienced externally as suppression, bias, paternalism, or political control. Whose judgment should replace the behavior of users? Which definition of harm should govern across cultures? What evidence is strong enough to justify changing what billions of people see? The questions are real. So is the organizational risk.
+
+Behavioral metrics offer shelter because they make the system appear responsive rather than authoritative. The platform can say that it does not decide what people should value. It learns from what people do. A human judgment about desirable public life is contestable. A graph of user behavior looks descriptive. The institution gravitates toward the language it can defend.[^c2-horwitz-seetharaman][^c2-haugen-senate]
+
+Any ordering rule distributes visibility. Chronology favors frequent posters; recency is still a choice. The relevant question is whether the values remain visible and contestable after being translated into signals.
+
+### The User Who Did Not Ask for This
+
+People often notice that their feeds do not resemble what they believe they chose. They follow friends and see strangers. They ask for cooking videos and receive culture war. They click on one account of a tragedy and encounter the tragedy for days. They linger over something out of disbelief and are treated as though disbelief were appetite.
+
+The system is not entirely wrong. Attention occurred. The mistake lies in assuming that every form of attention contains consent to receive more. A person looks at an accident while passing it. A person rereads an insulting message. A person searches for symptoms because she is afraid. A person watches a disturbing video because he cannot understand whether it is real. Human beings attend to what troubles them. A system that treats attention as preference risks feeding people the things they cannot easily turn away from.
+
+The user may attempt to correct the feed. Hide this. Show less. Unfollow. Block. Not interested. These controls matter. They give people ways to speak back in a language the system can process. But correction requires awareness. The person must recognize that the environment is being shaped, understand which action may reshape it, and resist the easier motion of continuing to scroll. The feed adjusts faster than most people reflect. By the time the user says, "Why am I seeing so much of this?" the answer may be distributed across hundreds of small interactions no one remembers.
+
+### The Creator Learns the Feed
+
+The platform does not shape only consumption. It shapes expression. A person posts a thoughtful paragraph and receives little response. She posts a sharper version and sees it travel. A creator learns that the opening seconds of a video determine whether the rest will be seen. A journalist learns that conflict in the caption attracts more attention than context. A comedian learns which kind of joke is shared. A political organizer learns which fear produces donations. A teacher learns to compress an explanation into the format the feed rewards.
+
+No platform needs to issue instructions. The incentives teach through visibility. What spreads becomes an example of what can spread. People imitate successful forms, sometimes consciously and sometimes through the slow adjustment of craft. Statements become shorter. Certainty becomes cleaner. Conflict becomes easier to identify. Faces move closer to the camera. The most arresting sentence moves to the beginning. Complexity becomes something to deliver after attention has already been captured, if there is time.
+
+Some of these adaptations improve communication. A slow, obscure explanation may become clearer. A person may learn to respect an audience's limited time. Expertise can become accessible. But accessibility and amplification are not the same. A format optimized to stop the scroll does not simply translate meaning. It teaches meaning to arrive as interruption.
+
+The creator begins by asking: what do I want to say? Then: how can I say it so people will see it? Eventually: what can I say that the system will carry? The platform's moral language becomes the creator's internal language.
+
+### What Becomes Easy to Believe
+
+Repetition has always influenced belief. Feeds accelerate the effect because repetition can feel like independent confirmation—a claim from a friend, then a video, then a reaction, then a joke that assumes the claim is already known. Distribution creates importance before verification creates truth. Accurate material can also become disproportionate. The pieces may be real. The proportion can still be false.
+
+A system optimized for individualized attention has no natural obligation to present a representative sample of reality. Its task is to select material relevant to the person, not to preserve statistical balance.
+
+### No Single Moment of Renunciation
+
+In the hospital, the tension becomes visible when someone is discharged. A patient may benefit from another night. Someone else needs the bed. The decision occurs in a room, at a time, with people who can remember it. The feed has no equivalent moment. No one gathers to announce that engagement will now replace judgment. There is no single meeting in which the institution abandons connection and chooses attention instead.
+
+The transition happens through thousands of improvements. A ranking model becomes more accurate. A recommendation keeps users from leaving. A notification brings people back. A new format increases participation. A creator tool makes publishing easier. A safety rule reduces one category of harm. A growth experiment succeeds. Each decision can be justified within its own frame. Together they create an environment in which what produces measurable response receives more opportunity to produce measurable response.
+
+Responsibility disperses. The engineer worked on prediction. The product manager improved retention. The moderator enforced policy. The creator made material people chose to watch. The user chose to watch it. The advertiser paid for access to attention already present. Everyone touched the system. No one authored the whole.
+
+Large platforms often know a great deal about the environments they create—and struggle to say so publicly without admitting editorial power they are structured to deny.[^c2-pichai-house][^c2-haugen-senate] Their business depends on systems powerful enough to shape attention; their public defense often presents those systems as merely responsive to users. Moderators perform human judgment at the edges of that scale—policies, appeals, interpreters who see what categories miss. Their work is essential and often classified as operational labor rather than editorial authority, judgment hidden where the institution prefers to describe itself as responsive.
+
+This is one reason platform harm is difficult to name. Ordinary moral language looks for intention, decision, and consequence in a line. The feed operates through loops.
+
+### The Person the Metric Cannot Recognize
+
+A user opens the platform because her mother died. She reads old messages. She looks through photographs. She visits the profile that no longer changes. She pauses for a long time. The system sees unusually deep engagement. There may be no category for grief.
+
+Another user finds a community of people living with the same disability. He reads without reacting because he is not ready to speak. The system sees passive consumption. There may be no category for relief.
+
+A teenager watches videos from a political movement because she is trying to understand why a friend has changed. The system sees interest. There may be no category for worried investigation.
+
+A man closes the app after one meaningful exchange and does not return that day. The system sees reduced use. There may be no category for enough.
+
+Metrics do not fail because they cannot read souls. No institution can fully know what an action means to the person performing it. The danger begins when the system treats what it can infer as the morally relevant whole. Continued presence becomes satisfaction. Response becomes value. Return becomes success. Departure becomes loss. The person whose need was met by leaving is difficult for the system to recognize as a successful outcome. The feed was built to continue. Enough is the one thing it does not naturally know how to provide.
+
+### The Endless Next Thing
+
+An infinite feed removes the stopping cue. The user stops when something outside intervenes—a meeting, fatigue, a child asking a question. The endless structure aligns with the metric: every stopping point is an opportunity for departure. The feed does not ask whether you received what you came for. It asks what should come next.
+
+Hours later, he remembers the photograph of the dog. He opens the app again. The message is still there, though the feed appears first. A video begins. This time he moves past it. He finds the conversation with his brother and types the response he intended to send that morning.
+
+For a moment, the platform has fulfilled its original promise. Distance shrinks. Two people share a small piece of life. The exchange does not need to become public, viral, optimized, or influential. It is simply connection.
+
+Then a notification appears above the conversation. Someone has replied to a comment he does not remember making. He touches it. The feed opens beneath him. What follows has been prepared from the accumulated record of what has held him before. Perhaps he stays. Perhaps he closes it. Either action becomes another signal. The platform learns.
+
+### Core Principle
+
+**What Holds Attention Receives More Attention**
+
+Engagement begins as information—and becomes evidence and reward. Connection continues across distances that once kept people apart. When behavioral response becomes the language through which the system recognizes worth, the feed stops merely reflecting attention. It begins teaching attention where to go.
+
+[^c2-zuckerberg-senate]: Mark Zuckerberg, testimony before U.S. Senate Judiciary and Commerce Committees, April 10–11, 2018.
+[^c2-pichai-house]: Sundar Pichai, testimony before U.S. House Judiciary Committee, December 11, 2018.
+[^c2-horwitz-seetharaman]: Jeff Horwitz and Deepa Seetharaman, "Facebook Executives Shut Down Efforts to Make the Site Less Divisive," *Wall Street Journal*, May 26, 2020.
+[^c2-haugen-senate]: Frances Haugen, testimony and disclosures regarding Facebook internal research, U.S. Senate Commerce Subcommittee on Consumer Protection, October 5, 2021.

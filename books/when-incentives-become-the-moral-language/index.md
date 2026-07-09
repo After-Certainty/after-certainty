@@ -1,6 +1,6 @@
 # **When Incentives Become the Moral Language**
 
-## **How Systems Decide for Us When Judgment No Longer Scales**
+## **How Systems Decide For Us When Judgment No Longer Scales**
 
 ### **Contents**
 
@@ -9,32 +9,47 @@
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
 - [About the Series](front-matter/about-the-series.md)
-- [Introduction — Why Judgment No Longer Coordinates Action](front-matter/introduction-why-judgment-no-longer-coordinates-action.md)
+- [Introduction — The Question the Dashboard Cannot Ask](front-matter/introduction-the-question-the-dashboard-cannot-ask.md)
 
-## Part I — When Judgment Fractures
+## Part I — The Need for Translation
 
-- [Part I bridge](parts/part-1-when-judgment-fractures/bridge.md)
-- [Chapter 1 — Care Without Caring](parts/part-1-when-judgment-fractures/chapter-1-care-without-caring.md)
-- [Chapter 2 — Engagement as a Theory of Value](parts/part-1-when-judgment-fractures/chapter-2-engagement-as-a-theory-of-value.md)
-- [Chapter 3 — Publishing as Truth](parts/part-1-when-judgment-fractures/chapter-3-publishing-as-truth.md)
-- [Chapter 4 — Targets Without Judgment](parts/part-1-when-judgment-fractures/chapter-4-targets-without-judgment.md)
+- [Part I — The Need for Translation](parts/part-1-the-need-for-translation/bridge.md)
+- [Chapter 1 — The Bed Someone Else Needs](parts/part-1-the-need-for-translation/chapter-1-the-bed-someone-else-needs.md)
+- [Chapter 2 — The Feed That Never Empties](parts/part-1-the-need-for-translation/chapter-2-the-feed-that-never-empties.md)
+- [Chapter 3 — The Paper That Must Count](parts/part-1-the-need-for-translation/chapter-3-the-paper-that-must-count.md)
 
-## Interlude — What This Book Is Not
+## Interlude — The Map Was Not a Lie
 
-- [Interlude — What This Book Is Not](front-matter/interlude-what-this-book-is-not.md)
+- [Interlude — The Map Was Not a Lie](front-matter/interlude-the-map-was-not-a-lie.md)
 
-## Part II — When Formula Speaks
+## Part II — When the Translation Takes Over
 
-- [Part II bridge](parts/part-2-when-formula-speaks/bridge.md)
-- [Chapter 5 — Fairness by Formula](parts/part-2-when-formula-speaks/chapter-5-fairness-by-formula.md)
-- [Chapter 6 — Attention as Importance](parts/part-2-when-formula-speaks/chapter-6-attention-as-importance.md)
-- [Chapter 7 — Polling as Moral Signal](parts/part-2-when-formula-speaks/chapter-7-polling-as-moral-signal.md)
-- [Chapter 8 — Formation Without Formation](parts/part-2-when-formula-speaks/chapter-8-formation-without-formation.md)
+- [Part II — When the Translation Takes Over](parts/part-2-when-the-translation-takes-over/bridge.md)
+- [Chapter 4 — The Target on the Wall](parts/part-2-when-the-translation-takes-over/chapter-4-the-target-on-the-wall.md)
+- [Chapter 5 — The Matrix With No Author](parts/part-2-when-the-translation-takes-over/chapter-5-the-matrix-with-no-author.md)
+- [Chapter 6 — The Front Page Watches Back](parts/part-2-when-the-translation-takes-over/chapter-6-the-front-page-watches-back.md)
+
+## Part III — The World the Metric Makes
+
+- [Part III — The World the Metric Makes](parts/part-3-the-world-the-metric-makes/bridge.md)
+- [Chapter 7 — The Poll Before the Position](parts/part-3-the-world-the-metric-makes/chapter-7-the-poll-before-the-position.md)
+- [Chapter 8 — The Child the Score Cannot Hold](parts/part-3-the-world-the-metric-makes/chapter-8-the-child-the-score-cannot-hold.md)
+- [Chapter 9 — When the Proxy Becomes the Good](parts/part-3-the-world-the-metric-makes/chapter-9-when-the-proxy-becomes-the-good.md)
+
+## Part IV — What Judgment Still Knows
+
+- [Part IV — What Judgment Still Knows](parts/part-4-what-judgment-still-knows/bridge.md)
+- [Chapter 10 — The Hidden Subsidy](parts/part-4-what-judgment-still-knows/chapter-10-the-hidden-subsidy.md)
+- [Chapter 11 — The Institution That Cannot Hear Itself](parts/part-4-what-judgment-still-knows/chapter-11-the-institution-that-cannot-hear-itself.md)
+- [Chapter 12 — Keeping the Difference Alive](parts/part-4-what-judgment-still-knows/chapter-12-keeping-the-difference-alive.md)
+
+## Epilogue
+
+- [Epilogue — The Blank Column](back-matter/epilogue-the-blank-column.md)
 
 ## Back Matter
 
-- [Conclusion — Living Inside Incentive Systems Without Becoming One](back-matter/conclusion-living-inside-incentive-systems.md)
-- [Appendix — A Note on Method and Sources](back-matter/appendix-method-and-sources.md)
+- [Appendix — A Note on Scenes and Sources](back-matter/appendix-method-and-sources.md)
 - [Bibliography](back-matter/bibliography.md)
 
 ## Related books

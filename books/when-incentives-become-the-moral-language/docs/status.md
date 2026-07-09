@@ -2,19 +2,30 @@
 
 ## Current phase
 
-**Phase 5 (essay edition)** — agent pipeline **01–08** complete (May 2026); author gate Ch 3–8 signed off (July 2026)
+**Essayistic rewrite — complete** — July 2026
 
-## Expansion decision
+| Milestone | Status |
+|-----------|--------|
+| Rewrite planning document | **Complete** — [`WHEN_INCENTIVES_REWRITE_PLAN.md`](WHEN_INCENTIVES_REWRITE_PLAN.md) |
+| **Introduction rewrite** | **Complete** — [`introduction-the-question-the-dashboard-cannot-ask.md`](../front-matter/introduction-the-question-the-dashboard-cannot-ask.md) |
+| **Part I rewrite (Ch 1–3)** | **Complete** — [`part-1-the-need-for-translation/`](../parts/part-1-the-need-for-translation/) |
+| **Interlude rewrite** | **Complete** — [`interlude-the-map-was-not-a-lie.md`](../front-matter/interlude-the-map-was-not-a-lie.md) |
+| **Part II rewrite (Ch 4–6)** | **Complete** — [`part-2-when-the-translation-takes-over/`](../parts/part-2-when-the-translation-takes-over/) |
+| **Part III rewrite (Ch 7–9)** | **Complete** — [`part-3-the-world-the-metric-makes/`](../parts/part-3-the-world-the-metric-makes/) |
+| **Part IV rewrite (Ch 10–12)** | **Complete** — [`part-4-what-judgment-still-knows/`](../parts/part-4-what-judgment-still-knows/) |
+| **Epilogue rewrite** | **Complete** — [`epilogue-the-blank-column.md`](../back-matter/epilogue-the-blank-column.md) |
+| Transition / repetition pass | **Complete** (July 2026) |
+| Citation audit | **Complete** — [`citation-audit.md`](citation-audit.md) |
+| Appendix (scene-first method) | **Complete** — [`appendix-method-and-sources.md`](../back-matter/appendix-method-and-sources.md) |
+| Voice consistency pass | **Complete** — [`voice-pass-notes.md`](voice-pass-notes.md) |
+| Legacy manuscript and docs removed | **Complete** (July 2026) |
+| Author approval gates | **Pending** — [`author-approval-gates.md`](author-approval-gates.md) |
 
-**Locked (July 2026):** concentrated **essay edition** (~9–11k) is the export band. Promoted to `books/` in Pass 5.
+## Manuscript
 
-| Band | Status |
-|------|--------|
-| **Essay edition** (~9–11k) | **Current** — export-ready after build smoke |
-| **First editorial cycle** (~12–18k) | **Deferred** — schedule Agent **01** passes when author requests |
-| **Long-term completion** (~60–80k) | **Deferred** — per `book-rules.md` |
-
-Agent **01** runs light deepen only under essay edition.
+| Edition | Notes | Status |
+|---------|-------|--------|
+| **Essayistic rewrite** | Length follows craft—no fixed word band | **Complete** — ~36.5k words (July 2026) |
 
 ## Manuscript hub
 
@@ -22,115 +33,63 @@ Agent **01** runs light deepen only under essay edition.
 
 ## Structure
 
-| Part | Slug | Chapters |
-|------|------|----------|
-| I — When Judgment Fractures | `part-1-when-judgment-fractures` | 1–4 |
-| II — When Formula Speaks | `part-2-when-formula-speaks` | 5–8 |
+| Part | Chapters |
+|------|----------|
+| Introduction | The Question the Dashboard Cannot Ask |
+| I — The Need for Translation | 1–3 (healthcare, platforms, academia) |
+| Interlude | The Map Was Not a Lie |
+| II — When the Translation Takes Over | 4–6 (climate, workforce, journalism) |
+| III — The World the Metric Makes | 7–9 (politics, education, synthesis) |
+| IV — What Judgment Still Knows | 10–12 (subsidy, deafness, orientation) |
+| Epilogue | The Blank Column |
+
+See [`WHEN_INCENTIVES_REWRITE_PLAN.md` §4](WHEN_INCENTIVES_REWRITE_PLAN.md#4-proposed-book-architecture) for full architecture.
 
 ## Unit progress
 
-| Unit | Words | Agents 01–06 | Notes |
-|------|------:|--------------|-------|
-| Title Page | — | — | Out of pipeline |
-| Copyright | — | — | Out of pipeline |
-| Introduction | 849 | **Complete** | 01–06 on promote branch |
-| Interlude | 490 | **Complete** | Between Part I and II; scope handoff prose updated |
-| Part I bridge | ~720 | **Complete** | Drafted at promote; reflow |
-| Ch 1 — Care | 1208 | **Complete** | 01–06 complete; expanded mechanism + citation cleanup |
-| Ch 2 — Engagement | 1408 | **Complete** | 01–06 complete; editorial-judgment collapse mechanism expanded; citations cleaned |
-| Ch 3 — Publishing | 1086 | **Complete** | 01–06 complete; productivity-vs-contribution mechanism expanded; citations normalized |
-| Ch 4 — Targets | 1192 | **Complete** | 01–06 complete; offset/ESG mechanism expanded; responsibility-vs-seriousness distinction sharpened |
-| Ch 5 — Fairness | 1025 | **Complete** | 01–06 complete; fairness-vs-defensibility mechanism expanded; citations normalized |
-| Ch 6 — Attention | 1022 | **Complete** | 01–06 complete; audience-vs-public distinction; differentiated from Ch 2 platform case |
-| Ch 7 — Polling | 863 | **Complete** | 01–06 complete; polling-vs-legitimacy mechanism; differentiated from Ch 6 |
-| Ch 8 — Formation | 763 | **Complete** | 01–06 complete; formation-vs-measurement capstone; handoff to conclusion |
-| Part II bridge | ~140 | **Complete** | Part II echo pass: trimmed previews |
-| Conclusion | 920 | **Complete** | 01–06 complete; synthesis + orientation (no program); handoff from Ch 8 |
-| Appendix | 330 | Optional | |
-| Bibliography | — | — | Linked from index |
+| Unit | Words (approx.) | Status |
+|------|----------------:|--------|
+| Introduction | 1,130 | Complete |
+| Ch 1 — The Bed Someone Else Needs | 2,980 | Complete |
+| Ch 2 — The Feed That Never Empties | 5,130 | Complete |
+| Ch 3 — The Paper That Must Count | 2,650 | Complete |
+| Interlude — The Map Was Not a Lie | 1,190 | Complete |
+| Ch 4 — The Target on the Wall | 2,400 | Complete |
+| Ch 5 — The Matrix With No Author | 2,900 | Complete |
+| Ch 6 — The Front Page Watches Back | 4,600 | Complete |
+| Ch 7 — The Poll Before the Position | 2,050 | Complete |
+| Ch 8 — The Child the Score Cannot Hold | 2,090 | Complete |
+| Ch 9 — When the Proxy Becomes the Good | 1,550 | Complete |
+| Ch 10 — The Hidden Subsidy | 3,890 | Complete |
+| Ch 11 — The Institution That Cannot Hear Itself | 2,020 | Complete |
+| Ch 12 — Keeping the Difference Alive | 1,440 | Complete |
+| Epilogue — The Blank Column | 2,440 | Complete |
 
-**Agent 00:** Not required — all units are drafted prose (no outline-only stubs).
+**Total:** ~36,520 words (July 2026).
 
-## Part echo gates
+## Author gates
 
-| Part | Status | Severity |
-|------|--------|----------|
-| Part I | **Complete** | low |
-| Part II | **Complete** | low |
-| Conclusion (07-lite vs Part II) | **Complete** | low |
+| Gate | Status |
+|------|--------|
+| Rewrite approval gates | **Pending** — [`author-approval-gates.md`](author-approval-gates.md) |
 
-### Part I echo gate
+## Agent pipeline
 
-Severity: **medium → low** after pass.
-
-| Location | Action | Rationale |
-|----------|--------|-----------|
-| `parts/part-1-when-judgment-fractures/bridge.md` opening | cut/reframe | Intro and interlude already own global frame; bridge now owns Part I arc directly |
-| `parts/part-1-when-judgment-fractures/bridge.md` invariant restatement | cut | Removed duplicate invariant paragraph already established in introduction |
-| `parts/part-1-when-judgment-fractures/chapter-1-care-without-caring.md` closing | cut/reframe | Avoided repeating bridge-level "this chapter begins Part I" scaffolding |
-| `parts/part-1-when-judgment-fractures/chapter-4-targets-without-judgment.md` cross-chapter callback | reframe | Kept continuity while reducing repeated chapter-by-chapter recap language |
-
-### Part II echo gate
-
-Severity: **medium → low** after pass.
-
-| Location | Action | Rationale |
-|----------|--------|-----------|
-| `parts/part-2-when-formula-speaks/bridge.md` | cut/reframe | Removed Part I recap and long chapter previews; interlude owns scope; bridge owns Part II arc |
-| `parts/part-2-when-formula-speaks/chapter-5`–`7` closings | reframe | Shortened forward handoffs; bridge already orients Part II |
-| `parts/part-2-when-formula-speaks/chapter-8` closing | reframe | Capstone ends toward conclusion, not another domain preview |
-
-### Conclusion echo gate (07-lite)
-
-Severity: **medium → low** after pass.
-
-| Location | Action | Rationale |
-|----------|--------|-----------|
-| `back-matter/conclusion-living-inside-incentive-systems.md` Part I/II recap | cut/reframe | Removed second domain inventory and invariant restatement already in intro + Part II bridge |
-| `back-matter/conclusion-living-inside-incentive-systems.md` interlude callback | reframe | Short pointer; interlude owns full scope refusal |
-| `parts/part-2-when-formula-speaks/chapter-8` capstone label | cut | Conclusion owns manuscript synthesis |
-| `parts/part-2-when-formula-speaks/chapter-8` closing | reframe | Avoid repeating conclusion's no-program refusal |
-
-## Manuscript echo gate (08)
-
-| Status | Severity |
-|--------|----------|
-| **Complete** | low |
-
-Severity: **medium → low** after pass. Cluster skim: after-certainty, economy, interpretation (titles + intros)—no long re-argue of compression or interpretation collapse; conclusion owns portfolio boundary sentence.
-
-| Location | Action | Rationale |
-|----------|--------|-----------|
-| `front-matter/introduction-*.md` procedure section | cut/reframe | Removed Google/Meta, hospital, platform vignettes; chapters own canonical examples |
-| `front-matter/introduction-*.md` moral residue vignette | cut | Avoided nurse/manager/moderator list duplicated in conclusion |
-| `parts/part-1-*/bridge.md` | cut/reframe | Thin domain labels; removed mechanism repetition from Ch 1–4 |
-| `parts/part-2-*/bridge.md` | cut | Removed invariant restatement (intro + conclusion own) |
-| `chapter-3` cross-domain callback | reframe | Generic "earlier domains" |
-| `chapter-6` / `chapter-7` closings | reframe | Varied "At human scale" phrasing across Part II |
-
-## Author gate
-
-Ch 3–8 human read-through: **complete (July 2026)** — [`author-read-through-gate-ch-3-8.md`](author-read-through-gate-ch-3-8.md)
+| Pipeline | Status | Location |
+|----------|--------|----------|
+| Essayistic rewrite | **Active** | [`agents/rewrite/`](agents/rewrite/) |
 
 ## Build smoke
 
-**July 2026:** `make validate-book-specs` pass; `make build-book DIR=books/when-incentives-become-the-moral-language FORMATS="docx epub"` pass (18 units). PDF export requires `xelatex` (verify in CI/release workflow).
+Run `make validate-book-specs` and `make build-book` before release promotion.
 
 ## Next actions
 
-1. Export release via GitHub release workflow (exports enabled in `book.yml`).
+1. Author sign-off on [`author-approval-gates.md`](author-approval-gates.md)
 
-## Rough scale
+## Key documents
 
-- ~9.1k words (July 2026); pipeline edits are structural/voice under essay edition, not full-band growth
-
-## Promote checklist (structure)
-
-- [x] Copy to `books/when-incentives-become-the-moral-language/`
-- [x] Two-part folder layout + bridges
-- [x] `docs/agents/` 01–08 + README + chapter-pipeline
-- [x] `book.yml` publishing enabled; exports enabled (docx/epub/pdf); `github.release: true`
-- [x] `make validate-book-specs` passes
-- [x] Cross-links updated (series-guide, README, cluster books)
-- [x] Full agent pipeline **01–08**
-- [x] Regenerate `docs/portfolio-audit/data/books-manifest.json` (books path; exports on)
+- [`WHEN_INCENTIVES_REWRITE_PLAN.md`](WHEN_INCENTIVES_REWRITE_PLAN.md)
+- [`author-approval-gates.md`](author-approval-gates.md)
+- [`book-rules.md`](book-rules.md)
+- [`drafting-process.md`](drafting-process.md)

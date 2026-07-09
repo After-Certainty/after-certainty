@@ -1,0 +1,20 @@
+# Tuning for tools/generate_open_graph.py — When Incentives Become the Moral Language
+bg_crop: [80, 520, 944, 1280]
+tint: [18, 28, 52, 140]
+accent_color: [118, 148, 168]
+title_lines:
+  - text: When Incentives
+    color: white
+  - text: Become the
+    color: white
+  - text: Moral Language
+    color: accent
+subtitle_lines:
+  - HOW SYSTEMS DECIDE FOR US
+  - WHEN JUDGMENT NO LONGER SCALES
+subtitle_color: accent
+font_title: 46
+font_sub: 17
+title_start_y: 78
+title_line_gap: 54
+rule_width: 360

@@ -1,37 +1,39 @@
 # **Appendix**
 
-## **A Note on Method and Sources**
+## **A Note on Scenes and Sources**
 
-### **Why specific institutions are named**
+### **How this edition is written**
 
-This book uses named institutions, policies, and public episodes when they illustrate structural patterns that recur across domains. Naming is not scorekeeping. It anchors abstraction in events readers can verify and debate.
+This book is a scene-first essay. Each chapter enters through a room, object, or institutional surface—a whiteboard, a feed, a journal shelf, a poster, a matrix, a homepage, a poll deck, a report-card screen—and stays there long enough for a tension to become felt before the argument widens. Historical context, policy, and documented episodes appear when the scene requires them. The chapter returns to the opening image with altered weight.
 
-When a chapter discusses Medicare readmission penalties, platform ranking systems, or standardized testing regimes, the point is not to indict a single actor. It is to show how incentive substitution operates in a domain many readers already inhabit.
+That movement is the method. It is not displayed as a labeled scaffold in the prose. The full substitution pattern is named once, in Chapter 9, after eight domains have been encountered through scenes rather than announced in advance.
+
+The book holds two truths throughout: proxies solve real coordination problems, and proxies are not sufficient.
+
+### **Scene types**
+
+Chapters draw on three kinds of material, sometimes mixed within a single unit.
+
+**Documented institutional anchors.** Policies, programs, disclosures, and research cited in footnotes—Medicare readmission penalties, engagement-based ranking testimony, DORA and replication literature, Paris Agreement and disclosure frameworks, WARN filings, digital newsroom economics, polling methodology, federal accountability testing, and similar public materials. These establish that the mechanisms described are not invented for argument.
+
+**Composite scenes.** Many opening and recurring scenes are composite: assembled from patterns observed across institutions rather than transcribed from a single verified episode. They use indefinite framing (*a hospital*, *a campaign team*, *a sustainability director*) and do not assign fabricated proper names to patients, employees, or officials. Dialogue is representative of institutional speech, not quoted as reported fact. Composite scenes include the introduction's quality committee, the discharge corridor in Chapters 1 and 10, the platform user and moderator strands, the researcher at the grant fork, the workforce matrix meeting, the poll-tested housing decision, the teacher's notebook, and similar passages.
+
+**Authorial synthesis.** Cross-domain claims—especially in the interlude, Chapter 9, Chapters 11–12, and the epilogue—are structural interpretations tested against multiple domains rather than deductions from a single dataset. They are offered as diagnostic clarity, not as social-science proof.
+
+When a passage moves from scene to pattern, the scene illustrates; it does not prove a universal law.
 
 ### **What counts as evidence**
 
-Evidence here includes:
+Evidence in this book includes peer-reviewed research where cited in footnotes; government and intergovernmental program documentation; investigative reporting and institutional disclosures used to establish public facts; and the author's structural synthesis across domains in the After Certainty series, labeled as synthesis where it extends beyond any single cited source.
 
-- peer-reviewed research where available
+Anecdote and composite scene are not treated as statistical proof. They are treated as entry points into mechanisms readers can test against their own institutions.
 
-- government and intergovernmental program documentation
+### **Why specific institutions and policies are named**
 
-- investigative reporting and institutional disclosures used to establish
-public facts
+Named institutions, policies, and public episodes appear when they illustrate structural patterns that recur across domains. Naming is not scorekeeping. It anchors abstraction in materials readers can verify and debate.
 
-- the author’s structural synthesis across domains in the After Certainty
-series
+### **Citations and bibliography**
 
-The book does not treat anecdotes as proof of universal law. It treats them as illustrations of mechanisms that can be tested against other cases.
+Claims that depend on external sources are footnoted. A consolidated bibliography follows.
 
-### **Why interpretation is explicit**
-
-Each chapter states a central question and follows a consistent scaffold: original moral aim, why judgment became risky, incentive substitution, moral residue, and the difference between what the system can say and what individuals carry.
-
-That scaffold is a method. It makes the book’s claims falsifiable in structure even when readers disagree about a particular example.
-
-### **Domain chapters in this edition**
-
-| Chapter | Primary domain | Illustrative anchors | |---------|----------------|----------------------| | 1 | Healthcare | HRRP, DRGs, moral injury research | | 2 | Technology platforms | Engagement ranking, public testimony | | 3 | Academia | Citations, grants, replication literature | | 4 | Climate / ESG | Net-zero pledges, offsets, disclosure frameworks | | 5 | Corporate HR | Performance systems, layoff matrices | | 6 | Journalism | Analytics-driven newsrooms, trust surveys | | 7 | Democratic politics | Polling, fundraising, deliberation pressures | | 8 | Education | Accountability testing, graduation metrics |
-
-Sources are cited in chapter reference sections. Readers seeking primary documents should begin there.
+Documented facts and authorial synthesis are distinguished here; footnotes mark the boundary in individual chapters.
