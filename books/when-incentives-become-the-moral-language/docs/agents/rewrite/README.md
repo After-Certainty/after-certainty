@@ -3,8 +3,10 @@
 **Phase 6** — scene-led essayistic rewrite (length follows craft; no fixed word band for now)
 
 **Plan:** [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../../WHEN_INCENTIVES_REWRITE_PLAN.md)  
-**Voice north star:** [`reference/chapter-1-the-bed-someone-else-needs.md`](../../reference/chapter-1-the-bed-someone-else-needs.md) · [`reference/VOICE-NOTES.md`](../../reference/VOICE-NOTES.md)  
-**Chapter briefs:** Plan §5
+**Voice north stars:**  
+[`reference/chapter-1-the-bed-someone-else-needs.md`](../../reference/chapter-1-the-bed-someone-else-needs.md) (Ch 1 / domain chapters) ·  
+[`reference/chapter-10-the-hidden-subsidy.md`](../../reference/chapter-10-the-hidden-subsidy.md) (Ch 10 / Part IV) ·  
+[`reference/VOICE-NOTES.md`](../../reference/VOICE-NOTES.md)
 
 ---
 

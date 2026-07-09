@@ -61,11 +61,14 @@ Full mechanism naming belongs in **Ch 9** (*When the Proxy Becomes the Good*), n
 
 ## Voice reference
 
-**North star:** [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) (author reference draft)
+**North stars:**
+
+- Ch 1 (translation): [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md)
+- Ch 10 (human cost): [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md)
 
 Pattern notes: [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md)
 
-Rewrite agents and human editors should match this chapter's movement—scene before mechanism, dual truth, return to object, Core Principle earned at end—not its exact sentence length or short-line cadence on every page.
+Domain chapters should match Ch 1's movement. Part IV should match Ch 10's—cross-domain scenes with duration, concept named after demonstration, refusal to metricize care.
 
 ## Tone and positioning
 

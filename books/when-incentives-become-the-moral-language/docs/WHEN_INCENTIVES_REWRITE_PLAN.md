@@ -16,7 +16,10 @@
 
 **Author approval gates:** [`author-approval-gates.md`](author-approval-gates.md)
 
-**Voice north star (Ch 1):** [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) · [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md)
+**Voice north star:**  
+- Ch 1: [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md)  
+- Ch 10: [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md)  
+- Patterns: [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md)
 
 ---
 
@@ -449,10 +452,14 @@ flowchart LR
 
 ### Ch 10 — The Hidden Subsidy (NEW)
 
-- **Sources:** Scattered practitioner material across Ch 1–8 + conclusion orientation examples
-- **Action:** New chapter dramatizing nurse, teacher, manager, editor, researcher, sustainability officer, moderator
-- **Principle:** Institutions appear more humane than formal systems because people supply what systems leave out
-- **Target:** Room for scene-led craft (no fixed word count)
+- **Reference draft (author):** [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md) — **primary voice north star** for Part IV opening
+- **Bookend with Ch 1:** 11:42 discharge time vs nine unrecorded minutes; *Nine Minutes* closing returns to nurse hallway
+- **Sources:** Scattered practitioner material across essay-edition Ch 1–8 + conclusion orientation examples
+- **Action:** Integrate reference draft; ensure Ch 1 hidden-subsidy preview stays lighter than this chapter
+- **Preserve:** Cross-domain scenes (nurse, manager, teacher, montage); reliable-person section; subsidy withdrawn; discretion vs repair; anti-metric-for-care passage; moral exhaustion; speakable remainder
+- **Do not:** Turn into eight identical case-study blocks; add reform checklist; metric every act of care
+- **Principle (earned):** People supply what the system cannot name (reference Core Principle)
+- **Target:** Room for scene-led craft (reference draft sets pacing)
 
 ### Ch 11 — The Institution That Cannot Hear Itself (NEW)
 
@@ -776,5 +783,6 @@ See [`author-approval-gates.md`](author-approval-gates.md) for decisions requiri
 | [`status.md`](status.md) | Rewrite phase tracking |
 | [`drafting-process.md`](drafting-process.md) | Rewrite workflow |
 | [`agents/rewrite/README.md`](agents/rewrite/README.md) | New agent specs for essayistic rewrite |
-| [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) | Author reference draft — Ch 1 voice north star |
-| [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md) | Compositional patterns extracted from reference Ch 1 |
+| [`reference/chapter-1-the-bed-someone-else-needs.md`](reference/chapter-1-the-bed-someone-else-needs.md) | Author reference — Ch 1; translation arc |
+| [`reference/chapter-10-the-hidden-subsidy.md`](reference/chapter-10-the-hidden-subsidy.md) | Author reference — Ch 10; human cost arc |
+| [`reference/VOICE-NOTES.md`](reference/VOICE-NOTES.md) | Compositional patterns; Ch 1/Ch 10 bookends |

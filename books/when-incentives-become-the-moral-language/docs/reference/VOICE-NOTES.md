@@ -1,12 +1,28 @@
 # Voice notes — reference chapter analysis
 
-**Source:** [`chapter-1-the-bed-someone-else-needs.md`](chapter-1-the-bed-someone-else-needs.md) (author reference draft, July 2026)
+**Sources:**
+
+- Ch 1: [`chapter-1-the-bed-someone-else-needs.md`](chapter-1-the-bed-someone-else-needs.md)
+- Ch 10: [`chapter-10-the-hidden-subsidy.md`](chapter-10-the-hidden-subsidy.md)
 
 Use these patterns when rewriting other chapters. Do not copy surface moves (short-line stacks) mechanically—match the **logic of movement**.
 
 ---
 
-## What this chapter does right
+## Bookends: Ch 1 and Ch 10
+
+| Ch 1 | Ch 10 |
+|------|-------|
+| Discharge threshold; whiteboard date | Discharge recorded 11:42; nine minutes unrecorded |
+| Names hidden subsidy briefly | Develops hidden subsidy fully |
+| Criteria vs readiness | Completion vs readiness |
+| Dashboard innocence | Dashboard receives credit for subsidized success |
+
+Ch 1 preview of hidden subsidy should stay light. Ch 10 owns the concept. *Nine Minutes* closing returns to Ch 1's nurse without re-arguing discharge mechanics.
+
+---
+
+## Ch 1 — what this chapter does right
 
 ### 1. Object generates argument
 
@@ -89,3 +105,48 @@ This reference draft already incorporates and exceeds essay-edition keepers:
 - Double bind (woman vs unseen patient needing bed)
 
 Legacy essay-edition Ch 1 footnotes should migrate on manuscript integration pass.
+
+---
+
+## Ch 10 — what this chapter does right
+
+### 1. Opens on a recorded time the dashboard loves
+
+11:42 / before noon—concrete institutional surface. The nurse's nine minutes exist **outside** what the system records. Argument begins in the gap between official completion and human remainder.
+
+### 2. Cross-domain without becoming a list chapter
+
+Nurse → manager → teacher → montage (editor, researcher, engineer, sustainability) → reliable person → withdrawal. Each vignette is a **scene with duration** (nine minutes, twelve minutes, evening résumé review)—not a bullet inventory of professions.
+
+### 3. Names the concept after demonstration
+
+"Hidden subsidy" appears in *The Work Between the Lines* only after the nurse's hallway scene. Ch 1 may preview; Ch 10 earns the full term.
+
+### 4. Anti-romanticization without anti-judgment
+
+*The Difference Between Discretion and Repair* holds that unofficial care can carry prejudice; standards exist for reasons. Dual truth: institutions need discretion bounded **and** often pretend discretion was eliminated.
+
+### 5. Refuses metric-for-care solution
+
+*Making the Remainder Speakable* explicitly rejects dashboarding empathy—repeats substitution logic. Offers **language** not data: "defensible without being complete."
+
+### 6. Returns to Ch 1 image
+
+*Nine Minutes* closes the bookend: elevator, cleaned room, dashboard records movement, nine minutes gone. No checklist reform.
+
+### 7. Moral exhaustion as structural, not personal failure
+
+Private knowledge feeling like private failure; quiet discovery that burden is shared—experiences moral residue before labeling it.
+
+### 8. Core Principle names institutional misattribution
+
+Credit to process when subsidy succeeds; blame to person when subsidy fails.
+
+---
+
+## Part IV craft notes (Ch 10–12)
+
+- Part IV may be slightly more conceptual than domain chapters—but each section should still **enter through work** (time on a clock, spreadsheet before conversation, standards list)
+- Avoid turning Ch 10 into eight parallel mini-case studies with identical paragraph shape; vary scene length and depth (nurse and manager longest; editor/researcher in montage)
+- Ch 11 (*Cannot Hear Itself*) should follow Ch 10's emotional register but shift to **misread signals** (distress → engagement data)—do not repeat Ch 10's subsidy argument
+- Ch 12 offers orientation; Ch 10 should not pre-empt Ch 12's closing distinction
