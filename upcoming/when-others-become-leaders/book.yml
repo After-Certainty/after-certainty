@@ -1,7 +1,7 @@
 version: 1
 
-publishing:
-  enabled: false
+upcoming:
+  status: in_progress
 
 book:
   id: when-others-become-leaders
@@ -30,10 +30,6 @@ frontmatter:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
 
-    about_the_series:
-      repo_template: templates/about_the_series.md.j2
-      output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -42,11 +38,3 @@ build:
       enabled: false
     pdf:
       enabled: false
-
-github:
-  release: false
-  release_tag: "latest"
-  artifacts:
-    - docx
-    - epub
-    - pdf
