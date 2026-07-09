@@ -6,7 +6,7 @@ Primary rewrite agent. Drafts or substantially rewrites **one unit** from the ch
 
 ## PURPOSE
 
-Replace essay-edition scaffold prose with **scene-first essayistic** chapters. Grow toward target word band per unit—not by repeating mechanism headings.
+Replace essay-edition scaffold prose with **scene-first essayistic** chapters. Expand as the scene and argument require—not by repeating mechanism headings or hitting a word target.
 
 ## WHEN
 
@@ -38,7 +38,7 @@ Replace essay-edition scaffold prose with **scene-first essayistic** chapters. G
 - Preserve passages listed in plan §12 (often near-verbatim)
 - Use composite scenes with indefinite framing when not documented; no fake names/quotes
 - Weave mechanisms into narrative prose
-- Hit target word band from plan §14 for this unit
+- Let the chapter take the room scene-led craft requires (no fixed word count)
 - Migrate footnotes from essay-edition source where claims persist
 
 ## DO NOT
@@ -53,7 +53,7 @@ Replace essay-edition scaffold prose with **scene-first essayistic** chapters. G
 ## OUTPUT
 
 - Rewritten unit file at new path (when `index.md` restructured) or in-place draft on rewrite branch
-- Brief report: word count, scene type (documented/composite), preserved passages, top 2 risks for Agent 02/03
+- Brief report: approximate length, scene type (documented/composite), preserved passages, top 2 risks for Agent 02/03
 
 ## PIPELINE
 

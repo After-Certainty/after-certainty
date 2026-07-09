@@ -1,6 +1,6 @@
 # Essayistic Rewrite — Agent Pipeline
 
-**Phase 6** — scene-led rewrite (~42,000–52,000 words)
+**Phase 6** — scene-led essayistic rewrite (length follows craft; no fixed word band for now)
 
 **Plan:** [`WHEN_INCENTIVES_REWRITE_PLAN.md`](../../WHEN_INCENTIVES_REWRITE_PLAN.md)  
 **Chapter briefs:** Plan §5  
@@ -13,7 +13,7 @@
 
 | # | Agent | Purpose |
 |---|--------|---------|
-| **01** | [Scene draft](01-scene-draft.md) | Rewrite from brief; scene-first; target word band |
+| **01** | [Scene draft](01-scene-draft.md) | Rewrite from brief; scene-first |
 | **02** | [Essay discovery](02-essay-discovery.md) | Delay thesis; widen once; return to image |
 | **03** | [Echo pass](03-echo-pass.md) | Cut scaffold creep, repeated formulas, chapter previews |
 | **04** | [Citation pass](04-citation-pass.md) | Footnotes, bibliography, synthesis labels |

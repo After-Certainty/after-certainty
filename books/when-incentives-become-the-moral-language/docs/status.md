@@ -15,11 +15,10 @@ Essay edition (Phase 5) remains complete and exportable at current manuscript pa
 
 ## Rewrite target
 
-| Band | Words | Status |
-|------|------:|--------|
-| Essay edition (baseline) | ~9–11k | **Frozen** — current `index.md` paths |
-| **Essayistic rewrite (planned)** | **~42,000–52,000** | Awaiting author gates |
-| Long-term ceiling | ~60–80k | Optional (author Band B) |
+| Edition | Notes | Status |
+|---------|-------|--------|
+| Essay edition (baseline) | ~9–11k; frozen at current `index.md` paths | **Frozen** |
+| **Essayistic rewrite** | Length follows craft—no fixed word band for now | Awaiting remaining author gates |
 
 ## Manuscript hub
 

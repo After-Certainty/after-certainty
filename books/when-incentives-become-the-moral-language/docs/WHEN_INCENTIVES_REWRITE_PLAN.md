@@ -2,7 +2,7 @@
 
 **Status:** Planning complete (July 2026) — essayistic rewrite not yet started  
 **Canon manuscript:** [`index.md`](../index.md) — split Markdown, ~11.5k words (July 2026 essay edition)  
-**Target manuscript:** ~42,000–52,000 words; four parts; twelve chapters + epilogue  
+**Target manuscript:** four parts; twelve chapters + epilogue (length follows craft—not a fixed word band for now)  
 **Model plan:** [`docs/rewrite-plans/how-meaning-moves-essayistic-rewrite-plan.md`](../../../docs/rewrite-plans/how-meaning-moves-essayistic-rewrite-plan.md)
 
 **Reference books (latest Markdown canon):**
@@ -32,7 +32,7 @@ The current manuscript is **conceptually strong and compositionally inverted** f
 
 **Core problem:** The book **proves its framework eight times** using a visible, labeled scaffold codified in [`book-rules.md`](book-rules.md). Readers meet mechanism headings before they meet institutional life. The essay edition (~9–11k) compresses each domain to ~750–1,400 words, which **amplifies formula** rather than scene.
 
-**Scale decision (requires author approval):** [`book.yml`](../book.yml) locks essay edition; [`book-rules.md`](book-rules.md) targets 60–80k long-term. The proposed architecture (12 domain/synthesis chapters + Part IV + epilogue) realistically needs **~42,000–52,000 words** to breathe essayistically—comparable to *Trust Beyond Similarity* (~35k) at the low end, or a mid-band between *After Certainty* and *Trust*. Do not attempt a scene-led rewrite inside the 9–11k band.
+**Length:** Word count is **not a planning constraint for now**. The rewrite should take the room scene-led craft requires; optional pacing notes in §14 are reference only.
 
 ```mermaid
 flowchart LR
@@ -58,7 +58,7 @@ flowchart LR
 
 ### Three largest risks
 
-1. **Scale jump (11k → 45k)** without author-approved target band — scene-led rewrite cannot succeed compressed
+1. **Scale jump without scene-led expansion** — the essay edition’s compression reinforces formula; rewrites need room to breathe, but no fixed word target applies yet
 2. **Scaffold creep** via legacy agent pipeline — old specs explicitly add "mechanism paragraphs" and domain scaffold; must use [`agents/rewrite/`](agents/rewrite/) specs instead
 3. **Composite scenes presented as reportage** — undermines trust; requires disclosure discipline in appendix and author notes
 
@@ -292,7 +292,7 @@ flowchart LR
 | **Keep all eight domains** | Each advances a distinct stage (§9); no stronger replacement identified |
 | **Rename introduction** to *The Question the Dashboard Cannot Ask* | Current intro is thesis-forward; new title signals scene entry |
 | **Move "what book is not" content** into map interlude + light intro threading | Avoid double defensive front matter |
-| **Update export band in `book.yml`** when rewrite begins | Target ~42–52k (pending author approval) |
+| **Update `book.yml` description** when rewrite milestone ships | Note essayistic edition; no word-band lock required for now |
 
 ### Part map
 
@@ -337,7 +337,7 @@ flowchart LR
 - **Opening scene:** Organizational meeting where human consequences are debated until someone turns to a dashboard/score (composite scene—label in author notes)
 - **Preserve:** Coordination failure framing; metrics' real advantages; judgment-not-failed-morally-but-operationally
 - **Cut:** "Part I and Part II develop eight cases"; labeled "Moral Residue" section; domain inventory
-- **Target:** ~2,500–3,000 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Ch 1 — The Bed Someone Else Needs
 
@@ -347,7 +347,7 @@ flowchart LR
 - **Preserve intact:** Double bind bullets; "patient met discharge criteria"; privatized caring line
 - **Rewrite:** Open on whiteboard/ward scene; weave mechanisms into narrative; end on whiteboard field that has no column for family fear
 - **Principle (earned):** Criteria carry a decision farther than judgment can, but not the whole reason
-- **Target:** ~3,500–4,500 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Ch 2 — The Feed That Never Empties
 
@@ -357,7 +357,7 @@ flowchart LR
 - **Preserve:** Mirror/deflection; moderator residue; distinction from healthcare concentration vs distributed gap
 - **New emphasis:** Feedback loop—signal shapes future behavior
 - **Principle:** What receives attention begins to look worthy of attention
-- **Target:** ~3,500–4,500 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Ch 3 — The Paper That Must Count
 
@@ -367,14 +367,14 @@ flowchart LR
 - **Preserve:** Productivity vs contribution; reforms absorbed as new metrics
 - **New emphasis:** Metric shapes what gets *attempted*, not only evaluated
 - **Principle:** What institutions can recognize eventually shapes what people learn to pursue
-- **Target:** ~3,500–4,000 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Interlude — The Map Was Not a Lie
 
 - **Current:** [`interlude-what-this-book-is-not.md`](../front-matter/interlude-what-this-book-is-not.md)
 - **Action:** Full rewrite as essay (maps, compression, omission)
 - **Preserve:** Anti-metric/anti-capitalism/nostalgia/solutions refusals—but as discovered thought, not bullet negations
-- **Target:** ~2,000–2,500 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Ch 4 — The Target on the Wall
 
@@ -385,7 +385,7 @@ flowchart LR
 - **Preserve:** Seriousness vs responsibility; "no standard column for what we do not know"
 - **Narrow:** Focus on target compliance vs causal ownership—not broad ESG indictment
 - **Principle:** Meeting a target can substitute for owning harm the target was meant to reduce
-- **Target:** ~3,500–4,500 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Ch 5 — The Matrix With No Author
 
@@ -395,7 +395,7 @@ flowchart LR
 - **Evidence needed:** One well-sourced layoff matrix episode (e.g., public tech restructuring reporting)
 - **Preserve:** Fairness vs formula distinction (near-verbatim candidate)
 - **Principle:** A procedure can be consistent without being sufficient
-- **Target:** ~3,500–4,000 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Ch 6 — The Front Page Watches Back
 
@@ -405,7 +405,7 @@ flowchart LR
 - **Must preserve:** Explicit Ch 2 differentiation (platforms govern distribution globally; newsrooms survive via civic claim)
 - **Evidence needed:** Documented newsroom analytics pivot (Chartbeat era industry reporting)
 - **Principle:** What spreads and what matters can overlap without becoming the same thing
-- **Target:** ~3,500–4,000 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Ch 7 — The Poll Before the Position
 
@@ -415,7 +415,7 @@ flowchart LR
 - **Evidence needed:** Historical grounding—documented evolution of nightly tracking (Gallup/NYT), 2016 polling miss postmortems (primary sources)
 - **Preserve:** Representation vs responsiveness; deliberation vs snapshot
 - **Principle:** A snapshot can guide representation without becoming the whole meaning of legitimacy
-- **Target:** ~3,500–4,000 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Ch 8 — The Child the Score Cannot Hold
 
@@ -424,7 +424,7 @@ flowchart LR
 - **Anchors:** ESEA accountability, ACGR, PISA, RAND/LPI teacher stress
 - **Preserve:** Formation goes quiet; data-driven as care rhetoric
 - **Principle:** What cannot be measured does not disappear—it becomes private work
-- **Target:** ~3,500–4,000 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Ch 9 — When the Proxy Becomes the Good (NEW synthesis)
 
@@ -440,34 +440,34 @@ flowchart LR
   6. What the proxy cannot express loses public standing.
 
 - **Principle:** A proxy becomes moral language when the institution forgets it is a translation
-- **Target:** ~4,000–5,000 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Ch 10 — The Hidden Subsidy (NEW)
 
 - **Sources:** Scattered practitioner material across Ch 1–8 + conclusion orientation examples
 - **Action:** New chapter dramatizing nurse, teacher, manager, editor, researcher, sustainability officer, moderator
 - **Principle:** Institutions appear more humane than formal systems because people supply what systems leave out
-- **Target:** ~3,500–4,500 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Ch 11 — The Institution That Cannot Hear Itself (NEW)
 
 - **Action:** New conceptual escalation—displaced moral knowledge returns only in measurable forms
 - **Examples:** moral distress → engagement data; distrust → retention risk; civic alienation → polling movement; poor formation → test-performance issue; quality problems → readmission data; loss of meaning → productivity decline
 - **Principle:** A system cannot learn from knowledge it has no language to receive
-- **Target:** ~3,500–4,000 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Ch 12 — Keeping the Difference Alive
 
 - **Current:** [`conclusion-living-inside-incentive-systems.md`](../back-matter/conclusion-living-inside-incentive-systems.md)
 - **Action:** Rewrite—orientation not checklist; preserve closing distinction
 - **Cut:** Eight-domain inventory recap; three-pattern numbered list (moved to Ch 9)
-- **Target:** ~3,000–3,500 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ### Epilogue — The Blank Column (NEW)
 
 - **Return:** Hospital whiteboard or institutional surface
 - **Show:** Fields for recorded knowledge vs blank space for fear, uncertainty, another patient's need
-- **Target:** ~1,500–2,000 words
+- **Target:** Room for scene-led craft (no fixed word count)
 
 ---
 
@@ -666,19 +666,17 @@ Do not write polished transition prose yet. Each boundary should accomplish the 
 
 ---
 
-## 14. Estimated word counts and pacing
+## 14. Estimated word counts and pacing (optional reference)
 
-| Unit | Target words |
-|------|-------------|
-| **Total book** | **42,000–52,000** |
-| Introduction | 2,500–3,000 |
-| Part I (Ch 1–3) | 10,500–13,000 |
-| Interlude | 2,000–2,500 |
-| Part II (Ch 4–6) | 10,500–12,500 |
-| Part III (Ch 7–9) | 11,000–14,000 |
-| Part IV (Ch 10–12) | 10,000–12,000 |
-| Epilogue | 1,500–2,000 |
-| Front/back matter (appendix, etc.) | 1,500–2,000 |
+**Not binding for now.** Author has deferred word-count decisions. Use this section only if pacing questions arise mid-rewrite.
+
+| Unit | Reference range (optional) |
+|------|---------------------------|
+| **Total book** | Substantial essayistic book—likely well above essay edition (~11k) |
+| Introduction | Enough room for opening scene + question |
+| Domain chapters | Long enough for scene, widening, return |
+| Interlude / Epilogue | Shorter than domain chapters |
+| Part IV chapters | Room for human cost and orientation |
 
 **Pacing notes:**
 
@@ -687,7 +685,7 @@ Do not write polished transition prose yet. Each boundary should accomplish the 
 - Highest abstraction risk: Ch 9, Ch 11—anchor in objects and documented episodes
 - Current over-explaining: mechanism headings, repeated three-step lists
 
-**Update `book.yml` description** when leaving essay edition band (pending author approval).
+**Update `book.yml` description** when rewrite milestone ships (no word-band lock required for now).
 
 ---
 

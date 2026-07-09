@@ -12,10 +12,11 @@ Architectural constraints for **When Incentives Become the Moral Language** (*Ho
 | Edition | Words | Status |
 |---------|------:|--------|
 | Essay edition (published baseline) | ~9–11k | Complete (Phase 5, July 2026) — frozen at current manuscript |
-| **Essayistic rewrite (planned)** | **~42,000–52,000** | Planning complete; awaiting author gates |
-| Long-term ceiling | ~60–80k | Optional if author selects Band B in approval gates |
+| **Essayistic rewrite (planned)** | Length follows craft | Awaiting remaining author gates |
 
-Do not attempt scene-led rewrite inside the essay edition band.
+Word count is **not gated** for now. Chapters take the room scene-led craft requires.
+
+Do not attempt scene-led rewrite by compressing into the essay edition’s ~11k prose.
 
 ## Book scope and structure (rewrite target)
 

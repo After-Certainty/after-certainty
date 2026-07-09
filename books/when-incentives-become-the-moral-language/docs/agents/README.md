@@ -2,7 +2,7 @@
 
 ## Active pipeline (Phase 6 rewrite)
 
-**Essayistic rewrite** (~42–52k): [`rewrite/README.md`](rewrite/README.md)
+**Essayistic rewrite** (length follows craft): [`rewrite/README.md`](rewrite/README.md)
 
 Use rewrite agents after author gates clear ([`author-approval-gates.md`](../author-approval-gates.md)).
 

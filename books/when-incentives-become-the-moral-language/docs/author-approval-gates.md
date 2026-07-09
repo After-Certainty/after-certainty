@@ -9,19 +9,7 @@ Reference: [`WHEN_INCENTIVES_REWRITE_PLAN.md`](WHEN_INCENTIVES_REWRITE_PLAN.md)
 
 ## Required before chapter rewrites
 
-### 1. Target word count band
-
-| Option | Words | Implication |
-|--------|------:|-------------|
-| **A (recommended)** | 42,000–52,000 | Full essayistic rewrite; comparable to Trust / After Certainty band |
-| B | 60,000–80,000 | Long-form institutional book; longer production cycle |
-| C | 12,000–18,000 | Interim expansion only; **not** sufficient for scene-led rewrite |
-
-**Planner recommendation:** Option A. Scene-first craft cannot succeed inside the current ~11k essay edition.
-
-- [ ] Author decision: _______________
-
-### 2. Composite vs documented opening scenes
+### 1. Composite vs documented opening scenes
 
 Several proposed chapters use composite scenes (intro meeting, researcher at grant fork, sustainability professional, campaign team). Alternatives: documented institutional episodes only, or indefinite framing without named people.
 
@@ -29,19 +17,19 @@ Several proposed chapters use composite scenes (intro meeting, researcher at gra
 
 - [ ] Author decision: _______________
 
-### 3. Chapter title renames
+### 2. Chapter title renames
 
 Proposed titles (e.g., *The Bed Someone Else Needs*) replace current domain titles (e.g., *Care Without Caring*). Subtitles or part headers may retain domain labels for navigation.
 
 - [ ] Author decision: adopt proposed titles / keep current / hybrid _______________
 
-### 4. Part bridges
+### 3. Part bridges
 
 Current `bridge.md` files list domains mechanically. Plan recommends dissolving into chapter transitions.
 
 - [ ] Author decision: dissolve bridges / keep minimal orienting paragraphs _______________
 
-### 5. Export and edition strategy during rewrite
+### 4. Export and edition strategy during rewrite
 
 Current `book.yml` describes essay edition (~9–11k) with exports enabled. Multi-year rewrite may require:
 
@@ -51,11 +39,17 @@ Current `book.yml` describes essay edition (~9–11k) with exports enabled. Mult
 
 - [ ] Author decision: _______________
 
-### 6. Ch 9 placement for readers
+### 5. Ch 9 placement for readers
 
 Ch 9 (*When the Proxy Becomes the Good*) reads after Ch 8 in final manuscript. Production sequence drafts Ch 9 early as north star, then revises after Ch 8.
 
 - [ ] Author confirms reading order (after Ch 8): yes / no _______________
+
+## Deferred (not blocking)
+
+### Word count
+
+Length is **not gated for now**. Chapters should take the room the scene-led craft requires; the plan’s pacing notes (rewrite plan §14) are optional reference only—not targets to hit or caps to obey.
 
 ---
 
@@ -71,7 +65,6 @@ Ch 9 (*When the Proxy Becomes the Good*) reads after Ch 8 in final manuscript. P
 
 | Gate | Author | Date |
 |------|--------|------|
-| Word count band | | |
 | Scene policy | | |
 | Chapter titles | | |
 | Part bridges | | |
