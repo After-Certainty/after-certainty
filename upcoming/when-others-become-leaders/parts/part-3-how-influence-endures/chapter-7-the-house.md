@@ -1,8 +1,4 @@
-# Sample Chapter Draft — Chapter 7: The House
-
-Working draft capture for planning and drafting support. This is exploratory prose, not final manuscript text.
-
-## Chapter 7 — The House
+# Chapter 7 — The House
 
 A house begins by making a distinction.
 
@@ -32,7 +28,7 @@ The difference between serving people and building something with them is often 
 
 ---
 
-In 1889, Jane Addams and Ellen Gates Starr opened Hull-House in a mansion on Chicago’s Near West Side, in a densely populated neighborhood shaped by successive communities of European immigrants. They had been influenced by the settlement-house movement and imagined educated people living among those confronting poverty and industrial upheaval rather than visiting occasionally from a safer part of the city. Addams would live and work at Hull-House until her death in 1935.
+In 1889, Jane Addams and Ellen Gates Starr opened Hull-House in a mansion on Chicago’s Near West Side, in a densely populated neighborhood shaped by successive communities of European immigrants.[^h1] They had been influenced by the settlement-house movement and imagined educated people living among those confronting poverty and industrial upheaval rather than visiting occasionally from a safer part of the city. Addams would live and work at Hull-House until her death in 1935.
 
 The word settlement now carries an uneasiness that is worth retaining. Settlers arrive somewhere. They bring assumptions about what the place lacks and what should replace it. They may describe occupation as improvement and mistake their ability to name a problem for the right to control its solution.
 
@@ -42,9 +38,7 @@ They were educated women with cultural tastes, social connections, and ideas abo
 
 This is easy to romanticize afterward. We can make responsiveness sound like a leadership method, as though Addams conducted interviews, identified stakeholder needs, and adjusted a program plan.
 
-The reality was more intimate.
-
-People kept coming through the door.
+The reality was more intimate. People kept coming through the door.
 
 A need could no longer remain an abstraction once its bearer was standing in the room. A theory about poverty had to contend with a child who needed care that morning. An idea about education met a worker whose schedule made attendance impossible. The house created conditions in which distant concern became repeated encounter.
 
@@ -102,7 +96,7 @@ A room can provide both.
 
 ---
 
-In 1895, Hull-House residents published Hull-House Maps and Papers, a study of the surrounding neighborhood that documented nationalities, wages, labor, housing, and industrial conditions. The work was produced collectively, with Florence Kelley playing a central role alongside Addams and other residents. Its maps transformed crowded blocks into visible patterns without pretending that the map itself was the neighborhood.
+In 1895, Hull-House residents published *Hull-House Maps and Papers*, a study of the surrounding neighborhood that documented nationalities, wages, labor, housing, and industrial conditions.[^h2] The work was produced collectively, with Florence Kelley playing a central role alongside Addams and other residents. Its maps transformed crowded blocks into visible patterns without pretending that the map itself was the neighborhood.
 
 Maps create a strange kind of authority.
 
@@ -116,13 +110,7 @@ Its residents could gather information because they were near. They could test i
 
 This did not eliminate bias or misunderstanding. Proximity does not make a person omniscient. Sometimes it merely gives confidence to a new kind of error.
 
-But proximity creates opportunities for correction.
-
-The claim encounters the person.
-
-The theory encounters the room.
-
-The expert has to come home.
+But proximity creates opportunities for correction. The claim encounters the person. The theory encounters the room. The expert has to come home.
 
 Addams’s philosophy grew through this movement between action and reflection. Her writing returned repeatedly to ordinary subjects—garbage, work, children, domestic service, immigrant stories—because she did not believe moral knowledge could be separated from the lives in which moral problems appeared. Scholars now describe her approach as a form of pragmatism grounded in cooperative action and “sympathetic knowledge”: understanding another person well enough that knowledge begins altering obligation.
 
@@ -162,9 +150,7 @@ It offered services while gathering evidence. It gave people rooms while pressin
 
 The house mattered partly because its walls were permeable.
 
-Problems entered.
-
-People left carrying them into public life.
+Problems entered. People left carrying them into public life.
 
 ---
 
@@ -190,9 +176,7 @@ A mother could demonstrate something her child did not know. A worker could beco
 
 This was not a complete escape from paternalism. The museum still existed within an institution founded and financed largely by privileged reformers. Other people selected, interpreted, and displayed the work. Admiration can preserve hierarchy almost as effectively as contempt when the admired person is never given control.
 
-Still, a threshold had shifted.
-
-Expertise moved.
+Still, a threshold had shifted. Expertise moved.
 
 The house was no longer only offering its knowledge to the neighborhood. It was creating a place where the neighborhood’s knowledge could become publicly authoritative.
 
@@ -204,9 +188,7 @@ No serious account of Hull-House can stop at the open door.
 
 Addams and many of the women around her were white, educated, and comparatively privileged. They carried assumptions about civilization, assimilation, race, and class that were not dissolved simply because they lived near poverty. Addams herself wrote candidly about failed efforts at Hull-House: refined furnishings that created distance, a coffeehouse designed around reformers’ ideas of proper nutrition rather than local habits, and other instances in which good intentions outran understanding. She adjusted some of these efforts after recognizing the paternalism embedded within them.
 
-Learning from error is admirable.
-
-It does not make the error harmless.
+Learning from error is admirable. It does not make the error harmless.
 
 That distinction matters because stories about responsive leaders can become stories in which every failure is retroactively redeemed as growth. The people subjected to someone else’s learning process may bear costs the learner never fully sees.
 
@@ -230,9 +212,7 @@ The test is whether the criticism can rearrange the house.
 
 Addams appears more unusual when we allow these failures to remain visible, not because she transcended them, but because she sometimes exposed her own mistakes to public examination and treated correction as part of the work. Fallibility was not merely a private admission. It became a method: act, encounter consequences, listen, revise, and act again.
 
-That method does not absolve a leader.
-
-It makes further accountability possible.
+That method does not absolve a leader. It makes further accountability possible.
 
 Purity cannot be corrected because purity never admits that correction is needed.
 
@@ -280,11 +260,7 @@ That is a quieter form of influence than a speech or a march. It is difficult to
 
 A place becomes generative when the people entering it stop remaining guests.
 
-They begin moving chairs.
-
-They organize meetings the founder did not propose.
-
-They see problems the institution overlooked.
+They begin moving chairs. They organize meetings the founder did not propose. They see problems the institution overlooked.
 
 They invite people the original hosts did not know.
 
@@ -324,6 +300,10 @@ Then, slowly, the meaning of the house changes.
 
 She learns where things are kept. She contributes something the house did not have. She begins noticing who else is standing outside.
 
-One evening there is another knock.
+One evening there is another knock. This time, she opens the door.
 
-This time, she opens the door.
+
+## Notes
+
+[^h1]: Jane Addams, *Twenty Years at Hull-House* (New York: Macmillan, 1910); Hull-House Museum historical timeline.
+[^h2]: Residents of Hull-House, *Hull-House Maps and Papers* (New York: Thomas Y. Crowell, 1895).

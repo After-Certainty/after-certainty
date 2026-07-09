@@ -11,12 +11,6 @@ Central navigation for planning documents for *When Others Become Leaders: What 
 - [Research plan](research-plan.md) — source roadmap and research principles
 - [Themes and patterns](themes-and-patterns.md) — recurring concepts across chapters
 - [Samples or fragments](samples-or-fragments.md) — exploratory style fragments
-- [Sample chapter draft: The Bracelet](sample-chapter-the-bracelet.md) — full working sample capture for Chapter 9 drafting reference
-- [Sample chapter draft: The House](sample-chapter-the-house.md) — full working sample capture for Chapter 7 drafting reference
-- [Sample chapter draft: The Tree](sample-chapter-the-tree.md) — full working sample capture for Chapter 5 drafting reference
-- [Sample chapter draft: Victory](sample-chapter-victory.md) — full working sample capture for Chapter 3 drafting reference
-- [Sample chapter draft: The Sign](sample-chapter-the-sign.md) — full working sample capture for Chapter 6 drafting reference
-- [Sample chapter draft: The Neighborhood](sample-chapter-the-neighborhood.md) — full working sample capture for Chapter 8 drafting reference
 - [Open questions](open-questions.md) — unresolved editorial and structural decisions
 
 ## Process docs
@@ -24,7 +18,7 @@ Central navigation for planning documents for *When Others Become Leaders: What 
 - [Book rules](book-rules.md) — invariant constraints and non-negotiables
 - [Drafting process](drafting-process.md) — phase workflow and quality gates
 - [Status](status.md) — current phase, unit progress, next actions
-- [Manuscript hub](../index.md) — planning index for this title
+- [Manuscript hub](../index.md) — manuscript reading order and chapter links
 
 ## Canonical-source map (to avoid duplication)
 

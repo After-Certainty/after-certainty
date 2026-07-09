@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 0 — Planning foundation scaffold**
+**Phase 1 — Manuscript scaffold and initial chapter drafting**
 
 ## Active branch
 
@@ -10,7 +10,7 @@
 
 ## Manuscript hub
 
-[`index.md`](../index.md) is the source of truth for planning navigation.
+[`index.md`](../index.md) is the source of truth for manuscript reading order.
 
 ## Key docs
 
@@ -25,19 +25,18 @@
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Overview + positioning | planned | Core idea and constraints documented |
-| Introduction + part/chapter outline | planned | Full nine-chapter structure captured |
-| Voice and chapter method | planned | Essayistic rules and architecture scaffolded |
-| Research roadmap | planned | Source types and anchor texts identified |
-| Themes/pattern matrix | planned | Cross-chapter tracking without early framework dumping |
-| Exploratory fragments | planned | Havel and Swift fragment seeds only |
-| Open questions register | planned | Deliberate unresolved decisions preserved |
+| Overview + positioning | complete | Core idea and constraints documented |
+| Manuscript structure scaffold | complete | Front matter, three parts, chapter files, epilogue, bibliography created |
+| Sample chapters integrated | in_progress | Chapters 3, 5, 6, 7, 8, 9 promoted to manuscript files |
+| Citation seeding | in_progress | Initial chapter notes added; full source packets still required |
+| Stub chapters | complete | Chapters 1, 2, 4 + epilogue scaffolded pending full samples |
+| Open questions register | active | Deliberate unresolved decisions preserved |
 
 ## Next actions
 
-1. Validate chapter-level research anchors and add source-tracking tables per chapter.
-2. Decide whether the introduction explicitly references *When Others Look To You* in the published manuscript.
-3. Begin Phase 1 by drafting a detailed introduction and one pilot chapter opening.
+1. Replace seeded notes with fully verified chapter footnotes from source packets.
+2. Continue drafting remaining chapters (1, 2, 4) once new sample inputs arrive.
+3. Run chapter-level voice pass to reduce residual one-line staccato where not used for emphasis.
 
 ## Open decisions / known issues
 
@@ -48,4 +47,4 @@
 ## Rough scale
 
 - Manuscript words (planned target): 70,000-90,000
-- Last assessed: planning scaffold complete
+- Last assessed: manuscript scaffold + initial chapter integration complete

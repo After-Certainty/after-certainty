@@ -1,8 +1,4 @@
-# Sample Chapter Draft — Chapter 3: Victory
-
-Working draft capture for planning and drafting support. This is exploratory prose, not final manuscript text.
-
-## Chapter 3 — Victory
+# Chapter 3 — Victory
 
 The final whistle is a small mercy.
 
@@ -74,7 +70,7 @@ How do we tell the truth about what happened without allowing what happened to d
 
 In April 1994, South Africans stood in lines that seemed to contain the country’s entire past.
 
-Some had voted before. Most Black South Africans had not. Nearly twenty million people cast ballots in the first national election based on universal adult suffrage, waiting for hours at polling places where the ordinary act of marking paper carried the accumulated weight of generations. Nelson Mandela was elected by the new Parliament and inaugurated on May 10 as the first president of a democratic South Africa.
+Some had voted before. Most Black South Africans had not. Nearly twenty million people cast ballots in the first national election based on universal adult suffrage, waiting for hours at polling places where the ordinary act of marking paper carried the accumulated weight of generations. Nelson Mandela was elected by the new Parliament and inaugurated on May 10 as the first president of a democratic South Africa.[^v1]
 
 A ballot is another small object asked to carry an enormous meaning.
 
@@ -176,7 +172,7 @@ The Springbok offered such a test.
 
 To many ANC supporters, it represented a regime they had struggled to defeat. To many white South Africans, it represented continuity with a country they feared was vanishing. The emblem could be abolished, and there were strong reasons to abolish it.
 
-Mandela instead helped preserve it for rugby and publicly embraced the national team. At the 1995 final in Johannesburg, he appeared wearing a Springbok jersey bearing the number of captain François Pienaar. South Africa defeated New Zealand, and the scene became one of the most enduring symbols of the country’s reconciliation project.
+Mandela instead helped preserve it for rugby and publicly embraced the national team. At the 1995 final in Johannesburg, he appeared wearing a Springbok jersey bearing the number of captain François Pienaar.[^v2] South Africa defeated New Zealand, and the scene became one of the most enduring symbols of the country’s reconciliation project.
 
 The gesture is now so familiar that it can look inevitable.
 
@@ -226,7 +222,7 @@ Each explanation may be true.
 
 Together they can produce a system unable to survive the person credited with saving it.
 
-Mandela announced early that he would not seek another presidential term. He stepped down in 1999 and was succeeded by Thabo Mbeki, having already relinquished the ANC presidency in 1997. The constitution would have allowed him to remain longer; he chose not to.
+Mandela announced early that he would not seek another presidential term.[^v3] He stepped down in 1999 and was succeeded by Thabo Mbeki, having already relinquished the ANC presidency in 1997. The constitution would have allowed him to remain longer; he chose not to.
 
 Age and circumstance mattered. Mandela was no young ruler walking away from decades of possible office. His role in day-to-day government had already shifted toward Mbeki and others. Leaving after one term did not mean withdrawing from public life or abandoning influence.
 
@@ -236,9 +232,7 @@ A new democracy received an early example of political succession in which the f
 
 The distinction between leadership and indispensability is easy to praise and hard to practice. A leader may sincerely want other people to grow while continuing to occupy every space in which growth would become visible. He delegates tasks but retains symbolic ownership. Others can administer the work, yet every achievement remains part of his story.
 
-Stepping aside changes the story’s grammar.
-
-The government no longer belongs to the liberator.
+Stepping aside changes the story’s grammar. The government no longer belongs to the liberator.
 
 The office becomes something another person can occupy without becoming a lesser copy.
 
@@ -336,9 +330,7 @@ Mandela’s greatest symbolic strength therefore created one of the central dang
 
 South Africans could believe in him before they learned to believe in the system that would remain after him.
 
-Leaving office was one answer.
-
-Not a complete one.
+Leaving office was one answer. Not a complete one.
 
 ---
 
@@ -346,11 +338,7 @@ There is a photograph in nearly every victory.
 
 The candidate stands above the crowd. The athlete lifts the trophy. The soldier raises the flag. The movement gathers around the person whose face has come to represent years of labor by thousands of people.
 
-The photograph makes victory look like possession.
-
-Someone has won it.
-
-But no leader owns what happens afterward.
+The photograph makes victory look like possession. Someone has won it. But no leader owns what happens afterward.
 
 Mandela could influence the direction of the transition, model restraint, lend legitimacy to new institutions, and use symbols to enlarge the meaning of citizenship. He could not determine what future presidents would do with the state, whether the governing party would remain accountable, whether corruption would hollow out public trust, or whether reconciliation would become a living practice rather than a memory recited at ceremonies.
 
@@ -402,12 +390,17 @@ His distinctive act was to stand at the point where history had reversed the dir
 
 Instead of asking how completely the victors could occupy the center, he asked how the center might be rebuilt so that victory did not require another population to disappear.
 
-The answer remained incomplete.
-
-Perhaps every serious answer does.
+The answer remained incomplete. Perhaps every serious answer does.
 
 In 1994, Mandela stood before a country that had made him prisoner and accepted its presidency. Five years later, he left the office to someone else. Between those moments, he used the legitimacy gathered around one extraordinary life to make room for people whose lives were not like his—including some who had once regarded his freedom as a threat.
 
 Victory had brought him to the center.
 
 Leadership appeared in what he chose not to keep there.
+
+
+## Notes
+
+[^v1]: South African History Online, “South Africa’s first democratic elections, 27 April 1994,” and Nelson Mandela Foundation chronology pages.
+[^v2]: John Carlin, *Playing the Enemy: Nelson Mandela and the Game That Made a Nation* (New York: Penguin, 2008).
+[^v3]: Nelson Mandela, *Long Walk to Freedom* (Boston: Little, Brown and Company, 1994); South African Government and Parliamentary records for 1999 transition.

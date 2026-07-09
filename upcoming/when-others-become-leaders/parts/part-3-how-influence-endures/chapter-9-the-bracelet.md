@@ -1,8 +1,4 @@
-# Sample Chapter Draft — Chapter 9: The Bracelet
-
-Working draft capture for planning and drafting support. This is exploratory prose, not final manuscript text.
-
-## Chapter 9 — The Bracelet
+# Chapter 9 — The Bracelet
 
 Nobody seems to remember who made the first one.
 
@@ -56,13 +52,11 @@ Imitation is harder to photograph.
 
 It moves through glances, stories, gestures, repeated phrases, expectations. It travels between people who may never know where it began. By the time behavior is recognizable as culture, its origin has often vanished.
 
-Nobody remembers who first gave away the bracelet.
-
-That may be evidence that the idea worked.
+Nobody remembers who first gave away the bracelet. That may be evidence that the idea worked.
 
 ---
 
-By the time the Eras Tour began, Taylor Swift had spent more than half her life in public. She had learned what happens when a person becomes both human being and symbol, when ordinary choices are treated as evidence in narratives written by strangers. The scale of the tour made abstraction almost inevitable. Pollstar estimated more than ten million tickets sold and roughly $2.2 billion grossed—far beyond previous tours. At that size, a production is not merely a performance. It is a temporary city assembled, operated, dismantled, moved, and rebuilt again and again.
+By the time the Eras Tour began, Taylor Swift had spent more than half her life in public. She had learned what happens when a person becomes both human being and symbol, when ordinary choices are treated as evidence in narratives written by strangers. The scale of the tour made abstraction almost inevitable. Pollstar estimated more than ten million tickets sold and roughly $2.2 billion grossed—far beyond previous tours.[^b1] At that size, a production is not merely a performance. It is a temporary city assembled, operated, dismantled, moved, and rebuilt again and again.
 
 The public sees the illuminated stage. The stage travels because someone drives it through the night.
 
@@ -70,7 +64,7 @@ Every spectacle rests on workers: riggers, carpenters, drivers, caterers, securi
 
 That is what attention does. The more visible the leader, the easier it becomes to miss the system around her.
 
-At the tour’s conclusion, reports estimated Swift distributed $197 million in bonuses across the crew. During the first U.S. leg, truck drivers reportedly received $100,000 each, with handwritten notes. The money was extraordinary, but the notes reveal what numbers cannot. Compensation recognizes labor in aggregate. A note addresses a person.
+At the tour’s conclusion, reports estimated Swift distributed $197 million in bonuses across the crew.[^b2] During the first U.S. leg, truck drivers reportedly received $100,000 each, with handwritten notes. The money was extraordinary, but the notes reveal what numbers cannot. Compensation recognizes labor in aggregate. A note addresses a person.
 
 A bonus can still read as transaction: the tour succeeded, revenue rose, participants received a share. That matters. Many leaders praise teamwork while allowing most reward to move upward. Gratitude is easiest when it costs nothing.
 
@@ -80,7 +74,7 @@ Organizations often call people their most important resource. It sounds flatter
 
 To recognize someone is to reverse the direction of sight. The system becomes answerable to the person.
 
-Swift also made large food-bank donations along the tour route, often without centering those gifts in tour promotion. The Associated Press reported that the donations amounted to hundreds of thousands of meals, while noting that private generosity cannot resolve structural causes of food insecurity. In New Orleans, one food bank said her contribution would support 75,000 meals.
+Swift also made large food-bank donations along the tour route, often without centering those gifts in tour promotion. The Associated Press reported that the donations amounted to hundreds of thousands of meals, while noting that private generosity cannot resolve structural causes of food insecurity.[^b3] In New Orleans, one food bank said her contribution would support 75,000 meals.
 
 That qualification matters. A generous celebrity is not a public institution. Charity can relieve a wound without changing the conditions that keep producing it. A note does not erase inequality in entertainment work. A bonus does not make every relationship around a tour just.
 
@@ -190,3 +184,10 @@ Someone notices the person beside her. She removes a bracelet and holds it out. 
 For a moment, leadership leaves the stage.
 
 The bracelet becomes fully itself only when it leaves the hand that made it.
+
+
+## Notes
+
+[^b1]: Pollstar year-end Eras Tour reporting (2023–2024).
+[^b2]: Multiple outlets including *People*, *CNN*, and *The New York Times* reporting on Eras Tour bonus distributions (2023).
+[^b3]: Associated Press reporting on regional food-bank donations during the Eras Tour (2023).

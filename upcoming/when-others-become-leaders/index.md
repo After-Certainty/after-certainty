@@ -1,22 +1,41 @@
-# When Others Become Leaders
+# **When Others Become Leaders**
 
-Planning-only manuscript hub for *When Others Become Leaders: What Enduring Influence Leaves Behind*.
+## **What Enduring Influence Leaves Behind**
 
-## Planning navigation
+### **Contents**
+
+## Front Matter
+
+- [Title Page](front-matter/title-page.md)
+- [What This Book Is](front-matter/what-this-book-is.md)
+- [Introduction — The Wrong Question](front-matter/introduction-the-wrong-question.md)
+
+## Part I — How Influence Begins
+
+- [Part I bridge](parts/part-1-how-influence-begins/bridge.md)
+- [Chapter 1 — The Table](parts/part-1-how-influence-begins/chapter-1-the-table.md)
+- [Chapter 2 — Salt](parts/part-1-how-influence-begins/chapter-2-salt.md)
+- [Chapter 3 — Victory](parts/part-1-how-influence-begins/chapter-3-victory.md)
+
+## Part II — How Influence Moves
+
+- [Part II bridge](parts/part-2-how-influence-moves/bridge.md)
+- [Chapter 4 — The March](parts/part-2-how-influence-moves/chapter-4-the-march.md)
+- [Chapter 5 — The Tree](parts/part-2-how-influence-moves/chapter-5-the-tree.md)
+- [Chapter 6 — The Sign](parts/part-2-how-influence-moves/chapter-6-the-sign.md)
+
+## Part III — How Influence Endures
+
+- [Part III bridge](parts/part-3-how-influence-endures/bridge.md)
+- [Chapter 7 — The House](parts/part-3-how-influence-endures/chapter-7-the-house.md)
+- [Chapter 8 — The Neighborhood](parts/part-3-how-influence-endures/chapter-8-the-neighborhood.md)
+- [Chapter 9 — The Bracelet](parts/part-3-how-influence-endures/chapter-9-the-bracelet.md)
+
+## Back Matter
+
+- [Epilogue — The Empty Chair](back-matter/epilogue-the-empty-chair.md)
+- [Bibliography (Working)](back-matter/bibliography.md)
+
+## Planning docs
 
 - [Docs hub](docs/README.md)
-- [Book overview](docs/book-overview.md)
-- [Outline](docs/outline.md)
-- [Voice guide](docs/voice-guide.md)
-- [Chapter architecture](docs/chapter-architecture.md)
-- [Research plan](docs/research-plan.md)
-- [Themes and patterns](docs/themes-and-patterns.md)
-- [Samples or fragments](docs/samples-or-fragments.md)
-- [Open questions](docs/open-questions.md)
-- [Book rules](docs/book-rules.md)
-- [Drafting process](docs/drafting-process.md)
-- [Status](docs/status.md)
-
-## Scope note
-
-This folder intentionally contains planning documentation only. Full chapter drafting and publication wiring (`book.yml`, export settings, front/back matter build scaffolding) will be added in a later phase.
