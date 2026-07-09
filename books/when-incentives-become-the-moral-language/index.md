@@ -23,9 +23,9 @@
 
 ## Part II — When the Translation Takes Over
 
-- [Chapter 4 — Targets Without Judgment](parts/part-1-when-judgment-fractures/chapter-4-targets-without-judgment.md) *(essay edition — rewrite pending)*
-- [Chapter 5 — Fairness by Formula](parts/part-2-when-formula-speaks/chapter-5-fairness-by-formula.md) *(essay edition — rewrite pending)*
-- [Chapter 6 — Attention as Importance](parts/part-2-when-formula-speaks/chapter-6-attention-as-importance.md) *(essay edition — rewrite pending)*
+- [Chapter 4 — The Target on the Wall](parts/part-2-when-the-translation-takes-over/chapter-4-the-target-on-the-wall.md)
+- [Chapter 5 — The Matrix With No Author](parts/part-2-when-the-translation-takes-over/chapter-5-the-matrix-with-no-author.md)
+- [Chapter 6 — The Front Page Watches Back](parts/part-2-when-the-translation-takes-over/chapter-6-the-front-page-watches-back.md)
 
 ## Part III — The World the Metric Makes
 

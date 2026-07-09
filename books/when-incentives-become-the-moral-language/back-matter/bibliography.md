@@ -48,6 +48,34 @@ Monmonier, Mark. *How to Lie with Maps*. 3rd ed. Chicago: University of Chicago 
 
 Scott, James C. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press, 1998.
 
+## Chapter 4
+
+International Sustainability Standards Board (ISSB). IFRS S1 General Requirements and S2 Climate-related Disclosures. 2023.
+
+Science Based Targets initiative. Corporate target-setting criteria and net-zero standard.
+
+United Nations Framework Convention on Climate Change. *Paris Agreement*. 2015.
+
+Voluntary Carbon Markets Integrity Initiative (VCMI) and Integrity Council for the Voluntary Carbon Market (ICVCM). Guidance on offset claims and integrity.
+
+World Bank. *State and Trends of Carbon Pricing*. Annual reports.
+
+## Chapter 5
+
+Cappelli, Peter, and Anna Tavis. "The Performance Management Revolution." *Harvard Business Review*, October 2016.
+
+Greenberg, Jerald. "Organizational Justice: Yesterday, Today, and Tomorrow." *Journal of Management* 16, no. 2 (1990): 399–432.
+
+U.S. Worker Adjustment and Retraining Notification (WARN) Act. Representative workforce reduction disclosures in SEC filings.
+
+## Chapter 6
+
+Knight Foundation and Gallup. *American Views: Trust, Media, and Democracy* (and related trust surveys).
+
+Pew Research Center. News consumption and trust surveys.
+
+Reuters Institute for the Study of Journalism. *Digital News Report*. Annual editions.
+
 ## Essay edition (remaining chapters)
 
 Centers for Medicare & Medicaid Services. Hospital Readmissions Reduction Program (HRRP). Program overview and statutory authority. Updated 2023.
