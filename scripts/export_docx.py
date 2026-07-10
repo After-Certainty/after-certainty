@@ -28,31 +28,27 @@ from book_export_assets import (  # noqa: E402
 from book_output_stem import stem_for_book_dir  # noqa: E402
 from book_specs import load_spec_for_book_dir  # noqa: E402
 from diagram_rasterize import rasterize_book_diagrams  # noqa: E402
+from publication_markdown import stage_publication_units  # noqa: E402
 
 
 def run(cmd: list[str]) -> None:
     subprocess.run(cmd, check=True)
 
 
-def stage_docx_units(units: list[Path], tmp_dir: Path, *, spec: dict) -> list[Path]:
+def stage_docx_units(units: list[Path], tmp_dir: Path, *, spec: dict, book_dir: Path) -> list[Path]:
+    publication_units = stage_publication_units(units, tmp_dir / "manuscript", book_dir=book_dir)
     unnumbered_cover = title_page_cover_unnumbered(spec)
     cover_basename = title_page_cover_basename(spec)
-    if not (unnumbered_cover and cover_basename):
-        return units
 
     staged: list[Path] = []
-    for unit in units:
-        if unit.name == "title-page.md":
+    for unit in publication_units:
+        if unit.name == "title-page.md" and unnumbered_cover and cover_basename:
             text = prepare_title_page_for_docx(
                 unit.read_text(encoding="utf-8"),
                 cover_basename,
             )
-            tmp_dir.mkdir(parents=True, exist_ok=True)
-            dest = tmp_dir / unit.name
-            dest.write_text(text, encoding="utf-8")
-            staged.append(dest)
-        else:
-            staged.append(unit)
+            unit.write_text(text, encoding="utf-8")
+        staged.append(unit)
     return staged
 
 
@@ -145,7 +141,7 @@ def main() -> None:
         raise SystemExit(f"No markdown units found from {book_dir / 'index.md'}")
 
     with tempfile.TemporaryDirectory(prefix="docx-export-") as tmp:
-        docx_units = stage_docx_units(units, Path(tmp), spec=spec)
+        docx_units = stage_docx_units(units, Path(tmp), spec=spec, book_dir=book_dir)
         out = book_dir / f"{book_stem}.docx"
         export_docx_file(
             pandoc=args.pandoc,

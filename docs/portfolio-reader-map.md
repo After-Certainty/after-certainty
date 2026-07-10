@@ -15,6 +15,7 @@ A guide for **new readers** entering the multi-book portfolio. This map preserve
 | Accessible entry to curiosity under complexity | [**Curiosity Before Certainty**](../books/curiosity-before-certainty/index.md) |
 | Why messages fail before anyone is “wrong” | [**How Meaning Moves**](../books/how-meaning-moves/index.md) |
 | A practical lens on influence, renewal, and erosion | [**When Others Look to You** (v1)](../books/when-others-look-to-you/v1/index.md) |
+| What enduring influence leaves behind | [**When Others Become Leaders**](../books/when-others-become-leaders/index.md) |
 | Responsibility and coupling in systems | [**Coupling**](../books/coupling/index.md) |
 | Operating when knowing no longer governs outcomes | [**How Serious Systems Learn**](../books/how-serious-systems-learn/index.md) |
 
@@ -34,6 +35,7 @@ There is no single mandatory order. The table below groups books by **question**
 | How do I evaluate leaders when accountability drifts? | When Authority Outlives Accountability |
 | What happens to moral judgment under distance and pressure? | When Moral Seriousness Scales |
 | How does influence form, renew, and erode? | When Others Look to You **v1** |
+| What does enduring influence leave behind? | [When Others Become Leaders](../books/when-others-become-leaders/index.md) |
 | What patterns repeat across forming → eroding leadership? | When Others Look to You **v2** (companion to v1) |
 | How do I live and judge when understanding is not enough? | [After Certainty](../books/after-certainty/index.md) |
 | How did moral order harden before certainty broke? | [Before Certainty Arrives](../books/before-certainty-arrives/index.md) |
@@ -42,6 +44,8 @@ There is no single mandatory order. The table below groups books by **question**
 | When does interpretation stop coordinating authority? | [When Interpretation No Longer Matters](../books/when-interpretation-no-longer-matters/index.md) |
 
 **WOLTY editions:** Read **v1** first for the integrated field guide (harm, effectiveness, legitimacy). Use **v2** as a pattern-level companion, not a replacement.
+
+**WOLTY → WOBL:** [*When Others Become Leaders*](../books/when-others-become-leaders/index.md) (~50k) tests **circulation** through nine historical cases—what kind of leader leaves behind more leaders. Pair after WOLTY v1 or read standalone; see [`reading-with-the-series.md`](../books/when-others-become-leaders/front-matter/reading-with-the-series.md).
 
 ---
 

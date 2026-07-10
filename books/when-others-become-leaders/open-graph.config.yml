@@ -1,0 +1,20 @@
+# Tuning for tools/generate_open_graph.py — When Others Become Leaders
+bg_crop: [40, 900, 984, 1380]
+tint: [28, 22, 14, 150]
+accent_color: [210, 175, 118]
+title_lines:
+  - text: When Others
+    color: white
+  - text: Become
+    color: accent
+  - text: Leaders
+    color: white
+subtitle_lines:
+  - WHAT ENDURING INFLUENCE
+  - LEAVES BEHIND
+subtitle_color: accent
+font_title: 46
+font_sub: 17
+title_start_y: 78
+title_line_gap: 54
+rule_width: 360

@@ -211,6 +211,12 @@ def spec_publish_enabled(spec: dict[str, Any]) -> bool:
     return publishing.get("enabled", True) is not False
 
 
+def spec_publication_boundary_validation(spec: dict[str, Any]) -> bool:
+    """Opt-in strict checks for internal paths and planning material in exports."""
+    publishing = _as_dict(spec.get("publishing"))
+    return publishing.get("validate_boundary", False) is True
+
+
 def spec_ci_enabled(spec: dict[str, Any]) -> bool:
     build = _as_dict(spec.get("build"))
     return build.get("ci", False) is True

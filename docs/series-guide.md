@@ -38,6 +38,14 @@ Leadership begins when attention accumulates, when responsibility accumulates, w
 
 **Question:** How does authority become legitimate?
 
+### [When Others Become Leaders](../books/when-others-become-leaders/index.md)
+
+Once influence gathers around a person, what kind of leader leaves behind more leaders? This book studies **circulation** through nine historical cases — whether agency, practice, and moral posture survive the leader's absence.
+
+**Question:** What does enduring influence leave behind?
+
+**Pair with:** *When Others Look To You* (formation and accumulation) → this book (circulation and legacy). Each stands alone.
+
 ---
 
 ## Stabilization
@@ -105,11 +113,12 @@ For readers building the full argument (conceptual, not prescriptive):
 1. **[Before Certainty Arrives](../books/before-certainty-arrives/index.md)** — Formation  
 2. **[How Meaning Moves](../books/how-meaning-moves/index.md)** — Formation  
 3. **[When Others Look To You](../books/when-others-look-to-you/v2/index.md)** — Formation  
-4. **[When Authority Is Misread](../books/when-authority-is-misread/index.md)** — Stabilization  
-5. **[When Accountability No Longer Expires](../books/when-accountability-no-longer-expires/index.md)** — Stabilization  
-6. **[When Interpretation No Longer Matters](../books/when-interpretation-no-longer-matters/index.md)** — Tension  
-7. **[When Incentives Become the Moral Language](../books/when-incentives-become-the-moral-language/index.md)** — Tension  
-8. **[After Certainty](../books/after-certainty/index.md)** — Practice (capstone)
+4. **[When Others Become Leaders](../books/when-others-become-leaders/index.md)** — Formation (circulation and legacy; pair with WOLTY)  
+5. **[When Authority Is Misread](../books/when-authority-is-misread/index.md)** — Stabilization  
+6. **[When Accountability No Longer Expires](../books/when-accountability-no-longer-expires/index.md)** — Stabilization  
+7. **[When Interpretation No Longer Matters](../books/when-interpretation-no-longer-matters/index.md)** — Tension  
+8. **[When Incentives Become the Moral Language](../books/when-incentives-become-the-moral-language/index.md)** — Tension  
+9. **[After Certainty](../books/after-certainty/index.md)** — Practice (capstone)
 
 Several of these are **essay-length** concentrated arguments (~8–13k words), not full-length volumes.
 
@@ -191,6 +200,7 @@ These published titles extend adjacent questions. They are not required for the 
 |--------------|------------|
 | Historical formation of moral order (alternate entry) | [Curiosity Before Certainty](../books/curiosity-before-certainty/index.md) |
 | Leadership and authority at scale | [When Authority Outlives Accountability](../books/when-authority-outlives-accountability/index.md) |
+| Influence after the leader is gone | [When Others Become Leaders](../books/when-others-become-leaders/index.md) |
 | Systems, coupling, responsibility | [Coupling](../books/coupling/index.md) |
 | Acting without perfect information | [How Serious Systems Learn](../books/how-serious-systems-learn/index.md) |
 | Judgment under incomplete information | [The Discipline of Uncertainty](../books/the-discipline-of-uncertainty/index.md) |
@@ -201,6 +211,14 @@ These published titles extend adjacent questions. They are not required for the 
 ---
 
 ## Easily confused pairs
+
+### When Others Look To You vs When Others Become Leaders
+
+**When Others Look To You** (v1/v2) asks how authority **forms**, renews, and erodes when others begin looking toward someone—attention, legitimacy, circulation, and correction at human scale.
+
+**When Others Become Leaders** asks what happens **next**: whether influence leaves behind more capable people and communities, or dependence on the original figure—tested through nine historical cases.
+
+Read WOLTY for **formation and accumulation**; read WOBL for **circulation and legacy**. Either order works; WOBL includes [`reading-with-the-series.md`](../books/when-others-become-leaders/front-matter/reading-with-the-series.md) for vocabulary handoff.
 
 ### When Accountability No Longer Expires vs When Authority Outlives Accountability
 
@@ -266,6 +284,7 @@ Read before-arrives for **historical formation of moral order**; read living-in-
 | When Incentives Become the Moral Language | [books/when-incentives-become-the-moral-language/index.md](../books/when-incentives-become-the-moral-language/index.md) |
 | When Interpretation No Longer Matters | [books/when-interpretation-no-longer-matters/index.md](../books/when-interpretation-no-longer-matters/index.md) |
 | When Moral Seriousness Scales | [books/when-moral-seriousness-scales/index.md](../books/when-moral-seriousness-scales/index.md) |
+| When Others Become Leaders | [books/when-others-become-leaders/index.md](../books/when-others-become-leaders/index.md) |
 | When Others Look to You (v1) | [books/when-others-look-to-you/v1/index.md](../books/when-others-look-to-you/v1/index.md) |
 | When Others Look to You (v2) | [books/when-others-look-to-you/v2/index.md](../books/when-others-look-to-you/v2/index.md) |
 | Why Collaboration Is So Hard | [books/why-collaboration-is-so-hard/index.md](../books/why-collaboration-is-so-hard/index.md) |
