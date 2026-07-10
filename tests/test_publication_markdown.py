@@ -76,8 +76,15 @@ def test_wobl_chapters_have_no_empty_notes_after_prepare() -> None:
 
 
 def test_wobl_publication_validation_passes() -> None:
-    issues = validate_book_for_publication(WOBL)
+    issues = validate_book_for_publication(WOBL, boundary=True)
     assert issues == []
+
+
+def test_after_certainty_passes_pipeline_validation() -> None:
+    from validate_publication_manuscript import validate_export_pipeline  # noqa: E402
+
+    ac = _REPO / "books" / "after-certainty"
+    assert validate_export_pipeline(ac) == []
 
 
 def test_wobl_bibliography_has_no_internal_paths() -> None:

@@ -124,8 +124,12 @@ validate-book-specs:
 	@python3 tools/validate_book_specs.py --repo .
 
 validate-publication-manuscript:
-	@test -n "$(DIR)" || { echo "Usage: make validate-publication-manuscript DIR=path/from/repo/root"; exit 1; }
-	@python3 tools/validate_publication_manuscript.py --book-dir "$(DIR)"
+	@test -n "$(DIR)" || { echo "Usage: make validate-publication-manuscript DIR=path/from/repo/root [BOUNDARY=1]"; exit 1; }
+	@if [ "$(BOUNDARY)" = "1" ]; then \
+		python3 tools/validate_publication_manuscript.py --book-dir "$(DIR)" --boundary; \
+	else \
+		python3 tools/validate_publication_manuscript.py --book-dir "$(DIR)"; \
+	fi
 
 build-book:
 	@test -n "$(DIR)" || { echo "Usage: make build-book DIR=path/from/repo/root [OUT_DIR=build/...] [FORMATS=\"docx epub pdf\"]"; exit 1; }

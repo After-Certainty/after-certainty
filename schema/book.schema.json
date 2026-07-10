@@ -27,6 +27,10 @@
       "properties": {
         "enabled": {
           "type": "boolean"
+        },
+        "validate_boundary": {
+          "type": "boolean",
+          "description": "When true, fail export if reader-facing units contain internal repo paths, planning sections, or similar publication leaks."
         }
       }
     },

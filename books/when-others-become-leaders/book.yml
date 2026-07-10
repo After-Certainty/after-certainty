@@ -2,6 +2,7 @@ version: 1
 
 publishing:
   enabled: true
+  validate_boundary: true
 
 book:
   id: when-others-become-leaders
