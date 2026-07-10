@@ -160,7 +160,7 @@ Circulation is not proven by participation alone. It is proven when the work can
 
 Tree planting also carries real limits.
 
-A forest is not simply a large number of trees. Species matter. Water matters. land tenure matters. Ecological relationships matter. Planting can become a substitute for protecting mature forests, just as charity can become a substitute for reform. A movement can be celebrated internationally while the pressures producing environmental destruction remain powerful.
+A forest is not simply a large number of trees. Species matter. Water matters. Land tenure matters. Ecological relationships matter. Planting can become a substitute for protecting mature forests, just as charity can become a substitute for reform. A movement can be celebrated internationally while the pressures producing environmental destruction remain powerful.
 
 Maathai did not solve Kenya’s ecological or political struggles. No person could. Forest loss, corruption, poverty, contested land, unequal development, and climate pressures outlasted particular victories. The Green Belt Movement itself had to develop procedures, funding relationships, organizational authority, and professional expertise. Grassroots work does not become pure merely because its participants are local.
 

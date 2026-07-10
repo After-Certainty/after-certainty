@@ -86,7 +86,7 @@ History prefers to bring one person onto the balcony; movements happen in rooms 
 
 The danger of Mandela’s greatness is that it can make South Africa’s transition look like an achievement of personality: a remarkable man forgave his jailers, the country followed, and peace appeared. The story is comforting because it places reconciliation inside individual character. We need only wait for an unusually magnanimous person.
 
-But no private virtue could have negotiated a constitution, held an election, integrated hostile institutions, restrained armed factions, or make millions of people accept an uncertain future. Mandela mattered partly because other people had already created capacities around him. He became the face of a transition that required leadership to move through negotiators, organizers, communities, political parties, security structures, and ordinary citizens deciding not to answer each provocation with the violence it appeared to deserve.
+But no private virtue could have negotiated a constitution, held an election, integrated hostile institutions, restrained armed factions, or made millions of people accept an uncertain future. Mandela mattered partly because other people had already created capacities around him. He became the face of a transition that required leadership to move through negotiators, organizers, communities, political parties, security structures, and ordinary citizens deciding not to answer each provocation with the violence it appeared to deserve.
 
 The country did not avoid catastrophe because one man lacked anger.
 
