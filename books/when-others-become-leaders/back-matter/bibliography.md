@@ -1,6 +1,6 @@
 # Bibliography
 
-Sources cited in the manuscript and research packets. See [`docs/bibliography-guide.md`](../docs/bibliography-guide.md) for unit mapping.
+Sources cited in the text and notes.
 
 ## Primary and archival
 

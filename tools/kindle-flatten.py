@@ -13,6 +13,7 @@ if str(_SCRIPTS_DIR) not in sys.path:
 
 from assemble import resolve_book_markdown  # noqa: E402
 from diagram_rasterize import rasterize_book_diagrams  # noqa: E402
+from publication_markdown import prepare_manuscript_unit_for_export  # noqa: E402
 
 
 def flatten_custom_blocks(text: str) -> str:
@@ -107,21 +108,8 @@ def parse_index_links_with_part_markers(index_text: str) -> list[tuple[str | Non
 
 
 def ensure_blank_line_before_footnote_definitions(text: str) -> str:
-    """Pandoc requires a blank line before [^id]: definitions; otherwise they merge into the prior paragraph and EPUB shows raw anchors."""
-    lines = text.splitlines()
-    out: list[str] = []
-    for i, line in enumerate(lines):
-        if (
-            i > 0
-            and re.match(r"^\[\^[^\]]+\]:", line)
-            and lines[i - 1].strip()
-            and not re.match(r"^\[\^", lines[i - 1])
-            and out
-            and out[-1].strip()
-        ):
-            out.append("")
-        out.append(line)
-    return "\n".join(out).strip() + "\n"
+    """Backward-compatible alias; prefer prepare_manuscript_unit_for_export."""
+    return prepare_manuscript_unit_for_export(text)
 
 
 def strip_inline_cover_image(text: str) -> str:
@@ -166,7 +154,7 @@ def main() -> None:
         text = strip_inline_cover_image(text)
         if args.flatten_custom_blocks:
             text = flatten_custom_blocks(text)
-        text = ensure_blank_line_before_footnote_definitions(text)
+        text = prepare_manuscript_unit_for_export(text)
         body = text.strip()
         if part_h1:
             body = f"{part_h1}\n\n{body}"

@@ -27,6 +27,7 @@ from book_export_assets import (  # noqa: E402
 from book_output_stem import stem_for_book_dir  # noqa: E402
 from book_specs import load_spec_for_book_dir, spec_format_config  # noqa: E402
 from diagram_rasterize import rasterize_book_diagrams  # noqa: E402
+from publication_markdown import stage_publication_units  # noqa: E402
 
 
 def run(cmd: list[str]) -> None:
@@ -46,20 +47,20 @@ def stage_pdf_units(
     """
     Return pandoc input paths in manuscript order.
 
-    ``closing.md`` and ``title-page.md`` may be copied into ``tmp_dir`` for
-    format-specific tweaks. Other units keep their repo paths so duplicate
-    basenames (e.g. part bridges) are not collapsed into one temp file.
+    Units are preprocessed for publication and copied into ``tmp_dir`` so
+    duplicate basenames (e.g. part bridges) stay distinct. ``closing.md`` and
+    ``title-page.md`` receive format-specific tweaks after preprocessing.
     """
     unnumbered_cover = title_page_cover_unnumbered(spec)
     cover_basename = title_page_cover_basename(spec)
+    publication_units = stage_publication_units(units, tmp_dir / "manuscript", book_dir=book_dir)
+
     staged: list[Path] = []
-    for unit in units:
+    for unit in publication_units:
         if unit.name == "closing.md":
             text = prepare_closing_markdown_for_pdf(unit.read_text(encoding="utf-8"))
-            tmp_dir.mkdir(parents=True, exist_ok=True)
-            dest = tmp_dir / unit.name
-            dest.write_text(text, encoding="utf-8")
-            staged.append(dest)
+            unit.write_text(text, encoding="utf-8")
+            staged.append(unit)
         elif unit.name == "title-page.md" and unnumbered_cover and cover_basename:
             cover_src = book_dir / cover_basename
             text = prepare_title_page_for_pdf(
@@ -67,10 +68,8 @@ def stage_pdf_units(
                 cover_basename,
                 cover_path=cover_src if cover_src.is_file() else None,
             )
-            tmp_dir.mkdir(parents=True, exist_ok=True)
-            dest = tmp_dir / unit.name
-            dest.write_text(text, encoding="utf-8")
-            staged.append(dest)
+            unit.write_text(text, encoding="utf-8")
+            staged.append(unit)
         else:
             staged.append(unit)
     return staged

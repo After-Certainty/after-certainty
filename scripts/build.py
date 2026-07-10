@@ -25,6 +25,7 @@ from book_specs import (  # noqa: E402
     spec_pdf_engine,
 )
 from frontmatter_gen import generate_frontmatter_for_book  # noqa: E402
+from validate_publication_manuscript import validate_book_for_publication  # noqa: E402
 
 
 def run(cmd: list[str]) -> None:
@@ -49,6 +50,13 @@ def main() -> None:
     spec = load_spec_for_book_rel(repo, book_rel)
 
     generate_frontmatter_for_book(repo, book_rel)
+
+    issues = validate_book_for_publication(book_dir)
+    if issues:
+        print("Publication validation failed:", file=sys.stderr)
+        for issue in issues:
+            print(f"  - {issue}", file=sys.stderr)
+        raise SystemExit(1)
 
     requested = [f.strip().lower() for f in args.formats if f.strip()]
     if not requested:

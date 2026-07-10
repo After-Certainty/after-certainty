@@ -32,10 +32,10 @@ def test_stage_pdf_units_keeps_distinct_bridge_files(tmp_path: Path) -> None:
         [bridge1, bridge5, closing_md], tmp_path / "pdf-tmp", spec={}, book_dir=book
     )
 
-    assert staged[0] == bridge1.resolve()
-    assert staged[1] == bridge5.resolve()
+    assert staged[0].name == "bridge.md"
+    assert staged[1].name == "bridge.md"
+    assert staged[0] != staged[1]
     assert staged[0].read_text(encoding="utf-8") == "# Part I bridge\n"
     assert staged[1].read_text(encoding="utf-8") == "# Part V bridge\n"
-    assert staged[2].parent == (tmp_path / "pdf-tmp").resolve()
     assert staged[2].name == "closing.md"
     assert "```{=latex}" in staged[2].read_text(encoding="utf-8")

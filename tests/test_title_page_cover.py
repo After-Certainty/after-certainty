@@ -46,7 +46,7 @@ def test_stage_pdf_units_rewrites_title_page_when_flag_set(tmp_path: Path) -> No
         }
     }
     staged = stage_pdf_units([title_page], tmp_path / "pdf-tmp", spec=spec, book_dir=tmp_path)
-    assert staged[0].parent == (tmp_path / "pdf-tmp").resolve()
+    assert staged[0].name == "title-page.md"
     assert "\\includegraphics" in staged[0].read_text(encoding="utf-8")
 
 
@@ -59,6 +59,6 @@ def test_stage_docx_units_rewrites_title_page_when_flag_set(tmp_path: Path) -> N
             "title_page_cover_unnumbered": True,
         }
     }
-    staged = stage_docx_units([title_page], tmp_path / "docx-tmp", spec=spec)
-    assert staged[0].parent == (tmp_path / "docx-tmp").resolve()
+    staged = stage_docx_units([title_page], tmp_path / "docx-tmp", spec=spec, book_dir=tmp_path)
+    assert staged[0].name == "title-page.md"
     assert "![](BookCover.png)" in staged[0].read_text(encoding="utf-8")
