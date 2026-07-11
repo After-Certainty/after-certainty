@@ -10,7 +10,7 @@ She listened without interrupting. She nodded when it made sense. She did not ar
 
 What landed was not disagreement. It was finality.
 
-The explanation closed something. Not the issue—the space around it.
+The explanation did not close the issue. It closed the space around it.
 
 Afterward, she stopped raising concerns unless she was sure they would hold up. She learned which questions were safe and which ones were not worth asking.
 

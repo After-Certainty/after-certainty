@@ -40,7 +40,7 @@ Later, everyone agreed it had gone badly. No one could point to the moment when 
 
 That evening Nora opened the shared document. Philip passed her desk on the way out and watched her work—the same trimming and smoothing she had done during the session, but now with the whole living hour in front of her. She removed repetition. She smoothed phrasing. She made the record legible for people who had not been in the room. Anna's caution from the morning meeting settled into the summary block as *team aligned on revised timeline*, without the pauses that had made the words mean what they meant in the room. The document would circulate tomorrow. What got written would become what happened. What got omitted would become hard to retrieve.
 
-At breakfast, no transcript would preserve what Mara had not said. At work, the document would.
+At breakfast, no transcript would preserve what Mara had not said. At work, the document would preserve what the room had decided in its place.
 
 Pressure speeds compression. When stakes are high, uncertainty feels dangerous. Delay feels irresponsible. Restraint starts to look like avoidance rather than care. Under these conditions, people rush to clarify, correct, conclude, and control—not because they are careless, but because a closed read steadies the nerves faster than doubt.
 

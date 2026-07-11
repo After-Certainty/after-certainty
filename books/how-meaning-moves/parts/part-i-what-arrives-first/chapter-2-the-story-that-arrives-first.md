@@ -28,7 +28,7 @@ His *ok* was ambiguous. Hers had been too. On the screen, three letters sat insi
 
 Leo filled the gap with tone first, then motive, then history—the argument wearing a new shape, the thing they kept not naming. *She's backing away* became *she doesn't want to work this out* faster than he could test either reading. Once attribution takes hold, correction feels unnecessary. The story already explains everything.[^c2-ross-nisbett-person-situation]
 
-That was his compression, that night, alone with the phone. Brevity had always worked this way—the tariff on the wire rewarded omission, and the human mind still had to finish the sentence.[^c2-standage-telegraph]
+That was his compression, that night, alone with the phone. Telegraph operators learned the same lesson a century earlier: when the tariff rewarded brevity, senders omitted context and receivers supplied it. The wire carried the words; the human mind still had to finish the sentence. Text threads work the same way—the cost of missing context moves from sender to receiver every time.[^c2-standage-telegraph]
 
 In the morning, Mara had still been listening when the conclusion arrived—but the conclusion was no longer about her *ok*. It was about his reply in the thread, and then about his voice in the kitchen when he said he had not realized she was upset.
 

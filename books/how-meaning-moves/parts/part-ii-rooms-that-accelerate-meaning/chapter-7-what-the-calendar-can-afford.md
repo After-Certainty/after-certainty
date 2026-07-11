@@ -58,7 +58,7 @@ In tightly coupled systems, small misunderstandings can propagate because no one
 
 By the next monthly review, the larger issue had a name and an owner and a remediation plan. Someone said they should have slowed down weeks ago. Everyone nodded again. Nora opened the old notes. The confusion was there, polite and reasonable, buried between action items no one had revisited. Her comment on the plan was still there too, unanswered.
 
-The calendar had won. Not because people were careless. Because the calendar was what everyone was coordinating around.
+The calendar had won because it was what everyone was coordinating around, not because anyone had stopped caring.
 
 ### **Returning Principle: Meaning Reinforces Itself**
 
