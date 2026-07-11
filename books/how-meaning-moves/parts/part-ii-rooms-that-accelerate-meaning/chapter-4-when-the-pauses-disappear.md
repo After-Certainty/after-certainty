@@ -32,8 +32,6 @@ She tried to clarify. She was not trying to block safety. She was afraid of adop
 
 Each clarification arrived a little faster than the last. Each one sounded less like repair and more like evidence. The issue was still the pickup lane. It was also becoming something else: *Do you care about harm? Do you respect the people still thinking?*
 
-Conflict does not invent new forces. It turns up Signal, Compression, and the cost of Restraint.[^c4-edmondson-fearless-organization] A gap in view becomes a gap in character. Critique becomes rejection. An honest question becomes an attack. The room starts answering *who you are* before it answers *what to do*.
-
 Someone piled on numbers—the quote, the incident count, the weeks until break. Facts rarely slow conflict once compression has already chosen a story. They need time and trust to land. Conflict burns both.[^c4-kahan-motivated-reasoning]
 
 Without restraint, each side shrinks the other into a simpler figure. He became the parent who would rather feel decisive than be careful. She became the parent who would rather feel careful than protect kids. Once caricature sticks, talk shifts from contact to combat. People answer what the other person stands for, not what they actually said.[^c4-identity-and-caricature]
@@ -42,7 +40,7 @@ The vote was called. The plan passed. Not unanimously. Quickly.
 
 Afterward, in the hallway, she said she had not meant to obstruct. He said he had not meant to bulldoze. Both statements were true in the narrow sense. Neither reached what the room had already decided about the other.
 
-That night she opened the group thread, drafted a message thanking everyone for caring about safety, and deleted it. She could not find a version that did not sound like surrender or accusation.
+That night she opened the group thread, drafted a message thanking everyone for caring about safety, and deleted it. She could not find a version that did not sound like surrender or accusation. She read the thread twice—the vote announcement, the polite thank-yous, her own silence where a question might have gone—and closed the app.
 
 He told himself he would skip the Thursday coffee. Not forever. Just until the lane stopped feeling like a referendum on who loved their children more.
 
@@ -56,8 +54,9 @@ Conflict stains connection faster than it settles the issue on the table. Each s
 
 Pressure shrinks the distance between what people notice and what they treat as settled. Under conflict, that distance can vanish in a single exchange—and what locks in travels into the next encounter.
 
+The distinction worth keeping is between urgency about the problem and urgency about being the kind of person who acts—a tempo collision that can feel like a values collision before anyone has named the difference.
+
 [^c4-lazarus-emotion-adaptation]: Lazarus, Richard S. *Emotion and Adaptation*. New York: Oxford University Press, 1991.
-[^c4-edmondson-fearless-organization]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.
 [^c4-identity-and-caricature]: On how fights slide from topic to identity and how each side answers a simplified version of the other, see Ross, Lee, and Andrew Ward. "Naive Realism in Everyday Life: Implications for Social Conflict and Misunderstanding." In *Values and Knowledge*, edited by Edward S. Reed, Elliot Turiel, and Terrance Brown, 103–135. Hillsdale, NJ: Lawrence Erlbaum Associates, 1996; Tajfel, Henri, and John C. Turner. "The Social Identity Theory of Intergroup Behavior." In *Psychology of Intergroup Relations*, 1979.
 [^c4-kahan-motivated-reasoning]: Kahan, Dan M. "Motivated Reasoning." *Behavioral and Brain Sciences* (2017).
 [^c4-deutsch-resolution-conflict]: Deutsch, Morton. *The Resolution of Conflict*. New Haven, CT: Yale University Press, 1973.

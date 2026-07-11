@@ -370,10 +370,11 @@ Use these conventions consistently in manuscript files:
 
 ## Recurring strands and series voice (Option B rewrite)
 
-When using recurring workplace strand characters (see `docs/recurring-strands.md`):
+When using recurring strand characters (see `docs/recurring-strands.md`):
 
-- **Do not reuse names** from other books in the After Certainty series as fictional characters (e.g. Trust Beyond Similarity's Marcus, Elena, David, Priya, Jade, Grace). Strand A uses **Philip** and **Nora** unless the strand bible is updated.
+- **Do not reuse names** from other books in the After Certainty series as fictional characters (e.g. Trust Beyond Similarity's Marcus, Elena, David, Priya, Jade, Grace). Workplace strand uses **Philip**, **Nora**, and **Anna**. Domestic strand uses **Mara** and **Leo**.
 - **Avoid the Tuesday motif** from *Everyone Knows Love*: do not use *Tuesday*, *ordinary Tuesday*, *a Tuesday*, or *only on Tuesdays* as temporal anchors. Prefer unnamed time, other weekdays only when specific, or seasonal markers.
+- **Narrative rewrite benchmark:** see `docs/narrative-rewrite-benchmark.md` for scene/essay ratio and interleaving rules (Ch 6 calibration).
 
 ## Reader-Facing vs Writer-Facing
 
