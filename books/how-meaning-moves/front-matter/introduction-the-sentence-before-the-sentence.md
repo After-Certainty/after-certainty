@@ -1,12 +1,12 @@
 # **Introduction — The Sentence Before the Sentence**
 
-Philip had not decided yet. He was still weighing tradeoffs—the kind that do not fit cleanly on a slide—and the meeting was already packing up. Laptops snapped shut. Someone was erasing another version of the launch date from the whiteboard behind him.
+Philip had not decided yet. He was still weighing tradeoffs—the kind that do not fit cleanly on a slide—and the budget review was already packing up. Laptops snapped shut. Someone was erasing another version of the launch date from the whiteboard behind him.
 
-He heard himself say, almost to the room's retreating backs, that they might want to revisit one of the assumptions before the next review.
+He heard himself say, almost to the room's retreating backs, that the secondary path still depended on a vendor response they did not have in hand—and that the date on the board might be promising more certainty than the room could yet support.
 
 It was not a directive. It was a sentence still forming.
 
-No one argued. A few people nodded the way you nod when a meeting is ending and you are already halfway to the next obligation. Nora, who always took notes even when she was not the designated scribe, wrote the line down. The note would outlast the pause that had made the words sound tentative—and the room had already begun doing something with the sentence before Philip understood what it might become.
+No one argued. A few people nodded the way you nod when a meeting is ending and you are already halfway to the next obligation. Nora, who always took notes even when she was not the designated scribe, wrote the line down. The note would outlast the pause that had made the words sound tentative—and a few people were already treating the launch date as firmer than Philip had meant before he understood what his sentence might become.
 
 He had not made the call. The sentence had.
 

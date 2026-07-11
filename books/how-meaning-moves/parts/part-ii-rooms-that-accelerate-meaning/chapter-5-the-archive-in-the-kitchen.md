@@ -42,7 +42,7 @@ They had not. The weekend plan had been revised twice without either of them nam
 
 At home, facts rarely slow a spiral by themselves once history is driving the read. When compression is driven by history more than by information, new data rarely uproots the story in place.
 
-The thread from months ago still sat on the phone if either of them scrolled back—the careful message, the flat *ok*, the fight that followed. That confusion had its own shape. This one was about whether they were deciding together. The archive between them had grown without either of them naming it.
+The thread from a few weeks back still sat on the phone if either of them scrolled back—the careful message, his reply, the flat *ok*, the kitchen fight that followed. That confusion had its own shape. This one was about whether they were deciding together. The archive between them had grown without either of them naming it.
 
 Leo rinsed the pot the way he always did when he was trying to restore an ordinary morning. Mara noticed he had done it without being asked. They did not comment on it.
 

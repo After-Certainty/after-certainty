@@ -1,20 +1,22 @@
 # **Chapter 2 — The Story That Arrives First**
 
-The phone lit the nightstand before he had finished reading the message.
+The phone lit the nightstand when the thread moved again.
 
-Leo was still awake, turned slightly away, as though distance could keep the words from landing too hard. The screen showed a typing indicator, then nothing, then two letters.
-
-*ok*
-
-He read them twice. The message above was longer—careful, polite, not quite a yes.
+Leo was still awake, turned slightly away, as though distance could keep the words from landing too hard. Earlier that evening her message had arrived—careful, polite, not quite a yes.
 
 "I'm not sure this is the right direction. We should talk."
 
-By the time his thumb hovered over the reply field, the gap between her uncertainty and his read had already closed.
+He drafted a reply, deleted it, rewrote it. Each version was clearer than the last. Each one felt worse. When he finally sent something, he was no longer answering the message. He was answering what it meant.
+
+Now the screen showed a typing indicator, then nothing, then two letters.
+
+*ok*
+
+He read them twice. His careful reply sat between her message and those two letters.
 
 The first pass registered tone: flat, controlled, final in a way short messages often are. The second pass produced a guess. *She's annoyed. She's backing away. This is about something else—not the trip, not the plan, the thing we keep not naming.*
 
-He drafted a reply, deleted it, rewrote it. Each version was clearer than the last. Each one felt worse. When he finally sent something, he was no longer answering the message. He was answering what it meant.
+By the time he read her *ok* a second time, the gap between her uncertainty and his read had already closed.
 
 She was in the kitchen when he said he had not realized she was upset.
 
@@ -24,7 +26,7 @@ He nodded. He understood her words.
 
 He could not find his way back to the moment before the meaning had settled.
 
-Her *ok* was ambiguous. On the screen, two letters sat inside a longer thread that looked reasonable and left everything important out: the typing indicator that vanished, the hour before she sent the message, the trip they had not finished discussing. The mind does not tolerate empty space for long when a reply is expected.[^c2-clark-using-language]
+Her *ok* was ambiguous. On the screen, two letters sat inside a longer thread that looked reasonable and left everything important out: the typing indicator that vanished, the hour before she sent the message, the careful reply he had already sent, the trip they had not finished discussing. The mind does not tolerate empty space for long when a reply is expected.[^c2-clark-using-language]
 
 Leo filled the gap with tone first, then motive, then history—the argument wearing a new shape, the thing they kept not naming. *She's backing away* became *she doesn't want to work this out* faster than he could test either reading. Once attribution takes hold, correction feels unnecessary. The story already explains everything.[^c2-ross-nisbett-person-situation]
 
@@ -48,7 +50,7 @@ Leo tried once more that afternoon. "I wasn't accusing you," he said. "I was try
 
 Compression becomes harmful when it outruns contact: when people replace live interaction with a private conclusion. Listening turns into confirmation. Questions turn into tests.[^c2-weick-sensemaking] When conversations break down, people often respond by adding more explanation. But explanation adds content, not contact. If compression has already hardened into a story, new information gets taken in selectively. Clarification becomes escalation.[^c2-sensemaking-and-motivated-reasoning]
 
-Three days later the thread looked innocent on the screen. Her longer message. His careful reply. Her *ok*. Nothing in the transcript required the fight they had the next morning. The record preserves words. It does not preserve the half-second in which his chest tightened, or the story he chose before she had said a single thing that justified it.
+Three days later the thread looked innocent on the screen. Her longer message. His careful reply. Her *ok*. Nothing in the transcript required the kitchen fight the morning after the text. The record preserves words. It does not preserve the half-second in which his chest tightened when her *ok* arrived, or the story he chose before either of them had spoken face to face.
 
 He was not listening for what she might still mean. He was listening for proof that he had been right to brace.
 
