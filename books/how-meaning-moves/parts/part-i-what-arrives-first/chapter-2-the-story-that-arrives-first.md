@@ -1,8 +1,8 @@
 # **Chapter 2 — The Story That Arrives First**
 
-The phone lit the nightstand before Mara had finished reading the message.
+The phone lit the nightstand before he had finished reading the message.
 
-Leo was still awake, turned slightly away, as though distance could keep the words from landing too hard. The screen showed a typing indicator, then nothing, then three letters.
+Leo was still awake, turned slightly away, as though distance could keep the words from landing too hard. The screen showed a typing indicator, then nothing, then two letters.
 
 *ok*
 
@@ -24,7 +24,7 @@ He nodded. He understood her words.
 
 He could not find his way back to the moment before the meaning had settled.
 
-His *ok* was ambiguous. Hers had been too. On the screen, three letters sat inside a longer thread that looked reasonable and left everything important out: the typing indicator that vanished, the hour before she sent the message, the trip they had not finished discussing. The mind does not tolerate empty space for long when a reply is expected.[^c2-clark-using-language]
+Her *ok* was ambiguous. On the screen, two letters sat inside a longer thread that looked reasonable and left everything important out: the typing indicator that vanished, the hour before she sent the message, the trip they had not finished discussing. The mind does not tolerate empty space for long when a reply is expected.[^c2-clark-using-language]
 
 Leo filled the gap with tone first, then motive, then history—the argument wearing a new shape, the thing they kept not naming. *She's backing away* became *she doesn't want to work this out* faster than he could test either reading. Once attribution takes hold, correction feels unnecessary. The story already explains everything.[^c2-ross-nisbett-person-situation]
 
@@ -56,7 +56,7 @@ The phone on the nightstand did not change. What changed was the story that arri
 
 ### **Core Principle: Gaps Invite Completion**
 
-When meaning is incomplete, people rapidly fill in what is missing so action can continue. That inference can feel like recognition, which is why it is so hard to interrupt—and why three letters on a screen are never only three letters.
+When meaning is incomplete, people rapidly fill in what is missing so action can continue. That inference can feel like recognition, which is why it is so hard to interrupt—and why two letters on a screen are never only two letters.
 
 [^c2-standage-telegraph]: On how telegraphic tariffs and brevity conventions shaped what senders omitted and receivers had to infer, see Standage, Tom. *The Victorian Internet*. New York: Walker & Company, 1998.
 [^c2-clark-using-language]: Clark, Herbert H. *Using Language*. Cambridge: Cambridge University Press, 1996.
