@@ -36,9 +36,9 @@ To her, the tone behind his message had sounded wounded, preemptive, already hal
 
 Later she said she had felt judged. He looked surprised. She believed him. What she could not locate was the moment when listening had quietly turned into conclusion.
 
-Two private completions had reinforced each other. He had answered a story about withdrawal. She had answered a story about being managed. Neither was absurd. Neither was the only thing the thread contained.
+Two private completions had reinforced each other. He had answered a story about withdrawal. She had answered a story about being managed.
 
-To each of them, the other's turn had felt like recognition—like seeing what was there all along. The mind finishes the thought so fast that the finish looks like it came with the words.[^c2-kahneman-thinking-fast-slow] Under compression, tone turns into intent even when the speaker's inner state is mixed or unclear.[^c2-barrett-how-emotions-are-made] Once intent feels settled, the actual words matter less.
+To each of them, the other's turn had felt like recognition—like seeing what was there all along. The mind finishes the thought so fast that the finish looks like it came with the words.[^c2-kahneman-thinking-fast-slow] Once intent feels settled, the actual words matter less.
 
 The more history two people share—the same kitchen, the same unresolved argument wearing a new shape—the faster compression runs. What settled last time presses against what sounds plausible now before anyone begins cold.
 
@@ -50,20 +50,17 @@ Compression becomes harmful when it outruns contact: when people replace live in
 
 Three days later the thread looked innocent on the screen. Her longer message. His careful reply. Her *ok*. Nothing in the transcript required the fight they had the next morning. The record preserves words. It does not preserve the half-second in which his chest tightened, or the story he chose before she had said a single thing that justified it.
 
-He told himself he had been reading carefully. She told herself she had been tired, not hostile. Both could be true. Neither truth reached the moment where meaning hardened, because by then curiosity was already over. He was not listening for what she might still mean. He was listening for proof that he had been right to brace.
+He was not listening for what she might still mean. He was listening for proof that he had been right to brace.
 
-The phone on the nightstand did not change. The message did not change. What changed was the story that arrived before anyone had earned the right to be sure.
+The phone on the nightstand did not change. What changed was the story that arrived before anyone had earned the right to be sure.
 
 ### **Core Principle: Gaps Invite Completion**
 
-When meaning is incomplete, people rapidly fill in what is missing so action can continue. The fill is not random. It draws on tone, history, fear, rank, and whatever story already feels most available in the body.
-
-That inference can feel like recognition, which is why it is so hard to interrupt. The three letters on a screen are never only three letters—they are a space the mind cannot bear to leave empty, and the story that fills it often arrives before anyone has earned the right to be sure.
+When meaning is incomplete, people rapidly fill in what is missing so action can continue. That inference can feel like recognition, which is why it is so hard to interrupt—and why three letters on a screen are never only three letters.
 
 [^c2-standage-telegraph]: On how telegraphic tariffs and brevity conventions shaped what senders omitted and receivers had to infer, see Standage, Tom. *The Victorian Internet*. New York: Walker & Company, 1998.
 [^c2-clark-using-language]: Clark, Herbert H. *Using Language*. Cambridge: Cambridge University Press, 1996.
 [^c2-kahneman-thinking-fast-slow]: Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011.
-[^c2-barrett-how-emotions-are-made]: Barrett, Lisa Feldman. *How Emotions Are Made: The Secret Life of the Brain*. Boston: Houghton Mifflin Harcourt, 2017.
 [^c2-ross-nisbett-person-situation]: Ross, Lee, and Richard Nisbett. *The Person and the Situation*. New York: McGraw-Hill, 1991.
 [^c2-weick-sensemaking]: Weick, Karl E. *Sensemaking in Organizations*. Thousand Oaks, CA: Sage Publications, 1995.
 [^c2-sensemaking-and-motivated-reasoning]: On how settled stories drive ongoing sensemaking and on selective interpretation that protects what is already believed, see Weick, Karl E. *Sensemaking in Organizations*. Thousand Oaks, CA: Sage Publications, 1995; Kahan, Dan M. "Motivated Reasoning." *Behavioral and Brain Sciences* (2017).

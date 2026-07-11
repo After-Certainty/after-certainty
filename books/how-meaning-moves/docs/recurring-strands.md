@@ -48,7 +48,7 @@ Writer-facing continuity guide for the narrative rewrite pass. Do not publish th
 | **Mara** | Partner (she) | Texts carefully; holds restraint at cost |
 | **Leo** | Partner (he) | Completes gaps quickly; genuine surprise, not attack |
 
-**Objects:** Phone on nightstand; breakfast table; coffee pot; sister's visit.
+**Objects:** Phone on nightstand; breakfast table; coffee pot (Leo rinses it when restoring ordinary mornings); sister's visit.
 
 **Beats by chapter:**
 
@@ -63,6 +63,19 @@ Writer-facing continuity guide for the narrative rewrite pass. Do not publish th
 
 - Do not frame less powerful person's silence as automatically virtuous.
 - History accumulates; each return should feel heavier, not repetitive.
+
+## Strand D — PTA parents (James / Rachel)
+
+**Dramatic function:** Two tempos colliding while values overlap; universality without workplace cast.
+
+**Cast:**
+
+| Name | Role | Notes |
+|------|------|-------|
+| **James** | Parent (he) | Daughter in near-miss; urgency as responsibility; taps pen when impatient |
+| **Rachel** | Parent (she) | Son uses back gate; caution as responsibility; collecting signatures |
+
+**Beats:** Ch 4 only. Do not reuse series names (Marcus, Elena, David, etc.).
 
 ## Strand C — The room after you are right
 

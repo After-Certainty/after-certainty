@@ -34,27 +34,20 @@ She set her pen down and waited a full breath before assigning causes. Then she 
 
 The correction held. So did the room.
 
-The difference was not accuracy. Both scenes involved correct facts. The difference was pace and what the pace did to contact. In the first exchange, correctness arrived as closure. In the second, it arrived as information still attached to a live question.
+The difference was pace. In the first exchange, correctness arrived as closure. In the second, it arrived as information still attached to a live question.
 
 Philip noticed the change before he named it. Fewer early flags. Cleaner updates. Less friction. He had called it alignment. He had not asked what had been traded for the quieter room.
 
-Correct interpretations can still cause damage even in calm language with accurate premises. Philip believed he was presenting facts. Anna heard a ruling. The bruise often lands in connection: the next honest question becomes harder to ask.[^c8-ross-ward-naive-realism] Weeks of cleaner updates had already taught her which doubts were expensive to voice. When that pace outruns restraint, harm starts even if the facts are correct.[^c8-cognition-enforcement]
+Correct interpretations can still cause damage even in calm language with accurate premises. Anna heard a ruling. The bruise often lands in connection: the next honest question becomes harder to ask.[^c8-ross-ward-naive-realism] Weeks of cleaner updates had already taught her which doubts were expensive to voice. When that pace outruns restraint, harm starts even if the facts are correct.[^c8-cognition-enforcement]
 
 Anna's quiet was not caused by Philip's facts alone. It was caused by what correctness had come to mean inside a room that had already priced her caution too low. Once a person's speech has been heard as misalignment, later accuracy from someone with rank lands differently than the same accuracy from someone without it. The transcript looks fair. The archive between them does not.[^c8-fricker-epistemic-injustice]
-
-This does not require yelling or bad faith. Speakers believe they are being direct. Listeners believe they are being rational. Both use correctness to justify speed. Without restraint, truth can stay firm and still become a ruling that flattens people. Care does not erase truth. It shapes what truth is doing here, now, between these people—and what remains possible afterward.[^c8-arendt-responsibility-judgment]
-
-Some errors need to be named plainly and soon. The moral limit of accuracy is not truth itself, but the speed at which truth is used to close what still needs room.
 
 He had won the point about the estimate. He had not yet won back the place where doubt could arrive early, before it became expensive.
 
 ### **Core Principle: Meaning Gets Distorted**
 
-A first reading hardens after contact drops, so certainty stays active even when it no longer matches what is happening. Correctness can harden as cleanly as error. When facts arrive as finality, listeners do not only update their beliefs. They update their map of what can safely be said.
-
-Accuracy asks whether something is true. Restraint asks what truth is doing here, now, between these people—and whether the story that is settling still has anywhere left to move.
+When facts arrive as finality, listeners do not only update their beliefs. They update their map of what can safely be said. Restraint asks what truth is doing here, now, between these people—and whether the story that is settling still has anywhere left to move.
 
 [^c8-cognition-enforcement]: On how truth moves through bodies and relationships before it settles as "fact," and how closure and confirmation dynamics accelerate once correctness feels settled, see Barrett, Lisa Feldman. *How Emotions Are Made: The Secret Life of the Brain*. Boston: Houghton Mifflin Harcourt, 2017; Kruglanski, Arie W. "The Need for Cognitive Closure." *Psychological Review* (1990); Nickerson, Raymond S. "Confirmation Bias." *Review of General Psychology* (1998).
 [^c8-fricker-epistemic-injustice]: Fricker, Miranda. *Epistemic Injustice*. New York: Oxford University Press, 2007.
 [^c8-ross-ward-naive-realism]: Ross, Lee, and Andrew Ward. "Naive Realism in Everyday Life: Implications for Social Conflict and Misunderstanding." In *Values and Knowledge*, edited by Edward S. Reed, Elliot Turiel, and Terrance Brown, 103–135. Hillsdale, NJ: Lawrence Erlbaum Associates, 1996.
-[^c8-arendt-responsibility-judgment]: Arendt, Hannah. *Responsibility and Judgment*. New York: Schocken Books, 2003.
