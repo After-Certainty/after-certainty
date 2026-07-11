@@ -34,7 +34,7 @@ Distortion under authority does not require evil intent. It grows out of loud si
 
 Connection at work is not always warmth. Sometimes it is the belief that you can ask, "Did you mean that as a decision?" without becoming the person who delayed the launch. In the hallway, Philip had his chance. He said he was thinking out loud. No one asked him to say it again more carefully. No one named the gap between what he felt he had offered and what the room had already begun to do.
 
-At the next weekly review, the engineer who had questioned the dependency described the revised plan as if the doubt had been resolved along with the assumption. She still had questions. She did not say so. She looked toward Philip once before describing the revised plan, paused over the dependency, and then chose wording that sounded like agreement. The cost was not dramatic. It was relational and epistemic: one fewer place where uncertainty could be named without penalty.
+At the next weekly review, Anna described the revised plan as if the doubt had been resolved along with the assumption. She still had questions. She did not say so. She looked toward Philip once before describing the revised plan, paused over the dependency, and then chose wording that sounded like agreement. The cost was not dramatic. It was relational and epistemic: one fewer place where uncertainty could be named without penalty.
 
 Nora understood something Philip was only beginning to see. Organizations cannot preserve every layer of tentativeness indefinitely. Someone has to turn a living hour into lines other people can coordinate around. That evening she had opened the shared document and done what she always did: remove repetition, smooth phrasing, make the record legible for people who had not been there. She was not falsifying the meeting. She was doing the work coordination required—compressing a messy convergence into something the plan could carry.[^c6-meeting-minutes-institutional-record]
 
@@ -66,7 +66,7 @@ What locked in yesterday quietly trains what people notice tomorrow. Under autho
 
 Each settled interpretation makes the next one easier to settle, until correction requires contending not only with a person's memory but with a trail of reasonable documents and reasonable decisions that all point in the same direction.
 
-Seeing this clearly does not give leaders a new script. It makes one obligation harder to dodge. The person whose words carry the most weight has the least room to pretend that weight arrived only in the listener's imagination—and the most reason to leave meaning somewhere it can still be revised before it becomes the plan.
+The person whose words carry the most weight has the least room to pretend that weight arrived only in the listener's imagination—and the most reason to leave meaning somewhere it can still be revised before it becomes the plan.
 
 [^c6-french-raven-bases-social-power]: French, John R. P., and Bertram Raven. *The Bases of Social Power*. Ann Arbor: University of Michigan, 1959.
 [^c6-weick-sensemaking]: Weick, Karl E. *Sensemaking in Organizations*. Thousand Oaks, CA: Sage Publications, 1995.

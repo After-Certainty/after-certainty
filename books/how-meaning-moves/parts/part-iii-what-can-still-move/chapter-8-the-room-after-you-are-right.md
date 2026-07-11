@@ -2,7 +2,7 @@
 
 He was right.
 
-Philip had checked the numbers twice. He had the policy on hand. He explained it carefully, step by step, leaving no deliberate ambiguity. The engineer had raised a concern about a dependency estimate in the monthly review. The concern was not absurd. It was also not supported by the data once he walked through the sheet.
+Philip had checked the numbers twice. He had the policy on hand. He explained it carefully, step by step, leaving no deliberate ambiguity. Anna had raised a concern about a dependency estimate in the monthly review. The concern was not absurd. It was also not supported by the data once he walked through the sheet.
 
 No one disputed the facts.
 
@@ -24,25 +24,25 @@ She agreed.
 
 She could not explain how much room correctness had taken, or why it still hurt.
 
-Correct interpretations can still cause damage even in calm language with accurate premises. Philip believed he was presenting facts. The engineer heard a ruling. The bruise often lands in connection: the next honest question becomes harder to ask.[^c8-ross-ward-naive-realism] Weeks of cleaner updates had already taught her which doubts were expensive to voice. Correctness can finish what incentives started. When that pace outruns restraint, harm starts even if the facts are correct.[^c8-cognition-enforcement]
-
-This does not require yelling or bad faith. Speakers believe they are being direct. Listeners believe they are being rational. Both use correctness to justify speed.[^c8-fricker-epistemic-injustice] Without restraint, truth can stay firm and still become a ruling that flattens people. Care does not erase truth. It shapes what truth is doing here, now, between these people—and what remains possible afterward.[^c8-arendt-responsibility-judgment]
-
-A few weeks later, in a smaller working session, the engineer named a mistake plainly. The numbers on a secondary sheet were wrong, and everyone in the room could see it once she walked through the line items.
+A few weeks later, in a smaller working session, Anna named a mistake plainly. The numbers on a secondary sheet were wrong, and everyone in the room could see it once she walked through the line items.
 
 No one argued the point.
 
 She set her pen down and waited a full breath before assigning causes. Then she asked what each person had been optimizing for and what tradeoff had been invisible at the time.
 
+"What were we each trying to protect?" she asked.
+
 The correction held. So did the room.
 
-The difference was not accuracy. Both scenes involved correct facts. The difference was pace and what the pace did to contact. In the first exchange, correctness arrived as closure. In the second, it arrived as information still attached to a live question: *What were we each trying to protect?*
-
-That second move is restraint in miniature—not softness, not endless process, but refusal to let truth seal a person into a final role before the room has had time to stay with what the truth does between them.
-
-Fricker's term for one version of this harm is epistemic injustice: when someone suffers a wrong in their capacity as a knower. The engineer's quiet was not caused by Philip's facts. It was caused by what correctness had come to mean inside a room that had already priced her caution too low. Once a person's speech has been heard as misalignment, later accuracy from someone with rank lands differently than the same accuracy from someone without it. The transcript looks fair. The archive between them does not.
+The difference was not accuracy. Both scenes involved correct facts. The difference was pace and what the pace did to contact. In the first exchange, correctness arrived as closure. In the second, it arrived as information still attached to a live question.
 
 Philip noticed the change before he named it. Fewer early flags. Cleaner updates. Less friction. He had called it alignment. He had not asked what had been traded for the quieter room.
+
+Correct interpretations can still cause damage even in calm language with accurate premises. Philip believed he was presenting facts. Anna heard a ruling. The bruise often lands in connection: the next honest question becomes harder to ask.[^c8-ross-ward-naive-realism] Weeks of cleaner updates had already taught her which doubts were expensive to voice. When that pace outruns restraint, harm starts even if the facts are correct.[^c8-cognition-enforcement]
+
+Anna's quiet was not caused by Philip's facts alone. It was caused by what correctness had come to mean inside a room that had already priced her caution too low. Once a person's speech has been heard as misalignment, later accuracy from someone with rank lands differently than the same accuracy from someone without it. The transcript looks fair. The archive between them does not.[^c8-fricker-epistemic-injustice]
+
+This does not require yelling or bad faith. Speakers believe they are being direct. Listeners believe they are being rational. Both use correctness to justify speed. Without restraint, truth can stay firm and still become a ruling that flattens people. Care does not erase truth. It shapes what truth is doing here, now, between these people—and what remains possible afterward.[^c8-arendt-responsibility-judgment]
 
 Some errors need to be named plainly and soon. The moral limit of accuracy is not truth itself, but the speed at which truth is used to close what still needs room.
 
