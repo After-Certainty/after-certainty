@@ -1,8 +1,8 @@
 # **Chapter 7 — What the Calendar Can Afford**
 
-The meeting had been thin. Philip knew it before anyone said so.
+The weekly review had been thin. Philip knew it before anyone said so.
 
-They had spent forty minutes on a dependency no one could quite resolve, then moved on as though moving on were the same as resolving. The date on the board still carried more weight than anyone wanted to say aloud after the past few weeks. Philip closed his laptop. Nora saved the notes. As people packed up, someone mentioned they had been confused earlier about whether the dependency was actually settled. Another said they had noticed tension but did not want to derail things. A third admitted they had assumed clarification would come later.
+The dependency was still on the board—a line item everyone had learned to step around since the assumption came out of the plan. They had talked around it for twenty minutes without naming what remained open, then moved on as though moving on were the same as resolving. The date on the board still carried more weight than anyone wanted to say aloud after the past few weeks. Philip closed his laptop. Nora saved the notes. As people packed up, someone mentioned they had been confused earlier about whether the dependency was actually settled. Another said they had noticed tension but did not want to derail things. A third admitted they had assumed clarification would come later.
 
 It did not.
 

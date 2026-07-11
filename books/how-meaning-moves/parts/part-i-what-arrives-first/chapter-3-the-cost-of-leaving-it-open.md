@@ -2,7 +2,7 @@
 
 Mara noticed the misunderstanding almost immediately.
 
-They were at breakfast—not the fight from the night before, but its residue. Leo had summarized the plan for the weekend as though the question were settled. She had meant to leave room. He had heard commitment. When he said, "So we're doing your sister's thing," something in her chest tightened.
+They were at breakfast—not the text from the night before or the kitchen that morning, but its residue. Leo had summarized the plan for the weekend as though the question were settled. She had meant to leave room. He had heard commitment. When he said, "So we're doing your sister's thing," something in her chest tightened.
 
 The correction was right there. *That's not what I agreed to. I said I'd think about it.*
 
@@ -38,9 +38,9 @@ Philip had standing to slow the room. He did not. He could have asked whether th
 
 Later, everyone agreed it had gone badly. No one could point to the moment when restraint had actually failed—only that once it had, everything else followed.
 
-That evening Nora opened the shared document. Philip passed her desk on the way out and watched her work—the same trimming and smoothing she had done during the session, but now with the whole living hour in front of her. She removed repetition. She smoothed phrasing. She made the record legible for people who had not been in the room. Anna's caution from the morning meeting settled into the summary block as *team aligned on revised timeline*, without the pauses that had made the words mean what they meant in the room. The document would circulate tomorrow. What got written would become what happened. What got omitted would become hard to retrieve.
+That evening Nora opened the session notes—not the launch plan, but the angry hour's record. Philip passed her desk on the way out and watched her work. She removed repetition from the exchanges that had looped. She smoothed phrasing until the summary read as a single arc rather than a fight. Anna's caution from the morning settled into the summary block as *team aligned on revised timeline*, without the pauses, the "That's not what I said," or the tired reply that had followed. The notes would circulate tomorrow. What got written would become what happened. What got omitted would become hard to retrieve.
 
-At breakfast, no transcript would preserve what Mara had not said. At work, the document would preserve what the room had decided in its place.
+At breakfast, no transcript would preserve what Mara had not said. At work, the notes would preserve what the room had decided in their place.
 
 Pressure speeds compression. When stakes are high, uncertainty feels dangerous. Delay feels irresponsible. Restraint starts to look like avoidance rather than care. Under these conditions, people rush to clarify, correct, conclude, and control—not because they are careless, but because a closed read steadies the nerves faster than doubt.
 

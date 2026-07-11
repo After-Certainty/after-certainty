@@ -1,8 +1,6 @@
 # **Chapter 8 — The Room After You Are Right**
 
-He was right.
-
-Philip had checked the numbers twice. He had the policy on hand. He explained it carefully, step by step, leaving no deliberate ambiguity. Anna had raised a concern about a dependency estimate in the monthly review. The concern was not absurd. It was also not supported by the data once he walked through the sheet.
+Philip was right. He had checked the numbers twice. He had the policy on hand. He explained it carefully, step by step, leaving no deliberate ambiguity. Anna had raised a concern about a dependency estimate in the monthly review. The concern was not absurd. It was also not supported by the data once he walked through the sheet.
 
 No one disputed the facts.
 

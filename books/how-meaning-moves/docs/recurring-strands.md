@@ -22,11 +22,12 @@ Writer-facing continuity guide for the narrative rewrite pass. Do not publish th
 
 | Chapter | Beat |
 |---------|------|
-| Introduction | Prequel—Philip's sentence before decision; Nora writes it down |
+| Introduction | Prequel—Philip flags vendor/date uncertainty at budget review; Nora writes it down |
 | 1 | Routine meeting—Anna's "slow down" misread as lack of confidence |
-| 3 | Quiet escalation—correction accelerates read; Anna: "That's not what I said" |
+| 3 | Quiet escalation—correction accelerates read; Anna: "That's not what I said"; Nora cleans session notes |
 | 6 | **Keystone**—passing comment becomes plan; denial; document truth |
 | 7 | Calendar blocks return; notes not revisited; feedback narrows Anna |
+| 9 | Conference room—Philip/Nora divergent summaries; hallway + email; reachability at work |
 | 10 | Philip pauses; Nora leaves question visible; Anna speaks again |
 | Epilogue | Return to document—meaning still moving; Nora comment optional |
 
@@ -57,7 +58,7 @@ Writer-facing continuity guide for the narrative rewrite pass. Do not publish th
 | 2 | Message thread—"ok" completes wrong story |
 | 3 | Delayed correction—Mara carries discomfort alone |
 | 5 | Echoed comment—"I didn't know you were planning that" |
-| 9 | Sister visit; reachability without full repair |
+| 9 | Sister visit past; calendar hold + coffee-pot phrase return; reachability without full repair |
 
 **Continuity rules:**
 

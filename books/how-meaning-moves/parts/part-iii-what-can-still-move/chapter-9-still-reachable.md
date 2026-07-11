@@ -18,17 +18,17 @@ Later, when more facts arrived about the dependency, the earlier read could move
 
 They did not become friends. They remained reachable.
 
-Mara's sister's visit had come and gone. The weekend plan they had fought about at breakfast was no longer urgent. It had been revised twice without either of them naming the kitchen conversation directly. The dispute had not been solved so much as outlasted by logistics, fatigue, and the ordinary fact of two people who still shared a table.
+Mara's sister's visit had come and gone. The weekend plan they had fought about at breakfast was no longer urgent. The dispute had not been solved so much as outlasted by logistics, fatigue, and the ordinary fact of two people who still shared a table.
 
-One evening Leo reached for the coffee pot and said, almost idly, the line that had once tightened the room: "I didn't know you were planning that."
+One evening Mara was at the kitchen counter with her calendar open, pencil hovering over a Saturday she and Leo had not discussed. Leo reached for the coffee pot and said, almost idly, the line that had once tightened the room: "I didn't know you were planning that."
 
 Mara heard the echo—the bracing reply, the years behind one sentence—and also heard that he was not starting a fight. He was returning to a phrase that had hardened between them, as though the words still needed somewhere to land.
 
-She set the mug down. "I wasn't planning it without you," she said. "I thought we were still leaving it open."
+She set the mug down. "It's just a hold for my friend," she said. "I wasn't planning anything without you. I thought we were still leaving Saturdays open until we talked."
 
-He nodded. The first version had stuck longer than either of them wanted.
+He nodded. The first version of the phrase had stuck longer than either of them wanted.
 
-The *ok* from months ago still sat in the thread if he scrolled back far enough. This one was about the visit and the weekend—the question of whether they were deciding together.
+The *ok* from a few weeks back still sat in the thread if he scrolled back far enough—the careful message, his reply, her two letters, the kitchen fight that followed. This evening was not about the sister visit anymore. It was about whether a phrase from an old fight still did half the arguing when something new was on the table.
 
 The phrase remained unfinished enough that correction could still find them.
 
