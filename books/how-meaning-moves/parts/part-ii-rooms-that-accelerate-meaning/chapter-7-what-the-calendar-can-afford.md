@@ -2,7 +2,7 @@
 
 The meeting had been thin. Philip knew it before anyone said so.
 
-They had spent forty minutes on a dependency no one could quite resolve, then moved on as though moving on were the same as resolving. The revised date on the board was still there, carrying more weight than anyone wanted to say aloud after the past few weeks. Philip closed his laptop. Nora saved the notes. As people packed up, someone mentioned they had been confused earlier about whether the dependency was actually settled. Another said they had noticed tension but did not want to derail things. A third admitted they had assumed clarification would come later.
+They had spent forty minutes on a dependency no one could quite resolve, then moved on as though moving on were the same as resolving. The date on the board still carried more weight than anyone wanted to say aloud after the past few weeks. Philip closed his laptop. Nora saved the notes. As people packed up, someone mentioned they had been confused earlier about whether the dependency was actually settled. Another said they had noticed tension but did not want to derail things. A third admitted they had assumed clarification would come later.
 
 It did not.
 
@@ -30,7 +30,7 @@ Anna listened carefully, nodding in the right places. She asked a clarifying que
 
 "Fewer last-minute flags. More confidence in the updates."
 
-She was quiet for a moment. "I've been checking assumptions twice before I speak," she said. "Is that what you wanted?"
+She was quiet for a moment. Her thumb rested on the edge of her notebook—the same place she touched when she was deciding whether a line was worth the cost of saying it aloud. "I've been checking assumptions twice before I speak," she said. "Is that what you wanted?"
 
 Philip registered the improvement before he registered the cost: fewer questions, cleaner updates, less friction in the room. That was what the calendar rewarded. What he had not yet named was how much of her original caution had disappeared in the process—or how quickly a listener under rank can hear feedback as verdict rather than information.[^c7-evaluative-threat-and-identity]
 
@@ -54,7 +54,7 @@ Nora saw both costs in the same week. In the meeting, she had converted another 
 
 Philip had standing to protect the pause in the meeting. He had also benefited from the quieter surface that made the calendar easier to honor. Anyone could have circled back. He had the greatest obligation to make that affordable—and the least personal incentive to pay for it while the timeline still held.
 
-Most organizations are built to keep bodies and budgets moving. Deadlines, metrics, incentives, and accountability reward speed, crisp answers, and firm calls. Motion is easy to post on a dashboard. Pausing is easy to skip in silence. In tightly coupled systems, small misunderstandings can propagate because no one has slack to stop and repair them before the next handoff.[^c7-perrow-normal-accidents]
+In tightly coupled systems, small misunderstandings can propagate because no one has slack to stop and repair them before the next handoff.[^c7-perrow-normal-accidents]
 
 By the next monthly review, the larger issue had a name and an owner and a remediation plan. Someone said they should have slowed down weeks ago. Everyone nodded again. Nora opened the old notes. The confusion was there, polite and reasonable, buried between action items no one had revisited. Her comment on the plan was still there too, unanswered.
 
@@ -62,7 +62,7 @@ The calendar had won. Not because people were careless. Because the calendar was
 
 ### **Returning Principle: Meaning Reinforces Itself**
 
-Under institutional pressure, yesterday's shorthand becomes tomorrow's default—calendars, incentives, feedback, and aligned surfaces training the next room before anyone has time to notice. The distinction worth keeping is between a thinner surface and a truer one: alignment that arrives because doubt has gone underground is still reinforcement, just harder to see.
+Under institutional pressure, yesterday's shorthand becomes tomorrow's default. Alignment that arrives because doubt has gone underground is still reinforcement—just harder to see.
 
 [^c7-evaluative-threat-and-identity]: On psychological safety and threat in organizational life, and on how evaluative contexts pull fast identity-level answers, see Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018; Steele, Claude M. *Whistling Vivaldi*. New York: W. W. Norton & Company, 2010.
 [^c7-nickerson-confirmation-bias]: Nickerson, Raymond S. "Confirmation Bias." *Review of General Psychology* (1998).

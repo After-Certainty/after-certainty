@@ -2,7 +2,7 @@
 
 The decision still had to be made.
 
-Time was short. The revised date on the board looked less like a plan than a record of hope. The dependency was still unresolved. Philip felt the pull toward certainty, the relief of picking a direction and moving on.
+Time was short. The date on the board looked less like a plan than a record of hope. The dependency was still unresolved. Philip felt the pull toward certainty, the relief of picking a direction and moving on.
 
 Instead, he named what was not settled.
 
@@ -26,16 +26,16 @@ Someone from program management read the screen over her shoulder and frowned. "
 
 "We are unsure," Philip said. "That is the point."
 
-They acted anyway—not because uncertainty had vanished, but because the launch could not wait forever. They chose the workaround. They moved the milestone one week. The workaround held. The vendor response arrived late and incomplete, which forced a second adjustment no one had wanted but everyone could name without pretending the first plan had been inevitable.
+They acted anyway. They chose the workaround. They moved the milestone one week. The workaround held until the vendor response arrived late and incomplete, which forced a second adjustment no one had wanted but everyone could name without pretending the first plan had been inevitable.
 
-A director who had not been in the room read Nora's notes the next morning and emailed Philip asking whether the team had lost confidence. The record had done its work: it made responsibility visible. It also made hesitation legible to someone grading surfaces rather than dependencies. Philip had the greatest standing to make the pause safe—and the most visible organizational accountability if asking it delayed the launch. Anna had borne more of the vulnerable cost over the past months: whose caution had been read as blockage, whose speech had narrowed when feedback landed as verdict. Restraint is expensive everywhere. It becomes especially consequential where authority and urgency meet.
+A director who had not been in the room read Nora's notes the next morning and emailed Philip asking whether the team had lost confidence. The record had made responsibility visible. It had also made hesitation legible to someone grading surfaces rather than dependencies. Philip had the greatest standing to make the pause safe—and the most visible organizational accountability if asking it delayed the launch. Anna had borne more of the vulnerable cost over the past months.
 
-Philip could not undo the sentences that had already moved through his team. He had learned what his standing could do: not mastery over the forces the book has been tracing, but the ability to leave meaning somewhere the next room could still return.
+Philip could not undo the sentences that had already moved through his team. He had learned what his standing could do: the ability to leave meaning somewhere the next room could still return.
 
-The vendor response arrived incomplete. The second adjustment was named without pretending the first plan had been inevitable. Restraint did not promise a clean ending. It promised that responsibility could keep working.
+Restraint did not promise a clean ending. It promised that responsibility could keep working.
 
 ### **Returning Principle: Contact Keeps the Read Open**
 
-Here uncertainty was left visible in a decision and in a record after action, so correction, consent, and responsibility still had somewhere to land. The distinction worth keeping is between hesitation that looks like weakness and hesitation that keeps a dependency from becoming fate—contact preserved not as warmth, but as a path back to revision.
+Uncertainty left visible in a decision and in a record after action gives correction, consent, and responsibility somewhere to land—even when the launch cannot wait.
 
 [^c10-edmondson-fearless-organization]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.
