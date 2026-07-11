@@ -1,6 +1,6 @@
 # **Introduction — The Sentence Before the Sentence**
 
-Philip had not decided yet. He was still weighing tradeoffs—the kind that do not fit cleanly on a slide—and the meeting was already packing up. Laptops snapped shut. Someone was erasing a date on the whiteboard behind him, the launch date circled in blue, crossed once and rewritten—the kind of mark that tells you the room has already spent weeks pretending a date is firmer than it is.
+Philip had not decided yet. He was still weighing tradeoffs—the kind that do not fit cleanly on a slide—and the meeting was already packing up. Laptops snapped shut. Someone was erasing another version of the launch date from the whiteboard behind him.
 
 He heard himself say, almost to the room's retreating backs, that they might want to revisit one of the assumptions before the next review.
 
