@@ -50,7 +50,7 @@ Nothing in Nora's notes described her as unconfident. Nothing in the plan said s
 
 We often imagine communication beginning with language: a speaker forms a thought, chooses words, and delivers them to a listener who interprets what was said. But people do not wait for a sentence to finish before deciding what kind of sentence it is. Tone, timing, posture, urgency, history, and rank begin shaping the interpretation while language is still arriving.[^c1-barrett-how-emotions-are-made]
 
-There is no signal-free version of a conversation. Silence carries signal. Hesitation can register as uncertainty before the listener can explain why. Confidence can be heard as competence, arrogance, safety, or threat depending on who speaks and what the room needs from them. Authority changes the weight of a phrase before anyone evaluates its reasoning.[^c1-ledoux-emotional-brain][^c1-french-raven-bases-social-power]
+There is no signal-free version of a conversation. Silence carries signal. Hesitation can register as uncertainty before the listener can explain why.[^c1-ledoux-emotional-brain] Confidence can be heard as competence, arrogance, safety, or threat depending on who speaks and what the room needs from them. Authority changes the weight of a phrase before anyone evaluates its reasoning.[^c1-french-raven-bases-social-power]
 
 This early sorting is not necessarily irrational. Human beings have to orient themselves quickly. A listener cannot process every possible meaning with equal attention. Something has to become salient first. The problem is that the first cue to feel important can quietly become the frame through which everything else is understood.
 
