@@ -1,0 +1,20 @@
+# Tuning for tools/generate_open_graph.py — How Meaning Moves
+bg_crop: [30, 340, 1025, 1180]
+tint: [14, 22, 42, 140]
+accent_color: [212, 168, 88]
+title_lines:
+  - text: How
+    color: white
+  - text: Meaning
+    color: accent
+  - text: Moves
+    color: white
+subtitle_lines:
+  - SIGNAL, COMPRESSION, RESTRAINT,
+  - AND THE PACE OF UNDERSTANDING
+subtitle_color: accent
+font_title: 46
+font_sub: 17
+title_start_y: 78
+title_line_gap: 54
+rule_width: 360
