@@ -132,13 +132,15 @@ Anna turned her notebook slightly. Under one column she had written *Early*. Und
 
 "I used to raise things when I noticed them," she said. "Now I wait until I can defend them."
 
-"It is what the room rewards."
+"It is what the room rewards," she said.
 
 Evaluative settings teach people quickly. A question raised by someone with less authority can be heard not only as information but as evidence about judgment, confidence, or alignment.[^c7-evaluative-threat-and-identity] From the outside, the adaptation looks like improvement. What disappears is difficult to measure because it never enters the record.
 
 "What would have made it safer to raise the vendor issue earlier?" Philip asked.
 
 "I did raise it earlier."
+
+"That's fair."
 
 "No," she said. "It's important."
 
@@ -160,7 +162,9 @@ Philip glanced at the clock. Nine minutes remained. Instead, he said, "We can go
 
 Anna looked toward the door. "You have another meeting."
 
-"I do. Will you be late?"
+"I do."
+
+"Will you be late?"
 
 "Yes."
 

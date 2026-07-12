@@ -106,7 +106,7 @@ Indecision refuses to choose because the choice is incomplete. Restraint chooses
 
 Philip pointed to the first question. "We use the workaround."
 
-Then the second. "We move the milestone by one week."
+Then the second. The date had already shifted in smaller provisional steps. "We set the milestone one week beyond the original date," he said. "This replaces those adjustments with a single revised milestone."
 
 The program manager exhaled. "And the secondary path?"
 
@@ -126,7 +126,7 @@ That is what restraint protects at institutional scale: not endless openness, bu
 
 Nora began drafting the recommendation:
 
-*Team recommends proceeding with the workaround and moving the milestone by one week. The workaround is operationally viable for validated scenarios but does not establish full viability of the secondary path. Continued investment depends on vendor confirmation or successful validation of the remaining scenario.*
+*Team recommends proceeding with the workaround and setting the milestone one week beyond the original date, replacing the earlier provisional adjustments. The workaround is operationally viable for validated scenarios but does not establish full viability of the secondary path. Continued investment depends on vendor confirmation or successful validation of the remaining scenario.*
 
 The program manager read it over her shoulder. "This sounds uncertain."
 
@@ -159,7 +159,7 @@ Philip read the message again. He could answer in the language organizations oft
 
 He began typing.
 
-*We have confidence in the workaround for the scenarios we have validated. We do not yet have evidence that the secondary path is fully viable. The one-week adjustment protects both the launch and our ability to revise when the missing evidence arrives.*
+*We have confidence in the workaround for the scenarios we have validated. We do not yet have evidence that the secondary path is fully viable. The consolidated one-week revision from the original date protects both the launch and our ability to revise when the missing evidence arrives.*
 
 He sent it. The director called immediately. Philip put the phone on speaker.
 

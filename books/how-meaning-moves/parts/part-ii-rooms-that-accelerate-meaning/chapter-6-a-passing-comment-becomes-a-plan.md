@@ -196,7 +196,7 @@ The new person would not ask whether the assumption should be removed. She would
 
 This is how meaning reinforces itself institutionally. Once an interpretation becomes operational, later evidence has to work against not only belief but infrastructure. Because the assumption had been removed, restoring it became more expensive, and removal looked increasingly inevitable.
 
-After the review, she returned to the original notes and added a private line beneath Philip's comment:
+After the review, Nora returned to the original notes and added a private line beneath Philip's comment:
 
 *No explicit decision recorded. Team coordinated around removal.*
 

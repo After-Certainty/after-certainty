@@ -34,6 +34,4 @@ The map below is therefore not a process diagram. It is a way of seeing relation
 
 Some patterns have already appeared directly. Others have been present at the edges of the scenes and will become more visible in the chapters ahead.
 
-Reachability—the condition Part III explores when hardened meaning may still have somewhere to return—lies outside these clusters. It names what may remain when formation, completion, movement, resolution, and reinforcement have already done their work.
-
 The map will matter less as something to remember than as something to return to. Its purpose is not to classify every conversation correctly. It is to help notice when a familiar movement has begun before certainty makes that movement difficult to see.

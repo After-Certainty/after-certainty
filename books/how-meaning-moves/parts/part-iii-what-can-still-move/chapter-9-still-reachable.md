@@ -70,7 +70,7 @@ Nora added, "And the incompleteness mattered more than the plan made visible."
 
 The project lead waited, perhaps expecting one of them to prevail. Philip continued. "We had enough information to act. We did not have enough information to call the path safe. We blurred those two things."
 
-The conversation moved to what the new response required. The milestone had already moved once, after the assumption was removed. This reassessment added three more days.
+The conversation moved to what the new response required. The milestone had already moved once, after the assumption was removed. The team marked a provisional three-day shift—another incomplete adjustment that would later be replaced.
 
 No one had to pretend that the first decision had been foolish. No one had to pretend that the uncertainty had been fully respected either. The later facts altered the meaning of the earlier meeting without forcing everyone to rewrite themselves as either correct or careless.
 
@@ -186,7 +186,7 @@ Philip read the sentence. "That makes it sound like the room moved without decid
 
 "We decided enough to keep working."
 
-"Yes."
+"Yes," Nora said.
 
 He looked at the line again. Months earlier, he might have asked her to rewrite it so the decision appeared cleaner. Nora might have defended the record as the only account that matched what people had done. Now both could see the reduction the sentence was trying to resist.
 

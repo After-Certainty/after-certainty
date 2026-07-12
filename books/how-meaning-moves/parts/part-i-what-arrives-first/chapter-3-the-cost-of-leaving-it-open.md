@@ -70,7 +70,7 @@ A project lead leaned forward. "Can we separate what is technically possible fro
 
 "That is what I'm trying to do," Anna said.
 
-"It doesn't sound like it." She stopped.
+"It doesn't sound like it," the project lead said. Anna stopped.
 
 The sentence was not cruel. It sounded almost helpful, the way corrections often do when the speaker believes the obstacle is imprecision rather than the frame through which precision is being heard.
 
