@@ -1,11 +1,35 @@
-# **How the Patterns Cluster**
+# **A Map of the Movement**
 
-You have now met **Signal**, **Compression**, and **Restraint** in scenes before they were named. The patterns below describe recurring ways meaning moves between people. They are grouped into five clusters: **Formation**, **Completion**, **Movement**, **Resolution**, and **Reinforcement**. The labels are observation tools, not steps. Full definitions live in Appendix A.
+The first three chapters have stayed close to the earliest movement of meaning.
 
-Not every pattern below receives its own chapter ending. Some operate as secondary dynamics inside chapters organized around a more dominant principle.
+Something catches attention before the words have fully settled. The mind completes what remains unfinished. A person then decides—sometimes consciously, often not—whether the interpretation can remain open long enough for contact to change it.
 
-On first read, treat the figure below as orientation—which titles belong together—not as a sequence you must memorize.
+Those movements rarely occur alone.
+
+A signal draws attention because an interpretation is already beginning to form. A gap invites completion because language cannot carry everything surrounding it. Pressure speeds that completion. History changes what a present sentence resembles. Repetition then teaches people what they should expect to hear next.
+
+The patterns in this book are grouped into five clusters:
+
+**Formation** names how interpretation begins.
+
+**Completion** names how missing meaning is supplied.
+
+**Movement** names how interpretation changes under pressure and through time.
+
+**Resolution** names what allows meaning either to reopen or harden.
+
+**Reinforcement** names how an earlier interpretation begins shaping what people notice later.
+
+These are not stages that every conversation follows in order. Several may be operating at once. A sentence can carry an early signal, awaken an old story, acquire institutional weight, and begin reinforcing itself before anyone in the room believes a decision has been made.
+
+The map below is therefore not a process diagram. It is a way of seeing relationships among the forces the chapters follow.
 
 ![Patterns grouped into Formation, Completion, Movement, Resolution, and Reinforcement](export-assets/diagrams/pattern-groups.png){ width=100% }
 
-The chapters that follow will return to these dynamics in rooms where pace, history, authority, and calendars make them harder to miss. You do not need to memorize the map. You need only recognize, in a later scene, something you have already watched happen.
+Some patterns have already appeared directly. Others have been present at the edges of the scenes and will become more visible in the chapters ahead.
+
+Reachability—the condition Part III explores when hardened meaning may still have somewhere to return—lies outside these clusters. It names what may remain when formation, completion, movement, resolution, and reinforcement have already done their work.
+
+The map will matter less as something to remember than as something to return to. Its purpose is not to classify every conversation correctly. It is to help notice when a familiar movement has begun before certainty makes that movement difficult to see.
+
+Part II now enters rooms where these forces accelerate—where conflict shortens the pause, history reaches the present first, authority gives language consequence, and calendars decide which uncertainty can still afford to remain visible.

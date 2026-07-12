@@ -18,7 +18,7 @@
 - [Chapter 1 — Before the Words](parts/part-i-what-arrives-first/chapter-1-before-the-words.md)
 - [Chapter 2 — The Story That Arrives First](parts/part-i-what-arrives-first/chapter-2-the-story-that-arrives-first.md)
 - [Chapter 3 — The Cost of Leaving It Open](parts/part-i-what-arrives-first/chapter-3-the-cost-of-leaving-it-open.md)
-- [How the Patterns Cluster](parts/part-i-what-arrives-first/pattern-map.md)
+- [A Map of the Movement](parts/part-i-what-arrives-first/pattern-map.md)
 
 ## Part II — Rooms That Accelerate Meaning
 
