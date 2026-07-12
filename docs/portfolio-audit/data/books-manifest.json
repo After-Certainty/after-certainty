@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-07-09T23:10:55.502740+00:00",
+  "generatedAt": "2026-07-12T16:50:49.646287+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
@@ -209,14 +209,14 @@
       "status": "published",
       "title": "How Meaning Moves",
       "subtitle": "Signal, Compression, Restraint, and the Pace of Understanding",
-      "description": "A concise tour of how meaning travels through language, systems, and relationships, and why restraint is often the difference between noise and connection.",
+      "description": "Before people disagree, they interpret. How meaning forms through signal, compression, and restraint\u2014long before anyone is obviously wrong, and often while the sentence is still forming.",
       "authors": [
         "Kevin Steffensen"
       ],
       "year": 2026,
       "publicationDate": null,
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-meaning-moves/BookCover.png",
-      "coverImagePath": "books/how-meaning-moves/BookCover.png",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-meaning-moves/book-cover.png",
+      "coverImagePath": "books/how-meaning-moves/book-cover.png",
       "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-meaning-moves/open-graph.png",
       "openGraphImagePath": "books/how-meaning-moves/open-graph.png",
       "bookDir": "books/how-meaning-moves",
