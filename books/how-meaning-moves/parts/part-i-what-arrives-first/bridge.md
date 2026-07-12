@@ -1,3 +1,5 @@
+\newpage
+
 # **Part I — What Arrives First**
 
 Before a sentence can be evaluated, something about it has already landed.

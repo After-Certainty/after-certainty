@@ -4,124 +4,89 @@
 
 This appendix names recurring patterns in how meaning moves between people. The patterns are grouped into five clusters: **Formation**, **Completion**, **Movement**, **Resolution**, and **Reinforcement**. Each entry describes a recognizable dynamic, not a prescription.
 
-These patterns work best as observation tools. They name what is already happening in conversation before anyone has agreed on what it means.
-
 Use them when the transcript reads innocent but the room did not feel innocent—when something moved before anyone agreed on words.
 
-**Reachability** is the book's culminating relational condition—not an eleventh pattern in this appendix. It names whether later correction or revised understanding still has somewhere to land.
+## **Core Terms**
+
+### **Signal**
+
+The cue that first becomes consequential and begins organizing what later language is allowed to mean.
+
+### **Compression**
+
+The mind's necessary reduction of incomplete language, context, and history into a story coherent enough to answer or act upon.
+
+### **Pace**
+
+The speed at which interpretation settles relative to the speed at which contact and correction can catch it.
+
+### **Restraint**
+
+The willingness to delay verdict while preserving the possibility of return. Restraint is not silence, avoidance, or refusal to act.
+
+### **Connection**
+
+The ongoing relationship, dependence, care, history, rank, or consequence that keeps lives coupled.
+
+### **Contact**
+
+Staying close enough to what was actually said and what remains unresolved for meaning to be revised through encounter.
+
+### **Reachability**
+
+The culminating condition in which a hardened interpretation has not consumed every path back to revision. Reachability is not a pattern, reconciliation, forgiveness, or an obligation to maintain access.
 
 ## **Formation**
 
-_Patterns that describe how interpretation starts before language is
-fully settled._
+_Patterns that describe how interpretation starts before language is fully settled._
 
 ## **Attention Finds a Signal.**
 
-**Context:**
+**Context:** An exchange begins under uncertainty, urgency, or social consequence.
 
-An exchange begins under uncertainty, urgency, or social consequence.
+**Problem:** People need orientation before they can process complete information.
 
-**Problem:**
+**Forces:** Tone, timing, and power register before content; social risk pushes attention toward possible consequence.
 
-People need orientation before they can process complete information.
+**Observation:** What stands out first shapes what people notice next.
 
-**Forces:**
+**Effect:** Meaning begins along a pre-selected path before full language is considered.
 
-- People notice what stands out before they interpret it
-- Tone, timing, and power register before content
-- Social risk pushes attention toward possible consequence
+**Resulting Context:** Later words are filtered through early signal.
 
-**Observation:**
-
-What stands out first shapes what people notice next.
-
-> In practice, attention finds a signal in the first cue, and that cue
-> often decides the channel everything else travels through.
-
-**Effect:**
-
-Meaning begins along a pre-selected path before full language is
-considered.
-
-**Resulting Context:**
-
-Later words are filtered through early signal.
-
-**Related Patterns:**
-
-Meaning forms early; Meaning outruns the words
+**Related Patterns:** Meaning forms early; Meaning outruns the words
 
 ## **Meaning Forms Early.**
 
-**Context:**
+**Context:** A listener receives partial language in a live social setting.
 
-A listener receives partial language in a live social setting.
+**Problem:** Action pressure makes delayed interpretation feel unsafe or inefficient.
 
-**Problem:**
+**Forces:** People settle uncertainty quickly; prior beliefs fill interpretive gaps; emotion speeds up conclusions.
 
-Action pressure makes delayed interpretation feel unsafe or inefficient.
+**Observation:** Interpretation begins before language is fully processed.
 
-**Forces:**
+**Effect:** A working story stabilizes quickly.
 
-- People settle uncertainty quickly
-- Prior beliefs fill interpretive gaps
-- Emotion speeds up conclusions
+**Resulting Context:** New detail is interpreted through an already-forming frame.
 
-**Observation:**
-
-Interpretation begins before language is fully processed.
-
-> Meaning forms early, so we often decide what is happening while we
-> still think we are listening.
-
-**Effect:**
-
-A working story stabilizes quickly.
-
-**Resulting Context:**
-
-New detail is interpreted through an already-forming frame.
-
-**Related Patterns:**
-
-Gaps invite completion; Intent gets assigned
+**Related Patterns:** Gaps invite completion; Intent gets assigned
 
 ## **Meaning Outruns the Words.**
 
-**Context:**
+**Context:** People rely on short utterances to carry complex relational meaning.
 
-People rely on short utterances to carry complex relational meaning.
+**Problem:** Language cannot carry full context, history, and emotional state by itself.
 
-**Problem:**
+**Forces:** Context lives in the setting and in shared history; emotion often shows up outside explicit wording; social roles load words with extra consequence.
 
-Language cannot carry full context, history, and emotional state by
-itself.
+**Observation:** Language never carries all of the context, emotion, or intent around it.
 
-**Forces:**
+**Effect:** Listeners must infer missing structure.
 
-- Context lives in the setting and in shared history
-- Emotion often shows up outside explicit wording
-- Social roles load words with extra consequence
+**Resulting Context:** Interpretation depends on signal and prior narrative, not words alone.
 
-**Observation:**
-
-Language never carries all of the context, emotion, or intent around
-it.
-
-> Meaning outruns the words: a line can be precise in grammar and still
-> short on life.
-
-**Effect:**
-
-Listeners must infer missing structure.
-
-**Resulting Context:**
-
-Interpretation depends on signal and prior narrative, not words alone.
-
-**Related Patterns:**
-
-Attention finds a signal; Gaps invite completion
+**Related Patterns:** Attention finds a signal; Gaps invite completion
 
 ## **Completion**
 
@@ -129,148 +94,71 @@ _Patterns where missing meaning is rapidly filled and stabilized._
 
 ## **Gaps Invite Completion.**
 
-**Context:**
+**Context:** An exchange contains ambiguity, omitted detail, or unresolved tension.
 
-An exchange contains ambiguity, omitted detail, or unresolved tension.
+**Problem:** Open meaning is hard to sustain under practical or emotional pressure.
 
-**Problem:**
+**Forces:** Uncertainty creates interpretive discomfort; fast social coordination rewards quick closure; memory and expectation supply plausible filler.
 
-Open meaning is hard to sustain under practical or emotional pressure.
+**Observation:** Missing meaning rarely stays open for long. Completed stories often feel discovered rather than authored.
 
-**Forces:**
+**Effect:** Unstated assumptions become operational truth. Two people's private completions can produce evidence for one another.
 
-- Uncertainty creates interpretive discomfort
-- Fast social coordination rewards quick closure
-- Memory and expectation supply plausible filler
+**Resulting Context:** People react to inferred meaning as if it were confirmed. Compression is necessary and becomes dangerous when it outruns contact.
 
-**Observation:**
-
-Missing meaning rarely stays open for long.
-
-> Because gaps invite completion, the mind usually supplies missing
-> meaning before the speaker does.
-
-**Effect:**
-
-Unstated assumptions become operational truth.
-
-**Resulting Context:**
-
-People react to inferred meaning as if it were confirmed.
-
-**Related Patterns:**
-
-Meaning forms early; Intent gets assigned
+**Related Patterns:** Meaning forms early; Intent gets assigned
 
 ## **Intent Gets Assigned.**
 
-**Context:**
+**Context:** A statement lands with emotional or relational significance.
 
-A statement lands with emotional or relational significance.
+**Problem:** Listeners need to decide whether they are safe, respected, or at risk.
 
-**Problem:**
+**Forces:** People turn behavior into motive quickly; threat makes defensive readings more likely; relationship history primes expectation.
 
-Listeners need to decide whether they are safe, respected, or at risk.
+**Observation:** People infer motive before certainty is possible.
 
-**Forces:**
+**Effect:** Conversations shift from shared inquiry to motive management.
 
-- People turn behavior into motive quickly
-- Threat makes defensive readings more likely
-- Relationship history primes expectation
+**Resulting Context:** Correction feels personal because intent already feels settled.
 
-**Observation:**
-
-People infer motive before certainty is possible.
-
-> Intent gets assigned in the same instant impact is noticed.
-
-**Effect:**
-
-Conversations shift from shared inquiry to motive management.
-
-**Resulting Context:**
-
-Correction feels personal because intent already feels settled.
-
-**Related Patterns:**
-
-Gaps invite completion; Meaning gets distorted
+**Related Patterns:** Gaps invite completion; Meaning gets distorted
 
 ## **Movement**
 
-_Patterns that describe how interpretation changes with pressure and
-time._
+_Patterns that describe how interpretation changes with pressure and time._
 
 ## **Meaning Shifts Under Pressure.**
 
-**Context:**
+**Context:** Communication occurs under conflict, urgency, authority, or high stakes.
 
-Communication occurs under conflict, urgency, authority, or high stakes.
+**Problem:** The need for rapid action competes with staying close to what was actually meant.
 
-**Problem:**
+**Forces:** Time pressure rewards certainty; power asymmetry increases defensive reading; consequence anticipation narrows options.
 
-The need for rapid action competes with staying close to what was
-actually meant.
+**Observation:** Urgency, conflict, and consequence accelerate interpretation. Conflict can turn differences in tempo into judgments of character. Urgency about a problem can become urgency to settle another person's motives.
 
-**Forces:**
+**Effect:** Nuance is traded for speed. Pressure changes who can afford to keep meaning open.
 
-- Time pressure rewards certainty
-- Power asymmetry increases defensive reading
-- Consequence anticipation narrows options
+**Resulting Context:** Meaning stabilizes faster than correction can catch up.
 
-**Observation:**
-
-Urgency, conflict, and consequence accelerate interpretation.
-
-> Pressure shrinks the distance between what people notice and what they treat as settled.
-
-**Effect:**
-
-Nuance is traded for speed.
-
-**Resulting Context:**
-
-Meaning stabilizes faster than correction can catch up.
-
-**Related Patterns:**
-
-Meaning forms early; Meaning gets distorted
+**Related Patterns:** Meaning forms early; Meaning gets distorted
 
 ## **Meaning Drifts Over Time.**
 
-**Context:**
+**Context:** People revisit events after additional conversations, outcomes, and memory updates.
 
-People revisit events after additional conversations, outcomes, and
-memory updates.
+**Problem:** Interpretation is treated as fixed even though context keeps changing.
 
-**Problem:**
+**Forces:** Memory is reconstructed through present conditions; repetition favors convenient summaries; relational archives contain both injuries and routes back to care.
 
-Interpretation is treated as fixed even though context keeps changing.
+**Observation:** Interpretation slowly changes as memory, context, and repetition accumulate.
 
-**Forces:**
+**Effect:** The same event is re-read through evolving frames. Resemblance can offer context without being allowed to become proof.
 
-- Memory gets rebuilt over time, not replayed exactly
-- Repetition favors convenient summaries
-- New context changes what earlier events seem to mean
+**Resulting Context:** Disagreement can grow even without new facts.
 
-**Observation:**
-
-Interpretation slowly changes as memory, context, and repetition
-accumulate.
-
-> Meaning drifts over time and rarely stays where it first landed.
-
-**Effect:**
-
-The same event is re-read through evolving frames.
-
-**Resulting Context:**
-
-Disagreement can grow even without new facts.
-
-**Related Patterns:**
-
-Meaning outruns the words; Meaning reinforces itself
+**Related Patterns:** Meaning outruns the words; Meaning reinforces itself
 
 ## **Resolution**
 
@@ -278,113 +166,52 @@ _Patterns where interpretation either reopens or hardens._
 
 ## **Contact Keeps the Read Open.**
 
-**Context:**
+**Context:** People return to a difficult exchange with more context and lower reactivity, or act while preserving unresolved conditions.
 
-People return to a difficult exchange with more context and lower
-reactivity.
+**Problem:** Early interpretation may be useful but still too rough.
 
-**Problem:**
+**Forces:** Additional context widens what people can see; restraint keeps meaning revisable; contact preserves revisability after action, not only before it.
 
-Early interpretation may be useful but still too rough.
+**Observation:** Additional context can sharpen understanding without fully resolving it. Restraint is not merely silence; delaying correction without returning can become disappearance.
 
-**Forces:**
+**Effect:** Interpretation becomes more precise and less reactive. People may act while keeping unresolved reality visible.
 
-- Additional context widens what people can see
-- Lower emotional charge improves tolerance for ambiguity
-- Restraint keeps meaning revisable
+**Resulting Context:** People can continue without pretending complete certainty.
 
-**Observation:**
-
-Additional context can sharpen understanding without fully resolving it.
-
-> Contact keeps the read open when understanding tightens without the story
-> having to close.
-
-**Effect:**
-
-Interpretation becomes more precise and less reactive.
-
-**Resulting Context:**
-
-People can continue without pretending complete certainty.
-
-**Related Patterns:**
-
-Meaning outruns the words; Meaning gets distorted
+**Related Patterns:** Meaning outruns the words; Meaning gets distorted
 
 ## **Meaning Gets Distorted.**
 
-**Context:**
+**Context:** A provisional interpretation is repeated without re-exposure to source context.
 
-A provisional interpretation is repeated without re-exposure to source
-context.
+**Problem:** Coherence is preserved at the expense of accuracy.
 
-**Problem:**
+**Forces:** Confirmation bias filters incoming data; social reinforcement rewards consistency; identity defense resists revision.
 
-Coherence is preserved at the expense of accuracy.
+**Observation:** Interpretation can harden in ways that no longer track reality. Facts may be accurate while the social meaning around their delivery becomes distorted. Correctness can resolve a claim while also teaching the room which future questions are unsafe.
 
-**Forces:**
+**Effect:** Correction is experienced as threat rather than update. Distortion is not limited to factual falsehood.
 
-- Confirmation bias filters incoming data
-- Social reinforcement rewards consistency
-- Identity defense resists revision
+**Resulting Context:** Communication continues while shared reality shrinks.
 
-**Observation:**
-
-Interpretation can harden in ways that no longer track reality.
-
-> Meaning gets distorted when certainty outlives contact with what was
-> actually said.
-
-**Effect:**
-
-Correction is experienced as threat rather than update.
-
-**Resulting Context:**
-
-Communication continues while shared reality shrinks.
-
-**Related Patterns:**
-
-Intent gets assigned; Meaning reinforces itself
+**Related Patterns:** Intent gets assigned; Meaning reinforces itself
 
 ## **Reinforcement**
 
-_Patterns where earlier interpretation becomes the engine of later
-interpretation._
+_Patterns where earlier interpretation becomes the engine of later interpretation._
 
 ## **Meaning Reinforces Itself.**
 
-**Context:**
+**Context:** A group repeats interactions through an existing interpretive frame.
 
-A group repeats interactions through an existing interpretive frame.
+**Problem:** The frame no longer feels provisional.
 
-**Problem:**
+**Forces:** Selective attention confirms prior meaning; repetition normalizes prior conclusions; social alignment penalizes interpretive differences.
 
-The frame no longer feels provisional.
+**Observation:** Once established, interpretation begins shaping future interpretation. Interpretation becomes embedded in notes, plans, statuses, schedules, assignments, and incentives. Infrastructure can reinforce a reading even when no individual explicitly chose it.
 
-**Forces:**
+**Effect:** Meaning self-stabilizes, even when reality has shifted. Later evidence must then work against both belief and coordinated action.
 
-- Selective attention confirms prior meaning
-- Repetition normalizes prior conclusions
-- Social alignment penalizes interpretive differences
+**Resulting Context:** Interpretive loops become harder to interrupt without deliberate restraint.
 
-**Observation:**
-
-Once established, interpretation begins shaping future interpretation.
-
-> Meaning reinforces itself when what we conclude once becomes what we
-> are prepared to see again.
-
-**Effect:**
-
-Meaning self-stabilizes, even when reality has shifted.
-
-**Resulting Context:**
-
-Interpretive loops become harder to interrupt without deliberate
-restraint.
-
-**Related Patterns:**
-
-Meaning shifts under pressure; Meaning gets distorted
+**Related Patterns:** Meaning shifts under pressure; Meaning gets distorted

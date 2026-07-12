@@ -1,3 +1,5 @@
+\newpage
+
 # **Author’s Note**
 
 Most books about communication begin after the trouble is already visible. They ask how to speak more clearly, listen more carefully, or persuade more effectively. Those are useful questions. This book begins earlier.

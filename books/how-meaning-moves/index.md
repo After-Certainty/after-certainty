@@ -8,7 +8,6 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
-- [About the Series](front-matter/about-the-series.md)
 - [Author's Note](front-matter/authors-note.md)
 - [Introduction — The Sentence Before the Sentence](front-matter/introduction-the-sentence-before-the-sentence.md)
 
@@ -38,6 +37,7 @@
 ## Back Matter
 
 - [Epilogue — Holding the Lens](back-matter/epilogue-holding-the-lens.md)
+- [About the Series](back-matter/about-the-series.md)
 - [Appendix A — A Pattern Language of Meaning](back-matter/appendix-a-pattern-language-of-meaning.md)
 - [Bibliography](back-matter/bibliography.md)
 

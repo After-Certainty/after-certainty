@@ -1,3 +1,5 @@
+\newpage
+
 # **A Map of the Movement**
 
 The first three chapters have stayed close to the earliest movement of meaning.
@@ -7,6 +9,10 @@ Something catches attention before the words have fully settled. The mind comple
 Those movements rarely occur alone.
 
 A signal draws attention because an interpretation is already beginning to form. A gap invites completion because language cannot carry everything surrounding it. Pressure speeds that completion. History changes what a present sentence resembles. Repetition then teaches people what they should expect to hear next.
+
+Signal, compression, restraint, connection, and pace move across the whole map. They are forces rather than stages. The named patterns describe recurring forms those forces take when meaning begins, fills its gaps, changes under pressure, reopens or hardens, and begins shaping what people notice next. Reachability sits outside the pattern list because it names a later condition: whether revised understanding still has somewhere to land.
+
+**Connection** is the ongoing relationship or consequence that keeps lives coupled. **Contact** is remaining close enough to what was said and what is unresolved for interpretation to be revised. **Reachability** is whether later truth can still matter after a reading has hardened.
 
 The patterns in this book are grouped into five clusters:
 
@@ -31,5 +37,3 @@ Some patterns have already appeared directly. Others have been present at the ed
 Reachability—the condition Part III explores when hardened meaning may still have somewhere to return—lies outside these clusters. It names what may remain when formation, completion, movement, resolution, and reinforcement have already done their work.
 
 The map will matter less as something to remember than as something to return to. Its purpose is not to classify every conversation correctly. It is to help notice when a familiar movement has begun before certainty makes that movement difficult to see.
-
-Part II now enters rooms where these forces accelerate—where conflict shortens the pause, history reaches the present first, authority gives language consequence, and calendars decide which uncertainty can still afford to remain visible.

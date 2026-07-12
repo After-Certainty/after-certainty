@@ -1,3 +1,5 @@
+\newpage
+
 # **Bibliography**
 
 - Arendt, Hannah. *Responsibility and Judgment*.
