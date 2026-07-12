@@ -106,7 +106,7 @@ Indecision refuses to choose because the choice is incomplete. Restraint chooses
 
 Philip pointed to the first question. "We use the workaround."
 
-Then the second. The date had already shifted in smaller provisional steps. "We set the milestone one week beyond the original date," he said. "This replaces those adjustments with a single revised milestone."
+The date had already shifted in smaller provisional steps. Philip pointed to the second question. "We set the milestone one week beyond the original date." The recommendation would replace the provisional adjustments with one revised date.
 
 The program manager exhaled. "And the secondary path?"
 
@@ -159,7 +159,7 @@ Philip read the message again. He could answer in the language organizations oft
 
 He began typing.
 
-*We have confidence in the workaround for the scenarios we have validated. We do not yet have evidence that the secondary path is fully viable. The consolidated one-week revision from the original date protects both the launch and our ability to revise when the missing evidence arrives.*
+*We have confidence in the workaround for the scenarios we have validated. We do not yet have evidence that the secondary path is fully viable. Setting the milestone one week beyond the original date protects both the launch and our ability to revise when the missing evidence arrives.*
 
 He sent it. The director called immediately. Philip put the phone on speaker.
 
@@ -209,7 +209,7 @@ Three days later, the vendor responded.
 
 The additional validation was mandatory. Anna had been right to preserve the question. She had not been right about everything.
 
-The vendor also supplied a temporary path the team had not anticipated. With two changes, the workaround could support the secondary path after all. The new path would require another week of work but would not require abandoning the investment.
+The vendor also supplied a temporary path the team had not anticipated. With two changes, the workaround could support the secondary path after all. The new path would consume most of the week the team had already added but would not require abandoning the investment.
 
 The evidence did not vindicate one person completely. It redistributed what the earlier decision meant.
 
@@ -237,7 +237,7 @@ Philip heard the echo of her earlier sentence. The workaround buys time. It does
 
 They revised the plan again. The milestone remained one week later than the original date. The secondary path stayed funded. The temporary vendor option became a clearly marked dependency rather than an invisible assumption.
 
-The second plan was not cleaner than the first. It was more honest about what held it together.
+The revised plan was not cleaner than the one before it. It was more honest about what held it together.
 
 A month later, someone reviewing the project asked why the team had changed direction twice. Nora opened the decision history. The entries showed movement rather than inconsistency: action, preserved conditions, revision as evidence changed.[^c10-weick-sensemaking] The organization had not wandered aimlessly. It had acted, learned, and revised.
 
