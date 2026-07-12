@@ -8,7 +8,6 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
-- [About the Series](front-matter/about-the-series.md)
 - [Author's Note](front-matter/authors-note.md)
 - [Introduction — The Sentence Before the Sentence](front-matter/introduction-the-sentence-before-the-sentence.md)
 
@@ -18,7 +17,7 @@
 - [Chapter 1 — Before the Words](parts/part-i-what-arrives-first/chapter-1-before-the-words.md)
 - [Chapter 2 — The Story That Arrives First](parts/part-i-what-arrives-first/chapter-2-the-story-that-arrives-first.md)
 - [Chapter 3 — The Cost of Leaving It Open](parts/part-i-what-arrives-first/chapter-3-the-cost-of-leaving-it-open.md)
-- [How the Patterns Cluster](parts/part-i-what-arrives-first/pattern-map.md)
+- [A Map of the Movement](parts/part-i-what-arrives-first/pattern-map.md)
 
 ## Part II — Rooms That Accelerate Meaning
 
@@ -38,6 +37,7 @@
 ## Back Matter
 
 - [Epilogue — Holding the Lens](back-matter/epilogue-holding-the-lens.md)
+- [About the Series](back-matter/about-the-series.md)
 - [Appendix A — A Pattern Language of Meaning](back-matter/appendix-a-pattern-language-of-meaning.md)
 - [Bibliography](back-matter/bibliography.md)
 
