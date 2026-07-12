@@ -1,13 +1,13 @@
 # **Author’s Note**
 
-Most books on communication begin with skill: how to speak better, how to listen better, how to persuade more effectively. This one does not. It begins with how meaning forms.
+Most books about communication begin after the trouble is already visible. They ask how to speak more clearly, listen more carefully, or persuade more effectively. Those are useful questions. This book begins earlier.
 
-By the time people start replying, a lot has already been decided. Signal has landed. Compression has tightened the read. Restraint is being tested. That sequence appears in families, teams, institutions, and intimate relationships—the same forces moving through different settings.
+Before anyone decides what a sentence means, something has already arrived: a tone, a hesitation, a glance, a silence, a history. The mind begins assembling a story before the words are finished. Under pressure, that story tightens quickly. What felt tentative to one person can feel settled to another. What began as an impression can become a plan, a record, or a judgment before anyone notices that meaning has moved.
 
-I wrote this book because that pattern is common, easy to miss, and usually explained too late—after words are judged and positions fixed. I wanted to look earlier: what moves before understanding, and why it so often outruns care.
+I wrote this book because these moments are ordinary and consequential. They happen in kitchens, meetings, text threads, and institutions—anywhere people must act before understanding is complete. We often explain them too late, after motives have been assigned and positions defended. I wanted to stay with the earlier movement: what arrives first, what gets filled in, what hardens, and what still allows a reading to change.
 
-I kept the language plain so the structure stays visible—not to sound impressive.
+This is not a manual for preventing misunderstanding. No method can keep meaning from moving. It is a lens for noticing the movement sooner, especially when certainty begins to outrun contact.
 
-This book offers a lens, not a script. Read for recognition before classification; the patterns are named after you have seen them move.
+I have kept the language plain because the structure matters more than display. The patterns are named only after you have had a chance to watch them move. Read first for recognition, then for classification.
 
-For transparency: I used an AI language model as a drafting and revision aid, much like an editor or analytical assistant. It helped with structure, phrasing, and coherence checks. It did not determine the book’s claims, values, or conclusions. All judgments and final decisions are mine.
+For transparency, I used an AI language model as a drafting and revision aid, much as I might use an editor or analytical assistant. It helped me test structure, clarify phrasing, and check coherence. It did not determine the book’s claims, values, or conclusions. The judgments and final decisions are mine.
