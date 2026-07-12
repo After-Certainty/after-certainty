@@ -18,7 +18,11 @@ The third was calmer. It acknowledged her concern, said they could talk in the m
 
 He read the message twice before sending it. Each sentence was reasonable. Together they carried more hurt than he intended. Then he waited.
 
-The typing indicator appeared, disappeared, and appeared again. He watched it long enough to imagine the revisions happening on the other side. Perhaps she was trying to soften something. Perhaps she had decided not to say it. Perhaps the hesitation itself was the answer. Finally, two letters appeared. *ok* Leo felt the meaning before he could describe it. Flat. Controlled. Final.
+The typing indicator appeared, disappeared, and appeared again. He watched it long enough to imagine the revisions happening on the other side. Perhaps she was trying to soften something. Perhaps she had decided not to say it. Perhaps the hesitation itself was the answer. Finally, two letters appeared.
+
+*ok*
+
+Leo felt the meaning before he could describe it. Flat. Controlled. Final.
 
 He knew that *ok* could mean almost anything. It could mean she was tired. It could mean she had read the message and agreed to wait until morning. It could mean she did not want to continue a difficult conversation by text.
 
