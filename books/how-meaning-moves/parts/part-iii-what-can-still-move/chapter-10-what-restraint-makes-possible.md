@@ -104,6 +104,3 @@ Contact does not require postponing action until understanding is complete. It r
 Restraint makes that contact durable. It leaves uncertainty visible in speech, decisions, and records rather than forcing it underground for the sake of confidence.
 
 The distinction worth preserving is between **acting while uncertainty remains** and **acting as though the decision has made uncertainty disappear**.
-
-[^c10-arendt-responsibility-judgment]: Arendt, Hannah. *Responsibility and Judgment*. New York: Schocken Books, 2003.
-[^c10-edmondson-fearless-organization]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018.
