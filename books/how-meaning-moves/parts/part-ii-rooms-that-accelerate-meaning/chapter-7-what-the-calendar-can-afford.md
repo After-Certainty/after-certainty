@@ -134,8 +134,6 @@ At the back entrance, a father Rachel did not know asked why pickup had changed.
 
 The school had done what the room could afford in twelve minutes. The review had been written into the decision because neither James nor Rachel would have accepted a plan without it. Writing it in had not made returning affordable. Someone still had to protect an evening, send a message, and treat mixed results as a reason to gather rather than as proof that one side had been right.
 
-A future review is not meaningful merely because it appears in the original decision. Someone must still make returning affordable.
-
 At work, a few days later, Philip met with Anna for feedback. He had scheduled thirty minutes. The past several reviews had been calmer, and he had taken that as progress.
 
 "I think the reviews have been cleaner," he said. "But I want to make sure we are still getting the early signals, not only the ones that are easy to explain."
@@ -250,7 +248,7 @@ The wording was awkward. The status stayed yellow. Two agenda items were deferre
 
 Communication that preserves uncertainty will sometimes produce slower meetings, less polished summaries, and decisions that expose what people do not yet know. The question is whether a group pays that cost early, while meaning can still move, or later, after coordination has hardened around the wrong thing.
 
-Calendars exist everywhere. Meeting blocks price which uncertainty can remain visible in a conference room. Family schedules price which conversation can survive a school morning. Volunteer capacity prices which civic concern can outlast the relief of having acted. School cycles price which review can wait until after the concert. Public attention prices which photograph becomes evidence and which becomes a private complaint.
+Calendars exist wherever people coordinate. A meeting block, a school concert, or an ordinary morning can each make one uncertainty easier to postpone than another. Time does not decide which concern matters. It helps decide which concern survives long enough to be heard.
 
 The calendar wins when everyone can see what interruption would cost and no one can yet see the cost of moving on. That is true whether anyone is being paid.
 

@@ -24,11 +24,9 @@ The meeting ended. Nora's notes circulated that afternoon. The revised plan appe
 
 The sentence had.
 
-Philip's meeting is one instance of a structure that appears wherever people must act together. This book follows meaning through three continuing worlds because each reveals something the others cannot.
+The same movement appears in very different kinds of connection. At home, Mara and Leo carry old meanings into new plans. In a neighborhood school, James and Rachel discover how quickly shared concern can turn into opposing judgments. At work, Philip, Anna, and Nora watch tentative language become records, plans, and consequence.
 
-At home, Mara and Leo navigate a relationship where a single text thread can reopen years of unfinished history. In their neighborhood, James and Rachel collide over a school safety plan while sharing the same fear that a child will be hurt. At work, Philip, Anna, and Nora live inside records, calendars, and authority that amplify every early signal. None of these is the book's central story. Each carries part of what the others cannot show alone.
-
-Philip's sentence is where we begin—not because workplaces matter more, but because the movement is visible there early. The chapters ahead return to all three worlds as consequences develop, interpretations harden, and later contact makes revision possible again.
+The book follows all three because intimacy, civic responsibility, and authority change the weight a sentence carries without changing the underlying movement.
 
 Most books about communication begin after moments like this. They begin when the misunderstanding has become visible, when someone feels misrepresented, when two people are defending different versions of what happened. They ask how the speaker might have been clearer or how the listener might have listened more carefully. Those questions matter. They also arrive late.
 

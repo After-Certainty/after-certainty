@@ -10,23 +10,23 @@ Now, a week later, Leo brought it up again while looking at the wall calendar.
 
 "So we're still on for your sister Saturday," he said. "Do you want me to pick her up?"
 
-Mara opened the text thread on her phone. The last message about Saturday was hers, sent four days earlier: *I'm still not sure about Saturday. Let me check with Claire.*
+Mara opened the text thread on her phone. The last message about Saturday was hers, sent four days earlier: *I'm still not sure about Saturday. Let me check with her.*
 
 Leo had replied: *Ok. I'll plan around it.*
 
-She had not written back. He had added the visit to the calendar. He had mentioned it to his mother. He had begun arranging groceries and pickup times as though silence after *ok* meant the same thing as yes.
+After her sister confirmed she was available, Mara had penciled Saturday onto the wall calendar as a hold. She had not told Leo the decision had been made because, in her mind, it had not. Leo saw the entry, added groceries to the list, mentioned the visit to his mother, and began arranging pickup times as though the remaining uncertainty were logistical rather than relational.
 
 "I didn't agree to Saturday," she said.
 
-Leo looked at the screen. "You said you'd check with Claire."
+Leo looked at the screen. "You said you'd check with her."
 
 "I said I wasn't sure."
 
 "You didn't say no."
 
-"I said I wasn't sure." She scrolled up. "And I never confirmed after Claire said she could come."
+"I said I wasn't sure." She scrolled up. "And I never confirmed after she said she could come."
 
-Leo read the thread again. The sequence supported her. He had treated her hesitation and her sister's availability as separate questions and had answered the second before the first was settled. He had done it without malice. He had done it quickly, the way he often moved once a plan began to feel real.
+Leo read the thread again. The sequence supported her. He had treated her sister's availability and the pencil mark on the calendar as practical confirmation before Mara had agreed. He had done it without malice. He had done it quickly, the way he often moved once a plan began to feel real.
 
 "You could have corrected me sooner," he said.
 
@@ -36,35 +36,33 @@ Leo read the thread again. The sequence supported her. He had treated her hesita
 
 "That's not what happened."
 
-He could reconstruct the sequence accurately now. Mara had been careful in her messages. Claire's confirmation did not equal Mara's agreement. The calendar entry had no matching decision between them. He was factually wrong about what they had settled.
+He could reconstruct the sequence accurately now. Mara had been careful in her messages. Her sister's confirmation did not equal Mara's agreement. The pencil mark was not a decision between them. He was factually wrong about what they had settled.
 
 He was also still afraid of something the facts did not address.
 
-"When you add something to the calendar before we've decided," he said, "it starts to feel real before I've entered the conversation."
+"When I see Saturday on the calendar and hear your sister say she can come," he said, "it starts to feel real before I've entered the conversation."
 
 Mara heard the sentence as explanation. It sounded, to her, like another account in which her caution became the problem.
 
 "I'm not saying you planned behind my back," he continued. "I'm saying I discover we're already inside a plan and I don't know when I was supposed to join it."
 
-"You joined it when you put it on the calendar."
+"You started arranging before we decided."
 
 "That's the part I'm trying to explain."
 
-Mara set the phone down. She had the stronger record. The thread showed what she had said. The calendar showed what he had assumed. If the argument remained a contest over sequence, she would win.
+Mara set the phone on the table. She had the stronger record. The thread showed what she had said. The calendar showed what he had read into her hold. If the argument remained a contest over sequence, she would win.
 
 Winning would close something else.
 
 Leo stopped pressing the factual point. He had lost it cleanly. What remained was quieter and harder to prove: the fear that shared decisions formed around him before he knew he was inside them. Mara could see that fear. She could also feel her own: that every hesitation would be read as withdrawal, that carefulness would be converted into evidence that she did not include him.
 
-She said, "You're right about what I wrote."
+She looked back at the thread.
 
-Leo looked up.
+"The thread is clear," she said. "I didn't agree to Saturday. That part is true."
 
-"I didn't agree to Saturday," she said. "That's true."
+Leo nodded.
 
-"Okay."
-
-"And when I prove that, I still don't know what you hear."
+"And when I prove that," she said after a pause, "I still don't know what happens to what you were trying to tell me."
 
 "What do you mean?"
 
@@ -106,7 +104,7 @@ The kitchen and the spreadsheet were not the same room. Rank, records, and calen
 
 Mara had been accurate about Saturday. Leo's fear about plans becoming real before he entered them had not become false because her record was stronger. Her accuracy had still taught him to speak more cautiously, more late, and more completely than early uncertainty could afford.
 
-Leo rinsed the coffee pot and set it on the counter without saying whether he still wanted to pick up Claire. Mara did not fill the silence with another correction. The weekend remained unsettled. That was more honest than the calendar had been.
+Leo rinsed the coffee pot and set it on the counter without saying whether he still wanted to pick up her sister. Mara did not fill the silence with another correction. The weekend remained unsettled. That was more honest than the calendar had been.
 
 Being right does not end responsibility. It changes its form. Once the factual question is settled, another question remains: what did this way of settling it teach the room?
 

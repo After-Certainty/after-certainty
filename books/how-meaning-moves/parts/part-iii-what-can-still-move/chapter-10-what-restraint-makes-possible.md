@@ -6,26 +6,35 @@ The school could not stop operating while the parent group searched for a perfec
 
 The Thursday review had made the mixed results visible. The front lane was safer. The back gate had acquired a new problem. Rainy-day pickup, volunteer fatigue, and the relief of having acted once all pressed toward the same conclusion: do something tomorrow, and do not pretend the something solved everything.
 
-The chair opened the follow-up meeting with four questions written on the whiteboard:
+The chair wrote two questions on the whiteboard:
 
-1. *What must change tomorrow morning?*
-2. *What remains unresolved about the whole pickup system?*
-3. *What evidence or consequence would require another revision?*
-4. *Who must be present in the next review?*
+*What must change tomorrow morning?*
 
-James had suggested the first question. Rachel had suggested the fourth. Neither had known the other would arrive with the same structure.
+*What remains unresolved?*
 
-They worked through them in order.
+James had asked for the first. Rachel had asked, quietly, for the second.
 
-Tomorrow required keeping the cones at the front entrance and adding a volunteer at the back curb during afternoon pickup. That was action, not completeness.
+They worked through the front lane first. Keep the cones. Add a volunteer at the back curb during afternoon pickup. That was action, not completeness.
 
 What remained unresolved included routing on rain days, families who could not attend evening meetings, and whether temporary paint and volunteers were becoming the permanent system by default.
 
-The group named evidence that would trigger another revision: incident reports at either entrance, wait times above fifteen minutes for back-gate families, and feedback from the two classrooms whose parents used the back gate most.
+James tapped the whiteboard marker against his palm. "If we're going to revisit this again, we need to know what would actually make us revisit it. Not another vague promise."
 
-They listed who had to be present next time: the back-gate parent representative Rachel had been collecting signatures for, the front-lane volunteers, and at least one family who had stopped using the back entrance since the vote.
+A parent near the door said, "Like what?"
 
-The decision was awkward on the page. It retained part of the front intervention, revised back-gate routing, recruited people from both entrances, and set a reassessment date three weeks out. It recorded what the current plan did not yet solve.
+"Incident reports. Wait times. Something we can measure."
+
+The chair wrote a third line:
+
+*What evidence would require another revision?*
+
+Rachel looked at the list. "A review doesn't work if the people using the back entrance aren't in the room."
+
+She named the parent representative she had been collecting signatures for, the front-lane volunteers, and one family who had stopped using the back entrance since the vote. The chair added a fourth line:
+
+*Who must be present next time?*
+
+The decision was awkward on the page. It retained part of the front intervention, revised back-gate routing, recruited people from both entrances, and set a reassessment date three weeks out. The written recommendation recorded all four questions and what the current plan did not yet solve.
 
 James accepted a slower, less visually decisive plan than the one he had defended in the first meeting. Rachel accepted action before every voice or consequence was fully known. Neither called it compromise. Each absorbed a cost the other had been carrying privately since the vote.
 
@@ -62,17 +71,17 @@ Three days later, the vendor responded. The reassessment condition had been met.
 
 At home, the decision was smaller and no less consequential.
 
-Claire confirmed dinner for the Saturday Mara had penciled on the calendar. The mark was still a hold, not a plan. Leo saw it while reaching for a mug.
+Mara's sister confirmed she could come the Saturday Mara had penciled on the calendar. The mark was still a hold, not a plan. Leo saw it while reaching for a mug.
 
 "Is that still open?" he asked.
 
 "Yes," Mara said. "I wanted to know whether you had something else in mind before it became real."
 
-He did not. She asked whether he wanted to keep the night open. He said yes. She asked whether he wanted to invite his brother. He said he would think about it. They distinguished, without naming the distinction aloud, between information, invitation, hold, and decision.
+He did not. She asked whether he wanted to keep the night open. He said yes. She asked whether he wanted to invite his brother. He said he would think about it.
 
 The archive between them had not disappeared. Leo still sometimes heard plans forming before he believed he had entered them. Mara still sometimes heard questions as accusations. Restraint did not remove the archive. It prevented the archive from making every new decision alone.
 
-That is the modest promise of restraint at every scale. It does not promise that people will understand one another fully. It does not guarantee that the right decision will be made. It does not keep authority, weather, or calendars from forcing action before knowledge is complete.
+That is the modest promise of restraint. It does not promise that people will understand one another fully. It does not guarantee that the right decision will be made. It does not keep authority, weather, or calendars from forcing action before knowledge is complete.
 
 It makes one thing possible:
 
@@ -82,7 +91,7 @@ When uncertainty remains visible, correction has somewhere to land. When conditi
 
 Restraint does not prevent consequence. It keeps consequence connected to what was known, what was assumed, and what people were still trying to understand.
 
-The school kept operating while its pickup plan remained provisional. The launch moved by one week. Claire's dinner became a shared decision instead of an assumption. None of those choices pretended that understanding had finished moving.
+The school kept operating while its pickup plan remained provisional. The launch moved by one week. The sister's visit became a shared decision instead of an assumption. None of those choices pretended that understanding had finished moving.
 
 Because they had left the uncertainty visible, the answer could still find them.
 

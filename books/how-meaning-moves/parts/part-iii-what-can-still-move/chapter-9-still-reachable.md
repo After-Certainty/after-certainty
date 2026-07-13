@@ -36,19 +36,29 @@ James added, "We had to do something. We did not have to pretend we had done eve
 
 The room did not relax into agreement. It remained tense in a different way—tense because the mixed results could still be heard without forcing one person to become reckless and the other obstructive.
 
-After the meeting, James and Rachel stood in the hallway where they had exchanged symmetrical politeness two weeks earlier.
+After the meeting, James and Rachel stood in the hallway where they had exchanged symmetrical politeness two weeks earlier. Parents passed behind them carrying folded diagrams and leftover coffee cups. The chair switched off the library lights.
 
-"I still think we waited too long the first time," he said.
+"I still think we waited too long the first time," James said.
 
-"I still think we decided too soon," she said.
+"I still think we decided too soon," Rachel said.
 
-They stood with those sentences without requiring either to disappear.
+Rachel adjusted the strap of her bag.
 
-Then Rachel said, "I don't read your urgency as not caring about the back gate anymore."
+"I know now you weren't trying to ignore the back gate."
 
-James looked at the diagram in his hand. "I don't read your request for time as not caring whether a kid gets hit."
+James folded the updated diagram once before answering.
 
-Neither spoke as friends. They did not need to. What shifted was narrower: later evidence could still alter what the original disagreement said about the other person. James stopped hearing Rachel's caution as indifference to immediate danger. Rachel stopped hearing his urgency as simple disregard for inclusion. Each still carried the substantive concern that had driven the first meeting. Neither gave it up.
+"And I know you weren't asking us to do nothing."
+
+He looked back toward the darkened library.
+
+"I thought you could live with the danger longer than I could."
+
+"I couldn't."
+
+"I know."
+
+Neither spoke as friends. They did not need to. What shifted was narrower: later evidence could still alter what the original disagreement said about the other person. James still believed the group had waited too long. Rachel still believed it had decided too soon. Each still carried the substantive concern that had driven the first meeting. Neither gave it up.
 
 The disagreement remained reachable. That is a smaller achievement than agreement and sometimes a more important one.
 
