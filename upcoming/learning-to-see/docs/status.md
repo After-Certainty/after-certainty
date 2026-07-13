@@ -33,7 +33,7 @@
 | Part II bridge | outline | Scaffold stub |
 | Chapter 4 — What Attention Makes Visible | draft | Imported July 2026; author title (was outline: Learning What to Notice) |
 | Chapter 5 — When Being Wrong Becomes Expensive | draft | Imported July 2026; author title (was outline: The Defenses We Build) |
-| Chapter 6 — Wisdom Is Social | outline | Per `outline.md` |
+| Chapter 6 — Seeing Together | draft | Imported July 2026; author title (was outline: Wisdom Is Social) |
 | Chapter 7 — What Must Be Repeated | outline | Per `outline.md` |
 | Chapter 8 — Being Right Is Not Enough | outline | Per `outline.md` |
 | Chapter 9 — When Explanation Is Not Enough | outline | Per `outline.md` |

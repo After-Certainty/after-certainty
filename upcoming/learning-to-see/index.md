@@ -24,7 +24,7 @@ Reader goal: Compare how different traditions address recurring human limitation
 - [Part II — Practices for Recurring Human Problems](parts/part-2-practices-for-recurring-human-problems/bridge.md)
 - [Chapter 4 — What Attention Makes Visible](parts/part-2-practices-for-recurring-human-problems/chapter-4-what-attention-makes-visible.md)
 - [Chapter 5 — When Being Wrong Becomes Expensive](parts/part-2-practices-for-recurring-human-problems/chapter-5-when-being-wrong-becomes-expensive.md)
-- [Chapter 6 — Wisdom Is Social](parts/part-2-practices-for-recurring-human-problems/chapter-6-wisdom-is-social.md)
+- [Chapter 6 — Seeing Together](parts/part-2-practices-for-recurring-human-problems/chapter-6-seeing-together.md)
 - [Chapter 7 — What Must Be Repeated](parts/part-2-practices-for-recurring-human-problems/chapter-7-what-must-be-repeated.md)
 - [Chapter 8 — Being Right Is Not Enough](parts/part-2-practices-for-recurring-human-problems/chapter-8-being-right-is-not-enough.md)
 - [Chapter 9 — When Explanation Is Not Enough](parts/part-2-practices-for-recurring-human-problems/chapter-9-when-explanation-is-not-enough.md)
