@@ -43,7 +43,7 @@
 | Chapter 12 — Integration Without Reduction | draft | Imported July 2026 |
 | Part IV bridge | outline | Scaffold stub |
 | Chapter 13 — When Intelligence Becomes Cheap | draft | Imported July 2026; author title (was outline: When Answers Become Cheap); Ch 1 callback |
-| Chapter 14 — Ancient Practices, Future Problems | outline | Per `outline.md` |
+| Chapter 14 — Ancient Practices, Future Problems | draft | Imported July 2026 |
 | Epilogue — Becoming Better Knowers | outline | Scaffold stub |
 
 ## Next actions
@@ -63,4 +63,4 @@
 
 - Manuscript words (target): ~55,000–70,000
 - Outline scaffold complete: July 2026
-- Current manuscript words: Intro + Ch 1–13 drafted; Ch 14 + epilogue outline
+- Current manuscript words: Intro + Ch 1–14 drafted; epilogue + bridges outline
