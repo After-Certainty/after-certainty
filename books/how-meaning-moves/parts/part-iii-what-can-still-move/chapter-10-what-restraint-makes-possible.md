@@ -79,6 +79,8 @@ Mara's sister confirmed she could come the Saturday Mara had penciled on the cal
 
 He did not. She asked whether he wanted to keep the night open. He said yes. She asked whether he wanted to invite his brother. He said he would think about it.
 
+"Then I'll tell her Saturday works," Mara said.
+
 The archive between them had not disappeared. Leo still sometimes heard plans forming before he believed he had entered them. Mara still sometimes heard questions as accusations. Restraint did not remove the archive. It prevented the archive from making every new decision alone.
 
 That is the modest promise of restraint. It does not promise that people will understand one another fully. It does not guarantee that the right decision will be made. It does not keep authority, weather, or calendars from forcing action before knowledge is complete.

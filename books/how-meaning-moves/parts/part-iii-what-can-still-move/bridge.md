@@ -19,3 +19,5 @@ The question is no longer whether meaning will move.
 It already has.
 
 The question is whether it still has somewhere to return.
+
+These final chapters move with less exposition because the mechanism is already familiar. What remains is what can still change.

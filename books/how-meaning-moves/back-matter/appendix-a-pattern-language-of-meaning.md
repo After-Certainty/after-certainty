@@ -50,6 +50,8 @@ _Patterns that describe how interpretation starts before language is fully settl
 
 **Observation:** What stands out first shapes what people notice next.
 
+**Distinctive movement:** One cue becomes salient and begins organizing attention.
+
 **Effect:** Meaning begins along a pre-selected path before full language is considered.
 
 **Resulting Context:** Later words are filtered through early signal.
@@ -66,6 +68,8 @@ _Patterns that describe how interpretation starts before language is fully settl
 
 **Observation:** Interpretation begins before language is fully processed.
 
+**Distinctive movement:** A working interpretation begins before the full message has been processed.
+
 **Effect:** A working story stabilizes quickly.
 
 **Resulting Context:** New detail is interpreted through an already-forming frame.
@@ -81,6 +85,8 @@ _Patterns that describe how interpretation starts before language is fully settl
 **Forces:** Context lives in the setting and in shared history; emotion often shows up outside explicit wording; social roles load words with extra consequence.
 
 **Observation:** Language never carries all of the context, emotion, or intent around it.
+
+**Distinctive movement:** The utterance cannot carry all the relational, emotional, or contextual meaning surrounding it.
 
 **Effect:** Listeners must infer missing structure.
 
@@ -102,6 +108,8 @@ _Patterns where missing meaning is rapidly filled and stabilized._
 
 **Observation:** Missing meaning rarely stays open for long. Completed stories often feel discovered rather than authored.
 
+**Distinctive movement:** The listener supplies missing structure so the exchange becomes answerable.
+
 **Effect:** Unstated assumptions become operational truth. Two people's private completions can produce evidence for one another.
 
 **Resulting Context:** People react to inferred meaning as if it were confirmed. Compression is necessary and becomes dangerous when it outruns contact.
@@ -117,6 +125,8 @@ _Patterns where missing meaning is rapidly filled and stabilized._
 **Forces:** People turn behavior into motive quickly; threat makes defensive readings more likely; relationship history primes expectation.
 
 **Observation:** People infer motive before certainty is possible.
+
+**Distinctive movement:** Impact is converted into a judgment about motive.
 
 **Effect:** Conversations shift from shared inquiry to motive management.
 
@@ -138,6 +148,8 @@ _Patterns that describe how interpretation changes with pressure and time._
 
 **Observation:** Urgency, conflict, and consequence accelerate interpretation. Conflict can turn differences in tempo into judgments of character. Urgency about a problem can become urgency to settle another person's motives.
 
+**Distinctive movement:** Urgency changes how quickly and narrowly an interpretation settles.
+
 **Effect:** Nuance is traded for speed. Pressure changes who can afford to keep meaning open.
 
 **Resulting Context:** Meaning stabilizes faster than correction can catch up.
@@ -153,6 +165,8 @@ _Patterns that describe how interpretation changes with pressure and time._
 **Forces:** Memory is reconstructed through present conditions; repetition favors convenient summaries; relational archives contain both injuries and routes back to care.
 
 **Observation:** Interpretation slowly changes as memory, context, and repetition accumulate.
+
+**Distinctive movement:** Memory and later context alter what an earlier exchange seems to have meant.
 
 **Effect:** The same event is re-read through evolving frames. Resemblance can offer context without being allowed to become proof.
 
@@ -174,6 +188,8 @@ _Patterns where interpretation either reopens or hardens._
 
 **Observation:** Additional context can sharpen understanding without fully resolving it. Restraint is not merely silence; delaying correction without returning can become disappearance.
 
+**Distinctive movement:** Continued encounter allows a provisional reading to be revised before or after action.
+
 **Effect:** Interpretation becomes more precise and less reactive. People may act while keeping unresolved reality visible.
 
 **Resulting Context:** People can continue without pretending complete certainty.
@@ -189,6 +205,8 @@ _Patterns where interpretation either reopens or hardens._
 **Forces:** Confirmation bias filters incoming data; social reinforcement rewards consistency; identity defense resists revision.
 
 **Observation:** Interpretation can harden in ways that no longer track reality. Facts may be accurate while the social meaning around their delivery becomes distorted. Correctness can resolve a claim while also teaching people which future questions are unsafe to raise.
+
+**Distinctive movement:** A reading hardens beyond what current evidence or context can support.
 
 **Effect:** Correction is experienced as threat rather than update. Distortion is not limited to factual falsehood.
 
@@ -209,6 +227,8 @@ _Patterns where earlier interpretation becomes the engine of later interpretatio
 **Forces:** Selective attention confirms prior meaning; repetition normalizes prior conclusions; social alignment penalizes interpretive differences.
 
 **Observation:** Once established, interpretation begins shaping future interpretation. Interpretation becomes embedded in habits, family stories, community summaries, notes, plans, statuses, schedules, and incentives. Infrastructure can reinforce a reading even when no individual explicitly chose it.
+
+**Distinctive movement:** The established interpretation begins shaping future attention, behavior, records, and evidence.
 
 **Effect:** Meaning self-stabilizes, even when reality has shifted. Later evidence must then work against both belief and coordinated action.
 

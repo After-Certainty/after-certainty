@@ -68,7 +68,7 @@ Leo nodded.
 
 "When I'm accurate, you get smaller." The sentence surprised both of them. Mara had not planned it. "You stop asking. You do the groceries alone. You say *ok* and mean *fine*."
 
-Leo did not deny it. He had already begun doing those things—not as punishment, but as protection. If plans became real before he entered them, the safer move was to wait until a concern felt fully defensible before raising it. He had learned that from the trip thread, from the breakfast, and from this morning's correction.
+Leo did not deny it. He had already begun doing those things—not as punishment, but as protection. If plans became real before he entered them, the safer move was to wait until he could explain exactly why something bothered him before asking about it. He had learned that from the trip thread, from the breakfast, and from this morning's correction.
 
 At work, Anna had learned something similar.
 

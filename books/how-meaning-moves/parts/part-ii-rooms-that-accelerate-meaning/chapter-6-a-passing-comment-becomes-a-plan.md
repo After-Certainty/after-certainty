@@ -12,7 +12,7 @@ Philip was tired of the pretense.
 
 His voice was level. He had not prepared the sentence. In his own mind, it remained attached to several other thoughts he had not finished saying: the assumption might still hold; removing it might create more risk than keeping it; they needed to know what the vendor said before either path felt settled. He was thinking aloud because the room had begun moving toward an ending that felt more certain than the facts supported.
 
-No one answered immediately. Nora lowered her eyes to her notes. Anna looked toward the date on the board. Someone at the far end of the table closed one document and opened another.
+Silence held for a moment. Nora lowered her eyes to her notes. Anna looked toward the date on the board. Someone at the far end of the table closed one document and opened another.
 
 Then the room began reorganizing itself.
 
@@ -28,7 +28,7 @@ The project lead nodded. "Right. We can model the plan without it and compare."
 
 That sounded reasonable. The modeling began immediately.
 
-No one announced a decision. No one asked for a vote. The room simply shifted from treating the assumption as part of the plan to treating it as something that now required justification before it could return.
+The shift required neither an announcement nor a vote. The room simply moved from treating the assumption as part of the plan to treating it as something that now required justification before it could return.
 
 Philip had intended to reopen a question. His sentence changed which side of the question carried the burden of proof.
 
@@ -36,7 +36,7 @@ Authority often works that way. It does not need to issue a command in order to 
 
 The people in the meeting were not blindly obedient. They were trying to manage risk. If Philip believed the assumption was weak, continuing to build around it might look careless. If they waited for him to become explicit, they might lose time. The safest response was to begin aligning with the interpretation most likely to become official later.
 
-No one needed to believe he had made a decision. They only needed to believe that acting as though he might have made one was less dangerous than doing nothing.
+They did not need to believe he had made a decision. They needed only to believe that acting as though he might have made one was less dangerous than doing nothing.
 
 By the end of the meeting, the secondary branch had been moved into a separate section of the plan. The milestone on the board had been adjusted by five days—the first time the date had moved. Someone volunteered to produce a comparison for the next review.
 

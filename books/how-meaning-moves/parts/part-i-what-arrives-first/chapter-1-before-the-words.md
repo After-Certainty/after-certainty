@@ -20,7 +20,7 @@ Nora wrote the sentence down. She took notes even when she was not the designate
 
 The note was accurate. It also carried none of the room with it—the crossed date, the late hour, the glances toward the clock, or the small change in posture after Anna spoke. Anyone reading it later would receive the words without the conditions that had made them sound heavier than they were.
 
-The meeting moved on. No one decided to delay the launch. No one resolved the dependency either.
+The meeting moved on. The launch date held. The dependency remained on the table, unresolved.
 
 Later that afternoon, Philip passed a smaller conversation near the windows. He was not part of it at first, though his presence changed its tone.
 

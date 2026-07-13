@@ -106,7 +106,7 @@ Anna felt the familiar narrowing. The facts had not been rejected. They had been
 
 She nodded. The meeting continued. On the slide, the milestone remained green.
 
-The organization had not decided the risk was unimportant. It had decided that uncertainty without a confirmed schedule effect did not yet qualify for the limited attention of the monthly review.
+The organization had not decided the risk was unimportant. It had decided that uncertainty without a confirmed schedule effect did not yet qualify for the monthly review.
 
 Nearly two weeks had passed since the school vote.
 
@@ -160,7 +160,7 @@ Anna turned her notebook slightly. Under one column she had written *Early*. Und
 
 "It is what the room rewards," she said.
 
-Evaluative settings teach people quickly. A question raised by someone with less authority can be heard not only as information but as evidence about judgment, confidence, or alignment.[^c7-evaluative-threat-and-identity] From the outside, the adaptation looks like improvement. What disappears is difficult to measure because it never enters the record.
+Evaluative settings teach people quickly. A question raised by someone with less authority can be heard not only as information but as evidence about judgment, confidence, or alignment.[^c7-evaluative-threat-and-identity]
 
 "What would have made it safer to raise the vendor issue earlier?" Philip asked.
 
@@ -182,7 +182,7 @@ The room claimed to want early signals. It rewarded finished arguments.
 
 Anna looked at him for a long moment. "Early concerns have been expensive."
 
-Philip heard what he had missed in the cleaner reviews. Anna had not become more aligned. She had become more selective about which uncertainties were worth the personal cost of making visible. Her silence had improved the surface on which he was evaluating her. He had benefited from the adaptation and then praised it.[^c7-nickerson-confirmation-bias]
+Philip heard what he had missed in the cleaner reviews. Anna had not become more aligned. She had become more selective about which uncertainties were worth the personal cost of making visible.[^c7-nickerson-confirmation-bias]
 
 Philip glanced at the clock. Nine minutes remained. Instead, he said, "We can go over."
 
@@ -216,15 +216,11 @@ The sentence had sat there for nearly three weeks.
 
 During the remediation meeting, someone said, "We should have slowed down when this first surfaced."
 
-Heads nodded. Philip noticed how easily the organization could agree with the statement now. Slowing down had become hypothetical. No one had to cancel the review that had already happened or explain a delay that might have prevented the current one.
+Heads nodded.
 
 Retrospective wisdom is cheaper than prospective restraint.
 
-At the school, the same structure appeared without slides or status colors. After the front lane began working, the cost of revisiting the plan became visible in a way the original meeting had not made visible. Volunteers were tired. The chair's calendar was full. Families who had celebrated action were less eager to reopen a decision that already felt finished. Rachel's photographs waited in a folder because no meeting had been named where they could become evidence rather than accusation.
-
-Before the failure, time spent on the dependency would have competed with visible commitments. After the failure, time spent repairing it counted as necessary work. The institution had not lacked time. It had lacked a way to value time spent on a problem that might not become real. In tightly coupled systems, small uncertainties move through handoffs faster than people can revisit them.[^c7-perrow-normal-accidents]
-
-Philip had told Anna he wanted early concerns. The calendar had told her something more credible: early concerns would be welcomed only if they arrived complete enough not to disrupt the room. The organization's stated value was openness. Its operating value was legibility. An early signal is often unusable. That is what makes it early.
+In tightly coupled systems, small uncertainties move through handoffs faster than people can revisit them.[^c7-perrow-normal-accidents]
 
 At the next weekly review, Philip changed the order of the agenda. The unresolved dependencies came first. The change did not create more time. It made the tradeoff visible. If the room spent twenty minutes on uncertainty, a polished status item near the bottom might not be discussed.
 
@@ -244,13 +240,11 @@ Nora recorded:
 
 *Validation environment may affect milestone. Consequence not yet known. Team will preserve the uncertainty in status until tested.*
 
-The wording was awkward. The status stayed yellow. Two agenda items were deferred. No one left the meeting feeling especially efficient. That was part of the cost.
-
-Communication that preserves uncertainty will sometimes produce slower meetings, less polished summaries, and decisions that expose what people do not yet know. The question is whether a group pays that cost early, while meaning can still move, or later, after coordination has hardened around the wrong thing.
+The wording was awkward. The status stayed yellow. Two agenda items were deferred. That was part of the cost.
 
 Calendars exist wherever people coordinate. A meeting block, a school concert, or an ordinary morning can each make one uncertainty easier to postpone than another. Time does not decide which concern matters. It helps decide which concern survives long enough to be heard.
 
-The calendar wins when everyone can see what interruption would cost and no one can yet see the cost of moving on. That is true whether anyone is being paid.
+The calendar wins when everyone can see what interruption would cost and no one can yet see the cost of moving on.
 
 ### **Returning Principle: Meaning Reinforces Itself**
 

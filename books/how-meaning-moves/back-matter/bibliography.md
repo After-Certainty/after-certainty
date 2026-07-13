@@ -68,9 +68,6 @@
 - Standage, Tom. *The Victorian Internet*.
   New York: Walker & Company, 1998.
 
-- Suchman, Mark C. "Managing Legitimacy: Strategic and Institutional Approaches."
-  *Academy of Management Review* 20, no. 3 (1995): 571–610.
-
 - Tajfel, Henri, and John C. Turner. "The Social Identity Theory of Intergroup Behavior."
   In *Psychology of Intergroup Relations*, edited by Stephen Worchel and William G. Austin, 7–24. Chicago: Nelson-Hall, 1979.
 

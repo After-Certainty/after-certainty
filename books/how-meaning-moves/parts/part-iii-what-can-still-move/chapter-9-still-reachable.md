@@ -4,7 +4,7 @@
 
 The review finally had a date.
 
-Two weeks after the vote, the chair sent a message to the parent group: *Quick check-in Thursday, 7 p.m., library. How is the lane plan working at both entrances?*
+Ten days later, after the spring concert, the chair sent a message to the parent group: *Quick check-in Thursday, 7 p.m., library. How is the lane plan working at both entrances?*
 
 James read it on his phone while waiting in the front pickup line. The cones were still there. Traffic moved more slowly and more predictably than before. He had not seen another near miss. That was what he remembered from the first meeting: adults acting before another child was hurt.
 
@@ -18,7 +18,7 @@ James spoke first. "The front lane is working. I think we bought ourselves time 
 
 Rachel nodded. "It is working at the front. It is also creating a problem we did not solve."
 
-She pointed to the photograph of cars stacked near the back curb. A parent who used the back gate said pickup now took twelve minutes longer on wet days. Another said her child had started asking to leave through the front because the back line felt chaotic. No one in the room argued that the front intervention had been useless. No one argued that the vote had been complete.
+She pointed to the photograph of cars stacked near the back curb. A parent who used the back gate said pickup now took twelve minutes longer on wet days. Another said her child had started asking to leave through the front because the back line felt chaotic. The evidence supported two conclusions at once: the front intervention had helped, and the vote had not been complete.
 
 The chair asked what the group wanted to do next.
 
