@@ -78,11 +78,7 @@ That is not exactly the same as exclusion.
 
 It may be harder to detect.
 
-The person is heard.
-
-The perspective is not.
-
-The promise of the group
+The person is heard. The perspective is not.
 
 There are good reasons human beings keep building communities around questions of truth.
 
@@ -121,12 +117,6 @@ Someone named the experience.
 Someone drew a distinction between insight and temptation, revelation and imagination, awakening and self-deception.
 
 The community provides the categories through which the private experience becomes intelligible.
-
-This can protect the person from mistaking every intense feeling for truth.
-
-It can also teach the person in advance which experiences are permitted to count.
-
-A testimony and its shape
 
 In the church of my childhood, testimony occupied an important place.
 
@@ -173,8 +163,6 @@ The scientific community does not need to be corrupt for this to happen.
 Coordination always requires selection.
 
 The danger begins when the selected frame becomes difficult to see because everyone who has standing was trained inside it.
-
-The comfort of shared certainty
 
 Groups create confidence in ways that individuals do not always recognize.
 
@@ -224,8 +212,6 @@ The dependence is real.
 
 It is not new evidence.
 
-Community as correction
-
 None of this removes the need for community.
 
 It clarifies what a learning community must protect.
@@ -273,8 +259,6 @@ The team holds a retrospective, but no action item may challenge the incentives 
 The form of correction remains.
 
 The possibility of correction does not.
-
-The authority to interpret
 
 Every community develops authorities.
 
@@ -338,9 +322,7 @@ These practices do not weaken authority.
 
 They make authority more accountable to the purpose that justified it.
 
-Consensus is not integration
-
-Mary Parker Follett distinguished among domination, compromise, and integration.
+Mary Parker Follett distinguished among domination, compromise, and integration.[^c6-follett]
 
 Domination is familiar. One side wins. The other complies, withdraws, or is overcome.
 
@@ -383,8 +365,6 @@ The participants may still prefer different actions, but they now see the confli
 That is a deeper form of seeing together.
 
 It does not require every voice to carry equal technical authority on every claim. It requires every relevant concern to remain alive long enough to affect the shape of the problem.
-
-Dissent and belonging
 
 Dissent is often praised in the abstract.
 
@@ -446,8 +426,6 @@ The established perspective was rarely required to arrive complete.
 
 It became established while its gaps were still being filled.
 
-What everyone is saying
-
 Facilitation can help a group hear itself.
 
 A good facilitator notices who has spoken, which questions are being answered, where positions have hardened, and whether the group is converging because the issue has clarified or because the room has become tired.
@@ -494,13 +472,7 @@ Sometimes the room cannot afford to slow.
 
 That tradeoff should be visible.
 
-Discernment is not a vote
-
-Communal discernment is often described as a group trying to determine what is true, wise, faithful, or responsible.
-
-Voting can be part of that process.
-
-It is not the same as discernment.
+Communal discernment is often described as a group trying to determine what is true, wise, faithful, or responsible. Voting can be part of that process, but it is not the same as discernment.
 
 A vote tells the group how positions are distributed. It creates a decision rule. It gives the community a way to act when agreement is unavailable.
 
@@ -542,8 +514,6 @@ It preserves more capacity for learning.
 
 The community acts without pretending action has settled every question.
 
-The person who will not agree
-
 Not every dissenter is a prophet.
 
 This deserves emphasis because communities can romanticize dissent as easily as they romanticize consensus.
@@ -573,8 +543,6 @@ A community seeking wisdom should not require dissent to be flawless before it m
 Discernment remains judgment.
 
 The hope is not to eliminate judgment but to make judgment more answerable.
-
-Practices that make learning possible
 
 Different communities have developed different ways to protect this answerability.
 
@@ -624,8 +592,6 @@ An organization may be effective at delivering products. That does not make its 
 
 Communities become dangerous when success in one domain becomes evidence of authority in all domains.
 
-The community inside the person
-
 Even when we leave a community, it often remains within us.
 
 Its categories survive.
@@ -672,8 +638,6 @@ Which community taught me what must remain invisible?
 
 We may need other people to help answer these questions because inherited voices often sound like our own.
 
-A room that can still learn
-
 I returned to the design after the engineer's message.
 
 The architecture was not obviously wrong. Moving the code into newer services still carried benefits. The old system still needed to become easier to understand.
@@ -705,8 +669,6 @@ The first meeting had produced agreement.
 The second produced a more honest problem.
 
 I trust the second more.
-
-Seeing together without disappearing
 
 Community offers something the isolated person cannot produce: contact with perspectives capable of changing the question.
 
@@ -767,3 +729,5 @@ A tradition is not only what a group believes today.
 It is what the group repeats, records, reenacts, and teaches the next person to notice.
 
 The next chapter turns toward that inheritance: why communities preserve stories and rituals, what repetition carries that explanation alone cannot, and how memory can keep wisdom alive while also making old assumptions feel sacred.
+
+[^c6-follett]: Mary Parker Follett, *Creative Experience* (1924), on integration as distinct from domination and compromise.

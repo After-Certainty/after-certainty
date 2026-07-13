@@ -54,7 +54,7 @@ An apology may begin that work.
 
 It can also become a way of ending it.
 
-## The apology that asks for too little
+The apology that asks for too little.
 
 We learn the grammar of apology early.
 
@@ -126,7 +126,7 @@ The person remains a moral agent rather than collapsing into either innocence or
 
 That is harder than shame because agency preserves obligation.
 
-## Confession and the control of the story
+Confession and the control of the story.
 
 Religious traditions often understand confession as more than interpersonal apology. Confession may concern sin, estrangement from God, truth before a community, the need for grace, and the possibility of restoration.
 
@@ -190,7 +190,7 @@ A vague confession asks the community to admire humility.
 
 A precise confession gives the community something it can test.
 
-## Repentance after language
+Repentance after language.
 
 Repentance is often translated into the language of regret, but regret remains an internal condition.
 
@@ -234,7 +234,7 @@ Sometimes intention deserves that trust.
 
 Sometimes the structure has made trust unreasonable.
 
-## Forgiveness is not the same as reconciliation
+Forgiveness is not the same as reconciliation.
 
 The word forgiveness carries so many meanings that people can appear to agree while asking entirely different things of one another.
 
@@ -296,7 +296,7 @@ The person who remains cautious becomes the obstacle to redemption.
 
 The community's desire to believe in transformation begins outrunning the conditions transformation would need to prove itself.
 
-## The moral pressure to forgive
+The moral pressure to forgive.
 
 Religious communities can offer profound resources for forgiveness.
 
@@ -336,7 +336,7 @@ A community committed to forgiveness should also be committed to preserving the 
 
 There is little moral achievement in forgiving what the community refuses to name.
 
-## Repair is not a return
+Repair is not a return.
 
 We often imagine repair as restoring what existed before the harm.
 
@@ -382,7 +382,7 @@ A repaired world is not always a reunited one.
 
 It is a world in which truth has changed what future harm is allowed to become.
 
-## What organizations call learning
+What organizations call learning.
 
 Organizations often approach harm through postmortems, incident reviews, investigations, retrospectives, or policy changes.
 
@@ -450,7 +450,7 @@ If we focus only on systems, we may deny the moral and professional responsibili
 
 Repair requires an account large enough to include both.
 
-## Restorative questions
+Restorative questions.
 
 Restorative approaches to conflict often begin with questions different from those asked by a punitive system.
 
@@ -488,7 +488,7 @@ No process deserves to call itself restorative if participation requires the per
 
 Repair must not reproduce the original asymmetry.
 
-## When a community remembers publicly
+When a community remembers publicly.
 
 Societies face related questions after periods of violence, repression, or institutional wrongdoing.
 
@@ -528,7 +528,7 @@ That may include testimony, memorials, compensation, prosecution, institutional 
 
 No single act completes it.
 
-## The need to remain more than the injury
+The need to remain more than the injury.
 
 One danger in conflict is that people become fixed inside the roles the conflict created.
 
@@ -564,7 +564,7 @@ The injury remains part of what the community is obligated to remember.
 
 Repair creates room for complexity without using complexity to dissolve responsibility.
 
-## The permanence of a verdict
+The permanence of a verdict.
 
 Communities sometimes protect themselves from repeated harm by reaching a final judgment about a person.
 
@@ -614,7 +614,7 @@ That may feel safe.
 
 It can also turn justice into identity maintenance.
 
-## What repair asks from the person who was right
+What repair asks from the person who was right.
 
 The person who was right in a conflict is not automatically free of responsibility.
 
@@ -656,7 +656,7 @@ No one else should use it to hurry them.
 
 But repair, when repair is desired, asks whether truth can become something other than a weapon held at the ready.
 
-## The apology I wanted
+The apology I wanted.
 
 When the message said, "You were right," part of me wanted a larger acknowledgment.
 
@@ -710,7 +710,7 @@ Not a declaration that everyone now understands one another.
 
 A change in what the next moment is allowed to become.
 
-## Repair as a practice of truth
+Repair as a practice of truth.
 
 Conflict tempts people toward two opposite simplifications.
 
@@ -754,7 +754,7 @@ Repair is not a method for producing a satisfying emotional resolution.
 
 It is the work of refusing both denial and premature redemption.
 
-## The limits of meaning after suffering
+The limits of meaning after suffering.
 
 There is one final danger in the language of repair.
 

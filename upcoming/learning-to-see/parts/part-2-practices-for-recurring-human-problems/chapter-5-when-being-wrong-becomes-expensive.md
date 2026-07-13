@@ -52,11 +52,7 @@ The difference is difficult to detect from the inside.
 
 Defensiveness rarely announces itself as a refusal to learn. It often feels like clarity. The more expertise we possess, the more material we have available for constructing an explanation in which our first judgment remains reasonable.
 
-We can always find another distinction.
-
-We can add context.
-
-We can show why the objection is incomplete.
+We can always find another distinction, add context, or show why the objection is incomplete.
 
 Sometimes those responses are correct. Criticism can be mistaken. A person may misunderstand the system, ignore an important constraint, or raise a theoretical concern that does not survive contact with the actual problem.
 
@@ -212,15 +208,7 @@ But even at the level visible from outside belief, repentance preserves an impor
 
 Feeling bad is not the same as becoming different.
 
-Shame can keep the self at the center.
-
-I am terrible.
-
-I have failed.
-
-I cannot believe I did this.
-
-These statements may sound morally serious, but they can require the harmed person to comfort the person who caused the harm. The emotional intensity becomes evidence of goodness. The person suffers, therefore they must care.
+Shame can keep the self at the center—*I am terrible, I have failed, I cannot believe I did this*—but those statements may sound morally serious while requiring the harmed person to comfort the person who caused the harm. The emotional intensity becomes evidence of goodness. The person suffers, therefore they must care.
 
 Repentance asks what changes next.
 
@@ -290,9 +278,7 @@ That is part of their strength.
 
 A system of correction should not depend entirely on each participant possessing exceptional self-awareness. It should create conditions in which error can become visible despite ordinary human defensiveness.
 
-Falsifiability reflects a similar insight.
-
-A claim that can explain every possible outcome may provide comfort, coherence, or meaning, but it cannot be tested in the same way as a claim that risks being wrong.
+Falsifiability reflects a similar insight.[^c5-popper] A claim that can explain every possible outcome may provide comfort, coherence, or meaning, but it cannot be tested in the same way as a claim that risks being wrong.
 
 The willingness to specify what evidence would change one's conclusion is a form of intellectual vulnerability.
 
@@ -308,9 +294,7 @@ A method can make correction possible.
 
 It cannot make correction emotionally inexpensive.
 
-This is why calibration matters.
-
-Calibration asks whether confidence corresponds to accuracy. A person who is right six times out of ten should not feel certain nine times out of ten.
+This is why calibration matters.[^c5-tetlock] Calibration asks whether confidence corresponds to accuracy. A person who is right six times out of ten should not feel certain nine times out of ten.
 
 The idea sounds straightforward. Living by it is not.
 
@@ -500,19 +484,7 @@ This makes humility more important, not less.
 
 We cannot always isolate a conclusion.
 
-We can become more precise about what occurred.
-
-I did not receive a testimony.
-
-I did encounter parts of the text differently.
-
-I did not become a believer.
-
-I did recognize parts of my cultural inheritance that had remained invisible.
-
-I cannot prove that prayer connects a person to God.
-
-I can observe that prayer may organize attention, language, hope, dependence, and interpretation in ways that deserve examination.
+We can become more precise about what occurred. I did not receive a testimony, but I did encounter parts of the text differently. I did not become a believer, but I did recognize parts of my cultural inheritance that had remained invisible. I cannot prove that prayer connects a person to God, but I can observe that prayer may organize attention, language, hope, dependence, and interpretation in ways that deserve examination.
 
 These statements are less satisfying than a verdict.
 
@@ -709,3 +681,7 @@ The self cannot answer these questions alone.
 But neither can the group simply answer them on the self's behalf.
 
 The next chapter begins inside that tension: the promise and danger of trying to see together.
+
+[^c5-popper]: Karl Popper, *The Logic of Scientific Discovery* (1959), on falsifiability as a criterion distinguishing scientific from non-scientific claims.
+
+[^c5-tetlock]: Philip E. Tetlock, *Expert Political Judgment* (2005), on calibration and overconfidence in expert forecasting.

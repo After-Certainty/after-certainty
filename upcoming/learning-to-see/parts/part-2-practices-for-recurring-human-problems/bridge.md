@@ -42,21 +42,7 @@ Or we can dismiss old practices as irrational because the problem they solved is
 
 Neither posture sees enough.
 
-The next part asks what traditions carry forward from the worlds that formed them.
-
-What problem was a practice solving?
-
-What did it protect?
-
-What did it teach people to notice?
-
-Who benefited from it?
-
-Who learned to adapt around it?
-
-Does the original condition still exist?
-
-What would be lost if the practice disappeared?
+The next part asks what traditions carry forward from the worlds that formed them: what problem a practice was solving, what it protected, what it taught people to notice, who benefited and who learned to adapt around it, whether the original condition still exists, and what would be lost if the practice disappeared.
 
 Understanding the history does not excuse present harm.
 

@@ -120,15 +120,7 @@ A future team reading the review may believe the incident was resolved through a
 
 Organizations often say they want to learn from incidents.
 
-What they preserve most easily is whatever can become an action item.
-
-Add an alert.
-
-Change a threshold.
-
-Write a runbook.
-
-Assign an owner.
+What they preserve most easily is whatever can become an action item—add an alert, change a threshold, write a runbook, assign an owner.
 
 These changes matter. They may prevent the same technical failure from recurring. But the incident also contains knowledge that is harder to operationalize.
 
@@ -566,27 +558,7 @@ A community may protect memory and make revision emotionally expensive.
 
 The task is not to purify inheritance until only wisdom remains. We rarely know enough to separate the layers cleanly.
 
-The task begins with learning to see what the tradition is doing now.
-
-What does it return our attention to?
-
-What kind of person does it ask us to become?
-
-What history does it preserve?
-
-What history does it compress?
-
-What does it make easier to say?
-
-What becomes difficult to question?
-
-Who can participate without disappearing?
-
-Who is asked to carry the cost of continuity?
-
-What would be lost if the practice ended?
-
-What must change if it is to remain alive?
+The task begins with learning to see what the tradition is doing now: what it returns our attention to, what kind of person it asks us to become, what history it preserves or compresses, what it makes easier to say and harder to question, who can participate without disappearing, and who is asked to carry the cost of continuity.
 
 These questions do not guarantee agreement.
 

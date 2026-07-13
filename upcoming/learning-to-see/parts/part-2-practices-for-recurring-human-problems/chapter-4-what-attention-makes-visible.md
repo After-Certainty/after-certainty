@@ -20,11 +20,7 @@ The instruction was simple: notice and return.
 
 It did not ask me to become empty. It did not require me to suppress thought or achieve a special state. The wandering was not evidence that the practice had failed. Wandering was what made the practice visible.
 
-Attention left.
-
-Attention returned.
-
-Then it left again.
+Attention left, returned, and left again.
 
 This was strangely reassuring. I had spent much of my life assuming that attention belonged to me in the same way an object belongs to its owner. I directed it. I chose what to think about. I decided which concerns deserved consideration.
 
@@ -128,7 +124,7 @@ That purpose should remain visible.
 
 When I returned to scripture, I initially treated attention as a problem of endurance. How could I stay with a text that bored me? How could I prevent my mind from sliding past whole pages while my eyes continued moving?
 
-ChatGPT helped by identifying passages that might connect to questions I already cared about. That made the reading easier. It also shaped what I found.
+A reading companion helped by identifying passages that might connect to questions I already cared about. That made the reading easier. It also shaped what I found.
 
 I noticed texts about uncertainty, pride, authority, responsibility, conflict, endurance, and the limits of human understanding because those were the themes I brought with me. Someone else might have noticed prophecy, covenant, redemption, obedience, family, divine love, or the unfolding of a sacred history.
 
@@ -180,21 +176,7 @@ Who decides which of those movements counts as wisdom?
 
 A company may tell employees to focus on customers while ignoring how its incentives reward short-term metrics. A church may teach members to attend to personal humility while discouraging attention to institutional power. A political movement may train people to notice every offense committed by opponents and explain away similar conduct within its own coalition. A family may become exquisitely sensitive to one parent's mood while learning not to notice the needs of everyone adjusting around it.
 
-Attention is not only personal.
-
-It is organized.
-
-Dashboards organize attention.
-
-Calendars organize attention.
-
-Rituals organize attention.
-
-News feeds organize attention.
-
-Architecture organizes attention.
-
-The placement of a pulpit, a table, a screen, a flag, or a chair can tell a room where meaning is expected to come from before anyone speaks.
+Attention is not only personal. It is organized—by dashboards, calendars, rituals, news feeds, and architecture. The placement of a pulpit, a table, a screen, a flag, or a chair can tell a room where meaning is expected to come from before anyone speaks.
 
 Institutions reveal their actual priorities partly through what they ask people to notice repeatedly.
 
@@ -320,23 +302,7 @@ Once we see what a practice gives someone, we may become reluctant to examine wh
 
 Attention can widen and narrow in the same movement.
 
-I experienced this when thinking about conflict avoidance in the Mormon culture of my upbringing.
-
-From one angle, the pattern seemed clearly limiting. Conflict avoidance can protect authority, leave harm unnamed, and teach people to treat disagreement as a moral failure. A culture that prizes unity may become unable to distinguish peace from silence.
-
-But when I attended to the historical conditions more carefully, another possibility appeared.
-
-A persecuted and displaced religious community crossing difficult terrain, building settlements, and depending intensely on internal cooperation may have found cohesion, obedience, and conflict restraint genuinely adaptive. The practice may have helped people survive.
-
-That does not make every later expression of it wise.
-
-It changes what the pattern becomes available to mean.
-
-Contempt sees only the obsolete behavior.
-
-Romanticism sees only the ancestral wisdom.
-
-Attention holds the adaptation and the sediment together long enough to ask what remains alive in each.
+I experienced this when thinking about conflict avoidance in the Mormon culture of my upbringing. From one angle, the pattern seemed clearly limiting. From another, attending to historical conditions suggested why cohesion and conflict restraint might once have been genuinely adaptive for a persecuted and displaced community. That does not make every later expression wise. It changes what the pattern becomes available to mean—and the full investigation belongs to a later chapter on cultural sediment. Contempt sees only the obsolete behavior. Romanticism sees only the ancestral wisdom. Attention holds the adaptation and the sediment together long enough to ask what remains alive in each.
 
 This kind of attention is morally demanding because it delays the relief of a single story.
 

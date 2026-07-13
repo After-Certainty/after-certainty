@@ -34,55 +34,11 @@ The words may be intended as comfort.
 
 They may also ask the grieving person to carry our need for the world to make sense.
 
-Some experiences do not need interpretation first.
+Some experiences do not need interpretation first. They need company.
 
-They need company.
+This is difficult for people trained to solve problems. When something is broken, we look for the mechanism; when someone is confused, we clarify. These habits are useful—much suffering is preventable—but there are limits to what repair can accomplish. Some realities remain after every useful action has been taken. Wisdom there becomes the ability to remain present when intervention cannot make the situation whole.
 
-This is difficult for people trained to solve problems.
-
-When something is broken, we look for the mechanism. When someone is confused, we clarify. When a plan fails, we reconstruct what happened and change the conditions that made the failure possible.
-
-These habits are useful. Much suffering is preventable. A medical problem may require diagnosis. An injustice may require action. A dangerous institution should not be met only with contemplation.
-
-But there are limits to what repair can accomplish.
-
-The diagnosis may arrive after the disease has already changed the future.
-
-The person who caused harm may die before apologizing.
-
-The child does not return because the community learned something.
-
-The lost years do not reappear when an institution acknowledges what happened.
-
-Some realities remain after every useful action has been taken.
-
-Wisdom begins to look different there.
-
-It is no longer only the ability to identify the right intervention.
-
-It becomes the ability to remain present when intervention cannot make the situation whole.
-
-The question behind the question
-
-When people suffer, they often ask why.
-
-Why did this happen?
-
-Why did it happen to this person?
-
-Why did no one stop it?
-
-Why would God allow it?
-
-Why did the treatment fail?
-
-Why did I survive?
-
-Why did they leave?
-
-The question may sound like a request for explanation.
-
-Often it is larger.
+When people suffer, they often ask why. The question may sound like a request for explanation. Often it is larger.
 
 A factual answer may exist.
 
@@ -90,11 +46,7 @@ The disease followed a biological process. The accident had identifiable causes.
 
 These answers can matter enormously. They may support accountability, treatment, prevention, or legal responsibility.
 
-They may still fail to answer the question being asked.
-
-The grieving person may not be asking only for causation.
-
-They may be asking whether the world remains morally inhabitable.
+They may still fail to answer the question being asked. The grieving person may be asking whether the world remains morally inhabitable.
 
 Can love matter if it ends this way?
 
@@ -132,9 +84,7 @@ Its center moves.
 
 This is one reason advice so often fails in moments of suffering. The adviser is using words from the world before the loss. The person suffering is trying to discover what those words can still mean afterward.
 
-The temptation of theodicy
-
-Religious traditions have long wrestled with the relationship between suffering, divine power, justice, freedom, and meaning.
+The temptation of theodicy is real. Religious traditions have long wrestled with the relationship between suffering, divine power, justice, freedom, and meaning.
 
 The questions differ across traditions because the accounts of God, self, causation, history, and salvation differ.
 
@@ -780,37 +730,7 @@ Their changing account does not prove that none of the meanings were real.
 
 Meaning moves because the person continues living.
 
-Wisdom after explanation
-
-This part of the book began with attention.
-
-What becomes visible?
-
-It moved through humility.
-
-What happens when what becomes visible threatens our identity?
-
-It moved into community and memory.
-
-How do we see together, and what do we preserve across time?
-
-Then conflict and repair.
-
-What does truth require after harm has occurred?
-
-Suffering carries all of these questions into a place where no practice can promise mastery.
-
-Attention may help us see pain that ordinary life ignores.
-
-Humility may prevent us from imposing an explanation.
-
-Community may carry what one person cannot bear alone.
-
-Ritual may preserve memory.
-
-Confession and repair may change what can still be changed.
-
-None of them guarantees that the loss will become meaningful.
+Suffering carries the questions this part has traced—attention, humility, community, memory, conflict, repair—into a place where no practice can promise mastery. Attention may help us see pain that ordinary life ignores. Humility may prevent us from imposing an explanation. Community may carry what one person cannot bear alone. Ritual may preserve memory. Confession and repair may change what can still be changed. None of them guarantees that the loss will become meaningful.
 
 That limit matters.
 
