@@ -27,7 +27,7 @@
 |------|-------|-------|
 | Introduction — Learning to See | draft | Imported July 2026 |
 | Part I bridge | outline | Scaffold stub |
-| Chapter 1 — The Experiment I Had Never Tried | draft (external) | RESERVED — import; do not overwrite |
+| Chapter 1 — The Experiment I Had Never Tried | draft | Imported July 2026 |
 | Chapter 2 — Answers Are Not Enough | draft (external) | RESERVED — import; do not overwrite |
 | Chapter 3 — What the Mirror Cannot Show | outline | Per `outline.md` |
 | Part II bridge | outline | Scaffold stub |
@@ -48,7 +48,7 @@
 
 ## Next actions
 
-1. Import external drafts for Chapter 1 and Chapter 2.
+1. Import external draft for Chapter 2.
 2. Author review of imported Introduction and remaining outline units.
 3. Secure consultation contacts (see `open-questions.md`) before drafting Part II.
 4. Begin Phase 1 with Chapter 3 or imported drafts (editorial pass).
@@ -57,11 +57,12 @@
 
 - See [`open-questions.md`](open-questions.md).
 - Introduction draft imported to repository (July 2026).
-- Chapter 1 and Chapter 2 drafts assumed external until imported.
+- Chapter 1 draft imported to repository (July 2026).
+- Chapter 2 draft assumed external until imported.
 - Title disambiguation from *What We Cannot See* Part I ("Learning to See Your Own Mind") required in series guide.
 
 ## Rough scale
 
 - Manuscript words (target): ~55,000–70,000
 - Outline scaffold complete: July 2026
-- Current manuscript words: Introduction drafted (~350); Ch 1–2 external
+- Current manuscript words: Introduction + Ch 1 drafted (~4,500); Ch 2 external

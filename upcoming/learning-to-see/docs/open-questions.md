@@ -140,8 +140,6 @@ Introduction imported to `front-matter/introduction-learning-to-see.md` (July 20
 - `parts/part-1-the-formation-of-a-knower/chapter-1-the-experiment-i-had-never-tried.md`
 - `parts/part-1-the-formation-of-a-knower/chapter-2-answers-are-not-enough.md`
 
-Do not overwrite stub files until author confirms import.
-
 ---
 
 ## Series placement
