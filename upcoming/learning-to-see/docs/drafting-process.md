@@ -93,4 +93,4 @@ When the manuscript is ready for the publishing pipeline:
 
 ## Current starting phase
 
-See `docs/status.md` — **Phase 2 complete (all units reviewed)**.
+See `docs/status.md` — **Phase 3 complete (all part coherence gates passed)**.

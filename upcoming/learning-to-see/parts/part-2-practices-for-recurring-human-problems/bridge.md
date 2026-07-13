@@ -1,18 +1,6 @@
 # **Part II — What Traditions Carry**
 
-The practices in the last part respond to recurring human problems.
-
-Attention drifts.
-
-Confidence hardens.
-
-Communities become blind together.
-
-Memory simplifies.
-
-Conflict leaves damage that truth alone cannot repair.
-
-Suffering exceeds explanation.
+The practices in the last part respond to recurring human problems: attention that drifts, confidence that hardens, communities that become blind together, memory that simplifies, conflict that leaves damage truth alone cannot repair, and suffering that exceeds explanation.
 
 Human beings have developed practices around these limits: prayer, meditation, confession, criticism, ritual, mourning, dialogue, and communal discernment.
 

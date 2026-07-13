@@ -648,6 +648,10 @@ A therapist helps someone construct a life in which the injury is present but no
 
 A friend remembers the person who died when the rest of the world has stopped mentioning their name.
 
+Lament and clinical care can both refuse premature closure. The analogy breaks there too.
+
+Therapy may help someone construct a livable future. Lament keeps the wound public before any future has been earned. A debrief extracts lessons for the team. Lament does not ask whether the loss has become instructive. The therapeutic frame aims at function and adaptation. The lament tradition aims at truthful speech before God, community, or the dead—sometimes without any promise that the speech will make life easier to resume.
+
 Meaning develops through repeated contact between the experience and the lives continuing around it.
 
 This does not make the meaning arbitrary.

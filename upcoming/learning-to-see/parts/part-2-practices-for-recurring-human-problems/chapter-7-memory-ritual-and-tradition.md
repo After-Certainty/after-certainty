@@ -190,6 +190,10 @@ They remember different events. They make different claims about reality. They f
 
 But they share an understanding that memory must sometimes become bodily, communal, and temporal if it is to survive the drift of ordinary life.
 
+The comparison with organizational memory helps here. It also breaks.
+
+An incident review preserves what happened and what should change operationally. A sacrament, prayer, or holiday meal preserves what the community believes the event means—sometimes including claims about God, sacrifice, liberation, or moral obligation that no archive was designed to carry. Scientific memory attempts to make the past inspectable without requiring anyone to inhabit it again. Liturgical memory asks the body to return.
+
 A proposition can remain true while losing its power to interrupt us.
 
 Ritual gives it a place to return.

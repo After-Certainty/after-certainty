@@ -2,13 +2,13 @@
 
 ## Current phase
 
-**Phase 2 — Unit passes complete (all units reviewed)**
+**Phase 3 — Part coherence gates complete**
 
-All manuscript units passed rules, echo, editorial, sensitivity, citation, and linkage checks July 2026. Awaiting author review before Phase 3 coherence gates.
+All four parts passed bridge continuity, chapter progression, terminology, example distribution, and Part II analogy-break checks. See [`phase-3-coherence-gates.md`](phase-3-coherence-gates.md).
 
 ## Active branch
 
-`cursor/learning-to-see-phase2-cc77`
+`cursor/learning-to-see-phase3-cc77`
 
 ## Manuscript hub
 
@@ -21,6 +21,7 @@ All manuscript units passed rules, echo, editorial, sensitivity, citation, and l
 - [`comparative-map.md`](comparative-map.md)
 - [`open-questions.md`](open-questions.md)
 - [`drafting-process.md`](drafting-process.md)
+- [`phase-3-coherence-gates.md`](phase-3-coherence-gates.md)
 - Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md)
 
 ## Unit progress
@@ -35,28 +36,27 @@ All manuscript units passed rules, echo, editorial, sensitivity, citation, and l
 | Chapter 4 — What Attention Makes Visible | reviewed | |
 | Chapter 5 — When Being Wrong Becomes Expensive | reviewed | Footnotes (Popper, Tetlock) |
 | Chapter 6 — Seeing Together | reviewed | Follett footnote |
-| Chapter 7 — Memory, Ritual, and Tradition | reviewed | |
-| Chapter 8 — Conflict, Confession, and Repair | reviewed | |
-| Chapter 9 — Suffering, Meaning, and Moral Imagination | reviewed | |
-| Part II bridge — What Traditions Carry | reviewed | |
+| Chapter 7 — Memory, Ritual, and Tradition | reviewed | Phase 3: liturgical vs organizational memory analogy break |
+| Chapter 8 — Conflict, Confession, and Repair | reviewed | Phase 3: postmortem vs restorative analogy break |
+| Chapter 9 — Suffering, Meaning, and Moral Imagination | reviewed | Phase 3: lament vs clinical care analogy break |
+| Part II bridge — What Traditions Carry | reviewed | Phase 3: compressed limitations inventory |
 | Chapter 10 — Cultural Sediment | reviewed | LDS/LIS footnote |
 | Chapter 11 — Archaeology Without Contempt | reviewed | |
 | Chapter 12 — Integration Without Reduction | reviewed | |
-| Part III bridge — The Next Scarcity | reviewed | |
-| Chapter 13 — When Intelligence Becomes Cheap | reviewed | Integrated section labels; compressed lists; Ch 1 scripture/AI callback; AI claims footnote |
+| Part III bridge — The Next Scarcity | reviewed | Phase 3: merged closing staccato |
+| Chapter 13 — When Intelligence Becomes Cheap | reviewed | Integrated section labels; Ch 1 scripture/AI callback; AI claims footnote |
 | Chapter 14 — Ancient Practices, Future Problems | reviewed | Practice renewal arc; compressed Ch 1 callback (epilogue expands) |
 | Part IV bridge | — | None; Ch 14 → epilogue |
 | Epilogue — Becoming Better Knowers | reviewed | Book-level compression; staccato close preserved |
 
-**Phase column values:** `reviewed` = agent Phase 2 passes complete; author review pending. `approved` = author sign-off; ready for Part coherence gate.
+**Phase column values:** `reviewed` = agent Phase 2–3 passes complete; author review pending. `approved` = author sign-off; ready for Phase 4 editorial.
 
 ## Next actions
 
 1. **Author review** of full manuscript (all units `reviewed`).
-2. **Phase 3 coherence gates** — Parts I, II, III, IV (bridge continuity, terminology, example distribution).
-3. **Phase 4** — manuscript-wide editorial (LDS thread audit, AI thread, copy edit, citations).
-4. Sync `docs/outline.md` chapter titles with author-chosen titles.
-5. Secure consultation contacts per `open-questions.md`.
+2. **Phase 4** — manuscript-wide editorial (LDS thread audit, AI thread, global echo/compression, copy edit, citations).
+3. Sync `docs/outline.md` chapter titles with author-chosen titles in `index.md`.
+4. Secure consultation contacts per `open-questions.md`.
 
 ## Open decisions / known issues
 

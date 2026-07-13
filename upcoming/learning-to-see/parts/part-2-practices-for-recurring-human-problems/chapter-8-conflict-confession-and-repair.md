@@ -394,6 +394,10 @@ A production failure does not need absolution.
 
 It needs understanding and prevention.
 
+The analogy with confession or restorative practice is real at the level of temptation. Both can become theater. Both can distribute blame in ways that protect the powerful. But the analogy breaks at the ends.
+
+A postmortem does not seek reconciliation with God, absolution before a community of faith, or the moral transformation of a soul. It seeks learning, accountability structures, and future reliability. The harmed customer does not need the engineer to bear witness to sin. They may need a system that will not produce the same failure again.
+
 But organizational repair still encounters the same human temptations.
 
 People want a cause simple enough to act on.

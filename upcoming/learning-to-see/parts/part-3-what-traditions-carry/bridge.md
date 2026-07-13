@@ -14,14 +14,4 @@ Artificial intelligence can summarize a tradition, compare interpretations, gene
 
 When answers become easy to produce, the scarce resource becomes the ability to decide which questions matter—and which differences must remain visible rather than compressed into a single fluent paragraph.
 
-The next part turns toward that future.
-
-Not to ask whether ancient traditions predicted artificial intelligence.
-
-They did not need to.
-
-They confronted the human limitations that remain after intelligence becomes abundant.
-
-The question is no longer only what machines will be able to do.
-
-It is what human beings will still need to practice.
+The next part turns toward that future—not to ask whether ancient traditions predicted artificial intelligence, which they did not need to do, but to confront the human limitations that remain after intelligence becomes abundant. The question is no longer only what machines will be able to do. It is what human beings will still need to practice.
