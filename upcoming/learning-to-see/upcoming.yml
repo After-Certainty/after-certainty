@@ -1,7 +1,7 @@
 version: 1
 
-publishing:
-  enabled: false
+upcoming:
+  status: in_progress
 
 book:
   id: learning-to-see
@@ -26,6 +26,3 @@ build:
       enabled: false
     pdf:
       enabled: false
-
-github:
-  release: false
