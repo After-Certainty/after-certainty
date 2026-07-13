@@ -4,7 +4,7 @@
 
 **Phase 1 — Manuscript draft (prose complete)**
 
-Intro, Chapters 1–14, epilogue, and Part I–III bridges imported July 2026. Part IV bridge remains outline stub.
+Intro, Chapters 1–14, epilogue, and Part I–II bridges imported July 2026. Part III–IV bridges remain outline stubs.
 
 ## Active branch
 
@@ -32,14 +32,14 @@ Intro, Chapters 1–14, epilogue, and Part I–III bridges imported July 2026. P
 | Chapter 1 — The Experiment I Had Never Tried | draft | Imported July 2026 |
 | Chapter 2 — Answers Are Not Enough | draft | Imported July 2026 |
 | Chapter 3 — The Limits of Seeing Alone | draft | Imported July 2026; author title (was outline: What the Mirror Cannot Show) |
-| Part II bridge | outline | Scaffold stub |
+| Part II bridge | draft | Imported July 2026; author title: What Traditions Carry |
 | Chapter 4 — What Attention Makes Visible | draft | Imported July 2026; author title (was outline: Learning What to Notice) |
 | Chapter 5 — When Being Wrong Becomes Expensive | draft | Imported July 2026; author title (was outline: The Defenses We Build) |
 | Chapter 6 — Seeing Together | draft | Imported July 2026; author title (was outline: Wisdom Is Social) |
 | Chapter 7 — Memory, Ritual, and Tradition | draft | Imported July 2026; author title (was outline: What Must Be Repeated) |
 | Chapter 8 — Conflict, Confession, and Repair | draft | Imported July 2026; author title (was outline: Being Right Is Not Enough) |
 | Chapter 9 — Suffering, Meaning, and Moral Imagination | draft | Imported July 2026; author title (was outline: When Explanation Is Not Enough) |
-| Part III bridge | draft | Imported July 2026 |
+| Part III bridge | outline | Scaffold stub |
 | Chapter 10 — Cultural Sediment | draft | Imported July 2026; coordinate with *Living in Sediment* |
 | Chapter 11 — Archaeology Without Contempt | draft | Imported July 2026 |
 | Chapter 12 — Integration Without Reduction | draft | Imported July 2026 |
@@ -65,4 +65,4 @@ Intro, Chapters 1–14, epilogue, and Part I–III bridges imported July 2026. P
 
 - Manuscript words (target): ~55,000–70,000
 - Outline scaffold complete: July 2026
-- Current manuscript words: Intro + Part I & III bridges + Ch 1–14 + epilogue drafted; Part II & IV bridges outline
+- Current manuscript words: Intro + Part I & II bridges + Ch 1–14 + epilogue drafted; Part III & IV bridges outline
