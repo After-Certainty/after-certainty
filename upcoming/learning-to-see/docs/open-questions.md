@@ -92,7 +92,7 @@ Refined titles in use; originals preserved here for author choice:
 
 | # | Current (outline) | Alternate |
 |---|-------------------|-----------|
-| 3 | What the Mirror Cannot Show | The Limits of Seeing Alone |
+| 3 | The Limits of Seeing Alone | What the Mirror Cannot Show (outline alternate) |
 | 4 | Learning What to Notice | Attention |
 | 5 | The Defenses We Build | Humility and Self-Deception |
 | 6 | Wisdom Is Social | Community and Discernment |

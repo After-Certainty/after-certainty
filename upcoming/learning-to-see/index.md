@@ -15,7 +15,7 @@ Reader goal: Understand how traditions form knowers, not only transmit answers�
 - [Part I — The Formation of a Knower](parts/part-1-the-formation-of-a-knower/bridge.md)
 - [Chapter 1 — The Experiment I Had Never Tried](parts/part-1-the-formation-of-a-knower/chapter-1-the-experiment-i-had-never-tried.md)
 - [Chapter 2 — Answers Are Not Enough](parts/part-1-the-formation-of-a-knower/chapter-2-answers-are-not-enough.md)
-- [Chapter 3 — What the Mirror Cannot Show](parts/part-1-the-formation-of-a-knower/chapter-3-what-the-mirror-cannot-show.md)
+- [Chapter 3 — The Limits of Seeing Alone](parts/part-1-the-formation-of-a-knower/chapter-3-the-limits-of-seeing-alone.md)
 
 ## Part II — Practices for Recurring Human Problems
 

@@ -29,7 +29,7 @@
 | Part I bridge | outline | Scaffold stub |
 | Chapter 1 — The Experiment I Had Never Tried | draft | Imported July 2026 |
 | Chapter 2 — Answers Are Not Enough | draft | Imported July 2026 |
-| Chapter 3 — What the Mirror Cannot Show | outline | Per `outline.md` |
+| Chapter 3 — The Limits of Seeing Alone | draft | Imported July 2026; author title (was outline: What the Mirror Cannot Show) |
 | Part II bridge | outline | Scaffold stub |
 | Chapter 4 — Learning What to Notice | outline | Per `outline.md` |
 | Chapter 5 — The Defenses We Build | outline | Per `outline.md` |
@@ -63,4 +63,4 @@
 
 - Manuscript words (target): ~55,000–70,000
 - Outline scaffold complete: July 2026
-- Current manuscript words: Part I Intro + Ch 1–2 drafted (~8,500); Ch 3+ outline
+- Current manuscript words: Part I Intro + Ch 1–3 drafted (~12,500); Ch 4+ outline
