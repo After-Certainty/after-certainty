@@ -1,0 +1,21 @@
+# Tuning for tools/generate_open_graph.py — Learning to See
+# Cover: blue landscape, eclipse ring, mountain-eye motif
+bg_crop: [24, 360, 1000, 1240]
+tint: [14, 24, 48, 145]
+accent_color: [235, 148, 58]
+title_lines:
+  - text: Learning
+    color: white
+  - text: To
+    color: accent
+  - text: See
+    color: white
+subtitle_lines:
+  - WHY HUMANITY KEEPS REDISCOVERING
+  - PRACTICES OF WISDOM
+subtitle_color: accent
+font_title: 46
+font_sub: 16
+title_start_y: 78
+title_line_gap: 54
+rule_width: 360
