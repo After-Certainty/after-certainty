@@ -27,7 +27,7 @@ Reader goal: Compare how different traditions address recurring human limitation
 - [Chapter 6 — Seeing Together](parts/part-2-practices-for-recurring-human-problems/chapter-6-seeing-together.md)
 - [Chapter 7 — Memory, Ritual, and Tradition](parts/part-2-practices-for-recurring-human-problems/chapter-7-memory-ritual-and-tradition.md)
 - [Chapter 8 — Conflict, Confession, and Repair](parts/part-2-practices-for-recurring-human-problems/chapter-8-conflict-confession-and-repair.md)
-- [Chapter 9 — When Explanation Is Not Enough](parts/part-2-practices-for-recurring-human-problems/chapter-9-when-explanation-is-not-enough.md)
+- [Chapter 9 — Suffering, Meaning, and Moral Imagination](parts/part-2-practices-for-recurring-human-problems/chapter-9-suffering-meaning-and-moral-imagination.md)
 
 ## Part III — What Traditions Carry
 
