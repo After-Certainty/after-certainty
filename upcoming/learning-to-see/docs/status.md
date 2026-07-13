@@ -2,7 +2,9 @@
 
 ## Current phase
 
-**Phase 0 — Structure (outline complete)**
+**Phase 1 — Manuscript draft (prose complete)**
+
+Intro, Chapters 1–14, and epilogue imported July 2026. Part bridges remain outline stubs.
 
 ## Active branch
 
@@ -44,14 +46,14 @@
 | Part IV bridge | outline | Scaffold stub |
 | Chapter 13 — When Intelligence Becomes Cheap | draft | Imported July 2026; author title (was outline: When Answers Become Cheap); Ch 1 callback |
 | Chapter 14 — Ancient Practices, Future Problems | draft | Imported July 2026 |
-| Epilogue — Becoming Better Knowers | outline | Scaffold stub |
+| Epilogue — Becoming Better Knowers | draft | Imported July 2026 |
 
 ## Next actions
 
-1. Author review of Part I drafts (Intro, Ch 1–2).
-2. Begin Phase 1 drafting with Chapter 3 or editorial pass on Part I.
-3. Secure consultation contacts (see `open-questions.md`) before drafting Part II.
-4. Begin Phase 1 with Chapter 3 or imported drafts (editorial pass).
+1. Author review of full manuscript draft (Intro, Ch 1–14, epilogue).
+2. Editorial pass; sync `docs/outline.md` chapter titles with author-chosen titles where they differ.
+3. Optional: draft part bridge prose or leave as outline stubs until editorial review.
+4. Secure consultation contacts (see `open-questions.md`) before publication-oriented revisions.
 
 ## Open decisions / known issues
 
@@ -63,4 +65,4 @@
 
 - Manuscript words (target): ~55,000–70,000
 - Outline scaffold complete: July 2026
-- Current manuscript words: Intro + Ch 1–14 drafted; epilogue + bridges outline
+- Current manuscript words: Intro + Ch 1–14 + epilogue drafted; part bridges outline
