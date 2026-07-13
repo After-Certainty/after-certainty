@@ -18,7 +18,11 @@ The third was calmer. It acknowledged her concern, said they could talk in the m
 
 He read the message twice before sending it. Each sentence was reasonable. Together they carried more hurt than he intended. Then he waited.
 
-The typing indicator appeared, disappeared, and appeared again. He watched it long enough to imagine the revisions happening on the other side. Perhaps she was trying to soften something. Perhaps she had decided not to say it. Perhaps the hesitation itself was the answer. Finally, two letters appeared. *ok* Leo felt the meaning before he could describe it. Flat. Controlled. Final.
+The typing indicator appeared, disappeared, and appeared again. He watched it long enough to imagine the revisions happening on the other side. Perhaps she was trying to soften something. Perhaps she had decided not to say it. Perhaps the hesitation itself was the answer. Finally, two letters appeared.
+
+*ok*
+
+Leo felt the meaning before he could describe it. Flat. Controlled. Final.
 
 He knew that *ok* could mean almost anything. It could mean she was tired. It could mean she had read the message and agreed to wait until morning. It could mean she did not want to continue a difficult conversation by text.
 
@@ -54,7 +58,7 @@ Mara heard accusation in it, though Leo believed he was naming what had already 
 
 The conversation had begun with an incomplete message. It was now being conducted by two increasingly complete stories.
 
-Human beings rarely receive language as raw material and patiently hold every possible interpretation open. We reduce. We select. We infer. The mind turns fragments into something coherent enough to act on.[^c2-clark-using-language][^c2-kahneman-thinking-fast-slow] Without that capacity, ordinary life would become impossible. Every sentence would require endless clarification; every silence would suspend action. Compression is what makes response possible.
+Human beings rarely receive language as raw material and patiently hold every possible interpretation open. We reduce. We select. We infer. The mind turns fragments into something coherent enough to act on.[^c2-clark-using-language] Without that capacity, ordinary life would become impossible. Every sentence would require endless clarification; every silence would suspend action. Compression is what makes response possible.
 
 It is also what allows an imagined whole to replace the partial thing actually given.
 
@@ -127,6 +131,5 @@ That completion can feel like recognition, which is why it becomes difficult to 
 The distinction worth preserving is between **what the words support** and **what the listener has already finished on their behalf**.
 
 [^c2-clark-using-language]: Clark, Herbert H. *Using Language*. Cambridge: Cambridge University Press, 1996.
-[^c2-kahneman-thinking-fast-slow]: Kahneman, Daniel. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux, 2011.
 [^c2-standage-telegraph]: Standage, Tom. *The Victorian Internet*. New York: Walker & Company, 1998.
 [^c2-sensemaking-and-motivated-reasoning]: Weick, Karl E. *Sensemaking in Organizations*. Thousand Oaks, CA: Sage Publications, 1995; Kahan, Dan M. "Motivated Reasoning." *Behavioral and Brain Sciences* 40 (2017): e22.

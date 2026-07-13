@@ -32,9 +32,6 @@
 - Kahan, Dan M. "Motivated Reasoning."
   *Behavioral and Brain Sciences* 40 (2017): e22.
 
-- Kahneman, Daniel. *Thinking, Fast and Slow*.
-  New York: Farrar, Straus and Giroux, 2011.
-
 - Kruglanski, Arie W. "The Need for Cognitive Closure."
   *Psychological Review* 97, no. 1 (1990): 37–52.
 
