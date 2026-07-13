@@ -38,7 +38,7 @@
 | Chapter 8 — Conflict, Confession, and Repair | draft | Imported July 2026; author title (was outline: Being Right Is Not Enough) |
 | Chapter 9 — Suffering, Meaning, and Moral Imagination | draft | Imported July 2026; author title (was outline: When Explanation Is Not Enough) |
 | Part III bridge | outline | Scaffold stub |
-| Chapter 10 — Cultural Sediment | outline | Per `outline.md`; coordinate with *Living in Sediment* |
+| Chapter 10 — Cultural Sediment | draft | Imported July 2026; coordinate with *Living in Sediment* |
 | Chapter 11 — Archaeology Without Contempt | outline | Per `outline.md` |
 | Chapter 12 — Integration Without Reduction | outline | Per `outline.md` |
 | Part IV bridge | outline | Scaffold stub |
@@ -63,4 +63,4 @@
 
 - Manuscript words (target): ~55,000–70,000
 - Outline scaffold complete: July 2026
-- Current manuscript words: Intro + Ch 1–9 drafted; Part III+ outline
+- Current manuscript words: Intro + Ch 1–10 drafted; Ch 11+ outline
