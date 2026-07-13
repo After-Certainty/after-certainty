@@ -12,6 +12,7 @@ This is not a marketing brief. It preserves conceptual cohesion, stylistic consi
 
 - **Full comparative edition:** ~55,000–70,000 words (~3,500–4,500 per chapter unit; intro/epilogue shorter).
 - Structure per `index.md`: introduction, 4 parts (4 bridges), 14 chapters, epilogue.
+- **Part bridges** close each part (after its final chapter) and turn the reader toward the next part—not opening summaries.
 - See [`outline.md`](outline.md) for per-unit targets and research flags.
 
 ### Markdown file structure

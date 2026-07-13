@@ -139,10 +139,12 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 
 ## Part I — The Formation of a Knower
 
-**Part bridge — The Formation of a Knower**
+**Part bridge — The Formation of a Knower** _(end of Part I; after Ch 3)_
 
 | Field | Content |
 |-------|---------|
+| **Placement** | End of Part I — transitions to Part II |
+| **Author title** | The Practices We Build Around Our Limits |
 | **Target words** | ~1,000 |
 | **Function** | Orient reader: this part asks what kind of knower practices form—not only what propositions traditions assert |
 | **Central question** | If answers are not enough, what else is required? |
@@ -223,10 +225,12 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 
 ## Part II — Practices for Recurring Human Problems
 
-**Part bridge — Practices for Recurring Human Problems**
+**Part bridge — Practices for Recurring Human Problems** _(end of Part II; after Ch 9)_
 
 | Field | Content |
 |-------|---------|
+| **Placement** | End of Part II — transitions to Part III |
+| **Author title** | What Traditions Carry |
 | **Target words** | ~1,000 |
 | **Function** | Name six limitations as a pattern, not a catalogue; invite comparison without equivalence |
 | **Central question** | What do traditions ask people to *do* when they notice the same human frailties? |
@@ -360,10 +364,11 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 
 ## Part III — What Traditions Carry
 
-**Part bridge — What Traditions Carry**
+**Part bridge — What Traditions Carry** _(end of Part III; after Ch 12)_
 
 | Field | Content |
 |-------|---------|
+| **Placement** | End of Part III — transitions to Part IV |
 | **Target words** | ~1,000 |
 | **Function** | Shift from lived practice to inherited structure; sediment as accumulated experiment |
 | **Central question** | What do communities carry forward without remembering why? |
@@ -430,10 +435,11 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 
 ## Part IV — The Future of Wisdom
 
-**Part bridge — The Future of Wisdom**
+**Part bridge — The Future of Wisdom** _(end of Part IV; after Ch 14)_
 
 | Field | Content |
 |-------|---------|
+| **Placement** | End of Part IV — transitions to epilogue |
 | **Target words** | ~1,000 |
 | **Function** | From inheritance to scarcity; cheap intelligence stress test |
 | **Central question** | If formation matters more than information, what changes when information becomes cheap? |

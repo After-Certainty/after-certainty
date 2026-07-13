@@ -12,39 +12,39 @@
 
 Reader goal: Understand how traditions form knowers, not only transmit answers—and why personal inheritance can become an archaeological path.
 
-- [Part I — The Formation of a Knower](parts/part-1-the-formation-of-a-knower/bridge.md)
 - [Chapter 1 — The Experiment I Had Never Tried](parts/part-1-the-formation-of-a-knower/chapter-1-the-experiment-i-had-never-tried.md)
 - [Chapter 2 — Answers Are Not Enough](parts/part-1-the-formation-of-a-knower/chapter-2-answers-are-not-enough.md)
 - [Chapter 3 — The Limits of Seeing Alone](parts/part-1-the-formation-of-a-knower/chapter-3-the-limits-of-seeing-alone.md)
+- [Bridge — The Practices We Build Around Our Limits](parts/part-1-the-formation-of-a-knower/bridge.md)
 
 ## Part II — Practices for Recurring Human Problems
 
 Reader goal: Compare how different traditions address recurring human limitations through practice—preserving differences in purpose, metaphysics, and ends.
 
-- [Part II — Practices for Recurring Human Problems](parts/part-2-practices-for-recurring-human-problems/bridge.md)
 - [Chapter 4 — What Attention Makes Visible](parts/part-2-practices-for-recurring-human-problems/chapter-4-what-attention-makes-visible.md)
 - [Chapter 5 — When Being Wrong Becomes Expensive](parts/part-2-practices-for-recurring-human-problems/chapter-5-when-being-wrong-becomes-expensive.md)
 - [Chapter 6 — Seeing Together](parts/part-2-practices-for-recurring-human-problems/chapter-6-seeing-together.md)
 - [Chapter 7 — Memory, Ritual, and Tradition](parts/part-2-practices-for-recurring-human-problems/chapter-7-memory-ritual-and-tradition.md)
 - [Chapter 8 — Conflict, Confession, and Repair](parts/part-2-practices-for-recurring-human-problems/chapter-8-conflict-confession-and-repair.md)
 - [Chapter 9 — Suffering, Meaning, and Moral Imagination](parts/part-2-practices-for-recurring-human-problems/chapter-9-suffering-meaning-and-moral-imagination.md)
+- [Bridge — What Traditions Carry](parts/part-2-practices-for-recurring-human-problems/bridge.md)
 
 ## Part III — What Traditions Carry
 
 Reader goal: See how inherited practices carry both wisdom and blind spots—and learn how to evaluate them without contempt or reflexive reverence.
 
-- [Part III — What Traditions Carry](parts/part-3-what-traditions-carry/bridge.md)
 - [Chapter 10 — Cultural Sediment](parts/part-3-what-traditions-carry/chapter-10-cultural-sediment.md)
 - [Chapter 11 — Archaeology Without Contempt](parts/part-3-what-traditions-carry/chapter-11-archaeology-without-contempt.md)
 - [Chapter 12 — Integration Without Reduction](parts/part-3-what-traditions-carry/chapter-12-integration-without-reduction.md)
+- [Part III bridge](parts/part-3-what-traditions-carry/bridge.md) _(outline stub)_
 
 ## Part IV — The Future of Wisdom
 
 Reader goal: Ask what becomes scarce when answers become abundant—and whether ancient practices may answer persistent human problems in an age of cheap intelligence.
 
-- [Part IV — The Future of Wisdom](parts/part-4-the-future-of-wisdom/bridge.md)
 - [Chapter 13 — When Intelligence Becomes Cheap](parts/part-4-the-future-of-wisdom/chapter-13-when-intelligence-becomes-cheap.md)
 - [Chapter 14 — Ancient Practices, Future Problems](parts/part-4-the-future-of-wisdom/chapter-14-ancient-practices-future-problems.md)
+- [Part IV bridge](parts/part-4-the-future-of-wisdom/bridge.md) _(outline stub)_
 
 ## Back Matter
 
