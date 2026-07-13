@@ -96,7 +96,7 @@ Refined titles in use; originals preserved here for author choice:
 | 4 | What Attention Makes Visible | Learning What to Notice (outline alternate) |
 | 5 | When Being Wrong Becomes Expensive | The Defenses We Build (outline alternate) |
 | 6 | Seeing Together | Wisdom Is Social (outline alternate) |
-| 7 | What Must Be Repeated | Memory, Ritual, and Tradition |
+| 7 | Memory, Ritual, and Tradition | What Must Be Repeated (outline alternate) |
 | 8 | Being Right Is Not Enough | Conflict, Confession, and Repair |
 | 9 | When Explanation Is Not Enough | Suffering, Meaning, and Moral Imagination |
 | 13 | When Answers Become Cheap | When Intelligence Becomes Cheap |
