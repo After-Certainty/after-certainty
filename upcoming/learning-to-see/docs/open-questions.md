@@ -82,7 +82,7 @@ Prose must not sound as though the author has converted, is trying to convert an
 
 ### Part bridge depth
 
-Four bridges added in outline (not in original brief). **Decision:** Draft bridges at ~800–1,200 words each, or keep as brief orientation (~400 words)?
+Three bridges (end of Parts I–III). Part IV has no bridge; Ch 14 hands off to epilogue. **Decision:** Drafted at author length (~800–1,200 words each); placement after each part's final chapter.
 
 ---
 

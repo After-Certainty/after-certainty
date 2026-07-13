@@ -436,16 +436,7 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 
 ## Part IV — The Future of Wisdom
 
-**Part bridge — The Future of Wisdom** _(end of Part IV; after Ch 14)_
-
-| Field | Content |
-|-------|---------|
-| **Placement** | End of Part IV — transitions to epilogue |
-| **Target words** | ~1,000 |
-| **Function** | From inheritance to scarcity; cheap intelligence stress test |
-| **Central question** | If formation matters more than information, what changes when information becomes cheap? |
-| **Close** | Enter Ch 13 |
-| **File** | `parts/part-4-the-future-of-wisdom/bridge.md` |
+**No part bridge.** Chapter 14 transitions directly to the epilogue (author decision, July 2026).
 
 ---
 

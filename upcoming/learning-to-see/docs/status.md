@@ -4,7 +4,7 @@
 
 **Phase 1 — Manuscript draft (prose complete)**
 
-Intro, Chapters 1–14, epilogue, and Part I–III bridges imported July 2026. Part IV bridge remains outline stub.
+Intro, Chapters 1–14, epilogue, and three part bridges (end of Parts I–III) imported July 2026.
 
 ## Active branch
 
@@ -43,17 +43,16 @@ Intro, Chapters 1–14, epilogue, and Part I–III bridges imported July 2026. P
 | Chapter 10 — Cultural Sediment | draft | Imported July 2026; coordinate with *Living in Sediment* |
 | Chapter 11 — Archaeology Without Contempt | draft | Imported July 2026 |
 | Chapter 12 — Integration Without Reduction | draft | Imported July 2026 |
-| Part IV bridge | outline | End of Part IV (after Ch 14); scaffold stub |
+| Part IV bridge | — | None; Ch 14 → epilogue |
 | Chapter 13 — When Intelligence Becomes Cheap | draft | Imported July 2026; author title (was outline: When Answers Become Cheap); Ch 1 callback |
 | Chapter 14 — Ancient Practices, Future Problems | draft | Imported July 2026 |
 | Epilogue — Becoming Better Knowers | draft | Imported July 2026 |
 
 ## Next actions
 
-1. Author review of full manuscript draft (Intro, Ch 1–14, epilogue).
+1. Author review of full manuscript (Intro, Ch 1–14, three bridges, epilogue).
 2. Editorial pass; sync `docs/outline.md` chapter titles with author-chosen titles where they differ.
-3. Optional: draft part bridge prose or leave as outline stubs until editorial review.
-4. Secure consultation contacts (see `open-questions.md`) before publication-oriented revisions.
+3. Secure consultation contacts (see `open-questions.md`) before publication-oriented revisions.
 
 ## Open decisions / known issues
 
@@ -65,4 +64,4 @@ Intro, Chapters 1–14, epilogue, and Part I–III bridges imported July 2026. P
 
 - Manuscript words (target): ~55,000–70,000
 - Outline scaffold complete: July 2026
-- Current manuscript words: Intro + Part I–III bridges + Ch 1–14 + epilogue drafted; Part IV bridge outline
+- Current manuscript words: complete draft (Intro + Ch 1–14 + 3 bridges + epilogue)
