@@ -43,7 +43,7 @@ Reader goal: See how inherited practices carry both wisdom and blind spots—and
 Reader goal: Ask what becomes scarce when answers become abundant—and whether ancient practices may answer persistent human problems in an age of cheap intelligence.
 
 - [Part IV — The Future of Wisdom](parts/part-4-the-future-of-wisdom/bridge.md)
-- [Chapter 13 — When Answers Become Cheap](parts/part-4-the-future-of-wisdom/chapter-13-when-answers-become-cheap.md)
+- [Chapter 13 — When Intelligence Becomes Cheap](parts/part-4-the-future-of-wisdom/chapter-13-when-intelligence-becomes-cheap.md)
 - [Chapter 14 — Ancient Practices, Future Problems](parts/part-4-the-future-of-wisdom/chapter-14-ancient-practices-future-problems.md)
 
 ## Back Matter
