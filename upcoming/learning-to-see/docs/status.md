@@ -40,7 +40,7 @@
 | Part III bridge | outline | Scaffold stub |
 | Chapter 10 — Cultural Sediment | draft | Imported July 2026; coordinate with *Living in Sediment* |
 | Chapter 11 — Archaeology Without Contempt | draft | Imported July 2026 |
-| Chapter 12 — Integration Without Reduction | outline | Per `outline.md` |
+| Chapter 12 — Integration Without Reduction | draft | Imported July 2026 |
 | Part IV bridge | outline | Scaffold stub |
 | Chapter 13 — When Answers Become Cheap | outline | Per `outline.md`; Ch 1 callback |
 | Chapter 14 — Ancient Practices, Future Problems | outline | Per `outline.md` |
@@ -63,4 +63,4 @@
 
 - Manuscript words (target): ~55,000–70,000
 - Outline scaffold complete: July 2026
-- Current manuscript words: Intro + Ch 1–11 drafted; Ch 12+ outline
+- Current manuscript words: Intro + Ch 1–12 drafted; Part IV + epilogue outline
