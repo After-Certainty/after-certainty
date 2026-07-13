@@ -369,6 +369,7 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 | Field | Content |
 |-------|---------|
 | **Placement** | End of Part III — transitions to Part IV |
+| **Author title** | The Next Scarcity |
 | **Target words** | ~1,000 |
 | **Function** | Shift from lived practice to inherited structure; sediment as accumulated experiment |
 | **Central question** | What do communities carry forward without remembering why? |

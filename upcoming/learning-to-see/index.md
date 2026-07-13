@@ -36,7 +36,7 @@ Reader goal: See how inherited practices carry both wisdom and blind spots—and
 - [Chapter 10 — Cultural Sediment](parts/part-3-what-traditions-carry/chapter-10-cultural-sediment.md)
 - [Chapter 11 — Archaeology Without Contempt](parts/part-3-what-traditions-carry/chapter-11-archaeology-without-contempt.md)
 - [Chapter 12 — Integration Without Reduction](parts/part-3-what-traditions-carry/chapter-12-integration-without-reduction.md)
-- [Part III bridge](parts/part-3-what-traditions-carry/bridge.md) _(outline stub)_
+- [Bridge — The Next Scarcity](parts/part-3-what-traditions-carry/bridge.md)
 
 ## Part IV — The Future of Wisdom
 
