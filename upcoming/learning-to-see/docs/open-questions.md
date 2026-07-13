@@ -134,7 +134,7 @@ Before drafting Part II and Ch 10, secure review from:
 
 ## Reserved drafts
 
-Introduction imported to `front-matter/introduction-learning-to-see.md` (July 2026). Remaining reserved paths:
+Part I drafts imported (July 2026):
 
 - `front-matter/introduction-learning-to-see.md`
 - `parts/part-1-the-formation-of-a-knower/chapter-1-the-experiment-i-had-never-tried.md`
