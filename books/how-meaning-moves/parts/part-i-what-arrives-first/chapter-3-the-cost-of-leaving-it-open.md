@@ -120,6 +120,8 @@ But reduction is not neutral. Someone decides which uncertainty remains visible 
 
 Only one may survive.
 
+The two costs were not the same, and neither was larger because it happened in a room with a budget attached. Mara paid in intimacy—the discomfort of living inside Leo's unfinished read of her while the weekend plan hardened around her silence. Anna paid in credibility and authority—the price of a concern that arrived before it was defensible and a room that had begun treating caution as blockage. Both costs were real. Both came from the same structure: leaving meaning open without return does not distribute its price evenly.
+
 That evening, Nora opened her notes to prepare the version that would circulate. She removed repetition, reorganized by topic, and turned the hour into a coherent arc:
 
 *Team reviewed the unresolved vendor dependency and aligned on conditions for proceeding. Anna will document fallback criteria before the budget review.*

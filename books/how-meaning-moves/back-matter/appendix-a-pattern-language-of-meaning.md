@@ -4,7 +4,7 @@
 
 This appendix names recurring patterns in how meaning moves between people. The patterns are grouped into five clusters: **Formation**, **Completion**, **Movement**, **Resolution**, and **Reinforcement**. Each entry describes a recognizable dynamic, not a prescription.
 
-Use them when the transcript reads innocent but the room did not feel innocent—when something moved before anyone agreed on words.
+Use them when the record reads innocent but the moment did not feel innocent—when something moved before anyone agreed on words.
 
 ## **Core Terms**
 
@@ -130,7 +130,7 @@ _Patterns that describe how interpretation changes with pressure and time._
 
 ## **Meaning Shifts Under Pressure.**
 
-**Context:** Communication occurs under conflict, urgency, authority, or high stakes.
+**Context:** Communication occurs under conflict, urgency, authority, deadlines, or high stakes.
 
 **Problem:** The need for rapid action competes with staying close to what was actually meant.
 
@@ -188,7 +188,7 @@ _Patterns where interpretation either reopens or hardens._
 
 **Forces:** Confirmation bias filters incoming data; social reinforcement rewards consistency; identity defense resists revision.
 
-**Observation:** Interpretation can harden in ways that no longer track reality. Facts may be accurate while the social meaning around their delivery becomes distorted. Correctness can resolve a claim while also teaching the room which future questions are unsafe.
+**Observation:** Interpretation can harden in ways that no longer track reality. Facts may be accurate while the social meaning around their delivery becomes distorted. Correctness can resolve a claim while also teaching people which future questions are unsafe to raise.
 
 **Effect:** Correction is experienced as threat rather than update. Distortion is not limited to factual falsehood.
 
@@ -208,7 +208,7 @@ _Patterns where earlier interpretation becomes the engine of later interpretatio
 
 **Forces:** Selective attention confirms prior meaning; repetition normalizes prior conclusions; social alignment penalizes interpretive differences.
 
-**Observation:** Once established, interpretation begins shaping future interpretation. Interpretation becomes embedded in notes, plans, statuses, schedules, assignments, and incentives. Infrastructure can reinforce a reading even when no individual explicitly chose it.
+**Observation:** Once established, interpretation begins shaping future interpretation. Interpretation becomes embedded in habits, family stories, community summaries, notes, plans, statuses, schedules, and incentives. Infrastructure can reinforce a reading even when no individual explicitly chose it.
 
 **Effect:** Meaning self-stabilizes, even when reality has shifted. Later evidence must then work against both belief and coordinated action.
 

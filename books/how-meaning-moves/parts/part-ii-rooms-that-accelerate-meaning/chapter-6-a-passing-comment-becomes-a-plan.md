@@ -122,13 +122,11 @@ Nora turned the laptop slightly toward herself. "Because ten people who weren't 
 
 Her answer contained no defensiveness. That made it more difficult to dismiss.
 
-Organizations cannot preserve every meeting as a living event. Coordination at scale requires compression.[^c6-meeting-minutes-institutional-record] A meeting becomes notes. Notes become a plan. The plan becomes the version of reality that later decisions inherit. Every conversion removes something.
+Organizations cannot preserve every meeting as a living event. Coordination at scale requires compression.[^c6-meeting-minutes-institutional-record] A meeting becomes notes. Notes become a plan. The plan becomes the version of reality that later decisions inherit.
 
-Nora's circulated summary preserved the operational consequence of the meeting. People had begun planning without the assumption. The dates had moved. The secondary branch had become contingent. What it did not preserve was the status Philip believed his sentence still held: provisional, exploratory, unfinished.
+Nora's circulated summary preserved what the team had begun doing. What it did not preserve was the status Philip believed his sentence still held: provisional, exploratory, unfinished. Both versions were true—for different purposes.
 
-Both versions were true. They were true for different purposes. Philip's version preserved authorship and intent. Nora's version preserved coordination and consequence. The document could not fully carry both.
-
-This was not a clerical failure. It was a structural problem. A record must reduce a room in order to leave it. The question is not whether reduction happens, but which distinctions survive it.
+This was not a clerical failure. It was a structural problem. A record must reduce a room in order to leave it. The question is which distinctions survive.
 
 Tentativeness is especially difficult to preserve because it is often carried outside the sentence itself—a pause before speaking, a hand still resting on the closed laptop, a phrase offered while everyone is gathering their things. On the page, the sentence stands upright:
 
@@ -136,7 +134,7 @@ Tentativeness is especially difficult to preserve because it is often carried ou
 
 The words contain uncertainty. The speaker's authority contains something else. People who know Philip may hear the phrase as an invitation to question. People who know his role may hear it as the earliest safe form of an instruction.
 
-Authority narrows the range of meanings a sentence is permitted to retain. A junior person can think aloud and be ignored. A leader can think aloud and discover that the organization has begun spending money around the thought. Philip had seen casual observations return as priorities and speculative questions generate weeks of analysis. The surprise had begun to feel less innocent.
+Authority narrows the range of meanings a sentence is permitted to retain. A leader can think aloud and discover that the organization has begun spending money around the thought.
 
 At the next weekly review, Anna presented the revised timeline. She described the assumption as removed and the secondary path as contingent. Her language was calm, organized, and more certain than the underlying work.
 
@@ -148,11 +146,7 @@ When Anna reached the vendor dependency, she paused briefly and looked toward hi
 
 Technically, this was correct. The milestone had been redesigned so the dependency no longer appeared to affect it. Whether the redesign would survive contact with the missing response remained an open question. Anna did not say that.
 
-The record had changed the cost of speaking. To raise the concern now would no longer sound like preserving an unresolved distinction. It could sound like reopening a decision the team had already implemented.[^c6-morrison-employee-voice]
-
-Correction had not disappeared. It had become more expensive.
-
-Organizations often describe this as alignment. Once work begins moving in one direction, dissent is evaluated not only against the facts but against the cost of reversing what has already been coordinated.[^c6-suchman-managing-legitimacy] A provisional interpretation acquires legitimacy through use. It may have begun as one possible reading of a sentence. Once incorporated into timelines, assignments, and status reports, it begins to look like the natural history of the project.
+The record had changed the cost of speaking. To raise the concern now would sound like reopening a decision the team had already implemented.[^c6-morrison-employee-voice]
 
 A week later, someone new joined the review. She had not been present when Philip made the original comment.
 
@@ -190,11 +184,7 @@ He considered the options. *Philip suggested reconsidering the assumption, after
 
 The new person wrote it down. Another layer entered the archive.
 
-Records train future attention. A person arriving later does not encounter the original ambiguity. They encounter the cleaned plan, the revised milestone, and the summary that tells them which uncertainties have already been settled. What locked in yesterday becomes the frame through which tomorrow's questions are heard.
-
-The new person would not ask whether the assumption should be removed. She would ask what evidence would justify putting it back. The document had reversed the direction of explanation.
-
-This is how meaning reinforces itself institutionally. Once an interpretation becomes operational, later evidence has to work against not only belief but infrastructure. Because the assumption had been removed, restoring it became more expensive, and removal looked increasingly inevitable.
+Records train future attention. A person arriving later encounters the cleaned plan and the summary that tells them which uncertainties have already been settled.
 
 After the review, Nora returned to the original notes and added a private line beneath Philip's comment:
 
@@ -240,6 +230,5 @@ The distinction worth preserving is between **what someone intended to decide** 
 
 [^c6-french-raven-bases-social-power]: French, John R. P., and Bertram Raven. *The Bases of Social Power*. Ann Arbor: University of Michigan, 1959.
 [^c6-meeting-minutes-institutional-record]: March, James G., and Herbert A. Simon. *Organizations*. New York: Wiley, 1958; Weick, Karl E. *Sensemaking in Organizations*. Thousand Oaks, CA: Sage Publications, 1995.
-[^c6-suchman-managing-legitimacy]: Suchman, Mark C. "Managing Legitimacy: Strategic and Institutional Approaches." *Academy of Management Review* 20, no. 3 (1995): 571–610.
 [^c6-morrison-employee-voice]: Morrison, Elizabeth W. "Employee Voice Behavior: Integration and Directions for Future Research." *Academy of Management Journal* 54, no. 1 (2011): 186–206.
 [^c6-arendt-responsibility-judgment]: Arendt, Hannah. *Responsibility and Judgment*. New York: Schocken Books, 2003.

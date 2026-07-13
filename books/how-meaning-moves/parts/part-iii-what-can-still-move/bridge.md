@@ -12,7 +12,7 @@ But sometimes the story has not closed completely. A later question still has so
 
 This is the possibility the final part follows—not reconciliation in every case, not agreement, not the recovery of some untouched moment before misunderstanding began. Meaning changes what happens, and some consequences cannot be withdrawn simply because people later understand them differently.
 
-The chapters ahead begin in the room after someone is right. They ask what correctness teaches the people who watched it arrive, what allows people to remain consequentially connected after their versions of events diverge, and what restraint can still make possible when a decision cannot wait.
+The chapters ahead begin after someone is right—in a kitchen, a spreadsheet review, or a parent meeting. They ask what correctness teaches the people who watched it arrive, what allows people to remain consequentially connected after their versions of events diverge, and what restraint can still make possible when a decision cannot wait.
 
 The question is no longer whether meaning will move.
 
