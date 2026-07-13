@@ -32,7 +32,7 @@
 | Chapter 3 — The Limits of Seeing Alone | draft | Imported July 2026; author title (was outline: What the Mirror Cannot Show) |
 | Part II bridge | outline | Scaffold stub |
 | Chapter 4 — What Attention Makes Visible | draft | Imported July 2026; author title (was outline: Learning What to Notice) |
-| Chapter 5 — The Defenses We Build | outline | Per `outline.md` |
+| Chapter 5 — When Being Wrong Becomes Expensive | draft | Imported July 2026; author title (was outline: The Defenses We Build) |
 | Chapter 6 — Wisdom Is Social | outline | Per `outline.md` |
 | Chapter 7 — What Must Be Repeated | outline | Per `outline.md` |
 | Chapter 8 — Being Right Is Not Enough | outline | Per `outline.md` |

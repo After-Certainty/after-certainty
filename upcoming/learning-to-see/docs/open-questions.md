@@ -94,7 +94,7 @@ Refined titles in use; originals preserved here for author choice:
 |---|-------------------|-----------|
 | 3 | The Limits of Seeing Alone | What the Mirror Cannot Show (outline alternate) |
 | 4 | What Attention Makes Visible | Learning What to Notice (outline alternate) |
-| 5 | The Defenses We Build | Humility and Self-Deception |
+| 5 | When Being Wrong Becomes Expensive | The Defenses We Build (outline alternate) |
 | 6 | Wisdom Is Social | Community and Discernment |
 | 7 | What Must Be Repeated | Memory, Ritual, and Tradition |
 | 8 | Being Right Is Not Enough | Conflict, Confession, and Repair |
