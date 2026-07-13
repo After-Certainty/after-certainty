@@ -126,7 +126,7 @@ This can protect the person from mistaking every intense feeling for truth.
 
 It can also teach the person in advance which experiences are permitted to count.
 
-## A testimony and its shape
+A testimony and its shape
 
 In the church of my childhood, testimony occupied an important place.
 
@@ -174,7 +174,7 @@ Coordination always requires selection.
 
 The danger begins when the selected frame becomes difficult to see because everyone who has standing was trained inside it.
 
-## The comfort of shared certainty
+The comfort of shared certainty
 
 Groups create confidence in ways that individuals do not always recognize.
 
@@ -224,7 +224,7 @@ The dependence is real.
 
 It is not new evidence.
 
-## Community as correction
+Community as correction
 
 None of this removes the need for community.
 
@@ -274,7 +274,7 @@ The form of correction remains.
 
 The possibility of correction does not.
 
-## The authority to interpret
+The authority to interpret
 
 Every community develops authorities.
 
@@ -338,7 +338,7 @@ These practices do not weaken authority.
 
 They make authority more accountable to the purpose that justified it.
 
-## Consensus is not integration
+Consensus is not integration
 
 Mary Parker Follett distinguished among domination, compromise, and integration.
 
@@ -384,7 +384,7 @@ That is a deeper form of seeing together.
 
 It does not require every voice to carry equal technical authority on every claim. It requires every relevant concern to remain alive long enough to affect the shape of the problem.
 
-## Dissent and belonging
+Dissent and belonging
 
 Dissent is often praised in the abstract.
 
@@ -446,7 +446,7 @@ The established perspective was rarely required to arrive complete.
 
 It became established while its gaps were still being filled.
 
-## What everyone is saying
+What everyone is saying
 
 Facilitation can help a group hear itself.
 
@@ -494,7 +494,7 @@ Sometimes the room cannot afford to slow.
 
 That tradeoff should be visible.
 
-## Discernment is not a vote
+Discernment is not a vote
 
 Communal discernment is often described as a group trying to determine what is true, wise, faithful, or responsible.
 
@@ -542,7 +542,7 @@ It preserves more capacity for learning.
 
 The community acts without pretending action has settled every question.
 
-## The person who will not agree
+The person who will not agree
 
 Not every dissenter is a prophet.
 
@@ -574,7 +574,7 @@ Discernment remains judgment.
 
 The hope is not to eliminate judgment but to make judgment more answerable.
 
-## Practices that make learning possible
+Practices that make learning possible
 
 Different communities have developed different ways to protect this answerability.
 
@@ -624,7 +624,7 @@ An organization may be effective at delivering products. That does not make its 
 
 Communities become dangerous when success in one domain becomes evidence of authority in all domains.
 
-## The community inside the person
+The community inside the person
 
 Even when we leave a community, it often remains within us.
 
@@ -672,7 +672,7 @@ Which community taught me what must remain invisible?
 
 We may need other people to help answer these questions because inherited voices often sound like our own.
 
-## A room that can still learn
+A room that can still learn
 
 I returned to the design after the engineer's message.
 
@@ -706,7 +706,7 @@ The second produced a more honest problem.
 
 I trust the second more.
 
-## Seeing together without disappearing
+Seeing together without disappearing
 
 Community offers something the isolated person cannot produce: contact with perspectives capable of changing the question.
 

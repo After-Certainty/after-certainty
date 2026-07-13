@@ -35,7 +35,7 @@
 | Chapter 5 — When Being Wrong Becomes Expensive | draft | Imported July 2026; author title (was outline: The Defenses We Build) |
 | Chapter 6 — Seeing Together | draft | Imported July 2026; author title (was outline: Wisdom Is Social) |
 | Chapter 7 — Memory, Ritual, and Tradition | draft | Imported July 2026; author title (was outline: What Must Be Repeated) |
-| Chapter 8 — Being Right Is Not Enough | outline | Per `outline.md` |
+| Chapter 8 — Conflict, Confession, and Repair | draft | Imported July 2026; author title (was outline: Being Right Is Not Enough) |
 | Chapter 9 — When Explanation Is Not Enough | outline | Per `outline.md` |
 | Part III bridge | outline | Scaffold stub |
 | Chapter 10 — Cultural Sediment | outline | Per `outline.md`; coordinate with *Living in Sediment* |
@@ -63,4 +63,4 @@
 
 - Manuscript words (target): ~55,000–70,000
 - Outline scaffold complete: July 2026
-- Current manuscript words: Part I Intro + Ch 1–3 drafted (~12,500); Ch 4+ outline
+- Current manuscript words: Intro + Ch 1–8 drafted; Ch 9+ outline
