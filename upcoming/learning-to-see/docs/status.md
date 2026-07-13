@@ -2,13 +2,13 @@
 
 ## Current phase
 
-**Phase 1 — Manuscript draft (prose complete)**
+**Phase 2 — Unit passes (Part I complete; Part II–IV pending)**
 
-Intro, Chapters 1–14, epilogue, and three part bridges (end of Parts I–III) imported July 2026.
+Part I units (Introduction, Chapters 1–3, Part I bridge) passed rules, echo, editorial, sensitivity, citation, and linkage checks July 2026. Awaiting author review before Part II.
 
 ## Active branch
 
-`cursor/learning-to-see-outline-cc77`
+`cursor/learning-to-see-phase2-cc77`
 
 ## Manuscript hub
 
@@ -27,11 +27,11 @@ Intro, Chapters 1–14, epilogue, and three part bridges (end of Parts I–III) 
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction — Learning to See | draft | Imported July 2026 |
-| Part I bridge | draft | End of Part I (after Ch 3); author title: The Practices We Build Around Our Limits |
-| Chapter 1 — The Experiment I Had Never Tried | draft | Imported July 2026 |
-| Chapter 2 — Answers Are Not Enough | draft | Imported July 2026 |
-| Chapter 3 — The Limits of Seeing Alone | draft | Imported July 2026; author title (was outline: What the Mirror Cannot Show) |
+| Introduction — Learning to See | reviewed | Phase 2 pass complete July 2026; short intro holds; no edits required |
+| Chapter 1 — The Experiment I Had Never Tried | reviewed | Trimmed sediment preview; merged staccato; varied limitations echo; footnotes (Moroni 10, sediment hypothesis) |
+| Chapter 2 — Answers Are Not Enough | reviewed | Formation/information arc holds; footnote on "epistemic spirituality" (author decision pending) |
+| Chapter 3 — The Limits of Seeing Alone | reviewed | Design-review doorway; community/dissent arc; sets up Part II |
+| Part I bridge — The Practices We Build Around Our Limits | reviewed | Varied limitations inventory; turns to Part II practice chapters |
 | Part II bridge | draft | End of Part II (after Ch 9); author title: What Traditions Carry |
 | Chapter 4 — What Attention Makes Visible | draft | Imported July 2026; author title (was outline: Learning What to Notice) |
 | Chapter 5 — When Being Wrong Becomes Expensive | draft | Imported July 2026; author title (was outline: The Defenses We Build) |
@@ -48,17 +48,21 @@ Intro, Chapters 1–14, epilogue, and three part bridges (end of Parts I–III) 
 | Chapter 14 — Ancient Practices, Future Problems | draft | Imported July 2026 |
 | Epilogue — Becoming Better Knowers | draft | Imported July 2026 |
 
+**Phase column values:** `draft` = prose imported, Phase 2 not complete. `reviewed` = agent Phase 2 passes complete; author review pending. `approved` = author sign-off; ready for Part coherence gate.
+
 ## Next actions
 
-1. Author review of full manuscript (Intro, Ch 1–14, three bridges, epilogue).
-2. Editorial pass; sync `docs/outline.md` chapter titles with author-chosen titles where they differ.
-3. Secure consultation contacts (see `open-questions.md`) before publication-oriented revisions.
+1. **Author review** of Part I units (Introduction, Ch 1–3, Part I bridge).
+2. **Phase 2 Part II** — Chapters 4–9 + Part II bridge (five-layer check required).
+3. Sync `docs/outline.md` chapter titles with author-chosen titles where they differ.
+4. Secure consultation contacts (see `open-questions.md`) before publication-oriented revisions.
 
 ## Open decisions / known issues
 
 - See [`open-questions.md`](open-questions.md).
 - Part I reserved drafts (Intro, Ch 1–2) imported to repository (July 2026).
 - Title disambiguation from *What We Cannot See* Part I ("Learning to See Your Own Mind") required in series guide.
+- Ch 1 sediment preview trimmed in Phase 2; full development remains Ch 10.
 
 ## Rough scale
 

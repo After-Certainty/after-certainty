@@ -34,21 +34,7 @@ Across history, people have responded to this problem by developing practices.
 
 Prayer, meditation, observation, study, confession, argument, ritual, dialogue, lament, and communal memory arise from different understandings of reality. They are not interchangeable.
 
-But they sometimes confront recurring human difficulties.
-
-We become distracted.
-
-We deceive ourselves.
-
-We grow attached to conclusions.
-
-We confuse belonging with truth.
-
-We forget what matters.
-
-We harm one another.
-
-We encounter suffering no explanation can repair.
+But they sometimes confront recurring human difficulties: attention that will not stay put, judgment that protects itself, belonging that can feel like truth, memory that fades even when the story survives, conflict we postpone until it hardens, suffering that outruns explanation.
 
 A practice is more than a technique. It contains an account of what repeatedly goes wrong with human beings and what kind of capacity must be cultivated in response.
 

@@ -8,7 +8,7 @@ I have spent most of my adult life outside the faith. I learned to think in othe
 
 Yet one familiar claim continued to bother me.
 
-Members of the church often say that a person who wants to know whether the Book of Mormon is true should read it sincerely, reflect on it, and pray. A passage near the end of the book makes a version of this promise. If you ask God with real intent, it says, the truth can be made known to you.
+Members of the church often say that a person who wants to know whether the Book of Mormon is true should read it sincerely, reflect on it, and pray. A passage near the end of the book makes a version of this promise. If you ask God with real intent, it says, the truth can be made known to you.[^c1-moroni10]
 
 I had heard the promise many times. I had also heard many explanations for why it might fail. Perhaps the reader had not been sincere enough. Perhaps they had not prayed with sufficient humility. Perhaps they wanted an answer but were unwilling to follow it.
 
@@ -26,9 +26,7 @@ This may have been an unreasonable standard to impose on myself. We cannot perso
 
 But this claim belonged to my own inheritance. It had shaped my parents, my grandparents, my neighbors, and the culture in which I learned to become a person. It was not an obscure ritual practiced on another continent. It was part of the language of my childhood.
 
-Early one year, I decided to try.
-
-I did not enjoy it.
+Early one year, I decided to try. I did not enjoy it.
 
 Scripture has rarely held my attention. The prose often feels distant. Genealogies, sermons, wars, prophecies, and repeated moral warnings blur together. I can read several pages and realize that my eyes have continued moving while my mind has gone elsewhere.
 
@@ -46,13 +44,9 @@ The experiment depended on sincerity, but sincerity was the very condition I cou
 
 I could not make myself believe on command. I could only become willing to discover something I had not expected.
 
-So I asked ChatGPT to help.
+So I asked a reading companion for help—not a pastor or study group, but a language model I could query at odd hours. That choice may sound strange in a story about spirituality, although perhaps it is no stranger than asking a teacher, pastor, friend, or study guide where to begin. I explained that long stretches of scripture caused me to lose interest. I wanted passages that might be worth reading even if I did not accept their supernatural claims. I wanted something short enough to approach honestly and substantial enough to give the practice a chance.
 
-That choice may sound strange in a story about spirituality, although perhaps it is no stranger than asking a teacher, pastor, friend, or study guide where to begin. I explained that long stretches of scripture caused me to lose interest. I wanted passages that might be worth reading even if I did not accept their supernatural claims. I wanted something short enough to approach honestly and substantial enough to give the practice a chance.
-
-The machine became a kind of reading companion. It suggested passages. It explained historical context. It helped me notice themes that I might have missed on my own.
-
-I did not mistake the system for a spiritual authority. It was doing what language models do: organizing and recombining what people have written. But it helped me remain with texts that I would otherwise have abandoned.
+The companion suggested passages, explained historical context, and helped me notice themes I might have missed on my own. I did not mistake it for a spiritual authority. It was organizing and recombining what people have written. But it helped me remain with texts that I would otherwise have abandoned.
 
 The experiment did not produce the result I had been taught to expect.
 
@@ -86,57 +80,15 @@ Reading scripture as an adult did not restore my belief. It helped me see some o
 
 I began to recognize why conflict could feel dangerous even when nothing terrible was likely to happen. I understood more clearly why respect for authority carried moral weight in the culture around me. I saw how endurance could become both a virtue and a trap: a capacity that helped people survive hardship but also encouraged them to remain silent when something needed to change.
 
-These were not simply personal habits. They were cultural sediment.
+These were not simply personal habits. They were cultural sediment—practices and norms that had helped a community survive hardship and later became difficult to see as anything other than morality.[^c1-sediment-hypothesis]
 
-A community that experiences persecution, displacement, isolation, and the demands of frontier survival may develop strong norms of unity and deference. Internal conflict can threaten collective survival. Leaders who coordinate migration and settlement may acquire unusual authority because the cost of fragmentation is genuinely high.
+A community that experiences persecution, displacement, and the demands of frontier survival may develop strong norms of unity and deference. Under those conditions, cohesion is not irrational. Conflict avoidance is not cowardice. Respect for authority may be part of the machinery that keeps a community alive.
 
-Under those conditions, cohesion is not irrational. Conflict avoidance is not cowardice. Respect for authority may be part of the machinery that keeps a community alive.
+But culture remembers solutions more easily than it remembers the conditions that produced them. The crisis ends. The practice remains. A norm that once protected a vulnerable community may later make it harder to challenge leaders, expose harm, or adapt to new evidence. What began as survival becomes identity. What becomes identity is eventually defended as morality.
 
-But culture remembers solutions more easily than it remembers the conditions that produced them.
+I had written about this pattern in organizations before I recognized it in my own life. A company experiences a serious outage, so it introduces a review process. The process prevents another failure. Years later, no one remembers the outage, but everyone continues completing the forms. The control designed to reduce one kind of risk creates another: no one can act quickly enough to respond to the environment. The policy becomes sediment.
 
-The crisis ends. The practice remains.
-
-A norm that once protected a vulnerable community may later make it harder to challenge leaders, expose harm, or adapt to new evidence. What began as survival becomes identity. What becomes identity is eventually defended as morality.
-
-This does not mean the practice was always wrong. It means that practices travel through time.
-
-They accumulate meanings. They solve one problem and later create another. They preserve hard-won wisdom while obscuring the historical conditions that gave that wisdom its shape.
-
-I had written about this pattern in organizations before I recognized it in my own life.
-
-A company experiences a serious outage, so it introduces a review process. The process prevents another failure. Years later, no one remembers the outage, but everyone continues completing the forms. The review expands. More people must approve each change. Eventually the control designed to reduce one kind of risk creates a different one: no one can act quickly enough to respond to the environment.
-
-The policy becomes sediment.
-
-Religious and cultural traditions preserve sediment on a much larger timescale. Their practices may be older than the nations in which they are now performed. Their stories carry memories whose original circumstances have been forgotten.
-
-But sediment is not merely debris.
-
-It can stabilize.
-
-A weekend is cultural sediment. So is a wedding ceremony, a funeral, a family meal, the expectation that a promise should be kept, and the idea that a stranger deserves hospitality. We inherit practices whose origins we may not understand and whose value we would miss if we evaluated them only by asking whether they are modern.
-
-The question is not whether inherited practices should survive.
-
-The question is whether we can learn to see what they are doing.
-
-What problem did this practice address?
-
-Does that problem still exist?
-
-What human capacity does the practice cultivate?
-
-What does it help us notice?
-
-What does it teach us to ignore?
-
-Who is protected by it?
-
-Who is constrained?
-
-What might be lost if we abandon it?
-
-What might become possible if we allow it to change?
+Religious and cultural traditions preserve sediment on a much larger timescale. The question is not whether inherited practices should survive. It is whether we can learn to see what they are doing—which problems they addressed, what they cultivate, and what they teach us to ignore. That investigation belongs to a later chapter. Here, the recognition was enough: my parents had inherited more than opinions. They had inherited a way of deciding what counted as virtue.
 
 My scripture experiment had begun as a narrow test of a religious proposition. I wanted to know whether I had unfairly dismissed a method I had never sincerely tried.
 
@@ -174,29 +126,9 @@ We can ask why prayer, meditation, fasting, confession, pilgrimage, Sabbath, com
 
 We should not assume that practices are equivalent merely because they resemble one another. Christian prayer is not Buddhist meditation. Repentance is not scientific peer review. A congregation is not a research community. These practices emerge from different accounts of reality and pursue different ends.
 
-But different traditions can encounter similar human problems.
+But different traditions can encounter similar human problems—distraction, self-deception, overconfidence, the confusions of belonging and memory, the search for meaning in suffering. Across centuries, people have developed practices intended to help with these conditions. Some turn attention inward. Others turn it toward God, nature, community, evidence, or moral responsibility. Some ask us to empty the mind. Others ask us to fill it with particular words and stories.
 
-We are distracted.
-
-We deceive ourselves.
-
-We become overconfident.
-
-We confuse belonging with truth.
-
-We forget what earlier generations learned.
-
-We avoid difficult conversations.
-
-We search for meaning in suffering.
-
-We need other people, yet other people can reinforce our errors.
-
-Across centuries, people have developed practices intended to help with these conditions. Some turn attention inward. Others turn it toward God, nature, community, evidence, or moral responsibility. Some ask us to empty the mind. Others ask us to fill it with particular words and stories.
-
-The practices are not the same.
-
-The problems sometimes are.
+The practices are not the same. The problems sometimes are.
 
 That possibility changed the question I wanted to ask.
 
@@ -237,3 +169,7 @@ Not with the claim that every tradition is true.
 Not with the hope that their differences can be dissolved.
 
 It begins with the possibility that humanity has spent thousands of years developing practices for seeing more clearly—and that those practices may still have something to teach one another.
+
+[^c1-moroni10]: Moroni 10:4–5 (Book of Mormon): "And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost."
+
+[^c1-sediment-hypothesis]: The link between frontier persecution, cohesion norms, and later difficulty challenging authority is offered here as a working hypothesis for further historical examination—not as settled LDS history. Consultation with an LDS historian is planned before publication.

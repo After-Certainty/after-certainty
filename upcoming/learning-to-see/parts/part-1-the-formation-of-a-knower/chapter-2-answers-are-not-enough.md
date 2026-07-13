@@ -274,7 +274,7 @@ Spirituality often asks what within us resists truth, what practices cultivate a
 
 The questions overlap without becoming the same.
 
-Perhaps epistemic spirituality is one name for the space between them.
+Perhaps epistemic spirituality is one name for the space between them.[^c2-epistemic-spirituality]
 
 It would not be a new religion assembled from useful fragments. It would not ask science to validate spiritual claims or spirituality to fill whatever science has not yet explained.
 
@@ -363,3 +363,5 @@ We need to learn how to see what our habits have trained us to overlook.
 Answers matter.
 
 But answers are not enough.
+
+[^c2-epistemic-spirituality]: Working term under author review; may be renamed before publication.
