@@ -82,7 +82,7 @@ The person is heard.
 
 The perspective is not.
 
-## The promise of the group
+The promise of the group
 
 There are good reasons human beings keep building communities around questions of truth.
 
