@@ -30,25 +30,7 @@ Not because older cultures were wiser in every respect.
 
 Not because spiritual disciplines should be preserved unchanged simply because they survived.
 
-They matter because many of them were developed around human limitations that technological abundance does not remove.
-
-Attention wanders.
-
-Desire expands.
-
-Confidence outruns knowledge.
-
-Communities preserve error.
-
-Work consumes whatever boundaries fail to resist it.
-
-People avoid confession until consequences force acknowledgment.
-
-Grief cannot be solved by information.
-
-Power can make its preferences feel like reality.
-
-These are old problems.
+They matter because many of them were developed around human limitations that technological abundance does not remove—attention that wanders, desire that expands, confidence that outruns knowledge, communities that preserve error, work that consumes whatever boundaries fail to resist it, confession postponed until consequences force acknowledgment, grief that information cannot solve, and power that can make its preferences feel like reality.
 
 Artificial intelligence may alter their scale, speed, and form.
 
@@ -76,9 +58,7 @@ A practice can survive while its purpose is reversed.
 
 The future of wisdom may depend partly on whether we can renew these practices without allowing the systems around us to absorb their challenge.
 
-Silence before content
-
-Silence is often described as the absence of sound.
+Silence before content. Silence is often described as the absence of sound.
 
 As a practice, it is more demanding.
 
@@ -162,9 +142,7 @@ Silence creates no guarantee that this will happen.
 
 It removes one route of escape.
 
-Sabbath and the limit no system chooses for itself
-
-A system organized around production does not discover rest naturally.
+Sabbath and the limit no system chooses for itself. A system organized around production does not discover rest naturally.
 
 It discovers idle capacity.
 
@@ -258,9 +236,7 @@ The boundary must become chosen before the body imposes one through collapse.
 
 Sabbath is one way of practicing that limit before emergency makes it unavoidable.
 
-Meditation without optimization
-
-Meditation has already traveled widely beyond the traditions that preserved it.
+Meditation without optimization. Meditation has already traveled widely beyond the traditions that preserved it.
 
 It appears in schools, clinics, companies, applications, athletic programs, and leadership courses. People use it to reduce stress, improve attention, regulate emotion, and become less reactive.
 
@@ -286,23 +262,7 @@ That may be appropriate when the environment cannot be changed.
 
 It becomes dangerous when the environment is harmful and adaptation protects it.
 
-A renewed practice of meditation should therefore raise two questions at once.
-
-What is happening in my mind?
-
-What is happening around me?
-
-Am I suffering because I am clinging to an outcome I cannot control?
-
-Am I suffering because someone else is exercising control irresponsibly?
-
-Am I amplifying distress through interpretation?
-
-Am I accurately perceiving danger?
-
-Does acceptance release futile struggle?
-
-Or does it make injustice easier to tolerate?
+A renewed practice of meditation should raise two questions at once: what is happening in my mind, and what is happening around me—whether I am suffering from clinging to an outcome I cannot control or from someone else's irresponsible control, whether I am amplifying distress through interpretation or accurately perceiving danger, and whether acceptance releases futile struggle or makes injustice easier to tolerate.
 
 The practice should not answer these questions automatically.
 
@@ -346,9 +306,7 @@ The practice is not only a tool used by the self.
 
 The self is also being examined by the practice.
 
-Prayer after instant answers
-
-Prayer occupies a different relationship to uncertainty.
+Prayer after instant answers. Prayer occupies a different relationship to uncertainty.
 
 It may include silence, praise, gratitude, confession, lament, petition, surrender, contemplation, or the repetition of inherited words.
 
@@ -438,9 +396,7 @@ For believers, God is not a personalized service.
 
 Prayer may help preserve that difference.
 
-Study as submission to difficulty
-
-Study is not the same as information retrieval.
+Study as submission to difficulty. Study is not the same as information retrieval.
 
 Information retrieval asks for what can be extracted.
 
@@ -452,9 +408,7 @@ AI can make study more accessible.
 
 It can define terms, provide context, compare interpretations, and help a reader reenter a passage that has become opaque.
 
-This is how it helped me with scripture.
-
-Without assistance, I would often have stopped because the text did not hold my attention. The tool gave me routes back into it.
+This is how a reading companion helped me with scripture—the same experiment that opened the book. Without assistance, I would often have stopped because the text did not hold my attention. The tool gave me routes back into it.
 
 But assistance can become substitution.
 
@@ -476,15 +430,7 @@ Fast comprehension can preserve the reader's frame.
 
 The unfamiliar material is translated immediately into concepts the reader already knows.
 
-Study asks the person to remain where translation fails.
-
-Why does this term not fit my language?
-
-Why does this argument begin from a concern I would not have prioritized?
-
-Why does the tradition repeat a distinction I am tempted to dismiss?
-
-What would I have to understand about the world of the text before its claim becomes intelligible?
+Study asks the person to remain where translation fails—why a term does not fit my language, why an argument begins from a concern I would not have prioritized, why a tradition repeats a distinction I am tempted to dismiss, and what I would have to understand about the world of the text before its claim becomes intelligible.
 
 The goal is not submission to authority.
 
@@ -502,9 +448,7 @@ The reader may come away knowing what the text resembles without knowing where i
 
 Study should preserve the right of the material to remain difficult where difficulty carries difference.
 
-Confession without performance
-
-Confession may become more necessary as self-presentation becomes easier.
+Confession without performance. Confession may become more necessary as self-presentation becomes easier.
 
 AI can help anyone produce language that sounds reflective.
 
@@ -572,9 +516,7 @@ It cannot perform repentance on behalf of the institution.
 
 That still requires human beings to accept changes they could have avoided by keeping the confession vague.
 
-Ritual against endless novelty
-
-Artificial intelligence accelerates novelty.
+Ritual against endless novelty. Artificial intelligence accelerates novelty.
 
 New images, texts, plans, interpretations, and experiences can be generated constantly. The person need not return to the same thing unless they choose to.
 
@@ -662,9 +604,7 @@ The practice continues through boredom, doubt, grief, and distraction.
 
 It trains a relationship deeper than preference.
 
-Community beyond networking
-
-The language of community has become easy to use and difficult to trust.
+Community beyond networking. The language of community has become easy to use and difficult to trust.
 
 A group of customers is called a community.
 
@@ -756,9 +696,7 @@ Can the community resist using AI to smooth every conflict into acceptable langu
 
 These questions reveal whether the group is becoming a place of formation or merely a channel.
 
-Service without self-erasure
-
-Service appears across religious, civic, and philosophical traditions as a way of orienting the self toward others.
+Service without self-erasure. Service appears across religious, civic, and philosophical traditions as a way of orienting the self toward others.
 
 It can interrupt self-absorption.
 
@@ -820,9 +758,7 @@ It is whether service will remain capable of challenging the systems that create
 
 Otherwise technology may make charity more efficient while leaving justice untouched.
 
-Attention to the body
-
-Intelligence culture can make the body feel secondary.
+Attention to the body. Intelligence culture can make the body feel secondary.
 
 Thought appears to occur in language.
 
@@ -874,9 +810,7 @@ A practice of wisdom should not treat the body merely as infrastructure for inte
 
 The body is part of the life intelligence is supposed to serve.
 
-The discipline of unavailability
-
-To be always available is to allow every external demand to compete continuously for attention.
+The discipline of unavailability. To be always available is to allow every external demand to compete continuously for attention.
 
 Messages arrive at any hour.
 
@@ -1312,9 +1246,7 @@ The insight is not new.
 
 The situation is.
 
-What the future may need from the past
-
-The future does not need the past to provide a finished system.
+What the future may need from the past. The future does not need the past to provide a finished system.
 
 It needs inherited practices strong enough to challenge the future's assumptions.
 
@@ -1366,51 +1298,7 @@ Responsibility that cannot be delegated to a system.
 
 Meaning that is lived rather than generated.
 
-The experiment continues
-
-I began this book with an experiment I had never honestly tried.
-
-Read the scripture.
-
-Ponder it.
-
-Pray.
-
-See what happened.
-
-I expected the result to concern belief.
-
-Instead, the experiment widened into questions about perception, formation, tradition, community, memory, suffering, and wisdom.
-
-It did not return me to the faith of my childhood.
-
-It made the faith harder to reduce to a failed proposition.
-
-It became a way of seeing the people who raised me, the culture that formed me, and the practices through which human beings try to become answerable to more than immediate preference.
-
-The experiment also changed how I use artificial intelligence.
-
-The system became more than a generator of answers.
-
-It became a companion through which I could compare interpretations, expose assumptions, and remain with material I might otherwise abandon.
-
-But the usefulness depended on a boundary.
-
-The machine could help me see.
-
-It could not decide what the seeing required of me.
-
-That question remained human.
-
-It required judgment, memory, relationship, and time.
-
-Perhaps that is where this book arrives.
-
-Not at a final synthesis.
-
-Not at a new spiritual system.
-
-At a renewed respect for practice.
+The experiment continues. I began this book with an experiment I had never honestly tried—read, ponder, pray, and see what happened. It widened into questions about perception, formation, tradition, community, memory, suffering, and wisdom. It did not return me to the faith of my childhood, but it made the faith harder to reduce to a failed proposition and changed how I use artificial intelligence: as a companion in inquiry, not an authority delivering verdicts. The machine could help me see. It could not decide what the seeing required of me.
 
 We become capable of seeing through what we repeatedly do.
 

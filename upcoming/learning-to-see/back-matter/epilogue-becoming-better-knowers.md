@@ -18,15 +18,7 @@ Artificial intelligence can help us see patterns, recover information, compare t
 
 It cannot remove the human task.
 
-We still have to decide what deserves attention.
-
-We still have to distinguish fluency from understanding.
-
-We still have to admit when evidence threatens something we want to preserve.
-
-We still have to remain accountable to the people who carry the consequences of our choices.
-
-We still have to become the kind of people who can use intelligence without mistaking it for wisdom.
+We still have to decide what deserves attention, distinguish fluency from understanding, admit when evidence threatens something we want to preserve, remain accountable to the people who carry the consequences of our choices, and become the kind of people who can use intelligence without mistaking it for wisdom.
 
 This book began with a religious experiment.
 

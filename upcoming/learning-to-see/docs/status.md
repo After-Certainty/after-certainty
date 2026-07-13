@@ -2,9 +2,9 @@
 
 ## Current phase
 
-**Phase 2 — Unit passes (Parts I–III complete; Part IV pending)**
+**Phase 2 — Unit passes complete (all units reviewed)**
 
-Parts I–III units passed rules, echo, editorial, sensitivity, citation, and linkage checks July 2026. Awaiting author review before Part IV.
+All manuscript units passed rules, echo, editorial, sensitivity, citation, and linkage checks July 2026. Awaiting author review before Phase 3 coherence gates.
 
 ## Active branch
 
@@ -27,41 +27,42 @@ Parts I–III units passed rules, echo, editorial, sensitivity, citation, and li
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction — Learning to See | reviewed | Phase 2 pass complete July 2026 |
-| Chapter 1 — The Experiment I Had Never Tried | reviewed | Trimmed sediment preview; footnotes (Moroni 10, sediment hypothesis) |
-| Chapter 2 — Answers Are Not Enough | reviewed | Footnote on "epistemic spirituality" (author decision pending) |
-| Chapter 3 — The Limits of Seeing Alone | reviewed | Sets up Part II |
-| Part I bridge — The Practices We Build Around Our Limits | reviewed | Varied limitations inventory |
-| Chapter 4 — What Attention Makes Visible | reviewed | Five-layer (attention practices) |
+| Introduction — Learning to See | reviewed | Phase 2 complete |
+| Chapter 1 — The Experiment I Had Never Tried | reviewed | Ch 1/13 callback; footnotes (Moroni 10, sediment hypothesis) |
+| Chapter 2 — Answers Are Not Enough | reviewed | Footnote on "epistemic spirituality" |
+| Chapter 3 — The Limits of Seeing Alone | reviewed | |
+| Part I bridge — The Practices We Build Around Our Limits | reviewed | |
+| Chapter 4 — What Attention Makes Visible | reviewed | |
 | Chapter 5 — When Being Wrong Becomes Expensive | reviewed | Footnotes (Popper, Tetlock) |
 | Chapter 6 — Seeing Together | reviewed | Follett footnote |
-| Chapter 7 — Memory, Ritual, and Tradition | reviewed | Five-layer (ritual/memory) |
-| Chapter 8 — Conflict, Confession, and Repair | reviewed | Essayistic transitions |
-| Chapter 9 — Suffering, Meaning, and Moral Imagination | reviewed | Five-layer (lament/accompaniment) |
-| Part II bridge — What Traditions Carry | reviewed | Turns to Part III |
-| Chapter 10 — Cultural Sediment | reviewed | Compressed question lists; LDS/LIS footnote; *Living in Sediment* cross-ref |
-| Chapter 11 — Archaeology Without Contempt | reviewed | Integrated section labels; compressed archaeology questions |
-| Chapter 12 — Integration Without Reduction | reviewed | Compressed limitations echo; trimmed AI preview (bridge expands) |
-| Part III bridge — The Next Scarcity | reviewed | Varied limitations list; Part IV doorway (AI scarcity) |
-| Chapter 13 — When Intelligence Becomes Cheap | draft | Ch 1 callback |
-| Chapter 14 — Ancient Practices, Future Problems | draft | Imported July 2026 |
+| Chapter 7 — Memory, Ritual, and Tradition | reviewed | |
+| Chapter 8 — Conflict, Confession, and Repair | reviewed | |
+| Chapter 9 — Suffering, Meaning, and Moral Imagination | reviewed | |
+| Part II bridge — What Traditions Carry | reviewed | |
+| Chapter 10 — Cultural Sediment | reviewed | LDS/LIS footnote |
+| Chapter 11 — Archaeology Without Contempt | reviewed | |
+| Chapter 12 — Integration Without Reduction | reviewed | |
+| Part III bridge — The Next Scarcity | reviewed | |
+| Chapter 13 — When Intelligence Becomes Cheap | reviewed | Integrated section labels; compressed lists; Ch 1 scripture/AI callback; AI claims footnote |
+| Chapter 14 — Ancient Practices, Future Problems | reviewed | Practice renewal arc; compressed Ch 1 callback (epilogue expands) |
 | Part IV bridge | — | None; Ch 14 → epilogue |
-| Epilogue — Becoming Better Knowers | draft | Imported July 2026 |
+| Epilogue — Becoming Better Knowers | reviewed | Book-level compression; staccato close preserved |
 
-**Phase column values:** `draft` = prose imported, Phase 2 not complete. `reviewed` = agent Phase 2 passes complete; author review pending. `approved` = author sign-off; ready for Part coherence gate.
+**Phase column values:** `reviewed` = agent Phase 2 passes complete; author review pending. `approved` = author sign-off; ready for Part coherence gate.
 
 ## Next actions
 
-1. **Author review** of Parts I–III.
-2. **Phase 3 coherence gates** — Parts I, II, III.
-3. **Phase 2 Part IV** — Chapters 13–14 + epilogue.
+1. **Author review** of full manuscript (all units `reviewed`).
+2. **Phase 3 coherence gates** — Parts I, II, III, IV (bridge continuity, terminology, example distribution).
+3. **Phase 4** — manuscript-wide editorial (LDS thread audit, AI thread, copy edit, citations).
 4. Sync `docs/outline.md` chapter titles with author-chosen titles.
+5. Secure consultation contacts per `open-questions.md`.
 
 ## Open decisions / known issues
 
 - See [`open-questions.md`](open-questions.md).
-- Ch 10 LDS cohesion hypothesis flagged for historian consultation (footnote).
-- Ch 12 AI scarcity preview trimmed; Part III bridge and Ch 13 carry payoff thread.
+- Ch 13 AI capability claims flagged for ethics consultation (footnote).
+- Ch 14 closing compressed; epilogue carries full book-level synthesis.
 
 ## Rough scale
 

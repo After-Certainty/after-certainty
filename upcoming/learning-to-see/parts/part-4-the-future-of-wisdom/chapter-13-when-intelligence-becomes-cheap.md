@@ -76,35 +76,9 @@ The form of intelligence is becoming easier to produce.
 
 The human capacities required to judge, direct, and live responsibly with that intelligence may become more important because of it.
 
-The central question is no longer only:
+The central question is no longer only whether we can generate an answer. It is increasingly what becomes scarce when answers become abundant.
 
-Can we generate an answer?
-
-It is increasingly:
-
-What becomes scarce when answers become abundant?
-
-Intelligence is not one thing
-
-The word intelligence contains several different capacities.
-
-The ability to recognize patterns.
-
-The ability to retrieve and combine information.
-
-The ability to reason from premises.
-
-The ability to generate alternatives.
-
-The ability to explain something clearly.
-
-The ability to adapt when conditions change.
-
-The ability to understand another person.
-
-The ability to know which problem matters.
-
-The ability to act well when values conflict.
+The word intelligence contains several different capacities: recognizing patterns, retrieving and combining information, reasoning from premises, generating alternatives, explaining clearly, adapting when conditions change, understanding another person, knowing which problem matters, and acting well when values conflict.
 
 We often move among these meanings without noticing.
 
@@ -156,8 +130,6 @@ Abundance does not eliminate scarcity.
 
 It moves it.
 
-The answer-shaped object
-
 An AI-generated response usually arrives in the shape of an answer.
 
 It has an opening, distinctions, examples, and a conclusion. It may acknowledge uncertainty. It may offer multiple perspectives. It may sound patient, measured, and complete.
@@ -190,21 +162,7 @@ AI lowers the cost of doing so.
 
 The answer-shaped object becomes abundant.
 
-The user must learn to ask questions that the answer's form may discourage:
-
-What information was available?
-
-What was absent?
-
-Which assumptions organized the response?
-
-Which distinctions were compressed?
-
-What would change the conclusion?
-
-Whose perspective was easy to represent because it already existed in the record?
-
-Who would need to be present before we could call this complete?
+The user must learn to ask what information was available and absent, which assumptions organized the response, which distinctions were compressed, what would change the conclusion, whose perspective was easy to represent because it already existed in the record, and who would need to be present before we could call the answer complete.
 
 These are not merely fact-checking questions.
 
@@ -229,8 +187,6 @@ The incident review with what people knew while the incident was unfolding.
 AI can intensify this confusion because it is extraordinarily capable of working with traces.
 
 The trace becomes fluent enough to feel like the whole.
-
-What the machine can see
 
 When I use AI to prepare for a daily standup, it can gather the work visible to it.
 
@@ -293,8 +249,6 @@ AI expands what can be summarized, classified, and evaluated.
 That expansion may help institutions see more.
 
 It may also produce a more sophisticated form of blindness.
-
-More documentation, less memory
 
 AI can create documentation faster than people can absorb it.
 
@@ -370,8 +324,6 @@ What conditions would make the recommendation fail?
 
 Wisdom in an abundant information environment may depend less on storing everything than on knowing when to descend through the layers.
 
-The disappearance of productive friction
-
 Some forms of difficulty are waste.
 
 Searching for a fact that can be retrieved instantly does not necessarily build character. Reformatting a document manually does not make its argument wiser. Repeating predictable work can consume attention that would be better spent elsewhere.
@@ -432,8 +384,6 @@ AI can help articulate these questions.
 
 It cannot make the answers costless.
 
-Simulated humility
-
 Artificial intelligence can produce humble language.
 
 It can say that a conclusion is provisional.
@@ -489,8 +439,6 @@ Integration can become a paragraph in which every side receives respectful langu
 The form may support the practice.
 
 It may also allow people to perform the practice without surrendering anything.
-
-The machine that agrees
 
 An AI system can challenge a user.
 
@@ -548,25 +496,13 @@ This is why AI literacy cannot be only technical.
 
 People need to understand not merely how to obtain better outputs, but what kinds of selves their use of the tool is reinforcing.
 
-Am I becoming more curious?
-
-More dependent on fluent confirmation?
-
-More willing to revise?
-
-More impatient with anything that cannot be summarized quickly?
-
-More attentive to missing perspectives?
-
-More confident because I have generated more reasons?
+Am I becoming more curious, more willing to revise, more attentive to missing perspectives—or more dependent on fluent confirmation, more impatient with anything that cannot be summarized quickly, more confident because I have generated more reasons?
 
 The tool participates in formation.
 
 Not because it possesses a spiritual intention.
 
 Because repeated use becomes habit, and habit trains attention.
-
-Borrowed authority
 
 An answer produced by AI can carry authority without having a clear author.
 
@@ -596,17 +532,7 @@ Institutions will need to resist this ambiguity.
 
 A machine can contribute analysis.
 
-Someone must still own the judgment.
-
-Who verified the facts?
-
-Who understood the context?
-
-Who chose the tradeoff?
-
-Who will experience the consequences?
-
-Who can explain why this recommendation was followed?
+Someone must still own the judgment: who verified the facts, who understood the context, who chose the tradeoff, who will experience the consequences, and who can explain why this recommendation was followed.
 
 The need for ownership does not disappear because the analysis was generated collectively between person and system.
 
@@ -631,8 +557,6 @@ They will want to know who is answerable.
 Responsibility is a relationship.
 
 It cannot be replaced by provenance alone.
-
-Intelligence and the selection of problems
 
 One of the most consequential forms of judgment occurs before any answer is generated.
 
@@ -682,23 +606,11 @@ The result is not irrational.
 
 The missing question was never represented.
 
-Wisdom therefore includes the ability to pause before optimization.
-
-What are we assuming must continue?
-
-Who defined success?
-
-Which cost is being treated as external?
-
-What human experience has become a variable?
-
-What would the problem look like from the position of the person with the least power to frame it?
+Wisdom therefore includes the ability to pause before optimization: What are we assuming must continue? Who defined success? Which cost is being treated as external? What human experience has become a variable? What would the problem look like from the position of the person with the least power to frame it?
 
 These questions do not make optimization impossible.
 
 They make it answerable to a larger reality.
-
-The scarcity of attention
 
 When content becomes abundant, attention becomes more contested.
 
@@ -768,8 +680,6 @@ They create spaces where attention is not allocated only by usefulness, novelty,
 
 They remind the person that what matters may not arrive as the most optimized signal.
 
-The scarcity of judgment
-
 Judgment is the capacity to act under conditions where rules, evidence, and values do not produce one automatic conclusion.
 
 The facts may be incomplete.
@@ -832,8 +742,6 @@ But many decisions remain choices even when every available choice is constraine
 
 Wisdom includes the willingness to carry responsibility for what could not be preserved.
 
-The scarcity of courage
-
 Sometimes people already know what should be done.
 
 The problem is not analysis.
@@ -881,8 +789,6 @@ Will the institution preserve the inconvenient record?
 Will the person accept a boundary?
 
 Courage lives where language stops being sufficient.
-
-The scarcity of responsibility
 
 A generated answer can make work feel complete before responsibility has begun.
 
@@ -944,8 +850,6 @@ This is one reason maintenance has moral importance.
 
 It keeps intelligence connected to the world after the answer leaves the screen.
 
-The scarcity of meaning
-
 AI can generate stories about meaning.
 
 It can offer interpretations of suffering, explain traditions, compose prayers, and help a person articulate values.
@@ -983,8 +887,6 @@ Meaning cannot be handed over complete because meaning concerns what a life is o
 AI can participate in the conversation.
 
 The organization still happens through living.
-
-The scarcity of trustworthy community
 
 A person surrounded by generated intelligence may need other people more, not less.
 
@@ -1037,8 +939,6 @@ Communities will need norms for these questions.
 Not merely policies about permitted tools.
 
 Practices for remaining humanly accountable while cognition becomes distributed.
-
-AI as a practice of seeing
 
 My use of AI while reading scripture taught me something I did not expect.
 
@@ -1096,8 +996,6 @@ The machine made intelligence more available.
 
 It did not make self-knowledge automatic.
 
-Wisdom as a relationship to intelligence
-
 Wisdom is sometimes described as intelligence plus experience.
 
 That is part of it.
@@ -1150,8 +1048,6 @@ They are not remnants from a world with less information.
 
 They may be disciplines for remaining humanly responsible in a world with more.
 
-The danger of turning wisdom into a feature
-
 Once wisdom is recognized as scarce, the market will attempt to produce it.
 
 Tools will promise better judgment, deeper reflection, emotional insight, ethical guidance, and personalized spiritual practice.
@@ -1189,8 +1085,6 @@ The danger is believing that the capacity resides in the delivery mechanism.
 A feature can make a practice available.
 
 Only a life can make the practice formative.
-
-Cheap intelligence and expensive truth
 
 Intelligence becomes cheap in an uneven sense.
 
@@ -1237,8 +1131,6 @@ The hardest part of truth has never been only discovering it.
 It is allowing truth to alter what we love, reward, preserve, and do.
 
 That cost remains.
-
-The human task after abundance
 
 The AI workshop presentation improved when I added what the record could not see.
 
@@ -1302,25 +1194,7 @@ Not because the past predicted artificial intelligence.
 
 Not because every old tradition contains a hidden solution to a modern technical problem.
 
-Because the human limitations those traditions confronted remain.
-
-Distraction.
-
-Pride.
-
-Self-deception.
-
-Forgetfulness.
-
-Isolation.
-
-Fear.
-
-The need for belonging.
-
-The temptation to confuse power with truth.
-
-The difficulty of living according to what we claim to know.
+Because the human limitations those traditions confronted remain—distraction, pride, self-deception, forgetfulness, isolation, fear, the need for belonging, and the temptation to confuse power with truth.
 
 The final chapter turns toward those practices once more.
 
@@ -1333,3 +1207,5 @@ Can they preserve spaces where human beings remain answerable to realities no ma
 Intelligence may become cheap.
 
 Formation does not.
+
+[^c13-ai-claims]: Claims about AI capabilities and limits in this chapter are offered at draft stage; avoid unsupported "never" predictions. AI ethics consultation planned before publication-oriented revision.
