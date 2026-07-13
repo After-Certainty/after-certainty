@@ -53,9 +53,6 @@
 - Nickerson, Raymond S. "Confirmation Bias."
   *Review of General Psychology* 2, no. 2 (1998): 175–220.
 
-- Perrow, Charles. *Normal Accidents*.
-  Princeton, NJ: Princeton University Press, 1984.
-
 - Ross, Lee. "The Intuitive Psychologist and His Shortcomings."
   *Advances in Experimental Social Psychology* 10 (1977): 173–220.
 
@@ -67,9 +64,6 @@
 
 - Standage, Tom. *The Victorian Internet*.
   New York: Walker & Company, 1998.
-
-- Suchman, Mark C. "Managing Legitimacy: Strategic and Institutional Approaches."
-  *Academy of Management Review* 20, no. 3 (1995): 571–610.
 
 - Tajfel, Henri, and John C. Turner. "The Social Identity Theory of Intergroup Behavior."
   In *Psychology of Intergroup Relations*, edited by Stephen Worchel and William G. Austin, 7–24. Chicago: Nelson-Hall, 1979.

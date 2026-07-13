@@ -6,7 +6,7 @@ Most books about communication begin after the trouble is already visible. They 
 
 Before anyone decides what a sentence means, something has already arrived: a tone, a hesitation, a glance, a silence, a history. The mind begins assembling a story before the words are finished. Under pressure, that story tightens quickly. What felt tentative to one person can feel settled to another. What began as an impression can become a plan, a record, or a judgment before anyone notices that meaning has moved.
 
-I wrote this book because these moments are ordinary and consequential. They happen in kitchens, meetings, text threads, and institutions—anywhere people must act before understanding is complete. We often explain them too late, after motives have been assigned and positions defended. I wanted to stay with the earlier movement: what arrives first, what gets filled in, what hardens, and what still allows a reading to change.
+I wrote this book because these moments are ordinary and consequential. They happen in homes and neighborhoods, between partners and friends, inside shared community problems, and in institutions—anywhere people must act before understanding is complete. We often explain them too late, after motives have been assigned and positions defended. I wanted to stay with the earlier movement: what arrives first, what gets filled in, what hardens, and what still allows a reading to change.
 
 This is not a manual for preventing misunderstanding. No method can keep meaning from moving. It is a lens for noticing the movement sooner, especially when certainty begins to outrun contact.
 

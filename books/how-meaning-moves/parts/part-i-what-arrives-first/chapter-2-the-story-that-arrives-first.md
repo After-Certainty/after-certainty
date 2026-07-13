@@ -110,7 +110,9 @@ When compression hardens, people often respond by adding more explanation. They 
 
 Contact requires something more difficult: returning to the point at which the story became more complete than the evidence. It means asking not only *What else should I explain?* but *What have I already decided this explanation must mean?*
 
-Without that return, more detail can make the story harder rather than softer. New information is sorted into what the listener already believes. Clarification becomes evidence of defensiveness. Precision becomes proof of control. Silence becomes proof that the conclusion was right all along.[^c2-sensemaking-and-motivated-reasoning] Three days later, the thread still looked harmless on the screen. Mara's careful message. Leo's measured reply. Her *ok*.
+Without that return, more detail can make the story harder rather than softer. New information is sorted into what the listener already believes. Clarification becomes evidence of defensiveness. Precision becomes proof of control. Silence becomes proof that the conclusion was right all along.[^c2-sensemaking-and-motivated-reasoning] The trip was not the only plan accumulating ambiguity between them. Leo had mentioned his sister's visit the following week—a Saturday dinner Mara had not agreed to, only said she would think about. The distinction would matter later, when a calendar entry and a text thread could each tell a different story about what had been decided.
+
+Three days later, the thread still looked harmless on the screen. Mara's careful message. Leo's measured reply. Her *ok*.
 
 Nothing in the transcript contained the kitchen argument. Nothing required one. The words did not preserve the typing indicator that appeared and disappeared, the hour of night, the trip's accumulated tension, or the half-second in which Leo's chest tightened and one possible meaning crowded out the others. The record showed what each person had sent. It did not show what each person had completed.
 

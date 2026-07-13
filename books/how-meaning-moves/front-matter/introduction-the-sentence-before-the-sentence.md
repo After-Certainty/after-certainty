@@ -24,6 +24,10 @@ The meeting ended. Nora's notes circulated that afternoon. The revised plan appe
 
 The sentence had.
 
+The same movement appears in very different kinds of connection. At home, Mara and Leo carry old meanings into new plans. In a neighborhood school, James and Rachel discover how quickly shared concern can turn into opposing judgments. At work, Philip, Anna, and Nora watch tentative language become records, plans, and consequence.
+
+The book follows all three because intimacy, civic responsibility, and authority change the weight a sentence carries without changing the underlying movement.
+
 Most books about communication begin after moments like this. They begin when the misunderstanding has become visible, when someone feels misrepresented, when two people are defending different versions of what happened. They ask how the speaker might have been clearer or how the listener might have listened more carefully. Those questions matter. They also arrive late.
 
 Long before anyone accuses another person of misunderstanding, meaning has already begun to move. A tone registers. A pause becomes hesitation. A careful phrase sounds like doubt. A passing comment from someone with authority becomes permission, then direction, then history. People complete what was left unsaid because work, relationships, and institutions cannot wait indefinitely for perfect understanding.
@@ -40,7 +44,7 @@ Once meaning feels settled, reopening it becomes difficult. New information is h
 
 That is where this book begins: not with the final misunderstanding, but with the earlier movement that made it possible.
 
-The chapters ahead follow meaning through meetings, text threads, kitchens, plans, and records. They look at what arrives before words are fully processed, how people fill gaps quickly enough to keep acting, and why leaving an interpretation unfinished can be both necessary and costly. They also ask what authority, conflict, history, and institutional pace do to meanings that were provisional when they first appeared.
+The chapters ahead follow meaning through kitchens, neighborhood meetings, text threads, plans, and records. They look at what arrives before words are fully processed, how people fill gaps quickly enough to keep acting, and why leaving an interpretation unfinished can be both necessary and costly. They also ask what authority, conflict, history, and institutional pace do to meanings that were provisional when they first appeared.
 
 The aim is not to eliminate interpretation. Human beings cannot wait for complete knowledge before responding to one another. We notice, infer, compress, and act because life requires it.
 

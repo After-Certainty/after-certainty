@@ -162,7 +162,11 @@ Neither person withdrew dramatically. That is rarely how relational distance beg
 
 The next morning, the cones appeared. James arrived early to help place them. For the first several days, the plan seemed to work. At the back gate, the change redirected a small line of cars toward a curb that had not been part of the diagram. Rachel took a photograph and sent it privately to the chair.
 
-Meaning had traveled beyond the library. James's urgency now shaped how Rachel expected her evidence to be heard. Rachel's resistance shaped how James expected her future concerns to arrive. What settled in one room became the signal people prepared to recognize in the next.
+Meaning had traveled beyond the library. James's urgency now shaped how Rachel expected her evidence to be heard. Rachel's resistance shaped how James expected her future concerns to arrive.
+
+The vote had included a review after two weeks. The chair's summary said the group would gather feedback during that period. No date appeared on the calendar. No message went out to families who used the back entrance. The review existed in the decision the way a promise exists in a hurried goodbye—real enough to have been spoken, not yet real enough to require anyone's evening.
+
+Rachel noticed the gap on the parent-group thread and said nothing. James noticed it too and told himself the front lane was working. Both were already living inside what the first meeting had made of them.
 
 ### **Core Principle: Meaning Shifts Under Pressure**
 
