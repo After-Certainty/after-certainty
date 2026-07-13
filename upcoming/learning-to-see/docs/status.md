@@ -4,7 +4,7 @@
 
 **Phase 1 — Manuscript draft (prose complete)**
 
-Intro, Chapters 1–14, and epilogue imported July 2026. Part bridges remain outline stubs.
+Intro, Chapters 1–14, epilogue, and Part I bridge imported July 2026. Part II–IV bridges remain outline stubs.
 
 ## Active branch
 
@@ -28,11 +28,11 @@ Intro, Chapters 1–14, and epilogue imported July 2026. Part bridges remain out
 | Unit | Phase | Notes |
 |------|-------|-------|
 | Introduction — Learning to See | draft | Imported July 2026 |
-| Part I bridge | outline | Scaffold stub |
+| Part I bridge | draft | Imported July 2026; author title: The Practices We Build Around Our Limits |
 | Chapter 1 — The Experiment I Had Never Tried | draft | Imported July 2026 |
 | Chapter 2 — Answers Are Not Enough | draft | Imported July 2026 |
 | Chapter 3 — The Limits of Seeing Alone | draft | Imported July 2026; author title (was outline: What the Mirror Cannot Show) |
-| Part II bridge | draft | Imported July 2026; author title: The Practices We Build Around Our Limits |
+| Part II bridge | outline | Scaffold stub |
 | Chapter 4 — What Attention Makes Visible | draft | Imported July 2026; author title (was outline: Learning What to Notice) |
 | Chapter 5 — When Being Wrong Becomes Expensive | draft | Imported July 2026; author title (was outline: The Defenses We Build) |
 | Chapter 6 — Seeing Together | draft | Imported July 2026; author title (was outline: Wisdom Is Social) |
@@ -65,4 +65,4 @@ Intro, Chapters 1–14, and epilogue imported July 2026. Part bridges remain out
 
 - Manuscript words (target): ~55,000–70,000
 - Outline scaffold complete: July 2026
-- Current manuscript words: Intro + Ch 1–14 + epilogue + Part II bridge drafted; Part I, III, IV bridges outline
+- Current manuscript words: Intro + Part I bridge + Ch 1–14 + epilogue drafted; Part II–IV bridges outline
