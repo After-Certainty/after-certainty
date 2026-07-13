@@ -4,7 +4,7 @@
 
 **Phase 1 — Manuscript draft (prose complete)**
 
-Intro, Chapters 1–14, epilogue, and Part I bridge imported July 2026. Part II–IV bridges remain outline stubs.
+Intro, Chapters 1–14, epilogue, and Part I–III bridges imported July 2026. Part IV bridge remains outline stub.
 
 ## Active branch
 
@@ -39,7 +39,7 @@ Intro, Chapters 1–14, epilogue, and Part I bridge imported July 2026. Part II�
 | Chapter 7 — Memory, Ritual, and Tradition | draft | Imported July 2026; author title (was outline: What Must Be Repeated) |
 | Chapter 8 — Conflict, Confession, and Repair | draft | Imported July 2026; author title (was outline: Being Right Is Not Enough) |
 | Chapter 9 — Suffering, Meaning, and Moral Imagination | draft | Imported July 2026; author title (was outline: When Explanation Is Not Enough) |
-| Part III bridge | outline | Scaffold stub |
+| Part III bridge | draft | Imported July 2026 |
 | Chapter 10 — Cultural Sediment | draft | Imported July 2026; coordinate with *Living in Sediment* |
 | Chapter 11 — Archaeology Without Contempt | draft | Imported July 2026 |
 | Chapter 12 — Integration Without Reduction | draft | Imported July 2026 |
@@ -65,4 +65,4 @@ Intro, Chapters 1–14, epilogue, and Part I bridge imported July 2026. Part II�
 
 - Manuscript words (target): ~55,000–70,000
 - Outline scaffold complete: July 2026
-- Current manuscript words: Intro + Part I bridge + Ch 1–14 + epilogue drafted; Part II–IV bridges outline
+- Current manuscript words: Intro + Part I & III bridges + Ch 1–14 + epilogue drafted; Part II & IV bridges outline
