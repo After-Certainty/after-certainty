@@ -2,19 +2,19 @@
 
 I heard the words long before I understood them.
 
-Every Sunday in the church of my childhood, young men knelt at a table and repeated one of two prayers over bread and water. The wording was fixed. If someone skipped a phrase or changed a word, a bishop might ask him to begin again.
+In a Christian congregation I visited as an adult, the Eucharistic prayer followed the same sequence every week. Certain phrases returned. The congregation knew when to kneel, when to respond, and when silence was expected. The form separated these minutes from everything that came before and after them.
 
-As a child, I experienced the repetition mostly as waiting.
+As a visitor, I experienced the repetition mostly as watching.
 
-I knew when to bow my head. I knew when the trays would move through the rows. I knew how quickly to take the bread and pass the tray to the person beside me. The adults became quiet in a way that made the room feel different from the rest of the meeting. A familiar sequence separated these minutes from everything that came before and after them.
+I could see when people bowed their heads and how the elements moved through the room. I did not share the theology that made the ritual authoritative for those present. Yet the repetition was already doing work before I could explain it.
 
-The practice carried ideas I was too young to explain: covenant, sacrifice, remembrance, the body of Christ, a promise to take a name upon oneself and continue remembering.
+The practice carried ideas the children in the room were too young to articulate: sacrifice, remembrance, covenant, the body of Christ, dependence on a story older than anyone present.
 
-But the ritual did not wait for my understanding before beginning to shape me.
+But the ritual did not wait for full understanding before beginning to shape bodies and weeks.
 
-My body learned the sequence. The week paused. A story older than anyone in the room returned through the same words.
+Bodies learned the sequence. The week paused. A story older than anyone in the room returned through the same words.
 
-Years later, after I no longer believed the theology, the ritual remained unexpectedly available to memory. I could still anticipate the rhythm of the prayer. I remembered the polished trays, the small pieces of bread, the careful silence, and the seriousness that settled over a familiar room while it performed something it had done many times before.
+Years later, I still remembered the rhythm of the room: polished vessels, small portions, careful silence, and the seriousness that settled over a familiar space while it performed something it had done many times before.
 
 I once assumed repetition was what happened when a tradition had nothing new to say.
 
@@ -22,7 +22,7 @@ Now I wonder whether repetition was the point.
 
 The prayer was not repeated because everyone had forgotten the story since the previous Sunday. It was repeated because remembering something as information is not the same as allowing it to organize a life.
 
-Everyone in the room already knew what the sacrament represented. The ritual returned them to the claim anyway.
+The congregation already knew what the meal represented. The ritual returned them to the claim anyway.
 
 This is one of the first things tradition understands about human beings:
 
@@ -322,39 +322,19 @@ Identity becomes difficult to distinguish from morality.
 
 The original problem fades, while the solution continues shaping what the community notices and what it is willing to question.
 
-My theory about conflict avoidance and respect for authority in Utah Mormon culture belongs somewhere within this pattern.
+A community under pressure may develop responses that outlive the conditions that first made them necessary.
 
-The early Latter-day Saint community experienced persecution, displacement, migration, isolation, and the demands of building settlements under difficult conditions. Internal cohesion may have been more than a spiritual preference. It may have been part of collective survival.
+Respect for leaders may become difficult to separate from faithfulness.
 
-Respect for leaders could make coordinated movement possible.
+Avoiding conflict may become evidence of goodness.
 
-Conflict restraint could reduce fragmentation.
-
-A strong story of shared sacrifice could help people endure conditions that individuals might not have accepted alone.
-
-Those practices should not be reduced to manipulation merely because later generations can see their costs.
-
-They may have helped a vulnerable community survive.
-
-But culture remembers the behavior more easily than the conditions that made the behavior necessary.
+A person who challenges authority may be heard not only as disagreeing but as threatening the unity through which the community remembers itself surviving.
 
 The crisis changes.
 
 The practice remains.
 
-Respect for authority may become difficult to separate from faithfulness.
-
-Avoiding conflict may become evidence of goodness.
-
-A person who challenges a leader may be heard not only as disagreeing but as threatening the unity through which the community remembers itself surviving.
-
-The old danger enters the present through the emotional meaning of the response, even when the material conditions are entirely different.
-
-This does not explain every feature of Latter-day Saint culture. It may not explain the pattern as fully as I suspect. Frontier settlement, American religious history, family structure, institutional design, theology, regional culture, and many other forces overlap.
-
-The value of the hypothesis is not that it settles the history.
-
-It asks a better question than simply declaring the present behavior irrational.
+This pattern appears in many inherited cultures. A fuller account of how cohesion norms become sediment in one American religious community belongs in Chapter 10. Here the question is general:
 
 What problem might this have been solving?
 
@@ -402,41 +382,21 @@ But abandonment should not be confused with transcendence.
 
 We may leave a practice and remain governed by the need it once organized.
 
-This became visible to me after leaving the church.
+This often becomes visible after leaving a religious community. A person may no longer accept the authority of scripture, revelation, or institutional leadership. But the scripts remain.
 
-I no longer believed in the authority of scripture, priesthood, revelation, or the institution that had organized my childhood. But I did not become culturally unformed.
+Conflict can still feel dangerous.
 
-The scripts remained.
+Authority can still receive more interpretive generosity than dissent.
 
-Conflict could still feel dangerous.
+Endurance can still feel morally superior to naming a limit.
 
-Authority could still receive more interpretive generosity than dissent.
+A person may have left the explicit tradition while continuing to perform parts of it without recognizing them as tradition.
 
-Endurance could still feel morally superior to naming a limit.
+What felt like personality may be cultural memory moving through a person.
 
-I had left the explicit tradition while continuing to perform parts of it without recognizing them as tradition.
+The present conversation is rarely only present.
 
-This is one reason returning to scripture affected me even without restoring belief.
-
-The text gave some of those scripts a visible history.
-
-Phrases I had absorbed through family and community appeared in a larger moral world. I could see that my parents had not invented their language of sacrifice, obedience, agency, trials, service, and eternal family. They had inherited it, practiced it, and passed it on partly because it helped them make sense of life.
-
-Seeing the inheritance did not make every script desirable.
-
-It made the scripts less private.
-
-What I had interpreted as personality became cultural memory moving through a person.
-
-That realization softened some judgments and sharpened others.
-
-It became easier to understand why my parents saw certain choices as dangerous or certain forms of loyalty as sacred.
-
-It also became easier to see why disagreement could not always enter the relationship as ordinary difference. It arrived carrying generations of meaning about covenant, family continuity, spiritual responsibility, and loss.
-
-The present conversation was rarely only present.
-
-Tradition was in the room.
+Tradition can remain in the room.
 
 Tradition is often described as though it were the opposite of change.
 
@@ -568,11 +528,7 @@ These questions do not guarantee agreement.
 
 They keep tradition available for discernment rather than forcing us to choose between worship and contempt.
 
-I no longer participate in the weekly sacrament ritual of my childhood.
-
-I do not believe what I once was expected to believe about its authority or metaphysical meaning.
-
-But I understand the repetition differently now.
+A ritual I no longer perform can still clarify what repetition was doing for those who remain inside it.
 
 It was not merely a congregation saying the same words again.
 

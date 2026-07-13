@@ -122,33 +122,17 @@ It refines selectivity around a purpose.
 
 That purpose should remain visible.
 
-When I returned to scripture, I initially treated attention as a problem of endurance. How could I stay with a text that bored me? How could I prevent my mind from sliding past whole pages while my eyes continued moving?
+Any reader approaches a sacred text through an attention already shaped by a life. A reading companion can make the passage easier to enter. It also makes some themes easier to notice and others harder to see.
 
-A reading companion helped by identifying passages that might connect to questions I already cared about. That made the reading easier. It also shaped what I found.
-
-I noticed texts about uncertainty, pride, authority, responsibility, conflict, endurance, and the limits of human understanding because those were the themes I brought with me. Someone else might have noticed prophecy, covenant, redemption, obedience, family, divine love, or the unfolding of a sacred history.
-
-Neither of us would simply be reading what was there.
-
-We would be reading through trained concern.
+Someone focused on uncertainty and authority may find texts about power, limitation, and conflict. Another reader may find prophecy, covenant, or redemption. Neither is simply receiving what is there without interpretation. They are reading through trained concern.
 
 This does not mean the text can mean anything. Words constrain interpretation. Historical context matters. Genre matters. Communities preserve arguments about what a passage has meant and what it can responsibly be made to say.
 
-But no reader approaches without an attention already shaped by a life.
+But a reader's prior resistance can hide what the text has formed in others. Expecting boredom, certainty, or institutional authority, they may find those features readily—and miss the moral world the text helped other people inhabit.
 
-My earlier reading of scripture had been shaped partly by resistance. I expected boredom, certainty, and claims of authority. I found them readily. They were not imaginary.
+The text has not changed.
 
-What surprised me was not that I had been wrong about their presence.
-
-It was that those features had occupied enough of my attention to make other things harder to see.
-
-I had not read the text as something that had formed people I loved.
-
-Once that question became visible, familiar phrases changed weight. I began noticing how scripture supplied my parents with a language for perseverance, service, gratitude, sacrifice, and hope. I also saw more clearly how the same language could make conflict, doubt, or personal boundaries difficult to express.
-
-The text had not changed.
-
-The trained question had.
+The trained question has.
 
 This is one reason attention cannot be understood as neutral openness.
 
@@ -302,7 +286,7 @@ Once we see what a practice gives someone, we may become reluctant to examine wh
 
 Attention can widen and narrow in the same movement.
 
-I experienced this when thinking about conflict avoidance in the Mormon culture of my upbringing. From one angle, the pattern seemed clearly limiting. From another, attending to historical conditions suggested why cohesion and conflict restraint might once have been genuinely adaptive for a persecuted and displaced community. That does not make every later expression wise. It changes what the pattern becomes available to mean—and the full investigation belongs to a later chapter on cultural sediment. Contempt sees only the obsolete behavior. Romanticism sees only the ancestral wisdom. Attention holds the adaptation and the sediment together long enough to ask what remains alive in each.
+I have seen this when examining inherited community patterns. From one angle, conflict avoidance may look clearly limiting. From another, attending to historical conditions suggests why cohesion might once have been genuinely adaptive for a threatened community. That does not make every later expression wise. It changes what the pattern becomes available to mean—and a fuller investigation of cultural sediment belongs in Part III. Contempt sees only the obsolete behavior. Romanticism sees only the ancestral wisdom. Attention holds the adaptation and the sediment together long enough to ask what remains alive in each.
 
 This kind of attention is morally demanding because it delays the relief of a single story.
 

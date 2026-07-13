@@ -648,27 +648,19 @@ The conversation still changed us.
 
 Integration can deepen understanding without producing one conclusion.
 
-This matters personally because my experiment with scripture did not lead me back to belief.
+Integration can deepen understanding without producing one conclusion.
 
-If integration required synthesis, the experiment failed.
+When two worldviews resist synthesis, the question is not always which one should win.
 
-I did not combine Mormon theology and secular skepticism into a new system that resolved their disagreement.
+What may change is the relationship among the perspectives.
 
-What changed was the relationship among the perspectives.
+A text regarded as failed revelation may become visible as a historical, cultural, and moral world through which people learned to see.
 
-Scripture became more than a failed source of revelation.
+Skepticism may become a discipline that also needs examination, revealing its own habits of attention and forms of identity protection.
 
-It became a historical, cultural, moral, and familial world through which people I love learned to see.
+The perspectives do not merge.
 
-My skepticism became more than refusal.
-
-It became a discipline that also needed examination.
-
-I could recognize that disbelief had its own habits of attention and forms of identity protection.
-
-The perspectives did not merge.
-
-They became capable of correcting simpler versions of one another.
+They may become capable of correcting simpler versions of one another.
 
 That is enough.
 
@@ -896,27 +888,7 @@ The most valuable exchanges do not always provide answers.
 
 They change what we think the question is.
 
-I began with a question about whether a religious promise worked.
-
-Read.
-
-Ponder.
-
-Pray.
-
-Receive confirmation.
-
-I expected the result to be belief or continued disbelief.
-
-The experiment changed the question.
-
-What does a practice reveal when it does not produce the outcome its tradition predicts?
-
-What kinds of truth can become visible without resolving the metaphysical claim?
-
-How do inherited texts shape the people who raised us?
-
-What does skepticism protect, and what might it prevent us from noticing?
+The book began with an experiment in sincerity that did not settle the metaphysical claims at stake. It shifted the question: What does a practice reveal when it does not produce the outcome its tradition predicts? What kinds of truth become visible without resolving the disagreement? How do inherited texts shape the people who raised us? What does skepticism protect, and what might it prevent us from noticing?
 
 The experiment did not synthesize faith and disbelief.
 

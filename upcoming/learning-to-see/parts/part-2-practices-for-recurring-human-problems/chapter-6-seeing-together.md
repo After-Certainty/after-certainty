@@ -118,9 +118,9 @@ Someone drew a distinction between insight and temptation, revelation and imagin
 
 The community provides the categories through which the private experience becomes intelligible.
 
-In the church of my childhood, testimony occupied an important place.
+In many congregations, public testimony occupies an important place.
 
-People stood before the congregation and described what they believed, what they had experienced, and what they felt God had made known to them. The form was personal. A person spoke from inside their own life.
+People stand before the community and describe what they believe, what they have experienced, and what they feel God has made known to them. The form is personal. A person speaks from inside their own life.
 
 Yet the language was also communal.
 
@@ -600,15 +600,15 @@ Its prohibitions survive.
 
 Its ways of assigning credibility survive.
 
-I left the Mormon church at sixteen, but leaving belief did not remove every pattern the culture had taught me.
+Leaving belief does not remove every pattern the culture taught.
 
-Respect for authority could persist after the authority itself lost theological legitimacy.
+Respect for authority can persist after the authority itself has lost the legitimacy that once anchored it.
 
-Conflict could still feel morally dangerous.
+Conflict can still feel morally dangerous.
 
-Disagreement could still register as a threat to relationship rather than a normal feature of collective thought.
+Disagreement can still register as a threat to relationship rather than a normal feature of collective thought.
 
-The community continued shaping what I noticed long after I no longer considered myself part of it.
+The community continues shaping what we notice long after we no longer consider ourselves part of it.
 
 This is another reason personal independence is incomplete.
 
@@ -616,7 +616,7 @@ We carry internal communities.
 
 Parents, teachers, leaders, critics, traditions, and former selves continue participating in the conversation. A person making a decision alone may still be negotiating with an inherited audience.
 
-What would my family think?
+What would the people who formed me think?
 
 What kind of person does this make me?
 

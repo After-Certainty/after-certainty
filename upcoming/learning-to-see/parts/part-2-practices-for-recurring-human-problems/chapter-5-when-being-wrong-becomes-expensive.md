@@ -408,9 +408,9 @@ Context matters.
 
 No single vocabulary should be allowed to erase the other.
 
-My own upbringing gave humility a particular moral weight.
+Some religious cultures give humility a particular moral weight.
 
-In the Latter-day Saint culture I knew, humility was often connected to teachability, obedience, prayer, deference to spiritual authority, and willingness to place personal understanding beneath divine direction. At its best, this posture could protect against arrogance. It reminded people that intelligence, status, and personal desire did not make them the center of reality.
+Humility may be connected to teachability, obedience, prayer, deference to spiritual authority, and willingness to place personal understanding beneath divine direction. At its best, this posture can protect against arrogance. It reminded people that intelligence, status, and personal desire did not make them the center of reality.
 
 It could also make disagreement difficult to interpret.
 
@@ -432,15 +432,7 @@ Disagreement may demonstrate the need for more humility.
 
 The practice becomes difficult to test because every result can preserve the authority of the original interpretation.
 
-My concern about prayer emerged partly from this structure.
-
-If I prayed and felt confirmation, that could be treated as evidence that the promise worked.
-
-If I prayed and felt nothing, the absence could be attributed to my lack of belief, intent, patience, worthiness, or willingness to act on the answer.
-
-How could I distinguish an honest experiment from one whose conditions moved whenever the expected result failed to appear?
-
-That question did not disappear when I tried the practice.
+The same structure can appear in skeptical refusal.
 
 But the experiment revealed that skepticism also has protective loops.
 
@@ -478,13 +470,13 @@ It can show where I am curious and where I am merely waiting for reality to conf
 
 But experiments involving a person are not clean.
 
-A diet changes because the person knows they are dieting. A meditation practice changes as the practitioner learns what to expect. Prayer cannot be repeated under identical internal conditions. Reading scripture at forty-six is not the same act as reading it at fourteen. The person performing the experiment becomes part of the result.
+A diet changes because the person knows they are dieting. A meditation practice changes as the practitioner learns what to expect. Practices involving prayer or revelation cannot be repeated under identical internal conditions. The person performing the experiment becomes part of the result.
 
 This makes humility more important, not less.
 
 We cannot always isolate a conclusion.
 
-We can become more precise about what occurred. I did not receive a testimony, but I did encounter parts of the text differently. I did not become a believer, but I did recognize parts of my cultural inheritance that had remained invisible. I cannot prove that prayer connects a person to God, but I can observe that prayer may organize attention, language, hope, dependence, and interpretation in ways that deserve examination.
+We can become more precise about what occurred. An experiment may fail to produce the outcome a tradition predicts while still revealing habits of attention, inherited language, or forms of refusal that deserve examination.
 
 These statements are less satisfying than a verdict.
 

@@ -53,8 +53,8 @@ Reader goal: Ask what becomes scarce when answers become abundant—and whether 
 
 [Series guide](../../docs/series-guide.md) · Practice / Wisdom cluster
 
-- [What We Cannot See](../books/what-we-cannot-see/index.md) — Why perspective is partial; bias, judgment, and integration as civilizational adaptation
-- [After Certainty](../books/after-certainty/index.md) — How to live and judge when understanding is not enough
-- [Living in Sediment](../books/living-in-sediment/index.md) — How structures outlive the constraints that produced them
-- [How Meaning Moves](../books/how-meaning-moves/index.md) — How meaning forms before disagreement begins
-- [The Discipline of Uncertainty](../books/the-discipline-of-uncertainty/index.md) — Judgment and decision quality under incomplete information
+- [What We Cannot See](../../books/what-we-cannot-see/index.md) — Why perspective is partial; bias, judgment, and integration as civilizational adaptation
+- [After Certainty](../../books/after-certainty/index.md) — How to live and judge when understanding is not enough
+- [Living in Sediment](../../books/living-in-sediment/index.md) — How structures outlive the constraints that produced them
+- [How Meaning Moves](../../books/how-meaning-moves/index.md) — How meaning forms before disagreement begins
+- [The Discipline of Uncertainty](../../books/the-discipline-of-uncertainty/index.md) — Judgment and decision quality under incomplete information

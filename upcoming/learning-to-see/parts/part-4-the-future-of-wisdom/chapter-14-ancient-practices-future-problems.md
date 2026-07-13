@@ -408,7 +408,7 @@ AI can make study more accessible.
 
 It can define terms, provide context, compare interpretations, and help a reader reenter a passage that has become opaque.
 
-This is how a reading companion helped me with scripture—the same experiment that opened the book. Without assistance, I would often have stopped because the text did not hold my attention. The tool gave me routes back into it.
+This is the kind of assistance a reading companion can supply—as Chapter 13 examines with a sacred text returned to in midlife. Without assistance, a reader may often stop because the text does not hold their attention. The tool can provide routes back into it.
 
 But assistance can become substitution.
 
@@ -1298,7 +1298,7 @@ Responsibility that cannot be delegated to a system.
 
 Meaning that is lived rather than generated.
 
-The experiment continues. I began this book with an experiment I had never honestly tried—read, ponder, pray, and see what happened. It widened into questions about perception, formation, tradition, community, memory, suffering, and wisdom. It did not return me to the faith of my childhood, but it made the faith harder to reduce to a failed proposition and changed how I use artificial intelligence: as a companion in inquiry, not an authority delivering verdicts. The machine could help me see. It could not decide what the seeing required of me.
+The work continues. This book began with a question about formation, not a quest for a single verdict about belief. It widened into perception, tradition, community, memory, suffering, and wisdom—and, in its final part, into what remains scarce when answers become cheap. Artificial intelligence can companion inquiry without delivering the judgment, courage, or accountability the inquiry requires.
 
 We become capable of seeing through what we repeatedly do.
 

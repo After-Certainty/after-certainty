@@ -28,14 +28,14 @@ Planning artifact for cross-tradition comparisons. Guides the manuscript without
 
 | Chapter | Primary human challenge(s) | Dominant comparative row(s) |
 |---------|---------------------------|----------------------------|
-| Ch 4 — Learning What to Notice | Distraction | Distraction |
-| Ch 5 — The Defenses We Build | Self-deception; overconfidence | Self-deception; overconfidence |
-| Ch 6 — Wisdom Is Social | Isolation; tribalism | Isolation; tribalism |
-| Ch 7 — What Must Be Repeated | Forgetfulness | Forgetfulness |
-| Ch 8 — Being Right Is Not Enough | Conflict | Conflict |
-| Ch 9 — When Explanation Is Not Enough | Suffering; need for meaning | Suffering; need for meaning |
+| Ch 4 — What Attention Makes Visible | Distraction | Distraction |
+| Ch 5 — When Being Wrong Becomes Expensive | Self-deception; overconfidence | Self-deception; overconfidence |
+| Ch 6 — Seeing Together | Isolation; tribalism | Isolation; tribalism |
+| Ch 7 — Memory, Ritual, and Tradition | Forgetfulness | Forgetfulness |
+| Ch 8 — Conflict, Confession, and Repair | Conflict | Conflict |
+| Ch 9 — Suffering, Meaning, and Moral Imagination | Suffering; need for meaning | Suffering; need for meaning |
 
-Ch 3 (What the Mirror Cannot Show) draws on isolation, self-deception, and certainty pressure as setup for Part II.
+Ch 3 (The Limits of Seeing Alone) draws on isolation, self-deception, and certainty pressure as setup for Part II.
 
 ---
 

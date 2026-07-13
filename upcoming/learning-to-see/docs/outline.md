@@ -200,7 +200,7 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 
 ---
 
-### Chapter 3 — What the Mirror Cannot Show
+### Chapter 3 — The Limits of Seeing Alone
 
 | Field | Content |
 |-------|---------|
@@ -240,7 +240,7 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 
 ---
 
-### Chapter 4 — Learning What to Notice
+### Chapter 4 — What Attention Makes Visible
 
 | Field | Content |
 |-------|---------|
@@ -262,7 +262,7 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 
 ---
 
-### Chapter 5 — The Defenses We Build
+### Chapter 5 — When Being Wrong Becomes Expensive
 
 | Field | Content |
 |-------|---------|
@@ -282,7 +282,7 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 
 ---
 
-### Chapter 6 — Wisdom Is Social
+### Chapter 6 — Seeing Together
 
 | Field | Content |
 |-------|---------|
@@ -302,7 +302,7 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 
 ---
 
-### Chapter 7 — What Must Be Repeated
+### Chapter 7 — Memory, Ritual, and Tradition
 
 | Field | Content |
 |-------|---------|
@@ -322,7 +322,7 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 
 ---
 
-### Chapter 8 — Being Right Is Not Enough
+### Chapter 8 — Conflict, Confession, and Repair
 
 | Field | Content |
 |-------|---------|
@@ -342,7 +342,7 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 
 ---
 
-### Chapter 9 — When Explanation Is Not Enough
+### Chapter 9 — Suffering, Meaning, and Moral Imagination
 
 | Field | Content |
 |-------|---------|
@@ -440,7 +440,7 @@ Part II chapters additionally use the five-layer framework (see [`book-rules.md`
 
 ---
 
-### Chapter 13 — When Answers Become Cheap
+### Chapter 13 — When Intelligence Becomes Cheap
 
 | Field | Content |
 |-------|---------|

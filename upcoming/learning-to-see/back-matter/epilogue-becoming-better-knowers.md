@@ -20,15 +20,7 @@ It cannot remove the human task.
 
 We still have to decide what deserves attention, distinguish fluency from understanding, admit when evidence threatens something we want to preserve, remain accountable to the people who carry the consequences of our choices, and become the kind of people who can use intelligence without mistaking it for wisdom.
 
-This book began with a religious experiment.
-
-I read scripture, pondered it, prayed, and waited to see what happened.
-
-I did not recover the faith of my childhood.
-
-But the experiment changed what I could see.
-
-It helped me understand my parents, my culture, and the inherited scripts still active within me. It made spirituality harder to dismiss as mere irrationality and skepticism harder to treat as a view from nowhere. It led me toward a broader question: why have so many traditions developed practices of attention, humility, correction, memory, community, and repair?
+This book began with an experiment in sincerity and widened into a comparative inquiry: why have so many traditions developed practices of attention, humility, correction, memory, community, and repair?
 
 They did not arrive at the same answers.
 

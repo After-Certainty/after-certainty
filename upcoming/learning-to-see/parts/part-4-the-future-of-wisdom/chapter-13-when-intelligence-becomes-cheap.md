@@ -56,7 +56,7 @@ The final presentation was better because the machine organized what was visible
 
 That experience has become one of the ways I think about the future of intelligence.
 
-Artificial intelligence can make many forms of cognitive production faster and more abundant. It can summarize, compare, classify, explain, draft, reorganize, and generate alternatives. It can turn scattered notes into a report and a report into a presentation. It can write code, propose designs, produce arguments, and imitate the structure of a thoughtful conversation.
+Artificial intelligence can make many forms of cognitive production faster and more abundant.[^c13-ai-claims] It can summarize, compare, classify, explain, draft, reorganize, and generate alternatives. It can turn scattered notes into a report and a report into a presentation. It can write code, propose designs, produce arguments, and imitate the structure of a thoughtful conversation.
 
 This does not make intelligence meaningless.
 
@@ -1188,13 +1188,7 @@ When intelligence is everywhere, wisdom can no longer be mistaken for possession
 
 Wisdom becomes the capacity to know what an answer is for, what it leaves out, what it will cost, and who we must become before we can use it well.
 
-That brings us back to ancient practices.
-
-Not because the past predicted artificial intelligence.
-
-Not because every old tradition contains a hidden solution to a modern technical problem.
-
-Because the human limitations those traditions confronted remain—distraction, pride, self-deception, forgetfulness, isolation, fear, the need for belonging, and the temptation to confuse power with truth.
+That brings us back to ancient practices—not because the past predicted artificial intelligence, or because every old tradition contains a hidden solution to a modern technical problem, but because the human limitations those traditions confronted remain: distraction, pride, self-deception, forgetfulness, isolation, fear, the need for belonging, and the temptation to confuse power with truth.
 
 The final chapter turns toward those practices once more.
 
