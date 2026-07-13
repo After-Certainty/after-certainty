@@ -220,8 +220,6 @@ Heads nodded.
 
 Retrospective wisdom is cheaper than prospective restraint.
 
-In tightly coupled systems, small uncertainties move through handoffs faster than people can revisit them.[^c7-perrow-normal-accidents]
-
 At the next weekly review, Philip changed the order of the agenda. The unresolved dependencies came first. The change did not create more time. It made the tradeoff visible. If the room spent twenty minutes on uncertainty, a polished status item near the bottom might not be discussed.
 
 When Nora placed the plan on the screen, Philip pointed to the yellow rows. "These are not yellow because they matter less," he said. "They are yellow because we do not yet know what they will cost."
@@ -256,4 +254,3 @@ The distinction worth preserving is between **a room that has resolved its uncer
 
 [^c7-evaluative-threat-and-identity]: Edmondson, Amy C. *The Fearless Organization*. Hoboken, NJ: Wiley, 2018; Steele, Claude M. *Whistling Vivaldi*. New York: W. W. Norton & Company, 2010.
 [^c7-nickerson-confirmation-bias]: Nickerson, Raymond S. "Confirmation Bias." *Review of General Psychology* 2, no. 2 (1998): 175–220.
-[^c7-perrow-normal-accidents]: Perrow, Charles. *Normal Accidents*. Princeton, NJ: Princeton University Press, 1984.

@@ -53,9 +53,6 @@
 - Nickerson, Raymond S. "Confirmation Bias."
   *Review of General Psychology* 2, no. 2 (1998): 175–220.
 
-- Perrow, Charles. *Normal Accidents*.
-  Princeton, NJ: Princeton University Press, 1984.
-
 - Ross, Lee. "The Intuitive Psychologist and His Shortcomings."
   *Advances in Experimental Social Psychology* 10 (1977): 173–220.
 

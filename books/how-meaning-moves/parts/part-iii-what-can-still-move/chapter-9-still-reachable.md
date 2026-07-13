@@ -36,7 +36,7 @@ James added, "We had to do something. We did not have to pretend we had done eve
 
 The room did not relax into agreement. It remained tense in a different way—tense because the mixed results could still be heard without forcing one person to become reckless and the other obstructive.
 
-After the meeting, James and Rachel stood in the hallway where they had exchanged symmetrical politeness two weeks earlier. Parents passed behind them carrying folded diagrams and leftover coffee cups. The chair switched off the library lights.
+After the meeting, James and Rachel stood in the hallway where they had exchanged symmetrical politeness after the first vote. Parents passed behind them carrying folded diagrams and leftover coffee cups. The chair switched off the library lights.
 
 "I still think we waited too long the first time," James said.
 
