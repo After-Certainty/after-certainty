@@ -22,7 +22,7 @@ Reader goal: Understand how traditions form knowers, not only transmit answers�
 Reader goal: Compare how different traditions address recurring human limitations through practice—preserving differences in purpose, metaphysics, and ends.
 
 - [Part II — Practices for Recurring Human Problems](parts/part-2-practices-for-recurring-human-problems/bridge.md)
-- [Chapter 4 — Learning What to Notice](parts/part-2-practices-for-recurring-human-problems/chapter-4-learning-what-to-notice.md)
+- [Chapter 4 — What Attention Makes Visible](parts/part-2-practices-for-recurring-human-problems/chapter-4-what-attention-makes-visible.md)
 - [Chapter 5 — The Defenses We Build](parts/part-2-practices-for-recurring-human-problems/chapter-5-the-defenses-we-build.md)
 - [Chapter 6 — Wisdom Is Social](parts/part-2-practices-for-recurring-human-problems/chapter-6-wisdom-is-social.md)
 - [Chapter 7 — What Must Be Repeated](parts/part-2-practices-for-recurring-human-problems/chapter-7-what-must-be-repeated.md)

@@ -93,7 +93,7 @@ Refined titles in use; originals preserved here for author choice:
 | # | Current (outline) | Alternate |
 |---|-------------------|-----------|
 | 3 | The Limits of Seeing Alone | What the Mirror Cannot Show (outline alternate) |
-| 4 | Learning What to Notice | Attention |
+| 4 | What Attention Makes Visible | Learning What to Notice (outline alternate) |
 | 5 | The Defenses We Build | Humility and Self-Deception |
 | 6 | Wisdom Is Social | Community and Discernment |
 | 7 | What Must Be Repeated | Memory, Ritual, and Tradition |
