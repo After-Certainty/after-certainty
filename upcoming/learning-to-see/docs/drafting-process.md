@@ -93,4 +93,4 @@ When the manuscript is ready for the publishing pipeline:
 
 ## Current starting phase
 
-See `docs/status.md` — **Phase 2 (unit passes; Parts I–II complete)**.
+See `docs/status.md` — **Phase 2 (unit passes; Parts I–III complete)**.

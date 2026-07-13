@@ -2,9 +2,9 @@
 
 ## Current phase
 
-**Phase 2 — Unit passes (Parts I–II complete; Part III–IV pending)**
+**Phase 2 — Unit passes (Parts I–III complete; Part IV pending)**
 
-Part I and Part II units passed rules, echo, editorial, sensitivity, citation, and linkage checks July 2026. Part II chapters include five-layer comparative verification. Awaiting author review before Part III.
+Parts I–III units passed rules, echo, editorial, sensitivity, citation, and linkage checks July 2026. Awaiting author review before Part IV.
 
 ## Active branch
 
@@ -32,37 +32,36 @@ Part I and Part II units passed rules, echo, editorial, sensitivity, citation, a
 | Chapter 2 — Answers Are Not Enough | reviewed | Footnote on "epistemic spirituality" (author decision pending) |
 | Chapter 3 — The Limits of Seeing Alone | reviewed | Sets up Part II |
 | Part I bridge — The Practices We Build Around Our Limits | reviewed | Varied limitations inventory |
-| Chapter 4 — What Attention Makes Visible | reviewed | Reading-companion reframe; rhythm; sediment echo trim; five-layer (attention practices) |
-| Chapter 5 — When Being Wrong Becomes Expensive | reviewed | Rhythm; footnotes (Popper, Tetlock); five-layer (confession ↔ peer review) |
-| Chapter 6 — Seeing Together | reviewed | Integrated section labels; Follett footnote; five-layer (congregation ↔ research community) |
-| Chapter 7 — Memory, Ritual, and Tradition | reviewed | Compressed question lists; five-layer (ritual/memory) |
-| Chapter 8 — Conflict, Confession, and Repair | reviewed | Removed `##` subheadings; five-layer (forgiveness/repair analogies) |
-| Chapter 9 — Suffering, Meaning, and Moral Imagination | reviewed | Compressed Part II recap; five-layer (lament/accompaniment) |
-| Part II bridge — What Traditions Carry | reviewed | Compressed inheritance questions; turns to Part III |
-| Part III bridge | draft | End of Part III (after Ch 12); author title: The Next Scarcity |
-| Chapter 10 — Cultural Sediment | draft | Coordinate with *Living in Sediment* |
-| Chapter 11 — Archaeology Without Contempt | draft | Imported July 2026 |
-| Chapter 12 — Integration Without Reduction | draft | Imported July 2026 |
-| Part IV bridge | — | None; Ch 14 → epilogue |
+| Chapter 4 — What Attention Makes Visible | reviewed | Five-layer (attention practices) |
+| Chapter 5 — When Being Wrong Becomes Expensive | reviewed | Footnotes (Popper, Tetlock) |
+| Chapter 6 — Seeing Together | reviewed | Follett footnote |
+| Chapter 7 — Memory, Ritual, and Tradition | reviewed | Five-layer (ritual/memory) |
+| Chapter 8 — Conflict, Confession, and Repair | reviewed | Essayistic transitions |
+| Chapter 9 — Suffering, Meaning, and Moral Imagination | reviewed | Five-layer (lament/accompaniment) |
+| Part II bridge — What Traditions Carry | reviewed | Turns to Part III |
+| Chapter 10 — Cultural Sediment | reviewed | Compressed question lists; LDS/LIS footnote; *Living in Sediment* cross-ref |
+| Chapter 11 — Archaeology Without Contempt | reviewed | Integrated section labels; compressed archaeology questions |
+| Chapter 12 — Integration Without Reduction | reviewed | Compressed limitations echo; trimmed AI preview (bridge expands) |
+| Part III bridge — The Next Scarcity | reviewed | Varied limitations list; Part IV doorway (AI scarcity) |
 | Chapter 13 — When Intelligence Becomes Cheap | draft | Ch 1 callback |
 | Chapter 14 — Ancient Practices, Future Problems | draft | Imported July 2026 |
+| Part IV bridge | — | None; Ch 14 → epilogue |
 | Epilogue — Becoming Better Knowers | draft | Imported July 2026 |
 
 **Phase column values:** `draft` = prose imported, Phase 2 not complete. `reviewed` = agent Phase 2 passes complete; author review pending. `approved` = author sign-off; ready for Part coherence gate.
 
 ## Next actions
 
-1. **Author review** of Parts I–II (all units marked `reviewed`).
-2. **Phase 3 Part I coherence gate** — bridge continuity, terminology, example distribution.
-3. **Phase 3 Part II coherence gate** — six-chapter progression, five-layer consistency, no restatement without nuance.
-4. **Phase 2 Part III** — Chapters 10–12 + Part III bridge.
-5. Sync `docs/outline.md` chapter titles with author-chosen titles.
+1. **Author review** of Parts I–III.
+2. **Phase 3 coherence gates** — Parts I, II, III.
+3. **Phase 2 Part IV** — Chapters 13–14 + epilogue.
+4. Sync `docs/outline.md` chapter titles with author-chosen titles.
 
 ## Open decisions / known issues
 
 - See [`open-questions.md`](open-questions.md).
-- Ch 1 sediment preview trimmed in Phase 2; full development remains Ch 10.
-- Part II Ch 8 formerly used `##` subheadings; converted to essayistic transitions in Phase 2.
+- Ch 10 LDS cohesion hypothesis flagged for historian consultation (footnote).
+- Ch 12 AI scarcity preview trimmed; Part III bridge and Ch 13 carry payoff thread.
 
 ## Rough scale
 

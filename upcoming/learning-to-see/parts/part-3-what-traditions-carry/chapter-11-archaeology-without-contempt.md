@@ -58,33 +58,13 @@ A family habit may preserve a response to scarcity long after the money has beco
 
 To excavate the practice is not to declare it good.
 
-It is to recover enough of the buried problem that judgment can become more precise.
-
-The question is not only:
-
-Is this practice harmful?
-
-It is also:
-
-What world made this practice seem necessary?
-
-Then:
-
-Is that still the world we inhabit?
-
-And finally:
-
-Who is now paying for the difference?
-
-These questions belong together.
+It is to recover enough of the buried problem that judgment can become more precise. The questions belong together: Is this practice harmful? What world made it seem necessary? Is that still the world we inhabit? Who is now paying for the difference?
 
 Remove the first, and archaeology becomes romanticism.
 
 Remove the second, and tradition becomes timeless.
 
 Remove the third, and history becomes an excuse.
-
-The speed of contempt
 
 Contempt often presents itself as moral clarity.
 
@@ -145,8 +125,6 @@ Not indefinitely.
 Some harms require immediate boundaries.
 
 But where time and safety permit, understanding the buried function can make change more intelligent.
-
-Reverence makes its own mistake
 
 Contempt is not the only way to flatten inheritance.
 
@@ -224,8 +202,6 @@ They must be examined.
 
 But examination becomes impossible when continuity itself is treated as proof.
 
-Begin with the practice's own account
-
 A practice should first be allowed to describe itself.
 
 This does not mean accepting its claims uncritically. It means refusing to decide what the practice is before listening to the people for whom it carries meaning.
@@ -298,8 +274,6 @@ Who is described by it but rarely heard within it?
 
 A living practice has more than one witness.
 
-The people who benefited and the people who adapted
-
 Communities often describe practices through the people for whom the practice worked.
 
 The disciplined student.
@@ -357,8 +331,6 @@ Who is permitted to remain complex?
 Who becomes a category when they resist?
 
 Power appears not only in rules but in whose adaptation is mistaken for consent.
-
-The counterfactual question
 
 One of the hardest questions is what would have happened without the practice.
 
@@ -422,8 +394,6 @@ Archaeology improves the decision.
 
 It does not eliminate the need to choose.
 
-Safety sets limits on excavation
-
 There are circumstances in which curiosity should not come first.
 
 A person is unsafe.
@@ -485,8 +455,6 @@ That improvement may be valuable.
 The person still has the right to refuse.
 
 Their experience does not become communal property merely because the institution now understands that it failed.
-
-The danger of elegant history
 
 Historical explanations can become too elegant.
 

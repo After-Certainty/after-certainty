@@ -12,19 +12,7 @@ Repentance resembles changing one's direction after discovering that an earlier 
 
 Meditation and prayer both train attention.
 
-The parallels helped me see something I had struggled to name. Traditions that disagree about reality often develop practices around recurring human limitations.
-
-We become overconfident.
-
-We deceive ourselves.
-
-We forget what matters.
-
-We interpret private experience too generously.
-
-We need other people to expose what we cannot see alone.
-
-We become attached to conclusions because identity, belonging, and status have gathered around them.
+The parallels helped me see something I had struggled to name. Traditions that disagree about reality often develop practices around recurring human limitations—overconfidence, self-deception, forgetfulness, isolation, and the attachments that make correction personally expensive.
 
 Science, philosophy, and spiritual traditions do not respond to these difficulties in the same way. But they often recognize the same human animal.
 
@@ -85,8 +73,6 @@ None contains the whole.
 The question is not whether translation is allowed. Translation is unavoidable. We understand unfamiliar practices partly through concepts we already possess.
 
 The question is whether we remember that the translation is ours.
-
-The seduction of the universal pattern
 
 Human beings are drawn to patterns.
 
@@ -167,8 +153,6 @@ Each also creates characteristic blind spots.
 A universal pattern becomes useful when it sends us back toward those differences with better questions.
 
 It becomes dangerous when it convinces us that the differences were superficial all along.
-
-The claim that every tradition says the same thing
 
 People sometimes try to honor religious diversity by claiming that every tradition teaches the same underlying truth.
 
@@ -455,8 +439,6 @@ Abstraction reveals structure.
 It also removes texture.
 
 Philosophy needs history, literature, science, and lived experience to keep its concepts answerable to worlds people actually inhabit.
-
-The danger of borrowing practices
 
 Modern culture is skilled at separating practices from the traditions that formed them.
 
@@ -860,8 +842,6 @@ These questions are not interchangeable.
 
 Together, they create a more demanding field of vision.
 
-The discipline of remaining unfinished
-
 Integration is uncomfortable because it resists closure.
 
 The mind wants to know which framework wins.
@@ -912,8 +892,6 @@ I can accept that a tradition helped people survive while naming the harm produc
 
 Integration is the capacity to maintain these layered judgments without forcing them into one verdict.
 
-The encounter that changes the question
-
 The most valuable exchanges do not always provide answers.
 
 They change what we think the question is.
@@ -960,8 +938,6 @@ Reduction uses the encounter to confirm that one framework was sufficient all al
 
 Integration allows the other to reveal where sufficiency was an illusion.
 
-What must remain distinct
-
 Some distinctions should be protected deliberately.
 
 Empirical claims should remain answerable to evidence.
@@ -997,8 +973,6 @@ The psychologist explains the ritual.
 The philosopher explains everyone.
 
 Integration requires each participant to know where interpretation becomes conquest.
-
-A larger room
 
 I do not expect the traditions gathered in this book to agree.
 
@@ -1062,60 +1036,6 @@ These are not weak conclusions.
 
 They require more discipline than declaring that everyone is the same or that only one framework sees clearly.
 
-The next scarcity
+For most of human history, access to information was limited by distance, literacy, institutions, language, and the labor required to preserve and retrieve knowledge. That constraint shaped many of the practices this book has examined. It is now dissolving—not into certainty, but into fluent synthesis that can hide the differences integration requires.
 
-For most of human history, access to information was limited by distance, literacy, institutions, language, and the labor required to preserve and retrieve knowledge.
-
-That world is changing.
-
-A person can ask a machine to summarize a philosophical tradition, compare religious practices, generate objections, explain a scientific paper, draft an apology, or produce a plausible synthesis in seconds.
-
-The machine can place many voices in one paragraph.
-
-It can make integration appear easy.
-
-But combining language is not the same as holding differences honestly.
-
-A summary can erase precisely the distinctions that matter.
-
-An answer can sound balanced because every perspective received a sentence.
-
-A synthesis can become persuasive before anyone has asked whether the sources were understood on their own terms.
-
-Artificial intelligence intensifies the temptation this chapter has tried to resist.
-
-It makes reduction fluent.
-
-It can translate every tradition into the user's preferred framework without showing what was lost in translation.
-
-It can produce humility as a tone, confession as a format, contemplation as an exercise, and wisdom as a list.
-
-The output may be useful.
-
-The person still has to judge what kind of encounter occurred.
-
-Was another perspective allowed to challenge the frame?
-
-Or was it compressed into language the user already knows how to accept?
-
-Did the comparison preserve difference?
-
-Did the answer distinguish evidence, meaning, belief, and speculation?
-
-Did the person become more teachable?
-
-Or merely more articulate?
-
-These questions lead toward the final movement of this book.
-
-When intelligence becomes abundant, the difficult human capacity may no longer be producing answers.
-
-It may be discerning which answers deserve trust, which differences must remain visible, and what kind of person we are becoming while we use them.
-
-Integration without reduction is not only a way of comparing traditions.
-
-It is preparation for a world in which synthesis will become increasingly cheap.
-
-The machine may produce the larger room.
-
-Human beings will still have to learn how to inhabit it.
+The final part asks what human capacities remain worth cultivating when answers become cheap, and whether ancient practices still address limitations that abundance cannot remove.

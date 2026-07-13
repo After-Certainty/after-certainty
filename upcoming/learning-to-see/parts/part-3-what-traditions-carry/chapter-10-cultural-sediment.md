@@ -44,9 +44,7 @@ This does not mean the code should remain.
 
 It means removal should begin with a better question than, "Why would anyone do this?"
 
-The better question is:
-
-What was this doing for the system when it first appeared?
+The better question is what this was doing for the system when it first appeared.
 
 That question changes the work.
 
@@ -91,8 +89,6 @@ Cultural sediment can carry wisdom, discipline, memory, and forms of cooperation
 It can also harden around conditions that no longer exist.
 
 The difficulty is that the same practice may be doing both.
-
-The solution that becomes character
 
 Imagine a family that lived through sustained economic insecurity.
 
@@ -160,8 +156,6 @@ Sediment is not removed by explanation alone.
 
 It is revised through new conditions repeated long enough to become believable.
 
-Institutions remember through incentives
-
 Organizations develop sediment too.
 
 A company experiences a serious failure. Leadership responds by creating a review process, approval gate, documentation requirement, or separation of duties. The control may solve a real problem.
@@ -208,25 +202,7 @@ But speed is not evidence that sediment is useless.
 
 The work is to distinguish a control that still protects a real boundary from one that has become a ritual of safety disconnected from risk.
 
-This requires history.
-
-Why was the process created?
-
-What happened before it existed?
-
-What has changed since?
-
-Which risks are now controlled elsewhere?
-
-What work does the process prevent?
-
-What work does it merely delay?
-
-Who benefits from preserving it?
-
-Who carries its cost?
-
-What would we need to observe if we changed it?
+This requires history: why the process was created, what happened before it existed, what has changed since, which risks are now controlled elsewhere, what work it prevents or merely delays, who benefits from preserving it, who carries its cost, and what we would need to observe if we changed it.
 
 Without those questions, organizations alternate between reverence and purge.
 
@@ -235,8 +211,6 @@ The old process is sacred because it is policy.
 Then the new leader declares transformation and removes everything that looks slow.
 
 Both postures avoid understanding.
-
-The sediment of success
 
 Sediment does not form only from suffering.
 
@@ -292,9 +266,7 @@ That sentence can carry wisdom.
 
 It can also mean that the community has confused a path through one environment with a law of nature.
 
-Pioneer stories
-
-The cultural sediment I recognize most personally comes from Utah and the Latter-day Saint world in which I was raised.
+The cultural sediment I recognize most personally comes from Utah and the Latter-day Saint world in which I was raised.[^c10-lds-hypothesis]
 
 I want to approach this carefully.
 
@@ -378,8 +350,6 @@ They responded to their conditions.
 
 We must respond to ours.
 
-The danger of compassionate explanation
-
 The sediment lens can become too forgiving.
 
 Once we understand that a practice solved a problem, we may feel less willing to challenge it.
@@ -450,8 +420,6 @@ A serious archaeology of culture must distribute context more evenly.
 
 It must ask what shaped both the person exercising authority and the person adapting beneath it.
 
-The sediment of exile
-
 Immigrant and displaced communities often carry adaptations whose meaning changes across generations.
 
 Parents who left instability may emphasize educational achievement, financial security, professional respectability, family loyalty, and caution toward institutions.
@@ -504,8 +472,6 @@ The child may see opportunities the parents' history makes difficult to trust.
 
 The question is whether the family can carry the memory without requiring the next generation to inhabit the original danger.
 
-Sediment in professions
-
 Professions develop moral sediment around the failures they fear most.
 
 Medicine learns caution from harm. Law learns procedure from injustice and dispute. Engineering learns redundancy from failure. Journalism learns verification from manipulation. Military institutions learn discipline from conditions in which hesitation can cost lives.
@@ -551,8 +517,6 @@ But procedure becomes sediment when following it substitutes for examining wheth
 The institution remembers the form.
 
 It forgets the failure that gave the form meaning.
-
-Sacred sediment
 
 Religious traditions carry sediment with unusual strength because practices may be understood not only as inherited but as sacred.
 
@@ -602,27 +566,11 @@ It is inherently liberating.
 
 Sediment rarely yields to one sentence.
 
-The practice must be encountered at several levels:
-
-What does it mean within the tradition?
-
-What history shaped its current form?
-
-What capacity does it cultivate?
-
-What identity does it preserve?
-
-Who can inhabit it without injury?
-
-Who is required to disappear?
-
-What happens when someone refuses?
+The practice must be encountered at several levels: what it means within the tradition, what history shaped its current form, what capacity it cultivates, what identity it preserves, who can inhabit it without injury, who is required to disappear, and what happens when someone refuses.
 
 These questions do not guarantee a shared verdict.
 
 They make the verdict more answerable to the whole practice rather than one preferred layer.
-
-Stability is not stagnation
 
 Modern cultures often praise disruption.
 
@@ -684,8 +632,6 @@ The first answer may be, "That is just how things are."
 
 That answer often marks the place where history has become nature.
 
-What erosion reveals
-
 Sediment becomes visible when it is disturbed.
 
 A new generation refuses the inherited role.
@@ -746,8 +692,6 @@ Change always loses something.
 
 The question is whether the community can choose the loss honestly rather than pretending that either preservation or removal is costless.
 
-The original conditions never disappear completely
-
 It is tempting to imagine a clean sequence.
 
 A danger existed.
@@ -805,8 +749,6 @@ It is to remember precisely enough that every new condition does not become the 
 A community must distinguish vigilance from permanent siege.
 
 That distinction is difficult when siege once produced the solidarity through which the community understands itself.
-
-Practices can survive their explanations
 
 Sometimes the original explanation for a practice becomes implausible while the practice continues to provide value.
 
@@ -866,8 +808,6 @@ These questions complicate change.
 
 They do not prohibit it.
 
-The sediment inside critique
-
 Even the desire to expose sediment is culturally formed.
 
 Modern criticism carries its own inherited assumptions:
@@ -923,8 +863,6 @@ Some criticisms are better supported.
 Some traditions cause greater harm.
 
 The point is that seeing sediment in others should make us curious about the ground beneath our own feet.
-
-Refactoring culture
 
 In software, the safest refactoring often begins by preserving behavior.
 
@@ -998,8 +936,6 @@ We should know what we are preserving.
 
 We should be honest about what neither choice can save.
 
-A safer question
-
 I still encounter old code that makes no sense to me.
 
 My first reaction has not become pure.
@@ -1030,25 +966,7 @@ They could also see dangers we have forgotten.
 
 The task is not to choose between gratitude and criticism.
 
-It is to become capable of both.
-
-What problem was this solving?
-
-What wisdom did it preserve?
-
-What fear did it institutionalize?
-
-What does it protect now?
-
-What does it prevent now?
-
-Who experiences the practice as stability?
-
-Who experiences it as constraint?
-
-What would happen if it disappeared?
-
-What would happen if it remained?
+It is to become capable of both: what problem was this solving, what wisdom did it preserve, what fear did it institutionalize, what it protects and prevents now, who experiences it as stability and who as constraint, and what would happen if it disappeared or remained.
 
 These questions do not produce automatic answers.
 
@@ -1077,3 +995,5 @@ Some should be named as harm and allowed to end.
 But we cannot judge what we refuse to understand.
 
 The next chapter turns toward that discipline: how to excavate inherited practices without romanticizing them, excuse their harms, or assume that seeing their historical function settles what they should become now.
+
+[^c10-lds-hypothesis]: The link between persecution, frontier settlement, cohesion norms, and later difficulty challenging authority is offered as a working hypothesis for historical examination—not as settled LDS history. Consultation with an LDS historian is planned before publication. For a cross-book treatment of structural fossils, see *Living in Sediment*; this chapter develops cultural sediment within the practice-formation arc of *Learning to See*.
